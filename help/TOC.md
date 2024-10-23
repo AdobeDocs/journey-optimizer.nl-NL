@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1be920fb8b3ea825e38084f459523ccde0ad979b
+source-git-commit: 972d517ec2a5779f8c3196b40f1418b9c207d791
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2147'
 ht-degree: 25%
 
 ---
@@ -195,94 +195,96 @@ ht-degree: 25%
       + [Goedkeuringsbeleid maken en beheren](using/test-approve/approval-policies.md)
       + [Goedkeuring aanvragen](using/test-approve/request-approval.md)
       + [Een verzoek goedkeuren](using/test-approve/review-approve-request.md)
-+ E-mailkanaal {#email}
-   + [Aan de slag met e-mails](using/email/get-started-email.md)
-   + [Een e-mail maken](using/email/create-email.md)
-   + Ontwerp uw e-mailinhoud {#design-email}
-      + [Aan de slag met e-mailontwerp](using/email/get-started-email-design.md)
-      + Beginnen met het maken van inhoud {#start-creating-content}
-         + [Inhoud helemaal opnieuw ontwerpen](using/email/content-from-scratch.md)
-         + [Uw inhoud importeren](using/email/existing-content.md)
-         + [Uw eigen inhoud coderen](using/email/code-content.md)
-         + [E-mailsjablonen gebruiken](using/email/use-email-templates.md)
-      + Inhoud ontwerpen {#add-content}
-         + [Inhoudscomponenten gebruiken](using/email/content-components.md)
-         + [Gebruik visuele fragmenten](using/email/use-visual-fragments.md)
-         + [Koppelingen toevoegen en berichten bijhouden](using/email/message-tracking.md)
-         + [Aangepaste aanbiedingen invoegen](using/email/add-offers-email.md)
-         + [De tekstversie genereren](using/email/text-version-email.md)
-         + [Een preheader toevoegen](using/email/preheader.md)
-      + Stijl bewerken {#edit-style}
-         + [Aan de slag met e-mailstijl](using/email/get-started-email-style.md)
-         + [Achtergrondinstellingen bewerken](using/email/backgrounds.md)
-         + [Verticale uitlijning en opvulling aanpassen](using/email/alignment-and-padding.md)
-         + [Inline-opmaakkenmerken toevoegen](using/email/inline-styling.md)
-   + [Experience Manager-sjablonen gebruiken](using/email/aem-templates.md)
-   + [ beheer e-mailopt-out ](using/email/email-opt-out.md)
-   + E-mailkanaal configureren {#configure-email}
-      + [Aan de slag met e-mailconfiguratie](using/email/get-started-email-config.md)
-      + [Instellingen voor e-mailconfiguratie configureren](using/email/email-settings.md)
-      + [E-mailconfiguratie aanpassen](using/email/surface-personalization.md)
-+ In-app kanaal {#in-app}
-   + [Aan de slag met In-app-kanaal](using/in-app/get-started-in-app.md)
-   + [Voorwaarden voor kanalen in de app](using/in-app/inapp-configuration.md)
-   + [Een mobiel bericht in de app maken](using/in-app/create-in-app.md)
-   + [Een bericht voor een webtoepassing maken](using/in-app/create-in-app-web.md)
-   + [In-app-inhoud ontwerpen](using/in-app/design-in-app.md)
-   + [In-app-meldingen controleren en verzenden](using/in-app/send-in-app.md)
-+ Het kanaal van het pushbericht {#push}
-   + [Aan de slag met pushmeldingen](using/push/get-started-push.md)
-   + [Een pushmelding maken](using/push/create-push.md)
-   + [Uw pushmelding ontwerpen](using/push/design-push.md)
-   + [Controleer en verzend uw pushmelding](using/push/send-push.md)
-   + Pushmeldingen configureren {#push-config}
-      + [Pushmeldingsstroom](using/push/push-gs.md)
-      + [Pushmeldingskanaal configureren](using/push/push-configuration.md)
-      + [Snelstartworkflow voor mobiele instaptoegang](using/push/mobile-onboarding-wf.md)
-+ SMS/MMS-kanaal {#sms}
-   + [Aan de slag met tekstberichten](using/sms/get-started-sms.md)
-   + [Een tekstbericht maken (SMS/MMS)](using/sms/create-sms.md)
-   + [De tekstberichten controleren en verzenden](using/sms/send-sms.md)
-   + [ beheer de opt-out van het tekstbericht ](using/sms/sms-opt-out.md)
-   + [SMS-subdomeinen instellen](using/sms/sms-subdomains.md)
-   + SMS/MMS-kanaal configureren {#configure-sms}
-      + [Ga aan de slag met de configuratie van SMS](using/sms/sms-configuration.md)
-      + [Sinch-provider configureren](using/sms/sms-configuration-sinch.md)
-      + [Infobip-provider configureren](using/sms/sms-configuration-infobip.md)
-      + [Twilio-provider configureren](using/sms/sms-configuration-twilio.md)
-      + [Een aangepaste provider configureren (Beta)](using/sms/sms-configuration-custom.md)
-      + [Een SMS-configuratie maken](using/sms/sms-configuration-surface.md)
-+ Direct mail {#direct-mail}
-   + [Aan de slag met direct mail](using/direct-mail/get-started-direct-mail.md)
-   + [Een directe e-mail maken](using/direct-mail/create-direct-mail.md)
-   + [Een direct-mailbericht controleren en verzenden](using/direct-mail/test-send-direct-mail.md)
-   + [Direct mail configureren](using/direct-mail/direct-mail-configuration.md)
-+ Webkanaal {#web}
-   + [Aan de slag met webkanaal](using/web/get-started-web.md)
-   + Webkanaal configureren {#configure-web-channel}
-      + [Voorwaarden voor webkanalen](using/web/web-prerequisites.md)
-      + [Websubdomeinen configureren](using/web/web-delegated-subdomains.md)
-      + [Webkanaalconfiguratie maken](using/web/web-configuration.md)
-   + [Webervaringen maken](using/web/create-web.md)
-   + Webpagina&#39;s van auteurs {#author-web-pages}
-      + [Webpagina-inhoud bewerken](using/web/edit-web-content.md)
-      + [Wijzigingen beheren](using/web/manage-web-modifications.md)
-      + [Uw webervaringen bewaken](using/web/monitor-web-experiences.md)
-      + [Toepassingen van één pagina maken](using/web/web-spa.md)
-+ Ervaring op basis van code {#code-based-experience}
-   + [Aan de slag met op code gebaseerd kanaal](using/code-based/get-started-code-based.md)
-   + [Guardrails en voorwaarden](using/code-based/code-based-prerequisites.md)
-   + [Op code gebaseerde ervaringsconfiguratie maken](using/code-based/code-based-configuration.md)
-   + [Voorbeelden van implementatiemethoden](using/code-based/code-based-implementation-samples.md)
-   + [Op code gebaseerde ervaringen maken](using/code-based/create-code-based.md)
-+ Inhoudskaarten {#content-card}
-   + [Aan de slag met inhoudskaarten](using/content-card/get-started-content-card.md)
-   + Kanaal voor inhoudskaart configureren {#configure}
-      + [Voorwaarden voor inhoudskaarten](using/content-card/content-card-configuration-prereq.md)
-      + [Het kanaal voor inhoudskaarten in Journey Optimizer configureren](using/content-card/content-card-configuration.md)
-      + [Ondersteuning voor inhoudskaarten configureren in Web SDK](using/content-card/content-card-configuration-sdk.md)
-   + [Inhoudskaarten maken](using/content-card/create-content-card.md)
-   + [Inhoudskaarten ontwerpen](using/content-card/design-content-card.md)
++ Communicatiekanalen {#communication-channels}
+   + [Aan de slag met communicatiekanalen](using/channels/gs-channels.md)
+   + E-mailkanaal {#email}
+      + [Aan de slag met e-mails](using/email/get-started-email.md)
+      + [Een e-mail maken](using/email/create-email.md)
+      + Ontwerp uw e-mailinhoud {#design-email}
+         + [Aan de slag met e-mailontwerp](using/email/get-started-email-design.md)
+         + Beginnen met het maken van inhoud {#start-creating-content}
+            + [Inhoud helemaal opnieuw ontwerpen](using/email/content-from-scratch.md)
+            + [Uw inhoud importeren](using/email/existing-content.md)
+            + [Uw eigen inhoud coderen](using/email/code-content.md)
+            + [E-mailsjablonen gebruiken](using/email/use-email-templates.md)
+         + Inhoud ontwerpen {#add-content}
+            + [Inhoudscomponenten gebruiken](using/email/content-components.md)
+            + [Gebruik visuele fragmenten](using/email/use-visual-fragments.md)
+            + [Koppelingen toevoegen en berichten bijhouden](using/email/message-tracking.md)
+            + [Aangepaste aanbiedingen invoegen](using/email/add-offers-email.md)
+            + [De tekstversie genereren](using/email/text-version-email.md)
+            + [Een preheader toevoegen](using/email/preheader.md)
+         + Stijl bewerken {#edit-style}
+            + [Aan de slag met e-mailstijl](using/email/get-started-email-style.md)
+            + [Achtergrondinstellingen bewerken](using/email/backgrounds.md)
+            + [Verticale uitlijning en opvulling aanpassen](using/email/alignment-and-padding.md)
+            + [Inline-opmaakkenmerken toevoegen](using/email/inline-styling.md)
+      + [Experience Manager-sjablonen gebruiken](using/email/aem-templates.md)
+      + [ beheer e-mailopt-out ](using/email/email-opt-out.md)
+      + E-mailkanaal configureren {#configure-email}
+         + [Aan de slag met e-mailconfiguratie](using/email/get-started-email-config.md)
+         + [Instellingen voor e-mailconfiguratie configureren](using/email/email-settings.md)
+         + [E-mailconfiguratie aanpassen](using/email/surface-personalization.md)
+   + In-app kanaal {#in-app}
+      + [Aan de slag met In-app-kanaal](using/in-app/get-started-in-app.md)
+      + [Voorwaarden voor kanalen in de app](using/in-app/inapp-configuration.md)
+      + [Een mobiel bericht in de app maken](using/in-app/create-in-app.md)
+      + [Een bericht voor een webtoepassing maken](using/in-app/create-in-app-web.md)
+      + [In-app-inhoud ontwerpen](using/in-app/design-in-app.md)
+      + [In-app-meldingen controleren en verzenden](using/in-app/send-in-app.md)
+   + Het kanaal van het pushbericht {#push}
+      + [Aan de slag met pushmeldingen](using/push/get-started-push.md)
+      + [Een pushmelding maken](using/push/create-push.md)
+      + [Uw pushmelding ontwerpen](using/push/design-push.md)
+      + [Controleer en verzend uw pushmelding](using/push/send-push.md)
+      + Pushmeldingen configureren {#push-config}
+         + [Pushmeldingsstroom](using/push/push-gs.md)
+         + [Pushmeldingskanaal configureren](using/push/push-configuration.md)
+         + [Snelstartworkflow voor mobiele instaptoegang](using/push/mobile-onboarding-wf.md)
+   + SMS/MMS-kanaal {#sms}
+      + [Aan de slag met tekstberichten](using/sms/get-started-sms.md)
+      + [Een tekstbericht maken (SMS/MMS)](using/sms/create-sms.md)
+      + [De tekstberichten controleren en verzenden](using/sms/send-sms.md)
+      + [ beheer de opt-out van het tekstbericht ](using/sms/sms-opt-out.md)
+      + [SMS-subdomeinen instellen](using/sms/sms-subdomains.md)
+      + SMS/MMS-kanaal configureren {#configure-sms}
+         + [Ga aan de slag met de configuratie van SMS](using/sms/sms-configuration.md)
+         + [Sinch-provider configureren](using/sms/sms-configuration-sinch.md)
+         + [Infobip-provider configureren](using/sms/sms-configuration-infobip.md)
+         + [Twilio-provider configureren](using/sms/sms-configuration-twilio.md)
+         + [Een aangepaste provider configureren (Beta)](using/sms/sms-configuration-custom.md)
+         + [Een SMS-configuratie maken](using/sms/sms-configuration-surface.md)
+   + Direct mail {#direct-mail}
+      + [Aan de slag met direct mail](using/direct-mail/get-started-direct-mail.md)
+      + [Een directe e-mail maken](using/direct-mail/create-direct-mail.md)
+      + [Een direct-mailbericht controleren en verzenden](using/direct-mail/test-send-direct-mail.md)
+      + [Direct mail configureren](using/direct-mail/direct-mail-configuration.md)
+   + Webkanaal {#web}
+      + [Aan de slag met webkanaal](using/web/get-started-web.md)
+      + Webkanaal configureren {#configure-web-channel}
+         + [Voorwaarden voor webkanalen](using/web/web-prerequisites.md)
+         + [Websubdomeinen configureren](using/web/web-delegated-subdomains.md)
+         + [Webkanaalconfiguratie maken](using/web/web-configuration.md)
+      + [Webervaringen maken](using/web/create-web.md)
+      + Webpagina&#39;s van auteurs {#author-web-pages}
+         + [Webpagina-inhoud bewerken](using/web/edit-web-content.md)
+         + [Wijzigingen beheren](using/web/manage-web-modifications.md)
+         + [Uw webervaringen bewaken](using/web/monitor-web-experiences.md)
+         + [Toepassingen van één pagina maken](using/web/web-spa.md)
+   + Ervaring op basis van code {#code-based-experience}
+      + [Aan de slag met op code gebaseerd kanaal](using/code-based/get-started-code-based.md)
+      + [Guardrails en voorwaarden](using/code-based/code-based-prerequisites.md)
+      + [Op code gebaseerde ervaringsconfiguratie maken](using/code-based/code-based-configuration.md)
+      + [Voorbeelden van implementatiemethoden](using/code-based/code-based-implementation-samples.md)
+      + [Op code gebaseerde ervaringen maken](using/code-based/create-code-based.md)
+   + Inhoudskaarten {#content-card}
+      + [Aan de slag met inhoudskaarten](using/content-card/get-started-content-card.md)
+      + Kanaal voor inhoudskaart configureren {#configure}
+         + [Voorwaarden voor inhoudskaarten](using/content-card/content-card-configuration-prereq.md)
+         + [Het kanaal voor inhoudskaarten in Journey Optimizer configureren](using/content-card/content-card-configuration.md)
+         + [Ondersteuning voor inhoudskaarten configureren in Web SDK](using/content-card/content-card-configuration-sdk.md)
+      + [Inhoudskaarten maken](using/content-card/create-content-card.md)
+      + [Inhoudskaarten ontwerpen](using/content-card/design-content-card.md)
 + Landingspagina’s {#landing-pages}
    + [Aan de slag met bestemmingspagina&#39;s](using/landing-pages/get-started-lp.md)
    + [Een landingspagina maken](using/landing-pages/create-lp.md)
@@ -701,3 +703,4 @@ ht-degree: 25%
       + [Werken met toestemmingsbeleid](using/action/consent.md)
    + [Datagovernance](using/action/action-privacy.md)
    + [Door de klant beheerde sleutels instellen en beheren](using/privacy/cmk.md)
+
