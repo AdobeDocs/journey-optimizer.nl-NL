@@ -7,10 +7,10 @@ role: User
 level: Experienced
 badge: label="Beperkte beschikbaarheid"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 5ffa0937bd9f23f29c8f02d2951cccac73d75f1b
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 1%
+source-wordcount: '1769'
+ht-degree: 0%
 
 ---
 
@@ -29,6 +29,12 @@ Het beslissingsbeleid bevat alle selectielogica waarmee de beslissingsengine de 
 >[!NOTE]
 >
 >In het [!DNL Journey Optimizer] gebruikersinterface, wordt het besluitvormingsbeleid geëtiketteerd als besluiten <!--but they are decision policies. TBC if this note is needed-->.
+
+De belangrijkste stappen om besluitvormingsbeleid in uw op code-gebaseerde campagnes te gebruiken zijn als volgt:
+
+1. [Een beslissingsbeleid maken in een op code gebaseerde campagne](#add-decision)
+1. [Gebruik het besluitvormingsbeleid in de op code-gebaseerde campagne](#use-decision-policy)
+1. [Aangepaste Customer Journey Analytics-rapporteringsdashboards maken](#cja)
 
 ## Voeg een besluitvormingsbeleid aan een code-gebaseerde campagne toe {#add-decision}
 
@@ -51,6 +57,8 @@ Het beslissingsbeleid bevat alle selectielogica waarmee de beslissingsengine de 
 
 Als u uw bezoekers de beste dynamische aanbieding en ervaring wilt laten zien op uw website of mobiele app, voegt u een beslissingsbeleid toe aan een op code gebaseerde campagne. Volg de onderstaande stappen om dit te doen.
 
+### Het beslissingsbeleid maken {#add}
+
 1. Maak een campagne en selecteer de handeling **[!UICONTROL Code-base experience]** . [Meer informatie](../code-based/create-code-based.md)
 
 1. Van de [ coderedacteur ](../code-based/create-code-based.md#edit-code), selecteer het **[!UICONTROL Decision policy]** pictogram en klik **[!UICONTROL Add decision policy]**.
@@ -63,50 +71,45 @@ Als u uw bezoekers de beste dynamische aanbieding en ervaring wilt laten zien op
    >
    >Momenteel is alleen de standaardcatalogus **[!UICONTROL Offers]** beschikbaar.
 
+1. Selecteer het aantal objecten dat je wilt retourneren. Als u bijvoorbeeld 2 selecteert, worden de beste twee in aanmerking komende aanbiedingen voor de huidige configuratie weergegeven. Klik op **[!UICONTROL Next]**.
+
    ![](assets/decision-code-based-details.png)
 
-1. Selecteer het aantal objecten dat je wilt retourneren. Als u bijvoorbeeld 2 selecteert, worden de beste twee in aanmerking komende aanbiedingen voor de huidige configuratie weergegeven. Klikken **[!UICONTROL Next]**
+### Items selecteren en selectiestrategieën {#select}
 
-1. Gebruik de knop **[!UICONTROL Add strategy]** om de selectiestrategieën voor uw beslissingsbeleid te definiëren. Elke strategie bestaat uit een verzameling aanbiedingen die gekoppeld is aan een toelatingsbeperking en een rangschikkingsmethode om te bepalen welke aanbiedingen moeten worden getoond. [Meer informatie](selection-strategies.md)
+In de sectie **[!UICONTROL Strategy sequence]** kunt u de beslissingsitems en de selectiestrategieën selecteren die u met het beslissingsbeleid wilt presenteren.
 
-   ![](assets/decision-code-based-strategies.png)
+1. Klik op de knop **[!UICONTROL Add]** en kies het type object dat u in het beleid wilt opnemen:
 
-   >[!NOTE]
-   >
-   >Er is ten minste één strategie nodig. U kunt niet meer dan tien strategieën toevoegen.
+   * **[!UICONTROL Selection strategy]**: voeg een of meerdere selectiestrategieën toe. Beslissingsstrategieën maken gebruik van collecties die verband houden met toelatingsbeperkingen en rangordemethoden om te bepalen welke items moeten worden getoond. U kunt een bestaande selectiestrategie selecteren of een nieuwe selectiestrategie maken met de knop **[!UICONTROL Create selection strategy]** .[ Leer hoe te om selectiestrategieën ](selection-strategies.md) tot stand te brengen
 
-1. Vanuit het **[!UICONTROL Add strategy]** -scherm kunt u ook een strategie maken. De knop **[!UICONTROL Create selection strategy]** leidt u om naar het menu **[!UICONTROL Experience decisioning]** > **[!UICONTROL Strategy setup]** . [Meer informatie](selection-strategies.md)
+   * **[!UICONTROL Decision item]**: voeg enkele beslissingsitems toe die u wilt presenteren zonder dat u een selectiestrategie hoeft te doorlopen. U kunt slechts één beslissingsitem tegelijk selecteren. Alle voorwaarden die voor het onderdeel zijn ingesteld, zijn van toepassing.
 
-   ![](assets/decision-code-based-add-strategy.png)
-
-1. Wanneer u meerdere strategieën toevoegt, worden deze in een bepaalde volgorde geëvalueerd. De eerste strategie die aan de opeenvolging werd toegevoegd zal eerst worden geëvalueerd, etc. [Meer informatie](#evaluation-order)
-
-   Als u de standaardvolgorde wilt wijzigen, kunt u de strategieën en/of groepen verslepen en neerzetten om ze naar wens opnieuw te rangschikken.
-
-   ![](assets/decision-code-based-strategy-groups.png)
-
-1. Voeg een fallback toe. Er wordt een fallback-item weergegeven voor de gebruiker als geen van de bovenstaande selectiestrategieën is gekwalificeerd.
-
-   ![](assets/decision-code-based-strategy-fallback.png)
-
-   U kunt elk item in de lijst selecteren, waarin alle beslissingsitems worden weergegeven die in de huidige sandbox zijn gemaakt. Als geen selectiestrategie wordt gekwalificeerd, wordt fallback getoond aan de gebruiker ongeacht de data en de geschiktheidsbeperking die op het geselecteerde punt <!--nor frequency capping when available - TO CLARIFY--> wordt toegepast.
+   ![](assets/decision-code-based-strategy-sequence.png)
 
    >[!NOTE]
    >
-   >Een fallback is optioneel. Als er geen fallback is geselecteerd en geen strategie is gekwalificeerd, wordt er niets weergegeven door [!DNL Journey Optimizer] .
+   >Er is ten minste één beslissingsonderdeel of strategie vereist. U kunt niet meer dan tien strategieën toevoegen.
 
-1. Sla de selectie op en klik op **[!UICONTROL Create]** . Nu het besluitvormingsbeleid wordt gecreeerd, kunt u de besluitvormingsattributen binnen uw code-gebaseerde ervaringsinhoud gebruiken. [Meer informatie](#use-decision-policy)
+1. Wanneer het toevoegen van verscheidene besluitvormingspunten en/of strategieën, zullen zij in een specifieke orde worden geëvalueerd. Het eerste object dat aan de reeks is toegevoegd, wordt eerst geëvalueerd, enzovoort.     Als u de standaardvolgorde wilt wijzigen, kunt u de objecten en/of de groepen slepen en neerzetten om ze naar wens opnieuw te rangschikken. [ leer meer over de evaluatieorde van het besluitvormingsbeleid ](#evaluation-order)
 
-   ![](assets/decision-code-based-decision-added.png)
+### De evaluatievolgorde in een beslissingsbeleid beheren {#evaluation-order}
 
-## Evaluatievolgorde {#evaluation-order}
+Nadat u besluitvormingspunten en selectiestrategieën aan uw beleid hebt toegevoegd, kunt u hun volgorde rangschikken om hun evaluatievolgorde te bepalen en kunt u selectiestrategieën combineren om deze samen te evalueren.
 
-Zoals hierboven is beschreven, bestaat een strategie uit een verzameling, een waarderingsmethode en subsidiabiliteitsbeperkingen.
+De **opeenvolgende orde** waarin de punten en de strategieën zullen worden geëvalueerd wordt vermeld met aantallen links van elk voorwerp of groep voorwerpen. Als u de positie van een selectiestrategie (of een groep strategieën) binnen de reeks wilt verplaatsen, sleept u deze naar een andere positie.
 
-U kunt:
+>[!NOTE]
+>
+>Alleen selectiestrategieën kunnen binnen een reeks worden gesleept en neergezet. Als u de positie van een beslissingsitem wilt wijzigen, moet u het item verwijderen en opnieuw toevoegen met de knop **[!UICONTROL Add]** nadat u de andere items hebt toegevoegd die u eerder wilt evalueren.
 
-* Stel de gewenste volgorde in voor de strategieën die moeten worden geëvalueerd.
-* Combineer meerdere strategieën, zodat deze samen en niet afzonderlijk worden geëvalueerd.
+![](assets/decision-code-based-strategy-groups.png)
+
+U kunt **** veelvoudige selectiestrategieën in groepen ook combineren zodat worden zij samen en niet afzonderlijk geëvalueerd. Klik hiertoe op de knop **`+`** onder een selectiestrategie om deze te combineren met een andere. U kunt een selectiestrategie ook naar een andere slepen om de twee strategieën in een groep te groeperen.
+
+>[!NOTE]
+>
+>Beslissingsonderdelen kunnen niet worden gegroepeerd met andere onderdelen of selectiestrategieën.
 
 Meerdere strategieën en de groepering daarvan bepalen de prioriteit van de strategieën en de rangorde van de in aanmerking komende aanbiedingen. De eerste strategie heeft de hoogste prioriteit en de strategieën in dezelfde groep hebben dezelfde prioriteit.
 
@@ -159,6 +162,22 @@ Aanbiedingen voor strategie 3 worden geëvalueerd (voorstel 5, voorstel 6). Late
 De gerangschikte voorstellen zijn nu als volgt: Voorstel 5, voorstel 3, voorstel 4, voorstel 2, voorstel 1, voorstel 6.
 
 +++
+
+### Extra voorstellen toevoegen {#fallback}
+
+Nadat u de keuze hebt gemaakt voor de keuze van de onderdelen en/of de selectiestrategieën, kunt u back-upaanbiedingen toevoegen die worden weergegeven aan gebruikers als geen van de bovenstaande items of selectiestrategieën gekwalificeerd zijn.
+
+![](assets/decision-code-based-strategy-fallback.png)
+
+U kunt elk item in de lijst selecteren, waarin alle beslissingsitems worden weergegeven die in de huidige sandbox zijn gemaakt. Als geen selectiestrategie wordt gekwalificeerd, wordt fallback getoond aan de gebruiker ongeacht de data en de geschiktheidsbeperking die op het geselecteerde punt <!--nor frequency capping when available - TO CLARIFY--> wordt toegepast.
+
+>[!NOTE]
+>
+>Een fallback is optioneel. Als er geen fallback is geselecteerd en geen strategie is gekwalificeerd, wordt er niets weergegeven door [!DNL Journey Optimizer] . U kunt het aantal objecten optellen dat het besluitvormingsbeleid aanvraagt. Dit garandeert dat een bepaald aantal items wordt geretourneerd als dat nodig is voor het gebruik.
+
+Wanneer uw beleid klaar is voor het kiezen, slaat u het op en klikt u op **[!UICONTROL Create]** . Nu het besluitvormingsbeleid wordt gecreeerd, kunt u de besluitvormingsattributen binnen uw code-gebaseerde ervaringsinhoud gebruiken. [Meer informatie](#use-decision-policy)
+
+![](assets/decision-code-based-decision-added.png)
 
 ## Het beslissingsbeleid in de code-editor gebruiken {#use-decision-policy}
 
