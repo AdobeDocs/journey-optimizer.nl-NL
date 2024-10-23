@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d953f4e411b6d73886c9cb1d6d47152a0480de36
+source-git-commit: 0e8c9927f7516abf1927606fd8236b8506b54c96
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1775'
 ht-degree: 3%
 
 ---
@@ -120,14 +120,14 @@ Deze niet-visuele bewerkingsmodus is handig als u geen browserextensies kunt ins
 <table>
 <thead>
 <tr>
-<th><strong>Bedrijfsvoorschriften (algemene beschikbaarheid)</strong><br/></th>
+<th><strong>Regelsets (beperkte beschikbaarheid)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt korrelige frequentiecappende regels nu tot stand brengen, en hen toepassen op verschillende types van marketing mededelingen door regelreeksen. Met deze nieuwe functie kunt u bepalen hoe vaak uw publiek een bericht ontvangt door kanaalregels in te stellen die automatisch overgevraagde profielen uitsluiten van berichten en acties.</p>
-<p>Eerder beschikbaar voor een reeks organisaties (LA), zijn de regelreeksen nu beschikbaar aan alle gebruikers (GA).</p>
+<p>U kunt nu korrelige regels voor frequentietoewijzing maken en deze toepassen op uw berichten of reizen door regelsets. Met deze nieuwe functie kunt u bepalen hoe vaak uw publiek een bericht ontvangt door kanaalregels in te stellen die automatisch overgevraagde profielen uitsluiten van berichten en acties.</p><p>Het staat u ook toe om het aantal reizen per dag, week, of maand te beperken, evenals het aantal gelijktijdige reizen te controleren die gelijktijdig lopen.</p>
+<p> Regelsets zijn beschikbaar in Beperkte beschikbaarheid voor een geselecteerde groep klanten. Houd er rekening mee dat deze functies in de toekomst geleidelijk aan voor meer gebruikers beschikbaar zullen zijn. Neem contact op met uw accountteam als u interesse hebt in het toevoegen van wachtlijsten voor deze functie.</p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -234,13 +234,17 @@ De verbeteringen van SMS zijn geïntroduceerd om uw berichtmogelijkheden te verb
 * U kunt unieke trefwoorden voor uw SMS-campagnes en -reizen definiëren en beheren, zodat u meer gepersonaliseerde en efficiënte communicatie mogelijk maakt.
 * U kunt een standaard SMS-bericht maken en leveren wanneer een trefwoord niet wordt herkend.
 
-**Frequentie en prioritair beheer**
+**Conflict en prioritair beheer**
 
-* **het maximum van de Frequentie door campagne of reis** - u kunt frequentieregels nu tot stand brengen om op uw reizen van toepassing te zijn, toestaand u om het aantal reizen per dag, week, of maand te beperken, evenals het aantal gezamenlijke reizen te controleren die gelijktijdig lopen gelijktijdig.
+* **het Afbakenen van de Frequentie door reis** - u kunt regelreeksen nu tot stand brengen om op uw reizen van toepassing te zijn, toestaand u om het aantal reizen per dag, week, of maand te beperken, evenals het aantal gezamenlijke reizen te controleren die gelijktijdig lopen gelijktijdig.
 
 * **Prioriteitsscore** - u kunt een prioritaire score aan een campagne of een reis nu toewijzen, die zich van 0 tot 100 uitstrekken. Een hoger getal geeft een hogere prioriteit aan. Wanneer twee campagnes of reizen de zelfde kanaalconfiguratie gebruiken, zal Journey Optimizer één met de hoogste prioritaire score selecteren. Als de campagnes dezelfde score hebben, wordt de campagne gekozen die het laatst is gewijzigd. Prioriteitsscore is beschikbaar voor alle inkomende kanalen in campagnes en voor het kanaal in de app tijdens reizen.
 
 * **conflicten van de Mening** - een nieuwe **knoop van de Conflicten van de Mening** in reizen en campagnes staat u nu toe om te controleren wanneer er een mogelijkheid van overlapping met andere reizen of campagnes zoals de begindatum, het gerichte publiek, of de geselecteerde kanaalconfiguratie is.
+
+>[!AVAILABILITY]
+>
+>Conflict- en prioriteitsbeheermogelijkheden zijn beschikbaar in Beperkte beschikbaarheid voor een geselecteerde groep klanten. Houd er rekening mee dat deze functies in de toekomst geleidelijk aan voor meer gebruikers beschikbaar zullen zijn. Neem contact op met uw accountteam als u interesse hebt in het toevoegen van wachtlijsten voor deze functie.
 
 **het beheer van het Besluit**
 
