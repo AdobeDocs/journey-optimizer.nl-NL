@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 826d9a26753dee7aae609344e0a72268658285c6
+source-git-commit: 4663cecda07bdccd1bd0651047d83e2f7e0512d8
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1854'
 ht-degree: 3%
 
 ---
@@ -111,6 +111,26 @@ Deze niet-visuele bewerkingsmodus is handig als u geen browserextensies kunt ins
 <td>
 <p>Adobe Journey Optimizer is al beschikbaar in campagnes en ondersteunt nu experimenten op reizen. Experimenten zijn gerandomiseerde onderzoeken, die in de context van online tests betekenen dat u sommige willekeurig geselecteerde gebruikers aan een bepaalde variatie van een bericht blootstelt, en een andere willekeurig geselecteerde reeks gebruikers aan één of andere andere variatie of behandeling. Na blootstelling, kunt u de resultaatmetriek meten u in geinteresseerd bent, zoals opent van e-mail, abonnementen, of aankopen.</p>
 <p>Eerder beschikbaar voor een reeks organisaties (LA) zijn experimenten op reizen nu beschikbaar voor alle gebruikers (GA).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Beslissing (algemene beschikbaarheid)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Beslissingen, die voorheen beschikbaar waren voor een aantal organisaties (LA) en bekend staan als Experience Decisioning, zijn nu beschikbaar voor alle gebruikers (GA). Het vereenvoudigt personalisatie door een gecentraliseerde catalogus van marketingaanbiedingen aan te bieden die bekend staan als 'beslissingsobjecten' en een geavanceerde beslissingsengine. Deze motor hanteert regels en rangschikkingscriteria om de meest relevante beslissingsitems te selecteren en aan elk individu voor te leggen. Deze beslissingsitems worden naadloos geïntegreerd in een groot aantal binnenkomende oppervlakken via het op code gebaseerde ervaringskanaal.</p>
+
+<p>Momenteel is het nemen van een beslissing niet beschikbaar voor klanten die de add-on Adobe Healthcare Shield en Privacy and Security Shield hebben aangeschaft.</p>
+
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -245,11 +265,6 @@ De verbeteringen van SMS zijn geïntroduceerd om uw berichtmogelijkheden te verb
 >[!AVAILABILITY]
 >
 >Conflict- en prioriteitsbeheermogelijkheden zijn beschikbaar in Beperkte beschikbaarheid voor een geselecteerde groep klanten. Houd er rekening mee dat deze functies in de toekomst geleidelijk aan voor meer gebruikers beschikbaar zullen zijn. Neem contact op met uw accountteam als u interesse hebt in het toevoegen van wachtlijsten voor deze functie.
-
-**het beheer van het Besluit**
-
-* **Controles** - het **logboek van de Verandering** lusje dat u toestaat om alle veranderingen te zien die aan een aanbieding of een besluit zijn aangebracht is verwijderd. De veranderingen met betrekking tot aanbiedingen en besluiten kunnen nu in het **Audits** menu worden gezien.
-
 
 **Configuratie**
 
