@@ -6,7 +6,7 @@ level: Beginner
 badge: label="Beperkte beschikbaarheid"
 hide: true
 hidefromtoc: true
-source-git-commit: 9e7c70c45fc49946c18617c6a5b81383b73da248
+source-git-commit: fd644d4d4a92eb0e0770c1d04fe8e7cd90f3ebae
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 0%
@@ -110,7 +110,7 @@ Om een afluisterregel op een reis toe te passen, toegang tot de reis en open zij
 
 Zodra de reis in werking wordt gesteld, zullen de plafondregels die in de vastgestelde regel worden bepaald van kracht worden.
 
-![](assets/journey-capping-apply.png)
+![](../test-approve/assets/journey-capping-apply.png)
 
 >[!IMPORTANT]
 >

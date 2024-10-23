@@ -12,9 +12,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: fd644d4d4a92eb0e0770c1d04fe8e7cd90f3ebae
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1908'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,15 @@ ht-degree: 0%
 >
 >Regelsets zijn momenteel alleen beschikbaar als een bètaversie voor geselecteerde gebruikers. Neem contact op met uw Adobe om deel te nemen aan de Beta.
 
-## Wat zijn regelsets? {#what}
+## Aan de slag met regelsets {#gs}
+
+### Wat zijn regelsets? {#what}
 
 Naast globale bedrijfsregels die het aantal tijden beperken ontvangen de gebruikers berichten over één of veelvoudige kanalen, staan de regelreeksen u toe om **samen veelvoudige regels in regelreeksen** te groeperen en hen op de campagnes van uw keus toe te passen. Dit verstrekt betere granulariteit om te controleren hoe vaak de gebruikers een bericht afhankelijk van het type van mededeling zullen ontvangen.
 
 Bijvoorbeeld, kunt u een regel tot stand brengen die wordt geplaatst om het aantal **promotionele mededelingen** te beperken naar uw klanten en een andere die regel wordt verzonden om het aantal **nieuwsbrieven** te beperken naar hen wordt verzonden. Afhankelijk van het type campagne dat u creeert, kunt u dan verkiezen om of de promotionele mededeling of de nieuwsbrieven regelreeks toe te passen.
 
-## Algemene en aangepaste regelsets {#global-custom}
+### Algemene en aangepaste regelsets {#global-custom}
 
 Wanneer de toegang tot van regelreeksen voor het eerst van **[!UICONTROL Administration]** > **[!UICONTROL Business rules (Beta)]** menu, wordt een standaardregelreeks vooraf gecreeerd en actief: **Globale Reeks Standaard van de Regel**.
 
@@ -50,9 +52,18 @@ Naast deze &quot;Globale Vastgestelde de regel van de Regel van het Standaard&qu
 >
 >Voor nu, kunnen de reeksen van de douaneregel op **campagnes** slechts worden toegepast. Alleen de regels die zijn gedefinieerd in de regel Globale standaardregel die is ingesteld, gelden voor zowel de reis- als de campagnecommunicatie.
 
+### Regels voor aftopping van kanalen en reizen {#domain}
+
+Wanneer het creëren van een regelreeks, moet u specificeren als de regels binnen de regelreeks het begrenzen regels zullen afdwingen die voor communicatiekanalen, of voor reizen specifiek zijn.
+
+Dit wordt gedaan door een Kanaal of domein van de Reis voor de regel te selecteren die wanneer het creëren van het wordt geplaatst. [ Leer hoe te om een regelreeks tot stand te brengen ]
+
+* **het domein van het Kanaal**: pas het begrenzen regels voor communicatiekanalen toe. Verzend bijvoorbeeld niet meer dan 1 e-mail- of sms-communicatie per dag.
+* **Reis** domein: pas ingang en gelijktijdige het afschilderen regels op een reis toe. Voer bijvoorbeeld niet profielen in voor meer dan één reis tegelijk.
+
 ## Uw eerste aangepaste regelset maken {#create-rule-set}
 
-### De regelset maken {#create}
+### Maak de regelset en selecteer het domein ervan {#create}
 
 Volg onderstaande stappen om een regelset te maken.
 
@@ -64,13 +75,16 @@ Volg onderstaande stappen om een regelset te maken.
 
    ![](assets/rule-sets-create-button.png)
 
-1. Bepaal de naam van de regelset, voeg desgewenst een beschrijving toe en klik op **[!UICONTROL Save]** .
+1. Definieer een unieke naam voor de regelset en voeg een beschrijving toe.
+
+1. Selecteer het domein van de regelset. Met het domein kunt u opgeven of de regelset bijschriftregels bevat die specifiek zijn voor communicatiekanalen of ritten:
+
+   * **Kanaal**: Pas het begrenzen van regels voor communicatiekanalen toe. Verzend bijvoorbeeld niet meer dan 1 e-mail- of sms-communicatie per dag.
+   * **Reis**: Pas entry en gelijktijdige het afschilderen van regels op een reis toe. Voer bijvoorbeeld niet profielen in voor meer dan één reis tegelijk.
 
    ![](assets/rule-sets-create.png)
 
-   >[!NOTE]
-   >
-   >De naam van de regelset moet uniek zijn.
+1. Klik op **[!UICONTROL Save]**.
 
 1. Nu kunt u [ de regels ](#create-new-rule) bepalen u aan deze regelreeks wilt toevoegen.
 
@@ -96,13 +110,15 @@ Volg onderstaande stappen om een regelset te maken.
 >title="Selecteer de categorie voor berichtregels"
 >abstract="Wanneer deze optie wordt geactiveerd en toegepast op een bericht, worden alle frequentieregels die overeenkomen met de geselecteerde categorie automatisch toegepast op dit bericht. Momenteel is alleen de marketingcategorie beschikbaar."
 
-Volg onderstaande stappen om een regel aan een regelset toe te voegen.
+Als u een regel aan een regelset wilt toevoegen, opent u de regelset en klikt u op **[!UICONTROL Add rule]** .
 
-1. Klik op **[!UICONTROL Add rule]** in de regelset die u zojuist hebt gemaakt.
+De parameters beschikbaar voor de regel hangen van het regelvastgestelde domein af dat bij zijn verwezenlijking wordt geselecteerd.
 
-   ![](assets/rule-sets-create-rule-button.png)
++++vorm kanaal het in kaart brengen regels (**Kanaal** domein)
 
-1. Bepaal een unieke **naam van de Regel**.
+![](assets/rule-set-channels.png)
+
+1. Definieer een unieke naam voor de regel.
 
 1. Het **gebied van de Categorie** specificeert de categorie van bericht de regel op van toepassing is. Momenteel is dit veld alleen-lezen, aangezien alleen de categorie **[!UICONTROL Marketing]** beschikbaar is.
 
@@ -130,8 +146,6 @@ Volg onderstaande stappen om een regel aan een regelset toe te voegen.
 
 1. Selecteer het kanaal dat u voor deze regel wilt gebruiken: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification]** of **[!UICONTROL Direct mail]** .
 
-   ![](assets/rule-set-channels.png)
-
    >[!NOTE]
    >
    >U moet ten minste één kanaal selecteren om de regel te kunnen maken.
@@ -139,6 +153,23 @@ Volg onderstaande stappen om een regel aan een regelset toe te voegen.
 1. Selecteer meerdere kanalen als u de afdekking op alle geselecteerde kanalen als een totaal aantal wilt toepassen.
 
    Stel de aftopping bijvoorbeeld in op 5 en selecteer zowel het e-mailadres als het sms-kanaal. Als een profiel al 3 marketingberichten en 2 marketingberichten voor de geselecteerde periode heeft ontvangen, wordt dit profiel uitgesloten van de eerstvolgende levering van een marketingbericht of -bericht.
+
++++
+
++++vorm de regels van het aftappen van de reis (**Reis** domein)
+
+![](assets/rule-set-journey.png)
+
+1. Geef de regel een unieke naam.
+
+1. Geef in de vervolgkeuzelijst **[!UICONTROL Rule Type]** het type uitlijning voor de regel op.
+
+   * **[!UICONTROL Journey Entry Cap]**: beperkt het aantal items dat gedurende een bepaalde periode voor een profiel wordt ingevoerd in de reis.
+   * **[!UICONTROL Journey Concurrency Cap]**: hiermee wordt beperkt hoeveel ritten een profiel gelijktijdig kan worden ingeschreven.
+
+1. De gedetailleerde informatie over hoe te om de regels van het aftappen van de reis te vormen is beschikbaar in de [ Aftappen van de Reis &amp; arbitrage ](../test-approve/journey-capping.md) sectie.
+
++++
 
 1. Klik op **[!UICONTROL Save]** om het maken van de regel te bevestigen. Uw bericht wordt toegevoegd aan de regelset, met de status **[!UICONTROL Draft]** .
 
@@ -206,9 +237,11 @@ Users with the **[!UICONTROL View frequency rules]** permission are able to view
 
 Learn more about permissions in [this section](../administration/high-low-permissions.md).-->
 
-## Een regel toepassen die is ingesteld op een bericht {#apply-frequency-rule}
+## Regelsets toepassen op een bericht of reis {#apply-frequency-rule}
 
-Volg onderstaande stappen om een bedrijfsregel toe te passen op een bericht.
+U kunt een regel toepassen die op een bericht of een reis wordt geplaatst, afhankelijk van het geselecteerde domein wanneer het creëren van de regelreeks. Vouw de onderstaande secties uit voor meer informatie.
+
++++ Een regel toepassen die is ingesteld op een bericht
 
 1. Wanneer het creëren van a [ campagne ](../campaigns/create-campaign.md), selecteer één van de kanalen u voor uw regelreeks en geef de inhoud van uw bericht uit.
 
@@ -266,3 +299,17 @@ In this scenario, an individual profile:
 * but will be excluded from marketing push notifications after they have received 4 push notifications.-->
 
 Wanneer het testen van frequentieregels, wordt het geadviseerd om een pas gecreeerd [ testprofiel ](../audience/creating-test-profiles.md) te gebruiken, omdat zodra de de frequentiedrempel van een profiel wordt bereikt, er geen manier is om de teller tot de volgende periode terug te stellen. Als u een regel deactiveert, kunnen beperkte profielen berichten ontvangen, maar worden er geen tellerverhogingen verwijderd of verwijderd.
+
++++
+
++++ Een regel toepassen die is ingesteld op een reis
+
+Om een afluisterregel op een reis toe te passen, toegang tot de reis en open zijn eigenschappen. Selecteer in de vervolgkeuzelijst **[!UICONTROL Capping rules]** de desbetreffende regelset.
+
+![](assets/journey-capping-apply.png)
+
+>[!IMPORTANT]
+>
+>Als een reis onmiddellijk wordt geactiveerd, kan het tot 15 minuten duren voordat het systeem begint met het onderdrukken van klanten. U kunt uw reis plannen om minstens 15 minuten in de toekomst te beginnen om deze mogelijkheid te verhinderen.
+
++++
