@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 972d517ec2a5779f8c3196b40f1418b9c207d791
+source-git-commit: 2a666364144cf320a9ed20741da7d6f5d22b0d96
 workflow-type: tm+mt
-source-wordcount: '2147'
+source-wordcount: '2152'
 ht-degree: 25%
 
 ---
@@ -350,6 +350,7 @@ ht-degree: 25%
       + [Aan de slag met inhoudssjablonen](using/content-management/content-templates.md)
       + [Sjablonen openen en beheren](using/content-management/access-content-templates.md)
       + [Inhoudssjablonen maken](using/content-management/create-content-templates.md)
+      + [Inhoud in e-mailsjablonen vergrendelen](using/content-management/content-locking.md)
       + [Inhoudssjablonen testen](using/content-management/test-content-templates.md)
       + [Inhoudssjablonen gebruiken](using/content-management/use-content-templates.md)
    + Herbruikbare inhoudsfragmenten {#fragments}

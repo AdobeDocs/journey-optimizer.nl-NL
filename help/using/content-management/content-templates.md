@@ -8,17 +8,17 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
+source-git-commit: 2a666364144cf320a9ed20741da7d6f5d22b0d96
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 1%
+source-wordcount: '214'
+ht-degree: 0%
 
 ---
 
 
 # Aan de slag met inhoudssjablonen {#content-templates}
 
-Voor een versnelde en verbeterde ontwerpprocedure kunt u zelfstandige sjablonen maken om aangepaste inhoud eenvoudig te hergebruiken in [!DNL Journey Optimizer] campagnes en reizen.
+Voor een versneld en verbeterd ontwerpproces kunt u zelfstandige sjablonen maken om aangepaste inhoud eenvoudig te hergebruiken in [!DNL Journey Optimizer] -campagnes en -reizen.
 
 Met deze functionaliteit kunnen gebruikers die op inhoud zijn gericht, aan sjablonen werken buiten campagnes of reizen. Marketing-gebruikers kunnen deze zelfstandige inhoudssjablonen vervolgens hergebruiken en aanpassen binnen hun eigen reizen of campagnes.
 
@@ -26,18 +26,22 @@ Met deze functionaliteit kunnen gebruikers die op inhoud zijn gericht, aan sjabl
 
 Een gebruiker in uw bedrijf is bijvoorbeeld alleen verantwoordelijk voor inhoud en heeft daarom geen toegang tot campagnes of reizen. Deze gebruiker kan echter een e-mailsjabloon maken die de marketers van uw organisatie kunnen selecteren voor gebruik in alle e-mails als startpunt.
 
-U kunt inhoudssjablonen ook maken en beheren met API&#39;s. Raadpleeg voor meer informatie de [Journey Optimizer API-documentatie](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
+U kunt inhoudssjablonen maken voor de kanalen E-mail, Push, In-App, SMS en Direct Mail.
 
-➡️ [Leer hoe u in deze video sjablonen maakt en gebruikt](#video-templates)
-
->[!CAUTION]
+>[!AVAILABILITY]
 >
 >Momenteel zijn inhoudssjablonen niet beschikbaar voor het webkanaal.
+
+Als u inhoudssjablonen wilt maken, bewerken en verwijderen, moet u de machtiging **[!DNL Manage library items]** hebben opgenomen in het productprofiel van **[!DNL Content Library Manager]** . [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager)
+
+➡️ [ leren om malplaatjes in deze video tot stand te brengen en te gebruiken ](#video-templates)
+
+>[!NOTE]
 >
->U moet beschikken over de **[!DNL Manage library items]** bevoegdheid opgenomen in de **[!DNL Content Library Manager]** productprofiel. [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager)
+>U kunt inhoudssjablonen ook maken en beheren met API&#39;s. Voor meer op dit, verwijs naar de [ documentatie van Journey Optimizer APIs ](https://developer.adobe.com/journey-optimizer-apis/references/content/) {target="_blank"}.
 
 ## Hoe kan ik-video {#video-templates}
 
-Leer hoe u inhoudssjablonen kunt maken, bewerken en gebruiken in [!DNL Journey Optimizer].
+Leer inhoudssjablonen maken, bewerken en gebruiken in [!DNL Journey Optimizer] .
 
 >[!VIDEO](https://video.tv.adobe.com/v/3413743/?quality=12)
