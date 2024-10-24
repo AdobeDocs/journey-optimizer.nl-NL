@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
+source-git-commit: afe642177f690cdf873f838ec81044b7f8a7172e
 workflow-type: tm+mt
-source-wordcount: '1897'
-ht-degree: 3%
+source-wordcount: '1971'
+ht-degree: 2%
 
 ---
 
@@ -78,6 +78,24 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <p>U kunt dynamische subdomeinen en gepersonaliseerde kopbalparameters nu bepalen wanneer het creëren van configuraties van het e-mailkanaal, voor verhoogde flexibiliteit en controle over uw e-mailmontages.</p><p>Door een gepersonaliseerde configuratie in een campagne of een rit te gebruiken, kunt u een voorvertoning van uw e-mailinhoud weergeven om te controleren op mogelijke fouten met de dynamische instellingen die u hebt gedefinieerd.</p>
 <p>Eerder beschikbaar voor een reeks organisaties (LA), is de aanpassing van de e-mailconfiguratie nu beschikbaar aan alle gebruikers (GA).</p>
 <p>Raadpleeg de <a href="../email/surface-personalization.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Inhoud testen met behulp van voorbeeldinvoergegevens (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met Reisoptimalisator kunt u nu verschillende varianten van uw e-mailinhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-bestand zijn geüpload of handmatig zijn toegevoegd. Alle profielkenmerken die in de inhoud worden gebruikt voor personalisatie worden automatisch gedetecteerd door het systeem en kunnen worden gebruikt voor uw tests om meerdere varianten te maken.</p>
+<p>Deze mogelijkheid is momenteel beschikbaar als bètaversie.</p>
+<!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
 </td>
 </tr>
 </tbody>
