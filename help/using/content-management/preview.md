@@ -5,9 +5,9 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '203'
 ht-degree: 4%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 <!--## Preview your content {#preview-content}-->
 
-Zodra [ testprofielen ](test-profiles.md) worden geselecteerd, kunt u voorproef uw inhoud. Volg de onderstaande stappen:
+Zodra [ testprofielen ](test-profiles.md) worden bepaald, kunt u voorproef uw inhoud. Volg de onderstaande stappen:
 
 1. Klik op de knop **[!UICONTROL Simulate content]** in het scherm Inhoud bewerken van uw bericht of in de Designer-e-mail.
 
@@ -42,5 +42,7 @@ Zodra [ testprofielen ](test-profiles.md) worden geselecteerd, kunt u voorproef 
 
 >[!NOTE]
 >
->Wanneer u code-gebaseerde ervaringen maakt, kunt u een voorvertoning van uw gepersonaliseerde inhoud direct op uw browser of op uw mobiele apparaten bekijken voor een echte simulatie. [Meer informatie](../code-based/create-code-based.md#preview-on-device)
+>Als een fout in de configuratiedetails wordt gevonden, klik de **[!UICONTROL View configuration details]** knoop. [Meer informatie](../email/surface-personalization.md#check-configuration)
+
+Wanneer u code-gebaseerde ervaringen maakt, kunt u een voorvertoning van uw gepersonaliseerde inhoud direct op uw browser of op uw mobiele apparaten bekijken voor een echte simulatie. [Meer informatie](../code-based/create-code-based.md#preview-on-device)
 

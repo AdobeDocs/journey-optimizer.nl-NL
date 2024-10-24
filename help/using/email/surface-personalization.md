@@ -10,9 +10,9 @@ level: Experienced
 keywords: instellingen, e-mail, configuratie, subdomein
 badge: label="Beperkte beschikbaarheid"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
+source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,6 @@ ht-degree: 0%
 # Instellingen voor e-mailconfiguratie aanpassen {#surface-personalization}
 
 Voor meer flexibiliteit en controle over uw e-mailmontages, [!DNL Journey Optimizer] staat u toe om gepersonaliseerde waarden voor subdomeinen en kopballen te bepalen <!--and URL tracking parameters--> wanneer het creëren van e-mailconfiguraties.
-
->[!AVAILABILITY]
->
->Aanpassing van de e-mailconfiguratie is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.
 
 ## Dynamische subdomeinen toevoegen {#dynamic-subdomains}
 
@@ -110,13 +106,19 @@ Volg onderstaande stappen om gepersonaliseerde variabelen voor de parameters van
 
    ![](assets/surface-email-personalize-header.png)
 
-1. De [ verpersoonlijkingsredacteur ](../personalization/personalization-build-expressions.md) opent. Bepaal uw voorwaarde zoals gewenst en sla uw wijzigingen op.
+1. De [ verpersoonlijkingsredacteur ](../personalization/personalization-build-expressions.md) opent. Definieer de voorwaarde naar wens en sla uw wijzigingen op.
 
-   Stel bijvoorbeeld een voorwaarde in, zodat elke ontvanger een e-mail ontvangt van zijn eigen merkvertegenwoordiger.
+   <!--For example, set a condition such as each recipient receives an email from their own brand representative.-->
 
    >[!NOTE]
    >
    >U kunt alleen **[!UICONTROL Profile attributes]** en **[!UICONTROL Helper functions]** selecteren.
+
+   Stel dat u dynamische e-mails wilt verwerken die namens een verkoopmedewerker worden verzonden, waarbij de verkoopassistent wordt opgehaald uit een gebeurtenis of uit contextafhankelijke parameters van de campagne. Bijvoorbeeld:
+
+   * In a [ reis ](../building-journeys/journey-gs.md), wanneer een koopgebeurtenis met de verkoopmedewerker van een specifieke winkel wordt verbonden, kan de e-mailkopbal (afzendernaam, afzenderemail, antwoord aan adres) met de parameters van de verkoopmedewerker worden gepersonaliseerd, die van de gebeurtenisattributen worden genomen.
+
+   * In een [ API-teweeggebrachte campagne ](../campaigns/api-triggered-campaigns.md), die extern door een verkoopmedewerker in werking wordt gesteld, kan de teweeggebrachte e-mail namens de verkoopmedewerker en de waarden van de kopbalverpersoonlijking worden verzonden die van campagne contextuele parameters worden genomen.
 
 1. Herhaal bovenstaande stappen voor elke parameter waaraan u personalisatie wilt toevoegen.
 
@@ -138,7 +140,7 @@ Now when the email is sent out, this parameter will be automatically appended to
 
 ## Configuratiedetails weergeven {#view-surface-details}
 
-Wanneer het gebruiken van een configuratie met gepersonaliseerde montages in een campagne of een configuratie, kunt u de configuratiedetails direct binnen de campagne of de configuratie tonen. Voer de onderstaande stappen uit.
+Wanneer het gebruiken van een configuratie met gepersonaliseerde montages in een campagne of een reis, kunt u de configuratiedetails direct binnen de campagne of de reis tonen. Voer de onderstaande stappen uit.
 
 1. Creeer een e-mail [ campagne ](../campaigns/create-campaign.md) of [ reis ](../building-journeys/journey-gs.md).
 
@@ -157,3 +159,33 @@ Wanneer het gebruiken van een configuratie met gepersonaliseerde montages in een
 1. Selecteer **[!UICONTROL Expand]** om de details van de dynamische subdomeinen weer te geven.
 
    ![](assets/campaign-delivery-settings-subdomain-expand.png)
+
+## Controleer uw configuratie {#check-configuration}
+
+Wanneer u een gepersonaliseerde configuratie gebruikt in een campagne of een rit, kunt u een voorbeeld van uw e-mailinhoud bekijken om te controleren op mogelijke fouten met de dynamische instellingen die u hebt gedefinieerd. Voer de onderstaande stappen uit.
+
+1. Klik op de knop **[!UICONTROL Simulate content]** in het scherm Inhoud bewerken van uw bericht of in de Designer-e-mail. [Meer informatie](../content-management/preview.md)
+
+1. Selecteer a [ testprofiel ](../content-management/test-profiles.md).
+
+1. Als een fout wordt weergegeven, klikt u op de knop **[!UICONTROL View configuration details]** .
+
+   ![](assets/campaign-simulate-config-error.png)
+
+1. Controleer het scherm **[!UICONTROL Delivery settings]** op de foutdetails.
+
+   ![](assets/campaign-simulate-config-details.png)
+
+Mogelijke fouten kunnen als volgt zijn:
+
+* **subdomain** verwierp niet voor het geselecteerde testprofiel. In uw configuratie worden bijvoorbeeld verschillende verzendende subdomeinen gebruikt die overeenkomen met verschillende landen, maar voor het geselecteerde profiel is geen waarde gedefinieerd voor het kenmerk `Country` , of het kenmerk is ingesteld op `France` , maar deze waarde is niet gekoppeld aan een subdomein in die configuratie.
+
+* Het geselecteerde profiel heeft geen bijbehorende waarden voor één of meerdere **kopbalparameters**.
+
+Als een van deze fouten optreedt, wordt geen e-mail verzonden naar het geselecteerde testprofiel.
+
+Als u dit type fout wilt voorkomen, moet u ervoor zorgen dat de headerparameters die u definieert, gepersonaliseerde kenmerken gebruiken voor de meeste profielen. Ontbrekende waarden kunnen van invloed zijn op uw e-mailleesbaarheid.
+
+>[!NOTE]
+>
+>Leer meer op leverability in [ deze sectie ](../reports/deliverability.md)

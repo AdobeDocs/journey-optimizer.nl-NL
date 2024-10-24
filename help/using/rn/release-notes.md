@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: acc3d61b571f577187503157b78de1d27ce5e1ee
+source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
 workflow-type: tm+mt
-source-wordcount: '3066'
+source-wordcount: '3162'
 ht-degree: 5%
 
 ---
@@ -51,6 +51,25 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 </tbody>
 </table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>Aanpassing e-mailconfiguratie (algemene beschikbaarheid) </strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Voor meer flexibiliteit en meer controle over de e-mailinstellingen kunt u dynamische subdomeinen en gepersonaliseerde headerparameters definiëren wanneer u configuraties met e-mailkanalen maakt.
+</p>
+<p>Eerder beschikbaar voor een reeks organisaties (LA), is de aanpassing van de e-mailconfiguratie nu beschikbaar aan alle gebruikers (GA).</p>
+<p>Raadpleeg de <a href="../email/surface-personalization.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<img src="assets/do-not-localize/surface-perso.gif"/>
+<p>Beschikbaarheidsdatum: 23 oktober 2024</p>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -342,7 +361,10 @@ De verbeteringen van SMS zijn geïntroduceerd om uw berichtmogelijkheden te verb
 
 * Het gebruik van soorten publiek en kenmerken van aangepaste upload (CSV-bestand) is nu beschikbaar voor gebruik met het Healthcare Shield of Privacy and Security Shield.
 
-**op code-Gebaseerd kanaal**
+**Configuratie** - de datum van de Beschikbaarheid: 23 okt, 2024
+
+* Wanneer u een gepersonaliseerde configuratie gebruikt in een campagne of een rit, kunt u nu een voorbeeld van uw e-mailinhoud bekijken om te controleren op mogelijke fouten met de dynamische instellingen die u hebt gedefinieerd. [Meer informatie](../email/surface-personalization.md#check-configuration)
+  **op code-Gebaseerd kanaal**
 
 * Inhoudssjablonen zijn nu beschikbaar. U kunt het ontwerpen versnellen van uw op code-gebaseerde ervaringen die van een inhoudsmalplaatje beginnen door uw ontwikkelaars wordt gebouwd. Als u een inhoudssjabloon gebruikt, kan de markeerteken alleen enkele waarden of velden wijzigen in plaats van de gehele HTML- of JSON-inhoudslading samen te stellen.
 
