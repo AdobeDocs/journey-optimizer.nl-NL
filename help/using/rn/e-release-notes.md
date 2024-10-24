@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f2282fc4d0bbe67a945c43a191648e28b6b60c00
+source-git-commit: af3ed02a1af6c0fea3078bdfca6f568356c06eb4
 workflow-type: tm+mt
-source-wordcount: '1885'
+source-wordcount: '1853'
 ht-degree: 3%
 
 ---
@@ -83,6 +83,29 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 </tbody>
 </table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>Conflict- en prioriteitsbeheer (beperkte beschikbaarheid)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>In Journey Optimizer is het beheren van het volume en de timing van campagnes en reizen van essentieel belang om te voorkomen dat klanten met te veel interacties worden overspoeld. Journey Optimizer biedt nu verschillende tools voor conflictbeheer en prioritering.</p><p><ul><li><b> frequentie het in kaart brengen van de Reis </b>: U kunt regelreeksen nu tot stand brengen om op uw reizen van toepassing te zijn, toestaand u om het aantal reizen per dag, week, of maand te beperken, evenals het aantal gezamenlijke reizen die gelijktijdig lopen te controleren.</li>
+<li><b> Prioriteitsscore </b>: U kunt een prioritaire score aan een campagne of een reis nu toewijzen, die zich van 0 tot 100 uitstrekken. Een hoger getal geeft een hogere prioriteit aan. Wanneer twee campagnes of reisacties de zelfde kanaalconfiguratie gebruiken, zal Journey Optimizer één met de hoogste prioritaire score selecteren. Als de campagnes dezelfde score hebben, wordt de campagne gekozen die het minst recent is gewijzigd.</li>
+<li><b> de potentiële conflicten van de Mening </b>: Een nieuwe "potentiële conflicten van de Mening"knoop in reizen en campagnes staat u nu toe om overlapping met andere reizen of campagnes zoals de begindatum, het gerichte publiek, of de geselecteerde kanaalconfiguratie te identificeren.</li>
+<li><b> Arbitrage van de Reis </b>: Dit nieuwe vermogen laat u toe om aan de belangrijkste reizen voor uw klanten voorrang te geven. U kunt een regel tot stand brengen om ingang in een lagere prioritaire reis te onderdrukken wanneer een klant voor een aanstaande reis van hogere prioriteit kwalificeert.</li></ul></p>
+<!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
+<p>Conflict- en prioriteitsbeheermogelijkheden zijn beschikbaar in Beperkte beschikbaarheid voor een geselecteerde groep klanten. Houd er rekening mee dat deze functies in de toekomst geleidelijk aan voor meer gebruikers beschikbaar zullen zijn. Neem contact op met uw accountteam als u interesse hebt in het toevoegen van deze functies aan de wachtlijst.</p>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+
 <table>
 <thead>
 <tr>
@@ -147,7 +170,7 @@ Deze niet-visuele bewerkingsmodus is handig als u geen browserextensies kunt ins
 <tr>
 <td>
 <p>U kunt nu korrelige regels voor frequentietoewijzing maken en deze toepassen op uw berichten of reizen door regelsets. Met deze nieuwe functie kunt u bepalen hoe vaak uw publiek een bericht ontvangt door kanaalregels in te stellen die automatisch overgevraagde profielen uitsluiten van berichten en acties.</p><p>Het staat u ook toe om het aantal reizen per dag, week, of maand te beperken, evenals het aantal gelijktijdige reizen te controleren die gelijktijdig lopen.</p>
-<p> Regelsets zijn beschikbaar in Beperkte beschikbaarheid voor een geselecteerde groep klanten. Houd er rekening mee dat deze functies in de toekomst geleidelijk aan voor meer gebruikers beschikbaar zullen zijn. Neem contact op met uw accountteam als u interesse hebt in het toevoegen van wachtlijsten voor deze functie.</p>
+<p>Regelsets zijn beschikbaar in Beperkte beschikbaarheid voor een geselecteerde groep klanten. Houd er rekening mee dat deze functies in de toekomst geleidelijk aan voor meer gebruikers beschikbaar zullen zijn. Neem contact op met uw accountteam als u interesse hebt in het toevoegen van wachtlijsten voor deze functie.</p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -254,18 +277,6 @@ De verbeteringen van SMS zijn geïntroduceerd om uw berichtmogelijkheden te verb
 * U kunt unieke trefwoorden voor uw SMS-campagnes en -reizen definiëren en beheren, zodat u meer gepersonaliseerde en efficiënte communicatie mogelijk maakt.
 * U kunt een standaard SMS-bericht maken en leveren wanneer een trefwoord niet wordt herkend.
 
-**Conflict en prioritair beheer**
-
-* **het Afbakenen van de Frequentie door reis** - u kunt regelreeksen nu tot stand brengen om op uw reizen van toepassing te zijn, toestaand u om het aantal reizen per dag, week, of maand te beperken, evenals het aantal gezamenlijke reizen te controleren die gelijktijdig lopen gelijktijdig.
-
-* **Prioriteitsscore** - u kunt een prioritaire score aan een campagne of een reis nu toewijzen, die zich van 0 tot 100 uitstrekken. Een hoger getal geeft een hogere prioriteit aan. Wanneer twee campagnes of reizen de zelfde kanaalconfiguratie gebruiken, zal Journey Optimizer één met de hoogste prioritaire score selecteren. Als de campagnes dezelfde score hebben, wordt de campagne gekozen die het laatst is gewijzigd. Prioriteitsscore is beschikbaar voor alle inkomende kanalen in campagnes en voor het kanaal in de app tijdens reizen.
-
-* **conflicten van de Mening** - een nieuwe **knoop van de Conflicten van de Mening** in reizen en campagnes staat u nu toe om te controleren wanneer er een mogelijkheid van overlapping met andere reizen of campagnes zoals de begindatum, het gerichte publiek, of de geselecteerde kanaalconfiguratie is.
-
->[!AVAILABILITY]
->
->Conflict- en prioriteitsbeheermogelijkheden zijn beschikbaar in Beperkte beschikbaarheid voor een geselecteerde groep klanten. Houd er rekening mee dat deze functies in de toekomst geleidelijk aan voor meer gebruikers beschikbaar zullen zijn. Neem contact op met uw accountteam als u interesse hebt in het toevoegen van wachtlijsten voor deze functie.
-
 **Configuratie**
 
 * **de configuratieverpersoonlijking van het Kanaal** - wanneer het gebruiken van een gepersonaliseerde configuratie in een campagne of een reis, kunt u uw e-mailinhoud nu voorproef om potentiële fouten met de dynamische montages te controleren u bepaalde.
@@ -276,16 +287,14 @@ De verbeteringen van SMS zijn geïntroduceerd om uw berichtmogelijkheden te verb
 
 * **Max aantal Levende reizen** - Journey Optimizer heeft nu een graslaag van 500 levende reizen op productiesanddozen, in plaats van 100. Het aantal rechtstreekse reizen is zichtbaar in het canvas van de reis. <!-- DOCAC-10977-->
 
-* **tijd-aan-levende guardrail** - Beginnend November 1, 2024, zal een tijd-aan-levende (TTL) guardrail op systeem-geproduceerde datasets van Journey Optimizer als volgt worden afgedwongen:
+* **tijd-aan-levende guardrail** - Beginnend November 1, 2024, zal een tijd-aan-levende (TTL) guardrail aan systeem-geproduceerde datasets van Journey Optimizer in nieuwe zandbakken en nieuwe organismen als volgt worden uitgerold:
 
-   * 90 dagen voor gegevens in profielopslag
-   * 13 maanden voor data in data Lake
+   * 90 dagen voor gegevens in de profielopslag
+   * 13 maanden voor gegevens in het data Lake
 
-  Bovendien, op dat ogenblik, zal het stromen segmentatie niet meer het gebruik van verzenden en terugkoppelen gebeurtenissen van het volgen en terugkoppelen datasets steunen. We raden u aan deze gebeurtenissen een tijdje niet te gebruiken voor het streamen van segmentatie en nu zullen we ze volledig uitschakelen.
+  Deze wijziging wordt vervolgens in een tweede fase doorgevoerd in bestaande sandboxen voor klanten.
 
-   * Deze wijziging beperkt alleen het gebruik van send/open-gebeurtenissen in streamingsegmentatie; click-gebeurtenissen kunnen nog steeds worden gebruikt in een streamingsegment. Bovendien kunnen open/verzend-gebeurtenissen nog steeds worden gebruikt in een batchsegment.
-   * Trackinggegevens worden nog steeds verzameld. Deze wijziging heeft geen invloed op reeksspatiëring. U kunt nog steeds bijhouden naar wie een e-mail is verzonden en wie op een e-mail heeft geklikt.
-   * Reactievoorvallen in de Reizen worden niet beïnvloed door deze wijziging.
+  Bovendien, beginnend November 1, zal de het stromen segmentatie niet meer het gebruik van verzenden en open gebeurtenissen van het volgen en terugkoppelen datasets steunen. Deze wijziging is van toepassing op alle sandboxen en orgs van klanten op dat moment. [Meer informatie](../data/datasets-ttl.md)
 
 * **Parameters in douaneacties** (de datum van Beschikbaarheid: Okt 3, 2024) - ONGELDIGE en facultatieve parameters worden nu gesteund in douaneacties. [Meer informatie](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
@@ -308,7 +317,3 @@ De verbeteringen van SMS zijn geïntroduceerd om uw berichtmogelijkheden te verb
 * Wanneer het richten van een Csv- dossierpubliek, kunt u attributen van het dossier in de verpersoonlijkingsredacteur en in reizen en campagneregelbouwer nu gebruiken. [Meer informatie](../audience/about-audiences.md)
 
 * Het gebruik van soorten publiek en kenmerken van aangepaste upload (CSV-bestand) is nu beschikbaar voor gebruik met het Healthcare Shield of Privacy and Security Shield.
-
-**op code-Gebaseerd kanaal**
-
-Tijdens het uitgeven van een code-gebaseerde ervaringscampagne, zijn de malplaatjes beschikbaar om te kiezen nu werkingsgebied aan of HTML of JSON gebaseerd op de kanaalconfiguratie die vooraf is gekozen.
