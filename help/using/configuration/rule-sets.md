@@ -12,7 +12,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
+source-git-commit: 87e2308b2d6a9aeb3cbc0ef4bb28ea7aeb3b869a
 workflow-type: tm+mt
 source-wordcount: '1916'
 ht-degree: 0%
@@ -56,9 +56,7 @@ Naast deze &quot;Globale Vastgestelde de regel van de Regel van het Standaard&qu
 
 ### Regels voor aftopping van kanalen en reizen {#domain}
 
-Wanneer het creëren van een regelreeks, moet u specificeren als de regels binnen de regelreeks het begrenzen regels zullen afdwingen die voor communicatiekanalen, of voor reizen specifiek zijn.
-
-Dit wordt gedaan door een Kanaal of domein van de Reis voor de regel te selecteren die wanneer het creëren van het wordt geplaatst. [ Leer hoe te om een regelreeks tot stand te brengen ]
+Wanneer het creëren van een regelreeks, moet u specificeren als de regels binnen de regelreeks het begrenzen regels zullen afdwingen die voor communicatiekanalen, of voor reizen specifiek zijn.  Dit wordt gedaan door een Kanaal of domein van de Reis voor de regel te selecteren die wanneer het creëren van het wordt geplaatst. [ Leer hoe te om een regelreeks tot stand te brengen ](#create)
 
 * **het domein van het Kanaal**: pas het begrenzen regels voor communicatiekanalen toe. Verzend bijvoorbeeld niet meer dan 1 e-mail- of sms-communicatie per dag.
 * **Reis** domein: pas ingang en gelijktijdige het afschilderen regels op een reis toe. Voer bijvoorbeeld niet profielen in voor meer dan één reis tegelijk.
