@@ -7,9 +7,9 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: a2219bf7791bc5c598228af883d0507180628abf
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -82,6 +82,12 @@ Verbeter uw canvasaanpassing met de volgende opties:
 * Pas **[!UICONTROL Percentage value]** aan om de stroomdistributie onder verschillende reiswegen te bepalen.
 * Pas **[!UICONTROL Arrow settings]** aan om labels, voorwaarden of een schone weergave op te nemen.
 * Schakel de optie **[!UICONTROL Show fallout]** in om profielen te visualiseren waarmee u de reis rechtstreeks op het canvas hebt verlaten.
+
+De volgende regels zijn van toepassing bij het gebruik van **[!UICONTROL Node Type]** Filteren:
+
+* Wanneer het creëren van een segment op een knoop, zal het nog knopen van vroegere stadia van de reis omvatten, zelfs als die knopen door het **[!UICONTROL Node type]** filter zijn uitgesloten.
+
+* U kunt geen segmenten maken die uit een pijl worden gevormd als knooppunten in eerdere stadia van de rit via het filter **[!UICONTROL Node type]** zijn uitgesloten. In dit geval wordt de functie voor klikken met de rechtermuisknop op die pijlen uitgeschakeld.
 
 ## Prestaties van handelingen {#action-performance}
 
