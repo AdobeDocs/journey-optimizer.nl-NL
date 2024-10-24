@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: afe642177f690cdf873f838ec81044b7f8a7172e
+source-git-commit: 2f56a072f7ae6ee2dfa65597cf5597b63dacdbe3
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '1937'
 ht-degree: 2%
 
 ---
@@ -111,7 +111,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <tbody>
 <tr>
 <td>
-<p>In Journey Optimizer is het beheren van het volume en de timing van campagnes en reizen van essentieel belang om te voorkomen dat klanten met te veel interacties worden overspoeld. Journey Optimizer biedt nu verschillende tools voor conflictbeheer en prioritering.</p><p><ul><li><b> frequentie het in kaart brengen van de Reis </b>: U kunt regelreeksen nu tot stand brengen om op uw reizen van toepassing te zijn, toestaand u om het aantal reizen per dag, week, of maand te beperken, evenals het aantal gezamenlijke reizen die gelijktijdig lopen te controleren.</li>
+<p>In Journey Optimizer is het beheren van het volume en de timing van campagnes en reizen van essentieel belang om te voorkomen dat klanten met te veel interacties worden overspoeld. Journey Optimizer biedt nu verschillende tools voor conflictbeheer en prioritering.</p><p><ul><li><b> frequentie het in kaart brengen van de Reis </b>: U kunt regelreeksen nu tot stand brengen om op uw reizen van toepassing te zijn, toestaand u om het aantal reizen voor een profiel per dag, week, of maand te beperken, evenals het aantal gezamenlijke reizen die gelijktijdig lopen te controleren.</li>
 <li><b> Prioriteitsscore </b>: U kunt een prioritaire score aan een campagne of een reis nu toewijzen, die zich van 0 tot 100 uitstrekken. Een hoger getal geeft een hogere prioriteit aan. Wanneer twee campagnes of reisacties de zelfde kanaalconfiguratie gebruiken, zal Journey Optimizer één met de hoogste prioritaire score selecteren. Als de campagnes dezelfde score hebben, wordt de campagne gekozen die het minst recent is gewijzigd.</li>
 <li><b> de potentiële conflicten van de Mening </b>: Een nieuwe "potentiële conflicten van de Mening"knoop in reizen en campagnes staat u nu toe om overlapping met andere reizen of campagnes zoals de begindatum, het gerichte publiek, of de geselecteerde kanaalconfiguratie te identificeren.</li>
 <li><b> Arbitrage van de Reis </b>: Dit nieuwe vermogen laat u toe om aan de belangrijkste reizen voor uw klanten voorrang te geven. U kunt een regel tot stand brengen om ingang in een lagere prioritaire reis te onderdrukken wanneer een klant voor een aanstaande reis van hogere prioriteit kwalificeert.</li></ul></p>
@@ -144,7 +144,7 @@ Deze niet-visuele bewerkingsmodus is handig als u geen browserextensies kunt ins
 <table>
 <thead>
 <tr>
-<th><strong>Experimentatie op het gebied van reizen (algemene beschikbaarheid)</strong><br/></th>
+<th><strong>Inhoud experimenteren op reizen (algemene beschikbaarheid)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -295,11 +295,13 @@ De verbeteringen van SMS zijn geïntroduceerd om uw berichtmogelijkheden te verb
 * U kunt unieke trefwoorden voor uw SMS-campagnes en -reizen definiëren en beheren, zodat u meer gepersonaliseerde en efficiënte communicatie mogelijk maakt.
 * U kunt een standaard SMS-bericht maken en leveren wanneer een trefwoord niet wordt herkend.
 
-**Reizen**
+<!--**Journeys**-->
 
-* **experiment van de Weg in reizen** - met het experiment van de wegweg, kunt u zeer belangrijke metriek voor uw reiswegen nu bepalen en volgen, toestaand u om het effect van uw activiteiten te meten en duidelijkere inzichten in uw prestaties te verstrekken.
+<!--* **Path experiment in journeys** - With the journey path experiment, you can now define and track key metrics for your journey paths, allowing you to measure the impact of your activities and to provide clearer insights into your performance. -->
 
-* **Max aantal Levende reizen** - Journey Optimizer heeft nu een graslaag van 500 levende reizen op productiesanddozen, in plaats van 100. Het aantal rechtstreekse reizen is zichtbaar in het canvas van de reis. <!-- DOCAC-10977-->
+&lt;!—* **Max. aantal Levende reizen** - Journey Optimizer heeft nu een grip van 500 levende reizen op productiestanddozen, in plaats van 100. Het aantal rechtstreekse reizen is zichtbaar in het canvas van de reis. <!-- DOCAC-10977-->
+
+**Datasets**
 
 * **tijd-aan-levende guardrail** - Beginnend November 1, 2024, zal een tijd-aan-levende (TTL) guardrail aan systeem-geproduceerde datasets van Journey Optimizer in nieuwe zandbakken en nieuwe organismen als volgt worden uitgerold:
 
