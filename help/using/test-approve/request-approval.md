@@ -4,9 +4,9 @@ description: Leer hoe u goedkeuring kunt aanvragen voordat u uw reizen en campag
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: ade30d6b33467ad05146ddee3ea1c1a4115d38b2
+source-git-commit: 509ebc377ac8c24db464728b7544eaa96e8e5da4
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,11 @@ De toegang tot de goedkeuringswerkstroom wordt bepaald door uw specifieke gebrui
 
 * **het actieve beleid van de Goedkeuring bestaat**
 
-   * **Campagnes**: Als één of meerdere actieve goedkeuringsbeleid voor het voorwerp van de Campagne in een zandbak bestaan, zullen alle campagnes in genoemde zandbak de **[!UICONTROL Request Approval]** knoop tonen. Dit betekent dat campagnes niet rechtstreeks kunnen worden geactiveerd zonder goedkeuring.
+   * **Campagnes**: Als één of meerdere actieve goedkeuringsbeleid voor het voorwerp van de Campagne in een zandbak bestaan, zullen alle campagnes in genoemde zandbak de **[!UICONTROL Request Approval]** knoop tonen.
+Als er geen goedkeuringsbeleid van toepassing is op het geselecteerde object wanneer op de knop **[!UICONTROL Request Approval]** wordt geklikt, wordt de workflow voor automatische goedkeuring geactiveerd.
 
-   * **Reizen**: Als één of meerdere actieve goedkeuringsbeleid voor het voorwerp van de Reis in een zandbak bestaan, zullen alle reizen de **[!UICONTROL Request Approval]** knoop tonen. Net als bij campagnes kunnen reizen niet rechtstreeks worden gepubliceerd als een goedkeuringsbeleid actief is.
+   * **Reizen**: Als één of meerdere actieve goedkeuringsbeleid voor het voorwerp van de Reis in een zandbak bestaan, zullen alle reizen de **[!UICONTROL Request Approval]** knoop tonen.
+Als er geen goedkeuringsbeleid van toepassing is op het geselecteerde object wanneer op de knop **[!UICONTROL Request Approval]** wordt geklikt, wordt de workflow voor automatische goedkeuring geactiveerd.
 
 ## Goedkeuringsaanvraag verzenden
 
