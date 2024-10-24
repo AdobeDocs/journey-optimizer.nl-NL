@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2f56a072f7ae6ee2dfa65597cf5597b63dacdbe3
+source-git-commit: 08754b850f26c95f3c09ab5277e4f2ea156d2da7
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1942'
 ht-degree: 2%
 
 ---
@@ -206,7 +206,7 @@ Deze niet-visuele bewerkingsmodus is handig als u geen browserextensies kunt ins
 <tr>
 <td>
 <p>U kunt nu moeiteloos inhoud in meerdere talen maken in één campagne of reis. Met deze functie kunt u schakelen tussen talen wanneer u uw campagne of reis bewerkt, het hele bewerkingsproces stroomlijnt en uw mogelijkheden voor efficiënt beheer van meertalige inhoud verbetert.</p>
-<p>Eerder beschikbaar voor een reeks organisaties (LA), zijn de meertalige berichten nu beschikbaar aan alle gebruikers (GA).</p>
+<p>Met algemene beschikbaarheid is meertalige inhoud nu toegankelijk voor alle kanalen. </p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -293,7 +293,10 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 De verbeteringen van SMS zijn geïntroduceerd om uw berichtmogelijkheden te verbeteren:
 
 * U kunt unieke trefwoorden voor uw SMS-campagnes en -reizen definiëren en beheren, zodat u meer gepersonaliseerde en efficiënte communicatie mogelijk maakt.
+
 * U kunt een standaard SMS-bericht maken en leveren wanneer een trefwoord niet wordt herkend.
+
+* U kunt nu een SMS API-kanaalconfiguratie bewerken of verwijderen.
 
 <!--**Journeys**-->
 
