@@ -6,9 +6,9 @@ level: Beginner
 badge: label="Beperkte beschikbaarheid"
 hide: true
 hidefromtoc: true
-source-git-commit: fd644d4d4a92eb0e0770c1d04fe8e7cd90f3ebae
+source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,8 @@ Met de functie voor aftopping kunt u het aantal ritten beperken waarin een profi
 * **In samenloop het maximum** beperkt hoeveel reizen een profiel in gelijktijdig kan worden ingeschreven.
 
 Beide typen aftopping maken gebruik van prioriteitsscores om items te scheiden.
+
+➡️ [ ontdekt deze eigenschap in video ](#video)
 
 ## Een regel voor het afdekken van reizen maken {#create-rule}
 
@@ -115,3 +117,7 @@ Zodra de reis in werking wordt gesteld, zullen de plafondregels die in de vastge
 >[!IMPORTANT]
 >
 >Als een reis onmiddellijk wordt geactiveerd, kan het tot 15 minuten duren voordat het systeem begint met het onderdrukken van klanten. U kunt uw reis plannen om minstens 15 minuten in de toekomst te beginnen om deze mogelijkheid te verhinderen.
+
+## Hoe kan ik-video {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

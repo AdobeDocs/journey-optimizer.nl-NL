@@ -6,9 +6,9 @@ level: Beginner
 badge: label="Beperkte beschikbaarheid"
 hide: true
 hidefromtoc: true
-source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
+source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '681'
 ht-degree: 1%
 
 ---
@@ -40,6 +40,8 @@ De belangrijkste gebieden om voor potentiële overlapping te controleren zijn:
 * **Kanaal**: Zijn er andere mededelingen die voor zelfde timeframe worden gepland, en als zo, hoeveel?
 * **het Bedekken van Reeks van de Regel**: Welke types van reizen ben ik bedekken en is er overlapping binnen die?
 * **Configuratie van het Kanaal**: Zijn er andere reizen of campagnes gebruikend om het even welke kanaalconfiguratie die in de zelfde reis of de campagne wordt gebruikt die de reis of de campagne zou kunnen verhinderen aan het eind - gebruiker worden getoond?
+
+➡️ [ ontdekt deze eigenschap in video ](#video)
 
 ## Hoe Journey Optimizer conflicten detecteert {#detection}
 
@@ -86,3 +88,7 @@ Hier volgen enkele tips voor het verminderen van mogelijke conflicten nadat deze
 * Plaats **prioriteiten** op binnenkomende acties om de belangrijkste actie te verzekeren wordt getoond aan klanten.
 
 Door deze mogelijkheden leveraging, kunt u ervoor zorgen dat uw marketing inspanningen worden gericht en dat u het juiste evenwicht in uw communicatie strategie handhaaft.
+
+## Hoe kan ik-video {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435528?quality=12)
