@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 >id="ajo_admin_sms_api"
 >title="Uw SMS/MMS-provider configureren met Journey Optimizer"
 >abstract="Voordat u tekstberichten (SMS/MMS) kunt verzenden, moet u de providerinstellingen integreren met Journey Optimizer. Zodra gedaan, moet u een configuratie tot stand brengen SMS/MMS. Deze stappen moeten worden uitgevoerd door een Adobe Journey Optimizer System Administrator."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="Een SMS-kanaalconfiguratie maken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/sms/configure-sms/sms-configuration-surface" text="Een SMS-kanaalconfiguratie maken"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"

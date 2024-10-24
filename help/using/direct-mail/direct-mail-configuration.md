@@ -7,7 +7,7 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 1%
@@ -36,7 +36,7 @@ Voordat u dit bestand kunt genereren, moet u het volgende maken:
 >id="ajo_dm_file_routing_details"
 >title="Definieer het bestand dat de configuratie verplettert"
 >abstract="Nadat u een direct-mailbericht hebt gemaakt, wordt het bestand met de doelpublieksgegevens gegenereerd en geëxporteerd naar een server. U moet de serverdetails specificeren zodat uw direct-mailleverancier tot dat dossier voor levering direct-mail kan toegang hebben en gebruiken."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Een direct-mailbericht maken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/direct-mail/create-direct-mail" text="Een direct-mailbericht maken"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
@@ -168,7 +168,7 @@ Om het dossier te vormen dat, volg de stappen hieronder verplettert.
 >id="ajo_dm_surface_settings"
 >title="Instellingen voor direct mail definiëren"
 >abstract="Een direct-mailconfiguratie bevat de instellingen voor de opmaak van het bestand dat de doelpublieksgegevens bevat en wordt gebruikt door de mailprovider. U moet ook bepalen waar het dossier door het dossier te selecteren verplettert configuratie zal worden uitgevoerd."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html#file-routing-configuration" text="Bestands-routering configureren"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/direct-mail/direct-mail-configuration#file-routing-configuration" text="Bestands-routering configureren"
 
 <!--
 >[!CONTEXTUALHELP]

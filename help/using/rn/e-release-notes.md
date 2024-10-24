@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: af3ed02a1af6c0fea3078bdfca6f568356c06eb4
+source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1897'
 ht-degree: 3%
 
 ---
@@ -75,7 +75,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <tbody>
 <tr>
 <td>
-<p>U kunt dynamische subdomeinen en gepersonaliseerde kopbalparameters nu bepalen wanneer het creëren van configuraties van het e-mailkanaal, voor verhoogde flexibiliteit en controle over uw e-mailmontages.</p>
+<p>U kunt dynamische subdomeinen en gepersonaliseerde kopbalparameters nu bepalen wanneer het creëren van configuraties van het e-mailkanaal, voor verhoogde flexibiliteit en controle over uw e-mailmontages.</p><p>Door een gepersonaliseerde configuratie in een campagne of een rit te gebruiken, kunt u een voorvertoning van uw e-mailinhoud weergeven om te controleren op mogelijke fouten met de dynamische instellingen die u hebt gedefinieerd.</p>
 <p>Eerder beschikbaar voor een reeks organisaties (LA), is de aanpassing van de e-mailconfiguratie nu beschikbaar aan alle gebruikers (GA).</p>
 <p>Raadpleeg de <a href="../email/surface-personalization.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
@@ -277,10 +277,6 @@ De verbeteringen van SMS zijn geïntroduceerd om uw berichtmogelijkheden te verb
 * U kunt unieke trefwoorden voor uw SMS-campagnes en -reizen definiëren en beheren, zodat u meer gepersonaliseerde en efficiënte communicatie mogelijk maakt.
 * U kunt een standaard SMS-bericht maken en leveren wanneer een trefwoord niet wordt herkend.
 
-**Configuratie**
-
-* **de configuratieverpersoonlijking van het Kanaal** - wanneer het gebruiken van een gepersonaliseerde configuratie in een campagne of een reis, kunt u uw e-mailinhoud nu voorproef om potentiële fouten met de dynamische montages te controleren u bepaalde.
-
 **Reizen**
 
 * **experiment van de Weg in reizen** - met het experiment van de wegweg, kunt u zeer belangrijke metriek voor uw reiswegen nu bepalen en volgen, toestaand u om het effect van uw activiteiten te meten en duidelijkere inzichten in uw prestaties te verstrekken.
@@ -317,3 +313,10 @@ De verbeteringen van SMS zijn geïntroduceerd om uw berichtmogelijkheden te verb
 * Wanneer het richten van een Csv- dossierpubliek, kunt u attributen van het dossier in de verpersoonlijkingsredacteur en in reizen en campagneregelbouwer nu gebruiken. [Meer informatie](../audience/about-audiences.md)
 
 * Het gebruik van soorten publiek en kenmerken van aangepaste upload (CSV-bestand) is nu beschikbaar voor gebruik met het Healthcare Shield of Privacy and Security Shield.
+
+**op code-Gebaseerd kanaal**
+
+* Inhoudssjablonen zijn nu beschikbaar. U kunt het ontwerpen versnellen van uw op code-gebaseerde ervaringen die van een inhoudsmalplaatje beginnen door uw ontwikkelaars wordt gebouwd. Als u een inhoudssjabloon gebruikt, kan de markeerteken alleen enkele waarden of velden wijzigen in plaats van de gehele HTML- of JSON-inhoudslading samen te stellen.
+
+
+
