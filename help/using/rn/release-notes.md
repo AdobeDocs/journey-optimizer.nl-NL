@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
+source-git-commit: 7ae8a92be62f6b699a6b222ee5440540fbacffaa
 workflow-type: tm+mt
-source-wordcount: '3162'
+source-wordcount: '3096'
 ht-degree: 5%
 
 ---
@@ -44,8 +44,8 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <tr>
 <td>
 <p>Met Journey Optimizer kunt u nu inhoud in e-mailsjablonen vergrendelen door de volledige sjabloon of specifieke structuren en onderdelen te vergrendelen. Hierdoor kunt u onbedoelde bewerkingen of verwijderingen voorkomen, waardoor u meer controle hebt over de aanpassing van de sjabloon en de efficiëntie en betrouwbaarheid van uw e-mailcampagnes verbetert.</p>
-<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>-->
-<img src="assets/do-not-localize/ai-content.gif">
+<p>Raadpleeg de <a href="../content-management/content-locking.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<img src="assets/do-not-localize/gif-content-locking.gif">
 </td>
 </tr>
 </tbody>
@@ -138,10 +138,10 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <p>In Journey Optimizer is het beheren van het volume en de timing van campagnes en reizen van essentieel belang om te voorkomen dat klanten met te veel interacties worden overspoeld. Journey Optimizer biedt nu verschillende tools voor conflictbeheer en prioritering.</p><p><ul><li><b> frequentie het in kaart brengen van de Reis </b>: U kunt regelreeksen nu tot stand brengen om op uw reizen van toepassing te zijn, toestaand u om het aantal reizen voor een profiel per dag, week, of maand te beperken, evenals het aantal gezamenlijke reizen die gelijktijdig lopen te controleren.</li>
 <li><b> Prioriteitsscore </b>: U kunt een prioritaire score aan een campagne of een reis nu toewijzen, die zich van 0 tot 100 uitstrekken. Een hoger getal geeft een hogere prioriteit aan. Wanneer twee campagnes of reisacties de zelfde kanaalconfiguratie gebruiken, zal Journey Optimizer één met de hoogste prioritaire score selecteren. Als de campagnes dezelfde score hebben, wordt de campagne gekozen die het minst recent is gewijzigd.</li>
 <li><b> de potentiële conflicten van de Mening </b>: Een nieuwe "potentiële conflicten van de Mening"knoop in reizen en campagnes staat u nu toe om overlapping met andere reizen of campagnes zoals de begindatum, het gerichte publiek, of de geselecteerde kanaalconfiguratie te identificeren.</li>
-<li><b> Arbitrage van de Reis </b>: Dit nieuwe vermogen laat u toe om aan de belangrijkste reizen voor uw klanten voorrang te geven. U kunt een regel tot stand brengen om ingang in een lagere prioritaire reis te onderdrukken wanneer een klant voor een aanstaande reis van hogere prioriteit kwalificeert.</li></ul></p>
+<li><b> Arbitrage van de Reis </b>: Dit nieuwe vermogen laat u toe om aan de belangrijkste reizen voor uw klanten voorrang te geven. U kunt een regel tot stand brengen om ingang in een lagere prioritaire reis te onderdrukken wanneer een klant voor een aanstaande reis van hogere prioriteit kwalificeert.</li>
+<li><b> het in kaart brengen van de Frequentie door communicatie type: </b> met regelreeksen, kunt u korrelige regels door communicatietype (b.v., Verkoop, Bevordering) nu plaatsen om het overbelasten van klanten met gelijkaardige berichten te verhinderen. U kunt de frequentie in meerdere kanalen bepalen, waarbij al te gevraagde profielen automatisch worden uitgesloten voor een betere ervaring met klanten.</li></ul>
 <!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
 <p>Conflict- en prioriteitsbeheermogelijkheden zijn beschikbaar in Beperkte beschikbaarheid voor een geselecteerde groep klanten. Houd er rekening mee dat deze functies in de toekomst geleidelijk aan voor meer gebruikers beschikbaar zullen zijn. Neem contact op met uw accountteam als u interesse hebt in het toevoegen van deze functies aan de wachtlijst.</p>
-
 </td>
 </tr>
 </tbody>
@@ -191,34 +191,13 @@ Deze niet-visuele bewerkingsmodus is handig als u geen browserextensies kunt ins
 <tbody>
 <tr>
 <td>
-<p>Beslissingen, die voorheen beschikbaar waren voor een aantal organisaties (LA) en bekend staan als Experience Decisioning, zijn nu beschikbaar voor alle gebruikers (GA). Het vereenvoudigt personalisatie door een gecentraliseerde catalogus van marketingaanbiedingen aan te bieden die bekend staan als 'beslissingsobjecten' en een geavanceerde beslissingsengine. Deze motor hanteert regels en rangschikkingscriteria om de meest relevante beslissingsitems te selecteren en aan elk individu voor te leggen. Deze beslissingsitems worden naadloos geïntegreerd in een groot aantal binnenkomende oppervlakken via het op code gebaseerde ervaringskanaal.</p>
+<p>Beslissingen, die voorheen beschikbaar waren voor een aantal organisaties (LA) en bekend staan als Experience Decisioning, zijn nu beschikbaar voor alle gebruikers (GA), inclusief organisaties die de Adobe Healthcare Shield of Privacy and Security Shield add-on offerten hebben gekocht.</p><p>Beslissing vereenvoudigt personalisering door een gecentraliseerde catalogus van marketing aanbiedingen aan te bieden die als "beslissingspunten"en een geavanceerd besluitvormingsmotor worden bekend. Deze motor hanteert regels en rangschikkingscriteria om de meest relevante beslissingsitems te selecteren en aan elk individu voor te leggen. Deze beslissingsitems worden naadloos geïntegreerd in een groot aantal binnenkomende oppervlakken via het op code gebaseerde ervaringskanaal.</p>
 
-<p>Momenteel is het nemen van een beslissing niet beschikbaar voor klanten die de add-on Adobe Healthcare Shield en Privacy and Security Shield hebben aangeschaft.</p>
-
-<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+<p>Raadpleeg de <a href="../experience-decisioning/gs-experience-decisioning.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Regelsets (beperkte beschikbaarheid)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>U kunt nu korrelige regels voor frequentietoewijzing maken en deze toepassen op uw berichten of reizen door regelsets. Met deze nieuwe functie kunt u bepalen hoe vaak uw publiek een bericht ontvangt door kanaalregels in te stellen die automatisch overgevraagde profielen uitsluiten van berichten en acties.</p><p>Het staat u ook toe om het aantal reizen per dag, week, of maand te beperken, evenals het aantal gelijktijdige reizen te controleren die gelijktijdig lopen.</p>
-<p>Regelsets zijn beschikbaar in Beperkte beschikbaarheid voor een geselecteerde groep klanten. Houd er rekening mee dat deze functies in de toekomst geleidelijk aan voor meer gebruikers beschikbaar zullen zijn. Neem contact op met uw accountteam als u interesse hebt in het toevoegen van wachtlijsten voor deze functie.</p>
-<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
 
 <table>
 <thead>
