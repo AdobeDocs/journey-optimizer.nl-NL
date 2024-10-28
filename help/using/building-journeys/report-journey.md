@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: publiceren, reizen, live, geldigheid, controle
-source-git-commit: 59a597a563074fa4daa74c64e97f6bb5c0f6834d
+source-git-commit: 9b4ff0325d099252a5785aa13cfe0f1fe42acac6
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ De weergegeven gebeurtenissen hebben zich in de afgelopen 24 uur voorgedaan, met
 
 Voor uw live reis hebt u toegang tot:
 
-* **[!UICONTROL Entered profiles]**: Het totale aantal personen dat deze activiteit heeft ingevoerd.
+* **[!UICONTROL Entered profiles]**: Het totale aantal personen dat de reis heeft verlaten (inclusief fouten).
 * **[!UICONTROL Exited profiled]**: Het totale aantal personen dat de reis heeft verlaten uit die activiteit, als gevolg van uitstapcriteria.
 * **[!UICONTROL Profiles in error]**: Het totale aantal personen dat tijdens hun reis een fout heeft aangetroffen.
 * **[!UICONTROL Discarded profiles]**: Het totale aantal personen dat om een van de volgende redenen van de reis is verwijderd:
@@ -41,6 +41,6 @@ Voor uw live reis hebt u toegang tot:
 
 Voor elke activiteit binnen elke levende reis hebt u toegang tot:
 
-* **[!UICONTROL Entered profiles]**: Het totale aantal personen dat deze activiteit heeft ingevoerd.
-* **[!UICONTROL Exited profile]**: Het totale aantal personen dat de reis heeft verlaten uit die activiteit, als gevolg van uitstapcriteria.
+* **[!UICONTROL Entered]**: Het totale aantal personen dat deze activiteit heeft ingevoerd.
+* **[!UICONTROL Exited (met exit criteria)]**: Het totale aantal personen dat de reis heeft verlaten uit die activiteit, als gevolg van uitstapcriteria.
 * **[!UICONTROL Error]**: Het totale aantal personen dat een fout heeft gemaakt met die activiteit.
