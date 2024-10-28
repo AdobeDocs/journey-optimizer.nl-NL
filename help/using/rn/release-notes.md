@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
+source-git-commit: 2ea81c13e25f1b5a3808bd956a588794f460a521
 workflow-type: tm+mt
-source-wordcount: '3101'
+source-wordcount: '3104'
 ht-degree: 5%
 
 ---
@@ -117,8 +117,8 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <tbody>
 <tr>
 <td>
-<p>Met Reisoptimalisator kunt u nu verschillende varianten van uw e-mailinhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-bestand zijn geüpload of handmatig zijn toegevoegd. Alle profielkenmerken die in de inhoud worden gebruikt voor personalisatie worden automatisch gedetecteerd door het systeem en kunnen worden gebruikt voor uw tests om meerdere varianten te maken.</p>
-<p>Deze mogelijkheid is momenteel beschikbaar als bètaversie.</p>
+<p>Met Reisoptimalisator kunt u nu verschillende varianten van uw e-mailinhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die zijn geüpload uit een bestand of handmatig zijn toegevoegd. Alle profielkenmerken die in de inhoud worden gebruikt voor personalisatie worden automatisch gedetecteerd door het systeem en kunnen worden gebruikt voor uw tests om meerdere varianten te maken.</p>
+<p>Deze mogelijkheid is momenteel beschikbaar voor alle klanten als een openbare bètaversie.</p>
 <!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
 </td>
 </tr>
