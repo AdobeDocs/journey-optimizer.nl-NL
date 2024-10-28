@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7ae8a92be62f6b699a6b222ee5440540fbacffaa
+source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
 workflow-type: tm+mt
-source-wordcount: '3096'
+source-wordcount: '3101'
 ht-degree: 5%
 
 ---
@@ -309,14 +309,14 @@ De verbeteringen van SMS zijn geïntroduceerd om uw berichtmogelijkheden te verb
 
 **Datasets**
 
-* **tijd-aan-levende guardrail** - Beginnend November 1, 2024, zal een tijd-aan-levende (TTL) guardrail aan systeem-geproduceerde datasets van Journey Optimizer in nieuwe zandbakken en nieuwe organismen als volgt worden uitgerold:
+* **verzend en open gebeurtenissen** - Beginnend 1 November, 2024, zal het stromen segmentatie niet meer het gebruik van verzenden en open gebeurtenissen van Journey Optimizer het volgen en terugkoppelen datasets steunen. Deze wijziging is van toepassing op alle sandboxen en organisaties van klanten. [Meer informatie](../data/datasets-ttl.md#segmentation-update)
+
+* **Tijd-aan-levende Dataset (TTL)** - Beginnend in Februari 2025, zal een tijd-aan-levende (TTL) guardrail aan systeem-geproduceerde datasets van Journey Optimizer in nieuwe zandbakken en nieuwe organismen als volgt worden uitgerold:
 
    * 90 dagen voor gegevens in de profielopslag
    * 13 maanden voor gegevens in het data Lake
 
-  Deze wijziging wordt vervolgens in een tweede fase doorgevoerd in bestaande sandboxen voor klanten.
-
-  Bovendien, beginnend November 1, zal de het stromen segmentatie niet meer het gebruik van verzenden en open gebeurtenissen van het volgen en terugkoppelen datasets steunen. Deze wijziging is van toepassing op alle sandboxen en orgs van klanten op dat moment. [Meer informatie](../data/datasets-ttl.md)
+  Deze wijziging wordt in een volgende fase doorgevoerd in bestaande sandboxen voor klanten. [Meer informatie](../data/datasets-ttl.md#ttl)
 
 * **Parameters in douaneacties** (de datum van Beschikbaarheid: Okt 3, 2024) - ONGELDIGE en facultatieve parameters worden nu gesteund in douaneacties. [Meer informatie](../action/about-custom-action-configuration.md#define-the-message-parameters)
 

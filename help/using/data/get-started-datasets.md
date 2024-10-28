@@ -8,9 +8,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform, data Lake, create, Lake, datasets, profile
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: f16ce53f61d64d23f530d007e0124a84e2cc3405
+source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Door gebrek, slechts worden de datasets die u hebt ingebed in getoond. Als u de 
 
 >[!NOTE]
 >
->Vanaf 1 november, 2024, zal een tijd-aan-levende (TTL) guardrail op systeem-geproduceerde datasets van Journey Optimizer worden afgedwongen. Bovendien, op dat ogenblik, zal het stromen segmentatie niet meer het gebruik van verzenden en open gebeurtenissen van het volgen en terugkoppelen datasets steunen. [Meer informatie](datasets-ttl.md)
+>Vanaf 1 november 2024 biedt streaming segmentatie geen ondersteuning meer voor het gebruik van send- en open-gebeurtenissen van Journey Optimizer-tracking en feedback in gegevenssets. Daarnaast wordt vanaf februari 2025 een time-to-live (TTL)-guardrail (time-to-live) uitgerold naar door het Journey Optimizer-systeem gegenereerde gegevenssets. [Meer informatie](datasets-ttl.md)
 
 Selecteer de naam van een dataset om tot zijn de activiteitenscherm van de Dataset toegang te hebben en details van de dataset te zien u selecteerde. Het activiteitenlusje omvat een grafiek die het tarief visualiseert van berichten die worden verbruikt evenals een lijst van succesvolle en ontbroken partijen.
 
