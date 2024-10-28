@@ -5,7 +5,7 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2a666364144cf320a9ed20741da7d6f5d22b0d96
+source-git-commit: b6705059782a872939fa51fd51d335b1386a3e91
 workflow-type: tm+mt
 source-wordcount: '2152'
 ht-degree: 25%
@@ -195,7 +195,7 @@ ht-degree: 25%
       + [Goedkeuringsbeleid maken en beheren](using/test-approve/approval-policies.md)
       + [Goedkeuring aanvragen](using/test-approve/request-approval.md)
       + [Een verzoek goedkeuren](using/test-approve/review-approve-request.md)
-+ Communicatiekanalen {#communication-channels}
++ Communicatiekanalen {#channels}
    + [Aan de slag met communicatiekanalen](using/channels/gs-channels.md)
    + E-mailkanaal {#email}
       + [Aan de slag met e-mails](using/email/get-started-email.md)
