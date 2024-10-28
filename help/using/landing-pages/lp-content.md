@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: landing, landing page, creation, page, form, component
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
+source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
 workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 >id="ac_lp_components"
 >title="Inhoudscomponenten gebruiken"
 >abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een bestemmingspagina te maken. Gebruik de formuliercomponent om specifieke inhoud te definiëren waarmee gebruikers hun keuzes kunnen selecteren en verzenden."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/email/design-email/add-content/content-components#add-content-components" text="Inhoudscomponenten toevoegen"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="Inhoudscomponenten toevoegen"
 
 Als u de inhoud van de bestemmingspagina wilt ontwerpen, kunt u dezelfde onderdelen gebruiken als voor een e-mail. [Meer informatie](../email/content-components.md#add-content-components)
 

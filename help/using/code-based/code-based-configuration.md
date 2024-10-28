@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
+source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 1%
@@ -180,7 +180,7 @@ Volg de onderstaande stappen om de op code gebaseerde instellingen voor ervaring
 >id="ajo_admin_surface_uri"
 >title="De oppervlak-URI voor de component toevoegen"
 >abstract="Als uw implementatie niet voor Web, iOS, of Android is, of als u specifieke URIs moet richten, ga een oppervlakte URI in, die een unieke herkenningsteken richtend aan de entiteit is waar u uw ervaring wilt leveren. Zorg ervoor u een oppervlakte URI ingaat die in uw eigen implementatie wordt gebruikt."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/code-based-experience/code-based-configuration#other" text="Creeer een code-gebaseerde ervaringsconfiguratie voor Andere platforms"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/code-based-configuration#other" text="Creeer een code-gebaseerde ervaringsconfiguratie voor Andere platforms"
 
 Een op code-gebaseerde ervaring **oppervlakte** is om het even welke entiteit die voor gebruiker of systeeminteractie wordt ontworpen, die uniek door een **URI** wordt geïdentificeerd. Het oppervlak wordt opgegeven in de implementatie van de toepassing en moet overeenkomen met het oppervlak waarnaar wordt verwezen in uw op code gebaseerde configuratie van het ervaringskanaal.
 
