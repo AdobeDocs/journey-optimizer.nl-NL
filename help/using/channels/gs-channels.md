@@ -5,7 +5,7 @@ title: Aan de slag met communicatiekanalen in  [!DNL Adobe Journey Optimizer]
 description: Leer hoe te met  [!DNL Adobe Journey Optimizer]  communicatiekanalen te werken.
 role: User
 level: Beginner
-source-git-commit: 972d517ec2a5779f8c3196b40f1418b9c207d791
+source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 0%
@@ -22,27 +22,30 @@ In het dynamische marketinglandschap van vandaag is het effectief bereiken van u
 ## Binnenkomende en uitgaande kanalen {#inbound-outbound}
 
 Het begrip van het verschil tussen binnenkomende en uitgaande kanalen is essentieel voor het optimaliseren van uw communicatiestrategie:
+
 * Binnenkomende kanalen: deze kanalen staan klanten toe om interactie in werking te stellen. Voorbeelden zijn in-app berichten en webinteracties, waarbij gebruikers op eigen voorwaarden met inhoud kunnen werken.
+
 * Uitgaande Kanalen: Deze impliceren het verzenden van berichten naar klanten zonder vroegere interactie. Voorbeelden zijn e-mailcampagnes en pushberichten, waar u proactief contact opneemt met uw publiek.
+
 Het effectief benutten van beide soorten kanalen kan de ervaringen van klanten verbeteren en de betrokkenheid van klanten stimuleren.
 
 ## Beschikbare kanalen {#channels}
 
-Adobe Journey Optimizer biedt verschillende communicatiekanalen om effectief met uw publiek in contact te komen. Hier volgt een lijst met de kanalen die u kunt gebruiken:
+Adobe Journey Optimizer biedt verschillende communicatiekanalen om effectief met uw publiek in contact te komen. Hier volgt een lijst met de kanalen die u kunt benutten:
 
-Uitgaande kanalen:
+* Uitgaande kanalen
 
-* **E-mail**: Lever gepersonaliseerde berichten rechtstreeks aan uw klanten&#39; inboxes.
-* **SMS/MMS**: Verzend tekstberichten om gebruikers op hun mobiele apparaten te bereiken.
-* **het Bericht van de duw**: Sluit gebruikers met onmiddellijke berichten op hun apparaten aan, die directe actie drijven.
-* **Directe Post**: Gebruik fysieke post om een tastbare verbinding met uw publiek tot stand te brengen.
+   * **E-mail**: Lever gepersonaliseerde berichten rechtstreeks aan uw klanten&#39; inboxes.
+   * **SMS/MMS**: Verzend tekstberichten om gebruikers op hun mobiele apparaten te bereiken.
+   * **het Bericht van de duw**: Sluit gebruikers met onmiddellijke berichten op hun apparaten aan, die directe actie drijven.
+   * **Directe Post**: Gebruik fysieke post om een tastbare verbinding met uw publiek tot stand te brengen.
 
-Binnenkomende kanalen:
+* Binnenkomende kanalen
 
-* **In-app**: Communiceer met gebruikers binnen uw mobiele of Webtoepassingen om hun ervaring te verbeteren.
-* **Web**: Het Web-based overseinen van het gebruik om met gebruikers in wisselwerking te staan die uw plaats doorbladeren.
-* **op code-gebaseerde Ervaring**: Voer douaneervaringen door codering voor unieke betrokkenheidskansen uit.
-* **Kaarten van de Inhoud**: Deel dynamische inhoud direct binnen uw toepassingen of websites om gebruikers op de hoogte te houden en betrokken te houden.
+   * **In-app**: Communiceer met gebruikers binnen uw mobiele of Webtoepassingen om hun ervaring te verbeteren.
+   * **Web**: Het Web-based overseinen van het gebruik om met gebruikers in wisselwerking te staan die uw plaats doorbladeren.
+   * **op code-gebaseerde Ervaring**: Voer douaneervaringen door codering voor unieke betrokkenheidskansen uit.
+   * **Kaarten van de Inhoud**: Deel dynamische inhoud direct binnen uw toepassingen of websites om gebruikers op de hoogte te houden en betrokken te houden.
 
 ## Kanalen gebruiken voor reizen en campagnes {#leverage}
 
@@ -51,7 +54,7 @@ In Adobe Journey Optimizer kunt u communicatiekanalen in twee primaire contexten
 * **Reizen**: Creeer naadloze klantenervaringen over veelvoudige touchpoints. Automatiseer interacties op basis van gebruikersgedrag en -voorkeuren en zorg voor tijdige en relevante communicatie die gebruikers door hun reis met uw merk begeleidt.
 * **Campagnes**: Stel een specifieke marketing campagnes op die een bepaald kanaal gebruiken om gerichte doelstellingen te bereiken. Of het promoten van een nieuw product of het drijven van seizoensgebonden verkoop, laten de campagnes u toe om gerichte overseinenstrategieën te creëren die aan uw publiek worden aangepast.
 
-Laten we aan de slag! Klik op de onderstaande kanalen om dieper in elk kanaal te duiken en te ontdekken hoe u deze effectief kunt benutten in uw marketingstrategie.
+Laten we beginnen! Klik op de onderstaande kanalen om dieper in elk kanaal te duiken en te ontdekken hoe u deze effectief kunt benutten in uw marketingstrategie.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="../email/get-started-email.md"><img alt="email" src="assets/do-not-localize/email.png"></a>
