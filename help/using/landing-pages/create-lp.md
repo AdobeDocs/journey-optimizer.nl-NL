@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: landen, pagina landen, maken, publiceren
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 13f07c2c6af38661ad6d58b2f1505c8199c0cc0b
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1653'
 ht-degree: 1%
 
 ---
@@ -60,8 +60,6 @@ Klik op de drie stippen naast een openingspagina om de gewenste actie te selecte
 >id="ajo_lp_create"
 >title="De bestemmingspagina definiëren en configureren"
 >abstract="Als u een openingspagina wilt maken, moet u een voorinstelling selecteren, vervolgens de primaire pagina en subpagina&#39;s configureren en ten slotte de pagina testen voordat u deze publiceert."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Voorinstellingen voor openingspagina&#39;s maken"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="Publish de openingspagina"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_management_labels"
