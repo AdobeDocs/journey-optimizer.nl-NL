@@ -12,7 +12,7 @@ exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
->title="Valideren met betrouwbaarheid"
+>title="Valideren met Assurance"
 >abstract="Adobe Experience Platform Assurance is ingesloten in deze workflow om u te helpen uw SDK-implementatie te controleren en toepassingsgebeurtenissen te simuleren en te valideren."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home" text="Overzicht van Adobe Experience Platform Assurance"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance - Overzicht"
 
 Deze instelling vergemakkelijkt de snelle configuratie van marketingkanalen, waarbij alle vereiste middelen binnen Experience Platform, Journey Optimizer en gegevensverzameling gemakkelijk beschikbaar zijn. Hierdoor kan uw marketingteam beginnen met campagne en het creëren van reizen.
 
@@ -70,7 +70,7 @@ Merk op dat voor elk platform dat u zou willen opstelling, het wordt vereist om 
     <tbody>
       <tr>
         <td>
-          <p>Gegevensverzameling</p>
+          <p>Dataverzameling</p>
         </td>
         <td>
           <ul>
@@ -163,7 +163,7 @@ Voor de **Aanvankelijke configuratie**, hieronder is een uitvoerige lijst van al
   <ul>
   <li>Adobe Experience Platform Edge Network</li>
   <li>Adobe Journey Optimizer</li>
-  <li>AEP-betrouwbaarheid</li>
+  <li>AEP Assurance</li>
   <li>Toestemming (met standaard ingeschakeld toestemmingsbeleid)</li>
   <li>Identiteit (met standaard ECID, met standaard stitching-regels)</li>
   <li>Mobiele kern</li>
@@ -172,10 +172,10 @@ Voor de **Aanvankelijke configuratie**, hieronder is een uitvoerige lijst van al
   </tr>
   <tr>
   <td>
-  <p>Betrouwbaarheid</p>
+  <p>Assurance</p>
   </td>
   <td>
-  <p>Verzekeringssessie</p>
+  <p>Assurance-sessie</p>
   </td>
   </tr>
   <tr>
@@ -258,7 +258,7 @@ Voor de **Aanvankelijke configuratie**, hieronder is een uitvoerige lijst van al
   <ul>
   <li>Adobe Experience Platform Edge Network</li>
   <li>Adobe Journey Optimizer</li>
-  <li>AEP-betrouwbaarheid</li>
+  <li>AEP Assurance</li>
   <li>Toestemming (met standaard ingeschakeld toestemmingsbeleid)</li>
   <li>Identiteit (met standaard ECID, met standaard stitching-regels)</li>
   <li>Mobiele kern</li>
@@ -267,10 +267,10 @@ Voor de **Aanvankelijke configuratie**, hieronder is een uitvoerige lijst van al
   </tr>
   <tr>
   <td>
-  <p>Betrouwbaarheid</p>
+  <p>Assurance</p>
   </td>
   <td>
-  <p>Verzekeringssessie</p>
+  <p>Assurance-sessie</p>
   </td>
   </tr>
   <tr>
@@ -353,7 +353,7 @@ Voor de **Aanvankelijke configuratie**, hieronder is een uitvoerige lijst van al
   <ul>
   <li>Adobe Experience Platform Edge Network</li>
   <li>Adobe Journey Optimizer</li>
-  <li>AEP-betrouwbaarheid</li>
+  <li>AEP Assurance</li>
   <li>Toestemming (met standaard ingeschakeld toestemmingsbeleid)</li>
   <li>Identiteit (met standaard ECID, met standaard stitching-regels)</li>
   <li>Mobiele kern</li>
@@ -362,10 +362,10 @@ Voor de **Aanvankelijke configuratie**, hieronder is een uitvoerige lijst van al
   </tr>
   <tr>
   <td>
-  <p>Betrouwbaarheid</p>
+  <p>Assurance</p>
   </td>
   <td>
-  <p>Verzekeringssessie</p>
+  <p>Assurance-sessie</p>
   </td>
   </tr>
   <tr>

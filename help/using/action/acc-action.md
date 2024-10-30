@@ -25,9 +25,9 @@ ht-degree: 0%
 
 Deze integratie is beschikbaar voor Adobe Campaign v7/v8 vanaf versie 7.1 en Adobe Campaign v8. Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden van Adobe Campaign Transaction Messaging.
 
-In dit hoofdstuk wordt een gebruiksgeval van begin tot eind weergegeven [sectie](../building-journeys/ajo-ac.md).
+Een gebruiksgeval van begin tot eind wordt voorgesteld in deze [ sectie ](../building-journeys/ajo-ac.md).
 
-Voor elke gevormde actie, is een actieactiviteit beschikbaar in het palet van de reisontwerper. Zie dit [sectie](../building-journeys/using-adobe-campaign-v7-v8.md).
+Voor elke gevormde actie, is een actieactiviteit beschikbaar in het palet van de reisontwerper. Verwijs naar deze [ sectie ](../building-journeys/using-adobe-campaign-v7-v8.md).
 
 ## Toegang {#access}
 
@@ -46,7 +46,7 @@ Uit Adobe Campaign:
 
 ## Belangrijke opmerkingen {#important-notes}
 
-* Er is geen vertraging van berichten. Het systeem kapt het aantal berichten die over aan 4000 per 5 minuten kunnen worden verzonden, die op huidige Campagne SLA worden gebaseerd. Om deze reden dient Journey Optimizer alleen te worden gebruikt in gevallen van eenmalig gebruik (individuele gebeurtenissen, niet het publiek).
+* Er is geen vertraging van berichten. Het systeem kapt het aantal berichten in dat naar 4000 per 5 minuten kan worden verzonden, die op de huidige Campagne SLA wordt gebaseerd. Om deze reden dient Journey Optimizer alleen te worden gebruikt in gevallen van eenmalig gebruik (individuele gebeurtenissen, niet het publiek).
 
 * U moet één actie op het canvas per malplaatje vormen u wenst te gebruiken. U moet één actie in Journey Optimizer voor elke malplaatje vormen u om van Adobe Campaign wenst te gebruiken.
 
@@ -58,7 +58,7 @@ Uit Adobe Campaign:
 
 ## Vereisten {#prerequisites}
 
-In Campagne, moet u een transactiebericht en zijn bijbehorende gebeurtenis tot stand brengen en publiceren. Zie de [Adobe Campaign-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target="_blank"}.
+In Campagne, moet u een transactiebericht en zijn bijbehorende gebeurtenis tot stand brengen en publiceren. Verwijs naar de [ documentatie van Adobe Campaign ](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging) {target="_blank"}.
 
 U kunt uw JSON-lading voor elk bericht samenstellen volgens het onderstaande patroon. U gaat deze payload vervolgens plakken tijdens het configureren van de handeling in Journey Optimizer (zie hieronder)
 
@@ -75,19 +75,19 @@ Hier volgt een voorbeeld:
 }
 ```
 
-* **kanaal**: het kanaal dat is gedefinieerd voor de transactiesjabloon van uw campagne
-* **eventType**: de interne naam van uw Campagnegebeurtenis
-* **ctx**: variabele die op de verpersoonlijking wordt gebaseerd u in uw bericht hebt.
+* **kanaal**: het kanaal dat voor uw het transactiemalplaatje van de Campagne wordt bepaald
+* **eventType**: de interne naam van uw gebeurtenis van de Campagne
+* **ctx**: variabele die op de personalisatie wordt gebaseerd u in uw bericht hebt.
 
 ## De handeling configureren {#configure-action}
 
 In Journey Optimizer moet u één actie per transactiemelding configureren. Voer de volgende stappen uit:
 
-1. Maak een nieuwe handeling. Zie dit [sectie](../action/action.md).
+1. Maak een nieuwe handeling. Verwijs naar deze [ sectie ](../action/action.md).
 1. Voer een naam en beschrijving in.
-1. In de **Type handeling** veld, selecteren **Adobe Campaign Classic**.
-1. Klik in het dialoogvenster **Payload** veld en plak een voorbeeld van de JSON-payload die overeenkomt met het campagnebericht. Neem contact op met de Adobe voor deze lading.
+1. Op het **type van Actie** gebied, uitgezochte **Adobe Campaign Classic**.
+1. Klik op het **gebied van de Lading** en kleef een voorbeeld van JSON nuttige lading die aan het bericht van de Campagne beantwoordt. Neem contact op met de Adobe voor deze lading.
 1. Pas de verschillende velden aan op statisch of variabel, afhankelijk van de vraag of u ze wilt toewijzen op het canvas Reis. Bepaalde gebieden, zoals kanaalparameters voor e-mailadres en verpersoonlijkingsgebieden (ctx), wilt u waarschijnlijk bepaald als variabelen voor afbeelding in de context van de reis.
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 ![](assets/accintegration1.png)

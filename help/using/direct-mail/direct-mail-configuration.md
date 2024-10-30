@@ -40,12 +40,12 @@ Voordat u dit bestand kunt genereren, moet u het volgende maken:
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
->title="Definieer het bestand dat de configuratie verplettert"
->abstract="U moet definiëren waar het bestand wordt geëxporteerd voordat uw direct-mailprovider het kan gebruiken."
+>title="Definieer de configuratie voor het routeren van bestanden"
+>abstract="U moet definiëren waar het bestand wordt geëxporteerd, zodat uw direct-mailprovider het kan gebruiken."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_select_file_routing"
->title="Configuratie van bestandsroutering"
+>title="Configuratie van bestandroutering"
 >abstract="Selecteer het dossier dat configuratie van uw keus verplettert, die bepaalt waar het dossier voor uw direct-mailleverancier aan gebruik zal worden uitgevoerd."
 
 >[!CONTEXTUALHELP]
@@ -55,14 +55,14 @@ Voordat u dit bestand kunt genereren, moet u het volgende maken:
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
->title="Kies het AWS-gebied"
->abstract="Selecteer het geografische gebied van de AWS-server waarop u uw bestanden voor directe e-mail wilt exporteren. In het algemeen verdient het de voorkeur het gebied te kiezen dat het dichtst bij de locatie van uw directe-mailprovider ligt."
+>title="Het AWS-gebied kiezen"
+>abstract="Selecteer het geografische gebied van de AWS-server waarnaar u uw direct-mailbestanden wilt exporteren. In het algemeen verdient het de voorkeur het gebied te kiezen dat het dichtst bij de locatie van uw directmailprovider ligt."
 
 >[!NOTE]
 >
->Amazon S3, SFTP en Azure worden momenteel ondersteund in [!DNL Journey Optimizer] .
+>Momenteel worden Amazon S3, SFTP en Azure ondersteund in [!DNL Journey Optimizer] .
 
-[!DNL Journey Optimizer] genereert en exporteert het bestand met de doelpublieksgegevens naar een server om een direct mailbericht te verzenden.
+Als u een direct-mailbericht wilt verzenden, genereert [!DNL Journey Optimizer] het bestand met de doelgroepgegevens en exporteert het naar een server.
 
 U moet die serverdetails specificeren zodat uw direct-mailleverancier tot dat dossier voor het leveren van post kan toegang hebben en gebruiken.
 
@@ -179,9 +179,9 @@ Om het dossier te vormen dat, volg de stappen hieronder verplettert.
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
 >title="De drempelwaarde voor het splitsen van bestanden definiëren"
->abstract="U moet het maximumaantal records instellen voor elk bestand dat publieksgegevens bevat. U kunt een willekeurig getal tussen 1 en 200.000 records selecteren. Nadat de opgegeven drempelwaarde is bereikt, wordt een ander bestand gemaakt voor de resterende records."
+>abstract="U moet het maximumaantal records instellen voor elk bestand dat publieksgegevens bevat. U kunt een willekeurig aantal tussen 1 en 200.000 records selecteren. Nadat de opgegeven drempel is bereikt, wordt er een ander bestand gemaakt voor de resterende records."
 
-Als u direct mail met [!DNL Journey Optimizer] wilt kunnen leveren, moet u een kanaalconfiguratie tot stand brengen om de montages voor het formatteren van het dossier te bepalen dat door de postleverancier zal worden gebruikt.
+Als u direct mail wilt verzenden met [!DNL Journey Optimizer] , moet u een kanaalconfiguratie maken om de instellingen te definiëren voor de opmaak van het bestand dat wordt gebruikt door de mailprovider.
 
 Een direct-mailconfiguratie moet ook het dossier omvatten dat configuratie verplettert die de server bepaalt waar uw direct-maildossier zal worden uitgevoerd.
 
@@ -193,11 +193,11 @@ Een direct-mailconfiguratie moet ook het dossier omvatten dat configuratie verpl
 
    >[!NOTE]
    >
-   > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook onderstrepingsteken `_` -, punt `.` - en afbreekstreepjes `-` gebruiken.
+   > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook liggend streepje `_` -, punt `.` - en afbreekstreepje `-` -tekens gebruiken.
 
-1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [ leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md).
+1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [ leer meer op het Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md).
 
-1. Selecteer het kanaal **[!UICONTROL Direct mail]** .
+1. Selecteer het **[!UICONTROL Direct mail]** -kanaal.
 
    ![](assets/direct-mail-config-2.png)
 
@@ -219,7 +219,7 @@ Een direct-mailconfiguratie moet ook het dossier omvatten dat configuratie verpl
 
    >[!CAUTION]
    >
-   >Als u geen dossier gevormd hebt dat optie verplettert, zult u geen directe-mailconfiguratie kunnen tot stand brengen. [Meer informatie](#file-routing-configuration)
+   >Als u geen dossier het verpletteren optie hebt gevormd, zult u geen direct-mailconfiguratie kunnen creëren. [Meer informatie](#file-routing-configuration)
 
    ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
@@ -227,7 +227,7 @@ Een direct-mailconfiguratie moet ook het dossier omvatten dat configuratie verpl
 
 1. Verzend de configuratie voor direct mail.
 
-U kunt [ een direct-mailbericht ](../direct-mail/create-direct-mail.md) binnen een campagne nu tot stand brengen. Nadat de campagne is gestart, wordt het bestand met de doelgegevens van het publiek automatisch geëxporteerd naar de server die u hebt gedefinieerd. De direct-mailprovider kan dat bestand vervolgens ophalen en doorgaan met de directe-maillevering.
+U kunt [ een direct-mailbericht ](../direct-mail/create-direct-mail.md) binnen een campagne nu tot stand brengen. Zodra de campagne is gestart, wordt het bestand met de doelgroepgegevens automatisch geëxporteerd naar de server die u hebt gedefinieerd. De direct mail provider zal dan dat dossier kunnen terugwinnen en met de directe postlevering te werk gaan.
 
 >[!NOTE]
 >

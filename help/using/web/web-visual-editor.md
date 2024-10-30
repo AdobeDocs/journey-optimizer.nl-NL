@@ -51,11 +51,11 @@ Voer de onderstaande stappen uit om uw webervaring te gaan ontwerpen met de visu
 
    >[!NOTE]
    >
-   >Als u probeert om een website te laden die er niet in slaagt om te laden, toont een bericht dat dat u de [ Visuele het Uitgeven de browser van de Helper extensie ](#install-visual-editing-helper) installeert. Zie sommige uiteinden voor het oplossen van problemen in [ deze sectie ](web-prerequisites.md#troubleshooting).
+   >Als u probeert om een website te laden die er niet in slaagt te laden, een berichtvertoningen die erop wijzen dat u de [ Visuele het Uitgeven Browser van de Helper browser uitbreiding ](#install-visual-editing-helper) installeert. Zie sommige uiteinden voor het oplossen van problemen in [ deze sectie ](web-prerequisites.md#troubleshooting).
    >
-   >U kunt uw webinhoud ook bewerken zonder de visuele editor te laden. Deselecteer hiervoor de optie **[!UICONTROL Visual editor]** om in plaats daarvan de niet-visuele uitvoeringsmodus te gebruiken. [Meer informatie](web-non-visual-editor.md)
+   >U kunt uw webinhoud ook bewerken zonder de visuele editor te laden. Als u dit wilt doen, schakelt u de optie **[!UICONTROL Visual editor]** uit om in plaats daarvan de modus Niet-visuele editie te gebruiken. [Meer informatie](web-non-visual-editor.md)
 
-1. Selecteer in de webontwerper een element op het canvas, zoals een afbeelding, knop, alinea, tekst, container, kop, koppeling, enz. [Meer informatie](#content-components)
+1. Selecteer eenmaal in de webontwerper een element op het canvas, zoals een afbeelding, knop, alinea, tekst, container, kop, koppeling, enzovoort. [Meer informatie](#content-components)
 
 1. U kunt een element bewerken met:
 
@@ -73,7 +73,7 @@ Voer de onderstaande stappen uit om uw webervaring te gaan ontwerpen met de visu
 
 >[!NOTE]
 >
->De webcontentontwerper lijkt grotendeels op de e-mailontwerper. Leer meer op [ het ontwerpen van inhoud met  [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>De webinhoudontwerper is meestal vergelijkbaar met de e-mailontwerper. Leer meer op [ het ontwerpen van inhoud met  [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 
 Nadat u de webinhoud hebt bewerkt, kunt u uw wijzigingen beheren. [Meer informatie](manage-web-modifications.md)
 
@@ -95,7 +95,7 @@ Nadat u de webinhoud hebt bewerkt, kunt u uw wijzigingen beheren. [Meer informat
 
    ![](assets/web-designer-components.png)
 
-1. Plaats de muisaanwijzer op de pagina en klik op de knop **[!UICONTROL Insert before]** of **[!UICONTROL Insert after]** om de component aan een bestaand element op de pagina toe te voegen.
+1. Houd de muisaanwijzer boven de pagina en klik op de knop **[!UICONTROL Insert before]** of **[!UICONTROL Insert after]** om de component aan een bestaand element op de pagina toe te voegen.
 
    ![](assets/web-designer-insert-components.png)
 
@@ -103,7 +103,7 @@ Nadat u de webinhoud hebt bewerkt, kunt u uw wijzigingen beheren. [Meer informat
    >
    >Als u de selectie van een component wilt opheffen, klikt u op de knop **[!UICONTROL ESC]** in de contextafhankelijke blauwe banner die boven op het canvas wordt weergegeven.
 
-1. Bewerk de component indien nodig rechtstreeks in de inhoud van de pagina.
+1. Bewerk de component naar wens rechtstreeks in de inhoud van de pagina.
 
    ![](assets/web-designer-edit-header.png)
 
@@ -138,9 +138,9 @@ In deze sectie worden de verschillende manieren beschreven waarop u door de webo
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
 >title="De modus Bladeren gebruiken"
->abstract="In deze modus navigeert u naar de exacte pagina in de geselecteerde configuratie die u wilt aanpassen."
+>abstract="In deze modus kunt u naar de exacte pagina navigeren vanuit de geselecteerde configuratie die u wilt aanpassen."
 
-U kunt de standaardmodus van **[!UICONTROL Design]** wijzigen in de **[!UICONTROL Browse]** -modus met behulp van de toegewezen knop.
+U kunt de standaardmodus **[!UICONTROL Design]** omzetten in de **[!UICONTROL Browse]** -modus met behulp van de toegewezen knop.
 
 ![](assets/web-designer-browse-mode.png)
 
@@ -152,7 +152,7 @@ Met de modus **[!UICONTROL Browse]** kunt u ook door alle weergaven van uw websi
 
 ### De apparaatgrootte wijzigen {#change-device-size}
 
-U kunt de apparaatgrootte van de webdesigner wijzigen in een vooraf gedefinieerde grootte, zoals **[!UICONTROL Tablet]** of **[!UICONTROL Mobile landscape]** , of u kunt een aangepaste grootte definiëren door het gewenste aantal pixels in te voeren.
+U kunt de apparaatgrootte van de webontwerpweergave wijzigen in een vooraf gedefinieerde grootte, zoals **[!UICONTROL Tablet]** of **[!UICONTROL Mobile landscape]** , of een aangepaste grootte definiëren door het gewenste aantal pixels in te voeren.
 
 U kunt de zoomfocus ook wijzigen van 25% in 400%.
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
-source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '451'
 ht-degree: 1%
 
 ---
@@ -41,13 +41,13 @@ Om tot meningen in het [!DNL Journey Optimizer] gebruikersinterface toegang te h
 
 Zodra SPA opstelling in de implementatie van SDK van het Web van Adobe Experience Platform wordt gedaan, moet u door alle meningen van uw website navigeren die u wijzigingen op wilt toepassen. Voer de onderstaande stappen uit.
 
-1. [ creeer een Webcampagne ](create-web.md) en heb toegang tot [ Webontwerper ](edit-web-content.md).
+1. [ creeer een Webreis of een campagne ](create-web.md) en heb toegang tot [ Webontwerper ](web-visual-editor.md).
 
    De weergave waarin u zich momenteel bevindt, wordt linksboven weergegeven.
 
    ![](assets/web-designer-view-home.png)
 
-1. Wisselen naar modus **[!UICONTROL Browse]** . [Meer informatie](../web/edit-web-content.md#browse-mode)
+1. Wisselen naar modus **[!UICONTROL Browse]** . [Meer informatie](web-visual-editor.md#browse-mode)
 
    ![](assets/web-designer-view-browse.png)
 

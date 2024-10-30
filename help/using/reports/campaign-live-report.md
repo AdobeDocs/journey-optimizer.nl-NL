@@ -54,7 +54,7 @@ De KPI&#39;s van **[!UICONTROL Campaign's Statistics]** fungeren als een uitgebr
 
 * **[!UICONTROL Actions delivered]**: Het totale aantal unieke tijden dat een handeling is uitgevoerd.
 
-* **[!UICONTROL Errors]**: het totale aantal fouten dat is opgetreden tijdens het verzendproces waardoor het niet naar profielen kan worden verzonden.
+* **[!UICONTROL Errors]**: het totale aantal fouten dat is opgetreden tijdens het verzendproces waardoor het niet naar profielen kon worden verzonden.
 
 +++
 
@@ -77,9 +77,9 @@ Op het tabblad **[!UICONTROL Email]** van uw campagne **[!UICONTROL Live report]
 
 ![](assets/campaign_email_live_sending.png)
 
-**[!UICONTROL Email - Sending Performance]** biedt een uitgebreid overzicht van gegevens over e-mails die in de afgelopen 24 uur zijn verzonden. Het biedt inzicht in essentiële metriek zoals geleverde en stommingen, die voor een gedetailleerd onderzoek van het e-mailverzendingsproces toestaan.
+Het **[!UICONTROL Email - Sending Performance]** biedt een uitgebreid overzicht van gegevens over e-mails die in de afgelopen 24 uur zijn verzonden. Het biedt inzichten in essentiële metrics zoals bezorging en bonnen, waardoor het verzendproces van e-mail uitgebreid kan worden onderzocht.
 
-+++ Meer informatie over prestaties via e-mail verzenden
++++ Meer informatie over e-mailverzendprestaties
 
 * **[!UICONTROL Delivered]**: aantal e-mailberichten verzonden.
 
@@ -87,7 +87,7 @@ Op het tabblad **[!UICONTROL Email]** van uw campagne **[!UICONTROL Live report]
 
 * **[!UICONTROL Retries]**: Aantal e-mails in de wachtrij voor nieuwe pogingen.
 
-* **[!UICONTROL Errors]**: het totale aantal fouten dat is opgetreden tijdens het verzendproces waardoor het niet naar profielen kan worden verzonden.
+* **[!UICONTROL Errors]**: het totale aantal fouten dat is opgetreden tijdens het verzendproces waardoor het niet naar profielen kon worden verzonden.
 +++
 
 ### E-mail - Statistieken
@@ -95,11 +95,11 @@ Op het tabblad **[!UICONTROL Email]** van uw campagne **[!UICONTROL Live report]
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_statistics"
 >title="E-mail - Statistieken"
->abstract="De tabel E-mail - Statistieken bevat gegevens over de profielactiviteiten voor uw e-mail van de laatste 24 uur."
+>abstract="De tabel E-mail - Statistieken bevat gegevens over profielactiviteiten voor uw e-mail van de laatste 24 uur."
 
 ![](assets/campaign_email_live_statistics.png)
 
-De tabel **[!UICONTROL Sending metrics by Email]** bevat een uitgebreide samenvatting van de gegevens uit de afgelopen 24 uur. Het schetst essentiële metriek, met inbegrip van de grootte van het gerichte publiek en het aantal met succes geleverde e-mails. Dit biedt waardevolle inzichten in de doeltreffendheid en het bereik van uw e-mailcampagnes.
+De tabel **[!UICONTROL Sending metrics by Email]** bevat een uitgebreid overzicht van de gegevens van de afgelopen 24 uur. Het schetst essentiële metrics, waaronder de grootte van het doelpubliek en het aantal met succes geleverde e-mails. Dit biedt waardevolle inzichten in de effectiviteit en het bereik van je e-mailcampagnes.
 
 +++ Meer informatie over e-mail - statistieken
 
@@ -196,7 +196,7 @@ De **[!UICONTROL Email - Performance by date]** -widget biedt een gedetailleerd 
 
 ![](assets/campaign_email_live_error.png)
 
-De grafieken en tabellen van **[!UICONTROL Error Reasons]** bieden inzicht in de specifieke fouten die tijdens het verzendingsproces in de afgelopen 24 uur zijn opgetreden. Deze informatie is nuttig om de aard en de frequentie van fouten te begrijpen.
+De grafieken en tabellen van **[!UICONTROL Error Reasons]** bieden inzicht in de specifieke fouten die tijdens het verzendingsproces in de afgelopen 24 uur zijn opgetreden. Deze informatie is nuttig om de aard en frequentie van fouten te begrijpen.
 
 ### Uitgesloten redenen {#email-exclude-reasons}
 
@@ -216,7 +216,7 @@ Verwijs naar [ deze pagina ](exclusion-list.md) voor de uitvoerige lijst van uit
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_best_recipient"
 >title="E-mail - Beste ontvangende domein"
->abstract="De grafiek en de tabel met het meest begunstigde domein (E-mail - Beste ontvanger) geven een gedetailleerde uitsplitsing van de domeinen die ontvangers het vaakst gebruiken om e-mail te openen. Deze tabel biedt waardevolle inzichten in het gedrag van ontvangers vanaf de laatste 24 uur."
+>abstract="De e-mail - Beste ontvanger domeingrafiek en tabel geven een gedetailleerde uitsplitsing van de domeinen die ontvangers het meest gebruiken om e-mail te openen en bieden waardevolle inzichten in het gedrag van ontvangers vanaf de laatste 24 uur."
 
 ![](assets/campaign_email_live_recipient.png)
 
@@ -228,7 +228,7 @@ De grafiek en tabel van **[!UICONTROL Email - Best recipient domain]** bevatten 
 >
 >De widgets en cijfers voor aanbiedingen zijn alleen beschikbaar als een beslissing in een e-mail is ingevoegd. Voor meer informatie over het Beheer van het Besluit, verwijs naar deze [ pagina ](../offers/get-started/starting-offer-decisioning.md).
 
-De **[!UICONTROL Offers statistic]** - en **[!UICONTROL Offers statistics over time]** -widgets meten het succes van uw aanbieding en de invloed op uw doelgroep. Het detailleert de belangrijkste informatie met betrekking tot uw bericht met KPIs.
+De **[!UICONTROL Offers statistic]** - en **[!UICONTROL Offers statistics over time]** -widgets meten het succes van uw aanbieding en de impact op uw doelgroep. Het detailleert de belangrijkste informatie met betrekking tot uw bericht met KPIs.
 
 +++ Meer informatie over e-mail - Metriek van aanbiedingen
 
@@ -335,9 +335,9 @@ De tabel **[!UICONTROL Push notification - Statistics]** bevat een beknopte same
 
 * **[!UICONTROL Delivered]**: Aantal berichten verzonden.
 
-* **[!UICONTROL Bounces]**: het totaal aan fouten dat tijdens het verzendproces is gecumuleerd en de automatische retourverwerking.
+* **[!UICONTROL Bounces]**: het totaal van fouten die tijdens het verzendproces zijn gecumuleerd en automatische retourverwerking.
 
-* **[!UICONTROL Errors]**: het totale aantal fouten dat is opgetreden tijdens het verzendproces waardoor het niet naar profielen kan worden verzonden.
+* **[!UICONTROL Errors]**: het totale aantal fouten dat is opgetreden tijdens het verzendproces waardoor het niet naar profielen kon worden verzonden.
 
 * **[!UICONTROL Opens]**: Het aantal keren dat een bericht is geopend.
 
@@ -580,23 +580,23 @@ De tabel **[!UICONTROL Direct Mail - Sending statistics]** bevat een beknopte sa
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_error_reasons"
->title="Directe post - de redenen van de Fout"
->abstract="Met de grafieken en de tabel Direct Mail - Error Redons kunt u de specifieke fouten identificeren die zich de afgelopen 24 uur hebben voorgedaan."
+>title="Direct mail - Foutredenen"
+>abstract="Met de grafieken en tabel Direct mail - Foutredenen kunt u de specifieke fouten identificeren die zich de afgelopen 24 uur hebben voorgedaan."
 
 ![](assets/campaign_live_error_reasons.png)
 
-Met de grafieken en tabel van **[!UICONTROL Direct Mail - Error reasons]** kunt u specifieke fouten identificeren die zijn opgetreden tijdens het verzenden van uw e-mailberichten. Zo kunt u een gedetailleerde analyse uitvoeren van alle problemen die zich in de afgelopen 24 uur hebben voorgedaan.
+Met de grafieken en tabel van **[!UICONTROL Direct Mail - Error reasons]** kunt u specifieke fouten identificeren die zijn opgetreden tijdens het verzendproces van uw direct-mailberichten. Zo kunt u een gedetailleerde analyse uitvoeren van alle problemen die zich in de afgelopen 24 uur hebben voorgedaan.
 
 ### Direct mail - Uitgesloten redenen {#direct-mail-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_excluded_reasons"
 >title="Direct mail - Uitgesloten redenen"
->abstract="De grafiek en tabel met uitgesloten redenen voor Direct Mail illustreren de verschillende factoren die hebben geleid tot gebruikersprofielen die zijn uitgesloten van het doelpubliek en die het bericht in de afgelopen 24 uur niet hebben ontvangen."
+>abstract="De grafiek en tabel met uitgesloten redenen voor Direct mail illustreren de verschillende factoren die hebben geleid tot gebruikersprofielen die niet in de afgelopen 24 uur voor het doelpubliek zijn opgenomen en die het bericht niet hebben ontvangen."
 
 ![](assets/campaign_live_directmail_excluded.png)
 
-De grafieken en tabel van **[!UICONTROL Direct Mail - Excluded reasons]** illustreren visueel de verschillende factoren die ertoe hebben geleid dat gebruikersprofielen zijn uitgesloten van het beoogde publiek, zodat ze in de afgelopen 24 uur geen directe-mailberichten meer kunnen ontvangen.
+De grafieken en tabel van **[!UICONTROL Direct Mail - Excluded reasons]** illustreren visueel de verschillende factoren die hebben geleid tot de uitsluiting van gebruikersprofielen van het beoogde publiek, waardoor ze in de afgelopen 24 uur geen direct-mailberichten meer kunnen ontvangen.
 
 Verwijs naar [ deze pagina ](exclusion-list.md) voor de uitvoerige lijst van uitsluitingsredenen.
 

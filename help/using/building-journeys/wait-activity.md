@@ -21,11 +21,11 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="Wachtactiviteit"
->abstract="Als u wilt wachten alvorens de volgende activiteit in de weg uit te voeren, kunt u een Wacht activiteit gebruiken. Hiermee kunt u bepalen wanneer de volgende activiteit wordt uitgevoerd. Er zijn twee opties beschikbaar: duur en aangepast."
+>abstract="Als u wilt wachten voordat u de volgende activiteit in het pad uitvoert, kunt u een wachtbewerking gebruiken. Hiermee kunt u het moment bepalen waarop de volgende activiteit wordt uitgevoerd. Er zijn twee opties beschikbaar: duur en aangepast."
 
 U kunt een **[!UICONTROL Wait]** -activiteit gebruiken om een duur te definiëren voordat u de volgende activiteit uitvoert.  Het maximum wacht duur is **90 dagen**.
 
-U kunt twee types van **plaatsen wacht** activiteit:
+U kunt twee types van **plaatsen wachten** activiteit:
 
 * Een wachttijd op basis van een relatieve duur. [Meer informatie](#duration)
 * Een aangepaste datum, die functies gebruikt om deze te berekenen. [Meer informatie](#custom)
@@ -41,11 +41,11 @@ U kunt twee types van **plaatsen wacht** activiteit:
 
 Wanneer het gebruiken van veelvoudige **wacht** activiteiten in een reis, me ervan bewust ben dat de [ globale onderbreking ](journey-properties.md#global_timeout) voor reizen 91 dagen is, betekenend dat de profielen altijd uit het reismaximum 91 dagen zijn nadat zij het inging. Meer informatie vindt u [op deze pagina](journey-properties.md#global_timeout).
 
-Een individu kan a **ingaan wacht** activiteit slechts als zij genoeg tijd in de reis verlaten hebben om de wachttijdduur vóór de 91 dagen reisonderbreking te voltooien.
+Een individu kan a **ingaan wacht** activiteit slechts als zij genoeg tijd in het reis hebben om de wachttijdsduur vóór de onderbrekingen van het 91 dagreis te voltooien.
 
-### Wacht en ingang {#wait-reentrance}
+### Wacht en start opnieuw op {#wait-reentrance}
 
-Een beste praktijk om **niet te gebruiken wacht** activiteiten om ingang te blokkeren. In plaats daarvan, gebruik **terugkeer** optie op het niveau van de reiseigenschappen toestaan. Meer informatie vindt u [op deze pagina](../building-journeys/journey-properties.md#entrance).
+Een beste praktijk om **niet te gebruiken wacht** activiteiten om ingang te blokkeren. In plaats daarvan, gebruik **toestaan terugkeer** optie op het niveau van de vervoerseigenschappen. Meer informatie vindt u [op deze pagina](../building-journeys/journey-properties.md#entrance).
 
 ### Wachten en testmodus {#wait-test-modd}
 
@@ -57,7 +57,7 @@ Op testwijze, staat de **[!UICONTROL Wait time in test]** parameter u toe om de 
 
 Selecteer het **type van de Duur** om de relatieve duur van te plaatsen wacht vóór de uitvoering van de volgende activiteit. De maximumduur is **90 dagen**.
 
-![ bepaalt de wachttijdduur ](assets/journey55.png)
+![ bepaal de wachttijd duur ](assets/journey55.png)
 
 <!--
 ## Fixed date wait{#fixed_date}
@@ -68,11 +68,11 @@ Select the date for the execution of the next activity.
 
 -->
 
-### Aangepast wachten {#custom}
+### Aangepaste wachttijd {#custom}
 
-Selecteer het **type van de Douane** om een douanedatum te bepalen, gebruikend een geavanceerde uitdrukking die op een gebied wordt gebaseerd dat uit een gebeurtenis of een reactie van de douaneactie komt. U kunt een relatieve duur niet rechtstreeks definiëren, bijvoorbeeld 7 dagen, maar u kunt functies gebruiken om de duur te berekenen als dat nodig is (bijvoorbeeld 2 dagen na aankoop).
+Selecteer het **type van de Douane** om een douanedatum te bepalen, gebruikend een geavanceerde uitdrukking die op een gebied wordt gebaseerd dat uit een gebeurtenis of een reactie van de douaneactie komt. U kunt een relatieve duur niet rechtstreeks definiëren, bijvoorbeeld 7 dagen, maar u kunt desgewenst functies gebruiken om de duur te berekenen (bijv. 2 dagen na aankoop).
 
-![ bepalen een douane wacht met een uitdrukking ](assets/journey57.png)
+![ bepaal een douane wacht met een uitdrukking ](assets/journey57.png)
 
 De expressie in de editor moet een `dateTimeOnly` -indeling hebben. Verwijs naar [ deze pagina ](expression/expressionadvanced.md). Voor meer informatie over dateTimeOnly formaat, verwijs naar [ deze pagina ](expression/data-types.md).
 
@@ -83,10 +83,10 @@ De beste manier is om aangepaste datums te gebruiken die specifiek zijn voor uw 
 >
 >U kunt een `dateTimeOnly` -expressie benutten of een functie gebruiken om om te zetten in een `dateTimeOnly` . Bijvoorbeeld: `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`, het gebied in de gebeurtenis die van vorm 2023-08-12T09 :46: 06Z is.
 >
->De **tijdzone** wordt verwacht in de eigenschappen van uw reis. Dientengevolge, van het gebruikersinterface, is het niet mogelijk om bij volledig te richten timestamp mengen tijd en tijdzone van ISO-8601 die als 2023-08-12T09 :46: 06.982-05 wordt verschoven. [Meer informatie](../building-journeys/timezone-management.md).
+>De **tijdzone** wordt verwacht in de eigenschappen van uw reis. Dientengevolge, van het gebruikersinterface, is het niet mogelijk om bij volledig ISO-8601 timestamp het mengen van tijd en tijdzonecompensatie zoals 2023-08-12T09 :46: 06.982-05 direct te wijzen. [Meer informatie](../building-journeys/timezone-management.md).
 
 
-Om te bevestigen dat de wachttijdactiviteit zoals verwacht werkt, kunt u step gebeurtenissen gebruiken. [Meer informatie](../reports/query-examples.md#common-queries).
+U kunt stapgebeurtenissen gebruiken om te controleren of de wachtactiviteiten naar behoren werken. [Meer informatie](../reports/query-examples.md#common-queries).
 
 <!--## Email send time optimization{#email_send_time_optimization}
 

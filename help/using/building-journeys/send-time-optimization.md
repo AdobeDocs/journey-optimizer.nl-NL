@@ -50,10 +50,10 @@ Deze informatie wordt opgeslagen met het profiel van de gebruiker en wordt bij d
 >title="Send-Time optimaliseren activeren"
 >abstract="Pushberichten worden standaard ingesteld op de optie Openen, omdat klikken niet van toepassing zijn op pushberichten. U kunt er ook voor kiezen om de verzendtijden die door het systeem worden gebruikt te accentueren door een waarde voor Verzenden in te voeren binnen de volgende optie."
 
-Schakel SendTime Optimization in op een e-mail- of pushbericht door de optie **Send-Time optimalisatie** Schakel over van de activiteitsparameters.
+Laat Send-Time Optimalisering op een e-mail of duw bericht toe door de **schakelaar van de Optimalisering van de Send-Time** van de activiteitenparameters te selecteren.
 
 ![](../building-journeys/assets/jo-message5.png)
 
 Kies bij e-mailberichten of u wilt optimaliseren bij het openen van een e-mail of door op het juiste keuzerondje te klikken. Pushberichten worden standaard ingesteld op de optie Openen, omdat klikken niet van toepassing zijn op pushberichten.
 
-U kunt er ook voor kiezen om de verzendtijden die door het systeem worden gebruikt, te accentueren door een waarde in te voeren voor de **Verzenden binnen de volgende** -optie. Als u &quot;zes uur&quot;als waarde kiest, [!DNL Journey Optimizer] zal elk gebruikersprofiel controleren en de optimale verzendtijd kiezen binnen zes uur na de uitvoeringstijd van de reis.
+U kunt ook verkiezen om de verzendtijden te steunen die door het systeem worden gebruikt door een waarde voor **in te gaan verzendt binnen de volgende** optie. Als u &quot;zes uur&quot; als waarde kiest, controleert [!DNL Journey Optimizer] elk gebruikersprofiel en kiest u de optimale verzendtijd binnen zes uur na de uitvoeringstijd van de reis.

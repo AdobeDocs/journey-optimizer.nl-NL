@@ -23,7 +23,7 @@ ht-degree: 0%
 >title="Achtergrondinstellingen"
 >abstract="U kunt de achtergrondkleur of achtergrondafbeelding voor uw inhoud aanpassen. Achtergrondafbeelding wordt niet door alle e-mailclients ondersteund."
 
-Als het gaat om het instellen van achtergronden met de e-mailontwerper, raadt de Adobe het volgende aan:
+Als het gaat om het instellen van achtergronden met de e-mail Designer, raadt Adobe het volgende aan:
 
 1. Pas een achtergrondkleur toe op de tekst van uw e-mail, indien dat door uw ontwerp wordt vereist.
 1. Stel de achtergrondkleuren meestal in op kolomniveau.
@@ -31,11 +31,11 @@ Als het gaat om het instellen van achtergronden met de e-mailontwerper, raadt de
 
 Hieronder vindt u de beschikbare achtergrondinstellingen die u kunt gebruiken.
 
-* Een **[!UICONTROL Background color]** voor de hele e-mail. Selecteer de instellingen voor de hoofdtekst in de boomstructuur die toegankelijk is in het linkerpalet.
+* Stel een **[!UICONTROL Background color]** in voor de hele e-mail. Selecteer de instellingen voor de hoofdtekst in de boomstructuur die toegankelijk is in het linkerpalet.
 
   ![](assets/background_1.png)
 
-* Dezelfde achtergrondkleur voor alle structuurcomponenten instellen door **[!UICONTROL Viewport background color]**. Met deze optie kunt u een andere instelling selecteren dan de achtergrondkleur.
+* Stel dezelfde achtergrondkleur in voor alle structuurcomponenten door **[!UICONTROL Viewport background color]** te selecteren. Met deze optie kunt u een andere instelling selecteren dan de achtergrondkleur.
 
   ![](assets/background_2.png)
 
@@ -45,7 +45,7 @@ Hieronder vindt u de beschikbare achtergrondinstellingen die u kunt gebruiken.
 
   ![](assets/background_3.png)
 
-* Een **[!UICONTROL Background image]** voor de inhoud van een structuurcomponent.
+* Stel een **[!UICONTROL Background image]** in voor de inhoud van een structuurcomponent.
 
   >[!NOTE]
   >

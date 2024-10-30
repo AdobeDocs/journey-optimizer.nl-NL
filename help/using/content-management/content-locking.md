@@ -6,21 +6,45 @@ description: Leer hoe u inhoud in uw e-mailsjablonen kunt vergrendelen.
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 2a666364144cf320a9ed20741da7d6f5d22b0d96
+source-git-commit: 38aaa3005e72a8300cef0e28a6fecd9f5d06c1f1
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '1178'
 ht-degree: 0%
 
 ---
 
-
 # Inhoud in e-mailsjablonen vergrendelen {#lock-content-email-templates}
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_governance"
+>title="Bestuur"
+>abstract="Schakel governance in of uit om de inhoud van de sjabloon te vergrendelen door de gehele sjabloon of specifieke structuren en componenten te vergrendelen. Hierdoor kunt u onbedoelde bewerkingen of verwijderingen voorkomen, waardoor u meer controle hebt over de aanpassing van de sjabloon en de efficiëntie en betrouwbaarheid van uw e-mailcampagnes verbetert."
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_mode"
+>title="Modus"
+>abstract="Selecteer de gewenste vergrendelingsmodus voor de sjabloon. **het sluiten van de Inhoud** staat u toe om specifieke secties van inhoud binnen het malplaatje te sluiten. **las slechts** laat u de volledige inhoud van het malplaatje sluiten, verhinderend om het even welke wijzigingen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_content_addition"
+>title="Inhoud toevoegen inschakelen"
+>abstract="Schakel deze optie in en uit om nader te bepalen hoe gebruikers met de sjabloon kunnen werken. Selecteer **structuur &amp; inhoudsuitbreiding** toestaan om gebruikers toe te staan om structuren tussen bestaande degenen toe te voegen en inhoudscomponenten of fragmenten binnen editable structuren toe te voegen. **staat inhoudoptelling slechts** toe gebruikers om inhoudcomponenten of fragmenten binnen editable structuren toe te voegen zonder structuren toe te voegen of te dupliceren."
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_locking_activated"
+>title="Bestuur ingeschakeld"
+>abstract="De inhoudvergrendeling wordt geactiveerd en kan voorkomen dat u wijzigingen aanbrengt."
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_locking_read_only"
+>title="Alleen-lezen"
+>abstract="Deze inhoud is alleen-lezen en kan niet worden gewijzigd."
 
 Met Journey Optimizer kunt u inhoud in e-mailsjablonen vergrendelen door de volledige sjabloon of specifieke structuren en onderdelen te vergrendelen. Hierdoor kunt u onbedoelde bewerkingen of verwijderingen voorkomen, waardoor u meer controle hebt over de aanpassing van de sjabloon en de efficiëntie en betrouwbaarheid van uw e-mailcampagnes verbetert.
 
 >[!AVAILABILITY]
 >
->Gebruikers met bevoegdheden om inhoudssjablonen te maken, kunnen vergrendelen inschakelen.
+>Gebruikers met machtigingen om inhoudssjablonen te maken, kunnen de vergrendeling van inhoud inschakelen.
 
 Het sluiten van de inhoud kan of op het **structuur** niveau, of op het **component** niveau worden toegepast. Hier volgen de belangrijkste principes die van toepassing zijn op het structuur- en componentniveau wanneer de inhoud in de sjabloon wordt vergrendeld.
 
@@ -72,6 +96,11 @@ U kunt de instellingen van **[!UICONTROL Governance]** op elk gewenst moment tij
 
 ### Vergrendelingsstructuren {#lock-structures}
 
+>[!CONTEXTUALHELP]
+>id="ajo_locking_structure"
+>title="Inhoud vergrendelen in structuur"
+>abstract="Om de structuur in het malplaatje te sluiten, selecteer **Vergrendelde** van het **type van het Slot** drop-down. Standaard kunnen gebruikers vergrendelde structuren niet verwijderen. U kunt deze beperking negeren door de optie **[!UICONTROL Allow delete]** in te schakelen."
+
 Een structuur in de sjabloon vergrendelen:
 
 1. Selecteer de structuur die u wilt vergrendelen.
@@ -95,6 +124,11 @@ Nadat een structuur is vergrendeld, kunnen er geen verdere inhoudcomponenten of 
    ![](assets/template-lock-editable-component.png)
 
 ### Componenten vergrendelen {#lock-components}
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_component"
+>title="Specifieke vergrendeling in onderdeel gebruiken"
+>abstract="Om de component in het malplaatje te sluiten, knevel op de **specifieke vergrendelings** optie van het Gebruik. Van de **[!UICONTROL Lock type]** drop-down lijst, selecteer uw aangewezen vergrendelingsoptie: **Bewerkbare inhoudsslot slechts** staat u toe om de stijlen van de component te sluiten maar staat inhoud het uitgeven toe, terwijl **Vergrendelde** zowel de inhoud als de stijlen van de component volledig sluit."
 
 Een specifieke component in een structuur vergrendelen:
 
@@ -123,9 +157,14 @@ In het onderstaande voorbeeld wordt governance ingeschakeld voor het sjabloonlic
 
 ## Sjablonen gebruiken met vergrendelde inhoud {#use}
 
+>[!CONTEXTUALHELP]
+>id="ajo_email_editable_areas"
+>title="Bewerkbare gebieden markeren"
+>abstract="Afhankelijk van het type vergrendeling dat op de sjabloon wordt toegepast, kunt u verschillende handelingen uitvoeren op de structuren en componenten van de sjabloon. Schakel de optie **[!UICONTROL Highlight editable areas]** in als u snel alle bewerkbare gebieden in de sjabloon wilt identificeren."
+
 Als u een sjabloon met vergrendelde inhoud gebruikt, wordt het bericht **[!UICONTROL Governance enabled]** weergegeven in het rechterdeelvenster.
 
-Afhankelijk van het type vergrendeling dat op de sjabloon wordt toegepast, kunt u verschillende handelingen uitvoeren op de structuren en componenten van de sjabloon. Schakel de opties voor **[!UICONTROL Highlight editable areas]** in als u snel alle bewerkbare gebieden in de sjabloon wilt identificeren.
+Afhankelijk van het type vergrendeling dat op de sjabloon wordt toegepast, kunt u verschillende handelingen uitvoeren op de structuren en componenten van de sjabloon. Schakel de optie **[!UICONTROL Highlight editable areas]** in als u snel alle bewerkbare gebieden in de sjabloon wilt identificeren.
 
 In de onderstaande sjabloon zijn bijvoorbeeld alle gebieden bewerkbaar, behalve de bovenste afbeelding die is vergrendeld. Dit betekent dat u deze afbeelding niet kunt bewerken of verwijderen.
 

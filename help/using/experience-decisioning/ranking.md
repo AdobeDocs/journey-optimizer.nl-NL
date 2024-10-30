@@ -25,17 +25,17 @@ Met behulp van rankeringsmethoden kunt u items voor een bepaald profiel rangschi
 
 Er zijn twee typen waarderingsmethoden beschikbaar:
 
-* **Formulas** kunt u regels definiëren die bepalen welk item als eerste moet worden gepresenteerd, in plaats van rekening te houden met de prioriteitsscores van het item.
+* **Formulas** staat u toe om regels te bepalen die zullen bepalen welk punt eerst, eerder dan rekening houdend met de prioritaire scores van het punt moeten worden voorgesteld.
 
-* **AI-modellen** kunt u getrainde modelsystemen gebruiken die meerdere gegevenspunten gebruiken om te bepalen welk item als eerste moet worden gepresenteerd.
+* **AI modellen** staan u toe om opgeleide modelsystemen te gebruiken die hefboomwerking veelvoudige gegevenspunten zullen bepalen welk punt eerst zou moeten worden voorgesteld.
 
 ## Classificatiemethoden maken {#create}
 
 Ga als volgt te werk om een waarderingsmethode te maken:
 
-1. Ga naar de **[!UICONTROL Strategy setup]** selecteert u vervolgens het menu **[!UICONTROL Formulas]** of **[!UICONTROL AI models]** afhankelijk van het type rangschikking dat u wilt gebruiken.
+1. Navigeer naar het menu **[!UICONTROL Strategy setup]** en selecteer vervolgens het menu **[!UICONTROL Formulas]** of **[!UICONTROL AI models]** , afhankelijk van het type positie dat u wilt gebruiken.
 
-1. Klik op de knop **[!UICONTROL Create formula]** of **[!UICONTROL Create AI model]** rechtsboven in het scherm.
+1. Klik op de knop **[!UICONTROL Create formula]** of **[!UICONTROL Create AI model]** in de rechterbovenhoek van het scherm.
 
    ![](assets/ranking-create.png)
 
@@ -49,7 +49,7 @@ Ga als volgt te werk om een waarderingsmethode te maken:
 
 ## Kenmerken van besluitvormingsposten in formules gebruiken {#items}
 
-De rangschikkingsformules worden uitgedrukt in **PQL-syntaxis** en kan verschillende kenmerken gebruiken, zoals profielkenmerken, [contextgegevens](context-data.md) en kenmerken met betrekking tot uw beslissingsitems.
+De rangschikkende formules worden uitgedrukt in **syntaxis van PQL** en kunnen hefboomwerking diverse attributen zoals profielattributen, [ contextgegevens ](context-data.md) en attributen met betrekking tot uw besluitvormingspunten.
 
 Om attributen met betrekking tot uw beslissingspunten in formules te hefboomwerking, zorg ervoor u de syntaxis hieronder in de code van uw rangschikkende formule volgt. Breid elke sectie voor meer informatie uit:
 

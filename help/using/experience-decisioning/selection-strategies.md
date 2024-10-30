@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 badge: label="Beperkte beschikbaarheid"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
 source-wordcount: '705'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -29,11 +29,11 @@ ht-degree: 0%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Soorten publiek gebruiken"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="Beslissingsregels gebruiken"
 
-Een selectiestrategie is herbruikbaar en bestaat uit een verzameling die gekoppeld is aan een geschiktheidsbeperking en een rangschikkingsmethode om de aanbiedingen te bepalen die moeten worden getoond wanneer ze worden geselecteerd in een [beslissingsbeleid](create-decision.md).
+Een selectiestrategie is herbruikbaar, en bestaat uit een inzameling verbonden aan een geschiktheidsbeperking en een rangschikkende methode om de aanbiedingen te bepalen die moeten worden getoond wanneer geselecteerd in a [ besluitvormingsbeleid ](create-decision.md).
 
 ## Selectiestrategieën openen en beheren
 
-1. Ga naar **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Strategy setup]** > **[!UICONTROL Selection strategies]**.
+1. Ga naar **[!UICONTROL Decisioning]** > **[!UICONTROL Strategy setup]** > **[!UICONTROL Selection strategies]** .
 
 1. Alle selectiestrategieën die tot nu toe zijn ontwikkeld, worden vermeld. Er zijn filters beschikbaar waarmee u volgens de waarderingsmethode strategieën kunt ophalen.
 
@@ -49,7 +49,7 @@ Een selectiestrategie is herbruikbaar en bestaat uit een verzameling die gekoppe
 
 Volg onderstaande stappen om een selectiestrategie te maken.
 
-1. Van de **[!UICONTROL Selection strategies]** voorraad, klik **[!UICONTROL Create selection strategy]**.
+1. Klik in de **[!UICONTROL Selection strategies]** -voorraad op **[!UICONTROL Create selection strategy]** .
 
    ![](assets/strategy-create-button.png)
 
@@ -57,31 +57,31 @@ Volg onderstaande stappen om een selectiestrategie te maken.
 
    >[!NOTE]
    >
-   >Momenteel alleen de standaardwaarde **[!UICONTROL Offers]** catalogus is beschikbaar.
+   >Momenteel is alleen de standaardcatalogus **[!UICONTROL Offers]** beschikbaar.
 
 1. Vul de gegevens voor de selectiestrategie in, te beginnen met de naam.
 
    ![](assets/strategy-create-screen.png)
 
-1. Selecteer de [collectie](collections.md) dat de aanbiedingen bevat die in overweging moeten worden genomen.
+1. Selecteer de [ inzameling ](collections.md) die de aanbiedingen bevat om te overwegen.
 
-1. Gebruik de **[!UICONTROL Eligibility]** om de selectie van de aanbiedingen voor deze selectiestrategie te beperken.
+1. Gebruik het veld **[!UICONTROL Eligibility]** om de selectie van aanbiedingen voor deze selectiestrategie te beperken.
 
    ![](assets/strategy-create-eligibility.png)
 
-   * Als u de selectie van de aanbiedingen wilt beperken tot de leden van een publiek in een Experience Platform, selecteert u **[!UICONTROL Audiences]** en kiest u een publiek in de lijst. [Leer hoe u met het publiek kunt werken](../audience/about-audiences.md)
+   * Als u de selectie van de aanbiedingen wilt beperken tot de leden van een publiek in een Experience Platform, selecteert u **[!UICONTROL Audiences]** en kiest u een publiek in de lijst. [ leer hoe te met publiek ](../audience/about-audiences.md) werken
 
-   * Als u een selectiegrens met een beslissingsregel wilt toevoegen, gebruikt u de optie **[!UICONTROL Decision rule]** en selecteert u de gewenste regel. [Leer hoe u een regel maakt](rules.md)
+   * Als u een selectieregel wilt toevoegen met een beslissingsregel, gebruikt u de optie **[!UICONTROL Decision rule]** en selecteert u de gewenste regel. [ Leer hoe te om een regel ](rules.md) tot stand te brengen
 
 1. Definieer de waarderingsmethode die u wilt gebruiken om de beste aanbieding voor elk profiel te selecteren. [Meer informatie](#select-ranking-method)
 
    ![](assets/strategy-create-ranking.png)
 
-   * Als er meerdere aanbiedingen in aanmerking komen voor deze strategie, worden standaard de [Voorstelprioriteit](#offer-priority) Deze methode gebruikt de waarde die in de aanbiedingen is gedefinieerd.
+   * Door gebrek, als de veelvoudige aanbiedingen voor deze strategie verkiesbaar zijn, gebruikt de [ prioritaire van de Aanbieding ](#offer-priority) methode de waarde die in de aanbiedingen wordt bepaald.
 
-   * Als u een specifieke berekende score wilt gebruiken om te kiezen welke aanbieding in aanmerking komt, selecteert u [Formule](#ranking-formula) of [AI-model](#ai-ranking).
+   * Als u een specifieke berekende score wilt gebruiken om te kiezen welke in aanmerking komende aanbieding te leveren, selecteer [ Formule ](#ranking-formula) of [ AI model ](#ai-ranking).
 
-1. Klikken **[!UICONTROL Create]**. Het is nu klaar om in een [beslissingsbeleid](create-decision.md)
+1. Klik op **[!UICONTROL Create]**. Het is nu klaar om in a [ besluitvormingsbeleid ](create-decision.md) te worden gebruikt
 
 ## Een waarderingsmethode selecteren {#select-ranking-method}
 
@@ -99,22 +99,22 @@ Als meerdere aanbiedingen in aanmerking komen voor een bepaalde selectiestrategi
 
 ### Voorstelprioriteit {#offer-priority}
 
-Wanneer meerdere aanbiedingen in aanmerking komen voor een bepaalde plaatsing in een beslissingsbeleid, worden standaard de items met de hoogste **prioriteit** wordt eerst aan de klanten geleverd.
+Door gebrek, wanneer verscheidene aanbiedingen voor een bepaalde plaatsing in een besluitvormingsbeleid verkiesbaar zijn, zullen de punten met de hoogste **prioriteit** eerst aan de klanten worden geleverd.
 
 ![](assets/item-priority.png)
 
-De prioritaire scores van aanbiedingen worden toegewezen wanneer het creëren van [beslissingsitem](items.md).
+De prioritaire scores van aanbiedingen worden toegewezen wanneer het creëren van a [ besluitvormingspunt ](items.md).
 
 ### Willekeurige formule {#ranking-formula}
 
-Met Journey Optimizer kunt u niet alleen prioriteit bieden, maar ook **waarderingsformules**. Dit zijn formules die bepalen welke aanbieding eerst voor een bepaalde plaatsing moet worden gepresenteerd, in plaats van rekening te houden met de prioriteitsscores van de aanbiedingen.
+Naast het aanbieden van prioriteit, staat Journey Optimizer u toe om **het rangschikken formules** tot stand te brengen. Dit zijn formules die bepalen welke aanbieding eerst voor een bepaalde plaatsing moet worden gepresenteerd, in plaats van rekening te houden met de prioriteitsscores van de aanbiedingen.
 
-U kunt bijvoorbeeld de prioriteit verhogen van alle aanbiedingen met een einddatum van minder dan 24 uur, of aanbiedingen verhogen van de categorie &quot;actief&quot; als het interessepunt van het profiel &quot;actief&quot; is. Leer hoe u een waarderingsformule maakt in [deze sectie](ranking.md).
+U kunt bijvoorbeeld de prioriteit verhogen van alle aanbiedingen met een einddatum van minder dan 24 uur, of aanbiedingen verhogen van de categorie &quot;actief&quot; als het interessepunt van het profiel &quot;actief&quot; is. Leer hoe te om een het rangschikken formule in [ tot stand te brengen deze sectie ](ranking.md).
 
 Nadat u de formule hebt gemaakt, kunt u deze gebruiken in een selectiestrategie. Als meerdere aanbiedingen in aanmerking komen om te worden ingediend bij het gebruik van deze selectiestrategie, wordt in de beslissing de geselecteerde formule gebruikt om te berekenen welke aanbieding het eerst moet worden geleverd.
 
 ### AI-rangschikking {#ai-ranking}
 
-U kunt ook een getraind modelsysteem gebruiken dat aanbiedingen voor een bepaald profiel automatisch rangschikt door een AI-model te selecteren. Leer hoe u een AI-model maakt in [deze sectie](ranking.md).
+U kunt ook een getraind modelsysteem gebruiken dat aanbiedingen voor een bepaald profiel automatisch rangschikt door een AI-model te selecteren. Leer hoe te om een AI model in [ tot stand te brengen deze sectie ](ranking.md).
 
 Nadat u een AI-model hebt gemaakt, kunt u het gebruiken in een selectiestrategie. Indien meerdere aanbiedingen in aanmerking komen, bepaalt het opgeleide modelsysteem welke aanbieding eerst voor deze selectiestrategie moet worden ingediend.

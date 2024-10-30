@@ -157,7 +157,7 @@ Volg onderstaande stappen om een subdomein in te stellen met gebruik van CNAME&#
 
    ![](assets/subdomain-create-dns-confirm.png)
 
-1. Stel het in op DMARC-record. Als het subdomein een bestaande DMARC-record heeft en deze wordt opgehaald door [!DNL Journey Optimizer] , kunt u dezelfde waarden gebruiken of wijzigen als nodig is. Als u geen waarden toevoegt, worden de standaardwaarden gebruikt. [Meer informatie](dmarc-record.md)
+1. Stel het DMARC-record in. Als het subdomein een bestaande DMARC-record heeft en deze wordt opgehaald door [!DNL Journey Optimizer] , kunt u dezelfde waarden gebruiken of wijzigen als nodig is. Als u geen waarden toevoegt, worden de standaardwaarden gebruikt. [Meer informatie](dmarc-record.md)
 
    ![](assets/dmarc-record-found.png)
 

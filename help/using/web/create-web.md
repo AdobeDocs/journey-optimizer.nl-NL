@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 1%
+source-wordcount: '1326'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Met [!DNL Journey Optimizer] kunt u de webervaring die u aan uw klanten levert, aanpassen via binnenkomende reizen of campagnes.
 
-## Een webervaring toevoegen via een reis of een campagne {#create-web-experience}
+## Een webervaring definiëren via een reis of campagne {#create-web-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
@@ -59,7 +59,7 @@ Om de activiteit van het a **Web** aan een reis toe te voegen, volg deze stappen
 
    ![](assets/web-activity-configuration.png)
 
-1. Selecteer de knop **[!UICONTROL Edit content]** en bewerk de inhoud naar wens met de webontwerper. [Meer informatie](edit-web-content.md)
+1. Selecteer de knop **[!UICONTROL Edit content]** en bewerk de inhoud naar wens. [Meer informatie](#edit-web-content)
 
 1. Indien nodig voltooit u de reisflow door extra handelingen of gebeurtenissen te slepen en neer te zetten. [Meer informatie](../building-journeys/about-journey-activities.md)
 
@@ -87,7 +87,7 @@ Volg onderstaande stappen om uw webervaring op te bouwen via een campagne.
 
    ![](assets/web-campaign-steps.png)
 
-1. Klik op de knop **[!UICONTROL Edit content]** om de inhoud naar wens te bewerken met de webontwerper. [Meer informatie](edit-web-content.md)
+1. Klik op de knop **[!UICONTROL Edit content]** om de inhoud naar wens te bewerken. [Meer informatie](#edit-web-content)
 
    <!--![](assets/web-campaign-edit-content.png)-->
 
@@ -97,6 +97,41 @@ Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [ deze 
 
 >[!ENDTABS]
 
+## Webinhoud bewerken {#edit-web-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_edit_surface"
+>title="Bevestig de URL die u wilt bewerken"
+>abstract="Bevestig de URL van de specifieke webpagina die u wilt gebruiken voor het bewerken van de inhoud die wordt toegepast op de hierboven gedefinieerde webconfiguratie. De webpagina moet worden geïmplementeerd met de Adobe Experience Platform Web SDK."
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Meer informatie"
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_edit_rule"
+>title="Voer de te bewerken URL in"
+>abstract="Voer de URL in van een specifieke webpagina die u wilt gebruiken voor het bewerken van de inhoud die wordt toegepast op alle pagina&#39;s die aan de regel voldoen. De webpagina moet worden geïmplementeerd met Adobe Experience Platform Web SDK."
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Meer informatie"
+
+Zodra u [ een Webactie ](#create-web-experience) aan een reis of een campagne toevoegde, kunt u de inhoud van uw plaats uitgeven gebruikend of:
+
+* de [ Webontwerper ](web-visual-editor.md), aan auteur uw ervaring gebruikend een visuele redacteur;
+* of de [ niet-visuele redacteur ](web-non-visual-editor.md).
+
+Volg onderstaande stappen om uw webervaring te ontwerpen.
+
+1. Selecteer **[!UICONTROL Edit content]** op het tabblad **[!UICONTROL Action]** van de campagne of de **[!UICONTROL Web]** activiteit tijdens de rit.
+
+   ![](assets/web-campaign-edit-content.png)
+
+1. Het scherm van de uitgave toont. U kunt:
+
+   * Klik op de knop **[!UICONTROL Edit web page]** om uw inhoud te ontwerpen met de webontwerper voor een visuele ervaring. [Meer informatie](web-visual-editor.md)
+
+     ![](assets/web-campaign-edit-web-page.png)
+
+   * Schakel de optie **[!UICONTROL Visual editor]** uit als u de niet-visuele versiemodus wilt gebruiken en klik op **[!UICONTROL Add a modification]** als u uw webinhoud wilt bewerken zonder de visuele editor te laden. [Meer informatie](web-non-visual-editor.md)
+
+     ![](assets/web-campaign-add-modification.png)
+
 ## De webervaring testen {#test-web-experience}
 
 >[!CONTEXTUALHELP]
@@ -104,7 +139,7 @@ Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [ deze 
 >title="Een voorvertoning van uw webbeleving bekijken"
 >abstract="Bekijk een simulatie van hoe uw webervaring eruit zal zien."
 
-Zodra u [ uw Webervaring ](edit-web-content.md) gebruikend de Webontwerper creeerde, kunt u testprofielen gebruiken om uw gewijzigde Web-pagina&#39;s voor te vertonen. Als u persoonlijke inhoud hebt ingevoegd, kunt u met behulp van de gegevens van het testprofiel controleren hoe deze inhoud wordt weergegeven.
+Zodra u [ uw Webervaring ](web-visual-editor.md) gebruikend de Webontwerper creeerde, kunt u testprofielen gebruiken om uw gewijzigde Web-pagina&#39;s voor te vertonen. Als u persoonlijke inhoud hebt ingevoegd, kunt u met behulp van de gegevens van het testprofiel controleren hoe deze inhoud wordt weergegeven.
 
 Om dit te doen, klik **[!UICONTROL Simulate content]** van of het reis of campagne geef inhoudsscherm uit, dan voeg een testprofiel toe om uw Web-pagina te controleren gebruikend de gegevens van het testprofiel.
 
@@ -124,7 +159,7 @@ De gedetailleerde informatie over hoe te om testprofielen en voorproef uw inhoud
 >
 > Als uw campagne onderworpen is aan een goedkeuringsbeleid, zult u goedkeuring moeten vragen om uw ervaringen van het Web te kunnen activeren. [Meer informatie](../test-approve/gs-approval.md)
 
-Zodra u uw Webervaring bepaalde en u uw inhoud zoals gewenst het gebruiken van [ Webontwerper ](edit-web-content.md#work-with-web-designer) uitgeeft, kunt u uw reis of campagne activeren om uw veranderingen zichtbaar aan uw publiek te maken.
+Nadat u uw webervaring hebt gedefinieerd en uw inhoud naar wens hebt bewerkt, kunt u uw reis of campagne activeren om uw wijzigingen zichtbaar te maken voor uw publiek.
 
 U kunt ook een voorvertoning van uw webervaring-inhoud weergeven voordat u deze live maakt. [Meer informatie](#test-web-experience)
 
@@ -156,7 +191,7 @@ Uw webreis heeft de status **[!UICONTROL Live]** en is nu alleen-lezen. Elke ont
 
 ### Een webcampagne activeren {#activate-web-campaign}
 
-Zodra u uw montages van de Webcampagne bepaalde en u uw inhoud zoals gewenst het gebruiken van [ Webontwerper ](edit-web-content.md#work-with-web-designer), kunt u uw Webcampagne herzien en activeren. Voer de onderstaande stappen uit.
+Nadat u de instellingen voor uw webcampagne hebt gedefinieerd en uw inhoud naar wens hebt bewerkt, kunt u uw webcampagne reviseren en activeren. Voer de onderstaande stappen uit.
 
 1. Selecteer **[!UICONTROL Review to activate]** in uw webcampagne.
 
@@ -177,6 +212,8 @@ Uw webcampagne heeft de status **[!UICONTROL Live]** en is nu zichtbaar voor het
 >Nadat u op **[!UICONTROL Activate]** hebt geklikt, kan het maximaal 15 minuten duren voordat wijzigingen in webcampagnes live op uw website beschikbaar zijn.
 >
 >Als u een schema voor uw Webcampagne hebt bepaald, heeft het de **[!UICONTROL Scheduled]** status tot de begindatum en de tijd worden bereikt.
+
+Zodra uw ervaring levend is, kunt u uw Webreizen en campagnes controleren. [Meer informatie](monitor-web-experiences.md)
 
 ## Een webreis of campagne stoppen {#stop-web-experience}
 

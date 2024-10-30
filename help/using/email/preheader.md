@@ -33,19 +33,19 @@ In veel gevallen geeft het een korte samenvatting van de e-mail en is het doorga
 
 Voer de volgende stappen uit om de e-mailvoorheader te definiëren:
 
-1. Voeg minstens een **[!UICONTROL Structure components]** om uw e-mail te gaan ontwerpen.
+1. Voeg in de Designer-e-mail minstens een **[!UICONTROL Structure components]** toe om uw e-mail te gaan ontwerpen.
 
-1. Klik op de knop **[!UICONTROL Navigation tree]** pictogram in het linkervenster en selecteer **[!UICONTROL Body]**.
+1. Klik op het pictogram **[!UICONTROL Navigation tree]** in het linkerdeelvenster en selecteer **[!UICONTROL Body]** .
 
    ![](assets/preheader_body.png)
 
-1. Van de **[!UICONTROL Settings]** klikt u op het pictogram voor het aanpassen van de afbeelding naast de knop **[!UICONTROL Preheader]** veld om inhoud toe te voegen.
+1. Klik op het tabblad **[!UICONTROL Settings]** op het verpersoonlijkingspictogram naast het veld **[!UICONTROL Preheader]** om inhoud toe te voegen.
 
    ![](assets/preheader_body_settings.png)
 
-1. Van de **[!UICONTROL Edit Personalization]** venster kunt toevoegen **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** of **[!UICONTROL Personalization fields]**.
+1. Vanuit het venster **[!UICONTROL Edit Personalization]** kunt u **[!UICONTROL Content block]** , **[!UICONTROL Dynamic content]** of **[!UICONTROL Personalization fields]** toevoegen.
 
-1. Klikken **[!UICONTROL Validate]** om uw personalisatiesyntaxis te controleren.
+1. Klik op **[!UICONTROL Validate]** om uw eigen personalisatiesyntaxis te controleren.
 
    ![](assets/preheader_4.png)
 
