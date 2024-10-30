@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2161'
 ht-degree: 25%
 
 ---
@@ -175,13 +175,12 @@ ht-degree: 25%
    + [Een campagne bekijken en activeren](using/campaigns/review-activate-campaign.md)
    + [Campagnes beheren](using/campaigns/modify-stop-campaign.md)
    + [Campagnes activeren met API&#39;s](using/campaigns/api-triggered-campaigns.md)
++ Conflictbeheer en prioritering {#conflict-prioritization}
+   + [Aan de slag met conflictbeheer en -prioriteiten](using/conflict-prioritization/gs-conflict-prioritization.md)
+   + [Mogelijke conflicten identificeren](using/conflict-prioritization/conflicts.md)
+   + [Prioriteitsscores toewijzen](using/conflict-prioritization/priority-scores.md)
+   + [Afbakening van reizen en arbitrage](using/conflict-prioritization/journey-capping.md)
 + Testen en goedkeuren {#test}
-   + [Conflictbeheer en prioritering](using/test-approve/conflict-prioritization.md)
-   + Conflictbeheer en prioritering {#conflict-prioritization}
-      + [Aan de slag met conflictbeheer en -prioriteiten](using/test-approve/gs-conflict-prioritization.md)
-      + [Mogelijke conflicten identificeren](using/test-approve/conflicts.md)
-      + [Prioriteitsscores toewijzen](using/test-approve/priority-scores.md)
-      + [Afbakening van reizen en arbitrage](using/test-approve/journey-capping.md)
    + Inhoud voorvertonen en testen {#preview-test}
       + [Inhoud testen met behulp van voorbeeldinvoergegevens](using/test-approve/simulate-sample-input.md)
       + [Aan de slag met voorvertoning en testen](using/content-management/preview-test.md)
@@ -658,7 +657,7 @@ ht-degree: 25%
    + [Ondersteuning voor archivering](using/configuration/archiving-support.md)
    + [Uitvoeringadressen wijzigen](using/configuration/primary-email-addresses.md)
    + [Bedrijfsregels configureren](using/configuration/frequency-rules.md)
-   + [Werken met regelsets](using/configuration/rule-sets.md)
+   + [Werken met regelsets (LA)](using/configuration/rule-sets.md)
    + Journey&#39;s configureren {#configure-journeys}
       + [Informatie over gegevensbronnen, gebeurtenissen en handelingen](using/configuration/about-data-sources-events-actions.md)
       + Integreren met externe systemen {#external-systems}

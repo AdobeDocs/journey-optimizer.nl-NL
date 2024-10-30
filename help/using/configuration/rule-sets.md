@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Werken met regelsets
+title: Werken met regelsets (LA)
 description: Leer hoe u regelsets maakt en toepast
 feature: Rules
 topic: Content Management
@@ -12,9 +12,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 87e2308b2d6a9aeb3cbc0ef4bb28ea7aeb3b869a
+source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
 workflow-type: tm+mt
-source-wordcount: '1916'
+source-wordcount: '1936'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Regelsets zijn momenteel alleen beschikbaar als een bètaversie voor geselecteerde gebruikers. Neem contact op met uw Adobe om deel te nemen aan de Beta.
+>Regelsets zijn momenteel beschikbaar in Beperkte beschikbaarheid voor een geselecteerde groep klanten. Houd er rekening mee dat deze functie in de toekomst geleidelijk aan voor meer gebruikers beschikbaar zal zijn. Neem contact op met uw accountteam als u interesse hebt in het toevoegen aan de wachtlijst.
 
 ## Aan de slag met regelsets {#gs}
 
@@ -167,7 +167,7 @@ De parameters beschikbaar voor de regel hangen van het regelvastgestelde domein 
    * **[!UICONTROL Journey Entry Cap]**: beperkt het aantal items dat gedurende een bepaalde periode voor een profiel wordt ingevoerd in de reis.
    * **[!UICONTROL Journey Concurrency Cap]**: hiermee wordt beperkt hoeveel ritten een profiel gelijktijdig kan worden ingeschreven.
 
-1. De gedetailleerde informatie over hoe te om de regels van het aftappen van de reis te vormen is beschikbaar in de [ Aftappen van de Reis &amp; arbitrage ](../test-approve/journey-capping.md) sectie.
+1. De gedetailleerde informatie over hoe te om de regels van het aftappen van de reis te vormen is beschikbaar in de [ Aftappen van de Reis &amp; arbitrage ](../conflict-prioritization/journey-capping.md) sectie.
 
 +++
 
@@ -306,7 +306,7 @@ Wanneer het testen van frequentieregels, wordt het geadviseerd om een pas gecree
 
 Om een afluisterregel op een reis toe te passen, toegang tot de reis en open zijn eigenschappen. Selecteer in de vervolgkeuzelijst **[!UICONTROL Capping rules]** de desbetreffende regelset.
 
-![](../test-approve/assets/journey-capping-apply.png)
+![](../conflict-prioritization//assets/journey-capping-apply.png)
 
 >[!IMPORTANT]
 >

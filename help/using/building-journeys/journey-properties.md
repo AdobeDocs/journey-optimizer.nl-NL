@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, configuratie, eigenschappen
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 1b8442a13e046855bd3670e0ebdee60518f09bd4
+source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
 workflow-type: tm+mt
-source-wordcount: '2034'
+source-wordcount: '2217'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ In deze sectie kunt u de naam van de rit definiëren, een beschrijving toevoegen
 * bepaal a [ onderbrekingsduur ](#timeout) in reisactiviteiten (voor slechts gebruikers Admin),
 * selecteer de reis en profiel [ tijdzones ](#timezone)
 * Wijs Adobe Experience Platform Verenigde Markeringen aan uw reis toe, om hen gemakkelijk te classificeren en onderzoek van de campagnemelijst te verbeteren. [ leer hoe te met markeringen ](../start/search-filter-categorize.md#tags) werken
+* controleert conflicten en geeft voorrang aan uw reizen gebruikend [ hulpmiddelen van het conflictenbeheer ](#conflict).
 
 ![](assets/journey32.png)
 
@@ -45,7 +46,6 @@ In deze sectie kunt u de naam van de rit definiëren, een beschrijving toevoegen
 De **technische details van het Exemplaar** staat u toe om technische informatie over de reis te kopiëren die het ondersteuningsteam kan gebruiken om problemen op te lossen. De volgende informatie wordt gekopieerd: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
 
 Leer meer over technische gebieden met betrekking tot een reis voor een bepaald profiel, en hoe te om hen [ in deze pagina ](expression/journey-properties.md) te gebruiken.
-
 
 ## Entrance en reentrance {#entrance}
 
@@ -299,3 +299,14 @@ De volgende instructies en beperkingen zijn van toepassing op de mogelijkheid om
 * Afsluitingscriteria worden alleen in de ontwerpstatus gedefinieerd
 * Reis namespace coherentie tussen gebeurtenissen en op gebeurtenis-gebaseerde uitgangscriteria
 
+## Conflictbeheer {#conflict}
+
+Met de sectie **[!UICONTROL Conflict management]** in de eigenschappen van de reis kunt u conflicten volgen en prioriteiten stellen voor uw reizen. U kunt:
+
+* Pas de Reeks van de a **Regel** toe om deze reis aan een deel van uw publiek uit te sluiten dat op het begrenzen van regels wordt gebaseerd. [ leer hoe te met regelreeksen ](../configuration/rule-sets.md) werken
+
+* Wijs a **prioritaire score** aan de reis toe, die zich van 0 tot 100 uitstrekken. Een hoger getal geeft een hogere prioriteit aan. De hier ingevoegde prioriteitswaarde wordt overgeërfd door binnenkomende acties (zoals In-App) die zich in deze reis bevinden. [ leren hoe te met prioritaire scores ](../conflict-prioritization/priority-scores.md) te werken
+
+  Voor situaties waar deze zelfde binnenkomende kanaalconfiguratie in andere campagnes of reizen wordt gebruikt, wordt de binnenkomende actie met de hoogste prioritaire score getoond aan de ontvanger. Als meerdere reizen of campagnes dezelfde score hebben, wordt het element gekozen dat het laatst is gewijzigd.
+
+* **de conflicten van de Mening** met andere reizen, campagnes, of kanaalconfiguraties. Als u overlappingen op publiek wilt identificeren, begin en einddatum, kanaalconfiguratie, kanaal, of regelreeks kunt u potentiële conflicten hier bekijken. [ Leer hoe te om potentiële conflicten in reis te identificeren ](../conflict-prioritization/conflicts.md)
