@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+source-git-commit: d63b12c9c7d3b16309661ffbe20baf8a9c140945
 workflow-type: tm+mt
 source-wordcount: '1873'
 ht-degree: 0%
@@ -194,6 +194,7 @@ In deze sectie kunt u verschillende landinstellingen instellen voor het beheer v
             }
         }
         ```
+
       * Klik op de knop **[!UICONTROL Keep changes]** om uw regel te bevestigen en op te slaan.
 
 +++
