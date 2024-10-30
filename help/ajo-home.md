@@ -5,9 +5,9 @@ description: Leer hoe je Adobe Journey Optimizer gebruikt.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 3235d53b09d140e61a9e83f6b07ce8351f0fa245
+source-git-commit: c2403c04d1e881d3da7528aa3460bae47f001c36
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '379'
 ht-degree: 17%
 
 ---
@@ -16,33 +16,33 @@ ht-degree: 17%
 
 ## Nieuwe functies
 
-Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en -documentatie! Bekijk voor een uitgebreide lijst met functies, verbeteringen en oplossingen de gedetailleerde [Aanvullende informatie](using/rn/release-notes.md). Blijf op de hoogte van de nieuwste wijzigingen in onze documentatie door de [pagina met documentupdates](using/rn/documentation-updates.md) te bekijken.
+Bekijk een overzicht van de nieuwste verbeteringen in Journey Optimizer-producten en -documentatie! Bekijk voor een uitgebreide lijst met functies, verbeteringen en oplossingen de gedetailleerde [Aanvullende informatie](using/rn/release-notes.md). Blijf op de hoogte van de nieuwste wijzigingen in onze documentatie door de [pagina met documentupdates](using/rn/documentation-updates.md) te bekijken.
 
 >[!BEGINTABS]
 
->[!TAB  September &quot;24 versie ]
+>[!TAB  Versie van Oktober 24 ]
 
-De release van september is nu live, inclusief inhoudskaarten voor mobiele apps en websites, beleid voor goedkeuringen tijdens reizen en campagnes (LA), wereldwijde exit criteria tijdens reizen en nog veel meer.
+De oktober-release is nu live, inclusief e-mailcontentvergrendeling, integratie met Movable Ink, op code gebaseerde en webervaringen tijdens trajecten. Eerder in LA (Limited Availability) zijn de volgende mogelijkheden nu beschikbaar voor iedereen: personalisatie van e-mailconfiguratie, goedkeuringsbeleid, experimenteren met inhoud in trajecten, verbeterde rapportage-ervaring.
 
 [![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
 >[!TAB  AI Medewerker ]
 
-✨ onderdompelen zich in een hands-on ervaring met onze ](../help/using/content-management/gs-generative.md) levende eigenschapvoorproef van de Versneller van de Inhoud 1} van AI Hulp, die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.[
+✨ dompelt zich in een hands-on ervaring met onze ](../help/using/content-management/gs-generative.md) levende eigenschapvoorproef van de Versneller van de Inhoud van 0} AI de Medewerker van de Versneller, die wordt ontworpen om u zijn eigenschappen eerst te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.[
 
 [![ leer meer ](using/assets/do-not-localize/try-it-button.svg) ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator) {target="_blank"}
 
 >[!TAB  Meldend met CJA ]
 
-Journey Optimizer-rapportering wordt geleverd met een verbeterde interoperabiliteit met de mogelijkheden van de Customer Journey Analytics, standaardisering van de rapportage op beide platforms en verbetering van de consistentie en betrouwbaarheid van de gegevens.
+Journey Optimizer-rapportage biedt een verbeterde interoperabiliteit met de voorzieningen voor Customers Journey Analytics, standaardisering van de rapportage op beide platforms en verbetering van de consistentie en betrouwbaarheid van data.
 
 [![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/reports/report-gs-cja.md)
 
->[!TAB Contentfragmenten]
+>[!TAB  Ervaringen van het Web in reizen ]
 
-Fragmenten kunnen nu worden bewerkt en wijzigingen kunnen worden doorgevoerd in alle live reizen en campagnes waar ze worden gebruikt.
+Met het webkanaal kun je met Adobe Journey Optimizer de webervaring die je aan je klanten levert, personaliseren via binnenkomende webtrajecten. Het webkanaal is nu beschikbaar in het canvas van het traject.
 
-[![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/fragments.md)
+[![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/web/create-web.md)
 
 >[!ENDTABS]
 
@@ -52,7 +52,7 @@ Fragmenten kunnen nu worden bewerkt en wijzigingen kunnen worden doorgevoerd in 
   <tr style="border: 0;">
     <td>
     <a href="using/start/quick-start.md"><img src="using/assets/do-not-localize/start-quick.png"></a>
-    <div><strong> Snelle begingidsen </strong><br/> leren hoe te om uw doelstellingen sneller in Journey Optimizer met uw gepersonaliseerde benadering afhankelijk van uw rol te bereiken.</div>
+    <div><strong> Snelle Begin gidsen </strong><br/> Leer hoe te om uw doelstellingen sneller in Journey Optimizer met uw gepersonaliseerde benadering te bereiken afhankelijk van uw rol.</div>
     </td>
     <td>
     <a href="using/start/user-interface.md"><img src="using/assets/do-not-localize/start-interface.jpeg"></a>
@@ -82,11 +82,11 @@ Fragmenten kunnen nu worden bewerkt en wijzigingen kunnen worden doorgevoerd in 
   <tr style="border: 0;">
     <td>
       <img src="using/assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
-      <strong> de ervaring van de Klant </strong><br/> <a href="using/building-journeys/journey.md"> Reizen </a> - <a href="using/campaigns/get-started-with-campaigns.md"> Campagnes </a> - <a href="using/landing-pages/get-started-lp.md"> het Bestaan pagina's </a> - <a href="using/reports/live-report.md"> het Melden </a> - <a href="using/offers/get-started/starting-offer-decisioning.md"> Beheer van het Besluit </a>
+      <strong> de ervaring van de Klant </strong><br/> <a href="using/building-journeys/journey.md"> Transparanten </a> - <a href="using/campaigns/get-started-with-campaigns.md"> Campagnes </a> - <a href="using/landing-pages/get-started-lp.md"> het Bestaan pagina's </a> - <a href="using/reports/live-report.md"> het Melden </a> - <a href="using/offers/get-started/starting-offer-decisioning.md"> Beheer van het Besluit </a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon-configure.svg" width="35px"><br/>
-      <strong> Configuratie <br/> beleid </strong><br/> <a href="using/configuration/channel-surfaces.md"> de oppervlakten van het Kanaal </a> - <a href="using/configuration/about-data-sources-events-actions.md"> vormen reizen </a> - <a href="using/administration/permissions-overview.md"> controle van de Toegang </a> - <a href="using/administration/sandboxes.md"> het beheer van Sandboxen </a>
+      <strong> het beleid van de Configuratie <br/> beleid </strong><br/> <a href="using/configuration/channel-surfaces.md"> oppervlakken van het Kanaal </a> - <a href="using/configuration/about-data-sources-events-actions.md"> vormen reizen </a> - <a href="using/administration/permissions-overview.md"> controle van de Toegang </a> - <a href="using/administration/sandboxes.md"> het beheer van Sandboxen </a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
@@ -96,11 +96,11 @@ Fragmenten kunnen nu worden bewerkt en wijzigingen kunnen worden doorgevoerd in 
   <tr style="border: 0;">
     <td>
       <img src="using/assets/do-not-localize/icon-content.svg" width="35px"><br/>
-      <strong> het beheer van de Inhoud </strong><br/> <a href="using/content-management/assets.md"> Assets/beelden </a> - <a href="using/personalization/personalize.md"> Personalization </a> - <a href="using/content-management/content-templates.md"> Herbruikbare </a> &amp; <a href="using/personalization/dynamic-content.md"> dynamische </a> inhoud - <a href="using/content-management/preview-test.md"> Test &amp; voorproef inhoud </a>
+      <strong> Beheer van de Inhoud </strong><br/> <a href="using/content-management/assets.md"> Activa/beelden </a> - <a href="using/personalization/personalize.md"> Personalisatie </a> - <a href="using/content-management/content-templates.md"> Herbruikbaar </a> &amp; <a href="using/personalization/dynamic-content.md"> dynamische </a> inhoud - <a href="using/content-management/preview-test.md"> Test &amp; voorproefinhoud </a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
-      <strong> Profielen &amp; publiek </strong><br/> <a href="using/audience/about-audiences.md"> Soorten publiek </a> - <a href="using/audience/get-started-profiles.md"> Profielen </a> - <a href="using/audience/get-started-identity.md"> Identiteiten </a> - <a href="using/audience/license-usage.md"> het gebruik van de Vergunning </a> - <a href="using/privacy/get-started-privacy.md"> het beheer van de Privacy </a>
+      <strong> Profielen &amp; doelgroepen </strong><br/> <a href="using/audience/about-audiences.md"> Soorten publiek </a> - <a href="using/audience/get-started-profiles.md"> Profielen </a> - <a href="using/audience/get-started-identity.md"> Identiteiten </a> - <a href="using/audience/license-usage.md"> het gebruik van de Vergunning </a> - <a href="using/privacy/get-started-privacy.md"> het beheer van de Privacy </a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon-data.svg" width="35px"><br/>
@@ -113,7 +113,7 @@ Fragmenten kunnen nu worden bewerkt en wijzigingen kunnen worden doorgevoerd in 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong> Adobe Journey Optimizer </strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html" target="_blank"> Tutorials </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank"> Beschrijving van het Product </a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank"> Overzicht van de Veiligheid (PDF) </a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank"> APIs verwijzing </a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank"> het Woordenboek van het Schema van Journey Optimizer </a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html" target="_blank"> Tutorials </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank"> Beschrijving van het Product </a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank"> Overzicht van de Veiligheid (PDF) </a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank"> APIs verwijzing </a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank"> Woordenboek van het Schema van Journey Optimizer </a>
 
 </td>
 <td><strong> Adobe Experience Platform </strong><br/>
@@ -121,5 +121,5 @@ Fragmenten kunnen nu worden bewerkt en wijzigingen kunnen worden doorgevoerd in 
 </td>
 </tr></table>
 
-<table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
-<b> Blijf op de hoogte en verhoog uw ervaring van Adobe Journey Optimizer!</b><br/> Teken omhoog voor onze driemaandelijkse nieuwsbrief. U krijgt exclusieve toegang tot de nieuwste productupdates, fascinerende artikelen, gebruiksgevallen in de praktijk, waardevolle tips en nog veel meer - allemaal rechtstreeks geleverd aan uw Postvak IN elk kwartaal. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html"> Teken vandaag omhoog!</a></td></tr></table>
+<!--table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
+<b>Stay informed and elevate your Adobe Journey Optimizer experience!</b><br/>Sign up for our quarterly newsletter. Gain exclusive access to the latest product updates, captivating stories, real-world use cases, valuable tips, and more – all delivered directly to your inbox every quarter. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">Sign up today!</a></td></tr></table-->
