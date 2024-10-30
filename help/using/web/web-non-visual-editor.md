@@ -1,73 +1,74 @@
 ---
-title: Edit content using the non-visual editor
-description: Learn how to author a web page and edit its content using the Journey Optimizer non-visual editor
+title: Inhoud bewerken met de niet-visuele editor
+description: Leer hoe u een webpagina ontwerpt en de inhoud ervan bewerkt met de niet-visuele Journey Optimizer-editor
 feature: Web Channel
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 59fae238326186092a29d4a451655efabaabb4b2
+source-git-commit: 23ce5d1f2bafcb3ef37e2351efb8edc6da1ce805
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '396'
 ht-degree: 1%
 
 ---
 
-# Use the web non-visual editor {#web-non-visual-editor}
+# De niet-visuele webeditor gebruiken {#web-non-visual-editor}
 
-[!DNL Journey Optimizer][](web-visual-editor.md)****
+Naast [!DNL Journey Optimizer] visuele [ Webontwerper ](web-visual-editor.md), kunt u ook wijzigingen aan uw Web-pagina&#39;s toevoegen gebruikend a **niet-visuele redacteur**.
 
 Dit kan nuttig zijn als u niet kunt, of niet wordt toegestaan om browser uitbreidingen zoals [ Adobe Experience Cloud Visual Helper ](web-prerequisites.md#visual-authoring-prerequisites) te installeren, die wordt vereist om uw pagina&#39;s in de Webontwerper te laden.
 
-In certain cases, you may also find it easier to use a non-visual editor to apply modifications on a particular CSS selector, without the risk to modify other elements on a web page or to change the page structure.
+In bepaalde gevallen kunt u het ook gemakkelijker vinden om een niet-visuele editor te gebruiken om wijzigingen toe te passen op een bepaalde CSS-kiezer, zonder het risico dat u andere elementen op een webpagina wijzigt of de paginastructuur wijzigt.
 
-To author your web experiences with the non-visual editor, follow the steps below.
+Volg onderstaande stappen om uw webervaringen met de niet-visuele editor te maken.
 
-1. **[!UICONTROL Edit content]****[!UICONTROL Visual editor]**
+1. Schakel de optie **[!UICONTROL Visual editor]** uit in het **[!UICONTROL Edit content]** -scherm tijdens de rit of campagne.
 
-1. **[!UICONTROL Add a modification]**
+1. Klik op **[!UICONTROL Add a modification]** om uw webinhoud te bewerken.
 
    ![](assets/web-campaign-add-modification-button.png)
 
-1. The non-visual editor displays. You can add your first modification using the left pane.
+1. De niet-visuele editorvertoningen. U kunt de eerste wijziging toevoegen met het linkerdeelvenster.
 
    ![](assets/web-non-visual-editor.png)
 
-1. Select the modification type:
+1. Selecteer het wijzigingstype in de vervolgkeuzelijst.
 
-   * **[!UICONTROL CSS Selector]**[](manage-web-modifications.md#css-selector)
-   * **[!UICONTROL Page `<Head>`]**[](manage-web-modifications.md#page-head)
+   Er zijn twee typen beschikbaar. Ze hebben verschillende opties. Zie de koppelingen hieronder voor meer informatie:
 
-1. Klik op de knop **[!UICONTROL Advanced editing options]**. De verpersoonlijkingsredacteur opent.
+   * **[!UICONTROL CSS Selector]** - [ Leer meer ](manage-web-modifications.md#css-selector)
+   * **[!UICONTROL Page `<head>`]** - [ Leer meer ](manage-web-modifications.md#page-head)
+
+1. Klik op de knop **[!UICONTROL Add personalization]**. De verpersoonlijkingsredacteur opent.
 
    U kunt de personalisatie-editor van [!DNL Journey Optimizer] gebruiken met al zijn personalisatie- en ontwerpmogelijkheden. [Meer informatie](../personalization/personalization-build-expressions.md)
 
-1. **[!UICONTROL Save]**
+1. Voer de inhoud in en **[!UICONTROL Save]** voer de wijzigingen in.
 
    ![](assets/web-non-visual-editor-ex-save.png)
 
-1. **[!UICONTROL Modifications]**
+1. De eerste wijziging wordt vóór het deelvenster **[!UICONTROL Modifications]** weergegeven.
 
-   **[!UICONTROL More actions]****[!UICONTROL Info]** **[!UICONTROL Edit]****[!UICONTROL Delete]**
+   Klik op de knop **[!UICONTROL More actions]** naast de wijziging en selecteer **[!UICONTROL Info]** om de details weer te geven. U kunt desgewenst ook **[!UICONTROL Delete the modification]** gebruiken.
 
    ![](assets/web-non-visual-editor-ex-more.png)
 
    >[!NOTE]
    >
-   >**[!UICONTROL Modifications]**[](web-visual-editor.md) [](manage-web-modifications.md#use-modifications-pane)
+   >De **[!UICONTROL Modifications]** ruit is het zelfde als wanneer het gebruiken van de [ Webontwerper ](web-visual-editor.md). Alle acties u met het kunt uitvoeren zijn gedetailleerd in [ deze sectie ](manage-web-modifications.md#use-modifications-pane).
 
-1. **[!UICONTROL More actions]****[!UICONTROL Modifications]****[!UICONTROL Add a modification]** [Meer informatie](manage-web-modifications.md#add-modifications)
+1. Klik op de knop **[!UICONTROL Add]** boven op het deelvenster **[!UICONTROL Modifications]** om nog een wijziging toe te voegen en herhaal de bovenstaande stappen.
 
-   ![](assets/web-non-visual-editor-more.png)
 
-1. Select the arrow on top left of the screen to come back to the journey or campaign edition screen. You can see the current number of changes and add more modifications.
+1. Bovendien kunt u elk element van uw website selecteren en de klikken op dat element bijhouden. Als u het bijhouden van klikken wilt inschakelen en de handelingen wilt definiëren die moeten worden bijgehouden, klikt u op het tweede pictogram op de linkerspoorstaaf, zoals hieronder wordt weergegeven:
+
+   ![](assets/web-campaign-click.png)
+
+   Gebruik **voeg Component** knoop toe om een nieuwe actie te selecteren om te volgen. Leer meer over klik het volgen gebruik in [ deze sectie ](monitor-web-experiences.md#use-click-tracking).
+
+
+1. Klik op de pijl linksboven in het scherm om terug te bladeren naar het scherm van de reis- of campagneeditie. U kunt het huidige aantal wijzigingen zien en meer wijzigingen toevoegen.
 
    ![](assets/web-campaign-modifications.png)
 
    U kunt desgewenst ook naar de webontwerper schakelen. Alle wijzigingen blijven behouden.
-
-
-1. U kunt elk element van uw website selecteren en de klikken op dat element bijhouden. To enable click tracking, and define the actions to track, click the second icon on the left rail, as shown below:
-
-   ![](assets/web-campaign-click.png)
-
-   **** [](monitor-web-experiences.md#use-click-tracking)
