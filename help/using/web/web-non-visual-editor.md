@@ -5,7 +5,7 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 23ce5d1f2bafcb3ef37e2351efb8edc6da1ce805
+source-git-commit: d51e28261908018824bcf65180534ced836b3765
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 1%
@@ -51,7 +51,7 @@ Volg onderstaande stappen om uw webervaringen met de niet-visuele editor te make
 
    Klik op de knop **[!UICONTROL More actions]** naast de wijziging en selecteer **[!UICONTROL Info]** om de details weer te geven. U kunt desgewenst ook **[!UICONTROL Delete the modification]** gebruiken.
 
-   ![](assets/web-non-visual-editor-ex-more.png)
+   ![](assets/web-non-visual-editor-ex-more.png){width="50%" align="left"}
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ Volg onderstaande stappen om uw webervaringen met de niet-visuele editor te make
 
 1. Bovendien kunt u elk element van uw website selecteren en de klikken op dat element bijhouden. Als u het bijhouden van klikken wilt inschakelen en de handelingen wilt definiëren die moeten worden bijgehouden, klikt u op het tweede pictogram op de linkerspoorstaaf, zoals hieronder wordt weergegeven:
 
-   ![](assets/web-campaign-click.png)
+   ![](assets/web-campaign-click.png){width="50%" align="left"}
 
    Gebruik **voeg Component** knoop toe om een nieuwe actie te selecteren om te volgen. Leer meer over klik het volgen gebruik in [ deze sectie ](monitor-web-experiences.md#use-click-tracking).
 
