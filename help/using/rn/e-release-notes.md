@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 42b9bfcc9079570a047462c23001d102abda58c9
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '2000'
+source-wordcount: '1999'
 ht-degree: 2%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 2%
 
 [!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [ versienota&#39;s ](release-notes.md).
 
-**de vroege versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. De verbindingen, de schermen en de bijgewerkte documentatie worden gepubliceerd in de [ versienota&#39;s ](release-notes.md), bij de versiedatum.
+**de vroege versienota&#39;s hieronder zijn onderhevig aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. De verbindingen, de schermen en de bijgewerkte documentatie worden gepubliceerd in de [ versienota&#39;s ](release-notes.md), bij de versiedatum.
 
-## Opmerkingen bij de vervroegde release oktober 2024 {#e-2024}
+## Opmerkingen bij de vervroegde release van oktober 2024 {#e-2024}
 
-**de datum van de Versie**: Oktober 29-30, 2024
+**de datum van de Versie**: 29-30 van oktober, 2024
 
-### Nieuwe functies {#e-features}
+### Nieuwe mogelijkheden {#e-features}
 
 Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 
@@ -87,13 +87,13 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <table>
 <thead>
 <tr>
-<th><strong>Inhoud testen met behulp van voorbeeldinvoergegevens (Beta)</strong><br/></th>
+<th><strong>Uw inhoud testen met behulp van voorbeeldinvoergegevens (Bèta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Met Reisoptimalisator kunt u nu verschillende varianten van uw e-mailinhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-bestand zijn geüpload of handmatig zijn toegevoegd. Alle profielkenmerken die in de inhoud worden gebruikt voor personalisatie worden automatisch gedetecteerd door het systeem en kunnen worden gebruikt voor uw tests om meerdere varianten te maken.</p>
+<p>Met Reis Optimizer kunt u nu verschillende varianten van uw e-mailinhoud testen door hiervan een voorvertoning weer te geven en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die zijn geüpload uit een CSV-bestand of handmatig zijn toegevoegd. Alle profielkenmerken die in je content worden gebruikt voor personalisatie worden automatisch gedetecteerd door het systeem en kunnen worden gebruikt voor je testen om meerdere varianten te maken.</p>
 <p>Deze mogelijkheid is momenteel beschikbaar als bètaversie.</p>
 <!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
 </td>
@@ -111,12 +111,12 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <tbody>
 <tr>
 <td>
-<p>In Journey Optimizer is het beheren van het volume en de timing van campagnes en reizen van essentieel belang om te voorkomen dat klanten met te veel interacties worden overspoeld. Journey Optimizer biedt nu verschillende tools voor conflictbeheer en prioritering.</p><p><ul><li><b> frequentie het in kaart brengen van de Reis </b>: U kunt regelreeksen nu tot stand brengen om op uw reizen van toepassing te zijn, toestaand u om het aantal reizen voor een profiel per dag, week, of maand te beperken, evenals het aantal gezamenlijke reizen die gelijktijdig lopen te controleren.</li>
-<li><b> Prioriteitsscore </b>: U kunt een prioritaire score aan een campagne of een reis nu toewijzen, die zich van 0 tot 100 uitstrekken. Een hoger getal geeft een hogere prioriteit aan. Wanneer twee campagnes of reisacties de zelfde kanaalconfiguratie gebruiken, zal Journey Optimizer één met de hoogste prioritaire score selecteren. Als de campagnes dezelfde score hebben, wordt de campagne gekozen die het minst recent is gewijzigd.</li>
-<li><b> de potentiële conflicten van de Mening </b>: Een nieuwe "potentiële conflicten van de Mening"knoop in reizen en campagnes staat u nu toe om overlapping met andere reizen of campagnes zoals de begindatum, het gerichte publiek, of de geselecteerde kanaalconfiguratie te identificeren.</li>
-<li><b> Arbitrage van de Reis </b>: Dit nieuwe vermogen laat u toe om aan de belangrijkste reizen voor uw klanten voorrang te geven. U kunt een regel tot stand brengen om ingang in een lagere prioritaire reis te onderdrukken wanneer een klant voor een aanstaande reis van hogere prioriteit kwalificeert.</li></ul></p>
+<p>In Journey Optimizer is het beheren van het volume en de timing van campagnes en trajecten essentieel om te voorkomen dat klanten met te veel interacties worden overspoeld. Journey Optimizer biedt nu verschillende tools voor conflictbeheer en prioritering.</p><p><ul><li><b> de frequentielimiteren van de Reis </b>: U kunt regelreeksen nu tot stand brengen om op uw reizen van toepassing te zijn, toestaand u om het aantal reizen voor een profiel per dag, week, of maand te beperken, evenals het aantal gelijktijdige lopende reizen te controleren.</li>
+<li><b> Prioriteitsscore </b>: U kunt een prioritaire score aan een campagne of een reis nu toewijzen, die zich van 0 tot 100 uitstrekken. Een hoger getal geeft een hogere prioriteit aan. Als twee campagnes of trajecten dezelfde kanaalconfiguratie gebruiken, selecteert Journey Optimizer de catalogus met de hoogste prioriteit. Als de campagnes dezelfde score hebben, wordt de campagne gekozen die het laatst is gewijzigd.</li>
+<li><b></b></li>
+<li><b></b> You can create a rule to suppress entry into a lower priority journey when a customer qualifies for an upcoming journey of higher priority.</li></ul></p>
 <!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
-<p>Conflict- en prioriteitsbeheermogelijkheden zijn beschikbaar in Beperkte beschikbaarheid voor een geselecteerde groep klanten. Houd er rekening mee dat deze functies in de toekomst geleidelijk aan voor meer gebruikers beschikbaar zullen zijn. Neem contact op met uw accountteam als u interesse hebt in het toevoegen van deze functies aan de wachtlijst.</p>
+<p>Conflict and priority management capabilities are available in Limited Availability to a select group of customers. Please note that these features will be gradually rolled out to more users in the future. Reach out to your account team if interested in being added to the waitlist for these features.</p>
 
 </td>
 </tr>
@@ -127,14 +127,14 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <table>
 <thead>
 <tr>
-<th><strong>Niet-visuele bewerkingsmodus voor de webontwerper</strong><br/></th>
+<th><strong>Niet-visuele bewerkingsmodus voor webontwerper</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Als alternatief voor de Journey Optimizer-webontwerper kunt u nu wijzigingen aan uw website toevoegen met een niet-visuele editor. U kunt de wijzigingen handmatig invoeren zonder de pagina's in de visuele editor te openen.
-Deze niet-visuele bewerkingsmodus is handig als u geen browserextensies kunt installeren, zoals de Adobe Experience Cloud Visual Helper, die nodig is om uw pagina's in de webontwerper te laden.</p>
+<p>Als alternatief voor de Journey Optimizer-webontwerper kunt u nu wijzigingen aan uw website toevoegen met een niet-visuele editor. Hiermee kunt u uw wijzigingen handmatig invoeren zonder dat u de pagina's hoeft te openen in de visuele editor.
+Deze niet-visuele bewerkingsmodus is handig als u geen browserextensies zoals de Adobe Experience Cloud Visual Helper kunt installeren, die nodig is om uw pagina's in de webontwerper te laden.</p>
 <!--p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -144,14 +144,14 @@ Deze niet-visuele bewerkingsmodus is handig als u geen browserextensies kunt ins
 <table>
 <thead>
 <tr>
-<th><strong>Inhoud experimenteren op reizen (algemene beschikbaarheid)</strong><br/></th>
+<th><strong>Inhoud experimenteren in trajecten (algemene beschikbaarheid)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer is al beschikbaar in campagnes en ondersteunt nu experimenten op reizen. Experimenten zijn gerandomiseerde onderzoeken, die in de context van online tests betekenen dat u sommige willekeurig geselecteerde gebruikers aan een bepaalde variatie van een bericht blootstelt, en een andere willekeurig geselecteerde reeks gebruikers aan één of andere andere variatie of behandeling. Na blootstelling, kunt u de resultaatmetriek meten u in geinteresseerd bent, zoals opent van e-mail, abonnementen, of aankopen.</p>
-<p>Eerder beschikbaar voor een reeks organisaties (LA) zijn experimenten op reizen nu beschikbaar voor alle gebruikers (GA).</p>
+<p>Adobe Journey Optimizer is al beschikbaar in campagnes en ondersteunt nu experimenten in trajecten. Experimenten zijn gerandomiseerde onderzoeken, wat in de context van online testen betekent dat u sommige willekeurig geselecteerde gebruikers blootstelt aan een bepaalde variatie van een bericht, en een andere willekeurig geselecteerde groep gebruikers aan een andere variatie of behandeling. Na de belichting kun je de resultaten meten waarin je geïnteresseerd bent, zoals het openen van e-mails, abonnementen of aankopen.</p>
+<p>Previously available for a set of organizations (LA), experiments in journeys are now available to all users (GA).</p>
 </td>
 </tr>
 </tbody>
@@ -167,9 +167,9 @@ Deze niet-visuele bewerkingsmodus is handig als u geen browserextensies kunt ins
 <tbody>
 <tr>
 <td>
-<p>Beslissingen, die voorheen beschikbaar waren voor een aantal organisaties (LA) en bekend staan als Experience Decisioning, zijn nu beschikbaar voor alle gebruikers (GA). Het vereenvoudigt personalisatie door een gecentraliseerde catalogus van marketingaanbiedingen aan te bieden die bekend staan als 'beslissingsobjecten' en een geavanceerde beslissingsengine. Deze motor hanteert regels en rangschikkingscriteria om de meest relevante beslissingsitems te selecteren en aan elk individu voor te leggen. Deze beslissingsitems worden naadloos geïntegreerd in een groot aantal binnenkomende oppervlakken via het op code gebaseerde ervaringskanaal.</p>
+<p>Beslissingen, voorheen beschikbaar voor een reeks organisaties (LA) en bekend onder de naam Experience Decisioning, zijn nu beschikbaar voor alle gebruikers (GA). Het vereenvoudigt personalisatie door een gecentraliseerde catalogus van marketingaanbiedingen aan te bieden die bekend staan als 'beslissingsitems' en een geavanceerde beslissingsengine. Deze motor hanteert regels en rangschikkingscriteria om de meest relevante beslissingsposten te selecteren en aan elke persoon voor te stellen. Deze beslissingsitems worden naadloos geïntegreerd in een breed scala aan binnenkomende oppervlakken via het op code gebaseerde ervaringskanaal.</p>
 
-<p>Momenteel is het nemen van een beslissing niet beschikbaar voor klanten die de add-on Adobe Healthcare Shield en Privacy and Security Shield hebben aangeschaft.</p>
+<p>Voorlopig is het niet mogelijk om een beslissing te nemen voor klanten die de Adobe-add-on voor het gezondheidsschild en privacy- en beveiligingsschild hebben aangeschaft.</p>
 
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
@@ -187,8 +187,8 @@ Deze niet-visuele bewerkingsmodus is handig als u geen browserextensies kunt ins
 <tbody>
 <tr>
 <td>
-<p>U kunt nu korrelige regels voor frequentietoewijzing maken en deze toepassen op uw berichten of reizen door regelsets. Met deze nieuwe functie kunt u bepalen hoe vaak uw publiek een bericht ontvangt door kanaalregels in te stellen die automatisch overgevraagde profielen uitsluiten van berichten en acties.</p><p>Het staat u ook toe om het aantal reizen per dag, week, of maand te beperken, evenals het aantal gelijktijdige reizen te controleren die gelijktijdig lopen.</p>
-<p>Regelsets zijn beschikbaar in Beperkte beschikbaarheid voor een geselecteerde groep klanten. Houd er rekening mee dat deze functies in de toekomst geleidelijk aan voor meer gebruikers beschikbaar zullen zijn. Neem contact op met uw accountteam als u interesse hebt in het toevoegen van wachtlijsten voor deze functie.</p>
+<p>You can now create granular frequency capping rules, and apply them to your messages or journeys through rule sets. This new capability lets you control how often your audiences receive a message by setting cross-channel rules, that automatically exclude over-solicited profiles from messages and actions.</p><p>It also allows you to limit the number of journeys per day, week, or month, as well as control the number of concurrent journeys running simultaneously.</p>
+<p>Rule sets are available in Limited Availability to a select group of customers. Please note that these features will be gradually rolled out to more users in the future. Reach out to your account team if interested in being added to the waitlist for this feature.</p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -199,14 +199,14 @@ Deze niet-visuele bewerkingsmodus is handig als u geen browserextensies kunt ins
 <table>
 <thead>
 <tr>
-<th><strong>Meertalige berichten tijdens reizen en campagnes (algemene beschikbaarheid)</strong><br/></th>
+<th><strong>Multilingual messages in journeys and campaigns (General availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt nu moeiteloos inhoud in meerdere talen maken in één campagne of reis. Met deze functie kunt u schakelen tussen talen wanneer u uw campagne of reis bewerkt, het hele bewerkingsproces stroomlijnt en uw mogelijkheden voor efficiënt beheer van meertalige inhoud verbetert.</p>
-<p>Met algemene beschikbaarheid is meertalige inhoud nu toegankelijk voor alle kanalen. </p>
+<p>Je kunt nu moeiteloos content creëren in meerdere talen binnen één campagne of traject. Met deze functie kun je schakelen tussen talen tijdens het bewerken van je campagne of je traject, het hele bewerkingsproces stroomlijnen en je vermogen verbeteren om meertalige content efficiënt te beheren.</p>
+<p>Dankzij de algemene beschikbaarheid is meertalige content nu toegankelijk voor alle kanalen. </p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -216,16 +216,16 @@ Deze niet-visuele bewerkingsmodus is handig als u geen browserextensies kunt ins
 <table>
 <thead>
 <tr>
-<th><strong>Integratie van Movable Ink en Adobe Journey Optimizer</strong><br/></th>
+<th><strong>Integratie met Movable Ink en Adobe Journey Optimizer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt nu Movable Ink Da Vinci en Adobe Journey Optimizer integreren. Met deze nieuwe integratie kunt u: </p>
-<p><ul><li>Gebruik krachtige mogelijkheden in het Da Vinci-product van Movable Ink om e-mailvariaties voor batchcampagnes samen te stellen en aan te passen</li>
-<li>Snellere workflows voor praktijkgebruikers voor Journey Optimizer-klanten die Da Vinci gebruiken voor ontwerpen en AJO voor optimalisatie en levering</li>
-<li>Optimaliseer Da Vinci modellen met Adobe gegevens.</li></ul></p>
+<p>Je kunt nu Movable Ink Da Vinci en Adobe Journey Optimizer integreren. Met deze nieuwe integratie kunt u: </p>
+<p><ul><li>Profiteer van krachtige mogelijkheden in het Da Vinci-product van Movable Ink om e-mailvariaties voor batchcampagnes samen te stellen en te personaliseren</li>
+<li>Snellere workflows voor Journey Optimizer-klanten met Da Vinci voor authoring en AJO voor optimalisatie en aanlevering</li>
+<li>Optimaliseer Da Vinci-modellen met Adobe data.</li></ul></p>
 <!--p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p-->
 </tr>
 </tbody>
@@ -240,12 +240,12 @@ Deze niet-visuele bewerkingsmodus is handig als u geen browserextensies kunt ins
 <tbody>
 <tr>
 <td>
-<p>Beschikbaar vanaf 16 oktober 2024</p>
-<p>De Journey Optimizer-rapportage is nu algemeen beschikbaar (GA) en wordt geleverd met een verbeterde interoperabiliteit met de mogelijkheden van de Customer Journey Analytics, standaardisering van de rapportage op beide platforms en verbetering van de consistentie en betrouwbaarheid van de gegevens. Deze naadloze integratie tussen Journey Optimizer en Customer Journey Analytics biedt een duidelijker beeld van prestatiesmetriek, toelatend gebruikers om geïnformeerde besluiten te nemen.</p>
-<p>Met algemene beschikbaarheid, worden vier nieuwe eigenschappen geïntroduceerd: de capaciteit om eenvoudige metriek tot stand te brengen, te creëren en publiek te publiceren, ad-hocvragen te stellen gebruikend de Bouwer van het Inzicht, en planningsrapporten om automatisch aan zeer belangrijke ontvangers worden gemaild.</p>
+<p>Beschikbaar vanaf 16 okt. 2024</p>
+<p>De Journey Optimizer-rapportage is nu algemeen beschikbaar (GA) en wordt geleverd met een verbeterde interoperabiliteit met de mogelijkheden van de Customer Journey Analytics, standaardisering van de rapportage op beide platforms en verbetering van de consistentie en betrouwbaarheid van de gegevens. Deze naadloze integratie tussen Journey Optimizer en Customer Journey Analytics biedt een duidelijker beeld van prestatiemetrieken, waardoor gebruikers beter geïnformeerde beslissingen kunnen nemen.</p>
+<p>Met algemene beschikbaarheid worden vier nieuwe functies geïntroduceerd: de mogelijkheid om eenvoudige metrics te maken, doelgroepen te maken en te publiceren, ad-hocvragen te stellen met Insight Builder en rapporten te plannen die automatisch naar belangrijke ontvangers worden gemaild.</p>
 <p>Raadpleeg de <a href="../reports/report-cja-manage.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
-<p>Belangrijk:De huidige ervaring met rapportage wordt met ingang van januari 2025 opgeheven. Na deze datum wordt de nieuwe ervaring met rapportage de norm. We raden u aan bekend te maken met de nieuwe functies en functies om een soepele overgang te garanderen. <a href="../reports/report-gs-cja.md"> Leer hoe te om met Journey Optimizer te worden begonnen de nieuwe Rapporterende interface </a></p>
+<p>Belangrijk:De huidige ervaring met rapportage wordt met ingang van januari 2025 buiten gebruik gesteld. Na deze datum wordt de nieuwe rapportervaring de standaard. We raden u aan vertrouwd te raken met de nieuwe functies en functies om een soepele overgang te waarborgen. <a href="../reports/report-gs-cja.md"> Leer hoe te om met Journey Optimizer te worden begonnen nieuwe Rapporterende interface </a></p>
 </tr>
 </tbody>
 </table>
@@ -294,9 +294,9 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 >
 >De volgende verbeteringen zijn alleen beschikbaar bij Sinch- en Infobip-providers.
 
-De verbeteringen van SMS zijn geïntroduceerd om uw berichtmogelijkheden te verbeteren:
+Sms-verbeteringen zijn geïntroduceerd om je berichtvoorzieningen te verbeteren:
 
-* U kunt unieke trefwoorden voor uw SMS-campagnes en -reizen definiëren en beheren, zodat u meer gepersonaliseerde en efficiënte communicatie mogelijk maakt.
+* Je kunt unieke trefwoorden definiëren en beheren voor je SMS-campagnes en -trajecten, waardoor je gepersonaliseerdere en efficiëntere communicatie kunt realiseren.
 
 * U kunt een standaard SMS-bericht maken en leveren wanneer een trefwoord niet wordt herkend.
 
@@ -306,45 +306,45 @@ De verbeteringen van SMS zijn geïntroduceerd om uw berichtmogelijkheden te verb
 
 <!--* **Path experiment in journeys** - With the journey path experiment, you can now define and track key metrics for your journey paths, allowing you to measure the impact of your activities and to provide clearer insights into your performance. -->
 
-&lt;!—* **Max. aantal Levende reizen** - Journey Optimizer heeft nu een grip van 500 levende reizen op productiestanddozen, in plaats van 100. Het aantal rechtstreekse reizen is zichtbaar in het canvas van de reis. <!-- DOCAC-10977-->
+&lt;!—* **Max. aantal Levende transporten** - Journey Optimizer heeft nu een grip van 500 levende reizen op productiemandboxen, in plaats van 100. Het aantal live trajecten is zichtbaar in het canvas van het traject. <!-- DOCAC-10977-->
 
 **Datasets**
 
-* **tijd-aan-levende guardrail** - Beginnend November 1, 2024, zal een tijd-aan-levende (TTL) guardrail aan systeem-geproduceerde datasets van Journey Optimizer in nieuwe zandbakken en nieuwe organismen als volgt worden uitgerold:
+* **tijd-aan-levende guardrail** - Beginnend November 1, 2024, zal een tijd-aan-levende (TTL) guardrail aan systeem-geproduceerde datasets van Journey Optimizer in nieuwe zandbakken en nieuwe organen als volgt worden uitgerold:
 
-   * 90 dagen voor gegevens in de profielopslag
-   * 13 maanden voor gegevens in het data Lake
+   * 90 dagen voor gegevens in de profielenopslag
+   * 13 months for data in the data lake
 
-  Deze wijziging wordt vervolgens in een tweede fase doorgevoerd in bestaande sandboxen voor klanten.
+  This change will be rolled out to existing customer sandboxes subsequently in a second phase.
 
-  Bovendien, beginnend November 1, zal de het stromen segmentatie niet meer het gebruik van verzenden en open gebeurtenissen van het volgen en terugkoppelen datasets steunen. Deze wijziging is van toepassing op alle sandboxen en orgs van klanten op dat moment. [Meer informatie](../data/datasets-ttl.md)
+  Additionally, starting November 1st, streaming segmentation will no longer support the use of send and open events from tracking and feedback datasets. This change will apply to all customer sandboxes and orgs at that time. [Meer informatie](../data/datasets-ttl.md)
 
-* **Parameters in douaneacties** (de datum van Beschikbaarheid: Okt 3, 2024) - ONGELDIGE en facultatieve parameters worden nu gesteund in douaneacties. [Meer informatie](../action/about-custom-action-configuration.md#define-the-message-parameters)
+* **** [Meer informatie](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
 **Meldend**
 
-* **Ervaring die** meldt is nu beschikbaar, die essentiële inzichten aanbieden in hoe uw bezoekers met uw ervaringen in wisselwerking staan.
+* **Beslissing die** meldt is nu beschikbaar, die essentiële inzichten aanbieden in hoe uw bezoekers met uw ervaringen interactie aangaan.
 
-**het bestuur van Gegevens &amp; het beleid van de Toestemming** - de datum van Beschikbaarheid: 7 okt, 2024
+**het bestuur van Gegevens &amp; toestemmingsbeleid** - de datum van de Beschikbaarheid: 7 okt, 2024
 
-* **de handhaving van het beleid van het beheer van 0} Gegevens {vindt nu over alle kanalen in Journey Optimizer plaats.** Voor klanten die beleid in Adobe Experience Platform hebben gecreeerd, worden deze toegepast op marketing acties als deel van de opstelling van kanaalconfiguraties. Als u inhoud maakt met een configuratie, controleert het systeem alle personalisatievelden op overtredingen van het gegevensbeheer. Als er een overtreding wordt gevonden, is het niet mogelijk een reis of campagne te publiceren. [Meer informatie](../action/action-privacy.md)
+* **handhaving van het beleid van het beheer van gegevens** vindt nu over alle kanalen in Journey Optimizer plaats. Voor klanten die beleid in Adobe Experience Platform hebben gemaakt, worden deze toegepast op marketingacties als onderdeel van de kanaalconfiguratie-instellingen. Als je content maakt met een configuratie, controleert het systeem alle personalisatievelden op eventuele schendingen van data-governance. Als er een schending wordt gevonden, is het niet mogelijk een traject of campagne te publiceren. [Meer informatie](../action/action-privacy.md)
 
-* **het toestemmingsbeleid van de Douane** is nu op alle kanalen van Journey Optimizer van toepassing. Bij handhaving voordat een bericht wordt verzonden of een binnenkomende ervaring wordt opgeleverd, controleert het systeem of de gebruiker toestemming heeft gegeven om verpersoonlijkingsvelden te gebruiken in de inhoud die hij of zij zal ontvangen. Als er geen toestemming wordt gegeven, wordt de ervaring niet weergegeven. [Meer informatie](../action/consent.md)
+* **het toestemmingsbeleid van de Douane** is nu op alle kanalen van Journey Optimizer van toepassing. Bij handhaving voordat een bericht wordt verzonden of een binnenkomende ervaring wordt geleverd, controleert het systeem of de gebruiker toestemming heeft gegeven om personalisatievelden te gebruiken in de inhoud die ze zullen ontvangen. Als er geen toestemming wordt gegeven, wordt de ervaring niet weergegeven. [Meer informatie](../action/consent.md)
 
   >[!NOTE]
   >
-  >Het toestemmingsbeleid is momenteel slechts beschikbaar voor organisaties die het Adobe **het Schild van de Gezondheidszorg** of **Privacy en het 3} toe:voegen-op dienstenaanbod van het Schild van de Veiligheid hebben gekocht.**
+  >Het toestemmingsbeleid is momenteel slechts beschikbaar voor organisaties die het 3} toe:voegen-op dienstenaanbod van het Schild van de Adobe **of van de Privacy en van de Veiligheid 2} hebben gekocht**.****
 
-**Soorten publiek** - Beschikbaarheidsdatum: 8 okt, 2024
+**Doelgroepen** - de datum van de Beschikbaarheid: 8 okt, 2024
 
-* Wanneer het richten van een Csv- dossierpubliek, kunt u attributen van het dossier in de verpersoonlijkingsredacteur en in reizen en campagneregelbouwer nu gebruiken. [Meer informatie](../audience/about-audiences.md)
+* Bij het targeten van een CSV-bestandspubliek, kun je nu kenmerken uit het bestand gebruiken in de personalisatie-editor en in trajecten en campagneregelbuilder. [Meer informatie](../audience/about-audiences.md)
 
-* Het gebruik van soorten publiek en kenmerken van aangepaste upload (CSV-bestand) is nu beschikbaar voor gebruik met het Healthcare Shield of Privacy and Security Shield.
+* The use of audiences and attributes from custom upload (CSV file) is now available for use with Healthcare Shield or Privacy and Security Shield.
 
-**op code-Gebaseerd kanaal**
+****
 
-* Inhoudssjablonen zijn nu beschikbaar. U kunt het ontwerpen versnellen van uw op code-gebaseerde ervaringen die van een inhoudsmalplaatje beginnen door uw ontwikkelaars wordt gebouwd. Als u een inhoudssjabloon gebruikt, kan de markeerteken alleen enkele waarden of velden wijzigen in plaats van de gehele HTML- of JSON-inhoudslading samen te stellen.
+* Content templates are now available. You can speed up authoring your code-based experiences starting from a content template built by your developers. Using a content template will allow the marketer to just modify some values or fields, instead of composing the whole HTML or JSON content payload.
 
-**Beslissing**
+****
 
-[ Adobe Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) de gebruikers kunnen douanemodellen nu kiezen om te optimaliseren wanneer vestiging een AI model in Beslissing (vroeger genoemd geworden Ervaring die Beslissing) wordt bekend. Zo kunt u bijvoorbeeld een aangepaste tabel voor aankopen optimaliseren in plaats van gedefinieerde beperkingen, zoals een doorklikfrequentie.&quot;
+[ Adobe Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) de gebruikers kunnen douanemodellen nu kiezen om op te optimaliseren wanneer vestiging een model van AI in Beslissing (vroeger genoemd geworden Beslissing van de Ervaring). Zo kunt u bijvoorbeeld een aangepaste tabel voor aankopen optimaliseren in plaats van gedefinieerde beperkingen zoals click-through rate.&quot;

@@ -1,50 +1,51 @@
 ---
-title: Gebruik contextgegevens in Experience Decisition
-description: Leer hoe u contextgegevens kunt gebruiken in Experience Decisition
+title: Leverage context data in Decisioning
+description: Learn how to leverage context data in Decisioning
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+exl-id: ddc4b681-020b-4433-b4b3-3791c41907c9
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
 
-# Gebruik contextgegevens in Experience Decisition {#context}
+# Leverage context data in Decisioning {#context}
 
-Met Experience Decisioning kunt u alle beschikbare informatie in Adobe Experience Platform gebruiken om verschillende handelingen uit te voeren, zoals het maken van [beslissingsregels](rules.md) of [waarderingsformules](ranking.md). U kunt bijvoorbeeld een beslissingsregel ontwerpen waarvoor het huidige weer 80 graden moet zijn op het moment dat het beslissingsverzoek wordt gedaan.
+[](rules.md)[](ranking.md) For example, you can design a decision rule that requires the current weather to be ≥80 degrees at the time the decision request is made.
 
 >[!NOTE]
 >
->Contextgegevens worden gedefinieerd in Adobe Experience Platform en worden verzonden op het moment dat een beslissing wordt gevraagd. Het omvat geen historische gegevens.
+>Context data is defined in Adobe Experience Platform and is sent in at the time of a decision request. It does not include historical data.
 
-Als u contextgegevens wilt gebruiken, moet u eerst de gegevens definiëren die u beschikbaar wilt maken in Experience Definition. Als deze gegevens eenmaal zijn uitgevoerd, worden ze naadloos geïntegreerd in de weergave Experience Decisioning in de **[!UICONTROL Context Data]** beschikbaar bij het maken van een beslissingsregel. U kunt de gegevens ook gebruiken wanneer u een waarderingsformule bewerkt.
+To use context data, you first need to define the data you want to make available in Decisioning. **[!UICONTROL Context Data]** You can also leverage the data when editing a ranking formula.
 
 ![](assets/decision-rules-context.png)
 
-De stappen om Ervaring Beslissing met gegevens van Adobe Experience Platform te voeren zijn als volgt:
+The steps to feed Decisioning with Adobe Experience Platform data are as follows:
 
-1. Een **Experience Event-schema**  in Adobe Experience Platform en de geassocieerde **gegevensset**. [Leer hoe u schema&#39;s maakt](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
+1. ********[](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
 
-1. Een nieuwe Adobe Experience Platform-gegevensstroom maken:
+1. Create a new Adobe Experience Platform datastream:
 
-   1. Ga naar de **[!UICONTROL Datastreams]** en selecteert u **[!UICONTROL New Datastream]**.
+   1. **[!UICONTROL Datastreams]****[!UICONTROL New Datastream]**
 
-   1. In de **[!UICONTROL Event Schema]** vervolgkeuzelijst, selecteert u het eerder gemaakte Experience Event-schema en klikt u op **[!UICONTROL Save]**.
+   1. **[!UICONTROL Event Schema]****[!UICONTROL Save]**
 
       ![](assets/decision-rule-context-datastream.png)
 
-   1. Klikken **[!UICONTROL Add service]** en selecteer &quot;Adobe Experience Platform&quot; als de service. In de **[!UICONTROL Event Dataset]** vervolgkeuzelijst, selecteert u de eerder gemaakte gebeurtenisdataset en schakelt u de **[!UICONTROL Adobe Journey Optimizer]** -optie.
+   1. **[!UICONTROL Add service]** **[!UICONTROL Event Dataset]****[!UICONTROL Adobe Journey Optimizer]**
 
       ![](assets/decision-rules-context-datastream-service.png)
 
-Zodra de gegevensstroom wordt bewaard, wordt de geselecteerde informatie van de dataset automatisch opgehaald en in het Beslissen van de Ervaring geïntegreerd, die typisch binnen ongeveer 24 uren beschikbaar wordt.
+Once the datastream is saved, the selected dataset&#39;s information is automatically fetched and integrated into Decisioning, typically becoming available within approximately 24 hours.
 
-Raadpleeg de volgende bronnen voor meer informatie over hoe u met Adobe Experience Platform kunt werken:
+For further guidance on how to work with Adobe Experience Platform, explore the following resources:
 
-* [XDM-schema&#39;s (Experience Data Model)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}
-* [Gegevenssets](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}
-* [Gegevensstromen](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview){target="_blank"}
+* [](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}
+* [](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}
+* [](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview){target="_blank"}

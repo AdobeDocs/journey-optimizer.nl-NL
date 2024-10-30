@@ -1,39 +1,39 @@
 ---
-title: Aan de slag met Experience Decisition
-description: Ervaar meer over het beslissen van ervaring
+title: Aan de slag met beslissing
+description: Meer informatie over beslissingen
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 badge: label="Beperkte beschikbaarheid"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '402'
 ht-degree: 1%
 
 ---
 
-# Aan de slag met Experience Decisition {#get-started-experience-decisioning}
+# Aan de slag met beslissing {#get-started-experience-decisioning}
 
 >[!AVAILABILITY]
 >
->Experience Decisioning is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.
+>Het besluit is momenteel slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.
 >
 >Voor nu, is de eigenschap niet beschikbaar voor klanten die de Adobe **het Schild van de Gezondheidszorg** en **Privacy en het 3} toe:voegen-op dienstenaanbod van het Schild van de Veiligheid hebben gekocht.**
 
-## Wat is Experience Decisition {#about}
+## Wat is beslissend? {#about}
 
-Ervaring Beslissen vereenvoudigt personalisatie door een gecentraliseerde catalogus van marketingaanbiedingen aan te bieden, die bekend staan als &#39;beslissingspunten&#39; en een geavanceerde beslissingsengine. Deze motor hanteert regels en rangschikkingscriteria om de meest relevante beslissingsitems te selecteren en aan elk individu voor te leggen.
+Beslissing vereenvoudigt personalisering door een gecentraliseerde catalogus van marketing aanbiedingen aan te bieden die als &quot;beslissingspunten&quot;en een geavanceerd besluitvormingsmotor worden bekend. Deze motor hanteert regels en rangschikkingscriteria om de meest relevante beslissingsitems te selecteren en aan elk individu voor te leggen.
 
-Deze besluitpunten zijn naadloos geïntegreerd in een brede waaier van binnenkomende oppervlakten door het [ nieuwe code-gebaseerde ervaringskanaal ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based), nu toegankelijk binnen de campagnes van Journey Optimizer. Het beleid van de Beslissing van de ervaring is beschikbaar voor gebruik in code-gebaseerde ervaringscampagnes slechts.
+Deze besluitpunten zijn naadloos geïntegreerd in een brede waaier van binnenkomende oppervlakten door het [ nieuwe code-gebaseerde ervaringskanaal ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based), nu toegankelijk binnen de campagnes van Journey Optimizer. Beslissingsbeleid is beschikbaar voor gebruik in code-gebaseerde ervaringscampagnes slechts.
 
 
-## Belangrijkste stappen bij het nemen van beslissingen {#steps}
+## Belangrijke stappen voor besluitvorming {#steps}
 
-De belangrijkste stappen om met de Beslissing van de Ervaring te werken zijn als volgt:
+De belangrijkste stappen om met Beslissing te werken zijn als volgt:
 
-1. **wijs juiste toestemmingen** toe. Experience Decisioning is alleen beschikbaar voor gebruikers die toegang hebben tot een Experience Decisioning-gerelateerd **[!UICONTROL role]** , zoals Beslissingsmanagers. Als u geen tot Beslissing van de Ervaring toegang hebt, moeten uw toestemmingen worden uitgebreid.
+1. **wijs juiste toestemmingen** toe. Beslissing is alleen beschikbaar voor gebruikers die toegang hebben tot een beslissing die betrekking heeft op **[!UICONTROL role]** , zoals beslissingsmanagers. Als u geen toegang hebt tot Beslissing, moeten uw toestemmingen worden uitgebreid.
 
    +++Leer hoe u de rol van beslissingsmanagers toewijst
 
@@ -59,7 +59,7 @@ De belangrijkste stappen om met de Beslissing van de Ervaring te werken zijn als
 
 1. **creeer besluitpunten** om aan uw gericht publiek te tonen.
 
-1. **organiseert zich met inzamelingen**: De inzamelingen van het gebruik om besluitpunten te categoriseren die op op attribuut-gebaseerde regels worden gebaseerd. Neem inzamelingen in uw selectiestrategieën op om te bepalen welke inzameling van besluitvormingspunten zou moeten worden overwogen.
+1. **organiseer met inzamelingen**: De inzamelingen van het gebruik om besluitpunten te categoriseren die op op attribuut-gebaseerde regels worden gebaseerd. Neem inzamelingen in uw selectiestrategieën op om te bepalen welke inzameling van besluitvormingspunten zou moeten worden overwogen.
 
 1. **creeer besluitvormingsregels**: De regels van het besluit worden gebruikt in besluitvormingspunten en/of selectiestrategieën om te bepalen aan wie een besluitpunt kan worden getoond.
 
