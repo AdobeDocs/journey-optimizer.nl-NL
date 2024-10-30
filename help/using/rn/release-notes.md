@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2fb8113f4ae85b661a3ea967327e6a0b532fc48f
+source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1488'
 ht-degree: 6%
 
 ---
@@ -39,7 +39,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven:
 <tbody>
 <tr>
 <td>
-<p>Met Journey Optimizer kunt u nu inhoud in e-mailsjablonen vergrendelen door de volledige sjabloon of specifieke structuren en componenten te vergrendelen. Zo voorkomt u onbedoelde bewerkingen of verwijderingen, hebt u meer controle over het aanpassen van sjablonen en verbetert u de efficiëntie en betrouwbaarheid van uw e-mailcampagnes.</p>
+<p>Met Journey Optimizer kunt u nu inhoud in e-mailsjablonen vergrendelen door de volledige sjabloon of specifieke structuren en onderdelen te vergrendelen. Hierdoor kunt u onbedoelde bewerkingen of verwijderingen voorkomen, waardoor u meer controle hebt over de aanpassing van de sjabloon en de efficiëntie en betrouwbaarheid van uw e-mailcampagnes verbetert.</p>
 <p>Raadpleeg de <a href="../content-management/content-locking.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="assets/do-not-localize/gif-content-locking.gif">
 <p>Beschikbaar sinds 24 okt. 2024</p>
@@ -128,13 +128,13 @@ Eerder beschikbaar voor een reeks organisaties (LA), zijn de volgende mogelijkhe
 <table>
 <thead>
 <tr>
-<th><strong>E-mailconfiguratie-personalisatie (algemene beschikbaarheid) </strong><br/></th>
+<th><strong>Aanpassing e-mailconfiguratie (algemene beschikbaarheid) </strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Voor meer flexibiliteit en meer controle over uw e-mailinstellingen kunt u dynamische subdomeinen en gepersonaliseerde headerparameters definiëren wanneer u e-mailkanaalconfiguraties maakt.
+<p>Voor meer flexibiliteit en meer controle over de e-mailinstellingen kunt u dynamische subdomeinen en gepersonaliseerde headerparameters definiëren wanneer u configuraties met e-mailkanalen maakt.
 </p>
 <p>Raadpleeg de <a href="../email/surface-personalization.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="assets/do-not-localize/surface-perso.gif"/>
@@ -196,22 +196,22 @@ Eerder beschikbaar voor een reeks organisaties (LA), zijn de volgende mogelijkhe
 </tbody>
 </table>-->
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Multilingual messages in journeys and campaigns (General availability)</strong><br/></th>
+<th><strong>Meertalige berichten tijdens reizen en campagnes (algemene beschikbaarheid)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now effortlessly create content in multiple languages within a single campaign or journey. With this feature, you can switch between languages when editing your campaign or your journey, streamlining the entire editing process and improving your capability to efficiently manage multilingual content.</p>
-<p>For more information, refer to the <a href="../content-management/multilingual-gs.md">detailed documentation</a>.</p>
+<p>U kunt nu moeiteloos inhoud in meerdere talen maken in één campagne of reis. Met deze functie kunt u schakelen tussen talen wanneer u uw campagne of reis bewerkt, het hele bewerkingsproces stroomlijnt en uw mogelijkheden voor efficiënt beheer van meertalige inhoud verbetert.</p>
+<p>Raadpleeg de <a href="../content-management/multilingual-gs.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="assets/do-not-localize/multilingual.gif">
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
 <table>
@@ -227,7 +227,7 @@ Eerder beschikbaar voor een reeks organisaties (LA), zijn de volgende mogelijkhe
 <p>Met Algemene Beschikbaarheid, worden vier nieuwe eigenschappen geïntroduceerd: de capaciteit om eenvoudige metriek tot stand te brengen, te creëren en publiek te publiceren, ad-hocvragen te stellen gebruikend de Bouwer van het Inzicht, en planningsrapporten om automatisch aan zeer belangrijke ontvangers worden gemaild.</p>
 <p>Raadpleeg de <a href="../reports/report-cja-manage.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
-<p>Belangrijk: De huidige ervaring met rapportage wordt met ingang van januari 2025 buiten gebruik gesteld. Na deze datum wordt de nieuwe rapportervaring de standaard. We raden u aan vertrouwd te raken met de nieuwe functies en functies om een soepele overgang te waarborgen. <a href="../reports/report-gs-cja.md"> Leer hoe te om met Journey Optimizer te worden begonnen nieuwe Rapporterende interface </a></p>
+<p>Belangrijk: de huidige ervaring met rapportage wordt met ingang van januari 2025 opgeheven. Na deze datum wordt de nieuwe ervaring met rapportage de norm. We raden u aan bekend te maken met de nieuwe functies en functies om een soepele overgang te garanderen. <a href="../reports/report-gs-cja.md"> Leer hoe te om met Journey Optimizer te worden begonnen de nieuwe Rapporterende interface </a></p>
 <p>Beschikbaar vanaf 16 oktober 2024</p>
 </tr>
 </tbody>
@@ -303,10 +303,10 @@ Leer meer over deze verbeteringen in de de configuratiedocumentatie van SMS voor
 
 * **Tijd-aan-levende Dataset (TTL)** - Beginnend in Februari 2025, zal een tijd-aan-levende (TTL) guardrail aan systeem-geproduceerde datasets van Journey Optimizer in nieuwe zandbakken en nieuwe organismen als volgt worden uitgerold:
 
-   * 90 dagen voor gegevens in de profielenopslag
-   * 13 maanden voor gegevens in het datameer
+   * 90 dagen voor gegevens in de profielopslag
+   * 13 maanden voor gegevens in het data Lake
 
-  Deze wijziging wordt in een volgende fase geïmplementeerd in bestaande klantsandboxen. [Meer informatie](../data/datasets-ttl.md#ttl)
+  Deze wijziging wordt in een volgende fase doorgevoerd in bestaande sandboxen voor klanten. [Meer informatie](../data/datasets-ttl.md#ttl)
 
 * **Parameters in douaneacties** (de datum van Beschikbaarheid: Okt 3, 2024) - ONGELDIGE en facultatieve parameters worden nu gesteund in douaneacties. [Meer informatie](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
@@ -336,7 +336,7 @@ Leer meer over deze verbeteringen in de de configuratiedocumentatie van SMS voor
 
 **op code-Gebaseerd kanaal**
 
-* Inhoudssjablonen zijn nu beschikbaar. Je kunt het ontwerpen van je op code gebaseerde ervaringen versnellen, te beginnen met een contentsjabloon dat door je ontwikkelaars is ontwikkeld. Als u een inhoudssjabloon gebruikt, kan de marketeer alleen enkele waarden of velden wijzigen in plaats van de gehele HTML- of JSON-inhoudslading samen te stellen. [Meer informatie](../content-management/content-templates.md)
+* Inhoudssjablonen zijn nu beschikbaar. U kunt het ontwerpen versnellen van uw op code-gebaseerde ervaringen die van een inhoudsmalplaatje beginnen door uw ontwikkelaars wordt gebouwd. Als u een inhoudssjabloon gebruikt, kan de markeerteken alleen enkele waarden of velden wijzigen in plaats van de gehele HTML- of JSON-inhoudslading samen te stellen. [Meer informatie](../content-management/content-templates.md)
 
 **Beslissing**
 

@@ -9,10 +9,9 @@ role: User
 level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 7a324f3ece4d30085e3e447526cd0a2ff7fa72dd
+source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '474'
 ht-degree: 1%
 
 ---
@@ -24,9 +23,10 @@ ht-degree: 1%
 >title="Vertalingen"
 >abstract="Met de meertalige functie kunt u eenvoudig inhoud in meerdere talen maken in één campagne of reis. Via de pagina Vertalingen kunt u projecten instellen, vertaalbureaus selecteren of taalspecifieke woordenboeken beheren"
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->Meertalige inhoud is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.
+>Gebruikers moeten de machtiging **[!UICONTROL Manage Language settings]** krijgen om meertalige inhoud te maken.
+>Voor automatische doorloop hebben gebruikers ook machtigingen nodig die betrekking hebben op de **[!UICONTROL Translation Service]** -functies. [ Leer meer op toestemmingen ](../administration/permissions.md)
 
 Met de meertalige functie kunt u moeiteloos inhoud in meerdere talen maken in één campagne of reis. Met deze functie kunt u schakelen tussen talen tijdens het bewerken van uw campagne, het hele bewerkingsproces stroomlijnen en uw mogelijkheden verbeteren om meertalige inhoud efficiënt te beheren.
 
@@ -55,7 +55,9 @@ Voor het gebruik van de vertaalservices van een vertaalbureau gelden aanvullende
 
 Neem contact op met de betreffende vertaler voor alle problemen of verzoeken om assistentie met betrekking tot uw vertalingen.
 
-Als u de pagina Vertaling niet kunt openen, moet u de functie Vertaling inschakelen.
+Als u de vertaalfunctie in Journey Optimizer wilt gebruiken, moet u API aan de bijbehorende rol toewijzen. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+
+Als u geen toegang hebt tot de pagina Vertaling, moet u de functie Vertaling inschakelen en moet u **[!UICONTROL Translation service]** -gerelateerde machtigingen krijgen. [Meer informatie](../administration/ootb-permissions.md)
 
 +++ Leer hoe u de functie Vertalen kunt inschakelen
 

@@ -9,11 +9,10 @@ role: User
 level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
 workflow-type: tm+mt
-source-wordcount: '1494'
-ht-degree: 1%
+source-wordcount: '1873'
+ht-degree: 0%
 
 ---
 
@@ -29,44 +28,25 @@ ht-degree: 1%
 >title="Provider bewerken"
 >abstract="Wijzig de bestaande vertaalproviders en voeg zo nodig landinstellingen toe. Met deze functionaliteit kunt u bepalen welke providers en landinstellingen actief zijn voor uw project. Zo kunt u op flexibele wijze bronnen aanpassen en specifieke doelgroepen afstemmen op uw huidige behoeften en projectdoelstellingen."
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->Meertalige inhoud is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.
+>Voor automatische doorloop hebben gebruikers machtigingen nodig die gerelateerd zijn aan de **[!UICONTROL Translation Service]** -mogelijkheid. [ Leer meer op toestemmingen ](../administration/permissions.md)
 
 Met behulp van de geautomatiseerde stroom kunt u gewoon uw doeltaal en taalprovider selecteren. Uw inhoud wordt vervolgens rechtstreeks naar de vertaling verzonden en klaar voor een definitieve revisie wanneer deze is voltooid.
 
 Ga als volgt te werk om meertalige inhoud te maken met automatische vertaling:
 
-1. [ creeer uw scène ](#create-locale).
+1. [Uw provider toevoegen](multilingual-provider.md)
 
-1. [ creeer een taalproject ](#create-translation-project).
+1. [Landinstellingen toevoegen (optioneel)](multilingual-locale.md)
 
-1. [ creeer taalmontages ](#create-language-settings).
+1. [Een taalproject maken](#create-translation-project)
 
-1. [ creeer een meertalige inhoud ](#create-a-multilingual-campaign).
+1. [Taalinstellingen maken](#create-language-settings)
 
-1. [ herzie uw vertaaltaak (facultatief) ](#review-translation-project).
+1. [Meertalige inhoud maken](#create-a-multilingual-campaign)
 
-## Landinstelling maken {#create-locale}
-
->[!CONTEXTUALHELP]
->id="ajo_multi_add_locale"
->title="Landinstelling toevoegen"
->abstract="Als u uw taalvoorkeuren configureert, kunt u extra landinstellingen maken als de gewenste taal niet beschikbaar is voor meertalige inhoud."
-
-Wanneer het vormen van uw taalmontages, zoals die in [ worden beschreven creeer uw taalmontages ](#language-settings) sectie, als een specifieke scène niet beschikbaar voor uw meertalige inhoud is, hebt u de flexibiliteit om zo vele nieuwe scènes tot stand te brengen zoals vereist gebruikend het **[!UICONTROL Translation]** menu.
-
-1. Open **[!UICONTROL Translation]** via het menu **[!UICONTROL Content management]** .
-
-1. Klik op het tabblad **[!UICONTROL Locale dictionary]** op **[!UICONTROL Add locale]**.
-
-   ![](assets/locale_1.png)
-
-1. Selecteer uw landinstellingscode in de lijst **[!UICONTROL Language]** en de bijbehorende **[!UICONTROL Region]** .
-
-1. Klik op **[!UICONTROL Save]** om uw landinstelling te maken.
-
-   ![](assets/locale_2.png)
+1. [Uw vertaaltaak controleren (optioneel)](#review-translation-project)
 
 ## Vertaalproject maken {#translation-project}
 
@@ -125,7 +105,17 @@ Uw vertaalproject is nu gemaakt en kan worden gebruikt in een meertalige campagn
 
 ## Taalinstellingen maken {#language-settings}
 
-In deze sectie kunt u de primaire taal en de bijbehorende landinstellingen instellen voor het beheer van meertalige inhoud. U kunt ook het kenmerk kiezen dat u wilt gebruiken om informatie met betrekking tot de profieltaal op te zoeken.
+>[!CONTEXTUALHELP]
+>id="ajo_multi_custom_conditional"
+>title="Aangepaste voorwaardelijke instellingen"
+>abstract="Aangepaste voorwaardelijke instellingen zijn regelsets die bepalen in welke landinstelling de inhoud wordt weergegeven op basis van specifieke criteria. Met deze instellingen hebt u controle over de weergave van inhoud op basis van factoren zoals de locatie van de gebruiker, taalvoorkeuren of andere contextafhankelijke elementen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_fallback"
+>title="Voorkeuren voor alternatieven"
+>abstract="Een voorkeur voor fallback is van cruciaal belang om de gebruikerservaring te verbeteren. Als er geen fallback is geselecteerd en een profiel niet voldoet aan de vereiste vereisten, wordt de inhoud niet geleverd. Door een geschikte reservekopie te selecteren, zorgt u voor een consistente levering van inhoud, zelfs als de profielen niet voldoen aan de oorspronkelijke criteria."
+
+In deze sectie kunt u verschillende landinstellingen instellen voor het beheer van meertalige inhoud. U kunt ook het kenmerk kiezen dat u wilt gebruiken om informatie met betrekking tot de profieltaal op te zoeken.
 
 1. Open **[!UICONTROL Channel]** > **[!UICONTROL General settings]** in het menu **[!UICONTROL Administration]** .
 
@@ -133,27 +123,86 @@ In deze sectie kunt u de primaire taal en de bijbehorende landinstellingen inste
 
    ![](assets/language_settings_1.png)
 
-1. Typ de naam van de **[!UICONTROL Language settings]** .
-
-1. Kies de optie **[!UICONTROL Translation project]**.
+1. Typ de naam van de **[!UICONTROL Language settings]** en kies **[!UICONTROL Translation project]** .
 
 1. Klik in het veld **[!UICONTROL Translation project]** op **[!UICONTROL Edit]** en kies de eerder gemaakte **[!UICONTROL Translation project]** .
 
-   Uw eerder geconfigureerde landinstellingen worden automatisch geïmporteerd.
+   Uw eerder geconfigureerde **[!UICONTROL Locales]** worden automatisch geïmporteerd.
+
+1. Selecteer een **[!UICONTROL Fallback preferences]** om een back-upoptie te definiëren wanneer een profiel niet voldoet aan de vereiste criteria voor het leveren van inhoud.
+
+   Als er geen fallback-optie is geselecteerd, wordt de campagne of de reis niet verzonden.
 
    ![](assets/language_settings_2.png)
 
-1. Selecteer in het menu **[!UICONTROL Sending preference]** het kenmerk dat u wilt opzoeken naar informatie over profieltalen.
+1. Kies uw verzendvoorkeur uit de volgende opties:
 
-1. Klik op **[!UICONTROL Edit]** naast de **[!UICONTROL Locale]** om deze verder aan te passen en toe te voegen **[!UICONTROL Profile preferences]** .
+   * **[!UICONTROL Select profile language preference attributes]**
+   * **[!UICONTROL Create custom conditional rules]**
+
+1. Als u **[!UICONTROL Select profile language preference attributes]** selecteert, kiest u het desbetreffende kenmerk in het menu **[!UICONTROL Profile language preference attributes]** om de taalgegevens van het profiel op te zoeken.
+
+   ![](assets/multilingual-settings-3.png)
+
+1. Als u **[!UICONTROL Create custom conditional rules]** selecteert, selecteert u de landinstelling waarvoor u voorwaarden wilt maken. Vervolgens kunt u regels maken op basis van factoren zoals gebruikerslocatie, taalvoorkeuren of andere contextafhankelijke elementen.
 
    ![](assets/language_settings_3.png)
 
-1. Als de **[!UICONTROL Translation project]** wordt bijgewerkt, klikt u op **[!UICONTROL Refresh]** om deze wijzigingen in de **[!UICONTROL Language settings]** door te voeren.
+1. Begin voorwaarden te creëren door een attribuut, een gebeurtenis, of een publiek toe te voegen om uw doelgroep te bepalen.
 
-   ![](assets/language_settings_4.png)
+   >[!IMPORTANT]
+   >
+   >Contextuele gegevens zijn uitsluitend beschikbaar voor webkanalen, in-app-, ervaring op basis van code en contentkaartkanalen. Indien gebruikt voor e-mail, sms, pushberichten of direct-mailkanalen, zonder extra kenmerken, wordt de campagne of de reis verzonden in de taal van de eerste optie in de lijst.
+
+   ![](assets/multilingual-settings-6.png)
+
+   +++Vereisten om contextuele gebeurtenissen in uw voorwaarden te gebruiken
+
+   Wanneer gebruikers uw inhoud weergeven, wordt samen met de ervaringsgebeurtenis een verzoek tot aanpassing verzonden. Als u contextafhankelijke gegevens in uw voorwaarden wilt gebruiken, moet u aanvullende gegevens aan de payload van het aanpassingsverzoek koppelen. Om dit te doen, moet u een regel in de Inzameling van Gegevens van Adobe Experience Platform tot stand brengen om te specificeren: ALS een verpersoonlijkingsverzoek wordt verzonden, dan bijlage extra gegevens aan het verzoek, die de attributen om met het taalgebied in uw schema bepalen aan te passen.
+
+   >[!NOTE]
+   >
+   >Deze voorwaarden zijn alleen vereist voor de kanalen voor de in-app- en inhoudskaarten.
+
+   1. Open het menu **[!UICONTROL Rules]** in Adobe Experience Platform Data Collection en maak een nieuwe regel. De gedetailleerde informatie over hoe te om regels tot stand te brengen is beschikbaar in [!DNL Adobe Experience Platform] [ documentatie van de Inzameling van Gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule) {target="_blank"}
+
+   2. Voeg in de sectie **[!UICONTROL IF]** van de regel een gebeurtenis toe die als volgt is geconfigureerd:
+
+      ![](assets/multilingual-experience-events-rule-if.png)
+
+      * Kies de **[!UICONTROL Extension]** waarmee u werkt.
+      * Selecteer in het veld **[!UICONTROL Event type]** de optie &quot;AEP-aanvraaggebeurtenis&quot;.
+      * Selecteer in het rechterdeelvenster &quot;XDM Event Type is gelijk aan personalization.request&quot;
+      * Klik op de knop **[!UICONTROL Keep changes]** ter bevestiging.
+
+   3. Voeg in de sectie **[!UICONTROL THEN]** van de regel een actie toe die als volgt is geconfigureerd:
+
+      ![](assets/multilingual-experience-events-rule-then.png)
+
+      * Kies de **[!UICONTROL Extension]** waarmee u werkt.
+      * Selecteer in het veld **[!UICONTROL Action Type]** de optie Gegevens koppelen.
+      * In de JSON nuttige ladingssectie, zorg ervoor dat de attributen die worden gebruikt om de taal terug te winnen aan gebruik (in het voorbeeld hieronder &quot;taal&quot;) de naam van de attributen aanpassen die in het schema worden gespecificeerd waar uw gegevensstroom van de gegevensinzameling stroomt.
+
+        ```JSON
+        {
+            "xdm":{
+                "application":{
+                    "_dc":{
+                        "language":"{%%Language%%}"
+                    }
+                }
+            }
+        }
+        ```
+      * Klik op de knop **[!UICONTROL Keep changes]** om uw regel te bevestigen en op te slaan.
+
++++
+
+1. Sleep de landinstellingen om ze opnieuw te ordenen en de prioriteit ervan in de lijst te beheren.
 
 1. Klik op **[!UICONTROL Submit]** om een **[!UICONTROL Language settings]** -bestand te maken.
+
+Nadat u de taalvoorkeuren hebt ingesteld, kunt u deze niet meer bewerken.
 
 <!--
 1. Access the **[!UICONTROL channel configurations]** menu and create a new channel configuration or select an existing one.
@@ -165,6 +214,10 @@ In deze sectie kunt u de primaire taal en de bijbehorende landinstellingen inste
 -->
 
 ## Meertalige inhoud maken {#create-multilingual-campaign}
+
+>[!AVAILABILITY]
+>
+> Voorvertoning voor op code gebaseerde ervaringen en inhoud van inhoudskaarten is momenteel niet beschikbaar voor de automatische stroom.
 
 Als u uw vertaalproject en taalinstellingen hebt ingesteld, kunt u uw campagne of reis maken en uw inhoud aanpassen voor de verschillende landinstellingen.
 
