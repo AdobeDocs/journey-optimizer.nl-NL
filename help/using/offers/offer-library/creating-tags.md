@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 2%
+source-wordcount: '179'
+ht-degree: 0%
 
 ---
 
@@ -22,19 +22,19 @@ ht-degree: 2%
 
 Door verzamelingsaanduidingen (die voorheen &#39;&#39;tags&#39;&#39; werden genoemd) aan uw aanbiedingen te koppelen, kunt u ze eenvoudiger organiseren. U kunt bijvoorbeeld een label geven aan de zwarte vrijdag-aanbiedingen met de verzamelingsaanduiding &#39;Zwarte vrijdag&#39;. U kunt dan de onderzoeksfunctionaliteit in de Bibliotheek van de Aanbieding gebruiken om van alle aanbiedingen met die inzamelingskwalificatie gemakkelijk de plaats te bepalen.
 
-Verzamelingsbepalers kunnen ook worden gebruikt om aanbiedingen samen te groeperen in aanbiedingsinzamelingen. Zie [Verzamelingen maken](../offer-library/creating-collections.md).
+Verzamelingsbepalers kunnen ook worden gebruikt om aanbiedingen samen te groeperen in aanbiedingsinzamelingen. Zie [ inzamelingen ](../offer-library/creating-collections.md) creëren.
 
-➡️ [Ontdek deze functie in video](#video)
+➡️ [ ontdekt deze eigenschap in video ](#video)
 
-De lijst met gecreeerde verzamelingskwalificatoren is toegankelijk in het dialoogvenster **[!UICONTROL Components]** -menu.
+De lijst met gemaakte verzamelingskwalificatietoetsen is toegankelijk in het menu **[!UICONTROL Components]** .
 
 ![](../assets/tags_list.png)
 
 Ga als volgt te werk om een verzamelingskwalificatie te maken:
 
-1. Ga naar de **[!UICONTROL Collection qualifiers]** tab, en klik vervolgens op **[!UICONTROL Create collection qualifier]**.
+1. Ga naar de tab **[!UICONTROL Collection qualifiers]** en klik vervolgens op **[!UICONTROL Create collection qualifier]** .
 
-1. Geef de naam van de verzamelingskwalificatie op en klik vervolgens op **[!UICONTROL Save]**.
+1. Geef de naam van de verzamelingskwalificatie op en klik op **[!UICONTROL Save]** .
 
    ![](../assets/tags_create.png)
 

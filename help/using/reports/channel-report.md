@@ -30,11 +30,11 @@ ht-degree: 0%
 >
 > Om tot het **menu van het Rapport** toegang te hebben, moet u de **[!UICONTROL View Channel Reports]** toestemming hebben. [Meer informatie](channel-report-gs.md#before-starting-manage-reports-prereq)
 
-De Kanaalrapporten bieden gebruikers een uitgebreid overzicht van verkeers- en betrokkenheidsmetrics op kanaalniveau. De metrics worden samengevoegd om geconsolideerde waarden te presenteren voor acties die afkomstig zijn van het gekozen kanaal en die verschillende campagnes en trajecten omvatten.
+De rapporten van het Kanaal verstrekken gebruikers een uitvoerig overzicht van verkeer en betrokkenheidsmetriek op kanaal-niveau. De meetwaarden worden samengevoegd om geconsolideerde waarden voor acties te presenteren die afkomstig zijn van het gekozen kanaal en die zich uitstrekken over verschillende campagnes en reizen.
 
-U kunt tot de rapporten van het Kanaal toegang hebben door aan het **menu van Rapporten** binnen de **sectie van het Beheer van de Reis** te navigeren. Het is volledig aanpasbaar. U kunt uw gegevens filteren op basis van de rapportdatum of handeling. [Meer informatie](channel-report-gs.md)
+U kunt tot de rapporten van het Kanaal toegang hebben door aan het **menu van Rapporten** binnen de **sectie van het Beheer van de Reis** te navigeren. Het is volledig aanpasbaar, kunt u uw gegevens filtreren afhankelijk van de datum van het Rapport of Actie. [Meer informatie](channel-report-gs.md)
 
-De rapportpagina wordt weergegeven met de volgende tabbladen:
+De rapportpagina wordt getoond met de volgende lusjes:
 
 * [Email](#email)
 * [Pushmeldingen](#push)
@@ -162,18 +162,18 @@ De grafiek van **[!UICONTROL Email - Tracking statistics over time]** biedt een 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_categories"
 >title="Stuitcategorieën"
->abstract="De categorieën Bounce en tabel bieden gegevens over zowel tijdelijke als permanente fouten."
+>abstract="De categorieën Bounce en de tabel geven gegevens over zowel tijdelijke als permanente fouten."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_reasons"
->title="Stuitmotieven"
->abstract="De grafieken en tabel met Bounces Reasons bevatten de beschikbare gegevens met betrekking tot teruggestuurde berichten."
+>title="Stuitingsredenen"
+>abstract="De grafieken en de tabel met Bounces Reasons bevatten de beschikbare gegevens met betrekking tot berichten die worden teruggestuurd."
 
 ![](assets/channel_email_bounce_categories.png)
 
-De **[!UICONTROL Bounce categories]** - en **[!UICONTROL Bounce reasons]** -widgets omvatten de gegevens die zijn gekoppeld aan teruggestuurde berichten. Zo krijgt u een uitgebreid overzicht van de verschillende categorieën en specifieke redenen achter de berichtgrenzen
+Met de widgets **[!UICONTROL Bounce categories]** en **[!UICONTROL Bounce reasons]** worden de gegevens ingekapseld die aan teruggestuurde berichten zijn gekoppeld. Deze widgets bieden een uitgebreid overzicht van de verschillende categorieën en de specifieke redenen voor de berichtgrenzen
 
-Voor meer informatie over grenzen, verwijs naar de [ pagina van de Lijst van de Onderdrukking ](../reports/suppression-list.md).
+Voor meer informatie over grenzen, verwijs naar de [ lijst van de Onderdrukking ](../reports/suppression-list.md) pagina.
 
 +++ Meer informatie over de maatstaven van Bounce-rubrieken
 
@@ -312,9 +312,9 @@ De KPI&#39;s van **[!UICONTROL Push notifications - Total sending statistics]** 
 
 * **[!UICONTROL Error Rate]**: percentage fouten dat ervoor zorgde dat deze niet konden worden verzonden, vergeleken met verzonden pushberichten.
 
-* **[!UICONTROL Excluded]**: aantal profielen dat is uitgesloten door Adobe Journey Optimizer.
+* **[!UICONTROL Excluded]**: aantal profielen dat door Adobe Journey Optimizer is uitgesloten.
 
-* **[!UICONTROL Exclude rate]**: percentage profielen dat is uitgesloten door Adobe Journey Optimizer.
+* **[!UICONTROL Exclude rate]**: percentage profielen dat door Adobe Journey Optimizer is uitgesloten.
 
 +++
 
@@ -323,7 +323,7 @@ De KPI&#39;s van **[!UICONTROL Push notifications - Total sending statistics]** 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics"
 >title="Pushmelding - Totaal aantal volgstatistieken"
->abstract="De pushmelding - statistische gegevens over het bijhouden van gegevens verschaffen gegevens over profielactiviteiten voor uw pushberichten."
+>abstract="Het pushbericht - De statistische gegevens voor het bijhouden van gegevens bevatten gegevens over de profielactiviteit voor uw pushberichten."
 
 De **[!UICONTROL Push notification - Total tracking statistics]** -widget biedt een gedetailleerde momentopname van profielactiviteiten die aan uw pushberichten zijn gekoppeld, en biedt essentiële inzichten in de doeltreffendheid van betrokkenheid en pushberichten.
 
@@ -333,9 +333,9 @@ De **[!UICONTROL Push notification - Total tracking statistics]** -widget biedt 
 
 * **[!UICONTROL Open Rate]**: percentage geopende pushberichten.
 
-* **[!UICONTROL Actions]**: Het totale aantal acties op de geleverde pushmelding, bijvoorbeeld klikken op een knop of ontslag.
+* **[!UICONTROL Actions]**: Totaal aantal acties voor de geleverde pushmelding, bijvoorbeeld klikken op de knop of ontslag.
 
-* **[!UICONTROL Action rate]**: percentage acties op de geleverde pushmelding vergeleken met verzonden pushberichten.
+* **[!UICONTROL Action rate]**: percentage acties op de geleverde pushmelding in vergelijking met verzonden pushberichten.
 
 +++
 
@@ -454,11 +454,11 @@ De KPI&#39;s van **[!UICONTROL SMS - Total sending statistics]** fungeren als ee
 
 * **[!UICONTROL Errors]**: het totale aantal fouten dat is opgetreden om te voorkomen dat deze naar profielen werd verzonden.
 
-* **[!UICONTROL Error Rate]**: percentage fouten dat ervoor zorgde dat deze niet konden worden verzonden, vergeleken met verzonden SMS-berichten.
+* **[!UICONTROL Error Rate]**: percentage fouten dat ervoor zorgde dat het niet werd verzonden vergeleken met verzonden SMS-berichten.
 
-* **[!UICONTROL Excluded]**: aantal gebruikersprofielen dat niet is opgenomen in de doelprofielen en dat het bericht niet heeft ontvangen.
+* **[!UICONTROL Excluded]**: Aantal gebruikersprofielen dat is uitgesloten van de doelprofielen en dat het bericht niet heeft ontvangen.
 
-* **[!UICONTROL Exclude rate]**: percentage profielen dat is uitgesloten door Adobe Journey Optimizer.
+* **[!UICONTROL Exclude rate]**: percentage profielen dat door Adobe Journey Optimizer is uitgesloten.
 
 +++
 

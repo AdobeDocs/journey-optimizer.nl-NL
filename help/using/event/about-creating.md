@@ -23,11 +23,11 @@ ht-degree: 9%
 >title="Unitaire gebeurtenissen"
 >abstract="Met de gebeurtenisconfiguratie kunt u de informatie definiëren die Journey Optimizer ontvangt als gebeurtenissen. U kunt meerdere gebeurtenissen gebruiken (in verschillende stappen van een reis) en verschillende reizen kunnen dezelfde gebeurtenis gebruiken. Eenheidsgebeurtenissen zijn gekoppeld aan een specifiek profiel. Zij kunnen op regel-gebaseerd of systeem-geproduceerd zijn."
 
-Eenheidsgebeurtenissen zijn gekoppeld aan een specifiek profiel. Zij kunnen op regel-gebaseerd of systeem-geproduceerd zijn.  Meer informatie over eenheidsgebeurtenissen [deze sectie](../event/about-events.md).
+Eenheidsgebeurtenissen zijn gekoppeld aan een specifiek profiel. Zij kunnen op regel-gebaseerd of systeem-geproduceerd zijn.  Lees meer over unitaire gebeurtenis [ deze sectie ](../event/about-events.md).
 
 Hieronder vindt u de eerste stappen voor het configureren van een nieuwe gebeurtenis:
 
-1. Blader in de sectie van het menu BEHEER naar **[!UICONTROL Configurations]** en in de  **[!UICONTROL Events]** sectie, klikken **[!UICONTROL Manage]**. De lijst met gebeurtenissen wordt weergegeven.
+1. Blader in de menusectie BEHEER naar **[!UICONTROL Configurations]** en klik in de sectie **[!UICONTROL Events]** op **[!UICONTROL Manage]** . De lijst met gebeurtenissen wordt weergegeven.
 
    ![](assets/jo-event1.png)
 
@@ -43,11 +43,11 @@ Hieronder vindt u de eerste stappen voor het configureren van een nieuwe gebeurt
    >
    >Alleen alfanumerieke tekens en onderstrepingstekens zijn toegestaan. De maximumlengte is 30 tekens.
 
-1. In de **[!UICONTROL Type]** veld, kies **Unitair**.
+1. Op het **[!UICONTROL Type]** gebied, kies **Eenheids**.
 
    ![](assets/jo-event3bis.png)
 
-1. In de **[!UICONTROL Event ID type]** in het veld selecteert u het type gebeurtenis-id dat u wilt gebruiken: **Op regel gebaseerd** of **Door systeem gegenereerd**. Meer informatie over id-typen gebeurtenissen in [deze sectie](../event/about-events.md#event-id-type).
+1. Op het **[!UICONTROL Event ID type]** gebied, selecteer het type van gebeurtenisidentiteitskaart u wilt gebruiken: **Gebaseerde Regel** of **Gegenereerd Systeem**. Lees meer op de types van gebeurtenisidentiteitskaart in [ deze sectie ](../event/about-events.md#event-id-type).
 
    ![](assets/jo-event4.png)
 
@@ -59,13 +59,13 @@ Hieronder vindt u de eerste stappen voor het configureren van een nieuwe gebeurt
 
    >[!NOTE]
    >
-   >Wanneer u **[!UICONTROL System Generated]** type, zijn alleen schema&#39;s beschikbaar die het veld eventID-type hebben. Wanneer u **[!UICONTROL Rule Based]** type, zijn alle schema&#39;s voor Experience Event beschikbaar.
+   >Wanneer u het type **[!UICONTROL System Generated]** selecteert, zijn alleen schema&#39;s beschikbaar die het veld voor het type eventID hebben. Wanneer u het type **[!UICONTROL Rule Based]** selecteert, zijn alle schema&#39;s voor Experience Event beschikbaar.
 
-1. Voor op regel-gebaseerde gebeurtenissen, klik binnen **[!UICONTROL Event ID condition]** veld. Gebruikend de eenvoudige of geavanceerde uitdrukkingsredacteur, bepaal de voorwaarde die door het systeem zal worden gebruikt om de gebeurtenissen te identificeren die uw reis zullen teweegbrengen.
+1. Voor op regel-gebaseerde gebeurtenissen, klik binnen het **[!UICONTROL Event ID condition]** gebied. Gebruikend de eenvoudige of geavanceerde uitdrukkingsredacteur, bepaal de voorwaarde die door het systeem zal worden gebruikt om de gebeurtenissen te identificeren die uw reis zullen teweegbrengen.
 
    ![](assets/jo-event6.png)
 
-   In ons voorbeeld schreven we een voorwaarde op basis van de stad van het profiel. Dit betekent dat wanneer het systeem een gebeurtenis ontvangt die overeenkomt met deze voorwaarde (**[!UICONTROL City]** veld en **[!UICONTROL Paris]** waarde), zal het aan reizen doorgeven.
+   In ons voorbeeld schreven we een voorwaarde op basis van de stad van het profiel. Dit betekent dat wanneer het systeem een gebeurtenis ontvangt die overeenkomt met deze voorwaarde (**[!UICONTROL City]** field en **[!UICONTROL Paris]** value), het deze aan reizen zal doorgeven.
 
    >[!NOTE]
    >
@@ -85,9 +85,9 @@ Hieronder vindt u de eerste stappen voor het configureren van een nieuwe gebeurt
 
 ## De laadvelden definiëren {#define-the-payload-fields}
 
-De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de gebeurtenis in uw reis verwacht te ontvangen en de sleutel om te identificeren welke persoon aan de gebeurtenis wordt geassocieerd. De nuttige lading is gebaseerd op de Experience Cloud XDM gebiedsdefinitie. Voor meer informatie over XDM, verwijs naar [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
+De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de gebeurtenis in uw reis verwacht te ontvangen en de sleutel om te identificeren welke persoon aan de gebeurtenis wordt geassocieerd. De nuttige lading is gebaseerd op de Experience Cloud XDM gebiedsdefinitie. Voor meer informatie over XDM, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) {target="_blank"}.
 
-1. Selecteer een XDM-schema in de lijst en klik op de knop **[!UICONTROL Fields]** of op het **[!UICONTROL Edit]** pictogram.
+1. Selecteer een XDM-schema in de lijst en klik op het veld **[!UICONTROL Fields]** of op het pictogram **[!UICONTROL Edit]** .
 
    ![](assets/journey8.png)
 
@@ -95,19 +95,19 @@ De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de ge
 
    >[!NOTE]
    >
-   >Voor systeem-geproduceerde gebeurtenissen, zorg ervoor dat u de &quot;orchestration&quot;gebiedsgroep aan het schema XDM hebt toegevoegd. Dit zal ervoor zorgen dat uw schema alle vereiste informatie bevat om met te werken [!DNL Journey Optimizer].
+   >Voor systeem-geproduceerde gebeurtenissen, zorg ervoor dat u de &quot;orchestration&quot;gebiedsgroep aan het schema XDM hebt toegevoegd. Zo zorgt u ervoor dat het schema alle vereiste gegevens bevat om met [!DNL Journey Optimizer] te werken.
 
    ![](assets/journey9.png)
 
-1. Selecteer de velden die u van de gebeurtenis wilt ontvangen. Dit zijn de gebieden die de bedrijfsgebruiker in de reis zal hefboomwerking hebben. Ze moeten ook de sleutel bevatten die wordt gebruikt om de persoon te identificeren die aan de gebeurtenis is gekoppeld (zie [deze sectie](../event/about-creating.md#define-the-event-key)).
+1. Selecteer de velden die u van de gebeurtenis wilt ontvangen. Dit zijn de gebieden die de bedrijfsgebruiker in de reis zal hefboomwerking hebben. Zij moeten ook de sleutel omvatten die zal worden gebruikt om de persoon te identificeren verbonden aan de gebeurtenis (zie [ deze sectie ](../event/about-creating.md#define-the-event-key)).
 
    >[!NOTE]
    >
-   >Voor door het systeem gegenereerde gebeurtenissen wordt de **[!UICONTROL eventID]** wordt automatisch toegevoegd aan de lijst met geselecteerde velden, zodat [!DNL Journey Optimizer] kan de gebeurtenis identificeren. Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten gebruiken beschikbaar in de voorproef van de lading. Zie [deze sectie](../event/about-creating.md#preview-the-payload).
+   >Voor door het systeem gegenereerde gebeurtenissen wordt het veld **[!UICONTROL eventID]** automatisch toegevoegd aan de lijst met geselecteerde velden, zodat [!DNL Journey Optimizer] de gebeurtenis kan identificeren. Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten gebruiken beschikbaar in de voorproef van de lading. Zie [deze sectie](../event/about-creating.md#preview-the-payload).
 
-1. Als u de gewenste velden hebt geselecteerd, klikt u op **[!UICONTROL Ok]** of drukken **[!UICONTROL Enter]**.
+1. Klik op **[!UICONTROL Ok]** of druk op **[!UICONTROL Enter]** wanneer u klaar bent met het selecteren van de benodigde velden.
 
-   Het aantal geselecteerde velden wordt weergegeven in de **[!UICONTROL Fields]** veld.
+   Het aantal geselecteerde velden wordt weergegeven in het veld **[!UICONTROL Fields]** .
 
    ![](assets/journey12.png)
 
@@ -118,11 +118,11 @@ De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de ge
 >title="Naamruimte van identiteit"
 >abstract="Selecteer de sleutel om het klantenprofiel te identificeren verbonden aan de gebeurtenis."
 
-Met de naamruimte kunt u het type sleutel definiëren waarmee de persoon wordt geïdentificeerd die aan de gebeurtenis is gekoppeld. De configuratie is optioneel. Dit is vereist als u tijdens uw reizen aanvullende informatie wilt opvragen die afkomstig is van de [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}. De naamruimtedefinitie is niet nodig als u alleen gegevens gebruikt die afkomstig zijn van een systeem van derden via een aangepaste gegevensbron.
+Met de naamruimte kunt u het type sleutel definiëren waarmee de persoon wordt geïdentificeerd die aan de gebeurtenis is gekoppeld. De configuratie is optioneel. Het wordt vereist als u, in uw reizen, extra informatie wilt terugwinnen die uit het [ in real time Profiel van de Klant ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl) {target="_blank"} komt. De naamruimtedefinitie is niet nodig als u alleen gegevens gebruikt die afkomstig zijn van een systeem van derden via een aangepaste gegevensbron.
 
-U kunt een van de vooraf gedefinieerde naamruimten gebruiken of een nieuwe naamruimte maken met de service Identiteitsnaamruimte. Zie [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl){target="_blank"}.
+U kunt een van de vooraf gedefinieerde naamruimten gebruiken of een nieuwe naamruimte maken met de service Identiteitsnaamruimte. Verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl) {target="_blank"}.
 
-Als u een schema met een primaire identiteit selecteert, **[!UICONTROL Profiler identifier]** en **[!UICONTROL Namespace]** velden worden vooraf ingevuld. Als er geen identiteit is gedefinieerd, selecteren we _identityMap > id_ als primaire sleutel. Vervolgens moet u een naamruimte selecteren en wordt de sleutel vooraf ingevuld (onder de **[!UICONTROL Namespace]** veld) gebruiken _identityMap > id_.
+Als u een schema met een primaire identiteit selecteert, worden de velden **[!UICONTROL Profiler identifier]** en **[!UICONTROL Namespace]** vooraf ingevuld. Als er geen bepaalde identiteit is, selecteren wij _identityMap > identiteitskaart_ als primaire sleutel. Dan moet u een namespace selecteren en de sleutel (onder het **[!UICONTROL Namespace]** gebied) zal worden vooraf ingevuld gebruikend _identityMap > identiteitskaart_.
 
 Wanneer u velden selecteert, worden primaire identiteitsvelden gecodeerd.
 
@@ -136,15 +136,15 @@ Per reis is slechts één naamruimte toegestaan. Als u meerdere gebeurtenissen g
 
 >[!NOTE]
 >
->U kunt alleen een naamruimte selecteren die is gebaseerd op personen. Als u een naamruimte voor een opzoektabel hebt gedefinieerd (bijvoorbeeld: ProductID-naamruimte voor een productzoekopdracht), is deze niet beschikbaar in het dialoogvenster **Naamruimte** vervolgkeuzelijst.
+>U kunt alleen een naamruimte selecteren die is gebaseerd op personen. Als u een namespace voor een raadplegingslijst (bijvoorbeeld: ProductID namespace voor een raadpleging van het Product) hebt bepaald, zal het niet in **Namespace** dropdown lijst beschikbaar zijn.
 
 ## De profiel-id definiëren {#define-the-event-key}
 
 De sleutel is het veld, of de combinatie van velden, dat deel uitmaakt van de gegevens voor gebeurtenislading en waarmee het systeem de persoon kan identificeren die aan de gebeurtenis is gekoppeld. De sleutel kan, bijvoorbeeld, Experience Cloud identiteitskaart, een identiteitskaart van CRM, of een e-mailadres zijn.
 
-Als u gegevens wilt gebruiken die zijn opgeslagen in de Adobe Real-time Klantprofieldatabase, moet de sleutel van de gebeurtenis de informatie zijn die u als profielidentiteit hebt gedefinieerd in het dialoogvenster [Real-time service voor klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}.
+Om gegevens te gebruiken die in het gegevensbestand van het Profiel van de Klant in real time van de Adobe worden opgeslagen, moet de gebeurtenissleutel de informatie zijn u als identiteit van een profiel in de [ Real-time Dienst van het Profiel van de Klant ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl) {target="_blank"} bepaalde.
 
-Met de profiel-id kan het systeem de afstemming tussen de gebeurtenis en het profiel van de persoon uitvoeren. Als u een schema met een primaire identiteit selecteert, **[!UICONTROL Profile identifier]** en **[!UICONTROL Namespace]** velden worden vooraf ingevuld. Als er geen identiteit is gedefinieerd, wordt _identityMap > id_ is de primaire sleutel. Vervolgens moet u een naamruimte selecteren en wordt de sleutel automatisch vooraf ingevuld met _identityMap > id_.
+Met de profiel-id kan het systeem de afstemming tussen de gebeurtenis en het profiel van de persoon uitvoeren. Als u een schema met een primaire identiteit selecteert, worden de velden **[!UICONTROL Profile identifier]** en **[!UICONTROL Namespace]** vooraf ingevuld. Als er geen bepaalde identiteit is, is _identityMap > identiteitskaart_ de primaire sleutel. Dan moet u een namespace selecteren, en de sleutel is automatisch voorgevuld gebruikend _identityMap > identiteitskaart_.
 
 Wanneer u velden selecteert, worden primaire identiteitsvelden gecodeerd.
 
@@ -152,13 +152,13 @@ Wanneer u velden selecteert, worden primaire identiteitsvelden gecodeerd.
 
 Als u een andere sleutel moet gebruiken, zoals een CRM-id of een e-mailadres, moet u deze handmatig toevoegen, zoals hieronder wordt uitgelegd:
 
-1. Klik in het dialoogvenster **[!UICONTROL Profile identifier]** of op het potloodpictogram.
+1. Klik in het veld **[!UICONTROL Profile identifier]** of op het potloodpictogram.
 
    ![](assets/journey16.png)
 
 1. Selecteer het veld dat u als de sleutel hebt gekozen in de lijst met ladingsvelden.
 
-Wanneer de gebeurtenis wordt ontvangen, laat de waarde van de sleutel het systeem toe om de persoon te identificeren verbonden aan de gebeurtenis. Gekoppeld aan een naamruimte (zie [deze sectie](../event/about-creating.md#select-the-namespace)), kan de sleutel worden gebruikt om vragen op Adobe Experience Platform uit te voeren. Zie [deze pagina](../building-journeys/about-journey-activities.md#orchestration-activities).
+Wanneer de gebeurtenis wordt ontvangen, laat de waarde van de sleutel het systeem toe om de persoon te identificeren verbonden aan de gebeurtenis. Verbonden aan een namespace (zie [ deze sectie ](../event/about-creating.md#select-the-namespace)), kan de sleutel worden gebruikt om vragen op Adobe Experience Platform uit te voeren. Zie [ deze pagina ](../building-journeys/about-journey-activities.md#orchestration-activities).
 De sleutel wordt ook gebruikt om te controleren of een persoon op reis is. Een persoon kan namelijk niet op twee verschillende plaatsen op dezelfde reis zijn. Als gevolg hiervan staat het systeem niet toe dat dezelfde sleutel, bijvoorbeeld de sleutel CRMID=3224, zich op verschillende plaatsen op dezelfde reis bevindt.
 
 ## Geavanceerde expressie-editor {#adv-exp-editor}
@@ -167,7 +167,7 @@ Wanneer u de voorwaarde van de gebeurtenis-id of de profielid definieert, kunt u
 
 ![](assets/journey20.png)
 
-U hebt toegang tot de geavanceerde expressiefuncties vanuit de **[!UICONTROL Advanced mode]** als u aanvullende bewerkingen wilt uitvoeren. Met deze functies kunt u de waarden manipuleren die worden gebruikt voor het uitvoeren van specifieke query&#39;s, zoals het wijzigen van de opmaak, het uitvoeren van veldsamenvoegingen, waarbij alleen rekening wordt gehouden met een deel van een veld (bijvoorbeeld de eerste 10 tekens). Zie deze [pagina](../building-journeys/expression/expressionadvanced.md).
+U hebt via de knop **[!UICONTROL Advanced mode]** toegang tot de geavanceerde expressiefuncties als u aanvullende bewerkingen wilt uitvoeren. Met deze functies kunt u de waarden manipuleren die worden gebruikt voor het uitvoeren van specifieke query&#39;s, zoals het wijzigen van de opmaak, het uitvoeren van veldsamenvoegingen, waarbij alleen rekening wordt gehouden met een deel van een veld (bijvoorbeeld de eerste 10 tekens). Zie deze [pagina](../building-journeys/expression/expressionadvanced.md).
 
 
 ## Een voorvertoning van de lading weergeven {#preview-the-payload}
@@ -178,7 +178,7 @@ Met de voorvertoning van de lading kunt u de definitie van de lading valideren.
 >
 >Wanneer u een gebeurtenis maakt die door het systeem wordt gegenereerd, slaat u de gebeurtenis op voordat u deze weergeeft. Deze stap is nodig om een gebeurtenis-id te genereren in de payload.
 
-1. Klik op de knop **[!UICONTROL View Payload]** pictogram om een voorvertoning weer te geven van de lading die door het systeem wordt verwacht.
+1. Klik op het pictogram **[!UICONTROL View Payload]** om een voorvertoning weer te geven van de lading die door het systeem wordt verwacht.
 
    ![](assets/journey13.png)
 
@@ -188,4 +188,4 @@ Met de voorvertoning van de lading kunt u de definitie van de lading valideren.
 
 1. Controleer de voorvertoning om de definitie van de payload te valideren.
 
-1. Vervolgens kunt u de voorvertoning van de lading delen met de persoon die verantwoordelijk is voor het verzenden van de gebeurtenis. Deze nuttige lading kan hen helpen de opstelling ontwerpen van een gebeurtenis die duikt aan [!DNL Journey Optimizer]. Zie [deze pagina](../event/additional-steps-to-send-events-to-journey.md).
+1. Vervolgens kunt u de voorvertoning van de lading delen met de persoon die verantwoordelijk is voor het verzenden van de gebeurtenis. Deze lading kan hen helpen de opstelling van een gebeurtenis ontwerpen die aan [!DNL Journey Optimizer] duwt. Zie [deze pagina](../event/additional-steps-to-send-events-to-journey.md).
