@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 83c8417d4aee278eba33e4adf6ccd033bcc6be1a
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
@@ -75,7 +75,7 @@ Wanneer moet u het op code gebaseerde kanaal gebruiken in plaats van de andere [
 
 * U kunt het gebruiken van code-gebaseerde ervaringen overwegen wanneer uw digitaal bezit niet door Webbrowser of een mobiele app - gevallen wordt betreden waarin u waarschijnlijk beter het [!DNL Journey Optimizer] [ Webkanaal ](../web/get-started-web.md){target="_blank"} of [!DNL Journey Optimizer] [ in-app overseinen ](../in-app/get-started-in-app.md){target="_blank"} kanaal kunt gebruiken.
 
-* U kunt het op code-gebaseerde kanaal als alternatief voor het [!DNL Journey Optimizer] Webkanaal gebruiken als uw website niet in de [ 2} visuele redacteur van de Webontwerper kan worden geladen {of als u niet de [ browser uitbreiding ](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} kunt gebruiken die visuele auteurskracht voor Webkanaal.](../web/edit-web-content.md#work-with-web-designer){target="_blank"}
+* U kunt het op code-gebaseerde kanaal als alternatief voor het [!DNL Journey Optimizer] Webkanaal gebruiken als uw website niet in de [ 2} visuele redacteur van de Webontwerper kan worden geladen {of als u niet de [ browser uitbreiding ](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} kunt gebruiken die visuele auteurskracht voor Webkanaal.](../web/web-visual-editor.md){target="_blank"}
 
 * U kunt het op code gebaseerde kanaal ook gebruiken als alternatief voor het [!DNL Journey Optimizer] web of in-app kanalen voor het geval u een API-gebaseerde, headless of server-side implementatie hebt.
 
@@ -85,9 +85,9 @@ Als u zaken voor webgebruik wilt uitvoeren, kunt u het webkanaal of de ervaring 
 
 **Web**
 
-* Bewerk uw inhoud gebruikend de ](../web/edit-web-content.md#work-with-web-designer){target="_blank"} visuele redacteur van de 0} Webontwerper {.[
+* Bewerk uw inhoud gebruikend de ](../web/web-visual-editor.md){target="_blank"} visuele redacteur van de 0} Webontwerper {.[
 * U hebt de ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html) {target="_blank"} implementatie van SDK van het Web van Adobe Experience Platform 0} {en de [ Visuele het Uitgeven Helper van Adobe Experience Cloud ](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca) {target="_blank"} uitbreiding nodig die op uw Webbrowser wordt geïnstalleerd. [ [Meer informatie](../web/web-prerequisites.md){target="_blank"}
-* Met het webkanaal kunt u alles op de pagina wijzigen en hebt u een vooraf gedefinieerde lijst met handelingen die u kunt gebruiken om wijzigingen aan te brengen. [Meer informatie](../web/edit-web-content.md#work-with-web-designer){target="_blank"}
+* Met het webkanaal kunt u alles op de pagina wijzigen en hebt u een vooraf gedefinieerde lijst met handelingen die u kunt gebruiken om wijzigingen aan te brengen. [Meer informatie](../web/web-visual-editor.md){target="_blank"}
 * Het is eenvoudig om in te stellen en snel te gaan.
 * Het is gericht op marketer-persona.
 

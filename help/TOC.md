@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b6705059782a872939fa51fd51d335b1386a3e91
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
-source-wordcount: '2152'
+source-wordcount: '2157'
 ht-degree: 25%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 25%
    + [Wat is Journey Optimizer](using/start/get-started.md)
    + Hulplijnen voor snel starten {#quick-start}
       + [Overzicht](using/start/quick-start.md)
-      + [Aan de slag als een marketeter](using/start/path/marketer.md)
+      + [Aan de slag als marketeer](using/start/path/marketer.md)
       + [Aan de slag als Data engineer](using/start/path/data-engineer.md)
       + [Aan de slag als beheerder](using/start/path/administrator.md)
       + [Aan de slag als ontwikkelaar](using/start/path/developer.md)
@@ -66,7 +66,7 @@ ht-degree: 25%
       + [Voorwaarde](using/building-journeys/condition-activity.md)
       + [Wachten](using/building-journeys/wait-activity.md)
       + [Doelgroep lezen](using/building-journeys/read-audience.md)
-      + [Ingebouwde kanaalhandelingen](using/building-journeys/journeys-message.md)
+      + [Ingebouwde kanaalacties](using/building-journeys/journeys-message.md)
       + [Aangepaste acties](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard-acties](using/building-journeys/using-adobe-campaign-standard.md)
       + [Handelingen voor Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-v7-v8.md)
@@ -162,13 +162,13 @@ ht-degree: 25%
    + Gebruiksscenario’s {#journey-use-cases}
       + Kwesties voor zakelijk gebruik {#business-use-cases}
          + [Multikanaalberichten verzenden](using/building-journeys/journeys-uc.md)
-         + [Een bericht verzenden met Campagne v7/v8](using/building-journeys/ajo-ac.md)
-         + [Een bericht verzenden naar abonnees](using/building-journeys/message-to-subscribers-uc.md)
-      + Kwesties voor technisch gebruik {#technical-use-cases}
+         + [Een bericht verzenden met Campaign v7/v8](using/building-journeys/ajo-ac.md)
+         + [Een bericht naar abonnees sturen](using/building-journeys/message-to-subscribers-uc.md)
+      + Praktijken voor technisch gebruik {#technical-use-cases}
          + [Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen](using/building-journeys/collections.md)
          + [Leveringen opwaarderen](using/building-journeys/ramp-up-deliveries-uc.md)
          + [Productie beperken met externe gegevensbronnen en aangepaste handelingen](using/building-journeys/limit-throughput.md)
-         + [Aangepaste handelingen gebruiken om gebeurtenissen Journey in Experience Platform te schrijven](using/building-journeys/custom-action-aep.md)
+         + [Aangepaste acties gebruiken om trajectgebeurtenissen in Experience Platform te schrijven](using/building-journeys/custom-action-aep.md)
 + Campagnes {#campaigns}
    + [Aan de slag met campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Een campagne maken](using/campaigns/create-campaign.md)
@@ -178,7 +178,7 @@ ht-degree: 25%
 + Testen en goedkeuren {#test}
    + [Conflictbeheer en prioritering](using/test-approve/conflict-prioritization.md)
    + Conflictbeheer en prioritering {#conflict-prioritization}
-      + [Aan de slag met conflictbeheer en -prioriteiten](using/test-approve/gs-conflict-prioritization.md)
+      + [Aan de slag met conflictbeheer en prioritering](using/test-approve/gs-conflict-prioritization.md)
       + [Mogelijke conflicten identificeren](using/test-approve/conflicts.md)
       + [Prioriteitsscores toewijzen](using/test-approve/priority-scores.md)
       + [Afbakening van reizen en arbitrage](using/test-approve/journey-capping.md)
@@ -186,7 +186,7 @@ ht-degree: 25%
       + [Inhoud testen met behulp van voorbeeldinvoergegevens](using/test-approve/simulate-sample-input.md)
       + [Aan de slag met voorvertoning en testen](using/content-management/preview-test.md)
       + [Testprofielen selecteren](using/content-management/test-profiles.md)
-      + [Voorbeeld van uw inhoud bekijken](using/content-management/preview.md)
+      + [Een voorvertoning van uw inhoud weergeven](using/content-management/preview.md)
       + [E-mailproefdrukken verzenden](using/content-management/proofs.md)
       + [E-mailrendering testen](using/content-management/rendering.md)
       + [E-mailspamrapport](using/content-management/spam-report.md)
@@ -207,11 +207,11 @@ ht-degree: 25%
             + [Uw inhoud importeren](using/email/existing-content.md)
             + [Uw eigen inhoud coderen](using/email/code-content.md)
             + [E-mailsjablonen gebruiken](using/email/use-email-templates.md)
-         + Inhoud ontwerpen {#add-content}
+         + Uw inhoud ontwerpen {#add-content}
             + [Inhoudscomponenten gebruiken](using/email/content-components.md)
             + [Gebruik visuele fragmenten](using/email/use-visual-fragments.md)
             + [Koppelingen toevoegen en berichten bijhouden](using/email/message-tracking.md)
-            + [Aangepaste aanbiedingen invoegen](using/email/add-offers-email.md)
+            + [Persoonlijke aanbiedingen invoegen](using/email/add-offers-email.md)
             + [De tekstversie genereren](using/email/text-version-email.md)
             + [Een preheader toevoegen](using/email/preheader.md)
          + Stijl bewerken {#edit-style}
@@ -225,7 +225,7 @@ ht-degree: 25%
          + [Aan de slag met e-mailconfiguratie](using/email/get-started-email-config.md)
          + [Instellingen voor e-mailconfiguratie configureren](using/email/email-settings.md)
          + [E-mailconfiguratie aanpassen](using/email/surface-personalization.md)
-   + In-app kanaal {#in-app}
+   + Kanaal in de app {#in-app}
       + [Aan de slag met In-app-kanaal](using/in-app/get-started-in-app.md)
       + [Voorwaarden voor kanalen in de app](using/in-app/inapp-configuration.md)
       + [Een mobiel bericht in de app maken](using/in-app/create-in-app.md)
@@ -247,7 +247,7 @@ ht-degree: 25%
       + [De tekstberichten controleren en verzenden](using/sms/send-sms.md)
       + [ beheer de opt-out van het tekstbericht ](using/sms/sms-opt-out.md)
       + [SMS-subdomeinen instellen](using/sms/sms-subdomains.md)
-      + SMS/MMS-kanaal configureren {#configure-sms}
+      + SMS-/MMS-kanaal configureren {#configure-sms}
          + [Ga aan de slag met de configuratie van SMS](using/sms/sms-configuration.md)
          + [Sinch-provider configureren](using/sms/sms-configuration-sinch.md)
          + [Infobip-provider configureren](using/sms/sms-configuration-infobip.md)
@@ -267,7 +267,8 @@ ht-degree: 25%
          + [Webkanaalconfiguratie maken](using/web/web-configuration.md)
       + [Webervaringen maken](using/web/create-web.md)
       + Webpagina&#39;s van auteurs {#author-web-pages}
-         + [Webpagina-inhoud bewerken](using/web/edit-web-content.md)
+         + [Werken met de webontwerper](using/web/web-visual-editor.md)
+         + [De niet-visuele editor gebruiken](using/web/web-non-visual-editor.md)
          + [Wijzigingen beheren](using/web/manage-web-modifications.md)
          + [Uw webervaringen bewaken](using/web/monitor-web-experiences.md)
          + [Toepassingen van één pagina maken](using/web/web-spa.md)
@@ -281,7 +282,7 @@ ht-degree: 25%
       + [Aan de slag met inhoudskaarten](using/content-card/get-started-content-card.md)
       + Kanaal voor inhoudskaart configureren {#configure}
          + [Voorwaarden voor inhoudskaarten](using/content-card/content-card-configuration-prereq.md)
-         + [Het kanaal voor inhoudskaarten in Journey Optimizer configureren](using/content-card/content-card-configuration.md)
+         + [Contentkaartkanaal configureren in Journey Optimizer](using/content-card/content-card-configuration.md)
          + [Ondersteuning voor inhoudskaarten configureren in Web SDK](using/content-card/content-card-configuration-sdk.md)
       + [Inhoudskaarten maken](using/content-card/create-content-card.md)
       + [Inhoudskaarten ontwerpen](using/content-card/design-content-card.md)
@@ -296,8 +297,8 @@ ht-degree: 25%
    + [Een lidmaatschapslijst maken](using/landing-pages/subscription-list.md)
    + [Gebruikskwesties leren](using/landing-pages/lp-use-cases.md)
    + Landingspagina&#39;s configureren {#lp-configuration}
-      + [Subdomeinen van bestemmingspagina configureren](using/landing-pages/lp-subdomains.md)
-      + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
+      + [Subdomeinen van landingspagina configureren](using/landing-pages/lp-subdomains.md)
+      + [Voorinstellingen voor openingspagina&#39;s definiëren](using/landing-pages/lp-presets.md)
 + Inhoudsbeheer {#content-management}
    + Werken met de AI-assistent {#ai-assistant}
       + [Aan de slag met de AI Assistant Content Accelerator](using/content-management/gs-generative.md)
@@ -305,8 +306,8 @@ ht-degree: 25%
       + [Push generation met AI](using/content-management/generative-push.md)
       + [SMS genereren met AI](using/content-management/generative-sms.md)
       + [Web genereren met AI](using/content-management/generative-web.md)
-      + [Experimenteer met inhoud met AI](using/content-management/generative-experimentation.md)
-      + [ AI Hulp gebruikt gevallen ](using/content-management/generative-uc.md)
+      + [Content experimenteren met AI](using/content-management/generative-experimentation.md)
+      + [ AI Medewerker gebruiksgevallen ](using/content-management/generative-uc.md)
    + Werken met meertalige inhoud {#content-multilingual}
       + [Aan de slag met meertalige inhoud](using/content-management/multilingual-gs.md)
       + [Meertalige inhoud maken met handmatige vertaling](using/content-management/multilingual-manual.md)
@@ -317,7 +318,7 @@ ht-degree: 25%
       + Technische opmerkingen {#technotes}
          + [Statistische berekeningen begrijpen](using/content-management/experiment-calculations.md)
          + [Statistische berekeningen in het Experimentenrapport begrijpen](using/content-management/experiment-report-calculations.md)
-   + Assets/Images {#assets-images}
+   + Middelen/afbeeldingen {#assets-images}
       + [Werken met Experience Manager Assets](using/content-management/assets.md)
       + [Werken met Adobe Stock](using/content-management/stock.md)
    + Personalisatie {#personalization}
@@ -343,8 +344,8 @@ ht-degree: 25%
          + [Objectfuncties](using/personalization/functions/objects.md)
          + [ functies van het Koord ](using/personalization/functions/string.md)
       + Personalization-gebruiksgevallen {#personalization-use-cases}
-         + [Statusmelding van bestelling](using/personalization/personalization-use-case.md)
-         + [E-mailadres voor afmelden van winkelwagentje](using/personalization/personalization-use-case-helper-functions.md)
+         + [Statusmelding bestellen](using/personalization/personalization-use-case.md)
+         + [E-mail bij verlaten van winkelwagentje](using/personalization/personalization-use-case-helper-functions.md)
          + [E-mail met voorschriften voor het gezondheidsplan](using/personalization/perso-uc-plan-prescriptions.md)
    + Inhoudssjablonen {#content-templates}
       + [Aan de slag met inhoudssjablonen](using/content-management/content-templates.md)
@@ -404,7 +405,7 @@ ht-degree: 25%
          + [Rapport voor SMS-campagne](using/reports/campaign-global-report-cja-sms.md)
          + [Rapport webcampagne](using/reports/campaign-global-report-cja-web.md)
       + Reisrapporten {#reporting}
-         + [Reisrapport](using/reports/journey-global-report-cja.md)
+         + [Journalisrapport](using/reports/journey-global-report-cja.md)
          + [Op code gebaseerd reisrapport](using/reports/journey-global-report-cja-code.md)
          + [Reisrapport voor inhoudskaart](using/reports/journey-global-report-cja-content.md)
          + [Directe-mailreisrapport](using/reports/journey-global-report-cja-direct.md)
@@ -452,7 +453,7 @@ ht-degree: 25%
          + [Gebruikersinterface](using/offers/get-started/user-interface.md)
          + [Belangrijke stappen voor het maken en beheren van aanbiedingen](using/offers/offer-library/key-steps.md)
          + [Aangepast uploadpubliek gebruiken voor beslissingen](using/offers/custom-upload-decisioning.md)
-         + [Kwestie gebruiken: aanbiedingen invoegen in een e-mail](using/offers/offers-e2e.md)
+         + [Gebruiksscenario: aanbiedingen invoegen in een e-mail](using/offers/offers-e2e.md)
       + Componenten maken {#create-components}
          + [Plaatsingen maken](using/offers/offer-library/creating-placements.md)
          + [Beslissingsregels maken](using/offers/offer-library/creating-decision-rules.md)
@@ -623,7 +624,7 @@ ht-degree: 25%
    + [Werken met schema&#39;s](using/data/get-started-schemas.md)
    + Journey Optimizer-gegevenssets {#datasets}
       + [Aan de slag met gegevenssets](using/data/get-started-datasets.md)
-      + [Tijd-aan-leven en het stromen segmentatie updates](using/data/datasets-ttl.md)
+      + [Time-to-live en streaming segmentatie-updates](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
       + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
@@ -631,8 +632,8 @@ ht-degree: 25%
 + Configuratie {#configuration}
    + [Aan de slag met de Journey Optimizer-configuratie](using/configuration/get-started-configuration.md)
    + [Kanaalconfiguraties instellen](using/configuration/channel-surfaces.md)
-   + Kanaalinstellingen met instructies {#guided-setup}
-      + [Aan de slag met de instelling van het kanaal met instructies](using/configuration/set-mobile-config.md)
+   + Kanaalinstelling met instructies {#guided-setup}
+      + [Aan de slag met de instelling van het kanaal Met instructies](using/configuration/set-mobile-config.md)
       + [Een kanaalinstelling maken](using/configuration/create-channel-set-up.md)
    + E-mailsubdomeinen delegeren {#delegate-subdomains}
       + [Aan de slag met subdomeindelegatie](using/configuration/about-subdomain-delegation.md)
@@ -659,13 +660,13 @@ ht-degree: 25%
    + Journey&#39;s configureren {#configure-journeys}
       + [Informatie over gegevensbronnen, gebeurtenissen en handelingen](using/configuration/about-data-sources-events-actions.md)
       + Integreren met externe systemen {#external-systems}
-         + [Reisintegratie met externe systemen](using/configuration/external-systems.md)
+         + [Trajectintegratie met externe systemen](using/configuration/external-systems.md)
          + [Afkappings-API](using/configuration/capping.md)
          + [API voor beperken](using/configuration/throttling.md)
       + Configuratie van gebeurtenissen {#events-journeys}
          + [Werken met reisgebeurtenissen](using/event/about-events.md)
          + Een eenheidsgebeurtenis configureren {#unitary-events}
-            + [Aan de slag met eenheidsgebeurtenissen](using/event/about-creating.md)
+            + [Aan de slag met eenheidgebeurtenissen](using/event/about-creating.md)
             + [ExperienceEvent-schema’s](using/event/experience-event-schema.md)
             + [Werken met Adobe Analytics](using/event/about-analytics.md)
          + [Een bedrijfsgebeurtenis configureren](using/event/about-creating-business.md)

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,9 @@ Via een intuïtieve visuele interface kunt u met deze functie eenvoudig uw wegei
 
 ![](../rn/assets/do-not-localize/web-authoring.gif)
 
-
 Als u al uitgaande kanalen gebruikt, zoals e-mail, SMS of pushberichten, kunt u nu het binnenkomende webkanaal gebruiken om een echt gepersonaliseerde ervaring te bieden die zich over alle kanalen uitstrekt.
 
-Zodra u een campagne creeerde, selecteer **Web** als uw actie en bepaal basismontages. Voor meer informatie over hoe te om uw campagne te vormen, verwijs naar deze [ pagina ](../campaigns/create-campaign.md#configure).
+Zodra u een reis of een campagne creeerde, selecteer **Web** als uw actie en bepaal basismontages. Voor meer informatie over hoe te om uw reis/campagne te vormen, verwijs naar deze [ pagina ](create-web.md#create-web-experience).
 
 >[!NOTE]
 >
@@ -50,11 +49,11 @@ Ontdek de gedetailleerde stappen om een Webcampagne in [ tot stand te brengen de
 </div>
 <p></td>
 <td>
-<a href="edit-web-content.md">
+<a href="web-visual-editor.md">
 <img alt="Validatie" src="../assets/do-not-localize/web-design.jpg">
 </a>
 <div>
-<a href="edit-web-content.md"><strong> Web-pagina's van de Auteur </strong></a>
+<a href="web-visual-editor.md"><strong> Web-pagina's van de Auteur </strong></a>
 </div>
 <p>
 </td>

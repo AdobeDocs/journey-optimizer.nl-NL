@@ -1,19 +1,19 @@
 ---
-title: Uw webcampagnes volgen
-description: Leer hoe u uw webcampagnes in Journey Optimizer kunt volgen
+title: Uw webervaringen bewaken
+description: Leer hoe u uw webervaringen in Journey Optimizer kunt volgen
 feature: Web Channel, Reporting
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
 
 ---
 
-# Uw webcampagnes volgen {#monitor-web-experiences}
+# Uw webervaringen bewaken {#monitor-web-experiences}
 
 ## Webrapporten controleren {#check-web-reports}
 
@@ -23,7 +23,7 @@ Zodra uw Webervaring levend is, kunt u het **[!UICONTROL Web]** lusje van het [ 
 
 Als u de webervaringscontrole verder wilt verbeteren, kunt u ook de klikken op een specifiek element van uw website bijhouden. Hierdoor kunt u het aantal klikken op dat element weergeven in de webrapporten. [ leer hoe ](#use-click-tracing)
 
-## Klikspatiëring gebruiken {#use-click-tracing}
+## Klikspatiëring gebruiken {#use-click-tracking}
 
 Met de webontwerper kunt u elk element van uw website selecteren en de muisklikken op dat element bijhouden.
 
