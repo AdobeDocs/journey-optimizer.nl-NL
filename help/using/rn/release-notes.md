@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 96ae7baf50f262aac86f86ecb04cc98b57968c28
+source-git-commit: ab6289ff4b1a9302adb94d9cdf150210eece3a27
 workflow-type: tm+mt
 source-wordcount: '1910'
 ht-degree: 6%
@@ -98,7 +98,10 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven:
 <li><b> Arbitrage van de Reis </b>: Dit nieuwe vermogen laat u toe om aan de belangrijkste reizen voor uw klanten voorrang te geven. U kunt een regel tot stand brengen om ingang in een lagere prioritaire reis te onderdrukken wanneer een klant voor een aanstaande reis van hogere prioriteit kwalificeert.</li>
 <li><b> het in kaart brengen van de Frequentie door communicatie type: </b> met regelreeksen, kunt u korrelige regels door communicatietype (b.v., Verkoop, Bevordering) nu plaatsen om het overbelasten van klanten met gelijkaardige berichten te verhinderen. U kunt de frequentie in meerdere kanalen bepalen, waarbij al te gevraagde profielen automatisch worden uitgesloten voor een betere ervaring met klanten.</li></ul>
 
+<img src="assets/do-not-localize/gif-conflict.gif">
+
 <p>Conflict- en prioriteitsbeheermogelijkheden zijn beschikbaar in Beperkte beschikbaarheid voor een geselecteerde groep klanten. Houd er rekening mee dat deze functies in de toekomst geleidelijk aan voor meer gebruikers beschikbaar zullen zijn. Neem contact op met uw accountteam als u interesse hebt in het toevoegen van deze functies aan de wachtlijst.</p>
+
 </td>
 </tr>
 </tbody>
