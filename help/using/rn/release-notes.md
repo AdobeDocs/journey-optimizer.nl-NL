@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 850aacd1873a63b6ff2010f097655244b9dea027
+source-git-commit: 4de613f38865a3b4f177ce809e1e051f9211e86e
 workflow-type: tm+mt
 source-wordcount: '1911'
 ht-degree: 6%
@@ -280,7 +280,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Sms-kanaal**
 
-* U kunt nu een SMS API-kanaalconfiguratie bewerken of verwijderen.
+* U kunt nu een SMS API-kanaalconfiguratie bewerken of verwijderen. [Meer informatie](../sms/sms-configuration.md)
 
 * De volgende verhogingen zijn geïntroduceerd om uw het overseinenmogelijkheden van SMS met Infobip en Sinch te verbeteren:
 
@@ -317,7 +317,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Meldend**
 
-* **Ervaring die** meldt is nu beschikbaar, die essentiële inzichten aanbieden in hoe uw bezoekers met uw ervaringen in wisselwerking staan. [Meer informatie](../reports/campaign-global-report-cja-code.md#decisioning-kpis)
+* **Beslissing die** meldt is nu beschikbaar, die essentiële inzichten aanbieden in hoe uw bezoekers met uw ervaringen in wisselwerking staan. [Meer informatie](../reports/campaign-global-report-cja-code.md#decisioning-kpis)
 
 **het bestuur van Gegevens &amp; het beleid van de Toestemming** - de datum van Beschikbaarheid: 7 okt, 2024
 
@@ -347,4 +347,4 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 <!--* [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) users can now choose custom models to optimize on when setting up an AI model in Decisioning (formerly known as Experience Decisioning). This allows you, for example, to optimize on a custom "purchases" table rather than defined constraints such as clickthrough rate."-->
 
-* Wanneer u een beslissingsbeleid toevoegt aan een op code gebaseerde campagne met Experience Decisioning, kunt u nu handmatig losse beslissingsitems selecteren, naast selectiestrategieën. Bovendien kunt u nu meerdere fallback-voorstellen selecteren. Dit garandeert dat er een aantal teruggestuurde besluiten zijn. [Meer informatie](../experience-decisioning/create-decision.md)
+* Wanneer het toevoegen van een besluitvormingsbeleid aan een code-gebaseerde campagne met Beslissing, kunt u één enkele besluitvormingspunten, naast selectiestrategieën nu manueel selecteren. Bovendien kunt u nu meerdere fallback-voorstellen selecteren. Dit garandeert dat er een aantal teruggestuurde besluiten zijn. [Meer informatie](../experience-decisioning/create-decision.md)
