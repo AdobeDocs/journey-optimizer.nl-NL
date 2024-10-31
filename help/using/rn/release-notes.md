@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ab6289ff4b1a9302adb94d9cdf150210eece3a27
+source-git-commit: 850aacd1873a63b6ff2010f097655244b9dea027
 workflow-type: tm+mt
-source-wordcount: '1910'
+source-wordcount: '1911'
 ht-degree: 6%
 
 ---
@@ -236,6 +236,8 @@ Eerder beschikbaar voor een reeks organisaties (LA), zijn de volgende mogelijkhe
 </tbody>
 </table>
 
+<!--The following capabilities are available to all customers in public beta:-->
+
 <table>
 <thead>
 <tr>
@@ -245,15 +247,15 @@ Eerder beschikbaar voor een reeks organisaties (LA), zijn de volgende mogelijkhe
 <tbody>
 <tr>
 <td>
-<p>Met Reis optimizer kunt u nu verschillende varianten van uw inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die zijn geüpload uit een bestand of handmatig zijn toegevoegd. Alle profielkenmerken die in de inhoud worden gebruikt voor personalisatie worden automatisch gedetecteerd door het systeem en kunnen worden gebruikt voor uw tests om meerdere varianten te maken.</p>
+<p>Met Reisoptimalisator kunt u nu verschillende varianten van uw inhoud testen door deze voor te vertonen en e-mailproefdrukken te verzenden met voorbeeldinvoergegevens die zijn geüpload uit een bestand of handmatig zijn toegevoegd. Alle profielkenmerken die in de inhoud worden gebruikt voor personalisatie worden automatisch gedetecteerd door het systeem en kunnen worden gebruikt voor uw tests om meerdere varianten te maken.</p>
 <p>Deze mogelijkheid is momenteel beschikbaar voor alle klanten als een openbare bètaversie, voor de communicatiekanalen E-mail, SMS en Push.</p>
 <p>Raadpleeg de <a href="../test-approve/simulate-sample-input.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<img src="assets/do-not-localize/gif-simulate.gif">
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--The following capabilities are available to all customers in public beta:
 
 <!--<table>
 <thead>
