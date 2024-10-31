@@ -1,73 +1,95 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Inhoud testen met behulp van voorbeeldinvoergegevens
-description: Leer hoe u een voorbeeld van e-mailinhoud bekijkt en proefdrukken verzendt met behulp van voorbeeldinvoergegevens.
+title: Inhoud testen met behulp van voorbeeldinvoergegevens (Beta)
+description: Leer hoe u een voorbeeld van inhoud bekijkt en proefdrukken per e-mail verzendt met behulp van voorbeeldinvoergegevens.
 feature: Overview, Get Started
 topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta"
-hide: true
-hidefromtoc: true
-source-git-commit: 100c9ca994199a3b90650ebfbabbf0b7ac8726c2
+source-git-commit: 53efa1af8089b7cec9c94f4a17295a544c3ab4d1
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
 
 
-# Inhoud testen met behulp van voorbeeldinvoergegevens {#custom-profiles}
+# Inhoud testen met behulp van voorbeeldinvoergegevens (Beta) {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="Simuleren met behulp van voorbeeldinvoer"
->abstract="In dit scherm kunt u verschillende varianten van uw e-mailinhoud testen door waarden op te geven voor verpersoonlijkingsvelden via een CSV-sjabloon (download CSV) of door de waarden handmatig in te voeren."
+>abstract="In dit scherm kunt u verschillende varianten van uw inhoud testen door waarden voor verpersoonlijkingsgebieden door een malplaatje CSV of JSON te verstrekken, of door de waarden manueel in te gaan."
 
 >[!AVAILABILITY]
 >
->Deze functies zijn momenteel alleen beschikbaar als bètaversie voor geselecteerde gebruikers.
+>Deze functies zijn momenteel beschikbaar voor alle klanten als een openbare bètaversie.
 
-Met Reisoptimalisator kunt u verschillende varianten van uw e-mailinhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die zijn geüpload uit een CSV-bestand of handmatig zijn toegevoegd. Alle profielkenmerken die in de inhoud worden gebruikt voor personalisatie worden automatisch gedetecteerd door het systeem en kunnen worden gebruikt voor uw tests om meerdere varianten te maken.
+Met Reis optimizer kunt u verschillende varianten van uw inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die zijn geüpload uit een bestand of handmatig zijn toegevoegd. Alle profielkenmerken die in de inhoud worden gebruikt voor personalisatie worden automatisch gedetecteerd door het systeem en kunnen worden gebruikt voor uw tests om meerdere varianten te maken.
 
-Klik op de knop **[!UICONTROL Simulate content]** en kies **[!UICONTROL Simulate with CSV(Beta)]** voor toegang tot deze ervaring.
+>[!NOTE]
+>
+>Vooralsnog zijn wijzigingen in de inhoud alleen beschikbaar voor de kanalen voor e-mail-, sms- en pushmeldingen.
+
+Klik op de knop **[!UICONTROL Simulate content]** en kies **[!UICONTROL Simulate content variations (Beta)]** voor toegang tot deze ervaring.
 
 ![](assets/simulate-sample.png)
 
 De belangrijkste stappen om uw inhoud te testen zijn als volgt:
 
-1. Voeg maximaal 30 varianten toe met voorbeeldinvoergegevens door een CSV-bestand te uploaden of door gegevens handmatig toe te voegen. [ Leer hoe te om variabelen toe te voegen ](#profiles)
+1. Voeg maximaal 30 varianten toe met voorbeeldinvoergegevens door een bestand te uploaden of door handmatig gegevens toe te voegen. [ Leer hoe te om variabelen toe te voegen ](#profiles)
 1. Controleer de voorvertoning van de inhoud met de verschillende varianten. [ Leer hoe te om uw inhoud ](#preview) voor te vertonen
-1. U kunt maximaal 10 proefdrukken naar e-mailadressen verzenden met de verschillende varianten. [ Leer hoe te om proefdrukken ](#proofs) te verzenden
+1. Voor e-mailinhoud verzendt u maximaal 10 proefdrukken naar e-mailadressen met de verschillende varianten. [ Leer hoe te om proefdrukken ](#proofs) te verzenden
 
 
 ## Afbeeldingen en beperkingen {#limitations}
 
 Overweeg de volgende instructies en voorwaarden voordat u begint met het testen van de inhoud met behulp van voorbeeldinvoergegevens.
 
-* Het testen met behulp van voorbeeldinvoergegevens is nu alleen beschikbaar voor het e-mailkanaal. U hebt geen toegang tot deze ervaring via de knop Inhoud simuleren in de Designer-e-mail.
+* Vanaf nu is het testen met behulp van voorbeeldinvoergegevens alleen beschikbaar voor de communicatiekanalen E-mail, SMS en Push. U hebt geen toegang tot deze ervaring via de knop Inhoud simuleren in de Designer-e-mail.
 * De volgende functies zijn niet beschikbaar in de huidige ervaring: Inbox rendering, spamrapporten, meertalige content en content experiment. Als u deze functies wilt gebruiken, selecteert u de knop **[!UICONTROL Simulate content]** in de inhoud om toegang te krijgen tot de vorige gebruikersinterface.
 * Momenteel worden alleen profielkenmerken ondersteund. Als contextafhankelijke kenmerken in uw inhoud worden gebruikt voor personalisatie, kunt u de inhoud niet testen met deze kenmerken.
 * Alleen de volgende gegevenstypen worden ondersteund bij het invoeren van gegevens voor de varianten: getal (geheel getal en decimaal), tekenreeks, boolean en datumtype. Voor elk ander gegevenstype wordt een fout weergegeven.
 
 ## Varianten toevoegen {#profiles}
 
-U kunt maximaal 30 varianten toevoegen om de inhoud te testen met behulp van een CSV-bestand of handmatig:
-
-* Als u voorbeeldinvoergegevens uit een CSV-bestand wilt uploaden, klikt u op de koppeling **[!UICONTROL download CSV]** om een CSV-bestandssjabloon op te halen. Deze sjablonen bevatten een kolom voor elk profielkenmerk dat in uw inhoud wordt gebruikt voor personalisatie.
-
-  Vul het CSV-bestand in en klik op **[!UICONTROL Upload Input data]** om het te laden om de inhoud te testen.
-
-* Als u handmatig een variant wilt toevoegen, klikt u op de knop **[!UICONTROL Create sample input]** en vult u de gegevens van de voorbeeldinvoer voor de variant in. Er wordt één veld weergegeven voor elk profielkenmerk dat in uw inhoud wordt gebruikt voor personalisatie.
-
-  ![](assets/simulate-custom-add.png)
-
-Nadat de profielen zijn geselecteerd, wordt aan de linkerkant van het scherm één vak weergegeven voor elke variant. U kunt deze profielen gebruiken om een voorvertoning van uw inhoud weer te geven en proefdrukken te verzenden.
+U kunt maximaal 30 varianten toevoegen om de inhoud te testen met behulp van een bestand of handmatig.
 
 >[!NOTE]
 >
->De toegevoegde varianten dienen alleen als testdoeleinden voor de huidige inhoud. De bestanden worden niet opgeslagen in Adobe Experience Platform, maar in uw gebruikersbrowsersessie. Dit houdt in dat ze niet worden weergegeven wanneer ze worden afgemeld of dat ze vanaf een ander apparaat worden gebruikt.
+>De toegevoegde varianten dienen alleen als testdoeleinden voor de huidige inhoud. De tags worden niet opgeslagen in Adobe Experience Platform, maar in uw gebruikersbrowsersessie. Dit houdt in dat ze niet worden weergegeven wanneer ze worden afgemeld of wanneer er vanaf een ander apparaat wordt gewerkt.
+
+### Variant toevoegen met een bestand {#file}
+
+Ga als volgt te werk als u een variant uit een bestand wilt toevoegen:
+
+1. Klik op de koppeling **[!UICONTROL download sample]** om een bestandssjabloon op te halen en kies vervolgens de bestandsindeling die u wilt gebruiken (CSV, JSON of JSONLINES).
+
+1. Klik op **[!UICONTROL Download]** en sla de sjabloon op de gewenste locatie op.
+
+1. Open het bestand en vul de sjabloon naar wens in. De sjabloon bevat een kolom voor elk profielkenmerk dat in uw inhoud wordt gebruikt voor personalisatie.
+
+1. Wanneer het bestand gereed is, klikt u op **[!UICONTROL Upload Input data]** om het te laden en de inhoud te testen.
+
+1. Nadat het bestand is geüpload, wordt in het linkerdeelvenster voor elke regel van het bestand een vak toegevoegd. Elk vak bevat alle profielkenmerken die in de inhoud worden gebruikt voor personalisatie. U kunt de varianten nu gebruiken om een voorvertoning van de inhoud weer te geven in het rechterdeelvenster en proefdrukken te verzenden.
+
+   ![](assets/simulate-custom-variants.png)
+
+### Varianten handmatig toevoegen {#manual}
+
+Voer de volgende stappen uit om een variant handmatig toe te voegen:
+
+1. Klik op de knop **[!UICONTROL Create sample input]**.
+
+   In het linkerdeelvenster wordt een vak toegevoegd met alle profielkenmerken die in de inhoud worden gebruikt voor personalisatie.
+
+1. Vul de gegevens van de voorbeeldinvoer voor de variant in en klik op **[!UICONTROL Save]** .
+
+   ![](assets/simulate-custom-add.png)
+
+1. Nadat u varianten hebt toegevoegd, kunt u deze gebruiken om een voorvertoning van de inhoud weer te geven in het rechterdeelvenster en om proefdrukken te verzenden.
 
 ## Een voorvertoning van de inhoudvarianten weergeven {#preview}
 

@@ -5,7 +5,7 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+source-git-commit: 53efa1af8089b7cec9c94f4a17295a544c3ab4d1
 workflow-type: tm+mt
 source-wordcount: '2161'
 ht-degree: 25%
@@ -182,12 +182,12 @@ ht-degree: 25%
    + [Afbakening van reizen en arbitrage](using/conflict-prioritization/journey-capping.md)
 + Testen en goedkeuren {#test}
    + Inhoud voorvertonen en testen {#preview-test}
-      + [Inhoud testen met behulp van voorbeeldinvoergegevens](using/test-approve/simulate-sample-input.md)
       + [Aan de slag met voorvertoning en testen](using/content-management/preview-test.md)
       + [Testprofielen selecteren](using/content-management/test-profiles.md)
       + [Voorbeeld van uw inhoud bekijken](using/content-management/preview.md)
       + [E-mailproefdrukken verzenden](using/content-management/proofs.md)
       + [E-mailrendering testen](using/content-management/rendering.md)
+      + [Inhoud testen met behulp van voorbeeldinvoergegevens (Beta)](using/test-approve/simulate-sample-input.md)
       + [E-mailspamrapport](using/content-management/spam-report.md)
    + Reizen en campagnes goedkeuren {#approve}
       + [Aan de slag met goedkeuringen](using/test-approve/gs-approval.md)
