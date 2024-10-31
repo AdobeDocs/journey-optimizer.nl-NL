@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 94ac5fda2d10beb1fd016f41aa298a82694043c3
+source-git-commit: 35b0304df8bdb885ca494b561cb6a0eaa5e96545
 workflow-type: tm+mt
 source-wordcount: '1904'
 ht-degree: 6%
@@ -311,7 +311,7 @@ Leer meer over deze verbeteringen in de de configuratiedocumentatie van SMS voor
 
 **Meldend**
 
-* **Ervaring die** meldt is nu beschikbaar, die essentiële inzichten aanbieden in hoe uw bezoekers met uw ervaringen in wisselwerking staan. [Meer informatie](../reports/campaign-global-report-cja-code.md##decisioning-kpis)
+* **Ervaring die** meldt is nu beschikbaar, die essentiële inzichten aanbieden in hoe uw bezoekers met uw ervaringen in wisselwerking staan. [Meer informatie](../reports/campaign-global-report-cja-code.md#decisioning-kpis)
 
 **het bestuur van Gegevens &amp; het beleid van de Toestemming** - de datum van Beschikbaarheid: 7 okt, 2024
 
