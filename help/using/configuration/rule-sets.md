@@ -10,9 +10,9 @@ level: Intermediate
 keywords: bericht, frequentie, regels, druk
 badge: label="Beperkte beschikbaarheid"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: a7fdde15f7c491fd9a3b1fef898f018ba9954cde
+source-git-commit: 9c49786385db782bd2fa70b19003261284e980a5
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1872'
 ht-degree: 0%
 
 ---
@@ -44,13 +44,9 @@ Wanneer de toegang tot van regelreeksen voor het eerst van **[!UICONTROL Adminis
 
 Deze regelreeks bevat globale regels die u kunt toepassen om te controleren hoe vaak de gebruikers bericht over één of veelvoudige kanalen ontvangen, gelijkend op hoe de huidige bedrijfsregels werken. Alle regels die in deze regel worden bepaald zijn op alle geselecteerde kanalen van toepassing, of de mededelingen van een reis of een campagne worden verzonden. [ Leer hoe te met bedrijfsregels te werken ](frequency-rules.md)
 
-Naast deze &quot;Globale Vastgestelde de regel van de Regel van het Standaard&quot;, kunt u **reeksen van de douaneregel** tot stand brengen die u op om het even welke campagne kunt toepassen om het aantal berichten te beperken die binnen die campagne worden verzonden. [ Leer hoe te om de reeksen van de douaneregel tot stand te brengen ](#create)
+Naast deze &quot;Globale Vastgestelde van de StandaardRegel&quot;regel, kunt u **reeksen van de douaneregel** tot stand brengen die u op om het even welke campagne kunt toepassen om het aantal berichten te beperken die binnen die campagne worden verzonden. [ Leer hoe te om de reeksen van de douaneregel tot stand te brengen ](#create)
 
 ![](assets/rule-sets-default.png)
-
->[!IMPORTANT]
->
->Voor nu, kunnen de reeksen van de douaneregel op **campagnes** slechts worden toegepast. Alleen de regels die zijn gedefinieerd in de regel Globale standaardregel die is ingesteld, gelden voor zowel de reis- als de campagnecommunicatie.
 
 ### Regels voor aftopping van kanalen en reizen {#domain}
 
@@ -75,10 +71,7 @@ Volg onderstaande stappen om een regelset te maken.
 
 1. Definieer een unieke naam voor de regelset en voeg een beschrijving toe.
 
-1. Selecteer het domein van de regelset. Met het domein kunt u opgeven of de regelset bijschriftregels bevat die specifiek zijn voor communicatiekanalen of ritten:
-
-   * **Kanaal**: Pas het begrenzen van regels voor communicatiekanalen toe. Verzend bijvoorbeeld niet meer dan 1 e-mail- of sms-communicatie per dag.
-   * **Reis**: Pas entry en gelijktijdige het afschilderen van regels op een reis toe. Voer bijvoorbeeld niet profielen in voor meer dan één reis tegelijk.
+1. Selecteer het domein van de regelset. Het domein staat u toe om te specificeren als de regelreeks het maximum regels zal bevatten die voor communicatiekanalen of voor reizen specifiek zijn. [ Leer meer op kanaal en reis die regels begrenzen ](#domain)
 
    ![](assets/rule-sets-create.png)
 
