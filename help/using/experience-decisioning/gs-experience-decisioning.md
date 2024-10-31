@@ -33,7 +33,7 @@ Deze besluitpunten zijn naadloos geïntegreerd in een brede waaier van binnenkom
 
 De belangrijkste stappen om met Beslissing te werken zijn als volgt:
 
-1. **wijs juiste toestemmingen** toe. Beslissing is alleen beschikbaar voor gebruikers die toegang hebben tot een beslissing die betrekking heeft op **[!UICONTROL role]** , zoals beslissingsmanagers. Als u geen toegang hebt tot Beslissing, moeten uw toestemmingen worden uitgebreid.
+1. **wijs juiste toestemmingen** toe. Beslissingen zijn alleen beschikbaar voor gebruikers met toegang tot een besluit dat betrekking heeft op **[!UICONTROL role]** , zoals Beslissingsmanagers. Als u geen toegang hebt tot Beslissing, moeten uw toestemmingen worden uitgebreid.
 
    +++Leer hoe u de rol van beslissingsmanagers toewijst
 
@@ -59,7 +59,7 @@ De belangrijkste stappen om met Beslissing te werken zijn als volgt:
 
 1. **creeer besluitpunten** om aan uw gericht publiek te tonen.
 
-1. **organiseer met inzamelingen**: De inzamelingen van het gebruik om besluitpunten te categoriseren die op op attribuut-gebaseerde regels worden gebaseerd. Neem inzamelingen in uw selectiestrategieën op om te bepalen welke inzameling van besluitvormingspunten zou moeten worden overwogen.
+1. **organiseert zich met inzamelingen**: De inzamelingen van het gebruik om besluitpunten te categoriseren die op op attribuut-gebaseerde regels worden gebaseerd. Neem inzamelingen in uw selectiestrategieën op om te bepalen welke inzameling van besluitvormingspunten zou moeten worden overwogen.
 
 1. **creeer besluitvormingsregels**: De regels van het besluit worden gebruikt in besluitvormingspunten en/of selectiestrategieën om te bepalen aan wie een besluitpunt kan worden getoond.
 

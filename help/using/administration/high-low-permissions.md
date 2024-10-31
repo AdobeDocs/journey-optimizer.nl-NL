@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Machtigingsniveaus
-description: Meer informatie over machtigingen op hoog en laag niveau waarmee gebruikers toegang hebben tot de verschillende functies.
+description: Meer informatie over machtigingen op hoog en laag niveau waarmee gebruikers toegang krijgen tot de verschillende functies.
 topic: Administration
 feature: Access Management
 role: Admin, Architect, Developer
@@ -27,7 +27,7 @@ Zij kunnen in twee types worden verdeeld:
 
 * **laagvlakke toestemming**: vertegenwoordigt de verschillende toestemmingen die uit de toestemming op hoog niveau komen.
 
-De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de machtiging **[!DNL Manage journeys]** . Op basis van deze machtigingen zijn de machtigingen op laag niveau beschikbaar waarmee de beheerder van het traject trajecten kan schrijven, lezen en verwijderen.
+De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de machtiging **[!DNL Manage journeys]** . Uit deze toestemming vloeit het laagniveautoestemmingen voort die de beheerder van de Reis zullen toestaan om reizen te schrijven, te lezen en te schrappen.
 
 ## Reisbron {#journey-capability}
 
@@ -35,7 +35,7 @@ De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de mac
 
 +++ Dit omvat de volgende laagniveaumachtigingen:
 
-   * Journey Optimizer-specifiek:
+   * specifiek voor Journey Optimizer:
 
       * journeys.read
       * journeys.write
@@ -111,11 +111,11 @@ De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de mac
 
 +++
 
-* Met machtiging op hoog niveau van **[!DNL View journeys report]** kunnen gebruikers alleen-lezen trajectrapporten maken.
+* **[!DNL View journeys report]** toestemming op hoog niveau staat gebruikers toe om read-only reisrapport te lezen.
 
-+++ Deze bevat de volgende laagactieve machtigingen:
++++ Dit omvat de volgende laagniveaumachtigingen:
 
-   * Journey Optimizer-specifiek:
+   * specifiek voor Journey Optimizer:
       * trajecten_rapport.read
       * messages_report.read
 
@@ -133,7 +133,7 @@ De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de mac
 
 +++ Dit omvat de volgende laagniveaumachtigingen:
 
-   * Journey Optimizer-specifiek:
+   * specifiek voor Journey Optimizer:
       * frequency_rules.read
       * frequency_rules.write
       * frequency_rules.delete
@@ -185,7 +185,7 @@ De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de mac
 
    * specifiek voor Journey Optimizer:
 
-      * door de campagne gelezen
+      * door campagne gelezen
       * campagnepublicatie
         <!--* experiments.activate-->
 
@@ -203,11 +203,11 @@ De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de mac
 
 +++
 
-## Bron voor beheer van besluiten {#decisions-permissions}
+## Hulpbron voor Besluit {#decisions-permissions}
 
-* Met machtiging op hoog niveau van **[!DNL Manage decisions]** kunnen gebruikers nieuwe functies maken en bestaande **[!DNL Activity entities]** bewerken/verwijderen, en kunnen ze objecten beheren die in die activiteiten worden gebruikt om de beslissingen te nemen.
+* Met machtiging op hoog niveau van **[!DNL Manage decisions]** kunnen gebruikers nieuwe functies maken en bestaande **[!DNL Activity entities]** bewerken/verwijderen, en de objecten beheren die in deze activiteiten worden gebruikt om de beslissingen te nemen.
 
-+++ Deze bevat de volgende laagactieve machtigingen:
++++ Dit omvat de volgende laagniveaumachtigingen:
 
    * Specifiek beheer van besluiten:
       * activities.read
@@ -221,7 +221,7 @@ De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de mac
       * placements.delete
       * classificeren_strategie.read
 
-   * Adobe Experience Platform-specifiek:
+   * specifiek voor Adobe Experience Platform:
       * datasets.read
       * datasets.write
       * datasets.delete
@@ -235,13 +235,13 @@ De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de mac
 
 +++ Dit omvat de volgende laagniveaumachtigingen:
 
-   * Specifieke aspecten van het besluitvormingsbeheer:
+   * Specifiek beheer van besluiten:
       * activities.read
       * offers.read
       * placements.read
       * classificeren_strategie.read
 
-   * Adobe Experience Platform-specifiek:
+   * specifiek voor Adobe Experience Platform:
       * schemas.read
       * segment.read
       * datasets.read
@@ -277,7 +277,7 @@ De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de mac
    * Specifiek beheer van besluiten:
       * classificeren_strategie.read
       * classificeren_strategie.write
-      * ranking_strategy.delete
+      * classificeren_strategie.delete
       * activities.read
       * offers.read
       * placements.read
@@ -308,10 +308,10 @@ De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de mac
   +++
 -->
 
-* Met machtiging op hoog niveau van **[!DNL Manage file routing]** kunnen gebruikers configuraties voor het routeren van bestanden maken, bewerken en verwijderen.
+* **[!DNL Manage file routing]** toestemming op hoog niveau staat gebruikers toe om dossier tot stand te brengen uit te geven en te schrappen die configuraties verpletteren.
 
-+++ Deze bevat de volgende laagactieve machtigingen:
-   * Journey Optimizer-specifiek:
++++ Dit omvat de volgende laagniveaumachtigingen:
+   * specifiek voor Journey Optimizer:
 
       * file_routing.read
       * file_routing.write
@@ -353,16 +353,16 @@ De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de mac
       * messages_general_settings.write
       * messages_general_settings.delete
 
-   * Adobe Experience Platform-specifiek:
+   * specifiek voor Adobe Experience Platform:
       * schemas.read
 
 +++
 
 * Met machtiging op hoog niveau van **[!DNL Manage messages presets]** kunnen gebruikers kanaalconfiguraties lezen, maken, bewerken en verwijderen op het niveau van de sandbox.
 
-+++ Deze bevat de volgende laagactieve machtigingen:
++++ Dit omvat de volgende laagniveaumachtigingen:
 
-   * Journey Optimizer-specifiek:
+   * specifiek voor Journey Optimizer:
       * messages_presets.read
       * messages_presets.write
       * messages_presets.delete
@@ -387,9 +387,9 @@ De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de mac
 
 * Met machtiging op hoog niveau van **[!DNL Manage Seedlist]** kunnen gebruikers de zaadlijst lezen, maken, bewerken en verwijderen.
 
-+++ It includes the following low-level permissions:
++++ Dit omvat de volgende laagniveaumachtigingen:
 
-   * Journey Optimizer specific:
+   * specifiek voor Journey Optimizer:
       * seedlist.read
       * seedlist.write
       * seedlist.delete
@@ -402,7 +402,7 @@ De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de mac
 
    * specifiek voor Journey Optimizer:
       * sms_subdomeinen.read
-      * sms_subdomains.write
+      * sms_subdomeinen.write
       * sms_subdomeinen.delete
 
 +++
@@ -418,10 +418,10 @@ De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de mac
 
 +++
 
-* Met machtiging op hoog niveau van **[!DNL Manage suppression]** kunnen gebruikers het aantal bounces definiëren voordat een e-mailadres aan de suppressielijst wordt toegevoegd, en kunt u items toevoegen aan of verwijderen uit de suppressielijst.
+* Met machtiging op hoog niveau van **[!DNL Manage suppression]** kunnen gebruikers het aantal instanties definiëren voordat een e-mailadres aan de lijst met onderdrukking wordt toegevoegd en kunt u items toevoegen aan of verwijderen uit de lijst met onderdrukking.
 
-+++ Deze bevat de volgende laagactieve machtigingen:
-   * Journey Optimizer-specifiek:
++++ Dit omvat de volgende laagniveaumachtigingen:
+   * specifiek voor Journey Optimizer:
       * suppression_rules.read
       * suppression_rules.write
       * suppression_rules.delete
@@ -443,15 +443,15 @@ De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de mac
 
 +++ Dit omvat de volgende laagniveaumachtigingen:
 
-   * Journey Optimizer-specifiek:
+   * specifiek voor Journey Optimizer:
       * messages_general_settings.read
 
-   * Adobe Experience Platform-specifiek:
+   * specifiek voor Adobe Experience Platform:
       * schemas.read
 
 +++
 
-* Met de machtiging op hoog niveau van **[!DNL View messages presets]** kunnen gebruikers voorinstellingen voor berichten weergeven.
+* Met machtiging op hoog niveau van **[!DNL View messages presets]** kunnen gebruikers voorinstellingen voor berichten weergeven.
 
 +++ Dit omvat de volgende laagniveaumachtigingen:
 

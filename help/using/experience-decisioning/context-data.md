@@ -1,6 +1,6 @@
 ---
-title: Leverage context data in Decisioning
-description: Learn how to leverage context data in Decisioning
+title: De contextgegevens van de hefboomwerking in Beslissing
+description: Leer hoe u contextgegevens kunt gebruiken in Beslissing
 feature: Experience Decisioning
 topic: Integrations
 role: User
@@ -14,38 +14,38 @@ ht-degree: 0%
 
 ---
 
-# Leverage context data in Decisioning {#context}
+# De contextgegevens van de hefboomwerking in Beslissing {#context}
 
-[](rules.md)[](ranking.md) For example, you can design a decision rule that requires the current weather to be ≥80 degrees at the time the decision request is made.
+Met Beslissing, kunt u hefboomwerking om het even welke informatie beschikbaar in Adobe Experience Platform om diverse acties uit te voeren zoals het creëren van [ besluitvormingsregels ](rules.md) of [ het rangschikken formules ](ranking.md). U kunt bijvoorbeeld een beslissingsregel ontwerpen waarvoor het huidige weer 80 graden moet zijn op het moment dat het beslissingsverzoek wordt gedaan.
 
 >[!NOTE]
 >
->Context data is defined in Adobe Experience Platform and is sent in at the time of a decision request. It does not include historical data.
+>Contextgegevens worden gedefinieerd in Adobe Experience Platform en worden verzonden op het moment dat een beslissing wordt gevraagd. Het omvat geen historische gegevens.
 
-To use context data, you first need to define the data you want to make available in Decisioning. **[!UICONTROL Context Data]** You can also leverage the data when editing a ranking formula.
+Om contextgegevens te gebruiken, moet u eerst de gegevens bepalen u in Beslissing ter beschikking wilt stellen. Zodra gereed, integreren deze gegevens naadloos in Beslissing in het **[!UICONTROL Context Data]** lusje beschikbaar wanneer het creëren van een besluitvormingsregel. U kunt de gegevens ook gebruiken wanneer u een waarderingsformule bewerkt.
 
 ![](assets/decision-rules-context.png)
 
-The steps to feed Decisioning with Adobe Experience Platform data are as follows:
+De stappen om Beslissing met de gegevens van Adobe Experience Platform te voeren zijn als volgt:
 
-1. ********[](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
+1. Creeer een **schema van de Gebeurtenis van de Ervaring** in Adobe Experience Platform en zijn bijbehorende **dataset**. [ Leer hoe te om schema&#39;s ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas) tot stand te brengen {target="_blank"}
 
-1. Create a new Adobe Experience Platform datastream:
+1. Een nieuwe Adobe Experience Platform-gegevensstroom maken:
 
-   1. **[!UICONTROL Datastreams]****[!UICONTROL New Datastream]**
+   1. Navigeer naar het menu **[!UICONTROL Datastreams]** en selecteer **[!UICONTROL New Datastream]** .
 
-   1. **[!UICONTROL Event Schema]****[!UICONTROL Save]**
+   1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Event Schema]** het eerder gemaakte Experience Event-schema en klik op **[!UICONTROL Save]** .
 
       ![](assets/decision-rule-context-datastream.png)
 
-   1. **[!UICONTROL Add service]** **[!UICONTROL Event Dataset]****[!UICONTROL Adobe Journey Optimizer]**
+   1. Klik op **[!UICONTROL Add service]** en selecteer &quot;Adobe Experience Platform&quot; als service. Selecteer in de vervolgkeuzelijst **[!UICONTROL Event Dataset]** de eerder gemaakte gebeurtenisdataset en schakel de optie **[!UICONTROL Adobe Journey Optimizer]** in.
 
       ![](assets/decision-rules-context-datastream-service.png)
 
-Once the datastream is saved, the selected dataset&#39;s information is automatically fetched and integrated into Decisioning, typically becoming available within approximately 24 hours.
+Zodra de gegevensstroom wordt bewaard, wordt de geselecteerde informatie van de dataset automatisch opgehaald en in Beslissing geïntegreerd, die typisch binnen ongeveer 24 uren beschikbaar wordt.
 
-For further guidance on how to work with Adobe Experience Platform, explore the following resources:
+Raadpleeg de volgende bronnen voor meer informatie over hoe u met Adobe Experience Platform kunt werken:
 
-* [](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}
-* [](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}
-* [](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview){target="_blank"}
+* [ schema&#39;s van de Gegevens van de Ervaring Model (XDM) ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) {target="_blank"}
+* [ Datasets ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview) {target="_blank"}
+* [ Datastreams ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) {target="_blank"}
