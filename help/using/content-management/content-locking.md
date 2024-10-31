@@ -6,9 +6,9 @@ description: Leer hoe u inhoud in uw e-mailsjablonen kunt vergrendelen.
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 38aaa3005e72a8300cef0e28a6fecd9f5d06c1f1
+source-git-commit: 9bb2b287f6f470f817a7f7dd89346bbe2aa7d090
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1202'
 ht-degree: 0%
 
 ---
@@ -42,9 +42,9 @@ ht-degree: 0%
 
 Met Journey Optimizer kunt u inhoud in e-mailsjablonen vergrendelen door de volledige sjabloon of specifieke structuren en onderdelen te vergrendelen. Hierdoor kunt u onbedoelde bewerkingen of verwijderingen voorkomen, waardoor u meer controle hebt over de aanpassing van de sjabloon en de efficiëntie en betrouwbaarheid van uw e-mailcampagnes verbetert.
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->Gebruikers met machtigingen om inhoudssjablonen te maken, kunnen de vergrendeling van inhoud inschakelen.
+>Inhoudsvergrendeling is een functie op editorniveau voor auteurs en garandeert niet dat de inhoud wordt bewerkt wanneer deze wordt geïmporteerd of gemaakt via de API.
 
 Het sluiten van de inhoud kan of op het **structuur** niveau, of op het **component** niveau worden toegepast. Hier volgen de belangrijkste principes die van toepassing zijn op het structuur- en componentniveau wanneer de inhoud in de sjabloon wordt vergrendeld.
 
@@ -59,6 +59,10 @@ Het sluiten van de inhoud kan of op het **structuur** niveau, of op het **compon
 
    * Afzonderlijke inhoudcomponenten kunnen binnen die structuur worden vergrendeld.
    * Een component kan standaard niet worden verwijderd als deze is vergrendeld of als de optie Alleen bewerkbare inhoud vergrendelen is geselecteerd. U kunt deze beperking negeren door de optie Verwijderen toestaan in te schakelen.
+
+>[!AVAILABILITY]
+>
+>Gebruikers met machtigingen om inhoudssjablonen te maken, kunnen de vergrendeling van inhoud inschakelen.
 
 ## Een e-mailsjabloon vergrendelen {#define}
 
