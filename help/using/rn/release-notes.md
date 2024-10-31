@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 35b0304df8bdb885ca494b561cb6a0eaa5e96545
+source-git-commit: 96ae7baf50f262aac86f86ecb04cc98b57968c28
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1910'
 ht-degree: 6%
 
 ---
@@ -275,15 +275,16 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Sms-kanaal**
 
-De verbeteringen van SMS zijn geïntroduceerd om uw berichtmogelijkheden te verbeteren:
-
-* U kunt unieke trefwoorden voor uw SMS-campagnes en -reizen definiëren en beheren, zodat u meer gepersonaliseerde en efficiënte communicatie mogelijk maakt.
-
-* U kunt een standaard SMS-bericht maken en leveren wanneer een trefwoord niet wordt herkend.
-
 * U kunt nu een SMS API-kanaalconfiguratie bewerken of verwijderen.
 
-Leer meer over deze verbeteringen in de de configuratiedocumentatie van SMS voor [ Infobip ](../sms/sms-configuration-infobip.md) en [ Sinch ](../sms/sms-configuration-sinch.md).
+* De volgende verhogingen zijn geïntroduceerd om uw het overseinenmogelijkheden van SMS met Infobip en Sinch te verbeteren:
+
+   * U kunt unieke trefwoorden voor uw SMS-campagnes en -reizen definiëren en beheren, zodat u meer gepersonaliseerde en efficiënte communicatie mogelijk maakt.
+
+   * U kunt een standaard SMS-bericht maken en leveren wanneer een trefwoord niet wordt herkend.
+
+  Leer meer over deze verbeteringen in de de configuratiedocumentatie van SMS voor [ Infobip ](../sms/sms-configuration-infobip.md) en [ Sinch ](../sms/sms-configuration-sinch.md).
+
 
 <!--**Journeys**-->
 
@@ -307,7 +308,7 @@ Leer meer over deze verbeteringen in de de configuratiedocumentatie van SMS voor
 
   Deze wijziging wordt in een volgende fase doorgevoerd in bestaande sandboxen voor klanten. [Meer informatie](../data/datasets-ttl.md#ttl)
 
-* **Parameters in douaneacties** (de datum van Beschikbaarheid: Okt 3, 2024) - ONGELDIGE en facultatieve parameters worden nu gesteund in douaneacties. [Meer informatie](../action/about-custom-action-configuration.md#define-the-message-parameters)
+* **Parameters in douaneacties** - de datum van de Beschikbaarheid: 3 okt, 2024 - ONGELDIGE en facultatieve parameters worden nu gesteund in douaneacties. [Meer informatie](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
 **Meldend**
 
