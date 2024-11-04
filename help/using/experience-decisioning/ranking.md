@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 badge: label="Beperkte beschikbaarheid"
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: 018ff365780c5064afd94c8f842ca0498fe06065
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 1%
+source-wordcount: '546'
+ht-degree: 0%
 
 ---
 
@@ -46,6 +46,31 @@ Ga als volgt te werk om een waarderingsmethode te maken:
    * [Beoordelingsformule](../offers/ranking/create-ranking-formulas.md)
    * [AI-modellen](../offers/ranking/ai-models.md)
 
++++ Modellen optimaliseren op aangepaste [!DNL Customer Journey Analytics] metriek
+
+>[!NOTE]
+>
+>Deze mogelijkheid is alleen beschikbaar voor [!DNL Customer Journey Analytics] -klanten met beheerdersrechten.
+>
+>Alvorens te beginnen, zorg ervoor u Journey Optimizer met Customer Journey Analytics hebt geïntegreerd om de datasets van Journey Optimizer in uw standaardgegevensmeningen uit te voeren. [ Leer hoe te hefboomwerking  [!DNL Journey Optmizer]  gegevens in  [!DNL Customer Journey Analytics]](../reports/cja-ajo.md)
+
+De gepersonaliseerde optimalisatiemodellen zijn een type van AI model dat u toestaat om bedrijfsdoelstellingen te bepalen en klantengegevens te gebruiken om zaken-georiënteerde modellen op te leiden om gepersonaliseerde aanbiedingen te dienen en KPIs te maximaliseren. De gedetailleerde informatie over hoe te om tot een gepersonaliseerd AI model te leiden is beschikbaar in de [ documentatie van het besluitvormingsbeheer ](../offers/ranking/personalized-optimization-model.md).
+
+Door gebrek, gepersonaliseerde optimalisatiemodellen gebruiken **aanbieding klikt** als optimalisering metrisch. Als u met [!DNL Customer Journey Analytics] werkt, kunt u in [!DNL Decisioning] uw eigen maateenheden gebruiken om uw model te optimaliseren.
+
+U doet dit door het scherm voor het maken van het gepersonaliseerde AI-model te openen en de vervolgkeuzelijst **[!UICONTROL Conversion event]** uit te vouwen. Alle metriek van uw standaard [!DNL Customer Journey Analytics] [ gegevensmening ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views) {target="_blank"} vertoning in de lijst. Selecteer de metrische waarde waarop u het model wilt optimaliseren en voltooi vervolgens het maken van het AI-model op de gebruikelijke manier.
+
+![](assets/ai-ranking-custom-metrics.png)
+
+>[!NOTE]
+>
+>Metrische gegevens in [!DNL Customer Journey Analytics] maken standaard gebruik van een &quot;Last Touch&quot;-attributiemodel, dat 100% van het krediet toewijst aan het aanraakpunt dat het laatst voor de conversie optreedt.
+>
+>Hoewel het attributiemodel kan worden gewijzigd, zijn niet alle attributiemodellen ideaal voor optimalisatie van het AI-model. We raden u aan zorgvuldig een toewijzingsmodel te selecteren dat is afgestemd op uw optimalisatiedoelstellingen om de nauwkeurigheid en prestaties van het model te garanderen.
+>
+>Voor meer details op beschikbare attributiemodellen en begeleiding op hun gebruik, verwijs naar de [[!DNL Customer Journey Analytics]  documentatie ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution) {target="_blank"}
+
++++
 
 ## Kenmerken van besluitvormingsposten in formules gebruiken {#items}
 
