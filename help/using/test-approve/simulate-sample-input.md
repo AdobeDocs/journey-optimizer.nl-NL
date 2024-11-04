@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Inhoud testen met behulp van voorbeeldinvoergegevens (Beta)
-description: Leer hoe u een voorbeeld van inhoud bekijkt en proefdrukken per e-mail verzendt met behulp van voorbeeldinvoergegevens.
-feature: Overview, Get Started
+description: Leer hoe u een voorbeeld van inhoud bekijkt en een e-mailproefdruk verzendt met voorbeeldinvoergegevens uit een CSV- of JSON-bestand of die u handmatig toevoegt.
+feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta"
-source-git-commit: 53efa1af8089b7cec9c94f4a17295a544c3ab4d1
+source-git-commit: 678a2fbce1b4048aad6a2214bb41ec3722db2b2d
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 >
 >Deze functies zijn momenteel beschikbaar voor alle klanten als een openbare bètaversie.
 
-Met Reis optimizer kunt u verschillende varianten van uw inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die zijn geüpload uit een bestand of handmatig zijn toegevoegd. Alle profielkenmerken die in de inhoud worden gebruikt voor personalisatie worden automatisch gedetecteerd door het systeem en kunnen worden gebruikt voor uw tests om meerdere varianten te maken.
+Met Reis optimizer kunt u verschillende varianten van uw inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV- of JSON-bestand zijn geüpload of handmatig zijn toegevoegd. Alle profielkenmerken die in de inhoud worden gebruikt voor personalisatie worden automatisch gedetecteerd door het systeem en kunnen worden gebruikt voor uw tests om meerdere varianten te maken.
 
 >[!NOTE]
 >
