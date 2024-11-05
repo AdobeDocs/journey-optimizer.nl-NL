@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '2161'
-ht-degree: 1%
+source-wordcount: '2445'
+ht-degree: 0%
 
 ---
 
@@ -17,38 +17,58 @@ ht-degree: 1%
 
 Besluiten zijn containers voor uw aanbiedingen die gebruikmaken van de Offertenbeslissingsengine om de beste aanbieding te kiezen, afhankelijk van het doel van de levering.
 
-➡️ [Leer hoe u aanbiedingsactiviteiten kunt maken in deze video](#video)
+➡️ [ leren hoe te om aanbiedingsactiviteiten in deze video tot stand te brengen ](#video)
 
-De lijst van besluiten is toegankelijk in **[!UICONTROL Offers]** menu > **[!UICONTROL Decisions]** tab. De filters zijn beschikbaar om u te helpen besluiten op hun status of begin en einddata terugwinnen.
+De lijst met beslissingen is toegankelijk via het tabblad **[!UICONTROL Offers]** > **[!UICONTROL Decisions]** . De filters zijn beschikbaar om u te helpen besluiten op hun status of begin en einddata terugwinnen.
 
 ![](../assets/activities-list.png)
 
 Voordat u een beslissing maakt, moet u controleren of de onderstaande componenten zijn gemaakt in de bibliotheek met aanbiedingen:
 
-* [Plaatsingen](../offer-library/creating-placements.md)
+* [Plaatsen](../offer-library/creating-placements.md)
 * [Verzamelingen](../offer-library/creating-collections.md)
-* [Persoonlijke aanbiedingen](../offer-library/creating-personalized-offers.md)
-* [Alternatieve aanbiedingen](../offer-library/creating-fallback-offers.md)
+* [Aangepaste aanbiedingen](../offer-library/creating-personalized-offers.md)
+* [Herkansingsaanbiedingen](../offer-library/creating-fallback-offers.md)
 
 ## De beslissing maken {#create-activity}
 
-1. Open de beslissingslijst en klik vervolgens op **[!UICONTROL Create decision]**.
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_details"
+>title="Beslissingsgegevens voorstel"
+>abstract="Geef de naam van de beslissing op en definieer zo nodig een begin- en einddatum en -tijd. Selecteer **[!UICONTROL Manage access]** als u aangepaste of basislabels voor gegevensgebruik aan de beslissing wilt toewijzen."
+
+1. Open de beslissingslijst en klik vervolgens op **[!UICONTROL Create decision]** .
 
 1. Geef de naam van de beslissing op.
 
-1. Geef zo nodig een begin- en einddatum en -tijd op en klik op **[!UICONTROL Next]**.
+1. Geef zo nodig een begin- en einddatum en -tijd op en klik op **[!UICONTROL Next]** .
 
    ![](../assets/activities-name.png)
 
-1. Als u aangepaste of basislabels voor gegevensgebruik aan de beslissing wilt toewijzen, selecteert u **[!UICONTROL Manage access]**. [Leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC)](../../administration/object-based-access.md)
+1. Selecteer **[!UICONTROL Manage access]** als u aangepaste of basislabels voor gegevensgebruik aan de beslissing wilt toewijzen. [ leer meer op het Toegangsbeheer van het Niveau van Objecten (OLAC) ](../../administration/object-based-access.md)
 
 ## Bepaal beslissingsbereik {#add-decision-scopes}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_scopes"
+>title="Beslissingsbereik"
+>abstract="Vorm één of veelvoudige werkingsgebied voor het aanbiedingsbesluit om de aanbiedingen te bepalen die moeten worden getoond. Dit wordt gedaan door een plaatsing en een bijbehorende evaluatiecriteria voor deze plaatsing te selecteren."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_placement"
+>title="Plaatsing"
+>abstract="Selecteer een plaatsing waar de voorstellen zouden worden geleverd."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_evaluation"
+>title="Evaluatiecriteria"
+>abstract="De evaluatiecriteria bestaan uit een aanbod dat gekoppeld is aan een toelatingsbeperking en een rangschikkingsmethode om de aanbiedingen te bepalen die in de plaatsing moeten worden getoond. De volgorde van evaluatiecriteria bepaalt welke verzameling eerst wordt geëvalueerd. Ten minste één evaluatiecriterium is vereist."
 
 1. Selecteer een plaatsing van de drop-down lijst. Het zal aan het eerste beslissingswerkingsgebied in uw besluit worden toegevoegd.
 
    ![](../assets/activities-placement.png)
 
-1. Klikken **[!UICONTROL Add]** om evaluatiecriteria voor deze plaatsing te selecteren.
+1. Klik op **[!UICONTROL Add]** om evaluatiecriteria voor deze plaatsing te selecteren.
 
    ![](../assets/activities-evaluation-criteria.png)
 
@@ -58,39 +78,39 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
    >
    >Er is ten minste één evaluatiecriterium vereist.
 
-1. Selecteer de aanbiedingsinzameling die de aanbiedingen bevat om te overwegen, dan klik **[!UICONTROL Add]**.
+1. Selecteer de aanbiedingsverzameling met de aanbiedingen die u wilt overwegen en klik op **[!UICONTROL Add]** .
 
    ![](../assets/activities-collection.png)
 
    >[!NOTE]
    >
-   >U kunt op de knop **[!UICONTROL Open offer collections]** koppeling om de lijst met verzamelingen op een nieuw tabblad weer te geven, zodat u door de verzamelingen en de aanbiedingen in deze verzamelingen kunt bladeren.
+   >U kunt op de koppeling **[!UICONTROL Open offer collections]** klikken om de lijst met verzamelingen op een nieuw tabblad weer te geven, zodat u door de verzamelingen en de aanbiedingen in deze verzamelingen kunt bladeren.
 
    De geselecteerde verzameling wordt toegevoegd aan de criteria.
 
    ![](../assets/activities-collection-added.png)
 
-1. Gebruik de **[!UICONTROL Eligibility]** om de selectie van aanbiedingen voor deze plaatsing te beperken.
+1. Gebruik het veld **[!UICONTROL Eligibility]** om de selectie van aanbiedingen voor deze plaatsing te beperken.
 
-   Deze beperking kan worden toegepast door een **beslissingsregel**, of een of meer **Adobe Experience Platform-publiek**. Beide zijn gedetailleerd in [deze sectie](../offer-library/add-constraints.md#segments-vs-decision-rules).
+   Deze beperking kan worden toegepast door a **besluitvormingsregel**, of één of verscheidene **publiek van Adobe Experience Platform** te gebruiken. Beide zijn gedetailleerd in [ deze sectie ](../offer-library/add-constraints.md#segments-vs-decision-rules).
 
-   * Als u de selectie van de aanbiedingen wilt beperken tot de leden van een publiek in een Experience Platform, selecteert u **[!UICONTROL Audiences]** en klik vervolgens op **[!UICONTROL Add audiences]**.
+   * Als u de selectie van de aanbiedingen wilt beperken tot de leden van een publiek in een Experience Platform, selecteert u **[!UICONTROL Audiences]** en klikt u op **[!UICONTROL Add audiences]** .
 
      ![](../assets/activity_constraint_segment.png)
 
-     Voeg een of meer soorten publiek toe vanuit het linkervenster en combineer deze via het dialoogvenster **[!UICONTROL And]** / **[!UICONTROL Or]** logische operatoren.
+     Voeg een of meer soorten publiek toe vanuit het linkerdeelvenster en combineer ze met de logische operatoren **[!UICONTROL And]** / **[!UICONTROL Or]** .
 
      ![](../assets/activity_constraint_segment2.png)
 
-     Leer hoe u met het publiek kunt werken in [deze sectie](../../audience/about-audiences.md).
+     Leer hoe te om met publiek in [ te werken deze sectie ](../../audience/about-audiences.md).
 
-   * Als u een selectiegrens met een beslissingsregel wilt toevoegen, gebruikt u de optie **[!UICONTROL Decision rule]** en selecteert u de gewenste regel.
+   * Als u een selectieregel wilt toevoegen met een beslissingsregel, gebruikt u de optie **[!UICONTROL Decision rule]** en selecteert u de gewenste regel.
 
      ![](../assets/activity_constraint_rule.png)
 
-     Leer hoe u een beslissingsregel maakt in [deze sectie](../offer-library/creating-decision-rules.md).
+     Leer hoe te om een besluitvormingsregel in [ tot stand te brengen deze sectie ](../offer-library/creating-decision-rules.md).
 
-1. Wanneer u publiek of beslissingsregels selecteert, kunt u informatie over de geschatte gekwalificeerde profielen zien. Klikken **[!UICONTROL Refresh]** gegevens bijwerken.
+1. Wanneer u publiek of beslissingsregels selecteert, kunt u informatie over de geschatte gekwalificeerde profielen zien. Klik op **[!UICONTROL Refresh]** om gegevens bij te werken.
 
    >[!NOTE]
    >
@@ -102,11 +122,11 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
 
    ![](../assets/activity_ranking-method.png)
 
-   * Als meerdere aanbiedingen standaard in aanmerking komen voor deze plaatsing, wordt de opdracht **[!UICONTROL Offer priority]** de methode gebruikt de waarde die in de aanbiedingen is gedefinieerd: de aanbieding met de hoogste prioriteitsscore wordt aan de gebruiker geleverd.
+   * Als meerdere aanbiedingen voor deze plaatsing in aanmerking komen, gebruikt de methode **[!UICONTROL Offer priority]** standaard de waarde die in de aanbiedingen is gedefinieerd: de aanbieding met de hoogste prioriteitsscore wordt aan de gebruiker geleverd.
 
-   * Als u een specifieke berekende score wilt gebruiken om te kiezen welke aanbieding in aanmerking komt, selecteert u **[!UICONTROL Formula]** of **[!UICONTROL AI model]**. [Meer informatie](../offer-activities/configure-offer-selection.md).
+   * Selecteer **[!UICONTROL Formula]** of **[!UICONTROL AI model]** als u een specifieke berekende score wilt gebruiken om te kiezen welke aanbieding in aanmerking komt. [Meer informatie](../offer-activities/configure-offer-selection.md).
 
-1. Klikken **[!UICONTROL Add]** om meer criteria voor dezelfde plaatsing te definiëren.
+1. Klik op **[!UICONTROL Add]** om meer criteria voor dezelfde plaatsing te definiëren.
 
    ![](../assets/activity_add-collection.png)
 
@@ -126,11 +146,11 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
 
    >[!CAUTION]
    >
-   >* Indien [AI-model](../ranking/ai-models.md) wordt gebruikt in een groep van evaluatiecriteria, moeten alle evaluatiecriteria in die groep gebruikmaken van de AI-waarderingsmethode en moeten zij hetzelfde specifieke AI-model gebruiken.
+   >* Als [ AI model ](../ranking/ai-models.md) in een groep van evaluatiecriteria wordt gebruikt, moeten alle evaluatiecriteria in die groep de AI rangschikkende methode gebruiken en zij moeten het zelfde specifieke AI model gebruiken.
    >
-   >* Slechts één groep met evaluatiecriteria kan het AI-model gebruiken. Andere groepen binnen een beslissingsbereik moeten andere rangordemethoden gebruiken (prioriteit of formule). [Meer informatie over waarderingsmethoden](../offer-activities/configure-offer-selection.md)
+   >* Slechts één groep met evaluatiecriteria kan het AI-model gebruiken. Andere groepen binnen een beslissingsbereik moeten andere rangordemethoden gebruiken (prioriteit of formule). [ leer meer bij het rangschikken methodes ](../offer-activities/configure-offer-selection.md)
 
-1. Als u een andere plaatsing voor uw voorstellen wilt toevoegen als onderdeel van deze beslissing, gebruikt u de opdracht **[!UICONTROL New scope]** knop. Herhaal bovenstaande stappen voor elk beslissingsbereik.
+1. Als u nog een plaatsing voor uw aanbiedingen wilt toevoegen als onderdeel van deze beslissing, gebruikt u de knop **[!UICONTROL New scope]** . Herhaal bovenstaande stappen voor elk beslissingsbereik.
 
    ![](../assets/activity_new-scope.png)
 
@@ -148,15 +168,15 @@ Binnen één besluitvormingsgebied bepalen meerdere criteria en de groepering da
 
 U hebt bijvoorbeeld twee verzamelingen, één in evaluatiecriteria A en één in evaluatiecriteria B. Er worden twee voorstellen teruggestuurd. Laten we zeggen dat er twee in aanmerking komende aanbiedingen zijn uit evaluatiecriteria A en drie in aanmerking komende aanbiedingen uit evaluatiecriteria B.
 
-* Indien de twee evaluatiecriteria **niet gecombineerd** en/of in sequentiële volgorde (1 en 2) worden de twee belangrijkste in aanmerking komende aanbiedingen uit de evaluatiecriteria in de eerste rij teruggegeven. Als er niet twee in aanmerking komende aanbiedingen voor de eerste evaluatiecriteria zijn, zal de beslissingsmotor achtereenvolgens overgaan op de volgende evaluatiecriteria om te zien hoeveel aanbiedingen nog nodig zijn, en uiteindelijk een terugslag teruggeven indien nodig.
+* Als de twee evaluatiecriteria **niet gecombineerd** en/of in opeenvolgende orde (1 en 2) zijn, zullen de hoogste twee in aanmerking komende aanbiedingen van de evaluatiecriteria in de eerste rij zijn teruggekeerd. Als er niet twee in aanmerking komende aanbiedingen voor de eerste evaluatiecriteria zijn, zal de beslissingsmotor achtereenvolgens overgaan op de volgende evaluatiecriteria om te zien hoeveel aanbiedingen nog nodig zijn, en uiteindelijk een terugslag teruggeven indien nodig.
 
   ![](../assets/activity_consecutive-rank-collections.png)
 
-* Als de twee verzamelingen **tegelijk geëvalueerd** Aangezien er twee in aanmerking komende aanbiedingen zijn op basis van beoordelingscriteria A en drie in aanmerking komende aanbiedingen op basis van beoordelingscriteria B, worden de vijf offertes in een stapel geplaatst op basis van de waarde die door de respectieve rangordemethoden wordt bepaald. Er wordt om twee aanbiedingen verzocht, zodat de twee belangrijkste in aanmerking komende aanbiedingen van deze vijf aanbiedingen worden teruggegeven.
+* Als de twee inzamelingen **tezelfdertijd** worden geëvalueerd, aangezien er twee in aanmerking komende aanbiedingen van evaluatiecriteria A en drie in aanmerking komende aanbiedingen van evaluatiecriteria B zijn, zullen alle vijf aanbiedingen samen worden gerangschikt die op de waarde door de respectieve rangschikkingsmethodes wordt bepaald. Er wordt om twee aanbiedingen verzocht, zodat de twee belangrijkste in aanmerking komende aanbiedingen van deze vijf aanbiedingen worden teruggegeven.
 
   ![](../assets/activity_same-rank-collections.png)
 
-+++ **Voorbeeld met meerdere criteria**
++++ **Voorbeeld met veelvoudige criteria**
 
 Laten we nu een voorbeeld bekijken waarbij u meerdere criteria hebt voor één bereik dat is verdeeld in verschillende groepen.
 
@@ -177,8 +197,11 @@ De hoogste prioritaire aanbiedingen worden eerst geëvalueerd en aan de gerangsc
 
 De criteria 1 en criteria 2 voorstellen worden samen geëvalueerd (voorstel 1, voorstel 2, voorstel 3, voorstel 4, voorstel 5). Laten we zeggen dat het resultaat:
 
-Aanbieding 1 - 10 Aanbieding 2 - 20 Aanbieding 3 - 30 uit criteria 1, 45 uit criteria 2. Het hoogste van beide wordt in overweging genomen, dus er wordt rekening gehouden met 45.
-Voorstel 4 - 40 voorstel 5 - 50
+Aanbieding 1 - 10
+Voorstel 2 - 20
+Aanbieding 3 - 30 uit criterium 1, 45 uit criterium 2. Het hoogste van beide wordt in overweging genomen, dus er wordt rekening gehouden met 45.
+Voorstel 4 - 40
+Voorstel 5 - 50
 
 Het gerangschikte voorstel is nu als volgt: Voorstel 5, voorstel 3, voorstel 4, voorstel 2, voorstel 1.
 
@@ -195,13 +218,13 @@ De gerangschikte voorstellen zijn nu als volgt: Voorstel 5, voorstel 3, voorstel
 
 #### Met meerdere bereiken {#multiple-scopes}
 
-**Als duplicatie is uitgeschakeld**
+**als het dupliceren weg** is
 
 Wanneer u meerdere besluitvormingsgebieden aan een besluit toevoegt en wanneer overlappingen niet zijn toegestaan op verschillende plaatsen, worden de in aanmerking komende aanbiedingen opeenvolgend geselecteerd in de volgorde van de beslissingsreikwijdte in het verzoek.
 
 >[!NOTE]
 >
->De **[!UICONTROL Allow Duplicates across placements]** parameter wordt ingesteld op het plaatsingsniveau. Als duplicatie is ingesteld op false voor plaatsing in een beslissingsverzoek, nemen alle plaatsen in het verzoek de instelling false over. [Meer informatie over de parameter duplicatie](../offer-library/creating-placements.md)
+>De parameter **[!UICONTROL Allow Duplicates across placements]** wordt ingesteld op het plaatsingsniveau. Als duplicatie is ingesteld op false voor plaatsing in een beslissingsverzoek, nemen alle plaatsen in het verzoek de instelling false over. [ Leer meer op verdubbelingsparameter ](../offer-library/creating-placements.md)
 
 Neem een voorbeeld waarin u twee beslissingsbereiken hebt toegevoegd, zoals:
 
@@ -219,7 +242,7 @@ De selectie ziet er als volgt uit:
 
 +++ **Voorbeeld 2**
 
-In dit voorbeeld heeft Aanbod 1 de limiet voor de frequentiegrenzen bereikt. [Meer informatie over aftopping van frequenties](../offer-library/add-constraints.md#capping)
+In dit voorbeeld heeft Aanbod 1 de limiet voor de frequentiegrenzen bereikt. [ Leer meer op frequentie het in kaart brengen ](../offer-library/add-constraints.md#capping)
 
 De selectie ziet er als volgt uit:
 
@@ -230,18 +253,18 @@ De selectie ziet er als volgt uit:
 
 +++ **Voorbeeld 3**
 
-In dit voorbeeld bereikten Aanbod 1 en Aanbieding 3 hun limiet voor de frequentiegrenzen. [Meer informatie over aftopping van frequenties](../offer-library/add-constraints.md#capping)
+In dit voorbeeld bereikten Aanbod 1 en Aanbieding 3 hun limiet voor de frequentiegrenzen. [ Leer meer op frequentie het in kaart brengen ](../offer-library/add-constraints.md#capping)
 
 De selectie ziet er als volgt uit:
 
 1. De resterende twee in aanmerking komende aanbiedingen uit bereik 1 worden geretourneerd (voorstel 2, voorstel 4).
-1. Er zijn geen voorstellen die in aanmerking komen voor het tweede bereik, zodat de [fallback-aanbieding](#add-fallback) wordt geretourneerd.
+1. Er zijn geen resterende in aanmerking komende aanbiedingen voor Reikwijdte 2, zodat is de [ fallback aanbieding ](#add-fallback) teruggekeerd.
 
 +++
 
-**Als duplicatie is ingeschakeld**
+**als het dupliceren** is
 
-Wanneer duplicatie op alle plaatsen is toegestaan, kan hetzelfde aanbod meerdere keren voor verschillende plaatsen worden voorgesteld. Als deze optie is ingeschakeld, overweegt het systeem dezelfde aanbieding voor meerdere plaatsingen. [Meer informatie over de parameter duplicatie](../offer-library/creating-placements.md)
+Wanneer duplicatie op alle plaatsen is toegestaan, kan hetzelfde aanbod meerdere keren voor verschillende plaatsen worden voorgesteld. Als deze optie is ingeschakeld, overweegt het systeem dezelfde aanbieding voor meerdere plaatsingen. [ Leer meer op verdubbelingsparameter ](../offer-library/creating-placements.md)
 
 Neem het zelfde voorbeeld zoals hierboven waar u twee besluitvormingswerkingsgebied zoals toevoegde:
 
@@ -259,7 +282,7 @@ De selectie ziet er als volgt uit:
 
 +++ **Voorbeeld 2**
 
-In dit voorbeeld heeft Aanbod 1 de limiet voor de frequentiegrenzen bereikt. [Meer informatie over aftopping van frequenties](../offer-library/add-constraints.md#capping)
+In dit voorbeeld heeft Aanbod 1 de limiet voor de frequentiegrenzen bereikt. [ Leer meer op frequentie het in kaart brengen ](../offer-library/add-constraints.md#capping)
 
 De selectie ziet er als volgt uit:
 
@@ -271,7 +294,7 @@ De selectie ziet er als volgt uit:
 
 +++ **Voorbeeld 3**
 
-In dit voorbeeld bereikten Aanbod 1 en Aanbieding 3 hun limiet voor de frequentiegrenzen. [Meer informatie over aftopping van frequenties](../offer-library/add-constraints.md#capping)
+In dit voorbeeld bereikten Aanbod 1 en Aanbieding 3 hun limiet voor de frequentiegrenzen. [ Leer meer op frequentie het in kaart brengen ](../offer-library/add-constraints.md#capping)
 
 De selectie ziet er als volgt uit:
 
@@ -283,15 +306,20 @@ De selectie ziet er als volgt uit:
 
 ## Een fallback-aanbieding toevoegen {#add-fallback}
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_fallback"
+>title="Een voorstel voor een fax toevoegen"
+>abstract="Zodra u het besluitvormingswerkingsgebied bepaalde, bepaal de reserveaanbieding die als laatste redmiddel aan de klanten zal worden voorgesteld die niet de regels en de beperkingen van de aanbiedingen geschiktheid aanpassen."
+
 Zodra u het besluitvormingswerkingsgebied bepaalde, bepaal de reserveaanbieding die als laatste redmiddel aan de klanten zal worden voorgesteld die niet de regels en de beperkingen van de aanbiedingen geschiktheid aanpassen.
 
-U doet dit door het te selecteren in de lijst met beschikbare fallback-aanbiedingen voor de plaatsingen die in de beslissing zijn gedefinieerd, en vervolgens op **[!UICONTROL Next]**.
+U doet dit door het te selecteren in de lijst met beschikbare fallback-aanbiedingen voor de plaatsingen die in de beslissing zijn gedefinieerd, en vervolgens op **[!UICONTROL Next]** te klikken.
 
 ![](../assets/add-fallback-offer.png)
 
 >[!NOTE]
 >
->U kunt op de knop **[!UICONTROL Open offer library]** koppeling om de lijst met aanbiedingen op een nieuw tabblad weer te geven.
+>Klik op de koppeling **[!UICONTROL Open offer library]** om de lijst met aanbiedingen op een nieuw tabblad weer te geven.
 
 ## Beslissing bekijken en opslaan {#review}
 
@@ -301,7 +329,7 @@ Als alles behoorlijk wordt gevormd, toont een samenvatting van de beslissingseig
 
    ![](../assets/review-decision.png)
 
-1. U kunt elke plaatsing uitvouwen of samenvouwen. U kunt voor elke plaatsing een voorvertoning weergeven van de beschikbare voorstellen, de geschiktheid en de rangschikkingsgegevens. U kunt ook informatie weergeven over de geschatte gekwalificeerde profielen. Klikken **[!UICONTROL Refresh]** gegevens bijwerken.
+1. U kunt elke plaatsing uitvouwen of samenvouwen. U kunt voor elke plaatsing een voorvertoning weergeven van de beschikbare voorstellen, de geschiktheid en de rangschikkingsgegevens. U kunt ook informatie weergeven over de geschatte gekwalificeerde profielen. Klik op **[!UICONTROL Refresh]** om gegevens bij te werken.
 
    ![](../assets/review-decision-details.png)
 
@@ -312,37 +340,37 @@ Als alles behoorlijk wordt gevormd, toont een samenvatting van de beslissingseig
 
    U kunt de beslissing ook opslaan als concept, zodat u deze later kunt bewerken en activeren.
 
-De beslissing wordt in de lijst weergegeven met de **[!UICONTROL Live]** of **[!UICONTROL Draft]** status, afhankelijk van het feit of u deze al dan niet hebt geactiveerd in de vorige stap.
+De beslissing wordt in de lijst weergegeven met de status **[!UICONTROL Live]** of **[!UICONTROL Draft]** , afhankelijk van het feit of u de beslissing hebt geactiveerd in de vorige stap.
 
 Het is nu klaar om te worden gebruikt om aanbiedingen aan klanten te leveren.
 
 ## Beslissingenlijst {#decision-list}
 
-In de beslissingslijst kunt u de beslissing selecteren om de eigenschappen ervan weer te geven. Daar kunt u het ook bewerken, de status ervan wijzigen (**Concept**, **Live**, **Voltooid**, **Gearchiveerd**), de beslissing dupliceren of verwijderen.
+In de beslissingslijst kunt u de beslissing selecteren om de eigenschappen ervan weer te geven. Van daar kunt u het ook uitgeven, zijn status veranderen (**Ontwerp**, **Levend**, **Volledig**, **Gearchiveerd**), het besluit dupliceren, of het schrappen.
 
 ![](../assets/decision_created.png)
 
-Selecteer de **[!UICONTROL Edit]** om terug te gaan naar de modus voor beslissingseditie, waar u de beslissing kunt wijzigen [details](#create-activity), [beslissingsbereik](#add-decision-scopes) en [fallback-aanbieding](#add-fallback).
+Selecteer de **[!UICONTROL Edit]** knoop om naar de wijze van de beslissingsuitgave terug te gaan, waar u de 1} details van het besluit ](#create-activity) kunt wijzigen, [ besluitvormingswerkingsgebied ](#add-decision-scopes) en [ fallback aanbieding ](#add-fallback).[
 
 >[!IMPORTANT]
 >
 >Als er wijzigingen worden aangebracht in een biedbesluit dat wordt gebruikt in een reisbericht, moet u de reis ongedaan maken en opnieuw publiceren.  Dit zal ervoor zorgen dat de veranderingen in het reisbericht worden opgenomen en dat de boodschap in overeenstemming is met de meest recente updates.
 
-Selecteer een live beslissing en klik op **[!UICONTROL Deactivate]** om de beslissingsstatus terug te brengen naar **[!UICONTROL Draft]**.
+Selecteer een live beslissing en klik op **[!UICONTROL Deactivate]** om de beslissingsstatus weer in te stellen op **[!UICONTROL Draft]** .
 
-De status opnieuw instellen op **[!UICONTROL Live]**, selecteert u de **[!UICONTROL Activate]** die nu wordt weergegeven.
+Als u de status opnieuw wilt instellen op **[!UICONTROL Live]** , selecteert u de knop **[!UICONTROL Activate]** die nu wordt weergegeven.
 
 ![](../assets/decision_activate.png)
 
-De **[!UICONTROL More actions]** schakelt u de hieronder beschreven handelingen in.
+Met de knop **[!UICONTROL More actions]** schakelt u de hieronder beschreven handelingen in.
 
 ![](../assets/decision_more-actions.png)
 
-* **[!UICONTROL Complete]**: stelt de status van het besluit in op **[!UICONTROL Complete]**, wat betekent dat het besluit niet meer kan worden genoemd. Deze handeling is alleen beschikbaar voor geactiveerde beslissingen. Het besluit is nog steeds beschikbaar in de lijst, maar u kunt de status niet terugzetten op **[!UICONTROL Draft]** of **[!UICONTROL Approved]**. U kunt het alleen dupliceren, verwijderen of archiveren.
+* **[!UICONTROL Complete]**: stelt de status van het besluit in op **[!UICONTROL Complete]** , wat betekent dat het besluit niet meer kan worden aangeroepen. Deze handeling is alleen beschikbaar voor geactiveerde beslissingen. De beslissing is nog steeds beschikbaar in de lijst, maar u kunt de status niet terugzetten op **[!UICONTROL Draft]** of **[!UICONTROL Approved]** . U kunt het alleen dupliceren, verwijderen of archiveren.
 
-* **[!UICONTROL Duplicate]**: maakt een beslissing met dezelfde eigenschappen, hetzelfde beslissingsbereik en hetzelfde fallback-aanbod. Het nieuwe besluit heeft standaard de **[!UICONTROL Draft]** status.
+* **[!UICONTROL Duplicate]**: maakt een beslissing met dezelfde eigenschappen, hetzelfde beslissingsbereik en dezelfde fallback-aanbieding. De nieuwe beslissing heeft standaard de status **[!UICONTROL Draft]** .
 
-* **[!UICONTROL Delete]**: verwijdert de beslissing uit de lijst.
+* **[!UICONTROL Delete]** : hiermee verwijdert u de beslissing uit de lijst.
 
   >[!CAUTION]
   >
@@ -350,7 +378,7 @@ De **[!UICONTROL More actions]** schakelt u de hieronder beschreven handelingen 
   >
   >Als de beslissing in een ander object wordt gebruikt, kan deze niet worden verwijderd.
 
-* **[!UICONTROL Archive]**: stelt de beslissingsstatus in op **[!UICONTROL Archived]**. Het besluit is nog steeds beschikbaar in de lijst, maar u kunt de status niet terugzetten op **[!UICONTROL Draft]** of **[!UICONTROL Approved]**. U kunt deze alleen dupliceren of verwijderen.
+* **[!UICONTROL Archive]** : stelt de beslissingsstatus in op **[!UICONTROL Archived]** . De beslissing is nog steeds beschikbaar in de lijst, maar u kunt de status niet terugzetten op **[!UICONTROL Draft]** of **[!UICONTROL Approved]** . U kunt deze alleen dupliceren of verwijderen.
 
 U kunt ook de status van meerdere beslissingen tegelijk verwijderen of wijzigen door de desbetreffende selectievakjes in te schakelen.
 
@@ -364,7 +392,7 @@ Nadat u een beslissing hebt gemaakt, kunt u in de lijst op de naam ervan klikken
 
 ![](../assets/decision_click-name.png)
 
-Dit laat u toe om tot gedetailleerde informatie voor dat besluit toegang te hebben. Selecteer de **[!UICONTROL Change log]** tab naar [alle wijzigingen controleren](../get-started/user-interface.md#changes-log) die op het besluit zijn genomen.
+Dit laat u toe om tot gedetailleerde informatie voor dat besluit toegang te hebben. Selecteer het **[!UICONTROL Change log]** lusje aan [ controle alle veranderingen ](../get-started/user-interface.md#changes-log) die aan het besluit zijn aangebracht.
 
 ![](../assets/decision_information.png)
 

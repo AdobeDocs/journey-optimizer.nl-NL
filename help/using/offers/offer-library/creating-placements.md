@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '596'
 ht-degree: 1%
 
 ---
@@ -19,6 +19,16 @@ ht-degree: 1%
 >id="ajo_decisioning_placement"
 >title="Plaatsing"
 >abstract="Een plaatsing is een container die wordt gebruikt om aanbiedingen te tonen. Het helpt ervoor te zorgen dat de juiste aanbiedingsinhoud op de juiste plaats binnen uw bericht verschijnt. Plaatsen worden gemaakt via het menu &quot;Componenten&quot;."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_placement_request"
+>title="Instellingen aanvragen"
+>abstract="Schakel de optie **[!UICONTROL Allow Duplicates across placements]** in om ervoor te zorgen dat het systeem rekening houdt met dezelfde aanbieding voor meerdere plaatsingen. Gebruik het veld **[!UICONTROL Request offer]** om het aantal geretourneerde voorstellen aan te passen. Als u bijvoorbeeld 2 selecteert, worden de beste 2 aanbiedingen weergegeven voor het geselecteerde beslissingsbereik."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_placement_response"
+>title="Responsindeling"
+>abstract="Met de opties **[!UICONTROL Include content]** en **[!UICONTROL Include metadata]** kunt u opgeven of de inhoud en metagegevens van de aanbieding moeten worden geretourneerd in de API-reactie. U kunt alleen alle metagegevens of specifieke velden opnemen. De waarde voor Inclusief metagegevens is standaard ingesteld op true."
 
 Een plaatsing helpt ervoor te zorgen dat de juiste aanbiedingsinhoud op de juiste plaats binnen uw bericht verschijnt. Wanneer u inhoud aan een aanbieding toevoegt, wordt u gevraagd een plaatsing te selecteren waarin die inhoud kan worden weergegeven.
 
@@ -46,7 +56,6 @@ Voer de volgende stappen uit om een plaatsing te maken:
    * **[!UICONTROL Description]**: Een beschrijving van de plaatsing (optioneel).
 
    ![](../assets/offers_placement_creation_properties.png)
-
 
 1. De secties **[!UICONTROL Request settings]** en **[!UICONTROL Response format]** bevatten aanvullende parameters:
 

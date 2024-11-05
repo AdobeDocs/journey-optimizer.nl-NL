@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 1%
+source-wordcount: '456'
+ht-degree: 0%
 
 ---
 
@@ -19,6 +19,26 @@ ht-degree: 1%
 >id="ajo_decisioning_decision_collection"
 >title="Over aanbiedingsverzamelingen"
 >abstract="Met aanbiedingen kunt u uw aanbiedingen ordenen door deze te hergroeperen in categorieën van uw keuze."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_collection_dynamic"
+>title="Dynamische verzameling"
+>abstract="Gebruik verzamelingskwalificatoren om aanbiedingen voor een verzameling dynamisch te kwalificeren."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_collection_static"
+>title="Statische verzameling"
+>abstract="U kunt aanbiedingen handmatig selecteren en groeperen aan de hand van criteria zoals status, kwalificatie voor verzameling, datum en kanaal."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_collection_static_select"
+>title="Voorvertoning statische verzameling"
+>abstract="De statische inzamelingen worden gebouwd door individuele aanbiedingen manueel te selecteren om in de inzameling te omvatten. De verzameling kan alleen worden bijgewerkt door er handmatig meer aanbiedingen aan toe te voegen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_collection_dynamic_select"
+>title="Dynamische voorvertoning van verzameling"
+>abstract="Met dynamische verzamelingen worden aanbiedingen verzameld op basis van verzamelingsaanduidingen. Deze verzamelingen worden automatisch bijgewerkt. Als bijvoorbeeld een nieuwe aanbieding wordt gemaakt met de kwalificatie &#39;sport&#39; voor de verzameling, wordt deze automatisch toegevoegd aan de corresponderende verzameling."
 
 Met verzamelingen kunt u uw aanbiedingen ordenen door deze te hergroeperen in categorieën van uw keuze. U kunt bijvoorbeeld een &quot;sport&quot;-collectie maken die alleen sportgerelateerde aanbiedingen bevat.
 
