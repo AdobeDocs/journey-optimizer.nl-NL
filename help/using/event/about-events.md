@@ -12,7 +12,7 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 36%
+ht-degree: 31%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="Reisevenementen"
->abstract="Een gebeurtenis is gekoppeld aan een persoon en heeft betrekking op het gedrag van een persoon (bijvoorbeeld: iemand heeft een product gekocht, een winkel bezocht, een website verlaten, enz.) of op iets dat verband houdt met een persoon (bijvoorbeeld: iemand heeft 10.000 loyaliteitspunten verdiend). Dit is waar Journey Optimizer naar zal luisteren tijdens reizen om de beste volgende acties te organiseren."
+>abstract="Een gebeurtenis is gekoppeld aan een persoon en Het heeft betrekking op het gedrag van een persoon (bijvoorbeeld een persoon heeft een product gekocht, een winkel bezocht, een website verlaten, enz.) of iets wat met een persoon in verband staat (bijvoorbeeld een persoon heeft 10 000 loyaliteitspunten bereikt). Dit is waar Journey Optimizer naar zal luisteren tijdens reizen om de beste volgende acties te organiseren."
 
 Met de gebeurtenisconfiguratie kunt u de informatie definiëren die door [!DNL Journey Optimizer] als gebeurtenissen wordt ontvangen. U kunt meerdere gebeurtenissen gebruiken (in verschillende stappen van een reis) en verschillende reizen kunnen dezelfde gebeurtenis gebruiken.
 
@@ -31,7 +31,7 @@ Met de gebeurtenisconfiguratie kunt u de informatie definiëren die door [!DNL J
 
 U kunt twee typen gebeurtenissen configureren:
 
-* **Eenheids** gebeurtenissen: deze gebeurtenis is verbonden met een persoon. Ze hebben betrekking op het gedrag van een persoon (bijvoorbeeld een persoon heeft een product gekocht, een winkel bezocht, een website verlaten, enz.) of op iets dat verband houdt met een persoon (bijvoorbeeld: iemand heeft 10.000 loyaliteitspunten verdiend). Dit is waar [!DNL Journey Optimizer] tijdens reizen naar luistert om de beste volgende acties te ordenen. Uniforme gebeurtenissen kunnen op regels zijn gebaseerd of door het systeem worden gegenereerd. Leren hoe te om een eenheidsgebeurtenis tot stand te brengen, verwijs naar deze [ pagina ](../event/about-creating.md).
+* **Eenheids** gebeurtenissen: deze gebeurtenis is verbonden met een persoon. Ze hebben betrekking op het gedrag van een persoon (bijvoorbeeld een persoon heeft een product gekocht, een winkel bezocht, een website verlaat, enz.) of op iets dat met een persoon verband houdt (bijvoorbeeld een persoon heeft 10 000 loyaliteitspunten bereikt). Dit is waar [!DNL Journey Optimizer] tijdens reizen naar luistert om de beste volgende acties te ordenen. Uniforme gebeurtenissen kunnen op regels zijn gebaseerd of door het systeem worden gegenereerd. Leren hoe te om een eenheidsgebeurtenis tot stand te brengen, verwijs naar deze [ pagina ](../event/about-creating.md).
 
 * **Bedrijfs** gebeurtenissen: een bedrijfsgebeurtenis is een gebeurtenis die, in tegenstelling tot een eenheidsgebeurtenis, niet met een specifiek profiel verbonden is. Het kan bijvoorbeeld een nieuwsbericht, een sportupdate, een wijziging of annulering van een vlucht, een inventarisatie, weersomstandigheden, enz. zijn. Hoewel deze evenementen niet specifiek zijn voor een profiel, kunnen ze van belang zijn voor elk aantal profielen: personen die zich op bepaalde nieuwsonderwerpen hebben geabonneerd, passagiers op een vlucht, klanten die geïnteresseerd zijn in een product uit de voorraad, enz. Zakelijke gebeurtenissen zijn altijd op regels gebaseerd. Wanneer u een bedrijfsgebeurtenis in een reis laat vallen, voegt het automatisch a **Gelezen publiek** activiteit na toe. Leren hoe te om een bedrijfsgebeurtenis tot stand te brengen, verwijs naar deze [ pagina ](../event/about-creating-business.md).
 
@@ -60,7 +60,7 @@ Voor eenheidsgebeurtenissen zijn er twee typen gebeurtenis-id:
 
 >[!NOTE]
 >
->Journey Optimizer vereist dat gebeurtenissen worden gestreamd naar Data Collection Core Service (DCCS) om een reis te kunnen activeren. Gebeurtenissen in batch of gebeurtenissen uit interne Journey Optimizer-gegevenssets (Berichtfeedback, E-mailtracking, enz.) kan niet worden gebruikt om een reis te starten. Voor gebruiksgevallen waar u gestreamde gebeurtenissen niet kunt krijgen, gelieve een publiek te bouwen dat op die gebeurtenissen wordt gebaseerd en de **Gelezen activiteit van het Publiek** in plaats daarvan te gebruiken. De kwalificatie van het publiek kan technisch worden gebruikt, maar kan stroomafwaartse uitdagingen veroorzaken die op de gebruikte acties worden gebaseerd. Deze gegevens hoeven niet noodzakelijkerwijs naar het Real-Time Profile te gaan. Als u de gebeurtenissen wilt gebruiken voor segmentatie of opzoeken in een aparte journey, raden we u aan de dataset voor profiel in te schakelen.
+>Journey Optimizer vereist dat gebeurtenissen worden gestreamd naar Data Collection Core Service (DCCS) om een reis te kunnen activeren. Gebeurtenissen die worden ingevoerd in batch of gebeurtenissen uit interne Journey Optimizer-gegevenssets (Berichtfeedback, E-mailtracking, enz.) kunnen niet worden gebruikt om een reis te activeren. Voor gebruiksgevallen waar u gestreamde gebeurtenissen niet kunt krijgen, gelieve een publiek te bouwen dat op die gebeurtenissen wordt gebaseerd en de **Gelezen activiteit van het Publiek** in plaats daarvan te gebruiken. De kwalificatie van het publiek kan technisch worden gebruikt, maar kan stroomafwaartse uitdagingen veroorzaken die op de gebruikte acties worden gebaseerd. Deze gegevens hoeven niet noodzakelijkerwijs naar het Real-Time Profile te gaan. Als u de gebeurtenissen wilt gebruiken voor segmentatie of opzoeken in een aparte journey, raden we u aan de dataset voor profiel in te schakelen.
 
 ## Datacyclus {#data-cycle}
 
