@@ -4,15 +4,30 @@ description: Leer hoe u regels voor aftopping kunt maken voor uw reizen en hoe u
 role: User
 level: Beginner
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
 
 
 # Afbakening van reizen en arbitrage {#journey-capping}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_capping_rule"
+>title="Regel toepassen op reizen"
+>abstract="Pas een Regelreeks toe om deze reis aan een deel van uw publiek uit te sluiten die op frequentie het begrenzen regels wordt gebaseerd."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_concurrency_prioritization"
+>title="Prioritaire toekomst"
+>abstract=" Als een reis met een hogere prioriteit binnen de hier gespecificeerde periode wordt gepland, dan zal de klant van het ingaan van deze reis worden onderdrukt. Voor situaties waarin u op de eerste dag reizen wilt maken, stellen wij voor om eerst de Daily-periode te kiezen en ervoor te zorgen dat de prioriteitsscore van andere reizen op die dag lager is dan de prioriteitsscore voor de reis. Een prioriteitsscore van 100 voor een reis zou er ook voor zorgen dat het wordt ingevoerd."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_prioritization"
+>title="Factor in prioritering"
+>abstract="TBD"
 
 >[!AVAILABILITY]
 >

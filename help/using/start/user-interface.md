@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
 workflow-type: tm+mt
-source-wordcount: '1383'
-ht-degree: 4%
+source-wordcount: '1254'
+ht-degree: 5%
 
 ---
 
@@ -196,39 +196,7 @@ De taal wijzigen:
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
-<!--PRIORITIZATION & CONFLICT MANAGEMENT-->
 
->[!CONTEXTUALHELP]
->id="ajo_rule_set_domain"
->title="Objecttype"
->abstract="Objecttype"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_capping_rule"
->title="Regel toepassen op reizen"
->abstract="Pas een Regelreeks toe om deze reis aan een deel van uw publiek uit te sluiten die op frequentie het begrenzen regels wordt gebaseerd."
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_type"
->title="Type regel"
->abstract="Type regel"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_capping"
->title="Regelbegrenzing"
->abstract="Regelbegrenzing"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_concurrency_prioritization"
->title="Prioritaire toekomst"
->abstract=" Als een reis met een hogere prioriteit binnen de hier gespecificeerde periode wordt gepland, dan zal de klant van het ingaan van deze reis worden onderdrukt. Voor situaties waarin u op de eerste dag reizen wilt maken, stellen wij voor om eerst de Daily-periode te kiezen en ervoor te zorgen dat de prioriteitsscore van andere reizen op die dag lager is dan de prioriteitsscore voor de reis. Een prioriteitsscore van 100 voor een reis zou er ook voor zorgen dat het wordt ingevoerd."
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_prioritization"
->title="Factor in prioritering"
->abstract="TBD"
-
-<!--TO REMOVE?-->
 
 <!--CONTENT LOCKING-->
 
