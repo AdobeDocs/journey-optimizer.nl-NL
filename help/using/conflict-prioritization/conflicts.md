@@ -4,9 +4,9 @@ description: Leer hoe u mogelijke conflicten tijdens reizen en campagnes kunt id
 role: User
 level: Beginner
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '766'
 ht-degree: 1%
 
 ---
@@ -41,6 +41,16 @@ Hieronder volgt een overzicht van de manier waarop Journey Optimizer mogelijke c
 * **Levende/Geplande campagnes**: Levende en geplande campagnes kunnen met elkaar in conflict brengen toe te schrijven aan potentiële publieksoverlap. Voor elke campagne worden alle live- of geplande campagnes vermeld in de conflictviewer.
 
 ## Geselecteerde conflicten voor een bepaalde reis of campagne weergeven {#view}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_conflict"
+>title="Mogelijke conflicten weergeven"
+>abstract="Controleer of er een mogelijkheid is voor overlapping met andere campagnes. Conflicten worden alleen weergegeven voor live- en geplande campagnes. De knop wordt beschikbaar zodra u een van de volgende instellingen hebt toegewezen: **[!UICONTROL Start / end date]**, **[!UICONTROL Audience]**, **[!UICONTROL Channel]**, **[!UICONTROL Channel configuration]** en **[!UICONTROL Rule set]** ."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_conflict"
+>title="Mogelijke conflicten weergeven"
+>abstract="Controleer wanneer er een mogelijkheid is van overlapping met andere reizen. Conflicten worden alleen getoond voor rechtstreekse en geplande reizen. De knop wordt beschikbaar zodra u een van de volgende instellingen hebt toegewezen: **[!UICONTROL Start / end date]**, **[!UICONTROL Audience]**, **[!UICONTROL Channel]**, **[!UICONTROL Channel configuration]** en **[!UICONTROL Rule set]** ."
 
 Wanneer u een reis of campagne maakt, kunt u met Journey Optimizer controleren of er een mogelijkheid is om overlappingen te maken met andere reizen of campagnes. Ga als volgt te werk om dit te doen:
 

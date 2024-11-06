@@ -10,9 +10,9 @@ level: Intermediate
 keywords: bericht, frequentie, regels, druk
 badge: label="Beperkte beschikbaarheid"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '1884'
+source-wordcount: '1898'
 ht-degree: 0%
 
 ---
@@ -20,24 +20,9 @@ ht-degree: 0%
 # Werken met regelsets {#rule-sets}
 
 >[!CONTEXTUALHELP]
->id="ajo_rule_set_domain"
->title="Objecttype"
->abstract="Objecttype"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_type"
->title="Type regel"
->abstract="Type regel"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_capping"
->title="Regelbegrenzing"
->abstract="Regelbegrenzing"
-
->[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="Regelsets"
->abstract="Regelsets gebruiken om frequentietoewijzing toe te passen op verschillende typen marketingcommunicatie. Bijvoorbeeld, kunt u een regel tot stand brengen die wordt geplaatst om het aantal **promotionele mededelingen** te beperken naar uw klanten wordt verzonden, en een andere regel tot stand te brengen die wordt geplaatst om het aantal **nieuwsbrieven** te beperken die naar hen worden verzonden."
+>abstract="Regelsets gebruiken om frequentietoewijzing toe te passen op verschillende typen marketingcommunicatie. U kunt ook regelsets maken om ritten naar een deel van uw publiek uit te sluiten op basis van regels voor frequentiecontrole."
 
 >[!AVAILABILITY]
 >
@@ -65,7 +50,12 @@ Naast deze &quot;Globale Vastgestelde van de StandaardRegel&quot;regel, kunt u *
 
 ### Regels voor aftopping van kanalen en reizen {#domain}
 
-Wanneer het creëren van een regelreeks, moet u specificeren als de regels binnen de regelreeks het begrenzen regels zullen afdwingen die voor communicatiekanalen, of voor reizen specifiek zijn.  Dit wordt gedaan door een Kanaal of domein van de Reis voor de regel te selecteren die wanneer het creëren van het wordt geplaatst. [ Leer hoe te om een regelreeks tot stand te brengen ](#create)
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_domain"
+>title="Domein voor regelset"
+>abstract="Wanneer het creëren van een regelreeks, moet u specificeren als de regels binnen de regelreeks het begrenzen regels zullen afdwingen die voor communicatiekanalen, of voor reizen specifiek zijn."
+
+Wanneer het creëren van een regelreeks, moet u specificeren als de regels binnen de regelreeks het begrenzen regels zullen afdwingen die voor communicatiekanalen, of voor reizen specifiek zijn. Dit wordt gedaan door een Kanaal of domein van de Reis voor de regel te selecteren die wanneer het creëren van het wordt geplaatst. [ Leer hoe te om een regelreeks tot stand te brengen ](#create)
 
 * **het domein van het Kanaal**: pas het begrenzen regels voor communicatiekanalen toe. Verzend bijvoorbeeld niet meer dan 1 e-mail- of sms-communicatie per dag.
 * **Reis** domein: pas ingang en gelijktijdige het afschilderen regels op een reis toe. Voer bijvoorbeeld niet profielen in voor meer dan één reis tegelijk.
@@ -101,10 +91,11 @@ Volg onderstaande stappen om een regelset te maken.
 >title="Selecteer de categorie voor berichtregels"
 >abstract="Wanneer deze optie wordt geactiveerd en toegepast op een bericht, worden alle frequentieregels die overeenkomen met de geselecteerde categorie automatisch toegepast op dit bericht. Momenteel is alleen de marketingcategorie beschikbaar."
 
->[!CONTEXTUALHELP]
+<!--NOT USED?
+[!CONTEXTUALHELP]
 >id="ajo_rule_sets_capping"
->title="De uitlijning van uw regel instellen"
->abstract="Geef het maximumaantal berichten op dat binnen de gekozen tijdsperiode naar een klantprofiel wordt verzonden. De maximale frequentie wordt gebaseerd op de geselecteerde kalenderperiode en wordt opnieuw ingesteld aan het begin van het corresponderende tijdkader."
+>title="Set the capping for your rule"
+>abstract="Specify the maximum number of messages sent to a customer profile within the chosen time frame. The frequency cap will be based on the selected calendar period and will be reset at the beginning of the corresponding time frame."-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"
@@ -115,6 +106,11 @@ Volg onderstaande stappen om een regelset te maken.
 >id="ajo_rule_sets_duration"
 >title="Selecteer de categorie voor berichtregels"
 >abstract="Wanneer deze optie wordt geactiveerd en toegepast op een bericht, worden alle frequentieregels die overeenkomen met de geselecteerde categorie automatisch toegepast op dit bericht. Momenteel is alleen de marketingcategorie beschikbaar."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_capping"
+>title="Regelbegrenzing"
+>abstract="Plaats het maximum voor uw regel. Afhankelijk van het regelvastgestelde domein en de selectie op het gebied van het Type van Regel, kan dit gebied het maximumaantal berichten bepalen dat naar een profiel kan worden verzonden, of het maximumaantal reizen het profiel kan ingaan of worden ingeschreven gelijktijdig."
 
 Als u een regel aan een regelset wilt toevoegen, opent u de regelset en klikt u op **[!UICONTROL Add rule]** .
 

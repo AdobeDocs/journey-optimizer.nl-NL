@@ -4,30 +4,15 @@ description: Leer hoe u regels voor aftopping kunt maken voor uw reizen en hoe u
 role: User
 level: Beginner
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
 
 
 # Afbakening van reizen en arbitrage {#journey-capping}
-
->[!CONTEXTUALHELP]
->id="ajo_journey_capping_rule"
->title="Regel toepassen op reizen"
->abstract="Pas een Regelreeks toe om deze reis aan een deel van uw publiek uit te sluiten die op frequentie het begrenzen regels wordt gebaseerd."
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_concurrency_prioritization"
->title="Prioritaire toekomst"
->abstract=" Als een reis met een hogere prioriteit binnen de hier gespecificeerde periode wordt gepland, dan zal de klant van het ingaan van deze reis worden onderdrukt. Voor situaties waarin u op de eerste dag reizen wilt maken, stellen wij voor om eerst de Daily-periode te kiezen en ervoor te zorgen dat de prioriteitsscore van andere reizen op die dag lager is dan de prioriteitsscore voor de reis. Een prioriteitsscore van 100 voor een reis zou er ook voor zorgen dat het wordt ingevoerd."
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_prioritization"
->title="Factor in prioritering"
->abstract="TBD"
 
 >[!AVAILABILITY]
 >
@@ -43,6 +28,16 @@ Beide typen aftopping maken gebruik van prioriteitsscores om items te scheiden.
 ➡️ [ ontdekt deze eigenschap in video ](#video)
 
 ## Een regel voor het afdekken van reizen maken {#create-rule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_concurrency_prioritization"
+>title="Prioritaire toekomst"
+>abstract=" Als een reis met een hogere prioriteit binnen de hier gespecificeerde periode wordt gepland, dan zal de klant van het ingaan van deze reis worden onderdrukt. Voor situaties waarin u op de eerste dag reizen wilt maken, stellen wij voor om eerst de Daily-periode te kiezen en ervoor te zorgen dat de prioriteitsscore van andere reizen op die dag lager is dan de prioriteitsscore voor de reis. Een prioriteitsscore van 100 voor een reis zou er ook voor zorgen dat het wordt ingevoerd."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_type"
+>title="Type regel"
+>abstract="Geef het type uitlijnen voor de regel op. **[!UICONTROL Journey Entry Cap]** beperkt het aantal items in de reis over een bepaalde periode voor een profiel, terwijl **[!UICONTROL Journey Concurrency Cap]** beperkt hoeveel reizen een profiel tegelijkertijd kan inschrijven."
 
 Voer de volgende stappen uit om een regel voor het afdekken van reizen te maken:
 
@@ -109,6 +104,11 @@ Voer de volgende stappen uit om een regel voor het afdekken van reizen te maken:
    ![](assets/journey-capping-activate-rule-set.png)
 
 ## Afdekkingsregels toepassen op reizen {#apply-capping}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_capping_rule"
+>title="Regel toepassen op reizen"
+>abstract="Pas een Regelreeks toe om deze reis aan een deel van uw publiek uit te sluiten die op frequentie het begrenzen regels wordt gebaseerd."
 
 Om een afluisterregel op een reis toe te passen, toegang tot de reis en open zijn eigenschappen. Selecteer in de vervolgkeuzelijst **[!UICONTROL Capping rules]** de desbetreffende regelset. Zodra de reis in werking wordt gesteld, zullen de plafondregels die in de vastgestelde regel worden bepaald van kracht worden.
 

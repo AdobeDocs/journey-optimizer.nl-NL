@@ -4,15 +4,25 @@ description: Leer hoe u prioriteitsscores kunt toewijzen aan reizen en campagnes
 role: User
 level: Beginner
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
 
 
 # Prioritaire scores toewijzen aan reizen en campagnes {#priority}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_priority"
+>title="Prioriteit"
+>abstract="Wijs een prioriteitsscore toe aan de campagne. Prioriteit is essentieel voor het bepalen van prioriteiten voor een campagne wanneer er een opgelegde beperking is, zoals een frequentiegrens. Voer een numerieke waarde in (van 0-100). Let op: hoe hoger het getal, hoe hoger de prioriteit. Voor situaties waarin twee campagnes dezelfde prioriteitsscore hebben, wordt de campagne weergegeven die als eerste werd geactiveerd."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_priority"
+>title="Prioriteit"
+>abstract="Wijs een prioritaire score toe aan de reis. Prioriteit is essentieel om prioriteit te geven aan een reis wanneer er een opgelegde beperking is, zoals een frequentiegrens. Voer een numerieke waarde in (van 0-100). Let op: hoe hoger het getal, hoe hoger de prioriteit. Voor situaties waarin twee ritten dezelfde prioriteitsscore hebben, wordt de reis die als eerste werd ingezet, getoond."
 
 >[!AVAILABILITY]
 >
