@@ -4,9 +4,9 @@ description: Leer hoe u prioriteitsscores kunt toewijzen aan reizen en campagnes
 role: User
 level: Beginner
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Met Journey Optimizer kunt u een prioriteitsscore toekennen aan een reis of camp
 
 >[!NOTE]
 >
->Prioriteitsscore is beschikbaar voor binnenkomende kanalen: web, in-app en op code gebaseerde kanalen. In reis, is de prioritaire score beschikbaar voor **in-app** en **code-gebaseerde** kanalen slechts.
+>In campagnes is de prioriteitsscore alleen beschikbaar voor het web, in-app en op code gebaseerde inkomende kanalen.
 
 ➡️ [ ontdekt deze eigenschap in video ](#video)
 

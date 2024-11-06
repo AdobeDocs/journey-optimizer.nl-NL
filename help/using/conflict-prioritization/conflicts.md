@@ -4,9 +4,9 @@ description: Leer hoe u mogelijke conflicten tijdens reizen en campagnes kunt id
 role: User
 level: Beginner
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '781'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,10 @@ De belangrijkste gebieden om voor potentiële overlapping te controleren zijn:
 * **Kanaal**: Zijn er andere mededelingen die voor zelfde timeframe worden gepland, en als zo, hoeveel?
 * **het Bedekken van Reeks van de Regel**: Welke types van reizen ben ik bedekken en is er overlapping binnen die?
 * **Configuratie van het Kanaal**: Zijn er andere reizen of campagnes gebruikend om het even welke kanaalconfiguratie die in de zelfde reis of de campagne wordt gebruikt die de reis of de campagne zou kunnen verhinderen aan het eind - gebruiker worden getoond?
+
+>[!NOTE]
+>
+>In campagnes is de prioriteitsscore alleen beschikbaar voor het web, in-app en op code gebaseerde inkomende kanalen.
 
 ➡️ [ ontdekt deze eigenschap in video ](#video)
 
