@@ -5,11 +5,10 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-badge: label="Beperkte beschikbaarheid"
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '371'
 ht-degree: 2%
 
 ---
@@ -31,7 +30,7 @@ Laten we bijvoorbeeld een scenario overwegen waarin u beslissingsitems hebt die 
 >
 >Naast de besluitvormingsregels op het niveau van de item- en selectiestrategie kunt u ook het doelpubliek op campagnereniveau definiëren. [Meer informatie](../campaigns/create-campaign.md#audience)
 
-De lijst met besluitvormingsregels is toegankelijk in het **[!UICONTROL Strategy setup]** -menu.
+De lijst met beslissingsregels is toegankelijk in het menu **[!UICONTROL Strategy setup]** .
 
 ![](assets/decision-rules-list.png)
 
@@ -39,23 +38,23 @@ De lijst met besluitvormingsregels is toegankelijk in het **[!UICONTROL Strategy
 
 Voer de volgende stappen uit om een beslissingsregel te maken:
 
-1. Navigeren naar **[!UICONTROL Strategy setup]** / **[!UICONTROL Decision rules]** klik vervolgens op **[!UICONTROL Create rule]** knop.
+1. Navigeer naar de knop **[!UICONTROL Strategy setup]** / **[!UICONTROL Decision rules]** en klik vervolgens op de knop **[!UICONTROL Create rule]** .
 
 1. Het scherm van de besluitvormingsregels opent. Geef de regel een naam en geef een beschrijving op.
 
-1. Bouw de beslissingsregel aan uw behoeften gebruikend de Bouwer van het Segment van Adobe Experience Platform. Hiertoe kunt u verschillende gegevensbronnen gebruiken, zoals profielkenmerken, soorten publiek of contextgegevens die uit Adobe Experience Platform afkomstig zijn. [Leer hoe u contextgegevens kunt gebruiken](#context-data)
+1. Bouw de beslissingsregel aan uw behoeften gebruikend de Bouwer van het Segment van Adobe Experience Platform. Hiertoe kunt u verschillende gegevensbronnen gebruiken, zoals profielkenmerken, soorten publiek of contextgegevens die uit Adobe Experience Platform afkomstig zijn. [ Leer hoe te hefboomwerking contextgegevens ](#context-data)
 
    ![](assets/decision-rules-build.png)
 
    >[!NOTE]
    >
-   >De opsteller van het Segment die wordt verstrekt om besluitvormingsregels tot stand te brengen stelt wat specifieke kenmerken in vergelijking met die gebruikt met de dienst van de Segmentatie van Adobe Experience Platform.  Nochtans, is het globale proces dat in de documentatie wordt beschreven nog geldig om besluitvormingsregels te bouwen. [Leer hoe te om segmentdefinities te bouwen](../audience/creating-a-segment-definition.md)
+   >De opsteller van het Segment die wordt verstrekt om besluitvormingsregels tot stand te brengen stelt wat specifieke kenmerken in vergelijking met die gebruikt met de dienst van de Segmentatie van Adobe Experience Platform.  Nochtans, is het globale proces dat in de documentatie wordt beschreven nog geldig om besluitvormingsregels te bouwen. [ leer hoe te om segmentdefinities te bouwen ](../audience/creating-a-segment-definition.md)
 
-1. Terwijl u nieuwe velden toevoegt en configureert in de werkruimte, worden de **[!UICONTROL Audience properties]** wordt informatie weergegeven over de geschatte profielen die bij het publiek horen. Klikken **[!UICONTROL Refresh estimate]** gegevens bijwerken.
+1. Terwijl u nieuwe velden toevoegt en configureert in de werkruimte, wordt in het deelvenster **[!UICONTROL Audience properties]** informatie weergegeven over de geschatte profielen die bij het publiek horen. Klik op **[!UICONTROL Refresh estimate]** om gegevens bij te werken.
 
    >[!NOTE]
    >
    >Profielramingen zijn niet beschikbaar wanneer regelparameters gegevens bevatten die niet in het profiel staan, zoals contextgegevens.
 
-1. Als uw beslissingsregel gereed is, klikt u op **[!UICONTROL Save]**. De gemaakte regel wordt in de lijst weergegeven en kan worden gebruikt in besluitvormingselementen en selectiestrategieën om de presentatie van beslissingsitems in profielen te regelen.
+1. Klik op **[!UICONTROL Save]** als de beslissingsregel gereed is. De gemaakte regel wordt in de lijst weergegeven en kan worden gebruikt in besluitvormingselementen en selectiestrategieën om de presentatie van beslissingsitems in profielen te regelen.
 

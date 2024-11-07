@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
 workflow-type: tm+mt
-source-wordcount: '1740'
+source-wordcount: '1721'
 ht-degree: 1%
 
 ---
@@ -118,11 +118,6 @@ Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [ deze 
 1. Met code-gebaseerde ervaringen, kunt u de eigenschap van het Beslissen gebruiken. Selecteer het pictogram **[!UICONTROL Decision policy]** op de linkerbalk en klik op **[!UICONTROL Add decision policy]** . [Meer informatie](../experience-decisioning/create-decision.md)
 
    ![](assets/code-based-campaign-create-decision.png)
-
-   >[!NOTE]
-   >
-   >Het besluit is momenteel slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.
-
 
 1. Klik op **[!UICONTROL Save and close]** om uw wijzigingen te bevestigen.
 
