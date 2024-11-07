@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
 workflow-type: tm+mt
-source-wordcount: '2160'
+source-wordcount: '2166'
 ht-degree: 25%
 
 ---
@@ -368,6 +368,7 @@ ht-degree: 25%
 + Soorten publiek, profielen en identiteit {#audiences-profiles-identities}
    + Soorten publiek {#audiences}
       + [Aan de slag met het publiek](using/audience/about-audiences.md)
+      + [Aangepaste upload (CSV) en federatieve compositie van publiek](using/audience/custom-upload-fac.md)
       + [Segmentdefinities samenstellen](using/audience/creating-a-segment-definition.md)
       + Soorten publiek samenstellen {#audience-orchestration}
          + [Aan de slag met publiekscompositie](using/audience/get-started-audience-orchestration.md)

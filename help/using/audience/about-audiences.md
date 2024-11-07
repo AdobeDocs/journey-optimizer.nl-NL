@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 0da5f10953ca3b5e14ddd2dd41eac14d5edca767
+source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
 workflow-type: tm+mt
-source-wordcount: '2278'
+source-wordcount: '2048'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,18 @@ Met [!DNL Journey Optimizer] kunt u rechtstreeks vanuit het menu **[!UICONTROL A
 Soorten publiek kan op verschillende manieren worden gegenereerd:
 
 * **de definities van het Segment**: Creeer een nieuwe publieksdefinitie gebruikend de Dienst van de Segmentatie van Adobe Experience Platform. [ leer hoe te om segmentdefinities te bouwen ](creating-a-segment-definition.md)
+
 * **Douane uploadt**: Invoer een publiek gebruikend een Csv- dossier. Leer hoe te om publiek in de documentatie van de Dienst van de Segmentatie van Adobe Experience Platform [ in te voeren ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience) {target="_blank"}.
+
 * **samenstelling van het publiek**: Creeer een samenstellingswerkschema om bestaand publiek van Adobe Experience Platform in een visueel canvas te combineren en hefboomwerking diverse activiteiten (spleet, sluit uit...) om nieuw publiek tot stand te brengen. [ worden begonnen met publiekssamenstelling ](get-started-audience-orchestration.md)
+
 * **Federated Audience Composition**: De datasets van de federatie direct van uw bestaand gegevenspakhuis om het publiek en de attributen van Adobe Experience Platform allen in één systeem te bouwen en te verrijken. Gelieve te lezen de gids op [ Federated de Samenstelling van het Publiek ](https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home).
 
   >[!AVAILABILITY]
   >
   >Federated Audience Composition is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+
+Voor meer informatie over het gebruik van Douane uploadt en Federated publiek van de Samenstelling van het Publiek in [!DNL Journey Optimizer], verwijs naar [ deze sectie ](custom-upload-fac.md).
 
 ## Doelpubliek in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
@@ -104,22 +109,6 @@ Gedetailleerde informatie over gegevensbronnen is beschikbaar in deze secties:
 * [ vorm een gegevensbron ](../datasource/configure-data-sources.md)
 >
 +++
-
-## Aangepast publiek voor uploaden en Federale doelgroep {#csv}
-
-Deze sectie bevat belangrijke informatie waarmee u rekening kunt houden wanneer u werkt met Aangepaste upload (CSV-bestanden) en Soortgelijke publiek in compositie van publiek:
-
-* **Voorproef en proefdruksteun:** momenteel, wordt de voorproef en de proef niet gesteund voor publiek dat gebruikend CSV wordt gecreeerd uploadt of Federated de Samenstelling van het Publiek. Houd dit in gedachten wanneer u uw campagnes plant.
-
-* **Snelle activering en identiteitsstitching vertragingen:** de architectuur van Adobe Experience Platform vertraagt het identiteit stitching om de upload van de Douane en het Federated publiek van de Samenstelling van de Publiek onmiddellijk beschikbaar voor activering in Journey Optimizer, met de volgende gevolgen te maken:
-
-   * Soorten publiek zijn direct na inname klaar voor gebruik in Journey Optimizer. Hoewel dit meestal binnen een uur ligt, is het afhankelijk van enige variabiliteit.
-   * Het aantal geactiveerde records kan afwijken van het aantal profielen na identiteitsstitching.
-   * Elke record in het publiek wordt geactiveerd, inclusief eventuele duplicaten. Tijdens de volgende UPS-profielexport worden deze records aan identiteitsstitching onderworpen.
-
-* **richtend nieuwe profielen:** wanneer een gelijke niet tussen een verslag en een profiel van UPS wordt gevonden, wordt een nieuw leeg profiel gecreeerd. Dit profiel is gekoppeld aan de verrijkingskenmerken die zijn opgeslagen in het datumpeer. Omdat dit nieuwe profiel leeg is, zijn velden die doorgaans worden gebruikt in Journey Optimizer (bijvoorbeeld PersonalEmail.address, mobilePhone.number) leeg en kunnen deze daarom niet worden gebruikt voor het opgeven van doelen.
-
-  Om dit op te lossen, kunt u het &quot;uitvoeringsgebied&quot;(of &quot;uitvoeringsadres&quot;afhankelijk van het kanaal) in de kanaalconfiguratie als &quot;identityMap&quot;specificeren. Hierdoor wordt gegarandeerd dat het kenmerk dat wordt gekozen als de identiteit bij het maken van een publiek, het kenmerk is dat wordt gebruikt voor het maken van een doelaccount in Journey Optimizer.
 
 ## Methoden voor de evaluatie van het publiek {#evaluation-method-in-journey-optimizer}
 
@@ -184,7 +173,6 @@ Voor het streamen van segmentatie zijn optimale prestaties dus beter geen gebrui
 >[!NOTE]
 >
 U kunt **Geopend Bericht gebruiken** en **Bericht Verzonden** gebeurtenissen in partijsegmentatie zonder enige prestatieszorgen.
-
 
 ## Samenstelling publiek en Veelgestelde vragen over aangepaste upload {#faq}
 
@@ -264,3 +252,8 @@ Bovendien, zijn de verrijkte attributen in publiek samenstellingspubliek zo vers
 
 +++
 
+## Hoe kan ik-video {#video}
+
+Meer informatie over uniforme klantprofielen en soorten publiek in Journey Optimizer.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3432671?quality=12)
