@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: ea016af2dc08321bcf2e5110538031f66c888b90
+source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ De KPI&#39;s van **[!UICONTROL Highlights]** fungeren als een uitgebreid dashboa
 
 +++ Meer informatie over maatstaven voor hooglichten
 
-* **[!UICONTROL Journey engagement]**: Het totale aantal personen dat interactie heeft gehad met de berichten die van de reis zijn verzonden.
+* **[!UICONTROL Journey engagement]**: Het totale aantal unieke personen dat berichten heeft ontvangen die door de reis zijn verzonden, die verschillende profielen vertegenwoordigen die een bepaald actiepunt in de reis hebben bereikt.
 
 * **[!UICONTROL Journey Enters]**: Het totale aantal personen dat de gebeurtenis entry van de reis heeft bereikt.
 

@@ -7,9 +7,10 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a2219bf7791bc5c598228af883d0507180628abf
+exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
+source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ De **[!UICONTROL Journey]** Belangrijkste Indicatoren van Prestaties (KPIs) func
 
 +++ Meer informatie over de maatstaven van PKI&#39;s voor reizen
 
-* **[!UICONTROL Journey engagement]**: Het totale aantal personen dat interactie heeft gehad met de berichten die van de reis zijn verzonden
+* **[!UICONTROL Journey engagement]**: Het totale aantal unieke personen dat berichten heeft ontvangen die door de reis zijn verzonden, die verschillende profielen vertegenwoordigen die een bepaald actiepunt in de reis hebben bereikt.
 
 * **[!UICONTROL Journey enters]**: Het totale aantal personen dat de gebeurtenis entry van de reis heeft bereikt.
 
@@ -54,7 +55,7 @@ De tabel **[!UICONTROL Journey Statistics]** bevat een gedetailleerde samenvatti
 
 +++ Meer informatie over statistieken voor reisstatistieken
 
-* **[!UICONTROL Journey engagement]**: Het totale aantal personen dat interactie heeft gehad met de berichten die van de reis zijn verzonden.
+* **[!UICONTROL Journey engagement]**: Het totale aantal unieke personen dat berichten heeft ontvangen die door de reis zijn verzonden, die verschillende profielen vertegenwoordigen die een bepaald actiepunt in de reis hebben bereikt.
 
 * **[!UICONTROL Journey enters]**: Het totale aantal personen dat de gebeurtenis entry van de reis heeft bereikt.
 
