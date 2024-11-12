@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Sinch-provider configureren
-description: Leer hoe u uw omgeving configureert om tekstberichten te verzenden met Journey Optimizer met Sinch
+description: Leer hoe u uw omgeving configureert voor het verzenden van tekstberichten met Journey Optimizer met Sinch
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+source-git-commit: a196a27fd22a03915838ab4a9bb6139f85242f6b
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '620'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 Wanneer u de Sinch-provider gebruikt met Journey Optimizer, kunt u twee verschillende opties vinden:
 
-* **Configuratie van SMS**: Opstelling uw geloofsbrieven van Sinch API om de berichten van SMS naadloos te verzenden.
+* **Configuratie van SMS**: Opstelling uw geloofsbrieven van Sinch API om de berichten van SMS foutloos te verzenden.
 
-* **Configuratie MMS**: voor het overseinen van verschillende media (MMS), vorm uw Inheems MMS API geloofsbrieven. Merk op dat het volgen van en het antwoorden op binnenkomende berichten, door de configuratie van SMS worden behandeld. De opstelling MMS is slechts voor uitgaande levering van het MMS bericht.
+* **Configuratie MMS**: Voor het overseinen van verschillende media (MMS), vorm uw Inch MMS API geloofsbrieven. Merk op dat het volgen en het antwoorden aan binnenkomende berichten, door de configuratie van SMS worden behandeld. De opstelling MMS is slechts voor uitgaande levering van het MMS bericht.
 
 ## Inloggegevens van de API{#create-api}
 
@@ -40,21 +40,21 @@ Voer de volgende stappen uit om uw Sinch-provider te configureren voor het verze
 
    * **[!UICONTROL Opt-In Message]** : voer de aangepaste reactie in die automatisch als uw **[!UICONTROL Opt-In Message]** wordt verzonden.
 
-   * **[!UICONTROL Opt-Out Keywords]** : voer de standaardtrefwoorden of aangepaste trefwoorden in die automatisch uw **[!UICONTROL Opt-Out Message]** activeren. Gebruik voor meerdere trefwoorden komma-gescheiden waarden.
+   * **[!UICONTROL Opt-Out Keywords]** : voer de standaardtrefwoorden of aangepaste trefwoorden in die automatisch uw **[!UICONTROL Opt-Out Message]** activeren. Gebruik voor meerdere trefwoorden door komma&#39;s gescheiden waarden.
 
-   * **[!UICONTROL Opt-Out Message]**: voer de aangepaste reactie in die automatisch als uw **[!UICONTROL Opt-Out Message]** wordt verzonden.
+   * **[!UICONTROL Opt-Out Message]** : voer de aangepaste reactie in die automatisch als uw **[!UICONTROL Opt-Out Message]** wordt verzonden.
 
-   * **[!UICONTROL Help Keywords]**: ga het gebrek of de douanetrefwoorden in die automatisch uw **Bericht van de Hulp** zullen teweegbrengen. Gebruik voor meerdere trefwoorden komma-gescheiden waarden.
+   * **[!UICONTROL Help Keywords]**: ga het gebrek of douanesleutelwoorden in die uw **Bericht van de Hulp** automatisch zullen teweegbrengen. Gebruik voor meerdere trefwoorden door komma&#39;s gescheiden waarden.
 
    * **[!UICONTROL Help Message]**: ga de douanereactie in die automatisch als uw **Bericht van de Hulp** wordt verzonden.
 
-   * **[!UICONTROL Double Opt-In Keywords]** : voer de trefwoorden in die het dubbele aanmeldingsproces activeren. Als een gebruikersprofiel niet bestaat, wordt het gecreeerd na succesvolle bevestiging. Gebruik voor meerdere trefwoorden komma-gescheiden waarden. [ Leer meer op SMS Dubbele Opt-in ](https://video.tv.adobe.com/v/3427129/?learn=on).
+   * **[!UICONTROL Double Opt-In Keywords]** : voer de trefwoorden in die het dubbele aanmeldingsproces activeren. Als een gebruikersprofiel niet bestaat, wordt het gecreeerd na succesvolle bevestiging. Gebruik voor meerdere trefwoorden door komma&#39;s gescheiden waarden. [ Leer meer op SMS Dubbelopt-binnen ](https://video.tv.adobe.com/v/3427129/?learn=on).
 
    * **[!UICONTROL Double Opt-In Message]**: voer de aangepaste reactie in die automatisch wordt verzonden als reactie op de dubbele aanmeldingsbevestiging.
 
-   * **[!UICONTROL Inbound Number]**: voeg uw unieke binnenkomende aantal of korte code toe. Zo kunt u dezelfde API-referenties gebruiken in verschillende sandboxen, elk met een eigen binnenkomend nummer of korte code.
+   * **[!UICONTROL Inbound Number]**: voeg uw unieke binnenkomende aantal of korte code toe. Hierdoor kunt u dezelfde API-referenties gebruiken in verschillende sandboxen, elk met een eigen binnenkomend nummer of korte code.
 
-   * **[!UICONTROL Custom Inbound Keywords]**: definieer unieke trefwoorden voor specifieke acties, zoals KORTING, AANBIEDINGEN, INSCHRIJVEN. Deze trefwoorden worden vastgelegd en opgeslagen als kenmerken in het profiel, zodat u een streamingsegmentkwalificatie binnen het traject kunt activeren en een aangepaste reactie of actie kunt leveren.
+   * **[!UICONTROL Custom Inbound Keywords]**: definieer unieke trefwoorden voor specifieke acties, zoals KORTING, AANBIEDINGEN, ENROLL. Deze trefwoorden worden vastgelegd en opgeslagen als kenmerken in het profiel, zodat u een kwalificatie voor een streaming segment op de reis kunt activeren en een aangepaste reactie of actie kunt leveren.
 
    * **[!UICONTROL Default Inbound Reply Message]**: voer het standaardantwoord in dat wordt verzonden wanneer een eindgebruiker een binnenkomend SMS-bericht verzendt dat niet overeenkomt met een van de gedefinieerde trefwoorden.
 
@@ -82,12 +82,10 @@ Voer de volgende stappen uit om Sinch MMS te configureren voor het verzenden van
 
    * **[!UICONTROL Name]**: kies een naam voor uw API-referentie.
 
-   * **[!UICONTROL Project ID]** , **[!UICONTROL App ID]** en **[!UICONTROL API Token]**: volg de onderstaande stappen om uw MMS API-referenties te verzamelen.
+   * **[!UICONTROL Project ID]** , **[!UICONTROL App ID]** en **[!UICONTROL API Token]** : volg de onderstaande stappen om uw MMS API-referenties te verzamelen.
 
-      * Voor **[!UICONTROL Project ID]** en **[!UICONTROL App ID]**: heb toegang tot de [ API van de Gesprek pagina van het Overzicht ](https://dashboard.sinch.com/convapi/overview) van uw project van de Signaal op uw Dashboard van Sinch.
-      * Voor **[!UICONTROL API Token]**: Verkrijg de [ sleutels van de Toegang ](https://community.sinch.com/t5/Customer-Dashboard/Sinch-Access-Keys/ta-p/12638) voor uw Project van de Sinch en produceer a **Base64 API Token** uit uw Sleutels van de Toegang van het Project van de Sinch ****.
-
-   * **[!UICONTROL Service Plan ID]** en **[!UICONTROL SMS API Token]**: de **[!UICONTROL Service Plan ID]** en **[!UICONTROL SMS API Token]** bevinden zich op het tabblad SMS van de pagina met API&#39;s.
+      * Voor **[!UICONTROL Project ID]** en **[!UICONTROL App ID]**: Heb toegang tot de [ API van de Gesprek - overzicht ](https://dashboard.sinch.com/convapi/overview) pagina van uw project van Sinch op uw Staaldashboard.
+      * Voor **[!UICONTROL API Token]**: Verkrijg de [ sleutels van de Toegang ](https://community.sinch.com/t5/Customer-Dashboard/Sinch-Access-Keys/ta-p/12638) voor uw Project van de Sinch en produceer a **Base64 API Symbolisch** uit uw Duidelijke Sleutels van de Toegang van het Project ****.
 
 1. Klik op **[!UICONTROL Submit]** wanneer u de configuratie van uw API-referenties hebt voltooid.
 
