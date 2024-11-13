@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
+source-git-commit: 3951201f24f5277774f192944ca479e8354c13bc
 workflow-type: tm+mt
-source-wordcount: '2048'
+source-wordcount: '2031'
 ht-degree: 0%
 
 ---
@@ -218,10 +218,9 @@ Om verrijkingsattributen van publiek te gebruiken creeerde het gebruiken van sam
 
 +++
 
-+++ Hoe snel kan ik het in Journey Optimizer gebruiken nadat ik een publiek heb gepubliceerd vanuit de compositie van het publiek of aangepaste upload?
++++ Hoe snel kan ik het in Journey Optimizer gebruiken na het publiceren van een publiek uit de compositie van het publiek?
 
-* Het publiek van **publiekssamenstelling** wordt dagelijks uitgevoerd, zodat kunt u tot 24 uren moeten wachten om hen in Journey Optimizer te gebruiken.
-* Het publiek van **douane uploadt** wordt beschikbaar in Journey Optimizer ongeveer 2 uur na publicatie.
+Het publiek van **publiekssamenstelling** wordt dagelijks uitgevoerd, zodat kunt u tot 24 uren moeten wachten om hen in Journey Optimizer te gebruiken.
 
 +++
 
