@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 mini-toc-levels: 1
-source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
+exl-id: d2365e3f-fbef-43c2-bf2a-0a868cb93015
+source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 2%
+source-wordcount: '394'
+ht-degree: 0%
 
 ---
 
@@ -24,10 +25,6 @@ Naast segmentdefinities en publiekscompositie kunt u in [!DNL Journey Optimizer]
 * **Douane uploadt**: Invoer een publiek gebruikend een Csv- dossier. Leer hoe te om publiek in de documentatie van de Dienst van de Segmentatie van Adobe Experience Platform [ in te voeren ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience) {target="_blank"}.
 
 * **Federated Audience Composition**: De datasets van de federatie direct van uw bestaand gegevenspakhuis om het publiek en de attributen van Adobe Experience Platform allen in één systeem te bouwen en te verrijken. Gelieve te lezen de gids op [ Federated de Samenstelling van het Publiek ](https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home).
-
-  >[!AVAILABILITY]
-  >
-  >Federated Audience Composition is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 U kunt deze doelgroep in Journey Optimizer activeren of activeren naar een bestemming die wordt ondersteund door Adobe Experience Platform
 

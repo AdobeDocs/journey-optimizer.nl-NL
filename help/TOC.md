@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 87bb8739be76d9535fb9c77ceada0ea5f179b099
+source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2165'
 ht-degree: 25%
 
 ---
@@ -375,7 +375,7 @@ ht-degree: 25%
          + [Samenstellingswerkstromen maken](using/audience/create-compositions.md)
          + [Werken met het compositicanvas](using/audience/composition-canvas.md)
          + [Toegang tot en beheer van het publiek](using/audience/access-audiences.md)
-      + [ Federated Audience Composition (Beperkte beschikbaarheid) ](https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home)
+      + [Samenstelling van Federated-doelgroep](https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home)
    + Profielen {#profiles}
       + [Aan de slag met profielen](using/audience/get-started-profiles.md)
       + [Testprofielen maken](using/audience/creating-test-profiles.md)

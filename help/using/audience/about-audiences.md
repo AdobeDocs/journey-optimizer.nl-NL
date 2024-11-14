@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 3951201f24f5277774f192944ca479e8354c13bc
+source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
 workflow-type: tm+mt
-source-wordcount: '2031'
+source-wordcount: '2010'
 ht-degree: 0%
 
 ---
@@ -41,10 +41,6 @@ Soorten publiek kan op verschillende manieren worden gegenereerd:
 * **samenstelling van het publiek**: Creeer een samenstellingswerkschema om bestaand publiek van Adobe Experience Platform in een visueel canvas te combineren en hefboomwerking diverse activiteiten (spleet, sluit uit...) om nieuw publiek tot stand te brengen. [ worden begonnen met publiekssamenstelling ](get-started-audience-orchestration.md)
 
 * **Federated Audience Composition**: De datasets van de federatie direct van uw bestaand gegevenspakhuis om het publiek en de attributen van Adobe Experience Platform allen in één systeem te bouwen en te verrijken. Gelieve te lezen de gids op [ Federated de Samenstelling van het Publiek ](https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home).
-
-  >[!AVAILABILITY]
-  >
-  >Federated Audience Composition is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 Voor meer informatie over het gebruik van Douane uploadt en Federated publiek van de Samenstelling van het Publiek in [!DNL Journey Optimizer], verwijs naar [ deze sectie ](custom-upload-fac.md).
 
