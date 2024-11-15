@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: d9fde8bfc7fd3ab3139c4212e2fef490dd9a8cce
+source-git-commit: 594bb029c7d8b711fe60697c5c2e06d9943189fa
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 5%
+source-wordcount: '1323'
+ht-degree: 4%
 
 ---
 
@@ -252,16 +252,16 @@ De taal wijzigen:
 >abstract="Beslissing inschakelen"
 
 >[!CONTEXTUALHELP]
->id="ajo_exd_decision_policy"
+>id="ajo_exd_decision_attribute"
 >title="Beslissingskenmerken selecteren uit catalogus"
 >abstract="Beslissingskenmerken worden opgeslagen in het schema van de catalogus. Selecteer een kenmerk dat u hier wilt gebruiken in de geselecteerde catalogus."
 
 >[!CONTEXTUALHELP]
->id="ajo_exd_placements"
+>id="ajo_exd_decision_policy"
 >title="Beslissingsbeleid"
 >abstract="Met een beslissingsbeleid kunt u de beste items kiezen uit de beslissingsengine en leveren aan elk publiek."
 
 >[!CONTEXTUALHELP]
->id="ajo_exd_decision_attribute"
+>id="ajo_exd_placements"
 >title="Plaatsing"
->abstract="Plaatsing"
+>abstract="Een plaatsing bepaalt waar de teruggekeerde punten van de besluitvormingsmotor in een bericht verschijnen. U kunt de prestaties van de verschillende locaties in de rapportage bijhouden."
