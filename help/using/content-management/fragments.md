@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
+source-git-commit: 2f5195f209c5e0e5665722b7c1e12e164acc587e
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -23,43 +23,43 @@ ht-degree: 0%
 >abstract="Maak en beheer standalone fragmenten om uw inhoud te hergebruiken voor meerdere reizen en campagnes."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="Fragmenten maken"
 
-Een fragment is een herbruikbare component waarnaar in een of meer e-mails kan worden verwezen [!DNL Journey Optimizer] campagnes en reizen. Met deze functionaliteit kunt u meerdere blokken met aangepaste inhoud vooraf samenstellen. Deze blokken kunnen door marketinggebruikers worden gebruikt om snel e-mailinhoud samen te stellen in een verbeterd ontwerpproces.
+Een fragment is een herbruikbare component waarnaar in een of meer e-mails via [!DNL Journey Optimizer] -campagnes en -reizen kan worden verwezen. Met deze functionaliteit kunt u meerdere blokken aangepaste inhoud vooraf samenstellen die door marketinggebruikers kunnen worden gebruikt om snel e-mailinhoud samen te stellen in een verbeterd ontwerpproces.
 
 ![](../rn/assets/do-not-localize/fragments.gif)
 
-➡️ [Leer hoe u fragmenten beheert, ontwerpt en gebruikt in deze video&#39;s](#video-fragments)
+➡️ [ Leer hoe te om, auteur en gebruiksfragmenten in deze video&#39;s te beheren ](#video-fragments)
 
 U kunt zo veel mogelijk gebruikmaken van fragmenten:
 
-* **Uw eigen fragmenten maken**: Maak visuele fragmenten of expressiefragmenten, geheel nieuw of door inhoud op te slaan als fragment. [Leer hoe u een fragment maakt](#create-fragments). Bovendien kun je Journey Optimizer gebruiken **Content REST API** om inhoudsfragmenten te beheren. Raadpleeg voor meer informatie de [Journey Optimizer API-documentatie](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
-* **Fragmenten opnieuw gebruiken:** Gebruik deze zo vaak als nodig is in de inhoud. Zie [Visuele fragmenten toevoegen](../email/use-visual-fragments.md) en [Expressiefragmenten benutten](../personalization/use-expression-fragments.md)
+* **creeer uw eigen fragmenten**: Creeer visuele of uitdrukkingsfragmenten, of van kras of door inhoud als fragment op te slaan. [ Leer hoe te om een fragment ](#create-fragments) tot stand te brengen. Bovendien kunt u hefboomwerking Journey Optimizer **Inhoud REST API** gebruiken om inhoudsfragmenten te beheren. Voor meer op dit, verwijs naar de [ documentatie van Journey Optimizer APIs ](https://developer.adobe.com/journey-optimizer-apis/references/content/) {target="_blank"}.
+* **hergebruik uw fragmenten:** gebruik hen zo vele tijden zoals nodig in uw inhoud. Zie [ visuele fragmenten ](../email/use-visual-fragments.md) en [ de uitdrukkingsfragmenten van de Leverage ](../personalization/use-expression-fragments.md) toevoegen
 
 ## Voordat u begint {#fragment-prerequisites}
 
-Voor het maken, bewerken, archiveren en publiceren van fragmenten hebt u de opdracht **[!DNL Manage library items]** en **[Publish-fragment]** machtigingen die zijn opgenomen in de **[!DNL Content Library Manager]** productprofiel. [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager)
+Om, fragmenten tot stand te brengen uit te geven, te archiveren en te publiceren hebt u de **[!DNL Manage library items]** en **[2} toestemmingen van het Fragment van Publish inbegrepen in het **[!DNL Content Library Manager]**productprofiel nodig.]** [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager)
 
 In deze versie gelden de volgende beperkingen:
 
-* **Visuele fragmenten** zijn alleen beschikbaar voor het e-mailkanaal.
-* **Expressiefragmenten** zijn niet beschikbaar voor het kanaal in de app.
+* **de fragmenten van Visual** zijn beschikbaar voor het E-mailkanaal slechts.
+* **de fragmenten van de Uitdrukking** zijn niet beschikbaar voor het in-app kanaal.
 
 ## Fragmenten voor visuele en expressies {#visual-expression}
 
 Er zijn twee typen fragmenten beschikbaar:
 
-* **Visuele fragmenten** Dit zijn vooraf gedefinieerde visuele blokken die u kunt hergebruiken in meerdere e-mailleveringen met de [Designer e-mailen](../email/get-started-email-design.md), of in [inhoudssjablonen](../email/use-email-templates.md).
-* **Expressiefragmenten** zijn vooraf gedefinieerde expressies die beschikbaar zijn via een toegewezen item in het dialoogvenster [personalisatie-editor](../personalization/personalization-build-expressions.md).
+* **Visuele fragmenten** zijn vooraf bepaalde visuele blokken die u over veelvoudige e-mailleveringen kunt hergebruiken gebruikend [ E-mail Designer ](../email/get-started-email-design.md), of in [ inhoudsmalplaatjes ](../email/use-email-templates.md).
+* **de fragmenten van de Uitdrukking** zijn vooraf bepaalde uitdrukkingen die van een specifieke ingang in de [ verpersoonlijkingsredacteur ](../personalization/personalization-build-expressions.md) beschikbaar zijn.
 
-Alle gemaakte fragmenten zijn toegankelijk vanuit de **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]**  links. [Leer hoe u fragmenten beheert](../content-management/manage-fragments.md)
+Alle gemaakte fragmenten zijn toegankelijk via het menu **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** links. [ Leer hoe te om fragmenten ](../content-management/manage-fragments.md) te beheren
 
 ![](assets/fragment-list.png)
 
 ## Hoe kan ik-video {#video-fragments}
 
-Leer hoe u beheert, ontwerpt en gebruikt **visuele fragmenten** in [!DNL Journey Optimizer].
+Leer hoe te om, auteur, en gebruik **visuele fragmenten** in [!DNL Journey Optimizer] te beheren.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
-Leer hoe u beheert, ontwerpt en gebruikt **expressiefragmenten** in [!DNL Journey Optimizer].
+Leer hoe te om, auteur, en gebruiks **uitdrukkingsfragmenten** in [!DNL Journey Optimizer] te beheren.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)
