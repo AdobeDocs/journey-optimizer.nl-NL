@@ -5,22 +5,22 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: 3fb9e6cd61e73e9ddf1971f6aa8e15c8b82b8445
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '323'
 ht-degree: 5%
 
 ---
 
 # Gebruiksscenario voor beslissing {#experience-decisioning-uc}
 
-In dit geval definieert u twee leveringsbehandelingen die elk een ander beslissingsbeleid bevatten om te meten welke het beste voor uw doelpubliek presteert.
+In dit geval maakt u een campagne waarin u twee leveringsbehandelingen definieert, elk met een ander beslissingsbeleid om te meten welke het beste voor uw doelgroep presteert.
 
-## Items en strategieën maken
+## Beslissingsitems en selectiestrategieën maken
 
 U moet eerst punten tot stand brengen, hen groeperen samen in inzamelingen, opstellingsregels en het rangschikken methodes. Met deze elementen kunt u selectiestrategieën maken.
 
-1. Navigeer naar **[!UICONTROL Decisioning]** > **[!UICONTROL  Catalogs]** en maak verschillende aanbiedingsitems. Stel beperkingen in met gebruik van soorten publiek of regels om elk item te beperken tot specifieke profielen. [Meer informatie](items.md)
+1. Navigeer naar **[!UICONTROL Decisioning]** > **[!UICONTROL  Catalogs]** en maak verschillende beslissingsitems. Stel beperkingen in met gebruik van soorten publiek of regels om elk item te beperken tot specifieke profielen. [Meer informatie](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->
@@ -37,11 +37,11 @@ U moet eerst punten tot stand brengen, hen groeperen samen in inzamelingen, opst
 
 Als u uw bezoekers de beste dynamische aanbieding en ervaring wilt laten zien op uw website of mobiele app, voegt u een beslissingsbeleid toe aan een op code gebaseerde campagne.
 
-Definieer twee leveringsbehandelingen die elk een ander beslissingsbeleid bevatten.
+<!--Define two delivery treatments each containing a different decision policy.-->
 
 1. Maak een campagne en selecteer de handeling **[!UICONTROL Code-base experience]** . [Meer informatie](../code-based/create-code-based.md)
 
-1. Klik in de overzichtspagina van de campagne op **[!UICONTROL Create experiment]** om uw inhoudexperiment te configureren. [Meer informatie](../content-management/content-experiment.md)
+1. Start vanuit het venster **[!UICONTROL Edit content]** de aanpassing A.
 
 1. Selecteer het pictogram **[!UICONTROL Decisions]** , klik op **[!UICONTROL Create a decision]** en vul de beslissingsdetails in. [Meer informatie](create-decision.md)
 
@@ -61,7 +61,9 @@ Definieer twee leveringsbehandelingen die elk een ander beslissingsbeleid bevatt
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
-1. Bouw behandeling B en herhaal de stappen hierboven om een andere beslissing tot stand te brengen.
+1. Klik in de overzichtspagina van de campagne op **[!UICONTROL Create experiment]** om uw inhoudexperiment te configureren. [Meer informatie](../content-management/content-experiment.md)
+
+1. Selecteer in het venster **[!UICONTROL Edit content]** de B-methode die u wilt gebruiken om de inhoud te wijzigen en herhaal de bovenstaande stappen om een andere beslissing te maken.
 
 1. Sla uw inhoud op.
 
