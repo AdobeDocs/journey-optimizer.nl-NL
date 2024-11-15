@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
+source-git-commit: 841a114610bfee743f5ebb349e3eef6312de0f7b
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2163'
 ht-degree: 25%
 
 ---
@@ -480,7 +480,7 @@ ht-degree: 25%
          + [Gebruik van contextgegevens](using/experience-decisioning/context-data.md)
       + [Selectiestrategieën maken](using/experience-decisioning/selection-strategies.md)
       + [Beslissingsbeleid maken](using/experience-decisioning/create-decision.md)
-      + [Rapportage in Customer Journey Analytics](using/experience-decisioning/cja-reporting.md)
+      + [Verslag over het besluit](using/experience-decisioning/cja-reporting.md)
    + Beslissingsbeheer {#offer-decisioning}
       + Aan de slag met beslissingsbeheer {#get-started-decision}
          + [Over het beheer van besluiten](using/offers/get-started/starting-offer-decisioning.md)

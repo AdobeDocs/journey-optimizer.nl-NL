@@ -1,20 +1,31 @@
 ---
-title: Rapportage in Customer Journey Analytics
-description: Leer hoe u Rapportering in Customer Journey Analytics uitvoert
+title: Verslag over het besluit
+description: Leer hoe u melding kunt maken van beslissingen.
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Experienced
 badge: label="Beperkte beschikbaarheid"
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: 841a114610bfee743f5ebb349e3eef6312de0f7b
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 1%
+source-wordcount: '220'
+ht-degree: 0%
 
 ---
 
-# Rapportage in Customer Journey Analytics {#cja}
+
+# Verslag over het besluit {#decisioning-report}
+
+## Op code gebaseerde campagnes die verslag uitbrengen {#campaigns}
+
+Zodra code-gebaseerde ervaring levend is, kunt u tot specifieke rapporten toegang hebben om Zeer belangrijke Indicatoren van Prestaties (KPIs) als allesomvattend dashboard te controleren, leverend een analyse van essentiële metriek verbonden aan uw campagne.
+
+Dit omvat details met betrekking tot de beslissingsitems en de manier waarop gebruikers met hen hebben gewerkt. [ Leer hoe te met op code-gebaseerde ervaringsrapporten ](../reports/campaign-global-report-cja-code.md) te werken
+
+![](../reports/assets/cja-decisioning-item-performance.png)
+
+## Rapportage in Customer Journey Analytics {#cja}
 
 Als u met Customer Journey Analytics werkt, kunt u aangepaste rapporteringsdashboards voor uw op code-gebaseerde campagnes creëren leveraging Beslissing.
 
