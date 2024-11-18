@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 1%
@@ -20,7 +20,6 @@ ht-degree: 1%
 Beslissing vereenvoudigt personalisering door een gecentraliseerde catalogus van marketing aanbiedingen aan te bieden die als &quot;beslissingspunten&quot;en een geavanceerd besluitvormingsmotor worden bekend. Deze motor hanteert regels en rangschikkingscriteria om de meest relevante beslissingsitems te selecteren en aan elk individu voor te leggen.
 
 Deze besluitpunten zijn naadloos geïntegreerd in een brede waaier van binnenkomende oppervlakten door het [ nieuwe code-gebaseerde ervaringskanaal ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based), nu toegankelijk binnen de campagnes van Journey Optimizer. Beslissingsbeleid is beschikbaar voor gebruik in code-gebaseerde ervaringscampagnes slechts.
-
 
 ## Belangrijke stappen voor besluitvorming {#steps}
 

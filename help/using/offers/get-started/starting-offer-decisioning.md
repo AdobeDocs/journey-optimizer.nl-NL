@@ -1,28 +1,28 @@
 ---
 title: Aan de slag met Beslissingsbeheer
-description: Ontdek hoe Adobe Journey Optimizer u kan helpen uw klanten het juiste aanbod op het juiste moment te sturen
+description: Ontdek hoe Adobe Journey Optimizer u kan helpen uw klanten op het juiste moment het juiste aanbod te sturen
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: fcd8c4077bead912d709b726c6ff15464357a8be
+source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 21%
+source-wordcount: '894'
+ht-degree: 49%
 
 ---
 
-# Over Besluitbeheer {#about-decision-management}
+# Aan de slag met Beslissingsbeheer {#about-decision-management}
 
-Gebruiken [!DNL Journey Optimizer] om uw klanten de beste aanbieding en ervaring op alle aanraakpunten op het juiste moment te bieden. Als u ze eenmaal hebt ontworpen, richt u zich op uw publiek met persoonlijke aanbiedingen.
+Gebruik [!DNL Journey Optimizer] om uw klanten de beste aanbieding en ervaring op alle aanraakpunten op het juiste moment te bieden. Als u ze eenmaal hebt ontworpen, richt u zich op uw publiek met persoonlijke aanbiedingen.
 
 Beslissingsbeheer maakt personalisatie gemakkelijk met een centrale bibliotheek van marketing aanbiedingen en een besluitvormingsmotor die regels en beperkingen op rijke, real-time profielen toepast die door Adobe Experience Platform worden gecreeerd om u te helpen uw klanten het juiste aanbod op het juiste ogenblik verzenden.
 
 De beslissingsmanagementcapaciteit bestaat uit twee hoofdcomponenten:
 
-* De **Gecentraliseerde aanbiedingsbibliotheek** Dit is de interface waar u de verschillende elementen creeert en beheert die uw aanbiedingen vormen, en hun regels en beperkingen bepalen.
-* De **Beslissingsengine voorstellen** die gebruikmaakt van Adobe Experience Platform-gegevens en realtime klantprofielen, samen met de aanbiedingsbibliotheek, om de juiste tijd, klanten en kanalen te selecteren waaraan de aanbiedingen worden geleverd.
+* De **Gecentraliseerde Bibliotheek van de Aanbieding** die de interface is waar u creeert en de verschillende elementen beheert die uw aanbiedingen samenstellen, en hun regels en beperkingen bepalen.
+* De **Motor van het Besluit van de Aanbieding** die hefboomwerkingen de gegevens van Adobe Experience Platform en de profielen van de Klant in real time, samen met de Bibliotheek van de Aanbieding, om de juiste tijd, de klanten en de kanalen te selecteren waaraan de aanbiedingen zullen worden geleverd.
 
 ![](../assets/architecture.png)
 
@@ -32,12 +32,12 @@ Voordelen zijn:
 * Verbeterde workflows: in plaats van meerdere verzendingen of campagnes te maken kunnen marketingteams de workflows verbeteren door één verzending te maken en de aanbiedingen in verschillende delen van de sjabloon te variëren,
 * De controle over het aantal keren dat een aanbieding wordt getoond aan campagnes en klanten.
 
-➡️ [Meer informatie over beslissingsbeheer in deze video&#39;s](#video)
+➡️ [ leren meer over het Beheer van het Besluit in deze video&#39;s ](#video)
 
 
 >[!NOTE]
 >
->Als u een [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} gebruiker die de **Offer decisioning** alle functies voor Beslissingsbeheer die in deze sectie worden beschreven, zijn ook op u van toepassing.
+>Als u een [ Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html) {target="_blank"} gebruiker die de **Offer decisioning** toepassing leveraging, zijn alle die eigenschappen van het Beheer van het Besluit in deze sectie worden beschreven ook op u van toepassing.
 
 ## Aanbiedingen en beslissingen {#about-offers-and-decisions}
 
@@ -69,41 +69,41 @@ Dankzij de mogelijkheden voor Beslissingsbeheer en de integratie met Adobe Exper
 
 ## Toegang verlenen tot het beheer van besluiten {#granting-acess-to-decision-management}
 
-Machtigingen voor toegang tot en gebruik van beslissingsmogelijkheden worden beheerd met behulp van de [Adobe Admin Console](https://helpx.adobe.com/nl/enterprise/managing/user-guide.html){target="_blank"}.
+De toestemmingen om beslissingsmogelijkheden toegang te hebben en te gebruiken worden beheerd gebruikend [ Adobe Admin Console ](https://helpx.adobe.com/nl/enterprise/managing/user-guide.html) {target="_blank"}.
 
-Om toegang tot de functionaliteit van het Beheer van het Besluit te verlenen, moet u tot een **[!UICONTROL Product profile]** en wijs de overeenkomstige toestemmingen aan uw gebruikers toe. Meer informatie over beheren [!DNL Journey Optimizer] gebruikers en machtigingen in [deze sectie](../../administration/permissions.md).
+Als u toegang wilt verlenen tot de functionaliteit voor beslissingsbeheer, moet u een **[!UICONTROL Product profile]** maken en de bijbehorende machtigingen aan uw gebruikers toewijzen. Leer meer bij het beheren van [!DNL Journey Optimizer] gebruikers en toestemmingen in [ deze sectie ](../../administration/permissions.md).
 
-De machtigingen die specifiek zijn voor Beslissingsbeheer worden vermeld in [deze sectie](../../administration/high-low-permissions.md#decisions-permissions).
+De toestemmingen specifiek voor het Beheer van het Besluit worden vermeld in [ deze sectie ](../../administration/high-low-permissions.md#decisions-permissions).
 
 ## Woordenlijst {#glossary}
 
 U kunt onder de lijst van de belangrijkste concepten vinden u zult werken met wanneer het gebruiken van Beslissingsbeheer.
 
-* **Afbeelding** of **Frequentiecorrectie**: Afdekkingen worden gebruikt als een beperking om te bepalen hoe vaak een aanbieding wordt gepresenteerd. Er zijn twee soorten plafonds, hoeveel keer een aanbod kan worden voorgesteld over het gecombineerde doelpubliek, ook bekend als &quot;Total caps&quot; en hoeveel keer een aanbod kan worden voorgesteld aan dezelfde eindgebruiker, ook bekend als &quot;Profile Cap&quot;.
+* **Limitering** of **Frequentiebeperking**: limitering (ofwel beperking) wordt gebruikt om een limiet in te stellen voor het aantal keren dat een aanbieding wordt ingezet. Er zijn twee soorten limieten: een limiet voor het aantal keren dat een aanbieding aan de gecombineerde doelgroep kan worden aangeboden, ook wel ‘totaallimiet’ genoemd, en een limiet voor het aantal keren dat een aanbieding aan dezelfde eindgebruiker kan worden aangeboden, ook wel ‘profiellimiet’ genoemd.
 
-* **Verzamelingen**: Verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketeter zijn gedefinieerd, zoals de categorie van de aanbieding.
+* **Verzamelingen**: verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketeer zijn gedefinieerd, zoals de categorie van de aanbieding.
 
-* **Besluit**: Een beslissing bevat de logica die de selectie van een aanbieding informeert.
+* **Besluit**: Een besluit bevat de logica die de selectie van een aanbieding informeert.
 
-* **Beslissingsregel**: Beslissingsregels zijn beperkingen die aan een gepersonaliseerd aanbod worden toegevoegd en die worden toegepast op een profiel om te bepalen of het in aanmerking komt voor steun.
+* **Beslissingsregel**: beslissingsregels zijn restricties die aan een persoonlijke aanbieding worden toegevoegd en op een profiel worden toegepast om te bepalen of dat profiel in aanmerking komt voor een aanbieding.
 
-* **In aanmerking komende aanbieding**: Een in aanmerking komende aanbieding voldoet aan de vooraf gedefinieerde beperkingen die consistent aan een profiel kunnen worden aangeboden.
+* **Geschikte aanbieding**: een geschikte aanbieding voldoet aan de restricties die op een hoger niveau zijn ingesteld zodat de aanbieding consistent aan een profiel kan worden aangeboden.
 
-* **Beslissingsbeheer**: Staat u toe om eindgebruiker gepersonaliseerde aanbiedingservaringen over kanalen en toepassingen tot stand te brengen en te leveren gebruikend bedrijfslogica en besluitvormingsregels.
+* **Beheer van het Besluit**: Staat u toe om eindgebruiker gepersonaliseerde aanbiedingservaringen over kanalen en toepassingen tot stand te brengen en te leveren gebruikend bedrijfslogica en besluitvormingsregels.
 
-* **Terugvalvoorstellen**: Een fallback-aanbieding is de standaardaanbieding die wordt weergegeven wanneer een eindgebruiker niet in aanmerking komt voor een van de gepersonaliseerde aanbiedingen in de collectie.
+* **Alternatieve aanbiedingen**: een alternatieve aanbieding is de standaardaanbieding die wordt weergegeven wanneer een eindgebruiker niet in aanmerking komt voor een van de persoonlijke aanbiedingen in de verzameling.
 
-* **Voorstel**: Een aanbieding is een marketingbericht waaraan regels kunnen zijn gekoppeld die bepalen wie in aanmerking komt om de aanbieding te zien.
+* **Aanbieding**: een aanbieding is een marketingbericht waaraan regels gekoppeld kunnen zijn die bepalen wie in aanmerking komt om de aanbieding te zien.
 
-* **Bibliotheek van aanbieding**: De aanbiedingsbibliotheek is een centrale bibliotheek die wordt gebruikt om gepersonaliseerde en terugvalaanbiedingen, besluitvormingsregels en besluiten te beheren.
+* **Bibliotheek van de Aanbieding**: De aanbiedingsbibliotheek is een centrale bibliotheek die wordt gebruikt om gepersonaliseerde en reserveaanbiedingen, besluitvormingsregels en besluiten te beheren.
 
-* **Persoonlijke aanbiedingen**: Een gepersonaliseerde aanbieding is een aanpasbaar marketingbericht dat is gebaseerd op toelatingsregels en -beperkingen.
+* **Persoonlijke aanbiedingen**: een persoonlijke aanbieding is een aanpasbaar marketingbericht op basis van geschiktheidsregels en restricties.
 
-* **Plaatsen**: Een plaatsing is de locatie en/of context waarin een aanbieding voor een eindgebruiker verschijnt.
+* **Plaatsingen**: een plaatsing is de locatie en/of de context waarin een aanbieding voor een eindgebruiker wordt weergegeven.
 
-* **Prioriteit**: De prioriteit wordt gebruikt om aanbiedingen te rangschikken die aan alle beperkingen, zoals geschiktheid, kalender, en maximum voldoen.
+* **Prioriteit**: prioriteiten worden gebruikt om aanbiedingen te rangschikken die voldoen aan alle restricties, zoals geschiktheid, kalender en beperking.
 
-* **Vertegenwoordigingen**: Een vertegenwoordiging is informatie die door een kanaal, zoals plaats of taal wordt gebruikt om een aanbieding te tonen.
+* **Weergaven**: een weergave is informatie (bijv. de locatie of taal) die door een kanaal wordt gebruikt om een aanbieding te tonen.
 
 ## Hoe kan ik-video&#39;s{#video}
 
