@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
 workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 8%
@@ -449,7 +449,6 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 <tr>
 <td>
 <p>Met de Adobe Stock en Adobe Journey Optimizer Email Designer Integration-insteekmodule kunnen klanten eenvoudig door afbeeldingen navigeren, licenties aanschaffen en afbeeldingen opslaan voor gebruik in het schrijven van berichten. </br> de nieuwe <b> vindt gelijkaardige foto's van de Voorraad </b> optie staat u ook toe om van de foto's van de Voorraad de plaats te bepalen die de inhoud, de kleur, en de samenstelling van uw beelden zullen aanpassen. </p>
-<!--img src="assets/do-not-localize/stock-rn.gif"/-->
 <p>Raadpleeg de <a href="../content-management/stock.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
@@ -466,7 +465,6 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 <tr>
 <td>
 <p>U kunt nu de e-mailfunctie BCC (blinde koolstofkopie) gebruiken om e-mails op te slaan die door Adobe Journey Optimizer zijn verzonden. Schakel deze optie in uw e-mailvoorinstellingen in, zodat elke verzonden e-mail blind wordt gekopieerd naar uw BCC-adres.</p>
-<!--img src="assets/do-not-localize/bcc-rn.gif"/-->
 <p>Raadpleeg de <a href="../configuration/archiving-support.md#bcc-email">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
@@ -547,7 +545,6 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 <tr>
 <td>
 <p>U kunt nu bedrijfsregels voor meerdere kanalen instellen die overgevraagde profielen automatisch uitsluiten van berichten en handelingen.</p>
-<!--img src="assets/do-not-localize/frequency-rn.gif"/-->
 <p>Raadpleeg de <a href="../configuration/frequency-rules.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
@@ -564,7 +561,6 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 <tr>
 <td>
 <p>U kunt nu getrainde modelsystemen gebruiken in Beslissingsbeheer. Deze nieuwe capaciteitranches kunnen worden weergegeven voor een bepaald profiel.</p>
-<!--img src="assets/do-not-localize/optimization.gif"/-->
 <p>Raadpleeg de <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
@@ -598,7 +594,6 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 <tr>
 <td>
 <p>U kunt nu de acties controleren die gebruikers op Adobe Journey Optimizer-bronnen uitvoeren.</p>
-<!--img src="assets/do-not-localize/audit-rn.gif"/-->
 <p>Raadpleeg de <a href="../privacy/audit-logs.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
