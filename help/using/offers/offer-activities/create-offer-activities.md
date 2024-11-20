@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
+source-git-commit: 8535040fd3fe1622d4358a762f92bd93f5694cfa
 workflow-type: tm+mt
 source-wordcount: '2445'
 ht-degree: 0%
@@ -308,7 +308,7 @@ De selectie ziet er als volgt uit:
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_fallback"
->title="Een voorstel voor een fax toevoegen"
+>title="Een fallback-aanbieding toevoegen"
 >abstract="Zodra u het besluitvormingswerkingsgebied bepaalde, bepaal de reserveaanbieding die als laatste redmiddel aan de klanten zal worden voorgesteld die niet de regels en de beperkingen van de aanbiedingen geschiktheid aanpassen."
 
 Zodra u het besluitvormingswerkingsgebied bepaalde, bepaal de reserveaanbieding die als laatste redmiddel aan de klanten zal worden voorgesteld die niet de regels en de beperkingen van de aanbiedingen geschiktheid aanpassen.
@@ -384,7 +384,7 @@ U kunt ook de status van meerdere beslissingen tegelijk verwijderen of wijzigen 
 
 ![](../assets/decision_multiple-selection.png)
 
-Als u de status wilt wijzigen van verschillende beslissingen met verschillende statussen, worden alleen de desbetreffende statussen gewijzigd.
+Als u de status van verschillende beslissingen met verschillende statussen wilt wijzigen, worden alleen de desbetreffende statussen gewijzigd.
 
 ![](../assets/decision_change-status.png)
 
