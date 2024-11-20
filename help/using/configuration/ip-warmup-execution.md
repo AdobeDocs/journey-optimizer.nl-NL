@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP, groep, subdomeinen, leverbaarheid
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
 workflow-type: tm+mt
-source-wordcount: '2436'
+source-wordcount: '2532'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
       >
       >Deze sectie kan niet worden bewerkt.
 
-1. Indien nodig kunt u de campagne vervangen met de knop **[!UICONTROL Replace]** . U kunt de geselecteerde campagne ook **[!UICONTROL Clear]** met de knop **[!UICONTROL Clear]** . Deze actie zal niet alleen de campagne maar ook andere fasepleigenschappen zoals de Uitsluiting van de Groep van het Domein, Campagne, de Uitsluiting van de Reis, en anderen ontruimen. Na het ontruimen, kunt u of onmiddellijk of op een recentere tijd een nieuwe campagne kiezen.
+1. Indien nodig kunt u de campagne vervangen met de knop **[!UICONTROL Replace]** . U kunt de geselecteerde campagne ook **[!UICONTROL Clear]** met de knop **[!UICONTROL Clear]** . Deze actie zal niet alleen de campagne maar ook de andere faseniveau eigenschappen (domeingroepen sluiten uit, Campagne, de Uitsluiting van de Reis, en anderen. Na het ontruimen, kunt u of onmiddellijk of op een recentere tijd een nieuwe campagne kiezen.
 
    ![](assets/ip-warmup-plan-replace-campaign.png)
 
@@ -187,6 +187,12 @@ At phase level, system ensures that previously targeted + new profiles are picke
 1. Selecteer de optie **[!UICONTROL Cancel activated runs in case of errors]** om een uitvoering te annuleren als de gekwalificeerde profielen kleiner zijn dan de doelprofielen nadat het publiek voor die uitvoering is geëvalueerd. In dat geval krijgt de run de status **[!UICONTROL Failed]** .
 
    ![](assets/ip-warmup-plan-pause.png)
+
+   Als het aantal gekwalificeerde profielen niet overeenkomt met het aantal doelprofielen (er worden bijvoorbeeld 1500 Gmail-adressen als doel opgegeven tijdens de uitvoering, maar er zijn slechts 700 Gmail-profielen als kwalificatie):
+
+   * Als de optie is ingeschakeld, mislukt de uitvoering. U kunt of kiezen om minder profielen in de volgende looppas te richten, of [ de looppas ](#split-phase) aan een nieuwe fase te verdelen en een nieuwe campagne voor de nieuwe fase te selecteren om de zelfde profielen opnieuw te richten.
+
+   * Als de optie niet is ingeschakeld, wordt de uitvoering uitgevoerd, maar wordt alleen het beschikbare aantal profielen als doel ingesteld.
 
 1. **[!UICONTROL Activate]** de run. [Meer informatie](#activate-run)
 

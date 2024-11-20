@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP, groep, subdomeinen, leverbaarheid
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
 workflow-type: tm+mt
-source-wordcount: '1581'
+source-wordcount: '1669'
 ht-degree: 0%
 
 ---
@@ -92,108 +92,108 @@ Hieronder is een voorbeeld van een dossier dat een IP warmlopingsplan bevat.
 
 ![](assets/ip-warmup-sample-file.png)
 
-### Het lusje van het Plan van de Warmup {#ip-warmup-plan-tab}
+### Tabblad Warmteplan {#ip-warmup-plan-tab}
 
-* In dit voorbeeld, is een plan voorbereid dat over 17 dagen (genoemd &quot;**looppas**&quot;) overspannen om een doelvolume van meer dan één miljoen profielen te bereiken.
+Om uw IP warmup plan tot stand te brengen, vul het eerste lusje met de gegevens in u uw plan moet voeren.
+
+* In het voorbeeld hierboven, is een plan voorbereid die over 17 dagen (genoemd &quot;**looppas**&quot;) overspannen om een doelvolume van meer dan één miljoen profielen te bereiken.
 
 * Dit gepland wordt uitgevoerd door zes **fasen**, elk van hen die minstens één looppas bevatten.
 
 * U kunt tot 6 kolommen (4 kolommen voor domeingroepen, voor **hebben anderen** kolom en voor **Dagen van de Betrokkenheid** kolom). In dit voorbeeld bestaat het plan uit zes kolommen:
 
-   * Drie waarvan aan **uit-van-de-doos domeingroepen** aan gebruik in uw plan (Gmail, Microsoft, en Oranje) beantwoorden.
-   * Één beantwoordt aan een groep van het douanedomein (die u moet toevoegen gebruikend de ](#custom-domain-group-tab) tabel van de Groep van het Domein van 0} Douane).[
+   * Drie waarvan aan **uit-van-de-doos domeingroepen** aan gebruik in uw plan (Gmail, Yahoo, en Microsoft) beantwoorden. De uit-van-de-doos domeingroepen zijn allen vermeld in de [ groepen van het Domein OTB ](#ootb-domain-groups-tab) tabel.
+   * Één kolom beantwoordt aan een groep van het douanedomein (die u het gebruiken van de ](#custom-domain-group-tab) tabel van de Groep van het Domein 0} moet toevoegen).[
    * De vijfde kolom, **anderen**, bevat alle resterende adressen van andere domeinen die niet uitdrukkelijk in het plan worden behandeld. Deze kolom is optioneel: als deze wordt weggelaten, gaan e-mails alleen naar de opgegeven domeinen.
    * De laatste kolom, **Dagen van de Betrokkenheid**, staat u toe om het aantal dagen te specificeren waarover de overeenkomst zou moeten worden gevolgd of worden beoordeeld.
 
 Het idee moet het aantal gerichte adressen in elke looppas progressief verhogen, terwijl het verminderen van het aantal looppas voor elke fase.
 
-De uit-van-de-doos belangrijkste domeingroepen u aan uw plan kunt toevoegen zijn hieronder vermeld:
+### Tabblad Aangepaste domeingroep {#custom-domain-group-tab}
 
-<!--
-* Gmail
-* Adobe
-* WP
-* Comcast
-* Yahoo
-* Bigpond
-* Orange
-* Softbank
-* Docomo
-* United Internet
-* Microsoft
-* KDDI
-* Italia Online
-* La Poste
-* Apple
--->
+U kunt meer kolommen aan uw plan ook toevoegen door de groepen van het douanedomein te omvatten.
+
+Gebruik het tabblad **[!UICONTROL Custom Domain Group]** om een nieuwe domeingroep te definiëren. Voor elk domein kunt u alle subdomeinen toevoegen waarop het betrekking heeft.
+
+>[!IMPORTANT]
+>
+>Zorg ervoor dat elk domein aan zijn domeingroep uniek is en niet met andere domeingroepen of [ uit-van-de-doos domeingroepen ](#ootb-domain-groups-tab) overlapt.
+
+Als u bijvoorbeeld het aangepaste domein Roadrunner toevoegt, wilt u de volgende subdomeinen opnemen, zoals in het onderstaande voorbeeld: roadrunner.com, nc.rr.com, tampabay.rr.com, rochester.rr.com, enzovoort.
+
+![](assets/ip-warmup-sample-file-custom.png)
+
+>[!NOTE]
+>
+>Als u geen aangepaste domeinen nodig hebt, laat u de tab **[!UICONTROL Custom Domain Group]** leeg.
+
+### Tabblad OTB-domeingroepen {#ootb-domain-groups-tab}
+
+Het **lusje van de Groepen van het Domein OTB** van het IP planmalplaatje van de Warmup bevat alle uit-van-de-doos belangrijkste domeingroepen u aan uw plan kunt toevoegen.
+
+![](assets/ip-warmup-sample-file-ootb.png)
+
+>[!NOTE]
+>
+>Als een domeingroep niet op dit tabblad wordt vermeld, moet u een aangepaste domeingroep maken op het bijbehorende tabblad. [Meer informatie](#custom-domain-group-tab)
+
+De uit-van-de-doos belangrijkste domeingroepen zijn ook hieronder vermeld:
 
 +++ Gmail
 gmail.com;google.com;googlemail.com;googlemail.co.uk
-+++
-
-+++WP
-wp.pl;o2.pl
-+++
-
-+++Comcast
-comcast.net
-+++
-
-+++Yahoo
-aol.fi;games.com;yahoo.com.in y7mail.com;yahoo.hu;yahoo.co.hu ahoo.cn;yahoogroups.com.sg;yahoogroups.com.au aol.es;yahoo.com.au;yahoo.com.vn;yahoo.co.uk;aahoo.ca;ca;aolahoo;aolahoo;aolahoo;aolahoo;aolahoo.hu;aolaolahoo.hu;aolaolahooahoo;ahoo;ahoo;ahoo;ahoo;ahoo;ahoo;ahoo;ahoo;ahoo;ahoo;ahoo;aolahoo;ahoo;ahoo;ahoo;ahoo;ahoo;aolaolahoo;ahoo;ahoo;ahoo;ahoo;aaol.cz;yahoo.ee;aol.be;aolcom.tr;yahoo.si;aol.it;yahoo.es;yahoo.dk;yahoo.dk;yahogroups.ca;document;aol.kr;yahoo.ie;aol.jp;yahoo.lt;aol.nl;document;yahoo.bg;document;aol.se;document;yahoo.de;document;document;document;yahoo.nl;document;aol.dk;document;aol.cl;document;yahoo.no;document;yahoo.cz;yahoo.cz;yayayo;sk;hoogroups.de;yahoo.gr;document;yahoo.ro;document;yahoo.at;document;document;aol.fr;yahoo.gr;aol.in;document;yahoo.rs;aol.de;aol.de;document;document;document;yahoo.se;myaol.jp;jp;;yahoo.pt;document;document;yahoogrupper.dk;yahoo.fr;document;aol.pl;document;aol.ch;yahoo.it;document;aolpolcka.pl;document;documen;yagroppi.it;yahoo.cl;alsmede;documenten;document;document;document;yahoo;yahoo;; ahoo.be;document;document;aol.tw;document;document;document;document;document;document;document;document;aol.ru;document;document;yahoo.lv;aolpolska.pl;aol.at;yahoo.pl
-+++
-
-+++Groeperen
-bigpond.com;bigpond.com.au;bigpond.net;telstra.com;bigpond.net.au
-+++
-
-+++oranje
-voila.com;francetelecom.com;orange.com;orange.fr;wanadoo.fr;voila.fr
-+++
-
-+++Softbank
-c.vodafone.ne.jp;jp-h.ne.jp;k.vodafone.ne.jp;jp-d.ne.jp;jp-c.ne.jp;t.vodafone.ne.jp h.vodafone.ne.jp;r.vodafone.ne.jp;jp-t.ne.jp;jp-q.ne.jp;q.vodafone.ne.jp;s.vodafone.ne.jp;gevangen;jp-s.ne.jp;geba;geborgerd;geremd;gem;aangetand;aangetast;aangetast;aangetast;aangetast;b
-+++
-
-+++Docomo
-docomo.ne.jp
-+++
-
-+++Verenigd Internet
-gmx.de;1and1.com;gmx.fr;mail.com;1und1.de;gmx.com;gmx.net;gmx.at;web.de;gmx.ch
 +++
 
 +++Microsoft
 hotmail.com.tr;live.de live.ru live.nl;live.jp;mts.net xbox.com;hotmail.fr;hotmail.cl;hotmail.jp;live.cl live.live.nl live.at;live.hk;hotmail.com.au;hotmail.com hotmail.co.th live.fr;hotmail;hotmail;hotmail.dl;hotmail;outlook.cl;live.cl;live.com.au.cl;restpost;live;hotmail.no;live.no;live.dk;hotmail.it;live.se;live.be;com live.hotmail.se;com;hotmail.ch;hotmail.ch;hotmail.get;hotmail.gr;live.it;hotmail.ca;hotmail.ca;de
 +++
 
-+++KDDI
-au.com;ezweb.ne.jp;uqmobile.jp
-+++
-
-+++Italia Online
-inwind.it;blu.it;virgilio.it;giallo.it;iol.it;libero.it
-+++
-
-+++La Poste
-laposte.net
++++Yahoo
+aol.fi;games.com;yahoo.com.in y7mail.com;yahoo.hu;yahoo.co.hu ahoo.cn;yahoogroups.com.sg;yahoogroups.com.au aol.es;yahoo.com.au;yahoo.com.vn;yahoo.co.uk;aahoo.ca;ca;aolahoo;aolahoo;aolahoo;aolahoo;aolahoo.hu;aolaolahoo.hu;aolaolahooahoo;ahoo;ahoo;ahoo;ahoo;ahoo;ahoo;ahoo;ahoo;ahoo;ahoo;ahoo;aolahoo;ahoo;ahoo;ahoo;ahoo;ahoo;aolaolahoo;ahoo;ahoo;ahoo;ahoo;aaol.cz;yahoo.ee;aol.be;aolcom.tr;yahoo.si;aol.it;yahoo.es;yahoo.dk;yahoo.dk;yahogroups.ca;document;aol.kr;yahoo.ie;aol.jp;yahoo.lt;aol.nl;document;yahoo.bg;document;aol.se;document;yahoo.de;document;document;document;yahoo.nl;document;aol.dk;document;aol.cl;document;yahoo.no;document;yahoo.cz;yahoo.cz;yayayo;sk;hoogroups.de;yahoo.gr;document;yahoo.ro;document;yahoo.at;document;document;aol.fr;yahoo.gr;aol.in;document;yahoo.rs;aol.de;aol.de;document;document;document;yahoo.se;myaol.jp;jp;;yahoo.pt;document;document;yahoogrupper.dk;yahoo.fr;document;aol.pl;document;aol.ch;yahoo.it;document;aolpolcka.pl;document;documen;yagroppi.it;yahoo.cl;alsmede;documenten;document;document;document;yahoo;yahoo;; ahoo.be;document;document;aol.tw;document;document;document;document;document;document;document;document;aol.ru;document;document;yahoo.lv;aolpolska.pl;aol.at;yahoo.pl
 +++
 
 +++Apple
 mac.com;icloud.com;apple.com;me.com
 +++
 
-### Tabblad Aangepaste domeingroep {#custom-domain-group-tab}
++++Comcast
+comcast.net
++++
 
-U kunt meer kolommen aan uw plan ook toevoegen door de groepen van het douanedomein te omvatten.
++++oranje
+voila.com;francetelecom.com;orange.com;orange.fr;wanadoo.fr;voila.fr
++++
 
-Gebruik het tabblad **[!UICONTROL Custom Domain Group]** om een nieuwe domeingroep te definiëren. Voor elk domein, kunt u alle subdomeinen toevoegen het behandelt.<!--TBC-->
++++La Poste
+laposte.net
++++
 
-Voor domeingroepen die in genoemd plan worden gebruikt, zorg ervoor dat elk domein aan zijn domeingroep uniek is en niet met andere domeingroepen overlapt. Aangezien algemene domeingroepen automatisch worden gedefinieerd, moeten gebruikers hiermee rekening houden bij het maken van aangepaste domeingroepen.
++++Italia Online
+inwind.it;blu.it;virgilio.it;giallo.it;iol.it;libero.it
++++
 
-Als u bijvoorbeeld het aangepaste domein Luma toevoegt, wilt u de volgende subdomeinen opnemen: luma.com, luma.co.uk, luma.it, luma.fr, luma.de, enzovoort.
++++WP
+wp.pl;o2.pl
++++
 
-![](assets/ip-warmup-sample-file-custom.png)
++++Verenigd Internet
+gmx.de;1and1.com;gmx.fr;mail.com;1und1.de;gmx.com;gmx.net;gmx.at;web.de;gmx.ch
++++
+
++++Groeperen
+bigpond.com;bigpond.com.au;bigpond.net;telstra.com;bigpond.net.au
++++
+
++++Docomo
+docomo.ne.jp
++++
+
++++Softbank
+c.vodafone.ne.jp;jp-h.ne.jp;k.vodafone.ne.jp;jp-d.ne.jp;jp-c.ne.jp;t.vodafone.ne.jp h.vodafone.ne.jp;r.vodafone.ne.jp;jp-t.ne.jp;jp-q.ne.jp;q.vodafone.ne.jp;s.vodafone.ne.jp;gevangen;jp-s.ne.jp;geba;geborgerd;geremd;gem;aangetand;aangetast;aangetast;aangetast;aangetast;b
++++
+
++++KDDI
+au.com;ezweb.ne.jp;uqmobile.jp
++++
 
 ### Voorbeeld {#example}
 
@@ -208,13 +208,13 @@ Domeinen buiten Hotmail en van de domeingroep Microsoft worden verzameld in de k
 
 1. Voeg alle Hotmail-domeinen op dezelfde rij toe.
 
-   U kunt ](#copy-paste) kopiëren en kleven alle Hotmail domeinen die in het [ IP lusje van het Plan van de WarmUp ](#ip-warmup-plan-tab) sectie worden vermeld.[
+   U kunt ](#copy-paste) kopiëren en kleven alle Hotmail domeinen die in de [ worden vermeld OTB het lusje van Groepen van het Domein ](#ootb-domain-groups-tab) sectie.[
 
 1. Voeg nog een rij toe.
 
 1. Creeer **Microsoft_X** domeingroep.
 
-1. Voeg alle Microsoft-domeinen die geen Hotmail zijn toe aan dezelfde rij. Op dezelfde manier kunt u deze uit de bovenstaande lijst kopiëren en plakken. [Meer informatie](#copy-paste)
+1. Voeg alle Microsoft-domeinen die geen Hotmail zijn toe aan dezelfde rij. Op dezelfde manier kunt u [ kopiëren en ](#copy-paste) hen van de bovenstaande lijst kleven.
 
 1. Ga terug naar de tab **[!UICONTROL IP Warmup Plan]** .
 
@@ -226,7 +226,7 @@ Domeinen buiten Hotmail en van de domeingroep Microsoft worden verzameld in de k
 
 ### Standaarddomeinen kopiëren en plakken {#copy-paste}
 
-Als u een groep van het douanedomein wilt tot stand brengen die alle Hotmail domeinen bevat bijvoorbeeld, kunt u de domeinen van de standaardlijst kopiëren en kleven die [ hierboven ](#ip-warmup-plan-tab) wordt verstrekt.
+Als u een groep van het douanedomein wilt tot stand brengen die alle Hotmail domeinen bevat bijvoorbeeld, kunt u de domeinen van de **OOTB Groepen van het Domein** lusje van het [ IP warmteopruimingsplan malplaatje ](assets/IPWarmupPlan-Template.xlsx), of van de lijst kopiëren en kleven die [ hierboven ](#ip-warmup-plan-tab) wordt verstrekt.
 
 Gebruik vervolgens het gereedschap voor Excel-omzetting om tekst om te zetten in kolommen:
 
