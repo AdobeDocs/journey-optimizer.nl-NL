@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1766'
 ht-degree: 0%
 
 ---
@@ -88,9 +88,9 @@ In de sectie **[!UICONTROL Strategy sequence]** kunt u de beslissingsitems en de
 
    >[!NOTE]
    >
-   >Er is ten minste één beslissingsonderdeel of strategie vereist. U kunt niet meer dan tien strategieën toevoegen.
+   >Een beslissingsbeleid ondersteunt maximaal 10 selectiestrategieën en besluitvormingselementen samen. [ leer meer op het Beslissen van gidsen &amp; beperkingen ](gs-experience-decisioning.md#guardrails)
 
-1. Wanneer het toevoegen van verscheidene besluitvormingspunten en/of strategieën, zullen zij in een specifieke orde worden geëvalueerd. Het eerste object dat aan de reeks is toegevoegd, wordt eerst geëvalueerd, enzovoort.     Als u de standaardvolgorde wilt wijzigen, kunt u de objecten en/of de groepen slepen en neerzetten om ze naar wens opnieuw te rangschikken. [ leer meer over de evaluatieorde van het besluitvormingsbeleid ](#evaluation-order)
+1. Wanneer het toevoegen van verscheidene besluitvormingspunten en/of strategieën, zullen zij in een specifieke orde worden geëvalueerd. Het eerste object dat aan de reeks is toegevoegd, wordt eerst geëvalueerd, enzovoort. Als u de standaardvolgorde wilt wijzigen, kunt u de objecten en/of de groepen slepen en neerzetten om ze naar wens opnieuw te rangschikken. [ leer meer over de evaluatieorde van het besluitvormingsbeleid ](#evaluation-order)
 
 ### De evaluatievolgorde in een beslissingsbeleid beheren {#evaluation-order}
 

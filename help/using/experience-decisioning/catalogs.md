@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -46,4 +46,8 @@ Ga als volgt te werk om het schema van de catalogus te openen waarin de kenmerke
 
    De gedetailleerde informatie over hoe te met de schema&#39;s van Adobe Experience Platform te werken is beschikbaar in de [ documentatie van het Systeem XDM ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html).
 
-1. Sla het schema op wanneer u de gewenste aangepaste kenmerken hebt toegevoegd. Het nieuwe veld is nu beschikbaar in het scherm voor het maken van itembeslissingen, in de sectie **[!UICONTROL Custom attributes]** .
+1. Sla het schema op wanneer u de gewenste aangepaste kenmerken hebt toegevoegd. Het nieuwe veld is nu beschikbaar in het scherm voor het maken van een besluit-item, in de sectie **[!UICONTROL Custom attributes]** .
+
+>[!NOTE]
+>
+>Een besluitpunt kan een maximum van 100 douanekenmerken omvatten. [ leer meer op het Beslissen van gidsen &amp; beperkingen ](gs-experience-decisioning.md#guardrails)

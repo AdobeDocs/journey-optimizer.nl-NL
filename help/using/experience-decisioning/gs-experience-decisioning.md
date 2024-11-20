@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 05ce9083d9f45332c718adc9d01ec3410ca84050
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -29,17 +29,17 @@ Houd de volgende instructies en beperkingen in acht om een optimaal gebruik van 
 
 * **de punten van de Aanbieding**: Elke puntinzameling kan tot 500 aanbiedingspunten bevatten.
 * **de attributen van de Douane**: Een besluitpunt kan een maximum van 100 douaneattributen omvatten.
-* **de strategieën van de Selectie &amp; handpunten per beleid**: Een besluitvormingsbeleid steunt tot 10 gecombineerde selectiestrategieën en handpunten.
+* **de strategieën van de Selectie &amp; besluitvormingspunten per beleid**: Een besluitvormingsbeleid steunt tot 10 gecombineerde selectiestrategieën en besluitvormingspunten.
 
 ### Subsidiabiliteitsregels {#eligibility}
 
-* **het Nesten Niveaus**: De het nestelen diepte is beperkt tot 30 niveaus. Dit wordt gemeten door de `)` haakjes sluiten in de PQL-tekenreeks te tellen.
-* {de Grootte van het Koord van 0} Regel **: Een regelkoord kan tot 15KB in grootte voor UTF-8 gecodeerde karakters zijn.** Dit komt overeen met 15.000 ASCII-tekens (1 byte elk) of 3.750-7.500 niet-ASCII-tekens (2-4 bytes elk).
+* **het Nesten niveaus**: De het nesten diepte is beperkt tot 30 niveaus. Dit wordt gemeten door de `)` haakjes sluiten in de PQL-tekenreeks te tellen.
+* **het koordgrootte van de Regel**: Een regelkoord kan tot 15KB in grootte voor UTF-8 gecodeerde karakters zijn. Dit komt overeen met 15.000 ASCII-tekens (1 byte elk) of 3.750-7.500 niet-ASCII-tekens (2-4 bytes elk).
 
 ### Beoordelingsformule {#ranking}
 
 * **het Nesten niveaus**: De het nesten diepte is beperkt tot 30 niveaus. Dit wordt gemeten door de `)` haakjes sluiten in de PQL-tekenreeks te tellen.
-* **grootte van het koord van de Formule**: Een regelkoord kan tot 8KB in grootte voor UTF-8 gecodeerde karakters zijn. Dit is 8.000 ASCII-tekens (1 byte elk) of 2.000-4.000 niet-ASCII-tekens (2-4 bytes elk).
+* **grootte van het koord van de Formule**: Een regelkoord kan tot 8KB in grootte voor UTF-8 gecodeerde karakters zijn. Dit komt overeen met 8.000 ASCII-tekens (1 byte elk) of 2.000-4.000 niet-ASCII-tekens (2-4 bytes elk).
 
 ## Belangrijke stappen voor besluitvorming {#steps}
 
