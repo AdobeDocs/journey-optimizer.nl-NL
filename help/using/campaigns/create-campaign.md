@@ -9,23 +9,18 @@ role: User
 level: Beginner
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
+source-git-commit: d39d46ad5376bb8418331f788e4287e21e4322a4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1183'
+ht-degree: 3%
 
 ---
 
 # Een campagne maken {#create-campaign}
 
-Als u een nieuwe campagne wilt maken, opent u het menu **[!UICONTROL Campaigns]** en klikt u op **[!UICONTROL Create campaign]** . U kunt ook een bestaande live campagne dupliceren om een nieuwe te maken. [Meer informatie](modify-stop-campaign.md#duplicate)
+Als u een nieuwe campagne wilt maken, bladert u naar het menu **[!UICONTROL Campaigns]** in de linkertrack en klikt u op **[!UICONTROL Create campaign]** . U kunt ook een bestaande live campagne dupliceren om een nieuwe te maken. [ leer hoe ](modify-stop-campaign.md#duplicate).
 
->[!NOTE]
->
->Voordat u een nieuwe campagne maakt, moet u ervoor zorgen dat u een kanaalconfiguratie (d.w.z. een berichtoppervlak) hebt en een Adobe Experience Platform-publiek klaar voor gebruik. Meer informatie vindt u in de volgende secties:
->
->* [ creeer kanaalconfiguraties ](../configuration/channel-surfaces.md)
->* [ krijgen begonnen met publiek ](../audience/about-audiences.md)
+Alvorens te beginnen, lees de campagnevereisten in [ deze pagina ](get-started-with-campaigns.md#before-starting-campaign-prerequisites) voor.
 
 ## Het type campagne selecteren {#campaigntype}
 
@@ -82,12 +77,11 @@ Voer de volgende stappen uit om de doelgroep van een geplande marketingcampagne 
    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 
+## Selecteer het kanaal {#channel}
 
-## Creeer het bericht en vorm het volgen {#content}
+U kunt nu het kanaal en zijn configuratie selecteren. Volg de onderstaande stappen:
 
-U kunt nu de inhoud van het bericht definiëren. Volg de onderstaande stappen:
-
-1. Selecteer het communicatiekanaal in de sectie **[!UICONTROL Actions]** .
+1. Selecteer het communicatiekanaal in de sectie **[!UICONTROL Action]** .
 
    De lijst met beschikbare kanalen is afhankelijk van uw licentiemodel en invoegtoepassingen. Voor API-getriggerde campagnes zijn alleen de kanalen voor e-mail, SMS en pushmeldingen beschikbaar.
 
@@ -103,42 +97,40 @@ U kunt nu de inhoud van het bericht definiëren. Volg de onderstaande stappen:
    >
    >Als u een pushmeldingscampagne maakt, kunt u **[!UICONTROL Rapid delivery mode]** inschakelen. Dit is een Journey Optimizer-invoegtoepassing waarmee zeer snelle pushberichten in grote volumes kunnen worden verzonden. [Meer informatie](../push/create-push.md#rapid-delivery)
 
-1. Klik op de knop **[!UICONTROL Edit content]** om uw bericht te maken en te ontwerpen. Leer gedetailleerde stappen om uw berichtinhoud op de volgende pagina&#39;s tot stand te brengen:
+## De inhoud bewerken {#content}
 
-   <table style="table-layout:fixed">
-    <tr style="border: 0;">
-    <td>
-    <a href="../email/create-email.md">
-    <img alt="Lood" src="../assets/do-not-localize/email.jpg">
-    </a>
-    <div><a href="../email/create-email.md"><strong> creeer e-mails </strong>
-    </div>
-    <p>
-    </td>
-    <td>
-    <a href="../push/create-push.md">
-      <img alt="Onfrequent" src="../assets/do-not-localize/push.jpg">
-    </a>
-    <div>
-    <a href="../push/create-push.md"><strong> creeer dupberichten </strong></a>
-    </div>
-    <p>
-    </td>
-    <td>
-    <a href="../sms/create-sms.md">
-      <img alt="Validatie" src="../assets/do-not-localize/sms.jpg">
-    </a>
-    <div>
-    <a href="../sms/create-sms.md"><strong> creeer SMS berichten </strong></a>
-    </div>
-    <p>
-    </td>
-    </tr>
-    </table>
+U kunt nu de inhoud van het bericht definiëren via de knop **[!UICONTROL Edit content]** . Het proces voor het maken van inhoud is afhankelijk van het kanaal dat u hebt geselecteerd.
 
-   Wanneer de inhoud is gedefinieerd, gebruikt u de knop **[!UICONTROL Simulate content]** om een voorvertoning van de inhoud weer te geven en de inhoud met testprofielen te testen. [Meer informatie](../content-management/preview-test.md). Klik op de linkerpijl om terug te bladeren naar het scherm Campagne maken.
+Leer gedetailleerde stappen om uw berichtinhoud op de volgende pagina&#39;s tot stand te brengen:
 
-   ![](assets/create-campaign-design.png)
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../email/create-email.md"><img alt="email" src="../channels/assets/do-not-localize/email.png"></a>
+<div align="center"><a href="../email/create-email.md"><strong> E-mail </strong></a></div></td>
+<td><a href="../sms/create-sms.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a>
+<div align="center"><a href="../sms/create-sms.md"><strong> SMS </strong></a></div></td>
+<td><a href="../push/create-push.md"><img alt="duwen" src="../channels/assets/do-not-localize/push.png"></a>
+<div align="center"><a href="../push/create-push.md"><strong> Push bericht </strong></a></div></td>
+<td><a href="../direct-mail/create-direct-mail.md"><img alt="direct mail" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
+<div align="center"><a href="../direct-mail/create-direct-mail.md"><strong>Direct mail</strong></a></div></td>
+</tr></table>
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../in-app/create-in-app.md"><img alt="in-app" src="../channels/assets/do-not-localize/inapp.jpg"></a>
+<div align="center"><a href="../in-app/create-in-app.md"><strong> In-app </strong></a></div></td>
+<td><a href="../web/create-web.md"><img alt="web" src="../channels/assets/do-not-localize/web.jpg"></a>
+<div align="center"><a href="../web/create-web.md"><strong> Web </strong></a></div></td>
+<td><a href="../code-based/create-code-based.md"><img alt="code-gebaseerde ervaring" src="../channels/assets/do-not-localize/code.png"></a>
+<div align="center"><a href="../code-based/create-code-based.md"><strong> op code-gebaseerde ervaring </strong></a></div></td>
+<td><a href="../content-card/create-content-card.md"><img alt="inhoudskaarten" src="../channels/assets/do-not-localize/cards.png"></a>
+<div align="center"><a href="../content-card/create-content-card.md"><strong> kaarten van de Inhoud </strong></a></div></td>
+</tr></table>
+
+Wanneer de inhoud is gedefinieerd, gebruikt u de knop **[!UICONTROL Simulate content]** om een voorvertoning van de inhoud weer te geven en de inhoud met testprofielen te testen. [Meer informatie](../content-management/preview-test.md). Klik op de linkerpijl om terug te bladeren naar het scherm Campagne maken.
+
+![](assets/create-campaign-design.png)
+
+Naast de berichtinhoud zelf, kunt u de volgende montages vormen:
 
 1. (optioneel) In de sectie **[!UICONTROL Content experiment]** kunt u met de knop **[!UICONTROL Create experiment]** uittesten welke inhoud het beste werkt. De experimenteringsmogelijkheden van de inhoud zijn gedetailleerd in [ deze sectie ](../content-management/content-experiment.md).
 
