@@ -1,11 +1,11 @@
 ---
 title: Gebruiksscenario voor beslissing
 description: Leer hoe te om besluiten tot stand te brengen gebruikend experimenten met het op code-gebaseerde kanaal
-feature: Experience Decisioning
+feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-source-git-commit: 3fb9e6cd61e73e9ddf1971f6aa8e15c8b82b8445
+source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 5%
