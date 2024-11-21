@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: 40f46fd815a567934f886dd086102d830dea5ade
+source-git-commit: 1b48cb825eb1f3110a27389d1e780cb1d7e80fad
 workflow-type: tm+mt
-source-wordcount: '1885'
+source-wordcount: '1873'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,6 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Voor automatische doorloop hebben gebruikers machtigingen nodig die gerelateerd zijn aan de **[!UICONTROL Translation Service]** -mogelijkheid. [ Leer meer op toestemmingen ](../administration/permissions.md)
-
->[!AVAILABILITY]
->
-> De geautomatiseerde stroom is tijdelijk niet beschikbaar voor gebruikers in de EMEA-regio.
-
 
 Met behulp van de geautomatiseerde stroom kunt u gewoon uw doeltaal en taalprovider selecteren. Uw inhoud wordt vervolgens rechtstreeks naar de vertaling verzonden en klaar voor een definitieve revisie wanneer deze is voltooid.
 
