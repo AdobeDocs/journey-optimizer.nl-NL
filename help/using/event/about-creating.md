@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: evenement, eenheidsprijs, creëren, reis
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: ca80a7bc1fbf819d27db2d9518832c9345cdaa18
+source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 9%
+source-wordcount: '1593'
+ht-degree: 7%
 
 ---
 
@@ -73,9 +73,9 @@ Hieronder vindt u de eerste stappen voor het configureren van een nieuwe gebeurt
    >
    >Als u na het maken van de gebeurtenis uw schema met nieuwe opsomwaarden wijzigt, moet u de volgende stappen volgen om de wijzigingen toe te passen op de bestaande gebeurtenis: schakel het opsomveld uit de gebeurtenisvelden uit, bevestig de selectie en selecteer vervolgens nogmaals het opsomveld. De nieuwe opsommingswaarde wordt nu weergegeven.
 
-1. Voeg een naamruimte toe. Deze stap is optioneel, maar wordt aangeraden, omdat u door het toevoegen van een naamruimte gegevens kunt gebruiken die zijn opgeslagen in de real-timeklantprofielservice. U definieert zo het type sleutel van de gebeurtenis. Zie [deze sectie](../event/about-creating.md#select-the-namespace).
+1. Voeg een identiteitstype toe. Deze stap is optioneel, maar wordt aanbevolen als u een identiteitstype toevoegt, zodat u gegevens die zijn opgeslagen in de realtime service voor klantprofielen, kunt gebruiken. U definieert zo het type sleutel van de gebeurtenis. Lees meer in [deze sectie](../event/about-creating.md#select-the-namespace).
 
-1. Definieer de profiel-id: kies een veld in uw payload-velden of definieer een formule om de persoon te identificeren die aan de gebeurtenis is gekoppeld. Deze sleutel wordt automatisch ingesteld (maar kan nog steeds worden bewerkt) als u een naamruimte selecteert. Reizen kiezen immers de sleutel die moet overeenkomen met de naamruimte (als u bijvoorbeeld een naamruimte voor e-mail selecteert, wordt de e-mailsleutel geselecteerd). Zie [deze sectie](../event/about-creating.md#define-the-event-key).
+1. Definieer de profiel-id: kies een veld in uw payload-velden of definieer een formule om de persoon te identificeren die aan de gebeurtenis is gekoppeld. Deze sleutel wordt automatisch ingesteld (maar kan nog steeds worden bewerkt) als u een identiteitstype selecteert. Reizen kiezen immers de sleutel die moet overeenkomen met het identiteitstype (als u bijvoorbeeld een e-mailidentiteitstype selecteert, wordt de e-mailsleutel geselecteerd). Lees meer in [deze sectie](../event/about-creating.md#define-the-event-key).
 
    ![](assets/jo-event7.png)
 
@@ -111,32 +111,32 @@ De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de ge
 
    ![](assets/journey12.png)
 
-## De naamruimte selecteren {#select-the-namespace}
+## Selecteer het identiteitstype {#select-the-namespace}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_namespace"
->title="Naamruimte van identiteit"
+>title="Identiteitstype"
 >abstract="Selecteer de sleutel om het klantenprofiel te identificeren verbonden aan de gebeurtenis."
 
-Met de naamruimte kunt u het type sleutel definiëren waarmee de persoon wordt geïdentificeerd die aan de gebeurtenis is gekoppeld. De configuratie is optioneel. Het wordt vereist als u, in uw reizen, extra informatie wilt terugwinnen die uit het [ in real time Profiel van de Klant ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl) {target="_blank"} komt. De naamruimtedefinitie is niet nodig als u alleen gegevens gebruikt die afkomstig zijn van een systeem van derden via een aangepaste gegevensbron.
+Met het identiteitstype (voorheen &#39;naamruimte&#39; genoemd) kunt u het type sleutel definiëren waarmee de persoon wordt geïdentificeerd die aan de gebeurtenis is gekoppeld. De configuratie is optioneel. Het wordt vereist als u, in uw reizen, extra informatie wilt terugwinnen die uit het [ in real time Profiel van de Klant ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl) {target="_blank"} komt. De definitie van het identiteitstype is niet nodig als u slechts gegevens gebruikt die uit een derdesysteem door een douanegegevensbron komen.
 
-U kunt een van de vooraf gedefinieerde naamruimten gebruiken of een nieuwe naamruimte maken met de service Identiteitsnaamruimte. Verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl) {target="_blank"}.
+U kunt een bestaand identiteitstype gebruiken of een nieuw type maken met de Adobe Experience Platform Identity Service. Leer meer in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl) {target="_blank"}.
 
-Als u een schema met een primaire identiteit selecteert, worden de velden **[!UICONTROL Profiler identifier]** en **[!UICONTROL Namespace]** vooraf ingevuld. Als er geen bepaalde identiteit is, selecteren wij _identityMap > identiteitskaart_ als primaire sleutel. Dan moet u een namespace selecteren en de sleutel (onder het **[!UICONTROL Namespace]** gebied) zal worden vooraf ingevuld gebruikend _identityMap > identiteitskaart_.
+Als u een schema met een primaire identiteit selecteert, worden de velden **[!UICONTROL Profiler identifier]** en **[!UICONTROL Identity type]** vooraf ingevuld. Als er geen bepaalde identiteit is, selecteren wij _identityMap > identiteitskaart_ als primaire sleutel. Dan moet u een identiteitstype selecteren en de sleutel zal (onder het **[!UICONTROL Identity type]** gebied) worden ingevuld gebruikend _identityMap > identiteitskaart_.
 
 Wanneer u velden selecteert, worden primaire identiteitsvelden gecodeerd.
 
 ![](assets/primary-identity.png)
 
-Selecteer een naamruimte in de vervolgkeuzelijst.
+Selecteer een identiteitstype in de vervolgkeuzelijst.
 
 ![](assets/journey17.png)
 
-Per reis is slechts één naamruimte toegestaan. Als u meerdere gebeurtenissen gebruikt op dezelfde reis, moeten ze dezelfde naamruimte gebruiken. Zie [deze pagina](../building-journeys/journey.md).
+Per reis is slechts één identiteitstype toegestaan. Als u meerdere gebeurtenissen gebruikt op dezelfde reis, moeten ze hetzelfde identiteitstype gebruiken. Zie [deze pagina](../building-journeys/journey.md).
 
 >[!NOTE]
 >
->U kunt alleen een naamruimte selecteren die is gebaseerd op personen. Als u een namespace voor een raadplegingslijst (bijvoorbeeld: ProductID namespace voor een raadpleging van het Product) hebt bepaald, zal het niet in **Namespace** dropdown lijst beschikbaar zijn.
+>U kunt alleen een op personen gebaseerd identiteitstype selecteren. Als u een identiteitstype voor een raadplegingslijst (bijvoorbeeld: Het identiteitstype ProductID voor een raadpleging van het Product) hebt bepaald, zal het niet in de **het type van Identiteit** dropdown lijst beschikbaar zijn.
 
 ## De profiel-id definiëren {#define-the-event-key}
 
@@ -144,7 +144,7 @@ De sleutel is het veld, of de combinatie van velden, dat deel uitmaakt van de ge
 
 Om gegevens te gebruiken die in het gegevensbestand van het Profiel van de Klant in real time van de Adobe worden opgeslagen, moet de gebeurtenissleutel de informatie zijn u als identiteit van een profiel in de [ Real-time Dienst van het Profiel van de Klant ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl) {target="_blank"} bepaalde.
 
-Met de profiel-id kan het systeem de afstemming tussen de gebeurtenis en het profiel van de persoon uitvoeren. Als u een schema met een primaire identiteit selecteert, worden de velden **[!UICONTROL Profile identifier]** en **[!UICONTROL Namespace]** vooraf ingevuld. Als er geen bepaalde identiteit is, is _identityMap > identiteitskaart_ de primaire sleutel. Dan moet u een namespace selecteren, en de sleutel is automatisch voorgevuld gebruikend _identityMap > identiteitskaart_.
+Met de profiel-id kan het systeem de afstemming tussen de gebeurtenis en het profiel van de persoon uitvoeren. Als u een schema met een primaire identiteit selecteert, worden de velden **[!UICONTROL Profile identifier]** en **[!UICONTROL Identity type]** vooraf ingevuld. Als er geen bepaalde identiteit is, is _identityMap > identiteitskaart_ de primaire sleutel. Dan moet u een identiteitstype selecteren, en de sleutel is automatisch voorgevuld gebruikend _identityMap > identiteitskaart_.
 
 Wanneer u velden selecteert, worden primaire identiteitsvelden gecodeerd.
 
@@ -158,7 +158,7 @@ Als u een andere sleutel moet gebruiken, zoals een CRM-id of een e-mailadres, mo
 
 1. Selecteer het veld dat u als de sleutel hebt gekozen in de lijst met ladingsvelden.
 
-Wanneer de gebeurtenis wordt ontvangen, laat de waarde van de sleutel het systeem toe om de persoon te identificeren verbonden aan de gebeurtenis. Verbonden aan een namespace (zie [ deze sectie ](../event/about-creating.md#select-the-namespace)), kan de sleutel worden gebruikt om vragen op Adobe Experience Platform uit te voeren. Zie [ deze pagina ](../building-journeys/about-journey-activities.md#orchestration-activities).
+Wanneer de gebeurtenis wordt ontvangen, laat de waarde van de sleutel het systeem toe om de persoon te identificeren verbonden aan de gebeurtenis. Verbonden aan een [ identiteitstype ](../event/about-creating.md#select-the-namespace), kan de sleutel worden gebruikt om vragen op Adobe Experience Platform uit te voeren. Zie [ deze pagina ](../building-journeys/about-journey-activities.md#orchestration-activities).
 De sleutel wordt ook gebruikt om te controleren of een persoon op reis is. Een persoon kan namelijk niet op twee verschillende plaatsen op dezelfde reis zijn. Als gevolg hiervan staat het systeem niet toe dat dezelfde sleutel, bijvoorbeeld de sleutel CRMID=3224, zich op verschillende plaatsen op dezelfde reis bevindt.
 
 ## Geavanceerde expressie-editor {#adv-exp-editor}

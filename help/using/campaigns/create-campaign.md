@@ -9,14 +9,16 @@ role: User
 level: Beginner
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '959'
 ht-degree: 1%
 
 ---
 
 # Een campagne maken {#create-campaign}
+
+Als u een nieuwe campagne wilt maken, opent u het menu **[!UICONTROL Campaigns]** en klikt u op **[!UICONTROL Create campaign]** . U kunt ook een bestaande live campagne dupliceren om een nieuwe te maken. [Meer informatie](modify-stop-campaign.md#duplicate)
 
 >[!NOTE]
 >
@@ -25,9 +27,7 @@ ht-degree: 1%
 >* [ creeer kanaalconfiguraties ](../configuration/channel-surfaces.md)
 >* [ krijgen begonnen met publiek ](../audience/about-audiences.md)
 
-Als u een nieuwe campagne wilt maken, opent u het menu **[!UICONTROL Campaigns]** en klikt u op **[!UICONTROL Create campaign]** . U kunt ook een bestaande live campagne dupliceren om een nieuwe te maken. [Meer informatie](modify-stop-campaign.md#duplicate)
-
-## Het type campagne kiezen {#campaigntype}
+## Het type campagne selecteren {#campaigntype}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
@@ -46,37 +46,44 @@ Als u een nieuwe campagne wilt maken, opent u het menu **[!UICONTROL Campaigns]*
 
 ## De eigenschappen van de campagne definiëren {#create}
 
-1. Geef in de sectie **[!UICONTROL Properties]** een naam en een beschrijving voor de campagne op.
+1. Voer in de sectie **[!UICONTROL Properties]** de naam en een beschrijving voor uw campagne in.
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../content-management/content-experiment.md).-->
 
-1. Het **gebied van Markeringen** staat u toe om Adobe Experience Platform Verenigde Markeringen aan uw campagne toe te wijzen. Op deze manier kunt u ze gemakkelijk classificeren en de zoekopdracht in de lijst met campagnes verbeteren. [ leer hoe te met markeringen ](../start/search-filter-categorize.md#tags) werken
+1. Gebruik het **gebied van Markeringen** om Adobe Experience Platform Verenigde Markeringen aan uw campagne toe te wijzen. Op deze manier kunt u ze gemakkelijk classificeren en de zoekopdracht in de lijst met campagnes verbeteren. [ Leer hoe te met markeringen ](../start/search-filter-categorize.md#tags) te werken.
 
-1. Klik op de knop **[!UICONTROL Manage access]** als u aangepaste of basislabels voor gegevensgebruik aan de campagne wilt toewijzen. [ leer meer op het Toegangsbeheer van het Niveau van Objecten (OLA) ](../administration/object-based-access.md)
+1. U kunt de toegang tot deze campagne beperken op toegangslabels wordt gebaseerd die. Blader naar de knop **[!UICONTROL Manage access]** boven aan deze pagina om een toegangsbeperking toe te voegen. Zorg ervoor dat u alleen labels selecteert waarvoor u gemachtigd bent. [ leer meer op het Toegangsbeheer van het Niveau van Objecten ](../administration/object-based-access.md).
 
 ## Het campagnepubliek definiëren {#audience}
 
-Definieer de doelgroep voor de campagne en voer de volgende stappen uit:
+Een publiek is een groep personen die vergelijkbare gedragingen en/of kenmerken delen. Voer de volgende stappen uit om de doelgroep van de campagne te bepalen:
 
->[!IMPORTANT]
->
->Het gebruik van publiek en attributen van [ publiekssamenstelling ](../audience/get-started-audience-orchestration.md) is momenteel niet beschikbaar voor gebruik met het Schild van de Gezondheidszorg of Privacy en het Schild van de Veiligheid.
->
->Voor API-getriggerde campagnes moet het publiek worden ingesteld via API-aanroep.
+1. In de **sectie van het publiek**, klik de **[!UICONTROL Select audience]** knoop om de lijst van beschikbare publiek van Adobe Experience Platform te tonen. Leer meer over publiek in [ deze sectie ](../audience/about-audiences.md).
 
-1. In de **sectie van het publiek**, klik de **[!UICONTROL Select audience]** knoop om de lijst van beschikbare publiek van Adobe Experience Platform te tonen. [ leer meer op publiek ](../audience/about-audiences.md)
+1. Kies in het veld **[!UICONTROL Identity type]** het type sleutel dat u wilt gebruiken om de personen van het geselecteerde publiek te identificeren. U kunt een bestaand identiteitstype gebruiken of een nieuw type maken met de Adobe Experience Platform Identity Service. De standaard naamruimten van de Identiteit zijn vermeld in [ deze pagina ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard) {target="_blank"}.
 
-1. Kies in het veld **[!UICONTROL Identity namespace]** de naamruimte die u wilt gebruiken om de personen van het geselecteerde segment te identificeren.
-
-   Individuen die tot een segment behoren dat niet de geselecteerde identiteit (namespace) onder hun verschillende identiteiten heeft zullen niet door de campagne worden gericht. [ Leer meer op namespaces ](../event/about-creating.md#select-the-namespace)
+   Per campagne is slechts één identiteitstype toegestaan. Individuen die tot een segment behoren dat niet het geselecteerde identiteitstype onder hun verschillende identiteiten heeft kunnen niet door de campagne worden gericht.
 
    ![](assets/create-campaign-namespace.png)
 
+   Leer meer over identiteitstypes en namespaces in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl) {target="_blank"}.
+
    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
+
+>[!IMPORTANT]
+>
+>* Het gebruik van publiek en attributen van [ publiekssamenstelling ](../audience/get-started-audience-orchestration.md) is momenteel niet beschikbaar voor gebruik met het Schild van de Gezondheidszorg of Privacy en het Schild van de Veiligheid.
+>
+>* Voor API-getriggerde campagnes moet het publiek worden ingesteld via API-aanroep.
+
 
 ## Creeer het bericht en vorm het volgen {#content}
 
-1. Selecteer of maak een nieuwe configuratie in de sectie **[!UICONTROL Actions]** .
+1. Selecteer het kanaal in de sectie **[!UICONTROL Actions]** .
+
+   De lijst met beschikbare kanalen is afhankelijk van uw licentiemodel. Voor API-getriggerde transactiecampagnes zijn alleen de kanalen voor e-mail, SMS en pushmeldingen beschikbaar.
+
+1. Selecteer de kanaalconfiguratie.
 
    Een configuratie wordt bepaald door de Beheerder van het a [ Systeem ](../start/path/administrator.md). Het bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameters, subdomein, mobiele apps, enzovoort. [Meer informatie](../configuration/channel-surfaces.md).
 
@@ -121,11 +128,11 @@ Definieer de doelgroep voor de campagne en voer de volgende stappen uit:
     </tr>
     </table>
 
-1. Wanneer de inhoud is gedefinieerd, gebruikt u de knop **[!UICONTROL Simulate content]** om een voorvertoning van de inhoud weer te geven en de inhoud met testprofielen te testen. [Meer informatie](../content-management/preview-test.md).
-
-1. Klik op de pijl om terug te gaan naar het scherm Campagne maken.
+   Wanneer de inhoud is gedefinieerd, gebruikt u de knop **[!UICONTROL Simulate content]** om een voorvertoning van de inhoud weer te geven en de inhoud met testprofielen te testen. [Meer informatie](../content-management/preview-test.md). Klik op de linkerpijl om terug te bladeren naar het scherm Campagne maken.
 
    ![](assets/create-campaign-design.png)
+
+1. In de sectie **[!UICONTROL Content experiment]** kunt u met de knop **[!UICONTROL Create experiment]** uittesten welke inhoud het beste werkt. De experimenteringsmogelijkheden van de inhoud zijn gedetailleerd in [ deze sectie ](../content-management/content-experiment.md).
 
 1. Geef in de sectie **[!UICONTROL Actions tracking]** op of u wilt bijhouden hoe de ontvangers op de levering reageren: u kunt klikken en/of openen bijhouden.
 
@@ -136,7 +143,7 @@ Definieer de doelgroep voor de campagne en voer de volgende stappen uit:
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="Campagne"
->abstract="Standaard worden campagnes gestart bij handmatige activering en worden ze onmiddellijk beëindigd nadat het bericht eenmaal is verzonden. Desalniettemin hebt u de flexibiliteit om een specifieke datum en tijd voor het te verzenden bericht te plaatsen. Bovendien kunt u een einddatum opgeven voor terugkerende of API-gestuurde campagnes. In de triggers van Actie kunt u de verzendfrequentie van berichten ook configureren om deze aan te passen aan uw voorkeuren."
+>abstract="De campagnes beginnen standaard bij handmatige activering en eindigen direct nadat het bericht eenmaal is verzonden. U hebt de flexibiliteit om een specifieke datum en tijd voor het te verzenden bericht te plaatsen. Bovendien kunt u een einddatum opgeven voor terugkerende of API-gestuurde campagnes. In de triggers van Actie kunt u de verzendfrequentie van berichten ook configureren om deze aan te passen aan uw voorkeuren."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
@@ -161,4 +168,4 @@ Als u de campagne niet meteen na activering wilt uitvoeren, kunt u met de optie 
 
 ![](assets/create-campaign-schedule.png)
 
-Als uw campagne gereed is, kunt u deze controleren en publiceren. [Meer informatie](review-activate-campaign.md)
+Als uw campagne gereed is, kunt u deze controleren en activeren. [Meer informatie](review-activate-campaign.md)

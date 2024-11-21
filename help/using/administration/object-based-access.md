@@ -9,10 +9,10 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: voorwerp, niveau, toegang, controle, etiketten, olc, vergunning
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 2%
+source-wordcount: '464'
+ht-degree: 0%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
->title="Toegangsbeheer op objectniveau"
->abstract="Als u toegang tot dit object wilt behouden, past u alleen labels toe waarvoor u machtigingen hebt."
+>title="Toegangsbeheerlabels"
+>abstract="U kunt de toegang tot deze campagne beperken op toegangslabels wordt gebaseerd die. Om een toegangsbeperking toe te voegen, doorblader aan **leid toegang** knoop bij de bovenkant van deze pagina. Zorg ervoor dat u alleen labels selecteert waarvoor u gemachtigd bent."
 
 Met toegangsbeheer op objectniveau (OLAC) kunt u machtigingen definiëren voor het beheren van gegevenstoegang tot een selectie objecten:
 
@@ -36,21 +36,27 @@ Met toegangsbeheer op objectniveau (OLAC) kunt u machtigingen definiëren voor h
 * Kanaalconfiguratie
 * IP-opwarmingsplan
 
+Met gestandaardiseerde labels kunt u soorten publiek indelen op basis van hun beleid voor beheer en toegangsbeheer. Zo kan een label voor het publiek worden gebruikt om te voorkomen dat een merk zich richt op leden van een specifiek publiek met onsite reclame.
+
 Het doel is gevoelige digitale activa te beschermen tegen ongeoorloofde gebruikers, zodat persoonsgegevens verder kunnen worden beschermd.
 
-In Adobe Journey Optimizer, staat OLAC u toe om gegevens te beschermen en specifieke toegang tot specifieke voorwerpen te verlenen.
+## Vereisten {#prereq-labels}
 
-## Labels maken {#create-assign-labels}
+Om [ etiketten ](#create-labels) te kunnen tot stand brengen, moet u deel van een rol met de **[!UICONTROL Manage usage labels]** toestemming uitmaken.
 
->[!IMPORTANT]
->
->Als u labels wilt maken, moet u deel uitmaken van een rol met de machtiging **[!UICONTROL Manage usage labels]** .
+Om [ etiketten ](#assign-labels) toe te wijzen, moet u een deel van een rol met a **zijn leidt** toestemming i.e., [!DNL Manage journeys], [!DNL Manage Campaigns] of [!DNL Manage decisions]. Zonder deze machtiging wordt de knop **[!UICONTROL Manage access]** grijs weergegeven.
+
+Leer meer over toestemmingen in [ deze sectie ](../administration/permissions.md).
+
+## Labels maken {#create-labels}
 
 **[!UICONTROL Labels]** staat u toe om datasets en gebieden volgens gebruiksbeleid te categoriseren die op die gegevens van toepassing zijn. **[!UICONTROL Labels]** kan op elk gewenst moment worden toegepast, zodat u op flexibele wijze gegevens kunt beheren.
 
-U kunt labels maken in het [!DNL Permissions] -product. Raadpleeg [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html) voor meer informatie.
+Gebruik labels om toegang tot gebruikers te bieden en om het beleid voor gegevensbeheer en toestemming af te dwingen. Deze bestuurslabels kunnen downstreamconsumptie beïnvloeden.
 
-**[!UICONTROL Labels]** kan ook rechtstreeks in Journey Optimizer worden gemaakt:
+U kunt labels maken in het [!DNL Permissions] -product. Voor meer op dit, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html) {target="_blank"}.
+
+U kunt **[!UICONTROL Labels]** ook rechtstreeks in Journey Optimizer maken. Voer de volgende stappen uit om een label te maken:
 
 1. Klik vanuit een Adobe Journey Optimizer-object, hier een nieuw gemaakt **[!UICONTROL Campaign]** , op de knop **[!UICONTROL Manage access]** .
 
@@ -73,10 +79,6 @@ Het nieuwe **[!UICONTROL Label]** is nu beschikbaar in de lijst. Indien nodig, k
 
 ## Labels toewijzen {#assign-labels}
 
->[!IMPORTANT]
->
->Als u labels wilt toewijzen, moet u deel uitmaken van een rol met een machtiging Beheren, dat wil zeggen [!DNL Manage journeys], [!DNL Manage Campaigns] of [!DNL Manage decisions] . Zonder deze machtiging wordt de knop **[!UICONTROL Manage access]** grijs weergegeven.
-
 Aangepaste labels of basislabels voor gegevensgebruik toewijzen aan Journey Optimizer-objecten:
 
 1. Klik vanuit een Adobe Journey Optimizer-object, hier een nieuw gemaakt **[!UICONTROL Campaign]** , op de knop **[!UICONTROL Manage access]** .
@@ -85,7 +87,7 @@ Aangepaste labels of basislabels voor gegevensgebruik toewijzen aan Journey Opti
 
 1. Selecteer in het venster **[!UICONTROL Manage access]** uw aangepaste label(s) of basislabel(en) voor gegevensgebruik om de toegang tot dit object te beheren.
 
-   Voor meer informatie over de etiketten van het kerngegevensgebruik, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html).
+   Voor meer informatie over de etiketten van het kerngegevensgebruik, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html) {target="_blank"}.
 
    ![](assets/olac_4.png)
 
@@ -94,4 +96,4 @@ Aangepaste labels of basislabels voor gegevensgebruik toewijzen aan Journey Opti
 Als gebruikers toegang tot dit object willen hebben, moeten ze de specifieke **[!UICONTROL Label]** voor hun **[!UICONTROL Roles]** opnemen.
 Bijvoorbeeld, zal een gebruiker met het C1 etiket slechts toegang tot C1 geëtiketteerde of unlabel voorwerpen hebben.
 
-Voor meer informatie over hoe te om **[!UICONTROL Label]** aan a **[!UICONTROL Role]** toe te wijzen, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html#manage-labels-for-a-role).
+Voor meer informatie over hoe te om **[!UICONTROL Label]** aan a **[!UICONTROL Role]** toe te wijzen, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html#manage-labels-for-a-role) {target="_blank"}.

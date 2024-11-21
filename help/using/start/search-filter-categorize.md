@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 7%
+source-wordcount: '566'
+ht-degree: 6%
 
 ---
 
@@ -25,7 +25,7 @@ Voer inhoud in om de beste resultaten weer te geven. Help-artikelen over de inge
 
 ![](assets/unified-search.png)
 
-Druk **Enter** om tot alle resultaten toegang te hebben en filter door bedrijfsvoorwerp.
+Pers **gaat** binnen om tot alle resultaten en filter door bedrijfsvoorwerp toegang te hebben.
 
 ![](assets/search-and-filter.png)
 
@@ -35,7 +35,7 @@ In de meeste lijsten, gebruik de onderzoeksbar om specifieke punten te vinden, e
 
 Filters zijn toegankelijk door op het filterpictogram linksboven in een lijst te klikken. Met het filtermenu kunt u de weergegeven elementen filteren op basis van verschillende criteria: u kunt ervoor kiezen alleen elementen van een bepaald type of een bepaalde status weer te geven, de elementen die u hebt gemaakt of de elementen die in de afgelopen 30 dagen zijn gewijzigd. Welke opties beschikbaar zijn, is afhankelijk van de context.
 
-Bovendien kunt u Verenigde markeringen gebruiken om een lijst afhankelijk van de markeringen te filtreren die aan een voorwerp worden toegewezen. Op dit moment zijn er tags beschikbaar voor reizen en campagnes. [Leer hoe u met tags kunt werken](#tags)
+Bovendien kunt u Verenigde markeringen gebruiken om een lijst afhankelijk van de markeringen te filtreren die aan een voorwerp worden toegewezen. Op dit moment zijn er tags beschikbaar voor reizen en campagnes. [ leer hoe te met markeringen ](#tags) werken
 
 >[!NOTE]
 >
@@ -52,14 +52,15 @@ In de lijsten, kunt u basisacties op elk element uitvoeren. U kunt bijvoorbeeld 
 >title="Tags"
 >abstract="Met dit veld kunt u Adobe Experience Platform Unified Tags aan uw campagne toewijzen. Op deze manier kunt u ze gemakkelijk classificeren en de zoekopdracht in de lijst met campagnes verbeteren."
 
-Met Adobe Experience Platform [Verenigde tags](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html)kunt u uw Journey Optimizer-reizen en -campagnes eenvoudig classificeren om zoekopdrachten te verbeteren vanuit de lijsten.
+Met Adobe Experience Platform [ Verenigde Markeringen ](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html), kunt u uw voorwerpen van Journey Optimizer gemakkelijk classificeren om onderzoek van de lijsten te verbeteren.
 
 ![](../rn/assets/do-not-localize/campaigns-tag.gif)
 
+Als u betekenisvolle tags toevoegt aan het publiek in Journey Optimizer, kunt u later filteren en zoeken om het publiek gemakkelijker te vinden. De markeringen kunnen ook worden gebruikt om publiek in relevante, doorzoekbare omslagen te organiseren, gepersonaliseerde aanbiedingen en ervaringen tot stand te brengen, en in ervaring besluitvormingsregels te gebruiken.
 
-### Tags toevoegen aan een object
+### Tags toevoegen aan een object {#add-tags}
 
-De **[!UICONTROL Tags]** kunt u tags voor het object definiëren. Tags zijn beschikbaar voor de volgende objecten:
+In het veld **[!UICONTROL Tags]** kunt u codes voor het object definiëren. Tags zijn beschikbaar voor de volgende objecten:
 
 * [Campagnes](../campaigns/create-campaign.md#create)
 * [Beslissingsitems](../experience-decisioning/items.md)
@@ -79,17 +80,17 @@ U kunt een bestaande tag selecteren of een nieuwe tag maken. Volg de onderstaand
    >
    > Tags zijn niet hoofdlettergevoelig.
 
-1. Als de tag die u zoekt niet beschikbaar is, klikt u op **[!UICONTROL Create ""]** om een nieuwe te definiëren - deze wordt automatisch toegevoegd aan het huidige object en wordt beschikbaar voor alle andere objecten.
+1. Als de tag die u zoekt niet beschikbaar is, klikt u op **[!UICONTROL Create ""]** om een nieuwe te definiëren. Deze wordt automatisch toegevoegd aan het huidige object en wordt beschikbaar voor alle andere objecten.
 
    ![](assets/tags4.png)
 
-1. De lijst met geselecteerde of gemaakte tags wordt weergegeven onder de **[!UICONTROL Tags]** veld. U kunt zo veel tags definiëren als nodig is.
+1. De lijst met de geselecteerde of gemaakte tags wordt weergegeven onder het veld **[!UICONTROL Tags]** . U kunt zo veel tags definiëren als nodig is.
 
 >[!NOTE]
 > 
 > Als u een object dupliceert of een nieuwe versie maakt, blijven de tags behouden.
 
-### Filteren op labels
+### Filteren op labels {#filter-on-tags}
 
 In elke objectlijst wordt een specifieke kolom weergegeven, zodat u de tags eenvoudig kunt visualiseren.
 
@@ -97,14 +98,14 @@ Een filter is ook beschikbaar voor alleen weergaveobjecten met bepaalde tags.
 
 ![](assets/tags2.png)
 
-U kunt tags toevoegen aan of verwijderen uit elk type reis of campagne (live, concept, enz.). Om dit te doen, klik **[!UICONTROL More actions]** pictogram naast het object en selecteer **[!UICONTROL Edit tags]**.
+U kunt tags toevoegen aan of verwijderen uit elk type reis of campagne (live, concept, enz.). Klik hiertoe op het pictogram **[!UICONTROL More actions]** naast het object en selecteer **[!UICONTROL Edit tags]** .
 
 ![](assets/tags3.png)
 
-### Tags beheren
+### Tags beheren {#manage-tags}
 
-Beheerders kunnen tags verwijderen en deze op categorieën ordenen met de opdracht **[!UICONTROL Tags]** menu, onder **[!UICONTROL ADMINISTRATION]**. Meer informatie over tagbeheer in het dialoogvenster [Unified Tags-documentatie](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html).
+Beheerders kunnen tags verwijderen en deze op categorieën indelen via het menu **[!UICONTROL Tags]** onder **[!UICONTROL ADMINISTRATION]** . Leer meer op markeringsbeheer in de [ Verenigde documentatie van Markeringen ](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html).
 
 >[!NOTE]
 >
-> Tags die rechtstreeks zijn gemaakt op basis van de **[!UICONTROL Tags]** in Journey Optimizer wordt automatisch toegevoegd aan de ingebouwde categorie Niet gecategoriseerd.
+> Tags die rechtstreeks vanuit het veld **[!UICONTROL Tags]** in Journey Optimizer worden gemaakt, worden automatisch toegevoegd aan de ingebouwde categorie &quot;Niet-gecategoriseerd&quot;.
