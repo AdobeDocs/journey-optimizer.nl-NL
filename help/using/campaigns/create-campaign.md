@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
+source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,29 +34,40 @@ Als u een nieuwe campagne wilt maken, opent u het menu **[!UICONTROL Campaigns]*
 >title="Type campagne"
 >abstract="**Geplande campagnes** worden uitgevoerd onmiddellijk of op een gespecificeerde datum en zijn bedoeld om berichten van het marketingtype te verzenden. **API-teweeggebrachte** campagnes worden uitgevoerd gebruikend een API vraag. Zij zijn gericht op het verzenden van ofwel marketingberichten (promotieberichten waarvoor toestemming van de gebruiker vereist is) ofwel transactieberichten (niet-commerciële berichten die ook in specifieke omstandigheden naar niet-geabonneerde profielen kunnen worden verzonden)."
 
-1. Selecteer het type campagne dat u wilt uitvoeren
+Wanneer u een nieuwe campagne maakt, moet u eerst het type campagne selecteren. Er zijn drie soorten campagnes beschikbaar:
 
-   * **[!UICONTROL Scheduled - Marketing]** : voer de campagne onmiddellijk uit of op een opgegeven datum. De geplande campagnes zijn gericht op het verzenden van **marketing** berichten. Zij worden gevormd en uitgevoerd van het gebruikersinterface.
+1. **[!UICONTROL Scheduled - Marketing]** - Deze campagnes worden onmiddellijk of op een gespecificeerde datum uitgevoerd. De geplande campagnes zijn gericht op het verzenden van **marketing** berichten, of creeer binnenkomende acties. Zij worden gevormd en uitgevoerd van het gebruikersinterface.
 
-   * **[!UICONTROL API-triggered - Marketing/Transactional]** : voer de campagne uit met behulp van een API-aanroep. API-teweeggebrachte campagnes zijn gericht op het verzenden van of **marketing**, of **transactie** berichten, d.w.z. berichten die na een actie worden verzonden die door een individu wordt uitgevoerd: het terugstellen van het wachtwoord, het kartelaankoop enz. [ Leer hoe te om een campagne teweeg te brengen gebruikend APIs ](api-triggered-campaigns.md)
+1. **[!UICONTROL API-triggered - Marketing]** - Deze campagnes worden uitgevoerd met een API-aanroep. Selecteer dit type campagne om gepersonaliseerde marketing mededelingen naar gericht publiek te verzenden.  [ Leer hoe te om een campagne teweeg te brengen gebruikend APIs ](api-triggered-campaigns.md)
+
+1. **[!UICONTROL API-triggered - Transactional]** - Hetzelfde als voor API-geactiveerde marketingcampagnes, worden deze campagnes uitgevoerd met behulp van een API-aanroep. API-teweeggebrachte transactiecampagnes zijn gericht op het verzenden van **transactie** berichten, d.w.z. berichten die na een actie worden verzonden die door een individu wordt uitgevoerd: verzoek om het terugstellen van het wachtwoord, kartaankoop, enz.  [ Leer hoe te om een campagne teweeg te brengen gebruikend APIs ](api-triggered-campaigns.md)
 
    ![](assets/create-campaign-modal.png)
 
-1. Klik op **[!UICONTROL Create]** om de campagne te maken.
-
 ## De eigenschappen van de campagne definiëren {#create}
+
+Wanneer de campagne is gemaakt, moet u de eigenschappen ervan definiëren. Volg de onderstaande stappen:
 
 1. Voer in de sectie **[!UICONTROL Properties]** de naam en een beschrijving voor uw campagne in.
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../content-management/content-experiment.md).-->
 
-1. Gebruik het **gebied van Markeringen** om Adobe Experience Platform Verenigde Markeringen aan uw campagne toe te wijzen. Op deze manier kunt u ze gemakkelijk classificeren en de zoekopdracht in de lijst met campagnes verbeteren. [ Leer hoe te met markeringen ](../start/search-filter-categorize.md#tags) te werken.
+1. (facultatief) Gebruik het **gebied van Markeringen** om Adobe Experience Platform Verenigde Markeringen aan uw campagne toe te wijzen. Op deze manier kunt u ze gemakkelijk classificeren en de zoekopdracht in de lijst met campagnes verbeteren. [ Leer hoe te met markeringen ](../start/search-filter-categorize.md#tags) te werken.
 
-1. U kunt de toegang tot deze campagne beperken op toegangslabels wordt gebaseerd die. Blader naar de knop **[!UICONTROL Manage access]** boven aan deze pagina om een toegangsbeperking toe te voegen. Zorg ervoor dat u alleen labels selecteert waarvoor u gemachtigd bent. [ leer meer op het Toegangsbeheer van het Niveau van Objecten ](../administration/object-based-access.md).
+1. (optioneel) U kunt de toegang tot deze campagne beperken op basis van toegangslabels. Blader naar de knop **[!UICONTROL Manage access]** boven aan deze pagina om een toegangsbeperking toe te voegen. Zorg ervoor dat u alleen labels selecteert waarvoor u gemachtigd bent. [ leer meer op het Toegangsbeheer van het Niveau van Objecten ](../administration/object-based-access.md).
 
 ## Het campagnepubliek definiëren {#audience}
 
-Een publiek is een groep personen die vergelijkbare gedragingen en/of kenmerken delen. Voer de volgende stappen uit om de doelgroep van de campagne te bepalen:
+Nu kunt u het publiek van uw campagne selecteren. Een publiek is een groep personen die vergelijkbare gedragingen en/of kenmerken delen.
+
+>[!IMPORTANT]
+>
+>* Het gebruik van publiek en attributen van [ publiekssamenstelling ](../audience/get-started-audience-orchestration.md) is momenteel niet beschikbaar voor gebruik met het Schild van de Gezondheidszorg of Privacy en het Schild van de Veiligheid.
+>
+>* Voor API-getriggerde campagnes moet het publiek worden ingesteld via API-aanroep.
+
+
+Voer de volgende stappen uit om de doelgroep van een geplande marketingcampagne te bepalen:
 
 1. In de **sectie van het publiek**, klik de **[!UICONTROL Select audience]** knoop om de lijst van beschikbare publiek van Adobe Experience Platform te tonen. Leer meer over publiek in [ deze sectie ](../audience/about-audiences.md).
 
@@ -70,18 +81,15 @@ Een publiek is een groep personen die vergelijkbare gedragingen en/of kenmerken 
 
    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
->[!IMPORTANT]
->
->* Het gebruik van publiek en attributen van [ publiekssamenstelling ](../audience/get-started-audience-orchestration.md) is momenteel niet beschikbaar voor gebruik met het Schild van de Gezondheidszorg of Privacy en het Schild van de Veiligheid.
->
->* Voor API-getriggerde campagnes moet het publiek worden ingesteld via API-aanroep.
 
 
 ## Creeer het bericht en vorm het volgen {#content}
 
-1. Selecteer het kanaal in de sectie **[!UICONTROL Actions]** .
+U kunt nu de inhoud van het bericht definiëren. Volg de onderstaande stappen:
 
-   De lijst met beschikbare kanalen is afhankelijk van uw licentiemodel. Voor API-getriggerde transactiecampagnes zijn alleen de kanalen voor e-mail, SMS en pushmeldingen beschikbaar.
+1. Selecteer het communicatiekanaal in de sectie **[!UICONTROL Actions]** .
+
+   De lijst met beschikbare kanalen is afhankelijk van uw licentiemodel en invoegtoepassingen. Voor API-getriggerde campagnes zijn alleen de kanalen voor e-mail, SMS en pushmeldingen beschikbaar.
 
 1. Selecteer de kanaalconfiguratie.
 
@@ -132,11 +140,11 @@ Een publiek is een groep personen die vergelijkbare gedragingen en/of kenmerken 
 
    ![](assets/create-campaign-design.png)
 
-1. In de sectie **[!UICONTROL Content experiment]** kunt u met de knop **[!UICONTROL Create experiment]** uittesten welke inhoud het beste werkt. De experimenteringsmogelijkheden van de inhoud zijn gedetailleerd in [ deze sectie ](../content-management/content-experiment.md).
+1. (optioneel) In de sectie **[!UICONTROL Content experiment]** kunt u met de knop **[!UICONTROL Create experiment]** uittesten welke inhoud het beste werkt. De experimenteringsmogelijkheden van de inhoud zijn gedetailleerd in [ deze sectie ](../content-management/content-experiment.md).
 
 1. Geef in de sectie **[!UICONTROL Actions tracking]** op of u wilt bijhouden hoe de ontvangers op de levering reageren: u kunt klikken en/of openen bijhouden.
 
-   De resultaten van het bijhouden van de campagne zijn toegankelijk via het campagnerapport nadat de campagne is uitgevoerd. [ leer meer over campagnerapporten ](../reports/campaign-global-report-cja.md)
+   De resultaten van het bijhouden van de campagne zijn toegankelijk vanuit het campagnerapport nadat de campagne is uitgevoerd. [ leer meer over campagnerapporten ](../reports/campaign-global-report-cja.md)
 
 ## De campagne plannen {#schedule}
 
@@ -160,12 +168,23 @@ Een publiek is een groep personen die vergelijkbare gedragingen en/of kenmerken 
 >title="actieftriggers voor campagne"
 >abstract="Definieer de frequentie waarmee het campagnebericht moet worden verzonden."
 
-Standaard worden campagnes gestart zodra ze handmatig zijn geactiveerd en eindigen zodra het bericht eenmaal is verzonden.
+Standaard worden geplande campagnes gestart zodra ze handmatig zijn geactiveerd en eindigen zodra het bericht eenmaal is verzonden.
 
-U kunt een frequentie bepalen waarmee het bericht van de campagne zou moeten worden verzonden. Hiervoor gebruikt u de **[!UICONTROL Action triggers]** -opties in het scherm voor het maken van campagnes om op te geven of de campagne dagelijks, wekelijks of maandelijks moet worden uitgevoerd.
-
-Als u de campagne niet meteen na activering wilt uitvoeren, kunt u met de optie **[!UICONTROL Campaign start]** een datum en tijd opgeven waarop het bericht moet worden verzonden. Met de optie **[!UICONTROL Campaign end]** kunt u opgeven wanneer een terugkerende campagne niet meer wordt uitgevoerd.
+Als u de campagne niet meteen na activering wilt uitvoeren, kunt u met de optie **[!UICONTROL Campaign start]** een datum en tijd opgeven waarop het bericht moet worden verzonden. Met de optie **[!UICONTROL Campaign end]** kunt u opgeven wanneer een campagne moet stoppen met uitvoeren.
 
 ![](assets/create-campaign-schedule.png)
 
-Als uw campagne gereed is, kunt u deze controleren en activeren. [Meer informatie](review-activate-campaign.md)
+Voor e-mail-, sms- en pushberichtcampagnes kunt u een frequentie definiëren waarmee het campagnebericht moet worden verzonden. Hiervoor gebruikt u de **[!UICONTROL Action triggers]** -opties in het scherm voor het maken van campagnes om op te geven of de campagne dagelijks, wekelijks of maandelijks moet worden uitgevoerd.
+
+## Overige instellingen {#settings}
+
+Sommige instellingen gelden specifiek voor het communicatiekanaal dat voor de campagne is geselecteerd, of worden gebruikt voor specifieke gebruiksgevallen. Deze worden hieronder nader toegelicht.
+
+* Voor e-mail, kunt u specifieke IP campagnes van de opwarmingsPlan tot stand brengen. Lees meer in [deze sectie](../configuration/ip-warmup-campaign.md).
+* Voor het web, in-app en op code gebaseerd kanaal, kunt u een prioritaire score aan uw campagne toewijzen. Lees meer in [deze sectie](../conflict-prioritization/priority-scores.md).
+* Voor inhoudskaartcampagnes kunt u aanvullende leveringsregels inschakelen om de gebeurtenis(sen) en criteria te kiezen die uw bericht activeren. Lees meer in [deze sectie](../content-card/create-content-card.md).
+* Voor in-app berichten kunt u de knop **[!UICONTROL Edit triggers]** gebruiken om de gebeurtenis(sen) en criteria te kiezen die uw bericht activeren. Lees meer in [deze sectie](../in-app/create-in-app.md).
+
+## Volgende stappen {#next}
+
+Zodra uw campagneconfiguratie en inhoud klaar zijn, kunt u het herzien en activeren. [Meer informatie](review-activate-campaign.md)

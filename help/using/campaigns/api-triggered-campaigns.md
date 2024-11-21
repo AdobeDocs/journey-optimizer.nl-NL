@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## Informatie over API-gestuurde campagnes {#about}
 
-Met [!DNL Journey Optimizer], kunt u campagnes tot stand brengen en hen dan aanhalen van een extern systeem dat op gebruikerstrij wordt gebaseerd die de [ Interactieve REST API van de Uitvoering van het Bericht ](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution) gebruikt. Dit staat u toe om diverse marketing en transactionele overseinenbehoeften zoals wachtwoordterugstellen, het teken van OTP, onder andere te behandelen.
+Met [!DNL Journey Optimizer], kunt u campagnes tot stand brengen en hen dan uitvoeren van een extern systeem dat op gebruikerstrigger wordt gebaseerd die de [ Interactieve WEERGAVE API van de Uitvoering van het Bericht gebruiken ](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). Dit staat u toe om diverse marketing en transactionele overseinenbehoeften zoals wachtwoordterugstellen, het teken van OTP, onder andere te behandelen.
 
 Hiervoor moet u eerst een API-getriggerde campagne in Journey Optimizer maken en vervolgens de uitvoering starten via een API-aanroep.
 

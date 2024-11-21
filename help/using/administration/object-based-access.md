@@ -9,9 +9,9 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: voorwerp, niveau, toegang, controle, etiketten, olc, vergunning
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
+source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >title="Toegangsbeheerlabels"
 >abstract="U kunt de toegang tot deze campagne beperken op toegangslabels wordt gebaseerd die. Om een toegangsbeperking toe te voegen, doorblader aan **leid toegang** knoop bij de bovenkant van deze pagina. Zorg ervoor dat u alleen labels selecteert waarvoor u gemachtigd bent."
 
-Met toegangsbeheer op objectniveau (OLAC) kunt u machtigingen definiëren voor het beheren van gegevenstoegang tot een selectie objecten:
+Met de mogelijkheid voor toegangsbeheer op objectniveau (OLAC) kunt u machtigingen definiëren voor het beheren van gegevenstoegang tot een selectie met objecten:
 
 * Reis
 * Campaign
@@ -35,8 +35,6 @@ Met toegangsbeheer op objectniveau (OLAC) kunt u machtigingen definiëren voor h
 * Offertebeslissing
 * Kanaalconfiguratie
 * IP-opwarmingsplan
-
-Met gestandaardiseerde labels kunt u soorten publiek indelen op basis van hun beleid voor beheer en toegangsbeheer. Zo kan een label voor het publiek worden gebruikt om te voorkomen dat een merk zich richt op leden van een specifiek publiek met onsite reclame.
 
 Het doel is gevoelige digitale activa te beschermen tegen ongeoorloofde gebruikers, zodat persoonsgegevens verder kunnen worden beschermd.
 
