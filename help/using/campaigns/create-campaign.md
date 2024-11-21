@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: d39d46ad5376bb8418331f788e4287e21e4322a4
+source-git-commit: becd2d8bdb93abbe21a24c3767179b4e90c01523
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1184'
 ht-degree: 3%
 
 ---
