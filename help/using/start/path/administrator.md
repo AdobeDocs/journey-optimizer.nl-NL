@@ -7,9 +7,9 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 13cbb0877326b772c3750bd3339e21eee5c3f323
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '665'
 ht-degree: 1%
 
 ---
@@ -18,24 +18,22 @@ ht-degree: 1%
 
 Voordat u [!DNL Adobe Journey Optimizer] gaat gebruiken, moet u de omgeving in verschillende stappen voorbereiden.  U moet deze stappen uitvoeren zodat de [ Ingenieur van Gegevens ](data-engineer.md) en [ Praktijk van de Reis ](marketer.md) met [!DNL Adobe Journey Optimizer] kan beginnen te werken.
 
+Als Beheerder van het a **Systeem**, moet u rollen **begrijpen en toestemmingen** voor zandbakbeleid en kanaalconfiguratie toewijzen. U moet ook een of meer sandboxen instellen en deze beheren voor de beschikbare rollen. U zult dan teamleden aan rollen kunnen toewijzen.
 
-Als Beheerder van het a **Systeem**, moet u **productprofielen begrijpen en toestemmingen** voor zandbakbeleid en kanaalconfiguratie toewijzen. U moet ook een of meer sandboxen instellen en deze beheren voor de beschikbare productprofielen. Vervolgens kunt u teamleden toewijzen aan productprofielen.
-
-Deze mogelijkheden kunnen worden beheerd door **[!UICONTROL Product administrators]** die toegang hebben tot de beheerconsole. [ leer meer over Adobe Admin Console ](https://helpx.adobe.com/nl/enterprise/admin-guide.html) {target="_blank"}.
+Deze functies kunnen worden beheerd door **[!UICONTROL Product administrators]** die toegang hebben tot het product Machtigingen. [ leer meer over Toestemmingen ](../../administration/permissions.md){target="_blank"}.
 
 Meer informatie over toegangsbeheer vindt u op de volgende pagina&#39;s:
 
 1. **creeer zandbakken** om uw instanties in afzonderlijke, geïsoleerde virtuele milieu&#39;s te verdelen. **Sandboxes** wordt gecreeerd in [!DNL Journey Optimizer]. Leer meer in de [ zandbakken ](../../administration/sandboxes.md) sectie.
 
    >[!NOTE]
-   >Als Beheerder van het a **Systeem**, als u niet het **[!UICONTROL Sandboxes]** menu in [!DNL Journey Optimizer] ziet, werk uw toestemmingen in de [ Admin Console ](https://adminconsole.adobe.com/) {target="_blank"} bij. Leer hoe te om uw productprofiel in [ bij te werken deze pagina ](../../administration/permissions.md#edit-product-profile).
-   >
+   >Als a **Beheerder van het Systeem**, als u niet het **[!UICONTROL Sandboxes]** menu in [!DNL Journey Optimizer] kunt zien, moet u uw toestemmingen bijwerken. Leer hoe te om uw rol in [ bij te werken deze pagina ](../../administration/permissions.md#edit-product-profile).
 
-1. **Begrijp productprofielen**. Productprofielen zijn een reeks eenheidrechten die gebruikers toegang tot bepaalde functies of objecten in de interface biedt. Leer meer in de [ uit-van-de-doos productprofielen ](../../administration/ootb-product-profiles.md) sectie.
+1. **begrijp rollen**. Rollen zijn een reeks eenheidrechten die gebruikers toegang tot bepaalde functies of objecten in de interface biedt. Leer meer in de [ uit-van-de-doos rollen ](../../administration/ootb-product-profiles.md) sectie.
 
-1. **plaats toestemmingen** voor productprofielen, met inbegrip van **Sandboxes**, en geef toegang tot uw teamleden door hen aan verschillende productprofielen toe te wijzen. Deze stap wordt uitgevoerd in de [ Admin Console ](https://adminconsole.adobe.com/) {target="_blank"}. Machtigingen zijn eenheidrechten waarmee u de machtigingen kunt definiëren die aan **[!UICONTROL Product profile]** zijn toegewezen. Elke toestemming wordt verzameld onder mogelijkheden, bijvoorbeeld Reis of Aanbiedingen, die de verschillende functionaliteiten of voorwerpen in [!DNL Journey Optimizer] vertegenwoordigen. Leer meer in de [ niveaus van de Toestemming ](../../administration/high-low-permissions.md) sectie.
+1. **plaats toestemmingen** voor rollen, met inbegrip van **Sandboxes**, en geef toegang tot uw teamleden door hen aan verschillende rollen toe te wijzen. Machtigingen zijn eenheidrechten waarmee u de machtigingen kunt definiëren die aan **[!UICONTROL Role]** zijn toegewezen. Elke toestemming wordt verzameld onder mogelijkheden, bijvoorbeeld Reis of Aanbiedingen, die de verschillende functionaliteiten of voorwerpen in [!DNL Journey Optimizer] vertegenwoordigen. Leer meer in de [ niveaus van de Toestemming ](../../administration/high-low-permissions.md) sectie.
 
-Bovendien moet u gebruikers toevoegen die toegang tot Assets Essentials aan de **Gebruikers van de Assets Essentials Consumenten** of **gebruikers van Assets Essentials** de profielen van het Product nodig hebben. [ las meer in de documentatie van Assets Essentials ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html) {target="_blank"}.
+Bovendien moet u gebruikers toevoegen die toegang tot Assets Essentials aan de **Gebruikers van de Assets Essentials Consumenten** of **gebruikers van Assets Essentials** rollen nodig hebben. [ las meer in de documentatie van Assets Essentials ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html) {target="_blank"}.
 
 >[!NOTE]
 >Voor Journey Optimizer-producten die zijn verkregen vóór 6 januari 2022, moet u [!DNL Adobe Experience Manager Assets Essentials] implementeren voor uw organisatie. Leer meer in [ opstellen Assets Essentials ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html) {target="_blank"} sectie.
@@ -45,7 +43,7 @@ Wanneer u [!DNL Journey Optimizer] voor het eerst opent, beschikt u over een pro
 Om uw reizen te kunnen tot stand brengen en berichten te verzenden, heb toegang tot het **menu van het BEHEER**. Blader in het menu **[!UICONTROL Channels]** om uw berichten en kanaalconfiguraties (d.w.z. voorinstellingen voor berichten) te configureren.
 
 >[!NOTE]
->Als Beheerder van het a **Systeem**, als u niet het **[!UICONTROL Channels]** menu in [!DNL Journey Optimizer] ziet, werk uw toestemmingen in de [ Admin Console ](https://adminconsole.adobe.com/) {target="_blank"} bij. Leer hoe te om uw productprofiel in [ bij te werken deze pagina ](../../administration/permissions.md#edit-product-profile).
+>Als Beheerder van het a **Systeem**, als u niet het **[!UICONTROL Channels]** menu in [!DNL Journey Optimizer] kunt zien, werk uw toestemmingen in het [ ](../../administration/permissions.md){target="_blank"} product van Toestemmingen bij.
 >
 
 Voer de onderstaande stappen uit:
