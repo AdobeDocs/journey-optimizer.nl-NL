@@ -6,20 +6,24 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
 
-# Guardrails en voorwaarden {#web-prerequisites}
+# Guardrails en voorwaarden {#code-based-prerequisites}
 
 Als u code-gebaseerde ervaringsacties in [!DNL Journey Optimizer] wilt kunnen gebruiken en code inhoud lading kunt leveren die door uw toepassingen kan worden gebruikt, volg hieronder de eerste vereisten:
 
 * Als u wijzigingen wilt toevoegen aan uw toepassingen, moet u een specifieke implementatie hebben. [Meer informatie](#implementation-prerequisites)
 
 * Voor de op code-gebaseerde ervaringen die correct moeten worden geleverd, zorg ervoor u de montages van Adobe Experience Platform bepaalt die [ hier ](#delivery-prerequisites) worden gedetailleerd.
+
+* Om gegevens toe te laten om in uw code-gebaseerde ervaringsrapporten te tonen, zorg ervoor u deze [ het melden eerste vereisten ](#reporting-prerequisites) volgt.
+
+* Wanneer het creëren van a [ code-Gebaseerde configuratie van het ervaringskanaal ](code-based-configuration.md), zorg ervoor u een koord/weg of een oppervlakte URI ingaat die in uw eigen implementatie wordt verklaard. Dit zorgt ervoor dat de inhoud wordt geleverd op de gewenste locatie binnen de opgegeven app of pagina. Anders kunnen de wijzigingen niet worden uitgevoerd. [Meer informatie](code-based-surface.md)
 
 ## Voorwaarden voor implementatie {#implementation-prerequisites}
 
@@ -49,13 +53,13 @@ De op code gebaseerde ervaringen kunnen alleen correct worden geleverd als de vo
 
   ![](../web/assets/web-aep-merge-policy.png)
 
-* Om de levering van het Webervaringen van Journey Optimizer problemen op te lossen, kunt u de **Edge Delivery** mening binnen **Verzekering van Adobe Experience Platform** gebruiken. Deze plugin laat u toe om verzoekvraag in detail te inspecteren, te verifiëren of de verwachte randvraag zoals voorzien voorkomt, en profielgegevens, met inbegrip van identiteitskaarten, segmentlidmaatschap, en toestemmingsmontages te onderzoeken. Daarnaast kunt u de activiteiten bekijken waarvoor het verzoek is gekwalificeerd en vaststellen voor welke activiteiten het niet heeft uitgevoerd.
+* Om de levering van het Webervaringen van Journey Optimizer problemen op te lossen, kunt u de **Edge Delivery** mening binnen **Adobe Experience Platform Assurance** gebruiken. Deze plugin laat u toe om verzoekvraag in detail te inspecteren, te verifiëren of de verwachte randvraag zoals voorzien voorkomt, en profielgegevens, met inbegrip van identiteitskaarten, segmentlidmaatschap, en toestemmingsmontages te onderzoeken. Daarnaast kunt u de activiteiten bekijken waarvoor het verzoek is gekwalificeerd en vaststellen voor welke activiteiten het niet heeft uitgevoerd.
 
   Het gebruiken van de **insteekmodule van Edge Delivery** helpt u de inzichten verkrijgen nodig om uw binnenkomende implementaties effectief te begrijpen en problemen op te lossen.
 
   [ Leer meer op de mening van Edge Delivery ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
 
-## Voorwaarden voor rapportage {#experiment-prerequisites}
+## Voorwaarden voor rapportage {#reporting-prerequisites}
 
 Om rapportering voor het op code-gebaseerde kanaal toe te laten, moet u ervoor zorgen de [ dataset ](../data/get-started-datasets.md) in uw app implementatie [ wordt gebruikt datastream ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html) {target="_blank"} is ook inbegrepen in uw rapporteringsconfiguratie die.
 

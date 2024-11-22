@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 0%
@@ -67,7 +67,11 @@ U kunt bijvoorbeeld de wijzigingen toepassen op een hoofdbanner op een hele webs
 
 1. Wanneer het vormen van uw [ Web ](#web-configuration) of [ code-gebaseerde ervaring ](../code-based/code-based-configuration.md), selecteer **[!UICONTROL Pages matching rule]**.
 
-1. Definieer de criteria voor de velden **[!UICONTROL Domain]** en **[!UICONTROL Page]** . Controleer de beschikbare exploitanten in [ deze sectie ](#available-operators).
+1. Definieer de criteria voor de velden **[!UICONTROL Domain]** en **[!UICONTROL Page]** .
+
+   >[!NOTE]
+   >
+   >Controleer de beschikbare exploitanten in [ deze sectie ](#available-operators).
 
    Als u bijvoorbeeld elementen wilt bewerken die op alle pagina&#39;s met vrouwenproducten van uw Luma-website worden weergegeven, selecteert u **[!UICONTROL Domain]** > **[!UICONTROL Starts with]** > `luma` en **[!UICONTROL Page]** > **[!UICONTROL Contains]** > `women` .
 

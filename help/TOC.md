@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
-source-wordcount: '2168'
+source-wordcount: '2185'
 ht-degree: 25%
 
 ---
@@ -273,10 +273,15 @@ ht-degree: 25%
          + [Toepassingen van één pagina maken](using/web/web-spa.md)
    + Ervaring op basis van code {#code-based-experience}
       + [Aan de slag met op code gebaseerd kanaal](using/code-based/get-started-code-based.md)
-      + [Guardrails en voorwaarden](using/code-based/code-based-prerequisites.md)
-      + [Op code gebaseerde ervaringsconfiguratie maken](using/code-based/code-based-configuration.md)
-      + [Voorbeelden van implementatiemethoden](using/code-based/code-based-implementation-samples.md)
-      + [Op code gebaseerde ervaringen maken](using/code-based/create-code-based.md)
+      + Op code gebaseerd kanaal configureren {#configure-code-based-channel}
+         + [Guardrails en voorwaarden](using/code-based/code-based-prerequisites.md)
+         + [Op code gebaseerde ervaringsoppervlakken](using/code-based/code-based-surface.md)
+         + [Voorbeelden van implementatiemethoden](using/code-based/code-based-implementation-samples.md)
+         + [Op code gebaseerde ervaringsconfiguratie maken](using/code-based/code-based-configuration.md)
+      + Op code gebaseerde ervaringen maken {#create-code-based-experiences}
+         + [Codegebaseerde ervaringen opbouwen en samenstellen](using/code-based/create-code-based.md)
+         + [Ervaringen op basis van code testen](using/code-based/test-code-based.md)
+         + [Op code gebaseerde ervaringen beheren](using/code-based/publish-code-based.md)
    + Inhoudskaarten {#content-card}
       + [Aan de slag met inhoudskaarten](using/content-card/get-started-content-card.md)
       + Kanaal voor inhoudskaart configureren {#configure}

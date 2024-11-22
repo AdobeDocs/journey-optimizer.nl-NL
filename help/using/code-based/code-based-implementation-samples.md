@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 1%
@@ -41,7 +41,7 @@ Als u een client-side implementatie hebt, kunt u een van de AEP client-SDK&#39;s
 
 1. [ SDK van het Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) {target="_blank"} is inbegrepen op de pagina.
 
-1. U moet het `sendEvent` bevel gebruiken en de [ oppervlakte URI ](code-based-configuration.md#surface-definition)<!--( or location/path)--> specificeren om verpersoonlijkingsinhoud te halen.
+1. U moet het `sendEvent` bevel gebruiken en de [ oppervlakte URI ](code-based-surface.md)<!--( or location/path)--> specificeren om verpersoonlijkingsinhoud te halen.
 
    ```javascript
    alloy("sendEvent", {

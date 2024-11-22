@@ -6,9 +6,9 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '767'
 ht-degree: 1%
 
 ---
@@ -47,6 +47,15 @@ Met het **code-gebaseerde ervaring** vermogen, kunt u binnenkomende ervaringen b
 <p>
 </td>
 <td>
+<a href="code-based-configuration.md">
+<img alt="Validatie" src="../assets/do-not-localize/web-design.jpg">
+</a>
+<div>
+<a href="code-based-implementation-samples.md"><strong> op code-Gebaseerde kanaalconfiguratie </strong></a>
+</div>
+<p>
+</td>
+<td>
 <a href="create-code-based.md#create-code-based-campaign">
 <img alt="Onfrequent" src="../assets/do-not-localize/web-create.jpg">
 </a>
@@ -54,15 +63,6 @@ Met het **code-gebaseerde ervaring** vermogen, kunt u binnenkomende ervaringen b
 <a href="create-code-based.md#create-code-based-campaign"><strong> creeer een op code-gebaseerde ervaring </strong></a>
 </div>
 <p></td>
-<td>
-<a href="code-based-implementation-samples.md">
-<img alt="Validatie" src="../assets/do-not-localize/web-design.jpg">
-</a>
-<div>
-<a href="code-based-implementation-samples.md"><strong> steekproeven van de Implementatie </strong></a>
-</div>
-<p>
-</td>
 </tr></table>
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
@@ -75,18 +75,21 @@ Wanneer moet u het op code gebaseerde kanaal gebruiken in plaats van de andere [
 
 * U kunt het gebruiken van code-gebaseerde ervaringen overwegen wanneer uw digitaal bezit niet door Webbrowser of een mobiele app - gevallen wordt betreden waarin u waarschijnlijk beter het [!DNL Journey Optimizer] [ Webkanaal ](../web/get-started-web.md){target="_blank"} of [!DNL Journey Optimizer] [ in-app overseinen ](../in-app/get-started-in-app.md){target="_blank"} kanaal kunt gebruiken.
 
-* U kunt het op code-gebaseerde kanaal als alternatief voor het [!DNL Journey Optimizer] Webkanaal gebruiken als uw website niet in de [ 2} visuele redacteur van de Webontwerper kan worden geladen {of als u niet de [ browser uitbreiding ](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} kunt gebruiken die visuele auteurskracht voor Webkanaal.](../web/web-visual-editor.md){target="_blank"}
+<!--* You can use the code-based channel as an alternative to the [!DNL Journey Optimizer] web channel if your website cannot be loaded into the [web designer](../web/web-visual-editor.md){target="_blank"} visual editor or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} that powers visual authoring for web channel.-->
 
-* U kunt het op code gebaseerde kanaal ook gebruiken als alternatief voor het [!DNL Journey Optimizer] web of in-app kanalen voor het geval u een API-gebaseerde, headless of server-side implementatie hebt.
+* U kunt het op code gebaseerde kanaal als alternatief voor het [!DNL Journey Optimizer] web of in-app kanalen gebruiken voor het geval u een API-gebaseerde, headless of server-side implementatie hebt.
+
+* U kunt het op code gebaseerde kanaal ook gebruiken op native mobiele toepassingen als alternatief voor het kanaal in de app als u de inhoud in uw native app wilt wijzigen in plaats van modellen, popups of overlays weer te geven.
 
 ### Codegebaseerd versus webkanaal {#code-based-vs-web}
 
-Als u zaken voor webgebruik wilt uitvoeren, kunt u het webkanaal of de ervaring op basis van code gebruiken, maar afhankelijk van uw context is een van beide geschikter. De belangrijkste verschillen worden hieronder vermeld zodat kunt u een weloverwogen besluit nemen over wat te gebruiken wanneer.
+Als u zaken voor webgebruik wilt uitvoeren, kunt u het webkanaal of de ervaring op basis van code gebruiken, maar afhankelijk van uw context is een van beide geschikter. De belangrijkste verschillen worden hieronder vermeld zodat kunt u een weloverwogen besluit nemen over wat te gebruiken, en wanneer.
 
 **Web**
 
-* Bewerk uw inhoud gebruikend de ](../web/web-visual-editor.md){target="_blank"} visuele redacteur van de 0} Webontwerper {.[
-* U hebt de ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html) {target="_blank"} implementatie van SDK van het Web van Adobe Experience Platform 0} {en de [ Visuele het Uitgeven Helper van Adobe Experience Cloud ](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca) {target="_blank"} uitbreiding nodig die op uw Webbrowser wordt geïnstalleerd. [ [Meer informatie](../web/web-prerequisites.md){target="_blank"}
+* Bewerk uw inhoud gebruikend de ](../web/web-visual-editor.md){target="_blank"} visuele redacteur van de 0} Webontwerper {of de Web [ niet-visuele redacteur ](../web/web-non-visual-editor.md).[
+* U hebt [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html) {target="_blank"} nodig - een cliënt-zijimplementatie.
+  <!--* You need the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}-->
 * Met het webkanaal kunt u alles op de pagina wijzigen en hebt u een vooraf gedefinieerde lijst met handelingen die u kunt gebruiken om wijzigingen aan te brengen. [Meer informatie](../web/web-visual-editor.md){target="_blank"}
 * Het is eenvoudig om in te stellen en snel te gaan.
 * Het is gericht op marketer-persona.
@@ -94,8 +97,9 @@ Als u zaken voor webgebruik wilt uitvoeren, kunt u het webkanaal of de ervaring 
 **op code-gebaseerde ervaring**
 
 * Bewerk uw inhoud gebruikend de [ verpersoonlijkingsredacteur ](create-code-based.md#edit-code).
-* De op code-gebaseerde ervaring vereist vorige ontwikkelingswerk aan uw implementatie om ervoor te zorgen dat uw toepassingen de inhoud kunnen interpreteren en leveren die op de rand door [!DNL Journey Optimizer] voor deze plaatsen wordt gepubliceerd. [Meer informatie](code-based-configuration.md#surface-definition)
-* Het vereist meer planning en het kan slechts de dingen veranderen die de ontwikkelaars specificeren. Daarom is het van essentieel belang dat de componenten worden geïdentificeerd (thuisbanner, hoofdafbeelding, menubalk, enz.) op de toepassingen die voor verpersoonlijking of het testen moeten worden gewijzigd, en met uw ontwikkelingsteam samenwerken om de implementatie te bouwen nodig voor de behandeling van deze veranderingen.
+* U hebt of de [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html) {target="_blank"} - cliënt-zijimplementatie, of de [ API van de Server van de Edge Network AEP ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) {target="_blank"} - server-zijimplementatie nodig.
+* De op code-gebaseerde ervaring vereist vorige ontwikkelingswerk aan uw implementatie om ervoor te zorgen dat uw toepassingen de inhoud kunnen interpreteren en leveren die op de rand door [!DNL Journey Optimizer] voor deze plaatsen wordt gepubliceerd. [Meer informatie](code-based-surface.md)
+* Het vereist meer planning en het kan slechts de dingen veranderen die de ontwikkelaars specificeren. Daarom is het essentieel om de componenten (huisbanner, heldenbeeld, menubalk, enz.) op de toepassingen te identificeren die voor verpersoonlijking of het testen moeten worden gewijzigd, en met uw ontwikkelingsteam te werken om de implementatie te bouwen nodig voor het behandelen van deze veranderingen.
 * U kunt hiermee JSON-code-inhoud gebruiken.
 * Het is gericht op ontwikkelaars-persoonlijkheid.
 
@@ -105,18 +109,33 @@ Als u zaken voor webgebruik wilt uitvoeren, kunt u het webkanaal of de ervaring 
 >
 >Deze functie is bedoeld voor ontwikkelaars en/of ervaren gebruikers. Het kan door marketers met sommige code-schrijvende vaardigheden worden gebruikt, zolang de kanaalconfiguraties en aanvankelijke opstelling door uw ontwikkelingsteam worden behandeld.
 
-Als u de inhoud wilt bewerken met de ervaringsfunctie van [!DNL Journey Optimizer] op code gebaseerde, pagina&#39;s of apps moeten van instrumenten worden voorzien. Om dit te doen, moet u vóór de specifieke individuele plaatsen (genoemd &quot;[ oppervlakten ](code-based-configuration.md#surface-definition)&quot;verklaren waar u inhoud wilt opnemen of vervangen.
+Als u de inhoud wilt bewerken met de ervaringsfunctie van [!DNL Journey Optimizer] op code gebaseerde, pagina&#39;s of apps moeten van instrumenten worden voorzien. Om dit te doen, moet u vóór de specifieke individuele plaatsen (genoemd &quot;[ oppervlakten ](code-based-surface.md)&quot;verklaren waar u inhoud wilt opnemen of vervangen.
 
 >[!NOTE]
 >
 >De inhoud die momenteel aan een configuratie is gekoppeld, kan alleen HTML of JSON zijn.
 
-De belangrijkste stappen om een op code-gebaseerde campagne uit te voeren zijn als volgt.
+De belangrijkste stappen om een op code-gebaseerde ervaring tot stand te brengen en te leveren zijn als volgt.
 
-1. Bepaal a [ oppervlakte ](code-based-configuration.md#surface-definition) in uw toepassingsimplementatie, die fundamenteel de plaats is waar u uw op code-gebaseerde ervaring wilt toevoegen, en een code-gebaseerde configuratie van het ervaringskanaal creëren die verwijzingen die plaats. [ leer hoe ](code-based-configuration.md#create-code-based-configuration)
+1. Zorg ervoor dat u de kanaalspecifieke voorwaarden volgt. [Meer informatie](code-based-prerequisites.md)
+
+1. Bepaal a [ oppervlakte ](code-based-surface.md#surface-definition) in uw toepassingsimplementatie, die fundamenteel de plaats is waar u uw ervaring wilt toevoegen.
+
+1. Maak een op code gebaseerde kanaalconfiguratie die naar die locatie verwijst. [ leer hoe ](code-based-configuration.md#create-code-based-configuration)
 
 1. Maak een reis of campagne in [!DNL Journey Optimizer] met deze configuratie. [ leer hoe ](create-code-based.md#create-code-based-campaign)
 
 1. Stel een ervaring samen door inhoud voor de geselecteerde configuratie te specificeren gebruikend de [!DNL Journey Optimizer] verpersoonlijkingsredacteur. [ leer hoe ](create-code-based.md#edit-code)
 
-1. Uw app-implementatieteam doet expliciete API- of SDK-aanroepen om inhoud op te halen voor de benoemde oppervlakken, zoals &quot;Banner Text&quot; of &quot;Recommendations Tray 1&quot; of niet-UI gerelateerde beslissingspunten in een toepassing, zoals &quot;zoekalgoritmeparameters&quot;. In dit geval is het implementatieteam verantwoordelijk voor het renderen of anderszins interpreteren en reageren op de geretourneerde inhoud. [Meer informatie](code-based-implementation-samples.md)
+1. Test uw op code gebaseerde ervaring. [ leer hoe ](test-code-based.md)
+
+1. Publish. [ leer hoe ](publish-code-based.md)
+
+1. Als uw op code gebaseerde ervaringstraject of -campagne live is, moet de app- of paginaimplementatie die om inhoud voor het oppervlak vraagt, aanwezig zijn om de inhoud op te halen en weer te geven.
+
+   >[!INFO]
+   >
+   >Om dit te verzekeren, doet uw toepassings implementatieteam expliciete API of SDK vraag om inhoud voor de oppervlakte te halen die in de op code-gebaseerde configuratie wordt bepaald, zoals &quot;Banner Tekst&quot;of &quot;Lade 1 van Recommendations&quot;, of niet-UI-verwante besluitvormingspunten in een toepassing, zoals &quot;onderzoeksalgoritmeparameters&quot;. <!--In this case, the implementation team is responsible for rendering or otherwise interpreting and acting on the returned content.--> [Meer informatie](code-based-implementation-samples.md)
+
+
+

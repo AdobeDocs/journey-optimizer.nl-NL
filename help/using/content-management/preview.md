@@ -5,7 +5,7 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 2%
@@ -50,5 +50,5 @@ Voer de volgende stappen uit om een voorvertoning van de inhoud weer te geven me
 >
 >Als een fout in de configuratiedetails wordt gevonden, klik de **[!UICONTROL View configuration details]** knoop. [Meer informatie](../email/surface-personalization.md#check-configuration)
 
-Wanneer u code-gebaseerde ervaringen maakt, kunt u een voorvertoning van uw gepersonaliseerde inhoud direct op uw browser of op uw mobiele apparaten bekijken voor een echte simulatie. [Meer informatie](../code-based/create-code-based.md#preview-on-device)
+Wanneer u code-gebaseerde ervaringen maakt, kunt u een voorvertoning van uw gepersonaliseerde inhoud direct op uw browser of op uw mobiele apparaten bekijken voor een echte simulatie. [Meer informatie](../code-based/test-code-based.md#preview-on-device)
 

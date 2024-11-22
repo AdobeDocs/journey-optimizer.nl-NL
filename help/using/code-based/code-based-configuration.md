@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1023'
 ht-degree: 1%
 
 ---
@@ -104,11 +104,15 @@ Volg onderstaande stappen om de op code gebaseerde instellingen voor ervaringsco
 1. Het volgende is van toepassing op de voorbeeld-URL:
 
    * Als er één pagina-URL wordt ingevoerd, wordt die URL gebruikt voor de voorvertoning. U hoeft geen andere URL in te voeren.
-   * Als a [ pagina&#39;s passende regel ](../web/web-configuration.md#web-page-matching-rule) wordt geselecteerd, moet u a **[!UICONTROL Default authoring and preview URL]** ingaan die aan voorproef de ervaring in browser zal worden gebruikt. [Meer informatie](../code-based/create-code-based.md#preview-on-device)
+   * Als a [ pagina&#39;s passende regel ](../web/web-configuration.md#web-page-matching-rule) wordt geselecteerd, moet u a **[!UICONTROL Default authoring and preview URL]** ingaan die aan voorproef de ervaring in browser zal worden gebruikt. [Meer informatie](test-code-based.md#preview-on-device)
 
      ![](assets/code_config_matching_rules_preview.png)
 
 1. In het veld **[!UICONTROL Location on page]** wordt de exacte bestemming opgegeven binnen de pagina waartoe gebruikers toegang moeten krijgen. Het kan een bepaalde sectie op een pagina binnen de navigatie-structuur van de plaats, zoals &quot;held-banner&quot; of &quot;product-rail&quot; zijn.
+
+   >[!CAUTION]
+   >
+   >De tekenreeks of het pad dat u in dit veld invoert, moet overeenkomen met de tekenreeks of het pad dat u in uw app of pagina-implementatie opgeeft. Dit zorgt ervoor dat de inhoud wordt geleverd op de gewenste locatie binnen de opgegeven app of pagina. [Meer informatie](code-based-surface.md#uri-composition)
 
    ![](assets/code_config_location_on_page.png)
 
@@ -132,7 +136,7 @@ Volg onderstaande stappen om de op code gebaseerde instellingen voor ervaringsco
 
    ![](assets/code_config_3.png)
 
-1. Vul het veld **[!UICONTROL Preview URL]** in om voorvertoningen op het apparaat in te schakelen. Deze URL informeert de voorbeeldservice over de specifieke URL die moet worden gebruikt wanneer voorvertoning op apparaat wordt geactiveerd. [Meer informatie](../code-based/create-code-based.md#preview-on-device)
+1. Vul het veld **[!UICONTROL Preview URL]** in om voorvertoningen op het apparaat in te schakelen. Deze URL informeert de voorbeeldservice over de specifieke URL die moet worden gebruikt wanneer voorvertoning op apparaat wordt geactiveerd. [Meer informatie](test-code-based.md#preview-on-device)
 
    De URL van de voorvertoning is een diepe koppeling die door de ontwikkelaar van de app in uw app is geconfigureerd. Zo zorgt u ervoor dat alle URL&#39;s die overeenkomen met het deep link-schema, in de app worden geopend in plaats van in een mobiele webbrowser. Neem contact op met de ontwikkelaar van de app om het deep link-schema voor uw app te verkrijgen.
 
@@ -160,73 +164,16 @@ Volg de onderstaande stappen om de op code gebaseerde instellingen voor ervaring
 
 1. Selecteer **[!UICONTROL Other]** als het platform als uw implementatie niet voor Web, iOS of Android is, of als u specifieke URI&#39;s moet instellen.
 
-1. Voer de **[!UICONTROL Surface URI]** in. Een oppervlakte-URI is een unieke identificatie die correspondeert met de entiteit waar u uw ervaring wilt leveren. [Meer informatie](#surface-definition)
+1. Voer de **[!UICONTROL Surface URI]** in. Een oppervlakte-URI is een unieke identificatie die correspondeert met de entiteit waar u uw ervaring wilt leveren. [Meer informatie](code-based-surface.md#surface-uri)
 
    ![](assets/code_config_5.png)
 
    >[!CAUTION]
    >
-   >Zorg ervoor u een oppervlakte URI ingaat die in uw eigen implementatie wordt gebruikt. Anders kunnen de wijzigingen niet worden uitgevoerd.
+   >Zorg ervoor u een oppervlakte URI ingaat die in uw eigen implementatie wordt gebruikt. Anders kunnen de wijzigingen niet worden uitgevoerd. [Meer informatie](code-based-surface.md#uri-composition)
 
 1. **[!UICONTROL Add another surface URI]** indien nodig. U kunt maximaal 10 URI&#39;s toevoegen.
 
    >[!NOTE]
    >
    >Wanneer u meerdere URI&#39;s toevoegt, wordt de inhoud aan alle vermelde componenten geleverd.
-
-## Wat is een oppervlak? {#surface-definition}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_surface_uri"
->title="De oppervlak-URI voor de component toevoegen"
->abstract="Als uw implementatie niet voor Web, iOS, of Android is, of als u specifieke URIs moet richten, ga een oppervlakte URI in, die een unieke herkenningsteken richtend aan de entiteit is waar u uw ervaring wilt leveren. Zorg ervoor u een oppervlakte URI ingaat die in uw eigen implementatie wordt gebruikt."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/code-based-configuration#other" text="Creeer een code-gebaseerde ervaringsconfiguratie voor Andere platforms"
-
-Een op code-gebaseerde ervaring **oppervlakte** is om het even welke entiteit die voor gebruiker of systeeminteractie wordt ontworpen, die uniek door een **URI** wordt geïdentificeerd. Het oppervlak wordt opgegeven in de implementatie van de toepassing en moet overeenkomen met het oppervlak waarnaar wordt verwezen in uw op code gebaseerde configuratie van het ervaringskanaal.
-
-Een oppervlak kan worden beschouwd als een container op elk hiërarchisch niveau met een bestaande entiteit (aanraakpunt).
-
-* Dit kan een webpagina, een mobiele app, een bureaubladtoepassing, een specifieke inhoudslocatie binnen een grotere entiteit (bijvoorbeeld a `div` ) of een niet-standaard weergavepatroon (bijvoorbeeld een kiosk of een bureaubladtoepassingsbanner) zijn. <!--In retail, a kiosk is a digital display or small structure that businesses often place in high-traffic areas to engage customers.-->
-
-* Het kan zich ook uitstrekken tot specifieke stukken inhoudscontainers voor niet-display of abstracted-display doeleinden (bijvoorbeeld JSON-lobs die aan services worden geleverd).
-
-* Dit kan ook een jokeroppervlak zijn dat overeenkomt met verschillende definities van het clientoppervlak (zo kan een locatie van een hoofdafbeelding op elke pagina van uw website bijvoorbeeld worden vertaald in een oppervlak-URI, zoals: web://mydomain.com/*#hero_image).
-
-Wanneer u een op code gebaseerde configuratie van het ervaringskanaal maakt, hebt u twee manieren om het oppervlak op te geven op basis van het geselecteerde platform:
-
-* Voor **[!UICONTROL Web]**, **[!UICONTROL iOS]** en **[!UICONTROL Android]** platforms, moet u a **plaats of weg** ingaan om de oppervlakte samen te stellen.
-
-* Als het platform **[!UICONTROL Other]** is, moet u de volledige **oppervlakte URI** ingaan, zoals in de hieronder voorbeelden.
-
-Een oppervlakte-URI fungeert als een nauwkeurige identificatie die naar verschillende elementen of componenten van de gebruikersinterface binnen een toepassing wordt geleid. Een oppervlak-URI bestaat uit meerdere secties:
-
-1. **Type**: Web, mobileapp, atm, kiosk, tvcd, de dienst, enz.
-1. **Bezit**: pagina URL of app bundel
-1. **Container**: plaats op de pagina/app activiteit
-
-In de onderstaande tabellen staan enkele voorbeelden van de oppervlakte-URI-definitie voor verschillende apparaten.
-
-**Web en mobiel**
-
-| Type | URI | Beschrijving |
-| --------- | ----------- | ------- | 
-| Web | `web://domain.com/path/page.html#element` | Vertegenwoordigt een individueel element binnen een specifieke pagina van een specifiek domein, waar een element een etiket zoals in de volgende voorbeelden kan zijn: hero_banner, top_nav, menu, footer, enz. |
-| iOS-app | `mobileapp://com.vendor.bundle/activity#element` | Vertegenwoordigt een specifiek element binnen een inheemse toepassingsactiviteit, zoals een knoop of ander meningselement. |
-| Android-app | `mobileapp://com.vendor.bundle/#element` | Vertegenwoordigt een specifiek element binnen een native app. |
-
-**Andere apparatentypen**
-
-| Type | URI | Beschrijving |
-| --------- | ----------- | ------- | 
-| Desktop | `desktop://com.vendor.bundle/#element` | Vertegenwoordigt een specifiek element binnen een toepassing, zoals een knoop, een menu, een heldenbanner, enz. |
-| TV-app | `tvcd://com.vendor.bundle/#element` | Vertegenwoordigt een specifiek element binnen een apparaat dat op een slimme tv of tv is aangesloten - bundel-id. |
-| Service | `service://servicename/#element` | Vertegenwoordigt een server-zijproces of andere handentiteit. |
-| Kiosk | `kiosk://location/screen#element` | Voorbeeld van mogelijke extra oppervlaktetypen die gemakkelijk kunnen worden toegevoegd. |
-| ATM | `atm://location/screen#element` | Voorbeeld van mogelijke extra oppervlaktetypen die gemakkelijk kunnen worden toegevoegd. |
-
-**de oppervlakken van de Vervanging**
-
-| Type | URI | Beschrijving |
-| --------- | ----------- | ------- | 
-| Jokertekenweb | `wildcard:web://domain.com/*#element` | Jokeroppervlak - vertegenwoordigt een afzonderlijk element op elke pagina onder een specifiek domein. |
-| Jokertekenweb | `wildcard:web://*domain.com/*#element` | Jokeroppervlak - vertegenwoordigt een afzonderlijk element op elke pagina onder alle domeinen die eindigen met &quot;domain.com&quot;. |

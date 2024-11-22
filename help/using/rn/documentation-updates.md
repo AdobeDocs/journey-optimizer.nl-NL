@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 05ce9083d9f45332c718adc9d01ec3410ca84050
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
 source-wordcount: '5732'
 ht-degree: 13%
@@ -26,7 +26,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 * **vorm uw code-gebaseerde ervaring** pagina is verbeterd om het proces helderder te maken, met inbegrip van de sectie die verklaart wat een oppervlakte URI is. [Meer informatie](../code-based/code-based-configuration.md)
 * **creeer de configuratie van het Webkanaal** pagina is bijgewerkt om de stappen te verduidelijken wanneer het creëren van een pagina passende regel, die ook op code-gebaseerde ervaringsconfiguratie van toepassing is. [Meer informatie](../web/web-configuration.md#web-page-matching-rule)
 * Er is een notitie toegevoegd over de aanstaande time-to-live (TTL) guardrail voor door het systeem gegenereerde gegevenssets. [Meer informatie](../data/get-started-datasets.md)
-* Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe u direct op uw browser of mobiele apparaten op basis van code aangepaste ervaringen kunt bekijken met de optie Voorvertonen op apparaat wanneer u inhoud op een reis of een campagne simuleert. [Meer informatie](../code-based/create-code-based.md#preview-on-device)
+* Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe u direct op uw browser of mobiele apparaten op basis van code aangepaste ervaringen kunt bekijken met de optie Voorvertonen op apparaat wanneer u inhoud op een reis of een campagne simuleert. [Meer informatie](../code-based/test-code-based.md#preview-on-device)
 * Er is een nieuwe pagina toegevoegd over het gebruik van Aangepast uploadpubliek voor besluitvorming. [Meer informatie](../offers/custom-upload-decisioning.md)
 * Er is een nieuwe pagina toegevoegd om de beslissingsmogelijkheden van Journey Optimizer te introduceren. [Meer informatie](../experience-decisioning/gs-decision.md)
 * Er zijn instructies en beperkingen toegevoegd aan de beslissingsdocumentatie. [Meer informatie](../experience-decisioning/gs-experience-decisioning.md#guardrails)
