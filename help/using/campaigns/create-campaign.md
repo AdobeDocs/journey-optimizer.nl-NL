@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: becd2d8bdb93abbe21a24c3767179b4e90c01523
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1197'
 ht-degree: 3%
 
 ---
@@ -126,7 +126,7 @@ Leer gedetailleerde stappen om uw berichtinhoud op de volgende pagina&#39;s tot 
 <div align="center"><a href="../content-card/create-content-card.md"><strong> kaarten van de Inhoud </strong></a></div></td>
 </tr></table>
 
-Wanneer de inhoud is gedefinieerd, gebruikt u de knop **[!UICONTROL Simulate content]** om een voorvertoning van de inhoud weer te geven en de inhoud met testprofielen te testen. [Meer informatie](../content-management/preview-test.md). Klik op de linkerpijl om terug te bladeren naar het scherm Campagne maken.
+Zodra de inhoud is gedefinieerd, gebruikt u de knop **[!UICONTROL Simulate content]** om een voorvertoning van uw inhoud weer te geven en deze te testen met testprofielen of voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [Meer informatie](../content-management/preview-test.md). Klik op de linkerpijl om terug te bladeren naar het scherm Campagne maken.
 
 ![](assets/create-campaign-design.png)
 

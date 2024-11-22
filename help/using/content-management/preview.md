@@ -5,18 +5,24 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 4%
+source-wordcount: '251'
+ht-degree: 2%
 
 ---
 
-# Uw inhoud controleren {#preview}
+# Inhoud voorvertonen met testprofielen {#preview}
 
 <!--## Preview your content {#preview-content}-->
 
-Zodra [ testprofielen ](test-profiles.md) worden bepaald, kunt u voorproef uw inhoud. Volg de onderstaande stappen:
+Zodra [ testprofielen ](test-profiles.md) worden bepaald, kunt u voorproef uw inhoud.
+
+>[!NOTE]
+>
+>Met [!DNL Journey optimizer] kunt u ook verschillende varianten van uw inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [ Leer hoe te om uw inhoud te testen gebruikend de gegevens van de steekproefinput ](../test-approve/simulate-sample-input.md)
+
+Voer de volgende stappen uit om een voorvertoning van de inhoud weer te geven met testprofielen:
 
 1. Klik op de knop **[!UICONTROL Simulate content]** in het scherm Inhoud bewerken van uw bericht of in de Designer-e-mail.
 

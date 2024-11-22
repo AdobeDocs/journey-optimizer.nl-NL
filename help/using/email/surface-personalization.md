@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie, subdomein
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 9b4ff0325d099252a5785aa13cfe0f1fe42acac6
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1082'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,13 @@ Wanneer het gebruiken van een configuratie met gepersonaliseerde montages in een
 
 ## Controleer uw configuratie {#check-configuration}
 
-Wanneer u een gepersonaliseerde configuratie gebruikt in een campagne of een rit, kunt u een voorbeeld van uw e-mailinhoud bekijken om te controleren op mogelijke fouten met de dynamische instellingen die u hebt gedefinieerd. Voer de onderstaande stappen uit.
+Wanneer u een gepersonaliseerde configuratie gebruikt in een campagne of een rit, kunt u een voorbeeld van uw e-mailinhoud weergeven met testprofielen om te controleren op mogelijke fouten met de dynamische instellingen die u hebt gedefinieerd. Voer de onderstaande stappen uit.
+
+>[!NOTE]
+>
+>Naast testprofielen kunt u met [!DNL Journey optimizer] ook verschillende varianten van de inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [ Leer hoe te om uw inhoud te testen gebruikend de gegevens van de steekproefinput ](../test-approve/simulate-sample-input.md)
+
+Voer de volgende stappen uit om een voorvertoning van de inhoud weer te geven met testprofielen:
 
 1. Klik op de knop **[!UICONTROL Simulate content]** in het scherm Inhoud bewerken van uw bericht of in de Designer-e-mail. [Meer informatie](../content-management/preview.md)
 

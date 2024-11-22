@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 01726ab6-f581-4d19-aedd-2541bc0f27c6
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 1%
+source-wordcount: '204'
+ht-degree: 0%
 
 ---
 
@@ -37,4 +37,4 @@ U kunt de rendering van sommige van uw e-mailsjablonen testen, ongeacht of deze 
 
 >[!CAUTION]
 >
->Het bijhouden van wijzigingen wordt momenteel niet ondersteund bij het testen van sjablonen voor e-mailinhoud. Dit houdt in dat volggebeurtenissen, UTM-parameters en landingspagina-koppelingen niet effectief zijn in de proefdrukken die vanuit een sjabloon worden verzonden. Om het volgen te testen, [ gebruik het inhoudsmalplaatje ](../email/use-email-templates.md) in e-mail en [ verzend een proef ](../content-management/preview-test.md#send-proofs).
+>Het bijhouden van wijzigingen wordt momenteel niet ondersteund bij het testen van sjablonen voor e-mailinhoud. Dit houdt in dat volggebeurtenissen, UTM-parameters en landingspagina-koppelingen niet effectief zijn in de proefdrukken die vanuit een sjabloon worden verzonden. Om het volgen te testen, [ gebruik het inhoudsmalplaatje ](../email/use-email-templates.md) in e-mail en verzend een proef gebruikend testprofielen, of steekproefinputgegevens die van een CSV/JSON- dossier worden geupload, of manueel worden toegevoegd. [ Leer hoe te voorproef en uw inhoud te testen ](../content-management/preview-test.md)

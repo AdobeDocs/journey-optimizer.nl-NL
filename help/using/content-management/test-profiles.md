@@ -4,9 +4,10 @@ description: Leer hoe u testprofielen selecteert om inhoud voor te vertonen en t
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
+exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -18,15 +19,19 @@ ht-degree: 0%
 >title="Gebruik testprofielen om uw inhoud te controleren"
 >abstract="Gebruik testprofielen om de inhoud voor te vertonen en te testen. Als u persoonlijke velden hebt toegevoegd, kunt u controleren hoe deze worden weergegeven met behulp van de gegevens van het testprofiel."
 
-Voordat u een voorbeeld van de inhoud bekijkt of de inhoud test, moet u eerst testprofielen selecteren. Dit zijn aanvullende ontvangers die niet voldoen aan de gedefinieerde doelcriteria. [Leer hoe u testprofielen maakt](../audience/creating-test-profiles.md)
+Voordat u een voorbeeld van de inhoud bekijkt of de inhoud test, moet u eerst testprofielen selecteren. Dit zijn aanvullende ontvangers die niet voldoen aan de gedefinieerde doelcriteria. [ Leer hoe te om testprofielen tot stand te brengen ](../audience/creating-test-profiles.md)
+
+>[!NOTE]
+>
+>Naast testprofielen kunt u met [!DNL Journey optimizer] ook verschillende varianten van de inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [ Leer hoe te om uw inhoud te testen gebruikend de gegevens van de steekproefinput ](../test-approve/simulate-sample-input.md)
 
 Voer de volgende stappen uit om testprofielen te selecteren:
 
-1. Klik in het scherm Inhoud bewerken van uw bericht of in de e-mailontwerper op de knop **[!UICONTROL Simulate content]** knop.
+1. Klik op de knop **[!UICONTROL Simulate content]** in het scherm Inhoud bewerken van uw bericht of in de Designer-e-mail.
 
-1. Klik op de knop **[!UICONTROL Manage test profiles]** selecteert u vervolgens de naamruimte die u wilt gebruiken om testprofielen te identificeren door op de knop **[!UICONTROL Identity namespace]** selectiepictogram. [Meer informatie over naamruimten in Adobe Experience Platform](../audience/get-started-identity.md).
+1. Klik op de knop **[!UICONTROL Manage test profiles]** en selecteer de naamruimte die u wilt gebruiken om testprofielen te identificeren door op het selectiepictogram **[!UICONTROL Identity namespace]** te klikken. [ Leer meer over de identiteitsnamespaces van Adobe Experience Platform ](../audience/get-started-identity.md).
 
-   In het onderstaande voorbeeld gebruiken we de **E-mail** naamruimte.
+   In het voorbeeld hieronder, gebruiken wij **E-mail** namespace.
 
    ![](../email/assets/previewselect-namespace.png)
 
@@ -34,7 +39,7 @@ Voer de volgende stappen uit om testprofielen te selecteren:
 
    ![](../email/assets/preview-email-namespace.png)
 
-1. In de **[!UICONTROL Identity value]** -veld, voer de waarde in (hier het e-mailadres) om het testprofiel te identificeren en klik op **[!UICONTROL Add profile]**.
+1. Voer in het veld **[!UICONTROL Identity value]** de waarde (hier het e-mailadres) in om het testprofiel te identificeren en klik op **[!UICONTROL Add profile]** .
 
    <!--![](assets/preview-identity-value.png)-->
 

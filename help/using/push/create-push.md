@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '775'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Voer de onderstaande stappen uit om een pushmelding te maken:
 
 1. Klik in het scherm met de reisconfiguratie op de knop **[!UICONTROL Edit content]** om de pushinhoud te configureren. [ Ontwerp een duw- bericht ](design-push.md)
 
-1. Nadat de inhoud van het bericht is gedefinieerd, kunt u testprofielen gebruiken om de inhoud ervan voor te vertonen.
+1. Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken of monsters nemen van invoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of die u handmatig hebt toegevoegd om een voorvertoning van de inhoud weer te geven.
 
 1. Wanneer uw duw klaar is, voltooi de configuratie van uw [ reis ](../building-journeys/journey-gs.md) om het te verzenden.
 
@@ -87,7 +87,7 @@ Voer de onderstaande stappen uit om een pushmelding te maken:
 
 1. Klik in het scherm Campagneconfiguratie op de knop **[!UICONTROL Edit content]** om de inhoud van de push te configureren. [ Ontwerp een duw- bericht ](design-push.md)
 
-1. Nadat de inhoud van het bericht is gedefinieerd, kunt u testprofielen gebruiken om de inhoud ervan voor te vertonen.
+1. Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken of monsters nemen van invoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of die u handmatig hebt toegevoegd om een voorvertoning van de inhoud weer te geven.
 
 1. Wanneer uw duw klaar is, voltooi de configuratie van uw [ campagne ](../campaigns/create-campaign.md) om het te verzenden.
 

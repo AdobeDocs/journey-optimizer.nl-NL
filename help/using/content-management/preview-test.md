@@ -5,9 +5,9 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: f6b158ffdde66d6e6d9d706a6b067a2746a9be1d
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -24,30 +24,54 @@ ht-degree: 0%
 >title="Controleren hoe uw inhoud wordt gerenderd"
 >abstract="Nadat u de inhoud hebt gedefinieerd, kunt u deze voorvertonen en controleren of de rendering correct is volgens het kanaal dat u gebruikt."
 
-## Informatie over voorvertonen en testen van inhoud {#about}
+## Voorvertoning en testen {#about}
 
-Zodra uw inhoud is bepaald, kunt u testprofielen aan [ voorproef ](preview.md) gebruiken zijn inhoud alvorens het bericht te verzenden. Dit is een cruciale stap om ervoor te zorgen dat deze accuraat is, maar ook vrij van fouten in zowel de inhoud als de personalisatie-instellingen.
+Nadat u de inhoud hebt gedefinieerd, kunt u de inhoud ervan voorvertonen voordat u het bericht verzendt. Dit is een cruciale stap om ervoor te zorgen dat deze accuraat is, maar ook vrij van fouten in zowel de inhoud als de personalisatie-instellingen.
 
-Bovendien kunt u testleveringen ](proofs.md) (proeven) van uw e-mailberichten aan specifieke ontvangers of abonnees voor het testen en bevestiging ook verzenden, en [ controleren hun teruggevende ](rendering.md) in populaire Desktop, mobiele en web-based cliënten.[
-
-Al deze handelingen kunnen worden uitgevoerd met de knop **[!UICONTROL Simulate Content]** , die toegankelijk is vanuit het scherm Inhoud bewerken van uw bericht of vanuit de ontwerpers van de e-mail en het web voor de e-mail en webkanalen.
-
-![](../email/assets/email-preview-button.png)
+U kunt ook testleveringen van uw e-mailberichten naar specifieke ontvangers of abonnees verzenden voor tests en validatie, en hun rendering controleren bij populaire desktops, mobiele en webclients.
 
 >[!CAUTION]
 >
 >Wanneer u een bericht voorvertoont of proefdrukken verzendt, worden alleen profielverpersoonlijkingsgegevens weergegeven. Personalization op basis van contextgegevens, zoals informatie over gebeurtenissen, kan alleen worden getest in het kader van een reis. Leer hoe te om verpersoonlijking in [ te testen dit gebruiksgeval ](../personalization/personalization-use-case.md).
 
-➡️ [ Leer om uw e-mail in deze video voor te vertonen en te proeven ](#video-preview)
+Al deze handelingen kunnen worden uitgevoerd met de knop **[!UICONTROL Simulate Content]** , die toegankelijk is vanuit het scherm Inhoud bewerken van uw bericht of vanuit de ontwerpers van de e-mail en het web voor de e-mail en webkanalen.
 
-## Vereisten {#prerequisites}
+![](../email/assets/email-preview-button.png)
 
-Als u inhoud wilt simuleren, moet u de machtiging **[!DNL Manage Simulate Content]** opnemen in het productprofiel van **[!DNL Content Library Manager]** . [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager).
+U moet de machtiging **[!DNL Manage Simulate Content]** opnemen in het productprofiel van **[!DNL Content Library Manager]** . [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager).
 
-U moet ook testprofielen beschikbaar hebben om een voorbeeld van uw berichten te kunnen bekijken. [ Leer hoe te om testprofielen tot stand te brengen ](../audience/creating-test-profiles.md)
+## Testen met testprofielen of gegevens uit de voorbeeldinvoer {#methods}
+
+U kunt de inhoud voorvertonen en testen met:
+
+* **Testprofielen**
+
+  Gebruik testprofielen om een voorvertoning van uw inhoud weer te geven, proefdrukken per e-mail te verzenden en het renderen van e-mail te controleren. Als u persoonlijke velden hebt toegevoegd, kunt u controleren hoe deze worden weergegeven met behulp van de gegevens van het testprofiel.
+
+  ➡️ [ Uitgezochte testprofielen ](test-profiles.md)
+
+  ➡️ [ Voorproef uw inhoud gebruikend testprofielen ](preview.md)
+
+  ➡️ [ verzendt e-mailproef ](proofs.md)
+
+  ➡️ [ e-mailteruggevende controle ](rendering.md)
+
+  ➡️ [ Leer om uw e-mail in deze video voor te vertonen en te proeven ](#video-preview)
+
+* **de inputgegevens van de Steekproef**
+
+  Met [!DNL Journey optimizer] kunt u verschillende varianten van uw inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd.
+
+  Alle profielkenmerken die in de inhoud worden gebruikt voor personalisatie worden automatisch gedetecteerd door het systeem en kunnen worden gebruikt voor uw tests om meerdere varianten te maken.
+
+  ➡️ [ leren hoe te om uw inhoud te testen gebruikend de gegevens van de steekproefinput ](../test-approve/simulate-sample-input.md)
+
+  >[!NOTE]
+  >
+  >Deze functies zijn momenteel alleen beschikbaar voor alle klanten als een openbare bètaversie voor de communicatiekanalen E-mail, SMS en Push.
 
 ## Hoe kan ik-video {#video-preview}
 
-Leer hoe u het renderen van e-mailberichten in verschillende postvakken kunt testen, hoe u een voorvertoning van uw persoonlijke e-mails kunt weergeven op basis van testprofielen en proefdrukken kunt verzenden.
+Leer hoe u testprofielen kunt gebruiken om het renderen van e-mail in verschillende vakken te testen, een voorbeeld van uw persoonlijke e-mails te bekijken op basis van testprofielen en proefdrukken te verzenden.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

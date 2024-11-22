@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: maken, e-mail, starten, reizen, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '880'
 ht-degree: 2%
 
 ---
@@ -147,6 +147,10 @@ Er kunnen twee typen waarschuwingen optreden:
 ## Uw e-mail controleren en verzenden
 
 Zodra de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorvertoning ervan weer te geven, proefdrukken te verzenden en de rendering ervan in populaire desktops, mobiele en webclients te beheren. Als u gepersonaliseerde inhoud hebt ingevoegd, kunt u met behulp van testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven.
+
+>[!NOTE]
+>
+>Naast testprofielen kunt u met [!DNL Journey optimizer] ook verschillende varianten van de inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [ Leer hoe te om uw inhoud te testen gebruikend de gegevens van de steekproefinput ](../test-approve/simulate-sample-input.md)
 
 Klik hiertoe op **[!UICONTROL Simulate content]** en voeg vervolgens een testprofiel toe om uw bericht te controleren aan de hand van de gegevens van het testprofiel.
 

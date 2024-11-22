@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '368'
 ht-degree: 1%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 1%
 
 ## Een voorbeeld van uw pushmelding bekijken {#preview-push}
 
-Nadat de inhoud van het bericht is gedefinieerd, kunt u testprofielen gebruiken om de inhoud ervan voor te vertonen. Als u gepersonaliseerde inhoud hebt ingevoegd, kunt u met behulp van testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven.
+Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken of monsters nemen van invoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of die u handmatig hebt toegevoegd om een voorvertoning van de inhoud weer te geven. Als u persoonlijke inhoud hebt ingevoegd, kunt u controleren hoe deze inhoud in het bericht wordt weergegeven. [ Leer hoe te om uw inhoud te testen gebruikend de gegevens van de steekproefinput ](../test-approve/simulate-sample-input.md)
 
-Klik hiertoe op **[!UICONTROL Simulate content]** en voeg vervolgens een testprofiel toe. Vervolgens kunt u het type apparaat selecteren dat u wilt voorvertonen met inhoud: **[!UICONTROL iOS]** of **[!UICONTROL Android]** .
+Klik hiertoe op **[!UICONTROL Simulate content]** . Vervolgens kunt u het type apparaat selecteren dat u wilt voorvertonen met inhoud: **[!UICONTROL iOS]** of **[!UICONTROL Android]** .
 
 ![](assets/push_preview_3.png)
 
-De gedetailleerde informatie over hoe te om testprofielen en voorproef uw inhoud te selecteren is beschikbaar in de [ sectie van het Beheer van de Inhoud ](../content-management/preview-test.md).
+De gedetailleerde informatie over hoe te voorproef &amp; test inhoud is beschikbaar in de [ sectie van het Beheer van de Inhoud ](../content-management/preview-test.md).
 
 ## Uw pushmelding valideren {#push-validate}
 
