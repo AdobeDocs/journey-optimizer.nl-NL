@@ -5,9 +5,9 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: a5eacd7a746b2f17804062b23aee3146db0434c9
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ U kunt de inhoud voorvertonen en testen met:
 
 * **Testprofielen**
 
-  Gebruik testprofielen om een voorvertoning van uw inhoud weer te geven, proefdrukken per e-mail te verzenden en het renderen van e-mail te controleren. Als u persoonlijke velden hebt toegevoegd, kunt u controleren hoe deze worden weergegeven met behulp van de gegevens van het testprofiel.
+  Gebruik testprofielen om een voorvertoning van uw inhoud weer te geven, proefdrukken per e-mail te verzenden en het renderen van e-mail te controleren. Als u persoonlijke velden hebt toegevoegd, kunt u controleren hoe deze worden weergegeven met behulp van de gegevens van het testprofiel. Raadpleeg de volgende secties voor meer informatie:
 
   ➡️ [ Uitgezochte testprofielen ](test-profiles.md)
 
@@ -56,7 +56,7 @@ U kunt de inhoud voorvertonen en testen met:
 
   ➡️ [ e-mailteruggevende controle ](rendering.md)
 
-  ➡️ [ Leer om uw e-mail in deze video voor te vertonen en te proeven ](#video-preview)
+  ➡️ [ Voorproef en proef uw e-mail (video) ](#video-preview)
 
 * **de inputgegevens van de Steekproef**
 
