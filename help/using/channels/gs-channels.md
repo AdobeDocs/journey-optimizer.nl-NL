@@ -5,17 +5,15 @@ title: Aan de slag met communicatiekanalen in  [!DNL Adobe Journey Optimizer]
 description: Leer hoe te met  [!DNL Adobe Journey Optimizer]  communicatiekanalen te werken.
 role: User
 level: Beginner
-source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
+exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
+source-git-commit: ac71350cd344845582e09fa039fb796e9408b048
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
 
-
 # Aan de slag met [!DNL Adobe Journey Optimizer] communicatiekanalen {#get-started-email}
-
-## [!DNL Adobe Journey Optimizer] kanalen {#overview}
 
 In het dynamische marketinglandschap van vandaag is het effectief bereiken van uw publiek op verschillende platforms essentieel voor het opbouwen van duurzame relaties en het stimuleren van betrokkenheid. In deze sectie vindt u een uitgebreid overzicht van de communicatiekanalen die beschikbaar zijn in [!DNL Adobe Journey Optimizer] , zodat u precies kunt zien hoe u elk kanaal effectief kunt gebruiken in uw marketingstrategieën.
 
