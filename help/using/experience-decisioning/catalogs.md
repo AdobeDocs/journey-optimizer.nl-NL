@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 In Beslissing, dienen de catalogi als centrale containers voor het organiseren van besluitvormingspunten. Elke catalogus is gekoppeld aan een Adobe Experience Platform-schema, dat alle kenmerken omvat die aan een beslissingsitem kunnen worden toegewezen.
 
-Vooralsnog worden alle gemaakte beslissingsitems geconsolideerd in één catalogus met &quot;aanbiedingen&quot;, die toegankelijk is via het menu **[!UICONTROL  Catalogs]** .
+Vooralsnog worden alle gemaakte beslissingsitems geconsolideerd in één catalogus met &quot;aanbiedingen&quot;, die toegankelijk is via het menu **[!UICONTROL Catalogs]** .
 
 ![](assets/catalogs-list.png)
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
 workflow-type: tm+mt
 source-wordcount: '1682'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Met Journey Optimizer kunt u marketingaanbiedingen maken, ook wel &#39;beslissin
 
 Alvorens een besluitvormingspunt tot stand te brengen, zorg ervoor u a **besluitvormingsregel** hebt gecreeerd als u voorwaarden wilt plaatsen om te bepalen aan wie het besluitpunt kan worden getoond. [ Leer hoe te om besluitvormingsregels ](rules.md) tot stand te brengen.
 
-Als u een beslissingsitem wilt maken, navigeert u naar **[!UICONTROL Decisioning]** > **[!UICONTROL  Catalogs]** en klikt u op **[!UICONTROL Create item]** . Vervolgens volgt u de stappen die in de onderstaande secties worden beschreven.
+Als u een beslissingsitem wilt maken, navigeert u naar **[!UICONTROL Decisioning]** > **[!UICONTROL Catalogs]** en klikt u op **[!UICONTROL Create item]** . Vervolgens volgt u de stappen die in de onderstaande secties worden beschreven.
 
 ## De kenmerken van het beslissingsitem definiëren {#attributes}
 

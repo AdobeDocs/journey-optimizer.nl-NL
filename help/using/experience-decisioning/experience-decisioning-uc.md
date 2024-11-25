@@ -5,7 +5,9 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+hide: true
+hidefromtoc: true
+source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 5%
@@ -20,7 +22,7 @@ In dit geval maakt u een campagne waarin u twee leveringsbehandelingen definieer
 
 U moet eerst punten tot stand brengen, hen groeperen samen in inzamelingen, opstellingsregels en het rangschikken methodes. Met deze elementen kunt u selectiestrategieën maken.
 
-1. Navigeer naar **[!UICONTROL Decisioning]** > **[!UICONTROL  Catalogs]** en maak verschillende beslissingsitems. Stel beperkingen in met gebruik van soorten publiek of regels om elk item te beperken tot specifieke profielen. [Meer informatie](items.md)
+1. Navigeer naar **[!UICONTROL Decisioning]** > **[!UICONTROL Catalogs]** en maak verschillende beslissingsitems. Stel beperkingen in met gebruik van soorten publiek of regels om elk item te beperken tot specifieke profielen. [Meer informatie](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->
