@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: landen, pagina landen, maken, publiceren
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 13f07c2c6af38661ad6d58b2f1505c8199c0cc0b
+source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1677'
 ht-degree: 1%
 
 ---
@@ -30,29 +30,33 @@ Als u uw klanten wilt omleiden naar een gedefinieerde webpagina die u wilt weerg
 
 ## Openingspagina&#39;s openen {#access-landing-pages}
 
-Als u de lijst met openingspagina&#39;s wilt openen, selecteert u **[!UICONTROL Journey Management]** > **[!UICONTROL Landing pages]** in het linkermenu.
+Als u de lijst met openingspagina&#39;s wilt openen, selecteert u **[!UICONTROL Content Management]** > **[!UICONTROL Landing pages]** in het linkermenu.
 
 ![](assets/lp_access-list.png)
 
-In de lijst **[!UICONTROL Landing Pages]** worden alle gemaakte items weergegeven. U kunt ze filteren op basis van hun status of wijzigingsdatum.
+In de lijst **[!UICONTROL Landing Pages]** worden alle gemaakte items weergegeven. U kunt ze filteren op basis van hun status, wijzigingsdatum of tags.
 
 ![](assets/lp_access-list-filter.png)
 
-Van deze lijst, kunt u tot [ toegang hebben die pagina Levend rapport ](../reports/lp-report-live.md) of [ landend paginarapport ](../reports/lp-report-global-cja.md) voor gepubliceerde punten.
-
-U kunt ook een openingspagina verwijderen, dupliceren en de publicatie ervan ongedaan maken.
-
->[!CAUTION]
->
->Als u de publicatie van een bestemmingspagina ongedaan maakt waarnaar in een bericht wordt verwezen, wordt de koppeling naar de bestemmingspagina verbroken en wordt een foutpagina weergegeven.
-
-Klik op de drie stippen naast een openingspagina om de gewenste actie te selecteren.
+In deze lijst hebt u toegang tot een aantal handelingen. Klik op de drie stippen naast een openingspagina om de gewenste actie te selecteren:
 
 ![](assets/lp_access-list-actions.png)
 
->[!NOTE]
->
->U kunt a [ niet gepubliceerde ](#publish-landing-page) het landen pagina schrappen. Als u het wilt verwijderen, moet u de publicatie eerst ongedaan maken.
+* Voor gepubliceerde punten, kunt u tot het [ landende paginarapport ](../reports/lp-report-global-cja.md) of tot het [ laatste 24 uren levend rapport ](../reports/lp-report-live.md) toegang hebben.
+
+* U kunt een openingspagina verwijderen of dupliceren.
+
+  >[!NOTE]
+  >
+  >U kunt a [ niet gepubliceerde ](#publish-landing-page) het landen pagina schrappen. Als u het wilt verwijderen, moet u de publicatie eerst ongedaan maken.
+
+* U kunt de publicatie van een gepubliceerde bestemmingspagina ongedaan maken.
+
+  >[!CAUTION]
+  >
+  >Als u de publicatie van een bestemmingspagina ongedaan maakt waarnaar in een bericht wordt verwezen, wordt de koppeling naar de bestemmingspagina verbroken en wordt een foutpagina weergegeven.
+
+* U kunt de bijbehorende [ markeringen van een landende pagina ](../start/search-filter-categorize.md#tags) ook uitgeven.
 
 ## Een landingspagina maken {#create-landing-page}
 
@@ -279,11 +283,6 @@ Er kunnen twee typen waarschuwingen optreden:
 
 **Errors**:
 
-* 
-
->[!CAUTION]
->
-> To be able to publish your message, you must resolve all **error** alerts.
 -->
 
 ## Publish de openingspagina {#publish-landing-page}

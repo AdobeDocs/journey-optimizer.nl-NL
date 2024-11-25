@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Live rapporten, die toegankelijk zijn vanaf het tabblad Laatste 24 uur, geven gebeurtenissen weer die in de afgelopen 24 uur hebben plaatsgevonden, met een minimale tijdsinterval van twee minuten vanaf de gebeurtenis. Ter vergelijking, de rapporten van de Customer Journey Analytics concentreren zich op gebeurtenissen die minstens twee uur geleden voorkwamen en gebeurtenissen over een geselecteerde tijdspanne behandelen.
 
-Als u rapporten wilt openen, selecteert u **[!UICONTROL Report]** in het menu Geavanceerd van de geselecteerde bestemmingspagina.
+Als u rapporten wilt openen, selecteert u **[!UICONTROL View Last 24hrs report]** in het menu Geavanceerd van de geselecteerde bestemmingspagina.
 
 ![](assets/landing_page_report.png)
 
