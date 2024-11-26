@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP, groep, subdomeinen, leverbaarheid
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
+source-git-commit: 88dff9f42636a81b54b7050da3542f839c14164e
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2493'
 ht-degree: 0%
 
 ---
@@ -184,13 +184,13 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >Als u geen betrokkenheidsperiode wilt toepassen op een uitvoering, voert u 0 in het veld **[!UICONTROL Last engaged]** in.
 
-1. Selecteer de optie **[!UICONTROL Cancel activated runs in case of errors]** om een uitvoering te annuleren als de gekwalificeerde profielen kleiner zijn dan de doelprofielen nadat het publiek voor die uitvoering is geëvalueerd. In dat geval krijgt de run de status **[!UICONTROL Failed]** .
+1. Selecteer de optie **[!UICONTROL Cancel activated runs in case of errors]** om een uitvoering te annuleren als de gekwalificeerde profielen kleiner zijn dan de doelprofielen nadat het publiek voor die uitvoering is geëvalueerd.
 
    ![](assets/ip-warmup-plan-pause.png)
 
-   Als het aantal gekwalificeerde profielen niet overeenkomt met het aantal doelprofielen (er worden bijvoorbeeld 1500 Gmail-adressen als doel opgegeven tijdens de uitvoering, maar er zijn slechts 700 Gmail-profielen als kwalificatie):
+   Als het aantal gekwalificeerde profielen niet overeenkomt met het aantal doelprofielen (er worden bijvoorbeeld 1500 Gmail-adressen als doel opgegeven tijdens de uitvoering, maar er zijn slechts 700 Gmail-gekwalificeerde profielen):
 
-   * Als de optie is ingeschakeld, mislukt de uitvoering. U kunt of kiezen om minder profielen in de volgende looppas te richten, of [ de looppas ](#split-phase) aan een nieuwe fase te verdelen en een nieuwe campagne voor de nieuwe fase te selecteren om de zelfde profielen opnieuw te richten.
+   * Als de optie is ingeschakeld, mislukt de uitvoering en neemt de uitvoering de status **[!UICONTROL Failed]** aan. <!--You can then either choose to target less profiles in the next run, or to [split the run](#split-phase) to a new phase and select a new campaign for the new phase to target the same profiles again.-->
 
    * Als de optie niet is ingeschakeld, wordt de uitvoering uitgevoerd, maar wordt alleen het beschikbare aantal profielen als doel ingesteld.
 
