@@ -2,9 +2,11 @@
 title: Aan de slag met inhoudskaart
 description: Meer informatie over de inhoudskaart in Journey Optimizer
 topic: Content Management
+feature: Content Cards
 role: User
 level: Beginner
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+exl-id: 64f6bd0e-f910-469b-b089-570668d4c4f2
+source-git-commit: c24dc217567cc65f8ce0dc79d648f016cd8ad740
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
@@ -44,5 +46,3 @@ Met deze functie kunnen marketers relevante, rijke media-inhoud presenteren aan 
 <p>
 </td>
 </tr></table>
-
-

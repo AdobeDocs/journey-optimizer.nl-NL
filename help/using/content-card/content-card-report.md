@@ -1,13 +1,13 @@
 ---
 title: Rapport voor inhoudskaart
 description: Leer hoe u gegevens uit het rapport van de inhoudskaart kunt gebruiken
-feature: Reporting
+feature: Reporting, Content Cards
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: c24dc217567cc65f8ce0dc79d648f016cd8ad740
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
