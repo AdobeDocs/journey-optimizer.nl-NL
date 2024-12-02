@@ -1,11 +1,12 @@
 ---
 title: Configuratie van inhoudskaarten
 description: Voorwaarden voor het kanaal van inhoudskaarten
-feature: Channel Configuration
+feature: Channel Configuration, Content Cards
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+exl-id: df92e319-1e42-486f-b688-595964a762c9
+source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 1%
@@ -39,7 +40,7 @@ Voeg de **Gebeurtenis van de Ervaring toe - de 1} gebiedsgroep van de Interactie
 
 * **Problemen oplossen**
 
-  Gebruik de **mening van 0} Edge Delivery {binnen** Verzekering van Adobe Experience Platform **om mobiele ervaringen problemen op te lossen.** Het kan verzoeken inspecteren, randvraag verifiëren, en profielgegevens onderzoeken. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
+  Gebruik de **mening van 0} Edge Delivery {binnen** Adobe Experience Platform Assurance **om mobiele ervaringen problemen op te lossen.** Het kan verzoeken inspecteren, randvraag verifiëren, en profielgegevens onderzoeken. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
 
 * **de Experimenten van de Inhoud**
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
 workflow-type: tm+mt
 source-wordcount: '1197'
 ht-degree: 3%
@@ -60,7 +60,6 @@ Nu kunt u het publiek van uw campagne selecteren. Een publiek is een groep perso
 >* Het gebruik van publiek en attributen van [ publiekssamenstelling ](../audience/get-started-audience-orchestration.md) is momenteel niet beschikbaar voor gebruik met het Schild van de Gezondheidszorg of Privacy en het Schild van de Veiligheid.
 >
 >* Voor API-getriggerde campagnes moet het publiek worden ingesteld via API-aanroep.
-
 
 Voer de volgende stappen uit om de doelgroep van een geplande marketingcampagne te bepalen:
 

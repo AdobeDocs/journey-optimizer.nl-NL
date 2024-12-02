@@ -1,11 +1,12 @@
 ---
 title: Configuratie van inhoudskaarten
 description: Configuratie van kanaal voor inhoudskaarten
-feature: Channel Configuration
+feature: Channel Configuration, Content Cards
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+exl-id: 50e47e83-4b9e-4088-aa09-dea76393c035
+source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 1%
@@ -96,4 +97,3 @@ In de onderstaande tabellen staan enkele voorbeelden van de oppervlakte-URI-defi
 1. Verzend uw wijzigingen.
 
 U kunt nu de configuratie selecteren wanneer u uw ervaring met de inhoudskaart maakt.
-
