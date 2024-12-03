@@ -8,9 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+exl-id: 62327f8c-7a9d-44c3-88f9-3048ff8bd326
+source-git-commit: e2024a9418374bed224db7d701d1a7642121f293
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -33,6 +34,10 @@ Voordat u de gekozen vertaalprovider toevoegt, moet u controleren of u een accou
 
 1. Kies in de vervolgkeuzelijst **[!UICONTROL Providers]** de gewenste provider.
 
+   >[!NOTE]
+   >
+   >Om een Leverancier aan de lijst toe te voegen, kunt u uw Leverancier vragen om de instructies te volgen die in [ worden gedetailleerd dit document ](https://developer.adobe.com/gcs/partner/) om hun aan boord gaan proces te voltooien.
+
    ![](assets/provider_2.png)
 
 1. Als u Microsoft Translator als provider gebruikt, voert u uw **[!UICONTROL Subscription Key]** en **[!UICONTROL Endpoint URL]** in.
@@ -44,4 +49,3 @@ Voordat u de gekozen vertaalprovider toevoegt, moet u controleren of u een accou
    ![](assets/provider_4.png)
 
 1. Nadat u de configuratie hebt voltooid, klikt u op **[!UICONTROL Save]** om de installatie te voltooien.
-
