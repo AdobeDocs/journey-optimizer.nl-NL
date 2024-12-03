@@ -7,16 +7,25 @@ role: User
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
+exl-id: 09770df2-c514-4217-a71b-e31c248df543
+source-git-commit: 196caffc918ef4f8fd97c2eb2c790ae4583aa311
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 5%
+source-wordcount: '374'
+ht-degree: 4%
 
 ---
 
 # Gebruiksscenario voor beslissing {#experience-decisioning-uc}
 
+U bent niet zeker of een specifieke rangschikkingsformule beter zal presteren dan de vooraf toegewezen aanbiedingsprioriteiten.
+
 In dit geval maakt u een campagne waarin u twee leveringsbehandelingen definieert, elk met een ander beslissingsbeleid om te meten welke het beste voor uw doelgroep presteert.
+
+Zet het experiment zodanig op dat:
+
+* De eerste behandeling bevat één selectiestrategie met prioriteit als rangordemethode.
+* De tweede behandeling bevat een andere selectiestrategie waarvoor een formule de rangorde-methode is.
+
 
 ## Beslissingsitems en selectiestrategieën maken
 
@@ -68,5 +77,3 @@ Als u uw bezoekers de beste dynamische aanbieding en ervaring wilt laten zien op
 1. Selecteer in het venster **[!UICONTROL Edit content]** de B-methode die u wilt gebruiken om de inhoud te wijzigen en herhaal de bovenstaande stappen om een andere beslissing te maken.
 
 1. Sla uw inhoud op.
-
-
