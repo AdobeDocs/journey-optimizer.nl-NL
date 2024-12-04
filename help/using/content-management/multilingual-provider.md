@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
 exl-id: 62327f8c-7a9d-44c3-88f9-3048ff8bd326
-source-git-commit: e2024a9418374bed224db7d701d1a7642121f293
+source-git-commit: 424ebfb3670396d91c4b15b670eda26dc999699b
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Voordat u de gekozen vertaalprovider toevoegt, moet u controleren of u een accou
 
    >[!NOTE]
    >
-   >Om een Leverancier aan de lijst toe te voegen, kunt u uw Leverancier vragen om de instructies te volgen die in [ worden gedetailleerd dit document ](https://developer.adobe.com/gcs/partner/) om hun aan boord gaan proces te voltooien.
+   >Om een nieuwe **Leverancier** aan de lijst toe te voegen, kunt u uw **Leverancier** vragen om de instructies te volgen die in [ worden gedetailleerd dit document ](https://developer.adobe.com/gcs/partner/) om hun aan boord nemend proces te voltooien.
 
    ![](assets/provider_2.png)
 
