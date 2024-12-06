@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: kanaal, oppervlak, technisch, parameters, optimalisator
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
+source-git-commit: 7a5bed3f4ee16c1a42289779fc53148bf6ab39e8
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 4%
@@ -109,7 +109,7 @@ Merk op dat voor elk platform dat u zou willen opstelling, het wordt vereist om 
 
 +++
 
-* Als u de bestaande configuratieoptie gebruikt, moet u ervoor zorgen dat u de volgende Adobe Experience Platform Mobile SDK-extensieversies gebruikt. Voor meer details op de opstelling van SDK met inbegrip van de vereiste gebiedsdelen en initialisatiecode, gelieve te verwijzen naar [ volgende documentatie ](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks?lang=en).
+* Als u de bestaande configuratieoptie gebruikt, moet u ervoor zorgen dat u de volgende Adobe Experience Platform Mobile SDK-extensieversies gebruikt. Voor meer details op de opstelling van SDK met inbegrip van de vereiste gebiedsdelen en initialisatiecode, gelieve te verwijzen naar [ volgende documentatie ](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks).
 
   Voor Android
 
