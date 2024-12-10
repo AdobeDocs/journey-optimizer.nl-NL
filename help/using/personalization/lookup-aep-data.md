@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: cb7842209e03c579904979480304e543a6b50f50
+source-git-commit: a2e09052ef5cb38ca34cd8faa476ca750ea1965f
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1044'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Controleer voordat u begint de volgende beperkingen en richtlijnen:
 
 ### Personalization gebruikt [!DNL Adobe Experience Platform] -gegevens {#perso}
 
-* **Gesteunde kanalen**: Voor nu, is dit vermogen slechts beschikbaar voor gebruik binnen e-mail, SMS, duw en direct-mailkanalen.
+* **Gesteunde kanalen**: Voor nu, is dit vermogen slechts beschikbaar voor gebruik binnen e-mail, SMS en direct-mailkanalen.
 * **de Etikettering en de Handhaving van het Gebruik van Gegevens** wordt niet afgedwongen op dit ogenblik voor datasets die voor raadpleging worden toegelaten.
 * **de fragmenten van de Uitdrukking**: De raadplegingsverpersoonlijking van de Dataset kan niet binnen uitdrukkingsfragmenten op dit ogenblik worden geplaatst.
 
@@ -73,6 +73,17 @@ Waarbij:
 * **API sleutel** kan van de ontwikkelaarsconsole worden teruggewonnen.
 * **IMS Org ID** is uw ORG van Adobe IMS.
 * **Naam Sandbox** is de zandbaknaam de dataset in (d.w.z. prod, dev enz.) is.
+
+>[!NOTE]
+>
+>Als u de hieronder weergegeven fout tegenkomt bij het proberen van een API-aanroep om gegevenssets in te schakelen, probeert u de Adobe Journey Optimizer API&#39;s uit uw project voor de ontwikkelaarsconsole te verwijderen en deze vervolgens opnieuw toe te voegen.
+>
+>```
+>
+>"error_code": "403003", 
+>"message": "Api Key is invalid"
+>
+>```
 
 ## Gebruik een dataset voor verpersoonlijking {#leverage}
 
