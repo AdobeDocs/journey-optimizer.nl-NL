@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: inhoud, experiment, meerdere, publiek, behandeling
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 84cb51a3fdb01fab0b23289993bbcdd30c68cd01
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '682'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 
 ## Uw inhoud maken {#campaign-experiment}
 
-1. Begin door uw E-mail, SMS of Push bericht [ campagne ](../campaigns/create-campaign.md) te creëren en te vormen of [ reis ](../building-journeys/journeys-message.md) volgens uw vereisten.
+1. Begin door uw [ campagne ](../campaigns/create-campaign.md) of [ reis ](../building-journeys/journeys-message.md) volgens uw vereisten te creëren en te vormen.
 
 1. Start vanuit het venster **[!UICONTROL Edit content]** de aanpassing A.
 
