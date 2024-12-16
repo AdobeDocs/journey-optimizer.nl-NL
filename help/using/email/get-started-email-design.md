@@ -9,26 +9,26 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, ontwerp, voorraad, middelen
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 57a309956ebe2997dce3fe0eb1b6bb70b911da5e
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 3%
+source-wordcount: '600'
+ht-degree: 1%
 
 ---
 
 # Aan de slag met e-mailontwerp {#get-started-content-design}
 
-U kunt bestaande inhoud importeren in [!DNL Journey Optimizer] of mogelijkheden voor inhoudsontwerp benutten:
+U kunt bestaande inhoud importeren in [!DNL Journey Optimizer] of de mogelijkheden voor inhoudsontwerp benutten:
 
-* Gebruiken [!DNL Journey Optimizer] **e-mailontwerpmogelijkheden** om responsieve e-mails te ontwerpen of te importeren. [Meer informatie](content-from-scratch.md)
+* Het gebruik [!DNL Journey Optimizer] **e-mail ontwerpend mogelijkheden** om ontvankelijke e-mails te ontwerpen of in te voeren. [Meer informatie](content-from-scratch.md)
 
-* Hefboomwerking **Adobe Experience Manager Assets Essentials** om uw e-mails te verrijken, maakt en beheert u uw eigen database met middelen. [Meer informatie](../content-management/assets.md)
+* De hefboomwerking **Adobe Experience Manager Assets Essentials** om uw e-mail te verrijken, bouwt en beheert uw eigen activa gegevensbestand. [Meer informatie](../content-management/assets.md)
 
-* Zoeken **Adobe Stock-foto&#39;s** om uw inhoud samen te stellen en uw e-mailontwerp te verbeteren. [Meer informatie](../content-management/stock.md)
+* Vind **foto&#39;s van Adobe Stock** om uw inhoud te bouwen en uw e-mailontwerp te verbeteren. [Meer informatie](../content-management/stock.md)
 
-* Verbeter de ervaring van klanten door gepersonaliseerde en dynamische berichten te creëren die op hun profielattributen worden gebaseerd. Meer informatie over [personalisatie](../personalization/personalize.md) en [dynamische inhoud](../personalization/get-started-dynamic-content.md).
+* Verbeter de ervaring van klanten door gepersonaliseerde en dynamische berichten te creëren die op hun profielattributen worden gebaseerd. Leer meer over [ verpersoonlijking ](../personalization/personalize.md) en [ dynamische inhoud ](../personalization/get-started-dynamic-content.md).
 
-➡️ [Ontdek deze functie in video](#video)
+➡️ [ ontdekt deze eigenschap in video ](#video)
 
 ## Aanbevolen werkwijzen voor e-mailontwerp {#best-practices}
 
@@ -36,35 +36,41 @@ Bij het verzenden van e-mails is het belangrijk om te bedenken dat ontvangers de
 
 Om deze weergaveproblemen tot een minimum te beperken, raden we u aan de structuur van uw e-mailontwerp zo eenvoudig mogelijk te houden. Probeer één ontwerp te gebruiken dat goed werkt voor zowel mobiele als desktopapparaten en gebruik geen complexe CSS-klassen of andere ontwerpelementen die mogelijk niet volledig door alle e-mailclients worden ondersteund. Door deze beste praktijken te volgen, kunt u helpen ervoor zorgen dat uw e-mails constant correct worden teruggegeven, ongeacht hoe zij door ontvangers worden bekeken of door:sturen.
 
+Raadpleeg de onderstaande tabel voor tips en trucs voor het ontwerpen van e-mails:
+
+| Aanbevolen | Gebruik met zorg | Niet aanbevolen |
+|-|-|-|
+| <ul><li><b> Statische, op lijst-gebaseerde lay-outs </b> voor structuur</li> <li><b> HTML lijsten en genestelde lijsten </b> voor lay-outconsistentie</li> <li><b> Breedten van het Malplaatje </b> tussen 600px en 800px </li> <li><b> Eenvoudig, gealigneerde CSS </b> voor het stileren </li> <li><b> Web-veilige doopvonten </b> voor universele verenigbaarheid</li> | <ul><li><b> Achtergrondbeelden </b> kunnen niet op bepaalde e-mailplatforms verschijnen.</li><li><b> de doopvonten van het Web van de Douane </b> gebrek universele steun.</li><li><b> brede lay-outs </b> kunnen slecht op kleinere schermen tonen.</li><li><b> de kaarten van het Beeld </b> bieden beperkte functionaliteit aan.</li><li><b> ingebedde CSS </b> wordt soms verwijderd tijdens e-maillevering.</li> | <ul><li><b> JavaScript </b> wordt over het algemeen niet gesteund in e-mailmilieu&#39;s.</li> <li> <b>`<iframe>`</b> -tags worden op de meeste platforms geblokkeerd. </li> <li><b> Flash </b> is verouderd en niet meer gesteund.</li> <li><b> Ingesloten audio </b> ontbreekt vaak om te spelen.</li> <li><b> Ingesloten video </b> is onverenigbaar met vele e-mailplatforms.</li> <li> <b> Forms </b> werkt niet binnen e-mails.</li> <li> `<div>` -lagen kunnen leiden tot renderingproblemen.</li> |
+
 ## Belangrijke stappen om e-mailinhoud te maken {#key-steps}
 
-Als u eenmaal [een e-mail toevoegen](create-email.md) voor een reis of een campagne, kunt u beginnen uw e-mailinhoud te creëren.
+Zodra u [ een e-mail ](create-email.md) aan een reis of een campagne hebt toegevoegd, kunt u beginnen uw e-mailinhoud te creëren.
 
-1. Van het reis of scherm van de campagneconfiguratie, ga door **[!UICONTROL Edit content]** scherm voor toegang tot de e-mailontwerper. [Meer informatie](create-email.md#define-email-content)
+1. Ga in het scherm **[!UICONTROL Edit content]** van het scherm met reis- of campagneconfiguratie naar de E-mail-Designer. [Meer informatie](create-email.md#define-email-content)
 
    ![](assets/email_designer_edit_email_body.png)
 
-1. Kies op de introductiepagina van E-mail Designer hoe u uw e-mail wilt ontwerpen uit de volgende opties:
+1. Kies op de homepage van Designer via e-mail hoe u uw e-mail wilt ontwerpen uit de volgende opties:
 
-   * **Ontwerp uw e-mail helemaal zelf** via de interface van de e-mailontwerper en met behulp van afbeeldingen van [Adobe Experience Manager Assets](../content-management/assets.md). Leer hoe u uw e-mailinhoud ontwerpt in [deze sectie](content-from-scratch.md).
+   * **Ontwerp uw e-mail van kras** door de interface van de e-mailontwerper en hefboomwerkings beelden van [ Adobe Experience Manager Assets ](../content-management/assets.md). Leer hoe te om uw e-mailinhoud in [ te ontwerpen deze sectie ](content-from-scratch.md).
 
-   * **Code of paste raw HTML** rechtstreeks in de e-mailontwerper. Leer hoe u uw eigen inhoud codeert in [deze sectie](code-content.md).
+   * **Code of deeg ruwe HTML** direct in de e-mailontwerper. Leer hoe te om uw eigen inhoud in [ te coderen deze sectie ](code-content.md).
 
      >[!NOTE]
      >
-     >In een campagne kunt u ook de **[!UICONTROL Code Editor]** van de knop **[!UICONTROL Edit content]** scherm. [Meer informatie](create-email.md#define-email-content)
+     >In een campagne kunt u ook de knop **[!UICONTROL Code Editor]** in het **[!UICONTROL Edit content]** -scherm selecteren. [Meer informatie](create-email.md#define-email-content)
 
-   * **Bestaande HTML-inhoud importeren** uit een bestand of een ZIP-map. Leer hoe u e-mailinhoud importeert in [deze sectie](existing-content.md).
+   * **de Inhoud van de Invoer bestaande HTML** van een dossier of een .zip omslag. Leer hoe te om een e-mailinhoud in [ in deze sectie ](existing-content.md) in te voeren.
 
-   * **Bestaande inhoud selecteren** uit een lijst met ingebouwde of aangepaste sjablonen. Leer hoe u met e-mailsjablonen werkt [deze sectie](../email/use-email-templates.md).
+   * **selecteer een bestaande inhoud** van een lijst van ingebouwde of douanesjablonen. Leer hoe te met e-mailmalplaatjes [ deze sectie ](../email/use-email-templates.md) te werken.
 
    ![](assets/email_designer_create_options.png)
 
-1. Zodra uw e-mailinhoud is gedefinieerd en gepersonaliseerd, kunt u uw inhoud exporteren voor validatie of later gebruik. Klikken **[!UICONTROL Export HTML]** om op uw computer een zip-bestand op te slaan dat uw HTML en elementen bevat.
+1. Zodra uw e-mailinhoud is gedefinieerd en gepersonaliseerd, kunt u uw inhoud exporteren voor validatie of later gebruik. Klik op **[!UICONTROL Export HTML]** om op uw computer een ZIP-bestand op te slaan dat uw HTML en elementen bevat.
 
    ![](assets/email_designer_export.png)
 
-## Instructievideo&#39;s {#video}
+## Hoe kan ik-video&#39;s {#video}
 
 Leer hoe u e-mailinhoud maakt met de berichteneditor.
 
