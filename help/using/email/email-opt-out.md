@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: opt-out, e-mail, link, abonnement opzeggen
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: cb7e2e209872176c67020add47242f95a7304c6c
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1285'
 ht-degree: 0%
 
 ---
@@ -103,10 +103,9 @@ Als u een gepersonaliseerde URL voor annuleren wilt instellen, voegt u een koppe
 
    * **[!UICONTROL Channel]**: De optie Weigeren is van toepassing op toekomstige berichten die naar het doel van het profiel (d.w.z. e-mailadres) voor het huidige kanaal worden verzonden. Als er meerdere doelen aan een profiel zijn gekoppeld, geldt de opt-out voor alle doelen (e-mailadressen) in het profiel voor dat kanaal.
    * **[!UICONTROL Identity]**: De optie om te weigeren is van toepassing op toekomstige berichten die worden verzonden naar het specifieke doel (e-mailadres) dat voor het huidige bericht wordt gebruikt.
-   * **[!UICONTROL Subscription]**: De optie om te weigeren is van toepassing op toekomstige berichten die aan een specifieke abonnementenlijst zijn gekoppeld. Deze optie kan alleen worden geselecteerd als het huidige bericht is gekoppeld aan een abonnementenlijst.
+     <!--* **[!UICONTROL Subscription]**: The opt-out applies to future messages associated with a specific subscription list. This option can only be selected if the current message is associated with a subscription list.-->
 
 1. Sla uw wijzigingen op.
-
 
 
 ## Optie in twee stappen {#opt-out-external-lp}
