@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: primair, uitvoeren, e-mail, doel, profiel, optimaliseer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,15 @@ Het uitvoeringsveld wordt bijgewerkt en wordt nu gebruikt als primair adres.
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## Een waarde in de parameters van de rit overschrijven {#journey-parameters}
+## De standaardwaarde overschrijven {#override-default-execution-address}
+
+### In de e-mailconfiguratie
+
+U kunt het standaard uitvoeringsgebied veranderen dat op het zandbakniveau wordt geplaatst wanneer het bepalen van een configuratie van het e-mailkanaal. [Meer informatie](../email/email-settings.md#execution-address)
+
+Wanneer het uitvoeringsadres op het configuratieniveau wordt bepaald, wordt het gebruikt als primair adres en treedt algemene het plaatsen op het zandbakniveau met voeten.
+
+### In de reisparameters {#journey-parameters}
 
 Alleen voor specifieke gebruiksgevallen kunt u het uitvoeringsveld dat globaal is ingesteld negeren en een andere waarde definiëren op het niveau van de reis, met name voor het e-mailkanaal.
 
@@ -84,3 +92,4 @@ Het overschrijven van deze waarde kan bijvoorbeeld nuttig zijn om:
 
 * Test een e-mailbericht. U kunt uw eigen e-mailadres toevoegen: nadat u de reis hebt gepubliceerd, wordt het e-mailbericht naar u verzonden.
 * Stuur een e-mail naar de abonnees van een lijst. Leer meer in [ dit gebruiksgeval ](../building-journeys/message-to-subscribers-uc.md).
+

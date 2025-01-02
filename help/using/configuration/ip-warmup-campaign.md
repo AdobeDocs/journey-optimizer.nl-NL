@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: IP, pools, leverbaarheid
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
+source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '425'
 ht-degree: 2%
 
 ---
@@ -27,13 +27,13 @@ Alvorens het IP warmup plan zelf in [!DNL Journey Optimizer] tot stand te brenge
 
 Om een IP warmup campagne tot stand te brengen, volg de hieronder stappen.
 
-1. Creeer een [ e-mail ](../email/email-settings.md) kanaal [ configuratie ](channel-surfaces.md) voor het domein en IPs die u voor uw warmlopingsplan hebt geïdentificeerd.
+1. Creeer een e-mailkanaal [ configuratie ](channel-surfaces.md) voor het domein en IPs dat u voor uw warmlopingsplan hebt geïdentificeerd.
+
+   Werk samen met uw leverancier om het domein en IPs te identificeren dat moet worden gebruikt. Leer hoe te om hen in een e-mailconfiguratie in [ te selecteren deze sectie ](../email/email-settings.md#subdomains-and-ip-pools).
 
    >[!NOTE]
    >
-   >* Leer hoe te om het domein en IPs te selecteren in een e-mailconfiguratie in [ deze sectie ](../email/email-settings.md#subdomains-and-ip-pools) te gebruiken.
-   >
-   >* Het werk met uw leverbaarheidsconsultant om het domein en IPs te identificeren dat voor uw IP warmup plan moet worden gebruikt.<!--TBC-->
+   >Zelfs als u het [ uitvoeringsadres ](../email/email-settings.md#execution-address) in de e-mailconfiguratie verandert, wordt het standaardgebied dat op het zandbakniveau wordt geplaatst nog gebruikt. [Meer informatie](primary-email-addresses.md)
 
 1. Creeer een geplande marketing [ campagne ](../campaigns/create-campaign.md) en selecteer de [ E-mail ](../email/create-email.md#create-email-journey-campaign) actie.
 
