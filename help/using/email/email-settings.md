@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: f5f8855f23200253a2cb8fca3e01ca7d5b31f274
+source-git-commit: fb14db58f9facac87e83a85e8f163ea31732a374
 workflow-type: tm+mt
-source-wordcount: '2653'
+source-wordcount: '2640'
 ht-degree: 0%
 
 ---
@@ -63,9 +63,7 @@ Selecteer het subdomein dat u wilt gebruiken om de e-mails te verzenden.
 
 Om de reputatie van uw domein te bewaren, versnelt het IP opwarmingsproces en verbetert leverbaarheid, uw verzendende subdomeinen aan Adobe delegeren. [Meer informatie](../configuration/about-subdomain-delegation.md)
 
-
 ## Details van IP-pool {#ip-pools}
-
 
 Selecteer de IP pool aan vennoot met de configuratie. [Meer informatie](../configuration/ip-pools.md)
 
@@ -83,10 +81,9 @@ Nadat een IP pool is geselecteerd, is de informatie PTR zichtbaar wanneer het ha
 >
 >Als een PTR-record niet is geconfigureerd, neemt u contact op met uw Adobe.
 
-## List Unsubscribe Header{#list-unsubscribe}
+## Abonnement voor lijst opzeggen{#list-unsubscribe}
 
 <!--Do not modify - Legal Review Done -->
-
 
 Op [ selecterend subdomain ](#subdomains-and-ip-pools) van de lijst, toont de **[!UICONTROL Enable List-Unsubscribe]** optiesvertoningen.
 
@@ -94,20 +91,23 @@ Deze optie is standaard ingeschakeld om een éénklik-URL voor annuleren op te n
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-Als u deze optie uitschakelt, wordt er geen één-klik-URL voor annuleren weergegeven in de e-mailkoptekst.
+>[!NOTE]
+>
+>Als u deze optie uitschakelt, wordt er geen één-klik-URL voor annuleren weergegeven in de e-mailkoptekst.
 
 U kunt het toestemmingsniveau van de **[!UICONTROL Consent level]** drop-down lijst selecteren. Dit kan specifiek zijn voor het kanaal of de profielidentiteit. Op basis van deze instelling wordt de toestemming in Adobe Journey Optimizer bijgewerkt op kanaalniveau of op ID-niveau wanneer een gebruiker zich afmeldt met de lijst die de URL in de koptekst van een e-mail afmeldt.
 
-De List Unsubscribe Header biedt twee functies (Mailto en One-click unsubscribe URL, zoals hieronder wordt uitgelegd) die standaard zijn ingeschakeld, tenzij u een of beide functies uitschakelt:
+De header List unsubscribe biedt twee functies die standaard zijn ingeschakeld, tenzij u een of beide functies uitschakelt:
+
+![](assets/surface-list-unsubscribe-mailto.png){width="80%"}
+
+<!--![](assets/surface-list-unsubscribe.png){width="80%"}-->
 
 * A **Brievenbus (unsubscribe)** adres, dat het bestemmingsadres is waar unsubscribe verzoeken aan voor auto-verwerking worden verpletterd.
 
   In Journey Optimizer, is het unsubscribe e-mailadres de standaard **Brievenbus (unsubscribe)** adres dat in de kanaalconfiguratie wordt getoond, die op uw [ wordt gebaseerd geselecteerde subdomain ](#subdomains-and-ip-pools).
 
-  ![](assets/surface-list-unsubscribe-mailto.png){width="80%" align="left"}
-
-
-* **één-klik unsubscribe URL**, die door gebrek is één-klik kiest onze URL geproduceerde Lijst Unsubscribe Kopbal, die op subdomein wordt gebaseerd u plaatst en in de de configuratiemontages van het Kanaal gevormd.
+* **één-klik unsubscribe URL**, die door gebrek is uit één-klik uit URL geproduceerde Lijst unsubscribe kopbal, die op subdomein wordt gebaseerd u plaatst en in de montages van de kanaalconfiguratie gevormd.
 
 <!--
     >[!AVAILABILITY]
@@ -116,15 +116,19 @@ De List Unsubscribe Header biedt twee functies (Mailto en One-click unsubscribe 
     >
 -->
 
-De functies **[!UICONTROL Mailto (unsubscribe)]** en **[!UICONTROL One-click Unsubscribe URL]** zijn optioneel. Als u niet de standaard gegenereerde één-klik wilt gebruiken unsubscribe URL, kunt u de eigenschap uncheck. In het scenario waar de **[!UICONTROL Opt-out configuration]** optie wordt van een knevel voorzien en de **[!UICONTROL One-click Unsubscribe URL]** eigenschap is ongecontroleerd, als u a [ toe:voegen één-klik opt-out verbinding ](../privacy/opt-out.md#one-click-opt-out) aan een bericht dat gebruikend deze configuratie wordt gecreeerd, zal de lijst unsubscribe kopbal de één-klik opt-out verbinding opnemen u in het lichaam van e-mail hebt opgenomen en gebruikt die als één-klik unsubscribe URL waarde.
+De functies **[!UICONTROL Mailto (unsubscribe)]** en **[!UICONTROL One-click unsubscribe URL]** zijn optioneel.
+
+Als u niet de standaard gegenereerde één-klik wilt gebruiken unsubscribe URL, kunt u de eigenschap uncheck. In het scenario waar de **[!UICONTROL Enable List-Unsubscribe]** optie wordt van een knevel voorzien en de **[!UICONTROL One-click Unsubscribe URL]** eigenschap is ongecontroleerd, als u a [ toe:voegen één-klik opt-out verbinding ](../privacy/opt-out.md#one-click-opt-out) aan een bericht dat gebruikend deze configuratie wordt gecreeerd, neemt de Lijst unsubscribe kopbal de één-klik opt-out verbinding op u in het lichaam van e-mail hebt opgenomen en gebruikt dat als één-klik unsubscribe URL waarde.
 
 ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
 >[!NOTE]
 >
->Als u geen opt-out-koppeling met één klik toevoegt aan uw berichtinhoud en de standaard-URL voor één klik voor annuleren is uitgeschakeld in de Kanaalconfiguratie-instellingen, wordt er geen URL doorgegeven aan de e-mailkoptekst als onderdeel van de List Unsubscribe-koptekst.
+>Als u geen één-klik opt-out verbinding in uw berichtinhoud toevoegt en het gebrek één-klik unsubscribe URL wordt niet gecontroleerd in de montages van de kanaalconfiguratie, wordt geen URL overgegaan in de e-mailkopbal als deel van de Lijst unsubscribe kopbal.
 
 Leer meer bij het beheren van unsubscribe mogelijkheden in uw berichten in [ deze sectie ](../email/email-opt-out.md#unsubscribe-header).
+
+<!--![](assets/surface-list-unsubscribe-custom.png){width="80%"}-->
 
 ## Parameters koptekst {#email-header}
 
@@ -146,7 +150,7 @@ Voer in de sectie **[!UICONTROL Header parameters]** de namen en e-mailadressen 
 >
 >De **[!UICONTROL Sender email]** en **[!UICONTROL Error email]** adressen moeten huidige geselecteerde [ gedelegeerde subdomain ](../configuration/about-subdomain-delegation.md) gebruiken. Bijvoorbeeld, als gedelegeerde subdomain *marketing.luma.com* is, kunt u *contact@marketing.luma.com* en *error@marketing.luma.com* gebruiken.
 
-![](assets/preset-header.png)
+![](assets/preset-header.png){width="80%"}
 
 >[!NOTE]
 >
@@ -255,7 +259,7 @@ Met een zaadlijst in [!DNL Journey Optimizer] kunt u automatisch specifieke e-ma
 
 Selecteer in de sectie **[!UICONTROL Seed list]** de lijst die voor u van belang is. Leer hoe te om een zaadlijst in [ tot stand te brengen deze sectie ](../configuration/seed-lists.md#create-seed-list).
 
-![](../configuration/assets/seed-list-surface.png)
+![](../configuration/assets/seed-list-surface.png){width="80%"}
 
 >[!NOTE]
 >
@@ -305,7 +309,7 @@ De parameters die in deze sectie worden gedefinieerd, worden toegevoegd aan het 
 
 Met de knop **[!UICONTROL Add new parameter]** kunt u maximaal 10 volgparameters toevoegen.
 
-![](assets/preset-url-tracking.png)
+![](assets/preset-url-tracking.png){width="80%"}
 
 Als u een URL-volgparameter wilt configureren, kunt u de gewenste waarden rechtstreeks invoeren in de velden **[!UICONTROL Name]** en **[!UICONTROL Value]** .
 

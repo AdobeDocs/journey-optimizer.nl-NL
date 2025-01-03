@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: opt-out, e-mail, link, abonnement opzeggen
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: cb7e2e209872176c67020add47242f95a7304c6c
+source-git-commit: fb14db58f9facac87e83a85e8f163ea31732a374
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,14 @@ Wanneer het verzenden van berichten van reizen of campagnes, moet u altijd ervoo
 
 Als u een koppeling zonder abonnement wilt invoegen in uw e-mailinhoud, kunt u:
 
-* Voeg één klik toe unsubscribe URL in de e-mailkopbal. Als u de optie **[!UICONTROL List-Unsubscribe Header]** inschakelt op het niveau van de kanaalconfiguratie, wordt een koppeling om te weigeren toegevoegd aan de koptekst van de e-mail. [ Leer meer op opt-out in e-mailkopbal ](#unsubscribe-header)
+* Voeg één klik toe unsubscribe URL in de e-mailkopbal. Met de optie **[!UICONTROL Enable List-Unsubscribe]** op het niveau van de kanaalconfiguratie voegt u een uitschakelkoppeling toe aan de e-mailheader. [ Leer meer op opt-out in e-mailkopbal ](#unsubscribe-header)
 
 * Laat **toe 1-klik opt-out verbinding** voor uw e-mail.  [ Leer hoe te om een één-klik opt-out verbinding toe te voegen ](#one-click-opt-out)
 
 * Tussenvoegsel a **verbinding aan een het landen pagina**. [ Leer hoe te om een opt-out het landen pagina toe te voegen ](#opt-out-external-lp)
 
 
-## Eén stap voor opt-out {#opt-out-one-step}
+## Eenfasige opt-out {#opt-out-one-step}
 
 ### Klik eenmaal op URL voor abonnement opheffen in de e-mailheader {#unsubscribe-header}
 
@@ -41,9 +41,9 @@ Als u een koppeling zonder abonnement wilt invoegen in uw e-mailinhoud, kunt u:
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
->title="Afmelde URL toevoegen in de koptekst van de e-mail"
->abstract="Schakel List-Unsubscribe Header in om een niet-geabonneerde URL toe te voegen in de e-mailkoptekst. Als u een URL voor afmelden wilt instellen, voegt u een koppeling om te weigeren in de e-mailinhoud in."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#one-click-opt-out" text="Eén klik op Weigeren"
+>title="Een niet-geabonneerde URL toevoegen aan de e-mailheader"
+>abstract="Schakel List-Unsubscribe in om een niet-geabonneerde URL aan de e-mailkoptekst toe te voegen. Als u een abonnement-URL in een bericht wilt instellen, voegt u een koppeling om te weigeren in de e-mailinhoud in."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Eén klik op Weigeren in de e-mailinhoud"
 
 Een-klik lijst voor annuleren URL is een afmeldingskoppeling of knop die wordt weergegeven naast de e-mailverzendgegevens en biedt ontvangers de mogelijkheid om met één klik direct te weigeren in uw mailinglijsten. In Adobe Journey Optimizer, wanneer **toelaten lijst-Unsubscribe** optie wordt van een knevel voorzien, omvat de e-mailkopbal zowel een post als/of URL door gebrek dat de ontvangers kunnen gebruiken om van uw het posten lijst af te melden.
 
