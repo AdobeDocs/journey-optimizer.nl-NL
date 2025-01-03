@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+source-git-commit: 8d6ac8b3d201baf8115d92b35639d5d6e22b9b2d
 workflow-type: tm+mt
-source-wordcount: '2603'
+source-wordcount: '2632'
 ht-degree: 0%
 
 ---
@@ -57,9 +57,11 @@ Wanneer u een bericht maakt, moet u een geldige kanaalconfiguratie kiezen die ov
 
 Selecteer het subdomein dat u wilt gebruiken om de e-mails te verzenden.
 
-Om de reputatie van uw domein te bewaren, versnelt het IP opwarmingsproces en verbetert leverbaarheid, uw verzendende subdomeinen aan Adobe delegeren. [Meer informatie](../configuration/about-subdomain-delegation.md)
+>[!NOTE]
+>
+>Voor meer controle over de e-mailinstellingen kunt u dynamische subdomeinen definiëren. [Meer informatie](../email/surface-personalization.md#dynamic-subdomains)
 
-<!--If needed, you can define dynamic subdomains. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
+Om de reputatie van uw domein te bewaren, versnelt het IP opwarmingsproces en verbetert leverbaarheid, uw verzendende subdomeinen aan Adobe delegeren. [Meer informatie](../configuration/about-subdomain-delegation.md)
 
 
 ## Details van IP-pool {#ip-pools}
@@ -127,6 +129,10 @@ Leer meer bij het beheren van unsubscribe mogelijkheden in uw berichten in [ dez
 ## Parameters koptekst {#email-header}
 
 Voer in de sectie **[!UICONTROL Header parameters]** de namen en e-mailadressen van de afzender in die zijn gekoppeld aan het type e-mails dat met die configuratie is verzonden.
+
+>[!NOTE]
+>
+>Voor meer controle over de e-mailinstellingen kunt u de headerparameters aanpassen. [Meer informatie](../email/surface-personalization.md#personalize-header)
 
 * **[!UICONTROL Sender name]**: De naam van de afzender, zoals de naam van uw merk.
 * **[!UICONTROL Sender email]**: Het e-mailadres dat u voor uw communicatie wilt gebruiken.
