@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: primair, uitvoeren, e-mail, doel, profiel, optimaliseer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -66,17 +66,17 @@ Het uitvoeringsveld wordt bijgewerkt en wordt nu gebruikt als primair adres.
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## De standaardwaarde overschrijven {#override-default-execution-address}
+## Het standaard uitvoeringsveld overschrijven {#override-default-execution-address}
+
+Voor specifieke gebruiksgevallen kunt u het uitvoeringsveld globaal overschrijven en een andere waarde definiëren op het niveau van de e-mailconfiguratie of op het niveau van de reis.
 
 ### In de e-mailconfiguratie
 
-U kunt het standaard uitvoeringsgebied veranderen dat op het zandbakniveau wordt geplaatst wanneer het bepalen van een configuratie van het e-mailkanaal. [Meer informatie](../email/email-settings.md#execution-address)
+U kunt het standaard uitvoeringsgebied veranderen dat in de [ algemene montages ](#admin-settings) wordt geplaatst wanneer het bepalen van een configuratie van het e-mailkanaal. [Meer informatie](../email/email-settings.md#execution-address)
 
-Wanneer het uitvoeringsadres op het configuratieniveau wordt bepaald, wordt het gebruikt als primair adres en treedt algemene het plaatsen op het zandbakniveau met voeten.
+Wanneer een uitvoeringsadres in de e-mailconfiguratie wordt bepaald, wordt het gebruikt als primair adres en treedt algemene het plaatsen op het zandbakniveau met voeten.
 
 ### In de reisparameters {#journey-parameters}
-
-Alleen voor specifieke gebruiksgevallen kunt u het uitvoeringsveld dat globaal is ingesteld negeren en een andere waarde definiëren op het niveau van de reis, met name voor het e-mailkanaal.
 
 Wanneer het toevoegen van een **[!UICONTROL Email]** actie aan a [ reis ](../email/create-email.md#create-email-journey-campaign), wordt het primaire e-mailadres getoond onder de reis geavanceerde parameters.
 

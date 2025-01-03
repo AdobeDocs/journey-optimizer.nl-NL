@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: IP, pools, leverbaarheid
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '429'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Om een IP warmup campagne tot stand te brengen, volg de hieronder stappen.
 
    >[!NOTE]
    >
-   >Zelfs als u het [ uitvoeringsadres ](../email/email-settings.md#execution-address) in de e-mailconfiguratie verandert, wordt het standaardgebied dat op het zandbakniveau wordt geplaatst nog gebruikt. [Meer informatie](primary-email-addresses.md)
+   >Voor IP warmup campagnes, zelfs als u het [ uitvoeringsadres ](../email/email-settings.md#execution-address) in de e-mailconfiguratie verandert, wordt het standaardgebied dat op het zandbakniveau wordt geplaatst nog gebruikt. [Meer informatie](primary-email-addresses.md)
 
 1. Creeer een geplande marketing [ campagne ](../campaigns/create-campaign.md) en selecteer de [ E-mail ](../email/create-email.md#create-email-journey-campaign) actie.
 
