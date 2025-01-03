@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8d6ac8b3d201baf8115d92b35639d5d6e22b9b2d
+source-git-commit: f5f8855f23200253a2cb8fca3e01ca7d5b31f274
 workflow-type: tm+mt
-source-wordcount: '2632'
+source-wordcount: '2653'
 ht-degree: 0%
 
 ---
@@ -351,8 +351,8 @@ U kunt de resulterende URL voor bijhouden dynamisch voorvertonen. Elke keer dat 
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
->title="Bepaal welk adres moet worden gebruikt"
->abstract="Als er meerdere e-mailadressen of telefoonnummers beschikbaar zijn in de database (persoonlijk, professioneel, enz.), kunt u aangeven welke prioriteit u wilt geven aan het verzenden."
+>title="Het standaard te gebruiken uitvoeringsadres overschrijven"
+>abstract="Als er meerdere e-mailadressen beschikbaar zijn in de database (persoonlijk, professioneel, enz.), kunt u kiezen bij welke e-mailadressen de verzending prioriteit moet krijgen. Het primaire adres wordt bepaald op het zandbakniveau, maar hier kunt u het gebrek met voeten treden dat voor deze specifieke e-mailconfiguratie plaatst."
 
 Als u een profiel als doel instelt, zijn mogelijk verschillende e-mailadressen beschikbaar in de database (professioneel e-mailadres, persoonlijk e-mailadres, enz.).
 
