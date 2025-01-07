@@ -5,20 +5,22 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 83da97926138c867ea2dacca6e5cf5e40c926eda
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
 # E-mailproefdrukken verzenden {#send-proofs}
 
+>[!PREREQUISITES]
+>
+>Om proeven te verzenden, moeten de gebruikers **hebben** toestemmingen voor het specifieke middel, de campagne of de reis, verbonden aan e-mail goedkeuren en publiceren. [ Leer meer op toestemmingen ](../administration/ootb-permissions.md)
+
 Een proef is een specifiek bericht dat u toestaat om een bericht te testen alvorens het naar het belangrijkste publiek te verzenden. Ontvangers van de proefdruk zijn verantwoordelijk voor het goedkeuren van het bericht: rendering, content, personalisatie-instellingen, configuratie.
 
->[!NOTE]
->
->Met [!DNL Journey optimizer] kunt u ook verschillende varianten van uw inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [ Leer hoe te om uw inhoud te testen gebruikend de gegevens van de steekproefinput ](../test-approve/simulate-sample-input.md)
+In [!DNL Journey optimizer] kunt u ook verschillende varianten van de inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [ Leer hoe te om uw inhoud te testen gebruikend de gegevens van de steekproefinput ](../test-approve/simulate-sample-input.md)
 
 Om e-mailproefdrukken te verzenden nadat [ testprofielen ](test-profiles.md) zijn geselecteerd, volg deze stappen:
 
