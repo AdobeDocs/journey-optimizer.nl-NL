@@ -8,47 +8,111 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: 196caffc918ef4f8fd97c2eb2c790ae4583aa311
+source-git-commit: 83ad828a4d342bba10284cdd20d22eb325e3e1f7
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 4%
+source-wordcount: '537'
+ht-degree: 3%
 
 ---
 
 # Gebruiksscenario voor beslissing {#experience-decisioning-uc}
 
-U bent niet zeker of een specifieke rangschikkingsformule beter zal presteren dan de vooraf toegewezen aanbiedingsprioriteiten.
+In dit geval worden alle stappen beschreven die nodig zijn om Decisioning te gebruiken met het op code gebaseerde kanaal van [!DNL Journey Optimizer] .
 
-In dit geval maakt u een campagne waarin u twee leveringsbehandelingen definieert, elk met een ander beslissingsbeleid om te meten welke het beste voor uw doelgroep presteert.
+<!--In this use case, you create a campaign where you define two delivery treatments - each containing a different decision policy in order to measure which one performs best for your target audience.-->
 
-Zet het experiment zodanig op dat:
+In dit geval, bent u onzeker of zal een specifieke rangschikkende formule beter presteren dan de vooraf toegewezen aanbiedingsprioriteiten.
+
+Om te meten welke het beste voor uw doelpubliek presteert, creeer een campagne waar u twee leveringsbehandelingen bepaalt:
+
+<!--Set up the experiment such that:-->
 
 * De eerste behandeling bevat één selectiestrategie met prioriteit als rangordemethode.
 * De tweede behandeling bevat een andere selectiestrategie waarvoor een formule de rangorde-methode is.
 
+## Selectiestrategieën maken
 
-## Beslissingsitems en selectiestrategieën maken
+Ten eerste moet u twee selectiestrategieën ontwikkelen: een met prioriteit als rangschikkingsmethode en een andere met een formule als rangschikkingsmethode.
 
-U moet eerst punten tot stand brengen, hen groeperen samen in inzamelingen, opstellingsregels en het rangschikken methodes. Met deze elementen kunt u selectiestrategieën maken.
+### De eerste selectiestrategie maken
 
-1. Navigeer naar **[!UICONTROL Decisioning]** > **[!UICONTROL Catalogs]** en maak verschillende beslissingsitems. Stel beperkingen in met gebruik van soorten publiek of regels om elk item te beperken tot specifieke profielen. [Meer informatie](items.md)
+Selecteer in de eerste selectiestrategie prioriteit als rangschikkingsmethode. Voer de onderstaande stappen uit.
 
-   <!--
-   1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->
+1. Maak een beslissingsitem. [ leer hoe ](items.md)
 
-1. Creeer **inzamelingen** om uw besluitvormingspunten volgens uw voorkeur te categoriseren en te groeperen. [Meer informatie](collections.md)
+1. Stel de **[!UICONTROL Priority]** van het beslissingsitem in vergelijking met andere. Als een profiel voor meerdere items in aanmerking komt, krijgt het item met een hogere prioriteit voorrang boven andere items.
 
-1. Creeer **besluitvormingsregels** om te bepalen aan wie een besluitpunt kan worden getoond. [Meer informatie](rules.md)
+   ![](assets/exd-uc-item-priority.png)
 
-1. Creeer **het rangschikken methodes** en pas hen binnen besluitvormingsstrategieën toe om de prioritaire orde te bepalen om besluitpunten te selecteren. [Meer informatie](ranking.md)
+   >[!NOTE]
+   >
+   >De prioriteit is een gegevenstype van gehele getallen. Alle attributen die geheelgegevenstypes zijn zouden geheelwaarden (geen decimalen) moeten bevatten.
 
-1. Bouw **selectiestrategieën** die hefboominzamelingen, besluitvormingsregels, en het rangschikken methodes om de besluitvormingspunten te identificeren geschikt voor het tonen aan profielen. [Meer informatie](selection-strategies.md)
+1. Bepaal publiek of regels om het punt tot specifieke profielen slechts te beperken. [ Leer hoe te om de geschiktheid van het besluitvormingspunt te plaatsen ](items.md#eligibility)
+
+1. Stel de begrenzingsregels in om het maximumaantal keren te bepalen dat een aanbieding kan worden gepresenteerd. [ leer hoe ](items.md#capping)
+
+<!--1. If needed, repeat the steps above to create one or more additional decision items.-->
+
+1. Creeer a **inzameling** waar uw besluitvormingspunt(en) zal worden omvat. [Meer informatie](collections.md)
+
+1. Creeer a **selectiestrategie**. [ leer hoe ](selection-strategies.md#create-selection-strategy)
+
+1. Selecteer de [ inzameling ](collections.md) die de te overwegen aanbieding(en) bevat.
+
+1. [ kies de het rangschikken methode ](#select-ranking-method) om de beste aanbieding voor elk profiel te selecteren. Selecteer in dit geval **[!UICONTROL Offer priority]** . [Meer informatie](selection-strategies.md#offer-priority)
+
+   ![](assets/exd-uc-strategy-priority.png)
+
+   <!--If multiple offers are eligible for this strategy, the [Offer priority](#offer-priority) method uses the value defined in the offers.-->
+
+### De tweede selectiestrategie maken
+
+Selecteer in de tweede selectiestrategie een formule als waarderingsmethode. Voer de onderstaande stappen uit.
+
+1. Maak een beslissingsitem. [ leer hoe ](items.md)
+
+<!--1. Set the same **[!UICONTROL Priority]** as for the first decision item. TBC?-->
+
+1. Bepaal publiek of regels om het punt tot specifieke profielen slechts te beperken. [ Leer hoe te om de geschiktheid van het besluitvormingspunt te plaatsen ](items.md#eligibility)
+
+1. Stel de begrenzingsregels in om het maximumaantal keren te bepalen dat een aanbieding kan worden gepresenteerd. [ leer hoe ](items.md#capping)
+
+<!--1. If needed, repeat the steps above to create one or more additional decision items.-->
+
+1. Creeer a **inzameling** waar uw besluitvormingspunt(en) zal worden omvat. [Meer informatie](collections.md)
+
+1. Creeer a **selectiestrategie**. [ leer hoe ](selection-strategies.md#create-selection-strategy)
+
+1. Selecteer de [ inzameling ](collections.md) die de te overwegen aanbieding(en) bevat.
+
+1. [ selecteer de het rangschikken methode ](#select-ranking-method) u wilt gebruiken om de beste aanbieding voor elk profiel te selecteren. Selecteer in dit geval **[!UICONTROL Formula]** om een specifieke berekende score te gebruiken en te kiezen welke geschikte aanbieding moet worden gedaan. [Meer informatie](selection-strategies.md#ranking-formula)
+
+   ![](assets/exd-uc-strategy-formula.png)
+
+<!--
+## Create decision items and selection strategies
+
+You first need to create items, group them together in collections, set up rules and ranking methods. These elements will allow you to build selection strategies.
+
+1. Navigate to **[!UICONTROL Decisioning]** > **[!UICONTROL Catalogs]** and create several decision items. Set constraints using audiences or rules to restrict each item to specific profiles only. [Learn more](items.md)
+
+1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)
+
+1. Create **collections** to categorize and group your decision items according to your preferences. [Learn more](collections.md)
+
+1. Create **decision rules** to determine to whom a decision item can be shown. [Learn more](rules.md)
+
+1. Create **ranking methods** and apply them within decision strategies to determine the priority order for selecting decision items. [Learn more](ranking.md)
+
+1. Build **selection strategies** that leverage collections, decision rules, and ranking methods to identify the decision items suitable for displaying to profiles. [Learn more](selection-strategies.md)
+-->
 
 ## Beslissingsbeleid maken
 
-Als u uw bezoekers de beste dynamische aanbieding en ervaring wilt laten zien op uw website of mobiele app, voegt u een beslissingsbeleid toe aan een op code gebaseerde campagne.
+<!--To present the best dynamic offer and experience to your visitors on your website or mobile app, add a decision policy to a code-based campaign.
 
-<!--Define two delivery treatments each containing a different decision policy.-->
+Define two delivery treatments each containing a different decision policy.-->
 
 1. Maak een campagne en selecteer de handeling **[!UICONTROL Code-base experience]** . [Meer informatie](../code-based/create-code-based.md)
 
@@ -58,7 +122,7 @@ Als u uw bezoekers de beste dynamische aanbieding en ervaring wilt laten zien op
 
    ![](assets/decision-code-based-create.png)
 
-1. Geef de selectiestrategieën voor uw beslissing op. Klik op **[!UICONTROL Add strategy]**.
+1. Selecteer de eerste strategie die u hebt gemaakt. Klik op **[!UICONTROL Add strategy]**.
 
 1. Klik op **[!UICONTROL Create]**. De nieuwe beslissing wordt toegevoegd onder **[!UICONTROL Decisions]** .
 
@@ -74,6 +138,8 @@ Als u uw bezoekers de beste dynamische aanbieding en ervaring wilt laten zien op
 
 1. Klik in de overzichtspagina van de campagne op **[!UICONTROL Create experiment]** om uw inhoudexperiment te configureren. [Meer informatie](../content-management/content-experiment.md)
 
-1. Selecteer in het venster **[!UICONTROL Edit content]** de B-methode die u wilt gebruiken om de inhoud te wijzigen en herhaal de bovenstaande stappen om een andere beslissing te maken.
+1. Selecteer in het venster **[!UICONTROL Edit content]** de optie Behandeling B en herhaal de bovenstaande stappen om een andere beslissing te maken.
+
+1. Selecteer de tweede strategie die u hebt gemaakt. Klik op **[!UICONTROL Add strategy]**.
 
 1. Sla uw inhoud op.

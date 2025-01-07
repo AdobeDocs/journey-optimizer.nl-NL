@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: 83ad828a4d342bba10284cdd20d22eb325e3e1f7
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Een selectiestrategie is herbruikbaar, en bestaat uit een inzameling verbonden a
 
    ![](assets/strategy-list-edit-collection.png)
 
-## Een selectiestrategie maken
+## Een selectiestrategie maken {#create-selection-strategy}
 
 Volg onderstaande stappen om een selectiestrategie te maken.
 

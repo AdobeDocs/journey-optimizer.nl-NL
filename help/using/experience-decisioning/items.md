@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
+source-git-commit: 83ad828a4d342bba10284cdd20d22eb325e3e1f7
 workflow-type: tm+mt
 source-wordcount: '1682'
 ht-degree: 0%
@@ -47,11 +47,12 @@ Begin door de standaard en douanekenmerken van het besluitpunt te bepalen:
 1. Geef een naam en een beschrijving op.
 1. Begin- en einddatum opgeven. De beslissingsmotor zal het punt pas binnen deze data in overweging nemen.
 1. Stel de **[!UICONTROL Priority]** van het beslissingsitem in vergelijking met andere als een profiel voor meerdere items in aanmerking komt. Bij een hogere prioriteit krijgt de post voorrang boven andere.
-1. Het **gebied van Markeringen** staat u toe om Adobe Experience Platform Verenigde Markeringen aan uw besluitvormingspunten toe te wijzen. Op deze manier kunt u ze gemakkelijk classificeren en zoeken verbeteren. [ leer hoe te met markeringen ](../start/search-filter-categorize.md#tags) werken
 
    >[!NOTE]
    >
    >De prioriteit is een gegevenstype van gehele getallen. Alle attributen die geheelgegevenstypes zijn zouden geheelwaarden (geen decimalen) moeten bevatten.
+
+1. Het **gebied van Markeringen** staat u toe om Adobe Experience Platform Verenigde Markeringen aan uw besluitvormingspunten toe te wijzen. Op deze manier kunt u ze gemakkelijk classificeren en zoeken verbeteren. [ leer hoe te met markeringen ](../start/search-filter-categorize.md#tags) werken
 
 1. Aangepaste kenmerken opgeven (optioneel). Aangepaste kenmerken zijn specifieke kenmerken die zijn toegesneden op uw behoeften en die u kunt toewijzen aan een beslissingsitem. Zij worden bepaald in het de catalogusschema van besluitvormingspunten. [ leer hoe te met catalogi ](catalogs.md) werken
 
