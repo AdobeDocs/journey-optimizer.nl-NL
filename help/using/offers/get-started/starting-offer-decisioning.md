@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: c9efdf634831822e670257f6ee738310081a96fb
+source-git-commit: 2acb883b66e5da9c06ba1551f708bb8ab47ce343
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 47%
+source-wordcount: '894'
+ht-degree: 49%
 
 ---
 
@@ -34,11 +34,9 @@ Voordelen zijn:
 
 ➡️ [ leren meer over het Beheer van het Besluit in deze video&#39;s ](#video)
 
-## Lees hier meer {#must-read}
-
-* Momenteel, steunt het Beheer van het Besluit deze eigenschappen: De toegangscontrole van het niveau van Objecten, de toegangscontrole van het Niveau van het Gebied, en de dienst van de wetshandhaving van de Toestemming. Als u om het even welk van hen wilt gebruiken, overweeg het gebruiken van het [ Beslissende ](../../experience-decisioning/gs-experience-decisioning.md) vermogen van Journey Optimizer.
-
-* Als u een [ Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html) {target="_blank"} gebruiker die de **Offer decisioning** toepassing leveraging, zijn alle die eigenschappen van het Beheer van het Besluit in deze sectie worden beschreven ook op u van toepassing.
+>[!NOTE]
+>
+>Als u een [ Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html) {target="_blank"} gebruiker die de **Offer decisioning** toepassing leveraging, zijn alle die eigenschappen van het Beheer van het Besluit in deze sectie worden beschreven ook op u van toepassing.
 
 ## Aanbiedingen en beslissingen {#about-offers-and-decisions}
 
