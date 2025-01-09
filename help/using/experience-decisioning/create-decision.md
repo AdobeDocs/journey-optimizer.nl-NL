@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: bfc16476f525328b2b8451bfdd57b6b2027db916
 workflow-type: tm+mt
-source-wordcount: '1766'
+source-wordcount: '1773'
 ht-degree: 0%
 
 ---
@@ -60,9 +60,15 @@ Als u uw bezoekers de beste dynamische aanbieding en ervaring wilt laten zien op
 
 1. Maak een campagne en selecteer de handeling **[!UICONTROL Code-base experience]** . [Meer informatie](../code-based/create-code-based.md)
 
-1. Van de [ coderedacteur ](../code-based/create-code-based.md#edit-code), selecteer het **[!UICONTROL Decision policy]** pictogram en klik **[!UICONTROL Add decision policy]**.
+1. Van de [ coderedacteur ](../code-based/create-code-based.md#edit-code), selecteer **[!UICONTROL Decision policy]** en klik **[!UICONTROL Add decision policy]**.
 
    ![](assets/decision-code-based-create.png)
+
+1. Maak standaard een nieuw beleid.
+
+   >[!NOTE]
+   >
+   >U kunt ook een bestaand beleid selecteren.
 
 1. Vul de details voor uw besluitvormingsbeleid in: voeg een naam toe en selecteer een catalogus.
 
@@ -78,9 +84,11 @@ Als u uw bezoekers de beste dynamische aanbieding en ervaring wilt laten zien op
 
 In de sectie **[!UICONTROL Strategy sequence]** kunt u de beslissingsitems en de selectiestrategieën selecteren die u met het beslissingsbeleid wilt presenteren.
 
-1. Klik op de knop **[!UICONTROL Add]** en kies het type object dat u in het beleid wilt opnemen:
+1. Klik op de knop **[!UICONTROL Add]**.
 
-   * **[!UICONTROL Selection strategy]**: voeg een of meerdere selectiestrategieën toe. Beslissingsstrategieën maken gebruik van collecties die verband houden met toelatingsbeperkingen en rangordemethoden om te bepalen welke items moeten worden getoond. U kunt een bestaande selectiestrategie selecteren of een nieuwe selectiestrategie maken met de knop **[!UICONTROL Create selection strategy]** .[ Leer hoe te om selectiestrategieën ](selection-strategies.md) tot stand te brengen
+1. Kies het type object dat u in het beleid wilt opnemen:
+
+   * **[!UICONTROL Selection strategy]**: voeg een of meerdere selectiestrategieën toe. Beslissingsstrategieën maken gebruik van collecties die verband houden met toelatingsbeperkingen en rangordemethoden om te bepalen welke items moeten worden getoond. U kunt een bestaande selectiestrategie selecteren of een nieuwe selectiestrategie maken met de knop **[!UICONTROL Create selection strategy]** . [ Leer hoe te om selectiestrategieën ](selection-strategies.md) tot stand te brengen
 
    * **[!UICONTROL Decision item]**: voeg enkele beslissingsitems toe die u wilt presenteren zonder dat u een selectiestrategie hoeft te doorlopen. U kunt slechts één beslissingsitem tegelijk selecteren. Alle voorwaarden die voor het onderdeel zijn ingesteld, zijn van toepassing.
 
@@ -90,7 +98,9 @@ In de sectie **[!UICONTROL Strategy sequence]** kunt u de beslissingsitems en de
    >
    >Een beslissingsbeleid ondersteunt maximaal 10 selectiestrategieën en besluitvormingselementen samen. [ leer meer op het Beslissen van gidsen &amp; beperkingen ](gs-experience-decisioning.md#guardrails)
 
-1. Wanneer het toevoegen van verscheidene besluitvormingspunten en/of strategieën, zullen zij in een specifieke orde worden geëvalueerd. Het eerste object dat aan de reeks is toegevoegd, wordt eerst geëvalueerd, enzovoort. Als u de standaardvolgorde wilt wijzigen, kunt u de objecten en/of de groepen slepen en neerzetten om ze naar wens opnieuw te rangschikken. [ leer meer over de evaluatieorde van het besluitvormingsbeleid ](#evaluation-order)
+1. Wanneer het toevoegen van verscheidene besluitvormingspunten en/of strategieën, zullen zij in een specifieke orde worden geëvalueerd. Het eerste object dat aan de reeks is toegevoegd, wordt eerst geëvalueerd, enzovoort.
+
+   Als u de standaardvolgorde wilt wijzigen, kunt u de objecten en/of groepen slepen en neerzetten om ze naar wens opnieuw te rangschikken. [Meer informatie](#evaluation-order)
 
 ### De evaluatievolgorde in een beslissingsbeleid beheren {#evaluation-order}
 
@@ -174,7 +184,7 @@ U kunt elk item in de lijst selecteren, waarin alle beslissingsitems worden weer
 >
 >Een fallback is optioneel. Als er geen fallback is geselecteerd en geen strategie is gekwalificeerd, wordt er niets weergegeven door [!DNL Journey Optimizer] . U kunt het aantal objecten optellen dat het besluitvormingsbeleid aanvraagt. Dit garandeert dat een bepaald aantal items wordt geretourneerd als dat nodig is voor het gebruik.
 
-Wanneer uw beleid klaar is voor het kiezen, slaat u het op en klikt u op **[!UICONTROL Create]** . Nu het besluitvormingsbeleid wordt gecreeerd, kunt u de besluitvormingsattributen binnen uw code-gebaseerde ervaringsinhoud gebruiken. [Meer informatie](#use-decision-policy)
+Wanneer uw beslissingsbeleid klaar is, slaat u het op en klikt u op **[!UICONTROL Create]** . Nu het besluitvormingsbeleid wordt gecreeerd, kunt u de besluitvormingsattributen binnen uw code-gebaseerde ervaringsinhoud gebruiken. [Meer informatie](#use-decision-policy)
 
 ![](assets/decision-code-based-decision-added.png)
 

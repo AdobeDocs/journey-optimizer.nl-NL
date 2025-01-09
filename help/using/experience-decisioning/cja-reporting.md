@@ -7,7 +7,7 @@ role: User
 level: Experienced
 badge: label="Beperkte beschikbaarheid"
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: bfc16476f525328b2b8451bfdd57b6b2027db916
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -35,4 +35,4 @@ De belangrijkste stappen worden hieronder weergegeven. De gedetailleerde informa
 
 1. Creeer a **gegevensmening** en associeer het aan de eerder gemaakte verbinding. Kies op het tabblad **[!UICONTROL Components]** de relevante schemavelden die u wilt weergeven in de rapportage. Voor Beslissing, zorg ervoor u **propositioninteract** en **propositiondisplay** gebieden omvat. [ leer hoe te om gegevensmeningen ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview) tot stand te brengen en te vormen {target="_blank"}
 
-1. Combineer gegevenscomponenten, lijsten en visualisaties in **werkruimteprojecten** om rapporten voor uw op code-gebaseerde campagne tot stand te brengen en te delen.[ leer hoe te om werkruimteprojecten ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects) {target="_blank"} tot stand te brengen
+1. Combineer gegevenscomponenten, lijsten en visualisaties in **werkruimteprojecten** om rapporten voor uw op code-gebaseerde campagne tot stand te brengen en te delen. [ leer hoe te om werkruimteprojecten ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects) {target="_blank"} tot stand te brengen
