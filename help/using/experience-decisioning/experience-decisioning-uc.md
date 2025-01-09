@@ -8,10 +8,10 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: 7da07ebb5fd2ded0f86ee1ca8fc355e422f01502
+source-git-commit: ff17e7609eb6504632d35671a4bd2aa11a613372
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 4%
+source-wordcount: '617'
+ht-degree: 3%
 
 ---
 
@@ -19,16 +19,12 @@ ht-degree: 4%
 
 In dit geval worden alle stappen beschreven die nodig zijn om Decisioning te gebruiken met het op code gebaseerde kanaal van [!DNL Journey Optimizer] .
 
-<!--In this use case, you create a campaign where you define two delivery treatments - each containing a different decision policy in order to measure which one performs best for your target audience.-->
-
-In dit geval, bent u onzeker of zal een specifieke rangschikkende formule beter presteren dan de vooraf toegewezen aanbiedingsprioriteiten.
+In dit voorbeeld bent u niet zeker of een specifieke rangschikkingsformule beter zal presteren dan de vooraf toegewezen aanbiedingsprioriteiten.
 
 Om te meten welke het beste voor uw doelpubliek presteert, creeer een campagne gebruikend [ Experimenteer van de Inhoud ](../content-management/content-experiment.md) waar u twee leveringsbehandelingen bepaalt:
 
-<!--Set up the experiment such that:-->
-
-* De eerste behandeling bevat één selectiestrategie met prioriteit als rangordemethode.
-* De tweede behandeling bevat een andere selectiestrategie waarvoor een formule de rangorde-methode is.
+* De eerste behandeling gebruikt prioriteit als rangorde methode.
+* De tweede behandeling gebruikt een formule: de rangorde.
 
 ## Selectiestrategieën maken
 
@@ -36,7 +32,7 @@ Ten eerste moet u twee selectiestrategieën ontwikkelen: een met prioriteit als 
 
 ### De eerste selectiestrategie maken
 
-Selecteer in de eerste selectiestrategie prioriteit als rangschikkingsmethode. Voer de onderstaande stappen uit.
+Volg de onderstaande stappen om de eerste selectiestrategie met prioriteit als rangordemethode te maken.
 
 1. Maak een beslissingsitem. [ leer hoe ](items.md)
 
@@ -60,19 +56,17 @@ Selecteer in de eerste selectiestrategie prioriteit als rangschikkingsmethode. V
 
 1. Creeer a [ selectiestrategie ](selection-strategies.md#create-selection-strategy) en selecteer de [ inzameling ](collections.md) die de te overwegen aanbieding(en) bevat.
 
-1. [ kies de het rangschikken methode ](#select-ranking-method) om de beste aanbieding voor elk profiel te selecteren.
-
-   Selecteer in dit geval **[!UICONTROL Offer priority]** : als meerdere aanbiedingen in aanmerking komen voor deze strategie, gebruikt de engine voor besluitvorming de waarde die is ingesteld als **[!UICONTROL Priority]** in de aanbieding(en). [Meer informatie](selection-strategies.md#offer-priority)
+1. [ kies de het rangschikken methode ](#select-ranking-method) om de beste aanbieding voor elk profiel te selecteren. Selecteer in dit geval **[!UICONTROL Offer priority]** : als meerdere aanbiedingen in aanmerking komen voor deze strategie, gebruikt de engine voor besluitvorming de waarde die is ingesteld als **[!UICONTROL Priority]** in de aanbieding(en). [Meer informatie](selection-strategies.md#offer-priority)
 
    ![](assets/exd-uc-strategy-priority.png)
 
 ### De tweede selectiestrategie maken
 
-Selecteer in de tweede selectiestrategie een formule als waarderingsmethode. Voer de onderstaande stappen uit.
+Volg onderstaande stappen om de tweede selectiestrategie samen te stellen met een formule als waarderingsmethode te selecteren.
 
 1. Maak een beslissingsitem. [ leer hoe ](items.md)
 
-<!--1. Set the same **[!UICONTROL Priority]** as for the first decision item. TBC?-->
+   <!--1. Set the same **[!UICONTROL Priority]** as for the first decision item. TBC?-->
 
 1. Bepaal de geschiktheid van het besluitvormingspunt:
 
@@ -86,9 +80,7 @@ Selecteer in de tweede selectiestrategie een formule als waarderingsmethode. Voe
 
 1. Creeer a [ selectiestrategie ](selection-strategies.md#create-selection-strategy) en selecteer de [ inzameling ](collections.md) die de te overwegen aanbieding(en) bevat.
 
-1. [ kies de het rangschikken methode ](#select-ranking-method) u wilt gebruiken om de beste aanbieding voor elk profiel te selecteren.
-
-   Selecteer in dit geval **[!UICONTROL Formula]** om een specifieke berekende score te gebruiken en te kiezen welke geschikte aanbieding moet worden gedaan. [Meer informatie](selection-strategies.md#ranking-formula)
+1. [ kies de het rangschikken methode ](#select-ranking-method) u wilt gebruiken om de beste aanbieding voor elk profiel te selecteren. Selecteer in dit geval **[!UICONTROL Formula]** om een specifieke berekende score te gebruiken om te bepalen welke geschikte aanbieding moet worden gedaan. [Meer informatie](selection-strategies.md#ranking-formula)
 
    ![](assets/exd-uc-strategy-formula.png)
 
@@ -106,7 +98,9 @@ Zodra u de twee selectiestrategieën vormde, creeer een code-gebaseerde ervaring
 
    ![](assets/exd-uc-create-experiment.png)
 
-1. Klik op **[!UICONTROL Edit content]**.
+1. Selecteer of maak een op code gebaseerde configuratie in de overzichtspagina van de campagne en klik op **[!UICONTROL Edit content]** .
+
+   ![](assets/exd-uc-edit-cbe-content.png)
 
 <!--1. Sart personalizing **Treatment A** by clicking **[!UICONTROL Create]**.
 
