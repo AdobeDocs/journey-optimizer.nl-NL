@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: bfc16476f525328b2b8451bfdd57b6b2027db916
+source-git-commit: aa0791b7ca3eb4c39f700fbe23937b5529f44376
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '707'
 ht-degree: 4%
 
 ---
@@ -19,12 +19,10 @@ ht-degree: 4%
 
 In dit geval worden alle stappen beschreven die nodig zijn om Decisioning te gebruiken met het op code gebaseerde kanaal van [!DNL Journey Optimizer] .
 
-In dit voorbeeld bent u niet zeker of een specifieke rangschikkingsformule beter zal presteren dan de vooraf toegewezen aanbiedingsprioriteiten.
-
-Om te meten welke het beste voor uw doelpubliek presteert, creeer een campagne gebruikend [ Experimenteer van de Inhoud ](../content-management/content-experiment.md) waar u twee leveringsbehandelingen bepaalt:
+In dit voorbeeld bent u niet zeker of een specifieke rangschikkingsformule beter zal presteren dan de vooraf toegewezen aanbiedingsprioriteiten. Om te meten welke het beste voor uw doelpubliek presteert, creeert u een campagne gebruikend [ Experimenteer van de Inhoud ](../content-management/content-experiment.md) waar u twee leveringsbehandelingen bepaalt:
 
 * De eerste behandeling gebruikt prioriteit als rangorde methode.
-* De tweede behandeling gebruikt een formule: de rangorde.
+* De tweede behandeling gebruikt een formule als rangordemethode.
 
 ## Selectiestrategieën maken
 
@@ -34,7 +32,7 @@ Ten eerste moet u twee selectiestrategieën ontwikkelen: een met prioriteit als 
 >
 >U kunt ook losse-beslissingsitems maken zonder dat u een selectiestrategie hoeft te doorlopen. De voor elk onderdeel vastgestelde prioriteit is van toepassing.
 
-### De eerste selectiestrategie maken
+### Een strategie maken met prioriteit
 
 Volg de onderstaande stappen om de eerste selectiestrategie met prioriteit als rangordemethode te maken.
 
@@ -64,7 +62,7 @@ Volg de onderstaande stappen om de eerste selectiestrategie met prioriteit als r
 
    ![](assets/exd-uc-strategy-priority.png){width="80%"}
 
-### De tweede selectiestrategie maken
+### Een andere strategie maken met behulp van een formule
 
 Volg onderstaande stappen om de tweede selectiestrategie samen te stellen met een formule als waarderingsmethode te selecteren.
 
