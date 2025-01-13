@@ -8,7 +8,7 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: aa0791b7ca3eb4c39f700fbe23937b5529f44376
+source-git-commit: fbe07345079c6e8cf5ae081094fbc8c25f6d0e57
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 4%
@@ -40,7 +40,7 @@ Volg de onderstaande stappen om de eerste selectiestrategie met prioriteit als r
 
 1. Stel de **[!UICONTROL Priority]** van het beslissingsitem in vergelijking met andere. Als een profiel voor meerdere items in aanmerking komt, krijgt het item met een hogere prioriteit voorrang boven andere items.
 
-   ![](assets/exd-uc-item-priority.png){width="80%"}
+   ![](assets/exd-uc-item-priority.png){width="90%"}
 
    >[!NOTE]
    >
@@ -60,7 +60,7 @@ Volg de onderstaande stappen om de eerste selectiestrategie met prioriteit als r
 
 1. [ kies de het rangschikken methode ](#select-ranking-method) om de beste aanbieding voor elk profiel te selecteren. Selecteer in dit geval **[!UICONTROL Offer priority]** : als meerdere aanbiedingen in aanmerking komen voor deze strategie, gebruikt de engine voor besluitvorming de waarde die is ingesteld als **[!UICONTROL Priority]** in de aanbieding(en). [Meer informatie](selection-strategies.md#offer-priority)
 
-   ![](assets/exd-uc-strategy-priority.png){width="80%"}
+   ![](assets/exd-uc-strategy-priority.png){width="90%"}
 
 ### Een andere strategie maken met behulp van een formule
 
@@ -84,7 +84,7 @@ Volg onderstaande stappen om de tweede selectiestrategie samen te stellen met ee
 
 1. [ kies de het rangschikken methode ](#select-ranking-method) u wilt gebruiken om de beste aanbieding voor elk profiel te selecteren. Selecteer in dit geval **[!UICONTROL Formula]** om een specifieke berekende score te gebruiken om te bepalen welke geschikte aanbieding moet worden gedaan. [Meer informatie](selection-strategies.md#ranking-formula)
 
-   ![](assets/exd-uc-strategy-formula.png)
+   ![](assets/exd-uc-strategy-formula.png){width="90%"}
 
 ## Een op code gebaseerde ervaringscampagne maken
 
@@ -98,19 +98,19 @@ Zodra u de twee selectiestrategieën vormde, creeer een code-gebaseerde ervaring
 
 1. Klik in de overzichtspagina van de campagne op **[!UICONTROL Create experiment]** om uw inhoudexperiment te configureren. [Meer informatie](../content-management/content-experiment.md)
 
-   ![](assets/exd-uc-create-experiment.png){width="80%"}
+   ![](assets/exd-uc-create-experiment.png){width="90%"}
 
 1. Selecteer een op code gebaseerde configuratie in de overzichtspagina van de campagne en klik op **[!UICONTROL Edit content]** .
 
-   ![](assets/exd-uc-edit-cbe-content.png){width="80%"}
+   ![](assets/exd-uc-edit-cbe-content.png){width="90%"}
 
 1. Van het venster van de inhoudsuitgave, beginnen **Behandeling A** te personaliseren, klik **[!UICONTROL Edit code]**.
 
-   ![](assets/exd-uc-experiment-treatment-a.png){width="80%"}
+   ![](assets/exd-uc-experiment-treatment-a.png){width="90%"}
 
 1. Van de [ coderedacteur ](../code-based/create-code-based.md#edit-code), uitgezochte **[!UICONTROL Decision policy]**, klik **[!UICONTROL Add decision policy]** en vul de besluitvormingsdetails in. [Meer informatie](create-decision.md#add)
 
-   ![](assets/decision-code-based-create.png)
+   ![](assets/decision-code-based-create.png){width="90%"}
 
 1. Klik in de sectie **[!UICONTROL Strategy sequence]** op de knop **[!UICONTROL Add]** en kies **[!UICONTROL Selection strategy]** . [Meer informatie](create-decision.md#select)
 
@@ -122,19 +122,19 @@ Zodra u de twee selectiestrategieën vormde, creeer een code-gebaseerde ervaring
 
 1. Selecteer de eerste strategie die u hebt gemaakt.
 
-   ![](assets/exd-uc-experiment-strategy-priority.png){width="80%"}
+   ![](assets/exd-uc-experiment-strategy-priority.png){width="90%"}
 
 1. Sla de wijzigingen op en klik op **[!UICONTROL Create]** . De nieuwe beslissing wordt toegevoegd onder **[!UICONTROL Decision policy]** .
 
 1. Klik op de knop **[!UICONTROL Insert policy]**. De code die overeenkomt met het beslissingsbeleid wordt toegevoegd. Voeg vervolgens alle kenmerken toe die u aan de code wilt toevoegen, inclusief profielkenmerken. [Meer informatie](create-decision.md#use-decision-policy)
 
-   ![](assets/exd-uc-experiment-insert-policy.png){width="80%"}
+   ![](assets/exd-uc-experiment-insert-policy.png){width="90%"}
 
 1. Sla uw wijzigingen op.
 
 1. Ga terug naar het venster van de inhoudsuitgave, selecteer + knoop om **Behandeling B** toe te voegen, het te selecteren en **[!UICONTROL Edit code]** te klikken.
 
-   ![](assets/exd-uc-experiment-treatment-b.png){width="80%"}
+   ![](assets/exd-uc-experiment-treatment-b.png){width="90%"}
 
 1. Herhaal bovenstaande stappen om nog een beslissingsbeleid te maken en selecteer de tweede selectiestrategie die u hebt gemaakt. <!--Do you need to create exactly the same content to compare only the ranking method?-->
 
