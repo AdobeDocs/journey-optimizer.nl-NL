@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
+source-git-commit: d93ef15df4a25e7a6d6fab3df1f9838a0c3d31df
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Voer de onderstaande stappen uit om een fragment te bewerken.
 
    >[!NOTE]
    >
-   >Wanneer u een expressiefragment bewerkt, kunt u elk willekeurig aanpassingsveld verwijderen, maar u kunt geen nieuwe velden toevoegen aan de fragmentinhoud. Als u aanpassingsvelden wilt toevoegen, dupliceert u het fragment om een nieuw fragment te maken.
+   >Wanneer u een fragment bewerkt, kunt u elk willekeurig aanpassingsveld verwijderen, maar u kunt geen nieuwe velden toevoegen aan de fragmentinhoud. Als u aanpassingsvelden wilt toevoegen, dupliceert u het fragment om een nieuw fragment te maken.
 
    U kunt de lijst van de reizen, campagnes en inhoudsmalplaatjes ook controleren waar het fragment momenteel door de **verwijzingen van de Ontdekkingsreiziger** optie te selecteren wordt gebruikt. [Meer informatie](#explore-references)
 
