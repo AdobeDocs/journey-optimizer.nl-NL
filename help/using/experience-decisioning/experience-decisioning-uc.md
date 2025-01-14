@@ -8,10 +8,10 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: fbe07345079c6e8cf5ae081094fbc8c25f6d0e57
+source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 4%
+source-wordcount: '757'
+ht-degree: 3%
 
 ---
 
@@ -96,7 +96,7 @@ Zodra u de twee selectiestrategieën vormde, creeer een code-gebaseerde ervaring
 
 1. Maak een campagne en selecteer de handeling **[!UICONTROL Code-base experience]** . [Meer informatie](../code-based/create-code-based.md)
 
-1. Klik in de overzichtspagina van de campagne op **[!UICONTROL Create experiment]** om uw inhoudexperiment te configureren. [Meer informatie](../content-management/content-experiment.md)
+1. Klik op de pagina met het campagneresamenvatting op **[!UICONTROL Create experiment]** om uw inhoudexperiment te configureren. [ leer hoe ](../content-management/content-experiment.md)
 
    ![](assets/exd-uc-create-experiment.png){width="90%"}
 
@@ -140,4 +140,6 @@ Zodra u de twee selectiestrategieën vormde, creeer een code-gebaseerde ervaring
 
 1. Sparen uw veranderingen en [ publiceer uw code-gebaseerde-ervaringscampagne ](../code-based/publish-code-based.md).
 
-U kunt volgen hoe uw campagne met het [ experimenteren campagnerapport ](../reports/campaign-global-report-cja-experimentation.md) en [ rapport over besluit ](cja-reporting.md) uitvoert. <!--TBC how to check which treatment performs best-->
+Na het runnen van uw ervaring, spoor hoe uw campagnebehandelingen met het [ experimentatiecampagnerapport ](../reports/campaign-global-report-cja-experimentation.md) presteren.<!-- and [report on decisioning](cja-reporting.md).--> Vervolgens kunt u de resultaten van uw experiment interpreteren. [ leer hoe ](../content-management/get-started-experiment.md#interpret-results)
+
+Als het resultaat van uw experiment overtuigend is, kunt u de behandeling met de best presterende rangorde aan al uw klanten duwen. U kunt ook een nieuwe campagne maken met de selectiestrategie waarbij de best presterende waarderingsmethode wordt gerepliceerd.
