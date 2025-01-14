@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 50b36446ff0e9f4aec9f28056c3c30cc2df3f530
+source-git-commit: a9efa676242b1e3453033c77f1f5afb9da931a3d
 workflow-type: tm+mt
-source-wordcount: '2193'
+source-wordcount: '2154'
 ht-degree: 25%
 
 ---
@@ -396,8 +396,8 @@ ht-degree: 25%
       + [Campagne Live-rapport](using/reports/campaign-live-report.md)
       + [Openingspagina Live-rapport](using/reports/lp-report-live.md)
       + [Abonnementenlijst Live-rapport](using/reports/subscription-report-live.md)
-   + Bijgewerkte rapportervaring {#channel-report}
-      + [Aan de slag met de bijgewerkte rapportervaring](using/reports/report-gs-cja.md)
+   + All time report {#channel-report}
+      + [Aan de slag met All-time rapport](using/reports/report-gs-cja.md)
       + [Customer Journey Analytics handmatig configureren](using/reports/cja-ajo.md)
       + [Uw rapporten beheren](using/reports/report-cja-manage.md)
       + [Voorwaarden voor rapportage en experimenten](using/reports/reporting-configuration.md)
@@ -425,18 +425,6 @@ ht-degree: 25%
       + [Overzichtsrapport](using/reports/channel-report-cja.md)
       + [Rapport van bestemmingspagina](using/reports/lp-report-global-cja.md)
       + [Abonnementenlijstrapport](using/reports/subscription-report-global-cja.md)
-   + Oude rapportervaring {#reports}
-      + Algemeen rapport {#global-report}
-         + [Aan de slag met Global-rapport](using/reports/global-report.md)
-         + [Lijst met componenten](using/reports/global-report-components.md)
-         + [Journey Global-rapport](using/reports/journey-global-report.md)
-         + [Campagne Global-rapport](using/reports/campaign-global-report.md)
-         + [Doelstelling](using/reports/objective-report.md)
-         + [Openingspagina Global-rapport](using/reports/lp-report-global.md)
-         + [Abonnementenlijst Global-rapport](using/reports/subscription-report-global.md)
-      + Kanaalrapporten {#channel-report}
-         + [Aan de slag met Channel-rapporten](using/reports/channel-report-gs.md)
-         + [Kanaalrapporten](using/reports/channel-report.md)
    + Reisrapporten {#reports}
       + [Trainingsrapporten maken](using/reports/sharing-overview.md)
       + [Lijst met gebeurtenisvelden voor stappen](using/reports/sharing-field-list.md)
