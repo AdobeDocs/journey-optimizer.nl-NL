@@ -2,20 +2,20 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Bijgewerkte ervaring met rapporten
-description: Aan de slag met de bijgewerkte rapportervaring
+description: Aan de slag met alle tijdrapporten
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: a64cfe6a474864df02e18fdb772974d73ec58cc5
+source-git-commit: abdfa7fa107e8be5d395c634057c38a512a4a03d
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '335'
 ht-degree: 2%
 
 ---
 
-# Aan de slag met de bijgewerkte rapportervaring {#channel-report-gs-cja}
+# Aan de slag met alle tijdrapporten {#channel-report-gs-cja}
 
 >[!IMPORTANT]
 >
