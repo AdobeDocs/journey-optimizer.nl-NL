@@ -8,9 +8,9 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
+source-git-commit: 0eeb9f6aa6276b99a4d38efc2d371ebdb58c141d
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
@@ -55,11 +55,14 @@ Om uw leverbaarheid te beschermen, worden de ontvangers van wie adressen op de s
 
 ## Gereedschappen voor bewaking gebruiken {#monitoring-tools}
 
-Gebruik de functies die [!DNL Journey Optimizer] aanbiedt om de prestaties te controleren.
+Gebruik de rapportfuncties die [!DNL Journey Optimizer] aanbiedt om de prestaties te controleren.
 
-Op het tabblad **[!UICONTROL Executions]** van de berichtenlijst kunt u controleren hoe uw leveringen in real-time worden uitgevoerd. Dit tabblad geeft onder andere het volgende weer:
+Met de campagne- en reisrapporten kunt u controleren hoe uw leveringen presteren aan de hand van een reeks realtime-indicatoren. Ze geven onder andere het volgende weer:
+
 * Het aantal berichten dat met succes wordt uitgevoerd, verzonden en geleverd.
 * Het aantal berichten dat is geopend en het aantal berichten/verbindingen dat is geklikt.
+
+Leer meer op [ levend rapport ](../reports/live-report.md) en [ alle tijdrapport ](../reports/report-gs-cja.md)
 
 ## Berichtinhoud aanpassen {#adapt-message-content}
 
@@ -76,6 +79,12 @@ Volg onderstaande principes bij het ontwerpen van de inhoud van uw bericht om de
 ## Uw reputatie als afzender vaststellen {#reputation}
 
 Als u onlangs naar een andere e-maildienstverlener, IP adres, of e-maildomein of subdomain bent verplaatst, moet u uw reputatie als afzender vestigen. Anders, zouden uw leveringen kunnen worden geblokkeerd of aan de spamomslag van de brievenbus van ontvangers worden verplaatst.
+
+Wanneer het verzenden van e-mail op een gloednieuw IP adres, kunt u IP warmteopwerkschema&#39;s nu gemakkelijk rechtstreeks van het gebruikersinterface uitvoeren.
+
+Adobe Journey Optimizer biedt een gestandaardiseerde en efficiënte manier om uw IP adressen op te warmen die de beste praktijken voor optimale leverbaarheid volgen.
+
+[Meer informatie over IP-opwarmingsplannen](../configuration/ip-warmup-gs.md)
 
 <!--To warm up your IP, you can gradually ramp up the number of your deliveries. Learn more in this [use case](../building-journeys/ramp-up-deliveries-uc.md).-->
 
