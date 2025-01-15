@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 25ca0dd72622ef15db3edeedfd16b91d392127d4
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '995'
 ht-degree: 2%
 
 ---
@@ -111,7 +111,7 @@ Volg onderstaande stappen om uw SMS-inhoud te configureren. De montages voor MMS
 
    Merk op dat om de functie te gebruiken die URL verkort, u eerst een subdomain moet vormen die dan aan uw configuratie zal worden verbonden. [Meer informatie](sms-subdomains.md)
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    > Als u SMS-subdomeinen wilt openen en bewerken, moet u over de machtiging **[!UICONTROL Manage SMS Subdomains]** in de productiesandbox beschikken. Leer meer over toestemmingen in [ deze sectie ](../administration/high-low-permissions.md).
 
@@ -123,6 +123,10 @@ Volg onderstaande stappen om uw SMS-inhoud te configureren. De montages voor MMS
 
 1. Plak in het veld `originalUrl` de URL die u wilt verkorten en klik op **[!UICONTROL Save]** .
 
+   >[!CAUTION]
+   >
+   > De levensduur van korte URL&#39;s is ingesteld op 15 dagen. Na deze periode zijn deze korte URL&#39;s niet meer toegankelijk en wordt het bericht `404 short-code not found` weergegeven.
+
 1. Klik op **[!UICONTROL Save]** en controleer uw bericht in de voorvertoning. U kunt nu uw berichtinhoud zoals die in [ wordt gedetailleerd deze sectie ](#sms-mms-test) testen en controleren.
 
 ## Uw MMS-inhoud definiëren{#mms-content}
@@ -131,7 +135,7 @@ U kunt uw communicatie verbeteren door MMS-berichten (Multimedia Message Service
 
 >[!NOTE]
 >
->* Het kanaal van MMS komt met een paar beperkingen die in [ worden vermeld deze pagina ](../start/guardrails.md#sms-guardrails).
+> Het kanaal van MMS komt met een paar beperkingen die in [ worden vermeld deze pagina ](../start/guardrails.md#sms-guardrails).
 
 Ga als volgt te werk om MMS-inhoud te maken:
 
