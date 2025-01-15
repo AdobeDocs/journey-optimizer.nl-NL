@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: b3d1d02605ff5e759c665847efad2d78bef6a1cf
+source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 0%
 # Uw rapporten beheren {#channel-cja-manage}
 
 ## Analyseren in Customer Journey Analytics {#analyze}
+
+>[!AVAILABILITY]
+>
+> **analyseert in CJA** functionaliteit is exclusief beschikbaar aan gebruikers met een [!DNL Customer Journey Analytics] vergunning.
 
 ![](assets/cja-analyze.png)
 
@@ -211,3 +215,47 @@ U kunt nu specifieke gegevens in de tabel selecteren en rechtstreeks een publiek
 
 U kunt nu doorgaan en het nieuwe publiek gebruiken met een reis of campagne.
 
+## Sjablonen beheren {#cja-template}
+
+>[!AVAILABILITY]
+>
+> De **functionaliteit van het Malplaatje** wordt geleidelijk ingevoerd in fasen, met volledige Algemene Beschikbaarheid die tegen eind Januari wordt gepland, en exclusief beschikbaar aan gebruikers met a [!DNL Customer Journey Analytics] vergunning.
+
+U hebt nu de mogelijkheid om uw Journey Optimizer-rapporten te verbeteren door gebruik te maken van sjablonen voor Customers Journey Analytics. [ Leer meer op het malplaatje van de Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
+
+Wanneer u rapporten opent, kunt u kiezen uit twee sjabloontypen in het vervolgkeuzemenu **[!UICONTROL Select a template]** :
+
+* Door Adobe verschafte standaardsjabloon
+* Door de klant gegenereerde sjablonen
+
+![](assets/cja_template_5.png)
+
+Als er geen sjabloon is gemaakt, wordt het vervolgkeuzemenu **[!UICONTROL Select a template]** niet weergegeven in de rapportinterface.
+
+Voer de volgende stappen uit om een sjabloon te maken:
+
+1. Navigeer in [!DNL Customer Journey Analytics] naar het menu **[!UICONTROL Workspace]** en selecteer **[!UICONTROL Adobe templates]** . [ leer meer over de beschikbare malplaatjes ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#available-templates)
+
+1. Blader door de beschikbare vooraf gebouwde sjablonen en klik op **[!UICONTROL Use template]** om deze te selecteren.
+
+   ![](assets/cja_template_1.png)
+
+1. Pas uw rapport aan uw behoeften aan. Verwijs naar [ documentatie van de Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+
+1. Zodra uw aangepaste sjabloon is voltooid, opent u het menu **[!UICONTROL Project]** en selecteert u **[!UICONTROL Save as template]** .
+
+   ![](assets/cja_template_2.png)
+
+1. Geef de benodigde gegevens voor de template op. Verwijs naar [ documentatie van de Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/create-templates#edit-or-delete-a-template) voor de gedetailleerde informatie.
+
+   >[!IMPORTANT]
+   >
+   > Zorg ervoor om **Journey Optimizer** onder **[!UICONTROL Use cases]** te kiezen en het overeenkomstige **de activiteitstype van Journey Optimizer** en **activiteit** te specificeren. Zo wordt je rapport weergegeven in Journey Optimizer.
+
+   ![](assets/cja_template_3.png)
+
+1. Open in [!DNL Journey Optimizer] uw rapport en kies de eerder gemaakte sjabloon in het vervolgkeuzemenu **[!UICONTROL Select a template]** .
+
+   ![](assets/cja_template_4.png)
+
+Als u rechtstreeks een sjabloon wilt maken op basis van uw rapport Reis optimizer, opent u gewoon uw campagne- of reisrapport en selecteert u **[!UICONTROL Analyze in CJA]** en past u de standaardsjabloon aan door de hierboven beschreven stappen te volgen.

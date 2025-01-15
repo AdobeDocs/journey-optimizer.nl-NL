@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 97b6041d4b8523b11b13dd78cd8b241a6410f1bc
+source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
 workflow-type: tm+mt
-source-wordcount: '2103'
+source-wordcount: '2172'
 ht-degree: 6%
 
 ---
@@ -21,6 +21,25 @@ ht-degree: 6%
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
 [!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html) {target="_blank"}.
+
+## Updates van januari 25 {#25-01-rn}
+
+<table>
+<thead>
+<tr>
+<th><strong>Customer Journey Analytics sjablonen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U hebt nu de mogelijkheid om uw Journey Optimizer-rapporten te verbeteren door gebruik te maken van sjablonen voor Customers Journey Analytics. Met deze nieuwe functie kunt u uw rapportageproces stroomlijnen met vooraf ontworpen sjablonen die zijn afgestemd op uw analysebehoeften.
+</p>
+<p>Raadpleeg de <a href="../reports/report-cja-manage.md#cja-template">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p> De <b> functionaliteit van het Malplaatje </b> wordt geleidelijk ingevoerd in fasen, met volledige Algemene Beschikbaarheid die tegen eind Januari wordt gepland</p>
+</tr>
+</tbody>
+</table>
 
 ## Release oktober 1924 {#24-10-rn}
 
