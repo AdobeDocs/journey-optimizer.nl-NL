@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
+source-git-commit: d9b64dd5bc1553583da23a24aadf4d15d0b6874f
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '754'
 ht-degree: 3%
 
 ---
@@ -140,6 +140,6 @@ Zodra u de twee selectiestrategieën vormde, creeer een code-gebaseerde ervaring
 
 1. Sparen uw veranderingen en [ publiceer uw code-gebaseerde-ervaringscampagne ](../code-based/publish-code-based.md).
 
-Na het runnen van uw ervaring, spoor hoe uw campagnebehandelingen met het [ experimentatiecampagnerapport ](../reports/campaign-global-report-cja-experimentation.md) presteren.<!-- and [report on decisioning](cja-reporting.md).--> Vervolgens kunt u de resultaten van uw experiment interpreteren. [ leer hoe ](../content-management/get-started-experiment.md#interpret-results)
+Na het in werking stellen van het experiment, spoor hoe uw campagnebehandelingen met het [ experimentatiecampagnerapport ](../reports/campaign-global-report-cja-experimentation.md) presteren.<!-- and [report on decisioning](cja-reporting.md).--> Vervolgens kunt u de resultaten van uw experiment interpreteren. [ leer hoe ](../content-management/get-started-experiment.md#interpret-results)
 
-Als het resultaat van uw experiment overtuigend is, kunt u de behandeling met de best presterende rangorde aan al uw klanten duwen. U kunt ook een nieuwe campagne maken met de selectiestrategie waarbij de best presterende waarderingsmethode wordt gerepliceerd.
+Als het resultaat overtuigend is, kunt u de behandeling met de best presterende rangorde aan al uw klanten duwen. U kunt ook een nieuwe campagne maken met de selectiestrategie waarbij de best presterende waarderingsmethode wordt gerepliceerd.
