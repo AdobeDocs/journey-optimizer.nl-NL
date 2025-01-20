@@ -5,9 +5,10 @@ feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
+source-git-commit: c402a8ab41eb588eae47463fd0217693853d8ca7
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -95,6 +96,14 @@ Wanneer u code-gebaseerde ervaringen voor Web-pagina&#39;s of mobiele apps bouwt
      >
      >**Adobe Experience Platform Assurance** is een product van Adobe Experience Cloud om u te helpen inspecteren, beproeven, simuleren, en bevestigen hoe u gegevens verzamelt of ervaringen in uw mobiele app dient. [ leer meer ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home) {target="_blank"}
 
+1. Als u om het even welk [ andere platform ](code-based-configuration.md#other) in uw op code-gebaseerde configuratie gebruikt, kies het [ oppervlakte URI ](code-based-surface.md#surface-uri) dat u van de drop-down lijst wilt voorproef.
+
+   ![](assets/preview-on-device-other.png)
+
+   * Selecteer de knop **[!UICONTROL Copy link]** om de koppeling in een browsertabblad te plakken of de koppeling te delen met uw team en belanghebbenden.
+
+   * Als u meerdere URI&#39;s hebt toegevoegd aan uw configuratie (maximaal 10), kunt u een van deze URI&#39;s selecteren voor een voorvertoning.
+
 1. De verbindingen van de voorproef worden geproduceerd voor het geselecteerde testprofiel en, als u [ Experiment van de Inhoud ](../content-management/content-experiment.md) in uw reis of campagne, voor de geselecteerde behandeling gebruikt.
 
    <!--If you have modified the content or selected a different treatment or test profile, scroll down to the bottom of the **[!UICONTROL Preview on device]** pop-up and click **[!UICONTROL Refresh preview link]** to reflect the current state.
@@ -103,7 +112,4 @@ Wanneer u code-gebaseerde ervaringen voor Web-pagina&#39;s of mobiele apps bouwt
 
    <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
 
-   >[!TIP]
-   >
-   >Wanneer u de inhoud bijwerkt of een ander testprofiel of andere behandeling selecteert, wordt de voorbeeldkoppeling automatisch vernieuwd. U kunt de koppeling naar verschillende tabbladen voor browsers kopiëren en de ervaringen vergelijken.
-
+   Wanneer u de inhoud bijwerkt of een ander testprofiel of andere behandeling selecteert, wordt de voorbeeldkoppeling automatisch vernieuwd. U kunt de koppeling naar verschillende tabbladen voor browsers kopiëren en de ervaringen vergelijken.
