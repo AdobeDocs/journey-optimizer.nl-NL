@@ -6,27 +6,27 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: bab4cd8065830e36fd6188d3ebf0bd62a63947f3
+source-git-commit: d2451bbaf9830ce3d928e71a609627c23a7566fa
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 1%
+source-wordcount: '744'
+ht-degree: 0%
 
 ---
 
 
-# Biedt aanbiedingen met de [!DNL Batch Decisioning] API {#deliver-offers-batch}
+# Aanbiedingen leveren met behulp van de [!DNL Batch Decisioning] API {#deliver-offers-batch}
 
-De [!DNL Batch Decisioning] API staat organisaties toe om besluitvormingsfunctionaliteit voor alle profielen in een bepaald publiek in één vraag te gebruiken. De aanbiedingsinhoud voor elke profielen in het publiek wordt geplaatst in een dataset van Adobe Experience Platform waar het voor de werkschema&#39;s van de douanepartij beschikbaar is.
+Met de API van [!DNL Batch Decisioning] kunnen organisaties de beslissingsfunctionaliteit voor alle profielen in een bepaald publiek in één aanroep gebruiken. De aanbiedingsinhoud voor elke profielen in het publiek wordt geplaatst in een dataset van Adobe Experience Platform waar het voor de werkschema&#39;s van de douanepartij beschikbaar is.
 
-Met de [!DNL Batch Decisioning] API, kunt u een dataset met de beste aanbiedingen voor alle profielen in een publiek van Adobe Experience Platform voor besluitvormingswerkingsgebied bevolken. Een organisatie wil bijvoorbeeld [!DNL Batch Decisioning] zodat zij voorstellen naar een leverancier van de berichtlevering kunnen verzenden. Die aanbiedingen worden dan gebruikt als inhoud die voor partijberichtlevering aan het zelfde publiek van gebruikers wordt verzonden.
+Met de API van [!DNL Batch Decisioning] kunt u een dataset vullen met de beste aanbiedingen voor alle profielen in een Adobe Experience Platform-publiek voor beslissingsbereik. Een organisatie wil bijvoorbeeld [!DNL Batch Decisioning] uitvoeren, zodat ze aanbiedingen naar een leverancier van berichten kan verzenden. Die aanbiedingen worden dan gebruikt als inhoud die voor partijberichtlevering aan het zelfde publiek van gebruikers wordt verzonden.
 
 Om dit te doen, zou de organisatie:
 
-* Voer de [!DNL Batch Decisioning] API, die twee verzoeken bevat:
+* Voer de API [!DNL Batch Decisioning] uit, die twee verzoeken bevat:
 
-   1. A **Batchverzoek POST** om een werkbelasting naar batchverwerking te starten, kunt u kiezen.
+   1. A **verzoek van de POST van de Partij** om een werkbelasting te beginnen aan de selectie van de partijprocesaanbieding.
 
-   2. A **Batchaanvraag** om de status van batchwerkbelasting te verkrijgen.
+   2. A **verzoek van de GET van de Partij** om de status van de partijwerkbelasting te krijgen.
 
 * Exporteer de dataset naar de API van de leverancier van de berichtlevering.
 
@@ -34,10 +34,10 @@ Om dit te doen, zou de organisatie:
 
 >[!NOTE]
 >
->U kunt de batch ook bepalen via de Journey Optimizer-interface. Raadpleeg voor meer informatie [deze sectie](../../batch-delivery.md), die informatie verstrekt over globale voorwaarden en beperkingen om rekening te houden met wanneer het gebruiken van partijbesluit.
+>U kunt de batch ook bepalen via de Journey Optimizer-interface. Voor meer informatie, verwijs naar [ deze sectie ](../../batch-delivery.md), die informatie over globale eerste vereisten en beperkingen verstrekt om rekening te houden met wanneer het gebruiken van partijbeslissing.
 
-* **Het aantal lopende partijbanen per dataset**: Er kunnen maximaal vijf batchtaken tegelijk per dataset worden uitgevoerd. Om het even welke andere partijverzoeken met de zelfde outputdataset worden toegevoegd aan de rij. Er wordt een taak in de wachtrij opgehaald om te worden verwerkt zodra de vorige taak is voltooid.
-* **Frequentiecorrectie**: Een batch wordt uitgevoerd uit de profielmomentopname die één keer per dag plaatsvindt. De [!DNL Batch Decisioning] API kapt de frequentie en laadt altijd profielen van de meest recente momentopname.
+* **het aantal lopende partijbanen per dataset**: Tot vijf partijbanen kunnen in een tijd, per dataset worden in werking gesteld. Om het even welke andere partijverzoeken met de zelfde outputdataset worden toegevoegd aan de rij. Er wordt een taak in de wachtrij opgehaald om te worden verwerkt zodra de vorige taak is voltooid.
+* **het in kaart brengen van de Frequentie**: Een partijlooppas van de profielmomentopname die eens per dag voorkomt. De API van [!DNL Batch Decisioning] kapt de frequentie in en laadt altijd profielen van de recentste momentopname.
 
 ## Aan de slag {#getting-started}
 
@@ -45,11 +45,11 @@ Voordat u deze API gebruikt, moet u de volgende vereiste stappen uitvoeren.
 
 ### De beslissing voorbereiden {#prepare-decision}
 
-Om één of meerdere besluiten voor te bereiden, zorg ervoor u een dataset, een publiek, en een besluit hebt gecreeerd. Deze voorwaarden worden nader beschreven in [deze sectie](../../batch-delivery.md).
+Om één of meerdere besluiten voor te bereiden, zorg ervoor u een dataset, een publiek, en een besluit hebt gecreeerd. Die eerste vereisten zijn gedetailleerd in [ deze sectie ](../../batch-delivery.md).
 
 ### API-vereisten {#api-requirements}
 
-Alles [!DNL Batch Decisioning] naast de in de [Handleiding voor ontwikkelaars van API voor beheer van beslissingen](../getting-started.md):
+Alle [!DNL Batch Decisioning] verzoeken vereisen de volgende kopballen naast degenen die in de [ gids van de ontwikkelaar van het Beheer API van het Besluit ](../getting-started.md) worden bedoeld:
 
 * `Content-Type`: `application/json`
 * `x-request-id`: Een unieke tekenreeks die de aanvraag identificeert.
@@ -57,13 +57,13 @@ Alles [!DNL Batch Decisioning] naast de in de [Handleiding voor ontwikkelaars va
 
 ## Een batchproces starten {#start-a-batch-process}
 
-Als u een werkbelasting wilt starten om beslissingen over batchprocessen te nemen, vraagt u een POST aan de `/workloads/decisions` eindpunt.
+Als u een werkbelasting wilt starten om beslissingen over batchprocessen te nemen, vraagt u een POST naar het `/workloads/decisions` -eindpunt.
 
 >[!NOTE]
 >
->Gedetailleerde informatie over de verwerkingstijd van batchtaken is beschikbaar in [deze sectie](../../batch-delivery.md).
+>De gedetailleerde informatie over de verwerkingstijd van partijbanen is beschikbaar in [ deze sectie ](../../batch-delivery.md).
 
-**API-indeling**
+**API formaat**
 
 ```https
 POST {ENDPOINT_PATH}/workloads/decisions
@@ -102,17 +102,18 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 
 | Eigenschap | Beschrijving | Voorbeeld |
 | -------- | ----------- | ------- |
-| `xdm:segmentIds` | De waarde is een array die de unieke id van het publiek bevat. Het kan slechts één waarde bevatten. | `609028e4-e66c-4776-b0d9-c782887e2273` |
+| `xdm:activityId` | De unieke identificatiecode van het besluit. |
 | `xdm:dataSetId` | De output dataSet dat beslissingsgebeurtenissen kunnen worden geschreven in. | `6196b4a1a63bd118dafe093c` |
-| `xdm:propositionRequests` | Een omslag die bevat `placementId` en `activityId` |  |
-| `xdm:activityId` | De unieke identificatiecode van het besluit. | `xcore:offer-activity:1410cdcda196707b` |
+| `xdm:enrichedAudience` | Voeg deze parameter toe en plaats het aan &quot;waar&quot;als u een publiek CSV richt | `true` |
+| `xdm:includeContent` | Dit is een optioneel veld en is standaard `false` . Als `true`, is de aanbiedingsinhoud inbegrepen in de besluitvormingsgebeurtenissen van dataset. | `false` |
+| `xdm:itemCount` | Dit is een facultatief gebied dat het aantal punten zoals opties toont die voor het beslissingswerkingsgebied worden gevraagd. Standaard retourneert de API één optie per bereik, maar u kunt expliciet om meer opties vragen door dit veld op te geven. Voor elk bereik kunnen minimaal 1 en maximaal 30 opties worden aangevraagd. | `1` | `xcore:offer-activity:1410cdcda196707b` |
 | `xdm:placementId` | De unieke plaatsings-id. | `xcore:offer-placement:1410c4117306488a` |
-| `xdm:itemCount` | Dit is een facultatief gebied dat het aantal punten zoals opties toont die voor het beslissingswerkingsgebied worden gevraagd. Standaard retourneert de API één optie per bereik, maar u kunt expliciet om meer opties vragen door dit veld op te geven. Voor elk bereik kunnen minimaal 1 en maximaal 30 opties worden aangevraagd. | `1` |
-| `xdm:includeContent` | Dit is een optioneel veld en is `false` standaard. Indien `true`De inhoud van het aanbod is opgenomen in de besluitvormingsgebeurtenissen van de dataset. | `false` |
+| `xdm:propositionRequests` | Een omslag die `placementId` en `activityId` bevat |
+| `xdm:segmentIds` | De waarde is een array die de unieke id van het publiek bevat. Het kan slechts één waarde bevatten. | `609028e4-e66c-4776-b0d9-c782887e2273` |
 
-Zie de [Beslissingsbeheerdocumentatie](../../get-started/starting-offer-decisioning.md) voor een overzicht van de belangrijkste concepten en eigenschappen.
+Verwijs naar de [ documentatie van het Beheer van het Besluit ](../../get-started/starting-offer-decisioning.md) voor een overzicht van de belangrijkste concepten en eigenschappen.
 
-**Antwoord**
+**Reactie**
 
 ```json
 {
@@ -132,9 +133,9 @@ Zie de [Beslissingsbeheerdocumentatie](../../get-started/starting-offer-decision
 
 ## Informatie ophalen over een batchbeslissing {#retrieve-information-on-a-batch-decision}
 
-Om informatie over een specifiek besluit terug te winnen, doe een verzoek van de GET aan `/workloads/decisions` eindpunt terwijl het verstrekken van de overeenkomstige waarde van werklastidentiteitskaart voor uw besluit.
+Om informatie over een specifieke beslissing terug te winnen, doe een verzoek van de GET aan het `/workloads/decisions` eindpunt terwijl het verstrekken van de overeenkomstige waarde van werklastidentiteitskaart voor uw besluit.
 
-**API-indeling**
+**API formaat**
 
 ```https
 GET {ENDPOINT_PATH}/workloads/decisions/{WORKLOAD_ID}
@@ -158,7 +159,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dwm/workloads/decisions/f395ab1
 -H 'Authorization: Bearer {ACCESS_TOKEN}'
 ```
 
-**Antwoord**
+**Reactie**
 
 ```json
 {
@@ -179,4 +180,4 @@ curl -X GET 'https://platform.adobe.io/data/core/dwm/workloads/decisions/f395ab1
 
 ## Volgende stappen {#next-steps}
 
-Door deze API-handleiding te volgen, hebt u de werklaststatus gecontroleerd en aanbiedingen geleverd met de [!DNL [!DNL Batch Decisioning]] API. Zie de klasse [overzicht van het besluitvormingsbeheer](../../get-started/starting-offer-decisioning.md).
+Door deze API-handleiding te volgen, hebt u de status van de werkbelasting gecontroleerd en aanbiedingen gedaan via de API [!DNL [!DNL Batch Decisioning]]. Voor meer informatie, zie het [ overzicht over het Beheer van het Besluit ](../../get-started/starting-offer-decisioning.md).
