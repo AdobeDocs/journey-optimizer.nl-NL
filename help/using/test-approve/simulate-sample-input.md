@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta"
-source-git-commit: 678a2fbce1b4048aad6a2214bb41ec3722db2b2d
+exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
+source-git-commit: e6e7890d2ff1fc91155da14e1e6c1cde01f25447
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
-
 
 # Inhoud testen met behulp van voorbeeldinvoergegevens (Beta) {#custom-profiles}
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 >
 >Deze functies zijn momenteel beschikbaar voor alle klanten als een openbare bètaversie.
 
-Met Reis optimizer kunt u verschillende varianten van uw inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV- of JSON-bestand zijn geüpload of handmatig zijn toegevoegd. Alle profielkenmerken die in de inhoud worden gebruikt voor personalisatie worden automatisch gedetecteerd door het systeem en kunnen worden gebruikt voor uw tests om meerdere varianten te maken.
+Met Reis optimizer kunt u verschillende varianten van uw inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV- of JSON-bestand zijn geüpload of handmatig zijn toegevoegd. Alle profielkenmerken die in de inhoud worden gebruikt voor personalisatie worden automatisch gedetecteerd door het systeem en kunnen worden gebruikt voor uw tests om meerdere varianten te maken. Een variant verwijst naar een versie van de inhoud met verschillende waarden voor de kenmerken ervan.
 
 >[!NOTE]
 >
@@ -66,13 +66,29 @@ U kunt maximaal 30 varianten toevoegen om de inhoud te testen met behulp van een
 Ga als volgt te werk als u een variant uit een bestand wilt toevoegen:
 
 1. Klik op de koppeling **[!UICONTROL download sample]** om een bestandssjabloon op te halen en kies vervolgens de bestandsindeling die u wilt gebruiken (CSV, JSON of JSONLINES).
-
 1. Klik op **[!UICONTROL Download]** en sla de sjabloon op de gewenste locatie op.
-
 1. Open het bestand en vul de sjabloon naar wens in. De sjabloon bevat een kolom voor elk profielkenmerk dat in uw inhoud wordt gebruikt voor personalisatie.
 
-1. Wanneer het bestand gereed is, klikt u op **[!UICONTROL Upload Input data]** om het te laden en de inhoud te testen.
+   +++Bestandsmonster
 
+   ```
+   {
+   "profile": {
+       "attributes": {
+       "person": {
+           "name": {
+               "lastName": "Doe",
+               "firstName": "John"
+               }
+           }
+       }
+   }
+   }
+   ```
+
++++
+
+1. Wanneer het bestand gereed is, klikt u op **[!UICONTROL Upload Input data]** om het te laden en de inhoud te testen.
 1. Nadat het bestand is geüpload, wordt in het linkerdeelvenster voor elke regel van het bestand een vak toegevoegd. Elk vak bevat alle profielkenmerken die in de inhoud worden gebruikt voor personalisatie. U kunt de varianten nu gebruiken om een voorvertoning van de inhoud weer te geven in het rechterdeelvenster en proefdrukken te verzenden.
 
    ![](assets/simulate-custom-variants.png)
@@ -95,9 +111,13 @@ Voer de volgende stappen uit om een variant handmatig toe te voegen:
 
 Als u een voorvertoning van de inhoud wilt weergeven met een van de varianten, selecteert u het desbetreffende vak om de voorvertoning van de inhoud in de rechtersectie bij te werken met de informatie die u voor deze variant hebt ingevoerd.
 
-U kunt een variant op elk gewenst moment verwijderen met de ellipknop in de rechterbovenhoek en door **[!UICONTROL Remove]** te selecteren. Als u informatie voor een variant wilt bewerken, klikt u op de knop voor weglatingsteken en selecteert u **[!UICONTROL Edit]** .
+In het onderstaande voorbeeld hebben we twee varianten toegevoegd voor de onderwerpregel van de e-mail:
 
-![](assets/simulate-custom-boxes.png)
+| Selectie van variant 1 | Selectie van variant 2 |
+|----------|-------------|
+| ![](assets/simulate-custom-boxes.png) | ![](assets/simulate-custom-boxes2.png) |
+
+U kunt een variant op elk gewenst moment verwijderen met de ellipknop in de rechterbovenhoek en door **[!UICONTROL Remove]** te selecteren. Als u informatie voor een variant wilt bewerken, klikt u op de knop voor weglatingsteken en selecteert u **[!UICONTROL Edit]** .
 
 ## Proefdrukken verzenden {#proofs}
 
