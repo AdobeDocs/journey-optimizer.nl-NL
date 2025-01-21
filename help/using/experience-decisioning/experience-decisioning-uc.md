@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: d9b64dd5bc1553583da23a24aadf4d15d0b6874f
+source-git-commit: bb66785f0b699d0ccf6cced035e64f206b104293
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '785'
 ht-degree: 3%
 
 ---
@@ -19,10 +19,10 @@ ht-degree: 3%
 
 In dit geval worden alle stappen beschreven die nodig zijn om Decisioning te gebruiken met het op code gebaseerde kanaal van [!DNL Journey Optimizer] .
 
-In dit voorbeeld bent u niet zeker of een specifieke rangschikkingsformule beter zal presteren dan de vooraf toegewezen aanbiedingsprioriteiten. Om te meten welke het beste voor uw doelpubliek presteert, creeert u een campagne gebruikend [ Experimenteer van de Inhoud ](../content-management/content-experiment.md) waar u twee leveringsbehandelingen bepaalt:
+In dit voorbeeld bent u niet zeker of een specifieke rangschikkingsformule beter zal presteren dan de vooraf toegewezen aanbiedingsprioriteiten. Om te meten welke het beste voor uw doelpubliek presteert, creeert u een campagne gebruikend [ experiment van de Inhoud ](../content-management/content-experiment.md) waar u twee leveringsbehandelingen bepaalt:
 
-* De eerste behandeling gebruikt prioriteit als rangorde methode.
-* De tweede behandeling gebruikt een formule als rangordemethode.
+* De eerste behandeling gebruikt **prioriteit** als het rangschikken methode.
+* De tweede behandeling gebruikt **een formule** als het rangschikken methode.
 
 ## Selectiestrategieën maken
 
@@ -120,7 +120,7 @@ Zodra u de twee selectiestrategieën vormde, creeer een code-gebaseerde ervaring
    >
    >U kunt ook **[!UICONTROL Decision item]** selecteren om afzonderlijke items toe te voegen zonder dat u een selectiestrategie hoeft te doorlopen. De voor elk onderdeel vastgestelde prioriteit is van toepassing.
 
-1. Selecteer de eerste strategie die u hebt gemaakt.
+1. Selecteer de eerste strategie die u hebt gemaakt, de strategie met prioriteit als waarderingsmethode.
 
    ![](assets/exd-uc-experiment-strategy-priority.png){width="90%"}
 
@@ -136,10 +136,17 @@ Zodra u de twee selectiestrategieën vormde, creeer een code-gebaseerde ervaring
 
    ![](assets/exd-uc-experiment-treatment-b.png){width="90%"}
 
-1. Herhaal bovenstaande stappen om nog een beslissingsbeleid te maken en selecteer de tweede selectiestrategie die u hebt gemaakt. <!--Do you need to create exactly the same content to compare only the ranking method?-->
+1. Herhaal stap 5 en 6 hierboven om een ander besluitvormingsbeleid tot stand te brengen en selecteer de tweede selectiestrategie die u creeerde - met de formule als rangschikkingsmethode. <!--Do you need to create exactly the same content to compare only the ranking method?-->
+
+   ![](assets/exd-uc-experiment-strategy-formula.png){width="90%"}
+
+1. Bewerk het gewenste beslissingsbeleid (zie de stappen 8 en 9 hierboven).
 
 1. Sparen uw veranderingen en [ publiceer uw code-gebaseerde-ervaringscampagne ](../code-based/publish-code-based.md).
 
 Na het in werking stellen van het experiment, spoor hoe uw campagnebehandelingen met het [ experimentatiecampagnerapport ](../reports/campaign-global-report-cja-experimentation.md) presteren.<!-- and [report on decisioning](cja-reporting.md).--> Vervolgens kunt u de resultaten van uw experiment interpreteren. [ leer hoe ](../content-management/get-started-experiment.md#interpret-results)
 
-Als het resultaat overtuigend is, kunt u de behandeling met de best presterende rangorde aan al uw klanten duwen. U kunt ook een nieuwe campagne maken met de selectiestrategie waarbij de best presterende waarderingsmethode wordt gerepliceerd.
+Als het resultaat overtuigend is:
+
+* U kunt de behandeling doorvoeren met de best presterende classificatie voor al uw klanten.
+* U kunt ook een nieuwe campagne maken met de selectiestrategie waarbij de best presterende waarderingsmethode wordt gerepliceerd.
