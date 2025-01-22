@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1318'
 ht-degree: 1%
 
 ---
@@ -40,12 +40,12 @@ Voordat u dit bestand kunt genereren, moet u het volgende maken:
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
->title="Definieer de configuratie voor het routeren van bestanden"
->abstract="U moet definiëren waar het bestand wordt geëxporteerd, zodat uw direct-mailprovider het kan gebruiken."
+>title="Definieer het bestand dat de configuratie verplettert"
+>abstract="U moet definiëren waar het bestand wordt geëxporteerd voordat uw direct-mailprovider het kan gebruiken."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_select_file_routing"
->title="Configuratie van bestandroutering"
+>title="Configuratie van bestandsroutering"
 >abstract="Selecteer het dossier dat configuratie van uw keus verplettert, die bepaalt waar het dossier voor uw direct-mailleverancier aan gebruik zal worden uitgevoerd."
 
 >[!CONTEXTUALHELP]
@@ -55,14 +55,14 @@ Voordat u dit bestand kunt genereren, moet u het volgende maken:
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
->title="Het AWS-gebied kiezen"
->abstract="Selecteer het geografische gebied van de AWS-server waarnaar u uw direct-mailbestanden wilt exporteren. In het algemeen verdient het de voorkeur het gebied te kiezen dat het dichtst bij de locatie van uw directmailprovider ligt."
+>title="Kies het AWS-gebied"
+>abstract="Selecteer het geografische gebied van de AWS-server waarop u uw bestanden voor directe e-mail wilt exporteren. In het algemeen verdient het de voorkeur het gebied te kiezen dat het dichtst bij de locatie van uw directe-mailprovider ligt."
 
 >[!NOTE]
 >
->Momenteel worden Amazon S3, SFTP en Azure ondersteund in [!DNL Journey Optimizer] .
+>Amazon S3, SFTP en Azure worden momenteel ondersteund in [!DNL Journey Optimizer] .
 
-Als u een direct-mailbericht wilt verzenden, genereert [!DNL Journey Optimizer] het bestand met de doelgroepgegevens en exporteert het naar een server.
+[!DNL Journey Optimizer] genereert en exporteert het bestand met de doelpublieksgegevens naar een server om een direct mailbericht te verzenden.
 
 U moet die serverdetails specificeren zodat uw direct-mailleverancier tot dat dossier voor het leveren van post kan toegang hebben en gebruiken.
 
@@ -124,6 +124,10 @@ Om het dossier te vormen dat, volg de stappen hieronder verplettert.
 
    ![](assets/file-routing-config-sftp-detail.png)
 
+   >[!NOTE]
+   >
+   >Als u een pad op de server voor het opslaan van het bestand wilt opgeven, werkt u het veld **[!UICONTROL Filename]** van de campagne voor direct mail bij en voegt u het gewenste pad in. [Meer informatie](create-direct-mail.md#extraction-file)
+
 1. Als u het bestand wilt versleutelen, kopieert en plakt u de coderingssleutel in het veld **[!UICONTROL PGP/GPG encryption key]** .
 
 1. Selecteer **[!UICONTROL Submit]**. Het dossier dat configuratie verplettert wordt gecreeerd met de **[!UICONTROL Active]** status. Het is nu klaar om in a [ direct-mailconfiguratie ](#direct-mail-surface) worden gebruikt.
@@ -152,7 +156,7 @@ Om het dossier te vormen dat, volg de stappen hieronder verplettert.
 
    * **Naam van de Container**: Om uw **Naam van de Container** te vinden, verwijs naar [ deze pagina ](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
 
-     De **Naam van de Container** zou slechts de naam van de container zonder enige schuine strepen moeten bevatten. Als u een pad in de container voor het opslaan van het bestand wilt opgeven, werkt u de bestandsnaam van de Direct Mail Campaign bij en voegt u het gewenste pad in.
+     De **Naam van de Container** zou slechts de naam van de container zonder enige schuine strepen moeten bevatten. Als u een pad in de container voor het opslaan van het bestand wilt opgeven, werkt u het veld **[!UICONTROL Filename]** van de campagne voor direct mail bij en voegt u het gewenste pad in. [Meer informatie](create-direct-mail.md#extraction-file)
 
 1. Als u het bestand wilt versleutelen, kopieert en plakt u de coderingssleutel in het veld **[!UICONTROL PGP/GPG encryption key]** .
 
@@ -179,9 +183,9 @@ Om het dossier te vormen dat, volg de stappen hieronder verplettert.
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
 >title="De drempelwaarde voor het splitsen van bestanden definiëren"
->abstract="U moet het maximumaantal records instellen voor elk bestand dat publieksgegevens bevat. U kunt een willekeurig aantal tussen 1 en 200.000 records selecteren. Nadat de opgegeven drempel is bereikt, wordt er een ander bestand gemaakt voor de resterende records."
+>abstract="U moet het maximumaantal records instellen voor elk bestand dat publieksgegevens bevat. U kunt een willekeurig getal tussen 1 en 200.000 records selecteren. Nadat de opgegeven drempelwaarde is bereikt, wordt een ander bestand gemaakt voor de resterende records."
 
-Als u direct mail wilt verzenden met [!DNL Journey Optimizer] , moet u een kanaalconfiguratie maken om de instellingen te definiëren voor de opmaak van het bestand dat wordt gebruikt door de mailprovider.
+Als u direct mail met [!DNL Journey Optimizer] wilt kunnen leveren, moet u een kanaalconfiguratie tot stand brengen om de montages voor het formatteren van het dossier te bepalen dat door de postleverancier zal worden gebruikt.
 
 Een direct-mailconfiguratie moet ook het dossier omvatten dat configuratie verplettert die de server bepaalt waar uw direct-maildossier zal worden uitgevoerd.
 
@@ -193,11 +197,11 @@ Een direct-mailconfiguratie moet ook het dossier omvatten dat configuratie verpl
 
    >[!NOTE]
    >
-   > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook liggend streepje `_` -, punt `.` - en afbreekstreepje `-` -tekens gebruiken.
+   > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook onderstrepingsteken `_` -, punt `.` - en afbreekstreepjes `-` gebruiken.
 
-1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [ leer meer op het Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md).
+1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [ leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md).
 
-1. Selecteer het **[!UICONTROL Direct mail]** -kanaal.
+1. Selecteer het kanaal **[!UICONTROL Direct mail]** .
 
    ![](assets/direct-mail-config-2.png)
 
@@ -219,7 +223,7 @@ Een direct-mailconfiguratie moet ook het dossier omvatten dat configuratie verpl
 
    >[!CAUTION]
    >
-   >Als u geen dossier het verpletteren optie hebt gevormd, zult u geen direct-mailconfiguratie kunnen creëren. [Meer informatie](#file-routing-configuration)
+   >Als u geen dossier gevormd hebt dat optie verplettert, zult u geen directe-mailconfiguratie kunnen tot stand brengen. [Meer informatie](#file-routing-configuration)
 
    ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
@@ -227,7 +231,7 @@ Een direct-mailconfiguratie moet ook het dossier omvatten dat configuratie verpl
 
 1. Verzend de configuratie voor direct mail.
 
-U kunt [ een direct-mailbericht ](../direct-mail/create-direct-mail.md) binnen een campagne nu tot stand brengen. Zodra de campagne is gestart, wordt het bestand met de doelgroepgegevens automatisch geëxporteerd naar de server die u hebt gedefinieerd. De direct mail provider zal dan dat dossier kunnen terugwinnen en met de directe postlevering te werk gaan.
+U kunt [ een direct-mailbericht ](../direct-mail/create-direct-mail.md) binnen een campagne nu tot stand brengen. Nadat de campagne is gestart, wordt het bestand met de doelgegevens van het publiek automatisch geëxporteerd naar de server die u hebt gedefinieerd. De direct-mailprovider kan dat bestand vervolgens ophalen en doorgaan met de directe-maillevering.
 
 >[!NOTE]
 >

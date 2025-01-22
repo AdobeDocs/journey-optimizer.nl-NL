@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: direct mail, bericht, campagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 2%
+source-wordcount: '706'
+ht-degree: 3%
 
 ---
 
@@ -75,23 +75,17 @@ U kunt nu het extractiebestand configureren en verzenden naar uw directe-mailpro
 >title="Opmaak van extractiebestanden"
 >abstract="Geef voor elk veld een label en de informatie op die u wilt weergeven met de verpersoonlijkingseditor. <br/><br/> De <b> Soort door </b> optie staat u toe om het geselecteerde gebied te gebruiken om de kolommen van het extractiedossier te sorteren."
 
-1. Configureer de kolommen en de informatie die in het extractiebestand moeten worden weergegeven:
-
-   1. Klik op **[!UICONTROL Add]** om een nieuwe kolom te maken.
-
-   1. Het deelvenster **[!UICONTROL Formatting]** wordt aan de rechterkant weergegeven, zodat u de geselecteerde kolom kunt instellen. Geef een **[!UICONTROL Label]** voor de kolom op.
-
-   1. Op het **[!UICONTROL Data]** gebied, selecteer de profielattributen om te tonen gebruikend de [ verpersoonlijkingsredacteur ](../personalization/personalization-build-expressions.md).
-
-   1. Als u het extractiebestand wilt sorteren met een kolom, selecteert u de kolom en schakelt u de optie **[!UICONTROL Sort by]** in. Het pictogram **[!UICONTROL Sort By]** wordt weergegeven naast het label van de kolom in de sectie **[!UICONTROL Data Fields]** .
-
 Het extractiebestand wordt vereist door directe-mailproviders om e-mail naar uw klanten te sturen. Voer de volgende stappen uit om de configuratie van het extractiebestand te definiëren:
 
 1. Klik in het scherm Campagneconfiguratie op de knop **[!UICONTROL Edit content]** om de inhoud van het extractiebestand te configureren.
 
 1. Pas de eigenschappen van het extractiebestand aan:
 
-   1. Geef het gewenste **[!UICONTROL Filename]** voor het extractiebestand op.
+   1. Geef in het veld **[!UICONTROL Filename]** een naam op voor het extractiebestand.
+
+      >[!NOTE]
+      >
+      >Standaard wordt het bestand naar de hoofdmap geschreven. Het veld **[!UICONTROL Filename]** accepteert de notatie &quot;/your/path/here/Filename.csv&quot;, waarbij het opgegeven pad de doelmap op de geselecteerde server is. <!--TBC if for SFTP and Azure only, or for all servers including S3-->
 
    1. Schakel desgewenst de optie **[!UICONTROL Append timestamp to export filename]** in als u een automatische tijdstempel wilt toevoegen aan de opgegeven bestandsnaam.
 
@@ -116,3 +110,4 @@ Het extractiebestand wordt vereist door directe-mailproviders om e-mail naar uw 
       Als u de positie van een kolom wilt wijzigen, sleept u de kolom naar de gewenste locatie in de sectie **[!UICONTROL Data field]** . Als u een kolom wilt verwijderen, selecteert u deze en klikt u op de knop **[!UICONTROL Remove]** in het deelvenster **[!UICONTROL Formatting]** .
 
 U kunt nu uw directe-mailbericht testen en verzenden naar uw publiek. [ Leer hoe te om direct-mailberichten te testen en te verzenden ](test-send-direct-mail.md)
+
