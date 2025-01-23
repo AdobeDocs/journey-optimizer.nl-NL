@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
+source-git-commit: 397bc830f1f4991d19142c6eccf68e929a4ac0ea
 workflow-type: tm+mt
-source-wordcount: '2651'
+source-wordcount: '2720'
 ht-degree: 0%
 
 ---
@@ -84,6 +84,11 @@ Nadat een IP pool is geselecteerd, is de informatie PTR zichtbaar wanneer het ha
 ## Abonnement voor lijst opzeggen{#list-unsubscribe}
 
 <!--Do not modify - Legal Review Done -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_config_unsubscribe_custom"
+>title="Een niet-geabonneerde URL toevoegen aan de e-mailheader"
+>abstract="Als u toestemming buiten Adobe beheert, selecteer de **beheerde Klant** optie om een douane in te gaan unsubscribe e-mailadres en uw eigen één-klik unsubscribe URL. Houd er in dit geval rekening mee dat de Adobe geen afmeldingsgegevens opslaat. De eigenaar van de toestemmingsinformatie van uw klanten is verantwoordelijk voor het beheren van hun toestemmingsgegevens en voor het duwen van het terug naar Journey Optimizer."
 
 Op [ selecterend subdomain ](#subdomains-and-ip-pools) van de lijst, toont de **[!UICONTROL Enable List-Unsubscribe]** optiesvertoningen.
 
