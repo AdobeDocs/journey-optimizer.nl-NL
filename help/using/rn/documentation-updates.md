@@ -8,16 +8,28 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d0419710c12bd7726bc161069b9c2ebff986826a
+source-git-commit: 1365e84642d08d2e196f350530a39eaf93cdcb5f
 workflow-type: tm+mt
-source-wordcount: '5763'
-ht-degree: 13%
+source-wordcount: '5882'
+ht-degree: 12%
 
 ---
 
 # Documentatie-updates {#latest-updates}
 
 Deze pagina bevat een overzicht van alle meest recente updates in de documentatie van [!DNL Journey Optimizer] .
+
+## Januari 2025 {#jan-2025}
+
+* Er is een nieuwe sectie over de optie **[!UICONTROL Execution address]** in de e-mailconfiguratie toegevoegd. Het primaire adres wordt gedefinieerd op sandboxniveau, maar de standaardinstelling kan worden oververborgen voor een specifieke e-mailconfiguratie. [Meer informatie](../email/email-settings.md#execution-address)
+
+* **wordt begonnen met leverability** pagina is bijgewerkt met de mogelijkheid om IP warmteopwerkschema&#39;s van het gebruikersinterface direct tot stand te brengen. [Meer informatie](../reports/deliverability.md#reputation)
+
+* De **sectie van de Parameters van de Kopbal** is bijgewerkt om op de nieuwe etiketten en de veranderingen in het gebruikersinterface te wijzen. [Meer informatie](../email/email-settings.md#email-header)
+
+* De **voorwaartse e-mail** sectie is bijgewerkt om te specificeren dat alle e-mails die naar **van e-mail** adres worden verzonden door:sturen aan het voorwaartse e-mailadres. Als er geen e-mailbericht naar voren is opgegeven, worden deze e-mails verwijderd. [Meer informatie](../email/email-settings.md##forward-email)
+
+<!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
 
 ## December 2024 {#nov-2024}
 
@@ -30,7 +42,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 * **vorm uw code-gebaseerde ervaring** pagina is verbeterd om het proces helderder te maken, met inbegrip van de sectie die verklaart wat een oppervlakte URI is. [Meer informatie](../code-based/code-based-configuration.md)
 * **creeer de configuratie van het Webkanaal** pagina is bijgewerkt om de stappen te verduidelijken wanneer het creëren van een pagina passende regel, die ook op code-gebaseerde ervaringsconfiguratie van toepassing is. [Meer informatie](../web/web-configuration.md#web-page-matching-rule)
 * Er is een notitie toegevoegd over de aanstaande time-to-live (TTL) guardrail voor door het systeem gegenereerde gegevenssets. [Meer informatie](../data/get-started-datasets.md)
-* Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe u direct op uw browser of mobiele apparaten op basis van code aangepaste ervaringen kunt bekijken met de optie Voorvertonen op apparaat wanneer u inhoud op een reis of een campagne simuleert. [Meer informatie](../code-based/test-code-based.md#preview-on-device)
+* Een nieuwe sectie is toegevoegd om te beschrijven hoe te om uw code-gebaseerde gepersonaliseerde ervaringen op uw browser of op uw mobiele apparaten voor te vertonen, gebruikend de **Voorproef op apparaat** optie wanneer het simuleren van inhoud in een reis of een campagne. [Meer informatie](../code-based/test-code-based.md#preview-on-device)
 * Er is een nieuwe pagina toegevoegd over het gebruik van Aangepast uploadpubliek voor besluitvorming. [Meer informatie](../offers/custom-upload-decisioning.md)
 * Er is een nieuwe pagina toegevoegd om de beslissingsmogelijkheden van Journey Optimizer te introduceren. [Meer informatie](../experience-decisioning/gs-decision.md)
 * Er zijn instructies en beperkingen toegevoegd aan de beslissingsdocumentatie. [Meer informatie](../experience-decisioning/gs-experience-decisioning.md#guardrails)
