@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 397bc830f1f4991d19142c6eccf68e929a4ac0ea
+source-git-commit: 8559fce278974dcf18ba038996fd65b9f72400f4
 workflow-type: tm+mt
-source-wordcount: '2720'
+source-wordcount: '2714'
 ht-degree: 0%
 
 ---
@@ -83,12 +83,12 @@ Nadat een IP pool is geselecteerd, is de informatie PTR zichtbaar wanneer het ha
 
 ## Abonnement voor lijst opzeggen{#list-unsubscribe}
 
-<!--Do not modify - Legal Review Done -->
-
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
->title="Een niet-geabonneerde URL toevoegen aan de e-mailheader"
+>title="Aangepaste eindpunten voor lijst opheffen invoeren"
 >abstract="Als u toestemming buiten Adobe beheert, selecteer de **beheerde Klant** optie om een douane in te gaan unsubscribe e-mailadres en uw eigen één-klik unsubscribe URL. Houd er in dit geval rekening mee dat de Adobe geen afmeldingsgegevens opslaat. De eigenaar van de toestemmingsinformatie van uw klanten is verantwoordelijk voor het beheren van hun toestemmingsgegevens en voor het duwen van het terug naar Journey Optimizer."
+
+<!--Do not modify - Legal Review Done -->
 
 Op [ selecterend subdomain ](#subdomains-and-ip-pools) van de lijst, toont de **[!UICONTROL Enable List-Unsubscribe]** optiesvertoningen.
 
@@ -123,13 +123,13 @@ De header List unsubscribe biedt twee functies die standaard zijn ingeschakeld, 
 
 De functies **[!UICONTROL Mailto (unsubscribe)]** en **[!UICONTROL One-click unsubscribe URL]** zijn optioneel.
 
-Als u niet de standaard gegenereerde één-klik wilt gebruiken unsubscribe URL, kunt u de eigenschap uncheck. In het scenario waar de **[!UICONTROL Enable List-Unsubscribe]** optie wordt van een knevel voorzien en de **[!UICONTROL One-click Unsubscribe URL]** eigenschap is ongecontroleerd, als u a [ toe:voegen één-klik opt-out verbinding ](../privacy/opt-out.md#one-click-opt-out) aan een bericht dat gebruikend deze configuratie wordt gecreeerd, neemt de Lijst unsubscribe kopbal de één-klik opt-out verbinding op u in het lichaam van e-mail hebt opgenomen en gebruikt dat als één-klik unsubscribe URL waarde.
+Als u niet de standaard gegenereerde één-klik wilt gebruiken unsubscribe URL, kunt u de eigenschap uncheck. In het scenario waar de **[!UICONTROL Enable List-Unsubscribe]** optie wordt van een knevel voorzien en de **[!UICONTROL One-click Unsubscribe URL]** eigenschap is ongecontroleerd, als u a [ toe:voegen één-klik opt-out verbinding ](../email/email-opt-out.md#one-click-opt-out) aan een bericht dat gebruikend deze configuratie wordt gecreeerd, neemt de Lijst unsubscribe kopbal de één-klik opt-out verbinding op u in het lichaam van e-mail hebt opgenomen en gebruikt dat als één-klik unsubscribe URL waarde.
 
 ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
 >[!NOTE]
 >
->Als u geen één-klik opt-out verbinding in uw berichtinhoud toevoegt en het gebrek één-klik unsubscribe URL wordt niet gecontroleerd in de montages van de kanaalconfiguratie, wordt geen URL overgegaan in de e-mailkopbal als deel van de Lijst unsubscribe kopbal.
+>Als u geen opt-out-koppeling met één klik toevoegt aan de inhoud van het bericht en de standaardinstelling **[!UICONTROL One-click unsubscribe URL]** is uitgeschakeld in de instellingen voor kanaalconfiguratie, wordt er geen URL doorgegeven aan de e-mailkoptekst als onderdeel van de List unsubscribe header.
 
 Leer meer bij het beheren van unsubscribe mogelijkheden in uw berichten in [ deze sectie ](../email/email-opt-out.md#unsubscribe-header).
 
