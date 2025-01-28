@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: d93ef15df4a25e7a6d6fab3df1f9838a0c3d31df
+source-git-commit: c32f1e86eb803a0a4b25111d07989872b33a3bed
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,12 @@ U kunt er ook voor kiezen om alle fragmenten weer te geven, of alleen de items d
 
 Via de knop **[!UICONTROL More actions]** naast elk fragment kunt u:
 
-* Dupliceer een fragment.
+<!--* Add to package
+* Open draft version-->
+* Dupliceer het fragment.
 * Gebruik de optie **[!UICONTROL Explore references]** om de reizen, campagnes of sjablonen te zien waar deze worden gebruikt. [Meer informatie](#explore-references)
-* Archiveer een fragment. [Meer informatie](#archive-fragments)
-* Bewerk de markeringen van een fragment [ leren hoe te met Verenigde markeringen ](../start/search-filter-categorize.md#tags) te werken.
+* Archiveer het fragment. [Meer informatie](#archive-fragments)
+* Bewerk de tags van het fragment. [ Leer hoe te met Verenigde markeringen ](../start/search-filter-categorize.md#tags) te werken
 
 ![](assets/fragment-list-more-actions.png)
 
@@ -47,7 +49,7 @@ Via de knop **[!UICONTROL More actions]** naast elk fragment kunt u:
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="Nieuwe fragmentstatussen"
->abstract="Aangezien **Ontwerp** en **Levende** statussen met de versie van Journey Optimizer Juni zijn geïntroduceerd, hebben alle fragmenten die vóór deze versie worden gecreeerd de status &quot;van het Ontwerp&quot;, zelfs als zij in een reis of een campagne worden gebruikt. Als u wijzigingen aanbrengt in deze fragmenten, moet u deze publiceren om ze &quot;live&quot; te maken en de wijzigingen aan de bijbehorende campagnes en reizen door te geven. U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren. <br/> het Publiceren vereist de <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage"> 2} gebruikerstoestemming van het Fragment van Publish {.</a>"
+>abstract="Aangezien **Ontwerp** en **Levende** statussen met de versie van Journey Optimizer Juni zijn geïntroduceerd, hebben alle fragmenten die vóór deze versie worden gecreeerd de **Ontwerp** status, zelfs als zij in een reis of een campagne worden gebruikt. Als u om het even welke verandering in deze fragmenten aanbrengt, moet u hen publiceren om hen **Levend** te maken en de veranderingen in de bijbehorende campagnes en de reizen te verspreiden. U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren. <br/> het Publiceren vereist de <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage"> 2} gebruikerstoestemming van het Fragment van Publish {.</a>"
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="Meer informatie over machtigingen voor inhoudsfragmenten"
 
 Fragmenten kunnen meerdere statussen hebben:
@@ -63,7 +65,7 @@ Fragmenten kunnen meerdere statussen hebben:
 
 >[!CAUTION]
 >
->Aangezien **Ontwerp** en **Levende** statussen met de versie van Journey Optimizer Juni zijn geïntroduceerd, hebben alle fragmenten die vóór deze versie worden gecreeerd de status &quot;van het Ontwerp&quot;, zelfs als zij in een reis of een campagne worden gebruikt. Als u wijzigingen aanbrengt in deze fragmenten, moet u deze publiceren om ze &quot;live&quot; te maken en de wijzigingen aan de bijbehorende campagnes en reizen door te geven. U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren. Het publiceren vereist de ](../administration/ootb-product-profiles.md#content-library-manager) gebruikerstoestemming van het Fragment van 0} Publish.[
+>Aangezien **Ontwerp** en **Levende** statussen met de versie van Journey Optimizer Juni zijn geïntroduceerd, hebben alle fragmenten die vóór deze versie worden gecreeerd de **Ontwerp** status, zelfs als zij in een reis of een campagne worden gebruikt. Als u om het even welke verandering in deze fragmenten aanbrengt, moet u hen publiceren om hen **Levend** te maken en de veranderingen in de bijbehorende campagnes en de reizen te verspreiden. U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren. Het publiceren vereist de ](../administration/ootb-product-profiles.md#content-library-manager) gebruikerstoestemming van het Fragment van 0} Publish.[
 
 ## Fragmenten bewerken {#edit-fragments}
 
@@ -83,21 +85,47 @@ Voer de onderstaande stappen uit om een fragment te bewerken.
 
 1. De fragmenteigenschappen worden geopend met een voorvertoning van de inhoud ervan.
 
-1. Als het fragment dat wordt uitgegeven de **Levende** status heeft, klik **wijzigt** knoop om een ontwerp versie van het fragment tot stand te brengen. De huidige versie van het fragment blijft actief totdat u de conceptversie publiceert.
-
-1. Breng de gewenste wijzigingen aan in het fragment. Om zijn inhoud uit te geven, klik **uitgeven** knoop dan uw inhoud zoals u wanneer het creëren van een fragment van kras zou doen. [ Leer hoe te om een fragment ](#create-from-scratch) tot stand te brengen
+1. Als het fragment dat wordt bewerkt de status **[!UICONTROL Live]** heeft, klikt u op de knop **[!UICONTROL Modify]** om een conceptversie van het fragment te maken.
 
    >[!NOTE]
    >
-   >Wanneer u een fragment bewerkt, kunt u elk willekeurig aanpassingsveld verwijderen, maar u kunt geen nieuwe velden toevoegen aan de fragmentinhoud. Als u aanpassingsvelden wilt toevoegen, dupliceert u het fragment om een nieuw fragment te maken.
+   >De huidige versie van het fragment blijft actief totdat u de conceptversie publiceert.
 
-   U kunt de lijst van de reizen, campagnes en inhoudsmalplaatjes ook controleren waar het fragment momenteel door de **verwijzingen van de Ontdekkingsreiziger** optie te selecteren wordt gebruikt. [Meer informatie](#explore-references)
+1. Breng de gewenste wijzigingen aan in het fragment. Als u de inhoud wilt bewerken, klikt u op de knop **[!UICONTROL Edit]** en werkt u de inhoud bij zoals u zou doen bij het maken van een geheel nieuw fragment. [ Leer hoe te om een fragment ](#create-from-scratch) tot stand te brengen
+
+   >[!NOTE]
+   >
+   >Wanneer u een gepubliceerd fragment bewerkt, kunt u elk willekeurig aanpassingsveld verwijderen, maar u kunt geen nieuwe velden toevoegen aan de fragmentinhoud. Als u gepersonaliseerde attributen wilt toevoegen, moet u het fragment dupliceren. [Meer informatie](#adding-new-attributes)
+
+1. U kunt de lijst van de reizen, campagnes en inhoudsmalplaatjes ook controleren waar het fragment momenteel door de **verwijzingen van de Ontdekkingsreiziger** optie te selecteren wordt gebruikt. [Meer informatie](#explore-references)
 
    ![](assets/fragment-edit.png)
 
 1. Zodra uw veranderingen klaar zijn, klik de **knoop van Publish** om uw veranderingen levend te maken.
 
-Wanneer u een fragment bewerkt, worden de wijzigingen automatisch doorgegeven aan alle inhoud met dat fragment, inclusief live reizen en campagnes, behalve voor inhoud waarin u de overerving van het oorspronkelijke fragment hebt verbroken. Leer hoe te om overerving in [ te breken voeg visuele fragmenten aan uw e-mails ](../email/use-visual-fragments.md#break-inheritance) en [ de uitdrukkingsfragmenten van de Leverage ](../personalization/use-expression-fragments.md#break-inheritance) secties toe.
+Wanneer u een fragment bewerkt, worden de wijzigingen automatisch doorgegeven aan alle inhoud met dat fragment, inclusief live reizen en campagnes, behalve inhoud waar u de overerving van het oorspronkelijke fragment hebt verbroken.
+
+>[!NOTE]
+>
+>Leer hoe te om overerving in [ te breken voeg visuele fragmenten aan uw e-mails ](../email/use-visual-fragments.md#break-inheritance) en [ de uitdrukkingsfragmenten van de Leverage ](../personalization/use-expression-fragments.md#break-inheritance) secties toe.
+
+## Nieuwe kenmerken toevoegen aan een actief fragment {#adding-new-attributes}
+
+>[!WARNING]
+>
+>Het toevoegen van nieuwe kenmerken aan een actief fragment wordt niet ondersteund.
+
+Nadat een fragment is gepubliceerd, wordt de set met gepersonaliseerde of contextafhankelijke kenmerken vergrendeld voor alle campagnes en reizen die ernaar verwijzen.
+
+Voer de onderstaande stappen uit als u aanvullende kenmerken wilt opnemen in een actief fragment.
+
+1. Dupliceer het bestaande fragment.
+
+1. Voeg de vereiste kenmerken toe aan de gedupliceerde conceptversie.
+
+1. Publish de nieuwe versie.
+
+1. Werk campagnes of reizen bij om te verwijzen naar het bijgewerkte fragment waar de nieuwe kenmerken zijn toegevoegd.
 
 ## Verwijzingen verkennen {#explore-references}
 

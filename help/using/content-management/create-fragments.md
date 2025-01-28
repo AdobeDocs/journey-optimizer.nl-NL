@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: c32f1e86eb803a0a4b25111d07989872b33a3bed
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 U kunt geheel nieuwe fragmenten maken in het menu links van **[!UICONTROL Fragments]** . Bovendien kunt u een gedeelte van bestaande inhoud als fragment opslaan wanneer u inhoud ontwerpt. [ leer hoe ](#save-as-fragment)
 
-Als het fragment eenmaal is opgeslagen, kan het worden gebruikt in een reis, een campagne of een sjabloon. U kunt dit fragment gebruiken bij het maken van inhoud binnen reizen en campagnes. Zie [ visuele fragmenten ](../email/use-visual-fragments.md) en [ de uitdrukkingsfragmenten van de Leverage ](../personalization/use-expression-fragments.md) toevoegen
+Als het fragment eenmaal is opgeslagen, kan het worden gebruikt in een reis, een campagne of een sjabloon. U kunt dit fragment gebruiken bij het maken van inhoud binnen reizen en campagnes. Zie [ visuele fragmenten ](../email/use-visual-fragments.md) en [ de uitdrukkingsfragmenten van de Leverage ](../personalization/use-expression-fragments.md) toevoegen.
 
 Voer de onderstaande stappen uit om een fragment te maken.
 
@@ -49,7 +49,7 @@ Voer de onderstaande stappen uit om een fragment te maken.
 
    >[!NOTE]
    >
-   >Voor nu, zijn de visuele fragmenten beschikbaar voor het **E-mail** slechts kanaal.
+   >Momenteel, zijn de visuele fragmenten beschikbaar voor het **E-mail** slechts kanaal.
 
 1. Als u een expressiefragment maakt, selecteert u het type code dat u wilt gebruiken: **[!UICONTROL HTML]**, **[!UICONTROL JSON]** of **[!UICONTROL Text]** .
 
@@ -71,7 +71,7 @@ Nadat u de eigenschappen van het fragment hebt geconfigureerd, wordt de e-mail-D
 
   ![](assets/fragment-expression-editor.png)
 
-Wanneer uw inhoud klaar is, klik **sparen** knoop. Het fragment wordt gecreeerd en aan de fragmentlijst met de **status van het Ontwerp** toegevoegd. U kunt een voorvertoning weergeven en deze publiceren om deze beschikbaar te maken tijdens reizen en campagnes.
+Klik op de knop **[!UICONTROL Save]** wanneer de inhoud gereed is. Het fragment wordt gemaakt en aan de fragmentlijst toegevoegd met de status **[!UICONTROL Draft]** . U kunt een voorvertoning weergeven en deze publiceren om deze beschikbaar te maken tijdens reizen en campagnes.
 
 ## Het fragment voorvertonen en publiceren {#publish}
 
@@ -79,23 +79,23 @@ Wanneer uw inhoud klaar is, klik **sparen** knoop. Het fragment wordt gecreeerd 
 >
 >Om een fragment te publiceren, moet u de ](../administration/ootb-product-profiles.md#content-library-manager) gebruikerstoestemming van het Fragment van 0} Publish hebben.[
 
-Als uw fragment klaar is om live te gaan, kunt u het voorbeeld bekijken en publiceren en het beschikbaar maken tijdens uw reizen en campagnes. Voer hiertoe de volgende stappen uit:
+Als uw fragment klaar is om live te gaan, kunt u het voorbeeld bekijken en publiceren en het beschikbaar maken tijdens uw reizen en campagnes. Volg de onderstaande stappen om dit te doen.
 
 1. Ga terug naar het scherm voor het maken van fragmenten nadat u de inhoud hebt ontworpen, of open het vanuit de lijst met fragmenten.
 
-1. Een voorproef van het fragment is beschikbaar onder het **gebied van Markeringen**, toestaand om zijn het teruggeven te controleren. Als u om het even welke verandering moet aanbrengen, klik **uitgeven** knoop in de hogere sectie van het scherm om E-mail Designer of de verpersoonlijkingsredacteur afhankelijk van het fragmenttype te openen.
+1. Er is een voorvertoning van het fragment beschikbaar onder het veld **[!UICONTROL Tags]** , zodat de rendering ervan kan worden gecontroleerd. Als u wijzigingen wilt aanbrengen, klikt u op de knop **[!UICONTROL Edit]** in de bovenste sectie van het scherm om de Designer-e-mail of de personalisatie-editor te openen, afhankelijk van het fragmenttype.
 
    ![](assets/fragment-preview.png)
 
-1. Klik de **knoop van Publish** in de hoger-juiste hoek om het fragment te publiceren.
+1. Klik op de knop **[!UICONTROL Publish]** in de rechterbovenhoek om het fragment te publiceren.
 
-   Als het fragment tijdens een live reis of campagne wordt gebruikt, verschijnt er een bericht om u hiervan op de hoogte te stellen. Klik **zie meer** verbinding om tot de lijst van reizen en/of campagnes toegang te hebben waar het van verwijzingen wordt voorzien. [ leer hoe te om verwijzingen van een fragment ](../content-management/manage-fragments.md#explore-references) te onderzoeken
-
-   Klik **bevestigen** om het fragment te publiceren en het in de levende reizen/campagnes bij te werken die het gebruiken.
+1. Als het fragment tijdens een live reis of campagne wordt gebruikt, wordt een bericht geopend om u op de hoogte te brengen. Klik op de koppeling **[!UICONTROL See more]** om de lijst met reizen en/of campagnes te openen waarnaar wordt verwezen. [ leer hoe te om verwijzingen van een fragment ](../content-management/manage-fragments.md#explore-references) te onderzoeken
 
    ![](assets/fragment-publish.png){width="70%" align="center"}
 
-Het fragment is nu Levend ****, en wordt beschikbaar wanneer het bouwen van om het even welke inhoud binnen de [!DNL Journey Optimizer] E-mail Designer of verpersoonlijkingsredacteur:
+   Klik op **[!UICONTROL Confirm]** om het fragment te publiceren en bij te werken in de live ritten/campagnes die het gebruiken.
+
+Het fragment is nu **[!UICONTROL Live]** en wordt beschikbaar wanneer u inhoud maakt in de [!DNL Journey Optimizer] E-mail-Designer of personalisatie-editor.
 
 * [Leer hoe u visuele fragmenten kunt gebruiken](../email/use-visual-fragments.md)
 * [Leer hoe u expressiefragmenten kunt gebruiken](../personalization/use-expression-fragments.md)
