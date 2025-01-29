@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: c32f1e86eb803a0a4b25111d07989872b33a3bed
+source-git-commit: abbc5c77545f30ac2d70d718f605acd30f7e7830
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1044'
 ht-degree: 0%
 
 ---
@@ -81,27 +81,31 @@ Fragmenten kunnen meerdere statussen hebben:
 
 Voer de onderstaande stappen uit om een fragment te bewerken.
 
-1. Klik op het gewenste fragment in de lijst **[!UICONTROL Fragments]** .
+1. Klik op het gewenste fragment in de lijst **[!UICONTROL Fragments]** . Het scherm met fragmenteigenschappen wordt geopend met een voorvertoning van de inhoud ervan.
 
-1. De fragmenteigenschappen worden geopend met een voorvertoning van de inhoud ervan.
+1. U kunt de lijst met reizen, campagnes en inhoudssjablonen controleren waar het fragment momenteel wordt gebruikt door de optie **[!UICONTROL Explore references]** te selecteren. [Meer informatie](#explore-references)
+
+   ![](assets/fragment-edit-references.png)
 
 1. Als het fragment dat wordt bewerkt de status **[!UICONTROL Live]** heeft, klikt u op de knop **[!UICONTROL Modify]** om een conceptversie van het fragment te maken.
 
+   <!--![](assets/fragment-live-modify.png)-->
+
    >[!NOTE]
    >
-   >De huidige versie van het fragment blijft actief totdat u de conceptversie publiceert.
+   >De huidige versie van het fragment blijft actief totdat u de nieuwe bijgewerkte versie publiceert.
 
-1. Breng de gewenste wijzigingen aan in het fragment. Als u de inhoud wilt bewerken, klikt u op de knop **[!UICONTROL Edit]** en werkt u de inhoud bij zoals u zou doen bij het maken van een geheel nieuw fragment. [ Leer hoe te om een fragment ](#create-from-scratch) tot stand te brengen
+1. Breng de gewenste wijzigingen aan in het fragment.
+
+1. Als u de inhoud wilt wijzigen, klikt u op de knop **[!UICONTROL Edit]** en werkt u de inhoud bij zoals u zou doen bij het maken van een geheel nieuw fragment. [ Leer hoe te om een fragment ](#create-from-scratch) tot stand te brengen
+
+   ![](assets/fragment-edit.png)
 
    >[!NOTE]
    >
    >Wanneer u een gepubliceerd fragment bewerkt, kunt u elk willekeurig aanpassingsveld verwijderen, maar u kunt geen nieuwe velden toevoegen aan de fragmentinhoud. Als u gepersonaliseerde attributen wilt toevoegen, moet u het fragment dupliceren. [Meer informatie](#adding-new-attributes)
 
-1. U kunt de lijst van de reizen, campagnes en inhoudsmalplaatjes ook controleren waar het fragment momenteel door de **verwijzingen van de Ontdekkingsreiziger** optie te selecteren wordt gebruikt. [Meer informatie](#explore-references)
-
-   ![](assets/fragment-edit.png)
-
-1. Zodra uw veranderingen klaar zijn, klik de **knoop van Publish** om uw veranderingen levend te maken.
+1. Zodra uw veranderingen klaar zijn, sparen hen en klik de **knoop van Publish** om uw veranderingen levend te maken.
 
 Wanneer u een fragment bewerkt, worden de wijzigingen automatisch doorgegeven aan alle inhoud met dat fragment, inclusief live reizen en campagnes, behalve inhoud waar u de overerving van het oorspronkelijke fragment hebt verbroken.
 
@@ -113,17 +117,19 @@ Wanneer u een fragment bewerkt, worden de wijzigingen automatisch doorgegeven aa
 
 >[!WARNING]
 >
->Het toevoegen van nieuwe kenmerken aan een actief fragment wordt niet ondersteund.
+>Het toevoegen van nieuwe [ gepersonaliseerde attributen ](../personalization/personalization-build-expressions.md) aan een levend fragment wordt niet gesteund.
 
 Nadat een fragment is gepubliceerd, wordt de set met gepersonaliseerde of contextafhankelijke kenmerken vergrendeld voor alle campagnes en reizen die ernaar verwijzen.
 
 Voer de onderstaande stappen uit als u aanvullende kenmerken wilt opnemen in een actief fragment.
 
-1. Dupliceer het bestaande fragment.
+1. Dupliceer het bestaande fragment met de knop **[!UICONTROL More actions]** .
 
-1. Voeg de vereiste kenmerken toe aan de gedupliceerde conceptversie.
+   ![](assets/fragment-list-more-actions.png)
 
-1. Publish de nieuwe versie.
+1. [ voeg de nieuwe gewenste attributen ](../personalization/personalization-build-expressions.md#add) aan de gedupliceerde ontwerp versie toe.
+
+1. Publish de nieuwe versie. [ leer hoe ](create-fragments.md#publish)
 
 1. Werk campagnes of reizen bij om te verwijzen naar het bijgewerkte fragment waar de nieuwe kenmerken zijn toegevoegd.
 
