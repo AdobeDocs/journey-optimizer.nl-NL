@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 129863516a4b027906d1ed809148053ffd1df22e
+source-git-commit: f415209a7a62c8b7936abdb474b1b5b70c788973
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1012'
 ht-degree: 1%
 
 ---
@@ -20,8 +20,6 @@ Met het Beheer van het Besluit, kunt u de gepersonaliseerde aanbiedingservaringe
 U kunt aanbiedingen maken en leveren door een aanvraag voor een POST in te dienen bij de [!DNL Decisioning] API.
 
 Deze zelfstudie vereist een goed begrip van API&#39;s, met name wat betreft het beheer van besluiten. Voor meer informatie, zie de [ gids van de ontwikkelaar van het Beheer API van het Besluit ](../getting-started.md). Deze zelfstudie vereist ook dat u een unieke plaatsings-id en een unieke keuze-id-waarde hebt. Als u deze waarden niet hebt verworven, zie de leerprogramma&#39;s voor [ creërend een plaatsing ](../offers-api/placements/create.md) en [ creërend een besluit ](../activities-api/activities/create.md).
-
-➡️ [ ontdekt deze eigenschap in video ](#video)
 
 ## Vereiste koppen {#required-headers}
 
