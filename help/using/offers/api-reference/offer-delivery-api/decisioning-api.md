@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 8c7fca7789931fbae6ac5d4821bc051ff9eb0923
+source-git-commit: 129863516a4b027906d1ed809148053ffd1df22e
 workflow-type: tm+mt
 source-wordcount: '1018'
 ht-degree: 1%
@@ -65,8 +65,8 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 -d '{
     "xdm:propositionRequests": [
         {
-            "xdm:activityId": "xcore:offer-activity:15ded04b1786ea27",
-            "xdm:placementId": "xcore:offer-placement:15d9bc01d35e1238"
+            "xdm:activityId": "dps:offer-activity:15ded04b1786ea27",
+            "xdm:placementId": "dps:offer-placement:15d9bc01d35e1238"
         }
     ],
     "xdm:profiles": [
@@ -105,8 +105,8 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | Eigenschap | Beschrijving | Voorbeeld |
 | -------- | ----------- | ------- |
 | `xdm:propositionRequests` | Dit object bevat de plaatsings- en beslissingsidentificatoren. |
-| `xdm:propositionRequests.xdm:placementId` | De unieke plaatsings-id. | `"xdm:placementId": "xcore:offer-placement:ffed0456"` |
-| `xdm:propositionRequests.xdm:activityId` | De unieke besluit-id. | `"xdm:activityId": "xcore:offer-activity:ffed0123"` |
+| `xdm:propositionRequests.xdm:placementId` | De unieke plaatsings-id. | `"xdm:placementId": "dps:offer-placement:ffed0456"` |
+| `xdm:propositionRequests.xdm:activityId` | De unieke besluit-id. | `"xdm:activityId": "dps:offer-activity:ffed0123"` |
 | `xdm:itemCount` | Het aantal voorstellen dat moet worden geretourneerd. Het maximumaantal is 30. | `"xdm:itemCount": 2` |
 | `xdm:profiles` | Dit object bevat informatie over het profiel waarvoor de beslissing wordt gevraagd. Voor een API-aanvraag bevat dit één profiel. |
 | `xdm:profiles.xdm:identityMap` | Dit object bevat een set eindgebruikers-id&#39;s op basis van de naamruimte-integratiecode van de identiteit. De identiteitskaart kan meer dan één identiteit van elke namespace dragen. Voor meer informatie over namespaces, zie [ deze pagina ](../../../audience/get-started-identity.md). | `Email: [{"xdm:id": "123@abc.com"}]` |
@@ -132,22 +132,22 @@ Een geslaagde reactie retourneert informatie over uw voorstel, inclusief de unie
   "xdm:propositions": [
     {
       "xdm:activity": {
-        "xdm:id": "xcore:activity:ffed0123",
+        "xdm:id": "dps:activity:ffed0123",
         "repo:etag": 4
       },
       "xdm:placement": {
-        "xdm:id": "xcore:placement:ffed0456",
+        "xdm:id": "dps:placement:ffed0456",
         "repo:etag": 1
       },
       "xdm:options": [
         {
-          "xdm:id": "xcore:personalized-option:ccc0111",
+          "xdm:id": "dps:personalized-option:ccc0111",
           "repo:etag": 3,
           "@type": "https://ns.adobe.com/experience/decisioning/content-component-html-template",
           "xdm:content": "<html>some html</html>"
         },
         {
-          "xdm:id": "xcore:personalized-option:ccc0222",
+          "xdm:id": "dps:personalized-option:ccc0222",
           "repo:etag": 5,
           "@type": "https://ns.adobe.com/experience/decisioning/content-component-html-template",
           "xdm:content": "<html>hello, world</html>",
@@ -157,15 +157,15 @@ Een geslaagde reactie retourneert informatie over uw voorstel, inclusief de unie
     },
     {
       "xdm:activity": {
-        "xdm:id": "xcore:activity:ffed0123",
+        "xdm:id": "dps:activity:ffed0123",
         "repo:etag": 4
       },
       "xdm:placement": {
-        "xdm:id": "xcore:placement:ffed0789",
+        "xdm:id": "dps:placement:ffed0789",
         "repo:etag": 2
       },
       "xdm:fallback": {
-        "xdm:id": "xcore:fallback:ccc0222",
+        "xdm:id": "dps:fallback:ccc0222",
         "repo:etag": 5,
         "@type": "https://ns.adobe.com/experience/decisioning/content-component-imagelink",
         "dc:format": "image/png",
@@ -182,13 +182,13 @@ Een geslaagde reactie retourneert informatie over uw voorstel, inclusief de unie
 | -------- | ----------- | ------- |
 | `xdm:propositionId` | De unieke id voor de proposition-entiteit die is gekoppeld aan een XDM DecisionEvent. | `"xdm:propositionId": "5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8"` |
 | `xdm:propositions` | Dit object bevat één beslissingsvoorstel. Er kunnen meerdere opties worden geretourneerd voor de beslissing. Als er geen opties worden gevonden, wordt het fallback-aanbod van het besluit geretourneerd. Voorstellen voor een enkele beslissing bevatten altijd een eigenschap `options` of een eigenschap `fallback` . Indien aanwezig mag de eigenschap `options` niet leeg zijn. |
-| `xdm:propositions.xdm:activity` | Dit object bevat de unieke id voor een beslissing. | `"xdm:id": "xcore:activity:ffed0123"` |
-| `xdm:propositions.xdm:placement` | Dit object bevat de unieke id voor een aanbiedingsplaatsing. | `"xdm:id": "xcore:placement:ffed0456"` |
-| `xdm:propositions.xdm:options` | Dit object bevat één optie, inclusief de unieke id. Indien aanwezig mag dit object niet leeg zijn. | `xdm:id": "xcore:personalized-option:ccc0111` |
+| `xdm:propositions.xdm:activity` | Dit object bevat de unieke id voor een beslissing. | `"xdm:id": "dps:activity:ffed0123"` |
+| `xdm:propositions.xdm:placement` | Dit object bevat de unieke id voor een aanbiedingsplaatsing. | `"xdm:id": "dps:placement:ffed0456"` |
+| `xdm:propositions.xdm:options` | Dit object bevat één optie, inclusief de unieke id. Indien aanwezig mag dit object niet leeg zijn. | `xdm:id": "dps:personalized-option:ccc0111` |
 | `xdm:propositions.xdm:options.@type` | Definieert het type van de component. `@type` fungeert als het verwerkingscontract voor de client. Wanneer de ervaring wordt verzameld, zoekt de componist naar de component(en) die een specifiek type hebben. | `https://ns.adobe.com/experience/offer-management/content-component-imagelink` |
 | `xdm:propositions.xdm:content` | De indeling van de inhoud van het antwoord. | De inhoud van de reactie kan zijn: `text`, `html block` of `image link` |
 | `xdm:score` | De score voor een optie die wordt berekend als resultaat van een classificatiefunctie die aan de optie of de beslissing is gekoppeld. Dit veld wordt door de API geretourneerd als een ranking-functie is betrokken bij het bepalen van de score van een aanbieding tijdens de classificatie. | `"xdm:score": 45.65` |
-| `xdm:propositions.xdm:fallback` | Dit object bevat één fallback-aanbieding, inclusief de unieke id. | `"xdm:id": "xcore:fallback:ccc0222"` |
+| `xdm:propositions.xdm:fallback` | Dit object bevat één fallback-aanbieding, inclusief de unieke id. | `"xdm:id": "dps:fallback:ccc0222"` |
 | `xdm:propositions.xdm:fallback.dc:format` | De fysieke of digitale manifestatie van de bron. De indeling moet meestal het mediatype van de bron bevatten. Het formaat kan worden gebruikt om te bepalen welke software, hardware of andere apparatuur nodig is om de bron weer te geven of te gebruiken. Het wordt geadviseerd om een waarde van een gecontroleerde woordenlijst, bijvoorbeeld, de lijst van [ de Types van Media van Internet ](https://www.iana.org/assignments/media-types/) te selecteren die de formaten van computermedia bepalen. | `"dc:format": "image/png"` of `"image/jpeg"` |
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | Een optionele URL voor het lezen van het element van een netwerk of servicedetinepunt voor de levering van inhoud. Deze URL wordt gebruikt om het middel openlijk van een gebruikersagent toegang te hebben. | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | De tijd toen het bericht van het beslissingsantwoord werd gecreeerd. Dit wordt weergegeven als tijdperk. | `"ode:createDate": 1566497582038` |
