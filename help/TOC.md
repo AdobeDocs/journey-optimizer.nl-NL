@@ -5,7 +5,7 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: abdfa7fa107e8be5d395c634057c38a512a4a03d
+source-git-commit: a54f298b5d2a053c8e50874477a72ff656a37abc
 workflow-type: tm+mt
 source-wordcount: '2154'
 ht-degree: 25%
@@ -304,7 +304,6 @@ ht-degree: 25%
       + [Subdomeinen van bestemmingspagina configureren](using/landing-pages/lp-subdomains.md)
       + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
 + Inhoudsbeheer {#content-management}
-   + [Adobe Experience Manager-inhoudsfragmenten](using/content-management/aem-fragments.md)
    + Werken met de AI-assistent {#ai-assistant}
       + [Aan de slag met de AI Assistant Content Accelerator](using/content-management/gs-generative.md)
       + [E-mailgeneratie met AI](using/content-management/generative-email.md)
@@ -371,6 +370,7 @@ ht-degree: 25%
       + [Aan de slag met dynamische inhoud](using/personalization/get-started-dynamic-content.md)
       + [Voorwaardelijke regels maken](using/personalization/create-conditions.md)
       + [Dynamische inhoud maken](using/personalization/dynamic-content.md)
+   + [Adobe Experience Manager-inhoudsfragmenten](using/content-management/aem-fragments.md)
 + Soorten publiek, profielen en identiteit {#audiences-profiles-identities}
    + Soorten publiek {#audiences}
       + [Aan de slag met het publiek](using/audience/about-audiences.md)
