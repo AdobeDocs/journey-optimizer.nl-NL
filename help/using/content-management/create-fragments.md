@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: c30b7f4d75222db0553fbf576b90791af58cda57
+source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 0%
+source-wordcount: '617'
+ht-degree: 1%
 
 ---
 
@@ -83,7 +83,7 @@ Als uw fragment klaar is om live te gaan, kunt u het voorbeeld bekijken en publi
 
 1. Ga terug naar het scherm voor het maken van fragmenten nadat u de inhoud hebt ontworpen, of open het vanuit de lijst met fragmenten.
 
-1. Er is een voorvertoning van het fragment beschikbaar onder het veld **[!UICONTROL Tags]** , zodat de rendering ervan kan worden gecontroleerd. Als u wijzigingen wilt aanbrengen, klikt u op de knop **[!UICONTROL Edit]** in de bovenste sectie van het scherm om de Designer-e-mail of de personalisatie-editor te openen, afhankelijk van het fragmenttype.
+1. Er is een voorvertoning van het fragment beschikbaar onder het veld **[!UICONTROL Tags]** , zodat de rendering ervan kan worden gecontroleerd. Als u wijzigingen wilt aanbrengen, klikt u op de knop **[!UICONTROL Edit]** in de bovenste sectie van het scherm om de E-mail Designer of de personalisatie-editor te openen, afhankelijk van het fragmenttype. [Meer informatie](manage-fragments.md#edit-fragments)
 
    ![](assets/fragment-preview.png)
 

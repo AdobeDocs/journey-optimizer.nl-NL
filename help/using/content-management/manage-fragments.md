@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: fd9cea04711dcf57afb0d44ade7a1643e4649b46
+source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1114'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ U kunt er ook voor kiezen om alle fragmenten weer te geven, of alleen de items d
 Via de knop **[!UICONTROL More actions]** naast elk fragment kunt u:
 
 * Voeg het toe aan een pakket voor export. [Meer informatie](#export)
-* Als het fragment live is, opent u een conceptversie om het te bewerken. [Meer informatie](#edit-fragments)
+* Als een actief fragment wordt bewerkt, opent u de conceptversie van dit fragment. [Meer informatie](#edit-fragments)
 * Dupliceer het fragment.
 * Gebruik de optie **[!UICONTROL Explore references]** om de reizen, campagnes of sjablonen te zien waar deze worden gebruikt. [Meer informatie](#explore-references)
 * Archiveer het fragment. [Meer informatie](#archive-fragments)
