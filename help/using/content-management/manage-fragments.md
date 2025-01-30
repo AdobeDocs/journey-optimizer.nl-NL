@@ -8,14 +8,16 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 69aa2eb79ac5a86c8cc5e27951d3b4edd2a5d8bf
+source-git-commit: fd9cea04711dcf57afb0d44ade7a1643e4649b46
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1112'
 ht-degree: 1%
 
 ---
 
 # Fragmenten beheren {#manage-fragments}
+
+## Toegang tot fragmenten {#access-fragments}
 
 Als u uw fragmenten wilt beheren, opent u de fragmentlijst via **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** links menu.
 
@@ -111,7 +113,7 @@ Wanneer u een fragment bewerkt, worden de wijzigingen automatisch doorgegeven aa
 >
 >Leer hoe te om overerving in [ te breken voeg visuele fragmenten aan uw e-mails ](../email/use-visual-fragments.md#break-inheritance) en [ de uitdrukkingsfragmenten van de Leverage ](../personalization/use-expression-fragments.md#break-inheritance) secties toe.
 
-## Nieuwe kenmerken toevoegen aan een actief fragment {#adding-new-attributes}
+### Nieuwe kenmerken toevoegen aan een actief fragment {#adding-new-attributes}
 
 >[!WARNING]
 >
