@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+source-git-commit: ab4ee37d09ba8f91d886d54d5fbbe1b631690dda
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '691'
 ht-degree: 2%
 
 ---
@@ -95,7 +95,8 @@ Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [ deze 
 >id="ajo_code_based_experience"
 >title="De personalisatie-editor gebruiken"
 >abstract="Voeg de code die u wilt leveren in en bewerk deze als onderdeel van deze op code gebaseerde ervaringsactie."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="Aan de slag met de personalisatie-editor"
+
+&lt;!—>additional-url=&quot;https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html&quot; text=&quot;Aan de slag met de personalisatie-editor&quot;—>
 
 1. Selecteer **[!UICONTROL Edit code]** in het scherm van de reisactiviteit of de campagneeditie.
 
@@ -123,7 +124,7 @@ Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [ deze 
 
 1. Klik op **[!UICONTROL Save and close]** om uw wijzigingen te bevestigen.
 
-Zodra uw ontwikkelaar een API- of SDK-aanroep uitvoert om inhoud op te halen voor het oppervlak dat is gedefinieerd in uw kanaalconfiguratie, worden de wijzigingen toegepast op uw webpagina of app.
+Zodra uw ontwikkelaar een API- of SDK-aanroep maakt om inhoud op te halen voor het oppervlak dat is gedefinieerd in uw kanaalconfiguratie, worden de wijzigingen toegepast op uw webpagina of app.
 
 ## Hoe kan ik-video{#video}
 

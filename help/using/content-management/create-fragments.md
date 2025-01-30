@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: c32f1e86eb803a0a4b25111d07989872b33a3bed
+source-git-commit: ab4ee37d09ba8f91d886d54d5fbbe1b631690dda
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,15 @@ ht-degree: 0%
 >id="ajo_create_visual_fragment"
 >title="Selecteer het visuele type"
 >abstract="Maak een zelfstandig visueel fragment om uw inhoud te hergebruiken in een e-mail binnen een reis, een campagne of een inhoudssjabloon."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments" text="Visuele fragmenten toevoegen aan uw e-mails"
+
+&lt;!—>additional-url=&quot;https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments&quot; text=&quot;Add visual fragments to your emails&quot;—>
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
 >title="Expressietype selecteren"
 >abstract="Maak een zelfstandig expressiefragment om uw inhoud te hergebruiken voor meerdere reizen en campagnes. Wanneer u de verpersoonlijkingseditor gebruikt, kunt u alle uitdrukkingsfragmenten benutten die in de huidige sandbox zijn gemaakt."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments" text="Expressiefragmenten benutten"
+
+&lt;!—>additional-url=&quot;https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments&quot; text=&quot;Leverage expression fragments&quot;—>
 
 U kunt geheel nieuwe fragmenten maken in het menu links van **[!UICONTROL Fragments]** . Bovendien kunt u een gedeelte van bestaande inhoud als fragment opslaan wanneer u inhoud ontwerpt. [ leer hoe ](#save-as-fragment)
 
