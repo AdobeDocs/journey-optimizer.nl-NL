@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: ab4ee37d09ba8f91d886d54d5fbbe1b631690dda
+source-git-commit: 5951428b9317af9c1e40fac64f0d18c6c80c15b0
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '682'
 ht-degree: 2%
 
 ---
@@ -96,7 +96,7 @@ Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [ deze 
 >title="De personalisatie-editor gebruiken"
 >abstract="Voeg de code die u wilt leveren in en bewerk deze als onderdeel van deze op code gebaseerde ervaringsactie."
 
-&lt;!—>additional-url=&quot;https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html&quot; text=&quot;Aan de slag met de personalisatie-editor&quot;—>
+<!-- additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="Get started with the personalization editor"-->
 
 1. Selecteer **[!UICONTROL Edit code]** in het scherm van de reisactiviteit of de campagneeditie.
 
