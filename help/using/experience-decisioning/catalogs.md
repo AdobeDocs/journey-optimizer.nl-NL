@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
+source-git-commit: 50687bad19e4866ace1e3e94f3efcdad84e98c96
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,25 @@ In Beslissing, dienen de catalogi als centrale containers voor het organiseren v
 Vooralsnog worden alle gemaakte beslissingsitems geconsolideerd in één catalogus met &quot;aanbiedingen&quot;, die toegankelijk is via het menu **[!UICONTROL Catalogs]** .
 
 ![](assets/catalogs-list.png)
+
+## Afbeeldingen en beperkingen
+
+Om optimale prestaties en consistentie te verzekeren, handhaaft de Beslissing de volgende garanties en beperkingen:
+
+* **Ondersteunde gegevenstypen**
+
+  Momenteel worden bij Beslissing uitsluitend de volgende gegevenstypen ondersteund: String, Integer, Boolean, Date, DateTime, Decisioning Asset en Object. Een veld dat buiten deze gegevenstypen valt, is niet beschikbaar voor gebruik bij het ontwerpen van een beslissingsitem of een catalogus.
+
+
+* **de attributengrens van de Douane**
+
+  Elk beslissingsitem kan maximaal 100 aangepaste kenmerken bevatten.
+
+* **het Nesten beperkingen**
+
+  Er wordt maximaal vier nestniveaus ondersteund. Afbeeldingen worden niet op het laatste niveau ondersteund.
+
+## Het schema van de catalogus openen en bewerken
 
 Ga als volgt te werk om het schema van de catalogus te openen waarin de kenmerken van de beslissingsitems zijn opgeslagen:
 
@@ -38,16 +57,14 @@ Ga als volgt te werk om het schema van de catalogus te openen waarin de kenmerke
 
 1. Vul de vereiste velden voor het toegevoegde kenmerk in en klik op **[!UICONTROL Apply]** .
 
-   >[!CAUTION]
-   >
-   >Momenteel worden bij Beslissing uitsluitend de volgende gegevenstypen ondersteund: String, Integer, Boolean, Date, DateTime en Decisioning Asset. Een veld dat buiten deze gegevenstypen valt, is niet beschikbaar voor gebruik bij het ontwerpen van een beslissingsitem of een catalogus.
-
    De waarde die op een attribuut met het besluit activaattribuut wordt ingevoerd is een openbare url. Meestal wijst dit naar een afbeelding.
 
    De gedetailleerde informatie over hoe te met de schema&#39;s van Adobe Experience Platform te werken is beschikbaar in de [ documentatie van het Systeem XDM ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html).
 
 1. Sla het schema op wanneer u de gewenste aangepaste kenmerken hebt toegevoegd. Het nieuwe veld is nu beschikbaar in het scherm voor het maken van een besluit-item, in de sectie **[!UICONTROL Custom attributes]** .
 
->[!NOTE]
->
->Een besluitpunt kan een maximum van 100 douanekenmerken omvatten. [ leer meer op het Beslissen van gidsen &amp; beperkingen ](gs-experience-decisioning.md#guardrails)
+
+   In het onderstaande voorbeeld ziet u een scherm voor het maken van items met aangepaste kenmerken, zoals objecten die in het schema zijn gedefinieerd.
+
+   ![](assets/custom-attributes.png)
+

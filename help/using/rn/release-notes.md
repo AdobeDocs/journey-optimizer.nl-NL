@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
+source-git-commit: 50687bad19e4866ace1e3e94f3efcdad84e98c96
 workflow-type: tm+mt
-source-wordcount: '2172'
+source-wordcount: '2196'
 ht-degree: 6%
 
 ---
@@ -40,6 +40,14 @@ ht-degree: 6%
 </tr>
 </tbody>
 </table>
+
+### Verbeteringen {#25-01-improvements}
+
+Deze release bevat de verbeteringen die hieronder worden vermeld.
+
+**Beslissing**
+
+* Het besluit steunt nu de gegevenstypes van Objecten wanneer het uitgeven van het schema van de puntcatalogus. [Meer informatie](../experience-decisioning/catalogs.md)
 
 ## Release oktober 1924 {#24-10-rn}
 
