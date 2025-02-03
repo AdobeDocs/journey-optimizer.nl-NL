@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: dfe59dc0533fca394ee197193ad4558568c4c11c
+source-git-commit: a1bdbc741a96325d71562b8f5ce5279096689cf0
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2741'
 ht-degree: 0%
 
 ---
@@ -85,8 +85,8 @@ Nadat een IP pool is geselecteerd, is de informatie PTR zichtbaar wanneer het ha
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
->title="Aangepaste eindpunten voor lijst opheffen invoeren"
->abstract="Als u toestemming buiten Adobe beheert, selecteer de **beheerde Klant** optie om een douane in te gaan unsubscribe e-mailadres en uw eigen één-klik unsubscribe URL. Houd er in dit geval rekening mee dat de Adobe geen afmeldingsgegevens opslaat. De eigenaar van de toestemmingsinformatie van uw klanten is verantwoordelijk voor het beheren van hun toestemmingsgegevens en voor het duwen van het terug naar Journey Optimizer."
+>title="Definiëren hoe afmeldingsgegevens worden beheerd"
+>abstract="**beheerde Adobe**: De toestemmingsgegevens worden beheerd door u binnen het systeem van de Adobe.<br>**beheerde Klant**: De toestemmingsgegevens worden beheerd door u in een extern systeem en geen synchronisatie van toestemmingsgegevens wordt bijgewerkt in het systeem van de Adobe tenzij in werking gesteld door u."
 
 <!--Do not modify - Legal Review Done -->
 
