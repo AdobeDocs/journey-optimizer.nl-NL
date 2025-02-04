@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: extern, bronnen, gegevens, configuratie, verbinding, derde
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 0dc8f4700a9ffe9073aecfda1b3ad31e0d30610e
+source-git-commit: 3fae8e27dd043762ba4e5e2705300798298fc613
 workflow-type: tm+mt
 source-wordcount: '1549'
 ht-degree: 53%
@@ -90,7 +90,7 @@ Hieronder vindt u de belangrijkste stappen voor het maken en configureren van ee
    * **[!UICONTROL Value]**: ‘1234’ (dit is de waarde van onze API-sleutel)
    * **[!UICONTROL Location]**: ‘Query-parameter’ (de API-sleutel bevindt zich in de URL)
 
-   ![](assets/journey28.png)
+     ![](assets/journey28.png)
 
 1. Voeg een nieuwe veldengroep toe voor elke API-parameterreeks door te klikken op **[!UICONTROL Add a New Field Group]**. Alleen alfanumerieke tekens en onderstrepingstekens zijn toegestaan in de naam van de veldgroep. De maximumlengte is 30 tekens. In ons voorbeeld moeten we twee veldengroepen maken, één voor elke parameterreeks (city en long/lat).
 
