@@ -7,14 +7,23 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: 82558447-9d42-4fac-8fc1-fded9bf4bfcc
+source-git-commit: 87a9baf1ee042bb4386fdc2bd631637e3cc9859e
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---
 
 # E-mailreisrapport {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+Aangezien Apple nieuwe privacybeschermingsfuncties heeft geïntroduceerd voor de native e-mailtoepassing, waaronder Mail Privacy Protection, kunnen afzenders geen pixels voor het bijhouden van gegevens meer gebruiken om gegevens te verzamelen over profielen die de bescherming van de privacy van Apple-mail hebben ingeschakeld. Het is dan ook mogelijk dat de mogelijkheid van Adobe Journey Optimizer om e-mailberichten te volgen met behulp van trackingpixels wordt beïnvloed. [ Leer meer ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780) op het effect van de Veranderingen van de Privacy van Apple iOS op E-mailmarketing.
+
+We raden u aan de focus op kliks en conversiemetriek te richten in plaats van op open koersen voor nauwkeurigere inzichten.
+
+>[!ENDSHADEBOX]
 
 ## Geleverde versus klik trend {#delivered-click}
 
