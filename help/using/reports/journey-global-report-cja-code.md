@@ -7,14 +7,21 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: 33b6cc18-dd63-48d9-8d85-526500d83d37
+source-git-commit: 673e86ccd07c7afdf0b87859434145f16f7b7d26
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
 
 # Op code gebaseerd reisrapport {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+Uw reisrapport kan informatie over meerdere reizen tegelijk weergeven, aangezien gebruikers bij meer dan één reis tegelijk betrokken kunnen zijn. Dientengevolge, kunnen de binnenkomende mededelingen (in-app, Web en op code-Gebaseerd) in veelvoudige reizen verschijnen als zij voor een gebruiker die aan gelijktijdige actieve reizen deelneemt werden teweeggebracht, wat in overlappende gegevens kan resulteren.
+
+>[!ENDSHADEBOX]
 
 ## Weergeven en klikken {#impressions-code}
 

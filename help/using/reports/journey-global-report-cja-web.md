@@ -7,14 +7,21 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: 7591a07b-1680-4081-a745-192755d35371
+source-git-commit: 673e86ccd07c7afdf0b87859434145f16f7b7d26
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
 
 # Webreisrapport {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+Uw reisrapport kan informatie over meerdere reizen tegelijk weergeven, aangezien gebruikers bij meer dan één reis tegelijk betrokken kunnen zijn. Dientengevolge, kunnen de binnenkomende mededelingen (in-app, Web en op code-Gebaseerd) in veelvoudige reizen verschijnen als zij voor een gebruiker die aan gelijktijdige actieve reizen deelneemt werden teweeggebracht, wat in overlappende gegevens kan resulteren.
+
+>[!ENDSHADEBOX]
 
 ## Impressie en klik op trend {#impressions-web}
 
@@ -115,4 +122,3 @@ De tabel **[!UICONTROL Tracked link URLs]** bevat een uitgebreid overzicht van d
 * **[!UICONTROL Unique displays]**: Het aantal keren dat het bericht is geopend, wordt er geen rekening gehouden met meerdere interacties van één profiel.
 
 +++
-
