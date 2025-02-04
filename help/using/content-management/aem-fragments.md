@@ -8,9 +8,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50b36446ff0e9f4aec9f28056c3c30cc2df3f530
+exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
+source-git-commit: 098fbf3bdc13cb916804c30a77b72944f0902046
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -66,16 +67,9 @@ Na het creëren van en het personaliseren van uw [ AEM de Fragmenten van de Inho
 
 1. Selecteer een **[!UICONTROL Content Fragment]** in de lijst met beschikbare items om deze te importeren in uw Journey Optimizer-inhoud.
 
-   >[!IMPORTANT]
-   >
-   >Alleen gepubliceerde **[!UICONTROL Content Fragments]** kan worden gebruikt.
-
 1. Klik op **[!UICONTROL Show filters]** om de lijst met inhoudsfragmenten te verfijnen.
 
-   De kiezer voor inhoudsfragment bevat vooraf geconfigureerde filters:
-
-   * **[!UICONTROL Status]**: gepubliceerd, gewijzigd
-   * **[!UICONTROL Tag]**: Automatisch gedefinieerd op basis van uw Journey Optimizer-omgeving (organisatie-id en sandbox)
+   Standaard is het filter Inhoudsfragment vooraf ingesteld om alleen goedgekeurde inhoud weer te geven.
 
    ![](assets/aem_campaign_4.png)
 
@@ -83,11 +77,12 @@ Na het creëren van en het personaliseren van uw [ AEM de Fragmenten van de Inho
 
    ![](assets/aem_campaign_5.png)
 
-1. Kies de gewenste velden in uw **[!UICONTROL Content Fragment]** om aan uw inhoud toe te voegen.
+1. Kies de gewenste velden in uw **[!UICONTROL Content Fragment]** om aan uw inhoud toe te voegen. U kunt inhoud toevoegen of de waarde ervan kopiëren.
+
+   Als u ervoor kiest de waarde te kopiëren, worden toekomstige updates van **[!UICONTROL Content Fragment]** niet weerspiegeld in uw campagne of reis.
 
    ![](assets/aem_campaign_6.png)
 
 1. Klik op **[!UICONTROL Save]** en controleer uw bericht in de voorvertoning. U kunt nu uw berichtinhoud zoals die in [ wordt gedetailleerd deze sectie ](preview.md) testen en controleren.
 
 Zodra u uw tests hebt uitgevoerd en de inhoud bevestigd, kunt u uw e-mail naar uw publiek met uw [ Campagne ](../campaigns/review-activate-campaign.md) of [ Reis ](../building-journeys/publishing-the-journey.md) verzenden.
-
