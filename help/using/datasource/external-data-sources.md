@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: extern, bronnen, gegevens, configuratie, verbinding, derde
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 0dc8f4700a9ffe9073aecfda1b3ad31e0d30610e
 workflow-type: tm+mt
-source-wordcount: '1496'
-ht-degree: 61%
+source-wordcount: '1549'
+ht-degree: 53%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 61%
 >title="Externe databronnen"
 >abstract="Met externe databronnen kunt u een verbinding maken met externe systemen, bijvoorbeeld als u een hotelboekingssysteem gebruikt om te controleren of de persoon een kamer heeft besproken. In tegenstelling tot de ingebouwde databron van het Adobe Experience Platform kunt u zoveel externe databronnen maken als u wilt."
 
+## Werken met externe gegevensbronnen {#gs-ext-data-sources}
+
 Met externe databronnen kunt u een verbinding maken met externe systemen, bijvoorbeeld als u een hotelboekingssysteem gebruikt om te controleren of de persoon een kamer heeft besproken. In tegenstelling tot de ingebouwde databron van het Adobe Experience Platform kunt u zoveel externe databronnen maken als u wilt.
 
 >[!NOTE]
 >
->De begeleiding wanneer het werken met externe systemen is vermeld in [ deze pagina ](../configuration/external-systems.md).
-
->[!NOTE]
+>* De begeleiding wanneer het werken met externe systemen is vermeld in [ deze pagina ](../configuration/external-systems.md).
 >
->Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Voor meer informatie over reacties, zie deze [ sectie ](../action/action-response.md)
+>* Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Voor meer informatie over reacties, zie deze [ sectie ](../action/action-response.md)
 
 REST-API’s die gebruikmaken van POST of GET en JSON retourneren, worden ondersteund. API-sleutel, standaard en aangepaste verificatiemodi worden ondersteund.
 
@@ -44,7 +44,10 @@ Hier volgen twee voorbeelden van de API-aanroep:
 
 De aanroep bestaat uit een hoofd-URL (_https://api.adobeweather.org/weather_), twee parameterreeksen (‘city’ voor de stad en ‘lat/long’ voor de breedtegraad en de lengtegraad) en de API-sleutel (appid).
 
-Hier volgen de belangrijkste stappen voor het maken en configureren van een nieuwe externe databron:
+
+## Een externe gegevensbron maken en configureren {#create-ext-data-sources}
+
+Hieronder vindt u de belangrijkste stappen voor het maken en configureren van een nieuwe externe gegevensbron:
 
 1. Klik in de lijst van databronnen op **[!UICONTROL Create Data Source]** om een nieuwe externe databron te maken.
 
@@ -75,9 +78,12 @@ Hier volgen de belangrijkste stappen voor het maken en configureren van een nieu
 
    >[!NOTE]
    >
-   >Wanneer de verificatieaanroep wordt uitgevoerd, wordt de `<username>:<password>` -tekenreeks, gecodeerd in base64, toegevoegd aan de verificatieheader.
+   >* Wanneer de verificatieaanroep wordt uitgevoerd, wordt de `<username>:<password>` -tekenreeks, gecodeerd in base64, toegevoegd aan de verificatieheader.
+   >
+   >* Adobe Journey Optimizer versleutelt automatisch geheimen die zijn gedefinieerd in aangepaste handelingen. De encryptiesleutels van elke organisatie worden veilig beheerd in een specifieke vault die aan hun Organisatie wordt gebonden. Wanneer de geloofsbrieven in de interface worden getoond, worden zij gemaskeerd door gebrek om toevallige blootstelling te verhinderen.
 
-   Voor meer informatie over de wijze van de douaneauthentificatie, zie [ deze sectie ](../datasource/external-data-sources.md#custom-authentication-mode). In ons voorbeeld kiezen we de API-sleutelverificatiemodus:
+
+   Voor meer informatie over de wijze van de douaneauthentificatie, zie [ deze sectie ](../datasource/external-data-sources.md#custom-authentication-mode). In ons voorbeeld kiezen we de API-sleutelverificatiemodus, zoals hieronder:
 
    * **[!UICONTROL Type]**: ‘API-sleutel’
    * **[!UICONTROL Name]**: ‘appid’ (dit is de parameternaam van de API-sleutel)
@@ -108,28 +114,28 @@ Bij een GET-aanroep die parameter(s) vereist, voert u de parameter(s) in het vel
 
 ![](assets/journey29.png)
 
-Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]**.
 
 De databron is nu geconfigureerd en klaar om te worden gebruikt in uw journey’s, bijvoorbeeld in uw voorwaarden of om een e-mail te personaliseren. Als de temperatuur boven 30 °C ligt, kunt u besluiten een bepaalde mededeling te sturen.
 
-## Aangepaste verificatiemodus{#custom-authentication-mode}
+## Aangepaste verificatiemodus {#custom-authentication-mode}
 
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
 >title="Aangepaste verificatie"
 >abstract="De aangepaste verificatiemodus wordt gebruikt voor complexe verificatie om API-wrappingprotocollen aan te roepen zoals OAuth2. De uitvoering van de actie bestaat uit twee stappen. Eerst wordt een aanroep naar het eindpunt uitgevoerd om de toegangstoken te genereren. Vervolgens wordt de toegangstoken geïnjecteerd in de HTTP-aanvraag van de actie."
 
-Deze verificatiemodus wordt gebruikt voor complexe verificatie, die vaak wordt gebruikt om API-wrappingprotocollen aan te roepen zoals OAuth2, voor het ophalen van een toegangstoken die moet worden geïnjecteerd in de echte HTTP-aanvraag voor de actie.
+De wijze van de douaneauthentificatie wordt gebruikt voor complexe authentificatie, vaak gebruikt om API omsluitende protocollen zoals OAuth2 te roepen, om een toegangstoken terug te winnen dat in het echte HTTP- verzoek voor de actie moet worden ingespoten.
 
-Wanneer u de aangepaste verificatie configureert, kunt u op de onderstaande knop klikken om te controleren of de payload van de aangepaste verificatie correct is geconfigureerd.
+Wanneer u de douaneauthentificatie vormt, gebruik de **[!UICONTROL Click to check the authentication]** knoop om te controleren als de lading van de douaneauthentificatie correct wordt gevormd.
 
 ![](assets/journey29-bis.png)
 
-Als de test is geslaagd, wordt de knop groen.
+Wanneer de test succesvol is, wordt de knoop groen.
 
 ![](assets/journey29-ter.png)
 
-Bij deze verificatie is de uitvoering van de actie een proces dat uit twee stappen bestaat:
+In deze verificatiemodus bestaat de uitvoering van de handeling uit twee stappen:
 
 1. Roep het eindpunt aan om de toegangstoken te genereren.
 1. Roep de REST-API aan door de toegangstoken op de juiste manier te injecteren.
