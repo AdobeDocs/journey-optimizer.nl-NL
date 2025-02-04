@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 50687bad19e4866ace1e3e94f3efcdad84e98c96
+source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2212'
 ht-degree: 6%
 
 ---
@@ -48,6 +48,10 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 **Beslissing**
 
 * Het besluit steunt nu de gegevenstypes van Objecten wanneer het uitgeven van het schema van de puntcatalogus. [Meer informatie](../experience-decisioning/catalogs.md)
+
+**Personalization**
+
+* De nieuwe datum/tijdhulpfuncties zijn beschikbaar voor gebruik in de verpersoonlijkingsredacteur. [Meer informatie](../personalization/functions/dates.md)
 
 ## Release oktober 1924 {#24-10-rn}
 

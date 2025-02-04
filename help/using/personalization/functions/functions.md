@@ -6,20 +6,20 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
 workflow-type: tm+mt
-source-wordcount: '1872'
-ht-degree: 1%
+source-wordcount: '2390'
+ht-degree: 0%
 
 ---
 
 # Aan de slag met Helper-functies{#functions}
 
-Gebruiken [!DNL Journey Optimizer] sjabloontaal voor het uitvoeren van bewerkingen op gegevens, zoals berekeningen, gegevensopmaak of conversies, voorwaarden en het manipuleren ervan in de context van personalisatie. Meer informatie over richtlijnen voor de syntaxisaanpassing vindt u in [deze pagina](../personalization-syntax.md).
+U kunt de sjabloontaal [!DNL Journey Optimizer] gebruiken om bewerkingen op gegevens uit te voeren, zoals berekeningen, gegevensopmaak of conversies, voorwaarden en deze te bewerken in de context van personalisatie. Leer de richtlijnen van de verpersoonlijkingssyntaxis in [ deze pagina ](../personalization-syntax.md).
 
 
 
-➡️ [Leer hoe u in deze video hulpfuncties kunt gebruiken](#video)
+➡️ [ leren hoe te om hulpfuncties in deze video te gebruiken ](#video)
 
 De taal van het malplaatje wordt leveraged in helperfuncties beschikbaar in verpersoonlijkingsdrop-down lijst van de verpersoonlijkingsredacteur, zoals hieronder:
 
@@ -27,15 +27,15 @@ De taal van het malplaatje wordt leveraged in helperfuncties beschikbaar in verp
 
 >[!NOTE]
 >
->De functies en mogelijkheden die beschikbaar zijn in de verpersoonlijkingseditor verschillen van die in de [Reis-editor voor geavanceerde expressies](../../building-journeys/expression/expressionadvanced.md).
+>De functies en de mogelijkheden beschikbaar in de verpersoonlijkingsredacteur verschillen van degenen beschikbaar in de [ Reis geavanceerde uitdrukkingsredacteur ](../../building-journeys/expression/expressionadvanced.md).
 
-In de [!DNL Journey Optimizer] de redacteur van de verpersoonlijking, helperfuncties worden gegroepeerd in drie categorieën: [Functies](#functions-helper), [Helpers](#helper-helper) en [Operatoren](#operators-helper).
+In de [!DNL Journey Optimizer] verpersoonlijkingsredacteur, helperfuncties worden gegroepeerd in drie categorieën: [ Functies ](#functions-helper), [ Helpers ](#helper-helper) en [ Operatoren ](#operators-helper).
 
 Selecteer een categorie voor toegang tot subcategorieën en functies.
 
-Toegang tot subcategorieën door op de knop `>` pictogram. Selecteer een functie door op de knop `+` pictogram: de functie wordt automatisch toegevoegd aan het verpersoonlijkingsscherm.
+U kunt subcategorieën openen door op het pictogram `>` te klikken. Selecteer een functie door op het pictogram `+` te klikken: de functie wordt automatisch toegevoegd aan het verpersoonlijkingsscherm.
 
-Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aan uw favorieten toe te voegen. [Meer informatie](../personalize.md#fav)
+Klik op het pictogram `...` om de beschrijving van de functie weer te geven en deze aan uw favorieten toe te voegen. [Meer informatie](../personalize.md#fav)
 
 ## Functies{#functions-helper}
 
@@ -102,37 +102,116 @@ Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aa
 
 <table>
     <tr>
-        <td><a href="dates.md#age">Leeftijd</a></td><td>Deze functie haalt de leeftijd op van een bepaalde datum</td>
+        <td><a href="dates.md#add-days">Dagen toevoegen</a></td><td>Deze functie past een bepaalde datum met een bepaald aantal dagen aan, gebruikend positieve waarden aan toename en negatieve waarden aan decrement.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#current">Huidige tijd in milliseconden</a></td><td>Deze functie haalt huidige tijd op in epoch millisecond</td>
+        <td><a href="dates.md#add-hours">Uren toevoegen</a></td><td>Deze functie past een bepaalde datum met een gespecificeerd aantal uren aan, gebruikend positieve waarden aan toename en negatieve waarden aan decrement.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#date-diff">Datumverschil</a></td><td>Deze functie haalt het verschil op tussen twee datums in aantal dagen</td>
+        <td><a href="dates.md#add-minutes">Minuten toevoegen</a></td><td>Deze functie past een bepaalde datum met een gespecificeerd aantal minuten aan, gebruikend positieve waarden aan toename en negatieve waarden aan decrement.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-week">Dag van de week</a></td><td>Deze functie haalt de dag van de week op</td>
+        <td><a href="dates.md#add-months">Maanden toevoegen</a></td><td>Deze functie past een bepaalde datum met een gespecificeerd aantal maanden aan, gebruikend positieve waarden aan toename en negatieve waarden aan decrement.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-year">Dag van jaar</a></td><td>Deze functie haalt de dag van het jaar op</td>
+        <td><a href="dates.md#add-seconds">Seconden toevoegen</a></td><td>Deze functie past een bepaalde datum met een gespecificeerd aantal seconden aan, gebruikend positieve waarden aan toename en negatieve waarden aan decrement.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#format-date">Indelingsdatum</a></td><td>Deze functie maakt een datumtijdwaarde op</td>
+        <td><a href="dates.md#add-years">Jaren toevoegen</a></td><td>Deze functie past een bepaalde datum met een gespecificeerd aantal jaren aan, gebruikend positieve waarden aan toename en negatieve waarden aan decrement.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#age">Leeftijd</a></td><td>Deze functie haalt de leeftijd op van een bepaalde datum.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#age-days">Leeftijd in dagen</a></td><td>Deze functie berekent de leeftijd van een bepaalde datum in dagen, d.w.z. het aantal dagen dat is verstreken tussen de gegeven datum en de huidige datum, negatief voor toekomstige datums en positief voor vroegere datums.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#age-months">Leeftijd in maanden</a></td><td>Deze functie berekent de leeftijd van een bepaalde datum in maanden, d.w.z. het aantal maanden dat is verstreken tussen de gegeven datum en de huidige datum, negatief voor toekomstige datums en positief voor datums in het verleden.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#compare-dates">Datums vergelijken</a></td><td>Deze functie vergelijkt de eerste inputdatum met andere. Retourneert 0 als date1 gelijk is aan date2, -1 als date1 voor date2 komt en 1 als date1 na date2 komt.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#convert-zoned-date-time">ZonedDateTime converteren</a></td><td>Deze functie converteert een datum-tijd naar een bepaalde tijdzone.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#current">Huidige tijd in milliseconden</a></td><td>Deze functie haalt de huidige tijd in epoch millisecond op.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#date-diff">Datumverschil</a></td><td>Deze functie haalt het verschil tussen twee data in aantal dagen op.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#day-month">Dag van de maand</a></td><td>Deze functie retourneert het getal dat de dag van de maand vertegenwoordigt.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#day-week">Dag van de week</a></td><td>Deze functie haalt de dag van de week op.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#day-year">Dag van jaar</a></td><td>Deze functie haalt de dag van het jaar op.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#diff-seconds">Binnen seconden diff</a></td><td>Deze functie retourneert het verschil tussen twee datums in seconden.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#extract-hours">Uren extraheren</a></td><td>Deze functie extraheert de uurcomponent uit een opgegeven tijdstempel.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#extract-minutes">Minuten extraheren</a></td><td>Deze functie extraheert de component minute uit een opgegeven tijdstempel.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#extract-months">Maanden uitnemen</a></td><td>Deze functie extraheert de component month uit een opgegeven tijdstempel.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#extract-seconds">Seconden extraheren</a></td><td>Deze functie extraheert de tweede component uit een opgegeven tijdstempel.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#format-date">Indelingsdatum</a></td><td>Deze functie maakt een datumtijdwaarde op.</td>
     </tr>
     <tr>
         <td><a href="dates.md#format-date-locale">Datumnotatie met ondersteuning voor landinstellingen</a></td><td>Deze functie maakt een datumtijdwaarde op in de corresponderende taalgevoelige representatie, d.w.z. in een gewenste landinstelling.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-days">Dagen instellen</a></td><td>Deze functie stelt de dag van de maand in voor de opgegeven datum en tijd</td>
+        <td><a href="dates.md#get-current-zoned-date-time">Get CurrentZonedDateTime</a></td><td>Deze functie retourneert de huidige datum en tijd met informatie over de tijdzone.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-hours">Uren instellen</a></td><td>Deze functie stelt het uur van de datum-tijd in</td>
+        <td><a href="dates.md#hours-difference">Verschil in uren</a></td><td>Deze functie retourneert het verschil tussen twee datums in termen van uren.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#to-utc">Naar UTC</a></td><td>Deze functie converteert een datetime naar UTC</td>
+        <td><a href="dates.md#diff-minutes">Verschil in minuten</a></td><td>Deze functie retourneert het verschil tussen twee datums in minuten.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#months-difference">Verschil in maanden</a></td><td>Deze functie retourneert het verschil tussen twee datums in termen van maanden.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#set-days">Dagen instellen</a></td><td>Deze functie stelt de dag van de maand in voor de opgegeven datum en tijd.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#set-hours">Uren instellen</a></td><td>Deze functie stelt het uur van de datum-tijd in.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#to-date-time">Tot op heden</a></td><td>Deze functie converteert string naar date. De epochdatum wordt geretourneerd als uitvoer voor ongeldige invoer.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#to-utc">Naar UTC</a></td><td>Deze functie converteert een datetime naar UTC.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#truncate-day">Korten naar begin van dag</a></td><td>Deze functie wijzigt een bepaalde datum-tijd door het aan het begin van de dag te plaatsen met de tijd die aan 00:00 wordt geplaatst.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#truncate-quarter">truncateToStartOfQuarter</a></td><td>Deze functie verkort een datum-tijd tot de eerste dag van zijn kwart (b.v., Jan 1, Apr 1, jul 1, okt 1) om 00:00.
+</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#truncate-week">truncateToStartOfWeek</a></td><td>Deze functie wijzigt een bepaalde datum-tijd door het aan het begin van de week (Maandag om 00:00) te plaatsen.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#truncate-year">truncateToStartOfYear</a></td><td>Deze functie wijzigt een bepaalde datum-tijd door het te beknotten aan de eerste dag van het jaar (Januari 1st) om 00:00.</td>
     </tr>
     <tr>
         <td><a href="dates.md#week-of-year">Week van jaar</a></td><td>Deze functie retourneert de week van het jaar</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#diff-years">Verschil in jaren</a></td><td>Deze functie retourneert het verschil tussen twee datums in termen van jaren.</td>
     </tr>
 </table>
 </table>
@@ -204,7 +283,7 @@ Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aa
         <td><a href="string.md#camelCase">Camel Case</a></td><td>Deze functie wordt gebruikt om de eerste letter van elk woord van een tekenreeks met een hoofdletter te kapitaliseren</td>
     </tr>
     <tr>
-        <td><a href="string.md#char-code-at">Tekencode op</a></td><td>Deze functie retourneert ASCII-waarde van een teken, zoals de functie charCodeAt in JavaScript</td>
+        <td><a href="string.md#char-code-at">Tekencode op</a></td><td>Deze functie retourneert ASCII-waarde van een teken, zoals de charCodeAt-functie in JavaScript</td>
     </tr>
     <tr>
         <td><a href="string.md#concat">Concat</a></td><td>Deze functie wordt gebruikt om twee tekenreeksen te combineren tot één</td>
@@ -347,7 +426,7 @@ Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aa
 
 ## Helpers{#helper-helper}
 
-Helpers worden gedetailleerd in [deze pagina](helpers.md).
+De helpers zijn gedetailleerd in [ deze pagina ](helpers.md).
 
 
 <table>
@@ -388,10 +467,10 @@ Rekenkundige functies worden gebruikt voor het uitvoeren van basisberekeningen o
         <td><a href="arithmetic-functions.md#multiply">Vermenigvuldigen</a></td><td>Deze operator wordt gebruikt om het product van twee argumentexpressies te zoeken</td>
     </tr>
     <tr>
-        <td><a href="arithmetic-functions.md#remainder">Herinnering</a> </td><td>Deze operator wordt gebruikt om de rest te zoeken na het delen van de twee argumentexpressies</td>
+        <td><a href="arithmetic-functions.md#remainder"> Herinnering </a> </td><td>Deze operator wordt gebruikt om de rest te zoeken na het delen van de twee argumentexpressies</td>
     </tr>
     <tr>
-        <td><a href="arithmetic-functions.md#substract">Aftrekken</a> </td><td>Deze operator zoekt het verschil tussen twee expressies</td>
+        <td><a href="arithmetic-functions.md#substract"> Aftrekken </a> </td><td>Deze operator zoekt het verschil tussen twee expressies</td>
     </tr>
 </table>
 
@@ -425,7 +504,7 @@ Vergelijkingsfuncties worden gebruikt om verschillende expressies en waarden met
         <td><a href="operators.md#greaterthanorequal">Groter of gelijk aan</a></td><td>Deze operator controleert of de eerste waarde groter dan of gelijk is aan de tweede waarde</td>
     </tr>
     <tr>
-        <td><a href="operators.md#lessthanorequal">Kleiner dan of gelijk aan</a> </td><td>Deze operator controleert of de eerste waarde kleiner dan of gelijk is aan de tweede waarde</td>
+        <td><a href="operators.md#lessthanorequal"> minder dan of evenaart aan </a> </td><td>Deze operator controleert of de eerste waarde kleiner dan of gelijk is aan de tweede waarde</td>
     </tr>
     <tr>
         <td><a href="operators.md#notequal">Niet gelijk aan</a></td><td>Deze operator controleert of de opgegeven expressie niet gelijk is aan de gegeven waarde</td>
