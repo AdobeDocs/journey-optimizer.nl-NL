@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2258a305f1d3b477b728ce50b882ac226f3e4342
+source-git-commit: 280238fb3f41cef08c4e5a8720839aff5b767cf5
 workflow-type: tm+mt
-source-wordcount: '5882'
+source-wordcount: '5901'
 ht-degree: 12%
 
 ---
@@ -28,6 +28,8 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 * De **sectie van de Parameters van de Kopbal** is bijgewerkt om op de nieuwe etiketten en de veranderingen in het gebruikersinterface te wijzen. [Meer informatie](../email/email-settings.md#email-header)
 
 * De **voorwaartse e-mail** sectie is bijgewerkt om te specificeren dat alle e-mails die naar **van e-mail** adres worden verzonden door:sturen aan het voorwaartse e-mailadres. Als er geen e-mailbericht naar voren is opgegeven, worden deze e-mails verwijderd. [Meer informatie](../email/email-settings.md#forward-email)
+
+* De maximumgrootte van contextafhankelijke kenmerken die worden doorgegeven aan een door de API geactiveerd campagneverzoek is bijgewerkt naar 200 kb. [Meer informatie](../campaigns/api-triggered-campaigns.md#contextual)
 
 <!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
 

@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
+source-git-commit: 280238fb3f41cef08c4e5a8720839aff5b767cf5
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 0%
@@ -110,7 +110,7 @@ De syntaxis `{{context.<contextualAttribute>}}` wordt alleen toegewezen aan een 
 
 >[!IMPORTANT]
 >
->De contextafhankelijke kenmerken die in de aanvraag worden doorgegeven, mogen niet groter zijn dan 50 kB en zijn altijd van het type tekenreeks.
+>De contextafhankelijke kenmerken die in de aanvraag worden doorgegeven, mogen niet groter zijn dan 200 kB en houden altijd rekening met het type tekenreeks.
 >
 >De syntaxis van `context.system` is beperkt tot Adobe intern gebruik en mag niet worden gebruikt om contextuele kenmerken door te geven.
 
