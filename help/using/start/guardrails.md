@@ -8,20 +8,26 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
+source-git-commit: d108d449786d9c3aa3e95aefc1bca07292cd690d
 workflow-type: tm+mt
-source-wordcount: '2345'
+source-wordcount: '2405'
 ht-degree: 0%
 
 ---
 
 # Afvoerkanalen en beperkingen {#limitations}
 
+Hieronder vindt u aanvullende instructies en beperkingen wanneer u [!DNL Adobe Journey Optimizer] gebruikt.
+
 De rechten, de productbeperkingen en de prestatiesbegeleiding worden vermeld in [ Adobe Journey Optimizer pagina van de productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html) {target="_blank"}.
 
 U moet zich ook bewust zijn van [ Gidsen voor de gegevens van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html) {target="_blank"} alvorens te beginnen.
 
-Hieronder vindt u aanvullende instructies en beperkingen wanneer u [!DNL Adobe Journey Optimizer] gebruikt.
+
+>[!NOTE]
+>
+>In zeldzame gevallen kunnen tijdelijke onderbrekingen in een bepaalde regio ertoe leiden dat geldige profielen van reizen worden uitgesloten, of dat poststukken ten onrechte als tussenruimten worden gemarkeerd. Zodra de diensten worden hersteld, hercontroleer reislogboeken, verifieer de gebieden van het toestemmingsprofiel, en herpubliceer de reis indien nodig. In het geval van een ISP stroomonderbreking, leer hoe te om profielen uit de suppressielijst in [ te verwijderen deze sectie ](../configuration/manage-suppression-list.md#remove-from-suppression-list).
+>
 
 ## Ondersteunde browsers {#browsers}
 
