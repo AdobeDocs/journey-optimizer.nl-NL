@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: terugkeer, reis, profiel, terugkerend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
+source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '698'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Profielbeheer is afhankelijk van het type reis. In Adobe Journey Optimizer zijn 
 
 * **reizen van de kwalificatie van het publiek 0} {: deze reizen beginnen met een de kwalificatiegebeurtenis van het Publiek.** Deze reizen luisteren naar de in- en uitgangen van profielen in het publiek. Wanneer dit gebeurt, gaat het bijbehorende profiel de reis in. [Meer informatie](#entry-unitary)
 
-In alle reistypes kan een profiel niet meerdere keren tegelijk aanwezig zijn in dezelfde reis. Om te controleren of een persoon op reis is, wordt de profielidentiteit gebruikt als sleutel. Het systeem staat niet toe dat dezelfde sleutel, bijvoorbeeld de sleutel CRMID=3224, zich op verschillende plaatsen op dezelfde reis bevindt.
+In alle reistypes kan een profiel niet meerdere keren tegelijk aanwezig zijn in dezelfde reis. Om te controleren of een persoon op reis is, wordt de profielidentiteit gebruikt als sleutel. Het systeem staat niet toe dat dezelfde sleutel, bijvoorbeeld de sleutel `CRMID=3224`, zich op verschillende plaatsen op dezelfde reis bevindt.
 
 ## Eenheids- en publiekskwalificatietrajecten{#entry-unitary}
 

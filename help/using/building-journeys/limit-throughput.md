@@ -8,7 +8,7 @@ role: Developer, Data Engineer
 level: Experienced
 keywords: reis, gegevensbronnen, grens, productie, douane, acties
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
+source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 0%
@@ -23,25 +23,25 @@ Adobe Journey Optimizer staat artsen toe om API vraag naar externe systemen door
 
 Dit kan gebeuren met:
 
-* **Gegevensbronnen**: informatie verzamelen van externe systemen en deze gebruiken in de reiscontext, bijvoorbeeld om weerinformatie over de profielstad te krijgen en een specifieke reisroute te hebben die op die informatie is gebaseerd.
+* **Bronnen van Gegevens**: om informatie van externe systemen te verzamelen en het in de reiscontext te gebruiken, bijvoorbeeld om weerinformatie over de profielstad te krijgen en een specifieke reisstroom te hebben die op dat wordt gebaseerd.
 
-* **Aangepaste handelingen**: informatie naar externe systemen sturen, bijvoorbeeld om e-mails via een externe oplossing te verzenden met behulp van Journey Optimizer-mogelijkheden voor orkestvorming, naast profielinformatie, publieksgegevens en reiscontext.
+* **Acties van de Douane**: om informatie naar externe systemen te verzenden, bijvoorbeeld om e-mails door een externe oplossing te verzenden gebruikend de mogelijkheden van het Orchestration van Journey Optimizer naast profielinformatie, publieksgegevens en reiscontext.
 
 >[!NOTE]
 >
->Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Zie deze voor meer informatie over reacties [sectie](../action/action-response.md)
+>Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Voor meer informatie over reacties, zie deze [ sectie ](../action/action-response.md)
 
-Als u met externe gegevensbronnen of douaneacties werkt, kunt u uw externe systemen willen beschermen door reisproductie te beperken: tot 5000 instanties/seconde voor unitaire reizen en tot 20000 instanties/seconde voor publiek-teweeggebrachte degenen.
+Als u met externe gegevensbronnen of douaneacties werkt, kunt u uw externe systemen willen beschermen door reisproductie te beperken: tot 5.000 instanties/seconde voor unitaire reizen en tot 20.000 instanties/seconde voor publiek-teweeggebrachte degenen.
 
-Voor aangepaste acties zijn vertragingsmogelijkheden beschikbaar op productniveau. Zie dit [page](../configuration/external-systems.md#capping).
+Voor aangepaste acties zijn vertragingsmogelijkheden beschikbaar op productniveau. Verwijs naar deze [ pagina ](../configuration/external-systems.md#capping).
 
 Voor externe gegevensbronnen, kunt u een het begrenzen op eindpuntniveau bepalen om die externe systemen te vermijden overweldigend door Journey Optimizer Capping APIs. Alle resterende aanvragen nadat de limiet is bereikt, worden echter genegeerd. In deze sectie vindt u tijdelijke oplossingen waarmee u de doorvoer kunt optimaliseren.
 
-Raadpleeg voor meer informatie over het integreren met externe systemen de volgende [page](../configuration/external-systems.md).
+Voor meer informatie over hoe te met externe systemen te integreren, verwijs naar deze [ pagina ](../configuration/external-systems.md).
 
 ## Implementatie
 
-Voor **door het publiek geïnitieerde reizen** kunt u de leessnelheid van de activiteit van het leespubliek definiëren die de doorvoer van de reis beïnvloedt. [Meer informatie](../building-journeys/read-audience.md)
+Voor **publiek-teweeggebrachte reizen**, kunt u het lezingstarief van uw Gelezen activiteit van het Publiek bepalen die reisproductie zal beïnvloeden. [Meer informatie](../building-journeys/read-audience.md)
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ U kunt deze waarde wijzigen van 500 tot 20 000 exemplaren per seconde. Als u lag
 
 ![](assets/limit-throughput-2.png)
 
-Neem een voorbeeld van een **door het publiek geïnitieerde reizen** werken met een bevolking van **10.000 profielen** en gegevens verzenden naar een extern systeem dat ondersteuning biedt **100 verzoeken/seconde**.
+Neem een voorbeeld van a **publiek-teweeggebrachte reizen** die met een bevolking van **10 000 profielen** werken en gegevens verzenden naar een extern systeem dat **100 verzoeken/seconde** steunt.
 
 1. U kunt het leespubliek definiëren om profielen te lezen met een doorvoer van 500 profielen per seconde. Dit betekent dat het 20 seconden duurt om al uw profielen te lezen. Op de tweede 1 lees je er 500, op de tweede 2 500, enzovoort.
 

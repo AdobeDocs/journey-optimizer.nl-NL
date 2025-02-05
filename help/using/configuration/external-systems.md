@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: extern, API, optimaliseren, aftopping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: ae92a1e950822d4a0dbac1aa535078fe535113c0
+source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
 workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 24%
@@ -37,7 +37,7 @@ Wanneer Journey Optimizer een aanroep naar een externe API uitvoert, worden de t
 
 Wanneer u een databron of een actie configureert, maakt u een verbinding met een systeem om extra informatie op te halen voor gebruik in uw journeys of om berichten of API-oproepen te versturen.
 
-Journey-API&#39;s ondersteunen tot 5000 gebeurtenissen per seconde, maar sommige externe systemen of API&#39;s hebben mogelijk geen equivalente verwerkingscapaciteit. Om het overbelasten van deze systemen te verhinderen, kunt u het **Aftappen** en **Throttling** APIs gebruiken om het aantal gebeurtenissen te beperken die per seconde worden verzonden.
+Journey-API&#39;s ondersteunen tot 5.000 gebeurtenissen per seconde, maar sommige externe systemen of API&#39;s hebben mogelijk geen equivalente verwerkingscapaciteit. Om het overbelasten van deze systemen te verhinderen, kunt u het **Aftappen** en **Throttling** APIs gebruiken om het aantal gebeurtenissen te beperken die per seconde worden verzonden.
 
 Telkens wanneer een API-oproep wordt uitgevoerd door journeys, passeert deze de API-engine. Als de limiet die is ingesteld in de API wordt bereikt, wordt de aanroep afgewezen als u de API voor uitsnijden gebruikt, of gedurende maximaal 6 uur in de wachtrij geplaatst en zo snel mogelijk verwerkt in de volgorde waarin deze is ontvangen als u de API voor rotatie gebruikt.
 
