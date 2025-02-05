@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
+source-git-commit: 179d0f8571bf2e4d4ea1c5ad8ab498de9e7b5550
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1312'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ Voordat u dit bestand kunt genereren, moet u het volgende maken:
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="Selecteer het servertype voor uw bestand"
->abstract="Kies welk type server u wilt gebruiken voor het exporteren van uw bestanden voor directe e-mail. Momenteel worden alleen Amazon S3 en SFTP ondersteund door Journey Optimizer."
+>abstract="Kies welk type server u wilt gebruiken voor het exporteren van uw direct-mailbestanden: Amazon S3, SFTP of Azure."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
