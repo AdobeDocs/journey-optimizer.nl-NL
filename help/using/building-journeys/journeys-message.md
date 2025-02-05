@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, bericht, push, sms, e-mail, in-app, web, inhoudskaart, op code gebaseerde ervaring
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: b6c2b6370c5a68937ebcafcbe70c4a240bc14536
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -183,8 +183,11 @@ Optimalisatie van verzendtijd probeert de beste tijd te voorspellen om met klant
 
 +++Waar kan ik de verwachte verzendtijd voor elk profiel zien?
 
-U kunt de algemene score in de **Profielen** interface zien. Voor elk van de drie sets van 168 scores lopen de ranks van -83 tot 84. Hoe hoger de rangorde, hoe beter de tijd is om met de ontvanger te communiceren. Aangezien u het begin en de duur van een reis kunt bepalen, kan de beste rang (84) niet in dat tijdvenster vallen. In dit geval raden we u aan een uur met de hoogste rangorde te kiezen.
+De ranks in elk &#39;uur van de week&#39; lopen van -83 tot 84, maar worden samengevat tot één waarde om te voorkomen dat het profiel met 168 verschillende waarden wordt geklonterd. Voor elk van de drie sets van 168 scores lopen de ranks van -83 tot 84.
 
+De waarde wordt gelezen door het optimalisatiealgoritme. Deze waarde is niet ontworpen om leesbaar voor mensen te zijn.
+
+Hoe hoger de rangorde, hoe beter de tijd is om met de ontvanger te communiceren. Aangezien u het begin en de duur van een reis kunt bepalen, kan de beste rang (84) niet in dat tijdvenster vallen. In dit geval raden we u aan een uur met de hoogste rangorde te kiezen.
 +++
 
 
