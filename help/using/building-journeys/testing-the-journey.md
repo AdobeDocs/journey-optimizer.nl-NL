@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: test, reis, controle, fout, oplossen
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
+source-git-commit: fcad0d71b6de9ae7e21b201fb954e712b2028526
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1627'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 
 ## Belangrijke opmerkingen {#important_notes}
 
-* In de testmodus kunt u gebeurtenissen starten met de interface. Gebeurtenissen kunnen niet worden geactiveerd vanaf externe systemen die een API gebruiken.
+* In de testmodus kunt u alleen gebeurtenissen starten met de interface. Gebeurtenissen kunnen niet worden geactiveerd vanaf externe systemen die een API gebruiken.
 * Alleen personen die zijn gemarkeerd als &quot;testprofielen&quot; in de realtime klantenprofielservice mogen de geteste reis betreden. Verwijs naar deze [ sectie ](../audience/creating-test-profiles.md).
 * De testmodus is alleen beschikbaar voor conceptochten waarbij een naamruimte wordt gebruikt. In de testmodus moet worden nagegaan of een persoon die de reis betreedt een testprofiel is en moet hij dus Adobe Experience Platform kunnen bereiken.
 * Het maximumaantal testprofielen dat een reis tijdens een testsessie kan betreden, is 100.
@@ -71,6 +71,8 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 * Bij het bereiken van een splitsing wordt altijd de bovenste vertakking gekozen. U kunt de positie van de gesplitste vertakkingen opnieuw ordenen als u wilt dat de test een ander pad kiest.
 * Om prestaties te optimaliseren en verouderd middelgebruik te verhinderen, zullen alle reizen op testwijze die niet voor een week zijn teweeggebracht terug naar de **status van het Ontwerp** schakelen.
 * Gebeurtenissen die door de testwijze worden teweeggebracht worden opgeslagen in specifieke datasets. Deze gegevenssets worden als volgt gelabeld: `JOtestmode - <schema of your event>`
+* Wanneer u reizen test die meerdere gebeurtenissen bevatten, moet u elke gebeurtenis op volgorde activeren. Als een gebeurtenis te vroeg wordt verzonden (voordat het eerste wachtknooppunt is voltooid) of te laat (na de geconfigureerde time-out), wordt de gebeurtenis genegeerd en wordt het profiel naar een time-outpad verzonden. Bevestig altijd alle verwijzingen naar velden voor gebeurtenislading geldig door de lading binnen het gedefinieerde venster te verzenden
+
 
 <!--
 * Fields from related entities are hidden from the test mode.
@@ -87,9 +89,13 @@ Gebruik de knop **[!UICONTROL Trigger an event]** om een gebeurtenis te configur
 
 >[!NOTE]
 >
->Wanneer u een gebeurtenis in testmodus activeert, wordt een echte gebeurtenis gegenereerd. Dit betekent dat ook andere reizen naar deze gebeurtenis worden beïnvloed.
+>* Wanneer u een gebeurtenis in testmodus activeert, wordt een echte gebeurtenis gegenereerd. Dit betekent dat ook andere reizen naar deze gebeurtenis worden beïnvloed.
+>
+>*Zorg ervoor dat elke gebeurtenis op testwijze in de correcte orde en binnen het gevormde wachtende venster wordt teweeggebracht. Bijvoorbeeld, als er 60 seconden wacht is, moet de tweede gebeurtenis worden teweeggebracht slechts nadat die 60 seconde wacht is verstreken en alvorens de onderbrekingsgrens verloopt.
+>
 
 Als voorwaarde moet u weten welke profielen in Adobe Experience Platform zijn gemarkeerd als testprofielen. In de testmodus zijn deze profielen alleen toegestaan tijdens de reis en moet het evenement een id bevatten. De verwachte id is afhankelijk van de gebeurtenisconfiguratie. Het kan bijvoorbeeld een ECID of een e-mailadres zijn. De waarde van deze sleutel moet op het **gebied van het Profiel worden toegevoegd 0} Identifier.**
+
 
 Als uw reis verscheidene gebeurtenissen bevat, gebruik de drop-down lijst om een gebeurtenis te selecteren. Configureer vervolgens voor elke gebeurtenis de doorgegeven velden en de uitvoering van de gebeurtenis die de gebeurtenis verzendt. De interface helpt u de juiste informatie in de gebeurtenislading over te gaan en ervoor te zorgen het informatietype correct is. In de testmodus worden de laatste parameters die in een testsessie worden gebruikt, opgeslagen voor later gebruik.
 
