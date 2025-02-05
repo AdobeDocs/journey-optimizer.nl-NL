@@ -7,13 +7,13 @@ feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform, data Lake, create, Lake, datasets, profile
-source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
+exl-id: 08633a79-5601-4e36-b8cf-080234956d99
+source-git-commit: ccb4cc944271fb197e7aee87f57b51c28cb3565f
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
 
 ---
-
 
 # Wijzigingen in tijd tot live en streaming segmentatie {#ttl-guardrail}
 
@@ -41,13 +41,11 @@ Deze wijziging heeft geen invloed op de verzameling van gegevens over het bijhou
 
 +++
 
-
 +++ Heeft deze wijziging gevolgen voor de reacties?
 
 Reactievoorvallen in de Reizen worden niet beïnvloed door deze wijziging.
 
 +++
-
 
 +++ Zal deze wijziging alleen van toepassing zijn op productiesandboxen of zal deze ook van toepassing zijn op dev-sandboxen?
 

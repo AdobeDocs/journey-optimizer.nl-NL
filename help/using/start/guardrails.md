@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d108d449786d9c3aa3e95aefc1bca07292cd690d
+source-git-commit: ccb4cc944271fb197e7aee87f57b51c28cb3565f
 workflow-type: tm+mt
-source-wordcount: '2405'
+source-wordcount: '2460'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,15 @@ Adobe [!DNL Journey Optimizer] interface is ontworpen om optimaal te werken in d
 * U kunt geen bijlagen aan een e-mailbericht toevoegen met [!DNL Journey Optimizer] .
 * U kunt niet hetzelfde verzendende domein gebruiken om berichten van [!DNL Adobe Journey Optimizer] en van een ander product, zoals [!DNL Adobe Campaign] of [!DNL Adobe Marketo Engage] , te verzenden.
 
+## Gegevenssethandleidingen {#datasets-guardrails}
+
+Beginnend in Februari 2025, zal een tijd-aan-levende (TTL) guardrail aan systeem-geproduceerde datasets van Journey Optimizer in **nieuwe zandbakken en nieuwe organisaties** als volgt worden opgerold:
+
+* 90 dagen voor gegevens in de profielopslag
+* 13 maanden voor gegevens in het data Lake
+
+Onderzoek de [ Veelgestelde sectie van Vragen ](../data/datasets-ttl.md#ttl) voor meer details op deze guardrails.
+
 ## Handleidingen voor landingspagina&#39;s {#lp-guardrails}
 
 * Slechts één **component van de Vorm** kan in één enkele primaire pagina worden gebruikt.
@@ -54,7 +63,6 @@ Adobe [!DNL Journey Optimizer] interface is ontworpen om optimaal te werken in d
 ### Webkanaalhulplijnen {#web-guardrails}
 
 [!DNL Journey Optimizer] webcampagnes zijn gericht op nieuwe profielen die nog niet eerder zijn ingeschakeld op andere kanalen. Hierdoor wordt het totale aantal aanspreekbare profielen verhoogd. Dit kan kosten met zich meebrengen als het contractuele aantal aanschafbare profielen dat u hebt aangeschaft, wordt overschreden. De metriek van de vergunning voor elk pakket is vermeld op de [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html) {target="_blank"} pagina.
-
 
 ## Subdomeinen guardraals {#subdomain-guardrails}
 
