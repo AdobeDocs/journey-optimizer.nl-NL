@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b4075b722ba07f003b9658b5f399896ce0e85b9a
+source-git-commit: dbe312f332031391c49a973f323994f860e354e3
 workflow-type: tm+mt
-source-wordcount: '5932'
+source-wordcount: '5948'
 ht-degree: 12%
 
 ---
@@ -32,6 +32,8 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 * De maximumgrootte van contextafhankelijke kenmerken die worden doorgegeven aan een door de API geactiveerd campagneverzoek is bijgewerkt naar 200 kb. [Meer informatie](../campaigns/api-triggered-campaigns.md#contextual)
 
 * Een nieuwe sectie is toegevoegd aan **Manage fragments** pagina om te beschrijven hoe te om nieuwe attributen aan een levend fragment toe te voegen. De hele pagina is ook verbeterd. [Meer informatie](../content-management/manage-fragments.md#adding-new-attributes)
+
+* Er is een sectie ‘Hulplijnen en beperkingen’ toegevoegd aan de documentatie met betrekking tot conflictenbeheer en -prioriteiten. [Meer informatie](../conflict-prioritization/gs-conflict-prioritization.md)
 
 <!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
 
