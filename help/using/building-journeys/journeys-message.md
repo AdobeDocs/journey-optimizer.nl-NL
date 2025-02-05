@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, bericht, push, sms, e-mail, in-app, web, inhoudskaart, op code gebaseerde ervaring
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: b6c2b6370c5a68937ebcafcbe70c4a240bc14536
+source-git-commit: 34ecb4b7f30741d88fa69007e1c236eb731dc06c
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1324'
 ht-degree: 0%
 
 ---
@@ -150,11 +150,14 @@ Voor de activiteit in de app kunnen wijzigingen in de inhoud worden aangebracht 
 >title="Optimalisatie van verzonden tijd"
 >abstract="De functie voor Send-Time optimalisatie van Adobe Journey Optimizer, aangedreven door de AI-services van de Adobe, kan de beste tijd voorspellen om een e-mail- of pushbericht te verzenden om de betrokkenheid te maximaliseren op basis van een open historie en klikfrequentie."
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->Deze functie is niet standaard ingeschakeld. U kunt contact opnemen met uw Adobe om de pen te activeren.
+>* Optimalisatie van verzendtijd is niet standaard ingeschakeld. U kunt contact opnemen met uw Adobe om de pen te activeren.
 >
->De functie Send-Time optimalisatie is alleen van toepassing op e-mail- en pushkanalen.
+>* Ten minste 1000 profielen met recente berichtengegevens worden aanbevolen voor de eerste training en scoring voor optimalisatie tijdens de verzending.
+>
+>* De optimalisering van de Send-Time is slechts op **E-mail** en **Push- bericht** kanalen van toepassing.
+
 
 ### Over Send-Time optimalisatie {#about-send-time}
 
