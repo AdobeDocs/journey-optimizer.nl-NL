@@ -8,9 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: publiceren, reizen, live, geldigheid, controle
-source-git-commit: 9b4ff0325d099252a5785aa13cfe0f1fe42acac6
+exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
+source-git-commit: b604ab6d94f414b96378f15986edbcf92cee77dc
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -29,8 +30,8 @@ De weergegeven gebeurtenissen hebben zich in de afgelopen 24 uur voorgedaan, met
 
 Voor uw live reis hebt u toegang tot:
 
-* **[!UICONTROL Entered profiles]**: Het totale aantal personen dat de reis heeft verlaten (inclusief fouten).
-* **[!UICONTROL Exited profiled]**: Het totale aantal personen dat de reis heeft verlaten uit die activiteit, als gevolg van uitstapcriteria.
+* **[!UICONTROL Entered profiles]**: Het totale aantal personen dat de reis heeft betreden.
+* **[!UICONTROL Exited profiles]**: Het totale aantal personen dat de reis heeft verlaten (inclusief fouten).
 * **[!UICONTROL Profiles in error]**: Het totale aantal personen dat tijdens hun reis een fout heeft aangetroffen.
 * **[!UICONTROL Discarded profiles]**: Het totale aantal personen dat om een van de volgende redenen van de reis is verwijderd:
 
