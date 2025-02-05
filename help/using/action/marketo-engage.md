@@ -8,13 +8,13 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: markt, markt om integratie te bevorderen
-source-git-commit: 92591457d2189e3c43ea38c4a09d7cf565bb5d57
+exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
+source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
-
 
 # Integreren met Marketo Engage {#integrating-with-marketo-engage}
 
@@ -26,7 +26,7 @@ Sluit een naadloze gegevensintegratie met Marketo Engage aan. Deze specifieke aa
 ## Vereisten {#prerequisites}
 
 * De klanteninstantie van Marketo Engage moet IMS-Toegelaten zijn.
-* Marketo Engage-instantie en AEP/AJO-instantie moeten zich in dezelfde IMS Org bevinden.
+* Het exemplaar van het Marketo Engage en de instantie Adobe Experience Platform/Journey Optimizer moeten in de zelfde organisatie zijn.
 * De klant moet met **MktoSync worden voorzien: De toegang van de Dienst van de Opname**
 
 ## De handeling configureren {#configure-marketo-action}
@@ -113,4 +113,3 @@ U kunt nu uw aangepaste handeling op uw toegewijde canvas gebruiken.
 * In de **sectie van het Verzoek** parameters, geeft de klik voor elk van de parameters met dynamische waarden uit die u in de nuttige lading hebt gevormd.
 
 ![](assets/engage-use-canvas.png){width="70%" align="left"}
-

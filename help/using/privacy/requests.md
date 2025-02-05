@@ -7,7 +7,7 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
-source-git-commit: 41717213cb75185476f054bd076e67f942be0f1c
+source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 1%
@@ -16,16 +16,16 @@ ht-degree: 1%
 
 # Privacyverzoeken {#track-changes}
 
-Adobe Experience Platform **Privacy Service** biedt een RESTful-API en -gebruikersinterface waarmee u verzoeken om klantgegevens kunt beheren. Met Privacy Service kunt u verzoeken indienen om toegang te krijgen tot persoonlijke klantgegevens en deze te verwijderen uit Adobe Experience Cloud-toepassingen, waardoor u gemakkelijker kunt voldoen aan wettelijke en organisatorische privacyregels.
+Adobe Experience Platform **Privacy Service** verstrekt een RESTful API en gebruikersinterface om u te helpen verzoeken van klantengegevens beheren. Met Privacy Service kunt u verzoeken indienen om toegang te krijgen tot persoonlijke klantgegevens en deze te verwijderen uit Adobe Experience Cloud-toepassingen, waardoor u gemakkelijker kunt voldoen aan wettelijke en organisatorische privacyregels.
 
-De verzoeken van de privacy kunnen van worden gecreeerd en worden beheerd **[!UICONTROL Requests]** -menu.
+Privacy-aanvragen kunnen worden gemaakt en beheerd via het menu **[!UICONTROL Requests]** .
 
 ![](assets/requests.png)
 
 Raadpleeg de documentatie bij Adobe Experience Platform voor meer informatie over de Privacy Service en het maken en beheren van privacyverzoeken:
 
-* [Overzicht van Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl)
-* [Privacy-taken beheren in de gebruikersinterface van de Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html)
+* [ overzicht van de Privacy Service ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl)
+* [ het Leiden privacybanen in Privacy Service UI ](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html)
 
 
 
@@ -33,18 +33,18 @@ Raadpleeg de documentatie bij Adobe Experience Platform voor meer informatie ove
 
 U kunt individuele verzoeken om toegang tot en verwijdering van consumentengegevens vanuit Adobe Journey Optimizer op twee manieren verzenden:
 
-* Via de **UI PRIVACY SERVICE**. Zie de documentatie [hier](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/ui/user-guide#_blank).
-* Via de **Privacy Service-API**. Zie de documentatie [hier](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank) en API-informatie [hier](https://developer.adobe.com/experience-platform-apis/#_blank).
+* Door de **Privacy Service UI**. Zie de documentatie [ hier ](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/ui/user-guide#_blank).
+* Door **Privacy Service API**. Zie hier de documentatie [ ](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank) en API informatie [ ](https://developer.adobe.com/experience-platform-apis/#_blank).
 
-De Privacy Service ondersteunt twee soorten verzoeken: **gegevenstoegang** en **gegevensverwijdering**.
+De Privacy Service steunt twee soorten verzoeken: **gegevenstoegang** en **gegevensschrapping**.
 
 >[!NOTE]
 >
->In deze handleiding wordt alleen uitgelegd hoe u privacyverzoeken voor Adobe Journey Optimizer kunt indienen. Als u ook privacyverzoeken voor het gegevensmeer van het Platform wilt indienen, verwijs naar dit [hulplijn](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/privacy) in aanvulling op deze zelfstudie. Voor het profiel van de klant in real time, gelieve te verwijzen naar dit [hulplijn](https://experienceleague.adobe.com/en/docs/experience-platform/profile/privacy) en voor Identiteitsdienst, gelieve te verwijzen naar dit [hulplijn](https://experienceleague.adobe.com/en/docs/experience-platform/identity/privacy). Voor schrapping en toegangsverzoeken moet u deze individuele systemen roepen om ervoor te zorgen de verzoeken door elk van hen worden behandeld. Als u een privacyaanvraag bij Adobe Journey Optimizer indient, worden de gegevens niet van al deze systemen verwijderd.
+>In deze handleiding wordt alleen uitgelegd hoe u privacyverzoeken voor Adobe Journey Optimizer kunt indienen. Als u ook van plan bent om privacyverzoeken voor het de gegevensmeer van het Platform te maken, verwijs naar deze [ gids ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/privacy) naast dit leerprogramma. Voor Echte - tijdklantenprofiel, gelieve te verwijzen naar deze [ gids ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/privacy) en voor de dienst van de Identiteit, gelieve naar deze [ gids ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/privacy) te verwijzen. Voor schrapping en toegangsverzoeken moet u deze individuele systemen roepen om ervoor te zorgen de verzoeken door elk van hen worden behandeld. Als u een privacyaanvraag bij Adobe Journey Optimizer indient, worden de gegevens niet van al deze systemen verwijderd.
 
-Voor **toegangsverzoeken**, geeft u &quot;Adobe Journey Optimizer&quot; op in de gebruikersinterface (of &quot;CJM&quot; als productcode in de API).
+Voor **toegangsverzoeken**, specificeer &quot;Adobe Journey Optimizer&quot;van UI (of &quot;CJM&quot;als productcode in API).
 
-Voor **aanvragen verwijderen** Naast de aanvraag &quot;Adobe Journey Optimizer&quot; moet u ook verwijderingsverzoeken indienen voor drie upstream services om te voorkomen dat Journey Optimizer de verwijderde gegevens opnieuw uitpakt. Als deze upstream diensten niet worden gespecificeerd, zal het &quot;Adobe Journey Optimizer&quot;verzoek in de &quot;verwerking&quot;staat blijven tot schrappingsverzoeken voor de upstream diensten worden gecreeerd.
+Voor **schrapt verzoeken**, naast het &quot;Adobe Journey Optimizer&quot;verzoek, moet u schrappingsverzoeken aan drie stroomopwaartse diensten ook voorleggen om Journey Optimizer te verhinderen de geschrapte gegevens opnieuw uit te werpen. Als deze upstream diensten niet worden gespecificeerd, zal het &quot;Adobe Journey Optimizer&quot;verzoek in de &quot;verwerking&quot;staat blijven tot schrappingsverzoeken voor de upstream diensten worden gecreeerd.
 
 De drie upstream services zijn:
 
@@ -58,15 +58,15 @@ De drie upstream services zijn:
 
 Als u een aanvraag wilt indienen om gegevens voor Adobe Journey Optimizer te openen of te verwijderen, moet u beschikken over:
 
-* een IMS-organisatie-id
-* Een id van de identiteit van de persoon waarop u wilt optreden en de bijbehorende naamruimte(n). Raadpleeg voor meer informatie over naamruimten in Adobe Journey Optimizer en Experience Platform de klasse [Overzicht van naamruimte in identiteit](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces).
+* een organisatie-id voor de Adobe
+* een herkenningsteken van de Identiteit van de persoon u op en overeenkomstige namespace(s) wilt handelen.Voor meer informatie over identiteit namespaces in Adobe Journey Optimizer en Experience Platform, zie het [ overzicht van identiteitskaart namespace ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces).
 
 ### Vereiste veldwaarden in Adobe Journey Optimizer voor API-aanvragen
 
 ```json
 "companyContexts":
     "namespace": imsOrgID
-    "value": <Your IMS Org ID Value>
+    "value": <Your Adobe Organization ID Value>
 
 "users":
     "action": either access or delete

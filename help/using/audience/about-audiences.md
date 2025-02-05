@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
+source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
 workflow-type: tm+mt
-source-wordcount: '2010'
+source-wordcount: '2161'
 ht-degree: 0%
 
 ---
@@ -152,9 +152,26 @@ Nadat u een publiek voor het eerst hebt gedefinieerd, worden profielen toegevoeg
 
 Het ondersteunen van het publiek op basis van eerdere gegevens kan 24 uur in beslag nemen. Nadat het publiek is teruggevuld, wordt het publiek voortdurend bijgewerkt en is altijd klaar om zich te richten.
 
+### [!BADGE  Beperkte Beschikbaarheid ] {type=Informatieve} Flexibele publieksevaluatie (Beperkte Beschikbaarheid) {#flexible}
+
+>[!AVAILABILITY]
+>
+De flexibele publieksevaluatie is slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.
+
+Met het Adobe Experience Platform Audience Portal kunt u een segmentatietaak uitvoeren voor een geselecteerd publiek, zodat u altijd over de meest actuele publieksgegevens beschikt voordat u deze doelt op Journey Optimizer-reizen en -campagnes.
+
+Met flexibele publieksevaluatie kunt u:
+
+1. Maak een nieuw segment op basis van de meest recente gegevens.
+1. Evalueer het publiek in real time om nauwkeurigheid te verzekeren. Om dit te doen, kies de soorten publiek u &quot;evalueert publiek&quot;evalueert en wilt selecteren, op voorwaarde dat zij aan specifieke criteria (b.v., op mensen-gebaseerd, de oorsprong van de Dienst van de Segmentatie) voldoen.
+1. Het beoordeelde publiek in Adobe Journey Optimizer gebruiken
+campagnes of reizen voor een precieze doelgerichtheid.
+
+U kunt maximaal 20 soorten publiek tegelijk evalueren en niet-subsidiabele doelgroepen worden automatisch uitgesloten. Voor meer details, zie de [ Poortdocumentatie van het Poort van het Publiek ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
+
 ### Gebeurtenisgebruik met streaming segmentatie {#streaming-segmentation-events-guardrails}
 
-Streaming segmentatie is handig voor realtime personalisatie met gebruik van hoge waarden. Nochtans, is het belangrijk om de juiste [ gebeurtenissen ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events) te kiezen {target="_blank"} om als segmenteringscriteria te gebruiken.
+Streaming segmentatie is handig voor realtime personalisatie met gebruik van hoge waarden. Nochtans, is het belangrijk om de juiste [ gebeurtenissen ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events) te kiezen{target="_blank"}
 
 Voor het streamen van segmentatie zijn optimale prestaties dus beter geen gebruik te maken van de volgende gebeurtenissen:
 

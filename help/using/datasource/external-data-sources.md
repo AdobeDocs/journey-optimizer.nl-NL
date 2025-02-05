@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: extern, bronnen, gegevens, configuratie, verbinding, derde
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 8faeaea48e2f6e32cb3d66d0bd1fe53c33b08e65
+source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
 workflow-type: tm+mt
 source-wordcount: '1552'
 ht-degree: 51%
@@ -80,7 +80,7 @@ Hieronder vindt u de belangrijkste stappen voor het maken en configureren van ee
    >
    >* Wanneer de verificatieaanroep wordt uitgevoerd, wordt de `<username>:<password>` -tekenreeks, gecodeerd in base64, toegevoegd aan de verificatieheader.
    >
-   >* Adobe Journey Optimizer versleutelt automatisch geheimen die zijn gedefinieerd in aangepaste handelingen. De encryptiesleutels van elke organisatie worden veilig beheerd in een specifieke vault die aan hun Organisatie wordt gebonden. Wanneer de geloofsbrieven in de interface worden getoond, worden zij gemaskeerd door gebrek om toevallige blootstelling te verhinderen.
+   >* Adobe Journey Optimizer versleutelt automatisch geheimen die zijn gedefinieerd in aangepaste handelingen. De encryptiesleutels van elke organisatie worden veilig beheerd in een specifieke vault die aan hun organisatie wordt gebonden. Wanneer de geloofsbrieven in de interface worden getoond, worden zij gemaskeerd door gebrek om toevallige blootstelling te verhinderen.
 
 
    Voor meer informatie over de wijze van de douaneauthentificatie, zie [ deze sectie ](../datasource/external-data-sources.md#custom-authentication-mode). In ons voorbeeld kiezen we de API-sleutelverificatiemodus, zoals hieronder:

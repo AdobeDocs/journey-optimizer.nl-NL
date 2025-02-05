@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
+source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2278'
 ht-degree: 6%
 
 ---
@@ -37,6 +37,22 @@ ht-degree: 6%
 </p>
 <p>Raadpleeg de <a href="../reports/report-cja-manage.md#cja-template">gedetailleerde documentatie</a> voor meer informatie.</p>
 <p> De <b> functionaliteit van het Malplaatje </b> wordt geleidelijk ingevoerd in fasen, met volledige Algemene Beschikbaarheid die tegen eind Januari wordt gepland</p>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Flexibele evaluatie van het publiek (Beperkte Beschikbaarheid)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Dankzij de flexibele publieksevaluatie kunt u een segmentatietaak uitvoeren op aanvraag voor een geselecteerd publiek, zodat u altijd over de meest actuele publieksgegevens beschikt voordat u deze doelt op Journey Optimizer-reizen en -campagnes.</p>
+<p>Raadpleeg de <a href="../audience/about-audiences.md#flexible">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p> De flexibele publieksevaluatie is slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.</p>
 </tr>
 </tbody>
 </table>
