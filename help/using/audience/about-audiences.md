@@ -7,11 +7,10 @@ feature: Audiences, Profiles
 topic: Content Management
 role: User
 level: Beginner
-mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
+source-git-commit: a48fe20dcd06771c41164ecb1ea6df9d83a9a96c
 workflow-type: tm+mt
-source-wordcount: '2161'
+source-wordcount: '2159'
 ht-degree: 0%
 
 ---
@@ -152,7 +151,7 @@ Nadat u een publiek voor het eerst hebt gedefinieerd, worden profielen toegevoeg
 
 Het ondersteunen van het publiek op basis van eerdere gegevens kan 24 uur in beslag nemen. Nadat het publiek is teruggevuld, wordt het publiek voortdurend bijgewerkt en is altijd klaar om zich te richten.
 
-### [!BADGE  Beperkte Beschikbaarheid ] {type=Informatieve} Flexibele publieksevaluatie (Beperkte Beschikbaarheid) {#flexible}
+### [!BADGE Beperkte beschikbaarheid]{type=Informative} Flexibele doelgroepevaluatie {#flexible}
 
 >[!AVAILABILITY]
 >
