@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: a0e9800c5909369845f2a243e8967f7037c808d8
+source-git-commit: 102ea61835144b274c018b28881cacdb5ebba1fa
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 1%
@@ -67,7 +67,7 @@ Met het **code-gebaseerde ervaring** vermogen, kunt u binnenkomende ervaringen b
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
-➡️ een gebruiksgeval van begin tot eind dat toont hoe te om inhoudsexperimenten te gebruiken om besluiten met het op code-gebaseerde ervaringskanaal te vergelijken is presentend in [ deze sectie ](experience-decisioning-uc.md).
+➡️ een gebruiksgeval van begin tot eind dat toont hoe te om inhoudsexperimenten te gebruiken om besluiten met het op code-gebaseerde ervaringskanaal te vergelijken is presentend in [ deze sectie ](../experience-decisioning/experience-decisioning-uc.md).
 
 ## Wanneer moet u op code gebaseerde versus andere kanalen gebruiken? {#code-based-vs-other-channels}
 

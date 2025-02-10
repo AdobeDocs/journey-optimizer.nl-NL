@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+source-git-commit: 102ea61835144b274c018b28881cacdb5ebba1fa
 workflow-type: tm+mt
 source-wordcount: '1985'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Met experimenten met inhoud kunt u inhoud optimaliseren voor de acties in uw cam
 
 Experimenten bestaan uit een reeks gerandomiseerde onderzoeken, die in de context van online tests betekenen dat sommige willekeurig geselecteerde gebruikers worden blootgesteld aan een bepaalde variatie van een bericht en een andere willekeurig gekozen groep gebruikers aan een andere behandeling. Nadat u het bericht hebt verzonden, kunt u de resultaten meten die u interesseert, bijvoorbeeld wanneer u e-mailberichten opent of klikt.
 
-➡️ een gebruiksgeval van begin tot eind dat toont hoe te om inhoudsexperimenten te gebruiken om besluiten met het op code-gebaseerde ervaringskanaal te vergelijken is presentend in [ deze sectie ](experience-decisioning-uc.md).
+➡️ een gebruiksgeval van begin tot eind dat toont hoe te om inhoudsexperimenten te gebruiken om besluiten met het op code-gebaseerde ervaringskanaal te vergelijken is presentend in [ deze sectie ](../experience-decisioning/experience-decisioning-uc.md).
 
 ## Waarom experimenten uitvoeren?
 
