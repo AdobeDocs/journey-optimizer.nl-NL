@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: inhoud, experiment, meerdere, publiek, behandeling
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
+source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '701'
 ht-degree: 1%
 
 ---
@@ -41,6 +41,8 @@ Elke persoon in het doelpubliek ontvangt één versie van een e-mail, met een on
 Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het ontvangen experiment interactie aangaan. Daarom kiezen we **[!UICONTROL Email Opens]** als primaire doel-metrische waarde in dit Content Experiment.
 
 ![](assets/content_experiment.png)
+
+➡️ leren hoe te om inhoudexperimenten te gebruiken om besluiten met het op code-gebaseerde ervaringskanaal in [ te vergelijken dit gebruiksgeval ](experience-decisioning-uc.md).
 
 ## Uw inhoud maken {#campaign-experiment}
 
@@ -125,3 +127,4 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 1. Nadat de inhoud van uw bericht is gedefinieerd, klikt u op de knop **[!UICONTROL Simulate content]** om de weergave van uw levering te bepalen en controleert u instellingen voor de personalisatie met testprofielen. [Meer informatie](../content-management/preview-test.md)
 
 Na het vormen van uw experimenteren, kunt u het succes van uw levering met uw rapport volgen. [Meer informatie](../reports/campaign-global-report-cja-experimentation.md)
+

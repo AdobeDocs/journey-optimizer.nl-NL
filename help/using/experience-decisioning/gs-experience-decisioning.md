@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: cb6b73db76c710dd8e736e710f5eb758337be696
+source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,13 @@ ht-degree: 0%
 
 Beslissing vereenvoudigt personalisering door een gecentraliseerde catalogus van marketing aanbiedingen aan te bieden die als &quot;beslissingspunten&quot;en een geavanceerd besluitvormingsmotor worden bekend. Deze motor hanteert regels en rangschikkingscriteria om de meest relevante beslissingsitems te selecteren en aan elk individu voor te leggen.
 
-Deze besluitpunten zijn naadloos geïntegreerd in een brede waaier van binnenkomende oppervlakten door het [ nieuwe code-gebaseerde ervaringskanaal ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based), nu toegankelijk binnen de campagnes van Journey Optimizer. Beslissingsbeleid is beschikbaar voor gebruik in code-gebaseerde ervaringscampagnes slechts.
+Deze besluitpunten zijn naadloos geïntegreerd in een brede waaier van binnenkomende oppervlakten door het [ nieuwe code-gebaseerde ervaringskanaal ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based), nu toegankelijk binnen de campagnes van Journey Optimizer.
+
+>[!IMPORTANT]
+>
+>Beslissingsbeleid is beschikbaar voor gebruik in code-gebaseerde ervaringscampagnes slechts.
+
+➡️ een gebruiksgeval van begin tot eind dat toont hoe te om besluiten tot stand te brengen en hen te gebruiken in inhoudsexperimenten met het op code-gebaseerde ervaringskanaal wordt voorgesteld in [ deze sectie ](experience-decisioning-uc.md).
 
 ## Afbeeldingen en beperkingen {#guardrails}
 

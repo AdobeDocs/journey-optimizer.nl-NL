@@ -1,21 +1,19 @@
 ---
 title: Gebruiksscenario voor beslissing
-description: Leer hoe te om besluiten tot stand te brengen gebruikend experimenten met het op code-gebaseerde kanaal
+description: Leer hoe u beslissingen maakt en deze gebruikt in contentexperimenten met het op code gebaseerde ervaringskanaal
 feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-hide: true
-hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: bb66785f0b699d0ccf6cced035e64f206b104293
+source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '796'
 ht-degree: 3%
 
 ---
 
-# Gebruiksscenario voor beslissing {#experience-decisioning-uc}
+# Beslissing gebruiken in een op code gebaseerde ervaring met het experimenteren met inhoud {#experience-decisioning-uc}
 
 In dit geval worden alle stappen beschreven die nodig zijn om Decisioning te gebruiken met het op code gebaseerde kanaal van [!DNL Journey Optimizer] .
 

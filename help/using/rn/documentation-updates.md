@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: dbe312f332031391c49a973f323994f860e354e3
+source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
 workflow-type: tm+mt
-source-wordcount: '5948'
+source-wordcount: '5975'
 ht-degree: 12%
 
 ---
@@ -35,7 +35,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 
 * Er is een sectie ‘Hulplijnen en beperkingen’ toegevoegd aan de documentatie met betrekking tot conflictenbeheer en -prioriteiten. [Meer informatie](../conflict-prioritization/gs-conflict-prioritization.md)
 
-<!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
+* Er is een nieuw gebruiksgeval van begin tot eind toegevoegd om alle stappen voor te stellen die nodig zijn om het Beslissen in inhoudexperimenten met het [!DNL Journey Optimizer] op code-gebaseerde ervaringskanaal te gebruiken. [Meer informatie](../experience-decisioning/experience-decisioning-uc.md)
 
 ## December 2024 {#nov-2024}
 
@@ -94,13 +94,13 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 
 * Alle nieuwe functies en verbeteringen die zijn geïntroduceerd in de release van [!DNL Journey Optimizer] april 24 zijn beschreven in de documentatie. [Meer informatie](release-notes.md#apr-2024)
 * De configuratiestappen voor In-app overseinen zijn gedetailleerd geweest. [Meer informatie](../in-app/inapp-configuration.md)
-* De documentatie voor [ Offer decisioning APIs ](../offers/api-reference/offer-delivery-api/decisioning-api.md) en [ de besluitvorming APIs van de Partij ](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) is bijgewerkt.
+* De documentatie voor [ de besluitvorming APIs van de Aanbieding ](../offers/api-reference/offer-delivery-api/decisioning-api.md) en [ de beslissing APIs van de Partij ](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) is bijgewerkt.
 * Er is informatie toegevoegd aan de documentatie van het Beslissingsbeheer met betrekking tot het beheer van Edge- en hubregio&#39;s bij het gebruik van frequentiecontrole met de Edge-API voor besluitvorming. [Meer informatie](../offers/offer-library/add-constraints.md#frequency-capping)
 * Er is informatie toegevoegd over het maken van identiteiten met aangepaste naamruimten wanneer er wordt gewerkt met API-gestuurde campagnes. [Meer informatie](../campaigns/api-triggered-campaigns.md)
 * Screeshots zijn bijgewerkt met de verbeterde Journey canvas.
 * Het noemen van beperkingen is bijgewerkt in de volgende pagina: [ vormt een unitaire gebeurtenis ](../event/about-creating.md), [ vormt een bedrijfsgebeurtenis ](../event/about-creating-business.md#gs-business-events), [ vormt een douaneactie ](../action/about-custom-action-configuration.md#configuration-steps), [ Externe gegevensbronnen ](../datasource/external-data-sources.md)
 * Er is een opmerking toegevoegd bij de beschikbaarheid van de functie Tijd optimaliseren verzenden. [Meer informatie](../building-journeys/journeys-message.md#send-time-optimization)
-* Er is een nieuw geval voor technisch gebruik toegevoegd voor het maken van een aangepaste handeling voor het verzenden van gegevens naar het Experience Platform. [Meer informatie](../building-journeys/custom-action-aep.md)
+* Er is een nieuw geval voor technisch gebruik toegevoegd voor het maken van een aangepaste handeling voor het verzenden van gegevens naar Experience Platform. [Meer informatie](../building-journeys/custom-action-aep.md)
 
 ## Maart 2024 {#march-2024}
 
@@ -115,8 +115,8 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
    * P: Sneltoets om een gebeurtenis te starten in een op het publiek gebaseerde reis waarvoor de optie Eén profiel tegelijk is ingeschakeld.
    * L: Sneltoets die is toegewezen om de testlogs weer te geven.
 * De pagina met regels voor berichtfrequenties is bijgewerkt met een nieuwe subsectie over de limiet voor dagelijkse frequenties, die naast de wekelijkse of maandelijkse aftopping op aanvraag beschikbaar is. [Meer informatie](../configuration/frequency-rules.md#daily-frequency-cap)
-* De pagina Werken met toestemmingsbeleid is verbeterd en bijgewerkt met nuttige koppelingen naar de documentatie van het Experience Platform. [Meer informatie](../action/consent.md)
-* Er is een nieuwe sectie toegevoegd om aan te geven dat u sjablonen voor e-mailinhoud van HTML als miniaturen kunt weergeven in de modus Rasterweergave (Beperkte beschikbaarheid). [Meer informatie](../content-management/content-templates.md#template-thumbnails)
+* De pagina Werken met toestemmingsbeleid is verbeterd en bijgewerkt met nuttige koppelingen naar de documentatie van Experience Platform. [Meer informatie](../action/consent.md)
+* Er is een nieuwe sectie toegevoegd om aan te geven dat u HTML-sjablonen voor e-mailinhoud kunt weergeven als miniaturen in de modus Rasterweergave (Beperkte beschikbaarheid). [Meer informatie](../content-management/content-templates.md#template-thumbnails)
 * Er is een nieuwe sectie toegevoegd aan de pagina Leverbaarheid om uit te leggen welke feedbackcycli zijn en hoe u deze kunt gebruiken. [Meer informatie](../reports/deliverability.md#feedback-loops)
 * Er is een opmerking toegevoegd aan de sectie Aangepaste aanbiedingen maken om aan te geven dat de grootte van een aanbieding met alle representaties niet groter mag zijn dan 300 kB. [Meer informatie](../offers/offer-library/creating-personalized-offers.md#create-offer)
 
@@ -140,7 +140,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 * Er is een begeleiding toegevoegd over de grootte van de reis. [Meer informatie](../start/guardrails.md#journeys-guardrails-journeys)
 * Het onderbrekingsbeheer van de reis is gedetailleerd [ in de volgende sectie ](../building-journeys/journey-properties.md#global_timeout) geweest.
 * Journey Optimizer [ documentatiehuis ](../../ajo-home.md) pagina is opnieuw ontworpen.
-* Recommendations over de activiteit Profielen bijwerken is toegevoegd. [Meer informatie](../building-journeys/update-profiles.md)
+* Er zijn aanbevelingen toegevoegd over de activiteit Profielen bijwerken. [Meer informatie](../building-journeys/update-profiles.md)
 * Er is informatie toegevoegd over het gedrag van onderbrekingen in de activiteiten van gebeurtenissen tijdens reizen. Wanneer geen gebeurtenis tijdens de gespecificeerde onderbrekingsperiode wordt ontvangen, zullen de individuen de reis voortzetten als geen onderbrekingspad wordt bepaald. [Meer informatie](../building-journeys/general-events.md#events-specific-time)
 * De vereisten van de in-app kanaalconfiguratie zijn bijgewerkt met een nota over het gebruik van een de voorkeur van de Dataset van de douane samenvoegbeleid. [Meer informatie](../in-app/inapp-configuration.md)
 * Er zijn meer details toegevoegd over het manipuleren van verzamelingen in een aangepaste handelingsreactie. [Meer informatie](../action/action-response.md#exp-syntax).
@@ -169,18 +169,18 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 ## Oktober 2023 {#oct-2023}
 
 * Alle nieuwe functies en verbeteringen die worden geïntroduceerd in de release van [!DNL Journey Optimizer] oktober 23 zijn beschreven in de documentatie. [Meer informatie](release-notes.md)
-* Toegevoegde GIFFEN om sommige zeer belangrijke mogelijkheden, zoals te illustreren: [ de malplaatjes van de Inhoud ](../content-management/content-templates.md), [ Fragmenten ](../content-management/fragments.md), [ Geschikt attributen ](../audience/computed-attributes.md), [ Directe post ](../direct-mail/get-started-direct-mail.md), [ Markeringen ](../start/search-filter-categorize.md#tags), [ modellen van de het beheeroptimalisering van het Besluit ](../offers/ranking/personalized-optimization-model.md), [ API-teweeggebrachte campagnes ](../campaigns/api-triggered-campaigns.md), en [ experiment ](../content-management/content-experiment.md).
+* Toegevoegde GIFs om sommige zeer belangrijke mogelijkheden, zoals te illustreren: [ de malplaatjes van de Inhoud ](../content-management/content-templates.md), [ Fragmenten ](../content-management/fragments.md), [ Geschikt attributen ](../audience/computed-attributes.md), [ Directe post ](../direct-mail/get-started-direct-mail.md), [ Markeringen ](../start/search-filter-categorize.md#tags), [ modellen van de het beheeroptimalisering van het Besluit ](../offers/ranking/personalized-optimization-model.md), [ API-teweeggebrachte campagnes ](../campaigns/api-triggered-campaigns.md), en [ Inhoudsexperiment ](../content-management/content-experiment.md).
 * Het proces voor het maken van schema&#39;s is bijgewerkt met de meest recente updates in de gebruikersinterface die worden geleverd bij Adobe Experience Platform-wijzigingen. [Meer informatie](../audience/creating-test-profiles.md)
 * De pagina met instructies voor beslissingsbeheer is toegevoegd aan de pagina met instructies en beperkingen. [Meer informatie](../start/guardrails.md#decision-management)
 * De sectie van de Parameters van de Kopbal is bijgewerkt om erop te wijzen hoe de uit-van-bureauberichten en uitdagingsreacties worden behandeld (zij worden ontvangen op **[!UICONTROL Error email]**). [Meer informatie](../email/email-settings.md#email-header)
 * Er is een nieuwe sectie gemaakt voor het voorvertonen en testen van uw inhoud. [Meer informatie](../content-management/preview-test.md)
-* De implementeer single-page toepassingenpagina is verplaatst naar de documentatie van het Web SDK van het Palet van de Ervaring van de Adobe. [ las meer ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html) {target="_blank"}
+* De toepassingspagina van de Implementatie single-page is verplaatst naar de documentatie van het Web SDK van het Palet van de Ervaring van Adobe. [ las meer ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html) {target="_blank"}
 * De sectie van het Afschilderen is bijgewerkt om op de etiketveranderingen met betrekking tot aanbieding het maximum in de interface van het besluitvormingsbeheer te wijzen. [Meer informatie](../offers/offer-library/add-constraints.md#capping)
 * De functie Dynamische inhoud toevoegen aan e-mailberichten is bijgewerkt met informatie over het verwijderen van een variant. [Meer informatie](../personalization/dynamic-content.md#emails)
 * Het voorbeeld voor configuraties met begrenzing en vertraging is bijgewerkt. [Meer informatie](../configuration/external-systems.md)
 * De beperking met betrekking tot scalaire arrays is verwijderd uit de externe gegevensbronsectie. [Meer informatie](../datasource/external-data-sources.md)
 * De meerkanaals reisgebruikscase is bijgewerkt. [Meer informatie](../building-journeys/journeys-uc.md)
-* De Journey Optimizer documentatieset is bijgewerkt om het nieuwe proces van het creëren van het schema van het Experience Platform te weerspiegelen.
+* De documentatieset van Journey Optimizer is bijgewerkt met het nieuwe proces voor het maken van Experience Platform-schema&#39;s.
 
 ## September 2023 {#september-2023}
 
@@ -202,7 +202,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 * Alle nieuwe functies en verbeteringen die worden geïntroduceerd in de release van [!DNL Journey Optimizer] augustus 23 zijn beschreven in de documentatie. [Meer informatie](release-notes.md)
 * De nota over **beheer van het authentificatiecache** in reis is bijgewerkt om te specificeren dat het teken niet tussen verschillende reizen wordt gedeeld. [Meer informatie](../datasource/external-data-sources.md#custom-authentication-mode)
 * De pagina over reis **ingangsbeheer** is bijgewerkt om gedrag te verduidelijken. [Meer informatie](../building-journeys/entry-management.md)
-* Offer decisioning **de uitvoerdatasets** worden nu toegelaten door gebrek. De opmerking over het vorige gedrag is verwijderd.  [Meer informatie](../offers/export-catalog/get-started-export.md)
+* De besluitvorming van de aanbieding **de uitvoerdatasets** wordt nu toegelaten door gebrek. De opmerking over het vorige gedrag is verwijderd.  [Meer informatie](../offers/export-catalog/get-started-export.md)
 * Diverse **metriek van het campagnerapport** zijn anders genoemd, in zowel Levende als Globale rapporten. [Meer informatie](../reports/campaign-live-report.md)
 * Er is een nieuwe sectie toegevoegd over de voorwaarden voor het testen van inhoud voor het webkanaal. [Meer informatie](../web/web-prerequisites.md#experiment-prerequisites)
 * Een waarschuwing is toegevoegd op het **Werk met inhoudsmalplaatjes** pagina om erop te wijzen dat momenteel het volgen niet wanneer het testen van e-mailinhoudsmalplaatjes wordt gesteund. Voor het testen van het bijhouden moet u de inhoudssjabloon in een e-mail gebruiken en een proefdruk verzenden. [Meer informatie](../content-management/content-templates.md#test-template)
@@ -230,7 +230,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 ## Mei 2023 {#may-2023}
 
 * Alle nieuwe functies en verbeteringen die worden geïntroduceerd in de release van [!DNL Journey Optimizer] mei 2013 zijn beschreven in de documentatie. [Meer informatie](release-notes.md)
-* Er is een nieuwe pagina toegevoegd waarin wordt beschreven hoe u het subdomein instelt dat wordt gebruikt om inhoud die afkomstig is van de Adobe Experience Manager Assets Essentials, te publiceren in uw webervaringen. [Meer informatie](../web/web-delegated-subdomains.md)
+* Er is een nieuwe pagina toegevoegd die beschrijft hoe u het subdomein kunt instellen dat wordt gebruikt om inhoud te publiceren die afkomstig is van de Adobe Experience Manager Assets Essentials in uw webervaringen. [Meer informatie](../web/web-delegated-subdomains.md)
 * Er is een nieuwe subsectie toegevoegd waarin wordt uitgelegd hoe u aangepaste volgparameters kunt toevoegen aan URL&#39;s in de e-mailtoepassing van Designer. [Meer informatie](../email/message-tracking.md#url-tracking)
 * Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe u ervoor kunt zorgen dat de keuze van uw klanten die ervoor kiezen hun profielgegevens niet te laten gebruiken voor personalisatie, wordt gerespecteerd. [Meer informatie](../privacy/opt-out.md#opt-out-personalization)
 * Er is een opmerking toegevoegd over het gebruik van speciale internationale tekens in URL&#39;s die in e-mailinhoud zijn opgenomen. [Meer informatie](../email/message-tracking.md#insert-links)
@@ -255,7 +255,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 * Het Journey Optimizer-schemawoordenboek is nu beschikbaar. U zult de volledige lijst van gebieden en attributen voor elk schema vinden.  [Meer informatie](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * Alle nieuwe functies en verbeteringen die worden geïntroduceerd in de release van [!DNL Journey Optimizer] maart 23 zijn beschreven in de documentatie. [Meer informatie](release-notes.md)
 * Voeg een stap toe om Adobe Analytics-gebeurtenissen tijdens uw reizen mogelijk te maken. [Meer informatie](../event/about-analytics.md)
-* In de gids voor het beheer van besluiten is een nieuw gedeelte opgenomen over de wijze waarop feedback van offer decisioning in Adobe Experience Platform kan worden verzameld, met inbegrip van de aanbiedingen die worden weergegeven en de wijze waarop gebruikers met hen communiceren. [Meer informatie](../offers/data-collection/data-collection.md)
+* In de gids voor het beheer van besluiten is een nieuw gedeelte opgenomen over de wijze waarop feedback over beslissingen bij aanbiedingen in Adobe Experience Platform kan worden verzameld, met inbegrip van de aanbiedingen die worden weergegeven en de wijze waarop gebruikers met hen communiceren. [Meer informatie](../offers/data-collection/data-collection.md)
 * Een nieuwe onderafdeling is toegevoegd aan **creeer besluit** sectie om het verschil tussen het evalueren van criteria in een opeenvolgende orde of tezelfdertijd te verklaren. [Meer informatie](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
 * Er is een hulplijn toegevoegd voor het lezen van lezersritten met incrementeel lezen. U kunt geen nieuwe versie maken, u moet de reis dupliceren. [Meer informatie](../start/guardrails.md#journey-versions-g)
 * Het gebruiksgeval op hoe te om productie te beperken is bijgewerkt met informatie over het vertragen mogelijkheden. [Meer informatie](../building-journeys/limit-throughput.md)
@@ -266,7 +266,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 
 * Alle nieuwe functies en verbeteringen die worden geïntroduceerd in de release [!DNL Journey Optimizer] Feb &#39;23 zijn beschreven in de documentatie. [Meer informatie](release-notes.md)
 * Er is informatie toegevoegd over de canvaswerkbalk. [Meer informatie](../building-journeys/using-the-journey-designer.md#gs-journey-design)
-* Er is informatie toegevoegd om aan te geven dat interne adressen van Adoben niet zijn toegestaan in URL&#39;s en API&#39;s. [Meer informatie](../start/guardrails.md)
+* Er is informatie toegevoegd om aan te geven dat interne Adobe-adressen niet zijn toegestaan in URL&#39;s en API&#39;s. [Meer informatie](../start/guardrails.md)
 * Er is een opmerking toegevoegd aan de API-getriggerde campagnedocumentatie om op te geven dat contextafhankelijke kenmerken die aan de aanvraag worden doorgegeven, niet groter mogen zijn dan 50 kB. [Meer informatie](../campaigns/api-triggered-campaigns.md#contextual)
 * De informatie werd toegevoegd op hoe de opt-out informatie in de **Dataset van de Dienst van de Goedkeuring** wordt opgeslagen nadat de ontvangers door een landende pagina worden afgemeld. [Meer informatie](../landing-pages/lp-use-cases.md#configure-opt-out)
 
@@ -351,7 +351,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 * Alle nieuwe functies en verbeteringen die zijn geïntroduceerd in de release van [!DNL Journey Optimizer] juni 22 zijn beschreven in de documentatie. [Meer informatie](release-notes.md)
 * Er is een nieuwe sectie over privacyverzoeken toegevoegd aan de documentatie. [Meer informatie](../privacy/requests.md)
 * Een nieuwe sectie over de logboeken van de Controle op middelen is toegevoegd aan de documentatie. [Meer informatie](../privacy/audit-logs.md)
-* Er is een nieuw gedeelte toegevoegd aan de documentatie over het toevoegen van HTML- of JSON-inhoud uit de Adobe Experience Cloud Asset Library aan een aanbiedingsweergave. [Meer informatie](../offers/offer-library/add-representations.md#html-json)
+* Er is een nieuwe sectie toegevoegd aan de documentatie over het toevoegen van HTML- of JSON-inhoud uit de Adobe Experience Cloud Asset Library aan een aanbiedingsweergave. [Meer informatie](../offers/offer-library/add-representations.md#html-json)
 * Er is een nieuwe pagina toegevoegd over de levensstijl van de reis. [Meer informatie](../building-journeys/journey.md#journey-versions)
 * De pagina Wachttijd activiteit is bijgewerkt. [Meer informatie](../building-journeys/wait-activity.md)
 * De lijst met Adobe Journey Optimizer-gegevenssets met queryvoorbeelden toegevoegd. [Meer informatie](../data/datasets-query-examples.md)
@@ -387,7 +387,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 ## Maart 2022 {#march-2022}
 
 * Alle nieuwe functies en verbeteringen die worden geïntroduceerd in de release van [!DNL Journey Optimizer] maart 22 zijn beschreven in de documentatie. [Meer informatie](release-notes.md)
-* Een nieuwe pagina bij het worden begonnen met AI modellen is toegevoegd aan de **Offer decisioning** sectie, met inbegrip van een grondige beschrijving van het [ auto-optimaliseringsmodel ](../offers/ranking/auto-optimization-model.md), het algoritme het gebruikt en meer technische details. [Meer informatie](../offers/ranking/ai-models.md)
+* Een nieuwe pagina bij het worden begonnen met AI modellen is toegevoegd aan de **het besluit van de Aanbieding** sectie, met inbegrip van een grondige beschrijving van het [ auto-optimaliseringsmodel ](../offers/ranking/auto-optimization-model.md), het algoritme het gebruikt en meer technische details. [Meer informatie](../offers/ranking/ai-models.md)
 * De de aanmaakpagina van het testprofiel is verplaatst naar de **Publiek, de profielen en de identiteitssectie**. [Meer informatie](../audience/creating-test-profiles.md)
 * Er is een voorbeeld toegevoegd over het toevoegen van een expressie als standaardwaarde in de expressie-editor. [Meer informatie](../building-journeys/expression/field-references.md#default-value)
 * **creeer gepersonaliseerde aanbiedingen** sectie is gereorganiseerd voor betere leesbaarheid. [Meer informatie](../offers/offer-library/creating-personalized-offers.md)
@@ -403,7 +403,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 ## Januari 2022 {#january-2022}
 
 * Alle nieuwe functies en verbeteringen die worden geïntroduceerd in de release van [!DNL Journey Optimizer] Jan &#39;22 zijn in detail besproken in de documentatie. [Meer informatie](release-notes.md)
-* De **Offer decisioning AI rangschikkingen** sectie is bijgewerkt met een meer gedetailleerde beschrijving van het auto-optimaliseringsmodel. [Meer informatie](../offers/ranking/auto-optimization-model.md)
+* De **het besluiten van de Aanbieding AI rankings** sectie is bijgewerkt met een meer gedetailleerde beschrijving van het auto-optimaliseringsmodel. [Meer informatie](../offers/ranking/auto-optimization-model.md)
 * Er is een nieuwe sectie toegevoegd over de schemavereisten die nodig zijn om gebeurtenistypen te kunnen verzenden bij het gebruik van een AI-model. [Meer informatie](../offers/data-collection/schema-requirement.md)
 * De sectie met betrekking tot [!DNL Journey Optimizer] personalisatiemogelijkheden is gereorganiseerd voor betere leesbaarheid. [Meer informatie](../personalization/personalize.md)
 * **creeer bericht vooraf instelt** sectie is verdeeld in verscheidene secties voor betere duidelijkheid. [Meer informatie](../configuration/channel-surfaces.md#create-channel-surface)
@@ -452,7 +452,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 
 * Verbeterde **Snelle begin** pagina met stappen voor verschillende persona&#39;s. [Meer informatie](../start/quick-start.md)
 
-* Nu zijn alle functies voor Beslissingsbeheer die in de desbetreffende sectie worden beschreven ook van toepassing op Adobe Experience Platform-gebruikers die gebruikmaken van de toepassing Offer decisioning. [Meer informatie](../offers/get-started/starting-offer-decisioning.md)
+* Nu zijn alle functies voor Beslissingsbeheer die in de desbetreffende sectie worden beschreven ook van toepassing op Adobe Experience Platform-gebruikers die gebruikmaken van de Offer Decisioning-toepassing. [Meer informatie](../offers/get-started/starting-offer-decisioning.md)
 
 * Een subsectie toegevoegd om de verschillen tussen het gebruik van regels voor publiek en beslissing bij het toepassen van een beperking om de selectie van aanbiedingen voor een bepaalde plaatsing te beperken, te verduidelijken. [Meer informatie](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
@@ -473,7 +473,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 * De sectie lijst van gewenste personen inschakelen is bijgewerkt. [Meer informatie](../configuration/allow-list.md#enable-allow-list)
 * De sectie met voorinstellingen voor monitorberichten is bijgewerkt met de mogelijke oorzaken van een eventuele fout bij het maken van de voorinstelling en details over dergelijke fouten. [Meer informatie](../configuration/channel-surfaces.md#monitor-channel-surfaces)
 * De sectie Tijdsperiode voor opnieuw proberen is bijgewerkt en de naam is gewijzigd om aan te geven dat u de instelling voor het opnieuw proberen van e-mail nu kunt aanpassen in de voorinstellingen voor berichten. [Meer informatie](../configuration/retries.md#retry-duration)
-* De subdomeinsectie Delegeren is bijgewerkt met meer gedetailleerde informatie over het validatieproces dat door de Adobe wordt uitgevoerd. [Meer informatie](../configuration/delegate-subdomain.md#subdomain-validation)
+* De subdomeinsectie Delegeren is bijgewerkt met meer gedetailleerde informatie over het validatieproces dat door Adobe wordt uitgevoerd. [Meer informatie](../configuration/delegate-subdomain.md#subdomain-validation)
 * Er is een sectie toegevoegd waarin wordt beschreven hoe u handmatig e-mailadressen en domeinen aan de suppressielijst kunt toevoegen. [Meer informatie](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * Bijgewerkt [ heb toegang tot de suppressielijst ](../configuration/manage-suppression-list.md#access-suppression-list) sectie en [ probeert ](../configuration/retries.md) secties opnieuw om op het nieuwe gebruikersinterface te wijzen.
 * De nieuwe flow om weergaven toe te voegen en te configureren wanneer u een aanbod maakt, is gedocumenteerd. [Meer informatie](../offers/offer-library/creating-personalized-offers.md#representations)
@@ -481,8 +481,8 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 ## Juli 2021 {#july-2021}
 
 * Alle nieuwe functies en verbeteringen die worden geïntroduceerd in de release van [!DNL Journey Optimizer] juli 21 zijn beschreven in de documentatie. [Meer informatie](release-notes.md)
-* Directe koppelingen zijn toegevoegd aan de documentatie bij Experience Platforms services op de startpagina en de inhoudsopgave van [!DNL Journey Optimizer] .
-* Nieuwe openingspagina&#39;s voor services voor Experience Platforms beschikbaar in [!DNL Journey Optimizer]
+* Rechtstreekse koppelingen zijn toegevoegd aan de documentatie bij Experience Platform-services op de startpagina en de inhoudsopgave van [!DNL Journey Optimizer]
+* Nieuwe openingspagina&#39;s voor Experience Platform-services beschikbaar in [!DNL Journey Optimizer]
 * Koppelingen naar de productbeschrijving van [!DNL Journey Optimizer] toegevoegd op de startpagina
 * Videozelfstudie toegevoegd op meerdere pagina&#39;s
 * Geoptimaliseerde homepage-images
