@@ -6,9 +6,9 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+source-git-commit: a0e9800c5909369845f2a243e8967f7037c808d8
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '791'
 ht-degree: 1%
 
 ---
@@ -67,6 +67,8 @@ Met het **code-gebaseerde ervaring** vermogen, kunt u binnenkomende ervaringen b
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
+➡️ een gebruiksgeval van begin tot eind dat toont hoe te om inhoudsexperimenten te gebruiken om besluiten met het op code-gebaseerde ervaringskanaal te vergelijken is presentend in [ deze sectie ](experience-decisioning-uc.md).
+
 ## Wanneer moet u op code gebaseerde versus andere kanalen gebruiken? {#code-based-vs-other-channels}
 
 ### Codegebaseerde versus andere kanalen
@@ -88,7 +90,7 @@ Als u zaken voor webgebruik wilt uitvoeren, kunt u het webkanaal of de ervaring 
 **Web**
 
 * Bewerk uw inhoud gebruikend de ](../web/web-visual-editor.md){target="_blank"} visuele redacteur van de 0} Webontwerper {of de Web [ niet-visuele redacteur ](../web/web-non-visual-editor.md).[
-* U hebt [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html) {target="_blank"} nodig - een cliënt-zijimplementatie.
+* U hebt het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html) {target="_blank"} nodig - een cliënt-zijimplementatie.
   <!--* You need the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}-->
 * Met het webkanaal kunt u alles op de pagina wijzigen en hebt u een vooraf gedefinieerde lijst met handelingen die u kunt gebruiken om wijzigingen aan te brengen. [Meer informatie](../web/web-visual-editor.md){target="_blank"}
 * Het is eenvoudig om in te stellen en snel te gaan.
@@ -97,7 +99,7 @@ Als u zaken voor webgebruik wilt uitvoeren, kunt u het webkanaal of de ervaring 
 **op code-gebaseerde ervaring**
 
 * Bewerk uw inhoud gebruikend de [ verpersoonlijkingsredacteur ](create-code-based.md#edit-code).
-* U hebt of de [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html) {target="_blank"} - cliënt-zijimplementatie, of de [ API van de Server van de Edge Network AEP ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) {target="_blank"} - server-zijimplementatie nodig.
+* U hebt of het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html) {target="_blank"} - cliënt-zijimplementatie, of [ AEP Edge Network Server API ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) {target="_blank"} - server-zijimplementatie nodig.
 * De op code-gebaseerde ervaring vereist vorige ontwikkelingswerk aan uw implementatie om ervoor te zorgen dat uw toepassingen de inhoud kunnen interpreteren en leveren die op de rand door [!DNL Journey Optimizer] voor deze plaatsen wordt gepubliceerd. [Meer informatie](code-based-surface.md)
 * Het vereist meer planning en het kan slechts de dingen veranderen die de ontwikkelaars specificeren. Daarom is het essentieel om de componenten (huisbanner, heldenbeeld, menubalk, enz.) op de toepassingen te identificeren die voor verpersoonlijking of het testen moeten worden gewijzigd, en met uw ontwikkelingsteam te werken om de implementatie te bouwen nodig voor het behandelen van deze veranderingen.
 * U kunt hiermee JSON-code-inhoud gebruiken.
@@ -113,7 +115,7 @@ Als u de inhoud wilt bewerken met de ervaringsfunctie van [!DNL Journey Optimize
 
 >[!NOTE]
 >
->De inhoud die momenteel aan een configuratie is gekoppeld, kan alleen HTML of JSON zijn.
+>Momenteel kan de inhoud die aan een configuratie is gekoppeld, alleen HTML of JSON zijn.
 
 De belangrijkste stappen om een op code-gebaseerde ervaring tot stand te brengen en te leveren zijn als volgt.
 
@@ -129,13 +131,11 @@ De belangrijkste stappen om een op code-gebaseerde ervaring tot stand te brengen
 
 1. Test uw op code gebaseerde ervaring. [ leer hoe ](test-code-based.md)
 
-1. Publish. [ leer hoe ](publish-code-based.md)
+1. Publiceer het. [ leer hoe ](publish-code-based.md)
 
 1. Als uw op code gebaseerde ervaringstraject of -campagne live is, moet de app- of paginaimplementatie die om inhoud voor het oppervlak vraagt, aanwezig zijn om de inhoud op te halen en weer te geven.
 
    >[!INFO]
    >
-   >Om dit te verzekeren, doet uw toepassings implementatieteam expliciete API of SDK vraag om inhoud voor de oppervlakte te halen die in de op code-gebaseerde configuratie wordt bepaald, zoals &quot;Banner Tekst&quot;of &quot;Lade 1 van Recommendations&quot;, of niet-UI-verwante besluitvormingspunten in een toepassing, zoals &quot;onderzoeksalgoritmeparameters&quot;. <!--In this case, the implementation team is responsible for rendering or otherwise interpreting and acting on the returned content.--> [Meer informatie](code-based-implementation-samples.md)
-
-
+   >Om dit te verzekeren, maakt uw app implementatieteam expliciete API of SDK vraag om inhoud voor de oppervlakte te halen die in de op code-gebaseerde configuratie wordt bepaald, zoals &quot;Banner Tekst&quot;of &quot;het Lijn van Aanbevelingen 1&quot;, of niet-UI-verwante besluitvormingspunten in een toepassing, zoals &quot;onderzoeksalgoritmeparameters&quot;. <!--In this case, the implementation team is responsible for rendering or otherwise interpreting and acting on the returned content.--> [Meer informatie](code-based-implementation-samples.md)
 
