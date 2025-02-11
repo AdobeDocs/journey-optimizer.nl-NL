@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
+source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,7 @@ Deze documentatie bevat gedetailleerde informatie over het werken met de composi
 
 De samenstelling van het publiek staat u toe om **samenstellingswerkschema&#39;s** tot stand te brengen, waar u het bestaande publiek van Adobe Experience Platform in een visueel canvas kunt combineren en hefboomwerking diverse activiteiten (verdeeld, uitsluiten...) om nieuw publiek tot stand te brengen.
 
-Zodra gedaan, wordt het **resulterende publiek** bewaard in Adobe Experience Platform samen met bestaand publiek en kan hefboomwerking in de campagnes en de reizen van Journey Optimizer aan doelklanten worden. [ leer hoe te om publiek in Journey Optimizer te richten ](../audience/about-audiences.md#segments-in-journey-optimizer)
-
+Zodra gedaan, wordt het **resulterende publiek** bewaard in Adobe Experience Platform samen met bestaand publiek en kan hefboomwerking in de campagnes en de reizen van Journey Optimizer aan doelklanten worden. Leer hoe u doelgroepen kunt maken in Journey Optimizer
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
@@ -50,13 +49,64 @@ De compositie van het publiek is toegankelijk via het menu Adobe Journey Optimiz
 
 * Op het tabblad **[!UICONTROL Compositions]** kunt u samenstellingsworkflows maken waarin u het publiek kunt combineren en rangschikken om nieuwe te maken.
 
-Klik op elke kaart om te leren hoe te met publiekssamenstelling te werken:
+## Een compositieworkflow maken {#create}
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><a href="create-compositions.md"><img alt="Samenstellingswerkstromen maken" src="../assets/do-not-localize/ao-workflows.jpg"></a>
-<div><a href="create-compositions.md"><strong> creeer uw eerste samenstellingswerkschema </strong></a></div></td>
-<td><a href="composition-canvas.md"><img alt="Werken met het compositicanvas" src="../assets/do-not-localize/ao-canvas.jpg"></a>
-<div><a href="composition-canvas.md"><strong> Werk met het samenstellingscanvas </strong></a></div></td>
-<td><a href="access-audiences.md"><img alt="Toegang tot en beheer van het publiek" src="../assets/do-not-localize/ao-audiences.jpeg"></a>
-<div><a href="access-audiences.md"><strong> toegang en beheer publiek </strong></a></div></td>
-</tr></table>
+Ga als volgt te werk om een compositieworkflow te maken:
+
+1. Open het menu **[!UICONTROL Audiences]** en selecteer **[!UICONTROL Create Audience]** .
+
+1. Selecteer **[!UICONTROL Compose Audience]**.
+
+   ![](assets/audiences-create.png)
+
+1. Het compositicanvas wordt weergegeven met twee standaardactiviteiten:
+
+   * **[!UICONTROL Audience]**: het beginpunt van de compositie. Met deze activiteit kunt u een of meer soorten publiek selecteren als basis voor uw workflow.
+
+   * **[!UICONTROL Save]**: de laatste stap van uw compositie. Met deze activiteit kunt u het resultaat van uw workflow opslaan in een nieuw publiek.
+
+1. Open de compositieeigenschappen om een titel en een beschrijving op te geven.
+
+   Als er geen titel in de eigenschappen is gedefinieerd, wordt het label van de compositie ingesteld op &quot;Compositie&quot;, gevolgd door de aanmaakdatum en -tijd.
+
+   ![](assets/audiences-properties.png)
+
+1. Configureer uw compositie door zoveel activiteiten toe te voegen als nodig zijn tussen de **[!UICONTROL Audience]** - en **[!UICONTROL Save]** -activiteiten. Voor meer informatie over hoe te om een samenstelling tot stand te brengen, verwijs naar de [ de compositiedocumentatie van het publiek ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition).
+
+   ![](assets/audiences-publish.png)
+
+1. Als uw compositie gereed is, klikt u op de knop **[!UICONTROL Publish]** om de compositie te publiceren en het resulterende publiek op te slaan in Adobe Experience Platform.
+
+   >[!IMPORTANT]
+   >
+   >U kunt maximaal 10 composities publiceren in een bepaalde sandbox. Als u deze drempel hebt bereikt, moet u een samenstelling schrappen om ruimte vrij te maken en nieuwe te publiceren.
+
+   Als er tijdens het publiceren een fout optreedt, worden waarschuwingen weergegeven met informatie over hoe u het probleem kunt oplossen.
+
+   ![](assets/audiences-alerts.png)
+
+1. De compositie wordt gepubliceerd. Het resulterende publiek wordt opgeslagen in Adobe Experience Platform en is klaar om op Journey Optimizer te worden gericht. [ leer hoe te om publiek in Journey Optimizer te richten ](../audience/about-audiences.md#segments-in-journey-optimizer)
+
+>[!NOTE]
+>
+>Het publiek van **publiekssamenstelling** wordt dagelijks uitgevoerd, zodat kunt u tot 24 uren moeten wachten om hen in Journey Optimizer te gebruiken. De verrijkte attributen in het publiek van de publiekssamenstelling zijn zo vers zoals de laatste samenstellingslooppas, die tot 24 uren in het verleden kan zijn.
+
+## Toegang tot composities {#access}
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_publish"
+>title="Uw publiek publiceren"
+>abstract="Publiceer uw compositie om het resulterende publiek of de doelgroepen op te slaan in Adobe Experience Platform."
+
+Alle gemaakte composities zijn toegankelijk via het tabblad **[!UICONTROL Compositions]** . U kunt een bestaande compositie op elk gewenst moment dupliceren of verwijderen met de knop voor weglatingen in de lijst.
+
+Composities kunnen meerdere statussen hebben:
+
+* **[!UICONTROL Draft]** : de compositie is in uitvoering en is niet gepubliceerd.
+* **[!UICONTROL Published]** : de compositie is gepubliceerd, het resulterende publiek is opgeslagen en is beschikbaar voor gebruik.
+
+![](assets/audiences-compositions.png)
+
+>[!NOTE]
+>
+>De compositie van het publiek is momenteel niet geïntegreerd met de functie voor het opnieuw instellen van de sandbox. Voordat u een sandbox-reset start, moet u de composities handmatig verwijderen om ervoor te zorgen dat de bijbehorende publieksgegevens op de juiste wijze worden opgeschoond. De gedetailleerde informatie is beschikbaar in de documentatie van de zandbak van Adobe Experience Platform [ ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions)

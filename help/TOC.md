@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a54f298b5d2a053c8e50874477a72ff656a37abc
+source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
 workflow-type: tm+mt
-source-wordcount: '2154'
+source-wordcount: '2143'
 ht-degree: 25%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 25%
       + [Uw reis ontwerpen](using/building-journeys/using-the-journey-designer.md)
       + [Uw reis testen](using/building-journeys/testing-the-journey.md)
       + [Uw reis simuleren](using/building-journeys/journey-simulation.md)
-      + [Publish je reis](using/building-journeys/publishing-the-journey.md)
+      + [Uw reis publiceren](using/building-journeys/publishing-the-journey.md)
       + [Live melding op reis](using/building-journeys/report-journey.md)
    + Uw reizen beheren {#manage-journey}
       + [Profieltoegangsbeheer](using/building-journeys/entry-management.md)
@@ -168,7 +168,7 @@ ht-degree: 25%
          + [Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen](using/building-journeys/collections.md)
          + [Leveringen opwaarderen](using/building-journeys/ramp-up-deliveries-uc.md)
          + [Productie beperken met externe gegevensbronnen en aangepaste handelingen](using/building-journeys/limit-throughput.md)
-         + [Aangepaste handelingen gebruiken om gebeurtenissen Journey in Experience Platform te schrijven](using/building-journeys/custom-action-aep.md)
+         + [Aangepaste handelingen gebruiken om gebeurtenissen voor reizen in Experience Platform te schrijven](using/building-journeys/custom-action-aep.md)
 + Campagnes {#campaigns}
    + [Aan de slag met campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Een campagne maken](using/campaigns/create-campaign.md)
@@ -374,14 +374,13 @@ ht-degree: 25%
 + Soorten publiek, profielen en identiteit {#audiences-profiles-identities}
    + Soorten publiek {#audiences}
       + [Aan de slag met het publiek](using/audience/about-audiences.md)
-      + [Aangepaste upload (CSV) en federatieve compositie van publiek](using/audience/custom-upload-fac.md)
-      + [Segmentdefinities samenstellen](using/audience/creating-a-segment-definition.md)
-      + Soorten publiek samenstellen {#audience-orchestration}
-         + [Aan de slag met publiekscompositie](using/audience/get-started-audience-orchestration.md)
-         + [Samenstellingswerkstromen maken](using/audience/create-compositions.md)
-         + [Werken met het compositicanvas](using/audience/composition-canvas.md)
-         + [Toegang tot en beheer van het publiek](using/audience/access-audiences.md)
-      + [Samenstelling van Federated-doelgroep](https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home)
+      + Soorten publiek maken {#create}
+         + [Segmentdefinities](using/audience/creating-a-segment-definition.md)
+         + [Samenstelling publiek](using/audience/get-started-audience-orchestration.md)
+         + [Aangepaste upload](using/audience/custom-upload.md)
+         + [Federated Audience Composition (beperkte beschikbaarheid)](using/audience/federated-audience-composition.md)
+      + [Activering van het publiek in campagnes en reizen](using/audience/target-audiences.md)
+      + [Verrijkingskenmerken benutten](using/audience/enrichment-attributes.md)
    + Profielen {#profiles}
       + [Aan de slag met profielen](using/audience/get-started-profiles.md)
       + [Testprofielen maken](using/audience/creating-test-profiles.md)

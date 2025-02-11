@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
+source-git-commit: 1c17f1ef543948f74e95efab66dfeabf97af4519
 workflow-type: tm+mt
 source-wordcount: '2278'
 ht-degree: 6%
@@ -27,13 +27,13 @@ ht-degree: 6%
 <table>
 <thead>
 <tr>
-<th><strong>Customer Journey Analytics sjablonen</strong><br/></th>
+<th><strong>Customer Journey Analytics-sjablonen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U hebt nu de mogelijkheid om uw Journey Optimizer-rapporten te verbeteren door gebruik te maken van sjablonen voor Customers Journey Analytics. Met deze nieuwe functie kunt u uw rapportageproces stroomlijnen met vooraf ontworpen sjablonen die zijn afgestemd op uw analysebehoeften.
+<p>Je hebt nu de mogelijkheid om je Journey Optimizer-rapporten te verbeteren met behulp van Customer Journey Analytics-sjablonen. Met deze nieuwe functie kunt u uw rapportageproces stroomlijnen met vooraf ontworpen sjablonen die zijn afgestemd op uw analysebehoeften.
 </p>
 <p>Raadpleeg de <a href="../reports/report-cja-manage.md#cja-template">gedetailleerde documentatie</a> voor meer informatie.</p>
 <p> De <b> functionaliteit van het Malplaatje </b> wordt geleidelijk ingevoerd in fasen, met volledige Algemene Beschikbaarheid die tegen eind Januari wordt gepland</p>
@@ -51,8 +51,9 @@ ht-degree: 6%
 <tr>
 <td>
 <p>Dankzij de flexibele publieksevaluatie kunt u een segmentatietaak uitvoeren op aanvraag voor een geselecteerd publiek, zodat u altijd over de meest actuele publieksgegevens beschikt voordat u deze doelt op Journey Optimizer-reizen en -campagnes.</p>
+<img src="assets/do-not-localize/flexible-audience.gif">
 <p>Raadpleeg de <a href="../audience/about-audiences.md#flexible">gedetailleerde documentatie</a> voor meer informatie.</p>
-<p> De flexibele publieksevaluatie is slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.</p>
+<p> De flexibele publieksevaluatie is slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
 </tr>
 </tbody>
 </table>
@@ -167,7 +168,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven:
 <p>U kunt nu Movable Ink Da Vinci en Adobe Journey Optimizer integreren. Met deze nieuwe integratie kunt u: </p>
 <p><ul><li>Gebruik krachtige mogelijkheden in het Da Vinci-product van Movable Ink om e-mailvariaties voor batchcampagnes samen te stellen en aan te passen</li>
 <li>Snellere workflows voor praktijkgebruikers voor Journey Optimizer-klanten die Da Vinci gebruiken voor ontwerpen en Adobe Journey Optimizer voor optimalisatie en levering</li>
-<li>Optimaliseer Da Vinci modellen met Adobe gegevens.</li></ul></p>
+<li>Optimaliseer Da Vinci-modellen met Adobe-gegevens.</li></ul></p>
 <p>Voor meer informatie, verwijs naar de <a href="https://movableink.com/adobe-and-movable-ink"> Movable documentatie van Da Vinci van de Inkt </a>.</p>
 </tr>
 </tbody>
@@ -239,7 +240,7 @@ Eerder beschikbaar voor een reeks organisaties (LA), zijn de volgende mogelijkhe
 <tbody>
 <tr>
 <td>
-<p>Beslissingen, die voorheen beschikbaar waren voor een aantal organisaties (LA) en bekend staan als Experience Decisioning, zijn nu beschikbaar voor alle gebruikers (GA), inclusief organisaties die de Adobe Healthcare Shield of Privacy and Security Shield add-on offerten hebben gekocht.</p><p>Beslissing vereenvoudigt personalisering door een gecentraliseerde catalogus van marketing aanbiedingen aan te bieden die als "beslissingspunten"en een geavanceerd besluitvormingsmotor worden bekend. Deze motor hanteert regels en rangschikkingscriteria om de meest relevante beslissingsitems te selecteren en aan elk individu voor te leggen. Deze beslissingsitems worden naadloos geïntegreerd in een groot aantal binnenkomende oppervlakken via het op code gebaseerde ervaringskanaal.</p>
+<p>Beslissingen, die voorheen beschikbaar waren voor een aantal organisaties (LA) en bekend staan als Experience Decisioning, zijn nu beschikbaar voor alle gebruikers (GA), inclusief organisaties die de invoegtoepassing Adobe Healthcare Shield of Privacy and Security Shield hebben aangeschaft.</p><p>Beslissing vereenvoudigt personalisering door een gecentraliseerde catalogus van marketing aanbiedingen aan te bieden die als "beslissingspunten"en een geavanceerd besluitvormingsmotor worden bekend. Deze motor hanteert regels en rangschikkingscriteria om de meest relevante beslissingsitems te selecteren en aan elk individu voor te leggen. Deze beslissingsitems worden naadloos geïntegreerd in een groot aantal binnenkomende oppervlakken via het op code gebaseerde ervaringskanaal.</p>
 <p>Raadpleeg de <a href="../experience-decisioning/gs-experience-decisioning.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
@@ -273,7 +274,7 @@ Eerder beschikbaar voor een reeks organisaties (LA), zijn de volgende mogelijkhe
 <tbody>
 <tr>
 <td>
-<p>De Journey Optimizer-rapportage is nu algemeen beschikbaar (GA) en wordt geleverd met een verbeterde interoperabiliteit met de mogelijkheden van de Customer Journey Analytics, standaardisering van de rapportage op beide platforms en verbetering van de consistentie en betrouwbaarheid van de gegevens. Deze naadloze integratie tussen Journey Optimizer en Customer Journey Analytics biedt een duidelijker beeld van prestatiesmetriek, toelatend gebruikers om geïnformeerde besluiten te nemen.</p>
+<p>De Journey Optimizer-rapportage is nu algemeen beschikbaar (GA) en wordt geleverd met een verbeterde interoperabiliteit met Customer Journey Analytics-mogelijkheden, standaardisering van de rapportage op beide platforms en verbetering van de consistentie en betrouwbaarheid van gegevens. Deze naadloze integratie tussen Journey Optimizer en Customer Journey Analytics zorgt voor een duidelijker beeld van de prestatiesmetriek, waardoor gebruikers beter geïnformeerde beslissingen kunnen nemen.</p>
 <p>Met Algemene Beschikbaarheid, worden vier nieuwe eigenschappen geïntroduceerd: de capaciteit om eenvoudige metriek tot stand te brengen, te creëren en publiek te publiceren, ad-hocvragen te stellen gebruikend de Bouwer van het Inzicht, en planningsrapporten om automatisch aan zeer belangrijke ontvangers worden gemaild.</p>
 <p>Raadpleeg de <a href="../reports/report-cja-manage.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
@@ -374,7 +375,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
   >[!NOTE]
   >
-  >Het toestemmingsbeleid is momenteel slechts beschikbaar voor organisaties die het Adobe **het Schild van de Gezondheidszorg** of **Privacy en het 3} toe:voegen-op dienstenaanbod van het Schild van de Veiligheid hebben gekocht.**
+  >Het toestemmingsbeleid is momenteel slechts beschikbaar voor organisaties die het 3} toe:voegen-op dienstenaanbod van het Schild van de Gezondheidszorg van Adobe **of** of **Privacy en van het Schild van de Veiligheid {hebben gekocht.**
 
 **Soorten publiek** - Beschikbaarheidsdatum: 8 okt, 2024
 
@@ -388,7 +389,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **op code-Gebaseerd kanaal**
 
-* Inhoudssjablonen zijn nu beschikbaar. U kunt het ontwerpen versnellen van uw op code-gebaseerde ervaringen die van een inhoudsmalplaatje beginnen door uw ontwikkelaars wordt gebouwd. Als u een inhoudssjabloon gebruikt, kan de markeerteken alleen enkele waarden of velden wijzigen in plaats van de gehele HTML- of JSON-inhoudslading samen te stellen. [Meer informatie](../content-management/content-templates.md)
+* Inhoudssjablonen zijn nu beschikbaar. U kunt het ontwerpen versnellen van uw op code-gebaseerde ervaringen die van een inhoudsmalplaatje beginnen door uw ontwikkelaars wordt gebouwd. Als u een inhoudssjabloon gebruikt, kan de markeerteken alleen enkele waarden of velden wijzigen in plaats van de gehele lading van de HTML- of JSON-inhoud samen te stellen. [Meer informatie](../content-management/content-templates.md)
 
 **Beslissing**
 
