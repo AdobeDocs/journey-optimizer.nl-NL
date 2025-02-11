@@ -20,21 +20,21 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_header"
 >title="Een websubdomein delegeren"
->abstract="U stelt het subdomein in voor gebruik met een webkanaal. U kunt een subdomein gebruiken dat reeds aan Adobe wordt gedelegeerd of een ander subdomein vormen."
+>abstract="U stelt het subdomein in voor gebruik met een webkanaal. U kunt een subdomein gebruiken dat al aan Adobe is gedelegeerd of een ander subdomein vormen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web"
 >title="Een websubdomein delegeren"
->abstract="Als u inhoud van de Adobe Experience Manager Assets toevoegt aan uw webervaringen, moet u het subdomein instellen dat wordt gebruikt om deze inhoud te publiceren. Selecteer een subdomein dat al is gedelegeerd aan de Adobe of configureer een nieuw subdomein."
+>abstract="Als u inhoud van de Adobe Experience Manager Assets toevoegt aan uw webervaringen, moet u het subdomein instellen dat wordt gebruikt om deze inhoud te publiceren. Selecteer een subdomein dat al aan Adobe is gedelegeerd of configureer een nieuw subdomein."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
 >title="Een websubdomein instellen"
->abstract="Selecteer een subdomein in de lijst met subdomeinen die zijn gedelegeerd aan de Adobe. U kunt dit websubdomein instellen als het standaardsubdomein, maar er kan slechts één standaardsubdomein tegelijk worden gebruikt."
+>abstract="Selecteer een subdomein in de lijst met subdomeinen die zijn gedelegeerd aan Adobe. U kunt dit websubdomein instellen als het standaardsubdomein, maar er kan slechts één standaardsubdomein tegelijk worden gebruikt."
 
 Wanneer het ontwerpen van Webervaringen, als u inhoud toevoegt die uit de [ Adobe Experience Manager Assets ](../content-management/assets.md) bibliotheek komt, moet u opstelling subdomain die zal worden gebruikt om deze inhoud te publiceren.
 
-U kunt een subdomein gebruiken dat reeds aan Adobe wordt gedelegeerd, of u kunt een ander subdomein vormen. Leer meer bij het delegeren van subdomeinen aan Adobe in [ deze sectie ](../configuration/delegate-subdomain.md).
+U kunt een subdomein gebruiken dat al aan Adobe is gedelegeerd, of u kunt een ander subdomein vormen. Leer meer bij het delegeren van subdomeinen aan Adobe in [ deze sectie ](../configuration/delegate-subdomain.md).
 
 >[!CAUTION]
 >
@@ -66,7 +66,7 @@ U kunt verscheidene Websubdomeinen tot stand brengen, maar slechts zal het **geb
 
 ## Een bestaand subdomein gebruiken {#web-use-existing-subdomain}
 
-Volg onderstaande stappen om een subdomein te gebruiken dat al is gedelegeerd aan Adobe.
+Voer de onderstaande stappen uit als u een subdomein wilt gebruiken dat al is gedelegeerd aan Adobe.
 
 1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** en selecteer vervolgens **[!UICONTROL Web settings]** > **[!UICONTROL Web subdomains]** .
 
@@ -101,13 +101,13 @@ Volg onderstaande stappen om een subdomein te gebruiken dat al is gedelegeerd aa
 >[!CONTEXTUALHELP]
 >id="ajo_admin_web_subdomain_dns"
 >title="De overeenkomende DNS-record genereren"
->abstract="Om een nieuw Web subdomain te vormen, moet u de Adobe nameserverinformatie kopiëren die in de interface van Journey Optimizer wordt getoond en het kleven in uw domein-ontvangende oplossing om het passende DNS verslag te produceren. Als de controles zijn voltooid, kan het subdomein worden gebruikt om inhoud te publiceren die afkomstig is uit de Adobe Experience Manager Assets-bibliotheek."
+>abstract="Als u een nieuw websubdomein wilt configureren, moet u de Adobe-servergegevens kopiëren die in de Journey Optimizer-interface worden weergegeven en deze plakken in uw domeinhostingoplossing om het overeenkomende DNS-record te genereren. Als de controles zijn voltooid, kan het subdomein worden gebruikt om inhoud te publiceren die afkomstig is uit de Adobe Experience Manager Assets-bibliotheek."
 
 Volg onderstaande stappen om een nieuw subdomein te configureren.
 
 >[!NOTE]
 >
->In [!DNL Journey Optimizer] kunt u standaard maximaal 10 subdomeinen delegeren (voor zowel e-mail- als webkanalen). Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen delegeren. Bereik uit aan uw contact van de Adobe om meer over het aantal subdomeinen te leren u aan recht hebt.
+>In [!DNL Journey Optimizer] kunt u standaard maximaal 10 subdomeinen delegeren (voor zowel e-mail- als webkanalen). Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen delegeren. Neem contact op met uw Adobe-contactpersoon voor meer informatie over het aantal subdomeinen waarop u recht hebt.
 
 1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** en selecteer vervolgens **[!UICONTROL Web settings]** > **[!UICONTROL Web subdomains]** .
 
@@ -125,7 +125,7 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
 
    ![](assets/web-add-your-own-domain.png)
 
-   Het delegeren van een ongeldig subdomein aan Adobe wordt niet toegestaan. Zorg ervoor dat u een geldig subdomein invoert dat eigendom is van uw organisatie, zoals marketing.yourcompany.com.
+   Het delegeren van een ongeldig subdomein naar Adobe is niet toegestaan. Zorg ervoor dat u een geldig subdomein invoert dat eigendom is van uw organisatie, zoals marketing.yourcompany.com.
 
    >[!NOTE]
    >
@@ -151,7 +151,7 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
 
    >[!NOTE]
    >
-   >Voordat u dat subdomein kunt gebruiken om webberichten te verzenden, moet u wachten tot de Adobe de vereiste controles uitvoert. Dit kan maximaal 4 uur in beslag nemen.
+   >Voordat u dat subdomein kunt gebruiken voor het verzenden van webberichten, moet u wachten tot Adobe de vereiste controles uitvoert. Dit kan maximaal 4 uur in beslag nemen.
 
 1. Zodra de controles succesvol zijn, krijgt subdomain de **[!UICONTROL Success]** status. U kunt deze functie gebruiken om webkanaalconfiguraties te maken.
 

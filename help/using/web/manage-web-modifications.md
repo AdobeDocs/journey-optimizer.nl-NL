@@ -100,13 +100,13 @@ Om het type van a **CSS selecteur** wijziging toe te voegen, volg hieronder de s
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_head"
 >title="Aangepaste code toevoegen"
->abstract="Het HEAD-element is een container voor metagegevens en wordt tussen de tag HTML en de tag BODY geplaatst. Voeg alleen SCRIPT- en STIJLelementen toe. Als u DIV-tags en andere elementen toevoegt, komen de resterende HEAD-elementen mogelijk in de BODY terecht."
+>abstract="Het HEAD-element is een container voor metagegevens en wordt tussen de HTML-tag en de BODY-tag geplaatst. Voeg alleen SCRIPT- en STIJLelementen toe. Als u DIV-tags en andere elementen toevoegt, komen de resterende HEAD-elementen mogelijk naar de BODY-sectie."
 
 U kunt aangepaste code toevoegen met het wijzigingstype **[!UICONTROL Page `<head>`]** .
 
 Het element `<head>` is een container voor metagegevens (gegevens over gegevens) en wordt tussen de tag `<html>` en de tag `<body>` geplaatst. In dit geval wacht de code niet op gebeurtenissen voor het laden van de hoofdtekst of de pagina. Deze wordt uitgevoerd aan het begin van het laden van de pagina.
 
-Het element `<head>` wordt doorgaans gebruikt om JavaScript- of CSS-code boven aan de pagina toe te voegen. Kiezers voor volgende visuele handelingen zijn afhankelijk van de HTML-elementen die op dit tabblad worden toegevoegd.
+Het element `<head>` wordt doorgaans gebruikt om JavaScript- of CSS-code boven aan de pagina toe te voegen. Kiezers voor volgende visuele handelingen zijn afhankelijk van de HTML-elementen die op dit tabblad zijn toegevoegd.
 
 Voer de onderstaande stappen uit als u het type a **Pagina`<head>`** wilt wijzigen.
 

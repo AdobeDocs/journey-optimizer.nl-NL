@@ -21,7 +21,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_acc"
 >title="Handelingen voor Adobe Campaign v7/v8"
->abstract="Deze integratie is beschikbaar voor Adobe Campaign v7 en v8. Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden van Adobe Campaign Transaction Messaging. De verbinding tussen de Journey Optimizer en de instanties van de Campagne is opstelling door Adobe bij leveringstijd."
+>abstract="Deze integratie is beschikbaar voor Adobe Campaign v7 en v8. Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden van Adobe Campaign Transaction Messaging. De verbinding tussen de Journey Optimizer- en Campagneinstanties wordt door Adobe tijdens de levering ingesteld."
 
 Deze integratie is beschikbaar voor Adobe Campaign v7/v8 vanaf versie 7.1 en Adobe Campaign v8. Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden van Adobe Campaign Transaction Messaging.
 
@@ -31,11 +31,11 @@ Voor elke gevormde actie, is een actieactiviteit beschikbaar in het palet van de
 
 ## Toegang {#access}
 
-De verbinding tussen de instanties van Journey Optimizer en van de Campagne is opstelling door Adobe bij leveringstijd indien gevraagd. Als u op het moment van levering geen verbinding hebt aangevraagd, neemt u contact op met de ondersteuning van Adobe Journey Optimizer. Geef de volgende gegevens op om de activering aan te vragen:
+De verbinding tussen de Journey Optimizer- en Campagne-instanties wordt op verzoek door Adobe tijdens de levering ingesteld. Als u op het moment van levering geen verbinding hebt aangevraagd, neemt u contact op met de ondersteuning van Adobe Journey Optimizer. Geef de volgende gegevens op om de activering aan te vragen:
 
 Uit Adobe Journey Optimizer:
 
-* Organisatie-id (Adobe-OrgID)
+* Organisatie-id (Adobe OrgID)
 * Sandbox
 
 Uit Adobe Campaign:
@@ -86,7 +86,7 @@ In Journey Optimizer moet u één actie per transactiemelding configureren. Voer
 1. Maak een nieuwe handeling. Verwijs naar deze [ sectie ](../action/action.md).
 1. Voer een naam en beschrijving in.
 1. Op het **type van Actie** gebied, uitgezochte **Adobe Campaign Classic**.
-1. Klik op het **gebied van de Lading** en kleef een voorbeeld van JSON nuttige lading die aan het bericht van de Campagne beantwoordt. Neem contact op met de Adobe voor deze lading.
+1. Klik op het **gebied van de Lading** en kleef een voorbeeld van JSON nuttige lading die aan het bericht van de Campagne beantwoordt. Neem contact op met Adobe voor deze lading.
 1. Pas de verschillende velden aan op statisch of variabel, afhankelijk van de vraag of u ze wilt toewijzen op het canvas Reis. Bepaalde gebieden, zoals kanaalparameters voor e-mailadres en verpersoonlijkingsgebieden (ctx), wilt u waarschijnlijk bepaald als variabelen voor afbeelding in de context van de reis.
 1. Klik **sparen**.
 

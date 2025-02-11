@@ -73,20 +73,20 @@ U kunt niet met configuratieverwezenlijking te werk gaan terwijl de geselecteerd
 
 >[!NOTE]
 >
->Voor niet-productiemilieu&#39;s, leidt de Adobe niet uit-van-de-doos testsubdomeinen noch verleent toegang tot een gedeelde verzendende IP pool. U moet [ uw eigen subdomeinen ](../configuration/delegate-subdomain.md) afvaardigen en IPs van de pool gebruiken die aan uw organisatie wordt toegewezen.
+>Voor niet-productiemilieu&#39;s, creeert Adobe geen uit-van-de-doos testsubdomeinen noch verleent toegang tot een gedeelde verzendende IP pool. U moet [ uw eigen subdomeinen ](../configuration/delegate-subdomain.md) afvaardigen en IPs van de pool gebruiken die aan uw organisatie wordt toegewezen.
 
 Nadat een IP pool is geselecteerd, is de informatie PTR zichtbaar wanneer het hangen over de IP adressen onder de IP pool drop-down lijst wordt getoond. [ leer meer op PTR verslagen ](../configuration/ptr-records.md)
 
 >[!NOTE]
 >
->Als een PTR-record niet is geconfigureerd, neemt u contact op met uw Adobe.
+>Als er geen PTR-record is geconfigureerd, neemt u contact op met uw Adobe-vertegenwoordiger.
 
 ## Abonnement voor lijst opzeggen{#list-unsubscribe}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
 >title="Definiëren hoe afmeldingsgegevens worden beheerd"
->abstract="**beheerde Adobe**: De toestemmingsgegevens worden beheerd door u binnen het systeem van de Adobe.<br>**beheerde Klant**: De toestemmingsgegevens worden beheerd door u in een extern systeem en geen synchronisatie van toestemmingsgegevens wordt bijgewerkt in het systeem van de Adobe tenzij in werking gesteld door u."
+>abstract="**beheerde Adobe**: De toestemmingsgegevens worden beheerd door u binnen het systeem van Adobe.<br>**beheerde Klant**: De toestemmingsgegevens worden beheerd door u in een extern systeem en geen synchronisatie van toestemmingsgegevens wordt bijgewerkt in het systeem van Adobe tenzij in werking gesteld door u."
 
 <!--Do not modify - Legal Review Done -->
 
@@ -184,19 +184,19 @@ Als u een fout bij het voorleggen van de e-mailconfiguratie krijgt, betekent het
 
 >[!NOTE]
 >
->Als subdomain van het adres u inging een domein is dat [ volledig ](../configuration/delegate-subdomain.md#full-subdomain-delegation) aan Adobe werd gedelegeerd, contacteer uw Adobe rekeningsmanager.
+>Als subdomain van het adres u inging een domein is dat [ volledig ](../configuration/delegate-subdomain.md#full-subdomain-delegation) aan Adobe werd gedelegeerd, contacteer uw de rekeningsmanager van Adobe.
 
 ### E-mail doorsturen {#forward-email}
 
-Neem contact op met de klantenservice van de Adobe als u alle e-mailberichten die [!DNL Journey Optimizer] voor het gedelegeerde subdomein heeft ontvangen, wilt doorsturen naar een specifiek e-mailadres.
+Neem contact op met de klantenservice van Adobe als u alle e-mailberichten die [!DNL Journey Optimizer] voor het gedelegeerde subdomein heeft ontvangen, wilt doorsturen naar een specifiek e-mailadres.
 
 >[!NOTE]
 >
->Als subdomain die voor het **[!UICONTROL Reply to email]** adres wordt gebruikt niet aan Adobe wordt afgevaardigd, door:sturen kan niet voor dit adres werken.
+>Als het subdomein dat voor het **[!UICONTROL Reply to email]** adres wordt gebruikt niet aan Adobe wordt afgevaardigd, door:sturen kan niet voor dit adres werken.
 
 U moet het volgende opgeven:
 
-* Het e-mailadres van uw keuze. Merk op dat het voorwaartse domein van het e-mailadres geen subdomein kan aanpassen dat aan Adobe wordt gedelegeerd.
+* Het e-mailadres van uw keuze. Het domein van het voorwaartse e-mailadres kan niet overeenkomen met een subdomein dat aan Adobe is gedelegeerd.
 * De naam van uw sandbox.
 * De configuratienaam of het subdomein waarvoor het voorwaartse e-mailadres zal worden gebruikt.
   <!--* The current **[!UICONTROL Reply to (email)]** address or **[!UICONTROL Error email]** address set at the channel configuration level.-->
@@ -205,7 +205,7 @@ U moet het volgende opgeven:
 >
 >Per subdomein kan slechts één voorwaarts e-mailadres aanwezig zijn. Daarom als de veelvoudige configuraties zelfde subdomain gebruiken, moet het zelfde voorwaartse e-mailadres voor elk van hen worden gebruikt.
 
-Het e-mailadres voor verzending wordt ingesteld door Adobe. Dit kan 3 tot 4 dagen duren.
+Adobe stelt het e-mailadres voor verzending in. Dit kan 3 tot 4 dagen duren.
 
 Zodra gedaan, worden alle berichten ontvangen op **[!UICONTROL Reply to email]** en **E-mail van de Fout** adressen, evenals alle e-mails die naar **van e-mail** adres worden verzonden, door:sturen aan het specifieke e-mailadres u verstrekte.
 
@@ -317,7 +317,7 @@ Leer meer op herpogingen in [ deze sectie ](../configuration/retries.md).
 
 Met **[!UICONTROL URL tracking parameters]** kunt u de doeltreffendheid van uw marketingactiviteiten op verschillende kanalen meten. Deze functie is optioneel.
 
-De parameters die in deze sectie worden gedefinieerd, worden toegevoegd aan het einde van de URL&#39;s die in de inhoud van uw e-mailbericht zijn opgenomen. Vervolgens kunt u deze parameters vastleggen in hulpprogramma&#39;s voor webanalyse, zoals Adobe Analytics of Googles Analytics, en verschillende prestatierapporten maken.
+De parameters die in deze sectie worden gedefinieerd, worden toegevoegd aan het einde van de URL&#39;s die in de inhoud van uw e-mailbericht zijn opgenomen. Vervolgens kunt u deze parameters vastleggen in hulpprogramma&#39;s voor webanalyse, zoals Adobe Analytics of Google Analytics, en verschillende prestatierapporten maken.
 
 Met de knop **[!UICONTROL Add new parameter]** kunt u maximaal 10 volgparameters toevoegen.
 
@@ -349,11 +349,11 @@ De volgende vooraf gedefinieerde waarden zijn beschikbaar via de verpersoonlijki
 
 <!--You can drag and drop the parameters to reorder them.-->
 
-Hieronder staan voorbeelden van URL&#39;s die compatibel zijn met Adobe Analytics en Googles Analytics.
+Hieronder staan voorbeelden van URL&#39;s die compatibel zijn met Adobe Analytics en Google Analytics.
 
 * Met Adobe Analytics compatibele URL: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
 
-* Compatibele URL voor Googles Analytics: `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
+* Met Google Analytics compatibele URL: `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
 
 U kunt de resulterende URL voor bijhouden dynamisch voorvertonen. Elke keer dat u een parameter toevoegt, bewerkt of verwijdert, wordt de voorvertoning automatisch bijgewerkt.
 

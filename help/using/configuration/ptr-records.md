@@ -26,7 +26,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record_header"
 >title="PTR-records van subdomeinen"
->abstract="Zodra het eerste subdomein aan Adobe in Journey Optimizer wordt gedelegeerd, worden PTR- verslagen automatisch gecreeerd."
+>abstract="Wanneer het eerste subdomein in Journey Optimizer is gedelegeerd aan Adobe, worden automatisch PTR-records gemaakt."
 
 ## PTR-records {#about-ptr-records}
 
@@ -64,7 +64,7 @@ Wanneer u extra subdomeinen creeert, moet u één of meerdere PTR verslagen wijz
 
 ### Volledig gedelegeerde subdomeinen {#fully-delegated-subdomains}
 
-Om een PTR- verslag met subdomain uit te geven dat [ volledig ](delegate-subdomain.md#full-subdomain-delegation) aan Adobe wordt gedelegeerd, volg de hieronder stappen.
+Om een PTR- verslag met subdomain uit te geven die [ volledig ](delegate-subdomain.md#full-subdomain-delegation) aan Adobe wordt gedelegeerd, volg de hieronder stappen.
 
 1. Klik in de lijst op de naam van een PTR-record om deze te openen.
 
@@ -92,7 +92,7 @@ Om een PTR- verslag met subdomain uit te geven dat aan Adobe gebruikend de [ met
 
    ![](assets/ptr-record-subdomain-cname.png)
 
-1. U moet een nieuw voorwaarts DNS verslag op uw het ontvangen platform tot stand brengen. Hiervoor kopieert u de record die door de Adobe is gegenereerd. Als u klaar bent, schakelt u het selectievakje &quot;Ik bevestig...&quot; in.
+1. U moet een nieuw voorwaarts DNS verslag op uw het ontvangen platform tot stand brengen. Hiervoor kopieert u de record die door Adobe is gegenereerd. Als u klaar bent, schakelt u het selectievakje &quot;Ik bevestig...&quot; in.
 
    ![](assets/ptr-record-subdomain-confirm.png)
 

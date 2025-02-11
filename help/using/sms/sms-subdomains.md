@@ -20,12 +20,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"
 >title="Een SMS/MMS-subdomein delegeren"
->abstract="Stel uw subdomein in voor tekstberichten (SMS/MMS). U kunt een subdomein gebruiken dat reeds aan Adobe wordt gedelegeerd, of een nieuw subdomein vormen."
+>abstract="Stel uw subdomein in voor tekstberichten (SMS/MMS). U kunt een subdomein gebruiken dat al aan Adobe is gedelegeerd, of een nieuw subdomein vormen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
 >title="Een SMS/MMS-subdomein delegeren"
->abstract="U moet een subdomein vormen voor uw tekstberichten te gebruiken, aangezien u dit subdomein nodig hebt om een configuratie van SMS tot stand te brengen. U kunt een subdomein gebruiken dat reeds aan Adobe wordt gedelegeerd, of een nieuw subdomein vormen."
+>abstract="U moet een subdomein vormen voor uw tekstberichten te gebruiken, aangezien u dit subdomein nodig hebt om een configuratie van SMS tot stand te brengen. U kunt een subdomein gebruiken dat al aan Adobe is gedelegeerd, of een nieuw subdomein vormen."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="SMS-oppervlakken maken"
 
 >[!CONTEXTUALHELP]
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 Om URLs te kunnen verkorten die aan uw SMS/MMS- berichten wordt toegevoegd, moet u opstelling subdomain u wanneer [ creërend een configuratie van SMS ](sms-configuration.md#message-preset-sms) selecteren.
 
-U kunt een subdomein gebruiken dat reeds aan Adobe wordt gedelegeerd, of u kunt een ander subdomein vormen. Leer meer bij het delegeren van subdomeinen aan Adobe in [ deze sectie ](../configuration/delegate-subdomain.md).
+U kunt een subdomein gebruiken dat al aan Adobe is gedelegeerd, of u kunt een ander subdomein vormen. Leer meer bij het delegeren van subdomeinen aan Adobe in [ deze sectie ](../configuration/delegate-subdomain.md).
 
 >[!CAUTION]
 >
@@ -47,7 +47,7 @@ U kunt een subdomein gebruiken dat reeds aan Adobe wordt gedelegeerd, of u kunt 
 
 ## Een bestaand subdomein gebruiken {#sms-use-existing-subdomain}
 
-Volg onderstaande stappen om een subdomein te gebruiken dat al is gedelegeerd aan Adobe.
+Voer de onderstaande stappen uit als u een subdomein wilt gebruiken dat al is gedelegeerd aan Adobe.
 
 1. Blader naar het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** en selecteer **[!UICONTROL SMS settings]** > **[!UICONTROL SMS subdomains]** .
 
@@ -87,7 +87,7 @@ Volg onderstaande stappen om een subdomein te gebruiken dat al is gedelegeerd aa
 
    >[!NOTE]
    >
-   >Alvorens dat subdomain te kunnen gebruiken om berichten te verzenden, moet u wachten tot de Adobe de vereiste controles uitvoert, die tot 4 uren kan vergen.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   >Alvorens dat subdomain te kunnen gebruiken om berichten te verzenden, moet u wachten tot Adobe de vereiste controles uitvoert, die tot 4 uren kunnen vergen.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
 1. Zodra de controles succesvol zijn, krijgt subdomain de **[!UICONTROL Success]** status. Het is klaar om te worden gebruikt om de kanaalconfiguraties van SMS tot stand te brengen.
 
@@ -96,7 +96,7 @@ Volg onderstaande stappen om een subdomein te gebruiken dat al is gedelegeerd aa
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_subdomain_dns"
 >title="De overeenkomende DNS-record genereren"
->abstract="Om een nieuw subdomain van SMS te vormen, moet u de Adobe nameserver informatie kopiëren die in de interface van Journey Optimizer wordt getoond en het kleven in uw domein-ontvangende oplossing om het passende DNS verslag te produceren. Zodra de controles succesvol zijn, is subdomain klaar om worden gebruikt om de configuraties van SMS tot stand te brengen."
+>abstract="Om een nieuw subdomein van SMS te vormen, moet u de Adobe nameserver informatie kopiëren die in de interface van Journey Optimizer wordt getoond en het kleven in uw domein-ontvangende oplossing om het passende DNS verslag te produceren. Zodra de controles succesvol zijn, is subdomain klaar om worden gebruikt om de configuraties van SMS tot stand te brengen."
 
 Volg onderstaande stappen om een nieuw subdomein te configureren.
 
@@ -118,7 +118,7 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
    >
    >* Hoofdletters zijn niet toegestaan in subdomeinen.
 
-   Het delegeren van een ongeldig subdomein aan Adobe wordt niet toegestaan. Zorg ervoor dat u een geldig subdomein invoert dat eigendom is van uw organisatie, zoals marketing.yourcompany.com.
+   Het delegeren van een ongeldig subdomein naar Adobe is niet toegestaan. Zorg ervoor dat u een geldig subdomein invoert dat eigendom is van uw organisatie, zoals marketing.yourcompany.com.
 
    >[!NOTE]
    >
@@ -136,6 +136,6 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
 
 1. Nadat de subdomeindelegatie is verzonden, wordt het subdomein in de lijst weergegeven met de status **[!UICONTROL Processing]** . Voor meer op de statussen van subdomeinen, verwijs naar [ deze sectie ](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
-Voordat u een subdomein kunt gebruiken om SMS-berichten te verzenden, moet u wachten totdat de Adobe de vereiste controles uitvoert. Dit kan maximaal 4 uur in beslag nemen.<!--Learn more in [this section](#subdomain-validation).--> Zodra de controles succesvol zijn, krijgt het subdomein de **[!UICONTROL Success]** status. Het is klaar om te worden gebruikt om de kanaalconfiguraties van SMS tot stand te brengen.
+Voordat u SMS-berichten verzendt met een subdomein, moet u wachten tot Adobe de vereiste controles uitvoert. Dit kan maximaal 4 uur in beslag nemen.<!--Learn more in [this section](#subdomain-validation).--> Zodra de controles succesvol zijn, krijgt het subdomein de **[!UICONTROL Success]** status. Het is klaar om te worden gebruikt om de kanaalconfiguraties van SMS tot stand te brengen.
 
 Het subdomein wordt gemarkeerd als **[!UICONTROL Failed]** als u geen validatierecord maakt voor de hostoplossing.

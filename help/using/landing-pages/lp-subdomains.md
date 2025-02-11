@@ -20,12 +20,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp_header"
 >title="Een subdomein van een bestemmingspagina delegeren"
->abstract="U stelt het subdomein in voor een gebruik van een bestemmingspagina. U kunt een subdomein gebruiken dat reeds aan Adobe wordt gedelegeerd of een ander subdomein vormen."
+>abstract="U stelt het subdomein in voor een gebruik van een bestemmingspagina. U kunt een subdomein gebruiken dat al aan Adobe is gedelegeerd of een ander subdomein vormen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp"
 >title="Een subdomein van een bestemmingspagina delegeren"
->abstract="U moet een subdomein configureren om te gebruiken voor uw bestemmingspagina&#39;s, aangezien u dit subdomein nodig hebt om een voorinstelling voor een bestemmingspagina te maken. U kunt een subdomein gebruiken dat reeds aan Adobe wordt gedelegeerd of een nieuw subdomein vormen."
+>abstract="U moet een subdomein configureren om te gebruiken voor uw bestemmingspagina&#39;s, aangezien u dit subdomein nodig hebt om een voorinstelling voor een bestemmingspagina te maken. U kunt een subdomein gebruiken dat al aan Adobe is gedelegeerd of een nieuw subdomein configureren."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Voorinstellingen voor openingspagina&#39;s maken"
 
 >[!CONTEXTUALHELP]
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 Om het landen van pagina te kunnen [ tot stand brengen stelt ](lp-presets.md) vooraf in, moet u opstelling subdomeinen u voor uw het landen pagina&#39;s zult gebruiken.
 
-U kunt een subdomein gebruiken dat reeds aan Adobe wordt gedelegeerd, of u kunt een ander subdomein vormen. Leer meer bij het delegeren van subdomeinen aan Adobe in [ deze sectie ](../configuration/delegate-subdomain.md).
+U kunt een subdomein gebruiken dat al aan Adobe is gedelegeerd, of u kunt een ander subdomein vormen. Leer meer bij het delegeren van subdomeinen aan Adobe in [ deze sectie ](../configuration/delegate-subdomain.md).
 
 >[!CAUTION]
 >
@@ -48,7 +48,7 @@ U kunt een subdomein gebruiken dat reeds aan Adobe wordt gedelegeerd, of u kunt 
 
 ## Een bestaand subdomein gebruiken {#lp-use-existing-subdomain}
 
-Volg onderstaande stappen om een subdomein te gebruiken dat al is gedelegeerd aan Adobe.
+Voer de onderstaande stappen uit als u een subdomein wilt gebruiken dat al is gedelegeerd aan Adobe.
 
 1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** en selecteer vervolgens **[!UICONTROL Landing page settings]** > **[!UICONTROL Landing page subdomains]** .
 
@@ -90,7 +90,7 @@ Volg onderstaande stappen om een subdomein te gebruiken dat al is gedelegeerd aa
 
    >[!NOTE]
    >
-   >Alvorens dat subdomain te kunnen gebruiken om berichten te verzenden, moet u wachten tot de Adobe de vereiste controles uitvoert, die tot 4 uren kan vergen.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   >Alvorens dat subdomain te kunnen gebruiken om berichten te verzenden, moet u wachten tot Adobe de vereiste controles uitvoert, die tot 4 uren kunnen vergen.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
 1. Zodra de controles succesvol zijn, krijgt subdomain de **[!UICONTROL Success]** status. Deze kan worden gebruikt om voorinstellingen voor openingspagina&#39;s te maken.
 
@@ -99,7 +99,7 @@ Volg onderstaande stappen om een subdomein te gebruiken dat al is gedelegeerd aa
 >[!CONTEXTUALHELP]
 >id="ajo_admin_lp_subdomain_dns"
 >title="De overeenkomende DNS-record genereren"
->abstract="Als u een nieuw subdomein van een bestemmingspagina wilt configureren, moet u de gegevens van de Adobe-nameserver kopiëren die in de Journey Optimizer-interface worden weergegeven en deze plakken in uw domein-ontvangende oplossing om het overeenkomende DNS-record te genereren. Als de controles zijn voltooid, kan het subdomein worden gebruikt om voorinstellingen voor bestemmingspagina&#39;s te maken."
+>abstract="Als u een nieuw subdomein van een bestemmingspagina wilt configureren, moet u de Adobe-gegevens van de naamserver kopiëren die in de Journey Optimizer-interface worden weergegeven en deze plakken in uw domeinhostingoplossing om het overeenkomende DNS-record te genereren. Als de controles zijn voltooid, kan het subdomein worden gebruikt om voorinstellingen voor bestemmingspagina&#39;s te maken."
 
 Volg onderstaande stappen om een nieuw subdomein te configureren.
 
@@ -119,7 +119,7 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
    >
    >Hoofdletters zijn niet toegestaan in subdomeinen.
 
-   Het delegeren van een ongeldig subdomein aan Adobe wordt niet toegestaan. Zorg ervoor dat u een geldig subdomein invoert dat eigendom is van uw organisatie, zoals marketing.yourcompany.com.
+   Het delegeren van een ongeldig subdomein naar Adobe is niet toegestaan. Zorg ervoor dat u een geldig subdomein invoert dat eigendom is van uw organisatie, zoals marketing.yourcompany.com.
 
    >[!NOTE]
    >
@@ -139,7 +139,7 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
 
    >[!NOTE]
    >
-   >Alvorens dat subdomain voor uw het landen pagina&#39;s te kunnen gebruiken, moet u wachten tot de Adobe de vereiste controles uitvoert, die tot 4 uren kan vergen.<!--Learn more in [this section](#subdomain-validation).-->
+   >Alvorens dat subdomain voor uw het landen pagina&#39;s te kunnen gebruiken, moet u wachten tot Adobe de vereiste controles uitvoert, die tot 4 uren kunnen vergen.<!--Learn more in [this section](#subdomain-validation).-->
 
 1. Zodra de controles succesvol zijn, krijgt subdomain de **[!UICONTROL Success]** status. Deze kan worden gebruikt om voorinstellingen voor openingspagina&#39;s te maken.
 

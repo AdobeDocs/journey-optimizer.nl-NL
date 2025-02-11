@@ -148,11 +148,11 @@ Voor de activiteit in de app kunnen wijzigingen in de inhoud worden aangebracht 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
 >title="Optimalisatie van verzonden tijd"
->abstract="De functie voor Send-Time optimalisatie van Adobe Journey Optimizer, aangedreven door de AI-services van de Adobe, kan de beste tijd voorspellen om een e-mail- of pushbericht te verzenden om de betrokkenheid te maximaliseren op basis van een open historie en klikfrequentie."
+>abstract="De functie voor Send-Time optimalisatie van Adobe Journey Optimizer, aangedreven door Adobe AI-services, kan de beste tijd voorspellen om een e-mail- of pushbericht te verzenden om de betrokkenheid te maximaliseren op basis van de historische open en kliksnelheden."
 
 >[!AVAILABILITY]
 >
->* Optimalisatie van verzendtijd is niet standaard ingeschakeld. U kunt contact opnemen met uw Adobe om de pen te activeren.
+>* Optimalisatie van verzendtijd is niet standaard ingeschakeld. Je kunt contact opnemen met je Adobe-vertegenwoordiger om het te activeren.
 >
 >* Ten minste 1000 profielen met recente berichtengegevens worden aanbevolen voor de eerste training en scoring voor optimalisatie tijdens de verzending.
 >
@@ -161,7 +161,7 @@ Voor de activiteit in de app kunnen wijzigingen in de inhoud worden aangebracht 
 
 ### Over Send-Time optimalisatie {#about-send-time}
 
-De functie van de Optimalisatie van de Send-Time van Adobe Journey Optimizer, die door de diensten van AI van de Adobe wordt aangedreven, kan de beste tijd voorspellen om een **e-mail** of **duw bericht** te verzenden om overeenkomst te maximaliseren die op historisch open wordt gebaseerd en tarieven klikt. Gebruik ons machine-leert model om gepersonaliseerde verzendtijden voor elke gebruiker te plannen om open te groeien en tarieven van uw berichten te klikken.
+De functie van de Optimalisering van de Send-Time van Adobe Journey Optimizer, die door de diensten van AI van Adobe wordt aangedreven, kan de beste tijd voorspellen om een **e-mail** of **duw bericht** te verzenden om overeenkomst te maximaliseren die op historisch open wordt gebaseerd en tarieven klikt. Gebruik ons machine-leert model om gepersonaliseerde verzendtijden voor elke gebruiker te plannen om open te groeien en tarieven van uw berichten te klikken.
 
 Het model van de Optimalisering van de Send-Time neemt uw gegevens van Adobe Journey Optimizer op en kijkt open (voor e-mail en duw) op gebruikersniveau en klikt (voor e-mail) tarieven om te bepalen wanneer uw klanten het meest waarschijnlijk met uw overseinen in dienst zullen nemen. De optimalisering van de Send-Tijd vereist een minimum van één maand van bericht-volgende gegevens om geïnformeerde aanbevelingen te doen. Voor elke gebruiker kiest het systeem automatisch de beste tijd met behulp van de volgende scores:
 
