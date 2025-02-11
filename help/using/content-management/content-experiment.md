@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: inhoud, experiment, meerdere, publiek, behandeling
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+source-git-commit: 824926a3448acc57ed10074a92cc283cb8bbb658
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 1%
@@ -42,7 +42,7 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 
 ![](assets/content_experiment.png)
 
-➡️ leren hoe te om inhoudexperimenten te gebruiken om besluiten met het op code-gebaseerde ervaringskanaal in [ te vergelijken dit gebruiksgeval ](experience-decisioning-uc.md).
+➡️ leren hoe te om inhoudexperimenten te gebruiken om besluiten met het op code-gebaseerde ervaringskanaal in [ te vergelijken dit gebruiksgeval ](../experience-decisioning/experience-decisioning-uc.md).
 
 ## Uw inhoud maken {#campaign-experiment}
 
