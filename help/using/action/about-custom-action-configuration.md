@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
+source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1597'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_configuration"
 >title="Aangepaste acties"
->abstract="Als u een derdesysteem gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, gebruik douaneacties om zijn verbinding aan uw reis te vormen. Bijvoorbeeld kunt u met de volgende systemen met douaneacties verbinden: Epsilon, Slack, [ Adobe Developer ](https://developer.adobe.com), Vuurbasis, enz."
+>abstract="Als u een derdesysteem gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, gebruik douaneacties om zijn verbinding aan uw reis te vormen."
 
 Als u een derdesysteem gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, gebruik douaneacties om zijn verbinding aan uw reis te vormen. Bijvoorbeeld kunt u met de volgende systemen met douaneacties verbinden: Epsilon, Slack, [ Adobe Developer ](https://developer.adobe.com) {target="_blank"}, Vuurbasis, enz.
 
@@ -115,7 +115,7 @@ Wanneer u een aangepaste handeling configureert, moet u de volgende **[!UICONTRO
 
    >[!NOTE]
    >
-   > De **DELETE** methode wordt niet gesteund. Als u een bestaand middel moet bijwerken, selecteer de **PUT** methode.
+   > De **methode van DELETE** wordt niet gesteund. Als u een bestaand middel moet bijwerken, selecteer de **methode van PUT**.
 
 1. Definieer de headers en queryparameters:
 
@@ -149,7 +149,7 @@ Wederzijdse TLS-verificatie (mTLS) wordt ondersteund in aangepaste handelingen. 
 
 U kunt de parameter payload als volgt definiëren:
 
-1. Plak in de sectie **[!UICONTROL Request]** een voorbeeld van de JSON-payload die u naar de externe service wilt verzenden. Dit gebied is facultatief en slechts beschikbaar voor POST en PUT die methodes roepen.
+1. Plak in de sectie **[!UICONTROL Request]** een voorbeeld van de JSON-payload die u naar de externe service wilt verzenden. Dit veld is optioneel en alleen beschikbaar voor aanroepmethoden POST en PUT.
 
    Schakel de optie **[!UICONTROL Allow NULL values]** in om Null-waarden in de externe aanroep te behouden. Let op: het verzenden van arrays van int, string, etc. met Null-waarden binnen wordt niet volledig ondersteund. De volgende array met gehele getallen `[1, null, 2, 3]` wordt bijvoorbeeld verzonden als `[1, 2, 3]` , zelfs als deze optie is ingeschakeld. Als een dergelijke array null is, wordt deze als een lege array verzonden.
 
