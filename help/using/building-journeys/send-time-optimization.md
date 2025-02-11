@@ -9,19 +9,14 @@ role: User
 level: Intermediate
 keywords: send-time, send, message, optimization, trip, AI, Intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: b9ec336abbe329c33098880b16aaeabd8ec0c310
+source-git-commit: a0ace8232d6851b7cd41ba4d8a06a2a42bb799e6
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1505'
 ht-degree: 0%
 
 ---
 
 # Send-Time optimalisatie{#send-time-optimization}
-
->[!CONTEXTUALHELP]
->id="jo_bestsendtime_disabled"
->title="Optimalisatie van verzonden tijd"
->abstract="De functie voor Send-Time optimalisatie van Adobe Journey Optimizer, aangedreven door Adobe AI-services, kan de beste tijd voorspellen om een e-mail- of pushbericht te verzenden om de betrokkenheid te maximaliseren op basis van de historische open en kliksnelheden."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
