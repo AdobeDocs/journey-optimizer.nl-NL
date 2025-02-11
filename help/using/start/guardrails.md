@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 5b16e3a89a9a39723a2443345c4e8180a490112e
+source-git-commit: 3860916a899b3f1bc0f7563f776cdf8356aee0a9
 workflow-type: tm+mt
-source-wordcount: '2460'
+source-wordcount: '2489'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ U moet zich ook bewust zijn van [ Gidsen voor de gegevens van het Profiel van de
 
 ## Ondersteunde browsers {#browsers}
 
-Adobe [!DNL Journey Optimizer] interface is ontworpen om optimaal te werken in de nieuwste versie van Google Chrome. Mogelijk kunt u problemen ondervinden bij het gebruik van bepaalde functies in oudere versies of andere browsers.
+De Adobe [!DNL Journey Optimizer] -interface is ontworpen om optimaal te werken in de nieuwste versie van Google Chrome. Mogelijk kunt u problemen ondervinden bij het gebruik van bepaalde functies in oudere versies of andere browsers.
 
 ## Berichtgidsen {#message-guardrails}
 
@@ -68,7 +68,7 @@ Onderzoek de [ Veelgestelde sectie van Vragen ](../data/datasets-ttl.md#ttl) voo
 
 In [!DNL Journey Optimizer] kunt u standaard maximaal 10 subdomeinen delegeren (voor zowel e-mail- als webkanalen).
 
-Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen delegeren. Bereik uit aan uw contact van de Adobe om meer over het aantal subdomeinen te leren u aan recht hebt.
+Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen delegeren. Neem contact op met uw Adobe-contactpersoon voor meer informatie over het aantal subdomeinen waarop u recht hebt.
 
 ## Fragmenten, ardraals {#fragments-guardrails}
 
@@ -80,6 +80,8 @@ Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen deleg
 ### Algemene reisgeleiders {#journeys-guardrails-journeys}
 
 * Het aantal activiteiten op een reis is beperkt tot 50. Het aantal activiteiten wordt weergegeven in de linkerbovensectie van het reiscanvas. Dit zal helpen in leesbaarheid, QA en het oplossen van problemen.
+* Journey Optimizer ondersteunt een piekvolume van 5.000 inkomende reisevenementen per seconde.
+* Het kan tot 5 minuten duren voordat de eerste actie tijdens de reis wordt uitgevoerd.
 * Tijdens het publiceren van reizen worden de schaal en de stabiliteit automatisch aangepast om een maximale doorvoer en stabiliteit te garanderen. Aangezien u dichtbij de mijlpaal van 100 levende reizen in één keer, zult u een bericht over deze verwezenlijking zien verschijnen in UI. Als u deze melding ziet en uw reizen moet verlengen tot meer dan 100 rechtstreekse reizen tegelijk, maak dan een ticket voor de klantenservice en wij helpen u uw doelstellingen te bereiken.
   <!-- DOCAC-10977 * As you publish journeys, we automatically scale and adjust to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time, you will see a notification appear in the UI on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
 * Wanneer u een publiekskwalificatie gebruikt op een reis, kan het tot 10 minuten duren voordat de activiteit van de publiekskwalificatie actief is en naar profielen luistert die het publiek binnenkomen of verlaten.
@@ -107,10 +109,10 @@ Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen deleg
 
 * Voor alle aangepaste handelingen, per host en per sandbox wordt een limiet van 300.000 aanroepen per minuut gedefinieerd. Verwijs naar [ deze pagina ](../action/about-custom-action-configuration.md). Deze grens is geplaatst gebaseerd op klantengebruik, om externe eindpunten te beschermen die door douaneacties worden gericht. U moet hiermee rekening houden bij reizen voor uw publiek door een juiste leessnelheid te definiëren (5000 profielen/s wanneer aangepaste handelingen worden gebruikt). Indien nodig, kunt u deze het plaatsen met voeten treden door een grotere het maximum van het maximum of het vertragen grens door onze Capping/het Draaien APIs te bepalen. Zie [deze pagina](../configuration/external-systems.md).
 * De URL van de aangepaste handeling ondersteunt geen dynamische parameters.
-* Methoden voor POST, PUT en GET worden ondersteund
+* POST-, PUT- en GET-callmethoden worden ondersteund
 * De naam van de queryparameter of -header mag niet beginnen met &quot;.&quot; of &quot;$&quot;
 * IP-adressen zijn niet toegestaan
-* Interne adressen van de Adobe (`.adobe.*`) worden niet toegestaan in URLs en APIs.
+* Interne Adobe-adressen (`.adobe.*`) zijn niet toegestaan in URL&#39;s en API&#39;s.
 * Ingebouwde aangepaste handelingen kunnen niet worden verwijderd.
 * Aangepaste acties bieden alleen ondersteuning voor de JSON-indeling als u een aanvraag- of antwoordlading gebruikt. Zie [deze pagina](../action/about-custom-action-configuration.md#custom-actions-limitations).
 * Wanneer het kiezen van een eindpunt om het gebruiken van een douaneactie te richten, ben zeker dat:
@@ -129,7 +131,7 @@ Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen deleg
 ### Gegevensbronnen {#data-sources-g}
 
 * De externe gegevensbronnen kunnen binnen een klantenreis worden gebruikt om externe gegevens in echt op te zoeken - tijd. Deze bronnen moeten bruikbaar zijn via REST API, JSON ondersteunen en het volume van aanvragen kunnen verwerken.
-* Interne adressen van de Adobe (`.adobe.*`) worden niet toegestaan in URLs en APIs.
+* Interne Adobe-adressen (`.adobe.*`) zijn niet toegestaan in URL&#39;s en API&#39;s.
 
 >[!NOTE]
 >
@@ -230,14 +232,14 @@ De beperkingen van het besluitvormingsbeheer worden hieronder vermeld.
 
 * **goedgekeurde Persoonlijke Aanbiedingen + de Aanbiedingen van de Fallback** - tot 10.000 gecombineerde goedgekeurde Persoonlijke Aanbiedingen en goedgekeurde Aanbiedingen van de Fallback.
 * **Besluiten** - tot 10.000 Besluiten.
-* **Levende Besluiten** - de Dienst van de App van de Offer decisioning steunt tot 1.000 Levende Besluiten.
-* **Aanbiedingen die per reactie** zijn teruggekeerd - de steunen van de Offer decisioning tot 100 aanbiedingen die per verzoek over alle besluitvormingswerkingsgebied in verzoek zijn teruggekeerd.
+* **Levende Besluiten** - de Dienst van de App van Offer Decisioning steunt tot 1.000 Levende Besluiten.
+* **Aanbiedingen die per reactie** zijn teruggekeerd - Offer Decisioning steunt tot 100 aanbiedingen die per verzoek over alle besluitvormingswerkingsgebied in verzoek zijn teruggekeerd.
 * **Inzamelingen** - tot 10.000 Inzamelingen.
 * **inzamelingen per Besluit** - tot 30 Inzamelingen per Besluit.
 * **Regels van het Besluit + het Rangschikken Functies** tot 10.000 gecombineerde de Regels van het Besluit en het Rangschikken Functies.
 * **Plaatsingen** - tot 1.000 Plaatsen.
 * **Plaatsingen per Besluit** - tot 30 Plaatsen per Besluit.
-* **Rangschikkende Methode per Besluit** - de Dienst van de App van de Offer decisioning steunt tot 30 Rangschikkende Functies per Besluit.
-* **AI het Rangschikken model** - de Dienst van de App van de Offer decisioning steunt tot 5 AI rangschikkende modellen.
-* **Kwalificator van de Inzameling per Aanbieding of Inzameling** - de Dienst van de Toepassing van de Offer decisioning steunt tot 20 Kwalificatoren van de Inzameling in om het even welk enkel Gepersonaliseerd Aanbod of enige Inzameling.
-* **Totale Kwalificaties van de Inzameling** - de Dienst van de Toepassing van de Offer decisioning steunt tot 1.000 Kwalificatoren van de Inzameling.
+* **Rangschikkende Methode per Besluit** - de Dienst van Offer Decisioning App steunt tot 30 Rangschikkende Functies per Besluit.
+* **AI het Rangschikken model** - de Dienst van de App van Offer Decisioning steunt tot 5 AI rangschikkende modellen.
+* **Kwalificatiecode van de Inzameling per Aanbieding of Inzameling** - de Dienst van Offer Decisioning App steunt tot 20 Kwalificatoren van de Inzameling in om het even welk enkel Gepersonaliseerd Aanbod of enige Inzameling.
+* **Totale Kwalificaties van de Inzameling** - de Dienst van Offer Decisioning App steunt tot 1.000 Kwalificatoren van de Inzameling.
