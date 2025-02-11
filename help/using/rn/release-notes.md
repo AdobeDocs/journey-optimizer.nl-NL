@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1c17f1ef543948f74e95efab66dfeabf97af4519
+source-git-commit: fc6a552700a52c5f513299ab861750263aeda98a
 workflow-type: tm+mt
-source-wordcount: '2278'
+source-wordcount: '2270'
 ht-degree: 6%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 6%
 <p>Je hebt nu de mogelijkheid om je Journey Optimizer-rapporten te verbeteren met behulp van Customer Journey Analytics-sjablonen. Met deze nieuwe functie kunt u uw rapportageproces stroomlijnen met vooraf ontworpen sjablonen die zijn afgestemd op uw analysebehoeften.
 </p>
 <p>Raadpleeg de <a href="../reports/report-cja-manage.md#cja-template">gedetailleerde documentatie</a> voor meer informatie.</p>
-<p> De <b> functionaliteit van het Malplaatje </b> wordt geleidelijk ingevoerd in fasen, met volledige Algemene Beschikbaarheid die tegen eind Januari wordt gepland</p>
+<p>Beschikbaarheidsdatum: vanaf 15 januari 2025</p>
 </tr>
 </tbody>
 </table>
@@ -54,6 +54,7 @@ ht-degree: 6%
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>Raadpleeg de <a href="../audience/about-audiences.md#flexible">gedetailleerde documentatie</a> voor meer informatie.</p>
 <p> De flexibele publieksevaluatie is slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
+<p>Beschikbaarheidsdatum: 28 januari 2025</p>
 </tr>
 </tbody>
 </table>
