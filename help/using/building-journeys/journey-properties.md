@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, configuratie, eigenschappen
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+source-git-commit: 2ce069f92e11fa9246736a4b71dfd66391d8b06c
 workflow-type: tm+mt
-source-wordcount: '2217'
+source-wordcount: '2216'
 ht-degree: 0%
 
 ---
@@ -273,7 +273,7 @@ Een marketeer heeft een promotietraject met een reeks communicatie. Elk van deze
 
 ### Configuratie en gebruik {#exit-criteria-config}
 
-Afsluitingscriteria worden vastgesteld op het niveau van de reis. Eén reis kan meerdere exit-criteria hebben. Wanneer u meerdere afsluitcriteria hebt ingesteld, vindt de evaluatie van boven naar beneden plaats met een `OR` -logica. Zo als u Criteria A van de Uitgang en Criteria B hebt, zal het als A **OF** B worden geëvalueerd. De criteria worden bij elke etappe van de reis geëvalueerd.
+Afsluitingscriteria worden vastgesteld op het niveau van de reis. Eén reis kan meerdere exit-criteria hebben. Als u meerdere afsluitcriteria hebt ingesteld, vindt de evaluatie van boven naar beneden plaats met een `OR` -logica. Vandaar, als u Criteria A van de Uitgang en Criteria B hebt, wordt het geëvalueerd als A **OF** B. De criteria worden bij elke etappe van de reis geëvalueerd.
 
 Om **te creëren** een uitgangscriteria, volg deze stappen:
 
@@ -285,8 +285,8 @@ Om **te creëren** een uitgangscriteria, volg deze stappen:
    ![](assets/exitcriteria.png){width="40%" align="left"}
 1. Ga a **Etiket** in en selecteer als uw uitgangscriteria op een **Gebeurtenis** of een **Publiek** gebaseerd zijn.
 
-* Kies voor Afsluiten-criteria die zijn gebaseerd op een gebeurtenis alleen een eenheidsgebeurtenis.
-* Selecteer een publiek voor Afsluiten op basis van criteria voor een publiek. Opmerking: het kan 10 minuten duren voordat de criteria voor het afsluiten met een publiek effectief zijn.
+Kies voor Afsluiten-criteria die zijn gebaseerd op een gebeurtenis alleen een eenheidsgebeurtenis.
+Selecteer een publiek voor Afsluiten op basis van criteria voor een publiek. Opmerking: het kan 10 minuten duren voordat de criteria voor het afsluiten met een publiek effectief zijn.
 
 U kunt meerdere afsluitcriteria toevoegen.
 
