@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
 source-wordcount: '3487'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >title="Journaal live"
 >abstract="Met het Live Journey-rapport kunt u de impact en prestaties van uw reizen in real-time alleen in de afgelopen 24 uur meten en visualiseren. Uw rapport is verdeeld in verschillende widgets die het succes en de fouten van uw reis gedetailleerd beschrijven. Elk rapportdashboard kan worden gewijzigd door widgets te vergroten of te verkleinen of te verwijderen."
 
-Live rapporten, die toegankelijk zijn vanaf het tabblad Laatste 24 uur, geven gebeurtenissen weer die in de afgelopen 24 uur hebben plaatsgevonden, met een minimale tijdsinterval van twee minuten vanaf de gebeurtenis. Ter vergelijking, de rapporten van de Customer Journey Analytics concentreren zich op gebeurtenissen die minstens twee uur geleden voorkwamen en gebeurtenissen over een geselecteerde tijdspanne behandelen.
+Live rapporten, die toegankelijk zijn vanaf het tabblad Laatste 24 uur, geven gebeurtenissen weer die in de afgelopen 24 uur hebben plaatsgevonden, met een minimale tijdsinterval van twee minuten vanaf de gebeurtenis. Ter vergelijking, Customer Journey Analytics rapporteert zich op gebeurtenissen die minstens twee uur geleden hebben plaatsgevonden en gebeurtenissen gedurende een bepaalde tijdsperiode.
 
 Live-rapport over reizen kunt u rechtstreeks vanaf uw reis openen met de knop **[!UICONTROL View report]** .
 
@@ -357,7 +357,7 @@ De **[!UICONTROL Offers statistic]** - en **[!UICONTROL Offers statistics over t
 
 >[!NOTE]
 >
->De widgets **[!UICONTROL Send time optimization]** en **[!UICONTROL Optimized vs non optimized]** zijn alleen beschikbaar als de optie Send-Time Optimization is geactiveerd voor de levering. Voor meer informatie over Send-Time Optimalisering, verwijs naar [ deze pagina ](../building-journeys/journeys-message.md#send-time-optimization).
+>De widgets **[!UICONTROL Send time optimization]** en **[!UICONTROL Optimized vs non optimized]** zijn alleen beschikbaar als de optie Send-Time Optimization is geactiveerd voor de levering. Voor meer informatie over Send-Time Optimalisering, verwijs naar [ deze pagina ](../building-journeys/send-time-optimization.md).
 
 De widgets **[!UICONTROL Send time optimization]** en **[!UICONTROL Optimized vs non optimized]** geven een gedetailleerd overzicht van het succes van uw e-mails, afhankelijk van de verzendmethode: geoptimaliseerd of normaal.
 

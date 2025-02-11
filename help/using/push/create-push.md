@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 1%
@@ -40,7 +40,7 @@ Voer de onderstaande stappen uit om een pushmelding te maken:
 
    >[!NOTE]
    >
-   >Als u een pushmelding verzendt van een reis, kunt u de functie voor Send-Time optimalisatie voor Adobe Journey Optimizer gebruiken om de beste tijd te voorspellen voor het verzenden van het bericht om de betrokkenheid te maximaliseren op basis van de historische open en kliksnelheden. [ Leer hoe te met Optimalisering Send-Time ](../building-journeys/journeys-message.md#send-time-optimization) te werken
+   >Als u een pushmelding verzendt van een reis, kunt u de functie voor Send-Time optimalisatie voor Adobe Journey Optimizer gebruiken om de beste tijd te voorspellen voor het verzenden van het bericht om de betrokkenheid te maximaliseren op basis van de historische open en kliksnelheden. [ Leer hoe te met Optimalisering Send-Time ](../building-journeys/send-time-optimization.md) te werken
 
    Voor meer informatie over hoe te om een reis te vormen, verwijs naar [ deze pagina ](../building-journeys/journey-gs.md)
 

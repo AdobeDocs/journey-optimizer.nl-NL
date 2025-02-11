@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: maken, e-mail, starten, reizen, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 2%
@@ -43,7 +43,7 @@ Als u een e-mail wilt maken in [!DNL Journey Optimizer] , voegt u een **[!UICONT
 
 >[!NOTE]
 >
->Met de optie Send-Time optimalisatie kunt u het beste tijdstip voorspellen waarop u het bericht wilt verzenden om de betrokkenheid te maximaliseren op basis van de historisch geopende bestanden en klikt u op percentages. [ Leer hoe te met Optimalisering Send-Time ](../building-journeys/journeys-message.md#send-time-optimization) te werken
+>Met de optie Send-Time optimalisatie kunt u het beste tijdstip voorspellen waarop u het bericht wilt verzenden om de betrokkenheid te maximaliseren op basis van de historisch geopende bestanden en klikt u op percentages. [ Leer hoe te met Optimalisering Send-Time ](../building-journeys/send-time-optimization.md) te werken
 
 Voor meer informatie over hoe te om een reis te vormen, verwijs naar [ deze pagina ](../building-journeys/journey-gs.md).
 
@@ -94,13 +94,13 @@ Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [ deze 
 
    ![](assets/email_designer_edit_email_body.png)
 
-1. Als u in een campagne werkt, kunt u ook op de knop **[!UICONTROL Code Editor]** klikken om uw eigen inhoud in gewone HTML te coderen met behulp van het pop-upvenster dat wordt weergegeven.
+1. Als u in een campagne werkt, kunt u ook op de knop **[!UICONTROL Code Editor]** klikken om uw eigen inhoud in normale HTML te coderen met behulp van het pop-upvenster dat wordt weergegeven.
 
    ![](assets/email_designer_edit_code_editor.png)
 
    >[!NOTE]
    >
-   >Als u al inhoud hebt gemaakt of geïmporteerd via de e-mail-Designer, wordt deze inhoud weergegeven in HTML.
+   >Als u al inhoud hebt gemaakt of geïmporteerd via e-mail Designer, wordt deze inhoud weergegeven in HTML.
 
 ## Waarschuwingen controleren {#check-email-alerts}
 

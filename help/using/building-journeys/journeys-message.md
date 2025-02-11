@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: reis, bericht, push, sms, e-mail, in-app, web, inhoudskaart, op code gebaseerde ervaring
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 34ecb4b7f30741d88fa69007e1c236eb731dc06c
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 0%
+source-wordcount: '431'
+ht-degree: 1%
 
 ---
 
@@ -142,98 +142,3 @@ Als u contextuele gegevens hebt gewijzigd, wordt het volgende foutbericht weerge
 Als u profielkenmerken hebt gewijzigd, wordt het volgende foutbericht weergegeven: ERR_AUTHORING_JOURNEYVERSION_202
 
 Voor de activiteit in de app kunnen wijzigingen in de inhoud worden aangebracht terwijl de reis live is, maar triggers in de app kunnen niet worden gewijzigd.
-
-## Send-Time optimalisatie{#send-time-optimization}
-
->[!CONTEXTUALHELP]
->id="jo_bestsendtime_disabled"
->title="Optimalisatie van verzonden tijd"
->abstract="De functie voor Send-Time optimalisatie van Adobe Journey Optimizer, aangedreven door Adobe AI-services, kan de beste tijd voorspellen om een e-mail- of pushbericht te verzenden om de betrokkenheid te maximaliseren op basis van de historische open en kliksnelheden."
-
->[!AVAILABILITY]
->
->* Optimalisatie van verzendtijd is niet standaard ingeschakeld. Je kunt contact opnemen met je Adobe-vertegenwoordiger om het te activeren.
->
->* Ten minste 1000 profielen met recente berichtengegevens worden aanbevolen voor de eerste training en scoring voor optimalisatie tijdens de verzending.
->
->* De optimalisering van de Send-Time is slechts op **E-mail** en **Push- bericht** kanalen van toepassing.
-
-
-### Over Send-Time optimalisatie {#about-send-time}
-
-De functie van de Optimalisering van de Send-Time van Adobe Journey Optimizer, die door de diensten van AI van Adobe wordt aangedreven, kan de beste tijd voorspellen om een **e-mail** of **duw bericht** te verzenden om overeenkomst te maximaliseren die op historisch open wordt gebaseerd en tarieven klikt. Gebruik ons machine-leert model om gepersonaliseerde verzendtijden voor elke gebruiker te plannen om open te groeien en tarieven van uw berichten te klikken.
-
-Het model van de Optimalisering van de Send-Time neemt uw gegevens van Adobe Journey Optimizer op en kijkt open (voor e-mail en duw) op gebruikersniveau en klikt (voor e-mail) tarieven om te bepalen wanneer uw klanten het meest waarschijnlijk met uw overseinen in dienst zullen nemen. De optimalisering van de Send-Tijd vereist een minimum van één maand van bericht-volgende gegevens om geïnformeerde aanbevelingen te doen. Voor elke gebruiker kiest het systeem automatisch de beste tijd met behulp van de volgende scores:
-
-* Het beste uur van elke dag van de week om de betrokkenheid te maximaliseren
-* De beste dag van de week om de betrokkenheid te maximaliseren
-* Het beste uur van de beste dag van de week om de betrokkenheid te maximaliseren
-
-Het model varieert, of u over score of opleiding spreekt. De training wordt aanvankelijk wekelijks en vervolgens driemaandelijks gegeven. De score wordt eerst wekelijks en daarna maandelijks vastgesteld.
-
-* Training - de ontwikkeling van het algoritme waarmee de score wordt gemaakt
-* Scores - de toepassing van een score op individuele profielen die op het getrainde model worden gebaseerd
-
-Deze informatie wordt opgeslagen met het profiel van de gebruiker en wordt bij de uitvoering van de reis gebruikt om Adobe Journey Optimizer te laten weten wanneer je bericht moet worden verzonden.
-
-### Veelgestelde vragen {#faq-send-time}
-
-+++ Wat kan de Optimalisering van de Verzendtijd doen? Hoe worden nieuwe profielen verwerkt? Spreidt het over een periode van 6/12/24 uur?
-
-Optimalisatie van verzendtijd probeert de beste tijd te voorspellen om met klanten in contact te komen en open-/kliksnelheden voor e-mails te optimaliseren. De score heeft een indeling van `3*7*24` -kenmerken voor elk profiel. De `7*24` -kenmerken beschrijven de volgorde van de voorspelde beste tijd voor het verzenden van e-mails naar de ontvanger en 3 is bedoeld voor het optimaliseren van de openingsfrequentie van e-mail, het klikken op snelheid per e-mail en het uitvoeren van een push-snelheid.
-
-+++
-
-+++Waar kan ik de verwachte verzendtijd voor elk profiel zien?
-
-De ranks in elk &#39;uur van de week&#39; lopen van -83 tot 84, maar worden samengevat tot één waarde om te voorkomen dat het profiel met 168 verschillende waarden wordt geklonterd. Voor elk van de drie sets van 168 scores lopen de ranks van -83 tot 84.
-
-De waarde wordt gelezen door het optimalisatiealgoritme. Deze waarde is niet ontworpen om leesbaar voor mensen te zijn.
-
-Hoe hoger de rangorde, hoe beter de tijd is om met de ontvanger te communiceren. Aangezien u het begin en de duur van een reis kunt bepalen, kan de beste rang (84) niet in dat tijdvenster vallen. In dit geval raden we u aan een uur met de hoogste rangorde te kiezen.
-+++
-
-
-+++Welke rapportering is beschikbaar?
-
-Heb toegang tot uw reis, klik het **rapport van de Mening** knoop in het hoogste recht en selecteer het **** lusje van de Reis op de linkerzijde. [Meer informatie](../reports/journey-global-report-cja.md)
-
-+++
-
-+++Hoe beïnvloeden de gegevens van de Optimalisatie van de Send-Time profielrijkdom?
-
-De optimalisering van de Send-Tijd voegt de score/de attributen aan elk profiel toe maar geen nieuw profiel wordt gecreeerd.
-
-+++
-
-### Send-Time optimaliseren activeren{#activate-send-time-optimization}
-
->[!CONTEXTUALHELP]
->id="jo_bestsendtime_email"
->title="Send-Time optimaliseren activeren"
->abstract="Kies of u wilt optimaliseren bij het openen van e-mail of door op de e-mail te klikken. Selecteer hiervoor het juiste keuzerondje. U kunt er ook voor kiezen om de verzendtijden die door het systeem worden gebruikt te accentueren door een waarde voor Verzenden in te voeren binnen de volgende optie."
-
->[!CONTEXTUALHELP]
->id="jo_bestsendtime_push"
->title="Send-Time optimaliseren activeren"
->abstract="Pushberichten worden standaard ingesteld op de optie Openen, omdat klikken niet van toepassing zijn op pushberichten. U kunt er ook voor kiezen om de verzendtijden die door het systeem worden gebruikt te accentueren door een waarde voor Verzenden in te voeren binnen de volgende optie."
-
-Laat Send-Time Optimalisering op een e-mail of duw bericht toe door de **schakelaar van de Optimalisering van de Send-Time** van de activiteitenparameters te selecteren.
-
-![](../building-journeys/assets/jo-message5.png)
-
-Kies bij e-mailberichten of u wilt optimaliseren bij het openen van een e-mail of door op het juiste keuzerondje te klikken. Pushberichten worden standaard ingesteld op de optie Openen, omdat klikken niet van toepassing zijn op pushberichten.
-
-U kunt ook verkiezen om de verzendtijden te steunen die door het systeem worden gebruikt door een waarde voor **in te gaan verzendt binnen de volgende** optie. Als u &quot;zes uur&quot; als waarde kiest, controleert [!DNL Journey Optimizer] elk gebruikersprofiel en kiest u de optimale verzendtijd binnen zes uur na de uitvoeringstijd van de reis.
-
-**wat gebeurt als de optimale tijd buiten het venster is?**
-
-Neem een voorbeeld met de volgende opstelling:
-
-* Optimaliseren bij klikken
-* Actie moet om 10 uur beginnen
-* Venster is 3 uur
-
-Een profiel kan een optimale open tijd hebben die buiten het venster is. De optimale open functie van John bij klikken is bijvoorbeeld 17.00 uur.
-
-Op profielniveau zijn er scores voor elk uur van de week. In dit voorbeeld wordt de e-mail altijd verzonden binnen het venster. Tijdens runtime, controleert het systeem de lijst van scores binnen dat venster (3 uurvenster dat bij 10 AM begint). Vervolgens vergelijkt het systeem de scores voor 10, 11 en 12 uur &#39;s middags en wordt het hoogste geselecteerd. Het e-mailbericht wordt op dat moment verzonden.

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
-source-wordcount: '5975'
+source-wordcount: '6006'
 ht-degree: 12%
 
 ---
@@ -18,6 +18,12 @@ ht-degree: 12%
 # Documentatie-updates {#latest-updates}
 
 Deze pagina bevat een overzicht van alle meest recente updates in de documentatie van [!DNL Journey Optimizer] .
+
+
+## Februari 2025 {#feb-2025}
+
+* De documentatie voor **[!UICONTROL Send-Time optimization]** en de bijbehorende veelgestelde vragen zijn bijgewerkt, verbeterd en naar een nieuwe, speciale pagina gegaan. [Meer informatie](../building-journeys/send-time-optimization.md)
+* Er zijn nieuwe instructies toegevoegd voor reisevenementen. [Meer informatie](../start/guardrails.md#events-g)
 
 ## Januari 2025 {#jan-2025}
 
@@ -99,7 +105,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 * Er is informatie toegevoegd over het maken van identiteiten met aangepaste naamruimten wanneer er wordt gewerkt met API-gestuurde campagnes. [Meer informatie](../campaigns/api-triggered-campaigns.md)
 * Screeshots zijn bijgewerkt met de verbeterde Journey canvas.
 * Het noemen van beperkingen is bijgewerkt in de volgende pagina: [ vormt een unitaire gebeurtenis ](../event/about-creating.md), [ vormt een bedrijfsgebeurtenis ](../event/about-creating-business.md#gs-business-events), [ vormt een douaneactie ](../action/about-custom-action-configuration.md#configuration-steps), [ Externe gegevensbronnen ](../datasource/external-data-sources.md)
-* Er is een opmerking toegevoegd bij de beschikbaarheid van de functie Tijd optimaliseren verzenden. [Meer informatie](../building-journeys/journeys-message.md#send-time-optimization)
+* Er is een opmerking toegevoegd bij de beschikbaarheid van de functie Tijd optimaliseren verzenden. [Meer informatie](../building-journeys/send-time-optimization.md)
 * Er is een nieuw geval voor technisch gebruik toegevoegd voor het maken van een aangepaste handeling voor het verzenden van gegevens naar Experience Platform. [Meer informatie](../building-journeys/custom-action-aep.md)
 
 ## Maart 2024 {#march-2024}
@@ -358,7 +364,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 * De pagina van de Lijst van gewenste personen is verplaatst naar de sectie van de Configuratie. [Meer informatie](../configuration/allow-list.md)
 * De pagina van de Lijst van de Onderdrukking is bijgewerkt om sommige informatie te verduidelijken, met inbegrip van het feit dat alle karakters van ASCII tussen 32 en 126 in de reden voor onderdrukking worden toegestaan. [Meer informatie](../configuration/manage-suppression-list.md)
 * Er is een verband toegevoegd met garanties en statische limieten voor het beheer van besluiten. [Meer informatie](../start/guardrails.md)
-* Send-Time Optimization is nu beschikbaar voor alle klanten. De bètavermelding is verwijderd. [Meer informatie](../building-journeys/journeys-message.md#send-time-optimization)
+* Send-Time Optimization is nu beschikbaar voor alle klanten. De bètavermelding is verwijderd. [Meer informatie](../building-journeys/send-time-optimization.md)
 * De API voor het bepalen van de batch is toegevoegd aan de lijst met beschikbare API&#39;s voor het aanbieden van gepersonaliseerde aanbiedingen. [Meer informatie](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## Mei 2022 {#may-2022}

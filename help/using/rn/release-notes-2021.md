@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
 source-wordcount: '2032'
 ht-degree: 8%
@@ -31,7 +31,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer ondersteunt nu CNAME's. Een CNAME, of Canonical Name verslag, is een verslag dat aan een ander domeinadres eerder dan een IP adres richt. De subdomeindelegatie van CNAME laat u toe om subdomain tot stand te brengen en CNAMEs te gebruiken om aan Adobe-specifieke verslagen te richten. Met deze configuratie delen u en de Adobe de verantwoordelijkheid voor het onderhoud van DNS in de omgeving voor het verzenden, renderen en volgen van e-mails.</p>
+<p>Adobe Journey Optimizer ondersteunt nu CNAME's. Een CNAME, of Canonical Name verslag, is een verslag dat aan een ander domeinadres eerder dan een IP adres richt. De subdomeindelegatie van CNAME laat u toe om subdomain tot stand te brengen en CNAMEs te gebruiken om aan Adobe-specifieke verslagen te richten. Met behulp van deze configuratie delen u en Adobe de verantwoordelijkheid voor het onderhoud van DNS om een omgeving in te stellen voor het verzenden, renderen en volgen van e-mails.</p>
 <p>Deze methode wordt aanbevolen als het beleid van uw organisatie de methode voor volledige subdomeindelegatie beperkt.</p>
 <p>Leer meer op subdomain van CNAME delegatie in de <a href="../configuration/delegate-subdomain.md#cname-subdomain-delegation"> gedetailleerde documentatie </a>.</p>
 </td>
@@ -184,9 +184,9 @@ Zie ook [ de Nota&#39;s van de Versie van Adobe Experience Platform Oktober ](ht
 <tbody>
 <tr>
 <td>
-<p>Verzend automatisch uw pushbericht of e-mail op het beste moment voor elke klant die u met Adobe Journey Optimizer werkt. De Optimalisering van de Send-Time, aangedreven door de diensten van AI van de Adobe, voorspelt de beste tijd om een e-mail of duw bericht te verzenden om overeenkomst te maximaliseren die op historische open en klikkingspercentages uit de doos wordt gebaseerd.</p>
-<p>Deze functie is momenteel in bètaversie beschikbaar voor bètaklanten. Neem contact op met de klantenservice van de Adobe om deel te nemen aan het bètaprogramma.</p>
-<p>Raadpleeg de <a href="../building-journeys/journeys-message.md#send-time-optimization">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Verzend automatisch uw pushbericht of e-mail op het beste moment voor elke klant die u met Adobe Journey Optimizer werkt. Optimalisatie voor Send-Time, aangedreven door Adobe AI-services, voorspelt de beste tijd om een e-mail- of pushbericht te verzenden om de betrokkenheid te maximaliseren op basis van een open historie en het klikken op snelheden buiten het vak.</p>
+<p>Deze functie is momenteel in bètaversie beschikbaar voor bètaklanten. Neem contact op met de klantenservice van Adobe om deel te nemen aan het bètaprogramma.</p>
+<p>Raadpleeg de <a href="../building-journeys/send-time-optimization.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -270,7 +270,7 @@ Zie ook [ de Nota&#39;s van de Versie van Adobe Experience Platform Oktober ](ht
 
 **Gebruikersinterface**
 
-* **Onderzoek** - op elke pagina, kunt u bedrijfsvoorwerpen en hulpartikelen van het Verenigde het onderzoeksgebied van het Experience Cloud nu direct zoeken. [Meer informatie](../start/user-interface.md#unified-search)
+* **Onderzoek** - op elke pagina, kunt u bedrijfsvoorwerpen en hulpartikelen van het Verenigde het onderzoeksgebied van Experience Cloud nu direct zoeken. [Meer informatie](../start/user-interface.md#unified-search)
 * **Recenten** - de vertoning van recente elementen van de homepage van Adobe Journey Optimizer wordt nu uitgebreid tot extra bedrijfsvoorwerpen. Met deze update, omvatten de kortere weg aan uw onlangs betreden Berichten, Reizen, Soorten, Schema&#39;s, Datasets, Gegevensbronnen, Gebeurtenissen, Acties, Bronnen, en Doelen. [Meer informatie](../action/about-custom-action-configuration.md#passing-collection)
 
 **Ontwerp van de Inhoud**
