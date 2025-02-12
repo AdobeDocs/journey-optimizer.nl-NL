@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, bericht, push, sms, e-mail, in-app, web, inhoudskaart, op code gebaseerde ervaring
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 4c1908ad8022ff811537aa25be95db66a55882b4
+source-git-commit: 76b97c513a78def54a520279c178fb24002040b7
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '493'
 ht-degree: 1%
 
 ---
@@ -79,10 +79,6 @@ Volg onderstaande stappen om een ingebouwde kanaalactie aan een reis toe te voeg
       </tr>
       </table>
 
-     >[!NOTE]
-     >
-     >Voor e-mails en pushmeldingen kunt u Send-Time optimaliseren inschakelen. [Meer informatie](send-time-optimization.md)
-
    * Leer de gedetailleerde stappen om uw binnenkomende actie tot stand te brengen als volgt:
 
      <table style="table-layout:fixed">
@@ -123,9 +119,12 @@ Volg onderstaande stappen om een ingebouwde kanaalactie aan een reis toe te voeg
       </tr>
       </table>
 
-     >[!NOTE]
-     >
-     >Elke binnenkomende berichtactiviteit komt met een 3 dagen **wachten** activiteit. [Meer informatie](wait-activity.md#auto-wait-node)
+>[!NOTE]
+>
+>* Elke binnenkomende berichtactiviteit komt met een 3 dagen **wachten** activiteit. [Meer informatie](wait-activity.md#auto-wait-node)
+>
+>* Voor e-mails en pushmeldingen kunt u Send-Time optimaliseren inschakelen. [Meer informatie](send-time-optimization.md)
+
 
 
 ## Live-inhoud bijwerken {#update-live-content}
