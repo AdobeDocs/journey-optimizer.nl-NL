@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Kanaalconfiguraties instellen
 description: Leer om kanaalconfiguraties te vormen en te controleren
-feature: Surface, Channel Configuration
+feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: kanaal, oppervlak, technisch, parameters, optimalisator
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4cd7e193079f0e9d141d28ca80dd0cf7a899fbea
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
 workflow-type: tm+mt
 source-wordcount: '1676'
 ht-degree: 0%
@@ -108,7 +108,7 @@ Ga als volgt te werk om een kanaalconfiguratie te maken:
    > * Voor **niet productiestanddozen**, of als geselecteerde subdomain **reeds** in een andere goedgekeurde kanaalconfiguratie wordt gebruikt, neemt het proces slechts tot **3 uren**.
 
 
-   Deze controles omvatten configuratie en technische tests die door het team van de Adobe worden uitgevoerd:
+   Deze controles omvatten configuratie en technische tests die door het team van Adobe worden uitgevoerd:
 
    * SPF-validatie
    * DKIM-validatie
@@ -143,11 +143,11 @@ Na het maken kunnen kanaalconfiguraties de volgende statussen hebben:
 
 Wanneer een kanaalconfiguratie mislukt, worden de details van elke mogelijke oorzaak van een fout hieronder beschreven.
 
-Als één van deze fouten voorkomt, contacteer ](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) {target="_blank"} de Zorg van de Klant van de Adobe [ om hulp te krijgen.
+Als één van deze fouten voorkomt, contacteer ](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) {target="_blank"} de Zorg van de Klant van Adobe [ om hulp te krijgen.
 
 * **ontbroken bevestiging SPF**: SPF (het Kader van het Beleid van de Afzender) is een e-mailauthentificatieprotocol dat toestaat om erkende IPs te specificeren die e-mail van een bepaald subdomein kan verzenden. De de bevestigingsmislukking van SPF betekent dat de IP adressen in het SPF- verslag niet de IP adressen aanpassen die voor het verzenden van e-mails naar de brievenbusleveranciers worden gebruikt.
 
-* **ontbroken bevestiging DKIM**: DKIM (DomainKeys Identified Mail) staat de ontvankelijke server toe om te verifiëren dat het ontvangen bericht door de echte afzender van het bijbehorende domein werd verzonden en dat de inhoud van het originele bericht niet op zijn manier werd veranderd. DKIM-validatiefout betekent dat de ontvangende mailservers de authenticiteit van de berichtinhoud en de koppeling met het verzendende domein niet kunnen verifiëren.:
+* **ontbroken bevestiging van DKIM**: DKIM (DomainKeys Identified Mail) staat de ontvankelijke server toe om te verifiëren dat het ontvangen bericht door de echte afzender van het bijbehorende domein werd verzonden en dat de inhoud van het originele bericht niet op zijn manier werd veranderd. DKIM-validatiefout betekent dat de ontvangende mailservers de authenticiteit van de berichtinhoud en de koppeling met het verzendende domein niet kunnen verifiëren.:
 
 * **MX ontbroken verslagbevestiging**: MX (Exchange van de Post) fout van de verslagbevestiging betekent dat de postservers verantwoordelijk voor het goedkeuren van binnenkomende e-mails namens bepaald subdomain niet correct worden gevormd.
 

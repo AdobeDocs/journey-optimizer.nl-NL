@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Mobiel en web instellen
 description: Leer hoe u mobiele en webkanalen kunt configureren en controleren
-feature: Surface, Channel Configuration
+feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: kanaal, oppervlak, technisch, parameters, optimalisator
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 7a5bed3f4ee16c1a42289779fc53148bf6ab39e8
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 4%
@@ -29,7 +29,7 @@ ht-degree: 4%
 >abstract="Adobe Experience Platform Assurance is ingesloten in deze workflow om u te helpen uw SDK-implementatie te controleren en toepassingsgebeurtenissen te simuleren en te valideren."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance - Overzicht"
 
-Deze instelling vergemakkelijkt de snelle configuratie van marketingkanalen, waarbij alle vereiste middelen binnen Experience Platform, Journey Optimizer en gegevensverzameling gemakkelijk beschikbaar zijn. Hierdoor kan uw marketingteam beginnen met campagne en het creëren van reizen.
+Deze instelling vergemakkelijkt de snelle configuratie van de marketingkanalen, zodat alle vereiste middelen gemakkelijk beschikbaar zijn in Experience Platform, Journey Optimizer en gegevensverzameling. Hierdoor kan uw marketingteam beginnen met campagne en het creëren van reizen.
 
 De instelling van het kanaal met instructies ondersteunt de volgende platforms en kanalen.
 
@@ -109,7 +109,7 @@ Merk op dat voor elk platform dat u zou willen opstelling, het wordt vereist om 
 
 +++
 
-* Als u de bestaande configuratieoptie gebruikt, moet u ervoor zorgen dat u de volgende Adobe Experience Platform Mobile SDK-extensieversies gebruikt. Voor meer details op de opstelling van SDK met inbegrip van de vereiste gebiedsdelen en initialisatiecode, gelieve te verwijzen naar [ volgende documentatie ](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks).
+* Als u de bestaande configuratieoptie gebruikt, moet u ervoor zorgen dat u de volgende Adobe Experience Platform Mobile SDK extensieversies gebruikt. Voor meer details op de opstelling van SDK met inbegrip van de vereiste gebiedsdelen en initialisatiecode, gelieve te verwijzen naar [ volgende documentatie ](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks).
 
   Voor Android
 
@@ -123,7 +123,7 @@ Merk op dat voor elk platform dat u zou willen opstelling, het wordt vereist om 
 
 ## Automatisch gemaakte bronnen {#auto-create-resources}
 
-De instelling van het kanaal met instructies vereenvoudigt de snelle configuratie van marketingkanalen, zodat alle essentiële bronnen gemakkelijk beschikbaar zijn in de apps voor Experience Platform, Journey Optimizer en gegevensverzameling. Hierdoor kan uw marketingteam snel beginnen met het maken van campagnes en reizen. Hieronder ziet u een lijst met de bronnen die automatisch worden gegenereerd en geconfigureerd als onderdeel van de instelling Kanaal met instructies.
+De instelling van het kanaal met instructies vereenvoudigt de snelle configuratie van marketingkanalen, zodat alle essentiële bronnen gemakkelijk beschikbaar zijn in de Experience Platform-, Journey Optimizer- en Data Collection-apps. Hierdoor kan uw marketingteam snel beginnen met het maken van campagnes en reizen. Hieronder ziet u een lijst met de bronnen die automatisch worden gegenereerd en geconfigureerd als onderdeel van de instelling Kanaal met instructies.
 
 Blader door de onderstaande tabbladen voor toegang tot de uitgebreide lijsten met alle bronnen die automatisch worden gegenereerd:
 

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: E-mailuitschakelbeheer
 description: Ervaar hoe u de optie om te weigeren beheert met e-mails
-feature: Email Design, Privacy
+feature: Email Design, Consent Management
 topic: Content Management
 role: User
 level: Intermediate
 keywords: opt-out, e-mail, link, abonnement opzeggen
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 0%

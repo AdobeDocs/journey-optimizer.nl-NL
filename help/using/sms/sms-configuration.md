@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Voordat u SMS of MMS verzendt, moet u de Adobe Journey Optimizer-omgeving config
    * [Met Sinch](sms-configuration-sinch.md)
    * [Met Infobip](sms-configuration-infobip.md)
    * [Met een aangepaste provider](sms-configuration-custom.md)
-1. [Een SMS-oppervlak maken](sms-configuration-surface.md)
+1. [Een SMS-configuratie maken](sms-configuration-surface.md)
 
 Deze stappen moeten door een Beheerder van het Systeem van Adobe Journey Optimizer [ worden uitgevoerd ](../start/path/administrator.md).
 
@@ -53,7 +53,7 @@ Adobe Journey Optimizer is momenteel geïntegreerd met externe providers die ser
 
 Voorafgaand aan het kanaalconfiguratie van SMS, moet u een rekening met één van deze leveranciers tot stand brengen om uw **Symbolische API** en **identiteitskaart van de Dienst** te krijgen, die u de verbinding tussen Adobe Journey Optimizer en de toepasselijke leverancier moet vormen.
 
-Voor uw gebruik van tekstberichten en MMS-services gelden aanvullende voorwaarden van de betreffende provider. Als oplossingen van derden zijn Sinch, Twilio en Infobip via integratie beschikbaar voor Adobe Journey Optimizer-gebruikers. Adobe heeft geen betrekking op producten van derden en is niet verantwoordelijk voor deze producten. Neem contact op met uw provider voor problemen met of verzoeken om assistentie met betrekking tot SMS/MMS.
+Voor uw gebruik van tekstberichten en MMS-services gelden aanvullende voorwaarden van de betreffende provider. Als oplossingen van derden zijn Sinch, Twilio en Infobip via integratie beschikbaar voor Adobe Journey Optimizer-gebruikers. Adobe heeft geen controle en is niet verantwoordelijk voor producten van derden. Neem contact op met uw provider voor problemen met of verzoeken om assistentie met betrekking tot SMS/MMS.
 
 >[!CAUTION]
 >
