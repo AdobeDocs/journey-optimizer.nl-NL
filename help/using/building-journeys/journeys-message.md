@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, bericht, push, sms, e-mail, in-app, web, inhoudskaart, op code gebaseerde ervaring
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 56a1ef1ba256d1aac3593d8a61e67bdc42c17d32
+source-git-commit: 4c1908ad8022ff811537aa25be95db66a55882b4
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '491'
 ht-degree: 1%
 
 ---
@@ -23,23 +23,30 @@ ht-degree: 1%
 >title="Ingebouwde kanaalactie"
 >abstract="Journey Optimizer wordt geleverd met ingebouwde kanaalactiemogelijkheden. U kunt aan uw reis eenvoudig een uitgaande (e-mail, tekstbericht (SMS/MMS), duw) of binnenkomende (in-app, Web, code-gebaseerde ervaring, inhoudskaart) activiteit toevoegen, en montages en inhoud bepalen. Het wordt vervolgens uitgevoerd en verzonden in het kader van de reis."
 
-[!DNL Journey Optimizer] wordt geleverd met ingebouwde kanaalactiemogelijkheden. U kunt aan uw reis eenvoudig een uitgaande (e-mail, tekstbericht (SMS/MMS), duw) of binnenkomende (in-app, Web, code-gebaseerde ervaring, inhoudskaart) activiteit toevoegen, en montages en inhoud bepalen. Het wordt vervolgens uitgevoerd en verzonden in het kader van de reis.
+[!DNL Journey Optimizer] wordt geleverd met ingebouwde kanaalactiemogelijkheden die worden gebruikt om berichten te verzenden: wanneer een profiel deze activiteit ingaat, wordt een bericht naar hen verzonden.
+
+Als u een ingebouwde kanaalactie aan uw reis wilt toevoegen, sleept u een kanaalactiviteit en zet u de instellingen en inhoud van de activiteit neer. Het wordt vervolgens uitgevoerd en verzonden in het kader van de reis.
 
 >[!NOTE]
 >
->U kunt ook specifieke acties instellen om u berichten te sturen. [Meer informatie](#recommendation)
+>U kunt ook aangepaste acties instellen om berichten te verzenden. [Meer informatie](#recommendation)
+
+## Een bericht toevoegen tijdens een rit  {#add-msg-in-journey}
+
+Met ingebouwde kanaalacties, kunt u uitgaande of binnenkomende berichten vormen. Ondersteunde binnenkomende kanalen zijn e-mail, tekstbericht (SMS/MMS) en pushberichten. Ondersteunde uitgaande kanalen zijn In-app, Web, op code gebaseerde ervaring en inhoudskaart.
 
 Volg onderstaande stappen om een ingebouwde kanaalactie aan een reis toe te voegen.
 
 1. Begin uw reis met een [ Gebeurtenis ](general-events.md) of a [ gelezen activiteit van het publiek ](read-audience.md).
 
-1. Van de **Acties** sectie van het palet, sleep en laat vallen uitgaand (**e-mail**, **duw**, **SMS**) of binnenkomend (**In-app**, **Web**, **code-gebaseerde ervaring**, **inhoudskaart**) op het canvas.
+1. Van de **sectie van Acties** van het palet, sleep en laat vallen een kanaalactiviteit in het canvas.
 
    ![](assets/journey-web-activity.png)
 
-1. Configureer uw activiteit.
 
-   * Leer de gedetailleerde stappen om uw berichtinhoud tot stand te brengen als volgt:
+1. Configureer uw activiteit. De gedetailleerde configuratierichtlijnen zijn beschikbaar in de hieronder verbindingen.
+
+   * Leer de gedetailleerde stappen om uw uitgaande actie tot stand te brengen als volgt:
 
      <table style="table-layout:fixed">
       <tr style="border: 0;">
@@ -121,7 +128,7 @@ Volg onderstaande stappen om een ingebouwde kanaalactie aan een reis toe te voeg
      >Elke binnenkomende berichtactiviteit komt met een 3 dagen **wachten** activiteit. [Meer informatie](wait-activity.md#auto-wait-node)
 
 
-## Actieve inhoud bijwerken {#update-live-content}
+## Live-inhoud bijwerken {#update-live-content}
 
 U kunt de inhoud van een ingebouwde kanaalactie tijdens een live reis bijwerken.
 
