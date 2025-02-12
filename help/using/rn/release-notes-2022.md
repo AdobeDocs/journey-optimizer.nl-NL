@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 8%
@@ -449,7 +449,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 <tr>
 <td>
 <p>Met de Adobe Stock en Adobe Journey Optimizer Email Designer Integration-insteekmodule kunnen klanten eenvoudig door afbeeldingen navigeren, licenties aanschaffen en afbeeldingen opslaan voor gebruik in het schrijven van berichten. </br> de nieuwe <b> vindt gelijkaardige foto's van de Voorraad </b> optie staat u ook toe om van de foto's van de Voorraad de plaats te bepalen die de inhoud, de kleur, en de samenstelling van uw beelden zullen aanpassen. </p>
-<p>Raadpleeg de <a href="../content-management/stock.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Raadpleeg de <a href="../integrations/stock.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -512,7 +512,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 
 **het beheer van het Besluit**
 
-* **HTML en JSON- dossiers steunen** - u kunt externe HTML en dossiers JSON van de bibliotheek van de Activa van Adobe Experience Cloud nu slepen en laten vallen in de inhoud van de aanbiedingsvertegenwoordiging. [Meer informatie](../offers/offer-library/add-representations.md#html-json)
+* **HTML en JSON- dossiers steunen** - u kunt externe HTML en JSON dossiers van de bibliotheek van de Activa van Adobe Experience Cloud nu slepen en laten vallen in de inhoud van de aanbiedingsvertegenwoordiging. [Meer informatie](../offers/offer-library/add-representations.md#html-json)
 
 
 **E-mail**
@@ -651,7 +651,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 
 **Integratie met Adobe Campaign Standard**
 
-Als Adobe Campaign Standard-klant kunt u nu e-mails, pushberichten en SMS verzenden via Journey Optimizer. Gebruik de nieuwe ingebouwde acties om de Transactionele mogelijkheden van het Overseinen van het Campaign Standard in Journey Optimizer te gebruiken.  [Meer informatie](../action/acs-action.md)
+Als Adobe Campaign Standard-klant kunt u nu e-mails, pushberichten en SMS verzenden via Journey Optimizer. Gebruik de nieuwe ingebouwde acties om Campaign Standard Transaction Messaging-mogelijkheden in Journey Optimizer te benutten.  [Meer informatie](../action/acs-action.md)
 
 <!--
 ### Fixes

@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: inhoud, editor, e-mail, starten
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 0%
@@ -92,7 +92,7 @@ Voer de onderstaande stappen uit om uw inhoud te gaan samenstellen:
 
    ![](assets/email_designer_structure_component.png)
 
-1. Vanuit **[!UICONTROL Asset picker]** kunt u rechtstreeks elementen selecteren die zijn opgeslagen in de **[!UICONTROL Assets library]** . [ Leer meer over middelenbeheer ](../content-management/assets.md)
+1. Vanuit **[!UICONTROL Asset picker]** kunt u rechtstreeks elementen selecteren die zijn opgeslagen in de **[!UICONTROL Assets library]** . [ Leer meer over middelenbeheer ](../integrations/assets.md)
 
    Dubbelklik op de map met uw elementen. Sleep en zet ze neer in een structuurcomponent.
 
@@ -110,7 +110,7 @@ Voer de onderstaande stappen uit om uw inhoud te gaan samenstellen:
 
    ![](assets/email_designer_links.png)
 
-1. Indien nodig kunt u uw e-mail verder aanpassen door in het geavanceerde menu op **[!UICONTROL Switch to code editor]** te klikken. Op deze manier kunt u de broncode van de e-mail bewerken, bijvoorbeeld door tags voor bijhouden of aangepaste HTML toe te voegen. [ leer meer over de coderedacteur ](code-content.md)
+1. Indien nodig kunt u uw e-mail verder aanpassen door in het geavanceerde menu op **[!UICONTROL Switch to code editor]** te klikken. Op deze manier kunt u de broncode van de e-mail bewerken, bijvoorbeeld door trackingtags of aangepaste HTML-tags toe te voegen. [ leer meer over de coderedacteur ](code-content.md)
 
    >[!CAUTION]
    >

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 6b75f1f1916a20c1ad66f5b89ec706e5b8b6844b
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '6016'
 ht-degree: 12%
@@ -130,7 +130,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 ## Februari 2024 {#feb-2024}
 
 * Alle nieuwe functies en verbeteringen die zijn geïntroduceerd in de release van [!DNL Journey Optimizer] februari 24 zijn beschreven in de documentatie. [Meer informatie](release-notes.md#feb-2024)
-* De integratie met Journey Optimizer en Workfront is toegevoegd aan de integratiepagina. [Meer informatie](../start/ajo-integrations.md)
+* De integratie met Journey Optimizer en Workfront is toegevoegd aan de integratiepagina. [Meer informatie](../integrations/ajo-integrations.md)
 * Er is informatie toegevoegd over hoe u de representaties van aanbiedingen kunt aanpassen op basis van contextgegevens. [Meer informatie](../offers/offer-library/add-representations.md#context-data)
 * De pagina met instructies is bijgewerkt met een opmerking over aangepaste acties die alleen JSON-indeling ondersteunen bij het gebruik van verzoeken of antwoordladingen. [Meer informatie](../start/guardrails.md#custom-actions-g)
 * De extra informatie is toegevoegd over het basisauthentificatietype in externe gegevensbronnen. [Meer informatie](../datasource/external-data-sources.md)
@@ -250,7 +250,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 * Er is een opmerking toegevoegd om op te geven dat ingebouwde handelingen niet kunnen worden verwijderd. [Meer informatie](../start/guardrails.md#custom-actions-g)
 * De informatie is toegevoegd op serviceEvents evenals een vraagvoorbeeld om de details van een serviceEvent te controleren. [Meer informatie](../reports/query-examples.md#common-queries)
 * Er is een opmerking toegevoegd om aan te geven dat u geen query&#39;s kunt uitvoeren op tijdreeksen. [Meer informatie](../building-journeys/condition-activity.md)
-* Adobe Experience Manager Assets Essentials en Adobe Stock zijn toegevoegd aan de integratiepagina voor meerdere oplossingen. [Meer informatie](../start/ajo-integrations.md)
+* Adobe Experience Manager Assets Essentials en Adobe Stock zijn toegevoegd aan de integratiepagina voor meerdere oplossingen. [Meer informatie](../integrations/ajo-integrations.md)
 * De waarschuwing dat e-mailsubdomeinen op meerdere niveaus niet zijn toegestaan, is verwijderd omdat deze nu worden ondersteund. [Meer informatie](../configuration/delegate-subdomain.md)
 * Er is een notitie toegevoegd om aan te geven dat als er wijzigingen worden aangebracht in een besluit over een aanbod dat wordt gebruikt in een reisbericht, u de reis ongedaan moet maken en opnieuw moet publiceren. [Meer informatie](../building-journeys/publishing-the-journey.md)
 * De verklaring op hoe te om ervoor te zorgen zijn de gebeurtenissen correct vermeld in de afluisterteller is verduidelijkt in de de gebeurtenissectie van de Beslissingsbeheer **Afdekkende gebeurtenis**. [Meer informatie](../offers/offer-library/add-constraints.md#capping-event)
@@ -306,7 +306,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 
 ## November 2022 {#november-2022}
 
-* Er is een nieuwe pagina toegevoegd over Journey Optimizer-integratie. [Meer informatie](../start/ajo-integrations.md)
+* Er is een nieuwe pagina toegevoegd over Journey Optimizer-integratie. [Meer informatie](../integrations/ajo-integrations.md)
 * Er is een aanbeveling toegevoegd over de lengte van URL&#39;s van spiegelpagina&#39;s. [Meer informatie](../email/message-tracking.md)
 * Er is een nieuwe subsectie in de configuratie van de e-mailinstellingen toegevoegd aan het antwoord op het e-mailadres, inclusief aanbevelingen voor een correct antwoordbeheer. [Meer informatie](../email/email-settings.md#reply-to-email)
 * Er is een sectie toegevoegd over het wijzigen van de inhoud van een bericht tijdens een live reis. [Meer informatie](../building-journeys/journeys-message.md#update-live-content)

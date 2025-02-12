@@ -5,14 +5,14 @@ description: Leer hoe je Adobe Journey Optimizer gebruikt.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: a1502d2fa13508650cb9353e53ab3a43de650c27
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 17%
 
 ---
 
-# Adobe [!DNL Journey Optimizer] Documentatie {#cjm-documentation}
+# Adobe [!DNL Journey Optimizer] -documentatie {#cjm-documentation}
 
 ## Nieuwe functies
 
@@ -34,7 +34,7 @@ De release van oktober is nu live, inclusief E-maillokalisatie van inhoud, integ
 
 >[!TAB  Meldend met CJA ]
 
-Journey Optimizer-rapportering wordt geleverd met een verbeterde interoperabiliteit met de mogelijkheden van de Customer Journey Analytics, standaardisering van de rapportage op beide platforms en verbetering van de consistentie en betrouwbaarheid van de gegevens.
+Journey Optimizer-rapportering wordt geleverd met een verbeterde interoperabiliteit met Customer Journey Analytics-mogelijkheden, standaardisering van de rapportage op beide platforms en verbetering van de consistentie en betrouwbaarheid van gegevens.
 
 [![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/reports/report-gs-cja.md)
 
@@ -96,7 +96,7 @@ Met het kanaal van het Web, staat Adobe Journey Optimizer u toe om de Webervarin
   <tr style="border: 0;">
     <td>
       <img src="using/assets/do-not-localize/icon-content.svg" width="35px"><br/>
-      <strong> het beheer van de Inhoud </strong><br/> <a href="using/content-management/assets.md"> Assets/beelden </a> - <a href="using/personalization/personalize.md"> Personalization </a> - <a href="using/content-management/content-templates.md"> Herbruikbare </a> &amp; <a href="using/personalization/dynamic-content.md"> dynamische </a> inhoud - <a href="using/content-management/preview-test.md"> Test &amp; voorproef inhoud </a>
+      <strong> het beheer van de Inhoud </strong><br/> <a href="using/integrations/assets.md"> Assets/beelden </a> - <a href="using/personalization/personalize.md"> Personalization </a> - <a href="using/content-management/content-templates.md"> Herbruikbare </a> &amp; <a href="using/personalization/dynamic-content.md"> dynamische </a> inhoud - <a href="using/content-management/preview-test.md"> Test &amp; voorproef inhoud </a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
@@ -113,7 +113,7 @@ Met het kanaal van het Web, staat Adobe Journey Optimizer u toe om de Webervarin
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong> Adobe Journey Optimizer </strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html" target="_blank"> Tutorials </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank"> Beschrijving van het Product </a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank"> Overzicht van de Veiligheid (PDF) </a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank"> APIs verwijzing </a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank"> het Woordenboek van het Schema van Journey Optimizer </a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html" target="_blank"> Leerprogramma's </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank"> Beschrijving van het Product </a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank"> Overzicht van de Veiligheid (PDF) </a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank"> APIs verwijzing </a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank"> het Woordenboek van het Schema van Journey Optimizer </a>
 
 </td>
 <td><strong> Adobe Experience Platform </strong><br/>

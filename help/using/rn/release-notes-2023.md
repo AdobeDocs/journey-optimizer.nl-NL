@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '4376'
 ht-degree: 8%
@@ -52,7 +52,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <tbody>
 <tr>
 <td>
-<p>Met het Kanaal van SMS, kunt u uw mededeling nu verbeteren door de MMS-berichten (Multimedia Message Service) te verzenden, toelatend het delen van beelden, GIFFEN, of video's met uw klanten. Deze functie is momenteel alleen beschikbaar voor Sinch.</p>
+<p>Met het Kanaal van SMS, kunt u uw mededeling nu verbeteren door de MMS-berichten (Multimedia Message Service) te verzenden, toelatend het delen van beelden, GIFs, of video's met uw klanten. Deze functie is momenteel alleen beschikbaar voor Sinch.</p>
 <img src="assets/do-not-localize/mms.gif"/>
 <p>Raadpleeg de <a href="../sms/create-sms.md#mms-content">gedetailleerde documentatie</a> voor meer informatie.</p>
 </tr>
@@ -192,11 +192,11 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **het kanaal van het Web**
 
-* Toepassingen van één pagina (SPA) kunnen nu worden ontworpen in de visuele editor van het web, zodat u kunt selecteren op welke specifieke weergaven u de wijzigingen van uw webpagina wilt toepassen. Een weergave kan worden gedefinieerd als een hele site of een groep visuele elementen op een site, zoals de startpagina, de hele productsite of het voorkeurenframe voor levering op alle afrekenpagina&#39;s. Eenmalige ontwikkelaarsopstelling is nodig om de meningen in de implementatie van SDK van het Web van Adobe Experience Platform te bepalen; dit laat marketers toe om de Webcampagnes van Adobe Journey Optimizer op SPA tot stand te brengen en in werking te stellen. [Meer informatie](../web/web-spa.md)
+* Toepassingen van één pagina (SPAs) kunnen nu in de Web visuele redacteur worden ontworpen, die u toestaat om te selecteren welke specifieke meningen u uw Web-pagina wijzigingen wilt toepassen op. Een weergave kan worden gedefinieerd als een hele site of een groep visuele elementen op een site, zoals de startpagina, de hele productsite of het voorkeurenframe voor levering op alle afrekenpagina&#39;s. Eenmalige ontwikkelaarsopstelling is nodig om de meningen in de implementatie van SDK van het Web van Adobe Experience Platform te bepalen; dit laat marketers toe om het Webcampagnes van Adobe Journey Optimizer op SPAs tot stand te brengen en in werking te stellen. [Meer informatie](../web/web-spa.md)
 
 * Wanneer u een pagina bewerkt met de webontwerper, kunt u nu rechtstreeks vanuit het deelvenster Wijzigingen nieuwe wijzigingen aan uw inhoud toevoegen, zonder dat u een component hoeft te selecteren en te bewerken vanuit de ontwerpinterface. [Meer informatie](../web/manage-web-modifications.md#add-modifications)
 
-* Wanneer u websubdomeinen instelt, kunt u nu ook uw eigen subdomein toevoegen, naast het gebruik van een subdomein dat al is gedelegeerd aan de Adobe. [Meer informatie](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
+* Wanneer u websubdomeinen instelt, kunt u nu ook uw eigen subdomein toevoegen, naast het gebruik van een subdomein dat al is gedelegeerd aan Adobe. [Meer informatie](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
 
 **Reizen**
 
@@ -209,7 +209,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **E-mailkanaal**
 
-* Met een nieuwe optie in de configuratie van het e-mailoppervlak kunt u ervoor kiezen om transactieberichten naar profielen te verzenden, zelfs als hun e-mailadres voorkomt in de onderdrukkingslijst van de Adobe [!DNL Journey Optimizer] . [Meer informatie](../email/email-settings.md#send-to-suppressed-email-addresses)
+* Met een nieuwe optie in de configuratie van het e-mailoppervlak kunt u ervoor kiezen om transactieberichten naar profielen te verzenden, zelfs als hun e-mailadres voorkomt in de onderdrukkingslijst van Adobe [!DNL Journey Optimizer] . [Meer informatie](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **Sms-kanaal**
 
@@ -227,7 +227,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Assets**
 
-* Met een nieuwe optie voor Assets kunt u de gegevensopslagruimte voor uw Assets in Journey Optimizer kiezen. U kunt kiezen voor een opslagplaats voor Assets Essentials of een as a Cloud Service opslagplaats voor Assets, op voorwaarde dat u eigenaar bent van deze oplossing. [Meer informatie](../content-management/assets.md)
+* Met een nieuwe optie voor Assets kunt u de gegevensopslagruimte voor uw Assets in Journey Optimizer kiezen. U kunt kiezen voor een gegevensopslagruimte voor Elementen of een Assets as a Cloud Service-opslagplaats, op voorwaarde dat u eigenaar bent van deze oplossing. [Meer informatie](../integrations/assets.md)
 
 <!--**Decision management**
 
@@ -354,7 +354,7 @@ A new option is available in the email surface settings to include email address
 <td>
 <p>U kunt nu direct-mailberichten toevoegen aan uw campagnes. Directe post is een off-line kanaal dat u toestaat om de dossiers te personaliseren en te produceren die door directe postleveranciers worden vereist om post naar uw klanten te verzenden.</p>
 <p>Wanneer u een directe postbestelling voorbereidt, genereert Journey Optimizer een bestand met alle doelprofielen en de gekozen contactgegevens (bijvoorbeeld postadres). U kunt dit bestand dan naar uw direct-mailprovider sturen, die voor de werkelijke verzending zorgt.</p>
-<p>Direct mail channel is momenteel niet beschikbaar voor organisaties die de Adobe Healthcare Shield Add-on-aanbieding hebben aangeschaft.</p>
+<p>Direct mail channel is momenteel niet beschikbaar voor organisaties die de invoegtoepassing Adobe Healthcare Shield hebben aangeschaft.</p>
 <img src="assets/do-not-localize/gif-dm.gif"/>
 <p>Raadpleeg de <a href="../direct-mail/get-started-direct-mail.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </tr>
@@ -364,13 +364,13 @@ A new option is available in the email surface settings to include email address
 <table>
 <thead>
 <tr>
-<th><strong>Uw HTML-inhoud converteren voor de e-mailontwerper</strong><br/></th>
+<th><strong>HTML-inhoud converteren voor de e-mailontwerper</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt nu alle HTML-inhoud importeren en converteren in de e-maileditor van Journey Optimizer. Inhoudsblokken worden automatisch geïdentificeerd en zijn beschikbaar in de e-mailontwerper: gebruik zijn krachtige ontwerpmogelijkheden om de inhoud bij te werken en aan te passen!</p>
+<p>U kunt nu HTML-inhoud importeren en converteren in de e-maileditor van Journey Optimizer. Inhoudsblokken worden automatisch geïdentificeerd en zijn beschikbaar in de e-mailontwerper: gebruik zijn krachtige ontwerpmogelijkheden om de inhoud bij te werken en aan te passen!</p>
 <img src="assets/html-convert.png">
 <p>Raadpleeg de <a href="../email/existing-content.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
@@ -434,7 +434,7 @@ Als gevolg hiervan worden in Adobe Journey Optimizer en de gebruikersinterface v
 
 **APIs**
 
-De JWT-methode voor het genereren van toegangstokens voor Adobe Journey Optimizer API-verificatie is afgekeurd. Alle nieuwe integraties moeten worden gecreeerd gebruikend de server-aan-Server authentificatiemethode OAuth. De Adobe adviseert ook dat u uw bestaande integraties aan de methode OAuth migreert. [Meer informatie](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
+De JWT-methode voor het genereren van toegangstokens voor Adobe Journey Optimizer API-verificatie is afgekeurd. Alle nieuwe integraties moeten worden gecreeerd gebruikend de server-aan-Server authentificatiemethode OAuth. Adobe raadt u ook aan uw bestaande integratie te migreren naar de OAuth-methode. [Meer informatie](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
 
 
 **Andere wijzigingen**
@@ -620,7 +620,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **In-app kanaal**
 
-* Toegevoegde nieuwe regels van de berichttrekker voor de Dienst van Plaatsen van de Adobe. [Meer informatie](../in-app/inapp-configuration.md)
+* Toegevoegde nieuwe berichttriggerregels voor Adobe Places Service. [Meer informatie](../in-app/inapp-configuration.md)
 * Nieuwe Adobe Experience Platform Assurance-mogelijkheden toegevoegd om apparaatgebeurtenissen vast te leggen die moeten worden toegevoegd als triggerregels.
 
 <!--
@@ -641,7 +641,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **Personalization**
 
-* U kunt elementverwijzingen nu rechtstreeks vanuit Personalization Editor selecteren en invoegen wanneer u in HTML-inhoud werkt.
+* U kunt elementverwijzingen nu rechtstreeks vanuit de Personalization Editor selecteren en invoegen wanneer u in HTML-inhoud werkt.
 
 ### Oplossingen{#may-2023-fixes}
 
@@ -811,7 +811,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 * U kunt de teller van de aanbieding nu op een dagelijkse, wekelijkse of maandelijkse basis terugstellen. [Meer informatie](../offers/offer-library/add-constraints.md#capping)
 
-* U kunt ook kiezen naar welke Adobe Experience Platform-gebeurtenis moet worden gezocht om de offer decisioning te beperken. [Meer informatie](../offers/offer-library/add-constraints.md#capping)
+* U kunt ook kiezen naar welke Adobe Experience Platform-gebeurtenis moet worden gekeken voor de limiet voor het bepalen van aanbiedingen. [Meer informatie](../offers/offer-library/add-constraints.md#capping)
 
 * Er zijn aanvullende parameters toegevoegd aan het scherm Plaatsingsontwerp. Hiermee kunt u bepalen of een aanbieding op meerdere plaatsen kan worden gedupliceerd en kunt u opgeven of de inhoud en metagegevens van de aanbieding moeten worden opgenomen in de API-reactie. [Meer informatie](../offers/offer-library/creating-placements.md)
 
@@ -839,7 +839,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tr>
 <td>
 <p>U kunt nu binnen een campagne persoonlijke In-app-berichten naar gebruikers van de app sturen. Met Journey Optimizer kunt u meldingen ontwerpen en de lay-out, weergave, tekst en knoppen van berichten aanpassen voor een naadloze ervaring.</p>
-<p><strong> Voorzichtigheid </strong> - Deze eigenschap is momenteel in bètaversie en slechts beschikbaar aan bètaklanten. Neem contact op met de klantenservice van de Adobe om deel te nemen aan het bètaprogramma.</p>
+<p><strong> Voorzichtigheid </strong> - Deze eigenschap is momenteel in bètaversie en slechts beschikbaar aan bètaklanten. Neem contact op met de klantenservice van Adobe om deel te nemen aan het bètaprogramma.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
 <p>Raadpleeg de <a href="../in-app/get-started-in-app.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
@@ -857,7 +857,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tr>
 <td>
 <p>U kunt nu een live verbinding maken met opslaglocaties in de cloud om de inhoud van uw gegevenssets te exporteren. Beschikbare bestemmingen zijn: Amazon S3 Cloud Storage, Azure Blob, Azure Data Lake Gen 2, Data Landing Zone, Google Cloud Storage, SFTP.</p>
-<p><strong> Voorzichtigheid </strong> - Deze eigenschap is momenteel in bèta en beschikbaar aan alle gebruikers van Adobe Journey Optimizer. Werk samen met uw Adobe als u nog geen toegang hebt tot Doelen.</p>
+<p><strong> Voorzichtigheid </strong> - Deze eigenschap is momenteel in bèta en beschikbaar aan alle gebruikers van Adobe Journey Optimizer. Werk samen met uw Adobe-medewerker om toegang te krijgen tot Doelen als u nog geen toegang hebt.</p>
 <img src="assets/do-not-localize/gif-destinations.gif"/>
 <p>Raadpleeg de <a href="../data/export-datasets.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
@@ -1003,7 +1003,7 @@ Note that each widget can be resized and deleted as needed.
 
 **Email Designer**
 
-* U kunt de e-mailinhoud van het **HTML van de Uitvoer** menu nu uitvoeren. Geëxporteerde bestanden zijn beschikbaar in een ZIP-bestand (archiefbestand).
+* U kunt de e-mailinhoud van het **Uitvoer HTML** menu nu uitvoeren. Geëxporteerde bestanden zijn beschikbaar in een ZIP-bestand (archiefbestand).
 
 **Beheer**
 

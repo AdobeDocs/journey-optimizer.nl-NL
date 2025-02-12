@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
-source-wordcount: '2148'
+source-wordcount: '2156'
 ht-degree: 25%
 
 ---
@@ -38,7 +38,6 @@ ht-degree: 25%
    + [Toegankelijkheid](using/start/accessibility.md)
    + [Playbooks voor gebruiksscenario&#39;s](using/start/playbooks.md)
    + [Werken met de AI Assistant](using/start/ai-assistant.md)
-   + [Integraties](using/start/ajo-integrations.md)
    + [Guardrails](using/start/guardrails.md)
    + [Best practices](using/start/best-practices.md)
 + Reizen {#orchestrate-journeys}
@@ -219,7 +218,6 @@ ht-degree: 25%
             + [Achtergrondinstellingen bewerken](using/email/backgrounds.md)
             + [Verticale uitlijning en opvulling aanpassen](using/email/alignment-and-padding.md)
             + [Inline-opmaakkenmerken toevoegen](using/email/inline-styling.md)
-      + [Experience Manager-sjablonen gebruiken](using/email/aem-templates.md)
       + [ beheer e-mailopt-out ](using/email/email-opt-out.md)
       + E-mailkanaal configureren {#configure-email}
          + [Aan de slag met e-mailconfiguratie](using/email/get-started-email-config.md)
@@ -326,9 +324,6 @@ ht-degree: 25%
       + Technische opmerkingen {#technotes}
          + [Statistische berekeningen begrijpen](using/content-management/experiment-calculations.md)
          + [Statistische berekeningen in het Experimentenrapport begrijpen](using/content-management/experiment-report-calculations.md)
-   + Assets/Images {#assets-images}
-      + [Werken met Experience Manager Assets](using/content-management/assets.md)
-      + [Werken met Adobe Stock](using/content-management/stock.md)
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
       + [Personalization-context](using/personalization/personalization-contexts.md)
@@ -372,7 +367,6 @@ ht-degree: 25%
       + [Aan de slag met dynamische inhoud](using/personalization/get-started-dynamic-content.md)
       + [Voorwaardelijke regels maken](using/personalization/create-conditions.md)
       + [Dynamische inhoud maken](using/personalization/dynamic-content.md)
-   + [Adobe Experience Manager-inhoudsfragmenten](using/content-management/aem-fragments.md)
 + Soorten publiek, profielen en identiteit {#audiences-profiles-identities}
    + Soorten publiek {#audiences}
       + [Aan de slag met het publiek](using/audience/about-audiences.md)
@@ -389,6 +383,13 @@ ht-degree: 25%
       + [Werken met berekende kenmerken](using/audience/computed-attributes.md)
    + [Identiteiten](using/audience/get-started-identity.md)
    + [Licentiegebruik](using/audience/license-usage.md)
++ Integraties {#assets-images}
+   + [Integratie met andere oplossingen](using/integrations/ajo-integrations.md)
+   + [Werken met Experience Manager Assets](using/integrations/assets.md)
+   + [Werken met Adobe Stock](using/integrations/stock.md)
+   + [Werken met Experience Manager-sjablonen](using/integrations/aem-templates.md)
+   + [Werken met Experience Manager-inhoudsfragmenten](using/integrations/aem-fragments.md)
+   + [Werken met dynamische media](using/integrations/aem-dynamic.md)
 + Bijhouden en controleren {#reporting}
    + Live rapport {#live-report}
       + [Aan de slag met Live-rapport](using/reports/live-report.md)

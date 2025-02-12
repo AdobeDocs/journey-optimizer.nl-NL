@@ -6,7 +6,7 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: 7e5dbd6106b8a5ffd9bee8b1364a7bf5b995668c
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 1%
@@ -61,7 +61,7 @@ Met het veld **[!UICONTROL Media]** kunt u uw inhoudskaarten verbeteren door med
 
 ![](assets/content-card-design-3.png)
 
-Als u media wilt opnemen, typt u de gewenste media in de URL of klikt u op het pictogram **[!UICONTROL Select Assets]** om te kiezen uit de elementen die zijn opgeslagen in de Assets-bibliotheek. [ Leer meer over activabeheer ](../content-management/assets.md).
+Als u media wilt opnemen, typt u de gewenste media in de URL of klikt u op het pictogram **[!UICONTROL Select Assets]** om te kiezen uit de elementen die zijn opgeslagen in de Assets-bibliotheek. [ Leer meer over activabeheer ](../integrations/assets.md).
 
 <!--
 +++More options with advanced formatting

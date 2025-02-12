@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 3dd2db31a239ec5a81bfd677355aca862602e030
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1322'
 ht-degree: 4%
@@ -60,7 +60,7 @@ Er zijn twee opties beschikbaar. U kunt:
 
 * Selecteer een element in **[!DNL Adobe Experience Manager Assets]** met de knop **[!UICONTROL Add media]** .
 
-  Leer hoe te om **[!DNL Adobe Experience Manager Assets]** in [ te gebruiken deze pagina ](../content-management/assets.md).
+  Leer hoe te om **[!DNL Adobe Experience Manager Assets]** in [ te gebruiken deze pagina ](../integrations/assets.md).
 
 * U kunt ook de URL van het medium invoeren in het veld **[!UICONTROL Add media]** . In dat geval kunt u personalisatie toevoegen aan de URL.
 
@@ -107,7 +107,7 @@ Gebruik de sectie **[!UICONTROL Custom data]** om sleutelwaardeparen toe te voeg
 >title="Configureer aangepaste gegevens voor uw pushmelding."
 >abstract="Voeg aangepaste variabelen toe aan de payload, afhankelijk van de configuratie van uw mobiele toepassing."
 
-In de sectie **[!UICONTROL Custom data]** kunt u aangepaste variabelen toevoegen aan de payload, afhankelijk van de configuratie van uw mobiele toepassing. Voor meer op hoe te opstelling duw berichten in Adobe Experience Platform en de Lancering van de Adobe, verwijs naar [ deze sectie ](push-gs.md)
+In de sectie **[!UICONTROL Custom data]** kunt u aangepaste variabelen toevoegen aan de payload, afhankelijk van de configuratie van uw mobiele toepassing. Voor meer op hoe te opstelling duw berichten in Adobe Experience Platform en de Lancering van Adobe, verwijs naar [ deze sectie ](push-gs.md)
 
 ## Geavanceerde opties {#advanced-options-push}
 
@@ -126,7 +126,7 @@ U kunt **[!UICONTROL Advanced options]** voor uw pushmelding configureren. De be
 | **[!UICONTROL Notification group]** (alleen iOS) | Koppel een berichtgroep aan de pushmelding.<br/> Beginnend met iOS 12, staan de berichtgroepen u toe om berichtdraden en berichtonderwerpen in draad IDs te consolideren. Een merk kan bijvoorbeeld marketingmeldingen verzenden onder één groep-id, terwijl meer meldingen over operationele typen onder een of meer verschillende id&#39;s worden bewaard.<br/> om dit te illustreren, kunt u groupID hebben: 123 &quot;controleer de nieuwe lenteinzameling van sweaters&quot;en groupID: 456 &quot;uw pakket werd geleverd&quot;berichtgroepen. In dit voorbeeld worden alle leveringsmeldingen gebundeld onder groep ID: 456. |
 | **[!UICONTROL Notification channel]** (alleen Android) | Koppel een berichtkanaal aan de pushmelding.<br/> Beginnend in Android 8.0 (API niveau 26), moeten alle berichten aan een kanaal worden toegewezen om te tonen. Voor meer op dit, verwijs naar de [ de ontwikkelaarsdocumentatie van Android ](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels). |
 | **[!UICONTROL Add content-availability flag]** (alleen iOS) | Verstuurt de markering voor de beschikbare inhoud in de pushlading om ervoor te zorgen dat de app wordt geactiveerd zodra deze de pushmelding ontvangt. Dit betekent dat de app toegang kan krijgen tot de payload-gegevens.<br/> Dit werkt zelfs als de app op de achtergrond wordt uitgevoerd en zonder tussenkomst van de gebruiker (bijvoorbeeld tikken op pushmelding). Dit is echter niet van toepassing als de app niet wordt uitgevoerd. Zie de [Apple Developer documentatie](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html) voor meer informatie hierover. |
-| **[!UICONTROL Add mutable-content flag]** (alleen iOS) | Verzendt de markering voor gemuteerde inhoud in de pushlading en zorgt ervoor dat de inhoud van het pushbericht kan worden gewijzigd door een uitbreiding van de berichtgevingsservice die is opgegeven in iOS SDK. Zie [Apple Developer documentatie](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html) voor meer informatie hierover.<br/> U kunt dan uw mobiele app-extensies gebruiken om de inhoud of presentatie van aankomende pushmeldingen die zijn verzonden vanuit [!DNL Journey Optimizer] , verder te wijzigen. Gebruikers kunnen deze optie bijvoorbeeld gebruiken om gegevens te decoderen, de tekst van de hoofdtekst of titel van een melding te wijzigen, een thread-id aan een melding toe te voegen, enzovoort. |
+| **[!UICONTROL Add mutable-content flag]** (alleen iOS) | Verzendt de markering voor meerbare inhoud in de pushlading en zorgt ervoor dat de inhoud van het pushbericht kan worden gewijzigd door een uitbreiding van de berichtservice die in iOS SDK is opgegeven. Zie [Apple Developer documentatie](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html) voor meer informatie hierover.<br/> U kunt dan uw mobiele app-extensies gebruiken om de inhoud of presentatie van aankomende pushmeldingen die zijn verzonden vanuit [!DNL Journey Optimizer] , verder te wijzigen. Gebruikers kunnen deze optie bijvoorbeeld gebruiken om gegevens te decoderen, de tekst van de hoofdtekst of titel van een melding te wijzigen, een thread-id aan een melding toe te voegen, enzovoort. |
 | **[!UICONTROL Notification visibility]** (alleen Android) | Hiermee definieert u de zichtbaarheid van het pushbericht. <br/><b> Privé </b> zal het bericht op alle lockscreens tonen, maar verborgen gevoelige of privé informatie over veilige lockscreens. <br/><b> Openbaar </b> zal het bericht in zijn geheel op alle lockscreens tonen. <br/><b> Geheim </b> zal om het even welk deel van het bericht op veilig lockscreen niet openbaren. <br/> voor meer op dit, verwijs de [ documentatie van de ontwikkelaar van Android ](https://developer.android.com/reference/android/app/Notification). |
 | **[!UICONTROL Notification priority]** (alleen Android) | Hiermee definieert u het belang van de pushmelding van Laag tot Max. Dit bepaalt hoe &quot;indringend&quot;de dupmelding zal zijn wanneer het wordt geleverd. Voor meer op dit, verwijs naar de [ de ontwikkelaarsdocumentatie van Android ](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |
 | **[!UICONTROL Delivery priority]** (alleen Android) | Hiermee stelt u een hoge of normale prioriteit in voor uw pushberichten. Zie de [Google Developer-documentatie](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message) voor meer informatie over de prioriteit van berichten. |

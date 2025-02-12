@@ -8,7 +8,7 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: web, subdomeinen, configuratie
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 >title="Een websubdomein instellen"
 >abstract="Selecteer een subdomein in de lijst met subdomeinen die zijn gedelegeerd aan Adobe. U kunt dit websubdomein instellen als het standaardsubdomein, maar er kan slechts één standaardsubdomein tegelijk worden gebruikt."
 
-Wanneer het ontwerpen van Webervaringen, als u inhoud toevoegt die uit de [ Adobe Experience Manager Assets ](../content-management/assets.md) bibliotheek komt, moet u opstelling subdomain die zal worden gebruikt om deze inhoud te publiceren.
+Wanneer het ontwerpen van Webervaringen, als u inhoud toevoegt die uit de [ Adobe Experience Manager Assets ](../integrations/assets.md) bibliotheek komt, moet u opstelling subdomain die zal worden gebruikt om deze inhoud te publiceren.
 
 U kunt een subdomein gebruiken dat al aan Adobe is gedelegeerd, of u kunt een ander subdomein vormen. Leer meer bij het delegeren van subdomeinen aan Adobe in [ deze sectie ](../configuration/delegate-subdomain.md).
 

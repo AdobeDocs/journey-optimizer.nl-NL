@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, ontwerp, voorraad, middelen
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 57a309956ebe2997dce3fe0eb1b6bb70b911da5e
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 1%
@@ -22,9 +22,9 @@ U kunt bestaande inhoud importeren in [!DNL Journey Optimizer] of de mogelijkhed
 
 * Het gebruik [!DNL Journey Optimizer] **e-mail ontwerpend mogelijkheden** om ontvankelijke e-mails te ontwerpen of in te voeren. [Meer informatie](content-from-scratch.md)
 
-* De hefboomwerking **Adobe Experience Manager Assets Essentials** om uw e-mail te verrijken, bouwt en beheert uw eigen activa gegevensbestand. [Meer informatie](../content-management/assets.md)
+* De Hoofdzaak van de Middelen van de Manager van de Ervaring van de hefboomwerking **om uw e-mail te verrijken, uw eigen activa gegevensbestand te bouwen en te beheren.** [Meer informatie](../integrations/assets.md)
 
-* Vind **foto&#39;s van Adobe Stock** om uw inhoud te bouwen en uw e-mailontwerp te verbeteren. [Meer informatie](../content-management/stock.md)
+* Vind **foto&#39;s van Adobe Stock** om uw inhoud te bouwen en uw e-mailontwerp te verbeteren. [Meer informatie](../integrations/stock.md)
 
 * Verbeter de ervaring van klanten door gepersonaliseerde en dynamische berichten te creëren die op hun profielattributen worden gebaseerd. Leer meer over [ verpersoonlijking ](../personalization/personalize.md) en [ dynamische inhoud ](../personalization/get-started-dynamic-content.md).
 
@@ -40,7 +40,7 @@ Raadpleeg de onderstaande tabel voor tips en trucs voor het ontwerpen van e-mail
 
 | Aanbevolen | Gebruik met zorg | Niet aanbevolen |
 |-|-|-|
-| <ul><li><b> Statische, op lijst-gebaseerde lay-outs </b> voor structuur</li> <li><b> HTML lijsten en genestelde lijsten </b> voor lay-outconsistentie</li> <li><b> Breedten van het Malplaatje </b> tussen 600px en 800px </li> <li><b> Eenvoudig, gealigneerde CSS </b> voor het stileren </li> <li><b> Web-veilige doopvonten </b> voor universele verenigbaarheid</li> | <ul><li><b> Achtergrondbeelden </b> kunnen niet op bepaalde e-mailplatforms verschijnen.</li><li><b> de doopvonten van het Web van de Douane </b> gebrek universele steun.</li><li><b> brede lay-outs </b> kunnen slecht op kleinere schermen tonen.</li><li><b> de kaarten van het Beeld </b> bieden beperkte functionaliteit aan.</li><li><b> ingebedde CSS </b> wordt soms verwijderd tijdens e-maillevering.</li> | <ul><li><b> JavaScript </b> wordt over het algemeen niet gesteund in e-mailmilieu&#39;s.</li> <li> <b>`<iframe>`</b> -tags worden op de meeste platforms geblokkeerd. </li> <li><b> Flash </b> is verouderd en niet meer gesteund.</li> <li><b> Ingesloten audio </b> ontbreekt vaak om te spelen.</li> <li><b> Ingesloten video </b> is onverenigbaar met vele e-mailplatforms.</li> <li> <b> Forms </b> werkt niet binnen e-mails.</li> <li> `<div>` -lagen kunnen leiden tot renderingproblemen.</li> |
+| <ul><li><b> Statische, op lijst-gebaseerde lay-outs </b> voor structuur</li> <li><b> de lijsten van HTML en genestelde lijsten </b> voor lay-outconsistentie</li> <li><b> Breedten van het Malplaatje </b> tussen 600px en 800px </li> <li><b> Eenvoudig, gealigneerde CSS </b> voor het stileren </li> <li><b> Web-veilige doopvonten </b> voor universele verenigbaarheid</li> | <ul><li><b> Achtergrondbeelden </b> kunnen niet op bepaalde e-mailplatforms verschijnen.</li><li><b> de doopvonten van het Web van de Douane </b> gebrek universele steun.</li><li><b> brede lay-outs </b> kunnen slecht op kleinere schermen tonen.</li><li><b> de kaarten van het Beeld </b> bieden beperkte functionaliteit aan.</li><li><b> ingebedde CSS </b> wordt soms verwijderd tijdens e-maillevering.</li> | <ul><li><b> JavaScript </b> wordt over het algemeen niet gesteund in e-mailmilieu&#39;s.</li> <li> <b>`<iframe>`</b> -tags worden op de meeste platforms geblokkeerd. </li> <li><b> Flits </b> is verouderd en niet meer gesteund.</li> <li><b> Ingesloten audio </b> ontbreekt vaak om te spelen.</li> <li><b> Ingesloten video </b> is onverenigbaar met vele e-mailplatforms.</li> <li> <b> Forms </b> werkt niet binnen e-mails.</li> <li> `<div>` -lagen kunnen leiden tot renderingproblemen.</li> |
 
 ## Belangrijke stappen om e-mailinhoud te maken {#key-steps}
 
@@ -52,7 +52,7 @@ Zodra u [ een e-mail ](create-email.md) aan een reis of een campagne hebt toegev
 
 1. Kies op de homepage van Designer via e-mail hoe u uw e-mail wilt ontwerpen uit de volgende opties:
 
-   * **Ontwerp uw e-mail van kras** door de interface van de e-mailontwerper en hefboomwerkings beelden van [ Adobe Experience Manager Assets ](../content-management/assets.md). Leer hoe te om uw e-mailinhoud in [ te ontwerpen deze sectie ](content-from-scratch.md).
+   * **Ontwerp uw e-mail van kras** door de interface van de e-mailontwerper en hefboomwerkings beelden van [ Adobe Experience Manager Assets ](../integrations/assets.md). Leer hoe te om uw e-mailinhoud in [ te ontwerpen deze sectie ](content-from-scratch.md).
 
    * **Code of deeg ruwe HTML** direct in de e-mailontwerper. Leer hoe te om uw eigen inhoud in [ te coderen deze sectie ](code-content.md).
 
@@ -60,7 +60,7 @@ Zodra u [ een e-mail ](create-email.md) aan een reis of een campagne hebt toegev
      >
      >In een campagne kunt u ook de knop **[!UICONTROL Code Editor]** in het **[!UICONTROL Edit content]** -scherm selecteren. [Meer informatie](create-email.md#define-email-content)
 
-   * **de Inhoud van de Invoer bestaande HTML** van een dossier of een .zip omslag. Leer hoe te om een e-mailinhoud in [ in deze sectie ](existing-content.md) in te voeren.
+   * **voer bestaande inhoud van HTML** van een dossier of een .zip omslag in. Leer hoe te om een e-mailinhoud in [ in deze sectie ](existing-content.md) in te voeren.
 
    * **selecteer een bestaande inhoud** van een lijst van ingebouwde of douanesjablonen. Leer hoe te met e-mailmalplaatjes [ deze sectie ](../email/use-email-templates.md) te werken.
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: componenten, e-mailontwerper, editor, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1265'
 ht-degree: 0%
@@ -102,7 +102,7 @@ Gebruik de component **[!UICONTROL Button]** om een of meerdere knoppen in te vo
 
 ## Tekst {#text}
 
-Gebruik de component **[!UICONTROL Text]** om tekst in te voegen in uw e-mail en pas de stijl (rand, grootte, opvulling, enz.) aan via de tab **[!UICONTROL Styles]** .
+Gebruik de component **[!UICONTROL Text]** om tekst in te voegen in uw e-mail en pas de stijl (rand, grootte, opvulling, enz.) aan met de tab **[!UICONTROL Styles]** .
 
 ![](assets/email_designer_text_component.png)
 
@@ -121,7 +121,7 @@ Gebruik de component **[!UICONTROL Text]** om tekst in te voegen in uw e-mail en
    * **de grootte van het Doopvont**: selecteer de doopvontgrootte van uw tekst in pixel.
    * **[!UICONTROL Change font color]** : kies de kleur van het lettertype.
    * **[!UICONTROL Insert link]** : voeg een willekeurig type koppeling toe aan uw inhoud.
-   * **[!UICONTROL Edit image]**: voeg een afbeelding of een element toe aan uw tekstcomponent. [ Leer meer over middelenbeheer ](../content-management/assets.md)
+   * **[!UICONTROL Edit image]**: voeg een afbeelding of een element toe aan uw tekstcomponent. [ Leer meer over middelenbeheer ](../integrations/assets.md)
    * **[!UICONTROL Change font color]** : kies de kleur van het lettertype.
    * **[!UICONTROL Add personalization]**: voeg verpersoonlijkingsgebieden toe om de inhoud van uw profielgegevens aan te passen. [ Leer meer over inhoudstijdpersonalisatie ](../personalization/personalize.md)
    * **[!UICONTROL Show the source code]** : geef de broncode van de tekst weer. Het kan niet worden gewijzigd.
@@ -143,11 +143,11 @@ U kunt opmaakkenmerken zoals de lijnkleur, stijl en hoogte aanpassen op de tabbl
 
 ## HTML {#HTML}
 
-Gebruik de component **[!UICONTROL HTML]** om de verschillende onderdelen van de bestaande HTML te kopiëren en te plakken. Hierdoor kunt u gratis modulaire HTML-componenten maken om externe inhoud opnieuw te gebruiken.
+Gebruik de component **[!UICONTROL HTML]** om de verschillende onderdelen van uw bestaande HTML te kopiëren en te plakken. Op deze manier kunt u gratis modulaire HTML-componenten maken om externe inhoud opnieuw te gebruiken.
 
 1. Sleep de component **[!UICONTROL HTML]** vanuit **[!UICONTROL Content Components]** naar een **[!UICONTROL Structure component]** -component.
 
-1. Klik op de zojuist toegevoegde component en selecteer vervolgens **[!UICONTROL Show the source code]** op de contextafhankelijke werkbalk om de HTML toe te voegen.
+1. Klik op de zojuist toegevoegde component en selecteer vervolgens **[!UICONTROL Show the source code]** op de contextafhankelijke werkbalk om uw HTML toe te voegen.
 
    ![](assets/email_designer_html_component.png)
 
@@ -157,7 +157,7 @@ Gebruik de component **[!UICONTROL HTML]** om de verschillende onderdelen van de
 
 >[!NOTE]
 >
->Om een externe inhoud eenvoudig compatibel te maken met de e-mail-Designer, raadt de Adobe u aan een geheel nieuw bericht te maken en de inhoud van uw bestaande e-mail te kopiëren naar onderdelen.
+>Adobe raadt u aan een geheel nieuw bericht te maken en de inhoud van uw bestaande e-mail te kopiëren naar onderdelen, zodat u eenvoudig een externe inhoud compatibel kunt maken met de e-mailtoepassing.
 
 ## Afbeelding {#image}
 
@@ -173,18 +173,18 @@ Gebruik de component **[!UICONTROL Image]** om een afbeeldingsbestand van uw com
 
    >[!NOTE]
    >
-   > Om ervoor te zorgen dat uw koppelingen actief blijven en om eventuele vervalproblemen te voorkomen, raden we u aan Adobe Assets te gebruiken in plaats van voor uw afbeeldingen een bron-URL te gebruiken.
+   > We raden u aan Adobe Assets te gebruiken in plaats van op een bron-URL voor uw afbeeldingen te vertrouwen om ervoor te zorgen dat uw koppelingen actief blijven en om problemen met het verlopen te voorkomen.
 
 1. U kunt ook rechtstreeks zoeken in Adobe Stock met de optie **[!UICONTROL Find Adobe Stock photos]** .
 
 1. Klik op de nieuw toegevoegde component en stel de afbeeldingseigenschappen in:
 
    * Met **[!UICONTROL Image title]** kunt u een titel voor de afbeelding definiëren.
-   * Met **[!UICONTROL Alt text]** kunt u het bijschrift definiëren dat aan de afbeelding is gekoppeld. Dit komt overeen met het kenmerk alt HTML.
+   * Met **[!UICONTROL Alt text]** kunt u het bijschrift definiëren dat aan de afbeelding is gekoppeld. Dit komt overeen met het alt HTML-kenmerk.
 
    ![](assets/email_designer_10.png)
 
-1. U kunt ook kiezen voor **[!UICONTROL Find similar Stock photos]** . [Meer informatie](../content-management/stock.md)
+1. U kunt ook kiezen voor **[!UICONTROL Find similar Stock photos]** . [Meer informatie](../integrations/stock.md)
 
 1. Pas op het tabblad **[!UICONTROL Styles]** de andere opmaakkenmerken aan, zoals marge, rand, enzovoort. of door een koppeling toe te voegen om de doelgroep vanuit het deelvenster **[!UICONTROL Component settings]** om te leiden naar andere inhoud.
 

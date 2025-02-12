@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: cb6b73db76c710dd8e736e710f5eb758337be696
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 5%
@@ -21,7 +21,7 @@ Om tot [!DNL Adobe Journey Optimizer] toegang te hebben, verbind met [ Adobe Exp
 
 Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) {target="_blank"} voor meer details.
 
-De componenten en de mogelijkheden beschikbaar in het gebruikersinterface hangen van uw [ toestemmingen ](../administration/permissions.md) en van uw [ vergunning gevend pakket ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html) {target="_blank"} af. Neem voor alle vragen contact op met de Customer Success Manager van de Adobe.
+De componenten en de mogelijkheden beschikbaar in het gebruikersinterface hangen van uw [ toestemmingen ](../administration/permissions.md) en van uw [ vergunning gevend pakket ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html) {target="_blank"} af. Neem voor alle vragen contact op met de Adobe Customer Success Manager.
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ Maak voorstellen en componenten van deze sectie.
 
 Inhoud van deze sectie maken en beheren.
 
-* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets] is een gecentraliseerde opslagplaats van elementen die u kunt gebruiken om uw berichten te vullen. [Meer informatie](../content-management/assets.md)
+* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets] is een gecentraliseerde opslagplaats van elementen die u kunt gebruiken om uw berichten te vullen. [Meer informatie](../integrations/assets.md)
 
 * **[!UICONTROL Content templates]** - Voor een versneld en verbeterd ontwerpproces maakt u zelfstandige sjablonen om aangepaste inhoud eenvoudig te hergebruiken in Journey Optimizer-campagnes en -reizen. [Meer informatie](../content-management/content-templates.md)
 
@@ -102,7 +102,7 @@ Beheer uw gegevensverbindingen met andere apps en wolken vanuit deze sectie.
 
 Beheer uw publiek- en profielgegevens vanuit deze sectie.
 
-* **[!UICONTROL Audiences]** - Maak en beheer het publiek van het Experience Platform en gebruik dit tijdens uw reizen. [Meer informatie](../audience/about-audiences.md)
+* **[!UICONTROL Audiences]** - Maak en beheer Experience Platform-soorten publiek en gebruik deze tijdens uw reizen. [Meer informatie](../audience/about-audiences.md)
 
 * **[!UICONTROL Subscription lists]** - In [!DNL Journey Optimizer] worden klanten die zich hebben aangemeld bij een abonnementenservice, opgenomen in een abonnementenlijst. [Meer informatie](../landing-pages/subscription-list.md)
 
