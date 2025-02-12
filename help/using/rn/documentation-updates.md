@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
 workflow-type: tm+mt
-source-wordcount: '6016'
+source-wordcount: '6043'
 ht-degree: 12%
 
 ---
@@ -43,6 +43,8 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 * Er is een sectie ‘Hulplijnen en beperkingen’ toegevoegd aan de documentatie met betrekking tot conflictenbeheer en -prioriteiten. [Meer informatie](../conflict-prioritization/gs-conflict-prioritization.md)
 
 * Er is een nieuw gebruiksgeval van begin tot eind toegevoegd om alle stappen voor te stellen die nodig zijn om het Beslissen in inhoudexperimenten met het [!DNL Journey Optimizer] op code-gebaseerde ervaringskanaal te gebruiken. [Meer informatie](../experience-decisioning/experience-decisioning-uc.md)
+
+* **vormt e-mailmontages** pagina is verdeeld in verscheidene subpagina&#39;s voor betere leesbaarheid, met inbegrip van nieuwe standalone pagina&#39;s gewijd aan [ Lijst unsubscribe ](../email/list-unsubscribe.md), [ parameters van de Kopbal ](../email/header-parameters.md) en [ URL het volgen ](../email/url-tracking.md).
 
 ## December 2024 {#nov-2024}
 
