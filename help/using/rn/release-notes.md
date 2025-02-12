@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fc6a552700a52c5f513299ab861750263aeda98a
+source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
 workflow-type: tm+mt
-source-wordcount: '2270'
+source-wordcount: '2346'
 ht-degree: 6%
 
 ---
@@ -22,7 +22,25 @@ ht-degree: 6%
 
 [!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html) {target="_blank"}.
 
-## Updates van januari 25 {#25-01-rn}
+## Nieuwste &#39;25 updates {#25-01-rn}
+
+### Verbetering in februari {#25-02-improvements}
+
+De verbetering hieronder komt met de update van februari.
+
+**E-mailconfiguratie** - de datum van de Beschikbaarheid: 10 Feb, 2025
+
+* Als u toestemming buiten Adobe beheert, kunt u nu een aangepast e-mailadres voor opzeggen en een aangepaste, één-klik-URL voor opzeggen instellen als onderdeel van de configuratie-instellingen voor e-mailkanalen. [ las meer ](../email/list-unsubscribe.md#custom-managed)
+
+  ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
+
+  >[!AVAILABILITY]
+  >
+  >Dit vermogen wordt vrijgegeven in Beperkte Beschikbaarheid (LA) voor een kleine reeks klanten.
+
+### Nieuwe functies {#25-01-features}
+
+De nieuwe mogelijkheden die in januari worden vrijgegeven, worden hieronder beschreven.
 
 <table>
 <thead>
@@ -59,9 +77,9 @@ ht-degree: 6%
 </tbody>
 </table>
 
-### Verbeteringen {#25-01-improvements}
+### Verbeteringen in januari {#25-01-improvements}
 
-Deze release bevat de verbeteringen die hieronder worden vermeld.
+De verbeteringen die in januari zijn vrijgegeven, worden hieronder weergegeven.
 
 **Beslissing**
 

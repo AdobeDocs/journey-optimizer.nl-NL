@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: opt-out, e-mail, link, abonnement opzeggen
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 8559fce278974dcf18ba038996fd65b9f72400f4
+source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1283'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Als u een koppeling zonder abonnement wilt invoegen in uw e-mailinhoud, kunt u:
 
 Met [!DNL Adobe Journey Optimizer], kunt u uw [ montages van de e-mailconfiguratie ](email-settings.md#list-unsubscribe) met een auto-geproduceerde één-klik vormen unsubscribe URL en postto adres in de e-mailkopbal, of één-klik opt-out URL in uw e-maillichaam omvatten.
 
-Wanneer een ontvanger op de one-click opt-out-koppeling klikt, wordt het afmeldingsverzoek van de ontvanger dienovereenkomstig verwerkt.
+Wanneer een ontvanger op de one-click opt-out verbinding klikt, wordt het afmeldingsverzoek van die ontvanger dienovereenkomstig verwerkt.
 
 ### Eén klik op URL voor annuleren in de e-mailheader {#unsubscribe-header}
 
@@ -82,7 +82,7 @@ Afhankelijk van de e-mailcliënt, en de [ montages van de e-mailconfiguratie uns
 
 ![](../email/assets/surface-list-unsubscribe-mailto.png){width="80%"}
 
-In beide gevallen wordt het corresponderende profiel voor de ontvanger onmiddellijk uitgeschakeld en wordt deze keuze in het Experience Platform bijgewerkt. Leer meer in de [ documentatie van het Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started) {target="_blank"}.
+In beide gevallen wordt het corresponderende profiel voor de ontvanger onmiddellijk uitgeschakeld en wordt deze keuze in Experience Platform bijgewerkt. Leer meer in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started) {target="_blank"}.
 
 Als u op de **[!UICONTROL Enable List-Unsubscribe]** optie in de [ e-mailconfiguratiemontages ](email-settings.md#list-unsubscribe) van een knevel hebt voorzien, adviseren wij dat u beide methodes toelaat - **Brievenbus (unsubscribe)** en **Één-Klik Unsubscribe URL**. Niet alle e-mailclients ondersteunen de HTTP-methode. Met de lijst-unsubscribe eigenschap Mailto die voor u wordt verstrekt om een alternatief te selecteren, kan uw afzenderreputatie beter worden beschermd en al uw ontvangers kunnen toegang hebben om de unsubscribe functionaliteit te gebruiken. [Meer informatie](email-settings.md#list-unsubscribe)
 
@@ -136,7 +136,7 @@ U kunt ook een externe bestemmingspagina gebruiken. In dat geval configureert u 
 
 Om uw ontvangers te hebben uit verkoos wanneer zij hun keus van de het landen pagina voorleggen, moet u de vraag van API van het a **Abonnement** door [ Adobe Developer ](https://developer.adobe.com) {target="_blank"} uitvoeren om de overeenkomstige profielen&#39; voorkeur bij te werken.
 
-Deze vraag van de POST is als volgt:
+Deze POST-aanroep is als volgt:
 
 Eindpunt: https://platform.adobe.io/journey/imp/consent/preferences
 
@@ -145,7 +145,7 @@ Parameters query:
 * **params**: bevat de gecodeerde lading
 * **pid**: Gecodeerde profiel identiteitskaart
 
-Deze drie parameters worden opgenomen in de URL van de bestemmingspagina van derden die naar de ontvanger wordt verzonden:
+Deze twee parameters worden opgenomen in de URL van de bestemmingspagina van derden die naar de ontvanger wordt verzonden:
 
 ![](assets/opt-out-parameters.png)
 
@@ -215,7 +215,7 @@ Zodra u de unsubscribe verbinding aan uw landende pagina vormde, kunt u uw beric
 
    Dit heeft tot gevolg dat deze gebruiker geen communicatie van uw merk ontvangt, tenzij hij opnieuw een abonnement neemt.
 
-1. Als u wilt controleren of de keuze van het corresponderende profiel is bijgewerkt, gaat u naar het Experience Platform en opent u het profiel door een naamruimte voor identiteiten en een bijbehorende identiteitswaarde te selecteren. Leer meer in de [ documentatie van het Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started) {target="_blank"}.
+1. Als u wilt controleren of de keuze van het corresponderende profiel is bijgewerkt, gaat u naar Experience Platform en opent u het profiel door een naamruimte voor identiteit en een bijbehorende identiteitswaarde te selecteren. Leer meer in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started) {target="_blank"}.
 
    ![](assets/opt-out-profile-choice.png)
 

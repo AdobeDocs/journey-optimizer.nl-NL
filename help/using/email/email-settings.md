@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: a1bdbc741a96325d71562b8f5ce5279096689cf0
+source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
 workflow-type: tm+mt
-source-wordcount: '2741'
+source-wordcount: '2406'
 ht-degree: 0%
 
 ---
@@ -81,59 +81,11 @@ Nadat een IP pool is geselecteerd, is de informatie PTR zichtbaar wanneer het ha
 >
 >Als er geen PTR-record is geconfigureerd, neemt u contact op met uw Adobe-vertegenwoordiger.
 
-## Abonnement voor lijst opzeggen{#list-unsubscribe}
+## Abonnement opzeggen {#list-unsubscribe}
 
->[!CONTEXTUALHELP]
->id="ajo_email_config_unsubscribe_custom"
->title="Definiëren hoe afmeldingsgegevens worden beheerd"
->abstract="**beheerde Adobe**: De toestemmingsgegevens worden beheerd door u binnen het systeem van Adobe.<br>**beheerde Klant**: De toestemmingsgegevens worden beheerd door u in een extern systeem en geen synchronisatie van toestemmingsgegevens wordt bijgewerkt in het systeem van Adobe tenzij in werking gesteld door u."
+Als u een subdomein in de lijst selecteert, wordt de optie **[!UICONTROL Enable List-Unsubscribe]** weergegeven. Deze optie is standaard ingeschakeld.
 
-<!--Do not modify - Legal Review Done -->
-
-Op [ selecterend subdomain ](#subdomains-and-ip-pools) van de lijst, toont de **[!UICONTROL Enable List-Unsubscribe]** optiesvertoningen.
-
-Deze optie is standaard ingeschakeld om een éénklik-URL voor annuleren op te nemen in de e-mailkoptekst, zoals:
-
-![](assets/preset-list-unsubscribe-header.png)
-
->[!NOTE]
->
->Als u deze optie uitschakelt, wordt er geen één-klik-URL voor annuleren weergegeven in de e-mailkoptekst.
-
-U kunt het toestemmingsniveau van de **[!UICONTROL Consent level]** drop-down lijst selecteren. Dit kan specifiek zijn voor het kanaal of de profielidentiteit. Op basis van deze instelling wordt de toestemming in Adobe Journey Optimizer bijgewerkt op kanaalniveau of op ID-niveau wanneer een gebruiker zich afmeldt met de lijst die de URL in de koptekst van een e-mail afmeldt.
-
-De header List unsubscribe biedt twee functies die standaard zijn ingeschakeld, tenzij u een of beide functies uitschakelt:
-
-![](assets/surface-list-unsubscribe-mailto.png){width="80%"}
-
-<!--![](assets/surface-list-unsubscribe.png){width="80%"}-->
-
-* A **Brievenbus (unsubscribe)** adres, dat het bestemmingsadres is waar unsubscribe verzoeken aan voor auto-verwerking worden verpletterd.
-
-  In Journey Optimizer, is het unsubscribe e-mailadres de standaard **Brievenbus (unsubscribe)** adres dat in de kanaalconfiguratie wordt getoond, die op uw [ wordt gebaseerd geselecteerde subdomain ](#subdomains-and-ip-pools).
-
-* **één-klik unsubscribe URL**, die door gebrek is uit één-klik uit URL geproduceerde Lijst unsubscribe kopbal, die op subdomein wordt gebaseerd u plaatst en in de montages van de kanaalconfiguratie gevormd.
-
-<!--
-    >[!AVAILABILITY]
-    >
-    >One-click Unsubscribe URL Header will be available in Adobe Journey Optimizer starting June 3, 2024.
-    >
--->
-
-De functies **[!UICONTROL Mailto (unsubscribe)]** en **[!UICONTROL One-click unsubscribe URL]** zijn optioneel.
-
-Als u niet de standaard gegenereerde één-klik wilt gebruiken unsubscribe URL, kunt u de eigenschap uncheck. In het scenario waar de **[!UICONTROL Enable List-Unsubscribe]** optie wordt van een knevel voorzien en de **[!UICONTROL One-click Unsubscribe URL]** eigenschap is ongecontroleerd, als u a [ toe:voegen één-klik opt-out verbinding ](../email/email-opt-out.md#one-click-opt-out) aan een bericht dat gebruikend deze configuratie wordt gecreeerd, neemt de Lijst unsubscribe kopbal de één-klik opt-out verbinding op u in het lichaam van e-mail hebt opgenomen en gebruikt dat als één-klik unsubscribe URL waarde.
-
-![](assets/preset-list-unsubscribe-opt-out-url.png)
-
->[!NOTE]
->
->Als u geen opt-out-koppeling met één klik toevoegt aan de inhoud van het bericht en de standaardinstelling **[!UICONTROL One-click unsubscribe URL]** is uitgeschakeld in de instellingen voor kanaalconfiguratie, wordt er geen URL doorgegeven aan de e-mailkoptekst als onderdeel van de List unsubscribe header.
-
-Leer meer bij het beheren van unsubscribe mogelijkheden in uw berichten in [ deze sectie ](../email/email-opt-out.md#unsubscribe-header).
-
-<!--![](assets/surface-list-unsubscribe-custom.png){width="80%"}-->
+Hiermee kunt u met één klik een URL voor afmelden opnemen in de e-mailkoptekst. [Meer informatie](list-unsubscribe.md)
 
 ## Parameters koptekst {#email-header}
 
