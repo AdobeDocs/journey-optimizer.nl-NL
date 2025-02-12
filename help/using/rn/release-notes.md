@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
+source-git-commit: 9538c8c19b242036ce58799b51ef25b8204bf6ec
 workflow-type: tm+mt
 source-wordcount: '2346'
 ht-degree: 6%
@@ -28,7 +28,7 @@ ht-degree: 6%
 
 De verbetering hieronder komt met de update van februari.
 
-**E-mailconfiguratie** - de datum van de Beschikbaarheid: 10 Feb, 2025
+**E-mailconfiguratie** - de datum van de Beschikbaarheid: 12 Feb, 2025
 
 * Als u toestemming buiten Adobe beheert, kunt u nu een aangepast e-mailadres voor opzeggen en een aangepaste, één-klik-URL voor opzeggen instellen als onderdeel van de configuratie-instellingen voor e-mailkanalen. [ las meer ](../email/list-unsubscribe.md#custom-managed)
 
