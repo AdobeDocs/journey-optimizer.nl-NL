@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: direct mail, bericht, campagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
+source-git-commit: 6bcfbc835a61aa326d4ee548722a6ad6e2942ea2
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '710'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ Voer de volgende stappen uit om een campagne voor directe e-mail te maken:
 
    >[!IMPORTANT]
    >
-   >Momenteel is de selectie van het publiek beperkt tot 3 miljoen profielen. Deze beperking kan op verzoek aan uw Adobe worden opgeheven.
+   >Momenteel is de selectie van het publiek beperkt tot 3 miljoen profielen. Deze beperking kan op verzoek aan je Adobe-vertegenwoordiger worden opgeheven.
 
 1. Selecteer in het veld **[!UICONTROL Identity namespace]** de juiste naamruimte om personen in het gekozen publiek te identificeren. [Meer informatie](../event/about-creating.md#select-the-namespace).
 
@@ -85,7 +85,7 @@ Het extractiebestand wordt vereist door directe-mailproviders om e-mail naar uw 
 
       >[!NOTE]
       >
-      >Standaard wordt het bestand naar de hoofdmap geschreven. Het veld **[!UICONTROL Filename]** accepteert de notatie &quot;/your/path/here/Filename.csv&quot;, waarbij het opgegeven pad de doelmap op de geselecteerde server is. <!--TBC if for SFTP and Azure only, or for all servers including S3-->
+      >Standaard wordt het bestand naar de hoofdmap op de server geschreven. Het veld **[!UICONTROL Filename]** accepteert ook de notatie &quot;/your/path/here/Filename.csv&quot;, waarbij het opgegeven pad de doelmap op de geselecteerde server is. <!--TBC if for SFTP and Azure only, or for all servers including S3-->
 
    1. Schakel desgewenst de optie **[!UICONTROL Append timestamp to export filename]** in als u een automatische tijdstempel wilt toevoegen aan de opgegeven bestandsnaam.
 
