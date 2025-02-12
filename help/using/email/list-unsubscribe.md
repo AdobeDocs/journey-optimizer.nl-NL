@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie
-source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
+source-git-commit: 8e299b90f601cd931940a64e691e186894d4012e
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Als u toestemming buiten Adobe beheert, selecteert u de optie **[!UICONTROL Cust
 >
 >Als u de optie **[!UICONTROL Customer managed]** gebruikt, slaat Adobe geen gegevens voor annulering of toestemming op. Met de optie **[!UICONTROL Customer managed]** kiezen organisaties voor het gebruik van een extern systeem en zijn ze verantwoordelijk voor het beheer van hun gegevens over machtigingen in een dergelijk extern systeem. Er is geen automatische synchronisatie van toestemmingsgegevens tussen het externe systeem en [!DNL Journey Optimizer]. Elke synchronisatie van toestemmingsgegevens, die afkomstig is van het externe systeem voor het bijwerken van gegevens over gebruikersmachtigingen in [!DNL Journey Optimizer], moet door de organisatie als gegevensoverdracht worden geïnitieerd om de toestemmingsgegevens terug te sturen naar [!DNL Journey Optimizer] .
 
-## De decoderings-API configureren {#configure-decrypt-api}
+### De decoderings-API configureren {#configure-decrypt-api}
 
 Als de optie **[!UICONTROL Customer managed]** is geselecteerd en u aangepaste eindpunten invoert en deze in een campagne of reis gebruikt, voegt [!DNL Journey Optimizer] enkele standaardprofielspecifieke parameters toe aan de gebeurtenis voor het bijwerken van de toestemming <!--sent to the custom endpoint --> wanneer uw ontvangers op de koppeling Unsubscribe klikken.
 
