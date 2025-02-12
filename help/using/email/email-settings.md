@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 307655ebfb161ab5023430be801c46b378326ccd
+source-git-commit: abb837b6af232e23bbbc6a1f1b2607dbc2ee2679
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1438'
 ht-degree: 1%
 
 ---
@@ -182,16 +182,6 @@ U moet een geheel-getalwaarde (in uren of notulen) binnen de volgende waaier ing
 Leer meer op herpogingen in [ deze sectie ](../configuration/retries.md).
 
 ## URL-tracking {#url-tracking}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_preset_utm"
->title="Parameters voor URL-tracking definiëren"
->abstract="Met deze sectie kunt u automatisch parameters voor bijhouden toevoegen aan de URL&#39;s in uw e-mailinhoud. Deze functie is optioneel."
-
->[!CONTEXTUALHELP]
->id="ajo_admin_preset_url_preview"
->title="Voorvertoning van parameters voor URL bijhouden"
->abstract="Bekijk hoe u parameters voor bijhouden toevoegt aan de URL&#39;s in uw e-mailinhoud."
 
 Met **[!UICONTROL URL tracking parameters]** kunt u de doeltreffendheid van uw marketingactiviteiten op verschillende kanalen meten. [Meer informatie](url-tracking.md)
 
