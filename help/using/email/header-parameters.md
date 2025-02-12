@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Wanneer het vormen van een nieuwe [ configuratie van het e-mailkanaal ](email-se
 >
 >Adressen moeten beginnen met een letter (A-Z) en mogen alleen alfanumerieke tekens bevatten. U kunt ook onderstrepingsteken `_` -, punt `.` - en afbreekstreepjes `-` gebruiken.
 
-### E-mail beantwoorden {#reply-to-email}
+## E-mail beantwoorden {#reply-to-email}
 
 Wanneer u het **[!UICONTROL Reply to email]** -adres definieert, kunt u elk e-mailadres opgeven, op voorwaarde dat het een geldig adres is, in de juiste notatie en zonder enige typefout.
 
@@ -66,7 +66,7 @@ Als u een fout bij het voorleggen van de e-mailconfiguratie krijgt, betekent het
 >
 >Als subdomain van het adres u inging een domein is dat [ volledig ](../configuration/delegate-subdomain.md#full-subdomain-delegation) aan Adobe werd gedelegeerd, contacteer uw de rekeningsmanager van Adobe.
 
-### E-mail doorsturen {#forward-email}
+## E-mail doorsturen {#forward-email}
 
 Neem contact op met de klantenservice van Adobe als u alle e-mailberichten die [!DNL Journey Optimizer] voor het gedelegeerde subdomein heeft ontvangen, wilt doorsturen naar een specifiek e-mailadres.
 
