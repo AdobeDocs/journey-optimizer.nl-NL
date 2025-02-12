@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, bericht, push, sms, e-mail, in-app, web, inhoudskaart, op code gebaseerde ervaring
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 76b97c513a78def54a520279c178fb24002040b7
+source-git-commit: 40c067d85b278380abd874fc6edc69f32c0c56ef
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Als u een ingebouwde kanaalactie aan uw reis wilt toevoegen, sleept u een kanaal
 
 >[!NOTE]
 >
->U kunt ook aangepaste acties instellen om berichten te verzenden. [Meer informatie](#recommendation)
+>U kunt ook aangepaste handelingen instellen om uw berichten te verzenden in [!DNL Journey Optimizer] . [Meer informatie](#recommendation)
 
 ## Een bericht toevoegen tijdens een rit  {#add-msg-in-journey}
 
