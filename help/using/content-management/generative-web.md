@@ -2,30 +2,31 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Webpagina's genereren met de AI Assistant
-description: Beginnen met het genereren van webpagina-inhoud en -middelen met de AI Assistant Content Accelerator in Journey Optimizer.
+description: Beginnen met het genereren van webpagina-inhoud en -elementen met de AI Assistant in Journey Optimizer.
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+exl-id: ebe2df77-4aaa-45b1-a8ce-931d4191cc67
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '897'
 ht-degree: 1%
 
 ---
 
-# Webpagina&#39;s genereren met de AI Assistant Content Accelerator {#generative-web}
+# Webpagina&#39;s genereren met de AI Assistant {#generative-web}
 
 >[!IMPORTANT]
 >
 >Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](gs-generative.md#generative-guardrails).
 ></br>
 >
->U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u de AI HulpVersneller van de Inhoud in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u de Medewerker AI in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-Zodra u uw webpagina&#39;s hebt gemaakt en gepersonaliseerd, gebruikt u de AI Assistant Content Accelerator in Journey Optimizer, die wordt aangedreven door generatieve AI, om uw inhoud naar het volgende niveau te brengen.
+Als u eenmaal uw webpagina&#39;s hebt gemaakt en gepersonaliseerd, gebruikt u de AI Assistant in Journey Optimizer, die wordt aangedreven door generatieve AI, om uw inhoud naar het volgende niveau te brengen.
 
-Met de AI Assistant Content Accelerator in Journey Optimizer kunt u de impact van uw leveringen optimaliseren door verschillende inhoud voor te stellen die waarschijnlijk beter op uw publiek zal aansluiten.
+De AI Assistant in Journey Optimizer kan u helpen de impact van uw leveringen te optimaliseren door verschillende inhoud voor te stellen die waarschijnlijk beter op uw publiek zal reageren.
 
 >[!BEGINTABS]
 
@@ -39,7 +40,7 @@ Met de AI Assistant Content Accelerator in Journey Optimizer kunt u de impact va
 
    ![](assets/web-gen-full-1.png){zoomable="yes"}
 
-1. Schakel de optie **[!UICONTROL Use original content]** voor de AI Assistant Content Accelerator in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
+1. Schakel de optie **[!UICONTROL Use original content]** voor de AI-assistent in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
@@ -87,19 +88,19 @@ Nadat u de instellingen voor uw webcampagne hebt gedefinieerd en uw inhoud naar 
 
 >[!TAB  Web-pagina beeldgeneratie ]
 
-In het onderstaande voorbeeld leert u hoe u de AI Assistant Content Accelerator in Journey Optimizer kunt gebruiken om uw middelen te optimaliseren en te verbeteren, zodat u een gebruiksvriendelijker ervaring hebt.
+In het onderstaande voorbeeld leert u hoe u de AI Assistant in Journey Optimizer kunt gebruiken om uw middelen te optimaliseren en te verbeteren, zodat u een gebruiksvriendelijker ervaring hebt.
 
 1. Klik op **[!UICONTROL Edit web page]** nadat u de webpagina hebt gemaakt en geconfigureerd.
 
    Voor meer informatie over hoe te om uw Web-pagina te vormen, verwijs naar [ deze pagina ](../web/create-web.md).
 
-1. Selecteer het element dat u wilt wijzigen met de AI Assistant Content Accelerator.
+1. Selecteer het element dat u wilt wijzigen met de AI-assistent.
 
 1. Selecteer **[!UICONTROL Show AI Assistant]** in het rechtermenu.
 
    ![](assets/web-gen-img-1.png){zoomable="yes"}
 
-1. Schakel de optie **[!UICONTROL Reference style]** voor de AI Assistant Content Accelerator in om nieuwe inhoud aan te passen op basis van de referentie-inhoud. U kunt ook een afbeelding uploaden om context aan uw variatie toe te voegen.
+1. Schakel de optie **[!UICONTROL Reference style]** voor de AI-assistent in om nieuwe inhoud aan te passen op basis van de referentie-inhoud. U kunt ook een afbeelding uploaden om context aan uw variatie toe te voegen.
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
@@ -141,4 +142,3 @@ In het onderstaande voorbeeld leert u hoe u de AI Assistant Content Accelerator 
 Nadat u de instellingen voor uw webcampagne hebt gedefinieerd en uw inhoud naar wens hebt bewerkt met de webontwerper, kunt u uw webcampagne reviseren en activeren. [Meer informatie](../web/create-web.md#activate-web-campaign)
 
 >[!ENDTABS]
-

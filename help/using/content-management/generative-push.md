@@ -1,38 +1,38 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Push generation met de AI Assistant Content Accelerator in Journey Optimizer
-description: Push-inhoud genereren met de AI Assistant Content Accelerator in Journey Optimizer
+title: Push generation met de AI Assistant in Journey Optimizer
+description: Push-inhoud genereren met de AI Assistant in Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1317'
 ht-degree: 2%
 
 ---
 
-# Push generation met de AI Assistant Content Accelerator  {#generative-push}
+# Push generation met de AI Assistant {#generative-push}
 
 >[!IMPORTANT]
 >
 >Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](gs-generative.md#generative-guardrails).
 ></br>
 >
->U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u de AI HulpVersneller van de Inhoud in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u de Medewerker AI in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-Als u uw berichten hebt gemaakt en gepersonaliseerd, neemt u de inhoud van uw pushmelding naar het volgende niveau met de AI Assistant Content Accelerator in Journey Optimizer.
+Wanneer u uw berichten hebt gemaakt en gepersonaliseerd, neemt u de inhoud van uw pushmelding naar het volgende niveau met de AI Assistant in Journey Optimizer.
 
-Bekijk de onderstaande tabbladen voor meer informatie over het gebruik van de AI Assistant Content Accelerator in Journey Optimizer.
+Bekijk de onderstaande tabbladen voor meer informatie over het gebruik van de AI Assistant in Journey Optimizer.
 
 >[!BEGINTABS]
 
 >[!TAB  Volledige duw generatie ]
 
-In dit voorbeeld leert u hoe u een aansprekende pushmelding verzendt met de AI Assistant Content Accelerator in Journey Optimizer.
+In dit voorbeeld leert u hoe u een aansprekende pushmelding verzendt met gebruik van AI Assistant in Journey Optimizer.
 
 Voer de volgende stappen uit:
 
@@ -48,7 +48,7 @@ Voer de volgende stappen uit:
 
    ![](assets/push-genai-full-1.png){zoomable="yes"}
 
-1. Schakel de optie **[!UICONTROL Use original content]** voor de AI Assistant Content Accelerator in om de nieuwe inhoudsoptie aan te passen op basis van de geselecteerde inhoud.
+1. Schakel de optie **[!UICONTROL Use original content]** voor de AI-assistent in om de nieuwe inhoudsoptie aan te passen op basis van de geselecteerde inhoud.
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
@@ -105,7 +105,7 @@ Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, kunt u uw p
 
 >[!TAB  Tekst slechts generatie ]
 
-In dit voorbeeld leert u hoe u de AI Assistant Content Accelerator in Journey Optimizer kunt gebruiken voor specifieke inhoud. Voer de volgende stappen uit:
+In dit voorbeeld leert u hoe u de AI Assistant in Journey Optimizer kunt gebruiken voor specifieke inhoud. Voer de volgende stappen uit:
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de pushmeldingscampagne hebt gemaakt en geconfigureerd.
 
@@ -119,7 +119,7 @@ In dit voorbeeld leert u hoe u de AI Assistant Content Accelerator in Journey Op
 
    ![](assets/push-genai-1.png){zoomable="yes"}
 
-1. Schakel de optie **[!UICONTROL Use reference content]** voor de AI Assistant Content Accelerator in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
+1. Schakel de optie **[!UICONTROL Use reference content]** voor de AI-assistent in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
@@ -179,7 +179,7 @@ Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, kunt u uw p
 
    ![](assets/push-gen-img.png){zoomable="yes"}
 
-1. Schakel de optie **[!UICONTROL Reference style]** voor de AI Assistant Content Accelerator in om nieuwe inhoud aan te passen op basis van de referentie-inhoud. U kunt ook een afbeelding uploaden om context aan uw variatie toe te voegen.
+1. Schakel de optie **[!UICONTROL Reference style]** voor de AI-assistent in om nieuwe inhoud aan te passen op basis van de referentie-inhoud. U kunt ook een afbeelding uploaden om context aan uw variatie toe te voegen.
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: e3ebbb021b7336fa859deb19d4e5786a4f4fdf30
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
-source-wordcount: '4772'
+source-wordcount: '4768'
 ht-degree: 7%
 
 ---
@@ -62,7 +62,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <tr>
 <td>
 <p>Met het goedkeuringsbeleid kunt u nu een goedkeuringsproces in Journey Optimizer instellen dat marketingteams in staat stelt ervoor te zorgen dat campagnes en reizen worden gecontroleerd en ondertekend door de relevante belanghebbenden voordat ze live gaan.</p>
-<p>Het goedkeuringsbeleid is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.</p>
+<p>Het goedkeuringsbeleid is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
 <p>Raadpleeg de <a href="../test-approve/gs-approval.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="assets/do-not-localize/approval.gif"/>
 </td>
@@ -106,13 +106,13 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <table>
 <thead>
 <tr>
-<th><strong>AI Assistant-versnelling voor inhoud </strong><br/></th>
+<th><strong>AI-assistent</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Als u eenmaal een bericht hebt gemaakt en gepersonaliseerd, gaat u naar het volgende niveau met de AI Assistant Content Accelerator in Journey Optimizer. U kunt de AI Assistant nu gebruiken om de impact van uw bericht te optimaliseren door te experimenteren met verschillende hoofdtitels en afbeeldingen. Elke variant wordt beheerd als een unieke behandeling, om te meten en te vergelijken welke titel effectief meer kliks produceert.</p>
+<p>Als je je bericht hebt gemaakt en gepersonaliseerd, ga je naar het volgende niveau met de AI Assistant in Journey Optimizer. U kunt de AI Assistant nu gebruiken om de impact van uw bericht te optimaliseren door te experimenteren met verschillende hoofdtitels en afbeeldingen. Elke variant wordt beheerd als een unieke behandeling, om te meten en te vergelijken welke titel effectief meer kliks produceert.</p>
 <p>Ga zelf in een hands-on ervaring met <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator"> binnen onze levende eigenschapvoorproef </a>, die wordt ontworpen om u zijn eigenschappen eerst te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.</a></p>
 <p>Raadpleeg de <a href="../content-management/gs-generative.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
@@ -188,7 +188,7 @@ U kunt nu inhoudssjablonen en fragmenten exporteren tussen sandboxen. [Meer info
 
 **Configuratie**
 
-* **IP warmup plannen** - Dit vermogen is nu beschikbaar aan alle klanten, met inbegrip van organisaties die de Adobe **het Schild van de Gezondheidszorg** of **Privacy en het 5} toe:voegen-op dienstenaanbod van het Schild van de Veiligheid hebben gekocht.** [Meer informatie](../configuration/ip-warmup-gs.md)
+* **IP warmup plannen** - Dit vermogen is nu beschikbaar aan alle klanten, met inbegrip van organisaties die het Adobe **Bevel van de Gezondheidszorg** of **Privacy en het 5} toe:voegen-op dienstenaanbod van het Schild van de Veiligheid {hebben gekocht.** [Meer informatie](../configuration/ip-warmup-gs.md)
 
 <!--
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.-->
@@ -247,7 +247,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <table>
 <thead>
 <tr>
-<th><strong>Aangepaste actie Marketo Engage</strong><br/></th>
+<th><strong>Aangepaste Marketo Engage-actie</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -357,7 +357,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <tbody>
 <tr>
 <td>
-<p>Federated Audience Composition is nu beschikbaar in Adobe Journey Optimizer. Hierdoor kunnen ondernemingen gegevens samenstellen voor een beter gebruik in verschillende gebruiksgevallen. Met deze nieuwe benadering, als Adobe Real-time Customer Data Platform en/of gebruiker van Adobe Journey Optimizer, kunt u datasets van uw bestaand gegevenspakhuis direct federeren om het publiek en de attributen van Adobe Experience Platform te bouwen en te verrijken allen in één systeem.</p>
+<p>Federated Audience Composition is nu beschikbaar in Adobe Journey Optimizer. Hierdoor kunnen ondernemingen gegevens samenstellen voor een beter gebruik in verschillende gebruiksgevallen. Met deze nieuwe benadering, als Adobe Real-Time Customer Data Platform en/of gebruiker van Adobe Journey Optimizer, kunt u datasets van uw bestaand gegevenspakhuis direct federeren om het publiek en de attributen van Adobe Experience Platform te bouwen en te verrijken allen in één systeem.</p>
 <p>Raadpleeg de <a href="https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home"  target="_blank">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
@@ -403,13 +403,13 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <table>
 <thead>
 <tr>
-<th><strong>Rapportage met Customer Journey Analytics (beperkte beschikbaarheid)</strong><br/></th>
+<th><strong>Rapporteren met Customer Journey Analytics (beperkte beschikbaarheid)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer-rapportering wordt geleverd met een verbeterde interoperabiliteit met de mogelijkheden van de Customer Journey Analytics, standaardisering van de rapportage op beide platforms en verbetering van de consistentie en betrouwbaarheid van de gegevens. Deze naadloze integratie tussen Journey Optimizer en Customer Journey Analytics biedt een duidelijker beeld van prestatiesmetriek, toelatend gebruikers om geïnformeerde besluiten te nemen.</p>
+<p>Journey Optimizer-rapportering wordt geleverd met een verbeterde interoperabiliteit met Customer Journey Analytics-mogelijkheden, standaardisering van de rapportage op beide platforms en verbetering van de consistentie en betrouwbaarheid van gegevens. Deze naadloze integratie tussen Journey Optimizer en Customer Journey Analytics zorgt voor een duidelijker beeld van de prestatiesmetriek, waardoor gebruikers beter geïnformeerde beslissingen kunnen nemen.</p>
 <img src="assets/do-not-localize/ajo-cja.gif"/>
 <p>Raadpleeg de <a href="../reports/report-gs-cja.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
@@ -426,7 +426,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <tbody>
 <tr>
 <td>
-<p>De AI Medewerker is een gebruikersinterfaceeigenschap die u kunt gebruiken om te navigeren en Adobe concepten te begrijpen en operationele inzichten voor uw specifieke milieu te krijgen. Het is verkrijgbaar in verschillende producten in Adobe Experience Cloud, waaronder Adobe Journey Optimizer.</p>
+<p>De AI-assistent is een gebruikersinterfacefunctie waarmee u door Adobe-concepten kunt navigeren en deze kunt begrijpen en waarmee u inzichten in de werking van uw specifieke omgeving krijgt. Het is verkrijgbaar in verschillende producten in Adobe Experience Cloud, waaronder Adobe Journey Optimizer.</p>
 <p>Raadpleeg de <a href="../start/ai-assistant.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
@@ -443,7 +443,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <tr>
 <td>
 <p>U kunt nu moeiteloos inhoud in meerdere talen maken in één campagne of reis. Met deze functie kunt u schakelen tussen talen wanneer u uw campagne of reis bewerkt, het hele bewerkingsproces stroomlijnt en uw mogelijkheden voor efficiënt beheer van meertalige inhoud verbetert.</p>
-<p>Meertalige inhoud is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.</p>
+<p>Meertalige inhoud is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
 </td>
 </tr>
 </tbody>
@@ -460,7 +460,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <tr>
 <td>
 <p>Adobe Journey Optimizer is al beschikbaar in campagnes en ondersteunt nu experimenten op reizen. Experimenten zijn gerandomiseerde onderzoeken, die in de context van online tests betekenen dat u sommige willekeurig geselecteerde gebruikers aan een bepaalde variatie van een bericht blootstelt, en een andere willekeurig geselecteerde reeks gebruikers aan één of andere andere variatie of behandeling. Na blootstelling, kunt u de resultaatmetriek meten u in geinteresseerd bent, zoals opent van e-mail, abonnementen, of aankopen.</p>
-<p>Experimentatie op het gebied van reizen is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.</p>
+<p>Experimentatie op het gebied van reizen is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
 </td>
 </tr>
 </tbody>
@@ -569,7 +569,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <td>
 <p>Ervaring Beslissen vereenvoudigt personalisatie door een gecentraliseerde catalogus van marketingaanbiedingen aan te bieden, die bekend staan als 'beslissingspunten' en een geavanceerde beslissingsengine. Deze motor hanteert regels en rangschikkingscriteria om de meest relevante beslissingsitems te selecteren en aan elk individu voor te leggen.</p>
 <p>Deze besluitvormingspunten zijn naadloos geïntegreerd in een brede waaier van binnenkomende configuraties door het nieuwe op code-gebaseerde ervaringskanaal, nu toegankelijk binnen de campagnes van Journey Optimizer. Het beleid van de Beslissing van de ervaring is beschikbaar voor gebruik in code-gebaseerde ervaringscampagnes slechts.</p>
-<p>Experience Decisioning is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.</p>
+<p>Experience Decisioning is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>Raadpleeg de <a href="../experience-decisioning/gs-experience-decisioning.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
@@ -587,7 +587,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <tr>
 <td>
 <p>U kunt dynamische subdomeinen en gepersonaliseerde kopbalparameters nu bepalen wanneer het creëren van configuraties van het e-mailkanaal, voor verhoogde flexibiliteit en controle over uw e-mailmontages.</p>
-<p>Aanpassing van de e-mailconfiguratie is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.</p>
+<p>Aanpassing van de e-mailconfiguratie is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
 <p>Raadpleeg de <a href="../email/surface-personalization.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
@@ -652,7 +652,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 Van bèta tot deze release zijn de volgende verbeteringen toegevoegd:
 
-* **Beslissing van de Ervaring + Op code-gebaseerde ervaringen** - u kunt hefboomwerking de het besluiten van de Ervaring eigenschap nu om besluitvormingspunten in uw op code-gebaseerde campagnes te gebruiken. Opmerking: het op code gebaseerde ervaringskanaal en de ervaringsbeslissingen zijn niet beschikbaar voor organisaties die de add-on Adobe van het gezondheidsschild en privacy- en beveiligingsschild hebben aangeschaft. [Meer informatie](../code-based/get-started-code-based.md)
+* **Beslissing van de Ervaring + Op code-gebaseerde ervaringen** - u kunt hefboomwerking de het besluiten van de Ervaring eigenschap nu om besluitvormingspunten in uw op code-gebaseerde campagnes te gebruiken. Opmerking: het op code gebaseerde ervaringskanaal en de ervaringsbeslissingen zijn niet beschikbaar voor organisaties die de invoegtoepassing Adobe Healthcare Shield and Privacy and Security Shield hebben aangeschaft. [Meer informatie](../code-based/get-started-code-based.md)
 * **de gegevens van de Context** - u kunt hefboomwerkingscontextgegevens van Adobe Experience Platform in uw besluitvormingsregels en rangschikkingsformules nu. [Meer informatie](../experience-decisioning/context-data.md)
 * **Nieuwe toestemming** - een nieuwe &quot;beheert de besluiten van de Ervaring&quot;toestemming is nu beschikbaar voor het middel van het Beheer van het Besluit. Hiermee kunt u rechten beheren die betrekking hebben op het bepalen van ervaring. [Meer informatie](../experience-decisioning/gs-experience-decisioning.md)
 * **Afschilderende regels** - u kunt veelvoudige het afschilderen regels voor een bepaald besluitpunt in Ervaring nu toevoegen Beslissing. Dit staat u toe om het niveau van controle over de manier te verhogen de aanbiedingen worden verzonden. [Meer informatie](../experience-decisioning/items.md#capping)
@@ -675,7 +675,7 @@ Van bèta tot deze release zijn de volgende verbeteringen toegevoegd:
 
   >[!AVAILABILITY]
   >
-  >Deze mogelijkheid is momenteel beschikbaar in bètaversie en alleen voor bètaklanten. Neem contact op met uw Adobe als u wilt deelnemen aan het bètaprogramma.
+  >Deze mogelijkheid is momenteel beschikbaar in bètaversie en alleen voor bètaklanten. Neem contact op met uw Adobe-vertegenwoordiger als u wilt deelnemen aan het bètaprogramma.
 
 <!--
 **Audiences**
@@ -690,7 +690,7 @@ Van bèta tot deze release zijn de volgende verbeteringen toegevoegd:
 
 <!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
 * **mTLS steun** - de authentificatie mTLS wordt nu gesteund in douaneacties. Er is geen extra configuratie vereist in de douaneactie of de reis om mTLS te activeren; het komt automatisch voor wanneer een mTLS-Toegelaten eindpunt wordt ontdekt. [Meer informatie](../action/about-custom-action-configuration.md#mtls-protocol-support)
-* **de lijsten van de Raadpleging in gebeurtenissen** - u kunt hefboomwerkingsgegevens van een raadplegingsdataset nu gebruiken wanneer een verhouding gebruikend een attribuut binnen van een serie van voorwerpen is bepaald. De opzoekwaarden zijn beschikbaar voor reizen (voorwaarden, aangepaste handelingen, enz.) en berichtpersonalisatie. [Meer informatie](../event/experience-event-schema.md#relationships_limitations)
+* **de lijsten van de Raadpleging in gebeurtenissen** - u kunt hefboomwerkingsgegevens van een raadplegingsdataset nu gebruiken wanneer een verhouding gebruikend een attribuut binnen van een serie van voorwerpen is bepaald. De opgezochte waarden zullen in reizen (voorwaarden, douaneacties, enz.) en berichtverpersoonlijking beschikbaar zijn. [Meer informatie](../event/experience-event-schema.md#relationships_limitations)
 * **Geavanceerde uitdrukkingsredacteur in de configuratie van de Gebeurtenis** (LA) - u kunt hefboomwerking de geavanceerde uitdrukkingsredacteur nu terwijl het vormen van een gebeurtenis, toestaand u om complexere uitdrukkingen of gebruiksfuncties in de voorwaarde van gebeurtenisidentiteitskaart te bepalen. Deze mogelijkheid wordt vrijgegeven in Beperkte Beschikbaarheid voor geselecteerde klanten. [Meer informatie](../event/about-creating.md#adv-exp-editor)
 * **beleid van de Fusie** (LA) - het beleid van de Fusie dat door een Reis wordt gebruikt is nu zichtbaar en verenigbaar door de reis. Deze mogelijkheid wordt vrijgegeven in Beperkte Beschikbaarheid voor geselecteerde klanten. [Meer informatie](../building-journeys/journey-properties.md#merge-policies)
 
@@ -716,7 +716,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <tbody>
 <tr>
 <td>
-<p>Met het Kanaal van SMS, kunt u uw mededeling nu verbeteren door de MMS-berichten (Multimedia Message Service) te verzenden, toelatend het delen van beelden, GIFFEN, of video's met uw klanten. In eerste instantie alleen beschikbaar bij Sinch, is MMS nu ook beschikbaar bij Infobip en Twilio.</p>
+<p>Met het Kanaal van SMS, kunt u uw mededeling nu verbeteren door de MMS-berichten (Multimedia Message Service) te verzenden, toelatend het delen van beelden, GIFs, of video's met uw klanten. In eerste instantie alleen beschikbaar bij Sinch, is MMS nu ook beschikbaar bij Infobip en Twilio.</p>
 <img src="assets/do-not-localize/mms.gif"/>
 </td>
 </tr>
@@ -829,7 +829,7 @@ Met deze release wordt de nieuwe functionaliteit hieronder beschreven.
 <P>De belangrijkste mogelijkheden omvatten:</p>
 <ul><li> Universele verpersoonlijking: vergroot persoonlijke ervaringen op alle aanraakpunten, zodat een samenhangende en op maat gesneden gebruikersreis mogelijk is</li>
 <li>Precisie voor bewerking in korrels: bewerk specifieke inhoud op afzonderlijke locaties in uw apps of webpagina's</li>
-<li>Veelzijdige implementatie: ondersteuning voor implementatiemethoden die zijn gebaseerd op servers, API's of SDK's, zodat deze naadloos kunnen worden geïntegreerd met uw ontwikkelomgeving.</li></ul></p>
+<li>Veelzijdige implementatie: ondersteuning voor implementatiemethoden die zijn gebaseerd op servers, API's of SDK, zodat deze naadloos kunnen worden geïntegreerd met uw ontwikkelomgeving.</li></ul></p>
 <p>Raadpleeg de <a href="../code-based/get-started-code-based.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="assets/do-not-localize/code-based.gif"> 
 </tr>
@@ -842,7 +842,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Contentsjablonen**
 
-* **Duimnagels** - de 3} wijze van de mening van A **Net is nu beschikbaar voor inhoudsmalplaatjes, tonend duimnagels voor betere visuele toegang.** Momenteel worden alleen e-mailsjablonen ondersteund. [Meer informatie](../content-management/content-templates.md#template-thumbnails)
+* **Duimnagels** - de 3} wijze van de mening van A **Net is nu beschikbaar voor inhoudsmalplaatjes, tonend duimnagels voor betere visuele toegang.** Momenteel worden alleen e-mailsjablonen van HTML ondersteund. [Meer informatie](../content-management/content-templates.md#template-thumbnails)
 
   >[!AVAILABILITY]
   >
@@ -962,7 +962,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <tr>
 <td>
 <p>Journey Optimizer biedt nu ondersteuning voor de DMARC-verificatietechnologie.</p>
-<p>Vanaf 1 februari 2024, Google en Yahoo! vereisen dat u een DMARC-record hebt voor elk domein dat u gebruikt om e-mail naar hen te verzenden. Zorg ervoor dat u DMARC-recordset hebt ingesteld voor alle subdomeinen die u hebt gedelegeerd of die delegeren aan Adobe in Journey Optimizer.</p>
+<p>Vanaf 1 februari 2024, Google en Yahoo! vereisen dat u een DMARC-record hebt voor elk domein dat u gebruikt om e-mail naar hen te verzenden. Zorg ervoor dat u DMARC-record hebt ingesteld voor alle subdomeinen die u in Journey Optimizer hebt gedelegeerd of gedelegeerd aan Adobe.</p>
 <p>Raadpleeg de <a href="../configuration/dmarc-record-update.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <br/><img src="assets/do-not-localize/dmarc.gif"/>
 </tr>
@@ -1017,7 +1017,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
   >[!NOTE]
   >
-  >Dagelijkse frequentiegrens is ook beschikbaar op verzoek. Neem contact op met uw Adobe.
+  >Dagelijkse frequentiegrens is ook beschikbaar op verzoek. Neem contact op met uw Adobe-vertegenwoordiger.
 
 **het beheer van het Besluit**
 
