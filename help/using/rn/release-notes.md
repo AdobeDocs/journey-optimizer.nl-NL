@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9538c8c19b242036ce58799b51ef25b8204bf6ec
+source-git-commit: 8c9e69e35ee2c56215f7fe3f4a1f5f9759a2f9b8
 workflow-type: tm+mt
 source-wordcount: '2346'
 ht-degree: 6%
@@ -53,6 +53,7 @@ De nieuwe mogelijkheden die in januari worden vrijgegeven, worden hieronder besc
 <td>
 <p>Je hebt nu de mogelijkheid om je Journey Optimizer-rapporten te verbeteren met behulp van Customer Journey Analytics-sjablonen. Met deze nieuwe functie kunt u uw rapportageproces stroomlijnen met vooraf ontworpen sjablonen die zijn afgestemd op uw analysebehoeften.
 </p>
+<img src="assets/do-not-localize/cja-templates.gif">
 <p>Raadpleeg de <a href="../reports/report-cja-manage.md#cja-template">gedetailleerde documentatie</a> voor meer informatie.</p>
 <p>Beschikbaarheidsdatum: vanaf 15 januari 2025</p>
 </tr>
