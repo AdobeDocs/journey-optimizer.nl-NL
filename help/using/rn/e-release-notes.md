@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 6d072ed9b0312ee06efa9fdfaafd0fff913e6276
+source-git-commit: e1192f6540ee3317a0e03100dedb7780708f7bec
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '625'
 ht-degree: 4%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 **de vroege versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. De verbindingen, de schermen en de bijgewerkte documentatie worden gepubliceerd in de [ versienota&#39;s ](release-notes.md), bij de versiedatum.
 
-## 25 februari vervroegde release {#25-02-rn}
+## Opmerkingen bij de vervroegde release van februari &#39;25 {#25-02-rn}
 
 ### Nieuwe functies {#25-02-features}
 
