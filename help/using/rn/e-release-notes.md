@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: e1192f6540ee3317a0e03100dedb7780708f7bec
+source-git-commit: 99f4dc8dc7ba3c6acb886e4a37ba36d9b187c68b
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 4%
+source-wordcount: '676'
+ht-degree: 3%
 
 ---
 
@@ -104,6 +104,8 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 
 De verbeteringen hieronder komen met de update van februari.
 
+* **Reizen** - u kunt uw acties van de reisdouane nu testen door API vraag van het beleid gebruikersinterface te verzenden. Met deze nieuwe functie kunt u uw aangepaste acties oplossen.
+
 * **Tijd-aan-levende Dataset (TTL)** - Beginnend deze maand, zal een tijd-aan-levende (TTL) guardrail aan systeem-geproduceerde datasets van Journey Optimizer in nieuwe zandbakken en nieuwe organismen als volgt worden uitgerold:
 
    * 90 dagen voor gegevens in de profielopslag
@@ -114,6 +116,12 @@ De verbeteringen hieronder komen met de update van februari.
 * **Playbooks** - u kunt uw eigen Playbooks van het Geval van het Gebruik in Journey Optimizer nu tot stand brengen en publiceren.
 
 * **Directe post** - DLZ (Geplaatst Gebied van DAta) wordt nu gesteund als servertype voor dossier dat in Directe postconfiguratie verplettert.
+
+**Personalization**
+
+* De verpersoonlijkingsredacteur is verbeterd met nieuwe mogelijkheden zoals auto-volledig, Onderzoek, en het filtreren opties. U kunt ook vervangen kenmerken tonen of verbergen.
+
+* Beschikbaarheidsdatum: 29 januari 2025 - Nieuwe datum-/tijdhulpfuncties zijn beschikbaar voor gebruik in de verpersoonlijkingseditor. [Meer informatie](../personalization/functions/dates.md)
 
 **E-mailconfiguratie** - de datum van de Beschikbaarheid: 12 Feb, 2025
 
@@ -128,7 +136,3 @@ De verbeteringen hieronder komen met de update van februari.
 **Beslissing** - de datum van de Beschikbaarheid: Jan 28, 2025
 
 * Het besluit steunt nu de gegevenstypes van Objecten wanneer het uitgeven van het schema van de puntcatalogus. [Meer informatie](../experience-decisioning/catalogs.md)
-
-**Personalization** - de datum van de Beschikbaarheid: 29 jan, 2025
-
-* De nieuwe datum/tijdhulpfuncties zijn beschikbaar voor gebruik in de verpersoonlijkingsredacteur. [Meer informatie](../personalization/functions/dates.md)
