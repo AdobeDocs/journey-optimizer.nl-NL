@@ -1,89 +1,119 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Over de wijzigingen in de tijd tot leven (TTL) en streaming segmentatie
-description: Wijzigingen in tijd tot live en streaming segmentatie in Adobe Journey Optimizer
+title: Informatie over datasets Tijd-aan-levende (TTL) gidsen
+description: Datasets Time-to-live guardrails in  [!DNL Adobe Journey Optimizer]
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform, data Lake, create, Lake, datasets, profile
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: ccb4cc944271fb197e7aee87f57b51c28cb3565f
+source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 0%
+source-wordcount: '696'
+ht-degree: 3%
 
 ---
 
-# Wijzigingen in tijd tot live en streaming segmentatie {#ttl-guardrail}
+# Datasets Time-to-live (TTL)-instructies {#ttl-guardrail}
 
-## Streaming segmentatie-updates {#segmentation-update}
+Vanaf Februari 2025, wordt een tijd-aan-levende (TTL) guardrail opgesteld uit aan systeem-geproduceerde datasets van Journey Optimizer in **nieuwe zandbakken en nieuwe organisaties** als volgt:
 
-Vanaf 1 november 2024 biedt streaming segmentatie geen ondersteuning meer voor het gebruik van send- en open-gebeurtenissen van Journey Optimizer-tracking en feedback in gegevenssets. Deze wijziging is van toepassing op alle sandboxen en organisaties van klanten. De informatie over waarom deze praktijk in het verleden ontmoedigd is kan [ hier ](../audience/about-audiences.md#streaming-segmentation-events-guardrails) worden gevonden.
-
-**vaak Gestelde Vragen**
-
-+++ Zullen deze veranderingen het gebruik van kliks of andere het volgen gebeurtenissen beïnvloeden?
-
-Deze wijziging is alleen van invloed op het gebruik van open- en verzendgebeurtenissen. Kliks en andere volggebeurtenissen kunnen nog steeds worden gebruikt in een streaming segment.
-
-+++
-
-+++ Zal batchsegmentatie door deze wijziging worden beïnvloed?
-
-Deze wijziging is alleen van invloed op streamingsegmentatie. Verstuur- en open-gebeurtenissen kunnen nog steeds worden gebruikt in een batchsegment. Als ze in een streaming segment worden gebruikt, worden ze op batchwijze geëvalueerd.
-
-+++
-
-+++ Zal deze wijziging gevolgen hebben voor het verzamelen van trackinggegevens?
-
-Deze wijziging heeft geen invloed op de verzameling van gegevens over het bijhouden van gegevens. Verstuur- en open gebeurtenissen blijven verzameld.
-
-+++
-
-+++ Heeft deze wijziging gevolgen voor de reacties?
-
-Reactievoorvallen in de Reizen worden niet beïnvloed door deze wijziging.
-
-+++
-
-+++ Zal deze wijziging alleen van toepassing zijn op productiesandboxen of zal deze ook van toepassing zijn op dev-sandboxen?
-
-Deze wijziging is van toepassing op alle sandboxtypen.
-
-+++
-
-+++ Heeft de wijziging ook invloed op feedbackgebeurtenissen die het gevolg zijn van de verzendgebeurtenis?
-
-Deze wijziging is ook van toepassing op uitsluitingsgebeurtenissen en stuit-/vertragingsgebeurtenissen die het gevolg zijn van het verzenden.
-
-+++
-
-## Phased time-to-live (TTL)-update {#ttl}
-
-Beginnend in Februari 2025, zal een tijd-aan-levende (TTL) guardrail aan systeem-geproduceerde datasets van Journey Optimizer in **nieuwe zandbakken en nieuwe organisaties** als volgt worden opgerold:
-
-* 90 dagen voor gegevens in de profielopslag
-* 13 maanden voor gegevens in het data Lake
+* 90 dagen voor gegevens in de profielopslag,
+* 13 maanden voor gegevens in het data Lake.
 
 Deze verandering zal uit aan **bestaande klantenzandbakken** in een verdere fase worden opgerold.
 
-**vaak Gestelde Vragen**
+## Betrokken gegevenssets {#datasets}
 
-+++ Zal deze wijziging alleen van toepassing zijn op productiesandboxen of zal deze ook van toepassing zijn op dev-sandboxen?
+De onderstaande tabel bevat een lijst met alle beïnvloede gegevenssets en hun respectievelijke time-to-live-gegevens in het gegevensmeer en de profielopslag.
+
+| Gegevensset | Data Lake TTL | Profielwinkel TTL |
+|------|-----|-----|
+| Dataset voor AJO-feedbackgebeurtenis | 13 maanden | 90 dagen |
+| AJO Email Tracking Experience Event Dataset | 13 maanden | 90 dagen |
+| Dataset voor AJO Push Tracking Experience | 13 maanden | 90 dagen |
+| Gegevensset AJO Entiteit | 13 maanden | 90 dagen |
+| Gegevensset AJO-oppervlakken | 13 maanden | nvt |
+| Gegevensset van gebeurtenis Inbound Activity van AJO | 13 maanden | 90 dagen |
+| AJO Classification-gegevensset | 13 maanden | nvt |
+| Gegevensset AJO-e-mailBCC-feedbackgebeurtenis | 13 maanden | nvt |
+| acpEntiteit-gebeurtenisgegevensset | 13 maanden | nvt |
+| Journeys | 13 maanden | nvt |
+| Gebeurtenissen reisstap | 13 maanden | nvt |
+| Beslissingsobjectopslagplaats - Aangepaste aanbiedingen | 13 maanden | nvt |
+| Beslissingsobjectopslagplaats - Alternatieve aanbiedingen | 13 maanden | nvt |
+| Beslissingsobjectrepository - Plaatsingen | 13 maanden | nvt |
+| Beslissingsobjectopslagplaats - Activiteiten | 13 maanden | nvt |
+| ODE-beslissingsgebeurtenissen - prodbeslissing | 13 maanden | nvt |
+| AJO-servicedataset voor toestemming | nvt | 90 dagen |
+| Gegevensset AJO Interactive Messaging Profile | nvt | 90 dagen |
+| Extensie AJO-profieltellers | nvt | 90 dagen |
+| Gegevensset van AJO Push Profile | nvt | 90 dagen |
+| Gegevensset AJO Engageable Profile | nvt | 90 dagen |
+
+
+
+## Veelgestelde vragen {#faq}
+
+Hieronder volgt een lijst met antwoorden op veelgestelde vragen over TLL-gegevenssets.
+
++++Is deze wijziging alleen van toepassing op productiestanddozen of is deze ook van toepassing op dev-sandboxen?
 
 Deze wijziging is van toepassing op alle sandboxtypen.
 
 +++
 
-+++ Worden profielen zelf beïnvloed voor de 90 dagen-TTL in de profielopslag?
++++Worden profielen zelf beïnvloed voor de 90 dagen-TTL in de profielopslag?
 
 De door het systeem gegenereerde gegevenssetgegevens in het profiel worden na 90 dagen verwijderd, niet de profielen zelf.
 
 +++
 
-+++ Als een systeem-geproduceerde datasetgegevens aan Customer Journey Analytics (CJA) worden geduwd, zullen de gegevens in CJA ook door TTL worden beïnvloed?
++++Als een systeem-geproduceerde datasetgegevens aan [!DNL Customer Journey Analytics] (CJA) worden geduwd, zullen de gegevens in CJA ook door TTL worden beïnvloed?
 
-Gegevens in CJA worden gesynchroniseerd met Experience Platform. Daarom zal een verwijdering van gegevens door een TTL op systeem-geproduceerde datasetgegevens ook de gegevens in CJA beïnvloeden.
+Gegevens in [!DNL Customer Journey Analytics] blijven gesynchroniseerd met Experience Platform. Daarom zal een verwijdering van gegevens toe te schrijven aan een TTL op systeem-geproduceerde datasetgegevens ook de gegevens in [!DNL Customer Journey Analytics] beïnvloeden.
+
++++
+
++++ Kunnen klanten TTL voor [!DNL Journey Optimizer] gegevens van de systeemdataset in profielopslag verhogen?
+
+De uitbreidingen van TTLs worden momenteel niet gesteund. Het is echter de bedoeling dat het TTL-proces wordt geoptimaliseerd zodat deze verlengingsverzoeken soms vanaf de tweede helft van 2025 kunnen worden ingediend.
+
+>[!NOTE]
+>
+>Voor gegevens die in het profiel zijn opgeslagen, geldt de machtiging Totaal gegevensvolume. Elke toename van de gegevensopslag op het profiel als gevolg van een uitbreiding van de TTL zou daarom in mindering worden gebracht op de machtiging Totaal gegevensvolume. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html) {target="_blank}
+
++++
+
++++Kunnen klanten TTL voor [!DNL Journey Optimizer] gegevens van de systeemdataset in gegevens verhogen?
+
+De uitbreidingen van TTLs worden momenteel niet gesteund. Klanten met een Real-Time CDP-machtiging kunnen gegevens exporteren via Doelen om gegevens langer te behouden. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html) {target="_blank}
+
++++
+
++++Zullen de volgende mogelijkheden door TTLs worden beïnvloed?
+
+* **Opzoeken opslag**: Nr
+* **Afbakening van de Reis**: Nr
+* **Aanbieding die** begrenzen: Nr
+* **verzendt de Optimalisering van de Tijd (STO)**: Nr
+* **het frequentietoewijzing van het Bericht** (d.w.z., Bedrijfs regels): Nr
+* **Meldend**: Nr
+
+  >[!NOTE]
+  >
+  >Een TTL wordt reeds uitgevoerd op de [!DNL Customer Journey Analytics] (verbinding CJA), die effectieve maximum terugblik periode van beïnvloede datasetgegevens aan 13 maanden vermindert.
+
+* **de gegevensbron van Experience Platform**: Ja - de de gebeurtenisherwinning van de Ervaring is onderworpen aan 90 dag TTL.
+* **Berekende attributen**: Ja - de aanvankelijke backfill berekening zal tot laatste 90 dagen van gegevens worden beperkt; gegevens verwerkte attributen zullen op stijgende gebeurtenissen voor verdere updates worden bijgewerkt. Zodra de volgende updates de terugkijkperiode (maximum 6 maanden) bereiken, beïnvloedt TTL hoofdzakelijk niet meer het gegevens verwerkte attribuut. Meer weten?
+* **Segmentatie en het opnieuw richten**: Ja - de segmentatie is afhankelijk van gegevens in de profielopslag; daarom, is terugblik beperkt tot 90 dagen op beïnvloede datasetgegevens.
+* **het Volgen**: Ja - vermindert effectieve maximum terugblik periode van beïnvloede datasetgegevens tot 90 dagen. Gegevens uit beïnvloede datasets blijven 13 maanden in data Lake.
+
++++
+
++++Welke timestamp wordt gebruikt voor handhaving TTL (b.v., voor backfill gebruiksgevallen)?
+
+De tijdstempel van de gebeurtenis wordt gebruikt (dus niet de innamedatum).
 
 +++

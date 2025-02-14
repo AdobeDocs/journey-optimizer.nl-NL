@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 2bc4dba1353b1d19b1bae0b7718fbbc9e9f37147
+source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
 workflow-type: tm+mt
-source-wordcount: '2489'
+source-wordcount: '2497'
 ht-degree: 0%
 
 ---
@@ -40,12 +40,12 @@ De Adobe [!DNL Journey Optimizer] -interface is ontworpen om optimaal te werken 
 
 ## Gegevenssethandleidingen {#datasets-guardrails}
 
-Beginnend in Februari 2025, zal een tijd-aan-levende (TTL) guardrail aan systeem-geproduceerde datasets van Journey Optimizer in **nieuwe zandbakken en nieuwe organisaties** als volgt worden opgerold:
+Vanaf Februari 2025, wordt een tijd-aan-levende (TTL) guardrail opgesteld uit aan systeem-geproduceerde datasets van Journey Optimizer in **nieuwe zandbakken en nieuwe organisaties** als volgt:
 
-* 90 dagen voor gegevens in de profielopslag
-* 13 maanden voor gegevens in het data Lake
+* 90 dagen voor gegevens in de profielopslag,
+* 13 maanden voor gegevens in het data Lake.
 
-Onderzoek de [ Veelgestelde sectie van Vragen ](../data/datasets-ttl.md#ttl) voor meer details op deze guardrails.
+Deze verandering zal uit aan **bestaande klantenzandbakken** in een verdere fase worden opgerold. [ leer meer op datasets tijd-aan-Verlaat (TTL) guardrails ](../data/datasets-ttl.md)
 
 ## Handleidingen voor landingspagina&#39;s {#lp-guardrails}
 
