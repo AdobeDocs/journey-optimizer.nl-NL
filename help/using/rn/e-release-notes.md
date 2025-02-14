@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 99f4dc8dc7ba3c6acb886e4a37ba36d9b187c68b
+source-git-commit: 39e52d7e552859137c9e179f48319ed508caabb5
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 3%
+source-wordcount: '652'
+ht-degree: 4%
 
 ---
 
@@ -119,7 +119,8 @@ De verbeteringen hieronder komen met de update van februari.
 
 **Personalization**
 
-* De verpersoonlijkingsredacteur is verbeterd met nieuwe mogelijkheden zoals auto-volledig, Onderzoek, en het filtreren opties. U kunt ook vervangen kenmerken tonen of verbergen.
+<!--
+* The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
 
 * Beschikbaarheidsdatum: 29 januari 2025 - Nieuwe datum-/tijdhulpfuncties zijn beschikbaar voor gebruik in de verpersoonlijkingseditor. [Meer informatie](../personalization/functions/dates.md)
 
