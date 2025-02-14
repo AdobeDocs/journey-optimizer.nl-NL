@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c1712985598b927d26da0b0d0562cd3fe60aa962
+source-git-commit: 1ac5f7362cd0184b7207b0f175d83c5c60921e7e
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '634'
 ht-degree: 4%
 
 ---
@@ -117,7 +117,7 @@ De verbeteringen hieronder komen met de update van februari.
 
 <!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
-* **Directe post** - DLZ (Geplaatst Gebied van DAta) wordt nu gesteund als servertype voor dossier dat in Directe postconfiguratie verplettert.
+* **Directe post** - een nieuw servertype, Gegevens landende streek, wordt nu gesteund voor dossier dat in de directe configuratie van het postkanaal verplettert.
 
 **Personalization**
 
