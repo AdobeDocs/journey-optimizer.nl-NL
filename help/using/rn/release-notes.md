@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8c9e69e35ee2c56215f7fe3f4a1f5f9759a2f9b8
+source-git-commit: befad89c8f50c92751e5e0995e73df8427a193b3
 workflow-type: tm+mt
-source-wordcount: '2346'
-ht-degree: 6%
+source-wordcount: '2807'
+ht-degree: 5%
 
 ---
 
@@ -22,25 +22,68 @@ ht-degree: 6%
 
 [!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html) {target="_blank"}.
 
-## Nieuwste &#39;25 updates {#25-01-rn}
+## Release van februari &#39;25 {#25-02-rn}
 
-### Verbetering in februari {#25-02-improvements}
+**de datum van de Versie**: 18-19 februari, 2025
 
-De verbetering hieronder komt met de update van februari.
 
-**E-mailconfiguratie** - de datum van de Beschikbaarheid: 12 Feb, 2025
+### Nieuwe functies {#25-02-features}
 
-* Als u toestemming buiten Adobe beheert, kunt u nu een aangepast e-mailadres voor opzeggen en een aangepaste, één-klik-URL voor opzeggen instellen als onderdeel van de configuratie-instellingen voor e-mailkanalen. [ las meer ](../email/list-unsubscribe.md#custom-managed)
+De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder beschreven.
 
-  ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
+<table>
+<thead>
+<tr>
+<th><strong>Bedrijfsregels maken en beheren</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu bedrijfsregels maken met behulp van regelsets. Regelsets zijn groepen regels die u helpen verzonden berichten binnen campagnes en reisacties te beperken over kanalen, en om de invoer van profielen in reizen te controleren.<p>
+<p><ul><li>Creeer kanaalregelreeksen om het aantal berichten te beperken die over één of veelvoudige kanalen worden verzonden. Pas ze toe op campagnes of reisacties om de regels af te dwingen die zijn gedefinieerd in de regelset. De de regelreeks van het kanaal staat u toe om het begrenzen regels toe te passen die op communicatie types worden gebaseerd. Stel bijvoorbeeld een regel in die is ingesteld op het beperken van 'promotionele berichten' en een andere regel voor 'nieuwsbrieven'. Pas de toepasselijke regel toe die in uw campagne of reisactie is ingesteld, afhankelijk van het type communicatie dat u verzendt.</li>
+<li> Reisregelsets maken om profielinvoer in reizen te regelen. Beperk hoe vaak een profiel een reis binnen een bepaalde periode kan ingaan of het aantal reizen een profiel kan gelijktijdig worden ingeschreven. Pas deze toe op het niveau van de reis om te zorgen voor een goed beheer van de toegang.</li></p>
+<p>Eerder beschikbaar voor een reeks organisaties (LA), zijn de bedrijfsregels nu beschikbaar aan alle gebruikers (GA).</p>
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
 
-  >[!AVAILABILITY]
-  >
-  >Dit vermogen wordt vrijgegeven in Beperkte Beschikbaarheid (LA) voor een kleine reeks klanten.
+<table>
+<thead>
+<tr>
+<th><strong>Landingspagina's genereren met de AI Assistant</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu boeiende inhoud voor uw openingspagina's, met inbegrip van volledige paginaontwerpen, gepersonaliseerde tekst, en aangepaste visuele hulpmiddelen, met de hulp van de AI medewerker ambachtelijk maken.</p>
+<img src="assets/do-not-localize/ai-lp.gif">
+<!--p>For more information on AI Assistant, refer to the <a href="../email/generative-lp.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
 
-### Nieuwe functies {#25-01-features}
 
-De nieuwe mogelijkheden die in januari worden vrijgegeven, worden hieronder beschreven.
+<table>
+<thead>
+<tr>
+<th><strong>Merkrichtlijnen (bèta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu uw eigen merkenrichtlijnen instellen om de visuele en verbale identiteit van uw merk te definiëren. Merk op dat de eigenschap van Merken als privé bèta aan een beperkte reeks klanten wordt vrijgegeven. Het zal in toekomstige versies geleidelijk beschikbaar zijn voor alle klanten.</p>
+<!--p>For more information, refer to the <a href="../content-management/brands.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -77,18 +120,56 @@ De nieuwe mogelijkheden die in januari worden vrijgegeven, worden hieronder besc
 </tr>
 </tbody>
 </table>
+</table>
 
-### Verbeteringen in januari {#25-01-improvements}
 
-De verbeteringen die in januari zijn vrijgegeven, worden hieronder weergegeven.
+### Verbeteringen {#25-02-improvements}
 
-**Beslissing**
+De verbeteringen hieronder komen met de update van februari.
 
-* Het besluit steunt nu de gegevenstypes van Objecten wanneer het uitgeven van het schema van de puntcatalogus. [Meer informatie](../experience-decisioning/catalogs.md)
+* **Reizen** - u kunt uw douaneacties nu testen door API vraag van de beleidssectie te verzenden. Deze nieuwe mogelijkheid helpt u bij het oplossen van problemen met uw aangepaste handelingen voordat u deze tijdens een reis hebt gebruikt.
+
+* **Tijd-aan-levende Dataset (TTL)** - Beginnend deze maand, zal een tijd-aan-levende (TTL) guardrail aan systeem-geproduceerde datasets van Journey Optimizer in nieuwe zandbakken en nieuwe organismen als volgt worden uitgerold:
+
+   * 90 dagen voor gegevens in de profielopslag
+   * 13 maanden voor gegevens in het data Lake
+
+  Deze wijziging wordt in een volgende fase doorgevoerd in bestaande sandboxen voor klanten.
+
+  Leer meer over deze update in [ dit specifieke FAQ ](../data/datasets-ttl.md#frequently-asked-questions).
+
+<!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
+
+* **Directe post** - een nieuw servertype, Gegevens landende streek, wordt nu gesteund voor dossier dat in de directe configuratie van het postkanaal verplettert.
+
+**SMS** - u kunt SMS berichtlevering van multi-regionale eindpunten nu beheren door levering, terugkoppelen, binnenkomend, en callback URLs te overschrijven. Ter ondersteuning hiervan is een nieuwe veld Overschrijf-URL toegevoegd aan de configuratie van API-referenties. Deze wijziging is alleen beschikbaar bij de Sinch-provider. [Meer informatie](../sms/sms-configuration-sinch.md)
 
 **Personalization**
 
-* De nieuwe datum/tijdhulpfuncties zijn beschikbaar voor gebruik in de verpersoonlijkingsredacteur. [Meer informatie](../personalization/functions/dates.md)
+<!--
+* The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
+
+* Beschikbaarheidsdatum: 29 januari 2025 - Nieuwe datum-/tijdhulpfuncties zijn beschikbaar voor gebruik in de verpersoonlijkingseditor. [Meer informatie](../personalization/functions/dates.md)
+
+
+**E-mailconfiguratie** - de datum van de Beschikbaarheid: 12 Feb, 2025
+
+* Als u toestemming buiten Adobe beheert, kunt u nu een aangepast e-mailadres voor opzeggen en een aangepaste, één-klik-URL voor opzeggen instellen als onderdeel van de configuratie-instellingen voor e-mailkanalen. [ las meer ](../email/list-unsubscribe.md#custom-managed)
+
+  ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
+
+  >[!AVAILABILITY]
+  >
+  >Dit vermogen wordt vrijgegeven in Beperkte Beschikbaarheid (LA) voor een kleine reeks klanten.
+
+* Als u toestemming buiten Adobe beheert, kunt u nu een aangepast e-mailadres voor opzeggen en een aangepaste, één-klik-URL voor opzeggen instellen als onderdeel van de configuratie-instellingen voor e-mailkanalen. [ las meer ](../email/list-unsubscribe.md#custom-managed)
+
+  ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
+
+**Beslissing** - de datum van de Beschikbaarheid: Jan 28, 2025
+
+* Het besluit steunt nu de gegevenstypes van Objecten wanneer het uitgeven van het schema van de puntcatalogus. [Meer informatie](../experience-decisioning/catalogs.md)
+
 
 ## Release oktober 1924 {#24-10-rn}
 
