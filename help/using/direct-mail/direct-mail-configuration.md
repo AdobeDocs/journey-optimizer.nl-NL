@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: b134fe166402e4ae49cd96fc09a19e14beb13523
+source-git-commit: 63786170a4aaa5659751a9bb5febd98419e2e64a
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1417'
 ht-degree: 1%
 
 ---
@@ -60,7 +60,7 @@ Voordat u dit bestand kunt genereren, moet u het volgende maken:
 
 >[!NOTE]
 >
->Amazon S3, SFTP en Azure worden momenteel ondersteund in [!DNL Journey Optimizer] .
+>Momenteel worden Amazon S3, SFTP, Azure en Data-landingszone ondersteund in [!DNL Journey Optimizer] .
 
 [!DNL Journey Optimizer] genereert en exporteert het bestand met de doelpublieksgegevens naar een server om een direct mailbericht te verzenden.
 

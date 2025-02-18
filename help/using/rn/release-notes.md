@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f25fb5ef7eb8febbe9f94f67aa16b0d8e725bbf9
+source-git-commit: 63786170a4aaa5659751a9bb5febd98419e2e64a
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '766'
 ht-degree: 7%
 
 ---
@@ -142,7 +142,7 @@ De verbeteringen hieronder komen met de update van februari.
 
 <!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
-* **Directe post** - een nieuw servertype, Gegevens landende streek, wordt nu gesteund voor dossier dat in de directe configuratie van het postkanaal verplettert.
+* **Directe post** - een nieuw servertype, Gegevens landende streek, wordt nu gesteund voor dossier dat in de directe configuratie van het postkanaal verplettert. [Meer informatie](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
 
 * **SMS** - u kunt SMS berichtlevering van multi-regionale eindpunten nu beheren door levering, terugkoppelen, binnenkomend, en callback URLs te overschrijven. Ter ondersteuning hiervan is een nieuwe veld Overschrijf-URL toegevoegd aan de configuratie van API-referenties. Deze wijziging is alleen beschikbaar bij de Sinch-provider. [Meer informatie](../sms/sms-configuration-sinch.md)
 
