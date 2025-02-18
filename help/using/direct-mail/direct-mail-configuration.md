@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 179d0f8571bf2e4d4ea1c5ad8ab498de9e7b5550
+source-git-commit: b134fe166402e4ae49cd96fc09a19e14beb13523
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1414'
 ht-degree: 1%
 
 ---
@@ -108,7 +108,7 @@ Om het dossier te vormen dat, volg de stappen hieronder verplettert.
 
 1. Plaats een naam voor uw configuratie.
 
-1. Selecteer SFTP als **[!UICONTROL Server type]** om de direct-mailbestanden te exporteren.
+1. Selecteer SFTP als de **[!UICONTROL Server type]** die u wilt gebruiken voor het exporteren van de direct-mailbestanden.
 
    ![](assets/file-routing-config-type-sftp.png){width="800" align="center"}
 
@@ -142,7 +142,7 @@ Om het dossier te vormen dat, volg de stappen hieronder verplettert.
 
 1. Plaats een naam voor uw configuratie.
 
-1. Selecteer Azure **[!UICONTROL Server type]** om de direct-mailbestanden te exporteren.
+1. Selecteer Azure als de **[!UICONTROL Server type]** die u wilt gebruiken voor het exporteren van de direct-mailbestanden.
 
    ![](assets/file-routing-config-type-azure.png){width="800" align="center"}
 
@@ -163,6 +163,28 @@ Om het dossier te vormen dat, volg de stappen hieronder verplettert.
 1. Selecteer **[!UICONTROL Submit]**. Het dossier dat configuratie verplettert wordt gecreeerd met de **[!UICONTROL Active]** status. Het is nu klaar om in a [ direct-mailconfiguratie ](#direct-mail-surface) worden gebruikt.
 
    U kunt **[!UICONTROL Save as draft]** ook selecteren om het dossier tot stand te brengen dat configuratie verplettert, maar u zult het niet in een configuratie kunnen selecteren tot het **[!UICONTROL Active]** is.
+
+>[!TAB  Gegevens landende streek ]
+
+1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Direct mail settings]** > **[!UICONTROL File Routing]** en klik op **[!UICONTROL Create routing configuration]** .
+
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
+
+1. Plaats een naam voor uw configuratie.
+
+1. Selecteer een landingszone voor gegevens als de **[!UICONTROL Server type]** die u wilt gebruiken voor het exporteren van de direct-mailbestanden.
+
+   ![](assets/file-routing-config-type-dlz.png){width="800" align="center"}
+
+1. Als u het bestand wilt versleutelen, kopieert en plakt u de coderingssleutel in het veld **[!UICONTROL PGP/GPG encryption key]** . <!--To find it, ...-->
+
+   ![](assets/file-routing-config-dlz-detail.png)
+
+1. Selecteer **[!UICONTROL Submit]**. Het dossier dat configuratie verplettert wordt gecreeerd met de **[!UICONTROL Active]** status. Het is nu klaar om in a [ direct-mailconfiguratie ](#direct-mail-surface) worden gebruikt.
+
+   U kunt **[!UICONTROL Save as draft]** ook selecteren om het dossier tot stand te brengen dat configuratie verplettert, maar u zult het niet in een configuratie kunnen selecteren tot het **[!UICONTROL Active]** is.
+
+Leer meer op Gegevens landende streek in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone) {target="_blank"}.
 
 >[!ENDTABS]
 

@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
+source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -48,19 +48,19 @@ U kunt er ook voor kiezen om alleen de zelf gemaakte of gewijzigde items weer te
 >
 >Wanneer een sjabloon wordt bewerkt of verwijderd, hebben campagnes of reizen met inbegrip van inhoud die met deze sjabloon is gemaakt, geen invloed op deze sjabloon.
 
-## Sjablonen weergeven als miniaturen {#template-thumbnails}
+## [!BADGE  Beperkte de malplaatjes van de Vertoning van de Beschikbaarheid ] {type=Informatief} als duimnagels {#template-thumbnails}
 
 Selecteer de modus **[!UICONTROL Grid view]** om elke sjabloon als een miniatuur weer te geven.
 
 >[!AVAILABILITY]
 >
->Dit vermogen wordt vrijgegeven in Beperkte Beschikbaarheid (LA) voor een kleine reeks klanten.
+Dit vermogen wordt vrijgegeven in Beperkte Beschikbaarheid (LA) voor een kleine reeks klanten.
 
 ![](assets/content-template-grid-view.png)
 
 >[!NOTE]
 >
->Er kunnen momenteel alleen juiste miniaturen worden gegenereerd voor sjablonen voor e-mailinhoud van het type HTML.
+Er kunnen momenteel alleen juiste miniaturen worden gegenereerd voor HTML-typen email inhoudssjablonen.
 
 Wanneer u inhoud bijwerkt, moet u mogelijk een paar seconden wachten voordat de wijzigingen in de miniatuur worden doorgevoerd.
 

@@ -4,25 +4,26 @@ product: journey optimizer
 title: Uw aangepaste provider configureren
 description: Leer hoe u uw omgeving configureert voor het verzenden van tekstberichten met Journey Optimizer via een aangepaste provider
 feature: SMS, Channel Configuration
+badge: label="Beta" type="Informative"
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 1%
 
 ---
 
-# Een aangepaste provider configureren (Beta) {#sms-configuration-custom}
+# Een aangepaste provider configureren {#sms-configuration-custom}
 
 >[!AVAILABILITY]
 >
->Aangepaste providers zijn momenteel alleen beschikbaar als bètaversie voor geselecteerde gebruikers. Neem contact op met uw Adobe om deel te nemen aan de Beta.
+>Aangepaste providers zijn momenteel alleen beschikbaar als bètaversie voor geselecteerde gebruikers. Vraag uw Adobe-vertegenwoordiger om deel te nemen aan de Beta.
 >
 >In deze Beta worden binnenkomende berichten voor het beheer van de opt-in- of opt-out-toestemming en voor de rapportage van de levering niet ondersteund.
 
-Ga als volgt te werk als u berichten in Journey Optimizer wilt verzenden via een aangepaste provider die niet via Adobe uit het vak beschikbaar is (bijv. Sinch, Infobip, Twilio):
+Voer de volgende stappen uit als u berichten wilt verzenden in Journey Optimizer via een aangepaste provider die niet vanuit de doos beschikbaar is door Adobe (bijv. Sinch, Infobip, Twilio):
 
 1. Blader in de linkertrack naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** en selecteer het menu **[!UICONTROL API Credentials]** .
 

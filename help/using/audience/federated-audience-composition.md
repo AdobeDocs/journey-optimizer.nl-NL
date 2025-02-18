@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 90328ba9-e6b0-4105-abcf-3e3a9ed41aa6
-source-git-commit: f99ba639b5d47fa334741b7e55e7bce83697626d
+source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 1%
@@ -28,7 +28,7 @@ die onlangs bestellingen online plaatste met de voorkeursrestaurantlocatie van e
 * **Efficiënt gegevensbeheer** - minimaliseer gegevensexemplaar, regeer gevoelige
 gegevensgebruik, en optimaliseer de investeringen van IT om real-time cross-channel gebruiksgevallen op Adobe aan te vullen
 
-Voor meer informatie, te lezen gelieve de gids op [ Federated de Samenstelling van het Publiek ](https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home).
+Voor meer informatie, te lezen gelieve de gids op [ Federated de Samenstelling van het Publiek ](https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home) {target="_blank"}.
 
 Meer informatie over Federated Audience Composition vindt u in video:
 

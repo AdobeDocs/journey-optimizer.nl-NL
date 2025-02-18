@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Bedrijfsvoorschriften
-description: Leer hoe u frequentieregels definieert
+title: Bedrijfsvoorschriften verbeteren
+description: Meer informatie over het definiëren van regels voor zakelijke frequenties
 feature: Rules
 topic: Content Management
 role: User
 level: Intermediate
 keywords: bericht, frequentie, regels, druk
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1230'
 ht-degree: 0%
 
 ---
 
-# Bedrijfsvoorschriften {#frequency-rules}
+# Bedrijfsregels configureren {#frequency-rules}
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
@@ -124,7 +124,7 @@ De teller loopt voor elke periode als volgt af:
 
 ### Dagelijkse frequentie dop {#daily-frequency-cap}
 
-Naast de maanden- en wekelijkse frequentie is ook de dagelijkse frequentie-limiet op aanvraag beschikbaar. Neem voor meer informatie contact op met uw Adobe.
+Naast de maanden- en wekelijkse frequentie is ook de dagelijkse frequentie-limiet op aanvraag beschikbaar. Neem hiervoor contact op met uw Adobe-vertegenwoordiger.
 
 Het dagelijkse frequentiemaximum is geldig voor de dag tot 23 :59: 59 UTC en stelt aan 0 bij het begin van de volgende dag terug.
 
@@ -176,7 +176,7 @@ Volg onderstaande stappen om een bedrijfsregel toe te passen op een bericht.
    >
    >Berichten waarbij de geselecteerde categorie **[!UICONTROL Transactional]** is, worden niet aan de hand van de frequentieregels geëvalueerd.
 
-1. U kunt het aantal profielen bekijken die van levering in het [ rapport van de Customer Journey Analytics ](../reports/report-gs-cja.md) worden uitgesloten, en in het [ Levende rapport ](../reports/live-report.md), waar de bedrijfsregels als mogelijke reden voor gebruikers zullen worden vermeld die van levering worden uitgesloten.
+1. U kunt het aantal profielen bekijken die van levering in het [ rapport van Customer Journey Analytics ](../reports/report-gs-cja.md) worden uitgesloten, en in het [ Levende rapport ](../reports/live-report.md), waar de bedrijfsregels als mogelijke reden voor gebruikers zullen worden vermeld die van levering worden uitgesloten.
 
 >[!NOTE]
 >

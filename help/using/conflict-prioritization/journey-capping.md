@@ -4,13 +4,13 @@ description: Leer hoe u regels voor aftopping kunt maken voor uw reizen en hoe u
 role: User
 level: Beginner
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
+source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
-
 
 # Afbakening van reizen en arbitrage {#journey-capping}
 
@@ -70,6 +70,10 @@ Voer de volgende stappen uit om een regel voor het afdekken van reizen te maken:
 
       1. Stel in het veld **[!UICONTROL Capping]** het maximum aantal ritten in dat een profiel kan invoeren.
       1. Definieer in het veld **[!UICONTROL Duration]** de tijdsperiode die u wilt overwegen. De duur is gebaseerd op de UTC-tijdzone. Zo wordt de Daily cap ingesteld op middernacht UTC.
+
+     >[!AVAILABILITY]
+     >
+     >De &quot;Daily&quot;duur is beschikbaar slechts op bestelling. Neem contact op met uw Adobe-vertegenwoordiger om toegang te krijgen.
 
      In dit voorbeeld willen we de profielen beperken om meer dan &quot;5&quot; reizen per maand in te voeren.
 

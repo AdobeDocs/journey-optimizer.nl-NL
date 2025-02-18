@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ebe2df77-4aaa-45b1-a8ce-931d4191cc67
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '993'
 ht-degree: 1%
 
 ---
@@ -42,6 +42,10 @@ De AI Assistant in Journey Optimizer kan u helpen de impact van uw leveringen te
 
 1. Schakel de optie **[!UICONTROL Use original content]** voor de AI-assistent in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
+1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
+
+   Merk op dat de eigenschap van Merken als privé bèta wordt vrijgegeven en aan alle klanten in toekomstige versies geleidelijk beschikbaar zal zijn.
+
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
    Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang **[!UICONTROL Prompt Library]** die een diverse waaier van snelle ideeën verstrekt om uw campagnes te verbeteren.
@@ -51,6 +55,7 @@ De AI Assistant in Journey Optimizer kan u helpen de impact van uw leveringen te
 1. Volg uw vraag met de optie **[!UICONTROL Text settings]** :
 
    * **[!UICONTROL Communication strategy]**: Kies de meest geschikte communicatiestijl voor de gegenereerde tekst.
+   * **[!UICONTROL Languages]**: opties voor Spaanse, Italiaanse, Zweedse en Noorse talen worden vrijgegeven als een persoonlijke bètaversie en in toekomstige versies geleidelijk beschikbaar voor alle klanten.
    * **[!UICONTROL Tone]**: De tint van uw webpagina moet reageren op uw publiek. Of u informatief wilt klinken, playful, of overtuigend, de Medewerker van AI kan het bericht dienovereenkomstig aanpassen.
    * **Lengte van de Tekst**: Gebruik de schuif om de gewenste lengte van uw tekst te selecteren.
 
@@ -101,6 +106,10 @@ In het onderstaande voorbeeld leert u hoe u de AI Assistant in Journey Optimizer
    ![](assets/web-gen-img-1.png){zoomable="yes"}
 
 1. Schakel de optie **[!UICONTROL Reference style]** voor de AI-assistent in om nieuwe inhoud aan te passen op basis van de referentie-inhoud. U kunt ook een afbeelding uploaden om context aan uw variatie toe te voegen.
+
+1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
+
+   Merk op dat de eigenschap van Merken als privé bèta wordt vrijgegeven en aan alle klanten in toekomstige versies geleidelijk beschikbaar zal zijn.
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 

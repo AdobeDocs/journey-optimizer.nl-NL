@@ -5,10 +5,10 @@ description: Leer hoe je Adobe Journey Optimizer gebruikt.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: 8b0dc1ba58c856cc3a0864e408415c87e10801cf
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 17%
+source-wordcount: '348'
+ht-degree: 18%
 
 ---
 
@@ -20,9 +20,9 @@ Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en
 
 >[!BEGINTABS]
 
->[!TAB  Oktober &quot;24 versie ]
+>[!TAB  Februari &quot;25 versie ]
 
-De release van oktober is nu live, inclusief E-maillokalisatie van inhoud, integratie met Movable Ink, Code-based en Web-ervaringen tijdens reizen. Eerder in Beperkte Beschikbaarheid (LA), zijn de volgende mogelijkheden nu beschikbaar aan allen: De aanpassing van de E-mailconfiguratie, het beleid van Goedkeuringen, Inhoud experimenteren, Verbeterde rapporteringservaring, Meertalige inhoud, en meer.
+Release van februari is nu live! Controleer de opmerkingen bij de release om nieuwe mogelijkheden en verbeteringen te ontdekken.
 
 [![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 

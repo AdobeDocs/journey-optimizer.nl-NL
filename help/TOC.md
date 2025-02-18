@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2167'
 ht-degree: 25%
 
 ---
@@ -313,7 +313,9 @@ ht-degree: 25%
       + [SMS genereren met AI](using/content-management/generative-sms.md)
       + [Web genereren met AI](using/content-management/generative-web.md)
       + [Experimenteer met inhoud met AI](using/content-management/generative-experimentation.md)
+      + [Openingspagina met AI](using/content-management/generative-lp.md)
       + [ AI Hulp gebruikt gevallen ](using/content-management/generative-uc.md)
+      + [Uw merken maken en beheren (Beta)](using/content-management/brands.md)
    + Werken met meertalige inhoud {#content-multilingual}
       + [Aan de slag met meertalige inhoud](using/content-management/multilingual-gs.md)
       + [Een landinstelling maken](using/content-management/multilingual-locale.md)
@@ -376,7 +378,7 @@ ht-degree: 25%
          + [Segmentdefinities](using/audience/creating-a-segment-definition.md)
          + [Samenstelling publiek](using/audience/get-started-audience-orchestration.md)
          + [Aangepaste upload](using/audience/custom-upload.md)
-         + [Federated Audience Composition (beperkte beschikbaarheid)](using/audience/federated-audience-composition.md)
+         + [Samenstelling van Federated-doelgroep](using/audience/federated-audience-composition.md)
       + [Activering van het publiek in campagnes en reizen](using/audience/target-audiences.md)
       + [Verrijkingskenmerken benutten](using/audience/enrichment-attributes.md)
    + Profielen {#profiles}
@@ -658,7 +660,7 @@ ht-degree: 25%
    + [Ondersteuning voor archivering](using/configuration/archiving-support.md)
    + [Uitvoeringadressen wijzigen](using/configuration/primary-email-addresses.md)
    + [Bedrijfsregels configureren](using/configuration/frequency-rules.md)
-   + [Werken met regelsets (LA)](using/configuration/rule-sets.md)
+   + [Werken met regelsets](using/configuration/rule-sets.md)
    + Journey&#39;s configureren {#configure-journeys}
       + [Informatie over gegevensbronnen, gebeurtenissen en handelingen](using/configuration/about-data-sources-events-actions.md)
       + Integreren met externe systemen {#external-systems}
@@ -681,6 +683,7 @@ ht-degree: 25%
       + Configuratie van handeling {#action-journeys}
          + [Acties](using/action/action.md)
          + [Een handeling configureren](using/action/about-custom-action-configuration.md)
+         + [Aangepaste actie oplossen](using/action/troubleshoot-custom-action.md)
          + [Integreren met Adobe Campaign Standard](using/action/acs-action.md)
          + [Integreren met Adobe Campaign v7/v8](using/action/acc-action.md)
          + [API-aanroepreacties gebruiken in aangepaste handelingen](using/action/action-response.md)

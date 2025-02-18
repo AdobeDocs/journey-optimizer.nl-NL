@@ -1,18 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Werken met regelsets (LA)
+title: Werken met regelsets
 description: Leer hoe u regelsets maakt en toepast
 feature: Rules
 topic: Content Management
 role: User
 level: Intermediate
 keywords: bericht, frequentie, regels, druk
-badge: label="Beperkte beschikbaarheid"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1881'
 ht-degree: 0%
 
 ---
@@ -23,10 +22,6 @@ ht-degree: 0%
 >id="ajo_business_rules_rule_sets"
 >title="Regelsets"
 >abstract="Regelsets gebruiken om frequentietoewijzing toe te passen op verschillende typen marketingcommunicatie. U kunt ook regelsets maken om ritten naar een deel van uw publiek uit te sluiten op basis van regels voor frequentiecontrole."
-
->[!AVAILABILITY]
->
->Regelsets zijn momenteel beschikbaar in Beperkte beschikbaarheid voor een geselecteerde groep klanten. Houd er rekening mee dat deze functie in de toekomst geleidelijk aan voor meer gebruikers beschikbaar zal zijn. Neem contact op met uw accountteam als u interesse hebt in het toevoegen aan de wachtlijst.
 
 ## Aan de slag met regelsets {#gs}
 
@@ -68,7 +63,7 @@ Volg onderstaande stappen om een regelset te maken.
 
 >[!NOTE]
 >
->U kunt maximaal drie aangepaste regelsets maken.
+>U kunt tot 3 lokale regelreeksen van kanaaldomein en tot 5 lokale regelreeksen van reisdomein tot stand brengen.
 
 1. Open de lijst **[!UICONTROL Rules sets]** en klik vervolgens op **[!UICONTROL Create rule set]** .
 
@@ -127,6 +122,10 @@ De parameters beschikbaar voor de regel hangen van het regelvastgestelde domein 
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Duration]** of u de uitlijning maandelijks, wekelijks of dagelijks wilt toepassen. De frequentiegrens is gebaseerd op de geselecteerde kalenderperiode. Deze wordt opnieuw ingesteld aan het begin van het corresponderende tijdkader.
 
    ![](assets/rule-set-capping-duration.png)
+
+   >[!AVAILABILITY]
+   >
+   >De &quot;Daily&quot;duur is beschikbaar slechts op bestelling. Neem contact op met uw Adobe-vertegenwoordiger om toegang te krijgen.
 
    De teller loopt voor elke periode als volgt af:
 
@@ -193,7 +192,7 @@ U moet ook de regel activeren die is ingesteld om deze in campagnes/reizen te ku
 
 >[!NOTE]
 >
->Het kan 10 minuten duren voordat een regel of regel volledig is geactiveerd. U hoeft geen berichten te wijzigen of ritten opnieuw te publiceren voordat een regel van kracht wordt.
+>Het kan tot 20 minuten duren voor een regel of regel volledig geactiveerd is. U hoeft geen berichten te wijzigen of ritten opnieuw te publiceren voordat een regel van kracht wordt.
 
 <!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
 
@@ -265,7 +264,7 @@ U kunt een regel toepassen die op een bericht of een reis wordt geplaatst, afhan
 
    ![](assets/rule-set-schedule-campaign.png)
 
-1. U kunt het aantal profielen bekijken die van levering in het [ rapport van de Customer Journey Analytics ](../reports/report-gs-cja.md) worden uitgesloten, en in het [ Levende rapport ](../reports/live-report.md), waar de frequentieregels als mogelijke reden voor gebruikers zullen worden vermeld die van levering worden uitgesloten.
+1. U kunt het aantal profielen bekijken die van levering in het [ rapport van Customer Journey Analytics ](../reports/report-gs-cja.md) worden uitgesloten, en in het [ Levende rapport ](../reports/live-report.md), waar de frequentieregels als mogelijke reden voor gebruikers zullen worden vermeld die van levering worden uitgesloten.
 
 >[!NOTE]
 >

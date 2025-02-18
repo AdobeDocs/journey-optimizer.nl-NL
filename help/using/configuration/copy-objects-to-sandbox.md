@@ -8,19 +8,19 @@ topic: Content Management
 role: User, Developer, Data Engineer
 level: Experienced
 keywords: zandbak, reis, exemplaar, milieu
-source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
+exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
 
+# Objecten exporteren naar een andere sandbox {#copy-to-sandbox}
 
-# Journey Optimizer-objecten kopiëren naar een andere sandbox {#copy-to-sandbox}
+U kunt objecten zoals reizen, inhoudssjablonen of fragmenten over meerdere sandboxen kopiëren met behulp van de opties voor exporteren en importeren van pakketten. Een pakket kan uit één object of uit meerdere objecten bestaan. Alle objecten die in een pakket zijn opgenomen, moeten afkomstig zijn uit dezelfde sandbox.
 
-Met sandboxgereedschappen kunt u objecten zoals reizen, inhoudssjablonen of fragmenten over meerdere sandboxen heen kopiëren door het exporteren en importeren van pakketten te benutten. Een pakket kan uit één object of uit meerdere objecten bestaan. Alle objecten die in een pakket zijn opgenomen, moeten afkomstig zijn uit dezelfde sandbox.
-
-Op deze pagina wordt het gebruik-hoofdlettergebruik voor Sandbox-gereedschappen in de context van Journey Optimizer beschreven. Voor meer informatie over de eigenschap zelf, verwijs naar de [ documentatie van het Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
+Op deze pagina wordt het gebruik-hoofdlettergebruik voor Sandbox-gereedschappen in de context van Journey Optimizer beschreven. Voor meer informatie over de eigenschap zelf, verwijs naar de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 
 >[!NOTE]
 >
@@ -88,13 +88,13 @@ Als u objecten naar een andere sandbox wilt kopiëren, moet u ze eerst als een p
 >
 >Voor reizen die worden uitgevoerd, kopieert Journey Optimizer naast de reis zelf ook het grootste deel van de objecten waarvan de reis afhankelijk is: publiek, schema&#39;s, evenementen en acties. Voor meer detailreizen die uitvoeren, verwijs naar [ deze sectie ](../building-journeys/copy-to-sandbox.md).
 
-## Het te exporteren pakket Publish {#publish}
+## Het te exporteren pakket publiceren {#publish}
 
 Als uw pakket klaar is om te worden geëxporteerd, voert u de volgende stappen uit om het te publiceren:
 
 1. Navigeer aan **[!UICONTROL Administration]** > **[!UICONTROL Sandboxes]** menu, selecteer de **Pakketten** tabel.
 
-1. Open het pakket u wilt uitvoeren, de voorwerpen selecteren u wilt uitvoeren en **Publish** klikken.
+1. Open het pakket u wilt uitvoeren, de voorwerpen selecteren u wilt uitvoeren en **publiceren** klikken.
 
    In dit voorbeeld willen wij een reis, een inhoudsmalplaatje en een fragment uitvoeren.
 

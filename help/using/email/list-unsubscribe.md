@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: b3655506dff97756a59a63d5b8f0c358dc7c7510
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---
@@ -64,10 +64,6 @@ Leer meer bij het beheren van unsubscribe mogelijkheden binnen uw berichten in [
 >id="ajo_email_config_unsubscribe_custom"
 >title="Definiëren hoe afmeldingsgegevens worden beheerd"
 >abstract="**beheerde Adobe**: De toestemmingsgegevens worden beheerd door u binnen het systeem van Adobe.<br>**beheerde Klant**: De toestemmingsgegevens worden beheerd door u in een extern systeem en geen synchronisatie van toestemmingsgegevens wordt bijgewerkt in het systeem van Adobe tenzij in werking gesteld door u."
-
->[!AVAILABILITY]
->
->Dit vermogen wordt vrijgegeven in Beperkte Beschikbaarheid (LA) voor een kleine reeks klanten.
 
 Als u toestemming buiten Adobe beheert, selecteert u de optie **[!UICONTROL Customer managed]** om een aangepast e-mailadres voor opzeggen in te voeren en uw eigen URL voor opzeggen met één klik.
 

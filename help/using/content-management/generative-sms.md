@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '904'
 ht-degree: 2%
 
 ---
@@ -46,6 +46,10 @@ Bekijk de onderstaande tabbladen voor meer informatie over het gebruik van de AI
 
    ![](assets/sms-genai-1.png){zoomable="yes"}
 
+1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
+
+   Merk op dat de eigenschap van Merken als privé bèta wordt vrijgegeven en aan alle klanten in toekomstige versies geleidelijk beschikbaar zal zijn.
+
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
    Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang **[!UICONTROL Prompt Library]** die een diverse waaier van snelle ideeën verstrekt om uw campagnes te verbeteren.
@@ -55,7 +59,7 @@ Bekijk de onderstaande tabbladen voor meer informatie over het gebruik van de AI
 1. Volg uw vraag met de optie **[!UICONTROL Text settings]** :
 
    * **[!UICONTROL Communication strategy]**: selecteer de gewenste communicatieaanpak voor de gegenereerde tekst.
-   * **[!UICONTROL Language]**: Kies de taal voor de inhoud van de variant.
+   * **[!UICONTROL Languages]**: opties voor Spaanse, Italiaanse, Zweedse en Noorse talen worden vrijgegeven als een persoonlijke bètaversie en in toekomstige versies geleidelijk beschikbaar voor alle klanten.
    * **[!UICONTROL Tone]**: zorg ervoor dat de tekst geschikt is voor uw publiek en doel.
    * **[!UICONTROL Length]**: selecteer de lengte van de inhoud met de schuifregelaar voor het bereik.
 
@@ -107,6 +111,10 @@ Wanneer u uw inhoud, publiek en planning hebt bepaald, bent u bereid om uw campa
 
 1. Schakel de optie **[!UICONTROL Use reference content]** voor de AI-assistent in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
+1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
+
+   Merk op dat de eigenschap van Merken als privé bèta wordt vrijgegeven en aan alle klanten in toekomstige versies geleidelijk beschikbaar zal zijn.
+
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
    Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang **[!UICONTROL Prompt Library]** die een diverse waaier van snelle ideeën verstrekt om uw campagnes te verbeteren.
@@ -116,7 +124,7 @@ Wanneer u uw inhoud, publiek en planning hebt bepaald, bent u bereid om uw campa
 1. Volg uw vraag met de optie **[!UICONTROL Text settings]** :
 
    * **[!UICONTROL Communication strategy]**: selecteer de gewenste communicatieaanpak voor de gegenereerde tekst.
-   * **[!UICONTROL Language]**: Kies de taal voor de inhoud van de variant.
+   * **[!UICONTROL Languages]**: opties voor Spaanse, Italiaanse, Zweedse en Noorse talen worden vrijgegeven als een persoonlijke bètaversie en in toekomstige versies geleidelijk beschikbaar voor alle klanten.
    * **[!UICONTROL Tone]**: zorg ervoor dat de tekst geschikt is voor uw publiek en doel.
    * **[!UICONTROL Length]**: selecteer de lengte van de inhoud met de schuifregelaar voor het bereik.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 2%
+source-wordcount: '1473'
+ht-degree: 1%
 
 ---
 
@@ -50,6 +50,10 @@ Voer de volgende stappen uit:
 
 1. Schakel de optie **[!UICONTROL Use original content]** voor de AI-assistent in om de nieuwe inhoudsoptie aan te passen op basis van de geselecteerde inhoud.
 
+1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
+
+   Merk op dat de eigenschap van Merken als privé bèta wordt vrijgegeven en aan alle klanten in toekomstige versies geleidelijk beschikbaar zal zijn.
+
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
    Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang **[!UICONTROL Prompt Library]** die een diverse waaier van snelle ideeën verstrekt om uw campagnes te verbeteren.
@@ -61,6 +65,7 @@ Voer de volgende stappen uit:
 1. Volg uw vraag met de optie **[!UICONTROL Text settings]** :
 
    * **[!UICONTROL Communication strategy]**: Kies de meest geschikte communicatiestijl voor de gegenereerde tekst.
+   * **[!UICONTROL Languages]**: opties voor Spaanse, Italiaanse, Zweedse en Noorse talen worden vrijgegeven als een persoonlijke bètaversie en in toekomstige versies geleidelijk beschikbaar voor alle klanten.
    * **[!UICONTROL Tone]**: De toon van uw pushberichten zou met uw publiek moeten resoneren. Of u informatief wilt klinken, playful, of overtuigend, de Medewerker van AI kan het bericht dienovereenkomstig aanpassen.
 
    ![](assets/push-genai-full-3.png){zoomable="yes"}
@@ -121,6 +126,10 @@ In dit voorbeeld leert u hoe u de AI Assistant in Journey Optimizer kunt gebruik
 
 1. Schakel de optie **[!UICONTROL Use reference content]** voor de AI-assistent in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
+1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
+
+   Merk op dat de eigenschap van Merken als privé bèta wordt vrijgegeven en aan alle klanten in toekomstige versies geleidelijk beschikbaar zal zijn.
+
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
    Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang **[!UICONTROL Prompt Library]** die een diverse waaier van snelle ideeën verstrekt om uw campagnes te verbeteren.
@@ -130,6 +139,7 @@ In dit voorbeeld leert u hoe u de AI Assistant in Journey Optimizer kunt gebruik
 1. Volg uw vraag met de optie **[!UICONTROL Text settings]** :
 
    * **[!UICONTROL Communication strategy]**: Kies de meest geschikte communicatiestijl voor de gegenereerde tekst.
+   * **[!UICONTROL Languages]**: opties voor Spaanse, Italiaanse, Zweedse en Noorse talen worden vrijgegeven als een persoonlijke bètaversie en in toekomstige versies geleidelijk beschikbaar voor alle klanten.
    * **[!UICONTROL Tone]**: De toon van uw pushmelding zou op uw publiek moeten passen. Of u informatief wilt klinken, playful, of overtuigend, de Medewerker van AI kan het bericht dienovereenkomstig aanpassen.
    * **[!UICONTROL Length]**: selecteer de lengte van de inhoud met de schuifregelaar voor het bereik.
 
@@ -180,6 +190,10 @@ Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, kunt u uw p
    ![](assets/push-gen-img.png){zoomable="yes"}
 
 1. Schakel de optie **[!UICONTROL Reference style]** voor de AI-assistent in om nieuwe inhoud aan te passen op basis van de referentie-inhoud. U kunt ook een afbeelding uploaden om context aan uw variatie toe te voegen.
+
+1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
+
+   Merk op dat de eigenschap van Merken als privé bèta wordt vrijgegeven en aan alle klanten in toekomstige versies geleidelijk beschikbaar zal zijn.
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 

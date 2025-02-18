@@ -9,30 +9,30 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: dataset, optimizer, gebruiksgevallen
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
 
-# Gebruiksgevallen voor gegevensset {#tracking-datasets}
+# Voorbeelden van query {#query-examples}
 
 Op deze pagina vindt u de lijst met Adobe Journey Optimizer-gegevenssets en verwante gebruiksgevallen:
 
-[Dataset over e-mailvolgervaringen](#email-tracking-experience-event-dataset)
-[Gegevensset voor feedbackgebeurtenis](#message-feedback-event-dataset)
-[Dataset met gebeurtenissen voor het bijhouden van pushmeldingen](#push-tracking-experience-event-dataset)
-[Reisstapgebeurtenis](#journey-step-event)
-[Dataset voor beslissingsgebeurtenis](#ode-decisionevents)
-[Gegevensset BCC-feedbackgebeurtenis](#bcc-feedback-event-dataset)
-[Entiteitsgegevens](#entity-dataset)
+* [Dataset over e-mailvolgervaringen](#email-tracking-experience-event-dataset)
+* [Gegevensset voor feedbackgebeurtenis](#message-feedback-event-dataset)
+* [Dataset met gebeurtenissen voor het bijhouden van pushmeldingen](#push-tracking-experience-event-dataset)
+* [Reisstapgebeurtenis](#journey-step-event)
+* [Dataset voor beslissingsgebeurtenis](#ode-decisionevents)
+* [Gegevensset BCC-feedbackgebeurtenis](#bcc-feedback-event-dataset)
+* [Entiteitsgegevens](#entity-dataset)
 
-Als u de volledige lijst met velden en kenmerken voor elk schema wilt weergeven, raadpleegt u de [Journey Optimizer-schemawoordenboek](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+Om de volledige lijst van gebieden en attributen voor elk schema te bekijken, raadpleeg het [ het schemawoordenboek van Journey Optimizer ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) {target="_blank"}.
 
 ## Dataset over e-mailvolgervaringen{#email-tracking-experience-event-dataset}
 
-_Naam in de interface: AJO Email Tracking Experience Event Dataset_
+_Naam in de interface: De Dataset van de Gebeurtenis van de Ervaring van AJO e-mail het Volgen_
 
 Systeemdataset voor het invoeren van e-mailvolgervaringsgebeurtenissen van Journey Optimizer.
 
@@ -72,11 +72,11 @@ limit 100;
 
 ## Gegevensset voor feedbackgebeurtenis{#message-feedback-event-dataset}
 
-_Naam in de interface: Dataset voor feedbackgebeurtenis voor AJO-berichten_
+_Naam in de interface: De Dataset van de Gebeurtenis van de Terugkoppeling van het Bericht van AJO_
 
 Dataset voor het invoeren van feedback over e-mail- en pushtoepassingen van Journey Optimizer.
 
-Het verwante schema is een AJO Message Feedback Event-schema.
+Het verwante schema is AJO Message Feedback Event-schema.
 
 Deze vraag toont de tellingen van verschillende e-mail terugkoppelt status (verzonden, stuit, enz.) voor een bepaald bericht:
 
@@ -164,17 +164,17 @@ WHERE
 ORDER BY timestamp DESC;
 ```
 
-wanneer de datumnotatie: `YYYY-MM-DD HH:MM:SS`.
+waarbij de datumnotatie: `YYYY-MM-DD HH:MM:SS` is.
 
 Zodra geïdentificeerd, verwijder die adressen uit de onderdrukkingslijst van Journey Optimizer. [Meer informatie](../configuration/manage-suppression-list.md#remove-from-suppression-list).
 
 ## Dataset met gebeurtenissen voor het bijhouden van pushmeldingen {#push-tracking-experience-event-dataset}
 
-_Naam in de interface: AJO Push Tracking Experience Event Dataset_
+_Naam in de interface: De Dataset van de Gebeurtenis van de Ervaring van AJO het Push Volgen_
 
 Dataset voor het opnemen van gebeurtenissen voor het bijhouden van mobiele gegevens voor push vanuit Journey Optimizer.
 
-Het verwante schema is het AJO Push Tracking Experience Event-schema.
+Het verwante schema is AJO Push Tracking Experience Event-schema.
 
 Voorbeeld van query:
 
@@ -188,11 +188,11 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
 
 ## Reisstapgebeurtenis{#journey-step-event}
 
-_Interne naam: Gebeurtenissen van de Stap van de reis (systeemdataset)_
+_Interne naam: De Gebeurtenissen van de Stap van de reis (systeemdataset)_
 
 Dataset voor het opnemen van step gebeurtenissen in de reis.
 
-Het verwante schema is het schema Reisstapgebeurtenis voor Journey Orchestration.
+Het verwante schema is een Dagboekstapgebeurtenisschema voor Journey Orchestration.
 
 Deze vraag toont de indeling van de aantallen van het actiesucces door actielabel voor een bepaalde reis:
 
@@ -229,7 +229,7 @@ group by
 
 ## Dataset voor beslissingsgebeurtenis{#ode-decisionevents}
 
-_Naam in de interface: ODE DecisionEvents (systeem dataset)_
+_Naam in de interface: ODE DecisionEvents (systeemdataset)_
 
 Dataset voor het opnemen van aanbiedingsvoorstellen aan de gebruikers.
 
@@ -291,7 +291,7 @@ select value.marketing.email.val FROM (
 
 ## Gegevensset BCC-feedbackgebeurtenis{#bcc-feedback-event-dataset}
 
-_Naam in de interface: AJO BCC Dataset van de Gebeurtenis van de Terugkoppeling (systeemdataset)_
+_Naam in de interface: De Dataset van de Gebeurtenis van de Feedback van AJO BCC (systeemdataset)_
 
 Dataset om informatie voor BCC Berichten op te slaan.
 
@@ -334,7 +334,7 @@ WHERE
 
 ## Entiteitsgegevens{#entity-dataset}
 
-_Naam in de interface: ajo_entiteit_dataset (systeem dataset)_
+_Naam in de interface: ajo_entity_dataset (systeemdataset)_
 
 Dataset om entiteitmeta-gegevens voor berichten op te slaan die naar het eind worden verzonden - gebruiker.
 
@@ -342,7 +342,7 @@ Het verwante schema is het AJO-entiteitsschema.
 
 Deze dataset geeft u toegang tot markeerder bepaalde meta-gegevens die u toestaat om betere rapporteringsinzichten te krijgen wanneer de datasets van Journey Optimizer uit voor het melden van visualisatie in externe hulpmiddelen worden uitgevoerd. Dit wordt bereikt gebruikend het messageID attribuut dat diverse datasets zoals de Dataset van de Terugkoppeling van het Bericht en de Datasets van de Gebeurtenis van de Ervaring helpt verbinden om details van een berichtlevering van het verzenden naar het volgen op een profielniveau te krijgen.
 
-**Belangrijke opmerkingen**
+**Belangrijke nota&#39;s**
 
 * Een ingang voor een bericht wordt gecreeerd slechts nadat de reis of de campagne wordt gepubliceerd.
 
@@ -352,7 +352,7 @@ Deze dataset geeft u toegang tot markeerder bepaalde meta-gegevens die u toestaa
 >
 >Voorlopig zijn er twee vermeldingen voor elke berichtpublicatie in de entiteitsdataset om toekomstige compatibiliteitsredenen. Dit beïnvloedt uw capaciteit om te gebruiken sluit zich aan bij vragen zoals nodig over datasets aan om de gewenste informatie te halen.
 
-Als u, in uw rapporten, de e-mails wilt sorteren die door een specifieke reis volgens de actie worden verzonden die hen verzond. u kunt zich bij de dataset van de Terugkoppeling van het Bericht met de dataset van de Entiteit aansluiten. De volgende velden moeten worden gebruikt: `_experience.decisioning.propositions.scopeDetails.correlationID` en `_id field in entity dataset`.
+Als u, in uw rapporten, de e-mails wilt sorteren die door een specifieke reis volgens de actie worden verzonden die hen verzond. u kunt zich bij de dataset van de Terugkoppeling van het Bericht met de dataset van de Entiteit aansluiten. De volgende velden moeten worden gebruikt: `_experience.decisioning.propositions.scopeDetails.correlationID` en `_id field in entity dataset` .
 
 De volgende vraag helpt u het bijbehorende berichtmalplaatje voor een bepaalde campagne krijgen:
 

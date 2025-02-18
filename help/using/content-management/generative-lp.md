@@ -1,70 +1,63 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: E-mailgeneratie met AI Assistant in Journey Optimizer
-description: E-mailinhoud en -middelen genereren met de AI Assistant in Journey Optimizer
+title: Openingspagina's genereren met de AI Assistant in Journey Optimizer
+description: Beginnen met het genereren van inhoud en element op de bestemmingspagina met de AI Assistant in Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
+source-git-commit: 099c0955e9ad2b1abe345d0256d656d41fc0748e
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1411'
 ht-degree: 1%
 
 ---
 
-# E-mailgeneratie met AI Assistant  {#generative-email}
+# Pagina&#39;s genereren met de AI Assistant {#generative-lp}
 
 >[!IMPORTANT]
 >
->Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](gs-generative.md#generative-guardrails).
-></br>
+>* Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](gs-generative.md#generative-guardrails).
 >
->U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u de Medewerker AI in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>
+>* U moet de [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) goedkeuren alvorens u de Medewerker AI in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-Nadat u uw e-mails hebt gemaakt en aangepast, kunt u de kracht van de AI Assistant in Journey Optimizer, gevoed door generatieve AI, benutten om uw inhoud te verhogen.
+Transformeer uw landingspagina&#39;s met de AI Assistant in Journey Optimizer, aangedreven door generatieve AI.
 
-Met de AI Assistant in Journey Optimizer kunt u de doeltreffendheid van uw campagnes verbeteren door complete e-mails, op maat gemaakte tekstfragmenten en aangepaste afbeeldingen te maken die rechtstreeks aan uw publiek worden getoond, waardoor betrokkenheid en interactie worden bevorderd.
+Creëer moeiteloos impactvolle inhoud, waaronder complete pagina&#39;s, op maat gemaakte tekstfragmenten en aangepaste visuele voorbeelden die op uw publiek zijn afgestemd, waardoor uw betrokkenheid en interactie toenemen.
 
 Bekijk de onderstaande tabbladen voor meer informatie over het gebruik van de AI Assistant in Journey Optimizer.
 
 >[!BEGINTABS]
 
->[!TAB  Volledige e-mailgeneratie ]
+>[!TAB  Volledige het landen paginageneratie ]
 
-In het volgende voorbeeld gebruiken we de AI Assistant om een bestaande e-mailsjabloon te verfijnen.
+In het volgende voorbeeld gebruiken we de AI Assistant om een bestaande sjabloon voor de landingspagina te verfijnen.
 
-1. Klik op **[!UICONTROL Edit content]** nadat u uw e-mailcampagne hebt gemaakt en geconfigureerd.
+1. Klik op **[!UICONTROL Edit content]** nadat u de bestemmingspagina hebt gemaakt en geconfigureerd.
 
-   Voor meer informatie over hoe te om uw e-mailcampagne te vormen, verwijs naar [ deze pagina ](../campaigns/create-campaign.md).
+   Voor meer informatie over hoe te om uw het landen pagina te vormen, verwijs naar [ deze pagina ](../landing-pages/create-lp.md).
 
 1. Pas de layout naar wens aan en open het menu **[!UICONTROL AI Assistant]** .
 
-   ![](assets/full-email-1.png){zoomable="yes"}
+   ![](assets/lp-full-gen-1.png){zoomable="yes"}
 
 1. Schakel de optie **[!UICONTROL Use original content]** voor de AI-assistent in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
-1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
-
-   Merk op dat de eigenschap van Merken als privé bèta wordt vrijgegeven en aan alle klanten in toekomstige versies geleidelijk beschikbaar zal zijn.
-
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
-   Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang **[!UICONTROL Prompt Library]** die een diverse waaier van snelle ideeën verstrekt om uw campagnes te verbeteren.
+   Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang **[!UICONTROL Prompt Library]** die een diverse waaier van snelle ideeën verstrekt om uw landende pagina te verbeteren.
 
-   ![](assets/full-email-2.png){zoomable="yes"}
-
-1. U kunt de opties **[!UICONTROL Subject line]** en **[!UICONTROL Preheader]** in- en uitschakelen om deze op te nemen in de generatie van varianten.
+   ![](assets/lp-full-gen-2.png){zoomable="yes"}
 
 1. Volg uw vraag met de optie **[!UICONTROL Text settings]** :
 
    * **[!UICONTROL Communication strategy]**: Kies de meest geschikte communicatiestijl voor de gegenereerde tekst.
    * **[!UICONTROL Languages]**: opties voor Spaanse, Italiaanse, Zweedse en Noorse talen worden vrijgegeven als een persoonlijke bètaversie en in toekomstige versies geleidelijk beschikbaar voor alle klanten.
-   * **[!UICONTROL Tone]**: De toon van uw e-mail zou met uw publiek moeten resoneren. Of u informatief wilt klinken, playful, of overtuigend, de Medewerker van AI kan het bericht dienovereenkomstig aanpassen.
+   * **[!UICONTROL Tone]**: De tint van de bestemmingspagina moet op uw publiek reageren. Of u informatief wilt klinken, playful, of overtuigend, de Medewerker van AI kan het bericht dienovereenkomstig aanpassen.
 
-   ![](assets/full-email-4.png){zoomable="yes"}
+   ![](assets/lp-full-gen-3.png){zoomable="yes"}
 
 1. Kies uw **[!UICONTROL Image settings]** :
 
@@ -74,13 +67,13 @@ In het volgende voorbeeld gebruiken we de AI Assistant om een bestaande e-mailsj
    * **[!UICONTROL Lighting]**: hiermee wordt de bliksemschicht in een afbeelding bedoeld, die de atmosfeer van de afbeelding bepaalt en specifieke elementen markeert.
    * **[!UICONTROL Composition]**: dit heeft betrekking op de rangschikking van elementen binnen het kader van een afbeelding
 
-   ![](assets/full-email-6.png){zoomable="yes"}
+   ![](assets/lp-full-gen-4.png){zoomable="yes"}
 
 1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die inhoud bevatten die aanvullende context voor de AI-assistent kan bieden of selecteer een eerder geüpload element.
 
    Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel eenvoudig de elementen in die u wilt opnemen in uw generatie.
 
-   ![](assets/full-email-3.png){zoomable="yes"}
+   ![](assets/lp-full-gen-5.png){zoomable="yes"}
 
 1. Klik op **[!UICONTROL Generate]** als de vraag gereed is.
 
@@ -94,54 +87,48 @@ In het volgende voorbeeld gebruiken we de AI Assistant om een bestaande e-mailsj
 
    U kunt ook de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de tekst wijzigen.
 
-   ![](assets/full-email-5.png){zoomable="yes"}
+   ![](assets/lp-full-gen-6.png){zoomable="yes"}
 
 1. Klik op **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 
-   U kunt ook experimenteren met uw inhoud inschakelen. [Meer informatie](generative-experimentation.md)
+1. Voeg verpersoonlijkingsgebieden in om uw het landen pagina inhoud aan te passen die op profielgegevens wordt gebaseerd. Klik vervolgens op de knop **[!UICONTROL Simulate content]** om de rendering te beheren en controleer de instellingen voor aanpassing met testprofielen. [Meer informatie](../personalization/personalize.md)
 
-1. Voeg verpersoonlijkingsgebieden in om uw e-mailinhoud aan te passen die op profielgegevens wordt gebaseerd. Klik vervolgens op de knop **[!UICONTROL Simulate content]** om de rendering te beheren en controleer de instellingen voor aanpassing met testprofielen. [Meer informatie](../personalization/personalize.md)
+Als de landingspagina gereed is, kunt u deze publiceren en in een bericht gebruiken. [Meer informatie](../landing-pages/create-lp.md#publish-landing-page)
 
-Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-mailcampagne voorbereiden. [Meer informatie](../campaigns/review-activate-campaign.md)
+>[!TAB  text-only generatie ]
 
->[!TAB  Tekst slechts generatie ]
+In het volgende voorbeeld gebruiken we de AI Assistant om de inhoud van onze landingspagina te verbeteren.
 
-In het volgende voorbeeld gebruiken we de AI Assistant om de inhoud van onze e-mail te verbeteren.
+1. Klik op **[!UICONTROL Edit content]** nadat u de bestemmingspagina hebt gemaakt en geconfigureerd.
 
-1. Klik op **[!UICONTROL Edit content]** nadat u uw e-mailcampagne hebt gemaakt en geconfigureerd.
-
-   Voor meer informatie over hoe te om uw e-mailcampagne te vormen, verwijs naar [ deze pagina ](../email/create-email.md).
+   Voor meer informatie over hoe te om uw het landen pagina te vormen, verwijs naar [ deze pagina ](../landing-pages/create-lp.md).
 
 1. Selecteer een **[!UICONTROL Text component]** als u alleen een specifieke inhoud als doel wilt instellen. en opent u het menu **[!UICONTROL AI Assistant]** .
 
-   ![](assets/text-genai-1.png){zoomable="yes"}
+   ![](assets/lp-text-gen-1.png){zoomable="yes"}
 
 1. Schakel de optie **[!UICONTROL Use original content]** voor de AI-assistent in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
-1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
-
-   Merk op dat de eigenschap van Merken als privé bèta wordt vrijgegeven en aan alle klanten in toekomstige versies geleidelijk beschikbaar zal zijn.
-
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
-   Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang **[!UICONTROL Prompt Library]** die een diverse waaier van snelle ideeën verstrekt om uw campagnes te verbeteren.
+   Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang **[!UICONTROL Prompt Library]** die een diverse waaier van snelle ideeën verstrekt om uw landende pagina&#39;s te verbeteren.
 
-   ![](assets/text-genai-2.png){zoomable="yes"}
+   ![](assets/lp-text-gen-2.png){zoomable="yes"}
 
 1. Volg uw vraag met de optie **[!UICONTROL Text settings]** :
 
    * **[!UICONTROL Communication strategy]**: Kies de meest geschikte communicatiestijl voor de gegenereerde tekst.
    * **[!UICONTROL Languages]**: opties voor Spaanse, Italiaanse, Zweedse en Noorse talen worden vrijgegeven als een persoonlijke bètaversie en in toekomstige versies geleidelijk beschikbaar voor alle klanten.
-   * **[!UICONTROL Tone]**: De toon van uw e-mail zou met uw publiek moeten resoneren. Of u informatief wilt klinken, playful, of overtuigend, de Medewerker van AI kan het bericht dienovereenkomstig aanpassen.
+   * **[!UICONTROL Tone]**: De tint van de bestemmingspagina moet op uw publiek reageren. Of u informatief wilt klinken, playful, of overtuigend, de Medewerker van AI kan het bericht dienovereenkomstig aanpassen.
    * **Lengte van de Tekst**: Gebruik de schuif om de gewenste lengte van uw tekst te selecteren.
 
-   ![](assets/text-genai-4.png){zoomable="yes"}
+   ![](assets/lp-text-gen-3.png){zoomable="yes"}
 
 1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die inhoud bevatten die aanvullende context voor de AI-assistent kan bieden of selecteer een eerder geüpload element.
 
    Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel eenvoudig de elementen in die u wilt opnemen in uw generatie.
 
-   ![](assets/text-genai-3.png){zoomable="yes"}
+   ![](assets/lp-text-gen-4.png){zoomable="yes"}
 
 1. Klik op **[!UICONTROL Generate]** als de vraag gereed is.
 
@@ -153,7 +140,7 @@ In het volgende voorbeeld gebruiken we de AI Assistant om de inhoud van onze e-m
 
    * **[!UICONTROL Elaborate]**: De AI-assistent kan u helpen bij het uitvouwen van specifieke onderwerpen en biedt extra informatie voor een beter begrip en betrokkenheid.
 
-   * **[!UICONTROL Summarize]**: langdurige informatie kan e-mailontvangers te veel laden. Gebruik de AI-assistent om belangrijke punten samen te voegen tot heldere, beknopte samenvattingen die aandacht trekken en hen aanmoedigen om verder te lezen.
+   * **[!UICONTROL Summarize]**: langdurige informatie kan ontvangers van landingspagina&#39;s overladen. Gebruik de AI-assistent om belangrijke punten samen te voegen tot heldere, beknopte samenvattingen die aandacht trekken en hen aanmoedigen om verder te lezen.
 
    * **[!UICONTROL Rephrase]**:De AI-assistent kan uw bericht op verschillende manieren herformuleren, zodat u steeds fris schrijft en aantrekkelijk wordt voor verschillende soorten publiek.
 
@@ -161,41 +148,35 @@ In het volgende voorbeeld gebruiken we de AI Assistant om de inhoud van onze e-m
 
    U kunt ook de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de tekst wijzigen.
 
-   ![](assets/text-genai-5.png){zoomable="yes"}
+   ![](assets/lp-text-gen-5.png){zoomable="yes"}
 
 1. Klik op **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 
-   U kunt ook experimenteren met uw inhoud inschakelen. [Meer informatie](generative-experimentation.md)
+1. Voeg verpersoonlijkingsgebieden in om uw het landen pagina inhoud aan te passen die op profielgegevens wordt gebaseerd. Klik vervolgens op de knop **[!UICONTROL Simulate content]** om de rendering te beheren en controleer de instellingen voor aanpassing met testprofielen. [Meer informatie](../personalization/personalize.md)
 
-1. Voeg verpersoonlijkingsgebieden in om uw e-mailinhoud aan te passen die op profielgegevens wordt gebaseerd. Klik vervolgens op de knop **[!UICONTROL Simulate content]** om de rendering te beheren en controleer de instellingen voor aanpassing met testprofielen. [Meer informatie](../personalization/personalize.md)
+Als de landingspagina gereed is, kunt u deze publiceren en in een bericht gebruiken. [Meer informatie](../landing-pages/create-lp.md#publish-landing-page)
 
-Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-mailcampagne voorbereiden. [Meer informatie](../campaigns/review-activate-campaign.md)
-
->[!TAB  slechts generatie van het Beeld ]
+>[!TAB  Beeld-slechts generatie ]
 
 In het onderstaande voorbeeld leert u hoe u de AI Assistant kunt gebruiken om uw middelen te optimaliseren en te verbeteren, zodat u een gebruiksvriendelijker ervaring hebt.
 
-1. Klik op **[!UICONTROL Edit content]** nadat u uw e-mailcampagne hebt gemaakt en geconfigureerd.
+1. Klik op **[!UICONTROL Edit content]** nadat u de bestemmingspagina hebt gemaakt en geconfigureerd.
 
-   Voor meer informatie over hoe te om uw e-mailcampagne te vormen, verwijs naar [ deze pagina ](../email/create-email.md).
+   Voor meer informatie over hoe te om uw het landen pagina te vormen, verwijs naar [ deze pagina ](../landing-pages/create-lp.md).
 
 1. Selecteer het element dat u wilt wijzigen met de AI-assistent.
 
 1. Selecteer **[!UICONTROL AI Assistant]** in het rechtermenu.
 
-   ![](assets/image-genai-1.png){zoomable="yes"}
+   ![](assets/lp-image-gen-1.png){zoomable="yes"}
 
 1. Schakel de optie **[!UICONTROL Reference style]** voor de AI-assistent in om nieuwe inhoud aan te passen op basis van de referentie-inhoud. U kunt ook een afbeelding uploaden om context aan uw variatie toe te voegen.
 
-1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
-
-   Merk op dat de eigenschap van Merken als privé bèta wordt vrijgegeven en aan alle klanten in toekomstige versies geleidelijk beschikbaar zal zijn.
-
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
-   Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang **[!UICONTROL Prompt Library]** die een diverse waaier van snelle ideeën verstrekt om uw campagnes te verbeteren.
+   Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang **[!UICONTROL Prompt Library]** die een diverse waaier van snelle ideeën verstrekt om uw landende pagina&#39;s te verbeteren.
 
-   ![](assets/image-genai-2.png){zoomable="yes"}
+   ![](assets/lp-image-gen-2.png){zoomable="yes"}
 
 1. Volg uw vraag met de optie **[!UICONTROL Image settings]** :
 
@@ -206,7 +187,7 @@ In het onderstaande voorbeeld leert u hoe u de AI Assistant kunt gebruiken om uw
    * **[!UICONTROL Lighting]**: hiermee wordt de bliksemschicht in een afbeelding bedoeld, die de atmosfeer van de afbeelding bepaalt en specifieke elementen markeert.
    * **[!UICONTROL Composition]**: dit heeft betrekking op de rangschikking van elementen binnen het kader van een afbeelding
 
-   ![](assets/image-genai-4.png){zoomable="yes"}
+   ![](assets/lp-image-gen-3.png){zoomable="yes"}
 
 1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die inhoud bevatten die aanvullende context voor de AI-assistent kan bieden of selecteer een eerder geüpload element.
 
@@ -220,19 +201,13 @@ In het onderstaande voorbeeld leert u hoe u de AI Assistant kunt gebruiken om uw
 
 1. Kies **[!UICONTROL Generate Similar]** als u verwante afbeeldingen met deze variant wilt weergeven.
 
-1. Klik op **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
+   ![](assets/lp-image-gen-4.png){zoomable="yes"}
 
-   U kunt ook experimenteren met uw inhoud inschakelen. [Meer informatie](generative-experimentation.md)
+1. Klik op **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 
 1. Nadat u de inhoud van uw bericht hebt gedefinieerd, klikt u op de knop **[!UICONTROL Simulate content]** om de rendering te beheren en controleert u de instellingen voor de personalisatie met testprofielen. [Meer informatie](../personalization/personalize.md)
 
-1. Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-mailcampagne voorbereiden. [Meer informatie](../campaigns/review-activate-campaign.md)
+Als de landingspagina gereed is, kunt u deze publiceren en in een bericht gebruiken. [Meer informatie](../landing-pages/create-lp.md#publish-landing-page)
+
 
 >[!ENDTABS]
-
-
-## Hoe kan ik-video {#video}
-
-Leer hoe u de AI Assistant in Journey Optimizer kunt gebruiken om volledige e-mail, tekst of afbeeldingen te genereren.
-
->[!VIDEO](https://video.tv.adobe.com/v/3433552)

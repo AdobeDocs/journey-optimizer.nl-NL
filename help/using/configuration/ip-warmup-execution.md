@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP, groep, subdomeinen, leverbaarheid
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 88dff9f42636a81b54b7050da3542f839c14164e
+source-git-commit: 0c128feac32baff14f1b71aed688e3bde4c67d35
 workflow-type: tm+mt
-source-wordcount: '2493'
+source-wordcount: '2538'
 ht-degree: 0%
 
 ---
@@ -74,11 +74,15 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
       ![](assets/ip-warmup-plan-exclude-domains.png)
 
-      Bijvoorbeeld, na het runnen van IP warmte voor sommige dagen, realiseert u dat uw ISP reputatie met een domein (bijvoorbeeld, Adobe) niet goed is en u wenst om het op te lossen zonder uw IP warmup plan tegen te houden. In dat geval kunt u de Adobe-domeingroep uitsluiten.
+      Bijvoorbeeld, na het runnen van IP warmte voor sommige dagen, realiseert u dat uw ISP reputatie met een domein (bijvoorbeeld, Adobe) niet goed is en u wenst om het op te lossen zonder uw IP warmlopingsplan tegen te houden. In dat geval kunt u de Adobe-domeingroep uitsluiten.
 
       >[!NOTE]
       >
       >U kunt een groep van het douanedomein slechts uitsluiten die aan het [ IP malplaatje van het warmup plan ](ip-warmup-plan.md#prepare-file) werd toegevoegd. Als dit niet het geval is, werk het malplaatje met de groep van het douanedomein bij u wilt uitsluiten en [ herupload het plan ](#re-upload-plan).
+
+      >[!CAUTION]
+      >
+      >Zodra het IP warmup plan loopt, als u het [ uitvoeringsadres ](../email/email-settings.md#execution-address) in de configuratie van het e-mailkanaal [ ](channel-surfaces.md) bijwerkt die in de IP warmup campagne wordt gebruikt, kon de domeinuitsluiting ontbreken. Bewerk de configuratie van het e-mailkanaal niet nadat het IP-opwarmingsplan is gestart.
 
    1. Selecteer in de sectie **[!UICONTROL Campaign for exclusion of profiles]** de campagnes die het publiek dat u wilt uitsluiten van de huidige fase.
 
@@ -296,7 +300,7 @@ Een run kan de volgende statussen hebben:
 
 ### Rapporten gebruiken {#reports}
 
-Meer in het algemeen, om het effect van uw plan te meten, kunt u de prestaties van uw IP warmup campagnes controleren gebruikend de [!DNL Journey Optimizer] campagnerapporten. U doet dit voor elke voltooide uitvoering door op de knop **[!UICONTROL View reports]** te klikken. Leer meer op het campagne-e-mail [ levende rapport ](../reports/campaign-live-report.md#email-live) en [ rapport van de Customer Journey Analytics ](../reports/campaign-global-report-cja-email.md).
+Meer in het algemeen, om het effect van uw plan te meten, kunt u de prestaties van uw IP warmup campagnes controleren gebruikend de [!DNL Journey Optimizer] campagnerapporten. U doet dit voor elke voltooide uitvoering door op de knop **[!UICONTROL View reports]** te klikken. Leer meer op het campagne-e-mail [ levende rapport ](../reports/campaign-live-report.md#email-live) en [ Customer Journey Analytics rapport ](../reports/campaign-global-report-cja-email.md).
 
 ![](assets/ip-warmup-plan-reports.png)
 

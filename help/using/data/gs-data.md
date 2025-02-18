@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Aan de slag met gegevens in Journey Optimizer
+title: Aan de slag met gegevensbeheer in Journey Optimizer
 description: Leer hoe u met gegevens werkt in Journey Optimizer
 feature: Journeys
 topic: Content Management
@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 keywords: gegevens, beheer, platform
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 1%
 
 ---
 
-# Aan de slag met gegevensbeheer in [!DNL Journey Optimizer] {#about-data}
+# Aan de slag met gegevensbeheer {#about-data}
 
 De rijkheid en de dekking van eindklantengegevens is wat de sterkte en het succes van om het even welke oplossing van de klantenervaring bepaalt; en deze gegevens zijn heilig en van de hoogste waarde aan om het even welke bepaalde klant. De selectie van de technologie is nu inherent ingebouwd met strenge evaluatie van de mogelijkheden van het gegevensbeheer.
 
