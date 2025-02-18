@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 77a3980b2c18f14d6b7cf0461541d0b9721dab84
+source-git-commit: f25fb5ef7eb8febbe9f94f67aa16b0d8e725bbf9
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '764'
 ht-degree: 7%
 
 ---
@@ -74,13 +74,13 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <table>
 <thead>
 <tr>
-<th><strong>Handelsrichtlijnen met de AI Assistant (Beta)</strong><br/></th>
+<th><strong>Merken met de AI Assistant (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt nu uw eigen merkenrichtlijnen instellen om de visuele en verbale identiteit van uw merk te definiëren. </p>
+<p>U kunt nu uw eigen merken instellen om de visuele en verbale identiteit van uw merk te definiëren. </p>
 <p>Deze mogelijkheid wordt als een persoonlijke bètaversie vrijgegeven aan een beperkt aantal klanten. Het zal in toekomstige versies geleidelijk beschikbaar zijn voor alle klanten.</p>
 <p>Raadpleeg de <a href="../content-management/brands.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
