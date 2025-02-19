@@ -7,7 +7,7 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 8f296109555edcfdc9e66fae312e6100e98ed78e
+source-git-commit: 850b78afc8f833e503b6ebe2ca5e8b47a0e8ff7a
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 1%
@@ -80,87 +80,87 @@ Om het dossier te vormen dat, volg de stappen hieronder verplettert.
 
 1. Vul de velden in die specifiek zijn voor elk servertype, zoals hieronder wordt beschreven.
 
-   >[!BEGINTABS]
+>[!BEGINTABS]
 
-   >[!TAB Amazon S3]
+>[!TAB Amazon S3]
 
-   Als u **[!UICONTROL Amazon S3]** als **[!UICONTROL Server type]** selecteerde:
+Als u **[!UICONTROL Amazon S3]** als **[!UICONTROL Server type]** selecteerde:
 
-   1. Voer de gegevens en referenties voor de server in
+1. Voer de gegevens en referenties voor de server in
 
-      * **de emmer van AWS**:Om te weten waar te om uw het emmernaam van AWS te vinden, verwijs naar [ deze pagina ](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
+   * **de emmer van AWS**:Om te weten waar te om uw het emmernaam van AWS te vinden, verwijs naar [ deze pagina ](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
 
-      * **de toegangssleutel van AWS**: Om te weten waar te om uw de toegangs belangrijkste identiteitskaart van AWS te vinden, verwijs naar [ deze pagina ](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
+   * **de toegangssleutel van AWS**: Om te weten waar te om uw de toegangs belangrijkste identiteitskaart van AWS te vinden, verwijs naar [ deze pagina ](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
 
-      * **geheime sleutel van AWS**: Om te weten waar te om uw geheime sleutel van AWS te vinden, verwijs naar [ deze pagina ](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
+   * **geheime sleutel van AWS**: Om te weten waar te om uw geheime sleutel van AWS te vinden, verwijs naar [ deze pagina ](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
 
-      * **gebied van AWS**: kies **[!UICONTROL AWS region]** waar de serverinfrastructuur zal worden gevestigd. AWS-regio&#39;s zijn geografische gebieden die AWS gebruikt om haar cloudinfrastructuur te hosten. In het algemeen verdient het de voorkeur het gebied te kiezen dat het dichtst bij de locatie van uw directe-mailprovider ligt.
+   * **gebied van AWS**: kies **[!UICONTROL AWS region]** waar de serverinfrastructuur zal worden gevestigd. AWS-regio&#39;s zijn geografische gebieden die AWS gebruikt om haar cloudinfrastructuur te hosten. In het algemeen verdient het de voorkeur het gebied te kiezen dat het dichtst bij de locatie van uw directe-mailprovider ligt.
 
-      ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
+   ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
-   1. Als u het bestand wilt versleutelen, kopieert en plakt u de coderingssleutel in het veld **[!UICONTROL PGP/GPG encryption key]** .
+1. Als u het bestand wilt versleutelen, kopieert en plakt u de coderingssleutel in het veld **[!UICONTROL PGP/GPG encryption key]** .
 
-   >[!TAB SFTP]
+>[!TAB SFTP]
 
-   Als u **[!UICONTROL SFTP]** als **[!UICONTROL Server type]** selecteerde:
+Als u **[!UICONTROL SFTP]** als **[!UICONTROL Server type]** selecteerde:
 
-   1. Voer de gegevens en referenties voor uw server in:
+1. Voer de gegevens en referenties voor uw server in:
 
-      * **Rekening**: De naam van de rekening die wordt gebruikt om met de server te verbinden SFTP.
+   * **Rekening**: De naam van de rekening die wordt gebruikt om met de server te verbinden SFTP.
 
-      * **adres van de Server**: &#x200B; URL van de server SFTP.
+   * **adres van de Server**: &#x200B; URL van de server SFTP.
 
-      * **Haven**: Het aantal van de de verbindingshaven van FTP.
+   * **Haven**: Het aantal van de de verbindingshaven van FTP.
 
-      * **Wachtwoord**: &#x200B; Wachtwoord dat wordt gebruikt om met de server te verbinden SFTP.
+   * **Wachtwoord**: &#x200B; Wachtwoord dat wordt gebruikt om met de server te verbinden SFTP.
 
-      ![](assets/file-routing-config-sftp-detail.png)
+   ![](assets/file-routing-config-sftp-detail.png)
 
-      >[!NOTE]
-      >
-      >Als u een pad op de server voor het opslaan van het bestand wilt opgeven, werkt u het veld **[!UICONTROL Filename]** van de campagne voor direct mail bij en voegt u het gewenste pad in. [Meer informatie](create-direct-mail.md#extraction-file)
+   >[!NOTE]
+   >
+   >Als u een pad op de server voor het opslaan van het bestand wilt opgeven, werkt u het veld **[!UICONTROL Filename]** van de campagne voor direct mail bij en voegt u het gewenste pad in. [Meer informatie](create-direct-mail.md#extraction-file)
 
-   1. Als u het bestand wilt versleutelen, kopieert en plakt u de coderingssleutel in het veld **[!UICONTROL PGP/GPG encryption key]** .
+1. Als u het bestand wilt versleutelen, kopieert en plakt u de coderingssleutel in het veld **[!UICONTROL PGP/GPG encryption key]** .
 
-   >[!TAB  Azure ]
+>[!TAB  Azure ]
 
-   Als u **[!UICONTROL Azure]** als **[!UICONTROL Server type]** selecteerde:
+Als u **[!UICONTROL Azure]** als **[!UICONTROL Server type]** selecteerde:
 
-   1. Voer de gegevens en referenties voor uw server in:
+1. Voer de gegevens en referenties voor uw server in:
 
-      * **Azure Koord van de Verbinding**: Om uw **Azure Koord van de Verbinding** te vinden, verwijs naar [ deze pagina ](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
+   * **Azure Koord van de Verbinding**: Om uw **Azure Koord van de Verbinding** te vinden, verwijs naar [ deze pagina ](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
 
-        Het **Azure Koord van de Verbinding** zou het formaat hieronder moeten volgen:
+     Het **Azure Koord van de Verbinding** zou het formaat hieronder moeten volgen:
 
-        `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
+     `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
 
-      * **Naam van de Container**: Om uw **Naam van de Container** te vinden, verwijs naar [ deze pagina ](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
+   * **Naam van de Container**: Om uw **Naam van de Container** te vinden, verwijs naar [ deze pagina ](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
 
-        De **Naam van de Container** zou slechts de naam van de container zonder enige schuine strepen moeten bevatten.
+     De **Naam van de Container** zou slechts de naam van de container zonder enige schuine strepen moeten bevatten.
 
-        >[!NOTE]
-        >
-        >Als u een pad in de container voor het opslaan van het bestand wilt opgeven, werkt u het veld **[!UICONTROL Filename]** van de campagne voor direct mail bij en voegt u het gewenste pad in. [Meer informatie](create-direct-mail.md#extraction-file)
+     >[!NOTE]
+     >
+     >Als u een pad in de container voor het opslaan van het bestand wilt opgeven, werkt u het veld **[!UICONTROL Filename]** van de campagne voor direct mail bij en voegt u het gewenste pad in. [Meer informatie](create-direct-mail.md#extraction-file)
 
-        ![](assets/file-routing-config-azure-detail.png)
+     ![](assets/file-routing-config-azure-detail.png)
 
-   1. Als u het bestand wilt versleutelen, kopieert en plakt u de coderingssleutel in het veld **[!UICONTROL PGP/GPG encryption key]** .
+1. Als u het bestand wilt versleutelen, kopieert en plakt u de coderingssleutel in het veld **[!UICONTROL PGP/GPG encryption key]** .
 
-   >[!TAB  Gegevens die Zone ] aanvoeren
+>[!TAB  Gegevens die Zone ] aanvoeren
 
-   Als u **[!UICONTROL Data Landing Zone]** als **[!UICONTROL Server type]** hebt geselecteerd, zijn geen specifieke details vereist.
+Als u **[!UICONTROL Data Landing Zone]** als **[!UICONTROL Server type]** hebt geselecteerd, zijn geen specifieke details vereist.
 
-   Als u het bestand wilt versleutelen, kopieert en plakt u de coderingssleutel in het veld **[!UICONTROL PGP/GPG encryption key]** .
+Als u het bestand wilt versleutelen, kopieert en plakt u de coderingssleutel in het veld **[!UICONTROL PGP/GPG encryption key]** .
 
-   ![](assets/file-routing-config-dlz-detail.png)
+![](assets/file-routing-config-dlz-detail.png)
 
-   Alle klanten van [!DNL Adobe Experience Platform] zijn provisioned met één container van de Landing van de Zone van Gegevens per zandbak. Leer meer op Gegevens die Zone in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone) aanvoeren {target="_blank"}.
+Alle klanten van [!DNL Adobe Experience Platform] zijn provisioned met één container van de Landing van de Zone van Gegevens per zandbak. Leer meer op Gegevens die Zone in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone) aanvoeren {target="_blank"}.
 
-   >[!ENDTABS]
+>[!ENDTABS]
 
-1. Selecteer **[!UICONTROL Submit]** als u de gegevens voor het servertype hebt ingevuld. Het dossier dat configuratie verplettert wordt gecreeerd met de **[!UICONTROL Active]** status. Het is nu klaar om in a [ direct-mailconfiguratie ](#direct-mail-surface) worden gebruikt.
+Selecteer **[!UICONTROL Submit]** als u de gegevens voor het servertype hebt ingevuld. Het dossier dat configuratie verplettert wordt gecreeerd met de **[!UICONTROL Active]** status. Het is nu klaar om in a [ direct-mailconfiguratie ](#direct-mail-surface) worden gebruikt.
 
-   U kunt **[!UICONTROL Save as draft]** ook selecteren om het dossier tot stand te brengen dat configuratie verplettert, maar u zult het niet in een configuratie kunnen selecteren tot het **[!UICONTROL Active]** is.
+U kunt **[!UICONTROL Save as draft]** ook selecteren om het dossier tot stand te brengen dat configuratie verplettert, maar u zult het niet in een configuratie kunnen selecteren tot het **[!UICONTROL Active]** is.
 
 ## Een configuratie voor direct mail maken {#direct-mail-surface}
 
