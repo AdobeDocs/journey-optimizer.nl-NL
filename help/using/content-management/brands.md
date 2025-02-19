@@ -7,9 +7,9 @@ badge: label="Beta" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 4919c8c749f9216be526bab2437a815da0136df5
+source-git-commit: b1ccacd30acb886e06a3305f0c7046d85f558357
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -19,15 +19,14 @@ ht-degree: 0%
 >[!AVAILABILITY]
 >
 >Dit vermogen wordt vrijgegeven als privé bèta. Het zal in toekomstige versies geleidelijk beschikbaar zijn voor alle klanten.
->
 
 Merkrichtlijnen zijn een gedetailleerde reeks regels en normen die de visuele en verbale identiteit van een merk bepalen. Zij fungeren als referentie om een consistente merkweergave te behouden op alle marketing- en communicatieplatforms.
 
-In Journey Optimizer hebt u nu de mogelijkheid om uw merkgegevens handmatig in te voeren en in te delen of documenten met brandrichtlijnen te uploaden voor automatische informatie-extractie.
+In [!DNL Journey Optimizer] hebt u nu de optie om uw merkdetails handmatig in te voeren en in te delen of documenten met brandrichtlijnen te uploaden voor automatische informatie-extractie.
 
 ## Toegangsmerken {#generative-access}
 
-Om tot het menu van het Merk in Adobe Journey Optimizer toegang te hebben, moeten de gebruikers **Beheerde merkkit** of **[!UICONTROL Enable AI assistant]** toestemmingen worden verleend. [Meer informatie](../administration/permissions.md)
+Gebruikers die het menu **[!UICONTROL Brands]** in [!DNL Adobe Journey Optimizer] willen openen, moeten de machtigingen **[!UICONTROL Managed brand kit]** of **[!UICONTROL Enable AI assistant]** hebben. [Meer informatie](../administration/permissions.md)
 
 +++  Leer hoe u merkgerelateerde machtigingen kunt toewijzen
 
@@ -51,34 +50,41 @@ Om tot het menu van het Merk in Adobe Journey Optimizer toegang te hebben, moete
 
 1. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users).
 
-
 +++
 
 ## Uw merk maken {#create-brand-kit}
 
 Als u uw merkenrichtlijn wilt maken en beheren, kunt u de details zelf invoeren of het document met uw merkenrichtlijnen uploaden om de informatie automatisch te laten uitnemen:
 
-1. Klik in het menu **[!UICONTROL Brands]** op **[!UICONTROL Add brand]** .
+1. Klik in het menu **[!UICONTROL Brands]** op **[!UICONTROL Create brand]** .
 
    ![](assets/brands-1.png)
 
-1. Voer een **[!UICONTROL Name]** en een **[!UICONTROL Description]** in voor uw merkenhulplijn.
+1. Voer een **[!UICONTROL Name]** voor uw merk in <!--and a **[!UICONTROL Description]** to your brand guideline-->.
 
-1. Sleep of selecteer het bestand om de richtlijnen van uw merk te uploaden en automatisch relevante merkgegevens te extraheren. Klik op **[!UICONTROL Add brand]**.
+   ![](assets/brands-2-temp.png)
 
-   Het uitpakken van informatie begint nu. Het kan enkele minuten duren voordat de bewerking is voltooid.
+<!--
 
-   ![](assets/brands-2.png)
+[Upload feature currently behind feature flag so hidden from doc - should be available again by EOM (Feb)]
 
-1. Uw standaarden voor het maken van inhoud en visuele weergave worden nu automatisch ingevuld. Blader door de verschillende tabbladen om de informatie naar wens aan te passen.
+1. Drag and drop or select your file to upload your brand guidelines and extract automatically relevant brand information. Click **[!UICONTROL Create brand]**.
 
-1. Klik in **[!UICONTROL Content creation standards]** op ![](assets/do-not-localize/Smock_Add_18_N.svg) om een andere hulplijn, een ander voorbeeld of een andere uitsluiting toe te voegen.
+    The information extraction process now begins. Note that it may take several minutes to complete.
+
+    ![](assets/brands-2.png)
+
+1. Your Content and visual creation standards are now automatically populated. Browse through the different tabs to adapt the information as needed.
+
+-->
+
+1. Klik op het tabblad **[!UICONTROL Writing Style]** op ![](assets/do-not-localize/Smock_Add_18_N.svg) om een hulplijn of uitsluiting toe te voegen. U kunt ook voorbeelden toevoegen.
 
    ![](assets/brands-3.png)
 
-1. Klik in **[!UICONTROL Visual creation standards]** op ![](assets/do-not-localize/Smock_Add_18_N.svg) om een andere hulplijn, een ander voorbeeld of een andere uitsluiting toe te voegen.
+1. Klik op het tabblad **[!UICONTROL Visual content]** op ![](assets/do-not-localize/Smock_Add_18_N.svg) om nog een hulplijn of uitsluiting toe te voegen.
 
-1. Klik op **[!UICONTROL Select image]** om een voorbeeld van een afbeelding toe te voegen. U kunt ook elk onjuist inzicht toevoegen dat is geïdentificeerd.
+1. Klik op **[!UICONTROL Select image]** om een voorbeeld van een afbeelding toe te voegen. U kunt ook een afbeelding toevoegen waarin onjuist gebruik wordt getoond als uitsluitingsvoorbeeld.
 
    ![](assets/brands-4.png)
 
