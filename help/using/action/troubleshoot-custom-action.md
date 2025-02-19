@@ -9,7 +9,7 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
-source-git-commit: d7ef9cb8b74781d5c711bd2958070767735a3b24
+source-git-commit: 51882b5f664e335c472afd790494f86b300e0e56
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 0%
@@ -50,9 +50,7 @@ Voer de volgende stappen uit om een aangepaste handeling te testen:
 
 1. Navigeer aan het **de configuratiescherm van Acties van de Douane**, en selecteer een douaneactie.
 1. Klik op de knop **[!UICONTROL Send test request]** onder aan het actieconfiguratiescherm.
-
-![ verzendt de knoop van het testverzoek in het paneel van de Configuratie van de Actie ](assets/test-request.png){width="70%" align="left"}
-
+   ![ verzendt de knoop van het testverzoek in het paneel van de Configuratie van de Actie ](assets/test-request.png){width="70%" align="left"}
 1. In het pop-upvenster kunt u aanvraagparameters opgeven:
 
    * Als de **methode van de douaneactie GET** is, wordt geen nuttige lading vereist.
