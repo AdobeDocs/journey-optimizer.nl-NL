@@ -9,9 +9,9 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
-source-git-commit: 51882b5f664e335c472afd790494f86b300e0e56
+source-git-commit: d6501c8cc7e3293bd6a057d8e74654bced7dae75
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Met deze functie stroomlijnt u het test- en validatieproces en zorgt u ervoor da
 
 ## Vereisten {#troubleshoot-custom-action-prereq}
 
-Om het **[!UICONTROL Send test request]** vermogen te gebruiken, moet de Actie van de a **Douane** pre-gevormd met een URL, kopballen, en authentificatiemontages zijn.
+Om het **[!UICONTROL Send test request]** vermogen te gebruiken, a **douaneactie** moet met een URL, kopballen, en authentificatiemontages worden pre-gevormd.
 
 De beheerders kunnen deze mogelijkheid alleen gebruiken als ze beschikken over de volgende machtigingen:
 
@@ -48,7 +48,7 @@ Leer meer over reistoestemmingen in [ deze sectie ](../administration/high-low-p
 
 Voer de volgende stappen uit om een aangepaste handeling te testen:
 
-1. Navigeer aan het **de configuratiescherm van Acties van de Douane**, en selecteer een douaneactie.
+1. Navigeer aan het **scherm van de Acties** configuratie, en selecteer een douaneactie.
 1. Klik op de knop **[!UICONTROL Send test request]** onder aan het actieconfiguratiescherm.
    ![ verzendt de knoop van het testverzoek in het paneel van de Configuratie van de Actie ](assets/test-request.png){width="70%" align="left"}
 1. In het pop-upvenster kunt u aanvraagparameters opgeven:
