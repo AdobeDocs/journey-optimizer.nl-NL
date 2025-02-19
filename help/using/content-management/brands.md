@@ -7,7 +7,7 @@ badge: label="Beta" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 288f44de1f92e808aa038020f247a720fefb6b1f
+source-git-commit: 6c99d733b973efd790f8727bf867fbf0a952f6d9
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Merkrichtlijnen zijn een gedetailleerde reeks regels en normen die de visuele en
 
 In [!DNL Journey Optimizer], you now have the option to manually input and organize your brand details or upload brand guideline documents for automatic information extraction.-->
 
-## Toegangsmerken {#generative-access}
+## Handelsmerken {#generative-access}
 
 Gebruikers die het menu **[!UICONTROL Brands]** in [!DNL Adobe Journey Optimizer] willen openen, moeten de machtigingen **[!UICONTROL Managed brand kit]** of **[!UICONTROL Enable AI assistant]** hebben. [Meer informatie](../administration/permissions.md)
 
