@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 0803edc138aff3cf94abd84d0f462191c1e86f6f
+source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
 workflow-type: tm+mt
 source-wordcount: '6781'
 ht-degree: 7%
@@ -1266,7 +1266,7 @@ Eerder beschikbaar als Beta, zijn de volgende verbeteringen nu beschikbaar voor 
 
 **Regels van de Frequentie**
 
-* Naast E-mail en Duw, kunt u de regels van de Frequentie voor SMS en Directe kanalen van de Post nu tot stand brengen. De frequentieregels sluiten over-gevraagde profielen automatisch uit van berichten en acties wanneer de frequentiedrempel wordt bereikt. [Meer informatie](../configuration/frequency-rules.md)
+* Naast E-mail en Duw, kunt u de regels van de Frequentie voor SMS en Directe kanalen van de Post nu tot stand brengen. De frequentieregels sluiten over-gevraagde profielen automatisch uit van berichten en acties wanneer de frequentiedrempel wordt bereikt. [Meer informatie](../configuration/rule-sets.md)
 
 <!--**Decision management**
 
@@ -1342,7 +1342,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Regels van de Frequentie**
 
-* **Wekelijks frequentiemaximum** - u kunt nu het maximumaantal berichten specificeren die naar een klantenprofiel per week, naast maand worden verzonden. De maximale frequentie is gebaseerd op de geselecteerde kalenderperiode en wordt opnieuw ingesteld aan het begin van het corresponderende tijdkader. [Meer informatie](../configuration/frequency-rules.md#create-new-rule)
+* **Wekelijks frequentiemaximum** - u kunt nu het maximumaantal berichten specificeren die naar een klantenprofiel per week, naast maand worden verzonden. De maximale frequentie is gebaseerd op de geselecteerde kalenderperiode en wordt opnieuw ingesteld aan het begin van het corresponderende tijdkader. [Meer informatie](../configuration/rule-sets.md)
 
   >[!NOTE]
   >

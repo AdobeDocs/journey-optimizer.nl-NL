@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
 workflow-type: tm+mt
-source-wordcount: '6043'
+source-wordcount: '6037'
 ht-degree: 12%
 
 ---
@@ -123,7 +123,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
    * E: Sneltoets die wordt gebruikt om een gebeurtenis te starten tijdens een reis op basis van een gebeurtenis.
    * P: Sneltoets om een gebeurtenis te starten in een op het publiek gebaseerde reis waarvoor de optie Eén profiel tegelijk is ingeschakeld.
    * L: Sneltoets die is toegewezen om de testlogs weer te geven.
-* De pagina met regels voor berichtfrequenties is bijgewerkt met een nieuwe subsectie over de limiet voor dagelijkse frequenties, die naast de wekelijkse of maandelijkse aftopping op aanvraag beschikbaar is. [Meer informatie](../configuration/frequency-rules.md#daily-frequency-cap)
+* De pagina met regels voor berichtfrequenties is bijgewerkt met een nieuwe subsectie over de limiet voor dagelijkse frequenties, die naast de wekelijkse of maandelijkse aftopping op aanvraag beschikbaar is.
 * De pagina Werken met toestemmingsbeleid is verbeterd en bijgewerkt met nuttige koppelingen naar de documentatie van Experience Platform. [Meer informatie](../action/consent.md)
 * Er is een nieuwe sectie toegevoegd om aan te geven dat u HTML-sjablonen voor e-mailinhoud kunt weergeven als miniaturen in de modus Rasterweergave (Beperkte beschikbaarheid). [Meer informatie](../content-management/content-templates.md#template-thumbnails)
 * Er is een nieuwe sectie toegevoegd aan de pagina Leverbaarheid om uit te leggen welke feedbackcycli zijn en hoe u deze kunt gebruiken. [Meer informatie](../reports/deliverability.md#feedback-loops)
@@ -140,7 +140,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 * De lijst met functies die beschikbaar zijn in de geavanceerde expressie-editor is bijgewerkt. [Meer informatie](../building-journeys/expression/functions.md)
 * De pagina in de functie Splitsen is bijgewerkt. [Meer informatie](../building-journeys/functions/functioninaudience.md)
 * Er is informatie toegevoegd over de impact van de opt-in of opt-out van pushberichten op In-app berichten. [Meer informatie](../in-app/create-in-app.md)
-* De pagina met regels voor berichtfrequenties is bijgewerkt met de opties voor Duur die beschikbaar zijn in de gebruikersinterface (wekelijks of maandelijks). [Meer informatie](../configuration/frequency-rules.md)
+* De pagina met regels voor berichtfrequenties is bijgewerkt met de opties voor Duur die beschikbaar zijn in de gebruikersinterface (wekelijks of maandelijks).
 * De sectie Een PTR-record bewerken is bijgewerkt om te verduidelijken dat PTR-records niet handmatig kunnen worden gemaakt en dat u PTR-records moet bewerken om er nieuwe subdomeinen aan toe te wijzen. [Meer informatie](../configuration/ptr-records.md#edit-ptr-record)
 
 ## Januari 2024 {#jan-2024}
@@ -338,7 +338,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 ## Augustus 2022 {#august-2022}
 
 * Alle nieuwe functies en verbeteringen die worden geïntroduceerd in de release van [!DNL Journey Optimizer] augustus &#39;22 zijn beschreven in de documentatie. [Meer informatie](release-notes.md)
-* De sectie van de Regels van de Frequentie is bijgewerkt om op de nieuwe in-lijn overseinenstroom te wijzen. [Meer informatie](../configuration/frequency-rules.md#apply-frequency-rule)
+* De sectie van de Regels van de Frequentie is bijgewerkt om op de nieuwe in-lijn overseinenstroom te wijzen.
 * Er wordt nu verwezen naar een video waarin wordt getoond hoe u abonnementen kunt configureren en bestemmingspagina&#39;s kunt maken in de sectie Aan de slag met bestemmingspagina&#39;s. [Meer informatie](../landing-pages/get-started-lp.md#video)
 * Er is een beperking toegevoegd voor ritten die gebruikmaken van de activiteiten van het leespubliek. [Meer informatie](../building-journeys/read-audience.md)
 * De pagina met operators van expressies is verbeterd. [Meer informatie](../building-journeys/expression/operators.md)

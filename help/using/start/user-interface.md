@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 5%
@@ -128,7 +128,7 @@ Beheer uw privacybeheer en verzoeken vanuit deze sectie.
 
   U kunt tot de **Rapporterende** sectie ook toegang hebben om rapportering voor campagneexperimentatie en web/mobile te vormen. [Meer informatie](../reports/reporting-configuration.md)
 
-* **[!UICONTROL Business rules]** - Gebruik deze sectie om dwars-kanaal bedrijfsregels tot stand te brengen om te controleren hoe vaak de gebruikers een bericht ontvangen, of een reis ingaan. [Meer informatie](../configuration/frequency-rules.md)
+* **[!UICONTROL Business rules]** - Gebruik deze sectie om dwars-kanaal bedrijfsregels tot stand te brengen om te controleren hoe vaak de gebruikers een bericht ontvangen, of een reis ingaan. [Meer informatie](../configuration/rule-sets.md)
 
 * **[!UICONTROL Alerts]** - De gebruikersinterface staat u toe om een geschiedenis van ontvangen alarm te bekijken die op metriek wordt gebaseerd die door de Inzichten van de Waarneming van Adobe Experience Platform wordt onthuld. UI staat u ook toe om, beschikbare waakzame regels te bekijken toe te laten en onbruikbaar te maken. [Meer informatie](../reports/alerts.md)
 

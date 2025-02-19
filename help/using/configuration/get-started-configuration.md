@@ -9,7 +9,7 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configuratie, configureren, berichten, kanaal, sandbox, optimaliseren
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 10%
@@ -41,7 +41,7 @@ Als u uw reizen wilt maken en berichten wilt verzenden, moet u de onderstaande c
 
    * Laat de **BBC e-mailoptie** toe om een exemplaar van berichten te houden die naar individuen worden verzonden. [Meer informatie](archiving-support.md#enable-bcc)
 
-   * Vorm **bedrijfsregels** om te vermijden oversolicitating uw ontvangers. [Meer informatie](frequency-rules.md)
+   * Vorm **bedrijfsregels** om te vermijden oversolicitating uw ontvangers. [Meer informatie](../configuration/rule-sets.md)
 
    * Bepaal welk e-mailadres en/of telefoonnummer als prioriteit voor uw ontvangers moet worden gebruikt wanneer er in Adobe Experience Platform verschillende adressen/nummers beschikbaar zijn. [Meer informatie](primary-email-addresses.md)
 

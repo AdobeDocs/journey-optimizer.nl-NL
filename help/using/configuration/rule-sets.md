@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: bericht, frequentie, regels, druk
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
+source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
 workflow-type: tm+mt
 source-wordcount: '1881'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Bijvoorbeeld, kunt u een regel tot stand brengen die wordt geplaatst om het aant
 
 Wanneer de toegang tot van regelreeksen voor het eerst van **[!UICONTROL Administration]** > **[!UICONTROL Business rules (Beta)]** menu, wordt een standaardregelreeks vooraf gecreeerd en actief: **Globale Reeks Standaard van de Regel**.
 
-Deze regelreeks bevat globale regels die u kunt toepassen om te controleren hoe vaak de gebruikers bericht over één of veelvoudige kanalen ontvangen, gelijkend op hoe de huidige bedrijfsregels werken. Alle regels die in deze regel worden bepaald zijn op alle geselecteerde kanalen van toepassing, of de mededelingen van een reis of een campagne worden verzonden. [ Leer hoe te met bedrijfsregels te werken ](frequency-rules.md)
+Deze regelreeks bevat globale regels die u kunt toepassen om te controleren hoe vaak de gebruikers bericht over één of veelvoudige kanalen ontvangen, gelijkend op hoe de huidige bedrijfsregels werken. Alle regels die in deze regel worden bepaald zijn op alle geselecteerde kanalen van toepassing, of de mededelingen van een reis of een campagne worden verzonden. [ Leer hoe te met bedrijfsregels te werken ](../configuration/rule-sets.md)
 
 Naast deze &quot;Globale Vastgestelde van de StandaardRegel&quot;regel, kunt u **reeksen van de douaneregel** tot stand brengen die u op om het even welke campagne kunt toepassen om het aantal berichten te beperken die binnen die campagne worden verzonden. [ Leer hoe te om de reeksen van de douaneregel tot stand te brengen ](#create)
 
