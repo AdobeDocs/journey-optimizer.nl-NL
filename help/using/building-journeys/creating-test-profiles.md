@@ -9,7 +9,7 @@ role: User, Data Engineer
 level: Intermediate
 keywords: testprofielen, testen, testen, reizen
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 7df2d6a68ce20dbd9d07be3d6cfba9eba5ec0242
 workflow-type: tm+mt
 source-wordcount: '1322'
 ht-degree: 1%
@@ -40,7 +40,7 @@ Het maken van een testprofiel lijkt op het maken van gewone profielen in Adobe E
 
 ## Vereisten {#test-profile-prerequisites}
 
-Om profielen te kunnen tot stand brengen, moet u eerst een schema en een dataset in Adobe creëren [!DNL Journey Optimizer].
+Als u profielen wilt maken, moet u eerst een schema en een gegevensset maken in Adobe [!DNL Journey Optimizer] .
 
 Om **tot een schema** te leiden, volg deze stappen:
 
@@ -179,6 +179,7 @@ In Adobe Experience Platform kunt u profielen maken door een CSV-bestand met de 
    ![](assets/test-profiles-21.png)
 
 Uw testprofielen worden toegevoegd en kunnen nu worden gebruikt bij het testen van een reis. Zie [deze sectie](../building-journeys/testing-the-journey.md).
+
 >[!NOTE]
 >
 > Voor meer informatie over csv de invoer, verwijs naar de [ documentatie van de Ingestie van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials) {target="_blank"}.
