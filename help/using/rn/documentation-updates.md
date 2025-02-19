@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
+source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
-source-wordcount: '6037'
+source-wordcount: '6056'
 ht-degree: 12%
 
 ---
@@ -25,6 +25,9 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 * De documentatie voor **[!UICONTROL Send-Time optimization]** en de bijbehorende veelgestelde vragen zijn bijgewerkt, verbeterd en naar een nieuwe, speciale pagina verplaatst. [Meer informatie](../building-journeys/send-time-optimization.md)
 * Er zijn nieuwe instructies toegevoegd voor reisevenementen. [Meer informatie](../start/guardrails.md#events-g)
 * De ingebouwde pagina met kanaalacties is opnieuw ingedeeld. [Meer informatie](../building-journeys/journeys-message.md)
+* Er zijn instructies en beperkingen toegevoegd aan de afdeling Beslissingen en Beslissingsbeheer.
+   * [Afbakening en beperkingen](../experience-decisioning/decisioning-guardrails.md)
+   * [Beheersbeheerinstructies en beperkingen](../offers/decision-management-guardrails.md)
 
 ## Januari 2025 {#jan-2025}
 

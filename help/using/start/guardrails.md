@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
-source-wordcount: '2497'
+source-wordcount: '2289'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,17 @@ Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen deleg
 * Visuele fragmenten zijn alleen beschikbaar voor het e-mailkanaal.
 * Expressiefragmenten zijn niet beschikbaar voor het kanaal in de app.
 
+## Audiëntenguardrails {#audience}
+
+U kunt maximaal 10 publiekscomposities in een bepaalde sandbox publiceren. Als u deze drempel hebt bereikt, moet u een samenstelling schrappen om ruimte vrij te maken en nieuwe te publiceren.
+
+## Garanties voor besluitvorming en besluitvorming {#decisioning}
+
+In de afdelingen Beslissingen en Beslissingsbeheer worden de volgende informatie gegeven over de beperkingen en beperkingen waarmee rekening moet worden gehouden bij het werken met besluiten of het nemen van besluiten:
+
+* [Afbakening en beperkingen](../experience-decisioning/decisioning-guardrails.md)
+* [Beheersbeheerinstructies en beperkingen](../offers/decision-management-guardrails.md)
+
 ## Reisgeleiders {#journeys-guardrails}
 
 ### Algemene reisgeleiders {#journeys-guardrails-journeys}
@@ -85,7 +96,6 @@ Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen deleg
 * Wanneer u een publiekskwalificatie gebruikt op een reis, kan het tot 10 minuten duren voordat de activiteit van de publiekskwalificatie actief is en naar profielen luistert die het publiek binnenkomen of verlaten.
 * Een reisinstantie voor een profiel heeft een maximumgrootte van 1 MB. Alle gegevens die als onderdeel van de uitvoering van de reis worden verzameld, worden opgeslagen in die reisinstantie. Daarom gegevens van een binnenkomende gebeurtenis, profielgegevens die zijn opgehaald uit Adobe Experience Platform, aangepaste reacties op acties, enzovoort. worden opgeslagen in die reisinstantie en beïnvloeden de reisgrootte. Wanneer een reis met een evenement begint, wordt het aanbevolen de maximale omvang van die lading (bv. minder dan 800 kB) te beperken om te voorkomen dat die limiet na een paar activiteiten wordt bereikt, in de uitvoering van de reis. Wanneer deze limiet is bereikt, heeft het profiel een foutstatus en wordt het van de reis uitgesloten.
 * Naast de time-out die wordt gebruikt bij reisactiviteiten, is er ook een wereldwijde reistime-out die niet in de interface wordt weergegeven en niet kan worden gewijzigd. Deze wereldwijde time-out houdt de voortgang van individuen op de reis 91 dagen na hun binnenkomst tegen. [Meer informatie](../building-journeys/journey-properties.md#global_timeout)
-
 
 ### Algemene acties {#general-actions-g}
 
@@ -127,7 +137,6 @@ Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen deleg
 * Eenheidstrajecten (te beginnen met een evenement of een kwalificatie van het publiek) bevatten een begeleidend element dat voorkomt dat ritten bij dezelfde gebeurtenis meerdere keren ten onrechte worden gestart. De ingang van het profiel wordt tijdelijk geblokkeerd door gebrek gedurende 5 minuten. Als bijvoorbeeld een evenement om 12.01 uur een reis voor een bepaald profiel start en een ander om 12.03 uur aankomt (ongeacht of het dezelfde gebeurtenis is of een andere gebeurtenis die dezelfde reis veroorzaakt), zal die reis niet opnieuw beginnen voor dit profiel.
 * Journey Optimizer vereist dat gebeurtenissen worden gestreamd naar Data Collection Core Service (DCCS) om een reis te kunnen activeren. Gebeurtenissen die worden ingevoerd in batch of gebeurtenissen uit interne Journey Optimizer-gegevenssets (Berichtfeedback, E-mailtracking, enz.) kunnen niet worden gebruikt om een reis te activeren. Voor gebruiksgevallen waar u gestreamde gebeurtenissen niet kunt krijgen, moet u een publiek bouwen dat op die gebeurtenissen wordt gebaseerd en in plaats daarvan de **Gelezen activiteit van het Publiek** gebruiken. De kwalificatie van het publiek kan technisch worden gebruikt, maar wordt niet geadviseerd omdat het stroomafwaartse uitdagingen kan veroorzaken die op de gebruikte acties worden gebaseerd.
 
-
 ### Gegevensbronnen {#data-sources-g}
 
 * De externe gegevensbronnen kunnen binnen een klantenreis worden gebruikt om externe gegevens in echt op te zoeken - tijd. Deze bronnen moeten bruikbaar zijn via REST API, JSON ondersteunen en het volume van aanvragen kunnen verwerken.
@@ -153,7 +162,6 @@ U kunt uit één van deze twee oplossingen kiezen:
 
 Specifieke instructies zijn van toepassing op de **[!UICONTROL Update profile]** -activiteit. Zij zijn vermeld in [ deze pagina ](../building-journeys/update-profiles.md).
 
-
 ### Doelgroep lezen {#read-segment-g}
 
 De volgende instructies zijn van toepassing op de **[!UICONTROL Read Audience]** -activiteit:
@@ -166,18 +174,15 @@ De volgende instructies zijn van toepassing op de **[!UICONTROL Read Audience]**
 * Zie ook aanbevelingen over hoe te om **te gebruiken las de activiteit van het publiek** in [ deze pagina ](../building-journeys/read-audience.md).
 * De pogingen worden toegepast door gebrek op publiek-getriggerde reizen (die met a **Gelezen Publiek** of a **BedrijfsGebeurtenis** beginnen) terwijl het terugwinnen van de uitvoerbaan. Als er een fout optreedt tijdens het maken van de exporttaak, worden de pogingen om de 10mn opnieuw uitgevoerd, tot maximaal 1 uur. Daarna zullen we het als een mislukking beschouwen. Deze soorten reizen kunnen daarom tot 1 uur na de geplande tijd worden uitgevoerd.
 
-
 ### kwalificatie publiek {#audience-qualif-g}
 
 De volgende hulplijn is van toepassing op de **[!UICONTROL Audience Qualification]** -activiteit:
 
 * De kwalificatie-activiteit Publiek kan niet worden gebruikt met Adobe Campaign-activiteiten.
 
-
 ### Expression-editor {#expression-editor}
 
 * U kunt gebeurtenisveldgroepen niet gebruiken voor reizen die beginnen met een leespubliek, een kwalificatie Audience of een activiteit voor een zakelijke gebeurtenis. U moet een nieuw publiek creëren en een onpublieksvoorwaarde in de reis gebruiken.
-
 
 ### Activiteiten in de app {#in-app-activity-limitations}
 
@@ -197,8 +202,6 @@ De volgende hulplijn is van toepassing op de **[!UICONTROL Audience Qualificatio
 
 * De inhoud van berichten in de app is beperkt tot 2 MB. Het opnemen van grote afbeeldingen kan het publicatieproces belemmeren.
 
-
-
 ### Snelheid {#jump-g}
 
 Specifieke instructies zijn van toepassing op de **[!UICONTROL Jump]** -activiteit. Zij zijn vermeld in [ deze pagina ](../building-journeys/jump.md#jump-limitations).
@@ -209,37 +212,3 @@ De volgende instructies zijn van toepassing op de activiteiten **[!UICONTROL Cam
 
 * Adobe Campaign-activiteiten kunnen niet worden gebruikt met een Read-publiek of met een Audience-kwalificatieactiviteit.
 * Deze activiteiten kunnen niet worden gebruikt met In-app-activiteiten.
-
-## Audiëntenguardrails {#audience}
-
-U kunt maximaal 10 publiekscomposities in een bepaalde sandbox publiceren. Als u deze drempel hebt bereikt, moet u een samenstelling schrappen om ruimte vrij te maken en nieuwe te publiceren.
-
-## Garanties voor besluitvormingsbeheer {#decision-management}
-
-### Prestatiegerichten {#performance-guardrails}
-
-De leveringstijd komt overeen met het aantal beslissingsreacties dat binnen een bepaalde tijd door de app-service van het beslissingsbeheer kan worden geleverd. Het aantal besluiten per seconde wordt in onderstaande tabel aangegeven.
-
-| API | Besluiten per seconde |
-|---------|----------|
-| API-aanvragen voor besluitvorming | 500 per seconde |
-| Edge-API-aanvragen voor besluitvorming met Edge Segmentation | 1.500 per seconde |
-| Edge-API-aanvragen voor besluitvorming zonder Edge-segmentatie | 5.000 per seconde |
-
-### Beperkingen {#offers-limitations}
-
-De beperkingen van het besluitvormingsbeheer worden hieronder vermeld.
-
-* **goedgekeurde Persoonlijke Aanbiedingen + de Aanbiedingen van de Fallback** - tot 10.000 gecombineerde goedgekeurde Persoonlijke Aanbiedingen en goedgekeurde Aanbiedingen van de Fallback.
-* **Besluiten** - tot 10.000 Besluiten.
-* **Levende Besluiten** - de Dienst van de App van Offer Decisioning steunt tot 1.000 Levende Besluiten.
-* **Aanbiedingen die per reactie** zijn teruggekeerd - Offer Decisioning steunt tot 100 aanbiedingen die per verzoek over alle besluitvormingswerkingsgebied in verzoek zijn teruggekeerd.
-* **Inzamelingen** - tot 10.000 Inzamelingen.
-* **inzamelingen per Besluit** - tot 30 Inzamelingen per Besluit.
-* **Regels van het Besluit + het Rangschikken Functies** tot 10.000 gecombineerde de Regels van het Besluit en het Rangschikken Functies.
-* **Plaatsingen** - tot 1.000 Plaatsen.
-* **Plaatsingen per Besluit** - tot 30 Plaatsen per Besluit.
-* **Rangschikkende Methode per Besluit** - de Dienst van Offer Decisioning App steunt tot 30 Rangschikkende Functies per Besluit.
-* **AI het Rangschikken model** - de Dienst van de App van Offer Decisioning steunt tot 5 AI rangschikkende modellen.
-* **Kwalificatiecode van de Inzameling per Aanbieding of Inzameling** - de Dienst van Offer Decisioning App steunt tot 20 Kwalificatoren van de Inzameling in om het even welk enkel Gepersonaliseerd Aanbod of enige Inzameling.
-* **Totale Kwalificaties van de Inzameling** - de Dienst van Offer Decisioning App steunt tot 1.000 Kwalificatoren van de Inzameling.

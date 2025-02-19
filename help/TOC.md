@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
+source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2174'
 ht-degree: 25%
 
 ---
@@ -452,6 +452,7 @@ ht-degree: 25%
    + [Aan de slag met beslissingsmogelijkheden](using/experience-decisioning/gs-decision.md)
    + Decisioning {#experience-decisioning}
       + [Aan de slag met beslissing](using/experience-decisioning/gs-experience-decisioning.md)
+      + [Afbakening en beperkingen](using/experience-decisioning/decisioning-guardrails.md)
       + API-referentie {#api-reference}
          + Items kiezen {#decision-items}
             + [Beslissingsitems maken](using/experience-decisioning/api-reference/decisions-items/create.md)
@@ -486,6 +487,7 @@ ht-degree: 25%
    + Beslissingsbeheer {#offer-decisioning}
       + Aan de slag met beslissingsbeheer {#get-started-decision}
          + [Over het beheer van besluiten](using/offers/get-started/starting-offer-decisioning.md)
+         + [Belangrijke beheerinstructies en beperkingen](using/offers/decision-management-guardrails.md)
          + [Gebruikersinterface](using/offers/get-started/user-interface.md)
          + [Belangrijke stappen voor het maken en beheren van aanbiedingen](using/offers/offer-library/key-steps.md)
          + [Aangepast uploadpubliek gebruiken voor beslissingen](using/offers/custom-upload-decisioning.md)

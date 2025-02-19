@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -31,26 +31,6 @@ Deze besluitpunten zijn naadloos geïntegreerd in een brede waaier van binnenkom
 >Beslissingsbeleid is beschikbaar voor gebruik in code-gebaseerde ervaringscampagnes slechts.
 
 ➡️ een gebruiksgeval van begin tot eind dat toont hoe te om besluiten tot stand te brengen en hen te gebruiken in inhoudsexperimenten met het op code-gebaseerde ervaringskanaal wordt voorgesteld in [ deze sectie ](experience-decisioning-uc.md).
-
-## Afbeeldingen en beperkingen {#guardrails}
-
-Houd de volgende instructies en beperkingen in acht om een optimaal gebruik van beslissingsbevoegdheid te waarborgen:
-
-### Algemene scharrelingen {#general}
-
-* **de punten van de Aanbieding**: Elke puntinzameling kan tot 500 aanbiedingspunten bevatten.
-* **de attributen van de Douane**: Een besluitpunt kan een maximum van 100 douaneattributen omvatten.
-* **de strategieën van de Selectie &amp; besluitvormingspunten per beleid**: Een besluitvormingsbeleid steunt tot 10 gecombineerde selectiestrategieën en besluitvormingspunten.
-
-### Subsidiabiliteitsregels {#eligibility}
-
-* **het Nesten niveaus**: De het nesten diepte is beperkt tot 30 niveaus. Dit wordt gemeten door de `)` haakjes sluiten in de PQL-tekenreeks te tellen.
-* **het koordgrootte van de Regel**: Een regelkoord kan tot 15KB in grootte voor UTF-8 gecodeerde karakters zijn. Dit komt overeen met 15.000 ASCII-tekens (1 byte elk) of 3.750-7.500 niet-ASCII-tekens (2-4 bytes elk).
-
-### Beoordelingsformule {#ranking}
-
-* **het Nesten niveaus**: De het nesten diepte is beperkt tot 30 niveaus. Dit wordt gemeten door de `)` haakjes sluiten in de PQL-tekenreeks te tellen.
-* **grootte van het koord van de Formule**: Een regelkoord kan tot 8KB in grootte voor UTF-8 gecodeerde karakters zijn. Dit komt overeen met 8.000 ASCII-tekens (1 byte elk) of 2.000-4.000 niet-ASCII-tekens (2-4 bytes elk).
 
 ## Belangrijke stappen voor besluitvorming {#steps}
 

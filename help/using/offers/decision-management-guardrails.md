@@ -1,0 +1,90 @@
+---
+title: Beheersbeheerinstructies en beperkingen
+description: Meer informatie over richtlijnen en beperkingen voor het beheer van beslissingen.
+feature: Decisioning
+role: User
+level: Intermediate
+source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 8%
+
+---
+
+
+# Beheersbeheerinstructies en beperkingen {#decision-management-guardrails}
+
+Houd rekening met de volgende voorzorgsmaatregelen en beperkingen om een optimaal gebruik van het besluitvormingsbeheer te waarborgen.
+
+De volledige lijst van [!DNL Journey Optimizer] guardrails &amp; beperkingen is beschikbaar in [ deze sectie ](../start/guardrails.md).
+
+## Beslissingsverzoeken
+
+De leveringstijd komt overeen met het aantal beslissingsreacties dat binnen een bepaalde tijd door de app-service van het beslissingsbeheer kan worden geleverd.
+
+| Guardrail | Limiet |
+| ------- | ------- |
+| API-aanvragen voor besluitvorming per seconde | 500 |
+| Edge-API-aanvragen voor besluitvorming per seconde met Edge Segmentation | 1500 |
+| Edge-API-aanvragen voor besluitvorming per seconde zonder Edge-segmentatie | 5000 |
+| Teruggestuurde voorstellen per reactie | Maximaal 30 per beslissingsbereik of 100 in totaal |
+| Maximumaantal biedregels per aanvraag | 100 |
+
+## Besluiten
+
+| Guardrail | Limiet |
+| ------- | ------- |
+| Totaal besluiten | 10K |
+| Live beslissingen | 1K |
+| Plaatsingen per beslissing | 30 |
+
+## Verzamelingen
+
+| Guardrail | Limiet |
+| ------- | ------- |
+| Aanbiedingen per verzameling | 500 |
+| Verzamelingen | 10K |
+| Verzamelingen per beslissing | 30 |
+
+## Verzamelingsaanduidingen
+
+| Guardrail | Limiet |
+| ------- | ------- |
+| Verzamelingskwalificatie per aanbieding of verzameling | 20 |
+| Totaal aantal verzamelingskwalificaties | 1000 |
+
+## Aanbiedingen
+
+| Guardrail | Limiet |
+| ------- | ------- |
+| Totaal aantal aanbiedingen | 10K |
+| Max aantal van **actieve** aanbiedingen per zandbak | 10K |
+| Maximale grootte van aanbiedingen inclusief kenmerken (1 kB), max. 30 kenmerken | 1 kB |
+| Maximale representatiegrootte aanbieding (totaal voor alle stages) | 1 kB |
+
+## Subsidiabiliteitsregels
+
+| Guardrail | Limiet |
+| ------- | ------- |
+| Totale besluitvormingsregels en rangschikkingsformules | 10K gecombineerd |
+| Maximumaantal profielkenmerken per regel | 25 |
+| Max. aantal kenmerken van contextgegevens per regel | 30 |
+| Maximale grootte van PQL-regel | 15 K (UTF-8) |
+| Max. aantal nestniveaus | 30 |
+
+## Beoordelingsformule
+
+| Guardrail | Limiet |
+| ------- | ------- |
+| Maximale grootte van de rangschikkingsformule PQL | 8 K (UTF-8) |
+| Max. aantal profielkenmerken | 25 |
+| Max. aantal kenmerken van contextgegevens | 30 |
+| Max. aantal nestniveaus | 30 |
+
+## Overige
+
+| Guardrail | Limiet |
+| ------- | ------- |
+| Plaatsen | 1000 |
+| AI-classificatiemodel | 5 |
+| Frequentiecorrectie - Maximumaantal bijschriftregels per aanbieding | 10 |
