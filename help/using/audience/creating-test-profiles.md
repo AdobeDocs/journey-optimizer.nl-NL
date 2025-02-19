@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 05a882d3dec6b6f62eac432d14bb9ac9ad48257d
+source-git-commit: 1465b110812beba8b58c7dc2e01a65189f984c27
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1317'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,11 @@ ht-degree: 1%
 # Testprofielen maken {#create-test-profiles}
 
 De profielen van de test worden vereist wanneer het gebruiken van de [ testwijze ](../building-journeys/testing-the-journey.md) in een reis, en aan [ voorproef en test uw inhoud ](../content-management/preview-test.md).
+
+
+>[!NOTE]
+>
+>Met [!DNL Journey optimizer] kunt u ook verschillende varianten van uw inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [ Leer hoe te om uw inhoud te testen gebruikend de gegevens van de steekproefinput ](../test-approve/simulate-sample-input.md)
 
 U kunt testprofielen op verschillende manieren maken. Op deze pagina vindt u meer informatie over:
 
