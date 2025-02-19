@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: e798d413a4962bb037ff3cae595bcd87f4121e4f
+source-git-commit: 05a882d3dec6b6f62eac432d14bb9ac9ad48257d
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 1%
@@ -178,7 +178,8 @@ Uw testprofielen worden toegevoegd en kunnen nu worden gebruikt bij het testen v
 
 >[!NOTE]
 >
-> Voor meer informatie over csv de invoer, verwijs naar de [ documentatie van de Ingestie van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials) {target="_blank"}.
+>Voor meer informatie over csv de invoer, verwijs naar de [ documentatie van de Ingestie van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials) {target="_blank"}.
+>
 
 
 ## Testprofielen maken met behulp van API-aanroepen{#create-test-profiles-api}
