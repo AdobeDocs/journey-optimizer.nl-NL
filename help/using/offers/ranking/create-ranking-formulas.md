@@ -5,10 +5,11 @@ feature: Ranking, Decision Management
 topic: Integrations
 role: User
 level: Intermediate
+mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: baf76d3c571c62105c1f0a59e07ca70e61a83cc6
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
@@ -17,27 +18,27 @@ ht-degree: 0%
 
 ## Rangschikkingsformules {#about-ranking-formulas}
 
-**Beoordelingsformule** kunt u regels definiëren die bepalen welke aanbieding eerst voor een bepaalde plaatsing moet worden gepresenteerd, in plaats van rekening te houden met de prioriteitsscores van de aanbiedingen.
+**Rangschikkende formules** staan u toe om regels te bepalen die welke aanbieding eerst voor een bepaalde plaatsing, eerder dan rekening houdend met de prioritaire scores van aanbiedingen zullen bepalen.
 
-De rangschikkingsformules worden uitgedrukt in **PQL-syntaxis** en kan profielkenmerken, contextgegevens en kenmerken gebruiken. Raadpleeg voor meer informatie over het gebruik van de PQL-syntaxis de [speciale documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
+De rangschikkende formules worden uitgedrukt in **syntaxis van PQL** en kunnen attributen van het hefboomwerkingenprofiel, contextgegevens en aanbiedingsattributen. Voor meer op hoe te om de syntaxis van PQL te gebruiken, verwijs naar de [ specifieke documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
 
-Nadat u een rangschikkingsformule hebt gemaakt, kunt u deze toewijzen aan een plaatsing in een beslissing. Zie voor meer informatie [Aanbiedingen selecteren in beslissingen configureren](../offer-activities/configure-offer-selection.md).
+Nadat u een rangschikkingsformule hebt gemaakt, kunt u deze toewijzen aan een plaatsing in een beslissing. Voor meer op dit, zie [ aanbiedingsselectie in besluiten ](../offer-activities/configure-offer-selection.md) vormen.
 
 ## Een waarderingsformule maken {#create-ranking-formula}
 
 Voer de volgende stappen uit om een rangschikkingsformule te maken:
 
-1. Toegang krijgen tot de **[!UICONTROL Components]** en selecteert u vervolgens de **[!UICONTROL Ranking]** tab. De **[!UICONTROL Formulas]** is standaard geselecteerd. De lijst met eerder gemaakte formules wordt weergegeven.
+1. Open het menu **[!UICONTROL Components]** en selecteer vervolgens de tab **[!UICONTROL Ranking]** . Het tabblad **[!UICONTROL Formulas]** is standaard geselecteerd. De lijst met eerder gemaakte formules wordt weergegeven.
 
    ![](../assets/rankings-list.png)
 
-1. Klikken **[!UICONTROL Create ranking]** om een nieuwe rangschikkingsformule te creëren.
+1. Klik op **[!UICONTROL Create ranking]** om een nieuwe waarderingsformule te maken.
 
    ![](../assets/ranking-create-formula.png)
 
 1. Geef de naam, beschrijving en formule van de formule op.
 
-   In dit voorbeeld willen we de prioriteit van alle aanbiedingen verhogen met het kenmerk &quot;hot&quot; als het werkelijke weer heet is. Om dit te doen, **contextData.weather=hot** werd overgegaan in de beslissingsvraag.
+   In dit voorbeeld willen we de prioriteit van alle aanbiedingen verhogen met het kenmerk &quot;hot&quot; als het werkelijke weer heet is. Om dit te doen, werd **contextData.weather=hot** overgegaan in de beslissingsvraag. [ Leer hoe te met contextgegevens ](../context-data.md) te werken
 
    ![](../assets/ranking-syntax.png)
 
@@ -45,9 +46,9 @@ Voer de volgende stappen uit om een rangschikkingsformule te maken:
    >
    >Bij het maken van een rangschikkingsformule wordt het terugzoeken naar een vorige periode niet ondersteund. Bijvoorbeeld, als u een ervaringsgebeurtenis specificeert die binnen de laatste maand als component van de formule voorkwam. Elke poging om een terugzoekperiode op te nemen tijdens het maken van een formule, veroorzaakt een fout bij het opslaan ervan.
 
-1. Klikken **[!UICONTROL Save]**. Uw rangschikkingsformule wordt gecreeerd, kunt u het van de lijst selecteren om details te krijgen en het uit te geven of te schrappen.
+1. Klik op **[!UICONTROL Save]**. Uw rangschikkingsformule wordt gecreeerd, kunt u het van de lijst selecteren om details te krijgen en het uit te geven of te schrappen.
 
-   Het is nu klaar om te worden gebruikt in een besluit om in aanmerking komende aanbiedingen voor plaatsing in aanmerking te nemen (zie [Aanbiedingen selecteren in beslissingen configureren](../offer-activities/configure-offer-selection.md)).
+   Het is nu klaar om in een besluit worden gebruikt om in aanmerking komende aanbiedingen voor een plaatsing (zie [ te rangschikken aanbiedingen selectie in besluiten ](../offer-activities/configure-offer-selection.md)).
 
    ![](../assets/ranking-formula-created.png)
 
@@ -91,7 +92,7 @@ if( segmentMembership.get("ups").get(offer.characteristics.get("prioritySegmentI
 
 Als het profiel in de stad woont die overeenkomt met het aanbod, dan verdubbelt de prioriteit voor alle aanbiedingen in die stad.
 
-**Willekeurige formule:**
+**Rangschikkende formule:**
 
 ```
 if( offer.characteristics.get("city") = homeAddress.city, offer.rank.priority * 2, offer.rank.priority)
@@ -99,53 +100,17 @@ if( offer.characteristics.get("city") = homeAddress.city, offer.rank.priority * 
 
 ### Verhoog aanbiedingen waarbij de einddatum minder dan 24 uur is.
 
-**Willekeurige formule:**
+**Rangschikkende formule:**
 
 ```
 if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.priority * 3, offer.rank.priority)
-```
-
-### Verhoog aanbiedingen met bepaalde aanbiedingskenmerken op basis van contextgegevens
-
-Verhoog bepaalde aanbiedingen die op de contextgegevens worden gebaseerd die in de beslissingsvraag worden overgegaan. Als de `contextData.weather=hot` wordt overgegaan in de besluitvormingsvraag, de prioriteit van alle aanbiedingen met `attribute=hot` moet worden versterkt.
-
-**Willekeurige formule:**
-
-```
-if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull()
-and offer.characteristics.get("weather")=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)
-```
-
-Wanneer u de API voor besluitvorming gebruikt, worden de contextgegevens toegevoegd aan het profielelement in de aanvraaginstantie, zoals in het onderstaande voorbeeld.
-
-**Fragment van aanvraaginstantie:**
-
-```
-"xdm:profiles": [
-{
-    "xdm:identityMap": {
-        "crmid": [
-            {
-            "xdm:id": "CRMID1"
-            }
-        ]
-    },
-    "xdm:contextData": [
-        {
-            "@type":"_xdm.context.additionalParameters;version=1",
-            "xdm:data":{
-                "xdm:weather":"hot"
-            }
-        }
-    ]
- }],
 ```
 
 ### Verhoog de aanbiedingen op basis van de neiging van klanten om het aangeboden product te kopen
 
 U kunt de score voor een aanbieding verhogen op basis van een klantdichtheid-score.
 
-In dit voorbeeld is de instantiekant *_verkoopsnelheid* en het profielschema bevat een reeks scores die in een array zijn opgeslagen:
+In dit voorbeeld, is de instantiehuurder *_salesvelocity* en het profielschema bevat een waaier van scores die in een serie wordt opgeslagen:
 
 ![](../assets/ranking-example-schema.png)
 
@@ -169,14 +134,100 @@ In dit geval geldt voor een profiel als:
 }
 ```
 
-De aanbiedingen bevatten een kenmerk voor *propensityType* die overeenkomt met de categorie uit de scores:
+### Verhoog de aanbiedingen op basis van contextgegevens {#context-data}
 
-![](../assets/ranking-example-propensityType.png)
+Met [!DNL Journey Optimizer] kunt u bepaalde aanbiedingen verhogen op basis van de contextgegevens die in de aanroep worden doorgegeven. Als bijvoorbeeld `contextData.weather=hot` wordt doorgegeven, moet de prioriteit van alle aanbiedingen met `attribute=hot` worden verhoogd. Gedetailleerde informatie over hoe te om contextgegevens over te gaan gebruikend **Edge Beslissing** en **Beslissing** APIs, verwijs naar [ deze sectie ](../context-data.md)
 
-Uw rangschikkingsformule kan dan de prioriteit van elk aanbod aan gelijke klanten plaatsen *propensityScore* voor *propensityType*. Als geen score wordt gevonden, gebruik de statische prioriteit op de aanbieding wordt geplaatst:
+Merk op dat wanneer het gebruiken van **Beslissing** API, de contextgegevens aan het profielelement in het verzoeklichaam, zoals in het hieronder voorbeeld worden toegevoegd.
 
 ```
-let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring
-             where _Individual_Scoring1.core.category.equals(offer.characteristics.get("propensityType"), false)).head().core.propensityScore
-in if(score.isNotNull(), score, offer.rank.priority)
+"xdm:profiles": [
+{
+    "xdm:identityMap": {
+        "crmid": [
+            {
+            "xdm:id": "CRMID1"
+            }
+        ]
+    },
+    "xdm:contextData": [
+        {
+            "@type":"_xdm.context.additionalParameters;version=1",
+            "xdm:data":{
+                "xdm:weather":"hot"
+            }
+        }
+    ]
+    
+}],
 ```
+
+Hier zijn voorbeelden die illustreren hoe te om contextgegevens in het rangschikken formules te gebruiken om de prioriteit van aanbiedingen te verhogen. Breid elke sectie uit om details op de syntaxis van de rangschikkende formule te krijgen.
+
+>[!NOTE]
+>
+>Vervang `<OrgID>` in de Edge-voorbeelden voor beslissings-API door uw organisatie-TENant-id.
+
++++Verhoog de aanbiedingsprioriteit met 10 als het kanaal van contextgegevens het aangewezen kanaal van de klant aanpast
+
+>[!BEGINTABS]
+
+>[!TAB  Beslissing API ]
+
+`if (@{_xdm.context.additionalParameters;version=1}.channel.isNotNull() and @{_xdm.context.additionalParameters;version=1}.channel.equals(_abcMobile.preferredChannel), offer.rank.priority + 10, offer.rank.priority)`
+
+>[!TAB  Edge Beslissende API ]
+
+`if (xEvent.<OrgID>.channel.isNotNull() and xEvent.<OrgID>.channel.equals(_abcMobile.preferredChannel), offer.rank.priority + 10, offer.rank.priority)`
+
+>[!ENDTABS]
+
++++
+
++++Boost de prioriteit van alle aanbiedingen met &quot;attribute=hot&quot;als &quot;contextData.weather=hot&quot;in de vraag wordt overgegaan.
+
+>[!BEGINTABS]
+
+>[!TAB  Beslissing API ]
+
+`if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull() and offer.characteristics.get("weather")=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)`
+
+>[!TAB  Edge Beslissende API ]
+
+`if (xEvent.<OrgID>.weather.isNotNull() and offer.characteristics.get("weather")=xEvent.<OrgID>.weather, offer.rank.priority + 5, offer.rank.priority)`
+
+>[!ENDTABS]
+
++++
+
++++Verhoging oorsprong inhoud
+
+>[!BEGINTABS]
+
+>[!TAB  Beslissing API ]
+
+`if (@{_xdm.context.additionalParameters;version=1}.contentorigin.isNotNull() and offer.characteristics.contentorigin=@{_xdm.context.additionalParameters;version=1}.contentorigin, offer.rank.priority * 100, offer.rank.priority)`
+
+>[!TAB  Edge Beslissende API ]
+
+`if (xEvent.<OrgID>.contentorigin.isNotNull() and offer.characteristics.contentorigin=xEvent.<OrgID>.contentorigin, offer.rank.priority * 100, offer.rank.priority)`
+
+>[!ENDTABS]
+
++++
+
++++Weezelaar Boost
+
+>[!BEGINTABS]
+
+>[!TAB  Beslissing API ]
+
+`if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull() and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority * offer.characteristics.scoringBoost, offer.rank.priority)`
+
+>[!TAB  Edge Beslissende API ]
+
+`if (xEvent.<OrgID>.weather.isNotNull() and offer.characteristics.weather=xEvent.<OrgID>.weather, offer.rank.priority * offer.characteristics.scoringBoost, offer.rank.priority)`
+
+>[!ENDTABS]
+
++++

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Als de geselecteerde plaatsing beeld-type is, kunt u inhoud toevoegen die uit de
 
 >[!NOTE]
 >
-> Om met [ Adobe Experience Manager Assets Essentials ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html) {target="_blank"} te werken, moet u [!DNL Assets Essentials] voor uw organisatie opstellen en ervoor zorgen dat de gebruikers een deel van de **Gebruikers van de Assets Essentials Consumenten** of **Assets Essentials** profielen van het Product zijn. Leer meer op [ deze pagina ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html) {target="_blank"}.
+> Om met [ de Hoofdzaak van de Activa van de Manager van de Ervaring van Adobe te werken ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html) {target="_blank"}, moet u [!DNL Assets Essentials] voor uw organisatie opstellen en ervoor zorgen dat de gebruikers een deel van de **Hoofdzaak van Activa Consumenten** of/en **de Profielen van het Product van de Hoofdzaak van Activa** zijn. Leer meer op [ deze pagina ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html) {target="_blank"}.
 
 1. Kies de optie **[!UICONTROL Asset library]**.
 
@@ -90,7 +90,7 @@ Als de geselecteerde plaatsing beeld-type is, kunt u inhoud toevoegen die uit de
 
 Als de geselecteerde plaatsing HTML-type is, kunt u HTML of inhoud ook toevoegen JSON die uit de [ bibliotheek van de Activa van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html) {target="_blank"} komt.
 
-Bijvoorbeeld, creeerde u een HTML e-mailmalplaatje in [ Adobe Experience Manager ](https://experienceleague.adobe.com/docs/experience-manager.html) {target="_blank"} en u wilt dat dossier voor uw aanbiedingsinhoud gebruiken. In plaats van het creëren van een nieuw dossier, kunt u het malplaatje in de **Bibliotheek van Activa** eenvoudig uploaden om het in de vertegenwoordiging van uw aanbieding te kunnen opnieuw gebruiken.
+Bijvoorbeeld, creeerde u een e-mailmalplaatje van HTML in [ Adobe Experience Manager ](https://experienceleague.adobe.com/docs/experience-manager.html) {target="_blank"} en u wilt dat dossier voor uw aanbiedingsinhoud gebruiken. In plaats van het creëren van een nieuw dossier, kunt u het malplaatje in de **Bibliotheek van Activa** eenvoudig uploaden om het in de vertegenwoordiging van uw aanbieding te kunnen opnieuw gebruiken.
 
 Om uw inhoud in een vertegenwoordiging opnieuw te gebruiken, doorblader de **Bibliotheek van Activa** zoals die in [ wordt beschreven deze sectie ](#images) en selecteer het HTML of JSON dossier van uw keus.
 
@@ -140,7 +140,7 @@ U kunt ook teksttype-inhoud invoegen wanneer u een compatibele plaatsing selecte
 
 Wanneer de contextgegevens in de [ Edge beslissings ](../api-reference/offer-delivery-api/edge-decisioning-api.md) vraag worden overgegaan, kunt u hefboomwerking deze gegevens om vertegenwoordiging dynamisch te personaliseren. U kunt bijvoorbeeld de weergave van een aanbieding afstemmen op basis van real-time factoren, zoals de huidige weersomstandigheden op het moment dat de beslissing wordt genomen.
 
-Hiervoor neemt u de variabele met contextgegevens rechtstreeks op in de representatie-inhoud met behulp van de naamruimte `profile.timeSeriesEvents.` .
+Als u contextgegevens wilt gebruiken in aanbiedingsweergaven, neemt u de variabele met contextgegevens rechtstreeks op in de representatie-inhoud met behulp van de naamruimte `profile.timeSeriesEvents.` .
 
 Hier volgt een syntaxisvoorbeeld dat wordt gebruikt om de representatie van een aanbieding aan te passen op basis van de besturingssystemen van de gebruikers:
 

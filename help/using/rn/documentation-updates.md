@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '6056'
+source-wordcount: '6109'
 ht-degree: 12%
 
 ---
@@ -25,9 +25,10 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 * De documentatie voor **[!UICONTROL Send-Time optimization]** en de bijbehorende veelgestelde vragen zijn bijgewerkt, verbeterd en naar een nieuwe, speciale pagina verplaatst. [Meer informatie](../building-journeys/send-time-optimization.md)
 * Er zijn nieuwe instructies toegevoegd voor reisevenementen. [Meer informatie](../start/guardrails.md#events-g)
 * De ingebouwde pagina met kanaalacties is opnieuw ingedeeld. [Meer informatie](../building-journeys/journeys-message.md)
-* Er zijn instructies en beperkingen toegevoegd aan de afdeling Beslissingen en Beslissingsbeheer.
+* In de afdelingen Beslissingen en Beslissingsbeheer zijn instructies en beperkingen toegevoegd.
    * [Afbakening en beperkingen](../experience-decisioning/decisioning-guardrails.md)
    * [Beheersbeheerinstructies en beperkingen](../offers/decision-management-guardrails.md)
+* Er is een nieuw hoofdstuk over contextgegevens toegevoegd aan de documentatie over het beheer van besluiten. Het verstrekt informatie over hoe te om contextgegevens in de beslissingsmotor te hefboomwerking, bijvoorbeeld om een beslissingsregel te ontwerpen die het huidige weer om 80 graden op het tijdstip vereist het beslissingsverzoek wordt gemaakt. [Meer informatie](../offers/context-data.md)
 
 ## Januari 2025 {#jan-2025}
 

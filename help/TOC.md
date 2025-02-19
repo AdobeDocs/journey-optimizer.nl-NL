@@ -5,10 +5,10 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '2174'
-ht-degree: 25%
+source-wordcount: '2191'
+ht-degree: 24%
 
 ---
 
@@ -521,6 +521,10 @@ ht-degree: 25%
          + [Aan de slag met gegevensverzameling](using/offers/data-collection/data-collection.md)
          + [Een gegevensset maken om gebeurtenissen te verzamelen](using/offers/data-collection/create-dataset.md)
          + [Vastleggen van gebeurtenissen configureren](using/offers/data-collection/schema-requirement.md)
+      + Gebruik van contextgegevens {#context-data}
+         + [Aan de slag met contextgegevens](using/offers/context-data.md)
+         + [Contextgegevens en Edge-beslissingsverzoeken](using/offers/context-data-edge.md)
+         + [Contextgegevens- en beslissingsverzoek](using/offers/context-data-decisioning.md)
       + Beslissingsbeheerrapporten maken {#create-reports}
          + [Werken met gebeurtenissen in verband met het beheer van beslissingen](using/offers/reports/get-started-events.md)
          + [Toegang tot gebeurtenissen van XDM-velden](using/offers/reports/xdm-fields.md)
