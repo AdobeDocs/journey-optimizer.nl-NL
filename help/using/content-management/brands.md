@@ -7,9 +7,9 @@ badge: label="Beta" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: b1ccacd30acb886e06a3305f0c7046d85f558357
+source-git-commit: 288f44de1f92e808aa038020f247a720fefb6b1f
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,9 @@ ht-degree: 0%
 
 Merkrichtlijnen zijn een gedetailleerde reeks regels en normen die de visuele en verbale identiteit van een merk bepalen. Zij fungeren als referentie om een consistente merkweergave te behouden op alle marketing- en communicatieplatforms.
 
-In [!DNL Journey Optimizer] hebt u nu de optie om uw merkdetails handmatig in te voeren en in te delen of documenten met brandrichtlijnen te uploaden voor automatische informatie-extractie.
+<!--Upload feature currently behind feature flag--
+
+In [!DNL Journey Optimizer], you now have the option to manually input and organize your brand details or upload brand guideline documents for automatic information extraction.-->
 
 ## Toegangsmerken {#generative-access}
 
@@ -36,7 +38,7 @@ Gebruikers die het menu **[!UICONTROL Brands]** in [!DNL Adobe Journey Optimizer
 
 1. Voeg het **AI Medewerker** middel toe, dan uitgezocht **Beheerde merkuitrusting** of **[!UICONTROL Enable Ai assistant]** van het drop-down menu.
 
-   **[!UICONTROL Enable Ai assistant]** biedt alleen alleen alleen-lezen toegang tot het menu Groepen.
+   **[!UICONTROL Enable Ai assistant]** geeft alleen alleen alleen-lezen toegang tot het menu **[!UICONTROL Brands]** .
 
    ![](assets/brands-permission.png){zoomable="yes"}
 
@@ -54,7 +56,11 @@ Gebruikers die het menu **[!UICONTROL Brands]** in [!DNL Adobe Journey Optimizer
 
 ## Uw merk maken {#create-brand-kit}
 
-Als u uw merkenrichtlijn wilt maken en beheren, kunt u de details zelf invoeren of het document met uw merkenrichtlijnen uploaden om de informatie automatisch te laten uitnemen:
+Volg onderstaande stappen om uw richtlijnen voor uw merk te maken en te beheren.
+
+<!--Upload feature currently behind feature flag--
+
+To create and manage your Brand guideline, you can either enter the details yourself, or upload your brand guidelines document to have the information extracted automatically:-->
 
 1. Klik in het menu **[!UICONTROL Brands]** op **[!UICONTROL Create brand]** .
 
@@ -64,9 +70,7 @@ Als u uw merkenrichtlijn wilt maken en beheren, kunt u de details zelf invoeren 
 
    ![](assets/brands-2-temp.png)
 
-<!--
-
-[Upload feature currently behind feature flag so hidden from doc - should be available again by EOM (Feb)]
+<!--Upload feature currently behind feature flag so hidden from doc - should be available again by EOM (Feb)--
 
 1. Drag and drop or select your file to upload your brand guidelines and extract automatically relevant brand information. Click **[!UICONTROL Create brand]**.
 
@@ -78,19 +82,23 @@ Als u uw merkenrichtlijn wilt maken en beheren, kunt u de details zelf invoeren 
 
 -->
 
-1. Klik op het tabblad **[!UICONTROL Writing Style]** op ![](assets/do-not-localize/Smock_Add_18_N.svg) om een hulplijn of uitsluiting toe te voegen. U kunt ook voorbeelden toevoegen.
+1. Klik op het tabblad **[!UICONTROL Writing Style]** op ![](assets/do-not-localize/Smock_Add_18_N.svg) om een hulplijn of uitsluiting toe te voegen, inclusief voorbeelden.
 
    ![](assets/brands-3.png)
 
 1. Klik op het tabblad **[!UICONTROL Visual content]** op ![](assets/do-not-localize/Smock_Add_18_N.svg) om nog een hulplijn of uitsluiting toe te voegen.
 
-1. Klik op **[!UICONTROL Select image]** om een voorbeeld van een afbeelding toe te voegen. U kunt ook een afbeelding toevoegen waarin onjuist gebruik wordt getoond als uitsluitingsvoorbeeld.
+1. Als u een afbeelding met het juiste gebruik wilt toevoegen, selecteert u **[!UICONTROL Example]** en klikt u op **[!UICONTROL Select image]** . U kunt ook een afbeelding toevoegen waarin onjuist gebruik wordt getoond als uitsluitingsvoorbeeld.
 
    ![](assets/brands-4.png)
 
-1. Zodra gevormd, klik **[!UICONTROL Save]** toen **[!UICONTROL Publish]** om uw richtlijnen van Merken in de AI medewerker beschikbaar te maken.
+1. Als u deze hebt geconfigureerd, klikt u op **[!UICONTROL Save]** en vervolgens op **[!UICONTROL Publish]** om uw merkenhulplijn beschikbaar te maken in de AI-assistent.
 
-1. Klik op **[!UICONTROL Edit brand]** om wijzigingen aan te brengen in uw gepubliceerde merk. Op deze manier wordt een tijdelijke kopie gemaakt in de bewerkingsmodus, waarbij de live versie wordt vervangen nadat deze is gepubliceerd.
+1. Klik op **[!UICONTROL Edit brand]** om wijzigingen aan te brengen in uw gepubliceerde merk.
+
+   >[!NOTE]
+   >
+   >Er wordt dan een tijdelijke kopie gemaakt in de bewerkingsmodus, waarbij de live versie wordt vervangen nadat deze is gepubliceerd.
 
    ![](assets/brands-8.png)
 
@@ -105,6 +113,6 @@ Als u uw merkenrichtlijn wilt maken en beheren, kunt u de details zelf invoeren 
 
    ![](assets/brands-6.png)
 
-De richtlijnen voor merken zijn nu toegankelijk via de vervolgkeuzelijst Brands in het menu AI-assistent, zodat inhoud en elementen kunnen worden gegenereerd die zijn uitgelijnd op uw specificaties. [ leer meer op de AI medewerker ](gs-generative.md)
+De richtlijnen voor uw merk zijn nu beschikbaar via de vervolgkeuzelijst **[!UICONTROL Brand]** in het menu AI-assistent, zodat u inhoud en elementen kunt genereren die zijn afgestemd op uw specificaties. [ leer meer op de AI medewerker ](gs-generative.md)
 
 ![](assets/brands-7.png)
