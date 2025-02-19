@@ -9,16 +9,18 @@ role: User
 level: Intermediate
 keywords: problemen oplossen, problemen oplossen, reis, controle, fouten
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: e47c95ac8981356bcfb742105cbf1faa5d53c189
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 54%
+source-wordcount: '972'
+ht-degree: 52%
 
 ---
 
 # Uw reis oplossen {#troubleshooting}
 
-Leer in deze sectie hoe u problemen met reizen kunt oplossen voordat u gaat testen of publiceren. Alle hieronder vermelde controles kunnen worden uitgevoerd in de testmodus van de journey of wanneer de journey live is. De aanbeveling is om alle onderstaande controles in de testmodus uit te voeren en vervolgens tot publicatie over te gaan. Zie [deze pagina](../building-journeys/testing-the-journey.md).
+Leer in deze sectie hoe u problemen met reizen kunt oplossen voordat u gaat testen of publiceren. Alle hieronder vermelde controles kunnen worden uitgevoerd in de testmodus van de journey of wanneer de journey live is. De aanbeveling is om alle onderstaande controles in de testmodus uit te voeren en vervolgens tot publicatie over te gaan. Leer meer over de testwijze in [ deze pagina ](../building-journeys/testing-the-journey.md).
+
+Als beheerder, kunt u uw configuraties van douaneacties ook testen door echte API vraag rechtstreeks van het gebruikersinterface te maken. Meer informatie vindt u [op deze pagina](../action/troubleshoot-custom-action.md).
 
 ## Controleren op fouten voordat wordt getest {#checking-for-errors-before-testing}
 
