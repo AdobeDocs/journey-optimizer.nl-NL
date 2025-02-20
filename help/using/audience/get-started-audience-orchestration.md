@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: ef7ae0a6ad1f582f91e53fd93dabffa39036a584
+source-git-commit: c0698c949622dbd9b4d97eaefedb67ff9f557347
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -97,13 +97,6 @@ ht-degree: 0%
 >title="Andere profielen"
 >abstract="Schakel deze optie in of uit om een extra pad te maken met de resterende profielen die niet overeenkomen met een van de voorwaarden die in de andere paden zijn opgegeven."
 
->[!CONTEXTUALHELP]
->id="ajo_ao_publish"
->title="Uw publiek publiceren"
->abstract="Publiceer uw compositie om het resulterende publiek of de doelgroepen op te slaan in Adobe Experience Platform."
->
-[!BEGINSHADEBOX]
-
 Deze documentatie bevat gedetailleerde informatie over het werken met de compositie van het publiek in Adobe Journey Optimizer. Als u een slechts klant in real time van het Profiel van de Klant bent en Adobe Journey Optimizer niet gebruikt, [ klik hier ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html) {target="_blank"}.
 
 >[!ENDSHADEBOX]
@@ -172,11 +165,6 @@ Ga als volgt te werk om een compositieworkflow te maken:
 >Het publiek van **publiekssamenstelling** wordt dagelijks uitgevoerd, zodat kunt u tot 24 uren moeten wachten om hen in Journey Optimizer te gebruiken. De verrijkte attributen in het publiek van de publiekssamenstelling zijn zo vers zoals de laatste samenstellingslooppas, die tot 24 uren in het verleden kan zijn.
 
 ## Toegang tot composities {#access}
-
->[!CONTEXTUALHELP]
->id="ajo_ao_publish"
->title="Uw publiek publiceren"
->abstract="Publiceer uw compositie om het resulterende publiek of de doelgroepen op te slaan in Adobe Experience Platform."
 
 Alle gemaakte composities zijn toegankelijk via het tabblad **[!UICONTROL Compositions]** . U kunt een bestaande compositie op elk gewenst moment dupliceren of verwijderen met de knop voor weglatingen in de lijst.
 
