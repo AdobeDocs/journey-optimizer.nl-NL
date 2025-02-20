@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+source-git-commit: ef7ae0a6ad1f582f91e53fd93dabffa39036a584
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,87 @@ ht-degree: 0%
 >title="Een compositie maken"
 >abstract="Een compositieworkflow maken om bestaande Adobe Experience Platform-doelgroepen te combineren tot een visueel canvas en verschillende activiteiten (splitsen, uitsluiten...) gebruiken om nieuwe doelgroepen te maken."
 
->[!BEGINSHADEBOX]
+>[!CONTEXTUALHELP]
+>id="ajo_ao_publish"
+>title="Uw publiek publiceren"
+>abstract="Publiceer uw compositie om het resulterende publiek of de doelgroepen op te slaan in Adobe Experience Platform."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_audience"
+>title="Poortactiviteit"
+>abstract="Met de activiteit van het publiek kunt u in uw compositie aanvullende profielen opnemen die tot een bestaand publiek behoren."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_merge_types"
+>title="Typen samenvoegen"
+>abstract="Geef op hoe de profielen van het geselecteerde publiek moeten worden samengevoegd."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_exclude_type"
+>title="Type uitsluiten"
+>abstract="Met het publiekstype Niet opnemen kunt u profielen uitsluiten die tot een bestaand publiek behoren. Met de optie Uitsluiten met behulp van het kenmerktype kunt u profielen uitsluiten op basis van een specifiek kenmerk."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_exclude"
+>title="Exclusief activiteit"
+>abstract="Met de activiteit Uitsluiten kunt u profielen uitsluiten van uw compositie door een bestaand publiek te selecteren of een regel te gebruiken."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich"
+>title="Verrijken van activiteit"
+>abstract="Gebruik de Verrijken activiteit om uw publiek met extra attributen te verrijken die uit de datasets van Adobe Experience Platform komen. U kunt bijvoorbeeld informatie met betrekking tot het aangekochte product toevoegen, zoals de naam, de prijs of de fabrikant-id, en deze informatie gebruiken om de leveringen die naar het publiek worden verzonden, aan te passen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_dataset"
+>title="Verrijkingsgegevens"
+>abstract="Selecteer de verrijkingsdataset die de gegevens bevat die u aan het publiek wilt associëren."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_criteria"
+>title="Verrijkingscriteria"
+>abstract="Selecteer de velden die u wilt gebruiken als combinatietoets tussen de brondataset, d.w.z. het publiek, en de verrijkingsdataset."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_attributes"
+>title="Verrijkingskenmerken"
+>abstract="Selecteer een of meerdere kenmerken in de verrijkingsgegevensset die u aan het publiek wilt koppelen. Zodra de samenstelling wordt gepubliceerd, worden deze attributen geassocieerd aan het publiek en kunnen in campagnes van Journey Optimizer worden gebruikt om leveringen te personaliseren."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_ranking"
+>title="Leesactiviteit"
+>abstract="De activiteit van de Rang staat u toe om profielen te rangschikken die op een specifiek attribuut worden gebaseerd en hen te omvatten in uw samenstelling. Neem bijvoorbeeld de 50 profielen op met de grootste hoeveelheid loyaliteitspunten."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_rank_profilelimit_text"
+>title="Profiellimiet toevoegen"
+>abstract="Schakel deze optie in om een maximumaantal profielen op te geven dat u in de compositie wilt opnemen."
+
+<!-- [!CONTEXTUALHELP]
+>id="ajo_ao_control_group_text"
+>title="Control Group"
+>abstract="Use control groups to isolate a portion of the profiles. This allows you to measure the impact of a marketing activity and make a comparison with the behavior of the rest of the population."-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_split"
+>title="Gesplitste activiteit"
+>abstract="Met de activiteit Splitsen kunt u de compositie in meerdere paden verdelen. Wanneer u de compositie publiceert, wordt voor elk pad één publiek opgeslagen in Adobe Experience Platform."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_split_type"
+>title="Tekst splitsen"
+>abstract="Met het gesplitste percentage kunt u profielen op willekeurige wijze splitsen in meerdere paden. Met het splitsingstype Kenmerk kunt u profielen splitsen op basis van een specifiek kenmerk."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_split_otherprofiles_text"
+>title="Andere profielen"
+>abstract="Schakel deze optie in of uit om een extra pad te maken met de resterende profielen die niet overeenkomen met een van de voorwaarden die in de andere paden zijn opgegeven."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_publish"
+>title="Uw publiek publiceren"
+>abstract="Publiceer uw compositie om het resulterende publiek of de doelgroepen op te slaan in Adobe Experience Platform."
+>
+[!BEGINSHADEBOX]
 
 Deze documentatie bevat gedetailleerde informatie over het werken met de compositie van het publiek in Adobe Journey Optimizer. Als u een slechts klant in real time van het Profiel van de Klant bent en Adobe Journey Optimizer niet gebruikt, [ klik hier ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html) {target="_blank"}.
 
