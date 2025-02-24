@@ -8,10 +8,12 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+badge: label="Beta" type="Informative"
+exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
+source-git-commit: 962dbbb070bbfe944e174bc330659599a1101ebe
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 1%
+source-wordcount: '410'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +23,7 @@ ht-degree: 1%
 >
 >Deze integratie is uitsluitend beschikbaar voor klanten die Dynamic Media Manager as a Cloud Service gebruiken.
 
-De Asset-kiezer ondersteunt nu Dynamische media waarmee u goedgekeurde dynamische media-uitvoeringen naadloos kunt selecteren en gebruiken in Journey Optimizer. Wijzigingen die u aanbrengt in de middelen van Adobe Experience Manager, worden direct weerspiegeld in uw Journey Optimizer-inhoud. Zo weet u zeker dat de meest actuele versies altijd worden gebruikt zonder dat u handmatige updates hoeft uit te voeren.
+De Asset-kiezer ondersteunt nu Dynamische media waarmee u goedgekeurde dynamische media-uitvoeringen naadloos kunt selecteren en gebruiken in Journey Optimizer. Wijzigingen die u aanbrengt in elementen in Adobe Experience Manager, worden direct weerspiegeld in uw Journey Optimizer-inhoud. Zo weet u zeker dat de meest actuele versies altijd worden gebruikt zonder dat u handmatige updates hoeft uit te voeren.
 
 Meer op Dynamische Media in Adobe Experience Manager as a Cloud Service leren, verwijs naar [ documentatie van Experience Manager ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media).
 
@@ -43,31 +45,23 @@ Verbeter en optimaliseer uw inhoud voor om het even welk scherm of browser door 
 
 1. Blader door uw AEM-middelen en selecteer de middelen die u aan uw inhoud wilt toevoegen.
 
-1. Pas de afbeeldingsparameters (bijvoorbeeld hoogte en breedte) naar wens aan de vereisten voor het element aan.
+1. Pas de afbeeldingsparameters (bijv. hoogte, breedte, roteren, spiegelen, helderheid, kleurtoon, enz.) naar wens aan de vereisten voor het element aan.
+
+   Voor een uitvoerige lijst van beeldparameters die aan URL kunnen worden toegevoegd, verwijs naar [ documentatie van Experience Manager ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference).
+
+   ![](assets/dynamic-media-3.png)
 
 1. Klik op **[!UICONTROL Save]**.
 
 Uw inhoud bevat nu dynamische media. Alle updates die u aanbrengt in Experience Manager, worden automatisch weergegeven in Journey Optimizer.
 
-## Personalization afbeeldingen gebruiken met tekstbedekking
+## Personalization met tekstbedekking
 
-U kunt inhoud eenvoudig presenteren met afbeeldingen met tekstbedekking.
-tekst kan worden gewijzigd in AJO door de bovenstaande URL te wijzigen
+U kunt alle dynamische media eenvoudig aanpassen door de bestaande tekstbedekking te vervangen door nieuwe tekst van uw keuze, zodat u naadloze updates en personalisatie kunt uitvoeren.
 
-1. Sleep een **[!UICONTROL HTML component]** naar de inhoud.
+Met de experimentatiefunctie kunt u bijvoorbeeld de bestaande tekstbedekking bijwerken door deze te vervangen door een andere tekst voor elke behandeling, zodat deze voor elk profiel wordt aangepast wanneer de berichten worden geopend.
 
-1. Selecteer **[!UICONTROL Show the source code]**.
-
-1. Open **[!UICONTROL Assets]** then **[!UICONTROL Open asset selector]** via het menu **[!UICONTROL Edit HTML]** .
-
-   U kunt ook gewoon de URL van uw elementen kopiëren en plakken.
-
-1. Blader door uw AEM-elementen en selecteer de element die u aan uw inhoud wilt toevoegen.
-
-## Aanpassing bij uitvoering
-
-Gelaagde sjablonen met DM-lagen parameteren met hulp van de WYSIWYG-auteur om inhoud aan te passen
-Toewijzing van profiel-/contextafhankelijke kenmerken met de personaliseringseditor van AJO&#39;s
+![](assets/dynamic-media-layout-1.png)
 
 1. Sleep een **[!UICONTROL HTML component]** naar de inhoud.
 
@@ -78,3 +72,81 @@ Toewijzing van profiel-/contextafhankelijke kenmerken met de personaliseringsedi
    U kunt ook gewoon de URL van uw elementen kopiëren en plakken.
 
 1. Blader door uw AEM-elementen en selecteer de element die u aan uw inhoud wilt toevoegen.
+
+1. Vervang de bedekking door de gewenste tekst.
+
+   ![](assets/do-not-localize/dynamic_media_layout.gif)
+
+1. Werk de afbeeldingsparameters bij:
+
+   * **Laag**: ga het basiselement in waar uw tekst wordt geplaatst.
+   * **Grootte**: werk de grootte van uw tekstblok bij.
+   * **TextAttr**: pas de grootte van uw tekstdoopvont aan.
+   * **Pos**: plaats de positie van uw tekst in het beeld.
+
+   >[!WARNING]
+   >
+   >De parameter van de Laag wordt vereist om uw dynamische media bij te werken.
+
+   ![](assets/dynamic-media-layout-2.png)
+
+1. Klik op **[!UICONTROL Save]**.
+
+Uw inhoud bevat nu uw bijgewerkte tekstbedekking.
+
+![](assets/dynamic-media-layout-3.png)
+
+<!--
+## Personalization with Text Overlay
+
+Easily customize any dynamic media by replacing the existing text overlay with new text of your choice, allowing for seamless updates and personalization.
+
+In this example, our goal is to update the existing text overlay by replacing it with a new validity date and adding a personalization block, ensuring it is customized for each profile when they open their messages.
+
+1. Drag and drop an **[!UICONTROL HTML component]** into your content.
+
+1. Select **[!UICONTROL Show the source code]**.
+
+1. From the **[!UICONTROL Edit HTML]** menu, access **[!UICONTROL Assets]** then **[!UICONTROL Open asset selector]**.
+
+    You can also simply copy and paste your assets URL.
+
+1. Browse through your AEM assets and select the one you want to add to your content.
+
+1. Replace the overlay with the desired text.
+
+    Here we change the validity date from 31st December 2024 to the 1st July 2025.
+
+1. Add the required personalization fields to your image.
+
+1. Click **[!UICONTROL Save]**.
+
+Your content now includes your updated text overlay and personalization.
+
+## Add Dynamic media conditional content
+
+Enable conditional content in your dynamic media to better target your audience and deliver a more personalized experience.
+
+1. Drag and drop an **[!UICONTROL HTML component]** into your content.
+
+1. Select **[!UICONTROL Show the source code]**.
+
+1. From the **[!UICONTROL Edit HTML]** menu, access **[!UICONTROL Assets]** then **[!UICONTROL Open asset selector]**.
+
+    You can also simply copy and paste your assets URL.
+
+1. Browse through your AEM assets and select the one you want to add to your content.
+
+1. Once your dynamic media is inserted to your content, select **[!UICONTROL Enable conditional]** content from your HTML component toolbar to create your different user experiences. 
+
+1. From the Variant - 1, click **[!UICONTROL Select condition]** to fine tune your audience.
+
+1. Choose your condition or create a new one if needed and click **[!UICONTROL Select]**.
+
+    [Learn more on conditions](../personalization/create-conditions.md)
+
+1. Select your **[!UICONTROL Component]** and access the **[!UICONTROL Settings]** menu.
+
+1. In the **[!UICONTROL Custom Attributes]** menu, populate the Dynamic Media text and personalization fields to customize the content for your audience.
+
+-->
