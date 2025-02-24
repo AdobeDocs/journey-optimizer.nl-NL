@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 962dbbb070bbfe944e174bc330659599a1101ebe
+source-git-commit: 3a10f8440515bd569f9def6d15ac74d57427c1cf
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Verbeter en optimaliseer uw inhoud voor om het even welk scherm of browser door 
 
 Uw inhoud bevat nu dynamische media. Alle updates die u aanbrengt in Experience Manager, worden automatisch weergegeven in Journey Optimizer.
 
-## Personalization met tekstbedekking
+## Uw tekstbedekking aanpassen
 
 U kunt alle dynamische media eenvoudig aanpassen door de bestaande tekstbedekking te vervangen door nieuwe tekst van uw keuze, zodat u naadloze updates en personalisatie kunt uitvoeren.
 
