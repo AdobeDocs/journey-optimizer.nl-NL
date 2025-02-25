@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: kwalificatie, evenementen, publiek, reis, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
+source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
 
 * Wanneer u een publiekskwalificatie gebruikt op een reis, kan het tot 10 minuten duren voordat de activiteit van de publiekskwalificatie actief is en naar profielen luistert die het publiek binnenkomen of verlaten.
 
-### De activiteit configureren{#cnfigure-segment-qualification}
+### De activiteit configureren {#configure-segment-qualification}
 
 Voer de volgende stappen uit om de **[!UICONTROL Audience Qualification]** -activiteit te configureren:
 
@@ -130,7 +130,7 @@ Gebruik in een **[!UICONTROL Audience Qualification]** -activiteit niet meteen n
 
 ![](assets/segment-error.png)
 
-Plaats een plafondregel voor gegevensbronnen en handelingen die tijdens reizen worden gebruikt om overbelasting te voorkomen. Leer meer in [ documentatie van het Journey Orchestration ](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html) {target="_blank"}. De bijschilderregel hoeft niet opnieuw te worden uitgevoerd. Als u het opnieuw moet proberen, moet u een alternatief pad in de reis gebruiken door het vakje **[!UICONTROL Add an alternative path in case of a timeout or an error]** in voorwaarden of acties te controleren.
+Plaats een plafondregel voor gegevensbronnen en handelingen die tijdens reizen worden gebruikt om overbelasting te voorkomen. Leer meer in [ documentatie van Journey Orchestration ](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html) {target="_blank"}. De bijschilderregel hoeft niet opnieuw te worden uitgevoerd. Als u het opnieuw moet proberen, moet u een alternatief pad in de reis gebruiken door het vakje **[!UICONTROL Add an alternative path in case of a timeout or an error]** in voorwaarden of acties te controleren.
 
 Voordat u het publiek in een productiereis gaat gebruiken, moet u altijd eerst het aantal personen evalueren dat elke dag voor dit publiek in aanmerking komt. U kunt dit doen door het menu **[!UICONTROL Audience]** te selecteren, het publiek te openen en vervolgens naar de **[!UICONTROL Profiles over time]** -grafiek te kijken.
 

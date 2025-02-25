@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: gebeurtenissen, gebeurtenis, reis, definitie, begin
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
+source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 31%
+source-wordcount: '986'
+ht-degree: 29%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="Reisevenementen"
->abstract="Een gebeurtenis is gekoppeld aan een persoon en Het heeft betrekking op het gedrag van een persoon (bijvoorbeeld een persoon heeft een product gekocht, een winkel bezocht, een website verlaten, enz.) of iets wat met een persoon in verband staat (bijvoorbeeld een persoon heeft 10 000 loyaliteitspunten bereikt). Dit is waar Journey Optimizer naar zal luisteren tijdens reizen om de beste volgende acties te organiseren."
+>abstract="Een gebeurtenis is gekoppeld aan een persoon en Het heeft betrekking op het gedrag van een persoon (bijvoorbeeld een persoon heeft een product gekocht, een winkel bezocht, een website verlaten, enz.) of iets wat met een persoon in verband staat (bijvoorbeeld een persoon heeft 10 000 loyaliteitspunten bereikt). Journey Optimizer luistert naar monitaire gebeurtenissen tijdens reizen om de beste volgende acties te ordenen."
 
-Met de gebeurtenisconfiguratie kunt u de informatie definiëren die door [!DNL Journey Optimizer] als gebeurtenissen wordt ontvangen. U kunt meerdere gebeurtenissen gebruiken (in verschillende stappen van een reis) en verschillende reizen kunnen dezelfde gebeurtenis gebruiken.
+Met de gebeurtenisconfiguratie kunt u de gegevens definiëren die [!DNL Journey Optimizer] ontvangt als gebeurtenissen. U kunt meerdere gebeurtenissen gebruiken (in verschillende stappen van een reis) en verschillende reizen kunnen dezelfde gebeurtenis gebruiken.
 
 >[!CAUTION]
 >

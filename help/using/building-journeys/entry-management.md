@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: terugkeer, reis, profiel, terugkerend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
+source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '701'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,11 @@ ht-degree: 1%
 
 # Profieltoegangsbeheer {#entry-management}
 
-Profielbeheer is afhankelijk van het type reis. In Adobe Journey Optimizer zijn de volgende soorten reizen beschikbaar:
+Profielbeheer is afhankelijk van het type reis.
+
+## Soorten reizen {#types-of-journeys}
+
+In Adobe Journey Optimizer zijn de volgende soorten reizen beschikbaar:
 
 * **Eenheids gebeurtenis** reizen: deze reizen beginnen met een Unitaire gebeurtenis. Wanneer de gebeurtenis wordt ontvangen, gaat het bijbehorende profiel de reis in. [Meer informatie](#entry-unitary)
 

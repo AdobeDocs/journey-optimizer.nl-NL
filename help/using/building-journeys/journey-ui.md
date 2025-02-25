@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
+source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 2%
+source-wordcount: '1088'
+ht-degree: 3%
 
 ---
 
@@ -64,11 +64,19 @@ Daarnaast wordt in het configuratievenster Gebeurtenis, Gegevensbron en Handelin
 
 ## Soorten reizen {#journey-types}
 
-Het type kan zijn: **[!UICONTROL Unitary event]**, **[!UICONTROL Audience qualification]**, **[!UICONTROL Read audience]** of **[!UICONTROL Business event]** .
+Het soort reis hangt af van de activiteiten die in die reis worden gebruikt. Het kan zijn:
+
+* **[!UICONTROL Unitary event]** - Eenheidsuitzettingen worden gekoppeld aan een specifiek profiel. Gebeurtenissen hebben betrekking op het gedrag van een persoon of iets dat met een persoon verband houdt (een persoon bereikte bijvoorbeeld 10 000 loyaliteitspunten). [Meer informatie](../event/about-events.md).
+* **[!UICONTROL Business event]**. De reis van bedrijfsgebeurtenissen begint met een niet-profielgerelateerde gebeurtenis. De gebeurtenisconfiguratie wordt uitgevoerd door een technische gebruiker en kan niet worden uitgegeven. [Meer informatie](../event/about-events.md).
+* **[!UICONTROL Audience qualification]** - De kwalificatiereizen van het publiek beluisteren de ingangen en de uitgangen van profielen in het Adobe Experience Platform-publiek om ervoor te zorgen dat individuen een reis kunnen betreden of vooruit kunnen gaan. [Meer informatie](audience-qualification-events.md).
+* **[!UICONTROL Read audience]** - Bij Lezen kijkreizen nemen alle personen in het publiek de reis in en ontvangen ze de berichten die in uw reis zijn opgenomen.  [Meer informatie](read-audience.md).
+
+
+Leer meer over reistypes en bijbehorend ingangsbeheer in [ deze pagina ](entry-management.md).
 
 ## Reisstatussen {#journey-statuses}
 
-De reisstatus kan zijn:
+De reisstatus hangt af van de levenscyclus. Het kan zijn:
 
 * **Gesloten**: de reis is gesloten gebruikend **dicht aan nieuwe ingangen** knoop. De reis houdt in dat nieuwe individuen de reis kunnen betreden. Personen die al onderweg zijn, kunnen de reis normaal afmaken.
 * **Ontwerp**: de reis is in zijn eerste stadium. Het is nog niet gepubliceerd.
