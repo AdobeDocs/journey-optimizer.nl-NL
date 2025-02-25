@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
-source-wordcount: '6109'
+source-wordcount: '6144'
 ht-degree: 12%
 
 ---
@@ -22,6 +22,8 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 
 ## Februari 2025 {#feb-2025}
 
+* De stappen voor het maken van uw eerste ritten zijn in detail beschreven en er zijn koppelingen naar de sectie documentatie toegevoegd. [Meer informatie](../building-journeys/journey-gs.md)
+* Er is nu een nieuwe pagina beschikbaar met details over de reizen van de gebruikersinterface voor het beheer van de reis. [Meer informatie](../building-journeys/journey-ui.md)
 * De documentatie voor **[!UICONTROL Send-Time optimization]** en de bijbehorende veelgestelde vragen zijn bijgewerkt, verbeterd en naar een nieuwe, speciale pagina verplaatst. [Meer informatie](../building-journeys/send-time-optimization.md)
 * Er zijn nieuwe instructies toegevoegd voor reisevenementen. [Meer informatie](../start/guardrails.md#events-g)
 * De ingebouwde pagina met kanaalacties is opnieuw ingedeeld. [Meer informatie](../building-journeys/journeys-message.md)

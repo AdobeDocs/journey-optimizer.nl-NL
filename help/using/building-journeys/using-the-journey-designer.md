@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: ontwerp, canvas, reis, interface, slepen, neerzetten
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
 source-wordcount: '1614'
 ht-degree: 0%
@@ -65,7 +65,9 @@ Afhankelijk van de reisstatus kunt u verschillende handelingen op uw reis uitvoe
 
 ## Begin uw reis {#start-your-journey}
 
-Wanneer je je reis ontwerpt, wil je je eerst afvragen hoe profielen de reis zullen betreden. Er zijn twee mogelijkheden:
+Wanneer je je reis ontwerpt, wil je je eerst afvragen hoe profielen de reis zullen betreden.
+
+Er zijn twee mogelijkheden:
 
 1. **Begin met een gebeurtenis**: wanneer een reis wordt geplaatst om aan gebeurtenissen te luisteren, gaan de individuen de reis **unitatically** in real time in. Berichten die in uw reis zijn opgenomen, worden verzonden naar de persoon die momenteel op reis gaat. [ Leer meer over gebeurtenissen ](../event/about-events.md)
 
@@ -97,7 +99,7 @@ Met de andere activiteiten kunt u voorwaarden aan uw reis toevoegen om meerdere 
 
 ### Acties{#jo-actions}
 
-Handelingen zijn wat u wilt doen als gevolg van een of andere trigger, zoals het verzenden van een bericht. Het is het traject dat de klant ervaart. Dit kan een e-mail-, sms- of pushbericht zijn of een actie van een derde, zoals een Slack-bericht.
+Handelingen zijn wat u wilt doen als gevolg van een of andere trigger, zoals het verzenden van een bericht. Het is het traject dat de klant ervaart. Dit kan een e-mail-, SMS- of pushbericht zijn of een actie van een derde, zoals een Slack-bericht.
 
 Met de activiteiten van de kanaalhandeling kunt u een bericht opnemen dat is ontworpen in [!DNL Journey Optimizer] . [ leer meer over de activiteiten van de kanaalactie ](journeys-message.md)
 

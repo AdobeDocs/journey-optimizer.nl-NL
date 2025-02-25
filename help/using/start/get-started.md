@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 2%
@@ -21,9 +21,14 @@ ht-degree: 2%
 
 [!DNL Adobe Journey Optimizer] helpt bedrijven om verbonden, contextafhankelijke en persoonlijke ervaringen aan hun klanten te bieden. De reis van de klant is het volledige proces van interactie van een klant met het merk, van het eerste ogenblik van contact tot de klant vertrekt. Het begint met de bewustmakingsfase, waarin de klant leert over het merk en begint met het engageren. De klant zal dan verder met het merk communiceren, online en fysieke sites bezoeken, aankopen doen, berichten verzenden of revisies verzenden.
 
-[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en combineert een uniform, realtime klantprofiel, een API-eerste open framework, gecentraliseerde offer decisioning en artificieel intelligentie (AI) en computerleren (ML) voor personalisatie en optimalisatie. Met Journey Optimizer kunnen merken op intelligente wijze bepalen wat de volgende beste interactie is met schaal, snelheid en flexibiliteit voor de hele reis van de klant. Met [!DNL Adobe Journey Optimizer] kunnen bedrijven zowel geplande marketingcampagnes (zoals wekelijkse promoties voor een detailhandel) als op maat gesneden individuele communicatie (zoals een pushmelding voor een item dat een klant van een loyauteit-app eerder heeft bekeken) binnen dezelfde toepassing maken en leveren.
+[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en combineert een uniform, realtime klantprofiel, een API-eerste open framework, gecentraliseerde besluitvorming over aanbiedingen en kunstmatige intelligentie (AI) en computertraining (ML) voor personalisatie en optimalisatie. Met Journey Optimizer kunnen merken op intelligente wijze bepalen wat de volgende beste interactie is met schaal, snelheid en flexibiliteit voor de hele reis van de klant. Met [!DNL Adobe Journey Optimizer] kunnen bedrijven zowel geplande marketingcampagnes (zoals wekelijkse promoties voor een detailhandel) als op maat gesneden individuele communicatie (zoals een pushmelding voor een item dat een klant van een loyauteit-app eerder heeft bekeken) binnen dezelfde toepassing maken en leveren.
 
 ➡️ [ ontdekt Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html) {target="_blank"} (video)
+
+
+<!-- Use [!DNL Adobe Journey Optimizer] to build multi-step customer journeys that initiate a sequence of interactions, offers, and messages across channels in real time. This approach ensures customers are engaged at the optimal moments based on their actions and relevant business signals. Learn how to build journeys in [this section](../building-journeys/journey-gs.md).
+
+You can also create audience-based campaigns to send messages.-->
 
 
 ## Gebruiksscenario’s {#use-cases}

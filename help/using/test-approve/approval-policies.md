@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: decd8e222a1cd2f8767a1b88b0af03aa209a741e
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '462'
 ht-degree: 1%
 
 ---
@@ -140,6 +140,8 @@ Voer de volgende stappen uit om de voorwaarden te definiëren die aan een goedke
 U kunt nu uw goedkeuringsbeleid activeren om het toe te passen.
 
 ## Goedkeuringsbeleid activeren en beheren {#activate-policies}
+
+Als u het goedkeuringsbeleid wilt toepassen, moet u het activeren. Voer de volgende stappen uit om dit te doen:
 
 1. Open uw **[!UICONTROL Approval policy]**.
 

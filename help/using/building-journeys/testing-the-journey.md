@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: test, reis, controle, fout, oplossen
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 66f8943093670b3310a600a77adcd8123bb213ff
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1654'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 >title="Uw reis testen"
 >abstract="Gebruik testprofielen om uw reis te testen voordat u deze publiceert. Dit staat u toe om te analyseren hoe de individuen in de reis stromen en problemen vóór publicatie oplossen."
 
-Gebruik testprofielen om uw reis te testen voordat u deze publiceert. In deze modus kunt u een test van uw reis uitvoeren en problemen identificeren aan de hand van testprofielen.
+Nadat u uw reis hebt gemaakt, kunt u deze testen voordat u de site publiceert. Journey Optimizer biedt &quot;testmodus&quot; als een manier om testprofielen te bekijken terwijl ze op reis gaan en mogelijke fouten vóór activering op te sporen. Door snelle tests uit te voeren kunt u controleren of de reizen correct werken, zodat u ze met vertrouwen kunt publiceren.
 
 Alleen testprofielen kunnen een reis maken in de testmodus. U kunt nieuwe testprofielen maken of bestaande profielen omzetten in testprofielen. Leer meer over testprofielen in [ deze sectie ](../audience/creating-test-profiles.md).
 

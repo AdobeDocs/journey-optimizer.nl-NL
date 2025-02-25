@@ -9,24 +9,42 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
-source-wordcount: '1215'
+source-wordcount: '713'
 ht-degree: 7%
 
 ---
 
-# Uw eerste journey maken{#jo-quick-start}
+# Uw eerste journey maken {#jo-quick-start}
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card2"
 >title="Reizen maken"
 >abstract="Het gebruik **Adobe Journey Optimizer** om in real time het gebruikscase van het orkestgebruik te bouwen gebruikend contextafhankelijke gegevens die in gebeurtenissen of gegevensbronnen worden opgeslagen."
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_create"
+>title="Journeys"
+>abstract="Ontwerpen van klantritten om persoonlijke, contextuele ervaringen te bieden. Met Journey Optimizer kunt u in real-time gebruikmaken van het orkestgebruik en contextuele gegevens opslaan in gebeurtenissen of gegevensbronnen. Het **Overzicht** lusje toont een dashboard met zeer belangrijke metriek met betrekking tot uw reizen. Het **doorbladert** lusje toont de lijst van bestaande reizen."
 
-## Vereisten{#start-prerequisites}
 
-Voor het verzenden van berichten met ritten zijn de volgende configuraties vereist:
+Adobe Journey Optimizer bevat een omnichannel orchestration canvas dat marketers in staat stelt marketingactiviteiten te harmoniseren met een-op-een-klantenservice. Met de gebruikersinterface kunt u activiteiten van het palet naar het canvas slepen om uw reis te maken.
+
+![](assets/journey38.png)
+
+De belangrijkste stappen om een reis tot stand te brengen zijn:
+
+![](assets/journey-creation-process.png)
+
+➡️ [ ontdekt deze eigenschap in video ](#video)
+
+Het interface van de reisgebruiker wordt gedetailleerd in [ deze pagina ](journey-ui.md).
+
+
+## Vereisten {#start-prerequisites}
+
+Voor het verzenden van berichten met ritten zijn de volgende voorwaarden vereist:
 
 1. **vorm een gebeurtenis**: als u uw reizen wilt teweegbrengen tijdelijk wanneer een gebeurtenis wordt ontvangen, moet u een gebeurtenis vormen. U bepaalt de verwachte informatie en hoe te om het te verwerken. Deze stap wordt uitgevoerd door a **technische gebruiker**. [Meer informatie](../event/about-events.md).
 
@@ -44,123 +62,57 @@ Voor het verzenden van berichten met ritten zijn de volgende configuraties verei
 
    ![](assets/custom2.png)
 
-## Toegang tot reizen {#journey-access}
 
->[!CONTEXTUALHELP]
->id="ajo_journey_create"
->title="Journeys"
->abstract="Ontwerpen van klantritten om persoonlijke, contextuele ervaringen te bieden. Met Journey Optimizer kunt u in real-time gebruikmaken van het orkestgebruik en contextuele gegevens opslaan in gebeurtenissen of gegevensbronnen. Het **Overzicht** lusje toont een dashboard met zeer belangrijke metriek met betrekking tot uw reizen. Het **doorbladert** lusje toont de lijst van bestaande reizen."
 
-### Belangrijkste metriek en reislijst {#access-metrics}
+Als gegevensingenieur, zijn de stappen om uw reizen, met inbegrip van Gegevensbronnen, Gebeurtenissen en Acties te vormen gedetailleerd in [ deze sectie ](../configuration/about-data-sources-events-actions.md).
 
-Klik in de menusectie JOURNEY MANAGEMENT op **[!UICONTROL Journeys]** . Er zijn twee tabbladen beschikbaar:
-
-**Overzicht**: dit lusje toont een dashboard met zeer belangrijke metriek met betrekking tot uw reizen:
-
-* **verwerkte Profielen**: totaal aantal profielen die in de laatste 24 uren worden verwerkt
-* **Levende reizen**: totaal aantal levende reizen met verkeer over de laatste 24 uren. De actieve reizen omvatten **Eenheids reizen** (gebeurtenis-gebaseerd) en **ritten van de Partij** (gelezen publiek).
-* **tarief van de Fout**: verhouding van alle profielen in fout vergeleken met het totale aantal profielen die over de laatste 24 uren inging.
-* **verwerpt tarief**: verhouding van alle verworpen profielen vergeleken met het totale aantal profielen die de afgelopen 24 uren inging. Een weggegooid profiel vertegenwoordigt iemand die niet in aanmerking komt om de reis binnen te gaan, bijvoorbeeld vanwege een onjuiste naamruimte of vanwege toegangsregels.
 
 >[!NOTE]
 >
->Dit dashboard houdt rekening met de reizen met verkeer in de afgelopen 24 uur. Alleen de reizen waartoe u toegang hebt, worden weergegeven. De metriek worden verfrist om de 30 minuten en slechts wanneer de nieuwe gegevens beschikbaar zijn.
+>De gidsen en de beperkingen van de reis zijn gedetailleerd in [ deze pagina ](../start/guardrails.md)
 
-![](assets/journeys-dashboard.png)
+## Een reis in meerdere stappen maken {#jo-build}
 
-**doorbladert**: dit lusje toont de lijst van bestaande reizen. U kunt reizen zoeken, filters gebruiken en basishandelingen op elk element uitvoeren. U kunt bijvoorbeeld een item dupliceren of verwijderen. Raadpleeg [deze sectie](../start/user-interface.md#filter-lists) voor meer informatie.
+Voer de volgende stappen uit om een reis in meerdere stappen te maken:
 
-![](assets/journeys-browse.png)
+1. Klik in de menusectie JOURNEY MANAGEMENT op **[!UICONTROL Journeys]** .
 
-### Reizen filteren {#filter}
+1. Klik op de knop **[!UICONTROL Create Journey]** om een nieuwe rit te maken.
 
-In de lijst met reizen kunt u verschillende filters gebruiken om de lijst met reizen te verfijnen, zodat u deze beter leesbaar kunt maken.
-
-![](assets/filter-journeys.png)
-
-Hier zijn de diverse het filtreren verrichtingen die u kunt uitvoeren:
-
-De ritten van de filter op hun status, type, versie en toegewezen markeringen van **[!UICONTROL Status and version filters]**.
-
-Het type kan zijn: **[!UICONTROL Unitary event]**, **[!UICONTROL Audience qualification]**, **[!UICONTROL Read audience]** of **[!UICONTROL Business event]** .
-
-De status kan zijn:
-
-* **Gesloten**: de reis is gesloten gebruikend **dicht aan nieuwe ingangen** knoop. De reis houdt in dat nieuwe individuen de reis kunnen betreden. Personen die al onderweg zijn, kunnen de reis normaal afmaken.
-* **Ontwerp**: de reis is in zijn eerste stadium. Het is nog niet gepubliceerd.
-* **Ontwerp (Test)**: de testwijze is geactiveerd gebruikend de **wijze van de Test** knoop.
-* **Voltooid**: De reis schakelt automatisch aan deze status na de globale onderbreking 91 dag [ ](journey-properties.md#global_timeout). Profielen die al op reis zijn, worden normaal afgehandeld. Nieuwe profielen kunnen niet langer de reis betreden.
-* **Levend**: de reis is gepubliceerd gebruikend de **Publish** knoop.
-* **Gestopt**: de reis is uitgezet gebruikend de **3} knoop van het Einde {.** Alle individuen sluiten onmiddellijk de reis.
-
->[!NOTE]
->
->De publicatielevenscyclus van de Reis omvat ook een reeks tussenliggende statussen die niet beschikbaar zijn voor filtering: &quot;Publishing&quot; (tussen &quot;Draft&quot; en &quot;Live&quot;), &quot;Activating test mode&quot; of &quot;Deactivating test mode&quot; (tussen &quot;Draft&quot; en &quot;Draft (test)&quot;) en &quot;Stopping&quot; (tussen &quot;Live&quot; en &quot;Gestopt&quot;). Wanneer een reis in een tussenstadium is, is het read-only.
-
-Gebruik **[!UICONTROL Creation filters]** om ritten te filteren op basis van de aanmaakdatum of de gebruiker die ze heeft gemaakt.
-
-Geef ritten weer die een specifieke gebeurtenis, veldgroep of handeling van de **[!UICONTROL Activity filters]** en **[!UICONTROL Data filters]** gebruiken.
-
-Gebruik **[!UICONTROL Publication filters]** om een publicatiedatum of een gebruiker te selecteren. U kunt bijvoorbeeld kiezen of u de nieuwste versies wilt weergeven van live reizen die gisteren zijn gepubliceerd.
-
-Selecteer **[!UICONTROL Custom]** in de vervolgkeuzelijst **[!UICONTROL Published]** als u reizen wilt filteren op basis van een specifiek datumbereik.
-
-Daarnaast wordt in het configuratievenster Gebeurtenis, Gegevensbron en Handeling in het veld **[!UICONTROL Used in]** het aantal ritten weergegeven dat die specifieke gebeurtenis, veldgroep of handeling gebruikt. U kunt klikken op de knop **[!UICONTROL View journeys]** om de lijst met corresponderende journey’s weer te geven.
-
-![](assets/journey3bis.png)
-
-## Uw reis maken {#jo-build}
-
-Ontwerpreizen om persoonlijke contextafhankelijke ervaringen te bieden. Met [!DNL Journey Optimizer] kunt u in real-time gebruikmaken van het orkestgebruik en contextuele gegevens opslaan in gebeurtenissen of gegevensbronnen. Ontwerp multistep geavanceerde scenario&#39;s aangedreven door de volgende mogelijkheden:
-
-* Verzend in real time **unitaire levering** teweeggebracht wanneer een gebeurtenis wordt ontvangen, of **in partij** gebruikend het publiek van Adobe Experience Platform.
-
-* Gebruik **contextafhankelijke gegevens** van gebeurtenissen, informatie van Adobe Experience Platform, of gegevens van de diensten van derdeAPI.
-
-* Gebruik **ingebouwde kanaalacties** (E-mail, SMS, Duw, InApp) om berichten te verzenden die in [!DNL Journey Optimizer] worden ontworpen of **douaneacties** tot stand te brengen als u een derdesysteem gebruikt om uw berichten te verzenden.
-
-* Met de **reisontwerper**, bouwt uw multi-step gebruiksgevallen: sleep en laat gemakkelijk een ingangsgebeurtenis of een gelezen publieksactiviteit vallen, voeg voorwaarden toe en verzend gepersonaliseerde berichten.
-
-➡️ [ ontdekt deze eigenschap in video ](journey.md#video)
-
-De stappen om berichten door reizen te verzenden zijn hieronder vermeld:
-
-1. Van **doorbladert** lusje, klik **[!UICONTROL Create Journey]** om een nieuwe reis tot stand te brengen.
-
-1. Bewerk de eigenschappen van de journey in het configuratievenster dat aan de rechterkant wordt weergegeven. Leer hoe te om de eigenschappen van uw reis in dit [ te plaatsen deze pagina ](journey-properties.md).
+1. Bewerk het configuratievenster van de rit om de naam van de rit te definiëren en de eigenschappen ervan in te stellen. Leer hoe te om de eigenschappen van uw reis in [ te plaatsen deze pagina ](journey-properties.md).
 
    ![](assets/jo-properties.png)
+
+U kunt dan beginnen uw reis te ontwerpen.
+
+## De reis ontwerpen {#jo-design}
+
+De omnichannel reisontwerper helpt u multi-step reizen met gericht publiek, updates bouwen die op klanten of bedrijfsinteractie in real time worden gebaseerd, en omnichannel berichten gebruikend een intuïtieve belemmering-en-dalingsinterface.
+
+![](assets/journey38.png)
 
 1. Begin door een gebeurtenis te slepen en te laten vallen of a **las de activiteit van het publiek** van het palet in het canvas. Meer over reisontwerp leren, verwijs naar [ deze sectie ](using-the-journey-designer.md).
 
    ![](assets/read-segment.png)
 
-1. Sleep de volgende stappen die het individu zal volgen en zet ze neer. U kunt bijvoorbeeld een voorwaarde toevoegen, gevolgd door een kanaalactie. Meer over activiteiten leren, verwijs naar [ deze sectie ](using-the-journey-designer.md).
+1. Sleep de volgende stappen die het individu zal volgen en zet ze neer. U kunt bijvoorbeeld een voorwaarde toevoegen, gevolgd door een kanaalactie. Meer over activiteiten leren, verwijs naar [ deze sectie ](about-journey-activities.md).
 
-1. Test uw reis met testprofielen. Leer meer in deze [ sectie ](testing-the-journey.md)
+## De reis testen {#jo-test}
 
-1. Publish je reis om het te activeren. Leer meer in deze [ sectie ](publishing-the-journey.md).
+Nadat u uw reis hebt gemaakt, kunt u deze testen voordat u de site publiceert. Journey Optimizer biedt &quot;testmodus&quot; als een manier om testprofielen te bekijken terwijl ze op reis gaan en mogelijke fouten vóór activering op te sporen. Door snelle tests uit te voeren kunt u controleren of de reizen correct werken, zodat u ze met vertrouwen kunt publiceren.
 
-   ![](assets/jo-journeyuc2_32bis.png)
+Leer meer in deze [ sectie ](testing-the-journey.md)
 
-1. Bewaak uw reis gebruikend de specifieke rapporteringshulpmiddelen om de doeltreffendheid van uw reis te meten. Leer meer in deze [ sectie ](../reports/live-report.md).
+## De reis publiceren {#jo-pub}
 
-   ![](assets/jo-dynamic_report_journey_12.png)
+U moet een reis publiceren om het te activeren en het ter beschikking te stellen voor nieuwe profielen om het in te gaan. Voordat u uw reis publiceert, controleert u of deze geldig is en of er geen fout optreedt. U kunt geen reis met fouten publiceren. Leer meer over de reispublicatie in deze [ sectie ](publishing-the-journey.md).
 
+![](assets/jo-journeyuc2_32bis.png)
 
-## Een reis dupliceren {#duplicate-a-journey}
+Na publicatie kunt u uw reis controleren met behulp van de speciale rapportagetools om de effectiviteit van uw reis te meten.
 
-U kunt een bestaande reis van **dupliceren doorbladert** tabel. Alle objecten en instellingen worden gedupliceerd naar de reiskopie.
+![](assets/jo-dynamic_report_journey_12.png)
 
-Volg onderstaande stappen om dit te doen:
+Leer meer over reisrapporten in deze [ sectie ](../reports/live-report.md).
 
-1. Navigeer aan de reis u wilt kopiëren, **klikken Meer acties** pictogram (de drie punten naast de reisnaam).
-1. Selecteer **Dupliceren**.
-
-   ![ Dupliceer een reis ](assets/duplicate-jo.png)
-
-1. Voer de naam van de reis in en bevestig deze. U kunt de naam ook wijzigen in het scherm met de reiseigenschappen. Standaard wordt de naam als volgt ingesteld: `[JOURNEY-NAME]_copy`
-
-   ![](assets/duplicate-jo2.png)
-
-1. De nieuwe reis wordt gecreeerd en beschikbaar in de reislijst.
+U kunt een bestaande reis dupliceren of een nieuwe versie van een reis maken. Leer hoe in [ deze pagina ](journey-ui.md)
