@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: bericht, frequentie, regels, druk
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 6ba6f697060db83e2703bc0ac7cccbbccf816437
+source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
 workflow-type: tm+mt
 source-wordcount: '1881'
 ht-degree: 0%
@@ -311,7 +311,7 @@ Om een afluisterregel op een reis toe te passen, toegang tot de reis en open zij
 
 >[!IMPORTANT]
 >
->Als een reis onmiddellijk wordt geactiveerd, kan het tot 15 minuten duren voordat het systeem begint met het onderdrukken van klanten. U kunt uw reis plannen om minstens 15 minuten in de toekomst te beginnen om deze mogelijkheid te verhinderen.
+>Als een reis onmiddellijk wordt geactiveerd, kan het tot 20 minuten duren voordat het systeem begint met het onderdrukken van klanten. U kunt uw reis plannen om minstens 20 minuten in de toekomst te beginnen om deze mogelijkheid te verhinderen.
 
 +++
 

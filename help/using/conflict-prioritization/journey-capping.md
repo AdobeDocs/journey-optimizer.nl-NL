@@ -5,7 +5,7 @@ role: User
 level: Beginner
 badge: label="Beperkte beschikbaarheid"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
+source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -120,7 +120,7 @@ Om een afluisterregel op een reis toe te passen, toegang tot de reis en open zij
 
 >[!IMPORTANT]
 >
->Als een reis onmiddellijk wordt geactiveerd, kan het tot 15 minuten duren voordat het systeem begint met het onderdrukken van klanten. U kunt uw reis plannen om minstens 15 minuten in de toekomst te beginnen om deze mogelijkheid te verhinderen.
+>Als een reis onmiddellijk wordt geactiveerd, kan het tot 20 minuten duren voordat het systeem begint met het onderdrukken van klanten. U kunt uw reis plannen om minstens 20 minuten in de toekomst te beginnen om deze mogelijkheid te verhinderen.
 
 Zodra de reis levend is, kunt u het reisrapport controleren als de vastgestelde regel tot om het even welke uitsluiting van de reis, in de **[!UICONTROL Journey Exclusions]** lijst heeft geleid. [ Leer hoe te met reisrapporten ](../reports/journey-global-report-cja.md) te werken
 
