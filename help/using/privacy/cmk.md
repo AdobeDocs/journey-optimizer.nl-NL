@@ -7,30 +7,30 @@ feature: Privacy, Monitoring
 role: Developer, User, Admin, Leader
 level: Intermediate
 exl-id: f0985d1f-0bcf-452f-bd46-dfeca0424f01
-source-git-commit: a939d06d26d64a72eaec0ddc7f22b074ad463150
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
 
-# Door klanten beheerde sleutels voor Adobe Journey Optimizer instellen en beheren {#cmk}
+# Door de klant beheerde sleutels instellen en beheren {#cmk}
 
 >[!AVAILABILITY]
 >
->[!DNL Customer Managed Keys] de functionaliteit is momenteel alleen beschikbaar voor organisaties die de [Gezondheidsschild of privacy- en beveiligingsschild](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html) invoegtoepassing.
+>[!DNL Customer Managed Keys] de functionaliteit is momenteel beschikbaar slechts voor organisaties die het [ Bevel van de Gezondheidszorg of de Privacy &amp; van het Beveiliging ](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html) toe:voegen-op aanbieden hebben gekocht.
 
-Met Adobe Journey Optimizer [Gezondheidsschild](https://www.adobe.com/trust/compliance/hipaa-ready.html) en Privacy &amp; Security Shield-klanten hebben de mogelijkheid om Azure Customer Managed Keys (CMK) te gebruiken en deze op hun gegevens toe te passen.
+Met Adobe Journey Optimizer, [ het Schild van de Gezondheidszorg ](https://www.adobe.com/trust/compliance/hipaa-ready.html) en de klanten van het Privacy &amp; van het Beveiliging van de Veiligheid hebben de capaciteit om Azure Klant Beheerde Sleutels (CMK) te hefboomwerking en hen op hun gegevens toe te passen.
 
 Het installatieproces voor Journey Optimizer bestaat uit twee onderdelen, waarbij technologie wordt gebruikt van zowel Adobe Experience Platform als Customer Journey Analytics (CJA):
 
-* Voer de stappen uit die in het dialoogvenster [Door klanten beheerde toetsen in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html) documentatie.
-* Voer de stappen uit die in het dialoogvenster [Door de klant beheerde toetsen in Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-privacy/cmk.html) documentatie.
+* Volg de stappen in de [ Klant Beheerde Sleutels in Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html) documentatie worden geschetst die.
+* Volg de stappen in de [ Klant Beheerde Sleutels in Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-privacy/cmk.html) documentatie worden geschetst die.
 
-  Het voltooien van dit installatieproces is noodzakelijk, zelfs als u geen Customer Journey Analytics (CJA) hebt gekocht, aangezien bepaalde componenten van CJA op de achtergrond worden gebruikt.
+  U moet dit installatieproces voltooien, zelfs als u geen Customer Journey Analytics (CJA) hebt aangeschaft, omdat bepaalde componenten van CJA op de achtergrond worden gebruikt.
 
-Om door het opstellingsproces te gaan, kunt u naar de geleidelijke gedetailleerde instructies verwijzen in [Door klanten beheerde toetsen in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/encryption.html) documentatie.
+Om door het opstellingsproces te gaan, kunt u naar de geleidelijke gedetailleerde instructies in [ Klant Geleide Sleutels in Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/encryption.html) documentatie verwijzen.
 
 Zowel Adobe Experience Platform als Customer Managed Keys zorgen voor de beveiliging van uw gegevens door deze te coderen in transit en in rust. Uw gegevens blijven beveiligd, ongeacht of u door de klant beheerde sleutels gebruikt.
 
-Voor meer informatie over gegevenscodering in Adobe Experience Platform kunt u de [documentatie](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/encryption.html) op Gegevensversleuteling.
+Voor meer informatie over gegevensencryptie in Adobe Experience Platform, kunt u naar de [ documentatie ](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/encryption.html) op de encryptie van Gegevens verwijzen.

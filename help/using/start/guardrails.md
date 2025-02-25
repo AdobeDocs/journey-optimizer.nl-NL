@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '2289'
+source-wordcount: '2317'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,10 @@ Deze verandering zal uit aan **bestaande klantenzandbakken** in een verdere fase
 
 [!DNL Journey Optimizer] webcampagnes zijn gericht op nieuwe profielen die nog niet eerder zijn ingeschakeld op andere kanalen. Hierdoor wordt het totale aantal aanspreekbare profielen verhoogd. Dit kan kosten met zich meebrengen als het contractuele aantal aanschafbare profielen dat u hebt aangeschaft, wordt overschreden. De metriek van de vergunning voor elk pakket is vermeld op de [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html) {target="_blank"} pagina.
 
+### Kanaalhulplijnen op basis van code {#code-based-guardrails}
+
+Om code-gebaseerde ervaringsacties in [!DNL Journey Optimizer] te gebruiken en de lading van de codeinhoud te leveren die door uw toepassingen kan worden gebruikt, volg de eerste vereisten die in [ worden gedetailleerd deze pagina ](../code-based/code-based-prerequisites.md).
+
 ## Subdomeinen guardraals {#subdomain-guardrails}
 
 In [!DNL Journey Optimizer] kunt u standaard maximaal 10 subdomeinen delegeren (voor zowel e-mail- als webkanalen).
@@ -85,6 +89,7 @@ In de afdelingen Beslissingen en Beslissingsbeheer worden de volgende informatie
 
 * [Afbakening en beperkingen](../experience-decisioning/decisioning-guardrails.md)
 * [Beheersbeheerinstructies en beperkingen](../offers/decision-management-guardrails.md)
+
 
 ## Reisgeleiders {#journeys-guardrails}
 

@@ -8,14 +8,14 @@ role: Developer, Data Engineer
 level: Experienced
 keywords: reis, gegevensbronnen, grens, productie, douane, acties
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
 
-# Gebruik hoofdletters/kleine letters om de doorvoer te beperken met Externe gegevensbronnen en aangepaste handelingen{#limit-throughput}
+# Gebruik hoofdletters/kleine letters om de doorvoer te beperken met externe gegevensbronnen en aangepaste handelingen{#limit-throughput}
 
 ## Beschrijving van het gebruiksgeval
 

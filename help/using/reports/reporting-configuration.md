@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: configuratie, experimenteren, rapporteren, optimaliseren
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: f7a0feb38b902b14c402f631cb5c77c1e329886e
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '564'
 ht-degree: 1%
 
 ---
@@ -80,7 +80,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
 >[!NOTE]
 >
->Om het even welke pas gecreëerde datasets zullen slechts beschikbaar in de rapporten van de Customer Journey Analytics zijn.
+>Nieuwe gegevenssets zijn alleen beschikbaar in Customer Journey Analytics-rapporten.
 
 1. Selecteer **[!UICONTROL Configurations]** in het menu **[!UICONTROL Administration]** . Klik in de sectie **[!UICONTROL Reporting]** op **[!UICONTROL Manage]** .
 

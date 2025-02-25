@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2168'
 ht-degree: 24%
 
 ---
@@ -233,12 +233,12 @@ ht-degree: 24%
       + [Een mobiel bericht in de app maken](using/in-app/create-in-app.md)
       + [Een bericht voor een webtoepassing maken](using/in-app/create-in-app-web.md)
       + [In-app-inhoud ontwerpen](using/in-app/design-in-app.md)
-      + [In-app-meldingen controleren en verzenden](using/in-app/send-in-app.md)
+      + [Meldingen voor In-app controleren en verzenden](using/in-app/send-in-app.md)
    + Het kanaal van het pushbericht {#push}
       + [Aan de slag met pushmeldingen](using/push/get-started-push.md)
       + [Een pushmelding maken](using/push/create-push.md)
       + [Uw pushmelding ontwerpen](using/push/design-push.md)
-      + [Controleer en verzend uw pushmelding](using/push/send-push.md)
+      + [Uw pushmelding controleren en verzenden](using/push/send-push.md)
       + Pushmeldingen configureren {#push-config}
          + [Pushmeldingsstroom](using/push/push-gs.md)
          + [Pushmeldingskanaal configureren](using/push/push-configuration.md)
@@ -246,7 +246,7 @@ ht-degree: 24%
    + SMS/MMS-kanaal {#sms}
       + [Aan de slag met tekstberichten](using/sms/get-started-sms.md)
       + [Een tekstbericht maken (SMS/MMS)](using/sms/create-sms.md)
-      + [De tekstberichten controleren en verzenden](using/sms/send-sms.md)
+      + [Tekstberichten controleren en verzenden](using/sms/send-sms.md)
       + [ beheer de opt-out van het tekstbericht ](using/sms/sms-opt-out.md)
       + [SMS-subdomeinen instellen](using/sms/sms-subdomains.md)
       + SMS/MMS-kanaal configureren {#configure-sms}
@@ -259,7 +259,7 @@ ht-degree: 24%
    + Direct mail {#direct-mail}
       + [Aan de slag met direct mail](using/direct-mail/get-started-direct-mail.md)
       + [Een directe e-mail maken](using/direct-mail/create-direct-mail.md)
-      + [Een direct-mailbericht controleren en verzenden](using/direct-mail/test-send-direct-mail.md)
+      + [Een direct mailbericht controleren en verzenden](using/direct-mail/test-send-direct-mail.md)
       + [Direct mail configureren](using/direct-mail/direct-mail-configuration.md)
    + Webkanaal {#web}
       + [Aan de slag met webkanaal](using/web/get-started-web.md)
@@ -277,7 +277,7 @@ ht-degree: 24%
    + Ervaring op basis van code {#code-based-experience}
       + [Aan de slag met op code gebaseerd kanaal](using/code-based/get-started-code-based.md)
       + Op code gebaseerd kanaal configureren {#configure-code-based-channel}
-         + [Guardrails en voorwaarden](using/code-based/code-based-prerequisites.md)
+         + [Afbeeldingen en voorwaarden](using/code-based/code-based-prerequisites.md)
          + [Op code gebaseerde ervaringsoppervlakken](using/code-based/code-based-surface.md)
          + [Voorbeelden van implementatiemethoden](using/code-based/code-based-implementation-samples.md)
          + [Op code gebaseerde ervaringsconfiguratie maken](using/code-based/code-based-configuration.md)
@@ -345,7 +345,7 @@ ht-degree: 24%
          + [Rekenkundige functies](using/personalization/functions/arithmetic-functions.md)
          + [Arrays en lijstfuncties](using/personalization/functions/arrays-list.md)
          + [Datumfuncties](using/personalization/functions/dates.md)
-         + [Booleaanse en vergelijkingsfuncties](using/personalization/functions/operators.md)
+         + [Boolean- en vergelijkingsfuncties](using/personalization/functions/operators.md)
          + [Helpers](using/personalization/functions/helpers.md)
          + [Toewijzingsfuncties](using/personalization/functions/maps.md)
          + [Math-functies](using/personalization/functions/math.md)
@@ -395,7 +395,7 @@ ht-degree: 24%
    + [Werken met Experience Manager-sjablonen](using/integrations/aem-templates.md)
    + [Werken met Experience Manager-inhoudsfragmenten](using/integrations/aem-fragments.md)
    + [Werken met dynamische media](using/integrations/aem-dynamic.md)
-+ Bijhouden en controleren {#reporting}
++ Bijhouden en bewaken {#reporting}
    + Live rapport {#live-report}
       + [Aan de slag met Live-rapport](using/reports/live-report.md)
       + [Lijst met componenten](using/reports/live-report-components.md)
@@ -513,7 +513,7 @@ ht-degree: 24%
             + [Beperkingen toevoegen](using/offers/offer-library/add-constraints.md)
          + [Alternatieve aanbiedingen maken](using/offers/offer-library/creating-fallback-offers.md)
          + [Verzamelingen maken](using/offers/offer-library/creating-collections.md)
-      + Beslissingen nemen en beheren {#create-manage-activities}
+      + Besluiten maken en beheren {#create-manage-activities}
          + [Beslissingen nemen](using/offers/offer-activities/create-offer-activities.md)
          + [Selectie van aanbiedingen in beslissingen configureren](using/offers/offer-activities/configure-offer-selection.md)
          + [Simulaties maken](using/offers/offer-activities/simulation.md)
@@ -538,7 +538,7 @@ ht-degree: 24%
          + [Dataset met alternatieven](using/offers/export-catalog/export-fallback.md)
       + API-referentie {#api-reference}
          + [Aan de slag](using/offers/api-reference/getting-started.md)
-         + Aanbiedingen maken en beheren met behulp van API’s {#offers-api}
+         + Aanbiedingen maken en beheren met behulp van API&#39;s {#offers-api}
             + Plaatsingen {#placements}
                + [Plaatsingen weergeven](using/offers/api-reference/offers-api/placements/placements-list.md)
                + [Een plaatsing opzoeken](using/offers/api-reference/offers-api/placements/lookup.md)
@@ -669,7 +669,7 @@ ht-degree: 24%
    + [Bedrijfsregels configureren](using/configuration/frequency-rules.md)
    + [Werken met regelsets](using/configuration/rule-sets.md)
    + Journey&#39;s configureren {#configure-journeys}
-      + [Informatie over gegevensbronnen, gebeurtenissen en handelingen](using/configuration/about-data-sources-events-actions.md)
+      + [Gegevensbronnen, gebeurtenissen en handelingen configureren](using/configuration/about-data-sources-events-actions.md)
       + Integreren met externe systemen {#external-systems}
          + [Reisintegratie met externe systemen](using/configuration/external-systems.md)
          + [Afkappings-API](using/configuration/capping.md)
