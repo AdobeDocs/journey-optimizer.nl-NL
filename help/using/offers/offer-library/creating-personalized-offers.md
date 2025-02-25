@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: b4bd7290fca3221798ce677bdbfb2281e34cec37
+source-git-commit: f30b7c72e98d3676be0885162101c1e9a5eedeaf
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '795'
 ht-degree: 2%
 
 ---
@@ -32,8 +32,7 @@ De lijst met gepersonaliseerde aanbiedingen is toegankelijk in het menu **[!UICO
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_details"
 >title="Details voorstel"
->abstract="Vul de naam en de begin- en einddatum van de aanbieding in.
-Outside of these dates, the offer won't be selected by the Decisioning engine."
+>abstract="Vul de naam en de begin- en einddatum van de aanbieding in. Buiten deze datums wordt de aanbieding niet geselecteerd door de beslissingsengine."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
