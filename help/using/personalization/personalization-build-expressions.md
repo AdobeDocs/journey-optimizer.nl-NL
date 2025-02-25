@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 962dbbb070bbfe944e174bc330659599a1101ebe
+source-git-commit: fe22eef1e1d74101ba7c046fca28a5a95007dd81
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '470'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor_autocomplete"
 >title="Automatisch voltooid"
->abstract="Als u deze optie inschakelt, kan het systeem uw code automatisch voltooien en suggesties doen terwijl u uw expressie typt. Deze optie is alleen beschikbaar voor HTML en tekstindelingen."
+>abstract="Als u deze optie inschakelt, kan het systeem uw code automatisch voltooien en suggesties doen terwijl u uw expressie typt. Deze optie is alleen beschikbaar voor de HTML-indeling."
 
 De verpersoonlijkingseditor is het middelpunt van de verpersoonlijking in [!DNL Journey Optimizer] . Het is beschikbaar in elke context waarin u personalisatie als e-mail, push en aanbiedingen moet definiëren.
 
