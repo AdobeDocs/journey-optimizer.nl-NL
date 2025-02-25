@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
+source-git-commit: 3984009b7bf78673fa46481e26d75fae1bb007ea
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 7%
@@ -28,11 +28,11 @@ ht-degree: 7%
 >title="Journeys"
 >abstract="Ontwerpen van klantritten om persoonlijke, contextuele ervaringen te bieden. Met Journey Optimizer kunt u in real-time gebruikmaken van het orkestgebruik en contextuele gegevens opslaan in gebeurtenissen of gegevensbronnen. Het **Overzicht** lusje toont een dashboard met zeer belangrijke metriek met betrekking tot uw reizen. Het **doorbladert** lusje toont de lijst van bestaande reizen."
 
-Bouw uit meerdere stappen klantenreizen die een opeenvolging van interactie, aanbiedingen, en berichten over kanalen in real time in werking stellen. Deze benadering zorgt ervoor dat klanten op de optimale momenten worden betrokken die op hun acties en relevante bedrijfssignalen worden gebaseerd.
+Adobe Journey Optimizer bevat een omnichannel orchestration canvas dat marketers in staat stelt marketingactiviteiten te harmoniseren met een-op-een-klantenservice. Met de gebruikersinterface kunt u activiteiten van het palet naar het canvas slepen om uw reis te maken. Het interface van de reisgebruiker wordt gedetailleerd in [ deze pagina ](journey-ui.md).
 
 ![ steekproef van wegcanvas ](assets/journey38.png)
 
-Adobe Journey Optimizer bevat een omnichannel orchestration canvas dat marketers in staat stelt marketingactiviteiten te harmoniseren met een-op-een-klantenservice. Met de gebruikersinterface kunt u activiteiten van het palet naar het canvas slepen om uw reis te maken. Het interface van de reisgebruiker wordt gedetailleerd in [ deze pagina ](journey-ui.md).
+Bouw uit meerdere stappen klantenreizen die een opeenvolging van interactie, aanbiedingen, en berichten over kanalen in real time in werking stellen. Deze benadering zorgt ervoor dat klanten op de optimale momenten worden betrokken die op hun acties en relevante bedrijfssignalen worden gebaseerd.
 
 De belangrijkste stappen om een reis tot stand te brengen zijn gedetailleerd in deze pagina. Zij worden als volgt gestroomlijnd:
 
