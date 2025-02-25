@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 keywords: reis, ontdek, begin
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: e9964494fa38a9e693eeb6c8bdfd6dd3d21262e0
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -19,10 +19,6 @@ ht-degree: 0%
 # Aan de slag met reizen{#jo-general-principle}
 
 De Journey Optimizer-reisontwerper biedt alles wat marketers en reisartsen nodig hebben om meertraps 1:1-reizen langs kanalen te organiseren. Dit omvat een intuïtief belemmering-en-dalingscanvas om elke stap van de reis te ordenen, het doelpubliek te bepalen, en de berichten, de aanbiedingen, en de inhoud te omvatten over kanalen die doelpublieksleden gebaseerd op gedrag, contextuele gegevens, en bedrijfsgebeurtenissen zullen zien.
-
-Wij beginnen door de actie of de gebeurtenis te bepalen die van de klantenreis, en dan de aanraakpunten waar de klantenacties, de gebeurtenissen kruisen,
-of contextafhankelijke gegevens zullen hen naadloos tot hun volgende beste stap leiden. Dit proces begint met het definiëren van de handeling of gebeurtenis die van het dialoogvenster
-reis, gevolgd door het bepalen van aanraakpunten waar de acties van de klant, gebeurtenissen, of contextuele gegevens hen naadloos tot hun volgende beste stap leiden.
 
 Gebruik [!DNL Journey Optimizer] om in real time orchestratiefase samen te stellen met gebruik van contextuele gegevens die zijn opgeslagen in gebeurtenissen of gegevensbronnen. U kunt meerdere stappen geavanceerde scenario&#39;s met de volgende mogelijkheden ontwerpen:
 
@@ -33,10 +29,6 @@ Gebruik [!DNL Journey Optimizer] om in real time orchestratiefase samen te stell
 * Gebruik **ingebouwde acties** om berichten te verzenden die in [!DNL Journey Optimizer] worden ontworpen of **douaneacties** tot stand te brengen als u een derdesysteem gebruikt om uw berichten te verzenden.
 
 * Met de **reisontwerper**, bouwt uw multi-step gebruiksgevallen: sleep en laat gemakkelijk een ingangsgebeurtenis of een gelezen publieksactiviteit vallen, voeg voorwaarden toe en verzend gepersonaliseerde berichten.
-
->[!NOTE]
->
->De gidsen en de beperkingen van de reis zijn gedetailleerd in [ deze pagina ](../start/guardrails.md)
 
 Leer hoe te om uw eerste reis in [ te creëren en te ontwerpen deze pagina ](journey-gs.md).
 
@@ -53,6 +45,10 @@ Leer hoe u reizen kunt maken in de volgende gebruiksgevallen van begin tot eind:
 * [Een bericht verzenden naar abonnees](message-to-subscribers-uc.md)
 * [Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen](collections.md)
 * [Productie beperken met externe gegevensbronnen en aangepaste handelingen](limit-throughput.md)
+
+>[!NOTE]
+>
+>De gidsen en de beperkingen van de reis zijn gedetailleerd in [ deze pagina ](../start/guardrails.md)
 
 ## Hoe kan ik-video {#video}
 
