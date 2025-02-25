@@ -8,22 +8,24 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
+source-git-commit: 0f09de039d9d9555327413b2d65dda295e971bde
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '914'
 ht-degree: 2%
 
 ---
 
 # Bladeren en uw reizen filteren {#browse-journeys}
 
-## Toegang tot reizen {#journey-access}
-
-### Reisdashboard {#dashboard-jo}
+## Reisdashboard {#dashboard-jo}
 
 Klik in de menusectie JOURNEY MANAGEMENT op **[!UICONTROL Journeys]** . Er zijn twee tabbladen beschikbaar: **[!UICONTROL Overview]** en **[!UICONTROL Browse]** .
 
-* Op het tabblad **[!UICONTROL Overview]** wordt een dashboard weergegeven met de belangrijkste maatstaven voor uw reizen:
+
+* Op het tabblad **[!UICONTROL Overview]** wordt een dashboard weergegeven met de belangrijkste maatstaven voor uw reizen.
+
+  ![ reis dashboard die het Overzicht tabel ](assets/journeys-dashboard.png) benadrukken
 
    * **verwerkte Profielen**: totaal aantal profielen die in de laatste 24 uren worden verwerkt
    * **Levende reizen**: totaal aantal levende reizen met verkeer over de laatste 24 uren. De actieve reizen omvatten **Eenheids reizen** (gebeurtenis-gebaseerd) en **ritten van de Partij** (gelezen publiek).
@@ -34,36 +36,18 @@ Klik in de menusectie JOURNEY MANAGEMENT op **[!UICONTROL Journeys]** . Er zijn 
   >
   >Dit dashboard houdt rekening met de reizen met verkeer in de afgelopen 24 uur. Alleen de reizen waartoe u toegang hebt, worden weergegeven. De metriek worden verfrist om de 30 minuten en slechts wanneer de nieuwe gegevens beschikbaar zijn.
 
-  ![](assets/journeys-dashboard.png)
 
 * Op het tabblad **[!UICONTROL Browse]** wordt de lijst met bestaande reizen weergegeven. U kunt reizen zoeken, filters gebruiken en basishandelingen op elk element uitvoeren. U kunt bijvoorbeeld een item dupliceren of verwijderen.
 
-  ![](assets/journeys-browse.png)
+  ![ reis dashboard die het Browse lusje benadrukt ](assets/journeys-browse.png)
 
-### Uw reizen filteren {#filter}
+## Uw reizen filteren {#journey-filter}
 
-In de lijst met reizen kunt u verschillende filters gebruiken om de lijst met reizen te verfijnen, zodat u deze beter leesbaar kunt maken.
+In de lijst met reizen kunt u met behulp van verschillende filters de lijst met reizen verfijnen.
 
 ![](assets/filter-journeys.png)
 
-Hier zijn de diverse het filtreren verrichtingen die u kunt uitvoeren:
-
-De ritten van de filter op hun status, type, versie en toegewezen markeringen van **[!UICONTROL Status and version filters]**.
-
-Het type kan zijn: **[!UICONTROL Unitary event]**, **[!UICONTROL Audience qualification]**, **[!UICONTROL Read audience]** of **[!UICONTROL Business event]** .
-
-De status kan zijn:
-
-* **Gesloten**: de reis is gesloten gebruikend **dicht aan nieuwe ingangen** knoop. De reis houdt in dat nieuwe individuen de reis kunnen betreden. Personen die al onderweg zijn, kunnen de reis normaal afmaken.
-* **Ontwerp**: de reis is in zijn eerste stadium. Het is nog niet gepubliceerd.
-* **Ontwerp (Test)**: de testwijze is geactiveerd gebruikend de **wijze van de Test** knoop.
-* **Voltooid**: De reis schakelt automatisch aan deze status na de globale onderbreking 91 dag [ ](journey-properties.md#global_timeout). Profielen die al op reis zijn, worden normaal afgehandeld. Nieuwe profielen kunnen niet langer de reis betreden.
-* **Levend**: de reis is gepubliceerd gebruikend **publiceer** knoop.
-* **Gestopt**: de reis is uitgezet gebruikend de **3} knoop van het Einde {.** Alle individuen sluiten onmiddellijk de reis.
-
->[!NOTE]
->
->De publicatielevenscyclus van de Reis omvat ook een reeks tussenliggende statussen die niet beschikbaar zijn voor filtering: &quot;Publishing&quot; (tussen &quot;Draft&quot; en &quot;Live&quot;), &quot;Activating test mode&quot; of &quot;Deactivating test mode&quot; (tussen &quot;Draft&quot; en &quot;Draft (test)&quot;) en &quot;Stopping&quot; (tussen &quot;Live&quot; en &quot;Gestopt&quot;). Wanneer een reis in een tussenstadium is, is het read-only.
+U kunt reizen volgens hun [ status ](#journey-statuses) filtreren, [ type ](#journey-types), [ versie ](#journey-versions), en toegewezen [ markeringen ](../start/search-filter-categorize.md#tags) van **[!UICONTROL Status and version filters]**.
 
 Gebruik **[!UICONTROL Creation filters]** om ritten te filteren op basis van de aanmaakdatum of de gebruiker die ze heeft gemaakt.
 
@@ -77,6 +61,25 @@ Daarnaast wordt in het configuratievenster Gebeurtenis, Gegevensbron en Handelin
 
 ![](assets/journey3bis.png)
 
+
+## Soorten reizen {#journey-types}
+
+Het type kan zijn: **[!UICONTROL Unitary event]**, **[!UICONTROL Audience qualification]**, **[!UICONTROL Read audience]** of **[!UICONTROL Business event]** .
+
+## Reisstatussen {#journey-statuses}
+
+De reisstatus kan zijn:
+
+* **Gesloten**: de reis is gesloten gebruikend **dicht aan nieuwe ingangen** knoop. De reis houdt in dat nieuwe individuen de reis kunnen betreden. Personen die al onderweg zijn, kunnen de reis normaal afmaken.
+* **Ontwerp**: de reis is in zijn eerste stadium. Het is nog niet gepubliceerd.
+* **Ontwerp (Test)**: de testwijze is geactiveerd gebruikend de **wijze van de Test** knoop.
+* **Voltooid**: De reis schakelt automatisch aan deze status na de globale onderbreking 91 dag [ ](journey-properties.md#global_timeout). Profielen die al op reis zijn, worden normaal afgehandeld. Nieuwe profielen kunnen niet langer de reis betreden.
+* **Levend**: de reis is gepubliceerd gebruikend **publiceer** knoop.
+* **Gestopt**: de reis is uitgezet gebruikend de **3} knoop van het Einde {.** Alle individuen sluiten onmiddellijk de reis.
+
+>[!NOTE]
+>
+>De publicatielevenscyclus van de Reis omvat ook een reeks tussenliggende statussen die niet beschikbaar zijn voor filtering: &quot;Publishing&quot; (tussen &quot;Draft&quot; en &quot;Live&quot;), &quot;Activating test mode&quot; of &quot;Deactivating test mode&quot; (tussen &quot;Draft&quot; en &quot;Draft (test)&quot;) en &quot;Stopping&quot; (tussen &quot;Live&quot; en &quot;Gestopt&quot;). Wanneer een reis in een tussenstadium is, is het read-only.
 
 ## Journeyversies {#journey-versions}
 
@@ -124,4 +127,3 @@ Volg onderstaande stappen om dit te doen:
    ![](assets/duplicate-jo2.png)
 
 1. De nieuwe reis wordt gecreeerd en beschikbaar in de reislijst.
-
