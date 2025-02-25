@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: d3ec39dc08b23f315914be57a617c921903fead8
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '762'
 ht-degree: 7%
 
 ---
@@ -28,18 +28,15 @@ ht-degree: 7%
 >title="Journeys"
 >abstract="Ontwerpen van klantritten om persoonlijke, contextuele ervaringen te bieden. Met Journey Optimizer kunt u in real-time gebruikmaken van het orkestgebruik en contextuele gegevens opslaan in gebeurtenissen of gegevensbronnen. Het **Overzicht** lusje toont een dashboard met zeer belangrijke metriek met betrekking tot uw reizen. Het **doorbladert** lusje toont de lijst van bestaande reizen."
 
+Bouw uit meerdere stappen klantenreizen die een opeenvolging van interactie, aanbiedingen, en berichten over kanalen in real time in werking stellen. Deze benadering zorgt ervoor dat klanten op de optimale momenten worden betrokken die op hun acties en relevante bedrijfssignalen worden gebaseerd.
 
-Adobe Journey Optimizer bevat een omnichannel orchestration canvas dat marketers in staat stelt marketingactiviteiten te harmoniseren met een-op-een-klantenservice. Met de gebruikersinterface kunt u activiteiten van het palet naar het canvas slepen om uw reis te maken.
+![ steekproef van wegcanvas ](assets/journey38.png)
 
-![](assets/journey38.png)
+Adobe Journey Optimizer bevat een omnichannel orchestration canvas dat marketers in staat stelt marketingactiviteiten te harmoniseren met een-op-een-klantenservice. Met de gebruikersinterface kunt u activiteiten van het palet naar het canvas slepen om uw reis te maken. Het interface van de reisgebruiker wordt gedetailleerd in [ deze pagina ](journey-ui.md).
 
-De belangrijkste stappen om een reis tot stand te brengen zijn:
+De belangrijkste stappen om een reis tot stand te brengen zijn gedetailleerd in deze pagina. Zij worden als volgt gestroomlijnd:
 
-![](assets/journey-creation-process.png)
-
-➡️ [ ontdekt deze eigenschap in video ](#video)
-
-Het interface van de reisgebruiker wordt gedetailleerd in [ deze pagina ](journey-ui.md).
+![ stappen van de reisverwezenlijking: creeer, ontwerp, test, en publiceer ](assets/journey-creation-process.png)
 
 
 ## Vereisten {#start-prerequisites}

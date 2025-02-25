@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 keywords: reis, ontdek, begin
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: e9964494fa38a9e693eeb6c8bdfd6dd3d21262e0
+source-git-commit: d3ec39dc08b23f315914be57a617c921903fead8
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ Gebruik [!DNL Journey Optimizer] om in real time orchestratiefase samen te stell
 * Met de **reisontwerper**, bouwt uw multi-step gebruiksgevallen: sleep en laat gemakkelijk een ingangsgebeurtenis of een gelezen publieksactiviteit vallen, voeg voorwaarden toe en verzend gepersonaliseerde berichten.
 
 Leer hoe te om uw eerste reis in [ te creëren en te ontwerpen deze pagina ](journey-gs.md).
+
+➡️ [ ontdekt Journey Optimizer in video ](#video)
 
 ## Gebruiksscenario’s{#uc-journey}
 
