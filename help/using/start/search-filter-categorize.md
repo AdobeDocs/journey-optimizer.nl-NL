@@ -8,18 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
+source-git-commit: cbd121dda4093fdea6f6bded02e8ae3e188e827d
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '565'
 ht-degree: 6%
 
 ---
 
 # Zoeken, filteren en ordenen {#search-filter-organize}
 
-## Zoeken{#unified-search}
+## Zoeken {#unified-search}
 
-Overal van de interface van Adobe Journey Optimizer, gebruik het Verenigde de onderzoeksvermogen van Adobe Experience Cloud op het centrum van de hoogste bar om activa, reizen, datasets, en meer over uw zandbakken te vinden.
+Vanuit de Adobe Journey Optimizer-interface gebruikt u de uniforme Adobe Experience Cloud-zoekfunctie in het midden van de bovenste balk om elementen, reizen, gegevenssets en meer te zoeken in uw sandboxen.
 
 Voer inhoud in om de beste resultaten weer te geven. Help-artikelen over de ingevoerde trefwoorden worden ook weergegeven in de resultaten.
 
@@ -29,7 +29,7 @@ Pers **gaat** binnen om tot alle resultaten en filter door bedrijfsvoorwerp toeg
 
 ![](assets/search-and-filter.png)
 
-## Filterlijsten{#filter-lists}
+## Filterlijsten {#filter-lists}
 
 In de meeste lijsten, gebruik de onderzoeksbar om specifieke punten te vinden, en het filtreren criteria te bepalen.
 
