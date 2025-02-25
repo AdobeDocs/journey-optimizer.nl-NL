@@ -4,15 +4,27 @@ description: Leer hoe u goedkeuringsbeleid maakt en beheert.
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
+source-git-commit: decd8e222a1cd2f8767a1b88b0af03aa209a741e
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '447'
 ht-degree: 1%
 
 ---
 
-
 # Goedkeuringsbeleid maken en beheren {#approval-policies}
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_approval"
+>title="Goedkeuring aanvragen"
+>abstract="Goedkeuring aanvragen"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_change"
+>title="Verzoek wijzigen"
+>abstract="Verzoek wijzigen"
+
 
 >[!NOTE]
 >
@@ -21,6 +33,13 @@ ht-degree: 1%
 Met het goedkeuringsbeleid kunnen beheerders een validatieproces voor reizen en campagnes instellen. Dit systeem schetst specifieke voorwaarden die bepalen of een reis of campagne goedkeuring vereist. Dit beleid kan in ingewikkeldheid variëren, van eenvoudig het vereisen van alle campagnes om door een bepaalde gebruiker of een team worden herzien, tot het bepalen van criteria die op wie de campagne hebben gecreeerd worden gebaseerd.
 
 ## Goedkeuringsbeleid maken {#create-policies}
+
+>[!CONTEXTUALHELP]
+>id="ajo_permissions_approval_policy"
+>title="Nieuw goedkeuringsbeleid"
+>abstract="In dit scherm, ga de naam in en selecteer de context voor het goedkeuringsbeleid, dan bouwt de voorwaarden om te bepalen wie de goedkeuringsverzoek in werking kan stellen en wie het kan bevestigen."
+
+Voer de volgende stappen uit om een goedkeuringsbeleid te maken:
 
 1. Open in het menu **[!UICONTROL Administration]** in Journey Optimizer **[!UICONTROL Permissions]** then **[!UICONTROL Policies]** .
 
@@ -34,9 +53,11 @@ Met het goedkeuringsbeleid kunnen beheerders een validatieproces voor reizen en 
 
    ![](assets/policy_create_2.png)
 
-U kunt nu de voorwaarden verfijnen en opgeven wie de goedkeuringsaanvraag moet starten en wie de aanvraag moet valideren.
+U kunt nu de voorwaarden verfijnen om op te geven wie het goedkeuringsverzoek kan starten en wie het kan valideren.
 
 ## Voorwaarden instellen voor goedkeuringsbeleid {#conditions}
+
+Voer de volgende stappen uit om de voorwaarden te definiëren die aan een goedkeuringsbeleid zijn gekoppeld:
 
 1. Open uw **[!UICONTROL Approval policy]**.
 
@@ -133,4 +154,3 @@ U kunt nu uw goedkeuringsbeleid activeren om het toe te passen.
 1. Open in het menu **[!UICONTROL Policy]** de geavanceerde opties naar **[!UICONTROL Edit]** , **[!UICONTROL Deactivate]** of **[!UICONTROL Duplicate]** het beleid.
 
    ![](assets/policy_activate_2.png)
-

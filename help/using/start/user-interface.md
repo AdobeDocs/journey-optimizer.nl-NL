@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
+source-git-commit: decd8e222a1cd2f8767a1b88b0af03aa209a741e
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1307'
 ht-degree: 5%
 
 ---
@@ -204,20 +204,6 @@ De taal wijzigen:
 
 <!--APPROVAL POLICIES-->
 
->[!CONTEXTUALHELP]
->id="ajo_permissions_approval_policy"
->title="Goedkeuringsbeleid"
->abstract="Goedkeuringsbeleid"
-
->[!CONTEXTUALHELP]
->id="ajo_approval_policy_request_approval"
->title="Goedkeuring aanvragen"
->abstract="Goedkeuring aanvragen"
-
->[!CONTEXTUALHELP]
->id="ajo_approval_policy_request_change"
->title="Verzoek wijzigen"
->abstract="Verzoek wijzigen"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_edit_disabled"
