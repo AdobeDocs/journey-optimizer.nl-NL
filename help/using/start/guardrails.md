@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 341c5c6a1a451819737797bfa70a8625f900388d
+source-git-commit: 9cab78c89d0885b6da6b43a444754e9ad1e17ae0
 workflow-type: tm+mt
-source-wordcount: '2317'
+source-wordcount: '2319'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,6 @@ U moet zich ook bewust zijn van [ Gidsen voor de gegevens van het Profiel van de
 
 De Adobe [!DNL Journey Optimizer] -interface is ontworpen om optimaal te werken in de nieuwste versie van Google Chrome. Mogelijk kunt u problemen ondervinden bij het gebruik van bepaalde functies in oudere versies of andere browsers.
 
-## Berichtgidsen {#message-guardrails}
-
-* U kunt geen bijlagen aan een e-mailbericht toevoegen met [!DNL Journey Optimizer] .
-* U kunt niet hetzelfde verzendende domein gebruiken om berichten van [!DNL Adobe Journey Optimizer] en van een ander product, zoals [!DNL Adobe Campaign] of [!DNL Adobe Marketo Engage] , te verzenden.
-
 ## Gegevenssethandleidingen {#datasets-guardrails}
 
 Vanaf Februari 2025, wordt een tijd-aan-levende (TTL) guardrail opgesteld uit aan systeem-geproduceerde datasets van Journey Optimizer in **nieuwe zandbakken en nieuwe organisaties** als volgt:
@@ -47,20 +42,20 @@ Vanaf Februari 2025, wordt een tijd-aan-levende (TTL) guardrail opgesteld uit aa
 
 Deze verandering zal uit aan **bestaande klantenzandbakken** in een verdere fase worden opgerold. [ leer meer op datasets tijd-aan-Verlaat (TTL) guardrails ](../data/datasets-ttl.md)
 
-## Handleidingen voor landingspagina&#39;s {#lp-guardrails}
+## Kanaalhulplijnen {#channel-guardrails}
 
-* Slechts één **component van de Vorm** kan in één enkele primaire pagina worden gebruikt.
-* De **component van de Vorm** kan niet in subpages worden gebruikt.
-* U kunt geen preheader toevoegen aan een openingspagina.
-* U kunt niet de **Code uw eigen** optie selecteren wanneer het ontwerpen van een het landen primaire pagina.
+### E-mailhandleidingen {#message-guardrails}
 
-## SMS-handleidingen {#sms-guardrails}
+* U kunt geen bijlagen aan een e-mailbericht toevoegen met [!DNL Journey Optimizer] .
+* U kunt niet hetzelfde verzendende domein gebruiken om berichten van [!DNL Adobe Journey Optimizer] en van een ander product, zoals [!DNL Adobe Campaign] of [!DNL Adobe Marketo Engage] , te verzenden.
+
+### SMS-handleidingen {#sms-guardrails}
 
 * Mediabestanden voor MMS kunnen via een ondersteunde URL worden opgenomen. Controleer of het mediabestand afzonderlijk is geüpload.
 * Berichtfeedback synchroniseren is momenteel niet beschikbaar voor MMS.
 * Het beheer van de toestemming werkt op het kanaalniveau van SMS voor MMS.
 
-## Webkanaalhulplijnen {#web-guardrails}
+### Webkanaalhulplijnen {#web-guardrails}
 
 [!DNL Journey Optimizer] webcampagnes zijn gericht op nieuwe profielen die nog niet eerder zijn ingeschakeld op andere kanalen. Hierdoor wordt het totale aantal aanspreekbare profielen verhoogd. Dit kan kosten met zich meebrengen als het contractuele aantal aanschafbare profielen dat u hebt aangeschaft, wordt overschreden.
 
@@ -69,6 +64,13 @@ De metriek van de vergunning voor elk pakket is vermeld op de [ de Beschrijving 
 ### Kanaalhulplijnen op basis van code {#code-based-guardrails}
 
 Om code-gebaseerde ervaringsacties in [!DNL Journey Optimizer] te gebruiken en de lading van de codeinhoud te leveren die door uw toepassingen kan worden gebruikt, volg de eerste vereisten die in [ worden gedetailleerd deze pagina ](../code-based/code-based-prerequisites.md).
+
+## Handleidingen voor landingspagina&#39;s {#lp-guardrails}
+
+* Slechts één **component van de Vorm** kan in één enkele primaire pagina worden gebruikt.
+* De **component van de Vorm** kan niet in subpages worden gebruikt.
+* U kunt geen preheader toevoegen aan een openingspagina.
+* U kunt niet de **Code uw eigen** optie selecteren wanneer het ontwerpen van een het landen primaire pagina.
 
 ## Subdomeinen guardraals {#subdomain-guardrails}
 
@@ -85,7 +87,7 @@ Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen deleg
 
 U kunt maximaal 10 publiekscomposities in een bepaalde sandbox publiceren. Als u deze drempel hebt bereikt, moet u een samenstelling schrappen om ruimte vrij te maken en nieuwe te publiceren.
 
-## Garanties voor besluitvorming en besluitvorming {#decisioning}
+## Garanties voor besluitvorming en besluitvorming {#decisioning-guardrails}
 
 In de afdelingen Beslissingen en Beslissingsbeheer worden de volgende informatie gegeven over de beperkingen en beperkingen waarmee rekening moet worden gehouden bij het werken met besluiten of het nemen van besluiten:
 
