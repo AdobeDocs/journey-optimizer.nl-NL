@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: da27bb78de305c0d80737aaf7423cd62962732da
 workflow-type: tm+mt
 source-wordcount: '1920'
 ht-degree: 1%
@@ -63,9 +63,9 @@ Ga als volgt te werk om een bericht in de app toe te voegen:
       | Levenscyclus toepassing | Toepassing installeren | Wordt geactiveerd bij de eerste run na installatie of herinstallatie. |
       | Levenscyclus toepassing | Toepassingsupdate | Teweeggebracht bij de eerste looppas na een verbetering of wanneer het versieaantal verandert. |
       | Levenscyclus toepassing | Toepassing sluiten | Wordt geactiveerd wanneer de toepassing wordt gesloten. |
-      | Levenscyclus toepassing | Toepassing vastloopt | Wordt geactiveerd wanneer de toepassing geen achtergrond heeft voordat deze wordt gesloten. De gebeurtenis wordt verzonden wanneer de toepassing na de crash wordt gestart. Adobe Mobiele crashrapportage implementeert geen algemene niet-afgevangen uitzonderingshandler. |
-      | Plaatsen | POI invoeren | Wordt geactiveerd door de SDK van Plaatsen wanneer uw klant het Point of Interest (POI) invoert dat u hebt geconfigureerd. |
-      | Plaatsen | POI afsluiten | Wordt geactiveerd door de SDK van Plaatsen wanneer uw klant het Point of Interest (POI) verlaat dat u hebt geconfigureerd. |
+      | Levenscyclus toepassing | Toepassing vastloopt | Wordt geactiveerd wanneer de toepassing geen achtergrond heeft voordat deze wordt gesloten. De gebeurtenis wordt verzonden wanneer de toepassing na de crash wordt gestart. Adobe Mobile-crashrapportage implementeert geen globale handler voor niet-afgevangen uitzonderingen. |
+      | Plaatsen | POI invoeren | Wordt geactiveerd door de SDK Places wanneer uw klant het Point of Interest (POI) invoert dat u hebt geconfigureerd. |
+      | Plaatsen | POI afsluiten | Wordt geactiveerd door de SDK Places wanneer uw klant het Point of Interest (POI) verlaat dat u hebt geconfigureerd. |
 
 +++
 
@@ -95,9 +95,9 @@ Ga als volgt te werk om een bericht in de app toe te voegen:
       | Levenscyclus toepassing | Datum van installatie | Wordt geactiveerd wanneer de opgegeven installatiedatum is bereikt. |
       | Levenscyclus toepassing | Starten | Wordt geactiveerd wanneer aan het opgegeven aantal Launches wordt voldaan. |
       | Levenscyclus toepassing | Tijd van dag | Wordt geactiveerd wanneer de opgegeven tijd van de dag is bereikt. |
-      | Plaatsen | Huidige POI | Wordt geactiveerd door de SDK Plaatsen wanneer uw klant het opgegeven Point of Interest (POI) invoert. |
-      | Plaatsen | Laatste ingevoerde POI | Wordt geactiveerd door de SDK van Plaatsen, afhankelijk van uw klant die het laatst Point of Interest (POI) heeft ingevoerd. |
-      | Plaatsen | Laatst afgesloten POI | Wordt geactiveerd door de SDK van Plaatsen, afhankelijk van het punt van interesse dat de klant het laatst heeft verlaten (POI). |
+      | Plaatsen | Huidige POI | Wordt geactiveerd door de SDK Places wanneer uw klant het opgegeven Interessepunt (POI) ingaat. |
+      | Plaatsen | Laatste ingevoerde POI | Wordt geactiveerd door de Places SDK, afhankelijk van het punt van interesse dat de klant het laatst heeft ingevoerd (POI). |
+      | Plaatsen | Laatst afgesloten POI | Wordt geactiveerd door de Places SDK, afhankelijk van uw klant die het laatst het Point of Interest (POI) heeft verlaten. |
 
 +++
 
@@ -111,7 +111,7 @@ Ga als volgt te werk om een bericht in de app toe te voegen:
 
       * **[!UICONTROL Show every time]**: altijd het bericht weergeven wanneer de gebeurtenissen plaatsvinden die in de vervolgkeuzelijst **[!UICONTROL Mobile app trigger]** zijn geselecteerd.
       * **[!UICONTROL Show once]**: Alleen dit bericht weergeven wanneer de gebeurtenissen die in de vervolgkeuzelijst **[!UICONTROL Mobile app trigger]** zijn geselecteerd, voor het eerst optreden.
-      * **[!UICONTROL Show until click through]**: dit bericht weergeven wanneer de gebeurtenissen die in de vervolgkeuzelijst **[!UICONTROL Mobile app trigger]** zijn geselecteerd, plaatsvinden totdat de SDK een interactieve gebeurtenis heeft verzonden met de actie &quot;geklikt&quot;.
+      * **[!UICONTROL Show until click through]**: dit bericht weergeven wanneer de gebeurtenissen die zijn geselecteerd in de vervolgkeuzelijst **[!UICONTROL Mobile app trigger]** , plaatsvinden totdat de SDK een interactieve gebeurtenis heeft verzonden met de actie &quot;Kliked&quot;.
 
 1. Indien nodig voltooit u de reisflow door extra handelingen of gebeurtenissen te slepen en neer te zetten. [Meer informatie](../building-journeys/about-journey-activities.md)
 
@@ -165,9 +165,9 @@ Voer de volgende stappen uit om een bericht in de app toe te voegen aan een camp
       | Levenscyclus toepassing | Toepassing installeren | Wordt geactiveerd bij de eerste run na installatie of herinstallatie. |
       | Levenscyclus toepassing | Toepassingsupdate | Teweeggebracht bij de eerste looppas na een verbetering of wanneer het versieaantal verandert. |
       | Levenscyclus toepassing | Toepassing sluiten | Wordt geactiveerd wanneer de toepassing wordt gesloten. |
-      | Levenscyclus toepassing | Toepassing vastloopt | Wordt geactiveerd wanneer de toepassing geen achtergrond heeft voordat deze wordt gesloten. De gebeurtenis wordt verzonden wanneer de toepassing na de crash wordt gestart. Adobe Mobiele crashrapportage implementeert geen algemene niet-afgevangen uitzonderingshandler. |
-      | Plaatsen | POI invoeren | Wordt geactiveerd door de SDK van Plaatsen wanneer uw klant het Point of Interest (POI) invoert dat u hebt geconfigureerd. |
-      | Plaatsen | POI afsluiten | Wordt geactiveerd door de SDK van Plaatsen wanneer uw klant het Point of Interest (POI) verlaat dat u hebt geconfigureerd. |
+      | Levenscyclus toepassing | Toepassing vastloopt | Wordt geactiveerd wanneer de toepassing geen achtergrond heeft voordat deze wordt gesloten. De gebeurtenis wordt verzonden wanneer de toepassing na de crash wordt gestart. Adobe Mobile-crashrapportage implementeert geen globale handler voor niet-afgevangen uitzonderingen. |
+      | Plaatsen | POI invoeren | Wordt geactiveerd door de SDK Places wanneer uw klant het Point of Interest (POI) invoert dat u hebt geconfigureerd. |
+      | Plaatsen | POI afsluiten | Wordt geactiveerd door de SDK Places wanneer uw klant het Point of Interest (POI) verlaat dat u hebt geconfigureerd. |
 
 +++
 
@@ -197,9 +197,9 @@ Voer de volgende stappen uit om een bericht in de app toe te voegen aan een camp
       | Levenscyclus toepassing | Datum van installatie | Wordt geactiveerd wanneer de opgegeven installatiedatum is bereikt. |
       | Levenscyclus toepassing | Starten | Wordt geactiveerd wanneer aan het opgegeven aantal Launches wordt voldaan. |
       | Levenscyclus toepassing | Tijd van dag | Wordt geactiveerd wanneer de opgegeven tijd van de dag is bereikt. |
-      | Plaatsen | Huidige POI | Wordt geactiveerd door de SDK Plaatsen wanneer uw klant het opgegeven Point of Interest (POI) invoert. |
-      | Plaatsen | Laatste ingevoerde POI | Wordt geactiveerd door de SDK van Plaatsen, afhankelijk van uw klant die het laatst Point of Interest (POI) heeft ingevoerd. |
-      | Plaatsen | Laatst afgesloten POI | Wordt geactiveerd door de SDK van Plaatsen, afhankelijk van het punt van interesse dat de klant het laatst heeft verlaten (POI). |
+      | Plaatsen | Huidige POI | Wordt geactiveerd door de SDK Places wanneer uw klant het opgegeven Interessepunt (POI) ingaat. |
+      | Plaatsen | Laatste ingevoerde POI | Wordt geactiveerd door de Places SDK, afhankelijk van het punt van interesse dat de klant het laatst heeft ingevoerd (POI). |
+      | Plaatsen | Laatst afgesloten POI | Wordt geactiveerd door de Places SDK, afhankelijk van uw klant die het laatst het Point of Interest (POI) heeft verlaten. |
 
 +++
 
@@ -211,7 +211,7 @@ Voer de volgende stappen uit om een bericht in de app toe te voegen aan een camp
 
    * **[!UICONTROL Everytime]**: altijd het bericht weergeven wanneer de gebeurtenissen plaatsvinden die in de vervolgkeuzelijst **[!UICONTROL Mobile app trigger]** zijn geselecteerd.
    * **[!UICONTROL Once]**: Alleen dit bericht weergeven wanneer de gebeurtenissen die in de vervolgkeuzelijst **[!UICONTROL Mobile app trigger]** zijn geselecteerd, voor het eerst optreden.
-   * **[!UICONTROL Until click through]**: dit bericht weergeven wanneer de gebeurtenissen die in de vervolgkeuzelijst **[!UICONTROL Mobile app trigger]** zijn geselecteerd, plaatsvinden totdat de SDK een interactieve gebeurtenis heeft verzonden met de actie &quot;geklikt&quot;.
+   * **[!UICONTROL Until click through]**: dit bericht weergeven wanneer de gebeurtenissen die zijn geselecteerd in de vervolgkeuzelijst **[!UICONTROL Mobile app trigger]** , plaatsvinden totdat de SDK een interactieve gebeurtenis heeft verzonden met de actie &quot;Kliked&quot;.
    * **[!UICONTROL X number of times]**: toon dit bericht X tijd.
 
 1. Kies zo nodig welke **[!UICONTROL Day of the week]** of **[!UICONTROL Time of day]** het bericht in de app wordt weergegeven.
@@ -240,7 +240,7 @@ Voer de volgende stappen uit om een bericht in de app toe te voegen aan een camp
 
   +++Zie video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3419898)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
 +++
 
@@ -248,7 +248,7 @@ Voer de volgende stappen uit om een bericht in de app toe te voegen aan een camp
 
   +++Zie video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3423077)
+  >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
 +++
 
