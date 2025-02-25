@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 0f09de039d9d9555327413b2d65dda295e971bde
+source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '950'
 ht-degree: 2%
 
 ---
@@ -79,7 +79,10 @@ De reisstatus kan zijn:
 
 >[!NOTE]
 >
->De publicatielevenscyclus van de Reis omvat ook een reeks tussenliggende statussen die niet beschikbaar zijn voor filtering: &quot;Publishing&quot; (tussen &quot;Draft&quot; en &quot;Live&quot;), &quot;Activating test mode&quot; of &quot;Deactivating test mode&quot; (tussen &quot;Draft&quot; en &quot;Draft (test)&quot;) en &quot;Stopping&quot; (tussen &quot;Live&quot; en &quot;Gestopt&quot;). Wanneer een reis in een tussenstadium is, is het read-only.
+>* De publicatielevenscyclus van de Reis omvat ook een reeks tussenliggende statussen die niet beschikbaar zijn voor filtering: &quot;Publishing&quot; (tussen &quot;Draft&quot; en &quot;Live&quot;), &quot;Activating test mode&quot; of &quot;Deactivating test mode&quot; (tussen &quot;Draft&quot; en &quot;Draft (test)&quot;) en &quot;Stopping&quot; (tussen &quot;Live&quot; en &quot;Gestopt&quot;). Wanneer een reis in een tussenstadium is, is het read-only.
+>
+>* Als u aan a **levende** reis moet wijzigen, [ creeer een nieuwe versie ](#journey-versions) van uw reis.
+
 
 ## Journeyversies {#journey-versions}
 
@@ -91,7 +94,9 @@ In de reislijst, worden alle reisversies getoond met het versieaantal. Wanneer u
 >
 >Gewoonlijk kan een profiel niet meerdere keren op dezelfde reis tegelijk aanwezig zijn. Als de terugkeer wordt toegelaten, kan een profiel een reis opnieuw ingaan, maar kan het niet doen tot zij dat vorige geval van de reis volledig verlaten. [Meer informatie](end-journey.md).
 
-Als u zich aan een levende reis moet aanpassen, creeer een nieuwe versie van uw reis.
+### Een nieuwe versie van een reis maken {#journey-create-new-version}
+
+Als u zich aan een levende reis moet aanpassen, creeer een nieuwe versie van uw reis. Volg onderstaande stappen om een nieuwe versie van een bestaande reis te maken:
 
 1. Open de meest recente versie van uw livereis, klik op **[!UICONTROL Create a new version]** en bevestig deze.
 

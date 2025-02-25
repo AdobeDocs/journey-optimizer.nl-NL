@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: d3ec39dc08b23f315914be57a617c921903fead8
+source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '758'
 ht-degree: 7%
 
 ---
@@ -112,4 +112,6 @@ Na publicatie kunt u uw reis controleren met behulp van de speciale rapportageto
 
 Leer meer over reisrapporten in deze [ sectie ](../reports/live-report.md).
 
-U kunt een bestaande reis dupliceren of een nieuwe versie van een reis maken. Leer hoe in [ deze pagina ](journey-ui.md)
+>[!NOTE]
+>
+>Als u aan a **levende** reis moet wijzigen, [ creeer een nieuwe versie ](journey-ui.md#journey-versions) van uw reis.
