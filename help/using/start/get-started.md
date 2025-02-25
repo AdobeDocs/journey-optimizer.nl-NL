@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: fa1b26900ca4cf56a3ad95429320d1f5e9c920ed
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '676'
 ht-degree: 2%
 
 ---
@@ -53,6 +53,12 @@ De belangrijkste mogelijkheden omvatten:
 
 * **Intelligente Beslissing &amp; Personalization** - de merknamen kunnen gecentraliseerd besluit toepassen en kunstmatige intelligentie en machine het leren opnemen aan configuratieterugzicht door de klantenervaring, makend het gemakkelijker om besluiten te automatiseren en de ervaring op schaal te optimaliseren. Met beslissingsbevoegdheden worden gecentraliseerde aanbiedingen via kanalen op schaal [!DNL Adobe Journey Optimizer] mogelijk gemaakt.
 
+
+>[!NOTE]
+>
+> De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [ toestemmingen ](../administration/permissions.md) en van uw [ vergunning gevend pakket ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html) {target="_blank"} af. Neem voor alle vragen contact op met de Adobe Customer Success Manager of uw Adobe-vertegenwoordiger.
+
+
 ## Architectuur {#architecture}
 
 In het onderstaande diagram leert u de basisarchitectuur van [!DNL Adobe Journey Optimizer] , de integratiepunten en de relatie tussen [!DNL Journey Optimizer] en [!DNL Experience Platform] .
@@ -63,7 +69,7 @@ In het onderstaande diagram leert u de basisarchitectuur van [!DNL Adobe Journey
 >[!NOTE]
 >
 > Algemene richtlijnen en procedures voor privacy in Adobe Experience Cloud zijn van toepassing op [!DNL Journey Optimizer] . [ Leer meer over de privacy van Adobe Experience Cloud ](https://www.adobe.com/privacy/experience-cloud.html).
-> U moet zich ook bewust zijn van [ Gidsen voor de gegevens van het Profiel van de Klant in real time alvorens ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html) te beginnen.
+>
 
 
 >[!MORELIKETHIS]
