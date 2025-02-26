@@ -5,10 +5,10 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 05dc60a4eb33be91ba9cc7b4897fa1f28b5557b6
+source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
 workflow-type: tm+mt
-source-wordcount: '2168'
-ht-degree: 24%
+source-wordcount: '2175'
+ht-degree: 23%
 
 ---
 
@@ -168,8 +168,8 @@ ht-degree: 24%
       + Kwesties voor technisch gebruik {#technical-use-cases}
          + [Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen](using/building-journeys/collections.md)
          + [Leveringen opwaarderen](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [Productie beperken met externe gegevensbronnen en aangepaste handelingen](using/building-journeys/limit-throughput.md)
-         + [Aangepaste handelingen gebruiken om gebeurtenissen voor reizen in Experience Platform te schrijven](using/building-journeys/custom-action-aep.md)
+         + [Productie beperken met externe gegevensbronnen en aangepaste acties](using/building-journeys/limit-throughput.md)
+         + [Aangepaste acties gebruiken om gebeurtenissen voor reizen in Experience Platform te schrijven](using/building-journeys/custom-action-aep.md)
 + Campagnes {#campaigns}
    + [Aan de slag met campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Een campagne maken](using/campaigns/create-campaign.md)
@@ -683,17 +683,17 @@ ht-degree: 24%
          + [Een bedrijfsgebeurtenis configureren](using/event/about-creating-business.md)
          + [Aanvullende stappen om gebeurtenissen te verzenden](using/event/additional-steps-to-send-events-to-journey.md)
       + Configuratie gegevensbron {#data-source-journeys}
-         + [Databronnen](using/datasource/about-data-sources.md)
+         + [Aan de slag met gegevensbronnen](using/datasource/about-data-sources.md)
          + [Een gegevensbron configureren](using/datasource/configure-data-sources.md)
          + [Adobe Experience Platform-databron](using/datasource/adobe-experience-platform-data-source.md)
          + [Externe databronnen](using/datasource/external-data-sources.md)
       + Configuratie van handeling {#action-journeys}
-         + [Acties](using/action/action.md)
-         + [Een handeling configureren](using/action/about-custom-action-configuration.md)
-         + [Aangepaste actie oplossen](using/action/troubleshoot-custom-action.md)
+         + [Aan de slag met aangepaste handelingen](using/action/action.md)
+         + [Een aangepaste handeling configureren](using/action/about-custom-action-configuration.md)
+         + [Een aangepaste handeling oplossen](using/action/troubleshoot-custom-action.md)
+         + [API-aanroepreacties gebruiken in aangepaste handelingen](using/action/action-response.md)
          + [Integreren met Adobe Campaign Standard](using/action/acs-action.md)
          + [Integreren met Adobe Campaign v7/v8](using/action/acc-action.md)
-         + [API-aanroepreacties gebruiken in aangepaste handelingen](using/action/action-response.md)
          + [Integreren met Marketo Engage](using/action/marketo-engage.md)
    + [Bronnen](using/start/get-started-sources.md)
    + [Objecten exporteren naar een andere sandbox](using/configuration/copy-objects-to-sandbox.md)
