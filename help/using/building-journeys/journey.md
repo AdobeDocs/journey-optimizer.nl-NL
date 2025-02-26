@@ -8,7 +8,7 @@ role: User
 level: Beginner, Intermediate
 keywords: reis, ontdek, begin
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: d3ec39dc08b23f315914be57a617c921903fead8
+source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
@@ -17,8 +17,6 @@ ht-degree: 0%
 
 
 # Aan de slag met reizen{#jo-general-principle}
-
-De Journey Optimizer-reisontwerper biedt alles wat marketers en reisartsen nodig hebben om meertraps 1:1-reizen langs kanalen te organiseren. Dit omvat een intuïtief belemmering-en-dalingscanvas om elke stap van de reis te ordenen, het doelpubliek te bepalen, en de berichten, de aanbiedingen, en de inhoud te omvatten over kanalen die doelpublieksleden gebaseerd op gedrag, contextuele gegevens, en bedrijfsgebeurtenissen zullen zien.
 
 Gebruik [!DNL Journey Optimizer] om in real time orchestratiefase samen te stellen met gebruik van contextuele gegevens die zijn opgeslagen in gebeurtenissen of gegevensbronnen. U kunt meerdere stappen geavanceerde scenario&#39;s met de volgende mogelijkheden ontwerpen:
 
@@ -29,6 +27,8 @@ Gebruik [!DNL Journey Optimizer] om in real time orchestratiefase samen te stell
 * Gebruik **ingebouwde acties** om berichten te verzenden die in [!DNL Journey Optimizer] worden ontworpen of **douaneacties** tot stand te brengen als u een derdesysteem gebruikt om uw berichten te verzenden.
 
 * Met de **reisontwerper**, bouwt uw multi-step gebruiksgevallen: sleep en laat gemakkelijk een ingangsgebeurtenis of een gelezen publieksactiviteit vallen, voeg voorwaarden toe en verzend gepersonaliseerde berichten.
+
+De Journey Optimizer-reisontwerper biedt alles wat marketers en reisartsen nodig hebben om meertraps 1:1-reizen langs kanalen te organiseren. Dit omvat een intuïtief belemmering-en-dalingscanvas om elke stap van de reis te ordenen, het doelpubliek te bepalen, en de berichten, de aanbiedingen, en de inhoud te omvatten over kanalen die doelpublieksleden gebaseerd op gedrag, contextuele gegevens, en bedrijfsgebeurtenissen zullen zien.
 
 Leer hoe te om uw eerste reis in [ te creëren en te ontwerpen deze pagina ](journey-gs.md).
 

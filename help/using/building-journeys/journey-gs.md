@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 3984009b7bf78673fa46481e26d75fae1bb007ea
+source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 7%
+source-wordcount: '708'
+ht-degree: 4%
 
 ---
 
@@ -32,33 +32,29 @@ Adobe Journey Optimizer bevat een omnichannel orchestration canvas dat marketers
 
 ![ steekproef van wegcanvas ](assets/journey38.png)
 
-Bouw uit meerdere stappen klantenreizen die een opeenvolging van interactie, aanbiedingen, en berichten over kanalen in real time in werking stellen. Deze benadering zorgt ervoor dat klanten op de optimale momenten worden betrokken die op hun acties en relevante bedrijfssignalen worden gebaseerd.
 
 De belangrijkste stappen om een reis tot stand te brengen zijn gedetailleerd in deze pagina. Zij worden als volgt gestroomlijnd:
 
 ![ stappen van de reisverwezenlijking: creeer, ontwerp, test, en publiceer ](assets/journey-creation-process.png)
 
 
-## Vereisten {#start-prerequisites}
+Bouw multi-step klantenreizen een opeenvolging van interactie, aanbiedingen, en berichten over kanalen in echt in werking stellen - tijd. Deze benadering zorgt ervoor dat klanten op de optimale momenten worden betrokken die op hun acties en relevante bedrijfssignalen worden gebaseerd. Het doelpubliek kan worden gedefinieerd op basis van gedrag, contextuele gegevens en bedrijfsgebeurtenissen. De vereisten hangen van uw gebruiksgeval af, en het [ type van reis ](entry-management.md#types-of-journeys) u bouwt. Voordat u begint met het ontwerpen van uw reis, controleert u of de relevante configuratiestappen zijn uitgevoerd:
 
-Voor het verzenden van berichten met ritten zijn de volgende voorwaarden vereist:
+* Als u uw reizen wilt teweegbrengen tijdelijk wanneer een gebeurtenis wordt ontvangen, moet u **een gebeurtenis** vormen. U bepaalt de verwachte informatie en hoe te om het te verwerken. [Meer informatie](../event/about-events.md).
 
-1. **vorm een gebeurtenis**: als u uw reizen wilt teweegbrengen tijdelijk wanneer een gebeurtenis wordt ontvangen, moet u een gebeurtenis vormen. U bepaalt de verwachte informatie en hoe te om het te verwerken. Deze stap wordt uitgevoerd door a **technische gebruiker**. [Meer informatie](../event/about-events.md).
+  ![](assets/jo-event7bis.png)
 
-   ![](assets/jo-event7bis.png)
+* Uw reis kan ook naar het publiek van Adobe Experience Platform luisteren om berichten in partij naar een gespecificeerde reeks profielen te verzenden. Voor dit, moet u **publiek** creëren. [Meer informatie](../audience/about-audiences.md).
 
-1. **creeer een publiek**: uw reis kan aan het publiek van Adobe Experience Platform ook luisteren om berichten in partij naar een gespecificeerde reeks profielen te verzenden. Hiervoor moet u een publiek maken. [Meer informatie](../audience/about-audiences.md).
+  ![](assets/segment2.png)
 
-   ![](assets/segment2.png)
+* U kunt een verbinding met een systeem bepalen om extra informatie terug te winnen die in uw reizen, bijvoorbeeld in uw voorwaarden zal worden gebruikt. Deze verbinding baseert zich op a **gegevensbron**. [Meer informatie](../datasource/about-data-sources.md)
 
-1. **vorm de gegevensbron**: u kunt een verbinding aan een systeem bepalen om extra informatie terug te winnen die in uw reizen, bijvoorbeeld in uw voorwaarden zal worden gebruikt. Tijdens de provisioning wordt ook een ingebouwde Adobe Experience Platform-databron geconfigureerd. Deze stap is niet vereist als u alleen data gebruikt van de gebeurtenissen in uw journey. Deze stap wordt uitgevoerd door a **technische gebruiker**. [Meer informatie](../datasource/about-data-sources.md)
+  ![](assets/jo-datasource.png)
 
-   ![](assets/jo-datasource.png)
+* Journey Optimizer komt met [ ingebouwde berichtmogelijkheden ](../building-journeys/journeys-message.md). Als u een derdesysteem gebruikt om uw berichten te verzenden, kunt u **tot een douaneactie** leiden. Leer meer in deze [ sectie ](../action/action.md).
 
-1. **vorm een actie**: Als u een derdesysteem gebruikt om uw berichten te verzenden, kunt u een douaneactie tot stand brengen. Leer meer in deze [ sectie ](../action/action.md). Deze stap wordt uitgevoerd door a **technische gebruiker**. Als u de ingebouwde berichtmogelijkheden van Journey Optimizer gebruikt, hoeft u alleen maar een kanaalactie aan uw reis toe te voegen en uw inhoud te ontwerpen.
-
-   ![](assets/custom2.png)
-
+  ![](assets/custom2.png)
 
 
 Als gegevensingenieur, zijn de stappen om uw reizen, met inbegrip van Gegevensbronnen, Gebeurtenissen en Acties te vormen gedetailleerd in [ deze sectie ](../configuration/about-data-sources-events-actions.md).
@@ -68,7 +64,7 @@ Als gegevensingenieur, zijn de stappen om uw reizen, met inbegrip van Gegevensbr
 >
 >De gidsen en de beperkingen van de reis zijn gedetailleerd in [ deze pagina ](../start/guardrails.md)
 
-## Een reis in meerdere stappen maken {#jo-build}
+## Een journey maken {#jo-build}
 
 Voer de volgende stappen uit om een reis in meerdere stappen te maken:
 
