@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: landen, landingspagina, lijst, abonnement, service
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 0000d5e4a11c316340382ea9b68f8252f109cb61
+source-git-commit: c66fe22f0cf81cf8e14592df1433739735afbe43
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '660'
 ht-degree: 3%
 
 ---
@@ -98,7 +98,7 @@ De mogelijke statussen zijn als volgt:
 
 ## Abonnementenlijsten controleren {#monitor-subscription-lists}
 
-U kunt de gevolgen van uw abonnementenlijst controleren door specifieke rapporten. U hebt toegang tot:
+U kunt de gevolgen van uw abonnementenlijst controleren door specifieke rapporten. U hebt toegang tot twee typen rapporten:
 
 * Abonnementenlijst Live-rapport
 
