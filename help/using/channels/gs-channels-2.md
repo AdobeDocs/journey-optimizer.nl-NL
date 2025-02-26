@@ -7,14 +7,14 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 51b60b3e0f4026bce0d57eb1e2949e816828135b
+source-git-commit: 66dbaf6b8856b1ce70bccfa504a63f22bf293daf
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '213'
 ht-degree: 3%
 
 ---
 
-# Aan de slag met [!DNL Adobe Journey Optimizer] communicatiekanalen {#get-started-email}
+# Aan de slag met communicatiekanalen in [!DNL Adobe Journey Optimizer]
 
 In het dynamische marketinglandschap van vandaag is het effectief bereiken van uw publiek op verschillende platforms essentieel voor het opbouwen van duurzame relaties en het stimuleren van betrokkenheid. In deze sectie vindt u een uitgebreid overzicht van de communicatiekanalen die beschikbaar zijn in [!DNL Adobe Journey Optimizer] , zodat u precies kunt zien hoe u elk kanaal effectief kunt gebruiken in uw marketingstrategieën.
 
