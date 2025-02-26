@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 93dab17fc74396887e3b68051be777645e02709f
+source-git-commit: 5f48c3df14768e699e174e5a3539438e9b774e1a
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 4%
@@ -38,7 +38,9 @@ De belangrijkste stappen om een reis tot stand te brengen zijn gedetailleerd in 
 ![ stappen van de reisverwezenlijking: creeer, ontwerp, test, en publiceer ](assets/journey-creation-process.png)
 
 
-Bouw multi-step klantenreizen een opeenvolging van interactie, aanbiedingen, en berichten over kanalen in echt in werking stellen - tijd. Deze benadering zorgt ervoor dat klanten op de optimale momenten worden betrokken die op hun acties en relevante bedrijfssignalen worden gebaseerd. Het doelpubliek kan worden gedefinieerd op basis van gedrag, contextuele gegevens en bedrijfsgebeurtenissen. De vereisten hangen van uw gebruiksgeval af, en het [ type van reis ](entry-management.md#types-of-journeys) u bouwt. Voordat u begint met het ontwerpen van uw reis, controleert u of de relevante configuratiestappen zijn uitgevoerd:
+Bouw multi-step klantenreizen een opeenvolging van interactie, aanbiedingen, en berichten over kanalen in echt in werking stellen - tijd. Deze benadering zorgt ervoor dat klanten op de optimale momenten worden betrokken die op hun acties en relevante bedrijfssignalen worden gebaseerd. Het doelpubliek kan worden gedefinieerd op basis van gedrag, contextuele gegevens en bedrijfsgebeurtenissen. De vereisten hangen van uw gebruiksgeval af, en het [ type van reis ](entry-management.md#types-of-journeys) u bouwt.
+
+Voordat u begint met het bouwen van uw reis, controleert u of de relevante configuratiestappen zijn uitgevoerd:
 
 * Als u uw reizen wilt teweegbrengen tijdelijk wanneer een gebeurtenis wordt ontvangen, moet u **een gebeurtenis** vormen. U bepaalt de verwachte informatie en hoe te om het te verwerken. [Meer informatie](../event/about-events.md).
 
