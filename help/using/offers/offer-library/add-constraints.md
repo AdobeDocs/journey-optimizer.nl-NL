@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
+source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
 workflow-type: tm+mt
 source-wordcount: '2555'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Als u bijvoorbeeld de volgende beperkingen instelt:
 
 * Dit aanbod wordt alleen in overweging genomen voor gebruikers die voldoen aan de beslissingsregel &quot;Gold Loyalty Customers&quot;.
 * De prioriteit van de aanbieding is vastgesteld op &quot;50&quot;, wat betekent dat de aanbieding wordt gepresenteerd vóór aanbiedingen met een prioriteit tussen 1 en 49 en na de aanbiedingen met een prioriteit van ten minste 51.
-* Het voorstel wordt slechts eenmaal per maand per gebruiker op alle plaatsen gepresenteerd.
+* Het voorstel wordt slechts eenmaal per maand per gebruiker op alle plaatsen weergegeven.
 
 ## Subsidiabiliteit {#eligibility}
 
@@ -269,7 +269,7 @@ Elk hubgebied wordt geassocieerd met één of meerdere randgebieden. Regels voor
 
 Bijvoorbeeld, overwegen wij het hubgebied van uw Organisatie als *NLD2*, en u verzendt een beslissingsverzoek van Europa (*IRL1* randgebied). In dit scenario, zal het beslissingsverzoek de teller van het profiel verhogen, aangezien de regels in het (Ierland) *IRL1* gebied beschikbaar zijn. Nochtans, als het beslissingsverzoek uit een gebied zoals Japan (*JPN3*) voortkomt, dat geen randgebied verbonden aan (Nederland) *NLD2* hubgebied is, zal geen teller worden gecreeerd, en de regels van het frequentieafschilderen zullen niet worden afgedwongen.
 
-Voor meer informatie over welke hub en randgebieden aan uw Organisatie worden geassocieerd, gelieve uw vertegenwoordiger van de Adobe te bereiken.
+Voor meer informatie over welke hub en randgebieden aan uw Organisatie worden geassocieerd, gelieve uw vertegenwoordiger van Adobe te bereiken.
 
 +++
 

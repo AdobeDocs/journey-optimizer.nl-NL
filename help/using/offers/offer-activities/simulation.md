@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: e213261a1c2cb3421d59ba6c44c832a5f5929cd1
+source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 0%
@@ -138,7 +138,7 @@ Volg onderstaande stappen om de standaardinstellingen voor uw simulaties te bewe
 
    >[!NOTE]
    >
-   >Door gebrek, worden alle vlaggen van de Deduplicatie toegelaten voor simulatie, zo betekent het dat de besluitvormingsmotor duplicaten toestaat en zo de zelfde voorstelling over veelvoudige besluiten/plaatsen kan maken. Leer meer op [!DNL Decisioning] API verzoekeigenschappen in [ deze sectie ](../api-reference/offer-delivery-api/decisioning-api.md).
+   >Door gebrek, worden alle vlaggen van de Deduplicatie toegelaten voor simulatie, wat betekent dat de besluitvormingsmotor duplicaten toestaat en zo de zelfde voorstelling over veelvoudige besluiten/plaatsen kan maken. Leer meer op [!DNL Decisioning] API verzoekeigenschappen in [ deze sectie ](../api-reference/offer-delivery-api/decisioning-api.md).
 
 1. In de sectie **[!UICONTROL Response format]** kunt u metagegevens opnemen in de codeweergave. Controleer de corresponderende optie en selecteer de metagegevens van uw keuze. Deze worden weergegeven in de aanvraag- en antwoordladingen wanneer u **[!UICONTROL View code]** selecteert. Leer meer in de [ simulatieresultaten van de Mening ](#simulation-results) sectie.
 

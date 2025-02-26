@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 8535040fd3fe1622d4358a762f92bd93f5694cfa
+source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
 workflow-type: tm+mt
 source-wordcount: '2445'
 ht-degree: 0%
@@ -94,7 +94,7 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
 
    Deze beperking kan worden toegepast door a **besluitvormingsregel**, of één of verscheidene **publiek van Adobe Experience Platform** te gebruiken. Beide zijn gedetailleerd in [ deze sectie ](../offer-library/add-constraints.md#segments-vs-decision-rules).
 
-   * Als u de selectie van de aanbiedingen wilt beperken tot de leden van een publiek in een Experience Platform, selecteert u **[!UICONTROL Audiences]** en klikt u op **[!UICONTROL Add audiences]** .
+   * Als u de selectie van de aanbiedingen wilt beperken tot de leden van een Experience Platform-publiek, selecteert u **[!UICONTROL Audiences]** en klikt u op **[!UICONTROL Add audiences]** .
 
      ![](../assets/activity_constraint_segment.png)
 
@@ -220,7 +220,7 @@ De gerangschikte voorstellen zijn nu als volgt: Voorstel 5, voorstel 3, voorstel
 
 **als het dupliceren weg** is
 
-Wanneer u meerdere besluitvormingsgebieden aan een besluit toevoegt en wanneer overlappingen niet zijn toegestaan op verschillende plaatsen, worden de in aanmerking komende aanbiedingen opeenvolgend geselecteerd in de volgorde van de beslissingsreikwijdte in het verzoek.
+Wanneer u meerdere besluitvormingsgebieden aan een besluit toevoegt en duplicatie niet is toegestaan tussen verschillende plaatsen, worden de in aanmerking komende aanbiedingen opeenvolgend geselecteerd in de volgorde van de beslissingsreikwijdte in het verzoek.
 
 >[!NOTE]
 >
@@ -264,7 +264,7 @@ De selectie ziet er als volgt uit:
 
 **als het dupliceren** is
 
-Wanneer duplicatie op alle plaatsen is toegestaan, kan hetzelfde aanbod meerdere keren voor verschillende plaatsen worden voorgesteld. Als deze optie is ingeschakeld, overweegt het systeem dezelfde aanbieding voor meerdere plaatsingen. [ Leer meer op verdubbelingsparameter ](../offer-library/creating-placements.md)
+Wanneer duplicatie op alle plaatsen is toegestaan, kan hetzelfde aanbod meerdere malen voor verschillende plaatsen worden voorgesteld. Als deze optie is ingeschakeld, overweegt het systeem dezelfde aanbieding voor meerdere plaatsingen. [ Leer meer op verdubbelingsparameter ](../offer-library/creating-placements.md)
 
 Neem het zelfde voorbeeld zoals hierboven waar u twee besluitvormingswerkingsgebied zoals toevoegde:
 
