@@ -8,13 +8,13 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie
-source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
+exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
+source-git-commit: 5f7e9556a27fb12618f8da35da5427de3a0867dc
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
-
 
 # URL-tracking {#url-tracking}
 
@@ -28,11 +28,7 @@ ht-degree: 0%
 >title="Voorvertoning van parameters voor URL bijhouden"
 >abstract="Bekijk hoe u parameters voor bijhouden toevoegt aan de URL&#39;s in uw e-mailinhoud."
 
-Wanneer het vormen van een nieuwe [ configuratie van het e-mailkanaal ](email-settings.md), kunt u **[!UICONTROL URL tracking parameters]** bepalen om de doeltreffendheid van uw marketing inspanningen over kanalen te meten.
-
->[!NOTE]
->
->Deze functie is optioneel.
+Wanneer het vormen van een nieuwe [ configuratie van het e-mailkanaal ](email-settings.md), kunt u **[!UICONTROL URL tracking parameters]** bepalen om de doeltreffendheid van uw marketing inspanningen over kanalen te meten. U kunt deze functie ook activeren.
 
 De parameters die in de corresponderende sectie worden gedefinieerd, worden toegevoegd aan het einde van de URL&#39;s die in de inhoud van uw e-mailbericht zijn opgenomen. Vervolgens kunt u deze parameters vastleggen in hulpprogramma&#39;s voor webanalyse, zoals Adobe Analytics of Google Analytics, en verschillende prestatierapporten maken.
 
