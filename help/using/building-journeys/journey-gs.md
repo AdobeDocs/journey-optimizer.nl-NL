@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
+source-git-commit: 93dab17fc74396887e3b68051be777645e02709f
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 4%
@@ -42,19 +42,19 @@ Bouw multi-step klantenreizen een opeenvolging van interactie, aanbiedingen, en 
 
 * Als u uw reizen wilt teweegbrengen tijdelijk wanneer een gebeurtenis wordt ontvangen, moet u **een gebeurtenis** vormen. U bepaalt de verwachte informatie en hoe te om het te verwerken. [Meer informatie](../event/about-events.md).
 
-  ![](assets/jo-event7bis.png)
+<!--   ![](assets/jo-event7bis.png)  -->
 
 * Uw reis kan ook naar het publiek van Adobe Experience Platform luisteren om berichten in partij naar een gespecificeerde reeks profielen te verzenden. Voor dit, moet u **publiek** creëren. [Meer informatie](../audience/about-audiences.md).
 
-  ![](assets/segment2.png)
+<!--   ![](assets/segment2.png)  -->
 
 * U kunt een verbinding met een systeem bepalen om extra informatie terug te winnen die in uw reizen, bijvoorbeeld in uw voorwaarden zal worden gebruikt. Deze verbinding baseert zich op a **gegevensbron**. [Meer informatie](../datasource/about-data-sources.md)
 
-  ![](assets/jo-datasource.png)
+<!--   ![](assets/jo-datasource.png)  -->
 
 * Journey Optimizer komt met [ ingebouwde berichtmogelijkheden ](../building-journeys/journeys-message.md). Als u een derdesysteem gebruikt om uw berichten te verzenden, kunt u **tot een douaneactie** leiden. Leer meer in deze [ sectie ](../action/action.md).
 
-  ![](assets/custom2.png)
+<!--    ![](assets/custom2.png)  -->
 
 
 Als gegevensingenieur, zijn de stappen om uw reizen, met inbegrip van Gegevensbronnen, Gebeurtenissen en Acties te vormen gedetailleerd in [ deze sectie ](../configuration/about-data-sources-events-actions.md).

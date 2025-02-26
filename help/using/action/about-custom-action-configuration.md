@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
+source-git-commit: 2af3cef357bf68091d9b8b5d2750e73a290bc682
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1638'
 ht-degree: 2%
 
 ---
@@ -139,7 +139,13 @@ Wanneer u een aangepaste handeling configureert, moet u de volgende **[!UICONTRO
    >
    >Kopteksten worden gevalideerd volgens veldparseringsregels. Leer meer in [ deze documentatie ](https://tools.ietf.org/html/rfc7230#section-3.2.4) {_blank}.
 
-## mTLS-protocolondersteuning {#mtls-protocol-support}
+## Laag voor transportbeveiliging {#tls}
+
+### TLS-protocolondersteuning {#tls-protocol-support}
+
+Adobe Journey Optimizer biedt standaard ondersteuning voor TLS 1.3 voor aangepaste handelingen. Als een client ook ondersteuning biedt voor TLS 1.3, wordt de communicatie verzorgd via TLS 1.3. Anders kan het TLS-onderhandelingsproces terugvallen op TLS 1.2.
+
+### mTLS-protocolondersteuning {#mtls-protocol-support}
 
 U kunt Wederzijdse Veiligheid van de Laag van het Vervoer (mTLS) gebruiken om verbeterde veiligheid in uitgaande verbindingen aan de douaneacties van Adobe Journey Optimizer te verzekeren. mTLS is een end-to-end veiligheidsmethode voor wederzijdse authentificatie die ervoor zorgt dat beide partijen die informatie delen wie zij beweren te zijn alvorens de gegevens worden gedeeld. mTLS bevat een extra stap in vergelijking met TLS, waarin de server ook om het certificaat van de client vraagt en dit aan het einde verifieert.
 
