@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: landen, landingspagina, lijst, abonnement, service
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: a5bcd26ff735fc9656814c0df28fb58db5b3ae37
+source-git-commit: 0000d5e4a11c316340382ea9b68f8252f109cb61
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 5%
+source-wordcount: '656'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 Een abonnementsdienst heeft betrekking op marketinggoederen en -diensten die worden geleverd aan klanten die ervoor hebben gekozen communicatie over een specifiek onderwerp/evenement/belang/enz. te ontvangen. doorlopend. In [!DNL Journey Optimizer] worden deze gekozen klanten verzameld in een abonnementenlijst.
 
-Een abonnementenservice kan:
+U kunt een abonnementenservice gebruiken voor:
 
 * een nieuwsbrief, bijvoorbeeld: &quot;Running series&quot;
 * een evenement , bijvoorbeeld : &quot; top 2021 &quot;
@@ -64,6 +64,27 @@ Voer de onderstaande stappen uit om een abonnementenlijst te maken.
 
 1. Klik op **[!UICONTROL Save]**.
 
+## Abonnementenlijst gebruiken {#use-subscription-lists}
+
+Zodra de abonnementenlijst wordt gecreeerd, kunt u:
+
+* Profielen toevoegen aan de abonnementenlijst
+
+  U kunt personen tot **uitnodigen om zich bij de lijst** aan te sluiten, door aan een nieuwsbrief in te tekenen, of het registreren aan een gebeurtenis. U kunt ook **gepersonaliseerde berichten** naar de abonnees verzenden.
+
+  Als u bijvoorbeeld een publiek wilt uitnodigen om zich te registreren voor een gebeurtenis of u wilt zich abonneren op een nieuwsbrief, kunt u hem een bericht met een koppeling naar een bestemmingspagina sturen zodat hij of zij zich bij de gebeurtenis kan aansluiten of zich kan abonneren. Profielen die zich aanmelden via het formulier op de bestemmingspagina worden toegevoegd aan de abonnementenlijst die u hiervoor hebt gemaakt.
+
+* Berichten verzenden naar abonnees
+
+  U kunt abonnementenlijsten als publiek ook gebruiken wanneer het bouwen van reizen, en het toevoegen van verpersoonlijking.
+
+  Wanneer een klant zich bijvoorbeeld abonneert op een streamingservice, kan deze de directe verzending van een welkomste-mailreeks activeren, zodat deze zich voor het eerst bij de app kan aanmelden en zijn weergavevoorkeuren kan instellen.
+
+Leer hoe te om uw abonnementenlijst in [ te gebruiken dit gebruiksgeval ](lp-use-cases.md#subscription-to-a-service).
+
+
+## Door uw abonnementenlijsten bladeren {#browse-subscription-lists}
+
 In de lijst worden alle gemaakte abonnementenlijsten weergegeven. U kunt ze filteren op basis van de aanmaakdatum of wijzigingsdatum en hun status.
 
 ![](assets/lp_subscription-filters.png)
@@ -74,10 +95,15 @@ De mogelijke statussen zijn als volgt:
 * **[!UICONTROL Live]**: De huidige dag bestaat uit de begindatum en einddatum van de abonnementenlijst, of u hebt geen begin- en einddatum gedefinieerd, wat betekent dat de abonnementenlijst altijd actief is.
 * **[!UICONTROL Expired]**: De einddatum wordt doorgegeven, zodat de abonnementenlijst niet meer geldig is. Voor elk geabonneerd profiel worden geen berichten meer ontvangen die betrekking hebben op deze abonnementenlijst.
 
-Zodra de abonnementenlijst wordt gecreeerd, kunt u het in een het landen pagina gebruiken. De profielen die zich aanmelden via het formulier voor de landingspagina worden toegevoegd aan de lijst. [Meer informatie](design-lp.md)
 
-U kunt abonnementenlijsten als publiek ook gebruiken wanneer [ bouwt reizen ](../building-journeys/journey-gs.md#jo-build) en het toevoegen van verpersoonlijking.
+## Abonnementenlijsten controleren {#monitor-subscription-lists}
 
->[!NOTE]
->
->U kunt de gevolgen van uw abonnementenlijst controleren door specifieke rapporten. [Meer informatie](../reports/subscription-report-live.md)
+U kunt de gevolgen van uw abonnementenlijst controleren door specifieke rapporten. U hebt toegang tot:
+
+* Abonnementenlijst Live-rapport
+
+  Live rapporten, die toegankelijk zijn vanaf het tabblad Laatste 24 uur, geven gebeurtenissen weer die in de afgelopen 24 uur hebben plaatsgevonden, met een minimale tijdsinterval van twee minuten vanaf de gebeurtenis. [Meer informatie](../reports/subscription-report-live.md)
+
+* Abonnementenlijst Alle tijdrapporten, met Customer Journey Analytics
+
+  Deze rapporten richten zich op gebeurtenissen die minstens twee uur geleden hebben plaatsgevonden en behandelen gebeurtenissen over een geselecteerde tijdspanne. Het **rapport van het Abonnement** biedt essentiële inzichten in de abonnementen van profielen en abonnementen verbonden aan bijzondere lijsten aan, die u helpen de doeltreffendheid van verschillende abonnementscampagnes en initiatieven in het drijven van overeenkomst en omzettingen begrijpen. [Meer informatie](../reports/subscription-report-global-cja.md)
