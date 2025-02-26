@@ -9,24 +9,20 @@ role: User
 level: Beginner
 keywords: landen, pagina landen, maken, publiceren
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
+source-git-commit: 2f8c59a3c07dfc772cb62efe5665189d7a176d6f
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1669'
 ht-degree: 1%
 
 ---
 
 # bestemmingspagina&#39;s maken en publiceren {#create-lp}
 
->[!CAUTION]
->
->Als u bestemmingspagina&#39;s wilt testen en publiceren, moet u **[!UICONTROL Publish Messages]** toestemming hebben.
-
 Als u uw klanten wilt omleiden naar een gedefinieerde webpagina die u wilt weergeven wanneer ze op een specifieke koppeling klikken, maakt u een bestemmingspagina in [!DNL Journey Optimizer] , configureert u de primaire pagina en eventuele subpagina&#39;s, test en publiceert u deze.
 
->[!CAUTION]
->
->U kunt tot uw landende pagina niet toegang hebben door eenvoudig kopiëren-kleeft in Webbrowser bepaalde URL wanneer [ creërend de pagina ](#create-landing-page), zelfs als gepubliceerd. In plaats daarvan kunt u het testen gebruikend de voorproeffunctie zoals die in [ wordt beschreven deze sectie ](#test-landing-page).
+De belangrijkste stappen voor het maken van bestemmingspagina&#39;s zijn als volgt:
+
+![](assets/lp-creation-process.png)
 
 ## Openingspagina&#39;s openen {#access-landing-pages}
 
@@ -34,29 +30,28 @@ Als u de lijst met openingspagina&#39;s wilt openen, selecteert u **[!UICONTROL 
 
 ![](assets/lp_access-list.png)
 
-In de lijst **[!UICONTROL Landing Pages]** worden alle gemaakte items weergegeven. U kunt ze filteren op basis van hun status, wijzigingsdatum of tags.
+In de lijst **[!UICONTROL Landing Pages]** worden alle bestaande bestemmingspagina&#39;s weergegeven. U kunt ze filteren op basis van hun status, wijzigingsdatum of tags.
 
 ![](assets/lp_access-list-filter.png)
 
-In deze lijst hebt u toegang tot een aantal handelingen. Klik op de drie stippen naast een openingspagina om de gewenste actie te selecteren:
+Vanuit deze lijst hebt u ook toegang tot het dupliceren, verwijderen, publiceren van een bestemmingspagina of het openen van rapporten over de bestemmingspagina. Klik hiertoe op de drie stippen naast een landingspagina en selecteer de gewenste actie:
 
 ![](assets/lp_access-list-actions.png)
 
-* Voor gepubliceerde punten, kunt u tot het [ landende paginarapport ](../reports/lp-report-global-cja.md) of tot het [ laatste 24 uren levend rapport ](../reports/lp-report-live.md) toegang hebben.
 
-* U kunt een openingspagina verwijderen of dupliceren.
+U kunt:
 
-  >[!NOTE]
-  >
-  >U kunt a [ niet gepubliceerde ](#publish-landing-page) het landen pagina schrappen. Als u het wilt verwijderen, moet u de publicatie eerst ongedaan maken.
+* Heb toegang tot de volgende **rapporten**, voor gepubliceerde het landen pagina&#39;s: [ het landende paginarapport ](../reports/lp-report-global-cja.md) en [ laatste 24 uren levend rapport ](../reports/lp-report-live.md).
 
-* U kunt de publicatie van een gepubliceerde bestemmingspagina ongedaan maken.
+* **Schrapping** of **dupliceer** een het landen pagina. U kunt a [ niet gepubliceerde ](#publish-landing-page) het landen pagina schrappen. Om het te schrappen, moet u **het eerst unpublish**.
+
+* **unpublish** het landen pagina.
 
   >[!CAUTION]
   >
-  >Als u de publicatie van een bestemmingspagina ongedaan maakt waarnaar in een bericht wordt verwezen, wordt de koppeling naar de bestemmingspagina verbroken en wordt een foutpagina weergegeven.
+  >Als u de publicatie van een bestemmingspagina ongedaan maakt waarnaar in een bericht wordt verwezen, wordt de koppeling naar de bestemmingspagina verbroken en krijgen gebruikers een foutpagina als ze ernaar proberen te gaan.
 
-* U kunt de bijbehorende [ markeringen van een landende pagina ](../start/search-filter-categorize.md#tags) ook uitgeven.
+* Bewerk de bijbehorende [ markeringen van een landende pagina ](../start/search-filter-categorize.md#tags).
 
 ## Een landingspagina maken {#create-landing-page}
 
@@ -71,9 +66,11 @@ In deze lijst hebt u toegang tot een aantal handelingen. Klik op de drie stippen
 >abstract="Om gevoelige digitale elementen te beschermen, kunt u vergunningen bepalen om gegevenstoegang tot uw landingspagina te beheren gebruikend etiketten."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="Toegangsbeheer op objectniveau"
 
-De belangrijkste stappen voor het maken van bestemmingspagina&#39;s zijn als volgt:
 
-![](assets/lp-creation-process.png)
+Als u een openingspagina wilt maken, moet u een voorinstelling selecteren, vervolgens de primaire pagina en subpagina&#39;s configureren en ten slotte de pagina testen voordat u deze publiceert. Deze stappen worden hieronder beschreven:
+
+
+1. Blader in het linkermenu naar **[!UICONTROL Content Management]** > **[!UICONTROL Landing pages]** .
 
 1. Klik in de lijst met openingspagina&#39;s op **[!UICONTROL Create landing page]** .
 
@@ -285,11 +282,12 @@ Er kunnen twee typen waarschuwingen optreden:
 
 -->
 
-## Publish de openingspagina {#publish-landing-page}
+## De openingspagina publiceren {#publish-landing-page}
 
 >[!CAUTION]
 >
->Als u bestemmingspagina&#39;s wilt publiceren, moet u **[!UICONTROL Publish Messages]** toestemming hebben.
+>Gebruikers moeten de machtiging **[!UICONTROL Publish Messages]** hebben om bestemmingspagina&#39;s te publiceren.
+
 
 Als de landingspagina gereed is, kunt u deze publiceren en in een bericht gebruiken.
 
