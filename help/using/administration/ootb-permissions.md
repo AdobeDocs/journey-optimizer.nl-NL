@@ -9,7 +9,7 @@ role: Admin, User
 level: Intermediate
 keywords: machtigingen, schrijven, berichten
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Ingebouwde machtigingen vertegenwoordigen de verschillende machtigingen die aan 
 | Dashboards | **[!DNL View license usage dashboards]**: read-only toegang tot het [ dashboard van het vergunningsgebruik ](../audience/license-usage.md). </br>**[!DNL Manage custom dashboards]**: hiermee kunt u een nieuw dashboard maken of een bestaand dashboard bewerken.</br>**[!DNL Manage standard dashboards]** : hiermee kunt u aangepaste widgets maken en het widgetschema bewerken via de Widgetbibliotheek.</br>**[!DNL View custom dashboards]**: alleen-lezen toegang tot door de gebruiker gedefinieerde dashboards.</br>**[!DNL View standard dashboards]**: alleen-lezen toegang tot de dashboards van profielen, doelen en soorten publiek. |
 | Dataverzameling | **[!DNL Manage datastream]**: lees, maak en bewerk gegevensstromen.</br>**[!DNL View datastream]**: alleen-lezen toegang tot gegevensstromen. |
 | Datagovernance | **[!DNL Manage usage labels]**: labels lezen, maken, bewerken en verwijderen.</br>**[!DNL Manage data usage policies]**: beleid voor gegevensgebruik lezen, maken, bewerken en verwijderen.</br>**[!DNL View data usage policies]**: alleen-lezen toegang voor beleidsregels voor gegevensgebruik die bij uw organisatie horen.</br>**[!DNL View user activity log]**: alleen-lezen toegang tot opgenomen controlelogboeken van platformactiviteiten. |
-| Gegevenshygiëne | **[!DNL Manage data hygiene]**: gegevenshygiëne lezen, maken, bewerken en verwijderen.</br>**[!DNL View data hygiene]**: alleen-lezen toegang voor gegevenshygiëne. |
+| Levenscyclus gegevens | **[!DNL Manage data lifecycle]**: de levenscyclus van gegevens lezen, maken, bewerken en verwijderen.</br>**[!DNL View data lifecycle]**: alleen-lezen toegang voor de levenscyclus van gegevens. |
 | Gegevensinvoer | **[!DNL Manage sources]**: bronnen lezen, maken, bewerken en uitschakelen.</br>**[!DNL View sources]**: alleen-lezen toegang tot beschikbare bronnen op het tabblad Catalogus en geverifieerde bronnen op het tabblad Bladeren. |
 | Gegevensbeheer | **[!DNL Data monitoring]**: alleen-lezen toegang tot gegevenssets en streams.</br>**[!DNL Manage datasets]**: datasets lezen, maken, bewerken en verwijderen. Alleen-lezen toegang voor schema&#39;s.</br>**[!DNL View datasets]**: alleen-lezen toegang voor gegevenssets en schema&#39;s. |
 | Gegevensmodellering | **[!DNL Manage identity metadata]**: lees, creeer, geef, en schrap identiteitsmeta-gegevens voor schema&#39;s uit.</br> **[!DNL Manage relationships]**: schema-relaties lezen, maken, bewerken en verwijderen.</br>**[!DNL Manage schemas]**: lees-, creeer- en bewerkingsschema&#39;s voor het gegevensmodel van de ervaringservaring (XDM).</br>**[!DNL View schemas]**: alleen-lezen toegang tot schema&#39;s. |
