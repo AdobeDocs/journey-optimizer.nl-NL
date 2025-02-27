@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: machtigingen, schrijven, berichten
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
+source-git-commit: 5c84bc726d50df555b9a156233c70f08f3febaba
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '933'
 ht-degree: 1%
 
 ---
@@ -39,6 +39,7 @@ Ingebouwde machtigingen vertegenwoordigen de verschillende machtigingen die aan 
 | Journey Optimizer Library | **[!DNL Manage Library Items]**: voeg opgeslagen expressies toe en verwijder ze naar de [!DNL Journey Optimizer] -bibliotheek.</br>**[!DNL Simulate content]**: toegang tot de optie Inhoud simuleren voor een voorvertoning en proefdruk.</br>**[!DNL Publish fragments]**: publiceer inhoudsfragmenten. |
 | Journey Optimizer-regels | **[!DNL Manage frequency rules]**: regels voor berichtfrequentie openen, maken, bewerken of verwijderen.</br>**[!DNL View frequency rules]**: alleen-lezen toegang tot regels. |
 | Journeys | **[!DNL Approve & publish Journeys]** : recht om reizen goed te keuren en te publiceren wanneer een beleid wordt toegepast. </br> **[!DNL Manage journeys]**: reizen lezen, maken, bewerken en verwijderen. Als u reizen wilt openen en beheren, combineert u deze machtiging met **[!DNL View journeys events, data sources and actions]** .</br>**[!DNL Manage journeys events, data sources and actions]**: gebeurtenissen, bronnen of handelingen lezen, maken, bewerken en verwijderen.</br>**[!DNL Publish journeys]**: publiceer reizen.</br>**[!DNL View journeys]**: alleen-lezen toegang tot jouneys.</br>**[!DNL View journeys events, data sources and actions]**: Alleen-lezen toegang tot reisgebeurtenissen, aangepaste reisacties en gegevensbronnen.</br>**[!DNL View journeys report]**: rapport over reizen lezen en bewerken.</br> |
+| Berichten | **[!DNL Manage messages]**: berichten lezen, maken, bewerken en verwijderen. </br>**[!DNL Manage messages preview and test]**: rechts om berichten goed te keuren en te publiceren wanneer een beleid wordt toegepast.</br>**[!DNL Publish messages]** : rechts om berichten te publiceren.</br>**[!DNL View messages]**: alleen-lezen toegang tot berichten.</br>**[!DNL View messages report]**: berichtrapporten lezen en bewerken. |
 | Profielbeheer | **[!DNL Evaluate a segment to an audience]**: genereer profielen voor een publiek door een segmentdefinitie te evalueren.</br>**[!DNL Export audience segments]**: een geëvalueerd publiekssegment exporteren naar een gegevensset.</br>**[!DNL Manage merge policies]**: samenvoegbeleid lezen, maken, bewerken en verwijderen.</br>**[!DNL Manage profiles]**: lees, creeer, geef, en schrap datasets uit die voor klantenprofielen worden gebruikt. Alleen-lezen toegang tot beschikbare profielen.</br>**[!DNL View merge policies]**: alleen-lezen toegang tot beschikbaar samenvoegbeleid.</br>**[!DNL View profiles]**: alleen-lezen toegang tot beschikbare profielen.</br>**[!DNL View segments]**: alleen-lezen toegang tot beschikbaar publiek. |
 | Query-service | **[!DNL Manage queries]**: lezen, maken, bewerken en verwijderen, gestructureerde SQL-query&#39;s voor Platformgegevens.</br>**[!DNL Manage query service integration]**: maak, werk, en schrap niet-vervallende geloofsbrieven voor de toegang van de Dienst van de Vraag bij. |
 | Rapporten | **[!DNL View channel reports]**: lees- en bewerkingskanaalrapporten. |
