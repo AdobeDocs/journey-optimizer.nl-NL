@@ -1,19 +1,19 @@
 ---
-title: Garanties en voorwaarden voor ervaring op basis van code
+title: Voorwaarden voor op code gebaseerde ervaring
 description: Volg de voorwaarden op deze pagina als u toepassingen en webpagina's wilt bewerken met de functie die is gebaseerd op Journey Optimizer-code
 feature: Code-based Experiences
 topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 045fc6f140c9128adebc2513317c4007ed71cafa
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
 
-# Afbeeldingen en voorwaarden {#code-based-prerequisites}
+# Voorwaarden voor op code gebaseerde ervaring {#code-based-prerequisites}
 
 Als u code-gebaseerde ervaringsacties in [!DNL Journey Optimizer] wilt kunnen gebruiken en code inhoud lading kunt leveren die door uw toepassingen kan worden gebruikt, volg hieronder de eerste vereisten:
 

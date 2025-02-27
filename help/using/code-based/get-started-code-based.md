@@ -6,9 +6,9 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 102ea61835144b274c018b28881cacdb5ebba1fa
+source-git-commit: 045fc6f140c9128adebc2513317c4007ed71cafa
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '789'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Met het **code-gebaseerde ervaring** vermogen, kunt u binnenkomende ervaringen b
 
 >[!IMPORTANT]
 >
->De specifieke begeleiding en de aanbevelingen voor code-gebaseerde ervaringen zijn gedetailleerd in [ deze pagina ](code-based-prerequisites.md).
+>De specifieke aanbevelingen voor code-gebaseerde ervaringen zijn gedetailleerd in [ deze pagina ](code-based-prerequisites.md).
 
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
@@ -99,7 +99,7 @@ Als u zaken voor webgebruik wilt uitvoeren, kunt u het webkanaal of de ervaring 
 **op code-gebaseerde ervaring**
 
 * Bewerk uw inhoud gebruikend de [ verpersoonlijkingsredacteur ](create-code-based.md#edit-code).
-* U hebt of het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html) {target="_blank"} - cliënt-zijimplementatie, of [ AEP Edge Network Server API ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) {target="_blank"} - server-zijimplementatie nodig.
+* U hebt of het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html) {target="_blank"} nodig - cliënt-zijimplementatie, of de [ Server API van Edge Network van AEP ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) {target="_blank"} - server-zijimplementatie.
 * De op code-gebaseerde ervaring vereist vorige ontwikkelingswerk aan uw implementatie om ervoor te zorgen dat uw toepassingen de inhoud kunnen interpreteren en leveren die op de rand door [!DNL Journey Optimizer] voor deze plaatsen wordt gepubliceerd. [Meer informatie](code-based-surface.md)
 * Het vereist meer planning en het kan slechts de dingen veranderen die de ontwikkelaars specificeren. Daarom is het essentieel om de componenten (huisbanner, heldenbeeld, menubalk, enz.) op de toepassingen te identificeren die voor verpersoonlijking of het testen moeten worden gewijzigd, en met uw ontwikkelingsteam te werken om de implementatie te bouwen nodig voor het behandelen van deze veranderingen.
 * U kunt hiermee JSON-code-inhoud gebruiken.
