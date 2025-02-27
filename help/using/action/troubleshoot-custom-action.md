@@ -9,13 +9,13 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
-source-git-commit: d6501c8cc7e3293bd6a057d8e74654bced7dae75
+exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
+source-git-commit: 4cedc368d630c0932782ac031fdd904e9b003fa0
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
-
 
 # Aangepaste acties oplossen {#troubleshoot-a-custom-action}
 
@@ -71,7 +71,7 @@ Wanneer een aangepaste handeling verificatie bevat, vereist Adobe Journey Optimi
 
 * **Basisauthentificatie:** de gebruiker moet het *wachtwoord* verstrekken.
 * **API Zeer belangrijke Authentificatie:** de gebruiker moet de API sleutel *waarde* ingaan.
-* **Authentificatie van de Douane:** de gebruiker moet de authentificatieparameters in het verzoek *bodyParam* leveren. Twee te voltooien secties worden toegevoegd in dit geval: **verzoek van de Authentificatie** en **de reactie van de Authentificatie**.
+* **Authentificatie van de Douane:** de gebruiker moet de authentificatieparameters in het verzoek *bodyParam* leveren. Twee secties worden toegevoegd in dit geval: **verzoek van de Authentificatie** en **de reactie van de Authentificatie**.
 
 ## Belangrijkste voordelen {#troubleshoot-custom-action-benefits}
 
@@ -94,4 +94,3 @@ Als de aanvraag mislukt, kunt u controleren:
 * De aanvraagmethode (GET versus POST) en de bijbehorende lading.
 * Het API eindpunt en de kopballen die in de douaneactie worden bepaald.
 * Gebruik de reactiegegevens om potentiële misconfiguraties te identificeren.
-
