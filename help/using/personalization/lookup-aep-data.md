@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
+source-git-commit: 47ff62f7dee5974afbffdd38dfe4a3f967781e93
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1044'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Controleer voordat u begint de volgende beperkingen en richtlijnen:
 
 * **Gesteunde kanalen**: Voor nu, is dit vermogen slechts beschikbaar voor gebruik binnen e-mail, SMS en direct-mailkanalen.
 * **de Etikettering en de Handhaving van het Gebruik van Gegevens** wordt niet afgedwongen op dit ogenblik voor datasets die voor raadpleging worden toegelaten.
-* **de fragmenten van de Uitdrukking**: De raadplegingsverpersoonlijking van de Dataset kan niet binnen uitdrukkingsfragmenten op dit ogenblik worden geplaatst.
+* **Fragments**: De verpersoonlijking van de raadpleging van de gegevensset kan niet binnen uitdrukking of visuele fragmenten op dit ogenblik worden geplaatst.
 
 ## Een dataset inschakelen voor gegevensopzoekhandeling {#enable}
 
