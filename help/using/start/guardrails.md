@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 82a73c9e6d03563ce9dcc5bd4eaa8eb1166caf1f
+source-git-commit: 7475debd0e6b751725e5b5d7c2efa4b8b9e01a15
 workflow-type: tm+mt
-source-wordcount: '2319'
+source-wordcount: '2330'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Vanaf Februari 2025, wordt een tijd-aan-levende (TTL) guardrail opgesteld uit aa
 * 90 dagen voor gegevens in de profielopslag,
 * 13 maanden voor gegevens in het data Lake.
 
-Deze verandering zal uit aan **bestaande klantenzandbakken** in een verdere fase worden opgerold. [ leer meer op datasets tijd-aan-Verlaat (TTL) guardrails ](../data/datasets-ttl.md)
+Deze verandering zal uit aan **bestaande klantenzandbakken** in een verdere fase worden opgerold. [ leer meer op datasets tijd-aan-Levende (TTL) gidsen ](../data/datasets-ttl.md)
 
 ## Kanaalhulplijnen {#channel-guardrails}
 
@@ -220,4 +220,4 @@ Specifieke instructies zijn van toepassing op de **[!UICONTROL Jump]** -activite
 De volgende instructies zijn van toepassing op de activiteiten **[!UICONTROL Campaign v7/v8]** en **[!UICONTROL Campaign Standard]** :
 
 * Adobe Campaign-activiteiten kunnen niet worden gebruikt met een Read-publiek of met een Audience-kwalificatieactiviteit.
-* Deze activiteiten kunnen niet worden gebruikt met In-app-activiteiten.
+* Campagne-activiteiten kunnen niet worden gebruikt met andere kanaalactiviteiten: kaart, ervaring op basis van code, e-mail, push, SMS, In-app berichten, Web.
