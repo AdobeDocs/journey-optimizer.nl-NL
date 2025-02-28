@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
+source-git-commit: 9fa5330d766aa6fb1998e668a08d769d3fd1b2cc
 workflow-type: tm+mt
-source-wordcount: '2390'
+source-wordcount: '2388'
 ht-degree: 0%
 
 ---
@@ -301,7 +301,7 @@ Klik op het pictogram `...` om de beschrijving van de functie weer te geven en d
         <td><a href="string.md#doesNotStartWith">Begint niet met</a></td><td>Deze functie wordt gebruikt om te bepalen of een tekenreeks niet begint met een opgegeven subtekenreeks</td>
     </tr>
     <tr>
-        <td><a href="string.md#encode64">Coderen 64</a></td><td>Deze functie wordt gebruikt om een tekenreeks te coderen of decoderen</td>
+        <td><a href="string.md#encode64">Coderen 64</a></td><td>Deze functie wordt gebruikt om een tekenreeks te coderen</td>
     </tr>
     <tr>
         <td><a href="string.md#endsWith">Eindigt met</a></td><td>Deze functie wordt gebruikt om te bepalen of een tekenreeks eindigt met een opgegeven subtekenreeks</td>
