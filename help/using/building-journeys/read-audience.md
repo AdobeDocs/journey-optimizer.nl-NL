@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: activiteit, reis, lezen, publiek, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
+source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1604'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,7 @@ De stappen om de Gelezen activiteit van het Publiek te vormen zijn als volgt:
 
    >[!NOTE]
    >
-   >Slechts zullen de individuen met de **Geleide** en **Bestaande** status van de publieksparticipatie de reis ingaan. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [ documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results) {target="_blank"}.
+   >Slechts zullen de individuen met de **Realized** status van de publieksparticipatie de reis ingaan. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [ documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results) {target="_blank"}.
 
 1. Kies in het veld **[!UICONTROL Namespace]** de naamruimte die u wilt gebruiken om de personen te identificeren. Het veld wordt standaard voorgevuld met de laatst gebruikte naamruimte. [ Leer meer over namespaces ](../event/about-creating.md#select-the-namespace).
 
@@ -162,7 +162,7 @@ Na het betreden van de reis, kunt u publiek tot stand brengen orkestgebruik geva
 
 **Segmentatie**
 
-U kunt voorwaarden gebruiken om segmentatie uit te voeren gebruikend de **Condition** activiteit. U kunt VIP personen bijvoorbeeld een bepaald pad laten maken en niet-VIP laten doorlopen in een ander pad.
+U kunt voorwaarden gebruiken om segmentatie uit te voeren gebruikend de **Condition** activiteit. U kunt bijvoorbeeld VIP-personen een bepaald pad laten volgen en niet-VIP-stromen in een ander pad.
 
 De segmentatie kan worden gebaseerd op:
 
@@ -176,7 +176,7 @@ De segmentatie kan worden gebaseerd op:
 
 **Uitsluiting**
 
-De zelfde **activiteit van de Voorwaarde 0} {die voor segmentatie (zie hierboven) wordt gebruikt staat u ook toe om een deel van de bevolking uit te sluiten.** U kunt bijvoorbeeld VIP personen uitsluiten door ze na afloop naar een vertakking te laten gaan met een eindstap.
+De zelfde **activiteit van de Voorwaarde 0} {die voor segmentatie (zie hierboven) wordt gebruikt staat u ook toe om een deel van de bevolking uit te sluiten.** U kunt bijvoorbeeld VIP-personen uitsluiten door deze naar een vertakking te laten gaan met een eindstap direct erna.
 
 Deze uitsluiting kan direct na het opvragen van het publiek gebeuren, voor het tellen van de bevolking of langs een reis in meerdere stappen.
 
@@ -188,7 +188,7 @@ Met ritten kunt u N-vertakkingen maken en deze na een segmentatie samenvoegen.
 
 Hierdoor kunt u twee soorten publiek terugbrengen naar een algemene ervaring.
 
-Zo kunnen VIP en niet-VIP klanten na een andere ervaring gedurende tien dagen op een reis terugkeren naar hetzelfde pad.
+Zo kunnen VIP- en niet-VIP-klanten na een andere ervaring gedurende tien dagen op reis terugkeren naar hetzelfde pad.
 
 Na een vereniging, kunt u het publiek opnieuw verdelen door een segmentatie of een uitsluiting uit te voeren.
 
