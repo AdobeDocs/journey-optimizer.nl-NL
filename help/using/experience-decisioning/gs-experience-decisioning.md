@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 5e907e12958055f0a4f75fe99103218288c758fa
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -85,3 +85,4 @@ De belangrijkste stappen om met Beslissing te werken zijn als volgt:
 1. **creeer een besluitvormingsbeleid en bedt het in uw op code-gebaseerde campagne** in: Het beleid van het besluit combineert veelvoudige selectiestrategieën om de in aanmerking komende besluitpunten te bepalen om aan het voorgenomen publiek te tonen.
 
    ➡️ [ leren hoe te met besluitvormingsbeleid ](create-decision.md) te werken
+➡️ met succes de aanbieding via het op code-Gebaseerde kanaal leveren, volg de implementatiestappen in [ deze sectie ](../code-based/code-based-implementation-samples.md)
