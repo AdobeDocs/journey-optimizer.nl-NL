@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: zandbak, reis, exemplaar, milieu
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: bf18b629c23f9ef48d53b0042d466ba7c1f57c78
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,6 @@ Het kopieerproces wordt uitgevoerd via een pakketexport en importeren tussen de 
 
 1. Voeg het object dat u wilt exporteren als een pakket toe aan de bronsandbox.
 1. Exporteer het pakket naar de doelsandbox.
-
-Bovendien kunt u hefboomwerking Journey Optimizer **de REST API van de Dienst van het Exemplaar van Objecten** gebruiken om zandbakken&#39; voorwerpen te beheren. [ Leer hoe te om met de REST API van de Dienst van het Exemplaar van Objecten te werken ](https://developer.adobe.com/journey-optimizer-apis/references/sandbox/)
 
 ## Geëxporteerde objecten en aanbevolen werkwijzen {#objects}
 
