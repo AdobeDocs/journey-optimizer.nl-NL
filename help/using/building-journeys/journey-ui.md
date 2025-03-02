@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
+source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 3%
@@ -68,7 +68,7 @@ Het soort reis hangt af van de activiteiten die in die reis worden gebruikt. Het
 
 * **[!UICONTROL Unitary event]** - Eenheidsuitzettingen worden gekoppeld aan een specifiek profiel. Gebeurtenissen hebben betrekking op het gedrag van een persoon of iets dat met een persoon verband houdt (een persoon bereikte bijvoorbeeld 10 000 loyaliteitspunten). [Meer informatie](../event/about-events.md).
 * **[!UICONTROL Business event]**. De reis van bedrijfsgebeurtenissen begint met een niet-profielgerelateerde gebeurtenis. De gebeurtenisconfiguratie wordt uitgevoerd door een technische gebruiker en kan niet worden uitgegeven. [Meer informatie](../event/about-events.md).
-* **[!UICONTROL Audience qualification]** - De kwalificatiereizen van het publiek beluisteren de ingangen en de uitgangen van profielen in het Adobe Experience Platform-publiek om ervoor te zorgen dat individuen een reis kunnen betreden of vooruit kunnen gaan. [Meer informatie](audience-qualification-events.md).
+* **[!UICONTROL Audience Qualification]** - De reizen van de Kwalificatie van het publiek luisteren naar de ingangen en de uitgangen van profielen in het publiek van Adobe Experience Platform om individuen te maken ingaan of zich op een reis voortbewegen. [Meer informatie](audience-qualification-events.md).
 * **[!UICONTROL Read audience]** - Bij Lezen kijkreizen nemen alle personen in het publiek de reis in en ontvangen ze de berichten die in uw reis zijn opgenomen.  [Meer informatie](read-audience.md).
 
 

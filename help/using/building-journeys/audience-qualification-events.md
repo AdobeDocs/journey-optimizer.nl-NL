@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Gebeurtenissen in verband met de kwalificatie van het publiek
-description: Meer informatie over kwalificatiegebeurtenissen voor het publiek
+description: Leer hoe u kwalificatiegebeurtenissen voor het publiek gebruikt en configureert
 feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
 level: Intermediate
 keywords: kwalificatie, evenementen, publiek, reis, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
+source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1174'
 ht-degree: 0%
 
 ---
@@ -33,22 +33,29 @@ Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
 
 ➡️ [ ontdekt deze eigenschap in video ](#video)
 
-### Belangrijke opmerkingen{#important-notes-segment-qualification}
+### Belangrijke opmerkingen {#important-notes-segment-qualification}
+
+* De reizen van de Kwalificatie van het publiek zijn hoofdzakelijk ontworpen om met het stromen publiek te werken: deze combinatie zal een betere ervaring in real time waarborgen. Wij adviseren sterk dat u slechts **het stromen publiek** in de activiteit van de Kwalificatie van het Publiek gebruikt.
+
+  Nochtans, als u partij ingestie gebaseerde attributen in uw het stromen publiek, of een partijpubliek voor een reis van de Kwalificatie van het Publiek wilt gebruiken, overweeg de tijdspanwijdte voor publieksevaluatie/activering - een partijpubliek of het stromen publiek die partij ingebedde attributen gebruiken zou klaar moeten zijn om in **activiteit van de Kwalificatie van het Publiek op rond** te gebruiken **na voltooiing van uw segmentatietaak (deze baan die (deze die één dag in de tijd wordt bepaald door uw beheerder van de Adobe-organisatie).**
 
 * Onthoud dat het publiek van Adobe Experience Platform of eens per dag (**partij** publiek) of in real time (voor **gestroomd** publiek wordt berekend, gebruikend de Hoge optie van het Publiek van de Frequentie van Adobe Experience Platform).
 
    * Als het geselecteerde publiek wordt gestreamd, zullen de individuen die tot dit publiek behoren de reis in real time kunnen betreden.
    * Als het publiek een batch is, kunnen mensen die net voor dit publiek zijn gekwalificeerd de reis invoeren wanneer de publieksberekening op Adobe Experience Platform wordt uitgevoerd.
 
-  Als beste praktijken, adviseren wij daarom slechts het stromen publiek in de kwalificatie **activiteit van het a** publiek te gebruiken. Voor de gevallen van het partijgebruik, gelieve te gebruiken a **[gelezen publiek](read-audience.md)** activiteit.
+  Als beste praktijken, adviseren wij daarom slechts het stromen publiek in de activiteit van de Kwalificatie van het publiek van het a **te gebruiken**. Voor de gevallen van het partijgebruik, gelieve te gebruiken a **[gelezen publiek](read-audience.md)** activiteit.
 
   >[!NOTE]
   >
   >Vanwege de batchaard van publiek dat is gemaakt met gebruik van compositieworkflows en aangepaste upload, kunt u deze soorten publiek niet als doelgroep instellen in de activiteit ‘Kwalificatie van publiek’. Alleen publiek dat is gemaakt met behulp van segmentdefinities kan in deze activiteit worden gebruikt.
 
-* U kunt gebeurtenisveldgroepen niet gebruiken voor reizen die beginnen met een leespubliek, een kwalificatie Audience of een activiteit voor een zakelijke gebeurtenis.
+* De groepen van het de gebeurtenisgebied van de ervaring kunnen niet in ritten worden gebruikt die met a **Gelezen Publiek**, a **de Kwalificatie van het Publiek** of a **BedrijfsGebeurtenis** activiteit beginnen.
 
-* Wanneer u een publiekskwalificatie gebruikt op een reis, kan het tot 10 minuten duren voordat de activiteit van de publiekskwalificatie actief is en naar profielen luistert die het publiek binnenkomen of verlaten.
+* Wanneer het gebruiken van de Kwalificatie van het publiek **activiteit van het 0} {in een reis, kan die activiteit tot 10 minuten duren om actief te zijn en aan profielen te luisteren die of het publiek ingaan weggaan.**
+
+
+Zie ook ](#best-practices-segments) hieronder de beste praktijken van de Kwalificatie van het publiek 0}.[
 
 ### De activiteit configureren {#configure-segment-qualification}
 
@@ -100,7 +107,7 @@ Zie [ de activiteit van de Voorwaarde ](../building-journeys/condition-activity.
 
 ![](assets/segment8.png)
 
-Een nieuwe reis die een publiekskwalificatiegebeurtenis omvat is operationeel tien minuten nadat u het hebt gepubliceerd. Dit tijdinterval beantwoordt aan het geheime voorgeheugen verfrist interval van de specifieke dienst. Daarom moet u tien minuten wachten voordat u deze reis gebruikt.
+Een nieuwe reis die een **gebeurtenis van de Kwalificatie van het Publiek** omvat is operationeel tien minuten nadat u het hebt gepubliceerd. Dit tijdinterval beantwoordt aan het geheime voorgeheugen verfrist interval van de specifieke dienst. Daarom moet u tien minuten wachten voordat u deze reis gebruikt.
 
 ## Best practices {#best-practices-segments}
 
@@ -108,21 +115,21 @@ De **[!UICONTROL Audience Qualification]** -activiteit maakt het mogelijk dat pe
 
 De ontvangstsnelheid van deze informatie is hoog. Uit de uitgevoerde metingen blijkt een snelheid van 10.000 ontvangen gebeurtenissen per seconde. Als gevolg hiervan moet u er zeker van zijn dat u begrijpt hoe pieken in de toegang kunnen optreden, hoe u ze kunt vermijden en hoe u uw reis voor hen gereed kunt maken.
 
-### Batchpubliek{#batch-speed-segment-qualification}
+### Batchpubliek {#batch-speed-segment-qualification}
 
-Wanneer het gebruiken van publiekskwalificatie voor een partijpubliek, merk op dat een piek van ingang op het tijdstip van de dagelijkse berekening zal gebeuren. De grootte van de piek hangt af van het aantal personen dat het publiek dagelijks binnenkomt (of verlaat).
+Wanneer het gebruiken van de Kwalificatie van het Publiek voor een partijpubliek, merk op dat een piek van ingang op het tijdstip van de dagelijkse berekening zal gebeuren. De grootte van de piek hangt af van het aantal personen dat het publiek dagelijks binnenkomt (of verlaat).
 
 Als het batchpubliek bovendien pas wordt gecreëerd en onmiddellijk wordt gebruikt in een reis, kan de eerste batch van de berekening een zeer groot aantal personen de reis binnenkomen.
 
-### Gestroomd publiek{#streamed-speed-segment-qualification}
+### Gestroomd publiek {#streamed-speed-segment-qualification}
 
-Wanneer het gebruiken van publiekskwalificatie voor gestroomd publiek, is er minder risico om grote pieken van ingangen/uitgangen te krijgen toe te schrijven aan de ononderbroken evaluatie van het publiek. Toch, als de publieksdefinitie ertoe leidt dat een groot volume van klanten tezelfdertijd kwalificeert, zou er ook een piekperiode kunnen zijn.
+Wanneer het gebruiken van de Kwalificatie van het Publiek voor gestroomd publiek, is er minder risico om grote pieken van ingangen/uitgangen te krijgen toe te schrijven aan de ononderbroken evaluatie van het publiek. Toch, als de publieksdefinitie ertoe leidt dat een groot volume van klanten tezelfdertijd kwalificeert, zou er ook een piekperiode kunnen zijn.
 
 Vermijd het gebruik van open en verzend gebeurtenissen met streaming segmentatie. In plaats daarvan, gebruik echte user-activity signalen zoals kliks, aankopen, of baken gegevens. Voor frequentie of suppression logica, gebruik bedrijfsregels eerder dan verzendt gebeurtenissen. [Meer informatie](../audience/about-audiences.md#open-and-send-event-guardrails)
 
 Voor meer informatie bij het stromen segmentatie, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api).
 
-### Overbelasting voorkomen{#overloads-speed-segment-qualification}
+### Overbelasting voorkomen {#overloads-speed-segment-qualification}
 
 Hier volgen een paar voorbeelden van beste praktijken die zullen helpen om overladende systemen te vermijden leveraged in reizen (gegevensbronnen, douaneacties, kanaalactiviteiten).
 
@@ -138,6 +145,6 @@ Voordat u het publiek in een productiereis gaat gebruiken, moet u altijd eerst h
 
 ## Hoe kan ik-video {#video}
 
-Begrijp de toepasselijke gebruiksgevallen voor publiekskwalificatiereizen. Leer hoe u een reis maakt met de kwalificatie van het publiek en welke aanbevolen procedures u toepast.
+Begrijp de toepasselijke gebruiksgevallen voor reizen van de Kwalificatie van het Publiek in deze video. Leer hoe u een reis maakt met de kwalificatie &#39;Audience Qualification&#39; en welke best practices u kunt toepassen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

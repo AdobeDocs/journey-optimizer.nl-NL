@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 691474e332e9c62dd1be8b8b044e0d02781805ff
+source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 0%
@@ -53,7 +53,7 @@ U kunt het publiek op verschillende manieren gebruiken in **[!DNL Journey Optimi
 
 * Gebruik de **activiteit van de Voorwaarde** in een reis om voorwaarden te bouwen die op publiekslidmaatschap worden gebaseerd. [ leer hoe te om publiek in voorwaarden ](../building-journeys/condition-activity.md#using-a-segment) te gebruiken.
 
-* Gebruik de **gebeurtenisactiviteit van de kwalificatie van het publiek 0} {in een reis om individuen te maken ingaan of zich voorwaarts in de reis die op de kijkposten van Adobe Experience Platform en uitgang wordt gebaseerd.** U kunt bijvoorbeeld alle nieuwe zilverklanten een reis laten maken en hun berichten sturen. Voor meer op hoe te om deze activiteit te gebruiken, verwijs naar [ hoe te om een de kwalificatieactiviteit van het Publiek te vormen ](../building-journeys/audience-qualification-events.md).
+* Gebruik de **gebeurtenisactiviteit van de Kwalificatie van het publiek 0} {in een reis om individuen te maken ingaan of zich voorwaarts in de reis gebaseerd op de kijkposten van Adobe Experience Platform en uitgang.** U kunt bijvoorbeeld alle nieuwe zilverklanten een reis laten maken en hun berichten sturen. Voor meer op hoe te om deze activiteit te gebruiken, verwijs naar [ hoe te om een de kwalificatieactiviteit van het Publiek te vormen ](../building-journeys/audience-qualification-events.md).
 
   >[!NOTE]
   >
