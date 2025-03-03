@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 88d15684f13b234bcb00227bd609ca387070952a
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
 
 # Uw merken maken en beheren {#brands}
+
+>[!CONTEXTUALHELP]
+>id="ajo_brands_overview"
+>title="Merken"
+>abstract="Maak en pas uw eigen merken aan om uw unieke visuele en verbale identiteit te definiëren en het tegelijkertijd gemakkelijker te maken om inhoud te genereren die aansluit bij de stijl en stem van uw merk."
 
 >[!AVAILABILITY]
 >
@@ -56,6 +61,11 @@ Gebruikers die het menu **[!UICONTROL Brands]** in [!DNL Adobe Journey Optimizer
 +++
 
 ## Uw merk maken {#create-brand-kit}
+
+>[!CONTEXTUALHELP]
+>id="ajo_brands_create"
+>title="Uw merk maken"
+>abstract="Voer uw merknaam in en upload het bestand met uw merkrichtlijnen. Met dit gereedschap worden automatisch belangrijke details opgehaald, zodat u de identiteit van uw merk eenvoudiger kunt behouden."
 
 Volg onderstaande stappen om uw richtlijnen voor uw merk te maken en te beheren.
 
