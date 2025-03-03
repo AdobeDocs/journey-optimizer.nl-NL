@@ -3,26 +3,20 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Aangepaste acties oplossen
 description: Leer hoe u een aangepaste handeling kunt oplossen
-badge: label="Beperkte beschikbaarheid"
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: 4cedc368d630c0932782ac031fdd904e9b003fa0
+source-git-commit: 4367e39013e87b12848fc172df9b68cd637fc802
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
 
 # Aangepaste acties oplossen {#troubleshoot-a-custom-action}
-
->[!AVAILABILITY]
->
->Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
->
 
 U kunt uw aangepaste handelingen testen door API-aanroepen te verzenden vanuit de beheersectie van de gebruikersinterface van Journey Optimizer. Met deze functie kunt u uw aangepaste acties vóór of na het gebruik ervan tijdens een reis oplossen.
 
