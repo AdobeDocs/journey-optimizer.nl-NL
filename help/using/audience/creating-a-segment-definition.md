@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: 96f6fe5d1a941a904ecddf66e9b4a51802e5d00b
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 1%
@@ -129,8 +129,7 @@ Met flexibele publieksevaluatie kunt u:
 
 1. Maak een nieuw segment op basis van de meest recente gegevens.
 1. Evalueer het publiek in real time om nauwkeurigheid te verzekeren. Om dit te doen, kies de soorten publiek u &quot;evalueert publiek&quot;evalueert en wilt selecteren, op voorwaarde dat zij aan specifieke criteria (b.v., op mensen-gebaseerd, de oorsprong van de Dienst van de Segmentatie) voldoen.
-1. Het beoordeelde publiek in Adobe Journey Optimizer gebruiken
-campagnes of reizen voor een precieze doelgerichtheid.
+1. Gebruik het geëvalueerde publiek in Adobe Journey Optimizer campagnes of reizen voor nauwkeurige gericht richten.
 
 U kunt maximaal 20 soorten publiek tegelijk evalueren en niet-subsidiabele doelgroepen worden automatisch uitgesloten. Voor meer details, zie de [ Poortdocumentatie van het Poort van het Publiek ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
 
