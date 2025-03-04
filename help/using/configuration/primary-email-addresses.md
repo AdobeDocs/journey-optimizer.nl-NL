@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: primair, uitvoeren, e-mail, doel, profiel, optimaliseer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
+source-git-commit: 5b6543fd98b0457652374a34712e91501ace898c
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
@@ -70,6 +70,11 @@ Het uitvoeringsveld wordt bijgewerkt en wordt nu gebruikt als primair adres.
 
 Voor specifieke gebruiksgevallen kunt u het uitvoeringsveld globaal overschrijven en een andere waarde definiëren op het niveau van de e-mailconfiguratie of op het niveau van de reis.
 
+Het overschrijven van deze waarde kan bijvoorbeeld nuttig zijn om:
+
+* Test een e-mailbericht. U kunt uw eigen e-mailadres toevoegen: nadat u de reis hebt gepubliceerd, wordt het e-mailbericht naar u verzonden.
+* Stuur een e-mail naar de abonnees van een lijst. Leer meer in [ dit gebruiksgeval ](../building-journeys/message-to-subscribers-uc.md).
+
 ### In de e-mailconfiguratie
 
 U kunt het standaard uitvoeringsgebied veranderen dat in de [ algemene montages ](#admin-settings) wordt geplaatst wanneer het bepalen van een configuratie van het e-mailkanaal. [Meer informatie](../email/email-settings.md#execution-address)
@@ -88,8 +93,4 @@ In bepaalde specifieke contexten kunt u deze waarde overschrijven met het pictog
 >
 >Overschrijven van e-mailadressen mag alleen worden gebruikt voor specifieke gebruiksgevallen. Meestal hoeft u het e-mailadres niet te wijzigen, omdat de waarde die wordt gedefinieerd als het primaire adres in de **[!UICONTROL Execution fields]** het adres is dat moet worden gebruikt.
 
-Het overschrijven van deze waarde kan bijvoorbeeld nuttig zijn om:
-
-* Test een e-mailbericht. U kunt uw eigen e-mailadres toevoegen: nadat u de reis hebt gepubliceerd, wordt het e-mailbericht naar u verzonden.
-* Stuur een e-mail naar de abonnees van een lijst. Leer meer in [ dit gebruiksgeval ](../building-journeys/message-to-subscribers-uc.md).
 
