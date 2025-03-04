@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform, data Lake, create, Lake, datasets, profile
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: 0e164877044430509fc7b2f2bf3ca2eda8e7497b
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 3%
+source-wordcount: '655'
+ht-degree: 2%
 
 ---
 
@@ -46,13 +46,6 @@ De onderstaande tabel bevat een lijst met alle beïnvloede gegevenssets en hun r
 | Beslissingsobjectrepository - Plaatsingen | 13 maanden | nvt |
 | Beslissingsobjectopslagplaats - Activiteiten | 13 maanden | nvt |
 | ODE-beslissingsgebeurtenissen - prodbeslissing | 13 maanden | nvt |
-| AJO-servicedataset voor toestemming | nvt | 90 dagen |
-| Gegevensset AJO Interactive Messaging Profile | nvt | 90 dagen |
-| Extensie AJO-profieltellers | nvt | 90 dagen |
-| Gegevensset van AJO Push Profile | nvt | 90 dagen |
-| Gegevensset AJO Engageable Profile | nvt | 90 dagen |
-
-
 
 ## Veelgestelde vragen {#faq}
 
