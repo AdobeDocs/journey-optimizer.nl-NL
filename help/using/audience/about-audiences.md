@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
+source-git-commit: c60ad071d41c9b322e9a6b9285a044321df536cc
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,13 @@ Voor meer informatie over hoe te met publiek in het Portaal van het Publiek te w
 
 Soorten publiek kan op verschillende manieren worden gegenereerd:
 
-* **de definities van het Segment**: Creeer een nieuwe publieksdefinitie gebruikend de Dienst van de Segmentatie van Adobe Experience Platform. [ leer hoe te om segmentdefinities te bouwen ](creating-a-segment-definition.md)
+* **de definities van het Segment**: Creeer een nieuwe publieksdefinitie gebruikend de Dienst van de Segmentatie van Adobe Experience Platform. Het publiek wordt geproduceerd van segmentdefinities en op verschillende tijden afhankelijk van hun evaluatietype verfrist.
+
+   * Streaming segmentatie: publiek wordt in real-time bijgewerkt naarmate nieuwe gegevens stromen, zodat de relevantie op basis van gebruikersactiviteit ononderbroken blijft.
+   * Batchsegmentatie: het publiek wordt elke 24 uur vernieuwd en legt een momentopname van profielen vast met een vast interval.
+   * Edge-segmentatie: publiek wordt direct aan de rand geëvalueerd, zodat u in real-time kunt personaliseren.
+
+[ leer hoe te om segmentdefinities te bouwen ](creating-a-segment-definition.md)
 
 * **Douane uploadt**: Invoer een publiek gebruikend een Csv- dossier. [ leer hoe te om tot Douane te leiden uploadt publiek ](custom-upload.md)
 
