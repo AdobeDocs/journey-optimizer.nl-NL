@@ -7,9 +7,9 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 12a3520ec05737cbf5cdc813aa22ce16a9270d18
+source-git-commit: f6c77a93c4adea33df8434ff8f950b8d39c92845
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,19 @@ Gebruik Real-time klantprofiel in [!DNL Adobe Journey Optimizer] om een holistis
 
 **In real time &#x200B; van het Profiel van de Klant** - integreer klantenattributen en gebeurtenissen van online, off-line, en pseudoniem bronnen in één enkel, verenigd profiel. &#x200B;Gebruik het profiel om klanten met gepersonaliseerde, real-time ervaringen over veelvoudige touchpoints in dienst te nemen. &#x200B;
 
-**Ingestie van Gegevens** - verbind met diverse gegevensbronnen om gedrag, transactie, financiële, en operationele gegevens in te voeren. Gegevens in realtime of via batchuploads verzamelen om profielen constant bij te werken. &#x200B;
+**Ingestie van Gegevens** - verbind met diverse gegevensbronnen om gedrag, transactie, financiële, en operationele gegevens in te voeren. Gegevens in realtime of via batchuploads verzamelen om profielen constant bij te werken.
 
 **Grafiek van de Identiteit** - combineer gegevens van verschillende bronnen gebruikend klantenidentiteiten, zoals loyaliteit IDs of het systeem IDs van CRM. &#x200B;Creeer een uitvoerige mening van de klant door verhoudingen tussen verschillende identiteiten binnen de datasets van een merk in kaart te brengen. &#x200B;
 
 **Betrokkenheid van de Klant** - gebruik het klantenprofiel in real time om contextuele, gepersonaliseerde ervaringen, zoals gerichte aanbiedingen en berichten te leveren. &#x200B;Neem klanten over diverse kanalen, met inbegrip van marketing campagnes, klantensteun, en transactionele updates in dienst. &#x200B;
 
 **Gegevens die** delen - Deel klantenprofielen met hoogste leveranciers van de wolkenopslag zoals Amazon Web Services, Microsoft Azure, en de Wolk van Google. Gebruik gedeelde profielen voor rapportage, archivering van gegevens of diepgaande analyse met tools voor bedrijfsinformatie.
+
+>[!MORELIKETHIS]
+>
+>* [ de documentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl) {target="_blank"}
+>* [ StandaardGaranties voor gegevens en segmentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails) {target="_blank"}
+>* &#x200B; [ de documentatie van de Ingestie van Gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home) {target="_blank"}
 
 ## Profieldashboard
 
@@ -43,12 +49,6 @@ Navigeer naar het menu **[!UICONTROL Customer]** / **[!UICONTROL Profiles]** in 
 U kunt gegevensfragmenten samenbrengen uit meerdere bronnen en deze combineren om een volledige weergave van elk van uw individuele klanten te zien. Wanneer het brengen van deze gegevens samen, zijn het fusiebeleid de regels die worden gebruikt om te bepalen hoe de gegevens voorrang zullen krijgen en welke gegevens zullen worden gecombineerd om de verenigde mening tot stand te brengen. Leer meer over **beleid van de Fusie** in deze [ documentatie ](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html) {target="_blank"}.
 
 ![](assets/profiles-home.png)
-
->[!MORELIKETHIS]
->
->* [ de documentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl) {target="_blank"}
->* [ StandaardGaranties voor gegevens en segmentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails) {target="_blank"}
->* [ Real-time het overzichtsvideo van het Profiel van de Klant ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl) {target="_blank"}
 
 ## Hoe kan ik-video {#video}
 
