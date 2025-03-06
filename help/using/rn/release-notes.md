@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4367e39013e87b12848fc172df9b68cd637fc802
+source-git-commit: 6480bb7e35d92ba1771b3e5c01310ee93a8c77b1
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '746'
 ht-degree: 8%
 
 ---
@@ -92,7 +92,7 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <table>
 <thead>
 <tr>
-<th><strong>Aangepaste acties oplossen (beperkte beschikbaarheid)</strong><br/></th>
+<th><strong>Aangepaste acties oplossen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -100,7 +100,7 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <td>
 <p>U kunt nu een aangepaste actieconfiguratie valideren door echte API-aanroepen rechtstreeks vanuit Adobe Journey Optimizer te maken. </p>
 <p>Raadpleeg de <a href="../action/troubleshoot-custom-action.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-<p> Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
+<!--p> This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p-->
 </td>
 </tr>
 </tbody>
