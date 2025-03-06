@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, configuratie, eigenschappen
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 3331fd2ca9277bb634e3df0dd2e5a262bef459d7
+source-git-commit: 43cf43c6ba92d64836222ce872054b5dec6d11fe
 workflow-type: tm+mt
-source-wordcount: '2245'
+source-wordcount: '2243'
 ht-degree: 0%
 
 ---
@@ -279,14 +279,14 @@ Om **te creëren** een uitgangscriteria, volg deze stappen:
 
 1. Open je reis.
 
-1. Klik op het pictogram **[!UICONTROL Show Exit Criteria]** in de rechterbovensectie van het reiscanvas.
-   ![](assets/exitcriteria_icon.png){width="40%" align="left"}
-1. Klik op de knop **[!UICONTROL Add exit criteria]** .
-   ![](assets/exitcriteria.png){width="40%" align="left"}
+1. Klik op het pictogram ![](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL Show Exit Criteria]** in de rechterbovensectie van het canvas van de reis.
+
+1. Selecteer **[!UICONTROL Add exit criteria]**.
+
 1. Ga a **Etiket** in en selecteer als uw uitgangscriteria op een **Gebeurtenis** of een **Publiek** gebaseerd zijn.
 
-* Kies voor Afsluiten-criteria die zijn gebaseerd op een gebeurtenis, zoals het downloaden van een app of het toevoegen van een product aan een winkelwagentje, alleen een eenheidsgebeurtenis.
-* Voor criteria van de Uitgang die op een publiek worden gebaseerd, zoals een publiek dat controleert als een klant in de laatste 24 uren heeft gekocht, selecteer een publiek. Opmerking: het kan 10 minuten duren voordat de criteria voor het afsluiten met een publiek effectief zijn.
+   * Kies voor Afsluiten-criteria die zijn gebaseerd op een gebeurtenis, zoals het downloaden van een app of het toevoegen van een product aan een winkelwagentje, alleen een eenheidsgebeurtenis.
+   * Voor criteria van de Uitgang die op een publiek worden gebaseerd, zoals een publiek dat controleert als een klant in de laatste 24 uren heeft gekocht, selecteer een publiek. Opmerking: het kan 10 minuten duren voordat de criteria voor het afsluiten met een publiek effectief zijn.
 
 U kunt meerdere afsluitcriteria toevoegen.
 
