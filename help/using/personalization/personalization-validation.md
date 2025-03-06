@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: expressie, editor, validatie, fouten, personalisatie
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: ff6619925a36d2687922d1b631d1cabbcb98167e
+source-git-commit: 155ae8ef14e5482d94e54b15962afa09aa6826fc
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 0%
@@ -24,11 +24,13 @@ In het **verpersoonlijkingsredacteur** scherm, gebruik **bevestigt** knoop om uw
 
 >[!NOTE]
 > De bevestiging wordt automatisch uitgevoerd wanneer u op **klikt voeg** knoop toe om het editorvenster te sluiten.
+>
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
 > Als de verpersoonlijkingssyntaxis ongeldig is, kunt u niet het venster van de verpersoonlijkingsredacteur sluiten.
+>
 
 ## Algemene fouten {#common-errors}
 
