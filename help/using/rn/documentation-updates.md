@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4367e39013e87b12848fc172df9b68cd637fc802
+source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
 workflow-type: tm+mt
-source-wordcount: '6185'
+source-wordcount: '6214'
 ht-degree: 12%
 
 ---
@@ -26,6 +26,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 
 ## Februari 2025 {#feb-2025}
 
+* De activiteitenhandleidingen van de activiteit &quot;Lezen publiek&quot;zijn bijgewerkt om te specificeren dat slechts één activiteit in een reis kan worden gebruikt en dat het slechts één publiek kan richten. [Meer informatie](../building-journeys/read-audience.md)
 * Reishandleidingen bij het gebruik van Campagne-activiteiten zijn bijgewerkt. [Meer informatie](../start/guardrails.md#ac-g)
 * De stappen voor het maken van uw eerste ritten zijn in detail beschreven en er zijn koppelingen naar de sectie documentatie toegevoegd. [Meer informatie](../building-journeys/journey-gs.md)
 * Er is nu een nieuwe pagina beschikbaar waarin het dashboard voor de reis en de gebruikersinterface worden gefilterd. [Meer informatie](../building-journeys/journey-ui.md)
