@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Validatie van personalisatie
+title: Personalization-validatie
 description: Leer meer over verpersoonlijkingsbevestiging en hoe te om problemen op te lossen.
 feature: Personalization
 topic: Personalization
@@ -9,46 +9,44 @@ role: Data Engineer
 level: Intermediate
 keywords: expressie, editor, validatie, fouten, personalisatie
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: ff6619925a36d2687922d1b631d1cabbcb98167e
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 0%
 
 ---
 
-# Validatie van personalisatie {#personalization-validation}
+# Personalization-validatie {#personalization-validation}
 
 ## Validatiemechanismen {#validation-mechanisms}
 
-In de **personalisatie-editor** scherm, gebruik **Valideren** om uw personalisatiesyntaxis te controleren.
+In het **verpersoonlijkingsredacteur** scherm, gebruik **bevestigt** knoop om uw verpersoonlijkingssyntaxis te controleren.
 
 >[!NOTE]
-> De validatie wordt automatisch uitgevoerd wanneer u op de knop **Toevoegen** om het editorvenster te sluiten.
->
+> De bevestiging wordt automatisch uitgevoerd wanneer u op **klikt voeg** knoop toe om het editorvenster te sluiten.
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
 > Als de verpersoonlijkingssyntaxis ongeldig is, kunt u niet het venster van de verpersoonlijkingsredacteur sluiten.
->
 
 ## Algemene fouten {#common-errors}
 
-* **Pad &quot;XYZ&quot; niet gevonden**
+* **Weg &quot;XYZ&quot;niet gevonden**
 
 Wanneer u probeert te verwijzen naar een veld dat niet in het schema is gedefinieerd.
 
-In dit geval **firstName1** is niet gedefinieerd als kenmerk in het profielschema:
+In dit geval **firstName1** wordt niet bepaald als attribuut in het profielschema:
 
 ```
 {{profile.person.name.firstName1}}
 ```
 
-* **Type mismatch voor variabele &quot;XYZ&quot;. Array verwacht. Gevonden tekenreeks.**
+* **Type wanverhouding voor veranderlijke &quot;XYZ&quot;. Array verwacht. Gevonden tekenreeks.**
 
 Wanneer u probeert een tekenreeks in plaats van een array te doorlopen:
 
-In dit geval **product** is geen array:
+In dit geval **product** is geen serie:
 
 ```
 {{each profile.person.name.firstName as |product|}}
@@ -56,7 +54,7 @@ In dit geval **product** is geen array:
 {{/each}}
 ```
 
-* **Ongeldige syntaxis voor handgrepen. Gevonden`‘[XYZ}}’`**
+* **Ongeldige zakbalksyntaxis. Gevonden`‘[XYZ}}’`**
 
 Wanneer een ongeldige syntaxis voor het stuur wordt gebruikt.
 
@@ -85,7 +83,7 @@ De bevestiging wordt uitgevoerd tijdens de bevestiging van de verpersoonlijkings
 <table> 
  <thead> 
   <tr> 
-   <th> Fouttitel<br /> </th> 
+   <th> Fouttitel <br /> </th> 
    <th> Validatie/resolutie <br /> </th> 
   </tr> 
  </thead> 
@@ -114,8 +112,8 @@ Bron met id activityID en type OfferActivity niet gevonden<br/></td>
   <tr> 
    <td>Het aanbiedingskenmerk van kenmerk is ongeldig.</td> 
    <td>Controleer of het aanbiedingskenmerk waarnaar wordt verwezen in het aanbiedingsconcept geldig is. Hier volgen de geldige kenmerken: <br/>
-Afbeelding: deliveryURL, linkURL<br/>
-Tekst: inhoud<br/>
+Afbeelding: deliveryURL, linkURL <br/>
+Tekst: inhoud <br/>
 HTML: inhoud<br/></td> 
   </tr> 
  </tbody> 
