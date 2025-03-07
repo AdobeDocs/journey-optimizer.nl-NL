@@ -5,13 +5,13 @@ feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 5e907e12958055f0a4f75fe99103218288c758fa
+exl-id: 6e603bc1-0813-435a-9349-d8585a7a0997
+source-git-commit: dfc0774468710a7b8791c9b2a6c70397a90443fa
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 0%
 
 ---
-
 
 # Aanbiedingen leveren met behulp van het op code-gebaseerde Ervingenkanaal {#deliver}
 
@@ -26,3 +26,4 @@ De op code-gebaseerde ervaring steunt om het even welk type van klantenimplement
 Gedetailleerde informatie over de verschillende implementatiemethoden is beschikbaar in de op code gebaseerde kanaalhandleiding. In deze gids, zult u details over elke implementatiemethodes, evenals steekproefimplementaties voor verschillende verpersoonlijking en het experimenteren gebruiksgevallen vinden.
 
 ➡️ [ leren meer op code-Gebaseerde implementatiemethodes ](../../code-based/code-based-implementation-samples.md)
+
