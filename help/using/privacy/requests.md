@@ -7,9 +7,9 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
-source-git-commit: 95d02900fb9686466fa6b20c90e1c425567db145
+source-git-commit: b400b48d6f0429b05be523d4c2f520c383eef514
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '487'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Als u een aanvraag wilt indienen om gegevens voor Adobe Journey Optimizer te ope
 
 >[!IMPORTANT]
 >
->Wanneer het voorleggen van privacyverzoeken, zorg ervoor dat u &quot;[!DNL '**Adobe Journey Optimizer**]&quot;als doelproductnaam en **alle identiteitsnamespaces** (zoals &quot;E-mail&quot;&quot;ECID&quot;of &quot;identiteitskaart van de Loyaliteit&quot;) verbonden aan de profielgegevens specificeert die moeten worden betreden of worden verwijderd. Met name bij verwijderingsverzoeken blijven de gegevens in [!DNL Adobe Journey Optimizer] behouden als u niet expliciet de productnaam en alle toepasselijke naamruimten opneemt.
+>Wanneer het voorleggen van privacyverzoeken, zorg ervoor dat u &quot;[!DNL '**Adobe Journey Optimizer**]&quot;als doelproductnaam en **alle identiteitsnamespaces** (zoals &quot;E-mail&quot;&quot;ECID&quot;of &quot;identiteitskaart van de Loyaliteit&quot;) verbonden aan de profielgegevens specificeert die moeten worden betreden of worden verwijderd. Met name bij verwijderingsaanvragen worden gegevens niet verwijderd uit [!DNL Adobe Journey Optimizer] als u niet expliciet de productnaam en alle toepasselijke naamruimten opneemt.
 
 ### Vereiste veldwaarden in Journey Optimizer voor API-aanvragen
 
