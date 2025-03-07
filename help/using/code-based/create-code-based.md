@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 045fc6f140c9128adebc2513317c4007ed71cafa
+source-git-commit: 5d51554d9d18f517e1ca3a3d02592a45f341110c
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '605'
 ht-degree: 2%
 
 ---
@@ -61,11 +61,7 @@ Begin bouwend uw **code-gebaseerde ervaring** door een campagne, volg hieronder 
 
 1. Maak een campagne. [Meer informatie](../campaigns/create-campaign.md)
 
-1. Selecteer het type campagne dat u wilt uitvoeren
-
-   * **[!UICONTROL Scheduled - Marketing]** : voer de campagne onmiddellijk uit of op een opgegeven datum. De geplande campagnes zijn gericht op het verzenden van **marketing** berichten. Zij worden gevormd en uitgevoerd van het gebruikersinterface.
-
-   * **[!UICONTROL API-triggered - Marketing/Transactional]** : voer de campagne uit met behulp van een API-aanroep. API-teweeggebrachte campagnes zijn gericht op het verzenden van of **marketing**, of **transactie** berichten, d.w.z. berichten die na een actie worden verzonden die door een individu wordt uitgevoerd: het terugstellen van het wachtwoord, het kartelaankoop enz. [ Leer hoe te om een campagne teweeg te brengen gebruikend APIs ](../campaigns/api-triggered-campaigns.md)
+1. Selecteer het **Gepland - marketing** campagneretype.
 
 1. Voltooi de stappen om een campagne, zoals de campagneeigenschappen, [ publiek ](../audience/about-audiences.md), en [ programma ](../campaigns/create-campaign.md#schedule) tot stand te brengen. Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [ deze pagina ](../campaigns/get-started-with-campaigns.md).
 
