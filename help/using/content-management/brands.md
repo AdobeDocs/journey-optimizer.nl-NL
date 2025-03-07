@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 7e354b5235aa6a6378ebc3d13a2c99017064379f
+source-git-commit: 3646c67dd23bb786cf2486c5c43748197ba04f85
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,7 @@ ht-degree: 0%
 
 Merkrichtlijnen zijn een gedetailleerde reeks regels en normen die de visuele en verbale identiteit van een merk bepalen. Zij fungeren als referentie om een consistente merkweergave te behouden op alle marketing- en communicatieplatforms.
 
-<!--Upload feature currently behind feature flag--
-
-In [!DNL Journey Optimizer], you now have the option to manually input and organize your brand details or upload brand guideline documents for automatic information extraction.-->
+In [!DNL Journey Optimizer] hebt u nu de optie om uw merkdetails handmatig in te voeren en in te delen of documenten met brandrichtlijnen te uploaden voor automatische informatie-extractie.
 
 ## Handelsmerken {#generative-access}
 
@@ -78,31 +76,21 @@ Gebruikers die het menu **[!UICONTROL Brands]** in [!DNL Adobe Journey Optimizer
 >title="Uw merk maken"
 >abstract="Voer uw merknaam in en upload het bestand met uw merkrichtlijnen. Met dit gereedschap worden automatisch belangrijke details opgehaald, zodat u de identiteit van uw merk eenvoudiger kunt behouden."
 
-Volg onderstaande stappen om uw richtlijnen voor uw merk te maken en te beheren.
-
-<!--Upload feature currently behind feature flag--
-
-To create and manage your Brand guideline, you can either enter the details yourself, or upload your brand guidelines document to have the information extracted automatically:-->
+Als u de richtlijn voor uw merk wilt maken en beheren, kunt u de details zelf invoeren of het document met uw merkenrichtlijnen uploaden om de informatie automatisch te laten ophalen:
 
 1. Klik in het menu **[!UICONTROL Brands]** op **[!UICONTROL Create brand]** .
 
    ![](assets/brands-1.png)
 
-1. Voer een **[!UICONTROL Name]** voor uw merk in <!--and a **[!UICONTROL Description]** to your brand guideline-->.
+1. Voer een **[!UICONTROL Name]** in voor uw merk.
 
-   ![](assets/brands-2-temp.png)
+1. Sleep of selecteer het bestand om de richtlijnen van uw merk te uploaden en automatisch relevante merkgegevens te extraheren. Klik op **[!UICONTROL Create brand]**.
 
-<!--Upload feature currently behind feature flag so hidden from doc - should be available again by EOM (Feb)--
+   Het uitpakken van informatie begint nu. Het kan enkele minuten duren voordat de bewerking is voltooid.
 
-1. Drag and drop or select your file to upload your brand guidelines and extract automatically relevant brand information. Click **[!UICONTROL Create brand]**.
+   ![](assets/brands-2.png)
 
-    The information extraction process now begins. Note that it may take several minutes to complete.
-
-    ![](assets/brands-2.png)
-
-1. Your Content and visual creation standards are now automatically populated. Browse through the different tabs to adapt the information as needed.
-
--->
+1. Uw standaarden voor het maken van inhoud en visuele weergave worden nu automatisch ingevuld. Blader door de verschillende tabbladen om de informatie naar wens aan te passen.
 
 1. Klik op het tabblad **[!UICONTROL Writing Style]** op ![](assets/do-not-localize/Smock_Add_18_N.svg) om een hulplijn of uitsluiting toe te voegen, inclusief voorbeelden.
 
