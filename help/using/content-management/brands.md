@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 3646c67dd23bb786cf2486c5c43748197ba04f85
+source-git-commit: 12dc96bb08f03865c82382baac276f46bc42baeb
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,14 @@ ht-degree: 0%
 >abstract="Kies uw merk om ervoor te zorgen dat alle door AI gegenereerde inhoud is afgestemd op de specificaties en richtlijnen van uw merk."
 
 >[!CONTEXTUALHELP]
+>id="ajo_brand_score_overview"
+>title="Merk selecteren"
+>abstract="Selecteer uw merk om ervoor te zorgen dat uw inhoud is samengesteld in overeenstemming met de specifieke richtlijnen, standaarden en identiteit, zodat consistentie en brandintegriteit behouden blijven."
+
+>[!CONTEXTUALHELP]
 >id="ajo_brand_score"
 >title="Aanpassingsscore merk"
->abstract="Met uw merkuitlijningsscore wordt gemeten in hoeverre door AI gegenereerde inhoud voldoet aan de richtlijnen van uw merk. Zo bent u verzekerd van consistentie in kleuren, lettertypen, logo, beeldvorming en schrijfstijl."
+>abstract="Met de score voor merkuitlijning wordt gemeten in hoeverre uw inhoud voldoet aan de richtlijnen van uw merk. Zo bent u verzekerd van consistentie in kleuren, lettertypen, logo, beeldvorming en schrijfstijl."
 
 
 >[!AVAILABILITY]
