@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: 890d3925a418c117451864558be92030a3a0f87f
+source-git-commit: 9ea7f2c76cc09949bb4467d5b9b2c19550f9975e
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Alvorens [ bouwend uw ervaring ](create-code-based.md), moet u een op code-gebaseerde ervaringsconfiguratie tot stand brengen waarin u bepaalt waar de inhoud binnen uw toepassing zal worden geleverd en worden verbruikt.
 
-Een op code-gebaseerde ervaringsconfiguratie moet naar de oppervlakte verwijzen, die fundamenteel de plaats is waar u uw veranderingen wilt teruggeven. Volgens het geselecteerde platform moet u een locatie/pad of de volledige oppervlakte-URI invoeren. [Meer informatie](#surface-definition)
+Een op code-gebaseerde ervaringsconfiguratie moet naar de oppervlakte verwijzen, die fundamenteel de plaats is waar u uw veranderingen wilt teruggeven. Volgens het geselecteerde platform moet u een locatie/pad of de volledige oppervlakte-URI invoeren. [Meer informatie](code-based-surface.md)
 
 ## Een op code gebaseerde ervaringsconfiguratie maken {#create-code-based-configuration}
 
