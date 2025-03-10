@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 170dd966ae9fe9721a92bdebccd76305ad6fa1dc
+source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
 workflow-type: tm+mt
-source-wordcount: '2251'
+source-wordcount: '2285'
 ht-degree: 23%
 
 ---
@@ -484,24 +484,36 @@ ht-degree: 23%
       + [Afbakening en beperkingen](using/experience-decisioning/decisioning-guardrails.md)
       + API-referentie {#api-reference}
          + Aanbiedingsitems maken en beheren {#create-manage}
-            + Items kiezen {#decision-items}
-               + [Beslissingsitems maken](using/experience-decisioning/api-reference/decisions-items/create.md)
-               + [Lijst met beslissingsitems](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
-               + [Beslissingsitems verwijderen](using/experience-decisioning/api-reference/decisions-items/delete.md)
-               + [Opzoeken, beslissingsitems](using/experience-decisioning/api-reference/decisions-items/lookup.md)
-               + [Beslissingsitems bijwerken](using/experience-decisioning/api-reference/decisions-items/update.md)
-            + Items verzamelen {#items-collections}
-               + [Items verzamelen](using/experience-decisioning/api-reference/items-collections/create.md)
-               + [Itemverzamelingen verwijderen](using/experience-decisioning/api-reference/items-collections/delete.md)
-               + [Lijst met verzamelingen items](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
-               + [Opzoekitemverzamelingen](using/experience-decisioning/api-reference/items-collections/lookup.md)
-               + [Items verzamelen bijwerken](using/experience-decisioning/api-reference/items-collections/update.md)
-            + Selectiestrategieën {#selection-strategies}
-               + [Selectiestrategieën maken](using/experience-decisioning/api-reference/selection-strategies/create.md)
-               + [Selectiestrategieën verwijderen](using/experience-decisioning/api-reference/selection-strategies/delete.md)
-               + [Selectiestrategieën opzoeken](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
-               + [Lijst met selectiestrategieën](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
-               + [Selectiestrategieën bijwerken](using/experience-decisioning/api-reference/selection-strategies/update.md)
+         + Items kiezen {#decision-items}
+            + [Beslissingsitems maken](using/experience-decisioning/api-reference/decisions-items/create.md)
+            + [Lijst met beslissingsitems](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
+            + [Beslissingsitems verwijderen](using/experience-decisioning/api-reference/decisions-items/delete.md)
+            + [Opzoeken, beslissingsitems](using/experience-decisioning/api-reference/decisions-items/lookup.md)
+            + [Beslissingsitems bijwerken](using/experience-decisioning/api-reference/decisions-items/update.md)
+         + Items verzamelen {#items-collections}
+            + [Items verzamelen](using/experience-decisioning/api-reference/items-collections/create.md)
+            + [Itemverzamelingen verwijderen](using/experience-decisioning/api-reference/items-collections/delete.md)
+            + [Lijst met verzamelingen items](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
+            + [Opzoekitemverzamelingen](using/experience-decisioning/api-reference/items-collections/lookup.md)
+            + [Items verzamelen bijwerken](using/experience-decisioning/api-reference/items-collections/update.md)
+         + Selectiestrategieën {#selection-strategies}
+            + [Selectiestrategieën maken](using/experience-decisioning/api-reference/selection-strategies/create.md)
+            + [Selectiestrategieën verwijderen](using/experience-decisioning/api-reference/selection-strategies/delete.md)
+            + [Selectiestrategieën opzoeken](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
+            + [Lijst met selectiestrategieën](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
+            + [Selectiestrategieën bijwerken](using/experience-decisioning/api-reference/selection-strategies/update.md)
+         + Willekeurige formules {#ranking-formulas}
+            + [Rangschikkingsformules maken](using/experience-decisioning/api-reference/ranking-formulas/create.md)
+            + [Classificatieformules verwijderen](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
+            + [Opzoeken van rangschikkingsformules](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
+            + [Selectierangstformules](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
+            + [Rangschikkingsformules bijwerken](using/experience-decisioning/api-reference/ranking-formulas/update.md)
+         + Subsidiabiliteitsregels {#eligibility-rules}
+            + [Subsidiabiliteitsregels maken](using/experience-decisioning/api-reference/eligibility-rules/create.md)
+            + [Subsidiabiliteitsregels verwijderen](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
+            + [Subsidiabiliteitsregels voor opzoeken](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
+            + [Lijst van subsidiabiliteitsregels](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
+            + [Subsidiabiliteitsregels bijwerken](using/experience-decisioning/api-reference/eligibility-rules/update.md)
          + [Aanbiedingen leveren met behulp van het op code-gebaseerde Ervingenkanaal](using/experience-decisioning/api-reference/deliver.md)
       + Beslissingsitems beheren {#decision-items}
          + [De itemcatalogus configureren](using/experience-decisioning/catalogs.md)
