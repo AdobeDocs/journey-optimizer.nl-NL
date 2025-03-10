@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dfc0774468710a7b8791c9b2a6c70397a90443fa
+source-git-commit: 170dd966ae9fe9721a92bdebccd76305ad6fa1dc
 workflow-type: tm+mt
-source-wordcount: '2187'
+source-wordcount: '2251'
 ht-degree: 23%
 
 ---
@@ -170,6 +170,34 @@ ht-degree: 23%
          + [Leveringen opwaarderen](using/building-journeys/ramp-up-deliveries-uc.md)
          + [Productie beperken met externe gegevensbronnen en aangepaste acties](using/building-journeys/limit-throughput.md)
          + [Aangepaste acties gebruiken om gebeurtenissen voor reizen in Experience Platform te schrijven](using/building-journeys/custom-action-aep.md)
++ Meerdere stappen {#ms-campaigns}
+   + [Aan de slag met multi-step campagnes](using/ms/gs-ms-campaigns.md)
+   + Uw eerste multi-step campagne maken {#create-ms-campaign}
+      + [Belangrijkste beginselen](using/ms/gs-campaign-creation.md)
+      + [Afvoerkanalen en beperkingen](using/ms/guardrails.md)
+      + [Maak de campagne](using/ms/create-ms-campaign.md)
+      + [Orchestraten](using/ms/orchestrate-activities.md)
+      + [Campagne-instellingen configureren](using/ms/ms-campaign-settings.md)
+      + [Uw campagnes starten en controleren](using/ms/start-monitor-campaigns.md)
+      + [Gebeurtenisvariabelen in multi-step campagnes](using/ms/event-variables.md)
+   + Meerdere campagneactiviteiten {#design-campaigns}
+      + [Informatie over multi-step campagneactiviteiten](using/ms/activities/about-activities.md)
+      + [En-join](using/ms/activities/and-join.md)
+      + [publiek opbouwen](using/ms/activities/build-audience.md)
+      + [Dimensie wijzigen](using/ms/activities/change-dimension.md)
+      + [Combineren](using/ms/activities/combine.md)
+      + [Deduplicatie](using/ms/activities/deduplication.md)
+      + [Kanaalhandelingen](using/ms/activities/channels.md)
+      + [Verrijking](using/ms/activities/enrichment.md)
+      + [Vertakking](using/ms/activities/fork.md)
+      + [Bestand laden](using/ms/activities/load-file.md)
+      + [Afstemming](using/ms/activities/reconciliation.md)
+      + [Doelgroep opslaan](using/ms/activities/save-audience.md)
+      + [Planner](using/ms/activities/scheduler.md)
+      + [Splitsen](using/ms/activities/split.md)
+      + [Testen](using/ms/activities/test.md)
+      + [Gegevens bijwerken](using/ms/activities/update-data.md)
+      + [Wachten](using/ms/activities/wait.md)
 + Campagnes {#campaigns}
    + [Aan de slag met campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Een campagne maken](using/campaigns/create-campaign.md)
