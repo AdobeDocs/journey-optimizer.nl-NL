@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 3a10f8440515bd569f9def6d15ac74d57427c1cf
+source-git-commit: a6a601477e29e558bf4f4e9416187b2db3e15942
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 0%
+source-wordcount: '717'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ De Asset-kiezer ondersteunt nu Dynamische media waarmee u goedgekeurde dynamisch
 
 Meer op Dynamische Media in Adobe Experience Manager as a Cloud Service leren, verwijs naar [ documentatie van Experience Manager ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media).
 
-## Dynamische media toevoegen en beheren
+## Dynamische media toevoegen en beheren {#dynamic-media}
 
 Verbeter en optimaliseer uw inhoud voor om het even welk scherm of browser door dynamische media van Adobe Experience Manager as a Cloud Service direct in uw inhoud van Journey Optimizer op te nemen.  Vervolgens kunt u het formaat van de aanpassingen desgewenst aanpassen, uitsnijden, verbeteren en andere aanpassingen aanbrengen.
 
@@ -55,11 +55,11 @@ Verbeter en optimaliseer uw inhoud voor om het even welk scherm of browser door 
 
 Uw inhoud bevat nu dynamische media. Alle updates die u aanbrengt in Experience Manager, worden automatisch weergegeven in Journey Optimizer.
 
-## Uw tekstbedekking aanpassen
+## Uw tekstbedekking aanpassen {#text-overlay}
 
 U kunt alle dynamische media eenvoudig aanpassen door de bestaande tekstbedekking te vervangen door nieuwe tekst van uw keuze, zodat u naadloze updates en personalisatie kunt uitvoeren.
 
-Met de experimentatiefunctie kunt u bijvoorbeeld de bestaande tekstbedekking bijwerken door deze te vervangen door een andere tekst voor elke behandeling, zodat deze voor elk profiel wordt aangepast wanneer de berichten worden geopend.
+Met de experimentatiefunctionaliteit kunt u bijvoorbeeld de bestaande tekstbedekking bijwerken door deze te vervangen door een andere tekst voor elke behandeling, zodat deze voor elk profiel wordt aangepast wanneer de berichten worden geopend.
 
 ![](assets/dynamic-media-layout-1.png)
 
@@ -95,6 +95,72 @@ Met de experimentatiefunctie kunt u bijvoorbeeld de bestaande tekstbedekking bij
 Uw inhoud bevat nu uw bijgewerkte tekstbedekking.
 
 ![](assets/dynamic-media-layout-3.png)
+
+## De sjabloon Dynamische media toevoegen en beheren {#dynamic-media-template}
+
+Voeg uw Dynamic Media-sjabloon eenvoudig toe in Journey Optimizer en werk uw media-inhoud waar nodig bij. U kunt nu aanpassingsvelden opnemen in uw media, zodat u in Journey Optimizer meer aangepaste en aantrekkelijke inhoud kunt maken.
+
+Leer meer op [ Dynamische media malplaatje ](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics).
+
+### Met afbeeldingscomponent {#image-component}
+
+U kunt de dynamische sjabloon rechtstreeks in de inhoud invoegen met behulp van de component Afbeelding:
+
+1. Open uw campagne of reis en open uw inhoud.
+
+1. De belemmering en laat vallen een **component van het Beeld** in uw lay-out.
+
+   Voor meer informatie over de component van het Beeld, verwijs naar [ deze pagina ](../email/content-components.md).
+
+   ![](assets/dynamic-media-template-1.png)
+
+1. Blader door uw AEM-elementen en selecteer de sjabloon Dynamische media die u aan uw inhoud wilt toevoegen.
+
+   ![](assets/dynamic-media-template-2.png)
+
+1. In de **montages van het Beeld**, navigeer om tot de parameters van uw dynamisch media malplaatje toegang te hebben.
+
+   De beschikbare gebieden hangen van de parameters af die tijdens de [ malplaatjeverwezenlijking ](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters) in Adobe Experience Manager worden toegevoegd.
+
+   ![](assets/dynamic-media-template-3.png)
+
+1. Vul de verschillende gebieden in en gebruik de verpersoonlijkingsredacteur om gepersonaliseerde inhoud toe te voegen. U kunt elk kenmerk, zoals de profielnaam, de plaats of andere relevante details, gebruiken om een meer aangepaste ervaring te maken.
+
+   Leer meer op verpersoonlijking in [ deze pagina ](../personalization/personalize.md).
+
+   ![](assets/do-not-localize/dynamic_media_template.gif)
+
+1. Voorwaardelijke inhoud kan worden toegepast op de component Dynamische media om verschillende varianten van de inhoud te produceren. [Meer informatie](../personalization/dynamic-content.md)
+
+1. Klik op **[!UICONTROL Save]**.
+
+Nadat u de tests hebt uitgevoerd en de inhoud hebt gevalideerd, kunt u uw bericht naar het publiek sturen.
+
+### Met HTML-component {#html-component}
+
+U kunt uw dynamische sjabloon rechtstreeks in uw inhoud invoegen met behulp van de HTML-component:
+
+1. Open uw campagne of reis en open uw inhoud.
+
+1. De belemmering en laat vallen een **component van HTML** in uw lay-out.
+
+   ![](assets/dynamic-media-template-4.png)
+
+1. Selecteer **[!UICONTROL Show the source code]**.
+
+   ![](assets/dynamic-media-template-5.png)
+
+1. Open **[!UICONTROL Assets]** then **[!UICONTROL Open asset selector]** via het menu **[!UICONTROL Edit HTML]** .
+
+   U kunt ook gewoon de URL van uw elementen kopiëren en plakken.
+
+1. Pas de parameters voor afbeeldingstekst naar wens aan de vereisten voor elementen aan.
+
+   ![](assets/do-not-localize/dynamic_media_template_html.gif)
+
+1. Klik op **[!UICONTROL Save]**.
+
+Nadat u de tests hebt uitgevoerd en de inhoud hebt gevalideerd, kunt u uw bericht naar het publiek sturen.
 
 <!--
 ## Personalization with Text Overlay
