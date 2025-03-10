@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
+source-git-commit: 167d42f51bd76d42118b340fe6a1f41962ef9c51
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '613'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,8 @@ ht-degree: 1%
 >id="ajo_create_expression_fragment"
 >title="Expressietype selecteren"
 >abstract="Maak een zelfstandig expressiefragment om uw inhoud te hergebruiken voor meerdere reizen en campagnes. Wanneer u de verpersoonlijkingseditor gebruikt, kunt u alle uitdrukkingsfragmenten benutten die in de huidige sandbox zijn gemaakt."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments" text="Expressiefragmenten benutten"
+<!--
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments" text="Leverage expression fragments"-->
 
 U kunt geheel nieuwe fragmenten maken in het menu links van **[!UICONTROL Fragments]** . Bovendien kunt u een gedeelte van bestaande inhoud als fragment opslaan wanneer u inhoud ontwerpt. [ leer hoe ](#save-as-fragment)
 
@@ -77,7 +78,7 @@ Klik op de knop **[!UICONTROL Save]** wanneer de inhoud gereed is. Het fragment 
 
 >[!NOTE]
 >
->Om een fragment te publiceren, moet u de ](../administration/ootb-product-profiles.md#content-library-manager) gebruikerstoestemming van het Fragment van 0} Publish hebben.[
+>Om een fragment te publiceren, moet u [ hebben publiceren het Fragment ](../administration/ootb-product-profiles.md#content-library-manager) gebruikerstoestemming van het Fragment.
 
 Als uw fragment klaar is om live te gaan, kunt u het voorbeeld bekijken en publiceren en het beschikbaar maken tijdens uw reizen en campagnes. Volg de onderstaande stappen om dit te doen.
 
