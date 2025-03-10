@@ -5,56 +5,40 @@ title: Aan de slag met multi-step campagnes
 description: Leer hoe u begint met multi-step campagnes
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+source-git-commit: a0bdab445a53521be621ce4ace390f83964a0c79
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 3%
+source-wordcount: '434'
+ht-degree: 0%
 
 ---
 
 
 # Aan de slag met multi-step campagnes {#ms-camp}
 
+De multi-step campagnes verbeteren Adobe Journey Optimizer door robuuste merk in werking gestelde partijcampagnecapaciteiten in te voeren, toelatend u om dwars-kanaalcampagnes met geavanceerde segmenteringsstrategieën te plannen en te ordenen.
 
 >[!BEGINSHADEBOX]
 
-**In deze sectie**
+**Lijst van inhoud**
 
-* Uw eerste multi-step campagne maken en uitvoeren
-   * [Belangrijkste beginselen](gs-campaign-creation.md)
-   * [Afvoerkanalen en beperkingen](guardrails.md)
-   * [Maak de campagne](create-ms-campaign.md)
-   * [Orchestraten](orchestrate-activities.md)
-   * [Campagne-instellingen configureren](ms-campaign-settings.md)
-   * [Uw campagnes starten en controleren](start-monitor-campaigns.md)
-   * [Gebeurtenisvariabelen in multi-step campagnes](event-variables.md)
+* Aan de slag met multi-step campagnes
+* [Belangrijkste beginselen](gs-campaign-creation.md)
+* [Afvoerkanalen en beperkingen](guardrails.md)
+* [Maak de campagne](create-ms-campaign.md)
+* [Orchestraten](orchestrate-activities.md)
+* [Campagne-instellingen configureren](ms-campaign-settings.md)
+* [Uw campagnes starten en controleren](start-monitor-campaigns.md)
+* [Gebeurtenisvariabelen in multi-step campagnes](event-variables.md)
 * Werken met uit meerdere stappen bestaande campagneactiviteiten
-   * [Informatie over multi-step campagneactiviteiten](activities/about-activities.md)
-   * [En-join](activities/and-join.md)
-   * [publiek opbouwen](activities/build-audience.md)
-   * [Dimensie wijzigen](activities/change-dimension.md)
-   * [Combineren](activities/combine.md)
-   * [Deduplicatie](activities/deduplication.md)
-   * [Kanaalhandelingen](activities/channels.md)
-   * [Verrijking](activities/enrichment.md)
-   * [Vertakking](activities/fork.md)
-   * [Bestand laden](activities/load-file.md)
-   * [Afstemming](activities/reconciliation.md)
-   * [Doelgroep opslaan](activities/save-audience.md)
-   * [Planner](activities/scheduler.md)
-   * [Splitsen](activities/split.md)
-   * [Testen](activities/test.md)
-   * [Gegevens bijwerken](activities/update-data.md)
-   * [Wachten](activities/wait.md)
+   * [Aan de slag met activiteiten](activities/about-activities.md)
+   * Lijst van activiteiten: [ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ combineert ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ acties van het Kanaal ](activities/channels.md) - [ Verrijking ](activities/enrichment.md) - [ Fork [ Het dossier van de lading ](activities/load-file.md) - [ Verzoening ](activities/reconciliation.md) - [ sparen publiek ](activities/save-audience.md) - [ Planner ](activities/scheduler.md) - [ Gesplitste ](activities/split.md) - [ Test ](activities/test.md) - [ gegevens van de Update [ wacht ](activities/wait.md)](activities/fork.md)](activities/update-data.md)
 
 >[!ENDSHADEBOX]
 
 
 ## Wat is een multi-step campagne?
 
-Cross-channel marketing is essentieel voor elk bedrijf dat zijn klanten effectief wil bereiken. Adobe Journey Optimizer biedt een uitgebreide grafische omgeving waarmee u complexe processen kunt ontwerpen die u kunnen helpen uw marketingcampagnes eenvoudig te beheren.
-
-Met multi-step campagnes, kunt u de volledige waaier van processen en taken organiseren, de snelheid en de schaal van elk aspect van uw marketing campagnes verbeteren, van het creëren van segmenten en het voorbereiden van berichten aan levering. Bovendien kunt u uw kanalen synchroon maken met één gebruiksvriendelijke interface voor het organiseren van campagnes.
+Cross-channel marketing is essentieel voor elk bedrijf dat zijn klanten effectief wil bereiken. Adobe Journey Optimizer biedt een uitgebreide grafische omgeving waarmee u complexe processen kunt ontwerpen die u kunnen helpen uw marketingcampagnes eenvoudig te beheren. Met multi-step campagnes, kunt u de volledige waaier van processen en taken organiseren, de snelheid en de schaal van elk aspect van uw marketing campagnes verbeteren, van het creëren van segmenten en het voorbereiden van berichten aan levering. Bovendien kunt u uw kanalen synchroon maken met één gebruiksvriendelijke interface voor het organiseren van campagnes.
 
 Een van de belangrijkste voordelen van multi-step campagnes is dat het eenvoudig is om gepersonaliseerde inhoud aan uw klanten over alle kanalen te leveren. Of uw klanten nu liever berichten via e-mail of mobiel ontvangen, Adobe Journey Optimizer biedt u de mogelijkheid om een consistente en contextafhankelijke ervaring op elk kanaal te leveren, zodat de reis van elke klant in een unieke ervaring wordt omgezet.
 
