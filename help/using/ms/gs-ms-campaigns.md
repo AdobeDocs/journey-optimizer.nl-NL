@@ -5,13 +5,13 @@ title: Aan de slag met multi-step campagnes
 description: Leer hoe u begint met multi-step campagnes
 hide: true
 hidefromtoc: true
-source-git-commit: f8c7d2a21f87f558e3bf8ee3da7a46abda97326b
+exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
+source-git-commit: 040635e03fe4fa0542eeddbc0a2b87c6c838d339
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%
 
 ---
-
 
 # Aan de slag met multi-step campagnes {#ms-camp}
 
@@ -31,7 +31,7 @@ De multi-step campagnes verbeteren Adobe Journey Optimizer door robuuste merk in
 >[!ENDSHADEBOX]
 
 
-## Wat is een multi-step campagne?
+## Wat is een campagne met meerdere stappen?
 
 Cross-channel marketing is essentieel voor elk bedrijf dat zijn klanten effectief wil bereiken. Adobe Journey Optimizer biedt een uitgebreide grafische omgeving waarmee u complexe processen kunt ontwerpen die u kunnen helpen uw marketingcampagnes eenvoudig te beheren. Met multi-step campagnes, kunt u de volledige waaier van processen en taken organiseren, de snelheid en de schaal van elk aspect van uw marketing campagnes verbeteren, van het creëren van segmenten en het voorbereiden van berichten aan levering. Bovendien kunt u uw kanalen synchroon maken met één gebruiksvriendelijke interface voor het organiseren van campagnes.
 
