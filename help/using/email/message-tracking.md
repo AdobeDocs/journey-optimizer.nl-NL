@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: koppelingen, bijhouden, controleren, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 85bc9308402eaf2f13df0ca8d340b96769fc777e
+source-git-commit: b77cac6ba9984139f7fd5cb761759cafb26ccc48
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1139'
 ht-degree: 1%
 
 ---
@@ -120,7 +120,7 @@ Voer de volgende stappen uit om het doel van een koppeling te definiëren:
 
 1. Selecteer de koppeling in een **[!UICONTROL Text]** -component waarin een koppeling wordt ingevoegd.
 
-1. Selecteer op het tabblad **[!UICONTROL Settings]** in de vervolgkeuzelijst **[!UICONTROL Target]** waar de koppeling moet worden geopend:
+1. Selecteer op het tabblad **[!UICONTROL Settings]** in de vervolgkeuzelijst **[!UICONTROL Target]** waar de koppeling moet worden geopend. Mogelijke waarden worden hieronder weergegeven:
 
    * **[!UICONTROL None]** : hiermee wordt de koppeling geopend in hetzelfde frame als waarop is geklikt (standaard).
    * **[!UICONTROL Blank]** : hiermee opent u de koppeling in een nieuw venster of op een nieuw tabblad.
