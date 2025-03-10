@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ff31c69255e6d4e0762a57430f112c92f34191c3
+source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
 workflow-type: tm+mt
-source-wordcount: '2280'
+source-wordcount: '2266'
 ht-degree: 23%
 
 ---
@@ -359,15 +359,11 @@ ht-degree: 23%
          + [Statistische berekeningen in het Experimentenrapport begrijpen](using/content-management/experiment-report-calculations.md)
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [Personalization-context](using/personalization/personalization-contexts.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
-      + [Adobe Experience Platform-gegevens gebruiken voor personalisatie (Beta)](using/personalization/lookup-aep-data.md)
-      + Werken met de verpersoonlijkingseditor {#expression-editor}
-         + [Informatie over de verpersoonlijkingseditor](using/personalization/personalization-build-expressions.md)
-         + [ voegt attributen aan favorieten toe ](using/personalization/personalization-favorites.md)
-         + [ de uitdrukkingsfragmenten van het Gebruik ](using/personalization/use-expression-fragments.md)
-         + [Personalization-validatie](using/personalization/personalization-validation.md)
-      + Helperfuncties {#functions}
+      + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
+      + [ gegevens van Adobe Experience Platform van het Gebruik voor verpersoonlijking (Beta) ](using/personalization/lookup-aep-data.md)
+      + Lijst met hulpfuncties {#functions}
          + [Aan de slag met hulpfuncties](using/personalization/functions/functions.md)
          + [Samenvoegingsfuncties](using/personalization/functions/aggregation.md)
          + [Rekenkundige functies](using/personalization/functions/arithmetic-functions.md)
