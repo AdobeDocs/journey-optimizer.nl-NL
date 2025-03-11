@@ -5,9 +5,10 @@ title: Meerdere stappen maken met Journey Optimizer
 description: Meer informatie over het maken van multi-step campagnes met Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 8c80010f-e432-48ea-87cf-af635932d26b
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 0%
 >title="Meerdere stappen"
 >abstract="In dit scherm, kunt u tot de volledige lijst van multi-step campagnes toegang hebben, hun huidige status, laatste/volgende uitvoeringsdata controleren, en een nieuwe multi-step campagne creëren."
 
-In het menu **[!UICONTROL Campaigns]** bladert u naar het tabblad Meerdere stappen voor toegang tot de volledige lijst met uit meerdere stappen bestaande campagnes.
+Blader in het menu **[!UICONTROL Campaigns]** naar het tabblad Meerdere stappen voor toegang tot de volledige lijst met campagnes die uit meerdere stappen bestaan.
 
 
 Elke multi-step campagne in de lijst toont informatie over zijn huidige [ status ](#status), de laatste tijd het werd uitgevoerd of, en de volgende geplande uitvoeringsdatum en tijd gewijzigd.
@@ -33,16 +34,6 @@ Als u een campagne met meerdere stappen wilt dupliceren of verwijderen, klikt u 
 >[!NOTE]
 >
 >U kunt een campagne met meerdere stappen dupliceren die wordt uitgevoerd, maar u kunt deze niet verwijderen.
-
-## Status van workflows {#status}
-
-Workflows kunnen meerdere statussen hebben:
-
-* **[!UICONTROL Draft]**: De campagne met meerdere stappen is gemaakt en opgeslagen.
-* **[!UICONTROL In progress]**: De campagne met meerdere stappen wordt momenteel uitgevoerd.
-* **[!UICONTROL Finished]**: De uitvoering van de campagne in meerdere stappen is voltooid.
-* **[!UICONTROL Paused]**: De campagne met meerdere stappen is gepauzeerd.
-* **[!UICONTROL Erroneous]**: Er is een fout opgetreden tijdens de campagne met meerdere stappen. Open de campagne met meerdere stappen en open de logboeken en taken om de fout te identificeren en op te lossen.
 
 
 ## Meerdere campagnemalplaatjes {#templates}

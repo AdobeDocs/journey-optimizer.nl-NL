@@ -6,30 +6,28 @@ description: Leer hoe u begint met multi-step campagnes
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 040635e03fe4fa0542eeddbc0a2b87c6c838d339
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met multi-step campagnes {#ms-camp}
 
-De multi-step campagnes verbeteren Adobe Journey Optimizer door robuuste merk in werking gestelde partijcampagnecapaciteiten in te voeren, toelatend u om dwars-kanaalcampagnes met geavanceerde segmenteringsstrategieën te plannen en te ordenen.
-
 >[!BEGINSHADEBOX]
 
 **Lijst van inhoud**
 
+* Aan de slag met multi-step campagnes
 * [ Zeer belangrijke principes ](gs-campaign-creation.md) - [ Grafieken &amp; beperkingen ](guardrails.md)
-* [ creeer een campagne ](create-ms-campaign.md) - [ vorm campagnemontages ](ms-campaign-settings.md)
-* [Uw campagnes starten en controleren](start-monitor-campaigns.md)
-* [Gebeurtenisvariabelen](event-variables.md)
-* [ worden begonnen met activiteiten ](activities/about-activities.md) - [ Orchestrate activiteiten ](orchestrate-activities.md)
+* Configuratie: [ Werk met schema&#39;s ](ms-schemas.md) - [ Werk met gebeurtenisvariabelen ](event-variables.md)
+* Begonnen worden: [ creeer een georkestreerde campagne ](create-ms-campaign.md) - [ vorm campagnemontages ](ms-campaign-settings.md) - [ Begin en controleer uw campagnes ](start-monitor-campaigns.md) - [ begonnen met activiteiten ](activities/about-activities.md) - [ Orchestrate activiteiten ](orchestrate-activities.md) - [ Personalization ](ms-personalization.md)
 * Lijst van activiteiten: [ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ combineert ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ acties van het Kanaal ](activities/channels.md) - [ Verrijking ](activities/enrichment.md) - [ Fork [ Het dossier van de lading ](activities/load-file.md) - [ Verzoening ](activities/reconciliation.md) - [ sparen publiek ](activities/save-audience.md) - [ Planner ](activities/scheduler.md) - [ Gesplitste ](activities/split.md) - [ Test ](activities/test.md) - [ gegevens van de Update [ wacht ](activities/wait.md)](activities/fork.md)](activities/update-data.md)
 
 >[!ENDSHADEBOX]
 
+De multi-step campagnes verbeteren Adobe Journey Optimizer door robuuste merk in werking gestelde partijcampagnecapaciteiten in te voeren, toelatend u om dwars-kanaalcampagnes met geavanceerde segmenteringsstrategieën te plannen en te ordenen.
 
 ## Wat is een campagne met meerdere stappen?
 
@@ -41,12 +39,10 @@ Meerdere-stapcampagnes zijn ongelooflijk veelzijdig en kunnen in verschillende c
 
 Met een uitgebreide grafische omgeving kunt u processen ontwerpen, zoals segmentatie, uitvoering van de campagne en bestandsverwerking. Bij campagnes die uit meerdere stappen bestaan, kunnen gebruikers ook worden betrokken door hen taken toe te wijzen of door hen uitgevoerde taken goed te laten keuren, waardoor het eenvoudiger wordt om het werk van uw team te beheren en ervoor te zorgen dat alles correct wordt gedaan.
 
-Hier volgen enkele voorbeelden van het gebruik van multi-step campagnes in Adobe Journey Optimizer:
 
-* Een follow-upcampagne starten voor niet-actieve klanten,
-* Stuur een welkomstbericht naar alle nieuwe abonnees op een service.
-* Personaliseer over-kanaalleveringen die op de status van het klantenloyaliteitsprogramma of punten van belangstelling worden gebaseerd.
+## Reisorkest en campagneorkestatie
 
+Reizen vs. campagnes - leg de verschillen, gebruiksgevallen en beste praktijken uit
 
 ## Laten we dieper duiken
 

@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2270'
 ht-degree: 23%
 
 ---
@@ -172,14 +172,17 @@ ht-degree: 23%
          + [Aangepaste acties gebruiken om gebeurtenissen voor reizen in Experience Platform te schrijven](using/building-journeys/custom-action-aep.md)
 + Meerdere stappen {#ms-campaigns}
    + [Aan de slag met multi-step campagnes](using/ms/gs-ms-campaigns.md)
+   + [Belangrijkste beginselen](using/ms/gs-campaign-creation.md)
+   + [Afvoerkanalen en beperkingen](using/ms/guardrails.md)
+   + Configuratie {#ms-config}
+      + [Schema&#39;s](using/ms/ms-schemas.md)
+      + [Werken met gebeurtenisvariabelen](using/ms/event-variables.md)
    + Uw eerste multi-step campagne maken {#create-ms-campaign}
-      + [Belangrijkste beginselen](using/ms/gs-campaign-creation.md)
-      + [Afvoerkanalen en beperkingen](using/ms/guardrails.md)
-      + [Maak de campagne](using/ms/create-ms-campaign.md)
+      + [Een georkestreerde campagne maken](using/ms/create-ms-campaign.md)
       + [Orchestraten](using/ms/orchestrate-activities.md)
       + [Campagne-instellingen configureren](using/ms/ms-campaign-settings.md)
       + [Uw campagnes starten en controleren](using/ms/start-monitor-campaigns.md)
-      + [Gebeurtenisvariabelen in multi-step campagnes](using/ms/event-variables.md)
+      + [ beheer verpersoonlijking ](using/ms/ms-personalization.md)
    + Meerdere campagneactiviteiten {#design-campaigns}
       + [Informatie over multi-step campagneactiviteiten](using/ms/activities/about-activities.md)
       + [En-join](using/ms/activities/and-join.md)

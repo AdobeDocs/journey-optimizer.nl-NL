@@ -1,18 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Gebeurtenisvariabelen voor meerdere stappen
+title: Werken met gebeurtenisvariabelen in multi-step campagnes
 description: Leer hoe u gebeurtenisvariabelen kunt gebruiken in uw multi-step campagnes
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: f86dd262-0209-42f6-a180-736f1de98d78
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
 
-# Gebeurtenisvariabelen voor meerdere stappen {#event-variables}
+# Werken met gebeurtenisvariabelen {#event-variables}
 
 Bij sommige campagneactiviteiten met meerdere stappen kunt u scripts bewerken in de expressie-editor om specifieke handelingen uit te voeren, zoals het ophalen van gegevens uit eerdere activiteiten, het bouwen van voorwaarden of het berekenen van bestandsnamen op basis van gebeurtenisvariabelen.
 

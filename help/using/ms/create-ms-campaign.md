@@ -5,21 +5,31 @@ title: Meerdere stappen maken met Journey Optimizer
 description: Leer hoe u een campagne met meerdere stappen kunt maken met Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 0%
+source-wordcount: '694'
+ht-degree: 1%
 
 ---
 
-
-# De campagne met meerdere stappen maken {#create-first-campaign}
+# Een georkestreerde campagne maken {#create-first-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_creation_workflow"
 >title="Lijst met meerstapscampagnes"
 >abstract="Het **multi-step** lusje maakt een lijst van alle multi-step campagne. Klik op de naam van een campagne die uit meerdere stappen bestaat om deze te bewerken. Gebruik **creeer multi-step campagne** knoop om een nieuwe multi-step campagne toe te voegen."
 
+## Vereisten
+
+### Machtigingen
+
+### Instellingen
+
+Overzicht van nieuwe beheerinstellingen> schema&#39;s, uitvoeringsvelden, samenvoegbeleid. [Meer informatie](ms-schemas.md)
+
+
+## Aanmaakstappen
 
 Voer de volgende stappen uit om een campagne met meerdere stappen te maken:
 
