@@ -6,20 +6,21 @@ description: Belangrijke principes van multi-step campagnes met Adobe Journey Op
 hide: true
 hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
+source-git-commit: 326a0a47c859f475d9036c6142b057a5b59b0ae9
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
 
 # Belangrijkste beginselen van de georkestreerde campagne {#ms-campaign-creation}
 
+>[!CONTEXTUALHELP]
+>id="ajo_targeting_workflow_list"
+>title="Meerdere stappen"
+>abstract="In dit scherm, kunt u tot de volledige lijst van multi-step campagnes toegang hebben, hun huidige status, laatste/volgende uitvoeringsdata controleren, en een nieuwe multi-step campagne creëren."
+
 Met Adobe Journey Optimizer kunt u in meerdere stappen campagnes maken tot een visueel canvas om kanaalprocessen zoals segmentatie, uitvoering van campagnes en bestandsverwerking te ontwerpen.
-
-## Een query samenstellen
-
-## Personalization-richtlijnen
 
 ## Wat zit er in een campagne met meerdere stappen? {#gs-ms-campaign-inside}
 
@@ -43,7 +44,23 @@ De belangrijkste stappen voor het maken van een campagne die uit meerdere stappe
 
 ![](assets/workflow-creation-process.png){zoomable="yes"}
 
-## Statussen en levenscyclus
+## Meerdere stappen benaderen
+
+Blader in het menu **[!UICONTROL Campaigns]** naar het tabblad Meerdere stappen voor toegang tot de volledige lijst met campagnes die uit meerdere stappen bestaan.
+
+Elke multi-step campagne in de lijst toont informatie over zijn huidige [ status ](#status), de laatste tijd het werd uitgevoerd of, en de volgende geplande uitvoeringsdatum en tijd gewijzigd.
+
+U kunt de weergegeven kolommen aanpassen door op het pictogram **[!UICONTROL Configure column for a custom layout]** in de rechterbovenhoek van de lijst te klikken. Hierdoor kunt u aanvullende informatie aan de lijst toevoegen, zoals de laatste foutactie voor elke campagne met meerdere stappen of de toegepaste doeldimensie.
+
+Bovendien zijn er een zoekbalk en filters beschikbaar waarmee u gemakkelijk in de lijst kunt zoeken. U kunt bijvoorbeeld de campagnes met meerdere stappen filteren om alleen de campagnes weer te geven die tot een campagne behoren, of de campagnes die tijdens een bepaald datumbereik zijn verwerkt.
+
+Als u een campagne met meerdere stappen wilt dupliceren of verwijderen, klikt u op de knop voor een ovaal en selecteert u **[!UICONTROL Duplicate]** of **[!UICONTROL Delete]** .
+
+>[!NOTE]
+>
+>Wanneer een campagne in meerdere stappen wordt uitgevoerd, kunt u deze dupliceren, maar u kunt deze niet verwijderen.
+
+## Statussen en levenscyclus {#status}
 
 Campagnes kunnen meerdere statussen hebben:
 
@@ -53,3 +70,7 @@ Campagnes kunnen meerdere statussen hebben:
 * **[!UICONTROL Paused]**: De campagne met meerdere stappen is gepauzeerd.
 * **[!UICONTROL Erroneous]**: Er is een fout opgetreden tijdens de campagne met meerdere stappen. Open de campagne met meerdere stappen en open de logboeken en taken om de fout te identificeren en op te lossen.
 
+
+## Een query samenstellen
+
+## Personalization-richtlijnen
