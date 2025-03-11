@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-source-git-commit: d63b12c9c7d3b16309661ffbe20baf8a9c140945
+source-git-commit: a009743e176f81cc0ad843c1c056983d66c5cc48
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 >
 >Gebruikers moeten de machtiging **[!UICONTROL Manage Language settings]** krijgen voor handmatige doorloop.
 
-Met de handmatige stroom kunt u uw inhoud moeiteloos rechtstreeks vertalen in uw campagnes en reizen, zodat u nauwkeurige controle- en aanpassingsopties hebt voor uw meertalige berichten. Bovendien kunt u met de optie HTML importeren eenvoudig bestaande meertalige inhoud importeren.
+Met de handmatige stroom kunt u uw inhoud moeiteloos rechtstreeks vertalen in uw campagnes en reizen, zodat u nauwkeurige controle- en aanpassingsopties hebt voor uw meertalige berichten. Bovendien kunt u bestaande meertalige inhoud eenvoudig importeren met de optie HTML importeren.
 
 Ga als volgt te werk om meertalige inhoud te maken met handmatige vertaling:
 
@@ -30,9 +30,9 @@ Ga als volgt te werk om meertalige inhoud te maken met handmatige vertaling:
 
 1. [Landinstellingen toevoegen (optioneel)](multilingual-locale.md)
 
-1. [Taalinstellingen maken](#create-language-settings)
+1. [Taalinstellingen maken](#language-settings)
 
-1. [Meertalige inhoud maken](#create-a-multilingual-campaign)
+1. [Meertalige inhoud maken](#create-multilingual-campaign)
 
 ## Taalinstellingen maken {#language-settings}
 
@@ -48,7 +48,7 @@ In deze sectie kunt u verschillende landinstellingen instellen voor het beheer v
 
 1. Selecteer de **[!UICONTROL Locales]** die aan deze instellingen is gekoppeld. U kunt maximaal 50 landinstellingen toevoegen.
 
-   Als een **[!UICONTROL Locale]** ontbreekt, kunt u het manueel van tevoren van het **[!UICONTROL Translation]** menu of door API tot stand brengen. Verwijs naar [ creeer een nieuwe Scène ](#create-locale).
+   Als een **[!UICONTROL Locale]** ontbreekt, kunt u het manueel van tevoren van het **[!UICONTROL Translation]** menu of door API tot stand brengen. Verwijs naar [ creeer een nieuwe Scène ](multilingual-locale.md).
 
    ![](assets/multilingual-settings-2.png)
 
@@ -92,7 +92,7 @@ In deze sectie kunt u verschillende landinstellingen instellen voor het beheer v
       ![](assets/multilingual-experience-events-rule-if.png)
 
       * Kies de **[!UICONTROL Extension]** waarmee u werkt.
-      * Selecteer in het veld **[!UICONTROL Event type]** de optie &quot;AEP-aanvraaggebeurtenis&quot;.
+      * Selecteer in het veld **[!UICONTROL Event type]** de optie &quot;AEP Request Event&quot;.
       * Selecteer in het rechterdeelvenster &quot;XDM Event Type is gelijk aan personalization.request&quot;
       * Klik op de knop **[!UICONTROL Keep changes]** ter bevestiging.
 
@@ -155,7 +155,7 @@ Nadat u meertalige inhoud hebt ingesteld, kunt u uw campagne of reis plannen en 
 
    ![](assets/multilingual-campaign-2.png)
 
-1. Klik op **[!UICONTROL Add languages]** en selecteer de eerder gemaakte **[!UICONTROL Language settings]** . [Meer informatie](#create-language-settings)
+1. Klik op **[!UICONTROL Add languages]** en selecteer de eerder gemaakte **[!UICONTROL Language settings]** . [Meer informatie](#language-settings)
 
    ![](assets/multilingual-campaign-3.png)
 
