@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 12dc96bb08f03865c82382baac276f46bc42baeb
+source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,30 @@ ht-degree: 0%
 >title="Aanpassingsscore merk"
 >abstract="Met de score voor merkuitlijning wordt gemeten in hoeverre uw inhoud voldoet aan de richtlijnen van uw merk. Zo bent u verzekerd van consistentie in kleuren, lettertypen, logo, beeldvorming en schrijfstijl."
 
+>[!CONTEXTUALHELP]
+>id="ajo_brand_colors"
+>title="Kleurscore"
+>abstract="Kleurscore"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_fonts"
+>title="Lettertypescore"
+>abstract="Lettertypescore"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_logos"
+>title="Logos score"
+>abstract="Logos score"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_imagery"
+>title="Imaging score"
+>abstract="Imaging score"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_writing_style"
+>title="Stijlscore schrijven"
+>abstract="Stijlscore schrijven"
 
 >[!AVAILABILITY]
 >
