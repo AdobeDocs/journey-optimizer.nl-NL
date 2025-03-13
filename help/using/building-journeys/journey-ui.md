@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
+source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1098'
 ht-degree: 3%
 
 ---
@@ -20,8 +20,12 @@ ht-degree: 3%
 
 ## Reisdashboard {#dashboard-jo}
 
-Klik in de menusectie JOURNEY MANAGEMENT op **[!UICONTROL Journeys]** . Er zijn twee tabbladen beschikbaar: **[!UICONTROL Overview]** en **[!UICONTROL Browse]** .
+>[!CONTEXTUALHELP]
+>id="ajo_journey_view"
+>title="Reistabel- en tijdlijnweergaven"
+>abstract="Reistabel- en tijdlijnweergaven"
 
+Klik in de menusectie JOURNEY MANAGEMENT op **[!UICONTROL Journeys]** . Er zijn twee tabbladen beschikbaar: **[!UICONTROL Overview]** en **[!UICONTROL Browse]** .
 
 * Op het tabblad **[!UICONTROL Overview]** wordt een dashboard weergegeven met de belangrijkste maatstaven voor uw reizen.
 
@@ -35,7 +39,6 @@ Klik in de menusectie JOURNEY MANAGEMENT op **[!UICONTROL Journeys]** . Er zijn 
   >[!NOTE]
   >
   >Dit dashboard houdt rekening met de reizen met verkeer in de afgelopen 24 uur. Alleen de reizen waartoe u toegang hebt, worden weergegeven. De metriek worden verfrist om de 30 minuten en slechts wanneer de nieuwe gegevens beschikbaar zijn.
-
 
 * Op het tabblad **[!UICONTROL Browse]** wordt de lijst met bestaande reizen weergegeven. U kunt reizen zoeken, filters gebruiken en basishandelingen op elk element uitvoeren. U kunt bijvoorbeeld een item dupliceren of verwijderen.
 

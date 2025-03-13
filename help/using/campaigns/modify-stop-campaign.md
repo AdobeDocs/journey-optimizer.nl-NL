@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: campagnes, status, planning, toegang, optimaliseren beheren
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '574'
 ht-degree: 1%
 
 ---
@@ -23,6 +23,11 @@ Nadat een campagne is geactiveerd, kunt u deze op elk gewenst moment wijzigen of
 Daarnaast kunt u live campagnes (die één keer of met een terugkerende uitvoering worden uitgevoerd) dupliceren om nieuwe campagnes te maken en voltooide of gestopt campagnes archiveren.
 
 ## Campagnes openen {#access}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_view"
+>title="Tabel- en tijdlijnweergaven van CAmpaigreert"
+>abstract="Campagne voor tabel- en tijdlijnweergaven"
 
 Campagnes zijn toegankelijk via het menu **[!UICONTROL Campaigns]** .
 
