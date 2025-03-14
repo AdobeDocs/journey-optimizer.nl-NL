@@ -5,7 +5,7 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9ff7a378fb18c72e7fdcff3c6052dcc428f240c9
+source-git-commit: 0351f0ffafe73245582453ab35742951bb42af7c
 workflow-type: tm+mt
 source-wordcount: '2274'
 ht-degree: 23%
@@ -317,10 +317,10 @@ ht-degree: 23%
          + [Op code gebaseerde ervaringen beheren](using/code-based/publish-code-based.md)
    + Inhoudskaarten {#content-card}
       + [Aan de slag met inhoudskaarten](using/content-card/get-started-content-card.md)
-      + [Ondersteuning voor inhoudskaarten configureren in Web SDK](using/content-card/content-card-lp.md)
       + Kanaal voor inhoudskaart configureren {#configure}
          + [Voorwaarden voor inhoudskaarten](using/content-card/content-card-configuration-prereq.md)
          + [Het kanaal voor inhoudskaarten in Journey Optimizer configureren](using/content-card/content-card-configuration.md)
+         + [Ondersteuning voor inhoudskaarten configureren in Mobile SDK](using/content-card/content-card-lp.md)
          + [Ondersteuning voor inhoudskaarten configureren in Web SDK](using/content-card/content-card-configuration-sdk.md)
       + [Inhoudskaarten maken](using/content-card/create-content-card.md)
       + [Inhoudskaarten ontwerpen](using/content-card/design-content-card.md)

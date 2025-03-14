@@ -5,16 +5,15 @@ topic: Content Management
 feature: Content Cards
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
-source-git-commit: 163a4cc533b5c24e762b2be95a1f2c7dea0eea96
+exl-id: 8e1a1e94-c3c1-4981-9380-76b7d8302c78
+source-git-commit: 0351f0ffafe73245582453ab35742951bb42af7c
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 0%
 
 ---
 
-# Ondersteuning voor inhoudskaarten configureren in Web SDK {#content-card-lp}
+# Ondersteuning voor inhoudskaarten configureren in Mobile SDK {#content-card-lp}
 
 Inhoudskaarten kunnen worden opgehaald van Adobe Journey Optimizer en worden gerenderd in uw mobiele toepassing met behulp van de Adobe Experience Platform Mobile SDK&#39;s die de volledige betrokkenheid bij uw mobiele toepassingen mogelijk maken. De Berichten SDK biedt eenvoudige en gebruiksvriendelijke API&#39;s om de op Adobe Journey Optimizer gemaakte inhoudskaarten op te halen en native mobiele weergaven te maken voor deze kaarten die eenvoudig door uw app kunnen worden gebruikt of die kunnen worden aangepast aan het thema van uw app. Ook worden automatisch alle gebruikersinteracties van de app bijgehouden met de weergegeven inhoudskaarten om ervoor te zorgen dat de campagnes op Journey Optimizer correct worden gerapporteerd.
 
@@ -48,4 +47,3 @@ Raadpleeg de volgende documentatiepagina&#39;s voor meer informatie over het int
 <p>
 </td>
 </tr></table>
-
