@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: landen, pagina landen, maken, publiceren
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 2f8c59a3c07dfc772cb62efe5665189d7a176d6f
+source-git-commit: 5af58cd9efc465b30386fad5dc6cd073626c3aed
 workflow-type: tm+mt
-source-wordcount: '1669'
+source-wordcount: '1630'
 ht-degree: 1%
 
 ---
@@ -157,9 +157,9 @@ Voer de onderstaande stappen uit om de instellingen voor de primaire pagina te d
 
    ![](assets/lp_expiry-date.png)
 
-1. Definieer in de sectie **[!UICONTROL Additional data]** een of meer toetsen en de bijbehorende parameterwaarden. U zult deze sleutels in de inhoud van uw primaire pagina en subpages met de [ verpersoonlijkingsredacteur ](../personalization/personalization-build-expressions.md) kunnen gebruiken. Lees meer in [deze sectie](lp-content.md#use-form-component#use-additional-data).
+<!--1. In the **[!UICONTROL Additional data]** section, define one or more keys and their corresponding parameter values. You will be able to leverage these keys in the content of your primary page and subpages using the [personalization editor](../personalization/personalization-build-expressions.md). Learn more in [this section](lp-content.md#use-form-component#use-additional-data).
 
-   ![](assets/lp_create-lp-additional-data.png)
+    ![](assets/lp_create-lp-additional-data.png)-->
 
 1. Als u één of meerdere abonnementslijsten selecteerde toen [ het ontwerpen van de primaire pagina ](design-lp.md), tonen zij in de **[!UICONTROL Subscription list]** sectie.
 
