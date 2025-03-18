@@ -1,13 +1,14 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Kanaalactiviteit gebruiken
-description: Leer hoe u een kanaalactiviteit toevoegt
+title: Een kanaalactiviteit toevoegen aan een campagne met meerdere stappen
+description: Leer hoe u een kanaalactiviteit toevoegt aan een campagne die uit meerdere stappen bestaat
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
+source-git-commit: 040c8387c73f9d867840225ddff6cf940cc96ac5
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -28,32 +29,32 @@ Begin met het ontwikkelen van uw meerfasencampagne met de relevante activiteiten
 
 * Om een terugkomende levering te verzenden, begin uw multi-step campagne met a **Planner** activiteit. U kunt a **planner** activiteit voor één-ontsproten enige leveringen ook gebruiken om de contactdatum voor die levering te plaatsen. Deze contactdatum kan ook worden ingesteld in de leveringsinstellingen. Zie [deze sectie](scheduler.md).
 
-## De kanaalactiviteit configureren {#create-a-delivery-in-a-workflow}
+## Een kanaalactiviteit configureren {#create-a-delivery-in-a-workflow}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
 >title="E-mailactiviteit"
->abstract="De e-mailactiviteit vergemakkelijkt het verzenden van e-mail binnen uw werkstroom, die voor zowel eenmalige als terugkomende berichten toestaat. Hiermee wordt het verzenden van e-mails naar een doel dat binnen dezelfde workflow is berekend, geautomatiseerd. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren."
+>abstract="Met de e-mailactiviteit kunt u e-mails verzenden in uw meerstapscampagne, zowel voor eenmalige als voor terugkerende berichten. Hiermee wordt het proces geautomatiseerd waarbij e-mails worden verzonden naar een doel dat is berekend in dezelfde meerstapscampagne. U kunt kanaalactiviteiten combineren tot een uit meerdere stappen bestaand campagnecanvas om kanaalcampagnes te maken die acties op klantengedrag en gegevens kunnen teweegbrengen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="SMS-activiteit"
->abstract="De activiteit van SMS vergemakkelijkt het verzenden van SMS binnen uw werkschema, die voor zowel eenmalige als terugkomende berichten toestaat. Het dient om het proces te automatiseren om SMS naar een doel te verzenden dat binnen de zelfde werkschema wordt berekend. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren."
+>abstract="Met de SMS-activiteit kunt u SMS verzenden binnen uw campagne met meerdere stappen, voor zowel eenmalige als terugkerende berichten. Het dient om het proces te automatiseren om SMS naar een doel te verzenden dat binnen de zelfde multistep campagne wordt berekend. U kunt kanaalactiviteiten combineren tot het campagnecanvas met meerdere stappen om kanaalcampagnes te maken die acties kunnen activeren op basis van het gedrag en de gegevens van de klant."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_ios"
 >title="IOS-activiteit in duwen"
->abstract="De Push iOS-activiteit stroomlijnt het proces voor het verzenden van iOS Push-berichten als onderdeel van uw workflow. Hierdoor kunnen eenmalige en terugkerende berichten worden verzonden, waardoor de verzendende iOS Push-berichten naar een vooraf gedefinieerd doel binnen dezelfde workflow worden geautomatiseerd. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren."
+>abstract="Met de Push iOS-activiteit kunt u iOS Push-berichten verzenden als onderdeel van uw meerstapscampagne. Het maakt het mogelijk om zowel eenmalige als terugkerende meerstapscampagnes uit te voeren, waarbij de verzendende iOS Push-berichten worden geautomatiseerd naar een vooraf gedefinieerd doel binnen dezelfde workflow. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_android"
 >title="Android-activiteit in duwen"
->abstract="De Push Android-activiteit stroomlijnt het proces voor het verzenden van Android Push-berichten als onderdeel van uw workflow. Hierdoor kunnen eenmalige en terugkerende berichten worden verzonden, waardoor de verzendende Android Push-berichten naar een vooraf gedefinieerd doel binnen dezelfde workflow worden geautomatiseerd. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren."
+>abstract="Met het activity ket Push Android verzendt u Android Push-berichten als onderdeel van uw campagne met meerdere stappen. Het laat de levering van zowel eenmalige als terugkomende berichten toe, die de verzendende Push berichten van Android aan een vooraf bepaald doel binnen de zelfde multi-step campagne automatiseren. U kunt kanaalactiviteiten combineren tot het campagnecanvas met meerdere stappen om kanaalcampagnes te maken die acties kunnen activeren op basis van het gedrag en de gegevens van de klant."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_directmail"
 >title="Directe post"
->abstract="De activiteit Direct-mail vergemakkelijkt direct mail verzenden binnen uw werkschema, die voor zowel eenmalige als terugkomende berichten toestaat. Hiermee wordt het genereren van het extractiebestand geautomatiseerd dat is vereist door directe-mailproviders. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren."
+>abstract="De direct-mailactiviteit vergemakkelijkt direct mail verzenden binnen uw multi-step campagne, voor zowel eenmalige als terugkomende berichten. Hiermee wordt het genereren van het extractiebestand geautomatiseerd dat is vereist door directe-mailproviders. U kunt kanaalactiviteiten combineren tot het campagnecanvas met meerdere stappen om kanaalcampagnes te maken die acties kunnen activeren op basis van het gedrag en de gegevens van de klant."
 
 Volg onderstaande stappen om een levering in te stellen in het kader van een campagne met meerdere stappen:
 
