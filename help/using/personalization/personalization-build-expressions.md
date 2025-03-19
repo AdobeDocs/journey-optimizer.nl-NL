@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expression, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 47b8308030ca73b3383938a4be025e332265540e
+source-git-commit: 4240f64cd7b6473f589d2324a2ebf87e2c60d394
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1364'
 ht-degree: 0%
 
 ---
@@ -32,9 +32,9 @@ In de interface van de verpersoonlijkingsredacteur, kunt u selecteren, schikken,
 
 ## Waar kan ik personalisatie toevoegen?
 
-U kunt verpersoonlijking in **[!DNL Journey Optimizer]** op elke gebieden met ![ toevoegen verpersoonlijkingspictogram ](assets/do-not-localize/add-perso-icon.svg) pictogram.
+U kunt verpersoonlijking in **[!DNL Journey Optimizer]** op elke gebieden met ![ toevoegen verpersoonlijkingspictogram ](assets/do-not-localize/add-perso-icon.svg) pictogram. Vouw de onderstaande secties uit voor meer informatie.
 
-### Berichten
++++Berichten
 
 In berichten kan personalisatie op verschillende plaatsen in uw berichten, zoals het **[!UICONTROL Subject line]** gebied worden toegevoegd.
 
@@ -42,28 +42,32 @@ In berichten kan personalisatie op verschillende plaatsen in uw berichten, zoals
 
 Het kan ook in andere secties van uw inhoud worden toegevoegd. Bijvoorbeeld, voor [ duw berichten ](../push/push-gs.md), kan de verpersoonlijking in **Titel** worden toegevoegd, **Lichaam**, **het correcte van de Douane**, **Badges** en **Gegevens van de Douane** gebieden.
 
-### Email Designer
++++
+
++++E-mail Designer
 
 Wanneer het uitgeven van e-mailinhoud in [ E-mail Designer ](../email/get-started-email-design.md), kunt u verpersoonlijking in tekstblokken en in URLs toevoegen gebruikend het pictogram in de contextafhankelijke hulpmiddelbar.
 
 ![](assets/perso_insert.png)
 
-### Aanbiedingen
++++
+
++++aanbiedingen
 
 U kunt verpersoonlijking toevoegen wanneer het gebruiken van tekst-type inhoud in uw **aanbiedingen&#39; vertegenwoordiging**. [ Leer hoe te om gepersonaliseerde aanbiedingen tot stand te brengen ](../offers/offer-library/creating-personalized-offers.md)
 
-### URL&#39;s
++++
+
++++URL&#39;s
 
 Journey Optimizer staat u ook toe om **URLs** in uw bericht te personaliseren.  Persoonlijke URL&#39;s sturen ontvangers naar specifieke pagina&#39;s van een website of naar een gepersonaliseerde microsite, afhankelijk van de profielkenmerken. De verpersoonlijking URL is beschikbaar voor deze types van verbindingen: **Externe verbinding**, **Verbinding Unsubscription** en **Opt-Out**.
 
-+++Zie voorbeeld gepersonaliseerde URL&#39;s
+Voorbeeld van aangepaste URL&#39;s:
 
 * `https://www.adobe.com/users/{{profile.person.name.lastName}}`
 * `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
 * `https://www.adobe.com/usera?uid={{context.journey.technicalProperties.journeyUID}}`
 * `https://www.adobe.com/users?uid={{profile.person.crmid}}&token={{context.token}}`
-
-+++
 
 ![](assets/perso-url.png){width="50%"}
 
@@ -73,9 +77,11 @@ Journey Optimizer staat u ook toe om **URLs** in uw bericht te personaliseren.  
 >
 >Spaties worden niet ondersteund in de personalisatietokens die in URL&#39;s worden gebruikt.
 
++++
+
 ## Personalization-bronnen {#sources}
 
-In het linkergedeelte van het scherm wordt een domeinkiezer weergegeven waarmee u de bron voor personalisatie kunt selecteren. Beschikbare bronnen zijn:
+In het navigatievenster kunt u de bron voor personalisatie selecteren. Beschikbare bronnen zijn:
 
 * **[!UICONTROL Profile attributes]** : maakt een lijst van alle verwijzingen verbonden aan het profielschema dat in [ wordt beschreven het Model van Gegevens van Adobe Experience Platform (XDM) documentatie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) {target="_blank"}.
 * **[!UICONTROL Audiences]** : geeft een overzicht van alle soorten publiek dat is gemaakt in de Adobe Experience Platform Segmentation-service. Meer informatie over beschikbare segmentatie [ ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) {target="_blank"}.
@@ -93,9 +99,9 @@ In het linkergedeelte van het scherm wordt een domeinkiezer weergegeven waarmee 
 >title="Automatisch voltooid"
 >abstract="Als u deze optie inschakelt, kan het systeem automatisch code voorstellen en voltooien terwijl u typt. Deze functie is alleen beschikbaar voor HTML- en Text-indelingen en ondersteunt profiel- en contextkenmerken. Als deze optie via de schakeloptie is uitgeschakeld, wordt de native HTML-code automatisch ingevuld."
 
-De centrale werkruimte is waar u uw verpersoonlijkingssyntaxis bouwt. Als u een kenmerk wilt gebruiken om uw bericht aan te passen, zoekt u het naar het linkernavigatievenster en klikt u op de knop `+` om het aan de expressie toe te voegen.
+De centrale werkruimte is waar u uw verpersoonlijkingssyntaxis bouwt. Als u een kenmerk wilt gebruiken om uw bericht aan te passen, zoekt u het in het navigatiegebied en klikt u op de knop `+` om het aan de expressie toe te voegen.
 
-Met het ellipsmenu naast het pictogram `+` kunt u meer details voor elk kenmerk ophalen en veelgebruikte kenmerken toevoegen aan favorieten. Kenmerken die aan favorieten worden toegevoegd, zijn toegankelijk via het menu **[!UICONTROL Favorites]** in het linkernavigatievenster.
+Met het ellipsmenu naast het pictogram `+` kunt u meer details voor elk kenmerk ophalen en veelgebruikte kenmerken toevoegen aan favorieten. Kenmerken die aan favorieten worden toegevoegd, zijn toegankelijk via het menu **[!UICONTROL Favorites]** in het navigatiegebied.
 
 Daarnaast kunt u standaardfallback-tekst definiëren die wordt weergegeven als een tekenreekstype profielkenmerk leeg is. Klik hiertoe op de knop voor het weglatingsteken naast het kenmerk en selecteer **[!UICONTROL Insert with fallback text]** . Schrijf de tekst die standaard moet worden weergegeven als de waarde van het kenmerk leeg is voor een profiel en klik vervolgens op **[!UICONTROL Add]** .
 
