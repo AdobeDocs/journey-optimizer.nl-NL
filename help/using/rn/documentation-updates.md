@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
+source-git-commit: 6acfe14469a74216b196e4d5ee059839aea32226
 workflow-type: tm+mt
-source-wordcount: '6214'
+source-wordcount: '6325'
 ht-degree: 12%
 
 ---
@@ -23,11 +23,19 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 
 * De pagina over de gebeurtenissen van de Kwalificatie van het Publiek is bijgewerkt met nieuwe aanbevelingen. [Meer informatie](../building-journeys/audience-qualification-events.md)
 * Aangepaste oplossingen voor acties zijn nu beschikbaar voor alle klanten (GA). [Meer informatie](../action/troubleshoot-custom-action.md)
+* Gegevenshygiëne is nu de levenscyclus van gegevens in de gebruikersinterface van het product. De documentatie is bijgewerkt met deze wijziging. [Meer informatie](../privacy/data-hygiene.md)
+* De ontbrekende ingebouwde bevoegdheden voor de bestemmingspagina zijn toegevoegd aan de documentatie. [Meer informatie](../administration/ootb-permissions.md)
+* Er is een opmerking toegevoegd over het plannen van terugkerende campagnes. [Meer informatie](../campaigns/create-campaign.md)
+* De sectie over het invoegen van koppelingen en het inschakelen van tracering in een e-mailbericht is bijgewerkt en opnieuw ingedeeld. [Meer informatie](../email/message-tracking.md)
+* Het gedeelte over personalisatiemogelijkheden in Adobe Journey Optimizer is gereorganiseerd en verbeterd. [Meer informatie](../personalization/personalize.md)
+* De Beslissingsbeheer-API voor het weergeven van gepersonaliseerde aanbiedingen is bijgewerkt met een voorbeeld om paginering uit te voeren als er in de reactie meerdere gepersonaliseerde aanbiedingen ontbreken. [Meer informatie](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
+
+
 
 ## Februari 2025 {#feb-2025}
 
-* De activiteitenhandleidingen van de activiteit &quot;Lezen publiek&quot;zijn bijgewerkt om te specificeren dat slechts één activiteit in een reis kan worden gebruikt en dat het slechts één publiek kan richten. [Meer informatie](../building-journeys/read-audience.md)
-* Reishandleidingen bij het gebruik van Campagne-activiteiten zijn bijgewerkt. [Meer informatie](../start/guardrails.md#ac-g)
+* De activiteitenhandleidingen voor het lezen van doelgroepen zijn bijgewerkt om aan te geven dat slechts één activiteit kan worden gebruikt in een reis en dat deze slechts voor één doelgroep kan worden gebruikt. [Meer informatie](../building-journeys/read-audience.md)
+* Reisinstructies bij het gebruik van Adobe Campaign-activiteiten zijn bijgewerkt. [Meer informatie](../start/guardrails.md#ac-g)
 * De stappen voor het maken van uw eerste ritten zijn in detail beschreven en er zijn koppelingen naar de sectie documentatie toegevoegd. [Meer informatie](../building-journeys/journey-gs.md)
 * Er is nu een nieuwe pagina beschikbaar waarin het dashboard voor de reis en de gebruikersinterface worden gefilterd. [Meer informatie](../building-journeys/journey-ui.md)
 * De documentatie voor **[!UICONTROL Send-Time optimization]** en de bijbehorende veelgestelde vragen zijn bijgewerkt, verbeterd en naar een nieuwe, speciale pagina verplaatst. [Meer informatie](../building-journeys/send-time-optimization.md)
