@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c4961af2653e8135c72dd57997131c56f54b24a5
+source-git-commit: 666ad2af2b6a2206e6c43b2f56cbacb5c164b152
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '738'
 ht-degree: 2%
 
 ---
@@ -171,3 +171,7 @@ U kunt nu subdomeinen delegeren waarbij DMARC wordt beheerd vanaf de bovenliggen
 **Bedrijfs regels**
 
 U kunt nu dagelijkse aftopping gebruiken in reizen en campagnes met batchsegmentatie. Om ervoor te zorgen dat de regels voor dagelijkse frequentiecapping correct zijn, moet u de naamruimte met de hoogste prioriteit kiezen tijdens het ontwerpen van een campagne of een reis. Leer meer op namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority) {target="_blank"}
+
+**Inhoudsbeheer**
+
+Om uw fragmenten en uw inhoudsmalplaatjes gemakkelijk te beheren, kunt u omslagen nu gebruiken om hen effectiever te organiseren in een gestructureerde hiërarchie.
