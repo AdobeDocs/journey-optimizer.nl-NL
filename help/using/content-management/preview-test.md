@@ -5,7 +5,7 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 98cc28a942626576666a3f0f3cc8ee7b50c2354c
+source-git-commit: 55cc584e2dfcfb9de8784069c7d635a8e4e47929
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -30,17 +30,19 @@ Nadat u de inhoud hebt gedefinieerd, kunt u de inhoud ervan voorvertonen voordat
 
 U kunt ook testleveringen van uw e-mailberichten naar specifieke ontvangers of abonnees verzenden voor tests en validatie, en hun rendering controleren bij populaire desktops, mobiele en webclients.
 
+Al deze handelingen kunnen worden uitgevoerd met de knop **[!UICONTROL Simulate Content]** , die toegankelijk is vanuit het scherm Inhoud bewerken van uw bericht of vanuit de ontwerpers van de e-mail en het web voor de e-mail en webkanalen.
+
+![](../email/assets/email-preview-button.png)
+
+U moet de machtiging **[!DNL Manage Simulate Content]** opnemen in het productprofiel van **[!DNL Content Library Manager]** . [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager).
+
+
 >[!CAUTION]
 >
 >* Wanneer u een bericht voorvertoont of proefdrukken verzendt, worden alleen profielverpersoonlijkingsgegevens weergegeven. Personalization op basis van contextgegevens, zoals informatie over gebeurtenissen, kan alleen worden getest in het kader van een reis. Leer hoe te om verpersoonlijking in [ te testen dit gebruiksgeval ](../personalization/personalization-use-case.md).
 >
 >* Bij het simuleren of renderen van proefdrukken voor e-mails die meerdere voorwaardelijke varianten bevatten, kan Journey Optimizer meer verwerkingstijd nodig hebben. Als u time-outs of foutberichten ervaart, kunt u overwegen het totale aantal varianten te verminderen of voorwaardelijke regels te vereenvoudigen. Leer meer over voorwaardelijke inhoud in [ deze pagina ](../personalization/dynamic-content.md).
 
-Al deze handelingen kunnen worden uitgevoerd met de knop **[!UICONTROL Simulate Content]** , die toegankelijk is vanuit het scherm Inhoud bewerken van uw bericht of vanuit de ontwerpers van de e-mail en het web voor de e-mail en webkanalen.
-
-![](../email/assets/email-preview-button.png)
-
-U moet de machtiging **[!DNL Manage Simulate Content]** opnemen in het productprofiel van **[!DNL Content Library Manager]** . [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager).
 
 ## Testen met testprofielen of gegevens uit de voorbeeldinvoer {#methods}
 
