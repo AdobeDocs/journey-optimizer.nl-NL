@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: maken, e-mail, starten, reizen, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+source-git-commit: e052e7bfea5381583ad8d2d7b785d44486cb9975
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '893'
 ht-degree: 2%
 
 ---
@@ -89,6 +89,12 @@ Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [ deze 
    ![](assets/email_designer_edit_content_header.png)
 
 1. Voeg een onderwerpregel voor uw bericht toe. Klik op het pictogram **[!UICONTROL Open personalization dialog]** om de onderwerpregel te configureren en aan te passen met de personalisatie-editor. [Meer informatie](../personalization/personalization-build-expressions.md)
+
+   >[!NOTE]
+   >
+   >* De onderwerpregel is verplicht.
+   >
+   >* De onderwerpregel mag geen regeleinden bevatten.
 
 1. Klik op de knop **[!UICONTROL Edit email body]** om toegang te krijgen tot de e-mailtoepassing van de Designer en uw inhoud op te bouwen. [Meer informatie](get-started-email-design.md)
 
