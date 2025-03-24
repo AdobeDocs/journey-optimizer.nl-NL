@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, editor, dynamic, content
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
+source-git-commit: 98cc28a942626576666a3f0f3cc8ee7b50c2354c
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
@@ -87,9 +87,13 @@ U kunt als volgt varianten van een inhoudscomponent maken in de e-mailtoepassing
 1. Voeg zoveel varianten toe als nodig zijn voor de inhoudscomponent. U kunt op elk gewenst moment schakelen tussen de verschillende varianten om te controleren hoe de inhoudcomponent afhankelijk van de voorwaardelijke regels wordt weergegeven.
 
    >[!NOTE]
-   >Als bij het verzenden van het bericht aan geen van de regels in de varianten wordt voldaan, geeft de inhoudcomponent de inhoud weer die in de **[!UICONTROL Default variant]** is gedefinieerd.
    >
-   >Voorwaardelijke inhoud wordt geëvalueerd op basis van de bijbehorende regels in de volgorde waarin de varianten worden weergegeven. De standaardvariant wordt altijd weergegeven als aan geen andere voorwaarden wordt voldaan.
+   >* Als bij het verzenden van het bericht aan geen van de regels in de varianten wordt voldaan, geeft de inhoudcomponent de inhoud weer die in de **[!UICONTROL Default variant]** is gedefinieerd.
+   >
+   >* Voorwaardelijke inhoud wordt geëvalueerd op basis van de bijbehorende regels in de volgorde waarin de varianten worden weergegeven. De standaardvariant wordt altijd weergegeven als aan geen andere voorwaarden wordt voldaan.
+   >
+   >* Bij het simuleren of renderen van proefdrukken voor e-mails die meerdere voorwaardelijke varianten bevatten, kan Journey Optimizer meer verwerkingstijd nodig hebben. Als u time-outs of foutberichten ervaart, kunt u overwegen het totale aantal varianten te verminderen of voorwaardelijke regels te vereenvoudigen. Leer meer over het testen van uw inhoud in [ deze pagina ](../content-management/preview-test.md).
+
 
 1. Als u een variant wilt verwijderen, klikt u op het pictogram Meer handelingen naast de gewenste variant en selecteert u **[!UICONTROL Delete]** .
 

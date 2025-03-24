@@ -5,9 +5,9 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 98cc28a942626576666a3f0f3cc8ee7b50c2354c
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,9 @@ U kunt ook testleveringen van uw e-mailberichten naar specifieke ontvangers of a
 
 >[!CAUTION]
 >
->Wanneer u een bericht voorvertoont of proefdrukken verzendt, worden alleen profielverpersoonlijkingsgegevens weergegeven. Personalization op basis van contextgegevens, zoals informatie over gebeurtenissen, kan alleen worden getest in het kader van een reis. Leer hoe te om verpersoonlijking in [ te testen dit gebruiksgeval ](../personalization/personalization-use-case.md).
+>* Wanneer u een bericht voorvertoont of proefdrukken verzendt, worden alleen profielverpersoonlijkingsgegevens weergegeven. Personalization op basis van contextgegevens, zoals informatie over gebeurtenissen, kan alleen worden getest in het kader van een reis. Leer hoe te om verpersoonlijking in [ te testen dit gebruiksgeval ](../personalization/personalization-use-case.md).
+>
+>* Bij het simuleren of renderen van proefdrukken voor e-mails die meerdere voorwaardelijke varianten bevatten, kan Journey Optimizer meer verwerkingstijd nodig hebben. Als u time-outs of foutberichten ervaart, kunt u overwegen het totale aantal varianten te verminderen of voorwaardelijke regels te vereenvoudigen. Leer meer over voorwaardelijke inhoud in [ deze pagina ](../personalization/dynamic-content.md).
 
 Al deze handelingen kunnen worden uitgevoerd met de knop **[!UICONTROL Simulate Content]** , die toegankelijk is vanuit het scherm Inhoud bewerken van uw bericht of vanuit de ontwerpers van de e-mail en het web voor de e-mail en webkanalen.
 
