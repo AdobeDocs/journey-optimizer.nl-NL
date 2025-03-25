@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: bericht, frequentie, regels, druk
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 5e4d122c38c89055419102d54b3e749f1b8f925e
+source-git-commit: 74bb16aa01c442ad9d427cdd2c79c9e8b7b8a394
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Leer meer over toestemmingen in [ deze sectie ](../administration/high-low-permi
 
 Wanneer de toegang tot van regelreeksen voor het eerst van **[!UICONTROL Administration]** > **[!UICONTROL Business rules]** menu, wordt een standaardregelreeks vooraf gecreeerd en actief: **Globale Reeks Standaard van de Regel**.
 
-Deze regelreeks bevat globale regels die u kunt toepassen om te controleren hoe vaak de gebruikers bericht over één of veelvoudige kanalen ontvangen, gelijkend op hoe de huidige bedrijfsregels werken. Alle regels die in deze regel worden bepaald zijn op alle geselecteerde kanalen van toepassing, of de mededelingen van een reis of een campagne worden verzonden. [ Leer hoe te met bedrijfsregels te werken ](../configuration/rule-sets.md)
+Deze regelreeks bevat globale regels die u kunt toepassen om te controleren hoe vaak de gebruikers berichten over één of veelvoudige kanalen ontvangen, gelijkend op hoe de huidige bedrijfsregels werken. Alle regels die in deze regel worden bepaald zijn op alle geselecteerde kanalen van toepassing, of de mededelingen van een reis of een campagne worden verzonden. [ Leer hoe te met bedrijfsregels te werken ](../configuration/rule-sets.md)
 
 Naast deze &quot;Globale Vastgestelde van de StandaardRegel&quot;regel, kunt u **reeksen van de douaneregel** tot stand brengen die u op om het even welke campagne kunt toepassen om het aantal berichten te beperken die binnen die campagne worden verzonden. [ Leer hoe te om de reeksen van de douaneregel tot stand te brengen ](#create)
 
@@ -142,13 +142,13 @@ De parameters beschikbaar voor de regel hangen van het regelvastgestelde domein 
 
    >[!AVAILABILITY]
    >
-   >De &quot;Daily&quot;duur is beschikbaar slechts op bestelling. Neem contact op met uw Adobe-vertegenwoordiger om toegang te krijgen.
+   >De &quot;Daily&quot;duur is beschikbaar slechts op bestelling. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
    De teller loopt voor elke periode als volgt af:
 
    * **[!UICONTROL Monthly]**: Het frequentiekapitaal is geldig tot de laatste dag van de maand bij 23 :59: 59 UTC. Bijvoorbeeld, is de maandelijkse vervaldatum voor Januari 01-31 23 :59: 59 UTC.
 
-   * **[!UICONTROL Weekly]**: Het frequentiekapitaal is geldig tot Zaterdag 23 :59: 59 UTC van die week aangezien de kalenderweek op zondag begint. De vervaldatum staat los van de instelling van de regel. Bijvoorbeeld, als de regel op Donderdag wordt gecreeerd, is deze regel geldig tot Zaterdag bij 23 :59: 59.
+   * **[!UICONTROL Weekly]**: Het frequentiekapitaal is geldig tot Zaterdag 23 :59: 59 UTC van die week aangezien de kalenderweek op zondag begint. De vervaldatum is van toepassing ongeacht wanneer de regel is gemaakt. Bijvoorbeeld, als de regel op Donderdag wordt gecreeerd, is deze regel geldig tot Zaterdag bij 23 :59: 59.
 
    * **[!UICONTROL Daily]**: Het dagelijkse frequentiekapitaal is geldig voor de dag tot 23 :59: 59 UTC en stelt aan 0 bij het begin van de volgende dag terug.
 
@@ -158,7 +158,7 @@ De parameters beschikbaar voor de regel hangen van het regelvastgestelde domein 
 
    Houd er rekening mee dat de waarde van de profielteller wordt bijgewerkt wanneer de communicatie wordt geleverd. Begrijpt u dit wanneer u grote hoeveelheden communicatie verzendt aangezien de productie in de ontvanger zou kunnen resulteren die de e-mailnotulen of zelfs uren na de inleiding van de mededeling (in het geval dat u miljoenen mededelingen gelijktijdig verzendt) krijgen.
 
-   Dit is van belang wanneer een ontvanger twee mededelingen dicht bij elkaar ontvangt. Wij stellen voor om de communicatie met elkaar te verdelen over minstens twee uur waar mogelijk om de ontvanger voldoende tijd te geven om de mededeling en de tellerwaarde te ontvangen om dienovereenkomstig bij te werken.
+   Dit is van belang wanneer een ontvanger twee mededelingen dicht bij elkaar ontvangt. We stellen voor om communicatie met elkaar te scheiden met minstens twee uur, waar mogelijk, zodat de ontvanger voldoende tijd heeft om de communicatie te ontvangen en de tegenwaarde dienovereenkomstig bij te werken.
 
 1. Stel de plafonnering voor uw regel in. Dit betekent het maximumaantal berichten dat naar een individueel gebruikersprofiel kan worden verzonden per maand, week of dag - volgens de bovenstaande selectie.
 
