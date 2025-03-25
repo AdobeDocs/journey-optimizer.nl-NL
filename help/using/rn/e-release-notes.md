@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 666ad2af2b6a2206e6c43b2f56cbacb5c164b152
+source-git-commit: 80376fda31f1e24ed3443e6ae1c5bde7ca700311
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '768'
 ht-degree: 2%
 
 ---
@@ -45,6 +45,22 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <tr>
 <td>
 <p>Met de Adobe Express-integratie in Adobe Journey Optimizer kunt u bewerkingsgereedschappen voor Adobe Express rechtstreeks gebruiken tijdens het maken van inhoud. Zo kunt u het formaat wijzigen, achtergronden verwijderen, uitsnijden en elementen omzetten in JPEG of PNG.<p>
+<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Reiscijfers</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>De metriek van de reis zal u toestaan om het effect van uw activiteiten over de metriek te meten die voor uw zaken het belangrijkst zijn en duidelijkere inzichten in uw prestaties te verstrekken.</p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
 </tr>
