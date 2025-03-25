@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: bericht, frequentie, regels, druk
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
+source-git-commit: 5e4d122c38c89055419102d54b3e749f1b8f925e
 workflow-type: tm+mt
-source-wordcount: '1963'
+source-wordcount: '1974'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,15 @@ Naast globale bedrijfsregels die het aantal tijden beperken ontvangen de gebruik
 Bijvoorbeeld, kunt u een regel tot stand brengen die wordt geplaatst om het aantal **promotionele mededelingen** te beperken naar uw klanten en een andere die regel wordt verzonden om het aantal **nieuwsbrieven** te beperken naar hen wordt verzonden. Afhankelijk van het type campagne dat u creeert, kunt u dan verkiezen om of de promotionele mededeling of de nieuwsbrieven regelreeks toe te passen.
 
 ➡️ [ ontdekt deze eigenschap in video ](#video)
+
+### Machtigingen {#permissions-frequency-rules}
+
+Om met bedrijfsregels te werken, hebt u de volgende toestemmingen nodig:
+
+* **[!UICONTROL View Frequency Rules]**: Toegang tot en weergave van bedrijfsregels.
+* **[!UICONTROL Manage Frequency Rules]**: Maak, bewerk of verwijder bedrijfsregels.
+
+Leer meer over toestemmingen in [ deze sectie ](../administration/high-low-permissions.md).
 
 ### Algemene en aangepaste regelsets {#global-custom}
 
@@ -66,8 +75,6 @@ Wanneer het creëren van een regelreeks, moet u specificeren als de regels binne
 Volg onderstaande stappen om een regelset te maken.
 
 >[!NOTE]
->
->Als u een regelset wilt maken, hebt u de machtiging `Manage Messages Presets` nodig. [ Leer meer op gebruikersbeheer ](../administration/permissions-overview.md)
 >
 >U kunt tot 3 lokale regelreeksen van kanaaldomein en tot 5 lokale regelreeksen van reisdomein tot stand brengen.
 
@@ -237,16 +244,6 @@ Voor elke regel in de regelset kunt u met de knop **[!UICONTROL More actions]** 
 * De regel verwijderen
 
 ![](assets/rule-set-example-rules.png)
-
-<!--### Permissions{#permissions-frequency-rules}
-
-To access, create, edit or delete message frequency rules, you must have the **[!UICONTROL Manage frequency rules]** permission. 
-
-Users with the **[!UICONTROL View frequency rules]** permission are able to view rules, but not to modify or delete them.
-
-![](assets/message-rules-access.png)
-
-Learn more about permissions in [this section](../administration/high-low-permissions.md).-->
 
 ## Regelsets toepassen op een bericht of reis {#apply-frequency-rule}
 
