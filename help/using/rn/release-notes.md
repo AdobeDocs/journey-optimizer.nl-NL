@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0a6fa748aca04f544954089d2dfdd8e9a3afdd97
+source-git-commit: 1776d9fa7352fc41d52f685c0a402e60bced348d
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1441'
 ht-degree: 4%
 
 ---
@@ -160,13 +160,11 @@ Een nieuwe knoop &quot;van Vullingen&quot;is aan de verpersoonlijkingsredacteur 
 
 Wanneer u de voorwaarden voor een goedkeuringsbeleid definieert, kunt u nu filteren op Tag en/of Objectcategorie.
 
-**configuratie van het Kanaal**
+**Configuratie**
 
-U kunt nu Adobe Experience Platform Unified Tags toewijzen aan kanaalconfiguraties. Op deze manier kunt u ze gemakkelijk classificeren en kunt u zoeken en navigeren in alle lijsten verbeteren.
+* U kunt nu Adobe Experience Platform Unified Tags toewijzen aan kanaalconfiguraties. Op deze manier kunt u ze gemakkelijk classificeren en kunt u zoeken en navigeren in alle lijsten verbeteren.
 
-**Aflevering**
-
-U kunt nu subdomeinen delegeren waarbij DMARC wordt beheerd vanaf de bovenliggende zijde.
+* Wanneer u een e-mailsubdomein instelt of bewerkt in Journey Optimizer, kunt u er nu voor kiezen om de bijbehorende DMARC-record zelf te beheren, mits deze beschikbaar is in het bovenliggende domein.
 
 **Bedrijfs regels**
 
