@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: bericht, frequentie, regels, druk
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 4c1c0b17b6dc1d5b2e35cb9f250c82f0d5d31faa
+source-git-commit: 0a6fa748aca04f544954089d2dfdd8e9a3afdd97
 workflow-type: tm+mt
-source-wordcount: '1980'
+source-wordcount: '2010'
 ht-degree: 0%
 
 ---
@@ -155,6 +155,8 @@ De parameters beschikbaar voor de regel hangen van het regelvastgestelde domein 
      >[!CAUTION]
      >
      >Om nauwkeurigheid voor dagelijkse frequentie die regels begrenzen te verzekeren, is het gebruik van [ het stromen segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html) {target="_blank"} verplicht. Leer meer op de methodes van de publieksevaluatie in [ deze sectie ](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+     >
+     >U moet er ook voor zorgen dat u de naamruimte met de hoogste prioriteit kiest tijdens het ontwerpen van een campagne of een reis. Leer meer op namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority) {target="_blank"}
 
    Houd er rekening mee dat de waarde van de profielteller wordt bijgewerkt wanneer de communicatie wordt geleverd. Begrijpt u dit wanneer u grote hoeveelheden communicatie verzendt aangezien de productie in de ontvanger zou kunnen resulteren die de e-mailnotulen of zelfs uren na de inleiding van de mededeling (in het geval dat u miljoenen mededelingen gelijktijdig verzendt) krijgen.
 
