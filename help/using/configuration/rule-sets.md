@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: bericht, frequentie, regels, druk
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
+source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1963'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Bijvoorbeeld, kunt u een regel tot stand brengen die wordt geplaatst om het aant
 
 ### Algemene en aangepaste regelsets {#global-custom}
 
-Wanneer de toegang tot van regelreeksen voor het eerst van **[!UICONTROL Administration]** > **[!UICONTROL Business rules (Beta)]** menu, wordt een standaardregelreeks vooraf gecreeerd en actief: **Globale Reeks Standaard van de Regel**.
+Wanneer de toegang tot van regelreeksen voor het eerst van **[!UICONTROL Administration]** > **[!UICONTROL Business rules]** menu, wordt een standaardregelreeks vooraf gecreeerd en actief: **Globale Reeks Standaard van de Regel**.
 
 Deze regelreeks bevat globale regels die u kunt toepassen om te controleren hoe vaak de gebruikers bericht over één of veelvoudige kanalen ontvangen, gelijkend op hoe de huidige bedrijfsregels werken. Alle regels die in deze regel worden bepaald zijn op alle geselecteerde kanalen van toepassing, of de mededelingen van een reis of een campagne worden verzonden. [ Leer hoe te met bedrijfsregels te werken ](../configuration/rule-sets.md)
 
@@ -55,6 +55,10 @@ Wanneer het creëren van een regelreeks, moet u specificeren als de regels binne
 * **het domein van het Kanaal**: pas het begrenzen regels voor communicatiekanalen toe. Verzend bijvoorbeeld niet meer dan 1 e-mail- of sms-communicatie per dag.
 * **Reis** domein: pas ingang en gelijktijdige het afschilderen regels op een reis toe. Voer bijvoorbeeld niet profielen in voor meer dan één reis tegelijk.
 
+>[!AVAILABILITY]
+>
+>Terwijl **de reeksen van de de domeinregel van het Kanaal** {aan alle gebruikers beschikbaar zijn, **de reeksen van de de 3} domeinregel van de Reis {zijn beschikbaar slechts aan een beperkte reeks gebruikers (Beperkte Beschikbaarheid).** Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+
 ## Uw eerste aangepaste regelset maken {#create-rule-set}
 
 ### Maak de regelset en selecteer het domein ervan {#create}
@@ -62,6 +66,8 @@ Wanneer het creëren van een regelreeks, moet u specificeren als de regels binne
 Volg onderstaande stappen om een regelset te maken.
 
 >[!NOTE]
+>
+>Als u een regelset wilt maken, hebt u de machtiging `Manage Messages Presets` nodig. [ Leer meer op gebruikersbeheer ](../administration/permissions-overview.md)
 >
 >U kunt tot 3 lokale regelreeksen van kanaaldomein en tot 5 lokale regelreeksen van reisdomein tot stand brengen.
 
@@ -74,6 +80,10 @@ Volg onderstaande stappen om een regelset te maken.
 1. Selecteer het domein van de regelset. Het domein staat u toe om te specificeren als de regelreeks het maximum regels zal bevatten die voor communicatiekanalen of voor reizen specifiek zijn. [ Leer meer op kanaal en reis die regels begrenzen ](#domain)
 
    ![](assets/rule-sets-create.png)
+
+   >[!AVAILABILITY]
+   >
+   >Terwijl **de reeksen van de de domeinregel van het Kanaal** {aan alle gebruikers beschikbaar zijn, **de reeksen van de de 3} domeinregel van de Reis {zijn beschikbaar slechts aan een beperkte reeks gebruikers (Beperkte Beschikbaarheid).** Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -208,7 +218,7 @@ De status verandert in **[!UICONTROL Inactive]** en de regel geldt niet voor toe
 
 ## Regelsets openen en beheren {#access-rule-sets}
 
-Alle gemaakte regelsets worden weergegeven in het menu **[!UICONTROL Administration]** > **[!UICONTROL Business rules (Beta)]** . Ze worden gesorteerd op de laatste wijzigingsdatum.
+Alle gemaakte regelsets worden weergegeven in het menu **[!UICONTROL Administration]** > **[!UICONTROL Business rules]** . Ze worden gesorteerd op de laatste wijzigingsdatum.
 
 ![](assets/rule-sets-list.png)
 

@@ -5,9 +5,9 @@ role: User
 level: Beginner
 badge: label="Beperkte beschikbaarheid"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
+source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ Met de functie voor aftopping kunt u het aantal ritten beperken waarin een profi
 
 Beide typen aftopping maken gebruik van prioriteitsscores om items te scheiden.
 
+>[!AVAILABILITY]
+>
+>**de reeksen van de de domeinregel van 0} Reis {zijn beschikbaar slechts aan een beperkte reeks gebruikers (Beperkte Beschikbaarheid).** Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+
 ➡️ [ ontdekt deze eigenschap in video ](#video)
 
 ## Een regel voor het afdekken van reizen maken {#create-rule}
@@ -41,7 +45,7 @@ Beide typen aftopping maken gebruik van prioriteitsscores om items te scheiden.
 
 Voer de volgende stappen uit om een regel voor het afdekken van reizen te maken:
 
-1. Navigeer naar het menu **[!UICONTROL Business rules (Beta)]** voor toegang tot het overzicht van regelsets.
+1. Navigeer naar het menu **[!UICONTROL Business rules]** voor toegang tot het overzicht van regelsets.
 
 1. Selecteer de regelset waaraan u de afkapregel wilt toevoegen of maak een nieuwe regelset:
 
