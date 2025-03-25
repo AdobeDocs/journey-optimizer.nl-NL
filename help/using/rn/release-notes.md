@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 666ad2af2b6a2206e6c43b2f56cbacb5c164b152
+source-git-commit: d023eaba1205ea8bfb402b195bfd341dae4f59d3
 workflow-type: tm+mt
-source-wordcount: '1399'
-ht-degree: 5%
+source-wordcount: '1410'
+ht-degree: 4%
 
 ---
 
@@ -82,7 +82,6 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <ul>
 <li>Middelen centraal beheren met realtime updates</li>
 <li>Wijzig direct uw activa montages zoals breedte en hoogte</li>
-<li>Uw inhoud aanpassen met afbeeldingen met tekstbedekkingen</li>
 <li>Dynamische mediasjablonen aanpassen door uw inhoud bij te werken en personalisatievelden toe te voegen</li>
 </ul>
 <p>
@@ -135,6 +134,7 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 **de redacteur van Personalization** (beschikbaarheidsdatum: Maart 12)
 
 De Journey Optimizer personalization editor is bijgewerkt met nieuwe mogelijkheden:
+
 * **Bijgewerkt Ontwerp van de Redacteur van de Code** - een helderdere, moderne interface voor betere bruikbaarheid en nadruk.
 * **Onderzoek en vervang** - Toegevoegde functionaliteit om inhoud binnen de redacteur snel te vinden en te vervangen.
 * **maak en herhaal Steun** ongedaan - staat u toe om veranderingen gemakkelijk terug te keren of opnieuw toe te passen.
@@ -174,7 +174,7 @@ U kunt nu dagelijkse aftopping gebruiken in reizen en campagnes met batchsegment
 
 **Inhoudsbeheer**
 
-Om uw fragmenten en uw inhoudsmalplaatjes gemakkelijk te beheren, kunt u omslagen nu gebruiken om hen effectiever te organiseren in een gestructureerde hiërarchie.
+Om uw fragmenten en uw inhoudsmalplaatjes gemakkelijk te beheren, kunt u omslagen nu gebruiken om hen effectiever te organiseren in een gestructureerde hiërarchie. Deze verbetering is slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 
 ## Opmerkingen bij de release van februari &#39;25 {#25-02-rn}
