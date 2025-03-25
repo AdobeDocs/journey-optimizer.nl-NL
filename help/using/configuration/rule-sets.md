@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: bericht, frequentie, regels, druk
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 74bb16aa01c442ad9d427cdd2c79c9e8b7b8a394
+source-git-commit: 4c1c0b17b6dc1d5b2e35cb9f250c82f0d5d31faa
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '1980'
 ht-degree: 0%
 
 ---
@@ -142,7 +142,7 @@ De parameters beschikbaar voor de regel hangen van het regelvastgestelde domein 
 
    >[!AVAILABILITY]
    >
-   >De &quot;Daily&quot;duur is beschikbaar slechts op bestelling. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+   >De &quot;Daily&quot;duur is slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
    De teller loopt voor elke periode als volgt af:
 
