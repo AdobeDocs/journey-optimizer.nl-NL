@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: opt-out, e-mail, link, abonnement opzeggen
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '946'
 ht-degree: 0%
 
 ---
@@ -41,51 +41,7 @@ Wanneer een ontvanger op de one-click opt-out verbinding klikt, wordt het afmeld
 
 ### Eén klik op URL voor annuleren in de e-mailheader {#unsubscribe-header}
 
-<!--Do not modify - Legal Review Done -->
-
->[!CONTEXTUALHELP]
->id="ajo_admin_preset_unsubscribe"
->title="Voeg een afmeldings-URL toe aan uw e-mails"
->abstract="Schakel List-Unsubscribe in om automatisch een niet-geabonneerde URL aan de e-mailkoptekst toe te voegen. U kunt een URL voor afmelden ook instellen in een bericht door een koppeling voor het uitschakelen van het abonnement in te voegen in de e-mailinhoud met één klik."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Eén klik op Weigeren in de e-mailinhoud"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="List-Unsubscript inschakelen in de e-mailconfiguratie"
-
-De één-klik lijst unsubscribe URL is een unsubscribe verbinding of knoop die naast de informatie van de e-mailafzender wordt getoond en laat ontvangers onmiddellijk uit uw het posten lijsten met één enkele klik kiezen.
-
-In [!DNL Adobe Journey Optimizer], wanneer **toelaten lijst-Unsubscribe** optie wordt van een knevel voorzien, omvat de e-mailkopbal zowel een post als/of URL door gebrek dat de ontvangers kunnen gebruiken om van uw het posten lijst af te melden.
-
-[ laat lijst-Unsubscribe ](email-settings.md#list-unsubscribe) knevel toe moet op het niveau van de kanaalconfiguratie worden geactiveerd zodat e-mails die deze configuratie gebruiken unsubscribe URL in de e-mailkopbal met één klik omvatten.
-
->[!NOTE]
->
->Als u één klik wilt weergeven, klikt u op de URL voor afmelden in de e-mailheader, moet de e-mailclient van de ontvangers deze functie ondersteunen.
-
-
-Met de URL voor annuleren met één klik wordt bijvoorbeeld een koppeling voor annulering weergegeven, zoals hieronder in Gmail:
-
-![](assets/unsubscribe-header.png)
-
-
-<!--With Adobe Journey Optimizer, you can configure your email configuration settings with an auto-generated one-click unsubscribe URL and mailto address in the email header, or include a one-click opt-out URL in your email body: when a recipient clicks the one-click opt-out link, recipient's unsubscribe request is processed accordingly.-->
-
-<!--
->[!AVAILABILITY]
->
->One-click Unsubscribe URL Header will be available in Adobe Journey Optimizer starting June 3, 2024.
->
--->
-
-Afhankelijk van de e-mailcliënt, en de [ montages van de e-mailconfiguratie unsubscription ](email-settings.md#list-unsubscribe), kan het klikken van de unsubscribe verbinding in de e-mailkopbal de volgende gevolgen hebben:
-
-* Wanneer de **Brievenbus (unsubscribe)** eigenschap wordt toegelaten, wordt het unsubscribe verzoek verzonden naar het gebrek unsubscribe adres dat op subdomain wordt gebaseerd u vormde.
-* Wanneer **één-klik unsubscribe URL** eigenschap wordt toegelaten - of als u een unsubscription URL in uw e-maillichaamsinhoud opnam -, wordt de ontvanger direct opted-out, of op het kanaalniveau of op het niveau van identiteitskaart (afhankelijk van hoe de toestemming opstelling is), wanneer de ontvanger op één-klik unsubscribe URL (gebaseerd op subdomain u) klikt.
-
-![](../email/assets/surface-list-unsubscribe-mailto.png){width="80%"}
-
-In beide gevallen wordt het corresponderende profiel voor de ontvanger onmiddellijk uitgeschakeld en wordt deze keuze in Experience Platform bijgewerkt. Leer meer in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started) {target="_blank"}.
-
-Als u op de **[!UICONTROL Enable List-Unsubscribe]** optie in de [ e-mailconfiguratiemontages ](email-settings.md#list-unsubscribe) van een knevel hebt voorzien, adviseren wij dat u beide methodes toelaat - **Brievenbus (unsubscribe)** en **Één-Klik Unsubscribe URL**. Niet alle e-mailclients ondersteunen de HTTP-methode. Met de lijst-unsubscribe eigenschap Mailto die voor u wordt verstrekt om een alternatief te selecteren, kan uw afzenderreputatie beter worden beschermd en al uw ontvangers kunnen toegang hebben om de unsubscribe functionaliteit te gebruiken. [Meer informatie](email-settings.md#list-unsubscribe)
-
+De één-klik lijst unsubscribe URL is een unsubscribe verbinding of knoop die naast de informatie van de e-mailafzender wordt getoond en laat ontvangers onmiddellijk uit uw het posten lijsten met één enkele klik kiezen. Leer hoe te om de **[!UICONTROL List unsubscribe]** optie in [ deze sectie ](list-unsubscribe.md) te beheren.
 
 ### Eén klik op Weigeren in de e-mailinhoud {#one-click-opt-out}
 
@@ -100,7 +56,7 @@ Als u een gepersonaliseerde URL voor annuleren wilt instellen, voegt u een koppe
 
    >[!NOTE]
    >
-   >Als u de **[!UICONTROL List-Unsubscribe]** optie op het [ niveau van de kanaalconfiguratie ](email-settings.md#list-unsubscribe) toeliet en de standaard **[!UICONTROL One-click unsubscribe URL]** optie ongecontroleerd hebt, wordt deze het landen pagina URL ook gebruikt wanneer de gebruikers unsubscribe verbinding in de e-mailkopbal klikken. [Meer informatie](#unsubscribe-header)
+   >Als u de **[!UICONTROL List-Unsubscribe]** optie op het [ niveau van de kanaalconfiguratie ](email-settings.md#list-unsubscribe) toeliet en de standaard **[!UICONTROL One-click unsubscribe URL]** optie ongecontroleerd hebt, wordt deze het landen pagina URL ook gebruikt wanneer de gebruikers unsubscribe verbinding in de e-mailkopbal klikken. [Meer informatie](list-unsubscribe.md)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1040'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ In de volgende secties vindt u informatie over het beheren van opt-out in Journe
 
 >[!NOTE]
 >
->In [!DNL Journey Optimizer], wordt de toestemming behandeld door het schema van de 1} Toestemming van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html) {target="_blank"}. [ Standaard is de waarde voor het veld voor toestemming leeg en wordt deze behandeld als toestemming voor het ontvangen van uw communicatie. U kunt deze standaardwaarde wijzigen terwijl het aan een van de mogelijke vermelde waarden [ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values) {target="_blank"}.
+>In [!DNL Journey Optimizer], wordt de toestemming behandeld door het schema van de 1} Toestemming van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html) {target="_blank"}. [ Standaard is de waarde voor het veld voor toestemming leeg en wordt deze behandeld als toestemming voor het ontvangen van uw communicatie. U kunt deze standaardwaarde wijzigen terwijl het aan een van de mogelijke hier vermelde waarden [ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values) {target="_blank"}, of gebruik [ toestemmingsbeleid ](../action/consent.md) om de standaardlogica met voeten te treden.
 
 ## Persoonlijkheidsgoedkeuring implementeren {#opt-out-personalization}
 
