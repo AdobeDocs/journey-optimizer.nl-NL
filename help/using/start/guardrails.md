@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 7475debd0e6b751725e5b5d7c2efa4b8b9e01a15
+source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
 workflow-type: tm+mt
-source-wordcount: '2330'
+source-wordcount: '2457'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,6 @@ Hieronder vindt u aanvullende instructies en beperkingen wanneer u [!DNL Adobe J
 De rechten, de productbeperkingen en de prestatiesbegeleiding worden vermeld in [ Adobe Journey Optimizer pagina van de productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html) {target="_blank"}.
 
 U moet zich ook bewust zijn van [ Gidsen voor de gegevens van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html) {target="_blank"} alvorens te beginnen.
-
-
->[!NOTE]
->
->In zeldzame gevallen kunnen tijdelijke onderbrekingen in een bepaalde regio ertoe leiden dat geldige profielen van reizen worden uitgesloten, of dat poststukken ten onrechte als tussenruimten worden gemarkeerd. Zodra de diensten worden hersteld, hercontroleer reislogboeken, verifieer de gebieden van het toestemmingsprofiel, en herpubliceer de reis indien nodig. In het geval van een ISP stroomonderbreking, leer hoe te om profielen uit de suppressielijst in [ te verwijderen deze sectie ](../configuration/manage-suppression-list.md#remove-from-suppression-list).
->
 
 ## Ondersteunde browsers {#browsers}
 
@@ -44,12 +38,21 @@ Deze verandering zal uit aan **bestaande klantenzandbakken** in een verdere fase
 
 ## Kanaalhulplijnen {#channel-guardrails}
 
+>[!NOTE]
+>
+>In zeldzame gevallen kunnen tijdelijke onderbrekingen in een bepaalde regio ertoe leiden dat geldige profielen van reizen worden uitgesloten, of dat poststukken ten onrechte als tussenruimten worden gemarkeerd. Zodra de diensten worden hersteld, hercontroleer reislogboeken, verifieer de gebieden van het toestemmingsprofiel, en herpubliceer de reis indien nodig. In het geval van een ISP stroomonderbreking, leer hoe te om profielen uit de suppressielijst in [ te verwijderen deze sectie ](../configuration/manage-suppression-list.md#remove-from-suppression-list).
+>
+
 ### E-mailhandleidingen {#message-guardrails}
+
+De volgende gidsen zijn op het [ e-mailkanaal ](../email/get-started-email.md) van toepassing:
 
 * U kunt geen bijlagen aan een e-mailbericht toevoegen met [!DNL Journey Optimizer] .
 * U kunt niet hetzelfde verzendende domein gebruiken om berichten van [!DNL Adobe Journey Optimizer] en van een ander product, zoals [!DNL Adobe Campaign] of [!DNL Adobe Marketo Engage] , te verzenden.
 
 ### SMS-handleidingen {#sms-guardrails}
+
+De volgende guardrails zijn op het [ kanaal van SMS ](../sms/get-started-sms.md) van toepassing:
 
 * Mediabestanden voor MMS kunnen via een ondersteunde URL worden opgenomen. Controleer of het mediabestand afzonderlijk is geüpload.
 * Berichtfeedback synchroniseren is momenteel niet beschikbaar voor MMS.
@@ -57,7 +60,7 @@ Deze verandering zal uit aan **bestaande klantenzandbakken** in een verdere fase
 
 ### Webkanaalhulplijnen {#web-guardrails}
 
-[!DNL Journey Optimizer] webcampagnes zijn gericht op nieuwe profielen die nog niet eerder zijn ingeschakeld op andere kanalen. Hierdoor wordt het totale aantal aanspreekbare profielen verhoogd. Dit kan kosten met zich meebrengen als het contractuele aantal aanschafbare profielen dat u hebt aangeschaft, wordt overschreden.
+[!DNL Journey Optimizer] [ Webcampagnes ](../web/get-started-web.md) richten nieuwe profielen die niet eerder op andere kanalen zijn betrokken. Hierdoor wordt het totale aantal aanspreekbare profielen verhoogd. Dit kan kosten met zich meebrengen als het contractuele aantal aanschafbare profielen dat u hebt aangeschaft, wordt overschreden.
 
 De metriek van de vergunning voor elk pakket is vermeld op de [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html) {target="_blank"} pagina.
 
@@ -66,6 +69,8 @@ De metriek van de vergunning voor elk pakket is vermeld op de [ de Beschrijving 
 Om code-gebaseerde ervaringsacties in [!DNL Journey Optimizer] te gebruiken en de lading van de codeinhoud te leveren die door uw toepassingen kan worden gebruikt, volg de eerste vereisten die in [ worden gedetailleerd deze pagina ](../code-based/code-based-prerequisites.md).
 
 ## Handleidingen voor landingspagina&#39;s {#lp-guardrails}
+
+De volgende gidsen zijn op de [ landende pagina&#39;s ](../landing-pages/get-started-lp.md) van toepassing:
 
 * Slechts één **component van de Vorm** kan in één enkele primaire pagina worden gebruikt.
 * De **component van de Vorm** kan niet in subpages worden gebruikt.
@@ -78,7 +83,11 @@ In [!DNL Journey Optimizer] kunt u standaard maximaal 10 subdomeinen delegeren (
 
 Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen delegeren. Neem contact op met uw Adobe-contactpersoon voor meer informatie over het aantal subdomeinen waarop u recht hebt.
 
+Leer meer over domeindelegatie in [ deze pagina ](../configuration/delegate-subdomain.md).
+
 ## Fragmenten, ardraals {#fragments-guardrails}
+
+De volgende gidsen zijn op de [ fragmenten ](../content-management/fragments.md) van toepassing:
 
 * Visuele fragmenten zijn alleen beschikbaar voor het e-mailkanaal.
 * Expressiefragmenten zijn niet beschikbaar voor het kanaal in de app.
@@ -86,6 +95,8 @@ Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen deleg
 ## Audiëntenguardrails {#audience}
 
 U kunt maximaal 10 publiekscomposities in een bepaalde sandbox publiceren. Als u deze drempel hebt bereikt, moet u een samenstelling schrappen om ruimte vrij te maken en nieuwe te publiceren.
+
+Leer meer over publiekssamenstellingen in [ deze pagina ](../audience/get-started-audience-orchestration.md).
 
 ## Garanties voor besluitvorming en besluitvorming {#decisioning-guardrails}
 
@@ -108,12 +119,16 @@ In de afdelingen Beslissingen en Beslissingsbeheer worden de volgende informatie
 
 ### Algemene acties {#general-actions-g}
 
+De volgende gidsen zijn op de [ Acties ](../building-journeys/about-journey-activities.md) in uw reizen van toepassing:
+
 * In het geval van een fout worden drie pogingen systematisch opnieuw uitgevoerd. U kunt het aantal pogingen niet aanpassen volgens het ontvangen foutbericht. Retries wordt uitgevoerd voor alle HTTP-fouten, behalve voor HTTP 401, 403 en 404.
 * De ingebouwde **gebeurtenis van de Reactie** staat u toe om op uit-van-de-doos acties te reageren. Leer meer in [ deze pagina ](../building-journeys/reaction-events.md). Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen.
 * U kunt geen twee acties parallel plaatsen, u moet hen één na andere toevoegen.
 * Een profiel kan niet meerdere keren op dezelfde reis tegelijk aanwezig zijn. Als de terugkeer wordt toegelaten, kan een profiel een reis opnieuw ingaan, maar kan het niet doen tot hij dat vorige geval van de reis volledig verliet. [Meer informatie](../building-journeys/end-journey.md)
 
 ### Journeyversies {#journey-versions-g}
+
+De volgende gidsen zijn op de [ versies van de Reis ](../start/user-interface.md) van toepassing:
 
 * Een reis die begint met een gebeurtenisactiviteit in v1 kan niet met iets anders beginnen dan een gebeurtenis in verdere versies. U kunt geen reis met de gebeurtenis van de Kwalificatie van het a **publiek beginnen**.
 * Een reis die met a **activiteit begint van de Kwalificatie van het Publiek** in v1 moet altijd met de Kwalificatie van het Publiek **in verdere versies beginnen.**
@@ -123,6 +138,8 @@ In de afdelingen Beslissingen en Beslissingsbeheer worden de volgende informatie
 * U kunt geen nieuwe versie maken van een leestoegang met incrementeel lezen. U moet de reis dupliceren.
 
 ### Aangepaste acties {#custom-actions-g}
+
+De volgende gidsen zijn op de [ Acties van de Douane ](../action/action.md) in uw reizen van toepassing:
 
 * Voor alle aangepaste handelingen, per host en per sandbox wordt een limiet van 300.000 aanroepen per minuut gedefinieerd. Verwijs naar [ deze pagina ](../action/about-custom-action-configuration.md). Deze grens is geplaatst gebaseerd op klantengebruik, om externe eindpunten te beschermen die door douaneacties worden gericht. U moet hiermee rekening houden bij reizen voor uw publiek door een juiste leessnelheid te definiëren (5000 profielen/s wanneer aangepaste handelingen worden gebruikt). Indien nodig, kunt u deze het plaatsen met voeten treden door een grotere het maximum van het maximum of het vertragen grens door onze Capping/het Draaien APIs te bepalen. Zie [deze pagina](../configuration/external-systems.md).
 * De URL van de aangepaste handeling ondersteunt geen dynamische parameters.
@@ -139,6 +156,8 @@ In de afdelingen Beslissingen en Beslissingsbeheer worden de volgende informatie
 
 ### Gebeurtenissen {#events-g}
 
+De volgende gidsen zijn op de [ Gebeurtenissen ](../event/about-events.md) in uw reizen van toepassing:
+
 * Journey Optimizer ondersteunt een piekvolume van 5.000 inkomende reisevenementen per seconde.
 * Het kan tot 5 minuten duren voordat de eerste actie tijdens de reis wordt uitgevoerd.
 * Voor door het systeem gegenereerde gebeurtenissen moeten streaminggegevens die worden gebruikt om een klantentraject te starten, eerst binnen Journey Optimizer worden geconfigureerd om een unieke orchestratie-id te verkrijgen. Deze orkest-id moet worden toegevoegd aan de streaminglading die naar Adobe Experience Platform komt. Deze beperking geldt niet voor op regels gebaseerde gebeurtenissen.
@@ -147,6 +166,8 @@ In de afdelingen Beslissingen en Beslissingsbeheer worden de volgende informatie
 * Journey Optimizer vereist dat gebeurtenissen worden gestreamd naar Data Collection Core Service (DCCS) om een reis te kunnen activeren. Gebeurtenissen die worden ingevoerd in batch of gebeurtenissen uit interne Journey Optimizer-gegevenssets (Berichtfeedback, E-mailtracking, enz.) kunnen niet worden gebruikt om een reis te activeren. Voor gebruiksgevallen waar u gestreamde gebeurtenissen niet kunt krijgen, moet u een publiek bouwen dat op die gebeurtenissen wordt gebaseerd en in plaats daarvan de **Gelezen activiteit van het Publiek** gebruiken. De kwalificatie van het publiek kan technisch worden gebruikt, maar wordt niet geadviseerd omdat het stroomafwaartse uitdagingen kan veroorzaken die op de gebruikte acties worden gebaseerd.
 
 ### Gegevensbronnen {#data-sources-g}
+
+De volgende gidsen zijn op de [ Bronnen van Gegevens ](../datasource/about-data-sources.md) in uw reizen van toepassing:
 
 * De externe gegevensbronnen kunnen binnen een klantenreis worden gebruikt om externe gegevens in echt op te zoeken - tijd. Deze bronnen moeten bruikbaar zijn via REST API, JSON ondersteunen en het volume van aanvragen kunnen verwerken.
 * Interne Adobe-adressen (`.adobe.*`) zijn niet toegestaan in URL&#39;s en API&#39;s.
@@ -173,7 +194,7 @@ Specifieke instructies zijn van toepassing op de **[!UICONTROL Update profile]**
 
 ### Doelgroep lezen {#read-segment-g}
 
-De volgende instructies zijn van toepassing op de **[!UICONTROL Read Audience]** -activiteit:
+De volgende gidsen zijn op [ Gelezen de reisactiviteit van het publiek ](../building-journeys/read-audience.md) van toepassing:
 
 * Gestroomlijnde doelgroepen zijn altijd up-to-date, maar batchdoelgroepen worden niet berekend tijdens het ophalen. Ze worden alleen elke dag geëvalueerd op het tijdstip van de dagelijkse batchevaluatie.
 * Voor reizen die a **gebruiken Gelezen de activiteit van het publiek**, is er een maximumaantal reizen dat precies tezelfdertijd kan beginnen. De pogingen zullen door het systeem worden uitgevoerd maar gelieve te vermijden hebbend meer dan vijf reizen (met **Gelezen Publiek**, gepland of die &quot;zo spoedig mogelijk&quot;beginnen) op het nauwkeurige zelfde ogenblik door hen over tijd, bijvoorbeeld 5 tot 10 minuten uit elkaar te spreiden.
@@ -183,17 +204,21 @@ De volgende instructies zijn van toepassing op de **[!UICONTROL Read Audience]**
 * Zie ook aanbevelingen over hoe te om **te gebruiken las de activiteit van het publiek** in [ deze pagina ](../building-journeys/read-audience.md).
 * De pogingen worden toegepast door gebrek op publiek-getriggerde reizen (die met a **Gelezen Publiek** of a **BedrijfsGebeurtenis** beginnen) terwijl het terugwinnen van de uitvoerbaan. Als er een fout optreedt tijdens het maken van de exporttaak, worden de pogingen om de 10mn opnieuw uitgevoerd, tot maximaal 1 uur. Daarna zullen we het als een mislukking beschouwen. Deze soorten reizen kunnen daarom tot 1 uur na de geplande tijd worden uitgevoerd.
 
-### kwalificatie publiek {#audience-qualif-g}
+### Poortkwalificatie {#audience-qualif-g}
 
-De volgende hulplijn is van toepassing op de **[!UICONTROL Audience Qualification]** -activiteit:
+De volgende richtlijn is op de ](../building-journeys/audience-qualification-events.md) de reisactiviteit van de Kwalificatie van het publiek 0} van toepassing:[
 
 * De kwalificatie-activiteit Publiek kan niet worden gebruikt met Adobe Campaign-activiteiten.
 
 ### Expression-editor {#expression-editor}
 
+De volgende richtlijn is op de [ redacteur van de reisuitdrukking ](../building-journeys/expression/expressionadvanced.md) van toepassing:
+
 * U kunt gebeurtenisveldgroepen niet gebruiken voor reizen die beginnen met een leespubliek, een kwalificatie Audience of een activiteit voor een zakelijke gebeurtenis. U moet een nieuw publiek creëren en een onpublieksvoorwaarde in de reis gebruiken.
 
 ### Activiteiten in de app {#in-app-activity-limitations}
+
+De volgende instructies zijn van toepassing op de handeling **[!UICONTROL In-app message]** . Leer meer over in-app berichten in [ deze pagina ](../in-app/create-in-app.md).
 
 * Deze functie is momenteel niet beschikbaar voor klanten in de gezondheidszorg.
 

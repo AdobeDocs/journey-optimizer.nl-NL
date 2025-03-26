@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
+source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1114'
 ht-degree: 3%
 
 ---
@@ -126,6 +126,9 @@ Reisversies kunnen afzonderlijk worden gestopt. Alle versies van reizen hebben d
 Wanneer u een nieuwe versie van een reis publiceert, beëindigt de vorige versie automatisch en schakelt aan de **Gesloten** status. Er kan geen toegang tot de reis plaatsvinden. Zelfs als u de laatste versie stopt, blijft de vorige versie gesloten.
 
 
+>[!NOTE]
+>
+>Specifieke garanties en beperkingen zijn van toepassing op de versiering van de reizen. Meer informatie vindt u [op deze pagina](../start/guardrails.md#journey-versions-journey-versions-g).
 
 ## Een reis dupliceren {#duplicate-a-journey}
 
