@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1776d9fa7352fc41d52f685c0a402e60bced348d
+source-git-commit: e10ffbbe553495b1f9d7a2aeafc3d10e54561389
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 4%
+source-wordcount: '1389'
+ht-degree: 5%
 
 ---
 
@@ -146,15 +146,6 @@ De Journey Optimizer personalization editor is bijgewerkt met nieuwe mogelijkhed
 ![ Video die nieuwe eigenschap in de Redacteur van Personalization toont ](assets/do-not-localize/personalization-editor.gif)
 
 Raadpleeg de [gedetailleerde documentatie](../personalization/personalization-build-expressions.md) voor meer informatie.
-
-**Campagnes**
-
-* Als u in de lijst met campagnes een campagne selecteert, wordt nu een venster geopend waarin de details worden weergegeven.
-* U kunt uw campagnes nu kopiëren van een zandbak naar een andere.
-
-**Personalization**
-
-Een nieuwe knoop &quot;van Vullingen&quot;is aan de verpersoonlijkingsredacteur geweest. Wanneer deze optie is ingeschakeld, worden profielen en contextafhankelijke kenmerken weergegeven als vullingen, waardoor de leesbaarheid van de code wordt verbeterd.
 
 **Goedkeuringen**
 
