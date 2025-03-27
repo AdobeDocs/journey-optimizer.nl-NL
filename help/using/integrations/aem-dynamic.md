@@ -6,13 +6,11 @@ description: Dynamische media gebruiken met Journey Optimizer
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
-badge: label="Beta" type="Informative"
+badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 62d8da17a806713b1e77d8e7e494106dbb825c8b
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '739'
 ht-degree: 1%
 
 ---
@@ -21,9 +19,11 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->Deze integratie is uitsluitend beschikbaar voor klanten die Dynamic Media Manager as a Cloud Service gebruiken.
+>Deze integratie is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 De Asset-kiezer ondersteunt nu Dynamische media waarmee u goedgekeurde dynamische media-uitvoeringen naadloos kunt selecteren en gebruiken in Journey Optimizer. Wijzigingen die u aanbrengt in elementen in Adobe Experience Manager, worden direct weerspiegeld in uw Journey Optimizer-inhoud. Zo weet u zeker dat de meest actuele versies altijd worden gebruikt zonder dat u handmatige updates hoeft uit te voeren.
+
+Deze integratie is alleen beschikbaar voor klanten die Dynamic Media Manager as a Cloud Service gebruiken.
 
 Meer op Dynamische Media in Adobe Experience Manager as a Cloud Service leren, verwijs naar [ documentatie van Experience Manager ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media) {target="_blank"}.
 

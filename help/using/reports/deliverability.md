@@ -8,9 +8,9 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 0eeb9f6aa6276b99a4d38efc2d371ebdb58c141d
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Leverbaarheid is een maatstaf voor het succes van uw leveringen die uw ontvanger
 
 >[!NOTE]
 >
->Voor klanten die een vergunning geven voor het Gezondheidsschild, gebruikt de Adobe de Veiligheid van de Laag van het Vervoer (TLS) 1.2 om de gegevensuitwisseling tussen gebruikerssystemen (ontvangers) en Journey Optimizer (afzender) te beveiligen. Als de ontvangende mailserver geen ondersteuning biedt voor TLS 1.2, kunnen klanten problemen ondervinden met de te leveren items, zoals het terugsturen van e-mailberichten naar de oorspronkelijke afzender.
+>Voor klanten die een vergunning geven voor het Gezondheidsschild, gebruikt Adobe Transport Layer Security (TLS) 1.2 om de gegevensuitwisseling tussen gebruikerssystemen (ontvangers) en Journey Optimizer (afzender) te beveiligen. Als de ontvangende mailserver geen ondersteuning biedt voor TLS 1.2, kunnen klanten problemen ondervinden met de te leveren items, zoals het terugsturen van e-mailberichten naar de oorspronkelijke afzender.
 
 **E-mailleverbaarheid** verwijst naar de reeks kenmerken die de capaciteit van een bericht bepalen om zijn bestemming, via een persoonlijk e-mailadres, binnen een korte tijd, en met de verwachte kwaliteit in termen van inhoud en formaat te bereiken. Deze kenmerken vallen in vier hoofdcategorieën: gegevenskwaliteit, bericht en inhoud, verzendende infrastructuur, en reputatie. Samen vormen ze de basis voor een succesvol e-mailprogramma.
 
@@ -35,7 +35,7 @@ Het **leverbaarheidstarief** is het aantal berichten die de inboxes van ontvange
 
 Om de leverbaarheid van uw [!DNL Journey Optimizer] -ervaringen te optimaliseren, raden we u aan de best practices in deze sectie te gebruiken. De problemen van de levering zijn over het algemeen verbonden met bescherming tegen spam die door de dienstverleners van Internet (ISPs) en de beheerders van de postserver wordt uitgevoerd.
 
-Voor een diepere duik op wat de leverbaarheid is en meer op zeer belangrijke leveringsvoorwaarden, concepten, en benaderingen te leren, verwijs naar de ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl) {target="_blank"} Gids van de Beste praktijken van de Aanbieding van de Adobe 0}.[
+Voor een diepere duik op wat de leverbaarheid is en meer op zeer belangrijke leveringsvoorwaarden, concepten, en benaderingen te leren, verwijs naar de [ Gids van de Beste praktijken van de Levering van Adobe ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl) {target="_blank"}.
 
 ## Het klachtenpercentage verlagen {#reduce-complaint-rate}
 
@@ -90,7 +90,7 @@ Adobe Journey Optimizer biedt een gestandaardiseerde en efficiënte manier om uw
 
 ## DMARC implementeren {#dmarc}
 
-Met [!DNL Journey Optimizer] kunt u DMARC-records instellen voor alle subdomeinen die u aan Adobe delegeert, zodat u het risico kunt beperken dat legitieme e-mailberichten worden gemarkeerd als spam of afgewezen en dat u problemen met de leveringsvoorwaarden kunt voorkomen.
+Met [!DNL Journey Optimizer] kunt u DMARC-records instellen voor alle subdomeinen die u aan Adobe delegeert, zodat u het risico kunt beperken dat legitieme e-mailberichten worden gemarkeerd als spam of afgewezen en dat leveringsproblemen worden voorkomen.
 
 De op domein-gebaseerde Authentificatie van het Bericht, het Melden, en de Conformiteit (DMARC) is een methode van de e-mailauthentificatie die domeineigenaars toestaat om hun domein tegen onbevoegd gebruik door kwaadwillige actoren te beschermen.
 
@@ -112,7 +112,7 @@ Nadat een eindgebruiker een klacht produceert die terug naar Adobe door ISP word
 >
 >Niet alle ISPs verstrekt traditionele FBL, zoals Gmail. Gmail biedt geen feedback op individueel niveau en kan niet worden gebruikt om spamklachten bij individuele ontvangers bij te houden, in plaats daarvan de nadruk te leggen op rapportage op geaggregeerd niveau binnen hun Google Postmaster Tools. [ leer meer ](https://support.google.com/a/answer/6254652?hl=en) {target="_blank"}
 
-Alle klanten van de Adobe worden automatisch ingeschreven in traditionele FBLs van volgende ISPs:
+Alle klanten van Adobe worden automatisch ingeschreven in traditionele FBLs van volgende ISPs:
 
 * 1&amp;1
 
@@ -170,4 +170,14 @@ Alle klanten van de Adobe worden automatisch ingeschreven in traditionele FBLs v
 
 * Ziggo
 
-De Adobe controleert deze FOL&#39;s regelmatig om ervoor te zorgen dat de recentste beschikbare FOL&#39;s worden toegevoegd.
+Adobe controleert deze FOL&#39;s regelmatig om ervoor te zorgen dat de recentste beschikbare FOL&#39;s worden toegevoegd.
+
+## SMTP-relais gebruiken {#smtp-relay}
+
+[!DNL Journey Optimizer] gebruikt MTA&#39;s (Mail Transfer Agents) en IP&#39;s die eigendom zijn van Adobe om uw e-mails aan internetserviceproviders (ISP&#39;s) te verzenden. In sommige gevallen wilt u echter wellicht de uiteindelijke e-mailleveringen doorsturen via uw eigen MTA&#39;s en IP&#39;s, of wilt u definitieve validaties uitvoeren op de e-mails voordat u deze naar uw ontvangers verzendt.
+
+In dit geval, kunt u verkiezen om uw e-mails te hebben die aan servers SMTP door uw organisatie worden gehost in plaats van rechtstreeks van Journey Optimizer naar ISPs worden verzonden.
+
+>[!AVAILABILITY]
+>
+>De SMTP relaiscapaciteit is beschikbaar op bestelling - contacteer uw vertegenwoordiger van Adobe.

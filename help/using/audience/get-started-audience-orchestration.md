@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 1ff33c3da5236cb4a89a893f83476867a2ecddd3
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 0%
@@ -110,9 +110,9 @@ Zodra gedaan, wordt het **resulterende publiek** bewaard in Adobe Experience Pla
 
 >[!IMPORTANT]
 >
->Het gebruik van soorten publiek en kenmerken van de samenstelling van het publiek is momenteel niet beschikbaar voor gebruik met het gezondheidsschild of het privacyschild.
+>* Het gebruik van soorten publiek en kenmerken van de samenstelling van het publiek is momenteel niet beschikbaar voor gebruik met het gezondheidsschild of het privacyschild.
 >
->De attributen van de verrijking zijn nog niet geïntegreerd met de dienst van de beleidshandhaving. Daarom worden labels voor gegevensgebruik die u toepast op uw verrijkingskenmerken, niet afgedwongen in Journey Optimizer-campagnes of -reizen.
+>* De attributen van de verrijking zijn nog niet geïntegreerd met de dienst van de beleidshandhaving. Daarom worden labels voor gegevensgebruik die u toepast op uw verrijkingskenmerken, niet afgedwongen in Journey Optimizer-campagnes of -reizen.
 
 De compositie van het publiek is toegankelijk via het menu Adobe Journey Optimizer **[!UICONTROL Audiences]** :
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: cbd121dda4093fdea6f6bded02e8ae3e188e827d
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '567'
 ht-degree: 6%
 
 ---
@@ -69,6 +69,7 @@ In het veld **[!UICONTROL Tags]** kunt u codes voor het object definiëren. Tags
 * [Landingspagina&#39;s](../landing-pages/create-lp.md)
 * [Abonnementenlijsten](../landing-pages/subscription-list.md)
 * [Sjablonen](../content-management/content-templates.md)
+* [Kanaalconfiguraties](../configuration/channel-surfaces.md#channel-config-tags)
 
 U kunt een bestaande tag selecteren of een nieuwe tag maken. Volg de onderstaande stappen om dit te doen.
 

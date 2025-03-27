@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: verticale uitlijning, e-maileditor, opvulling
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 2%
+source-wordcount: '183'
+ht-degree: 1%
 
 ---
 
@@ -41,3 +41,7 @@ In dit voorbeeld passen we opvulling en verticale uitlijning aan binnen een stru
 1. Ga op dezelfde manier te werk om de uitlijning en opvulling van de andere kolommen aan te passen.
 
 1. Sla uw wijzigingen op.
+
+>[!TIP]
+>
+>Zorg ervoor dat bij het ontwerpen van e-mailinhoud voor Gmail op Android-apparaten de opvulling van kolommen wordt gebruikt in plaats van grote, vaste marges. Bij Gmail op Android worden te grote afbeeldingen en marges vaak onjuist weergegeven, waardoor de lay-out overloopt of de scheidingslijnen afnemen. Gebruik een kleinere afbeeldingsbreedte of gebruik op kolom gebaseerde opvulling voor een consistente weergave.

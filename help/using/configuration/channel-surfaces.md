@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: kanaal, oppervlak, technisch, parameters, optimalisator
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '1676'
+source-wordcount: '1735'
 ht-degree: 0%
 
 ---
@@ -271,6 +271,19 @@ U kunt een gedeactiveerde kanaalconfiguratie niet rechtstreeks bewerken. U kunt 
 
 ![](assets/preset-activate.png)
 
+## Tags toevoegen aan een kanaalconfiguratie {#channel-config-tags}
+
+1. Open de lijst met kanaalconfiguraties.
+
+1. Klik op de knop **[!UICONTROL More actions]** voor de actieve configuratie van uw keuze.
+
+1. Klik op **[!UICONTROL Edit Tags]**.
+
+1. Selecteer Adobe Experience Platform-tags in de lijst om uw kanaalconfiguratie te categoriseren voor een verbeterde zoekopdracht. [ Leer hoe te met Verenigde Markeringen ](../start/search-filter-categorize.md#tags) te werken
+
+   ![](assets/config-edit-tags.png)
+
+1. Zodra u markeringen aan uw kanaalconfiguraties toewees, kunt u [ filter ](../start/search-filter-categorize.md#filter-on-tags) hen op markeringen.
 
 ## Hoe kan ik-video{#video-presets}
 

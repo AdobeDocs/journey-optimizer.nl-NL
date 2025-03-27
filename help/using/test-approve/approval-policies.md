@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '478'
 ht-degree: 1%
 
 ---
@@ -109,6 +109,14 @@ Voer de volgende stappen uit om de voorwaarden te definiëren die aan een goedke
     </tr>
     <tr>
     <td>Inhoudskaart</td>
+    </tr>
+    <tr>
+    <td>Tags</td>
+    <td>Naam van de tag die wordt gebruikt om uw publiek in te delen. </td>
+    </tr>
+    <tr>
+    <td>Objectnaam</td>
+    <td>Naam van het object.</td>
     </tr>
     <tr>
     <td>Gebruikersnaam aanvrager</td>

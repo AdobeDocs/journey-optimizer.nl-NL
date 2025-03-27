@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 3e9392d65bc4a5cbbb95ed27350c6de56edcbf18
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '1315'
+source-wordcount: '1310'
 ht-degree: 5%
 
 ---
@@ -248,8 +248,3 @@ De taal wijzigen:
 >id="ajo_exd_placements"
 >title="Plaatsing"
 >abstract="Een plaatsing bepaalt waar de teruggekeerde punten van de besluitvormingsmotor in een bericht verschijnen. U kunt de prestaties van de verschillende locaties in de rapportage bijhouden."
-
->[!CONTEXTUALHELP]
->id="ajo_express_menu"
->title="Adobe Express-integratie"
->abstract="Adobe express"

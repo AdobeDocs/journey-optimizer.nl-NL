@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, configuratie, eigenschappen
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 43cf43c6ba92d64836222ce872054b5dec6d11fe
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '2243'
+source-wordcount: '2282'
 ht-degree: 0%
 
 ---
@@ -243,16 +243,19 @@ Vanaf de release van Adobe Journey Optimizer juni 2024 is de wereldwijde time-ou
 
 ## Beleid samenvoegen {#merge-policies}
 
-Reis gebruikt samenvoegbeleid terwijl het terugwinnen van profielgegevens van Adobe Experience Platform. Afhankelijk van het type van reis, worden de verschillende samenvoegingsbeleidsvormen gebruikt:
+Adobe Journey Optimizer gebruikt samenvoegbeleid terwijl het terugwinnen van profielgegevens van Adobe Experience Platform. Afhankelijk van het type van reis, worden de verschillende samenvoegingsbeleidsvormen gebruikt:
 
 * In kwalificatiereizen voor het publiek of het publiek lezen: het samenvoegbeleid van het publiek wordt gebruikt
 * Bij Eenheidstijdvluchten wordt het standaard samenvoegbeleid gebruikt
 * Bij zakenreizen: het samenvoegbeleid van het doelpubliek in de volgende Lees-publieksactiviteit wordt gebruikt
 
-De reis zal het fusieprincipe respecteren dat door de volledige reis wordt gebruikt. Als er daarom meerdere soorten publiek worden gebruikt op een reis (bijvoorbeeld in &quot;inAudience&quot;-functies), waardoor inconsistenties ontstaan met het fusiebeleid dat door de reis wordt gebruikt, wordt een fout opgeworpen en wordt de publicatie geblokkeerd. Nochtans, als een inconsistent publiek in berichtverpersoonlijking wordt gebruikt, wordt een alarm niet opgeheven, ondanks de inconsistentie. Om deze reden, wordt het hoogst geadviseerd om het samenvoegbeleid te controleren verbonden aan uw publiek, wanneer dit publiek in berichtverpersoonlijking wordt gebruikt.
+Adobe Journey Optimizer past het fusiebeleid toe dat gedurende de hele reis wordt gebruikt. Als er daarom meerdere soorten publiek worden gebruikt op een reis (bijvoorbeeld in &quot;inAudience&quot;-functies), waardoor inconsistenties ontstaan met het fusiebeleid dat door de reis wordt gebruikt, wordt een fout opgeworpen en wordt de publicatie geblokkeerd. Nochtans, als een inconsistent publiek in berichtverpersoonlijking wordt gebruikt, wordt een alarm niet opgeheven, ondanks de inconsistentie. Om deze reden, wordt het hoogst geadviseerd om het samenvoegbeleid te controleren verbonden aan uw publiek, wanneer dit publiek in berichtverpersoonlijking wordt gebruikt.
 
 Meer leren op fusiebeleid, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) {target="_blank"}.
 
+>[!NOTE]
+>
+>Wanneer een beleid van de publiekssamenvoeging wordt bijgewerkt, moet om het even welke actieve reis die naar dat publiek verwijzen opnieuw worden gepubliceerd (of worden gedupliceerd). Door het fusiebeleid te wijzigen ontstaat er een &#39;nieuw&#39; publiek dat niet toegankelijk is voor de lopende reis, waardoor de consistentie van de gegevens wordt gegarandeerd.
 
 ## Afsluitingscriteria {#exit-criteria}
 

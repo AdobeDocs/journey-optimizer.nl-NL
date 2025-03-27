@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 65aed24e1df7bf2cfa2d8afbddbadb14a353da38
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '912'
 ht-degree: 10%
 
 ---
@@ -29,7 +29,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 * De sectie over het invoegen van koppelingen en het inschakelen van tracering in een e-mailbericht is bijgewerkt en opnieuw ingedeeld. [Meer informatie](../email/message-tracking.md)
 * Het gedeelte over personalisatiemogelijkheden in Adobe Journey Optimizer is gereorganiseerd en verbeterd. [Meer informatie](../personalization/personalize.md)
 * De Beslissingsbeheer-API voor het weergeven van gepersonaliseerde aanbiedingen is bijgewerkt met een voorbeeld om paginering uit te voeren als er in de reactie meerdere gepersonaliseerde aanbiedingen ontbreken. [Meer informatie](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
-
+* Voor meer duidelijkheid is er een nieuwe pagina gemaakt met alle informatie over de functie Lijst voor afmelden. [Meer informatie](../email/list-unsubscribe.md)
 
 
 ## Februari 2025 {#feb-2025}

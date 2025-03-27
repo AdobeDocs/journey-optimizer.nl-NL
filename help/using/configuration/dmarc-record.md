@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdomein, domein, mail, dmarc, record
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1452'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Google en Yahoo zijn een onderdeel van hun best practices in de branche. allebei
 >
 >Gmail en Yahoo voldoen niet aan deze nieuwe eis! wordt verwacht dat e-mailberichten in de map spam zullen landen of geblokkeerd zullen raken.
 
-Daarom beveelt de Adobe u ten zeerste aan de volgende maatregelen te nemen:
+Adobe raadt u dan ook ten zeerste aan de volgende maatregelen te nemen:
 
 * Zorg ervoor om **het verslag van DMARC** opstelling voor **alle subdomeinen te hebben die u** aan Adobe in [!DNL Journey Optimizer] reeds hebt gedelegeerd. [ leer hoe ](#check-subdomains-for-dmarc)
 
@@ -94,23 +94,27 @@ Voer de onderstaande stappen uit om ervoor te zorgen dat u DMARC-recordinstellin
 
 1. Selecteer een subdomein waaraan geen DMARC-record is gekoppeld en vul de sectie **[!UICONTROL DMARC record]** in op basis van de behoeften van uw organisatie. De stappen om de het verslaggebieden van DMARC te bevolken zijn gedetailleerd in [ deze sectie ](#implement-dmarc).
 
-1. Houd rekening met de volgende twee opties:
+   <!--![](assets/dmarc-record-edit-full.png)-->
 
-   * Als u een subdomeinopstelling met [ CNAME ](delegate-subdomain.md#cname-subdomain-delegation) uitgeeft, moet u het DNS verslag voor DMARC in uw het ontvangen oplossing kopiëren om de passende DNS verslagen te produceren.
+   >[!NOTE]
+   >
+   >Afhankelijk van of een DMARC-record wordt gevonden met het bovenliggende domein of niet, kunt u kiezen of u de waarden van het bovenliggende domein wilt gebruiken of dat Adobe de DMARC-record wil beheren. [Meer informatie](#implement-dmarc)
+
+1. Als u een subdomein bewerkt:
+
+   * [ volledig afgevaardigd ](delegate-subdomain.md#full-subdomain-delegation) aan Adobe, wordt geen verdere actie vereist.
+
+   * Opstelling met [ CNAME ](delegate-subdomain.md#cname-subdomain-delegation), moet u het DNS verslag voor DMARC in uw het ontvangen oplossing kopiëren om de passende DNS verslagen te produceren.
 
      ![](assets/dmarc-record-edit-cname.png)
 
      Controleer of het DNS-record is gegenereerd in uw domeinhostingoplossing en schakel het selectievakje &quot;I confirm...&quot; in.
 
-   * Als u een subdomain [ uitgeeft volledig ](delegate-subdomain.md#full-subdomain-delegation) aan Adobe wordt afgevaardigd, vul eenvoudig de **[!UICONTROL DMARC record]** gebieden in die in [ worden gedetailleerd deze sectie ](#implement-dmarc). Er is geen verdere actie nodig.
-
-     ![](assets/dmarc-record-edit-full.png)
-
 1. Sla uw wijzigingen op.
 
 ### DMARC instellen voor nieuwe subdomeinen {#set-up-dmarc}
 
-Wanneer u nieuwe subdomeinen delegeert aan Adobe in [!DNL Journey Optimizer] , wordt een DMARC-record gemaakt in DNS voor uw domein. Volg de onderstaande stappen om DMARC te implementeren.
+Wanneer u in [!DNL Journey Optimizer] nieuwe subdomeinen delegeert aan Adobe, wordt een DMARC-record gemaakt in DNS voor uw domein. Volg de onderstaande stappen om DMARC te implementeren.
 
 >[!CAUTION]
 >
@@ -122,13 +126,33 @@ Wanneer u nieuwe subdomeinen delegeert aan Adobe in [!DNL Journey Optimizer] , w
 
 1. Ga naar de sectie **[!UICONTROL DMARC record]** .
 
-   Als het subdomein een bestaande DMARC-record heeft en deze wordt opgehaald door [!DNL Journey Optimizer] , kunt u dezelfde waarden gebruiken als gemarkeerd in de interface, of deze naar wens wijzigen.
+1. Als een DMARC-record beschikbaar is op het bovenliggende domein dat aan uw subdomein is gekoppeld, worden twee opties weergegeven:
 
    ![](assets/dmarc-record-found.png)
 
-   >[!NOTE]
-   >
-   >Als u geen waarden toevoegt, worden de vooraf ingevulde standaardwaarden gebruikt.
+   * **[!UICONTROL Manage with Adobe]**: U kunt Adobe de DMARC-record voor uw subdomein laten beheren. Volg de stappen die in [ worden gedetailleerd deze sectie ](#manage-dmarc-with-adobe).
+
+   * **[!UICONTROL Manage on your own]**: <!--This option is selected by default.--> deze optie laat u toe om het verslag van DMARC buiten [!DNL Journey Optimizer] te beheren, gebruikend de waarden van uw ouderdomein. Deze waarden worden weergegeven in de interface, maar u kunt ze niet bewerken.
+
+     ![](assets/dmarc-record-found-own.png){width="80%"}
+
+1. Als er geen DMARC-record wordt gevonden op het bovenliggende domein, is alleen de optie **[!UICONTROL Manage with Adobe]** beschikbaar. Volg de stappen [ hieronder ](#manage-dmarc-with-adobe) aan opstellingsDMARC verslag voor uw subdomain.
+
+   ![](assets/dmarc-record-not-found.png){width="80%"}
+
+### DMARC-record beheren met Adobe {#manage-dmarc-with-adobe}
+
+Als u wilt dat Adobe de DMARC-record voor u beheert, selecteert u de optie **[!UICONTROL Manage with Adobe]** en volgt u de onderstaande stappen.
+
+>[!NOTE]
+>
+>Indien opgehaald door [!DNL Journey Optimizer] , kunt u dezelfde waarden gebruiken als gemarkeerd in de interface of deze naar wens wijzigen.
+
+![](assets/dmarc-record-with-adobe-ex.png){width="80%"}
+
+>[!NOTE]
+>
+>Als u geen waarden toevoegt, worden de vooraf ingevulde standaardwaarden gebruikt.
 
 1. Definieer de actie die de ontvangende server uitvoert als DMARC mislukt. Afhankelijk van het [ beleid van DMARC ](#dmarc-policies) u wilt toepassen, selecteer één van de drie opties:
 
@@ -144,7 +168,7 @@ Wanneer u nieuwe subdomeinen delegeert aan Adobe in [!DNL Journey Optimizer] , w
 
    >[!NOTE]
    >
-   >Zorg ervoor u echte inbox (niet Adobe) in uw controle hebt waar u die rapporten kunt ontvangen.
+   >Zorg ervoor dat er een echt Postvak IN (niet Adobe) in de controle staat waar u deze rapporten kunt ontvangen.
 
    Er zijn twee verschillende rapporten die door ISPs worden geproduceerd die de afzenders door de markeringen RUA/RUF in hun beleid van DMARC kunnen ontvangen:
 
@@ -167,12 +191,11 @@ Wanneer u nieuwe subdomeinen delegeert aan Adobe in [!DNL Journey Optimizer] , w
 
 1. Selecteer a **rapporterend interval** tussen 24 en 168 uren. Hiermee kunnen eigenaars van domeinen regelmatig updates ontvangen over de resultaten van e-mailverificatie en de nodige maatregelen nemen om de e-mailbeveiliging te verbeteren.
 
-   <!--The DMARC reporting interval is specified in the DMARC policy published in the DNS (Domain Name System) records for a domain. The reporting interval can be set to daily, weekly, or another specified frequency, depending on the domain owner's preferences.
+<!--The DMARC reporting interval is specified in the DMARC policy published in the DNS (Domain Name System) records for a domain. The reporting interval can be set to daily, weekly, or another specified frequency, depending on the domain owner's preferences.
 
-    The default value (24 hours) is generally the email providers' expectation.-->
+The default value (24 hours) is generally the email providers' expectation.
 
-
-<!--
+**********
 
 Setting up a DMARC record involves adding a DNS TXT record to your domain's DNS settings. This record specifies your DMARC policy, such as whether to quarantine or reject messages that fail authentication. Implementing DMARC is a proactive step towards enhancing email security and protecting both your organization and your recipients from email-based threats.
 

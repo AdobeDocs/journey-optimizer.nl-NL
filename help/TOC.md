@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ac9c3687100da33149e6d237b35ffbf6d22afac3
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '2279'
+source-wordcount: '2314'
 ht-degree: 23%
 
 ---
@@ -45,6 +45,7 @@ ht-degree: 23%
    + Een reis maken {#create-journey}
       + [Uw eerste journey maken](using/building-journeys/journey-gs.md)
       + [De eigenschappen van uw reis instellen](using/building-journeys/journey-properties.md)
+      + [Vorm en spoor uw reis metrisch](using/building-journeys/success-metrics.md)
       + [Uw reis ontwerpen](using/building-journeys/using-the-journey-designer.md)
       + [Uw reis testen](using/building-journeys/testing-the-journey.md)
       + [Uw reis simuleren](using/building-journeys/journey-simulation.md)
@@ -324,6 +325,11 @@ ht-degree: 23%
          + [Ondersteuning voor inhoudskaarten configureren in Web SDK](using/content-card/content-card-configuration-sdk.md)
       + [Inhoudskaarten maken](using/content-card/create-content-card.md)
       + [Inhoudskaarten ontwerpen](using/content-card/design-content-card.md)
+   + WhatsApp {#whatsapp}
+      + [Aan de slag met WhatsApp-berichten](using/whatsapp/get-started-whatsapp.md)
+      + [WhatsApp-kanaal configureren in Journey Optimizer](using/whatsapp/whatsapp-configuration.md)
+      + [Een whatsApp-bericht maken](using/whatsapp/create-whatsapp.md)
+      + [Controleer en verzend uw WhatsApp-berichten](using/whatsapp/send-whatsapp.md)
 + Landingspagina’s {#landing-pages}
    + [Aan de slag met bestemmingspagina&#39;s](using/landing-pages/get-started-lp.md)
    + [Een landingspagina maken](using/landing-pages/create-lp.md)
@@ -419,9 +425,11 @@ ht-degree: 23%
    + [Integratie met andere oplossingen](using/integrations/ajo-integrations.md)
    + [Werken met Experience Manager Assets](using/integrations/assets.md)
    + [Werken met Adobe Stock](using/integrations/stock.md)
+   + [Werken met Adobe Express](using/integrations/express.md)
    + [Werken met Experience Manager-sjablonen](using/integrations/aem-templates.md)
    + [Werken met Experience Manager-inhoudsfragmenten](using/integrations/aem-fragments.md)
    + [Werken met dynamische media](using/integrations/aem-dynamic.md)
+   + [Werken met GenStudio](using/integrations/genstudio.md)
 + Bijhouden en bewaken {#reporting}
    + Live rapport {#live-report}
       + [Aan de slag met Live-rapport](using/reports/live-report.md)
