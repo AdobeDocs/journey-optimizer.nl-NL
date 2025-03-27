@@ -8,14 +8,34 @@ badge: label="Beta" type="Informative"
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
+source-git-commit: 201d7d367540f7b36f27ca4a09b6f0ce12e3e22f
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '349'
 ht-degree: 1%
 
 ---
 
 # Een aangepaste provider configureren {#sms-configuration-custom}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_provider_url"
+>title="URL provider"
+>abstract="Geef de URL op van de externe API waarmee u verbinding wilt maken. Deze URL fungeert als eindpunt voor toegang tot de functies en functies van de API."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_auth_type"
+>title="Type verificatie"
+>abstract="Geef de verificatiemethode op die nodig is voor toegang tot de API, zoals OAuth- of Beonder-tokens. Dit zorgt voor veilige en geoorloofde communicatie met de externe dienst."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_header_parameters"
+>title="Parameters koptekst"
+>abstract="Geef het label, het type en de waarde van extra headers op om de juiste verificatie, de opmaak van de inhoud en de effectieve API-communicatie mogelijk te maken. "
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_provider_payload"
+>title="Payload van provider"
+>abstract="Geef de lading van de aanvraag op om ervoor te zorgen dat de juiste gegevens worden verzonden voor het genereren van de verwerking en reactie."
 
 >[!AVAILABILITY]
 >
