@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: bericht, frequentie, regels, druk
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 0a6fa748aca04f544954089d2dfdd8e9a3afdd97
+source-git-commit: 173d73996a676be4ebcad471f396b5f5256b80a5
 workflow-type: tm+mt
-source-wordcount: '2010'
+source-wordcount: '1989'
 ht-degree: 0%
 
 ---
@@ -153,10 +153,8 @@ De parameters beschikbaar voor de regel hangen van het regelvastgestelde domein 
    * **[!UICONTROL Daily]**: Het dagelijkse frequentiekapitaal is geldig voor de dag tot 23 :59: 59 UTC en stelt aan 0 bij het begin van de volgende dag terug.
 
      >[!CAUTION]
-     >
-     >Om nauwkeurigheid voor dagelijkse frequentie die regels begrenzen te verzekeren, is het gebruik van [ het stromen segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html) {target="_blank"} verplicht. Leer meer op de methodes van de publieksevaluatie in [ deze sectie ](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
-     >
-     >U moet er ook voor zorgen dat u de naamruimte met de hoogste prioriteit kiest tijdens het ontwerpen van een campagne of een reis. Leer meer op namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority) {target="_blank"}
+     > 
+     >Om ervoor te zorgen dat de regels voor dagelijkse frequentiecapping correct zijn, moet u de naamruimte met de hoogste prioriteit kiezen tijdens het ontwerpen van een campagne of een reis. Leer meer op namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority) {target="_blank"}
 
    Houd er rekening mee dat de waarde van de profielteller wordt bijgewerkt wanneer de communicatie wordt geleverd. Begrijpt u dit wanneer u grote hoeveelheden communicatie verzendt aangezien de productie in de ontvanger zou kunnen resulteren die de e-mailnotulen of zelfs uren na de inleiding van de mededeling (in het geval dat u miljoenen mededelingen gelijktijdig verzendt) krijgen.
 
