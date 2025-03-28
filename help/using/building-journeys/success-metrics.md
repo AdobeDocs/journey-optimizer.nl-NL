@@ -8,9 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: publiceren, reizen, live, geldigheid, controle
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
+source-git-commit: 1e35c2ea2b0a6c8edd5b870311bb32b4b4b58e9a
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '474'
 ht-degree: 1%
 
 ---
@@ -22,7 +23,7 @@ Door deze metriek te volgen, kunt u zien hoe goed uw reis presteert, gebieden vo
 
 ## Vereisten {#prerequisites}
 
-Alvorens uw reis metrisch te gebruiken, moet u een dataset toevoegen die de `Commerce Details` [ gebiedsgroep ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group) {target="_blank"} omvat.
+Alvorens uw reis metrisch te gebruiken, moet u een dataset toevoegen die `Commerce Details`, `Web` en `Mobile` [ gebiedsgroepen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group) {target="_blank"} omvat.
 
 ## Beschikbare cijfers {#metrics}
 
