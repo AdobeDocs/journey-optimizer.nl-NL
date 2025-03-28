@@ -6,13 +6,13 @@ description: Leer hoe u contextgegevens doorgeeft in Edge-beslissingsverzoeken.
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
+source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 0%
 
 ---
-
 
 # Contextgegevens en Edge-beslissingsverzoeken {#edge}
 
@@ -21,7 +21,7 @@ In deze sectie worden contextgegevens doorgegeven in Edge-beslissingsverzoeken e
 Bij dit gebruik zijn verschillende belangrijke stappen betrokken:
 
 1. [ de eerste vereisten van de Opstelling ](#prerequisites): Zorg alle noodzakelijke stappen worden voltooid om contextgegevens in uw verzoeken over te gaan.
-1. [ de contextgegevens van het gebruik in toelatingsregels ](#rule): Creeer regels die welke aanbiedingen bepalen om te tonen gebaseerd op het het apparatentype van de gebruiker.
+1. [ de contextgegevens van het Gebruik in toelatingsregels ](#rules): Creeer regels die welke aanbiedingen bepalen om te tonen gebaseerd op het het apparatentype van de gebruiker.
 1. [ apparaat-specifieke aanbiedingen van het Ontwerp ](#offers): Creeer op maat gemaakte aanbiedingen voor elk apparatentype en verbind hen met de overeenkomstige regels.
 1. [ creeer een aanbiedingsinzameling ](#collection): Groepeer alle aanbiedingen samen in een statische inzameling.
 1. [ vorm een besluit ](#decision): Creeer een nieuw besluit dat hefboomwerkingen de Motor van het Besluit van de Aanbieding om de beste aanbieding te kiezen om aan gebruikers voor te stellen die op hun apparatentype worden gebaseerd.
@@ -149,33 +149,33 @@ Hier is een voorbeeld van een verzoek die contextgegevens overgaan.
 
 ```
 {
-	"events": [{
-		"xdm": {
-			"identityMap": {
-				"customerId": [{
-					"id": "0000158216",
-					"authenticatedState": "authenticated",
-					"primary": true
-				}]
-			},
-			"_experienceplatform": {
-				"identity": {
-					"core": {
-						"customerId": "0000158216"
-					}
-				},
+    "events": [{
+        "xdm": {
+            "identityMap": {
+                "customerId": [{
+                    "id": "0000158216",
+                    "authenticatedState": "authenticated",
+                    "primary": true
+                }]
+            },
+            "_experienceplatform": {
+                "identity": {
+                    "core": {
+                        "customerId": "0000158216"
+                    }
+                },
                 "offerContextData" : {
                     "language" : "NL",
                     "deviceType" : "iphone"
                 }
-			}
-		}
-	}],
-	"query": {
-		"personalization": {
-			"decisionScopes": ["eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE3M2I1MGM5Mjg0ZGQ4NzkiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTZhMzQxZWQ4ZDYyMzc2MSJ9"]
-		}
-	}
+            }
+        }
+    }],
+    "query": {
+        "personalization": {
+            "decisionScopes": ["eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE3M2I1MGM5Mjg0ZGQ4NzkiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTZhMzQxZWQ4ZDYyMzc2MSJ9"]
+        }
+    }
 }
 ```
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
+source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
 workflow-type: tm+mt
-source-wordcount: '2555'
+source-wordcount: '2638'
 ht-degree: 0%
 
 ---
@@ -223,7 +223,7 @@ U kunt opgeven of u de aftopping wilt toepassen op alle gebruikers of op één s
 
 * Selecteer **[!UICONTROL In total]** om te bepalen hoe vaak een aanbieding over het gecombineerde doelpubliek kan worden voorgesteld, betekenend over alle gebruikers.
 
-  Als u bijvoorbeeld een elektronicawinkel bent met een &#39;tv-huis-deal&#39;, wilt u dat het aanbod slechts 200 keer wordt geretourneerd voor alle profielen.
+  Als je bijvoorbeeld een elektronica-retailer bent met een &#39;tv-huis-deal&#39;, wil je dat het aanbod slechts 200 keer wordt teruggegeven voor alle profielen.
 
 * Selecteer **[!UICONTROL Per profile]** om te bepalen hoe vaak een aanbieding aan de zelfde gebruiker kan worden voorgesteld.
 
@@ -258,9 +258,9 @@ In het veld **[!UICONTROL Reset capping frequency]** kunt u bepalen hoe vaak het
 >
 >Na publicatie van uw voorstel kunt u de tijdsperiode (maandelijks, wekelijks of dagelijks) die u voor de frequentie hebt geselecteerd, niet meer wijzigen. U kunt de frequentietoewijzing nog steeds bewerken als de aanbieding de **[!UICONTROL Draft]** -status heeft en nog nooit eerder is gepubliceerd met de functie voor frequentietoewijzing ingeschakeld.
 
-+++ **moet-lezen: Het in kaart brengen van de frequentie &amp; Edge beslist API**
++++ **moet-lezen: Het in kaart brengen van de frequentie &amp; het beheer APIs van het Besluit**
 
-De telfunctie voor frequentiecappelen wordt binnen 3 seconden bijgewerkt en beschikbaar in een Edge-beslissing voor beslissings-API.
+De frequentie die teller aftappen wordt bijgewerkt en beschikbaar in een [ Edge besluit API ](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#edge) in minder dan 3 seconden.
 
 Elk hubgebied wordt geassocieerd met één of meerdere randgebieden. Regels voor frequentiecontrole worden gegenereerd en geëxporteerd van elk hubgebied naar de bijbehorende randgebieden. Telkens wanneer een beslissing wordt genomen met de Edge-API voor besluitvorming, dwingt het systeem de regels af die beschikbaar zijn in hetzelfde Edge-gebied:
 
@@ -269,7 +269,17 @@ Elk hubgebied wordt geassocieerd met één of meerdere randgebieden. Regels voor
 
 Bijvoorbeeld, overwegen wij het hubgebied van uw Organisatie als *NLD2*, en u verzendt een beslissingsverzoek van Europa (*IRL1* randgebied). In dit scenario, zal het beslissingsverzoek de teller van het profiel verhogen, aangezien de regels in het (Ierland) *IRL1* gebied beschikbaar zijn. Nochtans, als het beslissingsverzoek uit een gebied zoals Japan (*JPN3*) voortkomt, dat geen randgebied verbonden aan (Nederland) *NLD2* hubgebied is, zal geen teller worden gecreeerd, en de regels van het frequentieafschilderen zullen niet worden afgedwongen.
 
+>[!NOTE]
+>
+>Wanneer de tellers van rand aan hub of van hub aan randgebieden worden verspreid, kan een vertraging van een paar notulen van toepassing zijn.
+
 Voor meer informatie over welke hub en randgebieden aan uw Organisatie worden geassocieerd, gelieve uw vertegenwoordiger van Adobe te bereiken.
+
+Met de andere API&#39;s wordt de teller voor de frequentiecontrole als volgt bijgewerkt:
+
+* In a [ Beslissing API ](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#decisioning) besluit, kan de frequentie die teller in kaart brengt met een paar notulen van vertraging, afhankelijk van verkeer worden bijgewerkt.
+
+* In de beslissing van de Beslissing API van de a [ Partij ](../api-reference/offer-delivery-api/batch-decisioning-api.md), worden de momentopnamen gebruikt waar de frequentie die teller in kaart brengt vast blijft. Zolang dezelfde momentopname wordt gebruikt, blijft de teller onveranderd.
 
 +++
 

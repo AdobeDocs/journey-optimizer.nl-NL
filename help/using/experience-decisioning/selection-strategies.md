@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: 83ad828a4d342bba10284cdd20d22eb325e3e1f7
+source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Volg onderstaande stappen om een selectiestrategie te maken.
 
    ![](assets/strategy-create-eligibility.png)
 
-   * Als u de selectie van de aanbiedingen wilt beperken tot de leden van een publiek in een Experience Platform, selecteert u **[!UICONTROL Audiences]** en kiest u een publiek in de lijst. [ leer hoe te met publiek ](../audience/about-audiences.md) werken
+   * Als u de selectie van de aanbiedingen wilt beperken tot de leden van een Experience Platform-publiek, selecteert u **[!UICONTROL Audiences]** en kiest u een publiek in de lijst. [ leer hoe te met publiek ](../audience/about-audiences.md) werken
 
    * Als u een selectieregel wilt toevoegen met een beslissingsregel, gebruikt u de optie **[!UICONTROL Decision rule]** en selecteert u de gewenste regel. [ Leer hoe te om een regel ](rules.md) tot stand te brengen
 
@@ -114,6 +114,11 @@ Nadat u de formule hebt gemaakt, kunt u deze gebruiken in een selectiestrategie.
 
 ### AI-rangschikking {#ai-ranking}
 
-U kunt ook een getraind modelsysteem gebruiken dat aanbiedingen voor een bepaald profiel automatisch rangschikt door een AI-model te selecteren. Leer hoe te om een AI model in [ tot stand te brengen deze sectie ](ranking.md).
+U kunt ook een getraind modelsysteem gebruiken dat aanbiedingen voor een bepaald profiel automatisch rangschikt door een AI-model te selecteren. Leer hoe te om een AI model in [ tot stand te brengen deze sectie ](../offers/ranking/ai-models.md).
 
 Nadat u een AI-model hebt gemaakt, kunt u het gebruiken in een selectiestrategie. Indien meerdere aanbiedingen in aanmerking komen, bepaalt het opgeleide modelsysteem welke aanbieding eerst voor deze selectiestrategie moet worden ingediend.
+
+>[!NOTE]
+>
+>Momenteel is het ](../offers/ranking/auto-optimization-model.md#lift) rapport van de Meting van het 0} optillen slechts beschikbaar voor het [ Gepersonaliseerde model van optimalisering ](../offers/ranking/personalized-optimization-model.md) AI.[
+
