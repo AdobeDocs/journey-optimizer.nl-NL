@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: b7e3edff9191d1dab15376c70839f6e2b5a318aa
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '943'
 ht-degree: 10%
 
 ---
@@ -29,7 +29,8 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 * De sectie over het invoegen van koppelingen en het inschakelen van tracering in een e-mailbericht is bijgewerkt en opnieuw ingedeeld. [Meer informatie](../email/message-tracking.md)
 * Het gedeelte over personalisatiemogelijkheden in Adobe Journey Optimizer is gereorganiseerd en verbeterd. [Meer informatie](../personalization/personalize.md)
 * De Beslissingsbeheer-API voor het weergeven van gepersonaliseerde aanbiedingen is bijgewerkt met een voorbeeld om paginering uit te voeren als er in de reactie meerdere gepersonaliseerde aanbiedingen ontbreken. [Meer informatie](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
-* Voor meer duidelijkheid is er een nieuwe pagina gemaakt met alle informatie over de functie Lijst voor afmelden. [Meer informatie](../email/list-unsubscribe.md)
+* Voor meer duidelijkheid is er een nieuwe pagina gemaakt met alle informatie over de functie voor afmelden bij lijst. [Meer informatie](../email/list-unsubscribe.md)
+* De sectie Frequency Capping is bijgewerkt met informatie over hoe de teller voor het afluisteren van frequenties wordt bijgewerkt voor de API&#39;s voor het bepalen van beslissingen en het bepalen van batch, in aanvulling op de Edge-API voor besluitvorming.
 
 
 ## Februari 2025 {#feb-2025}
