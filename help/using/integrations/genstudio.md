@@ -7,10 +7,11 @@ feature: Content Assistant, Integrations
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
-source-git-commit: b24e50f698567e1f45318d942dff87febba179c9
+exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
+source-git-commit: e5edb719c4ff30385242700217c9c4c07ff28373
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 0%
+source-wordcount: '606'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 0%
 >
 >De integratie van GenStudio in [!DNL Adobe Journey Optimizer] is momenteel niet beschikbaar voor gebruik met het **Schild van de Gezondheidszorg** of **Privacy en het 4} toe:voegen-op dienstenaanbod van het Schild van de Veiligheid.**
 >
->De GenStudio-integratie is alleen beschikbaar voor het e-mailkanaal.
+>Deze functie is alleen beschikbaar voor het e-mailkanaal.
 
 [ Adobe GenStudio for Performance Marketing ](https://business.adobe.com/products/genstudio-for-performance-marketing.html) {target="_blank"} is een generatieve AI-eerste toepassing die marketing teams hun eigen advertenties en e-mails laat creëren om impactful, gepersonaliseerde marketing campagnes te drijven die aan uw merknormen voldoen en aan uw ondernemingsbeleid voldoet. Door gebruik te maken van Adobe AI-technologie, biedt deze technologie een uitgebreide reeks hulpmiddelen die de complexiteit van het maken en beheren van content vereenvoudigen, zodat creatieve mensen zich kunnen richten op innovatie.
 
