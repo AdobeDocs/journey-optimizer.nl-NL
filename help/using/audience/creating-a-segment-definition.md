@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: c60ad071d41c9b322e9a6b9285a044321df536cc
+source-git-commit: ec3f4b69e510d477d65fedb126cec50e15a3f072
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 1%
@@ -81,6 +81,7 @@ Streaming segmentatie is een doorlopend proces voor gegevensselectie dat uw publ
 >[!IMPORTANT]
 >
 >Vanaf 1 November, 2024, steunt het stromen segmentatie niet meer het gebruik van **verzendt** en **open** gebeurtenissen van Journey Optimizer het volgen en terugkoppelt datasets.
+>
 >* Deze wijziging geldt voor alle sandboxen en organisaties van klanten.
 >* Dit heeft alleen invloed op verzendings- en open gebeurtenissen: klikken en andere volggebeurtenissen blijven beschikbaar voor streamingsegmentatie.
 >* Deze wijziging is alleen van toepassing op streamingsegmentatie. Verstuur en open gebeurtenissen kunnen nog in partijsegmenten worden gebruikt, maar als inbegrepen in een het stromen segment, zullen zij op een partijmanier worden geëvalueerd. Bovendien worden uitsluitingsgebeurtenissen en stuit-/vertragingsgebeurtenissen als gevolg van verzendgebeurtenissen ook beïnvloed door deze wijziging.

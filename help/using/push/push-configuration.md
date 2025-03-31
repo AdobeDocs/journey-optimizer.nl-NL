@@ -7,10 +7,10 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: ec3f4b69e510d477d65fedb126cec50e15a3f072
 workflow-type: tm+mt
-source-wordcount: '1526'
-ht-degree: 3%
+source-wordcount: '1688'
+ht-degree: 2%
 
 ---
 
@@ -23,19 +23,7 @@ Met [!DNL Journey Optimizer] kunt u uw reizen maken en berichten verzenden naar 
 >Het nieuwe **mobiele onboarding snel beginwerkschema** is nu beschikbaar. Met deze nieuwe productfunctie kunt u de Mobile SDK snel configureren om gegevens van mobiele gebeurtenissen te verzamelen en te valideren en om mobiele pushberichten te verzenden. Dit vermogen is toegankelijk via de homepage van de Inzameling van Gegevens als openbare bèta. [Meer informatie](mobile-onboarding-wf.md)
 >
 
-
-## Voordat u begint {#before-starting}
-
-<!--
-### Check provisioning
-
-Your Adobe Experience Platform account must be provisioned to contain following schemas and datasets for push notification data flow to function correctly:
-
-| Schema <br>Dataset                                                                       | Group of fields                                                                                                                                                                         | Operation                                                |
-| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| CJM Push Profile Schema <br>CJM Push Profile Dataset                                     | Push Notification Details<br>Adobe CJM ExperienceEvent - Message Profile Details<br>Adobe CJM ExperienceEvent - Message Execution Details<br>Application Details<br>Environment Details | Register Push Token                                      |
-| CJM Push Tracking Experience Event Schema<br>CJM Push Tracking Experience Event Dataset | Push Notification Tracking                                                                                                                                                              | Track interactions and provide data for the reporting UI |
--->
+## Voordat u begint {#start-push}
 
 ### Machtigingen instellen {#setup-permissions}
 
@@ -110,6 +98,25 @@ Volg onderstaande stappen om deze **[!UICONTROL Product profile]** aan gebruiker
 
    ![](assets/push_product_7.png)
 
+
+### Controleer uw gegevenssets {#push-datasets}
+
+De volgende schema&#39;s en datasets zijn beschikbaar met het kanaal van de dupmelding:
+
+| Schema <br> Dataset | Groep velden | Bewerking |
+| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| CJM het Schema van het Profiel van de Duw <br> Dataset van het Profiel van CJM | De Details van het Push- Bericht <br> Adobe CJM ExperienceEvent - de Details van het Profiel van het Bericht <br> Adobe CJM ExperienceEvent - de Details van de Uitvoering van het Bericht <br> de Details van de Toepassing <br> Milieu Details | Push Token registreren |
+| CJM het Schema van de Gebeurtenis van de Ervaring van het Push Volgen CJM <br> CJM de Dataset van de Gebeurtenis van de Draagervaring | Push Notification Tracking | Interacties bijhouden en gegevens verstrekken voor de rapportageinterface |
+
+
+>[!NOTE]
+>
+>Wanneer gebeurtenissen voor het bijhouden van push-gegevens worden opgenomen in de CJM-gegevensset voor het bijhouden van push-ervaringen, kunnen er fouten optreden, ook al worden gegevens gedeeltelijk met succes opgenomen. Dit kan voorkomen als sommige gebieden in uw afbeelding niet in inkomende gebeurtenissen bestaan: het systeem registreert waarschuwingen maar verhindert niet inname van geldige gedeelten van de gegevens. Deze waarschuwingen worden in batch-status weergegeven als &#39;mislukt&#39;, maar geven gedeeltelijk succes bij inname aan.
+>
+>Om de volledige lijst van gebieden en attributen voor elk schema te bekijken, raadpleeg het [ het schemawoordenboek van Journey Optimizer ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) {target="_blank"}.
+
+
+
 ### Uw app configureren {#configure-app}
 
 De technische opstelling impliceert nauwe samenwerking tussen de toepassingsontwikkelaar en bedrijfsbeheerder. Voordat u begint met het verzenden van pushberichten met [!DNL Journey Optimizer] , moet u pushreferenties maken, een Push channel-configuratie in Adobe Journey Optimizer maken en uw mobiele app integreren met Adobe Experience Platform Mobile SDK&#39;s.
@@ -119,18 +126,18 @@ Voer de implementatiestappen uit die in de onderstaande koppelingen worden besch
 * Voor **Apple iOS**: Leer hoe te om uw app met APNs in [ Documentatie van Apple ](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns) te registreren {target="_blank"}
 * Voor **Google Android**: Leer hoe te opstelling een de cliëntapp van het Overseinen van de Wolk van de Wolk van de Vuurbasis op Android in [ Documentatie van Google ](https://firebase.google.com/docs/cloud-messaging/android/client) {target="_blank"}
 
-### Uw mobiele app integreren met de SDK van Adobe Experience Platform {#integrate-mobile-app}
+### Uw mobiele app integreren met Adobe Experience Platform SDK {#integrate-mobile-app}
 
 Adobe Experience Platform Mobile SDK biedt client-side integratie-API&#39;s voor uw mobiele apparaten via met Android en iOS compatibele SDK&#39;s. Volg [ de Mobiele documentatie van SDK van Adobe Experience Platform Mobile ](https://developer.adobe.com/client-sdks/documentation/getting-started/) {target="_blank"} om opstelling met Adobe Experience Platform Mobile SDKs in uw app te krijgen.
 
-Tegen het einde van deze procedure moet u ook een eigenschap mobile in [!DNL Adobe Experience Platform Data Collection] hebben gemaakt en geconfigureerd. Doorgaans maakt u een eigenschap voor mobiele apparaten voor elke mobiele toepassing die u wilt beheren. Leer hoe te om een mobiel bezit in [ Adobe Experience Platform Mobiele documentatie van SDK tot stand te brengen en te vormen ](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/) {target="_blank"}.
+Tegen het einde van deze procedure moet u ook een eigenschap mobile in [!DNL Adobe Experience Platform Data Collection] hebben gemaakt en geconfigureerd. Doorgaans maakt u een eigenschap voor mobiele apparaten voor elke mobiele toepassing die u wilt beheren. Leer hoe te om een mobiel bezit in [ Adobe Experience Platform Mobiele documentatie van SDK ](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/) tot stand te brengen en te vormen {target="_blank"}.
 
 
 ## Stap 1: Voeg uw pushreferenties voor de app toe in Journey Optimizer {#push-credentials-launch}
 
 Nadat u de juiste gebruikersmachtigingen hebt verleend, moet u nu uw pushgegevens voor mobiele toepassingen toevoegen in Journey Optimizer.
 
-De registratie van de pushreferenties voor de mobiele app is vereist om Adobe te autoriseren pushberichten namens u te verzenden. Raadpleeg de onderstaande stappen:
+De registratie van de pushreferenties voor de mobiele app is vereist om Adobe te machtigen pushberichten namens u te verzenden. Raadpleeg de onderstaande stappen:
 
 1. Open het menu **[!UICONTROL Channels]** > **[!UICONTROL Push settings]** > **[!UICONTROL Push credentials]**.
 
