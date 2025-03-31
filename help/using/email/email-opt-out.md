@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: opt-out, e-mail, link, abonnement opzeggen
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
+source-git-commit: 564dcb691d61a2f48694d208644847d7bb65d664
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '961'
 ht-degree: 0%
 
 ---
@@ -32,12 +32,19 @@ Als u een koppeling zonder abonnement wilt invoegen in uw e-mailinhoud, kunt u:
 
 * Tussenvoegsel a **verbinding aan een het landen pagina**. [ Leer hoe te om een opt-out het landen pagina toe te voegen ](#opt-out-external-lp)
 
+Wanneer een ontvanger op de opt-out-koppeling klikt, wordt het afwijzingsverzoek van de ontvanger dienovereenkomstig verwerkt.
+
+Om te controleren dat de overeenkomstige keus van het profiel is bijgewerkt, ga naar Experience Platform en [ doorblader aan dat profiel ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes-tab). Op het tabblad **[!UICONTROL Attributes]** ziet u de waarde voor **[!UICONTROL choice]** is gewijzigd in **[!UICONTROL no]** . Leer meer in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity) {target="_blank"}.
+
+![](assets/opt-out-profile-choice.png)
+
+>[!NOTE]
+>
+>Soms kan het langer duren om afmeldingsgebeurtenissen weer te geven op profielniveau als gevolg van de verwerking van downstreamgegevens. Laat het systeem enige tijd bijwerken.
 
 ## Eenfasige opt-out {#opt-out-one-step}
 
 Met [!DNL Adobe Journey Optimizer], kunt u uw [ montages van de e-mailconfiguratie ](email-settings.md#list-unsubscribe) met een auto-geproduceerde één-klik vormen unsubscribe URL en postto adres in de e-mailkopbal, of één-klik opt-out URL in uw e-maillichaam omvatten.
-
-Wanneer een ontvanger op de one-click opt-out verbinding klikt, wordt het afmeldingsverzoek van die ontvanger dienovereenkomstig verwerkt.
 
 ### Eén klik op URL voor annuleren in de e-mailheader {#unsubscribe-header}
 
@@ -170,10 +177,4 @@ Zodra u de unsubscribe verbinding aan uw landende pagina vormde, kunt u uw beric
    ![](assets/opt-out-confirmation-example.png)
 
    Dit heeft tot gevolg dat deze gebruiker geen communicatie van uw merk ontvangt, tenzij hij opnieuw een abonnement neemt.
-
-1. Als u wilt controleren of de keuze van het corresponderende profiel is bijgewerkt, gaat u naar Experience Platform en opent u het profiel door een naamruimte voor identiteit en een bijbehorende identiteitswaarde te selecteren. Leer meer in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started) {target="_blank"}.
-
-   ![](assets/opt-out-profile-choice.png)
-
-   Op het tabblad **[!UICONTROL Attributes]** ziet u de waarde voor **[!UICONTROL choice]** is gewijzigd in **[!UICONTROL no]** .
 
