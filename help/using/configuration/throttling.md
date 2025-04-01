@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: extern, API, optimaliseren, aftopping
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 91%
+source-wordcount: '880'
+ht-degree: 62%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 
 Met de Throttling-API kunt u uw throttling-configuraties maken, configureren en controleren om het aantal gebeurtenissen dat per seconde wordt verzonden te beperken.
 
-Deze sectie bevat algemene informatie over het werken met de API. Een gedetailleerde API-beschrijving is beschikbaar in [Adobe Journey Optimizer API-documentatie](https://developer.adobe.com/journey-optimizer-apis/).
+Deze sectie bevat algemene informatie over het werken met de API. Een gedetailleerde API beschrijving is beschikbaar in [ documentatie van Adobe Journey Optimizer APIs ](https://developer.adobe.com/journey-optimizer-apis/).
 
 >[!IMPORTANT]
 >
@@ -29,7 +29,9 @@ Deze sectie bevat algemene informatie over het werken met de API. Een gedetaille
 >
 >Wanneer de in de API ingestelde limiet is bereikt, worden verdere gebeurtenissen maximaal 6 uur in de wachtrij geplaatst. Deze waarde kan niet worden gewijzigd.
 
-## Beschrijving van beperkings-API {#description}
+## Throttling API description &amp; Postman collection {#description}
+
+In de onderstaande tabel staan de beschikbare opdrachten voor de vertragings-API. De gedetailleerde informatie met inbegrip van verzoeksteekproeven, parameters, en antwoordformaten is beschikbaar in de [ documentatie van Adobe Journey Optimizer APIs ](https://developer.adobe.com/journey-optimizer-apis/references/journeys/).
 
 | Methode | Pad | Beschrijving |
 |---|---|---|
@@ -41,6 +43,15 @@ Deze sectie bevat algemene informatie over het werken met de API. Een gedetaille
 | [!DNL PUT] | /throttlingConfigs/`{uid}` | Een beperkingsconfiguratie bijwerken |
 | [!DNL GET] | /throttlingConfigs/`{uid}` | Een beperkingsconfiguratie ophalen |
 | [!DNL DELETE] | /throttlingConfigs/`{uid}` | Een beperkingsconfiguratie verwijderen |
+
+Bovendien is een inzameling van Postman beschikbaar [ hier ](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json) om u in uw het testen configuratie te helpen.
+
+Deze inzameling is opstelling geweest om de Variabele die inzameling van Postman te delen via __[de Integraties van de Console van Adobe I/O wordt geproduceerd ](https://console.adobe.io/integrations) > probeert het uit > Download voor Postman__, die een dossier van het Milieu van Postman met de geselecteerde integratiewaarden produceert.
+
+Eenmaal gedownload en geüpload naar Postman moet u drie variabelen toevoegen: `{JO_HOST}`,`{BASE_PATH}` en `{SANDBOX_NAME}`.
+* `{JO_HOST}` : [!DNL Journey Optimizer] URL van gateway.
+* `{BASE_PATH}` : ingangspunt voor de API.
+* `{SANDBOX_NAME}`: de header **x-sandbox-name** (bijvoorbeeld &#39;prod&#39;) die overeenkomt met de sandboxnaam waar de API-operaties zullen plaatsvinden. Zie het [sandboxoverzicht](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=nl) voor meer informatie.
 
 ## Beperkingsconfiguratie {#configuration}
 
@@ -134,57 +145,6 @@ Wanneer u probeert een andere configuratie te maken:
     "requestId": "A7ezT8JhOQT4WIAf1Fv7K2wCDA8281qM"
 }
 ```
-
-## Gebruiksscenario&#39;s {#uc}
-
-Voor hulp bij het testen en configureren is [hier](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json) een Postman-verzameling beschikbaar.
-
-Deze Postman-verzameling is opgezet om de Postman Variabele verzameling te delen die is gegenereerd via __[Adobe I/O Console-integraties](https://console.adobe.io/integrations) > Uitproberen > Downloaden voor Postman__, wat een Postman-omgevingsbestand genereert met de geselecteerde integratiewaarden.
-
-Eenmaal gedownload en geüpload naar Postman moet u drie variabelen toevoegen: `{JO_HOST}`,`{BASE_PATH}` en `{SANDBOX_NAME}`.
-* `{JO_HOST}`: [!DNL Journey Optimizer] Gateway-URL
-* `{BASE_PATH}`: ingangspunt voor de API. 
-* `{SANDBOX_NAME}`: de header **x-sandbox-name** (bijvoorbeeld &#39;prod&#39;) die overeenkomt met de sandboxnaam waar de API-operaties zullen plaatsvinden. Zie het [sandboxoverzicht](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=nl) voor meer informatie.
-
-In het volgende gedeelte vindt u de geordende lijst van Rest-API-aanroepen om het gebruiksscenario uit te voeren.
-
-Gebruiksscenario nr. 1: **Nieuwe beperkingsconfiguratie maken en implementeren**
-
-1. list
-1. create
-1. candeploy
-1. deploy
-
-Gebruiksscenario nr. 2: **Een beperkingsconfiguratie bijwerken en implementeren die nog niet is geïmplementeerd**
-
-1. list
-1. get
-1. update
-1. candeploy
-1. deploy
-
-Gebruiksscenario nr. 3: **Een geïmplementeerde beperkingsconfiguratie deïmplementeren en verwijderen**
-
-1. list
-1. undeploy
-1. delete
-
-Gebruiksscenario nr. 4: **Een geïmplementeerde beperkingsconfiguratie verwijderen**
-
-In slechts één API-oproep kunt u de configuratie deïmplementeren en verwijderen met behulp van de parameter forceDelete.
-
-1. list
-1. delete, met parameter forceDelete
-
-Gebruiksscenario nr. 5: **Een geïmplementeerde beperkingsconfiguratie bijwerken**
-
->[!NOTE]
->
->Het is niet nodig om de configuratie te deïmplementeren alvorens bij te werken
-
-1. list
-1. get
-1. update
 
 ## Configuratie levenscyclus op runtimeniveau {#config}
 
@@ -338,3 +298,67 @@ Bij het bijwerken van een geïmplementeerde configuratie wordt onmiddellijk reke
     }
 }
 ```
+
+## Gebruiksscenario’s {#uc}
+
+Deze sectie bevat een overzicht van de belangrijkste gebruiksgevallen voor het beheer van configuraties met vertraagde installatie in [!DNL Journey Optimizer] en de bijbehorende API-opdrachten die nodig zijn om de gebruiksaanwijzing te implementeren.
+
+De details op elk API bevel zijn beschikbaar in de [ API beschrijving &amp; inzameling van Postman ](#description).
+
++++Creatie en plaatsing van een nieuwe het vertragen configuratie
+
+API-aanroepen voor gebruik:
+
+1. **`list`** - Hiermee worden bestaande configuraties opgehaald.
+1. **`create`** - Maakt een nieuwe configuratie.
+1. **`candeploy`** - Controleert of de configuratie kan worden opgesteld.
+1. **`deploy`** - Implementeert de configuratie.
+
++++
+
++++Update en stel een throttling configuratie (nog niet opgesteld) op.
+
+API-aanroepen voor gebruik:
+
+1. **`list`** - Hiermee worden bestaande configuraties opgehaald.
+1. **`get`** - Hiermee worden details van een specifieke configuratie opgehaald.
+1. **`update`** - Hiermee wijzigt u de configuratie.
+1. **`candeploy`** - Controleert de geschiktheid voor implementatie.
+1. **`deploy`** - Implementeert de configuratie.
+
++++
+
++++Verwijder een geïmplementeerde vertragingsconfiguratie en verwijder deze
+
+API-aanroepen voor gebruik:
+
+1. **`list`** - Hiermee worden bestaande configuraties opgehaald.
+1. **`undeploy`** - implementeert de configuratie ongedaan.
+1. **`delete`** - Verwijdert de configuratie.
+
++++
+
+++ + schrap een opgestelde throttingconfiguratie
+
+In slechts één API-aanroep kunt u de configuratie met behulp van de parameter `forceDelete` verwijderen en de implementatie ervan ongedaan maken.
+
+API-aanroepen voor gebruik:
+
+1. **`list`** - Hiermee worden bestaande configuraties opgehaald.
+1. **`delete`(met `forceDelete` parameter)** - Dwingt schrapping van een opgestelde configuratie in één enkele stap.
+
++++
+
+++ + Update een reeds opgezette throttingconfiguratie
+
+>[!NOTE]
+>
+>Het is niet nodig om de configuratie te deïmplementeren alvorens bij te werken
+
+API-aanroepen voor gebruik:
+
+1. **`list`** - Hiermee worden bestaande configuraties opgehaald.
+1. **`get`** - Hiermee worden details van een specifieke configuratie opgehaald.
+1. **`update`** - Hiermee wijzigt u de configuratie.
+
++++

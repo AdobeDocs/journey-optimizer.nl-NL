@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: extern, API, optimaliseren, aftopping
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: fd89412703d015fa173f58fa117f65323b954fec
+source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 25%
+source-wordcount: '725'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,9 @@ Met de API voor uitsnijden kunt u uw configuraties voor uitlijnen maken, configu
 
 Deze sectie bevat algemene informatie over het werken met de API. Een gedetailleerde API beschrijving is beschikbaar in [ documentatie van Adobe Journey Optimizer APIs ](https://developer.adobe.com/journey-optimizer-apis/).
 
-## Beschrijving van API voor uitlijnen
+## API-beschrijving van uitlijnen en Postman-verzameling {#description}
+
+In de onderstaande tabel staan de beschikbare opdrachten voor de API voor aftiteling. De gedetailleerde informatie met inbegrip van verzoeksteekproeven, parameters, en antwoordformaten is beschikbaar in de [ documentatie van Adobe Journey Optimizer APIs ](https://developer.adobe.com/journey-optimizer-apis/references/journeys/).
 
 | Methode | Pad | Beschrijving |
 |---|---|---|
@@ -36,6 +38,15 @@ Deze sectie bevat algemene informatie over het werken met de API. Een gedetaille
 
 Wanneer een configuratie wordt gecreeerd of bijgewerkt, automatisch wordt een controle uitgevoerd om de syntaxis en de integriteit van de lading te waarborgen.
 Als sommige problemen voorkomen, keert de verrichting waarschuwing of fouten terug om u te helpen de configuratie verbeteren.
+
+Bovendien is een inzameling van Postman beschikbaar [ hier ](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Capping-API_postman-collection.json) om u in uw het testen configuratie te helpen.
+
+Deze inzameling is opstelling geweest om de Variabele die inzameling van Postman te delen via __[de Integraties van de Console van Adobe I/O wordt geproduceerd ](https://console.adobe.io/integrations) > probeert het uit > Download voor Postman__, die een dossier van het Milieu van Postman met de geselecteerde integratiewaarden produceert.
+
+Eenmaal gedownload en geüpload naar Postman moet u drie variabelen toevoegen: `{JO_HOST}`,`{BASE_PATH}` en `{SANDBOX_NAME}`.
+* `{JO_HOST}` : [!DNL Journey Optimizer] URL van gateway.
+* `{BASE_PATH}` : ingangspunt voor de API.
+* `{SANDBOX_NAME}`: de header **x-sandbox-name** (bijvoorbeeld &#39;prod&#39;) die overeenkomt met de sandboxnaam waar de API-operaties zullen plaatsvinden. Zie het [sandboxoverzicht](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=nl) voor meer informatie.
 
 ## Eindpuntconfiguratie
 
@@ -66,7 +77,7 @@ Hier is de basisstructuur van een eindpuntconfiguratie:
 >
 >Wanneer de het plafonneren configuratie wordt opgesteld, als geen &quot;maxHttpConnection&quot;waarde is verstrekt, wordt het gebrek &quot;maxHttpConnection = -1&quot;toegevoegd in de opgestelde configuratie, betekenend dat Journey Optimizer de standaardwaarde van het systeem zal gebruiken.
 
-### Voorbeeld:
+Voorbeeld:
 
 ```
 `{
@@ -110,57 +121,68 @@ De mogelijke waarschuwing is:
 
 **ERR_ENDPOINTCONFIG_106**: het in kaart brengen van config: maximum de verbindingen van HTTP niet bepaald: geen beperking door gebrek
 
-## Gebruiksscenario&#39;s
+## Gebruiksscenario’s
 
-In deze sectie vindt u de vijf hoofdgevallen voor het gebruik die u kunt uitvoeren om uw configuratie voor plafonds te beheren in [!DNL Journey Optimizer] .
+Deze sectie bevat een overzicht van de belangrijkste gebruiksgevallen voor het beheer van configuraties met begrenzingen in [!DNL Journey Optimizer] en de bijbehorende API-opdrachten die nodig zijn om het gebruiksscenario te implementeren.
 
-Voor hulp bij het testen en configureren is [hier](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Capping-API_postman-collection.json) een Postman-verzameling beschikbaar.
+De details op elk API bevel zijn beschikbaar in de [ API beschrijving &amp; inzameling van Postman ](#description).
 
-Deze Postman-verzameling is opgezet om de Postman Variabele verzameling te delen die is gegenereerd via __[Adobe I/O Console-integraties](https://console.adobe.io/integrations) > Uitproberen > Downloaden voor Postman__, wat een Postman-omgevingsbestand genereert met de geselecteerde integratiewaarden.
++++Maak en implementeer een nieuwe configuratie voor het toewijzen van een bijschrift
 
-Eenmaal gedownload en geüpload naar Postman moet u drie variabelen toevoegen: `{JO_HOST}`,`{BASE_PATH}` en `{SANDBOX_NAME}`.
-* `{JO_HOST}`: [!DNL Journey Optimizer] Gateway-URL
-* `{BASE_PATH}` : ingangspunt voor de API.
-* `{SANDBOX_NAME}`: de header **x-sandbox-name** (bijvoorbeeld &#39;prod&#39;) die overeenkomt met de sandboxnaam waar de API-operaties zullen plaatsvinden. Zie het [sandboxoverzicht](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=nl) voor meer informatie.
+API-aanroepen voor gebruik:
 
-In het volgende gedeelte vindt u de geordende lijst van Rest-API-aanroepen om het gebruiksscenario uit te voeren.
+1. **`list`** - Hiermee worden bestaande configuraties opgehaald.
+1. **`create`** - Maakt een nieuwe configuratie.
+1. **`candeploy`** - Controleert of de configuratie kan worden opgesteld.
+1. **`deploy`** - Implementeert de configuratie.
 
-Gebruik-Geval n°1: **creatie en plaatsing van een nieuwe het capteren configuratie**
++++
 
-1. list
-1. create
-1. candeploy
-1. deploy
++++Werk en stel een het maximum configuratie (nog niet opgesteld) op
 
-Gebruik-Geval n°2: **Update en stel een het maximum configuratie op die nog niet wordt opgesteld**
+API-aanroepen voor gebruik:
 
-1. list
-1. get
-1. update
-1. candeploy
-1. deploy
+1. **`list`** - Hiermee worden bestaande configuraties opgehaald.
+1. **`get`** - Hiermee worden details van een specifieke configuratie opgehaald.
+1. **`update`** - Hiermee wijzigt u de configuratie.
+1. **`candeploy`** - Controleert de geschiktheid voor implementatie.
+1. **`deploy`** - Implementeert de configuratie.
 
-Gebruik-Geval n°3: **stelt en schrapt een opgestelde het begrenzen configuratie** onbruikbaar
++++
 
-1. list
-1. undeploy
-1. delete
++++Verwijder implementaties en verwijder een geïmplementeerde uitlijningsconfiguratie
 
-Gebruik-Geval n°4: **schrap een opgestelde het capteren configuratie.**
+API-aanroepen voor gebruik:
 
-In slechts één API-oproep kunt u de configuratie deïmplementeren en verwijderen met behulp van de parameter forceDelete.
-1. list
-1. delete, met parameter forceDelete
+1. **`list`** - Hiermee worden bestaande configuraties opgehaald.
+1. **`undeploy`** - implementeert de configuratie ongedaan.
+1. **`delete`** - Verwijdert de configuratie.
 
-Gebruik-Geval n°5: **werk een het maximum configuratie reeds in werking gesteld** bij
++++
+
+++ + verwijder een geïmplementeerde uitlijningsconfiguratie in één stap
+
+In slechts één API-aanroep kunt u de configuratie met behulp van de parameter `forceDelete` verwijderen en de implementatie ervan ongedaan maken.
+
+API-aanroepen voor gebruik:
+
+1. **`list`** - Hiermee worden bestaande configuraties opgehaald.
+1. **`delete`(met `forceDelete` parameter)** - Dwingt schrapping van een opgestelde configuratie in één enkele stap.
+
++++
+
+++ + Werk een reeds opgezette het maximum configuratie bij
 
 >[!NOTE]
 >
->U moet zich opnieuw opstellen als het bijwerken van een reeds opgestelde configuratie.
+>Een herplaatsing wordt vereist na het bijwerken van een reeds opgestelde configuratie.
 
-1. list
-1. get
-1. update
-1. undeploy
-1. candeploy
-1. deploy
+API-aanroepen voor gebruik:
+1. **`list`** - Hiermee worden bestaande configuraties opgehaald.
+1. **`get`** - Hiermee worden details van een specifieke configuratie opgehaald.
+1. **`update`** - Hiermee wijzigt u de configuratie.
+1. **`undeploy`** - Hiermee verwijdert u de configuratie voordat u wijzigingen aanbrengt.
+1. **`candeploy`** - Controleert de geschiktheid voor implementatie.
+1. **`deploy`** - Implementeert de bijgewerkte configuratie.
+
++++
