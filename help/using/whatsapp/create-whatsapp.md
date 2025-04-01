@@ -10,9 +10,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
+source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '584'
 ht-degree: 2%
 
 ---
@@ -31,8 +32,6 @@ ht-degree: 2%
 >[!ENDSHADEBOX]
 
 Met Adobe Journey Optimizer kunt u aansprekende berichten ontwerpen en verzenden op WhatsApp. Voeg eenvoudig een actie WhatsApp aan uw reis of campagne toe en maak uw berichtinhoud zoals hieronder gedetailleerd. Met Adobe Journey Optimizer kunt u ook uw WhatsApp-berichten testen voordat u ze verzendt. Zo kunt u de perfecte rendering, nauwkeurige personalisatie en een correcte configuratie van alle instellingen garanderen.
-
->[!VIDEO](https://video.tv.adobe.com/v/3451621?learn=on)
 
 ## Een WhatsApp-bericht toevoegen {#create-whatsapp-journey-campaign}
 
@@ -76,7 +75,7 @@ U kunt nu de inhoud van uw WhatsApp-bericht ontwerpen vanaf de knop **[!UICONTRO
 
 1. Campagnes worden ontworpen om op een specifieke datum of op een terugkomende frequentie worden uitgevoerd. Leer hoe te om **[!UICONTROL Schedule]** van uw campagne in [ te vormen deze sectie ](../campaigns/create-campaign.md#schedule).
 
-1. Kies in het menu **[!UICONTROL Action triggers]** de **[!UICONTROL Frequency]** van uw SMS-bericht:
+1. Kies in het menu **[!UICONTROL Action triggers]** de **[!UICONTROL Frequency]** van uw WhatsApp-bericht:
 
    * Eenmaal
    * Dagelijks
@@ -89,9 +88,13 @@ U kunt nu de inhoud van uw WhatsApp-bericht ontwerpen vanaf de knop **[!UICONTRO
 
 ## De whatsApp-inhoud definiëren{#whatsapp-content}
 
->[!IMPORTANT]
->
->Voordat u uw WhatsApp-bericht in Journey Optimizer kunt ontwerpen, moet u eerst een sjabloon maken in Meta. [Meer informatie](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+>[!BEGINSHADEBOX]
+
+Voordat u uw WhatsApp-bericht in Journey Optimizer kunt ontwerpen, moet u eerst een sjabloon maken en ontwerpen in Meta. Alleen elementen voor uitgaande berichten worden ondersteund in Journey Optimizer. [Meer informatie](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+
+Merk op dat uw WhatsApp malplaatje eerst door Meta moet worden goedgekeurd alvorens het in Journey Optimizer te gebruiken. Dit proces duurt meestal een paar uur, maar kan tot 24 uur in beslag nemen. [Meer informatie](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
+
+>[!ENDSHADEBOX]
 
 1. Van het reis of scherm van de campagneconfiguratie, klik de **[!UICONTROL Edit content]** knoop om de whatsApp berichtinhoud te vormen.
 

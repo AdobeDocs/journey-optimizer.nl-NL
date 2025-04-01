@@ -9,9 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
+source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '431'
 ht-degree: 2%
 
 ---
@@ -42,7 +43,7 @@ Deze stappen moeten door een Beheerder van het Systeem van Adobe Journey Optimiz
 
 1. Configureer uw API-referenties, zoals hieronder wordt beschreven:
 
-   * **API Token**: https://developers.facebook.com/docs/facebook-login/guides/access-tokens/
+   * **API Token**: Ga uw API teken in. Leer meer in [ Documentatie van Meta ](https://developers.facebook.com/docs/facebook-login/guides/access-tokens/)
    * **identiteitskaart Bedrijfs van de Rekening**: Ga het unieke aantal met betrekking tot uw bedrijfsportefeuille in. Leer meer in [ Documentatie van Meta ](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
    ![](assets/whatsapp-api.png)
@@ -88,7 +89,7 @@ Nadat u de API-referentie hebt gemaakt en geconfigureerd, moet u nu een kanaalco
 
 1. Selecteer **[!UICONTROL Marketing action(s)]** om toestemmingsbeleid aan de berichten te associëren gebruikend deze configuratie. Alle toestemmingsbeleid verbonden aan de marketing actie wordt gebruikt om de voorkeur van uw klanten te respecteren. Meer informatie
 
-1. Selecteer het eerder gemaakte bestand **[!UICONTROL WhatsApp configuration]** .
+1. Selecteer het eerder gemaakte bestand **[!UICONTROL WhatsApp API configuration]** .
 
    ![](assets/whatsapp-config-3.png)
 

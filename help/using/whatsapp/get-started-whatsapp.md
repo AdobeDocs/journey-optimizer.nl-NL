@@ -10,9 +10,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
+source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -42,7 +43,22 @@ U kunt WhatsApp-berichten nu rechtstreeks via Journey Optimizer verzenden. Met d
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
 
-## Beperkingen {#limitations}
+## Voorwaarden {#prereq}
+
+Voor de integratie van WhatsApp met Journey Optimizer is het volgende vereist:
+
+* Meta Business Manager-account
+* WhatsApp Business-account
+* WhatsApp-telefoonnummer
+
+U moet ook het volgende weten voordat u verdergaat met integratie:
+
+* [ WhatsApp inhoudsregels ](https://www.whatsapp.com/legal/messaging-guidelines)
+* [ Naleving met het Beleid van Meta ](https://www.whatsapp.com/legal)
+* [ 24 de gespreksgrenzen van het Uur ](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
+* [ Goedgekeurde malplaatjes van Meta ](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
+
+## Beta-beperkingen {#limitations}
 
 De volgende functies worden niet in deze bètaversie opgenomen:
 
@@ -51,3 +67,13 @@ De volgende functies worden niet in deze bètaversie opgenomen:
 * **Opt-binnen/uit sleutelwoorden**: De gebruikers zullen niet de optie hebben om het gebruiken van specifieke sleutelwoorden in dit stadium in te tekenen of af te melden.
 
 * **de berichten van de Reactie**: Geautomatiseerde of vooraf bepaalde reactieberichten zullen niet in deze versie worden gesteund.
+
+## Hoe kan ik-video {#video}
+
+In de onderstaande video ziet u hoe u een reis maakt met een Whatsapp-actie.
+
++++ Zie video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451621?learn=on)
+
++++
