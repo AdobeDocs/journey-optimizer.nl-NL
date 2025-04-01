@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
 
 # Campagnerapport in app {#campaign-global-report-cja-inapp}
 
-## Impressie en klik op trend {#impression-click-trend}
+## Tendens weergeven en klikken {#impression-click-trend}
 
 ![](assets/cja-inapp-impressions-click.png)
 
@@ -34,6 +34,8 @@ De grafiek van **[!UICONTROL Impression & Click trend]** bevat een gedetailleerd
 
 ## Klikken {#clicks-inapp}
 
+![](assets/cja-campaign-inapp-clicks.png)
+
 In de grafiek van **[!UICONTROL Clicks]** worden in-app klikgegevens weergegeven, die zowel het totale aantal klikken op inhoud als het aantal unieke profielen weergeven die op de inhoud hebben geklikt.
 
 +++ Meer informatie over maatstaven klikken
@@ -46,6 +48,8 @@ In de grafiek van **[!UICONTROL Clicks]** worden in-app klikgegevens weergegeven
 
 ## Weergave {#display-inapp}
 
+![](assets/cja-campaign-inapp-displays.png)
+
 De grafiek van **[!UICONTROL Displays]** helpt u zowel het algemene bereik van het bericht als het aantal unieke profielen begrijpen die met het verbinden.
 
 +++ Meer informatie over weergavemeetgegevens
@@ -57,6 +61,8 @@ De grafiek van **[!UICONTROL Displays]** helpt u zowel het algemene bereik van h
 +++
 
 ## Gegevens bijhouden {#tracking-data-inapp}
+
+![](assets/cja-campaign-inapp-tracking-data.png)
 
 De tabel **[!UICONTROL Tracking data]** bevat een gedetailleerde momentopname van profielactiviteiten die aan uw In-app-berichten zijn gekoppeld. Deze tabel biedt essentiële inzichten in de betrokkenheid en de doeltreffendheid van in-app-berichten.
 
@@ -78,11 +84,11 @@ De tabel **[!UICONTROL Tracking data]** bevat een gedetailleerde momentopname va
 
 * **[!UICONTROL Sends]**: Het totale aantal verzendingen voor uw in-app-berichten.
 
-<!--
-* **[!UICONTROL Inbound triggered]**: 
+* **[!UICONTROL Inbound triggered]**: Het aantal keren dat een bericht in de app werd geactiveerd door een gebruikersinteractie of een vooraf gedefinieerde gebeurtenis.
 
-* **[!UICONTROL Inbound dismisses]**: 
--->
+* **[!UICONTROL Inbound dismisses]**: Het aantal keren dat gebruikers het bericht in de app hebben verwijderd zonder ermee te werken.
+
+
 +++
 
 ## Labels voor bijgehouden koppelingen {#track-link-label-inapp}

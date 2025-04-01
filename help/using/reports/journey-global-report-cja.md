@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -43,8 +43,6 @@ De **[!UICONTROL Journey]** Belangrijkste Indicatoren van Prestaties (KPIs) func
 
 * **[!UICONTROL Journey exits]**: Het totale aantal personen dat de reis heeft verlaten.
 
-* **[!UICONTROL Journey failures]**: Het totale aantal individuele reizen dat niet succesvol is uitgevoerd.
-
 +++
 
 ### Reisstatistieken {#journey-stats}
@@ -54,6 +52,8 @@ De **[!UICONTROL Journey]** Belangrijkste Indicatoren van Prestaties (KPIs) func
 De tabel **[!UICONTROL Journey Statistics]** bevat een gedetailleerde samenvatting van de belangrijkste gegevens over uw reizen. Het omvat belangrijke metriek zoals het aantal mislukkingen en succesvolle ingangen, die waardevolle inzichten in de prestaties en het bereik van uw e-mail en reizen verstrekken.
 
 +++ Meer informatie over statistieken voor reisstatistieken
+
+* **[!UICONTROL Journey exclusion]**: Het totale aantal personen dat van de reis werd uitgesloten vanwege vooraf gedefinieerde criteria of suppressieregels.
 
 * **[!UICONTROL Journey engagement]**: Het totale aantal unieke personen dat berichten heeft ontvangen die door de reis zijn verzonden, die verschillende profielen vertegenwoordigen die een bepaald actiepunt in de reis hebben bereikt.
 
@@ -71,11 +71,21 @@ De tabel **[!UICONTROL Journey Statistics]** bevat een gedetailleerde samenvatti
 
 +++
 
+## Journaal uitsluiten {#journey-exclusion}
+
+De tabel **[!UICONTROL Journey exclusion]** bevat een uitgebreide weergave van de verschillende factoren die tot de uitsluiting van gebruikersprofielen hebben geleid.
+
+## Handelingsfout {#action-error}
+
+![](assets/cja-journey-action-error.png)
+
+De **[!UICONTROL Action errors]** -widget geeft een overzicht van de verschillende fouten die zijn opgetreden tijdens de uitvoering van de reis.
+
 ## Reiscanvas {#journey-canvas}
 
 ![](assets/cja-journey-canvas.png)
 
-Met de widget **[!UICONTROL Journey Canvas]** kunt u visueel het traject volgen van uw doelprofielen terwijl u door de reis navigeert. [ leer meer in de documentatie van de Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
+Met de widget **[!UICONTROL Journey Canvas]** kunt u visueel het traject volgen van uw doelprofielen terwijl u door de reis navigeert. [ leer meer in de documentatie van Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 Verbeter uw canvasaanpassing met de volgende opties:
 
@@ -106,9 +116,11 @@ De tabel **[!UICONTROL Action overview]** fungeert als een uitgebreid dashboard,
 
 +++ Meer informatie over overzichtsmetriek voor handelingen
 
-* **[!UICONTROL People]**: Aantal gebruikersprofielen dat als doelprofielen voor uw acties wordt gekwalificeerd.
+* **[!UICONTROL Node enters]**: Het totale aantal personen dat een bepaald knooppunt tijdens de reis is binnengekomen.
 
-* **[!UICONTROL Click trough rate]**: percentage gebruikers dat interactie had met de handeling.
+* **[!UICONTROL Journey failure]**: Het totale aantal individuele reizen dat niet succesvol is uitgevoerd.
+
+* **[!UICONTROL Click through rate]**: percentage gebruikers dat interactie had met de handeling.
 
 * **[!UICONTROL Clicks]**: Het aantal keren dat er op de inhoud is geklikt in de handelingen.
 

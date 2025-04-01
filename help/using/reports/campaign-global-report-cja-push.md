@@ -7,9 +7,10 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: 43b10f54-0c19-46a1-8d51-eb6bf22e6da9
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -24,15 +25,13 @@ De tabel **[!UICONTROL Sending Statistics]** bevat een uitgebreid overzicht van 
 
 +++ Meer informatie over het verzenden van statistieken
 
-* **[!UICONTROL People]**: Aantal gebruikersprofielen dat in aanmerking komt als doelprofielen voor uw pushberichten.
-
 * **[!UICONTROL Targeted]**: Het totale aantal pushmeldingen dat tijdens de analyse is verwerkt.
 
 * **[!UICONTROL Sends]**: Het totale aantal verzendingen voor de pushmelding.
 
 * **[!UICONTROL Delivered]**: Het aantal pushmeldingen dat is verzonden, in verhouding tot het totale aantal verzonden pushmeldingen.
 
-* **[!UICONTROL Bounces for outbound channels]**: het totaal aan fouten dat tijdens het verzendproces is gecumuleerd en de automatische retourverwerking in verhouding tot het totale aantal pushmeldingen.
+* **[!UICONTROL Unique delivered]**: aantal profielen waarvoor ten minste één pushmelding is ontvangen.
 
 * **[!UICONTROL Outbound errors]**: het totale aantal fouten dat is opgetreden om te voorkomen dat deze naar profielen werd verzonden.
 
@@ -50,18 +49,15 @@ De tabel van **[!UICONTROL Tracking statistics]** biedt een gedetailleerde momen
 
 * **[!UICONTROL Click through rate (CTR)]**: percentage gebruikers dat heeft gereageerd op de pushberichten.
 
-* **[!UICONTROL Click through open rate (CTOR)]**: Het aantal keren dat de pushmeldingen zijn geopend.
-
 * **[!UICONTROL Clicks]**: Het aantal keer dat er op de inhoud is geklikt in uw pushberichten.
 
 * **[!UICONTROL Unique Clicks]**: Aantal profielen dat op een inhoud in uw pushberichten heeft geklikt.
 
-<!--
-* **[!UICONTROL Push custom actions]**: 
--->
+* **[!UICONTROL Push custom actions]**: aantal aangepaste acties die door profielen zijn uitgevoerd als reactie op de pushberichten.
+
 +++
 
-## Labels voor bijgehouden koppelingen {#track-link-label-push}
+## Bijgehouden labels {#track-link-label-push}
 
 ![](assets/cja-campaign-push-link-labels.png)
 
@@ -97,7 +93,7 @@ De tabel van **[!UICONTROL Bounces Reasons]** biedt een uitgebreid overzicht van
 
 In de tabel **[!UICONTROL Error Reasons]** kunt u de specifieke fouten identificeren die zijn opgetreden tijdens het verzenden van uw pushberichten. Zo kunt u een grondige analyse van alle ondervonden problemen mogelijk maken.
 
-## Uitgesloten redenen {#exclude-reasons-push}
+## Redenen uitsluiten {#exclude-reasons-push}
 
 ![](assets/cja-campaign-push-excluded.png)
 

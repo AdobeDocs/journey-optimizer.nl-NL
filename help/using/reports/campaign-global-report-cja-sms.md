@@ -7,7 +7,8 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: bd743a3b-0317-45d9-8e76-98d5cc258752
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 0%
@@ -17,6 +18,8 @@ ht-degree: 0%
 # Rapport voor SMS-campagne {#campaign-global-report-cja-sms}
 
 ## Geleverde versus klik trend {#delivered-click-sms}
+
+![](assets/cja-campaign-sms-delivered.png)
 
 In de grafiek van **[!UICONTROL Delivered vs Click trend]** wordt een gedetailleerde analyse gegeven van de betrokkenheid van uw profielen bij uw e-mails. Deze grafiek biedt waardevolle inzichten in de interactie tussen profielen en uw inhoud.
 
@@ -29,6 +32,8 @@ In de grafiek van **[!UICONTROL Delivered vs Click trend]** wordt een gedetaille
 +++
 
 ## Leveringsstatus {#delivery-status-sms}
+
+![](assets/cja-campaign-sms-status.png)
 
 De tabel **[!UICONTROL Delivery status]** bevat een gedetailleerd overzicht van de profielactiviteiten met betrekking tot uw SMS-campagnes. Dit omvat metriek over geleverde, kliks, en andere relevante betrokkenheidsindicatoren, die een uitvoerig overzicht van aanbieden hoe de profielen met uw inhoud van SMS interactie aangaan.
 
