@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: 514e9072ba2154bdb5d587ed91111f1b3941f6d1
+source-git-commit: 87931614150d6f764f565f683f83db4f63d88ee0
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -69,6 +69,7 @@ De volgende functies worden niet in deze bètaversie opgenomen:
 * **de berichten van de Reactie**: Geautomatiseerde of vooraf bepaalde reactieberichten zullen niet in deze versie worden gesteund.
 
 ## Hoe kan ik-video {#video}
+
 
 In de onderstaande video ziet u hoe u een reis maakt met een WhatsApp-actie.
 
