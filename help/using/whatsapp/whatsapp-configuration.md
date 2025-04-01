@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
+source-git-commit: 514e9072ba2154bdb5d587ed91111f1b3941f6d1
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 2%
@@ -106,3 +106,4 @@ Nadat u de API-referentie hebt gemaakt en geconfigureerd, moet u nu een kanaalco
 1. Wanneer de controles succesvol zijn, krijgt de kanaalconfiguratie de **[!UICONTROL Active]** status. Het is klaar om te worden gebruikt om berichten te leveren.
 
 U kunt nu WhatsApp-berichten verzenden met Journey Optimizer.
+

@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
+source-git-commit: 514e9072ba2154bdb5d587ed91111f1b3941f6d1
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 2%
@@ -99,7 +99,7 @@ Merk op dat uw WhatsApp malplaatje eerst door Meta moet worden goedgekeurd alvor
 1. Van het reis of scherm van de campagneconfiguratie, klik de **[!UICONTROL Edit content]** knoop om de whatsApp berichtinhoud te vormen.
 
 <!--
-1. Select **[!UICONTROL Template message]**.
+1. Select **[!UICONTROL Template message]**. 
 -->
 
 1. Kies uw **categorie van het Malplaatje**:
