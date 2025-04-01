@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e80554570d62d1ddb52516366be55711387c5d19
+source-git-commit: 25122d6770750e6ae58d3dd8a890547a068a484e
 workflow-type: tm+mt
-source-wordcount: '2315'
+source-wordcount: '2318'
 ht-degree: 23%
 
 ---
@@ -434,13 +434,14 @@ ht-degree: 23%
 + Bijhouden en bewaken {#reporting}
    + Live rapport {#live-report}
       + [Aan de slag met Live-rapport](using/reports/live-report.md)
-      + [Lijst met componenten](using/reports/live-report-components.md)
+      + [Lijst met meetwaarden](using/reports/live-report-components.md)
       + [Journey Live-rapport](using/reports/journey-live-report.md)
       + [Campagne Live-rapport](using/reports/campaign-live-report.md)
       + [Openingspagina Live-rapport](using/reports/lp-report-live.md)
       + [Abonnementenlijst Live-rapport](using/reports/subscription-report-live.md)
    + All time report {#channel-report}
       + [Aan de slag met alle tijdrapporten](using/reports/report-gs-cja.md)
+      + [Lijst met meetwaarden](using/reports/global-report-components-cja.md)
       + [Customer Journey Analytics handmatig configureren](using/reports/cja-ajo.md)
       + [Uw rapporten beheren](using/reports/report-cja-manage.md)
       + [Voorwaarden voor rapportage en experimenten](using/reports/reporting-configuration.md)
