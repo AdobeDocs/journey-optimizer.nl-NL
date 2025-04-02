@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
+source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1424'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,16 @@ ht-degree: 1%
 Als u uw fragmenten wilt beheren, opent u de fragmentlijst via **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** links menu.
 
 Alle fragmenten die op de huidige zandbak - of [ van het **[!UICONTROL Fragments]** menu ](#create-fragments) werden gecreeerd, of gebruikend [ sparen als fragmentoptie ](#save-as-fragment) - worden getoond.
+
+In het linkerdeelvenster kunt u fragmenten ordenen in mappen. Standaard worden alle fragmenten weergegeven. Wanneer u een map selecteert, worden alleen de fragmenten en mappen in de geselecteerde map weergegeven. [Meer informatie](#folders)
+
+>[!NOTE]
+>
+>De omslagen van het fragment zijn slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid) en zullen geleidelijk aan aan meer gebruikers worden ingevoerd.
+
+![](assets/fragment-list-folders.png)
+
+Als u een specifiek item wilt zoeken, typt u een naam in het zoekveld. Wanneer de a [ omslag ](#folders) wordt geselecteerd, is het onderzoek op alle fragmenten of omslagen in het eerste niveau van hiërarchie van die omslag <!--(not nested items)--> van toepassing.
 
 U kunt fragmenten filteren op hun:
 
@@ -43,10 +53,54 @@ Via de knop **[!UICONTROL More actions]** naast elk fragment kunt u:
 * Gebruik de optie **[!UICONTROL Explore references]** om de reizen, campagnes of sjablonen te zien waar deze worden gebruikt. [Meer informatie](#explore-references)
 * Archiveer het fragment. [Meer informatie](#archive-fragments)
 * Bewerk de tags van het fragment. [ Leer hoe te met Verenigde markeringen ](../start/search-filter-categorize.md#tags) te werken
+* Verplaats het fragment naar een map. [Meer informatie](#folders)
 
-![](assets/fragment-list-more-actions.png){width="70%" align="left"}
+![](assets/fragment-list-more-actions.png)
 
-## Fragmentstatussen
+## Mappen gebruiken om fragmenten te beheren {#folders}
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragments_folders"
+>title="Uw fragmenten indelen in mappen"
+>abstract="Gebruik mappen om uw fragmenten te categoriseren en te beheren op basis van de behoeften van uw organisatie."
+
+>[!AVAILABILITY]
+>
+>De omslagen van het fragment zijn slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid) en zullen geleidelijk aan aan meer gebruikers worden ingevoerd.
+
+U kunt uw fragmenten eenvoudig navigeren door mappen zodat u ze effectiever kunt ordenen in een gestructureerde hiërarchie. Hierdoor kunt u de items indelen en beheren op basis van de behoeften van uw organisatie.
+
+![](assets/fragment-folders.png)
+
+1. Klik op de knop **[!UICONTROL All Fragments]** om alle items weer te geven die eerder zijn gemaakt zonder de mapgroep.
+
+1. Klik op de map **[!UICONTROL Root]** om alle gemaakte mappen weer te geven.
+
+   >[!NOTE]
+   >
+   >Als u nog geen mappen hebt gemaakt, worden alle fragmenten weergegeven.
+
+1. Klik op een willekeurige map in de map **[!UICONTROL Root]** om de inhoud ervan weer te geven.
+
+1. Als u op de map **[!UICONTROL Root]** of een andere map klikt, wordt de knop **[!DNL Create folder]** weergegeven. Selecteer het.
+
+   ![](assets/fragment-create-folder.png)
+
+1. Typ een naam voor de nieuwe map en klik op **[!UICONTROL Save]** . De nieuwe map wordt boven op de fragmentlijst weergegeven in de map **[!UICONTROL Root]** of in de geselecteerde map.
+
+1. U kunt op de knop **[!UICONTROL More actions]** klikken om de map een andere naam te geven of te verwijderen.
+
+   ![](assets/fragment-folder-more-actions.png)
+
+1. Met de knop **[!UICONTROL More actions]** kunt u het fragment ook naar een andere bestaande map verplaatsen.
+
+   ![](assets/fragment-folder-moved.png)
+
+1. Nu kunt u naar de map navigeren die u net hebt gemaakt. Elk nieuw fragment u [ creeert ](create-fragments.md) van hier wordt bewaard in de huidige omslag.
+
+   ![](assets/fragment-folder-create.png)
+
+## Fragmentstatussen {#fragments-statuses}
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"

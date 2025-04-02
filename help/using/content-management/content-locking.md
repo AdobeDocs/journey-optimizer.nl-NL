@@ -6,9 +6,10 @@ description: Leer hoe u inhoud in uw e-mailsjablonen kunt vergrendelen.
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 9bb2b287f6f470f817a7f7dd89346bbe2aa7d090
+exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
+source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1218'
 ht-degree: 0%
 
 ---
@@ -63,6 +64,8 @@ Het sluiten van de inhoud kan of op het **structuur** niveau, of op het **compon
 >[!AVAILABILITY]
 >
 >Gebruikers met machtigingen om inhoudssjablonen te maken, kunnen de vergrendeling van inhoud inschakelen.
+
+➡️ [ ontdekt deze eigenschap in video ](#video)
 
 ## Een e-mailsjabloon vergrendelen {#define}
 
@@ -189,3 +192,9 @@ Hier volgen enkele voorbeelden van e-maileditie en de bijbehorende configuratie 
 | Vergrendelde structuur die niet kan worden verwijderd | ![](assets/locking-sample-structure-locked-conf.png){zoomable="yes"} | ![](assets/locking-sample-structure-locked.png){zoomable="yes"} |
 | Component met vergrendelde stijlen die niet kunnen worden verwijderd. Gebruikers kunnen alleen de inhoud wijzigen. | ![](assets/locking-sample-content-only-conf.png){zoomable="yes"} | ![](assets/locking-sample-content-only.png){zoomable="yes"} |
 | Bewerkbare component binnen een vergrendelde structuur. | ![](assets/locking-sample-editable-component-conf.png){zoomable="yes"} | ![](assets/locking-sample-editable-component.png){zoomable="yes"} |
+
+## Hoe kan ik-video {#video}
+
+Leer hoe u inhoud in e-mailsjablonen kunt vergrendelen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

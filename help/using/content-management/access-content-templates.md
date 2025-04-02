@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
+source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,16 @@ Als u de lijst met inhoudssjablonen wilt openen, selecteert u **[!UICONTROL Cont
 
 Alle sjablonen die in de huidige sandbox zijn gemaakt (van een rit of een campagne met de optie **[!UICONTROL Save as template]** in het menu **[!UICONTROL Content Templates]** ), worden weergegeven. [ Leer hoe te om malplaatjes ](#create-content-templates) tot stand te brengen
 
+In het linkerdeelvenster kunt u inhoudssjablonen indelen in mappen. Standaard worden alle sjablonen weergegeven. Wanneer u een map selecteert, worden alleen de sjablonen en mappen weergegeven die in de geselecteerde map staan. [Meer informatie](#folders)
+
+>[!NOTE]
+>
+>De omslagen van het inhoudsmalplaatje zijn slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid) en zullen geleidelijk aan aan meer gebruikers worden ingevoerd.
+
+![](assets/content-template-list-folders.png)
+
+Als u een specifiek item wilt zoeken, typt u een naam in het zoekveld. Wanneer de a [ omslag ](#folders) wordt geselecteerd, is het onderzoek op alle inhoudsmalplaatjes of omslagen in het eerste niveau van hiërarchie van die omslag <!--(not nested items)--> van toepassing.
+
 U kunt inhoudssjablonen sorteren op:
 * Type
 * Kanaal
@@ -33,6 +43,44 @@ U kunt inhoudssjablonen sorteren op:
 U kunt er ook voor kiezen om alleen de zelf gemaakte of gewijzigde items weer te geven.
 
 ![](assets/content-template-list-filters.png)
+
+## Mappen gebruiken om inhoudssjablonen te beheren {#folders}
+
+>[!AVAILABILITY]
+>
+>De omslagen van het inhoudsmalplaatje zijn slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid) en zullen geleidelijk aan aan meer gebruikers worden ingevoerd.
+
+Om uw inhoudsmalplaatjes gemakkelijk te navigeren, kunt u omslagen gebruiken om hen effectiever in een gestructureerde hiërarchie te organiseren. Hierdoor kunt u de items indelen en beheren op basis van de behoeften van uw organisatie.
+
+![](assets/content-template-folders.png)
+
+1. Klik op de knop **[!UICONTROL All content templates]** om alle items weer te geven die eerder zijn gemaakt zonder de mapgroep.
+
+1. Klik op de map **[!UICONTROL Root]** om alle gemaakte mappen weer te geven.
+
+   >[!NOTE]
+   >
+   >Als u nog geen mappen hebt gemaakt, worden alle inhoudssjablonen weergegeven.
+
+1. Klik op een willekeurige map in de map **[!UICONTROL Root]** om de inhoud ervan weer te geven.
+
+1. Als u op de map **[!UICONTROL Root]** of een andere map klikt, wordt de knop **[!DNL Create folder]** weergegeven. Selecteer het.
+
+   ![](assets/content-template-create-folder.png)
+
+1. Typ een naam voor de nieuwe map en klik op **[!UICONTROL Save]** . De nieuwe map wordt boven op de lijst met inhoudssjablonen weergegeven in de map **[!UICONTROL Root]** of in de map die momenteel is geselecteerd.
+
+1. U kunt op de knop **[!UICONTROL More actions]** klikken om de map een andere naam te geven of te verwijderen.
+
+   ![](assets/content-template-folder-more-actions.png)
+
+1. Met de knop **[!UICONTROL More actions]** kunt u de inhoudssjabloon ook naar een andere bestaande map verplaatsen.
+
+   ![](assets/content-template-folder-moved.png)
+
+1. Nu kunt u naar de map navigeren die u net hebt gemaakt. Elk nieuw inhoudsmalplaatje u [ creeert ](create-content-templates.md) van hier wordt bewaard in de huidige omslag.
+
+   ![](assets/content-template-folder-create.png)
 
 ## Inhoudssjablonen bewerken en verwijderen {#edit}
 
