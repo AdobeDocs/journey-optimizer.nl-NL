@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
-source-git-commit: ea016af2dc08321bcf2e5110538031f66c888b90
+source-git-commit: 5849d1d52f3b1b075e804efbd3473d83cbac9fbe
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Als u rapporten wilt openen, selecteert u **[!UICONTROL Report]** in het menu Ge
 
 ![](assets/cja-lp.png)
 
-Meer leren op de werkruimte van de Customer Journey Analytics en hoe te om gegevens te filtreren en te analyseren, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Meer leren op de werkruimte van Customer Journey Analytics en hoe te om gegevens te filtreren en te analyseren, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Conversiesnelheid landingspagina {#lp-conversion}
 
@@ -65,7 +65,7 @@ De grafiek van **[!UICONTROL Landing page performance over time]** meet het succ
 
 * **[!UICONTROL Landing page Views]**: Het totale aantal bezoeken aan de landingspagina dat afkomstig is van reizen en externe bronnen, inclusief meerdere bezoeken van één profiel.
 
-* **[!UICONTROL Landing page Conversion rate]**: Aantal personen dat interactie had met de landingspagina, bv. geabonneerd op een formulier, in verhouding tot het totale aantal bezoeken.
+* **[!UICONTROL Landing page Conversion]**: Aantal personen dat interactie had met de landingspagina, bv. geabonneerd op een formulier, in verhouding tot het totale aantal bezoeken.
 
 ## Prestaties van bestemmingspagina {#lp-performance}
 
@@ -79,7 +79,7 @@ De tabel **[!UICONTROL Landing page performance]** fungeert als een uitgebreid d
 
 * **[!UICONTROL Unique Landing page Views]**: Het aantal personen dat uw landingspagina heeft bezocht en het aantal bezoeken van één profiel worden niet meegerekend.
 
-* **[!UICONTROL Unique Landing page Conversion rate]**: Er wordt geen rekening gehouden met het aantal personen dat interactie heeft gehad met de landingspagina en met meerdere interacties van één profiel.
+* **[!UICONTROL Unique Landing page Conversion]**: Er wordt geen rekening gehouden met het aantal personen dat interactie heeft gehad met de landingspagina en met meerdere interacties van één profiel.
 
 * **[!UICONTROL Landing page Views]**: Het totale aantal bezoeken aan de landingspagina dat afkomstig is van reizen en externe bronnen, inclusief meerdere bezoeken van één profiel.
 

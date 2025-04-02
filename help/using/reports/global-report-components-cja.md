@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: 3de7826ae4a7efc2837288779fb444fa15688d3f
+source-git-commit: 5849d1d52f3b1b075e804efbd3473d83cbac9fbe
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1829'
 ht-degree: 0%
 
 ---
@@ -444,53 +444,214 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
   <tr> 
    <th> Metrisch <br/> </th> 
    <th> Definition<br/> </th> 
-</tr>
+  </tr>
  </thead> 
  <tbody>
  <tr> 
-  <td>Bounces <br/> </td> 
-   <td>Aantal personen die niet met de het landen pagina in wisselwerking stonden en niet de actie van het intekenen voltooiden.<br/> </td> 
+   <td>Stuitsnelheid <br/> </td> 
+   <td>Percentage personen die de landingspagina hebben bekeken maar niet hebben gecommuniceerd of zich niet hebben geabonneerd, in verhouding tot het totale aantal bezoeken.<br/> </td> 
 </tr>
  <tr> 
-   <td>Stuitsnelheid <br/> </td> 
-   <td>Aantal personen die niet met de landingspagina in wisselwerking stonden en de actie van het intekenen niet voltooiden, met betrekking tot het totale aantal bezoeken.<br/> </td> 
-</tr>
- <tr>
-  <tr> 
    <td>Klikken <br/> </td> 
    <td>Aantal keren dat op een inhoud is geklikt op de bestemmingspagina.<br/> </td> 
 </tr>
- <tr> 
-   <td>Klikfrequentie <br/> </td> 
-   <td>Percentage van kliks in de het landen pagina.<br/> </td>
-</tr>
-<tr>
-<td>Conversie <br/> </td> 
+
+<tr> 
+   <td>Conversie van bestemmingspagina <br/> </td> 
    <td>Aantal personen dat interactie had met de landingspagina, bijvoorbeeld geabonneerd op een formulier.<br/> </td> 
 </tr>
-<tr>
+<tr> 
+   <td>Conversiesnelheid van bestemmingspagina <br/> </td> 
+   <td>Percentage personen die interactie hadden met de landingspagina, bijvoorbeeld geabonneerd op een formulier, in verhouding tot het totale aantal bezoeken.<br/> </td> 
+</tr>
+ <tr> 
+   <td>Weergaven van bestemmingspagina<br/> </td> 
+   <td>Het totale aantal bezoeken aan uw landingspagina van reizen en externe bronnen, met inbegrip van veelvoudige bezoeken van het zelfde profiel.<br/> </td> 
+</tr>
+<tr> 
+   <td>Unieke omzettingen van landingspagina's <br/> </td> 
+   <td>Aantal unieke personen dat interactie had met de landingspagina, exclusief meerdere interacties van hetzelfde profiel.<br/> </td> 
+</tr>
+ <tr> 
+   <td>Unieke openingspagina-weergaven <br/> </td> 
+   <td>Aantal unieke personen die uw landingspagina hebben bezocht, exclusief meerdere bezoeken van hetzelfde profiel.<br/> </td> 
+</tr>
+ </tbody> 
+</table>
+
+## Direct mail {#direct-mail}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metrisch <br/> </th> 
+   <th> Definition<br/> </th> 
+  </tr>
+ </thead> 
+ <tbody>
+<tr> 
+   <td>Geleverd <br/> </td> 
+   <td>Aantal direct-mailberichten die met succes aan ontvangers werden geleverd.<br/> </td> 
+</tr>
+<tr> 
+   <td>Uitgaande fouten <br/> </td> 
+   <td>Aantal direct-mailberichten die fouten tijdens verwerking of het verzenden tegenkwamen, verhinderend succesvolle levering.<br/> </td> 
+</tr>
+<tr> 
+   <td>Uitgaande uitsluitingen <br/> </td> 
+   <td>Aantal profielen dat van het ontvangen van direct mail wegens vooraf bepaalde criteria of het filtreren door Adobe Journey Optimizer wordt uitgesloten.<br/> </td> 
+</tr>
+<tr> 
+   <td>Profielen <br/> </td> 
+   <td>Aantal gebruikersprofielen die als doelpubliek voor de direct-mailcampagne worden geïdentificeerd.<br/> </td> 
+</tr>
+<tr> 
+   <td>Verzonden<br/> </td> 
+   <td>Het totale aantal direct-mailberichten met succes verzonden als deel van de campagne.<br/> </td> 
+</tr>
+<tr> 
+   <td>Gericht <br/> </td> 
+   <td>Het totale aantal direct-mailberichten dat voor verzending wordt voorbereid en verwerkt.<br/> </td> 
+</tr>
+ </tbody> 
+</table>
+
+
+## Metingen van inhoudskaarten {#content-based}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metrisch <br/> </th> 
+   <th> Definition<br/> </th> 
+  </tr>
+ </thead> 
+ <tbody>
+<tr> 
+   <td>Klik door tarief (CTR) <br/> </td> 
+   <td>Percentage gebruikers die met de kaart van de Inhoud interactie hadden.<br/> </td> 
+</tr>
+<tr> 
+   <td>Klikken <br/> </td> 
+   <td>Aantal keren dat op de inhoudskaart op een inhoud is geklikt.<br/> </td> 
+</tr>
+<tr> 
+   <td>Weergaven <br/> </td> 
+   <td>Aantal tijden het bericht werd geopend.<br/> </td> 
+</tr>
+<tr> 
+   <td>Personen <br/> </td> 
+   <td>Aantal gebruikersprofielen dat als doelprofielen voor uw kaarten van de Inhoud kwalificeert.<br/> </td> 
+</tr>
+<tr> 
+   <td>Unieke klikken <br/> </td> 
+   <td>Aantal profielen dat op een inhoud in uw Tevreden kaart klikte.<br/> </td> 
+</tr>
+<tr> 
+   <td>Unieke weergaven <br/> </td> 
+   <td>Aantal tijden het bericht werd geopend, worden de veelvoudige interactie van één profiel niet in aanmerking genomen.<br/> </td> 
+</tr>
+ </tbody> 
+</table>
+
+## Metrische webpagina&#39;s {#web}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metrisch <br/> </th> 
+   <th> Definition<br/> </th> 
+  </tr>
+ </thead> 
+ <tbody>
+<tr> 
+   <td>Klikken <br/> </td> 
+   <td>Aantal tijden een inhoud in uw Web-pagina's werd geklikt.<br/> </td> 
+</tr>
+<tr> 
+   <td>Klik door tarief (CTR) <br/> </td> 
+   <td>Percentage gebruikers die met de Web-pagina's interactie hadden.<br/> </td> 
+</tr>
+<tr> 
+   <td>Weergaven <br/> </td> 
+   <td>Aantal tijden de Web-pagina werd geopend.<br/> </td> 
+</tr>
+<tr> 
+   <td>Personen <br/> </td> 
+   <td>Aantal profielen die als doelprofielen voor uw Web-pagina's kwalificeren.<br/> </td> 
+</tr>
+<tr> 
+   <td>Unieke klikken <br/> </td> 
+   <td>Aantal profielen die op een inhoud in uw Web-pagina's klikte.<br/> </td> 
+</tr>
+<tr> 
+   <td>Unieke weergaven <br/> </td> 
+   <td>Aantal tijden de Web-pagina werd geopend, worden de veelvoudige interactie van één profiel niet in aanmerking genomen.<br/> </td> 
+</tr>
+ </tbody> 
+</table>
+
+## Op code gebaseerde ervaringen metriek {#code-based}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metrisch <br/> </th> 
+   <th> Definition<br/> </th> 
+  </tr>
+ </thead> 
+ <tbody>
+<tr> 
+   <td>Klikken <br/> </td> 
+   <td>Het totale aantal tijden de gebruikers op gepersonaliseerde ervaringen klikten die aan hen werden getoond.<br/> </td> 
+</tr>
+<tr> 
+   <td>Klikken-door tarief (CTR) <br/> </td> 
+   <td>Percentage gebruikers die op een verbinding, een advertentie, of een aanbeveling in vergelijking met het aantal tijden klikken het werd getoond.<br/> </td> 
+</tr>
+<tr> 
    <td>Conversiesnelheid <br/> </td> 
-   <td>Aantal personen dat interactie had met de landingspagina, bijvoorbeeld geabonneerd op een formulier, in verhouding tot het totale aantal bezoeken.<br/> </td> 
+   <td>Percentage vertoningen dat in gebruikersacties (b.v., klikken) resulteerde, die op het succes van het model in het in dienst nemen van gebruikers wijzen.<br/> </td> 
 </tr>
- <tr> 
-   <td>Reis(en) <br/> </td> 
-   <td>Aantal bezoeken aan uw landingspagina die van een reis komen.<br/> </td> 
+<tr> 
+   <td>Prestaties van beslissingspunten <br/> </td> 
+   <td>Evalueert hoe goed elk punt in het in dienst nemen van gebruikers en het drijven gewenste acties, zoals aankopen, klikt, of andere reacties presteert.<br/> </td> 
 </tr>
- <tr> 
-   <td>Andere bronnen <br/> </td> 
-   <td>Aantal bezoeken aan uw landende pagina die uit een externe bron in plaats van een reis komen.<br/> </td> 
+<tr> 
+   <td>Het besluiten KPIs <br/> </td> 
+   <td>Belangrijke inzichten in de betrokkenheid van bezoekers bij ervaringen, waaronder totaalaantal items, totale kliks, totaal aantal weergaven en terugvalpercentage.<br/> </td> 
 </tr>
- <tr> 
-   <td>Totaal aantal bezoeken <br/> </td> 
-   <td> Het totale aantal bezoeken aan uw landingspagina die uit reizen en externe bronnen, met inbegrip van veelvoudige bezoeken van één profiel komen.<br/> </td> 
+<tr> 
+   <td>Weergaven <br/> </td> 
+   <td>Het totale aantal tijden gepersonaliseerde ervaringen werden getoond of aan gebruikers over diverse touchpoints voorgesteld.<br/> </td> 
 </tr>
- <tr> 
-   <td>Unieke bezoekers <br/> </td> 
-   <td>Aantal personen dat uw landingspagina heeft bezocht, er wordt geen rekening gehouden met meerdere bezoeken van één profiel.<br/> </td> 
+<tr> 
+   <td>De Kanaal van de Overeenkomst <br/> </td> 
+   <td>Controleert de prestaties van gepersonaliseerde ervaringen door te beoordelen hoe effectief elk stadium van de trechter gebruikersinteractie drijft.<br/> </td> 
 </tr>
- <tr> 
-   <td>Bezoekingen <br/> </td> 
-   <td>Aantal bezoeken aan uw landende pagina, met inbegrip van veelvoudige bezoeken van één profiel.<br/> </td> 
+<tr> 
+   <td>Het Kanaal van de Aanverbintenis door de Strategie van de Selectie <br/> </td> 
+   <td>Controleert en analyseert hoe effectief de verschillende selectiestrategieën gebruikers met gepersonaliseerde ervaringen in dienst nemen.<br/> </td> 
+</tr>
+<tr> 
+   <td>Personen <br/> </td> 
+   <td>Aantal gebruikersprofielen die als doelprofielen voor uw op code-gebaseerde ervaringen kwalificeren.<br/> </td> 
+</tr>
+<tr> 
+   <td>Rangschikkende Strategie <br/> </td> 
+   <td>Inzichten in de prestaties van AI-gedreven rangschikkingsmodellen die twee verkeerstypes vergelijken: Model Gedreven en Holdout.<br/> </td> 
+</tr>
+<tr> 
+   <td>De hoogste besluitvormingspunten door CTR <br/> </td> 
+   <td>Benadrukt de prestaties van individuele punten die op hun Klikken-door Tarief (CTR) worden gebaseerd, die helpen welke punten bij het in dienst nemen van gebruikers het meest efficiënt beoordelen.<br/> </td> 
+</tr>
+<tr> 
+   <td>Unieke klikken <br/> </td> 
+   <td>Aantal profielen die op een inhoud in uw op code-gebaseerde ervaringen klikte.<br/> </td> 
+</tr>
+<tr> 
+   <td>Unieke weergaven <br/> </td> 
+   <td>Aantal malen dat de ervaring is geopend, wordt geen rekening gehouden met meerdere interacties van één profiel.<br/> </td> 
 </tr>
  </tbody> 
 </table>
