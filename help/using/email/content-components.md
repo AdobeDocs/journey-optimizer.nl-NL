@@ -12,7 +12,7 @@ exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1265'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -20,22 +20,22 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
->title="Informatie over inhoudscomponenten"
+>title="Informatie over contentonderdelen"
 >abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een e-mail te maken."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
->title="Informatie over inhoudscomponenten"
+>title="Informatie over contentonderdelen"
 >abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een bestemmingspagina te maken."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
->title="Informatie over inhoudscomponenten"
+>title="Informatie over contentonderdelen"
 >abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een fragment te maken."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"
->title="Informatie over inhoudscomponenten"
+>title="Informatie over contentonderdelen"
 >abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een sjabloon te maken."
 
 Wanneer u uw e-mailinhoud maakt, kunt u in **[!UICONTROL Content components]** uw e-mail verder aanpassen met onbewerkte onderdelen die u kunt bewerken wanneer u deze eenmaal in een e-mail hebt geplaatst.
