@@ -5,7 +5,7 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 25122d6770750e6ae58d3dd8a890547a068a484e
+source-git-commit: 8675df765f2b45ac101d814777a5013e996db4c6
 workflow-type: tm+mt
 source-wordcount: '2318'
 ht-degree: 23%
@@ -422,7 +422,7 @@ ht-degree: 23%
       + [Werken met berekende kenmerken](using/audience/computed-attributes.md)
    + [Identiteiten](using/audience/get-started-identity.md)
    + [Licentiegebruik](using/audience/license-usage.md)
-+ Integraties {#assets-images}
++ Integraties {#integrations}
    + [Integratie met andere oplossingen](using/integrations/ajo-integrations.md)
    + [Werken met Experience Manager Assets](using/integrations/assets.md)
    + [Werken met Adobe Stock](using/integrations/stock.md)
