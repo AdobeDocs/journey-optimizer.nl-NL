@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
+source-git-commit: a82c9e2d999b28ed97374f3a3804e11d4acd7983
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: '1729'
 ht-degree: 0%
 
 ---
@@ -227,27 +227,26 @@ Zodra gecreeerd, kan het besluitvormingsbeleid in de [ verpersoonlijkingsredacte
 
 Voer de onderstaande stappen uit om uw op code gebaseerde ervaring te voltooien en uw wijzigingen live te zetten.
 
-1. Geef vóór het publiceren een voorvertoning weer van uw op code gebaseerde ervaring om deze te testen.
-
-   >[!CAUTION]
-   >
-   >Momenteel kunt u geen inhoud van het gebruikersinterface in a [ code-gebaseerde ervaring ](../code-based/create-code-based.md) campagne of reis simuleren gebruikend besluiten.
-
-   Als u de beslissing wilt testen, kunt u de markering `dryRun` toevoegen aan het XDM-gebeurtenisblok `data` in uw clientimplementatie:
-
-   ```
-   {
-   "data": {
-       "__adobe": {
-       "ajo":
-   {         "dryRun": true       }
-       }
-   }
-   }
-   ```
-
 1. Bekijk en publiceer uw op code gebaseerde ervaringscampagne of reis. [ leer hoe ](../code-based/publish-code-based.md)
 
    Zodra uw ontwikkelaar een API- of SDK-aanroep maakt om inhoud op te halen voor het oppervlak dat is gedefinieerd in uw kanaalconfiguratie, worden de wijzigingen toegepast op uw webpagina of app.
 
+1. Momenteel kunt u geen inhoud van het gebruikersinterface in a [ code-gebaseerde ervaring ](../code-based/create-code-based.md) campagne of reis simuleren gebruikend besluiten.
+
+   Als tijdelijke oplossing kunt u de besluitvorming testen nadat u uw campagne hebt gepubliceerd door de markering `dryRun` toe te voegen aan het XDM-gebeurtenisblok `data` in uw clientimplementatie:
+
+   ```
+   {
+       "data": {
+           "__adobe": {
+               "ajo": {
+                   "dryRun": true
+               }
+           }
+       }
+   }
+   ```
+
 1. Om te zien hoe uw besluiten presteren, kunt u douane [ Customer Journey Analytics nu creëren rapporterend dashboards ](cja-reporting.md).
+
+
