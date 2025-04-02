@@ -7,14 +7,23 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 2fe9fb915e4aaf13458e46d5eeb177862416907d
+exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
 
 # Op code gebaseerd campagnerapport {#campaign-global-report-cja-code}
+
+>[!BEGINSHADEBOX]
+
+U kunt het campagnerapport op basis van code openen door in uw campagne op de knop **[!UICONTROL Reports]** te klikken en vervolgens **[!UICONTROL View all time report]** te selecteren. [Meer informatie](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## Weergeven en klikken {#impressions-code}
 

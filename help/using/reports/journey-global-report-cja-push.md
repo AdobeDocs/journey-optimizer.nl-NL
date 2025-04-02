@@ -7,14 +7,23 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: 6d4b7669-7852-42f0-9347-399a3994011f
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
 
 # Reizigersrapport {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+U hebt toegang tot het rapport van de pushmelding door op de knop **[!UICONTROL View report]** te klikken tijdens de reis. [Meer informatie](report-gs-cja.md)
+
+![](assets/report-access-jo.png)
+
+>[!ENDSHADEBOX]
 
 ## Verzendstatistieken {#sending-statistics-push}
 
@@ -56,9 +65,7 @@ De tabel van **[!UICONTROL Tracking statistics]** biedt een gedetailleerde momen
 
 * **[!UICONTROL Unique Clicks]**: Aantal profielen dat op een inhoud in uw pushmelding heeft geklikt.
 
-<!--
-* **[!UICONTROL Push custom actions]**: 
--->
+* **[!UICONTROL Push custom actions]**: aantal aangepaste acties die door profielen zijn uitgevoerd als reactie op de pushberichten.
 +++
 
 ## Labels voor bijgehouden koppelingen {#track-link-label-push}

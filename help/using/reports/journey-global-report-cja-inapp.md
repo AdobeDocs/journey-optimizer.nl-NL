@@ -8,28 +8,34 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
 
 # Reisrapport in de app {#journey-global-report}
 
+>[!INFO]
+>
+>Uw reisrapport kan informatie over meerdere reizen tegelijk weergeven, aangezien gebruikers bij meer dan één reis tegelijk betrokken kunnen zijn. Dientengevolge, kunnen de binnenkomende mededelingen (in-app, Web en op code-Gebaseerd) in veelvoudige reizen verschijnen als zij voor een gebruiker die aan gelijktijdige actieve reizen deelneemt werden teweeggebracht, wat in overlappende gegevens kan resulteren.
+
 >[!BEGINSHADEBOX]
 
-Uw reisrapport kan informatie over meerdere reizen tegelijk weergeven, aangezien gebruikers bij meer dan één reis tegelijk betrokken kunnen zijn. Dientengevolge, kunnen de binnenkomende mededelingen (in-app, Web en op code-Gebaseerd) in veelvoudige reizen verschijnen als zij voor een gebruiker die aan gelijktijdige actieve reizen deelneemt werden teweeggebracht, wat in overlappende gegevens kan resulteren.
+U kunt uw rapport over de reis in de app openen door op de knop **[!UICONTROL Reports]** te klikken. [Meer informatie](report-gs-cja.md)
+
+![](assets/report-access.png)
 
 >[!ENDSHADEBOX]
 
-## Impressie en klik op trend {#impression-click-trend}
+## Tendens weergeven en klikken {#display-click-trend}
 
 ![](assets/cja-inapp-impressions-click.png)
 
-De grafiek van **[!UICONTROL Impression & Click trend]** bevat een gedetailleerde analyse van de betrokkenheid van uw profielen bij uw In-app-berichten. Deze grafiek biedt waardevolle inzichten in de interactie tussen profielen en uw inhoud.
+De grafiek van **[!UICONTROL Display & Click trend]** bevat een gedetailleerde analyse van de betrokkenheid van uw profielen bij uw In-app-berichten. Deze grafiek biedt waardevolle inzichten in de interactie tussen profielen en uw inhoud.
 
-+++ Meer informatie over depressie en klik op cijfers over trends
++++ Meer informatie over weergave en klik op cijfers over trends
 
 * **[!UICONTROL Clicks]**: Het aantal keren dat er op de inhoud is geklikt in uw In-app-berichten.
 

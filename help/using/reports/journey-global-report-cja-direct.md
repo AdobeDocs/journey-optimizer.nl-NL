@@ -7,14 +7,23 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: 6fae8beb-ca40-40a1-8939-c309fbf46c4f
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
 
 # Directe-mailreisrapport {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+U hebt toegang tot uw rapport voor Direct-mail-reizen door op de knop **[!UICONTROL View report]** te klikken tijdens uw reis. [Meer informatie](report-gs-cja.md)
+
+![](assets/report-access-jo.png)
+
+>[!ENDSHADEBOX]
 
 ## Verzendstatistieken {#sending-statistics-directmail}
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,11 @@ Door op de naam van om het even welke campagne te klikken die in deze lijst word
 
 * **[!UICONTROL People]**: Aantal gebruikersprofielen dat als doelprofielen voor uw berichten in aanmerking komt.
 
+* **[!UICONTROL Click through rate (CTR)]**: percentage klikken in uw berichten.
+
 * **[!UICONTROL Sends]**: Het totale aantal verzendingen voor elke campagne.
+
+* **[!UICONTROL Delivered]**: Aantal berichten verzonden.
 
 * **[!UICONTROL Displays]**: Het aantal keren dat het bericht is geopend.
 
@@ -107,9 +111,9 @@ De tabel **[!UICONTROL Channels]** bevat een gedetailleerde uitsplitsing van de 
 
 * **[!UICONTROL People]**: Aantal gebruikersprofielen dat als doelprofielen voor uw berichten in aanmerking komt.
 
-* **[!UICONTROL Click through rate]**: percentage klikken in uw berichten.
+* **[!UICONTROL Click through rate (CTR)]**: percentage klikken in uw berichten.
 
-* **[!UICONTROL Sends]**: Het totale aantal verzendingen voor elke campagne.
+* **[!UICONTROL Delivered]**: Aantal berichten verzonden.
 
 * **[!UICONTROL Displays]**: Het aantal keren dat het bericht is geopend.
 

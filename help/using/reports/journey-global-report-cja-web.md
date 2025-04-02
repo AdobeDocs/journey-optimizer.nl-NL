@@ -8,18 +8,24 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7591a07b-1680-4081-a745-192755d35371
-source-git-commit: 673e86ccd07c7afdf0b87859434145f16f7b7d26
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
 
 # Webreisrapport {#journey-global-report}
 
+>[!INFO]
+>
+>Uw reisrapport kan informatie over meerdere reizen tegelijk weergeven, aangezien gebruikers bij meer dan één reis tegelijk betrokken kunnen zijn. Dientengevolge, kunnen de binnenkomende mededelingen (in-app, Web en op code-Gebaseerd) in veelvoudige reizen verschijnen als zij voor een gebruiker die aan gelijktijdige actieve reizen deelneemt werden teweeggebracht, wat in overlappende gegevens kan resulteren.
+
 >[!BEGINSHADEBOX]
 
-Uw reisrapport kan informatie over meerdere reizen tegelijk weergeven, aangezien gebruikers bij meer dan één reis tegelijk betrokken kunnen zijn. Dientengevolge, kunnen de binnenkomende mededelingen (in-app, Web en op code-Gebaseerd) in veelvoudige reizen verschijnen als zij voor een gebruiker die aan gelijktijdige actieve reizen deelneemt werden teweeggebracht, wat in overlappende gegevens kan resulteren.
+U kunt tot uw de reisrapport van het Web toegang hebben door de **[!UICONTROL View report]** knoop binnen uw reis te klikken. [Meer informatie](report-gs-cja.md)
+
+![](assets/report-access-jo.png)
 
 >[!ENDSHADEBOX]
 

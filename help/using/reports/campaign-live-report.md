@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '3276'
+source-wordcount: '3280'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 0%
 >title="Campagne live-rapport"
 >abstract="Met het live rapport Campagne kunt u de impact en prestaties van uw campagnes in real-time alleen in de afgelopen 24 uur meten en visualiseren. Uw rapport is verdeeld in verschillende widgets waarin het succes en de fouten van uw campagne worden beschreven. Elk rapportdashboard kan worden gewijzigd door widgets te vergroten of te verkleinen of te verwijderen."
 
-Live rapporten, die toegankelijk zijn vanaf het tabblad Laatste 24 uur, geven gebeurtenissen weer die in de afgelopen 24 uur hebben plaatsgevonden, met een minimale tijdsinterval van twee minuten vanaf de gebeurtenis. Ter vergelijking, de rapporten van de Customer Journey Analytics concentreren zich op gebeurtenissen die minstens twee uur geleden voorkwamen en gebeurtenissen over een geselecteerde tijdspanne behandelen.
+Live rapporten, die toegankelijk zijn vanaf het tabblad Laatste 24 uur, geven gebeurtenissen weer die in de afgelopen 24 uur hebben plaatsgevonden, met een minimale tijdsinterval van twee minuten vanaf de gebeurtenis. Ter vergelijking, Customer Journey Analytics rapporteert zich op gebeurtenissen die minstens twee uur geleden hebben plaatsgevonden en gebeurtenissen gedurende een bepaalde tijdsperiode.
 
-U hebt rechtstreeks vanuit uw campagne via de knop **[!UICONTROL Live view]** toegang tot het live rapport over de campagne.
+U hebt rechtstreeks vanuit uw campagne toegang tot het live-campagnerapport door op de knop **[!UICONTROL Reports]** te klikken en vervolgens **[!UICONTROL View last 24hrs report]** te selecteren.
 
 De pagina Campagne **[!UICONTROL Live report]** wordt weergegeven met de volgende tabbladen:
 

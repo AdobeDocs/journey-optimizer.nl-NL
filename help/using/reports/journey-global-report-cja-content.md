@@ -7,14 +7,23 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: f68df6ee-d74e-46b4-a53f-b0eb50101e85
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
 
 # Reisrapport voor inhoudskaart {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+U kunt het reisrapport van de inhoudskaart openen door op de knop **[!UICONTROL View report]** te klikken. [Meer informatie](report-gs-cja.md)
+
+![](assets/report-access-jo.png)
+
+>[!ENDSHADEBOX]
 
 ## Weergeven en klikken {#displays-content-card}
 

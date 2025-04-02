@@ -7,14 +7,23 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: b0771fd9-72bd-4891-a394-f08e3dde6126
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
 
 # Campagnerapport voor e-mail {#campaign-global-report-cja-direct}
+
+>[!BEGINSHADEBOX]
+
+U kunt het campagnerapport voor Direct mail openen door in uw campagne op de knop **[!UICONTROL Reports]** te klikken en vervolgens **[!UICONTROL View all time report]** te selecteren. [Meer informatie](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## Verzendstatistieken {#sending-statistics-directmail}
 
