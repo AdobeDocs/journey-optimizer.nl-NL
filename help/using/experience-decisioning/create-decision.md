@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 3abaa58fa4fa3baae5c7072bdc112de4a5e9119a
+source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1734'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Beslissingsbeleid zijn containers voor uw aanbiedingen die de beslissingsengine gebruiken om de beste inhoud te kiezen die u kunt leveren, afhankelijk van het publiek.
 
-Het beslissingsbeleid bevat alle selectielogica waarmee de beslissingsengine de beste inhoud kan kiezen. Het besluitvormingsbeleid is specifiek voor de campagne. Hun doel is de beste aanbiedingen voor elk profiel te selecteren terwijl het campagneontwerp u toestaat om erop te wijzen hoe de geselecteerde besluitvormingspunten zouden moeten worden voorgesteld, met inbegrip van welke puntattributen om in het bericht worden omvat.
+<!--Decision policies contain all of the selection logic for the decisioning engine to pick the best content. Decision policies are campaign specific. -->Hun doel is de beste aanbiedingen voor elk profiel te selecteren, terwijl het campagne/reis auteursrecht u toestaat om te wijzen op hoe de geselecteerde besluitvormingspunten, met inbegrip van welke puntattributen in het bericht moeten worden omvat.
 
 >[!NOTE]
 >
@@ -31,11 +31,11 @@ Het beslissingsbeleid bevat alle selectielogica waarmee de beslissingsengine de 
 
 De belangrijkste stappen om besluitvormingsbeleid in uw op code-gebaseerde campagnes te gebruiken zijn als volgt:
 
-1. [Een beslissingsbeleid maken in een op code gebaseerde campagne](#add-decision)
-1. [Gebruik het besluitvormingsbeleid in de op code-gebaseerde campagne](#use-decision-policy)
-1. [Aangepaste Customer Journey Analytics-rapporteringsdashboards maken](#cja)
+1. [Voeg een besluitvormingsbeleid aan een op code-gebaseerde ervaring toe](#add-decision)
+1. [Het beslissingsbeleid gebruiken](#use-decision-policy)
+1. [Aangepaste Customer Journey Analytics-rapporteringsdashboards maken](cja-reporting.md)
 
-## Voeg een besluitvormingsbeleid aan een code-gebaseerde campagne toe {#add-decision}
+## Voeg een besluitvormingsbeleid aan een op code-gebaseerde ervaring toe {#add-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
@@ -54,7 +54,7 @@ De belangrijkste stappen om besluitvormingsbeleid in uw op code-gebaseerde campa
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Strategieën maken"
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Evaluatievolgorde"
 
-Als u uw bezoekers de beste dynamische aanbieding en ervaring wilt laten zien op uw website of mobiele app, voegt u een beslissingsbeleid toe aan een op code gebaseerde campagne. Volg de onderstaande stappen om dit te doen.
+Als u uw bezoekers de beste dynamische aanbieding en ervaring wilt laten zien op uw website of mobiele app, voegt u een beslissingsbeleid toe aan een op code gebaseerde campagne of reis. Volg de onderstaande stappen om dit te doen.
 
 ### Het beslissingsbeleid maken {#add}
 
@@ -221,3 +221,33 @@ Zodra gecreeerd, kan het besluitvormingsbeleid in de [ verpersoonlijkingsredacte
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
+1. Klik op **[!UICONTROL Save and close]** om uw wijzigingen te bevestigen.
+
+## Uw op code gebaseerde ervaring testen en publiceren {#test-and-publish}
+
+Voer de onderstaande stappen uit om uw op code gebaseerde ervaring te voltooien en uw wijzigingen live te zetten.
+
+1. Geef vóór het publiceren een voorvertoning weer van uw op code gebaseerde ervaring om deze te testen.
+
+   >[!CAUTION]
+   >
+   >Momenteel kunt u geen inhoud van het gebruikersinterface in a [ code-gebaseerde ervaring ](../code-based/create-code-based.md) campagne of reis simuleren gebruikend besluiten.
+
+   Als u de beslissing wilt testen, kunt u de markering `dryRun` toevoegen aan het XDM-gebeurtenisblok `data` in uw clientimplementatie:
+
+   ```
+   {
+   "data": {
+       "__adobe": {
+       "ajo":
+   {         "dryRun": true       }
+       }
+   }
+   }
+   ```
+
+1. Bekijk en publiceer uw op code gebaseerde ervaringscampagne of reis. [ leer hoe ](../code-based/publish-code-based.md)
+
+   Zodra uw ontwikkelaar een API- of SDK-aanroep maakt om inhoud op te halen voor het oppervlak dat is gedefinieerd in uw kanaalconfiguratie, worden de wijzigingen toegepast op uw webpagina of app.
+
+1. Om te zien hoe uw besluiten presteren, kunt u douane [ Customer Journey Analytics nu creëren rapporterend dashboards ](cja-reporting.md).

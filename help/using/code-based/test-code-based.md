@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: c402a8ab41eb588eae47463fd0217693853d8ca7
+source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,11 @@ Volg de onderstaande stappen om een voorvertoning weer te geven van uw aangepast
 1. Er wordt een voorvertoning van uw aangepaste ervaring op basis van code weergegeven.
 
 De gedetailleerde informatie over hoe te om testprofielen te selecteren en uw inhoud voor te vertonen is beschikbaar in [ deze sectie ](../content-management/preview.md).
+
+>[!NOTE]
+>
+>Momenteel kunt u geen inhoud van het gebruikersinterface in een code-gebaseerde ervaringscampagne of reis simuleren gebruikend [ Beslissing ](../experience-decisioning/gs-experience-decisioning.md). Een alternerende actie is beschikbaar in [ deze sectie ](../experience-decisioning/create-decision.md).
+
 
 ## Voorvertonen op apparaat {#preview-on-device}
 
