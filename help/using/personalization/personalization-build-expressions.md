@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expression, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 4240f64cd7b6473f589d2324a2ebf87e2c60d394
+source-git-commit: 1171888c277e58f45590cc17cb01885bd385b740
 workflow-type: tm+mt
-source-wordcount: '1364'
+source-wordcount: '1390'
 ht-degree: 0%
 
 ---
@@ -99,9 +99,15 @@ In het navigatievenster kunt u de bron voor personalisatie selecteren. Beschikba
 >title="Automatisch voltooid"
 >abstract="Als u deze optie inschakelt, kan het systeem automatisch code voorstellen en voltooien terwijl u typt. Deze functie is alleen beschikbaar voor HTML- en Text-indelingen en ondersteunt profiel- en contextkenmerken. Als deze optie via de schakeloptie is uitgeschakeld, wordt de native HTML-code automatisch ingevuld."
 
-De centrale werkruimte is waar u uw verpersoonlijkingssyntaxis bouwt. Als u een kenmerk wilt gebruiken om uw bericht aan te passen, zoekt u het in het navigatiegebied en klikt u op de knop `+` om het aan de expressie toe te voegen.
+De centrale werkruimte is waar u uw verpersoonlijkingssyntaxis bouwt. Als u een kenmerk wilt gebruiken om uw bericht aan te passen, zoekt u het in het venster Kenmerken en klikt u op de knop `+` om het aan de expressie toe te voegen.
+
+![](assets/personalization-add-attribute.png)
 
 Met het ellipsmenu naast het pictogram `+` kunt u meer details voor elk kenmerk ophalen en veelgebruikte kenmerken toevoegen aan favorieten. Kenmerken die aan favorieten worden toegevoegd, zijn toegankelijk via het menu **[!UICONTROL Favorites]** in het navigatiegebied.
+
+>[!NOTE]
+>
+>Standaard worden in het venster Kenmerken alleen gevulde kenmerken weergegeven. Als u alle kenmerken wilt weergeven, selecteert u de knop ![](assets/do-not-localize/settings-icon.svg) boven het zoekveld en schakelt u de optie **[!UICONTROL Show only populated attributes]** in of uit.
 
 Daarnaast kunt u standaardfallback-tekst definiëren die wordt weergegeven als een tekenreekstype profielkenmerk leeg is. Klik hiertoe op de knop voor het weglatingsteken naast het kenmerk en selecteer **[!UICONTROL Insert with fallback text]** . Schrijf de tekst die standaard moet worden weergegeven als de waarde van het kenmerk leeg is voor een profiel en klik vervolgens op **[!UICONTROL Add]** .
 
