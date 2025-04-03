@@ -6,16 +6,17 @@ description: Meer informatie over het starten en bewaken van multi-step campagne
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 70864a3e14a748562518c699513184e0f63c1139
+source-git-commit: 990d49202a790b5a117a7da665ed32f52f27b554
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
 
 # Uw georkestreerde campagnes starten en controleren {#start-monitor}
 
-<audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">Uw browser ondersteunt het audio-element niet.</audio>
+<!--
+<audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> -->
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
