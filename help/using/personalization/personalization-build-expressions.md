@@ -10,7 +10,7 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expression, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 1171888c277e58f45590cc17cb01885bd385b740
+source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
 workflow-type: tm+mt
 source-wordcount: '1390'
 ht-degree: 0%
@@ -107,7 +107,7 @@ Met het ellipsmenu naast het pictogram `+` kunt u meer details voor elk kenmerk 
 
 >[!NOTE]
 >
->Standaard worden in het venster Kenmerken alleen gevulde kenmerken weergegeven. Als u alle kenmerken wilt weergeven, selecteert u de knop ![](assets/do-not-localize/settings-icon.svg) boven het zoekveld en schakelt u de optie **[!UICONTROL Show only populated attributes]** in of uit.
+>Standaard worden in het venster Kenmerken alleen gevulde kenmerken weergegeven. Als u alle kenmerken wilt weergeven, selecteert u de knop ![](assets/do-not-localize/settings-icon.svg) boven het zoekveld en schakelt u de optie **[!UICONTROL Show only populated attributes]** uit.
 
 Daarnaast kunt u standaardfallback-tekst definiëren die wordt weergegeven als een tekenreekstype profielkenmerk leeg is. Klik hiertoe op de knop voor het weglatingsteken naast het kenmerk en selecteer **[!UICONTROL Insert with fallback text]** . Schrijf de tekst die standaard moet worden weergegeven als de waarde van het kenmerk leeg is voor een profiel en klik vervolgens op **[!UICONTROL Add]** .
 
