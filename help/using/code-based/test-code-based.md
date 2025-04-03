@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
+source-git-commit: effc706cfa56eca21cde0f26fe7b6332d3728b74
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 0%
@@ -40,7 +40,7 @@ De gedetailleerde informatie over hoe te om testprofielen te selecteren en uw in
 
 >[!NOTE]
 >
->Momenteel kunt u geen inhoud van het gebruikersinterface in een code-gebaseerde ervaringscampagne of reis simuleren gebruikend [ Beslissing ](../experience-decisioning/gs-experience-decisioning.md). Een alternerende actie is beschikbaar in [ deze sectie ](../experience-decisioning/create-decision.md).
+>Momenteel kunt u geen inhoud van het gebruikersinterface in een code-gebaseerde ervaringscampagne of reis simuleren gebruikend [ Beslissing ](../experience-decisioning/gs-experience-decisioning.md). Een alternerende actie is beschikbaar in [ deze sectie ](../experience-decisioning/create-decision.md#test-and-publish).
 
 
 ## Voorvertonen op apparaat {#preview-on-device}
