@@ -5,16 +5,25 @@ title: Meerdere stappen starten en controleren met Adobe Journey Optimizer
 description: Meer informatie over het starten en bewaken van multi-step campagnes met Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: f73d847c1d335260a0198e844d237a652e346729
+exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
+source-git-commit: 70864a3e14a748562518c699513184e0f63c1139
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
 
-# Start en controleer uw multi-step campagnes {#start-monitor}
+# Uw georkestreerde campagnes starten en controleren {#start-monitor}
 
-Nadat u de workflow hebt gemaakt en de taken hebt ontworpen die u op het canvas wilt uitvoeren, kunt u deze starten en controleren hoe deze wordt uitgevoerd.
+<audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">Uw browser ondersteunt het audio-element niet.</audio>
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_publication"
+>title="Georkestreerde campagne publiceren"
+>abstract="Als u uw campagne wilt starten, moet u deze publiceren. Zorg ervoor dat alle waarschuwingen zijn gewist voordat u ze publiceert."
+
+
+Nadat u de georkestreerde en ontworpen taken hebt gemaakt die u op het canvas wilt uitvoeren, kunt u deze publiceren en controleren hoe deze wordt uitgevoerd.
 
 ## Een campagne met meerdere stappen starten {#start}
 
