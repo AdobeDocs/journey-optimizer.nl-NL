@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: c60ad071d41c9b322e9a6b9285a044321df536cc
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
 >title="Selecteer het campagnepubliek"
->abstract="In deze lijst worden alle beschikbare Adobe Experience Platform-soorten publiek weergegeven. Selecteer het publiek voor uw campagne. Het bericht dat in de campagne wordt gevormd zal naar alle individuen worden verzonden die tot het geselecteerde publiek behoren. [ leer meer op publiek ](../audience/about-audiences.md)"
+>abstract="In deze lijst worden alle beschikbare Adobe Experience Platform-soorten publiek weergegeven. Selecteer het publiek voor uw campagne. Het bericht dat in de campagne wordt gevormd zal naar alle individuen worden verzonden die tot het geselecteerde publiek behoren. [ leer meer over publiek ](../audience/about-audiences.md)"
 
 Publiek zijn verzamelingen van mensen die hetzelfde gedrag en/of vergelijkbare kenmerken hebben. Ze worden centraal geconfigureerd en onderhouden op Adobe Experience Platform met behulp van de Adobe Experience Platform Segmentation Service en zijn gemakkelijk toegankelijk binnen Journey Optimizer om te worden geactiveerd tijdens uw reizen en campagnes.
 
