@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 88c938199412e38a08b4c94f283cb4d4e09ded2f
+source-git-commit: b7148ebeedf8bfce8d244f676fe96172ea8904e0
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 8%
+source-wordcount: '704'
+ht-degree: 7%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 8%
 
 ### Verbeteringen {#25-04-improv}
 
-**Sandbox-tools**
+**Sandbox tooling** - de datum van de Beschikbaarheid: 3 April, 2025
 
 U kunt campagnes nu kopiëren over meerdere sandboxen door de mogelijkheden voor exporteren en importeren van pakketten te gebruiken. Campagnes worden samen met alle punten gekopieerd met betrekking tot het profiel, het publiek, het schema, de gealigneerde berichten, en afhankelijke voorwerpen. Sommige items worden niet gekopieerd, zoals besluitvormingsitems, labels voor gegevensgebruik en taalinstellingen. [Meer informatie](../configuration/copy-objects-to-sandbox.md)
 
-**Personalization**
+**Personalization** - de datum van de Beschikbaarheid: 2 April, 2025
 
 In het venster Kenmerken in de verpersoonlijkingseditor worden nu standaard alleen gevulde kenmerken weergegeven. Als u alle kenmerken wilt weergeven, schakelt u de optie **[!UICONTROL Show only populated attributes]** uit met de knop Instellingen. [Meer informatie](../personalization/personalization-build-expressions.md)
 
