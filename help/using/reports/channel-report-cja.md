@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 0%
@@ -27,7 +27,7 @@ De rapportpagina wordt getoond met de volgende lusjes:
 * [Campagnes](#campaign)
 * [Kanalen](#channel)
 
-Meer leren op Customer Journey Analytics Workspace en hoe te om gegevens te filtreren en te analyseren, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Meer over Customer Journey Analytics Workspace leren en hoe te om gegevens te filtreren en te analyseren, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Hooglichten {#highlights}
 
@@ -65,7 +65,7 @@ De tabel **[!UICONTROL Journey]** fungeert als een uitgebreid dashboard dat een 
 
 Door op de naam van om het even welke reis te klikken die in deze lijst wordt vermeld, kunt u elke reis afzonderlijk onderzoeken, die directe toegang tot zijn uitvoerig rapport in een nieuw lusje krijgen.
 
-+++ Meer informatie over maatstaven voor reizen
++++ Meer informatie over reisgegevens
 
 * **[!UICONTROL Journey Enters]**: Het totale aantal personen dat de gebeurtenis entry van de reis heeft bereikt.
 
@@ -83,7 +83,7 @@ De tabel van **[!UICONTROL Campaign]** werkt als een allesomvattend dashboard, d
 
 Door op de naam van om het even welke campagne te klikken die in deze lijst wordt vermeld, kunt u elke campagne individueel onderzoeken, die directe toegang tot zijn uitvoerig rapport in een nieuw lusje krijgen.
 
-+++ Meer informatie over metingen voor campagnes
++++ Meer informatie over campagnemetriek
 
 * **[!UICONTROL People]**: Aantal gebruikersprofielen dat als doelprofielen voor uw berichten in aanmerking komt.
 

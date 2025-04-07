@@ -9,7 +9,7 @@ role: Admin, Data Engineer, User
 level: Intermediate, Experienced
 keywords: reis, boodschap, campagne, integratie
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -29,7 +29,7 @@ We maken eerst een transactionele e-mailsjabloon in Campagne. In Journey Optimiz
 Raadpleeg de volgende pagina&#39;s voor meer informatie over de integratie van campagnes:
 
 * [Campagne maken](../action/acc-action.md)
-* [De handeling op een reis gebruiken](../building-journeys/using-adobe-campaign-v7-v8.md).
+* [ Gebruikend de actie in een reis ](../building-journeys/using-adobe-campaign-v7-v8.md).
 
 **Adobe Campaign**
 
@@ -37,13 +37,13 @@ Voor deze integratie moet uw Campagne-instantie zijn ingericht. De eigenschap va
 
 1. Meld u aan bij de besturingsinstantie Campagne.
 
-1. Onder **Administratie** > **Platform** > **Opsommingen**, selecteert u de **Het type Event** (eventType) opsomming. Maak een nieuw gebeurtenistype (&quot;reis-gebeurtenis&quot;, in ons voorbeeld). U moet de interne naam van het gebeurtenistype gebruiken wanneer u het JSON-bestand later schrijft.
+1. Onder **Beleid** > **Platform** > **Opsommingen**, selecteer het **type van Gebeurtenis** (eventType) opsomming. Maak een nieuw gebeurtenistype (&quot;reis-gebeurtenis&quot;, in ons voorbeeld). U moet de interne naam van het gebeurtenistype gebruiken wanneer u het JSON-bestand later schrijft.
 
    ![](assets/accintegration-uc-1.png)
 
 1. Maak de verbinding met de instantie los en maak opnieuw verbinding zodat het maken effectief is.
 
-1. Onder **Berichtencentrum** > **Transactieberichtsjablonen**, maakt u een nieuwe e-mailsjabloon op basis van het eerder gemaakte gebeurtenistype.
+1. Onder **Centrum van het Bericht** > **Transactionele berichtmalplaatjes**, creeer een nieuw e-mailmalplaatje dat op het eerder gecreeerde gebeurtenistype wordt gebaseerd.
 
    ![](assets/accintegration-uc-2.png)
 
@@ -79,15 +79,15 @@ Voor deze integratie moet uw Campagne-instantie zijn ingericht. De eigenschap va
 
    ![](assets/accintegration-uc-5.png)
 
-1. Vervolgens moet u in Journey Optimizer een actie maken die overeenkomt met uw campagnemjabloon. In de **Type handeling** vervolgkeuzelijst, selecteert u **Adobe Campaign Classic**.
+1. Vervolgens moet u in Journey Optimizer een actie maken die overeenkomt met uw campagnemjabloon. In het **type van Actie** drop-down, uitgezochte **Adobe Campaign Classic**.
 
    ![](assets/accintegration-uc-6.png)
 
-1. Klik op de knop **Payloadveld** en plakt de eerder gemaakte JSON.
+1. Klik het **gebied van de Lading** en kleef JSON eerder gecreeerd.
 
    ![](assets/accintegration-uc-7.png)
 
-1. Voor het e-mailadres en de twee velden voor personalisatie wijzigt u **Constante** tot **Variabele**.
+1. Voor het e-mailadres en de twee verpersoonlijkingsgebieden, veranderings **Constante** aan **Variabele**.
 
    ![](assets/accintegration-uc-8.png)
 

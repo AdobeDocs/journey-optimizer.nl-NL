@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: elementen, ervaringsmanager, integratie
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 0%
@@ -83,7 +83,7 @@ Als u bestanden wilt importeren naar **[!DNL Assets Essentials]** of **[!DNL Ass
 
 1. Klik in het vak **[!UICONTROL Upload files]** op **[!UICONTROL Browse]** en kies of u **[!UICONTROL Browse files]** of **[!UICONTROL Browse folders]** wilt gebruiken.
 
-1. Selecteer het bestand dat u wilt uploaden. Klik op **[!UICONTROL Upload]** als u klaar bent. Meer leren op hoe te om uw activa te beheren, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
+1. Selecteer het bestand dat u wilt uploaden. Klik op **[!UICONTROL Upload]** als u klaar bent. Meer over leren hoe te om uw activa te beheren, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
 
 1. Dubbelklik op de elementen om uw elementen verder te bewerken met Adobe Photoshop Express. Selecteer vervolgens in het rechtermenu het pictogram **[!UICONTROL Edit mode]** . [Meer informatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target="_blank"}.
 

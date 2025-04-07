@@ -7,7 +7,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: toDateOnly, functie, expressie, reis
 exl-id: 1929644f-8b51-4f95-aea5-627fc1dd115d
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 5%
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 # toDateOnly{#toDateOnly}
 
-Zet een argument in een dateOnly typewaarde om. Raadpleeg dit voor meer informatie over gegevenstypen [sectie](../expression/data-types.md).
+Zet een argument in een dateOnly typewaarde om. Meer over gegevenstypes leren, verwijs naar deze [ sectie ](../expression/data-types.md).
 
 ## Categorie
 
@@ -30,7 +30,7 @@ Conversie
 
 | Parameter | Type |
 |-----------|------------------|
-| Tekenreeksrepresentatie van een datum als &quot;YYYY-MM-DD&quot; (XDM-indeling). Biedt ook ondersteuning voor de indeling ISO-8601: alleen **volledig** deel wordt overwogen (zie [RFC 3339, punt 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | string |
+| Tekenreeksrepresentatie van een datum als &quot;YYYY-MM-DD&quot; (XDM-indeling). Ook steunt formaat ISO-8601: slechts **volledig-datum** deel wordt overwogen (verwijs naar [ RFC 3339, sectie 5.6 ](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | string |
 | datumtijd | dateTime |
 | datumtijd zonder tijdzone | dateTimeOnly |
 | geheel-getalwaarde van een tijdperk in milliseconden | integer |

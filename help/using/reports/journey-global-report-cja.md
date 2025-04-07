@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Het **rapport van de Reis** functies als een volledig-omringend dashboard, lever
 
 ![](assets/gs-cja-report-3.png)
 
-Meer leren op Customer Journey Analytics Workspace en hoe te om gegevens te filtreren en te analyseren, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Meer over Customer Journey Analytics Workspace leren en hoe te om gegevens te filtreren en te analyseren, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Reisoverzicht {#journey-global}
 
@@ -35,7 +35,7 @@ Het **[!UICONTROL Journey]** -rapport geeft u een duidelijk beeld van de belangr
 
 De **[!UICONTROL Journey]** Belangrijkste Indicatoren van Prestaties (KPIs) functioneren als een allesomvattend dashboard, dat een analyse van essentiële metriek verbonden aan uw reis levert. Dit omvat details zoals het aantal binnengekomen profielen en gevallen van mislukte individuele reizen, die een uitvoerig inzicht in de doeltreffendheid van uw reis en niveau van betrokkenheid aanbieden.
 
-+++ Meer informatie over de maatstaven van PKI&#39;s voor reizen
++++ Meer informatie over de cijfers van de KPI&#39;s voor reizen
 
 * **[!UICONTROL Journey engagement]**: Het totale aantal unieke personen dat berichten heeft ontvangen die door de reis zijn verzonden, die verschillende profielen vertegenwoordigen die een bepaald actiepunt in de reis hebben bereikt.
 
@@ -114,7 +114,7 @@ In de grafiek van **[!UICONTROL Performance Over time]** kunt u het aantal profi
 
 De tabel **[!UICONTROL Action overview]** fungeert als een uitgebreid dashboard, dat een analyse biedt van de belangrijkste metriek die betrekking heeft op de acties op uw reis. Dit omvat cruciale details zoals het aantal interacties en de doorklikfrequentie
 
-+++ Meer informatie over overzichtsmetriek voor handelingen
++++ Meer informatie over de maatstaven van het overzicht van handelingen
 
 * **[!UICONTROL Node enters]**: Het totale aantal personen dat een bepaald knooppunt tijdens de reis is binnengekomen.
 
