@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2032'
 ht-degree: 8%
@@ -33,7 +33,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 <td>
 <p>Adobe Journey Optimizer ondersteunt nu CNAME's. Een CNAME, of Canonical Name verslag, is een verslag dat aan een ander domeinadres eerder dan een IP adres richt. De subdomeindelegatie van CNAME laat u toe om subdomain tot stand te brengen en CNAMEs te gebruiken om aan Adobe-specifieke verslagen te richten. Met behulp van deze configuratie delen u en Adobe de verantwoordelijkheid voor het onderhoud van DNS om een omgeving in te stellen voor het verzenden, renderen en volgen van e-mails.</p>
 <p>Deze methode wordt aanbevolen als het beleid van uw organisatie de methode voor volledige subdomeindelegatie beperkt.</p>
-<p>Leer meer op subdomain van CNAME delegatie in de <a href="../configuration/delegate-subdomain.md#cname-subdomain-delegation"> gedetailleerde documentatie </a>.</p>
+<p>Leer meer over subdomain delegatie CNAME in de <a href="../configuration/delegate-subdomain.md#cname-subdomain-delegation"> gedetailleerde documentatie </a>.</p>
 </td>
 </tr>
 </tbody>
@@ -125,7 +125,7 @@ Zie ook [ de Nota&#39;s van de Versie van Adobe Experience Platform Oktober ](ht
 <thead>
 <tr>
 
-<th><strong>Rapportage - Beter inzicht voor doelgroep</strong><br/></th>
+<th><strong>Rapportage - Betere insight voor doelgroep</strong><br/></th>
 </thead>
 <tbody>
 <tr>

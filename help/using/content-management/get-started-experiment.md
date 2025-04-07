@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 102ea61835144b274c018b28881cacdb5ebba1fa
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1985'
 ht-degree: 0%
@@ -58,7 +58,7 @@ De objectieve metriek kan in twee hoofdklassen worden gegroepeerd:
 * Directe cijfers, waarbij de gebruiker rechtstreeks op de behandeling reageert, bijvoorbeeld door een e-mail te openen of op een koppeling te klikken.
 * Indirecte of &quot;bodem van trechter&quot; metriek, die optreedt nadat de gebruiker aan de behandeling is blootgesteld.
 
-Voor directe objectieve metriek waar Adobe Journey Optimizer uw berichten bijhoudt, worden de reactiegebeurtenissen van eind - gebruikers automatisch geëtiketteerd met campagne en behandelingsidentificateurs, die directe vereniging van reactie metrisch met een behandeling toestaan. [ leer meer bij het volgen ](../email/message-tracking.md).
+Voor directe objectieve metriek waar Adobe Journey Optimizer uw berichten bijhoudt, worden de reactiegebeurtenissen van eind - gebruikers automatisch geëtiketteerd met campagne en behandelingsidentificateurs, die directe vereniging van reactie metrisch met een behandeling toestaan. [ Leer meer over het volgen ](../email/message-tracking.md).
 
 ![](assets/technote_2.png)
 

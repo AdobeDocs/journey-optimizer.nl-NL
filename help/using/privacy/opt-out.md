@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 0%
@@ -103,7 +103,7 @@ Nochtans, staat het gebruik van op recht-gebaseerde etiketten van de toegangscon
 
 >[!NOTE]
 >
->Leer meer op de toegangscontrole van het Niveau van Objecten (OLAC) in [ deze sectie ](../administration/object-based-access.md).
+>Leer meer over de toegangscontrole van het Niveau van Objecten (OLAC) in [ deze sectie ](../administration/object-based-access.md).
 
 In [!DNL Journey Optimizer] campagnes, wordt het toestemmingsbeleid afgedwongen als volgt:
 
@@ -137,7 +137,7 @@ U kunt dit publiek nu gebruiken om profielen die geen toestemming voor personali
 
 U kunt een controle van de verpersoonlijkingstoestemming aan een publiek ook toevoegen door een gespleten activiteit aan een samenstellingswerkschema toe te voegen.
 
-1. Maak een publiek met de optie **[!UICONTROL Compose Audience]** . [ leer meer bij het creëren van een samenstellingswerkschema ](../audience/get-started-audience-orchestration.md)
+1. Maak een publiek met de optie **[!UICONTROL Compose Audience]** . [ leer meer over het creëren van een samenstellingswerkschema ](../audience/get-started-audience-orchestration.md)
 
    ![](assets/perso-consent-audience-compose.png)
 

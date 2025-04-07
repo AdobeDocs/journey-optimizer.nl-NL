@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 0%
@@ -47,9 +47,9 @@ Ga als volgt te werk om een waarderingsmethode te maken:
 
    >[!NOTE]
    >
-   >De nestdiepte in een rangschikkingsformule is beperkt tot 30 niveaus. Dit wordt gemeten door de `)` haakjes sluiten in de PQL-tekenreeks te tellen. Een regeltekenreeks kan maximaal 8 kB groot zijn voor UTF-8-gecodeerde tekens. Dit komt overeen met 8.000 ASCII-tekens (1 byte elk) of 2.000-4.000 niet-ASCII-tekens (2-4 bytes elk). [ leer meer op het Beslissen van gidsen &amp; beperkingen ](gs-experience-decisioning.md#guardrails)
+   >De nestdiepte in een rangschikkingsformule is beperkt tot 30 niveaus. Dit wordt gemeten door de `)` haakjes sluiten in de PQL-tekenreeks te tellen. Een regeltekenreeks kan maximaal 8 kB groot zijn voor UTF-8-gecodeerde tekens. Dit komt overeen met 8.000 ASCII-tekens (1 byte elk) of 2.000-4.000 niet-ASCII-tekens (2-4 bytes elk). [ leer meer over het Beslissen van gidsen &amp; beperkingen ](gs-experience-decisioning.md#guardrails)
 
-Een beslissingsbeleid ondersteunt maximaal 10 selectiestrategieën en besluitvormingselementen samen. [ leer meer op het Beslissen van gidsen &amp; beperkingen ](gs-experience-decisioning.md#guardrails)
+Een beslissingsbeleid ondersteunt maximaal 10 selectiestrategieën en besluitvormingselementen samen. [ leer meer over het Beslissen van gidsen &amp; beperkingen ](gs-experience-decisioning.md#guardrails)
 
 +++ Modellen optimaliseren op aangepaste [!DNL Customer Journey Analytics] metriek
 
@@ -57,7 +57,7 @@ Een beslissingsbeleid ondersteunt maximaal 10 selectiestrategieën en besluitvor
 >
 >Deze mogelijkheid is alleen beschikbaar voor [!DNL Customer Journey Analytics] -klanten met beheerdersrechten.
 >
->Alvorens te beginnen, zorg ervoor u Journey Optimizer met Customer Journey Analytics hebt geïntegreerd om de datasets van Journey Optimizer in uw standaardgegevensmeningen uit te voeren. [ Leer hoe te hefboomwerking  [!DNL Journey Optmizer]  gegevens in  [!DNL Customer Journey Analytics]](../reports/cja-ajo.md)
+>Voordat u begint, moet u ervoor zorgen dat u Journey Optimizer met Customer Journey Analytics hebt geïntegreerd om Journey Optimizer-gegevenssets te exporteren naar uw standaardgegevensweergaven. [ Leer hoe te hefboomwerking  [!DNL Journey Optmizer]  gegevens in  [!DNL Customer Journey Analytics]](../reports/cja-ajo.md)
 
 De gepersonaliseerde optimalisatiemodellen zijn een type van AI model dat u toestaat om bedrijfsdoelstellingen te bepalen en klantengegevens te gebruiken om zaken-georiënteerde modellen op te leiden om gepersonaliseerde aanbiedingen te dienen en KPIs te maximaliseren. De gedetailleerde informatie over hoe te om tot een gepersonaliseerd AI model te leiden is beschikbaar in de [ documentatie van het besluitvormingsbeheer ](../offers/ranking/personalized-optimization-model.md).
 

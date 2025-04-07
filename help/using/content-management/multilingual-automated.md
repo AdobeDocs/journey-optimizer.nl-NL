@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: eea6cbaf29f3558f85b462d3dd3750d7f716bbcc
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1877'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Voor automatische doorloop hebben gebruikers machtigingen nodig die gerelateerd zijn aan de **[!UICONTROL Translation Service]** -mogelijkheid. [ Leer meer op toestemmingen ](../administration/permissions.md)
+>Voor automatische doorloop hebben gebruikers machtigingen nodig die gerelateerd zijn aan de **[!UICONTROL Translation Service]** -mogelijkheid. [ leer meer over toestemmingen ](../administration/permissions.md)
 
 Met behulp van de geautomatiseerde stroom kunt u gewoon uw doeltaal en taalprovider selecteren. Uw inhoud wordt vervolgens rechtstreeks naar de vertaling verzonden en klaar voor een definitieve revisie wanneer deze is voltooid.
 
@@ -173,7 +173,7 @@ In deze sectie kunt u verschillende landinstellingen instellen voor het beheer v
       ![](assets/multilingual-experience-events-rule-if.png)
 
       * Kies de **[!UICONTROL Extension]** waarmee u werkt.
-      * Selecteer in het veld **[!UICONTROL Event type]** de optie &quot;AEP-aanvraaggebeurtenis&quot;.
+      * Selecteer in het veld **[!UICONTROL Event type]** de optie &quot;AEP Request Event&quot;.
       * Selecteer in het rechterdeelvenster &quot;XDM Event Type is gelijk aan personalization.request&quot;
       * Klik op de knop **[!UICONTROL Keep changes]** ter bevestiging.
 
@@ -295,7 +295,7 @@ U kunt nu uw campagne of reis activeren. Als u eenmaal bent verzonden, kunt u de
 >title="Omzetten van vertaalproject"
 >abstract="Met het vertaalproject voor insourcing kunt u vertalingen direct binnen uw vertaalproject beheren en uitvoeren, het proces stroomlijnen en meer controle houden over de kwaliteit en consistentie van de vertaling."
 
-Als u tijdens het configureren van uw taalinstellingen de optie Insourcing hebt geselecteerd, kunt u uw inhoud rechtstreeks in uw vertaalproject vertalen.
+Als u tijdens het configureren van uw taalinstellingen Insourcing hebt geselecteerd, kunt u uw inhoud rechtstreeks in uw vertaalproject vertalen.
 
 1. Open vanuit de **[!UICONTROL Translation project]** het menu **[!UICONTROL More actions]** en selecteer **[!UICONTROL Insourcing]** .
 

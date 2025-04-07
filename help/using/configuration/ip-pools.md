@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, pools, groep, subdomeinen, leverbaarheid
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
@@ -62,13 +62,13 @@ Ga als volgt te werk om een IP-pool te maken:
    >
    >Alle IP adressen provisioned met uw instantie zijn beschikbaar in de lijst.
 
-Wanneer het selecteren van IPs, kunt u van de lijst de PTR verslagen zien verbonden aan IPs. Dit staat u toe om de branding informatie voor elk IP te verifiëren wanneer het creëren van een IP pool, en IPs met de zelfde branding informatie bijvoorbeeld te selecteren. [ leer meer op PTR verslagen ](ptr-records.md)
+Wanneer het selecteren van IPs, kunt u van de lijst de PTR verslagen zien verbonden aan IPs. Dit staat u toe om de branding informatie voor elk IP te verifiëren wanneer het creëren van een IP pool, en IPs met de zelfde branding informatie bijvoorbeeld te selecteren. [ leer meer over PTR verslagen ](ptr-records.md)
 
 ![](assets/ip-pool-ptr-record.png)
 
 >[!NOTE]
 >
->Als geen PTR verslag voor IP wordt gevormd, kunt u niet dat IP selecteren. Bereik uit aan uw vertegenwoordiger van de Adobe voor het vormen van het PTR verslag van dat IP.
+>Als geen PTR verslag voor IP wordt gevormd, kunt u niet dat IP selecteren. Vraag uw Adobe-medewerker om de PTR-record van die IP te configureren.
 
 Nadat een IP pool is gecreeerd, is de informatie PTR zichtbaar wanneer het hangen over de IP adressen die onder de IP pool drop-down lijst worden getoond.
 

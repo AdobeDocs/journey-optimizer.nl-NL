@@ -8,7 +8,7 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 0%
@@ -62,7 +62,7 @@ Met de campagne- en reisrapporten kunt u controleren hoe uw leveringen presteren
 * Het aantal berichten dat met succes wordt uitgevoerd, verzonden en geleverd.
 * Het aantal berichten dat is geopend en het aantal berichten/verbindingen dat is geklikt.
 
-Leer meer op [ levend rapport ](../reports/live-report.md) en [ alle tijdrapport ](../reports/report-gs-cja.md)
+Leer meer over [ levend rapport ](../reports/live-report.md) en [ al tijdrapport ](../reports/report-gs-cja.md)
 
 ## Berichtinhoud aanpassen {#adapt-message-content}
 
@@ -94,7 +94,7 @@ Met [!DNL Journey Optimizer] kunt u DMARC-records instellen voor alle subdomeine
 
 De op domein-gebaseerde Authentificatie van het Bericht, het Melden, en de Conformiteit (DMARC) is een methode van de e-mailauthentificatie die domeineigenaars toestaat om hun domein tegen onbevoegd gebruik door kwaadwillige actoren te beschermen.
 
-[Meer informatie over DMARC-record](../configuration/dmarc-record.md)
+[Meer informatie over DMARC-records](../configuration/dmarc-record.md)
 
 ## Informatie over feedbackloops {#feedback-loops}
 
@@ -106,7 +106,7 @@ De op domein-gebaseerde Authentificatie van het Bericht, het Melden, en de Confo
 
 Een terugkoppel lijn (FBL) is de dienst die door sommige ISPs wordt aangeboden die de e-mailafzender toestaat om automatisch op de hoogte te worden gebracht wanneer de gebruiker die een e-mail ontvangt verkiest om het als spam (ook als &quot;klacht&quot;wordt bekend) te merken.
 
-Nadat een eindgebruiker een klacht produceert die terug naar Adobe door ISP wordt verzonden, wordt het e-mailadres automatisch toegevoegd aan de [ suppressielijst ](../reports/suppression-list.md) en uitgesloten van toekomstige leveringen. Het verzenden van e-mails naar gebruikers die deze als spam hebben gemarkeerd, heeft een negatieve invloed op de reputatie van de afzender en kan problemen met de leverbaarheid veroorzaken. [ Leer meer op spamklachten ](../reports/suppression-list.md#spam-complaints)
+Nadat een eindgebruiker een klacht produceert die terug naar Adobe door ISP wordt verzonden, wordt het e-mailadres automatisch toegevoegd aan de [ suppressielijst ](../reports/suppression-list.md) en uitgesloten van toekomstige leveringen. Het verzenden van e-mails naar gebruikers die deze als spam hebben gemarkeerd, heeft een negatieve invloed op de reputatie van de afzender en kan problemen met de leverbaarheid veroorzaken. [ Leer meer over spamklachten ](../reports/suppression-list.md#spam-complaints)
 
 >[!IMPORTANT]
 >

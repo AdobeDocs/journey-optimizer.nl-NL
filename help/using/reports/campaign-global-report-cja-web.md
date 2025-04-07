@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 39441fe9-5cdc-4787-9267-798de80e3af2
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -31,7 +31,7 @@ U kunt tot uw campagnerapport van het Web toegang hebben door de **[!UICONTROL R
 
 In de grafiek van **[!UICONTROL Impression & Click trend]** wordt een gedetailleerde analyse gegeven van de betrokkenheid van uw profielen bij uw webpagina&#39;s. Deze grafiek biedt waardevolle inzichten in de interactie tussen profielen en uw inhoud.
 
-+++ Meer informatie over depressie en klik op cijfers over trends
++++ Meer informatie over cijfers voor indrukken en klikken op trends
 
 * **[!UICONTROL Clicks]**: Het aantal keren dat op de webpagina&#39;s op de inhoud is geklikt.
 
@@ -59,7 +59,7 @@ De grafiek van **[!UICONTROL Clicks]** toont Web-pagina klikmetriek, die zowel h
 
 De grafiek van **[!UICONTROL Displays]** helpt u zowel het algemene bereik van het bericht als het aantal unieke profielen begrijpen die met het verbinden.
 
-+++ Meer informatie over weergavemeetgegevens
++++ Meer informatie over weergavemetriek
 
 * **[!UICONTROL Displays]**: Het aantal keren dat het bericht is geopend.
 
@@ -74,7 +74,7 @@ De grafiek van **[!UICONTROL Displays]** helpt u zowel het algemene bereik van h
 
 De tabel van **[!UICONTROL Tracking data]** biedt een gedetailleerde momentopname van profielactiviteiten die aan uw Web-pagina&#39;s zijn gekoppeld, die essentiële inzichten in betrokkenheid en doeltreffendheid van Web-pagina&#39;s verstrekken.
 
-+++ Meer informatie over het bijhouden van gegevens
++++ Meer informatie over het bijhouden van gegevensmetriek
 
 * **[!UICONTROL People]**: Aantal gebruikersprofielen dat als doelprofielen voor uw Web-pagina&#39;s kwalificeert.
 

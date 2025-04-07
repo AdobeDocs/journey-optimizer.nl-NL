@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 keywords: aanbiedingen, beslissingen, e-mails, personalisatie, beslissingen
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
 
 # Aangepaste aanbiedingen toevoegen {#deliver-personalized-offers}
 
-In [!DNL Journey Optimizer] e-mailberichten, kunt u besluiten opnemen die hefboomwerking de motor van het Beslissingsbeheer zullen gebruiken om de beste aanbieding aan uw klanten te kiezen.
+In [!DNL Journey Optimizer] e-mailberichten kunt u beslissingen invoegen die gebruikmaken van de besluitvormingsengine om de beste aanbieding aan uw klanten te kiezen.
 
 U kunt bijvoorbeeld een besluit toevoegen dat in uw e-mail een speciale kortingsaanbieding weergeeft die afhankelijk is van het loyaliteitsniveau van de ontvanger.
 
@@ -26,34 +26,34 @@ U kunt bijvoorbeeld een besluit toevoegen dat in uw e-mail een speciale kortings
 >
 >Als er wijzigingen worden aangebracht in een biedbesluit dat wordt gebruikt in een reisbericht, moet u de reis ongedaan maken en opnieuw publiceren.  Dit zal ervoor zorgen dat de veranderingen in het reisbericht worden opgenomen en dat de boodschap in overeenstemming is met de meest recente updates.
 
-* Raadpleeg voor meer informatie over het maken en beheren van aanbiedingen [deze sectie](../offers/get-started/starting-offer-decisioning.md).
-* Voor een **volledig end-to-end voorbeeld** tonen hoe te om aanbiedingen te vormen, hen in een besluit te gebruiken en dit besluit in een e-mail te gebruiken, controleer uit [deze sectie](../offers/offers-e2e.md#insert-decision-in-email).
+* Voor meer op om aanbiedingen tot stand te brengen en te beheren, verwijs naar [ deze sectie ](../offers/get-started/starting-offer-decisioning.md).
+* Voor a **volledig voorbeeld van begin tot eind** die tonen hoe te om aanbiedingen te vormen, gebruik hen in een besluit en hefboomwerking dit besluit in e-mail, controle uit [ deze sectie ](../offers/offers-e2e.md#insert-decision-in-email).
 
-➡️ [In deze video ziet u hoe u aanbiedingen als personalisatie toevoegt](#video-offers)
+➡️ [ leren hoe te om aanbiedingen als verpersoonlijking in deze video toe te voegen ](#video-offers)
 
 ## Een beslissing invoegen in een e-mail {#insert-offers}
 
 >[!CAUTION]
 >
->Voordat u begint, moet u [een biedingsbesluit vaststellen](../offers/offer-activities/create-offer-activities.md).
+>Alvorens te beginnen, moet u [ een aanbiedingsbesluit ](../offers/offer-activities/create-offer-activities.md) bepalen.
 
 Volg onderstaande stappen om een beslissing in te voegen in een e-mailbericht:
 
-1. Maak uw e-mail en open vervolgens de e-mailontwerper om de inhoud ervan te configureren.
+1. Maak uw e-mail en open vervolgens de e-mail-Designer om de inhoud ervan te configureren.
 
-1. Een **[!UICONTROL Offer decision]** inhoudscomponent.
+1. Voeg een inhoudscomponent **[!UICONTROL Offer decision]** toe.
 
    ![](assets/deliver-offer-component.png)
 
-   Leer hoe u inhoudscomponenten kunt gebruiken in [deze sectie](content-components.md).
+   Leer hoe te om inhoudscomponenten in [ te gebruiken deze sectie ](content-components.md).
 
-1. De **[!UICONTROL Offer decision]** in het rechterpalet. Klik op **[!UICONTROL Select Offer decision]**:
+1. Het tabblad **[!UICONTROL Offer decision]** wordt weergegeven in het rechterpalet. Klik op **[!UICONTROL Select Offer decision]** :
 
    1. Selecteer in het venster dat wordt weergegeven de plaatsing die overeenkomt met de aanbiedingen die u wilt weergeven.
 
-      [Plaatsen](../offers/offer-library/creating-placements.md) Dit zijn containers die worden gebruikt om je voorstellen onder de aandacht te brengen. In dit voorbeeld gebruiken we de plaatsing &quot;e-mail top image&quot;. Deze plaatsing is in de Bibliotheek van de Aanbieding gecreeerd om beeld-type aanbiedingen te tonen die zich aan de bovenkant van berichten bevinden.
+      [ Plaatsingen ](../offers/offer-library/creating-placements.md) zijn containers die worden gebruikt om uw aanbiedingen te tonen. In dit voorbeeld gebruiken we de plaatsing &quot;e-mail top image&quot;. Deze plaatsing is in de Bibliotheek van de Aanbieding gecreeerd om beeld-type aanbiedingen te tonen die zich aan de bovenkant van berichten bevinden.
 
-   1. Besluiten die overeenkomen met de geselecteerde plaatsingsweergave. Selecteer de beslissing die u wilt gebruiken in de inhoudcomponent en klik op **[!UICONTROL Add]**.
+   1. Besluiten die overeenkomen met de geselecteerde plaatsingsweergave. Selecteer de beslissing die u in de inhoudscomponent wilt gebruiken en klik op **[!UICONTROL Add]** .
 
       >[!NOTE]
       >
@@ -69,7 +69,7 @@ Het besluit wordt nu toegevoegd aan de component. Nadat u uw wijzigingen hebt op
 
 ## Aanbiedingen voorvertonen in een e-mail {#preview-offers-in-email}
 
-U kunt de verschillende aanbiedingen die deel uitmaken van de beslissing die aan de e-mail is toegevoegd, voorvertonen met de opdracht **[!UICONTROL Offer]** voor de inhoudcomponenten pijlen.
+U kunt een voorvertoning weergeven van de verschillende aanbiedingen die deel uitmaken van de beslissing die aan de e-mail is toegevoegd met de sectie **[!UICONTROL Offer]** of de pijlen van de inhoudcomponenten.
 
 ![](assets/deliver-offer-preview.png)
 
@@ -77,13 +77,13 @@ Volg onderstaande stappen om de verschillende aanbiedingen die deel uitmaken van
 
 1. Selecteer de testprofielen die u wilt gebruiken om een voorvertoning van de aanbieding weer te geven:
 
-   1. Klik op de knop **[!UICONTROL Simulate Content button]** kiest u vervolgens de naamruimte die u wilt gebruiken om testprofielen te identificeren in het menu **[!UICONTROL Identity namespace]** veld.
+   1. Klik op de knop **[!UICONTROL Simulate Content button]** en kies de naamruimte die u wilt gebruiken voor het identificeren van testprofielen in het veld **[!UICONTROL Identity namespace]** .
 
       >[!NOTE]
       >
-      >In dit voorbeeld gebruiken wij **E-mail** naamruimte. Meer informatie over naamruimten in Adobe Experience Platform [in deze sectie](../audience/get-started-identity.md).
+      >In dit voorbeeld, gebruiken wij **E-mail** namespace. Leer meer over de identiteitsnaamruimten van Adobe Experience Platform [ in deze sectie ](../audience/get-started-identity.md).
 
-   1. In de **[!UICONTROL Identity value]** voert u de waarde in die het testprofiel moet identificeren. In dit voorbeeld voert u het e-mailadres van een testprofiel in.
+   1. Voer in het veld **[!UICONTROL Identity value]** de waarde in waarmee het testprofiel wordt geïdentificeerd. In dit voorbeeld voert u het e-mailadres van een testprofiel in.
 
    <!--For example enter smith@adobe.com and click the **[!UICONTROL Add profile]** button.-->
 
@@ -91,16 +91,16 @@ Volg onderstaande stappen om de verschillende aanbiedingen die deel uitmaken van
 
       ![](assets/deliver-offer-test-profiles.png)
 
-1. Klik op de knop **[!UICONTROL Preview]** om uw bericht te testen en selecteer vervolgens een testprofiel. Het aanbod dat overeenkomt met het geselecteerde profiel (een vrouw) wordt weergegeven.
+1. Klik op het tabblad **[!UICONTROL Preview]** om uw bericht te testen en selecteer vervolgens een testprofiel. Het aanbod dat overeenkomt met het geselecteerde profiel (een vrouw) wordt weergegeven.
 
    ![](assets/deliver-offer-test-profile-female-preview.png)
 
    U kunt andere testprofielen selecteren om de e-mailinhoud voor elke variant van uw bericht te bekijken. In de berichtinhoud wordt het aanbod dat overeenkomt met het geselecteerde testprofiel (nu een man) nu weergegeven.
 
-Meer informatie over de gedetailleerde stappen voor het controleren van de voorvertoning van berichten vindt u in [deze sectie](#preview-your-messages).
+Leer meer over de gedetailleerde stappen om berichtvoorproef in [ deze sectie ](#preview-your-messages) te controleren.
 
 ## Hoe kan ik-video{#video-offers}
 
-Leer hoe u een component voor beslissingsbeheer aan berichten kunt toevoegen in [!DNL Journey Optimizer].
+Leer hoe u een component voor beslissingsbeheer aan berichten in [!DNL Journey Optimizer] toevoegt.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)

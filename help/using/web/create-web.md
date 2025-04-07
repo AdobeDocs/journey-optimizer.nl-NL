@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1326'
 ht-degree: 2%
@@ -83,7 +83,7 @@ Volg onderstaande stappen om uw webervaring op te bouwen via een campagne.
 
 1. Selecteer de handeling **[!UICONTROL Web]** .
 
-1. Selecteer of maak de webconfiguratie. [ leer meer op Webconfiguratie ](web-configuration.md)
+1. Selecteer of maak de webconfiguratie. [ leer meer over Webconfiguratie ](web-configuration.md)
 
    ![](assets/web-campaign-steps.png)
 
@@ -169,7 +169,7 @@ U kunt ook een voorvertoning van uw webervaring-inhoud weergeven voordat u deze 
 >
 >Als meerdere reizen of campagnes hetzelfde element of dezelfde elementen van uw website bijwerken, krijgt de hoogste prioriteit voor de reis/campagne.
 
-### Publish een webreis {#activate-web-journey}
+### Webreizen publiceren {#activate-web-journey}
 
 Volg onderstaande stappen om uw webervaring live te laten gaan vanaf een reis.
 
@@ -181,7 +181,7 @@ Volg onderstaande stappen om uw webervaring live te laten gaan vanaf een reis.
 
    >[!NOTE]
    >
-   >Leer meer bij het publiceren reizen in [ deze sectie ](../building-journeys/publishing-the-journey.md).
+   >Leer meer over het publiceren reizen in [ deze sectie ](../building-journeys/publishing-the-journey.md).
 
 Uw webreis heeft de status **[!UICONTROL Live]** en is nu alleen-lezen. Elke ontvanger van uw reis kan de wijzigingen zien u aan uw website toevoegde.
 
@@ -203,7 +203,7 @@ Nadat u de instellingen voor uw webcampagne hebt gedefinieerd en uw inhoud naar 
 
    >[!NOTE]
    >
-   >Leer meer bij het activeren van campagnes in [ deze sectie ](../campaigns/review-activate-campaign.md).
+   >Leer meer over het activeren van campagnes in [ deze sectie ](../campaigns/review-activate-campaign.md).
 
 Uw webcampagne heeft de status **[!UICONTROL Live]** en is nu zichtbaar voor het geselecteerde publiek. Elke ontvanger van de campagne kan de wijzigingen zien die u aan uw website hebt toegevoegd.
 

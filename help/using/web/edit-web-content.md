@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 1%
@@ -61,7 +61,7 @@ Volg onderstaande stappen om uw webervaring te ontwerpen.
 
    >[!CAUTION]
    >
-   >De Web-pagina moet [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html) {target="_blank"} omvatten. [Meer informatie](web-prerequisites.md#implementation-prerequisites)
+   >De Web-pagina moet ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html) {target="_blank"} omvatten het Web SDK van 0} Adobe Experience Platform. [ [Meer informatie](web-prerequisites.md#implementation-prerequisites)
 
 1. Klik op **[!UICONTROL Edit web page]** om te beginnen met ontwerpen. De webontwerper wordt weergegeven.
 
@@ -89,7 +89,7 @@ Volg onderstaande stappen om uw webervaring te ontwerpen.
 
 >[!NOTE]
 >
->De webinhoudontwerper is meestal vergelijkbaar met de e-mailontwerper. Leer meer op [ het ontwerpen van inhoud met  [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>De webinhoudontwerper is meestal vergelijkbaar met de e-mailontwerper. Leer meer over [ het ontwerpen van inhoud met  [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 
 ## Componenten gebruiken {#content-components}
 

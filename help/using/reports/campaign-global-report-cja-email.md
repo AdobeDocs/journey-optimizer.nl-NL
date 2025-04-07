@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '981'
 ht-degree: 0%
@@ -39,7 +39,7 @@ U kunt uw campagnerapport voor e-mail openen door in uw campagne op de knop **[!
 
 In de grafiek van **[!UICONTROL Delivered vs Click trend]** wordt een gedetailleerde analyse gegeven van de betrokkenheid van uw profielen bij uw e-mails. Deze grafiek biedt waardevolle inzichten in de interactie tussen profielen en uw inhoud.
 
-+++ Meer informatie over cijfers over trends bij levering en klik op trends
++++ Meer informatie over cijfers voor trends in geleverd en klik op trend
 
 * **[!UICONTROL Delivered]**: Aantal verzonden e-mailberichten in verhouding tot het totale aantal verzonden e-mails.
 
@@ -53,7 +53,7 @@ In de grafiek van **[!UICONTROL Delivered vs Click trend]** wordt een gedetaille
 
 De grafiek van **[!UICONTROL Delivery status]** biedt een uitgebreide weergave van gegevens met betrekking tot verzonden e-mailberichten in uw campagne en biedt inzicht in belangrijke metriek zoals geleverde gegevens en stuitingen. Dit maakt een gedetailleerde analyse van het verzendingsproces van e-mail mogelijk en biedt waardevolle informatie over de efficiëntie en prestaties van uw campagnes.
 
-+++ Meer informatie over de afleveringsstatus
++++ Meer informatie over de metriek van de leveringsstatus
 
 * **[!UICONTROL Delivered]**: Aantal verzonden e-mailberichten in verhouding tot het totale aantal verzonden e-mails.
 
@@ -122,7 +122,7 @@ De tabel **[!UICONTROL Email - Tracking statistics]** bevat een gedetailleerd ov
 
 De tabel van **[!UICONTROL Email Domains]** bevat een diepgaande uitsplitsing van e-mailberichten die zijn gecategoriseerd op domein. Hiermee krijgt u uitgebreide inzicht in de prestatiemetriek van uw e-mailcampagnes. Met deze uitgebreide analyse kunt u het gedrag van verschillende domeinen begrijpen als reactie op uw e-mailinhoud.
 
-+++ Meer informatie over metriek van e-maildomeinen
++++ Meer informatie over metrische gegevens van e-maildomeinen
 
 * **[!UICONTROL Sends]**: Het totale aantal verzendingen voor uw e-mail.
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1603a696-33cc-42d8-a52a-623d85f61584
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 0%
@@ -31,7 +31,7 @@ U kunt het campagnerapport voor de inhoudskaart openen door in uw campagne op de
 
 Met de **[!UICONTROL Display & click trend]** -grafieken kunt u zowel het algemene bereik van het bericht als het aantal unieke profielen dat ermee werkt, begrijpen.
 
-+++ Meer informatie over weergave en klik op Metriek
++++ Meer informatie over Weergave en klik op Metriek
 
 * **[!UICONTROL Clicks]**: Het aantal keer dat er op de inhoudskaart op een inhoud is geklikt.
 
@@ -47,7 +47,7 @@ Met de **[!UICONTROL Display & click trend]** -grafieken kunt u zowel het algeme
 
 De tabel **[!UICONTROL Tracking data]** biedt een gedetailleerde momentopname van profielactiviteiten die zijn gekoppeld aan uw inhoudskaarten en biedt essentiële inzichten in de betrokkenheid en effectiviteit van de inhoudskaart.
 
-+++ Meer informatie over het bijhouden van gegevens
++++ Meer informatie over het bijhouden van gegevensmetriek
 
 * **[!UICONTROL People]**: Aantal gebruikersprofielen dat als doelprofielen voor uw inhoudskaarten wordt gekwalificeerd.
 

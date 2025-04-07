@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: landing, landing page, creation, page, form, component
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 2%
@@ -81,7 +81,7 @@ Gebruik de component **[!UICONTROL Form]** om specifieke inhoud te definiëren w
 
    ![](assets/lp_designer-form-update-options.png)
 
-   * **[!UICONTROL Subscription list]**: U moet de abonnementenlijst selecteren die wordt bijgewerkt als het profiel dit selectievakje selecteert. Leer meer op [ abonnementenlijsten ](subscription-list.md).
+   * **[!UICONTROL Subscription list]**: U moet de abonnementenlijst selecteren die wordt bijgewerkt als het profiel dit selectievakje selecteert. Leer meer over [ abonnementenlijsten ](subscription-list.md).
 
      <!--![](assets/lp_designer-form-subs-list.png)-->
 
@@ -152,7 +152,7 @@ Gebruik de component **[!UICONTROL Form]** om specifieke inhoud te definiëren w
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   Met de knop **[!UICONTROL Simulate content]** kunt u een voorbeeld van uw instellingen bekijken, zoals de kleur van knoplabels op de muisaanwijzer. Leer meer bij het testen van het landen van pagina&#39;s [ hier ](create-lp.md#test-landing-page).
+   Met de knop **[!UICONTROL Simulate content]** kunt u een voorbeeld van uw instellingen bekijken, zoals de kleur van knoplabels op de muisaanwijzer. Leer meer over het testen van het landen van pagina&#39;s [ hier ](create-lp.md#test-landing-page).
 
    <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 

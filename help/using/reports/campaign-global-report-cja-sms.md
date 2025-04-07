@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd743a3b-0317-45d9-8e76-98d5cc258752
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 0%
@@ -31,7 +31,7 @@ U hebt toegang tot uw SMS-campagnerapport door in uw campagne op de knop **[!UIC
 
 In de grafiek van **[!UICONTROL Delivered vs Click trend]** wordt een gedetailleerde analyse gegeven van de betrokkenheid van uw profielen bij uw e-mails. Deze grafiek biedt waardevolle inzichten in de interactie tussen profielen en uw inhoud.
 
-+++ Meer informatie over cijfers over trends bij levering en klik op trends
++++ Meer informatie over cijfers voor trends in geleverd en klik op trend
 
 * **[!UICONTROL Delivered]**: Het aantal SMS-berichten dat is verzonden in verhouding tot het totale aantal SMS-berichten.
 
@@ -45,7 +45,7 @@ In de grafiek van **[!UICONTROL Delivered vs Click trend]** wordt een gedetaille
 
 De tabel **[!UICONTROL Delivery status]** bevat een gedetailleerd overzicht van de profielactiviteiten met betrekking tot uw SMS-campagnes. Dit omvat metriek over geleverde, kliks, en andere relevante betrokkenheidsindicatoren, die een uitvoerig overzicht van aanbieden hoe de profielen met uw inhoud van SMS interactie aangaan.
 
-+++ Meer informatie over de afleveringsstatus
++++ Meer informatie over de metriek van de leveringsstatus
 
 * **[!UICONTROL Delivered]**: Het aantal SMS-berichten dat is verzonden in verhouding tot het totale aantal SMS-berichten.
 
@@ -109,7 +109,7 @@ De tabel **[!UICONTROL SMS Message type]** bevat een uitgebreid overzicht van he
 
 De tabel **[!UICONTROL SMS providers]** bevat een uitgebreid overzicht van de SMS-providers die het hoogste bezoekersverkeer hebben aangetrokken. Deze bron biedt waardevolle inzichten in de dynamiek van de betrokkenheid van het publiek.
 
-+++ Meer informatie over meetgegevens van SMS-providers
++++ Meer informatie over de metriek van SMS-providers
 
 * **[!UICONTROL People]**: Aantal gebruikersprofielen dat in aanmerking komt als doelprofielen voor uw SMS-berichten.
 

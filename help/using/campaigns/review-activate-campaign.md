@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: campagne, revisie, validatie, activering, activering, optimaliseren
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 3%
@@ -36,7 +36,7 @@ Zodra uw campagne is gevormd, moet u zijn parameter en inhoud herzien alvorens h
 
 1. Controleer of uw campagne correct is geconfigureerd en klik op **[!UICONTROL Activate]** .
 
-1. De campagne is nu geactiveerd. De status is **[!UICONTROL Live]** of **[!UICONTROL Scheduled]** als u een begindatum hebt ingevoerd. [ leer meer op campagnestatussen ](get-started-with-campaigns.md#statuses).
+1. De campagne is nu geactiveerd. De status is **[!UICONTROL Live]** of **[!UICONTROL Scheduled]** als u een begindatum hebt ingevoerd. [ leer meer over campagnestatussen ](get-started-with-campaigns.md#statuses).
 
    Het bericht dat in de campagne wordt gevormd wordt verzonden onmiddellijk of op de gespecificeerde datum.
 

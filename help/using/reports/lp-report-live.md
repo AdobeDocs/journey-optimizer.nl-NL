@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >title="Live-verslag over de landingspagina"
 >abstract="Met het live rapport op de landingspagina kunt u de impact en prestaties van uw landingspagina alleen in de afgelopen 24 uur in real-time meten en visualiseren. Uw rapport is verdeeld in verschillende widgets die gedetailleerd uw het mislukken en fouten van de landingspagina beschrijven. Elk rapportdashboard kan worden gewijzigd door widgets te vergroten of te verkleinen of te verwijderen."
 
-Live rapporten, die toegankelijk zijn vanaf het tabblad Laatste 24 uur, geven gebeurtenissen weer die in de afgelopen 24 uur hebben plaatsgevonden, met een minimale tijdsinterval van twee minuten vanaf de gebeurtenis. Ter vergelijking, de rapporten van de Customer Journey Analytics concentreren zich op gebeurtenissen die minstens twee uur geleden voorkwamen en gebeurtenissen over een geselecteerde tijdspanne behandelen.
+Live rapporten, die toegankelijk zijn vanaf het tabblad Laatste 24 uur, geven gebeurtenissen weer die in de afgelopen 24 uur hebben plaatsgevonden, met een minimale tijdsinterval van twee minuten vanaf de gebeurtenis. Ter vergelijking, Customer Journey Analytics rapporteert zich op gebeurtenissen die minstens twee uur geleden hebben plaatsgevonden en gebeurtenissen gedurende een bepaalde tijdsperiode.
 
 Als u rapporten wilt openen, selecteert u **[!UICONTROL View Last 24hrs report]** in het menu Geavanceerd van de geselecteerde bestemmingspagina.
 
@@ -30,7 +30,7 @@ Als u rapporten wilt openen, selecteert u **[!UICONTROL View Last 24hrs report]*
 
 De landingspagina **[!UICONTROL Live report]** is verdeeld in verschillende widgets waarin het succes en de fouten van uw levering worden weergegeven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Voor meer informatie over dit verwijs naar deze [ sectie ](live-report.md).
 
-+++Leer meer op de verschillende metriek en widgets beschikbaar voor het het Aanvoeren pagina levend rapport.
++++Leer meer over de verschillende metriek en widgets beschikbaar voor het het Landing pagina live rapport.
 
 De widget **[!UICONTROL Landing page performance]** geeft de belangrijkste informatie met betrekking tot uw bericht gedurende de laatste 24 uur door KPIs:
 

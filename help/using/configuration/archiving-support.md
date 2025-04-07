@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: archief, berichten, HIPAA, BCC, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 1%
@@ -41,7 +41,7 @@ U kunt BCC (blind carbon copy) van een e-mail die door [!DNL Journey Optimizer] 
 
 ### BCC-e-mail inschakelen {#enable-bcc}
 
-Om de **[!UICONTROL BCC email]** optie toe te laten, ga het e-mailadres van uw keus op het specifieke gebied van de [ kanaalconfiguratie ](channel-surfaces.md) (d.w.z. vooraf ingesteld bericht) in. U kunt elk extern adres opgeven in de juiste indeling, behalve een e-mailadres dat is gedefinieerd voor een subdomein dat is gedelegeerd aan de Adobe. Bijvoorbeeld, als u *marketing.luma.com* subdomain aan Adobe delegeerde, wordt om het even welk adres als *abc@marketing.luma.com* verboden.
+Om de **[!UICONTROL BCC email]** optie toe te laten, ga het e-mailadres van uw keus op het specifieke gebied van de [ kanaalconfiguratie ](channel-surfaces.md) (d.w.z. vooraf ingesteld bericht) in. U kunt elk extern adres opgeven in de juiste indeling, behalve een e-mailadres dat is gedefinieerd voor een subdomein dat is gedelegeerd aan Adobe. Bijvoorbeeld, als u *marketing.luma.com* subdomain aan Adobe delegeerde, wordt om het even welk adres als *abc@marketing.luma.com* verboden.
 
 >[!CAUTION]
 >
@@ -67,7 +67,7 @@ De instelling voor het e-mailadres van de BCC wordt direct opgeslagen en verwerk
 
 Nochtans, wordt het adres BCC opgepikt voor het verzenden van mededelingen na de hier beschreven logica [ ](../email/email-settings.md).
 
-### Recommendations en beperkingen {#bcc-recommendations-limitations}
+### Aanbevelingen en beperkingen {#bcc-recommendations-limitations}
 
 * Om ervoor te zorgen dat uw privacy wordt nageleefd, moeten BCC-e-mails worden verwerkt door een archiveringssysteem dat PII&#39;s (Secure Persoonlijke Identifier Information) kan opslaan.
 
@@ -113,13 +113,13 @@ Volg de onderstaande stappen om dit te doen.
 
 >[!NOTE]
 >
->Leer meer bij het beheren van Privacy en de toepasselijke verordeningen in de [ documentatie van het Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl) {target="_blank"}.
+>Leer meer over het beheren van Privacy en de toepasselijke verordeningen in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl) {target="_blank"}.
 
 ### BCC-rapportagegegevens {#bcc-reporting}
 
 Rapportage als zodanig over BCC is niet beschikbaar in de reis- en berichtrapporten. De informatie wordt echter opgeslagen in een systeemgegevensset met de naam **[!UICONTROL AJO BCC Feedback Event Dataset]** . U kunt vragen tegen deze dataset in werking stellen om nuttige informatie voor het zuiveren doel bijvoorbeeld te vinden.
 
-Selecteer **[!UICONTROL Data management]** > **[!UICONTROL Datasets]** > **[!UICONTROL Browse]** om via de gebruikersinterface toegang te krijgen tot deze gegevensset. Leer meer op hoe te om tot datasets in [ toegang te hebben deze sectie ](../data/get-started-datasets.md#access-datasets).
+Selecteer **[!UICONTROL Data management]** > **[!UICONTROL Datasets]** > **[!UICONTROL Browse]** om via de gebruikersinterface toegang te krijgen tot deze gegevensset. Leer meer over hoe te om tot datasets in [ toegang te hebben deze sectie ](../data/get-started-datasets.md#access-datasets).
 
 <!--![](assets/preset-bcc-dataset.png)-->
 
@@ -232,7 +232,7 @@ Elk e-mailbericht bevat nu een koptekst met de naam `x-message-profile-id` . De 
 
 De `x-message-profile-id` kopbal wordt ook opgeslagen in de volgende systeemdatasets: [ Dataset van de Gebeurtenis van de Feedback van het Bericht van AJO ](../data/datasets-query-examples.md#message-feedback-event-dataset) (verzonden e-mails) en [ Dataset van de Gebeurtenis van de BCC van AJO BCC ](#bcc-reporting) (exemplaren BCC). U kunt deze datasets vragen om het exemplaar BCC en overeenkomstige daadwerkelijke e-mail met elkaar in overeenstemming te brengen.
 
-* Selecteer **[!UICONTROL Data management]** > **[!UICONTROL Datasets]** > **[!UICONTROL Browse]** om deze gegevenssets te openen via de gebruikersinterface. Leer meer op hoe te om tot datasets in [ toegang te hebben deze sectie ](../data/get-started-datasets.md#access-datasets).
+* Selecteer **[!UICONTROL Data management]** > **[!UICONTROL Datasets]** > **[!UICONTROL Browse]** om deze gegevenssets te openen via de gebruikersinterface. Leer meer over hoe te om tot datasets in [ toegang te hebben deze sectie ](../data/get-started-datasets.md#access-datasets).
 
 * Gebruik de Redacteur van de Vraag die door de [ Dienst van de Vraag van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) wordt verstrekt {target="_blank"}. Selecteer **[!UICONTROL Data management]** > **[!UICONTROL Queries]** en klik op **[!UICONTROL Create query]** om het bestand te openen. [Meer informatie](../data/get-started-queries.md)
 

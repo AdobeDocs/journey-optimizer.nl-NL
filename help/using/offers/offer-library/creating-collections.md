@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Ga als volgt te werk om een verzameling te maken:
    >
    >Statische verzamelingen worden niet automatisch bijgewerkt. Om aanbiedingen aan een statische inzameling toe te voegen, moet u het uitgeven en hen manueel toevoegen.
 
-1. Selecteer **[!UICONTROL Manage access]** als u aangepaste of basislabels voor gegevensgebruik wilt toewijzen aan een statische verzameling. [ leer meer op het Toegangsbeheer van het Niveau van Objecten (OLAC) ](../../administration/object-based-access.md)
+1. Selecteer **[!UICONTROL Manage access]** als u aangepaste of basislabels voor gegevensgebruik wilt toewijzen aan een statische verzameling. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../../administration/object-based-access.md)
 
    >[!NOTE]
    >

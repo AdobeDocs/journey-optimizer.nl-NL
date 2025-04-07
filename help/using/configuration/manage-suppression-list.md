@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: onderdrukken, lijst, stuiteren, e-mail, optimaliseren, quarantaine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: d108d449786d9c3aa3e95aefc1bca07292cd690d
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 1%
@@ -22,11 +22,11 @@ Met [!DNL Journey Optimizer] kunt u alle e-mailadressen controleren die automati
 
 Dergelijke e-mailadressen worden automatisch verzameld in de Journey Optimizer **suppressielijst**. Een suppressielijst bestaat uit adressen en domeinen die van uw publiek moeten worden uitgesloten. Het verzamelt e-mailadressen en domeinen die over alle post in één enkele cliëntmilieu worden onderdrukt, betekenend specifiek voor een organisatie ID verbonden aan een zandbak identiteitskaart
 
-Leer meer op het concept en het gebruik van de suppressielijst in [ deze sectie ](../reports/suppression-list.md).
+Leer meer over het concept en het gebruik van de suppressielijst in [ deze sectie ](../reports/suppression-list.md).
 
 >[!NOTE]
 >
->Adobe houdt een bijgewerkte lijst bij van bekende slechte adressen waarvan is aangetoond dat ze de betrokkenheid en de mailingreputatie schaden, en zorgt ervoor dat er geen e-mails aan hen worden bezorgd. Deze lijst wordt beheerd in een globale suppressielijst die over alle klanten van de Adobe gemeenschappelijk is. De adressen en domeinnamen in de globale suppressielijst worden verborgen. Alleen het aantal uitgesloten ontvangers wordt vermeld in de leveringsverslagen.
+>Adobe houdt een bijgewerkte lijst bij van bekende slechte adressen waarvan is aangetoond dat ze schadelijk zijn voor de service en de mailingreputatie, en zorgt ervoor dat er geen e-mailberichten aan hen worden bezorgd. Deze lijst wordt beheerd in een algemene suppressielijst die door alle Adobe-klanten wordt gebruikt. De adressen en domeinnamen in de globale suppressielijst worden verborgen. Alleen het aantal uitgesloten ontvangers wordt vermeld in de leveringsverslagen.
 
 Bovendien kunt u hefboomwerking de Journey Optimizer **HULPMIDDELEN API van de Onderdrukking** om uw uitgaande berichten te controleren gebruikend onderdrukking en lijsten van gewenste personen. [ Leer hoe te om met de REST API van de Onderdrukking te werken ](https://developer.adobe.com/journey-optimizer-apis/references/suppression/) {target="_blank"}
 
@@ -39,7 +39,7 @@ Blader naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UI
 
 >[!CAUTION]
 >
->De toestemmingen om de suppressielijst te bekijken, uit te voeren en te beheren zijn beperkt tot [ Beheerders van de Reis ](../administration/ootb-product-profiles.md#journey-administrator). Leer meer bij het beheren van [!DNL Journey Optimizer] de toegangsrechten van gebruikers in [ deze sectie ](../administration/permissions-overview.md).
+>De toestemmingen om de suppressielijst te bekijken, uit te voeren en te beheren zijn beperkt tot [ Beheerders van de Reis ](../administration/ootb-product-profiles.md#journey-administrator). Leer meer over het beheren van [!DNL Journey Optimizer] de toegangsrechten van gebruikers in [ deze sectie ](../administration/permissions-overview.md).
 
 
 Er zijn filters beschikbaar waarmee u door de lijst kunt bladeren.
@@ -81,7 +81,7 @@ Mogelijke oorzaken voor een mislukte levering zijn:
 
 >[!NOTE]
 >
->Gebruikers met een abonnement ontvangen geen e-mails van [!DNL Journey Optimizer]. Daarom kunnen hun e-mailadressen niet naar de onderdrukkingslijst worden verzonden. Hun keuze wordt op het niveau van de Experience Platform behandeld. [ leer meer bij het opting-uit ](../privacy/opt-out.md)
+>Gebruikers met een abonnement ontvangen geen e-mails van [!DNL Journey Optimizer]. Daarom kunnen hun e-mailadressen niet naar de onderdrukkingslijst worden verzonden. Hun keuze wordt op Experience Platform-niveau geregeld. [ Leer meer over opting-out ](../privacy/opt-out.md)
 
 
 ### Onderdrukkingsregels  {#suppression-rules}

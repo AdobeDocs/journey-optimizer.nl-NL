@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 87931614150d6f764f565f683f83db4f63d88ee0
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 2%
@@ -63,7 +63,7 @@ Deze stappen moeten door een Beheerder van het Systeem van Adobe Journey Optimiz
       * Geel: Medium-kwaliteit
       * Rood: lage kwaliteit
 
-     Leer meer op [ Kwaliteit rating ](https://www.facebook.com/business/help/766346674749731#)
+     Leer meer over [ de classificatie van de Kwaliteit ](https://www.facebook.com/business/help/766346674749731#)
 
    * **Output**: wijst op het tarief waaraan uw telefoonaantal berichten kan verzenden.
 

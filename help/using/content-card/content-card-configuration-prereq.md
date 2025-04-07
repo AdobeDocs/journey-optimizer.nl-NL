@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
-source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 1%
@@ -19,12 +19,12 @@ Adobe Journey Optimizer kan alleen inhoudskaarten correct weergeven als u de vol
 
 * **de Inzameling van Gegevens van Adobe Experience Platform**
 
-  [ creeer een datastream ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) en [ voeg de dienst van het Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep) toe. Schakel de opties **[!UICONTROL Edge Segmentation]** en **[!UICONTROL Adobe Journey Optimizer]** in. Dit zorgt ervoor dat Journey Optimizer-gebeurtenissen worden afgehandeld door de Adobe Experience Platform-Edge Network.
+  [ creeer een datastream ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) en [ voeg de dienst van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep) toe. Schakel de opties **[!UICONTROL Edge Segmentation]** en **[!UICONTROL Adobe Journey Optimizer]** in. Dit zorgt ervoor dat Journey Optimizer-gebeurtenissen worden afgehandeld door de Adobe Experience Platform Edge Network.
 Voeg de **Gebeurtenis van de Ervaring toe - de 1} gebiedsgroep van de Interactie van de Positie {aan uw dataset om deze gegevens in uw rapporten te omvatten.** [ leer meer over gegevensstromen ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 * **Adobe Experience Platform**
 
-  Verzeker het standaardsamenvoegbeleid **actief-op-Edge Beleid van de Fusie** toegelaten onder **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** menu van het Experience Platform heeft. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure) {target="_blank"}
+  Verzeker het standaardsamenvoegbeleid **actief-op-Edge Beleid van de Fusie** toegelaten onder **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu heeft. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure) {target="_blank"}
 
   >[!NOTE]
   >
@@ -32,7 +32,7 @@ Voeg de **Gebeurtenis van de Ervaring toe - de 1} gebiedsgroep van de Interactie
 
 * **Adobe Experience Platform Mobile of het Web SDK van het Platform**
 
-  Voor mobiele en Webtoepassingen, om wijzigingen aan uw Web-pagina&#39;s of mobiele apps toe te voegen, moet u of [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/platform-learn/implement-web-sdk/overview) op uw website of [ Mobiele SDK van Adobe Experience Platform ](https://developer.adobe.com/client-sdks/home/) op uw mobiele apps uitvoeren.
+  Voor mobiele en Webtoepassingen, om wijzigingen aan uw Web-pagina&#39;s of mobiele apps toe te voegen, moet u of het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/platform-learn/implement-web-sdk/overview) op uw website of [ Adobe Experience Platform Mobiele SDK ](https://developer.adobe.com/client-sdks/home/) op uw mobiele apps uitvoeren.
 
 * **Journey Optimizer**
 

@@ -8,7 +8,7 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
-source-git-commit: e5edb719c4ff30385242700217c9c4c07ff28373
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 1%
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 [ Adobe GenStudio for Performance Marketing ](https://business.adobe.com/products/genstudio-for-performance-marketing.html) {target="_blank"} is een generatieve AI-eerste toepassing die marketing teams hun eigen advertenties en e-mails laat creëren om impactful, gepersonaliseerde marketing campagnes te drijven die aan uw merknormen voldoen en aan uw ondernemingsbeleid voldoet. Door gebruik te maken van Adobe AI-technologie, biedt deze technologie een uitgebreide reeks hulpmiddelen die de complexiteit van het maken en beheren van content vereenvoudigen, zodat creatieve mensen zich kunnen richten op innovatie.
 
-Leer meer op [!DNL GenStudio for Performance Marketing] in de specifieke [ documentatie ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) {target="_blank"}.
+Leer meer over [!DNL GenStudio for Performance Marketing] in de specifieke [ documentatie ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) {target="_blank"}.
 
 >[!INFO]
 >

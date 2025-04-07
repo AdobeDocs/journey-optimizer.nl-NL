@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-source-git-commit: 766530a2f443a2795d61161c9d08de299a5363d6
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 1%
@@ -54,7 +54,7 @@ Voor de meertalige inhoud moeten de volgende instellingen worden gedefinieerd:
 
 * Als u de vertaalfunctie in Journey Optimizer wilt gebruiken, moet u API aan de bijbehorende rol toewijzen. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
-* Gebruikers moeten de machtiging **[!UICONTROL Manage Language settings]** krijgen om meertalige inhoud te maken. Voor automatische doorloop hebben gebruikers ook machtigingen nodig die betrekking hebben op de mogelijkheden van **[!UICONTROL Translation Service]** . [ Leer meer op toestemmingen ](../administration/permissions.md)
+* Gebruikers moeten de machtiging **[!UICONTROL Manage Language settings]** krijgen om meertalige inhoud te maken. Voor automatische doorloop hebben gebruikers ook machtigingen nodig die betrekking hebben op de mogelijkheden van **[!UICONTROL Translation Service]** . [ leer meer over toestemmingen ](../administration/permissions.md)
 
 +++ Meer informatie over het toewijzen van meertalige gerelateerde machtigingen
 

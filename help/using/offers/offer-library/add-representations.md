@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Als de geselecteerde plaatsing beeld-type is, kunt u inhoud toevoegen die uit de
 
 >[!NOTE]
 >
-> Om met [ de Hoofdzaak van de Activa van de Manager van de Ervaring van Adobe te werken ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html) {target="_blank"}, moet u [!DNL Assets Essentials] voor uw organisatie opstellen en ervoor zorgen dat de gebruikers een deel van de **Hoofdzaak van Activa Consumenten** of/en **de Profielen van het Product van de Hoofdzaak van Activa** zijn. Leer meer op [ deze pagina ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html) {target="_blank"}.
+> Om met [ de Hoofdzaak van de Activa van de Manager van de Ervaring van Adobe te werken ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html) {target="_blank"}, moet u [!DNL Assets Essentials] voor uw organisatie opstellen en ervoor zorgen dat de gebruikers een deel van de **Hoofdzaak van Activa Consumenten** of/en **de Profielen van het Product van de Hoofdzaak van Activa** zijn. Leer meer over [ deze pagina ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html) {target="_blank"}.
 
 1. Kies de optie **[!UICONTROL Asset library]**.
 
@@ -100,7 +100,7 @@ Om uw inhoud in een vertegenwoordiging opnieuw te gebruiken, doorblader de **Bib
 
 Als u inhoud wilt toevoegen vanaf een externe openbare locatie, selecteert u **[!UICONTROL URL]** en voert u het URL-adres in van de inhoud die u wilt toevoegen.
 
-U kunt URLs personaliseren gebruikend de verpersoonlijkingsredacteur. Leer meer op [ verpersoonlijking ](../../personalization/personalize.md#use-expression-editor).
+U kunt URLs personaliseren gebruikend de verpersoonlijkingsredacteur. Leer meer over [ verpersoonlijking ](../../personalization/personalize.md#use-expression-editor).
 
 ![](../assets/offer-content-url.png)
 
@@ -128,7 +128,7 @@ U kunt ook teksttype-inhoud invoegen wanneer u een compatibele plaatsing selecte
 
    ![](../assets/offer-text-content.png)
 
-   U kunt uw inhoud personaliseren gebruikend de verpersoonlijkingsredacteur. Leer meer op [ verpersoonlijking ](../../personalization/personalize.md#use-expression-editor).
+   U kunt uw inhoud personaliseren gebruikend de verpersoonlijkingsredacteur. Leer meer over [ verpersoonlijking ](../../personalization/personalize.md#use-expression-editor).
 
    ![](../assets/offer-personalization.png)
 

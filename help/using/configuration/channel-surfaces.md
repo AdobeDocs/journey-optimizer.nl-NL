@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: kanaal, oppervlak, technisch, parameters, optimalisator
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1735'
 ht-degree: 0%
@@ -75,7 +75,7 @@ Ga als volgt te werk om een kanaalconfiguratie te maken:
    >
    > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook onderstrepingsteken `_` -, punt `.` - en afbreekstreepjes `-` gebruiken.
 
-1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [ leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md).
+1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md).
 
 1. Selecteer het kanaal.
 
@@ -219,7 +219,7 @@ Verscheidene leveringscontroles zullen worden uitgevoerd om te verifiëren dat d
 >
 >Als u alleen de velden **[!UICONTROL Description]** , **[!UICONTROL Email type]** en/of **[!UICONTROL Email retry parameters]** bewerkt, wordt de update onmiddellijk uitgevoerd.
 
-De verwerkingstijd kan tot **3 uren** vergen. Leer meer op de controles die tijdens de bevestigingscyclus in [ worden uitgevoerd deze sectie ](#create-channel-surface).
+De verwerkingstijd kan tot **3 uren** vergen. Leer meer over de controles die tijdens de bevestigingscyclus in [ worden uitgevoerd deze sectie ](#create-channel-surface).
 
 Als u een configuratie bewerkt die al actief was:
 
@@ -253,7 +253,7 @@ Als u een kanaalconfiguratie van **[!UICONTROL Active]** niet beschikbaar wilt m
 
 >[!NOTE]
 >
->U kunt een kanaalconfiguratie niet deactiveren terwijl een update wordt verwerkt. U moet wachten tot de update is gelukt of mislukt. Leer meer op [ het uitgeven kanaalconfiguraties ](#edit-channel-surface) en op de [ updatestatus ](#update-statuses).
+>U kunt een kanaalconfiguratie niet deactiveren terwijl een update wordt verwerkt. U moet wachten tot de update is gelukt of mislukt. Leer meer over [ het uitgeven kanaalconfiguraties ](#edit-channel-surface) en op de [ updatestatus ](#update-statuses).
 
 1. Open de lijst met kanaalconfiguraties.
 

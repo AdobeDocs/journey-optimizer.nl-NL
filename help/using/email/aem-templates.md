@@ -11,7 +11,7 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 1%
@@ -89,7 +89,7 @@ Zodra de Experience Manager-sjabloon in Journey Optimizer beschikbaar is als een
 
    ![](assets/aem_ajo_2.png)
 
-1. Klik in het **[!UICONTROL Template properties]** -venster op de knop **[!UICONTROL Manage access]** om aangepaste labels of basislabels voor gegevensgebruik toe te wijzen aan uw sjabloon. [ leer meer op het Toegangsbeheer van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md)
+1. Klik in het **[!UICONTROL Template properties]** -venster op de knop **[!UICONTROL Manage access]** om aangepaste labels of basislabels voor gegevensgebruik toe te wijzen aan uw sjabloon. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md)
 
 1. Als u de Experience Manager-sjabloon verder wilt aanpassen en aangepaste aanpassingen aan uw inhoud wilt toevoegen, klikt u op **[!UICONTROL Edit content]** . Zo kunt u gemakkelijk wijzigingen aanbrengen en de sjabloon aan uw specifieke behoeften aanpassen. [Meer informatie](../email/get-started-email-design.md)
 

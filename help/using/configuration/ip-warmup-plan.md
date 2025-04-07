@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, groep, subdomeinen, leverbaarheid
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1669'
 ht-degree: 0%
@@ -286,7 +286,7 @@ Om een IP warmup plan tot stand te brengen, volg de hieronder stappen.
 
    ![](assets/ip-warmup-plan-details.png)
 
-1. Selecteer de [ configuratie ](channel-surfaces.md) die u omhoog wilt opwarmen. Alleen marketingconfiguraties zijn beschikbaar voor selectie. [ Leer meer op e-mailtype ](../email/email-settings.md#email-type)
+1. Selecteer de [ configuratie ](channel-surfaces.md) die u omhoog wilt opwarmen. Alleen marketingconfiguraties zijn beschikbaar voor selectie. [ Leer meer over e-mailtype ](../email/email-settings.md#email-type)
 
    >[!NOTE]
    >

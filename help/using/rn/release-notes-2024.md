@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '6781'
 ht-degree: 7%
@@ -189,7 +189,7 @@ Eerder beschikbaar voor een reeks organisaties (LA), zijn de volgende mogelijkhe
 <tbody>
 <tr>
 <td>
-<p>Beslissingen, die voorheen beschikbaar waren voor een aantal organisaties (LA) en bekend staan als Experience Decisioning, zijn nu beschikbaar voor alle gebruikers (GA), inclusief organisaties die de invoegtoepassing Adobe Healthcare Shield of Privacy and Security Shield hebben aangeschaft.</p><p>Beslissing vereenvoudigt personalisering door een gecentraliseerde catalogus van marketing aanbiedingen aan te bieden die als "beslissingspunten"en een geavanceerd besluitvormingsmotor worden bekend. Deze motor hanteert regels en rangschikkingscriteria om de meest relevante beslissingsitems te selecteren en aan elk individu voor te leggen. Deze beslissingsitems worden naadloos geïntegreerd in een groot aantal binnenkomende oppervlakken via het op code gebaseerde ervaringskanaal.</p>
+<p>Beslissingen, die voorheen beschikbaar waren voor een aantal organisaties (LA) en bekend staan als Experience Decisioning, zijn nu beschikbaar voor alle gebruikers (GA), inclusief organisaties die de invoegtoepassing Adobe Healthcare Shield of Privacy and Security Shield hebben aangeschaft.</p><p>Beslissing vereenvoudigt personalisering met een gecentraliseerde catalogus van marketingaanbiedingen die gelden als 'beslissingspunten' en een geavanceerde besluitvormingsengine. Deze engine hanteert regels en rangschikkingscriteria om de meest relevante beslissingsitems voor elk individu te selecteren en presenteren. Deze beslissingsitems worden naadloos geïntegreerd in een groot aantal binnenkomende oppervlakken via het op code gebaseerde ervaringskanaal.</p>
 <p>Raadpleeg de <a href="../experience-decisioning/gs-experience-decisioning.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
@@ -224,7 +224,7 @@ Eerder beschikbaar voor een reeks organisaties (LA), zijn de volgende mogelijkhe
 <tr>
 <td>
 <p>De Journey Optimizer-rapportage is nu algemeen beschikbaar (GA) en wordt geleverd met een verbeterde interoperabiliteit met Customer Journey Analytics-mogelijkheden, standaardisering van de rapportage op beide platforms en verbetering van de consistentie en betrouwbaarheid van gegevens. Deze naadloze integratie tussen Journey Optimizer en Customer Journey Analytics zorgt voor een duidelijker beeld van de prestatiesmetriek, waardoor gebruikers beter geïnformeerde beslissingen kunnen nemen.</p>
-<p>Met Algemene Beschikbaarheid, worden vier nieuwe eigenschappen geïntroduceerd: de capaciteit om eenvoudige metriek tot stand te brengen, te creëren en publiek te publiceren, ad-hocvragen te stellen gebruikend de Bouwer van het Inzicht, en planningsrapporten om automatisch aan zeer belangrijke ontvangers worden gemaild.</p>
+<p>Met Algemene Beschikbaarheid, worden vier nieuwe eigenschappen geïntroduceerd: de capaciteit om eenvoudige metriek tot stand te brengen, publiek tot stand te brengen en te publiceren, ad-hocvragen te stellen gebruikend Insight Builder, en planningsrapporten om automatisch aan zeer belangrijke ontvangers worden gemaild.</p>
 <p>Raadpleeg de <a href="../reports/report-cja-manage.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
 <p>Belangrijk: de huidige ervaring met rapportage wordt met ingang van januari 2025 opgeheven. Na deze datum wordt de nieuwe ervaring met rapportage de norm. We raden u aan bekend te maken met de nieuwe functies en functies om een soepele overgang te garanderen. <a href="../reports/report-gs-cja.md"> Leer hoe te om met Journey Optimizer te worden begonnen de nieuwe Rapporterende interface </a></p>
@@ -870,7 +870,7 @@ Lees meer in de [ documentatie van het inhoudsfragment ](../content-management/f
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
-* U kunt nu de Edge Delivery-insteekmodule gebruiken om informatie op te halen die nodig is voor het begrijpen van en het oplossen van problemen met uw binnenkomende implementaties. [ leer meer op de mening van Edge Delivery ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery) {target="_blank"}.
+* U kunt nu de Edge Delivery-insteekmodule gebruiken om informatie op te halen die nodig is voor het begrijpen van en het oplossen van problemen met uw binnenkomende implementaties. [ leer meer over de mening van Edge Delivery ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery) {target="_blank"}.
 
 
 #### Direct mailkanaal

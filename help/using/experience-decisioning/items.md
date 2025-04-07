@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 83ad828a4d342bba10284cdd20d22eb325e3e1f7
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1682'
 ht-degree: 0%
@@ -79,7 +79,7 @@ In feite is de uitvoer van een publiek een lijst met profielen, terwijl een besl
 
 +++
 
-* Als u de presentatie van het beslissingsitem wilt beperken tot de leden van een of meer Adobe Experience Platform-doelgroepen, selecteert u de optie **[!UICONTROL Visitors who fall into one or multiple audiences]** en voegt u vervolgens een of meer soorten doelgroepen in het linkerdeelvenster toe en combineert u deze met de logische operatoren **[!UICONTROL And]** / **[!UICONTROL Or]** . [ leer meer op publiek ](../audience/about-audiences.md).
+* Als u de presentatie van het beslissingsitem wilt beperken tot de leden van een of meer Adobe Experience Platform-doelgroepen, selecteert u de optie **[!UICONTROL Visitors who fall into one or multiple audiences]** en voegt u vervolgens een of meer soorten doelgroepen in het linkerdeelvenster toe en combineert u deze met de logische operatoren **[!UICONTROL And]** / **[!UICONTROL Or]** . [ leer meer over publiek ](../audience/about-audiences.md).
 
 * Als u een specifieke beslissingsregel wilt koppelen aan het beslissingsitem, selecteert u **[!UICONTROL By rule]** en sleept u de gewenste regel van het linkerdeelvenster naar het centrale gebied. [ leer meer over besluitvormingsregels ](rules.md).
 
@@ -119,7 +119,7 @@ Klik op de knop **[!UICONTROL Create capping]** en voer de volgende stappen uit 
 
 1. Kies het type bijschrift:
 
-   * Selecteer **[!UICONTROL In total]** om te bepalen hoe vaak het punt over het gecombineerde doelpubliek kan worden voorgesteld, betekenend over alle gebruikers. Als u bijvoorbeeld een elektronicawinkel bent met een &#39;tv-huis-deal&#39;, wilt u dat het aanbod slechts 200 keer wordt geretourneerd voor alle profielen.
+   * Selecteer **[!UICONTROL In total]** om te bepalen hoe vaak het punt over het gecombineerde doelpubliek kan worden voorgesteld, betekenend over alle gebruikers. Als je bijvoorbeeld een elektronica-retailer bent met een &#39;tv-huis-deal&#39;, wil je dat het aanbod slechts 200 keer wordt teruggegeven voor alle profielen.
 
    * Selecteer **[!UICONTROL Per profile]** om te bepalen hoe vaak de aanbieding aan de zelfde gebruiker kan worden voorgesteld. Als je bijvoorbeeld een bank bent met een &#39;Platinum credit card&#39;-aanbieding, wil je niet dat dit voorstel meer dan vijf keer per profiel wordt weergegeven. U bent namelijk van mening dat als de gebruiker het aanbod vijf keer heeft gezien en er niet op heeft gereageerd, hij een grotere kans heeft om op het volgende beste aanbod in te gaan.
 

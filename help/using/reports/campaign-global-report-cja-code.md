@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 0%
@@ -31,7 +31,7 @@ U kunt het campagnerapport op basis van code openen door in uw campagne op de kn
 
 In de **[!UICONTROL Display & Click]** -grafieken wordt een gedetailleerde analyse gegeven van de betrokkenheid van uw profielen bij uw op code gebaseerde ervaringen. Deze grafieken bieden waardevolle inzichten in de interactie tussen profielen en uw inhoud.
 
-+++ Meer informatie over indrukken en klikken op metriek
++++ Meer informatie over afmetingen voor indrukken en klikken
 
 * **[!UICONTROL Unique Clicks]**: Aantal profielen dat op een inhoud in uw ervaringen heeft geklikt.
 
@@ -49,7 +49,7 @@ In de **[!UICONTROL Display & Click]** -grafieken wordt een gedetailleerde analy
 
 De tabel **[!UICONTROL Tracking data]** biedt een gedetailleerde momentopname van profielactiviteiten die zijn gekoppeld aan uw ervaringen op basis van code en biedt essentiële inzichten in de effectiviteit van betrokkenheid en ervaringen.
 
-+++ Meer informatie over het bijhouden van gegevens
++++ Meer informatie over het bijhouden van gegevensmetriek
 
 * **[!UICONTROL People]**: Aantal gebruikersprofielen dat voor uw ervaringen in aanmerking komt als doelprofielen.
 

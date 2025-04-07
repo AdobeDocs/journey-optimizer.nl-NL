@@ -9,26 +9,26 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: schema's, XDM, platform, streaming, opname, reis
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 7c55cc25fe1286d466f2de719aa42dcb76154881
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 0%
 
 ---
 
-# Over ExperienceEvent-schema&#39;s voor [!DNL Journey Optimizer] Gebeurtenissen {#about-experienceevent-schemas}
+# Over ExperienceEvent-schema&#39;s voor [!DNL Journey Optimizer] -gebeurtenissen {#about-experienceevent-schemas}
 
-[!DNL Journey Optimizer] Gebeurtenissen zijn XDM Experience Events die via Streaming Ingestie naar Adobe Experience Platform worden verzonden.
+[!DNL Journey Optimizer] -gebeurtenissen zijn XDM Experience Events die via Streaming Ingestie naar Adobe Experience Platform worden verzonden.
 
-Als zodanig is dit een belangrijke voorwaarde voor het instellen van gebeurtenissen voor [!DNL Journey Optimizer] is dat u bekend bent met het Adobe Experience Platform Experience Data Model (of XDM) en hoe u XDM Experience Event-schema&#39;s kunt samenstellen, en hoe u XDM-opgemaakte gegevens kunt streamen naar Adobe Experience Platform.
+Daarom is een belangrijke voorwaarde voor het instellen van gebeurtenissen voor [!DNL Journey Optimizer] dat u bekend bent met het Adobe Experience Platform Experience Data Model (of XDM) en hoe u XDM Experience Event-schema&#39;s kunt samenstellen en hoe u XDM-gegevens kunt streamen naar Adobe Experience Platform.
 
-## Schemavereisten voor [!DNL Journey Optimizer] Gebeurtenissen  {#schema-requirements}
+## Schemavereisten voor [!DNL Journey Optimizer] gebeurtenissen  {#schema-requirements}
 
-De eerste stap bij het instellen van een gebeurtenis voor [!DNL Journey Optimizer] moet ervoor zorgen dat u een XDM-schema hebt dat wordt bepaald om de gebeurtenis te vertegenwoordigen, en een dataset die wordt gecreeerd om instanties van de gebeurtenis op Adobe Experience Platform te registreren. Het hebben van een dataset voor uw gebeurtenissen is niet strikt noodzakelijk, maar het verzenden van de gebeurtenissen naar een specifieke dataset zal u toestaan om de de gebeurtenisgeschiedenis van gebruikers voor toekomstige verwijzing en analyse te handhaven, zodat is het altijd een goed idee. Als u nog geen geschikt schema en een geschikte dataset voor uw gebeurtenis hebt, kunnen beide taken in de Webinterface van Adobe Experience Platform worden gedaan.
+De eerste stap bij het instellen van een gebeurtenis voor [!DNL Journey Optimizer] is ervoor te zorgen dat u een XDM-schema hebt gedefinieerd om de gebeurtenis te vertegenwoordigen, en een dataset die is gemaakt om instanties van de gebeurtenis op Adobe Experience Platform op te nemen. Het hebben van een dataset voor uw gebeurtenissen is niet strikt noodzakelijk, maar het verzenden van de gebeurtenissen naar een specifieke dataset zal u toestaan om de de gebeurtenisgeschiedenis van gebruikers voor toekomstige verwijzing en analyse te handhaven, zodat is het altijd een goed idee. Als u nog geen geschikt schema en een geschikte dataset voor uw gebeurtenis hebt, kunnen beide taken in de Webinterface van Adobe Experience Platform worden gedaan.
 
 ![](assets/schema1.png)
 
-Om het even welk XDM schema dat voor zal worden gebruikt [!DNL Journey Optimizer] evenementen moeten aan de volgende eisen voldoen :
+Elk XDM-schema dat voor [!DNL Journey Optimizer] -gebeurtenissen wordt gebruikt, moet aan de volgende vereisten voldoen:
 
 * Het schema moet van de klasse XDM ExperienceEvent zijn.
 
@@ -72,14 +72,14 @@ Hier volgt het aankoopschema met de relatie die is gedefinieerd in het veld prod
 
 >[!NOTE]
 >
->Meer informatie over schema-relaties in het dialoogvenster [Documentatie Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
+>Leer meer over schemaverhoudingen in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
 
 In Journey Optimizer kunt u vervolgens alle velden uit de gekoppelde tabellen benutten:
 
-* bij de configuratie van een bedrijfs- of monitaire gebeurtenis, [Meer informatie](../event/experience-event-schema.md#unitary_event_configuration)
-* bij het gebruik van omstandigheden tijdens een reis, [Meer informatie](../event/experience-event-schema.md#journey_conditions_using_event_context)
-* in berichtverpersoonlijking, [Meer informatie](../event/experience-event-schema.md#message_personalization)
-* op maat van aangepaste handelingen, [Meer informatie](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+* wanneer het vormen van een zaken of eenheidsgebeurtenis, [ las meer ](../event/experience-event-schema.md#unitary_event_configuration)
+* wanneer het gebruiken van voorwaarden in een reis, [ las meer ](../event/experience-event-schema.md#journey_conditions_using_event_context)
+* in berichtverpersoonlijking, [ las meer ](../event/experience-event-schema.md#message_personalization)
+* in de verpersoonlijking van de douaneactie, [ las meer ](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
 ### Arrays{#relationships_limitations}
 
@@ -87,7 +87,7 @@ U kunt een schemaverhouding op een serie van koorden, bijvoorbeeld, een lijst va
 
 ![](assets/schema15.png)
 
-U kunt ook een schema-relatie definiëren met een kenmerk binnen een array van objecten, bijvoorbeeld een lijst met aankoopgegevens (product-id, productnaam, prijs, korting). De opzoekwaarden zijn beschikbaar voor reizen (voorwaarden, aangepaste handelingen, enz.) en berichtpersonalisatie.
+U kunt ook een schema-relatie definiëren met een kenmerk binnen een array van objecten, bijvoorbeeld een lijst met aankoopgegevens (product-id, productnaam, prijs, korting). De opgezochte waarden zullen in reizen (voorwaarden, douaneacties, enz.) en berichtverpersoonlijking beschikbaar zijn.
 
 ![](assets/schema16.png)
 
@@ -105,7 +105,7 @@ De gekoppelde velden zijn niet beschikbaar:
 * in de sleutelformule voor gebeurtenissen
 * in event id condition (op regel gebaseerde gebeurtenissen)
 
-Als u wilt weten hoe u een eenheidsgebeurtenis configureert, raadpleegt u deze [page](../event/about-creating.md).
+Leren hoe te om een eenheidsgebeurtenis te vormen, verwijs naar deze [ pagina ](../event/about-creating.md).
 
 ### Reisomstandigheden met gebeurteniscontext{#journey_conditions_using_event_context}
 
@@ -115,7 +115,7 @@ Voeg een voorwaarde toe in een reis, geef de uitdrukking uit en ontvouw de gebeu
 
 ![](assets/schema12.png)
 
-Als u wilt leren hoe u de reisvoorwaarden definieert, raadpleegt u deze [page](../building-journeys/condition-activity.md).
+Leren hoe te om reisvoorwaarden te bepalen, verwijs naar deze [ pagina ](../building-journeys/condition-activity.md).
 
 ### Berichtenpersonalisatie{#message_personalization}
 
@@ -123,7 +123,7 @@ De gekoppelde velden zijn beschikbaar wanneer u een bericht personaliseert. De v
 
 ![](assets/schema14.png)
 
-Als u wilt leren hoe u een bericht kunt personaliseren met contextuele informatie over reizen, raadpleegt u deze [page](../personalization/personalization-use-case.md).
+Leren hoe te om een bericht met contextuele reisinformatie te personaliseren, verwijs naar deze [ pagina ](../personalization/personalization-use-case.md).
 
 ### Aangepaste actie-personalisatie met context van reisgebeurtenis{#custom_action_personalization_with_journey_event_context}
 
@@ -131,4 +131,4 @@ De verbonden gebieden zijn beschikbaar wanneer het vormen van de actieparameters
 
 ![](assets/schema13.png)
 
-Raadpleeg de volgende secties voor meer informatie over het gebruik van aangepaste handelingen [page](../building-journeys/using-custom-actions.md).
+Leren hoe te om douaneacties te gebruiken, verwijs naar deze [ pagina ](../building-journeys/using-custom-actions.md).

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 478706e893354d59be5d2010da84546aa4385d99
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Uitschakelen van beheer voor tekstberichten {#sms-opt-out}
 
-In overeenstemming met de industriestandaarden en -voorschriften moeten alle SMS-marketingberichten een manier bevatten waarop de ontvangers hun abonnement gemakkelijk kunnen opzeggen. [ Leer meer op privacy &amp; opt-out beheer ](../privacy/opt-out.md)
+In overeenstemming met de industriestandaarden en -voorschriften moeten alle SMS-marketingberichten een manier bevatten waarop de ontvangers hun abonnement gemakkelijk kunnen opzeggen. [ Leer meer over privacy &amp; opt-out beheer ](../privacy/opt-out.md)
 
 >[!IMPORTANT]
 >

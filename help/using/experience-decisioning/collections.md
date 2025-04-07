@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 1%
@@ -42,7 +42,7 @@ Ga als volgt te werk om een verzameling te maken:
 1. Geef een naam en een beschrijving voor de verzameling op.
 1. Voeg één of veelvoudige regels toe om de punten te bepalen die in de inzameling moeten worden omvat. Dit doet u als volgt:
 
-   1. Kies een itemkenmerk dat u als criterium wilt gebruiken. De lijst met kenmerken bevat alle standaard- en aangepaste kenmerken die zijn gedefinieerd in het catalogusschema. [ leer meer over de catalogus van punten ](catalogs.md)
+   1. Kies een itemkenmerk dat u als criterium wilt gebruiken. De lijst met kenmerken bevat alle standaard- en aangepaste kenmerken die zijn gedefinieerd in het catalogusschema. [ Leer meer over de catalogus van punten ](catalogs.md)
    1. Selecteer de gewenste operator en voer de waarde in waarop u wilt filteren.
    1. Herhaal deze stappen om zoveel regels toe te voegen als nodig is. Wanneer de veelvoudige regels worden toegevoegd, kunt u tussen **kiezen en** en **of** exploitanten om hen te combineren. Klik hiertoe op het bedieningspaneel om te schakelen tussen de twee keuzen.
    1. Klik op de knop **[!UICONTROL Preview collection]** om de items weer te geven die voldoen aan de regels die u hebt gedefinieerd.
@@ -53,4 +53,4 @@ Ga als volgt te werk om een verzameling te maken:
 
 >[!NOTE]
 >
->Elke objectverzameling kan maximaal 500 aangeboden objecten bevatten. [ leer meer op het Beslissen van gidsen &amp; beperkingen ](gs-experience-decisioning.md#guardrails)
+>Elke objectverzameling kan maximaal 500 aangeboden objecten bevatten. [ leer meer over het Beslissen van gidsen &amp; beperkingen ](gs-experience-decisioning.md#guardrails)

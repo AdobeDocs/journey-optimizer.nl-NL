@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: abb837b6af232e23bbbc6a1f1b2607dbc2ee2679
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1438'
 ht-degree: 1%
@@ -75,7 +75,7 @@ U kunt niet met configuratieverwezenlijking te werk gaan terwijl de geselecteerd
 >
 >Voor niet-productiemilieu&#39;s, creeert Adobe geen uit-van-de-doos testsubdomeinen noch verleent toegang tot een gedeelde verzendende IP pool. U moet [ uw eigen subdomeinen ](../configuration/delegate-subdomain.md) afvaardigen en IPs van de pool gebruiken die aan uw organisatie wordt toegewezen.
 
-Nadat een IP pool is geselecteerd, is de informatie PTR zichtbaar wanneer het hangen over de IP adressen onder de IP pool drop-down lijst wordt getoond. [ leer meer op PTR verslagen ](../configuration/ptr-records.md)
+Nadat een IP pool is geselecteerd, is de informatie PTR zichtbaar wanneer het hangen over de IP adressen onder de IP pool drop-down lijst wordt getoond. [ leer meer over PTR verslagen ](../configuration/ptr-records.md)
 
 >[!NOTE]
 >
@@ -179,7 +179,7 @@ U moet een geheel-getalwaarde (in uren of notulen) binnen de volgende waaier ing
 * Voor transactie-e-mailberichten is de minimale herroepingstermijn 10 minuten.
 * Voor beide e-mailtypen is de maximale hergebruiksperiode 84 uur (of 5040 minuten).
 
-Leer meer op herpogingen in [ deze sectie ](../configuration/retries.md).
+Leer meer over pogingen in [ deze sectie ](../configuration/retries.md).
 
 ## URL-tracking {#url-tracking}
 

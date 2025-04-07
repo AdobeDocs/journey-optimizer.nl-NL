@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f68df6ee-d74e-46b4-a53f-b0eb50101e85
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -49,7 +49,7 @@ In de **[!UICONTROL Display & Click]** -grafieken wordt een gedetailleerde analy
 
 De tabel **[!UICONTROL Tracking data]** biedt een gedetailleerde momentopname van profielactiviteiten die zijn gekoppeld aan uw inhoudskaarten en biedt essentiële inzichten in de effectiviteit van de betrokkenheid en ervaringen.
 
-+++ Meer informatie over het bijhouden van gegevens
++++ Meer informatie over het bijhouden van gegevensmetriek
 
 * **[!UICONTROL People]**: Aantal gebruikersprofielen dat als doelprofielen voor uw inhoudskaarten wordt gekwalificeerd.
 

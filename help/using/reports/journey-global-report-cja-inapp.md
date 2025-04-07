@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -35,7 +35,7 @@ U kunt uw rapport over de reis in de app openen door op de knop **[!UICONTROL Re
 
 De grafiek van **[!UICONTROL Display & Click trend]** bevat een gedetailleerde analyse van de betrokkenheid van uw profielen bij uw In-app-berichten. Deze grafiek biedt waardevolle inzichten in de interactie tussen profielen en uw inhoud.
 
-+++ Meer informatie over weergave en klik op cijfers over trends
++++ Meer informatie over weergave en klik op trends
 
 * **[!UICONTROL Clicks]**: Het aantal keren dat er op de inhoud is geklikt in uw In-app-berichten.
 
@@ -59,7 +59,7 @@ In de grafiek van **[!UICONTROL Clicks]** worden in-app klikgegevens weergegeven
 
 De grafiek van **[!UICONTROL Displays]** helpt u zowel het algemene bereik van het bericht als het aantal unieke profielen begrijpen die met het verbinden.
 
-+++ Meer informatie over weergavemeetgegevens
++++ Meer informatie over weergavemetriek
 
 * **[!UICONTROL Displays]**: Het aantal keren dat het bericht is geopend.
 
@@ -71,7 +71,7 @@ De grafiek van **[!UICONTROL Displays]** helpt u zowel het algemene bereik van h
 
 De tabel **[!UICONTROL Tracking data]** bevat een gedetailleerde momentopname van profielactiviteiten die aan uw In-app-berichten zijn gekoppeld. Deze tabel biedt essentiële inzichten in de betrokkenheid en de doeltreffendheid van in-app-berichten.
 
-+++ Meer informatie over het bijhouden van gegevens
++++ Meer informatie over het bijhouden van gegevensmetriek
 
 * **[!UICONTROL People]**: Aantal gebruikersprofielen dat in aanmerking komt als doelprofielen voor uw berichten in de app.
 

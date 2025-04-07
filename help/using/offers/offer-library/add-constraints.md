@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2638'
 ht-degree: 0%
@@ -85,7 +85,7 @@ In de sectie **[!UICONTROL Offer eligibility]** kunt u het aanbod beperken tot s
 
 >[!NOTE]
 >
->Leer meer bij het gebruiken van **publiek** tegenover **besluitvormingsregels** in [ deze sectie ](#segments-vs-decision-rules).
+>Leer meer over het gebruiken van **publiek** tegenover **besluitvormingsregels** in [ deze sectie ](#segments-vs-decision-rules).
 
 * Standaard is de optie **[!UICONTROL All visitors]** geselecteerd. Dit houdt in dat elk profiel in aanmerking komt voor presentatie van de aanbieding.
 
@@ -123,13 +123,13 @@ In feite is de uitvoer van een publiek een lijst met profielen, terwijl een besl
 
   Enerzijds is het publiek een groep Adobe Experience Platform-profielen die overeenkomen met een bepaalde logica op basis van profielkenmerken en gebeurtenissen beleven. Aanbiedingsbeheer berekent het publiek echter niet opnieuw, wat mogelijk niet up-to-date is wanneer het voorstel wordt gepresenteerd.
 
-  Leer meer op publiek in [ deze sectie ](../../audience/about-audiences.md).
+  Leer meer over publiek in [ deze sectie ](../../audience/about-audiences.md).
 
 * **de regels van het Besluit**
 
   Anderzijds is een beslissingsregel gebaseerd op in Adobe Experience Platform beschikbare gegevens en bepaalt aan wie een aanbieding kan worden getoond. Zodra geselecteerd in een aanbieding of een besluit voor een bepaalde plaatsing, wordt de regel uitgevoerd telkens als een besluit wordt genomen, die ervoor zorgt dat elk profiel de recentste en beste aanbieding krijgt.
 
-  Leer meer op besluitvormingsregels in [ deze sectie ](creating-decision-rules.md).
+  Leer meer over besluitvormingsregels in [ deze sectie ](creating-decision-rules.md).
 
 ## Afbeelding {#capping}
 

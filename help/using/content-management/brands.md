@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 0%
@@ -152,6 +152,6 @@ Als u de richtlijn voor uw merk wilt maken en beheren, kunt u de details zelf in
 
    ![](assets/brands-6.png)
 
-De richtlijnen voor uw merk zijn nu beschikbaar via de vervolgkeuzelijst **[!UICONTROL Brand]** in het menu AI-assistent, zodat u inhoud en elementen kunt genereren die zijn afgestemd op uw specificaties. [ leer meer op de AI medewerker ](gs-generative.md)
+De richtlijnen voor uw merk zijn nu beschikbaar via de vervolgkeuzelijst **[!UICONTROL Brand]** in het menu AI-assistent, zodat u inhoud en elementen kunt genereren die zijn afgestemd op uw specificaties. [ leer meer over de AI medewerker ](gs-generative.md)
 
 ![](assets/brands-7.png)

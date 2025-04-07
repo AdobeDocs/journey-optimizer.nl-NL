@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: landen, landen pagina, vormen, milieu, subdomein, vooraf instelt
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 2%
@@ -68,7 +68,7 @@ Voer de onderstaande stappen uit om een voorinstelling voor een openingspagina t
 
    De instellingen die overeenkomen met de geselecteerde subdomeinweergave.
 
-1. Als u het subdomein van de bestemmingspagina voor het volgen URL wilt selecteren, controleer de **[!UICONTROL Same as landing page subdomain]** optie. [ Leer meer bij het volgen ](../email/message-tracking.md)
+1. Als u het subdomein van de bestemmingspagina voor het volgen URL wilt selecteren, controleer de **[!UICONTROL Same as landing page subdomain]** optie. [ Leer meer over het volgen ](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2445'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
 
    ![](../assets/activities-name.png)
 
-1. Selecteer **[!UICONTROL Manage access]** als u aangepaste of basislabels voor gegevensgebruik aan de beslissing wilt toewijzen. [ leer meer op het Toegangsbeheer van het Niveau van Objecten (OLAC) ](../../administration/object-based-access.md)
+1. Selecteer **[!UICONTROL Manage access]** als u aangepaste of basislabels voor gegevensgebruik aan de beslissing wilt toewijzen. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../../administration/object-based-access.md)
 
 ## Bepaal beslissingsbereik {#add-decision-scopes}
 
@@ -148,7 +148,7 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
    >
    >* Als [ AI model ](../ranking/ai-models.md) in een groep van evaluatiecriteria wordt gebruikt, moeten alle evaluatiecriteria in die groep de AI rangschikkende methode gebruiken en zij moeten het zelfde specifieke AI model gebruiken.
    >
-   >* Slechts één groep met evaluatiecriteria kan het AI-model gebruiken. Andere groepen binnen een beslissingsbereik moeten andere rangordemethoden gebruiken (prioriteit of formule). [ leer meer bij het rangschikken methodes ](../offer-activities/configure-offer-selection.md)
+   >* Slechts één groep met evaluatiecriteria kan het AI-model gebruiken. Andere groepen binnen een beslissingsbereik moeten andere rangordemethoden gebruiken (prioriteit of formule). [ leer meer over het rangschikken methodes ](../offer-activities/configure-offer-selection.md)
 
 1. Als u nog een plaatsing voor uw aanbiedingen wilt toevoegen als onderdeel van deze beslissing, gebruikt u de knop **[!UICONTROL New scope]** . Herhaal bovenstaande stappen voor elk beslissingsbereik.
 
@@ -224,7 +224,7 @@ Wanneer u meerdere besluitvormingsgebieden aan een besluit toevoegt en duplicati
 
 >[!NOTE]
 >
->De parameter **[!UICONTROL Allow Duplicates across placements]** wordt ingesteld op het plaatsingsniveau. Als duplicatie is ingesteld op false voor plaatsing in een beslissingsverzoek, nemen alle plaatsen in het verzoek de instelling false over. [ Leer meer op verdubbelingsparameter ](../offer-library/creating-placements.md)
+>De parameter **[!UICONTROL Allow Duplicates across placements]** wordt ingesteld op het plaatsingsniveau. Als duplicatie is ingesteld op false voor plaatsing in een beslissingsverzoek, nemen alle plaatsen in het verzoek de instelling false over. [ Leer meer over verdubbelingsparameter ](../offer-library/creating-placements.md)
 
 Neem een voorbeeld waarin u twee beslissingsbereiken hebt toegevoegd, zoals:
 
@@ -242,7 +242,7 @@ De selectie ziet er als volgt uit:
 
 +++ **Voorbeeld 2**
 
-In dit voorbeeld heeft Aanbod 1 de limiet voor de frequentiegrenzen bereikt. [ Leer meer op frequentie het in kaart brengen ](../offer-library/add-constraints.md#capping)
+In dit voorbeeld heeft Aanbod 1 de limiet voor de frequentiegrenzen bereikt. [ Leer meer over frequentie het in kaart brengen ](../offer-library/add-constraints.md#capping)
 
 De selectie ziet er als volgt uit:
 
@@ -253,7 +253,7 @@ De selectie ziet er als volgt uit:
 
 +++ **Voorbeeld 3**
 
-In dit voorbeeld bereikten Aanbod 1 en Aanbieding 3 hun limiet voor de frequentiegrenzen. [ Leer meer op frequentie het in kaart brengen ](../offer-library/add-constraints.md#capping)
+In dit voorbeeld bereikten Aanbod 1 en Aanbieding 3 hun limiet voor de frequentiegrenzen. [ Leer meer over frequentie het in kaart brengen ](../offer-library/add-constraints.md#capping)
 
 De selectie ziet er als volgt uit:
 
@@ -264,7 +264,7 @@ De selectie ziet er als volgt uit:
 
 **als het dupliceren** is
 
-Wanneer duplicatie op alle plaatsen is toegestaan, kan hetzelfde aanbod meerdere malen voor verschillende plaatsen worden voorgesteld. Als deze optie is ingeschakeld, overweegt het systeem dezelfde aanbieding voor meerdere plaatsingen. [ Leer meer op verdubbelingsparameter ](../offer-library/creating-placements.md)
+Wanneer duplicatie op alle plaatsen is toegestaan, kan hetzelfde aanbod meerdere malen voor verschillende plaatsen worden voorgesteld. Als deze optie is ingeschakeld, overweegt het systeem dezelfde aanbieding voor meerdere plaatsingen. [ Leer meer over verdubbelingsparameter ](../offer-library/creating-placements.md)
 
 Neem het zelfde voorbeeld zoals hierboven waar u twee besluitvormingswerkingsgebied zoals toevoegde:
 
@@ -282,7 +282,7 @@ De selectie ziet er als volgt uit:
 
 +++ **Voorbeeld 2**
 
-In dit voorbeeld heeft Aanbod 1 de limiet voor de frequentiegrenzen bereikt. [ Leer meer op frequentie het in kaart brengen ](../offer-library/add-constraints.md#capping)
+In dit voorbeeld heeft Aanbod 1 de limiet voor de frequentiegrenzen bereikt. [ Leer meer over frequentie het in kaart brengen ](../offer-library/add-constraints.md#capping)
 
 De selectie ziet er als volgt uit:
 
@@ -294,7 +294,7 @@ De selectie ziet er als volgt uit:
 
 +++ **Voorbeeld 3**
 
-In dit voorbeeld bereikten Aanbod 1 en Aanbieding 3 hun limiet voor de frequentiegrenzen. [ Leer meer op frequentie het in kaart brengen ](../offer-library/add-constraints.md#capping)
+In dit voorbeeld bereikten Aanbod 1 en Aanbieding 3 hun limiet voor de frequentiegrenzen. [ Leer meer over frequentie het in kaart brengen ](../offer-library/add-constraints.md#capping)
 
 De selectie ziet er als volgt uit:
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6fae8beb-ca40-40a1-8939-c309fbf46c4f
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -53,7 +53,7 @@ De tabel **[!UICONTROL Sending Statistics]** geeft u inzicht in de prestaties va
 
 De grafiek van **[!UICONTROL Delivery status]** verstrekt een uitvoerige mening van gegevens met betrekking tot verzonden direct-mailberichten in uw reis, die inzicht in zeer belangrijke metriek zoals geleverde en fouten aanbieden. Dit maakt een gedetailleerde analyse mogelijk van het proces voor het verzenden van e-mailberichten, waarbij waardevolle informatie wordt verschaft over de efficiëntie en de prestaties van uw reizen.
 
-+++ Meer informatie over de afleveringsstatus
++++ Meer informatie over de metriek van de leveringsstatus
 
 * **[!UICONTROL Delivered]**: Aantal verzonden direct-mailberichten in verhouding tot het totale aantal verzonden direct-mailberichten.
 

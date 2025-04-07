@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: c24dc217567cc65f8ce0dc79d648f016cd8ad740
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Rapport met inhoudskaarten is rechtstreeks via de knop **[!UICONTROL Reports]** 
 
 Met de **[!UICONTROL Display & click trend]** -grafieken kunt u zowel het algemene bereik van het bericht als het aantal unieke profielen dat ermee werkt, begrijpen.
 
-+++ Meer informatie over weergave en klik op Metriek
++++ Meer informatie over Weergave en klik op Metriek
 
 * **[!UICONTROL Clicks]**: Het aantal keer dat er op de inhoudskaart op een inhoud is geklikt.
 
@@ -55,7 +55,7 @@ Met de **[!UICONTROL Display & click trend]** -grafieken kunt u zowel het algeme
 
 De tabel **[!UICONTROL Tracking data]** biedt een gedetailleerde momentopname van profielactiviteiten die zijn gekoppeld aan uw inhoudskaarten en biedt essentiële inzichten in de betrokkenheid en effectiviteit van de inhoudskaart.
 
-+++ Meer informatie over het bijhouden van gegevens
++++ Meer informatie over het bijhouden van gegevensmetriek
 
 * **[!UICONTROL People]**: Aantal gebruikersprofielen dat als doelprofielen voor uw inhoudskaarten wordt gekwalificeerd.
 

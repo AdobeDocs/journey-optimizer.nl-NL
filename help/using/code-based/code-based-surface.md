@@ -5,7 +5,8 @@ feature: Code-based Experiences, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: e9181c333fb9188cdfcee3fd96c1d3bb94b8dd75
+exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 1%
@@ -71,8 +72,8 @@ In de onderstaande tabellen staan enkele voorbeelden van de oppervlakte-URI-defi
 
 In [!DNL Journey Optimizer], steunt het op code-gebaseerde ervaringskanaal twee types van klantenimplementaties:
 
-* Gebaseerd op [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html) {target="_blank"} voor uw websites, of op [ Mobiele SDK van Adobe Experience Platform ](https://developer.adobe.com/client-sdks/documentation/) {target="_blank"} voor u mobiele apps;
-* Server-kant of hybride gebruikend [ AEP de Server APIs van de Edge Network van de Server ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) {target="_blank"}.
+* Gebaseerd op het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html) {target="_blank"} voor uw websites, of op [ Adobe Experience Platform Mobiele SDK ](https://developer.adobe.com/client-sdks/documentation/) {target="_blank"} voor u mobiele apps;
+* Server-kant of hybride gebruikend [ de Server APIs van AEP Edge Network ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) {target="_blank"}.
 
 >[!NOTE]
 >
@@ -82,12 +83,12 @@ Gebruikend op code-gebaseerde ervaringen, kunt u inhoud op korrelplaatsen <!--(s
 
 Deze oppervlakte-URIs wordt samengesteld en behandeld afhankelijk van de implementatiemethode:
 
-* **Web/Mobiele SDK**: Uw web/mobiele ontwikkelaar moet deze korrelige plaatsen als eenvoudige koorden bepalen, omdat Web/Mobile SDK de oppervlakte-URI kan automatisch samenstellen die op huidige URL/app identiteitskaart en het plaatskoord wordt gebaseerd.
+* **Web/Mobiele SDK**: Uw web/mobiele ontwikkelaar moet deze korrelige plaatsen als eenvoudige koorden bepalen, omdat het Web/Mobile SDK geschikt is om de oppervlakte-URI automatisch samen te stellen die op huidige URL/app identiteitskaart en het plaatstekenreeks wordt gebaseerd.
 
 * **Edge Network APIs**: De app/paginaontwikkelaar moet volledige oppervlakte URIs bepalen die de volledige weg en de plaats omvatten waar de inhoud zal worden verbruikt, omdat volledige URIs in dit type van implementatie wordt vereist.
 
 Dit is waarom, wanneer het creëren van a [ code-Gebaseerde configuratie van het ervaringskanaal ](code-based-configuration.md), u twee manieren hebt om de oppervlakte volgens het geselecteerde platform te specificeren:
 
-* Voor **[!UICONTROL Web]**, **[!UICONTROL iOS]** en **[!UICONTROL Android]** platforms, moet u **URL/app identiteitskaart** en a **plaats of weg** ingaan om de oppervlakte samen te stellen. Leer meer bij het vormen van code-gebaseerde ervaringen voor [ Web ](code-based-configuration.md#web) en [ mobiele ](code-based-configuration.md#mobile) platforms
+* Voor **[!UICONTROL Web]**, **[!UICONTROL iOS]** en **[!UICONTROL Android]** platforms, moet u **URL/app identiteitskaart** en a **plaats of weg** ingaan om de oppervlakte samen te stellen. Leer meer over het vormen van code-gebaseerde ervaringen voor [ Web ](code-based-configuration.md#web) en [ mobiele ](code-based-configuration.md#mobile) platforms
 
-* Als het platform **[!UICONTROL Other]** is, moet u de volledige **oppervlakte URI** ingaan, als in de voorbeelden [ hierboven ](#surface-uri). Leer meer bij het vormen op code-gebaseerde ervaringen voor [ andere ](code-based-configuration.md#other) platforms
+* Als het platform **[!UICONTROL Other]** is, moet u de volledige **oppervlakte URI** ingaan, als in de voorbeelden [ hierboven ](#surface-uri). Leer meer over het vormen op code-gebaseerde ervaringen voor [ andere ](code-based-configuration.md#other) platforms

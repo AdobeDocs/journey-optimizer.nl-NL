@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: subdomein, PTR, records, DNS, domein, post
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Nadat u de PTR-recordbewerking hebt bevestigd, wordt het pictogram **[!UICONTROL
 >
 >De [ updateverwerking ](#processing) kan tot 3 uren vergen.
 
-Als u de details van de PTR-recordupdate wilt controleren, klikt u op het pictogram ernaast. Leer meer op de statussen verbonden aan de verschillende pictogrammen in [ deze sectie ](#ptr-record-update-statuses).
+Als u de details van de PTR-recordupdate wilt controleren, klikt u op het pictogram ernaast. Leer meer over de statussen verbonden aan de verschillende pictogrammen in [ deze sectie ](#ptr-record-update-statuses).
 
 ![](assets/ptr-record-recent-update.png)
 

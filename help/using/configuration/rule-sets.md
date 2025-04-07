@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: bericht, frequentie, regels, druk
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 173d73996a676be4ebcad471f396b5f5256b80a5
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1989'
 ht-degree: 0%
@@ -84,7 +84,7 @@ Volg onderstaande stappen om een regelset te maken.
 
 1. Definieer een unieke naam voor de regelset en voeg een beschrijving toe.
 
-1. Selecteer het domein van de regelset. Het domein staat u toe om te specificeren als de regelreeks het maximum regels zal bevatten die voor communicatiekanalen of voor reizen specifiek zijn. [ Leer meer op kanaal en reis die regels begrenzen ](#domain)
+1. Selecteer het domein van de regelset. Het domein staat u toe om te specificeren als de regelreeks het maximum regels zal bevatten die voor communicatiekanalen of voor reizen specifiek zijn. [ Leer meer over kanaal en reis die regels begrenzen ](#domain)
 
    ![](assets/rule-sets-create.png)
 
@@ -154,7 +154,7 @@ De parameters beschikbaar voor de regel hangen van het regelvastgestelde domein 
 
      >[!CAUTION]
      > 
-     >Om ervoor te zorgen dat de regels voor dagelijkse frequentiecapping correct zijn, moet u de naamruimte met de hoogste prioriteit kiezen tijdens het ontwerpen van een campagne of een reis. Leer meer op namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority) {target="_blank"}
+     >Om ervoor te zorgen dat de regels voor dagelijkse frequentiecapping correct zijn, moet u de naamruimte met de hoogste prioriteit kiezen tijdens het ontwerpen van een campagne of een reis. Leer meer over namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority) {target="_blank"}
 
    Houd er rekening mee dat de waarde van de profielteller wordt bijgewerkt wanneer de communicatie wordt geleverd. Begrijpt u dit wanneer u grote hoeveelheden communicatie verzendt aangezien de productie in de ontvanger zou kunnen resulteren die de e-mailnotulen of zelfs uren na de inleiding van de mededeling (in het geval dat u miljoenen mededelingen gelijktijdig verzendt) krijgen.
 

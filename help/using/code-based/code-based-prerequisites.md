@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 045fc6f140c9128adebc2513317c4007ed71cafa
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 0%
@@ -31,7 +31,7 @@ De op code-gebaseerde ervaring steunt om het even welk type van klantenimplement
 
 * Cliënt-kant slechts - om wijzigingen aan uw Web-pagina&#39;s of mobiele apps toe te voegen, moet u of het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html) uitvoeren {target="_blank"} op uw website of [ Adobe Experience Platform Mobiele SDK ](https://developer.adobe.com/client-sdks/documentation/) {target="_blank"} op u mobiele apps.
 
-* De hybride wijze - u kunt [ AEP Edge Network Server API ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) gebruiken {target="_blank"} om voor verpersoonlijkings server-kant te verzoeken; de reactie wordt verstrekt aan het Web SDK van Adobe Experience Platform om de wijzigingen cliënt-kant terug te geven. Leer meer in de Adobe Experience Platform [ API documentatie van de Server van Edge Network ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html) {target="_blank"}. U kunt meer over de hybride wijze te weten komen en sommige implementatiemonsters in [ controleren dit blogpost ](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41) {target="_blank"}.
+* Hybride wijze - u kunt de [ Server API van AEP Edge Network gebruiken API ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) {target="_blank"} om voor verpersoonlijkingsserver-kant te verzoeken; de reactie wordt verstrekt aan SDK van het Web van Adobe Experience Platform om de wijzigingen cliënt-kant terug te geven. Leer meer in de Adobe Experience Platform [ API documentatie van de Server van Edge Network ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html) {target="_blank"}. U kunt meer over de hybride wijze te weten komen en sommige implementatiemonsters in [ controleren dit blogpost ](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41) {target="_blank"}.
 
 * Server-kant - u kunt de [ Server API van AEP Edge Network gebruiken API ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) {target="_blank"} om voor verpersoonlijkingsserver-kant te verzoeken. Uw ontwikkelingsteam moet de reactie behandelen en de wijzigingen cliënt-kant in uw app implementatie teruggeven.
 
@@ -57,7 +57,7 @@ De op code gebaseerde ervaringen kunnen alleen correct worden geleverd als de vo
 
   Het gebruiken van de **insteekmodule van Edge Delivery** helpt u de inzichten verkrijgen nodig om uw binnenkomende implementaties effectief te begrijpen en problemen op te lossen.
 
-  [ Leer meer op de mening van Edge Delivery ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
+  [ leer meer over de mening van Edge Delivery ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
 
 ## Voorwaarden voor rapportage {#reporting-prerequisites}
 

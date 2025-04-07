@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 1%
@@ -37,7 +37,7 @@ U moet alarm in de hogere sectie van de redacteur controleren. Sommige zijn eenv
 
    * **[!UICONTROL The push version of the message is empty]**: deze fout wordt weergegeven wanneer de hoofdtekst of titel van de pushmelding ontbreekt. Leer hoe te om de inhoud van het pushbericht in [ te bepalen deze sectie ](create-push.md).
 
-   * **[!UICONTROL configuration doesn't exist]**: u kunt het bericht niet gebruiken als de configuratie die u hebt geselecteerd, wordt verwijderd na het maken van het bericht. Als deze fout voorkomt, selecteer een andere configuratie in het bericht **[!UICONTROL Properties]**. Leer meer op kanaalconfiguraties in [ deze sectie ](../configuration/channel-surfaces.md).
+   * **[!UICONTROL configuration doesn't exist]**: u kunt het bericht niet gebruiken als de configuratie die u hebt geselecteerd, wordt verwijderd na het maken van het bericht. Als deze fout voorkomt, selecteer een andere configuratie in het bericht **[!UICONTROL Properties]**. Leer meer over kanaalconfiguraties in [ deze sectie ](../configuration/channel-surfaces.md).
 
    * **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**: de grootte van de pushmelding mag niet groter zijn dan 4 kB. U kunt deze limiet in acht nemen door het gebruik van afbeeldingen of emojis te beperken. Leer hoe te om uw inhoud van het pushbericht in [ te beheren deze sectie ](../push/create-push.md).
 

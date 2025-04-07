@@ -7,10 +7,10 @@ feature: Ranking, Decision Management, Datasets
 role: Data Engineer, Developer
 level: Experienced
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 6%
+source-wordcount: '219'
+ht-degree: 0%
 
 ---
 
@@ -20,53 +20,53 @@ Om ervaringsgebeurtenissen te verzamelen, moet u eerst een dataset tot stand bre
 
 Begin door het schema te creëren dat in uw dataset zal worden gebruikt:
 
-1. Van de **[!UICONTROL Data Management]** menu, selecteert u **[!UICONTROL Schema]**.
+1. Selecteer **[!UICONTROL Schema]** in het menu **[!UICONTROL Data Management]** .
 
-1. Klikken **[!UICONTROL Create schema]** selecteert u in de rechterbovenhoek de optie **[!UICONTROL Experience Event]** en klik op **Volgende**.
+1. Klik **[!UICONTROL Create schema]**, in het hoogste recht, selecteer **[!UICONTROL Experience Event]** en klik **daarna**.
 
    ![](../assets/ai-ranking-xdm-event.png)
 
    >[!NOTE]
    >
-   >Meer informatie over XDM-schema&#39;s en veldgroepen in de [Documentatie over XDM System-overzicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
+   >Leer meer over schema&#39;s XDM en gebiedsgroepen in de [ XDM het overzichtsdocumentatie van het Systeem ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) {target="_blank"}.
 
-1. Voer een naam en beschrijving in voor uw schema en klik op **Voltooien**.
+1. Ga een naam en een beschrijving voor uw schema in en klik **Afwerking**.
    ![](../assets/ai-ranking-xdm-event-2.png)
 
-1. Van de **[!UICONTROL Field groups]** in het linkergedeelte selecteert u **[!UICONTROL Add]**.
+1. Selecteer in de sectie **[!UICONTROL Field groups]** aan de linkerkant de optie **[!UICONTROL Add]** .
 
    ![](../assets/ai-ranking-fields-groups.png)
 
-1. In de **[!UICONTROL Search]** veld, typ &quot;propositieinteractie&quot;.
+1. Typ &quot;propositieinteractie&quot; in het veld **[!UICONTROL Search]** .
 
-1. Selecteer de **[!UICONTROL Experience Event - Proposition Interactions]** veldgroep en klik op **[!UICONTROL Add field groups]**.
+1. Selecteer de veldgroep **[!UICONTROL Experience Event - Proposition Interactions]** en klik op **[!UICONTROL Add field groups]** .
 
    ![](../assets/ai-ranking-add-field-group.png)
 
    >[!CAUTION]
    >
-   >Het schema dat in uw dataset zal worden gebruikt moet hebben **[!UICONTROL Experience Event - Proposition Interactions]** veldgroep die eraan is gekoppeld. Anders kunt u het niet gebruiken in uw AI-model.
+   >Het schema dat in uw dataset zal worden gebruikt moet de **[!UICONTROL Experience Event - Proposition Interactions]** gebiedsgroep hebben verbonden aan het. Anders kunt u het niet gebruiken in uw AI-model.
 
 1. Sla het schema op.
 
 >[!NOTE]
 >
->Meer informatie over het samenstellen van schema&#39;s vindt u in [Basisbeginselen van de schemacompositie](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}.
+>Leer meer over het bouwen van schema&#39;s in [ Grondbeginselen van schemacompositie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas) {target="_blank"}.
 
-U bent nu bereid om een dataset tot stand te brengen gebruikend dit schema. Volg de onderstaande stappen om dit te doen:
+U bent nu bereid om een dataset tot stand te brengen gebruikend dit schema. Hiervoor voert u de volgende stappen uit:
 
-1. Van de **[!UICONTROL Data Management]** menu, selecteert u **[!UICONTROL Datasets]** en ga naar de **[!UICONTROL Browse]** tab.
+1. Selecteer **[!UICONTROL Datasets]** in het menu **[!UICONTROL Data Management]** en ga naar de tab **[!UICONTROL Browse]** .
 
-1. Klik op **[!UICONTROL Create dataset]** en selecteer **[!UICONTROL Create dataset from schema]**.
+1. Klik op **[!UICONTROL Create dataset]** en selecteer **[!UICONTROL Create dataset from schema]** .
 
    ![](../assets/ai-ranking-create-dataset-from-schema.png)
 
-1. Selecteer het net gemaakte schema in de lijst en klik op **[!UICONTROL Next]**.
+1. Selecteer het schema dat u zojuist hebt gemaakt in de lijst en klik op **[!UICONTROL Next]** .
 
-1. Geef een unieke naam op voor de gegevensset in het dialoogvenster **[!UICONTROL Name]** veld en klik op **[!UICONTROL Finish]**.
+1. Geef een unieke naam voor de gegevensset op in het veld **[!UICONTROL Name]** en klik op **[!UICONTROL Finish]** .
 
    ![](../assets/ai-ranking-dataset-name.png)
 
 >[!NOTE]
 >
->Deze dataset kan nu worden geselecteerd om gebeurtenisgegevens te verzamelen wanneer [een AI-model maken](../ranking/create-ranking-strategies.md).
+>Deze dataset kan nu worden geselecteerd om gebeurtenisgegevens te verzamelen wanneer [ het creëren van een AI model ](../ranking/create-ranking-strategies.md).

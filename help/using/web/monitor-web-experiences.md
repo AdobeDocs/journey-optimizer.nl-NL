@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Zodra uw Webervaring levend is, kunt u het **[!UICONTROL Web]** lusje van het [ rapport van de Reis ](../reports/journey-global-report-cja-web.md) controleren en [ rapport van de Campagne ](../reports/campaign-global-report-cja-web.md) om elementen zoals het aantal indrukkingen te vergelijken, tarief en aantal overeenkomsten met uw Web-pagina te klikken.
 
-<!--You can check the **[!UICONTROL Web]** tab of the campaign reports. Learn more on the campaign web [live report](../reports/campaign-live-report.md#web-tab) and [global report](../reports/campaign-global-report-cja.md#web).-->
+<!--You can check the **[!UICONTROL Web]** tab of the campaign reports. Learn more about the campaign web [live report](../reports/campaign-live-report.md#web-tab) and [global report](../reports/campaign-global-report-cja.md#web).-->
 
 Als u de webervaringscontrole verder wilt verbeteren, kunt u ook de klikken op een specifiek element van uw website bijhouden. Hierdoor kunt u het aantal klikken op dat element weergeven in de webrapporten. [ leer hoe ](#use-click-tracing)
 
@@ -49,4 +49,4 @@ Deze informatie kan nuttig zijn om de ervaring van gebruikers van uw website te 
 
 1. Als u klikt op bijhouden op een element wilt verwijderen, selecteert u het bijbehorende verwijderingspictogram.
 
-Zodra uw campagne levend is, kunt u het aantal klikken voor elk element in het van het campagneweb [ levende rapport ](../reports/campaign-live-report.md#web-tab) controleren en [ rapport van de Customer Journey Analytics ](../reports/campaign-global-report-cja-web.md).
+Zodra uw campagne levend is, kunt u het aantal klikken voor elk element in het van het campagneweb [ levende rapport ](../reports/campaign-live-report.md#web-tab) controleren en [ Customer Journey Analytics rapport ](../reports/campaign-global-report-cja-web.md).

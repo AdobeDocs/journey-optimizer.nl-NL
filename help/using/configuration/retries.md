@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: opnieuw proberen, stuiteren, zacht, optimaliseren, fout
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Wanneer een e-mailbericht wegens een tijdelijke **Zachte stuitfout** voor een be
 
 >[!NOTE]
 >
->Leer meer op de types van fouten in de [ types van mislukkingen van de Levering ](../reports/suppression-list.md#delivery-failures) sectie.
+>Leer meer over de types van fouten in de [ types van mislukkingen van de Levering ](../reports/suppression-list.md#delivery-failures) sectie.
 
 In de standaardconfiguratie is de drempel ingesteld op 5 fouten.
 
@@ -64,7 +64,7 @@ Als de standaardwaarde 5 niet aan uw wensen voldoet, kunt u de foutdrempel wijzi
 
    >[!CAUTION]
    >
-   >Om het even welke waarde hoger dan 10 kan de kwesties van de leveringsreputatie, evenals IP het vertragen of het voegend op lijst van gewenste personen door ISPs veroorzaken. [ Leer meer op leverability ](../reports/deliverability.md)
+   >Om het even welke waarde hoger dan 10 kan de kwesties van de leveringsreputatie, evenals IP het vertragen of het voegend op lijst van gewenste personen door ISPs veroorzaken. [ Leer meer over leverbaarheid ](../reports/deliverability.md)
 
 ## Periode voor opnieuw proberen {#retry-duration}
 

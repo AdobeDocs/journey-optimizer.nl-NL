@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: maken, e-mail, starten, reizen, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: e052e7bfea5381583ad8d2d7b785d44486cb9975
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 2%
@@ -144,7 +144,7 @@ Er kunnen twee typen waarschuwingen optreden:
 
    * **[!UICONTROL The email version of the message is empty]**: deze fout wordt weergegeven wanneer de e-mailinhoud niet is geconfigureerd. Leer hoe te om e-mailinhoud in [ te ontwerpen deze sectie ](get-started-email-design.md).
 
-   * **[!UICONTROL configuration doesn't exist]**: u kunt het bericht niet gebruiken als de configuratie die u hebt geselecteerd, wordt verwijderd na het maken van het bericht. Als deze fout voorkomt, selecteer een andere configuratie in het bericht **[!UICONTROL Properties]**. Leer meer op kanaalconfiguraties in [ deze sectie ](../configuration/channel-surfaces.md).
+   * **[!UICONTROL configuration doesn't exist]**: u kunt het bericht niet gebruiken als de configuratie die u hebt geselecteerd, wordt verwijderd na het maken van het bericht. Als deze fout voorkomt, selecteer een andere configuratie in het bericht **[!UICONTROL Properties]**. Leer meer over kanaalconfiguraties in [ deze sectie ](../configuration/channel-surfaces.md).
 
 >[!CAUTION]
 >

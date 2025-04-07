@@ -1,11 +1,12 @@
 ---
-title: Publish en beheer op code gebaseerde ervaringen
+title: Code-ervaringen publiceren en beheren
 description: Leer hoe u op code gebaseerde ervaringen in Journey Optimizer kunt publiceren en stoppen
 feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 1%
@@ -30,9 +31,9 @@ U kunt ook een voorvertoning van uw code-gebaseerde ervaringsinhoud weergeven vo
 >
 >Als meerdere op code gebaseerde reizen of campagnes hetzelfde element of dezelfde elementen van uw inhoud bijwerken, heeft de hoogste prioriteit prioriteit voor de reis/campagne.
 
-Zodra uw op code-gebaseerde reis of campagne levend is, is uw team van de app implementatie verantwoordelijk voor het maken van expliciete API of vraag SDK om inhoud voor de oppervlakken te halen die in de geselecteerde [ op code-gebaseerde ervaringsconfiguratie ](code-based-configuration.md) worden bepaald. Leer meer op de verschillende klantenimplementaties in [ deze sectie ](code-based-implementation-samples.md).
+Zodra uw op code-gebaseerde reis of campagne levend is, is uw team van de app implementatie verantwoordelijk voor het maken van expliciete API of SDK vraag om inhoud voor de oppervlakken te halen die in de geselecteerde [ op code-gebaseerde ervaringsconfiguratie ](code-based-configuration.md) worden bepaald. Leer meer over de verschillende klantenimplementaties in [ deze sectie ](code-based-implementation-samples.md).
 
-### Publish een op code gebaseerde reis {#publish-code-based-journey}
+### Een op code gebaseerde reis publiceren {#publish-code-based-journey}
 
 Volg de onderstaande stappen om uw op code gebaseerde ervaring live te maken van een reis.
 
@@ -44,7 +45,7 @@ Volg de onderstaande stappen om uw op code gebaseerde ervaring live te maken van
 
    >[!NOTE]
    >
-   >Leer meer bij het publiceren reizen in [ deze sectie ](../building-journeys/publishing-the-journey.md).
+   >Leer meer over het publiceren reizen in [ deze sectie ](../building-journeys/publishing-the-journey.md).
 
 Uw op code-gebaseerde reis neemt de **[!UICONTROL Live]** status en is nu zichtbaar aan het geselecteerde publiek. Elke ontvanger van uw reis kan uw wijzigingen zien.
 
@@ -66,7 +67,7 @@ Uw op code-gebaseerde reis neemt de **[!UICONTROL Live]** status en is nu zichtb
 
    >[!NOTE]
    >
-   >Leer meer bij het activeren van campagnes in [ deze sectie ](../campaigns/review-activate-campaign.md).
+   >Leer meer over het activeren van campagnes in [ deze sectie ](../campaigns/review-activate-campaign.md).
 
 Uw op code gebaseerde campagne neemt de **[!UICONTROL Live]** status en is nu zichtbaar voor het geselecteerde publiek. Elke ontvanger van de campagne kan de wijzigingen zien die u aan uw inhoud hebt toegevoegd.
 
@@ -112,9 +113,9 @@ Global reports display events that occurred at least two hours ago and cover eve
 
 ### Code-based live report {#live-report-code-based}
 
-From your campaign **[!UICONTROL Live report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages. [Learn more on live report](../reports/campaign-live-report.md)
+From your campaign **[!UICONTROL Live report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages. [Learn more about live report](../reports/campaign-live-report.md)
 
-+++Learn more on the different metrics and widgets available for the Code-based experience report.
++++Learn more about the different metrics and widgets available for the Code-based experience report.
 
 The **[!UICONTROL Code-based experience performance]** KPIs detail the main information relative to your visitors' engagement with your code-based experiences, such as:
 
@@ -129,7 +130,7 @@ TBC: The **[!UICONTROL Interactions by element]** table details the main informa
 
 ### Code-based global report {#global-report-code-based}
 
-Code-based campaign global report can be accessed directly from your journey or campaign with the **[!UICONTROL View report]** button. [Learn more on global report](../reports/campaign-global-report-cja.md)
+Code-based campaign global report can be accessed directly from your journey or campaign with the **[!UICONTROL View report]** button. [Learn more about global report](../reports/campaign-global-report-cja.md)
 
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages.
 
@@ -137,7 +138,7 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Code-based 
 
 Add image TBC
 
-+++Learn more on the different metrics and widgets available for the Code-based experience report.
++++Learn more about the different metrics and widgets available for the Code-based experience report.
 
 The **[!UICONTROL Code-based experience performance]** KPIs detail the main information relative to your visitors' engagement with your experiences, such as:
 
@@ -153,4 +154,3 @@ TBC: The **[!UICONTROL Interactions by element]** table details the main informa
 +++
 
 -->
-

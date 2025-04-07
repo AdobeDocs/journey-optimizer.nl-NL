@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '3280'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Voor een gedetailleerde lijst van elke metrisch beschikbaar in Adobe Journey Opt
 
 De KPI&#39;s van **[!UICONTROL Campaign's Statistics]** fungeren als een uitgebreid dashboard met een gedetailleerde uitsplitsing van de belangrijkste meetgegevens van de laatste 24 uur die betrekking hebben op uw campagne. Dit omvat essentiële informatie zoals het aantal profielen en de geleverde acties, die een grondig inzicht in de prestaties en de betrokkenheid van uw campagne verstrekken.
 
-+++ Meer informatie over statistische gegevens van campagne
++++ Meer informatie over de statistieken van Campagne
 
 * **[!UICONTROL Audience]**: aantal doelprofielen.
 
@@ -146,7 +146,7 @@ De widgets **[!UICONTROL Bounce reasons]** en **[!UICONTROL Bounce categories]**
 
 Voor meer informatie over grenzen, verwijs naar de [ lijst van de Onderdrukking ](../reports/suppression-list.md) pagina.
 
-+++ Meer informatie over e-mail - Stuitrubrieken en motiveringen
++++ Meer informatie over e-mail - Bounce-rubrieken en redencijfers
 
 * **[!UICONTROL Hard bounce]**: Het totale aantal permanente fouten, zoals een onjuist e-mailadres. Dit omvat een foutbericht waarin expliciet wordt aangegeven dat het adres ongeldig is, zoals Onbekende gebruiker.
 
@@ -167,7 +167,7 @@ Voor meer informatie over grenzen, verwijs naar de [ lijst van de Onderdrukking 
 
 De **[!UICONTROL Email - Performance by date]** -widget biedt een gedetailleerd overzicht van belangrijke informatie met betrekking tot uw berichten, in een grafiek weergegeven, die inzicht biedt in de prestatietrends in de afgelopen 24 uur.
 
-+++ Meer informatie over e-mail - Prestaties op basis van datum en redenen
++++ Meer informatie over e-mail - Prestaties op datum en redenen
 
 * **[!UICONTROL Sent]**: Totaal aantal verzendingen.
 
@@ -253,7 +253,7 @@ Vanuit uw campagne **[!UICONTROL Live report]** bevat het tabblad **[!UICONTROL 
 
 De KPI&#39;s van **[!UICONTROL In-app performance]** bieden essentiële inzichten in de betrokkenheid van uw profielen bij In-app-berichten in de afgelopen 24 uur. Ze bieden essentiële meetgegevens om de effectiviteit en impact van uw In-app-campagnes te beoordelen.
 
-+++ Meer informatie over prestatiemetriek in de app
++++ Meer informatie over prestatiemetriek in apps
 
 * **[!UICONTROL Impressions]**: totaal aantal berichten in de app dat naar alle gebruikers is verzonden.
 
@@ -513,7 +513,7 @@ Vanuit uw campagne **[!UICONTROL Live report]** geeft het tabblad **[!UICONTROL 
 
 De KPI&#39;s van **[!UICONTROL Web performance]** bieden uitgebreide inzichten in de betrokkenheid van uw bezoekers bij uw webpagina&#39;s in de afgelopen 24 uur, die belangrijke meetgegevens omvatten zoals Impressies en Interacties.
 
-+++ Meer informatie over prestatietriek op het web
++++ Meer informatie over webprestatiemetriek
 
 * **[!UICONTROL Impressions]**: totaal aantal webervaringen dat aan alle gebruikers wordt geleverd.
 
@@ -532,7 +532,7 @@ De KPI&#39;s van **[!UICONTROL Web performance]** bieden uitgebreide inzichten i
 
 De grafiek van **[!UICONTROL Web summary]** toont de evolutie van uw Web ervaart (indrukken, unieke indrukkingen en interactie) in de laatste 24 uren.
 
-+++ Meer informatie over overzichtsmetriek op internet
++++ Meer informatie over weboverzichtsmetriek
 
 * **[!UICONTROL Impressions]**: totaal aantal webervaringen dat aan alle gebruikers wordt geleverd.
 

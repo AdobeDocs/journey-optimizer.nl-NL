@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: abdfa7fa107e8be5d395c634057c38a512a4a03d
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 2%
@@ -21,11 +21,11 @@ ht-degree: 2%
 >
 >De rapportage in Adobe Journey Optimizer is momenteel gestandaardiseerd voor UTC. De mogelijkheid om de rapporttijdzone aan te passen zal in een toekomstige versie worden geïntroduceerd.
 
-Journey Optimizer-rapportering wordt geleverd met een verbeterde interoperabiliteit met de mogelijkheden van de Customer Journey Analytics, standaardisering van de rapportage op beide platforms en verbetering van de consistentie en betrouwbaarheid van de gegevens. Deze naadloze integratie tussen Journey Optimizer en Customer Journey Analytics biedt een duidelijker beeld van prestatiesmetriek, toelatend gebruikers om geïnformeerde besluiten te nemen.
+Journey Optimizer-rapportering wordt geleverd met een verbeterde interoperabiliteit met Customer Journey Analytics-mogelijkheden, standaardisering van de rapportage op beide platforms en verbetering van de consistentie en betrouwbaarheid van gegevens. Deze naadloze integratie tussen Journey Optimizer en Customer Journey Analytics zorgt voor een duidelijker beeld van de prestatiesmetriek, waardoor gebruikers beter geïnformeerde beslissingen kunnen nemen.
 
 * Als u een reis of leveringen in de context van een reis, van het **[!UICONTROL Journeys]** menu wilt richten, toegang uw reis en klik de **[!UICONTROL View report]** knoop.
 
-  In de lijst met bestaande reizen kunt u ook **[!UICONTROL Report]** selecteren in het menu Geavanceerd van de geselecteerde reis. [ leer meer op het rapport van de Reis ](journey-global-report-cja.md)
+  In de lijst met bestaande reizen kunt u ook **[!UICONTROL Report]** selecteren in het menu Geavanceerd van de geselecteerde reis. [ leer meer over het rapport van de Reis ](journey-global-report-cja.md)
 
   ![](assets/gs-cja-report-3.png)
 
@@ -41,17 +41,17 @@ Journey Optimizer-rapportering wordt geleverd met een verbeterde interoperabilit
 
 ## Vereisten {#prerequisites}
 
-* Als u **niet** eigen Customer Journey Analytics, of als u het bezit maar **niet** toegang tot om het even welk profiel van het Customer Journey Analytics heeft, worden de toestemmingen beheerd in Journey Optimizer. In dit geval hebt u het volgende nodig:
+* Als u **niet** eigen Customer Journey Analytics bent, of als u het bezit maar **** geen toegang tot om het even welk het productprofiel van Customer Journey Analytics heeft, worden de toestemmingen beheerd in Journey Optimizer. In dit geval hebt u het volgende nodig:
 
    * **[!UICONTROL View channel reports]** machtiging of gerelateerde rollen. [Meer informatie](../administration/permissions.md)
 
-* Als u **** Customer Journey Analytics bezit en toegang tot een het productprofiel van de Customer Journey Analytics hebt, zult u nodig hebben:
+* Als u **** Customer Journey Analytics bezit en toegang tot een het productprofiel van Customer Journey Analytics hebt, zult u nodig hebben:
 
-   * **[!UICONTROL Audience Creation]** - en **[!UICONTROL Audience View]** -machtigingen voor Customer Journey Analytics. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)
+   * **[!UICONTROL Audience Creation]** en **[!UICONTROL Audience View]** voor Customer Journey Analytics. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)
 
    * **[!UICONTROL Manage profiles]** machtiging voor Adobe Journey Optimizer. [Meer informatie](../administration/permissions.md)
 
-* Uw gegevensmeningen van de Customer Journey Analytics moeten met het volgende plaatsen worden gevormd: **Reeks als standaardgegevensmening in Adobe Journey Optimizer**. [ leer meer over gegevensmeningen ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
+* Uw Customer Journey Analytics gegevensmeningen moeten met het volgende plaatsen worden gevormd: **Reeks als standaardgegevensmening in Adobe Journey Optimizer**. [ leer meer over gegevensmeningen ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
 
 ## Hoe kan ik-video{#video}
 

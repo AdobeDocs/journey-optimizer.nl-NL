@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: 9ea7f2c76cc09949bb4467d5b9b2c19550f9975e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 1%
@@ -48,7 +48,7 @@ Ga als volgt te werk om een op code gebaseerde configuratie van het ervaringskan
    >
    > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook onderstrepingsteken `_` -, punt `.` - en afbreekstreepjes `-` gebruiken.
 
-1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [ leer meer op het Toegangsbeheer van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md)
+1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md)
 
 1. Selecteer **[!UICONTROL Marketing action]**(s) om het toestemmingsbeleid aan de berichten te associëren gebruikend deze configuratie. Alle toestemmingsbeleid verbonden aan de marketing actie wordt gebruikt om de voorkeur van uw klanten te respecteren. [Meer informatie](../action/consent.md#surface-marketing-actions)
 
@@ -76,7 +76,7 @@ U kunt deze configuratie nu selecteren wanneer [ creërend een code-gebaseerde e
 
 >[!NOTE]
 >
->Het implementatieteam van uw app is verantwoordelijk voor het uitvoeren van expliciete API- of SDK-aanroepen om inhoud op te halen voor de oppervlakken die zijn gedefinieerd in de geselecteerde op code gebaseerde ervaringsconfiguratie. Leer meer op de verschillende klantenimplementaties in [ deze sectie ](code-based-implementation-samples.md).
+>Het implementatieteam van uw app is verantwoordelijk voor het uitvoeren van expliciete API- of SDK-aanroepen om inhoud op te halen voor de oppervlakken die zijn gedefinieerd in de geselecteerde op code gebaseerde ervaringsconfiguratie. Leer meer over de verschillende klantenimplementaties in [ deze sectie ](code-based-implementation-samples.md).
 
 ### Webplatforms {#web}
 

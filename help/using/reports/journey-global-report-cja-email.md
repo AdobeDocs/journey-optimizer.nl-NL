@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 82558447-9d42-4fac-8fc1-fded9bf4bfcc
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 0%
@@ -38,7 +38,7 @@ U kunt uw rapport over de e-mailreis openen door op de knop **[!UICONTROL View r
 
 In de grafiek van **[!UICONTROL Delivered vs Click trend]** wordt een gedetailleerde analyse gegeven van de betrokkenheid van uw profielen bij uw e-mails. Deze grafiek biedt waardevolle inzichten in de interactie tussen verschillende domeinen en uw inhoud.
 
-+++ Meer informatie over cijfers over trends bij levering en klik op trends
++++ Meer informatie over cijfers voor trends in geleverd en klik op trend
 
 * **[!UICONTROL Delivered]**: Aantal verzonden e-mailberichten in verhouding tot het totale aantal verzonden e-mails.
 
@@ -52,7 +52,7 @@ In de grafiek van **[!UICONTROL Delivered vs Click trend]** wordt een gedetaille
 
 In de grafiek van **[!UICONTROL Delivery status]** kunt u in één oogopslag zien hoe uw e-mails werken. Houd belangrijke metriek bij, zoals leveringen en golven, zodat u snel inzicht hebt in de efficiëntie van uw e-mailreis.
 
-+++ Meer informatie over de afleveringsstatus
++++ Meer informatie over de metriek van de leveringsstatus
 
 * **[!UICONTROL Delivered]**: Aantal verzonden e-mailberichten in verhouding tot het totale aantal verzonden e-mails.
 
@@ -121,7 +121,7 @@ De tabel **[!UICONTROL Email - Tracking statistics]** bevat een gedetailleerd ov
 
 De tabel van **[!UICONTROL Email Domains]** bevat een diepgaande uitsplitsing van e-mails die zijn gecategoriseerd op domein. Hiermee krijgt u uitgebreide inzicht in de prestaties van uw e-mailreizen. Met deze uitgebreide analyse kunt u het gedrag van verschillende domeinen begrijpen als reactie op uw e-mailinhoud.
 
-+++ Meer informatie over metriek van e-maildomeinen
++++ Meer informatie over metrische gegevens van e-maildomeinen
 
 * **[!UICONTROL Sends]**: Het totale aantal verzendingen voor uw e-mail.
 

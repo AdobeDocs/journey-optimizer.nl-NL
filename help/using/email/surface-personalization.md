@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie, subdomein
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Voer de onderstaande stappen uit om dynamische subdomeinen te definiëren in een
 
    ![](assets/surface-email-edit-condition.png)
 
-1. Selecteer het subdomein dat u aan deze voorwaarde wilt koppelen. [ leer meer op subdomeinen ](../configuration/about-subdomain-delegation.md)
+1. Selecteer het subdomein dat u aan deze voorwaarde wilt koppelen. [ leer meer over subdomeinen ](../configuration/about-subdomain-delegation.md)
 
    >[!NOTE]
    >
@@ -193,4 +193,4 @@ Als u dit type fout wilt voorkomen, moet u ervoor zorgen dat de headerparameters
 
 >[!NOTE]
 >
->Leer meer op leverability in [ deze sectie ](../reports/deliverability.md)
+>Leer meer over leverbaarheid in [ deze sectie ](../reports/deliverability.md)

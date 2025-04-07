@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 6e603bc1-0813-435a-9349-d8585a7a0997
-source-git-commit: dfc0774468710a7b8791c9b2a6c70397a90443fa
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 0%
@@ -25,5 +25,5 @@ De op code-gebaseerde ervaring steunt om het even welk type van klantenimplement
 
 Gedetailleerde informatie over de verschillende implementatiemethoden is beschikbaar in de op code gebaseerde kanaalhandleiding. In deze gids, zult u details over elke implementatiemethodes, evenals steekproefimplementaties voor verschillende verpersoonlijking en het experimenteren gebruiksgevallen vinden.
 
-➡️ [ leren meer op code-Gebaseerde implementatiemethodes ](../../code-based/code-based-implementation-samples.md)
+➡️ [ leren meer over op code-gebaseerde implementatiemethodes ](../../code-based/code-based-implementation-samples.md)
 

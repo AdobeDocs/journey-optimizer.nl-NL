@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '3489'
 ht-degree: 0%
@@ -88,7 +88,7 @@ De **[!UICONTROL Journey Statistics]** Belangrijkste Indicatoren van Prestaties 
 
 De **[!UICONTROL Action executed over the last 24 hours]** -widget vertegenwoordigt de meest succesvolle actie die is uitgevoerd toen uw handelingen werden geactiveerd.
 
-+++ Meer informatie over acties die in de afgelopen 24 uur zijn uitgevoerd
++++ Meer informatie over de acties die de afgelopen 24 uur zijn uitgevoerd
 
 * **[!UICONTROL Actions executed]**: Het totale aantal acties dat met succes voor een reis wordt uitgevoerd.
 
@@ -208,7 +208,7 @@ De grafiek van **[!UICONTROL Email - Sending performance]** biedt een uitgebreid
 
 De tabel **[!UICONTROL Email - Statistics]** bevat een uitgebreid overzicht van de belangrijkste gegevens over e-mails tijdens uw reizen in de afgelopen 24 uur. Het bevat belangrijke metriek zoals de grootte van het beoogde publiek en het aantal e-mails dat succesvol is afgeleverd. Het biedt waardevolle inzichten in de effectiviteit en het bereik van uw e-mails en reizen.
 
-+++ Meer informatie over statistieken over verzendstatistieken per e-mail
++++ Meer informatie over cijfers voor statistieken over verzendstatistieken per e-mail
 
 * **[!UICONTROL Targeted]**: Het totale aantal berichten dat tijdens het verzendingsproces is verwerkt.
 
@@ -245,7 +245,7 @@ De tabel **[!UICONTROL Email - Statistics]** bevat een uitgebreid overzicht van 
 
 De widget **[!UICONTROL Email - Performance by date]** biedt een gedetailleerd overzicht van belangrijke informatie over uw e-mails, in een grafiek weergegeven, die inzicht biedt in de prestatietrends in de afgelopen 24 uur.
 
-+++ Meer informatie over e-mail - Prestaties op basis van datum
++++ Meer informatie over e-mail - Prestaties per datum
 
 * **[!UICONTROL Sent]**: Het totale aantal verzonden e-mails.
 
@@ -278,7 +278,7 @@ De widgets **[!UICONTROL Bounce Reasons]** en **[!UICONTROL Bounce categories]**
 
 Voor meer informatie over grenzen, verwijs naar de [ lijst van de Onderdrukking ](../reports/suppression-list.md) pagina.
 
-+++ Meer informatie over e-mail - Stuitrubrieken en motiveringen
++++ Meer informatie over e-mail - Bounce-rubrieken en redencijfers
 
 * **[!UICONTROL Hard bounce]**: Het totale aantal permanente fouten, zoals een onjuist e-mailadres. Dit omvat een foutbericht waarin expliciet wordt aangegeven dat het adres ongeldig is, zoals Onbekende gebruiker.
 
@@ -361,7 +361,7 @@ De **[!UICONTROL Offers statistic]** - en **[!UICONTROL Offers statistics over t
 
 De widgets **[!UICONTROL Send time optimization]** en **[!UICONTROL Optimized vs non optimized]** geven een gedetailleerd overzicht van het succes van uw e-mails, afhankelijk van de verzendmethode: geoptimaliseerd of normaal.
 
-+++ Meer informatie over optimalisatie van de verzendtijd en geoptimaliseerde versus niet-geoptimaliseerde meetgegevens
++++ Meer informatie over optimalisatie van verzendtijd en geoptimaliseerde versus niet-geoptimaliseerde meetgegevens
 
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 * **[!UICONTROL Bounces]**: het totaal aan fouten dat tijdens het verzendproces is gecumuleerd en de automatische retourverwerking in verhouding tot het totale aantal verzonden berichten.

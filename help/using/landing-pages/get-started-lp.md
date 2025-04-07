@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: landen, landingspagina, starten, starten
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 4%
+source-wordcount: '209'
+ht-degree: 2%
 
 ---
 
@@ -20,22 +20,22 @@ ht-degree: 4%
 
 Een openingspagina is een zelfstandige webpagina waarnaar een gebruiker wordt verwezen nadat hij via een e-mail, website, advertentie of een andere digitale locatie heeft geklikt.
 
-[!DNL Journey Optimizer] kunt u bestemmingspagina&#39;s maken en ontwerpen om uw gebruikers naar onlineformulieren te leiden waar zij zich kunnen aanmelden of ervoor kunnen kiezen uw communicatie niet te ontvangen, of u kunt zich abonneren op een specifieke service zoals een nieuwsbrief.
+Met [!DNL Journey Optimizer] kunt u bestemmingspagina&#39;s maken en ontwerpen, zodat uw gebruikers naar onlineformulieren kunnen gaan waar zij uw communicatie kunnen in- of uitschakelen of zich kunnen abonneren op een specifieke service, zoals een nieuwsbrief.
 
-➡️ [Meer informatie over het configureren van abonnementen en het maken van bestemmingspagina&#39;s vindt u in deze video](#video)
+➡️ [ Leer meer over het vormen van abonnementen en het creëren van landende pagina&#39;s in deze video ](#video)
 
-* Hefboomwerking [!DNL Journey Optimizer] mogelijkheden voor inhoudsontwerp om eenvoudig samen te stellen **responsieve openingspagina&#39;s**.
-* Instellen **opt-in- en opt-out-stromen** snel en naadloos.
-* Abonnementenlijsten maken om gebruikers in staat te stellen **abonneren op een service**. [Meer informatie](lp-use-cases.md#subscription-to-a-service)
-* Geef uw ontvangers de **mogelijkheid om zich af te melden** van het ontvangen van uw mededelingen. [Meer informatie](lp-use-cases.md#opt-out)
-* Een **bevestigingsbericht** bij deelname of opt-out. [Meer informatie](lp-use-cases.md#send-confirmation-email)
+* De mogelijkheden van het inhoudsontwerp van de hefboomwerking [!DNL Journey Optimizer] om **ontvankelijke het landen pagina&#39;s** gemakkelijk te bouwen.
+* De opstelling **opt-in en opt-out stromen** snel en foutloos.
+* Creeer abonnementenlijsten om gebruikers toe te laten om **aan de dienst** in te tekenen. [Meer informatie](lp-use-cases.md#subscription-to-a-service)
+* Verstrek uw ontvangers van het **vermogen om** van het ontvangen van uw mededelingen af te melden. [Meer informatie](lp-use-cases.md#opt-out)
+* Verzend a **bevestigingse-mail** op opt-in of opt-out. [Meer informatie](lp-use-cases.md#send-confirmation-email)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-lp.md">
 <img alt="Lood" src="../assets/do-not-localize/lp-subscription.jpeg">
 </a>
-<div><a href="create-lp.md"><strong>Openingspagina's maken</strong>
+<div><a href="create-lp.md"><strong> creeer het landen pagina's </strong>
 </div>
 <p>
 </td>
@@ -44,7 +44,7 @@ Een openingspagina is een zelfstandige webpagina waarnaar een gebruiker wordt ve
 <img alt="Onfrequent" src="../assets/do-not-localize/lp-list.jpg">
 </a>
 <div>
-<a href="subscription-list.md"><strong>Abonnementslijsten maken</strong></a>
+<a href="subscription-list.md"><strong> creeer abonnementenlijsten </strong></a>
 </div>
 <p></td>
 <td>
@@ -52,7 +52,7 @@ Een openingspagina is een zelfstandige webpagina waarnaar een gebruiker wordt ve
 <img alt="Validatie" src="../assets/do-not-localize/lp-design.jpg">
 </a>
 <div>
-<a href="design-lp.md"><strong>Onderliggende pagina's ontwerpen</strong></a>
+<a href="design-lp.md"><strong> Ontwerpen die pagina's </strong></a> landen
 </div>
 <p>
 </td>
@@ -61,7 +61,7 @@ Een openingspagina is een zelfstandige webpagina waarnaar een gebruiker wordt ve
 <img alt="Validatie" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
-<a href="../reports/lp-report-live.md"><strong>Rapportage</strong></a>
+<a href="../reports/lp-report-live.md"><strong> Meldend </strong></a>
 </div>
 <p>
 </td>

@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
 badge: label="Beta" type="Informative"
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 2%
@@ -64,7 +64,7 @@ Het tabblad **[!UICONTROL Experimentation]** biedt belangrijke inzichten in de p
 
 Het kan enige tijd duren om de beste uitvoerder te definiëren. Dit wordt aangeduid met dit pictogram ![](assets/experimentation_report_1.png) .
 
-+++Leer meer over de verschillende metriek en widgets beschikbaar voor het rapport van de Experimentatie.
++++Meer informatie over de verschillende meetgegevens en widgets die beschikbaar zijn voor het rapport Experimentation.
 
 De **[!UICONTROL Experiment result]** -widget geeft de prestaties van elke variant weer. U kunt de basislijn wijzigen door een van de behandelingen te selecteren in de vervolgkeuzelijst **[!UICONTROL Baseline]** . De beste behandeling wordt weergegeven met een sterpictogram.
 

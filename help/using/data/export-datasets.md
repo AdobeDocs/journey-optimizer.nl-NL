@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: platform, data Lake, create, Lake, datasets, profile
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 0%
@@ -67,7 +67,7 @@ De gedetailleerde informatie over elke stap is beschikbaar in [ documentatie van
    >
    >Als u Adobe Journey Optimizer samen met de profielen van de Klant in real time gebruikt, zullen de bestemmingskaarten **activeren** knoop tonen, toestaand u zowel datasets als publiek voor deze bestemming activeren, afhankelijk van de toestemmingen u hebt toegelaten.
 
-1. **selecteer de dataset(s)** die u naar de geselecteerde bestemming wilt uitvoeren. [ Leer meer op de datasets van Journey Optimizer beschikbaar voor het uitvoeren ](#datasets)
+1. **selecteer de dataset(s)** die u naar de geselecteerde bestemming wilt uitvoeren. [ Leer meer over de datasets van Journey Optimizer beschikbaar voor het uitvoeren ](#datasets)
 
    <!--![](assets/dataset-export-dataset-selection.png)-->
 

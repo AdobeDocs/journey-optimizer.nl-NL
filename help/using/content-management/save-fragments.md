@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Voer de volgende stappen uit om inhoud van de e-mailtoepassing als fragment op t
 
 1. Klik op **[!UICONTROL Create]** en vul de fragmentnaam en -beschrijving in (indien nodig).
 
-1. Als u aangepaste of basislabels voor gegevensgebruik aan het fragment wilt toewijzen, klikt u op de knop **[!UICONTROL Manage access]** in de bovenste sectie van het scherm. [ leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md).
+1. Als u aangepaste of basislabels voor gegevensgebruik aan het fragment wilt toewijzen, klikt u op de knop **[!UICONTROL Manage access]** in de bovenste sectie van het scherm. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md).
 
 1. Selecteer of creeer de markeringen van Adobe Experience Platform van het **gebied van Markeringen** om uw malplaatje voor beter onderzoek te categoriseren. [Meer informatie](../start/search-filter-categorize.md#tags)
 

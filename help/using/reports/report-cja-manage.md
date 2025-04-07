@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1273'
 ht-degree: 0%
@@ -21,15 +21,15 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
-> **analyseert in CJA** functionaliteit is exclusief beschikbaar aan gebruikers met een [!DNL Customer Journey Analytics] vergunning.
+> **analyseert in CJA** functionaliteit is exclusief beschikbaar aan gebruikers met a [!DNL Customer Journey Analytics] vergunning.
 
 ![](assets/cja-analyze.png)
 
 Verbeter uw gegevensanalysefunctie met uw **[!DNL Customer Journey Analytics]** -licentie door gebruik te maken van de **[!UICONTROL Analyze in CJA]** -functie die in alle rapporten beschikbaar is.
 
-Met deze krachtige optie wordt u naadloos omgeleid naar uw **[!DNL Customer Journey Analytics]** -omgeving, zodat u uw rapporten uitgebreid kunt personaliseren. U kunt uw widgets verrijken met speciale maatstaven voor Customers Journey Analytics, zodat u uw inzichten op een geheel nieuw niveau kunt brengen.
+Met deze krachtige optie wordt u naadloos omgeleid naar uw **[!DNL Customer Journey Analytics]** -omgeving, zodat u uw rapporten uitgebreid kunt personaliseren. U kunt uw widgets verrijken met speciale Customer Journey Analytics-meetgegevens, zodat u uw inzichten op een geheel nieuw niveau kunt brengen.
 
-[ leer meer op de interface van de Customer Journey Analytics.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-getting-started)
+[ leer meer over de interface van Customer Journey Analytics.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-getting-started)
 
 ## De rapportperiode definiëren {#report-period}
 
@@ -45,7 +45,7 @@ Het rapport wordt automatisch bijgewerkt wanneer het filter wordt toegepast of g
 
 ## Uw rapporten exporteren {#export-reports}
 
-U kunt uw verschillende rapporten eenvoudig exporteren naar de indelingen PDF of CSV, zodat u deze kunt delen of afdrukken. De stappen voor het exporteren van rapporten worden in de onderstaande tabbladen beschreven.
+U kunt uw verschillende rapporten eenvoudig exporteren naar PDF- of CSV-indelingen, zodat u deze kunt delen of afdrukken. De stappen voor het exporteren van rapporten worden in de onderstaande tabbladen beschreven.
 
 >[!BEGINTABS]
 
@@ -84,7 +84,7 @@ De **uitvoer van het Programma** laat u de levering van tot 10 rapporten met wek
 
    ![](assets/export-schedule-1.png)
 
-1. Kies de **[!UICONTROL File type]** tussen CSV en PDF.
+1. Kies uw **[!UICONTROL File type]** tussen CSV en PDF.
 
 1. Indien nodig kunt u een **[!UICONTROL Description]** toevoegen aan de exportbewerking.
 
@@ -137,7 +137,7 @@ U kunt aangepaste berekende metriek rechtstreeks in uw rapporten maken. U kunt m
 
    >[!NOTE]
    >
-   >Als u Customer Journey Analytics hebt, kunt u uw metriek verder personaliseren met extra opties. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics#areas-of-the-calculated-metrics-builder)
+   >Als u Customer Journey Analytics hebt, kunt u uw metriek verder aanpassen met extra opties. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics#areas-of-the-calculated-metrics-builder)
 
 1. Kies de juiste **[!UICONTROL Decimal Places]** en selecteer een **[!UICONTROL Format]** (Decimaal, Tijd, Percentage of Valuta) op basis van de manier waarop u de metrische waarde wilt weergeven.
 
@@ -179,7 +179,7 @@ U kunt uw gegevens nu analyseren met de aangepaste gereedschappen voor tabel en 
 
 <!--## Create a down-funnel metric {#down-funnel}
 
-1. Create a new journey or open an existing one. [Learn more on journey creation](../building-journeys/journey-gs.md)
+1. Create a new journey or open an existing one. [Learn more about journey creation](../building-journeys/journey-gs.md)
 
 1. On the canvas editor, select the option to "add a metric".
 
@@ -207,7 +207,7 @@ U kunt nu specifieke gegevens in de tabel selecteren en rechtstreeks een publiek
 
    >[!NOTE]
    >
-   >Als u Customer Journey Analytics hebt, kunt u uw metriek verder personaliseren met extra opties. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
+   >Als u Customer Journey Analytics hebt, kunt u uw metriek verder aanpassen met extra opties. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
 
    ![](assets/audience_1.png)
 
@@ -221,7 +221,7 @@ U kunt nu doorgaan en het nieuwe publiek gebruiken met een reis of campagne.
 >
 > De **functionaliteit van het Malplaatje** wordt geleidelijk ingevoerd in fasen, met volledige Algemene Beschikbaarheid die tegen eind Januari wordt gepland, en exclusief beschikbaar aan gebruikers met a [!DNL Customer Journey Analytics] vergunning.
 
-U hebt nu de mogelijkheid om uw Journey Optimizer-rapporten te verbeteren door gebruik te maken van sjablonen voor Customers Journey Analytics. [ Leer meer op het malplaatje van de Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
+Je hebt nu de mogelijkheid om je Journey Optimizer-rapporten te verbeteren met behulp van Customer Journey Analytics-sjablonen. [ Leer meer over het malplaatje van Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
 
 Wanneer u rapporten opent, kunt u kiezen uit twee sjabloontypen in het vervolgkeuzemenu **[!UICONTROL Select a template]** :
 
@@ -240,13 +240,13 @@ Voer de volgende stappen uit om een sjabloon te maken:
 
    ![](assets/cja_template_1.png)
 
-1. Pas uw rapport aan uw behoeften aan. Verwijs naar [ documentatie van de Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+1. Pas uw rapport aan uw behoeften aan. Verwijs naar [ documentatie van Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 1. Zodra uw aangepaste sjabloon is voltooid, opent u het menu **[!UICONTROL Project]** en selecteert u **[!UICONTROL Save as template]** .
 
    ![](assets/cja_template_2.png)
 
-1. Geef de benodigde gegevens voor de template op. Verwijs naar [ documentatie van de Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/create-templates#edit-or-delete-a-template) voor de gedetailleerde informatie.
+1. Geef de benodigde gegevens voor de template op. Verwijs naar [ documentatie van Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/create-templates#edit-or-delete-a-template) voor de gedetailleerde informatie.
 
    >[!IMPORTANT]
    >

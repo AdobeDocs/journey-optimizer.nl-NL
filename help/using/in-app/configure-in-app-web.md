@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 * Verzeker u de recentste versie voor uw **uitbreiding van SDK van het Web van 0} Adobe Experience Platform gebruikt.**
 
-* Installeer de **uitbreiding van SDK van het Web van 0} Adobe Experience Platform {in uw** eigenschappen van de Markering **en laat de** Opslag van Personalization **optie toe.**
+* Installeer de **uitbreiding van het Web SDK van 0} Adobe Experience Platform {in uw** eigenschappen van de Markering **en laat de** Opslag van Personalization **optie toe.**
 
   Deze configuratie is essentieel voor het opslaan van gebeurtenisgeschiedenissen op de cliënt, een voorwaarde voor het uitvoeren van de Regels van de Frequentie in de Bouwer van Regels. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=en)
 
@@ -122,7 +122,7 @@ ht-degree: 1%
    >
    > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook onderstrepingsteken `_` -, punt `.` - en afbreekstreepjes `-` gebruiken.
 
-1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [ leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md).
+1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md).
 
 1. Selecteer **[!UICONTROL Marketing action]**(s) om het toestemmingsbeleid aan de berichten te associëren gebruikend deze configuratie. Alle toestemmingsbeleid verbonden aan de marketing actie wordt gebruikt om de voorkeur van uw klanten te respecteren. [Meer informatie](../action/consent.md#surface-marketing-actions)
 

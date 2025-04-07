@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: subdomein, domein, mail, dmarc, record
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
-source-git-commit: da5b8d6c95e76af98b27ffcff11e75c26b90200a
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Google en Yahoo zijn een onderdeel van hun best practices in de branche. allebei
 >
 >Gmail en Yahoo voldoen niet aan deze nieuwe eis! wordt verwacht dat e-mailberichten in de map spam zullen landen of geblokkeerd zullen raken.
 
-Daarom raadt Adobe u ten zeerste aan ervoor te zorgen dat u DMARC-record hebt ingesteld voor alle subdomeinen die u in [!DNL Journey Optimizer] aan Adobe hebt gedelegeerd. Voer de onderstaande stappen uit die op je kwestie van toepassing zijn:
+Daarom raadt Adobe u ten zeerste aan ervoor te zorgen dat DMARC-record is ingesteld voor alle subdomeinen die u in [!DNL Journey Optimizer] hebt gedelegeerd aan Adobe. Voer de onderstaande stappen uit die op je kwestie van toepassing zijn:
 
 * Als u [ volledig ](delegate-subdomain.md#full-subdomain-delegation) uw verzendende subdomeinen aan Adobe hebt gedelegeerd, volg één van de hieronder opties:
 
@@ -62,7 +62,7 @@ of
 
 >[!NOTE]
 >
->Als u vragen hebt of ondersteuning nodig hebt, neemt u contact op met uw Adobe of uw Adobe.
+>Als u vragen hebt of ondersteuning nodig hebt, neemt u contact op met uw Adobe Deliverability Consultant of uw Adobe-vertegenwoordiger.
 
 **Nuttige verbindingen**
 
