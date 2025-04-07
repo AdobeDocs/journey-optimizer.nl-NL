@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8675df765f2b45ac101d814777a5013e996db4c6
+source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
 workflow-type: tm+mt
-source-wordcount: '2318'
+source-wordcount: '2317'
 ht-degree: 23%
 
 ---
@@ -245,7 +245,7 @@ ht-degree: 23%
             + [Koppelingen toevoegen en berichten bijhouden](using/email/message-tracking.md)
             + [Aangepaste aanbiedingen invoegen](using/email/add-offers-email.md)
             + [De tekstversie genereren](using/email/text-version-email.md)
-            + [Een preheader toevoegen](using/email/preheader.md)
+            + [Metagegevens toevoegen](using/email/email-metadata.md)
          + Stijl bewerken {#edit-style}
             + [Aan de slag met e-mailstijl](using/email/get-started-email-style.md)
             + [Achtergrondinstellingen bewerken](using/email/backgrounds.md)
