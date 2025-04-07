@@ -9,21 +9,27 @@ role: User
 level: Intermediate
 keywords: activiteit, toestand, canvas, reis
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
+source-git-commit: 8a4315940595113441a5f5fb51a3c6573c79cff3
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1503'
 ht-degree: 5%
 
 ---
 
-# Voorwaardeactiviteit{#condition-activity}
+# Voorwaardeactiviteit {#condition-activity}
+
+## Een voorwaardenactiviteit toevoegen {#add-condition-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_condition"
 >title="Voorwaardeactiviteit"
->abstract="Deze activiteit staat u toe om te bepalen hoe het individu in de reis zal stromen. Er worden verschillende paden gemaakt op basis van verschillende criteria. U kunt ook een alternatief pad maken voor een time-out of een fout."
+>abstract="De **voorwaarde** activiteit laat u bepalen hoe de individuen door uw reis door veelvoudige wegen te creëren die op specifieke criteria worden gebaseerd. U kunt ook een ander pad configureren voor het afhandelen van time-outs of fouten, zodat u over een naadloze ervaring beschikt."
 
-Deze voorwaarden zijn beschikbaar:
+De **voorwaarde** activiteit laat u bepalen hoe de individuen door uw reis door veelvoudige wegen te creëren die op specifieke criteria worden gebaseerd. U kunt ook een ander pad configureren voor het afhandelen van time-outs of fouten, zodat u over een naadloze ervaring beschikt.
+
+![](assets/journey49.png)
+
+De volgende soorten voorwaarden zijn beschikbaar:
 
 * [ Source van Gegevens voorwaarde ](#data_source_condition)
 * [ voorwaarde van de Tijd ](#time_condition)
@@ -31,9 +37,9 @@ Deze voorwaarden zijn beschikbaar:
 * [Datumvoorwaarde](#date_condition)
 * [Profiel uiteinde](#profile_cap)
 
-![](assets/journey49.png)
+U kunt ook een publiek gebruiken in een reisconditie. [Meer informatie](#using-a-segment)
 
-## Informatie over de Condition-activiteit {#about_condition}
+## Voorwaardelijke paden toevoegen en beheren {#about_condition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
@@ -48,7 +54,7 @@ Klik op **[!UICONTROL Add a path]** als u meerdere voorwaarden wilt definiëren.
 
 Merk op dat het ontwerp van de ritten functionele gevolgen heeft. Wanneer meerdere paden na een voorwaarde worden gedefinieerd, wordt alleen het eerste in aanmerking komende pad uitgevoerd. Dit betekent dat u de prioritering van paden kunt wijzigen door deze boven of onder elkaar te plaatsen.
 
-Laten we bijvoorbeeld het voorbeeld nemen van de voorwaarde &#39;De persoon is een VIP&#39; van een eerste pad en de voorwaarde &#39;De persoon is een man&#39; van een tweede pad. Als een persoon die aan beide voorwaarden voldoet (een mannetje dat een VIP is) deze stap doorgeeft, wordt het eerste pad gekozen, zelfs als deze persoon ook in aanmerking komt voor het tweede pad, omdat het eerste pad &quot;boven&quot; is. Verplaats uw activiteiten in een andere verticale volgorde om deze prioriteit te wijzigen.
+Laten we het voorbeeld nemen van de voorwaarde &#39;De persoon is een VIP&#39; van een eerste pad en de voorwaarde &#39;De persoon is een man&#39; van een tweede pad. Als een persoon die aan beide voorwaarden voldoet (een mannetje dat een VIP is) deze stap doorgeeft, wordt het eerste pad gekozen, zelfs als deze persoon ook in aanmerking komt voor het tweede pad, omdat het eerste pad &quot;boven&quot; is. Verplaats uw activiteiten in een andere verticale volgorde om deze prioriteit te wijzigen.
 
 ![](assets/journey48.png)
 
@@ -102,7 +108,7 @@ Er zijn drie filteropties beschikbaar:
 
 ## Percentage splitsing {#percentage_split}
 
-Met deze optie kunt u het publiek willekeurig opsplitsen om een andere actie voor elke groep te definiëren. Geef het aantal splitsingen en de verdeling voor elk pad op. De gesplitste berekening is statistisch, aangezien het systeem niet kan voorspellen hoeveel mensen in deze activiteit van de reis zullen stromen. Als gevolg hiervan heeft de splitsing een zeer lage foutmarge. Deze functie is gebaseerd op een willekeurig mechanisme van Java (zie deze [ pagina ](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
+Met deze optie kunt u het publiek willekeurig opsplitsen om een andere actie voor elke groep te definiëren. Geef het aantal splitsingen en de verdeling voor elk pad op. De gesplitste berekening is statistisch, aangezien het systeem niet kan voorspellen hoeveel mensen in deze activiteit van de reis zullen stromen. Als gevolg hiervan heeft de splitsing een zeer lage foutmarge. Deze functie is gebaseerd op een willekeurig mechanisme van Java (zie deze [ pagina ](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html) {target="_blank"}).
 
 In de testmodus wordt bij het bereiken van een splitsing altijd de bovenste vertakking gekozen. U kunt de positie van de gesplitste vertakkingen opnieuw ordenen als u wilt dat de test een ander pad kiest. Zie [deze pagina](../building-journeys/testing-the-journey.md)
 
