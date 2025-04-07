@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '2457'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Vanaf Februari 2025, wordt een tijd-aan-levende (TTL) guardrail opgesteld uit aa
 * 90 dagen voor gegevens in de profielopslag,
 * 13 maanden voor gegevens in het data Lake.
 
-Deze verandering zal uit aan **bestaande klantenzandbakken** in een verdere fase worden opgerold. [ leer meer op datasets tijd-aan-Levende (TTL) gidsen ](../data/datasets-ttl.md)
+Deze verandering zal uit aan **bestaande klantenzandbakken** in een verdere fase worden opgerold. [ leer meer over datasets tijd-aan-Levende (TTL) guardrails ](../data/datasets-ttl.md)
 
 ## Kanaalhulplijnen {#channel-guardrails}
 
@@ -66,7 +66,7 @@ De metriek van de vergunning voor elk pakket is vermeld op de [ de Beschrijving 
 
 ### Kanaalhulplijnen op basis van code {#code-based-guardrails}
 
-Om code-gebaseerde ervaringsacties in [!DNL Journey Optimizer] te gebruiken en de lading van de codeinhoud te leveren die door uw toepassingen kan worden gebruikt, volg de eerste vereisten die in [ worden gedetailleerd deze pagina ](../code-based/code-based-prerequisites.md).
+Om code-gebaseerde ervaringsacties in [!DNL Journey Optimizer] te gebruiken en de lading van de codeinhoud te leveren die door uw toepassingen kan worden gebruikt, volg de eerste vereisten die op [ worden gedetailleerd deze pagina ](../code-based/code-based-prerequisites.md).
 
 ## Handleidingen voor landingspagina&#39;s {#lp-guardrails}
 
@@ -83,7 +83,7 @@ In [!DNL Journey Optimizer] kunt u standaard maximaal 10 subdomeinen delegeren (
 
 Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen delegeren. Neem contact op met uw Adobe-contactpersoon voor meer informatie over het aantal subdomeinen waarop u recht hebt.
 
-Leer meer over domeindelegatie in [ deze pagina ](../configuration/delegate-subdomain.md).
+Leer meer over domeindelegatie op [ deze pagina ](../configuration/delegate-subdomain.md).
 
 ## Fragmenten, ardraals {#fragments-guardrails}
 
@@ -96,7 +96,7 @@ De volgende gidsen zijn op de [ fragmenten ](../content-management/fragments.md)
 
 U kunt maximaal 10 publiekscomposities in een bepaalde sandbox publiceren. Als u deze drempel hebt bereikt, moet u een samenstelling schrappen om ruimte vrij te maken en nieuwe te publiceren.
 
-Leer meer over publiekssamenstellingen in [ deze pagina ](../audience/get-started-audience-orchestration.md).
+Leer meer over publiekssamenstellingen op [ deze pagina ](../audience/get-started-audience-orchestration.md).
 
 ## Garanties voor besluitvorming en besluitvorming {#decisioning-guardrails}
 
@@ -122,7 +122,7 @@ In de afdelingen Beslissingen en Beslissingsbeheer worden de volgende informatie
 De volgende gidsen zijn op de [ Acties ](../building-journeys/about-journey-activities.md) in uw reizen van toepassing:
 
 * In het geval van een fout worden drie pogingen systematisch opnieuw uitgevoerd. U kunt het aantal pogingen niet aanpassen volgens het ontvangen foutbericht. Retries wordt uitgevoerd voor alle HTTP-fouten, behalve voor HTTP 401, 403 en 404.
-* De ingebouwde **gebeurtenis van de Reactie** staat u toe om op uit-van-de-doos acties te reageren. Leer meer in [ deze pagina ](../building-journeys/reaction-events.md). Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen.
+* De ingebouwde **gebeurtenis van de Reactie** staat u toe om op uit-van-de-doos acties te reageren. Leer meer op [ deze pagina ](../building-journeys/reaction-events.md). Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen.
 * U kunt geen twee acties parallel plaatsen, u moet hen één na andere toevoegen.
 * Een profiel kan niet meerdere keren op dezelfde reis tegelijk aanwezig zijn. Als de terugkeer wordt toegelaten, kan een profiel een reis opnieuw ingaan, maar kan het niet doen tot hij dat vorige geval van de reis volledig verliet. [Meer informatie](../building-journeys/end-journey.md)
 
@@ -190,7 +190,7 @@ U kunt uit één van deze twee oplossingen kiezen:
 
 ### Profiel bijwerken {#update-profile-g}
 
-Specifieke instructies zijn van toepassing op de **[!UICONTROL Update profile]** -activiteit. Zij zijn vermeld in [ deze pagina ](../building-journeys/update-profiles.md).
+Specifieke instructies zijn van toepassing op de **[!UICONTROL Update profile]** -activiteit. Zij zijn vermeld op [ deze pagina ](../building-journeys/update-profiles.md).
 
 ### Doelgroep lezen {#read-segment-g}
 
@@ -201,7 +201,7 @@ De volgende gidsen zijn op [ Gelezen de reisactiviteit van het publiek ](../buil
 * De **Gelezen activiteit van het publiek** kan niet met de activiteiten van Adobe Campaign worden gebruikt.
 * De **Gelezen activiteit van het Publiek** kan slechts als eerste activiteit in een reis, van na een bedrijfsgebeurtenisactiviteit worden gebruikt.
 * Een reis kan slechts één **Gelezen activiteit van het Publiek** hebben.
-* Zie ook aanbevelingen over hoe te om **te gebruiken las de activiteit van het publiek** in [ deze pagina ](../building-journeys/read-audience.md).
+* Zie ook aanbevelingen over hoe te om **te gebruiken las de activiteit van het publiek** op [ deze pagina ](../building-journeys/read-audience.md).
 * De pogingen worden toegepast door gebrek op publiek-getriggerde reizen (die met a **Gelezen Publiek** of a **BedrijfsGebeurtenis** beginnen) terwijl het terugwinnen van de uitvoerbaan. Als er een fout optreedt tijdens het maken van de exporttaak, worden de pogingen om de 10mn opnieuw uitgevoerd, tot maximaal 1 uur. Daarna zullen we het als een mislukking beschouwen. Deze soorten reizen kunnen daarom tot 1 uur na de geplande tijd worden uitgevoerd.
 
 ### Poortkwalificatie {#audience-qualif-g}
@@ -218,7 +218,7 @@ De volgende richtlijn is op de [ redacteur van de reisuitdrukking ](../building-
 
 ### Activiteiten in de app {#in-app-activity-limitations}
 
-De volgende instructies zijn van toepassing op de handeling **[!UICONTROL In-app message]** . Leer meer over in-app berichten in [ deze pagina ](../in-app/create-in-app.md).
+De volgende instructies zijn van toepassing op de handeling **[!UICONTROL In-app message]** . Leer meer over in-app berichten op [ deze pagina ](../in-app/create-in-app.md).
 
 * Deze functie is momenteel niet beschikbaar voor klanten in de gezondheidszorg.
 
@@ -238,7 +238,7 @@ De volgende instructies zijn van toepassing op de handeling **[!UICONTROL In-app
 
 ### Snelheid {#jump-g}
 
-Specifieke instructies zijn van toepassing op de **[!UICONTROL Jump]** -activiteit. Zij zijn vermeld in [ deze pagina ](../building-journeys/jump.md#jump-limitations).
+Specifieke instructies zijn van toepassing op de **[!UICONTROL Jump]** -activiteit. Zij zijn vermeld op [ deze pagina ](../building-journeys/jump.md#jump-limitations).
 
 ### Campagne {#ac-g}
 

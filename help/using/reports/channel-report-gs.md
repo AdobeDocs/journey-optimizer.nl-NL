@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -25,7 +25,7 @@ De rapporten van het Kanaal dienen als krachtig hulpmiddel dat een uitvoerig ove
 
 De Kanaalrapporten zijn volledig aanpasbaar, zodat kunt u resize of widgets verwijderen om een dashboard tot stand te brengen dat aan uw specifieke behoeften voldoet. U kunt de rapportgegevens ook exporteren naar een PDF- of CSV-bestand voor verdere analyse.
 
-Leer meer op de verschillende metriek en widgets beschikbaar voor de rapporten van het Kanaal in deze [ pagina ](channel-report.md).
+Leer meer over de verschillende metriek en widgets beschikbaar voor het Kanaal rapporten over [ deze pagina ](channel-report.md).
 
 ## Voordat u begint {#manage-reports-prereq}
 
@@ -85,7 +85,7 @@ Ga als volgt te werk om uw kanaalrapporten te openen en te beheren:
 
 ## Uw rapporten exporteren {#export-reports}
 
-U kunt uw verschillende rapporten gemakkelijk naar PDF of formaten CSV uitvoeren, die u toelaat om, hen te delen te manipuleren of te drukken. De gedetailleerde stappen om uw kanaalrapporten uit te voeren zijn beschikbaar in de volgende lusjes:
+U kunt uw verschillende rapporten eenvoudig exporteren naar PDF- of CSV-indelingen, zodat u deze kunt delen, bewerken of afdrukken. De gedetailleerde stappen om uw kanaalrapporten uit te voeren zijn beschikbaar in de volgende lusjes:
 
 >[!BEGINTABS]
 
@@ -95,7 +95,7 @@ U kunt uw verschillende rapporten gemakkelijk naar PDF of formaten CSV uitvoeren
 
 1. Configureer het document in het venster Afdrukken naar wens. Welke opties beschikbaar zijn, is afhankelijk van de browser.
 
-1. Kies of u het rapport wilt afdrukken of opslaan als PDF.
+1. Kies of je het rapport wilt afdrukken of opslaan als PDF.
 
 1. Zoek de map waarin u het bestand wilt opslaan, geef het bestand een andere naam als dat nodig is en klik op Opslaan.
 

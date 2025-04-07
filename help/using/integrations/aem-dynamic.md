@@ -8,7 +8,7 @@ role: User
 level: Beginner
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 1%
@@ -25,7 +25,7 @@ De Asset-kiezer ondersteunt nu Dynamische media waarmee u goedgekeurde dynamisch
 
 Deze integratie is alleen beschikbaar voor klanten die Dynamic Media Manager as a Cloud Service gebruiken.
 
-Meer op Dynamische Media in Adobe Experience Manager as a Cloud Service leren, verwijs naar [ documentatie van Experience Manager ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media) {target="_blank"}.
+Meer over Dynamische Media in Adobe Experience Manager as a Cloud Service leren, verwijs naar [ documentatie van Experience Manager ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media) {target="_blank"}.
 
 ## Dynamische media toevoegen en beheren {#dynamic-media}
 
@@ -100,7 +100,7 @@ Uw inhoud bevat nu uw bijgewerkte tekstbedekking.
 
 Voeg uw Dynamic Media-sjabloon eenvoudig toe in Journey Optimizer en werk uw media-inhoud waar nodig bij. U kunt nu aanpassingsvelden opnemen in uw media, zodat u in Journey Optimizer meer aangepaste en aantrekkelijke inhoud kunt maken.
 
-Leer meer op [ Dynamische media malplaatje ](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics).
+Leer meer over [ Dynamische media malplaatje ](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics).
 
 ### Met afbeeldingscomponent {#image-component}
 
@@ -126,7 +126,7 @@ U kunt de dynamische sjabloon rechtstreeks in de inhoud invoegen met behulp van 
 
 1. Vul de verschillende gebieden in en gebruik de verpersoonlijkingsredacteur om gepersonaliseerde inhoud toe te voegen. U kunt elk kenmerk, zoals de profielnaam, de plaats of andere relevante details, gebruiken om een meer aangepaste ervaring te maken.
 
-   Leer meer op verpersoonlijking in [ deze pagina ](../personalization/personalize.md).
+   Leer meer over verpersoonlijking op [ deze pagina ](../personalization/personalize.md).
 
    ![](assets/do-not-localize/dynamic_media_template.gif)
 
@@ -209,7 +209,7 @@ Enable conditional content in your dynamic media to better target your audience 
 
 1. Choose your condition or create a new one if needed and click **[!UICONTROL Select]**.
 
-    [Learn more on conditions](../personalization/create-conditions.md)
+    [Learn more about conditions](../personalization/create-conditions.md)
 
 1. Select your **[!UICONTROL Component]** and access the **[!UICONTROL Settings]** menu.
 

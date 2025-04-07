@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 3%
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 Volg onderstaande stappen om uw Web in-app kanaal in te stellen:
 
-* Installeer de Web SDK markeringsuitbreiding om Web in-app Overseinen te steunen. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=en)
+* Installeer de Web SDK-tagextensie om Web In-app Messaging te ondersteunen. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=en)
 
 * Pas de triggers aan. Het Berichten van het Web in-app steunt twee types van trekkers: Verzonden gegevens naar platform en Hand trekkers. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html)
 
@@ -30,7 +30,7 @@ Volg onderstaande stappen om uw Web in-app kanaal in te stellen:
 
 1. Open het menu **[!UICONTROL Campaigns]** en klik op **[!UICONTROL Create campaign]** .
 
-1. Kies het uitvoeringstype van de campagne: Gepland of API-geactiveerd. Leer meer over campagneretypen in [ deze pagina ](../campaigns/create-campaign.md#campaigntype).
+1. Kies het uitvoeringstype van de campagne: Gepland of API-geactiveerd. Leer meer over campagneretypen op [ deze pagina ](../campaigns/create-campaign.md#campaigntype).
 
 1. Kies in de vervolgkeuzelijst **[!UICONTROL Actions]** de optie **[!UICONTROL In-app message]** .
 
@@ -92,7 +92,7 @@ Volg onderstaande stappen om uw Web in-app kanaal in te stellen:
 
    * **[!UICONTROL Everytime]**: altijd het bericht weergeven wanneer de gebeurtenissen plaatsvinden die in de vervolgkeuzelijst **[!UICONTROL Mobile app trigger]** zijn geselecteerd.
    * **[!UICONTROL Once]**: Alleen dit bericht weergeven wanneer de gebeurtenissen die in de vervolgkeuzelijst **[!UICONTROL Mobile app trigger]** zijn geselecteerd, voor het eerst optreden.
-   * **[!UICONTROL Until click through]**: dit bericht weergeven wanneer de gebeurtenissen die in de vervolgkeuzelijst **[!UICONTROL Mobile app trigger]** zijn geselecteerd, plaatsvinden totdat de SDK een interactieve gebeurtenis heeft verzonden met de actie &quot;geklikt&quot;.
+   * **[!UICONTROL Until click through]**: dit bericht weergeven wanneer de gebeurtenissen die zijn geselecteerd in de vervolgkeuzelijst **[!UICONTROL Mobile app trigger]** , plaatsvinden totdat de SDK een interactieve gebeurtenis heeft verzonden met de actie &quot;Kliked&quot;.
    * **[!UICONTROL X number of times]**: toon dit bericht X tijd.
 
 1. Kies zo nodig welke **[!UICONTROL Day of the week]** of **[!UICONTROL Time of day]** het bericht in de app wordt weergegeven.

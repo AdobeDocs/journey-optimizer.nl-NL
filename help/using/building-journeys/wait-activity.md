@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: wachten, activiteit, reis, volgende, canvas
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '593'
-ht-degree: 6%
+ht-degree: 3%
 
 ---
 
@@ -39,17 +39,17 @@ U kunt twee types van **plaatsen wacht** activiteit:
 
 ### Meerdere wachtactiviteiten {#multiple-wait-activities}
 
-Wanneer het gebruiken van veelvoudige **wacht** activiteiten in een reis, me ervan bewust ben dat de [ globale onderbreking ](journey-properties.md#global_timeout) voor reizen 91 dagen is, betekenend dat de profielen altijd uit het reismaximum 91 dagen zijn nadat zij het inging. Meer informatie vindt u [op deze pagina](journey-properties.md#global_timeout).
+Wanneer het gebruiken van veelvoudige **wacht** activiteiten in een reis, me ervan bewust ben dat de [ globale onderbreking ](journey-properties.md#global_timeout) voor reizen 91 dagen is, betekenend dat de profielen altijd uit het reismaximum 91 dagen zijn nadat zij het inging. Leer meer op [ deze pagina ](journey-properties.md#global_timeout).
 
 Een individu kan a **ingaan wacht** activiteit slechts als zij genoeg tijd in de reis verlaten hebben om de wachttijdduur vóór de 91 dagen reisonderbreking te voltooien.
 
 ### Wacht en ingang {#wait-reentrance}
 
-Een beste praktijk om **niet te gebruiken wacht** activiteiten om ingang te blokkeren. In plaats daarvan, gebruik **terugkeer** optie op het niveau van de reiseigenschappen toestaan. Meer informatie vindt u [op deze pagina](../building-journeys/journey-properties.md#entrance).
+Een beste praktijk om **niet te gebruiken wacht** activiteiten om ingang te blokkeren. In plaats daarvan, gebruik **terugkeer** optie op het niveau van de reiseigenschappen toestaan. Leer meer op [ deze pagina ](../building-journeys/journey-properties.md#entrance).
 
 ### Wachten en testmodus {#wait-test-modd}
 
-Op testwijze, staat de **[!UICONTROL Wait time in test]** parameter u toe om de tijd te bepalen dat elk **** activiteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Meer informatie vindt u [op deze pagina](../building-journeys/testing-the-journey.md).
+Op testwijze, staat de **[!UICONTROL Wait time in test]** parameter u toe om de tijd te bepalen dat elk **** activiteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Leer meer op [ deze pagina ](../building-journeys/testing-the-journey.md).
 
 ## Configuratie {#wait-configuration}
 

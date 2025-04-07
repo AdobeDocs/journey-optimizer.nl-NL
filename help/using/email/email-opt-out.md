@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: opt-out, e-mail, link, abonnement opzeggen
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 564dcb691d61a2f48694d208644847d7bb65d664
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # E-mailuitschakelbeheer {#email-opt-out}
 
-Wanneer het verzenden van berichten van reizen of campagnes, moet u altijd ervoor zorgen dat de klanten van toekomstige mededelingen kunnen opzeggen. Als u het abonnement opzegt, worden de profielen automatisch verwijderd uit het publiek van toekomstige marketingberichten.  [ Leer meer op privacy &amp; opt-out beheer ](../privacy/opt-out.md)
+Wanneer het verzenden van berichten van reizen of campagnes, moet u altijd ervoor zorgen dat de klanten van toekomstige mededelingen kunnen opzeggen. Als u het abonnement opzegt, worden de profielen automatisch verwijderd uit het publiek van toekomstige marketingberichten.  [ Leer meer over privacy &amp; opt-out beheer ](../privacy/opt-out.md)
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Wanneer het verzenden van berichten van reizen of campagnes, moet u altijd ervoo
 
 Als u een koppeling zonder abonnement wilt invoegen in uw e-mailinhoud, kunt u:
 
-* Voeg één klik toe unsubscribe URL in de e-mailkopbal. Met de optie **[!UICONTROL Enable List-Unsubscribe]** op het niveau van de kanaalconfiguratie voegt u een uitschakelkoppeling toe aan de e-mailheader. [ Leer meer op opt-out in e-mailkopbal ](#unsubscribe-header)
+* Voeg één klik toe unsubscribe URL in de e-mailkopbal. Met de optie **[!UICONTROL Enable List-Unsubscribe]** op het niveau van de kanaalconfiguratie voegt u een uitschakelkoppeling toe aan de e-mailheader. [ Leer meer over opt-out in e-mailkopbal ](#unsubscribe-header)
 
 * Laat **toe 1-klik opt-out verbinding** voor uw e-mail.  [ Leer hoe te om een één-klik opt-out verbinding toe te voegen ](#one-click-opt-out)
 
@@ -67,7 +67,7 @@ Als u een gepersonaliseerde URL voor annuleren wilt instellen, voegt u een koppe
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
-   U kunt uw koppelingen aanpassen. Leer meer op gepersonaliseerde URLs in [ deze sectie ](../personalization/personalization-syntax.md).
+   U kunt uw koppelingen aanpassen. Leer meer over gepersonaliseerde URLs in [ deze sectie ](../personalization/personalization-syntax.md).
 
 1. Selecteer hoe u de optie wilt toepassen: op het kanaal- of identiteitsniveau.
 
@@ -91,7 +91,7 @@ Als u deze uitstapmodus wilt implementeren, moet u een bestemmingspagina voor ee
 
 Als u een systeem met twee stappen wilt instellen voor het weigeren van toegang, moet u uw eigen bestemmingspagina&#39;s voor abonnementen maken. De eerste het landen pagina zal van uw bericht worden verbonden en moet een vraag-aan-actie knoop bevatten. Er moet een bevestigingsbericht worden weergegeven wanneer de gebruiker op de knop klikt.
 
-Leer hoe te om een het landen pagina in Adobe Journey Optimizer tot stand te brengen om abonnementen in [ te beheren deze pagina ](../landing-pages/lp-use-cases.md#opt-out).
+Leer hoe te om een het landen pagina in Adobe Journey Optimizer tot stand te brengen om abonnementen op [ te beheren deze pagina ](../landing-pages/lp-use-cases.md#opt-out).
 
 U kunt ook een externe bestemmingspagina gebruiken. In dat geval configureert u de API zodanig dat de informatie naar Adobe Journey Optimizer wordt verzonden wanneer een ontvanger zich niet meer abonneert.
 

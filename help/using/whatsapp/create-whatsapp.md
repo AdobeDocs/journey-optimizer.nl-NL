@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 87931614150d6f764f565f683f83db4f63d88ee0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '780'
 ht-degree: 2%
 
 ---
@@ -32,6 +32,35 @@ ht-degree: 2%
 >[!ENDSHADEBOX]
 
 Met Adobe Journey Optimizer kunt u aansprekende berichten ontwerpen en verzenden op WhatsApp. Voeg eenvoudig een actie WhatsApp aan uw reis of campagne toe en maak uw berichtinhoud zoals hieronder gedetailleerd. Met Adobe Journey Optimizer kunt u ook uw WhatsApp-berichten testen voordat u ze verzendt. Zo kunt u de perfecte rendering, nauwkeurige personalisatie en een correcte configuratie van alle instellingen garanderen.
+
+Merk op dat slechts de Uitgaande berichtelementen in Journey Optimizer worden gesteund.
+
++++ Meer informatie over ondersteunde berichtelementen en oproepen naar acties
+
+De volgende berichttypes worden gesteund in WhatsApp:
+
+| Berichtonderdeel | Beschrijving |
+|-|-|
+| Kopteksten | Optionele tekst die boven de hoofdtekst van het bericht wordt weergegeven. |
+| Tekst | Ondersteunt dynamische inhoud via parameters. |
+| Afbeeldingen (JPEG, PNG) | Moet 8-bits RGB- of RGBA-indeling hebben en moet kleiner zijn dan 5 MB. |
+| Video&#39;s | Moet 3GPP of MP4 zijn, minder dan 16 MB, en worden gehost via URL. |
+| Audio | Alleen beschikbaar voor responsberichten. Dit moet de indeling AAC, AMR, MP3, MP4 audio of OGG hebben, die wordt gehost op een URL en minder dan 16 MB. |
+| Documenten | Moet kleiner zijn dan 100 MB en worden gehost op een URL en in een van de volgende indelingen: .txt, .xls/.xlsx, .doc/.docx, .ppt/.pptx of .pdf. |
+| Platte tekst | Ondersteunt dynamische inhoud via parameters. |
+| Voettekst | Ondersteunt dynamische inhoud via parameters. |
+
+De volgende vraag-aan-actie opties zijn beschikbaar voor uw WhatsApp berichten:
+
+| Oproep tot actie | Beschrijving |
+|-|-|
+| Telefoonnummer bellen | Alleen beschikbaar in berichtsjablonen. Slechts één knop. |
+| Aangepaste knoppen voor snelle antwoorden | Ondersteunt maximaal drie knoppen. |
+| Knop Afmelden voor marketing | Abonnementsstatus wordt niet automatisch bijgewerkt. |
+| Codesjablonen voor coupon | Alleen beschikbaar in berichtsjablonen. |
+| CTA-antwoordberichten | Staat opneming van een vraag-aan-actie knoop in een antwoordbericht toe. |
+
++++
 
 ## Een WhatsApp-bericht toevoegen {#create-whatsapp-journey-campaign}
 
@@ -67,7 +96,7 @@ U kunt nu de inhoud van uw WhatsApp-bericht ontwerpen vanaf de knop **[!UICONTRO
 
 1. Kies **[!UICONTROL WhatsApp]** in de sectie **[!UICONTROL Actions]** en selecteer of maak een nieuwe configuratie.
 
-   Leer meer over configuratie WhatsApp in [ deze pagina ](whatsapp-configuration.md).
+   Leer meer over configuratie WhatsApp op [ deze pagina ](whatsapp-configuration.md).
 
 1. Klik op **[!UICONTROL Create experiment]** om uw inhoudexperiment te configureren en behandelingen te maken om de prestaties te meten en de beste optie voor uw doelgroep te identificeren. [Meer informatie](../content-management/content-experiment.md)
 
@@ -90,7 +119,7 @@ U kunt nu de inhoud van uw WhatsApp-bericht ontwerpen vanaf de knop **[!UICONTRO
 
 >[!BEGINSHADEBOX]
 
-Voordat u uw WhatsApp-bericht in Journey Optimizer kunt ontwerpen, moet u eerst een sjabloon maken en ontwerpen in Meta. Alleen elementen voor uitgaande berichten worden ondersteund in Journey Optimizer. [Meer informatie](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+Voordat u uw WhatsApp-bericht in Journey Optimizer kunt ontwerpen, moet u eerst een sjabloon maken en ontwerpen in Meta. [Meer informatie](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
 Merk op dat uw WhatsApp malplaatje eerst door Meta moet worden goedgekeurd alvorens het in Journey Optimizer te gebruiken. Dit proces duurt meestal een paar uur, maar kan tot 24 uur in beslag nemen. [Meer informatie](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
 
@@ -108,11 +137,11 @@ Merk op dat uw WhatsApp malplaatje eerst door Meta moet worden goedgekeurd alvor
    * Hulpprogramma
    * Verificatie
 
-   [ Leer meer op de categorieën van het Malplaatje ](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
+   [ Leer meer over de categorieën van het Malplaatje ](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
 
 1. Van het **WhatsApp malplaatje** drop-down, selecteer uw eerder gecreeerd malplaatje dat in Meta wordt ontworpen.
 
-   [ Leer meer op hoe te om uw Whatsapp malplaatjes ](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343) te creëren
+   [ Leer meer over hoe te om uw Whatsapp malplaatjes ](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343) te creëren
 
 1. Gebruik de verpersoonlijkingsredacteur om verpersoonlijking aan uw malplaatje toe te voegen. U kunt elk kenmerk gebruiken, bijvoorbeeld de profielnaam of plaats.
 
@@ -120,7 +149,7 @@ Merk op dat uw WhatsApp malplaatje eerst door Meta moet worden goedgekeurd alvor
 
 1. Gebruik de knop **[!UICONTROL Simulate content]** om een voorvertoning weer te geven van uw WhatsApp-berichtinhoud, verkorte URL&#39;s en gepersonaliseerde inhoud. [Meer informatie](send-whatsapp.md)
 
-Nadat u de tests hebt uitgevoerd en de inhoud hebt gevalideerd, kunt u uw WhatsApp-bericht naar uw publiek sturen. Deze stappen zijn gedetailleerd in [ deze pagina ](send-whatsapp.md)
+Nadat u de tests hebt uitgevoerd en de inhoud hebt gevalideerd, kunt u uw WhatsApp-bericht naar uw publiek sturen. Deze stappen zijn gedetailleerd op [ deze pagina ](send-whatsapp.md)
 
 
 <!--
@@ -144,7 +173,7 @@ Nadat u de tests hebt uitgevoerd en de inhoud hebt gevalideerd, kunt u uw WhatsA
 
 1. Use the **[!UICONTROL Simulate content]** button to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
 
-Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed in [this page](send-whatsapp.md)
+Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed on [this page](send-whatsapp.md)
 
 >[!TAB Response message]
 
@@ -158,7 +187,7 @@ Once you have performed your tests and validated the content, you can send your 
 
 1. Use the **[!UICONTROL Simulate content]** button to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
 
-Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed in [this page](send-whatsapp.md)
+Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed on [this page](send-whatsapp.md)
 
 >[!ENDTABS]
 -->

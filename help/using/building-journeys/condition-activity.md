@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: activiteit, toestand, canvas, reis
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 8a4315940595113441a5f5fb51a3c6573c79cff3
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1503'
 ht-degree: 5%
@@ -94,7 +94,7 @@ Gebruik een **[!UICONTROL Time condition]** om verschillende handelingen uit te 
 
 >[!NOTE]
 >
->* De tijdzone is niet specifiek voor een conditie en wordt op het niveau van de reis gedefinieerd in de reiseigenschappen. Meer informatie vindt u [op deze pagina](../building-journeys/timezone-management.md).
+>* De tijdzone is niet specifiek voor een conditie en wordt op het niveau van de reis gedefinieerd in de reiseigenschappen. Leer meer op [ deze pagina ](../building-journeys/timezone-management.md).
 >
 >* De standaardwaarde voor **[!UICONTROL Time condition]** is 00:00 tot 12:00 uur.
 

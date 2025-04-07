@@ -6,7 +6,7 @@ description: Leer hoe u een kanaalactiviteit toevoegt aan een campagne die uit m
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 040c8387c73f9d867840225ddff6cf940cc96ac5
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Kanaalactiviteiten {#channel}
 
-Met Adobe Journey Optimizer kunt u marketingcampagnes automatiseren en uitvoeren op binnenkomende en uitgaande kanalen. U kunt kanaalactiviteiten combineren tot het multi-step campagnecanvas om multi-step campagnes over kanalen te creëren die acties kunnen teweegbrengen die op klantengedrag en gegevens worden gebaseerd. De gesteunde kanalen zijn vermeld in [ deze pagina ](../../channels/gs-channels.md).
+Met Adobe Journey Optimizer kunt u marketingcampagnes automatiseren en uitvoeren op binnenkomende en uitgaande kanalen. U kunt kanaalactiviteiten combineren tot het multi-step campagnecanvas om multi-step campagnes over kanalen te creëren die acties kunnen teweegbrengen die op klantengedrag en gegevens worden gebaseerd. De gesteunde kanalen zijn vermeld op [ deze pagina ](../../channels/gs-channels.md).
 
 U kunt bijvoorbeeld een welkomstcampagne voor e-mail maken met een reeks berichten via verschillende kanalen, zoals e-mail, SMS, push en direct mail. U kunt ook een vervolgbericht verzenden nadat een klant een aankoop heeft voltooid, of een gepersonaliseerd verjaardagsbericht naar een klant verzenden via SMS.
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: reis, configuratie, eigenschappen
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '2282'
 ht-degree: 0%
@@ -45,13 +45,13 @@ In deze sectie kunt u de naam van de rit definiëren, een beschrijving toevoegen
 
 De **technische details van het Exemplaar** staat u toe om technische informatie over de reis te kopiëren die het ondersteuningsteam kan gebruiken om problemen op te lossen. De volgende informatie wordt gekopieerd: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
 
-Leer meer over technische gebieden met betrekking tot een reis voor een bepaald profiel, en hoe te om hen [ in deze pagina ](expression/journey-properties.md) te gebruiken.
+Leer meer over technische gebieden met betrekking tot een reis voor een bepaald profiel, en hoe te om hen [ op deze pagina ](expression/journey-properties.md) te gebruiken.
 
 ## Entrance en reentrance {#entrance}
 
 De modus voor profielinvoer wordt gedefinieerd op het niveau van het transport, in het configuratievenster rechts. De instellingen worden hieronder beschreven.
 
-Profielbeheer is afhankelijk van het soort reis. Leer meer over profielingang en terugkeerbeheer, in [ deze pagina ](entry-management.md).
+Profielbeheer is afhankelijk van het soort reis. Leer meer over profielingang en terugkeerbeheer, op [ deze pagina ](entry-management.md).
 
 ### Ingang toestaan  {#allow-reentrance}
 
@@ -76,7 +76,7 @@ Wanneer **toe staat terugkeer** optie wordt geactiveerd, **de ingang wacht perio
 
 ## Toegang beheren {#manage-access}
 
-Klik op de knop **[!UICONTROL Manage access]** als u aangepaste of basislabels voor gegevensgebruik aan de reis wilt toewijzen. [ leer meer op het Toegangsbeheer van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md)
+Klik op de knop **[!UICONTROL Manage access]** als u aangepaste of basislabels voor gegevensgebruik aan de reis wilt toewijzen. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md)
 
 ![](assets/journeys-manage-access.png)
 
@@ -251,7 +251,7 @@ Adobe Journey Optimizer gebruikt samenvoegbeleid terwijl het terugwinnen van pro
 
 Adobe Journey Optimizer past het fusiebeleid toe dat gedurende de hele reis wordt gebruikt. Als er daarom meerdere soorten publiek worden gebruikt op een reis (bijvoorbeeld in &quot;inAudience&quot;-functies), waardoor inconsistenties ontstaan met het fusiebeleid dat door de reis wordt gebruikt, wordt een fout opgeworpen en wordt de publicatie geblokkeerd. Nochtans, als een inconsistent publiek in berichtverpersoonlijking wordt gebruikt, wordt een alarm niet opgeheven, ondanks de inconsistentie. Om deze reden, wordt het hoogst geadviseerd om het samenvoegbeleid te controleren verbonden aan uw publiek, wanneer dit publiek in berichtverpersoonlijking wordt gebruikt.
 
-Meer leren op fusiebeleid, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) {target="_blank"}.
+Meer over samenvoegingsbeleid leren, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) {target="_blank"}.
 
 >[!NOTE]
 >

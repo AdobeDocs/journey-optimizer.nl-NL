@@ -8,7 +8,7 @@ level: Beginner
 keywords: in-app, bericht, maken, starten
 hide: true
 hidefromtoc: true
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 10%
@@ -33,7 +33,7 @@ Als u de inhoud van het bericht in de app wilt bewerken, klikt u op de knop **[!
 
 Met de schakeloptie **[!UICONTROL Advanced formatting]** activeert u aanvullende opties om de ervaring aan te passen.
 
-Nadat u het bericht in de app hebt gemaakt en de inhoud ervan hebt gedefinieerd en gepersonaliseerd, kunt u het bericht controleren en activeren. Vervolgens worden de meldingen verzonden volgens het campagneprogramma. Meer informatie vindt u [op deze pagina](send-in-app.md).
+Nadat u het bericht in de app hebt gemaakt en de inhoud ervan hebt gedefinieerd en gepersonaliseerd, kunt u het bericht controleren en activeren. Vervolgens worden de meldingen verzonden volgens het campagneprogramma. Leer meer op [ deze pagina ](send-in-app.md).
 
 ## Berichtlay-out {#message-layout}
 

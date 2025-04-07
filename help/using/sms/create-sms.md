@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 25ca0dd72622ef15db3edeedfd16b91d392127d4
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 2%
@@ -69,7 +69,7 @@ U kunt nu de inhoud van uw SMS-bericht ontwerpen via de knop **[!UICONTROL Edit 
 
 1. Kies in de sectie **[!UICONTROL Actions]** de **[!UICONTROL SMS]** en selecteer of maak een nieuwe configuratie.
 
-   Leer meer over de configuratie van SMS in [ deze pagina ](sms-configuration.md).
+   Leer meer over de configuratie van SMS op [ deze pagina ](sms-configuration.md).
 
    ![](assets/sms_create_3.png)
 
@@ -131,11 +131,11 @@ Volg onderstaande stappen om uw SMS-inhoud te configureren. De montages voor MMS
 
 ## Uw MMS-inhoud definiëren{#mms-content}
 
-U kunt uw communicatie verbeteren door MMS-berichten (Multimedia Message Service) te verzenden, zodat u media kunt delen, zoals video&#39;s, foto&#39;s, audioclips en GIFFEN, enz. Bovendien staat MMS maximaal 1600 tekens tekst in uw bericht toe.
+U kunt uw communicatie verbeteren door MMS-berichten (Multimedia Message Service) te verzenden, waardoor het delen van media zoals video&#39;s, foto&#39;s, audioclips en GIF&#39;s en meer mogelijk is. Bovendien staat MMS maximaal 1600 tekens tekst in uw bericht toe.
 
 >[!NOTE]
 >
-> Het kanaal van MMS komt met een paar beperkingen die in [ worden vermeld deze pagina ](../start/guardrails.md#sms-guardrails).
+> Het kanaal van MMS komt met een paar beperkingen die op [ worden vermeld deze pagina ](../start/guardrails.md#sms-guardrails).
 
 Ga als volgt te werk om MMS-inhoud te maken:
 
@@ -161,7 +161,7 @@ Gebruik de knop **[!UICONTROL Simulate content]** om een voorvertoning weer te g
 
 ![](assets/sms-content-preview.png)
 
-Nadat u de tests hebt uitgevoerd en de inhoud hebt gevalideerd, kunt u uw tekstbericht naar het publiek sturen. Deze stappen zijn gedetailleerd in [ deze pagina ](send-sms.md)
+Nadat u de tests hebt uitgevoerd en de inhoud hebt gevalideerd, kunt u uw tekstbericht naar het publiek sturen. Deze stappen zijn gedetailleerd op [ deze pagina ](send-sms.md)
 
 Zodra verzonden, kunt u het effect van uw SMS binnen de Campagne of rapporten van de Reis meten. Raadpleeg [deze sectie](../reports/campaign-global-report-cja-sms.md) voor meer informatie over rapporten.
 

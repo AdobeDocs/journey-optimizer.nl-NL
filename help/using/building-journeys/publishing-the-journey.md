@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: publiceren, reizen, live, geldigheid, controle
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 3a1e00ecc74ccca5cba0e15ac642eeb7ddb40ae0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
@@ -26,7 +26,7 @@ De stappen om een reis te publiceren zijn hieronder gedetailleerd:
 
 1. Voordat u uw reis publiceert, controleert u of deze geldig is en of er geen fout optreedt. U kunt geen reis met fouten publiceren.
 
-   * Leer hoe te om uw reis in [ te testen deze pagina ](testing-the-journey.md).
+   * Leer hoe te om uw reis op [ deze pagina ](testing-the-journey.md) te testen.
    * Leer hoe te om uw reisfouten in [ problemen op te lossen deze sectie ](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
 1. Als u de rit wilt publiceren, klikt u op de optie **[!UICONTROL Publish]** in het keuzemenu rechtsboven.

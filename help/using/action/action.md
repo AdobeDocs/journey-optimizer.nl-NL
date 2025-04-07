@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: acties, reizen, berichten, verzenden, verbindingen
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
 
@@ -38,7 +38,7 @@ Handelingen zijn verbindingen waarmee u persoonlijke, real-time ervaringen kunt 
 >
 >De configuratie van douaneacties moet door a **technische gebruiker** worden uitgevoerd.
 
-Aangepaste acties zijn aanvullende acties die door technische gebruikers worden gedefinieerd en beschikbaar worden gesteld aan marketers: als deze acties eenmaal zijn geconfigureerd, worden ze weergegeven in het linkerpalet van uw reis, in de categorie **[!UICONTROL Action]** . Meer informatie vindt u [op deze pagina](../building-journeys/about-journey-activities.md#action-activities).
+Aangepaste acties zijn aanvullende acties die door technische gebruikers worden gedefinieerd en beschikbaar worden gesteld aan marketers: als deze acties eenmaal zijn geconfigureerd, worden ze weergegeven in het linkerpalet van uw reis, in de categorie **[!UICONTROL Action]** . Leer meer op [ deze pagina ](../building-journeys/about-journey-activities.md#action-activities).
 
 Selecteer **[!UICONTROL Configurations]** in de sectie van het menu BEHEER om de actielijst weer te geven of een nieuwe actie te configureren. Klik in de sectie **[!UICONTROL Actions]** op **[!UICONTROL Manage]** . De lijst met acties wordt weergegeven. Zie [ deze pagina ](../start/user-interface.md) voor meer informatie over de interface.
 

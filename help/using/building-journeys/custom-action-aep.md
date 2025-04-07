@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Aangepaste acties gebruiken om gebeurtenissen voor reizen in AEP te schrijven
-description: Aangepaste acties gebruiken om gebeurtenissen voor reizen in AEP te schrijven
+title: Aangepaste handelingen gebruiken om gebeurtenissen voor reizen in AEP te schrijven
+description: Aangepaste handelingen gebruiken om gebeurtenissen voor reizen in AEP te schrijven
 feature: Journeys, Use Cases, Custom Actions
 topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
-source-git-commit: f00b157ec843eacdee480dcfe00a8724ab4a3495
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 0%
 
 ---
 
-# Gebruik hoofdletters/kleine letters: gebruik Aangepaste handelingen om gebeurtenissen Journey in Experience Platform te schrijven {#custom-action-aep}
+# Hoofdlettergebruik: gebruik aangepaste handelingen om gebeurtenissen voor reizen in Experience Platform te schrijven {#custom-action-aep}
 
 Dit gebruiksgeval verklaart hoe te om douanegebeurtenissen in Adobe Experience Platform van Reizen te schrijven gebruikend de Acties van de Douane en Voor authentiek verklaarde vraag.
 
@@ -96,7 +96,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 ## Aangepaste actie configureren {#custom-action-config}
 
-De actieconfiguratie van de douane wordt gedetailleerd in [ deze pagina ](../action/about-custom-action-configuration.md).
+De actieconfiguratie van de douane is gedetailleerd op [ deze pagina ](../action/about-custom-action-configuration.md).
 
 Voer voor dit voorbeeld de volgende stappen uit:
 

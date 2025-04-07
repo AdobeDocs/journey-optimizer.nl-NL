@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 6acfe14469a74216b196e4d5ee059839aea32226
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1239'
 ht-degree: 3%
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 Als u een nieuwe campagne wilt maken, bladert u naar het menu **[!UICONTROL Campaigns]** in de linkertrack en klikt u op **[!UICONTROL Create campaign]** . U kunt ook een bestaande live campagne dupliceren om een nieuwe te maken. [ leer hoe ](modify-stop-campaign.md#duplicate).
 
-Alvorens te beginnen, lees de campagnevereisten in [ deze pagina ](get-started-with-campaigns.md#before-starting-campaign-prerequisites) voor.
+Alvorens te beginnen, lees de campagnevereisten op [ deze pagina ](get-started-with-campaigns.md#before-starting-campaign-prerequisites) voor.
 
 ## Het type campagne selecteren {#campaigntype}
 
@@ -49,7 +49,7 @@ Wanneer de campagne is gemaakt, moet u de eigenschappen ervan definiëren. Volg 
 
 1. (facultatief) Gebruik het **gebied van Markeringen** om Adobe Experience Platform Verenigde Markeringen aan uw campagne toe te wijzen. Op deze manier kunt u ze gemakkelijk classificeren en de zoekopdracht in de lijst met campagnes verbeteren. [ Leer hoe te met markeringen ](../start/search-filter-categorize.md#tags) te werken.
 
-1. (optioneel) U kunt de toegang tot deze campagne beperken op basis van toegangslabels. Blader naar de knop **[!UICONTROL Manage access]** boven aan deze pagina om een toegangsbeperking toe te voegen. Zorg ervoor dat u alleen labels selecteert waarvoor u gemachtigd bent. [ leer meer op het Toegangsbeheer van het Niveau van Objecten ](../administration/object-based-access.md).
+1. (optioneel) U kunt de toegang tot deze campagne beperken op basis van toegangslabels. Blader naar de knop **[!UICONTROL Manage access]** boven aan deze pagina om een toegangsbeperking toe te voegen. Zorg ervoor dat u alleen labels selecteert waarvoor u gemachtigd bent. [ Leer meer over het Toegangsbeheer van het Niveau van Objecten ](../administration/object-based-access.md).
 
 ## Het campagnepubliek definiëren {#audience}
 
@@ -65,7 +65,7 @@ Voer de volgende stappen uit om de doelgroep van een geplande marketingcampagne 
 
 1. In de **sectie van het publiek**, klik de **[!UICONTROL Select audience]** knoop om de lijst van beschikbare publiek van Adobe Experience Platform te tonen. Leer meer over publiek in [ deze sectie ](../audience/about-audiences.md).
 
-1. Kies in het veld **[!UICONTROL Identity type]** het type sleutel dat u wilt gebruiken om de personen van het geselecteerde publiek te identificeren. U kunt een bestaand identiteitstype gebruiken of een nieuw type maken met de Adobe Experience Platform Identity Service. De standaard naamruimten van de Identiteit zijn vermeld in [ deze pagina ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard) {target="_blank"}.
+1. Kies in het veld **[!UICONTROL Identity type]** het type sleutel dat u wilt gebruiken om de personen van het geselecteerde publiek te identificeren. U kunt een bestaand identiteitstype gebruiken of een nieuw type maken met de Adobe Experience Platform Identity Service. De standaard naamruimten van de Identiteit zijn vermeld op [ deze pagina ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard) {target="_blank"}.
 
    Per campagne is slechts één identiteitstype toegestaan. Individuen die tot een segment behoren dat niet het geselecteerde identiteitstype onder hun verschillende identiteiten heeft kunnen niet door de campagne worden gericht.
 

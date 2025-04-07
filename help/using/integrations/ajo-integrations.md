@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '756'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -90,7 +90,7 @@ Leer meer over Journey Optimizer + Adobe Workfront [ in de documentatie van Adob
 
 Als u een systeem van de derde gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, gebruik douaneacties om met uw reis te verbinden. Bijvoorbeeld, kunt u met de volgende systemen met douaneacties verbinden: Epsilon, Slack, [ Adobe Developer ](https://developer.adobe.com) {target="_blank"}, Vuurbasis, enz.
 
-Aangepaste acties zijn aanvullende acties die door technische gebruikers worden gedefinieerd en beschikbaar worden gesteld aan verkopers. Als deze eenmaal zijn geconfigureerd, worden ze in de categorie **[!UICONTROL Action]** weergegeven in het linkerpalet van uw reis. Meer informatie vindt u [op deze pagina](../building-journeys/about-journey-activities.md#action-activities).
+Aangepaste acties zijn aanvullende acties die door technische gebruikers worden gedefinieerd en beschikbaar worden gesteld aan verkopers. Als deze eenmaal zijn geconfigureerd, worden ze in de categorie **[!UICONTROL Action]** weergegeven in het linkerpalet van uw reis. Leer meer op [ deze pagina ](../building-journeys/about-journey-activities.md#action-activities).
 
 Leer meer over [ douaneacties ](../action/about-custom-action-configuration.md).
 

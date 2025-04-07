@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: gebeurtenis, reis, zaken, configuratie
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1104'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -56,7 +56,7 @@ Zakelijke gebeurtenissen volgen op dezelfde manier als voor eenheidsgebeurteniss
 
 **wat zijn de gidsen om overladende materialized publiek te vermijden?**
 
-In het geval van on-shot bedrijfsgebeurtenissen, voor een bepaalde reis, worden de gegevens die door de eerste gebeurtenisbaan worden geduwd opnieuw gebruikt tijdens een tijdvenster van 1 uur. Voor geregelde reizen is er geen spoor. Leer meer op publiek in de [ documentatie van de Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+In het geval van on-shot bedrijfsgebeurtenissen, voor een bepaalde reis, worden de gegevens die door de eerste gebeurtenisbaan worden geduwd opnieuw gebruikt tijdens een tijdvenster van 1 uur. Voor geregelde reizen is er geen spoor. Leer meer over publiek in de [ documentatie van de Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 ## Aan de slag met bedrijfsgebeurtenissen {#gs-business-events}
 
@@ -106,7 +106,7 @@ Hier zijn de eerste stappen om een bedrijfsgebeurtenis te vormen:
 
    ![](assets/journey7-business.png)
 
-   De gebeurtenis is nu geconfigureerd en klaar om in een journey worden gezet. Er zijn aanvullende configuratiestappen nodig om gebeurtenissen te ontvangen. Meer informatie vindt u [op deze pagina](../event/additional-steps-to-send-events-to-journey.md).
+   De gebeurtenis is nu geconfigureerd en klaar om in een journey worden gezet. Er zijn aanvullende configuratiestappen nodig om gebeurtenissen te ontvangen. Leer meer op [ deze pagina ](../event/additional-steps-to-send-events-to-journey.md).
 
 ## De laadvelden definiëren {#define-the-payload-fields}
 

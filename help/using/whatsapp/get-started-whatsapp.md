@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: 87931614150d6f764f565f683f83db4f63d88ee0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -37,9 +37,9 @@ ht-degree: 0%
 
 U kunt WhatsApp-berichten nu rechtstreeks via Journey Optimizer verzenden. Met deze functie kunt u WhatsApp naadloos integreren in reizen en campagnes, waardoor de communicatie en de betrokkenheid met ontvangers wordt verbeterd.
 
-* In a **Reis**. Creeer een reis, voeg a **WhatsApp** activiteit toe, en bepaal basismontages, dan doorblader aan de **[!UICONTROL Actions: WhatsApp]** juiste ruit om de inhoud voor het bericht te creëren WhatsApp. Leer hoe te om een reis in [ tot stand te brengen deze pagina ](../building-journeys/journey-gs.md).
+* In a **Reis**. Creeer een reis, voeg a **WhatsApp** activiteit toe, en bepaal basismontages, dan doorblader aan de **[!UICONTROL Actions: WhatsApp]** juiste ruit om de inhoud voor het bericht te creëren WhatsApp. Leer hoe te om een reis op [ tot stand te brengen deze pagina ](../building-journeys/journey-gs.md).
 
-* In a **Campagne**. Creeer een campagne, selecteer **WhatsApp** als uw actie en bepaal basismontages, dan geef de berichtinhoud uit om het te verzenden bericht te bepalen WhatsApp. Leer hoe te om een campagne in [ tot stand te brengen deze pagina ](../campaigns/create-campaign.md#configure).
+* In a **Campagne**. Creeer een campagne, selecteer **WhatsApp** als uw actie en bepaal basismontages, dan geef de berichtinhoud uit om het te verzenden bericht te bepalen WhatsApp. Leer hoe te om een campagne op [ tot stand te brengen deze pagina ](../campaigns/create-campaign.md#configure).
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
 

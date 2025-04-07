@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: syntaxis, redacteur, reis
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Syntaxis van geavanceerde expressie-editor {#syntax}
 
-Basisbeginselen van syntaxis bij gebruik van de [Geavanceerde expressie-editor](expressionadvanced.md) worden hieronder weergegeven. Voorbeelden van het gebruik van de geavanceerde expressie-editor zijn beschikbaar in [deze pagina](advanced-editor-use-cases.md).
+De grondbeginselen van de syntaxis wanneer het gebruiken van de [ Geavanceerde uitdrukkingsredacteur ](expressionadvanced.md) zijn hieronder vermeld. De steekproeven van gebruik van de geavanceerde uitdrukkingsredacteur zijn beschikbaar op [ deze pagina ](advanced-editor-use-cases.md).
 
 ## Haakjes en prioriteit van expressie {#parentheses-and-expression-priority}
 
@@ -36,8 +36,8 @@ De expressies worden van links naar rechts geëvalueerd. De associatie bij reken
 
 Hier volgen de verschillende regels voor hoofdlettergevoeligheid:
 
-* Alle operatoren (en, enz.) moet in kleine letters worden geschreven. Bijvoorbeeld: _`<expression1>`en`<expression2>`_ is een geldige expressie terwijl de expressie _`<expression1>`EN`<expression2>`_ is niet.
-* Alle functienamen zijn hoofdlettergevoelig. Bijvoorbeeld: _inAudience()_ is geldig terwijl de functie _INAUDIENCE()_ is niet.
+* Alle operatoren (en, enz.) moeten in kleine letters worden geschreven. _`<expression1>`en`<expression2>`_ zijn bijvoorbeeld een geldige expressie, maar de expressie _`<expression1>`AND`<expression2>`_ niet.
+* Alle functienamen zijn hoofdlettergevoelig. Bijvoorbeeld, _inAudience ()_ is geldig terwijl de functie _INAUDIENCE ()_ niet is.
 * Veldverwijzingen en constante waarden zijn hoofdlettergevoelig: het zijn geen ingebouwde elementen van de taal (in tegenstelling tot operatoren en functies), maar worden ontworpen door de eindgebruiker.
 
 ## Type geretourneerde expressie {#returned-expression-type}

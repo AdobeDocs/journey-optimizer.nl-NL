@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: extern, bronnen, gegevens, configuratie, verbinding, derde
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1552'
 ht-degree: 51%
@@ -29,7 +29,7 @@ Met externe databronnen kunt u een verbinding maken met externe systemen, bijvoo
 
 >[!NOTE]
 >
->* De begeleiding wanneer het werken met externe systemen is vermeld in [ deze pagina ](../configuration/external-systems.md).
+>* De begeleiding wanneer het werken met externe systemen is vermeld op [ deze pagina ](../configuration/external-systems.md).
 >
 >* Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Voor meer informatie over reacties, zie deze [ sectie ](../action/action-response.md)
 

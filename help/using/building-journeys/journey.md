@@ -8,7 +8,7 @@ role: User
 level: Beginner, Intermediate
 keywords: reis, ontdek, begin
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Gebruik [!DNL Journey Optimizer] om in real time orchestratiefase samen te stell
 
 De Journey Optimizer-reisontwerper biedt alles wat marketers en reisartsen nodig hebben om meertraps 1:1-reizen langs kanalen te organiseren. Dit omvat een intuïtief belemmering-en-dalingscanvas om elke stap van de reis te ordenen, het doelpubliek te bepalen, en de berichten, de aanbiedingen, en de inhoud te omvatten over kanalen die doelpublieksleden gebaseerd op gedrag, contextuele gegevens, en bedrijfsgebeurtenissen zullen zien.
 
-Leer hoe te om uw eerste reis in [ te creëren en te ontwerpen deze pagina ](journey-gs.md).
+Leer hoe te om uw eerste reis op [ te creëren en te ontwerpen deze pagina ](journey-gs.md).
 
 ➡️ [ ontdekt Journey Optimizer in video ](#video)
 
@@ -50,7 +50,7 @@ Leer hoe u reizen kunt maken in de volgende gebruiksgevallen van begin tot eind:
 
 >[!NOTE]
 >
->De gidsen en de beperkingen van de reis zijn gedetailleerd in [ deze pagina ](../start/guardrails.md)
+>De de gidsen en beperkingen van de reis zijn gedetailleerd op [ deze pagina ](../start/guardrails.md)
 
 ## Hoe kan ik-video {#video}
 

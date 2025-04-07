@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: gegevens, beheer, platform
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -77,7 +77,7 @@ U kunt de gegevensflexibiliteit van [!DNL Journey Optimizer] gebruiken om te vol
 
 * **Aankopen en archiveringsmechanismen**: Het zuiveren van gegevens en archivering kan vrij worden bepaald en in [!DNL Adobe Journey Optimizer] worden geautomatiseerd om beleid van het gegevensbehoud te automatiseren. Het is mogelijk verschillende verouderingsstrategieën voor de verschillende gegevensentiteiten te definiëren. Exportmechanismen kunnen ook worden gedefinieerd om verouderde gegevens automatisch te exporteren voordat deze worden gewist of gearchiveerd.
 
-  De werkruimte van de Levenscyclus van Gegevens staat u toe om diverse taken van de gegevenslevenscyclus tot stand te brengen en te controleren, met inbegrip van het schrappen van consumentenidentiteiten en het plannen van datasettermijnen. Deze werkruimte is beschikbaar met het beveiligings- en privacyschild en het gezondheidsschild. Meer informatie vindt u [op deze pagina](../privacy/data-hygiene.md).
+  De werkruimte van de Levenscyclus van Gegevens staat u toe om diverse taken van de gegevenslevenscyclus tot stand te brengen en te controleren, met inbegrip van het schrappen van consumentenidentiteiten en het plannen van datasettermijnen. Deze werkruimte is beschikbaar met het beveiligings- en privacyschild en het gezondheidsschild. Leer meer op [ deze pagina ](../privacy/data-hygiene.md).
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:

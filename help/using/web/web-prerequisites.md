@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Er worden twee typen implementaties ondersteund waarmee u webkanaalcampagnes kun
   >
   >Zorg ervoor uw [ versie van SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/release-notes) {target="_blank"} 2.16 of hierboven is.
 
-* De hybride wijze - u kunt [ AEP Edge Network Server API ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) gebruiken {target="_blank"} om voor verpersoonlijkings server-kant te verzoeken; de reactie wordt verstrekt aan het Web SDK van Adobe Experience Platform om de wijzigingen cliënt-kant terug te geven. Leer meer in de Adobe Experience Platform [ API documentatie van de Server van Edge Network ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html) {target="_blank"}. U kunt meer over de hybride wijze te weten komen en sommige implementatiemonsters in [ controleren dit blogpost ](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41) {target="_blank"}.
+* Hybride wijze - u kunt de [ Server API van AEP Edge Network gebruiken API ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) {target="_blank"} om voor verpersoonlijkingsserver-kant te verzoeken; de reactie wordt verstrekt aan SDK van het Web van Adobe Experience Platform om de wijzigingen cliënt-kant terug te geven. Leer meer in de Adobe Experience Platform [ API documentatie van de Server van Edge Network ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html) {target="_blank"}. U kunt meer over de hybride wijze te weten komen en sommige implementatiemonsters in [ controleren dit blogpost ](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41) {target="_blank"}.
 
 >[!NOTE]
 >
@@ -126,7 +126,7 @@ De webervaring kan alleen correct worden geleverd als de volgende instellingen z
 
   Het gebruiken van de **insteekmodule van Edge Delivery** helpt u de inzichten verkrijgen nodig om uw binnenkomende implementaties effectief te begrijpen en problemen op te lossen.
 
-  [ Leer meer op de mening van Edge Delivery ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
+  [ leer meer over de mening van Edge Delivery ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
 
 ## Voorwaarden voor rapportage {#experiment-prerequisites}
 
@@ -140,7 +140,7 @@ Leer hoe te om datasets voor het melden in [ toe te voegen deze sectie ](../repo
 >
 >De dataset wordt gebruikt read-only door het [!DNL Journey Optimizer] rapporteringssysteem en beïnvloedt gegevensinzameling of gegevensopname niet.
 
-Als u **niet** gebruikend de volgende vooraf bepaalde [ gebiedsgroepen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group) {target="_blank"} voor uw datasetschema bent: `AEP Web SDK ExperienceEvent` en `Consumer Experience Event` (zoals bepaald in [ deze pagina ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups) {target="_blank"}), zorg ervoor om de volgende gebiedsgroepen toe te voegen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, en `Web Details`. Deze zijn nodig door [!DNL Journey Optimizer] -rapporten, omdat ze bijhouden aan welke campagnes en reizen elk profiel deelneemt.
+Als u **niet** gebruikend de volgende vooraf bepaalde [ gebiedsgroepen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group) {target="_blank"} voor uw datasetschema bent: `AEP Web SDK ExperienceEvent` en `Consumer Experience Event` (zoals bepaald op [ deze pagina ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups) {target="_blank"}), zorg ervoor om de volgende gebiedsgroepen toe te voegen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, en `Web Details`. Deze zijn nodig door [!DNL Journey Optimizer] -rapporten, omdat ze bijhouden aan welke campagnes en reizen elk profiel deelneemt.
 
 [Meer informatie over rapportconfiguratie](../reports/reporting-configuration.md)
 

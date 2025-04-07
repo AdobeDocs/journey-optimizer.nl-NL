@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 5f48c3df14768e699e174e5a3539438e9b774e1a
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 4%
@@ -28,12 +28,12 @@ ht-degree: 4%
 >title="Journeys"
 >abstract="Ontwerpen van klantritten om persoonlijke, contextuele ervaringen te bieden. Met Journey Optimizer kunt u in real-time gebruikmaken van het orkestgebruik en contextuele gegevens opslaan in gebeurtenissen of gegevensbronnen. Het **Overzicht** lusje toont een dashboard met zeer belangrijke metriek met betrekking tot uw reizen. Het **doorbladert** lusje toont de lijst van bestaande reizen."
 
-Adobe Journey Optimizer bevat een omnichannel orchestration canvas dat marketers in staat stelt marketingactiviteiten te harmoniseren met een-op-een-klantenservice. Met de gebruikersinterface kunt u activiteiten van het palet naar het canvas slepen om uw reis te maken. Het interface van de reisgebruiker wordt gedetailleerd in [ deze pagina ](journey-ui.md).
+Adobe Journey Optimizer bevat een omnichannel orchestration canvas dat marketers in staat stelt marketingactiviteiten te harmoniseren met een-op-een-klantenservice. Met de gebruikersinterface kunt u activiteiten van het palet naar het canvas slepen om uw reis te maken. Het interface van de reisgebruiker is gedetailleerd op [ deze pagina ](journey-ui.md).
 
 ![ steekproef van wegcanvas ](assets/journey38.png)
 
 
-De belangrijkste stappen om een reis tot stand te brengen zijn gedetailleerd in deze pagina. Zij worden als volgt gestroomlijnd:
+De belangrijkste stappen om een reis tot stand te brengen zijn gedetailleerd op deze pagina. Zij worden als volgt gestroomlijnd:
 
 ![ stappen van de reisverwezenlijking: creeer, ontwerp, test, en publiceer ](assets/journey-creation-process.png)
 
@@ -64,7 +64,7 @@ Als gegevensingenieur, zijn de stappen om uw reizen, met inbegrip van Gegevensbr
 
 >[!NOTE]
 >
->De gidsen en de beperkingen van de reis zijn gedetailleerd in [ deze pagina ](../start/guardrails.md)
+>De de gidsen en beperkingen van de reis zijn gedetailleerd op [ deze pagina ](../start/guardrails.md)
 
 ## Een journey maken {#jo-build}
 
@@ -74,7 +74,7 @@ Voer de volgende stappen uit om een reis in meerdere stappen te maken:
 
 1. Klik op de knop **[!UICONTROL Create Journey]** om een nieuwe rit te maken.
 
-1. Bewerk het configuratievenster van de rit om de naam van de rit te definiëren en de eigenschappen ervan in te stellen. Leer hoe te om de eigenschappen van uw reis in [ te plaatsen deze pagina ](journey-properties.md).
+1. Bewerk het configuratievenster van de rit om de naam van de rit te definiëren en de eigenschappen ervan in te stellen. Leer hoe te om de eigenschappen van uw reis op [ te plaatsen deze pagina ](journey-properties.md).
 
    ![](assets/jo-properties.png)
 

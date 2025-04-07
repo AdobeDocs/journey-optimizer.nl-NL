@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 0%
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Aan de slag met waarschuwingen {#alerts}
 
-Wanneer het bouwen van uw reizen en campagnes, gebruik de **Alarm** knoop om fouten te controleren en op te lossen alvorens hen uit te voeren of te publiceren. Leer hoe te om uw reizen in [ problemen op te lossen deze pagina ](../building-journeys/troubleshooting.md). Leer hoe te om uw campagnes in [ te herzien deze pagina ](../campaigns/review-activate-campaign.md).
+Wanneer het bouwen van uw reizen en campagnes, gebruik de **Alarm** knoop om fouten te controleren en op te lossen alvorens hen uit te voeren of te publiceren. Leer hoe te om uw reizen op [ problemen op te lossen deze pagina ](../building-journeys/troubleshooting.md). Leer hoe te om uw campagnes op [ te herzien deze pagina ](../campaigns/review-activate-campaign.md).
 
-Je kunt je ook abonneren op Adobe Journey Optimizer-systeemwaarschuwingen, zoals op deze pagina wordt beschreven.
+Je kunt je ook abonneren op Adobe Journey Optimizer-systeemwaarschuwingen zoals op deze pagina wordt beschreven.
 
 ## Toegang tot en abonnement nemen op waarschuwingen {#alerting-capabilities}
 
@@ -75,7 +75,7 @@ De I/O naam van het gebeurtenisabonnement die aan **beantwoordt las de Trekker v
 
 ## Problemen oplossen {#alert-troubleshooting}
 
-Om **te problemen op te lossen las het 1} alarm van het publiek {, controleer uw publiekstelling in de interface van het Experience Platform.**
+Om **te problemen op te lossen leest het 1} alarm van het publiek {, controleer uw publiekstelling in de interface van Experience Platform.**
 
 ![](assets/alert-troubleshooting-0.png)
 

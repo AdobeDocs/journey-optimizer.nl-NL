@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -75,7 +75,7 @@ Het soort reis hangt af van de activiteiten die in die reis worden gebruikt. Het
 * **[!UICONTROL Read audience]** - Bij Lezen kijkreizen nemen alle personen in het publiek de reis in en ontvangen ze de berichten die in uw reis zijn opgenomen.  [Meer informatie](read-audience.md).
 
 
-Leer meer over reistypes en bijbehorend ingangsbeheer in [ deze pagina ](entry-management.md).
+Leer meer over reistypes en bijbehorend ingangsbeheer op [ deze pagina ](entry-management.md).
 
 ## Reisstatussen {#journey-statuses}
 
@@ -128,7 +128,7 @@ Wanneer u een nieuwe versie van een reis publiceert, beëindigt de vorige versie
 
 >[!NOTE]
 >
->Specifieke garanties en beperkingen zijn van toepassing op de versiering van de reizen. Meer informatie vindt u [op deze pagina](../start/guardrails.md#journey-versions-journey-versions-g).
+>Specifieke garanties en beperkingen zijn van toepassing op de versiering van de reizen. Leer meer op [ deze pagina ](../start/guardrails.md#journey-versions-journey-versions-g).
 
 ## Een reis dupliceren {#duplicate-a-journey}
 

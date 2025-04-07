@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: activiteit, reis, lezen, publiek, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1654'
 ht-degree: 1%
@@ -46,7 +46,7 @@ Neem als voorbeeld het &quot;toepassings het openen en controle van de Luma&quot
 * Het publiek [ werd ingevoerd uit een Csv- dossier ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) of resulterend uit [ samenstellingswerkschema&#39;s ](../audience/get-started-audience-orchestration.md) kan in de **Gelezen activiteit van het Publiek** worden geselecteerd. Deze doelgroepen zijn niet beschikbaar in de **activiteit van de Kwalificatie van het publiek 0}.**
 
 
-De begeleiding met betrekking tot **Gelezen de activiteit van het publiek** wordt vermeld in [ deze pagina ](../start/guardrails.md#read-segment-g).
+De begeleiding met betrekking tot **Gelezen de activiteit van het publiek** is vermeld op [ deze pagina ](../start/guardrails.md#read-segment-g).
 
 
 ## De activiteit configureren {#configuring-segment-trigger-activity}

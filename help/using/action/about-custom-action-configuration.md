@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 2af3cef357bf68091d9b8b5d2750e73a290bc682
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1638'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 2%
 
 Als u een derdesysteem gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, gebruik douaneacties om zijn verbinding aan uw reis te vormen. Bijvoorbeeld kunt u met de volgende systemen met douaneacties verbinden: Epsilon, Slack, [ Adobe Developer ](https://developer.adobe.com) {target="_blank"}, Vuurbasis, enz.
 
-Aangepaste acties zijn aanvullende acties die door technische gebruikers worden gedefinieerd en beschikbaar worden gesteld aan verkopers. Als deze zijn geconfigureerd, worden ze weergegeven in het linkerpalet van uw reis, in de categorie **[!UICONTROL Action]** . Meer informatie vindt u [op deze pagina](../building-journeys/about-journey-activities.md#action-activities).
+Aangepaste acties zijn aanvullende acties die door technische gebruikers worden gedefinieerd en beschikbaar worden gesteld aan verkopers. Als deze zijn geconfigureerd, worden ze weergegeven in het linkerpalet van uw reis, in de categorie **[!UICONTROL Action]** . Leer meer op [ deze pagina ](../building-journeys/about-journey-activities.md#action-activities).
 
 ## Beperkingen{#custom-actions-limitations}
 
-De acties van de douane komen met een paar beperkingen die in [ worden vermeld deze pagina ](../start/guardrails.md).
+De acties van de douane komen met een paar beperkingen die op [ worden vermeld deze pagina ](../start/guardrails.md).
 
-In parameters voor aangepaste handelingen kunt u een eenvoudige verzameling en een verzameling objecten doorgeven. Leer meer over inzamelingsbeperkingen in [ deze pagina ](../building-journeys/collections.md#limitations).
+In parameters voor aangepaste handelingen kunt u een eenvoudige verzameling en een verzameling objecten doorgeven. Leer meer over inzamelingsbeperkingen op [ deze pagina ](../building-journeys/collections.md#limitations).
 
 De parameters voor aangepaste handelingen hebben een verwachte indeling (bijvoorbeeld tekenreeks, decimaal, enz.). U moet deze verwachte formaten zorgvuldig respecteren. Leer meer in dit [ gebruiksgeval ](../building-journeys/collections.md).
 

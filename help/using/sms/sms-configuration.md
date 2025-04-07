@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -57,6 +57,6 @@ Voor uw gebruik van tekstberichten en MMS-services gelden aanvullende voorwaarde
 
 >[!CAUTION]
 >
->Als u SMS-subdomeinen wilt openen en bewerken, moet u over de machtiging **[!UICONTROL Manage SMS Subdomains]** in de productiesandbox beschikken. Leer meer over toestemmingen in [ deze pagina ](../administration/high-low-permissions.md#administration-permissions).
+>Als u SMS-subdomeinen wilt openen en bewerken, moet u over de machtiging **[!UICONTROL Manage SMS Subdomains]** in de productiesandbox beschikken. Leer meer over toestemmingen op [ deze pagina ](../administration/high-low-permissions.md#administration-permissions).
 >
 

@@ -5,7 +5,7 @@ feature: A/B Testing, Experimentation
 role: User
 level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 0%
@@ -20,11 +20,11 @@ Deze pagina is bedoeld voor technische gebruikers.
 
 ## Conversiesnelheid
 
-de omrekeningskoers of **gemiddelde**, μ<sub>ν</sub> voor elke behandeling `ν` in een experiment wordt gedefinieerd als een verhouding tussen de som van de metrische waarden en het aantal profielen dat aan die meting is toegewezen, N<sub>ν</sub>:
+De omzettingspercentage of **gemiddelde**, wordt ν <sub> </sub> voor elke behandeling `ν` in een Experiment bepaald als verhouding van de som metrisch aan het aantal profielen die aan metrisch, N <sub> worden toegewezen ν </sub>:
 
 ![](assets/statistical_1.png){width="125" align="center"}
 
-Hier, Y<sub>ν</sub> is de waarde van de objectieve metrische waarde voor elk profiel `i`, die is toegewezen aan een bepaalde variant *ν*. Wanneer de objectieve metrische waarde een &quot;unieke&quot; metrische waarde is, d.w.z., is het een telling van het aantal profielen dat een bepaalde actie doet, wordt dit getoond als omzettingspercentage, en geformatteerd als percentage. Wanneer metrisch een &quot;telling&quot;of &quot;totale waarde&quot;metrisch (b.v. opent e-mail, opbrengst respectievelijk) is, wordt de gemiddelde schatting voor metrisch getoond als &quot;Aantal per Profiel&quot;, of &quot;Waarde per Profiel&quot;.
+Hier, is Y <sub> ν </sub> de waarde van objectieve metrisch voor elk profiel `i`, dat aan een bepaalde variant *ν* is toegewezen. Wanneer de objectieve metrische waarde een &quot;unieke&quot; metrische waarde is, d.w.z., is het een telling van het aantal profielen dat een bepaalde actie doet, wordt dit getoond als omzettingspercentage, en geformatteerd als percentage. Wanneer metrisch een &quot;telling&quot;of &quot;totale waarde&quot;metrisch (b.v. opent e-mail, opbrengst respectievelijk) is, wordt de gemiddelde schatting voor metrisch getoond als &quot;Aantal per Profiel&quot;, of &quot;Waarde per Profiel&quot;.
 
 Waar nodig wordt de standaardafwijking van het monster gebruikt met de uitdrukking:
 
@@ -32,7 +32,7 @@ Waar nodig wordt de standaardafwijking van het monster gebruikt met de uitdrukki
 
 ## Optillen {#lift}
 
-De lift tussen een variant  *ν* en de besturingsvariant  *ν<sub>0</sub>* is de relatieve &quot;delta&quot; in omrekeningskoersen, gedefinieerd als de berekening hieronder waarbij de individuele omrekeningskoersen zoals hierboven gedefinieerd zijn. Dit wordt weergegeven als een percentage.
+De lift tussen een variant *ν*, en de controlevariant *ν <sub> 0</sub>* is de relatieve &quot;delta&quot;in omzettingspercentages, die als berekening hieronder worden bepaald waar de individuele omzettingspercentages hierboven worden bepaald. Dit wordt weergegeven als een percentage.
 
 ![](assets/statistical_3.png){width="125" align="center"}
 
@@ -42,13 +42,13 @@ De lift tussen een variant  *ν* en de besturingsvariant  *ν<sub>0</sub>* is de
 
 In het deelvenster Journey Experimentation worden &#39;op elk moment geldige&#39; betrouwbaarheidsintervallen (betrouwbaarheidsreeksen) weergegeven voor afzonderlijke behandelingen in een experiment.
 
-De betrouwbaarheidsvolgorde voor een individuele variant `ν` is van cruciaal belang voor de statistische methodologie die door de Adobe wordt gebruikt. U kunt de definitie ervan vinden in [deze pagina](https://doi.org/10.48550/arXiv.2103.06476) (gereproduceerd uit [Waudby-Smith et al.]).
+De betrouwbaarheidsvolgorde voor een individuele variant `ν` staat centraal in de statistische methodologie die door Adobe wordt gebruikt. U kunt zijn definitie op [ vinden deze pagina ](https://doi.org/10.48550/arXiv.2103.06476) (die van [ Waudby-Smith en al.] wordt gereproduceerd).
 
-Als u een doelparameter wilt schatten `ψ` De conversiesnelheid van een variant in een experiment, de tweedeling tussen een sequentie van &#39;fixed-time&#39; Trust Intervals (CI&#39;s) en een tijduniforme vertrouwensreeks (CS) kunnen als volgt worden samengevat:
+Als u geïnteresseerd bent in het schatten van een doelparameter `ψ` zoals de conversiesnelheid van een variant in een Experiment, kan de tweedeling tussen een sequentie van &#39;fixed-time&#39; Trust Intervals (CI&#39;s) en een time-uniform Vertrouwensreeks (CS) als volgt worden samengevat:
 
 ![](assets/statistical_4.png){width="500" align="center"}
 
-Voor een regelmatig Interval van het Vertrouwen, de probabilistische garantie dat de doelparameter binnen de waaier van waarden Ċ ligt<sub>n</sub> is slechts geldig voor één vaste waarde van `n` waarbij `n` het aantal monsters). Omgekeerd geldt voor een betrouwbaarheidsreeks dat altijd/alle waarden van de monstergrootte `t`De &quot;werkelijke&quot; waarde van de parameter van belang ligt binnen de grenzen.
+Voor een regelmatig Interval van het Vertrouwen, is de probabilistische garantie dat de doelparameter binnen de waaier van waarden Ċ <sub> n </sub> geldig slechts bij één enkele vaste waarde van `n` (waar `n` het aantal steekproeven is). Omgekeerd geldt voor een reeks vertrouwen dat de waarde &#39;true&#39; van de interesseparameter altijd binnen de grenzen ligt. Dit geldt voor alle waarden van de samplegrootte `t` .
 
 Dit heeft een aantal diepgaande implicaties die zeer belangrijk zijn voor online tests:
 
@@ -56,55 +56,55 @@ Dit heeft een aantal diepgaande implicaties die zeer belangrijk zijn voor online
 * Experimenten kunnen continu worden bewaakt, adaptief worden gestopt of voortgezet.
 * De type-I fout wordt gecontroleerd bij alle stoptijden, met inbegrip van gegeven-afhankelijke tijden.
 
-Adobe maakt gebruik van Asymptotic Betrouwbaarheidssequences, die voor een individuele variant met gemiddelde schatting `μ` heeft de vorm:
+Adobe maakt gebruik van Asymptotic Trust Sequences, dat voor een individuele variant met een gemiddelde schatting `μ` de volgende vorm heeft:
 
 ![](assets/statistical_5.png){width="300" align="center"}
 
 Waarbij:
 
-* `N` het aantal eenheden voor die variant.
-* `σ` een steekproefschatting van de standaardafwijking (hierboven gedefinieerd).
-* `α` het gewenste niveau van type-I-fout (of de kans op een onjuiste dekking) is. Dit is altijd ingesteld op 0,05.
-* μ<sup>2</sup> is een constante waarmee de samplegrootte wordt ingesteld waarbij de CS het strengst is. Adobe heeft gekozen voor een universele waarde van μn<sup>2</sup> = 10<sup>-2,8</sup>, die geschikt is voor de soorten omrekeningskoersen die in online-experimenten worden waargenomen.
+* `N` is het aantal eenheden voor die variant.
+* `σ` is een steekproefschatting van de standaardafwijking (hierboven gedefinieerd).
+* `α` is het gewenste niveau van type-I fout (of wandekkingswaarschijnlijkheid). Dit is altijd ingesteld op 0,05.
+* <sup>  </sup> is een constante die de steekproefgrootte aanpast waarbij CS strak is. Adobe heeft een universele waarde van <sup> 2 </sup> = 10 <sup> - 2.8 </sup> gekozen, die voor de soorten omzettingspercentages aangewezen die in online experimenten worden gezien.
 
 ## Vertrouwen {#confidence}
 
-Het vertrouwen dat door Adobe wordt gebruikt is een &quot;op elk moment geldig&quot; vertrouwen, dat wordt verkregen door de betrouwbaarheidssequentie voor het gemiddelde behandelingseffect om te keren.
+Het door Adobe gebruikte vertrouwen is een &quot;op elk moment geldig&quot; vertrouwen, dat wordt verkregen door de betrouwbaarheidsvolgorde voor het gemiddelde behandelingseffect om te keren.
 
-Om precies te zijn, in twee monsters *t* de test op het verschil in gemiddelden tussen twee varianten bestaat uit een 1:1-afbeelding tussen de *p*-waarde voor deze test en het betrouwbaarheidsinterval voor het verschil in gemiddelden. Naar analogie geldt een tijdsduur *p*-value kan worden verkregen door de (op elk moment geldige) betrouwbaarheidssequentie voor de gemiddelde schatting van het effect van de behandeling om te keren:
+Om precies te zijn, in een twee steekproef *t* test voor het verschil in middel tussen twee varianten, is er een 1:1 afbeelding tussen *p* -waarde voor deze test, en het betrouwbaarheidsinterval voor het verschil in middelen. Door analogie, kan een op elk ogenblik geldige *p* -waarde worden verkregen door de (om het even welk tijd geldige) vertrouwensopeenvolging voor de gemiddelde schatter van het behandelingseffect om te keren:
 
 ![](assets/statistical_6.png){width="200" align="center"}
 
-Hier, *E* is een verwachting. De gebruikte schatter is een inverse propensiteit gewogen (IPW) schatter. Overweeg N = N<sub>0</sub> +N<sub>1</sub> eenheden, de varianttoewijzingen voor elke eenheid `i` geëtiketteerd door A<sub>i</sub>=0,1 indien de eenheid is toegewezen aan variant `ν`=0,1. Indien de gebruikers met een vaste waarschijnlijkheid (neiging) worden toegewezen π<sub>0</sub>, (1-π<sub>0</sub>), en de uitkomst is Y<sub>i</sub>Vervolgens is de IPW-schatting voor het gemiddelde behandelingseffect:
+Hier, *E* is een verwachting. De gebruikte schatter is een inverse propensiteit gewogen (IPW) schatter. Overweeg N = N <sub> 0 </sub> +N <sub> 1 </sub> eenheden, de varianttoewijzingen voor elke eenheid `i` geëtiketteerd door A <sub> i </sub>=0,1 als de eenheid aan variant `ν`=0,1 wordt toegewezen. Als de gebruikers met vaste waarschijnlijkheid (neiging) π <sub> </sub>, (1-π <sub> 0 </sub>) worden toegewezen, en hun resultaat metrisch is Y <sub> i </sub>, dan is de IPW schatter voor het gemiddelde behandelingseffect:
 
 ![](assets/statistical_12.png){width="400" align="center"}
 
-Er wordt op gewezen dat *f* Waudby-Smith et al. toonde aan dat de Vertrouwensvolgorde voor deze schatter:
+Opvallend dat *f* de invloedsfunctie, Waudby-Smith e.a. is. toonde aan dat de Vertrouwensvolgorde voor deze schatter:
 
 ![](assets/statistical_7.png){width="500" align="center"}
 
-De toewijzingswaarschijnlijkheid vervangen door de empirische schattingen: π<sub>0</sub> = N<sub>0</sub>/N, kan de variantieterm worden uitgedrukt in gemiddelde ramingen van de individuele steekproef.<sub>0,1</sub> en standaardafwijkingsschattingen, σ<sub>0,1</sub> als:
+Vervangend de toewijzingswaarschijnlijkheid door zijn empirische ramingen: π <sub> 0 </sub> = N <sub> 0 </sub>/N, kan de variatieterm in termen van individuele steekproefgemiddelde ramingen worden uitgedrukt <sub> 0,1 </sub> en standaarddeviatieramingen, σ <sub> 0,1 </sub> als:
 
 ![](assets/statistical_8.png){width="500" align="center"}
 
-Herhaal vervolgens dat voor een reguliere hypothesetest met teststatistiek z = (μ g)<sub>A</sub>-μ<sub>0</sub>/σ<sub>p</sub>) er een verband bestaat tussen `p`-waarden en betrouwbaarheidsintervallen:
+Daarna, herinner eraan dat voor een regelmatige hypothesetest met teststatistiek z = (μ<sub> A </sub> - /σ <sub> 0 </sub> /<sub> p </sub>) er een correspondentie tussen `p` - waarden en betrouwbaarheidsintervallen is:
 
 ![](assets/statistical_9.png){width="500" align="center"}
 
-waar `Φ` de cumulatieve verdeling van de normale waarde. Voor altijd geldig `p`-waarden, gezien de betrouwbaarheidsvolgorde voor het hierboven gedefinieerde gemiddelde behandelingseffect, kunnen we deze relatie omkeren:
+waarbij `Φ` de cumulatieve distributie van de standaard normaal is. Op elk moment kunnen geldige `p` -waarden, gezien de betrouwbaarheidsvolgorde voor het gemiddelde behandelingseffect zoals hierboven gedefinieerd, deze relatie omkeren:
 
 ![](assets/statistical_10.png){width="600" align="center"}
 
-Tot slot de **altijd geldig vertrouwen** is:
+Tot slot is het **op elk ogenblik geldige vertrouwen**:
 
 ![](assets/statistical_11.png){width="200" align="center"}
 
 ## Een experiment declareren als &quot;Sluiten&quot;
 
-Voor een experiment met twee armen wordt in het deelvenster Experimentatie van Journey Optimizer een bericht weergegeven dat een experiment is **overtuigend** wanneer het geldige betrouwbaarheidsinterval meer dan 95% bedraagt (d.w.z. `p`-waarde is lager dan 5%).
+Voor een Experimenteer met twee armen, toont het paneel van de Experimentatie van Journey Optimizer een bericht verklarend dat een Experiment **** overtuigend is wanneer het op om het even welke tijd geldige vertrouwen 95% overschrijdt (d.w.z., is de op om het even welk ogenblik geldige `p` - waarde minder dan 5%).
 
-Als er meer dan twee varianten aanwezig zijn, wordt de Bonferoni-correctie toegepast om het gezinssgewijze foutenpercentage te regelen. Voor een experiment met `K` en een enkele basisbehandeling (controle) `K-1` onafhankelijke hypothesetests. De Bonferoni-correctie betekent dat wij de nulhypothese verwerpen dat de controle en een bepaalde variant gelijke middelen hebben, als dat ooit zo is `p`-waarde (hierboven gedefinieerd) is lager dan een drempelwaarde van `α/(K-1)`.
+Als er meer dan twee varianten aanwezig zijn, wordt de Bonferoni-correctie toegepast om het gezinssgewijze foutenpercentage te regelen. Voor een experiment met `K` -behandelingen en een enkele basisbehandeling (controle) zijn er `K-1` onafhankelijke hypothesetests. De Bonferoni-correctie betekent dat we de nulhypothese verwerpen dat het besturingselement en een bepaalde variant gelijke middelen hebben, als de op elk moment geldige `p` -waarde (hierboven gedefinieerd) onder een drempelwaarde van `α/(K-1)` ligt.
 
 ## Best presterende arm
 
-Wanneer een experiment overtuigend wordt verklaard, wordt de best presterende arm getoond. Dit is de arm met de beste prestaties (hoogste gemiddelde of omzettingspercentage), onder de Reeks die de controle omvat, en alle armen die een `p`-waarde die onder de Bonferonni-drempel ligt.
+Wanneer een experiment overtuigend wordt verklaard, wordt de best presterende arm getoond. Dit is de arm met de beste prestaties (hoogste gemiddelde of conversiesnelheid), onder de Set die het besturingselement bevat, en alle armen met een `p` -waarde die onder de Bonferonni-drempel ligt.

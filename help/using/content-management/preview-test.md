@@ -5,7 +5,7 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 55cc584e2dfcfb9de8784069c7d635a8e4e47929
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -41,7 +41,7 @@ U moet de machtiging **[!DNL Manage Simulate Content]** opnemen in het productpr
 >
 >* Wanneer u een bericht voorvertoont of proefdrukken verzendt, worden alleen profielverpersoonlijkingsgegevens weergegeven. Personalization op basis van contextgegevens, zoals informatie over gebeurtenissen, kan alleen worden getest in het kader van een reis. Leer hoe te om verpersoonlijking in [ te testen dit gebruiksgeval ](../personalization/personalization-use-case.md).
 >
->* Bij het simuleren of renderen van proefdrukken voor e-mails die meerdere voorwaardelijke varianten bevatten, kan Journey Optimizer meer verwerkingstijd nodig hebben. Als u time-outs of foutberichten ervaart, kunt u overwegen het totale aantal varianten te verminderen of voorwaardelijke regels te vereenvoudigen. Leer meer over voorwaardelijke inhoud in [ deze pagina ](../personalization/dynamic-content.md).
+>* Bij het simuleren of renderen van proefdrukken voor e-mails die meerdere voorwaardelijke varianten bevatten, kan Journey Optimizer meer verwerkingstijd nodig hebben. Als u time-outs of foutberichten ervaart, kunt u overwegen het totale aantal varianten te verminderen of voorwaardelijke regels te vereenvoudigen. Leer meer over voorwaardelijke inhoud op [ deze pagina ](../personalization/dynamic-content.md).
 
 
 ## Testen met testprofielen of gegevens uit de voorbeeldinvoer {#methods}

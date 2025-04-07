@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: replaceAll, function, expression, trip
 exl-id: 5543e123-a5f4-4153-8709-97eeb9be83ba
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 6%
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ De vervanging vindt plaats vanaf het begin van de tekenreeks tot het einde. Als 
 
 ## Categorie
 
-Tekenreeks
+String
 
 ## Functiesyntaxis
 
@@ -46,6 +46,6 @@ Retourneert een tekenreeks.
 
 `replaceAll("Hello World", "l", "x")`
 
-Retourneert &quot;Hexxo Worxd&quot;.
+Retourneert &quot;hexo Worxd&quot;.
 
-Omdat de doelparameter een RegExp is, moet u, afhankelijk van de tekenreeks die u wilt vervangen, mogelijk enkele tekens verwijderen. Raadpleeg het voorbeeld in [deze pagina](../functions/functionreplace.md#example_2).
+Omdat de doelparameter een RegExp is, moet u, afhankelijk van de tekenreeks die u wilt vervangen, mogelijk enkele tekens verwijderen. Verwijs naar het voorbeeld op [ deze pagina ](../functions/functionreplace.md#example_2).

@@ -7,7 +7,7 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 13cbb0877326b772c3750bd3339e21eee5c3f323
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 1%
@@ -27,16 +27,16 @@ Meer informatie over toegangsbeheer vindt u op de volgende pagina&#39;s:
 1. **creeer zandbakken** om uw instanties in afzonderlijke, geïsoleerde virtuele milieu&#39;s te verdelen. **Sandboxes** wordt gecreeerd in [!DNL Journey Optimizer]. Leer meer in de [ zandbakken ](../../administration/sandboxes.md) sectie.
 
    >[!NOTE]
-   >Als a **Beheerder van het Systeem**, als u niet het **[!UICONTROL Sandboxes]** menu in [!DNL Journey Optimizer] kunt zien, moet u uw toestemmingen bijwerken. Leer hoe te om uw rol in [ bij te werken deze pagina ](../../administration/permissions.md#edit-product-profile).
+   >Als a **Beheerder van het Systeem**, als u niet het **[!UICONTROL Sandboxes]** menu in [!DNL Journey Optimizer] kunt zien, moet u uw toestemmingen bijwerken. Leer hoe te om uw rol op [ bij te werken deze pagina ](../../administration/permissions.md#edit-product-profile).
 
 1. **begrijp rollen**. Rollen zijn een reeks eenheidrechten die gebruikers toegang tot bepaalde functies of objecten in de interface biedt. Leer meer in de [ uit-van-de-doos rollen ](../../administration/ootb-product-profiles.md) sectie.
 
 1. **plaats toestemmingen** voor rollen, met inbegrip van **Sandboxes**, en geef toegang tot uw teamleden door hen aan verschillende rollen toe te wijzen. Machtigingen zijn eenheidrechten waarmee u de machtigingen kunt definiëren die aan **[!UICONTROL Role]** zijn toegewezen. Elke toestemming wordt verzameld onder mogelijkheden, bijvoorbeeld Reis of Aanbiedingen, die de verschillende functionaliteiten of voorwerpen in [!DNL Journey Optimizer] vertegenwoordigen. Leer meer in de [ niveaus van de Toestemming ](../../administration/high-low-permissions.md) sectie.
 
-Bovendien moet u gebruikers toevoegen die toegang tot Assets Essentials aan de **Gebruikers van de Assets Essentials Consumenten** of **gebruikers van Assets Essentials** rollen nodig hebben. [ las meer in de documentatie van Assets Essentials ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html) {target="_blank"}.
+Bovendien moet u gebruikers toevoegen die toegang tot de Hoofdzaak van Activa aan de **Hoofdzaak van Activa Consumenten** of/en **de Gebruikers van de Hoofdzaak van Activa** rollen nodig hebben. [ las meer in de documentatie van de Hoofdzaak van Activa ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html) {target="_blank"}.
 
 >[!NOTE]
->Voor Journey Optimizer-producten die zijn verkregen vóór 6 januari 2022, moet u [!DNL Adobe Experience Manager Assets Essentials] implementeren voor uw organisatie. Leer meer in [ opstellen Assets Essentials ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html) {target="_blank"} sectie.
+>Voor Journey Optimizer-producten die zijn verkregen vóór 6 januari 2022, moet u [!DNL Adobe Experience Manager Assets Essentials] implementeren voor uw organisatie. Leer meer in [ opstellen de Hoofdzaak van Activa ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html) {target="_blank"} sectie.
 
 Wanneer u [!DNL Journey Optimizer] voor het eerst opent, beschikt u over een productiesandbox en kunt u een bepaald aantal IP&#39;s toewijzen, afhankelijk van uw contract.
 
@@ -74,4 +74,4 @@ Voer de onderstaande stappen uit:
 
    * De [ lijst van gewenste personen ](../../configuration/allow-list.md) laat u toe om individuele e-mailadressen of domeinen te specificeren die de enige ontvangers of domeinen zullen zijn die worden gemachtigd om de e-mails te ontvangen u van een specifieke zandbak verzendt. Dit kan voorkomen dat u per ongeluk e-mailberichten naar de adressen van de echte klant stuurt wanneer u zich in een testomgeving bevindt. Leer hoe te [ om de lijst van gewenste personen ](../../configuration/allow-list.md) toe te laten.
 
-   Leer meer over leveringsbaarheidsbeheer in [!DNL Adobe Journey Optimizer] [ in deze pagina ](../../reports/deliverability.md).
+   Leer meer over leveringsbaarheidsbeheer in [!DNL Adobe Journey Optimizer] [ op deze pagina ](../../reports/deliverability.md).

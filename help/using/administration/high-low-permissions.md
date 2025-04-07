@@ -9,7 +9,7 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: machtiging, hoog niveau, laag niveau, profiel, beheerconsole
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1063'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 Elke rol bestaat uit machtigingen waarmee gebruikers toegang hebben tot de verschillende functies.
 Zij kunnen in twee types worden verdeeld:
 
-* **toestemming op hoog niveau**: vertegenwoordigt de verschillende toestemmingen die aan **[!UICONTROL Role]**, zoals **[!DNL Publish journeys]** en **[!DNL Manage subdomains delegation]** kunnen worden toegewezen. Machtigingen op hoog niveau omvatten machtigingen op laag niveau. De toestemmingen op hoog niveau worden gedetailleerd in [ deze pagina ](ootb-permissions.md).
+* **toestemming op hoog niveau**: vertegenwoordigt de verschillende toestemmingen die aan **[!UICONTROL Role]**, zoals **[!DNL Publish journeys]** en **[!DNL Manage subdomains delegation]** kunnen worden toegewezen. Machtigingen op hoog niveau omvatten machtigingen op laag niveau. De toestemmingen op hoog niveau zijn gedetailleerd op [ deze pagina ](ootb-permissions.md).
 
 * **laagvlakke toestemming**: vertegenwoordigt de verschillende toestemmingen die uit de toestemming op hoog niveau komen.
 

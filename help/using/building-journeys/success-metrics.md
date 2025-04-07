@@ -11,7 +11,7 @@ keywords: publiceren, reizen, live, geldigheid, controle
 hide: true
 hidefromtoc: true
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: 48ef8d42057ffe51c27221c2176192d4e637fb96
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 1%
@@ -70,7 +70,7 @@ Elke metrisch komt met een vastgestelde attributie die bepaalt welke aanraakpunt
 
   Met Journey Optimizer- en Customer Journey Analytics-licenties kunt u aangepaste metriek maken met specifieke attributie-instellingen of de kenmerken van de ingebouwde metriek wijzigen.
 
-  Leer meer op [ modellen van de Attributie ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
+  Leer meer over [ modellen van de Attributie ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
 
 ## Uw metrische gegevens voor reizen toewijzen {#assign}
 
@@ -78,7 +78,7 @@ Volg de onderstaande stappen om uw metrische gegevens over de reis te volgen:
 
 1. Klik in het menu **[!UICONTROL Journeys]** op **[!UICONTROL Create Journey]** .
 
-1. Bewerk het configuratievenster van de rit om de naam van de rit te definiëren en de eigenschappen ervan in te stellen. Leer hoe te om de eigenschappen van uw reis in [ te plaatsen deze pagina ](../building-journeys/journey-properties.md).
+1. Bewerk het configuratievenster van de rit om de naam van de rit te definiëren en de eigenschappen ervan in te stellen. Leer hoe te om de eigenschappen van uw reis op [ te plaatsen deze pagina ](../building-journeys/journey-properties.md).
 
 1. Kies de **[!UICONTROL Journey metrics]** die wordt gebruikt om de effectiviteit van uw reis te meten.
 

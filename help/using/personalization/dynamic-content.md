@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, editor, dynamic, content
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 98cc28a942626576666a3f0f3cc8ee7b50c2354c
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Met Adobe Journey Optimizer kunt u voorwaardelijke regels die in de bibliotheek zijn gemaakt, gebruiken om dynamische inhoud aan uw berichten toe te voegen.
 
-Dynamische inhoud kan in elk veld worden gemaakt waarin u personalisatie kunt toevoegen met de verpersoonlijkingseditor. Dit zijn onder andere onderwerpregel, koppelingen, inhoud van pushberichten of representaties van teksttypeaanbiedingen. [ Leer meer op verpersoonlijking ](personalize.md)
+Dynamische inhoud kan in elk veld worden gemaakt waarin u personalisatie kunt toevoegen met de verpersoonlijkingseditor. Dit zijn onder andere onderwerpregel, koppelingen, inhoud van pushberichten of representaties van teksttypeaanbiedingen. [ leer meer over verpersoonlijking ](personalize.md)
 
 Bovendien kunt u voorwaardelijke regels gebruiken in de e-mailtoepassing van de Designer om meerdere varianten van een inhoudscomponent te maken.
 
@@ -92,7 +92,7 @@ U kunt als volgt varianten van een inhoudscomponent maken in de e-mailtoepassing
    >
    >* Voorwaardelijke inhoud wordt geëvalueerd op basis van de bijbehorende regels in de volgorde waarin de varianten worden weergegeven. De standaardvariant wordt altijd weergegeven als aan geen andere voorwaarden wordt voldaan.
    >
-   >* Bij het simuleren of renderen van proefdrukken voor e-mails die meerdere voorwaardelijke varianten bevatten, kan Journey Optimizer meer verwerkingstijd nodig hebben. Als u time-outs of foutberichten ervaart, kunt u overwegen het totale aantal varianten te verminderen of voorwaardelijke regels te vereenvoudigen. Leer meer over het testen van uw inhoud in [ deze pagina ](../content-management/preview-test.md).
+   >* Bij het simuleren of renderen van proefdrukken voor e-mails die meerdere voorwaardelijke varianten bevatten, kan Journey Optimizer meer verwerkingstijd nodig hebben. Als u time-outs of foutberichten ervaart, kunt u overwegen het totale aantal varianten te verminderen of voorwaardelijke regels te vereenvoudigen. Leer meer over het testen van uw inhoud op [ deze pagina ](../content-management/preview-test.md).
 
 
 1. Als u een variant wilt verwijderen, klikt u op het pictogram Meer handelingen naast de gewenste variant en selecteert u **[!UICONTROL Delete]** .

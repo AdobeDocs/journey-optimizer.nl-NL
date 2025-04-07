@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: expressie, editor, syntaxis, personalisatie
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 1%
@@ -92,7 +92,7 @@ waarbij:
 
   Voor meer informatie over Besluiten API en op de vertegenwoordiging van de Aanbieding, verwijs naar [ deze pagina ](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
-  Alle verwijzingen worden bevestigd tegen het Schema van Aanbiedingen met een bevestigingsmechanisme dat in [ wordt beschreven deze pagina ](../personalization/personalization-build-expressions.md)
+  Alle verwijzingen worden bevestigd tegen het Schema van Aanbiedingen met een bevestigingsmechanisme dat op [ wordt beschreven deze pagina ](../personalization/personalization-build-expressions.md)
 
   +++Sampleverwijzingen
 

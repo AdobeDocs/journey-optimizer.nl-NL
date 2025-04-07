@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 280238fb3f41cef08c4e5a8720839aff5b767cf5
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Voer de onderstaande stappen uit om een API-gestuurde campagne te maken. De gede
 
 1. Geef in de sectie **[!UICONTROL Audience]** de naamruimte op die moet worden gebruikt om de personen te identificeren.
 
-   * Als u a **transactie**-type campagne creeert, moeten de gerichte profielen in de API vraag worden bepaald. Met de optie **[!UICONTROL Create new profiles]** kunt u automatisch profielen maken die niet in de database bestaan. [ Leer meer op profielverwezenlijking bij campagneuitvoering ](#profile-creation)
+   * Als u a **transactie**-type campagne creeert, moeten de gerichte profielen in de API vraag worden bepaald. Met de optie **[!UICONTROL Create new profiles]** kunt u automatisch profielen maken die niet in de database bestaan. [ Leer meer over profielverwezenlijking bij campagneuitvoering ](#profile-creation)
 
      >[!NOTE]
      >
@@ -85,7 +85,7 @@ Nadat de campagne is geactiveerd, moet u het gegenereerde voorbeeld-cURL-verzoek
 1. Gebruik dit cURL-verzoek in de API&#39;s om de payload te bouwen en de campagne te starten. Voor meer informatie, verwijs naar de [ Interactieve documentatie van API van de Uitvoering van het Bericht ](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
 
 
-   API vraagvoorbeelden zijn ook beschikbaar in [ deze pagina ](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).
+   API vraagvoorbeelden zijn ook beschikbaar op [ deze pagina ](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).
 
    >[!NOTE]
    >
@@ -112,7 +112,7 @@ De syntaxis `{{context.<contextualAttribute>}}` wordt alleen toegewezen aan een 
 >
 >De contextafhankelijke kenmerken die in de aanvraag worden doorgegeven, mogen niet groter zijn dan 200 kB en houden altijd rekening met het type tekenreeks.
 >
->De syntaxis van `context.system` is beperkt tot Adobe intern gebruik en mag niet worden gebruikt om contextuele kenmerken door te geven.
+>De syntaxis van `context.system` is beperkt tot intern gebruik van Adobe en mag niet worden gebruikt om contextuele kenmerken door te geven.
 
 Let op: voorlopig is er geen contextueel kenmerk beschikbaar voor gebruik in het menu Linkerspoor. Kenmerken moeten rechtstreeks in uw personalisatie-expressie worden getypt, zonder dat er een controle door [!DNL Journey Optimizer] wordt uitgevoerd.
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: 1004a1919e1e043a42d389395030dd85e5a94062
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Klik op het pictogram op de bovenste balk om de AI-assistent te openen. De AI-as
 
 >[!CAUTION]
 >
->U moet akkoord gaan met de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen voordat u de AI Assistant kunt gebruiken. Leer meer over de overeenkomst in [ deze pagina ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home) {target="_blank"}.
+>U moet akkoord gaan met de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen voordat u de AI Assistant kunt gebruiken. Leer meer over de overeenkomst op [ deze pagina ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home) {target="_blank"}.
 
 In Adobe Journey Optimizer hebt u toegang tot de volgende gebruiksgevallen:
 
@@ -41,7 +41,7 @@ In Adobe Journey Optimizer hebt u toegang tot de volgende gebruiksgevallen:
 
 * **Operationele inzichten** in reizen (Beta)
 
-  Operationele vragen over inzicht hebben betrekking op de reisobjecten in de sandbox van uw organisatie. Enkele voorbeelden van vragen of vragen over operationeel inzicht zijn:
+  Operationele insight-vragen hebben betrekking op de reisobjecten in de sandbox van uw organisatie. Enkele voorbeelden van vragen of vragen over operationeel inzicht zijn:
 
    * Hoeveel reizen heb ik in Adobe Journey Optimizer?
    * Geef me een lijst van alle geplande reizen

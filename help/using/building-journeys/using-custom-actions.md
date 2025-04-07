@@ -9,7 +9,7 @@ role: User, Developer
 level: Intermediate
 keywords: actie, douane, API, reis, configuratie, de dienst
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 8b96c9d4698dc58abdc5ae0261db92b0ce708597
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 18%
@@ -27,7 +27,7 @@ Gebruik aangepaste handelingen om verbinding met een systeem van derden mogelijk
 
 Leer meer over douaneacties in [ deze sectie ](../action/action.md).
 
-Leer hoe te om een douaneactie in [ tot stand te brengen en te vormen deze pagina ](../action/about-custom-action-configuration.md).
+Leer hoe te om een douaneactie op [ tot stand te brengen en te vormen deze pagina ](../action/about-custom-action-configuration.md).
 
 ## Toestemming en gegevensbeheer {#privacy}
 

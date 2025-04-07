@@ -9,7 +9,7 @@ role: Admin, User
 level: Intermediate
 keywords: machtigingen, schrijven, berichten
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 5c84bc726d50df555b9a156233c70f08f3febaba
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 # Ingebouwde machtigingen {#ootb-permissions}
 
-Ingebouwde machtigingen vertegenwoordigen de verschillende machtigingen die aan **[!UICONTROL Role]** kunnen worden toegewezen om de gebruikerstoegang tot Journey Optimizer te verfijnen. De toestemmingen op hoog niveau omvatten laagvlakke toestemmingen, die in [ worden gedetailleerd deze pagina ](high-low-permissions.md).
+Ingebouwde machtigingen vertegenwoordigen de verschillende machtigingen die aan **[!UICONTROL Role]** kunnen worden toegewezen om de gebruikerstoegang tot Journey Optimizer te verfijnen. De toestemmingen op hoog niveau omvatten laagvlakke toestemmingen, die op [ worden gedetailleerd deze pagina ](high-low-permissions.md).
 
 | Capaciteit | Machtigingen |
 |-|-|

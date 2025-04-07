@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, bericht, ontwerp, opmaak
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -33,7 +33,7 @@ U kunt de inhoud in de app bewerken om ervaringsopties te configureren:
 
 Met de schakeloptie **[!UICONTROL Advanced formatting]** activeert u aanvullende opties om de ervaring aan te passen.
 
-Nadat u het bericht in de app hebt gemaakt en de inhoud ervan hebt gedefinieerd en gepersonaliseerd, kunt u het bericht controleren en activeren. Vervolgens worden de meldingen verzonden volgens het campagneprogramma. Meer informatie vindt u [op deze pagina](send-in-app.md).
+Nadat u het bericht in de app hebt gemaakt en de inhoud ervan hebt gedefinieerd en gepersonaliseerd, kunt u het bericht controleren en activeren. Vervolgens worden de meldingen verzonden volgens het campagneprogramma. Leer meer op [ deze pagina ](send-in-app.md).
 
 ## Berichtlay-out {#message-layout}
 

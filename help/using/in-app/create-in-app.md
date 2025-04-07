@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: da27bb78de305c0d80737aaf7423cd62962732da
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1920'
 ht-degree: 1%
@@ -143,7 +143,7 @@ Voer de volgende stappen uit om een bericht in de app toe te voegen aan een camp
 
 1. Kies in de sectie **[!UICONTROL Actions]** de **[!UICONTROL In-app message]** en selecteer of maak een nieuwe configuratie.
 
-   Leer meer over configuratie in-app in [ deze pagina ](inapp-configuration.md).
+   Leer meer over in-app configuratie op [ deze pagina ](inapp-configuration.md).
 
    ![](assets/in_app_create_1.png)
 
