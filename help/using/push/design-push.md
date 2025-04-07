@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 1a4c452adeb6bca876d5c108065e0219353a2540
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1319'
 ht-degree: 4%
 
 ---
@@ -107,7 +107,7 @@ Gebruik de sectie **[!UICONTROL Custom data]** om sleutelwaardeparen toe te voeg
 >title="Configureer aangepaste gegevens voor uw pushmelding."
 >abstract="Voeg aangepaste variabelen toe aan de payload, afhankelijk van de configuratie van uw mobiele toepassing."
 
-In de sectie **[!UICONTROL Custom data]** kunt u aangepaste variabelen toevoegen aan de payload, afhankelijk van de configuratie van uw mobiele toepassing. Voor meer op hoe te opstelling duw berichten in Adobe Experience Platform en de Lancering van Adobe, verwijs naar [ deze sectie ](push-gs.md)
+In de sectie **[!UICONTROL Custom data]** kunt u aangepaste variabelen toevoegen aan de payload, afhankelijk van de configuratie van uw mobiele toepassing. Voor meer op hoe te opstelling duwen berichten in Adobe Experience Platform, verwijs naar [ deze sectie ](push-gs.md)
 
 ## Geavanceerde opties {#advanced-options-push}
 
