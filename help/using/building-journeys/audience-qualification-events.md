@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: kwalificatie, evenementen, publiek, reis, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
+source-git-commit: ce05723342af3e0016965df7fb7a2e0b79856f6f
 workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 0%
@@ -18,12 +18,12 @@ ht-degree: 0%
 
 # Gebeurtenissen in verband met de kwalificatie van het publiek {#segment-qualification}
 
-## Informatie over publiekskwalificatiegebeurtenissen{#about-segment-qualification}
-
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="kwalificatiegebeurtenissen voor het publiek"
 >abstract="Met deze activiteit kunt u luisteren naar de inzendingen en uitgangen van profielen in Adobe Experience Platform-kijkers om ervoor te zorgen dat individuen op reis gaan of vooruit gaan."
+
+## Informatie over publiekskwalificatiegebeurtenissen{#about-segment-qualification}
 
 Met deze activiteit kunt u luisteren naar de inzendingen en uitgangen van profielen in Adobe Experience Platform-kijkers om ervoor te zorgen dat individuen op reis gaan of vooruit gaan. Voor meer informatie over publieksverwezenlijking, verwijs naar deze [ sectie ](../audience/about-audiences.md).
 
