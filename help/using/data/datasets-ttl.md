@@ -8,9 +8,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform, data Lake, create, Lake, datasets, profile
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 0e164877044430509fc7b2f2bf3ca2eda8e7497b
+source-git-commit: 7243da6ecab9bce2afeb86a35d35b7bc94d4d196
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '672'
 ht-degree: 2%
 
 ---
@@ -63,7 +63,7 @@ De door het systeem gegenereerde gegevenssetgegevens in het profiel worden na 90
 
 +++
 
-+++Als een systeem-geproduceerde datasetgegevens aan [!DNL Customer Journey Analytics] (CJA) worden geduwd, zullen de gegevens in CJA ook door TTL worden beïnvloed?
++++Als een door het systeem gegenereerde gegevensset naar [!DNL Customer Journey Analytics] (CJA) wordt geduwd, zullen de gegevens in CJA ook door de TTL worden beïnvloed?
 
 Gegevens in [!DNL Customer Journey Analytics] blijven gesynchroniseerd met Experience Platform. Daarom zal een verwijdering van gegevens toe te schrijven aan een TTL op systeem-geproduceerde datasetgegevens ook de gegevens in [!DNL Customer Journey Analytics] beïnvloeden.
 
@@ -81,7 +81,7 @@ De uitbreidingen van TTLs worden momenteel niet gesteund. Het is echter de bedoe
 
 +++Kunnen klanten TTL voor [!DNL Journey Optimizer] gegevens van de systeemdataset in gegevens verhogen?
 
-De uitbreidingen van TTLs worden momenteel niet gesteund. Klanten met een Real-Time CDP-machtiging kunnen gegevens exporteren via Doelen om gegevens langer te behouden. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html) {target="_blank}
+De uitbreidingen van TTLs worden momenteel niet gesteund. De klanten kunnen gegevens door Doelen uitvoeren om gegevens langer te behouden. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html) {target="_blank}. Bovendien kunnen klanten met een machtiging **[!DNL Data Distiller]** afgeleide gegevenssets maken om de gegevens in het gegevensmeer op te slaan zonder een TTL. [ leer meer ](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview) {target="_blank}
 
 +++
 
@@ -96,7 +96,7 @@ De uitbreidingen van TTLs worden momenteel niet gesteund. Klanten met een Real-T
 
   >[!NOTE]
   >
-  >Een TTL wordt reeds uitgevoerd op de [!DNL Customer Journey Analytics] (verbinding CJA), die effectieve maximum terugblik periode van beïnvloede datasetgegevens aan 13 maanden vermindert.
+  >Een TTL wordt reeds uitgevoerd op de [!DNL Customer Journey Analytics] (CJA) verbinding, die effectieve maximum terugblik periode van beïnvloede datasetgegevens tot 13 maanden vermindert.
 
 * **de gegevensbron van Experience Platform**: Ja - de de gebeurtenisherwinning van de Ervaring is onderworpen aan 90 dag TTL.
 * **Berekende attributen**: Ja - de aanvankelijke backfill berekening zal tot laatste 90 dagen van gegevens worden beperkt; gegevens verwerkte attributen zullen op stijgende gebeurtenissen voor verdere updates worden bijgewerkt. Zodra de volgende updates de terugkijkperiode (maximum 6 maanden) bereiken, beïnvloedt TTL hoofdzakelijk niet meer het gegevens verwerkte attribuut. Meer weten?
