@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: zandbak, reis, exemplaar, milieu
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
+source-git-commit: ead10229b82aa8cb2e638ac9c26539de766f3497
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Journey Optimizer staat het exporteren van reizen, inhoudssjablonen en fragmente
 
 * Het kopieerproces kopieert alleen de metagegevens over de reis en de objecten in die reis. Er worden geen profiel- of gegevenssetgegevens gekopieerd als onderdeel van dit proces.
 
-### Campagnes (#campagnes)
+### Campagnes {#campaigns}
 
 Campagnes worden samen met alle punten gekopieerd met betrekking tot het profiel, het publiek, het schema, de gealigneerde berichten, en afhankelijke voorwerpen.
 
