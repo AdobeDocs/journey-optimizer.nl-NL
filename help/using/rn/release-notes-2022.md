@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
+source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
 workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 8%
@@ -223,7 +223,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 
 **controles van de Controle**
 
-* Met Journey Optimizer kunt u acties identificeren die door gebruikers in het systeem worden uitgevoerd op verschillende services en mogelijkheden, zoals campagnes, reizen, berichten, landingspagina&#39;s, enz. De middelen van het logboek van de controle omvatten nu veranderingen op diverse andere acties, en worden automatisch geregistreerd aangezien de activiteit voorkomt. Meer informatie vindt u [op deze pagina](../privacy/audit-logs.md).
+* Met Journey Optimizer kunt u acties identificeren die door gebruikers in het systeem worden uitgevoerd op verschillende services en mogelijkheden, zoals campagnes, reizen, berichten, landingspagina&#39;s, enz. De middelen van het logboek van de controle omvatten nu veranderingen op diverse andere acties, en worden automatisch geregistreerd aangezien de activiteit voorkomt. Leer meer [ op deze pagina ](../privacy/audit-logs.md).
 
 **Archiving steun**
 
@@ -673,7 +673,7 @@ Als Adobe Campaign Standard-klant kunt u nu e-mails, pushberichten en SMS verzen
 **het beheer van het Besluit**
 
 * U kunt nu opgeven of het aanbieden van een maximum wordt toegepast op alle gebruikers of op één specifiek profiel, en op alle plaatsen of per plaatsing. [Meer informatie](../offers/offer-library/add-constraints.md#capping)
-* Met de Batch-API kunnen organisaties de functionaliteit voor besluitvormingsbeheer gebruiken voor alle profielen in een bepaald publiek in één aanroep. De aanbiedingsinhoud voor elke profielen in het publiek wordt geplaatst in een AEP dataset waar het voor de werkschema&#39;s van de douanepartij beschikbaar is. [Meer informatie](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* Met de Batch-API kunnen organisaties de functionaliteit voor besluitvormingsbeheer gebruiken voor alle profielen in een bepaald publiek in één aanroep. De aanbiedingsinhoud voor elke profielen in het publiek wordt geplaatst in een dataset van AEP waar het voor de werkschema&#39;s van de douanepartij beschikbaar is. [Meer informatie](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **Beheer**
 

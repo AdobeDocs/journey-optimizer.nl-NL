@@ -7,7 +7,7 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Als a **Markering** of de Praktijk van de Reis van de a ****, bent u verantwoord
 
 Raadpleeg de volgende secties voor het instellen van uw eerste reis, het toevoegen van aanbiedingen en middelen en het verzenden van berichten:
 
-1. **creeer publiek**. Journey Optimizer staat u toe om publiek door segmentdefinities direct van het **Soorten publiek** menu tot stand te brengen, en hefboomwerking hen in uw reizen.  Leer meer over publiek [ in deze pagina ](../../audience/about-audiences.md). Ontdek hoe te om segmentdefinities [ in deze steekproef ](../../audience/creating-a-segment-definition.md) te bouwen.
+1. **creeer publiek**. Journey Optimizer staat u toe om publiek door segmentdefinities direct van het **Soorten publiek** menu tot stand te brengen, en hefboomwerking hen in uw reizen.  Leer meer over publiek [ op deze pagina ](../../audience/about-audiences.md). Ontdek hoe te om segmentdefinities [ in deze steekproef ](../../audience/creating-a-segment-definition.md) te bouwen.
 
 1. **voeg verpersoonlijking en dynamische inhoud** toe. Gebruik Journey Optimizer-personalisatie en dynamische inhoudmogelijkheden om uw boodschap aan te passen aan uw publiek. Leer meer over [ verpersoonlijking ](../../personalization/personalize.md) en [ dynamische inhoud ](../../personalization/get-started-dynamic-content.md).
 

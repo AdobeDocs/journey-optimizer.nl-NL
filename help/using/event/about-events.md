@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: gebeurtenissen, gebeurtenis, reis, definitie, begin
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: e80554570d62d1ddb52516366be55711387c5d19
+source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 24%
@@ -40,7 +40,7 @@ Eenheidstrajecten (te beginnen met een evenement of een kwalificatie van het pub
 
 ## Zakelijke gebeurtenissen {#business-events}
 
-**Bedrijfs** gebeurtenissen zijn niet verbonden met een specifiek profiel. Het kan bijvoorbeeld een nieuwsbericht, een sportupdate, een wijziging of annulering van een vlucht, een inventarisatie, weersomstandigheden, enz. zijn. Hoewel deze evenementen niet specifiek zijn voor een profiel, kunnen ze van belang zijn voor elk aantal profielen: personen die zich op bepaalde nieuwsonderwerpen hebben geabonneerd, passagiers op een vlucht, klanten die geïnteresseerd zijn in een product uit de voorraad, enz. Zakelijke gebeurtenissen zijn altijd op regels gebaseerd. Wanneer u een bedrijfsgebeurtenis in een reis laat vallen, voegt het automatisch a **Gelezen publiek** activiteit rechts na.Leer hoe te om een bedrijfsgebeurtenis [ in deze pagina ](../event/about-creating-business.md) tot stand te brengen.
+**Bedrijfs** gebeurtenissen zijn niet verbonden met een specifiek profiel. Het kan bijvoorbeeld een nieuwsbericht, een sportupdate, een wijziging of annulering van een vlucht, een inventarisatie, weersomstandigheden, enz. zijn. Hoewel deze evenementen niet specifiek zijn voor een profiel, kunnen ze van belang zijn voor elk aantal profielen: personen die zich op bepaalde nieuwsonderwerpen hebben geabonneerd, passagiers op een vlucht, klanten die geïnteresseerd zijn in een product uit de voorraad, enz. Zakelijke gebeurtenissen zijn altijd op regels gebaseerd. Wanneer u een bedrijfsgebeurtenis in een reis laat vallen, voegt het automatisch a **Gelezen publiek** activiteit rechts na.Leer hoe te om een bedrijfsgebeurtenis [ op deze pagina ](../event/about-creating-business.md) tot stand te brengen.
 
 ## Aanbevelingen
 

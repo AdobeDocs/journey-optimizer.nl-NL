@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: campagne, hoe, begin, optimaliseer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
+source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 1%
@@ -61,8 +61,8 @@ Controleer de volgende voorwaarden voordat u begint met het maken van uw eerste 
 
 +++
 
-1. **u hebt een publiek** nodig. De doelgroepen moeten beschikbaar zijn voordat ze de campagne kunnen opzetten. Leer meer over publiek [ in deze pagina ](../audience/about-audiences.md).
-1. **u hebt een kanaalconfiguratie** nodig. Als u een kanaal wilt kunnen selecteren, moet de corresponderende kanaalconfiguratie (d.w.z. vooraf ingesteld) zijn gemaakt en beschikbaar. Leer meer over kanaalconfiguraties [ in deze pagina ](../configuration/channel-surfaces.md).
+1. **u hebt een publiek** nodig. De doelgroepen moeten beschikbaar zijn voordat ze de campagne kunnen opzetten. Leer meer over publiek [ op deze pagina ](../audience/about-audiences.md).
+1. **u hebt een kanaalconfiguratie** nodig. Als u een kanaal wilt kunnen selecteren, moet de corresponderende kanaalconfiguratie (d.w.z. vooraf ingesteld) zijn gemaakt en beschikbaar. Leer meer over kanaalconfiguraties [ op deze pagina ](../configuration/channel-surfaces.md).
 
 ## Hoe kan ik-video {#video}
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
 workflow-type: tm+mt
 source-wordcount: '4376'
 ht-degree: 8%
@@ -481,7 +481,7 @@ You can now leverage API call responses in custom actions and orchestrate your j
 <!--
 ## June 2023 early release notes {#june-rn-2023}
 
-Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
+Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added on this page.
 
 **Audiences**
 
@@ -650,7 +650,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 ## Release van april 1923 {#apr-rn-2023}
 
-<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
+<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added on this page.
 
 **Release date**: April 27, 2023-->
 
@@ -715,7 +715,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 * Het reiscanvas geeft nu de activiteit-id weer op berichtactiviteiten en eindtags. Dit verbetert rapportage en heroriëntering.
 * De indeling van het configuratievenster, dat wordt weergegeven in handelingen, gegevensbronnen, gebeurtenissen en reizen, is verbeterd.
-* Nieuw inzicht in het aantal knooppunten op het canvas met beveiligingen om mee te groeien: maak reizen gemakkelijk te lezen, QA en los problemen op met een maximum aantal knooppunten per reis bij 50. [Meer informatie](../start/guardrails.md#journeys-guardrails-journeys)
+* Nieuwe insight voor het aantal knooppunten op het canvas met beveiligingen om mee te groeien: maak reizen eenvoudig leesbaar, maak een kwaliteitscontrole en los problemen met een maximumaantal knooppunten per reis op 50. [Meer informatie](../start/guardrails.md#journeys-guardrails-journeys)
 * Wanneer het toevoegen van een [ E-mail ](../email/create-email.md), [ SMS ](../sms/create-sms.md) of [ duw ](../push/create-push.md) actie in een reis, wordt de oppervlakte nu voorgevuld, door gebrek, met de laatste gebruikte oppervlakte voor dat kanaal, in de huidige reis.
 * U kunt nu statische of dynamische queryparameters definiëren in uw aangepaste handelingen. [Meer informatie](../action/about-custom-action-configuration.md#url-configuration)
 
