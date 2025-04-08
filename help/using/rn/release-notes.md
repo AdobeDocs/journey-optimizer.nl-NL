@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 315cd1df52018497c24da29d1b899c9662bfa576
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '755'
 ht-degree: 7%
 
 ---
@@ -20,31 +20,33 @@ ht-degree: 7%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html) {target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## Updates van april 25
 
 ### Verbeteringen {#25-04-improv}
 
-**Email Designer**
 
-Om de toegankelijkheid in Journey Optimizer te verbeteren, zijn er nu twee nieuwe velden beschikbaar in de E-mail-Designer: deze komen overeen met het element `<title>` en het kenmerk `lang` in het element `<html>` van uw e-mailinhoud. U kunt deze instellingen definiëren in aanvulling op het veld **[!UICONTROL Preheader]** in de sectie E-mail **[!UICONTROL Body]** . [Meer informatie](../email/email-metadata.md)
+* **Sandbox tooling** - de datum van de Beschikbaarheid: 3 April, 2025
 
-**Sandbox tooling** - de datum van de Beschikbaarheid: 3 April, 2025
+  U kunt campagnes nu kopiëren over meerdere sandboxen door de mogelijkheden voor exporteren en importeren van pakketten te gebruiken. Campagnes worden samen met alle punten gekopieerd met betrekking tot het profiel, het publiek, het schema, de gealigneerde berichten, en afhankelijke voorwerpen. Sommige items worden niet gekopieerd, zoals besluitvormingsitems, labels voor gegevensgebruik en taalinstellingen. [Meer informatie](../configuration/copy-objects-to-sandbox.md)
 
-U kunt campagnes nu kopiëren over meerdere sandboxen door de mogelijkheden voor exporteren en importeren van pakketten te gebruiken. Campagnes worden samen met alle punten gekopieerd met betrekking tot het profiel, het publiek, het schema, de gealigneerde berichten, en afhankelijke voorwerpen. Sommige items worden niet gekopieerd, zoals besluitvormingsitems, labels voor gegevensgebruik en taalinstellingen. [Meer informatie](../configuration/copy-objects-to-sandbox.md)
+* **Personalization** - de datum van de Beschikbaarheid: 2 April, 2025
 
-**Personalization** - de datum van de Beschikbaarheid: 2 April, 2025
+  In het venster Kenmerken in de verpersoonlijkingseditor worden nu standaard alleen gevulde kenmerken weergegeven. Als u alle kenmerken wilt weergeven, schakelt u de optie **[!UICONTROL Show only populated attributes]** uit met de knop Instellingen. [Meer informatie](../personalization/personalization-build-expressions.md)
 
-In het venster Kenmerken in de verpersoonlijkingseditor worden nu standaard alleen gevulde kenmerken weergegeven. Als u alle kenmerken wilt weergeven, schakelt u de optie **[!UICONTROL Show only populated attributes]** uit met de knop Instellingen. [Meer informatie](../personalization/personalization-build-expressions.md)
+* **Inhoudsbeheer** - Beschikbaarheidsdatum: 2 april 2025
 
-**Inhoudsbeheer** - Beschikbaarheidsdatum: 2 april 2025
+  Om uw inhoudsmalplaatjes en fragmenten gemakkelijk te beheren, kunt u omslagen nu gebruiken om hen effectiever te organiseren in een gestructureerde hiërarchie. Leer meer in de [ malplaatjes van de Inhoud ](../content-management/access-content-templates.md#folders) en [ Fragmenten ](../content-management/manage-fragments.md#folders) secties.
 
-Om uw inhoudsmalplaatjes en fragmenten gemakkelijk te beheren, kunt u omslagen nu gebruiken om hen effectiever te organiseren in een gestructureerde hiërarchie. Leer meer in de [ malplaatjes van de Inhoud ](../content-management/access-content-templates.md#folders) en [ Fragmenten ](../content-management/manage-fragments.md#folders) secties.
+  >[!AVAILABILITY]
+  >
+  >Deze verbetering is slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid).
 
->[!AVAILABILITY]
->
->Deze verbetering is slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid).
+* **E-mail Designer** - Beschikbaarheidsdatum: 1 April, 2025
+
+  Om de toegankelijkheid in Journey Optimizer te verbeteren, zijn er nu twee nieuwe velden beschikbaar in de E-mail-Designer: deze komen overeen met het element `<title>` en het kenmerk `lang` in het element `<html>` van uw e-mailinhoud. U kunt deze instellingen definiëren in aanvulling op het veld **[!UICONTROL Preheader]** in de sectie E-mail **[!UICONTROL Body]** . [Meer informatie](../email/email-metadata.md)
+
 
 ## Opmerkingen bij de release van maart 25 {#25-3-rn}
 
@@ -200,7 +202,7 @@ Raadpleeg de [gedetailleerde documentatie](../test-approve/approval-policies.md)
 
 **Bedrijfs regels**
 
-U kunt nu dagelijkse aftopping gebruiken in reizen en campagnes met batchsegmentatie. Om ervoor te zorgen dat de regels voor dagelijkse frequentiecapping correct zijn, moet u de naamruimte met de hoogste prioriteit kiezen tijdens het ontwerpen van een campagne of een reis. Leer meer over namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority) {target="_blank"}
+U kunt nu dagelijkse aftopping gebruiken in reizen en campagnes met batchsegmentatie. Om ervoor te zorgen dat de regels voor dagelijkse frequentiecapping correct zijn, moet u de naamruimte met de hoogste prioriteit kiezen tijdens het ontwerpen van een campagne of een reis. Leer meer over namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
 Ter herinnering: dagelijkse frequentiecapping in regelsets is alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
