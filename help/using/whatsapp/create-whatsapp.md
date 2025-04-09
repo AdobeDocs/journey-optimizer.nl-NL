@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: f57a89e249c41e76f9ebf1a77dfe383129ae9250
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '739'
 ht-degree: 2%
 
 ---
@@ -50,15 +50,12 @@ De volgende berichttypes worden gesteund in WhatsApp:
 | Platte tekst | Ondersteunt dynamische inhoud via parameters. |
 | Voettekst | Ondersteunt dynamische inhoud via parameters. |
 
-De volgende vraag-aan-actie opties zijn beschikbaar voor uw WhatsApp berichten:
+De volgende call-to-action-optie is beschikbaar voor whatsApp-berichten:
 
 | Oproep tot actie | Beschrijving |
 |-|-|
-| Telefoonnummer bellen | Alleen beschikbaar in berichtsjablonen. Slechts één knop. |
-| Aangepaste knoppen voor snelle antwoorden | Ondersteunt maximaal drie knoppen. |
-| Knop Afmelden voor marketing | Abonnementsstatus wordt niet automatisch bijgewerkt. |
-| Codesjablonen voor coupon | Alleen beschikbaar in berichtsjablonen. |
-| CTA-antwoordberichten | Staat opneming van een vraag-aan-actie knoop in een antwoordbericht toe. |
+| Bezoek website | Slechts één knop is toegestaan, met variabele parameters inbegrepen. |
+
 
 +++
 
@@ -97,6 +94,8 @@ U kunt nu de inhoud van uw WhatsApp-bericht ontwerpen vanaf de knop **[!UICONTRO
 1. Kies **[!UICONTROL WhatsApp]** in de sectie **[!UICONTROL Actions]** en selecteer of maak een nieuwe configuratie.
 
    Leer meer over configuratie WhatsApp op [ deze pagina ](whatsapp-configuration.md).
+
+   ![](assets/whatsapp-campaign-1.png)
 
 1. Klik op **[!UICONTROL Create experiment]** om uw inhoudexperiment te configureren en behandelingen te maken om de prestaties te meten en de beste optie voor uw doelgroep te identificeren. [Meer informatie](../content-management/content-experiment.md)
 
@@ -139,13 +138,19 @@ Merk op dat uw WhatsApp malplaatje eerst door Meta moet worden goedgekeurd alvor
 
    [ Leer meer over de categorieën van het Malplaatje ](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
 
+   ![](assets/whatsapp-design-1.png)
+
 1. Van het **WhatsApp malplaatje** drop-down, selecteer uw eerder gecreeerd malplaatje dat in Meta wordt ontworpen.
 
    [ Leer meer over hoe te om uw Whatsapp malplaatjes ](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343) te creëren
 
+   ![](assets/whatsapp-design-2.png)
+
 1. Gebruik de verpersoonlijkingsredacteur om verpersoonlijking aan uw malplaatje toe te voegen. U kunt elk kenmerk gebruiken, bijvoorbeeld de profielnaam of plaats.
 
    Blader door de volgende pagina om meer over [ verpersoonlijking ](../personalization/personalize.md) te leren.
+
+   ![](assets/whatsapp-design-3.png)
 
 1. Gebruik de knop **[!UICONTROL Simulate content]** om een voorvertoning weer te geven van uw WhatsApp-berichtinhoud, verkorte URL&#39;s en gepersonaliseerde inhoud. [Meer informatie](send-whatsapp.md)
 
