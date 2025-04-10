@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: expression editor, data, trip
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
+source-git-commit: 4a60b9f8c754e161ca156c7644d7241adb9bfc1f
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 63%
+source-wordcount: '675'
+ht-degree: 61%
 
 ---
 
@@ -33,7 +33,7 @@ De geavanceerde expressie-editor biedt een reeks ingebouwde functies en operator
 
 >[!NOTE]
 >
->De functies en mogelijkheden die beschikbaar zijn in de geavanceerde expressie-editor voor Journey verschillen van die in de [personalisatie-editor](../../personalization/functions/functions.md).
+>De functies en de mogelijkheden beschikbaar in de Reis geavanceerde uitdrukkingsredacteur verschillen van degenen beschikbaar in de [ verpersoonlijkingsredacteur ](../../personalization/functions/functions.md).
 
 ## De geavanceerde expressie-editor openen {#accessing-the-advanced-expression-editor}
 
@@ -47,9 +47,9 @@ Indien mogelijk kunt u tussen de twee modi schakelen met de knop **[!UICONTROL A
 
 >[!NOTE]
 >
->De voorwaarden kunnen in de eenvoudige of geavanceerde expressie-editor worden gedefinieerd. Ze retourneren altijd een booleaans type.
+>* De voorwaarden kunnen in de eenvoudige of geavanceerde expressie-editor worden gedefinieerd. Ze retourneren altijd een booleaans type.
 >
->Actieparameters kunnen worden gedefinieerd door velden te selecteren of via de geavanceerde expressie-editor. Ze retourneren een specifiek datatype op basis van hun expressie.
+>* Actieparameters kunnen worden gedefinieerd door velden te selecteren of via de geavanceerde expressie-editor. Ze retourneren een specifiek datatype op basis van hun expressie.
 
 U kunt de geavanceerde expressie-editor op verschillende manieren openen:
 
@@ -69,9 +69,9 @@ In dit scherm kunt u uw expressie handmatig schrijven.
 Links in het scherm worden de beschikbare velden en functies weergegeven:
 
 * **[!UICONTROL Events]**: kies een van de velden die worden ontvangen van de binnenkomende gebeurtenis. De weergegeven lijst met gebeurtenisvelden is contextueel en varieert afhankelijk van de gebeurtenis(sen) die tijdens de reis zijn toegevoegd. [Meer informatie](../../event/about-events.md)
-* **[!UICONTROL Audiences]**: als u een **[!UICONTROL Audience qualification]** kiest u het publiek dat u in uw expressie wilt gebruiken. [Meer informatie](../condition-activity.md#using-a-segment)
-* **[!UICONTROL Data Sources]**: maak een keuze in de lijst met velden die beschikbaar zijn in de veldgroepen van de gegevensbronnen. [Meer informatie](../../datasource/about-data-sources.md)
-* **[!UICONTROL Journey properties]**: in dit deel worden de technische gebieden met betrekking tot de reis voor een bepaald profiel gegroepeerd. [Meer informatie](journey-properties.md)
+* **[!UICONTROL Audiences]**: als u een **[!UICONTROL Audience qualification]** -gebeurtenis hebt neergezet, kiest u het publiek dat u in de expressie wilt gebruiken. [Meer informatie](../condition-activity.md#using-a-segment)
+* **[!UICONTROL Data Sources]**: kies een optie in de lijst met velden die beschikbaar zijn in de veldgroepen van uw gegevensbronnen. [Meer informatie](../../datasource/about-data-sources.md)
+* **[!UICONTROL Journey properties]**: in deze sectie worden de technische velden voor een bepaald profiel gegroepeerd die betrekking hebben op de reis. [Meer informatie](journey-properties.md)
 * **[!UICONTROL Functions]**: kies uit de lijst met ingebouwde functies die complexe filtering mogelijk maken. Functies zijn ingedeeld in categorieën. [Meer informatie](functions.md)
 
 ![](../assets/journey65.png)
@@ -84,9 +84,15 @@ Een mechanisme voor de syntaxisvalidatie controleert de integriteit van uw code.
 
 ![](../assets/journey69.png)
 
+
+>[!TIP]
+>
+>Wanneer u voorwaarden maakt in de geavanceerde expressieeditor, moet u ervoor zorgen dat de expressies geen verborgen of niet-afdrukbare tekens bevatten. Gebruik daarnaast expressies met één regel om fouten bij het parseren te voorkomen.
+
+
 **Parameters vereist tijdens het samenstellen van voorwaarden met de geavanceerde expressie-editor**
 
-Als u een veld selecteert uit een externe gegevensbron waarvoor een parameter moet worden aangeroepen (zie [deze pagina](../../datasource/external-data-sources.md)), wordt er een nieuw tabblad weergegeven aan de rechterkant waarin u deze parameter kunt opgeven. De parameterwaarde kan afkomstig zijn van de gebeurtenissen in de reis of de gegevensbron van het Experience Platform (en niet uit andere externe gegevensbronnen). In een databron met betrekking tot weersomstandigheden is ‘city’ bijvoorbeeld een veelgebruikte parameter. Dit betekent dat u moet selecteren waar u deze parameter ‘city’ wilt ophalen. Functies kunnen ook op parameters worden toegepast om opmaakwijzigingen of samenvoegingen uit te voeren.
+Als u een gebied van een externe gegevensbron selecteert die een te roepen parameter vereisen (zie [ deze pagina ](../../datasource/external-data-sources.md)), verschijnt een nieuw lusje op het recht om u deze parameter te laten specificeren. De parameterwaarde kan afkomstig zijn van gebeurtenissen die zich op de reis of de Experience Platform-gegevensbron bevinden (en niet van andere externe gegevensbronnen). In een databron met betrekking tot weersomstandigheden is ‘city’ bijvoorbeeld een veelgebruikte parameter. Dit betekent dat u moet selecteren waar u deze parameter ‘city’ wilt ophalen. Functies kunnen ook op parameters worden toegepast om opmaakwijzigingen of samenvoegingen uit te voeren.
 
 ![](../assets/journeyuc2_19.png)
 
