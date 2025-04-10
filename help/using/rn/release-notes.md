@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 315cd1df52018497c24da29d1b899c9662bfa576
+source-git-commit: aa5170ec5d195ec22684d748cd3520dfa8400fed
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '817'
 ht-degree: 7%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 7%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html) {target="_blank"}.
 
 ## Updates van april 25
 
@@ -152,6 +152,22 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Flexibele publieksevaluatie (GA)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Eerder beschikbaar voor een reeks organisaties (LA), is de Flexible publieksevaluatie nu beschikbaar aan alle gebruikers (GA). Met deze functie kunt u een segmentatietaak uitvoeren op aanvraag voor een geselecteerd publiek, zodat u altijd over de meest actuele publieksgegevens beschikt voordat u deze doelt op Journey Optimizer-reizen en -campagnes.</p>
+<img src="assets/do-not-localize/flexible-audience.gif">
+<p>Raadpleeg de <a href="../audience/creating-a-segment-definition.md#flexible">gedetailleerde documentatie</a> voor meer informatie.</p>
+</tr>
+</tbody>
+</table>
+</table>
 
 <!--table>
 <thead>
@@ -202,7 +218,7 @@ Raadpleeg de [gedetailleerde documentatie](../test-approve/approval-policies.md)
 
 **Bedrijfs regels**
 
-U kunt nu dagelijkse aftopping gebruiken in reizen en campagnes met batchsegmentatie. Om ervoor te zorgen dat de regels voor dagelijkse frequentiecapping correct zijn, moet u de naamruimte met de hoogste prioriteit kiezen tijdens het ontwerpen van een campagne of een reis. Leer meer over namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+U kunt nu dagelijkse aftopping gebruiken in reizen en campagnes met batchsegmentatie. Om ervoor te zorgen dat de regels voor dagelijkse frequentiecapping correct zijn, moet u de naamruimte met de hoogste prioriteit kiezen tijdens het ontwerpen van een campagne of een reis. Leer meer over namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority) {target="_blank"}
 
 Ter herinnering: dagelijkse frequentiecapping in regelsets is alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
