@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1281'
 ht-degree: 1%
 
 ---
@@ -24,11 +24,14 @@ Voordat u dit bestand kunt genereren, moet u het volgende maken:
 
 1. [ dossier dat van A configuratie ](#file-routing-configuration) verplettert om de server te specificeren waar het dossier zal worden uitgevoerd en het dossier coderen, indien nodig.
 
-   >[!CAUTION]
-   >
-   >Om een dossier tot stand te brengen dat configuratie verplettert, moet u **[!DNL Manage file routing]** ingebouwde toestemming hebben. [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager)
-
 1. [ de direct-mailconfiguratie van A ](#direct-mail-configuration) die het dossier zal van verwijzingen voorzien dat configuratie verplettert. Als u geen dossier gevormd hebt dat optie verplettert, zult u geen directe-mailconfiguratie kunnen tot stand brengen.
+
+
+>[!CAUTION]
+>
+>* Om een dossier tot stand te brengen dat configuratie verplettert, moet u **[!DNL Manage file routing]** ingebouwde toestemming hebben. [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager)
+>
+>* Directe-mailbestanden worden alleen gegenereerd op het moment van export. Het systeem slaat niet oneindig oudere exportbewerkingen op. Voor langere of permanente back-up configureert u een optie voor het routeren van bestanden (SFTP of cloudopslag).
 
 ## Bestands-routering configureren {#file-routing-configuration}
 

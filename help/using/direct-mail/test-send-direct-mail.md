@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Voordat u de campagne voor directe mail activeert, moet u controleren of de camp
 
 Klik op de knop **[!UICONTROL Activate]** als uw campagne voor direct mail gereed is. Wanneer de campagne begint, zal het extractiedossier automatisch worden geproduceerd en naar de server worden uitgevoerd die in uw [ wordt gespecificeerd dossier dat configuratie ](../direct-mail/direct-mail-configuration.md) verplettert.
 
-Nadat u de campagne hebt verzonden, kunt u de impact van de campagne voor directe e-mail meten in de campagnerapporten. Zie deze sectie voor meer informatie over rapportage.
+Nadat u de campagne hebt verzonden, kunt u de impact van de campagne voor directe e-mail meten in de campagnerapporten. Voor meer over directe post die, verwijs naar [ deze sectie ](../reports/campaign-global-report-cja-direct.md) rapporteert.
 
 ## Toestemming voor direct mail beheren {#dm-consent-management}
 
