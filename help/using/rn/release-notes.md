@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: aa5170ec5d195ec22684d748cd3520dfa8400fed
+source-git-commit: d28341dd39ec3ab838a5fbb3ae49539b8776c60b
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 7%
+source-wordcount: '861'
+ht-degree: 8%
 
 ---
 
@@ -24,8 +24,28 @@ ht-degree: 7%
 
 ## Updates van april 25
 
-### Verbeteringen {#25-04-improv}
+### Nieuwe functies {#25-04-feature}
 
+<table>
+<thead>
+<tr>
+<th><strong>Reiscijfers</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>De metriek van de reis zijn nu beschikbaar, toelatend u om de invloed van uw activiteiten over de belangrijkste metriek van uw zaken te meten en duidelijkere inzichten in uw prestaties te verstrekken.</p>
+<p>Raadpleeg de <a href="../building-journeys/success-metrics.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Beschikbaarheidsdatum: 9 april 2025</p>
+</br>
+<img src="assets/do-not-localize/success-metric.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Verbeteringen {#25-04-improv}
 
 * **Sandbox tooling** - de datum van de Beschikbaarheid: 3 April, 2025
 
