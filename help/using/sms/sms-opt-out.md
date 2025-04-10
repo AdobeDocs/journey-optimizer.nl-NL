@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7973f56c26c01d4845138f70cd00bce8ab7fc09c
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,12 @@ Wanneer het gebruiken van Infobip, zorg ervoor dat de het Door:sturen actie aan 
 Er zijn geen stappen vereist om ervoor te zorgen dat de mogelijkheden voor SMS-opt-out in Adobe Journey Optimizer werken als de trefwoordreacties STOP, UNSTOP, START, QUIT, CANCEL, END en UNSUBSCRIBE automatisch worden herkend. De status van de optie om profielen te weigeren wordt in real time bijgewerkt in Adobe Journey Optimizer.
 
 Merk op dat als een klant STOP aan een tekstbericht antwoordt, de leverancier al verder SMS van die specifieke afzenderidentiteitskaart (korte code of lang aantal), met inbegrip van transactionele berichten blokkeert. Om ononderbroken levering van transactieSMS te verzekeren, gebruik een afzonderlijke afzender identiteitskaart die niet eerder uit is gekozen.
+
+
+>[!NOTE]
+>
+>Als u bidirectionele SMS (antwoord met STOP, QUIT, etc.) van plan bent te gebruiken, zorg ervoor dat u eerst minstens éénrichtingsSMS hebt verzonden om het telefoonaantal aan profielafbeelding te vestigen. Verlopen of onjuist gevormde leveranciergeloofsbrieven zullen binnenkomende sleutelwoorden verhinderen het gebruikersprofiel bij te werken, resulterend in ontbrekende of vertraagde opt-out verslagen.
+
 
 ## Lijsten van gewezen personen {#sms-blocklists}
 
