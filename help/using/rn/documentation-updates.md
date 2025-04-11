@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: e8e3b002bf614e49c6ef098b6f2475d65bb47112
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '1037'
 ht-degree: 10%
 
 ---
@@ -18,6 +18,16 @@ ht-degree: 10%
 # Documentatie-updates {#latest-updates}
 
 Deze pagina bevat een overzicht van alle meest recente updates in de documentatie van [!DNL Journey Optimizer] .
+
+
+## April 2025 {#apr-2025}
+
+* Er is een opmerking toegevoegd op de pagina voor Direct-mailconfiguratie over tijdelijke opslag van het uitvoerbestand. [Meer informatie](../direct-mail/direct-mail-configuration.md)
+* Er is een tip toegevoegd in de sectie met de editor voor geavanceerde expressies voor de reis over de richtlijnen voor de indeling van voorwaarden. [Meer informatie](../building-journeys/expression/expressionadvanced.md)
+* In de functiesectie `inAudience` is een waarschuwing toegevoegd over de effecten en aanbevolen procedures bij het wijzigen van de naam van een publiek. [Meer informatie](../building-journeys/functions/functioninaudience.md)
+* Een aanbeveling toegevoegd over het gebruik van native trefwoorden bij het gebruik van 2-wegs-SMS. [Meer informatie](../sms/sms-opt-out.md)
+* De testpagina voor de reis is bijgewerkt met een opmerking over de noodzaak om een naamruimte voor identiteit op te nemen in de gebruikte gebeurtenis. [Meer informatie](../building-journeys/testing-the-journey.md)
+
 
 ## Maart 2025 {#mar-2025}
 
