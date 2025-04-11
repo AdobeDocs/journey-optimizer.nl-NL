@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, pools, groep, subdomeinen, leverbaarheid
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Wanneer het selecteren van IPs, kunt u van de lijst de PTR verslagen zien verbon
 
 >[!NOTE]
 >
->Als geen PTR verslag voor IP wordt gevormd, kunt u niet dat IP selecteren. Vraag uw Adobe-medewerker om de PTR-record van die IP te configureren.
+>Als geen PTR verslag voor IP wordt gevormd, kunt u niet dat IP selecteren. Bereik uit aan uw vertegenwoordiger van Adobe voor het vormen van het PTR verslag van dat IP.<!--Now this only happens when first subdomain delegated to Adobe is with CNAME method.-->
 
 Nadat een IP pool is gecreeerd, is de informatie PTR zichtbaar wanneer het hangen over de IP adressen die onder de IP pool drop-down lijst worden getoond.
 

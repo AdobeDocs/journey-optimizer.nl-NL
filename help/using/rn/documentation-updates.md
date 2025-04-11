@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e8e3b002bf614e49c6ef098b6f2475d65bb47112
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1081'
 ht-degree: 10%
 
 ---
@@ -27,7 +27,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 * In de functiesectie `inAudience` is een waarschuwing toegevoegd over de effecten en aanbevolen procedures bij het wijzigen van de naam van een publiek. [Meer informatie](../building-journeys/functions/functioninaudience.md)
 * Een aanbeveling toegevoegd over het gebruik van native trefwoorden bij het gebruik van 2-wegs-SMS. [Meer informatie](../sms/sms-opt-out.md)
 * De testpagina voor de reis is bijgewerkt met een opmerking over de noodzaak om een naamruimte voor identiteit op te nemen in de gebruikte gebeurtenis. [Meer informatie](../building-journeys/testing-the-journey.md)
-
+* U kunt subdomeinen momenteel niet dedelegeren via de gebruikersinterface van [!UICONTROL Journey Optimizer] . Dit moet u doorgeven aan uw Adobe-vertegenwoordiger. De secties E-mail, bestemmingspagina, SMS en web subdomain zijn bijgewerkt met deze informatie en de stappen die moeten worden uitgevoerd voordat u Adobe bereikt. [Meer informatie](../configuration/delegate-subdomain.md#undelegate-subdomain)
 
 ## Maart 2025 {#mar-2025}
 

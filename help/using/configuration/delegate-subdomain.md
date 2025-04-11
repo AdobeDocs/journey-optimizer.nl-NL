@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: subdomein, delegatie, domein, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 6%
+source-wordcount: '1995'
+ht-degree: 5%
 
 ---
 
@@ -43,7 +43,7 @@ U kunt een subdomein volledig delegeren, of een subdomein tot stand brengen gebr
 >
 >Subdomeinconfiguratie is algemeen voor alle omgevingen. Daarom zal elke wijziging aan een subdomein ook invloed hebben op de productiesandboxen.
 
-## Volledige subdomeindelegatie {#full-subdomain-delegation}
+## Subdomein volledig delegeren aan Adobe {#full-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns"
@@ -113,7 +113,7 @@ Wanneer een subdomein in [!DNL Journey Optimizer] is gedelegeerd aan Adobe, word
 >
 >Parallelle uitvoering van subdomeinen wordt momenteel niet ondersteund in [!DNL Journey Optimizer] . Als u een subdomein probeert te verzenden voor delegatie wanneer een ander subdomein de **[!UICONTROL Processing]** status heeft, krijgt u een foutbericht.
 
-## CNAME-subdomeininstelling {#cname-subdomain-delegation}
+## Een subdomein instellen met CNAME&#39;s {#cname-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
@@ -224,6 +224,47 @@ De onderstaande controles en acties worden uitgevoerd totdat het subdomein is ge
 1. **creeer voorwaartse DNS**: als dit eerste subdomain is dat u delegeert, zal Adobe voorwaartse DNS creëren die wordt vereist om PTR verslagen - voor elk van uw IPs tot stand te brengen.
 
 1. **creeer PTR verslag**: Het verslag van PTR, dat ook als omgekeerd DNS verslag wordt bekend, wordt vereist door ISPs zodat zij niet de e-mails als spam merken. Gmail adviseert ook hebbend PTR verslagen voor elk IP. Adobe leidt PTR verslagen slechts tot wanneer u subdomain voor het eerst, voor elk IP, één voor alle IP&#39;s delegeert die dat subdomain richten. Bijvoorbeeld, als IP *192.1.2.1* is en subdomain *email.example.com* is, zal het PTR verslag zijn: *192.1.2.1PTR r1.email.example.com*. U kunt de PTR-record achteraf bijwerken en naar het nieuwe gedelegeerde domein verwijzen. [ leer meer over PTR verslagen ](ptr-records.md)
+
+## Een subdomein delegeren ongedaan maken {#undelegate-subdomain}
+
+Neem contact op met uw Adobe-vertegenwoordiger als u een subdomein wilt dedelegeren.
+
+U moet echter verschillende stappen uitvoeren in de gebruikersinterface voordat u Adobe bereikt.
+
+>[!NOTE]
+>
+>U kunt alleen subdomeinen met de status **[!UICONTROL Success]** dedelegeren. Subdomeinen met de statussen **[!UICONTROL Draft]** en **[!UICONTROL Failed]** kunnen eenvoudig uit de gebruikersinterface worden verwijderd.
+
+Voer eerst de volgende stappen uit in [!DNL Journey Optimizer] :
+
+1. Deactiveer alle kanaalconfiguraties verbonden aan subdomain. [ leer hoe ](../configuration/channel-surfaces.md#deactivate-a-surface)
+
+1. U kunt elke landingspagina-subdomeinen, SMS-subdomeinen en websubdomeinen die aan dit subdomein zijn gekoppeld, verwijderen.
+
+   >[!NOTE]
+   >
+   >U moet een specifiek verzoek voor elke [ het landen pagina ](../landing-pages/lp-subdomains.md#undelegate-subdomain), [ SMS ](../sms/sms-subdomains.md#undelegate-subdomain), of [ Web subdomain ](../web/web-delegated-subdomains.md#undelegate-subdomain) opheffen.
+
+1. Stop de actieve campagnes verbonden aan subdomeinen. [ leer hoe ](../campaigns/modify-stop-campaign.md#stop)
+
+1. Stop de actieve reizen verbonden aan subdomeinen. [ leer hoe ](../building-journeys/end-journey.md#stop-journey)
+
+1. Punt de [ PTR verslagen ](ptr-records.md#edit-ptr-record) verbonden aan subdomain aan een ander subdomain.
+
+   >[!NOTE]
+   >
+   >Als dit het enige gedelegeerde subdomein is, kunt u deze stap overslaan.
+
+Als u klaar bent, neemt u contact op met uw Adobe-vertegenwoordiger met het subdomein dat u wilt uitschakelen.
+
+Nadat uw verzoek door Adobe wordt behandeld, wordt het niet-gedelegeerde domein niet meer getoond op de pagina van de subdomeininventaris.
+
+>[!CAUTION]
+>
+>Nadat een subdomein niet is gedelegeerd:
+>
+>   * U kunt de kanaalconfiguraties die dat subdomein gebruikten, niet opnieuw activeren.
+>   * U kunt exacte subdomein niet opnieuw delegeren via de gebruikersinterface. Neem desgewenst contact op met uw Adobe-vertegenwoordiger.
 
 ## Hoe kan ik-video{#video}
 

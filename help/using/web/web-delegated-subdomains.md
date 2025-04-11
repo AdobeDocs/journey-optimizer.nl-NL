@@ -8,9 +8,9 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: web, subdomeinen, configuratie
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '1015'
 ht-degree: 0%
 
 ---
@@ -161,3 +161,37 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
 Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
 You cannot delete a subdomain with the **[!UICONTROL Processing]** status.
 -->
+
+## Een subdomein delegeren ongedaan maken {#undelegate-subdomain}
+
+Neem contact op met uw Adobe-vertegenwoordiger als u de gedelegeerde websubdomein wilt opheffen.
+
+U moet echter verschillende stappen uitvoeren in de gebruikersinterface voordat u Adobe bereikt.
+
+>[!NOTE]
+>
+>U kunt alleen subdomeinen met de status **[!UICONTROL Success]** dedelegeren. Subdomeinen met de statussen **[!UICONTROL Draft]** en **[!UICONTROL Failed]** kunnen eenvoudig uit de gebruikersinterface worden verwijderd.
+
+Voer eerst de volgende stappen uit in [!DNL Journey Optimizer] :
+
+1. Deactiveer alle kanaalconfiguraties verbonden aan subdomain. [ leer hoe ](../configuration/channel-surfaces.md#deactivate-a-surface)
+
+<!--
+1. If the web subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
+
+1. Stop de actieve campagnes verbonden aan subdomeinen. [ leer hoe ](../campaigns/modify-stop-campaign.md#stop)
+
+1. Stop de actieve reizen verbonden aan subdomeinen. [ leer hoe ](../building-journeys/end-journey.md#stop-journey)
+
+1. Als het Web subdomain a [ nieuw afgevaardigd subdomain ](#web-configure-new-subdomain) was, verwijder de DNS ingangen verbonden aan dat subdomain.
+
+Als u klaar bent, neemt u contact op met uw Adobe-vertegenwoordiger met het subdomein dat u wilt uitschakelen.
+
+Nadat uw verzoek door Adobe wordt behandeld, wordt het niet-gedelegeerde domein niet meer getoond op de pagina van de subdomeininventaris.
+
+>[!CAUTION]
+>
+>Nadat een subdomein niet is gedelegeerd:
+>
+>   * U kunt de kanaalconfiguraties die dat subdomein gebruikten, niet opnieuw activeren.
+>   * U kunt exacte subdomein niet opnieuw delegeren via de gebruikersinterface. Neem desgewenst contact op met uw Adobe-vertegenwoordiger.

@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 keywords: landen, landingspagina, subdomeinen, configuratie
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -144,3 +144,38 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
 1. Zodra de controles succesvol zijn, krijgt subdomain de **[!UICONTROL Success]** status. Deze kan worden gebruikt om voorinstellingen voor openingspagina&#39;s te maken.
 
    Het subdomein wordt gemarkeerd als **[!UICONTROL Failed]** als u geen validatierecord maakt voor de hostoplossing.
+
+## Een subdomein delegeren ongedaan maken {#undelegate-subdomain}
+
+Neem contact op met uw Adobe-vertegenwoordiger als u een subdomein van een bestemmingspagina wilt verwijderen.
+
+U moet echter verschillende stappen uitvoeren in de gebruikersinterface voordat u Adobe bereikt.
+
+>[!NOTE]
+>
+>U kunt alleen subdomeinen met de status **[!UICONTROL Success]** dedelegeren. Subdomeinen met de statussen **[!UICONTROL Draft]** en **[!UICONTROL Failed]** kunnen eenvoudig uit de gebruikersinterface worden verwijderd.
+
+Voer eerst de volgende stappen uit in [!DNL Journey Optimizer] :
+
+1. Verwijder de publicatie van alle bestemmingspagina&#39;s die aan het subdomein zijn gekoppeld. [ leer hoe ](create-lp.md#access-landing-pages)
+
+1. Deactiveer alle kanaalconfiguraties verbonden aan subdomain. [ leer hoe ](../configuration/channel-surfaces.md#deactivate-a-surface)
+
+<!--
+1. If the landing page subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)
+
+1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/modify-stop-campaign.md#stop)
+
+1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)
+-->
+
+Als u klaar bent, neemt u contact op met uw Adobe-vertegenwoordiger met het subdomein dat u wilt uitschakelen.
+
+Nadat uw verzoek door Adobe wordt behandeld, wordt het niet-gedelegeerde domein niet meer getoond op de pagina van de subdomeininventaris.
+
+>[!CAUTION]
+>
+>Nadat een subdomein niet is gedelegeerd:
+>
+>   * U kunt de kanaalconfiguraties die dat subdomein gebruikten, niet opnieuw activeren.
+>   * U kunt exacte subdomein niet opnieuw delegeren via de gebruikersinterface. Neem desgewenst contact op met uw Adobe-vertegenwoordiger.
