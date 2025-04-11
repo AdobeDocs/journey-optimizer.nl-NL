@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inPubliek, functie, expressie, reis
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 6e733e94e492fb46014e140b90e2aa47d64d584f
+source-git-commit: 385e27fd4ea34f6a10b8da6b99a2c888edf9d57e
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '227'
 ht-degree: 3%
 
 ---
@@ -36,6 +36,11 @@ Slechts zullen de individuen met de **Realized** status van de publieksparticipa
 `inAudience('audienceName') == true` betekent dat u een segmentLidmaatschap met de ingegaan status hebt.
 
 `inAudience('audienceName') == false` betekent dat u een segmentLidmaatschap van de verlaten status hebt.
+
+
+>[!IMPORTANT]
+>
+>Als u de naam van een bestaand publiek wijzigt, worden niet automatisch verwijzingen naar dat publiek in uw reisuitdrukkingen bijgewerkt. Als uw voorwaardenknooppunt `inAudience('oldAudienceName')` gebruikt, moet u de expressie handmatig bewerken om de nieuwe naam te gebruiken. Als dit niet gebeurt, wordt de reisconditie verbroken.
 
 ## Categorie
 
@@ -65,7 +70,3 @@ Uitleg:
 
 De functie retourneert **[!UICONTROL true]** als de persoon binnen de reisinstantie deel uitmaakt van het Adobe Experience Platform-publiek met de naam &quot;men boven 50&quot;, anders **[!UICONTROL false]** .
 
-
->[!CAUTION]
->
->Als u de naam van een bestaand publiek wijzigt, worden niet automatisch verwijzingen naar dat publiek in uw reisuitdrukkingen bijgewerkt. Als uw voorwaardenknoop inAudience (&#39;oldAudienceName&#39;) gebruikt, moet u de uitdrukking manueel uitgeven om de nieuwe naam te gebruiken. Als dit niet gebeurt, wordt de reisconditie verbroken.
