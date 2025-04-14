@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: extern, API, optimaliseren, aftopping
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
+source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 62%
+source-wordcount: '1014'
+ht-degree: 49%
 
 ---
 
@@ -21,13 +21,14 @@ Met de Throttling-API kunt u uw throttling-configuraties maken, configureren en 
 
 Deze sectie bevat algemene informatie over het werken met de API. Een gedetailleerde API beschrijving is beschikbaar in [ documentatie van Adobe Journey Optimizer APIs ](https://developer.adobe.com/journey-optimizer-apis/).
 
->[!IMPORTANT]
->
->Momenteel is slechts één configuratie per organisatie toegestaan. Een configuratie moet worden gedefinieerd voor een productiesandbox (gegeven via x-sandbox-name in de headers).
->
->Een configuratie wordt toegepast op organisatieniveau.
->
->Wanneer de in de API ingestelde limiet is bereikt, worden verdere gebeurtenissen maximaal 6 uur in de wachtrij geplaatst. Deze waarde kan niet worden gewijzigd.
+## Lees hier meer
+
+* **Één configuratie per organisatie:** slechts wordt één configuratie momenteel toegestaan per organisatie. Er moet een configuratie worden gedefinieerd in een productiesandbox (opgegeven via `x-sandbox-name` in de koppen).
+* **organisatie-vlakke toepassing:** de configuratie van A wordt toegepast op organisatieniveau.
+* **API grens behandeling:** wanneer de grens die in API wordt geplaatst wordt bereikt, worden de verdere gebeurtenissen een rij gevormd tot 6 uren. Deze waarde kan niet worden gewijzigd.
+* **`maxHttpConnections`parameter:** De parameter &#39;maxHttpConnections&#39; is een optionele parameter die beschikbaar is in de API voor uitlijnen, maar u alleen toestaat het aantal verbindingen te beperken dat Journey Optimizer opent voor het externe systeem. [ Leer hoe te met het Kappen API ](../configuration/capping.md) te werken
+
+  Als u het aantal verbindingen wilt beperken maar die externe vraag ook wilt vertragen, kunt u twee configuraties, één throttling en één het in kaart brengen, op het zelfde eindpunt vormen. Beide configuraties kunnen voor één eindpunt coëxisteren. Als u &#39;maxHttpConnections&#39; wilt instellen voor een vertraagd eindpunt, gebruikt u de Throttling-API om de vertragingsdrempel en de Capping-API in te stellen om &#39;maxHttpConnections&#39; in te stellen. Wanneer u de API voor uitsnijden aanroept, kunt u de drempelwaarde voor uitlijnen instellen op iets hoger dan de drempelwaarde voor vertragen, zodat de uitlijningsregel in feite nooit wordt toegepast.
 
 ## Throttling API description &amp; Postman collection {#description}
 
