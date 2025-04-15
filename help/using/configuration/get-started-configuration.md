@@ -1,39 +1,58 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Begonnen krijgen met  [!DNL Journey Optimizer]  configuratie
-description: Leer meer over  [!DNL Journey Optimizer]  configuratie
+title: Begonnen krijgen met  [!DNL Journey Optimizer]  kanaalconfiguratie
+description: Leer meer over  [!DNL Journey Optimizer]  kanaalconfiguratie
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configuratie, configureren, berichten, kanaal, sandbox, optimaliseren
-source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
+source-git-commit: e052cf9bcd42cecbaaeb9047990ed603dd0730a0
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 10%
+source-wordcount: '244'
+ht-degree: 5%
 
 ---
 
 
-# Aan de slag met [!DNL Journey Optimizer] -configuratie {#start-optimizer-configuration}
+# Aan de slag met kanaalconfiguratie {#start-optimizer-configuration}
 
 Wanneer u [!DNL Journey Optimizer] voor het eerst opent, beschikt u over een productiesandbox en kunt u een bepaald aantal IP&#39;s toewijzen, afhankelijk van uw contract.
 
-Als u uw reizen wilt maken en berichten wilt verzenden, moet u de onderstaande configuratiestappen doorlopen.
 
-## Berichten en kanalen configureren
+Om berichten te kunnen verzenden, moet u door de hieronder vermelde configuratiestappen gaan:
 
-1. Om berichten te kunnen tot stand brengen en verzenden, moet u specifieke configuraties afhankelijk van het kanaal uitvoeren.
+1. Als [ het systeembeheerder van Adobe Journey Optimizer ](../start/path/administrator.md), bepaal uw kanaalconfiguraties. Leer hoe u deze configuraties instelt op de volgende pagina&#39;s:
 
-   * Voor het **E-mail** kanaal, moet u subdomeinen aan Adobe delegeren en IP pools creëren om samen IP adressen te groeperen. [Meer informatie](../email/get-started-email-config.md)
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../email/get-started-email-config.md"><img alt="email" src="../channels/assets/do-not-localize/email.png"></a>
+<div align="center"><a href="../email/get-started-email-config.md"><strong> E-mail </strong></a></div></td>
+<td><a href="../sms/sms-configuration.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a>
+<div align="center"><a href="../sms/sms-configuration.md"><strong> SMS </strong></a></div></td>
+<td><a href="../push/push-configuration.md"><img alt="duwen" src="../channels/assets/do-not-localize/push.png"></a>
+<div align="center"><a href="../push/push-configuration.md"><strong> Push bericht </strong></a></div></td>
+<td><a href="../direct-mail/direct-mail-configuration.md"><img alt="direct mail" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
+<div align="center"><a href="../direct-mail/direct-mail-configuration.md"><strong>Direct mail</strong></a></div></td>
+</tr></table>
 
-   * Voor het **Push** kanaal, moet u duw berichten montages in zowel [!DNL Adobe Experience Platform] als [!DNL Adobe Experience Platform Launch] bepalen. [Meer informatie](../push/push-configuration.md)
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../in-app/inapp-configuration.md"><img alt="in-app" src="../channels/assets/do-not-localize/inapp.jpg"></a>
+<div align="center"><a href="../in-app/inapp-configuration.md"><strong> In-app </strong></a></div></td>
+<td><a href="../web/web-configuration.md"><img alt="web" src="../channels/assets/do-not-localize/web.jpg"></a>
+<div align="center"><a href="../web/web-configuration.md"><strong> Web </strong></a></div></td>
+<td><a href="../code-based/code-based-configuration.md"><img alt="code-gebaseerde ervaring" src="../channels/assets/do-not-localize/code.png"></a>
+<div align="center"><a href="../code-based/code-based-configuration.md"><strong> op code-gebaseerde ervaring </strong></a></div></td>
+<td><a href="../content-card/content-card-configuration-prereq.md"><img alt="inhoudskaarten" src="../channels/assets/do-not-localize/cards.png"></a>
+<div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong> kaarten van de Inhoud </strong></a></div></td>
+</tr></table>
 
-   * Voor het **kanaal van SMS**, moet u uw instantie vormen om SMS te verzenden, met inbegrip van het integreren van de leveranciersmontages met [!DNL Journey Optimizer]. [Meer informatie](../sms/sms-configuration.md)
+>[!NOTE]
+>
+>Voor mobiele kanalen, vergemakkelijkt de [ Geleide kanaalopstelling ](set-mobile-config.md) de snelle configuratie van marketing kanalen, die alle vereiste middelen verzekeren gemakkelijk beschikbaar binnen Experience Platform, Journey Optimizer, en de Inzameling van Gegevens zijn. Hierdoor kan uw marketingteam beginnen met campagne en het creëren van reizen.
 
-1. Zodra gedaan, moet u **kanaalconfiguraties** tot stand brengen om alle technische parameters te vormen die worden vereist om berichten te leveren. [Meer informatie](channel-surfaces.md)
+1. Zodra gedaan, moet u **kanaalconfiguraties** tot stand brengen om alle technische parameters te vormen die worden vereist om berichten te leveren. [ leer meer over kanaalconfiguraties ](channel-surfaces.md)
 
 1. U kunt ook het volgende doen:
 
@@ -44,21 +63,3 @@ Als u uw reizen wilt maken en berichten wilt verzenden, moet u de onderstaande c
    * Vorm **bedrijfsregels** om te vermijden oversolicitating uw ontvangers. [Meer informatie](../configuration/rule-sets.md)
 
    * Bepaal welk e-mailadres en/of telefoonnummer als prioriteit voor uw ontvangers moet worden gebruikt wanneer er in Adobe Experience Platform verschillende adressen/nummers beschikbaar zijn. [Meer informatie](primary-email-addresses.md)
-
-<!--* Understand the push notification flow. [Learn more](../push/push-gs.md)-->
-
->[!NOTE]
->
->Deze stappen moeten door een [ het systeembeheerder van Adobe Journey Optimizer ](../start/path/administrator.md) worden uitgevoerd.
-
-## Reizen configureren
-
-Als u ritten wilt maken, moet u **[!UICONTROL Data Sources]** , **[!UICONTROL Events]** en **[!UICONTROL Actions]** configureren. [Meer informatie](about-data-sources-events-actions.md)
-
-![](assets/admin-menu.png)
-
-* De **gegevensbron** configuratie staat u toe om een verbinding aan een systeem te bepalen om extra informatie terug te winnen die in uw reizen zal worden gebruikt. [Meer informatie](../datasource/about-data-sources.md)
-
-* **Gebeurtenissen** staan u toe om uw reizen unitatically te teweegbrengen om berichten, in real time, naar het individu te verzenden dat in de reis stroomt. In de gebeurtenisconfiguratie, vormt u de gebeurtenissen die in de reizen worden verwacht. De data van binnenkomende gebeurtenissen worden genormaliseerd volgens het Adobe Experience Data Model (XDM). Gebeurtenissen komen van de Streaming Ingestie-API&#39;s voor geverifieerde en niet-geverifieerde gebeurtenissen (zoals Adobe Mobile SDK-gebeurtenissen). [Meer informatie](../event/about-events.md)
-
-* [!DNL Journey Optimizer] wordt geleverd met ingebouwde berichtmogelijkheden waarmee u uw inhoud kunt ontwerpen en verzenden. Als u een derdesysteem gebruikt om uw berichten te verzenden, creeer a **douaneactie**. [Meer informatie](../action/action.md)
