@@ -5,11 +5,10 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-badge: label="Beperkte beschikbaarheid"
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
-source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
+source-git-commit: 4c0605d6ccff5cd62ef7aeb04e0610342d7cc3d5
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -29,10 +28,10 @@ Dit omvat details met betrekking tot de beslissingsitems en de manier waarop geb
 
 Als u met Customer Journey Analytics werkt, kunt u aangepaste rapporteringsdashboards voor uw op code-gebaseerde campagnes tot stand brengen die Beslissing gebruiken.
 
-De belangrijkste stappen worden hieronder weergegeven. De gedetailleerde informatie over hoe te met Customer Journey Analytics te werken is beschikbaar in de [ documentatie van Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing) {target="_blank"}.
+De belangrijkste stappen worden hieronder weergegeven. De gedetailleerde informatie over hoe te met Customer Journey Analytics te werken is beschikbaar in de [ documentatie van Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing){target="_blank"}.
 
-1. Creeer en vorm a **verbinding** in Customer Journey Analytics. Dit staat u toe om met de dataset te verbinden u rapporten voor wilt. [ leer hoe te om een verbinding ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection) tot stand te brengen {target="_blank"}
+1. Creeer en vorm a **verbinding** in Customer Journey Analytics. Dit staat u toe om met de dataset te verbinden u rapporten voor wilt. [ leer hoe te om een verbinding ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"} tot stand te brengen
 
-1. Creeer a **gegevensmening** en associeer het aan de eerder gemaakte verbinding. Kies op het tabblad **[!UICONTROL Components]** de relevante schemavelden die u wilt weergeven in de rapportage. Voor Beslissing, zorg ervoor u **propositioninteract** en **propositiondisplay** gebieden omvat. [ leer hoe te om gegevensmeningen ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview) tot stand te brengen en te vormen {target="_blank"}
+1. Creeer a **gegevensmening** en associeer het aan de eerder gemaakte verbinding. Kies op het tabblad **[!UICONTROL Components]** de relevante schemavelden die u wilt weergeven in de rapportage. Voor Beslissing, zorg ervoor u **propositioninteract** en **propositiondisplay** gebieden omvat. [ leer hoe te om gegevensmeningen tot stand te brengen en te vormen ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
 
-1. Combineer gegevenscomponenten, lijsten en visualisaties in **werkruimteprojecten** om rapporten voor uw op code-gebaseerde campagne tot stand te brengen en te delen. [ leer hoe te om werkruimteprojecten ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects) {target="_blank"} tot stand te brengen
+1. Combineer gegevenscomponenten, lijsten en visualisaties in **werkruimteprojecten** om rapporten voor uw op code-gebaseerde campagne tot stand te brengen en te delen. [ Leer hoe te om werkruimteprojecten ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"} tot stand te brengen
