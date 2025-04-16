@@ -8,9 +8,9 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: web, subdomeinen, configuratie
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
+source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1028'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ ht-degree: 0%
 >title="Een websubdomein instellen"
 >abstract="Selecteer een subdomein in de lijst met subdomeinen die zijn gedelegeerd aan Adobe. U kunt dit websubdomein instellen als het standaardsubdomein, maar er kan slechts één standaardsubdomein tegelijk worden gebruikt."
 
+## Aan de slag met websubdomeinen {#gs-web-subdomains}
+
 Wanneer het ontwerpen van Webervaringen, als u inhoud toevoegt die uit de [ Adobe Experience Manager Assets ](../integrations/assets.md) bibliotheek komt, moet u opstelling subdomain die zal worden gebruikt om deze inhoud te publiceren.
 
 U kunt een subdomein gebruiken dat al aan Adobe is gedelegeerd, of u kunt een ander subdomein vormen. Leer meer over het delegeren van subdomeinen aan Adobe in [ deze sectie ](../configuration/delegate-subdomain.md).
@@ -46,7 +48,9 @@ U kunt verscheidene Websubdomeinen tot stand brengen, maar slechts zal het **geb
 
 ## Websubdomeinen openen en beheren {#access-web-subdomains}
 
-1. Ga naar het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** en selecteer vervolgens **[!UICONTROL Web settings]** > **[!UICONTROL Web subdomains]** . Alle subdomeinen die zijn ingesteld met de huidige sandbox worden weergegeven.
+Voer de volgende stappen uit om subdomeinen te openen voor webervaringen:
+
+1. Blader naar het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** en selecteer vervolgens **[!UICONTROL Web settings]** > **[!UICONTROL Web subdomains]** . Alle subdomeinen die zijn ingesteld met de huidige sandbox worden weergegeven.
 
    ![](assets/web-access-subdomains.png)
 
@@ -62,7 +66,7 @@ U kunt verscheidene Websubdomeinen tot stand brengen, maar slechts zal het **geb
 
 ## Een bestaand subdomein gebruiken {#web-use-existing-subdomain}
 
-Voer de onderstaande stappen uit als u een subdomein wilt gebruiken dat al is gedelegeerd aan Adobe.
+Als u een subdomein wilt gebruiken dat al is gedelegeerd aan Adobe, voert u de volgende stappen uit:
 
 1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** en selecteer vervolgens **[!UICONTROL Web settings]** > **[!UICONTROL Web subdomains]** .
 
@@ -94,7 +98,6 @@ Voer de onderstaande stappen uit als u een subdomein wilt gebruiken dat al is ge
 >id="ajo_admin_web_subdomain_dns"
 >title="De overeenkomende DNS-record genereren"
 >abstract="Als u een nieuw websubdomein wilt configureren, moet u de Adobe-servergegevens kopiëren die in de Journey Optimizer-interface worden weergegeven en deze plakken in uw domeinhostingoplossing om het overeenkomende DNS-record te genereren. Als de controles zijn voltooid, kan het subdomein worden gebruikt om inhoud te publiceren die afkomstig is uit de Adobe Experience Manager Assets-bibliotheek."
-
 
 Door gebrek, [!DNL Journey Optimizer] staat u toe om **tot 10 subdomeinen** in totaal (het behandelen van zowel e-mail als Webkanalen) af te vaardigen. Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen delegeren. Neem contact op met uw Adobe-contactpersoon voor meer informatie over het aantal subdomeinen waarop u recht hebt.
 

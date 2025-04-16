@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdomein, delegatie, domein, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
+source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1966'
 ht-degree: 5%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 5%
 >id="ajo_admin_subdomainname_header"
 >title="Subdomeindelegatie"
 >abstract="Als u e-mailberichten wilt verzenden, delegeert u uw subdomein naar Adobe. Zodra gedaan, DNS verslagen, inboxes, afzender, antwoord aan en stuitend adressen zullen voor u worden gevormd."
+
+## Aan de slag met e-mailsubdomeinen {#gs-delegate-subdomain}
 
 De domeinnaamdelegatie is een methode die de eigenaar van een domeinnaam (technisch: een DNS-zone) toestaat om een onderverdeling van de domeinnaam (technisch: een DNS-zone eronder, die een subzone kan worden genoemd) aan een andere entiteit te delegeren. In feite kunt u als klant, als u de zone &quot;example.com&quot; afhandelt, de subzone &quot;marketing.example.com&quot; delegeren aan Adobe. Leer meer over [ subdomain delegatie ](about-subdomain-delegation.md)
 

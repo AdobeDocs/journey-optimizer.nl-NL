@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 keywords: landen, landingspagina, subdomeinen, configuratie
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
+source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ ht-degree: 0%
 >title="Een voorinstelling voor een openingspagina maken"
 >abstract="Als u een voorinstelling voor een bestemmingspagina wilt maken, moet u ervoor zorgen dat u eerder ten minste één subdomein van de bestemmingspagina hebt geconfigureerd om te kiezen uit de lijst met subdomeinnamen."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Voorinstellingen voor openingspagina&#39;s maken"
+
+## Aan de slag met het landen van subdomeinen van pagina&#39;s {#gs-lp-subdomains}
 
 Om het landen van pagina te kunnen [ tot stand brengen stelt ](lp-presets.md) vooraf in, moet u opstelling subdomeinen u voor uw het landen pagina&#39;s zult gebruiken.
 

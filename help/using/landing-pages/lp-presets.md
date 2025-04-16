@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 keywords: landen, landen pagina, vormen, milieu, subdomein, vooraf instelt
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '340'
 ht-degree: 2%
 
 ---
@@ -22,11 +22,15 @@ ht-degree: 2%
 >title="Een voorinstelling voor een openingspagina maken"
 >abstract="Als u een bestemmingspagina wilt maken en deze via Journey Optimizer wilt gebruiken, moet u een voorinstelling voor een bestemmingspagina maken die het te gebruiken subdomein bevat."
 
-Wanneer [ creërend een het landen pagina ](../landing-pages/create-lp.md#create-a-lp), moet u een het landen vooraf ingestelde pagina selecteren om de het landen pagina en hefboomwerking het door **[!DNL Journey Optimizer]** te kunnen bouwen.
+## Aan de slag met voorinstellingen voor openingspagina {#gs-lp-presets}
+
+Wanneer [ creërend een het landen pagina ](../landing-pages/create-lp.md#create-a-lp), moet u een het landen vooraf ingestelde pagina selecteren om de het landen pagina en hefboomwerking het door **[!DNL Journey Optimizer]** te kunnen bouwen. De voorinstelling bevat het subdomein dat moet worden gebruikt voor de bestemmingspagina&#39;s die op deze voorinstelling zijn gebaseerd.
+
+Voordat u een voorinstelling maakt, moet u controleren of u eerder minstens één subdomein van de bestemmingspagina hebt geconfigureerd. [ Leer hoe te om een het landen pagina subdomain ](lp-subdomains.md) tot stand te brengen.
 
 ## Voorinstellingen voor openingspagina&#39;s openen {#access-lp-presets}
 
-Volg onderstaande stappen om voorinstellingen voor openingspagina&#39;s te openen.
+Volg onderstaande stappen om voorinstellingen voor openingspagina&#39;s te openen:
 
 1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** .
 
@@ -40,13 +44,9 @@ Volg onderstaande stappen om voorinstellingen voor openingspagina&#39;s te opene
 
 ## Een voorinstelling voor een openingspagina maken {#lp-create-preset}
 
-Voer de onderstaande stappen uit om een voorinstelling voor een openingspagina te maken.
+Voer de onderstaande stappen uit om een voorinstelling voor een openingspagina te maken:
 
->[!NOTE]
->
->Als u een voorinstelling wilt maken, moet u ervoor zorgen dat u eerder ten minste één subdomein van de bestemmingspagina hebt geconfigureerd. [ leer hoe ](lp-subdomains.md)
-
-1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** en selecteer vervolgens **[!UICONTROL Landing page settings]** > **[!UICONTROL Landing page presets]** .
+1. Blader door het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** en selecteer vervolgens **[!UICONTROL Landing page settings]** > **[!UICONTROL Landing page presets]** .
 
 1. Selecteer **[!UICONTROL Create landing page preset]**.
 
@@ -54,21 +54,17 @@ Voer de onderstaande stappen uit om een voorinstelling voor een openingspagina t
 
 1. Voer een naam en een beschrijving in voor de voorinstelling.
 
-   >[!NOTE]
-   >
-   > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook onderstrepingsteken `_` -, punt `.` - en afbreekstreepjes `-` gebruiken.
+   Namen moeten beginnen met een letter (A-Z) en mogen alleen alfanumerieke tekens, onderstrepingsteken `_` , punt `.` en afbreekstreepje `-` bevatten.
 
 1. Selecteer een subdomein van een bestemmingspagina in de vervolgkeuzelijst.
 
    ![](assets/lp_preset-subdomain.png)
 
-   >[!NOTE]
-   >
-   >Om een subdomein te kunnen selecteren, zorg ervoor u eerder minstens één het landen paginasubdomain hebt gevormd. [ leer hoe ](#lp-subdomains)
+   Om een subdomein te kunnen selecteren, zorg ervoor u eerder minstens één het landen paginasubdomain hebt gevormd. [ leer hoe ](#lp-subdomains)
 
    De instellingen die overeenkomen met de geselecteerde subdomeinweergave.
 
-1. Als u het subdomein van de bestemmingspagina voor het volgen URL wilt selecteren, controleer de **[!UICONTROL Same as landing page subdomain]** optie. [ Leer meer over het volgen ](../email/message-tracking.md)
+1. U kunt het subdomein van de bestemmingspagina voor het volgen URL selecteren door de optie **[!UICONTROL Same as landing page subdomain]** te controleren. [ Leer meer over het volgen ](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 
