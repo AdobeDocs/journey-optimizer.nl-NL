@@ -7,20 +7,20 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 621f9bcb32d108490e7674778ce40385938af18e
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 1%
 
 ---
 
-# Integreren met andere oplossingen {#integration}
+# Integratie met andere oplossingen {#integration}
 
 Met Adobe Journey Optimizer kunt u deze gegevens eenvoudig beheren, behouden en exporteren naar platforms of systemen die deel uitmaken van uw technologiestapel. Deze integratie helpt u om uw specifieke gebruiksgevallen aan te pakken en het functionele bereik van Adobe Journey Optimizer uit te breiden.
 
 >[!NOTE]
 >
-> Voortgebouwd op Adobe Experience Platform, wordt Adobe Journey Optimizer native verbonden met [ Adobe Real-time het Profiel van de Klant ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl) {target="_blank"}. Deze ingebouwde gegevensbron is vooraf geconfigureerd en is ontworpen om gegevens op te halen en te gebruiken uit het Real-time profiel van de Klant (bijvoorbeeld, controleer of de persoon die een reis is aangegaan een klant is of niet). Hiermee kunt u de gegevens van het profiel en de gegevens van Experience Events gebruiken. [Meer informatie](../datasource/adobe-experience-platform-data-source.md).
+> Voortgebouwd op Adobe Experience Platform, wordt Adobe Journey Optimizer native verbonden met [ Adobe Real-time het Profiel van de Klant ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}. Deze ingebouwde gegevensbron is vooraf geconfigureerd en is ontworpen om gegevens op te halen en te gebruiken uit het Real-time profiel van de Klant (bijvoorbeeld, controleer of de persoon die een reis is aangegaan een klant is of niet). Hiermee kunt u de gegevens van het profiel en de gegevens van Experience Events gebruiken. [Meer informatie](../datasource/adobe-experience-platform-data-source.md).
 >
 
 ## Adobe Customer Journey Analytics {#integration-cja}
@@ -82,13 +82,13 @@ Leer meer over [ Journey Optimizer + Campaign Standard ](../building-journeys/us
 
 Met de Adobe Journey Optimizer-modules in Adobe Workfront kunt u records maken, lezen, bijwerken of verwijderen, of een aangepaste API-aanroep naar de Adobe Journey Optimizer API uitvoeren.
 
-Een overzicht van de belangrijkste stap van deze integratie is beschikbaar [ in dit blogpost ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685) {target="_blank"}.
+Een overzicht van de belangrijkste stap van deze integratie is beschikbaar [ in dit blogbericht ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
 
-Leer meer over Journey Optimizer + Adobe Workfront [ in de documentatie van Adobe Workfront ](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html) {target="_blank"}.
+Leer meer over Journey Optimizer + Adobe Workfront [ in de documentatie van Adobe Workfront ](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html){target="_blank"}.
 
 ## Aangepaste kanalen {#integration-custom}
 
-Als u een systeem van de derde gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, gebruik douaneacties om met uw reis te verbinden. Bijvoorbeeld, kunt u met de volgende systemen met douaneacties verbinden: Epsilon, Slack, [ Adobe Developer ](https://developer.adobe.com) {target="_blank"}, Vuurbasis, enz.
+Als u een systeem van de derde gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, gebruik douaneacties om met uw reis te verbinden. Bijvoorbeeld, kunt u met de volgende systemen met douaneacties verbinden: Epsilon, Slack, [ Adobe Developer ](https://developer.adobe.com){target="_blank"}, Vuurbasis, enz.
 
 Aangepaste acties zijn aanvullende acties die door technische gebruikers worden gedefinieerd en beschikbaar worden gesteld aan verkopers. Als deze eenmaal zijn geconfigureerd, worden ze in de categorie **[!UICONTROL Action]** weergegeven in het linkerpalet van uw reis. Leer meer op [ deze pagina ](../building-journeys/about-journey-activities.md#action-activities).
 

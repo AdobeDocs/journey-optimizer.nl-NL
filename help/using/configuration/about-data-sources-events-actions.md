@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: configuratie, reis, dashboard, gegevensbronnen, gebeurtenissen, acties
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 65b7b8323e37a0143a3941af1b9c2fb8b595a376
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 30%
+source-wordcount: '453'
+ht-degree: 29%
 
 ---
 
@@ -23,9 +23,11 @@ ht-degree: 30%
 >title="Informatie over reisconfiguratie"
 >abstract="Om berichten met reizen te verzenden, moet u Gegevensbronnen, Gebeurtenissen en Acties vormen. Met behulp van gegevensbronnen kunt u een verbinding met een systeem definiëren om aanvullende informatie op te halen die tijdens uw reizen wordt gebruikt, bijvoorbeeld onder uw omstandigheden. Met gebeurtenissen kunt u uw reizen starten wanneer een gebeurtenis wordt ontvangen. Met aangepaste acties kunt u verbinding maken met een systeem van derden om uw berichten te verzenden. Als u ingebouwde berichtmogelijkheden van Journey Optimizer gebruikt, hoeft u geen actie te configureren."
 
-Als u berichten met ritten wilt verzenden, moet u **[!UICONTROL Data Sources]** , **[!UICONTROL Events]** en **[!UICONTROL Actions]** configureren.
+Voor het verzenden van berichten met ritten is het nodig **[!UICONTROL Data Sources]** , **[!UICONTROL Events]** en **[!UICONTROL Actions]** te configureren.
 
 ![](assets/admin-menu.png)
+
+U kunt ook verbindingen met externe systemen configureren via aangepaste gegevensbronnen en aangepaste handelingen. Zo kunt u bijvoorbeeld uw reizen verrijken met gegevens die afkomstig zijn van een extern reserveringssysteem, of berichten verzenden via een systeem van derden, zoals Epsilon of Facebook. Leer hoe te [ Journey Optimizer met externe systemen ](external-systems.md) integreren.
 
 ## Gegevensbronnen {#data-sources}
 
@@ -45,7 +47,7 @@ Journey Optimizer-berichtmogelijkheden zijn ingebouwd: u hoeft alleen een kanaal
 
 Bij het definiëren van een [gebeurtenispayload](../event/about-creating.md#define-the-payload-fields), een [veldengroep-payload](../datasource/configure-data-sources.md#define-field-groups) en het selecteren van velden in de [expressie-editor](../building-journeys/expression/expressionadvanced.md) wordt naast de veldnaam ook de weergavenaam weergegeven. Deze informatie wordt opgehaald uit de schemadefinitie in het Gegevenservaringmodel.
 
-Als er beschrijvingen als xdm:alternateDisplayInfo worden opgegeven tijdens het instellen van schema’s, worden de weergavenamen vervangen door de gebruikersvriendelijke namen. Dit is vooral handig wanneer u werkt met &quot;eVars&quot; en algemene velden. U kunt beschrijvers van vriendschappelijke namen via een API vraag vormen. Voor meer informatie, zie de [ gids van de de ontwikkelaar van de Registratie van het Schema ](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) {target="_blank"}.
+Als er beschrijvingen als xdm:alternateDisplayInfo worden opgegeven tijdens het instellen van schema’s, worden de weergavenamen vervangen door de gebruikersvriendelijke namen. Dit is vooral handig wanneer u werkt met &quot;eVars&quot; en algemene velden. U kunt beschrijvers van vriendschappelijke namen via een API vraag vormen. Zie de [ontwikkelaarshandleiding voor schemaregistratie](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html){target="_blank"} voor meer informatie.
 
 ![](assets/xdm-from-descriptors.png)
 

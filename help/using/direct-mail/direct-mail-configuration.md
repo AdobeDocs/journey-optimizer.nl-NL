@@ -1,22 +1,22 @@
 ---
-title: Directe-mailconfiguratie
-description: Leer hoe u direct-mailkanaal kunt configureren in Journey Optimizer
+title: Configuratie van direct mail
+description: Meer informatie over het configureren van het direct mail-kanaal in Journey Optimizer
 feature: Direct Mail, Surface
 topic: Content Management
 role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
+source-git-commit: 65b7b8323e37a0143a3941af1b9c2fb8b595a376
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1280'
 ht-degree: 1%
 
 ---
 
-# Directe-mailconfiguratie {#direct-mail-configuration}
+# Configuratie van direct mail {#direct-mail-configuration}
 
-Met [!DNL Journey Optimizer] kunt u de bestanden die worden vereist door directe-mailproviders aanpassen en genereren om e-mail naar uw klanten te sturen.
+[!DNL Journey Optimizer] Hiermee kunt u de bestanden personaliseren en genereren die direct mailproviders nodig hebben om e-mail naar uw klanten te sturen.
 
 Wanneer [ creërend een direct-mailbericht ](../direct-mail/create-direct-mail.md), bepaalt u de gerichte publieksgegevens, met inbegrip van de gekozen contactinformatie (postadres bijvoorbeeld). Er wordt dan automatisch een bestand met deze gegevens gegenereerd en geëxporteerd naar een server, waar uw directe-mailprovider het bestand kan ophalen en de daadwerkelijke verzending kan verzorgen.
 
@@ -24,7 +24,7 @@ Voordat u dit bestand kunt genereren, moet u het volgende maken:
 
 1. [ dossier dat van A configuratie ](#file-routing-configuration) verplettert om de server te specificeren waar het dossier zal worden uitgevoerd en het dossier coderen, indien nodig.
 
-1. [ de direct-mailconfiguratie van A ](#direct-mail-configuration) die het dossier zal van verwijzingen voorzien dat configuratie verplettert. Als u geen dossier gevormd hebt dat optie verplettert, zult u geen directe-mailconfiguratie kunnen tot stand brengen.
+1. [ de direct-mailconfiguratie van A ](#direct-mail-configuration) die verwijzingen het dossier dat configuratie verplettert. Als u geen dossier gevormd hebt dat optie verplettert, zult u geen directe-mailconfiguratie kunnen tot stand brengen.
 
 
 >[!CAUTION]
@@ -39,7 +39,7 @@ Voordat u dit bestand kunt genereren, moet u het volgende maken:
 >id="ajo_dm_file_routing_details"
 >title="Definieer het bestand dat de configuratie verplettert"
 >abstract="Nadat u een direct-mailbericht hebt gemaakt, wordt het bestand met de doelpublieksgegevens gegenereerd en geëxporteerd naar een server. U moet de serverdetails specificeren zodat uw direct-mailleverancier tot dat dossier voor levering direct-mail kan toegang hebben en gebruiken."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="Een direct-mailbericht maken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="Een direct mail-bericht maken"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
@@ -49,17 +49,17 @@ Voordat u dit bestand kunt genereren, moet u het volgende maken:
 >[!CONTEXTUALHELP]
 >id="ajo_dm_select_file_routing"
 >title="Configuratie van bestandsroutering"
->abstract="Selecteer het dossier dat configuratie van uw keus verplettert, die bepaalt waar het dossier voor uw direct-mailleverancier aan gebruik zal worden uitgevoerd."
+>abstract="Selecteer de configuratie voor bestandsroutering van uw keuze, die bepaalt waar het bestand wordt geëxporteerd voor gebruik door uw directmailprovider."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="Selecteer het servertype voor uw bestand"
->abstract="Kies welk type server u wilt gebruiken voor het exporteren van uw direct-mailbestanden: Amazon S3, SFTP, Azure of Data Landing Zone."
+>abstract="Kies welk type server u wilt gebruiken voor het exporteren van uw direct mail-bestanden: Amazon S3, SFTP, Azure of Data Landing Zone."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
->title="Kies het AWS-gebied"
->abstract="Selecteer het geografische gebied van de AWS-server waarop u uw bestanden voor directe e-mail wilt exporteren. In het algemeen verdient het de voorkeur het gebied te kiezen dat het dichtst bij de locatie van uw directe-mailprovider ligt."
+>title="Kies de AWS-regio"
+>abstract="Selecteer de geografische regio van de AWS-server waar u uw direct mail-bestanden wilt exporteren. Over het algemeen heeft het de voorkeur om de regio te kiezen die het dichtst bij de locatie van uw direct mail-provider ligt."
 
 >[!NOTE]
 >
@@ -91,7 +91,7 @@ Als u **[!UICONTROL Amazon S3]** als **[!UICONTROL Server type]** hebt geselecte
 
 * **de emmer van AWS**:Om te weten waar te om uw het emmernaam van AWS te vinden, verwijs naar [ deze pagina ](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
 
-* **de toegangssleutel van AWS**: Om te weten waar te om uw de toegangs belangrijkste identiteitskaart van AWS te vinden, verwijs naar [ deze pagina ](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
+* **AWS-toegangssleutel**: Raadpleeg deze pagina](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys) om te weten waar u uw AWS-toegangssleutel-ID [kunt vinden.
 
 * **geheime sleutel van AWS**: Om te weten waar te om uw geheime sleutel van AWS te vinden, verwijs naar [ deze pagina ](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
 
@@ -129,7 +129,7 @@ Als u **[!UICONTROL Azure]** als **[!UICONTROL Server type]** hebt geselecteerd,
 
 * **Naam van de Container**: Om uw **Naam van de Container** te vinden, verwijs naar [ deze pagina ](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
 
-  De **Naam van de Container** zou slechts de naam van de container zonder enige schuine strepen moeten bevatten.
+  De **containernaam** mag alleen de naam van de container bevatten, zonder schuine strepen.
 
   >[!NOTE]
   >
@@ -143,15 +143,15 @@ Als u **[!UICONTROL Data Landing Zone]** als **[!UICONTROL Server type]** hebt g
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-Alle klanten van [!DNL Adobe Experience Platform] zijn provisioned met één container van de Landing van de Zone van Gegevens per zandbak. Leer meer over Gegevens het Landing Zone in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone) {target="_blank"}.
+Alle klanten van [!DNL Adobe Experience Platform] zijn provisioned met één container van de Landing van de Zone van Gegevens per zandbak. Leer meer over Gegevens het Landing Zone in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 
-Als u het bestand wilt versleutelen, kopieert en plakt u de coderingssleutel in het veld **[!UICONTROL PGP/GPG encryption key]** .
+Om het bestand te versleutelen, kopieert en plakt u uw coderingssleutel in het **[!UICONTROL PGP/GPG encryption key]** veld.
 
-Selecteer **[!UICONTROL Submit]** als u de gegevens voor het servertype hebt ingevuld. Het dossier dat configuratie verplettert wordt gecreeerd met de **[!UICONTROL Active]** status. Het is nu klaar om in a [ direct-mailconfiguratie ](#direct-mail-surface) worden gebruikt.
+Nadat u de gegevens voor uw servertype heeft ingevuld, selecteert u **[!UICONTROL Submit]**. De configuratie van de bestandsroutering wordt gemaakt met de **[!UICONTROL Active]** status. Het is nu klaar om te worden gebruikt in een [direct mail-configuratie](#direct-mail-surface).
 
-U kunt **[!UICONTROL Save as draft]** ook selecteren om het dossier tot stand te brengen dat configuratie verplettert, maar u zult het niet in een configuratie kunnen selecteren tot het **[!UICONTROL Active]** is.
+U kunt er ook voor kiezen **[!UICONTROL Save as draft]** om de configuratie voor bestandsroutering te maken, maar u kunt deze pas in een configuratie selecteren als deze is **[!UICONTROL Active]**.
 
 ## Een configuratie voor direct mail maken {#direct-mail-surface}
 
@@ -180,7 +180,7 @@ Een direct-mailconfiguratie moet ook het dossier omvatten dat configuratie verpl
 
    ![](assets/direct-mail-config-1.png)
 
-1. Voer een naam en beschrijving (optioneel) voor de configuratie in en selecteer vervolgens het kanaal dat u wilt configureren.
+1. Voer een naam en een beschrijving (optioneel) in voor de configuratie en selecteer vervolgens het kanaal dat u wilt configureren.
 
    >[!NOTE]
    >
@@ -192,17 +192,17 @@ Een direct-mailconfiguratie moet ook het dossier omvatten dat configuratie verpl
 
    ![](assets/direct-mail-config-2.png)
 
-1. Selecteer **[!UICONTROL Marketing action]**(s) om het toestemmingsbeleid aan de berichten te associëren gebruikend deze configuratie. Alle toestemmingsbeleid verbonden aan de marketing actie wordt gebruikt om de voorkeur van uw klanten te respecteren. [Meer informatie](../action/consent.md#surface-marketing-actions)
+1. Selecteer **[!UICONTROL Marketing action]**(en) om toestemmingsbeleid te koppelen aan de berichten die deze configuratie gebruiken. Al het toestemmingsbeleid dat verband houdt met de marketingactie wordt gebruikt om de voorkeuren van uw klanten te respecteren. [Meer informatie](../action/consent.md#surface-marketing-actions)
 
-1. Definieer de instellingen voor directe e-mail in de specifieke sectie van de kanaalconfiguratie.
+1. Definieer de instellingen voor direct mail in het speciale gedeelte van de kanaalconfiguratie.
 
    ![](assets/surface-direct-mail-settings.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
-1. Selecteer de bestandsindeling: **[!UICONTROL CSV]** of **[!UICONTROL Text delimited]** .
+1. Selecteer het bestandsformaat: **[!UICONTROL CSV]** of **[!UICONTROL Text delimited]**.
 
-1. Als u **[!UICONTROL Text delimited]** selecteert, definieert u het kolomscheidingsteken van uw keuze: tabulatie, puntkomma, pipe of en ampersand.
+1. Als u selecteert **[!UICONTROL Text delimited]**, definieert u het kolomscheidingsteken van uw keuze: tabel, puntkomma, pijp of ampersand.
 
    ![](assets/surface-direct-mail-column-separator.png)
 
