@@ -2,10 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: De activiteit AND-join gebruiken
-description: Leer hoe u de AND-join-activiteit gebruikt in een multi-step campagne
+description: Leer hoe u de AND-join-activiteit gebruikt in een georkestreerde campagne
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -17,11 +18,11 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join"
 >title="AND-join-activiteit"
->abstract="De **en-sluit zich aan** activiteit staat u toe om veelvoudige uitvoeringstakken van een multi-step campagne te synchroniseren. De regeling wordt in werking gesteld zodra alle voorgaande activiteiten zijn beëindigd. Op deze manier kunt u ervoor zorgen dat bepaalde activiteiten zijn voltooid voordat u doorgaat met het uitvoeren van de meerstapscampagne."
+>abstract="De **en-sluit zich aan** activiteit staat u toe om veelvoudige uitvoeringstakken van een georkestreerde campagne te synchroniseren. De regeling wordt in werking gesteld zodra alle voorgaande activiteiten zijn beëindigd. Op deze manier kunt u ervoor zorgen dat bepaalde activiteiten zijn voltooid voordat u doorgaat met het uitvoeren van de georkestreerde campagne."
 
-De **en-sluit zich aan** activiteit is de controle **activiteit van de a** Stroom. Hiermee kunt u meerdere uitvoertakken van een campagne met meerdere stappen synchroniseren.
+De **en-sluit zich aan** activiteit is de controle **activiteit van de a** Stroom. Hiermee kunt u meerdere uitvoeringstakken van een georkestreerde campagne synchroniseren.
 
-Deze activiteit brengt slechts zijn uitgaande overgang teweeg zodra alle binnenkomende overgangen worden geactiveerd, met andere woorden, zodra alle voorafgaande activiteiten zijn geëindigd. Op deze manier kunt u ervoor zorgen dat bepaalde activiteiten zijn voltooid voordat u doorgaat met het uitvoeren van de meerstapscampagne.
+Deze activiteit brengt slechts zijn uitgaande overgang teweeg zodra alle binnenkomende overgangen worden geactiveerd, met andere woorden, zodra alle voorafgaande activiteiten zijn geëindigd. Hierdoor kunt u ervoor zorgen dat bepaalde activiteiten zijn voltooid voordat u doorgaat met het uitvoeren van de georkestreerde campagne.
 
 ## Vorm en verbind activiteit{#and-join-configuration}
 
@@ -41,6 +42,6 @@ Voer de volgende stappen uit om de **EN-lid** activiteit te vormen:
 
 ## Voorbeeld{#and-join-example}
 
-In het volgende voorbeeld ziet u twee etappes voor campagnes in meerdere stappen met een e-mail- en sms-levering. EN-toetreden zal teweegbrengen wanneer beide binnenkomende overgangen worden toegelaten. De pushberichten worden dan pas verzonden nadat beide leveringen zijn voltooid.
+In het volgende voorbeeld worden twee georkestreerde campagnevertakkingen getoond met een e-mail- en sms-levering. EN-toetreden zal teweegbrengen wanneer beide binnenkomende overgangen worden toegelaten. De pushberichten worden dan pas verzonden nadat beide leveringen zijn voltooid.
 
 ![](../assets/workflow-andjoin-example.png){zoomable="yes"}

@@ -5,7 +5,8 @@ title: De verrijkingsactiviteit gebruiken
 description: Leer hoe u de verrijkingsactiviteit kunt gebruiken
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '1985'
 ht-degree: 0%
@@ -24,7 +25,7 @@ De **Verrijking** activiteit is a **richtend** activiteit. Hiermee kunt u de doe
 
 Verrijkingsgegevens kunnen worden verkregen:
 
-* **van de zelfde het werklijst** zoals die in uw multi-step campagne wordt gericht:
+* **van de zelfde het werklijst** zoals die in uw georkestreerde campagne wordt gericht:
 
   *Doel een groep klanten en voeg het &quot;datum&quot;gebied van de Geboorteplaats aan de huidige het werklijst* toe.
 
@@ -32,9 +33,9 @@ Verrijkingsgegevens kunnen worden verkregen:
 
   *Beoogd een groep klanten en voeg de &quot;Bedrag&quot;en &quot;Type van product&quot;gebieden toe die uit de &quot;lijst van de Aankoop&quot;komen*.
 
-Zodra de verrijkingsgegevens aan de multi-step campagne zijn toegevoegd, kan het in de activiteiten worden gebruikt die na de **Verrijking** activiteit worden toegevoegd om klanten in verschillende groepen te segmenteren die op hun gedrag, voorkeur, en behoeften worden gebaseerd, of gepersonaliseerde marketing berichten en campagnes tot stand te brengen die waarschijnlijker met uw doelpubliek zullen resoneren.
+Zodra de verrijkingsgegevens aan de georkestreerde campagne zijn toegevoegd, kan het in de activiteiten worden gebruikt die na de **Verrijking** activiteit worden toegevoegd om klanten in verschillende groepen te segmenteren die op hun gedrag, voorkeur, en behoeften worden gebaseerd, of om gepersonaliseerde marketing berichten en campagnes tot stand te brengen die waarschijnlijker zijn om met uw doelpubliek te resoneren.
 
-U kunt bijvoorbeeld informatie over aankopen van klanten toevoegen aan de werktabel met meerdere stappen voor campagnes en deze gegevens gebruiken om de e-mails aan uw wensen aan te passen met hun laatste aankoop of het bedrag dat aan deze aankopen is besteed.
+U kunt bijvoorbeeld informatie over aankopen van klanten toevoegen aan de georkestreerde tabel met campagnebewerkingen en deze gegevens gebruiken om de e-mails aan uw wensen aan te passen met hun meest recente aankoop of met het bedrag dat aan deze aankopen is besteed.
 
 ## Een verrijkingsactiviteit toevoegen {#enrichment-configuration}
 
@@ -42,19 +43,19 @@ Volg deze stappen om de **1} activiteit van de Verrijking {te vormen:**
 
 1. Voeg activiteiten zoals **toe bouwt publiek** en **combineer** activiteiten.
 1. Voeg een **Verrijking** activiteit toe.
-1. Als er meerdere overgangen zijn geconfigureerd in uw campagne met meerdere stappen, kunt u het veld **[!UICONTROL Primary set]** gebruiken om te bepalen welke overgang moet worden gebruikt als primaire set om te verrijken met gegevens.
+1. Als er meerdere overgangen zijn geconfigureerd in uw georkestreerde campagne, kunt u het veld **[!UICONTROL Primary set]** gebruiken om te definiëren welke overgang moet worden gebruikt als primaire set om te verrijken met gegevens.
 
 ## Verrijkingsgegevens toevoegen {#enrichment-add}
 
 >[!CONTEXTUALHELP]
 >id="ajo_targetdata_personalization_enrichmentdata"
 >title="Verrijkingsgegevens"
->abstract="Selecteer de gegevens die u wilt gebruiken om uw campagne met meerdere stappen te verrijken. U kunt twee soorten verrijkingsgegevens selecteren: één enkel verrijkingsattribuut van de doelafmeting, of een inzamelingsverbinding, die een verbinding met een 1-N kardinaliteit tussen lijsten is."
+>abstract="Selecteer de gegevens die u wilt gebruiken om uw georkestreerde campagne te verrijken. U kunt twee soorten verrijkingsgegevens selecteren: één enkel verrijkingsattribuut van de doelafmeting, of een inzamelingsverbinding, die een verbinding met een 1-N kardinaliteit tussen lijsten is."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_data"
 >title="Verrijkingsactiviteit"
->abstract="Zodra de verrijkingsgegevens aan de multi-step campagne zijn toegevoegd, kan het in de activiteiten worden gebruikt die na de activiteit van de Verrijking worden toegevoegd om klanten in verschillende groepen te segmenteren die op hun gedrag, voorkeur, en behoeften worden gebaseerd, of om gepersonaliseerde marketing berichten en campagnes tot stand te brengen die eerder met uw doelpubliek zullen resoneren."
+>abstract="Zodra de verrijkingsgegevens aan de georkestreerde campagne zijn toegevoegd, kan het in de activiteiten worden gebruikt die na de activiteit van de Verrijking worden toegevoegd om klanten in verschillende groepen te segmenteren die op hun gedrag, voorkeur, en behoeften worden gebaseerd, of om gepersonaliseerde marketing berichten en campagnes te creëren die eerder met uw doelpubliek zullen resoneren."
 
 1. Klik **toevoegen verrijkingsgegevens** en selecteer de attributen om de gegevens te gebruiken te verrijken.
 
@@ -120,7 +121,7 @@ Volg de stappen om een **1} activiteit van de Verrijking {met een verzoeningsver
 1. Identificeer de gegevens u een verzoeningsverbinding met wilt tot stand brengen.
 
    * Om een verzoeningsverbinding met gegevens van het gegevensbestand van de Campagne tot stand te brengen, selecteer **schema van het Gegevensbestand** en kies het schema waar het doel wordt opgeslagen.
-   * Om een verzoeningsverbinding met gegevens tot stand te brengen die uit de inputovergang komen, selecteer **Tijdelijk schema** en kies de multi-step campagneovergang waar het doelgegeven wordt opgeslagen.
+   * Om een verzoeningsverbinding met gegevens tot stand te brengen die uit de inputovergang komen, selecteer **Tijdelijk schema** en kies de georkestreerde campagneovergang waar het doelgegeven wordt opgeslagen.
 
 1. De **gebieden van het Etiket** en **Naam** worden automatisch bevolkt gebaseerd op het geselecteerde doelschema. U kunt de waarden desgewenst wijzigen.
 
@@ -134,7 +135,7 @@ Volg de stappen om een **1} activiteit van de Verrijking {met een verzoeningsver
 
    * **Geavanceerde treedt** toe: Gebruik de vraagmodeler om de verzoeningscriteria te vormen. Om dit te doen, klik **creeer voorwaarde** knoop dan uw verzoeningscriteria door uw eigen regel te bouwen gebruikend EN EN OF verrichtingen.
 
-Het voorbeeld toont hieronder een multi-step campagne die wordt gevormd om een verbinding tussen de profielenlijst van Journey Optimizer en een tijdelijke lijst tot stand te brengen die a **dossier** activiteit van de Lading wordt geproduceerd. In dit voorbeeld, verzoent de **Verrijking** activiteit beide lijsten gebruikend het e-mailadres als verzoeningscriteria.
+Het voorbeeld toont hieronder een georkestreerde campagne die wordt gevormd om een verband tussen de profielenlijst van Journey Optimizer en een tijdelijke lijst tot stand te brengen die a **dossier** activiteit van de Lading wordt geproduceerd. In dit voorbeeld, verzoent de **Verrijking** activiteit beide lijsten gebruikend het e-mailadres als verzoeningscriteria.
 
 ![](../assets/enrichment-reconciliation.png)
 
@@ -169,7 +170,7 @@ Je kunt het voorstel nu gebruiken in de leveringsactiviteiten.
 
 ### De aanbiedingen van verrijkingsactiviteiten gebruiken
 
-Volg onderstaande stappen als u in een campagne met meerdere stappen de aanbiedingen wilt gebruiken die u van een verrijkingsactiviteit bij de levering krijgt:
+Volg onderstaande stappen als u in een georkestreerde campagne de aanbiedingen wilt gebruiken die u van een verrijkingsactiviteit bij de levering krijgt:
 
 1. Open de leveringsactiviteit en ga in de inhoudsuitgave. Klik op de knop **[!UICONTROL Offers settings]** en selecteer in de vervolgkeuzelijst de **[!UICONTROL Offers space]** die overeenkomt met uw aanbieding.
 Als u alleen de aanbiedingen van de verrijkingsactiviteit wilt weergeven, stelt u het aantal **[!UICONTROL Propositions]** in op 0 en slaat u de wijzigingen op.
@@ -257,7 +258,7 @@ Wij moeten nu het sorteren toepassen om de drie **recentste** aankopen terug te 
 
 ### Verrijking met gekoppelde gegevens {#link-example}
 
-In het onderstaande voorbeeld ziet u een campagne met meerdere stappen die is geconfigureerd om een koppeling tussen twee overgangen te maken. De eerste overgangen richten profielgegevens gebruikend de activiteit van de a **Vraag**, terwijl de tweede overgang aankoopgegevens omvat die in een dossier worden opgeslagen dat door een het dossieractiviteit van de Lading wordt geladen.
+In het onderstaande voorbeeld ziet u een geordende campagne die is geconfigureerd om een koppeling tussen twee overgangen te maken. De eerste overgangen richten profielgegevens gebruikend de activiteit van de a **Vraag**, terwijl de tweede overgang aankoopgegevens omvat die in een dossier worden opgeslagen dat door een het dossieractiviteit van de Lading wordt geladen.
 
 ![](../assets/enrichment-uc-link.png)
 
@@ -265,7 +266,6 @@ In het onderstaande voorbeeld ziet u een campagne met meerdere stappen die is ge
 
   ![](../assets/enrichment-uc-link-purchases.png)
 
-* Een tweede **Verrijking** activiteit wordt toegevoegd om gegevens van de multi-step campagnecelijst met de aankoopgegevens te verrijken die uit de **komen van het dossier van de Lading** activiteit. Op deze manier kunnen we die gegevens in verdere activiteiten gebruiken, bijvoorbeeld om berichten die aan klanten worden verzonden met informatie over hun aankoop te personaliseren.
+* Een tweede **Verrijking** activiteit wordt toegevoegd om gegevens van de georkestreerde campagnecelijst met de aankoopgegevens te verrijken die uit de **komen van het dossier van de Lading** activiteit. Op deze manier kunnen we die gegevens in verdere activiteiten gebruiken, bijvoorbeeld om berichten die aan klanten worden verzonden met informatie over hun aankoop te personaliseren.
 
   ![](../assets/enrichment-uc-link-data.png)
-

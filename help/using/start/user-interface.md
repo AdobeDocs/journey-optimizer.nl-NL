@@ -24,7 +24,7 @@ Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor
 
 >[!NOTE]
 >
->* Onderdelen en mogelijkheden die beschikbaar zijn in uw omgeving zijn afhankelijk van uw [machtigingen](../administration/permissions.md) en van uw [licentiepakket](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Neem voor alle vragen contact op met de Adobe Customer Success Manager of uw Adobe-vertegenwoordiger.
+>* De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [ toestemmingen ](../administration/permissions.md) en van uw [ vergunning gevend pakket ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af. Neem voor alle vragen contact op met de Adobe Customer Success Manager of uw Adobe-vertegenwoordiger.
 >
 >* Deze documentatie wordt vaak bijgewerkt om de laatste wijzigingen in de gebruikersinterface van het product te weerspiegelen. Sommige schermafbeeldingen kunnen echter enigszins afwijken van uw gebruikersinterface.
 >
@@ -39,9 +39,9 @@ Blader links naar de koppelingen om toegang te krijgen tot [!DNL Journey Optimiz
 >
 >Welke mogelijkheden beschikbaar zijn, is afhankelijk van uw machtigingen en licentieovereenkomst.
 
-Hieronder vindt u de volledige lijst met services en mogelijkheden die beschikbaar zijn in de linkernavigatie en links naar bijbehorende helppagina&#39;s.
+U vindt onder de volledige lijst met services en mogelijkheden in de linkernavigatie en koppelingen naar de bijbehorende Help-pagina&#39;s.
 
-### Thuis {#left-nav-home}
+### Home {#left-nav-home}
 
 De startpagina van [!DNL Journey Optimizer] bevat belangrijke koppelingen en bronnen die moeten worden gestart.
 
@@ -90,13 +90,13 @@ Uw gegevens in deze sectie beheren.
 
 * **[!UICONTROL Queries]** - Gebruik Adobe Experience Platform Query Service om query&#39;s te schrijven en uit te voeren, eerder uitgevoerde query&#39;s weer te geven en toegang te krijgen tot query&#39;s die zijn opgeslagen door gebruikers binnen uw organisatie. [Meer informatie](../data/get-started-queries.md)
 
-* **[!UICONTROL Monitoring]** - Gebruik dit menu om uw gegevensopname in de gebruikersinterface van Adobe Experience Platform te controleren. Meer informatie vindt u in de documentatie van [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html){target="_blank"}
+* **[!UICONTROL Monitoring]** - Gebruik dit menu om de gegevensinvoer in de gebruikersinterface van Adobe Experience Platform te controleren. Leer meer in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html){target="_blank"}
 
 ### [!UICONTROL CONNECTIONS] {#left-nav-connections}
 
-Beheer uw gegevensverbindingen met andere apps en clouds vanuit dit gedeelte.
+Beheer uw gegevensverbindingen met andere apps en wolken vanuit deze sectie.
 
-* **[!UICONTROL Sources]** - Gebruik dit menu om gegevens op te nemen uit verschillende bronnen, zoals Adobe-toepassingen, cloudopslag, databases en meer. U kunt binnenkomende gegevens structureren, labelen en verbeteren. [Meer informatie](get-started-sources.md)
+* **[!UICONTROL Sources]** - Gebruik dit menu om gegevens uit diverse bronnen in te voeren, zoals Adobe-toepassingen, opslag in de cloud, databases en meer. U kunt inkomende gegevens structureren, labelen en verbeteren. [Meer informatie](get-started-sources.md)
 
 * **[!UICONTROL Destinations]** - Gebruik dit menu om een live verbinding met opslaglocaties in de cloud te maken om de inhoud van uw gegevenssets te exporteren. [Meer informatie](../data/export-datasets.md)
 
@@ -118,11 +118,11 @@ Beheer uw privacybeheer en verzoeken vanuit deze sectie.
 
 * **[!UICONTROL Policies]** - Met Adobe Experience Platform kunt u labels toewijzen aan uw velden en marketingacties maken voor elk kanaal. Vervolgens definieert u een governancebeleid dat gekoppeld is aan een label en een marketingactie. [Meer informatie](../action/action-privacy.md)
 
-* **[!UICONTROL Requests]** - Privacyverzoeken worden beheerd in de Adobe Experience Platform Privacy Service. Het biedt een RESTful API en gebruikersinterface om u te helpen bij het beheren van verzoeken om klantgegevens. [Meer informatie](../privacy/requests.md)
+* **[!UICONTROL Requests]** - Privacyverzoeken worden beheerd in de Adobe Experience Platform Privacy Service. Het verstrekt RESTful API en gebruikersinterface om u te helpen de verzoeken van klantgegevens beheren. [Meer informatie](../privacy/requests.md)
 
-* **[!UICONTROL Audit]** - Blader naar dit gedeelte om de activiteitenlogboeken te bekijken. [Meer informatie](../privacy/audit-logs.md)
+* **[!UICONTROL Audit]** - Blader naar deze sectie om activiteitenlogboeken te controleren. [Meer informatie](../privacy/audit-logs.md)
 
-* **[!UICONTROL Data Lifecycle]** - In deze sectie kunt u levenscyclusbewerkingen van gegevens configureren en plannen, zodat uw records correct worden bijgehouden. [Meer informatie](../privacy/data-hygiene.md)
+* **[!UICONTROL Data Lifecycle]** - In deze sectie kunt u de levenscyclusbewerkingen van gegevens configureren en plannen, zodat uw records op de juiste wijze worden onderhouden. [Meer informatie](../privacy/data-hygiene.md)
 
 ### [!UICONTROL ADMINISTRATION] {#left-nav-admin}
 
@@ -132,7 +132,7 @@ Beheer uw privacybeheer en verzoeken vanuit deze sectie.
 
 * **[!UICONTROL Business rules]** - Gebruik deze sectie om dwars-kanaal bedrijfsregels tot stand te brengen om te controleren hoe vaak de gebruikers een bericht ontvangen, of een reis ingaan. [Meer informatie](../configuration/rule-sets.md)
 
-* **[!UICONTROL Alerts]** - Met de gebruikersinterface kunt u een geschiedenis van ontvangen waarschuwingen bekijken op basis van metrische gegevens die zijn onthuld door Adobe Experience Platform Observability Insights. Met de gebruikersinterface kunt u ook beschikbare waarschuwingsregels bekijken, in- en uitschakelen. [Meer informatie](../reports/alerts.md)
+* **[!UICONTROL Alerts]** - De gebruikersinterface staat u toe om een geschiedenis van ontvangen alarm te bekijken die op metriek wordt gebaseerd die door de Inzichten van de Waarneming van Adobe Experience Platform wordt onthuld. UI staat u ook toe om, beschikbare waakzame regels te bekijken toe te laten en onbruikbaar te maken. [Meer informatie](../reports/alerts.md)
 
 * **[!UICONTROL Sandboxes]** - Adobe Experience Platform biedt sandboxen die één instantie in afzonderlijke virtuele omgevingen verdelen om toepassingen voor digitale ervaringen te ontwikkelen en te ontwikkelen. Blader in deze sectie om uw sandboxen te beheren. [Meer informatie](../administration/sandboxes.md)
 
@@ -140,9 +140,9 @@ Beheer uw privacybeheer en verzoeken vanuit deze sectie.
 
 * **[!UICONTROL Tags]** - Met Verenigde Markeringen, kunt u uw reizen en campagnes gemakkelijk classificeren om onderzoek van de lijsten te verbeteren. [Meer informatie](../start/search-filter-categorize.md#work-with-unified-tags)
 
-## Gebruiksscenario&#39;s in het product {#in-product-uc}
+## Gebruiksgevallen in producten {#in-product-uc}
 
-Vanaf [!DNL Adobe Journey Optimizer] de startpagina bieden productgebruiksscenario&#39;s snelle invoer om testprofielen of uw eerste klantreizen te maken.
+Vanaf de startpagina van [!DNL Adobe Journey Optimizer] bieden productgebruiksgevallen een snelle invoer voor het maken van testprofielen of voor het eerst afleggen van een reis naar een klant.
 
 ![](assets/use-cases-home.png)
 
@@ -236,13 +236,13 @@ De taal wijzigen:
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_decision_attribute"
->title="Selecteer beslissingskenmerken uit de catalogus"
->abstract="Beslissingskenmerken worden opgeslagen in het schema van de catalogus. Selecteer een kenmerk dat u hier wilt gebruiken uit de geselecteerde catalogus."
+>title="Beslissingskenmerken selecteren uit catalogus"
+>abstract="Beslissingskenmerken worden opgeslagen in het schema van de catalogus. Selecteer een kenmerk dat u hier wilt gebruiken in de geselecteerde catalogus."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_decision_policy"
 >title="Beslissingsbeleid"
->abstract="Met een beslissingsbeleid kunt u de beste items uit de beslissingsengine kiezen en aan elke doelgroep leveren."
+>abstract="Met een beslissingsbeleid kunt u de beste items kiezen uit de beslissingsengine en leveren aan elk publiek."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_placements"
@@ -254,7 +254,7 @@ De taal wijzigen:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
 >title="Droog je reis"
->abstract="Nadat u de reis hebt ontworpen, voert u een droge run uit om te bevestigen dat deze functioneel is en dat de stappen correct zijn. Met deze publicatiemodus kunt u een reis testen, zonder communicatie naar een profiel te sturen."
+>abstract="Nadat u de reis hebt ontworpen, voert u een droge run uit om te bevestigen dat deze functioneel is en dat de stappen correct zijn. Met deze publicatiemodus kunt u een reis roken zonder dat u de communicatie naar een profiel hoeft te sturen."
 
 
 
@@ -263,4 +263,4 @@ De taal wijzigen:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_decision_policy"
 >title="Een beslissingsbeleid definiëren"
->abstract="A Decision policy allows you to pick the best items from decision engine and deliver them to the right audience."
+>abstract="Met een beslissingsbeleid kunt u de beste items kiezen uit de beslissingsengine en ze aan het juiste publiek leveren."

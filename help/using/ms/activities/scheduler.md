@@ -2,10 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: De planningsactiviteit gebruiken
-description: Leer hoe u de Planneractiviteit in een meerfasencampagne kunt gebruiken
+description: Leer hoe u de planneractiviteit in een georkestreerde campagne kunt gebruiken
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: da77a0bf-7b17-40fc-b2cb-2f0940152e64
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 6%
@@ -18,16 +19,16 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="Planningsactiviteit"
->abstract="De **Planner** activiteit staat u toe om te plannen wanneer de multi-step campagne begonnen wordt. Deze activiteit moet worden beschouwd als een geplande start. Het kan alleen worden gebruikt als de eerste activiteit van de meerfasencampagne."
+>abstract="De **Planner** activiteit staat u toe om te plannen wanneer de georkestreerde campagne begonnen wordt. Deze activiteit moet worden beschouwd als een geplande start. Het kan alleen worden gebruikt als de eerste activiteit van de georkestreerde campagne."
 
 
-De **planner** activiteit is de controle **activiteit van de a** Stroom. Zo kunt u plannen wanneer de campagne met meerdere stappen wordt gestart. Deze activiteit moet worden beschouwd als een geplande start. Het kan alleen worden gebruikt als de eerste activiteit van de meerfasencampagne.
+De **planner** activiteit is de controle **activiteit van de a** Stroom. Zo kunt u plannen wanneer de georkestreerde campagne van start gaat. Deze activiteit moet worden beschouwd als een geplande start. Het kan alleen worden gebruikt als de eerste activiteit van de georkestreerde campagne.
 
 ## Best practices{#scheduler-best-practices}
 
-* Plan geen campagne in meerdere stappen om meer dan om de 15 minuten uit te voeren, aangezien dit de algehele systeemprestaties kan belemmeren en blokken in de database kan maken.
-* Als u één-schot levering in uw multi-step campagne wilt verzenden, kunt u een planneractiviteit toevoegen en het plaatsen om **eens** in werking te stellen. U kunt het **Programma** in de montages van de levering ook bepalen.
-* Als u een terugkomende levering in uw multi-step campagne wilt verzenden, moet u a **Planner** activiteit gebruiken en de uitvoeringsfrequentie plaatsen. De terugkomende leveringsactiviteit staat u niet toe om een programma te bepalen.
+* Plan geen georkestreerde campagne om meer dan om de 15 minuten in werking te stellen aangezien het algemene systeemprestaties kan belemmeren en tot blokken in het gegevensbestand kan leiden.
+* Als u één-schot levering in uw georkestreerde campagne wilt verzenden, kunt u een planneractiviteit toevoegen en het plaatsen om **eens** in werking te stellen. U kunt het **Programma** in de montages van de levering ook bepalen.
+* Als u een terugkomende levering in uw geordende campagne wilt verzenden, moet u a **Planner** activiteit gebruiken en de uitvoeringsfrequentie plaatsen. De terugkomende leveringsactiviteit staat u niet toe om een programma te bepalen.
 
 ## De planningsactiviteit configureren {#scheduler-configuration}
 
@@ -46,36 +47,36 @@ Volg deze stappen om de **Planner** activiteit te vormen:
 
 ![](../assets/workflow-scheduler.png)
 
-1. Voeg a **Planner** activiteit aan uw multi-step campagne toe.
+1. Voeg a **Planner** activiteit aan uw geordende campagne toe.
 
 1. Vorm de **frequentie van de Uitvoering**:
 
-   * **Eenmaal**: De multi-step campagne wordt uitgevoerd één keer.
+   * **Eenmaal**: De georkestreerde campagne wordt uitgevoerd één keer.
 
-   * **Dagelijks**: de multi-step campagne wordt uitgevoerd op een specifiek tijdstip, eens per dag.
+   * **Dagelijks**: De georkestreerde campagne wordt uitgevoerd op een specifiek tijdstip, eens per dag.
 
-   * **verscheidene tijden per dag:** de multi-step campagne wordt regelmatig uitgevoerd verscheidene keren per dag. U kunt uitvoeringen instellen op specifieke tijdstippen of periodiek.
+   * **verscheidene tijden per dag:** de georkestreerde campagne wordt regelmatig uitgevoerd verscheidene keren per dag. U kunt uitvoeringen instellen op specifieke tijdstippen of periodiek.
 
-   * **Wekelijks**: de multi-step campagne wordt uitgevoerd op een gespecificeerd moment, eens of verscheidene keren per week.
+   * **Wekelijks**: de georkestreerde campagne wordt uitgevoerd op een gespecificeerd ogenblik, één of verscheidene tijden per week.
 
-   * **Maandelijks**: de multi-step campagne wordt uitgevoerd op een gespecificeerd moment, eens of verscheidene tijden per maand. U kunt maanden selecteren, wanneer u de multi-step campagne moet uitvoeren. U kunt uitvoeringen ook instellen op bepaalde weekdagen van de maand, zoals de tweede dinsdag van de maand.
+   * **Maandelijks**: De georkestreerde campagne wordt uitgevoerd op een gespecificeerd moment, eens of verscheidene tijden per maand. U kunt maanden selecteren wanneer u de georkestreerde campagne moet uitvoeren. U kunt uitvoeringen ook instellen op bepaalde weekdagen van de maand, zoals de tweede dinsdag van de maand.
 
 1. Definieer de details van de uitvoering op basis van de geselecteerde frequentie. De detailvelden variëren, afhankelijk van de gebruikte frequentie (tijd, herhalingsfrequentie, opgegeven dagen, enz.).
 
-1. Klik **de lanceringstijden van de Voorproef** om het programma van volgende tien uitvoeringen van uw multi-step campagne te controleren.
+1. Klik **de lanceringstijden van de Voorproef** om het programma van volgende tien uitvoeringen van uw georkestreerde campagne te controleren.
 
 1. Bepaal de geldigheidsperiode van de planner:
 
-   * **Permanent (verloopt nooit)**: de multi-step campagne wordt uitgevoerd, volgens de gespecificeerde frequentie, zonder enige grenzen aan het tijdkader of aantal herhalingen.
+   * **Vaste (verloopt nooit)**: de georkestreerde campagne wordt uitgevoerd, volgens de gespecificeerde frequentie, zonder enige grenzen aan het tijdkader of aantal herhalingen.
 
-   * **Geldigheidsperiode**: de multi-step campagne wordt uitgevoerd volgens de gespecificeerde frequentie, tot een specifieke datum. U moet begin- en einddatums opgeven.
+   * **Geldigheidsperiode**: de georkestreerde campagne wordt uitgevoerd volgens de gespecificeerde frequentie, tot een specifieke datum. U moet begin- en einddatums opgeven.
 
 >[!NOTE]
 >
->Als u de multi-step campagne wilt onmiddellijk beginnen, kunt u **klikken in afwachting van taak** in de hoogste actiebar van de planner uitvoeren. Deze knop is alleen beschikbaar wanneer u de campagne voor meerdere stappen hebt gestart.
+>Als u de georkestreerde campagne direct wilt beginnen, kunt u **klikken in afwachting van taak uitvoeren** in de hoogste actiebar van de planner. Deze knop is alleen beschikbaar wanneer u de georkestreerde campagne hebt gestart.
 
 ## Voorbeeld{#scheduler-example}
 
-In het volgende voorbeeld, wordt de activiteit gevormd zodat de multi-step campagne verscheidene keren per dag om 9 en 12 AM, elke dag van de week van 1 Oktober, 2025 aan 1 Januari, 2026 loopt.
+In het volgende voorbeeld, wordt de activiteit gevormd zodat de georkestreerde campagne verscheidene keren per dag om 9 en 12 AM, elke dag van de week van 1 Oktober, 2025 aan 1 Januari, 2026 loopt.
 
 ![](../assets/workflow-scheduler2.png)

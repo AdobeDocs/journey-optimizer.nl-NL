@@ -2,10 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: De activiteit Splitsen gebruiken
-description: Leer hoe u de activiteit Splitsen gebruikt in een campagne die uit meerdere stappen bestaat
+description: Leer hoe u de activiteit Splitsen gebruikt in een geordende campagne
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%
@@ -26,7 +27,7 @@ De **Gesplitste** activiteit is a **richtend** activiteit die u toestaat om inko
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_segments"
 >title="Segmenten voor splitsingsactiviteit"
->abstract="Voeg zoveel subsets toe als u wilt om de binnenkomende populatie te segmenteren.<br/></br> wanneer de **Gesplitste** activiteit wordt uitgevoerd, wordt de bevolking gesegmenteerd over de verschillende ondergroepen in de orde zij aan de activiteit worden toegevoegd. Voordat u de campagne in meerdere stappen start, moet u de subsets met de pijlknoppen in de gewenste volgorde plaatsen."
+>abstract="Voeg zoveel subsets toe als u wilt om de binnenkomende populatie te segmenteren.<br/></br> wanneer de **Gesplitste** activiteit wordt uitgevoerd, wordt de bevolking gesegmenteerd over de verschillende ondergroepen in de orde zij aan de activiteit worden toegevoegd. Voordat u de georkestreerde campagne start, moet u de subsets met de pijlknoppen in de gewenste volgorde plaatsen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
@@ -65,7 +66,7 @@ De **Gesplitste** activiteit is a **richtend** activiteit die u toestaat om inko
 
 Volg deze stappen om de **Gesplitste** activiteit te vormen:
 
-1. Voeg a **Gesplitste** activiteit aan uw multi-step campagne toe.
+1. Voeg a **Gesplitste** activiteit aan uw geordende campagne toe.
 
 1. Het deelvenster voor activiteitenconfiguratie wordt geopend met een standaardsubset. Klik **toevoegen segment** knoop om zo vele ondergroepen toe te voegen zoals gewenst om de inkomende bevolking te segmenteren.
 
@@ -75,9 +76,9 @@ Volg deze stappen om de **Gesplitste** activiteit te vormen:
    >
    >Wanneer de **Gesplitste** activiteit wordt uitgevoerd, wordt de bevolking gesegmenteerd over de verschillende ondergroepen in de orde zij aan de activiteit worden toegevoegd. Als de eerste subset bijvoorbeeld 70% van de oorspronkelijke populatie herstelt, past de volgende toegevoegde subset zijn selectiecriteria alleen toe op de resterende 30%, enzovoort.
    >
-   >Voordat u de campagne in meerdere stappen start, moet u ervoor zorgen dat u de subsets in de volgorde hebt geplaatst die aan uw behoeften voldoet. Hiervoor gebruikt u de pijlknoppen om de positie van een subset te wijzigen.
+   >Voordat u de georkestreerde campagne start, moet u ervoor zorgen dat u de subsets in de gewenste volgorde hebt geplaatst. Hiervoor gebruikt u de pijlknoppen om de positie van een subset te wijzigen.
 
-1. Nadat subsets zijn toegevoegd, toont de activiteit evenveel uitvoerovergangen als er subsets zijn. We raden u ten zeerste aan het label van elke subset te wijzigen om deze gemakkelijk te identificeren in het campagnecanvas met meerdere stappen.
+1. Nadat subsets zijn toegevoegd, toont de activiteit evenveel uitvoerovergangen als er subsets zijn. We raden u ten zeerste aan het label van elke subset te wijzigen om deze gemakkelijk te identificeren in het georkestreerde campagneccanvas.
 
 1. Vorm hoe elke ondergroep de inkomende bevolking zou moeten filtreren. Ga als volgt te werk om dit te doen:
 
@@ -87,7 +88,7 @@ Volg deze stappen om de **Gesplitste** activiteit te vormen:
 
    1. Als u het aantal profielen wilt beperken dat door de subset wordt geselecteerd, schakelt u de optie **[!UICONTROL Enable limit]** in en geeft u het aantal of de percentages van de populatie op die u wilt opnemen.
 
-   1. Als u een overgang wilt uitschakelen als de binnenkomende populatie leeg is, schakelt u de optie **[!UICONTROL Skip empty transition]** in of uit. Als geen profiel overeenkomt met de subset, gaat de campagne met meerdere stappen niet over naar de volgende activiteit.
+   1. Als u een overgang wilt uitschakelen als de binnenkomende populatie leeg is, schakelt u de optie **[!UICONTROL Skip empty transition]** in of uit. Als geen profiel overeenkomt met de subset, gaat de georkestreerde campagne niet over naar de volgende activiteit.
 
       ![](../assets/workflow-split-subset.png)
 
@@ -104,7 +105,7 @@ Volg deze stappen om de **Gesplitste** activiteit te vormen:
    * Wanneer het vakje niet wordt gecontroleerd, zorgt de gespleten activiteit ervoor een ontvanger niet in verscheidene outputovergangen kan aanwezig zijn, zelfs als het aan de criteria van verscheidene subsets voldoet. Deze worden als doel ingesteld op het eerste tabblad met overeenkomende criteria.
    * Als het selectievakje is ingeschakeld, kunnen de ontvangers in verschillende subsets worden gevonden als ze voldoen aan hun filtercriteria. De beste manier is om exclusieve criteria te hanteren.
 
-De activiteit wordt nu gevormd. Bij de uitvoering van meerdere etappes van de campagne wordt de populatie opgedeeld in de verschillende subsets, in de volgorde waarin ze aan de activiteit zijn toegevoegd.
+De activiteit wordt nu gevormd. Bij de uitvoering van de georkestreerde campagne wordt de bevolking opgedeeld in de verschillende ondergroepen, in de volgorde waarin ze aan de activiteit zijn toegevoegd.
 
 ## Voorbeeld{#split-example}
 

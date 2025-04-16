@@ -2,10 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Gebruik de het publieksactiviteit van de Bouwstijl
-description: Leer hoe u de activiteiten van het Build-publiek kunt gebruiken in een multi-step campagne
+description: Leer hoe u de gebruikersactiviteit van de Build gebruikt in een georkestreerde campagne
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 1%
@@ -17,9 +18,9 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
 >title="Activiteit voor publiek opbouwen"
->abstract="**bouwt publieksactiviteit** toestaat u om het publiek te bepalen dat de multi-step campagne zal ingaan. Wanneer het verzenden van berichten in de context van een multi-step campagne, wordt het berichtpubliek niet bepaald in de kanaalactiviteit, maar in **bouwt publieksactiviteit**."
+>abstract="**bouwt publieksactiviteit** toestaat u om het publiek te bepalen dat de georkestreerde campagne zal ingaan. Wanneer het verzenden van berichten in de context van een geordende campagne, wordt het berichtpubliek niet bepaald in de kanaalactiviteit, maar in **bouwt publieksactiviteit**."
 
-**bouwt publieksactiviteit** is a **richtend** activiteit. Met deze activiteit kunt u het publiek definiëren dat aan de campagne met meerdere stappen deelneemt. Wanneer het verzenden van berichten in de context van een multi-step campagne, wordt het berichtpubliek niet bepaald in de kanaalactiviteit, maar in **bouwt publieksactiviteit**.
+**bouwt publieksactiviteit** is a **richtend** activiteit. Met deze activiteit kunt u het publiek definiëren dat de georkestreerde campagne zal starten. Wanneer het verzenden van berichten in de context van een geordende campagne, wordt het berichtpubliek niet bepaald in de kanaalactiviteit, maar in **bouwt publieksactiviteit**.
 
 Om de publieksbevolking te bepalen, kunt u:
 
@@ -73,6 +74,6 @@ Voer de volgende stappen uit om een bestaand publiek te selecteren:
 
 ## Voorbeelden{#build-audience-examples}
 
-Hier is een voorbeeld van een multi-step campagne met twee **het publiek van de Bouwstijl** activiteiten. De eerste is gericht op het publiek van pokerspelers, gevolgd door een e-mailbezorging. De tweede is gericht op het VIP-publiek, gevolgd door een SMS-levering.
+Hier is een voorbeeld van een georkestreerde campagne met twee **het publiek van de Bouwstijl** activiteiten. De eerste is gericht op het publiek van pokerspelers, gevolgd door een e-mailbezorging. De tweede is gericht op het VIP-publiek, gevolgd door een SMS-levering.
 
 ![](../assets/workflow-audience-example.png)
