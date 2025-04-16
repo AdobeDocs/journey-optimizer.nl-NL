@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: expression editor, data, trip
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 4a60b9f8c754e161ca156c7644d7241adb9bfc1f
+source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 61%
+source-wordcount: '717'
+ht-degree: 57%
 
 ---
 
@@ -69,6 +69,11 @@ In dit scherm kunt u uw expressie handmatig schrijven.
 Links in het scherm worden de beschikbare velden en functies weergegeven:
 
 * **[!UICONTROL Events]**: kies een van de velden die worden ontvangen van de binnenkomende gebeurtenis. De weergegeven lijst met gebeurtenisvelden is contextueel en varieert afhankelijk van de gebeurtenis(sen) die tijdens de reis zijn toegevoegd. [Meer informatie](../../event/about-events.md)
+
+  >[!CAUTION]
+  >
+  >Het gebruik van ervaringsevenementen in reisuitdrukkingen/omstandigheden wordt ondersteund, maar niet aanbevolen. Als uw gebruiksgeval het gebruik van ervaringsgebeurtenissen vereist, overweeg alternatieve methodes zoals [ gegevens verwerkte attributen ](../../audience/computed-attributes.md), of het creëren van een segment gebruikend de gebeurtenissen en het opnemen van dat segment in [`inAudience` uitdrukkingen ](../../building-journeys/functions/functioninaudience.md).
+
 * **[!UICONTROL Audiences]**: als u een **[!UICONTROL Audience qualification]** -gebeurtenis hebt neergezet, kiest u het publiek dat u in de expressie wilt gebruiken. [Meer informatie](../condition-activity.md#using-a-segment)
 * **[!UICONTROL Data Sources]**: kies een optie in de lijst met velden die beschikbaar zijn in de veldgroepen van uw gegevensbronnen. [Meer informatie](../../datasource/about-data-sources.md)
 * **[!UICONTROL Journey properties]**: in deze sectie worden de technische velden voor een bepaald profiel gegroepeerd die betrekking hebben op de reis. [Meer informatie](journey-properties.md)
