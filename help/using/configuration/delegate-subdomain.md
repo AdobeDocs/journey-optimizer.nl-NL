@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdomein, delegatie, domein, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
 workflow-type: tm+mt
-source-wordcount: '1995'
+source-wordcount: '1960'
 ht-degree: 5%
 
 ---
@@ -31,17 +31,17 @@ ht-degree: 5%
 
 De domeinnaamdelegatie is een methode die de eigenaar van een domeinnaam (technisch: een DNS-zone) toestaat om een onderverdeling van de domeinnaam (technisch: een DNS-zone eronder, die een subzone kan worden genoemd) aan een andere entiteit te delegeren. In feite kunt u als klant, als u de zone &quot;example.com&quot; afhandelt, de subzone &quot;marketing.example.com&quot; delegeren aan Adobe. Leer meer over [ subdomain delegatie ](about-subdomain-delegation.md)
 
->[!NOTE]
->
->Standaard kunt u in [!DNL Journey Optimizer] maximaal 10 subdomeinen delegeren. Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen delegeren. Neem contact op met uw Adobe-contactpersoon voor meer informatie over het aantal subdomeinen waarop u recht hebt.
+Door gebrek, [!DNL Journey Optimizer] staat u toe om **tot 10 subdomeinen** af te vaardigen. Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen delegeren. Neem contact op met uw Adobe-contactpersoon voor meer informatie over het aantal subdomeinen waarop u recht hebt.
 
 U kunt een subdomein volledig delegeren, of een subdomein tot stand brengen gebruikend CNAMEs om aan Adobe-specifieke verslagen te richten.
 
+De volledige subdomeindelegatie is de geadviseerde methode. Leer meer over de verschillen tussen beide [ methodes van de subdomeinconfiguratie ](about-subdomain-delegation.md#subdomain-delegation-methods).
+
+Subdomeinconfiguratie is **gemeenschappelijk aan alle milieu&#39;s**. Daarom heeft elke wijziging van een subdomein ook invloed op de productiesandboxen.
+
 >[!CAUTION]
 >
->De volledige subdomeindelegatie is de geadviseerde methode. Leer meer over de verschillen tussen beide [ methodes van de subdomeinconfiguratie ](about-subdomain-delegation.md#subdomain-delegation-methods).
->
->Subdomeinconfiguratie is algemeen voor alle omgevingen. Daarom zal elke wijziging aan een subdomein ook invloed hebben op de productiesandboxen.
+>Parallelle verzending van subdomeinen wordt niet ondersteund in [!DNL Journey Optimizer] . Als u een subdomein probeert te verzenden voor delegatie wanneer een ander subdomein de **[!UICONTROL Processing]** status heeft, wordt een foutbericht weergegeven.
 
 ## Subdomein volledig delegeren aan Adobe {#full-subdomain-delegation}
 
@@ -87,9 +87,7 @@ Voer de volgende stappen uit om een nieuw subdomein volledig te delegeren aan Ad
 
 1. Klik op **[!UICONTROL Submit]**.
 
-   >[!NOTE]
-   >
-   >U kunt de records maken en de subdomeinconfiguratie later verzenden met de knop **[!UICONTROL Save as draft]** . Vervolgens kunt u de subdomeindelegatie hervatten door deze te openen vanuit de lijst met subdomeinen.
+   U kunt de records maken en de subdomeinconfiguratie later verzenden met de knop **[!UICONTROL Save as draft]** . Vervolgens kunt u de subdomeindelegatie hervatten door deze te openen vanuit de lijst met subdomeinen.
 
 1. Het subdomein wordt in de lijst weergegeven met de status **[!UICONTROL Processing]** . Voor meer op de statussen van subdomeinen, verwijs naar [ deze sectie ](about-subdomain-delegation.md#access-delegated-subdomains).
 
@@ -103,15 +101,10 @@ Voer de volgende stappen uit om een nieuw subdomein volledig te delegeren aan Ad
 
 1. Zodra de controles succesvol zijn, krijgt subdomain de **[!UICONTROL Success]** status. Het is klaar om te worden gebruikt om berichten te leveren.
 
-   >[!NOTE]
-   >
-   >Het subdomein wordt gemarkeerd als **[!UICONTROL Failed]** als u er niet in slaagt de validatierecord voor uw hostoplossing te maken.
+   Het subdomein wordt gemarkeerd als **[!UICONTROL Failed]** als u er niet in slaagt de validatierecord voor uw hostoplossing te maken.
 
 Wanneer een subdomein in [!DNL Journey Optimizer] is gedelegeerd aan Adobe, wordt automatisch een PTR-record gemaakt en gekoppeld aan dit subdomein. [Meer informatie](ptr-records.md)
 
->[!CAUTION]
->
->Parallelle uitvoering van subdomeinen wordt momenteel niet ondersteund in [!DNL Journey Optimizer] . Als u een subdomein probeert te verzenden voor delegatie wanneer een ander subdomein de **[!UICONTROL Processing]** status heeft, krijgt u een foutbericht.
 
 ## Een subdomein instellen met CNAME&#39;s {#cname-subdomain-delegation}
 
@@ -147,7 +140,7 @@ Volg onderstaande stappen om een subdomein in te stellen met gebruik van CNAME&#
 
    >[!CAUTION]
    >
-   >Het delegeren van een ongeldig subdomein naar Adobe is niet toegestaan. Zorg ervoor dat u een geldig subdomein invoert dat eigendom is van uw organisatie, zoals marketing.yourcompany.com.
+   >U mag een ongeldig subdomein niet delegeren aan Adobe. Zorg ervoor om een geldig subdomein in te gaan dat **door uw organisatie** wordt bezeten, zoals marketing.yourcompany.com.
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
@@ -163,9 +156,7 @@ Volg onderstaande stappen om een subdomein in te stellen met gebruik van CNAME&#
 
 1. Klik op **[!UICONTROL Continue]**.
 
-   >[!NOTE]
-   >
-   >U kunt de records later maken met de knop **[!UICONTROL Save as draft]** . Vervolgens kunt u de subdomeindelegatie in dit stadium hervatten door deze vanuit de lijst met subdomeinen te openen.
+   U kunt de records later maken met de knop **[!UICONTROL Save as draft]** . Vervolgens kunt u de subdomeindelegatie in dit stadium hervatten door deze vanuit de lijst met subdomeinen te openen.
 
 1. Wacht tot Adobe controleert of de records zonder fouten op de hostingoplossing zijn gegenereerd. Dit proces kan tot 2 minuten duren.
 
@@ -185,23 +176,16 @@ Volg onderstaande stappen om een subdomein in te stellen met gebruik van CNAME&#
 
 1. Zodra de controles succesvol <!--i.e Adobe validates the record you created and installs it--> zijn, subdomain krijgt de **[!UICONTROL Success]** status. Het is klaar om te worden gebruikt om berichten te leveren.
 
-   >[!NOTE]
-   >
-   >Het subdomein wordt gemarkeerd als **[!UICONTROL Failed]** als u er niet in slaagt de validatierecord voor uw hostoplossing te maken.
+   Het subdomein wordt gemarkeerd als **[!UICONTROL Failed]** als u er niet in slaagt de validatierecord voor uw hostoplossing te maken.
 
 Na het valideren van de record en het installeren van het certificaat maakt Adobe automatisch de PTR-record voor het CNAME-subdomein. [Meer informatie](ptr-records.md)
 
->[!CAUTION]
->
->Parallelle uitvoering van subdomeinen wordt momenteel niet ondersteund in [!DNL Journey Optimizer] . Als u een subdomein probeert te verzenden voor delegatie wanneer een ander subdomein de **[!UICONTROL Processing]** status heeft, krijgt u een foutbericht.
 
 ## Subdomeinvalidatie {#subdomain-validation}
 
 De onderstaande controles en acties worden uitgevoerd totdat het subdomein is geverifieerd en kunnen worden gebruikt om berichten te verzenden.
 
->[!NOTE]
->
->Deze stappen worden uitgevoerd door Adobe en kunnen maximaal 3 uur in beslag nemen.
+Deze stappen worden uitgevoerd door Adobe en kunnen **tot 3 uren** nemen.
 
 1. **pre-validate**: Adobe controleert of subdomain aan Adobe DNS (NS- verslag, verslag SOA, de opstelling van de Zone, eigendomsverslag) is gedelegeerd. Als de pre-validatiestap mislukt, wordt een fout geretourneerd samen met de bijbehorende reden, anders gaat Adobe naar de volgende stap.
 
@@ -241,9 +225,7 @@ Voer eerst de volgende stappen uit in [!DNL Journey Optimizer] :
 
 1. U kunt elke landingspagina-subdomeinen, SMS-subdomeinen en websubdomeinen die aan dit subdomein zijn gekoppeld, verwijderen.
 
-   >[!NOTE]
-   >
-   >U moet een specifiek verzoek voor elke [ het landen pagina ](../landing-pages/lp-subdomains.md#undelegate-subdomain), [ SMS ](../sms/sms-subdomains.md#undelegate-subdomain), of [ Web subdomain ](../web/web-delegated-subdomains.md#undelegate-subdomain) opheffen.
+   U moet een specifiek verzoek voor elke [ het landen pagina ](../landing-pages/lp-subdomains.md#undelegate-subdomain), [ SMS ](../sms/sms-subdomains.md#undelegate-subdomain), of [ Web subdomain ](../web/web-delegated-subdomains.md#undelegate-subdomain) opheffen.
 
 1. Stop de actieve campagnes verbonden aan subdomeinen. [ leer hoe ](../campaigns/modify-stop-campaign.md#stop)
 
@@ -251,9 +233,7 @@ Voer eerst de volgende stappen uit in [!DNL Journey Optimizer] :
 
 1. Punt de [ PTR verslagen ](ptr-records.md#edit-ptr-record) verbonden aan subdomain aan een ander subdomain.
 
-   >[!NOTE]
-   >
-   >Als dit het enige gedelegeerde subdomein is, kunt u deze stap overslaan.
+   Als dit het enige gedelegeerde subdomein is, kunt u deze stap overslaan.
 
 Als u klaar bent, neemt u contact op met uw Adobe-vertegenwoordiger met het subdomein dat u wilt uitschakelen.
 

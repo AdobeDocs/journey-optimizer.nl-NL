@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 keywords: landen, landingspagina, subdomeinen, configuratie
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -38,17 +38,15 @@ Om het landen van pagina te kunnen [ tot stand brengen stelt ](lp-presets.md) vo
 
 U kunt een subdomein gebruiken dat al aan Adobe is gedelegeerd, of u kunt een ander subdomein vormen. Leer meer over het delegeren van subdomeinen aan Adobe in [ deze sectie ](../configuration/delegate-subdomain.md).
 
->[!CAUTION]
->
->Subdomeinconfiguratie van de bestemmingspagina is gemeenschappelijk voor alle milieu&#39;s. Daarom geldt het volgende:
->
->* Als u landende subdomeinen van pagina&#39;s wilt openen en bewerken, moet u over de bevoegdheid **[!UICONTROL Manage Landing Page Subdomains]** beschikken in de productiesandbox.
->
-> * Elke wijziging in een subdomein van een bestemmingspagina heeft ook invloed op de productiesandboxen.
+Het landen van pagina subdomain configuratie is **gemeenschappelijk aan alle milieu&#39;s**. Daarom geldt het volgende:
+
+* Als u landende subdomeinen van pagina&#39;s wilt openen en bewerken, moet u over de bevoegdheid **[!UICONTROL Manage Landing Page Subdomains]** beschikken in de productiesandbox.
+
+* Elke wijziging van een subdomein van een bestemmingspagina heeft ook invloed op de productiesandboxen.
 
 ## Een bestaand subdomein gebruiken {#lp-use-existing-subdomain}
 
-Voer de onderstaande stappen uit als u een subdomein wilt gebruiken dat al is gedelegeerd aan Adobe.
+Als u een subdomein wilt gebruiken dat al is gedelegeerd aan Adobe, voert u de volgende stappen uit:
 
 1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** en selecteer vervolgens **[!UICONTROL Landing page settings]** > **[!UICONTROL Landing page subdomains]** .
 
@@ -62,15 +60,11 @@ Voer de onderstaande stappen uit als u een subdomein wilt gebruiken dat al is ge
 
 1. Voer het voorvoegsel in dat wordt weergegeven in de URL van de bestemmingspagina.
 
-   >[!NOTE]
-   >
-   >Alleen alfanumerieke tekens en afbreekstreepjes zijn toegestaan.
+   Alleen alfanumerieke tekens en afbreekstreepjes zijn toegestaan.
 
 1. Selecteer een gedelegeerd subdomein in de lijst.
 
-   >[!NOTE]
-   >
-   >U kunt geen subdomein selecteren dat al wordt gebruikt als subdomein van de bestemmingspagina.
+   U kunt geen subdomein selecteren dat al wordt gebruikt als subdomein van de bestemmingspagina.
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
@@ -88,9 +82,7 @@ Voer de onderstaande stappen uit als u een subdomein wilt gebruiken dat al is ge
 
    ![](assets/lp_subdomain-processing.png)
 
-   >[!NOTE]
-   >
-   >Alvorens dat subdomain te kunnen gebruiken om berichten te verzenden, moet u wachten tot Adobe de vereiste controles uitvoert, die tot 4 uren kunnen vergen.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   Alvorens dat subdomain te kunnen gebruiken om berichten te verzenden, moet u wachten tot Adobe de vereiste controles uitvoert, die **tot 4 uren** kan nemen.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
 1. Zodra de controles succesvol zijn, krijgt subdomain de **[!UICONTROL Success]** status. Deze kan worden gebruikt om voorinstellingen voor openingspagina&#39;s te maken.
 
@@ -115,15 +107,13 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
 
    >[!CAUTION]
    >
-   >U kunt geen bestaand subdomein van een bestemmingspagina gebruiken.
+   >* U kunt geen bestaand subdomein van een bestemmingspagina gebruiken.
    >
-   >Hoofdletters zijn niet toegestaan in subdomeinen.
+   >* Hoofdletters zijn niet toegestaan in subdomeinen.
 
    Het delegeren van een ongeldig subdomein naar Adobe is niet toegestaan. Zorg ervoor dat u een geldig subdomein invoert dat eigendom is van uw organisatie, zoals marketing.yourcompany.com.
 
-   >[!NOTE]
-   >
-   >Voor bestemmingspagina&#39;s worden subdomeinen met meerdere niveaus ondersteund. U kunt bijvoorbeeld &#39;email.marketing.yourcompany.com&#39; gebruiken.
+   Voor bestemmingspagina&#39;s worden subdomeinen met meerdere niveaus ondersteund. U kunt bijvoorbeeld &#39;email.marketing.yourcompany.com&#39; gebruiken.
 
 1. Het verslag dat in uw DNS serververtoningen moet worden geplaatst. Kopieer deze record of download een CSV-bestand en navigeer vervolgens naar de oplossing voor domeinhosting om de overeenkomende DNS-record te genereren.
 
@@ -131,15 +121,11 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
 
    ![](assets/lp_add-your-own-subdomain-confirm.png)
 
-   >[!NOTE]
-   >
-   >Wanneer u een nieuw het landen paginasubdomain vormt, zal het altijd aan een verslag van de NAAM richten.
+   Wanneer u een nieuw het landen paginasubdomain vormt, richt het altijd aan een verslag CNAME.
 
 1. Nadat de subdomeindelegatie is verzonden, wordt het subdomein in de lijst weergegeven met de status **[!UICONTROL Processing]** . Voor meer op de statussen van subdomeinen, verwijs naar [ deze sectie ](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
-   >[!NOTE]
-   >
-   >Alvorens dat subdomain voor uw het landen pagina&#39;s te kunnen gebruiken, moet u wachten tot Adobe de vereiste controles uitvoert, die tot 4 uren kunnen vergen.<!--Learn more in [this section](#subdomain-validation).-->
+   Alvorens dat subdomain voor uw het landen pagina&#39;s te kunnen gebruiken, moet u wachten tot Adobe de vereiste controles uitvoert, die **tot 4 uren** kan nemen.<!--Learn more in [this section](#subdomain-validation).-->
 
 1. Zodra de controles succesvol zijn, krijgt subdomain de **[!UICONTROL Success]** status. Deze kan worden gebruikt om voorinstellingen voor openingspagina&#39;s te maken.
 
@@ -178,4 +164,5 @@ Nadat uw verzoek door Adobe wordt behandeld, wordt het niet-gedelegeerde domein 
 >Nadat een subdomein niet is gedelegeerd:
 >
 >   * U kunt de kanaalconfiguraties die dat subdomein gebruikten, niet opnieuw activeren.
+>
 >   * U kunt exacte subdomein niet opnieuw delegeren via de gebruikersinterface. Neem desgewenst contact op met uw Adobe-vertegenwoordiger.

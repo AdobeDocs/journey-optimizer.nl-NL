@@ -8,9 +8,9 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: web, subdomeinen, configuratie
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
@@ -36,13 +36,11 @@ Wanneer het ontwerpen van Webervaringen, als u inhoud toevoegt die uit de [ Adob
 
 U kunt een subdomein gebruiken dat al aan Adobe is gedelegeerd, of u kunt een ander subdomein vormen. Leer meer over het delegeren van subdomeinen aan Adobe in [ deze sectie ](../configuration/delegate-subdomain.md).
 
->[!CAUTION]
->
->De subdomeinconfiguratie van het Web is gemeenschappelijk voor alle milieu&#39;s. Daarom geldt het volgende:
->
->* Als u websubdomeinen wilt openen en bewerken, moet u beschikken over de machtiging **[!UICONTROL Manage Web Subdomains]** in de productiesandbox.
->
-> * Elke wijziging aan een websubdomein heeft ook invloed op de productiesandboxen.
+De subdomeinconfiguratie van het Web is **gemeenschappelijk aan alle milieu&#39;s**. Daarom geldt het volgende:
+
+* Als u websubdomeinen wilt openen en bewerken, moet u beschikken over de machtiging **[!UICONTROL Manage Web Subdomains]** in de productiesandbox.
+
+* Elke wijziging aan een websubdomein heeft ook invloed op de productiesandboxen.
 
 U kunt verscheidene Websubdomeinen tot stand brengen, maar slechts zal het **gebrek** subdomain worden gebruikt. U kunt het standaardwebsubdomein wijzigen, maar u kunt slechts één subdomein tegelijk gebruiken.
 
@@ -60,9 +58,7 @@ U kunt verscheidene Websubdomeinen tot stand brengen, maar slechts zal het **geb
 
    ![](assets/web-subdomain-default.png)
 
-   >[!NOTE]
-   >
-   >U kunt het standaardwebsubdomein wijzigen, maar u kunt slechts één subdomein tegelijk gebruiken.
+   U kunt het standaardwebsubdomein wijzigen, maar u kunt slechts één subdomein tegelijk gebruiken.
 
 ## Een bestaand subdomein gebruiken {#web-use-existing-subdomain}
 
@@ -86,15 +82,11 @@ Voer de onderstaande stappen uit als u een subdomein wilt gebruiken dat al is ge
 
    ![](assets/web-subdomain-details-default.png)
 
-   >[!NOTE]
-   >
-   >Slechts zal het **gebrek** subdomain worden gebruikt.
+   Slechts zal het **gebrek** subdomain worden gebruikt.
 
 1. Klik op **[!UICONTROL Submit]**. Het subdomein krijgt de **[!UICONTROL Success]** status. Het is klaar om te worden gebruikt voor uw webervaringen.
 
-   >[!NOTE]
-   >
-   >In zeer zeldzame gevallen, kon een subdomain opstelling ontbreken. In dit geval kunt u het subdomein **[!UICONTROL Failed]** verwijderen om de lijst op te schonen met de knop **[!UICONTROL Delete]** van het pictogram **[!UICONTROL More actions]** .
+   In zeer zeldzame gevallen, kon een subdomain opstelling ontbreken. In dit geval kunt u het subdomein **[!UICONTROL Failed]** verwijderen om de lijst op te schonen met de knop **[!UICONTROL Delete]** van het pictogram **[!UICONTROL More actions]** .
 
 ## Een nieuw subdomein configureren {#web-configure-new-subdomain}
 
@@ -103,11 +95,10 @@ Voer de onderstaande stappen uit als u een subdomein wilt gebruiken dat al is ge
 >title="De overeenkomende DNS-record genereren"
 >abstract="Als u een nieuw websubdomein wilt configureren, moet u de Adobe-servergegevens kopiëren die in de Journey Optimizer-interface worden weergegeven en deze plakken in uw domeinhostingoplossing om het overeenkomende DNS-record te genereren. Als de controles zijn voltooid, kan het subdomein worden gebruikt om inhoud te publiceren die afkomstig is uit de Adobe Experience Manager Assets-bibliotheek."
 
-Volg onderstaande stappen om een nieuw subdomein te configureren.
 
->[!NOTE]
->
->In [!DNL Journey Optimizer] kunt u standaard maximaal 10 subdomeinen delegeren (voor zowel e-mail- als webkanalen). Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen delegeren. Neem contact op met uw Adobe-contactpersoon voor meer informatie over het aantal subdomeinen waarop u recht hebt.
+Door gebrek, [!DNL Journey Optimizer] staat u toe om **tot 10 subdomeinen** in totaal (het behandelen van zowel e-mail als Webkanalen) af te vaardigen. Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen delegeren. Neem contact op met uw Adobe-contactpersoon voor meer informatie over het aantal subdomeinen waarop u recht hebt.
+
+Volg onderstaande stappen om een nieuw subdomein te configureren:
 
 1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** en selecteer vervolgens **[!UICONTROL Web settings]** > **[!UICONTROL Web subdomains]** .
 
@@ -119,17 +110,15 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
 
    >[!CAUTION]
    >
-   >U kunt geen bestaand websubdomein gebruiken.
+   >* U kunt geen bestaand websubdomein gebruiken.
    >
-   >Hoofdletters zijn niet toegestaan in subdomeinen.
+   >* Hoofdletters zijn niet toegestaan in subdomeinen.
 
    ![](assets/web-add-your-own-domain.png)
 
    Het delegeren van een ongeldig subdomein naar Adobe is niet toegestaan. Zorg ervoor dat u een geldig subdomein invoert dat eigendom is van uw organisatie, zoals marketing.yourcompany.com.
 
-   >[!NOTE]
-   >
-   >Subdomeinen op meerdere niveaus (van hetzelfde bovenliggende domein) worden ondersteund. U kunt bijvoorbeeld &#39;web.marketing.yourcompany.com&#39; gebruiken.
+   Subdomeinen op meerdere niveaus (van hetzelfde bovenliggende domein) worden ondersteund. U kunt bijvoorbeeld &#39;web.marketing.yourcompany.com&#39; gebruiken.
 
 1. Als u dit subdomein als standaard wilt instellen, selecteert u de bijbehorende optie.
 
@@ -143,15 +132,11 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
 
    ![](assets/web-add-your-own-domain-confirm.png)
 
-   >[!NOTE]
-   >
-   >Wanneer u een nieuw Web subdomain vormt, zal het altijd aan een verslag van de NAAM richten.
+   Wanneer u een nieuw Web subdomain vormt, richt het altijd aan een verslag CNAME.
 
 1. Nadat de subdomeindelegatie is verzonden, wordt het subdomein in de lijst weergegeven met de status **[!UICONTROL Processing]** . Voor meer op de statussen van subdomeinen, verwijs naar [ deze sectie ](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
-   >[!NOTE]
-   >
-   >Voordat u dat subdomein kunt gebruiken voor het verzenden van webberichten, moet u wachten tot Adobe de vereiste controles uitvoert. Dit kan maximaal 4 uur in beslag nemen.
+   Alvorens dat subdomain te kunnen gebruiken om Webberichten te verzenden, moet u wachten tot Adobe de vereiste controles uitvoert, die **tot 4 uren** kan nemen.
 
 1. Zodra de controles succesvol zijn, krijgt subdomain de **[!UICONTROL Success]** status. U kunt deze functie gebruiken om webkanaalconfiguraties te maken.
 
@@ -194,4 +179,5 @@ Nadat uw verzoek door Adobe wordt behandeld, wordt het niet-gedelegeerde domein 
 >Nadat een subdomein niet is gedelegeerd:
 >
 >   * U kunt de kanaalconfiguraties die dat subdomein gebruikten, niet opnieuw activeren.
+>
 >   * U kunt exacte subdomein niet opnieuw delegeren via de gebruikersinterface. Neem desgewenst contact op met uw Adobe-vertegenwoordiger.

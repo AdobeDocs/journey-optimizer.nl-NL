@@ -8,9 +8,9 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, subdomeinen, configuratie
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -38,12 +38,10 @@ Om URLs te kunnen verkorten die aan uw SMS/MMS- berichten wordt toegevoegd, moet
 
 U kunt een subdomein gebruiken dat al aan Adobe is gedelegeerd, of u kunt een ander subdomein vormen. Leer meer over het delegeren van subdomeinen aan Adobe in [ deze sectie ](../configuration/delegate-subdomain.md).
 
->[!CAUTION]
->
->* De subdomeinconfiguratie van SMS wordt gedeeld tussen alle milieu&#39;s. Daarom heeft elke wijziging van een subdomein van SMS ook invloed op andere productiesandboxen.
->
->* Als u SMS-subdomeinen wilt openen en bewerken, moet u over de machtiging **[!UICONTROL Manage SMS Subdomains]** in de productiesandbox beschikken. Leer meer over toestemmingen in [ deze sectie ](../administration/high-low-permissions.md).
->
+De subdomeinconfiguratie van SMS wordt **gedeeld tussen alle milieu&#39;s**. Daarom heeft elke wijziging van een subdomein van SMS ook invloed op andere productiesandboxen.
+
+Als u SMS-subdomeinen wilt openen en bewerken, moet u over de machtiging **[!UICONTROL Manage SMS Subdomains]** in de productiesandbox beschikken. Leer meer over toestemmingen in [ deze sectie ](../administration/high-low-permissions.md).
+
 
 ## Een bestaand subdomein gebruiken {#sms-use-existing-subdomain}
 
@@ -61,15 +59,11 @@ Voer de onderstaande stappen uit als u een subdomein wilt gebruiken dat al is ge
 
 1. Voer het voorvoegsel in dat in je SMS-URL wordt weergegeven.
 
-   >[!NOTE]
-   >
-   >Alleen alfanumerieke tekens en afbreekstreepjes zijn toegestaan.
+   Alleen alfanumerieke tekens en afbreekstreepjes zijn toegestaan.
 
 1. Selecteer een gedelegeerd subdomein in de lijst.
 
-   >[!NOTE]
-   >
-   >U kunt geen subdomein selecteren dat al als subdomein van SMS wordt gebruikt.
+   U kunt geen subdomein selecteren dat al als subdomein van SMS wordt gebruikt.
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
@@ -120,9 +114,7 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
 
    Het delegeren van een ongeldig subdomein naar Adobe is niet toegestaan. Zorg ervoor dat u een geldig subdomein invoert dat eigendom is van uw organisatie, zoals marketing.yourcompany.com.
 
-   >[!NOTE]
-   >
-   >Subdomeinen op meerdere niveaus (van hetzelfde bovenliggende domein) worden ondersteund. U kunt bijvoorbeeld &#39;sms.marketing.yourcompany.com&#39; gebruiken.
+   Subdomeinen op meerdere niveaus (van hetzelfde bovenliggende domein) worden ondersteund. U kunt bijvoorbeeld &#39;sms.marketing.yourcompany.com&#39; gebruiken.
 
 1. Het verslag dat in uw DNS serververtoningen moet worden geplaatst. Kopieer deze record of download een CSV-bestand en navigeer vervolgens naar de oplossing voor domeinhosting om de overeenkomende DNS-record te genereren.
 
@@ -130,9 +122,7 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
 
    ![](assets/sms_add-your-own-subdomain-confirm.png)
 
-   >[!NOTE]
-   >
-   >Wanneer u een nieuw subdomain van SMS vormt, zal het altijd aan een verslag van de NAAM richten.
+   Wanneer u een nieuw subdomain van SMS vormt, richt het altijd aan een verslag CNAME.
 
 1. Nadat de subdomeindelegatie is verzonden, wordt het subdomein in de lijst weergegeven met de status **[!UICONTROL Processing]** . Voor meer op de statussen van subdomeinen, verwijs naar [ deze sectie ](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
