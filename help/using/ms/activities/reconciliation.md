@@ -2,10 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: De afstemmingsactiviteit gebruiken
-description: Leer hoe u de verzoeningsactiviteit kunt gebruiken in een campagne met meerdere stappen
+description: Leer hoe u de verzoeningsactiviteit kunt gebruiken in een georkestreerde campagne
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 9%
@@ -38,7 +39,7 @@ De **Verzoening** activiteit is a **richtend** activiteit die u toestaat om het 
 
 ## Best practices {#reconciliation-best-practices}
 
-Terwijl de **Verrijking** activiteit u toestaat om extra gegevens te bepalen in uw multi-step campagne (u kunt een **Verrijking** activiteit gebruiken om gegevens te combineren die uit veelvoudige reeksen komen, of verbindingen tot stand te brengen aan een tijdelijk middel), staat de **Verzoening** activiteit u toe om ongeidentificeerde gegevens aan bestaande middelen te verbinden.
+Terwijl de **Verrijking** activiteit u toestaat om extra gegevens te bepalen in uw georkestreerde campagne (u kunt een **Verrijking** activiteit gebruiken om gegevens te combineren die uit veelvoudige reeksen komen, of verbindingen tot stand te brengen aan een tijdelijk middel), staat de **Verzoening** activiteit u toe om ongeidentificeerde gegevens aan bestaande middelen te verbinden.
 
 >[!NOTE]
 >De afstemmingsoperatie houdt in dat de gegevens van de gekoppelde afmetingen al in de database staan.  Als u bijvoorbeeld een aankoopbestand importeert waarin wordt aangegeven welk product is gekocht, op welk moment, door welke klant, enzovoort, moeten het product en de klant al in de database aanwezig zijn.
@@ -74,7 +75,7 @@ Terwijl de **Verrijking** activiteit u toestaat om extra gegevens te bepalen in 
 
 Volg deze stappen om de **Verzoening** activiteit te vormen:
 
-1. Voeg de activiteit van de a **Verzoening** in uw multi-step campagne toe.
+1. Voeg de activiteit van de a **Verzoening** in uw georkestreerde campagne toe.
 
 1. Selecteer de nieuwe doeldimensie. Met een dimensie kunt u de doelgroep definiëren: ontvangers, abonnees van apps, operators, abonnees, enzovoort.
 
@@ -94,9 +95,9 @@ Door gebrek, worden de niet in overeenstemming gebrachte gegevens gehouden in de
 
 ## Voorbeeld {#reconciliation-example}
 
-In het volgende voorbeeld ziet u een campagne met meerdere stappen waarmee u rechtstreeks vanuit een geïmporteerd bestand dat nieuwe clients bevat een publiek van profielen maakt. De workflow bestaat uit de volgende activiteiten:
+In het volgende voorbeeld ziet u een geordende campagne waarmee u rechtstreeks vanuit een geïmporteerd bestand dat nieuwe clients bevat een publiek van profielen maakt. De workflow bestaat uit de volgende activiteiten:
 
-De meerfasencampagne is als volgt ontworpen:
+De georkestreerde campagne is als volgt ontworpen:
 
 ![](../assets/workflow-reconciliation-sample-1.0.png)
 
@@ -120,5 +121,4 @@ Het wordt gebouwd met de volgende activiteiten:
 
   ![](../assets/workflow-reconciliation-sample-1.1.png)
 
-* A [ sparen publiek ](save-audience.md) activiteit om een nieuw publiek tot stand te brengen dat op deze updates wordt gebaseerd. U kunt **sparen publiek** activiteit door een **Eind** activiteit ook vervangen als geen specifiek publiek moet worden gecreeerd of worden bijgewerkt. Ontvangersprofielen worden in elk geval bijgewerkt wanneer u de campagne voor meerdere stappen uitvoert.
-
+* A [ sparen publiek ](save-audience.md) activiteit om een nieuw publiek tot stand te brengen dat op deze updates wordt gebaseerd. U kunt **sparen publiek** activiteit door een **Eind** activiteit ook vervangen als geen specifiek publiek moet worden gecreeerd of worden bijgewerkt. De ontvangerprofielen worden in elk geval bijgewerkt wanneer u de georkestreerde campagne uitvoert.

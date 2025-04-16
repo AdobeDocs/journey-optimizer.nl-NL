@@ -2,10 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Bestandsactiviteit laden gebruiken
-description: Leer hoe u de activiteit Bestand laden gebruikt in een meervoudige campagne
+description: Leer hoe u de activiteit Bestand laden in een geordende campagne gebruikt
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: ae0dc980-2361-4c3b-a68e-ae0bb5dc0a26
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '1101'
 ht-degree: 1%
@@ -62,7 +63,7 @@ De **dossier van de Lading** activiteitenconfiguratie impliceert twee stappen. E
 
 Voer de volgende stappen uit om het voorbeeldbestand te configureren dat wordt gebruikt om de verwachte bestandsstructuur te definiëren:
 
-1. Voeg a **dossier** activiteit van de Lading in uw multi-step campagne toe.
+1. Voeg het dossier van de a **Lading** activiteit in uw georkestreerde campagne toe.
 
 1. Selecteer het voorbeeldbestand dat u wilt gebruiken om de verwachte bestandsstructuur te definiëren. Om dit te doen, klik het **Uitgezochte dossier** knoop in de **[!UICONTROL Sample file]** sectie en selecteer het lokale te gebruiken dossier.
 
@@ -114,7 +115,7 @@ Voer de volgende stappen uit om het voorbeeldbestand te configureren dat wordt g
 
 >[!CAUTION]
 >
->Voordat u het doelbestand laadt, moet u controleren of het bestand voldoet aan de indeling van het voorbeeldbestand. Eventuele verschillen in bestandsindeling, kolomstructuur of aantal kolommen kunnen leiden tot fouten tijdens de uitvoering van meerdere stappen.
+>Voordat u het doelbestand laadt, moet u controleren of het bestand voldoet aan de indeling van het voorbeeldbestand. Eventuele verschillen in bestandsindeling, kolomstructuur of aantal kolommen kunnen leiden tot fouten tijdens de uitvoering van de georkestreerde campagne.
 
 Voer de volgende stappen uit om het te uploaden doelbestand te definiëren:
 
@@ -149,13 +150,13 @@ Voer de volgende stappen uit om het te uploaden doelbestand te definiëren:
 
 1. In de **het beheer van de Weigering** sectie, specificeer hoe de activiteit zich in het geval van fouten zou moeten gedragen:
 
-   * Geef in het veld **[!UICONTROL Number of errors allowed]** het maximumaantal fouten op dat is toegestaan bij het verwerken van het te laden bestand. Als de waarde bijvoorbeeld is ingesteld op &quot;20&quot;, mislukt de uitvoering van de campagne in meerdere stappen als er meer dan 20 fouten optreden bij het laden van het bestand.
+   * Geef in het veld **[!UICONTROL Number of errors allowed]** het maximumaantal fouten op dat is toegestaan bij het verwerken van het te laden bestand. Als de waarde bijvoorbeeld is ingesteld op &quot;20&quot;, mislukt de uitvoering van de georkestreerde campagne als er meer dan 20 fouten optreden bij het laden van het bestand.
 
    * Als u de fouten wilt behouden die optraden bij het laden van het bestand, schakelt u de optie **[!UICONTROL Keep rejects in a file]** in en geeft u de gewenste naam voor het bestand op in het veld **[!UICONTROL Rejection File]** .
 
      Na het activeren van deze optie wordt een extra uitvoerovergang met de naam &quot;Complement&quot; toegevoegd na de activiteit. Eventuele fouten die tijdens het importeren optreden, worden opgeslagen in het opgegeven bestand op de server.
 
-1. Schakel de optie **[!UICONTROL Delete file after import]** in als u het geüploade bestand van de server wilt verwijderen nadat de campagne in meerdere stappen is uitgevoerd.
+1. Als u het geüploade bestand van de server wilt verwijderen nadat de georkestreerde campagne is uitgevoerd, schakelt u de optie **[!UICONTROL Delete file after import]** in of uit.
 
    ![](../assets/workflow-load-file-options.png)
 

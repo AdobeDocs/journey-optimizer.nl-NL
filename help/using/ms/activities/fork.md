@@ -2,10 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: De vorkactiviteit gebruiken
-description: Leer hoe u de vorkactiviteit kunt gebruiken in een multi-step campagne
+description: Leer hoe u de vorkactiviteit in een georkestreerde campagne kunt gebruiken
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 0%
@@ -33,7 +34,7 @@ Volg deze stappen om de **1} activiteit van het Fork {te vormen:**
 
 ![](../assets/workflow-fork.png)
 
-1. Voeg de activiteit van het a **Vork** aan uw multi-step campagne toe.
+1. Voeg a **activiteit 0} van de Vlek {aan uw georkestreerde campagne toe.**
 1. Klik **toevoegen overgang** om een nieuwe uitgaande overgang toe te voegen. Standaard zijn twee overgangen gedefinieerd.
 1. Voeg een label toe aan elk van uw overgangen.
 

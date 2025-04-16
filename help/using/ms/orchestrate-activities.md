@@ -1,26 +1,27 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Meerdere stappen maken met Adobe Journey Optimizer
-description: Meer informatie over het maken van multi-step campagnes met Adobe Journey Optimizer
+title: Georkestreerde campagnes maken met Adobe Journey Optimizer
+description: Leer hoe u georkestreerde campagnes kunt maken met Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: f73d847c1d335260a0198e844d237a652e346729
+exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 0%
 
 ---
 
-# Meerstappencampagne ordenen {#orchestrate}
+# Gestroomlijnde campagneactiviteiten ordenen {#orchestrate}
 
-Zodra u [ een multi-step campagne ](gs-campaign-creation.md) hebt gecreeerd, of van het multi-step campagnemenu of binnen een campagne, kunt u beginnen de verschillende taken te ordenen het zal uitvoeren. Hiervoor is een visueel canvas beschikbaar, waarmee u een uit meerdere stappen bestaand campagnediagram kunt samenstellen. Binnen dit diagram, kunt u diverse activiteiten toevoegen en hen in een opeenvolgende orde verbinden.
+Zodra u [ een georkestreerde campagne ](gs-campaign-creation.md) hebt gecreeerd, of van het georkestreerde campagnemenu of binnen een campagne, kunt u beginnen de verschillende taken te ordenen het zal uitvoeren. Hiervoor wordt een visueel canvas verschaft, zodat u een georkestreerd campagnediagram kunt maken. Binnen dit diagram, kunt u diverse activiteiten toevoegen en hen in een opeenvolgende orde verbinden.
 
 ## Activiteiten toevoegen {#add}
 
-In dit stadium van de configuratie, wordt het diagram getoond met een beginpictogram, dat het begin van uw multi-step campagne vertegenwoordigt. Als u uw eerste activiteit wilt toevoegen, klikt u op de knop **+** die is verbonden met het beginpictogram.
+In dit stadium van de configuratie, wordt het diagram getoond met een beginpictogram, dat het begin van uw georkestreerde campagne vertegenwoordigt. Als u uw eerste activiteit wilt toevoegen, klikt u op de knop **+** die is verbonden met het beginpictogram.
 
-Er wordt een lijst met activiteiten weergegeven die aan het diagram kunnen worden toegevoegd. De beschikbare activiteiten zijn afhankelijk van uw positie binnen het campagnediagram met meerdere stappen. Bijvoorbeeld, wanneer het toevoegen van uw eerste activiteit, kunt u uw multi-step campagne beginnen door een publiek te richten, het multi-step campagneweg te splitsen, of a **te plaatsen wacht** activiteit om de multi-step campagneuitvoering te vertragen. Anderzijds, na a **bouwt publiek** activiteit, kunt u uw doel met het richten van activiteiten verfijnen, een levering naar uw publiek met kanaalactiviteiten verzenden, of het multi-step campagneproces met de activiteiten van de stroomcontrole organiseren.
+Er wordt een lijst met activiteiten weergegeven die aan het diagram kunnen worden toegevoegd. De beschikbare activiteiten zijn afhankelijk van uw positie binnen het georkestreerde campagnediagram. Bijvoorbeeld, wanneer het toevoegen van uw eerste activiteit, kunt u uw georkestreerde campagne beginnen door een publiek te richten, het georkestreerde campagneweg te verdelen, of a **te plaatsen wacht** activiteit om de georkestreerde campagneuitvoering te vertragen. Anderzijds, na a **bouwt publiek** activiteit, kunt u uw doel met het richten van activiteiten verfijnen, een levering naar uw publiek met kanaalactiviteiten verzenden, of het geordende campagneproces met de activiteiten van de stroomcontrole organiseren.
 
 ![](assets/workflow-start.png){zoomable="yes"}
 
@@ -28,7 +29,7 @@ Zodra een activiteit aan het diagram is toegevoegd, verschijnt een juiste ruit, 
 
 ![](assets/workflow-configure-activities.png){zoomable="yes"}
 
-Herhaal dit proces om zoveel activiteiten toe te voegen als u wilt, afhankelijk van de taken die u wilt uitvoeren voor uw campagne in meerdere stappen. U kunt ook een nieuwe activiteit invoegen tussen twee activiteiten. Om dit te doen, klik **+** knoop op de overgang tussen de activiteiten, selecteer de gewenste activiteit en vorm het in de juiste ruit.
+Herhaal dit proces om zoveel activiteiten toe te voegen als u wilt, afhankelijk van de taken die u voor uw georkestreerde campagne wilt uitvoeren. U kunt ook een nieuwe activiteit invoegen tussen twee activiteiten. Om dit te doen, klik **+** knoop op de overgang tussen de activiteiten, selecteer de gewenste activiteit en vorm het in de juiste ruit.
 
 Om een activiteit te verwijderen, selecteer het op het canvas en klik **Schrapping** pictogram in de activiteiteneigenschappen.
 
@@ -57,8 +58,8 @@ Wanneer u activiteiten toevoegt, zijn er actieknoppen beschikbaar in het deelven
 U kunt:
 
 * **Schrap** de activiteit van het canvas.
-* **onbruikbaar maken/laat** de activiteit toe. Wanneer de meerstapscampagne wordt uitgevoerd, worden activiteiten met een handicap en de volgende activiteiten op hetzelfde pad niet uitgevoerd en wordt de meerstapscampagne gestopt.
-* **Pauze/hervat** de activiteit. Wanneer de multi-step campagne wordt uitgevoerd, pauzeert het bij de gepauzeerde activiteit. De bijbehorende taak en alle taken die deze in hetzelfde pad volgen, worden niet uitgevoerd.
+* **onbruikbaar maken/laat** de activiteit toe. Wanneer de georkestreerde campagne wordt uitgevoerd, worden activiteiten met een handicap en de volgende activiteiten op hetzelfde pad niet uitgevoerd en wordt de georkestreerde campagne gestopt.
+* **Pauze/hervat** de activiteit. Wanneer de georkestreerde campagne wordt uitgevoerd, pauzeert het bij de gepauzeerde activiteit. De bijbehorende taak en alle taken die deze in hetzelfde pad volgen, worden niet uitgevoerd.
 * **Exemplaar** de activiteit. Zie [deze sectie](#copy).
 * **beweging** een activiteit en al zijn kindknopen aan een andere overgang. Zie [ deze sectie ](#move)
 * Heb toegang tot de opties van de activiteit **Uitvoering**.
@@ -72,7 +73,7 @@ Verscheidene **richtend** activiteiten, zoals **combineren** of **Deduplicatie**
 
 ### Kopiëren en plakken {#copy}
 
-U kunt uit meerdere stappen bestaande campagneactiviteiten kopiëren en deze in elke werkstroom plakken. De campagne met meerdere stappen voor het doel kan zich op een ander browsertabblad bevinden.
+U kunt georkestreerde campagneactiviteiten kopiëren en ze in elke werkstroom plakken. De doelgeorkestreerde campagne kan in een verschillende browser tabel zijn.
 
 Voor het kopiëren van activiteiten hebt u twee mogelijkheden:
 
@@ -90,7 +91,7 @@ Als u de gekopieerde activiteiten wilt plakken, klikt u op de knop **+** in een 
 
 ### Activiteiten verplaatsen en hun onderliggende knooppunten verplaatsen {#move}
 
-Met Journey Optimizer kunt u een activiteit samen met de volledige inhoud van de onderliggende knooppunten (inclusief alle overgangen en activiteiten in de onderliggende knooppunten) verplaatsen naar het einde van een andere overgang binnen dezelfde campagne met meerdere stappen.
+Met Journey Optimizer kunt u een activiteit samen met de volledige inhoud van de onderliggende knooppunten (inclusief alle overgangen en activiteiten in de onderliggende knooppunten) verplaatsen naar het einde van een andere overgang binnen dezelfde geordende campagne.
 
 Dit proces verbreekt de verbinding tussen de activiteit en alles in de uitgaande overgang van de oorspronkelijke locatie en verplaatst deze naar de nieuwe doelovergang.
 
@@ -112,11 +113,11 @@ Met alle activiteiten kunt u de uitvoeropties ervan beheren. Selecteer een activ
 
 Het **gebied van de Uitvoering** staat u toe om de uit te voeren actie te bepalen wanneer de taak is begonnen.
 
-Het **Maximale uitvoeringstijd** gebied staat u toe om een duur zoals &quot;30s&quot;of &quot;1h&quot;te specificeren. Als de activiteit niet wordt gebeëindigd nadat de gespecificeerde duur is verstreken, wordt een alarm teweeggebracht. Dit heeft geen invloed op de werking van de campagne in meerdere stappen.
+Het **Maximale uitvoeringstijd** gebied staat u toe om een duur zoals &quot;30s&quot;of &quot;1h&quot;te specificeren. Als de activiteit niet wordt gebeëindigd nadat de gespecificeerde duur is verstreken, wordt een alarm teweeggebracht. Dit heeft geen invloed op de werking van de georkestreerde campagne.
 
 Het **gebied van de tijdzone** staat u toe om de tijdzone van de activiteit te selecteren. Met Adobe Journey Optimizer kunt u de tijdsverschillen tussen meerdere landen op hetzelfde moment beheren. De toegepaste instelling wordt geconfigureerd wanneer de instantie wordt gemaakt.
 
-**het gebied van de affiniteit** staat u toe om een multi-step campagne of een multi-step campagneactiviteit te dwingen om op een bepaalde machine uit te voeren. Hiervoor moet u een of meer affiniteiten opgeven voor de betreffende meerfasecampagne of -activiteit.
+**het 1} gebied van de affiniteit {staat u toe om een georkestreerde campagne of een georkestreerde campagneactiviteit te dwingen om op een bepaalde machine uit te voeren.** Hiervoor moet u een of meer affiniteiten opgeven voor de georkestreerde campagne of activiteit in kwestie.
 
 Het **gebied van het Gedrag** staat u toe om de te volgen procedure te bepalen als de asynchrone taken worden gebruikt.
 
@@ -130,13 +131,13 @@ Het **manuscript van de Initialisatie** laat u variabelen initialiseren of activ
 
 ## Voorbeeld {#example}
 
-Hier volgt een voorbeeld van een campagne die uit meerdere stappen bestaat en die is ontworpen om een e-mail te sturen naar alle klanten (behalve VIP-klanten) met een e-mail die geïnteresseerd zijn in koffiecomputers.
+Hier is een georkestreerd campagnevoorbeeld dat is ontworpen om een e-mail naar alle klanten (behalve klanten van VIP) met een e-mail te verzenden die in koffiemachines geinteresseerd zijn.
 
 ![](assets/workflow-example.png){zoomable="yes"}{zoomable="yes"}
 
 Hiervoor zijn de volgende activiteiten toegevoegd:
 
-* Een **[!UICONTROL Fork]** -activiteit die de campagne met meerdere stappen onderverdeelt in drie paden (één voor elke set klanten),
+* Een **[!UICONTROL Fork]** activiteit die de georkestreerde campagne in drie wegen (één voor elke reeks klant) verdeelt,
 * **[!UICONTROL Build audience]** -activiteiten om zich te richten op de drie groepen klanten:
 
    * Klanten met een e-mail,
@@ -147,6 +148,6 @@ Hiervoor zijn de volgende activiteiten toegevoegd:
 * Een **[!UICONTROL Combine]** -activiteit die VIP-klanten uitsluit,
 * Een **[!UICONTROL Email delivery]** -activiteit die een e-mail naar de resulterende klanten verzendt.
 
-Als u de campagne met meerdere stappen hebt voltooid, voegt u en **[!UICONTROL End]** activiteit toe aan het einde van het diagram. Met deze activiteit kunt u visueel het einde van een werkstroom markeren en heeft deze geen invloed op de functionaliteit.
+Als u de georkestreerde campagne hebt voltooid, voegt u en **[!UICONTROL End]** activiteit toe aan het einde van het diagram. Met deze activiteit kunt u visueel het einde van een werkstroom markeren en heeft deze geen invloed op de functionaliteit.
 
-Nadat u het campagnediagram met meerdere stappen hebt ontworpen, kunt u de campagne in meerdere stappen uitvoeren en de voortgang van de verschillende taken bijhouden. [ Leer hoe te om een multi-step campagne te beginnen en zijn uitvoering te controleren ](start-monitor-campaigns.md)
+Nadat het georkestreerde campagnediagram met succes is ontworpen, kunt u de georkestreerde campagne uitvoeren en de vooruitgang van zijn diverse taken volgen. [ Leer hoe te om een georkestreerde campagne te beginnen en zijn uitvoering te controleren ](start-monitor-campaigns.md)

@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Werken met schema's in multi-step campagnes
-description: Leer hoe u schema's maakt en beheert in uw multi-step campagnes
+title: Werken met schema's in georkestreerde campagnes
+description: Leer hoe u schema's maakt en beheert in uw georkestreerde campagnes
 hide: true
 hidefromtoc: true
-source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
+exl-id: b0125a50-d187-49fc-ad12-bbe6650f8f1e
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 0%
 
 ---
-
 
 # Werken met schema&#39;s {#ms-schemas}
 

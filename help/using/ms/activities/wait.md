@@ -1,11 +1,12 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Gebruik de activiteit van de Wacht in multi-step campagnes
-description: Leer hoe u de activiteit Wachten in multi-step campagnes gebruikt
+title: Gebruik de activiteit van de Wacht in georkestreerde campagnes
+description: Leer hoe te om de activiteit van de Wacht in georkestreerde campagnes te gebruiken
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 26%
@@ -25,7 +26,7 @@ ht-degree: 26%
 
 Volg deze stappen om **te vormen wachten** activiteit:
 
-1. Voeg a **toe wacht** activiteit in uw multi-step campagne.
+1. Voeg a **toe wacht** activiteit in uw georkestreerde campagne.
 
 1. Specificeer de **Duur** van het wachten tussen de binnenkomende en uitgaande overgangen.
 

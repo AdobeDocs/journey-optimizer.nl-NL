@@ -5,7 +5,8 @@ title: De deduplicatieactiviteit gebruiken
 description: Leer hoe u de deduplicatieactiviteit gebruikt
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 17%
@@ -42,7 +43,7 @@ Voer de volgende stappen uit om de **Deduplication** -activiteit te configureren
 
 ![](../assets/workflow-deduplication.png)
 
-1. Voeg de activiteit van de a **Deduplicatie** aan uw multi-step campagne toe.
+1. Voeg a **activiteit 0} Deduplicatie {aan uw geordende campagne toe.**
 
 1. In de **Gebieden om duplicaten** sectie te identificeren, klik **voegt attribuut** knoop toe om de gebieden te specificeren waarvoor de identieke waarden toestaan om worden geïdentificeerd de duplicaten, zoals: e-mailadres, voornaam, achternaam, enz. In de volgorde van de velden kunt u opgeven welke velden eerst moeten worden verwerkt.
 

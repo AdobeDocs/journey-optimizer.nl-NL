@@ -1,11 +1,12 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Gebruik de gegevensactiviteit van de Update in uw multi-step campagnes
-description: Leer hoe u de gegevensactiviteit Bijwerken gebruikt
+title: Use the Update data activity in your orchestrated campaigns
+description: Learn how to use the Update data activity
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 68e7c929-5f07-4d5a-9831-690e071947f8
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 12%
@@ -32,7 +33,7 @@ Toggle the **Generate an outbound transition for rejects** option to add an outb
 
 ## De updategegevensactiviteit configureren{#update-data-configuration}
 
-Om de **gegevens van de Update** activiteit te vormen, begin door de activiteit aan uw multi-step campagne toe te voegen en een etiket te bepalen.
+To configure the **Update data** activity, start by adding the activity to your orchestrated campaign and define a label.
 
 ![](../assets/workflow-update-data.png)
 
@@ -40,9 +41,9 @@ Om de **gegevens van de Update** activiteit te vormen, begin door de activiteit 
 
 Het **type van Verrichting** gebied laat u het proces kiezen dat op de gegevens in het gegevensbestand moet worden uitgevoerd:
 
-* **Tussenvoegsel of update**: neem gegevens op of werk het bij als de verslagen reeds in het gegevensbestand bestaan.
-* **Tussenvoegsel**: neem slechts gegevens op. De al bestaande records worden niet bijgewerkt. Als er afstemmingscriteria worden gedefinieerd, worden alleen de niet-afgestemde records toegevoegd.
-* **Update**: werk gegevens van de verslagen bij die reeds in het gegevensbestand slechts bestaan.
+* **Insert or update**: insert data or update it if the records already exist in the database.
+* **Insert**: insert data only. De al bestaande records worden niet bijgewerkt. Als er afstemmingscriteria worden gedefinieerd, worden alleen de niet-afgestemde records toegevoegd.
+* **Update**: update data of the records that already exist in the database only.
 * **Schrapping**: schrap gegevens.
 
 Het **gebied van de Partij** laat u het aantal binnenkomende overgangselementen selecteren die moeten worden bijgewerkt. Als u bijvoorbeeld 500 opgeeft, worden de eerste 500 records die worden afgehandeld, bijgewerkt.
@@ -51,21 +52,21 @@ Het **gebied van de Partij** laat u het aantal binnenkomende overgangselementen 
 
 In deze sectie kunt u opgeven hoe de records in de database moeten worden geïdentificeerd:
 
-* Als de gegevensingangen op bestaand richten afmeting betrekking hebben, selecteer **Gebruikend de het richten afmeting** optie en selecteer het van in **het richten afmeting om** gebied bij te werken.
-* U kunt **ook selecteren Gebruikend douaneverbindingen** en één of meerdere verbindingen specificeren die identificatie van de gegevens in het gegevensbestand zullen toelaten
-* Als het geselecteerde verrichtingstype een update vereist, moet u **gebruiken Gebruikend verzoeningsregels** optie.
+* If data entries relate to an existing targeting dimension, select the **Using the targeting dimension** option and select it from in the **Targeting dimension to update** field.
+* You can also select the **Using custom links** and specify one or more links which will enable identification of the data in the database
+* If the operation type selected requires an update, you must use the **Using reconciliation rules** option.
 
 ### Bij te werken velden
 
-In de **Velden om** sectie bij te werken, voeg de gebieden toe waarop de update zal worden toegepast en, indien nodig, voeg voorwaarden toe zodat deze update wordt uitgevoerd. Om dit te doen, gebruik **in aanmerking genomen als** gebied. De voorwaarden worden een na een toegepast in de volgorde van de lijst. Gebruik de pijlen aan de rechterkant om de volgorde van de updates te wijzigen. U kunt hetzelfde bestemmingsveld meerdere keren gebruiken.
+In the **Fields to update** section, add the fields on which the update will be applied and, if necessary, add conditions so that this update is carried out. To do this, use the **Taken into account if** field. De voorwaarden worden een na een toegepast in de volgorde van de lijst. Gebruik de pijlen aan de rechterkant om de volgorde van de updates te wijzigen. U kunt hetzelfde bestemmingsveld meerdere keren gebruiken.
 
 U kunt gebieden automatisch verbinden gebruikend de **auto-afbeelding** knoop. Door automatische koppeling worden velden met dezelfde naam gedetecteerd.
 
-Tijdens **Tussenvoegsel of werk** verrichtingstype bij, kunt u de verrichting individueel selecteren om voor elk gebied van toepassing te zijn. Om dit te doen, selecteer de waarde u op het **type van Verrichting** gebied zou willen.
+Tijdens **Tussenvoegsel of werk** verrichtingstype bij, kunt u de verrichting individueel selecteren om voor elk gebied van toepassing te zijn. To do this, select the value you would like in the **Operation type** field.
 
 ### Geavanceerde opties
 
-De **Geavanceerde opties** laten u extra opties specificeren om het bijwerken van gegevens evenals het beheren van duplicaten te behandelen.
+The **Advanced options** lets you specify additional options to deal with updating data as well as managing duplicates.
 
 <!--
 * **Disable automatic key management**
@@ -77,6 +78,6 @@ De **Geavanceerde opties** laten u extra opties specificeren om het bijwerken va
 
 Met de laatste twee opties kunt u specifieke handelingen uitvoeren:
 
-* **produceer een uitgaande overgang**: leidt tot een uitgaande overgang die aan het eind van uitvoering zal worden geactiveerd. Het bijwerken signaleert gewoonlijk het eind van een het richten multi-step campagne, en de optie wordt daarom niet door gebrek geactiveerd.
+* **Generate an outbound transition**: creates an outbound transition that will be activated at the end of execution. Updating usually signals the end of a targeting orchestrated campaign, and the option is therefore not activated by default.
 
-* **produceer een uitgaande overgang voor verwerpt**: leidt tot een uitgaande overgang die verslagen bevatten die niet correct na de update (bijvoorbeeld als er een dubbel is) zijn verwerkt. De update markeert over het algemeen het einde van een doelcampagne met meerdere stappen en daarom wordt de optie niet standaard geactiveerd.
+* **Generate an outbound transition for the rejects**: creates an outbound transition containing records that have not been correctly processed after the update (for example if there is a duplicate). The update generally marks the end of a targeting orchestrated campaign and therefore the option is not activated by default.
