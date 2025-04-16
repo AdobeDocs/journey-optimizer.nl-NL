@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: query, collecties, functies, lading, reis
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Bij een Source Condition-activiteit van Data kunt u controleren of het resultaat
 
 >[!CAUTION]
 >
->Het gebruik van ervaringsevenementen in reisuitdrukkingen/omstandigheden wordt ondersteund, maar niet aanbevolen. Als uw gebruiksgeval het gebruik van ervaringsgebeurtenissen vereist, overweeg alternatieve methodes zoals [ gegevens verwerkte attributen ](../../audience/computed-attributes.md), of het creëren van een segment gebruikend de gebeurtenissen en het opnemen van dat segment in [`inAudience` uitdrukkingen ](../../building-journeys/functions/functioninaudience.md).
+>Het gebruik van ervaringsevenementen in reisexpressies/omstandigheden wordt ondersteund, maar niet aanbevolen. Als uw gebruiksgeval het gebruik van ervaringsgebeurtenissen vereist, overweeg alternatieve methodes zoals [ gegevens verwerkte attributen ](../../audience/computed-attributes.md), of het creëren van een segment gebruikend de gebeurtenissen en het opnemen van dat segment in [`inAudience` uitdrukkingen ](../../building-journeys/functions/functioninaudience.md).
 
 **Voorbeeld 1:**
 
@@ -190,7 +190,7 @@ _`<listExpression>.last(<condition>)`_
 
 **Voorbeeld 1:**
 
-Deze expressie retourneert het eerste pushmeldingtoken dat is gekoppeld aan mobiele toepassingen waarvoor de versie 1.0 is.
+Deze expressie retourneert het eerste token voor pushmeldingen dat is gekoppeld aan mobiele toepassingen waarvoor de versie 1.0 is.
 
 ```json
 @event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token
@@ -243,7 +243,7 @@ Het resultaat is &quot;token_2&quot;.
 
 **Andere voorbeelden**
 
-Deze uitdrukking keert de productnamen terug die op de waarde SKU worden gebaseerd. De lijst met deze producten is opgenomen in de lijst met gebeurtenissen, met als voorwaarde de gebeurtenis-id.
+Deze expressie retourneert de productnamen op basis van de SKU-waarde. De lijst van deze producten is opgenomen in de lijst met evenementen, met als voorwaarde de gebeurtenis-ID.
 
 ```json
 #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.all(currentDataPackField._aepgdcdevenablement2.purchase_event.receipt_nbr == "10-337-4016"). 

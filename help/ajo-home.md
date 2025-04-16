@@ -5,18 +5,18 @@ description: Leer hoe je Adobe Journey Optimizer gebruikt.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 18%
+source-wordcount: '350'
+ht-degree: 14%
 
 ---
 
-# Adobe [!DNL Journey Optimizer] -documentatie {#cjm-documentation}
+# Adobe [!DNL Journey Optimizer] Documentation {#cjm-documentation}
 
 ## Nieuwe functies
 
-Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en -documentatie! Bekijk voor een uitgebreide lijst met functies, verbeteringen en oplossingen de gedetailleerde [Aanvullende informatie](using/rn/release-notes.md). Blijf op de hoogte van de nieuwste wijzigingen in onze documentatie door de [pagina met documentupdates](using/rn/documentation-updates.md) te bekijken.
+Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en -documentatie! Bekijk voor een uitgebreide lijst met functies, verbeteringen en oplossingen de gedetailleerde [Aanvullende informatie](using/rn/release-notes.md). Bezoek de [ pagina van documentatieupdates ](using/rn/documentation-updates.md) om met de recentste veranderingen in de productdocumentatie bijgewerkt te blijven.
 
 >[!BEGINTABS]
 
@@ -30,9 +30,9 @@ Maart is nu live! Controleer de opmerkingen bij de release om nieuwe mogelijkhed
 
 ✨ onderdompelen zich in een hands-on ervaring met onze [ AI Medewerker ](../help/using/content-management/gs-generative.md) levende eigenschapvoorproef, die wordt ontworpen om u zijn eigenschappen eerst te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
 
-[![ leer meer ](using/assets/do-not-localize/try-it-button.svg) ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator) {target="_blank"}
+[![ leer meer ](using/assets/do-not-localize/try-it-button.svg) ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
->[!TAB  Meldend met CJA ]
+>[!TAB Reporting with CJA]
 
 Journey Optimizer-rapportering wordt geleverd met een verbeterde interoperabiliteit met Customer Journey Analytics-mogelijkheden, standaardisering van de rapportage op beide platforms en verbetering van de consistentie en betrouwbaarheid van gegevens.
 
@@ -60,12 +60,12 @@ Met het kanaal van het Web, staat Adobe Journey Optimizer u toe om de Webervarin
     </td>
     <td>
     <a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong> creeer uw eerste reis </strong><br/> Ontwerp en orkestreer gepersonaliseerde omnichannel reizen om marketing outreach met één-aan-één klantenovereenkomst te harmoniseren. 
+    <div><strong>Create your first journey</strong><br/>Design and orchestrate personalized omnichannel journeys to harmonize marketing outreach with one-to-one customer engagement. 
     </div>
     </td>
     <td>
     <a href="using/campaigns/create-campaign.md"><img src="using/assets/do-not-localize/start-campaign.jpeg"></a>
-    <div><strong> Lancering uw eerste campagne </strong><br/> creeert en begint uw eerste campagne in Journey Optimizer om gerichte, éénmalige inhoud aan een specifiek publiek te leveren.</div>
+    <div><strong>Launch your first campaign</strong><br/>Create and start your first campaign in Journey Optimizer to deliver targeted, one-time content to a specific audience.</div>
     </td>
   </tr>
   <tr style="border: 0;">

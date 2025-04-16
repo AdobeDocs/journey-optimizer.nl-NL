@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: expressie, voorwaarde, use-case, gebeurtenissen
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 1%
@@ -21,7 +21,7 @@ De Geavanceerde uitdrukkingsredacteur kan worden gebruikt om voorwaarden tot sta
 
 >[!CAUTION]
 >
->Het gebruik van ervaringsevenementen in reisuitdrukkingen/omstandigheden wordt ondersteund, maar niet aanbevolen. Als uw gebruiksgeval het gebruik van ervaringsgebeurtenissen vereist, overweeg alternatieve methodes zoals [ gegevens verwerkte attributen ](../../audience/computed-attributes.md), of het creëren van een segment gebruikend de gebeurtenissen en het opnemen van dat segment in [`inAudience` uitdrukkingen ](../../building-journeys/functions/functioninaudience.md).
+>Het gebruik van ervaringsevenementen in reisexpressies/omstandigheden wordt ondersteund, maar niet aanbevolen. Als uw gebruiksgeval het gebruik van ervaringsgebeurtenissen vereist, overweeg alternatieve methodes zoals [ gegevens verwerkte attributen ](../../audience/computed-attributes.md), of het creëren van een segment gebruikend de gebeurtenissen en het opnemen van dat segment in [`inAudience` uitdrukkingen ](../../building-journeys/functions/functioninaudience.md).
 
 
 ## Voorwaarden voor ervaringsgebeurtenissen opbouwen

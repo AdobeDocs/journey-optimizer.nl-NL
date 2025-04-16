@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1156'
 ht-degree: 10%
 
 ---
@@ -22,6 +22,9 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 
 ## April 2025 {#apr-2025}
 
+* Het hoofdstuk van de Configuratie is nu gesplitst in drie hoofdstukken: [ de configuratie van het Kanaal ](../configuration/get-started-configuration.md), [ configuratie van de Reis ](../configuration/about-data-sources-events-actions.md), en [ verbindt uw systemen ](../configuration/ajo-apis.md).
+* Er is een waarschuwende opmerking toegevoegd over het gebruik van ervaringsgebeurtenissen in reisexpressies en -omstandigheden. [Meer informatie](../building-journeys/expression/expressionadvanced.md#discovering-the-interface)
+* De stappen om een subdomain niet te delegeren zijn nu gedetailleerd voor [ E-mail ](../configuration/delegate-subdomain.md#undelegate-subdomain), [ SMS ](../sms/sms-subdomains.md#undelegate-a-subdomain-undelegate-subdomain), [ de ervaringen van het Web ](../web/web-delegated-subdomains.md#undelegate-a-subdomain-undelegate-subdomain), en [ het Bestaan pagina&#39;s ](../landing-pages/lp-subdomains.md#undelegate-subdomain).
 * Er is een opmerking toegevoegd op de pagina voor Direct-mailconfiguratie over tijdelijke opslag van het uitvoerbestand. [Meer informatie](../direct-mail/direct-mail-configuration.md)
 * Er is een tip toegevoegd in de sectie met de editor voor geavanceerde expressies voor de reis over de richtlijnen voor de indeling van voorwaarden. [Meer informatie](../building-journeys/expression/expressionadvanced.md)
 * In de functiesectie `inAudience` is een waarschuwing toegevoegd over de effecten en aanbevolen procedures bij het wijzigen van de naam van een publiek. [Meer informatie](../building-journeys/functions/functioninaudience.md)
