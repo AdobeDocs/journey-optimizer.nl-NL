@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: a2d23466d62b3b1df6f8024e3f68414b18bf0b88
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 10%
+source-wordcount: '1194'
+ht-degree: 9%
 
 ---
 
@@ -32,6 +32,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 * De testpagina voor de reis is bijgewerkt met een opmerking over de noodzaak om een naamruimte voor identiteit op te nemen in de gebruikte gebeurtenis. [Meer informatie](../building-journeys/testing-the-journey.md)
 * U kunt subdomeinen momenteel niet dedelegeren via de gebruikersinterface van [!UICONTROL Journey Optimizer] . Dit moet u doorgeven aan uw Adobe-vertegenwoordiger. De secties E-mail, bestemmingspagina, SMS en web subdomain zijn bijgewerkt met deze informatie en de stappen die moeten worden uitgevoerd voordat u Adobe bereikt. [Meer informatie](../configuration/delegate-subdomain.md#undelegate-subdomain)
 * Meer informatie over de optionele parameter `maxHttpConnections` in de API voor afdekritten, inclusief instructies voor het gebruik van deze parameter naast configuraties voor het vertragen van hetzelfde eindpunt. [Meer informatie](../configuration/throttling.md)
+* In de sectie van het Beslissen van de Ervaring, toegevoegde begeleiding die verklaart dat de goedgekeurde aanbiedingspunten niet kunnen worden geschrapt als zij in een inzameling of een besluit worden gebruikt. Opgenomen stappen om de status te wijzigen in Concept met de optie **[!UICONTROL Undo approve]** . [Meer informatie](../experience-decisioning/items.md#manage)
 
 ## Maart 2025 {#mar-2025}
 
