@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: ab70ce5b686a54dc1be7336411c5b0959fc3c584
 workflow-type: tm+mt
-source-wordcount: '1682'
+source-wordcount: '1689'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Klik op de knop **[!UICONTROL Create capping]** en voer de volgende stappen uit 
    * **[!UICONTROL Decision event]** (standaardwaarde): het maximale aantal keer dat een aanbieding kan worden gepresenteerd.
    * **[!UICONTROL Impression]** (alleen binnenkomende kanalen): het maximale aantal keren dat de aanbieding aan een gebruiker kan worden weergegeven.
    * **[!UICONTROL Clicks]**: een gebruiker kan maximaal aantal keer op het beslissingsitem klikken.
-   * **[!UICONTROL Custom event]**: U kunt een aangepaste gebeurtenis definiëren die wordt gebruikt om het aantal keren dat het item wordt verzonden, tot een maximum te beperken. U kunt bijvoorbeeld het aantal aflossingen beperken tot ze gelijk zijn aan 10000 of tot een bepaald profiel één keer is afgelost. Om dit te doen, gebruik [ Adobe Experience Platform XDM ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) {target="_blank"} schema&#39;s om een regel van de douanegebeurtenis te bouwen.
+   * **[!UICONTROL Custom event]**: U kunt een aangepaste gebeurtenis definiëren die wordt gebruikt om het aantal keren dat het item wordt verzonden, tot een maximum te beperken. U kunt bijvoorbeeld het aantal aflossingen beperken tot ze gelijk zijn aan 10000 of tot een bepaald profiel één keer is afgelost. Om dit te doen, gebruik [ Adobe Experience Platform XDM ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"} schema&#39;s om een regel van de douanegebeurtenis te bouwen.
 
    >[!NOTE]
    >
@@ -163,6 +163,10 @@ Als u een beslissingsitem selecteert of op de knop Ovaal klikt, worden de hieron
 
   >[!IMPORTANT]
   >
-  >Nadat de beslissing is verwijderd, zijn het item en de inhoud ervan niet meer toegankelijk. Deze handeling kan niet ongedaan worden gemaakt. Als het beslissingselement wordt gebruikt in een collectie of een beslissing, kan het niet worden verwijderd. U moet het beslissingsitem eerst uit een willekeurig object verwijderen.
+  >Nadat de beslissing is verwijderd, zijn het item en de inhoud ervan niet meer toegankelijk. Deze handeling kan niet ongedaan worden gemaakt.
+
+  Goedgekeurde aanbiedingen kunnen niet worden verwijderd als ze in een collectie of een beslissing worden gebruikt. Als u ze wilt verwijderen, wijzigt u de status in Concept. Klik hiertoe op de knop voor ovaal en selecteer **[!UICONTROL Undo approve]** .
+
+  ![](assets/item-undo.png)
 
 * **[!UICONTROL Archive]**: stelt de status van het beslissingsitem in op **[!UICONTROL Archived]** . Het beslissingsitem is nog steeds beschikbaar in de lijst, maar u kunt de status niet terugzetten op **[!UICONTROL Draft]** of **[!UICONTROL Approved]** . U kunt deze alleen dupliceren of verwijderen.
