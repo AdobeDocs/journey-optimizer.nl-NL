@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: f15962bf68c7ea5087e0def33888b06f52d580cd
+source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1389'
 ht-degree: 4%
 
 ---
@@ -134,7 +134,7 @@ Beheer uw privacybeheer en verzoeken vanuit deze sectie.
 
 * **[!UICONTROL Alerts]** - De gebruikersinterface staat u toe om een geschiedenis van ontvangen alarm te bekijken die op metriek wordt gebaseerd die door de Inzichten van de Waarneming van Adobe Experience Platform wordt onthuld. UI staat u ook toe om, beschikbare waakzame regels te bekijken toe te laten en onbruikbaar te maken. [Meer informatie](../reports/alerts.md)
 
-* **[!UICONTROL Sandboxes]** - Adobe Experience Platform biedt sandboxen die één instantie in afzonderlijke virtuele omgevingen verdelen om toepassingen voor digitale ervaringen te ontwikkelen en te ontwikkelen. Blader in deze sectie om uw sandboxen te beheren. [Meer informatie](../administration/sandboxes.md)
+* **[!UICONTROL Sandboxes]** - Adobe Experience Platform biedt sandboxen die één instantie in afzonderlijke virtuele omgevingen verdelen om toepassingen voor digitale ervaringen te ontwikkelen en te ontwikkelen. Bovendien kunt u met [!DNL Journey Optimizer] de mogelijkheid gebruiken om pakketten te exporteren en te importeren om objecten, zoals reizen, inhoudssjablonen of fragmenten, over meerdere sandboxen te kopiëren. [Meer informatie](../administration/sandboxes.md)
 
 * **[!UICONTROL Channels]** - Gebruik deze sectie om uw kanalen, met inbegrip van subdomeinen, configuraties, en leveringsmontages te vormen. [Meer informatie](../configuration/get-started-configuration.md)
 

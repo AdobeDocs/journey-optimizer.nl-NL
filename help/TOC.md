@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 270dac97dce9e12795f5c99e2da3cbf6a5afd876
+source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
-source-wordcount: '2330'
+source-wordcount: '2335'
 ht-degree: 21%
 
 ---
@@ -738,7 +738,7 @@ ht-degree: 21%
       + [Een aangepaste handeling configureren](using/action/about-custom-action-configuration.md)
       + [Een aangepaste handeling oplossen](using/action/troubleshoot-custom-action.md)
       + [API-aanroepreacties gebruiken in aangepaste handelingen](using/action/action-response.md)
-+ Sluit uw systemen aan {#connect-systems}&quot;
++ Sluit uw systemen en omgevingen aan {#connect-systems}
    + [Werken met Journey Optimizer API&#39;s](using/configuration/ajo-apis.md)
    + Uw reizen integreren met externe systemen {#external-systems}
       + [Reisintegratie met externe systemen](using/configuration/external-systems.md)
@@ -748,8 +748,10 @@ ht-degree: 21%
       + [Reisintegratie met Campaign Standard](using/action/acs-action.md)
       + [Reisintegratie met Campagne v7/v8](using/action/acc-action.md)
       + [Reisintegratie met Marketo Engage](using/action/marketo-engage.md)
+   + Sandboxbeheer {#sandbox}
+      + [Sandboxen gebruiken en toewijzen](using/administration/sandboxes.md)
+      + [Objecten exporteren naar een andere sandbox](using/configuration/copy-objects-to-sandbox.md)
    + [Vorm de Bronschakelaar](using/start/get-started-sources.md)
-   + [Objecten exporteren naar een andere sandbox](using/configuration/copy-objects-to-sandbox.md)
 + Toegangsbeheer {#access-control}
    + Overzicht van toegangsbeheer {#privacy}
       + [Aan de slag met gebruikersbeheer](using/administration/permissions-overview.md)
@@ -759,7 +761,6 @@ ht-degree: 21%
    + [Gebruikers en rollen beheren](using/administration/permissions.md)
    + [Toegangsbeheer op basis van kenmerken](using/administration/attribute-based-access.md)
    + [Toegangsbeheer op objectniveau](using/administration/object-based-access.md)
-   + [Sandboxbeheer](using/administration/sandboxes.md)
 + Privacy {#privacy}
    + [Aan de slag met privacy](using/privacy/get-started-privacy.md)
    + [Privacyverzoeken](using/privacy/requests.md)
