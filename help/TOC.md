@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 31e88f02ed2569357a31552db717225d7f37a1eb
+source-git-commit: 270dac97dce9e12795f5c99e2da3cbf6a5afd876
 workflow-type: tm+mt
-source-wordcount: '2329'
+source-wordcount: '2330'
 ht-degree: 21%
 
 ---
@@ -739,14 +739,14 @@ ht-degree: 21%
       + [Een aangepaste handeling oplossen](using/action/troubleshoot-custom-action.md)
       + [API-aanroepreacties gebruiken in aangepaste handelingen](using/action/action-response.md)
 + Sluit uw systemen aan {#connect-systems}&quot;
-   + [Adobe Journey Optimizer API&#39;s](using/configuration/ajo-apis.md)
-   + Werken met reis-API&#39;s {#external-systems}
+   + [Werken met Journey Optimizer API&#39;s](using/configuration/ajo-apis.md)
+   + Uw reizen integreren met externe systemen {#external-systems}
       + [Reisintegratie met externe systemen](using/configuration/external-systems.md)
       + [Afkappings-API](using/configuration/capping.md)
       + [API voor beperken](using/configuration/throttling.md)
    + Verzenden met Adobe-oplossingen {#adobe-solutions}
-      + [Reisintegratie met Adobe Campaign Standard](using/action/acs-action.md)
-      + [Reisintegratie met Adobe Campaign v7/v8](using/action/acc-action.md)
+      + [Reisintegratie met Campaign Standard](using/action/acs-action.md)
+      + [Reisintegratie met Campagne v7/v8](using/action/acc-action.md)
       + [Reisintegratie met Marketo Engage](using/action/marketo-engage.md)
    + [Vorm de Bronschakelaar](using/start/get-started-sources.md)
    + [Objecten exporteren naar een andere sandbox](using/configuration/copy-objects-to-sandbox.md)
