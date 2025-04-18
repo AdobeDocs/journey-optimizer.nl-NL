@@ -1,19 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Gestroomlijnde campagnes met Adobe Journey Optimizer starten en volgen
-description: Leer hoe u georkestreerde campagnes kunt starten en volgen met Adobe Journey Optimizer
+title: Georkestreerde campagnes plannen en starten met Adobe Journey Optimizer
+description: Leer hoe u georkestreerde campagnes met Adobe Journey Optimizer kunt plannen en starten
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 0%
 
 ---
 
-# Uw georkestreerde campagnes starten en controleren {#start-monitor}
+# Uw georkestreerde campagnes plannen en starten {#start-monitor}
 
 <!--
 <audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> -->
@@ -22,7 +22,6 @@ ht-degree: 0%
 >id="ajo_campaign_publication"
 >title="Georkestreerde campagne publiceren"
 >abstract="Als u uw campagne wilt starten, moet u deze publiceren. Zorg ervoor dat alle waarschuwingen zijn gewist voordat u ze publiceert."
-
 
 Nadat u de georkestreerde en ontworpen taken hebt gemaakt die u op het canvas wilt uitvoeren, kunt u deze publiceren en controleren hoe deze wordt uitgevoerd.
 
