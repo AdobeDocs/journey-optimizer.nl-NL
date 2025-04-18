@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
 workflow-type: tm+mt
-source-wordcount: '2337'
+source-wordcount: '2342'
 ht-degree: 21%
 
 ---
@@ -182,6 +182,7 @@ ht-degree: 21%
       + [Een georkestreerde campagne maken](using/ms/create-ms-campaign.md)
       + [Orchestraten](using/ms/orchestrate-activities.md)
       + [Campagne-instellingen configureren](using/ms/ms-campaign-settings.md)
+      + [Uw berichten testen en valideren](using/ms/ms-proofs.md)
       + [Uw campagnes plannen en starten](using/ms/start-monitor-campaigns.md)
       + [Geordende campagnes die verslag uitbrengen](using/ms/reporting-campaigns.md)
       + [ beheer verpersoonlijking ](using/ms/ms-personalization.md)

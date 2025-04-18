@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: f0213f1270e9821b61a5dc396e39f5707f8f4b42
+source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,9 @@ ht-degree: 0%
 >title="Dimensieactiviteit wijzigen"
 >abstract="Met deze activiteit kunt u de doeldimensie wijzigen terwijl u een publiek maakt. Het verschuift de as afhankelijk van het gegevensmalplaatje en de inputdimensie. U kunt bijvoorbeeld van de dimensie &quot;contracten&quot; naar de dimensie &quot;clients&quot; schakelen."
 
-De **dimensie van de Verandering** activiteit is a **richtend** activiteit. Met deze activiteit kunt u de doeldimensie wijzigen terwijl u uw georkestreerde campagne ontwikkelt. Het verschuift de as afhankelijk van het gegevensmalplaatje en de inputdimensie.
+Als markeerteken, kunt u de het richten dimensie van één entiteit aan een andere verbonden entiteit binnen een georkestreerde campagne schakelen, en uw publiek verfijnen richtend op verschillende gegevensreeksen, zoals het bewegen van het profileren van gebruikers aan het richten van hun specifieke acties of het boeken.
+
+Om dit uit te voeren, gebruik de **dimensie van de Verandering** richtend activiteit. Met deze activiteit kunt u de doeldimensie wijzigen terwijl u uw georkestreerde campagne ontwikkelt. Het verschuift de as afhankelijk van het gegevensmalplaatje en de inputdimensie.
 
 U kunt bijvoorbeeld de doeldimensie van een georkestreerde campagne veranderen van &quot;Profiel&quot; in &quot;Contracten&quot; om berichten naar de doelcontracteigenaar te verzenden.
 
@@ -41,7 +43,7 @@ Volg deze stappen om de **dimensie van de Verandering** activiteit te vormen:
 
 1. Voeg de dimensie van de a **Verandering** activiteit aan uw georkestreerde campagne toe.
 
-   ![](assets/change-dimension.png)
+   ![](../assets/change-dimension.png)
 
 1. Bepaal de **Nieuwe doelafmeting**. Tijdens het wijzigen van de afmetingen worden alle records bewaard.
 
@@ -53,4 +55,4 @@ In dit voorbeeld willen we een SMS-levering verzenden naar alle profielen die ee
 
 Vervolgens gebruiken we een **[!UICONTROL Change dimension]** -activiteit om de georkestreerde campagne voor dimensie om te zetten in &quot;Ontvangers&quot;. Dit staat ons toe om de ontvangers te kunnen richten die de vraag aanpassen.
 
-![](assets/change-dimension-example.png)
+![](../assets/change-dimension-example.png)
