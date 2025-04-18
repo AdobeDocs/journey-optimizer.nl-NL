@@ -12,7 +12,7 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
 workflow-type: tm+mt
 source-wordcount: '1017'
-ht-degree: 24%
+ht-degree: 29%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="Reisevenementen"
->abstract="Een gebeurtenis is gekoppeld aan een persoon en Het heeft betrekking op het gedrag van een persoon (bijvoorbeeld een persoon heeft een product gekocht, een winkel bezocht, een website verlaten, enz.) of iets wat met een persoon in verband staat (bijvoorbeeld een persoon heeft 10 000 loyaliteitspunten bereikt). Journey Optimizer luistert naar monitaire gebeurtenissen tijdens reizen om de beste volgende acties te ordenen."
+>abstract="Een gebeurtenis is gekoppeld aan een persoon en Dit heeft betrekking op het gedrag van een persoon (een persoon heeft voorbeeld een product gekocht, een winkel bezocht, een website verlaten, enz.) of iets wat met een persoon in verband staat (een persoon heeft bijvoorbeeld 10.000 loyaliteitspunten bereikt). Journey Optimizer luistert naar monitaire gebeurtenissen tijdens reizen om de beste volgende acties te ordenen."
 
 Gebeurtenissen stellen u in staat om reizen individueel te starten en realtime berichten te verzenden aan elke gebruiker wanneer deze de reis betreedt.
 
@@ -70,7 +70,7 @@ Voor **unitaire** gebeurtenissen, zijn er twee soorten gebeurtenisidentiteitskaa
 
 Gebeurtenissen zijn POST-API-aanroepen. Gebeurtenissen worden naar Adobe Experience Platform verzonden via de API&#39;s voor streaming-insluiting. De URL-bestemming van gebeurtenissen die via transactie-API&#39;s worden verzonden, wordt een &quot;inlet&quot; genoemd. De payload van gebeurtenissen volgt de XDM-indeling.
 
-De payload bevat informatie die vereist is voor de Streaming Ingestie-API&#39;s om te werken (in de koptekst) en de informatie die [!DNL Journey Optimizer] nodig heeft om te werken en informatie die moet worden gebruikt tijdens reizen (in het lichaam, bijvoorbeeld de hoeveelheid achtergelaten winkelwagentje). Er zijn twee modi voor streamingopname, geverifieerd en niet-geverifieerd. Voor details op het Streamen Ingestie APIs, verwijs naar [ deze verbinding ](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) {target="_blank"}.
+De payload bevat informatie die vereist is voor de Streaming Ingestie-API&#39;s om te werken (in de koptekst) en de informatie die [!DNL Journey Optimizer] nodig heeft om te werken en informatie die moet worden gebruikt tijdens reizen (in het lichaam, bijvoorbeeld de hoeveelheid achtergelaten winkelwagentje). Er zijn twee modi voor streamingopname, geverifieerd en niet-geverifieerd. Raadpleeg [deze koppeling](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html){target="_blank"}voor meer informatie over streamingopname-API’s.
 
 Na aankomst door Streaming Ingestie APIs, stromen de gebeurtenissen in de interne dienst genoemd Pijpleiding en dan in Adobe Experience Platform. Als in het het gebeurtenisschema de markering voor real-timeklantprofielservice is ingeschakeld en een dataset-id eveneens de markering voor real-timeklantprofiel heeft, stroomt deze naar de real-timeklantprofielservice.
 
