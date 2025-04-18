@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: De activiteit Dimensie wijzigen gebruiken
 description: Leer hoe u de activiteit Dimensie wijzigen gebruikt
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: f0213f1270e9821b61a5dc396e39f5707f8f4b42
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -27,11 +28,12 @@ ht-degree: 0%
 
 De **dimensie van de Verandering** activiteit is a **richtend** activiteit. Met deze activiteit kunt u de doeldimensie wijzigen terwijl u uw georkestreerde campagne ontwikkelt. Het verschuift de as afhankelijk van het gegevensmalplaatje en de inputdimensie.
 
-U kunt bijvoorbeeld een georkestreerde doeldimensie van een campagne veranderen van &quot;Ontvangers&quot; in &quot;toepassing Abonnees&quot; om pushberichten naar de beoogde ontvangers te verzenden.
+U kunt bijvoorbeeld de doeldimensie van een georkestreerde campagne veranderen van &quot;Profiel&quot; in &quot;Contracten&quot; om berichten naar de doelcontracteigenaar te verzenden.
 
+<!--
 >[!IMPORTANT]
 >
->De activiteiten **[!UICONTROL Change Dimension]** en **[!UICONTROL Change Data source]** mogen niet in één rij worden toegevoegd. Als u beide activiteiten opeenvolgend moet gebruiken, zorg ervoor u een **[!UICONTROL Enrichement]** activiteit binnen tussen hen omvat. Dit zorgt voor een correcte uitvoering en voorkomt mogelijke conflicten of fouten.
+>Please note that the **[!UICONTROL Change Dimension]** and **[!UICONTROL Change Data source]** activities should not be added in one row. If you need to use both activities consecutively, make sure you include an **[!UICONTROL Enrichement]** activity in between them. This ensures proper execution and prevents potential conflicts or errors.-->
 
 ## Vorm de de afmetingsactiviteit van de Verandering {#configure}
 
@@ -39,9 +41,9 @@ Volg deze stappen om de **dimensie van de Verandering** activiteit te vormen:
 
 1. Voeg de dimensie van de a **Verandering** activiteit aan uw georkestreerde campagne toe.
 
-   ![](../assets/workflow-change-dimension.png)
+   ![](assets/change-dimension.png)
 
-1. Bepaal de **Nieuwe doelafmeting**. Tijdens het wijzigen van de afmetingen worden alle records bewaard. Andere opties zijn nog niet beschikbaar.
+1. Bepaal de **Nieuwe doelafmeting**. Tijdens het wijzigen van de afmetingen worden alle records bewaard.
 
 1. Voer de georkestreerde campagne uit om het resultaat te bekijken. Vergelijk de gegevens in de lijsten vóór en na de activiteit van de veranderingsdimensie, en vergelijk de structuur van de georkestreerde campagnetabellen.
 
@@ -51,4 +53,4 @@ In dit voorbeeld willen we een SMS-levering verzenden naar alle profielen die ee
 
 Vervolgens gebruiken we een **[!UICONTROL Change dimension]** -activiteit om de georkestreerde campagne voor dimensie om te zetten in &quot;Ontvangers&quot;. Dit staat ons toe om de ontvangers te kunnen richten die de vraag aanpassen.
 
-![](../assets/workflow-change-dimension-example.png)
+![](assets/change-dimension-example.png)
