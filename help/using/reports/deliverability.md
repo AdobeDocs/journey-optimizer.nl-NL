@@ -8,7 +8,7 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Het **leverbaarheidstarief** is het aantal berichten die de inboxes van ontvange
 
 Om de leverbaarheid van uw [!DNL Journey Optimizer] -ervaringen te optimaliseren, raden we u aan de best practices in deze sectie te gebruiken. De problemen van de levering zijn over het algemeen verbonden met bescherming tegen spam die door de dienstverleners van Internet (ISPs) en de beheerders van de postserver wordt uitgevoerd.
 
-Voor een diepere duik op wat de leverbaarheid is en meer op zeer belangrijke leveringsvoorwaarden, concepten, en benaderingen te leren, verwijs naar de [ Gids van de Beste praktijken van de Levering van Adobe ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl) {target="_blank"}.
+Voor een diepere duik op wat de leverbaarheid is en meer op zeer belangrijke leveringsvoorwaarden, concepten, en benaderingen te leren, verwijs naar de [ Gids van de Beste praktijken van de Levering van Adobe ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl){target="_blank"}.
 
 ## Het klachtenpercentage verlagen {#reduce-complaint-rate}
 
@@ -110,7 +110,7 @@ Nadat een eindgebruiker een klacht produceert die terug naar Adobe door ISP word
 
 >[!IMPORTANT]
 >
->Niet alle ISPs verstrekt traditionele FBL, zoals Gmail. Gmail biedt geen feedback op individueel niveau en kan niet worden gebruikt om spamklachten bij individuele ontvangers bij te houden, in plaats daarvan de nadruk te leggen op rapportage op geaggregeerd niveau binnen hun Google Postmaster Tools. [ leer meer ](https://support.google.com/a/answer/6254652?hl=en) {target="_blank"}
+>Niet alle ISPs verstrekt traditionele FBL, zoals Gmail. Gmail biedt geen feedback op individueel niveau en kan niet worden gebruikt om spamklachten bij individuele ontvangers bij te houden, in plaats daarvan de nadruk te leggen op rapportage op geaggregeerd niveau binnen hun Google Postmaster Tools. [Meer informatie](https://support.google.com/a/answer/6254652?hl=en){target="_blank"}
 
 Alle klanten van Adobe worden automatisch ingeschreven in traditionele FBLs van volgende ISPs:
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, configuratie, eigenschappen
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
 workflow-type: tm+mt
-source-wordcount: '2282'
+source-wordcount: '2285'
 ht-degree: 0%
 
 ---
@@ -249,9 +249,9 @@ Adobe Journey Optimizer gebruikt samenvoegbeleid terwijl het terugwinnen van pro
 * Bij Eenheidstijdvluchten wordt het standaard samenvoegbeleid gebruikt
 * Bij zakenreizen: het samenvoegbeleid van het doelpubliek in de volgende Lees-publieksactiviteit wordt gebruikt
 
-Adobe Journey Optimizer past het fusiebeleid toe dat gedurende de hele reis wordt gebruikt. Als er daarom meerdere soorten publiek worden gebruikt op een reis (bijvoorbeeld in &quot;inAudience&quot;-functies), waardoor inconsistenties ontstaan met het fusiebeleid dat door de reis wordt gebruikt, wordt een fout opgeworpen en wordt de publicatie geblokkeerd. Nochtans, als een inconsistent publiek in berichtverpersoonlijking wordt gebruikt, wordt een alarm niet opgeheven, ondanks de inconsistentie. Om deze reden, wordt het hoogst geadviseerd om het samenvoegbeleid te controleren verbonden aan uw publiek, wanneer dit publiek in berichtverpersoonlijking wordt gebruikt.
+Adobe Journey Optimizer past het fusiebeleid toe dat gedurende de hele reis wordt gebruikt. Daarom als de veelvoudige publiek in een reis (bijvoorbeeld het gebruiken van binnen [`inAudience` functies ](functions/functioninaudience.md)) wordt gebruikt, leidt dit tot inconsistenties met het fusiebeleid dat door de reis wordt gebruikt, wordt een fout opgeheven en de publicatie wordt geblokkeerd. Nochtans, als een inconsistent publiek in berichtverpersoonlijking wordt gebruikt, wordt een alarm niet opgeheven, ondanks de inconsistentie. Om deze reden, wordt het hoogst geadviseerd om het samenvoegbeleid te controleren verbonden aan uw publiek, wanneer dit publiek in berichtverpersoonlijking wordt gebruikt.
 
-Meer over samenvoegingsbeleid leren, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) {target="_blank"}.
+Meer over fusiebeleid leren, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
 >[!NOTE]
 >

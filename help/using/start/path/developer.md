@@ -7,9 +7,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Als Ontwikkelaar, moet u uw mobiele app **vormen om pushberichten met [!DNL Adobe Journey Optimizer] te kunnen verzenden.**
 
-Met [!DNL Journey Optimizer] kunt u uw reizen maken en berichten verzenden naar een doelgroep. Voordat u pushmeldingen kunt verzenden met [!DNL Journey Optimizer] , moet u ervoor zorgen dat er configuraties en integratie zijn in de mobiele app en in [!DNL Adobe Experience Platform] en [!DNL Adobe Experience Platform Launch] . Om de de gegevensstroom van de Berichten van de Duw in [!DNL Adobe Journey Optimizer] te begrijpen gelieve te verwijzen naar [ deze pagina ](../../push/push-gs.md).
+Met [!DNL Journey Optimizer] kunt u uw reizen maken en berichten verzenden naar het beoogde publiek. Voordat u pushmeldingen verzendt met [!DNL Journey Optimizer] , moet u controleren of er configuraties en integratie zijn in de mobiele app en in [!DNL Adobe Experience Platform] en [!DNL Adobe Experience Platform Launch] . Om de de gegevensstroom van de Berichten van de Duw in [!DNL Adobe Journey Optimizer] te begrijpen gelieve te verwijzen naar [ deze pagina ](../../push/push-gs.md).
 
 De stappen om het kanaal van het pushbericht te vormen en uw mobiele toepassingsintegratie te testen zijn gedetailleerd op [ deze pagina ](../../push/push-configuration.md).
 
@@ -28,4 +28,4 @@ De stappen om het kanaal van het pushbericht te vormen en uw mobiele toepassings
 
 U kunt ook meerdere handelingen uitvoeren met **[!DNL Adobe Journey Optimizer]API&#39;s** .
 
-De stappen om u te helpen beginnen [!DNL Offer Library] API te gebruiken zijn gedetailleerd [ in deze sectie ](../../offers/api-reference/getting-started.md). Deze handleiding bevat voorbeeld-API-aanroepen voor het uitvoeren van toetsbewerkingen met behulp van de beslissingsengine.
+Leer meer over [ Adobe Journey Optimizer APIs ](../../configuration/ajo-apis.md).

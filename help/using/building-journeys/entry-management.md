@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: terugkeer, reis, profiel, terugkerend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
+source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '702'
 ht-degree: 1%
 
 ---
@@ -22,13 +22,13 @@ Profielbeheer is afhankelijk van het type reis.
 
 ## Soorten reizen {#types-of-journeys}
 
-In Adobe Journey Optimizer zijn de volgende soorten reizen beschikbaar:
+Met Adobe Journey Optimizer kunt u de volgende soorten reizen maken:
 
-* **Eenheids gebeurtenis** reizen: deze reizen beginnen met een Unitaire gebeurtenis. Wanneer de gebeurtenis wordt ontvangen, gaat het bijbehorende profiel de reis in. [Meer informatie](#entry-unitary)
+* **Eenheids gebeurtenis** reizen: Deze reizen beginnen met een Unitaire gebeurtenis. Wanneer de gebeurtenis wordt ontvangen, gaat het bijbehorende profiel de reis in. [Meer informatie](#entry-unitary)
 
-* **reizen van de bedrijfs gebeurtenis**: deze reizen beginnen met een Bedrijfs gebeurtenis onmiddellijk die door a **wordt gevolgd leest publiek** activiteit. Wanneer de gebeurtenis wordt ontvangen, gaan profielen die tot het doelpubliek behoren de reis in. Voor elk profiel wordt één exemplaar van deze reis gemaakt. [Meer informatie](#entry-business)
+* **reizen van de bedrijfs gebeurtenis**: Deze reizen beginnen met een Bedrijfs gebeurtenis onmiddellijk die door a **wordt gevolgd leest publiek** activiteit. Wanneer de gebeurtenis wordt ontvangen, gaan profielen die tot het doelpubliek behoren de reis in. Voor elk profiel wordt één exemplaar van deze reis gemaakt. [Meer informatie](#entry-business)
 
-* **leest publiek** reizen: deze reizen beginnen met a **gelezen luisteraaractiviteit**. Wanneer de reis wordt uitgevoerd, komen profielen van het doelpubliek de reis binnen. Voor elk profiel wordt één exemplaar van deze reis gemaakt. Deze reizen kunnen terugkeren of &quot;one-shot&quot; zijn. [Meer informatie](#entry-read-audience)
+* **leest publiek** reizen: Deze reizen beginnen met a **gelezen luisteraaractiviteit**. Wanneer de reis wordt uitgevoerd, komen profielen van het doelpubliek de reis binnen. Voor elk profiel wordt één exemplaar van deze reis gemaakt. Deze reizen kunnen terugkeren of &quot;one-shot&quot; zijn. [Meer informatie](#entry-read-audience)
 
 * **reizen van de kwalificatie van het publiek 0} {: deze reizen beginnen met een de kwalificatiegebeurtenis van het Publiek.** Deze reizen luisteren naar de in- en uitgangen van profielen in het publiek. Wanneer dit gebeurt, gaat het bijbehorende profiel de reis in. [Meer informatie](#entry-unitary)
 
