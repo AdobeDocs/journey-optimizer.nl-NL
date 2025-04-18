@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8998e4c6c1eca4e0cd6c0336df781eb6628b118d
+source-git-commit: d4d7cab6b6841c2122d901f55c3162f0549ad5ff
 workflow-type: tm+mt
-source-wordcount: '2337'
+source-wordcount: '2342'
 ht-degree: 21%
 
 ---
@@ -177,13 +177,14 @@ ht-degree: 21%
    + [Belangrijkste beginselen](using/ms/gs-campaign-creation.md)
    + Configuratie {#ms-config}
       + [Configuratiestappen](using/ms/gs-campaign-config.md)
-      + [Schema&#39;s](using/ms/ms-schemas.md)
+      + [Relationele schema&#39;s maken](using/ms/ms-schemas.md)
       + [Werken met gebeurtenisvariabelen](using/ms/event-variables.md)
    + Uw eerste georkestreerde campagne maken {#create-ms-campaign}
       + [Een georkestreerde campagne maken](using/ms/create-ms-campaign.md)
       + [Orchestraten](using/ms/orchestrate-activities.md)
       + [Campagne-instellingen configureren](using/ms/ms-campaign-settings.md)
-      + [Uw campagnes starten en controleren](using/ms/start-monitor-campaigns.md)
+      + [Uw campagnes plannen en starten](using/ms/start-monitor-campaigns.md)
+      + [Geordende campagnes die verslag uitbrengen](using/ms/reporting-campaigns.md)
       + [ beheer verpersoonlijking ](using/ms/ms-personalization.md)
    + Geordende campagneactiviteiten {#design-campaigns}
       + [Informatie over georkestreerde campagneactiviteiten](using/ms/activities/about-activities.md)
