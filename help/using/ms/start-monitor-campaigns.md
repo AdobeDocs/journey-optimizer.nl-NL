@@ -6,17 +6,16 @@ description: Leer hoe u georkestreerde campagnes met Adobe Journey Optimizer kun
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 0%
+source-wordcount: '1085'
+ht-degree: 2%
 
 ---
 
 # Uw georkestreerde campagnes plannen en starten {#start-monitor}
 
-<!--
-<audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> -->
+
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
@@ -25,9 +24,80 @@ ht-degree: 0%
 
 Nadat u de georkestreerde en ontworpen taken hebt gemaakt die u op het canvas wilt uitvoeren, kunt u deze publiceren en controleren hoe deze wordt uitgevoerd.
 
+## Planningsopties
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_scheduler"
+>title="Planningsactiviteit"
+>abstract="De campagne **Planner** staat u toe om te plannen wanneer de georkestreerde campagne begonnen wordt. Deze activiteit moet worden beschouwd als een geplande start. Het kan alleen worden gebruikt als de eerste activiteit van de georkestreerde campagne."
+
+Als campagnemanager, kunt u campagnes plannen om automatisch op specifieke tijden te lanceren, toelatend nauwkeurige timing en nauwkeurige het richten gegevens voor marketing mededelingen.
+
+### Best practices {#scheduler-best-practices}
+
+* Plan geen georkestreerde campagne om meer dan om de 15 minuten in werking te stellen aangezien het algemene systeemprestaties kan belemmeren en tot blokken in het gegevensbestand kan leiden.
+* Als u een one-shot bericht in uw georkesteerde campagne wilt verzenden, kunt u het plaatsen om **eens** in werking te stellen.
+* Als u een terugkomend bericht in uw georkestreerde campagne wilt verzenden, moet u a **gebruiken plannend** opties en de uitvoeringsfrequentie plaatsen. De terugkomende leveringsactiviteit staat u niet toe om een programma te bepalen.
+
+### Het campagnereschema configureren {#scheduler-configuration}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_schedule_validity"
+>title="Geldigheid van planner"
+>abstract="U kunt een geldigheidsperiode voor de planner bepalen. Deze kan permanent zijn (standaard) of geldig zijn tot een bepaalde datum."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_schedule_options"
+>title="Planningsopties"
+>abstract="Bepaal de frequentie van de planner. Het kan op een specifiek moment, één keer of verscheidene keren per dag, week of maand worden uitgevoerd."
+
+![ het scherm van de Planner met maandelijkse opties ](assets/scheduler-screen.png)
+
+Voer de volgende stappen uit om het **georkestreerde campagneschema** te configureren:
+
+1. Selecteer zo spoedig mogelijk **** knoop op de bovenkant van uw georkestreerd campagnecanvas.
+
+1. Vorm de **frequentie van de Uitvoering**:
+
+   * **Eenmaal**: De georkestreerde campagne wordt uitgevoerd één keer.
+
+   * **Dagelijks**: De georkestreerde campagne wordt uitgevoerd op een specifiek tijdstip, eens per dag.
+
+   * **verscheidene tijden per dag:** de georkestreerde campagne wordt regelmatig uitgevoerd verscheidene keren per dag. U kunt uitvoeringen instellen op specifieke tijdstippen of periodiek.
+
+   * **Wekelijks**: de georkestreerde campagne wordt uitgevoerd op een gespecificeerd ogenblik, één of verscheidene tijden per week.
+
+   * **Maandelijks**: De georkestreerde campagne wordt uitgevoerd op een gespecificeerd moment, eens of verscheidene tijden per maand. U kunt maanden selecteren wanneer u de georkestreerde campagne moet uitvoeren. U kunt uitvoeringen ook instellen op bepaalde weekdagen van de maand, zoals de tweede dinsdag van de maand.
+
+     ![ het scherm van de Planner met dagelijkse uitvoeringssteekproef ](assets/scheduler-daily-sample.png){width="50%" align="left"}
+
+1. Definieer de details van de uitvoering op basis van de geselecteerde frequentie. De detailvelden variëren afhankelijk van de gebruikte frequentie (tijd, herhalingsfrequentie, opgegeven dagen, enz.).
+
+1. Klik **de lanceringstijden van de Voorproef** om het programma van volgende tien uitvoeringen van uw georkestreerde campagne te controleren.
+
+1. Bepaal de geldigheidsperiode van de planner:
+
+   * **Vaste (verloopt nooit)**: de georkestreerde campagne wordt uitgevoerd, volgens de gespecificeerde frequentie, zonder enige grenzen aan het tijdkader of aantal herhalingen.
+
+   * **Geldigheidsperiode**: de georkestreerde campagne wordt uitgevoerd volgens de gespecificeerde frequentie, tot een specifieke datum. U moet begin- en einddatums opgeven.
+
+1. Selecteer **bevestigen** om uw montages te bewaren. De uitvoeringsfrequentie wordt boven het georkestreerde campagnecanvas weergegeven.
+
+>[!TIP]
+>
+>Als u de georkestreerde campagne direct wilt beginnen, houd **zo spoedig mogelijk** standaardwaarde.
+
+## Voorbeeld {#scheduler-example}
+
+In het volgende voorbeeld, wordt de activiteit gevormd zodat de georkestreerde campagne tweemaal per dag om 9 en 12 AM, elke dag van de week van 1 Oktober, 2025 aan 1 Januari, 2026 loopt.
+
+![ Planner die wordt gevormd om de campagne tweemaal per dag bij 9 en 12 AM ](assets/scheduler-sample.png){width="50%" align="left"} in werking te stellen
+
+
 ## Een georkestreerde campagne starten {#start}
 
-Als u een geordende campagne wilt starten, navigeert u naar het tabblad **[!UICONTROL Multi-step]** van het menu **[!UICONTROL Campaign]** en selecteert u de campagne die u wilt starten. Klik vervolgens op de knop **[!UICONTROL Start]** in de rechterbovenhoek van het canvas.
+Als u een geordende campagne wilt starten, navigeert u naar het tabblad **[!UICONTROL Orchestration]** van het menu **[!UICONTROL Campaigns]** en selecteert u de campagne die u wilt starten. Klik vervolgens op de knop **[!UICONTROL Play]** in de rechterbovenhoek van het canvas.
 
 Zodra de georkestreerde campagne loopt, wordt elke activiteit in het canvas uitgevoerd in opeenvolgende orde, tot het eind van de georkestreerde campagne wordt bereikt.
 
