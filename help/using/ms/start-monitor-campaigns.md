@@ -6,9 +6,9 @@ description: Leer hoe u georkestreerde campagnes met Adobe Journey Optimizer kun
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: cc89e09df989ad4bdfe1ecb855bc2a6eedea9676
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1107'
 ht-degree: 2%
 
 ---
@@ -127,9 +127,15 @@ De visuele indicatoren in de hoger-juiste hoek van elke activiteitendoos staan u
 
 ## Logboeken en taken controleren {#logs-tasks}
 
-Het controleren van workflows logboeken en taken is een zeer belangrijke stap om uw georkestreerde campagnes te analyseren en ervoor te zorgen zij behoorlijk lopen. Ze zijn toegankelijk via het pictogram **[!UICONTROL Logs]** dat beschikbaar is in de werkbalk Handeling en in het deelvenster Eigenschappen van elke activiteit.
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_logs"
+>title="Logboeken en taken"
+>abstract="De **Logboeken en het 1} scherm van taken {verstrekken een geschiedenis van de georkestreerde campagneuitvoering, registrerend alle gebruikersacties en ondervonden fouten.**"
+
+Het controleren van logboeken en taken is een zeer belangrijke stap om uw georkestreerde campagnes te analyseren en ervoor te zorgen zij behoorlijk lopen. Ze zijn toegankelijk via het pictogram **[!UICONTROL Logs]** dat beschikbaar is in de werkbalk Handeling en in het deelvenster Eigenschappen van elke activiteit.
 
 Het menu **[!UICONTROL Logs and tasks]** bevat een geschiedenis van de georkestreerde uitvoering van de campagne, waarin alle handelingen van de gebruiker zijn opgenomen en fouten zijn aangetroffen.
+
 ![](assets/workflow-logs.png){zoomable="yes"}
 
 Er zijn twee soorten informatie beschikbaar:
