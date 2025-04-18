@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: wachten, activiteit, reis, volgende, canvas
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '644'
 ht-degree: 3%
 
 ---
@@ -47,9 +47,13 @@ Een individu kan a **ingaan wacht** activiteit slechts als zij genoeg tijd in de
 
 Een beste praktijk om **niet te gebruiken wacht** activiteiten om ingang te blokkeren. In plaats daarvan, gebruik **terugkeer** optie op het niveau van de reiseigenschappen toestaan. Leer meer op [ deze pagina ](../building-journeys/journey-properties.md#entrance).
 
-### Wachten en testmodus {#wait-test-modd}
+### Wachten en testmodus {#wait-test-mode}
 
 Op testwijze, staat de **[!UICONTROL Wait time in test]** parameter u toe om de tijd te bepalen dat elk **** activiteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Leer meer op [ deze pagina ](../building-journeys/testing-the-journey.md).
+
+### Wachten en mobiele kanalen {#wait-mobile-channels}
+
+Als u een [ in-app bericht ](../in-app/create-in-app.md) kort na het verzenden van a [ duw bericht ](../push/get-started-push.md) wilt tonen, gebruik a **wacht** activiteit om de in-app tijd van de berichtlading toe te staan om zich te verspreiden. Meestal wordt een wachttijd van 5 tot 15 minuten aanbevolen, maar de exacte wachttijden kunnen variëren afhankelijk van de complexiteit van de lading en de behoeften aan personalisatie.
 
 ## Configuratie {#wait-configuration}
 

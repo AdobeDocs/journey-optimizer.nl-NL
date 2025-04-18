@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '1967'
 ht-degree: 1%
 
 ---
@@ -118,6 +118,10 @@ Ga als volgt te werk om een bericht in de app toe te voegen:
 1. Zodra uw bericht in de app klaar is, voltooit u de configuratie en publiceert u uw reis om het te activeren.
 
 Voor meer informatie over hoe te om een reis te vormen, verwijs naar [ deze pagina ](../building-journeys/journey-gs.md).
+
+>[!NOTE]
+>
+>Als u een in-app bericht kort na het verzenden van een duw bericht wilt tonen, gebruik a **wacht** activiteit om de in-app tijd van de berichtlading toe te staan om zich te verspreiden. Meestal wordt een wachttijd van 5 tot 15 minuten aanbevolen, maar de exacte wachttijden kunnen variëren afhankelijk van de complexiteit van de lading en de behoeften aan personalisatie.
 
 >[!TAB  voeg een In-app bericht aan een campagne toe ]
 
