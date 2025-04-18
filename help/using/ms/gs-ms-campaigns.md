@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
+source-git-commit: 75a5a1dc7c6b411e44147250ab58a0eabf651207
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
    * [Campagne-instellingen configureren](ms-campaign-settings.md)
    * [Aan de slag met activiteiten](activities/about-activities.md)
    * [Orchestraten](orchestrate-activities.md)
-* [ Personaliseer uw berichten ](ms-personalization.md)*
+* [Je berichten personaliseren](ms-personalization.md)
 * [Query&#39;s samenstellen](ms-query-modeler.md)
 * [Uw berichten testen en valideren](ms-proofs.md)
 * [Uw campagnes plannen en starten](start-monitor-campaigns.md)
