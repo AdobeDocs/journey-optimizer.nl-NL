@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: extern, API, optimaliseren, aftopping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
+source-git-commit: e3ed3d2d662d76c022a7820f3771289b14c8b8b8
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 24%
+source-wordcount: '1374'
+ht-degree: 23%
 
 ---
 
@@ -29,7 +29,11 @@ Wanneer Journey Optimizer een aanroep naar een externe API uitvoert, worden de t
 
 1. De het in kaart brengen of throttling regels worden toegepast: als het maximumtarief wordt bereikt, worden de resterende vraag verworpen of een rij gevormd.
 
-2. Time-out en probeer het opnieuw: als de begrenzende of vertragingsregel wordt vervuld, probeert Journey Optimizer de vraag uit te voeren tot het eind van de onderbrekingsduur wordt bereikt.
+1. Time-out en probeer het opnieuw: als de begrenzende of vertragingsregel wordt vervuld, probeert Journey Optimizer de vraag uit te voeren tot het eind van de onderbrekingsduur wordt bereikt.
+
+>[!TIP]
+>
+>We raden u aan om minstens een buffer van één minuut te laten staan tussen de periode van de symbolische vervaldatum van de externe API en de Journey Optimizer-instelling [`cacheDuration` ](../datasource/external-data-sources.md#custom-authentication-access-token) , met name bij zware werklasten, om te voorkomen dat de vervaldatumproblemen en 401 fouten niet worden opgelost.
 
 ## API&#39;s uitlijnen en vertragen {#capping}
 
