@@ -8,9 +8,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform, data Lake, create, Lake, datasets, profile
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 7243da6ecab9bce2afeb86a35d35b7bc94d4d196
+source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '678'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Vanaf Februari 2025, wordt een tijd-aan-levende (TTL) guardrail opgesteld uit aa
 * 90 dagen voor gegevens in de profielopslag,
 * 13 maanden voor gegevens in het data Lake.
 
-Deze verandering zal uit aan **bestaande klantenzandbakken** in een verdere fase worden opgerold.
+Deze verandering wordt uitgerold aan **bestaande klantenzandbakken** in een verdere fase.
 
 ## Betrokken gegevenssets {#datasets}
 
@@ -75,13 +75,13 @@ De uitbreidingen van TTLs worden momenteel niet gesteund. Het is echter de bedoe
 
 >[!NOTE]
 >
->Voor gegevens die in het profiel zijn opgeslagen, geldt de machtiging Totaal gegevensvolume. Elke toename van de gegevensopslag op het profiel als gevolg van een uitbreiding van de TTL zou daarom in mindering worden gebracht op de machtiging Totaal gegevensvolume. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html) {target="_blank}
+>Voor gegevens die in het profiel zijn opgeslagen, geldt de machtiging Totaal gegevensvolume. Elke toename van de gegevensopslag op het profiel als gevolg van een uitbreiding van de TTL zou daarom in mindering worden gebracht op de machtiging Totaal gegevensvolume. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target=&quot;_blank}
 
 +++
 
 +++Kunnen klanten TTL voor [!DNL Journey Optimizer] gegevens van de systeemdataset in gegevens verhogen?
 
-De uitbreidingen van TTLs worden momenteel niet gesteund. De klanten kunnen gegevens door Doelen uitvoeren om gegevens langer te behouden. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html) {target="_blank}. Bovendien kunnen klanten met een machtiging **[!DNL Data Distiller]** afgeleide gegevenssets maken om de gegevens in het gegevensmeer op te slaan zonder een TTL. [ leer meer ](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview) {target="_blank}
+De uitbreidingen van TTLs worden momenteel niet gesteund. De klanten kunnen gegevens door Doelen uitvoeren om gegevens langer te behouden. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html) {target= &quot;_blank}. Bovendien kunnen klanten met een machtiging **[!DNL Data Distiller]** afgeleide gegevenssets maken om de gegevens in het gegevensmeer op te slaan zonder een TTL. [ leer meer ](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 

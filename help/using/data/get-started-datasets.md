@@ -8,9 +8,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform, data Lake, create, Lake, datasets, profile
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Door gebrek, slechts worden de datasets die u hebt ingebed in getoond. Als u de 
 
 >[!NOTE]
 >
->Vanaf 1 november 2024 biedt streaming segmentatie geen ondersteuning meer voor het gebruik van send- en open-gebeurtenissen van Journey Optimizer-tracking en feedback in gegevenssets. Daarnaast wordt vanaf februari 2025 een time-to-live (TTL)-guardrail (time-to-live) uitgerold naar door het Journey Optimizer-systeem gegenereerde gegevenssets. [Meer informatie](datasets-ttl.md)
+>Vanaf 1 november 2024 ondersteunt streaming segmentatie niet langer het gebruik van send en open gebeurtenissen van Journey Optimizer tracking en feedback datasets. Daarnaast wordt vanaf februari 2025 een time-to-live (TTL)-guardrail (time-to-live) uitgerold naar door het Journey Optimizer-systeem gegenereerde gegevenssets. [Meer informatie](datasets-ttl.md)
 
 Selecteer de naam van een dataset om tot zijn de activiteitenscherm van de Dataset toegang te hebben en details van de dataset te zien u selecteerde. Het activiteitenlusje omvat een grafiek die het tarief visualiseert van berichten die worden verbruikt evenals een lijst van succesvolle en ontbroken partijen.
 
@@ -64,7 +64,7 @@ Systeemgegevenssets voor Adobe Journey Optimizer worden hieronder weergegeven.
 
 * _Send-Time de Scores van de Optimalisering / de Scores van de Betrokkenheid_: De scores van de Output van Reis AI.
 
-Om de volledige lijst van gebieden en attributen voor elk schema te bekijken, raadpleeg het [ het schemawoordenboek van Journey Optimizer ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) {target="_blank"}.
+Om de volledige lijst van gebieden en attributen voor elk schema te bekijken, raadpleeg het [ het schemawoordenboek van Journey Optimizer ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
 ## Gegevensbestanden voorvertonen{#preview-datasets}
 
@@ -78,8 +78,8 @@ Om een nieuwe dataset tot stand te brengen, begin door **te selecteren leidt dat
 
 U kunt:
 
-* Gegevensset maken van schema. [ leer meer in deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#schema) {target="_blank"}
-* Gegevensset maken van CSV-bestand. [ leer meer in deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html) {target="_blank"}
+* Gegevensset maken van schema. [ leer meer in deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#schema){target="_blank"}
+* Gegevensset maken van CSV-bestand. [ leer meer in deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html){target="_blank"}
 
 Bekijk deze video om te leren hoe te om een dataset tot stand te brengen, het in kaart te brengen aan een schema, gegevens aan het toe te voegen, en te bevestigen dat de gegevens zijn opgenomen.
 
@@ -93,19 +93,19 @@ Een van de kernmogelijkheden van [!DNL Adobe Experience Platform] is om gegevens
 
 Met [!DNL Adobe Experience Platform Data Governance] kunt u klantgegevens beheren en ervoor zorgen dat de regels, beperkingen en beleidsregels die van toepassing zijn op het gebruik van gegevens worden nageleefd. Het speelt binnen Experience Platform een sleutelrol op verschillende niveaus, zoals catalogisering, gegevenskoppeling, etikettering van het gegevensgebruik, het beleid voor gegevensgebruik en het controleren van het gebruik van gegevens voor marketingacties.
 
-Leer meer over de etiketten van het gegevensbeheer en van het gegevensgebruik in de [ documentatie van het Beleid van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html) {target="_blank"}
+Leer meer over de etiketten van het gegevensbeheer en van het gegevensgebruik in de [ documentatie van het Beleid van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html){target="_blank"}
 
 ## Monsters en gebruiksgevallen{#uc-datasets}
 
 Leer hoe te om een schema, een dataset tot stand te brengen en gegevens in te voeren om de profielen van de Test in Adobe Journey Optimizer in [ toe te voegen deze steekproef van begin tot eind ](../audience/creating-test-profiles.md)
 
-Leer meer over datasetverwezenlijking in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html) {target="_blank"}.
+Leer meer over datasetverwezenlijking in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target="_blank"}.
 
-Leer hoe te om Datasets UI in de [ het overzichtsdocumentatie van de Ingestie van Gegevens te gebruiken ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) {target="_blank"}.
+Leer hoe te om Datasets UI in de [ documentatie van het overzicht van de Ingestie van Gegevens te gebruiken ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html){target="_blank"}.
 
 Een lijst van gebruiksgevallen met vraagvoorbeelden is beschikbaar [ hier ](../data/datasets-query-examples.md).
 
 >[!MORELIKETHIS]
 >
->* [ het stromen ingegaan overzicht ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl) {target="_blank"}
->* [ Ingest gegevens in Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html) {target="_blank"}
+>* [ het stromen ingegaan overzicht ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl){target="_blank"}
+>* [ Ingest gegevens in Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target="_blank"}
