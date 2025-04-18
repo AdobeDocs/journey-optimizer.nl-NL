@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 960c7ab18cdca6e34c06f2dc6672aefdb5340ef0
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,5 @@ De volgende activiteiten zijn specifiek gericht op het organiseren en uitvoeren 
 * [ en-sluit zich aan ](and-join.md): Synchroniseer veelvoudige uitvoeringstakken van een georkestreerde campagne.
 * **Eind**: Merk grafisch het eind van een georkestreerde campagne. Deze activiteit heeft geen functioneel effect en is daarom optioneel
 * [ Fork ](fork.md): Creeer uitgaande overgangen om verscheidene activiteiten tezelfdertijd te beginnen.
-* [ Planner ](scheduler.md): Plan wanneer de georkestreerde campagne begonnen wordt.
 * [ Test ](test.md): laat overgangen toe die op gespecificeerde voorwaarden worden gebaseerd.
 * [ wacht ](wait.md): Onderbreek tijdelijk uitvoering van een deel van een georkestreerde campagne.

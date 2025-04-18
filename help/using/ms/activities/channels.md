@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 960c7ab18cdca6e34c06f2dc6672aefdb5340ef0
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Begin uw georkestreerde campagne met de relevante activiteiten te bouwen:
 
 * Voordat u een kanaalactiviteit invoegt, moet u het publiek definiëren. Het publiek is het belangrijkste doel van uw levering: de profielen die de berichten ontvangen.
 
-* Om een terugkomende levering te verzenden, begin uw georkestreerde campagne met a **Planner** activiteit. U kunt a **planner** activiteit voor één-ontsproten enige leveringen ook gebruiken om de contactdatum voor die levering te plaatsen. Deze contactdatum kan ook worden ingesteld in de leveringsinstellingen. Zie [deze sectie](scheduler.md).
+* Om een terugkomende levering te verzenden, begin uw georkestreerde campagne met a **Planner** activiteit. U kunt a **planner** activiteit voor één-ontsproten enige leveringen ook gebruiken om de contactdatum voor die levering te plaatsen. Deze contactdatum kan ook worden ingesteld in de leveringsinstellingen.
 
 ## Een kanaalactiviteit configureren {#create-a-delivery-in-a-workflow}
 
@@ -64,7 +64,7 @@ Volg onderstaande stappen om een levering in te stellen in het kader van een geo
 1. Selecteer het **Type van levering**: enige of terugkomende.
 
    * A **Enige levering** is een één-schot levering, slechts eens verzonden, bijvoorbeeld een zwarte Vrijdag e-mail.
-   * A **Terugkomende levering** wordt verzonden veelvoudige tijden die op zijn uitvoeringsfrequentie worden gebaseerd die in a [ wordt bepaald planneractiviteit ](scheduler.md). Elke keer dat de georkestreerde campagne wordt uitgevoerd, wordt het publiek opnieuw berekend en wordt de levering verzonden naar het bijgewerkte publiek, met de bijgewerkte inhoud. Dit kan bijvoorbeeld een wekelijkse nieuwsbrief of een terugkerende verjaardagsmail zijn.
+   * A **Terugkomende levering** wordt verzonden veelvoudige tijden die op zijn uitvoeringsfrequentie worden gebaseerd. Elke keer dat de georkestreerde campagne wordt uitgevoerd, wordt het publiek opnieuw berekend en wordt de levering verzonden naar het bijgewerkte publiek, met de bijgewerkte inhoud. Dit kan bijvoorbeeld een wekelijkse nieuwsbrief of een terugkerende verjaardagsmail zijn.
 
 1. Selecteer een levering **Malplaatje**. Sjablonen zijn vooraf geconfigureerde leveringsinstellingen die specifiek zijn voor een kanaal. Een ingebouwde sjabloon is beschikbaar voor elk kanaal en wordt standaard vooraf ingevuld.
 
