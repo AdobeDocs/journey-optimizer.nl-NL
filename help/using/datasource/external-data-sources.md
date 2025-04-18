@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: extern, bronnen, gegevens, configuratie, verbinding, derde
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 2a2abe3e663f8c9ff24c804eae53d44988960838
 workflow-type: tm+mt
-source-wordcount: '1552'
-ht-degree: 51%
+source-wordcount: '1583'
+ht-degree: 50%
 
 ---
 
@@ -44,6 +44,9 @@ Hier volgen twee voorbeelden van de API-aanroep:
 
 De aanroep bestaat uit een hoofd-URL (_https://api.adobeweather.org/weather_), twee parameterreeksen (‘city’ voor de stad en ‘lat/long’ voor de breedtegraad en de lengtegraad) en de API-sleutel (appid).
 
+>[!TIP]
+>
+>We raden u aan om minstens een buffer van één minuut te laten staan tussen de periode van de symbolische vervaldatum van de externe API en de Journey Optimizer-instelling [`cacheDuration` ](#custom-authentication-access-token) , met name bij zware werklasten, om te voorkomen dat de vervaldatumproblemen en 401 fouten niet worden opgelost.
 
 ## Een externe gegevensbron maken en configureren {#create-ext-data-sources}
 
@@ -59,9 +62,7 @@ Hieronder vindt u de belangrijkste stappen voor het maken en configureren van ee
 
 1. Voer een naam in voor de databron.
 
-   >[!NOTE]
-   >
-   >Alleen alfanumerieke tekens en onderstrepingstekens zijn toegestaan. De maximumlengte is 30 tekens.
+Alleen alfanumerieke tekens en onderstrepingstekens zijn toegestaan. De maximumlengte is 30 tekens.
 
 1. Voeg een beschrijving aan de databron toe. Deze stap is optioneel.
 1. Voeg de URL van de externe service toe. In ons voorbeeld: _https://api.adobeweather.org/weather_.
