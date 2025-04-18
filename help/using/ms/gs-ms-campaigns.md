@@ -6,9 +6,9 @@ description: Leer hoe u begint met georkestreerde campagnes
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: c41d7e7543f3254479f63d4e104f471192e63632
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,8 @@ ht-degree: 0%
 **Lijst van inhoud**
 
 * Krijg begonnen met georkestreerde campagnes - [ Zeer belangrijke principes ](gs-campaign-creation.md)
-* Configuratie: [ Werk met schema&#39;s ](ms-schemas.md) - [ Werk met gebeurtenisvariabelen ](event-variables.md)
-* Begonnen worden: [ creeer een georkestreerde campagne ](create-ms-campaign.md) - [ vorm campagnemontages ](ms-campaign-settings.md) - [ Begin en controleer uw campagnes ](start-monitor-campaigns.md) - [ begonnen met activiteiten ](activities/about-activities.md) - [ Orchestrate activiteiten ](orchestrate-activities.md) - [ Personalization ](ms-personalization.md)
+* Configuratie: [ vormt uw georkestreerde campagnes ](gs-campaign-config.md) - [ Werk met schema&#39;s ](ms-schemas.md) - [ Werk met gebeurtenisvariabelen ](event-variables.md)
+* Begonnen worden: [ creeer een georkestreerde campagne ](create-ms-campaign.md) - [ vorm campagnemontages ](ms-campaign-settings.md) - [ Programma en begin uw campagnes ](start-monitor-campaigns.md) - [ begonnen met activiteiten ](activities/about-activities.md) - [ Orchestrate activiteiten ](orchestrate-activities.md) - [ Personalization ](ms-personalization.md)
 * Lijst van activiteiten: [ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ combineert ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ acties van het Kanaal ](activities/channels.md) - [ Verrijking ](activities/enrichment.md) - [ Fork [ Het dossier van de lading ](activities/load-file.md) - [ Verzoening ](activities/reconciliation.md) - [ sparen publiek ](activities/save-audience.md) - [ Planner ](activities/scheduler.md) - [ Gesplitste ](activities/split.md) - [ Test ](activities/test.md) - [ gegevens van de Update [ wacht ](activities/wait.md)](activities/fork.md)](activities/update-data.md)
 
 >[!ENDSHADEBOX]
@@ -41,8 +41,11 @@ Met een uitgebreide grafische omgeving kunt u processen ontwerpen, zoals segment
 
 ## Reisorkest en campagneorkestatie
 
-Reizen vs. campagnes - leg de verschillen, gebruiksgevallen en beste praktijken uit
+Campagne Orchestration is de belangrijkste module voor het ontwerpen, verzenden en volgen van merkmededelingen op schaal. Het laat geautomatiseerde distributie van marketing berichten aan gericht publiek toe, leveraging bestaande gegevenssegmenten voor daadwerkelijke verpersoonlijking, door profiel en niet-profielentiteiten te combineren. Ideaal voor campagnegestuurde outreach, Campaign Orchestration zorgt voor consistente, efficiënte berichtlevering (vaak vooraf gepland) om de betrokkenheid van klanten te stimuleren en belangrijke marketingdoelstellingen te ondersteunen.
 
+Campagne Orchestration herdefinieert publiekssegmentatie door meerdere entiteiten in Adobe Journey Optimizer toe te laten, en vergemakkelijkt gericht overseinen die bijvoorbeeld op specifieke statussen, gebeurtenissen, contracten, of het boeken worden gebaseerd. Aangezien u mededelingen naar entiteiten buiten profielen kunt verzenden, of vragen op om het even welke entiteit tot stand brengen, kunt u een holistische mening hebben en een groot werkingsgebied van inzichten vangen om uw publiek te bouwen.
+
+Het machtigen van gegeven-gedreven besluiten, de Orchestratie van de Campagne hefboomwerking veelvoudige bronnen voor een dynamische verrijkte dataset.
 
 
 ## Laten we dieper duiken
@@ -55,7 +58,7 @@ Nu u weet welke workflows er zijn en wat u ermee kunt doen in Adobe Campaign, is
 <img alt="Workflows openen en beheren" src="assets/do-not-localize/workflow-access.jpeg">
 </a>
 <div>
-<a href="gs-campaign-creation.md"><strong> Zeer belangrijke principes </strong></a>
+<a href="gs-campaign-creation.md"><strong>Configuratiestappen</strong></a>
 </div>
 <p>
 </td>
@@ -63,7 +66,7 @@ Nu u weet welke workflows er zijn en wat u ermee kunt doen in Adobe Campaign, is
 <a href="create-ms-campaign.md">
 <img alt="Lood" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
-<div><a href="create-ms-campaign.md"><strong> creeer een multi-step campagne </strong>
+<div><a href="create-ms-campaign.md"><strong> creeer een geordende campagne </strong>
 </div>
 <p>
 </td>

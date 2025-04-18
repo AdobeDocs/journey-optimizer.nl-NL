@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
+source-git-commit: c41d7e7543f3254479f63d4e104f471192e63632
 workflow-type: tm+mt
-source-wordcount: '2335'
+source-wordcount: '2339'
 ht-degree: 21%
 
 ---
@@ -172,10 +172,12 @@ ht-degree: 21%
          + [Leveringen opwaarderen](using/building-journeys/ramp-up-deliveries-uc.md)
          + [Productie beperken met externe gegevensbronnen en aangepaste acties](using/building-journeys/limit-throughput.md)
          + [Aangepaste acties gebruiken om gebeurtenissen voor reizen in Experience Platform te schrijven](using/building-journeys/custom-action-aep.md)
-+ Geordende campagnes {#ms-campaigns}
++ Geordende campagnes {#orchestrated-campaigns}
    + [Aan de slag met georkestreerde campagnes](using/ms/gs-ms-campaigns.md)
+   + [Configuratiestappen](using/ms/gs-campaign-config.md)
    + [Belangrijkste beginselen](using/ms/gs-campaign-creation.md)
    + Configuratie {#ms-config}
+      + [Configuratiestappen](using/ms/gs-campaign-config.md)
       + [Schema&#39;s](using/ms/ms-schemas.md)
       + [Werken met gebeurtenisvariabelen](using/ms/event-variables.md)
    + Uw eerste georkestreerde campagne maken {#create-ms-campaign}
