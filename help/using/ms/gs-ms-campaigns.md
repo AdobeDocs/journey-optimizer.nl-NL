@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Aan de slag met georkestreerde campagnes
 description: Leer hoe u begint met georkestreerde campagnes
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -19,12 +20,21 @@ ht-degree: 0%
 
 **Lijst van inhoud**
 
-* Krijg begonnen met georkestreerde campagnes - [ Zeer belangrijke principes ](gs-campaign-creation.md)
-* Configuratie: [ vormt uw georkestreerde campagnes ](gs-campaign-config.md) - [ Werk met schema&#39;s ](ms-schemas.md) - [ Werk met gebeurtenisvariabelen ](event-variables.md)
-* Begonnen worden: [ creeer een georkestreerde campagne ](create-ms-campaign.md) - [ vorm campagnemontages ](ms-campaign-settings.md) - [ worden begonnen met activiteiten ](activities/about-activities.md) - [ Orchestrate activiteiten ](orchestrate-activities.md) - [ Personalization ](ms-personalization.md)
-* Lijst van activiteiten: [ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ combineert ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ acties van het Kanaal ](activities/channels.md) - [ Verrijking ](activities/enrichment.md) - [ Fork [ Het dossier van de lading ](activities/load-file.md) - [ Verzoening ](activities/reconciliation.md) - [ sparen publiek ](activities/save-audience.md) - [ Planner ](activities/scheduler.md) - [ Gesplitste ](activities/split.md) - [ Test ](activities/test.md) - [ gegevens van de Update [ wacht ](activities/wait.md)](activities/fork.md)](activities/update-data.md)
+* Aan de slag met georkestreerde campagnes
+* Configuratie
+   * [ vorm uw georkestreerde campagnes ](gs-campaign-config.md)
+   * [Relationele schema&#39;s maken](ms-schemas.md)
+* Uw eerste georkestreerde campagne maken
+   * [Belangrijkste beginselen](gs-campaign-creation.md)
+   * [Een georkestreerde campagne maken](create-ms-campaign.md)
+   * [Campagne-instellingen configureren](ms-campaign-settings.md)
+   * [Aan de slag met activiteiten](activities/about-activities.md)
+   * [Orchestraten](orchestrate-activities.md)
+* [Personalisatie](ms-personalization.md)
+* [Uw berichten testen en valideren](ms-proofs.md)
 * [Uw campagnes plannen en starten](start-monitor-campaigns.md)
-* [Controle en rapportage](reporting-campaigns.md)
+* Lijst van activiteiten: [ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ combineert ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ acties van het Kanaal ](activities/channels.md) - [ Verrijking ](activities/enrichment.md) - [ Fork [ Het dossier van de lading ](activities/load-file.md) - [ Verzoening ](activities/reconciliation.md) - [ sparen publiek ](activities/save-audience.md) - [ Gesplitste ](activities/split.md) - [ Test ](activities/test.md) - [ gegevens van de Update ](activities/update-data.md) - [ wacht ](activities/wait.md)](activities/fork.md)
+* [Rapportage](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]
 

@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d4d7cab6b6841c2122d901f55c3162f0549ad5ff
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2337'
 ht-degree: 21%
 
 ---
@@ -174,12 +174,11 @@ ht-degree: 21%
          + [Aangepaste acties gebruiken om gebeurtenissen voor reizen in Experience Platform te schrijven](using/building-journeys/custom-action-aep.md)
 + Geordende campagnes {#orchestrated-campaigns}
    + [Aan de slag met georkestreerde campagnes](using/ms/gs-ms-campaigns.md)
-   + [Belangrijkste beginselen](using/ms/gs-campaign-creation.md)
    + Configuratie {#ms-config}
       + [Configuratiestappen](using/ms/gs-campaign-config.md)
       + [Relationele schema&#39;s maken](using/ms/ms-schemas.md)
-      + [Werken met gebeurtenisvariabelen](using/ms/event-variables.md)
    + Uw eerste georkestreerde campagne maken {#create-ms-campaign}
+      + [Belangrijkste beginselen](using/ms/gs-campaign-creation.md)
       + [Een georkestreerde campagne maken](using/ms/create-ms-campaign.md)
       + [Orchestraten](using/ms/orchestrate-activities.md)
       + [Campagne-instellingen configureren](using/ms/ms-campaign-settings.md)
@@ -199,7 +198,6 @@ ht-degree: 21%
       + [Bestand laden](using/ms/activities/load-file.md)
       + [Afstemming](using/ms/activities/reconciliation.md)
       + [Doelgroep opslaan](using/ms/activities/save-audience.md)
-      + [Planner](using/ms/activities/scheduler.md)
       + [Splitsen](using/ms/activities/split.md)
       + [Testen](using/ms/activities/test.md)
       + [Gegevens bijwerken](using/ms/activities/update-data.md)
