@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: test, reis, controle, fout, oplossen
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 1ee75284f3c5f0c7870e8bd8779d4daf9879aa40
+source-git-commit: 0f783c57ba946866cb74c2b16e1807ff963cfbaf
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1751'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 * Om prestaties te optimaliseren en verouderd middelgebruik te verhinderen, zullen alle reizen op testwijze die niet voor een week zijn teweeggebracht terug naar de **status van het Ontwerp** schakelen.
 * Gebeurtenissen die door de testwijze worden teweeggebracht worden opgeslagen in specifieke datasets. Deze gegevenssets worden als volgt gelabeld: `JOtestmode - <schema of your event>`
 * Wanneer u reizen test die meerdere gebeurtenissen bevatten, moet u elke gebeurtenis op volgorde activeren. Als een gebeurtenis te vroeg wordt verzonden (voordat het eerste wachtknooppunt is voltooid) of te laat (na de geconfigureerde time-out), wordt de gebeurtenis genegeerd en wordt het profiel naar een time-outpad verzonden. Bevestig altijd alle verwijzingen naar velden voor gebeurtenislading geldig door de lading binnen het gedefinieerde venster te verzenden
-
+* Zorg ervoor de reis gevormd verkies [ begin en einddata/tijd ](journey-properties.md#dates) venster de huidige tijd wanneer het in werking stellen van testwijze omvat. Anders worden getriggerde testgebeurtenissen stilletjes genegeerd.
 
 <!--
 * Fields from related entities are hidden from the test mode.
