@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 733b08dff82f0d6f0f62d2e7644aeee493a69503
+source-git-commit: b620d479548791df97912b143e7dbe7557ab4acc
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -53,11 +53,12 @@ Met Adobe Journey Optimizer kunt u marketingcampagnes op meerdere kanalen automa
 
 ![ Lijst van de activiteiten van de debietcontrole ](../assets/flow-control-activities.png){width="30%" align="left"}
 
-
 De volgende activiteiten zijn specifiek gericht op het organiseren en uitvoeren van georkestreerde campagnes. Hun voornaamste taak is de coördinatie van de andere activiteiten:
 
 * [ en-sluit zich aan ](and-join.md): Synchroniseer veelvoudige uitvoeringstakken van een georkestreerde campagne.
-* **Eind**: Merk grafisch het eind van een georkestreerde campagne. Deze activiteit heeft geen functioneel effect en is daarom optioneel
 * [ Fork ](fork.md): Creeer uitgaande overgangen om verscheidene activiteiten tezelfdertijd te beginnen.
-* [ Test ](test.md): laat overgangen toe die op gespecificeerde voorwaarden worden gebaseerd.
+  <!--* [Test](test.md): Enable transitions based on specified conditions.-->
 * [ wacht ](wait.md): Onderbreek tijdelijk uitvoering van een deel van een georkestreerde campagne.
+
+>[!NOTE]
+>De **activiteit van het 0} Eind {merkt grafisch het eind van een georkestreerde campagne.** Deze activiteit heeft geen functioneel effect en is daarom optioneel
