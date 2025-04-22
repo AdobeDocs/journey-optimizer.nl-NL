@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
+source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -38,12 +38,6 @@ Deze activiteiten zijn specifiek gericht op de doelgroepen. Met deze instructies
 * [ Verzoening ](reconciliation.md): Bepaal het verband tussen de gegevens in de gegevens van Journey Optimizer en de gegevens in een het werklijst, bijvoorbeeld gegevens die van een extern dossier worden geladen.
 * [ sparen publiek ](save-audience.md): Werk een bestaand publiek bij of creeer een nieuw publiek van de bevolking die stroomopwaarts in een georkestreerde campagne wordt berekend.
 * [ Gesplitst ](split.md): De inkomende bevolking van het segment in verscheidene ondergroepen.
-
-## Gegevensbeheeractiviteiten {#data}
-
-Deze activiteiten zijn specifiek gericht op het manipuleren en verrijken van bevolkingsgegevens.
-
-* [ het dossier van de Lading ](load-file.md): Het werk met profielen en gegevens die in een extern dossier worden opgeslagen.
 
 ## Kanaalactiviteiten {#channel}
 

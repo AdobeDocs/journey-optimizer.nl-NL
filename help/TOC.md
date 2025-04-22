@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
 workflow-type: tm+mt
-source-wordcount: '2340'
+source-wordcount: '2338'
 ht-degree: 21%
 
 ---
@@ -197,7 +197,6 @@ ht-degree: 21%
       + [Kanaalhandelingen](using/ms/activities/channels.md)
       + [Verrijking](using/ms/activities/enrichment.md)
       + [Vertakking](using/ms/activities/fork.md)
-      + [Bestand laden](using/ms/activities/load-file.md)
       + [Afstemming](using/ms/activities/reconciliation.md)
       + [Doelgroep opslaan](using/ms/activities/save-audience.md)
       + [Splitsen](using/ms/activities/split.md)

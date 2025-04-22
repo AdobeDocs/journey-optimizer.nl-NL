@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 9%
+source-wordcount: '560'
+ht-degree: 6%
 
 ---
 
@@ -93,33 +93,3 @@ Volg deze stappen om de **Verzoening** activiteit te vormen:
 1. U kunt gegevens filtreren om het gebruiken van te verzoenen **creeer filterknoop**. Hiermee kunt u een aangepaste voorwaarde maken met behulp van de querymodelfunctie.
 
 Door gebrek, worden de niet in overeenstemming gebrachte gegevens gehouden in de uitgaande overgang en beschikbaar in de werkbare lijst voor toekomstig gebruik. Om onverenigde gegevens te verwijderen, desactiveer **houden unconiled gegevens** optie.
-
-## Voorbeeld {#reconciliation-example}
-
-In het volgende voorbeeld ziet u een geordende campagne waarmee u rechtstreeks vanuit een geïmporteerd bestand dat nieuwe clients bevat een publiek van profielen maakt. De workflow bestaat uit de volgende activiteiten:
-
-De georkestreerde campagne is als volgt ontworpen:
-
-![](../assets/workflow-reconciliation-sample-1.0.png)
-
-
-Het wordt gebouwd met de volgende activiteiten:
-
-* Met een activiteit [Bestand laden](load-file.md) uploadt u een bestand met profieldata die uit een extern hulpprogramma zijn geëxtraheerd.
-
-  Bijvoorbeeld:
-
-  ```
-  lastname;firstname;email;birthdate;
-  JACKMAN;Megan;megan.jackman@testmail.com;07/08/1975;
-  PHILLIPS;Edward;phillips@testmail.com;09/03/1986;
-  WEAVER;Justin;justin_w@testmail.com;11/15/1990;
-  MARTIN;Babe;babeth_martin@testmail.net;11/25/1964;
-  REESE;Richard;rreese@testmail.com;02/08/1987;
-  ```
-
-* A **Verzoening** activiteit die de inkomende gegevens als profielen identificeert, door **e-mail** en **Datum van geboorte** gebieden als verzoeningscriteria te gebruiken.
-
-  ![](../assets/workflow-reconciliation-sample-1.1.png)
-
-* A [ sparen publiek ](save-audience.md) activiteit om een nieuw publiek tot stand te brengen dat op deze updates wordt gebaseerd. U kunt **sparen publiek** activiteit door een **Eind** activiteit ook vervangen als geen specifiek publiek moet worden gecreeerd of worden bijgewerkt. De ontvangerprofielen worden in elk geval bijgewerkt wanneer u de georkestreerde campagne uitvoert.
