@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
+source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -20,15 +20,17 @@ De geordende campagneactiviteiten zijn gegroepeerd in drie categorieën. Afhanke
 
 Alle activiteiten worden beschreven in de volgende onderdelen:
 
-* [Gerichte activiteiten en gegevensbeheer](#targeting)
+* [Gerichte activiteiten](#targeting)
 * [Kanaalactiviteiten](#channel)
 * [Stroombeheeractiviteiten](#flow-control)
 
-![](../assets/workflow-activities.png)
+![ Lijst van activiteiten beschikbaar in het canvas ](../assets/workflow-activities.png){width="70%" align="left"}
 
 ## Gerichte activiteiten {#targeting}
 
 Deze activiteiten zijn specifiek gericht op de doelgroepen. Met deze instructies kunt u een of meer doelen maken door een publiek te definiëren en deze soorten publiek te splitsen of te combineren met een doorsnede-, samenvoegings- of uitsluitingsbewerking.
+
+![ Lijst van het richten van activiteiten ](../assets/targeting-activities.png){width="50%" align="left"}
 
 * [ bouwt publiek ](build-audience.md): Bepaal uw doelbevolking. U kunt of een bestaand publiek selecteren of de vraagmodeler gebruiken om uw eigen vraag te bepalen.
 * [ dimensie van de Verandering ](change-dimension.md): Verander de het richten dimensie aangezien u uw georkestreerde campagne bouwt.
@@ -36,12 +38,11 @@ Deze activiteiten zijn specifiek gericht op de doelgroepen. Met deze instructies
 * [ Deduplicatie ](deduplication.md): Schrap duplicaten in het resultaat(en) van de binnenkomende activiteiten.
 * [ Verrijking ](enrichment.md): Bepaal extra gegevens om in uw georkestreerde campagne te verwerken. Met deze activiteit, kunt u hefboomwerking de binnenkomende overgang en de activiteit vormen om de outputovergang met extra gegevens te voltooien.
 * [ Verzoening ](reconciliation.md): Bepaal het verband tussen de gegevens in de gegevens van Journey Optimizer en de gegevens in een het werklijst, bijvoorbeeld gegevens die van een extern dossier worden geladen.
-* [ sparen publiek ](save-audience.md): Werk een bestaand publiek bij of creeer een nieuw publiek van de bevolking die stroomopwaarts in een georkestreerde campagne wordt berekend.
 * [ Gesplitst ](split.md): De inkomende bevolking van het segment in verscheidene ondergroepen.
 
 ## Kanaalactiviteiten {#channel}
 
-Met Adobe Journey Optimizer kunt u marketingcampagnes op meerdere kanalen automatiseren en uitvoeren. U kunt kanaalactiviteiten in het canvas combineren om dwars-kanaal georkestreerde campagne tot stand te brengen die acties kan teweegbrengen die op klantengedrag worden gebaseerd. De volgende **activiteiten van het Kanaal** zijn beschikbaar: E-mail, SMS, Android en de Push van iOS berichten. [ Leer hoe te opstelling een levering in de context van een georkestreerde campagne ](channels.md).
+Met Adobe Journey Optimizer kunt u marketingcampagnes op meerdere kanalen automatiseren en uitvoeren. U kunt kanaalactiviteiten in het canvas combineren om dwars-kanaal georkestreerde campagne tot stand te brengen die acties kan teweegbrengen die op klantengedrag worden gebaseerd. De volgende **activiteiten van het Kanaal** zijn beschikbaar: E-mail, SMS, Android en de Push van iOS berichten. [ leer hoe te om een kanaalactie in de context van een georkestreerde campagne ](channels.md) tot stand te brengen.
 
 ## Stroombeheeractiviteiten {#flow-control}
 
@@ -49,6 +50,9 @@ Met Adobe Journey Optimizer kunt u marketingcampagnes op meerdere kanalen automa
 >id="ajo_orchestration_end"
 >title="Eindactiviteit"
 >abstract="Het **Eind** activiteit staat u toe om het eind van een georkestreerde campagne grafisch te merken. Deze activiteit heeft geen functioneel effect en is daarom optioneel."
+
+![ Lijst van de activiteiten van de debietcontrole ](../assets/flow-control-activities.png){width="50%" align="left"}
+
 
 De volgende activiteiten zijn specifiek gericht op het organiseren en uitvoeren van georkestreerde campagnes. Hun voornaamste taak is de coördinatie van de andere activiteiten:
 
