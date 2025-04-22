@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: activiteit, reis, lezen, publiek, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 48a1ef9a48cecddf340031fcbbec4fe574cb2839
+source-git-commit: ca51c88c122cce23364b86a1da8900d0d5b37aaf
 workflow-type: tm+mt
-source-wordcount: '1753'
+source-wordcount: '1750'
 ht-degree: 0%
 
 ---
@@ -52,13 +52,13 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
->title="Reizen synchroniseren met publiek exporteren"
->abstract="Schakel deze optie in om de reis te starten zodra een nieuwe export van het publiek beschikbaar is."
+>title="Trigger na batchpublieksevaluatie"
+>abstract="Schakel deze optie in om de uitvoering van de reis te starten na een nieuwe evaluatie van het batchpubliek."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
->title="Reizen synchroniseren met publiek exporteren"
->abstract="Geef de duur op van de reis die moet worden afgelegd om ervoor te zorgen dat het publiek opnieuw kan worden geëxporteerd."
+>title="Wacht op tijd voor nieuwe publieksevaluatie"
+>abstract="Geef de tijdsduur op gedurende welke de rit moet wachten tot het batchpubliek opnieuw wordt geëvalueerd."
 
 Gebruik de **Gelezen activiteit van het Publiek** om alle individuen van een publiek te maken de reis ingaan. Het betreden van een reis kan één keer of op regelmatige basis plaatsvinden.
 
