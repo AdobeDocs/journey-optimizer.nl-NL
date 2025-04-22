@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
+source-git-commit: 733b08dff82f0d6f0f62d2e7644aeee493a69503
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -24,13 +24,13 @@ Alle activiteiten worden beschreven in de volgende onderdelen:
 * [Kanaalactiviteiten](#channel)
 * [Stroombeheeractiviteiten](#flow-control)
 
-![ Lijst van activiteiten beschikbaar in het canvas ](../assets/workflow-activities.png){width="70%" align="left"}
+![ Lijst van activiteiten beschikbaar in het canvas ](../assets/workflow-activities.png){width="80%" align="left"}
 
 ## Gerichte activiteiten {#targeting}
 
 Deze activiteiten zijn specifiek gericht op de doelgroepen. Met deze instructies kunt u een of meer doelen maken door een publiek te definiëren en deze soorten publiek te splitsen of te combineren met een doorsnede-, samenvoegings- of uitsluitingsbewerking.
 
-![ Lijst van het richten van activiteiten ](../assets/targeting-activities.png){width="50%" align="left"}
+![ Lijst van het richten van activiteiten ](../assets/targeting-activities.png){width="40%" align="left"}
 
 * [ bouwt publiek ](build-audience.md): Bepaal uw doelbevolking. U kunt of een bestaand publiek selecteren of de vraagmodeler gebruiken om uw eigen vraag te bepalen.
 * [ dimensie van de Verandering ](change-dimension.md): Verander de het richten dimensie aangezien u uw georkestreerde campagne bouwt.
@@ -51,7 +51,7 @@ Met Adobe Journey Optimizer kunt u marketingcampagnes op meerdere kanalen automa
 >title="Eindactiviteit"
 >abstract="Het **Eind** activiteit staat u toe om het eind van een georkestreerde campagne grafisch te merken. Deze activiteit heeft geen functioneel effect en is daarom optioneel."
 
-![ Lijst van de activiteiten van de debietcontrole ](../assets/flow-control-activities.png){width="50%" align="left"}
+![ Lijst van de activiteiten van de debietcontrole ](../assets/flow-control-activities.png){width="30%" align="left"}
 
 
 De volgende activiteiten zijn specifiek gericht op het organiseren en uitvoeren van georkestreerde campagnes. Hun voornaamste taak is de coördinatie van de andere activiteiten:
