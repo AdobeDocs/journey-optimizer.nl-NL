@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 75a5a1dc7c6b411e44147250ab58a0eabf651207
+source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 * [Query&#39;s samenstellen](ms-query-modeler.md)
 * [Uw berichten testen en valideren](ms-proofs.md)
 * [Uw campagnes plannen en starten](start-monitor-campaigns.md)
-* Lijst van activiteiten: [ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ combineert ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ acties van het Kanaal ](activities/channels.md) - [ Verrijking ](activities/enrichment.md) - [ Fork [ Het dossier van de lading ](activities/load-file.md) - [ Verzoening ](activities/reconciliation.md) - [ sparen publiek ](activities/save-audience.md) - [ Gesplitste ](activities/split.md) - [ Test ](activities/test.md) - [ gegevens van de Update ](activities/update-data.md) - [ wacht ](activities/wait.md)](activities/fork.md)
+* Lijst van activiteiten: [ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ combineert ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ acties van het Kanaal ](activities/channels.md) - [ Verrijking ](activities/enrichment.md) - [ Fork [ Het dossier van de lading ](activities/load-file.md) - [ Verzoening ](activities/reconciliation.md) - [ sparen publiek ](activities/save-audience.md) - [ Gesplitste ](activities/split.md) - [ Test ](activities/test.md) - [ wacht ](activities/wait.md)](activities/fork.md)
 * [Rapportage](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]

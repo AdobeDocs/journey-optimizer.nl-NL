@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 960c7ab18cdca6e34c06f2dc6672aefdb5340ef0
+source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,6 @@ Deze activiteiten zijn specifiek gericht op de doelgroepen. Met deze instructies
 Deze activiteiten zijn specifiek gericht op het manipuleren en verrijken van bevolkingsgegevens.
 
 * [ het dossier van de Lading ](load-file.md): Het werk met profielen en gegevens die in een extern dossier worden opgeslagen.
-* [ gegevens van de Update ](update-data.md): Voer massa-updates op gebieden in het gegevensbestand uit. Met verschillende opties kunt u de gegevensupdate aanpassen.
 
 ## Kanaalactiviteiten {#channel}
 
