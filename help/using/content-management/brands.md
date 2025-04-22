@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ Als u de richtlijn voor uw merk wilt maken en beheren, kunt u de details zelf in
 
    ![](assets/brands-4.png)
 
-1. Als u deze hebt geconfigureerd, klikt u op **[!UICONTROL Save]** en vervolgens op **[!UICONTROL Publish]** om uw merkenhulplijn beschikbaar te maken in de AI-assistent.
+1. Als u de configuratie hebt voltooid, klikt u op **[!UICONTROL Save]** en vervolgens op **[!UICONTROL Publish]** om uw merkenhulplijn beschikbaar te maken in AI Assistant.
 
 1. Klik op **[!UICONTROL Edit brand]** om wijzigingen aan te brengen in uw gepubliceerde merk.
 
@@ -152,6 +152,6 @@ Als u de richtlijn voor uw merk wilt maken en beheren, kunt u de details zelf in
 
    ![](assets/brands-6.png)
 
-De richtlijnen voor uw merk zijn nu beschikbaar via de vervolgkeuzelijst **[!UICONTROL Brand]** in het menu AI-assistent, zodat u inhoud en elementen kunt genereren die zijn afgestemd op uw specificaties. [ leer meer over de AI medewerker ](gs-generative.md)
+De richtlijnen voor uw merk zijn nu beschikbaar in het keuzemenu **[!UICONTROL Brand]** in AI Assistant, waarmee u inhoud en elementen kunt genereren die zijn afgestemd op uw specificaties. [ Leer meer over Medewerker AI ](gs-generative.md)
 
 ![](assets/brands-7.png)

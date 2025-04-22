@@ -1,34 +1,34 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: SMS genereren met de AI Assistant
-description: SMS-inhoud genereren met de AI Assistant in Journey Optimizer
+title: SMS genereren met AI Assistant
+description: SMS-inhoud genereren met AI Assistant in Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
-source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '893'
 ht-degree: 2%
 
 ---
 
-# SMS genereren met de AI Assistant in Journey Optimizer {#generative-sms}
+# SMS genereren met AI Assistant in Journey Optimizer {#generative-sms}
 
 >[!IMPORTANT]
 >
 >Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](gs-generative.md#generative-guardrails).
 ></br>
 >
->U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u de Medewerker AI in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u AI Medewerker in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-Nadat u uw SMS-berichten hebt gemaakt en aangepast aan de voorkeuren van uw publiek, kunt u de communicatie met de AI Assistant in Journey Optimizer verbeteren.
+Nadat u uw SMS-berichten hebt gemaakt en aangepast aan de voorkeuren van uw publiek, kunt u de communicatie met AI Assistant in Journey Optimizer verbeteren.
 
 Deze bron biedt inzichtelijke aanbevelingen om uw inhoud te verfijnen, zodat uw berichten kunnen resoneren en maximale betrokkenheid kunnen stimuleren.
 
-Bekijk de onderstaande tabbladen voor meer informatie over het gebruik van de AI Assistant in Journey Optimizer.
+Bekijk de onderstaande tabbladen voor meer informatie over het gebruik van AI Assistant in Journey Optimizer.
 
 >[!BEGINTABS]
 
@@ -65,7 +65,7 @@ Bekijk de onderstaande tabbladen voor meer informatie over het gebruik van de AI
 
    ![](assets/sms-genai-3.png){zoomable="yes"}
 
-1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die inhoud bevatten die aanvullende context voor de AI-assistent kan bieden of selecteer een eerder geüpload element.
+1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om een merkelement toe te voegen dat inhoud bevat die extra context-AI-assistent kan bieden of selecteer een eerder geüpload element.
 
    Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel eenvoudig de elementen in die u wilt opnemen in uw generatie.
 
@@ -79,7 +79,7 @@ Bekijk de onderstaande tabbladen voor meer informatie over het gebruik van de AI
 
    * **[!UICONTROL Rephrase]**:De AI-assistent kan uw bericht op verschillende manieren herformuleren, zodat u steeds fris schrijft en aantrekkelijk wordt voor verschillende soorten publiek.
 
-   * **[!UICONTROL Use simpler language]**: Gebruik de AI Assistant om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
+   * **[!UICONTROL Use simpler language]**: Gebruik AI Assistant om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
 
    U kunt ook de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de tekst wijzigen.
 
@@ -109,7 +109,7 @@ Wanneer u uw inhoud, publiek en planning hebt bepaald, bent u bereid om uw campa
 
    ![](assets/sms-text-genai-1.png){zoomable="yes"}
 
-1. Schakel de optie **[!UICONTROL Use reference content]** voor de AI-assistent in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
+1. Schakel de optie **[!UICONTROL Use reference content]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
 1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
 
@@ -130,7 +130,7 @@ Wanneer u uw inhoud, publiek en planning hebt bepaald, bent u bereid om uw campa
 
    ![](assets/sms-text-genai-3.png){zoomable="yes"}
 
-1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die inhoud bevatten die aanvullende context voor de AI-assistent kan bieden of selecteer een eerder geüpload element.
+1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om een merkelement toe te voegen dat inhoud bevat die extra context-AI-assistent kan bieden of selecteer een eerder geüpload element.
 
    Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel eenvoudig de elementen in die u wilt opnemen in uw generatie.
 
@@ -144,7 +144,7 @@ Wanneer u uw inhoud, publiek en planning hebt bepaald, bent u bereid om uw campa
 
    * **[!UICONTROL Rephrase]**:De AI-assistent kan uw bericht op verschillende manieren herformuleren, zodat u steeds fris schrijft en aantrekkelijk wordt voor verschillende soorten publiek.
 
-   * **[!UICONTROL Use simpler language]**: Gebruik de AI Assistant om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
+   * **[!UICONTROL Use simpler language]**: Gebruik AI Assistant om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
 
    ![](assets/sms-text-genai-4.png){zoomable="yes"}
 

@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: E-mailgeneratie met AI Assistant in Journey Optimizer
-description: E-mailinhoud en -middelen genereren met de AI Assistant in Journey Optimizer
+description: E-mailinhoud en -middelen genereren met AI Assistant in Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1561'
 ht-degree: 1%
 
 ---
@@ -22,19 +22,19 @@ ht-degree: 1%
 >Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](gs-generative.md#generative-guardrails).
 ></br>
 >
->U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u de Medewerker AI in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u AI Medewerker in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-Nadat u uw e-mails hebt gemaakt en aangepast, kunt u de kracht van de AI Assistant in Journey Optimizer, gevoed door generatieve AI, benutten om uw inhoud te verhogen.
+Nadat u uw e-mails hebt gemaakt en aangepast, kunt u de kracht van AI Assistant in Journey Optimizer benutten, gevoed door generatieve AI, om uw inhoud te verhogen.
 
-Met de AI Assistant in Journey Optimizer kunt u de doeltreffendheid van uw campagnes verbeteren door complete e-mails, op maat gemaakte tekstfragmenten en aangepaste afbeeldingen te maken die rechtstreeks aan uw publiek worden getoond, waardoor betrokkenheid en interactie worden bevorderd.
+Met AI Assistant in Journey Optimizer kunt u de doeltreffendheid van uw campagnes verbeteren door complete e-mails, op maat gemaakte tekstfragmenten en aangepaste afbeeldingen te maken die rechtstreeks aan uw publiek worden getoond, waardoor betrokkenheid en interactie worden bevorderd.
 
-Bekijk de onderstaande tabbladen voor meer informatie over het gebruik van de AI Assistant in Journey Optimizer.
+Bekijk de onderstaande tabbladen voor meer informatie over het gebruik van AI Assistant in Journey Optimizer.
 
 >[!BEGINTABS]
 
 >[!TAB  Volledige e-mailgeneratie ]
 
-In het volgende voorbeeld gebruiken we de AI Assistant om een bestaande e-mailsjabloon te verfijnen.
+In het volgende voorbeeld gebruiken we AI Assistant om een bestaande e-mailsjabloon te verfijnen.
 
 1. Klik op **[!UICONTROL Edit content]** nadat u uw e-mailcampagne hebt gemaakt en geconfigureerd.
 
@@ -44,7 +44,7 @@ In het volgende voorbeeld gebruiken we de AI Assistant om een bestaande e-mailsj
 
    ![](assets/full-email-1.png){zoomable="yes"}
 
-1. Schakel de optie **[!UICONTROL Use original content]** voor de AI-assistent in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
+1. Schakel de optie **[!UICONTROL Use original content]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
 1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
 
@@ -62,7 +62,7 @@ In het volgende voorbeeld gebruiken we de AI Assistant om een bestaande e-mailsj
 
    * **[!UICONTROL Communication strategy]**: Kies de meest geschikte communicatiestijl voor de gegenereerde tekst.
    * **[!UICONTROL Languages]**: opties voor Spaanse, Italiaanse, Zweedse en Noorse talen worden vrijgegeven als een persoonlijke bètaversie en in toekomstige versies geleidelijk beschikbaar voor alle klanten.
-   * **[!UICONTROL Tone]**: De toon van uw e-mail zou met uw publiek moeten resoneren. Of u informatief wilt klinken, playful, of overtuigend, de Medewerker van AI kan het bericht dienovereenkomstig aanpassen.
+   * **[!UICONTROL Tone]**: De toon van uw e-mail zou met uw publiek moeten resoneren. Of u informatief wilt klinken, playful, of overtuigend, AI Medewerker kan het bericht dienovereenkomstig aanpassen.
 
    ![](assets/full-email-4.png){zoomable="yes"}
 
@@ -76,7 +76,7 @@ In het volgende voorbeeld gebruiken we de AI Assistant om een bestaande e-mailsj
 
    ![](assets/full-email-6.png){zoomable="yes"}
 
-1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die inhoud bevatten die aanvullende context voor de AI-assistent kan bieden of selecteer een eerder geüpload element.
+1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om een merkelement toe te voegen dat inhoud bevat die extra context-AI-assistent kan bieden of selecteer een eerder geüpload element.
 
    Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel eenvoudig de elementen in die u wilt opnemen in uw generatie.
 
@@ -90,7 +90,7 @@ In het volgende voorbeeld gebruiken we de AI Assistant om een bestaande e-mailsj
 
    * **[!UICONTROL Rephrase]**: De AI-assistent kan uw bericht op verschillende manieren herformuleren, zodat u steeds fris schrijft en aantrekkelijk wordt voor verschillende soorten publiek.
 
-   * **[!UICONTROL Use simpler language]**: Gebruik de AI Assistant om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
+   * **[!UICONTROL Use simpler language]**: Gebruik AI Assistant om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
 
    U kunt ook de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de tekst wijzigen.
 
@@ -106,7 +106,7 @@ Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-mailcamp
 
 >[!TAB  Tekst slechts generatie ]
 
-In het volgende voorbeeld gebruiken we de AI Assistant om de inhoud van onze e-mail te verbeteren.
+In het volgende voorbeeld gebruiken we AI Assistant om de inhoud van onze e-mail te verbeteren.
 
 1. Klik op **[!UICONTROL Edit content]** nadat u uw e-mailcampagne hebt gemaakt en geconfigureerd.
 
@@ -116,7 +116,7 @@ In het volgende voorbeeld gebruiken we de AI Assistant om de inhoud van onze e-m
 
    ![](assets/text-genai-1.png){zoomable="yes"}
 
-1. Schakel de optie **[!UICONTROL Use original content]** voor de AI-assistent in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
+1. Schakel de optie **[!UICONTROL Use original content]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
 1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
 
@@ -132,12 +132,12 @@ In het volgende voorbeeld gebruiken we de AI Assistant om de inhoud van onze e-m
 
    * **[!UICONTROL Communication strategy]**: Kies de meest geschikte communicatiestijl voor de gegenereerde tekst.
    * **[!UICONTROL Languages]**: opties voor Spaanse, Italiaanse, Zweedse en Noorse talen worden vrijgegeven als een persoonlijke bètaversie en in toekomstige versies geleidelijk beschikbaar voor alle klanten.
-   * **[!UICONTROL Tone]**: De toon van uw e-mail zou met uw publiek moeten resoneren. Of u informatief wilt klinken, playful, of overtuigend, de Medewerker van AI kan het bericht dienovereenkomstig aanpassen.
+   * **[!UICONTROL Tone]**: De toon van uw e-mail zou met uw publiek moeten resoneren. Of u informatief wilt klinken, playful, of overtuigend, AI Medewerker kan het bericht dienovereenkomstig aanpassen.
    * **Lengte van de Tekst**: Gebruik de schuif om de gewenste lengte van uw tekst te selecteren.
 
    ![](assets/text-genai-4.png){zoomable="yes"}
 
-1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die inhoud bevatten die aanvullende context voor de AI-assistent kan bieden of selecteer een eerder geüpload element.
+1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om een merkelement toe te voegen dat inhoud bevat die extra context-AI-assistent kan bieden of selecteer een eerder geüpload element.
 
    Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel eenvoudig de elementen in die u wilt opnemen in uw generatie.
 
@@ -153,11 +153,11 @@ In het volgende voorbeeld gebruiken we de AI Assistant om de inhoud van onze e-m
 
    * **[!UICONTROL Elaborate]**: De AI-assistent kan u helpen bij het uitvouwen van specifieke onderwerpen en biedt extra informatie voor een beter begrip en betrokkenheid.
 
-   * **[!UICONTROL Summarize]**: langdurige informatie kan e-mailontvangers te veel laden. Gebruik de AI-assistent om belangrijke punten samen te voegen tot heldere, beknopte samenvattingen die aandacht trekken en hen aanmoedigen om verder te lezen.
+   * **[!UICONTROL Summarize]**: langdurige informatie kan e-mailontvangers te veel laden. Met AI Assistant kunt u belangrijke punten samenvoegen tot heldere, beknopte samenvattingen die aandacht trekken en hen aanmoedigen om verder te lezen.
 
    * **[!UICONTROL Rephrase]**:De AI-assistent kan uw bericht op verschillende manieren herformuleren, zodat u steeds fris schrijft en aantrekkelijk wordt voor verschillende soorten publiek.
 
-   * **[!UICONTROL Use simpler language]**: Gebruik de AI Assistant om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
+   * **[!UICONTROL Use simpler language]**: Gebruik AI Assistant om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
 
    U kunt ook de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de tekst wijzigen.
 
@@ -173,19 +173,19 @@ Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-mailcamp
 
 >[!TAB  slechts generatie van het Beeld ]
 
-In het onderstaande voorbeeld leert u hoe u de AI Assistant kunt gebruiken om uw middelen te optimaliseren en te verbeteren, zodat u een gebruiksvriendelijker ervaring hebt.
+In het onderstaande voorbeeld leert u hoe u AI Assistant kunt gebruiken om uw middelen te optimaliseren en te verbeteren, zodat u een gebruiksvriendelijker ervaring hebt.
 
 1. Klik op **[!UICONTROL Edit content]** nadat u uw e-mailcampagne hebt gemaakt en geconfigureerd.
 
    Voor meer informatie over hoe te om uw e-mailcampagne te vormen, verwijs naar [ deze pagina ](../email/create-email.md).
 
-1. Selecteer het element dat u wilt wijzigen met de AI-assistent.
+1. Selecteer het element dat u wilt wijzigen met AI Assistant.
 
 1. Selecteer **[!UICONTROL AI Assistant]** in het rechtermenu.
 
    ![](assets/image-genai-1.png){zoomable="yes"}
 
-1. Schakel de optie **[!UICONTROL Reference style]** voor de AI-assistent in om nieuwe inhoud aan te passen op basis van de referentie-inhoud. U kunt ook een afbeelding uploaden om context aan uw variatie toe te voegen.
+1. Schakel de optie **[!UICONTROL Reference style]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de referentie-inhoud. U kunt ook een afbeelding uploaden om context aan uw variatie toe te voegen.
 
 1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
 
@@ -208,7 +208,7 @@ In het onderstaande voorbeeld leert u hoe u de AI Assistant kunt gebruiken om uw
 
    ![](assets/image-genai-4.png){zoomable="yes"}
 
-1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die inhoud bevatten die aanvullende context voor de AI-assistent kan bieden of selecteer een eerder geüpload element.
+1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om een merkelement toe te voegen dat inhoud bevat die extra context-AI-assistent kan bieden of selecteer een eerder geüpload element.
 
    Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel eenvoudig de elementen in die u wilt opnemen in uw generatie.
 
@@ -233,6 +233,6 @@ In het onderstaande voorbeeld leert u hoe u de AI Assistant kunt gebruiken om uw
 
 ## Hoe kan ik-video {#video}
 
-Leer hoe u de AI Assistant in Journey Optimizer kunt gebruiken om volledige e-mail, tekst of afbeeldingen te genereren.
+Leer hoe u AI Assistant in Journey Optimizer kunt gebruiken om volledige e-mail, tekst of afbeeldingen te genereren.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3433552)

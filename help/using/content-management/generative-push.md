@@ -1,32 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Push generation met de AI Assistant in Journey Optimizer
-description: Push-inhoud genereren met de AI Assistant in Journey Optimizer
+title: Push generation met AI Assistant in Journey Optimizer
+description: Push-inhoud genereren met AI Assistant in Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1455'
 ht-degree: 1%
 
 ---
 
-# Push generation met de AI Assistant {#generative-push}
+# Push generation met AI Assistant {#generative-push}
 
 >[!IMPORTANT]
 >
 >Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](gs-generative.md#generative-guardrails).
 ></br>
 >
->U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u de Medewerker AI in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u AI Medewerker in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-Wanneer u uw berichten hebt gemaakt en gepersonaliseerd, neemt u de inhoud van uw pushmelding naar het volgende niveau met de AI Assistant in Journey Optimizer.
+Als je berichten hebt gemaakt en gepersonaliseerd, ga je pushberichten naar het volgende niveau met AI Assistant in Journey Optimizer.
 
-Bekijk de onderstaande tabbladen voor meer informatie over het gebruik van de AI Assistant in Journey Optimizer.
+Bekijk de onderstaande tabbladen voor meer informatie over het gebruik van AI Assistant in Journey Optimizer.
 
 >[!BEGINTABS]
 
@@ -48,7 +48,7 @@ Voer de volgende stappen uit:
 
    ![](assets/push-genai-full-1.png){zoomable="yes"}
 
-1. Schakel de optie **[!UICONTROL Use original content]** voor de AI-assistent in om de nieuwe inhoudsoptie aan te passen op basis van de geselecteerde inhoud.
+1. Schakel de optie **[!UICONTROL Use original content]** voor AI Assistant in om de nieuwe inhoudsoptie aan te passen op basis van de geselecteerde inhoud.
 
 1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
 
@@ -66,7 +66,7 @@ Voer de volgende stappen uit:
 
    * **[!UICONTROL Communication strategy]**: Kies de meest geschikte communicatiestijl voor de gegenereerde tekst.
    * **[!UICONTROL Languages]**: opties voor Spaanse, Italiaanse, Zweedse en Noorse talen worden vrijgegeven als een persoonlijke bètaversie en in toekomstige versies geleidelijk beschikbaar voor alle klanten.
-   * **[!UICONTROL Tone]**: De toon van uw pushberichten zou met uw publiek moeten resoneren. Of u informatief wilt klinken, playful, of overtuigend, de Medewerker van AI kan het bericht dienovereenkomstig aanpassen.
+   * **[!UICONTROL Tone]**: De toon van uw pushberichten zou met uw publiek moeten resoneren. Of u informatief wilt klinken, playful, of overtuigend, AI Medewerker kan het bericht dienovereenkomstig aanpassen.
 
    ![](assets/push-genai-full-3.png){zoomable="yes"}
 
@@ -80,7 +80,7 @@ Voer de volgende stappen uit:
 
    ![](assets/push-genai-full-5.png){zoomable="yes"}
 
-1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die inhoud bevatten die aanvullende context voor de AI-assistent kan bieden of selecteer een eerder geüpload element.
+1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om een merkelement toe te voegen dat inhoud bevat die extra context-AI-assistent kan bieden of selecteer een eerder geüpload element.
 
    Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel eenvoudig de elementen in die u wilt opnemen in uw generatie.
 
@@ -94,7 +94,7 @@ Voer de volgende stappen uit:
 
    * **[!UICONTROL Rephrase]**: De AI-assistent kan uw bericht op verschillende manieren herformuleren, zodat u steeds fris schrijft en aantrekkelijk wordt voor verschillende soorten publiek.
 
-   * **[!UICONTROL Use simpler language]**: Gebruik de AI Assistant om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
+   * **[!UICONTROL Use simpler language]**: Gebruik AI Assistant om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
 
    U kunt ook de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de tekst wijzigen.
 
@@ -110,7 +110,7 @@ Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, kunt u uw p
 
 >[!TAB  Tekst slechts generatie ]
 
-In dit voorbeeld leert u hoe u de AI Assistant in Journey Optimizer kunt gebruiken voor specifieke inhoud. Voer de volgende stappen uit:
+In dit voorbeeld leert u hoe u AI Assistant in Journey Optimizer kunt gebruiken voor specifieke inhoud. Voer de volgende stappen uit:
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de pushmeldingscampagne hebt gemaakt en geconfigureerd.
 
@@ -124,7 +124,7 @@ In dit voorbeeld leert u hoe u de AI Assistant in Journey Optimizer kunt gebruik
 
    ![](assets/push-genai-1.png){zoomable="yes"}
 
-1. Schakel de optie **[!UICONTROL Use reference content]** voor de AI-assistent in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
+1. Schakel de optie **[!UICONTROL Use reference content]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
 1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
 
@@ -140,12 +140,12 @@ In dit voorbeeld leert u hoe u de AI Assistant in Journey Optimizer kunt gebruik
 
    * **[!UICONTROL Communication strategy]**: Kies de meest geschikte communicatiestijl voor de gegenereerde tekst.
    * **[!UICONTROL Languages]**: opties voor Spaanse, Italiaanse, Zweedse en Noorse talen worden vrijgegeven als een persoonlijke bètaversie en in toekomstige versies geleidelijk beschikbaar voor alle klanten.
-   * **[!UICONTROL Tone]**: De toon van uw pushmelding zou op uw publiek moeten passen. Of u informatief wilt klinken, playful, of overtuigend, de Medewerker van AI kan het bericht dienovereenkomstig aanpassen.
+   * **[!UICONTROL Tone]**: De toon van uw pushmelding zou op uw publiek moeten passen. Of u informatief wilt klinken, playful, of overtuigend, AI Medewerker kan het bericht dienovereenkomstig aanpassen.
    * **[!UICONTROL Length]**: selecteer de lengte van de inhoud met de schuifregelaar voor het bereik.
 
    ![](assets/push-genai-4.png){zoomable="yes"}
 
-1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die inhoud bevatten die aanvullende context voor de AI-assistent kan bieden of selecteer een eerder geüpload element.
+1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om een merkelement toe te voegen dat inhoud bevat die extra context-AI-assistent kan bieden of selecteer een eerder geüpload element.
 
    Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel eenvoudig de elementen in die u wilt opnemen in uw generatie.
 
@@ -157,11 +157,11 @@ In dit voorbeeld leert u hoe u de AI Assistant in Journey Optimizer kunt gebruik
 
    * **[!UICONTROL Elaborate]**: De AI-assistent kan u helpen bij het uitvouwen van specifieke onderwerpen en biedt extra informatie voor een beter begrip en betrokkenheid.
 
-   * **[!UICONTROL Summarize]**: langdurige informatie kan ontvangers overladen. Gebruik de AI-assistent om belangrijke punten samen te voegen tot heldere, beknopte samenvattingen die aandacht trekken en hen aanmoedigen om verder te lezen.
+   * **[!UICONTROL Summarize]**: langdurige informatie kan ontvangers overladen. Met AI Assistant kunt u belangrijke punten samenvoegen tot heldere, beknopte samenvattingen die aandacht trekken en hen aanmoedigen om verder te lezen.
 
    * **[!UICONTROL Rephrase]**:De AI-assistent kan uw bericht op verschillende manieren herformuleren, zodat u steeds fris schrijft en aantrekkelijk wordt voor verschillende soorten publiek.
 
-   * **[!UICONTROL Use simpler language]**: Gebruik de AI Assistant om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
+   * **[!UICONTROL Use simpler language]**: Gebruik AI Assistant om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
 
    U kunt ook de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de tekst wijzigen.
 
@@ -189,7 +189,7 @@ Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, kunt u uw p
 
    ![](assets/push-gen-img.png){zoomable="yes"}
 
-1. Schakel de optie **[!UICONTROL Reference style]** voor de AI-assistent in om nieuwe inhoud aan te passen op basis van de referentie-inhoud. U kunt ook een afbeelding uploaden om context aan uw variatie toe te voegen.
+1. Schakel de optie **[!UICONTROL Reference style]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de referentie-inhoud. U kunt ook een afbeelding uploaden om context aan uw variatie toe te voegen.
 
 1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
 
@@ -209,7 +209,7 @@ Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, kunt u uw p
    * **[!UICONTROL Lighting]**: hiermee wordt de bliksemschicht in een afbeelding bedoeld, die de atmosfeer van de afbeelding bepaalt en specifieke elementen markeert.
    * **[!UICONTROL Composition]**: dit heeft betrekking op de rangschikking van elementen binnen het kader van een afbeelding
 
-1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die inhoud bevatten die aanvullende context voor de AI-assistent kan bieden of selecteer een eerder geüpload element.
+1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om een merkelement toe te voegen dat inhoud bevat die extra context-AI-assistent kan bieden of selecteer een eerder geüpload element.
 
    Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel eenvoudig de elementen in die u wilt opnemen in uw generatie.
 

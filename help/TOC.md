@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2340'
 ht-degree: 21%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 21%
    + [Zoeken, filteren en categoriseren](using/start/search-filter-categorize.md)
    + [Toegankelijkheid](using/start/accessibility.md)
    + [Playbooks voor gebruiksscenario&#39;s](using/start/playbooks.md)
-   + [Werken met de AI Assistant](using/start/ai-assistant.md)
+   + [Werken met AI-assistent](using/start/ai-assistant.md)
    + [Guardrails](using/start/guardrails.md)
    + [Best practices](using/start/best-practices.md)
 + Journeys {#orchestrate-journeys}
@@ -347,7 +347,7 @@ ht-degree: 21%
       + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
 + Inhoudsbeheer {#content-management}
    + AI Assistant voor het genereren van inhoud{#ai-assistant}
-      + [Aan de slag met de AI Assistant](using/content-management/gs-generative.md)
+      + [Aan de slag met AI Assistant](using/content-management/gs-generative.md)
       + [E-mailgeneratie met AI](using/content-management/generative-email.md)
       + [Push generation met AI](using/content-management/generative-push.md)
       + [SMS genereren met AI](using/content-management/generative-sms.md)

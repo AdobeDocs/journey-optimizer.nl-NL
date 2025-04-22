@@ -1,39 +1,40 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Openingspagina's genereren met de AI Assistant in Journey Optimizer
-description: Beginnen met het genereren van inhoud en element op de bestemmingspagina met de AI Assistant in Journey Optimizer
+title: Openingspagina's genereren met AI Assistant in Journey Optimizer
+description: Beginnen met het genereren van inhoud en element op de landingspagina met AI Assistant in Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 099c0955e9ad2b1abe345d0256d656d41fc0748e
+exl-id: d38c3b44-9183-4537-a9dd-fd7761328cc1
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1390'
 ht-degree: 1%
 
 ---
 
-# Pagina&#39;s genereren met de AI Assistant {#generative-lp}
+# Openingspagina&#39;s genereren met AI Assistant {#generative-lp}
 
 >[!IMPORTANT]
 >
 >* Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](gs-generative.md#generative-guardrails).
 >
 >
->* U moet de [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) goedkeuren alvorens u de Medewerker AI in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>* U moet de [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) goedkeuren alvorens u AI Medewerker in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-Transformeer uw landingspagina&#39;s met de AI Assistant in Journey Optimizer, aangedreven door generatieve AI.
+Transformeer uw bestemmingspagina&#39;s met AI Assistant in Journey Optimizer, aangedreven door generatieve AI.
 
 Creëer moeiteloos impactvolle inhoud, waaronder complete pagina&#39;s, op maat gemaakte tekstfragmenten en aangepaste visuele voorbeelden die op uw publiek zijn afgestemd, waardoor uw betrokkenheid en interactie toenemen.
 
-Bekijk de onderstaande tabbladen voor meer informatie over het gebruik van de AI Assistant in Journey Optimizer.
+Bekijk de onderstaande tabbladen voor meer informatie over het gebruik van AI Assistant in Journey Optimizer.
 
 >[!BEGINTABS]
 
 >[!TAB  Volledige het landen paginageneratie ]
 
-In het volgende voorbeeld gebruiken we de AI Assistant om een bestaande sjabloon voor de landingspagina te verfijnen.
+In het volgende voorbeeld gebruiken we AI Assistant om een bestaande sjabloon voor de landingspagina te verfijnen.
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de bestemmingspagina hebt gemaakt en geconfigureerd.
 
@@ -43,7 +44,7 @@ In het volgende voorbeeld gebruiken we de AI Assistant om een bestaande sjabloon
 
    ![](assets/lp-full-gen-1.png){zoomable="yes"}
 
-1. Schakel de optie **[!UICONTROL Use original content]** voor de AI-assistent in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
+1. Schakel de optie **[!UICONTROL Use original content]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
@@ -55,7 +56,7 @@ In het volgende voorbeeld gebruiken we de AI Assistant om een bestaande sjabloon
 
    * **[!UICONTROL Communication strategy]**: Kies de meest geschikte communicatiestijl voor de gegenereerde tekst.
    * **[!UICONTROL Languages]**: opties voor Spaanse, Italiaanse, Zweedse en Noorse talen worden vrijgegeven als een persoonlijke bètaversie en in toekomstige versies geleidelijk beschikbaar voor alle klanten.
-   * **[!UICONTROL Tone]**: De tint van de bestemmingspagina moet op uw publiek reageren. Of u informatief wilt klinken, playful, of overtuigend, de Medewerker van AI kan het bericht dienovereenkomstig aanpassen.
+   * **[!UICONTROL Tone]**: De tint van de bestemmingspagina moet op uw publiek reageren. Of u informatief wilt klinken, playful, of overtuigend, AI Medewerker kan het bericht dienovereenkomstig aanpassen.
 
    ![](assets/lp-full-gen-3.png){zoomable="yes"}
 
@@ -69,7 +70,7 @@ In het volgende voorbeeld gebruiken we de AI Assistant om een bestaande sjabloon
 
    ![](assets/lp-full-gen-4.png){zoomable="yes"}
 
-1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die inhoud bevatten die aanvullende context voor de AI-assistent kan bieden of selecteer een eerder geüpload element.
+1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om een merkelement toe te voegen dat inhoud bevat die extra context-AI-assistent kan bieden of selecteer een eerder geüpload element.
 
    Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel eenvoudig de elementen in die u wilt opnemen in uw generatie.
 
@@ -83,7 +84,7 @@ In het volgende voorbeeld gebruiken we de AI Assistant om een bestaande sjabloon
 
    * **[!UICONTROL Rephrase]**: De AI-assistent kan uw bericht op verschillende manieren herformuleren, zodat u steeds fris schrijft en aantrekkelijk wordt voor verschillende soorten publiek.
 
-   * **[!UICONTROL Use simpler language]**: Gebruik de AI Assistant om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
+   * **[!UICONTROL Use simpler language]**: Gebruik AI Assistant om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
 
    U kunt ook de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de tekst wijzigen.
 
@@ -97,7 +98,7 @@ Als de landingspagina gereed is, kunt u deze publiceren en in een bericht gebrui
 
 >[!TAB  text-only generatie ]
 
-In het volgende voorbeeld gebruiken we de AI Assistant om de inhoud van onze landingspagina te verbeteren.
+In het volgende voorbeeld gebruiken we AI Assistant om de inhoud van onze landingspagina te verbeteren.
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de bestemmingspagina hebt gemaakt en geconfigureerd.
 
@@ -107,7 +108,7 @@ In het volgende voorbeeld gebruiken we de AI Assistant om de inhoud van onze lan
 
    ![](assets/lp-text-gen-1.png){zoomable="yes"}
 
-1. Schakel de optie **[!UICONTROL Use original content]** voor de AI-assistent in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
+1. Schakel de optie **[!UICONTROL Use original content]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
@@ -119,12 +120,12 @@ In het volgende voorbeeld gebruiken we de AI Assistant om de inhoud van onze lan
 
    * **[!UICONTROL Communication strategy]**: Kies de meest geschikte communicatiestijl voor de gegenereerde tekst.
    * **[!UICONTROL Languages]**: opties voor Spaanse, Italiaanse, Zweedse en Noorse talen worden vrijgegeven als een persoonlijke bètaversie en in toekomstige versies geleidelijk beschikbaar voor alle klanten.
-   * **[!UICONTROL Tone]**: De tint van de bestemmingspagina moet op uw publiek reageren. Of u informatief wilt klinken, playful, of overtuigend, de Medewerker van AI kan het bericht dienovereenkomstig aanpassen.
+   * **[!UICONTROL Tone]**: De tint van de bestemmingspagina moet op uw publiek reageren. Of u informatief wilt klinken, playful, of overtuigend, AI Medewerker kan het bericht dienovereenkomstig aanpassen.
    * **Lengte van de Tekst**: Gebruik de schuif om de gewenste lengte van uw tekst te selecteren.
 
    ![](assets/lp-text-gen-3.png){zoomable="yes"}
 
-1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die inhoud bevatten die aanvullende context voor de AI-assistent kan bieden of selecteer een eerder geüpload element.
+1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om een merkelement toe te voegen dat inhoud bevat die extra context-AI-assistent kan bieden of selecteer een eerder geüpload element.
 
    Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel eenvoudig de elementen in die u wilt opnemen in uw generatie.
 
@@ -140,11 +141,11 @@ In het volgende voorbeeld gebruiken we de AI Assistant om de inhoud van onze lan
 
    * **[!UICONTROL Elaborate]**: De AI-assistent kan u helpen bij het uitvouwen van specifieke onderwerpen en biedt extra informatie voor een beter begrip en betrokkenheid.
 
-   * **[!UICONTROL Summarize]**: langdurige informatie kan ontvangers van landingspagina&#39;s overladen. Gebruik de AI-assistent om belangrijke punten samen te voegen tot heldere, beknopte samenvattingen die aandacht trekken en hen aanmoedigen om verder te lezen.
+   * **[!UICONTROL Summarize]**: langdurige informatie kan ontvangers van landingspagina&#39;s overladen. Met AI Assistant kunt u belangrijke punten samenvoegen tot heldere, beknopte samenvattingen die aandacht trekken en hen aanmoedigen om verder te lezen.
 
    * **[!UICONTROL Rephrase]**:De AI-assistent kan uw bericht op verschillende manieren herformuleren, zodat u steeds fris schrijft en aantrekkelijk wordt voor verschillende soorten publiek.
 
-   * **[!UICONTROL Use simpler language]**: Gebruik de AI Assistant om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
+   * **[!UICONTROL Use simpler language]**: Gebruik AI Assistant om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
 
    U kunt ook de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de tekst wijzigen.
 
@@ -158,19 +159,19 @@ Als de landingspagina gereed is, kunt u deze publiceren en in een bericht gebrui
 
 >[!TAB  Beeld-slechts generatie ]
 
-In het onderstaande voorbeeld leert u hoe u de AI Assistant kunt gebruiken om uw middelen te optimaliseren en te verbeteren, zodat u een gebruiksvriendelijker ervaring hebt.
+In het onderstaande voorbeeld leert u hoe u AI Assistant kunt gebruiken om uw middelen te optimaliseren en te verbeteren, zodat u een gebruiksvriendelijker ervaring hebt.
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de bestemmingspagina hebt gemaakt en geconfigureerd.
 
    Voor meer informatie over hoe te om uw het landen pagina te vormen, verwijs naar [ deze pagina ](../landing-pages/create-lp.md).
 
-1. Selecteer het element dat u wilt wijzigen met de AI-assistent.
+1. Selecteer het element dat u wilt wijzigen met AI Assistant.
 
 1. Selecteer **[!UICONTROL AI Assistant]** in het rechtermenu.
 
    ![](assets/lp-image-gen-1.png){zoomable="yes"}
 
-1. Schakel de optie **[!UICONTROL Reference style]** voor de AI-assistent in om nieuwe inhoud aan te passen op basis van de referentie-inhoud. U kunt ook een afbeelding uploaden om context aan uw variatie toe te voegen.
+1. Schakel de optie **[!UICONTROL Reference style]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de referentie-inhoud. U kunt ook een afbeelding uploaden om context aan uw variatie toe te voegen.
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
@@ -189,7 +190,7 @@ In het onderstaande voorbeeld leert u hoe u de AI Assistant kunt gebruiken om uw
 
    ![](assets/lp-image-gen-3.png){zoomable="yes"}
 
-1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die inhoud bevatten die aanvullende context voor de AI-assistent kan bieden of selecteer een eerder geüpload element.
+1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om een merkelement toe te voegen dat inhoud bevat die extra context-AI-assistent kan bieden of selecteer een eerder geüpload element.
 
    Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel eenvoudig de elementen in die u wilt opnemen in uw generatie.
 

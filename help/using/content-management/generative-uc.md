@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 1. Open de sectie **[!UICONTROL AI Assistant]** .
 
-1. Schakel de functie **[!UICONTROL Use original content]** in de AI Assistant in om de nieuwe inhoud af te stemmen op de campagnedetails, inclusief de naam van de campagne en het doelpubliek.
+1. Schakel de functie **[!UICONTROL Use original content]** in AI Assistant in om nieuwe inhoud af te stemmen op uw campagnedetails, zoals de naam van de campagne en het doelpubliek.
 
 1. Pas de inhoud aan door uw verzoek op te geven in het vak **[!UICONTROL Prompt]** en pas de instellingen naar wens aan.
 
@@ -57,13 +57,13 @@ Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-mailcamp
 
    * **[!UICONTROL Use as reference content]**: De geselecteerde variatie fungeert als een referentie voor het genereren van meer inhoud.
 
-   * **[!UICONTROL Elaborate]**: Laat de AI-assistent op bepaalde punten uitvouwen en geef meer diepte en details voor een betere betrokkenheid.
+   * **[!UICONTROL Elaborate]**: Laat AI Assistant op bepaalde punten uitvouwen, zodat u meer diepte en details krijgt voor een betere betrokkenheid.
 
-   * **[!UICONTROL Summarize]**: voor langdurige informatie gebruikt u de AI Assistant om beknopte overzichten te maken die de e-mailontvangers gemakkelijker kunnen samenvatten.
+   * **[!UICONTROL Summarize]**: voor langdurige informatie gebruikt u AI Assistant om beknopte overzichten te maken die de e-mailontvangers gemakkelijker kunnen samenvatten.
 
    * **[!UICONTROL Rephrase]**: De AI-assistent kan uw bericht op verschillende manieren weergeven, zodat de inhoud vers blijft voor verschillende soorten publiek.
 
-   * **[!UICONTROL Use simpler language]**: Vereenvoudig de taal met de AI-assistent om ervoor te zorgen dat het bericht duidelijk en toegankelijk is voor alle lezers.
+   * **[!UICONTROL Use simpler language]**: Vereenvoudig de taal met AI Assistant om ervoor te zorgen dat het bericht duidelijk en toegankelijk is voor alle lezers.
 
    Bovendien kunt u de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de inhoud aanpassen.
 
@@ -95,11 +95,11 @@ Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-mailcamp
 
 1. Klik op **[!UICONTROL Edit content]** nadat u uw e-mailcampagne hebt ingesteld en geconfigureerd.
 
-1. Kies het element dat u wilt wijzigen met de AI-assistent.
+1. Kies het element dat u wilt wijzigen met AI Assistant.
 
 1. Kies **[!UICONTROL AI Assistant]** in het menu van het rechterdeelvenster.
 
-1. Schakel de optie **[!UICONTROL Reference style]** in zodat de AI-assistent nieuwe inhoud kan genereren met behulp van het referentiemateriaal.
+1. Schakel de optie **[!UICONTROL Reference style]** in, zodat AI Assistant nieuwe inhoud kan genereren met behulp van het referentiemateriaal.
 
 1. Klik op **[!UICONTROL Upload image]** om een afbeelding op te nemen die context aan uw variatie toevoegt.
 

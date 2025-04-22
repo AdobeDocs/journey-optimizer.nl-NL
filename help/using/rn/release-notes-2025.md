@@ -7,9 +7,10 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: e80554570d62d1ddb52516366be55711387c5d19
+exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '674'
 ht-degree: 7%
 
 ---
@@ -49,13 +50,13 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <table>
 <thead>
 <tr>
-<th><strong>Landingspagina's genereren met de AI-assistent</strong><br/></th>
+<th><strong>Landingspagina's genereren met AI Assistant</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt nu boeiende inhoud voor uw openingspagina's, met inbegrip van volledige paginaontwerpen, gepersonaliseerde tekst, en aangepaste visuele hulpmiddelen, met de hulp van de AI medewerker ambachtelijk maken.</p>
+<p>Met behulp van AI Assistant kunt u nu aantrekkelijke inhoud voor uw openingspagina's maken, zoals ontwerpen op volledige pagina's, gepersonaliseerde tekst en aangepaste visuele elementen.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
 <p>Raadpleeg de <a href="../content-management/generative-lp.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
@@ -67,7 +68,7 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <table>
 <thead>
 <tr>
-<th><strong>Merken met de AI Assistant (Beta)</strong><br/></th>
+<th><strong>Merken met AI Assistant (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -149,4 +150,3 @@ De verbeteringen hieronder komen met de update van februari.
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
 * **Beslissing** (de datum van de Beschikbaarheid: Jan 28, 2025) - het Besluiten steunt nu de gegevenstypes van Objecten wanneer het uitgeven van het schema van de puntcatalogus. [Meer informatie](../experience-decisioning/catalogs.md)
-

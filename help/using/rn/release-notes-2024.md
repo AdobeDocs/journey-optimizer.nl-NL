@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '6781'
+source-wordcount: '6779'
 ht-degree: 7%
 
 ---
@@ -441,7 +441,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <tbody>
 <tr>
 <td>
-<p>Als je je bericht hebt gemaakt en gepersonaliseerd, ga je naar het volgende niveau met de AI Assistant in Journey Optimizer. U kunt de AI Assistant nu gebruiken om de impact van uw bericht te optimaliseren door te experimenteren met verschillende hoofdtitels en afbeeldingen. Elke variant wordt beheerd als een unieke behandeling, om te meten en te vergelijken welke titel effectief meer kliks produceert.</p>
+<p>Als je je bericht hebt gemaakt en gepersonaliseerd, ga je naar het volgende niveau met AI Assistant in Journey Optimizer. U kunt nu AI Assistant gebruiken om de impact van uw bericht te optimaliseren door te experimenteren met verschillende hoofdtitels en afbeeldingen. Elke variant wordt beheerd als een unieke behandeling, om te meten en te vergelijken welke titel effectief meer kliks produceert.</p>
 <p>Ga zelf in een hands-on ervaring met <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator"> binnen onze levende eigenschapvoorproef </a>, die wordt ontworpen om u zijn eigenschappen eerst te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.</a></p>
 <p>Raadpleeg de <a href="../content-management/gs-generative.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
@@ -502,12 +502,12 @@ U kunt nu inhoudssjablonen en fragmenten exporteren tussen sandboxen. [Meer info
 
 **APIs**
 
-* **de Simulatie API van de Campagne** - gebruik dit API om proefbaan van een Campagne teweeg te brengen. Het verzenden van de campagneproef is een asynchroon proces, zal API een proofJobId terugkeren die kan worden gebruikt om de status van de proef te controleren. [ leer meer ](https://developer.adobe.com/journey-optimizer-apis/references/simulations/) {target="_blank"}
+* **de Simulatie API van de Campagne** - gebruik dit API om proefbaan van een Campagne teweeg te brengen. Het verzenden van de campagneproef is een asynchroon proces, zal API een proofJobId terugkeren die kan worden gebruikt om de status van de proef te controleren. [Meer informatie](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
-* (De datum van de Beschikbaarheid: Sept 10) de [ documentatie van Adobe Journey Optimizer API ](https://developer.adobe.com/journey-optimizer-apis/references/simulations/) {target="_blank"} is nu interactief. Verken de API eindpunten rechtstreeks van de documentatiepagina&#39;s om directe feedback te krijgen en uw technische implementatie te versnellen.
+* (De datum van de Beschikbaarheid: Sept 10) de [ documentatie van Adobe Journey Optimizer API ](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} is nu interactief. Verken de API eindpunten rechtstreeks van de documentatiepagina&#39;s om directe feedback te krijgen en uw technische implementatie te versnellen.
 
 
-  Alle API verwijzingspagina&#39;s hebben nu a **probeert het** functionaliteit die u kunt gebruiken om API vraag direct op de pagina van de documentwebsite te testen. [ krijgt de vereiste authentificatiegeloofsbrieven ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/) {target="_blank"} en begint de functionaliteit te gebruiken om de API eindpunten te onderzoeken.
+  Alle API verwijzingspagina&#39;s hebben nu a **probeert het** functionaliteit die u kunt gebruiken om API vraag direct op de pagina van de documentwebsite te testen. [Haal de vereiste verificatiegegevens op](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} en start met het gebruik van de functionaliteit om de API-eindpunten te verkennen.
 
   Gebruik deze nieuwe functionaliteit om de verzoeken aan en de reacties van API eindpunten te onderzoeken, om directe feedback te krijgen en uw technische implementatie te versnellen.
 
@@ -870,7 +870,7 @@ Lees meer in de [ documentatie van het inhoudsfragment ](../content-management/f
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
-* U kunt nu de Edge Delivery-insteekmodule gebruiken om informatie op te halen die nodig is voor het begrijpen van en het oplossen van problemen met uw binnenkomende implementaties. [ leer meer over de mening van Edge Delivery ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery) {target="_blank"}.
+* U kunt nu de Edge Delivery-insteekmodule gebruiken om informatie op te halen die nodig is voor het begrijpen van en het oplossen van problemen met uw binnenkomende implementaties. [ leer meer over de mening van Edge Delivery ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
 
 
 #### Direct mailkanaal
@@ -1081,7 +1081,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <tbody>
 <tr>
 <td>
-<p>Once you have created and personalized your message, take your content to the next level with the AI Assistant. You can now use the AI Assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
+<p>Once you have created and personalized your message, take your content to the next level with AI Assistant. You can now use AI Assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
 </td>
 </tr>
 </tbody>

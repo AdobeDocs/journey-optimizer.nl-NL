@@ -1,32 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Experimenteer met inhoud met de AI Assistant in Journey Optimizer
-description: Experimenteer met inhoud met de AI Assistant in Journey Optimizer
+title: Experimenteer met inhoud met AI Assistant in Journey Optimizer
+description: Experimenteer met inhoud met AI Assistant in Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '238'
 ht-degree: 4%
 
 ---
 
-# Inhoud experimenteren met de AI Assistant{#generative-experimentation}
+# Experimenteer met inhoud met AI Assistant{#generative-experimentation}
 
 >[!IMPORTANT]
 >
 >Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](gs-generative.md#generative-guardrails).
 ></br>
 >
->U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u de Medewerker AI in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u AI Medewerker in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-Nadat u uw berichten hebt gemaakt en gepersonaliseerd, kunt u de inhoud optillen met de AI Assistant in Adobe Journey Optimizer, die de functie Experiment met inhoud bevat. Met dit gereedschap kunt u meerdere leveringsbehandelingen definiëren, variërende inhoud, om de prestaties voor het doelpubliek te meten.
+Nadat u uw berichten hebt gemaakt en gepersonaliseerd, kunt u de inhoud optillen met AI Assistant in Adobe Journey Optimizer, die de functie Experiment met inhoud bevat. Met dit gereedschap kunt u meerdere leveringsbehandelingen definiëren, variërende inhoud, om de prestaties voor het doelpubliek te meten.
 
-1. Maak uw campagne en gebruik de AI Assistant om uw varianten te genereren.
+1. Maak uw campagne en gebruik AI Assistant om uw varianten te genereren.
 
    In dit voorbeeld hebben we een bevestigingsbericht voor een abonnement met een promotiecode gegenereerd.
 
