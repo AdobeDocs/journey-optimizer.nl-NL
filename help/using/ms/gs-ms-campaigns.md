@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
+source-git-commit: 7cd52f1954e50be521a6fc9ae26fb63586c53faa
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -20,22 +20,19 @@ ht-degree: 0%
 
 **Lijst van inhoud**
 
-* Aan de slag met georkestreerde campagnes
-* Configuratie
-   * [ vorm uw georkestreerde campagnes ](gs-campaign-config.md)
-   * [Relationele schema&#39;s maken](ms-schemas.md)
-* Uw eerste georkestreerde campagne maken
-   * [Belangrijkste beginselen](gs-campaign-creation.md)
-   * [Een georkestreerde campagne maken](create-ms-campaign.md)
-   * [Campagne-instellingen configureren](ms-campaign-settings.md)
-   * [Aan de slag met activiteiten](activities/about-activities.md)
-   * [Orchestraten](orchestrate-activities.md)
+* Configuratie: [ vorm uw georkestreerde campagnes ](gs-campaign-config.md)
+* Configuratie: [ creeer relationele schema&#39;s ](ms-schemas.md)
+* Creeer uw eerste georkestreerde campagne: [ Zeer belangrijke principes ](gs-campaign-creation.md)
+* [Een georkestreerde campagne maken](create-ms-campaign.md)
+* [Campagne-instellingen configureren](ms-campaign-settings.md)
 * [Je berichten personaliseren](ms-personalization.md)
 * [Query&#39;s samenstellen](ms-query-modeler.md)
 * [Uw berichten testen en valideren](ms-proofs.md)
 * [Uw campagnes plannen en starten](start-monitor-campaigns.md)
-* Lijst van activiteiten: [ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ combineert ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ acties van het Kanaal ](activities/channels.md) - [ Verrijking ](activities/enrichment.md) - [ Fork [ Verzoening ](activities/reconciliation.md) - [ Gesplitst ](activities/split.md) - [ Test ](activities/test.md) - ](activities/fork.md) wacht ](activities/wait.md)[
-* [Rapportage](reporting-campaigns.md)
+* Activiteiten: [ worden begonnen met activiteiten ](activities/about-activities.md)
+* [Orchestraten](orchestrate-activities.md)
+* [ en-verbind ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ combineert ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ acties van het Kanaal ](activities/channels.md) - [ Verrijking ](activities/enrichment.md) - [ Fork ](activities/fork.md) - [ Verzoening ](activities/reconciliation.md) - [ Gesplitst ](activities/split.md) - &lt;!—[ Test ](activities/test.md) —> [ wacht ](activities/wait.md)
+* Controle: [ het Melden ](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]
 
