@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,10 @@ U kunt inhoudssjablonen sorteren op:
 U kunt er ook voor kiezen om alleen de zelf gemaakte of gewijzigde items weer te geven.
 
 ![](assets/content-template-list-filters.png)
+
+>[!NOTE]
+>
+>Vanaf maart 2025 zijn de sjablonen voor HTML-inhoud nu vervangen. U kunt nog steeds bestaande HTML-inhoudssjablonen openen die eerder in [!DNL Journey Optimizer] zijn gemaakt.
 
 ## Mappen gebruiken om inhoudssjablonen te beheren {#folders}
 
@@ -96,19 +100,19 @@ Om uw inhoudsmalplaatjes gemakkelijk te navigeren, kunt u omslagen gebruiken om 
 >
 >Wanneer een sjabloon wordt bewerkt of verwijderd, hebben campagnes of reizen met inbegrip van inhoud die met deze sjabloon is gemaakt, geen invloed op deze sjabloon.
 
-## [!BADGE  Beperkte de malplaatjes van de Vertoning van de Beschikbaarheid ] {type=Informatief} als duimnagels {#template-thumbnails}
+## [!BADGE  Beperkte malplaatjes van de Vertoning van de Beschikbaarheid ]{type=Informative} als duimnagels {#template-thumbnails}
 
 Selecteer de modus **[!UICONTROL Grid view]** om elke sjabloon als een miniatuur weer te geven.
 
 >[!AVAILABILITY]
 >
-Dit vermogen wordt vrijgegeven in Beperkte Beschikbaarheid (LA) voor een kleine reeks klanten.
+>Dit vermogen wordt vrijgegeven in Beperkte Beschikbaarheid (LA) voor een kleine reeks klanten.
 
 ![](assets/content-template-grid-view.png)
 
 >[!NOTE]
 >
-Er kunnen momenteel alleen juiste miniaturen worden gegenereerd voor HTML-typen email inhoudssjablonen.
+>Er kunnen momenteel alleen juiste miniaturen worden gegenereerd voor e-mailinhoudssjablonen van het HTML-type.
 
 Wanneer u inhoud bijwerkt, moet u mogelijk een paar seconden wachten voordat de wijzigingen in de miniatuur worden doorgevoerd.
 

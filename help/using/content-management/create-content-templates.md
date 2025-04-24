@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '605'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 U kunt inhoudssjablonen op twee manieren maken:
 
-* Maak een geheel nieuw inhoudssjabloon met behulp van het menu met de linkerrails **[!UICONTROL Content Templates]** . [ leer hoe ](#create-template-from-scratch)
+* Maak een geheel nieuw inhoudssjabloon met behulp van het menu met de linkerrails **[!UICONTROL Content templates]** . [ leer hoe ](#create-template-from-scratch)
 
 * Wanneer u inhoud ontwerpt binnen een campagne of een reis, slaat u deze op als een sjabloon. [ leer hoe ](#save-as-template)
 
@@ -37,6 +37,10 @@ Nadat u de inhoudssjabloon hebt opgeslagen, kunt u deze gebruiken voor een campa
 >* Op dezelfde manier wanneer sjablonen worden gebruikt in een campagne of een reis, hebben alle bewerkingen die u aanbrengt in uw campagne en inhoud van de reis geen invloed op de eerder gebruikte inhoudssjabloon.
 
 ## Een geheel nieuwe sjabloon maken {#create-template-from-scratch}
+
+>[!NOTE]
+>
+>Vanaf maart 2025 zijn de sjablonen voor HTML-inhoud nu vervangen. U kunt nog steeds bestaande HTML-inhoudssjablonen gebruiken die eerder in [!DNL Journey Optimizer] zijn gemaakt.
 
 Voer de onderstaande stappen uit om een volledig nieuwe inhoudssjabloon te maken.
 
@@ -51,14 +55,6 @@ Voer de onderstaande stappen uit om een volledig nieuwe inhoudssjabloon te maken
    >[!NOTE]
    >
    >Momenteel zijn alle kanalen beschikbaar behalve Web.
-
-1. Kies een **[!UICONTROL Type]** voor het geselecteerde kanaal.
-
-   ![](assets/content-template-type.png)
-
-   * Voor **[!UICONTROL Email]**, als u **[!UICONTROL Content]** selecteert, kunt u de [ Onderwerpregel ](../email/create-email.md#define-email-content) als deel van uw malplaatje bepalen. Als u **[!UICONTROL HTML]** selecteert, kunt u alleen de inhoud van de hoofdtekst van de e-mail definiëren.
-
-   * Voor **[!UICONTROL SMS]** , **[!UICONTROL Push]** , **[!UICONTROL In-App]** en **[!UICONTROL Direct Mail]** is alleen het standaardtype beschikbaar voor het huidige kanaal. U moet het nog selecteren.
 
 1. Selecteer of maak Adobe Experience Platform-tags in het veld **[!UICONTROL Tags]** om uw sjabloon te categoriseren voor een verbeterde zoekopdracht. [Meer informatie](../start/search-filter-categorize.md#tags)
 
@@ -75,7 +71,7 @@ Voer de onderstaande stappen uit om een volledig nieuwe inhoudssjabloon te maken
    * [Inhoud direct mail definiëren](../direct-mail/create-direct-mail.md)
    * [In-app-inhoud definiëren](../in-app/design-in-app.md)
 
-1. Als u een **[!UICONTROL Email]** -sjabloon maakt met het **[!UICONTROL HTML]** -type, kunt u de inhoud testen. [ leer hoe ](#test-template)
+1. U kunt de inhoud testen. [ leer hoe ](#test-template)
 
 1. Klik op **[!UICONTROL Save]** als de sjabloon gereed is.
 
@@ -110,7 +106,7 @@ Wanneer u inhoud ontwerpt in een campagne of een reis, kunt u deze opslaan voor 
 
    >[!NOTE]
    >
-   >Het huidige kanaal en type worden automatisch ingevuld en kunnen niet worden bewerkt. Voor e-mailmalplaatjes die van [ worden gecreeerd e-mail Designer ](../email/get-started-email-design.md), wordt het **[!UICONTROL HTML]** type automatisch geselecteerd.
+   >Het huidige kanaal wordt automatisch ingevuld en kan niet worden bewerkt.
 
 1. Selecteer of creeer een markering van Adobe Experience Platform van het **gebied van Markeringen** om uw malplaatje te categoriseren. [Meer informatie](../start/search-filter-categorize.md#tags)
 
