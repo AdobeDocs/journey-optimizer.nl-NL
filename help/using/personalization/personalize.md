@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: expressie, editor, start, personalisatie
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
+source-git-commit: e19a85d05fcb7727c3086f16e2e4f066a5ecd55c
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 4%
+source-wordcount: '489'
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ Met de aanpassingsmogelijkheden van [!DNL Adobe Journey Optimizer] kunt u uw ber
 
 Gebruikend de **verpersoonlijkingsredacteur**, kunt u selecteren, rangschikken, aanpassen en bevestigen alle gegevens om een aangepaste verpersoonlijking voor uw inhoud tot stand te brengen, en hefboomwerking diverse hulpmiddelen zoals helperfuncties of vooraf bepaalde uitdrukkingen om berichten effectief aan te passen.
 
-Journey Optimizer past een inline verpersoonlijkingssyntaxis toe die op Handlebars wordt gebaseerd die u toestaat om uitdrukkingen met inhoud tot stand te brengen die door dubbele krullende steunen **{{}}** wordt ingesloten.
+Journey Optimizer past een inline verpersoonlijkingssyntaxis toe die op Handlebars wordt gebaseerd die u toestaat om uitdrukkingen met inhoud tot stand te brengen die door dubbele krullende steunen **{{}}{{}}** wordt ingesloten.
 
 Bij het verwerken van het bericht vervangt Journey Optimizer de expressie door de gegevens in de Experience Platform-gegevensset. `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` wordt bijvoorbeeld dynamisch `Hello John Doe` .
 
@@ -37,11 +37,21 @@ Met deze syntaxis kunt u berichten in meerdere velden personaliseren, zoals onde
 
 ## Gegevens gebruikt voor personalisatie
 
-Personalization is gebaseerd op de profielgegevens die door het **worden geleid XDM Individuele die schema van het Profiel** in Adobe Experience Platform wordt bepaald. Het **schema van het Profiel van 0} XDM Individuele is het enige schema u kunt gebruiken om inhoud in [!DNL Journey Optimizer] te personaliseren.** Leer meer in [ het Model van Gegevens van Adobe Experience Platform (XDM) documentatie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) {target="_blank"}.
+Personalization is gebaseerd op de profielgegevens die door het **worden geleid XDM Individuele die schema van het Profiel** in Adobe Experience Platform wordt bepaald. Het **schema van het Profiel van 0} XDM Individuele is het enige schema u kunt gebruiken om inhoud in [!DNL Journey Optimizer] te personaliseren.** Leer meer in [ het Model van Gegevens van Adobe Experience Platform (XDM) documentatie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
 
 U kunt hefboomwerking **gegevens verwerkte attributen** ook gebruiken om uw inhoud te personaliseren. Met berekende kenmerken kunt u afzonderlijke gedragsgebeurtenissen samenvatten in berekende profielkenmerken die beschikbaar zijn op Adobe Experience Platform. [ leer hoe te met gegevens verwerkte attributen ](../audience/computed-attributes.md) werken
 
 Bovendien kunt u met [!DNL Journey Optimizer] gegevens van Adobe Experience Platform in de personalisatie-editor gebruiken om uw inhoud aan te passen. Om dit te doen, moeten de datasets nodig voor raadplegingsverpersoonlijking eerst door een API vraag worden toegelaten. Zodra u klaar bent, kunt u hun gegevens gebruiken om uw inhoud aan te passen aan Journey Optimizer. THis-functie is momenteel beschikbaar in bèta. [Meer informatie](../personalization/lookup-aep-data.md)
+
+## Leer en experimenteer met personalisatie {#playground}
+
+**[!DNL Adobe Journey Optimizer]** bevat een interactief programma dat u helpt te leren werken en te experimenteren met mogelijkheden voor personalisatie.
+
+Deze playground verstrekt een gesimuleerd milieu om verpersoonlijkingscode te schrijven en te testen gebruikend steekproefgegevens zonder levende datasets te vereisen. U kunt vooraf gedefinieerde codevoorbeelden gebruiken, dummy-profielladingen bewerken en de uitvoer van uw personalisatiecode in real-time voorvertonen.
+
+![ verpersoonlijkings playground ](assets/playground.png)
+
+➡️ [ toegang tot de verpersoonlijkings playground ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## Laten we dieper duiken
 
