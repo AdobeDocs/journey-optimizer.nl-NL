@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Snel starten
-description: Leer en ontdek als marketeer, beheerder of data-engineer de kracht van Adobe Journey Optimizer met stapsgewijze begeleiding.
+description: Ontdek als marketeer, beheerder of data-engineer de kracht van Adobe Journey Optimizer aan de hand van stapsgewijze instructies.
 feature: Overview
 topic: Content Management
 role: User
@@ -17,11 +17,11 @@ ht-degree: 14%
 
 # Snel starten {#cjm-quick-start}
 
-Met [!DNL Adobe Journey Optimizer], kunt u bestaande berichtinhoud invoeren of een nieuwe inhoud ontwerpen, berichten met de gegevens van het klantenprofiel personaliseren, gebeurtenissen tot stand brengen om berichten teweeg te brengen, publiek te bepalen, aanbiedingen tot stand te brengen en toe te voegen, en tot een volledige reeks rapporterings en controlehulpmiddelen toegang te hebben om het effect van uw berichten en klantenreizen te meten.
+Met [!DNL Adobe Journey Optimizer], kunt u bestaande berichtinhoud invoeren of een nieuwe inhoud ontwerpen, berichten met de gegevens van het klantenprofiel personaliseren, gebeurtenissen tot stand brengen om berichten teweeg te brengen, publiek te bepalen, aanbiedingen tot stand te brengen en toe te voegen, en tot een volledige reeks rapportering en controlemiddelen toegang te hebben om het effect van uw berichten en klantenreizen te meten.
 
 Gebaseerd op uw organisatie, kunt u verscheidene types van gebruikers bepalen en hen toegang tot bepaalde mogelijkheden afhankelijk van hun toestemmingen verlenen.
 
-Alleen beginnen met [!DNL Journey Optimizer]? Hebt u ervaring met specifieke vragen? Beheerder van uw exemplaar van het bedrijf? Volg uw eigen weg om sneller aan uw doelstellingen te komen!
+Beginnen met [!DNL Journey Optimizer]? Hebt u ervaring met specifieke vragen? Beheerder van uw exemplaar van het bedrijf? Volg uw eigen weg om sneller aan uw doelstellingen te komen!
 
 Als u de kracht van Adobe Journey Optimizer wilt leren kennen en ontdekken met stapsgewijze instructies, selecteert u uw profiel.
 
@@ -29,11 +29,11 @@ Als u de kracht van Adobe Journey Optimizer wilt leren kennen en ontdekken met s
 
   Bereid uw milieu voor, verleent toegang, vormt montages. [Meer informatie](path/administrator.md)
 
-* Ik ben een **Gegevensengineer**
+* Ik ben a **Ingenieur van Gegevens**
 
   De profielen van de invoer, bouwen publiek, creëren schema&#39;s, en datasets. [Meer informatie](path/data-engineer.md)
 
-* Ik ben een **Marketer**
+* Ik ben a **Marketer**
 
   Ontwerpberichten, voeg aanbiedingen, middelen toe en bouw klantentreizen. [Meer informatie](path/marketer.md)
 
