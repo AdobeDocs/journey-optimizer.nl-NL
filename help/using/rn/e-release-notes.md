@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b7549bb2ec9e3af4c08def9d46cde0b574df3d3a
+source-git-commit: 3f64d497b304e513fa439a9bc4f1c9c0a58b2224
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '954'
 ht-degree: 1%
 
 ---
@@ -223,18 +223,13 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 
 **E-mailkanaal**
 
-- **Extra Gebieden om Toegankelijkheid te steunen**
+- **Persoonlijke URL die** volgen
 
-  Er zijn twee nieuwe velden toegevoegd aan de e-maileditor ter ondersteuning van toegankelijkheid: het element `<title>` voor documenttitels en het kenmerk `lang` voor taalspecificatie in de tag `<html>` .
+  Voor meer flexibiliteit en controle over uw e-mailinstellingen kunt u nu al uw URL-volgparameters tegelijk aanpassen op het niveau van de configuratie van het e-mailkanaal in plaats van deze te doen in de e-mailontwerper voor elke koppeling in uw inhoud.
 
-- **Verbeteringen aan E-mailOppervlak Personalization - het Volgen URL**
+- **de thema&#39;s van de E-mail ontwerper** (Beta) - de datum van de Beschikbaarheid: 5 Mei, 2025
 
-  Het bijhouden van URL&#39;s in e-mailpersonalisatie is verbeterd, zodat u gedetailleerder kunt bijhouden en rapporteren. De updates omvatten betere configuratieopties voor gepersonaliseerde e-mailmontages.
-
-
-- ] Verbeteringen van de Redacteur van Beta **[e-mail met Thema&#39;s**
-
-  Een nieuwe bètafunctie introduceert thema&#39;s in de e-maileditor, zodat u herbruikbare stijlen kunt definiëren en e-mails sneller kunt bouwen met vooraf geconfigureerde modules.
+  U kunt nu snel vooraf goedgekeurde opmaakthema&#39;s toepassen op uw e-mailinhoud om ervoor te zorgen dat alle e-mails overal hetzelfde worden weergegeven, het maken van uw campagne te versnellen en onafhankelijk e-mails van hoge kwaliteit te produceren en de afhankelijkheid van ontwerpteams te verminderen.
 
 **Sandbox Tooling**
 
@@ -260,39 +255,29 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 
   In het venster Kenmerken in de verpersoonlijkingseditor worden nu standaard alleen gevulde kenmerken weergegeven. Als u alle kenmerken wilt weergeven, schakelt u de knop Instellingen in of uit om de optie Alleen gevulde kenmerken tonen in te schakelen.
 
-- **Nieuwe Veranderlijke van de Context van het Systeem**
+- **Nieuwe contextafhankelijke attributen**
 
-  Er is een nieuwe systeemcontextvariabele geïntroduceerd om elk bericht dat naar een doelprofiel wordt verzonden uniek te identificeren. Deze variabele kan voor het volgen en verpersoonlijkingsdoeleinden worden gebruikt.
-
-
+  Een nieuw contextueel attribuut, **Identiteitskaart van het Profiel van het Bericht**, is nu beschikbaar om van de verpersoonlijkingsredacteur te selecteren. Dit is een bericht-georiënteerd attribuut dat uniek elk bericht identificeert dat naar elk gericht profiel in een levering wordt verzonden. Deze unieke id kan bijvoorbeeld worden gebruikt als een URL-volgparameter om elke koppeling te onderscheiden die door ontvangers wordt geopend of aangeklikt.
 
 **Beslissing**
 
-- **AI Model - verenigt Rangschikking - de Nieuwe Bouwer van de Formule**
+- **Rangschikkende formules**
 
-  U kunt nu real-time scores van Adobe Decisioning AI-modellen aanpassen met behulp van een nieuwe formule builder. Deze functie centraliseert rangschikkingsaanpassingen voor prioriteiten en modelscores.
+  U kunt nu specifieke rangschikkingsformules voor besluiten maken door criteria te definiëren en te combineren vanuit een nieuwe, verbeterde interface. Met behulp van rangschikkingsformules kunt u regels definiëren die bepalen welke beslissingsitems eerst moeten worden gepresenteerd, in plaats van rekening te houden met de prioriteitsscores.
 
 **Navigatie**
 
-- **Omslagen - het Bestaan van Pagina&#39;s**
+- **Omslagen voor inhoudsmalplaatjes en fragmenten** - de datum van de Beschikbaarheid: 5 Mei, 2025
 
-  Verbeterd mapbeheer voor het landen van pagina&#39;s in Adobe Journey Optimizer, inclusief wijzigingen in de gebruikersinterface, stromen en API-updates.
+  Eerder beschikbaar voor een reeks organisaties (LA), zijn de omslagen nu beschikbaar aan alle gebruikers (GA) om hun inhoudsmalplaatjes en fragmenten te beheren. Met mappen kunt u inhoudssjablonen en fragmenten eenvoudiger en effectiever ordenen in een gestructureerde hiërarchie.
 
-- **Omslagen - Malplaatjes en Fragmenten**
+- **Omslagen voor het landen van pagina&#39;s** - de datum van Beschikbaarheid: 5 Mei, 2025
 
-  De vermelding Beperkte beschikbaarheid is verwijderd voor mappen in sjablonen en fragmenten om aan te geven dat deze functie nu algemeen beschikbaar is.
+  Om uw openingspagina&#39;s gemakkelijk te beheren, kunt u omslagen nu ook gebruiken om hen effectiever te organiseren in een gestroomlijnde hiërarchie.
 
 - **Rechterspoor in de Lijst van Campagnes**
 
   Er is een rechterspoor toegevoegd aan de lijst van campagnes, met gedetailleerde informatie wanneer een campagne wordt geselecteerd.
-
-
-
-**Aflevering**
-
-- **Verbeterd Werkschema voor top-up IPs en Verwijdering van Gedelegeerde Subdomeinen**
-
-  De workflow voor het beheer van IP&#39;s van de top-up en gedelegeerde subdomeinen is verbeterd en het proces voor gebruikers vereenvoudigt.
 
 **Playbooks**
 
