@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b79ab63dfefde9df1b4991ed3a81f1d61bc4bb96
+source-git-commit: b7549bb2ec9e3af4c08def9d46cde0b574df3d3a
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '918'
 ht-degree: 1%
 
 ---
@@ -37,13 +37,13 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Express Integration (LA)</strong><br/></th>
+<th><strong>Adobe Express-integratie (beperkte beschikbaarheid)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer is nu geïntegreerd met Adobe Express, waardoor gebruikers hun creatieve middelen naadloos kunnen verbinden met reisorchestratie. Deze integratie vereenvoudigt het proces om gepersonaliseerde inhoud over campagnes te ontwerpen en op te stellen. Deze functie bevindt zich momenteel in Beperkte Beschikbaarheid.</p>
+<p>Adobe Journey Optimizer is nu geïntegreerd met Adobe Express, waardoor u uw creatieve middelen naadloos kunt verbinden met reisorchestratie. Deze integratie vereenvoudigt het proces om gepersonaliseerde inhoud over campagnes te ontwerpen en op te stellen. Deze functie bevindt zich momenteel in Beperkte Beschikbaarheid.</p>
 </td>
 </tr>
 </tbody>
@@ -52,13 +52,13 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <table>
 <thead>
 <tr>
-<th><strong>Kalenderweergave voor campagne- en reisinventarisatie (LA)</strong><br/></th>
+<th><strong>Kalenderweergave voor campagne en reisinventarisatie (beperkte beschikbaarheid)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Er is nu een nieuwe kalenderweergave beschikbaar voor campagnes en reisactiviteiten. Deze functie biedt een visuele weergave van geplande activiteiten, zodat gebruikers hun campagnes en reizen effectiever kunnen bekijken en beheren. Als u een agendapunt selecteert, wordt er een rechterspoor met gedetailleerde informatie geopend. Deze functie bevindt zich momenteel in Beperkte Beschikbaarheid.</p>
+<p>Er is nu een nieuwe kalenderweergave beschikbaar voor campagnes en reisactiviteiten. Deze functie biedt een visuele weergave van geplande activiteiten, zodat u uw campagnes en reizen effectiever kunt bekijken en beheren. Als u een agendapunt selecteert, wordt er een rechterspoor met gedetailleerde informatie geopend. Deze functie bevindt zich momenteel in Beperkte Beschikbaarheid.</p>
 </td>
 </tr>
 </tbody>
@@ -88,7 +88,7 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <tbody>
 <tr>
 <td>
-<p>Experience League biedt nu een interactieve Personalization Playground. Met deze functie kunnen gebruikers in Adobe Journey Optimizer mogelijkheden voor personalisatie verkennen en uitvoeren. Gebruikers kunnen personalisatiecode schrijven, testen met voorbeeldladingen en echte scenario's simuleren om hun leerervaring te verbeteren.</p>
+<p>Experience League biedt nu een interactieve Personalization Playground. Met deze functie kunt u in Adobe Journey Optimizer mogelijkheden voor personalisatie verkennen en gebruiken. U kunt verpersoonlijkingscode schrijven, met steekproeflading testen, en echte scenario's simuleren om uw het leren ervaring te verbeteren.</p>
 </td>
 </tr>
 </tbody>
@@ -97,13 +97,13 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <table>
 <thead>
 <tr>
-<th><strong>Reizen, reis uitvoeren na batchanalyse (LA)</strong><br/></th>
+<th><strong>Dagelijkse ritten activeren na voltooiing van batchsegmentatie (beperkte beschikbaarheid)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>De gebruikers kunnen een tijdvenster nu specificeren om op een nieuwe evaluatie van partijpubliek in de Gelezen knoop van de Publiek te wachten. Als de evaluatie binnen het venster voltooit, wordt de reis teweeggebracht; anders, wordt het overgeslagen. Deze functie verhelpt vertragingen in batchsegmentatietaken en bevindt zich momenteel in Beperkte beschikbaarheid.</p>
+<p>Voor dagelijks geplande reizen, staat een nieuwe optie u toe om een tijdvenster van maximaal 6 uren te bepalen om op publieksgegevens van batch segmentatietaken te wachten, die ervoor zorgen reizen met de meest bijgewerkte gegevens lopen of worden overgeslagen als niet klaar. De optie Trigger na batchpublieksevaluatie is alleen beschikbaar voor een set organisaties (Beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
 </td>
 </tr>
 </tbody>
@@ -112,13 +112,13 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <table>
 <thead>
 <tr>
-<th><strong>Next-gen Proofing (GA)</strong><br/></th>
+<th><strong>Variaties in inhoud simuleren (algemene beschikbaarheid)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>De functie Volgende proef is nu over het algemeen beschikbaar. Deze uitbreiding ondersteunt contextafhankelijke kenmerken, meertalige inhoud, experimenten en inhoudssjablonen, waardoor u een robuustere en flexibele proefdrukervaring hebt.</p>
+<p>Eerder beschikbaar in bèta, is de simulatie van inhoudvariaties nu algemeen beschikbaar (GA). Hiermee kunt u verschillende variaties van uw inhoud voorvertonen met voorbeeldinvoergegevens die vanuit een CSV- of JSON-bestand zijn geüpload of handmatig zijn toegevoegd. Alle kenmerken die in de inhoud voor personalisatie worden gebruikt, worden automatisch door het systeem gedetecteerd en kunnen voor uw tests worden gebruikt om meerdere varianten te maken.</p>
 </td>
 </tr>
 </tbody>
@@ -127,13 +127,13 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <table>
 <thead>
 <tr>
-<th><strong>Breng uw eigen SMS-provider (GA)</strong><br/></th>
+<th><strong>Breng uw eigen SMS-provider (algemene beschikbaarheid)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer biedt nu ondersteuning voor aangepaste SMS-providers, zodat gebruikers hun favoriete SMS-services kunnen integreren voor meer flexibiliteit op het gebied van communicatie.</p>
+<p>Adobe Journey Optimizer biedt nu ondersteuning voor aangepaste SMS-providers, zodat u de gewenste SMS-services kunt integreren voor meer flexibiliteit op het gebied van communicatie.</p>
 </td>
 </tr>
 </tbody>
@@ -219,7 +219,7 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 
 - **verwijdert Beperking voor de Attributen van de Verrijking**
 
-  Klanten met de bescherming van de Gezondheid en van de Privacy kunnen nu de verrijkingsattributen van de Samenstelling van de Publiek in de kanalen van Adobe Journey Optimizer gebruiken, die de mogelijkheden van het gegevensgebruik verbeteren.
+  Het gebruik van soorten publiek en kenmerken van de samenstelling van het publiek is nu beschikbaar voor gebruik met het gezondheidsschild of het privacyschild.
 
 **E-mailkanaal**
 
@@ -234,13 +234,13 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 
 - ] Verbeteringen van de Redacteur van Beta **[e-mail met Thema&#39;s**
 
-  Een nieuwe bètafunctie introduceert thema&#39;s in de e-maileditor, zodat marketers herbruikbare stijlen kunnen definiëren en e-mails sneller kunnen bouwen met vooraf geconfigureerde modules.
+  Een nieuwe bètafunctie introduceert thema&#39;s in de e-maileditor, zodat u herbruikbare stijlen kunt definiëren en e-mails sneller kunt bouwen met vooraf geconfigureerde modules.
 
 **Sandbox Tooling**
 
 - **het Beslissen Sandbox Exemplaar**
 
-  Decisioning-objecten kunnen nu worden gekopieerd tussen sandboxen, waardoor test- en implementatieworkflows worden gestroomlijnd. Er wordt een speciale subsectie voor beslissingsobjecten toegevoegd aan de documentatie.
+  Decisioning-objecten kunnen nu worden gekopieerd tussen sandboxen, waardoor test- en implementatieworkflows worden gestroomlijnd.
 
 - **Sandbox Tooling voor de Acties van de Douane**
 
@@ -254,11 +254,11 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 
 - **de Redacteur van Personalization - de Activering van Vullingen**
 
-  Met een nieuwe knop in de verpersoonlijkingseditor kunnen gebruikers vullingen in- of uitschakelen. Met deze functie wordt de editor losgekoppeld en kunt u gemakkelijker parameters en profielkenmerken voor dynamische mediaafbeeldingen bewerken.
+  Een nieuwe knoop &quot;van Vullingen&quot;is aan de verpersoonlijkingsredacteur geweest. Wanneer deze optie is ingeschakeld, worden profielen en contextafhankelijke kenmerken weergegeven als vullingen, waardoor de leesbaarheid van de code wordt verbeterd.
 
 - **Personalization - Observable Schema**
 
-  De waarneembare schemasteun is toegevoegd aan de verpersoonlijkingsredacteur, toelatend dynamische updates aan op schema-gebaseerde attributen.
+  In het venster Kenmerken in de verpersoonlijkingseditor worden nu standaard alleen gevulde kenmerken weergegeven. Als u alle kenmerken wilt weergeven, schakelt u de knop Instellingen in of uit om de optie Alleen gevulde kenmerken tonen in te schakelen.
 
 - **Nieuwe Veranderlijke van de Context van het Systeem**
 
@@ -270,7 +270,7 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 
 - **AI Model - verenigt Rangschikking - de Nieuwe Bouwer van de Formule**
 
-  Marketers kunnen nu real-time scores voor Adobe Decisioning AI-modellen aanpassen met een nieuwe formule builder. Deze functie centraliseert rangschikkingsaanpassingen voor prioriteiten en modelscores.
+  U kunt nu real-time scores van Adobe Decisioning AI-modellen aanpassen met behulp van een nieuwe formule builder. Deze functie centraliseert rangschikkingsaanpassingen voor prioriteiten en modelscores.
 
 **Navigatie**
 
@@ -296,6 +296,6 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 
 **Playbooks**
 
-- **[Beta ] creeer Uw Eigen Playbooks**
+- **creeer uw eigen playbooks (Beta)**
 
-  Gebruikers kunnen nu hun eigen afspeelboeken maken in Adobe Journey Optimizer, waardoor ze meer aanpassingen en flexibiliteit op het gebied van reisplanning kunnen maken.
+  U kunt nu uw eigen afspeelboeken maken in Adobe Journey Optimizer, waardoor u meer aanpassingen en flexibiliteit kunt maken bij het plannen van reizen.
