@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3f64d497b304e513fa439a9bc4f1c9c0a58b2224
+source-git-commit: 6fbae788495ac97fae1a511a99e773eba718e11a
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '956'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <table>
 <thead>
 <tr>
-<th><strong>Kalenderweergave voor campagne en reisinventarisatie (beperkte beschikbaarheid)</strong><br/></th>
+<th><strong>Kalenderweergave voor campagne- en reisinventarisatie (beperkte beschikbaarheid)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -67,7 +67,7 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Experience Manager as a Cloud Service Integration (GA)</strong><br/></th>
+<th><strong>Adobe Experience Manager as a Cloud Service-integratie (GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -82,7 +82,7 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <table>
 <thead>
 <tr>
-<th><strong>Personalization Playground in Experience League</strong><br/></th>
+<th><strong>Personalization-speelplaats in Experience League</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -127,7 +127,7 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <table>
 <thead>
 <tr>
-<th><strong>Breng uw eigen SMS-provider (algemene beschikbaarheid)</strong><br/></th>
+<th><strong>Breng uw eigen leverancier van SMS (Algemene Beschikbaarheid)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -217,7 +217,7 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 
 **Doelgroepen**
 
-- **verwijdert Beperking voor de Attributen van de Verrijking**
+- **verwijdert beperking voor de verrijkingsattributen van de Samenstelling van het Publiek**
 
   Het gebruik van soorten publiek en kenmerken van de samenstelling van het publiek is nu beschikbaar voor gebruik met het gezondheidsschild of het privacyschild.
 
@@ -233,25 +233,25 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 
 **Sandbox Tooling**
 
-- **het Beslissen Sandbox Exemplaar**
+- **Beslissende zandbak exemplaar**
 
   Decisioning-objecten kunnen nu worden gekopieerd tussen sandboxen, waardoor test- en implementatieworkflows worden gestroomlijnd.
 
-- **Sandbox Tooling voor de Acties van de Douane**
+- **het hulpmiddel van Sandbox voor douaneacties**
 
   Aangepaste acties worden nu opgenomen in de lijst met Adobe Journey Optimizer-objecten die kunnen worden gekopieerd met de functie voor het maken van gereedschappen in de sandbox, waarmee tests en implementatie kunnen worden gestroomlijnd.
 
-- **Sandbox het Tooling voor Campagnes**
+- **Sandbox tooling voor campagnes**
 
   Campagnes kunnen nu worden gekopieerd met de functie voor het gereedmaken van de sandbox, waardoor de migratie van campagneobjecten tussen omgevingen wordt vereenvoudigd.
 
 **Personalization**
 
-- **de Redacteur van Personalization - de Activering van Vullingen**
+- **Vullingen activering**
 
   Een nieuwe knoop &quot;van Vullingen&quot;is aan de verpersoonlijkingsredacteur geweest. Wanneer deze optie is ingeschakeld, worden profielen en contextafhankelijke kenmerken weergegeven als vullingen, waardoor de leesbaarheid van de code wordt verbeterd.
 
-- **Personalization - Observable Schema**
+- **bevolkte attributen in attributenruit**
 
   In het venster Kenmerken in de verpersoonlijkingseditor worden nu standaard alleen gevulde kenmerken weergegeven. Als u alle kenmerken wilt weergeven, schakelt u de knop Instellingen in of uit om de optie Alleen gevulde kenmerken tonen in te schakelen.
 
@@ -275,7 +275,7 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 
   Om uw openingspagina&#39;s gemakkelijk te beheren, kunt u omslagen nu ook gebruiken om hen effectiever te organiseren in een gestroomlijnde hiërarchie.
 
-- **Rechterspoor in de Lijst van Campagnes**
+- **Rechterspoor in campagnemelijst**
 
   Er is een rechterspoor toegevoegd aan de lijst van campagnes, met gedetailleerde informatie wanneer een campagne wordt geselecteerd.
 
