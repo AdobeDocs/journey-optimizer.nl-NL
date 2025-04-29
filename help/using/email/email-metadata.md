@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: preheader, editor, overzicht, e-mail
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
-source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Een preheader toevoegen"
+>title="Een preheader definiëren"
 >abstract="Een preheader is een korte samenvattingstekst die op de onderwerpregel volgt wanneer een e-mailbericht van uw e-mailclient wordt weergegeven. In veel gevallen geeft het een korte samenvatting van de e-mail en is het doorgaans één zin lang."
 
 Bij het ontwerpen van uw e-mails kunt u voor betere leesbaarheid en betere toegankelijkheid aanvullende metakenmerken voor uw inhoud definiëren. [!DNL Journey Optimizer] [ E-mail Designer ](get-started-email-design.md) laat u toe om de volgende elementen te specificeren:

@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6820f57ca4f8734eb746d1bdb2eae8829f37d520
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '2358'
+source-wordcount: '2364'
 ht-degree: 21%
 
 ---
@@ -357,8 +357,10 @@ ht-degree: 21%
       + [Web genereren met AI](using/content-management/generative-web.md)
       + [Experimenteer met inhoud met AI](using/content-management/generative-experimentation.md)
       + [Openingspagina met AI](using/content-management/generative-lp.md)
-      + [ AI Hulp gebruikt gevallen ](using/content-management/generative-uc.md)
-      + [Uw merken maken en beheren (Beta)](using/content-management/brands.md)
+      + [Gebruiksgevallen van AI Assistant](using/content-management/generative-uc.md)
+      + Merken (bèta){#brands}
+         + [Uw merken maken en beheren](using/content-management/brands.md)
+         + [Uw Brand-uitlijningsscore evalueren](using/content-management/brands-score.md)
    + Werken met meertalige inhoud{#content-multilingual}
       + [Aan de slag met meertalige inhoud](using/content-management/multilingual-gs.md)
       + [Een landinstelling maken](using/content-management/multilingual-locale.md)

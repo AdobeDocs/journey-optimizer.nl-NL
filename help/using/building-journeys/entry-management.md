@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: terugkeer, reis, profiel, terugkerend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '565'
 ht-degree: 1%
 
 ---
@@ -79,19 +79,7 @@ Voor meer informatie, verwijs naar deze [ sectie ](../event/about-creating-busin
 
 * Voor terugkerende reizen: standaard komen alle profielen van het publiek de reis in bij elke terugkerende reis. Ze moeten de reis afmaken voordat ze in een ander voorval kunnen terugkeren.
 
-Er zijn twee opties beschikbaar voor terugkerende lezersreizen:
-
-* **Incrementele gelezen** optie: wanneer een reis met een terugkomende **leest publiek** voor het eerst uitvoert, gaan alle profielen in het publiek de reis in. Met deze optie kunt u zich na de eerste keer richten op alleen de personen die het publiek zijn binnengekomen sinds de laatste uitvoering van de reis.
-
-  >[!NOTE]
-  >
-  >Als u a [ douane richt uploadt publiek ](../audience/about-audiences.md#segments-in-journey-optimizer) in uw reis, worden de profielen slechts teruggewonnen op de eerste herhaling als deze optie in een terugkomende reis wordt toegelaten, aangezien deze doelgroepen vast zijn.
-
-* **Ingang van de Kracht op herhaling**: deze optie staat u toe om alle profielen nog in de reis te maken automatisch het bij de volgende uitvoering weggaan. Als de levensduur van uw profielen tijdens deze reis langer kan zijn dan de herhalingsfrequentie (bijvoorbeeld als u wachtactiviteiten gebruikt), activeert u deze optie niet om ervoor te zorgen dat profielen hun reis kunnen voltooien.
-
-![](assets/read-audience-options.png)
-
-Voor meer informatie, verwijs naar deze [ sectie ](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+Er zijn verschillende opties beschikbaar voor terugkerende lezersreizen. Voor meer informatie, verwijs naar [ Gebruik een publiek in een reis ](../building-journeys/read-audience.md) sectie.
 
 <!--
 After 91 days, a Read audience journey switches to the **Finished** status. This behavior is set for 91 days only (i.e. journey timeout default value) as all information about profiles who entered the journey is removed 91 days after they entered. Persons still in the journey automatically are impacted. They exit the journey after the 30 day timeout. 

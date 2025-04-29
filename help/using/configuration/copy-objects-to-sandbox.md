@@ -9,16 +9,16 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: zandbak, reis, exemplaar, milieu
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: ead10229b82aa8cb2e638ac9c26539de766f3497
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1202'
 ht-degree: 0%
 
 ---
 
 # Objecten exporteren naar een andere sandbox {#copy-to-sandbox}
 
-U kunt objecten zoals reizen, inhoudssjablonen of fragmenten over meerdere sandboxen kopiëren met behulp van de opties voor exporteren en importeren van pakketten. Een pakket kan uit één object of uit meerdere objecten bestaan. Alle objecten die in een pakket zijn opgenomen, moeten afkomstig zijn uit dezelfde sandbox.
+U kunt objecten zoals reizen, aangepaste handelingen, inhoudssjablonen of fragmenten over meerdere sandboxen kopiëren met behulp van de opties voor exporteren en importeren van pakketten. Een pakket kan uit één object of uit meerdere objecten bestaan. Alle objecten die in een pakket zijn opgenomen, moeten afkomstig zijn uit dezelfde sandbox.
 
 Op deze pagina wordt het gebruik-hoofdlettergebruik voor Sandbox-gereedschappen in de context van Journey Optimizer beschreven. Voor meer informatie over de eigenschap zelf, verwijs naar de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 
@@ -33,7 +33,7 @@ Het kopieerproces wordt uitgevoerd via een pakketexport en importeren tussen de 
 
 ## Geëxporteerde objecten en aanbevolen werkwijzen {#objects}
 
-Journey Optimizer staat het exporteren van reizen, inhoudssjablonen en fragmenten naar een andere sandbox toe. In de volgende secties vindt u informatie en tips en trucs voor elk type object.
+Journey Optimizer staat het exporteren van reizen, aangepaste handelingen, inhoudssjablonen en fragmenten naar een andere sandbox toe. In de volgende secties vindt u informatie en tips en trucs voor elk type object.
 
 ### Algemene beste praktijken {#global}
 
@@ -43,13 +43,21 @@ Journey Optimizer staat het exporteren van reizen, inhoudssjablonen en fragmente
 
 ### Journeys {#journeys}
 
-* Bij het exporteren van een reis kopieert Journey Optimizer naast de reis zelf ook het grootste deel van de objecten waarvan de reis afhankelijk is: publiek, schema&#39;s, evenementen en acties. Voor meer details op gekopieerde voorwerpen, verwijs naar deze [ sectie ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
+* Bij het exporteren van een reis kopieert Journey Optimizer naast de reis zelf ook het grootste deel van de objecten waarvan de reis afhankelijk is: publiek, aangepaste acties, schema&#39;s, evenementen en acties. Voor meer details op gekopieerde voorwerpen, verwijs naar deze [ sectie ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
 
 * We garanderen niet dat alle gekoppelde elementen naar de doelsandbox worden gekopieerd. Wij adviseren ten zeerste dat u een grondige controle uitvoert, bijvoorbeeld alvorens een reis te publiceren. Zo kunt u elk mogelijk ontbrekend object identificeren.
 
 * De gekopieerde objecten in de doelsandbox zijn uniek en er bestaat geen risico dat bestaande elementen worden overschreven. Zowel de reis als alle berichten binnen de reis worden in de ontwerpmodus overgenomen. Hierdoor kunt u een grondige validatie uitvoeren voordat deze wordt gepubliceerd in de doelsandbox.
 
 * Het kopieerproces kopieert alleen de metagegevens over de reis en de objecten in die reis. Er worden geen profiel- of gegevenssetgegevens gekopieerd als onderdeel van dit proces.
+
+### Aangepaste acties {#custom-actions}
+
+* Wanneer het uitvoeren van douaneacties, worden de configuratie URL en de parameters van de lading gekopieerd over. Om veiligheidsredenen worden de verificatieparameters echter niet gekopieerd en vervangen door &quot;GEHEIM INSERT HIER&quot;. De waarden van de de verzoekkopbal en van de vraagparam van de constante worden van het verzoek ook vervangen door &quot;INSERT SECRET HERE&quot;.
+
+  Dit zijn onder andere de aangepaste handelingen voor speciale doeleinden ([!DNL Adobe Campaign Standard] , [!DNL Campaign Classic] , [!DNL Marketo Engage] ).
+
+* Als u tijdens het importeren de optie &#39;Bestaande gebruiken&#39; selecteert voor een aangepaste handeling, moet de aangepaste actie die u selecteert, gelijk zijn aan de aangepaste bronactie (dus dezelfde configuratie, parameters, enzovoort) wanneer u een reis naar een andere sandbox kopieert. Anders bevat de nieuwe reiskopie fouten die niet op het canvas kunnen worden opgelost.
 
 ### Campagnes {#campaigns}
 

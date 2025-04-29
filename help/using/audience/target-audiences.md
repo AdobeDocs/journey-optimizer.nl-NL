@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,12 @@ U kunt in campagnes selecteren en reizen om het even welk publiek dat gebruikend
 ## Activeringsvertraging van soorten publiek {#activation}
 
 Soorten publiek zijn direct na inname klaar voor gebruik in Journey Optimizer. Hoewel dit meestal binnen een uur ligt, is het afhankelijk van enige variabiliteit. Het publiek dat uit samenstellingen voortvloeit, moet 24 uur na publicatie beschikbaar zijn.
+
+Voor het publiek dat het resultaat is van batchsegmentatietaken, kan de activering vertraagd zijn vanwege variabiliteit in de inname van batch. Voor ritten voor lezers die dagelijks worden gepland, kunt u een tijdvenster in de reiseigenschappen bepalen om ervoor te zorgen dat nieuwe publieksgegevens beschikbaar zijn vóór de uitvoering van de reis. Als de segmentatietaak niet binnen het bepaalde tijdvenster wordt voltooid, wordt de reis overgeslagen tot het volgende voorkomen. [ Leer hoe te om een Lezen-publiek reis ](../building-journeys/read-audience.md) te plannen
+
+>[!AVAILABILITY]
+>
+>De optie **[!UICONTROL Trigger after batch audience evaluation]** is alleen beschikbaar voor een set organisaties (Beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 ## Aangepaste upload en Federatieve Audience Composition
 

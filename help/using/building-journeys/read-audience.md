@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 keywords: activiteit, reis, lezen, publiek, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: ca51c88c122cce23364b86a1da8900d0d5b37aaf
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '2141'
 ht-degree: 0%
 
 ---
 
 # Een publiek gebruiken voor een reis {#segment-trigger-activity}
 
-## Een activiteit van het leespubliek toevoegen {#about-segment-trigger-actvitiy}
+## Informatie over de activiteit van het leespubliek {#about-segment-trigger-actvitiy}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
@@ -38,7 +38,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
 >title="Elke herhaling"
->abstract="Bepaal een frequentie van het terugwinnen planner."
+>abstract="Bepaal een frequentie van terugkomende planner."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
@@ -58,7 +58,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
 >title="Wacht op tijd voor nieuwe publieksevaluatie"
->abstract="Geef de tijdsduur op gedurende welke de rit moet wachten tot het batchpubliek opnieuw wordt geëvalueerd."
+>abstract="Geef de tijdsduur op gedurende welke de rit moet wachten tot het batchpubliek opnieuw wordt geëvalueerd. De wachttijd is beperkt tot gehele getallen, kan in minuten of uren worden opgegeven en moet tussen 1 en 6 uur liggen."
 
 Gebruik de **Gelezen activiteit van het Publiek** om alle individuen van een publiek te maken de reis ingaan. Het betreden van een reis kan één keer of op regelmatige basis plaatsvinden.
 
@@ -80,13 +80,13 @@ Neem als voorbeeld het &quot;toepassings het openen en controle van de Luma&quot
 
 * Het publiek [ werd ingevoerd uit een Csv- dossier ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) of resulterend uit [ samenstellingswerkschema&#39;s ](../audience/get-started-audience-orchestration.md) kan in de **Gelezen activiteit van het Publiek** worden geselecteerd. Deze doelgroepen zijn niet beschikbaar in de **activiteit van de Kwalificatie van het publiek 0}.**
 
-
 De begeleiding met betrekking tot **Gelezen de activiteit van het publiek** wordt vermeld in [ deze pagina ](../start/guardrails.md#read-segment-g).
-
 
 ## De activiteit configureren {#configuring-segment-trigger-activity}
 
-De stappen om de Gelezen activiteit van het Publiek te vormen zijn als volgt:
+De stappen om de Gelezen activiteit van het Publiek te vormen zijn als volgt.
+
+### Voeg een Lees publieksactiviteit toe en selecteer het publiek
 
 1. Ontgrendel de categorie **[!UICONTROL Orchestration]** en zet een **[!UICONTROL Read Audience]** -activiteit neer op uw canvas.
 
@@ -120,33 +120,78 @@ De stappen om de Gelezen activiteit van het Publiek te vormen zijn als volgt:
    >
    >Personen die tot een publiek behoren dat niet de geselecteerde identiteit (naamruimte) onder hun verschillende identiteiten heeft, kunnen de reis niet betreden. U kunt alleen een naamruimte selecteren die is gebaseerd op personen. Als u een namespace voor een raadplegingslijst (bijvoorbeeld: ProductID namespace voor een raadpleging van het Product) hebt bepaald, zal het niet in **Namespace** dropdown lijst beschikbaar zijn.
 
-1. Stel de **[!UICONTROL Reading rate]** in. Dit is het maximumaantal profielen dat de reis per seconde kan ingaan. Dit tarief geldt alleen voor deze activiteit en niet voor andere activiteiten op de reis. Als u bijvoorbeeld een vertragingsfactor voor aangepaste handelingen wilt definiëren, moet u de vertragings-API gebruiken. Verwijs naar deze [ pagina ](../configuration/throttling.md).
+### Profielinvoer op reis beheren
 
-   Deze waarde wordt opgeslagen in de lading van de reisversie. De standaardwaarde is 5.000 profielen per seconde. U kunt deze waarde wijzigen van 500 tot 20.000 profielen per seconde.
+Stel de **[!UICONTROL Reading rate]** in. Dit is het maximumaantal profielen dat de reis per seconde kan ingaan. Dit tarief geldt alleen voor deze activiteit en niet voor andere activiteiten op de reis. Als u bijvoorbeeld een vertragingsfactor voor aangepaste handelingen wilt definiëren, moet u de vertragings-API gebruiken. Verwijs naar deze [ pagina ](../configuration/throttling.md).
 
-   >[!NOTE]
-   >
-   >De algemene leessnelheid per sandbox is ingesteld op 20.000 profielen per seconde. De leessnelheid van alle leessoorten die tegelijkertijd in dezelfde sandbox worden uitgevoerd, kan daarom maximaal 20.000 profielen per seconde bedragen. U kunt dit uiteinde niet wijzigen.
+Deze waarde wordt opgeslagen in de lading van de reisversie. De standaardwaarde is 5.000 profielen per seconde. U kunt deze waarde wijzigen van 500 tot 20.000 profielen per seconde.
 
-1. Met de **[!UICONTROL Read Audience]** -activiteit kunt u opgeven op welk tijdstip het publiek de reis zal betreden. Klik hiertoe op de koppeling **[!UICONTROL Edit journey schedule]** om de eigenschappen van de rit te openen en configureer vervolgens het veld **[!UICONTROL Scheduler type]** .
+>[!NOTE]
+>
+>De algemene leessnelheid per sandbox is ingesteld op 20.000 profielen per seconde. De leessnelheid van alle leessoorten die tegelijkertijd in dezelfde sandbox worden uitgevoerd, kan daarom maximaal 20.000 profielen per seconde bedragen. U kunt dit uiteinde niet wijzigen.
+
+### Reizen plannen {#schedule}
+
+Door gebrek, wordt de reis gevormd om eens te lopen. Om een specifieke datum/tijd en frequentie te bepalen waarop de reis zou moeten lopen, volg de hieronder stappen.
+
+>[!NOTE]
+>
+>Één-schot Gelezen publiekstrajecten bewegen zich aan de **Voltooide** status 91 dagen ([ reis globale onderbreking ](journey-properties.md#global_timeout)) na de reisuitvoering. Voor een gepland publiek van Lees, is het 91 dagen na de uitvoering van het laatste voorkomen.
+
+1. Selecteer in de eigenschappen van de **[!UICONTROL Read audience]** -activiteit de optie pa,e **[!UICONTROL Edit journey schedule]** .
 
    ![](assets/read-segment-schedule.png)
 
-   Standaard gaan doelgroepen de reis **[!UICONTROL As soon as possible]** in. Als u wilt dat het publiek de reis op een specifieke datum/tijd of op een terugkomende basis ingaat, selecteer de gewenste waarde van de lijst.
-
-   >[!NOTE]
-   >
-   >De sectie **[!UICONTROL Schedule]** is alleen beschikbaar wanneer een **[!UICONTROL Read Audience]** -activiteit op het canvas is neergezet.
+1. De eigendommen van de reis worden weergegeven. Selecteer in de vervolgkeuzelijst **[!UICONTROL Scheduler type]** de frequentie waarmee u de reis wilt uitvoeren.
 
    ![](assets/read-segment-schedule-list.png)
 
-   **Incrementele gelezen** optie: wanneer een reis met een terugkomende **leest publiek** voor het eerst uitvoert, gaan alle profielen in het publiek de reis in. Met deze optie kunt u zich na de eerste keer richten op alleen de personen die het publiek zijn binnengekomen sinds de laatste uitvoering van de reis.
+Voor terugkerende reizen zijn specifieke opties beschikbaar om u te helpen de toegang van profielen tot de reis beheren. Vouw de onderstaande secties uit voor meer informatie over elke optie.
 
-       >[!NOTE] 
-       >
-       >Als u zich richt op een [aangepast uploadpubliek] (../audience/about-audiences.md#segments-in-trip-optimizer) tijdens uw reis, worden de profielen slechts teruggewonnen op de eerste herhaling als deze optie in een terugkomende reis wordt toegelaten, aangezien deze toehoorders worden bevestigd.
-   
-   **Ingang van de Kracht op herhaling**: deze optie staat u toe om alle profielen nog in de reis te maken automatisch het op de volgende uitvoering weggaan. Als u bijvoorbeeld een wachttijd van twee dagen hebt op een dagelijkse terugkerende reis door deze optie in te schakelen, worden profielen altijd verplaatst bij de volgende uitvoering van de reis (dus de dag erna), ongeacht of ze zich in het volgende publiek bevinden of niet. Als de levensduur van uw profielen tijdens deze reis langer kan zijn dan de herhalingsfrequentie, activeer deze optie niet om ervoor te zorgen dat profielen hun reis kunnen voltooien.
+![](assets/read-audience-options.png)
+
++++**[!UICONTROL Incremental read]**
+
+Wanneer een reis met een terugkomende **gelezen publiek** voor het eerst uitvoert, gaan alle profielen in het publiek de reis in.
+
+Met deze optie kunt u zich na de eerste keer richten op alleen de personen die het publiek zijn binnengekomen sinds de laatste uitvoering van de reis.
+
+>[!NOTE]
+>
+>Als u a [ douane richt uploadt publiek ](../audience/about-audiences.md#segments-in-journey-optimizer) in uw reis, worden de profielen slechts teruggewonnen op de eerste herhaling als deze optie in een terugkomende reis wordt toegelaten, aangezien deze doelgroepen vast zijn.
+
++++
+
++++**[!UICONTROL Force reentrance on recurrence]**
+
+Met deze optie kunt u alle profielen die nog aanwezig zijn op de reis automatisch laten afsluiten bij de volgende uitvoering.
+
+Als u bijvoorbeeld een wachttijd van twee dagen hebt op een dagelijkse terugkerende reis door deze optie in te schakelen, worden profielen altijd verplaatst bij de volgende uitvoering van de reis (dus de dag erna), ongeacht of ze zich in het volgende publiek bevinden of niet.
+
+Als de levensduur van uw profielen tijdens deze reis langer kan zijn dan de herhalingsfrequentie, activeer deze optie niet om ervoor te zorgen dat profielen hun reis kunnen voltooien.
+
++++
+
++++**[!UICONTROL Trigger after batch audience evaluation]** (beperkte beschikbaarheid)
+
+>[!AVAILABILITY]
+>
+>De optie **[!UICONTROL Trigger after batch audience evaluation]** is alleen beschikbaar voor een set organisaties (Beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+
+Voor ritten die dagelijks worden gepland en die op partijpubliek gericht zijn, kunt u een tijdvenster van tot 6 uren voor de reis bepalen om op nieuwe publieksgegevens van batch segmentatietaken te wachten. Als de segmentatietaak binnen het tijdvenster wordt voltooid, wordt de rit geactiveerd. Anders slaat het de reis over tot de volgende keer. Met deze optie zorgt u ervoor dat reizen worden uitgevoerd met nauwkeurige en actuele publieksgegevens.
+
+Als een reis bijvoorbeeld om 18.00 uur per dag gepland is, kunt u een aantal minuten of uren opgeven die moeten worden gewacht voordat de rit wordt uitgevoerd. Wanneer de reis om 18.00 uur wakker wordt, zoekt het naar een nieuw publiek, wat betekent dat een publiek nieuwer is dan het publiek dat in de vorige uitvoering van de reis werd gebruikt. Tijdens het gespecificeerde tijdvenster, zal de reis onmiddellijk na het ontdekken van het nieuwe publiek uitvoeren. Als er echter geen nieuw publiek wordt gedetecteerd, wordt de uitvoering van de reis die dag overgeslagen.
+
+**bekijk-achterperiode voor stijgende gelezen reizen**
+
+Wanneer **[!UICONTROL Trigger after batch audience evaluation]** is geselecteerd, zoekt [!DNL Journey Optimizer] naar een nieuwe publieksevaluatie. Voor het beginpunt van de terugkijkperiode, gebruikt het systeem de tijd van de laatste succesvolle reisuitvoering, zelfs als het meer dan 24 uur geleden voorkwam. Dit is van belang voor incrementele leestrachten die doorgaans een terugkijkperiode van 24 uur hebben.
+
+Voorbeelden van dagelijkse incrementele leesreizen:
+
+* Met &quot;Trigger na de evaluatie van het batchpubliek&quot; actief: als er drie dagen zijn verstreken sinds incrementele profielen de reis hebben betreden, duurt de terugkijkperiode drie dagen terug wanneer u naar incrementele profielen zoekt.
+* Met &quot;Trigger na de evaluatie van het batchpubliek&quot; niet actief: als er drie dagen zijn verstreken sinds incrementele profielen de reis hebben betreden, zou de terugkijkperiode slechts 24 uur teruggaan wanneer u naar incrementele profielen zoekt.
+
++++
 
 <!--
 
@@ -166,10 +211,6 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 **Lookback window**: define when you want to start to listen to entrances or exits. This lookback window is expressed in hours, starting from the moment the journey is triggered.  If you set this duration to 0, the journey will target all members of the segment. For recurring journeys, it will take into account all entrances/exits since the last time the journey was triggered.
 
 -->
-
->[!NOTE]
->
->Één-schot Gelezen publiekstrajecten bewegen zich aan de **Voltooide** status 91 dagen ([ reis globale onderbreking ](journey-properties.md#global_timeout)) na de reisuitvoering. Voor een gepland publiek van Lees, is het 91 dagen na de uitvoering van het laatste voorkomen.
 
 ## De reis testen en publiceren {#testing-publishing}
 
@@ -213,6 +254,12 @@ De segmentatie kan worden gebaseerd op:
 
 ![](assets/read-segment-audience1.png)
 
+>[!NOTE]
+>
+>Wanneer u het plannertype ‘Dagelijks’ gebruikt met een **[!UICONTROL Read Audience]** -activiteit, kunt u een tijdvenster voor de reis definiëren om te wachten op nieuwe publieksgegevens. Dit zorgt ervoor dat u zich nauwkeurig kunt richten en voorkomt problemen die worden veroorzaakt door vertragingen in batchsegmentatietaken. [ leer hoe te om een reis ](#schedule) te plannen
+>
+>De optie **[!UICONTROL Trigger after batch audience evaluation]** is alleen beschikbaar voor een set organisaties (Beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+
 **Uitsluiting**
 
 De zelfde **activiteit van de Voorwaarde 0} {die voor segmentatie (zie hierboven) wordt gebruikt staat u ook toe om een deel van de bevolking uit te sluiten.** U kunt bijvoorbeeld VIP-personen uitsluiten door deze naar een vertakking te laten gaan met een eindstap direct erna.
@@ -223,16 +270,11 @@ Deze uitsluiting kan direct na het opvragen van het publiek gebeuren, voor het t
 
 **Samenvoeging**
 
-Met ritten kunt u N-vertakkingen maken en deze na een segmentatie samenvoegen.
+Met ritten kunt u N-vertakkingen maken en deze na een segmentatie samenvoegen. Hierdoor kunt u twee soorten publiek terugbrengen naar een algemene ervaring.
 
-Hierdoor kunt u twee soorten publiek terugbrengen naar een algemene ervaring.
-
-Zo kunnen VIP- en niet-VIP-klanten na een andere ervaring gedurende tien dagen op reis terugkeren naar hetzelfde pad.
-
-Na een vereniging, kunt u het publiek opnieuw verdelen door een segmentatie of een uitsluiting uit te voeren.
+Zo kunnen VIP- en niet-VIP-klanten na een andere ervaring gedurende tien dagen op reis terugkeren naar hetzelfde pad. Na een vereniging, kunt u het publiek opnieuw verdelen door een segmentatie of een uitsluiting uit te voeren.
 
 ![](assets/read-segment-audience3.png)
-
 
 ## Opnieuw {#read-audience-retry}
 

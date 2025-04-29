@@ -1,0 +1,73 @@
+---
+title: Merk uitlijnen
+description: Leer hoe u on-brand inhoud kunt maken, valideren en beheren met de score van uw merk.
+feature: Content Management
+badge: label="Beta" type="Informative"
+topic: Content Management
+role: User
+level: Beginner, Intermediate
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 2%
+
+---
+
+# Merk uitlijnen (Beta){#brands-score}
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_score"
+>title="Merkuitlijningsscore"
+>abstract="Met de score voor Brand Alignment kunt u meten in hoeverre de inhoud voldoet aan de richtlijnen van uw merk. Zo bent u verzekerd van consistentie in kleuren, lettertypen, logo, afbeeldingen en schrijfstijl."
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_colors"
+>title="Kleurscore"
+>abstract="Kleurscore"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_fonts"
+>title="Lettertypescore"
+>abstract="Lettertypescore"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_logos"
+>title="Logos score"
+>abstract="Logos score"
+
+>[!AVAILABILITY]
+>
+>Dit vermogen wordt vrijgegeven als privé bèta. Het zal in toekomstige versies geleidelijk beschikbaar zijn voor alle klanten.
+>U moet met de [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} akkoord gaan alvorens u de Medewerker AI in Adobe Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+
+De functie Merkuitlijning is ontworpen om u te helpen inhoud te maken, te reviseren en te beheren die aan de richtlijnen van uw merk voldoet. Het zorgt voor consistentie in toon, overseinen, en visuele identiteit over uw e-mailcampagnes, terwijl ook als kwaliteitscontrole dient alvorens uw inhoud live gaat.
+
+## Uw inhoud valideren met uitlijning van het merk {#validate-content}
+
+Zodra [ uw merk opstelling en gepubliceerd ](brands.md) is, bepaal uw merk groeperingsscore direct binnen uw e-mailcampagne om uw inhoud te verzekeren richt zich op uw merkrichtlijnen:
+
+1. Creeer uw [ e-mailcampagne ](../campaigns/create-campaign.md).
+
+1. Open het menu **[!UICONTROL Brand Alignment]** in de e-mailontwerper.
+
+   Uw inhoud wordt automatisch geëvalueerd op basis van uw standaardmerk. [ Leer hoe te om een standaardmerk ](brands.md) toe te wijzen.
+
+   ![](assets/brand-score-1.png)
+
+1. Als u een ander merk wilt gebruiken, selecteert u het in de vervolgkeuzelijst **[!UICONTROL Brand]** en klikt u op **[!UICONTROL Re-evaluate score]** .
+
+   ![](assets/brand-score-2.png)
+
+1. Doorblader door de **Score van de Groepering van het Merk** (Hoog, Medium, Laag) en overzicht gedetailleerde terugkoppelt.
+
+1. Klik het ](assets/do-not-localize/Smock_FullScreen_18_N.svg " Volledige het schermpictogram van het 1} beeld van de Duik ") om meer inzichten in uw score te zien.![
+
+   ![](assets/brand-score-3.png)
+
+1. Selecteer een gemarkeerde hulplijn om specifieke feedback en suggesties weer te geven.
+
+   ![](assets/brand-score-4.png)
+
+1. Bewerk de inhoud op basis van de aanbevelingen om de uitlijning van merken te verbeteren.
+
+1. Controleer de inhoud handmatig opnieuw nadat u wijzigingen hebt aangebracht om de uitlijningsscore te vernieuwen.

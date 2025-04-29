@@ -5,14 +5,14 @@ description: Leer hoe je Adobe Journey Optimizer gebruikt.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '335'
 ht-degree: 14%
 
 ---
 
-# Adobe [!DNL Journey Optimizer] Documentation {#cjm-documentation}
+# Adobe [!DNL Journey Optimizer] -documentatie {#cjm-documentation}
 
 ## Nieuwe functies
 
@@ -20,11 +20,17 @@ Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en
 
 >[!BEGINTABS]
 
->[!TAB  Maart &quot;25 versie ]
+>[!TAB  April &quot;25 versie ]
 
-Maart is nu live! Controleer de opmerkingen bij de release om nieuwe mogelijkheden, wijzigingen en verbeteringen te ontdekken.
+April release is nu live! Controleer de opmerkingen bij de release om nieuwe mogelijkheden, wijzigingen en verbeteringen te ontdekken.
 
 [![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+>[!TAB  de integratie van Adobe Express ]
+
+Adobe Journey Optimizer is nu geïntegreerd met Adobe Express, waardoor u uw creatieve middelen naadloos kunt koppelen aan reisorkest.
+
+[![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 
 >[!TAB  AI Medewerker ]
 
@@ -32,17 +38,12 @@ Maart is nu live! Controleer de opmerkingen bij de release om nieuwe mogelijkhed
 
 [![ leer meer ](using/assets/do-not-localize/try-it-button.svg) ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
->[!TAB Reporting with CJA]
+>[!TAB  Meldend met CJA ]
 
 Journey Optimizer-rapportering wordt geleverd met een verbeterde interoperabiliteit met Customer Journey Analytics-mogelijkheden, standaardisering van de rapportage op beide platforms en verbetering van de consistentie en betrouwbaarheid van gegevens.
 
 [![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/reports/report-gs-cja.md)
 
->[!TAB  Ervaringen van het Web in reizen ]
-
-Met het kanaal van het Web, staat Adobe Journey Optimizer u toe om de Webervaring te personaliseren u aan uw klanten door binnenkomende Webreizen levert. Het webkanaal is nu beschikbaar op het reiscanvas.
-
-[![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/web/create-web.md)
 
 >[!ENDTABS]
 
@@ -60,12 +61,12 @@ Met het kanaal van het Web, staat Adobe Journey Optimizer u toe om de Webervarin
     </td>
     <td>
     <a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>Create your first journey</strong><br/>Design and orchestrate personalized omnichannel journeys to harmonize marketing outreach with one-to-one customer engagement. 
+    <div><strong> creeer uw eerste reis </strong><br/> Ontwerp en orkestreer gepersonaliseerde omnichannel reizen om marketing outreach met één-aan-één klantenovereenkomst te harmoniseren. 
     </div>
     </td>
     <td>
     <a href="using/campaigns/create-campaign.md"><img src="using/assets/do-not-localize/start-campaign.jpeg"></a>
-    <div><strong>Launch your first campaign</strong><br/>Create and start your first campaign in Journey Optimizer to deliver targeted, one-time content to a specific audience.</div>
+    <div><strong> Lancering uw eerste campagne </strong><br/> creeert en begint uw eerste campagne in Journey Optimizer om gerichte, éénmalige inhoud aan een specifiek publiek te leveren.</div>
     </td>
   </tr>
   <tr style="border: 0;">

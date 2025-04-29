@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, configuratie, eigenschappen
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2325'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,6 @@ Nieuwe reizen maken standaard terugkeer mogelijk. U kunt uncheck **toestaan teru
 
 Wanneer **toe staat terugkeer** optie wordt geactiveerd, **de ingang wacht periode** gebied wordt getoond. In dit veld kunt u de tijd definiëren die u moet wachten voordat u een profiel toestaat om de reis opnieuw te betreden tijdens een enkele reis (te beginnen met een evenement of een publiekskwalificatie). Hierdoor wordt voorkomen dat ritten meerdere keren ten onrechte worden geactiveerd voor dezelfde gebeurtenis. Het veld wordt standaard ingesteld op 5 minuten. De maximale duur is 90 dagen.
 
-
 ## Toegang beheren {#manage-access}
 
 Klik op de knop **[!UICONTROL Manage access]** als u aangepaste of basislabels voor gegevensgebruik aan de reis wilt toewijzen. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md)
@@ -130,7 +129,6 @@ Deze globale onderbreking houdt de vooruitgang van individuen in de reis **91 da
 Vanwege de reistijd van 91 dagen, wanneer het niet is toegestaan om de reis opnieuw te betreden, kunnen we er niet voor zorgen dat de toegangsblokkering langer dan 91 dagen werkt. Aangezien we alle informatie over personen die 91 dagen na hun binnenkomst de reis hebben betreden, verwijderen, kunnen we niet weten dat de persoon eerder, meer dan 91 dagen geleden, is binnengekomen.
 
 Een individu kan alleen een wachtdienst doen als hij of zij genoeg tijd in de reis heeft om de wachttijd vóór de reisonderbreking van 91 dagen te voltooien. Zie [deze pagina](../building-journeys/wait-activity.md).
-
 
 #### Time-to-live (TTL) en veelgestelde vragen over gegevensinvoer {#timeout-faq}
 
@@ -301,6 +299,10 @@ De volgende instructies en beperkingen zijn van toepassing op de mogelijkheid om
 
 * Afsluitingscriteria worden alleen in de ontwerpstatus gedefinieerd
 * Reis namespace coherentie tussen gebeurtenissen en op gebeurtenis-gebaseerde uitgangscriteria
+
+## Reisschema {#schedule}
+
+De sectie **[!UICONTROL Schedule]** is alleen beschikbaar wanneer een **[!UICONTROL Read Audience]** -activiteit op het canvas is neergezet. Hiermee kunt u een specifieke datum/tijd en frequentie voor de rit definiëren. [ Leer hoe te om een Lezen-publiek reis ](../building-journeys/read-audience.md) te plannen
 
 ## Conflictbeheer {#conflict}
 
