@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
+source-git-commit: 6820f57ca4f8734eb746d1bdb2eae8829f37d520
 workflow-type: tm+mt
-source-wordcount: '2336'
+source-wordcount: '2358'
 ht-degree: 21%
 
 ---
@@ -330,6 +330,11 @@ ht-degree: 21%
       + [WhatsApp-kanaal configureren in Journey Optimizer](using/whatsapp/whatsapp-configuration.md)
       + [Een whatsApp-bericht maken](using/whatsapp/create-whatsapp.md)
       + [Controleer en verzend uw WhatsApp-berichten](using/whatsapp/send-whatsapp.md)
+   + REGEL {#line}
+      + [Aan de slag met LINE-kanaal](using/line/get-started-line.md)
+      + [Regelkanaal configureren in Journey Optimizer](using/line/line-configuration.md)
+      + [Een LIJNbericht maken](using/line/create-line.md)
+      + [Controleer en verzend uw berichten van de LIJN](using/line/send-line.md)
 + Landingspagina&#39;s {#landing-pages}
    + [Aan de slag met bestemmingspagina&#39;s](using/landing-pages/get-started-lp.md)
    + [Een landingspagina maken](using/landing-pages/create-lp.md)
