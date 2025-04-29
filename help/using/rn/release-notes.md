@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: d5ddf00b1a39c66b29ffb967389fb069a9648e83
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 8%
@@ -240,11 +240,11 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 
   Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows.-->
 
-- **het hulpmiddel van Sandbox voor douaneacties**
+* **het hulpmiddel van Sandbox voor douaneacties**
 
   Aangepaste acties worden nu opgenomen in de lijst met Adobe Journey Optimizer-objecten die kunnen worden gekopieerd met de functie voor het maken van gereedschappen in de sandbox, waarmee tests en implementatie kunnen worden gestroomlijnd. [Meer informatie](../configuration/copy-objects-to-sandbox.md)
 
-- **Sandbox tooling voor campagnes** - de datum van de Beschikbaarheid: 3 April, 2025
+* **Sandbox tooling voor campagnes** - de datum van de Beschikbaarheid: 3 April, 2025
 
   U kunt campagnes nu kopiëren over meerdere sandboxen door de mogelijkheden voor exporteren en importeren van pakketten te gebruiken. Campagnes worden samen met alle punten gekopieerd met betrekking tot het profiel, het publiek, het schema, de gealigneerde berichten, en afhankelijke voorwerpen. Sommige items worden niet gekopieerd, zoals besluitvormingsitems, labels voor gegevensgebruik en taalinstellingen. [Meer informatie](../configuration/copy-objects-to-sandbox.md#custom-actions)
 
@@ -254,12 +254,12 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 
   A new "Pills" button has been to the personalization editor. When enabled, profile and contextual attributes display as pills, enhancing the readability of your code.-->
 
-- **bevolen attributen in attributenruit** - de datum van de Beschikbaarheid: 2 april, 2025
+* **bevolen attributen in attributenruit** - de datum van de Beschikbaarheid: 2 april, 2025
 
   In het venster Kenmerken in de verpersoonlijkingseditor worden nu standaard alleen gevulde kenmerken weergegeven. Als u alle kenmerken wilt weergeven, schakelt u de optie **[!UICONTROL Show only populated attributes]** uit met de knop Instellingen. [Meer informatie](../personalization/personalization-build-expressions.md)
 
 
-- **Nieuwe contextafhankelijke attributen**
+* **Nieuwe contextafhankelijke attributen**
 
   Een nieuw contextueel attribuut, **Identiteitskaart van het Profiel van het Bericht**, is nu beschikbaar om van de verpersoonlijkingsredacteur te selecteren. Dit is een bericht-georiënteerd attribuut dat uniek elk bericht identificeert dat naar elk gericht profiel in een levering wordt verzonden. Deze unieke id kan bijvoorbeeld worden gebruikt als een URL-volgparameter om elke koppeling te onderscheiden die door ontvangers wordt geopend of aangeklikt.
 
