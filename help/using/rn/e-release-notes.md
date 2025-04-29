@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 6fbae788495ac97fae1a511a99e773eba718e11a
+source-git-commit: 00aa5d5283bae43949df133a48700aa91b3a8c7f
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '972'
 ht-degree: 1%
 
 ---
@@ -119,6 +119,7 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <tr>
 <td>
 <p>Eerder beschikbaar in bèta, is de simulatie van inhoudvariaties nu algemeen beschikbaar (GA). Hiermee kunt u verschillende variaties van uw inhoud voorvertonen met voorbeeldinvoergegevens die vanuit een CSV- of JSON-bestand zijn geüpload of handmatig zijn toegevoegd. Alle kenmerken die in de inhoud voor personalisatie worden gebruikt, worden automatisch door het systeem gedetecteerd en kunnen voor uw tests worden gebruikt om meerdere varianten te maken.</p>
+<p>Met de algemene beschikbaarheidsrelease biedt deze functie nu ondersteuning voor meertalige content en content-experimenten, zodat u variaties kunt testen in verschillende talen en behandelingen. Bovendien worden nu contextafhankelijke kenmerken ondersteund (naast profielkenmerken), zodat inhoud nog dynamischer en situationeler kan worden getest.</p>
 </td>
 </tr>
 </tbody>
@@ -215,11 +216,11 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 
 ### Verbeteringen {#25-04-improv}
 
-**Doelgroepen**
+<!--**Audiences**
 
-- **verwijdert beperking voor de verrijkingsattributen van de Samenstelling van het Publiek**
+- **Remove limitation for Audience Composition enrichment attributes** 
 
-  Het gebruik van soorten publiek en kenmerken van de samenstelling van het publiek is nu beschikbaar voor gebruik met het gezondheidsschild of het privacyschild.
+  The use of audiences and attributes from audience composition is now available for use with Healthcare Shield or Privacy and Security Shield.-->
 
 **E-mailkanaal**
 
