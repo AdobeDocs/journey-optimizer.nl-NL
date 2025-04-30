@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2816b5aefaa184949471c6b0d2ee1c6ec6de0ed0
+source-git-commit: 7bb46f33d877d0a1976e8d74b88a5cccb81c1d4e
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '900'
 ht-degree: 9%
 
 ---
@@ -277,7 +277,9 @@ De nieuwe mogelijkheden die bij deze release worden geleverd, worden hieronder w
 
   Om de toegankelijkheid in Journey Optimizer te verbeteren, zijn er nu twee nieuwe velden beschikbaar in de E-mail-Designer: deze komen overeen met het element `<title>` en het kenmerk `lang` in het element `<html>` van uw e-mailinhoud. U kunt deze instellingen definiëren in aanvulling op het veld **[!UICONTROL Preheader]** in de sectie E-mail **[!UICONTROL Body]** . [Meer informatie](../email/email-metadata.md)
 
+**de gevalplaybooks van het Gebruik**
 
+* **het auteursrecht en het delen van de Playbooks (Beta)** - u kunt, uw eigen playbooks van het gebruikscase nu tot stand brengen beheren en delen. Deze mogelijkheid is momenteel beschikbaar voor alle klanten als een openbare bètaversie. [Meer informatie](../start/playbooks.md)
 
 **Navigatie**
 
