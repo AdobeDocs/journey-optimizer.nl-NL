@@ -7,11 +7,9 @@ feature: Line
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
-source-git-commit: 6820f57ca4f8734eb746d1bdb2eae8829f37d520
+source-git-commit: fe10df5e855c627fb4beaf2a56403b5845cb84c4
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '184'
 ht-degree: 1%
 
 ---
@@ -19,6 +17,10 @@ ht-degree: 1%
 # Aan de slag met regel {#get-started-line}
 
 Gebruik [!DNL Journey Optimizer] om LIJNberichten naar uw klanten op hun LIJN app te verzenden. U kunt, berichten in de redacteur van de LIJN tot stand brengen personaliseren en voorproef.
+
+>[!AVAILABILITY]
+>
+>Het LINE kanaal wordt toegelaten voor klanten van Adobe Journey Optimizer op verzoek. Neem contact op met de klantenservice van Adobe of uw Adobe-vertegenwoordiger om de functie voor uw organisatie te activeren.
 
 De berichten van de LIJN kunnen in een reis of in een campagne worden gecreeerd en worden verzonden:
 
