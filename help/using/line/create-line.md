@@ -6,10 +6,9 @@ description: Leer hoe u een LINE-bericht maakt in Journey Optimizer
 feature: Line
 topic: Content Management
 role: User
-hide: true
-hidefromtoc: true
 level: Beginner
-source-git-commit: 6820f57ca4f8734eb746d1bdb2eae8829f37d520
+exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
+source-git-commit: 81cd7c2c8be26d760f369ecacc5859cf090234fc
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 2%
@@ -94,4 +93,3 @@ Volg onderstaande stappen om uw LIJNinhoud te configureren.
 Nadat u de tests hebt uitgevoerd en de inhoud hebt gevalideerd, kunt u het LINE-bericht naar het publiek sturen. Deze stappen zijn gedetailleerd in [ deze pagina ](send-line.md)
 
 Zodra verzonden, kunt u het effect van uw LIJN binnen de Campagne of rapporten van de Reis meten. Raadpleeg [deze sectie](../reports/campaign-global-report-cja.md) voor meer informatie over rapporten.
-
