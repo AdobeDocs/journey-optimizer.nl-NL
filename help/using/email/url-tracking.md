@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: 5f7e9556a27fb12618f8da35da5427de3a0867dc
+source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -74,4 +74,4 @@ U kunt de resulterende URL voor bijhouden dynamisch voorvertonen. Elke keer dat 
 
 >[!NOTE]
 >
->U kunt ook dynamische parameters voor gepersonaliseerde bijhouden toevoegen aan de koppelingen in uw e-mailinhoud, maar dit is niet mogelijk op configuratieniveau. Dit moet u doen wanneer u uw bericht ontwerpt met de e-mailontwerper. [Meer informatie](message-tracking.md#url-tracking)
+>U kunt ook dynamische parameters voor gepersonaliseerde reeksspatiëring toevoegen aan de koppelingen in uw e-mailinhoud. [Meer informatie](surface-personalization.md#personalize-url-tracking)

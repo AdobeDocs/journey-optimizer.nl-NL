@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie, subdomein
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ Voor meer flexibiliteit en controle over uw e-mailmontages, [!DNL Journey Optimi
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
->title="Personalization niet beschikbaar"
+>title="Personalisatie niet beschikbaar"
 >abstract="Deze configuratie is gemaakt zonder personalisatiekenmerken. Raadpleeg de documentatie voor stappen die u kunt oplossen als personalisatie vereist is."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
 >title="Dynamische subdomeinen inschakelen"
->abstract="Wanneer u een e-mailconfiguratie maakt, kunt u dynamische subdomeinen instellen op basis van voorwaarden die u met de verpersoonlijkingseditor definieert. U kunt maximaal 50 dynamische subdomeinen toevoegen."
+>abstract="Wanneer u een e-mailconfiguratie maakt, kunt u dynamische subdomeinen instellen op basis van voorwaarden die u definieert met behulp van de personalisatie-editor. U kunt maximaal 50 dynamische subdomeinen toevoegen."
 
 Wanneer u een e-mailconfiguratie maakt, kunt u dynamische subdomeinen instellen op basis van specifieke voorwaarden.
 
@@ -50,7 +50,7 @@ Voer de onderstaande stappen uit om dynamische subdomeinen te definiëren in een
 
    ![](assets/surface-email-dynamic-subdomain.png)
 
-1. Selecteer het pictogram Bewerken naast het eerste veld **[!UICONTROL Condition]** .
+1. Selecteer het pictogram Bewerken naast het eerste **[!UICONTROL Condition]** veld.
 
 1. De [ verpersoonlijkingsredacteur ](../personalization/personalization-build-expressions.md) opent. In dit voorbeeld stelt u een voorwaarde in, bijvoorbeeld `Country` is gelijk aan `US` .
 
@@ -64,19 +64,19 @@ Voer de onderstaande stappen uit om dynamische subdomeinen te definiëren in een
 
    ![](assets/surface-email-select-subdomain.png)
 
-   Alle ontvangers die in de VS zijn gebaseerd, ontvangen berichten die het geselecteerde subdomein voor dat land gebruiken. Dit houdt in dat alle betrokken URL&#39;s (zoals spiegel, URL volgen of koppeling opzeggen) worden ingevuld op basis van dat subdomein.
+   Alle ontvangers in de VS ontvangen berichten met het geselecteerde subdomein voor dat land, wat betekent dat alle betrokken URL&#39;s (zoals spiegelpagina, tracking-URL of afmeldlink) worden ingevuld op basis van dat subdomein.
 
-1. Stel andere dynamische subdomeinen naar wens in. Je kunt maximaal 50 objecten toevoegen.
+1. Stel andere dynamische subdomeinen in zoals gewenst. U kunt maximaal 50 items toevoegen.
 
    ![](assets/surface-email-add-dynamic-subdomain.png)
 
    <!--Select the [IP pool](../configuration/ip-pools.md) to associate with the configuration. [Learn more](email-settings.md#subdomains-and-ip-pools)-->
 
-1. Bepaal alle andere [ e-mailmontages ](email-settings.md) en [ voorleggen ](../configuration/channel-surfaces.md#create-channel-surface) uw configuratie.
+1. Definieer alle andere [e-mailinstellingen](email-settings.md) en [dien uw configuratie in](../configuration/channel-surfaces.md#create-channel-surface) .
 
-Nadat u een of meer dynamische subdomeinen aan een configuratie hebt toegevoegd, worden de volgende items gevuld op basis van het opgeloste dynamische subdomein voor deze configuratie:
+Zodra u een of meer dynamische subdomeinen aan een configuratie hebt toegevoegd, worden de volgende items ingevuld op basis van het opgeloste dynamische subdomein voor deze configuratie:
 
-* Alle URL&#39;s (bron-URL, spiegel-URL en URL voor bijhouden)
+* Alle URL&#39;s (bron-URL, mirror-pagina-URL en tracking-URL)
 
 * [ unsubscribe URL ](email-settings.md#list-unsubscribe)
 
@@ -98,7 +98,6 @@ Volg onderstaande stappen om gepersonaliseerde variabelen voor de parameters van
 >
 >U kunt alle **[!UICONTROL Header parameters]** -velden aanpassen, behalve het **[!UICONTROL Error email prefix]** -veld.
 
-
 1. Definieer de headerparameters zoals u dat gewoonlijk doet. [ leer hoe ](email-settings.md#email-header)
 
 1. Selecteer voor elk veld het pictogram Bewerken.
@@ -119,27 +118,29 @@ Volg onderstaande stappen om gepersonaliseerde variabelen voor de parameters van
     
     Let's say you want to handle dynamically emails sent on behalf of a sales assistant, where the sales assistant is retrieved from an event or campaign contextual parameters. For example: In a [journey](../building-journeys/journey-gs.md), when a purchase event is linked to the sales assistant of a specific shop, the email header (sender name, sender email, reply to address) can be personalized with the sales assistant parameters, taken from the event attributes. In an [API-triggered campaign](../campaigns/api-triggered-campaigns.md), initiated externally by a sales assistant, the triggered email can be sent on behalf of the sales assistant and the header personalization values taken from campaign contextual parameters.-->
 
-1. Herhaal bovenstaande stappen voor elke parameter waaraan u personalisatie wilt toevoegen.
+1. Herhaal de bovenstaande stappen voor elke parameter waaraan u personalisatie wilt toevoegen.
 
 >[!NOTE]
 >
 >Als u één of meerdere dynamische subdomeinen aan uw configuratie toevoegde, zullen **van e-mail** en **achtervoegsels van de Fout e-mail** worden bevolkt gebaseerd op het opgeloste [ dynamische subdomain ](#dynamic-subdomains).
 
-<!--
-## Use personalized URL tracking {#personalize-url-tracking}
+## Aangepaste URL-tracking gebruiken {#personalize-url-tracking}
 
-To use personalized URL tracking prameters, follow the steps below.
+Volg de onderstaande stappen om aangepaste URL-volgparameters te gebruiken.
 
-1. Select the profile attribute of your choice from the personalization editor.
+1. Ga naar de sectie **[!UICONTROL URL tracking parameters]** van uw configuratie van het e-mailkanaal.
 
-1. Repeat the steps above for each tracking parameter you want to personalize.
+1. Klik op het pictogram Bewerken naast elk veld. Naast contextafhankelijke kenmerken kunt u ook profielkenmerken selecteren.
 
-Now when the email is sent out, this parameter will be automatically appended to the end of the URL. You can then capture this parameter in web analytics tools or in performance reports.
--->
+1. Selecteer de profielattributen van uw keus van de [ verpersoonlijkingsredacteur ](../personalization/personalization-build-expressions.md).
+
+1. Herhaal bovenstaande stappen voor elke volgende parameter die u wilt aanpassen.
+
+Wanneer de e-mail wordt verzonden, wordt de gepersonaliseerde parameter automatisch toegevoegd aan het einde van de URL. U kunt deze parameter vervolgens vastleggen in hulpprogramma&#39;s voor webanalyse of in prestatierapporten.
 
 ## Configuratiedetails weergeven {#view-surface-details}
 
-Wanneer het gebruiken van een configuratie met gepersonaliseerde montages in een campagne of een reis, kunt u de configuratiedetails direct binnen de campagne of de reis tonen. Voer de onderstaande stappen uit.
+Wanneer u een configuratie met gepersonaliseerde instellingen gebruikt in een campagne of een reis, kunt u de configuratiedetails rechtstreeks in de campagne of de reis weergeven. Volg de onderstaande stappen.
 
 1. Creeer een e-mail [ campagne ](../campaigns/create-campaign.md) of [ reis ](../building-journeys/journey-gs.md).
 
@@ -155,17 +156,17 @@ Wanneer het gebruiken van een configuratie met gepersonaliseerde montages in een
    >
    >Alle informatie op dit scherm is alleen-lezen.
 
-1. Selecteer **[!UICONTROL Expand]** om de details van de dynamische subdomeinen weer te geven.
+1. Selecteer deze optie **[!UICONTROL Expand]** om de details van de dynamische subdomeinen weer te geven.
 
    ![](assets/campaign-delivery-settings-subdomain-expand.png)
 
 ## Controleer uw configuratie {#check-configuration}
 
-Wanneer u een gepersonaliseerde configuratie gebruikt in een campagne of een rit, kunt u een voorbeeld van uw e-mailinhoud weergeven met testprofielen om te controleren op mogelijke fouten met de dynamische instellingen die u hebt gedefinieerd. Voer de onderstaande stappen uit.
+Wanneer u een gepersonaliseerde configuratie gebruikt in een campagne of een reis, kunt u een voorbeeld van uw e-mailinhoud bekijken met behulp van testprofielen om te controleren op mogelijke fouten met de dynamische instellingen die u hebt gedefinieerd. Volg de onderstaande stappen.
 
 >[!NOTE]
 >
->Naast testprofielen kunt u met [!DNL Journey optimizer] ook verschillende varianten van de inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [ Leer hoe te om uw inhoud te testen gebruikend de gegevens van de steekproefinput ](../test-approve/simulate-sample-input.md)
+>Naast testprofielen [!DNL Journey optimizer] kunt u ook verschillende varianten van uw inhoud testen door een voorbeeld te bekijken en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die zijn geüpload vanuit een CSV / JSON-bestand of handmatig zijn toegevoegd. [ Leer hoe te om uw inhoud te testen gebruikend de gegevens van de steekproefinput ](../test-approve/simulate-sample-input.md)
 
 Voer de volgende stappen uit om een voorvertoning van de inhoud weer te geven met testprofielen:
 
@@ -189,7 +190,7 @@ Mogelijke fouten kunnen als volgt zijn:
 
 Als een van deze fouten optreedt, wordt geen e-mail verzonden naar het geselecteerde testprofiel.
 
-Als u dit type fout wilt voorkomen, moet u ervoor zorgen dat de headerparameters die u definieert, gepersonaliseerde kenmerken gebruiken voor de meeste profielen. Ontbrekende waarden kunnen van invloed zijn op uw e-mailleesbaarheid.
+Om dit soort fouten te voorkomen, moet u ervoor zorgen dat de headerparameters die u definieert, gepersonaliseerde kenmerken gebruiken met waarden voor de meeste van uw profielen. Ontbrekende waarden kunnen van invloed zijn op de bezorgbaarheid van uw e-mail.
 
 >[!NOTE]
 >

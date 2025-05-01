@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: koppelingen, bijhouden, controleren, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1141'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,7 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
    >[!NOTE]
    >
-   >Voor het interpreteren van URLs, [!DNL Journey Optimizer] voldoet aan de syntaxis van URI ([ norm RFC 3986 ](https://datatracker.ietf.org/doc/html/rfc3986) {target="_blank"}), die sommige speciale internationale karakters in URLs onbruikbaar maakt. Wanneer u de proefdruk of e-mail probeert te verzenden, kunt u de tekenreeks via URL coderen als tijdelijke oplossing als u een fout hebt geretourneerd met een URL die aan uw inhoud is toegevoegd.
+   >Voor het interpreteren van URLs, [!DNL Journey Optimizer] voldoet aan de syntaxis van URI ([ norm RFC 3986 ](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), die sommige speciale internationale karakters in URLs onbruikbaar maakt. Wanneer u de proefdruk of e-mail probeert te verzenden, kunt u de tekenreeks via URL coderen als tijdelijke oplossing als u een fout hebt geretourneerd met een URL die aan uw inhoud is toegevoegd.
 
 1. U kunt uw koppelingen aanpassen. [Meer informatie](../personalization/personalization-syntax.md#perso-urls)
 
@@ -171,9 +171,9 @@ Het melden van openingen en klikken is beschikbaar in het [ Levende rapport ](..
 
 ## URL-tracking aanpassen {#url-tracking}
 
-Meestal [ URL die ](email-settings.md#url-tracking) volgen wordt beheerd op het configuratieniveau, maar de profielattributen worden niet gesteund. Momenteel is de enige manier om het te doen het [ te personaliseren URLs ](../personalization/personalization-syntax.md#perso-urls) in de e-mailontwerper.
+[ URL het volgen ](email-settings.md#url-tracking) wordt beheerd op het configuratieniveau en is op alle URLs inbegrepen in uw berichtinhoud van toepassing.
 
-Volg onderstaande stappen om aangepaste URL-volgparameters toe te voegen aan uw koppelingen.
+U kunt ook [ individuele URLs ](../personalization/personalization-syntax.md#perso-urls) in de e-mailontwerper personaliseren. Volg onderstaande stappen om aangepaste URL-volgparameters toe te voegen aan één koppeling in uw inhoud.
 
 1. Selecteer een koppeling en klik op **[!UICONTROL Insert link]** op de contextuele werkbalk.
 
