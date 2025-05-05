@@ -20,9 +20,9 @@ ht-degree: 3%
 
 Volg onderstaande stappen om uw Web in-app kanaal in te stellen:
 
-* Installeer de Web SDK-tagextensie om Web In-app Messaging te ondersteunen. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=en)
+* Installeer de Web SDK-tagextensie om Web In-app Messaging te ondersteunen. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=nl-NL)
 
-* Pas de triggers aan. Het Berichten van het Web in-app steunt twee types van trekkers: Verzonden gegevens naar platform en Hand trekkers. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html)
+* Pas de triggers aan. Het Berichten van het Web in-app steunt twee types van trekkers: Verzonden gegevens naar platform en Hand trekkers. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html?lang=nl-NL)
 
 * Maak uw Web in-app configuratie. [Meer informatie](inapp-configuration.md)
 

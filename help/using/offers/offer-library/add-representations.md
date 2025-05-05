@@ -72,7 +72,7 @@ Als de geselecteerde plaatsing beeld-type is, kunt u inhoud toevoegen die uit de
 
 >[!NOTE]
 >
-> Om met [ de Hoofdzaak van de Activa van de Manager van de Ervaring van Adobe te werken ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"} , moet u [!DNL Assets Essentials] voor uw organisatie opstellen en ervoor zorgen dat de gebruikers een deel van de **Hoofdzaak van Activa Consumenten** of/en **de Profielen van het Product van de Hoofdzaak van Activa** zijn. Leer meer over [ deze pagina ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"} .
+> Om met [ de Hoofdzaak van de Activa van de Manager van de Ervaring van Adobe te werken ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=nl-NL){target="_blank"} , moet u [!DNL Assets Essentials] voor uw organisatie opstellen en ervoor zorgen dat de gebruikers een deel van de **Hoofdzaak van Activa Consumenten** of/en **de Profielen van het Product van de Hoofdzaak van Activa** zijn. Leer meer over [ deze pagina ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=nl-NL){target="_blank"} .
 
 1. Kies de optie **[!UICONTROL Asset library]**.
 
@@ -88,9 +88,9 @@ Als de geselecteerde plaatsing beeld-type is, kunt u inhoud toevoegen die uit de
 
 ### HTML- of JSON-bestanden toevoegen {#html-json}
 
-Als de geselecteerde plaatsing HTML-type is, kunt u HTML of inhoud ook toevoegen JSON die uit de [ bibliotheek van de Activa van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}  komt.
+Als de geselecteerde plaatsing HTML-type is, kunt u HTML of inhoud ook toevoegen JSON die uit de [ bibliotheek van de Activa van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=nl-NL){target="_blank"}  komt.
 
-Bijvoorbeeld, creeerde u een e-mailmalplaatje van HTML in [ Adobe Experience Manager ](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"}  en u wilt dat dossier voor uw aanbiedingsinhoud gebruiken. In plaats van het creëren van een nieuw dossier, kunt u het malplaatje in de **Bibliotheek van Activa** eenvoudig uploaden om het in de vertegenwoordiging van uw aanbieding te kunnen opnieuw gebruiken.
+Bijvoorbeeld, creeerde u een e-mailmalplaatje van HTML in [ Adobe Experience Manager ](https://experienceleague.adobe.com/docs/experience-manager.html?lang=nl-NL){target="_blank"}  en u wilt dat dossier voor uw aanbiedingsinhoud gebruiken. In plaats van het creëren van een nieuw dossier, kunt u het malplaatje in de **Bibliotheek van Activa** eenvoudig uploaden om het in de vertegenwoordiging van uw aanbieding te kunnen opnieuw gebruiken.
 
 Om uw inhoud in een vertegenwoordiging opnieuw te gebruiken, doorblader de **Bibliotheek van Activa** zoals die in [ wordt beschreven deze sectie ](#images) en selecteer het HTML of JSON dossier van uw keus.
 
@@ -106,7 +106,7 @@ U kunt URLs personaliseren gebruikend de verpersoonlijkingsredacteur. Leer meer 
 
 U wilt bijvoorbeeld de afbeelding aanpassen die als een aanbieding wordt weergegeven. Je wilt dat gebruikers die de voorkeur geven aan vakanties in de stad de skyline NYC zien en gebruikers die de voorkeur geven aan strandvakanties om de noordkust van Hawaii te zien.
 
-Gebruik de verpersoonlijkingsredacteur om de attributen van het Profiel terug te winnen die in Adobe Experience Platform worden opgeslagen gebruikend verenigingsschema&#39;s. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"} 
+Gebruik de verpersoonlijkingsredacteur om de attributen van het Profiel terug te winnen die in Adobe Experience Platform worden opgeslagen gebruikend verenigingsschema&#39;s. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=nl-NL){target="_blank"} 
 
 ![](../assets/offer-content-url-personalization.png)
 

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Ondersteuning voor inhoudskaarten configureren in Web SDK {#content-card-configuration-sdk}
 
-In dit voorbeeld ziet u hoe u inhoudskaarten kunt ophalen van Adobe Journey Optimizer (AJO) met Adobe Experience Platform. Door [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) leveraging, wordt de verpersoonlijkingsinhoud opgehaald en volledig op de cliëntkant teruggegeven.
+In dit voorbeeld ziet u hoe u inhoudskaarten kunt ophalen van Adobe Journey Optimizer (AJO) met Adobe Experience Platform. Door [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/home) leveraging, wordt de verpersoonlijkingsinhoud opgehaald en volledig op de cliëntkant teruggegeven.
 
 Als de pagina voor het eerst wordt geladen, wordt de standaardstatus van de pagina weergegeven. Nochtans, als u met de **Fondsen van de Aanhouding** of **Aandeel op sociale media** knopen in wisselwerking staat, zullen de extra inhoudskaarten verschijnen. Deze kaarten worden geactiveerd door omstandigheden aan de clientzijde, zodat ze alleen worden weergegeven wanneer specifieke handelingen worden uitgevoerd.
 
@@ -46,7 +46,7 @@ Als de pagina voor het eerst wordt geladen, wordt de standaardstatus van de pagi
 
 ## Werking {#setup}
 
-1. Omvat en vorm [ SDK van het Web ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) op de pagina gebruikend montages van het `.env` dossier in de steekproefomslag.
+1. Omvat en vorm [ SDK van het Web ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/home) op de pagina gebruikend montages van het `.env` dossier in de steekproefomslag.
 
    ```
    <script src="https://cdn1.adoberesources.net/alloy/2.18.0/alloy.min.js" async></script>

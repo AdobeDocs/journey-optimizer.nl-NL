@@ -27,7 +27,7 @@ De toegankelijkheidsfuncties in [!DNL Adobe Journey Optimizer] zijn overgenomen 
 * Kleurcontrast
 * Validatie van vereiste velden
 
-De toegankelijkheidsfuncties in Adobe Experience Platform zijn uitgebreid [in deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target="_blank"}.
+De toegankelijkheidsfuncties in Adobe Experience Platform zijn uitgebreid [in deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=nl-NL){target="_blank"}.
 
 De volgende algemene sneltoetsen zijn beschikbaar in [!DNL Journey Optimizer]:
 

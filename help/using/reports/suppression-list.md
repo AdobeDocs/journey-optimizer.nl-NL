@@ -59,7 +59,7 @@ Voor elk adres, worden de fundamentele reden voor onderdrukking en de onderdrukk
 >
 >De profielen met de status **[!UICONTROL Suppressed]** worden tijdens het verzenden van berichten uitgesloten. Daarom terwijl de **rapporten van de Reis** deze profielen zullen tonen zoals die door de reis ([ gelezen Publiek ](../building-journeys/read-audience.md) en [ berichtactiviteiten ](../building-journeys/journeys-message.md)) zijn bewogen, zullen de **E-mail rapporten** niet hen in de **[!UICONTROL Sent]** metriek omvatten aangezien zij voorafgaand aan e-mail het verzenden worden uitgefilterd.
 >
->Leer meer over het [ Levende Rapport ](../reports/live-report.md) en [ rapport van Customer Journey Analytics ](../reports/report-gs-cja.md). Om de reden voor alle uitsluitingsgevallen te weten te komen, kunt u de [ Dienst van de Vraag van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} gebruiken .
+>Leer meer over het [ Levende Rapport ](../reports/live-report.md) en [ rapport van Customer Journey Analytics ](../reports/report-gs-cja.md). Om de reden voor alle uitsluitingsgevallen te weten te komen, kunt u de [ Dienst van de Vraag van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=nl-NL){target="_blank"} gebruiken .
 
 ### Leveringsfouten {#delivery-failures}
 

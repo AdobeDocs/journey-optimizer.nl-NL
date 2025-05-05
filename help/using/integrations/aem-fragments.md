@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Door Adobe Experience Manager te integreren met Adobe Journey Optimizer, kunt u nu uw AEM Content Fragments naadloos opnemen in uw Journey Optimizer e-mailinhoud. Deze gestroomlijnde verbinding vereenvoudigt het proces van toegang tot en gebruik van AEM-inhoud, waardoor persoonlijke en dynamische campagnes en reizen kunnen worden gemaakt.
 
-Meer over het Fragment van de Inhoud van AEM leren, verwijs naar [ documentatie van Experience Manager ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/fragments/content-fragments).
+Meer over het Fragment van de Inhoud van AEM leren, verwijs naar [ documentatie van Experience Manager ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/authoring/fragments/content-fragments).
 
 ## Beperkingen {#limitations}
 
@@ -53,7 +53,7 @@ Meer over het Fragment van de Inhoud van AEM leren, verwijs naar [ documentatie 
 
 ## AEM-inhoudsfragmenten toevoegen {#aem-add}
 
-Na het creëren van en het personaliseren van uw [ Fragmenten van de Inhoud van AEM ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/fragments/content-fragments), kunt u het aan uw de optimaliseringscampagne of reis van de Reis nu invoeren.
+Na het creëren van en het personaliseren van uw [ Fragmenten van de Inhoud van AEM ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/authoring/fragments/content-fragments), kunt u het aan uw de optimaliseringscampagne of reis van de Reis nu invoeren.
 
 1. Na het creëren van uw [ Campagne ](../email/create-email.md) of [ Reis ](../email/create-email.md) met een e-mailactie, heb toegang tot de e-mailontwerper om de e-mailinhoud te vormen. [Meer informatie](../email/get-started-email-design.md)
 

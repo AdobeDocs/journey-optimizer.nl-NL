@@ -63,7 +63,7 @@ De gepersonaliseerde optimalisatiemodellen zijn een type van AI model dat u toes
 
 Door gebrek, gepersonaliseerde optimalisatiemodellen gebruiken **aanbieding klikt** als optimalisering metrisch. Als u met [!DNL Customer Journey Analytics] werkt, kunt u in [!DNL Decisioning] uw eigen maateenheden gebruiken om uw model te optimaliseren.
 
-U doet dit door het scherm voor het maken van het gepersonaliseerde AI-model te openen en de vervolgkeuzelijst **[!UICONTROL Conversion event]** uit te vouwen. Alle metriek van uw standaard [!DNL Customer Journey Analytics] [ gegevensmening ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}  vertoning in de lijst. Selecteer de metrische waarde waarop u het model wilt optimaliseren en voltooi vervolgens het maken van het AI-model op de gebruikelijke manier.
+U doet dit door het scherm voor het maken van het gepersonaliseerde AI-model te openen en de vervolgkeuzelijst **[!UICONTROL Conversion event]** uit te vouwen. Alle metriek van uw standaard [!DNL Customer Journey Analytics] [ gegevensmening ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}  vertoning in de lijst. Selecteer de metrische waarde waarop u het model wilt optimaliseren en voltooi vervolgens het maken van het AI-model op de gebruikelijke manier.
 
 ![](assets/ai-ranking-custom-metrics.png)
 
@@ -73,7 +73,7 @@ U doet dit door het scherm voor het maken van het gepersonaliseerde AI-model te 
 >
 >Hoewel het attributiemodel kan worden gewijzigd, zijn niet alle attributiemodellen ideaal voor optimalisatie van het AI-model. We raden u aan zorgvuldig een toewijzingsmodel te selecteren dat is afgestemd op uw optimalisatiedoelstellingen om de nauwkeurigheid en prestaties van het model te garanderen.
 >
->Voor meer details op beschikbare attributiemodellen en begeleiding op hun gebruik, verwijs naar de [[!DNL Customer Journey Analytics]  documentatie ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"} 
+>Voor meer details op beschikbare attributiemodellen en begeleiding op hun gebruik, verwijs naar de [[!DNL Customer Journey Analytics]  documentatie ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"} 
 
 +++
 

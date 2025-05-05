@@ -48,7 +48,7 @@ U kunt tags toevoegen aan of verwijderen uit elk type transport (live, concept, 
 
 ## Tags beheren
 
-Beheerders kunnen tags verwijderen en deze op categorieën ordenen met de opdracht **Tags** menu, onder **ADMINISTRATIE**. Zie dit [documentatie](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html).
+Beheerders kunnen tags verwijderen en deze op categorieën ordenen met de opdracht **Tags** menu, onder **ADMINISTRATIE**. Zie dit [documentatie](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=nl-NL).
 
 >[!NOTE]
 >

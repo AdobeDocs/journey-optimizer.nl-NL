@@ -44,9 +44,9 @@ Feedback op afbeeldingen en klikken wordt vastgelegd op basis van de [!DNL Journ
 
 Maar **meeste kanalen** impressies en klikgegevens vereisen die als een **Experience, gebeurtenis**. Dit omvat:
 
-* Webpagina&#39;s die de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} om aanbiedingen te renderen
+* Webpagina&#39;s die de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL){target="_blank"} om aanbiedingen te renderen
 
-* Mobiele toepassingen met de [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} to render offers - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
+* Mobiele toepassingen met de [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=nl-NL){target="_blank"} to render offers - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
 * Kiosks
 * Berichten die via toepassingen van derden worden verzonden
   <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->

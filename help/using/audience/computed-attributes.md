@@ -38,7 +38,7 @@ Vanuit dit scherm kunt u berekende kenmerken samenstellen door regels te maken d
 
 Zodra uw regel klaar is, publiceer het gegevens verwerkte attribuut om het in andere stroomafwaartse diensten, met inbegrip van Journey Optimizer ter beschikking te stellen.
 
-De gedetailleerde informatie over hoe te om gegevens verwerkte attributen tot stand te brengen en te beheren is beschikbaar in de [ Berekende attributendocumentatie ](https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html)
+De gedetailleerde informatie over hoe te om gegevens verwerkte attributen tot stand te brengen en te beheren is beschikbaar in de [ Berekende attributendocumentatie ](https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html?lang=nl-NL)
 
 ## Berekende kenmerken toevoegen aan de Adobe Experience Platform-gegevensbron {#source}
 

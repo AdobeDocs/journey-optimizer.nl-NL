@@ -29,17 +29,17 @@ U kunt gegevenssets exporteren naar 6 cloudopslagdoelen die toegankelijk zijn vi
 
 Gedetailleerde informatie over elke bestemming is beschikbaar in de documentatie van Adobe Experience Platform:
 
-* [ Amazon S3 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html){target="_blank"} 
-* [ Azure Blob ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html){target="_blank"} 
-* [ Azure Gen 2 van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html){target="_blank"} 
-* [ Gegevens die Zone ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html){target="_blank"}  aanvoeren
-* [ de Cloudopslag van Google ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html){target="_blank"} 
-* [ SFTP ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html){target="_blank"} .
+* [ Amazon S3 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html?lang=nl-NL){target="_blank"} 
+* [ Azure Blob ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html?lang=nl-NL){target="_blank"} 
+* [ Azure Gen 2 van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html?lang=nl-NL){target="_blank"} 
+* [ Gegevens die Zone ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=nl-NL){target="_blank"}  aanvoeren
+* [ de Cloudopslag van Google ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=nl-NL){target="_blank"} 
+* [ SFTP ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=nl-NL){target="_blank"} .
 
 
 ## Vereisten {#prerequisites}
 
-Om datasets uit te voeren, hebt u de [ toegangsbeheertoestemmingen ](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"}  hieronder vermeld nodig. Lees het [ overzicht van de toegangscontrole ](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"}  of contacteer uw productbeheerder om de vereiste toestemmingen te verkrijgen.
+Om datasets uit te voeren, hebt u de [ toegangsbeheertoestemmingen ](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=nl-NL#permissions){target="_blank"}  hieronder vermeld nodig. Lees het [ overzicht van de toegangscontrole ](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=nl-NL){target="_blank"}  of contacteer uw productbeheerder om de vereiste toestemmingen te verkrijgen.
 
 | Categorie | Machtiging |
 |--|--|
@@ -53,9 +53,9 @@ De belangrijkste stappen om een dataset naar een plaats van de wolkenopslag uit 
 
 ![](assets/dataset-export-process.png)
 
-De gedetailleerde informatie over elke stap is beschikbaar in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"} .
+De gedetailleerde informatie over elke stap is beschikbaar in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=nl-NL){target="_blank"} .
 
-1. **Opstelling uw bestemming van de wolkenopslag**. Als u dit nog niet hebt gedaan, maakt u verbinding met een bestemming voor cloudopslag vanuit de doelcatalogus. Leer hoe te om een nieuwe bestemmingsverbinding in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"} tot stand te brengen .
+1. **Opstelling uw bestemming van de wolkenopslag**. Als u dit nog niet hebt gedaan, maakt u verbinding met een bestemming voor cloudopslag vanuit de doelcatalogus. Leer hoe te om een nieuwe bestemmingsverbinding in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=nl-NL#setup){target="_blank"} tot stand te brengen .
 
    <!--![](assets/dataset-export-setup.png)-->
 
@@ -79,7 +79,7 @@ De gedetailleerde informatie over elke stap is beschikbaar in [ documentatie van
 
    <!--![](assets/dataset-export-review.png)-->
 
-Zodra het exporteren is voltooid, wordt de inhoud van uw gegevensset op de locatie van uw cloudopslag gedeponeerd volgens het schema dat u hebt geconfigureerd. [ Leer hoe te om succesvolle datasetuitvoer ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify){target="_blank"} te verifiëren .
+Zodra het exporteren is voltooid, wordt de inhoud van uw gegevensset op de locatie van uw cloudopslag gedeponeerd volgens het schema dat u hebt geconfigureerd. [ Leer hoe te om succesvolle datasetuitvoer ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=nl-NL#verify){target="_blank"} te verifiëren .
 
 ## Beschikbare gegevenssets voor exporteren {#datasets}
 

@@ -25,7 +25,7 @@ De Asset-kiezer ondersteunt nu Dynamische media waarmee u goedgekeurde dynamisch
 
 Deze integratie is alleen beschikbaar voor klanten die Dynamic Media Manager as a Cloud Service gebruiken.
 
-Meer over Dynamische Media in Adobe Experience Manager as a Cloud Service leren, verwijs naar [ documentatie van Experience Manager ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"} .
+Meer over Dynamische Media in Adobe Experience Manager as a Cloud Service leren, verwijs naar [ documentatie van Experience Manager ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"} .
 
 ## Dynamische media toevoegen en beheren {#dynamic-media}
 
@@ -47,7 +47,7 @@ Verbeter en optimaliseer uw inhoud voor om het even welk scherm of browser door 
 
 1. Pas de afbeeldingsparameters (bijv. hoogte, breedte, roteren, spiegelen, helderheid, kleurtoon, enz.) naar wens aan de vereisten voor het element aan.
 
-   Voor een uitvoerige lijst van beeldparameters die aan URL kunnen worden toegevoegd, verwijs naar [ documentatie van Experience Manager ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference).
+   Voor een uitvoerige lijst van beeldparameters die aan URL kunnen worden toegevoegd, verwijs naar [ documentatie van Experience Manager ](https://experienceleague.adobe.com/nl/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference).
 
    ![](assets/dynamic-media-3.png)
 
@@ -100,7 +100,7 @@ Uw inhoud bevat nu uw bijgewerkte tekstbedekking.
 
 Voeg uw Dynamic Media-sjabloon eenvoudig toe in Journey Optimizer en werk uw media-inhoud waar nodig bij. U kunt nu aanpassingsvelden opnemen in uw media, zodat u in Journey Optimizer meer aangepaste en aantrekkelijke inhoud kunt maken.
 
-Leer meer over [ Dynamische media malplaatje ](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics).
+Leer meer over [ Dynamische media malplaatje ](https://experienceleague.adobe.com/nl/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics).
 
 ### Met afbeeldingscomponent {#image-component}
 
@@ -120,7 +120,7 @@ U kunt de dynamische sjabloon rechtstreeks in de inhoud invoegen met behulp van 
 
 1. In de **montages van het Beeld**, navigeer om tot de parameters van uw dynamisch media malplaatje toegang te hebben.
 
-   De beschikbare gebieden hangen van de parameters af die tijdens de [ malplaatjeverwezenlijking ](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters) in Adobe Experience Manager worden toegevoegd.
+   De beschikbare gebieden hangen van de parameters af die tijdens de [ malplaatjeverwezenlijking ](https://experienceleague.adobe.com/nl/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters) in Adobe Experience Manager worden toegevoegd.
 
    ![](assets/dynamic-media-template-3.png)
 

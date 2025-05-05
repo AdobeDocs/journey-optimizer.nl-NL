@@ -73,7 +73,7 @@ waarbij:
 
 * **Doelgroep**
 
-  Meer over de segmentatiedienst leren, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} .
+  Meer over de segmentatiedienst leren, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL){target="_blank"} .
 
 * **Aanbiedingen**
 

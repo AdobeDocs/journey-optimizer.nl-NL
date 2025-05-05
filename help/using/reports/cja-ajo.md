@@ -25,7 +25,7 @@ In de volgende sectie wordt beschreven hoe u door Journey Optimizer gegenereerde
 
 Nadat u uw reis in [!DNL Journey Optimizer] hebt gemaakt, kunt u uw klantgegevens importeren naar [!DNL Customer Journey Analytics] om rapporten te starten en inzicht te krijgen in de impact van elke interactie die een klant onderhoudt met uw reizen.
 
-➡️ [ ontdekt Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#manually-configure-a-data-view-to-be-used-with-journey-optimizer){target="_blank"} 
+➡️ [ ontdekt Customer Journey Analytics ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/integrations/ajo#manually-configure-a-data-view-to-be-used-with-journey-optimizer){target="_blank"} 
 
 >[!NOTE]
 >
@@ -35,16 +35,16 @@ Nadat u uw reis in [!DNL Journey Optimizer] hebt gemaakt, kunt u uw klantgegeven
 
 Voordat u [!DNL Customer Journey Analytics] gebruikt voor uw reizen, moet u deze integratie eerst configureren:
 
-1. [ creeer een verbinding ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) in [!DNL Customer Journey Analytics] met **[!UICONTROL Dataset]** u naar Adobe Experience Platform wilt verzenden.
+1. [ creeer een verbinding ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=nl-NL) in [!DNL Customer Journey Analytics] met **[!UICONTROL Dataset]** u naar Adobe Experience Platform wilt verzenden.
 
    De volgende [!DNL Journey Optimizer] kan worden geconfigureerd:
    * [ Gebeurtenis van de Stap van de Reis ](../data/datasets-query-examples.md#journey-step-event): staat u toe om te bekijken wie uw reizen ingaat en hoe ver zij krijgen.
    * [ de Terugkoppeling/het Volgen datasets van het Bericht ](../data/datasets-query-examples.md#message-feedback-event-dataset): staat u toe om leveringsinformatie over uw berichten te bekijken die door [!DNL Journey Optimizer] worden verzonden.
    * [ de datasets van de Entiteit en van de Reis ](../data/datasets-query-examples.md#entity-dataset): staat u toe om vriendschappelijke namen te zoeken en hen in uw rapportering te gebruiken.
 
-1. [ creeer een gegevensmening ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) om de afmetingen en metriek te vormen u voor uw rapport wilt gebruiken.
+1. [ creeer een gegevensmening ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=nl-NL) om de afmetingen en metriek te vormen u voor uw rapport wilt gebruiken.
 
-   U kunt Journey Optimizer-specifieke metriek maken om de gegevens van uw reizen beter weer te geven. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
+   U kunt Journey Optimizer-specifieke metriek maken om de gegevens van uw reizen beter weer te geven. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html?lang=nl-NL#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
 
 Het gebruik van [!DNL Journey Optimizer] met [!DNL Customer Journey Analytics] kan leiden tot enige discrepantie bij het rapporteren van gegevens die worden veroorzaakt door:
 

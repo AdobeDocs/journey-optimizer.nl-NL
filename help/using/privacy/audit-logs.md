@@ -26,13 +26,13 @@ Met Journey Optimizer kunt u acties identificeren die door gebruikers in het sys
 
 Dit staat u toe om de zichtbaarheid van activiteiten te verhogen die in het systeem worden uitgevoerd, kwesties problemen op te lossen, en uw zaken te helpen aan verordeningen en collectief beleid van het gegevensbeheer voldoen.
 
-Elke actie wordt opgenomen met metagegevens in &quot;auditlogs&quot; die toegankelijk zijn in Adobe Experience Platform. Raadpleeg voor meer informatie over auditlogboeken, zoals hoe u deze kunt weergeven en beheren in de gebruikersinterface of de API voor meer informatie [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html).
+Elke actie wordt opgenomen met metagegevens in &quot;auditlogs&quot; die toegankelijk zijn in Adobe Experience Platform. Raadpleeg voor meer informatie over auditlogboeken, zoals hoe u deze kunt weergeven en beheren in de gebruikersinterface of de API voor meer informatie [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=nl-NL).
 
 ![](assets/audit-logs.png)
 
 ## Gebeurtenistypen die zijn vastgelegd in auditlogboeken {#events}
 
-In de volgende tabel wordt aangegeven op welke acties Journey Optimizer-bronnen worden opgenomen in auditlogboeken. De volledige lijst met acties die in de auditlogboeken zijn vastgelegd, is beschikbaar in [Documentatie over de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html#category).
+In de volgende tabel wordt aangegeven op welke acties Journey Optimizer-bronnen worden opgenomen in auditlogboeken. De volledige lijst met acties die in de auditlogboeken zijn vastgelegd, is beschikbaar in [Documentatie over de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=nl-NL#category).
 
 >[!NOTE]
 >

@@ -31,7 +31,7 @@ Bedrijfsevenementen kunnen &quot;een product is weer in voorraad&quot;, &quot;de
 
 >[!NOTE]
 >
->U kunt ook op het geval van het bedrijfsgebeurtenisgebruik [ leerprogramma ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html) letten. Merk op dat het schema niet voor profiel te hoeven worden toegelaten.
+>U kunt ook op het geval van het bedrijfsgebeurtenisgebruik [ leerprogramma ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html?lang=nl-NL) letten. Merk op dat het schema niet voor profiel te hoeven worden toegelaten.
 
 ## Belangrijke opmerkingen {#important-notes}
 
@@ -56,7 +56,7 @@ Zakelijke gebeurtenissen volgen op dezelfde manier als voor eenheidsgebeurteniss
 
 **wat zijn de gidsen om overladende materialized publiek te vermijden?**
 
-In het geval van on-shot bedrijfsgebeurtenissen, voor een bepaalde reis, worden de gegevens die door de eerste gebeurtenisbaan worden geduwd opnieuw gebruikt tijdens een tijdvenster van 1 uur. Voor geregelde reizen is er geen spoor. Leer meer over publiek in de [ documentatie van de Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+In het geval van on-shot bedrijfsgebeurtenissen, voor een bepaalde reis, worden de gegevens die door de eerste gebeurtenisbaan worden geduwd opnieuw gebruikt tijdens een tijdvenster van 1 uur. Voor geregelde reizen is er geen spoor. Leer meer over publiek in de [ documentatie van de Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL).
 
 ## Aan de slag met bedrijfsgebeurtenissen {#gs-business-events}
 

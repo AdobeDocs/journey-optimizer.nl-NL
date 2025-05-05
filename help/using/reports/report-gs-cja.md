@@ -47,11 +47,11 @@ Journey Optimizer-rapportering wordt geleverd met een verbeterde interoperabilit
 
 * Als u **&#x200B;**&#x200B;Customer Journey Analytics bezit en toegang tot een het productprofiel van Customer Journey Analytics hebt, zult u nodig hebben:
 
-   * **[!UICONTROL Audience Creation]** en **[!UICONTROL Audience View]** voor Customer Journey Analytics. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)
+   * **[!UICONTROL Audience Creation]** en **[!UICONTROL Audience View]** voor Customer Journey Analytics. [Meer informatie](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/technotes/access-control)
 
    * **[!UICONTROL Manage profiles]** machtiging voor Adobe Journey Optimizer. [Meer informatie](../administration/permissions.md)
 
-* Uw Customer Journey Analytics gegevensmeningen moeten met het volgende plaatsen worden gevormd: **Reeks als standaardgegevensmening in Adobe Journey Optimizer**. [ leer meer over gegevensmeningen ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
+* Uw Customer Journey Analytics gegevensmeningen moeten met het volgende plaatsen worden gevormd: **Reeks als standaardgegevensmening in Adobe Journey Optimizer**. [ leer meer over gegevensmeningen ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/create-dataview)
 
 ## Hoe kan ik-video{#video}
 

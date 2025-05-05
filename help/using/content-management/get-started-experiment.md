@@ -92,7 +92,7 @@ Als u bijvoorbeeld de inhoud van de berichttekst wijzigt, is het onwaarschijnlij
 +++Voer de test uit op de juiste publieksgrootte of voor lang genoeg
 
 Als je langer tests uitvoert, kun je kleinere verschillen in het doel meten tussen behandelingen. Nochtans, als de basislijnwaarde van uw doel metrisch is, dan zult u grotere steekproefgrootte nodig hebben.
-Het aantal gebruikers dat in uw experiment moet worden omvat hangt van de effect grootte af u wenst te ontdekken, de variantie of de spreiding van uw doel metrisch, evenals uw tolerantie voor vals positieve en vals negatieve fouten. In klassieke Experimenten, kunt u de calculator van de a [ steekproefgrootte ](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) gebruiken {_blank} om te bepalen hoe lang u uw test moet in werking stellen.
+Het aantal gebruikers dat in uw experiment moet worden omvat hangt van de effect grootte af u wenst te ontdekken, de variantie of de spreiding van uw doel metrisch, evenals uw tolerantie voor vals positieve en vals negatieve fouten. In klassieke Experimenten, kunt u de calculator van de a [ steekproefgrootte ](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=nl-NL) gebruiken {_blank} om te bepalen hoe lang u uw test moet in werking stellen.
 +++
 
 +++Statistische onzekerheid begrijpen

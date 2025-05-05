@@ -48,13 +48,13 @@ Een **[!UICONTROL Role]** toewijzen:
 
 1. Typ de naam of het e-mailadres van de gebruiker of selecteer de gebruiker in de lijst en klik op **[!UICONTROL Save]** .
 
-   Als de gebruiker niet eerder in [!DNL Admin Console] werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html) toevoegen.
+   Als de gebruiker niet eerder in [!DNL Admin Console] werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html?lang=nl-NL) toevoegen.
 
    ![](assets/do-not-localize/access_control_4.png)
 
 Uw gebruiker moet dan een e-mail ontvangen die aan uw instantie opnieuw richt.
 
-Voor meer informatie over gebruikersbeheer, verwijs naar de [ documentatie van het Toegangsbeheer ](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html).
+Voor meer informatie over gebruikersbeheer, verwijs naar de [ documentatie van het Toegangsbeheer ](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=nl-NL).
 
 Wanneer u de instantie opent, ziet uw gebruiker een specifieke weergave, afhankelijk van de toegewezen machtigingen in de **[!UICONTROL Role]** . Als de gebruiker niet de juiste toegang tot een eigenschap heeft, zal het volgende bericht verschijnen:
 
@@ -91,7 +91,7 @@ Indien nodig kunt u ook een nieuwe rol maken met specifieke machtigingen. Voor m
 
 Met [!DNL Journey Optimizer] kunt u uw eigen **[!UICONTROL Roles]** maken en een set machtigingen en sandboxen aan uw gebruikers toewijzen. Met **[!UICONTROL Roles]** kunt u toegang tot bepaalde functies of objecten in de interface autoriseren of weigeren.
 
-Voor meer informatie over om zandbakken tot stand te brengen en te beheren, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html){target="_blank"} .
+Voor meer informatie over om zandbakken tot stand te brengen en te beheren, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=nl-NL){target="_blank"} .
 
 In dit voorbeeld, zullen wij een rol tot stand brengen genoemd **Reis read-only** waar wij read-only rechten op de eigenschap van de Reis zullen verlenen. Gebruikers kunnen alleen reizen openen en bekijken en hebben geen toegang tot andere functies, zoals **[!DNL &#x200B; Decision management]** in [!DNL Journey Optimizer] .
 
@@ -125,4 +125,4 @@ Om onze **Reizen read-only** **[!UICONTROL Role]** te creëren:
 
 Uw **[!UICONTROL Role]** wordt nu gecreeerd en gevormd. U moet deze nu aan gebruikers toewijzen.
 
-Voor meer informatie over rolverwezenlijking en beheer, verwijs naar de [ documentatie van Admin Console ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html).
+Voor meer informatie over rolverwezenlijking en beheer, verwijs naar de [ documentatie van Admin Console ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=nl-NL).

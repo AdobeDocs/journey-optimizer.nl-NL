@@ -39,7 +39,7 @@ Als u een client-side implementatie hebt, kunt u een van de AEP client-SDK&#39;s
 
 ### Hoe het werkt - Web SDK {#client-side-how}
 
-1. [ SDK van het Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}  is inbegrepen op de pagina.
+1. [ SDK van het Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL){target="_blank"}  is inbegrepen op de pagina.
 
 1. U moet het `sendEvent` bevel gebruiken en de [ oppervlakte URI ](code-based-surface.md)<!--( or location/path)--> specificeren om verpersoonlijkingsinhoud te halen.
 
@@ -145,7 +145,7 @@ In de onderstaande stappen wordt beschreven hoe u de inhoud die op de rand van d
 ### Werking
 
 1. De webpagina wordt opgevraagd en cookies die eerder zijn opgeslagen door de browser die vooraf is ingesteld op `kndctr_` , worden opgenomen.
-1. Wanneer de pagina van de toepassingsserver wordt gevraagd, wordt een gebeurtenis verzonden naar het [ interactieve eindpunt van de gegevensinzameling ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) om verpersoonlijkingsinhoud te halen. Deze steekproef app maakt gebruik van sommige helpermethodes om het bouwen en het verzenden van verzoeken naar API (zie [ aepEdgeClient.js ](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"} te vereenvoudigen ). Maar de aanvraag is gewoon een `POST` met een payload die een gebeurtenis en query bevat. De cookies (indien beschikbaar) uit de voorgaande stap worden opgenomen in de aanvraag in de array `meta>state>entries` .
+1. Wanneer de pagina van de toepassingsserver wordt gevraagd, wordt een gebeurtenis verzonden naar het [ interactieve eindpunt van de gegevensinzameling ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=nl-NL) om verpersoonlijkingsinhoud te halen. Deze steekproef app maakt gebruik van sommige helpermethodes om het bouwen en het verzenden van verzoeken naar API (zie [ aepEdgeClient.js ](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"} te vereenvoudigen ). Maar de aanvraag is gewoon een `POST` met een payload die een gebeurtenis en query bevat. De cookies (indien beschikbaar) uit de voorgaande stap worden opgenomen in de aanvraag in de array `meta>state>entries` .
 
    ```javascript
    fetch(
@@ -306,4 +306,4 @@ Aanvragen aan de Adobe Experience Platform API zijn vereist om voorstellen te on
 Als u een hybride implementatie hebt, checkt u de onderstaande koppelingen uit.
 
 * Tech Blog van de Adobe: [ Hybride Personalization in het Web SDK van Adobe Experience Platform ](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"} 
-* De Documentatie van SDK: [ Hybride verpersoonlijking die Web SDK en de Server API van de Edge Network gebruiken ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"} 
+* De Documentatie van SDK: [ Hybride verpersoonlijking die Web SDK en de Server API van de Edge Network gebruiken ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=nl-NL){target="_blank"} 

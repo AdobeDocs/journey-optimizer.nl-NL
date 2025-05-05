@@ -72,7 +72,7 @@ Hier volgt het aankoopschema met de relatie die is gedefinieerd in het veld prod
 
 >[!NOTE]
 >
->Leer meer over schemaverhoudingen in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
+>Leer meer over schemaverhoudingen in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=nl-NL).
 
 In Journey Optimizer kunt u vervolgens alle velden uit de gekoppelde tabellen benutten:
 
