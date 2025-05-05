@@ -62,4 +62,4 @@ Leer hoe te om, auteur, en gebruik **visuele fragmenten** in [!DNL Journey Optim
 
 Leer hoe te om, auteur, en gebruiks **uitdrukkingsfragmenten** in [!DNL Journey Optimizer] te beheren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3438923/?quality=12&captions=dut)
