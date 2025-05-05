@@ -306,7 +306,7 @@ Als u verscheidene [ vertegenwoordigingen ](add-representations.md) voor uw aanb
 
 U moet voorzichtig te werk gaan wanneer u de datum van een aanbieding wijzigt, omdat dit van invloed kan zijn op de aftopping als aan de volgende voorwaarden wordt voldaan:
 
-* De aanbieding wordt goedgekeurd [ ](#review).
+* De aanbieding wordt goedgekeurd [&#128279;](#review).
 * [ Aftappen ](#capping) wordt reeds toegepast op de aanbieding.
 * Afdekkingen worden gedefinieerd per profiel.
 

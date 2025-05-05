@@ -103,7 +103,7 @@ Om uw IP warmup plan tot stand te brengen, vul het eerste lusje met de gegevens 
 * U kunt tot 6 kolommen (4 kolommen voor domeingroepen, voor **hebben anderen** kolom en voor **Dagen van de Betrokkenheid** kolom). In dit voorbeeld bestaat het plan uit zes kolommen:
 
    * Drie waarvan aan **uit-van-de-doos domeingroepen** aan gebruik in uw plan (Gmail, Yahoo, en Microsoft) beantwoorden. De uit-van-de-doos domeingroepen zijn allen vermeld in de [ groepen van het Domein OTB ](#ootb-domain-groups-tab) tabel.
-   * Één kolom beantwoordt aan een groep van het douanedomein (die u het gebruiken van de ](#custom-domain-group-tab) tabel van de Groep van het Domein 0} moet toevoegen).[
+   * Één kolom beantwoordt aan een groep van het douanedomein (die u het gebruiken van de [&#128279;](#custom-domain-group-tab) tabel van de Groep van het Domein 0&rbrace; moet toevoegen).
    * De vijfde kolom, **anderen**, bevat alle resterende adressen van andere domeinen die niet uitdrukkelijk in het plan worden behandeld. Deze kolom is optioneel: als deze wordt weggelaten, gaan e-mails alleen naar de opgegeven domeinen.
    * De laatste kolom, **Dagen van de Betrokkenheid**, staat u toe om het aantal dagen te specificeren waarover de overeenkomst zou moeten worden gevolgd of worden beoordeeld.
 
@@ -208,7 +208,7 @@ Domeinen buiten Hotmail en van de domeingroep Microsoft worden verzameld in de k
 
 1. Voeg alle Hotmail-domeinen op dezelfde rij toe.
 
-   U kunt ](#copy-paste) kopiëren en kleven alle Hotmail domeinen die in de [ worden vermeld OTB het lusje van Groepen van het Domein ](#ootb-domain-groups-tab) sectie.[
+   U kunt [&#128279;](#copy-paste) kopiëren en kleven alle Hotmail domeinen die in de [ worden vermeld OTB het lusje van Groepen van het Domein ](#ootb-domain-groups-tab) sectie.
 
 1. Voeg nog een rij toe.
 
