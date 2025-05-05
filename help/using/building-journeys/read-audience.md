@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: activiteit, reis, lezen, publiek, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 3da510cffe6fddc644c867fe8d89da9d9c5861d1
 workflow-type: tm+mt
 source-wordcount: '2141'
 ht-degree: 0%
@@ -24,41 +24,6 @@ ht-degree: 0%
 >id="ajo_journey_read_segment"
 >title="Activiteit publiek lezen"
 >abstract="Met de activiteit &#39;Lezen publiek&#39; kunt u alle personen die tot een Adobe Experience Platform-publiek behoren een reis laten maken. Het betreden van een reis kan één keer of op regelmatige basis plaatsvinden."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_start_date"
->title="Begindatum/-tijd"
->abstract="Bepaal de datum en de tijd u deze reis wilt teweegbrengen."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_repeat_until"
->title="Herhalen tot"
->abstract="Geef de einddatum van de herhaling op."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_repeat_every"
->title="Elke herhaling"
->abstract="Bepaal een frequentie van terugkomende planner."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_incremental_read"
->title="Incrementeel lezen"
->abstract="Alleen nieuwe profielen die sinds de laatste lezing zijn gelezen, mogen de reis betreden."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_force_reentrance"
->title="Ingang forceren"
->abstract="Zet alle deelnemers voor de reis neer voordat elk publiek leest."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_synchronize_audience"
->title="Trigger na batchpublieksevaluatie"
->abstract="Schakel deze optie in om de uitvoering van de reis te starten na een nieuwe evaluatie van het batchpubliek."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
->title="Wacht op tijd voor nieuwe publieksevaluatie"
->abstract="Geef de tijdsduur op gedurende welke de rit moet wachten tot het batchpubliek opnieuw wordt geëvalueerd. De wachttijd is beperkt tot gehele getallen, kan in minuten of uren worden opgegeven en moet tussen 1 en 6 uur liggen."
 
 Gebruik de **Gelezen activiteit van het Publiek** om alle individuen van een publiek te maken de reis ingaan. Het betreden van een reis kan één keer of op regelmatige basis plaatsvinden.
 
@@ -131,6 +96,41 @@ Deze waarde wordt opgeslagen in de lading van de reisversie. De standaardwaarde 
 >De algemene leessnelheid per sandbox is ingesteld op 20.000 profielen per seconde. De leessnelheid van alle leessoorten die tegelijkertijd in dezelfde sandbox worden uitgevoerd, kan daarom maximaal 20.000 profielen per seconde bedragen. U kunt dit uiteinde niet wijzigen.
 
 ### Reizen plannen {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_start_date"
+>title="Begindatum/-tijd"
+>abstract="Bepaal de datum en de tijd u deze reis wilt teweegbrengen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_until"
+>title="Herhalen tot"
+>abstract="Geef de einddatum van de herhaling op."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_every"
+>title="Elke herhaling"
+>abstract="Bepaal een frequentie van terugkomende planner."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_incremental_read"
+>title="Incrementeel lezen"
+>abstract="Alleen nieuwe profielen die sinds de laatste lezing zijn gelezen, mogen de reis betreden."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_force_reentrance"
+>title="Ingang forceren"
+>abstract="Zet alle deelnemers voor de reis neer voordat elk publiek leest."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience"
+>title="Trigger na batchpublieksevaluatie"
+>abstract="Schakel deze optie in om de uitvoering van de reis te starten na een nieuwe evaluatie van het batchpubliek."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
+>title="Wacht op tijd voor nieuwe publieksevaluatie"
+>abstract="Geef de tijdsduur op gedurende welke de rit moet wachten tot het batchpubliek opnieuw wordt geëvalueerd. De wachttijd is beperkt tot gehele getallen, kan in minuten of uren worden opgegeven en moet tussen 1 en 6 uur liggen."
 
 Door gebrek, wordt de reis gevormd om eens te lopen. Om een specifieke datum/tijd en frequentie te bepalen waarop de reis zou moeten lopen, volg de hieronder stappen.
 
