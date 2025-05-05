@@ -72,8 +72,8 @@ In de onderstaande tabellen staan enkele voorbeelden van de oppervlakte-URI-defi
 
 In [!DNL Journey Optimizer], steunt het op code-gebaseerde ervaringskanaal twee types van klantenimplementaties:
 
-* Gebaseerd op het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html) {target="_blank"} voor uw websites, of op [ Adobe Experience Platform Mobiele SDK ](https://developer.adobe.com/client-sdks/documentation/) {target="_blank"} voor u mobiele apps;
-* Server-kant of hybride gebruikend [ de Server APIs van AEP Edge Network ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) {target="_blank"}.
+* Gebaseerd op [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"} voor uw websites, of op [ Mobiele SDK van Adobe Experience Platform ](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} voor u mobiele apps;
+* Server-kant of hybride gebruikend [ de Server APIs van AEP Edge Network ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"}.
 
 >[!NOTE]
 >

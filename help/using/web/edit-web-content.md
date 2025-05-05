@@ -61,7 +61,7 @@ Volg onderstaande stappen om uw webervaring te ontwerpen.
 
    >[!CAUTION]
    >
-   >De Web-pagina moet ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html) {target="_blank"} omvatten het Web SDK van 0} Adobe Experience Platform. [ [Meer informatie](web-prerequisites.md#implementation-prerequisites)
+   >De Web-pagina moet [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"} omvatten. [Meer informatie](web-prerequisites.md#implementation-prerequisites)
 
 1. Klik op **[!UICONTROL Edit web page]** om te beginnen met ontwerpen. De webontwerper wordt weergegeven.
 

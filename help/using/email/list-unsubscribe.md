@@ -43,7 +43,7 @@ Afhankelijk van de e-mailclient en de instellingen voor het opheffen van abonnem
 >
 >Leer hoe te om de unsubscription montages in [ te beheren deze sectie ](#enable-list-unsubscribe) hieronder.
 
-In beide gevallen, wanneer een ontvanger de opt-out verbinding klikt, wordt hun afmeldingsverzoek dienovereenkomstig verwerkt. Het overeenkomstige profiel wordt onmiddellijk uit geopteerd en deze keus wordt bijgewerkt in [ Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started) {target="_blank"}.
+In beide gevallen, wanneer een ontvanger de opt-out verbinding klikt, wordt hun afmeldingsverzoek dienovereenkomstig verwerkt. Het overeenkomstige profiel wordt onmiddellijk verkozen uit en deze keus wordt bijgewerkt in [ Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}.
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ De functies **[!UICONTROL Mailto (unsubscribe)]** en **[!UICONTROL One-click uns
   >
   >Leer meer over het beheren van unsubscribe mogelijkheden binnen uw berichten in [ deze sectie ](../email/email-opt-out.md#unsubscribe-header).
 
-In [!DNL Journey Optimizer], wordt de toestemming behandeld door het schema van de 1} Toestemming van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html) {target="_blank"}. [ Standaard is de waarde voor het veld voor toestemming leeg en wordt deze behandeld als toestemming voor het ontvangen van uw communicatie. U kunt deze standaardwaarde wijzigen terwijl het aan een van de mogelijke hier vermelde waarden [ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values) {target="_blank"}, of gebruik [ toestemmingsbeleid ](../action/consent.md) om de standaardlogica met voeten te treden.
+In [!DNL Journey Optimizer], wordt de toestemming behandeld door het schema van de Experience Platform [ Toestemming ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"}. Standaard is de waarde voor het veld voor toestemming leeg en wordt deze behandeld als toestemming voor het ontvangen van uw communicatie. U kunt deze standaardwaarde wijzigen terwijl het aan een van de mogelijke hier vermelde waarden [ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target="_blank"}, of gebruik [ toestemmingsbeleid ](../action/consent.md) om de standaardlogica met voeten te treden.
 
 Momenteel voegt [!DNL Journey Optimizer] geen specifieke tag toe aan afmeldingsgebeurtenissen die worden geactiveerd door de functie voor afmelden van lijst. Als u List moet onderscheiden wanneer u klikt op een abonnement op een andere actie voor annuleren, moet u aangepaste tags extern implementeren of een externe bestemmingspagina gebruiken voor tracering.
 
@@ -123,7 +123,7 @@ De **[!UICONTROL One-click Unsubscribe URL]** moet POST URL zijn.
 
 Als de optie **[!UICONTROL Customer managed]** is geselecteerd en u aangepaste eindpunten invoert en deze gebruikt in een campagne of reis, voegt [!DNL Journey Optimizer] enkele specifieke parameters voor het standaardprofiel toe aan de gebeurtenis voor het bijwerken van de toestemming <!--sent to the custom endpoint --> wanneer de ontvangers op de koppeling voor het opzeggen klikken.
 
-Deze parameters worden verzonden naar het eindpunt op een gecodeerde manier. Aldus, moet het externe toestemmingssysteem specifieke API door [ Adobe Developer ](https://developer.adobe.com) uitvoeren {target="_blank"} om de parameters te decrypteren die door Adobe worden verzonden.
+Deze parameters worden verzonden naar het eindpunt op een gecodeerde manier. Aldus, moet het externe toestemmingssysteem specifieke API door [ Adobe Developer ](https://developer.adobe.com){target="_blank"} uitvoeren om de parameters te decrypteren die door Adobe worden verzonden.
 
 De GET-aanroep om deze parameters op te halen is afhankelijk van de optie voor het opzeggen van het abonnement op de lijst die u gebruikt - **[!UICONTROL One-click unsubscribe URL]** of **[!UICONTROL Mailto (unsubscribe)]** .
 

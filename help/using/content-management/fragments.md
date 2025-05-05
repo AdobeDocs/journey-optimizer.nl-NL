@@ -31,12 +31,12 @@ Een fragment is een herbruikbare component waarnaar in een of meer e-mails via [
 
 U kunt zo veel mogelijk gebruikmaken van fragmenten:
 
-* **creeer uw eigen fragmenten**: Creeer visuele of uitdrukkingsfragmenten, of van kras of door inhoud als fragment op te slaan. [ Leer hoe te om een fragment ](#create-fragments) tot stand te brengen. Bovendien kunt u hefboomwerking Journey Optimizer **Inhoud REST API** gebruiken om inhoudsfragmenten te beheren. Voor meer op dit, verwijs naar de [ documentatie van Journey Optimizer APIs ](https://developer.adobe.com/journey-optimizer-apis/references/content/) {target="_blank"}.
+* **creeer uw eigen fragmenten**: Creeer visuele of uitdrukkingsfragmenten, of van kras of door inhoud als fragment op te slaan. [ Leer hoe te om een fragment ](#create-fragments) tot stand te brengen. Bovendien kunt u hefboomwerking Journey Optimizer **Inhoud REST API** gebruiken om inhoudsfragmenten te beheren. Voor meer op dit, verwijs naar de [ documentatie van Journey Optimizer APIs ](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 * **hergebruik uw fragmenten:** gebruik hen zo vele tijden zoals nodig in uw inhoud. Zie [ visuele fragmenten ](../email/use-visual-fragments.md) en [ de uitdrukkingsfragmenten van de Leverage ](../personalization/use-expression-fragments.md) toevoegen
 
 ## Voordat u begint {#fragment-prerequisites}
 
-Om, fragmenten tot stand te brengen uit te geven, te archiveren en te publiceren hebt u de **[!DNL Manage library items]** en **[2} toestemmingen van het Fragment van Publish inbegrepen in het **[!DNL Content Library Manager]**productprofiel nodig.]** [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager)
+Om, fragmenten tot stand te brengen uit te geven, te archiveren en te publiceren hebt u de **[!DNL Manage library items]** nodig en **[publiceer de toestemmingen van het Fragment]** inbegrepen in het **[!DNL Content Library Manager]** productprofiel. [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager)
 
 In deze versie gelden de volgende beperkingen:
 

@@ -1,6 +1,6 @@
 ---
 title: Toepassingen van één pagina maken
-description: Leer hoe u SPA ontwerpt en wijzigingen toepast op verschillende weergaven in Journey Optimizer
+description: Leer hoe te om SPAs te schrijven en wijzigingen op verschillende meningen in Journey Optimizer toe te passen
 feature: Web Channel
 topic: Content Management
 role: User
@@ -9,7 +9,7 @@ exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
 source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -23,23 +23,23 @@ ht-degree: 1%
 >abstract="De wijzigingen worden alleen toegepast op geselecteerde weergaven. De meningen kunnen worden ontdekt gebruikend **doorbladeren** wijze en aan hen navigeren. Kan de weergave waarnaar u zoekt niet vinden?"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Meer informatie"
 
-**Enige-paginatoepassingen** (SPA) kunnen nu in de visuele redacteur van de Webontwerper worden ontworpen. Dit staat u toe om te selecteren welke specifieke **meningen** u uw Webpagina wijzigingen op wilt toepassen.
+**Enige-pagina toepassingen** (SPAs) kan nu in de visuele redacteur van de Webontwerper worden ontworpen. Dit staat u toe om te selecteren welke specifieke **meningen** u uw Webpagina wijzigingen op wilt toepassen.
 
 [In deze video leert u hoe u toepassingen van één pagina ontwerpt](#video)
 
 Een weergave kan worden gedefinieerd als een hele site of een groep visuele elementen op een site, zoals de startpagina, de hele productsite of het voorkeurenframe voor levering op alle afrekenpagina&#39;s.
 
-Eenmalige ontwikkelaarsopstelling is nodig om de meningen in de implementatie van SDK van het Web van Adobe Experience Platform te bepalen. Op deze manier kunt u Adobe Journey Optimizer-webcampagnes maken en uitvoeren op SPA.
+Eenmalige ontwikkelaarsopstelling is nodig om de meningen in de implementatie van Adobe Experience Platform Web SDK te bepalen. Dit laat u toe om het Webcampagnes van Adobe Journey Optimizer op SPAs tot stand te brengen en in werking te stellen.
 
-## Bepaal meningen in de implementatie van SDK van het Web {#define-views}
+## Weergaven definiëren in de Web SDK-implementatie {#define-views}
 
-XDM-weergaven kunnen worden gebruikt in Adobe [!DNL Journey Optimizer] om marketers in staat te stellen webpersonalisatie- en experimentatiecampagnes uit te voeren op SPA via de visuele webeditor. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html) {target="_blank"}
+XDM-weergaven kunnen worden gebruikt in Adobe [!DNL Journey Optimizer] om marketers de mogelijkheid te bieden webpersonalisatie- en experimentatiecampagnes op SPA&#39;s uit te voeren via de visuele webeditor. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 
-Om tot meningen in het [!DNL Journey Optimizer] gebruikersinterface toegang te hebben en te schrijven, zorg ervoor u de stappen volgt die in [ worden vermeld deze sectie ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views) {target="_blank"}.
+Om tot meningen in het [!DNL Journey Optimizer] gebruikersinterface toegang te hebben en te schrijven, zorg ervoor u de stappen volgt die in [ worden vermeld deze sectie ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
 
 ## Weergaven detecteren in de webontwerper {#discover-views}
 
-Zodra SPA opstelling in de implementatie van SDK van het Web van Adobe Experience Platform wordt gedaan, moet u door alle meningen van uw website navigeren die u wijzigingen op wilt toepassen. Voer de onderstaande stappen uit.
+Zodra de opstelling van SPAs in de implementatie van SDK van het Web van Adobe Experience Platform wordt gedaan, moet u door alle meningen van uw website navigeren die u wijzigingen wilt toepassen op. Voer de onderstaande stappen uit.
 
 1. [ creeer een Webreis of een campagne ](create-web.md) en heb toegang tot [ Webontwerper ](web-visual-editor.md).
 
@@ -85,7 +85,7 @@ Nadat u een wijziging hebt toegevoegd terwijl u zich in een bepaalde weergave be
 
 In deze video wordt uitgelegd hoe u:
 
-* SPA weergaven detecteren met de modus **[!UICONTROL Browse]**
+* SPA-weergaven detecteren met de modus **[!UICONTROL Browse]**
 * Ontwerpbewerkingen uitvoeren op de huidige weergave
 * websitewijzigingen toepassen op meerdere weergaven of op alle weergaven die zijn ontdekt
 * Handelingen bulksgewijs uitvoeren op wijzigingen
