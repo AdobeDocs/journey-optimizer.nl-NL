@@ -51,4 +51,4 @@ Wanneer u een reis stopt, wordt deze permanent stopgezet: alle mensen die op de 
 
 Leer hoe u een reis publiceert in deze video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427938?quality=12&captions=dut)

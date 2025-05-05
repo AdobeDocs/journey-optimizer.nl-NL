@@ -78,4 +78,4 @@ U kunt de inhoud voorvertonen en testen met:
 
 Leer hoe u testprofielen kunt gebruiken om het renderen van e-mail in verschillende vakken te testen, een voorbeeld van uw persoonlijke e-mails te bekijken op basis van testprofielen en proefdrukken te verzenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430341?quality=12&captions=dut)

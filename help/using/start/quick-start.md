@@ -41,4 +41,4 @@ Als u de kracht van Adobe Journey Optimizer wilt leren kennen en ontdekken met s
 
 Inzicht in de belangrijkste mogelijkheden en persona&#39;s van Journey Optimizer. Leer hoe u door de gebruikersinterface kunt navigeren afhankelijk van uw rol.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430315?quality=12&captions=dut)

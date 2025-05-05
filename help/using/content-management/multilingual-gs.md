@@ -100,4 +100,4 @@ Voor de meertalige inhoud moeten de volgende instellingen worden gedefinieerd:
 
 Leer hoe u inhoud maakt in meerdere talen binnen één campagne of reis.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430921/)
+>[!VIDEO](https://video.tv.adobe.com/v/3452119?captions=dut)
