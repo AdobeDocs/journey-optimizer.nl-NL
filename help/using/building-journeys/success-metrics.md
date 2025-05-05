@@ -2,32 +2,31 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: De reis publiceren
-description: Leer hoe u op uw gekozen metrisch traject rapporteert
+description: Meer informatie over de maatstaven van je reis
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: publiceren, reizen, live, geldigheid, controle
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: d28341dd39ec3ab838a5fbb3ae49539b8776c60b
+source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '481'
 ht-degree: 1%
 
 ---
 
-# Vorm en spoor uw reis metrisch {#success-metrics}
+# Vorm en spoor uw reismetriek {#success-metrics}
 
-Met reismetriek, kunt u effectief het effect van uw activiteiten meten door hun prestaties tegen vooraf bepaalde metriek te volgen.
-Door deze metriek te volgen, kunt u zien hoe goed uw reis presteert, gebieden voor verbetering identificeren, en geïnformeerde besluiten nemen om klantenbetrokkenheid te verbeteren.
+Verbeter duidelijk zicht in de doeltreffendheid van uw klantenreizen met reismetriek. Met deze functie kunt u de prestaties bijhouden op basis van gedefinieerde PKI&#39;s, inzichten in wat werkt ontdekken en gebieden identificeren voor optimalisatie. Door impact in real time te meten, kunt u voortdurende verbetering drijven en gegeven-bewuste besluiten nemen die klantenbetrokkenheid verhogen.
 
 ## Vereisten {#prerequisites}
 
-Alvorens uw reis metrisch te gebruiken, moet u een dataset toevoegen die `Commerce Details`, `Web` en `Mobile` [ gebiedsgroepen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group) {target="_blank"} omvat.
+Alvorens uw reismetriek te gebruiken, moet u een dataset toevoegen die `Commerce Details`, `Web`, en `Mobile` [ gebiedsgroepen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"} omvat.
 
 ## Beschikbare cijfers {#metrics}
 
-De lijst van metriek varieert afhankelijk van de [ gebiedsgroepen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group) {target="_blank"} inbegrepen aan uw dataset.
+De lijst van metriek varieert afhankelijk van de [ gebiedsgroepen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"} inbegrepen aan uw dataset.
 
 Als uw dataset niet wordt gevormd, slechts zullen de volgende metriek beschikbaar zijn: **[!UICONTROL Click]**, **[!UICONTROL Unique Click]**, **[!UICONTROL Clickthrough Rate]** en **[!UICONTROL Open Rate]**.
 
@@ -70,9 +69,9 @@ Elke metrisch komt met een vastgestelde attributie die bepaalt welke aanraakpunt
 
   Leer meer over [ modellen van de Attributie ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
 
-## Uw metrische gegevens voor reizen toewijzen {#assign}
+## Uw reismetriek toewijzen {#assign}
 
-Volg de onderstaande stappen om uw metrische gegevens over de reis te volgen:
+Volg de onderstaande stappen om de gegevens van uw reis te volgen:
 
 1. Klik in het menu **[!UICONTROL Journeys]** op **[!UICONTROL Create Journey]** .
 
@@ -90,8 +89,8 @@ Volg de onderstaande stappen om uw metrische gegevens over de reis te volgen:
 
 1. Test en publiceer uw reis.
 
-1. Open uw reisrapport om de prestaties van uw toegewezen succes metrisch te volgen.
+1. Open uw reisrapport om de prestaties van uw toegewezen succesmetriek te volgen.
 
-   Uw gekozen metrisch wordt getoond in de lijst van KPIs en van de Stats van de Reis van het rapport.
+   Uw gekozen metriek worden getoond in de lijst van KPIs en van de Stats van de Reis van het rapport.
 
    ![](assets/success_metric_2.png)

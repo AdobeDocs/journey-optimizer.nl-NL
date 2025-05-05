@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, configuratie, eigenschappen
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
-source-wordcount: '2325'
+source-wordcount: '2375'
 ht-degree: 0%
 
 ---
@@ -27,17 +27,20 @@ ht-degree: 0%
 
 De eigenschappen van een reis zijn gecentraliseerd in het rechterspoor. Deze sectie wordt standaard weergegeven wanneer u een nieuwe reis maakt. Voor bestaande reizen klikt u op het potloodpictogram naast de naam van de reis om deze te openen.
 
-In deze sectie kunt u de naam van de rit definiëren, een beschrijving toevoegen en:
+Definieer in deze sectie de naam van de reis, voeg een beschrijving toe en stel de globale eigenschappen van de reis in.
 
-* beheer [ ingang en ingang ](#entrance),
-* kies begin en eind [ data ](#dates),
-* beheer [ toegang tot gegevens ](#manage-access),
-* bepaal a [ onderbrekingsduur ](#timeout) in reisactiviteiten (voor slechts gebruikers Admin),
-* selecteer de reis en profiel [ tijdzones ](#timezone)
+U kunt:
+
 * Wijs Adobe Experience Platform Verenigde Markeringen aan uw reis toe, om hen gemakkelijk te classificeren en onderzoek van de campagnemelijst te verbeteren. [ leer hoe te met markeringen ](../start/search-filter-categorize.md#tags) werken
-* controleert conflicten en geeft voorrang aan uw reizen gebruikend [ hulpmiddelen van het conflictenbeheer ](#conflict).
+* Selecteer uw reismetriek. [ leer hoe te om uw reismetriek te vormen en te volgen ](success-metrics.md)
+* Beheer [ ingang en ingang ](#entrance). Profielbeheer is afhankelijk van het soort reis. De details zijn beschikbaar op [ deze pagina ](entry-management.md)
+* Beheer [ toegang tot gegevens ](#manage-access)
+* Selecteer de reis en profiel [ tijdzones ](#timezone)
+* Kies douane [ begin en einddata ](#dates)
+* Bepaal a [ onderbrekingsduur ](#timeout) in reisactiviteiten (voor slechts Admin gebruikers)
+* De conflicten van de monitor en geven voorrang aan uw reizen gebruikend [ hulpmiddelen van het conflictenbeheer ](#conflict)
 
-![](assets/journey32.png)
+![](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
 
 >[!NOTE]
 >
@@ -75,46 +78,46 @@ Wanneer **toe staat terugkeer** optie wordt geactiveerd, **de ingang wacht perio
 
 ## Toegang beheren {#manage-access}
 
-Klik op de knop **[!UICONTROL Manage access]** als u aangepaste of basislabels voor gegevensgebruik aan de reis wilt toewijzen. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md)
+U kunt de toegang tot een reis beperken die op toegangslabels wordt gebaseerd.
 
-![](assets/journeys-manage-access.png)
+Klik op het pictogram **[!UICONTROL Manage access labels]** en selecteer een of meerdere labels om aangepaste labels voor gegevensgebruik toe te wijzen aan de rit.
+
+[Meer informatie over het Toegangsbeheer op objectniveau (OLAC)](../administration/object-based-access.md)
 
 ## Tijdzones voor reizen en profielen {#timezone}
 
 De tijdzone wordt gedefinieerd op het niveau van de reis. U kunt een vaste tijdzone invoeren of Adobe Experience Platform-profielen gebruiken om de tijdzone van de reis te definiëren. Als een tijdzone in Adobe Experience Platform-profiel is gedefinieerd, kan deze tijdens de reis worden opgehaald.
 
-Voor meer informatie over timezone beheer, zie [ deze pagina ](../building-journeys/timezone-management.md).
+[Meer informatie over tijdzonebeheer](../building-journeys/timezone-management.md)
 
 ## Begin- en einddatum {#dates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Begindatum"
->abstract="Kies de datum waarop de reis kan beginnen. Als er geen begindatum is opgegeven, wordt deze automatisch ingesteld op het moment van publicatie."
-
+>abstract="Selecteer de datum waarop de profielen kunnen beginnen de reis in te gaan. Als er geen begindatum is vastgesteld, wordt deze standaard ingesteld op de publicatiedatum van de reis."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="Einddatum"
->abstract="Kies de einddatum van uw reis. Wanneer die datum is bereikt, kunnen profielen op die reis deze automatisch verlaten en kunnen nieuwe niet meer het ingaan."
+>abstract="Stel de datum in waarop de reis eindigt. Op deze datum wordt de reis automatisch verlaten door actieve profielen, en geen nieuwe ingangen zullen worden toegestaan."
 
-U kunt de datum van het a **Begin** bepalen. Als u er geen hebt opgegeven, wordt deze automatisch gedefinieerd op het moment van publicatie.
+Door gebrek, kunnen de profielen uw reis ingaan zodra het wordt gepubliceerd, en kunnen blijven tot de [ globale reisonderbreking ](#global_timeout) wordt bereikt. De enige uitzondering is terugkerende lees publiekstrajecten met **geactiveerde ingang van de Kracht op herhaling**, die op de begindatum van het volgende voorkomen beëindigen.
 
-U kunt ook een **datum van het Eind** toevoegen. Hiermee kunnen profielen automatisch worden afgesloten wanneer de datum wordt bereikt. Als geen einddatum wordt gespecificeerd, kunnen de profielen blijven tot de [ globale reisonderbreking ](#global_timeout) (die over het algemeen 91 dagen is). De enige uitzondering is terugkerende lees publiekstrajecten met **geactiveerde ingang van de Kracht op herhaling**, die op de begindatum van het volgende voorkomen beëindigen.
+Indien nodig, kunt u de datum van het douane **Begin** en **Eind** bepalen. Hiermee kunnen profielen op een bepaalde datum uw reis betreden en automatisch afsluiten wanneer de einddatum is bereikt.
 
 ## Time-out {#timeout}
 
-### Time-out of fout bij reisactiviteiten {#timeout_and_error}
+### Tijdslimiet voor reisactiviteiten {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_timeout"
->title="Time-out"
->abstract="Bepaal hoeveel tijd de reis zal proberen om een actie uit te voeren of een voorwaarde te verifiëren alvorens het als onderbreking te beschouwen."
-
+>title="Time-out of fout"
+>abstract="Geef aan hoe lang de reis moet proberen een handeling uit te voeren of een voorwaarde te evalueren voordat deze wordt behandeld als een time-out. De aanbevolen waarden liggen tussen 1 en 30 seconden."
 
 Wanneer u een actie of voorwaardenactiviteit bewerkt, kunt u een alternatief pad definiëren in het geval van een fout of time-out. Als de verwerking van de activiteit die een derdesysteem ondervraagt de onderbrekingsduur overschrijdt die in **[!UICONTROL Timeout or error]** wordt bepaald van het gebied van de reis eigenschappen, zal de tweede weg worden gekozen om een potentiële reserveactie uit te voeren.
 
-Toegestane waarden liggen tussen 1 en 30 seconden.
+De aanbevolen waarden liggen tussen 1 en 30 seconden.
 
 We raden u aan een zeer korte **[!UICONTROL Timeout or error]** -waarde te definiëren als uw reis tijdgevoelig is (bijvoorbeeld: reageren op de locatie in real-time van een persoon), omdat u de handeling niet langer dan een paar seconden kunt uitstellen. Als uw reis minder tijdgevoelig is, kunt u een langere waarde gebruiken om meer tijd aan het geroepen systeem te geven om een geldige reactie te verzenden.
 
