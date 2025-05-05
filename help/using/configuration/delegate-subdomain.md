@@ -22,7 +22,7 @@ ht-degree: 5%
 >id="ajo_admin_subdomainname"
 >title="Subdomeindelegatie"
 >abstract="Met Journey Optimizer kunt u uw subdomeinen delegeren aan Adobe. U kunt een subdomein volledig delegeren aan Adobe, wat de geadviseerde methode is. U kunt ook een subdomein creëren gebruikend CNAMEs om aan Adobe-specifieke verslagen te richten, maar deze benadering vereist u om DNS verslagen op uw te handhaven en te beheren."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="Methoden voor subdomeinconfiguratie"
+>additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="Methoden voor subdomeinconfiguratie"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname_header"
@@ -51,7 +51,7 @@ Subdomeinconfiguratie is **gemeenschappelijk aan alle milieu&#39;s**. Daarom hee
 >id="ajo_admin_subdomain_dns"
 >title="De overeenkomende DNS-records genereren"
 >abstract="Als u een nieuw subdomein volledig wilt delegeren aan Adobe, moet u de Adobe-gegevens van de nameserver die in de Journey Optimizer-interface worden weergegeven kopiëren en plakken in uw domein-ontvangende oplossing om de overeenkomende DNS-records te genereren. Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, moet u ook de SSL CDN URL-validatierecord kopiëren en plakken. Zodra de controles succesvol zijn, is subdomain klaar om worden gebruikt om berichten te leveren."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain#cname-subdomain-delegation" text="CNAME-subdomeindelegatie"
+>additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain#cname-subdomain-delegation" text="CNAME-subdomeindelegatie"
 
 Met [!DNL Journey Optimizer] kunt u de subdomeinen volledig delegeren naar Adobe, rechtstreeks vanuit de productinterface. Door dit te doen, zal Adobe berichten als beheerde dienst kunnen leveren door alle aspecten van DNS te controleren en te handhaven die voor het leveren, het teruggeven en het volgen van e-mailcampagnes worden vereist.
 
