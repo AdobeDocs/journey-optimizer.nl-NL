@@ -53,7 +53,7 @@ Leer meer over toestemmingen in [ deze sectie ](../administration/permissions.md
 
 Gebruik labels om toegang tot gebruikers te bieden en om het beleid voor gegevensbeheer en toestemming af te dwingen. Deze bestuurslabels kunnen downstreamconsumptie beïnvloeden.
 
-U kunt labels maken in het [!DNL Permissions] -product. Raadpleeg [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html){target="_blank"} voor meer informatie.
+U kunt labels maken in het [!DNL Permissions] -product. Raadpleeg [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html?lang=nl-NL){target="_blank"} voor meer informatie.
 
 U kunt **[!UICONTROL Labels]** ook rechtstreeks in Journey Optimizer maken. Voer de volgende stappen uit om een label te maken:
 
@@ -86,7 +86,7 @@ Aangepaste labels of basislabels voor gegevensgebruik toewijzen aan Journey Opti
 
 1. Selecteer in het venster **[!UICONTROL Manage access]** uw aangepaste label(s) of basislabel(en) voor gegevensgebruik om de toegang tot dit object te beheren.
 
-   Voor meer informatie over de etiketten van het kerngegevensgebruik, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html){target="_blank"}.
+   Voor meer informatie over de etiketten van het kerngegevensgebruik, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=nl-NL){target="_blank"}.
 
    ![](assets/olac_4.png)
 
@@ -95,4 +95,4 @@ Aangepaste labels of basislabels voor gegevensgebruik toewijzen aan Journey Opti
 Als gebruikers toegang tot dit object willen hebben, moeten ze de specifieke **[!UICONTROL Label]** voor hun **[!UICONTROL Roles]** opnemen.
 Bijvoorbeeld, zal een gebruiker met het C1 etiket slechts toegang tot C1 geëtiketteerde of unlabel voorwerpen hebben.
 
-Voor meer informatie over hoe te om **[!UICONTROL Label]** aan a **[!UICONTROL Role]** toe te wijzen, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html#manage-labels-for-a-role){target="_blank"}.
+Voor meer informatie over hoe te om **[!UICONTROL Label]** aan a **[!UICONTROL Role]** toe te wijzen, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=nl-NL#manage-labels-for-a-role){target="_blank"}.

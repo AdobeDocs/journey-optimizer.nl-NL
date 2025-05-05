@@ -22,15 +22,15 @@ Verbeter duidelijk zicht in de doeltreffendheid van uw klantenreizen met reismet
 
 ## Vereisten {#prerequisites}
 
-Alvorens uw reismetriek te gebruiken, moet u een dataset toevoegen die `Commerce Details`, `Web`, en `Mobile` [ gebiedsgroepen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"} omvat.
+Alvorens uw reismetriek te gebruiken, moet u een dataset toevoegen die `Commerce Details`, `Web`, en `Mobile` [ gebiedsgroepen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=nl-NL#field-group){target="_blank"} omvat.
 
 ## Beschikbare cijfers {#metrics}
 
-De lijst van metriek varieert afhankelijk van de [ gebiedsgroepen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"} inbegrepen aan uw dataset.
+De lijst van metriek varieert afhankelijk van de [ gebiedsgroepen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=nl-NL#field-group){target="_blank"} inbegrepen aan uw dataset.
 
 Als uw dataset niet wordt gevormd, slechts zullen de volgende metriek beschikbaar zijn: **[!UICONTROL Click]**, **[!UICONTROL Unique Click]**, **[!UICONTROL Clickthrough Rate]** en **[!UICONTROL Open Rate]**.
 
-Met een Customer Journey Analytics-licentie kunt u aangepaste succeswaarden maken. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
+Met een Customer Journey Analytics-licentie kunt u aangepaste succeswaarden maken. [Meer informatie](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
 
 
 | Metrics | Verwante veldgroep |
@@ -67,7 +67,7 @@ Elke metrisch komt met een vastgestelde attributie die bepaalt welke aanraakpunt
 
   Met Journey Optimizer- en Customer Journey Analytics-licenties kunt u aangepaste metriek maken met specifieke attributie-instellingen of de kenmerken van de ingebouwde metriek wijzigen.
 
-  Leer meer over [ modellen van de Attributie ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
+  Leer meer over [ modellen van de Attributie ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
 
 ## Uw reismetriek toewijzen {#assign}
 
