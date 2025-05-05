@@ -32,9 +32,9 @@ U kunt testprofielen op verschillende manieren maken. Op de volgende pagina vind
 
   Naast deze twee methodes, komt Adobe Journey Optimizer met een specifiek [ geval van het in-productgebruik ](#use-case-1) om de verwezenlijking van het testprofiel te vergemakkelijken.
 
-U kunt een jsdossier in een bestaande dataset ook uploaden. Voor meer op dit, verwijs naar de [ documentatie van de Ingestie van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset) {target="_blank"}.
+U kunt een jsdossier in een bestaande dataset ook uploaden. Voor meer op dit, verwijs naar de [ documentatie van de Ingestie van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"} .
 
-Het maken van een testprofiel lijkt op het maken van gewone profielen in Adobe Experience Platform. Voor meer informatie, verwijs naar de [ documentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl) {target="_blank"}.
+Het maken van een testprofiel lijkt op het maken van gewone profielen in Adobe Experience Platform. Voor meer informatie, verwijs naar de [ documentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"} .
 
 ➡️ [ leren hoe te om testprofielen in deze video tot stand te brengen ](#video)
 
@@ -50,7 +50,7 @@ Om **tot een schema** te leiden, volg deze stappen:
    ![](assets/test-profiles-1.png)
 1. Ga een naam voor uw schema in en klik **Afwerking**.
    ![](assets/test-profiles-1-bis.png)
-1. In de **sectie van de Groepen van het Gebied**, op de linkerzijde, voegt de klik **** toe en selecteert de aangewezen gebiedsgroepen. Zorg ervoor u de **de testdetails van het Profiel** gebiedsgroep toevoegt.
+1. In de **sectie van de Groepen van het Gebied**, op de linkerzijde, voegt de klik **&#x200B;**&#x200B;toe en selecteert de aangewezen gebiedsgroepen. Zorg ervoor u de **de testdetails van het Profiel** gebiedsgroep toevoegt.
    ![](assets/test-profiles-1-ter.png)
 Klik eenmaal op **[!UICONTROL Add field groups]** : de lijst met veldgroepen wordt weergegeven in het overzichtsscherm van het schema.
    ![](assets/test-profiles-2.png)
@@ -69,7 +69,7 @@ Klik eenmaal op **[!UICONTROL Add field groups]** : de lijst met veldgroepen wor
 
 >[!NOTE]
 >
->Voor meer informatie over schemaverwezenlijking, verwijs naar de [ documentatie XDM ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites) {target="_blank"}.
+>Voor meer informatie over schemaverwezenlijking, verwijs naar de [ documentatie XDM ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"} .
 
 Dan moet u **tot de dataset** leiden waarin de profielen zullen worden ingevoerd. Voer de volgende stappen uit:
 
@@ -86,7 +86,7 @@ Dan moet u **tot de dataset** leiden waarin de profielen zullen worden ingevoerd
 
 >[!NOTE]
 >
-> Voor meer informatie over datasetverwezenlijking, verwijs naar de [ documentatie van de Dienst van de Catalogus ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started) {target="_blank"}.
+> Voor meer informatie over datasetverwezenlijking, verwijs naar de [ documentatie van de Dienst van de Catalogus ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"} .
 
 ## Gebruiksscenario in het product{#use-case-1}
 
@@ -183,13 +183,13 @@ Uw testprofielen worden toegevoegd en kunnen nu worden gebruikt bij het testen v
 
 >[!NOTE]
 >
->Voor meer informatie over csv de invoer, verwijs naar de [ documentatie van de Ingestie van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials) {target="_blank"}.
+>Voor meer informatie over csv de invoer, verwijs naar de [ documentatie van de Ingestie van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"} .
 >
 
 
 ## Testprofielen maken met behulp van API-aanroepen{#create-test-profiles-api}
 
-U kunt testprofielen ook maken via API-aanroepen. Leer meer in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl) {target="_blank"}.
+U kunt testprofielen ook maken via API-aanroepen. Leer meer in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"} .
 
 U moet een profielschema gebruiken dat de het gebiedsgroep van &quot;de testdetails van het Profiel&quot;bevat. De markering testProfile maakt deel uit van deze veldgroep.
 Wanneer u een profiel maakt, moet u de waarde testProfile = true doorgeven.

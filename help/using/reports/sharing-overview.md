@@ -63,12 +63,12 @@ De lijsten van XDM gebieden die tot Adobe Experience Platform worden overgegaan 
 
 ## Integratie met Customer Journey Analytics {#integration-cja}
 
-[!DNL Journey Optimizer] stapgebeurtenissen kunnen aan andere datasets in [ Adobe Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) {target="_blank"} worden verbonden.
+[!DNL Journey Optimizer] stapgebeurtenissen kunnen aan andere datasets in [ Adobe Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html){target="_blank"}  worden verbonden.
 
 De algemene workflow is:
 
 * [!DNL Customer Journey Analytics] voert de gegevensset &quot;Journey Step Event&quot; in.
 * Het **profileID** gebied in het bijbehorende schema van de Gebeurtenis van de Stap van de Reis voor Journey Orchestration&quot;wordt bepaald als gebied van de Identiteit. In [!DNL Customer Journey Analytics], kunt u deze dataset aan een andere dataset dan verbinden die de zelfde waarde zoals de op persoon gebaseerde herkenningsteken heeft.
-* Om deze dataset in [!DNL Customer Journey Analytics], voor dwars-kanaalreisanalyse te gebruiken, verwijs naar [ documentatie van de Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html) {target="_blank"}.
+* Om deze dataset in [!DNL Customer Journey Analytics], voor dwars-kanaalreisanalyse te gebruiken, verwijs naar [ documentatie van de Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"} .
 
 ➡️ [ Werk met Customer Journey Analytics ](cja-ajo.md){target="_blank"}

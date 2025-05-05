@@ -23,7 +23,7 @@ ht-degree: 1%
 >[!AVAILABILITY]
 >
 >Integratie met Adobe Experience Manager is momenteel alleen beschikbaar als een bètaversie om gebruikers te selecteren.
-> Als bètagebruiker, gebruik [ deze vorm ](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u) {target="_blank"} om te delen terugkoppelt.
+> Als bètagebruiker, gebruik [ deze vorm ](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"}  om te delen terugkoppelt.
 
 Met Adobe Journey Optimizer kunt u op maat gemaakte berichten maken via Adobe Experience Manager-sites. Begin door uw sjablonen te ontwerpen met gebruik van Adobe Experience Manager-inhoudsbronnen en verzend deze vervolgens naar Adobe Journey Optimizer. Als deze sjablonen eenmaal zijn gedeeld, zijn ze toegankelijk in de Adobe Journey Optimizer e-mailontwerper, waardoor het maken en verzenden van berichten naar het gewenste publiek eenvoudiger wordt.
 
@@ -33,7 +33,7 @@ Voordat u begint met het gebruik van deze functie, moet u zich aan de volgende v
 
 * **de montages van Experience Manager**
 
-  Dit vermogen is beschikbaar met [ Adobe Experience Manager as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html) {target="_blank"}.
+  Dit vermogen is beschikbaar met [ Adobe Experience Manager as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html){target="_blank"} .
 
   Als onderdeel van het bètaprogramma wordt de Cloud Service-configuratie uitgevoerd door Adobe in Adobe Experience Manager om verbinding te maken met Adobe Journey Optimizer.
 

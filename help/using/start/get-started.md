@@ -23,7 +23,7 @@ ht-degree: 2%
 
 [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en combineert een uniform, realtime klantprofiel, een API-eerste open framework, gecentraliseerde besluitvorming over aanbiedingen en kunstmatige intelligentie (AI) en computertraining (ML) voor personalisatie en optimalisatie. Met Journey Optimizer kunnen merken op intelligente wijze bepalen wat de volgende beste interactie is met schaal, snelheid en flexibiliteit voor de hele reis van de klant. Met [!DNL Adobe Journey Optimizer] kunnen bedrijven zowel geplande marketingcampagnes (zoals wekelijkse promoties voor een detailhandel) als op maat gesneden individuele communicatie (zoals een pushmelding voor een item dat een klant van een loyauteit-app eerder heeft bekeken) binnen dezelfde toepassing maken en leveren.
 
-➡️ [ ontdekt Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html) {target="_blank"} (video)
+➡️ [ ontdekt Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html){target="_blank"}  (video)
 
 
 <!-- Use [!DNL Adobe Journey Optimizer] to build multi-step customer journeys that initiate a sequence of interactions, offers, and messages across channels in real time. This approach ensures customers are engaged at the optimal moments based on their actions and relevant business signals. Learn how to build journeys in [this section](../building-journeys/journey-gs.md).
@@ -56,7 +56,7 @@ De belangrijkste mogelijkheden omvatten:
 
 >[!NOTE]
 >
-> De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [ toestemmingen ](../administration/permissions.md) en van uw [ vergunning gevend pakket ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html) {target="_blank"} af. Neem voor alle vragen contact op met de Adobe Customer Success Manager of uw Adobe-vertegenwoordiger.
+> De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [ toestemmingen ](../administration/permissions.md) en van uw [ vergunning gevend pakket ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}  af. Neem voor alle vragen contact op met de Adobe Customer Success Manager of uw Adobe-vertegenwoordiger.
 
 
 ## Architectuur {#architecture}

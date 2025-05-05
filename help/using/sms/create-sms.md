@@ -35,7 +35,7 @@ Blader op de onderstaande tabbladen om te leren hoe u een tekstbericht (SMS/MMS)
 
 >[!BEGINTABS]
 
->[!TAB  voeg een tekstbericht aan een Reis ] toe
+>[!TAB voeg een tekstbericht aan een Reis  toe]
 
 1. Open uw reis dan belemmering en laat vallen een activiteit van SMS van de **sectie van Acties** van het palet.
 

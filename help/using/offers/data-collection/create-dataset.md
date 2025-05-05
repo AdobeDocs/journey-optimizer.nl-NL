@@ -28,7 +28,7 @@ Begin door het schema te creëren dat in uw dataset zal worden gebruikt:
 
    >[!NOTE]
    >
-   >Leer meer over schema&#39;s XDM en gebiedsgroepen in de [ XDM het overzichtsdocumentatie van het Systeem ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) {target="_blank"}.
+   >Leer meer over schema&#39;s XDM en gebiedsgroepen in de [ XDM het overzichtsdocumentatie van het Systeem ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"} .
 
 1. Ga een naam en een beschrijving voor uw schema in en klik **Afwerking**.
    ![](../assets/ai-ranking-xdm-event-2.png)
@@ -51,7 +51,7 @@ Begin door het schema te creëren dat in uw dataset zal worden gebruikt:
 
 >[!NOTE]
 >
->Leer meer over het bouwen van schema&#39;s in [ Grondbeginselen van schemacompositie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas) {target="_blank"}.
+>Leer meer over het bouwen van schema&#39;s in [ Grondbeginselen van schemacompositie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"} .
 
 U bent nu bereid om een dataset tot stand te brengen gebruikend dit schema. Hiervoor voert u de volgende stappen uit:
 

@@ -41,11 +41,11 @@ Journey Optimizer-rapportering wordt geleverd met een verbeterde interoperabilit
 
 ## Vereisten {#prerequisites}
 
-* Als u **niet** eigen Customer Journey Analytics bent, of als u het bezit maar **** geen toegang tot om het even welk het productprofiel van Customer Journey Analytics heeft, worden de toestemmingen beheerd in Journey Optimizer. In dit geval hebt u het volgende nodig:
+* Als u **niet** eigen Customer Journey Analytics bent, of als u het bezit maar **&#x200B;**&#x200B;geen toegang tot om het even welk het productprofiel van Customer Journey Analytics heeft, worden de toestemmingen beheerd in Journey Optimizer. In dit geval hebt u het volgende nodig:
 
    * **[!UICONTROL View channel reports]** machtiging of gerelateerde rollen. [Meer informatie](../administration/permissions.md)
 
-* Als u **** Customer Journey Analytics bezit en toegang tot een het productprofiel van Customer Journey Analytics hebt, zult u nodig hebben:
+* Als u **&#x200B;**&#x200B;Customer Journey Analytics bezit en toegang tot een het productprofiel van Customer Journey Analytics hebt, zult u nodig hebben:
 
    * **[!UICONTROL Audience Creation]** en **[!UICONTROL Audience View]** voor Customer Journey Analytics. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)
 

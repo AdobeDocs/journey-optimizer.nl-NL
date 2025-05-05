@@ -203,7 +203,7 @@ Wanneer de lijst van gewenste personen [ actief ](#enable-allow-list) is, is de 
 >
 >Leer meer over het [ Levende Rapport ](../reports/live-report.md) en [ rapport van Customer Journey Analytics ](../reports/report-gs-cja.md).
 
-Wanneer de lijst van gewenste personen [ ](#deactivate-allow-list) wordt gedeactiveerd, worden alle e-mails die u van de huidige zandbak verzendt verzonden naar alle ontvangers (mits zij niet op de suppressielijst), met inbegrip van echte klantenadressen zijn.
+Wanneer de lijst van gewenste personen [&#128279;](#deactivate-allow-list) wordt gedeactiveerd, worden alle e-mails die u van de huidige zandbak verzendt verzonden naar alle ontvangers (mits zij niet op de suppressielijst), met inbegrip van echte klantenadressen zijn.
 
 ## Uitsluitingsrapportage {#reporting}
 

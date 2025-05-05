@@ -28,7 +28,7 @@ Leer meer over het concept en het gebruik van de suppressielijst in [ deze secti
 >
 >Adobe houdt een bijgewerkte lijst bij van bekende slechte adressen waarvan is aangetoond dat ze schadelijk zijn voor de service en de mailingreputatie, en zorgt ervoor dat er geen e-mailberichten aan hen worden bezorgd. Deze lijst wordt beheerd in een algemene suppressielijst die door alle Adobe-klanten wordt gebruikt. De adressen en domeinnamen in de globale suppressielijst worden verborgen. Alleen het aantal uitgesloten ontvangers wordt vermeld in de leveringsverslagen.
 
-Bovendien kunt u hefboomwerking de Journey Optimizer **HULPMIDDELEN API van de Onderdrukking** om uw uitgaande berichten te controleren gebruikend onderdrukking en lijsten van gewenste personen. [ Leer hoe te om met de REST API van de Onderdrukking te werken ](https://developer.adobe.com/journey-optimizer-apis/references/suppression/) {target="_blank"}
+Bovendien kunt u hefboomwerking de Journey Optimizer **HULPMIDDELEN API van de Onderdrukking** om uw uitgaande berichten te controleren gebruikend onderdrukking en lijsten van gewenste personen. [ Leer hoe te om met de REST API van de Onderdrukking te werken ](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"} 
 
 ## De lijst met onderdrukking openen {#access-suppression-list}
 
@@ -162,7 +162,7 @@ Voer de onderstaande stappen uit om een groep e-mailadressen of domeinen toe te 
    DOMAIN,somedomain.com,Comment
    ```
 
-1. Vul de CSV-sjabloon in met de e-mailadressen en/of domeinen die u wilt toevoegen aan de suppressielijst. Alle ASCII bedrukbare karakters die tussen 32 en 126 worden samengesteld worden toegestaan in de **1} kolom van de COMMENTAAR {.**
+1. Vul de CSV-sjabloon in met de e-mailadressen en/of domeinen die u wilt toevoegen aan de suppressielijst. Alle ASCII bedrukbare karakters die tussen 32 en 126 worden samengesteld worden toegestaan in de **1&rbrace; kolom van de COMMENTAAR &lbrace;.**
 
    >[!CAUTION]
    >

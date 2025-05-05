@@ -83,7 +83,7 @@ Ga als volgt te werk om een kanaalconfiguratie te maken:
 
    >[!NOTE]
    >
-   >Het beleid van de toestemming is momenteel slechts beschikbaar voor organisaties die het **Bevel van de Gezondheidszorg** en **Privacy en het 3} toe:voegen-op dienstenaanbod van het Schild van de Veiligheid hebben gekocht.**
+   >Het beleid van de toestemming is momenteel slechts beschikbaar voor organisaties die het **Bevel van de Gezondheidszorg** en **Privacy en het 3&rbrace; toe:voegen-op dienstenaanbod van het Schild van de Veiligheid hebben gekocht.**
 
    ![](assets/surface-marketing-action.png)
 
@@ -143,7 +143,7 @@ Na het maken kunnen kanaalconfiguraties de volgende statussen hebben:
 
 Wanneer een kanaalconfiguratie mislukt, worden de details van elke mogelijke oorzaak van een fout hieronder beschreven.
 
-Als één van deze fouten voorkomt, contacteer ](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) {target="_blank"} de Zorg van de Klant van Adobe [ om hulp te krijgen.
+Als één van deze fouten voorkomt, contacteer [&#128279;](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}  de Zorg van de Klant van Adobe  om hulp te krijgen.
 
 * **ontbroken bevestiging SPF**: SPF (het Kader van het Beleid van de Afzender) is een e-mailauthentificatieprotocol dat toestaat om erkende IPs te specificeren die e-mail van een bepaald subdomein kan verzenden. De de bevestigingsmislukking van SPF betekent dat de IP adressen in het SPF- verslag niet de IP adressen aanpassen die voor het verzenden van e-mails naar de brievenbusleveranciers worden gebruikt.
 

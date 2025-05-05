@@ -34,7 +34,7 @@ Als u een koppeling zonder abonnement wilt invoegen in uw e-mailinhoud, kunt u:
 
 Wanneer een ontvanger op de opt-out-koppeling klikt, wordt het afwijzingsverzoek van de ontvanger dienovereenkomstig verwerkt.
 
-Om te controleren dat de overeenkomstige keus van het profiel is bijgewerkt, ga naar Experience Platform en [ doorblader aan dat profiel ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes-tab). Op het tabblad **[!UICONTROL Attributes]** ziet u de waarde voor **[!UICONTROL choice]** is gewijzigd in **[!UICONTROL no]** . Leer meer in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity) {target="_blank"}.
+Om te controleren dat de overeenkomstige keus van het profiel is bijgewerkt, ga naar Experience Platform en [ doorblader aan dat profiel ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes-tab). Op het tabblad **[!UICONTROL Attributes]** ziet u de waarde voor **[!UICONTROL choice]** is gewijzigd in **[!UICONTROL no]** . Leer meer in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"} .
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -97,7 +97,7 @@ U kunt ook een externe bestemmingspagina gebruiken. In dat geval configureert u 
 
 +++ Leer hoe u een opt-out API-aanroep implementeert
 
-Om uw ontvangers te hebben uit verkoos wanneer zij hun keus van de het landen pagina voorleggen, moet u de vraag van API van het a **Abonnement** door [ Adobe Developer ](https://developer.adobe.com) {target="_blank"} uitvoeren om de overeenkomstige profielen&#39; voorkeur bij te werken.
+Om uw ontvangers te hebben uit verkoos wanneer zij hun keus van de het landen pagina voorleggen, moet u de vraag van API van het a **Abonnement** door [ Adobe Developer ](https://developer.adobe.com){target="_blank"}  uitvoeren om de overeenkomstige profielen&#39; voorkeur bij te werken.
 
 Deze POST-aanroep is als volgt:
 
@@ -134,7 +134,7 @@ Instantie van aanvraag:
 }
 ```
 
-[!DNL Journey Optimizer] gebruikt deze parameters om de overeenkomstige keus van het profiel door de [ Adobe Developer ](https://developer.adobe.com) {target="_blank"} API vraag bij te werken.
+[!DNL Journey Optimizer] gebruikt deze parameters om de overeenkomstige keus van het profiel door de [ Adobe Developer ](https://developer.adobe.com){target="_blank"}  API vraag bij te werken.
 
 +++
 

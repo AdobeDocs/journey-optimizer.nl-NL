@@ -25,7 +25,7 @@ In de volgende sectie wordt beschreven hoe u door Journey Optimizer gegenereerde
 
 Nadat u uw reis in [!DNL Journey Optimizer] hebt gemaakt, kunt u uw klantgegevens importeren naar [!DNL Customer Journey Analytics] om rapporten te starten en inzicht te krijgen in de impact van elke interactie die een klant onderhoudt met uw reizen.
 
-➡️ [ ontdekt Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#manually-configure-a-data-view-to-be-used-with-journey-optimizer) {target="_blank"}
+➡️ [ ontdekt Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#manually-configure-a-data-view-to-be-used-with-journey-optimizer){target="_blank"} 
 
 >[!NOTE]
 >

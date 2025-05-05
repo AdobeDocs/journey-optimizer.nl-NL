@@ -134,7 +134,7 @@ Het dagelijkse frequentiemaximum is geldig voor de dag tot 23 :59: 59 UTC en ste
 
 >[!NOTE]
 >
->Om nauwkeurigheid voor dagelijkse frequentie die regels begrenst te verzekeren, wordt het gebruik van [ streaming segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html) {target="_blank"} geadviseerd. Leer meer over de methodes van de publieksevaluatie in [ deze sectie ](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+>Om nauwkeurigheid voor dagelijkse frequentie die regels begrenst te verzekeren, wordt het gebruik van [ streaming segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}  geadviseerd. Leer meer over de methodes van de publieksevaluatie in [ deze sectie ](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
 ## Een bedrijfsregel activeren {#activate-rule}
 

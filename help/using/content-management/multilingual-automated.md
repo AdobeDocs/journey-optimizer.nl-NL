@@ -166,7 +166,7 @@ In deze sectie kunt u verschillende landinstellingen instellen voor het beheer v
 
    1. Open in Adobe Experience Platform Data Collection de tageigenschappen.
 
-   1. Open het menu **[!UICONTROL Rules]** en maak een nieuwe regel. De gedetailleerde informatie over hoe te om regels tot stand te brengen is beschikbaar in [!DNL Adobe Experience Platform] [ documentatie van de Inzameling van Gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule) {target="_blank"}
+   1. Open het menu **[!UICONTROL Rules]** en maak een nieuwe regel. De gedetailleerde informatie over hoe te om regels tot stand te brengen is beschikbaar in [!DNL Adobe Experience Platform] [ documentatie van de Inzameling van Gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"} 
 
    1. Voeg in de sectie **[!UICONTROL IF]** van de regel een gebeurtenis toe die als volgt is geconfigureerd:
 
@@ -199,7 +199,7 @@ In deze sectie kunt u verschillende landinstellingen instellen voor het beheer v
 
       * Klik op de knop **[!UICONTROL Keep changes]** om uw regel te bevestigen en op te slaan.
 
-+++
+   +++
 
 1. Sleep de landinstellingen om ze opnieuw te ordenen en de prioriteit ervan in de lijst te beheren.
 

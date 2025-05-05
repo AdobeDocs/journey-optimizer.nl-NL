@@ -33,7 +33,7 @@ Volg onderstaande stappen om een webkanaalconfiguratie te maken.
 
 1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md)
 
-1. Selecteer het **kanaal 0} van het Web {.**
+1. Selecteer het **kanaal 0&rbrace; van het Web &lbrace;.**
 
    ![](assets/web_config_2.png)
 

@@ -91,9 +91,9 @@ Indien nodig kunt u ook een nieuwe rol maken met specifieke machtigingen. Voor m
 
 Met [!DNL Journey Optimizer] kunt u uw eigen **[!UICONTROL Roles]** maken en een set machtigingen en sandboxen aan uw gebruikers toewijzen. Met **[!UICONTROL Roles]** kunt u toegang tot bepaalde functies of objecten in de interface autoriseren of weigeren.
 
-Voor meer informatie over om zandbakken tot stand te brengen en te beheren, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html) {target="_blank"}.
+Voor meer informatie over om zandbakken tot stand te brengen en te beheren, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html){target="_blank"} .
 
-In dit voorbeeld, zullen wij een rol tot stand brengen genoemd **Reis read-only** waar wij read-only rechten op de eigenschap van de Reis zullen verlenen. Gebruikers kunnen alleen reizen openen en bekijken en hebben geen toegang tot andere functies, zoals **[!DNL  Decision management]** in [!DNL Journey Optimizer] .
+In dit voorbeeld, zullen wij een rol tot stand brengen genoemd **Reis read-only** waar wij read-only rechten op de eigenschap van de Reis zullen verlenen. Gebruikers kunnen alleen reizen openen en bekijken en hebben geen toegang tot andere functies, zoals **[!DNL &#x200B; Decision management]** in [!DNL Journey Optimizer] .
 
 Om onze **Reizen read-only** **[!UICONTROL Role]** te creëren:
 

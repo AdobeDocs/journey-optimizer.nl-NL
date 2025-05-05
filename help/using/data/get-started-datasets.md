@@ -87,7 +87,7 @@ Bekijk deze video om te leren hoe te om een dataset tot stand te brengen, het in
 
 ## Datagovernance
 
-In een dataset, doorblader het **lusje van het Beleid van 0} Gegevens {om etiketten op de dataset en het gebiedsniveau te controleren.** Gegevensbeheer categoriseert gegevens op basis van het soort beleid dat van toepassing is.
+In een dataset, doorblader het **lusje van het Beleid van 0&rbrace; Gegevens &lbrace;om etiketten op de dataset en het gebiedsniveau te controleren.** Gegevensbeheer categoriseert gegevens op basis van het soort beleid dat van toepassing is.
 
 Een van de kernmogelijkheden van [!DNL Adobe Experience Platform] is om gegevens van meerdere bedrijfssystemen samen te brengen, zodat marketers hun klanten beter kunnen identificeren, begrijpen en betrekken. Deze gegevens zijn mogelijk onderworpen aan gebruiksbeperkingen die zijn gedefinieerd door uw organisatie of wettelijke voorschriften. Daarom is het belangrijk om ervoor te zorgen dat uw gegevensbewerkingen in overeenstemming zijn met het beleid voor gegevensgebruik.
 

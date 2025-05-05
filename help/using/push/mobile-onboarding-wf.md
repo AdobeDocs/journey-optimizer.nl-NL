@@ -33,8 +33,8 @@ Als u toegang wilt tot de nieuwe workflow voor snel aan boord gaan van mobiele a
 Hieronder vindt u een aantal aanvullende kenmerken:
 
 * Eenvoudige workflow in vier stappen en gebruikersinterface.
-* Levert een basisopstelling om mobiele gebeurtenisgegevens via [ Adobe Experience Platform Mobile SDK ](https://developer.adobe.com/client-sdks/documentation/) te beginnen verzamelen {target="_blank"} in notulen.
-* De capaciteit om een basis mobiele duw gebeurtenis leveraging [ Adobe Experience Platform Assurance ](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html) te testen en te bevestigen {target="_blank"}.
+* Levert een basisopstelling om mobiele gebeurtenisgegevens via [ Adobe Experience Platform Mobile SDK ](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} te beginnen verzamelen  in notulen.
+* De capaciteit om een basis mobiele duw gebeurtenis leveraging [ Adobe Experience Platform Assurance ](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"} te testen en te bevestigen .
 * Auto leidt tot en vormt alle noodzakelijke Inzameling van Gegevens, en de activa van Journey Optimizer.
 * In productbegeleiding en tooltips.
 * Verstrekt een natuurlijke overgang voor geavanceerdere implementatie indien nodig.

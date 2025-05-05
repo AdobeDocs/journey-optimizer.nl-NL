@@ -67,7 +67,7 @@ Ga als volgt te werk om een bericht in de app toe te voegen:
       | Plaatsen | POI invoeren | Wordt geactiveerd door de SDK Places wanneer uw klant het Point of Interest (POI) invoert dat u hebt geconfigureerd. |
       | Plaatsen | POI afsluiten | Wordt geactiveerd door de SDK Places wanneer uw klant het Point of Interest (POI) verlaat dat u hebt geconfigureerd. |
 
-+++
+      +++
 
    1. Klik op **[!UICONTROL Add condition]** als u wilt dat de trigger rekening houdt met meerdere gebeurtenissen of criteria.
 
@@ -99,7 +99,7 @@ Ga als volgt te werk om een bericht in de app toe te voegen:
       | Plaatsen | Laatste ingevoerde POI | Wordt geactiveerd door de Places SDK, afhankelijk van het punt van interesse dat de klant het laatst heeft ingevoerd (POI). |
       | Plaatsen | Laatst afgesloten POI | Wordt geactiveerd door de Places SDK, afhankelijk van uw klant die het laatst het Point of Interest (POI) heeft verlaten. |
 
-+++
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -173,7 +173,7 @@ Voer de volgende stappen uit om een bericht in de app toe te voegen aan een camp
       | Plaatsen | POI invoeren | Wordt geactiveerd door de SDK Places wanneer uw klant het Point of Interest (POI) invoert dat u hebt geconfigureerd. |
       | Plaatsen | POI afsluiten | Wordt geactiveerd door de SDK Places wanneer uw klant het Point of Interest (POI) verlaat dat u hebt geconfigureerd. |
 
-+++
+      +++
 
    1. Klik op **[!UICONTROL Add condition]** als u wilt dat de trigger rekening houdt met meerdere gebeurtenissen of criteria.
 
@@ -205,7 +205,7 @@ Voer de volgende stappen uit om een bericht in de app toe te voegen aan een camp
       | Plaatsen | Laatste ingevoerde POI | Wordt geactiveerd door de Places SDK, afhankelijk van het punt van interesse dat de klant het laatst heeft ingevoerd (POI). |
       | Plaatsen | Laatst afgesloten POI | Wordt geactiveerd door de Places SDK, afhankelijk van uw klant die het laatst het Point of Interest (POI) heeft verlaten. |
 
-+++
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -238,7 +238,7 @@ Voer de volgende stappen uit om een bericht in de app toe te voegen aan een camp
 
   >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
-+++
+  +++
 
 * In de onderstaande video ziet u hoe u experimenten met inhoud kunt configureren en analyseren op In-app-berichten voor A/B-tests.
 
@@ -246,7 +246,7 @@ Voer de volgende stappen uit om een bericht in de app toe te voegen aan een camp
 
   >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
-+++
+  +++
 
 * In de onderstaande video ziet u hoe u een bericht in de app maakt tijdens een reis en hoe u uw reis kunt testen en publiceren.
 
@@ -254,7 +254,7 @@ Voer de volgende stappen uit om een bericht in de app toe te voegen aan een camp
 
   >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
-+++
+  +++
 
 **Verwante onderwerpen:**
 

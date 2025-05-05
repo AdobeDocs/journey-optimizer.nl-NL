@@ -33,7 +33,7 @@ Om een IP warmup campagne tot stand te brengen, volg de hieronder stappen.
 
    >[!CAUTION]
    >
-   >Bewerk niet de configuratie van het e-mailkanaal nadat het IP warmup plan [ ](ip-warmup-execution.md) is begonnen.
+   >Bewerk niet de configuratie van het e-mailkanaal nadat het IP warmup plan [&#128279;](ip-warmup-execution.md) is begonnen.
 
 1. Creeer een geplande marketing [ campagne ](../campaigns/create-campaign.md) en selecteer de [ E-mail ](../email/create-email.md#create-email-journey-campaign) actie.
 
@@ -57,7 +57,7 @@ Om een IP warmup campagne tot stand te brengen, volg de hieronder stappen.
 
    >[!IMPORTANT]
    >
-   >Het publiek dat in een IP warmup campagne wordt toegestaan moet [ op segment-gebaseerd ](../audience/creating-a-segment-definition.md) zijn en tot stand gebracht gebruikend het [ standaardsamenvoegingsbeleid ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy) {target="_blank"}.
+   >Het publiek dat in een IP warmup campagne wordt toegestaan moet [ op segment-gebaseerd ](../audience/creating-a-segment-definition.md) zijn en tot stand gebracht gebruikend het [ standaardsamenvoegingsbeleid ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"} .
 
    Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [ deze pagina ](../campaigns/get-started-with-campaigns.md).
 

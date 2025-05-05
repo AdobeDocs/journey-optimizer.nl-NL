@@ -38,7 +38,7 @@ Voer de volgende stappen uit om een georkestreerde campagne te maken:
 
 1. Klik op de knop **[!UICONTROL Create orchestrated campaign]** in de rechterbovenhoek van het scherm.
 
-1. In de georkestreerde dialoog van campagneeigenschappen ****, selecteer het malplaatje te gebruiken om de georkestreerde campagne tot stand te brengen (u kunt het gebrek ingebouwde malplaatje ook gebruiken). [ Leer meer over georkestreerde campagnemalplaatjes ](#campaign-templates).
+1. In de georkestreerde dialoog van campagneeigenschappen **&#x200B;**, selecteer het malplaatje te gebruiken om de georkestreerde campagne tot stand te brengen (u kunt het gebrek ingebouwde malplaatje ook gebruiken). [ Leer meer over georkestreerde campagnemalplaatjes ](#campaign-templates).
 
 1. Voer een label in voor de georkestreerde campagne. Daarnaast raden we u ten zeerste aan een beschrijving toe te voegen aan uw georkestreerde campagne, in het speciale veld van de sectie **[!UICONTROL Additional options]** van het scherm.
 

@@ -160,7 +160,7 @@ API-aanroepen voor gebruik:
 
 +++
 
-++ + verwijder een geïmplementeerde uitlijningsconfiguratie in één stap
++++ verwijder een geïmplementeerde uitlijningsconfiguratie in één stap
 
 In slechts één API-aanroep kunt u de configuratie met behulp van de parameter `forceDelete` verwijderen en de implementatie ervan ongedaan maken.
 
@@ -171,7 +171,7 @@ API-aanroepen voor gebruik:
 
 +++
 
-++ + Werk een reeds opgezette het maximum configuratie bij
++++ Werk een reeds opgezette het maximum configuratie bij
 
 >[!NOTE]
 >

@@ -350,7 +350,7 @@ In de beslissingslijst kunt u de beslissing selecteren om de eigenschappen ervan
 
 ![](../assets/decision_created.png)
 
-Selecteer de **[!UICONTROL Edit]** knoop om naar de wijze van de beslissingsuitgave terug te gaan, waar u de 1} details van het besluit ](#create-activity) kunt wijzigen, [ besluitvormingswerkingsgebied ](#add-decision-scopes) en [ fallback aanbieding ](#add-fallback).[
+Selecteer de **[!UICONTROL Edit]** knoop om naar de wijze van de beslissingsuitgave terug te gaan, waar u de 1&rbrace; details van het besluit [&#128279;](#create-activity) kunt wijzigen, [ besluitvormingswerkingsgebied ](#add-decision-scopes) en [ fallback aanbieding ](#add-fallback).
 
 >[!IMPORTANT]
 >

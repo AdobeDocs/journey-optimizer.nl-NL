@@ -66,7 +66,7 @@ Wanneer het creëren van een regelreeks, moet u specificeren als de regels binne
 
 >[!AVAILABILITY]
 >
->Terwijl **de reeksen van de de domeinregel van het Kanaal** {aan alle gebruikers beschikbaar zijn, **de reeksen van de de 3} domeinregel van de Reis {zijn beschikbaar slechts aan een beperkte reeks gebruikers (Beperkte Beschikbaarheid).** Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+>Terwijl **de reeksen van de de domeinregel van het Kanaal** {aan alle gebruikers beschikbaar zijn, **de reeksen van de de 3} domeinregel van de Reis &lbrace;zijn beschikbaar slechts aan een beperkte reeks gebruikers (Beperkte Beschikbaarheid).** Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 ## Uw eerste aangepaste regelset maken {#create-rule-set}
 
@@ -90,7 +90,7 @@ Volg onderstaande stappen om een regelset te maken.
 
    >[!AVAILABILITY]
    >
-   >Terwijl **de reeksen van de de domeinregel van het Kanaal** {aan alle gebruikers beschikbaar zijn, **de reeksen van de de 3} domeinregel van de Reis {zijn beschikbaar slechts aan een beperkte reeks gebruikers (Beperkte Beschikbaarheid).** Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+   >Terwijl **de reeksen van de de domeinregel van het Kanaal** {aan alle gebruikers beschikbaar zijn, **de reeksen van de de 3} domeinregel van de Reis &lbrace;zijn beschikbaar slechts aan een beperkte reeks gebruikers (Beperkte Beschikbaarheid).** Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -154,7 +154,7 @@ De parameters beschikbaar voor de regel hangen van het regelvastgestelde domein 
 
      >[!CAUTION]
      > 
-     >Om ervoor te zorgen dat de regels voor dagelijkse frequentiecapping correct zijn, moet u de naamruimte met de hoogste prioriteit kiezen tijdens het ontwerpen van een campagne of een reis. Leer meer over namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority) {target="_blank"}
+     >Om ervoor te zorgen dat de regels voor dagelijkse frequentiecapping correct zijn, moet u de naamruimte met de hoogste prioriteit kiezen tijdens het ontwerpen van een campagne of een reis. Leer meer over namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"} 
 
    Houd er rekening mee dat de waarde van de profielteller wordt bijgewerkt wanneer de communicatie wordt geleverd. Begrijpt u dit wanneer u grote hoeveelheden communicatie verzendt aangezien de productie in de ontvanger zou kunnen resulteren die de e-mailnotulen of zelfs uren na de inleiding van de mededeling (in het geval dat u miljoenen mededelingen gelijktijdig verzendt) krijgen.
 

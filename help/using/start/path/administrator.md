@@ -33,17 +33,17 @@ Meer informatie over toegangsbeheer vindt u op de volgende pagina&#39;s:
 
 1. **plaats toestemmingen** voor rollen, met inbegrip van **Sandboxes**, en geef toegang tot uw teamleden door hen aan verschillende rollen toe te wijzen. Machtigingen zijn eenheidrechten waarmee u de machtigingen kunt definiëren die aan **[!UICONTROL Role]** zijn toegewezen. Elke toestemming wordt verzameld onder mogelijkheden, bijvoorbeeld Reis of Aanbiedingen, die de verschillende functionaliteiten of voorwerpen in [!DNL Journey Optimizer] vertegenwoordigen. Leer meer in de [ niveaus van de Toestemming ](../../administration/high-low-permissions.md) sectie.
 
-Bovendien moet u gebruikers toevoegen die toegang tot de Hoofdzaak van Activa aan de **Hoofdzaak van Activa Consumenten** of/en **de Gebruikers van de Hoofdzaak van Activa** rollen nodig hebben. [ las meer in de documentatie van de Hoofdzaak van Activa ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html) {target="_blank"}.
+Bovendien moet u gebruikers toevoegen die toegang tot de Hoofdzaak van Activa aan de **Hoofdzaak van Activa Consumenten** of/en **de Gebruikers van de Hoofdzaak van Activa** rollen nodig hebben. [ las meer in de documentatie van de Hoofdzaak van Activa ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target="_blank"} .
 
 >[!NOTE]
->Voor Journey Optimizer-producten die zijn verkregen vóór 6 januari 2022, moet u [!DNL Adobe Experience Manager Assets Essentials] implementeren voor uw organisatie. Leer meer in [ opstellen de Hoofdzaak van Activa ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html) {target="_blank"} sectie.
+>Voor Journey Optimizer-producten die zijn verkregen vóór 6 januari 2022, moet u [!DNL Adobe Experience Manager Assets Essentials] implementeren voor uw organisatie. Leer meer in [ opstellen de Hoofdzaak van Activa ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target="_blank"}  sectie.
 
 Wanneer u [!DNL Journey Optimizer] voor het eerst opent, beschikt u over een productiesandbox en kunt u een bepaald aantal IP&#39;s toewijzen, afhankelijk van uw contract.
 
 Om uw reizen te kunnen tot stand brengen en berichten te verzenden, heb toegang tot het **menu van het BEHEER**. Blader in het menu **[!UICONTROL Channels]** om uw berichten en kanaalconfiguraties (d.w.z. voorinstellingen voor berichten) te configureren.
 
 >[!NOTE]
->Als Beheerder van het a **Systeem**, als u niet het **[!UICONTROL Channels]** menu in [!DNL Journey Optimizer] kunt zien, werk uw toestemmingen in het [ ](../../administration/permissions.md){target="_blank"} product van Toestemmingen bij.
+>Als Beheerder van het a **Systeem**, als u niet het **[!UICONTROL Channels]** menu in [!DNL Journey Optimizer] kunt zien, werk uw toestemmingen in het [&#128279;](../../administration/permissions.md){target="_blank"} product van Toestemmingen bij.
 >
 
 Voer de onderstaande stappen uit:

@@ -86,7 +86,7 @@ Ga als volgt te werk als u een variant uit een bestand wilt toevoegen:
    }
    ```
 
-+++
+   +++
 
 1. Wanneer het bestand gereed is, klikt u op **[!UICONTROL Upload Input data]** om het te laden en de inhoud te testen.
 1. Nadat het bestand is geüpload, wordt in het linkerdeelvenster voor elke regel van het bestand een vak toegevoegd. Elk vak bevat alle profielkenmerken die in de inhoud worden gebruikt voor personalisatie. U kunt de varianten nu gebruiken om een voorvertoning van de inhoud weer te geven in het rechterdeelvenster en proefdrukken te verzenden.

@@ -65,7 +65,7 @@ De instelling voor het e-mailadres van de BCC wordt direct opgeslagen en verwerk
 
 ![](assets/preset-bcc-in-msg.png)
 
-Nochtans, wordt het adres BCC opgepikt voor het verzenden van mededelingen na de hier beschreven logica [ ](../email/email-settings.md).
+Nochtans, wordt het adres BCC opgepikt voor het verzenden van mededelingen na de hier beschreven logica [&#128279;](../email/email-settings.md).
 
 ### Aanbevelingen en beperkingen {#bcc-recommendations-limitations}
 
@@ -75,7 +75,7 @@ Nochtans, wordt het adres BCC opgepikt voor het verzenden van mededelingen na de
 
 * De inbox die voor BCC wordt gebruikt, moet correct worden beheerd voor ruimte en levering. Als het postvak inbox bellen retourneert, worden sommige e-mails mogelijk niet ontvangen en worden deze daarom niet gearchiveerd.
 
-* De berichten kunnen aan het BCC e-mailadres vóór de doelontvangers worden geleverd. BCC de berichten kunnen ook worden verzonden alhoewel de originele berichten [ ](../reports/suppression-list.md#delivery-failures) kunnen hebben teruggestuurd.
+* De berichten kunnen aan het BCC e-mailadres vóór de doelontvangers worden geleverd. BCC de berichten kunnen ook worden verzonden alhoewel de originele berichten [&#128279;](../reports/suppression-list.md#delivery-failures) kunnen hebben teruggestuurd.
 
   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
@@ -113,7 +113,7 @@ Volg de onderstaande stappen om dit te doen.
 
 >[!NOTE]
 >
->Leer meer over het beheren van Privacy en de toepasselijke verordeningen in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl) {target="_blank"}.
+>Leer meer over het beheren van Privacy en de toepasselijke verordeningen in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl){target="_blank"} .
 
 ### BCC-rapportagegegevens {#bcc-reporting}
 
@@ -123,7 +123,7 @@ Selecteer **[!UICONTROL Data management]** > **[!UICONTROL Datasets]** > **[!UIC
 
 <!--![](assets/preset-bcc-dataset.png)-->
 
-Om vragen tegen deze dataset in werking te stellen, kunt u de Redacteur van de Vraag gebruiken die door de [ wordt verstrekt de Dienst van de Vraag van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) {target="_blank"}. Selecteer **[!UICONTROL Data management]** > **[!UICONTROL Queries]** en klik op **[!UICONTROL Create query]** om het bestand te openen. [Meer informatie](../data/get-started-queries.md)
+Om vragen tegen deze dataset in werking te stellen, kunt u de Redacteur van de Vraag gebruiken die door de [ wordt verstrekt de Dienst van de Vraag van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} . Selecteer **[!UICONTROL Data management]** > **[!UICONTROL Queries]** en klik op **[!UICONTROL Create query]** om het bestand te openen. [Meer informatie](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
@@ -234,7 +234,7 @@ De `x-message-profile-id` kopbal wordt ook opgeslagen in de volgende systeemdata
 
 * Selecteer **[!UICONTROL Data management]** > **[!UICONTROL Datasets]** > **[!UICONTROL Browse]** om deze gegevenssets te openen via de gebruikersinterface. Leer meer over hoe te om tot datasets in [ toegang te hebben deze sectie ](../data/get-started-datasets.md#access-datasets).
 
-* Gebruik de Redacteur van de Vraag die door de [ Dienst van de Vraag van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) wordt verstrekt {target="_blank"}. Selecteer **[!UICONTROL Data management]** > **[!UICONTROL Queries]** en klik op **[!UICONTROL Create query]** om het bestand te openen. [Meer informatie](../data/get-started-queries.md)
+* Gebruik de Redacteur van de Vraag die door de [ Dienst van de Vraag van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} wordt verstrekt . Selecteer **[!UICONTROL Data management]** > **[!UICONTROL Queries]** en klik op **[!UICONTROL Create query]** om het bestand te openen. [Meer informatie](../data/get-started-queries.md)
 
 Hieronder volgen enkele voorbeeldquery&#39;s die u kunt uitvoeren om informatie op te halen die overeenkomt met uw BCC-kopieën.
 

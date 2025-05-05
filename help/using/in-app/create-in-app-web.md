@@ -65,7 +65,7 @@ Volg onderstaande stappen om uw Web in-app kanaal in te stellen:
       | Platform | Gegevens verzonden naar platform | Wordt geactiveerd wanneer de mobiele app een Edge Experience-gebeurtenis uitgeeft om gegevens naar Adobe Experience Platform te verzenden. Gewoonlijk de API vraag [ sendEvent ](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) van de uitbreiding van AEP Edge. |
       | Handmatig | Handmatige trigger | Twee bijbehorende gegevenselementen: een sleutel, die een constante is die de gegevensset definieert (bijvoorbeeld geslacht, kleur, prijs), en een waarde, die een variabele is die tot de set behoort (bijvoorbeeld man/vrouw, groen, 100). |
 
-+++
+      +++
 
    1. Klik op **[!UICONTROL Add condition]** als u wilt dat de trigger rekening houdt met meerdere gebeurtenissen of criteria.
 
@@ -82,7 +82,7 @@ Volg onderstaande stappen om uw Web in-app kanaal in te stellen:
       | Platform | XDM-gebeurtenistype | Wordt geactiveerd wanneer aan het opgegeven gebeurtenistype wordt voldaan. |
       | Platform | XDM-waarde | Wordt geactiveerd wanneer aan de opgegeven XDM-waarde wordt voldaan. |
 
-+++
+      +++
 
       ![](assets/in_app_web_surface_9.png)
 

@@ -27,7 +27,7 @@ Het verzamelt e-mailadressen en domeinen die over alle post in één enkele cli�
 >
 >Adobe houdt een bijgewerkte lijst bij van bekende slechte adressen waarvan is aangetoond dat ze schadelijk zijn voor de service en de mailingreputatie, en zorgt ervoor dat er geen e-mailberichten aan hen worden bezorgd. Deze lijst wordt beheerd in een algemene suppressielijst die door alle Adobe-klanten wordt gebruikt. De adressen en domeinnamen in de globale suppressielijst worden verborgen. Alleen het aantal uitgesloten ontvangers wordt vermeld in de leveringsverslagen.
 
-Bovendien kunt u hefboomwerkingJourney Optimizer **HULPMIDDELEN API van de Onderdrukking** om uw uitgaande berichten te controleren gebruikend onderdrukking en lijsten van gewenste personen. [ Leer hoe te om met de REST API van de Onderdrukking te werken ](https://developer.adobe.com/journey-optimizer-apis/references/suppression/) {target="_blank"}
+Bovendien kunt u hefboomwerkingJourney Optimizer **HULPMIDDELEN API van de Onderdrukking** om uw uitgaande berichten te controleren gebruikend onderdrukking en lijsten van gewenste personen. [ Leer hoe te om met de REST API van de Onderdrukking te werken ](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"} 
 
 ## Waarom een suppressielijst? {#why-suppression-list}
 
@@ -59,7 +59,7 @@ Voor elk adres, worden de fundamentele reden voor onderdrukking en de onderdrukk
 >
 >De profielen met de status **[!UICONTROL Suppressed]** worden tijdens het verzenden van berichten uitgesloten. Daarom terwijl de **rapporten van de Reis** deze profielen zullen tonen zoals die door de reis ([ gelezen Publiek ](../building-journeys/read-audience.md) en [ berichtactiviteiten ](../building-journeys/journeys-message.md)) zijn bewogen, zullen de **E-mail rapporten** niet hen in de **[!UICONTROL Sent]** metriek omvatten aangezien zij voorafgaand aan e-mail het verzenden worden uitgefilterd.
 >
->Leer meer over het [ Levende Rapport ](../reports/live-report.md) en [ rapport van Customer Journey Analytics ](../reports/report-gs-cja.md). Om de reden voor alle uitsluitingsgevallen te weten te komen, kunt u de [ Dienst van de Vraag van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) gebruiken {target="_blank"}.
+>Leer meer over het [ Levende Rapport ](../reports/live-report.md) en [ rapport van Customer Journey Analytics ](../reports/report-gs-cja.md). Om de reden voor alle uitsluitingsgevallen te weten te komen, kunt u de [ Dienst van de Vraag van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} gebruiken .
 
 ### Leveringsfouten {#delivery-failures}
 

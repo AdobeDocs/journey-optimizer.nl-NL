@@ -28,7 +28,7 @@ Voer de onderstaande stappen uit om een pushmelding te maken:
 
 >[!BEGINTABS]
 
->[!TAB  voeg een Duw aan een Reis ] toe
+>[!TAB voeg een Duw aan een Reis  toe]
 
 1. Open de reis en sleep een duwactiviteit van de sectie van Acties van het palet.
 

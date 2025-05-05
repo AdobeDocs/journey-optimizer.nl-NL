@@ -181,7 +181,7 @@ Bij elke wijziging wordt een nieuw element gemaakt in het deelvenster **[!UICONT
 
 +++
 
-+++ **ben voorzichtig wanneer het gebruiken van het **[!UICONTROL Page `<head>`]**aanpassingstype voor twee campagnes die zelfde URL beïnvloeden.**
++++ **ben voorzichtig wanneer het gebruiken van het &#x200B;** [!UICONTROL Page `<head>`]&#x200B;**aanpassingstype voor twee campagnes die zelfde URL beïnvloeden.**
 
 Als u het wijzigingstype **[!UICONTROL Page `<head>`]** gebruikt voor twee campagnes die invloed hebben op dezelfde URL, wordt de JavaScript vanuit beide campagnes in de pagina geïnjecteerd. [!DNL Journey Optimizer] bepaalt automatisch de volgorde van de geleverde inhoud. Zorg ervoor dat de code niet afhankelijk is van plaatsing. Het is aan u om ervoor te zorgen dat er geen conflicten in de code zijn.
 

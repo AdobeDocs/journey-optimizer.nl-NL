@@ -40,13 +40,13 @@ Merk op dat voor Web, op code-gebaseerd en in-app kanalen, u moet ervoor zorgen 
 
 ## Vereisten
 
-Alvorens een dataset aan de rapporteringsconfiguratie toe te voegen, moet u die dataset tot stand brengen. Leer hoe in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create) {target="_blank"}.
+Alvorens een dataset aan de rapporteringsconfiguratie toe te voegen, moet u die dataset tot stand brengen. Leer hoe in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"} .
 
 * U kunt alleen gebeurtenistypen toevoegen.
 
-* Deze datasets moeten de `Experience Event - Proposition Interactions` [ gebiedsgroep ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group) {target="_blank"} omvatten.
+* Deze datasets moeten de `Experience Event - Proposition Interactions` [ gebiedsgroep ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"}  omvatten.
 
-* Deze datasets kunnen één van de volgende [ gebiedsgroepen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group) ook bevatten {target="_blank"}: `Application Details`, `Commerce Details`, `Web Details`.
+* Deze datasets kunnen één van de volgende [ gebiedsgroepen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"} ook bevatten : `Application Details`, `Commerce Details`, `Web Details`.
 
   >[!NOTE]
   >
@@ -62,7 +62,7 @@ Alvorens een dataset aan de rapporteringsconfiguratie toe te voegen, moet u die 
 
 >[!NOTE]
 >
->Leer meer over schema&#39;s XDM en gebiedsgroepen in de [ XDM het overzichtsdocumentatie van het Systeem ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) {target="_blank"}.
+>Leer meer over schema&#39;s XDM en gebiedsgroepen in de [ XDM het overzichtsdocumentatie van het Systeem ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"} .
 
 <!--
 ## Objectives corresponding to each field group {#objective-list}
@@ -100,11 +100,11 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    >[!CAUTION]
    >
-   >U kunt slechts een gebeurtenis-type dataset selecteren, die minstens één van de gesteunde [ gebiedsgroepen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group) {target="_blank"} moet bevatten: **de Details van de Toepassing**, **Details van Commerce**, **Details van het Web**. Als u een dataset selecteert die die criteria niet aanpast, zult u uw veranderingen niet kunnen bewaren.
+   >U kunt slechts een gebeurtenis-type dataset selecteren, die minstens één van de gesteunde [ gebiedsgroepen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"}  moet bevatten: **de Details van de Toepassing**, **Details van Commerce**, **Details van het Web**. Als u een dataset selecteert die die criteria niet aanpast, zult u uw veranderingen niet kunnen bewaren.
 
    ![](assets/reporting-config-datasets.png)
 
-   Leer meer over datasets in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html) {target="_blank"}.
+   Leer meer over datasets in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target="_blank"} .
 
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Profile ID]** het kenmerk Gegevenssetveld dat wordt gebruikt om elk profiel in uw rapporten te identificeren.
 
@@ -118,7 +118,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    ![](assets/reporting-config-namespace.png)
 
-   Leer meer over namespaces in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=nl) {target="_blank"}.
+   Leer meer over namespaces in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=nl){target="_blank"} .
 
 1. Sparen uw veranderingen om de geselecteerde dataset aan de rapportconfiguratielijst toe te voegen.
 

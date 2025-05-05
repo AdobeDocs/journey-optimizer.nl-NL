@@ -117,11 +117,11 @@ Zodra een dataset voor raadplegingsverpersoonlijking gebruikend een API vraag is
 
    +++Waar om een dataset ID terug te winnen?
 
-   Dataset-id&#39;s kunnen worden opgehaald in de gebruikersinterface van Adobe Experience Platform. Leer hoe te met datasets in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets) te werken {target="_blank"}.
+   Dataset-id&#39;s kunnen worden opgehaald in de gebruikersinterface van Adobe Experience Platform. Leer hoe te met datasets in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"} te werken .
 
    ![](assets/aep-data-dataset.png)
 
-+++
+   +++
 
 1. Pas de syntaxis aan uw wensen aan. In dit voorbeeld willen we gegevens ophalen over de vluchten van passagiers. De syntaxis is als volgt:
 
@@ -148,11 +148,11 @@ Zodra een dataset voor raadplegingsverpersoonlijking gebruikend een API vraag is
 
      +++Waar moet u een veld-id ophalen?
 
-     Velden-id&#39;s kunnen worden opgehaald wanneer een voorbeeld van een gegevensset in de gebruikersinterface van Adobe Experience Platform wordt weergegeven. Leer hoe te voorproef datasets in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview) {target="_blank"}.
+     Velden-id&#39;s kunnen worden opgehaald wanneer een voorbeeld van een gegevensset in de gebruikersinterface van Adobe Experience Platform wordt weergegeven. Leer hoe te voorproef datasets in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"} .
 
      ![](assets/aep-data-field.png)
 
-+++
+     +++
 
    In dit voorbeeld willen we informatie gebruiken over de instaptijd en -poort van de passagiers. Daarom voegen wij deze twee lijnen toe:
 

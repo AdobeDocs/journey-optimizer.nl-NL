@@ -66,8 +66,8 @@ of
 
 **Nuttige verbindingen**
 
-* Leer meer over DMARC in de [ Gids van de Beste praktijken van de Levering ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about) {target="_blank"}
-* Lees uit de [ aankondiging van Google Gmail ](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/) {target="_blank"}
-* Lees uit [ Yahoo! aankondiging ](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam) {target="_blank"}
+* Leer meer over DMARC in de [ Gids van de Beste praktijken van de Levering ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} 
+* Lees uit de [ aankondiging van Google Gmail ](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"} 
+* Lees uit [ Yahoo! aankondiging ](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"} 
 
 <!--Find more guidance about these changes in the [Deliverability Best Practice Guide]-->

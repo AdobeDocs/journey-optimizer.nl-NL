@@ -22,7 +22,7 @@ Met de op kenmerken gebaseerde toegangsbeheerfunctie kunt u machtigingen defini�
 
 Gebruik het op attribuut-gebaseerde toegangsbeheer in Adobe Journey Optimizer om gegevens te beschermen en specifieke toegang tot specifieke gebiedselementen met inbegrip van de schema&#39;s van de Gegevens van de Ervaring te verlenen het Model (XDM), de attributen van het Profiel, en publiek.
 
-Voor een meer gedetailleerde lijst van de terminologie die met op Attributen-Gebaseerde toegangscontrole wordt gebruikt, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html) {target="_blank"}.
+Voor een meer gedetailleerde lijst van de terminologie die met op Attributen-Gebaseerde toegangscontrole wordt gebruikt, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html){target="_blank"} .
 
 In dit voorbeeld, willen wij een etiket aan het **het schemagebied van de Nationaliteit** toevoegen om onbevoegde gebruikers van het te beperken gebruiken. Dit werkt alleen als u de volgende stappen uitvoert:
 
@@ -32,13 +32,13 @@ In dit voorbeeld, willen wij een etiket aan het **het schemagebied van de Nation
 
 1. Gebruik **[!UICONTROL Schema field]** in Adobe Journey Optimizer.
 
-**[!UICONTROL Roles]** , **[!UICONTROL Policies]** en **[!UICONTROL Products]** kunnen ook worden benaderd met de op kenmerken gebaseerde API voor toegangsbeheer. Voor meer op dit, verwijs naar deze [ documentatie ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html) {target="_blank"}.
+**[!UICONTROL Roles]** , **[!UICONTROL Policies]** en **[!UICONTROL Products]** kunnen ook worden benaderd met de op kenmerken gebaseerde API voor toegangsbeheer. Voor meer op dit, verwijs naar deze [ documentatie ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html){target="_blank"} .
 
 ## Een rol maken en labels toewijzen {#assign-role}
 
 >[!IMPORTANT]
 >
->Voordat u machtigingen voor een rol beheert, moet u eerst een beleid maken. Voor meer op dit, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html) {target="_blank"}.
+>Voordat u machtigingen voor een rol beheert, moet u eerst een beleid maken. Voor meer op dit, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html){target="_blank"} .
 
 **[!UICONTROL Roles]** is een reeks gebruikers die dezelfde machtigingen, labels en sandboxen binnen uw organisatie hebben. Elke gebruiker die tot een **[!UICONTROL Role]** behoort, heeft recht op de Adobe-apps en -services in het product.
 U kunt ook uw eigen **[!UICONTROL Roles]** maken als u de toegang van uw gebruikers tot bepaalde functies of objecten in de interface wilt verfijnen.
@@ -92,7 +92,7 @@ In dit voorbeeld, willen wij toegang tot het **gebied van de Nationaliteit** bep
 
 U kunt ook **[!UICONTROL Label]** toevoegen aan **[!UICONTROL Schema]** , **[!UICONTROL Datasets]** en **[!UICONTROL Audiences]** .
 
-1. Maak uw **[!UICONTROL Schema]** . Voor meer op dit, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html) {target="_blank"}.
+1. Maak uw **[!UICONTROL Schema]** . Voor meer op dit, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html){target="_blank"} .
 
    ![](assets/label_1.png)
 
@@ -104,11 +104,11 @@ U kunt ook **[!UICONTROL Label]** toevoegen aan **[!UICONTROL Schema]** , **[!UI
 
    ![](assets/label_3.png)
 
-1. Selecteer de corresponderende **[!UICONTROL Label]**, in dit geval de C2 - Gegevens kunnen niet naar een derde worden geëxporteerd. Voor de gedetailleerde lijst van beschikbare etiketten, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html#contract-labels) {target="_blank"}.
+1. Selecteer de corresponderende **[!UICONTROL Label]**, in dit geval de C2 - Gegevens kunnen niet naar een derde worden geëxporteerd. Voor de gedetailleerde lijst van beschikbare etiketten, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html#contract-labels){target="_blank"} .
 
    ![](assets/label_4.png)
 
-1. Pas verder uw schema aan als nodig dan laat het toe. Voor de gedetailleerde stappen op hoe te om uw schema toe te laten, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#profile) {target="_blank"}.
+1. Pas verder uw schema aan als nodig dan laat het toe. Voor de gedetailleerde stappen op hoe te om uw schema toe te laten, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#profile){target="_blank"} .
 
 Het veld van uw schema is nu alleen zichtbaar en kan nu alleen worden gebruikt door gebruikers die deel uitmaken van een rolset met het label C2.
 Door a **[!UICONTROL Label]** op uw **[!UICONTROL Field name]** toe te passen, merk op dat **[!UICONTROL Label]** automatisch op het **gebied van de Nationaliteit** in elk gecreeerd schema zal worden toegepast.

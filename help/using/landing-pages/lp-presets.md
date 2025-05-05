@@ -76,7 +76,7 @@ Voer de onderstaande stappen uit om een voorinstelling voor een openingspagina t
 
 1. Nadat de voorinstelling voor de openingspagina is gemaakt, wordt deze in de lijst weergegeven met de status **[!UICONTROL Active]** . U kunt deze nu gebruiken voor uw bestemmingspagina&#39;s.
 
-U bent nu klaar om landende pagina&#39;s ](../landing-pages/create-lp.md) in [!DNL Journey Optimizer] te creëren.[
+U bent nu klaar om landende pagina&#39;s [&#128279;](../landing-pages/create-lp.md) in [!DNL Journey Optimizer] te creëren.
 <!--
 >[!NOTE]
 >

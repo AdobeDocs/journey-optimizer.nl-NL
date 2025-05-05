@@ -36,7 +36,7 @@ Voordelen zijn:
 
 >[!NOTE]
 >
->Als u een [ Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html) {target="_blank"} gebruiker die de **Offer Decisioning** toepassing leveraging, zijn alle die eigenschappen van het Beheer van het Besluit in deze sectie worden beschreven ook op u van toepassing.
+>Als u een [ Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"}  gebruiker die de **Offer Decisioning** toepassing leveraging, zijn alle die eigenschappen van het Beheer van het Besluit in deze sectie worden beschreven ook op u van toepassing.
 
 ## Aanbiedingen en beslissingen {#about-offers-and-decisions}
 
@@ -68,7 +68,7 @@ Dankzij de mogelijkheden voor Beslissingsbeheer en de integratie met Adobe Exper
 
 ## Toegang verlenen tot het beheer van besluiten {#granting-acess-to-decision-management}
 
-De toestemmingen om beslissingsmogelijkheden toegang te hebben en te gebruiken worden beheerd gebruikend [ Adobe Admin Console ](https://helpx.adobe.com/nl/enterprise/managing/user-guide.html) {target="_blank"}.
+De toestemmingen om beslissingsmogelijkheden toegang te hebben en te gebruiken worden beheerd gebruikend [ Adobe Admin Console ](https://helpx.adobe.com/nl/enterprise/managing/user-guide.html){target="_blank"} .
 
 Als u toegang wilt verlenen tot de functionaliteit voor beslissingsbeheer, moet u een **[!UICONTROL Product profile]** maken en de bijbehorende machtigingen aan uw gebruikers toewijzen. Leer meer over het beheren van [!DNL Journey Optimizer] gebruikers en toestemmingen in [ deze sectie ](../../administration/permissions.md).
 

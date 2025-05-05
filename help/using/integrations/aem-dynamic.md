@@ -25,7 +25,7 @@ De Asset-kiezer ondersteunt nu Dynamische media waarmee u goedgekeurde dynamisch
 
 Deze integratie is alleen beschikbaar voor klanten die Dynamic Media Manager as a Cloud Service gebruiken.
 
-Meer over Dynamische Media in Adobe Experience Manager as a Cloud Service leren, verwijs naar [ documentatie van Experience Manager ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media) {target="_blank"}.
+Meer over Dynamische Media in Adobe Experience Manager as a Cloud Service leren, verwijs naar [ documentatie van Experience Manager ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"} .
 
 ## Dynamische media toevoegen en beheren {#dynamic-media}
 

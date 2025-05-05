@@ -30,15 +30,15 @@ Als u klaar bent, kunt u uw eerste In-app-bericht maken, configureren en verzend
 
 Voor de correcte levering van de berichten in de app moeten de volgende instellingen worden gedefinieerd:
 
-* In de [ Gegevensverzameling van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html) {target="_blank"}, zorg ervoor u een gegevensstroom hebt die zoals onder de **[!UICONTROL Adobe Experience Platform]** dienst wordt bepaald u toegelaten Adobe Experience Platform Edge en **[!UICONTROL Adobe Journey Optimizer]** optie hebt.
+* In de [ Gegevensverzameling van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html){target="_blank"} , zorg ervoor u een gegevensstroom hebt die zoals onder de **[!UICONTROL Adobe Experience Platform]** dienst wordt bepaald u toegelaten Adobe Experience Platform Edge en **[!UICONTROL Adobe Journey Optimizer]** optie hebt.
 
-  Dit zorgt ervoor dat de binnenkomende gebeurtenissen van Journey Optimizer correct worden afgehandeld door de Adobe Experience Platform Edge. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html) {target="_blank"}
+  Dit zorgt ervoor dat de binnenkomende gebeurtenissen van Journey Optimizer correct worden afgehandeld door de Adobe Experience Platform Edge. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"} 
 
   ![](assets/inapp_config_6.png)
 
-* In [ Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl) {target="_blank"}, zorg ervoor u het standaard toegelaten samenvoegbeleid met de **[!UICONTROL Active-On-Edge Merge Policy]** optie hebt. Selecteer hiertoe een beleid in het menu **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure) {target="_blank"}
+* In [ Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"} , zorg ervoor u het standaard toegelaten samenvoegbeleid met de **[!UICONTROL Active-On-Edge Merge Policy]** optie hebt. Selecteer hiertoe een beleid in het menu **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"} 
 
-  Dit samenvoegbeleid wordt door [!DNL Journey Optimizer] binnenkomende kanalen gebruikt om binnenkomende campagnes op de rand correct te activeren en te publiceren. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html) {target="_blank"}
+  Dit samenvoegbeleid wordt door [!DNL Journey Optimizer] binnenkomende kanalen gebruikt om binnenkomende campagnes op de rand correct te activeren en te publiceren. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target="_blank"} 
 
   >[!NOTE]
   >
@@ -120,13 +120,13 @@ U kunt nu uw configuratie selecteren wanneer u uw In-app-bericht maakt.
 >
 >De dataset wordt gebruikt read-only door het [!DNL Journey Optimizer] rapporteringssysteem en beïnvloedt gegevensinzameling of gegevensopname niet.
 
-Om rapportering voor in-app kanaal toe te laten, moet u ervoor zorgen de [ dataset ](../data/get-started-datasets.md) wordt gebruikt in uw in-app implementatie [ datastream ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html) {target="_blank"} is ook inbegrepen in uw rapporteringsconfiguratie die.
+Om rapportering voor in-app kanaal toe te laten, moet u ervoor zorgen de [ dataset ](../data/get-started-datasets.md) wordt gebruikt in uw in-app implementatie [ datastream ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}  is ook inbegrepen in uw rapporteringsconfiguratie die.
 
 Met andere woorden, als u bij het configureren van rapporten een gegevensset toevoegt die niet aanwezig is in uw toepassingsgegevensstroom, worden toepassingsgegevens niet weergegeven in uw rapporten.
 
 Leer hoe te om datasets voor het melden in [ toe te voegen deze sectie ](../reports/reporting-configuration.md#add-datasets).
 
-Als u **niet** gebruikend de volgende vooraf bepaalde [ gebiedsgroepen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group) {target="_blank"} voor uw datasetschema bent: `AEP Web SDK ExperienceEvent` en `Consumer Experience Event` (zoals bepaald op [ deze pagina ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups) {target="_blank"}), zorg ervoor om de volgende gebiedsgroepen toe te voegen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, en `Web Details`. Deze zijn nodig door [!DNL Journey Optimizer] -rapporten, omdat ze bijhouden aan welke campagnes en reizen elk profiel deelneemt.
+Als u **niet** gebruikend de volgende vooraf bepaalde [ gebiedsgroepen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"}  voor uw datasetschema bent: `AEP Web SDK ExperienceEvent` en `Consumer Experience Event` (zoals bepaald op [ deze pagina ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"} ), zorg ervoor om de volgende gebiedsgroepen toe te voegen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, en `Web Details`. Deze zijn nodig door [!DNL Journey Optimizer] -rapporten, omdat ze bijhouden aan welke campagnes en reizen elk profiel deelneemt.
 
 [Meer informatie over rapportconfiguratie](../reports/reporting-configuration.md)
 

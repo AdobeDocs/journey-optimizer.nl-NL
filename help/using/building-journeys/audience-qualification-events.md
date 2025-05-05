@@ -52,10 +52,10 @@ Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
 
 * De groepen van het de gebeurtenisgebied van de ervaring kunnen niet in ritten worden gebruikt die met a **Gelezen Publiek**, a **de Kwalificatie van het Publiek** of a **BedrijfsGebeurtenis** activiteit beginnen.
 
-* Wanneer het gebruiken van de Kwalificatie van het publiek **activiteit van het 0} {in een reis, kan die activiteit tot 10 minuten duren om actief te zijn en aan profielen te luisteren die of het publiek ingaan weggaan.**
+* Wanneer het gebruiken van de Kwalificatie van het publiek **activiteit van het 0&rbrace; &lbrace;in een reis, kan die activiteit tot 10 minuten duren om actief te zijn en aan profielen te luisteren die of het publiek ingaan weggaan.**
 
 
-Zie ook ](#best-practices-segments) hieronder de beste praktijken van de Kwalificatie van het publiek 0}.[
+Zie ook [&#128279;](#best-practices-segments) hieronder de beste praktijken van de Kwalificatie van het publiek 0&rbrace;.
 
 ### De activiteit configureren {#configure-segment-qualification}
 
@@ -85,7 +85,7 @@ Voer de volgende stappen uit om de **[!UICONTROL Audience Qualification]** -acti
 
    >[!NOTE]
    >
-   >Merk op dat **[!UICONTROL Enter]** en **[!UICONTROL Exit]** aan de **Realized** beantwoorden en **Uitgegeven** status van de publieksparticipatie van Adobe Experience Platform. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [ documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results) {target="_blank"}.
+   >Merk op dat **[!UICONTROL Enter]** en **[!UICONTROL Exit]** aan de **Realized** beantwoorden en **Uitgegeven** status van de publieksparticipatie van Adobe Experience Platform. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [ documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"} .
 
 1. Selecteer een naamruimte. Dit is alleen nodig als de gebeurtenis als eerste stap van de reis wordt geplaatst. Het veld wordt standaard voorgevuld met de laatst gebruikte naamruimte.
 
@@ -137,7 +137,7 @@ Gebruik in een **[!UICONTROL Audience Qualification]** -activiteit niet meteen n
 
 ![](assets/segment-error.png)
 
-Plaats een plafondregel voor gegevensbronnen en handelingen die tijdens reizen worden gebruikt om overbelasting te voorkomen. Leer meer in [ documentatie van Journey Orchestration ](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html) {target="_blank"}. De bijschilderregel hoeft niet opnieuw te worden uitgevoerd. Als u het opnieuw moet proberen, moet u een alternatief pad in de reis gebruiken door het vakje **[!UICONTROL Add an alternative path in case of a timeout or an error]** in voorwaarden of acties te controleren.
+Plaats een plafondregel voor gegevensbronnen en handelingen die tijdens reizen worden gebruikt om overbelasting te voorkomen. Leer meer in [ documentatie van Journey Orchestration ](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"} . De bijschilderregel hoeft niet opnieuw te worden uitgevoerd. Als u het opnieuw moet proberen, moet u een alternatief pad in de reis gebruiken door het vakje **[!UICONTROL Add an alternative path in case of a timeout or an error]** in voorwaarden of acties te controleren.
 
 Voordat u het publiek in een productiereis gaat gebruiken, moet u altijd eerst het aantal personen evalueren dat elke dag voor dit publiek in aanmerking komt. U kunt dit doen door het menu **[!UICONTROL Audience]** te selecteren, het publiek te openen en vervolgens naar de **[!UICONTROL Profiles over time]** -grafiek te kijken.
 

@@ -26,7 +26,7 @@ Ga als volgt te werk om Infobip met Journey Optimizer te configureren:
 
    * **[!UICONTROL Name]**: kies een naam voor uw API-referentie.
 
-   * **[!UICONTROL API base URL]** en **[!UICONTROL API key]** : open de webinterfacehomepage of de API-sleutelbeheerpagina om uw referenties te zoeken. Leer meer in [ Documentatie Infobip ](https://www.infobip.com/docs/api) {target="_blank"}.
+   * **[!UICONTROL API base URL]** en **[!UICONTROL API key]** : open de webinterfacehomepage of de API-sleutelbeheerpagina om uw referenties te zoeken. Leer meer in [ Documentatie Infobip ](https://www.infobip.com/docs/api){target="_blank"} .
 
    * **[!UICONTROL Opt-In Keywords]** : voer de standaardtrefwoorden of aangepaste trefwoorden in die automatisch uw **[!UICONTROL Opt-In Message]** activeren. Gebruik voor meerdere trefwoorden door komma&#39;s gescheiden waarden.
 

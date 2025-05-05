@@ -55,7 +55,7 @@ Vanaf uw reis **[!UICONTROL Live report]** geeft het tabblad **[!UICONTROL Journ
 
 Met **[!UICONTROL Journey Performance]** kunt u het pad van uw doelprofielen stap voor stap bekijken.
 
-Let op: het aantal profielen voor een knooppunt wordt alleen bijgewerkt nadat het profiel het knooppunt heeft voltooid, niet wanneer het knooppunt wordt ingevoerd. Bijvoorbeeld, wacht een profiel op a **** knoop slechts wanneer de gespecificeerde datum wordt bereikt en het profiel de knoop heeft verlaten.
+Let op: het aantal profielen voor een knooppunt wordt alleen bijgewerkt nadat het profiel het knooppunt heeft voltooid, niet wanneer het knooppunt wordt ingevoerd. Bijvoorbeeld, wacht een profiel op a **&#x200B;**&#x200B;knoop slechts wanneer de gespecificeerde datum wordt bereikt en het profiel de knoop heeft verlaten.
 
 ### Reisstatistieken {#journey-statistics}
 

@@ -23,7 +23,7 @@ ht-degree: 1%
 >title="Aangepaste acties"
 >abstract="Als u een derdesysteem gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, gebruik douaneacties om zijn verbinding aan uw reis te vormen."
 
-Als u een derdesysteem gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, gebruik douaneacties om zijn verbinding aan uw reis te vormen. Bijvoorbeeld kunt u met de volgende systemen met douaneacties verbinden: Epsilon, Slack, [ Adobe Developer ](https://developer.adobe.com) {target="_blank"}, Vuurbasis, enz.
+Als u een derdesysteem gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, gebruik douaneacties om zijn verbinding aan uw reis te vormen. Bijvoorbeeld kunt u met de volgende systemen met douaneacties verbinden: Epsilon, Slack, [ Adobe Developer ](https://developer.adobe.com){target="_blank"} , Vuurbasis, enz.
 
 Aangepaste acties zijn aanvullende acties die door technische gebruikers worden gedefinieerd en beschikbaar worden gesteld aan verkopers. Als deze zijn geconfigureerd, worden ze weergegeven in het linkerpalet van uw reis, in de categorie **[!UICONTROL Action]** . Leer meer op [ deze pagina ](../building-journeys/about-journey-activities.md#action-activities).
 

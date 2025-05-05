@@ -24,7 +24,7 @@ Als een profiel ervoor heeft gekozen geen communicatie van u te ontvangen, wordt
 
 >[!IMPORTANT]
 >
->Het toestemmingsbeleid is momenteel slechts beschikbaar voor organisaties die het 3} toe:voegen-op dienstenaanbod van het Schild van de Gezondheidszorg van Adobe **of** of **Privacy en van het Schild van de Veiligheid {hebben gekocht.**
+>Het toestemmingsbeleid is momenteel slechts beschikbaar voor organisaties die het 3&rbrace; toe:voegen-op dienstenaanbod van het Schild van de Gezondheidszorg van Adobe **of** of **Privacy en van het Schild van de Veiligheid &lbrace;hebben gekocht.**
 
 De belangrijkste stappen voor de toepassing van het toestemmingsbeleid zijn:
 
@@ -41,13 +41,13 @@ De belangrijkste stappen voor de toepassing van het toestemmingsbeleid zijn:
 
 ## Gebruikt toestemmingsbeleid door kanaalconfiguraties {#surface-marketing-actions}
 
-In [!DNL Journey Optimizer], wordt de toestemming behandeld door het schema van de Experience Platform [ Toestemming ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"}. Standaard is de waarde voor het veld voor toestemming leeg en wordt deze behandeld als toestemming voor het ontvangen van uw communicatie. U kunt deze standaardwaarde wijzigen terwijl het aan een van de mogelijke hier vermelde waarden [ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target="_blank"}.
+In [!DNL Journey Optimizer], wordt de toestemming behandeld door het schema van de Experience Platform [ Toestemming ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"}. Standaard is de waarde voor het veld voor toestemming leeg en wordt deze behandeld als toestemming voor het ontvangen van uw communicatie. U kunt deze standaardwaarde wijzigen terwijl het aan een van de mogelijke hier vermelde waarden [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target="_blank"}.
 
 Om de waarde van het toestemmingsgebied te wijzigen, kunt u een beleid van de douanetoestemming tot stand brengen waarin u een marketing actie en de voorwaarden bepaalt waaronder die actie wordt uitgevoerd. [ leer meer over marketing acties ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html#marketing-actions){target="_blank"}
 
 Als u bijvoorbeeld een toestemmingsbeleid wilt maken om alleen profielen te kiezen die hebben ingestemd met het ontvangen van e-mailberichten, volgt u de onderstaande stappen.
 
-1. Zorg ervoor uw organisatie het 3} toe:voegen-op dienstenaanbod van het Schild van de Gezondheidszorg van Adobe **of** Privacy en van het Schild van de Veiligheid {heeft gekocht. **** [Meer informatie](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html){target="_blank"}
+1. Zorg ervoor uw organisatie het 3&rbrace; toe:voegen-op dienstenaanbod van het Schild van de Gezondheidszorg van Adobe **of** Privacy en van het Schild van de Veiligheid &lbrace;heeft gekocht. **&#x200B;**&#x200B;[Meer informatie](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html){target="_blank"}
 
 1. Maak in Adobe Experience Platform een aangepast beleid (via het menu **[!UICONTROL Privacy]** > **[!UICONTROL Policies]** ). [ leer hoe ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#create-policy){target="_blank"}
 

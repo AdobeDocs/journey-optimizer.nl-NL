@@ -35,8 +35,8 @@ Ga als volgt te werk om een Google TXT-record aan uw subdomein toe te voegen:
 
 1. Open het subdomein via het menu **[!UICONTROL Channels]** > **[!UICONTROL Email settings]** > **[!UICONTROL Subdomains]** .
 
-1. In de **[!UICONTROL Google txt record]** sectie, ga de verificatiecode in die van [ Google Workspace ](https://support.google.com/a/answer/183895) {target="_blank"}<!--G Suite Admin tools--> wordt geproduceerd, dan klik **[!UICONTROL Save]**.
+1. In de **[!UICONTROL Google txt record]** sectie, ga de verificatiecode in die van [ Google Workspace ](https://support.google.com/a/answer/183895){target="_blank"} <!--G Suite Admin tools--> wordt geproduceerd, dan klik **[!UICONTROL Save]**.
 
    ![](assets/subdomain-google-txt.png)
 
-1. Nadat de TXT-record is toegevoegd, moet u deze door Google laten verifiëren. Om dit te doen, navigeer aan [ Google Workspace ](https://support.google.com/a/answer/183895) {target="_blank"}<!--G Suite Admin tools-->, dan lanceer de verificatiestap.
+1. Nadat de TXT-record is toegevoegd, moet u deze door Google laten verifiëren. Om dit te doen, navigeer aan [ Google Workspace ](https://support.google.com/a/answer/183895){target="_blank"} <!--G Suite Admin tools-->, dan lanceer de verificatiestap.

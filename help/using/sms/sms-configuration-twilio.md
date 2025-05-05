@@ -28,7 +28,7 @@ Als u Twilio wilt configureren met Journey Optimizer, moet u een nieuwe API-refe
 
    * **[!UICONTROL Account SID]** en **[!UICONTROL Auth Token]**: heb toegang tot de **Info van de Rekening** ruit van uw pagina van het Dashboard van de Console van Twilio om uw geloofsbrieven te vinden.
 
-   * **[!UICONTROL Message SID]**: voer de unieke id in die is toegewezen aan elk bericht dat is gemaakt door de API van Twilio. Leer meer in [ Twilio Documentatie ](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-) {target="_blank"}.
+   * **[!UICONTROL Message SID]**: voer de unieke id in die is toegewezen aan elk bericht dat is gemaakt door de API van Twilio. Leer meer in [ Twilio Documentatie ](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"} .
 
    * **[!UICONTROL Inbound Number]**: voeg uw unieke binnenkomende getal toe. Zo kunt u dezelfde API-referenties gebruiken in verschillende sandboxen, elk met een eigen binnenkomend nummer.
 

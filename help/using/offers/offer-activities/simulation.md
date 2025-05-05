@@ -214,5 +214,5 @@ Nadat u een beslissingsbereik hebt toegevoegd en een testprofiel hebt geselectee
 
    >[!NOTE]
    >
-   >Wanneer u de aanvraag- of antwoordladingen naar uw eigen code kopieert, moet u {USER_TOKEN} en {API_KEY} vervangen door geldige waarden. Leer hoe te om deze waarden in [ Adobe Experience Platform APIs terug te winnen ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html) {target="_blank"} documentatie.
+   >Wanneer u de aanvraag- of antwoordladingen naar uw eigen code kopieert, moet u {USER_TOKEN} en {API_KEY} vervangen door geldige waarden. Leer hoe te om deze waarden in [ Adobe Experience Platform APIs terug te winnen ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"}  documentatie.
 

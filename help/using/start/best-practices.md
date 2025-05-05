@@ -61,7 +61,7 @@ Er zijn een aantal beste praktijken die u kunt aannemen, die u helpen binnen de 
 
   ![](assets/journey-guardrails2.png)
 
-* Vervolgens kunt u in het gedeelte Reisinventarisatie alle reizen filteren op Status = &quot;Live&quot; en Type = &quot;Leespubliek&quot;. Sorteer vervolgens op publicatiedatum (oudste naar nieuwste). Klik op de reis en ga naar het schema. Stop alle levende reizen die een programma hadden om **te lopen** of **{zo spoedig mogelijk** die ouder zijn dan een dag en slechts één actie hebben.
+* Vervolgens kunt u in het gedeelte Reisinventarisatie alle reizen filteren op Status = &quot;Live&quot; en Type = &quot;Leespubliek&quot;. Sorteer vervolgens op publicatiedatum (oudste naar nieuwste). Klik op de reis en ga naar het schema. Stop alle levende reizen die een programma hadden om **te lopen** of **&lbrace;zo spoedig mogelijk** die ouder zijn dan een dag en slechts één actie hebben.
 
   ![](assets/journey-guardrails1.png)
 

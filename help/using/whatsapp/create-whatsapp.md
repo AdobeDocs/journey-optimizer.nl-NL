@@ -65,7 +65,7 @@ Blader hieronder naar de tabbladen om te leren hoe u een WhatsApp-bericht kunt t
 
 >[!BEGINTABS]
 
->[!TAB  voeg een bericht WhatsApp aan een Reis ] toe
+>[!TAB voeg een bericht WhatsApp aan een Reis  toe]
 
 1. Open uw reis dan belemmering en laat vallen a **WhatsApp activiteit** van de **sectie van Acties** van het palet.
 

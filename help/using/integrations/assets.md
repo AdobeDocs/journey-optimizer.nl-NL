@@ -30,7 +30,7 @@ Maak gebruik van **[!DNL Adobe Experience Manager Assets]** om marketing- en cre
 
 * **[!DNL Assets Essentials]**: Experience Manager Assets Essentials is Assets as a Cloud Service Lightweight-oplossing voor gezamenlijk beheer van bedrijfsmiddelen en samenwerking. Met een moderne, vereenvoudigde interface kunnen creatieve en marketingteams moeiteloos digitale middelen opslaan, ontdekken en distribueren.
 
-  Leer meer in [ documentatie van de Hoofdzaak van de Activa van de Manager van de Ervaring van Adobe ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html) {target="_blank"}.
+  Leer meer in [ documentatie van de Hoofdzaak van de Activa van de Manager van de Ervaring van Adobe ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"} .
 
 Afhankelijk van uw contract kunt u **[!DNL Adobe Experience Manager Assets Essentials]** of **[!DNL Adobe Experience Manager Assets as a Cloud Service]** rechtstreeks vanuit **[!DNL Adobe Journey Optimizer]** openen via de sectie voor het linkermenu **[!UICONTROL Assets]** . U kunt tot activa en omslagen ook toegang hebben wanneer [ het ontwerpen van een e-mailinhoud ](../email/get-started-email-design.md).
 
@@ -40,10 +40,10 @@ Afhankelijk van uw contract kunt u **[!DNL Adobe Experience Manager Assets Essen
 
 >[!TAB  de Elementen van de Activa van de Manager van de Ervaring van Adobe ]
 
-Alvorens [!DNL Adobe Experience Manager Assets Essentials] te gebruiken, moet u gebruikers aan de **Hoofdzaak van Activa Consumenten** of **de Profielen van het Product van de Gebruikers van de Hoofdzaak van Activa** toevoegen. Lees meer in [ documentatie van de Hoofdzaak van Activa ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-user-groups) {target="_blank"}.
+Alvorens [!DNL Adobe Experience Manager Assets Essentials] te gebruiken, moet u gebruikers aan de **Hoofdzaak van Activa Consumenten** of **de Profielen van het Product van de Gebruikers van de Hoofdzaak van Activa** toevoegen. Lees meer in [ documentatie van de Hoofdzaak van Activa ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-user-groups){target="_blank"} .
 
 >[!NOTE]
->Voor Journey Optimizer-producten die zijn verkregen vóór 6 januari 2022, moet u **[!DNL Adobe Experience Manager Assets Essentials]** implementeren voor uw organisatie. Leer meer in [ opstellen de Hoofdzaak van Activa ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html) {target="_blank"} sectie.
+>Voor Journey Optimizer-producten die zijn verkregen vóór 6 januari 2022, moet u **[!DNL Adobe Experience Manager Assets Essentials]** implementeren voor uw organisatie. Leer meer in [ opstellen de Hoofdzaak van Activa ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target="_blank"}  sectie.
 
 >[!TAB  Adobe Experience Manager Assets as a Cloud Service ]
 

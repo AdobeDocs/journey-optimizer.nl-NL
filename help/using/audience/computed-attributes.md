@@ -70,6 +70,6 @@ De gedetailleerde informatie over hoe te om gebiedsgroepen aan de gegevensbron v
 
 Berekende kenmerken bieden een veelzijdige set mogelijkheden binnen de functie Reisoptimalisatie. U kunt ze voor verschillende doeleinden gebruiken, zoals het personaliseren van berichtinhoud, het maken van nieuwe soorten publiek of het splitsen van reizen op basis van een specifiek berekend kenmerk. U kunt bijvoorbeeld het pad van een rit splitsen op basis van de totale aankopen van een profiel in de laatste drie weken door één berekend kenmerk toe te voegen aan een Condition-activiteit. U kunt een e-mailbericht ook personaliseren door het laatst bekeken item voor elk profiel weer te geven.
 
-Aangezien de gegevens verwerkte attributen profielkenmerkgebieden zijn die op uw schema van de profielunie worden gecreeerd, kunt u tot hen van de verpersoonlijkingsredacteur binnen de **gebiedsgroep toegang hebben 0} SystemComputedAttributes.** Vanaf dat punt kunt u het berekende kenmerk aan uw expressies toevoegen en deze als elk ander profielkenmerk behandelen om de gewenste bewerkingen uit te voeren.
+Aangezien de gegevens verwerkte attributen profielkenmerkgebieden zijn die op uw schema van de profielunie worden gecreeerd, kunt u tot hen van de verpersoonlijkingsredacteur binnen de **gebiedsgroep toegang hebben 0&rbrace; SystemComputedAttributes.** Vanaf dat punt kunt u het berekende kenmerk aan uw expressies toevoegen en deze als elk ander profielkenmerk behandelen om de gewenste bewerkingen uit te voeren.
 
 ![](assets/computed-attributes-ajo.png)

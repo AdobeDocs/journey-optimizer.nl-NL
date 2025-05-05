@@ -62,7 +62,7 @@ Voor de meertalige inhoud moeten de volgende instellingen worden gedefinieerd:
 
    1. Klik **uitgeven** om de toestemmingen te wijzigen.
 
-   1. Voeg het **middel van de vertaaldienst 0} {toe, dan selecteer de aangewezen meertalige toestemmingen van het drop-down menu.**
+   1. Voeg het **middel van de vertaaldienst 0&rbrace; &lbrace;toe, dan selecteer de aangewezen meertalige toestemmingen van het drop-down menu.**
 
       ![](assets/multilingual-permission.png){zoomable="yes"}
 

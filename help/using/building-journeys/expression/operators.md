@@ -176,7 +176,7 @@ Voorbeeld:
 
 >[!NOTE]
 >
-Voor &lt;expression1> en &lt;expression2> is er geen gegevenstypecontrole.
+>Voor &lt;expression1> en &lt;expression2> is er geen gegevenstypecontrole.
 
 Het resultaat is booleaans.
 

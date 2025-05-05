@@ -339,7 +339,7 @@ API-aanroepen voor gebruik:
 
 +++
 
-++ + schrap een opgestelde throttingconfiguratie
++++ schrap een opgestelde throttingconfiguratie
 
 In slechts één API-aanroep kunt u de configuratie met behulp van de parameter `forceDelete` verwijderen en de implementatie ervan ongedaan maken.
 
@@ -350,7 +350,7 @@ API-aanroepen voor gebruik:
 
 +++
 
-++ + Update een reeds opgezette throttingconfiguratie
++++ Update een reeds opgezette throttingconfiguratie
 
 >[!NOTE]
 >

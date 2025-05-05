@@ -53,7 +53,7 @@ waarbij:
 
 * **Profiel**
 
-  Dit namespace staat u toe om alle die attributen van verwijzingen te voorzien in het profielschema in [ wordt beschreven het Model van Gegevens van Adobe Experience Platform (XDM) documentatie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) {target="_blank"}.
+  Dit namespace staat u toe om alle die attributen van verwijzingen te voorzien in het profielschema in [ wordt beschreven het Model van Gegevens van Adobe Experience Platform (XDM) documentatie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"} .
 
   De attributen moeten in het schema worden bepaald alvorens in een [!DNL Journey Optimizer] verpersoonlijkingsblok wordt van verwijzingen voorzien.
 
@@ -69,11 +69,11 @@ waarbij:
    * `{{profile.homeAddress.city}}`
    * `{{profile.faxPhone.number}}`
 
-+++
+  +++
 
 * **Doelgroep**
 
-  Meer over de segmentatiedienst leren, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) {target="_blank"}.
+  Meer over de segmentatiedienst leren, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} .
 
 * **Aanbiedingen**
 
@@ -112,7 +112,7 @@ waarbij:
 
      `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-+++
+  +++
 
 ## Helpers{#helpers-all}
 

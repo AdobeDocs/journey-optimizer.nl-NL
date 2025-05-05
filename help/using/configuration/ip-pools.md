@@ -98,8 +98,8 @@ Volg onderstaande stappen om een IP-pool te bewerken.
 
 De update is onmiddellijk of asynchroon, afhankelijk van de IP pool die aan a [ kanaalconfiguratie ](channel-surfaces.md) of niet wordt geassocieerd:
 
-* Als de IP pool **** niet {met om het even welke kanaalconfiguratie wordt geassocieerd, is de update onmiddellijk (**[!UICONTROL Success]** status).
-* Als de IP pool **** met een kanaalconfiguratie wordt geassocieerd, kan de update tot 3 uren (**[!UICONTROL Processing]** status) nemen.
+* Als de IP pool **&#x200B;**&#x200B;niet &lbrace;met om het even welke kanaalconfiguratie wordt geassocieerd, is de update onmiddellijk (**[!UICONTROL Success]** status).
+* Als de IP pool **&#x200B;**&#x200B;met een kanaalconfiguratie wordt geassocieerd, kan de update tot 3 uren (**[!UICONTROL Processing]** status) nemen.
 
 >[!NOTE]
 >

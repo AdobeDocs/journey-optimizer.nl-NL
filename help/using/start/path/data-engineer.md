@@ -23,7 +23,7 @@ Leer hoe te **gegevens identificeren en schema en dataset** tot stand brengen om
 
 >[!NOTE]
 >
->Leer meer over **gegevensopname** in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) {target="_blank"}.
+>Leer meer over **gegevensopname** in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html){target="_blank"} .
 
 De stappen om een identiteitsnamespace en een dataset tot stand te brengen die voor profielen wordt toegelaten, en de testprofielen zijn gedetailleerd in de hieronder secties:
 
@@ -42,7 +42,7 @@ Daarnaast moet u **[!UICONTROL Data Sources]** , **[!UICONTROL Events]** en **[!
 
 ![](../assets/admin-menu.png)
 
-* De **configuratie van Source van 0} Gegevens {staat u toe om een verbinding aan een systeem te bepalen om extra informatie terug te winnen die in uw reizen zal worden gebruikt.** Leer meer over Gegevensbronnen [ in deze sectie ](../../datasource/about-data-sources.md).
+* De **configuratie van Source van 0&rbrace; Gegevens &lbrace;staat u toe om een verbinding aan een systeem te bepalen om extra informatie terug te winnen die in uw reizen zal worden gebruikt.** Leer meer over Gegevensbronnen [ in deze sectie ](../../datasource/about-data-sources.md).
 
 * **Gebeurtenissen** staan u toe om uw reizen unitatically te teweegbrengen om berichten, in real time, naar het individu te verzenden dat in de reis stroomt. In de gebeurtenisconfiguratie, vormt u de gebeurtenissen die in de reizen worden verwacht. De data van binnenkomende gebeurtenissen worden genormaliseerd volgens het Adobe Experience Data Model (XDM). Gebeurtenissen komen van de Streaming Ingestie-API&#39;s voor geverifieerde en niet-geverifieerde gebeurtenissen (zoals Adobe Mobile SDK-gebeurtenissen). Leer meer over gebeurtenissen [ in deze sectie ](../../event/about-events.md).
 

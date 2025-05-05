@@ -86,7 +86,7 @@ Voer de volgende stappen uit om een AI-model te maken:
 * defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
 * and in which dataset you want to collect the event data.-->
 
-Nu telkens als een aanbieding wordt getoond en/of geklikt, wilt u de overeenkomstige gebeurtenis automatisch worden gevangen door de **[!UICONTROL Experience Event - Proposition Interactions]** gebiedsgroep gebruikend het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F) {target="_blank"} of Mobiele SDK.
+Nu telkens als een aanbieding wordt getoond en/of geklikt, wilt u de overeenkomstige gebeurtenis automatisch worden gevangen door de **[!UICONTROL Experience Event - Proposition Interactions]** gebiedsgroep gebruikend het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"}  of Mobiele SDK.
 
 Als u gebeurtenistypen wilt kunnen verzenden (weergegeven aanbod of aangeklikte aanbieding), moet u de juiste waarde voor elk gebeurtenistype instellen in een ervaringsgebeurtenis die naar Adobe Experience Platform wordt verzonden. [ leer hoe ](../data-collection/schema-requirement.md)
 

@@ -26,7 +26,7 @@ Het Campaign Standard-transactiebericht en de bijbehorende gebeurtenis moeten wo
 
 ## Belangrijke opmerkingen {#important-notes}
 
-* Voor Adobe Campaign Standard-acties wordt automatisch een afluisterregel van 4000 aanroepen per 5 minuten gedefinieerd. Dit komt overeen met de officiële schaal van Transactioneel Overseinen van Adobe Campaign Standard. Lees meer over transactionele overseinen SLAs in [ de Beschrijving van het Product van Adobe Campaign Standard ](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html) {target="_blank"}.
+* Voor Adobe Campaign Standard-acties wordt automatisch een afluisterregel van 4000 aanroepen per 5 minuten gedefinieerd. Dit komt overeen met de officiële schaal van Transactioneel Overseinen van Adobe Campaign Standard. Lees meer over transactionele overseinen SLAs in [ de Beschrijving van het Product van Adobe Campaign Standard ](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html){target="_blank"} .
 
 * Adobe Campaign Standard-integratie wordt ingesteld door middel van een speciale ingebouwde actie in de lijst met acties. Dit moet voor elke zandbak worden gevormd.
 

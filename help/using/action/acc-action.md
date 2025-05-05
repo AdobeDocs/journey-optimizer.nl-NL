@@ -58,7 +58,7 @@ Uit Adobe Campaign:
 
 ## Vereisten {#prerequisites}
 
-In Campagne, moet u een transactiebericht en zijn bijbehorende gebeurtenis tot stand brengen en publiceren. Verwijs naar de [ documentatie van Adobe Campaign ](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging) {target="_blank"}.
+In Campagne, moet u een transactiebericht en zijn bijbehorende gebeurtenis tot stand brengen en publiceren. Verwijs naar de [ documentatie van Adobe Campaign ](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target="_blank"} .
 
 U kunt uw JSON-lading voor elk bericht samenstellen volgens het onderstaande patroon. U gaat deze payload vervolgens plakken tijdens het configureren van de handeling in Journey Optimizer (zie hieronder)
 

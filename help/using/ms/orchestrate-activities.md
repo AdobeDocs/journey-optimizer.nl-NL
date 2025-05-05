@@ -64,7 +64,7 @@ U kunt:
 * **Exemplaar** de activiteit. Zie [deze sectie](#copy).
 * **beweging** een activiteit en al zijn kindknopen aan een andere overgang. Zie [ deze sectie ](#move)
 * Heb toegang tot de opties van de activiteit **Uitvoering**.
-* Heb toegang tot de Logboeken en de taken van de activiteit ****.
+* Heb toegang tot de Logboeken en de taken van de activiteit **&#x200B;**.
 
 Verscheidene **richtend** activiteiten, zoals **combineren** of **Deduplicatie**, staat u toe om de resterende bevolking te verwerken en het in een extra uitgaande overgang te omvatten. Bijvoorbeeld, als u a **Gesplitste** activiteit gebruikt, bestaat de aanvulling uit de bevolking die om het even welke eerder bepaalde ondergroepen niet aanpast. Om dit vermogen te gebruiken, activeer **aanvult** optie.
 
@@ -118,7 +118,7 @@ Het **Maximale uitvoeringstijd** gebied staat u toe om een duur zoals &quot;30s&
 
 Het **gebied van de tijdzone** staat u toe om de tijdzone van de activiteit te selecteren. Met Adobe Journey Optimizer kunt u de tijdsverschillen tussen meerdere landen op hetzelfde moment beheren. De toegepaste instelling wordt geconfigureerd wanneer de instantie wordt gemaakt.
 
-**het 1} gebied van de affiniteit {staat u toe om een georkestreerde campagne of een georkestreerde campagneactiviteit te dwingen om op een bepaalde machine uit te voeren.** Hiervoor moet u een of meer affiniteiten opgeven voor de georkestreerde campagne of activiteit in kwestie.
+**het 1&rbrace; gebied van de affiniteit &lbrace;staat u toe om een georkestreerde campagne of een georkestreerde campagneactiviteit te dwingen om op een bepaalde machine uit te voeren.** Hiervoor moet u een of meer affiniteiten opgeven voor de georkestreerde campagne of activiteit in kwestie.
 
 Het **gebied van het Gedrag** staat u toe om de te volgen procedure te bepalen als de asynchrone taken worden gebruikt.
 

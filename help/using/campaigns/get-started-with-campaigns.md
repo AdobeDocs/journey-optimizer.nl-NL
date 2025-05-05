@@ -59,7 +59,7 @@ Controleer de volgende voorwaarden voordat u begint met het maken van uw eerste 
 
    Uw gebruiker moet dan een e-mail ontvangen die aan uw instantie opnieuw richt.
 
-+++
+   +++
 
 1. **u hebt een publiek** nodig. De doelgroepen moeten beschikbaar zijn voordat ze de campagne kunnen opzetten. Leer meer over publiek [ op deze pagina ](../audience/about-audiences.md).
 1. **u hebt een kanaalconfiguratie** nodig. Als u een kanaal wilt kunnen selecteren, moet de corresponderende kanaalconfiguratie (d.w.z. vooraf ingesteld) zijn gemaakt en beschikbaar. Leer meer over kanaalconfiguraties [ op deze pagina ](../configuration/channel-surfaces.md).

@@ -62,7 +62,7 @@ Voer de onderstaande stappen uit om een API-gestuurde campagne te maken. De gede
 
      >[!NOTE]
      >
-     >Eén API-aanroep ondersteunt maximaal 20 unieke ontvangers. Elke ontvanger moet een unieke gebruikersnaam hebben. Dubbele gebruikers-id&#39;s zijn niet toegestaan. Leer meer in de [ Interactieve documentatie van API van de Uitvoering van het Bericht ](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution/operation/postIMUnitaryMessageExecution) {target="_blank"}
+     >Eén API-aanroep ondersteunt maximaal 20 unieke ontvangers. Elke ontvanger moet een unieke gebruikersnaam hebben. Dubbele gebruikers-id&#39;s zijn niet toegestaan. Leer meer in de [ Interactieve documentatie van API van de Uitvoering van het Bericht ](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution/operation/postIMUnitaryMessageExecution){target="_blank"} 
 
    * Voor **marketing** - type campagnes, klik de **[!UICONTROL Audience]** knoop om het publiek te kiezen om te richten.
 

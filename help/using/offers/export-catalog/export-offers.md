@@ -122,6 +122,7 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
      **Voorbeeld:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Taal**
+
      **Veld:** taal
      **Titel:** Taal
      **Omschrijving:** De taal of talen van de bron. \nTalen worden opgegeven in taalcode zoals gedefinieerd in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), dat deel uitmaakt van BCP 47, dat elders in XDM wordt gebruikt.

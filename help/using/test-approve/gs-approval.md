@@ -38,7 +38,7 @@ Om toegang te hebben keur en publiceer reizen en campagnes goed, moeten de gebru
 
    ![](assets/permissions_approval.png){zoomable="yes"}
 
-1. Voeg het **1} middel van de Reizen {toe, dan uitgezocht** goedkeuren en publiceer Reizen **van het drop-down menu.**
+1. Voeg het **1&rbrace; middel van de Reizen &lbrace;toe, dan uitgezocht** goedkeuren en publiceer Reizen **van het drop-down menu.**
 
    ![](assets/permissions_approval_2.png){zoomable="yes"}
 

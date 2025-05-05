@@ -70,7 +70,7 @@ Om een PTR- verslag met subdomain uit te geven die [ volledig ](delegate-subdoma
 
    ![](assets/ptr-record-select.png)
 
-1. Selecteer volledig subdomain [ ](delegate-subdomain.md#full-subdomain-delegation) aan Adobe van de lijst wordt gedelegeerd.
+1. Selecteer volledig subdomain [&#128279;](delegate-subdomain.md#full-subdomain-delegation) aan Adobe van de lijst wordt gedelegeerd.
 
    ![](assets/ptr-record-subdomain.png)
 
