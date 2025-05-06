@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: elementen, integratie
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: f2c072cd410afac79604cfad532fbd75591b34fa
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,30 @@ ht-degree: 0%
 
 Dankzij de Adobe Express-integratie in Adobe Journey Optimizer hebt u eenvoudig toegang tot Adobe Express-functies voor het bewerken van inhoud. Dankzij deze integratie kunt u afbeeldingen vergroten/verkleinen, achtergronden verwijderen, visuele effecten uitsnijden en elementen omzetten in JPEG of PNG zonder dat u tussen oplossingen hoeft te schakelen.
 
-Meer over Adobe Express leren, verwijs naar [ deze documentatie ](https://helpx.adobe.com/nl/express/user-guide.html).
+Meer over Adobe Express leren, verwijs naar [ deze documentatie ](https://helpx.adobe.com/express/user-guide.html).
 
 Om tot het **[!DNL Adobe Express]** menu toegang te hebben, heb toegang tot uw **montages van het Beeld** van de E-mailontwerper en klik **[!UICONTROL Edit in Adobe Express]**.
 
 ![](assets/express_1.png)
+
+## Adobe Express Enterprise-licentie {#licence}
+
+De functies die in de onderstaande secties worden beschreven, zijn toegankelijk voor gebruikers zonder Adobe Express Enterprise-licentie.
+
+Met een Enterprise-licentie krijgen gebruikers volledige toegang tot de Adobe Express-editor, zodat ze afbeeldingen kunnen wijzigen door de kleur, helderheid, scherpte, contrast, afmetingen en extra instellingen aan te passen.
+
+![](assets/express-licence.png)
+
++++Beschikbare gebruiksgevallen voor gebruikers van een Enterprise-licentie voor Adobe Express
+
+* [ verwijdert achtergrond ](https://helpx.adobe.com/express/create-and-edit-images/edit-images/remove-background.html)
+* [ verwijder voorwerpen ](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
+* [ Wissen ](https://helpx.adobe.com/express/create-and-edit-images/edit-images/eraser.html)
+* [ voorwerp van het Tussenvoegsel ](https://helpx.adobe.com/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
+* [ Uitsnijden ](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
+* [ Gevolgen ](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
+
++++
 
 ## Formaat afbeelding wijzigen {#resize}
 
