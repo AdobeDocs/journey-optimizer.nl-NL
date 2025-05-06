@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expression, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 6ffa9d9125f941febbc894e75dcb1a202e1e9cc0
+source-git-commit: 192542cf938c583093638c71a3d8728bbaf238b2
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1463'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Wanneer u een e-mailkanaalconfiguratie maakt, kunt u gepersonaliseerde waarden d
 In het navigatievenster kunt u de bron voor personalisatie selecteren. Beschikbare bronnen zijn:
 
 * **[!UICONTROL Profile attributes]** : maakt een lijst van alle verwijzingen verbonden aan het profielschema dat in [ wordt beschreven het Model van Gegevens van Adobe Experience Platform (XDM) documentatie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
-* **[!UICONTROL Audiences]** : geeft een overzicht van alle soorten publiek dat is gemaakt in de Adobe Experience Platform Segmentation-service. Meer informatie over beschikbare segmentatie [ hier ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL){target="_blank"}.
+* **[!UICONTROL Audiences]** : geeft een overzicht van alle soorten publiek dat is gemaakt in de Adobe Experience Platform Segmentation-service. Meer informatie over beschikbare segmentatie [ hier ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
 * **[!UICONTROL Offer decisions]** : geeft een overzicht van alle aanbiedingen die aan een specifieke plaatsing zijn gekoppeld. Selecteer de plaatsing en voeg de aanbiedingen in uw inhoud in. Voor een volledige documentatie over hoe te om aanbiedingen te beheren, verwijs naar [ deze sectie ](../offers/get-started/starting-offer-decisioning.md).
 * **[!UICONTROL Contextual attributes]** : wanneer een activiteit van de kanaalactie (E-mail, push, SMS) in een reis of campagne wordt gebruikt, zijn contextafhankelijke kenmerken met betrekking tot gebeurtenissen en eigenschappen beschikbaar voor personalisatie. Een voorbeeld van verpersoonlijking leveraging contextafhankelijke attributen wordt voorgesteld in [ deze sectie ](personalization-use-case.md).
 
@@ -105,7 +105,7 @@ In het navigatievenster kunt u de bron voor personalisatie selecteren. Beschikba
 >title="Automatisch voltooid"
 >abstract="Als u deze optie inschakelt, kan het systeem automatisch code voorstellen en voltooien terwijl u typt. Deze functie is alleen beschikbaar voor HTML- en Text-indelingen en ondersteunt profiel- en contextkenmerken. Als deze optie via de schakeloptie is uitgeschakeld, wordt de native HTML-code automatisch ingevuld."
 
-De centrale werkruimte is waar u uw verpersoonlijkingssyntaxis bouwt. Als u een kenmerk wilt gebruiken om uw bericht aan te passen, zoekt u het in het venster Kenmerken en klikt u op de knop `+` om het aan de expressie toe te voegen.
+De centrale werkruimte is waar u uw verpersoonlijkingssyntaxis bouwt. Als u een kenmerk wilt gebruiken om uw bericht aan te passen, zoekt u het naar het linkernavigatievenster en klikt u op de knop `+` om het aan de expressie toe te voegen.
 
 ![](assets/personalization-add-attribute.png)
 
@@ -123,7 +123,7 @@ In het volgende voorbeeld, laat de verpersoonlijkingsredacteur u de profielen se
 
 ![](assets/perso_ee2.png)
 
-## Gereedschappen voor het bewerken van expressies
+## Opties voor het bewerken van expressies {#options}
 
 De centrale werkruimte biedt verschillende gereedschappen waarmee u uw personalisatie-expressie kunt schrijven.
 
@@ -146,6 +146,13 @@ Beschikbare opties zijn:
    * **op** - verpakt lijnen bij de breedte van de redacteur.
    * **de omloopkolom van Word** - verpakt lijnen wanneer een lijnkarakters 80 karakters bereiken.
    * **Begrensde** - verpakt lijnen bij of de redacteursbreedte of bij 80 karakters, welke kleiner is.
+1. **[!UICONTROL Pills]**: geef kenmerken weer als compacte &#39;vullingen&#39; om de leesbaarheid te verbeteren door lange kenmerkpaden te verbergen. Klik op een kenmerk om het volledige pad weer te geven.
+
+   >[!NOTE]
+   >
+   >Het vullingscherm wordt in de komende 30 dagen geleidelijk in alle omgevingen weergegeven.
+   >
+   >Deze optie is alleen beschikbaar voor profielkenmerken, contextafhankelijke kenmerken en dynamische media.
 
 In het navigatievenster, zijn de extra eigenschappen beschikbaar om u te helpen uw verpersoonlijkingsuitdrukking bouwen.
 
