@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3cbda018a1380e13ba3670563240238367517353
+source-git-commit: c6553c3012b1be39d8ade96444e3c1b9ded63fa5
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: '2360'
 ht-degree: 21%
 
 ---
@@ -335,47 +335,23 @@ ht-degree: 21%
       + [Regelkanaal configureren in Journey Optimizer](using/line/line-configuration.md)
       + [Een LIJNbericht maken](using/line/create-line.md)
       + [Controleer en verzend uw berichten van de LIJN](using/line/send-line.md)
-+ Landingspagina&#39;s {#landing-pages}
-   + [Aan de slag met bestemmingspagina&#39;s](using/landing-pages/get-started-lp.md)
-   + [Een landingspagina maken](using/landing-pages/create-lp.md)
-   + Inhoud ontwerpen {#landing-pages-design}
-      + [Informatie over het ontwerpen van bestemmingspagina](using/landing-pages/design-lp.md)
-      + [De inhoud van de openingspagina maken](using/landing-pages/lp-content.md)
-      + [Sjablonen maken](using/landing-pages/lp-templates.md)
-      + [Aangepaste JavaScript toevoegen](using/landing-pages/lp-custom-js.md)
-   + [Een lidmaatschapslijst maken](using/landing-pages/subscription-list.md)
-   + [Gebruikskwesties leren](using/landing-pages/lp-use-cases.md)
-   + Landingspagina’s configureren {#lp-configuration}
++ Inhoudsbeheer {#content-management}
+   + Landingspagina&#39;s {#landing-pages}
+      + [Aan de slag met bestemmingspagina&#39;s](using/landing-pages/get-started-lp.md)
+      + [Een landingspagina maken](using/landing-pages/create-lp.md)
+      + Inhoud ontwerpen {#landing-pages-design}
+         + [Informatie over het ontwerpen van bestemmingspagina](using/landing-pages/design-lp.md)
+         + [De inhoud van de openingspagina maken](using/landing-pages/lp-content.md)
+         + [Sjablonen maken](using/landing-pages/lp-templates.md)
+         + [Aangepaste JavaScript toevoegen](using/landing-pages/lp-custom-js.md)
+      + [Een lidmaatschapslijst maken](using/landing-pages/subscription-list.md)
+      + [Gebruikskwesties leren](using/landing-pages/lp-use-cases.md)
+      + Landingspagina’s configureren {#lp-configuration}
       + [Subdomeinen van bestemmingspagina configureren](using/landing-pages/lp-subdomains.md)
       + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
-+ Inhoudsbeheer {#content-management}
-   + AI Assistant voor het genereren van inhoud{#ai-assistant}
-      + [Aan de slag met AI Assistant](using/content-management/gs-generative.md)
-      + [E-mailgeneratie met AI](using/content-management/generative-email.md)
-      + [Push generation met AI](using/content-management/generative-push.md)
-      + [SMS genereren met AI](using/content-management/generative-sms.md)
-      + [Web genereren met AI](using/content-management/generative-web.md)
-      + [Experimenteer met inhoud met AI](using/content-management/generative-experimentation.md)
-      + [Openingspagina met AI](using/content-management/generative-lp.md)
-      + [Gebruiksgevallen van AI Assistant](using/content-management/generative-uc.md)
-      + Merken (bèta){#brands}
-         + [Uw merken maken en beheren](using/content-management/brands.md)
-         + [Uw Brand-uitlijningsscore evalueren](using/content-management/brands-score.md)
-   + Werken met meertalige inhoud{#content-multilingual}
-      + [Aan de slag met meertalige inhoud](using/content-management/multilingual-gs.md)
-      + [Een landinstelling maken](using/content-management/multilingual-locale.md)
-      + [Een taalprovider maken](using/content-management/multilingual-provider.md)
-      + [Meertalige inhoud maken met handmatige vertaling](using/content-management/multilingual-manual.md)
-      + [Meertalige inhoud maken met automatische vertaling](using/content-management/multilingual-automated.md)
-   + Werken met het experimenteren met inhoud {#content-experiment}
-      + [Aan de slag met het experimenteren met inhoud](using/content-management/get-started-experiment.md)
-      + [Een inhoudexperiment maken](using/content-management/content-experiment.md)
-      + Technische opmerkingen {#technotes}
-         + [Statistische berekeningen begrijpen](using/content-management/experiment-calculations.md)
-         + [Statistische berekeningen in het Experimentenrapport begrijpen](using/content-management/experiment-report-calculations.md)
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [ gegevens van Adobe Experience Platform van het Gebruik voor verpersoonlijking (Beta) ](using/personalization/lookup-aep-data.md)
@@ -412,6 +388,30 @@ ht-degree: 21%
       + [Aan de slag met dynamische inhoud](using/personalization/get-started-dynamic-content.md)
       + [Voorwaardelijke regels maken](using/personalization/create-conditions.md)
       + [Dynamische inhoud maken](using/personalization/dynamic-content.md)
+   + AI Assistant voor het genereren van inhoud{#ai-assistant}
+      + [Aan de slag met AI Assistant](using/content-management/gs-generative.md)
+      + [E-mailgeneratie met AI](using/content-management/generative-email.md)
+      + [Push generation met AI](using/content-management/generative-push.md)
+      + [SMS genereren met AI](using/content-management/generative-sms.md)
+      + [Web genereren met AI](using/content-management/generative-web.md)
+      + [Experimenteer met inhoud met AI](using/content-management/generative-experimentation.md)
+      + [Openingspagina met AI](using/content-management/generative-lp.md)
+      + [Gebruiksgevallen van AI Assistant](using/content-management/generative-uc.md)
+      + Merken (bèta){#brands}
+         + [Uw merken maken en beheren](using/content-management/brands.md)
+         + [Uw Brand-uitlijningsscore evalueren](using/content-management/brands-score.md)
+   + Meertalige inhoud{#content-multilingual}
+      + [Aan de slag met meertalige inhoud](using/content-management/multilingual-gs.md)
+      + [Een landinstelling maken](using/content-management/multilingual-locale.md)
+      + [Een taalprovider maken](using/content-management/multilingual-provider.md)
+      + [Meertalige inhoud maken met handmatige vertaling](using/content-management/multilingual-manual.md)
+      + [Meertalige inhoud maken met automatische vertaling](using/content-management/multilingual-automated.md)
+   + Inhoudsexperiment {#content-experiment}
+      + [Aan de slag met het experimenteren met inhoud](using/content-management/get-started-experiment.md)
+      + [Een inhoudexperiment maken](using/content-management/content-experiment.md)
+      + Technische opmerkingen {#technotes}
+         + [Statistische berekeningen begrijpen](using/content-management/experiment-calculations.md)
+         + [Statistische berekeningen in het Experimentenrapport begrijpen](using/content-management/experiment-report-calculations.md)
 + Soorten publiek, profielen en identiteit{#audiences-profiles-identities}
    + Doelgroepen {#audiences}
       + [Aan de slag met het publiek](using/audience/about-audiences.md)
@@ -695,7 +695,7 @@ ht-degree: 21%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
    + [Uw kanalen configureren](using/configuration/get-started-configuration.md)
