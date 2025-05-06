@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 07b1ccfc0dec2a44db7607b294ab10b41e963658
+source-git-commit: 55717a2063a61c3eda62d0e09a0c67656c3e3bb1
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 8%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## 25 mei updates {#25-5-rn}
 
 * **pills activering voor verpersoonlijking** - de datum van de Beschikbaarheid: 5 Mei, 2025
 
-  Een nieuwe knoop &quot;van Vullingen&quot;is aan de verpersoonlijkingsredacteur geweest. Wanneer deze optie is ingeschakeld, worden profielen en contextafhankelijke kenmerken weergegeven als vullingen, waardoor de leesbaarheid van de code wordt verbeterd. [Meer informatie](../personalization/personalization-build-expressions.md#options)
+  Er is een nieuwe knop &#39;Pills&#39; toegevoegd aan de personalisatie-editor. Wanneer deze optie is ingeschakeld, worden profielen en contextafhankelijke kenmerken weergegeven als vullingen, waardoor de leesbaarheid van de code wordt verbeterd. [Meer informatie](../personalization/personalization-build-expressions.md#options)
 
   >[!AVAILABILITY]
   >
