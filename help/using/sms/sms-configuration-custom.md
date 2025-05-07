@@ -162,4 +162,4 @@ Zodra uw API-referentie is gemaakt, vult u de velden in die vereist zijn voor JW
 
 ## Hoe kan ik-video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443612?captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3431625)
