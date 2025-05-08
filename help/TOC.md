@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c6553c3012b1be39d8ade96444e3c1b9ded63fa5
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
-source-wordcount: '2360'
+source-wordcount: '2365'
 ht-degree: 21%
 
 ---
@@ -351,7 +351,7 @@ ht-degree: 21%
       + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [ gegevens van Adobe Experience Platform van het Gebruik voor verpersoonlijking (Beta) ](using/personalization/lookup-aep-data.md)
@@ -537,6 +537,7 @@ ht-degree: 21%
       + Itemselectie configureren {#selection}
          + [Beslissingsregels maken](using/experience-decisioning/rules.md)
          + [Classificatiemethoden maken](using/experience-decisioning/ranking.md)
+         + [De AI-formulebuilder gebruiken](using/experience-decisioning/exd-ranking-formulas.md)
          + [Gebruik van contextgegevens](using/experience-decisioning/context-data.md)
       + [Selectiestrategieën maken](using/experience-decisioning/selection-strategies.md)
       + [Beslissingsbeleid maken](using/experience-decisioning/create-decision.md)
@@ -695,7 +696,7 @@ ht-degree: 21%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
    + [Uw kanalen configureren](using/configuration/get-started-configuration.md)

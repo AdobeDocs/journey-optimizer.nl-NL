@@ -6,19 +6,14 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
 
 # Rangschikkingsmethoden {#rankings}
-
->[!CONTEXTUALHELP]
->id="ajo_exd_config_formulas"
->title="Rangschikkingsformules maken"
->abstract="Met indelingen kunt u regels definiëren die bepalen welk item als eerste moet worden weergegeven, in plaats van rekening te houden met de prioriteitsscores van het item. Nadat u een waarderingsmethode hebt gemaakt, kunt u deze toewijzen aan een selectiestrategie om te bepalen welke items als eerste moeten worden geselecteerd."
 
 Met behulp van rankeringsmethoden kunt u items voor een bepaald profiel rangschikken. Nadat u een waarderingsmethode hebt gemaakt, kunt u deze toewijzen aan een selectiestrategie om te bepalen welke items als eerste moeten worden geselecteerd.
 
@@ -42,7 +37,7 @@ Ga als volgt te werk om een waarderingsmethode te maken:
 
    Gedetailleerde informatie over het maken van rangschikkingsformules en AI-modellen is beschikbaar in de documentatie van het besluitvormingsbeheer:
 
-   * [Beoordelingsformule](../offers/ranking/create-ranking-formulas.md)
+   * [Beoordelingsformule](exd-ranking-formulas.md)
    * [AI-modellen](../offers/ranking/ai-models.md)
 
    >[!NOTE]
@@ -63,7 +58,7 @@ De gepersonaliseerde optimalisatiemodellen zijn een type van AI model dat u toes
 
 Door gebrek, gepersonaliseerde optimalisatiemodellen gebruiken **aanbieding klikt** als optimalisering metrisch. Als u met [!DNL Customer Journey Analytics] werkt, kunt u in [!DNL Decisioning] uw eigen maateenheden gebruiken om uw model te optimaliseren.
 
-U doet dit door het scherm voor het maken van het gepersonaliseerde AI-model te openen en de vervolgkeuzelijst **[!UICONTROL Conversion event]** uit te vouwen. Alle metriek van uw standaard [!DNL Customer Journey Analytics] [ gegevensmening ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}  vertoning in de lijst. Selecteer de metrische waarde waarop u het model wilt optimaliseren en voltooi vervolgens het maken van het AI-model op de gebruikelijke manier.
+U doet dit door het scherm voor het maken van het gepersonaliseerde AI-model te openen en de vervolgkeuzelijst **[!UICONTROL Conversion event]** uit te vouwen. Alle metriek van uw standaard [!DNL Customer Journey Analytics] [ gegevens bekijken ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} vertoning in de lijst. Selecteer de metrische waarde waarop u het model wilt optimaliseren en voltooi vervolgens het maken van het AI-model op de gebruikelijke manier.
 
 ![](assets/ai-ranking-custom-metrics.png)
 
@@ -73,13 +68,17 @@ U doet dit door het scherm voor het maken van het gepersonaliseerde AI-model te 
 >
 >Hoewel het attributiemodel kan worden gewijzigd, zijn niet alle attributiemodellen ideaal voor optimalisatie van het AI-model. We raden u aan zorgvuldig een toewijzingsmodel te selecteren dat is afgestemd op uw optimalisatiedoelstellingen om de nauwkeurigheid en prestaties van het model te garanderen.
 >
->Voor meer details op beschikbare attributiemodellen en begeleiding op hun gebruik, verwijs naar de [[!DNL Customer Journey Analytics]  documentatie ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"} 
+>Voor meer details op beschikbare attributiemodellen en begeleiding op hun gebruik, verwijs naar de [[!DNL Customer Journey Analytics]  documentatie ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
 
 +++
 
 ## Kenmerken van besluitvormingsposten in formules gebruiken {#items}
 
 De rangschikkende formules worden uitgedrukt in **syntaxis van PQL** en kunnen hefboomwerking diverse attributen zoals profielattributen, [ contextgegevens ](context-data.md) en attributen met betrekking tot uw besluitvormingspunten.
+
+>[!NOTE]
+>
+>Voor meer op hoe te om de syntaxis van PQL te gebruiken, verwijs naar de [ specifieke documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html)
 
 Om attributen met betrekking tot uw beslissingspunten in formules te hefboomwerking, zorg ervoor u de syntaxis hieronder in de code van uw rangschikkende formule volgt. Breid elke sectie voor meer informatie uit:
 

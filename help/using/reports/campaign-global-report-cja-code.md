@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 24cb77484172117f2308d2949588ee98fa8421dd
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,9 @@ De tabel **[!UICONTROL Tracked link labels]** bevat een uitgebreid overzicht van
 
 +++
 
-## KPI&#39;s voor besluitvorming {#decisioning-kpis}
+## Beslissingsrapportage {#decisioning-reporting}
+
+### KPI&#39;s voor besluitvorming {#decisioning-kpis}
 
 ![](assets/cja-decisioning-kpis.png)
 
@@ -95,7 +97,7 @@ De tabel **[!UICONTROL Tracked link labels]** bevat een uitgebreid overzicht van
 
 * **[!UICONTROL Fallback rate]**: percentage van de gevallen waarin geen selectiestrategieën zijn gekwalificeerd, wat resulteert in de weergave van een algemene of minder specifieke optie.
 
-## Betrokkenheidstunnel {#engagement-funnel}
+### Betrokkenheidstunnel {#engagement-funnel}
 
 ![](assets/cja-engagement-funnel.png)
 
@@ -105,7 +107,7 @@ De tabel **[!UICONTROL Engagement Funnel]** controleert de prestaties van persoo
 
 * **[!UICONTROL Clicks]**: het totale aantal keren dat gebruikers op persoonlijke ervaringen hebben geklikt die aan hen werden weergegeven.
 
-## Meest gebruikte objecten op doorklikpercentage {#top-decision}
+### Meest gebruikte objecten op doorklikpercentage {#top-decision}
 
 ![](assets/cja-top-decisions-ctr.png)
 
@@ -113,7 +115,7 @@ In de tabel **[!UICONTROL Top decision items by CTR]** worden de prestaties van 
 
 * **[!UICONTROL Click-through Rate (CTR)]**: percentage gebruikers dat op een koppeling, advertentie of aanbeveling klikt in vergelijking met het aantal keer dat deze werd weergegeven.
 
-## Betrokkenheid trechter per selectiestrategie {#engagement-funnel-selection}
+### Betrokkenheid trechter per selectiestrategie {#engagement-funnel-selection}
 
 ![](assets/cja-engagement-funnel-selection.png)
 
@@ -123,7 +125,7 @@ Met de tabel **[!UICONTROL Engagement Funnel by Selection Strategy]** kunt u con
 
 * **[!UICONTROL Clicks]**: het totale aantal keren dat gebruikers op persoonlijke ervaringen hebben geklikt die aan hen werden weergegeven.
 
-## Prestaties van beslissingsitems {#decision-items-performance}
+### Prestaties van beslissingsitems {#decision-items-performance}
 
 ![](assets/cja-decisioning-item-performance.png)
 
@@ -133,7 +135,7 @@ De tabel **[!UICONTROL Decision Items Performance]** evalueert hoe goed elk item
 
 * **[!UICONTROL Clicks]**: het totale aantal keren dat gebruikers op persoonlijke ervaringen hebben geklikt die aan hen werden weergegeven.
 
-## Beoordelingsstrategie {#ranking-strategy}
+### Beoordelingsstrategie {#ranking-strategy}
 
 >[!NOTE]
 >
@@ -155,7 +157,7 @@ De belangrijkste getoonde metriek omvatten:
 
 * **[!UICONTROL Conversion rate]**: percentage weergaven dat tot gebruikersacties heeft geleid (klik bijvoorbeeld) om aan te geven dat het model erin geslaagd is gebruikers aan te trekken.
 
-## Omrekeningskoers voor Holdout- en Model-georiënteerd verkeer {#conversion-rate}
+### Omrekeningskoers voor Holdout- en Model-georiënteerd verkeer {#conversion-rate}
 
 >[!NOTE]
 >
@@ -168,3 +170,7 @@ In de grafiek **[!UICONTROL Conversion rate for Holdout and Model Driven traffic
 * **Gedreven Model**: de gebruikers ontvangen inhoud die door het model van AI wordt gerangschikt, voor relevantie en overeenkomst wordt geoptimaliseerd.
 
 * **Holdout**: de gebruikers ontvangen inhoud willekeurig tijdens de exploratiefase van het model wordt gediend die.
+
+>[!CAUTION]
+>
+>Wanneer het gebruiken van een AI model dat in a [ wordt opgenomen rangschikt formule ](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula), worden de gegevens niet weerspiegeld in het rapport van het tarief van de Omzetting.

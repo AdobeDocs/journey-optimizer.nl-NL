@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 72553cb3570b375b5bdf9cdebbfbf17e52c805da
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '979'
 ht-degree: 8%
 
 ---
@@ -20,9 +20,18 @@ ht-degree: 8%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## 25 mei updates {#25-5-rn}
+
+* **Beslissing - de Nieuwe AI formules bouwer** - de datum van de Beschikbaarheid: 7 mei, 2025
+
+  U kunt nu specifieke rangschikkingsformules voor besluiten maken door criteria te definiëren en te combineren vanuit een nieuwe, verbeterde interface. Met behulp van rangschikkingsformules kunt u regels definiëren die bepalen welke beslissingsitems eerst moeten worden gepresenteerd, in plaats van rekening te houden met de prioriteitsscores.
+
+  Voor meer informatie, verwijs naar de [ gedetailleerde documentatie ](../experience-decisioning/exd-ranking-formulas.md)
+
+  ![](assets/do-not-localize/formula-builder.gif)
+
 
 * **pills activering voor verpersoonlijking** - de datum van de Beschikbaarheid: 5 Mei, 2025
 
