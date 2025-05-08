@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
+source-git-commit: ce76c1b7c60ad3a3ffba7350fd61cf80eb6dad49
 workflow-type: tm+mt
-source-wordcount: '2365'
+source-wordcount: '2369'
 ht-degree: 21%
 
 ---
@@ -339,6 +339,7 @@ ht-degree: 21%
    + Landingspagina&#39;s {#landing-pages}
       + [Aan de slag met bestemmingspagina&#39;s](using/landing-pages/get-started-lp.md)
       + [Een landingspagina maken](using/landing-pages/create-lp.md)
+      + [Uw openingspagina&#39;s beheren](using/landing-pages/manage-lp.md)
       + Inhoud ontwerpen {#landing-pages-design}
          + [Informatie over het ontwerpen van bestemmingspagina](using/landing-pages/design-lp.md)
          + [De inhoud van de openingspagina maken](using/landing-pages/lp-content.md)
@@ -347,11 +348,11 @@ ht-degree: 21%
       + [Een lidmaatschapslijst maken](using/landing-pages/subscription-list.md)
       + [Gebruikskwesties leren](using/landing-pages/lp-use-cases.md)
       + Landingspagina’s configureren {#lp-configuration}
-      + [Subdomeinen van bestemmingspagina configureren](using/landing-pages/lp-subdomains.md)
-      + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
+         + [Subdomeinen van bestemmingspagina configureren](using/landing-pages/lp-subdomains.md)
+         + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [ gegevens van Adobe Experience Platform van het Gebruik voor verpersoonlijking (Beta) ](using/personalization/lookup-aep-data.md)
@@ -696,7 +697,7 @@ ht-degree: 21%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
    + [Uw kanalen configureren](using/configuration/get-started-configuration.md)
