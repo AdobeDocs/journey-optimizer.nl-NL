@@ -56,7 +56,7 @@ De belangrijkste stappen om met Beslissing te werken zijn als volgt:
 
    Uw gebruiker moet dan een e-mail ontvangen die aan uw instantie opnieuw richt.
 
-+++
+   +++
 
 1. **vorm douanekenmerken**: Tailor de puntcatalogus aan uw specifieke vereisten door opstellingsdouaneattributen in het schema van de catalogus.
 
