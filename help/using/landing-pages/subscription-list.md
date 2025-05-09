@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: landen, landingspagina, lijst, abonnement, service
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: c66fe22f0cf81cf8e14592df1433739735afbe43
+source-git-commit: 1aa2ac109cdbf0ba6af58204926f1cd5add334b0
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 3%
@@ -22,7 +22,7 @@ ht-degree: 3%
 >id="ajo_subscription_list"
 >title="Een abonnementenlijst instellen"
 >abstract="Een abonnementenlijst maken om profielen te verzamelen die zich hebben aangemeld voor het ontvangen van communicatie over een specifiek onderwerp of een specifieke gebeurtenis. "
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/subscription-list.html?lang=nl-NL#define-subscription-list" text="Een lidmaatschapslijst maken"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html#define-subscription-list" text="Een lidmaatschapslijst maken"
 
 Een abonnementsdienst heeft betrekking op marketinggoederen en -diensten die worden geleverd aan klanten die ervoor hebben gekozen communicatie over een specifiek onderwerp/evenement/belang/enz. te ontvangen. doorlopend. In [!DNL Journey Optimizer] worden deze gekozen klanten verzameld in een abonnementenlijst.
 
