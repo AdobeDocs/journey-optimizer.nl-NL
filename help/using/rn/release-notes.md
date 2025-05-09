@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f8c08461b82aea5680c3fa9631f5361b78daafe6
+source-git-commit: 942fa8e40768f7252702fbf9bc5fc23bdaff40ac
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 8%
+source-wordcount: '1016'
+ht-degree: 7%
 
 ---
 
@@ -20,22 +20,21 @@ ht-degree: 8%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## 25 mei updates {#25-5-rn}
 
+* **Omslagen voor het landen van pagina&#39;s** - de datum van Beschikbaarheid: 9 mei, 2025
+
+  Om uw openingspagina&#39;s gemakkelijk te beheren, kunt u omslagen nu gebruiken om hen effectiever te organiseren in een gestroomlijnde hiërarchie.  [Meer informatie](../landing-pages/manage-lp.md)
+
 * **Beslissing - de Nieuwe AI formules bouwer** - de datum van de Beschikbaarheid: 7 mei, 2025
 
-  U kunt nu specifieke rangschikkingsformules voor besluiten maken door criteria te definiëren en te combineren vanuit een nieuwe, verbeterde interface. Met behulp van rangschikkingsformules kunt u regels definiëren die bepalen welke beslissingsitems eerst moeten worden gepresenteerd, in plaats van rekening te houden met de prioriteitsscores.
+  U kunt nu specifieke rangschikkingsformules voor besluiten maken door criteria te definiëren en te combineren vanuit een nieuwe, verbeterde interface. In plaats van alleen te vertrouwen op een statische aanbiedingsprioriteit, kunt u aangepaste rangschikkingsformules definiëren die AI-modelscores combineren, prioriteiten, profielkenmerken bieden, kenmerken aanbieden en contextuele signalen via een geleide interface.
 
   Voor meer informatie, verwijs naar de [ gedetailleerde documentatie ](../experience-decisioning/exd-ranking-formulas.md)
 
   ![](assets/do-not-localize/formula-builder.gif)
-
-
-* **Omslagen voor het landen van pagina&#39;s** - de datum van Beschikbaarheid: 7 mei, 2025
-
-  Om uw openingspagina&#39;s gemakkelijk te beheren, kunt u omslagen nu ook gebruiken om hen effectiever te organiseren in een gestroomlijnde hiërarchie.  [Meer informatie](../landing-pages/manage-lp.md)
 
 * **pills activering voor verpersoonlijking** - de datum van de Beschikbaarheid: 5 Mei, 2025
 
