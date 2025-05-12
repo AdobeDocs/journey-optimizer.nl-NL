@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
+source-git-commit: d7b1809fa2d04e5477fe375699153315365a6f3b
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -170,7 +170,7 @@ In de grafiek **[!UICONTROL Conversion rate for Holdout and Model Driven traffic
 * **Gedreven Model**: de gebruikers ontvangen inhoud die door het model van AI wordt gerangschikt, voor relevantie en overeenkomst wordt geoptimaliseerd.
 
 * **Holdout**: de gebruikers ontvangen inhoud willekeurig tijdens de exploratiefase van het model wordt gediend die.
-
+<!--
 >[!CAUTION]
 >
->Wanneer het gebruiken van een AI model dat in a [ wordt opgenomen rangschikt formule ](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula), worden de gegevens niet weerspiegeld in het rapport van het tarief van de Omzetting.
+>When using an AI model incorporated into a [ranking formula](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula), data are not reflected in the Conversion rate report.-->
