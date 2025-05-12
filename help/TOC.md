@@ -5,7 +5,7 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: fe909a37c67030e59c665a80292feb8d289ddd35
+source-git-commit: 3e4d030fb655c32f340d1fa54726b1dc2ce7a1e8
 workflow-type: tm+mt
 source-wordcount: '2374'
 ht-degree: 21%
@@ -311,7 +311,7 @@ ht-degree: 21%
          + [Afbeeldingen en voorwaarden](using/code-based/code-based-prerequisites.md)
          + [Op code gebaseerde ervaringsoppervlakken](using/code-based/code-based-surface.md)
          + [Voorbeelden van implementatiemethoden](using/code-based/code-based-implementation-samples.md)
-         + [Decisioning van deduplicatie in op code gebaseerde implementaties](using/code-based/code-based-decisioning-deduplication.md)
+         + [Beslissing in op code-gebaseerde ervaringsimplementaties](using/code-based/code-based-decisioning-deduplication.md)
          + [Op code gebaseerde ervaringsconfiguratie maken](using/code-based/code-based-configuration.md)
       + Op code gebaseerde ervaringen maken {#create-code-based-experiences}
          + [Codegebaseerde ervaringen opbouwen en samenstellen](using/code-based/create-code-based.md)
@@ -353,7 +353,7 @@ ht-degree: 21%
          + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [ gegevens van Adobe Experience Platform van het Gebruik voor verpersoonlijking (Beta) ](using/personalization/lookup-aep-data.md)
@@ -698,7 +698,7 @@ ht-degree: 21%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
    + [Uw kanalen configureren](using/configuration/get-started-configuration.md)

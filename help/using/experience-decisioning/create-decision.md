@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 00ddfe985258eed766c6626a95c3ca1ae0e3cc96
+source-git-commit: 3e4d030fb655c32f340d1fa54726b1dc2ce7a1e8
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1691'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 >id="ajo_code_based_decision"
 >title="Wat is een beslissing?"
 >abstract="Het beslissingsbeleid bevat alle selectielogica waarmee de beslissingsengine de beste inhoud kan kiezen. Het besluitvormingsbeleid is specifiek voor de campagne. Hun doel is de beste aanbiedingen voor elk profiel te selecteren terwijl het campagneontwerp u toestaat om erop te wijzen hoe de geselecteerde besluitvormingspunten zouden moeten worden voorgesteld, met inbegrip van welke puntattributen om in het bericht worden omvat."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Informatie over beslissen"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Informatie over beslissen"
 
 Beslissingsbeleid zijn containers voor uw aanbiedingen die de beslissingsengine gebruiken om de beste inhoud te kiezen die u kunt leveren, afhankelijk van het publiek.
 
@@ -51,8 +51,8 @@ De belangrijkste stappen om besluitvormingsbeleid in uw op code-gebaseerde campa
 >id="ajo_code_based_strategy"
 >title="Wat is een strategie?"
 >abstract="De volgorde van de selectiestrategie bepaalt welke strategie eerst wordt geëvalueerd. Er is ten minste één strategie nodig. Beslissingsonderdelen in gecombineerde strategieën worden samen geëvalueerd."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Strategieën maken"
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Evaluatievolgorde"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Strategieën maken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Evaluatievolgorde"
 
 Als u uw bezoekers de beste dynamische aanbieding en ervaring wilt laten zien op uw website of mobiele app, voegt u een beslissingsbeleid toe aan een op code gebaseerde campagne of reis. Volg de onderstaande stappen om dit te doen.
 
@@ -114,7 +114,7 @@ De **opeenvolgende orde** waarin de punten en de strategieën zullen worden geë
 
 ![](assets/decision-code-based-strategy-groups.png)
 
-U kunt **&#x200B;**&#x200B;veelvoudige selectiestrategieën in groepen ook combineren zodat worden zij samen en niet afzonderlijk geëvalueerd. Klik hiertoe op de knop **`+`** onder een selectiestrategie om deze te combineren met een andere. U kunt een selectiestrategie ook naar een andere slepen om de twee strategieën in een groep te groeperen.
+U kunt **** veelvoudige selectiestrategieën in groepen ook combineren zodat worden zij samen en niet afzonderlijk geëvalueerd. Klik hiertoe op de knop **`+`** onder een selectiestrategie om deze te combineren met een andere. U kunt een selectiestrategie ook naar een andere slepen om de twee strategieën in een groep te groeperen.
 
 >[!NOTE]
 >
@@ -223,34 +223,14 @@ Zodra gecreeerd, kan het besluitvormingsbeleid in de [ verpersoonlijkingsredacte
 
 1. Klik op **[!UICONTROL Save and close]** om uw wijzigingen te bevestigen.
 
-## Uw op code gebaseerde ervaring testen en publiceren {#test-and-publish}
-
-Voer de onderstaande stappen uit om uw op code gebaseerde ervaring te voltooien en uw wijzigingen live te zetten.
-
 1. Bekijk en publiceer uw op code gebaseerde ervaringscampagne of reis. [ leer hoe ](../code-based/publish-code-based.md)
 
    Zodra uw ontwikkelaar een API- of SDK-aanroep maakt om inhoud op te halen voor het oppervlak dat is gedefinieerd in uw kanaalconfiguratie, worden de wijzigingen toegepast op uw webpagina of app.
 
-1. Momenteel kunt u geen inhoud van het gebruikersinterface in a [ code-gebaseerde ervaring ](../code-based/create-code-based.md) campagne of reis simuleren gebruikend besluiten.
-
-   Als tijdelijke oplossing kunt u de besluitvorming testen nadat u uw campagne hebt gepubliceerd door de markering `dryRun` toe te voegen aan het XDM-gebeurtenisblok `data` in uw clientimplementatie:
-
-   ```
-   {
-       "data": {
-           "__adobe": {
-               "ajo": {
-                   "dryRun": true
-               }
-           }
-       }
-   }
-   ```
-
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >Als u de markering `dryRun` toevoegt aan uw verzoek, voorkomt u dat feedback wordt vastgelegd voor rapportage en dat er geen frequentietellers aan worden toegevoegd.
+   >Momenteel kunt u geen inhoud van het gebruikersinterface in a [ code-gebaseerde ervaring ](../code-based/create-code-based.md) campagne of reis simuleren gebruikend besluiten. Een alternerende actie is beschikbaar in [ deze sectie ](../code-based/code-based-decisioning-implementations.md).
 
-1. Om te zien hoe uw besluiten presteren, kunt u douane [ Customer Journey Analytics nu creëren rapporterend dashboards ](cja-reporting.md).
+1. Om te zien hoe uw besluiten presteren, kunt u douane [ Customer Journey Analytics creëren die dashboards ](cja-reporting.md) rapporteert.
 
 
