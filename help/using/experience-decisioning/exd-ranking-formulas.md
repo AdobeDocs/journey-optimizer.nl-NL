@@ -8,7 +8,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: d7b1809fa2d04e5477fe375699153315365a6f3b
+source-git-commit: ec5baea16b5dcd0f3ab9713020c918aa414ea46b
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 0%
@@ -126,7 +126,7 @@ Als het gebied van het besluitpunt (douaneattribuut) het geografische etiket van
 
 ## De code-editor gebruiken {#ranking-code-editor}
 
-Om rangschikkende formules in **syntaxis van PQL** uit te drukken, schakelaar aan de coderedacteur gebruikend de specifieke knoop op hoogste recht van het scherm. Voor meer op hoe te om de syntaxis van PQL te gebruiken, verwijs naar de [ specifieke documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=nl-NL).
+Om rangschikkende formules in **syntaxis van PQL** uit te drukken, schakelaar aan de coderedacteur gebruikend de specifieke knoop op hoogste recht van het scherm. Voor meer op hoe te om de syntaxis van PQL te gebruiken, verwijs naar de [ specifieke documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
 
 >[!CAUTION]
 >
@@ -227,3 +227,4 @@ Merk op dat wanneer het gebruiken van **Beslissing** API, de contextgegevens aan
 ```
 
 +++
+
