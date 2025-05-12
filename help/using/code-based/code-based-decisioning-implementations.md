@@ -8,7 +8,7 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 3e4d030fb655c32f340d1fa54726b1dc2ce7a1e8
+source-git-commit: 4995bf642231248ece0211a7ecf2f38ccd846d36
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
@@ -19,14 +19,14 @@ ht-degree: 0%
 
 Wanneer het gebruiken van Beslissing in code-gebaseerde ervaringen, denk na toevoegend de volgende vlaggen aan uw cliëntimplementatie in de hieronder beschreven gevallen.
 
-## Op code gebaseerde ervaringen testen met beslissingen
+## Op code gebaseerde ervaringen testen met beslissingen {#code-based-test-decisions}
 
 Momenteel kunt u geen inhoud van het gebruikersinterface in a [ code-gebaseerde ervaring ](create-code-based.md) campagne of reis simuleren gebruikend besluiten.
 
 Als tijdelijke oplossing kunt u de besluitvorming testen nadat u uw campagne hebt gepubliceerd door de markering `dryRun` toe te voegen aan het XDM-gebeurtenisblok `data` in uw clientimplementatie:
 
     &quot;
-     &lbrace;
+     {
      &quot;gegevens&quot;: 
      &quot;__adobe&quot;: 
      &quot;ajo&quot;: 
