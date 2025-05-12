@@ -26,7 +26,7 @@ Momenteel kunt u geen inhoud van het gebruikersinterface in a [ code-gebaseerde 
 Als tijdelijke oplossing kunt u de besluitvorming testen nadat u uw campagne hebt gepubliceerd door de markering `dryRun` toe te voegen aan het XDM-gebeurtenisblok `data` in uw clientimplementatie:
 
     &quot;
-     {
+     &lbrace;
      &quot;gegevens&quot;: 
      &quot;__adobe&quot;: 
      &quot;ajo&quot;: 
