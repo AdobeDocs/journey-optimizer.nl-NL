@@ -21,7 +21,7 @@ ht-degree: 2%
 >id="cja_connections_enable_cja"
 >title="Customer Journey Analytics inschakelen"
 >abstract="Als u dit rapport in Customer Journey Analytics wilt analyseren, neemt u contact op met uw beheerder om ervoor te zorgen dat uw organisatie Customer Journey Analytics heeft aangeschaft en dat de integratie correct is geconfigureerd."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="Customer Journey Analytics"
+>additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="Customer Journey Analytics"
 
 >[!IMPORTANT]
 >
@@ -53,11 +53,11 @@ Journey Optimizer-rapportering wordt geleverd met een verbeterde interoperabilit
 
 * Als u **&#x200B;**&#x200B;Customer Journey Analytics bezit en toegang tot een het productprofiel van Customer Journey Analytics hebt, zult u nodig hebben:
 
-   * **[!UICONTROL Audience Creation]** en **[!UICONTROL Audience View]** voor Customer Journey Analytics. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)
+   * **[!UICONTROL Audience Creation]** en **[!UICONTROL Audience View]** voor Customer Journey Analytics. [Meer informatie](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/technotes/access-control)
 
    * **[!UICONTROL Manage profiles]** machtiging voor Adobe Journey Optimizer. [Meer informatie](../administration/permissions.md)
 
-* Uw Customer Journey Analytics gegevensmeningen moeten met het volgende plaatsen worden gevormd: **Reeks als standaardgegevensmening in Adobe Journey Optimizer**. [ leer meer over gegevensmeningen ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
+* Uw Customer Journey Analytics gegevensmeningen moeten met het volgende plaatsen worden gevormd: **Reeks als standaardgegevensmening in Adobe Journey Optimizer**. [ leer meer over gegevensmeningen ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/create-dataview)
 
 ## Hoe kan ik-video{#video}
 
