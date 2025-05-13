@@ -7,38 +7,59 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 7cd52f1954e50be521a6fc9ae26fb63586c53faa
+source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 0%
+source-wordcount: '529'
+ht-degree: 1%
 
 ---
 
 # Aan de slag met georkestreerde campagnes {#ms-camp}
 
->[!BEGINSHADEBOX]
 
-**Lijst van inhoud**
++++Inhoudsopgave
 
-* Configuratie: [ vorm uw georkestreerde campagnes ](gs-campaign-config.md)
-* Configuratie: [ creeer relationele schema&#39;s ](ms-schemas.md)
-* Creeer uw eerste georkestreerde campagne: [ Zeer belangrijke principes ](gs-campaign-creation.md)
+Welkom
+
+* Aan de slag met georkestreerde campagnes
+* [Belangrijkste beginselen](gs-campaign-creation.md)
+* [ Stappen om georkestreerde campagnes ](gs-campaign-steps.md) te creëren
+
+
+Configuratiestappen
+
+* [Relationele schema&#39;s maken](ms-schemas.md)
+
+Aanmaakstappen
+
 * [Een georkestreerde campagne maken](create-ms-campaign.md)
 * [Campagne-instellingen configureren](ms-campaign-settings.md)
-* [Je berichten personaliseren](ms-personalization.md)
-* [Query&#39;s samenstellen](ms-query-modeler.md)
-* [Uw berichten testen en valideren](ms-proofs.md)
 * [Uw campagnes plannen en starten](start-monitor-campaigns.md)
-* Activiteiten: [ worden begonnen met activiteiten ](activities/about-activities.md)
+* [Query&#39;s samenstellen](ms-query-modeler.md)
+
+Activiteiten
+
+* [Aan de slag met activiteiten](activities/about-activities.md)
 * [Orchestraten](orchestrate-activities.md)
-* [ en-verbind ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ combineert ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ acties van het Kanaal ](activities/channels.md) - [ Verrijking ](activities/enrichment.md) - [ Fork ](activities/fork.md) - [ Verzoening ](activities/reconciliation.md) - [ Gesplitst ](activities/split.md) - &lt;!—[ Test ](activities/test.md) —> [ wacht ](activities/wait.md)
-* Controle: [ het Melden ](reporting-campaigns.md)
+* [ en-lid ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ combineert ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) - [ Fork ](activities/fork.md) - [ Verzoening ](activities/reconciliation.md) - [ Split ](activities/split.md) - <!--[Test](activities/test.md) --> [Wachten](activities/wait.md)
 
->[!ENDSHADEBOX]
 
-Geordende campagnes verbeteren Adobe Journey Optimizer door robuuste campagnecapaciteiten in te voeren die door het merk worden geïnitieerd, zodat u kanaalcampagnes kunt plannen en ordenen met geavanceerde segmentatiestrategieën.
+Berichten
+
+* [Kanaalhandelingen](activities/channels.md)
+* [Je berichten personaliseren](ms-personalization.md)
+* [Uw berichten testen en valideren](ms-proofs.md)
+
+Rapportage en bewaking
+
+* [Rapportage](reporting-campaigns.md)
+
++++
+
 
 ## Wat is een georkestreerde campagne?
+
+Geordende campagnes verbeteren Adobe Journey Optimizer door robuuste campagnecapaciteiten in te voeren die door het merk worden geïnitieerd, zodat u kanaalcampagnes kunt plannen en ordenen met geavanceerde segmentatiestrategieën.
 
 Cross-channel marketing is essentieel voor elk bedrijf dat zijn klanten effectief wil bereiken. Adobe Journey Optimizer biedt een uitgebreide grafische omgeving waarmee u complexe processen kunt ontwerpen die u kunnen helpen uw marketingcampagnes eenvoudig te beheren. Met georkestreerde campagnes, kunt u de volledige waaier van processen en taken organiseren, de snelheid en de schaal van elk aspect van uw marketing campagnes verbeteren, van het creëren van segmenten en het voorbereiden van berichten aan levering. Bovendien kunt u uw kanalen synchroon maken met één gebruiksvriendelijke interface voor het organiseren van campagnes.
 

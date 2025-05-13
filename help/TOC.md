@@ -5,7 +5,7 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7d70ffcb1fb3469084dda302a4b29d22df7fe9ea
+source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
 source-wordcount: '2374'
 ht-degree: 21%
@@ -174,33 +174,35 @@ ht-degree: 21%
          + [Aangepaste acties gebruiken om gebeurtenissen voor reizen in Experience Platform te schrijven](using/building-journeys/custom-action-aep.md)
 + Geordende campagnes {#orchestrated-campaigns}
    + [Aan de slag met georkestreerde campagnes](using/ms/gs-ms-campaigns.md)
-   + Configuratie {#ms-config}
-      + [Configuratiestappen](using/ms/gs-campaign-config.md)
+   + [Belangrijkste beginselen](using/ms/gs-campaign-creation.md)
+   + [ Stappen om georkestreerde campagnes ](using/ms/gs-campaign-steps.md) te creëren
+   + Configuratiestappen {#ms-config}
       + [Relationele schema&#39;s maken](using/ms/ms-schemas.md)
-   + Uw eerste georkestreerde campagne maken {#create-ms-campaign}
-      + [Belangrijkste beginselen](using/ms/gs-campaign-creation.md)
+   + Aanmaakstappen{#create-ms-campaign}
       + [Een georkestreerde campagne maken](using/ms/create-ms-campaign.md)
-      + [Orchestraten](using/ms/orchestrate-activities.md)
       + [Campagne-instellingen configureren](using/ms/ms-campaign-settings.md)
-      + [ bouwt vragen ](using/ms/ms-query-modeler.md)
-      + [Uw berichten testen en valideren](using/ms/ms-proofs.md)
       + [Uw campagnes plannen en starten](using/ms/start-monitor-campaigns.md)
-      + [Geordende campagnes die verslag uitbrengen](using/ms/reporting-campaigns.md)
-      + [ beheer verpersoonlijking ](using/ms/ms-personalization.md)
-   + Geordende campagneactiviteiten {#design-campaigns}
-      + [Informatie over georkestreerde campagneactiviteiten](using/ms/activities/about-activities.md)
+      + [ bouwt vragen ](using/ms/ms-query-modeler.md)
+   + Activiteiten {#design-campaigns}
+      + [Aan de slag met activiteiten](using/ms/activities/about-activities.md)
+      + [Orchestraten](using/ms/orchestrate-activities.md)
       + [En-join](using/ms/activities/and-join.md)
       + [publiek opbouwen](using/ms/activities/build-audience.md)
       + [Dimensie wijzigen](using/ms/activities/change-dimension.md)
       + [Combineren](using/ms/activities/combine.md)
       + [Deduplicatie](using/ms/activities/deduplication.md)
-      + [Kanaalhandelingen](using/ms/activities/channels.md)
       + [Verrijking](using/ms/activities/enrichment.md)
       + [Vertakking](using/ms/activities/fork.md)
       + [Afstemming](using/ms/activities/reconciliation.md)
       + [Splitsen](using/ms/activities/split.md)
       + [Testen](using/ms/activities/test.md)
       + [Wachten](using/ms/activities/wait.md)
+   + Berichten {#messages}
+      + [Kanaalhandelingen](using/ms/activities/channels.md)
+      + [ Personaliseer uw inhoud ](using/ms/ms-personalization.md)
+      + [Uw berichten testen en valideren](using/ms/ms-proofs.md)
+   + Rapportage en bewaking {#report}
+      + [Rapportage](using/ms/reporting-campaigns.md)
 + Campagnes {#campaigns}
    + [Aan de slag met campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Een campagne maken](using/campaigns/create-campaign.md)
@@ -353,7 +355,7 @@ ht-degree: 21%
          + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [ gegevens van Adobe Experience Platform van het Gebruik voor verpersoonlijking (Beta) ](using/personalization/lookup-aep-data.md)
@@ -698,7 +700,7 @@ ht-degree: 21%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
    + [Uw kanalen configureren](using/configuration/get-started-configuration.md)

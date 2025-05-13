@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1318'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-compose"
 >title="Pas uw pushmelding aan."
->abstract="Als u uw bericht wilt samenstellen, voert u de inhoud in de velden Titel en Tekst in. Als u personalisatietokens wilt opnemen, opent u het dialoogvenster voor personalisatie."
+>abstract="Om uw bericht samen te stellen, ga de inhoud in de **Titel** en **3} gebieden van het Lichaam in.** Als u personalisatietokens wilt opnemen, opent u het dialoogvenster voor personalisatie."
 
 Klik op de velden **[!UICONTROL Title]** en **[!UICONTROL Body]** om uw bericht samen te stellen. Gebruik de verpersoonlijkingsredacteur om inhoud te bepalen, gegevens te personaliseren en dynamische inhoud toe te voegen. Leer meer over [ verpersoonlijking ](../personalization/personalize.md) en [ dynamische inhoud ](../personalization/get-started-dynamic-content.md) in de verpersoonlijkingsredacteur.
 
@@ -71,7 +71,7 @@ Nadat de media zijn toegevoegd, worden deze rechts van de meldingsinstantie weer
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-buttons"
 >title="Voeg knoppen toe waarmee gebruikers kunnen communiceren met uw pushmelding."
->abstract="Deze sectie zal u toestaan om vraag-aan-actie knopen aan uw bericht toe te voegen. Geef voor iOS een identificatie voor de berichtencategorie op. Voor Android kunt u voor elke knop aangepaste tekst en doelen opnemen."
+>abstract="Voeg vanuit deze sectie call-to-action-knoppen toe aan uw bericht. Geef voor Apple iOS een identificatiecode voor de berichtencategorie op. Voor Google Android kunt u aangepaste tekst en doelen voor elke knop opnemen."
 
 Maak een actionable melding door knoppen toe te voegen aan uw pushinhoud.
 
