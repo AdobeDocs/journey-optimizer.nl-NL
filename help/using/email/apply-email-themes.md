@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Verbeterde e-mailontwerpervaring
 description: Leer hoe u het maken van e-mail kunt stroomlijnen met herbruikbare thema's en modules, zodat uw campagnes consistent en efficiënt zijn.
-feature: Email Theme Management, Modules
-topic: Email Design
-role: Marketer
-level: Intermediate
+feature: Email Design
+topic: Content Management
+role: User
+level: Beginner, Intermediate
 keywords: E-mailthema's, modules, herbruikbaarheid, consistentie van merk, e-mailontwerp, aangepaste CSS, mobiele optimalisatie
-source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
+source-git-commit: d550765b378bfa2fdf0638da01c297792e0876ef
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 0%
