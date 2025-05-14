@@ -5,10 +5,8 @@ feature: Ranking, Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: ec5baea16b5dcd0f3ab9713020c918aa414ea46b
+source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 0%
@@ -18,8 +16,6 @@ ht-degree: 0%
 # De AI-formulebuilder gebruiken {#create-ranking-formulas}
 
 **Rangschikkende formules** staan u toe om regels te bepalen die welke aanbieding eerst, eerder dan rekening houdend met de prioritaire scores zullen bepalen.
-
-<!--In today's world, relevance demands more than static priorities.The new formula builder in **[!UICONTROL Adobe Journey Optimizer]** empowers marketers to dynamically rank offers by blending AI-driven model scores with business priorities, offer attributes, and contextual signals — no coding required.-->
 
 Als u deze regels wilt maken, biedt de AI-formule builder in **[!UICONTROL Adobe Journey Optimizer]** meer flexibiliteit en controle voor de manier waarop aanbiedingen worden gerangschikt. In plaats van alleen te vertrouwen op een statische aanbiedingsprioriteit, kunt u nu aangepaste rangschikkingsformules definiëren die AI-modelscores combineren, prioriteiten, profielkenmerken bieden, kenmerken aanbieden en contextuele signalen via een geleide interface.
 
@@ -84,8 +80,6 @@ Volg de onderstaande stappen om criteria rechtstreeks vanuit de interface te def
 
    ![](assets/ranking-formula-criterion-1.png){width="70%"}
 
-   <!--You can refer to [offer attributes](items.md#attributes), profile attributes, or [context data](context-data.md).-->
-
 1. U kunt desgewenst aanvullende elementen opgeven om de overeenkomende voorwaarden voor de geldigheid van de criteria te verfijnen.
 
    ![](assets/ranking-formula-addtional-conditions.png){width="80%"}
@@ -118,7 +112,7 @@ Volg de onderstaande stappen om criteria rechtstreeks vanuit de interface te def
 
 ### Voorbeeld van een willekeurige formule
 
-Overweeg het onderstaande voorbeeld:<!--To be checked by PM-->
+Bekijk het onderstaande voorbeeld:
 
 ![](assets/ranking-formula-example.png){width="80%"}
 
@@ -126,7 +120,7 @@ Als het gebied van het besluitpunt (douaneattribuut) het geografische etiket van
 
 ## De code-editor gebruiken {#ranking-code-editor}
 
-Om rangschikkende formules in **syntaxis van PQL** uit te drukken, schakelaar aan de coderedacteur gebruikend de specifieke knoop op hoogste recht van het scherm. Voor meer op hoe te om de syntaxis van PQL te gebruiken, verwijs naar de [ specifieke documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=nl-NL).
+Om rangschikkende formules in **syntaxis van PQL** uit te drukken, schakelaar aan de coderedacteur gebruikend de specifieke knoop op hoogste recht van het scherm. Voor meer op hoe te om de syntaxis van PQL te gebruiken, verwijs naar de [ specifieke documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
 
 >[!CAUTION]
 >
