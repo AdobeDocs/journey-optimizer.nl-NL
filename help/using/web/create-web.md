@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1325'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ Om de activiteit van het a **Web** aan een reis toe te voegen, volg deze stappen
 
    >[!NOTE]
    >
-   >Aangezien **Web** een binnenkomende berichtactiviteit is, komt het met een 3 dagen **wachten** activiteit. [Meer informatie](../building-journeys/wait-activity.md#auto-wait-node)
+   >Aangezien **Web** een binnenkomende ervaringsactiviteit is, komt het met een 3 dagen **wachten** activiteit. [Meer informatie](../building-journeys/wait-activity.md#auto-wait-node)
 
 1. Voer een **[!UICONTROL Label]** en **[!UICONTROL Description]** in voor uw bericht.
 
@@ -93,7 +93,7 @@ Volg onderstaande stappen om uw webervaring op te bouwen via een campagne.
 
 Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [ deze pagina ](../campaigns/get-started-with-campaigns.md).
 
-➡️ [ leren hoe te om een Webcampagne in deze video tot stand te brengen ](#video)
+➡️ [ Leer hoe te om een Webcampagne in deze video ](#video) tot stand te brengen
 
 >[!ENDTABS]
 
@@ -103,13 +103,13 @@ Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [ deze 
 >id="ajo_web_url_to_edit_surface"
 >title="Bevestig de URL die u wilt bewerken"
 >abstract="Bevestig de URL van de specifieke webpagina die u wilt gebruiken voor het bewerken van de inhoud die wordt toegepast op de hierboven gedefinieerde webconfiguratie. De webpagina moet worden geïmplementeerd met de Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=nl-NL" text="Meer informatie"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Meer informatie"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="Voer de te bewerken URL in"
 >abstract="Voer de URL in van een specifieke webpagina die u wilt gebruiken voor het bewerken van de inhoud die wordt toegepast op alle pagina&#39;s die aan de regel voldoen. De webpagina moet worden geïmplementeerd met Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=nl-NL" text="Meer informatie"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Meer informatie"
 
 Zodra u [ een Webactie ](#create-web-experience) aan een reis of een campagne toevoegde, kunt u de inhoud van uw plaats uitgeven gebruikend of:
 
@@ -241,4 +241,4 @@ Wanneer een webreis of campagne live is, kunt u deze stoppen om te voorkomen dat
 
 In de onderstaande video ziet u hoe u een webcampagne kunt maken, de eigenschappen ervan kunt configureren, beoordelen en publiceren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449987/?quality=12&learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

@@ -7,9 +7,9 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 621f9bcb32d108490e7674778ce40385938af18e
+source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '755'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Met Adobe Journey Optimizer kunt u deze gegevens eenvoudig beheren, behouden en 
 
 Met Customer Journey Analytics kunt u geavanceerde analyses uitvoeren op gegevens die door Journey Optimizer zijn gegenereerd.
 
-Journey Optimizer slaat gegevens op in de Adobe Experience Platform en met Customer Journey Analytics biedt een holistische weergave van al uw reizen, campagnes en aanbiedingen met geautomatiseerde rapportendistributie en aangepaste visualisaties van de gegevens.
+Journey Optimizer slaat gegevens op in Adobe Experience Platform en met Customer Journey Analytics biedt een holistische weergave van al uw reizen, campagnes en aanbiedingen met geautomatiseerde rapportdistributie en aangepaste visualisaties van de gegevens.
 
 Na het maken van uw reis in Journey Optimizer kan Customer Journey Analytics gegevens van het platform opnemen om rapporten te starten en inzicht te krijgen in de impact van elke interactie die een klant heeft met uw reizen.
 
@@ -84,7 +84,7 @@ Met de Adobe Journey Optimizer-modules in Adobe Workfront kunt u records maken, 
 
 Een overzicht van de belangrijkste stap van deze integratie is beschikbaar [ in dit blogbericht ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
 
-Leer meer over Journey Optimizer + Adobe Workfront [ in de documentatie van Adobe Workfront ](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=nl-NL){target="_blank"}.
+Leer meer over Journey Optimizer + Adobe Workfront [ in de documentatie van Adobe Workfront ](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html){target="_blank"}.
 
 ## Aangepaste kanalen {#integration-custom}
 

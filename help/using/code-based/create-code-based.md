@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 7658448ad902e2d2d2ef73ee7f71ea2cdda8d497
+source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '603'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Volg de onderstaande stappen om uw op code gebaseerde ervaring op te bouwen via 
 
 >[!BEGINTABS]
 
->[!TAB voeg een op code-gebaseerde ervaring aan een reis  toe]
+>[!TAB  voeg een op code-gebaseerde ervaring aan een reis ] toe
 
 Om a **code-gebaseerde ervaring** activiteit aan een reis toe te voegen, volg deze stappen:
 
@@ -37,7 +37,7 @@ Om a **code-gebaseerde ervaring** activiteit aan een reis toe te voegen, volg de
 
    >[!NOTE]
    >
-   >Aangezien **op code-gebaseerde ervaring** een binnenkomende berichtactiviteit is, komt het met een 3 dagen **wachten** activiteit. [Meer informatie](../building-journeys/wait-activity.md#auto-wait-node)
+   >Aangezien **op code-gebaseerde ervaring** een binnenkomende ervaringsactiviteit is, komt het met een 3 dagen **wachten** activiteit. [Meer informatie](../building-journeys/wait-activity.md#auto-wait-node)
 
 1. Voer een **[!UICONTROL Label]** en **[!UICONTROL Description]** in voor uw bericht.
 
@@ -79,7 +79,7 @@ Begin bouwend uw **code-gebaseerde ervaring** door een campagne, volg hieronder 
 
 Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [ deze pagina ](../campaigns/get-started-with-campaigns.md).
 
-➡️ [ leren hoe te om een code-gebaseerde ervaringscampagne in deze video ](#video) tot stand te brengen
+➡️ [ Leer hoe te om een code-gebaseerde ervaringscampagne in deze video ](#video) tot stand te brengen
 
 >[!ENDTABS]
 
@@ -89,7 +89,7 @@ Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [ deze 
 >id="ajo_code_based_experience"
 >title="De personalisatie-editor gebruiken"
 >abstract="Voeg de code die u wilt leveren in en bewerk deze als onderdeel van deze op code gebaseerde ervaringsactie."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="Werken met de verpersoonlijkingseditor"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="Werken met de verpersoonlijkingseditor"
 
 1. Selecteer **[!UICONTROL Edit code]** in het scherm van de reisactiviteit of de campagneeditie.
 
@@ -123,4 +123,4 @@ Zodra uw ontwikkelaar een API- of SDK-aanroep maakt om inhoud op te halen voor h
 
 In de onderstaande video ziet u hoe u een op code gebaseerde ervaringscampagne kunt maken, de eigenschappen ervan kunt configureren, testen en publiceren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449459/?quality=12&learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

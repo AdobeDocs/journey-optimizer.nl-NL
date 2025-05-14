@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, bericht, push, sms, e-mail, in-app, web, inhoudskaart, op code gebaseerde ervaring
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 40c067d85b278380abd874fc6edc69f32c0c56ef
+source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '496'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="Ingebouwde kanaalactie"
->abstract="Journey Optimizer wordt geleverd met ingebouwde kanaalactiemogelijkheden. U kunt aan uw reis eenvoudig een uitgaande (e-mail, tekstbericht (SMS/MMS), duw) of binnenkomende (in-app, Web, code-gebaseerde ervaring, inhoudskaart) activiteit toevoegen, en montages en inhoud bepalen. Het wordt vervolgens uitgevoerd en verzonden in het kader van de reis."
+>abstract="Journey Optimizer wordt geleverd met ingebouwde kanaalactiemogelijkheden. U kunt eenvoudig aan uw reis een bericht (e-mail, tekstbericht (SMS/MMS), duw) of een binnenkomende ervaring (In-app, Web, code-gebaseerde ervaring, inhoudskaart) activiteit toevoegen, en montages en inhoud bepalen. Het wordt vervolgens uitgevoerd en verzonden in het kader van de reis."
 
 [!DNL Journey Optimizer] wordt geleverd met ingebouwde kanaalactiemogelijkheden die worden gebruikt om berichten te verzenden: wanneer een profiel deze activiteit ingaat, wordt een bericht naar hen verzonden.
 
@@ -121,7 +121,7 @@ Volg onderstaande stappen om een ingebouwde kanaalactie aan een reis toe te voeg
 
 >[!NOTE]
 >
->* Elke binnenkomende berichtactiviteit komt met een 3 dagen **wachten** activiteit. [Meer informatie](wait-activity.md#auto-wait-node)
+>* Elke binnenkomende ervaringsactiviteit komt met een 3 dagen **wachten** activiteit. [Meer informatie](wait-activity.md#auto-wait-node)
 >
 >* Voor e-mails en pushmeldingen kunt u Send-Time optimaliseren inschakelen. [Meer informatie](send-time-optimization.md)
 

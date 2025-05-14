@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Leer meer over de verschillende metriek en widgets beschikbaar voor het Kanaal r
 
 Controleer voordat u begint of u toegang hebt tot het menu **[!UICONTROL Reports]** .
 
-Als u het menu **[!UICONTROL Reports]** niet kunt zien, moeten uw toegangsrechten worden uitgebreid om de machtiging **[!UICONTROL View Channel Reports]** op te nemen. U kunt uw eigen toestemmingen uitbreiden, als u toegang tot Adobe Experience Platform [ Toestemmingen ](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=nl-NL){target="_blank"}  voor uw organisatie hebt. Als dat niet het geval is, neemt u contact op met uw Adobe Journey Optimizer-beheerder.
+Als u het menu **[!UICONTROL Reports]** niet kunt zien, moeten uw toegangsrechten worden uitgebreid om de machtiging **[!UICONTROL View Channel Reports]** op te nemen. U kunt uw eigen toestemmingen uitbreiden, als u toegang tot Adobe Experience Platform [ Toestemmingen ](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html){target="_blank"} voor uw organisatie hebt. Als dat niet het geval is, neemt u contact op met uw Adobe Journey Optimizer-beheerder.
 
 +++Leer hoe te om rapporttoestemming toe te wijzen
 

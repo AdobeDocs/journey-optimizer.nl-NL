@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 Met [!DNL Journey Optimizer] kunt u visueel ontwerpen en persoonlijke webervaringen aan uw klanten aanbieden.
 
-Via een intuïtieve visuele interface kunt u met deze functie eenvoudig uw wegeigenschappen wijzigen om uw campagnes voor eindgebruikers te experimenteren, te optimaliseren en aan te passen.
+Met behulp van het webkanaal kunt u via een intuïtieve visuele interface eenvoudig uw wegeigenschappen aanpassen om uw campagnes voor eindgebruikers te experimenteren, te optimaliseren en aan te passen.
 
 ![](../rn/assets/do-not-localize/web-authoring.gif)
 
-Als u al uitgaande kanalen gebruikt, zoals e-mail, SMS of pushberichten, kunt u nu het binnenkomende webkanaal gebruiken om een echt gepersonaliseerde ervaring te bieden die zich over alle kanalen uitstrekt.
+Als u reeds uitgaande kanalen voor berichtlevering, zoals e-mail, SMS of dupberichten gebruikt, kunt u het binnenkomende Webkanaal gebruiken om een werkelijk gepersonaliseerde ervaring aan te bieden die zich over alle kanalen uitstrekt.
 
 Zodra u een reis of een campagne creeerde, selecteer **Web** als uw actie en bepaal basismontages. Voor meer informatie over hoe te om uw reis/campagne te vormen, verwijs naar deze [ pagina ](create-web.md#create-web-experience).
 

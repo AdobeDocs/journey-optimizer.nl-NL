@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: wachten, activiteit, reis, volgende, canvas
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
+source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 3%
@@ -49,7 +49,7 @@ Een beste praktijk om **niet te gebruiken wacht** activiteiten om ingang te blok
 
 ### Wachten en testmodus {#wait-test-mode}
 
-Op testwijze, staat de **[!UICONTROL Wait time in test]** parameter u toe om de tijd te bepalen dat elk **&#x200B;**&#x200B;activiteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Leer meer op [ deze pagina ](../building-journeys/testing-the-journey.md).
+Op testwijze, staat de **[!UICONTROL Wait time in test]** parameter u toe om de tijd te bepalen dat elk **** activiteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Leer meer op [ deze pagina ](../building-journeys/testing-the-journey.md).
 
 ### Wachten en mobiele kanalen {#wait-mobile-channels}
 
@@ -100,4 +100,4 @@ Om te bevestigen dat de wachttijdactiviteit zoals verwacht werkt, kunt u step ge
 >title="Over het automatische wachtknooppunt"
 >abstract="A **wacht** activiteit wordt automatisch toegevoegd na deze activiteit. Deze wordt ingesteld voor 3 dagen. U kunt het verwijderen of het vormen zoals nodig."
 
-Elke binnenkomende berichtactiviteit (In-app bericht, op code-gebaseerde ervaring, of Kaart) komt met een 3 dagen **wachten** activiteit. Aangezien de binnenkomende berichten automatisch beëindigen wanneer een profiel uit het eind van de reis bereikt, veronderstellen wij dat u uw gebruikers het ten minste 3 dagen wilt zien. U kunt dit **verwijderen wacht** activiteit, of verandert zijn configuratie indien nodig.
+Elke binnenkomende ervaringsactiviteit (In-app bericht, op code-gebaseerde ervaring, of Kaart) komt met een 3 dagen **wachten** activiteit. Aangezien de binnenkomende berichten automatisch beëindigen wanneer een profiel uit het eind van de reis bereikt, veronderstellen wij dat u uw gebruikers het ten minste 3 dagen wilt zien. U kunt dit **verwijderen wacht** activiteit, of verandert zijn configuratie indien nodig.
