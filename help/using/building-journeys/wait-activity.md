@@ -49,7 +49,7 @@ Een beste praktijk om **niet te gebruiken wacht** activiteiten om ingang te blok
 
 ### Wachten en testmodus {#wait-test-mode}
 
-Op testwijze, staat de **[!UICONTROL Wait time in test]** parameter u toe om de tijd te bepalen dat elk **** activiteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Leer meer op [ deze pagina ](../building-journeys/testing-the-journey.md).
+Op testwijze, staat de **[!UICONTROL Wait time in test]** parameter u toe om de tijd te bepalen dat elk **&#x200B;**&#x200B;activiteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Leer meer op [ deze pagina ](../building-journeys/testing-the-journey.md).
 
 ### Wachten en mobiele kanalen {#wait-mobile-channels}
 

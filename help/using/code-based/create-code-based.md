@@ -23,7 +23,7 @@ Volg de onderstaande stappen om uw op code gebaseerde ervaring op te bouwen via 
 
 >[!BEGINTABS]
 
->[!TAB  voeg een op code-gebaseerde ervaring aan een reis ] toe
+>[!TAB voeg een op code-gebaseerde ervaring aan een reis  toe]
 
 Om a **code-gebaseerde ervaring** activiteit aan een reis toe te voegen, volg deze stappen:
 
