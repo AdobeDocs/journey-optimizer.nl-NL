@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: c30b7f4d75222db0553fbf576b90791af58cda57
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 >id="ajo_create_fragment"
 >title="Uw eigen fragmenten definiëren"
 >abstract="Maak en beheer standalone fragmenten om uw inhoud te hergebruiken voor meerdere reizen en campagnes."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="Fragmenten maken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="Fragmenten maken"
 
 Een fragment is een herbruikbare component waarnaar in een of meer e-mails via [!DNL Journey Optimizer] -campagnes en -reizen kan worden verwezen. Met deze functionaliteit kunt u meerdere blokken aangepaste inhoud vooraf samenstellen die door marketinggebruikers kunnen worden gebruikt om snel e-mailinhoud samen te stellen in een verbeterd ontwerpproces.
 
@@ -31,7 +31,7 @@ Een fragment is een herbruikbare component waarnaar in een of meer e-mails via [
 
 U kunt zo veel mogelijk gebruikmaken van fragmenten:
 
-* **creeer uw eigen fragmenten**: Creeer visuele of uitdrukkingsfragmenten, of van kras of door inhoud als fragment op te slaan. [ Leer hoe te om een fragment ](#create-fragments) tot stand te brengen. Bovendien kunt u hefboomwerking Journey Optimizer **Inhoud REST API** gebruiken om inhoudsfragmenten te beheren. Voor meer op dit, verwijs naar de [ documentatie van Journey Optimizer APIs ](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
+* **creeer uw eigen fragmenten**: Creeer visuele of uitdrukkingsfragmenten, of van kras of door inhoud als fragment op te slaan. [ Leer hoe te om een fragment ](create-fragments.md) tot stand te brengen. Bovendien kunt u hefboomwerking Journey Optimizer **Inhoud REST API** gebruiken om inhoudsfragmenten te beheren. Voor meer op dit, verwijs naar de [ documentatie van Journey Optimizer APIs ](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 * **hergebruik uw fragmenten:** gebruik hen zo vele tijden zoals nodig in uw inhoud. Zie [ visuele fragmenten ](../email/use-visual-fragments.md) en [ de uitdrukkingsfragmenten van de Leverage ](../personalization/use-expression-fragments.md) toevoegen
 
 ## Voordat u begint {#fragment-prerequisites}
@@ -62,4 +62,4 @@ Leer hoe te om, auteur, en gebruik **visuele fragmenten** in [!DNL Journey Optim
 
 Leer hoe te om, auteur, en gebruiks **uitdrukkingsfragmenten** in [!DNL Journey Optimizer] te beheren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3438923/?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)

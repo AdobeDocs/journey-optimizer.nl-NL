@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '678'
 ht-degree: 1%
 
 ---
@@ -21,13 +21,13 @@ ht-degree: 1%
 >id="ajo_create_visual_fragment"
 >title="Selecteer het visuele type"
 >abstract="Maak een zelfstandig visueel fragment om uw inhoud te hergebruiken in een e-mail binnen een reis, een campagne of een inhoudssjabloon."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments" text="Visuele fragmenten toevoegen aan uw e-mails"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments" text="Visuele fragmenten toevoegen aan uw e-mails"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
 >title="Expressietype selecteren"
 >abstract="Maak een zelfstandig expressiefragment om uw inhoud te hergebruiken voor meerdere reizen en campagnes. Wanneer u de verpersoonlijkingseditor gebruikt, kunt u alle uitdrukkingsfragmenten benutten die in de huidige sandbox zijn gemaakt."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="Werken met de verpersoonlijkingseditor"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="Werken met de verpersoonlijkingseditor"
 
 U kunt geheel nieuwe fragmenten maken in het menu links van **[!UICONTROL Fragments]** . Bovendien kunt u een gedeelte van bestaande inhoud als fragment opslaan wanneer u inhoud ontwerpt. [ leer hoe ](#save-as-fragment)
 
@@ -66,6 +66,14 @@ Nadat u de eigenschappen van het fragment hebt geconfigureerd, wordt de e-mail-D
 * Voor visuele fragmenten kunt u de inhoud naar wens bewerken, net zoals u dat zou doen voor elke e-mail in een rit of campagne. [Meer informatie](../email/get-started-email-design.md)
 
   ![](assets/fragment-designer.png)
+
+  Om een specifieke het stileren snel toe te passen die uw merk en ontwerp past, kunt u a [ thema ](../email/apply-email-themes.md) op uw fragment toepassen.
+
+  ![](assets/fragment-themes.png)
+
+  >[!CAUTION]
+  >
+  >Fragmenten zijn niet kruiscompatibel tussen het thema en de klassieke modus. Als u een fragment wilt kunnen gebruiken in inhoud waarop u een thema wilt toepassen, moet dit fragment worden gemaakt in de themamodus. [ leer meer over thema&#39;s ](../email/apply-email-themes.md)
 
 * Voor expressiefragmenten gebruikt u de [!DNL Journey Optimizer] personalization-editor met al zijn personalisatie- en ontwerpmogelijkheden om de fragmentinhoud samen te stellen. [Meer informatie](../personalization/personalization-build-expressions.md)
 

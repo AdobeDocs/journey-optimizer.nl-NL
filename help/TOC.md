@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
 workflow-type: tm+mt
-source-wordcount: '2374'
+source-wordcount: '2377'
 ht-degree: 21%
 
 ---
@@ -175,7 +175,7 @@ ht-degree: 21%
 + Geordende campagnes {#orchestrated-campaigns}
    + [Aan de slag met georkestreerde campagnes](using/ms/gs-ms-campaigns.md)
    + [Belangrijkste beginselen](using/ms/gs-campaign-creation.md)
-   + [ Stappen om georkestreerde campagnes  te creëren](using/ms/gs-campaign-steps.md)
+   + [ Stappen om georkestreerde campagnes ](using/ms/gs-campaign-steps.md) te creëren
    + Configuratiestappen {#ms-config}
       + [Relationele schema&#39;s maken](using/ms/ms-schemas.md)
    + Aanmaakstappen{#create-ms-campaign}
@@ -240,6 +240,7 @@ ht-degree: 21%
             + [Uw inhoud importeren](using/email/existing-content.md)
             + [Uw eigen inhoud coderen](using/email/code-content.md)
             + [E-mailsjablonen gebruiken](using/email/use-email-templates.md)
+            + [E-mailthema&#39;s gebruiken](using/email/apply-email-themes.md)
          + Uw inhoud ontwerpen {#add-content}
             + [Inhoudscomponenten gebruiken](using/email/content-components.md)
             + [Gebruik visuele fragmenten](using/email/use-visual-fragments.md)
@@ -355,7 +356,7 @@ ht-degree: 21%
          + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [ gegevens van Adobe Experience Platform van het Gebruik voor verpersoonlijking (Beta) ](using/personalization/lookup-aep-data.md)
@@ -700,7 +701,7 @@ ht-degree: 21%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
    + [Uw kanalen configureren](using/configuration/get-started-configuration.md)

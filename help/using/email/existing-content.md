@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: email, import, content, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 10%
@@ -18,38 +18,38 @@ ht-degree: 10%
 
 # Uw e-mailinhoud importeren {#existing-content}
 
-[!DNL Journey Optimizer] kunt u bestaande HTML-inhoud importeren om uw e-mails te ontwerpen. Deze inhoud kan:
+Met [!DNL Journey Optimizer] kunt u bestaande HTML-inhoud importeren om uw e-mails te ontwerpen. Deze inhoud kan:
 
-* An **HTML-bestand** met een model;
-* A **.zip-map** inclusief een HTML-bestand, de stijlpagina (.css) en afbeeldingen.
+* Een **dossier van HTML** met een opgenomen stijlblad;
+* Een map **.zip** met een HTML-bestand, de stijlpagina (.css) en afbeeldingen.
 
   >[!NOTE]
   >
   >Er gelden geen beperkingen voor de .zip-bestandsstructuur. Verwijzingen moeten echter relatief zijn en passen bij de boomstructuur van de ZIP-map.
 
-Voer de volgende stappen uit om een bestand met HTML-inhoud te importeren:
+Voer de onderstaande stappen uit om een bestand met HTML-inhoud te importeren:
 
-1. Selecteer op de introductiepagina E-mail Designer de optie **[!UICONTROL Import HTML]**.
+1. Selecteer **[!UICONTROL Import HTML]** op de homepage van E-mail Designer.
 
    ![](assets/import-html_2.png)
 
-1. Sleep het HTML- of ZIP-bestand met de inhoud van uw HTML en klik op **[!UICONTROL Import]**.
+1. Sleep het HTML- of ZIP-bestand met de HTML-inhoud en klik op **[!UICONTROL Import]** .
 
    ![](assets/html-imported_2.png)
 
-1. Nadat de HTML-inhoud is geüpload, wordt uw inhoud weergegeven in **[!UICONTROL Compatibility mode]**.
+1. Nadat de HTML-inhoud is geüpload, bevindt de inhoud zich in **[!UICONTROL Compatibility mode]** .
 
    In deze modus kunt u alleen uw tekst aanpassen, koppelingen toevoegen of elementen aan uw inhoud toevoegen.
 
-1. Als u de inhoudcomponenten van E-mailontwerper wilt gebruiken, opent u de **[!UICONTROL HTML converter]** en klik op **[!UICONTROL Convert]**.
+1. Als u de Designer-inhoudsonderdelen voor e-mail wilt gebruiken, opent u het tabblad **[!UICONTROL HTML converter]** en klikt u op **[!UICONTROL Convert]** .
 
    ![](assets/html-imported.png)
 
    >[!NOTE]
    >
-   > Een `<table>` -tag als de eerste laag in een HTML-bestand kan leiden tot stijlverlies, inclusief de instellingen voor achtergrond en breedte in de bovenste laagtag.
+   > Als u een `<table>` -tag als eerste laag in een HTML-bestand gebruikt, kan dit leiden tot stijlverlies, zoals de achtergrond- en breedte-instellingen in de bovenste laagtag.
 
-1. U kunt uw geïmporteerde bestand nu naar wens aanpassen met de functies van E-mailontwerper [Meer informatie](content-from-scratch.md).
+1. U kunt uw geïmporteerde bestand nu naar wens aanpassen met de functies van E-mail Designer. [Meer informatie](content-from-scratch.md)
 
 ## Hoe kan ik-video {#video}
 

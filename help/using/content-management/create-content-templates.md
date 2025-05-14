@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: a487355df0229a1e94375025eae0babc9405f087
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 2%
+source-wordcount: '633'
+ht-degree: 3%
 
 ---
 
@@ -80,6 +80,10 @@ Voer de onderstaande stappen uit om een volledig nieuwe inhoudssjabloon te maken
    ![](assets/content-template-back.png)
 
 Deze sjabloon kan nu worden gebruikt wanneer u inhoud maakt binnen [!DNL Journey Optimizer] . [ leer hoe ](#use-content-templates)
+
+>[!NOTE]
+>
+>Als u een sjabloon voor e-mailinhoud maakt en snel een specifieke stijl wilt toepassen die past bij uw merk en ontwerp, kunt u een thema toepassen op uw inhoud. [Meer informatie](../email/apply-email-themes.md)
 
 ## Inhoud opslaan als inhoudssjabloon {#save-as-template}
 
