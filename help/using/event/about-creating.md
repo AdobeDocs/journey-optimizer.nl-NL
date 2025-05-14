@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: evenement, eenheidsprijs, creëren, reis
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: c403769a872ac6b4720ec6aaae9eda5d68da96c5
+source-git-commit: 6d219d9caea28947877e38893dea20a4f77456f6
 workflow-type: tm+mt
-source-wordcount: '1634'
+source-wordcount: '1685'
 ht-degree: 7%
 
 ---
@@ -22,6 +22,11 @@ ht-degree: 7%
 >id="ajo_journey_event_unitary"
 >title="Unitaire gebeurtenissen"
 >abstract="Met de gebeurtenisconfiguratie kunt u de informatie definiëren die Journey Optimizer ontvangt als gebeurtenissen. U kunt meerdere gebeurtenissen gebruiken (in verschillende stappen van een reis) en verschillende reizen kunnen dezelfde gebeurtenis gebruiken. Eenheidsgebeurtenissen zijn gekoppeld aan een specifiek profiel. Zij kunnen op regel-gebaseerd of systeem-geproduceerd zijn."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_parameters"
+>title="Parameters"
+>abstract="Definieer de parameters van de gebeurtenis, zoals het schema en de payload-velden. Voor op regel-gebaseerde gebeurtenissen, gebruik het **[!UICONTROL Event ID condition]** gebied om de voorwaarde te bepalen die door het systeem zal worden gebruikt om de gebeurtenissen te identificeren die uw reis zullen teweegbrengen. Voeg een identiteitstype en een profiel-id toe die u voor de gebeurtenis wilt gebruiken."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
