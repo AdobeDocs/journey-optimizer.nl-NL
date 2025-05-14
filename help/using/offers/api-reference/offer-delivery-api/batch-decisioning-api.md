@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: d2451bbaf9830ce3d928e71a609627c23a7566fa
+source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ Om dit te doen, zou de organisatie:
 
 * Voer de API [!DNL Batch Decisioning] uit, die twee verzoeken bevat:
 
-   1. A **verzoek van de POST van de Partij** om een werkbelasting te beginnen aan de selectie van de partijprocesaanbieding.
+   1. A **verzoek van de POST van de Partij** om een werkbelasting te beginnen aan de selectie van de de partijprocesaanbieding.
 
-   2. A **verzoek van de GET van de Partij** om de status van de partijwerkbelasting te krijgen.
+   2. A **verzoek van GET van de Partij** om de status van de partijwerkbelasting te krijgen.
 
 * Exporteer de dataset naar de API van de leverancier van de berichtlevering.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=nl-NL) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ Alle [!DNL Batch Decisioning] verzoeken vereisen de volgende kopballen naast deg
 
 ## Een batchproces starten {#start-a-batch-process}
 
-Als u een werkbelasting wilt starten om beslissingen over batchprocessen te nemen, vraagt u een POST naar het `/workloads/decisions` -eindpunt.
+Als u een werkbelasting wilt starten om beslissingen over batchprocessen te nemen, vraagt u een POST-aanvraag naar het `/workloads/decisions` -eindpunt.
 
 >[!NOTE]
 >
@@ -104,7 +104,6 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 | -------- | ----------- | ------- |
 | `xdm:activityId` | De unieke identificatiecode van het besluit. |
 | `xdm:dataSetId` | De output dataSet dat beslissingsgebeurtenissen kunnen worden geschreven in. | `6196b4a1a63bd118dafe093c` |
-| `xdm:enrichedAudience` | Voeg deze parameter toe en plaats het aan &quot;waar&quot;als u een publiek CSV richt | `true` |
 | `xdm:includeContent` | Dit is een optioneel veld en is standaard `false` . Als `true`, is de aanbiedingsinhoud inbegrepen in de besluitvormingsgebeurtenissen van dataset. | `false` |
 | `xdm:itemCount` | Dit is een facultatief gebied dat het aantal punten zoals opties toont die voor het beslissingswerkingsgebied worden gevraagd. Standaard retourneert de API één optie per bereik, maar u kunt expliciet om meer opties vragen door dit veld op te geven. Voor elk bereik kunnen minimaal 1 en maximaal 30 opties worden aangevraagd. | `1` | `xcore:offer-activity:1410cdcda196707b` |
 | `xdm:placementId` | De unieke plaatsings-id. | `xcore:offer-placement:1410c4117306488a` |
@@ -133,7 +132,7 @@ Verwijs naar de [ documentatie van het Beheer van het Besluit ](../../get-starte
 
 ## Informatie ophalen over een batchbeslissing {#retrieve-information-on-a-batch-decision}
 
-Om informatie over een specifieke beslissing terug te winnen, doe een verzoek van de GET aan het `/workloads/decisions` eindpunt terwijl het verstrekken van de overeenkomstige waarde van werklastidentiteitskaart voor uw besluit.
+Om informatie over een specifieke beslissing terug te winnen, doe een GET verzoek aan het `/workloads/decisions` eindpunt terwijl het verstrekken van de overeenkomstige waarde van werklastidentiteitskaart voor uw besluit.
 
 **API formaat**
 

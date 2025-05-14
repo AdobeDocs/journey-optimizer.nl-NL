@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 7%
@@ -17,20 +17,20 @@ ht-degree: 7%
 
 Een gepersonaliseerd aanbod is een aanpasbaar marketingbericht op basis van geschiktheidsregels en -beperkingen.
 
-U kunt een gepersonaliseerde aanbieding tot stand brengen door een verzoek van de POST aan [!DNL Offer Library] API.
+U kunt een persoonlijke aanbieding maken door een POST-aanvraag in te dienen bij de [!DNL Offer Library] API.
 
 ## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
 
-In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* veld in de aanvraagkoptekst:
+De volgende lijst toont de geldige waarden die uit het *inhoud-Type* gebied in de verzoekkopbal bestaan:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
 | Inhoudstype | `application/json` |
 
-**API-indeling**
+**API formaat**
 
 ```http
-POST /{ENDPOINT_PATH}/offers/{ID}?offer-type=personalized
+POST /{ENDPOINT_PATH}/offers/offers?offer-type=personalized
 ```
 
 | Parameter | Beschrijving | Voorbeeld |
@@ -92,9 +92,9 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offers?offer-type=personal
 }'
 ```
 
-**Antwoord**
+**Reactie**
 
-Een succesvolle reactie keert de details van nieuw gecreeerd gepersonaliseerd-aanbod, met inbegrip van identiteitskaart terug. U kunt de `id` in latere stappen om uw persoonlijke aanbieding bij te werken of te verwijderen.
+Een succesvolle reactie keert de details van nieuw gecreeerd gepersonaliseerd-aanbod, met inbegrip van identiteitskaart terug. U kunt `id` in recentere stappen gebruiken om uw gepersonaliseerde aanbieding bij te werken of te schrappen.
 
 ```json
 {
@@ -112,4 +112,4 @@ Een succesvolle reactie keert de details van nieuw gecreeerd gepersonaliseerd-aa
 
 ## Beperkingen {#limitations}
 
-Aanbiedingsweergaven en sommige aanbiedingsbeperkingen worden momenteel niet ondersteund voor het mobiele apparaat [!DNL Experience Edge] workflows, bijvoorbeeld `Capping`. De `Capping` veldwaarde geeft het aantal keren aan dat een aanbieding voor alle gebruikers kan worden weergegeven. Zie voor meer informatie [Aanbiedingsregels en documentatie over beperkingen](../../../../offers/offer-library/creating-personalized-offers.md).
+Aanbiedingsweergaven en sommige aanbodbeperkingen worden momenteel niet ondersteund door de mobiele [!DNL Experience Edge] workflows, bijvoorbeeld `Capping` . De veldwaarde `Capping` geeft aan hoe vaak een aanbieding voor alle gebruikers kan worden weergegeven. Voor meer details, zie [ de geschiktheidsregels en beperkingsdocumentatie van de Aanbieding ](../../../../offers/offer-library/creating-personalized-offers.md).
