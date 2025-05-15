@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
+source-git-commit: 23cd384354a7b3f6a4c6c35030fbd9275952c0b1
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 7%
+source-wordcount: '1005'
+ht-degree: 8%
 
 ---
 
@@ -20,29 +20,21 @@ ht-degree: 7%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## 25 mei updates {#25-5-rn}
-
-* **Thema&#39;s in e-mail Designer (Beta)** - de datum van de Beschikbaarheid: 14 mei, 2025
-
-  U kunt nu snel vooraf goedgekeurde opmaakthema&#39;s toepassen op uw e-mailinhoud om ervoor te zorgen dat alle e-mails overal hetzelfde worden weergegeven, het maken van uw campagne te versnellen en onafhankelijk e-mails van hoge kwaliteit te produceren en de afhankelijkheid van ontwerpteams te verminderen. [Meer informatie](../email/apply-email-themes.md)
-
-  >[!AVAILABILITY]
-  >
-  >Deze mogelijkheid is momenteel beschikbaar in bètaversie en alleen voor bètaklanten. Neem contact op met uw Adobe-vertegenwoordiger als u wilt deelnemen aan het bètaprogramma.
-
-  ![](assets/do-not-localize/themes.gif)
-
-* **Beslissing - de Nieuwe AI formules bouwer** - de datum van de Beschikbaarheid: 14 mei, 2025
-
-  U kunt nu specifieke rangschikkingsformules voor besluiten maken door criteria te definiëren en te combineren vanuit een nieuwe, verbeterde interface. In plaats van alleen te vertrouwen op een statische aanbiedingsprioriteit, kunt u aangepaste rangschikkingsformules definiëren die AI-modelscores combineren, prioriteiten, profielkenmerken bieden, kenmerken aanbieden en contextuele signalen via een geleide interface. [Meer informatie](../experience-decisioning/exd-ranking-formulas.md)
-
-  ![](assets/do-not-localize/formula-builder.gif)
 
 * **Omslagen voor het landen van pagina&#39;s** - de datum van Beschikbaarheid: 9 mei, 2025
 
   Om uw openingspagina&#39;s gemakkelijk te beheren, kunt u omslagen nu gebruiken om hen effectiever te organiseren in een gestroomlijnde hiërarchie.  [Meer informatie](../landing-pages/manage-lp.md)
+<!--
+* **Decisioning - New AI formula builder**  - Availability date: May 7, 2025
+
+  You can now create specific Decisioning ranking formulas by defining and combining criteria from a new improved interface. Instead of relying only on a static offer priority, you can define custom ranking formulas that combine AI model scores, offer priorities, profile attributes, offer attributes, and contextual signals through a guided interface.
+  
+  For more information, refer to the [detailed documentation](../experience-decisioning/exd-ranking-formulas.md)
+
+  ![](assets/do-not-localize/formula-builder.gif)-->
 
 * **pills activering voor verpersoonlijking** - de datum van de Beschikbaarheid: 5 Mei, 2025
 
@@ -51,6 +43,10 @@ ht-degree: 7%
   >[!AVAILABILITY]
   >
   >Deze mogelijkheid zal de komende 30 dagen geleidelijk aan in alle omgevingen worden benut.
+
+* **Nieuwe campagnevoorwerpen steun voor zandbakexemplaar** <!-- - Availability date: -->
+
+  Wanneer het kopiëren van campagnes over veelvoudige zandbakken gebruikend de pakketuitvoer en de invoermogelijkheden, worden de volgende gebiedsdelen nu ook gekopieerd: kanaalconfiguraties, experimenteervarianten en montages, besluitvormingsbeleid en punten. [Meer informatie](../configuration/copy-objects-to-sandbox.md)
 
 ## Opmerkingen bij de release van april &#39;25 {#25-4-rn}
 
@@ -314,7 +310,9 @@ Er zijn nieuwe API&#39;s beschikbaar voor het weergeven van voorvertoningen van 
 
 **de gevalplaybooks van het Gebruik**
 
-* **het auteursrecht en het delen van de Playbooks (Beta)** - u kunt, uw eigen playbooks van het gebruikscase nu tot stand brengen beheren en delen. Deze mogelijkheid is momenteel beschikbaar voor alle klanten als een openbare bètaversie. [Meer informatie](../start/playbooks.md)
+* **het auteursrecht van Playbooks en het delen (Privé bèta)** - u kunt, uw eigen playbooks van het gebruikscase nu creëren beheren en delen. Deze mogelijkheid is momenteel alleen beschikbaar voor een aantal organisaties als een persoonlijke bètaversie. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+
+alle klanten als een openbare bètaversie. [Meer informatie](../start/playbooks.md)
 
 **Navigatie**
 

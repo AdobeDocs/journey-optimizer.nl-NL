@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: zandbak, reis, exemplaar, milieu
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 23cd384354a7b3f6a4c6c35030fbd9275952c0b1
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1274'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 U kunt objecten zoals reizen, aangepaste handelingen, inhoudssjablonen of fragmenten over meerdere sandboxen kopiëren met behulp van de opties voor exporteren en importeren van pakketten. Een pakket kan uit één object of uit meerdere objecten bestaan. Alle objecten die in een pakket zijn opgenomen, moeten afkomstig zijn uit dezelfde sandbox.
 
-Op deze pagina wordt het gebruik-hoofdlettergebruik voor Sandbox-gereedschappen in de context van Journey Optimizer beschreven. Voor meer informatie over de eigenschap zelf, verwijs naar de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=nl-NL).
+Op deze pagina wordt het gebruik-hoofdlettergebruik voor Sandbox-gereedschappen in de context van Journey Optimizer beschreven. Voor meer informatie over de eigenschap zelf, verwijs naar de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Journey Optimizer staat het exporteren van reizen, aangepaste handelingen, inhou
 
 ### Journeys {#journeys}
 
-* Bij het exporteren van een reis kopieert Journey Optimizer naast de reis zelf ook het grootste deel van de objecten waarvan de reis afhankelijk is: publiek, aangepaste acties, schema&#39;s, evenementen en acties. Voor meer details op gekopieerde voorwerpen, verwijs naar deze [ sectie ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=nl-NL#abobe-journey-optimizer-objects).
+* Bij het exporteren van een reis kopieert Journey Optimizer naast de reis zelf ook het grootste deel van de objecten waarvan de reis afhankelijk is: publiek, aangepaste acties, schema&#39;s, evenementen en acties. Voor meer details op gekopieerde voorwerpen, verwijs naar deze [ sectie ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
 
 * We garanderen niet dat alle gekoppelde elementen naar de doelsandbox worden gekopieerd. Wij adviseren ten zeerste dat u een grondige controle uitvoert, bijvoorbeeld alvorens een reis te publiceren. Zo kunt u elk mogelijk ontbrekend object identificeren.
 
@@ -61,18 +61,18 @@ Journey Optimizer staat het exporteren van reizen, aangepaste handelingen, inhou
 
 ### Campagnes {#campaigns}
 
-Campagnes worden samen met alle punten gekopieerd met betrekking tot het profiel, het publiek, het schema, de gealigneerde berichten, en afhankelijke voorwerpen.
-
-Nochtans, worden de volgende punten **niet** gekopieerd:
+Campagnes worden samen met alle punten gekopieerd met betrekking tot het profiel, het publiek, het schema, de gealigneerde berichten, en afhankelijke voorwerpen. Nochtans, worden de volgende punten **niet** gekopieerd:
 
 * Meertalige varianten en taalinstellingen
-* Experimentele varianten
-* Beslissingsbeleid en besluitvorming
-* Bedrijfsvoorschriften
-* Tags
-* Labels voor gegevensgebruik en etiketten voor handhaving (DULE)
+* Bedrijfsvoorschriften,
+* Tags,
+* Labels voor gegevensgebruik en etiketten voor handhaving (DULE).
 
-Nadat de campagnes worden gekopieerd, moeten de kanaalconfiguraties manueel worden geselecteerd.
+Zorg er bij het kopiëren van campagnes voor dat het hieronder vermelde object in de doelsandbox wordt gevalideerd om verkeerde configuraties te voorkomen:
+
+* **configuraties van het Kanaal**: De configuraties van het kanaal worden gekopieerd samen met campagnes. Nadat de campagnes worden gekopieerd, moeten de kanaalconfiguraties manueel in de doelzandbak worden geselecteerd.
+* **de varianten en montages van de Experimentatie van de Experimentatie**: De experimentele varianten en de montages zijn inbegrepen in het proces van het campagneexemplaar. Valideer deze instellingen in de doelsandbox na het importeren.
+* **Verenigde beslissing**: Het beleid van het besluit en de besluitvormingspunten worden gesteund voor de uitvoer en de invoer. Zorg ervoor dat aan beslissingen gerelateerde afhankelijkheden correct worden toegewezen in de doelsandbox.
 
 ### Contentsjablonen {#content-templates}
 
