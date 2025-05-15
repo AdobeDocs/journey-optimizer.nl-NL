@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7cf80dbe76fc46cc965595fcc409e81e400983fd
+source-git-commit: 3f22c2cd744cb9016f48a5df46c0c903ccce617d
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1504'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <tr>
 <td>
 <p>U kunt dagelijkse reislooppas nu teweegbrengen na partijsegmentatie voltooiing. Deze optie is nu beschikbaar voor dagelijkse reizen naar alle klanten. Het staat u toe om voor een tijdvenster van maximaal 6 uren te bepalen te wachten op publieksgegevens van de banen van de partijsegmentatie, die ervoor zorgen reizen met de meest bijgewerkte gegevens lopen of als niet klaar overgeslagen worden.</p>
-<p>Eerder uitgebracht in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid)</p>
+<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
 </td>
 </tr>
 </tbody>
@@ -119,7 +119,7 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <li>Wijzig uw activa montages zoals breedte en hoogte onmiddellijk.</li>
 <li>Pas de Dynamische malplaatjes van Media aan door uw inhoud bij te werken en verpersoonlijkingsgebieden toe te voegen.</li>
 </ul>
-<p>Eerder uitgebracht in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid)</p>
+<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
 </td>
 </tr>
 </tbody>
@@ -153,7 +153,7 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <tr>
 <td>
 <p>In Journey Optimizer is het beheren van het volume en de timing van campagnes en reizen van essentieel belang om te voorkomen dat klanten met te veel interacties worden overspoeld. Journey Optimizer biedt nu diverse hulpmiddelen voor conflictbeheer en prioritering - voorheen alleen beschikbaar voor organisaties met beperkte toegang (LA) - die nu algemeen beschikbaar zijn (GA).</p>
-<p>Met deze algemene beschikbaarheid zijn de volgende verbeteringen aangebracht:</p>
+<p>Eerder uitgebracht in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's. Met deze algemene release zijn de volgende verbeteringen aangebracht:</p>
 <ul>
 <li>Uitgebreide ondersteuning: de tools voor conflictbeheer ondersteunen nu niet alleen publiekstrajecten, maar ook eenheidsreizen en kwalificatiereizen voor het publiek.</li>
 <li>Verbeterd het Oplossen van problemen: Twee nieuwe gebieden van de stapgebeurtenis zijn nu beschikbaar in de Dienst van de Vraag, toelatend u om te analyseren waarom een profiel van een reis of een campagne werd verworpen.</li>
@@ -167,14 +167,14 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <table>
 <thead>
 <tr>
-<th><strong>Variaties in inhoud simuleren (algemene beschikbaarheid)</strong><br/></th>
+<th><strong>Inhoudsvariaties simuleren</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Eerder beschikbaar in bèta, is de simulatie van inhoudvariaties nu algemeen beschikbaar (GA). Hiermee kunt u verschillende variaties van uw inhoud voorvertonen met voorbeeldinvoergegevens die vanuit een CSV- of JSON-bestand zijn geüpload of handmatig zijn toegevoegd. Alle kenmerken die in de inhoud voor personalisatie worden gebruikt, worden automatisch door het systeem gedetecteerd en kunnen voor uw tests worden gebruikt om meerdere varianten te maken.</p>
-<p>Met de algemene beschikbaarheidsrelease biedt deze functie nu ondersteuning voor meertalige content en content-experimenten, zodat u variaties kunt testen in verschillende talen en behandelingen. Bovendien worden nu contextafhankelijke kenmerken ondersteund (naast profielkenmerken), zodat inhoud nog dynamischer en situationeler kan worden getest.</p>
+<p>Eerder uitgebracht in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's. Met deze algemene beschikbaarheidsrelease biedt deze functie nu ondersteuning voor meertalige content en content-experimenten, waarmee u variaties kunt testen in verschillende talen en behandelingen. Bovendien worden nu contextafhankelijke kenmerken ondersteund (naast profielkenmerken), zodat inhoud nog dynamischer en situationeler kan worden getest.</p>
 <img src="assets/do-not-localize/variants.gif">
 </td>
 </tr>
@@ -207,7 +207,7 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <td>
 <p>Journey Optimizer staat u nu toe om extra leveranciers van SMS voorbij de standaardopties te vormen: Sinch, Infobip, en Twilio. Met de aangepaste configuratie van de SMS-provider kunt u rechtstreeks externe providers integreren, geavanceerde aanpassingen van de payload gebruiken voor dynamisch berichten en de voorkeuren voor machtigingen beheren (opt-in/opt-out) om naleving te garanderen.</p>
 <p>Raadpleeg de <a href="../sms/sms-configuration-custom.md">gedetailleerde documentatie</a> voor meer informatie.</p></td>
-<p>Eerder uitgebracht in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid)</p>
+<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
 </td>
 </tr>
 </tbody>
@@ -227,9 +227,6 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 </tr>
 </tbody>
 </table>
-
-
-
 
 
 ### Verbeteringen {#25-05-improv}
@@ -263,7 +260,7 @@ Om uw openingspagina&#39;s gemakkelijk te beheren, kunt u omslagen nu gebruiken 
 * **&quot;Omleiden aan URL&quot;steun in het kanaal van het Web**\
   Met het Journey Optimizer-webkanaal kunt u bezoekers nu omleiden naar een andere bestaande URL in plaats van een nieuwe variant in de visuele editor te ontwerpen. Dit vermogen kan worden gebruikt om experimenten uit te voeren die twee volledig verschillende pagina&#39;s vergelijken in plaats van enkel een paar elementen binnen een pagina te veranderen.
 
-* **het hulpmiddel van Sandbox - de Nieuwe voorwerpen van Campagnes steunen (fase 1)**\
+* **het hulpmiddel van Sandbox - de Nieuwe voorwerpen van Campagnes steunen**\
   Wanneer het kopiëren van campagnes over veelvoudige zandbakken gebruikend de pakketuitvoer en de invoermogelijkheden, worden de volgende gebiedsdelen nu ook gekopieerd: kanaalconfiguraties, experimenteervarianten en montages, besluitvormingsbeleid, en punten.
 
 * **Rechterspoor in campagnemelijst**\
