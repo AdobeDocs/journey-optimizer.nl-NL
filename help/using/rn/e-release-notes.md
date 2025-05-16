@@ -8,7 +8,7 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7347adf8b40942408042c8b09572beed67425899
+source-git-commit: d069fb775cc8cf561c5d7b9ef87b9c8d9f5ba0e7
 workflow-type: tm+mt
 source-wordcount: '1485'
 ht-degree: 1%
@@ -206,8 +206,8 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <tr>
 <td>
 <p>Journey Optimizer staat u nu toe om extra leveranciers van SMS voorbij de standaardopties te vormen: Sinch, Infobip, en Twilio. Met de aangepaste configuratie van de SMS-provider kunt u rechtstreeks externe providers integreren, geavanceerde aanpassingen van de payload gebruiken voor dynamisch berichten en de voorkeuren voor machtigingen beheren (opt-in/opt-out) om naleving te garanderen.</p>
-<p>Raadpleeg de <a href="../sms/sms-configuration-custom.md">gedetailleerde documentatie</a> voor meer informatie.</p></td>
-<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
+<p>Raadpleeg de <a href="../sms/sms-configuration-custom.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p></td>
 </td>
 </tr>
 </tbody>
