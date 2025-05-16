@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
+source-git-commit: d7ac73800a793fa5fec5d402e15e4f84db084f89
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1134'
 ht-degree: 7%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 7%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## 25 mei updates {#25-5-rn}
 
@@ -52,7 +52,7 @@ ht-degree: 7%
   >
   >Deze mogelijkheid zal de komende 30 dagen geleidelijk aan in alle omgevingen worden benut.
 
-* **Nieuwe campagnevoorwerpen steun voor zandbakexemplaar** <!-- - Availability date: -->
+* **Nieuwe campagnevoorwerpen steunen voor zandbakexemplaar** - de datum van de Beschikbaarheid: Mei, 15, 2025
 
   Wanneer het kopiëren van campagnes over veelvoudige zandbakken gebruikend de pakketuitvoer en de invoermogelijkheden, worden de volgende gebiedsdelen nu ook gekopieerd: kanaalconfiguraties, experimenteervarianten en montages, besluitvormingsbeleid en punten. [Meer informatie](../configuration/copy-objects-to-sandbox.md)
 
