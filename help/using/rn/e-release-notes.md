@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 264927ba06ccb8cb1c7e7709e8fef053c1b37608
+source-git-commit: 4deb0b34266816e45c77c9b4d7328431995197fa
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1513'
 ht-degree: 1%
 
 ---
@@ -292,9 +292,6 @@ Wanneer het kopiëren van campagnes over veelvoudige zandbakken gebruikend de pa
 
 * **Subdomeinen - &quot;Geen delegatie&quot;methode**\
   Naast de volledige delegatie en de methode CNAME, is een nieuwe subdomain configuratiemethode nu beschikbaar: De methode van de Geen delegatie, die u toelaat om volledig het controleren en het handhaven van alle aspecten van DNS te bezitten die voor het leveren, het teruggeven, en het volgen van berichten worden vereist.
-
-* **Steun voor de bronnen van Gegevens van de Douane in Personalization**\
-  U kunt nu een query maken en gegevens uit een externe bron (dus niet opgeslagen in Adobe Experience Platform) ophalen om in Journey Optimizer binnenkomende en uitgaande oppervlakken te gebruiken voor personalisatie en reisorchestratie.
 
 * **Directe Post - de steun van SSH**\
   Naast het bestaande SFTP met het type van wachtwoordauthentificatie, kunt u uw direct-maildossier naar een server van SFTP met SSH zeer belangrijke authentificatie nu uitvoeren.
