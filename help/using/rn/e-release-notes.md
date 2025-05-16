@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3f22c2cd744cb9016f48a5df46c0c903ccce617d
+source-git-commit: 264927ba06ccb8cb1c7e7709e8fef053c1b37608
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1554'
 ht-degree: 1%
 
 ---
@@ -229,6 +229,24 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 </table>
 
 
+<table>
+<thead>
+<tr>
+<th><strong>Aanvullende ID voor tochten in verband met gebeurtenissen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu ritten activeren met een profiel-id en een andere id, zoals een bestellings-id, een abonnement-id of een recept-id, zodat hetzelfde profiel zich meerdere keren tegelijk in dezelfde reis kan bevinden. Dit laat scenario's zoals het beheren van veelvoudige orden of abonnementen parallel toe, met elke instantie die zijn eigen weg door de reis volgt.</p>
+<p>Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
 ### Verbeteringen {#25-05-improv}
 
 De verbeteringen die bij deze release worden geleverd, worden hieronder weergegeven.
@@ -250,12 +268,11 @@ Om uw openingspagina&#39;s gemakkelijk te beheren, kunt u omslagen nu gebruiken 
 * **Beslissing - de datasets van Adobe Experience Platform van de hefboomwerking**\
   Met Journey Optimizer kunt u nu Adobe Experience Platform-gegevenssets gebruiken in de volgende beslissingsobjecten: geschiktheidsregels, rangschikkingsformules en plafondregels.
 
-* **Omslagen in malplaatjes en fragmenten (Algemene Beschikbaarheid)**\
-  Eerder beschikbaar voor een reeks organisaties (LA), zijn de omslagen nu beschikbaar aan alle gebruikers (GA) om hun inhoudsmalplaatjes en fragmenten te beheren. Met mappen kunt u inhoudssjablonen en fragmenten eenvoudiger en effectiever ordenen in een gestructureerde hiërarchie.
+* **Omslagen in malplaatjes en fragmenten**\
+  Met mappen kunt u inhoudssjablonen en fragmenten eenvoudiger en effectiever ordenen in een gestructureerde hiërarchie. Eerder beschikbaar voor een reeks organisaties (LA), zijn de omslagen nu beschikbaar aan alle gebruikers (GA) om hun inhoudsmalplaatjes en fragmenten te beheren.
 
 * **Nieuwe campagnevoorwerpen steun voor zandbakexemplaar** <!-- - Availability date: -->
-
-  Wanneer het kopiëren van campagnes over veelvoudige zandbakken gebruikend de pakketuitvoer en de invoermogelijkheden, worden de volgende gebiedsdelen nu ook gekopieerd: kanaalconfiguraties, experimenteervarianten en montages, besluitvormingsbeleid en punten. [Meer informatie](../configuration/copy-objects-to-sandbox.md)
+Wanneer het kopiëren van campagnes over veelvoudige zandbakken gebruikend de pakketuitvoer en de invoermogelijkheden, worden de volgende gebiedsdelen nu ook gekopieerd: kanaalconfiguraties, experimenteervarianten en montages, besluitvormingsbeleid en punten. [Meer informatie](../configuration/copy-objects-to-sandbox.md)
 
 * **&quot;Omleiden aan URL&quot;steun in het kanaal van het Web**\
   Met het Journey Optimizer-webkanaal kunt u bezoekers nu omleiden naar een andere bestaande URL in plaats van een nieuwe variant in de visuele editor te ontwerpen. Dit vermogen kan worden gebruikt om experimenten uit te voeren die twee volledig verschillende pagina&#39;s vergelijken in plaats van enkel een paar elementen binnen een pagina te veranderen.
@@ -272,11 +289,12 @@ Om uw openingspagina&#39;s gemakkelijk te beheren, kunt u omslagen nu gebruiken 
 * **de kenmerksteun van het Punt van het Besluit voor beslissingsregels**\
   U kunt nu kenmerken van beslissingspunten gebruiken om beslissingsregels te maken.
 
-* **Veelvoudige Reactie van de Reis**\
-  U kunt nu ritten activeren met een profiel-id en een andere id, zoals een bestellings-id, een abonnement-id of een recept-id, zodat hetzelfde profiel zich meerdere keren tegelijk in dezelfde reis kan bevinden. Dit laat scenario&#39;s zoals het beheren van veelvoudige orden of abonnementen parallel toe, met elke instantie die zijn eigen weg door de reis volgt.
 
 * **Subdomeinen - &quot;Geen delegatie&quot;methode**\
   Naast de volledige delegatie en de methode CNAME, is een nieuwe subdomain configuratiemethode nu beschikbaar: De methode van de Geen delegatie, die u toelaat om volledig het controleren en het handhaven van alle aspecten van DNS te bezitten die voor het leveren, het teruggeven, en het volgen van berichten worden vereist.
 
 * **Steun voor de bronnen van Gegevens van de Douane in Personalization**\
   U kunt nu een query maken en gegevens uit een externe bron (dus niet opgeslagen in Adobe Experience Platform) ophalen om in Journey Optimizer binnenkomende en uitgaande oppervlakken te gebruiken voor personalisatie en reisorchestratie.
+
+* **Directe Post - de steun van SSH**\
+  Naast het bestaande SFTP met het type van wachtwoordauthentificatie, kunt u uw direct-maildossier naar een server van SFTP met SSH zeer belangrijke authentificatie nu uitvoeren.
