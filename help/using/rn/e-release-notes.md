@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4deb0b34266816e45c77c9b4d7328431995197fa
+source-git-commit: 7347adf8b40942408042c8b09572beed67425899
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1485'
 ht-degree: 1%
 
 ---
@@ -216,22 +216,6 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <table>
 <thead>
 <tr>
-<th><strong>Beslissingen over de inhoud van reizen</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>U kunt nu aanbiedingen toevoegen aan uw reizen door middel van een specifieke beslissingsactie in het reiscanvas en deze gebruiken in uw aangepaste handelingen.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
 <th><strong>Aanvullende ID voor tochten in verband met gebeurtenissen</strong><br/></th>
 </tr>
 </thead>
@@ -290,8 +274,8 @@ Wanneer het kopiëren van campagnes over veelvoudige zandbakken gebruikend de pa
   U kunt nu kenmerken van beslissingspunten gebruiken om beslissingsregels te maken.
 
 
-* **Subdomeinen - &quot;Geen delegatie&quot;methode**\
-  Naast de volledige delegatie en de methode CNAME, is een nieuwe subdomain configuratiemethode nu beschikbaar: De methode van de Geen delegatie, die u toelaat om volledig het controleren en het handhaven van alle aspecten van DNS te bezitten die voor het leveren, het teruggeven, en het volgen van berichten worden vereist.
+* **Subdomeinen - de methode van de &quot;delegatie van de Douane&quot;**\
+  Naast de volledige delegatie en de methode CNAME, is een nieuwe subdomain configuratiemethode nu beschikbaar: de de delegatiemethode van de Douane, die u toelaat om volledig het controleren en het handhaven van alle aspecten van DNS te bezitten die voor het leveren, het teruggeven, en het volgen van berichten worden vereist.
 
 * **Directe Post - de steun van SSH**\
   Naast het bestaande SFTP met het type van wachtwoordauthentificatie, kunt u uw direct-maildossier naar een server van SFTP met SSH zeer belangrijke authentificatie nu uitvoeren.
