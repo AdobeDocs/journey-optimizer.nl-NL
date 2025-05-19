@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 65b7b8323e37a0143a3941af1b9c2fb8b595a376
+source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1293'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Voordat u dit bestand kunt genereren, moet u het volgende maken:
 >id="ajo_dm_file_routing_details"
 >title="Definieer het bestand dat de configuratie verplettert"
 >abstract="Nadat u een direct-mailbericht hebt gemaakt, wordt het bestand met de doelpublieksgegevens gegenereerd en geëxporteerd naar een server. U moet de serverdetails specificeren zodat uw direct-mailleverancier tot dat dossier voor levering direct-mail kan toegang hebben en gebruiken."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="Een direct-mailbericht maken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="Een direct-mailbericht maken"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
@@ -103,13 +103,15 @@ Als u **[!UICONTROL Amazon S3]** als **[!UICONTROL Server type]** hebt geselecte
 
 Als u **[!UICONTROL SFTP]** als **[!UICONTROL Server type]** hebt geselecteerd, vult u de gegevens en referenties voor uw server in:
 
-* **Rekening**: De naam van de rekening die wordt gebruikt om met de server te verbinden SFTP.
+* **[!UICONTROL Authentication type]**: Selecteer het type verificatie dat wordt gebruikt om verbinding te maken met de server (wachtwoord of SSH-sleutel).
 
-* **adres van de Server**: &#x200B; URL van de server SFTP.
+* **[!UICONTROL Account]**: accountnaam gebruikt om verbinding te maken met de SFTP-server.
 
-* **Haven**: Het aantal van de de verbindingshaven van FTP.
+* **[!UICONTROL Server address]**: &#x200B; URL van de SFTP-server.
 
-* **Wachtwoord**: &#x200B; Wachtwoord dat wordt gebruikt om met de server te verbinden SFTP.
+* **[!UICONTROL Port]**: SFTP-poortnummer.
+
+* **[!UICONTROL Password]** / **[!UICONTROL SSH Key]**: &#x200B; wachtwoord of SSH-sleutel die wordt gebruikt om verbinding te maken met de SFTP-server.
 
 ![](assets/file-routing-config-sftp-detail.png)
 
@@ -137,13 +139,13 @@ Als u **[!UICONTROL Azure]** als **[!UICONTROL Server type]** hebt geselecteerd,
 
   ![](assets/file-routing-config-azure-detail.png)
 
->[!TAB Gegevens die Zone  aanvoeren]
+>[!TAB  Gegevens die Zone ] aanvoeren
 
 Als u **[!UICONTROL Data Landing Zone]** als **[!UICONTROL Server type]** hebt geselecteerd, zijn geen specifieke details vereist.
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-Alle klanten van [!DNL Adobe Experience Platform] zijn provisioned met één container van de Landing van de Zone van Gegevens per zandbak. Leer meer over Gegevens het Landing Zone in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+Alle klanten van [!DNL Adobe Experience Platform] zijn provisioned met één container van de Landing van de Zone van Gegevens per zandbak. Leer meer over Gegevens het Landing Zone in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 
@@ -159,7 +161,7 @@ U kunt **[!UICONTROL Save as draft]** ook selecteren om het dossier tot stand te
 >id="ajo_dm_surface_settings"
 >title="Instellingen voor direct mail definiëren"
 >abstract="Een direct-mailconfiguratie bevat de instellingen voor de opmaak van het bestand dat de doelpublieksgegevens bevat en wordt gebruikt door de mailprovider. U moet ook bepalen waar het dossier door het dossier te selecteren verplettert configuratie zal worden uitgevoerd."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/direct-mail/direct-mail-configuration#file-routing-configuration" text="Bestands-routering configureren"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/direct-mail/direct-mail-configuration#file-routing-configuration" text="Bestands-routering configureren"
 
 <!--
 >[!CONTEXTUALHELP]
