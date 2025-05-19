@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: reenter, trip, end, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
+source-git-commit: e435a4bf9d284845f27021b3d36c555def749fbe
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## Hoe een live reis eindigt
 
-De reis wordt gesloten wanneer de globale reis timeout wordt bereikt, of na het laatste voorkomen van een terugkomende op publiek-gebaseerde reis. [ leer hoe de reizen ](#close-journey) worden gesloten.
+De reizen worden gesloten wanneer de globale reis timeout wordt bereikt, of na het laatste voorkomen van een terugkomende op publiek-gebaseerde reis. [ leer hoe de reizen ](#close-journey) worden gesloten.
 
 Als u een levende reis moet eindigen, adviseren wij dat [ u het ](#close-to-new-entrances) manueel sluit. De komst van nieuwe klanten op de reis wordt dan geblokkeerd. Profielen die al op reis zijn gegaan, kunnen het tot het einde ervaren.
 
