@@ -139,7 +139,7 @@ Als u **[!UICONTROL Azure]** als **[!UICONTROL Server type]** hebt geselecteerd,
 
   ![](assets/file-routing-config-azure-detail.png)
 
->[!TAB  Gegevens die Zone ] aanvoeren
+>[!TAB Gegevens die Zone  aanvoeren]
 
 Als u **[!UICONTROL Data Landing Zone]** als **[!UICONTROL Server type]** hebt geselecteerd, zijn geen specifieke details vereist.
 
