@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7946af7c1d0908fb6a9dad18e7685fa4993ee4c4
+source-git-commit: 8de314a3d2c8e242e12b18d39fb1dc594ea825f5
 workflow-type: tm+mt
-source-wordcount: '2256'
-ht-degree: 4%
+source-wordcount: '1468'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 
 ## Opmerkingen bij de vervroegde release mei {#25-5-rn}
@@ -31,7 +31,7 @@ ht-degree: 4%
 **de datum van de Versie**: Mei 20-21, 2025
 
 
-### Nieuwe functies {#25-04-features}
+### Nieuwe functies {#25-05-features}
 
 De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder beschreven.
 
@@ -252,7 +252,8 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
      Decisioning-objecten kunnen nu worden gekopieerd tussen sandboxen, waardoor test- en implementatieworkflows worden gestroomlijnd. [Meer informatie](../configuration/copy-objects-to-sandbox.md#decisioning)
 
 * **Omslagen voor het landen van pagina&#39;s** - de datum van Beschikbaarheid: 9 mei, 2025
-Om uw openingspagina&#39;s gemakkelijk te beheren, kunt u omslagen nu gebruiken om hen effectiever in een gestructureerde hiërarchie te organiseren. [Meer informatie](../landing-pages/manage-lp.md)
+
+  Om uw openingspagina&#39;s gemakkelijk te beheren, kunt u omslagen nu gebruiken om hen effectiever in een gestructureerde hiërarchie te organiseren. [Meer informatie](../landing-pages/manage-lp.md)
 
 * **Directe Post: SSH Zeer belangrijke steun voor verbindingen SFTP** - de datum van de Beschikbaarheid: 5 Mei, 2025
 
@@ -266,319 +267,35 @@ Om uw openingspagina&#39;s gemakkelijk te beheren, kunt u omslagen nu gebruiken 
   >
   >Deze mogelijkheid zal de komende 30 dagen geleidelijk aan in alle omgevingen worden benut.
 
-* **klik het volgen in e-mailmalplaatjes**\
+* **klik het volgen in e-mailmalplaatjes**
+
   Klik op `<area>` -elementen in afbeeldingen met hyperlinks in e-mailsjablonen worden nu standaard ondersteund in Journey Optimizer. Op deze manier zorgt u ervoor dat gebieden met afbeeldingskaarten dezelfde tekstomloop, tekstspatiëringsgegevens en toegevoegde parameters krijgen als standaardhyperlinks.
 
-* **Beslissing - de datasets van Adobe Experience Platform van de hefboomwerking**\
+* **Beslissing - de datasets van Adobe Experience Platform van de hefboomwerking**
+
   Met Journey Optimizer kunt u nu Adobe Experience Platform-gegevenssets gebruiken in de volgende beslissingsobjecten: geschiktheidsregels, rangschikkingsformules en plafondregels.
 
-* **Omslagen voor malplaatjes en fragmenten**\
+* **Omslagen voor malplaatjes en fragmenten**
+
   Met mappen kunt u inhoudssjablonen en fragmenten eenvoudiger en effectiever ordenen in een gestructureerde hiërarchie. Eerder beschikbaar voor een reeks organisaties (LA), zijn de omslagen nu beschikbaar aan alle gebruikers (GA) om hun inhoudsmalplaatjes en fragmenten te beheren.
 
+* **&quot;Omleiden aan URL&quot;steun in het kanaal van het Web**
 
-* **&quot;Omleiden aan URL&quot;steun in het kanaal van het Web**\
   Met het Journey Optimizer-webkanaal kunt u bezoekers nu omleiden naar een andere bestaande URL in plaats van een nieuwe variant in de visuele editor te ontwerpen. Dit vermogen kan worden gebruikt om experimenten uit te voeren die twee volledig verschillende pagina&#39;s vergelijken in plaats van enkel een paar elementen binnen een pagina te veranderen.
 
-* **Rechterspoor in campagnemelijst**\
+* **Rechterspoor in campagnemelijst**
+
   Als u in de lijst met campagnes een campagne selecteert, wordt nu een venster geopend waarin de details worden weergegeven.
 
-* **de gebieden van de Vorm in code-gebaseerde ervaringsinhoud**\
+* **de gebieden van de Vorm in code-gebaseerde ervaringsinhoud**
+
   In inhoudssjablonen kunt u nu specifieke JSON- of HTML-velden definiëren waarmee niet-technische gebruikers inhoud gemakkelijk kunnen bewerken in op code gebaseerde ervaringen zonder dat code hoeft te worden bewerkt.
 
-* **de kenmerksteun van het Punt van het Besluit voor beslissingsregels**\
+* **de kenmerksteun van het Punt van het Besluit voor beslissingsregels**
+
   U kunt nu kenmerken van beslissingspunten gebruiken om beslissingsregels te maken.
 
 <!--
 * **Subdomains - 'Custom delegation' method**  
   In addition to the full delegation and the CNAME method, a new subdomain configuration method is now available: the Custom delegation method, which enables you to fully own controlling and maintaining all aspects of DNS that are required for delivering, rendering, and tracking messages.-->
-
-
-## Opmerkingen bij de release van april &#39;25 {#25-4-rn}
-
-**de datum van de Versie**: 29-30 april, 2025
-
-### Nieuwe functies {#25-04-features}
-
-De nieuwe mogelijkheden die bij deze release worden geleverd, worden hieronder weergegeven.
-
-<table>
-<thead>
-<tr>
-<th><strong>Personalization Editor - Leren op actie</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Er is nu een personalisatiespeelplaats beschikbaar, waar u kunt experimenteren met personalisatie-expressies. Zo kunt u voorbeeldsjablonen en nuttige taken verkennen om u te helpen aan de slag te gaan en uw eigen personalisatie-expressies uit te proberen.</p>
-<p>Raadpleeg de <a href="../personalization/personalize.md#playground">gedetailleerde documentatie</a> voor meer informatie.</p>
-<p>Beschikbaarheidsdatum: 24 april 2025</p>
-<img src="assets/do-not-localize/templating-playground.gif"/>
-</td>
-</tr>
-</tbody>
-</table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Adobe Experience Manager as a Cloud Service integration</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>The integration between Adobe Journey Optimizer and Adobe Experience Manager as a Cloud Service is now released in General Availability (GA). This integration enables seamless content sourcing and management for personalized customer journeys.</p>
-<p>For more information, refer to the <a href="../integrations/aem-templates.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<!--<table>
-<thead>
-<tr>
-<th><strong>Simulate content variations (General Availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Previously available in beta, content variations simulation is now generally available (GA). It allows you to preview different variations of your content using sample input data uploaded from a CSV or JSON file or added manually. All the attributes used in your content for personalization are automatically detected by the system and can be used for your tests to create multiple variants.</p>
-<p>With the General Availability release, the feature now includes support for multilingual content and content experiments, enabling you to test variations across different languages and treatments. Additionally, it now supports contextual attributes (in addition to profile attributes), allowing for even more dynamic and situational content testing.</p>
-<img src="assets/do-not-localize/variants.gif">
-</td>
-</tr>
-</tbody>
-</table>-->
-
-<table>
-<thead>
-<tr>
-<th><strong>LINE-kanaal</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer heeft zijn kanaalmogelijkheden uitgebreid om steun voor het kanaal van de LIJN te omvatten. Dankzij deze verbetering kunt u LINE-ervaringen maken, bewerken en voorvertonen, zodat u meer persoonlijke en boeiende interacties kunt maken. Met LINE, kunt u met meer klanten verbinden, relevante inhoud verzenden, en uw overeenkomst verbeteren.</p>
-<p>Het LINE kanaal wordt toegelaten voor klanten van Adobe Journey Optimizer op verzoek. Neem contact op met de klantenservice van Adobe of uw Adobe-vertegenwoordiger om de functie voor uw organisatie te activeren.</p>
-<p>Raadpleeg de <a href="../line/get-started-line.md">gedetailleerde documentatie</a> voor meer informatie.</p></td>
-</tr>
-</tbody>
-</table>
-
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Custom SMS provider (General Availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer now supports custom SMS providers, allowing you to integrate your preferred SMS services for enhanced communication flexibility.</p>
-<p>For more information, refer to the <a href="../sms/sms-configuration-custom.md">detailed documentation</a>.</p></td>
-</tr>
-</tbody>
-</table-->
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Reiscijfers</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>De metriek van de reis zijn nu beschikbaar, toelatend u om de invloed van uw activiteiten over de belangrijkste metriek van uw zaken te meten en duidelijkere inzichten in uw prestaties te verstrekken.</p>
-</br>
-<img src="assets/do-not-localize/success-metric.gif"/>
-<p>Raadpleeg de <a href="../building-journeys/success-metrics.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-<p>Beschikbaarheidsdatum: 9 april 2025</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-
-<!--<table>
-<thead>
-<tr>
-<th><strong>Calendar view for campaign and journey inventory (Limited Availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A new calendar view is now available for campaigns and journey activations. This feature provides a visual representation of scheduled activities, allowing you to view and manage your campaigns and journeys more effectively. Selecting a calendar item opens a right rail with detailed information. This feature is currently in Limited Availability.</p>
-<img src="assets/do-not-localize/calendar.gif">
-</td>
-</tr>
-</tbody>
-</table>-->
-
-<table>
-<thead>
-<tr>
-<th><strong>Adobe Express-integratie (beperkte beschikbaarheid)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer is nu geïntegreerd met Adobe Express, waardoor u uw creatieve middelen naadloos kunt verbinden met reisorchestratie. Deze integratie vereenvoudigt het proces om gepersonaliseerde inhoud over campagnes te ontwerpen en op te stellen. </p>
-<p>Deze integratie is momenteel niet beschikbaar voor gebruik met het gezondheidsschild of het privacyschild.</p>
-<img src="assets/do-not-localize/express_resize.gif">
-<p>Raadpleeg de <a href="../integrations/express.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Dagelijkse ritten activeren na voltooiing van batchsegmentatie (beperkte beschikbaarheid)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Voor dagelijks geplande reizen, staat een nieuwe optie u toe om een tijdvenster van maximaal 6 uren te bepalen om op publieksgegevens van batch segmentatietaken te wachten, die ervoor zorgen reizen met de meest bijgewerkte gegevens lopen of worden overgeslagen als niet klaar. De optie Trigger na batchpublieksevaluatie is alleen beschikbaar voor een set organisaties (Beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
-<p>Raadpleeg de <a href="../building-journeys/read-audience.md#schedule">gedetailleerde documentatie</a> voor meer informatie.</p>
-<img src="assets/do-not-localize/trigger-journeys.gif">
-</td>
-</tr>
-</tbody>
-</table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Themes in the Email Designer (Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now quickly apply pre-approved styling themes to your email content to ensure brand consistency across all emails, speed up your campaign creation process and independently produce hight-quality emails while reducing dependency on design teams.</p>
-<p>This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.</p>
-<p>For more information, refer to the <a href="../content-management/brands-score.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/themes.gif">
-<p>Availability date: May 5, 2025</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<table>
-<thead>
-<tr>
-<th><strong>Brand alignment score (Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>De functie voor de uitlijningsscore voor merken biedt duidelijke feedback rechtstreeks in de e-mailontwerper, zodat u kunt zien of uw inhoud wordt uitgelijnd op de toon, stijl en richtlijnen van uw merk. Deze functie is beschikbaar in Beta.</p>
-<p>Raadpleeg de <a href="../content-management/brands-score.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-<img src="assets/do-not-localize/brand-score.gif">
-</td>
-</tr>
-</tbody>
-</table>
-
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Decisioning - New AI formula builder</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create specific Decisioning ranking formulas by defining and combining criteria from a new improved interface. Ranking formulas allow you to define rules that will determine which decision items should be presented first, rather than taking into account the priority scores.</p>
-<p>For more information, refer to the <a href="../content-management/brands-score.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/formula-builder.gif">
-<p>Availability date: May 5, 2025</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
-
-### Verbeteringen {#25-04-improv}
-
-**de voorproefAPI van campagnes**
-
-Er zijn nieuwe API&#39;s beschikbaar voor het weergeven van voorvertoningen van campagnes, naast de bestaande mogelijkheden voor het verzenden van proeven. [Meer informatie](https://developer.adobe.com/journey-optimizer-apis/references/simulations/#operation/createCampaignPreview){target="_blank"}.
-
-**Sandbox Tooling**
-
-* **het hulpmiddel van Sandbox voor douaneacties**
-
-  Aangepaste acties worden nu opgenomen in de lijst met Adobe Journey Optimizer-objecten die kunnen worden gekopieerd met de functie voor het maken van gereedschappen in de sandbox, waarmee tests en implementatie kunnen worden gestroomlijnd. [Meer informatie](../configuration/copy-objects-to-sandbox.md)
-
-* **Sandbox tooling voor campagnes** - de datum van de Beschikbaarheid: 3 April, 2025
-
-  U kunt campagnes nu kopiëren over meerdere sandboxen door de mogelijkheden voor exporteren en importeren van pakketten te gebruiken. Campagnes worden samen met alle punten gekopieerd met betrekking tot het profiel, het publiek, het schema, de gealigneerde berichten, en afhankelijke voorwerpen. Sommige items worden niet gekopieerd, zoals besluitvormingsitems, labels voor gegevensgebruik en taalinstellingen. [Meer informatie](../configuration/copy-objects-to-sandbox.md#custom-actions)
-
-**Personalization**
-
-* **Nieuwe contextafhankelijke attributen**
-
-  Een nieuw contextueel attribuut, **Identiteitskaart van het Profiel van het Bericht**, is nu beschikbaar om van de verpersoonlijkingsredacteur te selecteren. Dit is een bericht-georiënteerd attribuut dat uniek elk bericht identificeert dat naar elk gericht profiel in een levering wordt verzonden. Deze unieke id kan bijvoorbeeld worden gebruikt als een URL-volgparameter om elke koppeling te onderscheiden die door ontvangers wordt geopend of aangeklikt.
-
-* **bevolen attributen in attributenruit** - de datum van de Beschikbaarheid: 2 april, 2025
-
-  In het venster Kenmerken in de verpersoonlijkingseditor worden nu standaard alleen gevulde kenmerken weergegeven. Als u alle kenmerken wilt weergeven, schakelt u de optie **[!UICONTROL Show only populated attributes]** uit met de knop Instellingen. [Meer informatie](../personalization/personalization-build-expressions.md)
-
-**E-mailkanaal**
-
-* **Gepersonaliseerde URL die** volgen - de datum van Beschikbaarheid: 30 April, 2025
-
-  Voor meer flexibiliteit en controle over uw e-mailinstellingen kunt u nu al uw URL-volgparameters tegelijk aanpassen op het niveau van de configuratie van het e-mailkanaal in plaats van deze te doen in de e-mailontwerper voor elke koppeling in uw inhoud. [Meer informatie](../email/surface-personalization.md#personalize-url-tracking)
-
-* **E-mail Designer** - Beschikbaarheidsdatum: 1 April, 2025
-
-  Om de toegankelijkheid in Journey Optimizer te verbeteren, zijn er nu twee nieuwe velden beschikbaar in de E-mail-Designer: deze komen overeen met het element `<title>` en het kenmerk `lang` in het element `<html>` van uw e-mailinhoud. U kunt deze instellingen definiëren in aanvulling op het veld **[!UICONTROL Preheader]** in de sectie E-mail **[!UICONTROL Body]** . [Meer informatie](../email/email-metadata.md)
-
-**de gevalplaybooks van het Gebruik**
-
-* **het auteursrecht van Playbooks en het delen (Privé bèta)** - u kunt, uw eigen playbooks van het gebruikscase nu creëren beheren en delen. Deze mogelijkheid is momenteel alleen beschikbaar voor een aantal organisaties als een persoonlijke bètaversie. Neem contact op met uw Adobe-vertegenwoordiger voor toegang. [Meer informatie](../start/playbooks.md)
-
-**Navigatie**
-
-* **Inhoudsbeheer** - Beschikbaarheidsdatum: 2 april 2025
-
-  Om uw inhoudsmalplaatjes en fragmenten gemakkelijk te beheren, kunt u omslagen nu gebruiken om hen effectiever te organiseren in een gestructureerde hiërarchie. Leer meer in de [ malplaatjes van de Inhoud ](../content-management/access-content-templates.md#folders) en [ Fragmenten ](../content-management/manage-fragments.md#folders) secties.
-
-  >[!AVAILABILITY]
-  >
-  >Deze verbetering is slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid).
-
-<!--- **Folders for content templates and fragments** - Availability date: May 5, 2025
-
-  Previously available for a set of organizations (LA), folders are now available to all users (GA) to manage their content templates and fragments. Folders let you organize your content templates and fragments more easily and effectively into a structured hierarchy.
-
-
-
-<!--- **Right rail in campaigns list**  
-
-  A right rail has been added to the campaigns list, providing detailed information when a campaign is selected.-->
-
-<!--**Playbooks**
-
-- **Create your own playbooks (Beta)**
-  
-  You can now create your own playbooks in Adobe Journey Optimizer, enabling greater customization and flexibility in journey planning.-->
-
-
-
 
