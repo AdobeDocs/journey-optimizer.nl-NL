@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
+source-git-commit: c314d2e7a48f8eab1f32950e0e4e9056d11fd58b
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -42,18 +42,23 @@ Voordat u de campagne voor directe mail activeert, moet u controleren of de camp
 
 ![](assets/direct-mail-review.png){width="800" align="center"}
 
-Klik op de knop **[!UICONTROL Activate]** als uw campagne voor direct mail gereed is. Wanneer de campagne begint, zal het extractiedossier automatisch worden geproduceerd en naar de server worden uitgevoerd die in uw [ wordt gespecificeerd dossier dat configuratie ](../direct-mail/direct-mail-configuration.md) verplettert.
+Klik op de knop **[!UICONTROL Activate]** als uw campagne voor direct mail gereed is. Wanneer de campagne begint, wordt het extractiedossier automatisch geproduceerd en uitgevoerd naar de server die in uw [ wordt gespecificeerd dossier dat configuratie ](../direct-mail/direct-mail-configuration.md) verplettert.
+
+>[!NOTE]
+>
+>Het geëxporteerde bestand eindigt standaard met een nieuwe regel. Dit zorgt voor compatibiliteit met standaard gegevensverwerkingstools.
+
 
 Nadat u de campagne hebt verzonden, kunt u de impact van de campagne voor directe e-mail meten in de campagnerapporten. Voor meer over directe post die, verwijs naar [ deze sectie ](../reports/campaign-global-report-cja-direct.md) rapporteert.
 
 ## Toestemming voor direct mail beheren {#dm-consent-management}
 
-In [!DNL Journey Optimizer], wordt de toestemming behandeld door het schema van de 1&rbrace; Toestemming van Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=nl-NL){target="_blank"} .  Standaard is de waarde voor het veld voor toestemming leeg en wordt deze behandeld als toestemming voor het ontvangen van uw communicatie.
+In [!DNL Journey Optimizer], wordt de toestemming behandeld door het schema van de Experience Platform [ Toestemming ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"}. Standaard is de waarde voor het veld voor toestemming leeg en wordt deze behandeld als toestemming voor het ontvangen van uw communicatie.
 
 Als een profiel ervoor heeft gekozen geen directe e-mail te ontvangen, wordt in de corresponderende Experience Platform-profielkenmerken de waarde voor `consents.marketing.postalMail.val` `n` gebruikt en wordt het corresponderende profiel uitgesloten van volgende leveringen.
 
 Als u het profiel opnieuw wilt inschakelen, moet u het profielkenmerk weer instellen op `consents.marketing.postalMail.val` : `y` .
 
-Als u de kenmerken van een profiel wilt beheren, gaat u naar Experience Platform en opent u het profiel door een naamruimte voor identiteiten en een bijbehorende identiteitswaarde te selecteren. Leer meer in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=nl-NL#getting-started){target="_blank"} .
+Als u de kenmerken van een profiel wilt beheren, gaat u naar Experience Platform en opent u het profiel door een naamruimte voor identiteiten en een bijbehorende identiteitswaarde te selecteren. Leer meer in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}.
 
 Leer meer over het beheren van opt-out in Journey Optimizer in [ deze sectie ](../privacy/opt-out.md).

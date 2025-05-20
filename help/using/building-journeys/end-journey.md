@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: reenter, trip, end, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: e435a4bf9d284845f27021b3d36c555def749fbe
+source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 0%
@@ -27,7 +27,7 @@ U kunt ook [ een reis ](#stop-journey) tegenhouden, slechts in het geval van een
 
 >[!IMPORTANT]
 >
->* U kunt niet a [ gesloten ](#close-journey) opnieuw beginnen of schrappen of [ gestopt ](#stop-journey) reis. U kunt er een nieuwe versie van maken of deze dupliceren.
+>* U kunt niet a [ gesloten ](#close-journey) opnieuw beginnen of schrappen of [ gestopt ](#stop-journey) reis. U kunt [ een nieuwe versie ](publishing-the-journey.md#journey-versions-journey-versions) van het tot stand brengen of [ het ](journey-ui.md#duplicate-a-journey-duplicate-a-journey) dupliceren.
 >
 >* Alleen voltooide reizen kunnen worden verwijderd.
 
