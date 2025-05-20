@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 2%
+source-wordcount: '891'
+ht-degree: 3%
 
 ---
 
@@ -43,6 +43,10 @@ Klik in de menusectie JOURNEY MANAGEMENT op **[!UICONTROL Journeys]** . Er zijn 
 * Op het tabblad **[!UICONTROL Browse]** wordt de lijst met bestaande reizen weergegeven. U kunt reizen zoeken, filters gebruiken en basishandelingen op elk element uitvoeren. U kunt bijvoorbeeld een item dupliceren of verwijderen.
 
   ![ reis dashboard die het Browse lusje benadrukt ](assets/journeys-browse.png)
+
+In de reislijst, worden alle reisversies getoond met het versieaantal. Wanneer u een reis zoekt, verschijnen de nieuwste versies bij de eerste keer dat de toepassing wordt geopend boven aan de lijst. Vervolgens kunt u de gewenste sortering definiëren en wordt deze door de toepassing als gebruikervoorkeur behouden. De versie van de reis wordt ook weergegeven boven aan de interface van de reiseditie, boven het canvas. Leer meer over [ beheer van de reisversie ](publishing-the-journey.md#journey-versions-journey-versions).
+
+
 
 ## Uw reizen filteren {#journey-filter}
 
@@ -84,9 +88,9 @@ De reisstatus hangt af van de levenscyclus. Het kan zijn:
 * **Gesloten**: de reis is gesloten gebruikend **dicht aan nieuwe ingangen** knoop. De reis houdt in dat nieuwe individuen de reis kunnen betreden. Personen die al onderweg zijn, kunnen de reis normaal afmaken.
 * **Ontwerp**: de reis is in zijn eerste stadium. Het is nog niet gepubliceerd.
 * **Ontwerp (Test)**: de testwijze is geactiveerd gebruikend de **wijze van de Test** knoop.
-* **Voltooid**: De reis schakelt automatisch aan deze status na de globale onderbreking 91 dag [&#128279;](journey-properties.md#global_timeout). Profielen die al op reis zijn, worden normaal afgehandeld. Nieuwe profielen kunnen niet langer de reis betreden.
+* **Voltooid**: De reis schakelt automatisch aan deze status na de globale onderbreking 91 dag [ ](journey-properties.md#global_timeout). Profielen die al op reis zijn, worden normaal afgehandeld. Nieuwe profielen kunnen niet langer de reis betreden.
 * **Levend**: de reis is gepubliceerd gebruikend **publiceer** knoop.
-* **Gestopt**: de reis is uitgezet gebruikend de **3&rbrace; knoop van het Einde &lbrace;.** Alle individuen sluiten onmiddellijk de reis.
+* **Gestopt**: de reis is uitgezet gebruikend de **3} knoop van het Einde {.** Alle individuen sluiten onmiddellijk de reis.
 
 >[!NOTE]
 >
@@ -94,41 +98,6 @@ De reisstatus hangt af van de levenscyclus. Het kan zijn:
 >
 >* Als u aan a **levende** reis moet wijzigen, [ creeer een nieuwe versie ](#journey-versions) van uw reis.
 
-
-## Journeyversies {#journey-versions}
-
-In de reislijst, worden alle reisversies getoond met het versieaantal. Wanneer u een reis zoekt, verschijnen de nieuwste versies bij de eerste keer dat de toepassing wordt geopend boven aan de lijst. Vervolgens kunt u de gewenste sortering definiëren en wordt deze door de toepassing als gebruikervoorkeur behouden. De versie van de reis wordt ook weergegeven boven aan de interface van de reiseditie, boven het canvas.
-
-![](assets/journeyversions1.png)
-
->[!NOTE]
->
->Gewoonlijk kan een profiel niet meerdere keren op dezelfde reis tegelijk aanwezig zijn. Als de terugkeer wordt toegelaten, kan een profiel een reis opnieuw ingaan, maar kan het niet doen tot zij dat vorige geval van de reis volledig verlaten. [Meer informatie](end-journey.md).
-
-### Een nieuwe versie van een reis maken {#journey-create-new-version}
-
-Als u zich aan een levende reis moet aanpassen, creeer een nieuwe versie van uw reis. Volg onderstaande stappen om een nieuwe versie van een bestaande reis te maken:
-
-1. Open de meest recente versie van uw livereis, klik op **[!UICONTROL Create a new version]** en bevestig deze.
-
-   ![](assets/journeyversions2.png)
-
-   >[!NOTE]
-   >
-   >U kunt alleen een nieuwe versie maken van de meest recente versie van een reis.
-
-1. Breng uw wijzigingen aan, klik op **[!UICONTROL Publish]** en bevestig de selectie.
-
-Vanaf het moment dat de reis wordt gepubliceerd, zullen individuen naar de recentste versie van de reis gaan. Mensen die al een vorige versie hebben ingevoerd, blijven er totdat ze klaar zijn met de reis. Als ze later weer dezelfde reis maken, gaan ze naar de meest recente versie.
-
-Reisversies kunnen afzonderlijk worden gestopt. Alle versies van reizen hebben dezelfde naam.
-
-Wanneer u een nieuwe versie van een reis publiceert, beëindigt de vorige versie automatisch en schakelt aan de **Gesloten** status. Er kan geen toegang tot de reis plaatsvinden. Zelfs als u de laatste versie stopt, blijft de vorige versie gesloten.
-
-
->[!NOTE]
->
->Specifieke garanties en beperkingen zijn van toepassing op de versiering van de reizen. Leer meer op [ deze pagina ](../start/guardrails.md#journey-versions-journey-versions-g).
 
 ## Een reis dupliceren {#duplicate-a-journey}
 

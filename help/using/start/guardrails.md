@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
 workflow-type: tm+mt
-source-wordcount: '2457'
+source-wordcount: '2464'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 Hieronder vindt u aanvullende instructies en beperkingen wanneer u [!DNL Adobe Journey Optimizer] gebruikt.
 
-De rechten, de productbeperkingen en de prestatiesbegeleiding worden vermeld in [ Adobe Journey Optimizer pagina van de productbeschrijving ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} .
+De rechten, de productbeperkingen en de prestatiesbegeleiding worden vermeld in [ Adobe Journey Optimizer pagina van de productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-U moet zich ook bewust zijn van [ Gidsen voor de gegevens van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=nl-NL){target="_blank"}  alvorens te beginnen.
+U moet zich ook bewust zijn van [ Gidsen voor de gegevens van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html){target="_blank"} alvorens te beginnen.
 
 ## Ondersteunde browsers {#browsers}
 
@@ -62,7 +62,7 @@ De volgende guardrails zijn op het [ kanaal van SMS ](../sms/get-started-sms.md)
 
 [!DNL Journey Optimizer] [ Webcampagnes ](../web/get-started-web.md) richten nieuwe profielen die niet eerder op andere kanalen zijn betrokken. Hierdoor wordt het totale aantal aanspreekbare profielen verhoogd. Dit kan kosten met zich meebrengen als het contractuele aantal aanschafbare profielen dat u hebt aangeschaft, wordt overschreden.
 
-De metriek van de vergunning voor elk pakket is vermeld op de [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}  pagina.
+De metriek van de vergunning voor elk pakket is vermeld op de [ pagina van de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 ### Kanaalhulplijnen op basis van code {#code-based-guardrails}
 
@@ -124,7 +124,7 @@ De volgende gidsen zijn op de [ Acties ](../building-journeys/about-journey-acti
 * In het geval van een fout worden drie pogingen systematisch opnieuw uitgevoerd. U kunt het aantal pogingen niet aanpassen volgens het ontvangen foutbericht. Retries wordt uitgevoerd voor alle HTTP-fouten, behalve voor HTTP 401, 403 en 404.
 * De ingebouwde **gebeurtenis van de Reactie** staat u toe om op uit-van-de-doos acties te reageren. Leer meer op [ deze pagina ](../building-journeys/reaction-events.md). Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen.
 * U kunt geen twee acties parallel plaatsen, u moet hen één na andere toevoegen.
-* Een profiel kan niet meerdere keren op dezelfde reis tegelijk aanwezig zijn. Als de terugkeer wordt toegelaten, kan een profiel een reis opnieuw ingaan, maar kan het niet doen tot hij dat vorige geval van de reis volledig verliet. [Meer informatie](../building-journeys/end-journey.md)
+* Een profiel kan niet veelvoudige tijden in de zelfde reis, tezelfdertijd, voor alle actieve [ versies van de reis ](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version) zijn. Als de terugkeer wordt toegelaten, kan een profiel een reis opnieuw ingaan, maar kan het niet doen tot hij dat vorige geval van de reis volledig verliet. [Meer informatie](../building-journeys/end-journey.md)
 
 ### Journeyversies {#journey-versions-g}
 
@@ -206,7 +206,7 @@ De volgende gidsen zijn op [ Gelezen de reisactiviteit van het publiek ](../buil
 
 ### Poortkwalificatie {#audience-qualif-g}
 
-De volgende richtlijn is op de [&#128279;](../building-journeys/audience-qualification-events.md) de reisactiviteit van de Kwalificatie van het publiek 0&rbrace; van toepassing:
+De volgende richtlijn is op de ](../building-journeys/audience-qualification-events.md) de reisactiviteit van de Kwalificatie van het publiek 0} van toepassing:[
 
 * De kwalificatie-activiteit Publiek kan niet worden gebruikt met Adobe Campaign-activiteiten.
 
