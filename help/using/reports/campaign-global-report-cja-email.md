@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: cc435a133f5fe24bff0f6ec9ec135941cf0bab99
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '1993'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,80 @@ U kunt uw campagnerapport voor e-mail openen door in uw campagne op de knop **[!
 
 >[!ENDSHADEBOX]
 
+## KPI&#39;s per e-mail
+
+![](assets/cja-email-kpis-unique.png)
+
+De KPI&#39;s (Key Performance Indicators) van **[!UICONTROL Email]** bieden een gericht dashboard met unieke en geaggregeerde metriek dat de prestaties en de betrokkenheidsniveaus van uw e-mailcampagnes weerspiegelt.
+
++++ Meer informatie over de maatstaven van KPI&#39;s voor e-mail
+
+* **[!UICONTROL Unique Click-through rate]**: percentage unieke profielen dat op minstens één koppeling in de e-mail heeft geklikt, in verhouding tot het aantal unieke geleverde e-mails.
+
+* **[!UICONTROL Click through open rate (CTOR)]**: percentage profielen dat met het bericht interactie heeft gehad.
+
+* **[!UICONTROL Unique Open rate]**: percentage unieke profielen dat de e-mail ten minste één keer heeft geopend, in verhouding tot het aantal unieke geleverde e-mails.
+
+* **[!UICONTROL Unique Bounce rate]**: percentage unieke profielen waarvan de e-mail minstens één keer is verzonden, op basis van het totale aantal unieke verzendingen.
+
+* **[!UICONTROL Delivered]**: Aantal verzonden e-mailberichten in verhouding tot het totale aantal verzonden berichten.
+
+* **[!UICONTROL Unique delivered]**: aantal unieke profielen waarvoor ten minste één bericht is ontvangen.
+
+* **[!UICONTROL Estimated Opens]**: Schatting van het totaal aantal e-mailberichten wordt geopend waarin zowel direct wordt geopend door profielen als automatisch wordt geopend door e-mailservers. Deze metrische aanpassing voor opent teweeggebracht door postservers voor privacy of veiligheidsaftasten door een open tarief toe te passen dat van ontvangers wordt berekend die manueel e-mail opende aan die waarvan e-mails slechts door postservers werden geopend.
+
+* **[!UICONTROL Unique Estimated Opens]**: schatting van het aantal unieke e-mailontvangers dat het e-mailbericht waarschijnlijk heeft geopend. Deze maatstaf is bedoeld om een nauwkeuriger aantal individuele betrokkenheid te leveren die door mailservers wordt geactiveerd voor privacy- of beveiligingsscanning door een unieke open snelheid toe te passen die wordt berekend aan de hand van unieke profielen die de e-mail handmatig hebben geopend voor gebruikers wiens e-mailberichten alleen werden geopend door e-mailservers.
+
+* **[!UICONTROL Clicks]**: Het totale aantal keren dat op een koppeling in het bericht is geklikt, inclusief het aantal keer dat op een koppeling met hetzelfde profiel wordt geklikt.
+
+* **[!UICONTROL Unique clicks]**: Aantal unieke profielen dat op een inhoud in uw bericht heeft geklikt.
+
++++
+
+
+## Unieke kliktrechter
+
+![](assets/cja-email-click-funnel.png)
+
+In de grafiek van **[!UICONTROL Click funnel]** wordt een gedetailleerde analyse gegeven van de manier waarop profielen worden gebruikt voor uw e-mailinhoud. Deze grafiek biedt waardevolle inzichten in elke fase van interactie, van levering tot klik, zodat u precies kunt zien hoe effectief uw berichten de betrokkenheid van gebruikers beïnvloeden.
+
++++ Meer informatie over de metriek van Click-trechter
+
+* **[!UICONTROL Unique Targeted]**: aantal unieke profielen dat tijdens het verzendproces als doel is ingesteld.
+
+* **[!UICONTROL Unique Sends]**: aantal unieke profielen waarvoor is geprobeerd ten minste één e-mail te verzenden.
+
+* **[!UICONTROL Unique delivered]**: aantal unieke profielen waarvoor ten minste één bericht is ontvangen.
+
+* **[!UICONTROL Unique estimated opens]**: schatting van het aantal unieke e-mailontvangers dat het e-mailbericht waarschijnlijk heeft geopend. Deze maatstaf is bedoeld om een nauwkeuriger aantal individuele betrokkenheid te leveren die door mailservers wordt geactiveerd voor privacy- of beveiligingsscanning door een unieke open snelheid toe te passen die wordt berekend aan de hand van unieke profielen die de e-mail handmatig hebben geopend voor gebruikers wiens e-mailberichten alleen werden geopend door e-mailservers.
+
+* **[!UICONTROL Unique clicks]**: Aantal unieke profielen dat op een inhoud in uw bericht heeft geklikt.
+
++++
+
+## Unieke leveringsstatus
+
+![](assets/cja-email-delivery-status.png)
+
+De grafiek van **[!UICONTROL Delivery status]** biedt een uitgebreide weergave van gegevens met betrekking tot verzonden e-mailberichten in uw campagne en biedt inzicht in belangrijke metriek zoals geleverde gegevens en stuitingen. Dit maakt een gedetailleerde analyse van het verzendingsproces van e-mail mogelijk en biedt waardevolle informatie over de efficiëntie en prestaties van uw campagnes.
+
++++ Meer informatie over de metriek van de leveringsstatus
+
+* **[!UICONTROL Unique send errors]**: Aantal unieke profielen waarvoor tijdens het uitgaande proces ten minste één verzendfout is opgetreden.
+
+* **[!UICONTROL Unique delivered]**: aantal unieke profielen waarvoor ten minste één bericht is ontvangen.
+
+* **[!UICONTROL Unique send exclusions]**: aantal unieke profielen dat is uitgesloten van het ontvangen van berichten vanwege vooraf gedefinieerde regels of publiekscriteria.
+
+* **[!UICONTROL Unique bounces]**: aantal unieke profielen waarvoor ten minste één bericht is teruggestuurd tijdens het verzendproces.
+
++++
+
 ## Geleverde versus klik trend {#delivered-click}
 
 ![](assets/cja-email-delivered-click.png)
 
-In de grafiek van **[!UICONTROL Delivered vs Click trend]** wordt een gedetailleerde analyse gegeven van de betrokkenheid van uw profielen bij uw e-mails. Deze grafiek biedt waardevolle inzichten in de interactie tussen profielen en uw inhoud.
+In de grafiek van **[!UICONTROL Delivered vs Click trend]** wordt een gedetailleerde analyse gegeven van de betrokkenheid van uw profielen bij uw e-mails. Deze grafiek biedt waardevolle inzichten in de interactie tussen profielen en uw inhoud. In de grafiek worden twee assen gebruikt om geleverde e-mails weer te geven en naast elkaar te klikken. Hierdoor is het eenvoudiger om ongebruikelijke patronen of wijzigingen in de betrokkenheid te zien in vergelijking met het aantal e-mails dat is verzonden.
 
 +++ Meer informatie over cijfers voor trends in geleverd en klik op trend
 
@@ -47,21 +116,49 @@ In de grafiek van **[!UICONTROL Delivered vs Click trend]** wordt een gedetaille
 
 +++
 
-## Leveringsstatus {#delivery-status}
+## Unieke verzendende statistieken {#unique-sending-statistics-email}
 
-![](assets/cja-email-delivery-status.png)
+![](assets/cja-unique-email-sending-stat.png)
 
-De grafiek van **[!UICONTROL Delivery status]** biedt een uitgebreide weergave van gegevens met betrekking tot verzonden e-mailberichten in uw campagne en biedt inzicht in belangrijke metriek zoals geleverde gegevens en stuitingen. Dit maakt een gedetailleerde analyse van het verzendingsproces van e-mail mogelijk en biedt waardevolle informatie over de efficiëntie en prestaties van uw campagnes.
+De tabel van **[!UICONTROL Unique Sending Statistics]** bevat een gedetailleerd overzicht van unieke e-mailprestatiegegevens in uw campagnes. Het richt zich op individuele profielen, zoals die uniek gericht, geleverd aan, geprononceerd, of uitgesloten-verstrekt diepgaande inzichten in hoe uw e-mails uw publiek bereiken en betreden.
 
-+++ Meer informatie over de metriek van de leveringsstatus
++++ Meer informatie over de statistische gegevens voor Unieke verzendstatistieken
 
-* **[!UICONTROL Delivered]**: Aantal verzonden e-mailberichten in verhouding tot het totale aantal verzonden e-mails.
+* **[!UICONTROL Unique Targeted]**: aantal unieke profielen dat tijdens het verzendproces als doel is ingesteld.
 
-* **[!UICONTROL Bounces for outbound channels]**:Totaal aantal fouten gecumuleerd tijdens het verzendproces en automatische retourverwerking in verhouding tot het totale aantal verzonden berichten.
+* **[!UICONTROL Unique Sends]**: aantal unieke profielen waarvoor is geprobeerd ten minste één e-mail te verzenden.
 
-* **[!UICONTROL Outbound errors]**: het totale aantal fouten dat is opgetreden tijdens het verzendingsproces waardoor het niet naar profielen kan worden verzonden.
+* **[!UICONTROL Unique Delivered]**: Aantal unieke profielen dat ten minste één e-mail heeft ontvangen.
 
-* **[!UICONTROL Outbound exclusions]**: aantal profielen dat door Adobe Journey Optimizer is uitgesloten.
+* **[!UICONTROL Unique Bounces]**: aantal unieke profielen waarvoor ten minste één e-mail heeft geleid tot een stuit.
+
+* **[!UICONTROL Unique Bounce Rate]**: percentage unieke profielen waarvan de e-mail minstens één keer is verzonden, op basis van het totale aantal unieke verzendingen.
+
+* **[!UICONTROL Unique Send Errors]**: aantal unieke profielen dat tijdens het uitgaande proces ten minste één verzendfout heeft aangetroffen.
+
+* **[!UICONTROL Unique Send Exclusions]**: aantal unieke profielen dat is uitgesloten van het ontvangen van berichten vanwege geschiktheidsregels, publiekssegmentatie of profielstatus.
+
++++
+
+## Unieke volgstatistieken {#unique-tracking-statistics-email}
+
+![](assets/cja-unique-email-track-stat.png)
+
+De tabel **[!UICONTROL Unique Tracking statistics]** biedt een gerichte weergave van de betrokkenheid op profielniveau met de e-mails in uw campagne. Het benadrukt unieke metriek die waardevolle inzichten in hoe individuele profielen met uw e-mailinhoud over zeer belangrijke stadia van betrokkenheid interactie aanbieden.
+
++++ Meer informatie over statistieken bijhouden
+
+* **[!UICONTROL Unique Click through rate (CTR)]**: percentage unieke profielen dat op minstens één koppeling in de e-mail heeft geklikt, in verhouding tot het aantal unieke geleverde e-mails.
+
+* **[!UICONTROL Unique Click through open rate (CTOR)]**: percentage unieke profielen dat na het openen van het e-mailbericht op een koppeling heeft geklikt op basis van unieke openen.
+
+* **[!UICONTROL Unique Open Rate]**: percentage unieke profielen dat de e-mail ten minste één keer heeft geopend, in verhouding tot het aantal unieke geleverde e-mails.
+
+* **[!UICONTROL Unique Clicks]**: aantal unieke profielen dat op ten minste één stuk inhoud in de e-mail heeft geklikt.
+
+* **[!UICONTROL Unique Estimated Email Opens]**: schatting van het aantal unieke e-mailontvangers dat het e-mailbericht waarschijnlijk heeft geopend. Deze maatstaf is bedoeld om een nauwkeuriger aantal individuele betrokkenheid te leveren die door mailservers wordt geactiveerd voor privacy- of beveiligingsscanning door een unieke open snelheid toe te passen die wordt berekend aan de hand van unieke profielen die de e-mail handmatig hebben geopend voor gebruikers wiens e-mailberichten alleen werden geopend door e-mailservers.
+
+* **[!UICONTROL Unique Email Unsubscribes]**: Aantal unieke profielen dat op de koppeling Abonnement opzeggen in uw e-mails of op de bijbehorende bestemmingspagina heeft geklikt.
 
 +++
 
@@ -77,15 +174,15 @@ De tabel **[!UICONTROL Sending Statistics]** bevat een uitgebreid overzicht van 
 
 * **[!UICONTROL Sends]**: Het totale aantal verzendingen voor uw e-mail.
 
-* **[!UICONTROL Delivered]**: Aantal verzonden e-mailberichten in verhouding tot het totale aantal verzonden berichten.
+* **[!UICONTROL Delivered]**: Het totale aantal e-mails dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 
-* **[!UICONTROL Unique Delivered]**: Aantal profielen dat ten minste één e-mail heeft ontvangen.
+* **[!UICONTROL Bounces]**: het totaal aan fouten dat tijdens het verzendproces is gecumuleerd en de automatische retourverwerking in verhouding tot het totale aantal verzonden berichten.
 
-* **[!UICONTROL Bounces for outbound channels]**: het totaal aan fouten dat tijdens het verzendproces is gecumuleerd en de automatische retourverwerking in verhouding tot het totale aantal verzonden berichten.
+* **[!UICONTROL Bounce rate]**: percentage e-mailberichten dat tot een stuiting heeft geleid, in verhouding tot het totale aantal verzonden e-mails.
 
-* **[!UICONTROL Outbound Errors]**: het totale aantal fouten dat is opgetreden tijdens het verzendproces waardoor het niet naar profielen kan worden verzonden.
+* **[!UICONTROL Send Errors]**: het totale aantal fouten dat is opgetreden tijdens het verzendproces waardoor het niet naar profielen kan worden verzonden.
 
-* **[!UICONTROL Outbound Exclusions]**: aantal profielen dat door Adobe Journey Optimizer is uitgesloten.
+* **[!UICONTROL Send Exclusions]**: het totale aantal profielen dat door Adobe Journey Optimizer is uitgesloten.
 
 +++
 
@@ -101,19 +198,14 @@ De tabel **[!UICONTROL Email - Tracking statistics]** bevat een gedetailleerd ov
 
 * **[!UICONTROL Click through open rate (CTOR)]**: Het aantal keren dat de e-mail is geopend.
 
+* **[!UICONTROL Estimated Email Opens]**: Schatting van het totaal aantal e-mailberichten wordt geopend waarin zowel direct wordt geopend door profielen als automatisch wordt geopend door e-mailservers. Deze metrische aanpassing voor opent teweeggebracht door postservers voor privacy of veiligheidsaftasten door een open tarief toe te passen dat van ontvangers wordt berekend die manueel e-mail opende aan die waarvan e-mails slechts door postservers werden geopend.
+
 * **[!UICONTROL Clicks]**: Het aantal keer dat er op de inhoud in uw e-mails is geklikt.
-
-* **[!UICONTROL Unique Clicks]**: Aantal profielen dat op de inhoud van een e-mail heeft geklikt.
-
-* **[!UICONTROL Email Opens]**: Het aantal keren dat uw e-mails zijn geopend in een campagne.
-
-* **[!UICONTROL Unique Email Opens]**: Aantal profielen dat e-mailberichten heeft geopend.
 
 * **[!UICONTROL Spam complaints]**: Het aantal keren dat een bericht is gedeclareerd als spam of junk.
 
-* **[!UICONTROL Unsubscribes]**: Het aantal klikken op de koppeling voor het opzeggen van abonnementen.
+* **[!UICONTROL Unsubscribes]**: Het aantal klikken op de koppeling om het abonnement op te zeggen of op de bijbehorende bestemmingspagina.
 
-* **[!UICONTROL Unique Email Unsubscribes]**: aantal profielen dat zich niet meer heeft geabonneerd op uw e-mails.
 +++
 
 ## E-maildomeinen {#email-domains}
@@ -124,15 +216,17 @@ De tabel van **[!UICONTROL Email Domains]** bevat een diepgaande uitsplitsing va
 
 +++ Meer informatie over metrische gegevens van e-maildomeinen
 
-* **[!UICONTROL Sends]**: Het totale aantal verzendingen voor uw e-mail.
+* **[!UICONTROL Unique Delivered]**: Aantal unieke profielen dat ten minste één e-mail heeft ontvangen.
 
-* **[!UICONTROL Delivered]**: Aantal verzonden e-mailberichten in verhouding tot het totale aantal verzonden e-mails.
+* **[!UICONTROL Estimated Email Opens]**: Schatting van het totaal aantal e-mailberichten wordt geopend waarin zowel direct wordt geopend door profielen als automatisch wordt geopend door e-mailservers. Deze metrische aanpassing voor opent teweeggebracht door postservers voor privacy of veiligheidsaftasten door een open tarief toe te passen dat van ontvangers wordt berekend die manueel e-mail opende aan die waarvan e-mails slechts door postservers werden geopend.
 
-* **[!UICONTROL Bounces for outbound channels]**: Het totale aantal fouten dat tijdens het verzendproces is gecumuleerd en de automatische retourverwerking in verhouding tot het totale aantal verzonden e-mails.
+* **[!UICONTROL Unique Clicks]**: aantal unieke profielen dat op ten minste één stuk inhoud in de e-mail heeft geklikt.
 
-* **[!UICONTROL Outbound Errors]**: het totale aantal fouten dat is opgetreden tijdens het verzendproces waardoor het niet naar profielen kan worden verzonden.
+* **[!UICONTROL Unique Bounces]**: aantal unieke profielen waarvoor ten minste één e-mail heeft geleid tot een stuit.
 
-* **[!UICONTROL Outbound Exclusions]**: aantal profielen dat door Adobe Journey Optimizer is uitgesloten.
+* **[!UICONTROL Unique Send Errors]**: aantal unieke profielen dat tijdens het uitgaande proces ten minste één verzendfout heeft aangetroffen.
+
+* **[!UICONTROL Unique Send Exclusions]**: aantal unieke profielen dat is uitgesloten van het ontvangen van berichten vanwege geschiktheidsregels, publiekssegmentatie of profielstatus.
 
 +++
 
@@ -172,12 +266,19 @@ De tabel **[!UICONTROL Email subjects]** bevat een uitgebreid overzicht van e-ma
 
 +++ Meer informatie over metrische gegevens over e-mailonderwerpen
 
-* **[!UICONTROL Delivered]**: Aantal verzonden e-mailberichten in verhouding tot het totale aantal verzonden e-mails.
+* **[!UICONTROL Unique Open Rate]**: percentage unieke profielen dat de e-mail ten minste één keer heeft geopend, in verhouding tot het aantal unieke geleverde e-mails.
 
-* **[!UICONTROL Unique Delivered]**: Aantal verschillende profielen dat ten minste één e-mail heeft ontvangen, zodat dubbele gegevens niet worden meegeteld.
+* **[!UICONTROL Unique Estimated Email Opens]**: schatting van het aantal unieke e-mailontvangers dat het e-mailbericht waarschijnlijk heeft geopend. Deze maatstaf is bedoeld om een nauwkeuriger aantal individuele betrokkenheid te leveren die door mailservers wordt geactiveerd voor privacy- of beveiligingsscanning door een unieke open snelheid toe te passen die wordt berekend aan de hand van unieke profielen die de e-mail handmatig hebben geopend voor gebruikers wiens e-mailberichten alleen werden geopend door e-mailservers.
+
+* **[!UICONTROL Open Rate]**: Het percentage e-mailberichten dat wordt geopend in verhouding tot het totale aantal geleverde e-mails, waarbij meerdere wordt geopend door hetzelfde profiel.
+
+* **[!UICONTROL Estimated Email Opens]**: Schatting van het totaal aantal e-mailberichten wordt geopend waarin zowel direct wordt geopend door profielen als automatisch wordt geopend door e-mailservers. Deze metrische aanpassing voor opent teweeggebracht door postservers voor privacy of veiligheidsaftasten door een open tarief toe te passen dat van ontvangers wordt berekend die manueel e-mail opende aan die waarvan e-mails slechts door postservers werden geopend.
+
 +++
 
 ## Uitgesloten redenen {#excluded-reasons}
+
+![](assets/cja-email-excluded.png)
 
 De tabel **[!UICONTROL Excluded reasons]** bevat een uitgebreide weergave van de verschillende factoren die ertoe hebben geleid dat gebruikersprofielen zijn uitgesloten van het doelpubliek, waardoor het bericht niet is ontvangen.
 
@@ -185,10 +286,14 @@ Verwijs naar [ deze pagina ](exclusion-list.md) voor de uitvoerige lijst van uit
 
 ## Stuitingsredenen {#bounce-reasons-email}
 
+![](assets/cja-email-bounce-reasons.png)
+
 In de tabel **[!UICONTROL Bounce Reasons]** worden de beschikbare gegevens met betrekking tot teruggestuurde berichten gecompileerd, zodat u gedetailleerde informatie krijgt over de specifieke redenen voor e-mailblokkeringen.
 
 Voor meer informatie over grenzen, verwijs naar de [ lijst van de Onderdrukking ](../reports/suppression-list.md) pagina.
 
 ## Foutredenen {#error-reasons-email}
+
+![](assets/cja-email-error-reasons.png)
 
 De tabel **[!UICONTROL Error Reasons]** biedt zichtbaarheid in de specifieke fouten die tijdens het verzendproces zijn opgetreden en biedt waardevolle informatie over de aard en het optreden van fouten.
