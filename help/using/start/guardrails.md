@@ -206,7 +206,7 @@ De volgende gidsen zijn op [ Gelezen de reisactiviteit van het publiek ](../buil
 
 ### Poortkwalificatie {#audience-qualif-g}
 
-De volgende richtlijn is op de ](../building-journeys/audience-qualification-events.md) de reisactiviteit van de Kwalificatie van het publiek 0} van toepassing:[
+De volgende richtlijn is op de [&#128279;](../building-journeys/audience-qualification-events.md) de reisactiviteit van de Kwalificatie van het publiek 0&rbrace; van toepassing:
 
 * De kwalificatie-activiteit Publiek kan niet worden gebruikt met Adobe Campaign-activiteiten.
 
