@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: be0a240f73e884fd91798952167e81689aa2ae2f
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '2134'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,10 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
   <tr> 
    <td> Bounces <br/> </td> 
    <td> Totaal van fouten die tijdens het verzendende proces en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.<br/> </td> 
+  </tr>
+  <tr> 
+   <td> Stuitsnelheid <br/> </td> 
+   <td> Percentage e-mails dat tot een stuitend effect heeft geleid, in verhouding tot het totale aantal verzonden e-mails.<br/> </td> 
   </tr> 
   <tr> 
    <td> Klik door open tarief (CTOR) <br/> </td> 
@@ -99,6 +103,10 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
    <td> Naam van de specifieke oorspronkelijke oorzaak van de fout. <a href="exclusion-list.md"> leer meer over foutenredenen </a>.<br/> </td> 
   </tr>
   <tr> 
+   <td>Geschat e-mailbericht wordt geopend <br/> </td> 
+   <td>Schatting van het totaal aantal e-mailberichten opent dat de rekeningen voor zowel direct opent door profielen als geautomatiseerd opent teweeggebracht door postservers. Deze metrische aanpassingen voor opent teweeggebracht door postservers voor privacy of veiligheidsaftasten door een open tarief toe te passen dat van ontvangers wordt berekend die manueel e-mail op hen opende waarvan e-mails slechts door postservers werden geopend.<br/> </td> 
+  </tr>
+  <tr> 
    <td> Aanbieding met klikfrequentie <br/> </td> 
    <td> Percentage gebruikers die met de aanbieding interactie hadden gehad.<br/> </td> 
   </tr>
@@ -119,11 +127,11 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
    <td> Aantal tijden het bericht werd geopend.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Uitgaande fouten <br/> </td> 
+   <td> Fouten verzenden <br/> </td> 
    <td> Het totale aantal fouten dat tijdens het verzendende proces voorkwam verhinderend het worden verzonden naar profielen.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Uitgaande uitsluitingen <br/> </td> 
+   <td> Uitsluitingen verzenden <br/> </td> 
    <td> Aantal profielen dat door Adobe Journey Optimizer is uitgesloten.<br/> </td> 
   </tr>
   <tr> 
@@ -137,18 +145,59 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
   <tr> 
    <td> Gericht <br/> </td> 
    <td> Het totale aantal berichten die tijdens de leveringsanalyse worden verwerkt.<br/> </td> 
-  </tr> 
+  </tr>
+  <tr> 
+   <td>Unieke grenzen <br/> </td> 
+   <td> Aantal unieke profielen waarvoor ten minste één e-mail heeft geleid tot een stuit.</td> 
+  </tr>
+  <tr> 
+   <td>Unieke stuitsnelheid <br/> </td> 
+   <td>Percentage unieke profielen waarvan de e-mail minstens één keer is verzonden, op basis van het totale aantal unieke verzendingen.</td> 
+  </tr>
   <tr> 
    <td> Unieke klikken <br/> </td> 
    <td> Aantal profielen dat op de inhoud van een e-mail heeft geklikt.<br> Opmerking: bij het berekenen van unieke kliks wordt rekening gehouden met de laatste 10 dagen. Als een profiel meerdere klikken registreert binnen de periode van 10 dagen, worden deze als unieke klikken geteld. Nochtans, als een profiel 2 klikken meer dan 10 dagen uit elkaar heeft, zullen zij niet als unieke kliks worden beschouwd.<br/> </td> 
+  </tr>
+  <tr> 
+   <td>Unieke klik door open tarief <br/> </td> 
+   <td> Percentage unieke profielen dat na het openen van het e-mailbericht op een koppeling heeft geklikt op basis van unieke openen. </td> 
+  </tr>
+  <tr> 
+   <td> Unieke klik door tarief <br/> </td> 
+   <td> Percentage unieke profielen dat op minstens één koppeling in de e-mail heeft geklikt, in verhouding tot het aantal unieke geleverde e-mails. </td> 
+  </tr>
+  <tr> 
+   <td> Uniek geleverd <br/> </td> 
+   <td> Aantal unieke profielen dat ten minste één e-mail heeft ontvangen.</td> 
   </tr>
   <tr> 
    <td> Unieke e-mailabonnementen opzeggen <br/> </td> 
    <td> Aantal profielen dat zich niet meer heeft geabonneerd op uw e-mails.<br/> </td> 
   </tr>
   <tr> 
+   <td> Unieke geschatte e-mail wordt geopend <br/> </td> 
+   <td> Schatting van het aantal unieke e-mailontvangers dat het e-mailbericht waarschijnlijk heeft geopend. Deze maatstaf is bedoeld om een nauwkeuriger aantal individuele betrokkenheid te verstrekken die door postservers voor privacy of veiligheidsaftasten wordt teweeggebracht door een uniek open tarief toe te passen dat van unieke profielen wordt berekend die manueel e-mail aan hen opende waarvan e-mails slechts door postservers werden geopend.<br/> </td> 
+  </tr>
+  <tr> 
    <td> Unieke opens <br/> </td> 
    <td> Aantal profielen dat de levering heeft geopend. <br> Let op: bij het berekenen van het unieke venster wordt rekening gehouden met de laatste 10 dagen. Als een profiel meerdere keren wordt geregistreerd en binnen de periode van 10 dagen wordt geopend, worden deze geteld als uniek geopend. Nochtans, als een profiel 2 meer dan 10 dagen uit elkaar opent, zullen zij niet als uniek worden beschouwd opent.<br/> </td> 
+  </tr> 
+  <tr>
+  <tr> 
+   <td> Unieke verzendingen <br/> </td> 
+   <td>Aantal unieke profielen waarvoor is geprobeerd ten minste één e-mail te verzenden.<br/> </td> 
+  </tr>
+  <tr> 
+   <td> Unieke verzendfouten <br/> </td> 
+   <td>Aantal unieke profielen dat minstens één verzendende fout tijdens het uitgaande proces ontmoette.<br/> </td> 
+  </tr>
+  <tr> 
+   <td> Unieke Send Uitsluitingen <br/> </td> 
+   <td>Aantal unieke profielen dat van het ontvangen van berichten wegens geschiktheidsregels, publiekssegmentatie, of profielstatus wordt uitgesloten.<br/> </td> 
+  </tr>
+  <tr> 
+   <td>Uniek gericht <br/> </td> 
+   <td>Aantal unieke profielen die tijdens het verzendingsproces worden gericht.<br/> </td> 
   </tr> 
   <tr> 
    <td> Unsubscribes <br/> </td> 
