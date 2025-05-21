@@ -66,7 +66,7 @@ Wanneer het creëren van een regelreeks, moet u specificeren als de regels binne
 
 >[!AVAILABILITY]
 >
->Terwijl **de reeksen van de de domeinregel van het Kanaal** {aan alle gebruikers beschikbaar zijn, **de reeksen van de de 3} domeinregel van de Reis {zijn beschikbaar slechts aan een beperkte reeks gebruikers (Beperkte Beschikbaarheid).** Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+>Terwijl **de reeksen van de de domeinregel van het Kanaal** {aan alle gebruikers beschikbaar zijn, **de reeksen van de de 3} domeinregel van de Reis &lbrace;zijn beschikbaar slechts aan een beperkte reeks gebruikers (Beperkte Beschikbaarheid).** Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 ## Uw eerste aangepaste regelset maken {#create-rule-set}
 
@@ -90,7 +90,7 @@ Volg onderstaande stappen om een regelset te maken.
 
    >[!AVAILABILITY]
    >
-   >Terwijl **de reeksen van de de domeinregel van het Kanaal** {aan alle gebruikers beschikbaar zijn, **de reeksen van de de 3} domeinregel van de Reis {zijn beschikbaar slechts aan een beperkte reeks gebruikers (Beperkte Beschikbaarheid).** Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+   >Terwijl **de reeksen van de de domeinregel van het Kanaal** {aan alle gebruikers beschikbaar zijn, **de reeksen van de de 3} domeinregel van de Reis &lbrace;zijn beschikbaar slechts aan een beperkte reeks gebruikers (Beperkte Beschikbaarheid).** Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 1. Klik op **[!UICONTROL Save]**.
 

@@ -33,7 +33,7 @@ Om een IP warmup campagne tot stand te brengen, volg de hieronder stappen.
 
    >[!CAUTION]
    >
-   >Bewerk niet de configuratie van het e-mailkanaal nadat het IP warmup plan [ ](ip-warmup-execution.md) is begonnen.
+   >Bewerk niet de configuratie van het e-mailkanaal nadat het IP warmup plan [&#128279;](ip-warmup-execution.md) is begonnen.
 
 1. Creeer een geplande marketing [ campagne ](../campaigns/create-campaign.md) en selecteer de [ E-mail ](../email/create-email.md#create-email-journey-campaign) actie.
 

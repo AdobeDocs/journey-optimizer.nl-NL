@@ -27,7 +27,7 @@ Beide typen aftopping maken gebruik van prioriteitsscores om items te scheiden.
 
 >[!AVAILABILITY]
 >
->**de reeksen van de de domeinregel van 0} Reis {zijn beschikbaar slechts aan een beperkte reeks gebruikers (Beperkte Beschikbaarheid).** Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+>**de reeksen van de de domeinregel van 0&rbrace; Reis &lbrace;zijn beschikbaar slechts aan een beperkte reeks gebruikers (Beperkte Beschikbaarheid).** Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 ➡️ [Ontdek deze functie in video](#video)
 
@@ -89,7 +89,7 @@ Voer de volgende stappen uit om een regel voor het afdekken van reizen te maken:
      >
      >In dit voorbeeld, als de markteur reeds vier reizen heeft betreden en er een volgende geplande reis is deze maand met een hogere prioriteit, dan zullen de klanten van het ingaan van de lagere prioritaire reis worden onderdrukt.
 
-+++
+     +++
 
      +++Configureer een regel voor het aftoppen van de route
 
@@ -101,7 +101,7 @@ Voer de volgende stappen uit om een regel voor het afdekken van reizen te maken:
 
      ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
 
-+++
+     +++
 
 1. Wanneer de afschilderregel klaar is om te worden toegepast op reizen, activeert u deze door op de knop Ovaal naast de naam te klikken.
 
