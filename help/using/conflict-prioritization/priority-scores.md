@@ -43,4 +43,4 @@ Als u een prioriteitsscore wilt toewijzen aan een reis of campagne, voert u een 
 
 ## Hoe kan ik-video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445007?quality=12&captions=dut)
