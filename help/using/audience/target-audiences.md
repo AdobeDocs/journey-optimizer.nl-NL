@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: c52049383bf6a8b60fcb0ab1c2331724c8cdb771
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '636'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,6 @@ U kunt in campagnes selecteren en reizen om het even welk publiek dat gebruikend
 Soorten publiek zijn direct na inname klaar voor gebruik in Journey Optimizer. Hoewel dit meestal binnen een uur ligt, is het afhankelijk van enige variabiliteit. Het publiek dat uit samenstellingen voortvloeit, moet 24 uur na publicatie beschikbaar zijn.
 
 Voor het publiek dat het resultaat is van batchsegmentatietaken, kan de activering vertraagd zijn vanwege variabiliteit in de inname van batch. Voor ritten voor lezers die dagelijks worden gepland, kunt u een tijdvenster in de reiseigenschappen bepalen om ervoor te zorgen dat nieuwe publieksgegevens beschikbaar zijn vóór de uitvoering van de reis. Als de segmentatietaak niet binnen het bepaalde tijdvenster wordt voltooid, wordt de reis overgeslagen tot het volgende voorkomen. [ Leer hoe te om een Lezen-publiek reis ](../building-journeys/read-audience.md) te plannen
-
->[!AVAILABILITY]
->
->De optie **[!UICONTROL Trigger after batch audience evaluation]** is alleen beschikbaar voor een set organisaties (Beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 ## Aangepaste upload en Federatieve Audience Composition
 
@@ -59,7 +55,7 @@ U kunt het publiek op verschillende manieren gebruiken in **[!DNL Journey Optimi
 
 * Gebruik de **activiteit van de Voorwaarde** in een reis om voorwaarden te bouwen die op publiekslidmaatschap worden gebaseerd. [ leer hoe te om publiek in voorwaarden ](../building-journeys/condition-activity.md#using-a-segment) te gebruiken.
 
-* Gebruik de **gebeurtenisactiviteit van de Kwalificatie van het publiek 0&rbrace; &lbrace;in een reis om individuen te maken ingaan of zich voorwaarts in de reis gebaseerd op de kijkposten van Adobe Experience Platform en uitgang.** U kunt bijvoorbeeld alle nieuwe zilverklanten een reis laten maken en hun berichten sturen. Voor meer op hoe te om deze activiteit te gebruiken, verwijs naar [ hoe te om een de kwalificatieactiviteit van het Publiek te vormen ](../building-journeys/audience-qualification-events.md).
+* Gebruik de **gebeurtenisactiviteit van de Kwalificatie van het publiek 0} {in een reis om individuen te maken ingaan of zich voorwaarts in de reis gebaseerd op de kijkposten van Adobe Experience Platform en uitgang.** U kunt bijvoorbeeld alle nieuwe zilverklanten een reis laten maken en hun berichten sturen. Voor meer op hoe te om deze activiteit te gebruiken, verwijs naar [ hoe te om een de kwalificatieactiviteit van het Publiek te vormen ](../building-journeys/audience-qualification-events.md).
 
   >[!NOTE]
   >
