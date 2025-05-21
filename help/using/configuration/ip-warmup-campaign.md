@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: IP, pools, leverbaarheid
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 2%
@@ -33,7 +33,7 @@ Om een IP warmup campagne tot stand te brengen, volg de hieronder stappen.
 
    >[!CAUTION]
    >
-   >Bewerk niet de configuratie van het e-mailkanaal nadat het IP warmup plan [&#128279;](ip-warmup-execution.md) is begonnen.
+   >Bewerk niet de configuratie van het e-mailkanaal nadat het IP warmup plan [ ](ip-warmup-execution.md) is begonnen.
 
 1. Creeer een geplande marketing [ campagne ](../campaigns/create-campaign.md) en selecteer de [ E-mail ](../email/create-email.md#create-email-journey-campaign) actie.
 
@@ -57,7 +57,7 @@ Om een IP warmup campagne tot stand te brengen, volg de hieronder stappen.
 
    >[!IMPORTANT]
    >
-   >Het publiek dat in een IP warmup campagne wordt toegestaan moet [ op segment-gebaseerd ](../audience/creating-a-segment-definition.md) zijn en tot stand gebracht gebruikend het [ standaardsamenvoegingsbeleid ](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
+   >Het publiek dat in een IP warmup campagne wordt toegestaan moet [ op segment-gebaseerd ](../audience/creating-a-segment-definition.md) zijn en tot stand gebracht gebruikend het [ standaardsamenvoegingsbeleid ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
 
    Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [ deze pagina ](../campaigns/get-started-with-campaigns.md).
 
@@ -65,7 +65,7 @@ Om een IP warmup campagne tot stand te brengen, volg de hieronder stappen.
 
    >[!NOTE]
    >
-   >[ Bedrijfs regels ](../conflict-prioritization/rule-sets.md#apply-frequency-rule) zouden niet op IP warmup plannen moeten worden gebruikt. De toepassing van deze regels kan het bereiken van het gewenste aantal doelprofielen voor campagnes belemmeren.
+   >[ Bedrijfs regels ](../configuration/rule-sets.md#apply-frequency-rule) zouden niet op IP warmup plannen moeten worden gebruikt. De toepassing van deze regels kan het bereiken van het gewenste aantal doelprofielen voor campagnes belemmeren.
 
    Voor een levende campagne met IP geactiveerd warmup plan, is de **[!UICONTROL Delete]** knoop beschikbaar tot het met een IP warmup plan wordt geassocieerd. Als de campagne eenmaal in een abonnement is gebruikt, kan deze niet meer worden verwijderd.
 

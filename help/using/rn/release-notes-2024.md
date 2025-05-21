@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
 source-wordcount: '6779'
 ht-degree: 7%
@@ -318,13 +318,13 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **het bestuur van Gegevens &amp; het beleid van de Toestemming** - de datum van Beschikbaarheid: 7 okt, 2024
 
-* **de handhaving van het beleid van het beheer van 0&rbrace; Gegevens &lbrace;vindt nu over alle kanalen in Journey Optimizer plaats.** Voor klanten die beleid in Adobe Experience Platform hebben gecreeerd, worden deze toegepast op marketing acties als deel van de opstelling van kanaalconfiguraties. Als u inhoud maakt met een configuratie, controleert het systeem alle personalisatievelden op overtredingen van het gegevensbeheer. Als er een overtreding wordt gevonden, is het niet mogelijk een reis of campagne te publiceren. [Meer informatie](../action/action-privacy.md)
+* **de handhaving van het beleid van het beheer van 0} Gegevens {vindt nu over alle kanalen in Journey Optimizer plaats.** Voor klanten die beleid in Adobe Experience Platform hebben gecreeerd, worden deze toegepast op marketing acties als deel van de opstelling van kanaalconfiguraties. Als u inhoud maakt met een configuratie, controleert het systeem alle personalisatievelden op overtredingen van het gegevensbeheer. Als er een overtreding wordt gevonden, is het niet mogelijk een reis of campagne te publiceren. [Meer informatie](../action/action-privacy.md)
 
 * **het toestemmingsbeleid van de Douane** is nu op alle kanalen van Journey Optimizer van toepassing. Bij handhaving voordat een bericht wordt verzonden of een binnenkomende ervaring wordt opgeleverd, controleert het systeem of de gebruiker toestemming heeft gegeven om verpersoonlijkingsvelden te gebruiken in de inhoud die hij of zij zal ontvangen. Als er geen toestemming wordt gegeven, wordt de ervaring niet weergegeven. [Meer informatie](../action/consent.md)
 
   >[!NOTE]
   >
-  >Het toestemmingsbeleid is momenteel slechts beschikbaar voor organisaties die het 3&rbrace; toe:voegen-op dienstenaanbod van het Schild van de Gezondheidszorg van Adobe **of** of **Privacy en van het Schild van de Veiligheid &lbrace;hebben gekocht.**
+  >Het toestemmingsbeleid is momenteel slechts beschikbaar voor organisaties die het 3} toe:voegen-op dienstenaanbod van het Schild van de Gezondheidszorg van Adobe **of** of **Privacy en van het Schild van de Veiligheid {hebben gekocht.**
 
 **Soorten publiek** - Beschikbaarheidsdatum: 8 okt, 2024
 
@@ -342,7 +342,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Beslissing**
 
-* [ Adobe Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=nl-NL) de gebruikers kunnen douanemodellen nu kiezen om te optimaliseren wanneer vestiging een AI model in Beslissing (vroeger genoemd geworden Ervaring die Beslissing) wordt bekend. Zo kunt u bijvoorbeeld een aangepaste tabel &quot;aankopen&quot; optimaliseren in plaats van gedefinieerde beperkingen, zoals een doorklikfrequentie. [Meer informatie](../experience-decisioning/ranking.md)
+* [ Adobe Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) de gebruikers kunnen douanemodellen nu kiezen om te optimaliseren wanneer vestiging een AI model in Beslissing (vroeger genoemd geworden Ervaring die Beslissing) wordt bekend. Zo kunt u bijvoorbeeld een aangepaste tabel &quot;aankopen&quot; optimaliseren in plaats van gedefinieerde beperkingen, zoals een doorklikfrequentie. [Meer informatie](../experience-decisioning/ranking.md)
 
 * Wanneer het toevoegen van een besluitvormingsbeleid aan een code-gebaseerde campagne met Beslissing, kunt u één enkele besluitvormingspunten, naast selectiestrategieën nu manueel selecteren. Bovendien kunt u nu meerdere fallback-voorstellen selecteren. Dit garandeert dat er een aantal teruggestuurde besluiten zijn. [Meer informatie](../experience-decisioning/create-decision.md)
 
@@ -442,7 +442,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <tr>
 <td>
 <p>Als je je bericht hebt gemaakt en gepersonaliseerd, ga je naar het volgende niveau met AI Assistant in Journey Optimizer. U kunt nu AI Assistant gebruiken om de impact van uw bericht te optimaliseren door te experimenteren met verschillende hoofdtitels en afbeeldingen. Elke variant wordt beheerd als een unieke behandeling, om te meten en te vergelijken welke titel effectief meer kliks produceert.</p>
-<p>Ga zelf in een hands-on ervaring met <a href="https://experienceleague.adobe.com/nl/apps/journey-optimizer/ai-assistant-content-accelerator"> binnen onze levende eigenschapvoorproef </a>, die wordt ontworpen om u zijn eigenschappen eerst te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.</a></p>
+<p>Ga zelf in een hands-on ervaring met <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator"> binnen onze levende eigenschapvoorproef </a>, die wordt ontworpen om u zijn eigenschappen eerst te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.</a></p>
 <p>Raadpleeg de <a href="../content-management/gs-generative.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
 <p>Beschikbaarheidsdatum: 12 september 2024</p>
@@ -517,7 +517,7 @@ U kunt nu inhoudssjablonen en fragmenten exporteren tussen sandboxen. [Meer info
 
 **Configuratie**
 
-* **IP warmup plannen** - Dit vermogen is nu beschikbaar aan alle klanten, met inbegrip van organisaties die het Adobe **Bevel van de Gezondheidszorg** of **Privacy en het 5&rbrace; toe:voegen-op dienstenaanbod van het Schild van de Veiligheid &lbrace;hebben gekocht.** [Meer informatie](../configuration/ip-warmup-gs.md)
+* **IP warmup plannen** - Dit vermogen is nu beschikbaar aan alle klanten, met inbegrip van organisaties die het Adobe **Bevel van de Gezondheidszorg** of **Privacy en het 5} toe:voegen-op dienstenaanbod van het Schild van de Veiligheid {hebben gekocht.** [Meer informatie](../configuration/ip-warmup-gs.md)
 
 <!--
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.-->
@@ -687,7 +687,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <tr>
 <td>
 <p>Federated Audience Composition is nu beschikbaar in Adobe Journey Optimizer. Hierdoor kunnen ondernemingen gegevens samenstellen voor een beter gebruik in verschillende gebruiksgevallen. Met deze nieuwe benadering, als Adobe Real-Time Customer Data Platform en/of gebruiker van Adobe Journey Optimizer, kunt u datasets van uw bestaand gegevenspakhuis direct federeren om het publiek en de attributen van Adobe Experience Platform te bouwen en te verrijken allen in één systeem.</p>
-<p>Raadpleeg de <a href="https://experienceleague.adobe.com/nl/docs/federated-audience-composition/using/home"  target="_blank">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Raadpleeg de <a href="https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home"  target="_blank">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -831,7 +831,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 * De nieuwe statussen voor inhoudsfragmenten zijn geïntroduceerd: **Ontwerp**, **Levend**, **het Publiceren**, en **Gearchiveerd**.
 * Om een fragment in een reis of een campagne te gebruiken, moet het nu in **Levende** status zijn. Er is een nieuwe stap toegevoegd aan het proces voor het maken van fragmenten, zodat het fragment kan worden gepubliceerd en beschikbaar kan worden gesteld voor gebruik tijdens reizen en campagnes. Voor het publiceren van fragmenten is een nieuwe machtiging vereist.
 
-  **VOORZIENING** - aangezien **het Ontwerp** en **Levende** statussen met de versie van Journey Optimizer Juni zijn geïntroduceerd, hebben alle fragmenten die vóór deze versie worden gecreeerd de **7&rbrace; status van het Ontwerp &lbrace;, zelfs als zij in een reis of een campagne worden gebruikt.** Als u om het even welke verandering in deze fragmenten aanbrengt, moet u hen [&#128279;](../content-management/create-fragments.md#publish) publiceren om hen &quot;Levend&quot;te maken en de veranderingen in de bijbehorende campagnes en de reizen te verspreiden.  U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren.
+  **VOORZIENING** - aangezien **het Ontwerp** en **Levende** statussen met de versie van Journey Optimizer Juni zijn geïntroduceerd, hebben alle fragmenten die vóór deze versie worden gecreeerd de **7} status van het Ontwerp {, zelfs als zij in een reis of een campagne worden gebruikt.** Als u om het even welke verandering in deze fragmenten aanbrengt, moet u hen ](../content-management/create-fragments.md#publish) publiceren om hen &quot;Levend&quot;te maken en de veranderingen in de bijbehorende campagnes en de reizen te verspreiden. [ U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren.
 
 Lees meer in de [ documentatie van het inhoudsfragment ](../content-management/fragments.md).
 
@@ -870,7 +870,7 @@ Lees meer in de [ documentatie van het inhoudsfragment ](../content-management/f
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
-* U kunt nu de Edge Delivery-insteekmodule gebruiken om informatie op te halen die nodig is voor het begrijpen van en het oplossen van problemen met uw binnenkomende implementaties. [ leer meer over de mening van Edge Delivery ](https://experienceleague.adobe.com/nl/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
+* U kunt nu de Edge Delivery-insteekmodule gebruiken om informatie op te halen die nodig is voor het begrijpen van en het oplossen van problemen met uw binnenkomende implementaties. [ leer meer over de mening van Edge Delivery ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
 
 
 #### Direct mailkanaal
@@ -1171,7 +1171,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Contentsjablonen**
 
-* **Duimnagels** - de 3&rbrace; wijze van de mening van A **Net is nu beschikbaar voor inhoudsmalplaatjes, tonend duimnagels voor betere visuele toegang.** Momenteel worden alleen e-mailsjablonen van HTML ondersteund. [Meer informatie](../content-management/content-templates.md#template-thumbnails)
+* **Duimnagels** - de 3} wijze van de mening van A **Net is nu beschikbaar voor inhoudsmalplaatjes, tonend duimnagels voor betere visuele toegang.** Momenteel worden alleen e-mailsjablonen van HTML ondersteund. [Meer informatie](../content-management/content-templates.md#template-thumbnails)
 
   >[!AVAILABILITY]
   >
@@ -1181,7 +1181,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 Er zijn nieuwe tussenliggende statussen toegevoegd aan de levenscyclus van de reisontwerpfase:
 
-* **het Publiceren** status tussen de **3&rbrace; status van het Ontwerp &lbrace;en** Levende **status**
+* **het Publiceren** status tussen de **3} status van het Ontwerp {en** Levende **status**
 * **het Stoppen** status tussen **Levende** status en **beëindigde** status
 * **het activeren van testwijze** of **het Deactiveren van testwijze** statussen tussen de **Ontwerp** status en de **(test)** status
 
@@ -1266,7 +1266,7 @@ Eerder beschikbaar als Beta, zijn de volgende verbeteringen nu beschikbaar voor 
 
 **Regels van de Frequentie**
 
-* Naast E-mail en Duw, kunt u de regels van de Frequentie voor SMS en Directe kanalen van de Post nu tot stand brengen. De frequentieregels sluiten over-gevraagde profielen automatisch uit van berichten en acties wanneer de frequentiedrempel wordt bereikt. [Meer informatie](../conflict-prioritization/rule-sets.md)
+* Naast E-mail en Duw, kunt u de regels van de Frequentie voor SMS en Directe kanalen van de Post nu tot stand brengen. De frequentieregels sluiten over-gevraagde profielen automatisch uit van berichten en acties wanneer de frequentiedrempel wordt bereikt. [Meer informatie](../configuration/rule-sets.md)
 
 <!--**Decision management**
 
@@ -1342,7 +1342,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Regels van de Frequentie**
 
-* **Wekelijks frequentiemaximum** - u kunt nu het maximumaantal berichten specificeren die naar een klantenprofiel per week, naast maand worden verzonden. De maximale frequentie is gebaseerd op de geselecteerde kalenderperiode en wordt opnieuw ingesteld aan het begin van het corresponderende tijdkader. [Meer informatie](../conflict-prioritization/rule-sets.md)
+* **Wekelijks frequentiemaximum** - u kunt nu het maximumaantal berichten specificeren die naar een klantenprofiel per week, naast maand worden verzonden. De maximale frequentie is gebaseerd op de geselecteerde kalenderperiode en wordt opnieuw ingesteld aan het begin van het corresponderende tijdkader. [Meer informatie](../configuration/rule-sets.md)
 
   >[!NOTE]
   >

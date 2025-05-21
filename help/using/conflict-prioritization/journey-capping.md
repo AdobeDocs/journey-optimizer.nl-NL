@@ -3,15 +3,20 @@ title: Afbakening van reizen en arbitrage
 description: Leer hoe u regels voor aftopping kunt maken voor uw reizen en hoe u een arbitrage kunt instellen bij het betreden van een reis
 role: User
 level: Beginner
+badge: label="Beperkte beschikbaarheid"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
 
 # Afbakening van reizen en arbitrage {#journey-capping}
+
+>[!AVAILABILITY]
+>
+>Conflict- en prioriteitsmogelijkheden zijn momenteel beschikbaar in Beperkte beschikbaarheid voor een geselecteerde groep klanten. Houd er rekening mee dat deze functies in de toekomst geleidelijk aan voor meer gebruikers beschikbaar zullen zijn. Neem contact op met uw accountteam als u interesse hebt in het toevoegen van deze functies aan de wachtlijst.
 
 Met de functie voor aftopping kunt u het aantal ritten beperken waarin een profiel kan worden ingeschreven, zodat overbelasting van communicatie wordt voorkomen. In Journey Optimizer kunt u twee typen uitlijningsregels instellen:
 
@@ -19,6 +24,10 @@ Met de functie voor aftopping kunt u het aantal ritten beperken waarin een profi
 * **In samenloop het maximum** beperkt hoeveel reizen een profiel in gelijktijdig kan worden ingeschreven.
 
 Beide typen aftopping maken gebruik van prioriteitsscores om items te scheiden.
+
+>[!AVAILABILITY]
+>
+>**de reeksen van de de domeinregel van 0} Reis {zijn beschikbaar slechts aan een beperkte reeks gebruikers (Beperkte Beschikbaarheid).** Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 ➡️ [Ontdek deze functie in video](#video)
 
@@ -48,49 +57,59 @@ Voer de volgende stappen uit om een regel voor het afdekken van reizen te maken:
 
      ![](assets/journey-capping-rule-set.png)
 
-1. Klik in het scherm met de regelset op de knop **[!UICONTROL Add Rule]** en geef de regel een unieke naam.
-
-1. Geef in de vervolgkeuzelijst **[!UICONTROL Rule Type]** het type uitlijning voor de regel op.
-
-   * **[!UICONTROL Journey Entry Cap]**: beperkt het aantal items dat gedurende een bepaalde periode voor een profiel wordt ingevoerd in de reis.
-   * **[!UICONTROL Journey Concurrency Cap]**: hiermee wordt beperkt hoeveel ritten een profiel gelijktijdig kan worden ingeschreven.
+1. In het scherm van de regelreeks, klik de **[!UICONTROL Add Rule]** knoop dan vormt de regel om uw behoeften aan te passen:
 
    ![](assets/journey-capping-concurrency.png)
 
-1. Vouw de onderstaande secties uit om te leren hoe u elk type uitvulling kunt configureren:
+   * Geef de regel een unieke naam.
 
-   +++Configureer een regel voor het afdekken van verplaatsingen
+   * Geef in de vervolgkeuzelijst **[!UICONTROL Rule Type]** het type uitlijning voor de regel op.
 
-   1. Stel in het veld **[!UICONTROL Capping]** het maximum aantal ritten in dat een profiel kan invoeren.
-   1. Definieer in het veld **[!UICONTROL Duration]** de tijdsperiode die u wilt overwegen. De duur is gebaseerd op de UTC-tijdzone. Zo wordt de Daily cap ingesteld op middernacht UTC.
+      * **[!UICONTROL Journey Entry Cap]**: beperkt het aantal items dat gedurende een bepaalde periode voor een profiel wordt ingevoerd in de reis.
+      * **[!UICONTROL Journey Concurrency Cap]**: hiermee wordt beperkt hoeveel ritten een profiel gelijktijdig kan worden ingeschreven.
 
-   In dit voorbeeld willen we de profielen beperken om meer dan &quot;5&quot; reizen per maand in te voeren.
+   * Vouw de onderstaande secties uit om te leren hoe u elk type uitvulling kunt configureren:
 
-   ![](assets/journey-capping-entry-example.png)
+     +++Configureer een regel voor het afdekken van verplaatsingen
 
-   >[!NOTE]
-   >
-   >In het systeem zal rekening worden gehouden met de prioriteit van komende geplande reizen waarop dezelfde regel van toepassing is.
-   >
-   >In dit voorbeeld, als de markteur reeds vier reizen heeft betreden en er een volgende geplande reis is deze maand met een hogere prioriteit, dan zullen de klanten van het ingaan van de lagere prioritaire reis worden onderdrukt.
+      1. Stel in het veld **[!UICONTROL Capping]** het maximum aantal ritten in dat een profiel kan invoeren.
+      1. Definieer in het veld **[!UICONTROL Duration]** de tijdsperiode die u wilt overwegen. De duur is gebaseerd op de UTC-tijdzone. Zo wordt de Daily cap ingesteld op middernacht UTC.
 
-   +++
+     >[!AVAILABILITY]
+     >
+     >De &quot;Daily&quot;duur is slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
-   +++Configureer een regel voor het aftoppen van de route
+     In dit voorbeeld willen we de profielen beperken om meer dan &quot;5&quot; reizen per maand in te voeren.
 
-   1. Stel in het veld **[!UICONTROL Capping]** het maximumaantal ritten in waarin een profiel gelijktijdig kan worden ingeschreven.
+     ![](assets/journey-capping-entry-example.png)
 
-   1. Gebruik het veld **[!UICONTROL Prioritization look ahead]** om te scheiden hoe items in de reis worden geplaatst op basis van prioriteitsscores over een bepaalde periode (bijvoorbeeld 1 dag, 7 dagen, 30 dagen). Dit helpt om voorrang te geven aan het binnenkomen van duurdere reizen als een profiel in aanmerking komt voor meerdere reizen.
+     >[!NOTE]
+     >
+     >In het systeem zal rekening worden gehouden met de prioriteit van komende geplande reizen waarop dezelfde regel van toepassing is.
+     >
+     >In dit voorbeeld, als de markteur reeds vier reizen heeft betreden en er een volgende geplande reis is deze maand met een hogere prioriteit, dan zullen de klanten van het ingaan van de lagere prioritaire reis worden onderdrukt.
 
-   In dit voorbeeld willen we profielen beperken van het betreden van de reis als ze al zijn ingeschreven voor een andere reis die dezelfde regel bevat. Als een andere reis binnen de volgende 7 dagen een hogere prioritaire score heeft, zal het profiel deze reis niet ingaan.
++++
 
-   ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
+     +++Configureer een regel voor het aftoppen van de route
 
-   +++
+      1. Stel in het veld **[!UICONTROL Capping]** het maximumaantal ritten in waarin een profiel gelijktijdig kan worden ingeschreven.
 
-1. Herhaal bovenstaande stappen om zoveel regels toe te voegen als nodig zijn voor de regelset.
+      1. Gebruik het veld **[!UICONTROL Prioritization look ahead]** om te scheiden hoe items in de reis worden geplaatst op basis van prioriteitsscores over een bepaalde periode (bijvoorbeeld 1 dag, 7 dagen, 30 dagen). Dit helpt om voorrang te geven aan het binnenkomen van duurdere reizen als een profiel in aanmerking komt voor meerdere reizen.
 
-1. Wanneer de afkapregel klaar is om op reizen te worden toegepast, activeer de regel en de regel die is geplaatst waar het is toegevoegd. [ Leer hoe te om regelreeksen te activeren ](../conflict-prioritization/rule-sets.md#create)
+     In dit voorbeeld willen we profielen beperken van het betreden van de reis als ze al zijn ingeschreven voor een andere reis die dezelfde regel bevat. Als een andere reis binnen de volgende 7 dagen een hogere prioritaire score heeft, zal het profiel deze reis niet ingaan.
+
+     ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
+
++++
+
+1. Wanneer de afschilderregel klaar is om te worden toegepast op reizen, activeert u deze door op de knop Ovaal naast de naam te klikken.
+
+   ![](assets/journey-capping-activate-rule.png)
+
+1. Activeer de volledige die regel door de elliptische knoop naast de Add knoop van de Regel in de hoger-juiste hoek van het scherm wordt geplaatst te klikken.
+
+   ![](assets/journey-capping-activate-rule-set.png)
 
 ## Afdekkingsregels toepassen op reizen {#apply-capping}
 
@@ -103,18 +122,14 @@ Om een afluisterregel op een reis toe te passen, toegang tot de reis en open zij
 
 ![](assets/journey-capping-apply.png)
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Als een reis onmiddellijk wordt geactiveerd, kan het tot 10 minuten duren voordat het systeem begint met het onderdrukken van klanten. Dientengevolge, toont een bericht als u probeert om een reis met een begintijd te publiceren die minder dan 10 minuten is.
+>Als een reis onmiddellijk wordt geactiveerd, kan het tot 20 minuten duren voordat het systeem begint met het onderdrukken van klanten. U kunt uw reis plannen om minstens 20 minuten in de toekomst te beginnen om deze mogelijkheid te verhinderen.
 
-## Uitsluiting van monitorregelsets {#monitor}
-
-Zodra een reis levend is, kunt u het reisrapport controleren als de vastgestelde regel tot om het even welke uitsluiting van de reis, in de **[!UICONTROL Journey Exclusions]** lijst heeft geleid. De tabel met uitsluitingen voor reizen bevat gedetailleerde uitsplitsingen van uitsluitingen naar regelreeks en regelnaam, die inzichten geven in waarom profielen zijn genegeerd. [ Leer hoe te met reisrapporten ](../reports/journey-global-report-cja.md) te werken
+Zodra de reis levend is, kunt u het reisrapport controleren als de vastgestelde regel tot om het even welke uitsluiting van de reis, in de **[!UICONTROL Journey Exclusions]** lijst heeft geleid. [ Leer hoe te met reisrapporten ](../reports/journey-global-report-cja.md) te werken
 
 ![](assets/journey-report.png)
 
-Bovendien kunt u de dienst van de Vraag van Adobe Experience Platform **&#x200B;**&#x200B;ook hefboomwerking om vragen te bouwen om te identificeren welke regel een profiel veroorzaakte om niet in een bepaalde reis binnen te gaan. Een vraagvoorbeeld is beschikbaar in [ deze sectie ](../reports/query-examples.md#common-queries).
-
 ## Hoe kan ik-video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447621?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
