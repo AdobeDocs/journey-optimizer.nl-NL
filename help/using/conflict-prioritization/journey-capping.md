@@ -117,4 +117,4 @@ Bovendien kunt u de dienst van de Vraag van Adobe Experience Platform **&#x200B;
 
 ## Hoe kan ik-video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3447621?quality=12&captions=dut)
