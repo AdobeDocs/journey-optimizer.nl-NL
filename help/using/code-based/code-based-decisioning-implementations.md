@@ -28,7 +28,7 @@ Wanneer het testen van [ code-gebaseerde ervaring ](create-code-based.md) met be
 Nadat u de campagne hebt gepubliceerd, voegt u de markering `dryRun` toe aan het XDM-gebeurtenisblok `data` in de clientimplementatie:
 
     &quot;
-     {
+     &lbrace;
      &quot;gegevens&quot;: 
      &quot;__adobe&quot;: 
      &quot;ajo&quot;: 

@@ -74,7 +74,7 @@ Voer de volgende stappen uit om een regel voor het afdekken van reizen te maken:
    >
    >In dit voorbeeld, als de markteur reeds vier reizen heeft betreden en er een volgende geplande reis is deze maand met een hogere prioriteit, dan zullen de klanten van het ingaan van de lagere prioritaire reis worden onderdrukt.
 
-+++
+   +++
 
    +++Configureer een regel voor het aftoppen van de route
 
@@ -86,7 +86,7 @@ Voer de volgende stappen uit om een regel voor het afdekken van reizen te maken:
 
    ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
 
-+++
+   +++
 
 1. Herhaal bovenstaande stappen om zoveel regels toe te voegen als nodig zijn voor de regelset.
 
@@ -113,7 +113,7 @@ Zodra een reis levend is, kunt u het reisrapport controleren als de vastgestelde
 
 ![](assets/journey-report.png)
 
-Bovendien kunt u de dienst van de Vraag van Adobe Experience Platform **** ook hefboomwerking om vragen te bouwen om te identificeren welke regel een profiel veroorzaakte om niet in een bepaalde reis binnen te gaan. Een vraagvoorbeeld is beschikbaar in [ deze sectie ](../reports/query-examples.md#common-queries).
+Bovendien kunt u de dienst van de Vraag van Adobe Experience Platform **&#x200B;**&#x200B;ook hefboomwerking om vragen te bouwen om te identificeren welke regel een profiel veroorzaakte om niet in een bepaalde reis binnen te gaan. Een vraagvoorbeeld is beschikbaar in [ deze sectie ](../reports/query-examples.md#common-queries).
 
 ## Hoe kan ik-video {#video}
 
