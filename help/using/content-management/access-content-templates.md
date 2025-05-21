@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: a487355df0229a1e94375025eae0babc9405f087
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,6 @@ Als u de lijst met inhoudssjablonen wilt openen, selecteert u **[!UICONTROL Cont
 Alle sjablonen die in de huidige sandbox zijn gemaakt (van een rit of een campagne met de optie **[!UICONTROL Save as template]** in het menu **[!UICONTROL Content Templates]** ), worden weergegeven. [ Leer hoe te om malplaatjes ](#create-content-templates) tot stand te brengen
 
 In het linkerdeelvenster kunt u inhoudssjablonen indelen in mappen. Standaard worden alle sjablonen weergegeven. Wanneer u een map selecteert, worden alleen de sjablonen en mappen weergegeven die in de geselecteerde map staan. [Meer informatie](#folders)
-
->[!NOTE]
->
->De omslagen van het inhoudsmalplaatje zijn slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid) en zullen geleidelijk aan aan meer gebruikers worden ingevoerd.
 
 ![](assets/content-template-list-folders.png)
 
@@ -49,10 +45,6 @@ U kunt er ook voor kiezen om alleen de zelf gemaakte of gewijzigde items weer te
 >Vanaf maart 2025 zijn de sjablonen voor HTML-inhoud nu vervangen. U kunt nog steeds bestaande HTML-inhoudssjablonen openen die eerder in [!DNL Journey Optimizer] zijn gemaakt.
 
 ## Mappen gebruiken om inhoudssjablonen te beheren {#folders}
-
->[!AVAILABILITY]
->
->De omslagen van het inhoudsmalplaatje zijn slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid) en zullen geleidelijk aan aan meer gebruikers worden ingevoerd.
 
 Om uw inhoudsmalplaatjes gemakkelijk te navigeren, kunt u omslagen gebruiken om hen effectiever in een gestructureerde hiërarchie te organiseren. Hierdoor kunt u de items indelen en beheren op basis van de behoeften van uw organisatie.
 
@@ -100,7 +92,7 @@ Om uw inhoudsmalplaatjes gemakkelijk te navigeren, kunt u omslagen gebruiken om 
 >
 >Wanneer een sjabloon wordt bewerkt of verwijderd, hebben campagnes of reizen met inbegrip van inhoud die met deze sjabloon is gemaakt, geen invloed op deze sjabloon.
 
-## [!BADGE &#x200B; Beperkte malplaatjes van de Vertoning van de Beschikbaarheid &#x200B;]{type=Informative} als duimnagels {#template-thumbnails}
+## [!BADGE  Beperkte malplaatjes van de Vertoning van de Beschikbaarheid ]{type=Informative} als duimnagels {#template-thumbnails}
 
 Selecteer de modus **[!UICONTROL Grid view]** om elke sjabloon als een miniatuur weer te geven.
 

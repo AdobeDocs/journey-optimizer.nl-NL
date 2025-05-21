@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: zaadlijst, zaadlijst, zaad, configuratie
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 2%
@@ -83,7 +83,7 @@ U kunt op de naam van een zaadlijst klikken om deze te bewerken. <!--Use the **[
 >id="ajo_seed_list_details"
 >title="Een zaadlijst definiëren"
 >abstract="Gebruik een zaadlijst om specifieke interne adressen aan uw leveringspubliek voor verzekeringsdoeleinden automatisch toe te voegen. Met zaadlijsten kunt u de berichtkopieën controleren die worden verzonden om ervoor te zorgen dat alle weergave-elementen correct zijn en uw mailinglijst beveiligen. Deze functie is momenteel alleen van toepassing op het e-mailkanaal."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=nl-NL#use-seed-list" text="Wat zijn zaadlijsten?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="Wat zijn zaadlijsten?"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
@@ -96,7 +96,7 @@ Voer de onderstaande stappen uit om een zaadlijst te maken.
 
 1. Selecteer de knop **[!UICONTROL Create seed list]**.
 
-   ![](assets/seed-list-create-button.png)
+   <!--![](assets/seed-list-create-button.png)-->
 
 1. Vul de gegevens in. Begin door een naam toe te voegen.
 
@@ -120,7 +120,7 @@ Voer de onderstaande stappen uit om een zaadlijst te maken.
 
    >[!NOTE]
    >
-   >U kunt beide opties combineren, maar het totale aantal adressen in een zaadlijst mag niet groter zijn dan 50.
+   >U kunt beide opties combineren, maar het totale aantal adressen in een zaadlijst mag niet groter zijn dan 300.
 
 1. Klik op **[!UICONTROL Create]** om te bevestigen. De nieuw gecreëerde zaadlijst toont in het [ scherm van de zaadlijst ](#access-seed-lists).
 

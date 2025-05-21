@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 4995bf642231248ece0211a7ecf2f38ccd846d36
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,14 @@ Wanneer het gebruiken van Beslissing in code-gebaseerde ervaringen, denk na toev
 
 ## Op code gebaseerde ervaringen testen met beslissingen {#code-based-test-decisions}
 
-Momenteel kunt u geen inhoud van het gebruikersinterface in a [ code-gebaseerde ervaring ](create-code-based.md) campagne of reis simuleren gebruikend besluiten.
+<!--Currently you cannot simulate content from the user interface in a [code-based experience](create-code-based.md) campaign or journey using decisions.-->
 
-Als tijdelijke oplossing kunt u de besluitvorming testen nadat u uw campagne hebt gepubliceerd door de markering `dryRun` toe te voegen aan het XDM-gebeurtenisblok `data` in uw clientimplementatie:
+Wanneer het testen van [ code-gebaseerde ervaring ](create-code-based.md) met besluit, kan de `dryRun` vlag worden gebruikt om te onderdrukken terugkoppelt gebeurtenissen voor zowel het melden als het begrenzen tellers.
+
+Nadat u de campagne hebt gepubliceerd, voegt u de markering `dryRun` toe aan het XDM-gebeurtenisblok `data` in de clientimplementatie:
 
     &quot;
-     &lbrace;
+     {
      &quot;gegevens&quot;: 
      &quot;__adobe&quot;: 
      &quot;ajo&quot;: 
@@ -37,9 +39,10 @@ Als tijdelijke oplossing kunt u de besluitvorming testen nadat u uw campagne heb
      
     &quot;
 
+<!--
 >[!CAUTION]
 >
->Als u de markering `dryRun` toevoegt aan uw verzoek, voorkomt u dat feedback wordt vastgelegd voor rapportage en dat er geen frequentietellers aan worden toegevoegd.
+>Adding the `dryRun` flag to your request will prevent feedback to be captured for reporting and frequency counters from being added to.-->
 
 ## Deduplicatie van besluitvormingselementen in op code-gebaseerde implementaties {#code-based-decisioning-deduplication}
 
@@ -61,7 +64,7 @@ Voor om het even welk beslissingsverzoek, kunt u één of meerdere die besluitvo
 
 ### Deduplicatie toepassen in een aanvraag {#deduplication-in-request}
 
-De markering voor deduplicatie wordt standaard ingesteld op `true` (deze wordt niet doorgegeven).
+Standaard is de deduplicatiemarkering ingesteld op `true` .
 
 In een Konductor-verzoek kunt u de deduplicatiemarkering doorgeven als u unieke elementen in de reactie wilt. In dat geval stelt u deze in op `false` .
 

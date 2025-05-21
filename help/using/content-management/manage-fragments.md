@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 5e82bd6cfcb186fef324627e353b9e54d2332c3e
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1382'
 ht-degree: 1%
 
 ---
@@ -24,10 +24,6 @@ Als u uw fragmenten wilt beheren, opent u de fragmentlijst via **[!UICONTROL Con
 Alle fragmenten die op de huidige zandbak - of [ van het **[!UICONTROL Fragments]** menu ](#create-fragments) werden gecreeerd, of gebruikend [ sparen als fragmentoptie ](#save-as-fragment) - worden getoond.
 
 In het linkerdeelvenster kunt u fragmenten ordenen in mappen. Standaard worden alle fragmenten weergegeven. Wanneer u een map selecteert, worden alleen de fragmenten en mappen in de geselecteerde map weergegeven. [Meer informatie](#folders)
-
->[!NOTE]
->
->De omslagen van het fragment zijn slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid) en zullen geleidelijk aan aan meer gebruikers worden ingevoerd.
 
 ![](assets/fragment-list-folders.png)
 
@@ -63,10 +59,6 @@ Via de knop **[!UICONTROL More actions]** naast elk fragment kunt u:
 >id="ajo_fragments_folders"
 >title="Uw fragmenten indelen in mappen"
 >abstract="Gebruik mappen om uw fragmenten te categoriseren en te beheren op basis van de behoeften van uw organisatie."
-
->[!AVAILABILITY]
->
->De omslagen van het fragment zijn slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid) en zullen geleidelijk aan aan meer gebruikers worden ingevoerd.
 
 U kunt uw fragmenten eenvoudig navigeren door mappen zodat u ze effectiever kunt ordenen in een gestructureerde hiërarchie. Hierdoor kunt u de items indelen en beheren op basis van de behoeften van uw organisatie.
 
@@ -105,8 +97,8 @@ U kunt uw fragmenten eenvoudig navigeren door mappen zodat u ze effectiever kunt
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="Nieuwe fragmentstatussen"
->abstract="Aangezien **Ontwerp** en **Levende** statussen met de versie van Journey Optimizer Juni zijn geïntroduceerd, hebben alle fragmenten die vóór deze versie worden gecreeerd de **Ontwerp** status, zelfs als zij in een reis of een campagne worden gebruikt. Als u om het even welke verandering in deze fragmenten aanbrengt, moet u hen publiceren om hen **Levend** te maken en de veranderingen in de bijbehorende campagnes en de reizen te verspreiden. U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren. <br/> het Publiceren vereist de <a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage"> Publish 2&rbrace; gebruikerstoestemming van het Fragment &lbrace;.</a>"
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="Meer informatie over machtigingen voor inhoudsfragmenten"
+>abstract="Aangezien **Ontwerp** en **Levende** statussen met de versie van Journey Optimizer Juni zijn geïntroduceerd, hebben alle fragmenten die vóór deze versie worden gecreeerd de **Ontwerp** status, zelfs als zij in een reis of een campagne worden gebruikt. Als u om het even welke verandering in deze fragmenten aanbrengt, moet u hen publiceren om hen **Levend** te maken en de veranderingen in de bijbehorende campagnes en de reizen te verspreiden. U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren. <br/> het Publiceren vereist de <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage"> Publish 2} gebruikerstoestemming van het Fragment {.</a>"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="Meer informatie over machtigingen voor inhoudsfragmenten"
 
 Fragmenten kunnen meerdere statussen hebben:
 

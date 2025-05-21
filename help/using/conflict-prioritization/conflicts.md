@@ -3,20 +3,15 @@ title: Mogelijke conflicten tijdens reizen en campagnes identificeren
 description: Leer hoe u mogelijke conflicten tijdens reizen en campagnes kunt identificeren.
 role: User
 level: Beginner
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
+exl-id: efbb5ac4-4c07-4c62-9460-39eb4fed129a
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '719'
 ht-degree: 1%
 
 ---
 
-
 # Mogelijke conflicten tijdens reizen en campagnes detecteren {#conflict}
-
->[!AVAILABILITY]
->
->Conflict- en prioriteitsmogelijkheden zijn momenteel beschikbaar in Beperkte beschikbaarheid voor een geselecteerde groep klanten. Houd er rekening mee dat deze functies in de toekomst geleidelijk aan voor meer gebruikers beschikbaar zullen zijn. Neem contact op met uw accountteam als u interesse hebt in het toevoegen van deze functies aan de wachtlijst.
 
 Naarmate de markt het aantal campagnes en reizen in Journey Optimizer verhoogt, wordt het steeds moeilijker voor een marketeer om te weten of zij hun klanten met te veel marketinginteracties bombarderen. daarom is het van essentieel belang dat bij overlappende campagnes en reizen gemakkelijk kan worden vastgesteld dat zij het juiste evenwicht van de marketingcommunicatie bereiken en tegelijkertijd het risico van vermoeidheid van de klant verminderen .
 
@@ -28,11 +23,7 @@ De belangrijkste gebieden om voor potentiële overlapping te controleren zijn:
 * **het Bedekken van Reeks van de Regel**: Welke types van reizen ben ik bedekken en is er overlapping binnen die?
 * **Configuratie van het Kanaal**: Zijn er andere reizen of campagnes gebruikend om het even welke kanaalconfiguratie die in de zelfde reis of de campagne wordt gebruikt die de reis of de campagne zou kunnen verhinderen aan het eind - gebruiker worden getoond?
 
->[!NOTE]
->
->In campagnes is de prioriteitsscore alleen beschikbaar voor het web, in-app en op code gebaseerde inkomende kanalen.
-
-➡️ [ ontdekt deze eigenschap in video ](#video)
+➡️ [Ontdek deze functie in video](#video)
 
 ## Hoe Journey Optimizer conflicten detecteert {#detection}
 
@@ -74,7 +65,7 @@ Wanneer u een reis of campagne maakt, kunt u met Journey Optimizer controleren o
 
    >[!NOTE]
    >
-   >Nieuwe gepubliceerde campagnes kunnen maximaal 5 minuten duren om in de conflictviewer te worden weergegeven als gevolg van het in cache plaatsen
+   >Nieuwe gepubliceerde reizen en campagnes kunnen tot 3-7 minuten duren om in de conflictviewer te verschijnen, als gevolg van het in cache plaatsen.
 
 Als u uw zoekopdracht naar mogelijke overlappingen verder wilt verfijnen, kunt u uw lijst met campagnes en reizen filteren op basis van de velden die u relevant vindt. Selecteer hiertoe het filterpictogram in de overzichtsweergave. [ leer hoe te met filters ](../start/search-filter-categorize.md#filter-lists) werken
 

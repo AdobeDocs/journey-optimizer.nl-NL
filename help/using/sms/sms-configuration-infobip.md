@@ -7,14 +7,26 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '463'
 ht-degree: 1%
 
 ---
 
 # Infobip-provider configureren {#sms-configuration-infobip}
+
+>[!BEGINSHADEBOX]
+
+Als de trefwoorden opt-in of opt-out niet worden opgegeven, worden standaardtoestemmingsberichten gebruikt om de privacy van de gebruiker te respecteren. Als u aangepaste trefwoorden toevoegt, worden de standaardwaarden automatisch genegeerd.
+
+**Standaardsleutelwoorden:**
+
+* **Opt-binnen**: ABONNEMENT, JA, ONSTOP, BEGIN, DOORGAAN, HERVATTEN, BEGINNEN
+* **Opt-out**: STOP, SLUIT, ANNULEREN, EINDE, ONABONNEMENT, GEEN
+* **Hulp**: HELP
+
+>[!ENDSHADEBOX]
 
 Ga als volgt te werk om Infobip met Journey Optimizer te configureren:
 
@@ -26,7 +38,7 @@ Ga als volgt te werk om Infobip met Journey Optimizer te configureren:
 
    * **[!UICONTROL Name]**: kies een naam voor uw API-referentie.
 
-   * **[!UICONTROL API base URL]** en **[!UICONTROL API key]** : open de webinterfacehomepage of de API-sleutelbeheerpagina om uw referenties te zoeken. Leer meer in [ Documentatie Infobip ](https://www.infobip.com/docs/api){target="_blank"} .
+   * **[!UICONTROL API base URL]** en **[!UICONTROL API key]** : open de webinterfacehomepage of de API-sleutelbeheerpagina om uw referenties te zoeken. Leer meer in [ Documentatie Infobip ](https://www.infobip.com/docs/api){target="_blank"}.
 
    * **[!UICONTROL Opt-In Keywords]** : voer de standaardtrefwoorden of aangepaste trefwoorden in die automatisch uw **[!UICONTROL Opt-In Message]** activeren. Gebruik voor meerdere trefwoorden door komma&#39;s gescheiden waarden.
 

@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '2378'
+source-wordcount: '2390'
 ht-degree: 21%
 
 ---
@@ -175,7 +175,7 @@ ht-degree: 21%
 + Geordende campagnes {#orchestrated-campaigns}
    + [Aan de slag met georkestreerde campagnes](using/ms/gs-ms-campaigns.md)
    + [Belangrijkste beginselen](using/ms/gs-campaign-creation.md)
-   + [ Stappen om georkestreerde campagnes  te creëren](using/ms/gs-campaign-steps.md)
+   + [ Stappen om georkestreerde campagnes ](using/ms/gs-campaign-steps.md) te creëren
    + Configuratiestappen {#ms-config}
       + [Relationele schema&#39;s maken](using/ms/ms-schemas.md)
    + Aanmaakstappen{#create-ms-campaign}
@@ -212,8 +212,11 @@ ht-degree: 21%
 + Conflictbeheer en prioritering {#conflict-prioritization}
    + [Aan de slag met conflictbeheer en -prioriteiten](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Mogelijke conflicten identificeren](using/conflict-prioritization/conflicts.md)
-   + [Prioriteitsscores toewijzen](using/conflict-prioritization/priority-scores.md)
-   + [Afbakening van reizen en arbitrage](using/conflict-prioritization/journey-capping.md)
+   + [ wijs prioritaire scores toe ](using/conflict-prioritization/priority-scores.md)
+Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
+      + [Werken met regelsets](using/conflict-prioritization/rule-sets.md)
+      + [Afbakening van reizen en arbitrage](using/conflict-prioritization/journey-capping.md)
+      + [Frequentiecapaciteit per kanaal en communicatietype](using/conflict-prioritization/channel-capping.md)
 + Testen en goedkeuren {#test}
    + Inhoud voorvertonen en testen {#preview-test}
       + [Aan de slag met voorvertoning en testen](using/content-management/preview-test.md)
@@ -356,7 +359,7 @@ ht-degree: 21%
          + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [ gegevens van Adobe Experience Platform van het Gebruik voor verpersoonlijking (Beta) ](using/personalization/lookup-aep-data.md)
@@ -701,7 +704,7 @@ ht-degree: 21%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
    + [Uw kanalen configureren](using/configuration/get-started-configuration.md)
@@ -730,7 +733,6 @@ ht-degree: 21%
    + [Ondersteuning voor archivering](using/configuration/archiving-support.md)
    + [Uitvoeringadressen wijzigen](using/configuration/primary-email-addresses.md)
    + [Bedrijfsregels configureren](using/configuration/frequency-rules.md)
-   + [Werken met regelsets](using/configuration/rule-sets.md)
 + Reisconfiguratie {#configure-journeys}
    + [Gegevensbronnen, gebeurtenissen en handelingen configureren](using/configuration/about-data-sources-events-actions.md)
    + Gebeurtenisconfiguratie {#events-journeys}

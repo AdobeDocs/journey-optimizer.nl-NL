@@ -9,7 +9,7 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configuratie, configureren, berichten, kanaal, sandbox, optimaliseren
-source-git-commit: e052cf9bcd42cecbaaeb9047990ed603dd0730a0
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 5%
@@ -60,6 +60,6 @@ Om berichten te kunnen verzenden, moet u door de hieronder vermelde configuratie
 
    * Laat de **BBC e-mailoptie** toe om een exemplaar van berichten te houden die naar individuen worden verzonden. [Meer informatie](archiving-support.md#enable-bcc)
 
-   * Vorm **bedrijfsregels** om te vermijden oversolicitating uw ontvangers. [Meer informatie](../configuration/rule-sets.md)
+   * Vorm **bedrijfsregels** om te vermijden oversolicitating uw ontvangers. [Meer informatie](../conflict-prioritization/rule-sets.md)
 
    * Bepaal welk e-mailadres en/of telefoonnummer als prioriteit voor uw ontvangers moet worden gebruikt wanneer er in Adobe Experience Platform verschillende adressen/nummers beschikbaar zijn. [Meer informatie](primary-email-addresses.md)

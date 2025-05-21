@@ -4,13 +4,12 @@ product: journey optimizer
 title: Uw aangepaste provider configureren
 description: Leer hoe u uw omgeving configureert voor het verzenden van tekstberichten met Journey Optimizer via een aangepaste provider
 feature: SMS, Channel Configuration
-badge: label="Beta" type="Informative"
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: fc78fcfb0f2ce3616cb8b1df44dda2cfd66262fe
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -32,25 +31,22 @@ ht-degree: 0%
 >title="Payload van provider"
 >abstract="Geef de lading van de aanvraag op om ervoor te zorgen dat de juiste gegevens worden verzonden voor het genereren van de verwerking en reactie."
 
->[!AVAILABILITY]
->
->Aangepaste providers zijn momenteel alleen beschikbaar als bètaversie voor geselecteerde gebruikers. Vraag uw Adobe-vertegenwoordiger om deel te nemen aan de Beta.
->In deze Beta worden binnenkomende berichten voor het beheer van de opt-in- of opt-out-toestemming en voor de rapportage van de levering niet ondersteund.
-
-
 Deze eigenschap machtigt u om uw eigen leveranciers van SMS te integreren en te vormen, die flexibiliteit voorbij de standaardleveranciers (Sinch, Twilio, en Infobip) aanbieden. Dit maakt naadloos SMS-schrijven, levering, rapportage en beheer van de toestemming mogelijk.
 
-Met de aangepaste leveranciersconfiguratie voor SMS kunt u:
+Met de aangepaste providerconfiguratie voor SMS kunt u aangepaste SMS-providers rechtstreeks in Journey Optimizer configureren, geavanceerde aanpassingen van de payload gebruiken voor dynamisch berichten en de voorkeuren voor machtigingen (opt-in/opt-out) beheren om naleving te garanderen.
 
-* Configureer aangepaste SMS-providers rechtstreeks in Journey Optimizer.
-* Geavanceerde aanpassing van de payload gebruiken voor dynamisch overseinen.
-* Beheer de voorkeuren voor toestemming (opt-in/opt-out) om naleving te garanderen.
+Volg onderstaande stappen om uw aangepaste SMS-provider te configureren:
+
+1. [API-referentie maken](#api-credential)
+1. [Webhaak maken](#webhook)
+1. [Kanaalconfiguratie maken](sms-configuration-surface.md)
+1. [Reis of Campagne maken met SMS-kanaalactie](create-sms.md)
 
 ## Uw API-referentie maken {#api-credential}
 
 Voer de volgende stappen uit als u berichten wilt verzenden in Journey Optimizer via een aangepaste provider die niet vanuit de doos beschikbaar is door Adobe (bijv. Sinch, Infobip, Twilio):
 
-1. Navigeer in de linkertrack naar **[!UICONTROL Administration]** `>` **[!UICONTROL Channels]** , selecteer het menu **[!UICONTROL API Credentials]** en klik op de knop **[!UICONTROL Create new API credentials]** .
+1. Navigeer in de linkertrack naar **[!UICONTROL Administration]** `>` **[!UICONTROL Channels]** , selecteer het menu **[!UICONTROL API Credentials]** onder **[!UICONTROL SMS settings]** en klik op de knop **[!UICONTROL Create new API credentials]** .
 
    ![](assets/sms_byo_1.png)
 
@@ -78,20 +74,9 @@ Voer de volgende stappen uit als u berichten wilt verzenden in Journey Optimizer
 
 1. Voeg uw **[!UICONTROL Provider Payload]** toe om uw verzoeklading te bevestigen en aan te passen.
 
-   U kunt uw lading dynamisch personaliseren gebruikend profielattributen, en ervoor zorgen wordt de nauwkeurige gegevens verzonden voor verwerking en reactiegeneratie met de hulp van ingebouwde hulpfuncties.
-<!--
-1. Add your **Inbound settings** to determine how your system handles incoming messages and subscriber preferences: 
-
-    * **[!UICONTROL Inbound Webhook URL]**: Specify the endpoint URL where inbound messages (e.g. replies or new messages from users) are sent.
-    * **[!UICONTROL Opt-in Keywords]**: Enter the default or custom keywords that will automatically trigger your Opt-In Message. For multiple keywords, use comma-separated values.
-    * **[!UICONTROL Opt-in Message]**: Enter the custom response that is automatically sent as your Opt-In Message.
-    * **[!UICONTROL Opt-out Keywords]**: Enter the default or custom keywords that will automatically trigger your Opt-Out Message. For multiple keywords, use comma-separated values.
-    * **[!UICONTROL Opt-out Message]**: Enter the custom response that is automatically sent as your Opt-Out Message.
--->
-
 1. Klik op **[!UICONTROL Submit]** wanneer u de configuratie van uw API-referenties hebt voltooid.
 
-1. Klik in het menu **[!UICONTROL API Credentials]** op het binpictogram om uw API-referenties te verwijderen.
+1. In het **[!UICONTROL API Credentials]** menu, klik het ![ bakpictogram ](assets/do-not-localize/Smock_Delete_18_N.svg) om uw API geloofsbrieven te schrappen.
 
    ![](assets/sms_byo_3.png)
 
@@ -99,9 +84,7 @@ Voer de volgende stappen uit als u berichten wilt verzenden in Journey Optimizer
 
    ![](assets/sms_byo_4.png)
 
-Nadat u de API-referentie hebt gemaakt en geconfigureerd, moet u nu een kanaaloppervlak voor SMS-berichten maken. [Meer informatie](sms-configuration-surface.md)
-
-Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zoals bericht creatie, verpersoonlijking, verbinding het volgen, en rapportering.
+Na het creëren van en het vormen van uw API geloofsbrieven, moet u nu opstelling [ de binnenkomende montages voor Webhaak ](#webhook) voor de berichten van SMS.
 
 ### Verificatieopties voor aangepaste SMS-providers {#auth-options}
 
@@ -160,6 +143,59 @@ Zodra uw API-referentie is gemaakt, vult u de velden in die vereist zijn voor JW
 
 >[!ENDTABS]
 
-## Hoe kan ik-video {#video}
+## Webhaak maken {#webhook}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443612?captions=dut)
+>[!BEGINSHADEBOX]
+
+Als de trefwoorden opt-in of opt-out niet worden opgegeven, worden standaardtoestemmingsberichten gebruikt om de privacy van de gebruiker te respecteren. Als u aangepaste trefwoorden toevoegt, worden de standaardwaarden automatisch genegeerd.
+
+**Standaardsleutelwoorden:**
+
+* **Opt-binnen**: ABONNEMENT, JA, ONSTOP, BEGIN, DOORGAAN, HERVATTEN, BEGINNEN
+* **Opt-out**: STOP, SLUIT, ANNULEREN, EINDE, ONABONNEMENT, GEEN
+* **Hulp**: HELP
+
+>[!ENDSHADEBOX]
+
+Nadat de API-referenties zijn gemaakt, kunt u nu een webhaak maken en de inkomende instellingen configureren. Deze configuratie zorgt ervoor dat uw systeem inkomende gegevens of berichten behoorlijk kan ontvangen en verwerken.
+
+1. Navigeer in de linkertrack naar **[!UICONTROL Administration]** `>` **[!UICONTROL Channels]** , selecteer het menu **[!UICONTROL SMS Webhooks]** onder **[!UICONTROL SMS settings]** en klik op de knop **[!UICONTROL Create Webhook]** .
+
+   ![](assets/sms_byo_5.png)
+
+1. Configureer uw WebHaak-instellingen, zoals hieronder wordt beschreven:
+
+   * **[!UICONTROL Name]**: ga een naam voor uw Webhaak in.
+
+   * **[!UICONTROL Select SMS vendor]**: Aangepast.
+
+   * **[!UICONTROL Select API credentials]**: Kies van drop-down u [ eerder gevormde API geloofsbrieven ](#api-credential).
+
+   * **[!UICONTROL Opt-in Keywords]**: voer de standaardtrefwoorden of aangepaste trefwoorden in die automatisch uw aanmeldingsbericht activeren. Gebruik voor meerdere trefwoorden door komma&#39;s gescheiden waarden.
+
+   * **[!UICONTROL Opt-in Message]**: voer de aangepaste reactie in die automatisch wordt verzonden als uw aanmeldingsbericht.
+
+   * **[!UICONTROL Opt-out Keywords]**: voer de standaardtrefwoorden of aangepaste trefwoorden in die automatisch het bericht Uitschakelen activeren. Gebruik voor meerdere trefwoorden door komma&#39;s gescheiden waarden.
+
+   * **[!UICONTROL Opt-out Message]**: voer de aangepaste reactie in die automatisch wordt verzonden als uw uitgaande bericht.
+
+   ![](assets/sms_byo_6.png)
+
+1. Klik op **[!UICONTROL View payload editor]** om uw aanvraag te valideren en aan te passen.
+
+   U kunt uw lading dynamisch personaliseren gebruikend profielattributen, en ervoor zorgen wordt de nauwkeurige gegevens verzonden voor verwerking en reactiegeneratie met de hulp van ingebouwde hulpfuncties.
+
+1. Klik **[!UICONTROL Submit]** wanneer u de configuratie van uw Webhaak voltooide.
+
+1. In het **[!UICONTROL Webhooks]** menu, klik het ![ bakpictogram ](assets/do-not-localize/Smock_Delete_18_N.svg) om uw Webhaak te schrappen.
+
+1. Als u de bestaande configuratie wilt wijzigen, zoekt u de gewenste Webhaak en klikt u op de optie **[!UICONTROL Edit]** om de gewenste wijzigingen aan te brengen.
+
+1. Open en kopieer uw nieuwe **[!UICONTROL Webhook URL]** vanuit uw eerder verzonden **[!UICONTROL Webhook]** .
+
+   ![](assets/sms_byo_7.png)
+
+Na het creëren van en het vormen van de binnenkomende montages voor Webhaak, moet u nu a [ kanaalconfiguratie ](sms-configuration-surface.md) voor de berichten van SMS tot stand brengen.
+
+Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zoals bericht creatie, verpersoonlijking, verbinding het volgen, en rapportering.
+
