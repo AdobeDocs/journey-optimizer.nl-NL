@@ -7,29 +7,29 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 7558d323f73382b8cb40b45eb9d79ca037eb574d
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Toegankelijkheid in Journey Optimizer{#accessibility}
 
-Toegankelijkheid heeft betrekking op een reeks functies die een softwareproduct zo weinig mogelijk bruikbaar maken voor gebruikers met een visuele, auditieve, cognitieve, motorische of andere handicap. Adobe is een toonaangevende sector op het gebied van toegankelijkheid en ondersteunt het creëren van uitstekende webervaringen door ontwikkelaars aan te moedigen rijke, aantrekkelijke inhoud te produceren die voor alle gebruikers toegankelijk is. Meer informatie over de betrokkenheid van de Adobe bij toegankelijkheid vindt u in de [Toegankelijkheidspagina voor Adobe](https://www.adobe.com/accessibility.html){target="_blank"}.
+Toegankelijkheid heeft betrekking op een reeks functies die een softwareproduct zo weinig mogelijk bruikbaar maken voor gebruikers met een visuele, auditieve, cognitieve, motorische of andere handicap. Adobe is marktleider op het gebied van toegankelijkheid en ondersteunt het creëren van uitstekende webervaringen door ontwikkelaars aan te moedigen rijke, aantrekkelijke inhoud te produceren die voor alle gebruikers toegankelijk is. Leer meer over Adobe toewijding aan toegankelijkheid in de [ pagina van de Toegankelijkheid van Adobe ](https://www.adobe.com/accessibility.html){target="_blank"}.
 
-Om het doel van toegankelijkheidsconformiteit te helpen bereiken, [!DNL Journey Optimizer] volgt de internationaal erkende beste praktijken in de Web Content Accessibility Guidelines (WCAG) 2.1 Niveau A en Niveau AA. Meer informatie in de nieuwste [Toegankelijkheidsrapport van Adobe Journey Optimizer](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer-2022.html){target="_blank"}.
+Om het doel van toegankelijkheidsconformiteit te helpen bereiken, volgt [!DNL Journey Optimizer] de internationaal erkende beste praktijken in de Richtlijnen van de Toegankelijkheid van de Inhoud van het Web (WCAG) 2.1 Niveau A en Niveau AA. Leer meer in het recentste [ Rapport van de Conformiteit van de Toegankelijkheid van Adobe Journey Optimizer ](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer.html){target="_blank"}.
 
 
-De toegankelijkheidsfuncties in [!DNL Adobe Journey Optimizer] zijn overgenomen van Adobe Experience Platform:
+De toegankelijkheidsfuncties in [!DNL Adobe Journey Optimizer] worden overgenomen van Adobe Experience Platform:
 
 * Toegankelijkheid toetsenbord
 * Kleurcontrast
 * Validatie van vereiste velden
 
-De toegankelijkheidsfuncties in Adobe Experience Platform zijn uitgebreid [in deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=nl-NL){target="_blank"}.
+De eigenschappen van de toegankelijkheid in Adobe Experience Platform zijn gedetailleerd [ in deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target="_blank"}.
 
-De volgende algemene sneltoetsen zijn beschikbaar in [!DNL Journey Optimizer]:
+De volgende algemene sneltoetsen zijn beschikbaar in [!DNL Journey Optimizer] :
 
 | Actie | Sneltoets |
 | --- | --- |
@@ -39,7 +39,7 @@ De volgende algemene sneltoetsen zijn beschikbaar in [!DNL Journey Optimizer]:
 | Een element dat de focus heeft selecteren of wissen | Enter of spatiebalk |
 | Een selectie annuleren, een deelvenster samenvouwen of een dialoogvenster sluiten | Esc |
 
-U kunt deze sneltoetsen gebruiken in specifieke gebieden van [!DNL Journey Optimizer] gebruikersinterface:
+U kunt deze sneltoetsen gebruiken in specifieke gebieden van de gebruikersinterface van [!DNL Journey Optimizer] :
 
 <table>
   <thead>
@@ -56,7 +56,7 @@ U kunt deze sneltoetsen gebruiken in specifieke gebieden van [!DNL Journey Optim
   </tr>
   <tr>
     <td>Alle activiteiten selecteren</td>
-    <td>CTRL + A (Windows)<br/>CMD + A (Mac)</td>
+    <td>CTRL + A (Vensters) <br/> CMD + A (Mac)</td>
   </tr>
   <tr>
     <td>Geselecteerde activiteiten verwijderen</td>
@@ -113,7 +113,7 @@ U kunt deze sneltoetsen gebruiken in specifieke gebieden van [!DNL Journey Optim
   <tr>
     <td>Tekstveld</td>
     <td>Alle tekst in het geselecteerde veld selecteren</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+    <td>CTRL + A (Vensters) <br/> Bevel + A (Mac)</td>
   </tr>
   <tr>
     <td rowspan="2">Pop-upvenster</td>
@@ -137,6 +137,6 @@ U kunt deze sneltoetsen gebruiken in specifieke gebieden van [!DNL Journey Optim
   <tr>
     <td>Payloadvoorbeeld</td>
     <td>Selecteer de lading</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+    <td>CTRL + A (Vensters) <br/> Bevel + A (Mac)</td>
   </tr>
 </table>
