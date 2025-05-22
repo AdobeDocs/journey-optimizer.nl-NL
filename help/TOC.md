@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
+source-git-commit: 7f09e78c153955fb481b94701e55a0f9e77e7dd6
 workflow-type: tm+mt
-source-wordcount: '2378'
+source-wordcount: '2377'
 ht-degree: 21%
 
 ---
@@ -175,7 +175,7 @@ ht-degree: 21%
 + Geordende campagnes {#orchestrated-campaigns}
    + [Aan de slag met georkestreerde campagnes](using/ms/gs-ms-campaigns.md)
    + [Belangrijkste beginselen](using/ms/gs-campaign-creation.md)
-   + [ Stappen om georkestreerde campagnes  te creëren](using/ms/gs-campaign-steps.md)
+   + [ Stappen om georkestreerde campagnes ](using/ms/gs-campaign-steps.md) te creëren
    + Configuratiestappen {#ms-config}
       + [Relationele schema&#39;s maken](using/ms/ms-schemas.md)
    + Aanmaakstappen{#create-ms-campaign}
@@ -288,7 +288,7 @@ ht-degree: 21%
          + [Sinch-provider configureren](using/sms/sms-configuration-sinch.md)
          + [Infobip-provider configureren](using/sms/sms-configuration-infobip.md)
          + [Twilio-provider configureren](using/sms/sms-configuration-twilio.md)
-         + [Een aangepaste provider configureren (Beta)](using/sms/sms-configuration-custom.md)
+         + [Een aangepaste provider configureren](using/sms/sms-configuration-custom.md)
          + [Een SMS-configuratie maken](using/sms/sms-configuration-surface.md)
    + Direct mail {#direct-mail}
       + [Aan de slag met direct mail](using/direct-mail/get-started-direct-mail.md)
@@ -356,7 +356,7 @@ ht-degree: 21%
          + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [ gegevens van Adobe Experience Platform van het Gebruik voor verpersoonlijking (Beta) ](using/personalization/lookup-aep-data.md)
@@ -701,7 +701,7 @@ ht-degree: 21%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
    + [Uw kanalen configureren](using/configuration/get-started-configuration.md)
