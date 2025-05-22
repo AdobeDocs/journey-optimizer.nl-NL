@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: extern, API, optimaliseren, aftopping
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
+source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 49%
+source-wordcount: '1025'
+ht-degree: 48%
 
 ---
 
@@ -79,6 +79,10 @@ Voorbeeld:
   "maxThroughput": 4000
 }
 ```
+
+>[!IMPORTANT]
+>
+>De configuratie zal slechts actief na het roepen van **** eindpunt opstellen.
 
 ## Fouten
 
@@ -339,7 +343,7 @@ API-aanroepen voor gebruik:
 
 +++
 
-+++ schrap een opgestelde throttingconfiguratie
+++ + schrap een opgestelde throttingconfiguratie
 
 In slechts één API-aanroep kunt u de configuratie met behulp van de parameter `forceDelete` verwijderen en de implementatie ervan ongedaan maken.
 
@@ -350,7 +354,7 @@ API-aanroepen voor gebruik:
 
 +++
 
-+++ Update een reeds opgezette throttingconfiguratie
+++ + Update een reeds opgezette throttingconfiguratie
 
 >[!NOTE]
 >

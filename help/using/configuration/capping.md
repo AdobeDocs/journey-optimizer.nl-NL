@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: extern, API, optimaliseren, aftopping
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
+source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '736'
 ht-degree: 6%
 
 ---
@@ -96,6 +96,10 @@ Voorbeeld:
 }
 ```
 
+>[!IMPORTANT]
+>
+>De configuratie zal slechts actief na het roepen van **** eindpunt opstellen.
+
 ## Waarschuwing en fouten
 
 Wanneer a **canDeploy** methode wordt geroepen, bevestigt het proces de configuratie en keert de bevestigingsstatus terug die door zijn Unieke identiteitskaart wordt geïdentificeerd, of:
@@ -160,7 +164,7 @@ API-aanroepen voor gebruik:
 
 +++
 
-+++ verwijder een geïmplementeerde uitlijningsconfiguratie in één stap
+++ + verwijder een geïmplementeerde uitlijningsconfiguratie in één stap
 
 In slechts één API-aanroep kunt u de configuratie met behulp van de parameter `forceDelete` verwijderen en de implementatie ervan ongedaan maken.
 
@@ -171,7 +175,7 @@ API-aanroepen voor gebruik:
 
 +++
 
-+++ Werk een reeds opgezette het maximum configuratie bij
+++ + Werk een reeds opgezette het maximum configuratie bij
 
 >[!NOTE]
 >
