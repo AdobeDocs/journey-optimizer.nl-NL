@@ -98,7 +98,7 @@ Voorbeeld:
 
 >[!IMPORTANT]
 >
->De configuratie zal slechts actief na het roepen van **** eindpunt opstellen.
+>De configuratie zal slechts actief na het roepen van **&#x200B;**&#x200B;eindpunt opstellen.
 
 ## Waarschuwing en fouten
 
@@ -164,7 +164,7 @@ API-aanroepen voor gebruik:
 
 +++
 
-++ + verwijder een geïmplementeerde uitlijningsconfiguratie in één stap
++++ verwijder een geïmplementeerde uitlijningsconfiguratie in één stap
 
 In slechts één API-aanroep kunt u de configuratie met behulp van de parameter `forceDelete` verwijderen en de implementatie ervan ongedaan maken.
 
@@ -175,7 +175,7 @@ API-aanroepen voor gebruik:
 
 +++
 
-++ + Werk een reeds opgezette het maximum configuratie bij
++++ Werk een reeds opgezette het maximum configuratie bij
 
 >[!NOTE]
 >
