@@ -52,10 +52,10 @@ Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
 
 * De groepen van het de gebeurtenisgebied van de ervaring kunnen niet in ritten worden gebruikt die met a **Gelezen Publiek**, a **de Kwalificatie van het Publiek** of a **BedrijfsGebeurtenis** activiteit beginnen.
 
-* Wanneer het gebruiken van de Kwalificatie van het publiek **activiteit van het 0} {in een reis, kan die activiteit tot 10 minuten duren om actief te zijn en aan profielen te luisteren die of het publiek ingaan weggaan.**
+* Wanneer het gebruiken van de Kwalificatie van het publiek **activiteit van het 0&rbrace; &lbrace;in een reis, kan die activiteit tot 10 minuten duren om actief te zijn en aan profielen te luisteren die of het publiek ingaan weggaan.**
 
 
-Zie ook ](#best-practices-segments) hieronder de beste praktijken van de Kwalificatie van het publiek 0}.[
+Zie ook [&#128279;](#best-practices-segments) hieronder de beste praktijken van de Kwalificatie van het publiek 0&rbrace;.
 
 ### De activiteit configureren {#configure-segment-qualification}
 
