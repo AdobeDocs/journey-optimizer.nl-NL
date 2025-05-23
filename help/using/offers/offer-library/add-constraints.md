@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7f035141092d12af8eac96cf43c9021939a55883
 workflow-type: tm+mt
-source-wordcount: '2638'
+source-wordcount: '2628'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,8 @@ Als u bijvoorbeeld de volgende beperkingen instelt:
 >id="od_offer_eligibility"
 >title="Geschiktheid voor aanbieding"
 >abstract="In deze sectie kunt u besluitvormingsregels gebruiken om te bepalen welke gebruikers in aanmerking komen voor de aanbieding."
->additional-url="https://video.tv.adobe.com/v/329373" text="Demovideo bekijken"
+
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -103,7 +104,7 @@ In de sectie **[!UICONTROL Offer eligibility]** kunt u het aanbod beperken tot s
 
   >[!CAUTION]
   >
-  >Aanbiedingen op basis van gebeurtenissen worden momenteel niet ondersteund in [!DNL Journey Optimizer] . Als u een besluitvormingsregel creeert die op een [ wordt gebaseerd gebeurtenis ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=nl-NL#events){target="_blank"}, zult u niet het in een aanbieding kunnen hefboomwerking geven.
+  >Aanbiedingen op basis van gebeurtenissen worden momenteel niet ondersteund in [!DNL Journey Optimizer] . Als u een besluitvormingsregel creeert die op een [ wordt gebaseerd gebeurtenis ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, zult u niet het in een aanbieding kunnen hefboomwerking geven.
 
 Wanneer u publiek of beslissingsregels selecteert, kunt u informatie over de geschatte gekwalificeerde profielen zien. Klik op **[!UICONTROL Refresh]** om gegevens bij te werken.
 
@@ -142,7 +143,8 @@ In feite is de uitvoer van een publiek een lijst met profielen, terwijl een besl
 >id="ajo_decisioning_capping"
 >title="Afbeelding gebruiken"
 >abstract="Als u wilt voorkomen dat uw klanten te veel vragen, gebruikt u de optie Afdekken om het maximumaantal keren te bepalen dat een aanbieding kan worden gepresenteerd. U kunt maximaal 10 plafondregels voor een bepaalde aanbieding maken."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html?lang=nl-NL#capping-change-date" text="Het wijzigen van datums kan invloed hebben op de plafondfunctie"
+
+<!--additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="Changing dates can impact capping"-->
 
 Afkappen wordt gebruikt als beperking om het maximumaantal keren te bepalen dat een aanbieding kan worden voorgesteld. Door het aantal keren dat gebruikers specifieke aanbiedingen krijgen te beperken, kunt u voorkomen dat uw klanten te veel vragen en zo elk aanraakpunt optimaliseren met de beste aanbieding.
 
@@ -306,7 +308,7 @@ Als u verscheidene [ vertegenwoordigingen ](add-representations.md) voor uw aanb
 
 U moet voorzichtig te werk gaan wanneer u de datum van een aanbieding wijzigt, omdat dit van invloed kan zijn op de aftopping als aan de volgende voorwaarden wordt voldaan:
 
-* De aanbieding wordt goedgekeurd [&#128279;](#review).
+* De aanbieding wordt goedgekeurd [ ](#review).
 * [ Aftappen ](#capping) wordt reeds toegepast op de aanbieding.
 * Afdekkingen worden gedefinieerd per profiel.
 
