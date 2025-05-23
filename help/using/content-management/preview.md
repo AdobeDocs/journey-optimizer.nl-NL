@@ -5,26 +5,18 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+source-git-commit: aa28d13b2ad874e4dc61510bfdc250415e8e8be1
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '246'
 ht-degree: 2%
 
 ---
 
 # Inhoud voorvertonen met testprofielen {#preview}
 
-<!--## Preview your content {#preview-content}-->
+Zodra [ testprofielen ](test-profiles.md) zijn geselecteerd, kunt u voorproef uw inhoud gebruikend hun gegevens. Voer de volgende stappen uit:
 
-Zodra [ testprofielen ](test-profiles.md) worden bepaald, kunt u voorproef uw inhoud.
-
->[!NOTE]
->
->Met [!DNL Journey optimizer] kunt u ook verschillende varianten van uw inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [ Leer hoe te om uw inhoud te testen gebruikend de gegevens van de steekproefinput ](../test-approve/simulate-sample-input.md)
-
-Voer de volgende stappen uit om een voorvertoning van de inhoud weer te geven met testprofielen:
-
-1. Klik op de knop **[!UICONTROL Simulate content]** in het scherm Inhoud bewerken van uw bericht of in de Designer-e-mail.
+1. Klik in het scherm Inhoud bewerken van uw bericht of in de Designer-e-mail op de knop **[!UICONTROL Simulate content]** en selecteer **[!UICONTROL Sumulaye content]** .
 
 1. Selecteer een testprofiel. U kunt de waarden controleren die beschikbaar zijn in de kolommen. Gebruik de pijl-rechts/pijl-links om door gegevens te bladeren.
 
@@ -46,9 +38,12 @@ Voer de volgende stappen uit om een voorvertoning van de inhoud weer te geven me
 
 1. Selecteer andere testprofielen om een voorbeeld van uw e-mail te bekijken voor elke variant van uw bericht.
 
->[!NOTE]
->
->Als een fout in de configuratiedetails wordt gevonden, klik de **[!UICONTROL View configuration details]** knoop. [Meer informatie](../email/surface-personalization.md#check-configuration)
+   >[!NOTE]
+   >
+   >Als een fout in de configuratiedetails wordt gevonden, klik de **[!UICONTROL View configuration details]** knoop. [Meer informatie](../email/surface-personalization.md#check-configuration)
 
 Wanneer u code-gebaseerde ervaringen maakt, kunt u een voorvertoning van uw gepersonaliseerde inhoud direct op uw browser of op uw mobiele apparaten bekijken voor een echte simulatie. [Meer informatie](../code-based/test-code-based.md#preview-on-device)
 
+>[!NOTE]
+>
+>Met [!DNL Journey optimizer] kunt u ook verschillende varianten van uw inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [ leer hoe te om inhoudvariaties ](../test-approve/simulate-sample-input.md) te simuleren

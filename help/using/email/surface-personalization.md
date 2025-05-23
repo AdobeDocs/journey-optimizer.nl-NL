@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie, subdomein
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: c0e8d80cac202fb463aa95b4a536146679e6567f
+source-git-commit: a5bd1e92b3696a7de2c44522099d54bc6e1e00ab
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
@@ -166,7 +166,7 @@ Wanneer u een gepersonaliseerde configuratie gebruikt in een campagne of een rit
 
 >[!NOTE]
 >
->Naast testprofielen kunt u met [!DNL Journey optimizer] ook verschillende varianten van de inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [ Leer hoe te om uw inhoud te testen gebruikend de gegevens van de steekproefinput ](../test-approve/simulate-sample-input.md)
+>Naast testprofielen kunt u met [!DNL Journey optimizer] ook verschillende varianten van de inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [ leer hoe te om inhoudvariaties ](../test-approve/simulate-sample-input.md) te simuleren
 
 Voer de volgende stappen uit om een voorvertoning van de inhoud weer te geven met testprofielen:
 

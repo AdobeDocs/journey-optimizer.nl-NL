@@ -5,25 +5,22 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-source-git-commit: 80935cc31ef88a322c2dd555fc8998935c6e5621
+source-git-commit: aa28d13b2ad874e4dc61510bfdc250415e8e8be1
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
-# E-mailproefdrukken verzenden {#send-proofs}
+# Proefdrukken verzenden met gegevens van testprofielen {#send-proofs}
 
 Een proef is een specifiek bericht dat u toestaat om een bericht te testen alvorens het naar het belangrijkste publiek te verzenden. Ontvangers van de proefdruk zijn verantwoordelijk voor het goedkeuren van het bericht: rendering, content, personalisatie-instellingen, configuratie.
 
-In [!DNL Journey optimizer] kunt u ook verschillende varianten van de inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [ Leer hoe te om uw inhoud te testen gebruikend de gegevens van de steekproefinput ](../test-approve/simulate-sample-input.md)
-
->[!PREREQUISITES]
+>[!NOTE]
 >
->Om proeven te verzenden, moet u **toestemmingen voor het specifieke middel (campagne of reis) verbonden aan e-mail goedkeuren en hebben publiceren.** Bovendien om proeven in een reis te verzenden, wordt de **Publish reis** toestemming ook vereist. [ leer meer over toestemmingen ](../administration/ootb-permissions.md).
+>Met [!DNL Journey optimizer] kunt u ook verschillende varianten van uw inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [ leer hoe te om inhoudvariaties ](../test-approve/simulate-sample-input.md) te simuleren
 
-
-Om e-mailproeven te verzenden, moet u [ testprofielen ](test-profiles.md) eerst selecteren. Voer vervolgens de volgende stappen uit:
+Om e-mailproeven te verzenden die de gegevens van testprofielen gebruiken, moet u [ testprofielen ](test-profiles.md) eerst selecteren. Voer vervolgens de volgende stappen uit:
 
 1. Klik in het **[!UICONTROL Simulate]** -scherm op de knop **[!UICONTROL Send proof]** .
 

@@ -5,9 +5,9 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: aa28d13b2ad874e4dc61510bfdc250415e8e8be1
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,6 @@ ht-degree: 0%
 >title="Controleren hoe uw inhoud wordt gerenderd"
 >abstract="Nadat u de inhoud hebt gedefinieerd, kunt u deze voorvertonen en controleren of de rendering correct is volgens het kanaal dat u gebruikt."
 
-## Voorvertoning en testen {#about}
-
 Nadat u de inhoud hebt gedefinieerd, kunt u de inhoud ervan voorvertonen voordat u het bericht verzendt. Dit is een cruciale stap om ervoor te zorgen dat deze accuraat is, maar ook vrij van fouten in zowel de inhoud als de personalisatie-instellingen.
 
 U kunt ook testleveringen van uw e-mailberichten naar specifieke ontvangers of abonnees verzenden voor tests en validatie, en hun rendering controleren bij populaire desktops, mobiele en webclients.
@@ -34,48 +32,40 @@ Al deze handelingen kunnen worden uitgevoerd met de knop **[!UICONTROL Simulate 
 
 ![](../email/assets/email-preview-button.png)
 
-U moet de machtiging **[!DNL Manage Simulate Content]** opnemen in het productprofiel van **[!DNL Content Library Manager]** . [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager).
+## Testen met behulp van testprofielen, gegevens of gegevens uit de voorbeeldinvoer {#methods}
 
+Journey Optimizer biedt twee mogelijkheden om uw inhoud te testen:
 
->[!CAUTION]
->
->* Wanneer u een bericht voorvertoont of proefdrukken verzendt, worden alleen profielverpersoonlijkingsgegevens weergegeven. Personalization op basis van contextgegevens, zoals informatie over gebeurtenissen, kan alleen worden getest in het kader van een reis. Leer hoe te om verpersoonlijking in [ te testen dit gebruiksgeval ](../personalization/personalization-use-case.md).
->
->* Bij het simuleren of renderen van proefdrukken voor e-mails die meerdere voorwaardelijke varianten bevatten, kan Journey Optimizer meer verwerkingstijd nodig hebben. Als u time-outs of foutberichten ervaart, kunt u overwegen het totale aantal varianten te verminderen of voorwaardelijke regels te vereenvoudigen. Leer meer over voorwaardelijke inhoud op [ deze pagina ](../personalization/dynamic-content.md).
+* **het Testen inhoud gebruikend de gegevens van testprofielen**
 
-
-## Testen met testprofielen of gegevens uit de voorbeeldinvoer {#methods}
-
-U kunt de inhoud voorvertonen en testen met:
-
-* **Testprofielen**
-
-  Gebruik testprofielen om een voorvertoning van uw inhoud weer te geven, proefdrukken per e-mail te verzenden en het renderen van e-mail te controleren. Als u persoonlijke velden hebt toegevoegd, kunt u controleren hoe deze worden weergegeven met behulp van de gegevens van het testprofiel. Raadpleeg de volgende secties voor meer informatie:
+  U kunt testprofielen gebruiken om een voorvertoning van uw inhoud weer te geven, e-mailproefdrukken te verzenden en het renderen van e-mail te controleren. Als u persoonlijke velden hebt toegevoegd, kunt u controleren hoe deze worden weergegeven met de gegevens van het testprofiel. Raadpleeg de volgende secties voor meer informatie:
 
   ➡️ [ Uitgezochte testprofielen ](test-profiles.md)
+➡️ [ Voorproef gebruikend testprofielen ](preview.md)
+➡️ [ verzend e-mailproef ](proofs.md)
+➡️ [ e-mailteruggave van de Controle ](rendering.md)
+➡️ [ Voorproef &amp; proef uw e-mail (video) ](#video-preview)
 
-  ➡️ [ Voorproef uw inhoud gebruikend testprofielen ](preview.md)
+* **het Testen inhoudsvariaties gebruikend de gegevens van de steekproefinput**
 
-  ➡️ [ verzendt e-mailproef ](proofs.md)
-
-  ➡️ [ e-mailteruggevende controle ](rendering.md)
-
-  ➡️ [ Voorproef &amp; proef uw e-mail (video) ](#video-preview)
-
-* **de inputgegevens van de Steekproef**
-
-  Met [!DNL Journey optimizer] kunt u verschillende varianten van uw inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd.
+  Met [!DNL Journey optimizer] kunt u proefdrukken voor verschillende variaties van uw inhoud weergeven en verzenden met voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd.
 
   Alle profielkenmerken die in de inhoud worden gebruikt voor personalisatie worden automatisch gedetecteerd door het systeem en kunnen worden gebruikt voor uw tests om meerdere varianten te maken.
 
-  ➡️ [ leren hoe te om uw inhoud te testen gebruikend de gegevens van de steekproefinput ](../test-approve/simulate-sample-input.md)
+  ➡️ [ simuleer inhoudsvariaties ](../test-approve/simulate-sample-input.md)
 
-  >[!NOTE]
-  >
-  >Deze functies zijn momenteel alleen beschikbaar voor alle klanten als een openbare bètaversie voor de communicatiekanalen E-mail, SMS en Push.
+## Lees hier meer
+
+* **Vereiste toestemmingen** - u moet de **[!DNL Manage Simulate Content]** toestemming hebben inbegrepen in het **[!DNL Content Library Manager]** productprofiel. [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager).
+
+  Om proeven te verzenden, moet u **toestemmingen voor het specifieke middel (campagne of reis) verbonden aan e-mail goedkeuren en hebben publiceren.** Bovendien om proeven in een reis te verzenden, wordt de **Publish reis** toestemming ook vereist. [ leer meer over toestemmingen ](../administration/ootb-permissions.md).
+
+* **Personalization met contextgegevens** - wanneer het previewing van een bericht of het verzenden van proeven, slechts worden de gegevens van de profielverpersoonlijking getoond. Personalization op basis van contextgegevens, zoals informatie over gebeurtenissen, kan alleen worden getest in het kader van een reis. Leer hoe in [ dit gebruiksgeval ](../personalization/personalization-use-case.md).
+
+* **inhoud van de Voorproef met veelvoudige voorwaardelijke varianten** - wanneer het simuleren of het teruggeven van proeven voor e-mail die veelvoudige voorwaardelijke varianten bevatten, Journey Optimizer kan meer verwerkingstijd vereisen. Als u time-outs of foutberichten ervaart, kunt u overwegen het totale aantal varianten te verminderen of voorwaardelijke regels te vereenvoudigen. Leer meer over voorwaardelijke inhoud op [ deze pagina ](../personalization/dynamic-content.md).
 
 ## Hoe kan ik-video {#video-preview}
 
 Leer hoe u testprofielen kunt gebruiken om het renderen van e-mail in verschillende vakken te testen, een voorbeeld van uw persoonlijke e-mails te bekijken op basis van testprofielen en proefdrukken te verzenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430341?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

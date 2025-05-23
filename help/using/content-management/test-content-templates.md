@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 01726ab6-f581-4d19-aedd-2541bc0f27c6
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,10 @@ U kunt de rendering van sommige van uw e-mailsjablonen testen, ongeacht of deze 
 1. Klik op **[!UICONTROL Simulate Content]** en selecteer een testprofiel om de rendering te controleren. [Meer informatie](../content-management/preview-test.md)
 
    ![](assets/content-template-stimulate.png)
+
+   >[!NOTE]
+   >
+   >Met [!DNL Journey optimizer] kunt u ook verschillende varianten van uw inhoudssjablonen testen door deze te bekijken en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [ leer hoe te om inhoudvariaties ](../test-approve/simulate-sample-input.md) te simuleren
 
 1. U kunt een bewijs verzenden om uw inhoud te testen en het door sommige interne gebruikers te laten goedkeuren alvorens het in een reis of een campagne te gebruiken.
 

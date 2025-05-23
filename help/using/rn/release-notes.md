@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: eb3879db92d765a71626b6b68299286818d9569b
+source-git-commit: 3ca20bf61a4bd6dc8fa066323291cc804cb09571
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '1058'
 ht-degree: 7%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 7%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## Release-aantekeningen mei &#39;25 {#25-5-rn}
 
@@ -175,23 +175,23 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 </tbody>
 </table>-->
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>Simulate content variations</strong><br/></th>
+<th><strong>Inhoudsvariaties simuleren</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Previously available in beta, content variations simulation is now generally available (GA). It allows you to preview different variations of your content using sample input data uploaded from a CSV or JSON file or added manually. All the attributes used in your content for personalization are automatically detected by the system and can be used for your tests to create multiple variants.</p>
-<p>Previously released in Limited Availability, this capability is now available to all environments. With this General Availability release, the feature now includes support for multilingual content and content experiments, enabling you to test variations across different languages and treatments. Additionally, it now supports contextual attributes (in addition to profile attributes), allowing for even more dynamic and situational content testing.</p>
+<p>Eerder beschikbaar in bèta, is de simulatie van inhoudvariaties nu algemeen beschikbaar (GA). Hiermee kunt u verschillende variaties van uw inhoud voorvertonen met voorbeeldinvoergegevens die vanuit een CSV- of JSON-bestand zijn geüpload of handmatig zijn toegevoegd. Alle kenmerken die in de inhoud voor personalisatie worden gebruikt, worden automatisch door het systeem gedetecteerd en kunnen voor uw tests worden gebruikt om meerdere varianten te maken.</p>
+<p>Eerder uitgebracht in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's. Met deze algemene beschikbaarheidsrelease biedt deze functie nu ondersteuning voor meertalige content en content-experimenten, waarmee u variaties kunt testen in verschillende talen en behandelingen. Bovendien worden nu contextafhankelijke kenmerken ondersteund (naast profielkenmerken), zodat inhoud nog dynamischer en situationeler kan worden getest.</p>
 <img src="assets/do-not-localize/variants.gif">
-<p>For more information, refer to the <a href="../test-approve/simulate-sample-input.md">detailed documentation</a>.</p>
+<p>Raadpleeg de <a href="../test-approve/simulate-sample-input.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
 
 <!--table>
 <thead>

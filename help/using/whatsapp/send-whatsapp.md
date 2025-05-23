@@ -10,9 +10,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
+source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -32,7 +33,7 @@ ht-degree: 0%
 
 ## Een voorvertoning weergeven van uw WhatsApp-bericht {#preview-whatsapp}
 
-Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken of monsters nemen van invoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of die u handmatig hebt toegevoegd om een voorvertoning van de inhoud weer te geven. Als u persoonlijke inhoud hebt ingevoegd, kunt u controleren hoe deze inhoud in het bericht wordt weergegeven. [ Leer hoe te om uw inhoud te testen gebruikend de gegevens van de steekproefinput ](../test-approve/simulate-sample-input.md)
+Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken of monsters nemen van invoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of die u handmatig hebt toegevoegd om een voorvertoning van de inhoud weer te geven. Als u persoonlijke inhoud hebt ingevoegd, kunt u controleren hoe deze inhoud in het bericht wordt weergegeven.
 
 Klik hiertoe op **[!UICONTROL Simulate content]** en controleer het bericht met behulp van de gegevens van het testprofiel.
 

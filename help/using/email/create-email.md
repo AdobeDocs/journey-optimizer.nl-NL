@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: maken, e-mail, starten, reizen, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '889'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Als u een e-mail wilt maken in [!DNL Journey Optimizer] , voegt u een **[!UICONT
 
 >[!BEGINTABS]
 
->[!TAB voeg een e-mail aan een reis  toe]
+>[!TAB  voeg een e-mail aan een reis ] toe
 
 1. Open uw reis en sleep vervolgens een **[!UICONTROL Email]** -activiteit vanuit de **[!UICONTROL Actions]** -sectie van het palet.
 
@@ -156,7 +156,7 @@ Zodra de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken o
 
 >[!NOTE]
 >
->Naast testprofielen kunt u met [!DNL Journey optimizer] ook verschillende varianten van de inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [ Leer hoe te om uw inhoud te testen gebruikend de gegevens van de steekproefinput ](../test-approve/simulate-sample-input.md)
+>Naast testprofielen kunt u met [!DNL Journey optimizer] ook verschillende varianten van de inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [ leer hoe te om inhoudvariaties ](../test-approve/simulate-sample-input.md) te simuleren
 
 Klik hiertoe op **[!UICONTROL Simulate content]** en voeg vervolgens een testprofiel toe om uw bericht te controleren aan de hand van de gegevens van het testprofiel.
 
@@ -168,7 +168,7 @@ Wanneer uw e-mail klaar is, voltooi de configuratie van uw [ reis ](../building-
 
 >[!NOTE]
 >
->Om het gedrag van uw ontvangers door e-mailopeningen en/of interactie te volgen, zorg ervoor dat de specifieke opties in de **[!UICONTROL Tracking]** sectie in de 1&rbrace; e-mailactiviteit van de reis &rbrack;(../building-journeys/journeys-message.md) of in de e-mail [ campagne ](../campaigns/create-campaign.md) worden toegelaten.<!--to move?-->&lbrack;
+>Om het gedrag van uw ontvangers door e-mailopeningen en/of interactie te volgen, zorg ervoor dat de specifieke opties in de **[!UICONTROL Tracking]** sectie in de 1} e-mailactiviteit van de reis ](../building-journeys/journeys-message.md) of in de e-mail [ campagne ](../campaigns/create-campaign.md) worden toegelaten.<!--to move?-->[
 
 <!--
 

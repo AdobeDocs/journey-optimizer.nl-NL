@@ -1,75 +1,96 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Inhoud testen met behulp van voorbeeldinvoergegevens (Beta)
+title: Inhoudsvariaties simuleren
 description: Leer hoe u een voorbeeld van inhoud bekijkt en een e-mailproefdruk verzendt met voorbeeldinvoergegevens uit een CSV- of JSON-bestand of die u handmatig toevoegt.
 feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta" type="Informative"
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
-source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
+source-git-commit: 03b22446ee06b5a6c20145c4b9abed95ac24e8bb
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
 
-# Inhoud testen met behulp van voorbeeldinvoergegevens{#custom-profiles}
+# Inhoudsvariaties simuleren {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="Simuleren met behulp van voorbeeldinvoer"
 >abstract="In dit scherm kunt u verschillende varianten van uw inhoud testen door waarden voor verpersoonlijkingsgebieden door een malplaatje CSV of JSON te verstrekken, of door de waarden manueel in te gaan."
 
->[!AVAILABILITY]
->
->Deze functies zijn momenteel beschikbaar voor alle klanten als een openbare bètaversie.
+Met Reis optimizer kunt u verschillende variaties van uw inhoud voorvertonen met voorbeeldinvoergegevens die vanuit een CSV- of JSON-bestand zijn geüpload of handmatig zijn toegevoegd.
 
-Met Reis optimizer kunt u verschillende varianten van uw inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV- of JSON-bestand zijn geüpload of handmatig zijn toegevoegd. Alle profielkenmerken die in de inhoud worden gebruikt voor personalisatie worden automatisch gedetecteerd door het systeem en kunnen worden gebruikt voor uw tests om meerdere varianten te maken. Een variant verwijst naar een versie van de inhoud met verschillende waarden voor de kenmerken ervan.
+Alle kenmerken die in de inhoud voor personalisatie worden gebruikt, worden automatisch door het systeem gedetecteerd en kunnen voor uw tests worden gebruikt om meerdere varianten te maken. Een variant verwijst naar een versie van de inhoud met verschillende waarden voor de kenmerken ervan.
 
 >[!NOTE]
 >
->Vooralsnog zijn wijzigingen in de inhoud alleen beschikbaar voor de kanalen voor e-mail-, sms- en pushmeldingen.
-
-Klik op de knop **[!UICONTROL Simulate content]** en kies **[!UICONTROL Simulate content variations (Beta)]** voor toegang tot deze ervaring.
-
-![](assets/simulate-sample.png)
-
-De belangrijkste stappen om uw inhoud te testen zijn als volgt:
-
-1. Voeg maximaal 30 varianten toe met voorbeeldinvoergegevens door een bestand te uploaden of door handmatig gegevens toe te voegen. [ Leer hoe te om variabelen toe te voegen ](#profiles)
-1. Controleer de voorvertoning van de inhoud met de verschillende varianten. [ Leer hoe te om uw inhoud ](#preview) voor te vertonen
-1. Voor e-mailinhoud verzendt u maximaal 10 proefdrukken naar e-mailadressen met de verschillende varianten. [ Leer hoe te om proefdrukken ](#proofs) te verzenden
-
+>Varianten dienen alleen als testdoeleinden voor de huidige inhoud. Ze worden niet opgeslagen in Adobe Experience Platform, maar in uw gebruikersbrowsersessie. Dit houdt in dat ze niet worden weergegeven wanneer ze worden afgemeld of wanneer er vanaf een ander apparaat wordt gewerkt.
 
 ## Afbeeldingen en beperkingen {#limitations}
 
 Overweeg de volgende instructies en voorwaarden voordat u begint met het testen van de inhoud met behulp van voorbeeldinvoergegevens.
 
-* Vanaf nu is het testen met behulp van voorbeeldinvoergegevens alleen beschikbaar voor de communicatiekanalen E-mail, SMS en Push. U hebt geen toegang tot deze ervaring via de knop Inhoud simuleren in de Designer-e-mail.
-* De volgende functies zijn niet beschikbaar in de huidige ervaring: Inbox rendering, spamrapporten, meertalige content en content experiment. Als u deze functies wilt gebruiken, selecteert u de knop **[!UICONTROL Simulate content]** in de inhoud om toegang te krijgen tot de vorige gebruikersinterface.
-* Momenteel worden alleen profielkenmerken ondersteund. Als contextafhankelijke kenmerken in uw inhoud worden gebruikt voor personalisatie, kunt u de inhoud niet testen met deze kenmerken.
-* Alleen de volgende gegevenstypen worden ondersteund bij het invoeren van gegevens voor de varianten: getal (geheel getal en decimaal), tekenreeks, boolean en datumtype. Voor elk ander gegevenstype wordt een fout weergegeven.
+* **Kanalen** - het Simuleren van inhoudsvariaties is slechts beschikbaar voor de E-mail, SMS en Push berichtkanalen.
 
-## Varianten toevoegen {#profiles}
+* **Gesteunde mogelijkheden** - de variaties van de inhoud kunnen met [!DNL Journey Optimizer] meertalige inhoud en inhoud experimenteren mogelijkheden worden gebruikt. Zo kunt u berichten in meerdere talen testen en inhoud optimaliseren door te experimenteren.
 
-U kunt maximaal 30 varianten toevoegen om de inhoud te testen met behulp van een bestand of handmatig.
+  U kunt inhoudsvariaties ook gebruiken om uw inhoudssjablonen te testen.
 
->[!NOTE]
->
->De toegevoegde varianten dienen alleen als testdoeleinden voor de huidige inhoud. De tags worden niet opgeslagen in Adobe Experience Platform, maar in uw gebruikersbrowsersessie. Dit houdt in dat ze niet worden weergegeven wanneer ze worden afgemeld of wanneer er vanaf een ander apparaat wordt gewerkt.
+  >[!NOTE]
+  >
+  >Momenteel zijn inbox rendering en spamrapporten niet beschikbaar in de huidige ervaring:. Als u deze functies wilt gebruiken, selecteert u de knop **[!UICONTROL Simulate content]** in de inhoud om toegang te krijgen tot de vorige gebruikersinterface.
 
-### Variant toevoegen met een bestand {#file}
+* **Attributen** - zowel worden profiel als contextafhankelijke attributen gesteund.
 
-Ga als volgt te werk als u een variant uit een bestand wilt toevoegen:
+* **de types van Gegevens** - slechts worden de volgende gegevenstypes gesteund wanneer het ingaan van gegevens voor uw varianten: aantal (geheel en decimaal), koord, boolean en datumtype. Voor elk ander gegevenstype wordt een fout weergegeven.
 
-1. Klik op de koppeling **[!UICONTROL download sample]** om een bestandssjabloon op te halen en kies vervolgens de bestandsindeling die u wilt gebruiken (CSV, JSON of JSONLINES).
-1. Klik op **[!UICONTROL Download]** en sla de sjabloon op de gewenste locatie op.
-1. Open het bestand en vul de sjabloon naar wens in. De sjabloon bevat een kolom voor elk profielkenmerk dat in uw inhoud wordt gebruikt voor personalisatie.
+* **Aantal varianten** - u kunt tot 30 varianten toevoegen om uw inhoud te testen, of gebruikend een dossier, of manueel.
 
-   +++Bestandsmonster
+## Inhoudsvariaties toevoegen en voorvertonen
+
+Als u variaties voor uw inhoud wilt maken en deze wilt voorvertonen, klikt u op de knop **[!UICONTROL Simulate content]** en kiest u **[!UICONTROL Simulate content variations]** .
+
+![](assets/simulate-sample.png)
+
+De belangrijkste stappen om uw inhoud te testen zijn als volgt:
+
+1. **voegt Varianten** toe - voeg tot 30 varianten met steekproefinputgegevens toe, of door een dossier te uploaden, of door gegevens manueel toe te voegen. [ Leer hoe te om variabelen toe te voegen ](#profiles)
+1. **de inhoudsvariaties van de Voorproef** - controleer de voorproef van uw inhoud gebruikend de verschillende varianten. [ Leer hoe te om uw inhoud ](#preview) voor te vertonen
+1. **verzend e-mailproefdrukken** - voor e-mailinhoud, verzend tot 10 proefdrukken naar e-mailadressen gebruikend de verschillende varianten. [ Leer hoe te om proefdrukken ](#proofs) te verzenden
+
+### Varianten toevoegen {#profiles}
+
+Wanneer u de ervaring met inhoudvariaties opent, worden alle aanpassingsvelden die in de inhoud worden gebruikt, automatisch gedetecteerd en weergegeven in een lijst met lege varianten.
+
+Als uw e-mail bijvoorbeeld twee verpersoonlijkingsvelden &#39;Stad&#39; en &#39;Balans programmapunten&#39; bevat, worden deze weergegeven in de lijst. In eerste instantie worden geen waarden ingevoerd en wordt er geen gepersonaliseerde inhoud weergegeven in het voorvertoningsvenster.
+
+![](assets/simulate-custom-variants-list.png)
+
+De waarde van een variant bewerken:
+
+1. Klik op de knop voor ovaal naast de variant.
+1. Selecteer **[!UICONTROL Edit]** om aangepaste waarden voor elk verpersoonlijkingsveld op te geven.
+1. Het voorvertoningsvenster wordt bijgewerkt om te tonen hoe de inhoud wordt weergegeven met de ingevoerde waarden.
+
+Een nieuwe variant toevoegen:
+
+1. Klik op de knop **[!UICONTROL Create sample input]**.
+1. Er wordt een nieuwe, lege variant weergegeven die alle gedetecteerde personalisatievelden bevat.
+1. Bewerk indien nodig de nieuwe variant.
+
+![](assets/simulate-custom-add.png)
+
+U kunt ook een bestand met vooraf gedefinieerde varianten en waarden uploaden om het proces te versnellen.
+
+1. Klik op **[!UICONTROL Download sample]** om een bestandssjabloon te downloaden.
+1. Kies een bestandsindeling: CSV, JSON of JSONLINES.
+1. Open het sjabloonbestand en vul de gewenste waarden in voor elk profielkenmerk. De sjabloon bevat een kolom voor elk profielkenmerk dat in uw inhoud wordt gebruikt voor personalisatie.
+
+   JSON-voorbeeldsyntaxis:
 
    ```
    {
@@ -86,30 +107,16 @@ Ga als volgt te werk als u een variant uit een bestand wilt toevoegen:
    }
    ```
 
-   +++
-
-1. Wanneer het bestand gereed is, klikt u op **[!UICONTROL Upload Input data]** om het te laden en de inhoud te testen.
-1. Nadat het bestand is geüpload, wordt in het linkerdeelvenster voor elke regel van het bestand een vak toegevoegd. Elk vak bevat alle profielkenmerken die in de inhoud worden gebruikt voor personalisatie. U kunt de varianten nu gebruiken om een voorvertoning van de inhoud weer te geven in het rechterdeelvenster en proefdrukken te verzenden.
+1. Wanneer het bestand gereed is, klikt u op **[!UICONTROL Upload Input Data]** om het te laden.
+1. Na het uploaden wordt een nieuwe variant toegevoegd aan de lijst voor elk item in het bestand.
 
    ![](assets/simulate-custom-variants.png)
 
-### Varianten handmatig toevoegen {#manual}
+Nadat u varianten hebt toegevoegd, kunt u deze gebruiken om een voorvertoning van de inhoud weer te geven in het rechterdeelvenster en om e-mailproefdrukken te verzenden.
 
-Voer de volgende stappen uit om een variant handmatig toe te voegen:
+### Inhoudsvariaties voorvertonen {#preview}
 
-1. Klik op de knop **[!UICONTROL Create sample input]**.
-
-   In het linkerdeelvenster wordt een vak toegevoegd met alle profielkenmerken die in de inhoud worden gebruikt voor personalisatie.
-
-1. Vul de gegevens van de voorbeeldinvoer voor de variant in en klik op **[!UICONTROL Save]** .
-
-   ![](assets/simulate-custom-add.png)
-
-1. Nadat u varianten hebt toegevoegd, kunt u deze gebruiken om een voorvertoning van de inhoud weer te geven in het rechterdeelvenster en om proefdrukken te verzenden.
-
-## Een voorvertoning van de inhoudvarianten weergeven {#preview}
-
-Als u een voorvertoning van de inhoud wilt weergeven met een van de varianten, selecteert u het desbetreffende vak om de voorvertoning van de inhoud in de rechtersectie bij te werken met de informatie die u voor deze variant hebt ingevoerd.
+Als u de inhoud wilt voorvertonen met een variant, selecteert u de desbetreffende variant in de lijst om de inhoud in het voorvertoningsvenster bij te werken met de informatie die u voor deze variant hebt ingevoerd.
 
 In het onderstaande voorbeeld hebben we twee varianten toegevoegd voor de onderwerpregel van de e-mail:
 
@@ -117,9 +124,13 @@ In het onderstaande voorbeeld hebben we twee varianten toegevoegd voor de onderw
 |----------|-------------|
 | ![](assets/simulate-custom-boxes.png) | ![](assets/simulate-custom-boxes2.png) |
 
+Voor meertalige inhoud en experimenten is een vervolgkeuzelijst beschikbaar voor het schakelen tussen de verschillende taalvarianten of behandelingen.
+
+![](assets/simulate-custom-experiment.png)
+
 U kunt een variant op elk gewenst moment verwijderen met de ellipknop in de rechterbovenhoek en door **[!UICONTROL Remove]** te selecteren. Als u informatie voor een variant wilt bewerken, klikt u op de knop voor weglatingsteken en selecteert u **[!UICONTROL Edit]** .
 
-## Proefdrukken verzenden {#proofs}
+### Proefdrukken verzenden {#proofs}
 
 Met Journey Optimizer kunt u proefdrukken naar e-mailadressen verzenden en tegelijkertijd een of meerdere varianten nabootsen die u in het simulatiescherm hebt toegevoegd. De stappen zijn als volgt:
 
