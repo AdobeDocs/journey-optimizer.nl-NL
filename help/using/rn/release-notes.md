@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c52049383bf6a8b60fcb0ab1c2331724c8cdb771
+source-git-commit: eb3879db92d765a71626b6b68299286818d9569b
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '926'
 ht-degree: 7%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 7%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## Release-aantekeningen mei &#39;25 {#25-5-rn}
 
@@ -29,6 +29,56 @@ ht-degree: 7%
 ### Nieuwe functies {#25-05-features}
 
 De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder beschreven.
+
+<table>
+<thead>
+<tr>
+<th><strong>Integratie van Adobe Experience Manager Content-fragmenten</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Dankzij de integratie van Adobe Experience Manager en Adobe Journey Optimizer kunt u nu moeiteloos Adobe Experience Manager Content Fragments gebruiken in uw Journey Optimizer-inhoud. Dankzij deze naadloze verbinding is het gemakkelijker om uw AEM-inhoud rechtstreeks in Journey Optimizer te openen en te gebruiken.</p>
+<p>Voorheen beschikbaar voor een beperkt aantal organisaties (LA), is deze mogelijkheid nu GA met de volgende verbetering:</p>
+<ul>
+<!--li>Create offers by directly selecting an AEM Content Fragment.</li-->
+<li>Definieer plaatsaanduidingen en wijs personalisatiewaarden toe binnen de fragmenthandtekening met behulp van de modus Editor.</li>
+</ul>
+
+<p>Raadpleeg de <a href="../integrations/aem-fragments.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Beschikbaarheidsdatum: 23 mei 2025</p>
+</br>
+<img src="assets/do-not-localize/content-fragment.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Experience Manager Dynamic Media-integratie</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Dynamische media-elementen zijn nu rechtstreeks beschikbaar en toegankelijk in Journey Optimizer. Dankzij deze integratie kunt u:</p>
+<ul>
+<li>Middelen centraal beheren met realtime updates.</li>
+<li>Wijzig uw activa montages zoals breedte en hoogte onmiddellijk.</li>
+<li>Pas de Dynamische malplaatjes van Media aan door uw inhoud bij te werken en verpersoonlijkingsgebieden toe te voegen.</li>
+</ul>
+<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
+<p>Raadpleeg de <a href="../integrations/aem-dynamic.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Beschikbaarheidsdatum: 23 mei 2025</p>
+</br>
+<img src="assets/do-not-localize/dynamic_media_template_html.gif">
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -85,27 +135,6 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 </tbody>
 </table>
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Adobe Experience Manager Content fragment integration</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>With the integration of Adobe Experience Manager and Adobe Journey Optimizer, you can now effortlessly use Adobe Experience Manager Content Fragments within your Journey Optimizer content. This seamless connection makes it easier to access and use your AEM content directly in Journey Optimizer.</p>
-<p>Previously available for a limited set of organizations (LA), this capability is now GA with the following enhancements:</p>
-<ul>
-<li>Create offers by directly selecting an AEM Content Fragment.</li>
-<li>Define placeholders and map personalization values within the fragment signature using the Editor mode.</li>
-</ul>
-<img src="assets/do-not-localize/content-fragment.gif">
-</td>
-</tr>
-</tbody>
-</table-->
-
 <!--<table>
 <thead>
 <tr>
@@ -123,28 +152,6 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 </tr>
 </tbody>
 </table>-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Adobe Experience Manager Dynamic media integration</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Dynamic media assets are now directly available and accessible in Journey Optimizer. This integration enables you to:</p>
-<ul>
-<li>Centrally manage assets with real-time updates.</li>
-<li>Modify your assets settings such as width and height instantly.</li>
-<li>Customize Dynamic Media templates by updating your content and adding personalization fields.</li>
-</ul>
-<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
-<img src="assets/do-not-localize/dynamic_media_template_html.gif">
-</td>
-</tr>
-</tbody>
-</table-->
 
 <!--<table>
 <thead>
