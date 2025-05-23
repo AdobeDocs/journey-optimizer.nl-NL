@@ -50,7 +50,7 @@ Om **tot een schema** te leiden, volg deze stappen:
    ![](assets/test-profiles-1.png)
 1. Ga een naam voor uw schema in en klik **Afwerking**.
    ![](assets/test-profiles-1-bis.png)
-1. In de **sectie van de Groepen van het Gebied**, op de linkerzijde, voegt de klik **** toe en selecteert de aangewezen gebiedsgroepen. Zorg ervoor u de **de testdetails van het Profiel** gebiedsgroep toevoegt.
+1. In de **sectie van de Groepen van het Gebied**, op de linkerzijde, voegt de klik **&#x200B;**&#x200B;toe en selecteert de aangewezen gebiedsgroepen. Zorg ervoor u de **de testdetails van het Profiel** gebiedsgroep toevoegt.
    ![](assets/test-profiles-1-ter.png)
 Klik eenmaal op **[!UICONTROL Add field groups]** : de lijst met veldgroepen wordt weergegeven in het overzichtsscherm van het schema.
    ![](assets/test-profiles-2.png)
