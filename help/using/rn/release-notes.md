@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b086b442be958108d66f7fff37a676f3a1c15ab3
+source-git-commit: 261f93625def59b787894f38877ee1cf5c543748
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1154'
 ht-degree: 7%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 7%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## Release-aantekeningen mei &#39;25 {#25-5-rn}
 
@@ -237,6 +237,7 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <p>U kunt nu ritten activeren met een profiel-id en een andere id, zoals een bestellings-id, een abonnement-id of een recept-id, zodat hetzelfde profiel zich meerdere keren tegelijk in dezelfde reis kan bevinden. Dit laat scenario's zoals het beheren van veelvoudige orden of abonnementen parallel toe, met elke instantie die zijn eigen weg door de reis volgt.</p>
 <p>Raadpleeg de <a href="../building-journeys/supplemental-identifier.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <p>Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
+<p>Beschikbaarheidsdatum: 23 mei 2025</p>
 </td>
 </tr>
 </tbody>
