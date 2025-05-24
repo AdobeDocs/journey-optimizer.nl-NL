@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 81de8502ce061ee2d0bb97e4a35c3f76c4425a08
+source-git-commit: 33ebde5ef42519137c3ef057e6c95a71f1c45a6c
 workflow-type: tm+mt
-source-wordcount: '2377'
+source-wordcount: '2382'
 ht-degree: 21%
 
 ---
@@ -55,6 +55,7 @@ ht-degree: 21%
    + Uw reizen beheren{#manage-journey}
       + [Bladeren en uw reizen filteren](using/building-journeys/journey-ui.md)
       + [Profielingang bij reizen](using/building-journeys/entry-management.md)
+      + [Aanvullende identificatiecode bij door gebeurtenissen veroorzaakte reizen](using/building-journeys/supplemental-identifier.md)
       + [Tijdzonebeheer](using/building-journeys/timezone-management.md)
       + [Send-Time optimalisatie](using/building-journeys/send-time-optimization.md)
       + [Beëindig uw reis](using/building-journeys/end-journey.md)
@@ -175,7 +176,7 @@ ht-degree: 21%
 + Geordende campagnes {#orchestrated-campaigns}
    + [Aan de slag met georkestreerde campagnes](using/ms/gs-ms-campaigns.md)
    + [Belangrijkste beginselen](using/ms/gs-campaign-creation.md)
-   + [ Stappen om georkestreerde campagnes  te creëren](using/ms/gs-campaign-steps.md)
+   + [ Stappen om georkestreerde campagnes ](using/ms/gs-campaign-steps.md) te creëren
    + Configuratiestappen {#ms-config}
       + [Relationele schema&#39;s maken](using/ms/ms-schemas.md)
    + Aanmaakstappen{#create-ms-campaign}
@@ -356,7 +357,7 @@ ht-degree: 21%
          + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [ gegevens van Adobe Experience Platform van het Gebruik voor verpersoonlijking (Beta) ](using/personalization/lookup-aep-data.md)
@@ -701,7 +702,7 @@ ht-degree: 21%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
    + [Uw kanalen configureren](using/configuration/get-started-configuration.md)
