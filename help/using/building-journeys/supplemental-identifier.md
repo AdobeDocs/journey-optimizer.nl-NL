@@ -2,9 +2,9 @@
 title: Aanvullende identificatiecode bij door gebeurtenissen veroorzaakte reizen
 description: Leer hoe u een aanvullende id kunt gebruiken tijdens een door een gebeurtenis geïnitieerde reis.
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: bfff5bfe0a87d65c453018c4f1af01e9b1456052
+source-git-commit: c4b9ee59fe22bad97975cce01a84002541d8c9df
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Voer de volgende stappen uit als u een aanvullende id wilt gebruiken voor een ri
 
 +++ Zie voorbeelden
 
-   In een objectarray met de aanvullende id als &quot;bookingNum&quot; en een kenmerk op hetzelfde niveau als &quot;bookingCountry&quot;, doorloopt de reis het arrayobject op basis van de bookingNum en wordt een reisinstantie voor elk object gemaakt.
+   In een objectarray met de aanvullende id als `bookingNum` en een kenmerk op hetzelfde niveau als `bookingCountry` , doorloopt de reis het arrayobject op basis van de bookingNum en wordt voor elk object een reisinstantie gemaakt.
 
    * De volgende expressie in de voorwaardenactiviteit doorloopt de objectarray en controleert of de waarde van `bookingCountry` gelijk is aan &quot;FR&quot;:
 
@@ -112,7 +112,7 @@ Voer de volgende stappen uit als u een aanvullende id wilt gebruiken voor een ri
      @event{<event_name>.<object_path>.<object_array_name>.all(currentEventField.<attribute_path>.bookingNum==${supplementalId}).at(0).<attribute_path>.bookingCountry}=="FR"
      ```
 
-   * De volgende expressie in de e-mailverpersoonlijkingseditor doorloopt de objectarray, haalt het &#39;bookingCountry&#39; uit dat van toepassing is op de huidige reisinstantie en geeft het in de inhoud weer:
+   * De volgende expressie in de e-mailverpersoonlijkingseditor doorloopt de objectarray, haalt de `bookingCountry` uit die van toepassing is op de huidige instantie van de reis en geeft deze in de inhoud weer:
 
      ```
      {{#each context.journey.events.<event_ID>.<object_path>.<object_array_name> as |l|}} 
