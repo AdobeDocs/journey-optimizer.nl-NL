@@ -2,15 +2,20 @@
 title: Aanvullende identificatiecode bij door gebeurtenissen veroorzaakte reizen
 description: Leer hoe u een aanvullende id kunt gebruiken tijdens een door een gebeurtenis geïnitieerde reis.
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: c4b9ee59fe22bad97975cce01a84002541d8c9df
+exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
+source-git-commit: dad3dc0022d04c9f9c82477d75a6fb8de7e85a6a
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
-
 # Aanvullende identificatiecode bij door gebeurtenissen veroorzaakte reizen
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_parameters_supplemental_identifier"
+>title="Aanvullende id gebruiken"
+>abstract="De aanvullende identificatiecode is een secundaire identificatiecode die aanvullende context biedt voor de uitvoering van een reis. Als u deze wilt definiëren, selecteert u het veld dat u wilt gebruiken als de aanvullende id en kiest u een naamruimte die u hieraan wilt koppelen."
 
 >[!AVAILABILITY]
 >

@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: evenement, eenheidsprijs, creëren, reis
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 6d219d9caea28947877e38893dea20a4f77456f6
+source-git-commit: dad3dc0022d04c9f9c82477d75a6fb8de7e85a6a
 workflow-type: tm+mt
-source-wordcount: '1685'
+source-wordcount: '1644'
 ht-degree: 7%
 
 ---
@@ -27,11 +27,6 @@ ht-degree: 7%
 >id="ajo_journey_event_parameters"
 >title="Parameters"
 >abstract="Definieer de parameters van de gebeurtenis, zoals het schema en de payload-velden. Voor op regel-gebaseerde gebeurtenissen, gebruik het **[!UICONTROL Event ID condition]** gebied om de voorwaarde te bepalen die door het systeem zal worden gebruikt om de gebeurtenissen te identificeren die uw reis zullen teweegbrengen. Voeg een identiteitstype en een profiel-id toe die u voor de gebeurtenis wilt gebruiken."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_parameters_supplemental_identifier"
->title="Aanvullende id gebruiken"
->abstract="De aanvullende identificatiecode is een secundaire identificatiecode die aanvullende context biedt voor de uitvoering van een reis. Als u deze wilt definiëren, selecteert u het veld dat u wilt gebruiken als de aanvullende id en kiest u een naamruimte die u hieraan wilt koppelen."
 
 Eenheidsgebeurtenissen zijn gekoppeld aan een specifiek profiel. Zij kunnen op regel-gebaseerd of systeem-geproduceerd zijn.  Lees meer over unitaire gebeurtenis [ deze sectie ](../event/about-events.md).
 
