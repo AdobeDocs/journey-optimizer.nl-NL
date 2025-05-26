@@ -7,9 +7,9 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
+source-git-commit: 3ac201f33bb90a9f49b5e01d2668fc740929c9f3
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '959'
 ht-degree: 1%
 
 ---
@@ -52,11 +52,14 @@ Maak gebruik van **[!DNL Adobe Experience Manager Assets]** om marketing- en cre
 
 [![ leer meer ](../assets/do-not-localize/learn-more-button.svg)](../integrations/assets.md)
 
->[!TAB  Malplaatjes van AEM ]
+<!--
+>[!TAB AEM Templates]
 
-Met Adobe Journey Optimizer kunt u op maat gemaakte berichten maken via Adobe Experience Manager-sites. Begin door uw sjablonen te ontwerpen met gebruik van Adobe Experience Manager-inhoudsbronnen en verzend deze vervolgens naar Adobe Journey Optimizer. Als deze sjablonen eenmaal zijn gedeeld, zijn ze toegankelijk in de Adobe Journey Optimizer e-mailontwerper, waardoor het maken en verzenden van berichten naar het gewenste publiek eenvoudiger wordt.
+With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager sites. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's email designer, simplifying the process of crafting and sending messages to your desired audience.
 
-[![ leer meer ](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-templates.md)
+[![learn more](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-templates.md)
+
+-->
 
 >[!TAB  Fragments van AEM ]
 
@@ -120,7 +123,7 @@ Met de Adobe Journey Optimizer-modules in Adobe Workfront kunt u records maken, 
 
 Een overzicht van de belangrijkste stap van deze integratie is beschikbaar [ in dit blogbericht ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
 
-Leer meer over Journey Optimizer + Adobe Workfront [ in de documentatie van Adobe Workfront ](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=nl-NL){target="_blank"}.
+Leer meer over Journey Optimizer + Adobe Workfront [ in de documentatie van Adobe Workfront ](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html){target="_blank"}.
 
 ## Aangepaste kanalen {#integration-custom}
 

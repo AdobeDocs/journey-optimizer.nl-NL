@@ -8,10 +8,10 @@ topic: Content Management, Integrations
 role: User
 level: Beginner
 keywords: elementen, integratie
-source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
+source-git-commit: 3ac201f33bb90a9f49b5e01d2668fc740929c9f3
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 0%
+source-wordcount: '680'
+ht-degree: 1%
 
 ---
 
@@ -36,11 +36,12 @@ Assets Essentials maakt verbinding met Adobe Express en Adobe Photoshop Express 
 
 Leer meer over [ Journey Optimizer + Adobe Experience Manager Assets ](../integrations/assets.md).
 
-### Sjablonen
+<!--
+### Templates
 
-Met Adobe Journey Optimizer kunt u op maat gemaakte berichten maken via Adobe Experience Manager-sites. Begin door uw sjablonen te ontwerpen met gebruik van Adobe Experience Manager-inhoudsbronnen en verzend deze vervolgens naar Adobe Journey Optimizer. Als deze sjablonen eenmaal zijn gedeeld, zijn ze toegankelijk in de Adobe Journey Optimizer e-mailontwerper, waardoor het maken en verzenden van berichten naar het gewenste publiek eenvoudiger wordt.
+With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager sites. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's email designer, simplifying the process of crafting and sending messages to your desired audience.
 
-Leer meer over [ Journey Optimizer + de malplaatjes van Adobe Experience Manager ](../integrations/aem-templates.md).
+Learn more about [Journey Optimizer + Adobe Experience Manager templates](../integrations/aem-templates.md).-->
 
 ### Fragmenten
 
