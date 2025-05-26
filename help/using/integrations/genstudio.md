@@ -29,7 +29,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->* De integratie van GenStudio in [!DNL Adobe Journey Optimizer] is momenteel niet beschikbaar voor gebruik met het **Schild van de Gezondheidszorg** of **Privacy en het 4} toe:voegen-op dienstenaanbod van het Schild van de Veiligheid.**
+>* De integratie van GenStudio in [!DNL Adobe Journey Optimizer] is momenteel niet beschikbaar voor gebruik met het **Schild van de Gezondheidszorg** of **Privacy en het 4&rbrace; toe:voegen-op dienstenaanbod van het Schild van de Veiligheid.**
 >
 >* Deze mogelijkheid is alleen beschikbaar voor het e-mailkanaal.
 
@@ -82,7 +82,7 @@ Eerst kunt u een [!DNL Journey Optimizer] HTML-sjabloon met instructies van uw m
 
    >[!NOTE]
    >
-   >Leer hoe te om een malplaatje van HTML in [!DNL GenStudio] in de [ 2} specifieke sectie van de Gids van de Gebruiker van Adobe GenStudio for Performance Marketing te uploaden.](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}
+   >Leer hoe te om een malplaatje van HTML in [!DNL GenStudio] in de [ 2&rbrace; specifieke sectie van de Gids van de Gebruiker van Adobe GenStudio for Performance Marketing te uploaden.](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}
 
 1. In GenStudio gebruikt u deze sjabloon om verschillende e-mailvariaties te maken met AI-herinneringen en deze op te slaan.
 
