@@ -5,10 +5,10 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 33ebde5ef42519137c3ef057e6c95a71f1c45a6c
+source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
 workflow-type: tm+mt
-source-wordcount: '2382'
-ht-degree: 21%
+source-wordcount: '2393'
+ht-degree: 20%
 
 ---
 
@@ -176,7 +176,7 @@ ht-degree: 21%
 + Geordende campagnes {#orchestrated-campaigns}
    + [Aan de slag met georkestreerde campagnes](using/ms/gs-ms-campaigns.md)
    + [Belangrijkste beginselen](using/ms/gs-campaign-creation.md)
-   + [ Stappen om georkestreerde campagnes  te creëren](using/ms/gs-campaign-steps.md)
+   + [ Stappen om georkestreerde campagnes ](using/ms/gs-campaign-steps.md) te creëren
    + Configuratiestappen {#ms-config}
       + [Relationele schema&#39;s maken](using/ms/ms-schemas.md)
    + Aanmaakstappen{#create-ms-campaign}
@@ -357,7 +357,7 @@ ht-degree: 21%
          + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [ gegevens van Adobe Experience Platform van het Gebruik voor verpersoonlijking (Beta) ](using/personalization/lookup-aep-data.md)
@@ -394,6 +394,15 @@ ht-degree: 21%
       + [Aan de slag met dynamische inhoud](using/personalization/get-started-dynamic-content.md)
       + [Voorwaardelijke regels maken](using/personalization/create-conditions.md)
       + [Dynamische inhoud maken](using/personalization/dynamic-content.md)
+   + Gebruiksscenario&#39;s tussen oplossingen {#combine}
+      + [Combineer oplossingen om uw inhoud te beheren](using/integrations/content-integrations.md)
+      + [Werken met Experience Manager Assets](using/integrations/assets.md)
+      + [Werken met Adobe Stock](using/integrations/stock.md)
+      + [Werken met Adobe Express](using/integrations/express.md)
+      + [Werken met Experience Manager-sjablonen](using/integrations/aem-templates.md)
+      + [Werken met Experience Manager-inhoudsfragmenten](using/integrations/aem-fragments.md)
+      + [Werken met dynamische media](using/integrations/aem-dynamic.md)
+      + [Werken met GenStudio for Performance Marketing](using/integrations/genstudio.md)
    + AI Assistant voor het genereren van inhoud{#ai-assistant}
       + [Aan de slag met AI Assistant](using/content-management/gs-generative.md)
       + [E-mailgeneratie met AI](using/content-management/generative-email.md)
@@ -434,15 +443,6 @@ ht-degree: 21%
       + [Werken met berekende kenmerken](using/audience/computed-attributes.md)
    + [Identiteiten](using/audience/get-started-identity.md)
    + [Licentiegebruik](using/audience/license-usage.md)
-+ Integraties{#integrations}
-   + [Integratie met andere oplossingen](using/integrations/ajo-integrations.md)
-   + [Werken met Experience Manager Assets](using/integrations/assets.md)
-   + [Werken met Adobe Stock](using/integrations/stock.md)
-   + [Werken met Adobe Express](using/integrations/express.md)
-   + [Werken met Experience Manager-sjablonen](using/integrations/aem-templates.md)
-   + [Werken met Experience Manager-inhoudsfragmenten](using/integrations/aem-fragments.md)
-   + [Werken met dynamische media](using/integrations/aem-dynamic.md)
-   + [Werken met GenStudio](using/integrations/genstudio.md)
 + Track &amp; monitor {#reporting}
    + Live-rapport {#live-report}
       + [Aan de slag met Live-rapport](using/reports/live-report.md)
@@ -702,7 +702,7 @@ ht-degree: 21%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
    + [Uw kanalen configureren](using/configuration/get-started-configuration.md)
@@ -752,6 +752,7 @@ ht-degree: 21%
       + [Een aangepaste handeling oplossen](using/action/troubleshoot-custom-action.md)
       + [API-aanroepreacties gebruiken in aangepaste handelingen](using/action/action-response.md)
 + Sluit uw systemen en omgevingen aan {#connect-systems}
+   + [Integreren met andere oplossingen](using/integrations/ajo-integrations.md)
    + [Werken met Journey Optimizer API&#39;s](using/configuration/ajo-apis.md)
    + Uw reizen integreren met externe systemen {#external-systems}
       + [Reisintegratie met externe systemen](using/configuration/external-systems.md)

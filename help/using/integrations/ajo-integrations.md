@@ -7,9 +7,9 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
+source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '1020'
 ht-degree: 1%
 
 ---
@@ -39,23 +39,59 @@ U kunt alle Adobe Analytics-gedragsgebeurtenisgegevens die u al vastlegt en stre
 
 Leer meer over [ Journey Optimizer + Analytics ](../event/about-analytics.md).
 
+## Adobe Experience Manager {#integration-aem}
 
-## Adobe Experience Manager Assets {#integration-assets}
+Als Adobe Experience Manager-gebruiker kunt u uw workflows combineren met Adobe Journey Optimizer. Beschikbare gebruiksgevallen worden hieronder vermeld:
 
-Maak gebruik van [!DNL Adobe Experience Manager Assets] om marketing- en creatieve workflows samen te brengen. U hebt native toegang tot [!DNL Adobe Experience Manager Assets] en hebt toegang tot [!DNL Adobe Journey Optimizer] voor het opslaan, beheren, detecteren en distribueren van digitale elementen. Het biedt één gecentraliseerde opslagplaats van middelen die u kunt gebruiken om uw berichten te vullen.
 
-[!DNL Adobe Experience Manager Assets] is rechtstreeks toegankelijk vanuit [!DNL Adobe Journey Optimizer] via de sectie voor het linkermenu **[!UICONTROL Assets]** .
+>[!BEGINTABS]
 
-Leer meer over [ Journey Optimizer + Adobe Experience Manager Assets ](../integrations/assets.md).
+>[!TAB AEM Assets]
+
+Maak gebruik van **[!DNL Adobe Experience Manager Assets]** om marketing- en creatieve workflows samen te brengen. U hebt native toegang tot **[!DNL Assets Essentials]** of **[!DNL Assets as a Cloud Service]** om digitale elementen op te slaan, te beheren, te detecteren en te distribueren. **[!DNL Adobe Journey Optimizer]** Het biedt één gecentraliseerde opslagplaats van middelen die u kunt gebruiken om uw berichten te vullen.
+
+[![ leer meer ](../assets/do-not-localize/learn-more-button.svg)](../integrations/assets.md)
+
+>[!TAB  Malplaatjes van AEM ]
+
+Met Adobe Journey Optimizer kunt u op maat gemaakte berichten maken via Adobe Experience Manager-sites. Begin door uw sjablonen te ontwerpen met gebruik van Adobe Experience Manager-inhoudsbronnen en verzend deze vervolgens naar Adobe Journey Optimizer. Als deze sjablonen eenmaal zijn gedeeld, zijn ze toegankelijk in de Adobe Journey Optimizer e-mailontwerper, waardoor het maken en verzenden van berichten naar het gewenste publiek eenvoudiger wordt.
+
+[![ leer meer ](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-templates.md)
+
+>[!TAB  Fragments van AEM ]
+
+Door Adobe Experience Manager te integreren met Adobe Journey Optimizer, kunt u nu uw AEM Content Fragments naadloos opnemen in uw Journey Optimizer e-mailinhoud. Deze gestroomlijnde verbinding vereenvoudigt het proces van toegang tot en gebruik van AEM-inhoud, waardoor persoonlijke en dynamische campagnes en reizen kunnen worden gemaakt.
+
+[![ leer meer ](../assets/do-not-localize/try-it-button.svg)](../integrations/aem-fragments.md)
+
+>[!TAB  Dynamische Media ]
+
+Gebruik de Journey Optimizer Asset-kiezer om goedgekeurde dynamische media-uitvoeringen in Journey Optimizer te selecteren en te gebruiken. Wijzigingen die u aanbrengt in elementen in Adobe Experience Manager, worden direct weerspiegeld in uw Journey Optimizer-inhoud. Zo weet u zeker dat de meest actuele versies altijd worden gebruikt zonder dat u handmatige updates hoeft uit te voeren.
+
+[![ leer meer ](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-dynamic.md)
+
+
+>[!ENDTABS]
+
 
 
 ## Adobe Stock {#integration-stock}
 
 Met de insteekmodule [!DNL Adobe Stock] en [!DNL Adobe Journey Optimizer] Email Designer kunt u op eenvoudige wijze door afbeeldingen navigeren en afbeeldingen licentiëren en opslaan voor gebruik in het schrijven van berichten.
 
-Met [!DNL Adobe Journey Optimizer] kunt u afbeeldingen rechtstreeks vanuit [!DNL Adobe Stock] uploaden naar uw e-mail en deze toevoegen aan de map **[!UICONTROL Assets]** met de optie **[!UICONTROL Find Adobe Stock photos]** . Daarnaast kunt u met de optie **[!UICONTROL Find Similar Stock photos]** afbeeldingen vinden die overeenkomen met de inhoud, kleur en compositie van het element dat wordt gebruikt bij de levering.
-
 Leer meer over [ Journey Optimizer + Voorraad ](../integrations/stock.md).
+
+## Adobe Express {#express}
+
+Dankzij de Adobe Express-integratie in Adobe Journey Optimizer hebt u eenvoudig toegang tot Adobe Express-functies voor het bewerken van inhoud. Dankzij deze integratie kunt u afbeeldingen vergroten/verkleinen, achtergronden verwijderen, visuele effecten uitsnijden en elementen omzetten in JPEG of PNG zonder dat u tussen oplossingen hoeft te schakelen.
+
+Leer meer over [ Journey Optimizer + Adobe Express ](../integrations/express.md).
+
+## GenStudio for Performance Marketing
+
+Adobe GenStudio for Performance Marketing is een generatieve AI-First-toepassing waarmee marketingteams hun eigen advertenties en e-mails kunnen maken om onhandige, gepersonaliseerde marketingcampagnes te voeren die aan uw merkstandaarden voldoen en aan uw bedrijfsbeleid voldoen. Door gebruik te maken van Adobe AI-technologie, biedt deze technologie een uitgebreide reeks hulpmiddelen die de complexiteit van het maken en beheren van content vereenvoudigen, zodat creatieve mensen zich kunnen richten op innovatie.
+
+Leer meer over [ Journey Optimizer + GenStudio for Performance Marketing ](../integrations/genstudio.md).
 
 
 ## Adobe Intelligent Services {#integration-intelligent-service}
@@ -64,7 +100,7 @@ Met de intelligente Adobe-services die native zijn voor het Real Time Customer D
 
 Klant-AI staat merken toe om op basis van leerresultaten voor churn- of conversiesystemen te maken die beschikbaar zijn als profielkenmerken in Adobe Experience Platform en die kunnen worden gebruikt om een reis aan te passen.
 
-[Meer informatie](../building-journeys/ai-services-overview.md).
+Leer meer over [ Journey Optimizer + de Intelligente Diensten van Adobe ](../building-journeys/ai-services-overview.md).
 
 
 ## Adobe Campaign {#integration-ac}
@@ -84,7 +120,7 @@ Met de Adobe Journey Optimizer-modules in Adobe Workfront kunt u records maken, 
 
 Een overzicht van de belangrijkste stap van deze integratie is beschikbaar [ in dit blogbericht ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
 
-Leer meer over Journey Optimizer + Adobe Workfront [ in de documentatie van Adobe Workfront ](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=nl-NL){target="_blank"}.
+Leer meer over Journey Optimizer + Adobe Workfront [ in de documentatie van Adobe Workfront ](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html){target="_blank"}.
 
 ## Aangepaste kanalen {#integration-custom}
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: elementen, integratie
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: f2c072cd410afac79604cfad532fbd75591b34fa
+source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 0%
+source-wordcount: '493'
+ht-degree: 1%
 
 ---
 
@@ -29,11 +29,13 @@ ht-degree: 0%
 
 Dankzij de Adobe Express-integratie in Adobe Journey Optimizer hebt u eenvoudig toegang tot Adobe Express-functies voor het bewerken van inhoud. Dankzij deze integratie kunt u afbeeldingen vergroten/verkleinen, achtergronden verwijderen, visuele effecten uitsnijden en elementen omzetten in JPEG of PNG zonder dat u tussen oplossingen hoeft te schakelen.
 
-Meer over Adobe Express leren, verwijs naar [ deze documentatie ](https://helpx.adobe.com/nl/express/user-guide.html).
+Meer over Adobe Express leren, verwijs naar [ deze documentatie ](https://helpx.adobe.com/express/user-guide.html).
 
 Om tot het **[!DNL Adobe Express]** menu toegang te hebben, heb toegang tot uw **montages van het Beeld** van de E-mailontwerper en klik **[!UICONTROL Edit in Adobe Express]**.
 
 ![](assets/express_1.png)
+
+➡️ [Ontdek deze functie in video](#video)
 
 ## Adobe Express Enterprise-licentie {#licence}
 
@@ -45,12 +47,12 @@ Met een Enterprise-licentie krijgen gebruikers volledige toegang tot de Adobe Ex
 
 +++Beschikbare gebruiksgevallen voor gebruikers van een Enterprise-licentie voor Adobe Express
 
-* [ verwijdert achtergrond ](https://helpx.adobe.com/nl/express/create-and-edit-images/edit-images/remove-background.html)
-* [ verwijder voorwerpen ](https://helpx.adobe.com/nl/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
-* [ Wissen ](https://helpx.adobe.com/nl/express/create-and-edit-images/edit-images/eraser.html)
-* [ voorwerp van het Tussenvoegsel ](https://helpx.adobe.com/nl/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
-* [ Uitsnijden ](https://helpx.adobe.com/nl/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
-* [ Gevolgen ](https://helpx.adobe.com/nl/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
+* [ verwijdert achtergrond ](https://helpx.adobe.com/express/create-and-edit-images/edit-images/remove-background.html)
+* [ verwijder voorwerpen ](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
+* [ Wissen ](https://helpx.adobe.com/express/create-and-edit-images/edit-images/eraser.html)
+* [ voorwerp van het Tussenvoegsel ](https://helpx.adobe.com/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
+* [ Uitsnijden ](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
+* [ Gevolgen ](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
 
 +++
 
@@ -137,3 +139,13 @@ Uw afbeelding kan nu worden gebruikt in uw inhoud.
    Klik vervolgens op **[!UICONTROL Import]** .
 
 Uw afbeelding kan nu worden gebruikt in uw inhoud.
+
+
+## Hoe kan ik-video {#video}
+
+Leer hoe u uw middelen in Adobe Journey Optimizer kunt bewerken met de Adobe Express-gereedschappen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
+
+
+
