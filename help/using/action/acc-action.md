@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campagne, acc, integratie
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: bf4044bc23b0e7c0ef74e5b612d93cb45ec20242
+source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 1%
+source-wordcount: '543'
+ht-degree: 0%
 
 ---
 
@@ -50,13 +50,13 @@ Op verzoek wordt de verbinding tussen de Journey Optimizer- en Adobe Campaign-om
 >[!ENDTABS]
 
 
-## Belangrijke opmerkingen {#important-notes}
+## Afvoerkanalen en beperkingen {#important-notes}
 
-* Er is geen vertraging van berichten. Het systeem kapt het aantal berichten in dat naar 4000 per 5 minuten kan worden verzonden, die op de huidige Campagne SLA wordt gebaseerd. Om deze reden dient Journey Optimizer alleen te worden gebruikt in gevallen van eenmalig gebruik (individuele gebeurtenissen, niet het publiek).
+* Er is geen vertraging van berichten. Het systeem kapt het aantal berichten in dat naar 4.000 per 5 minuten kan worden verzonden, die op de huidige Campagne SLA wordt gebaseerd. Om deze reden dient Journey Optimizer alleen te worden gebruikt in gevallen van eenmalig gebruik (individuele gebeurtenissen, niet het publiek).
 
-* U moet één actie op het canvas per malplaatje vormen u wenst te gebruiken. U moet één actie in Journey Optimizer voor elke malplaatje vormen u om van Adobe Campaign wenst te gebruiken.
+* U moet één actie op het canvas per malplaatje vormen om te gebruiken. U moet één actie in Journey Optimizer voor elke malplaatje vormen u om van Adobe Campaign wenst te gebruiken.
 
-* Wij adviseren dat u een specifieke instantie van het Centrum van het Bericht gebruikt die voor deze integratie wordt ontvangen om het beïnvloeden van om het even welke andere verrichtingen van de Campagne te vermijden die u kunt hebben gaande. De marketingserver kan worden gehost of op locatie worden opgeslagen. De vereiste build is 21.1 Release Candidate of hoger.
+* Wij adviseren dat u een specifiek Centrum van het Bericht voor deze integratie wordt ontvangen of instantie van Managed Services gebruikt om het beïnvloeden van om het even welke andere verrichtingen van de Campagne te vermijden die u kunt hebben gaande. De marketing server kan worden ontvangen of op-gebouw.<!--The build required is 21.1 Release Candidate or greater. -->
 
 * Er is geen bevestiging dat de lading of het bericht van de Campagne correct is.
 
@@ -64,13 +64,13 @@ Op verzoek wordt de verbinding tussen de Journey Optimizer- en Adobe Campaign-om
 
 ## Vereisten {#prerequisites}
 
-In Adobe Campaign moet u een transactiemelding en de bijbehorende gebeurtenis maken en publiceren. Verwijs naar de [ documentatie van Adobe Campaign ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
+In Adobe Campaign moet u een transactiemelding en de bijbehorende gebeurtenis maken en publiceren. Verwijs naar de [ documentatie van Adobe Campaign ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
 
 U kunt uw JSON-lading voor elk bericht samenstellen volgens het onderstaande patroon. U gaat deze lading dan kleven wanneer het vormen van de actie in Journey Optimizer (zie hieronder).
 
 Hier volgt een voorbeeld:
 
-```JSON
+```json
 {
     "channel": "email",
     "eventType": "welcome",

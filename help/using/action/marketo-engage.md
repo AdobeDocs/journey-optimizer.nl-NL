@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: markt, markt om integratie te bevorderen
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
+source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
@@ -27,8 +27,8 @@ Sluit een naadloze gegevensintegratie met Marketo Engage aan. Er is een specifie
 
 Aan deze integratie zijn de volgende voorwaarden verbonden:
 
-* De klanteninstantie van Marketo Engage moet IMS-ingeschakeld zijn.
-* Marketo Engage-exemplaar en Adobe Experience Platform/Journey Optimizer-exemplaar moeten zich binnen dezelfde organisatie bevinden.
+* De klanteninstantie van Marketo Engage moet zijn ingeschakeld voor IMS
+* Marketo Engage-exemplaar en Adobe Experience Platform/Journey Optimizer-exemplaar moeten zich binnen dezelfde organisatie bevinden
 * De klant moet met **MktoSync worden voorzien: De toegang van de Dienst van de Opname**
 
 ## De handeling configureren {#configure-marketo-action}

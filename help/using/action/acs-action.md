@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campagne, standaard, integratie, plafonnering, actie
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
+source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -22,19 +22,21 @@ Als u Adobe Campaign Standard hebt, is er een ingebouwde actie beschikbaar waarm
 
 Het Campaign Standard-transactiebericht en de bijbehorende gebeurtenis moeten worden gepubliceerd om in Journey Optimizer te kunnen worden gebruikt. Als de gebeurtenis wordt gepubliceerd maar het bericht niet is, is het niet zichtbaar in de interface van Journey Optimizer. Als het bericht wordt gepubliceerd maar zijn bijbehorende gebeurtenis niet, zal het in de interface van Journey Optimizer zichtbaar zijn maar het zal niet bruikbaar zijn.
 
-## Belangrijke opmerkingen {#important-notes}
+## Afvoerkanalen en beperkingen {#important-notes}
 
-* Voor Adobe Campaign Standard-acties wordt automatisch een afluisterregel van 4000 aanroepen per 5 minuten gedefinieerd. Dit komt overeen met de officiële schaal van Transactioneel Overseinen van Adobe Campaign Standard. Lees meer over transactionele overseinen SLAs in [ de Beschrijving van het Product van Adobe Campaign Standard ](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html){target="_blank"}.
+* Voor Adobe Campaign Standard-acties wordt automatisch een afluisterregel van 4.000 aanroepen per 5 minuten gedefinieerd. Lees meer over transactionele overseinen SLAs in [ de Beschrijving van het Product van Adobe Campaign Standard ](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html){target="_blank"}.
 
 * Adobe Campaign Standard-integratie wordt ingesteld door middel van een speciale ingebouwde actie in de lijst met acties. Dit moet voor elke zandbak worden gevormd.
 
 * U kunt geen Campaign Standard-actie gebruiken met de kwalificatie Publiek of Lezen publieksactiviteit.
 
-* Een reis kan niet zowel Berichten als Campaign Standard acties gebruiken.
+* Een reis kan niet zowel [ ingebouwde kanaalacties ](../building-journeys/journeys-message.md) als [ de acties van Campaign Standard ](../building-journeys/using-adobe-campaign-standard.md) gebruiken.
 
 ## De handeling configureren {#configure-action}
 
-In Journey Optimizer moet u één actie per transactiemelding configureren. Voer de volgende stappen uit:
+In Journey Optimizer moet u één actie per transactiemelding configureren.
+
+Voer de volgende stappen uit om een Campaign Standard-actie te configureren:
 
 1. Selecteer **[!UICONTROL Configurations]** in de sectie van het menu van het Beleid.
 
@@ -62,7 +64,7 @@ Zodra deze configuratie is voltooid, zijn er drie acties beschikbaar in de categ
 
 ![](assets/journey58.png)
 
-Gebruik de gebeurtenis van de Reacties van de a **&#x200B;**&#x200B;om op het volgen van gegevens met betrekking tot een bericht van Campaign Standard te reageren dat binnen de zelfde reis wordt verzonden:
+Gebruik de gebeurtenis van de Reacties van de a **** om op het volgen van gegevens met betrekking tot een bericht van Campaign Standard te reageren dat binnen de zelfde reis wordt verzonden:
 
 * Voor pushberichten kunnen reizen reageren op geklikte, verzonden of mislukte berichten.
 
