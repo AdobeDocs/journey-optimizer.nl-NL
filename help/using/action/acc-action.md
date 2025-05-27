@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campagne, acc, integratie
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
+source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 >id="ajo_journey_action_acc"
 >title="Handelingen voor Adobe Campaign v7/v8"
 >abstract="Deze integratie is beschikbaar voor Adobe Campaign v7 en v8. Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden van Adobe Campaign Transaction Messaging. De verbinding tussen de Journey Optimizer- en Campagneinstanties wordt door Adobe tijdens de levering ingesteld."
+
+Er is een specifieke aangepaste actie beschikbaar op uw reizen om Adobe Journey Optimizer en Adobe Campaign v7/v8 te integreren.
 
 Deze integratie is beschikbaar voor Adobe Campaign v7/v8 vanaf versie 7.1 en Adobe Campaign v8. Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden van Adobe Campaign Transaction Messaging.
 
@@ -58,7 +60,7 @@ Uit Adobe Campaign:
 
 ## Vereisten {#prerequisites}
 
-In Campagne, moet u een transactiebericht en zijn bijbehorende gebeurtenis tot stand brengen en publiceren. Verwijs naar de [ documentatie van Adobe Campaign ](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=nl-NL#transactional-messaging){target="_blank"} .
+In Campagne, moet u een transactiebericht en zijn bijbehorende gebeurtenis tot stand brengen en publiceren. Verwijs naar de [ documentatie van Adobe Campaign ](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target="_blank"}.
 
 U kunt uw JSON-lading voor elk bericht samenstellen volgens het onderstaande patroon. U gaat deze payload vervolgens plakken tijdens het configureren van de handeling in Journey Optimizer (zie hieronder)
 

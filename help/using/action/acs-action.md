@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campagne, standaard, integratie, plafonnering, actie
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
+source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%
@@ -18,15 +18,15 @@ ht-degree: 0%
 
 # Integreren met Adobe Campaign Standard {#using_adobe_campaign_standard}
 
-U kunt e-mails, pushberichten en SMS verzenden met de mogelijkheden voor Transactieberichten van Adobe Campaign Standard.
-
 Als u Adobe Campaign Standard hebt, is er een ingebouwde actie beschikbaar waarmee u verbinding kunt maken met Adobe Campaign Standard.
+
+U kunt e-mails, pushberichten en SMS verzenden met de mogelijkheden voor Transactieberichten van Adobe Campaign Standard.
 
 Het Campaign Standard-transactiebericht en de bijbehorende gebeurtenis moeten worden gepubliceerd om in Journey Optimizer te kunnen worden gebruikt. Als de gebeurtenis wordt gepubliceerd maar het bericht niet is, is het niet zichtbaar in de interface van Journey Optimizer. Als het bericht wordt gepubliceerd maar zijn bijbehorende gebeurtenis niet, zal het in de interface van Journey Optimizer zichtbaar zijn maar het zal niet bruikbaar zijn.
 
 ## Belangrijke opmerkingen {#important-notes}
 
-* Voor Adobe Campaign Standard-acties wordt automatisch een afluisterregel van 4000 aanroepen per 5 minuten gedefinieerd. Dit komt overeen met de officiële schaal van Transactioneel Overseinen van Adobe Campaign Standard. Lees meer over transactionele overseinen SLAs in [ de Beschrijving van het Product van Adobe Campaign Standard ](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html){target="_blank"} .
+* Voor Adobe Campaign Standard-acties wordt automatisch een afluisterregel van 4000 aanroepen per 5 minuten gedefinieerd. Dit komt overeen met de officiële schaal van Transactioneel Overseinen van Adobe Campaign Standard. Lees meer over transactionele overseinen SLAs in [ de Beschrijving van het Product van Adobe Campaign Standard ](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html){target="_blank"}.
 
 * Adobe Campaign Standard-integratie wordt ingesteld door middel van een speciale ingebouwde actie in de lijst met acties. Dit moet voor elke zandbak worden gevormd.
 

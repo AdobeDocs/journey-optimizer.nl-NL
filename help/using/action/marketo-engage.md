@@ -2,21 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Integreren met Marketo Engage
-description: Leer hoe u de handeling Marketo Engage gebruikt
+description: Meer informatie over het gebruik van de Marketo Engage-actie
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: markt, markt om integratie te bevorderen
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
+source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
 # Integreren met Marketo Engage {#integrating-with-marketo-engage}
+
+Er is een specifieke aangepaste actie beschikbaar op uw reizen om Adobe Journey Optimizer en Marketo Engage te integreren.
 
 Sluit een naadloze gegevensintegratie met Marketo Engage aan. Deze specifieke aangepaste handeling in Journey Optimizer ondersteunt de inname van twee sleutelgegevenstypen:
 
@@ -25,8 +27,8 @@ Sluit een naadloze gegevensintegratie met Marketo Engage aan. Deze specifieke aa
 
 ## Vereisten {#prerequisites}
 
-* De klanteninstantie van Marketo Engage moet IMS-Toegelaten zijn.
-* Het exemplaar van het Marketo Engage en de instantie Adobe Experience Platform/Journey Optimizer moeten in de zelfde organisatie zijn.
+* De klanteninstantie van Marketo Engage moet IMS-ingeschakeld zijn.
+* Marketo Engage-exemplaar en Adobe Experience Platform/Journey Optimizer-exemplaar moeten zich binnen dezelfde organisatie bevinden.
 * De klant moet met **MktoSync worden voorzien: De toegang van de Dienst van de Opname**
 
 ## De handeling configureren {#configure-marketo-action}
@@ -42,7 +44,7 @@ Sluit een naadloze gegevensintegratie met Marketo Engage aan. Deze specifieke aa
 
 ![](assets/engage-customaction-payload.png){width="70%" align="left"}
 
-* Inspect en payloadwaarden configureren
+* Waarden voor nuttige lading controleren en configureren
 Nota: Om waarden dynamisch over te gaan, voor elke gebiedsverandering **Constante** aan **Variabele**.
 
 ![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
