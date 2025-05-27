@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campagne, acc, integratie
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
+source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 0%
+source-wordcount: '553'
+ht-degree: 1%
 
 ---
 
@@ -23,28 +23,29 @@ ht-degree: 0%
 >title="Handelingen voor Adobe Campaign v7/v8"
 >abstract="Deze integratie is beschikbaar voor Adobe Campaign v7 en v8. Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden van Adobe Campaign Transaction Messaging. De verbinding tussen de Journey Optimizer- en Campagneinstanties wordt door Adobe tijdens de levering ingesteld."
 
-Er is een specifieke aangepaste actie beschikbaar op uw reizen om Adobe Journey Optimizer en Adobe Campaign v7/v8 te integreren.
+Als u Adobe Campaign Classic v7 of Campaign v8 hebt, kunt u op uw reizen een specifieke aangepaste actie uitvoeren om Adobe Journey Optimizer en Adobe Campaign te integreren. Dankzij deze integratie kunt u e-mails, pushberichten en SMS verzenden via de mogelijkheden van Adobe Campaign Transaction Messaging. Leer meer in dit [ gebruiksgeval van begin tot eind ](../building-journeys/ajo-ac.md).
 
-Deze integratie is beschikbaar voor Adobe Campaign v7/v8 vanaf versie 7.1 en Adobe Campaign v8. Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden van Adobe Campaign Transaction Messaging.
+Voor elke gevormde actie, is de actie van de a [ Campagne activiteit ](../building-journeys/using-adobe-campaign-v7-v8.md) beschikbaar in het palet van de reisontwerper.
 
-Een gebruiksgeval van begin tot eind wordt voorgesteld in deze [ sectie ](../building-journeys/ajo-ac.md).
+## Activering {#access}
 
-Voor elke gevormde actie, is een actieactiviteit beschikbaar in het palet van de reisontwerper. Verwijs naar deze [ sectie ](../building-journeys/using-adobe-campaign-v7-v8.md).
+Op verzoek wordt de verbinding tussen de Journey Optimizer- en Adobe Campaign-omgevingen door Adobe tijdens de provisioning ingesteld. Als u de verbinding niet op het tijdstip van de levering hebt aangevraagd, neemt u contact op met de ondersteuning van Adobe Journey Optimizer om de activering aan te vragen. U dient de volgende gegevens op te geven:
 
-## Toegang {#access}
+>[!BEGINTABS]
 
-De verbinding tussen de Journey Optimizer- en Campagne-instanties wordt op verzoek door Adobe tijdens de levering ingesteld. Als u op het moment van levering geen verbinding hebt aangevraagd, neemt u contact op met de ondersteuning van Adobe Journey Optimizer. Geef de volgende gegevens op om de activering aan te vragen:
-
-Uit Adobe Journey Optimizer:
+>[!TAB  voor Adobe Journey Optimizer ]
 
 * Organisatie-id (Adobe OrgID)
-* Sandbox
+* Naam sandbox
 
-Uit Adobe Campaign:
+>[!TAB  voor Adobe Campaign ]
 
-* Campagne-URL
-* RT-URL
+* URL campagneserver
+* Real-Time Server-URL
 * Campaign-versie
+
+>[!ENDTABS]
+
 
 ## Belangrijke opmerkingen {#important-notes}
 
@@ -60,13 +61,13 @@ Uit Adobe Campaign:
 
 ## Vereisten {#prerequisites}
 
-In Campagne, moet u een transactiebericht en zijn bijbehorende gebeurtenis tot stand brengen en publiceren. Verwijs naar de [ documentatie van Adobe Campaign ](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=nl-NL#transactional-messaging){target="_blank"}.
+In Adobe Campaign moet u een transactiemelding en de bijbehorende gebeurtenis maken en publiceren. Verwijs naar de [ documentatie van Adobe Campaign ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
 
-U kunt uw JSON-lading voor elk bericht samenstellen volgens het onderstaande patroon. U gaat deze payload vervolgens plakken tijdens het configureren van de handeling in Journey Optimizer (zie hieronder)
+U kunt uw JSON-lading voor elk bericht samenstellen volgens het onderstaande patroon. U gaat deze lading dan kleven wanneer het vormen van de actie in Journey Optimizer (zie hieronder).
 
 Hier volgt een voorbeeld:
 
-```
+```JSON
 {
     "channel": "email",
     "eventType": "welcome",
@@ -79,13 +80,13 @@ Hier volgt een voorbeeld:
 
 * **kanaal**: het kanaal dat voor uw het transactiemalplaatje van de Campagne wordt bepaald
 * **eventType**: de interne naam van uw gebeurtenis van de Campagne
-* **ctx**: variabele die op de personalisatie wordt gebaseerd u in uw bericht hebt.
+* **ctx**: variabele die op de verpersoonlijking wordt gebaseerd u in uw bericht hebt
 
 ## De handeling configureren {#configure-action}
 
 In Journey Optimizer moet u één actie per transactiemelding configureren. Voer de volgende stappen uit:
 
-1. Maak een nieuwe handeling. Verwijs naar deze [ sectie ](../action/action.md).
+1. Maak een nieuwe handeling. [ Leer meer over douaneacties ](../action/action.md).
 1. Voer een naam en beschrijving in.
 1. Op het **type van Actie** gebied, uitgezochte **Adobe Campaign Classic**.
 1. Klik op het **gebied van de Lading** en kleef een voorbeeld van JSON nuttige lading die aan het bericht van de Campagne beantwoordt. Neem contact op met Adobe voor deze lading.
