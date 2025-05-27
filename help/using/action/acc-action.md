@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campagne, acc, integratie
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
+source-git-commit: bf4044bc23b0e7c0ef74e5b612d93cb45ec20242
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 1%
@@ -36,12 +36,15 @@ Op verzoek wordt de verbinding tussen de Journey Optimizer- en Adobe Campaign-om
 >[!TAB  voor Adobe Journey Optimizer ]
 
 * Organisatie-id (Adobe OrgID)
+
 * Naam sandbox
 
 >[!TAB  voor Adobe Campaign ]
 
 * URL campagneserver
+
 * Real-Time Server-URL
+
 * Campaign-versie
 
 >[!ENDTABS]
@@ -61,7 +64,7 @@ Op verzoek wordt de verbinding tussen de Journey Optimizer- en Adobe Campaign-om
 
 ## Vereisten {#prerequisites}
 
-In Adobe Campaign moet u een transactiemelding en de bijbehorende gebeurtenis maken en publiceren. Verwijs naar de [ documentatie van Adobe Campaign ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
+In Adobe Campaign moet u een transactiemelding en de bijbehorende gebeurtenis maken en publiceren. Verwijs naar de [ documentatie van Adobe Campaign ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
 
 U kunt uw JSON-lading voor elk bericht samenstellen volgens het onderstaande patroon. U gaat deze lading dan kleven wanneer het vormen van de actie in Journey Optimizer (zie hieronder).
 
