@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: zandbak, reis, exemplaar, milieu
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 0ad4c6a9024ea91d502ca2a733117f58c63ca50b
+source-git-commit: 25d48a675f49bca6818841bb45ccf31671225e0e
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1250'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 U kunt objecten zoals reizen, aangepaste handelingen, inhoudssjablonen of fragmenten over meerdere sandboxen kopiëren met behulp van de opties voor exporteren en importeren van pakketten. Een pakket kan uit één object of uit meerdere objecten bestaan. Alle objecten die in een pakket zijn opgenomen, moeten afkomstig zijn uit dezelfde sandbox.
 
-Op deze pagina wordt het gebruik-hoofdlettergebruik voor Sandbox-gereedschappen in de context van Journey Optimizer beschreven. Voor meer informatie over de eigenschap zelf, verwijs naar de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=nl-NL).
+Op deze pagina wordt het gebruik-hoofdlettergebruik voor Sandbox-gereedschappen in de context van Journey Optimizer beschreven. Voor meer informatie over de eigenschap zelf, verwijs naar de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Journey Optimizer staat het exporteren van reizen, aangepaste handelingen, inhou
 
 ### Journeys {#journeys}
 
-* Bij het exporteren van een reis kopieert Journey Optimizer naast de reis zelf ook het grootste deel van de objecten waarvan de reis afhankelijk is: publiek, aangepaste acties, schema&#39;s, evenementen en acties. Voor meer details op gekopieerde voorwerpen, verwijs naar deze [ sectie ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=nl-NL#abobe-journey-optimizer-objects).
+* Bij het exporteren van een reis kopieert Journey Optimizer naast de reis zelf ook het grootste deel van de objecten waarvan de reis afhankelijk is: publiek, aangepaste acties, schema&#39;s, evenementen en acties. Voor meer details op gekopieerde voorwerpen, verwijs naar deze [ sectie ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
 
 * We garanderen niet dat alle gekoppelde elementen naar de doelsandbox worden gekopieerd. Wij adviseren ten zeerste dat u een grondige controle uitvoert, bijvoorbeeld alvorens een reis te publiceren. Zo kunt u elk mogelijk ontbrekend object identificeren.
 
@@ -72,7 +72,7 @@ Zorg er bij het kopiëren van campagnes voor dat het hieronder vermelde object i
 
 * **configuraties van het Kanaal**: De configuraties van het kanaal worden gekopieerd samen met campagnes. Nadat de campagnes worden gekopieerd, moeten de kanaalconfiguraties manueel in de doelzandbak worden geselecteerd.
 * **de varianten en montages van de Experimentatie van de Experimentatie**: De experimentele varianten en de montages zijn inbegrepen in het proces van het campagneexemplaar. Valideer deze instellingen in de doelsandbox na het importeren.
-* **Verenigde beslissing**: Het beleid van het besluit en de besluitvormingspunten worden gesteund voor de uitvoer en de invoer. Zorg ervoor dat aan beslissingen gerelateerde afhankelijkheden correct worden toegewezen in de doelsandbox.
+  <!--* **Unified decisioning**: Decision policies and decision items are supported for export and import. Ensure that decision-related dependencies are correctly mapped in the target sandbox.-->
 
 ### Contentsjablonen {#content-templates}
 
@@ -82,17 +82,17 @@ Zorg er bij het kopiëren van campagnes voor dat het hieronder vermelde object i
 
 * Om dubbel werk verder te vermijden, wordt aanbevolen inhoudssjablonen in één pakket te exporteren. Dit zorgt ervoor dat het systeem deduplicatie efficiënt beheert.
 
-### Beslissing {#decisioning}
+<!--### Decisioning {#decisioning}
 
-* De objecten hieronder moeten aanwezig zijn in de doelsandbox voordat u beslissingsobjecten kopieert:
+* The objects below must be present in the destination sandbox before copying Decisioning objects:
 
-   * Profielkenmerken die worden gebruikt voor Decisioning-objecten
-   * De veldgroep aangepaste aanbiedingskenmerken,
-   * De schema&#39;s van gegevensstromen die voor de Attributen van de Context over Regels, het Rangschikken of het Kappen worden gebruikt.
+   * Profile Attributes used across Decisioning objects,
+   * The field group of custom Offer Attributes,
+   * The schemas of Datastreams used for Context Attributes across Rules, Ranking or Capping.
 
-* Sandbox-kopie voor rangschikkingsformules met AI-modellen wordt momenteel niet ondersteund.
+* Sandbox copy for ranking formulas with AI Models is currently not supported.
 
-* Wanneer het kopiëren van Beslissende entiteiten, zorg ervoor u besluitvormingspunten **vóór** om het even welk ander voorwerp kopieert. Als u bijvoorbeeld eerst een verzameling kopieert en de nieuwe sandbox geen aanbiedingen bevat, blijft die nieuwe verzameling leeg.
+* When copying Decisioning entities, make sure you copy decision items **before** any other object. For example, if you copy a collection first, and there are no offers in the new sandbox, then that new collection will remain empty. -->
 
 ### Fragmenten {#fragments}
 
