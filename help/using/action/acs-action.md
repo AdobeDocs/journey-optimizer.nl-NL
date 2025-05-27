@@ -62,7 +62,7 @@ Zodra deze configuratie is voltooid, zijn er drie acties beschikbaar in de categ
 
 ![](assets/journey58.png)
 
-Gebruik de gebeurtenis van de Reacties van de a **** om op het volgen van gegevens met betrekking tot een bericht van Campaign Standard te reageren dat binnen de zelfde reis wordt verzonden:
+Gebruik de gebeurtenis van de Reacties van de a **&#x200B;**&#x200B;om op het volgen van gegevens met betrekking tot een bericht van Campaign Standard te reageren dat binnen de zelfde reis wordt verzonden:
 
 * Voor pushberichten kunnen reizen reageren op geklikte, verzonden of mislukte berichten.
 
