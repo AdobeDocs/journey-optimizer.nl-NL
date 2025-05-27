@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 8538018f5c30b0c3c9c1df5726276c2e87e64149
+source-git-commit: c48763c2b0ef6b6eaeb39948b01877ac874f6893
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 0%
+source-wordcount: '932'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ De Asset-kiezer ondersteunt nu Dynamische media waarmee u goedgekeurde dynamisch
 
 Deze integratie is alleen beschikbaar voor klanten die Dynamic Media Manager as a Cloud Service gebruiken.
 
-Meer over Dynamische Media in Adobe Experience Manager as a Cloud Service leren, verwijs naar [ documentatie van Experience Manager ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}.
+Meer over Dynamische Media in Adobe Experience Manager as a Cloud Service leren, verwijs naar [ documentatie van Experience Manager ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}.
 
 >[!AVAILABILITY]
 >
@@ -30,9 +30,14 @@ Meer over Dynamische Media in Adobe Experience Manager as a Cloud Service leren,
 
 ## Dynamische media toevoegen en beheren {#dynamic-media}
 
+>[!IMPORTANT]
+>
+>Zorg ervoor dat Dynamic Media met OpenAPI is ingeschakeld in Adobe Experience Manager as a Cloud Service. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis)
+
+
 Verbeter en optimaliseer uw inhoud voor om het even welk scherm of browser door dynamische media van Adobe Experience Manager as a Cloud Service direct in uw inhoud van Journey Optimizer op te nemen.  Vervolgens kunt u het formaat van de aanpassingen desgewenst aanpassen, uitsnijden, verbeteren en andere aanpassingen aanbrengen.
 
-Merk op dat de Dynamische media voor zowel Dynamische Media [ wijze Scene7 ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} als [ met OpenAPI ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} beschikbaar is.
+Merk op dat de Dynamische media voor zowel Dynamische Media [ wijze Scene7 ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} als [ met OpenAPI ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} beschikbaar is.
 
 1. Sleep een **[!UICONTROL HTML component]** naar de inhoud.
 
@@ -50,7 +55,7 @@ Merk op dat de Dynamische media voor zowel Dynamische Media [ wijze Scene7 ](htt
 
 1. Pas de afbeeldingsparameters (bijv. hoogte, breedte, roteren, spiegelen, helderheid, kleurtoon, enz.) naar wens aan de vereisten voor het element aan.
 
-   Voor een uitvoerige lijst van beeldparameters die aan URL kunnen worden toegevoegd, verwijs naar [ documentatie van Experience Manager ](https://experienceleague.adobe.com/nl/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference){target="_blank"}.
+   Voor een uitvoerige lijst van beeldparameters die aan URL kunnen worden toegevoegd, verwijs naar [ documentatie van Experience Manager ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference){target="_blank"}.
 
    ![](assets/dynamic-media-3.png)
 
@@ -66,7 +71,7 @@ Met de experimentatiefunctionaliteit kunt u bijvoorbeeld de bestaande tekstbedek
 
 ![](assets/dynamic-media-layout-1.png)
 
-Merk op dat **de bedekking van de Tekst verpersoonlijking** uitsluitend op Dynamische Media [ wijze Scene7 ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} beschikbaar is. Aangezien de wijze Scene7 niet toegankelijk voor klanten van de Gezondheid is, wordt de inhoud teruggegeven gebruikend een binaire kopie van Journey Optimizer van het beeld. Neem voor alle uitzonderingen contact op met de ondersteuning van Experience Manager.
+Merk op dat **de bedekking van de Tekst verpersoonlijking** uitsluitend op Dynamische Media [ wijze Scene7 ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} beschikbaar is. Aangezien de wijze Scene7 niet toegankelijk voor klanten van de Gezondheid is, wordt de inhoud teruggegeven gebruikend een binaire kopie van Journey Optimizer van het beeld. Neem voor alle uitzonderingen contact op met de ondersteuning van Experience Manager.
 
 1. Sleep een **[!UICONTROL HTML component]** naar de inhoud.
 
@@ -105,9 +110,9 @@ Uw inhoud bevat nu uw bijgewerkte tekstbedekking.
 
 Voeg uw Dynamic Media-sjabloon eenvoudig toe in Journey Optimizer en werk uw media-inhoud waar nodig bij. U kunt nu aanpassingsvelden opnemen in uw media, zodat u in Journey Optimizer meer aangepaste en aantrekkelijke inhoud kunt maken.
 
-Merk op dat **Dynamisch media malplaatje** uitsluitend op Dynamische Media [ wijze Scene7 ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/dynamic/config-dms7) beschikbaar is. Aangezien de wijze Scene7 niet toegankelijk voor klanten van de Gezondheidszorg is, zal de inhoud niet worden teruggegeven. Neem voor alle uitzonderingen contact op met de ondersteuning van Experience Manager.
+Merk op dat **Dynamisch media malplaatje** uitsluitend op Dynamische Media [ wijze Scene7 ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7) beschikbaar is. Aangezien de wijze Scene7 niet toegankelijk voor klanten van de Gezondheidszorg is, zal de inhoud niet worden teruggegeven. Neem voor alle uitzonderingen contact op met de ondersteuning van Experience Manager.
 
-Leer meer over [ Dynamische media malplaatje ](https://experienceleague.adobe.com/nl/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics){target="_blank"}.
+Leer meer over [ Dynamische media malplaatje ](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics){target="_blank"}.
 
 ### Met afbeeldingscomponent {#image-component}
 
@@ -127,7 +132,7 @@ U kunt de dynamische sjabloon rechtstreeks in de inhoud invoegen met behulp van 
 
 1. In de **montages van het Beeld**, navigeer om tot de parameters van uw dynamisch media malplaatje toegang te hebben.
 
-   De beschikbare gebieden hangen van de parameters af die tijdens de [ malplaatjeverwezenlijking ](https://experienceleague.adobe.com/nl/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters){target="_blank"} in Adobe Experience Manager worden toegevoegd.
+   De beschikbare gebieden hangen van de parameters af die tijdens de [ malplaatjeverwezenlijking ](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters){target="_blank"} in Adobe Experience Manager worden toegevoegd.
 
    ![](assets/dynamic-media-template-3.png)
 
