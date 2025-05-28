@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: campagnes, status, planning, toegang, optimaliseren beheren
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
+source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 1%
+source-wordcount: '842'
+ht-degree: 0%
 
 ---
 
@@ -26,8 +26,8 @@ Daarnaast kunt u live campagnes (die één keer of met een terugkerende uitvoeri
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_view"
->title="Tabel- en tijdlijnweergaven van CAmpaigreert"
->abstract="Campagne voor tabel- en tijdlijnweergaven"
+>title="Lijst- en kalenderweergaven van campagnes"
+>abstract="Naast de lijst met campagnes biedt [!DNL Journey Optimizer] een kalenderweergave van uw campagnes en een duidelijke visuele weergave van hun programma&#39;s. Met deze knoppen kunt u op elk gewenst moment schakelen tussen de lijst- en de kalenderweergave."
 
 Campagnes zijn toegankelijk via het menu **[!UICONTROL Campaigns]** .
 
@@ -35,7 +35,35 @@ Standaard worden in de lijst alle campagnes met de statussen **[!UICONTROL Draft
 
 ![](assets/create-campaign-list.png)
 
-Bovendien kunt u de lijst filteren op basis van het type en het kanaal van de campagne of de tags die aan de campagnes zijn toegewezen tijdens het maken van de campagnes. [ Leer hoe te om markeringen aan een campagne toe te wijzen ](create-campaign.md#create)
+U kunt de lijst ook filteren op basis van het type en het kanaal van de campagne of de tags die aan de campagnes zijn toegewezen tijdens het maken van de campagnes. [ Leer hoe te om markeringen aan een campagne toe te wijzen ](create-campaign.md#create)
+
+## Campagne-kalender {#calendar}
+
+Naast de lijst met campagnes biedt [!DNL Journey Optimizer] een kalenderweergave van uw campagnes en een duidelijke visuele weergave van hun programma&#39;s.
+
+>[!AVAILABILITY]
+>
+>De kalenderweergave is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Om toegang te verzoeken, gebruik [ deze vorm ](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
+>
+>Deze functie is actief ontwikkeld. We verwelkomen uw invoer en verzoeken met de knop **[!UICONTROL Beta Feedback]** in het bovenste menu.
+
+In de kalender worden alle campagnes weergegeven die voor de huidige week zijn gepland. Gebruik de pijlknoppen boven de kalender om tussen weken te navigeren.
+
+![ kalendermening die levende campagnes tonen ](assets/campaigns-timeline.png)
+
+Hoe campagnes worden vertegenwoordigd:
+
+* Standaard worden in het kalenderraster alle live en geplande campagnes voor de geselecteerde week weergegeven. Aanvullende filteropties kunnen voltooide, gestopt en voltooide activeringen of activeringen van een bepaald type of kanaal weergeven.
+* Conceptcampagnes worden niet weergegeven.
+* Campagnes die meerdere dagen beslaan, worden boven in het kalenderraster weergegeven.
+* Als er geen begintijd is opgegeven, wordt de dichtstbijzijnde handmatige activeringstijd gebruikt om deze in de kalender te plaatsen.
+* Campagnes worden getoond als timespans van 1 uur, maar dit weerspiegelt geen daadwerkelijke verzend of voltooiingstijd.
+
+Voor meer informatie over een campagne klikt u op het visuele blok om de details ervan te openen.
+
+Als u details voor een specifieke campagne wilt weergeven, selecteert u deze in de lijst. Er wordt een informatievenster geopend met verschillende informatie over de campagne, zoals het type, de toegang tot de rapporten of de tags die zijn toegewezen.
+
+![ campagnemijst met de informatieruit geopend ](assets/campaign-rail.png)
 
 ## Statistieken en waarschuwingen voor campagnes {#statuses}
 

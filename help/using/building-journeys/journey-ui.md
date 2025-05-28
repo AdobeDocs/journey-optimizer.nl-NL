@@ -9,40 +9,70 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
+source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 3%
+source-wordcount: '1146'
+ht-degree: 2%
 
 ---
 
 # Bladeren en uw reizen filteren {#browse-journeys}
 
-## Reisdashboard {#dashboard-jo}
-
 >[!CONTEXTUALHELP]
 >id="ajo_journey_view"
->title="Reistabel- en tijdlijnweergaven"
->abstract="Reistabel- en tijdlijnweergaven"
+>title="Reislijst en kalenderweergaven"
+>abstract="Naast de lijst met ritten geeft [!DNL Journey Optimizer] een kalenderweergave van uw reizen, met een duidelijke visuele weergave van hun dienstregelingen. Met deze knoppen kunt u op elk gewenst moment schakelen tussen de lijst- en de kalenderweergave."
+
+## Reisdashboard {#dashboard-jo}
 
 Klik in de menusectie JOURNEY MANAGEMENT op **[!UICONTROL Journeys]** . Er zijn twee tabbladen beschikbaar: **[!UICONTROL Overview]** en **[!UICONTROL Browse]** .
 
-* Op het tabblad **[!UICONTROL Overview]** wordt een dashboard weergegeven met de belangrijkste maatstaven voor uw reizen.
+### Overzicht van reizen
 
-  ![ reis dashboard die het Overzicht tabel ](assets/journeys-dashboard.png) benadrukken
+Op het tabblad **[!UICONTROL Overview]** wordt een dashboard weergegeven met de belangrijkste maatstaven voor uw reizen.
 
-   * **verwerkte Profielen**: totaal aantal profielen die in de laatste 24 uren worden verwerkt
-   * **Levende reizen**: totaal aantal levende reizen met verkeer over de laatste 24 uren. De actieve reizen omvatten **Eenheids reizen** (gebeurtenis-gebaseerd) en **ritten van de Partij** (gelezen publiek).
-   * **tarief van de Fout**: verhouding van alle profielen in fout vergeleken met het totale aantal profielen die over de laatste 24 uren inging.
-   * **verwerpt tarief**: verhouding van alle verworpen profielen vergeleken met het totale aantal profielen die de afgelopen 24 uren inging. Een weggegooid profiel vertegenwoordigt iemand die niet in aanmerking komt om de reis binnen te gaan, bijvoorbeeld vanwege een onjuiste naamruimte of vanwege toegangsregels.
+![ reis dashboard die het Overzicht tabel ](assets/journeys-dashboard.png) benadrukken
 
-  >[!NOTE]
-  >
-  >Dit dashboard houdt rekening met de reizen met verkeer in de afgelopen 24 uur. Alleen de reizen waartoe u toegang hebt, worden weergegeven. De metriek worden verfrist om de 30 minuten en slechts wanneer de nieuwe gegevens beschikbaar zijn.
+* **verwerkte Profielen**: totaal aantal profielen die in de laatste 24 uren worden verwerkt
+* **Levende reizen**: totaal aantal levende reizen met verkeer over de laatste 24 uren. De actieve reizen omvatten **Eenheids reizen** (gebeurtenis-gebaseerd) en **ritten van de Partij** (gelezen publiek).
+* **tarief van de Fout**: verhouding van alle profielen in fout vergeleken met het totale aantal profielen die over de laatste 24 uren inging.
+* **verwerpt tarief**: verhouding van alle verworpen profielen vergeleken met het totale aantal profielen die de afgelopen 24 uren inging. Een weggegooid profiel vertegenwoordigt iemand die niet in aanmerking komt om de reis binnen te gaan, bijvoorbeeld vanwege een onjuiste naamruimte of vanwege toegangsregels.
 
-* Op het tabblad **[!UICONTROL Browse]** wordt de lijst met bestaande reizen weergegeven. U kunt reizen zoeken, filters gebruiken en basishandelingen op elk element uitvoeren. U kunt bijvoorbeeld een item dupliceren of verwijderen.
+>[!NOTE]
+>
+>Dit dashboard houdt rekening met de reizen met verkeer in de afgelopen 24 uur. Alleen de reizen waartoe u toegang hebt, worden weergegeven. De metriek worden verfrist om de 30 minuten en slechts wanneer de nieuwe gegevens beschikbaar zijn.
 
-  ![ reis dashboard die het Browse lusje benadrukt ](assets/journeys-browse.png)
+### Reizigerslijst
+
+Op het tabblad **[!UICONTROL Browse]** wordt de lijst met bestaande reizen weergegeven. U kunt reizen zoeken, filters gebruiken en basishandelingen op elk element uitvoeren. U kunt bijvoorbeeld een item dupliceren of verwijderen.
+
+![ reis dashboard die het Browse lusje benadrukt ](assets/journeys-browse.png)
+
+### Reizigerskalender {#calendar}
+
+Naast de lijst met ritten geeft [!DNL Journey Optimizer] een kalenderweergave van uw reizen, met een duidelijke visuele weergave van hun dienstregelingen.
+
+>[!AVAILABILITY]
+>
+>De kalenderweergave is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Om toegang te verzoeken, gebruik [ deze vorm ](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
+>
+>Deze functie is actief ontwikkeld. We verwelkomen uw invoer en verzoeken met de knop **[!UICONTROL Beta Feedback]** in het bovenste menu.
+
+Om tot de kalendermening toegang te hebben, open de reislijst en klik het ![ pictogram van de Kalender ](assets/do-not-localize/timeline-icon.svg) pictogram.
+
+In de kalender worden alle reizen weergegeven die voor de huidige week zijn gepland. Gebruik de pijlknoppen boven de kalender om tussen weken te navigeren.
+
+![ kalendermening die levende reizen tonen ](assets/timeline-journeys.png)
+
+Hoe reizen worden vertegenwoordigd:
+
+* Standaard worden in het rooster alle actieve en geplande reizen voor de geselecteerde week weergegeven. Extra filteropties kunnen voltooide, gestopt en voltooide activeringen of activeringen tonen.
+* Conceptreizen en ritten in testmodus worden niet weergegeven.
+* Reizen die meerdere dagen beslaan, worden boven in het kalenderraster weergegeven.
+* Als er geen begintijd is opgegeven, wordt de dichtstbijzijnde handmatige activeringstijd gebruikt om deze in de kalender te plaatsen.
+* De reizen worden getoond als timespans van 1 uur, maar dit weerspiegelt geen daadwerkelijke verzend of voltooiingstijd.
+
+Voor meer details op een reis, klik zijn visueel blok om zijn details te openen en te onderzoeken.
 
 In de reislijst, worden alle reisversies getoond met het versieaantal. Wanneer u een reis zoekt, verschijnen de nieuwste versies bij de eerste keer dat de toepassing wordt geopend boven aan de lijst. Vervolgens kunt u de gewenste sortering definiëren en wordt deze door de toepassing als gebruikervoorkeur behouden. De versie van de reis wordt ook weergegeven boven aan de interface van de reiseditie, boven het canvas. Leer meer over [ beheer van de reisversie ](publishing-the-journey.md#journey-versions-journey-versions).
 
@@ -68,7 +98,6 @@ Daarnaast wordt in het configuratievenster Gebeurtenis, Gegevensbron en Handelin
 
 ![](assets/journey3bis.png)
 
-
 ## Soorten reizen {#journey-types}
 
 Het soort reis hangt af van de activiteiten die in die reis worden gebruikt. Het kan zijn:
@@ -88,9 +117,9 @@ De reisstatus hangt af van de levenscyclus. Het kan zijn:
 * **Gesloten**: de reis is gesloten gebruikend **dicht aan nieuwe ingangen** knoop. De reis houdt in dat nieuwe individuen de reis kunnen betreden. Personen die al onderweg zijn, kunnen de reis normaal afmaken.
 * **Ontwerp**: de reis is in zijn eerste stadium. Het is nog niet gepubliceerd.
 * **Ontwerp (Test)**: de testwijze is geactiveerd gebruikend de **wijze van de Test** knoop.
-* **Voltooid**: De reis schakelt automatisch aan deze status na de globale onderbreking 91 dag [&#128279;](journey-properties.md#global_timeout). Profielen die al op reis zijn, worden normaal afgehandeld. Nieuwe profielen kunnen niet langer de reis betreden.
+* **Voltooid**: De reis schakelt automatisch aan deze status na de globale onderbreking 91 dag [ ](journey-properties.md#global_timeout). Profielen die al op reis zijn, worden normaal afgehandeld. Nieuwe profielen kunnen niet langer de reis betreden.
 * **Levend**: de reis is gepubliceerd gebruikend **publiceer** knoop.
-* **Gestopt**: de reis is uitgezet gebruikend de **3&rbrace; knoop van het Einde &lbrace;.** Alle individuen sluiten onmiddellijk de reis.
+* **Gestopt**: de reis is uitgezet gebruikend de **3} knoop van het Einde {.** Alle individuen sluiten onmiddellijk de reis.
 
 >[!NOTE]
 >
