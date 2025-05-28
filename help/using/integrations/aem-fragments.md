@@ -50,9 +50,9 @@ Voordat u het inhoudsfragment in Journey Optimizer kunt gebruiken, moet u een sp
 
 1. Klik **creëren**.
 
-1. Bepaal uw Model van het Fragment van de Inhoud zoals die in [ wordt gedetailleerd de documentatie van Experience Manager ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"} en wijs uw pas gecreëerde markering van Journey Optimizer toe.
+1. Bepaal uw Model van het Fragment van de Inhoud zoals die in [ wordt gedetailleerd de documentatie van Experience Manager ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"} en wijs uw pas gecreëerde markering van Journey Optimizer toe.
 
-U kunt nu beginnen met het maken en configureren van het inhoudsfragment voor later gebruik in Journey Optimizer. Leer meer in [ documentatie van Experience Manager ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}.
+U kunt nu beginnen met het maken en configureren van het inhoudsfragment voor later gebruik in Journey Optimizer. Leer meer in [ documentatie van Experience Manager ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}.
 
 ## Experience Manager-inhoudsfragmenten toevoegen {#aem-add}
 
