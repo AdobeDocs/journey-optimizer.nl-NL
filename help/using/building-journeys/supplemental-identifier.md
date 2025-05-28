@@ -3,9 +3,9 @@ title: Aanvullende identificatiecode bij door gebeurtenissen veroorzaakte reizen
 description: Leer hoe u een aanvullende id kunt gebruiken tijdens een door een gebeurtenis geïnitieerde reis.
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 3ed75f1193b1a580183d8ee148792ec136d281cd
+source-git-commit: e7f4959ceaa238e39858196b08d739053b21835c
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -164,11 +164,11 @@ Voer de volgende stappen uit als u een aanvullende id wilt gebruiken voor een ri
 
 ### **Beheer van het Abonnement**
 
-* **Scenario**: De abonnementendienst verzendt op maat gemaakte berichten voor elk abonnement verbonden aan een klantenprofiel.
+* **Scenario**: De abonnementendienst verzendt op maat gemaakte berichten voor elk abonnement wanneer een gebeurtenis voor dat abonnement wordt teweeggebracht.
 * **Uitvoering**:
    * Profiel: &quot;Jane&quot;.
-   * Aanvullende id&#39;s: `"Luma Yoga Program ", "Luma Fitness PlPrograman"`.
-   * De reis voert afzonderlijk voor elk abonnement, met gepersonaliseerde vernieuwingsaanbiedingen uit.
+   * Aanvullende id&#39;s: `"Luma Yoga Program ", "Luma Fitness Program"`.
+   * Elke gebeurtenis bevat een abonnement-id en gegevens over dat abonnement. De reis voert afzonderlijk voor elke gebeurtenis/abonnement uit, die gepersonaliseerde vernieuwingsaanbiedingen per abonnement toestaat.
 
 ### **Aanbevelingen van het Product**
 
