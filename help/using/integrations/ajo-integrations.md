@@ -7,7 +7,7 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: b9ec22318baf888ba5d1ed3b1b7c64b658785cc1
+source-git-commit: 25eba9f5e738f669edbef8725328dba958b555b6
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 1%
@@ -65,7 +65,7 @@ With Adobe Journey Optimizer, you can create custom-tailored messages through Ad
 
 Door Adobe Experience Manager te integreren met Adobe Journey Optimizer, kunt u nu uw AEM Content Fragments naadloos opnemen in uw Journey Optimizer e-mailinhoud. Deze gestroomlijnde verbinding vereenvoudigt het proces van toegang tot en gebruik van AEM-inhoud, waardoor persoonlijke en dynamische campagnes en reizen kunnen worden gemaakt.
 
-[![ leer meer ](../assets/do-not-localize/try-it-button.svg)](../integrations/aem-fragments.md)
+[![ leer meer ](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-fragments.md)
 
 >[!TAB  Dynamische Media ]
 
@@ -123,7 +123,7 @@ Met de Adobe Journey Optimizer-modules in Adobe Workfront kunt u records maken, 
 
 Een overzicht van de belangrijkste stap van deze integratie is beschikbaar [ in dit blogbericht ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
 
-Leer meer over Journey Optimizer + Adobe Workfront [ in de documentatie van Adobe Workfront ](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=nl-NL){target="_blank"}.
+Leer meer over Journey Optimizer + Adobe Workfront [ in de documentatie van Adobe Workfront ](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html){target="_blank"}.
 
 ## Aangepaste kanalen {#integration-custom}
 
