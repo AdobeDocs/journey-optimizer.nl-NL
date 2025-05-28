@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 8538018f5c30b0c3c9c1df5726276c2e87e64149
+source-git-commit: 7098a643c8026ed00f83a66fd45f957c2403a569
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Door Adobe Experience Manager as a Cloud Service te integreren met Adobe Journey Optimizer, kunt u nu uw AEM-inhoudsfragmenten naadloos opnemen in uw Journey Optimizer-inhoud. Deze gestroomlijnde verbinding vereenvoudigt het proces van toegang tot en gebruik van AEM-inhoud, waardoor persoonlijke en dynamische campagnes en reizen kunnen worden gemaakt.
 
-Meer over de Fragmenten van de Inhoud van AEM leren, verwijs naar [ Werkend met de Fragmenten van de Inhoud ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/overview){target="_blank"} in de documentatie van Experience Manager.
+Meer over de Fragmenten van de Inhoud van AEM leren, verwijs naar [ Werkend met de Fragmenten van de Inhoud ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} in de documentatie van Experience Manager.
 
 >[!AVAILABILITY]
 >
@@ -31,6 +31,8 @@ Meer over de Fragmenten van de Inhoud van AEM leren, verwijs naar [ Werkend met 
 * Voor meertalige inhoud wordt alleen de handmatige stroom ondersteund.
 
 * Variaties worden momenteel niet ondersteund.
+
+* Het bewijs voor gepubliceerde campagne en reis weerspiegelt de gegevens van de recentste publicatie van het de fragmenten van de Inhoud van Experience Manager.
 
 ## Een tag maken en toewijzen in Experience Manager
 
@@ -48,9 +50,9 @@ Voordat u het inhoudsfragment in Journey Optimizer kunt gebruiken, moet u een sp
 
 1. Klik **creëren**.
 
-1. Bepaal uw Model van het Fragment van de Inhoud zoals die in [ wordt gedetailleerd de documentatie van Experience Manager ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"} en wijs uw pas gecreëerde markering van Journey Optimizer toe.
+1. Bepaal uw Model van het Fragment van de Inhoud zoals die in [ wordt gedetailleerd de documentatie van Experience Manager ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"} en wijs uw pas gecreëerde markering van Journey Optimizer toe.
 
-U kunt nu beginnen met het maken en configureren van het inhoudsfragment voor later gebruik in Journey Optimizer. Leer meer in [ documentatie van Experience Manager ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}.
+U kunt nu beginnen met het maken en configureren van het inhoudsfragment voor later gebruik in Journey Optimizer. Leer meer in [ documentatie van Experience Manager ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}.
 
 ## Experience Manager-inhoudsfragmenten toevoegen {#aem-add}
 
@@ -120,4 +122,4 @@ In dit geval, zorg ervoor **_variableName_** alvorens fragmentidentiteitskaart t
 
 Zodra u uw tests hebt uitgevoerd en de inhoud bevestigd, kunt u [ uw campagne ](../campaigns/review-activate-campaign.md) verzenden of [ uw reis ](../building-journeys/publishing-the-journey.md) aan uw publiek publiceren.
 
-Met Adobe Experience Manager kunt u de Journey Optimizer-campagnes of -reizen identificeren waar een inhoudsfragment wordt gebruikt.
+Met Adobe Experience Manager kunt u de Journey Optimizer-campagnes of -reizen identificeren waar een inhoudsfragment wordt gebruikt. Leer meer in [ documentatie van Adobe Experience Manager ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references).
