@@ -5,7 +5,7 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 8%
@@ -25,8 +25,8 @@ De leveringstijd komt overeen met het aantal beslissingsreacties dat binnen een 
 | Guardrail | Limiet |
 | ------- | ------- |
 | API-aanvragen voor besluitvorming per seconde | 500 |
-| Edge-API-aanvragen voor besluitvorming per seconde met Edge Segmentation | 1500 |
-| Edge-API-aanvragen voor besluitvorming per seconde zonder Edge-segmentatie | 5000 |
+| Edge-API-aanvragen voor besluitvorming per seconde met Edge Segmentation | 1.500 |
+| Edge-API-aanvragen voor besluitvorming per seconde zonder Edge-segmentatie | 5.000 |
 | Teruggestuurde voorstellen per reactie | Maximaal 30 per beslissingsbereik of 100 in totaal |
 | Maximumaantal biedregels per aanvraag | 100 |
 
@@ -51,7 +51,7 @@ De leveringstijd komt overeen met het aantal beslissingsreacties dat binnen een 
 | Guardrail | Limiet |
 | ------- | ------- |
 | Verzamelingskwalificatie per aanbieding of verzameling | 20 |
-| Totaal aantal verzamelingskwalificaties | 1000 |
+| Totaal aantal verzamelingskwalificaties | 1.000 |
 
 ## Aanbiedingen
 

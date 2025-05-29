@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: extern, API, optimaliseren, aftopping
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 48%
@@ -82,7 +82,7 @@ Voorbeeld:
 
 >[!IMPORTANT]
 >
->De configuratie zal slechts actief na het roepen van **&#x200B;**&#x200B;eindpunt opstellen.
+>De configuratie zal slechts actief na het roepen van **** eindpunt opstellen.
 
 ## Fouten
 
@@ -101,7 +101,7 @@ Bij het maken of bijwerken van een configuratie valideert het proces de gegeven 
 Bij het maken, verwijderen of implementeren van een beperkingsconfiguratie kunnen de volgende fouten optreden:
 
 * **ERR_THROTTLING_CONFIG_100**: beperkingsconfig: `<mandatory attribute>` vereist
-* **ERR_THROTTLING_CONFIG_101**: beperkingsconfig: maxThroughput is vereist en moet groter zijn dan of gelijk aan 200 en kleiner dan of gelijk aan 5000
+* **ERR_THROTTLING_CONFIG_101**: beperkingsconfig: maxThroughput is vereist en moet groter zijn dan of gelijk aan 200 en kleiner dan of gelijk aan 5.000
 * **ERR_THROTTLING_CONFIG_104**: beperkingsconfig: niet-welgevormd URL-patroon
 * **ERR_THROTTLING_CONFIG_105**: beperkingsconfig: jokers zijn niet toegestaan in het hostgedeelte van het URL-patroon
 * **ERR_THROTTLING_CONFIG_106**: beperkingsconfig: ongeldige payload
@@ -343,7 +343,7 @@ API-aanroepen voor gebruik:
 
 +++
 
-+++ schrap een opgestelde throttingconfiguratie
+++ + schrap een opgestelde throttingconfiguratie
 
 In slechts één API-aanroep kunt u de configuratie met behulp van de parameter `forceDelete` verwijderen en de implementatie ervan ongedaan maken.
 
@@ -354,7 +354,7 @@ API-aanroepen voor gebruik:
 
 +++
 
-+++ Update een reeds opgezette throttingconfiguratie
+++ + Update een reeds opgezette throttingconfiguratie
 
 >[!NOTE]
 >

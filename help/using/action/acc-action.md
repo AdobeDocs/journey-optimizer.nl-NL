@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campagne, acc, integratie
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 14a10c742ab40c5e3bdb545f595d28e25b535fdc
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -61,11 +61,11 @@ Op verzoek wordt de verbinding tussen de Journey Optimizer- en Adobe Campaign-om
 
 ## Vereisten {#prerequisites}
 
-In Adobe Campaign moet u een transactiemelding en de bijbehorende gebeurtenis maken en publiceren. Verwijs naar de [ documentatie van Adobe Campaign ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
+In Adobe Campaign moet u een transactiemelding en de bijbehorende gebeurtenis maken en publiceren. Verwijs naar de [ documentatie van Adobe Campaign ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
 
 U kunt uw JSON-lading voor elk bericht samenstellen volgens het onderstaande patroon. U gaat deze lading dan kleven wanneer het vormen van de actie in Journey Optimizer (zie hieronder).
 
-Hier volgt een voorbeeld:
++++ Voorbeeld
 
 ```json
 {
@@ -82,15 +82,19 @@ Hier volgt een voorbeeld:
 * **eventType**: de interne naam van uw gebeurtenis van de Campagne
 * **ctx**: variabele die op de verpersoonlijking wordt gebaseerd u in uw bericht hebt
 
++++
+
 ## De handeling configureren {#configure-action}
 
-In Journey Optimizer moet u één actie per transactiemelding configureren. Voer de volgende stappen uit:
+In Journey Optimizer moet u één actie per transactiemelding configureren.
 
-1. Maak een nieuwe handeling. [ Leer meer over douaneacties ](../action/action.md).
+Ga als volgt te werk om een Campagne te maken:
+
+1. Maak een nieuwe handeling. [ Leer hoe te om douaneacties ](../action/action.md) tot stand te brengen.
 1. Voer een naam en beschrijving in.
 1. Op het **type van Actie** gebied, uitgezochte **Adobe Campaign Classic**.
+   ![](assets/accintegration1.png)
 1. Klik op het **gebied van de Lading** en kleef een voorbeeld van JSON nuttige lading die aan het bericht van de Campagne beantwoordt. Neem contact op met Adobe voor deze lading.
-1. Pas de verschillende velden aan op statisch of variabel, afhankelijk van de vraag of u ze wilt toewijzen op het canvas Reis. Bepaalde gebieden, zoals kanaalparameters voor e-mailadres en verpersoonlijkingsgebieden (ctx), wilt u waarschijnlijk bepaald als variabelen voor afbeelding in de context van de reis.
+1. Stel elk veld in op statisch of variabel op basis van de vraag of u het wilt toewijzen op het canvas Journey. Bijvoorbeeld, zouden de gebieden zoals de parameters van het e-mailkanaal en verpersoonlijkingsgebieden (`ctx`) typisch als variabelen moeten worden geplaatst zodat kunnen zij zich dynamisch binnen de reis aanpassen.
 1. Klik **sparen**.
 
-![](assets/accintegration1.png)
