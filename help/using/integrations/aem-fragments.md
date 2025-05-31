@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Door Adobe Experience Manager as a Cloud Service te integreren met Adobe Journey Optimizer, kunt u nu uw AEM-inhoudsfragmenten naadloos opnemen in uw Journey Optimizer-inhoud. Deze gestroomlijnde verbinding vereenvoudigt het proces van toegang tot en gebruik van AEM-inhoud, waardoor persoonlijke en dynamische campagnes en reizen kunnen worden gemaakt.
 
-Meer over de Fragmenten van de Inhoud van AEM leren, verwijs naar [ Werkend met de Fragmenten van de Inhoud ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} in de documentatie van Experience Manager.
+Meer over de Fragmenten van de Inhoud van AEM leren, verwijs naar [ Werkend met de Fragmenten van de Inhoud ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} in de documentatie van Experience Manager.
 
 >[!AVAILABILITY]
 >
@@ -122,4 +122,4 @@ In dit geval, zorg ervoor **_variableName_** alvorens fragmentidentiteitskaart t
 
 Zodra u uw tests hebt uitgevoerd en de inhoud bevestigd, kunt u [ uw campagne ](../campaigns/review-activate-campaign.md) verzenden of [ uw reis ](../building-journeys/publishing-the-journey.md) aan uw publiek publiceren.
 
-Met Adobe Experience Manager kunt u de Journey Optimizer-campagnes of -reizen identificeren waar een inhoudsfragment wordt gebruikt. Leer meer in [ documentatie van Adobe Experience Manager ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references).
+Met Adobe Experience Manager kunt u de Journey Optimizer-campagnes of -reizen identificeren waar een inhoudsfragment wordt gebruikt. Leer meer in [ documentatie van Adobe Experience Manager ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references).
