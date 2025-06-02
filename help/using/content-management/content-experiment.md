@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: inhoud, experiment, meerdere, publiek, behandeling
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: c1dc65616219520a72416a62399f7c2dbca7ca77
+source-git-commit: 348a1c0bfaca1abe7fd5705b36879af30da18e54
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '1166'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 
 ![](assets/content_experiment.png)
 
-➡️ leren hoe te om inhoudexperimenten te gebruiken om besluiten met het op code-gebaseerde ervaringskanaal in [ te vergelijken dit gebruiksgeval ](../experience-decisioning/experience-decisioning-uc.md).
+➡️ Leer hoe te om inhoudexperimenten te gebruiken om besluiten met het op code-gebaseerde ervaringskanaal in [ te vergelijken dit gebruiksgeval ](../experience-decisioning/experience-decisioning-uc.md).
 
 ## Uw inhoud maken {#campaign-experiment}
 
@@ -102,6 +102,8 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 
    ![](assets/content_experiment_13.png)
 
+1. Laat het auto-schaalexperiment toe om de winnende variatie van uw experiment automatisch uit te rollen. [ Leer meer op hoe te om winnaar te schrapen ](#scale-winner)
+
 1. Klik op **[!UICONTROL Create]** wanneer de configuratie is ingesteld.
 
 ## Uw behandelingen ontwerpen {#treatment-experiment}
@@ -127,4 +129,80 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 1. Nadat de inhoud van uw bericht is gedefinieerd, klikt u op de knop **[!UICONTROL Simulate content]** om de weergave van uw levering te bepalen en controleert u instellingen voor de personalisatie met testprofielen. [Meer informatie](../content-management/preview-test.md)
 
 Na het vormen van uw experimenteren, kunt u het succes van uw levering met uw rapport volgen. [Meer informatie](../reports/campaign-global-report-cja-experimentation.md)
+
+## De winnaar schalen {#scale-winner}
+
+>[!AVAILABILITY]
+>
+>De functie Winner schalen wordt momenteel ondersteund voor de volgende kanalen:
+>
+>* Binnenkomende kanalen (bv. Web, In-app bericht, op code-gebaseerde ervaring) in om het even welke reis of campagne.
+>* Uitgaande kanalen (bv. e-mail, pushmelding, SMS) in door API geactiveerde transactiecampagnes.
+
+Schaal de Winner laat u toe om de het winnen variatie van een experiment aan uw volledige publiek automatisch of manueel uit te rollen. Met deze functie kunt u het bereik en de doeltreffendheid van de functie vergroten wanneer een winnaar eenmaal is aangewezen, zonder dat u het experiment voortdurend hoeft te volgen.
+
+U kunt kiezen uit twee modi:
+
+* **auto-schrapen**: Vorm auto-schrapende montages wanneer het creëren van uw experiment door de timing en de voorwaarden voor het schrapen van de het winnen behandeling of een fallback optie te kiezen als geen winnaar verschijnt.
+
+* **Handmatig Schalen**: Herzie manueel experimenteerresultaten en stel de terugwinning van de het winnen behandeling in werking, die volledige controle over timing en besluiten handhaaft.
+
+
+### Automatisch schalen {#autoscaling}
+
+Met Automatisch schalen kunt u vooraf gedefinieerde regels instellen voor het tijdstip waarop de winnende bewerking of een fallback moet worden uitgevoerd, op basis van de resultaten van het experiment.
+
+Wanneer automatisch schalen is opgetreden, is handmatig schalen niet meer beschikbaar.
+
+Automatisch schalen inschakelen voor experimenten:
+
+1. Stel uw campagne of reis in en configureer uw experiment naar wens. [Meer informatie](#configure-experiment)
+
+1. Schakel de optie voor automatisch schalen in wanneer u het experiment instelt.
+
+   ![](assets/scale-winner-1.png)
+
+1. Selecteer wanneer de winnaar moet worden geschaald:
+
+   * Zodra de winnaar is gevonden.
+   * Na het experiment wordt live gedurende de geselecteerde tijd uitgevoerd.
+
+     De automatisch schaalbare tijd moet voor de einddatum van het experiment zijn gepland. Als deze voor een tijd na de einddatum wordt ingesteld, verschijnt er een validatiewaarschuwing en wordt de campagne of de reis niet gepubliceerd.
+
+   ![](assets/scale-winner-2.png)
+
+1. Kies het terugvalgedrag als er geen winnaar is gevonden op schaaltijd:
+
+   * Ga door met experimenteren tot de geplande einddatum.
+   * Schaal de alternatieve behandeling na een bepaalde tijd.
+
+Wanneer aan alle parameters is voldaan, wordt de winnende of alternatieve behandeling naar uw publiek verzonden.
+
+### Handmatige schaling {#manual-scaling}
+
+Met handmatig schalen kunt u de resultaten van het experiment bekijken en bepalen wanneer u de winnende behandeling volgens uw eigen schema wilt uitvoeren.
+
+Als u de winnaar handmatig schaalt vóór de geplande tijd voor automatisch schalen, wordt de automatische schaling geannuleerd.
+
+De winnaar van uw experimenten handmatig schalen:
+
+1. Stel uw campagne of reis in en configureer uw experiment naar wens. [Meer informatie](#configure-experiment)
+
+1. Laat het experiment lopen totdat een winnaar is geïdentificeerd of statistische significantie is bereikt.
+
+1. Open het campagnesashboard of selecteer uw kanaalactiviteit op uw reis.
+
+   Bekijk de resultaten in het menu **[!UICONTROL Content Experiment]** om de best presterende behandeling te identificeren.
+
+   ![](assets/scale-winner-jo.png)
+
+1. Klik op **[!UICONTROL Scale treatment]** om de winnende bewerking door te voeren naar de rest van uw publiek.
+
+   ![](assets/scale-winner-campaign.png)
+
+1. Selecteer in de keuzelijst de behandeling die u wilt schalen en klik op **[!UICONTROL Scale]** .
+
+   ![](assets/scale-winner-3.png)
+
+Let erop dat het schalen van de behandeling maximaal één uur kan duren. U ontvangt een melding als het handmatig schalen is voltooid.
 
