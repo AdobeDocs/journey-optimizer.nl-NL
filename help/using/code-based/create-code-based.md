@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '675'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Volg de onderstaande stappen om uw op code gebaseerde ervaring op te bouwen via 
 
 >[!BEGINTABS]
 
->[!TAB voeg een op code-gebaseerde ervaring aan een reis  toe]
+>[!TAB  voeg een op code-gebaseerde ervaring aan een reis ] toe
 
 Om a **code-gebaseerde ervaring** activiteit aan een reis toe te voegen, volg deze stappen:
 
@@ -41,9 +41,13 @@ Om a **code-gebaseerde ervaring** activiteit aan een reis toe te voegen, volg de
 
 1. Voer een **[!UICONTROL Label]** en **[!UICONTROL Description]** in voor uw bericht.
 
-1. Selecteer of creeer de [ op code-gebaseerde ervaringsconfiguratie ](code-based-configuration.md) aan gebruik.
+1. Selecteer of creeer de op code-gebaseerde ervaringsconfiguratie aan gebruik. [Meer informatie](code-based-configuration.md)
 
    ![](assets/code-based-activity-config.png)
+
+   >[!NOTE]
+   >
+   >Wanneer u veelvoudige code-gebaseerde ervaringsacties gebruikend de zelfde kanaalconfiguratie hebt, bepaalt de reis **[!UICONTROL Priority score]** wat aan de eindgebruiker wordt geleverd als zij voor meer dan één actie kwalificeren. [ leer meer op prioritaire scores ](../conflict-prioritization/priority-scores.md)
 
 1. Selecteer de knop **[!UICONTROL Edit content]** en bewerk de inhoud naar wens met de verpersoonlijkingseditor. [Meer informatie](#edit-code)
 
@@ -67,9 +71,13 @@ Begin bouwend uw **code-gebaseerde ervaring** door een campagne, volg hieronder 
 
 1. Selecteer de handeling **[!UICONTROL Code-based experience]** .
 
-1. Selecteer of creeer de op code-gebaseerde ervaringsconfiguratie. [Meer informatie](code-based-configuration.md)
+1. Selecteer of creeer de op code-gebaseerde ervaringsconfiguratie aan gebruik. [Meer informatie](code-based-configuration.md)
 
    ![](assets/code-based-campaign-surface.png)
+
+   >[!NOTE]
+   >
+   >Wanneer u veelvoudige code-gebaseerde ervaringsacties gebruikend de zelfde kanaalconfiguratie hebt, bepaalt de campagne **[!UICONTROL Priority score]** wat aan de eindgebruiker wordt geleverd als zij voor meer dan één actie kwalificeren. [ leer meer op prioritaire scores ](../conflict-prioritization/priority-scores.md)
 
 1. Bewerk de inhoud naar wens met behulp van de verpersoonlijkingseditor. [Meer informatie](#edit-code)
 
@@ -89,7 +97,7 @@ Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [ deze 
 >id="ajo_code_based_experience"
 >title="De personalisatie-editor gebruiken"
 >abstract="Voeg de code die u wilt leveren in en bewerk deze als onderdeel van deze op code gebaseerde ervaringsactie."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="Werken met de verpersoonlijkingseditor"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="Werken met de verpersoonlijkingseditor"
 
 1. Selecteer **[!UICONTROL Edit code]** in het scherm van de reisactiviteit of de campagneeditie.
 
@@ -123,4 +131,4 @@ Zodra uw ontwikkelaar een API- of SDK-aanroep maakt om inhoud op te halen voor h
 
 In de onderstaande video ziet u hoe u een op code gebaseerde ervaringscampagne kunt maken, de eigenschappen ervan kunt configureren, testen en publiceren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449459/?quality=12&learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

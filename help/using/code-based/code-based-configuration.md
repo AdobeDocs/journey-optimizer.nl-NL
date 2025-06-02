@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1066'
 ht-degree: 1%
 
 ---
@@ -23,6 +23,10 @@ ht-degree: 1%
 Alvorens [ bouwend uw ervaring ](create-code-based.md), moet u een op code-gebaseerde ervaringsconfiguratie tot stand brengen waarin u bepaalt waar de inhoud binnen uw toepassing zal worden geleverd en worden verbruikt.
 
 Een op code-gebaseerde ervaringsconfiguratie moet naar de oppervlakte verwijzen, die fundamenteel de plaats is waar u uw veranderingen wilt teruggeven. Volgens het geselecteerde platform moet u een locatie/pad of de volledige oppervlakte-URI invoeren. [Meer informatie](code-based-surface.md)
+
+>[!NOTE]
+>
+>Wanneer u veelvoudige code-gebaseerde ervaringsacties gebruikend de zelfde kanaalconfiguratie (en zo lopend op de zelfde oppervlakte) hebt, bepaalt de campagne of reis **[!UICONTROL Priority score]** wat aan de eindgebruiker wordt geleverd als zij voor meer dan één actie kwalificeren. [ leer meer op prioritaire scores ](../conflict-prioritization/priority-scores.md)
 
 ## Een op code gebaseerde ervaringsconfiguratie maken {#create-code-based-configuration}
 
@@ -156,7 +160,7 @@ Volg onderstaande stappen om de op code gebaseerde instellingen voor ervaringsco
 
    >[!NOTE]
    >
-   >Als u kwesties terwijl het previewing van de ervaring ontmoet, gelieve te verwijzen naar [ deze documentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
+   >Als u kwesties terwijl het previewing van de ervaring ontmoet, gelieve te verwijzen naar [ deze documentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
 
 ### Andere platforms {#other}
 

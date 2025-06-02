@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '760'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 >id="ajo_admin_surface_uri"
 >title="De oppervlak-URI voor de component toevoegen"
 >abstract="Als uw implementatie niet voor Web, iOS, of Android is, of als u specifieke URIs moet richten, ga een oppervlakte URI in, die een unieke herkenningsteken richtend aan de entiteit is waar u uw ervaring wilt leveren. Zorg ervoor u een oppervlakte URI ingaat die in uw eigen implementatie wordt gebruikt."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-configuration#other" text="Creeer een code-gebaseerde ervaringsconfiguratie voor Andere platforms"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-configuration#other" text="Creeer een code-gebaseerde ervaringsconfiguratie voor Andere platforms"
 
 Een op code-gebaseerde ervaring **oppervlakte** is om het even welke entiteit die voor gebruiker of systeeminteractie wordt ontworpen, uniek door een [ URI ](#surface-uri) wordt geïdentificeerd. Het oppervlak wordt gespecificeerd in de [ toepassing implementatie ](code-based-prerequisites.md#implementation-prerequisites) en moet de oppervlakte aanpassen die in uw [ code-gebaseerde configuratie van het ervaringskanaal ](code-based-configuration.md) wordt van verwijzingen voorzien.
 
@@ -32,6 +32,10 @@ Een oppervlak kan worden beschouwd als een container op elk hiërarchisch niveau
 * Het kan zich ook uitstrekken tot specifieke stukken inhoudscontainers voor niet-display of abstracted-display doeleinden (bijvoorbeeld JSON-lobs die aan services worden geleverd).
 
 * Dit kan ook een jokeroppervlak zijn dat overeenkomt met verschillende definities van het clientoppervlak (zo kan een locatie van een hoofdafbeelding op elke pagina van uw website bijvoorbeeld worden vertaald in een oppervlak-URI, zoals: web://mydomain.com/*#hero_image).
+
+>[!NOTE]
+>
+>Wanneer u meerdere op code gebaseerde ervaringsacties uitvoert op hetzelfde oppervlak, bepaalt de campagne of de rit **[!UICONTROL Priority score]** wat aan de eindgebruiker wordt geleverd als deze in aanmerking komt voor meer dan één actie. [ leer meer op prioritaire scores ](../conflict-prioritization/priority-scores.md)
 
 ## Identificatiecode oppervlak {#surface-uri}
 
@@ -72,8 +76,8 @@ In de onderstaande tabellen staan enkele voorbeelden van de oppervlakte-URI-defi
 
 In [!DNL Journey Optimizer], steunt het op code-gebaseerde ervaringskanaal twee types van klantenimplementaties:
 
-* Gebaseerd op [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=nl-NL){target="_blank"} voor uw websites, of op [ Mobiele SDK van Adobe Experience Platform ](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} voor u mobiele apps;
-* Server-kant of hybride gebruikend [ de Server APIs van AEP Edge Network ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=nl-NL){target="_blank"}.
+* Gebaseerd op [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"} voor uw websites, of op [ Mobiele SDK van Adobe Experience Platform ](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} voor u mobiele apps;
+* Server-kant of hybride gebruikend [ de Server APIs van AEP Edge Network ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"}.
 
 >[!NOTE]
 >
