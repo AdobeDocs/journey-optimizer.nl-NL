@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
+source-git-commit: 86b83f8b368a77ef96581c422f19f35d939e51f4
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1163'
 ht-degree: 0%
 
 ---
@@ -42,11 +42,17 @@ Volg de onderstaande stappen om een rangschikkingsformule te maken.
 
    ![](assets/create-formula.png){width="80%"}
 
-1. Klik optioneel op **[!UICONTROL Select AI model]** om het model in te stellen dat wordt gebruikt als referentie om uw waarderingsformule samen te stellen. Telkens wanneer u naar een modelscore verwijst wanneer u hieronder uw formule bepaalt, zal het AI model worden gebruikt dat u selecteerde.
+1. Klik optioneel op **[!UICONTROL Select AI model]** om het model in te stellen dat wordt gebruikt als referentie om uw waarderingsformule samen te stellen.
 
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >Wanneer het gebruiken van een AI model in een rangschikkende formule wordt opgenomen, worden de gegevens niet weerspiegeld in het [ tarief van de Omzetting voor Holdout en Model Gedreven verkeer ](../reports/campaign-global-report-cja-code.md#conversion-rate) rapport.
+   >[ Gepersonaliseerde optimalisatiemodellen ](../offers/ranking/personalized-optimization-model.md) die ononderbroken metriek gebruiken worden niet gesteund met de AI formule bouwer.
+
+Telkens wanneer u naar een modelscore verwijst wanneer u hieronder uw formule bepaalt, zal het AI model worden gebruikt dat u selecteerde.
+
+    >[!CAUTION] 
+    > 
+    >Wanneer het gebruiken van een AI model dat in een rangschikkende formule wordt opgenomen, worden de gegevens niet weerspiegeld in het [Conversiesnelheid voor Holdout en Model Gedreven verkeer] (../reports/campaign-global-report-cja-code.md#conversion-rate) rapport.
 
 1. Bepaal de voorwaarden die de rangschikkingsscore voor de passende besluitvormingspunten zullen bepalen. U kunt
 
@@ -120,7 +126,7 @@ Als het gebied van het besluitpunt (douaneattribuut) het geografische etiket van
 
 ## De code-editor gebruiken {#ranking-code-editor}
 
-Om rangschikkende formules in **syntaxis van PQL** uit te drukken, schakelaar aan de coderedacteur gebruikend de specifieke knoop op hoogste recht van het scherm. Voor meer op hoe te om de syntaxis van PQL te gebruiken, verwijs naar de [ specifieke documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=nl-NL).
+Om rangschikkende formules in **syntaxis van PQL** uit te drukken, schakelaar aan de coderedacteur gebruikend de specifieke knoop op hoogste recht van het scherm. Voor meer op hoe te om de syntaxis van PQL te gebruiken, verwijs naar de [ specifieke documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
 
 >[!CAUTION]
 >
