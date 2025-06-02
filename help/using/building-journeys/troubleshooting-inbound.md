@@ -139,7 +139,7 @@ Wanneer een profiel in a **wordt gekwalificeerd joai** segment, wordt het profie
 >
 >De propagatie van Hub aan Edge kan tot 15-30 minuten van het ogenblik vergen het profiel op de Hub wordt bijgewerkt.
 
-Om de aanwezigheid van het **joai** segment in het 2} attribuut van het profiel van Edge te controleren {, volg hieronder de stappen.`segmentMembership`
+Om de aanwezigheid van het **joai** segment in het 2&rbrace; attribuut van het profiel van Edge te controleren &lbrace;, volg hieronder de stappen.`segmentMembership`
 
 1. Navigeer naar het menu **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** in het navigatievenster [!DNL Journey Optimizer] links en blader naar het profiel met behulp van naamruimte en id. Leer meer op [ Real-time Profielen van de Klant ](../audience/get-started-profiles.md)
 
@@ -172,7 +172,7 @@ Deze stap moet verifiëren dat het profiel van de Hub correct werd bijgewerkt to
 >
 >De opname van het **joai** segmentlidmaatschap in het profiel van de Hub kan tot 15-30 minuten van het ogenblik vergen het profiel de binnenkomende reisactie inging.
 
-Om de aanwezigheid van het **joai** segment in het 2} attribuut van het profiel van de Hub te controleren {, volg hieronder de stappen.`segmentMembership`
+Om de aanwezigheid van het **joai** segment in het 2&rbrace; attribuut van het profiel van de Hub te controleren &lbrace;, volg hieronder de stappen.`segmentMembership`
 
 1. Navigeer naar het menu **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** in het navigatievenster [!DNL Journey Optimizer] links en blader naar het profiel met behulp van naamruimte en id. Leer meer op [ Real-time Profielen van de Klant ](../audience/get-started-profiles.md)
 
