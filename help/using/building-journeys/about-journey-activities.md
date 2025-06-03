@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: reis, activiteiten, aan de slag, gebeurtenissen, actie
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '574'
 ht-degree: 8%
 
 ---
@@ -22,23 +22,23 @@ Combineer de verschillende gebeurtenis-, organisatie- en actieactiviteiten om uw
 
 ## Gebeurtenisactiviteiten {#event-activities}
 
-Persoonlijke reizen worden veroorzaakt door gebeurtenissen, zoals een online aankoop. Als een profiel eenmaal een reis binnengaat, bewegen ze als individu door en bewegen geen twee individuen zich met dezelfde snelheid of langs hetzelfde pad. Wanneer u uw reis met een gebeurtenis begint, wordt de reis teweeggebracht wanneer de gebeurtenis wordt ontvangen. Elke persoon op de reis volgt dan, individueel, de volgende stappen die in uw reis worden bepaald.
+Persoonlijke reizen worden veroorzaakt door gebeurtenissen, zoals een online aankoop. Als een profiel eenmaal een reis binnengaat, worden deze als individu doorlopen en bewegen geen twee personen zich met dezelfde snelheid of langs hetzelfde pad. Wanneer u uw reis met een gebeurtenis begint, teweegbrengt de reis teweeg wanneer de gebeurtenis wordt ontvangen. Elke persoon op de reis volgt dan, individueel, de volgende stappen die in uw reis worden bepaald.
 
-De gebeurtenissen die door de technische gebruiker worden gevormd (zie [ deze pagina ](../event/about-events.md)) worden allen getoond in de eerste categorie van het palet, op de linkerkant van het scherm. De volgende activiteiten zijn beschikbaar:
+De gebeurtenissen die door de technische gebruiker worden gevormd (zie [ deze pagina ](../event/about-events.md)) worden allen getoond in de eerste categorie van het palet, op de linkerkant van het scherm. De volgende gebeurtenisactiviteiten zijn beschikbaar:
 
 * [Algemene gebeurtenissen](../building-journeys/general-events.md)
 * [Reactie](../building-journeys/reaction-events.md)
 * [Poortkwalificatie](../building-journeys/audience-qualification-events.md)
 
-![](assets/journey43.png)
+![ de activiteitenpalet van de Gebeurtenis in de reisontwerper ](assets/journey43.png)
 
-Begin de reis door een gebeurtenisactiviteit te slepen en neer te zetten. U kunt er ook op dubbelklikken.
+U start de reis door een gebeurtenisactiviteit te slepen en neer te zetten. U kunt er ook op dubbelklikken.
 
-![](assets/journey44.png)
+![ belemmering en dalingsgebeurtenisactiviteit in de reisontwerper ](assets/journey44.png)
 
 ## Orchestratie {#orchestration-activities}
 
-Orchestratieactiviteiten zijn verschillende omstandigheden die helpen de volgende stap in de reis te bepalen. Het kan zijn dat de persoon een open steungeval heeft of niet, het weer dat op zijn huidige locatie wordt voorspeld, als hij een aankoop heeft voltooid of niet, of 10 000 loyaliteitspunten bereikt.
+Orchestratieactiviteiten zijn verschillende omstandigheden die helpen de volgende stap in de reis te bepalen. Deze voorwaarden kunnen omvatten of de persoon een open steungeval heeft, het weer dat op zijn huidige plaats wordt voorspeld, of zij een aankoop voltooiden, of of zij 10.000 loyaliteitspunten bereikt.
 
 In het palet zijn aan de linkerkant van het scherm de volgende orkestactiviteiten beschikbaar:
 
@@ -46,11 +46,11 @@ In het palet zijn aan de linkerkant van het scherm de volgende orkestactiviteite
 * [Wachten](../building-journeys/wait-activity.md)
 * [Publiek lezen](../building-journeys/read-audience.md)
 
-![](assets/journey49.png)
+![ de activiteitenpalet van Orchestratie in de reisontwerper ](assets/journey49.png)
 
 ## Acties {#action-activities}
 
-Handelingen zijn wat u wilt doen als gevolg van een of andere trigger, zoals het verzenden van een bericht. Het is het traject dat de klant ervaart.
+Handelingen zijn wat u wilt doen als gevolg van een of andere trigger, zoals het verzenden van een bericht. Het is het stukje van de reis dat de klant ervaart.
 
 In het palet, links op het scherm, onder **[!UICONTROL Events]** en **[!UICONTROL Orchestration]** , kunt u de categorie **[!UICONTROL Actions]** vinden. De volgende activiteiten zijn beschikbaar:
 
@@ -58,13 +58,13 @@ In het palet, links op het scherm, onder **[!UICONTROL Events]** en **[!UICONTRO
 * [Aangepaste acties](../building-journeys/using-custom-actions.md)
 * [Springen](../building-journeys/jump.md)
 
-![](assets/journey58.png)
+![ Activiteiten van de Actie palet in de reisontwerper ](assets/journey58.png)
 
 Deze activiteiten staan voor de verschillende beschikbare communicatiekanalen. U kunt ze combineren om een scenario voor meerdere kanalen te maken.
 
 <!--If you have configured custom actions, they also appear here. [Learn more](../building-journeys/using-custom-actions.md)-->
 
-U kunt ook specifieke acties instellen om u berichten te sturen:
+U kunt ook specifieke acties instellen om berichten te verzenden:
 
 * Als u berichten verzendt met een systeem van derden, kunt u een specifieke aangepaste handeling maken. [Meer informatie](../action/action.md)
 
@@ -77,7 +77,7 @@ U kunt ook specifieke acties instellen om u berichten te sturen:
 
 ### Een label toevoegen
 
-Met de meeste activiteiten kunt u een **[!UICONTROL Label]** definiëren. Hiermee voegt u een achtervoegsel toe aan de naam die onder uw activiteit op het canvas wordt weergegeven. Dit is handig als u dezelfde activiteit meerdere keren gebruikt en u deze gemakkelijker wilt identificeren. Het zal ook het zuiveren in het geval van fouten gemakkelijker maken en het zal rapporten gemakkelijker te lezen maken. U kunt ook een optionele **[!UICONTROL Description]** toevoegen.
+Met de meeste activiteiten kunt u een **[!UICONTROL Label]** definiëren. Hiermee voegt u een achtervoegsel toe aan de naam die onder uw activiteit op het canvas wordt weergegeven. Dit is handig als u dezelfde activiteit meerdere keren gebruikt en u deze gemakkelijker wilt identificeren. Het maakt het zuiveren ook gemakkelijker in het geval van fouten en maakt rapporten gemakkelijker te lezen. U kunt ook een optionele **[!UICONTROL Description]** toevoegen.
 
 ![](assets/journey-action-label.png)
 
@@ -91,7 +91,7 @@ De meeste activiteiten geven een aantal geavanceerde en/of technische parameters
 
 ![](assets/journey-advanced-parameters.png)
 
-Voor een betere leesbaarheid kunt u deze parameters verbergen met de knop **[!UICONTROL Hide read-only fields]** .
+Verberg deze parameters met de knop **[!UICONTROL Hide read-only fields]** voor een betere leesbaarheid.
 
 ![](assets/journey-hide-read-only-fields.png)
 

@@ -7,26 +7,26 @@ feature: Journeys, Integrations
 role: User
 level: Intermediate
 keywords: kunstmatig, AI, intelligent, reis, dienst
-source-git-commit: c82e0a4f44cda4afeb88f7dd8e645e967e4a878f
+exl-id: 20da09e1-0611-4d27-a589-30552011e06c
+source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
 # Integreren met intelligente services {#ai-overview}
 
-De integratie met **[!DNL Adobe Intelligent Services]** kunt u gebruikmaken van de kracht van kunstmatige intelligentie en het leren van machines in gevallen waarin de klant gebruikmaakt van ervaringen. Dit staat voor marketing analisten toe om voorspellingen op te zetten specifiek voor de behoeften van een bedrijf gebruikend zaken-vlakke configuraties zonder de behoefte aan de deskundigheid van de gegevenswetenschap.
+Dankzij de integratie met **[!DNL Adobe Intelligent Services]** kunt u gebruikmaken van kunstmatige intelligentie en het leren van machines voor gebruik door klanten. Hierdoor kunnen marketinganalisten voorspellingen instellen die zijn toegesneden op de behoeften van een bedrijf en die configuraties op bedrijfsniveau gebruiken zonder dat zij expertise op het gebied van gegevenswetenschap nodig hebben.
 
-[!DNL Intelligent Services], gebaseerd op Adobe Experience Platform, geeft marketers die verantwoordelijk zijn voor de ervaring van klanten toegang tot AI-as-a-service, waardoor het voor iedereen gemakkelijk is om het gedrag van klanten te voorspellen, de impact van een campagne te meten of een beter rendement op elke investering te garanderen. Voor meer informatie over [!DNL Adobe Intelligent Services], verwijst u naar de [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html?lang=nl-NL){target="_blank"}.
+[!DNL Intelligent Services] is gebaseerd op Adobe Experience Platform en biedt marketers die verantwoordelijk zijn voor de ervaring van klanten toegang tot AI-as-a-service. Dit maakt het gemakkelijk om klantengedrag te voorspellen, het effect van een campagne te meten, of betere rendementen op elke investering te verzekeren. Voor extra details op [!DNL Adobe Intelligent Services], verwijs naar de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html){target="_blank"}.
 
-Integratie tussen [!DNL Journey Optimizer] en [!DNL Intelligent Services] maakt het mogelijk om voorspellingen van klanten te benutten.
+Dankzij de integratie tussen [!DNL Journey Optimizer] en [!DNL Intelligent Services] kunt u voorspellingen van klanten gebruiken.
 
-AI van de klant maakt deel uit van [!DNL Adobe Intelligent Services]. Het helpt voorspellen wat een klant waarschijnlijk zal doen. Zie de [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=nl-NL){target="_blank"}.
+KlantAI, een onderdeel van [!DNL Adobe Intelligent Services], voorspelt mogelijke acties van klanten. Zie de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html){target="_blank"}.
 
-Klant-AI staat merken toe om op basis van leerresultaten voor churn- of conversiesystemen te maken die beschikbaar zijn als profielkenmerken in Adobe Experience Platform-profielen (Real-time Customer Profile).
+Klant-AI staat merken toe om leerscores voor churn- of conversiemachines te maken. Deze scores zijn beschikbaar als profielkenmerken in Adobe Experience Platform-profielen (Real-time klantprofiel).
 
-Dientengevolge, kunnen zij als andere profielattributen in Journey Optimizer-voorwaarden (om de beste besluiten te nemen), acties of segmentbouw worden gebruikt.
+Dit betekent dat deze kenmerken net als alle andere profielkenmerken kunnen worden gebruikt in Journey Optimizer-omstandigheden (om optimale beslissingen te nemen), handelingen of segmentopbouw.
 
 ![](assets/customer-ai.png)
-
