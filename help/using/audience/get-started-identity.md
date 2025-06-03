@@ -7,9 +7,9 @@ feature: Profiles, Identities
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
-source-git-commit: d9a3482d237c3080c060519dbdde9208c8c0befa
+source-git-commit: b6fe3fec0c64983fc2317027a5748a0d44c18469
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,15 @@ ht-degree: 0%
 
 Een identiteit is gegevens die uniek zijn voor een entiteit, doorgaans een echt object, zoals een individuele persoon, een hardwareapparaat of een webbrowser. Een volledig gekwalificeerde identiteit bestaat uit twee elementen:
 
-* De **naamruimte identity** dient als indicator van de context waarop een identiteit betrekking heeft.
-* De **identiteitswaarde** is een tekenreeks die een entiteit vertegenwoordigt.
+* De **identiteit namespace** dient als indicator van de context waarop een identiteit betrekking heeft.
+* De **identiteitswaarde** is een koord dat een entiteit vertegenwoordigt.
 
-Neem het telefoonnummer 555-555-1234. In dit voorbeeld is de tekenreeks &quot;555-555-1234&quot; een **identiteitswaarde**, die in een &quot;Telefoon&quot; kunnen worden gecategoriseerd **naamruimte identity**.
+Neem bijvoorbeeld het telefoonnummer 555-555-1234. In dit geval, is het koord &quot;555-555-1234&quot;een **identiteitswaarde**, die in een &quot;Telefoon&quot;**identiteit zou kunnen worden gecategoriseerd namespace**.
 
-De **Identiteiten** menu in [!DNL Adobe Journey Optimizer] staat u toe om door de diverse herkenningstekens efficiënt te doorbladeren die omhoog de klanten in uw gegevensbestand maken.
+Het **menu van Identiteiten** in [!DNL Adobe Journey Optimizer] staat gebruikers toe om door de diverse herkenningstekens efficiënt te doorbladeren die omhoog de klanten in hun gegevensbestand maken.
 
 ![](assets/identities-home.png)
 
-Het biedt een **Naamgrafiek**, die een kaart van verhoudingen tussen verschillende identiteiten voor een bepaalde klant is, die u van een visuele vertegenwoordiging van voorziet hoe uw klant met uw merk over verschillende kanalen interactie aangaat. Alle grafieken van de klantenidentiteit worden collectief beheerd en door de Dienst van de Identiteit van Adobe Experience Platform bijgewerkt, in antwoord op klantenactiviteit.
+Het verstrekt een **Grafiek van de Identiteit**, die een kaart van verhoudingen tussen verschillende identiteiten voor een bepaalde klant is. Deze grafiek biedt een visuele weergave van de manier waarop een klant met een merk werkt via verschillende kanalen. Alle grafieken van de klantenidentiteit worden collectief beheerd en door de Dienst van de Identiteit van Adobe Experience Platform in antwoord op klantenactiviteit bijgewerkt.
 
-Gedetailleerde informatie over het werken met identiteiten is beschikbaar in het dialoogvenster [Identiteitsdocumentatie](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl){target="_blank"}.
+De gedetailleerde informatie bij het werken met identiteiten is beschikbaar in de [ documentatie van de Dienst van de Identiteit ](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl){target="_blank"}.
