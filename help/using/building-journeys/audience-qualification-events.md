@@ -155,4 +155,4 @@ Hier volgen enkele aanbevolen procedures om overbelastingsystemen te vermijden d
 
 Begrijp de toepasselijke gebruiksgevallen voor reizen van de Kwalificatie van het Publiek in deze video. Leer hoe u een reis maakt met de kwalificatie &#39;Audience Qualification&#39; en welke best practices u kunt toepassen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3446210?quality=12&captions=dut)
