@@ -38,7 +38,7 @@ In dit voorbeeld, wordt een etiket toegevoegd aan het **het schemagebied van de 
 
 >[!IMPORTANT]
 >
->>Maak een beleid voordat u machtigingen voor een rol beheert. Voor meer informatie, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html){target="_blank"}.
+>&#x200B;>Maak een beleid voordat u machtigingen voor een rol beheert. Voor meer informatie, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html){target="_blank"}.
 
 **[!UICONTROL Roles]** is een reeks gebruikers die dezelfde machtigingen, labels en sandboxen binnen uw organisatie hebben. Elke gebruiker die tot een **[!UICONTROL Role]** behoort, heeft recht op de Adobe-apps en -services in het product. U kunt ook uw eigen **[!UICONTROL Roles]** maken om de toegang van gebruikers tot bepaalde functies of objecten in de interface te verfijnen.
 
