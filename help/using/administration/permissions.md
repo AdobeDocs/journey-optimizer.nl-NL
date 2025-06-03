@@ -9,18 +9,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: product, profielen, sandbox
-source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
+source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '658'
 ht-degree: 3%
 
 ---
 
 # Gebruikers en rollen beheren {#manage-permissions}
-
->[!IMPORTANT]
->
-> Elke hieronder beschreven procedure kan alleen worden uitgevoerd door een **[!UICONTROL Product]** - of **[!UICONTROL System]** -beheerder.
 
 **[!UICONTROL Roles]** verwijst naar een verzameling gebruikers die dezelfde machtigingen en sandboxen delen. Deze rollen staan u toe om toegang en toestemmingen voor verschillende groepen gebruikers binnen uw organisatie gemakkelijk te beheren.
 
@@ -29,6 +25,12 @@ Met het [!DNL Journey Optimizer] -product kunt u kiezen uit een reeks vooraf bes
 Wanneer een gebruiker tot een **[!UICONTROL Role]** behoort, krijgt hij toegang tot de Adobe-apps en -services in het product.
 
 Als de reeds bestaande rollen niet aan de specifieke behoeften van uw organisatie voldoen, kunt u douane **[!UICONTROL Roles]** ook tot stand brengen om toegang tot bepaalde functionaliteit of voorwerpen in de interface te verfijnen. Op deze manier zorgt u ervoor dat elke gebruiker alleen toegang heeft tot de bronnen en gereedschappen die nodig zijn om zijn taken efficiënt uit te voeren.
+
+
+>[!IMPORTANT]
+>
+>Stappen en procedures die hieronder worden beschreven, kunnen alleen worden uitgevoerd door een **[!UICONTROL Product]** - of **[!UICONTROL System]** -beheerder.
+
 
 ## Rollen toewijzen {#assigning-role}
 
@@ -48,13 +50,13 @@ Een **[!UICONTROL Role]** toewijzen:
 
 1. Typ de naam of het e-mailadres van de gebruiker of selecteer de gebruiker in de lijst en klik op **[!UICONTROL Save]** .
 
-   Als de gebruiker niet eerder in [!DNL Admin Console] werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html?lang=nl-NL){target="_blank"} toevoegen.
+   Als de gebruiker niet eerder in [!DNL Admin Console] werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html){target="_blank"} toevoegen.
 
    ![](assets/do-not-localize/access_control_4.png)
 
 Uw gebruiker ontvangt een e-mail die hen aan uw geval opnieuw richt.
 
-Voor meer informatie over gebruikersbeheer, verwijs naar de [ documentatie van het Toegangsbeheer ](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=nl-NL){target="_blank"}.
+Voor meer informatie over gebruikersbeheer, verwijs naar de [ documentatie van het Toegangsbeheer ](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html){target="_blank"}.
 
 Wanneer u de instantie opent, ziet uw gebruiker een specifieke weergave afhankelijk van de toegewezen machtigingen in de **[!UICONTROL Role]** . Als de gebruiker niet de juiste toegang tot een eigenschap heeft, verschijnt het volgende bericht:
 
@@ -62,13 +64,15 @@ Wanneer u de instantie opent, ziet uw gebruiker een specifieke weergave afhankel
 
 ## Een bestaande rol bewerken {#edit-product-profile}
 
-Voor instructies die niet in de doos of op maat **[!UICONTROL Roles]** zijn, kunt u op elk moment beslissen om machtigingen toe te voegen of te verwijderen.
+Voor ingebouwde of aangepaste **[!UICONTROL Roles]** kunt u op elk gewenst moment machtigingen toevoegen of verwijderen.
 
-In dit voorbeeld willen we **[!UICONTROL Permissions]** toevoegen met betrekking tot de **[!UICONTROL Journeys]** -bron voor gebruikers die zijn toegewezen aan de Journey-viewer **[!UICONTROL Role]** . De gebruikers kunnen dan reizen publiceren.
+In het onderstaande voorbeeld willen we **[!UICONTROL Permissions]** toevoegen met betrekking tot de **[!UICONTROL Journeys]** -bron voor gebruikers die zijn toegewezen aan de Journey-viewer **[!UICONTROL Role]** . De gebruikers kunnen dan reizen publiceren.
 
-Houd er rekening mee dat als u een uit-de-box of aangepaste **[!UICONTROL Role]** aanpast, dit gevolgen heeft voor elke gebruiker die aan deze **[!UICONTROL Role]** is toegewezen.
+>[!IMPORTANT]
+>
+>Wijzigingen in een ingebouwde of aangepaste rol zijn van invloed op alle gebruikers die aan die rol zijn toegewezen.
 
-1. Als u een rol wilt toewijzen aan een gebruiker in het [!DNL Permissions] -product, navigeert u naar het tabblad **[!UICONTROL Roles]** en selecteert u de gewenste rol, hier in de Journey-viewer **[!UICONTROL Role]** .
+1. Als u een rol in het [!DNL Permissions] -product wilt bewerken, navigeert u naar het tabblad **[!UICONTROL Roles]** en selecteert u de gewenste rol, hier in de Journey-viewer **[!UICONTROL Role]** .
    ![](assets/do-not-localize/access_control_5.png)
 
 1. Klik op het dashboard van **[!UICONTROL Role]** **[!UICONTROL Edit]** .
@@ -85,13 +89,13 @@ Houd er rekening mee dat als u een uit-de-box of aangepaste **[!UICONTROL Role]*
 
 1. Klik op **[!UICONTROL Save]** als u klaar bent.
 
-Indien nodig kunt u ook een nieuwe rol maken met specifieke machtigingen. Voor meer op dit, verwijs naar [ creeer een nieuwe rol ](#create-product-profile).
+Indien nodig kunt u ook een nieuwe rol maken met specifieke machtigingen.
 
 ## Een nieuwe rol maken {#create-product-profile}
 
 Met [!DNL Journey Optimizer] kunt u uw eigen **[!UICONTROL Roles]** maken en een set machtigingen en sandboxen aan uw gebruikers toewijzen. Met **[!UICONTROL Roles]** kunt u toegang tot bepaalde functies of objecten in de interface autoriseren of weigeren.
 
-Raadpleeg de [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=nl-NL){target="_blank"} voor informatie over het maken en beheren van sandboxen.
+Raadpleeg de [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html){target="_blank"} voor informatie over het maken en beheren van sandboxen.
 
 In dit voorbeeld, creëren wij een rol genoemd **Reis read-only**, waar wij read-only rechten op de eigenschap van de Reis verlenen. Gebruikers kunnen alleen reizen openen en bekijken en hebben geen toegang tot andere functies, zoals **[!DNL Decision management]** in [!DNL Journey Optimizer] .
 
@@ -125,4 +129,4 @@ Om onze **Reizen read-only** **[!UICONTROL Role]** te creëren:
 
 Uw **[!UICONTROL Role]** wordt nu gecreeerd en gevormd. U moet deze nu aan gebruikers toewijzen.
 
-Voor meer informatie over rolverwezenlijking en beheer, verwijs naar de [ documentatie van Adobe Admin Console ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=nl-NL){target="_blank"}.
+Voor meer informatie over rolverwezenlijking en beheer, verwijs naar de [ documentatie van Adobe Admin Console ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html){target="_blank"}.

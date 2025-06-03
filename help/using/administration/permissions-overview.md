@@ -9,9 +9,9 @@ role: Admin, Architect
 level: Intermediate
 keywords: machtigingen, rechten, beperkingen, toegang, sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: fbcddcf10974f16eb6885ebb38b7be41f2e53639
+source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Met [!DNL Journey Optimizer] kunt u de machtigingen definiëren en beheren die a
 
 De controle van de toegang voor [!DNL Journey Optimizer] wordt verstrekt door de **Toestemmingen** in Adobe Experience Cloud. Deze functionaliteit gebruikt rollen en beleid, die gebruikers met toestemmingen en zandbakken verbinden.
 
-Als u toegangsbeheer voor Journey Optimizer wilt configureren, moet u over beheerdersrechten voor het systeem of het product beschikken voor uw organisatie. De minimumrol die toestemmingen kan verlenen of intrekken is een productbeheerder. Andere beheerderrollen die toestemmingen kunnen beheren zijn systeembeheerders (geen beperkingen). Zie het [ artikel van het Centrum van de Hulp van Adobe ](https://helpx.adobe.com/nl/enterprise/using/admin-roles.html){target="_blank"} op administratieve rollen voor meer informatie.
+Als u toegangsbeheer voor Journey Optimizer wilt configureren, moet u over beheerdersrechten voor het systeem of het product beschikken voor uw organisatie. De minimumrol die toestemmingen kan verlenen of intrekken is een productbeheerder. Andere beheerderrollen die toestemmingen kunnen beheren zijn systeembeheerders (geen beperkingen). Zie het [ artikel van het Centrum van de Hulp van Adobe ](https://helpx.adobe.com/enterprise/using/admin-roles.html){target="_blank"} op administratieve rollen voor meer informatie.
 
 <!-- A high-level workflow for gaining and assigning access permissions can be summarized as follows:
 
@@ -36,7 +36,7 @@ Als u toegangsbeheer voor Journey Optimizer wilt configureren, moet u over behee
 
 Gebruikersbeheer in [!DNL Journey Optimizer] is gebaseerd op de volgende belangrijke concepten:
 
-* **[!UICONTROL Role]**: Rollen verwijzen naar een verzameling gebruikers die dezelfde machtigingen en sandboxen delen. Deze rollen staan u toe om toegang en toestemmingen voor verschillende groepen gebruikers binnen uw organisatie gemakkelijk te beheren. Een rol komt met een reeks eenheidsrechten die gebruikers toegang tot bepaalde functionaliteit of voorwerpen in de interface verleent.
+* **[!UICONTROL Roles]**: Rollen verwijzen naar een verzameling gebruikers die dezelfde machtigingen en sandboxen delen. Deze rollen staan u toe om toegang en toestemmingen voor verschillende groepen gebruikers binnen uw organisatie gemakkelijk te beheren. Een rol wordt geleverd met een reeks eenheidsrechten (toestemmingen) die gebruikers toegang tot bepaalde functionaliteit of voorwerpen in de interface verleent.
 Met [!DNL Journey Optimizer] kunt u een keuze maken uit een reeks vooraf bestaande **[!UICONTROL Roles]** -indelingen, elk met verschillende machtigingsniveaus, om deze toe te wijzen aan uw gebruikers. Leer meer over de beschikbare **ingebouwde rollen** op [ deze pagina ](ootb-product-profiles.md).
 
 * **[!UICONTROL Permissions]**: Machtigingen zijn eenheidrechten waarmee u de machtigingen kunt definiëren die aan **[!UICONTROL Roles]** zijn toegewezen. Elke machtiging wordt verzameld onder bronnen, bijvoorbeeld Reis of Aanbiedingen, die de verschillende functies of objecten in [!DNL Journey Optimizer] vertegenwoordigen. Leer meer in de [ niveaus van de Toestemming ](high-low-permissions.md) sectie.
