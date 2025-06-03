@@ -6,14 +6,14 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: a9dc2998097c45bd6235af3f5c08bc7077dc3f2f
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '287'
 ht-degree: 19%
 
 ---
 
-# Aan de slag met [!DNL Journey Optimizer] beslissingsmogelijkheden {#gs-decision}
+# Aan de slag met beslissingsmogelijkheden in [!DNL Journey Optimizer] {#gs-decision}
 
 Dankzij de beslissingsmogelijkheden in [!DNL Journey Optimizer] kunt u op het juiste moment de beste aanbiedingen en persoonlijke ervaringen aan uw klanten aanbieden op alle aanraakpunten. Deze mogelijkheden vereenvoudigen personalisatie door een gecentraliseerde catalogus van marketingaanbiedingen en een geavanceerde besluitvormingsengine, die regels en rangschikkingscriteria gebruikt om de meest relevante inhoud voor elk individu te leveren.
 
