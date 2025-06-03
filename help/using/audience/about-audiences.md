@@ -38,7 +38,7 @@ Naarmate gegevensstromen in real time of batchuploads plaatsvinden, worden gegev
 
 Deze documentatie biedt informatie over het werken met het publiek in [!DNL Adobe Journey Optimizer] . Gedetailleerde informatie over de portal Publiek en het publiek is beschikbaar in de documentatie van de Adobe Experience Platform Segmentation-service. Raadpleeg de volgende secties voor meer informatie:
 
-* {de gids van de Dienst UI van de Segmentatie 0} ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}[
+* {de gids van de Dienst UI van de Segmentatie 0} [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [ de Dienst van de Segmentatie - Veelgestelde Vragen ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq){target="_blank"}
 
