@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 8b0310e91e5b5c1418e8e26f4505bda45146ceba
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2394'
 ht-degree: 20%
 
 ---
@@ -177,7 +177,7 @@ ht-degree: 20%
 + Geordende campagnes {#orchestrated-campaigns}
    + [Aan de slag met georkestreerde campagnes](using/ms/gs-ms-campaigns.md)
    + [Belangrijkste beginselen](using/ms/gs-campaign-creation.md)
-   + [ Stappen om georkestreerde campagnes  te creëren](using/ms/gs-campaign-steps.md)
+   + [ Stappen om georkestreerde campagnes ](using/ms/gs-campaign-steps.md) te creëren
    + Configuratiestappen {#ms-config}
       + [Relationele schema&#39;s maken](using/ms/ms-schemas.md)
    + Aanmaakstappen{#create-ms-campaign}
@@ -358,7 +358,7 @@ ht-degree: 20%
          + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [ gegevens van Adobe Experience Platform van het Gebruik voor verpersoonlijking (Beta) ](using/personalization/lookup-aep-data.md)
@@ -703,7 +703,7 @@ ht-degree: 20%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
    + [Uw kanalen configureren](using/configuration/get-started-configuration.md)
@@ -768,12 +768,11 @@ ht-degree: 20%
       + [Objecten exporteren naar een andere sandbox](using/configuration/copy-objects-to-sandbox.md)
    + [Vorm de Bronschakelaar](using/start/get-started-sources.md)
 + Toegangsbeheer {#access-control}
-   + Overzicht van toegangsbeheer {#privacy}
-      + [Aan de slag met gebruikersbeheer](using/administration/permissions-overview.md)
-      + [Ingebouwde rollen](using/administration/ootb-product-profiles.md)
-      + [Ingebouwde machtigingen](using/administration/ootb-permissions.md)
-      + [Machtigingsniveaus](using/administration/high-low-permissions.md)
+   + [Aan de slag met toegangsbeheer](using/administration/permissions-overview.md)
    + [Gebruikers en rollen beheren](using/administration/permissions.md)
+   + [Ingebouwde rollen](using/administration/ootb-product-profiles.md)
+   + [Ingebouwde machtigingen](using/administration/ootb-permissions.md)
+   + [Machtigingsniveaus](using/administration/high-low-permissions.md)
    + [Toegangsbeheer op basis van kenmerken](using/administration/attribute-based-access.md)
    + [Toegangsbeheer op objectniveau](using/administration/object-based-access.md)
 + Privacy {#privacy}
