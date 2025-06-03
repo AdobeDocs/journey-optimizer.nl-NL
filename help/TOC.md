@@ -177,7 +177,7 @@ ht-degree: 20%
 + Geordende campagnes {#orchestrated-campaigns}
    + [Aan de slag met georkestreerde campagnes](using/ms/gs-ms-campaigns.md)
    + [Belangrijkste beginselen](using/ms/gs-campaign-creation.md)
-   + [ Stappen om georkestreerde campagnes ](using/ms/gs-campaign-steps.md) te creëren
+   + [ Stappen om georkestreerde campagnes  te creëren](using/ms/gs-campaign-steps.md)
    + Configuratiestappen {#ms-config}
       + [Relationele schema&#39;s maken](using/ms/ms-schemas.md)
    + Aanmaakstappen{#create-ms-campaign}
@@ -361,7 +361,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
          + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
+      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [ gegevens van Adobe Experience Platform van het Gebruik voor verpersoonlijking (Beta) ](using/personalization/lookup-aep-data.md)
