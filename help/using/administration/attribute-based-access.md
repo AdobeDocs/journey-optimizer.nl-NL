@@ -9,22 +9,22 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac, attribute, Authorizations, data, access, sensitive, assets
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
+source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '923'
 ht-degree: 1%
 
 ---
 
 # Toegangsbeheer op basis van kenmerken {#attribute-based-access}
 
-Met de op kenmerken gebaseerde toegangsbeheerfunctie kunt u machtigingen definiëren voor het beheren van gegevenstoegang voor specifieke teams of groepen gebruikers. Het doel is gevoelige digitale activa te beschermen tegen ongeoorloofde gebruikers, zodat persoonsgegevens verder kunnen worden beschermd.
+Het op attribuut-gebaseerde toegangsbeheervermogen staat u toe om toestemmingen te bepalen om gegevenstoegang voor specifieke teams of groepen gebruikers te beheren. Het doel is gevoelige digitale activa te beschermen tegen ongeoorloofde gebruikers en zo persoonsgegevens verder te beschermen.
 
 Gebruik het op attribuut-gebaseerde toegangsbeheer in Adobe Journey Optimizer om gegevens te beschermen en specifieke toegang tot specifieke gebiedselementen met inbegrip van de schema&#39;s van de Gegevens van de Ervaring te verlenen het Model (XDM), de attributen van het Profiel, en publiek.
 
-Voor een meer gedetailleerde lijst van de terminologie die met op Attributen-Gebaseerde toegangscontrole wordt gebruikt, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=nl-NL){target="_blank"} .
+Voor een meer gedetailleerde lijst van de terminologie die met op attribuut-gebaseerde toegangscontrole wordt gebruikt, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html){target="_blank"}.
 
-In dit voorbeeld, willen wij een etiket aan het **het schemagebied van de Nationaliteit** toevoegen om onbevoegde gebruikers van het te beperken gebruiken. Dit werkt alleen als u de volgende stappen uitvoert:
+In dit voorbeeld, wordt een etiket toegevoegd aan het **het schemagebied van de Nationaliteit** om onbevoegde gebruikers te beperken van het gebruiken van het. Voer de volgende stappen uit om dit te laten werken:
 
 1. Maak een nieuwe **[!UICONTROL Role]** en wijs deze met de bijbehorende **[!UICONTROL Label]** toe zodat gebruikers het schemaveld kunnen openen en gebruiken.
 
@@ -32,22 +32,21 @@ In dit voorbeeld, willen wij een etiket aan het **het schemagebied van de Nation
 
 1. Gebruik **[!UICONTROL Schema field]** in Adobe Journey Optimizer.
 
-**[!UICONTROL Roles]** , **[!UICONTROL Policies]** en **[!UICONTROL Products]** kunnen ook worden benaderd met de op kenmerken gebaseerde API voor toegangsbeheer. Voor meer op dit, verwijs naar deze [ documentatie ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html?lang=nl-NL){target="_blank"} .
+**[!UICONTROL Roles]** , **[!UICONTROL Policies]** en **[!UICONTROL Products]** kunnen ook worden benaderd met de op kenmerken gebaseerde API voor toegangsbeheer. Voor meer informatie, verwijs naar deze [ documentatie ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html){target="_blank"}.
 
 ## Een rol maken en labels toewijzen {#assign-role}
 
 >[!IMPORTANT]
 >
->Voordat u machtigingen voor een rol beheert, moet u eerst een beleid maken. Voor meer op dit, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=nl-NL){target="_blank"} .
+>>Maak een beleid voordat u machtigingen voor een rol beheert. Voor meer informatie, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html){target="_blank"}.
 
-**[!UICONTROL Roles]** is een reeks gebruikers die dezelfde machtigingen, labels en sandboxen binnen uw organisatie hebben. Elke gebruiker die tot een **[!UICONTROL Role]** behoort, heeft recht op de Adobe-apps en -services in het product.
-U kunt ook uw eigen **[!UICONTROL Roles]** maken als u de toegang van uw gebruikers tot bepaalde functies of objecten in de interface wilt verfijnen.
+**[!UICONTROL Roles]** is een reeks gebruikers die dezelfde machtigingen, labels en sandboxen binnen uw organisatie hebben. Elke gebruiker die tot een **[!UICONTROL Role]** behoort, heeft recht op de Adobe-apps en -services in het product. U kunt ook uw eigen **[!UICONTROL Roles]** maken om de toegang van gebruikers tot bepaalde functies of objecten in de interface te verfijnen.
 
-Wij willen nu geselecteerde gebruikers toegang tot het **gebied van de Nationaliteit** verlenen, geëtiketteerd C2. Om dit te doen, moeten wij nieuw **[!UICONTROL Role]** met een specifieke reeks gebruikers tot stand brengen en hen het etiket C2 verlenen die hen toestaat om de **Nationaliteit** details in a **[!UICONTROL Journey]** te gebruiken.
+Om geselecteerde gebruikers toegang tot het **gebied van de Nationaliteit** geëtiketteerd C2 te verlenen, creeer een nieuwe **[!UICONTROL Role]** met een specifieke reeks gebruikers en geef hen het etiket C2, toestaand hen om de **Nationaliteit** details in a **[!UICONTROL Journey]** te gebruiken.
 
 1. Selecteer in het product [!DNL Permissions] de optie **[!UICONTROL Role]** in het menu van het linkerdeelvenster en klik op **[!UICONTROL Create role]** . U kunt ook **[!UICONTROL Label]** toevoegen aan ingebouwde rollen.
 
-   ![](assets/role_1.png)
+   ![ creeer een nieuwe rol in het product van Toestemmingen ](assets/role_1.png)
 
 1. Voeg hier een **[!UICONTROL Name]** en **[!UICONTROL Description]** toe aan uw nieuwe **[!UICONTROL Role]** . Dit is een demografische beperking voor de rol.
 
@@ -75,24 +74,23 @@ Wij willen nu geselecteerde gebruikers toegang tot het **gebied van de Nationali
 
    ![](assets/role_9.png)
 
-1. Selecteer **[!UICONTROL Labels]** u aan uw rol wilt toevoegen en **[!UICONTROL Save]** klikken. Voor dit voorbeeld, verlenen wij het etiket C2 voor gebruikers om toegang tot het eerder beperkte gebied van het schema te hebben.
+1. Selecteer **[!UICONTROL Labels]** u aan uw rol wilt toevoegen en **[!UICONTROL Save]** klikken. Voor dit voorbeeld, verstrek het etiket C2 voor gebruikers om tot het eerder beperkte gebied van het schema toegang te hebben.
 
-   ![](assets/role_4.png)
+   ![ sparen de etiketconfiguratie ](assets/role_4.png)
 
-De gebruikers in de **Beperkte rol demografische** rol hebben nu toegang tot de C2 geëtiketteerde voorwerpen.
+De gebruikers in de **Beperkte rol demografische** rol hebben nu toegang tot de C2-geëtiketteerde voorwerpen.
 
 ## Labels toewijzen aan een object in Adobe Experience Platform {#assign-label}
 
 >[!WARNING]
 >
->Onjuist labelgebruik kan de toegang tot personen verbreken en beleidsovertredingen veroorzaken.
+>Het onjuiste etiketgebruik kan toegang voor mensen breken en beleidsschendingen teweegbrengen.
 
-**[!UICONTROL Labels]** kan worden gebruikt om specifieke eigenschapgebieden toe te wijzen gebruikend op Attributen-Gebaseerd toegangsbeheer.
-In dit voorbeeld, willen wij toegang tot het **gebied van de Nationaliteit** beperken. Dit veld is alleen toegankelijk voor gebruikers met de bijbehorende **[!UICONTROL Label]** voor hun **[!UICONTROL Role]** .
+**[!UICONTROL Labels]** kan worden gebruikt om specifieke eigenschapgebieden toe te wijzen gebruikend op attributen-gebaseerd toegangsbeheer. In dit voorbeeld, is de toegang tot het **gebied van de Nationaliteit** beperkt. Dit veld is alleen toegankelijk voor gebruikers met de bijbehorende **[!UICONTROL Label]** die aan hun **[!UICONTROL Role]** zijn toegewezen.
 
 U kunt ook **[!UICONTROL Label]** toevoegen aan **[!UICONTROL Schema]** , **[!UICONTROL Datasets]** en **[!UICONTROL Audiences]** .
 
-1. Maak uw **[!UICONTROL Schema]** . Voor meer op dit, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=nl-NL){target="_blank"} .
+1. Maak uw **[!UICONTROL Schema]** . Voor meer informatie, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html){target="_blank"}.
 
    ![](assets/label_1.png)
 
@@ -102,31 +100,33 @@ U kunt ook **[!UICONTROL Label]** toevoegen aan **[!UICONTROL Schema]** , **[!UI
 
 1. Van het **[!UICONTROL Labels]** lusje, controleer de beperkte gebiedsnaam, hier **Nationaliteit**. Selecteer vervolgens **[!UICONTROL Edit governance labels]** in het menu van het rechterdeelvenster.
 
-   ![](assets/label_3.png)
+   ![ geeft governance etiketten voor het gebied ](assets/label_3.png) uit
 
-1. Selecteer de corresponderende **[!UICONTROL Label]**, in dit geval de C2 - Gegevens kunnen niet naar een derde worden geëxporteerd. Voor de gedetailleerde lijst van beschikbare etiketten, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=nl-NL#contract-labels){target="_blank"} .
+1. Selecteer de corresponderende **[!UICONTROL Label]**, in dit geval de C2 - Gegevens kunnen niet naar een derde worden geëxporteerd. Voor de gedetailleerde lijst van beschikbare etiketten, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html#contract-labels){target="_blank"}.
 
    ![](assets/label_4.png)
 
-1. Pas verder uw schema aan als nodig dan laat het toe. Voor de gedetailleerde stappen op hoe te om uw schema toe te laten, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=nl-NL#profile){target="_blank"} .
+1. Pas het schema indien nodig verder aan en schakel het in. Voor gedetailleerde stappen op hoe te om uw schema toe te laten, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#profile){target="_blank"}.
 
-Het veld van uw schema is nu alleen zichtbaar en kan nu alleen worden gebruikt door gebruikers die deel uitmaken van een rolset met het label C2.
-Door a **[!UICONTROL Label]** op uw **[!UICONTROL Field name]** toe te passen, merk op dat **[!UICONTROL Label]** automatisch op het **gebied van de Nationaliteit** in elk gecreeerd schema zal worden toegepast.
+Het gebied van uw schema zal nu slechts zichtbaar en bruikbaar door gebruikers zijn die deel van een rol die met het C2 etiket wordt geplaatst. Door a **[!UICONTROL Label]** op uw **[!UICONTROL Field name]** toe te passen, zal **[!UICONTROL Label]** automatisch op het **gebied van de Nationaliteit** in elk gecreeerd schema van toepassing zijn.
 
 ![](assets/label_5.png)
 
 ## Benoemde objecten openen in Adobe Journey Optimizer {#attribute-access-ajo}
 
-Na het etiketteren van onze **het gebiedsnaam van de Nationaliteit** in een nieuw schema en onze nieuwe rol, kunnen wij nu het effect van deze beperking in Adobe Journey Optimizer zien.
-Een eerste gebruiker X met toegang tot objecten met het label C2 zal bijvoorbeeld een reis maken met een voorwaarde die gericht is op de beperkte **[!UICONTROL Field name]** . Een tweede gebruiker Y zonder toegang tot voorwerpen geëtiketteerd C2 zal dan de Reis moeten publiceren.
+Na het etiketteren van de **het gebiedsnaam van de Nationaliteit** in een nieuw schema en een rol, kan het effect van deze beperking in Adobe Journey Optimizer worden waargenomen. In dit voorbeeld:
 
-1. Vanuit Adobe Journey Optimizer moet u de **[!UICONTROL Data source]** eerst configureren met uw nieuwe schema.
+* Gebruiker X, met toegang tot voorwerpen geëtiketteerd C2, leidt tot een reis met een voorwaarde gericht op beperkte **[!UICONTROL Field name]**.
+* Gebruiker Y, zonder toegang tot voorwerpen geëtiketteerd C2, probeert om de reis te publiceren.
 
-   ![](assets/journey_1.png)
+
+1. Configureer de **[!UICONTROL Data source]** vanuit Adobe Journey Optimizer met uw nieuwe schema.
+
+   ![De databron configureren](assets/journey_1.png)
 
 1. Voeg een nieuwe **[!UICONTROL Field group]** van de nieuwe **[!UICONTROL Schema]** toe aan de ingebouwde **[!UICONTROL Data source]** . U kunt ook een nieuwe externe **[!UICONTROL data source]** en gekoppelde **[!UICONTROL Field groups]** maken.
 
-   ![](assets/journey_2.png)
+   ![ voeg een gebiedsgroep aan de gegevensbron ](assets/journey_2.png) toe
 
 1. Na het selecteren van de eerder gemaakte **[!UICONTROL Schema]** klikt u op **[!UICONTROL Edit]** in de categorie **[!UICONTROL Fields]** .
 
@@ -136,7 +136,7 @@ Een eerste gebruiker X met toegang tot objecten met het label C2 zal bijvoorbeel
 
    ![](assets/journey_4.png)
 
-1. Maak vervolgens een Reis die een e-mail stuurt naar gebruikers met een specifieke nationaliteit. Voeg een **[!UICONTROL Event]** dan een **[!UICONTROL Condition]** toe.
+1. Maak een reis die een e-mail stuurt naar gebruikers met een specifieke nationaliteit. Voeg een **[!UICONTROL Event]** en een **[!UICONTROL Condition]** toe.
 
    ![](assets/journey_5.png)
 
@@ -150,16 +150,12 @@ Een eerste gebruiker X met toegang tot objecten met het label C2 zal bijvoorbeel
 
 1. Pas uw reis waar nodig aan, hier voegen we een **[!UICONTROL Email]** actie toe.
 
-   ![](assets/journey_8.png)
+   ![ voeg een e-mailactie aan de reis ](assets/journey_8.png) toe
 
-Als de Gebruiker Y zonder toegang tot etiket C2 voorwerpen tot deze reis met dit beperkte gebied moet toegang hebben:
+Als Gebruiker Y, zonder toegang tot etiket C2 voorwerpen, deze reis met het beperkte gebied moet toegang hebben:
 
 * Gebruiker Y kan de beperkte veldnaam niet gebruiken omdat deze niet zichtbaar is.
-
-* Gebruiker Y kan de uitdrukking met de beperkte gebiedsnaam niet op Geavanceerde wijze uitgeven. De volgende fout wordt weergegeven `The expression is invalid. Field is no longer available or you don't have enough permission to see it` .
-
-* Gebruiker Y kan de uitdrukking verwijderen.
-
-* Gebruiker Y kan de Reis niet testen.
-
-* Gebruiker Y kan de Reis niet publiceren.
+* Gebruiker Y kan de expressie niet bewerken met de beperkte veldnaam in de geavanceerde modus. De volgende fout wordt weergegeven: `The expression is invalid. Field is no longer available or you don't have enough permission to see it`.
+* Gebruiker Y kan de expressie verwijderen.
+* Gebruiker Y kan de reis niet testen.
+* Gebruiker Y kan de reis niet publiceren.

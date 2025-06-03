@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Machtigingsniveaus
-description: Meer informatie over machtigingen op hoog en laag niveau waarmee gebruikers toegang krijgen tot de verschillende functies.
+description: Meer informatie over machtigingen op hoog en laag niveau waarmee gebruikers toegang kunnen krijgen tot de verschillende functies.
 topic: Administration
 feature: Access Management
 role: Admin, Architect, Developer
 level: Experienced
-keywords: machtiging, hoog niveau, laag niveau, profiel, beheerconsole
+keywords: toestemming, high-level, laag-level, profiel, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 Elke rol bestaat uit machtigingen waarmee gebruikers toegang hebben tot de verschillende functies.
 Zij kunnen in twee types worden verdeeld:
 
-* **toestemming op hoog niveau**: vertegenwoordigt de verschillende toestemmingen die aan **[!UICONTROL Role]**, zoals **[!DNL Publish journeys]** en **[!DNL Manage subdomains delegation]** kunnen worden toegewezen. Machtigingen op hoog niveau omvatten machtigingen op laag niveau. De toestemmingen op hoog niveau zijn gedetailleerd op [ deze pagina ](ootb-permissions.md).
+* **toestemming op hoog niveau**: vertegenwoordigt de verschillende toestemmingen die aan **[!UICONTROL Role]**, zoals **[!DNL Publish journeys]** en **[!DNL Manage subdomains delegation]** kunnen worden toegewezen. Rechten op hoog niveau omvatten bevoegdheden op laag niveau. De toestemmingen op hoog niveau zijn gedetailleerd op [ deze pagina ](ootb-permissions.md).
 
 * **laagvlakke toestemming**: vertegenwoordigt de verschillende toestemmingen die uit de toestemming op hoog niveau komen.
 
