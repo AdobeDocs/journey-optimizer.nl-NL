@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: toestemming, high-level, laag-level, profiel, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 49a607e8e4b4cce7bcf41d92abe6b9fa54dfb411
+source-git-commit: 3e106b971f5ce301584869e85efeaeb941237ac8
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1086'
 ht-degree: 0%
 
 ---
@@ -156,7 +156,7 @@ De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de mac
 
 * Met machtiging op hoog niveau van **[!DNL Export suppression list]** kunnen gebruikers de lijst met downloads downloaden als een CSV-bestand.
 
-+++ Dit omvat de volgende laagniveaumachtigingen:
++++ Deze toestemming omvat de volgende laagvlakke toestemmingen:
 
    * specifiek voor Journey Optimizer:
       * suppression_list.export
@@ -184,7 +184,7 @@ De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de mac
 
 * Met machtiging op hoog niveau van **[!DNL Publish campaigns]** kunnen gebruikers campagnes publiceren.
 
-+++ Dit omvat de volgende laagniveaumachtigingen:
++++ Deze toestemming omvat de volgende laagvlakke toestemmingen:
 
    * specifiek voor Journey Optimizer:
 
@@ -334,7 +334,7 @@ De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de mac
 
 * Met machtiging op hoog niveau van **[!DNL Manage landing page settings]** kunnen gebruikers landingssubdomeinen en vooraf ingestelde instellingen van pagina&#39;s lezen, maken en bewerken.
 
-+++ Dit omvat de volgende laagniveaumachtigingen:
++++ Deze toestemming omvat de volgende laagvlakke toestemmingen:
 
    * specifiek voor Journey Optimizer:
 
@@ -363,7 +363,7 @@ De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de mac
 
 * Met machtiging op hoog niveau van **[!DNL Manage messages presets]** kunnen gebruikers kanaalconfiguraties lezen, maken, bewerken en verwijderen op het niveau van de sandbox.
 
-+++ Dit omvat de volgende laagniveaumachtigingen:
++++ Deze toestemming omvat de volgende laagvlakke toestemmingen:
 
    * specifiek voor Journey Optimizer:
       * messages_presets.read
@@ -379,7 +379,7 @@ De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de mac
 
 * Met machtiging op hoog niveau van **[!DNL Manage PTR records]** kunnen gebruikers PTR-records lezen en bewerken die zijn geconfigureerd op basis van het subdomein.
 
-+++ Dit omvat de volgende laagniveaumachtigingen:
++++ Deze toestemming omvat de volgende laagvlakke toestemmingen:
 
    * specifiek voor Journey Optimizer:
       * PTR_records.read
@@ -390,7 +390,7 @@ De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de mac
 
 * Met machtiging op hoog niveau van **[!DNL Manage Seedlist]** kunnen gebruikers de zaadlijst lezen, maken, bewerken en verwijderen.
 
-+++ Dit omvat de volgende laagniveaumachtigingen:
++++ Deze toestemming omvat de volgende laagvlakke toestemmingen:
 
    * specifiek voor Journey Optimizer:
       * seedlist.read
@@ -401,7 +401,7 @@ De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de mac
 
 * Met machtiging op hoog niveau van **[!DNL Manage SMS subdomains]** kunnen gebruikers sms-subdomeinen lezen, maken, bewerken en verwijderen.
 
-+++ Dit omvat de volgende laagniveaumachtigingen:
++++ Deze toestemming omvat de volgende laagvlakke toestemmingen:
 
    * specifiek voor Journey Optimizer:
       * sms_subdomeinen.read
@@ -444,7 +444,7 @@ De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de mac
 
 * Met machtiging op hoog niveau van **[!DNL View messages general settings]** kunnen gebruikers berichten weergeven met algemene instellingen, zoals het uitvoeringsadres.
 
-+++ Dit omvat de volgende laagniveaumachtigingen:
++++ Deze toestemming omvat de volgende laagvlakke toestemmingen:
 
    * specifiek voor Journey Optimizer:
       * messages_general_settings.read
@@ -456,7 +456,7 @@ De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de mac
 
 * Met machtiging op hoog niveau van **[!DNL View messages presets]** kunnen gebruikers voorinstellingen voor berichten weergeven.
 
-+++ Dit omvat de volgende laagniveaumachtigingen:
++++ Deze toestemming omvat de volgende laagvlakke toestemmingen:
 
    * specifiek voor Journey Optimizer:
       * messages_presets.read
@@ -470,7 +470,7 @@ De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de mac
 
 * **[!DNL View PTR records]** toestemming op hoog niveau staat gebruikers toe om PTR verslagen te bekijken die gebaseerd op subdomain zijn gevormd.
 
-+++ Dit omvat de volgende laagniveaumachtigingen:
++++ Deze toestemming omvat de volgende laagvlakke toestemmingen:
    * specifiek voor Journey Optimizer:
 
       * PTR_records.read
@@ -509,7 +509,7 @@ The **[!DNL View channel configuration]** high-level permission allows users to 
 
 The **[!DNL Manage web subdomain]** high-level permission allows users to read, create, edit, and delete web subdomains.
 
-  +++ It includes the following low-level permissions: 
+  +++ This permission includes the following low-level permissions: 
 -->
 
 ## Hulpbron voor AI {#ai-permissions}
