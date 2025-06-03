@@ -60,7 +60,7 @@ Volg de instructies en aanbevelingen hieronder om de reizen van de Kwalificatie 
 
 >[!CAUTION]
 >
->[ Grafieken voor gegevens en segmentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html){target="_blank"} zijn ook op Adobe Journey Optimizer van toepassing.
+>[ Grafieken voor gegevens en segmentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=nl-NL){target="_blank"} zijn ook op Adobe Journey Optimizer van toepassing.
 
 
 
@@ -92,7 +92,7 @@ Voer de volgende stappen uit om de **[!UICONTROL Audience Qualification]** -acti
 
    >[!NOTE]
    >
-   >Merk op dat **[!UICONTROL Enter]** en **[!UICONTROL Exit]** aan de **Realized** beantwoorden en **Uitgegeven** status van de publieksparticipatie van Adobe Experience Platform. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [ documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Merk op dat **[!UICONTROL Enter]** en **[!UICONTROL Exit]** aan de **Realized** beantwoorden en **Uitgegeven** status van de publieksparticipatie van Adobe Experience Platform. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [ documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=nl-NL#interpret-segment-results){target="_blank"}.
 
 1. Selecteer een naamruimte. Dit is alleen nodig als de gebeurtenis als eerste stap van de reis wordt geplaatst. Het veld wordt standaard voorgevuld met de laatst gebruikte naamruimte.
 
@@ -134,7 +134,7 @@ Wanneer het gebruiken van de Kwalificatie van het Publiek voor gestroomd publiek
 
 Vermijd het gebruik van open en verzend gebeurtenissen met streaming segmentatie. In plaats daarvan, gebruik echte user-activity signalen zoals kliks, aankopen, of baken gegevens. Voor frequentie of suppression logica, gebruik bedrijfsregels eerder dan verzendt gebeurtenissen. [Meer informatie](../audience/about-audiences.md#open-and-send-event-guardrails)
 
-Voor meer informatie bij het stromen segmentatie, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
+Voor meer informatie bij het stromen segmentatie, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
 
 ### Overbelasting voorkomen {#overloads-speed-segment-qualification}
 

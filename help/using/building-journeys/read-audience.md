@@ -43,14 +43,14 @@ Neem als voorbeeld het &quot;toepassings het openen en controle van de Luma&quot
 
 * Als beste praktijken, adviseren wij u slechts partijpubliek in a **Gelezen publiek** activiteit. Dit zal een betrouwbare en consistente telling van de tijdens de reis gebruikte doelgroepen opleveren. Lees het publiek wordt ontworpen voor partijgebruik gevallen. Als uw gebruiksgeval gegevens in real time gelieve vereist te gebruiken {de kwalificatieactiviteit van 0} Audience [&#128279;](audience-qualification-events.md)**.**
 
-* Het publiek [ werd ingevoerd uit een Csv- dossier ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) of resulterend uit [ samenstellingswerkschema&#39;s ](../audience/get-started-audience-orchestration.md) kan in de **Gelezen activiteit van het Publiek** worden geselecteerd. Deze doelgroepen zijn niet beschikbaar in de **activiteit van de Kwalificatie van het publiek 0&rbrace;.**
+* Het publiek [ werd ingevoerd uit een Csv- dossier ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=nl-NL#import-audience) of resulterend uit [ samenstellingswerkschema&#39;s ](../audience/get-started-audience-orchestration.md) kan in de **Gelezen activiteit van het Publiek** worden geselecteerd. Deze doelgroepen zijn niet beschikbaar in de **activiteit van de Kwalificatie van het publiek 0&rbrace;.**
 
 De begeleiding met betrekking tot **Gelezen de activiteit van het publiek** wordt vermeld in [ deze pagina ](../start/guardrails.md#read-segment-g).
 
 
 >[!CAUTION]
 >
->[ Grafieken voor gegevens en segmentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html){target="_blank"} zijn ook op Adobe Journey Optimizer van toepassing.
+>[ Grafieken voor gegevens en segmentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=nl-NL){target="_blank"} zijn ook op Adobe Journey Optimizer van toepassing.
 
 ## De activiteit configureren {#configuring-segment-trigger-activity}
 
@@ -68,7 +68,7 @@ De stappen om de Gelezen activiteit van het Publiek te vormen zijn als volgt.
 
    >[!NOTE]
    >
-   >Bovendien kunt u het publiek van Adobe Experience Platform ook richten dat gebruikend [ wordt gecreeerd publiekssamenstellingen ](../audience/get-started-audience-orchestration.md) of [ van een Csv- dossier ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} wordt geupload.
+   >Bovendien kunt u het publiek van Adobe Experience Platform ook richten dat gebruikend [ wordt gecreeerd publiekssamenstellingen ](../audience/get-started-audience-orchestration.md) of [ van een Csv- dossier ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=nl-NL#import-audience){target="_blank"} wordt geupload.
 
    U kunt de kolommen in de lijst aanpassen en sorteren.
 
@@ -82,7 +82,7 @@ De stappen om de Gelezen activiteit van het Publiek te vormen zijn als volgt.
 
    >[!NOTE]
    >
-   >Slechts zullen de individuen met de **Realized** status van de publieksparticipatie de reis ingaan. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [ documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Slechts zullen de individuen met de **Realized** status van de publieksparticipatie de reis ingaan. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [ documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=nl-NL#interpret-segment-results){target="_blank"}.
 
 1. Kies in het veld **[!UICONTROL Namespace]** de naamruimte die u wilt gebruiken om de personen te identificeren. Het veld wordt standaard voorgevuld met de laatst gebruikte naamruimte. [ Leer meer over namespaces ](../event/about-creating.md#select-the-namespace).
 
