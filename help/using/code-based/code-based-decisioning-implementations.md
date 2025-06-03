@@ -5,12 +5,10 @@ feature: Code-based Experiences
 topic: Content Management
 role: Developer
 level: Experienced
-hide: true
-hidefromtoc: true
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 57686b9684f9233c81bd46b67d12ec5f1e3544c5
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -28,7 +26,7 @@ Wanneer het testen van [ code-gebaseerde ervaring ](create-code-based.md) met be
 Nadat u de campagne hebt gepubliceerd, voegt u de markering `dryRun` toe aan het XDM-gebeurtenisblok `data` in de clientimplementatie:
 
     &quot;
-     &lbrace;
+     {
      &quot;gegevens&quot;: 
      &quot;__adobe&quot;: 
      &quot;ajo&quot;: 
@@ -46,7 +44,7 @@ Nadat u de campagne hebt gepubliceerd, voegt u de markering `dryRun` toe aan het
 
 ## Deduplicatie van besluitvormingselementen in op code-gebaseerde implementaties {#code-based-decisioning-deduplication}
 
-Wanneer het gebruiken van [ besluitvormingsbeleid ](../experience-decisioning/create-decision.md) in uw op code-gebaseerde ervaringen, leer hoe te om deduplicatie op uw besluitvormingsverzoeken in uw cliëntimplementatie toe te passen.
+Wanneer het gebruiken van [ besluitvormingsbeleid ](../experience-decisioning/create-decision.md) in uw op code-gebaseerde ervaringen, kunt u deduplicatie op uw besluitvormingsverzoeken in uw cliëntimplementatie toepassen.
 
 Beslissingsverzoeken (via Konductor) accepteren de deduplicatiemarkering, die de unieke keuze van beslissingselementen in één verzoek behandelt, dat uit meerdere beleidslijnen of plaatsingen bestaat.
 
