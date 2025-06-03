@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: binnenkomende acties, het oplossen van problemen, reis, zuivert, zelfhulp, controle, fouten
-source-git-commit: 344cfd108b44a1b34408423418f45f125474bbe5
+exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
+source-git-commit: 339b9381d4949b4bb7446308490ed6e972130fb6
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
-
 
 # Binnenkomende acties tijdens reizen oplossen {#troubleshooting-inbound-actions}
 
@@ -38,7 +38,7 @@ Deze gids verstrekt een geleidelijke proces om kwesties met betrekking tot binne
 
 Controleer het volgende voordat u begint met het oplossen van problemen:
 
-1. Opstelling een **Assurance** zitting. Leer hoe in de [ documentatie van Adobe Experience Platform Assurance ](https://experienceleague.adobe.com/nl/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
+1. Opstelling een **Assurance** zitting. Leer hoe in de [ documentatie van Adobe Experience Platform Assurance ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
 1. Navigeer naar de reis die de binnenkomende actie bevat om de reisnaam en versie-id op te halen.
 
@@ -52,7 +52,7 @@ Controleer het volgende voordat u begint met het oplossen van problemen:
 
    ![](assets/troubleshoot-inbound-retrieve-action-id.png)
 
-1. Haal de profielnaamruimte en -id op om te bepalen bij welk profiel problemen optreden. Gebaseerd op uw configuratie, kan namespace ECID, e-mail, of klant identiteitskaart zijn Leer hoe te omhoog een profiel in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"} kijken.
+1. Haal de profielnaamruimte en -id op om te bepalen bij welk profiel problemen optreden. Gebaseerd op uw configuratie, kan namespace ECID, e-mail, of klant identiteitskaart zijn Leer hoe te omhoog een profiel in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"} kijken.
 
 ## Scenario 1: De gebruiker heeft niet de binnenkomende inhoud ontvangen {#scenario-1}
 
@@ -67,7 +67,7 @@ In dit scenario, is een profiel de binnenkomende actie in de reis ingegaan, maar
 
 2. **&#39;joai&#39;-identiteit gedefinieerd in platform-id&#39;s**
 
-   De binnenkomende actie gebruikt **&quot;joai&quot;** namespace in het profiel `segmentMembership` om het profiel voor de binnenkomende stap te activeren. Controleer of deze is gedefinieerd in Platform-id&#39;s voor de sandbox. Leer meer op [ Dienst van de Identiteit van Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/home){target="_blank"}
+   De binnenkomende actie gebruikt **&quot;joai&quot;** namespace in het profiel `segmentMembership` om het profiel voor de binnenkomende stap te activeren. Controleer of deze is gedefinieerd in Platform-id&#39;s voor de sandbox. Leer meer op [ Dienst van de Identiteit van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home){target="_blank"}
 
 ### Foutopsporingsstappen {#debugging-steps}
 
@@ -83,19 +83,23 @@ Begin door te controleren of het apparaat/de cliënt de verwachte inhoud krijgt.
 
 >[!TAB  In-app kanaal ]
 
-1. Ga naar [ Assurance ](https://experienceleague.adobe.com/nl/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} zitting en selecteer de **[!UICONTROL In-App Messaging]** sectie van het linkerpaneel.
+1. Ga naar [ Assurance ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} zitting en selecteer de **[!UICONTROL In-App Messaging]** sectie van het linkerpaneel.
 
-1. Klik in het tabblad **[!UICONTROL Messages on Device]** op de vervolgkeuzelijst **[!UICONTROL Messages]** en controleer of er een bericht verschijnt met de naam van de rit gevolgd door het bericht &#39;- In-app&#39;. Indien aanwezig betekent dit dat het bericht in de app aanwezig is op het apparaat/de client en dat het probleem gerelateerd kan zijn aan de trigger in de app.
+1. Klik in het tabblad **[!UICONTROL Messages on Device]** op de vervolgkeuzelijst **[!UICONTROL Messages]** .
+
+   ![](assets/troubleshoot-inbound-assurance-in-app.png){width="80%"}
+
+1. Zoek naar een bericht met de reisnaam gevolgd door &#39;- In-app bericht&#39;. Indien aanwezig betekent dit dat het bericht in de app aanwezig is op het apparaat/de client en dat het probleem gerelateerd kan zijn aan de trigger in de app.
 
 1. Als het bericht niet wordt gevonden, is het bericht in de app niet ontvangen door het apparaat/de client. Ga naar de [ volgende stap ](#step-2) voor verder het zuiveren.
 
 >[!TAB  het kanaal van het Web ]
 
-Bezoek de pagina en inspecteer het voorzien van een netwerklusje, of controleer de antwoordlading van Edge in de **[!UICONTROL Edge Delivery]** sectie van de [ Assurance ](https://experienceleague.adobe.com/nl/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} zitting.
+Bezoek de pagina en inspecteer het voorzien van een netwerklusje, of controleer de antwoordlading van Edge in de **[!UICONTROL Edge Delivery]** sectie van de [ Assurance ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} zitting.
 
 >[!TAB  op code-Gebaseerd ervaringskanaal ]
 
-Voer een curl verzoek uit gebruikend [ Adobe API ](https://developer.adobe.com/data-collection-apis/docs/api/) en controleer de antwoordlading van Edge in de **[!UICONTROL Edge Delivery]** sectie van de [ Assurance ](https://experienceleague.adobe.com/nl/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} zitting.
+Voer een curl verzoek uit gebruikend [ Adobe API ](https://developer.adobe.com/data-collection-apis/docs/api/) en controleer de antwoordlading van Edge in de **[!UICONTROL Edge Delivery]** sectie van de [ Assurance ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} zitting.
 
 >[!ENDTABS]
 
@@ -109,11 +113,11 @@ Wanneer een cliënt een verzoek aan Edge Network voor een bepaald profiel en opp
 
 Voer de onderstaande stappen uit om fouten op te sporen in het Edge Network-gedrag.
 
-1. Open de weergave **[!UICONTROL Edge Delivery]** in de Assurance-sessie. Deze weergave bevat informatie over de uitvoering van de binnenkomende actie op de Edge Network-server. Leer meer in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
+1. Open de weergave **[!UICONTROL Edge Delivery]** in de Assurance-sessie. Deze weergave bevat informatie over de uitvoering van de binnenkomende actie op de Edge Network-server. Leer meer in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
 
-   <!--![](assets/troubleshoot-inbound-scenario-1-edge-delivery.png)-->
+1. Controleer of de Edge-activiteit die overeenkomt met de binnenkomende actie wordt vermeld in de secties **[!UICONTROL Qualified Activities]** of **[!UICONTROL Unqualified Activities]** .
 
-1. Controleer of de Edge-activiteit die overeenkomt met de binnenkomende actie wordt vermeld in de secties **[!UICONTROL Qualified Activities]** of **[!UICONTROL Unqualified Activities]** :
+   ![](assets/troubleshoot-inbound-edge-delivery.png)
 
    * Als in de **Gekwalificeerde sectie van Activiteiten**, het profiel voor de binnenkomende reisactie wordt gekwalificeerd, en de inhoud zou moeten zijn teruggekeerd.
    * Als in de **Ongekwalificeerde sectie van Activiteiten**, kwalificeerde het profiel niet voor de binnenkomende reisactie. Zie de redenen voor uitsluiting voor meer informatie.
@@ -123,11 +127,13 @@ Voer de onderstaande stappen uit om fouten op te sporen in het Edge Network-gedr
    >
    >Om uw activiteit van Edge in de **Assurance** zitting te vinden, zoek de activiteit waar **[!UICONTROL audienceNamespace]** **joai** is en **[!UICONTROL audienceSegmentId]** is `<JourneyVersionID>_<JourneyAction ID>` (bijvoorbeeld: *86232fb1-2932-4036-8198-55dfec606fd7_708f718d-8503-4427-ad8d-8e28979b554c*).
 
+   ![](assets/troubleshoot-inbound-edge-delivery-unqualified.png){width="70%"}
+
 1. Als uw activiteit in de **[!UICONTROL Unqualified Activities]** sectie is en de uitsluitingsreden *&quot;Segment is niet actief&quot;*, betekent het de leveringsserver van Edge Network denkt niet het profiel deel van het relevante **joai** publiekssegment uitmaakt.
 
    U kunt controleren of het **joai** segment in de mening van de de leveringsserver van Edge Network van het profiel aanwezig is door het **te openen segmentsMap** element van de sectie van het Profiel en het zoeken naar de aanwezigheid van **joai** segmentidentiteitskaart.
 
-1. Als de de leveringsserver van Edge Network niet het profiel zoals het zijn in het relevante **joai** segment bekijkt, ga naar de volgende stap.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. Als de de leveringsserver van Edge Network niet het profiel zoals het zijn in het relevante **joai** segment bekijkt, ga naar de volgende stap.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
 #### Stap 3: Controleer of het lidmaatschap van het joai-publiek is doorgegeven aan de Edge Network {#step-3}
 
@@ -139,7 +145,7 @@ Wanneer een profiel in a **wordt gekwalificeerd joai** segment, wordt het profie
 >
 >De propagatie van Hub aan Edge kan tot 15-30 minuten van het ogenblik vergen het profiel op de Hub wordt bijgewerkt.
 
-Om de aanwezigheid van het **joai** segment in het 2&rbrace; attribuut van het profiel van Edge te controleren &lbrace;, volg hieronder de stappen.`segmentMembership`
+Om de aanwezigheid van het **joai** segment in het 2} attribuut van het profiel van Edge te controleren {, volg hieronder de stappen.`segmentMembership`
 
 1. Navigeer naar het menu **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** in het navigatievenster [!DNL Journey Optimizer] links en blader naar het profiel met behulp van naamruimte en id. Leer meer op [ Real-time Profielen van de Klant ](../audience/get-started-profiles.md)
 
@@ -172,7 +178,7 @@ Deze stap moet verifiëren dat het profiel van de Hub correct werd bijgewerkt to
 >
 >De opname van het **joai** segmentlidmaatschap in het profiel van de Hub kan tot 15-30 minuten van het ogenblik vergen het profiel de binnenkomende reisactie inging.
 
-Om de aanwezigheid van het **joai** segment in het 2&rbrace; attribuut van het profiel van de Hub te controleren &lbrace;, volg hieronder de stappen.`segmentMembership`
+Om de aanwezigheid van het **joai** segment in het 2} attribuut van het profiel van de Hub te controleren {, volg hieronder de stappen.`segmentMembership`
 
 1. Navigeer naar het menu **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** in het navigatievenster [!DNL Journey Optimizer] links en blader naar het profiel met behulp van naamruimte en id. Leer meer op [ Real-time Profielen van de Klant ](../audience/get-started-profiles.md)
 
@@ -222,9 +228,9 @@ Ga door de zelfde het zuiveren stappen zoals voor [ Scenario 1 ](#debugging-step
 
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/nl/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
 - [Adobe Experience Platform Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=nl-NL)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
 
 ## Warnings and Notes {#warnings-and-notes}
 
