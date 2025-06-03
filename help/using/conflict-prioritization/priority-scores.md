@@ -3,12 +3,11 @@ title: Prioritaire scores toewijzen aan reizen en campagnes
 description: Leer hoe u prioriteitsscores kunt toewijzen aan reizen en campagnes.
 role: User
 level: Beginner
-badge: label="Beperkte beschikbaarheid"
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 2%
+source-wordcount: '373'
+ht-degree: 1%
 
 ---
 
@@ -22,11 +21,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Prioriteit"
->abstract="Wijs een prioritaire score toe aan de reis. Prioriteit is essentieel om prioriteit te geven aan een reis wanneer er een opgelegde beperking is, zoals een frequentiegrens. Voer een numerieke waarde in (tussen 0 en 100). Let op: hoe hoger het getal, hoe hoger de prioriteit."
-
->[!AVAILABILITY]
->
->Conflict- en prioriteitsmogelijkheden zijn momenteel beschikbaar in Beperkte beschikbaarheid voor een geselecteerde groep klanten. Houd er rekening mee dat deze functies in de toekomst geleidelijk aan voor meer gebruikers beschikbaar zullen zijn. Neem contact op met uw accountteam als u interesse hebt in het toevoegen van deze functies aan de wachtlijst.
+>abstract="Wijs een prioritaire score toe aan de reis. Prioriteit is essentieel om prioriteit te geven aan een reis wanneer er een opgelegde beperking is, zoals een frequentiegrens. Voer een numerieke waarde in (van 0-100). Let op: hoe hoger het getal, hoe hoger de prioriteit."
 
 Met Journey Optimizer kunt u een prioriteitsscore toekennen aan een reis of campagne. Prioriteit is essentieel om prioriteit te geven aan een reis, campagne of actie wanneer er een opgelegde beperking is (zoals een frequentiegrens). In situaties waar een klant voor vele reizen, campagnes, of mededelingen kwalificeert en u selectief wilt zijn wat zij zouden moeten ingaan en ontvangen, zou u dit gebied moeten gebruiken.
 
@@ -44,8 +39,8 @@ Als u een prioriteitsscore wilt toewijzen aan een reis of campagne, voert u een 
 
 >[!IMPORTANT]
 >
->Voor situaties waarin twee campagnes dezelfde prioriteitsscore hebben, wordt de campagne weergegeven die als eerste werd geactiveerd.
+>Als twee reizen of campagnes dezelfde prioriteitsscore hebben, heeft het systeem geen mechanisme voor het afbreken van de verbinding. Ervoor zorgen dat prioriteitsscores uniek zijn om conflicten te voorkomen.
 
 ## Hoe kan ik-video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445007?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
