@@ -27,7 +27,7 @@ Wanneer het richten van een publiek dat gebruikend samenstellingswerkschema&#39;
 
 Hier volgen de acties die u kunt uitvoeren met de verrijkingskenmerken van het publiek:
 
-* **creeer veelvoudige wegen in een reis** die op regels wordt gebaseerd die hefboomwerking de de verrijkingsattributen van het doelpubliek. Om dit te doen, richt het publiek dat a [ gebruikt gelezen publiek ](../building-journeys/read-audience.md) activiteit dan tot regels in de activiteit van de Voorwaarde van a [ ](../building-journeys/condition-activity.md) leidt die op de verrijkingsattributen van het publiek wordt gebaseerd.
+* **creeer veelvoudige wegen in een reis** die op regels wordt gebaseerd die hefboomwerking de de verrijkingsattributen van het doelpubliek. Om dit te doen, richt het publiek dat a [ gebruikt gelezen publiek ](../building-journeys/read-audience.md) activiteit dan tot regels in de activiteit van de Voorwaarde van a [&#128279;](../building-journeys/condition-activity.md) leidt die op de verrijkingsattributen van het publiek wordt gebaseerd.
 
   ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
 
@@ -39,21 +39,21 @@ Hier volgen de acties die u kunt uitvoeren met de verrijkingskenmerken van het p
 >
 >Om verrijkingsattributen van publiek te gebruiken creeerde het gebruiken van samenstellingswerkschema&#39;s, zorg ervoor dat zij aan een Groep van het Gebied binnen &quot;ExperiencePlatform&quot;Gegevens Source worden toegevoegd.
 >
-+++ Leer hoe u verrijkingskenmerken aan een veldgroep kunt toevoegen>
+>+++ Leer hoe u verrijkingskenmerken aan een veldgroep kunt toevoegen>
 >
-1. Navigeer naar &quot;Beheer&quot; > &quot;Configuratie&quot; > &quot;Gegevensbronnen&quot;.
-1. Selecteer &quot;Experience Platform&quot; en maak of bewerk een veldgroep.
-1. Selecteer het gewenste schema in de schemaselector. De naam van het schema volgt deze indeling: &#39;Schema voor publiek-id:&#39; + de id van het publiek. U kunt de id van het publiek vinden op het scherm met publieksdetails in de publieksinventaris.
-1. Open de veldkiezer, zoek de verrijkingskenmerken die u wilt toevoegen en selecteer het selectievakje naast deze kenmerken.
-1. Sla uw wijzigingen op.
-1. Als verrijkingskenmerken eenmaal zijn toegevoegd aan een veldgroep, kunt u deze gebruiken in Journey Optimizer op de hierboven vermelde locaties.
+>1. Navigeer naar &quot;Beheer&quot; > &quot;Configuratie&quot; > &quot;Gegevensbronnen&quot;.
+>1. Selecteer &quot;Experience Platform&quot; en maak of bewerk een veldgroep.
+>1. Selecteer het gewenste schema in de schemaselector. De naam van het schema volgt deze indeling: &#39;Schema voor publiek-id:&#39; + de id van het publiek. U kunt de id van het publiek vinden op het scherm met publieksdetails in de publieksinventaris.
+>1. Open de veldkiezer, zoek de verrijkingskenmerken die u wilt toevoegen en selecteer het selectievakje naast deze kenmerken.
+>1. Sla uw wijzigingen op.
+>1. Als verrijkingskenmerken eenmaal zijn toegevoegd aan een veldgroep, kunt u deze gebruiken in Journey Optimizer op de hierboven vermelde locaties.
 >
-Gedetailleerde informatie over gegevensbronnen is beschikbaar in deze secties:
+>Gedetailleerde informatie over gegevensbronnen is beschikbaar in deze secties:
 >
-* [ Werk met de gegevensbron van Adobe Experience Platform ](../datasource/adobe-experience-platform-data-source.md)
-* [ vorm een gegevensbron ](../datasource/configure-data-sources.md)
+>* [ Werk met de gegevensbron van Adobe Experience Platform ](../datasource/adobe-experience-platform-data-source.md)
+>* [ vorm een gegevensbron ](../datasource/configure-data-sources.md)
 >
-+++
+>+++
 
 
 
