@@ -25,7 +25,7 @@ Ga naar **[!UICONTROL Administration]** > **[!UICONTROL License Usage]** om dit 
 
 >[!NOTE]
 >
->Om het dashboard te bekijken, moet u de ](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"} toestemming hebben van het Gebruik Dashboard van het Gebruik van de Vergunning van 0} Mening.[
+>Om het dashboard te bekijken, moet u de [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"} toestemming hebben van het Gebruik Dashboard van het Gebruik van de Vergunning van 0&rbrace; Mening.
 
 Voor [!DNL Adobe Journey Optimizer], staat het dashboard u toe om het aantal **toe te laten Profielen** te controleren. Een aanspreekbaar profiel is een record met informatie die een individu vertegenwoordigt en wordt opgeslagen in de profielservice. Deze records zijn profielen die u in de afgelopen 12 maanden hebt proberen te gebruiken voor het schrijven, beslissen, leveren, experimenteren of orchestreren van Journey Optimizer.
 
