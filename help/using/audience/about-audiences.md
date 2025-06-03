@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d87f33c80cc85b1d1a87150687f6d7c9a268a016
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -28,19 +28,19 @@ ht-degree: 0%
 >title="Selecteer het campagnepubliek"
 >abstract="In deze lijst worden alle beschikbare Adobe Experience Platform-soorten publiek weergegeven. Selecteer het publiek voor uw campagne. Het bericht dat in de campagne wordt gevormd zal naar alle individuen worden verzonden die tot het geselecteerde publiek behoren. [ leer meer over publiek ](../audience/about-audiences.md)"
 
-Publiek zijn verzamelingen van mensen die hetzelfde gedrag en/of vergelijkbare kenmerken hebben. Ze worden centraal geconfigureerd en onderhouden op Adobe Experience Platform met behulp van de Adobe Experience Platform Segmentation Service en zijn gemakkelijk toegankelijk binnen Journey Optimizer om te worden geactiveerd tijdens uw reizen en campagnes.
+Soorten publiek zijn verzamelingen van mensen met een vergelijkbaar gedrag en/of vergelijkbare kenmerken. Ze worden centraal geconfigureerd en onderhouden op Adobe Experience Platform met behulp van de Adobe Experience Platform Segmentation Service en zijn gemakkelijk toegankelijk binnen Journey Optimizer om te worden geactiveerd tijdens uw reizen en campagnes.
 
 Adobe Journey Optimizer biedt robuuste hulpmiddelen voor het maken, beheren en verrijken van doelgroepen om marketinginspanningen te verbeteren. In combinatie met Adobe Real-Time Customer Data Platform kunt u in Journey Optimizer lagen in het publiek opnemen voor complexere segmentatie en kunt u in twee richtingen soorten publiek delen met andere Adobe Experience Cloud-oplossingen.
 
-Aangezien de gegevensstromen in real time of partij wordt geupload, werken datasets bij en Journey Optimizer dynamisch individuen binnen en uit publiek en reizen in real time.
+Naarmate gegevensstromen in real time of batchuploads plaatsvinden, worden gegevenssets bijgewerkt en verplaatst Journey Optimizer personen dynamisch in en uit het publiek en reizen in real-time.
 
 >[!BEGINSHADEBOX]
 
 Deze documentatie biedt informatie over het werken met het publiek in [!DNL Adobe Journey Optimizer] . Gedetailleerde informatie over de portal Publiek en het publiek is beschikbaar in de documentatie van de Adobe Experience Platform Segmentation-service. Raadpleeg de volgende secties voor meer informatie:
 
-* [ de dienstgids UI van de Segmentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/overview){target="_blank"} 
+* {de gids van de Dienst UI van de Segmentatie 0} ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}[
 
-* [ de dienst van de Segmentatie - Veelgestelde vragen ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/faq){target="_blank"} 
+* [ de Dienst van de Segmentatie - Veelgestelde Vragen ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -48,13 +48,13 @@ Deze documentatie biedt informatie over het werken met het publiek in [!DNL Adob
 
 Soorten publiek zijn beschikbaar in het menu **[!UICONTROL Customer]** > **[!UICONTROL Audiences]** .
 
-Een dashboard toont visueel overlappingen tussen belangrijke publiek en steunt het onderzoeken van waardevolle publiekstrends, zoals veranderingen van de publieksgrootte over een bepaalde tijdspanne of plotselinge pieken in publiek kunnen gebeurtenissen of acties benadrukken die een publiek aan krimpen, maar ook die die in publieksgroei, zoals een succesvolle aanbieding resulteerden.
+Een dashboard toont visueel overlappingen tussen belangrijke doelgroepen en ondersteunt het verkennen van waardevolle publiekstrends. Bijvoorbeeld, kunnen de veranderingen van de publieksgrootte over een bepaalde tijdspanne of plotselinge pieken in publiek gebeurtenissen of acties benadrukken die een publiek aan krimpen of veroorzaken om te groeien, zoals een succesvolle aanbieding.
 
 ![](assets/audiences-overview.png)
 
 Via het Poortpubliek van het publiek kunt u eenvoudig het publiek beheren, zoeken en verkennen met gestandaardiseerde labels, beheerbesturingselementen, doorzoekbare mappen en tags.
 
-Voor meer informatie over hoe te met publiek in het Portaal van het Publiek te werken, verwijs naar de [ documentatie van de Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL){target="_blank"} .
+Voor meer informatie over hoe te met publiek in het Portaal van het Publiek te werken, verwijs naar de [ documentatie van de Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
 
 ## Typen soorten publiek {#types}
 
