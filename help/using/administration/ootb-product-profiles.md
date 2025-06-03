@@ -9,7 +9,7 @@ role: Admin, User
 level: Intermediate
 keywords: machtigingen, schrijven, berichten
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: 49a607e8e4b4cce7bcf41d92abe6b9fa54dfb411
 workflow-type: tm+mt
 source-wordcount: '1159'
 ht-degree: 5%
@@ -24,7 +24,7 @@ Ingebouwde rollen zijn een reeks eenheidrechten die gebruikers toegang tot bepaa
 
 Met de rol **[!DNL Campaign Administrator]** kunnen de beheermenu&#39;s campagnes en het beheer van beslissingen beheren en publiceren.
 
-Deze rol omvat de volgende toestemmingen:
+Deze machtiging omvat de volgende machtigingen:
 
 | Bronnen | Machtigingen |
 |-|-|
@@ -48,7 +48,7 @@ Met de rol **[!DNL Campaign Approver]** kunnen gebruikers leveringen goedkeuren 
 
 Met de rol **[!DNL Campaign Manager]** kunnen gebruikers **[!UICONTROL Campaigns]** en alle mogelijkheden die aan **[!UICONTROL Campaigns]** zijn gekoppeld maken en bewerken, maar kunnen ze deze niet publiceren.
 
-Deze rol omvat de volgende toestemmingen:
+Deze machtiging omvat de volgende machtigingen:
 
 | Bronnen | Machtigingen |
 |-|-|
@@ -63,7 +63,7 @@ Met de rol **[!DNL Campaign Viewer]** hebt u alleen-lezen toegang tot de mogelij
 
 Gebruikers die aan deze rol zijn toegewezen, kunnen deze niet bewerken of publiceren.
 
-Deze rol omvat de volgende toestemmingen:
+Deze machtiging omvat de volgende machtigingen:
 
 | Bronnen | Machtigingen |
 |-|-|
@@ -74,7 +74,7 @@ Deze rol omvat de volgende toestemmingen:
 
 Met de rol **[!DNL Journey Administrator]** kunnen de beheermenu&#39;s de mogelijkheid hebben om de journalen en het besluitvormingsbeheer te beheren en te publiceren.
 
-Deze rol omvat de volgende toestemmingen:
+Deze machtiging omvat de volgende machtigingen:
 
 | Bronnen | Machtigingen |
 |-|-|
@@ -89,7 +89,7 @@ Deze rol omvat de volgende toestemmingen:
 
 Met de rol **[!DNL Journey Approver]** kunnen gebruikers leveringen goedkeuren en publiceren. Ze kunnen later het succes van hun leveringen controleren met de **[!DNL Journey]** -rapporten.
 
-Deze rol omvat de volgende toestemmingen:
+Deze machtiging omvat de volgende machtigingen:
 
 | Bronnen | Machtigingen |
 |-|-|
@@ -102,7 +102,7 @@ Deze rol omvat de volgende toestemmingen:
 
 Met de rol **[!DNL Journey Manager]** kunnen gebruikers **[!UICONTROL Journeys]** en alle mogelijkheden die aan **[!UICONTROL Journeys]** zijn gekoppeld maken en bewerken, maar kunnen ze deze niet publiceren.
 
-Deze rol omvat de volgende toestemmingen:
+Deze machtiging omvat de volgende machtigingen:
 
 | Bronnen | Machtigingen |
 |-|-|
@@ -117,7 +117,7 @@ Met de rol **[!DNL Journey viewer]** hebt u alleen-lezen toegang tot de mogelijk
 
 Gebruikers die aan deze rol zijn toegewezen, kunnen deze niet bewerken of publiceren.
 
-Deze rol omvat de volgende toestemmingen:
+Deze machtiging omvat de volgende machtigingen:
 
 | Bronnen | Machtigingen |
 |-|-|
@@ -128,7 +128,7 @@ Deze rol omvat de volgende toestemmingen:
 
 Met de rol **[!DNL Decisioning manager]** hebt u alleen toegang tot het menu **[!UICONTROL Decision management]** . Gebruikers die aan deze rol zijn toegewezen, kunnen alleen beslissingen beheren, weergeven en publiceren.
 
-Deze rol omvat de volgende toestemmingen:
+Deze machtiging omvat de volgende machtigingen:
 
 | Capaciteit | Machtigingen |
 |-|-|
@@ -138,7 +138,7 @@ Deze rol omvat de volgende toestemmingen:
 
 Met de rol **[!DNL Content Library Manager]** hebt u alleen toegang tot het menu **[!UICONTROL Content templates]** . Gebruikers die aan deze rol zijn toegewezen, kunnen alleen toegang krijgen tot de sjabloonbibliotheek om inhoud te maken zonder de reizen of campagnes te openen.
 
-Deze rol omvat de volgende toestemmingen:
+Deze machtiging omvat de volgende machtigingen:
 
 | Capaciteit | Machtigingen |
 |-|-|
