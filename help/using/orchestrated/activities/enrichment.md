@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
-source-wordcount: '1986'
+source-wordcount: '2062'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,17 @@ ht-degree: 0%
 >title="Verrijkingsactiviteit"
 >abstract="De **Verrijking** activiteit staat u toe om de gerichte gegevens met extra informatie van het gegevensbestand te verbeteren. Het wordt vaak gebruikt in een werkschema na segmenteringsactiviteiten."
 
++++ Inhoudsopgave
+
+| Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
+|---|---|---|---|
+| [ worden begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](configuration-steps.md)<br/><br/>[ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](gs-campaign-creation.md) | [ creeer een georkestreerde campagne ](create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](send-messages.md)<br/><br/>[ Begin en controleer de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de Vraag Modeler ](orchestrated-query-modeler.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uitdrukkingen ](edit-expressions.md) uit | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ combineert ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) - [ Fork ](activities/fork.md) opnieuw verzoening ](activities/reconciliation.md) - [ Gesplitst ](activities/split.md) - [ wacht ](activities/wait.md)[ |
+
+{style="table-layout:fixed"}
+
++++
+
+<br/><br/>
 
 De **Verrijking** activiteit is a **richtend** activiteit. Hiermee kunt u de doelgegevens verbeteren met aanvullende informatie uit de database. Het wordt vaak gebruikt in een werkschema na segmenteringsactiviteiten.
 
@@ -40,7 +51,7 @@ U kunt bijvoorbeeld informatie over aankopen van klanten toevoegen aan de georke
 
 ## Een verrijkingsactiviteit toevoegen {#enrichment-configuration}
 
-Volg deze stappen om de **1&rbrace; activiteit van de Verrijking &lbrace;te vormen:**
+Volg deze stappen om de **1} activiteit van de Verrijking {te vormen:**
 
 1. Voeg activiteiten zoals **toe bouwt publiek** en **combineer** activiteiten.
 1. Voeg een **Verrijking** activiteit toe.
@@ -116,7 +127,7 @@ De **verrijking** activiteit kan worden gebruikt om gegevens van het het gegeven
 
 U kunt deze optie bijvoorbeeld gebruiken om het land van een profiel dat is opgegeven in een geüpload bestand, te combineren met een van de landen die beschikbaar zijn in de specifieke tabel van de Campagne-database.
 
-Volg de stappen om een **1&rbrace; activiteit van de Verrijking &lbrace;met een verzoeningsverbinding te vormen:**
+Volg de stappen om een **1} activiteit van de Verrijking {met een verzoeningsverbinding te vormen:**
 
 1. Klik **toevoegen verbinding** knoop in de **Verzoening** sectie.
 1. Identificeer de gegevens u een verzoeningsverbinding met wilt tot stand brengen.
@@ -217,7 +228,7 @@ Hier selecteert u de verzamelingskoppeling die u als verrijkingsgegevens wilt ge
 
 1. Klik binnen het **gebied van Attributen**.
 1. Klik **Geavanceerde attributen van de Vertoning**.
-1. Selecteer het **gebied van de Prijs** &lbrace;van de **Aankopen** lijst.
+1. Selecteer het **gebied van de Prijs** {van de **Aankopen** lijst.
 
 <!-- ![](../assets/workflow-enrichment3.png) -->
 
@@ -251,7 +262,7 @@ Wij moeten nu het sorteren toepassen om de drie **recentste** aankopen terug te 
 
 1. Activeer **het sorteren** optie toelaten.
 1. Klik binnen het **gebied van Attributen**.
-1. Selecteer het **gebied van de datum van de Orde 0&rbrace; &lbrace;.**
+1. Selecteer het **gebied van de datum van de Orde 0} {.**
 1. Klik **bevestigen**.
 1. Selecteer **Aflopend** van de **drop-down Soort**.
 
