@@ -61,4 +61,4 @@ De volgende activiteiten zijn specifiek gericht op het organiseren en uitvoeren 
 * [ wacht ](wait.md): Onderbreek tijdelijk uitvoering van een deel van een georkestreerde campagne.
 
 >[!NOTE]
->De **activiteit van het 0&rbrace; Eind &lbrace;merkt grafisch het eind van een georkestreerde campagne.** Deze activiteit heeft geen functioneel effect en is daarom optioneel
+>De **activiteit van het 0} Eind {merkt grafisch het eind van een georkestreerde campagne.** Deze activiteit heeft geen functioneel effect en is daarom optioneel

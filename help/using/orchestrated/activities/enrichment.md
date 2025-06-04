@@ -40,7 +40,7 @@ U kunt bijvoorbeeld informatie over aankopen van klanten toevoegen aan de georke
 
 ## Een verrijkingsactiviteit toevoegen {#enrichment-configuration}
 
-Volg deze stappen om de **1&rbrace; activiteit van de Verrijking &lbrace;te vormen:**
+Volg deze stappen om de **1} activiteit van de Verrijking {te vormen:**
 
 1. Voeg activiteiten zoals **toe bouwt publiek** en **combineer** activiteiten.
 1. Voeg een **Verrijking** activiteit toe.
@@ -116,7 +116,7 @@ De **verrijking** activiteit kan worden gebruikt om gegevens van het het gegeven
 
 U kunt deze optie bijvoorbeeld gebruiken om het land van een profiel dat is opgegeven in een geüpload bestand, te combineren met een van de landen die beschikbaar zijn in de specifieke tabel van de Campagne-database.
 
-Volg de stappen om een **1&rbrace; activiteit van de Verrijking &lbrace;met een verzoeningsverbinding te vormen:**
+Volg de stappen om een **1} activiteit van de Verrijking {met een verzoeningsverbinding te vormen:**
 
 1. Klik **toevoegen verbinding** knoop in de **Verzoening** sectie.
 1. Identificeer de gegevens u een verzoeningsverbinding met wilt tot stand brengen.
@@ -217,7 +217,7 @@ Hier selecteert u de verzamelingskoppeling die u als verrijkingsgegevens wilt ge
 
 1. Klik binnen het **gebied van Attributen**.
 1. Klik **Geavanceerde attributen van de Vertoning**.
-1. Selecteer het **gebied van de Prijs** &lbrace;van de **Aankopen** lijst.
+1. Selecteer het **gebied van de Prijs** {van de **Aankopen** lijst.
 
 <!-- ![](../assets/workflow-enrichment3.png) -->
 
@@ -251,7 +251,7 @@ Wij moeten nu het sorteren toepassen om de drie **recentste** aankopen terug te 
 
 1. Activeer **het sorteren** optie toelaten.
 1. Klik binnen het **gebied van Attributen**.
-1. Selecteer het **gebied van de datum van de Orde 0&rbrace; &lbrace;.**
+1. Selecteer het **gebied van de datum van de Orde 0} {.**
 1. Klik **bevestigen**.
 1. Selecteer **Aflopend** van de **drop-down Soort**.
 

@@ -82,7 +82,7 @@ Volg onderstaande stappen om een levering in te stellen in het kader van een geo
 
 1. Open uw kanaalactiviteit om het verzenden van de **Overzicht te bevestigen &amp;** knoop te verzenden.
 
-1. Van uw leveringsdashboard, verzendt de klik **&#x200B;**.
+1. Van uw leveringsdashboard, verzendt de klik ****.
 
 ## Voorbeelden {#cross-channel-workflow-sample}
 
