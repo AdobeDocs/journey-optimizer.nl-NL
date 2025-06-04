@@ -44,7 +44,7 @@ Voer de volgende stappen uit om de **Deduplication** -activiteit te configureren
 
 ![](../assets/workflow-deduplication.png)
 
-1. Voeg a **activiteit 0} Deduplicatie {aan uw geordende campagne toe.**
+1. Voeg a **activiteit 0&rbrace; Deduplicatie &lbrace;aan uw geordende campagne toe.**
 
 1. In de **Gebieden om duplicaten** sectie te identificeren, klik **voegt attribuut** knoop toe om de gebieden te specificeren waarvoor de identieke waarden toestaan om worden geïdentificeerd de duplicaten, zoals: e-mailadres, voornaam, achternaam, enz. In de volgorde van de velden kunt u opgeven welke velden eerst moeten worden verwerkt.
 
