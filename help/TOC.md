@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
 workflow-type: tm+mt
-source-wordcount: '2406'
+source-wordcount: '2411'
 ht-degree: 20%
 
 ---
@@ -175,36 +175,33 @@ ht-degree: 20%
          + [Productie beperken met externe gegevensbronnen en aangepaste acties](using/building-journeys/limit-throughput.md)
          + [Aangepaste acties gebruiken om gebeurtenissen voor reizen in Experience Platform te schrijven](using/building-journeys/custom-action-aep.md)
 + Geordende campagnes {#orchestrated-campaigns}
-   + [Aan de slag met georkestreerde campagnes](using/ms/gs-ms-campaigns.md)
-   + [Belangrijkste beginselen](using/ms/gs-campaign-creation.md)
-   + [ Stappen om georkestreerde campagnes  te creëren](using/ms/gs-campaign-steps.md)
-   + Configuratiestappen {#ms-config}
-      + [Relationele schema&#39;s maken](using/ms/ms-schemas.md)
-   + Aanmaakstappen{#create-ms-campaign}
-      + [Een georkestreerde campagne maken](using/ms/create-ms-campaign.md)
-      + [Campagne-instellingen configureren](using/ms/ms-campaign-settings.md)
-      + [Uw campagnes plannen en starten](using/ms/start-monitor-campaigns.md)
-      + [ bouwt vragen ](using/ms/ms-query-modeler.md)
-   + Activiteiten {#design-campaigns}
-      + [Aan de slag met activiteiten](using/ms/activities/about-activities.md)
-      + [Orchestraten](using/ms/orchestrate-activities.md)
-      + [En-join](using/ms/activities/and-join.md)
-      + [publiek opbouwen](using/ms/activities/build-audience.md)
-      + [Dimensie wijzigen](using/ms/activities/change-dimension.md)
-      + [Combineren](using/ms/activities/combine.md)
-      + [Deduplicatie](using/ms/activities/deduplication.md)
-      + [Verrijking](using/ms/activities/enrichment.md)
-      + [Vertakking](using/ms/activities/fork.md)
-      + [Afstemming](using/ms/activities/reconciliation.md)
-      + [Splitsen](using/ms/activities/split.md)
-      + [Testen](using/ms/activities/test.md)
-      + [Wachten](using/ms/activities/wait.md)
-   + Berichten {#messages}
-      + [Kanaalhandelingen](using/ms/activities/channels.md)
-      + [ Personaliseer uw inhoud ](using/ms/ms-personalization.md)
-      + [Uw berichten testen en valideren](using/ms/ms-proofs.md)
-   + Rapportage en bewaking {#report}
-      + [Rapportage](using/ms/reporting-campaigns.md)
+   + [Aan de slag met georkestreerde campagnes](using/orchestrated/gs-orchestrated-campaigns.md)
+   + [Configuratiestappen](using/orchestrated/configuration-steps.md)
+   + [Belangrijke stappen voor het maken van georkestreerde campagnes](using/orchestrated/gs-campaign-creation.md)
+   + Start uw eerste georkestreerde campagne{#launch}
+      + [Een georkestreerde campagne maken](using/orchestrated/create-orchestrated-campaign.md)
+      + [Orchestraten](using/orchestrated/orchestrate-activities.md)
+      + [Berichten verzenden met georkestreerde campagnes](using/orchestrated/send-messages.md)
+      + [De campagne starten en controleren](using/orchestrated/start-monitor-campaigns.md)
+      + [ Meldend ](using/orchestrated/reporting-campaigns.md)
+   + De database opvragen {#query-database}
+      + [ Werk met de Vraag Modeler ](using/orchestrated/orchestrated-query-modeler.md)
+      + [ bouwt uw eerste vraag ](using/orchestrated/build-query.md)
+      + [ geef uitdrukkingen ](using/orchestrated/edit-expressions.md) uit
+   + Gecontroleerde campagnes {#design-campaigns}
+      + [Aan de slag met activiteiten](using/orchestrated/activities/about-activities.md)
+      + [En-join](using/orchestrated/activities/and-join.md)
+      + [publiek opbouwen](using/orchestrated/activities/build-audience.md)
+      + [Dimensie wijzigen](using/orchestrated/activities/change-dimension.md)
+      + [Combineren](using/orchestrated/activities/combine.md)
+      + [Deduplicatie](using/orchestrated/activities/deduplication.md)
+      + [Verrijking](using/orchestrated/activities/enrichment.md)
+      + [Vertakking](using/orchestrated/activities/fork.md)
+      + [Afstemming](using/orchestrated/activities/reconciliation.md)
+      + [Splitsen](using/orchestrated/activities/split.md)
+      + [Testen](using/orchestrated/activities/test.md)
+      + [Wachten](using/orchestrated/activities/wait.md)
+      + [Kanaalactiviteiten](using/orchestrated/activities/channels.md)
 + Campagnes {#campaigns}
    + [Aan de slag met campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Een campagne maken](using/campaigns/create-campaign.md)
@@ -361,7 +358,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
          + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [ gegevens van Adobe Experience Platform van het Gebruik voor verpersoonlijking (Beta) ](using/personalization/lookup-aep-data.md)
@@ -706,7 +703,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
    + [Uw kanalen configureren](using/configuration/get-started-configuration.md)
