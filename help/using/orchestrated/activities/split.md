@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 01fbf78d15e620fa7b540e3a1a6972949a0c4795
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 | Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
 |---|---|---|---|
-| [ worden begonnen met georkestreerde campagnes ](../gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](../configuration-steps.md)<br/><br/>[ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](../gs-campaign-creation.md) | [ creeer een georkestreerde campagne ](../create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](../orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](../send-messages.md)<br/><br/>[ Begin en controleer de campagne ](../start-monitor-campaigns.md)<br/><br/>[ Meldend ](../reporting-campaigns.md) | [ Werk met de Vraag Modeler ](../orchestrated-query-modeler.md)<br/><br/>[ bouwt uw eerste vraag ](../build-query.md)<br/><br/>[ uitdrukkingen ](../edit-expressions.md) uit | [ wordt begonnen met activiteiten ](about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](and-join.md) - [ bouwt publiek ](build-audience.md) - [ dimensie van de Verandering ](change-dimension.md) - [ combineert ](combine.md) - [ Deduplicatie ](deduplication.md) - [ Verrijking ](enrichment.md) - [ Fork ](fork.md) opnieuw verzoening [&#128279;](reconciliation.md) - [ Gesplitst ](split.md) - [ wacht ](wait.md) |
+| [ worden begonnen met georkestreerde campagnes ](../gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](../configuration-steps.md)<br/><br/>[ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](../gs-campaign-creation.md) | [ creeer een georkestreerde campagne ](../create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](../orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](../send-messages.md)<br/><br/>[ Begin en controleer de campagne ](../start-monitor-campaigns.md)<br/><br/>[ Meldend ](../reporting-campaigns.md) | [ Werk met de Vraag Modeler ](../orchestrated-query-modeler.md)<br/><br/>[ bouwt uw eerste vraag ](../build-query.md)<br/><br/>[ uitdrukkingen ](../edit-expressions.md) uit | [ wordt begonnen met activiteiten ](about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](and-join.md) - [ bouwt publiek ](build-audience.md) - [ dimensie van de Verandering ](change-dimension.md) - [ combineert ](combine.md) - [ Deduplicatie ](deduplication.md) - [ Verrijking ](enrichment.md) - [ Fork ](fork.md) opnieuw verzoening ](reconciliation.md) - [ Gesplitst ](split.md) - [ wacht ](wait.md)[ |
 
 {style="table-layout:fixed"}
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 <br/>
 
-De **Gesplitste** activiteit is a **richtend** activiteit die u toestaat om inkomende populaties in veelvoudige subsets te segmenteren die op verschillende selectiecriteria, zoals het filtreren regels of bevolkingsgrootte worden gebaseerd.
+De **Gesplitste** activiteit is a **richtend** activiteit die de inkomende bevolking in veelvoudige subsets segmenteert die op bepaalde selectiecriteria zoals het filtreren regels of populatiegrootte worden gebaseerd.
 
 ## De activiteit Splitsen configureren {#split-configuration}
 
@@ -83,40 +83,39 @@ Volg deze stappen om de **Gesplitste** activiteit te vormen:
 
 1. Het deelvenster voor activiteitenconfiguratie wordt geopend met een standaardsubset. Klik **toevoegen segment** knoop om zo vele ondergroepen toe te voegen zoals gewenst om de inkomende bevolking te segmenteren.
 
-   ![](../assets/workflow-split.png)
+   ![](../assets/orchestrated-split-1.png)
 
    >[!IMPORTANT]
    >
-   >Wanneer de **Gesplitste** activiteit wordt uitgevoerd, wordt de bevolking gesegmenteerd over de verschillende ondergroepen in de orde zij aan de activiteit worden toegevoegd. Als de eerste subset bijvoorbeeld 70% van de oorspronkelijke populatie herstelt, past de volgende toegevoegde subset zijn selectiecriteria alleen toe op de resterende 30%, enzovoort.
+   >De **Gesplitste** activiteitenprocessen subsets in de orde zij worden toegevoegd. Als de eerste subset bijvoorbeeld 70% van de bevolking opneemt, worden de criteria van de volgende subset toegepast op de resterende 30%.
    >
-   >Voordat u de georkestreerde campagne start, moet u ervoor zorgen dat u de subsets in de gewenste volgorde hebt geplaatst. Hiervoor gebruikt u de pijlknoppen om de positie van een subset te wijzigen.
+   >Voordat u de georkestreerde campagne uitvoert, moet u ervoor zorgen dat de subsets volgens plan zijn geordend. Gebruik de pijlknoppen om de positie ervan aan te passen.
 
 1. Nadat subsets zijn toegevoegd, toont de activiteit evenveel uitvoerovergangen als er subsets zijn. We raden u ten zeerste aan het label van elke subset te wijzigen om deze gemakkelijk te identificeren in het georkestreerde campagneccanvas.
 
-1. Vorm hoe elke ondergroep de inkomende bevolking zou moeten filtreren. Ga als volgt te werk om dit te doen:
+1. Filters configureren voor elke subset:
 
-   1. Open de subset om de eigenschappen ervan weer te geven.
+   1. Klik op een subset om de instellingen te openen.
 
-   1. Als u een filtervoorwaarde op de subset wilt toepassen, klikt u op **[!UICONTROL Create filter]** en configureert u de gewenste filterregel met de querymodelfunctie. Neem bijvoorbeeld profielen op van de binnenkomende populatie waarvan het e-mailadres voorkomt in de database.
+   1. Klik op **[!UICONTROL Create filter]** om filterregels te definiëren met behulp van de querymodelfunctie. Selecteer bijvoorbeeld profielen met een geldig e-mailadres.
 
-   1. Als u het aantal profielen wilt beperken dat door de subset wordt geselecteerd, schakelt u de optie **[!UICONTROL Enable limit]** in en geeft u het aantal of de percentages van de populatie op die u wilt opnemen.
+      ![](../assets/orchestrated-split-1.png)
 
-   1. Als u een overgang wilt uitschakelen als de binnenkomende populatie leeg is, schakelt u de optie **[!UICONTROL Skip empty transition]** in of uit. Als geen profiel overeenkomt met de subset, gaat de georkestreerde campagne niet over naar de volgende activiteit.
+   1. Als u het aantal geselecteerde profielen wilt beperken, schakelt u **[!UICONTROL Enable limit]** in en geeft u een getal of percentage op.
 
-      ![](../assets/workflow-split-subset.png)
+   1. Als u een overgang wilt overslaan wanneer de subset leeg is, schakelt u **[!UICONTROL Skip empty transition]in.**
 
-1. Zodra u alle subsets hebt gevormd, kunt u de resterende populatie selecteren die geen van de subsets aanpast en hen in een extra uitgaande overgang omvat. Schakel hiertoe de optie **[!UICONTROL Generate complement]** in.
-
-   ![](../assets/workflow-split-complement.png)
+1. Schakel **[!UICONTROL Generate complement]** in als u profielen wilt opnemen die niet overeenkomen met een subset. Dit leidt tot een extra uitgaande overgang voor de resterende bevolking.
 
    >[!NOTE]
    >
-   >Met de optie **[!UICONTROL Generate all subsets in the same table]** kunt u alle subsets groeperen in één uitvoerovergang.
+   >Schakel **[!UICONTROL Generate all subsets in the same table]** in om alle subsets te groeperen in één overgang.
 
-1. Met de optie **[!UICONTROL Enable overlapping of output populations]** kunt u populaties beheren die tot verschillende subsets behoren:
+1. Gebruik **[!UICONTROL Enable overlapping of output populations]** om profielen in meerdere subsets weer te geven:
 
-   * Wanneer het vakje niet wordt gecontroleerd, zorgt de gespleten activiteit ervoor een ontvanger niet in verscheidene outputovergangen kan aanwezig zijn, zelfs als het aan de criteria van verscheidene subsets voldoet. Deze worden als doel ingesteld op het eerste tabblad met overeenkomende criteria.
-   * Als het selectievakje is ingeschakeld, kunnen de ontvangers in verschillende subsets worden gevonden als ze voldoen aan hun filtercriteria. De beste manier is om exclusieve criteria te hanteren.
+   * **Als ongecontroleerd**, wordt elk profiel toegewezen aan slechts één ondergroep, eerste waarvan criteria het aanpast zelfs als het voor andere ondergroepen kwalificeert.
+
+   * **Als gecontroleerd**, kunnen de profielen in veelvoudige ondergroepen worden omvat als zij aan de criteria voor elk voldoen.
 
 De activiteit wordt nu gevormd. Bij de uitvoering van de georkestreerde campagne wordt de bevolking opgedeeld in de verschillende ondergroepen, in de volgorde waarin ze aan de activiteit zijn toegevoegd.
 
@@ -124,8 +123,10 @@ De activiteit wordt nu gevormd. Bij de uitvoering van de georkestreerde campagne
 
 In het volgende voorbeeld wordt de activiteit **[!UICONTROL Split]** gebruikt om een publiek in verschillende subsets te segmenteren op basis van het communicatiekanaal dat we willen gebruiken:
 
-* **Subset 1 &quot;duw&quot;**: Deze ondergroep omvat alle profielen die onze mobiele toepassing hebben geïnstalleerd.
-* **Subset 2 &quot;sms&quot;**: De mobiele telefoongebruikers: Voor de resterende bevolking die niet in Subset 1 viel, past subset 2 een het filtreren regel toe om profielen met mobiele telefoons in het gegevensbestand te selecteren.
-* **Complementeer overgang**: Deze overgang vangt alle resterende profielen die Subset 1 of Subset 2 niet aanstemden. Het bevat met name profielen die de mobiele toepassing niet hebben geïnstalleerd en geen mobiele telefoon hebben, zoals gebruikers die de mobiele app niet hebben geïnstalleerd of die geen geregistreerd mobiel nummer hebben.
+* **Subset 1 &quot;e-mail&quot;**: omvat profielen die een telefoonaantal hebben verstrekt.
 
-![](../assets/workflow-split-example.png)
+* **Subset 2 &quot;sms&quot;**: doelprofielen met een mobiel telefoonaantal dat in het gegevensbestand wordt opgeslagen.
+
+* **Complementeer overgang**: vangt om het even welke resterende profielen die niet aan de criteria voor één van beide ondergroep voldoen.
+
+![](../assets/orchestrated-split-3.png)
