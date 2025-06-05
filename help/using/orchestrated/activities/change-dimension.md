@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 457445e1c5f3e5819b484a26e9944f1295726d1e
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 | Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
 |---|---|---|---|
-| [ worden begonnen met georkestreerde campagnes ](../gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](../configuration-steps.md)<br/><br/>[ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](../gs-campaign-creation.md) | [ creeer een georkestreerde campagne ](../create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](../orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](../send-messages.md)<br/><br/>[ Begin en controleer de campagne ](../start-monitor-campaigns.md)<br/><br/>[ Meldend ](../reporting-campaigns.md) | [ Werk met de Vraag Modeler ](../orchestrated-query-modeler.md)<br/><br/>[ bouwt uw eerste vraag ](../build-query.md)<br/><br/>[ uitdrukkingen ](../edit-expressions.md) uit | [ wordt begonnen met activiteiten ](about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](and-join.md) - [ bouwt publiek ](build-audience.md) - [ dimensie van de Verandering ](change-dimension.md) - [ combineert ](combine.md) - [ Deduplicatie ](deduplication.md) - [ Verrijking ](enrichment.md) - [ Fork ](fork.md) opnieuw verzoening [&#128279;](reconciliation.md) - [ Gesplitst ](split.md) - [ wacht ](wait.md) |
+| [ worden begonnen met georkestreerde campagnes ](../gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](../configuration-steps.md)<br/><br/>[ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](../gs-campaign-creation.md) | [ creeer een georkestreerde campagne ](../create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](../orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](../send-messages.md)<br/><br/>[ Begin en controleer de campagne ](../start-monitor-campaigns.md)<br/><br/>[ Meldend ](../reporting-campaigns.md) | [ Werk met de Vraag Modeler ](../orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](../build-query.md)<br/><br/>[ uitdrukkingen ](../edit-expressions.md) uit | [ wordt begonnen met activiteiten ](about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](and-join.md) - [ bouwt publiek ](build-audience.md) - [ dimensie van de Verandering ](change-dimension.md) - [ combineert ](combine.md) - [ Deduplicatie ](deduplication.md) - [ Verrijking ](enrichment.md) - [ Fork ](fork.md) opnieuw verzoening ](reconciliation.md) - [ Gesplitst ](split.md) - [ wacht ](wait.md)[ |
 
 {style="table-layout:fixed"}
 
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 <br/>
 
-Als markeerteken, kunt u de het richten dimensie van één entiteit aan een andere verbonden entiteit binnen een georkestreerde campagne schakelen, en uw publiek verfijnen richtend op verschillende gegevensreeksen, zoals het bewegen van het profileren van gebruikers aan het richten van hun specifieke acties of het boeken.
+Als tellers, kunt u publiek verfijnen richtend door van één gegevensentiteit aan een andere verbonden entiteit binnen een georkestreerde campagne over te schakelen. Op deze manier kunt u van gebruikersprofielen naar specifieke acties, zoals aankopen, boekingen of andere interacties, gaan.
 
-Om dit uit te voeren, gebruik de **dimensie van de Verandering** richtend activiteit. Met deze activiteit kunt u de doeldimensie wijzigen terwijl u uw georkestreerde campagne ontwikkelt. Het verschuift de as afhankelijk van het gegevensmalplaatje en de inputdimensie.
+Hiervoor gebruikt u de **[!UICONTROL Change dimension]** -activiteit. Hiermee kunt u de doeldimensie tijdens de georkestreerde campagne wijzigen op basis van de structuur van uw gegevensmodel en de invoerdimensie.
 
-U kunt bijvoorbeeld de doeldimensie van een georkestreerde campagne veranderen van &quot;Profiel&quot; in &quot;Contracten&quot; om berichten naar de doelcontracteigenaar te verzenden.
+Bijvoorbeeld, zou u de het richten afmeting van **Profiel** aan **Contracten** kunnen verschuiven om berichten rechtstreeks naar de contracteigenaars te verzenden verbonden aan uw geselecteerd publiek.
 
 <!--
 >[!IMPORTANT]
@@ -63,8 +63,10 @@ Volg deze stappen om de **dimensie van de Verandering** activiteit te vormen:
 
 ## Voorbeeld {#example}
 
-In dit voorbeeld willen we een SMS-levering verzenden naar alle profielen die een aankoop hebben gedaan. Hiervoor gebruiken we eerst een **[!UICONTROL Build audience]** -activiteit die gekoppeld is aan een aangepaste &#39;Aankoop&#39;-doeldimensie om alle aankopen te activeren.
+Bij dit gebruik moet een SMS-bericht worden verzonden naar profielen die de afgelopen maand een verlanglijst hebben gemaakt.
 
-Vervolgens gebruiken we een **[!UICONTROL Change dimension]** -activiteit om de georkestreerde campagne voor dimensie om te zetten in &quot;Ontvangers&quot;. Dit staat ons toe om de ontvangers te kunnen richten die de vraag aanpassen.
+Begin met a **[!UICONTROL Build audience]** activiteit die **Wishlist** gebruiken richtend afmeting om alle relevante wenslijsten te selecteren.
+
+Daarna, neem a **[!UICONTROL Change dimension]** activiteit op om het richten afmeting van **Wishlist** aan **Ontvanger** te schakelen. Hierdoor kan de georkestreerde campagne het SMS verzenden naar de profielen die aan die verlanglijsten zijn gekoppeld.
 
 ![](../assets/change-dimension-example.png)
