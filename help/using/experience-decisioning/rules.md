@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 8418b0c9251e090575671acb65f83bee911cd039
+source-git-commit: 1ca6ea08e177989a0aea8646ca28b1216644fd3e
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '437'
 ht-degree: 2%
 
 ---
@@ -42,13 +42,16 @@ Voer de volgende stappen uit om een beslissingsregel te maken:
 
 1. Het scherm van de besluitvormingsregels opent. Geef de regel een naam en geef een beschrijving op.
 
-1. Bouw de beslissingsregel aan uw behoeften gebruikend de Bouwer van het Segment van Adobe Experience Platform. Hiertoe kunt u verschillende gegevensbronnen gebruiken, zoals profielkenmerken, soorten publiek of contextgegevens die uit Adobe Experience Platform afkomstig zijn. [ Leer hoe te hefboomwerking contextgegevens ](#context-data)
+1. Bouw de beslissingsregel aan uw behoeften gebruikend de Bouwer van het Segment van Adobe Experience Platform. Hiervoor kunt u verschillende gegevensbronnen gebruiken, zoals:
+   * Eigenschappen van profiel- en beslissingsitems,
+   * Soorten publiek
+   * Contextgegevens afkomstig van Adobe Experience Platform. [ Leer hoe te hefboomwerking contextgegevens ](#context-data)
 
    ![](assets/decision-rules-build.png)
 
    >[!NOTE]
    >
-   >De opsteller van het Segment die wordt verstrekt om besluitvormingsregels tot stand te brengen stelt wat specifieke kenmerken in vergelijking met die gebruikt met de dienst van de Segmentatie van Adobe Experience Platform.  Nochtans, is het globale proces dat in de documentatie wordt beschreven nog geldig om besluitvormingsregels te bouwen. [ leer hoe te om segmentdefinities te bouwen ](../audience/creating-a-segment-definition.md)
+   >De opsteller van het Segment die wordt verstrekt om besluitvormingsregels tot stand te brengen stelt wat specifieke kenmerken in vergelijking met die gebruikt met de dienst van de Segmentatie van Adobe Experience Platform. Nochtans, is het globale proces dat in de documentatie wordt beschreven nog geldig om besluitvormingsregels te bouwen. [ leer hoe te om segmentdefinities te bouwen ](../audience/creating-a-segment-definition.md)
 
 1. Terwijl u nieuwe velden toevoegt en configureert in de werkruimte, wordt in het deelvenster **[!UICONTROL Audience properties]** informatie weergegeven over de geschatte profielen die bij het publiek horen. Klik op **[!UICONTROL Refresh estimate]** om gegevens bij te werken.
 
