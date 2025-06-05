@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: b240d815826cd87b40cf0ed7dde9c9a28822dcba
+source-git-commit: 42c57cc8e6bd6a84495738fb987b271743c0dea7
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 0%
+source-wordcount: '732'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 | Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
 |---|---|---|---|
-| [ worden begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](configuration-steps.md)<br/><br/>[ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](gs-campaign-creation.md) | [ creeer een georkestreerde campagne ](create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](send-messages.md)<br/><br/>[ Begin en controleer de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de Vraag Modeler ](orchestrated-query-modeler.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uitdrukkingen ](edit-expressions.md) uit | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ combineert ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) - [ Fork ](activities/fork.md) opnieuw verzoening [&#128279;](activities/reconciliation.md) - [ Gesplitst ](activities/split.md) - [ wacht ](activities/wait.md) |
+| [ worden begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](configuration-steps.md)<br/><br/>[ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](gs-campaign-creation.md) | [ creeer een georkestreerde campagne ](create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](send-messages.md)<br/><br/>[ Begin en controleer de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de Vraag Modeler ](orchestrated-query-modeler.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uitdrukkingen ](edit-expressions.md) uit | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ combineert ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) - [ Fork ](activities/fork.md) opnieuw verzoening ](activities/reconciliation.md) - [ Gesplitst ](activities/split.md) - [ wacht ](activities/wait.md)[ |
 
 {style="table-layout:fixed"}
 
@@ -36,11 +36,11 @@ In dit stadium van de configuratie, wordt het diagram getoond met een beginpicto
 
 Er wordt een lijst met activiteiten weergegeven die aan het diagram kunnen worden toegevoegd. De beschikbare activiteiten zijn afhankelijk van uw positie binnen het georkestreerde campagnediagram. Bijvoorbeeld, wanneer het toevoegen van uw eerste activiteit, kunt u uw georkestreerde campagne beginnen door een publiek te richten, het georkestreerde campagneweg te verdelen, of a **te plaatsen wacht** activiteit om de georkestreerde campagneuitvoering te vertragen. Anderzijds, na a **bouwt publiek** activiteit, kunt u uw doel met het richten van activiteiten verfijnen, een levering naar uw publiek met kanaalactiviteiten verzenden, of het geordende campagneproces met de activiteiten van de stroomcontrole organiseren.
 
-![](assets/workflow-start.png){zoomable="yes"}
+![](assets/orchestrated-start.png){zoomable="yes"}
 
 Zodra een activiteit aan het diagram is toegevoegd, verschijnt een juiste ruit, toestaand u om de onlangs toegevoegde activiteit met specifieke montages te vormen. De gedetailleerde informatie over hoe te om elke activiteit te vormen is beschikbaar in [ deze sectie ](activities/about-activities.md).
 
-![](assets/workflow-configure-activities.png){zoomable="yes"}
+![](assets/orchestrated-configure-activities.png){zoomable="yes"}
 
 Herhaal dit proces om zoveel activiteiten toe te voegen als u wilt, afhankelijk van de taken die u voor uw georkestreerde campagne wilt uitvoeren. U kunt ook een nieuwe activiteit invoegen tussen twee activiteiten. Om dit te doen, klik **+** knoop op de overgang tussen de activiteiten, selecteer de gewenste activiteit en vorm het in de juiste ruit.
 
@@ -60,7 +60,7 @@ De werkbalk in de rechterbovenhoek van het canvas bevat opties waarmee u de acti
 * **Gezoem uit** / **Gezoem binnen**: Gezoem uit of in het canvas.
 * **kaart van de Vertoning**: Opent een momentopname van het canvas die u toont wordt gevestigd.
 
-![](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
+![](assets/orchestrated-toolbar.png){zoomable="yes"}{width="50%"}
 
 ## Activiteiten beheren {#manage}
 
@@ -74,9 +74,7 @@ U kunt:
 * **onbruikbaar maken/laat** de activiteit toe. Wanneer de georkestreerde campagne wordt uitgevoerd, worden activiteiten met een handicap en de volgende activiteiten op hetzelfde pad niet uitgevoerd en wordt de georkestreerde campagne gestopt.
 * **Pauze/hervat** de activiteit. Wanneer de georkestreerde campagne wordt uitgevoerd, pauzeert het bij de gepauzeerde activiteit. De bijbehorende taak en alle taken die deze in hetzelfde pad volgen, worden niet uitgevoerd.
 * **Exemplaar** de activiteit. Zie [deze sectie](#copy).
-* **beweging** een activiteit en al zijn kindknopen aan een andere overgang. Zie [ deze sectie ](#move)
-* Heb toegang tot de opties van de activiteit **Uitvoering**.
-* Heb toegang tot de Logboeken en de taken van de activiteit **&#x200B;**.
+* Heb toegang tot de Logboeken en de taken van de activiteit ****.
 
 Verscheidene **richtend** activiteiten, zoals **combineren** of **Deduplicatie**, staat u toe om de resterende bevolking te verwerken en het in een extra uitgaande overgang te omvatten. Bijvoorbeeld, als u a **Gesplitste** activiteit gebruikt, bestaat de aanvulling uit de bevolking die om het even welke eerder bepaalde ondergroepen niet aanpast. Om dit vermogen te gebruiken, activeer **aanvult** optie.
 
@@ -90,75 +88,79 @@ Voor het kopiëren van activiteiten hebt u twee mogelijkheden:
 
 * Kopieer één activiteit gebruikend de actieknoop.
 
-  ![](assets/workflow-copy.png){zoomable="yes"}{width="70%"}
+  ![](assets/orchestrated-copy-1.png){zoomable="yes"}{width="70%"}
 
 * Kopieer meerdere activiteiten met de werkbalkknop.
 
-  ![](assets/workflow-copy-2.png){zoomable="yes"}{width="70%"}
+  ![](assets/orchestrated-copy-2.png){zoomable="yes"}{width="70%"}
 
 Als u de gekopieerde activiteiten wilt plakken, klikt u op de knop **+** in een overgang en selecteert u &quot;X-activiteit plakken&quot;.
 
-![](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
+![](assets/orchestrated-copy-3.png){zoomable="yes"}{width="50%"}
 
-### Activiteiten verplaatsen en hun onderliggende knooppunten verplaatsen {#move}
+<!--
+### Move activities and their child nodes {#move}
 
-Met Journey Optimizer kunt u een activiteit samen met de volledige inhoud van de onderliggende knooppunten (inclusief alle overgangen en activiteiten in de onderliggende knooppunten) verplaatsen naar het einde van een andere overgang binnen dezelfde geordende campagne.
+Journey Optimizer allows you to move an activity, along with the entire content of its child nodes (including all transitions and activities within it) to the end of another transition within the same orchestrated campaign.
 
-Dit proces verbreekt de verbinding tussen de activiteit en alles in de uitgaande overgang van de oorspronkelijke locatie en verplaatst deze naar de nieuwe doelovergang.
+This process disconnects the activity and everything in its outbound transition from the initial location, moving it to the new target transition.
 
-Een activiteit verplaatsen:
+To move an activity:
 
-1. Selecteer de activiteit die u wilt verplaatsen.
-1. In de de eigenschappen van de activiteit ruit, klik de **knoop van de Beweging**.
-1. Selecteer de overgang waar u de activiteit en zijn uitgaande overgang wilt plaatsen, dan bevestig.
+1. Select the activity you wish to move.
+1. In the activity's properties pane, click the **Move** button.
+1. Select the transition where you want to place the activity and its outbound transition, then confirm.
 
 ![](assets/activity-move.png)
 
+
 ## Execution options {#execution}
 
-Met alle activiteiten kunt u de uitvoeropties ervan beheren. Selecteer een activiteit en klik op de **opties van de Uitvoering** knoop. Hiermee kunt u de uitvoeringsmodus en het gedrag van de activiteit definiëren in het geval van fouten.
+All activities allow you to manage their execution options. Select an activity and click on the **Execution options** button. This lets you define the activity's execution mode and behavior in case of errors.
 
 ![](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
+
 ### Properties
 
-Het **gebied van de Uitvoering** staat u toe om de uit te voeren actie te bepalen wanneer de taak is begonnen.
+The **Execution** field allows you to define the action to be carried out when the task is started.
 
-Het **Maximale uitvoeringstijd** gebied staat u toe om een duur zoals &quot;30s&quot;of &quot;1h&quot;te specificeren. Als de activiteit niet wordt gebeëindigd nadat de gespecificeerde duur is verstreken, wordt een alarm teweeggebracht. Dit heeft geen invloed op de werking van de georkestreerde campagne.
+The **Maximum execution duration** field allows you to specify a duration such as "30s" or "1h". If the activity is not finished after the duration specified has been elapsed, an alert is triggered. This has no impact on how the orchestrated campaign functions.
 
-Het **gebied van de tijdzone** staat u toe om de tijdzone van de activiteit te selecteren. Met Adobe Journey Optimizer kunt u de tijdsverschillen tussen meerdere landen op hetzelfde moment beheren. De toegepaste instelling wordt geconfigureerd wanneer de instantie wordt gemaakt.
+The **Time zone** field allows you to select the time zone of the activity. Adobe Journey Optimizer allows you to manage the time differences between multiple countries on the same instance. The setting applied is configured when the instance is created.
 
-**het 1&rbrace; gebied van de affiniteit &lbrace;staat u toe om een georkestreerde campagne of een georkestreerde campagneactiviteit te dwingen om op een bepaalde machine uit te voeren.** Hiervoor moet u een of meer affiniteiten opgeven voor de georkestreerde campagne of activiteit in kwestie.
+**The Affinity** field allows you to force an orchestrated campaign or an orchestrated campaign activity to execute on a particular machine. To do this, you must specify one or several affinities for the orchestrated campaign or activity in question.
 
-Het **gebied van het Gedrag** staat u toe om de te volgen procedure te bepalen als de asynchrone taken worden gebruikt.
+The **Behavior** field allows you to define the procedure to follow if asynchronous tasks are used.
 
-### Foutbeheer
+### Error management
 
-Het **In geval van fout** gebied staat u toe om de uit te voeren actie te specificeren als de activiteit een fout ontmoet.
+The **In case of error** field allows you to specify the action to be carried out should the activity encounter an error.
 
-### Initialisatiescript
+### Initialization script
 
-Het **manuscript van de Initialisatie** laat u variabelen initialiseren of activiteiteneigenschappen wijzigen. Klik **geef code** knoop uit en typ het fragment van uit te voeren code. Het script wordt aangeroepen wanneer de activiteit wordt uitgevoerd.
+The **Initialization script** lets you initialize variables or modify activity properties. Click the **Edit code** button and type the snippet of code to execute. The script is called when the activity executes. 
 
-## Voorbeeld {#example}
+## Example {#example}
 
-Hier is een georkestreerd campagnevoorbeeld dat is ontworpen om een e-mail naar alle klanten (behalve klanten van VIP) met een e-mail te verzenden die in koffiemachines geinteresseerd zijn.
+Here is an orchestrated campaign example designed to send an email to all customers (other than VIP customers) with an email who are interested in coffee machines.
 
 ![](assets/workflow-example.png){zoomable="yes"}{zoomable="yes"}
 
-Hiervoor zijn de volgende activiteiten toegevoegd:
+To achieve this, activities below have been added:
 
-* Een **[!UICONTROL Fork]** activiteit die de georkestreerde campagne in drie wegen (één voor elke reeks klant) verdeelt,
-* **[!UICONTROL Build audience]** -activiteiten om zich te richten op de drie groepen klanten:
+* A **[!UICONTROL Fork]** activity that divides the orchestrated campaign into three paths (one for each set of customer),
+* **[!UICONTROL Build audience]** activities to target the three sets of customers:
 
-   * Klanten met een e-mail,
-   * Klanten die behoren tot het reeds bestaande publiek &quot;Interrested in Coffee Machine(s)&quot;,
-   * Klanten die tot het reeds bestaande &quot;VIP of bonus&quot;-publiek behoren.
+    * Customers with an email,
+    * Customers belonging to the pre-existing "Interrested in Coffee Machine(s)" audience,
+    * Customers belonging to the pre-existing "VIP ro reward" audience.
 
-* Een **[!UICONTROL Combine]** activiteit die klanten met een e-mail en degenen groepeert die in koffiemachines geinteresseerd zijn,
-* Een **[!UICONTROL Combine]** -activiteit die VIP-klanten uitsluit,
-* Een **[!UICONTROL Email delivery]** -activiteit die een e-mail naar de resulterende klanten verzendt.
+* A **[!UICONTROL Combine]** activity that groups together customers with an email and those interested in coffee machines,
+* A **[!UICONTROL Combine]** activity that excludes VIP customers,
+* An **[!UICONTROL Email delivery]** activity that sends an email to the resulting customers. 
 
-Als u de georkestreerde campagne hebt voltooid, voegt u en **[!UICONTROL End]** activiteit toe aan het einde van het diagram. Met deze activiteit kunt u visueel het einde van een werkstroom markeren en heeft deze geen invloed op de functionaliteit.
+Once you have completed the orchestrated campaign, add en **[!UICONTROL End]** activity at the end of the diagram. This activity allow you to visually mark the end of a workflow and has no functional impact.
 
-Nadat het georkestreerde campagnediagram met succes is ontworpen, kunt u de georkestreerde campagne uitvoeren en de vooruitgang van zijn diverse taken volgen. [ Leer hoe te om een georkestreerde campagne te beginnen en zijn uitvoering te controleren ](start-monitor-campaigns.md)
+After successfully designing the orchestrated campaign diagram, you can execute the orchestrated campaign and track the progress of its various tasks. [Learn how to start an orchestrated campaign and monitor its execution](start-monitor-campaigns.md)
+-->
