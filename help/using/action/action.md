@@ -48,4 +48,4 @@ Selecteer **[!UICONTROL Configurations]** in de sectie van het menu BEHEER om de
 
 Leer hoe u aangepaste handelingen configureert.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430272?quality=12&captions=dut)
