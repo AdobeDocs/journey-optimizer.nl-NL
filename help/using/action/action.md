@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: acties, reizen, berichten, verzenden, verbindingen
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: bb2272e6959d896fb6b3286cec2c16a545a9f671
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 20%
+source-wordcount: '270'
+ht-degree: 44%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_list"
 >title="Aangepaste acties"
->abstract="Handelingen zijn verbindingen waarmee u persoonlijke, real-time ervaringen kunt bieden aan klanten, zoals pushberichten, e-mail of andere digitale mogelijkheden die u in uw bedrijf gebruikt."
+>abstract="Acties zijn verbindingen waarmee u persoonlijke, realtime-ervaringen kunt bieden aan klanten, zoals pushberichten, e-mail, sms of andere digitale opties die in uw bedrijf worden gebruikt."
 
-Handelingen zijn verbindingen waarmee u persoonlijke, real-time ervaringen kunt bieden aan klanten, zoals pushberichten, e-mail of andere digitale mogelijkheden die u in uw bedrijf gebruikt.
+Acties zijn verbindingen waarmee u persoonlijke, realtime-ervaringen kunt bieden aan klanten, zoals pushberichten, e-mail, sms of andere digitale opties die in uw bedrijf worden gebruikt.
 
 
-➡️ [ ontdekt deze eigenschap in video ](#video)
+➡️ [Ontdek deze functie in video](#video)
 
 [!DNL Journey Optimizer] wordt geleverd met ingebouwde berichtmogelijkheid. Met aangepaste acties kunt u een verbinding met een extern systeem configureren voor het verzenden van berichten of API-aanroepen. Een actie kan worden geconfigureerd met elke service van elke provider die door een REST-API met een payload in JSON-indeling kan worden aangeroepen.
 
@@ -48,4 +48,4 @@ Selecteer **[!UICONTROL Configurations]** in de sectie van het menu BEHEER om de
 
 Leer hoe u aangepaste handelingen configureert.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430272?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
