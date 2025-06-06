@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: publiceren, reizen, live, geldigheid, controle
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 9ac387f073d8f0384e20cb2d8fe327efe4b8ecde
+source-git-commit: c34aa14f34759e9094df2eead1c784c0c23da356
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '734'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Voor elke activiteit kunt u controleren:
 
 * **[!UICONTROL Entered]**: Het totale aantal personen dat deze activiteit heeft ingevoerd.
 * **[!UICONTROL Exited (met exit criteria)]**: Het totale aantal personen dat de reis heeft verlaten uit die activiteit, als gevolg van uitstapcriteria.
-* **[!UICONTROL Exited (forced exit)]**: Het totale aantal personen dat is vertrokken wanneer de reis is gepauzeerd.
+* **[!UICONTROL Exited (forced exit)]**: Het totale aantal personen dat is vertrokken wanneer de reis is gepauzeerd. Deze metrische waarde is altijd gelijk aan nul voor reizen in de droge loopwijze.
 * **[!UICONTROL Error]**: Het totale aantal personen dat een fout heeft gemaakt met die activiteit.
 
 
