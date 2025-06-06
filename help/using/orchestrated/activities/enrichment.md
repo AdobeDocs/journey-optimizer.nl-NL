@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: f387eecbb7fd98adaa9911f5da7bed76d746cd7b
 workflow-type: tm+mt
-source-wordcount: '2062'
-ht-degree: 0%
+source-wordcount: '522'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 | Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
 |---|---|---|---|
-| [ worden begonnen met georkestreerde campagnes ](../gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](../configuration-steps.md)<br/><br/>[ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](../gs-campaign-creation.md) | [ creeer een georkestreerde campagne ](../create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](../orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](../send-messages.md)<br/><br/>[ Begin en controleer de campagne ](../start-monitor-campaigns.md)<br/><br/>[ Meldend ](../reporting-campaigns.md) | [ Werk met de Vraag Modeler ](../orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](../build-query.md)<br/><br/>[ uitdrukkingen ](../edit-expressions.md) uit | [ wordt begonnen met activiteiten ](about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](and-join.md) - [ bouwt publiek ](build-audience.md) - [ dimensie van de Verandering ](change-dimension.md) - [ combineert ](combine.md) - [ Deduplicatie ](deduplication.md) - [ Verrijking ](enrichment.md) - [ Fork ](fork.md) opnieuw verzoening [&#128279;](reconciliation.md) - [ Gesplitst ](split.md) - [ wacht ](wait.md) |
+| [ worden begonnen met georkestreerde campagnes ](../gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](../configuration-steps.md)<br/><br/>[ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](../gs-campaign-creation.md) | [ creeer een georkestreerde campagne ](../create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](../orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](../send-messages.md)<br/><br/>[ Begin en controleer de campagne ](../start-monitor-campaigns.md)<br/><br/>[ Meldend ](../reporting-campaigns.md) | [ Werk met de Vraag Modeler ](../orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](../build-query.md)<br/><br/>[ uitdrukkingen ](../edit-expressions.md) uit | [ wordt begonnen met activiteiten ](about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](and-join.md) - [ bouwt publiek ](build-audience.md) - [ dimensie van de Verandering ](change-dimension.md) - [ combineert ](combine.md) - [ Deduplicatie ](deduplication.md) - [ Verrijking ](enrichment.md) - [ Fork ](fork.md) opnieuw verzoening ](reconciliation.md) - [ Gesplitst ](split.md) - [ wacht ](wait.md)[ |
 
 {style="table-layout:fixed"}
 
@@ -33,31 +33,11 @@ ht-degree: 0%
 
 <br/>
 
-De **Verrijking** activiteit is a **richtend** activiteit. Hiermee kunt u de doelgegevens verbeteren met aanvullende informatie uit de database. Het wordt vaak gebruikt in een werkschema na segmenteringsactiviteiten.
+De **[!UICONTROL Enrichment]** -activiteit is een **[!UICONTROL Targeting]** -activiteit waarmee u de publieksgegevens kunt verbeteren met extra kenmerken.
 
-Verrijkingsgegevens kunnen worden verkregen:
-
-* **van de zelfde het werklijst** zoals die in uw georkestreerde campagne wordt gericht:
-
-  *Doel een groep klanten en voeg het &quot;datum&quot;gebied van de Geboorteplaats aan de huidige het werklijst* toe.
-
-* **van een andere het werklijst**:
-
-  *Beoogd een groep klanten en voeg de &quot;Bedrag&quot;en &quot;Type van product&quot;gebieden toe die uit de &quot;lijst van de Aankoop&quot;komen*.
-
-Zodra de verrijkingsgegevens aan de georkestreerde campagne zijn toegevoegd, kan het in de activiteiten worden gebruikt die na de **Verrijking** activiteit worden toegevoegd om klanten in verschillende groepen te segmenteren die op hun gedrag, voorkeur, en behoeften worden gebaseerd, of om gepersonaliseerde marketing berichten en campagnes tot stand te brengen die waarschijnlijker zijn om met uw doelpubliek te resoneren.
-
-U kunt bijvoorbeeld informatie over aankopen van klanten toevoegen aan de georkestreerde tabel met campagnebewerkingen en deze gegevens gebruiken om de e-mails aan uw wensen aan te passen met hun meest recente aankoop of met het bedrag dat aan deze aankopen is besteed.
+U kunt deze informatie gebruiken om uw publiek nauwkeuriger te segmenteren op basis van gedrag, voorkeuren of behoeften, en om persoonlijke berichten te maken die beter aansluiten op elk profiel.
 
 ## Een verrijkingsactiviteit toevoegen {#enrichment-configuration}
-
-Volg deze stappen om de **1&rbrace; activiteit van de Verrijking &lbrace;te vormen:**
-
-1. Voeg activiteiten zoals **toe bouwt publiek** en **combineer** activiteiten.
-1. Voeg een **Verrijking** activiteit toe.
-1. Als er meerdere overgangen zijn geconfigureerd in uw georkestreerde campagne, kunt u het veld **[!UICONTROL Primary set]** gebruiken om te definiëren welke overgang moet worden gebruikt als primaire set om te verrijken met gegevens.
-
-## Verrijkingsgegevens toevoegen {#enrichment-add}
 
 >[!CONTEXTUALHELP]
 >id="ajo_targetdata_personalization_enrichmentdata"
@@ -69,215 +49,239 @@ Volg deze stappen om de **1&rbrace; activiteit van de Verrijking &lbrace;te vorm
 >title="Verrijkingsactiviteit"
 >abstract="Zodra de verrijkingsgegevens aan de georkestreerde campagne zijn toegevoegd, kan het in de activiteiten worden gebruikt die na de activiteit van de Verrijking worden toegevoegd om klanten in verschillende groepen te segmenteren die op hun gedrag, voorkeur, en behoeften worden gebaseerd, of om gepersonaliseerde marketing berichten en campagnes te creëren die eerder met uw doelpubliek zullen resoneren."
 
+Volg deze stappen om de **1} activiteit van de Verrijking {te vormen:**
+
+1. Voeg een **Verrijking** activiteit toe.
+
 1. Klik **toevoegen verrijkingsgegevens** en selecteer de attributen om de gegevens te gebruiken te verrijken.
 
    U kunt twee soorten verrijkingsgegevens selecteren: één enkel verrijkingsattribuut van de doelafmeting, of een inzamelingsverbinding. Elk van deze typen wordt in de volgende voorbeelden beschreven:
+
    * [Enkel verrijkingskenmerk](#single-attribute)
-   * [Verzamelaar](#collection-link)
+   * [Verzamelingskoppeling](#collection-link)
 
-   >[!NOTE]
-   >
-   >De **geeft uitdrukkingsknoop** in het scherm van de attributenselectie uit staat u toe om geavanceerde uitdrukkingen te bouwen om de attributen te selecteren.
-
-   ![](../assets/workflow-enrichment1.png)
-
-## Koppelingen maken tussen tabellen {#create-links}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_enrichment_simplejoin"
->title="Koppelingsdefinitie"
->abstract="Maak een koppeling tussen de gegevens van de werktabel en Adobe Journey Optimizer. Als u bijvoorbeeld gegevens laadt uit een bestand dat het rekeningnummer, land en e-mail van ontvangers bevat, moet u een koppeling naar de landentabel maken om deze gegevens in hun profielen bij te werken."
-
-Met de sectie **[!UICONTROL Link definition]** kunt u een koppeling maken tussen de gegevens van de werktabel en Adobe Journey Optimizer. Als u bijvoorbeeld gegevens laadt uit een bestand dat het rekeningnummer, land en e-mail van ontvangers bevat, moet u een koppeling naar de landentabel maken om deze gegevens in hun profielen bij te werken.
-
-Er zijn verschillende typen koppelingen beschikbaar:
-
-* **[!UICONTROL 1 cardinality simple link]**: Elke record uit de primaire set kan worden gekoppeld aan één record uit de gekoppelde gegevens.
-* **[!UICONTROL 0 or 1 cardinality simple link]**: Elke record uit de primaire set kan worden gekoppeld aan 0- of 1-record uit de gekoppelde gegevens, maar niet aan meer dan één record.
-* **[!UICONTROL N cardinality collection link]**: Elke record uit de primaire set kan worden gekoppeld aan 0, 1 of meer (N) records uit de gekoppelde gegevens.
-
-Ga als volgt te werk om een koppeling te maken:
-
-1. Klik in de sectie **[!UICONTROL Link definition]** op de knop **[!UICONTROL Add link]** .
-
-   ![](../assets/workflow-enrichment-link.png)
-
-1. In het **type van Verhouding** drop-down lijst, kies het type van verbinding u wilt tot stand brengen.
-
-1. Identificeer het doel u de primaire reeks aan wilt verbinden:
-
-   * Als u een bestaande tabel in de database wilt koppelen, kiest u **[!UICONTROL Database schema]** en selecteert u de gewenste tabel in het veld **[!UICONTROL Target schema]** .
-   * Om met gegevens van de inputovergang te verbinden, verkies **Tijdelijk schema** en selecteer de overgang waarvan gegevens u wilt gebruiken.
-
-1. Definieer de afstemmingscriteria die overeenkomen met gegevens uit de primaire set met het gekoppelde schema. Er zijn twee soorten verbindingen beschikbaar:
-
-   * **Eenvoudig sluit zich aan**: Selecteer een specifiek attribuut om gegevens van de twee schema&#39;s aan te passen. Klik **toevoegen toetreedt** en selecteert **Source** en **de attributen van de Bestemming** om als verzoeningscriteria te gebruiken.
-   * **Geavanceerd sluit zich aan**: Creeer zich bij gebruikend geavanceerde voorwaarden. Klik **toevoegen toetreedt** en klik **creëren voorwaarde** knoop om de vraagmodelaar te openen.
-
-Een werkschemavoorbeeld dat verbindingen gebruikt is beschikbaar in de [ sectie van Voorbeelden ](#link-example).
-
-## Gegevensafstemming {#reconciliation}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_enrichment_reconciliation"
->title="Afstemming"
->abstract="De **verrijking** activiteit kan worden gebruikt om gegevens van het schema van Journey Optimizer met gegevens van een ander schema, of met gegevens te combineren die uit een tijdelijk schema zoals gegevens komen die gebruikend een het dossieractiviteit van de Lading worden geupload. Dit type koppeling definieert een koppeling naar een unieke record. Journey Optimizer maakt een koppeling naar een doeltabel door er een externe sleutel aan toe te voegen voor het opslaan van een verwijzing naar de unieke record."
-
-De **verrijking** activiteit kan worden gebruikt om gegevens van het het gegevensbestandschema van de Campagne met gegevens van een ander schema, of met gegevens te verzoenen die uit een tijdelijk schema zoals gegevens komen die gebruikend een het dossieractiviteit van de Lading worden geupload. Dit type koppeling definieert een koppeling naar een unieke record. Journey Optimizer maakt een koppeling naar een doeltabel door er een externe sleutel aan toe te voegen voor het opslaan van een verwijzing naar de unieke record.
-
-U kunt deze optie bijvoorbeeld gebruiken om het land van een profiel dat is opgegeven in een geüpload bestand, te combineren met een van de landen die beschikbaar zijn in de specifieke tabel van de Campagne-database.
-
-Volg de stappen om een **1&rbrace; activiteit van de Verrijking &lbrace;met een verzoeningsverbinding te vormen:**
-
-1. Klik **toevoegen verbinding** knoop in de **Verzoening** sectie.
-1. Identificeer de gegevens u een verzoeningsverbinding met wilt tot stand brengen.
-
-   * Om een verzoeningsverbinding met gegevens van het gegevensbestand van de Campagne tot stand te brengen, selecteer **schema van het Gegevensbestand** en kies het schema waar het doel wordt opgeslagen.
-   * Om een verzoeningsverbinding met gegevens tot stand te brengen die uit de inputovergang komen, selecteer **Tijdelijk schema** en kies de georkestreerde campagneovergang waar het doelgegeven wordt opgeslagen.
-
-1. De **gebieden van het Etiket** en **Naam** worden automatisch bevolkt gebaseerd op het geselecteerde doelschema. U kunt de waarden desgewenst wijzigen.
-
-1. In de **sectie van de Criteria van de Afstemming**, specificeer hoe u gegevens van de bron en bestemmingstabellen wilt combineren:
-
-   * **Eenvoudig sluit zich aan**: Verwerk een specifiek gebied van de bronlijst met een ander gebied in de bestemmingslijst. Om dit te doen, klik **voeg toe** knoop en specificeer **Source** en **Doopings** gebieden toe om voor de verzoening te gebruiken.
-
-     >[!NOTE]
-     >
-     >U kunt één of meerdere **Eenvoudige gebruiken toetreedt** criteria, in welk geval zij allen moeten worden geverifieerd zodat de gegevens samen kunnen worden verbonden.
-
-   * **Geavanceerde treedt** toe: Gebruik de vraagmodeler om de verzoeningscriteria te vormen. Om dit te doen, klik **creeer voorwaarde** knoop dan uw verzoeningscriteria door uw eigen regel te bouwen gebruikend EN EN OF verrichtingen.
-
-Het voorbeeld toont hieronder een georkestreerde campagne die wordt gevormd om een verband tussen de profielenlijst van Journey Optimizer en een tijdelijke lijst tot stand te brengen die a **dossier** activiteit van de Lading wordt geproduceerd. In dit voorbeeld, verzoent de **Verrijking** activiteit beide lijsten gebruikend het e-mailadres als verzoeningscriteria.
-
-![](../assets/enrichment-reconciliation.png)
-
-## Aanbiedingen toevoegen {#add-offers}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_enrichment_offer_proposition"
->title="Voorstel"
->abstract="Met de verrijkingsactiviteit kunt u aanbiedingen toevoegen voor elk profiel."
-
-Met de activiteit **[!UICONTROL Enrichment]** kunt u aanbiedingen toevoegen voor elk profiel.
-
-Voer hiertoe de stappen uit om een **[!UICONTROL Enrichment]** -activiteit met een aanbieding te configureren:
-
-1. Klik in de **[!UICONTROL Enrichment]** -activiteit in de **[!UICONTROL Offer proposition]** -sectie op de **[!UICONTROL Add offer]** -knop
-
-   ![](../assets/enrichment-addoffer.png)
-
-1. U kunt uit twee opties kiezen:
-
-   * **[!UICONTROL Search for the best offer in category]** : controleer deze optie en geef de parameters op voor de aanroep van de aanbiedingsengine (ruimte, categorie of thema(&#39;s), contactdatum, aantal aanbiedingen dat u wilt behouden). De motor berekent de beste aanbieding(en) die op basis van deze parameters moet worden toegevoegd. We raden u aan de categorie of het themaveld in te vullen in plaats van beide.
-
-     ![](../assets/enrichment-bestoffer.png)
-
-   * **[!UICONTROL A predefined offer]** : controleer deze optie en specificeer een aanbiedingsruimte, een specifieke aanbieding, en een contactdatum om de aanbieding direct te vormen die u, zonder de aanbiedingsmotor te roepen wilt toevoegen.
-
-     ![](../assets/enrichment-predefinedoffer.png)
-
-1. Klik op **[!UICONTROL Confirm]** nadat u uw voorstel hebt geselecteerd.
-
-Je kunt het voorstel nu gebruiken in de leveringsactiviteiten.
-
-### De aanbiedingen van verrijkingsactiviteiten gebruiken
-
-Volg onderstaande stappen als u in een georkestreerde campagne de aanbiedingen wilt gebruiken die u van een verrijkingsactiviteit bij de levering krijgt:
-
-1. Open de leveringsactiviteit en ga in de inhoudsuitgave. Klik op de knop **[!UICONTROL Offers settings]** en selecteer in de vervolgkeuzelijst de **[!UICONTROL Offers space]** die overeenkomt met uw aanbieding.
-Als u alleen de aanbiedingen van de verrijkingsactiviteit wilt weergeven, stelt u het aantal **[!UICONTROL Propositions]** in op 0 en slaat u de wijzigingen op.
-
-   ![](../assets/offers-settings.png)
-
-1. Als de ontwerper van de e-mail een personalisatie met aanbiedingen toevoegt, klikt u op het pictogram **[!UICONTROL Propositions]** en geeft deze de aangeboden aanbiedingen weer die u van de **[!UICONTROL Enrichment]** -activiteit krijgt. Open het voorstel dat u wilt kiezen door erop te klikken.
-
-   ![](../assets/offers-propositions.png)
-
-   Ga naar **[!UICONTROL Rendering functions]** en kies **[!UICONTROL HTML rendering]** of **[!UICONTROL Text rendering]** naar wens.
-
-   ![](../assets/offers-rendering.png)
-
->[!NOTE]
->
->Als u ervoor kiest om meer dan één aanbieding in de **[!UICONTROL Enrichment]** activiteit bij de **[!UICONTROL Number of offers to keep]** optie te hebben, worden alle aanbiedingen getoond wanneer het klikken op het **[!UICONTROL Propositions]** pictogram.
+   ![](../assets/enrichment-1.png)
 
 ## Voorbeelden {#example}
 
 ### Enkel verrijkingskenmerk {#single-attribute}
 
-Hier voegen we slechts één verrijkingskenmerk toe, bijvoorbeeld de geboortedatum. Voer de volgende stappen uit:
+In dit voorbeeld verrijkt u het publiek met één kenmerk, zoals de geboortedatum, van de huidige doeldimensie.
 
-1. Klik binnen het **gebied van Attributen**.
-1. Selecteer een eenvoudig veld in de doeldimensie, de geboortedatum in ons voorbeeld.
-1. Klik **bevestigen**.
+Dit doet u als volgt:
 
-![](../assets/workflow-enrichment2.png)
+1. Klik op **[!UICONTROL Add enrichment data]**.
+
+1. Selecteer een eenvoudig veld, zoals **[!UICONTROL Date of birth]** , in de huidige dimensie.
+
+   ![](../assets/enrichment-2.png)
+
+1. Klik op **[!UICONTROL Confirm]**.
 
 ### Verzamelingskoppeling {#collection-link}
 
-In dit complexere gebruiksgeval, zullen wij een inzamelingsverbinding selecteren die een verbinding met een 1-N kardinaliteit tussen lijsten is. Laten we de drie laatste aankopen ophalen die minder dan 100 dollar bedragen. Hiervoor moet u definiëren:
+Met dit gebruiksgeval verrijkt u de doelgroep met gegevens uit een gekoppelde tabel. U wilt bijvoorbeeld de drie meest recente aankopen ophalen onder $100.
 
-* een verrijkingsattribuut: het **Prijs** gebied
-* het aantal op te halen lijnen: 3
-* een filter: items uitfilteren die groter zijn dan 100$
-* a sorterend: dalend sorterend op het **datum** gebied van de Orde.
+Hiertoe configureert u de verrijking als volgt:
+
+* **de attributen van de Verrijking**: **[!UICONTROL Price]**
+
+* **Aantal verslagen** terug te winnen: 3
+
+* **Filter**: omvat slechts aankopen waar **[!UICONTROL Price]** minder dan $100 is
 
 #### Het kenmerk toevoegen {#add-attribute}
 
-Hier selecteert u de verzamelingskoppeling die u als verrijkingsgegevens wilt gebruiken.
+Selecteer eerst de verzamelingskoppeling die de gegevens bevat waarmee u wilt verrijken.
 
-1. Klik binnen het **gebied van Attributen**.
-1. Klik **Geavanceerde attributen van de Vertoning**.
-1. Selecteer het **gebied van de Prijs** &lbrace;van de **Aankopen** lijst.
+1. Klik op **[!UICONTROL Add enrichment data]**.
 
-<!-- ![](../assets/workflow-enrichment3.png) -->
+1. Selecteer in de tabel **[!UICONTROL Purchases]** het veld **[!UICONTROL Price]** .
+
+   ![](../assets/enrichment-2.png)
 
 #### De verzamelingsinstellingen definiëren{#collection-settings}
 
-Definieer vervolgens hoe de gegevens worden verzameld en hoeveel records moeten worden opgehaald.
+Configureer vervolgens hoe de gegevens moeten worden verzameld en hoeveel items moeten worden opgenomen.
 
-1. Selecteer **verzamelen gegevens** in **Uitgezocht hoe het gegeven** drop-down wordt verzameld.
-1. Het type &quot;3&quot;op de **Lijnen om terug te winnen (Kolommen om te creëren)** gebied.
+1. Kies **[!UICONTROL Collect data]** in het vervolgkeuzemenu **[!UICONTROL Select how the data is collected]** .
 
-![](../assets/workflow-enrichment4bis.png)
+   ![](../assets/enrichment-4.png)
 
-Als u, bijvoorbeeld, de gemiddelde hoeveelheid aankopen voor een klant wilt krijgen, **Geaggregeerde gegevens** in plaats daarvan selecteren, en **Gemiddelde** in de **Geaggregeerde functie** drop-down selecteren.
+1. Typ `3` in het veld **[!UICONTROL Lines to retrieve (Columns to create)]** .
 
-Gebruik het **Etiket** en **alias** gebieden van uw attribuut om het begrijpelijker te maken zoals hieronder getoond.
+1. Selecteer **[!UICONTROL Aggregated data]** en kies vervolgens **[!UICONTROL Average]** in het vervolgkeuzemenu **[!UICONTROL Aggregate function]** om een aggregatie uit te voeren (bijvoorbeeld een gemiddeld aankoopbedrag).
 
-![](../assets/workflow-enrichment5bis.png)
+   ![](../assets/enrichment-5.png)
+
+1. Met de velden **[!UICONTROL Label]** en **[!UICONTROL Alias]** kunt u de verrijkte kenmerken gemakkelijker herkennen in volgende activiteiten.
 
 #### Filters definiëren{#collection-filters}
 
-Hier, bepalen wij de maximumwaarde voor de verrijkingsattributen. We filteren items die groter zijn dan 100$.
-1. Klik **creeer filters**.
-1. Voeg de twee volgende filters toe: **Prijs** bestaat EN **Prijs** is minder dan 100. De eerste filtert NULL-waarden op dezelfde manier als de hoogste waarde.
-1. Klik **bevestigen**.
+Ten slotte pas filters toe om ervoor te zorgen dat alleen relevante records worden opgenomen:
 
-![](../assets/workflow-enrichment6bis.png)
+1. Klik op **[!UICONTROL Create filters]**.
 
-#### De sortering definiëren{#collection-sorting}
+1. Voeg de volgende twee voorwaarden toe:
 
-Wij moeten nu het sorteren toepassen om de drie **recentste** aankopen terug te winnen.
+   * **[!UICONTROL Price]** bestaat (om NULL&#39;s uit te sluiten)
 
-1. Activeer **het sorteren** optie toelaten.
-1. Klik binnen het **gebied van Attributen**.
-1. Selecteer het **gebied van de datum van de Orde 0&rbrace; &lbrace;.**
-1. Klik **bevestigen**.
-1. Selecteer **Aflopend** van de **drop-down Soort**.
+   * **[!UICONTROL Price]** is kleiner dan 100
+
+   ![](../assets/enrichment-6.png)
+
+1. Klik op **[!UICONTROL Confirm]**.
+
+
+<!--
+#### Define the sorting{#collection-sorting}
+
+We now need to apply sorting in order to retrieve the three **latest** purchases.
+
+1. Activate the **Enable sorting** option.
+1. Click inside the **Attribute** field.
+1. Select the **Order date** field.
+1. Click **Confirm**. 
+1. Select **Descending** from the **Sort** drop-down.
 
 ![](../assets/workflow-enrichment7bis.png)
 
-### Verrijking met gekoppelde gegevens {#link-example}
 
-In het onderstaande voorbeeld ziet u een geordende campagne die is geconfigureerd om een koppeling tussen twee overgangen te maken. De eerste overgangen richten profielgegevens gebruikend de activiteit van de a **Vraag**, terwijl de tweede overgang aankoopgegevens omvat die in een dossier worden opgeslagen dat door een het dossieractiviteit van de Lading wordt geladen.
+## Data reconciliation {#reconciliation}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_enrichment_reconciliation"
+>title="Reconciliation"
+>abstract="The **Enrichment** activity can be used to reconcile data from the Journey Optimizer schema with data from another schema, or with data coming from a temporary schema such as data uploaded using a Load file activity. This type of link defines a reconciliation towards a unique record. Journey Optimizer creates a link to a target table by adding a foreign key in it for storing a reference to the unique record."
+
+The **Enrichment** activity can be used to reconcile data from the the Campaign database schema with data from another schema, or with data coming from a temporary schema such as data uploaded using a Load file activity. This type of link defines a reconciliation towards a unique record. Journey Optimizer creates a link to a target table by adding a foreign key in it for storing a reference to the unique record.
+
+For example, you can use this option to reconcile a profile's country, specified in an uploaded file, with one of the countries available in the dedicated table of the Campaign database. 
+
+Follow the steps to configure an **Enrichment** activity with a reconciliation link: 
+
+1. Click the **Add link** button in the **Reconciliation** section.
+1. Identify the data you want to create a reconciliation link with.
+
+    * To create a reconciliation link with data from the Campaign database, select **Database schema** and choose the schema where the target is stored. 
+    * To create a reconciliation link with data coming from the input transition, select **Temporary schema** and choose the orchestrated campaign transition where the target data is stored. 
+
+1. The **Label** and **Name** fields are automatically populated based on the selected target schema. You can change their values if necessary.
+
+1. In the **Reconciliation criteria** section, specify how you want to reconcile data from the source and destination tables:
+
+    * **Simple join**: Reconcile a specific field from the source table with another field in the destination table. To do this, click the **Add join** button and specify the **Source** and **Destination** fields to use for the reconciliation.
+
+        >[!NOTE]
+        >
+        >You can use one or more **Simple join** criteria, in which case they must all be verified so that the data can be linked together.
+
+    * **Advanced join**: Use the query modeler to configure the reconciliation criteria. To do this, click the **Create condition** button then define your reconciliation criteria by building your own rule using AND and OR operations.
+
+The example below shows an orchestrated campaign configured to create a link between Journey Optimizer profiles table and a temporary table generated a **Load file** activity. In this example, the **Enrichment** activity reconciliates both tables using the email address as reconciliation criteria.
+
+![](../assets/enrichment-reconciliation.png)
+
+### Enrichment with linked data {#link-example}
+
+The example below shows an orchestrated campaign configured to create a link between two transitions. The first transitions targets profile data using a **Query** activity, while the second transition includes purchase data stored into a file loaded through a Load file activity.
 
 ![](../assets/enrichment-uc-link.png)
 
-* De eerste **Verrijking** activiteit verbindt de primaire reeks (gegevens van de **Vraag** activiteit) met het schema van de **het dossier van de Lading** activiteit. Hierdoor kunnen we elk profiel waarop de query betrekking heeft, afstemmen op de corresponderende aankoopgegevens.
+* The first **Enrichment** activity links the primary set (data from the **Query** activity) with the schema from the **Load file** activity. This allows us to match each profile targeted by the query with the corresponding purchase data.
 
-  ![](../assets/enrichment-uc-link-purchases.png)
+    ![](../assets/enrichment-uc-link-purchases.png)
 
-* Een tweede **Verrijking** activiteit wordt toegevoegd om gegevens van de georkestreerde campagnecelijst met de aankoopgegevens te verrijken die uit de **komen van het dossier van de Lading** activiteit. Op deze manier kunnen we die gegevens in verdere activiteiten gebruiken, bijvoorbeeld om berichten die aan klanten worden verzonden met informatie over hun aankoop te personaliseren.
+* A second **Enrichment** activity is added in order to enrich data from the orchestrated campaign table with the purchase data coming from the **Load file** activity. This allows us to use those data in further activities, for example, to personalize messages sent to the customers with information on their purchase.
 
-  ![](../assets/enrichment-uc-link-data.png)
+    ![](../assets/enrichment-uc-link-data.png)
+
+
+## Create links between tables {#create-links}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_enrichment_simplejoin"
+>title="Link definition"
+>abstract="Create a link between the working table data and Adobe Journey Optimizer. For example, if you load data from a file which contains the account number, country and email of recipients, you have to create a link towards the country table in order to update this information in their profiles."
+
+The **[!UICONTROL Link definition]** section allows you to create a link between the working table data and Adobe Journey Optimizer. For example, if you load data from a file which contains the account number, country and email of recipients, you have to create a link towards the country table in order to update this information in their profiles.
+
+There are several types of links available:
+
+* **[!UICONTROL 1 cardinality simple link]**: Each record from the primary set can be associated with one and only one record from the linked data.
+* **[!UICONTROL 0 or 1 cardinality simple link]**: Each record from the primary set can be associated with 0 or 1 record from the linked data, but not more than one.
+* **[!UICONTROL N cardinality collection link]**: Each record from the primary set can be associated with 0, 1 or more (N) records from the linked data.
+
+To create a link, follow these steps:
+
+1. In the **[!UICONTROL Link definition]** section, click the **[!UICONTROL Add link]** button.
+
+    ![](../assets/workflow-enrichment-link.png)
+
+1. In the **Relation type** drop-down list, choose the type of link you want to create.
+
+1. Identify the target you want to link the primary set to:
+
+    * To link an existing table in the database, choose **[!UICONTROL Database schema]** and select the desired table from the **[!UICONTROL Target schema]** field.
+    * To link with data from the input transition, choose **Temporary schema** and select the transition whose data you want to use.
+
+1. Define the reconciliation criteria to match data from the primary set with the linked schema. There are two types of joins available:
+
+    * **Simple join**: Select a specific attribute to match data from the two schemas. Click **Add join** and select the **Source** and **Destination** attributes to use as reconciliation criteria. 
+    * **Advanced join**: Create a join using advanced conditions. Click **Add join** and click the **Create condition** button to open the query modeler.
+
+A workflow example using links is available in the [Examples](#link-example) section.
+
+## Add offers {#add-offers}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_enrichment_offer_proposition"
+>title="Offer proposition"
+>abstract="The Enrichment activity allows you to add offers for each profile."
+
+The **[!UICONTROL Enrichment]** activity allows you to add offers for each profile.
+
+To do so, follow the steps to configure an **[!UICONTROL Enrichment]** activity with an offer: 
+
+1. In the **[!UICONTROL Enrichment]** activity, at the **[!UICONTROL Offer proposition]** section, click on the **[!UICONTROL Add offer]** button
+
+    ![](../assets/enrichment-addoffer.png)
+
+1. You have two choices for the offer selection :
+
+    * **[!UICONTROL Search for the best offer in category]** : check this option and specify the offer engine call parameters (offer space, category or theme(s), contact date, number of offers to keep). The engine will calculate the best offer(s) to add according to these parameters. We recommend completing either the Category or the Theme field, rather than both at the same time.
+
+        ![](../assets/enrichment-bestoffer.png)
+
+    * **[!UICONTROL A predefined offer]** : check this option and specify an offer space, a specific offer, and a contact date to directly configure the offer that you would like to add, without calling the offer engine.
+
+        ![](../assets/enrichment-predefinedoffer.png)
+
+1. After selecting your offer, click on **[!UICONTROL Confirm]** button.
+
+You can now use the offer in the delivery activity.
+
+
+
+### Using the offers from Enrichment activity
+
+Within an orchestrated campaign, if you want to use the offers you get from an enrichment activity in your delivery, follow the steps below:
+
+1. Open the delivery activity and go in the content edition. Click on **[!UICONTROL Offers settings]** button and select in the drop-down list the **[!UICONTROL Offers space]** corresponding to your offer. 
+If you want to to view only offers from the enrichment activity, set the number of **[!UICONTROL Propositions]** to 0, and save the modifications.
+
+    ![](../assets/offers-settings.png) 
+
+1. In the email designer, when adding a personalization with offers, click on the **[!UICONTROL Propositions]** icon, it will display the offer(s) you get from the **[!UICONTROL Enrichment]** activity. Open the offer you want to choose by clicking on it.
+
+    ![](../assets/offers-propositions.png) 
+
+    Go in **[!UICONTROL Rendering functions]** and choose **[!UICONTROL HTML rendering]** or **[!UICONTROL Text rendering]** according to your needs.
+
+    ![](../assets/offers-rendering.png) 
+
+>[!NOTE]
+>
+>If you choose to have more than one offer in the **[!UICONTROL Enrichment]** activity at the **[!UICONTROL Number of offers to keep]** option, all the offers are displayed when clicking on the **[!UICONTROL Propositions]** icon.
+
+-->
