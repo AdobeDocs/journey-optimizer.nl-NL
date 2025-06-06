@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 2169ab0e42ab2e8890c87e698e937f0341515b1f
 workflow-type: tm+mt
-source-wordcount: '1389'
+source-wordcount: '1351'
 ht-degree: 4%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 4%
 
 Om tot [!DNL Adobe Journey Optimizer] toegang te hebben, verbind met [ Adobe Experience Cloud ](https://experience.adobe.com) met uw Adobe ID, en selecteer [!DNL Journey Optimizer].
 
-Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=nl-NL#adobe-experience-platform-ui-guide){target="_blank"} voor meer details.
+Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target="_blank"} voor meer details.
 
 
 >[!NOTE]
 >
->* De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [ toestemmingen ](../administration/permissions.md) en van uw [ vergunning gevend pakket ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af. Neem voor alle vragen contact op met de Adobe Customer Success Manager of uw Adobe-vertegenwoordiger.
+>* De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [ toestemmingen ](../administration/permissions.md) en van uw [ vergunning gevend pakket ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af. Neem voor alle vragen contact op met de Adobe Customer Success Manager of uw Adobe-vertegenwoordiger.
 >
 >* Deze documentatie wordt vaak bijgewerkt om de laatste wijzigingen in de gebruikersinterface van het product te weerspiegelen. Sommige schermafbeeldingen kunnen echter enigszins afwijken van uw gebruikersinterface.
 >
@@ -90,7 +90,7 @@ Uw gegevens in deze sectie beheren.
 
 * **[!UICONTROL Queries]** - Gebruik Adobe Experience Platform Query Service om query&#39;s te schrijven en uit te voeren, eerder uitgevoerde query&#39;s weer te geven en toegang te krijgen tot query&#39;s die zijn opgeslagen door gebruikers binnen uw organisatie. [Meer informatie](../data/get-started-queries.md)
 
-* **[!UICONTROL Monitoring]** - Gebruik dit menu om de gegevensinvoer in de gebruikersinterface van Adobe Experience Platform te controleren. Leer meer in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=nl-NL){target="_blank"}
+* **[!UICONTROL Monitoring]** - Gebruik dit menu om de gegevensinvoer in de gebruikersinterface van Adobe Experience Platform te controleren. Leer meer in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html){target="_blank"}
 
 ### [!UICONTROL CONNECTIONS] {#left-nav-connections}
 
@@ -249,12 +249,7 @@ De taal wijzigen:
 >title="Plaatsing"
 >abstract="Een plaatsing bepaalt waar de teruggekeerde punten van de besluitvormingsmotor in een bericht verschijnen. U kunt de prestaties van de verschillende locaties in de rapportage bijhouden."
 
-<!-- Journey Dry Run - DOCAC-12459-->
 
->[!CONTEXTUALHELP]
->id="ajo_journey_dry_run"
->title="Droog je reis"
->abstract="Nadat u de reis hebt ontworpen, voert u een droge run uit om te bevestigen dat deze functioneel is en dat de stappen correct zijn. Met deze publicatiemodus kunt u een reis roken zonder dat u de communicatie naar een profiel hoeft te sturen."
 
 
 
