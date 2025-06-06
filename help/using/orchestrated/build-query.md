@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Uw eerste query samenstellen
-description: Leer hoe u query's voor uw georkestreerde campagnes maakt
+title: Uw eerste regel samenstellen
+description: Leer hoe u regels maakt voor uw georkestreerde campagnes
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: f6f83405f59f444c5d9d2ec2e603ff5425c3d745
+source-git-commit: 72bceb03a3e94b0f3c13dddb22c8d3b4de0fcb44
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '1770'
 ht-degree: 0%
 
 ---
 
-# Uw eerste query samenstellen {#build-query}
+# Uw eerste regel samenstellen {#build-query}
 
 +++ Inhoudsopgave
 
 | Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
 |---|---|---|---|
-| [ worden begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](configuration-steps.md)<br/><br/>[ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](gs-campaign-creation.md) | [ creeer een georkestreerde campagne ](create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](send-messages.md)<br/><br/>[ Begin en controleer de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uitdrukkingen ](edit-expressions.md) uit | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ combineert ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) - [ Fork ](activities/fork.md) opnieuw verzoening [&#128279;](activities/reconciliation.md) - [ Gesplitst ](activities/split.md) - [ wacht ](activities/wait.md) |
+| [ worden begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](configuration-steps.md)<br/><br/>[ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](gs-campaign-creation.md) | [ creeer een georkestreerde campagne ](create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](send-messages.md)<br/><br/>[ Begin en controleer de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uitdrukkingen ](edit-expressions.md) uit | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ combineert ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) - [ Fork ](activities/fork.md) opnieuw verzoening ](activities/reconciliation.md) - [ Gesplitst ](activities/split.md) - [ wacht ](activities/wait.md)[ |
 
 {style="table-layout:fixed"}
 
@@ -34,297 +34,200 @@ Documentatie in uitvoering
 
 >[!ENDSHADEBOX]
 
-<!--
-The main steps to build rules for your orchestrated campaigns are as follows:
+De belangrijkste stappen om regels voor uw georkestreerde campagnes te bouwen zijn als volgt:
 
-1. **Add conditions** - Create custom conditions to filter your query by building your own condition with attributes from the database and advanced expressions.
-1. **Combine conditions** - Arrange the conditions in the canvas using groups and logical operators.
-1. **Check and validate the rule** - Check the resulting data of your rule before saving it.
+1. **voegt voorwaarden** toe - creeer douanevoorwaarden om uw vraag te filtreren door uw eigen voorwaarde met attributen van het gegevensbestand en geavanceerde uitdrukkingen te bouwen.
+1. **combineer voorwaarden** - plaats de voorwaarden in het canvas gebruikend groepen en logische exploitanten.
+1. **Controle en bevestig de regel** - controleer de resulterende gegevens van uw regel alvorens het op te slaan.
 
-## Add a condition {#conditions}
+## Een voorwaarde toevoegen {#conditions}
 
-To add conditions in your query, follow these steps:
+Ga als volgt te werk om voorwaarden aan uw query toe te voegen:
 
-1. Access the rule builder from a **[!UICONTROL Build audience]** activity.
+1. Heb toegang tot de regelbouwer van een **[!UICONTROL Build audience]** activiteit.
 
-1. Click the **Add condition** button to create a first condition for your query.
+1. Klik **toevoegen voorwaarde** knoop om een eerste voorwaarde voor uw vraag tot stand te brengen.
 
-    You can also start your query using a predefined filter. To do so, click the **[!UICONTROL Select or save filter]** button and choose **[!UICONTROL Select predefined filter]**. 
+   U kunt de query ook starten met een vooraf gedefinieerd filter. Klik hiertoe op de knop **[!UICONTROL Select or save filter]** en kies **[!UICONTROL Select predefined filter]** .
 
-1. Identify the attribute from the dabatase to use as criteria for your condition. The "i" icon next to an attribute provides information on the table where it is store and its data type.
+1. Identificeer het attribuut van de dabatase als criteria voor uw voorwaarde te gebruiken. Het pictogram &quot;i&quot; naast een kenmerk bevat informatie over de tabel waarin het wordt opgeslagen en het gegevenstype van het kenmerk.
 
-    ![image showing the selection of an attribute](assets/rule-builder-select-attribute.png)
+   ![ beeld dat de selectie van een attribuut ](assets/rule-builder-select-attribute.png) toont
 
-    >[!NOTE]
-    >
-    >The **Edit expression** button allows you to use the expression editor to manually define an expression using fields from the database and helper functions. [Learn how to edit expressions](expression-editor.md)
+   >[!NOTE]
+   >
+   >De **geeft uitdrukking** knoop uit staat u toe om de uitdrukkingsredacteur te gebruiken om een uitdrukking manueel te bepalen gebruikend gebieden van het gegevensbestand en hulpfuncties. [ Leer hoe te om uitdrukkingen uit te geven ](expression-editor.md)
 
-1. Click the ![image showing the More actions button](assets/do-not-localize/rule-builder-icon-more.svg) button next to an attribute to access these addititional options:
+1. Klik het ![ beeld dat de Meer actieknoop ](assets/do-not-localize/rule-builder-icon-more.svg) naast een attribuut toont om tot deze extra opties toegang te hebben:
 
-    +++ Distribution of values
++++ Verdeling van waarden
 
-    Analyze the distribution of values for a given attribute within the table. This feature is helpful for understanding the available values, their counts, and percentages. It also helps avoid issues such as inconsistent capitalization or spelling when building queries or creating expressions.
+   Analyseer de verdeling van waarden voor een bepaald kenmerk binnen de tabel. Deze functie is handig voor het begrijpen van de beschikbare waarden, hun aantallen en percentages. Het helpt ook problemen zoals inconsistente hoofdlettergebruik of spelling te voorkomen bij het maken van query&#39;s of het maken van expressies.
 
-    For attributes with a large number of values, the tool displays only the first twenty. In such cases, a **[!UICONTROL Partial load]** notification appears to indicate this limitation. You can apply advanced filters to refine the displayed results and focus on specific values or subsets of data.
+   Voor kenmerken met een groot aantal waarden wordt alleen de eerste twintig weergegeven. In dergelijke gevallen lijkt een **[!UICONTROL Partial load]** -melding deze beperking aan te geven. U kunt geavanceerde filters toepassen om de weergegeven resultaten te verfijnen en de focus op specifieke waarden of subsets van gegevens te richten.
 
-    ![image showing the Distribution of values interface](assets/rule-builder-distribution-values.png)
+   ![ beeld dat de Distributie van waardeinterface toont ](assets/rule-builder-distribution-values.png)
 
-    +++
++++
 
-    +++ Add to favorites
-    
-    Adding attributes to your favorites menu provides quick access to your most frequency used attributes. You can add up to 20 attributes to favorites. Favorite and recent attributes are associated with each user within an organization, ensuring accessibility across different machines and providing a seamless experience across devices.
-    
-    To access attributes you have favorited, use the **[!UICONTROL Favorites and recents]** menu. Favorite attributes appear first, followed by recently used ones, making it easy to locate the required attributes. To remove an attribute from favorites, select the star icon again.
++++ Toevoegen aan Favorieten
 
-    ![image showing the favorites interface](assets/rule-builder-favorites.png)
+   Door kenmerken toe te voegen aan het menu Favorieten hebt u snel toegang tot de meest gebruikte kenmerken. U kunt maximaal 20 kenmerken toevoegen aan favorieten. Favoriete en recente kenmerken zijn gekoppeld aan elke gebruiker binnen een organisatie, zodat de toegankelijkheid op verschillende computers gegarandeerd is en een naadloze ervaring op alle apparaten mogelijk is.
 
-    +++
+   Gebruik het menu **[!UICONTROL Favorites and recents]** voor toegang tot de gewenste kenmerken. Favoriete kenmerken worden als eerste weergegeven, gevolgd door recent gebruikte kenmerken, zodat u gemakkelijk de vereiste kenmerken kunt vinden. Als u een kenmerk uit de favorieten wilt verwijderen, selecteert u het sterpictogram opnieuw.
 
-1. Click **[!UICONTROL Confirm]** to add the selected attribute to your condition.
+   ![ beeld dat de favoriete interface ](assets/rule-builder-favorites.png) toont
 
-1. A properties pane displays, where you can configure the desired values for the attribute.
++++
 
-    ![image showing the rule builder with a condition added](assets/rule-builder-condition.png)
+1. Klik op **[!UICONTROL Confirm]** om het geselecteerde kenmerk aan uw voorwaarde toe te voegen.
 
-1. Select the **[!UICONTROL Operator]** to apply from the drop-down list. 
-    
-    Various operators are available for use. Operators available in the drop-down list depend on the attribute's data type.
+1. Er wordt een deelvenster met eigenschappen weergegeven waarin u de gewenste waarden voor het kenmerk kunt configureren.
 
-   +++List of available operators
+   ![ beeld dat de regelbouwer met een toegevoegde voorwaarde toont ](assets/rule-builder-condition.png)
 
-    |Operator|Purpose|Example|
-    |---|---|---|
-    |Equal to|Returns a result identical to the data entered in the second Value column.|Last name (@lastName) equal to 'Jones' will return only recipients whose last name is Jones.|
-    |Not equal to|Returns all values not identical to the value entered.|Language (@language) not equal to 'English'.|
-    |Greater than|Returns a value greater than the value entered.|Age (@age) greater than 50 will return all values greater than '50', such as '51', '52'.|
-    |Less than|Returns a value smaller than the value entered.|Creation date (@created) before 'DaysAgo(100)' will return all recipients created less than 100 days ago.|
-    |Greater than or equal to|Returns all values equal to or greater than the value entered.|Age (@age) greater than or equal to '30' will return all recipients aged 30 or more.|
-    |Less than or equal to|Returns all values equal to or lower than the value entered.|Age (@age) less than or equal to '60' will return all recipients aged 60 or less.|
-    |Included in|Returns results included in the values indicated. These values must be separated by a comma.|Birth date (@birthDate) is included in '12/10/1979,12/10/1984' will return the recipients born between these dates.|
-    |Not in|Works like the Is included in operator. Here, recipients are excluded based on the values entered.|Birth date (@birthDate) is not included in '12/10/1979,12/10/1984'. Recipients born within these dates will not be returned.|
-    |Is empty|Returns results matching an empty value in the second Value column.|Mobile (@mobilePhone) is empty returns all recipients who do not have a mobile number.|
-    |Is not empty|Works in reverse to the Is empty operator. It is not necessary to enter data in the second Value column.|Email (@email) is not empty.|
-    |Starts with|Returns results starting with the value entered.|Account # (@account) starts with '32010'.|
-    |Does not start with|Returns results not starting with the value entered.|Account # (@account) does not start with '20'.|
-    |Contains|Returns results containing at least the value entered.|Email domain (@domain) contains 'mail' will return all domain names that contain 'mail', such as 'gmail.com'.|
-    |Does not contain|Returns results not containing the value entered.|Email domain (@domain) does not contain 'vo'. Domain names containing 'vo', such as 'voila.fr', will not appear in the results.|
-    |Like|Similar to the Contains operator, it lets you insert a % wildcard character in the value.|Last name (@lastName) like 'Jon%s'. The wildcard character acts as a "joker" to find names like "Jones".|
-    |Not like|Similar to the Contains operator, it lets you insert a % wildcard character in the value.|Last name (@lastName) not like 'Smi%h'. Recipients whose last name is 'Smith' will not be returned.|
+1. Selecteer de **[!UICONTROL Operator]** die u wilt toepassen in de vervolgkeuzelijst.
 
-    +++
+   Er zijn verschillende operatoren beschikbaar voor gebruik. Operatoren die beschikbaar zijn in de vervolgkeuzelijst, zijn afhankelijk van het gegevenstype van het kenmerk.
 
-1. In the **Value** field, define the expected value. You can also use the expression editor to manually define an expression using fields from the database and helper functions. To do this, click the ![image showing the expression editor icon](assets/do-not-localize/rule-builder-icon-editor.svg) icon. [Learn how to edit expressions](expression-editor.md)
+   +++Lijst met beschikbare operatoren
 
-    For date-type attributes, predefined values are available using the **[!UICONTROL Presets]** option.
+   | Operator | Doel | Voorbeeld |
+   |---|---|---|
+   | Gelijk aan | Retourneert een resultaat dat identiek is aan de gegevens die zijn ingevoerd in de tweede kolom Waarde. | Achternaam (@lastName) gelijk aan &#39;Jones&#39; retourneert alleen ontvangers met als achternaam Jones. |
+   | Niet gelijk aan | Retourneert alle waarden die niet identiek zijn aan de ingevoerde waarde. | Taal (@taal) is niet gelijk aan &#39;Engels&#39;. |
+   | Groter dan | Retourneert een waarde die groter is dan de ingevoerde waarde. | Leeftijd (@age) groter dan 50 zal alle waarden groter dan &quot;50&quot;terugkeren, zoals &quot;51&quot;, &quot;52&quot;. |
+   | Minder dan | Retourneert een waarde die kleiner is dan de ingevoerde waarde. | Aanmaakdatum (@created) voordat &#39;DaysAgo(100)&#39; alle ontvangers retourneert die minder dan 100 dagen geleden zijn gemaakt. |
+   | Groter dan of gelijk aan | Retourneert alle waarden die gelijk zijn aan of groter zijn dan de ingevoerde waarde. | Leeftijd (@age) groter dan of gelijk aan &#39;30&#39; retourneert alle ontvangers van 30 jaar of ouder. |
+   | Kleiner dan of gelijk aan | Retourneert alle waarden die gelijk zijn aan of lager zijn dan de ingevoerde waarde. | Leeftijd (@age) kleiner dan of gelijk aan &#39;60&#39; retourneert alle ontvangers van 60 jaar of ouder. |
+   | Opgenomen in | Retourneert resultaten die zijn opgenomen in de aangegeven waarden. Deze waarden moeten door een komma worden gescheiden. | De geboortedatum (@geboortedatum) is opgenomen in &#39;12-10-1979.12-10-1984&#39; en retourneert de tussen deze data geboren ontvangers. |
+   | Niet in | Werkt zoals is opgenomen in operator. Hier worden ontvangers uitgesloten op basis van de ingevoerde waarden. | Geboortedatum (@geboortedatum) is niet opgenomen in &quot;10-12-1979,12-10-1984&quot;. Ontvangers die binnen deze datums zijn geboren, worden niet geretourneerd. |
+   | Is leeg | Retourneert resultaten die overeenkomen met een lege waarde in de tweede kolom Waarde. | Mobiele (@mobilePhone) is leeg en retourneert alle ontvangers die geen mobiel nummer hebben. |
+   | Is niet leeg | Werkt in omgekeerde volgorde naar de operator Is leeg. Het is niet nodig gegevens in te voeren in de tweede kolom Waarde. | E-mail (@email) is niet leeg. |
+   | Begint met | Retourneert resultaten die beginnen met de ingevoerde waarde. | Account # (@account) begint met &#39;32010&#39;. |
+   | Begint niet met | Retourneert resultaten die niet beginnen met de ingevoerde waarde. | Account # (@account) begint niet met &#39;20&#39;. |
+   | Bevat | Retourneert resultaten die ten minste de ingevoerde waarde bevatten. | Het e-maildomein (@domain) bevat &#39;mail&#39; en retourneert alle domeinnamen die &#39;mail&#39; bevatten, zoals &#39;gmail.com&#39;. |
+   | Bevat niet | Retourneert resultaten die niet de ingevoerde waarde bevatten. | E-maildomein (@domein) bevat geen &#39;vo&#39;. Domeinnamen die &#39;vo&#39; bevatten, zoals &#39;voila.fr&#39;, worden niet weergegeven in de resultaten. |
+   | leuk | Net als bij de operator Bevat kunt u een jokerteken % in de waarde invoegen. | Achternaam (@lastName) zoals &#39;Jon%s&#39;. Het jokerteken fungeert als een &#39;joker&#39; om namen als &#39;Jones&#39; te zoeken. |
+   | Niet leuk | Net als bij de operator Bevat kunt u een jokerteken % in de waarde invoegen. | Achternaam (@lastName) houdt niet van &#39;Smi%h&#39;. Ontvangers met de achternaam Smith worden niet geretourneerd. |
 
-    +++See example
-    
-    ![image showing the preset option](assets/rule-builder-attribute-preset.png) 
++++
 
-    +++
+1. Op het **gebied van de Waarde**, bepaal de verwachte waarde. U kunt de uitdrukkingsredacteur ook gebruiken om een uitdrukking manueel te bepalen gebruikend gebieden van het gegevensbestand en hulpfuncties. Om dit te doen, klik het ![ beeld dat het pictogram van de uitdrukkingsredacteur ](assets/do-not-localize/rule-builder-icon-editor.svg) toont. [ Leer hoe te om uitdrukkingen uit te geven ](expression-editor.md)
 
-### Custom conditions on linked tables (1-1 and 1-N links){#links}
+   Voor datumtekstkenmerken zijn vooraf gedefinieerde waarden beschikbaar met de optie **[!UICONTROL Presets]** .
 
-Custom conditions allows you to query tables linked to the table currently used by your rule. This includes tables with a 1-1 cardinality link, or collection tables (1-N link).
+   +++Zie voorbeeld
 
-For a **1-1 link**, navigate to the linked table, select the desired attribute and define the expected value.
+   ![ beeld dat de vooraf ingestelde optie ](assets/rule-builder-attribute-preset.png) toont
 
-You can also directly select a table link in the **Value** picker and confirm. In that case, values available for the selected table need to be selected using a dedicated picker, as shown in the example below.
++++
 
-+++Query example
+### Aangepaste voorwaarden voor gekoppelde tabellen (1-1 en 1-N koppelingen){#links}
 
-Here, the query is targeting brands whose label is "running". 
+De voorwaarden van de douane staan u toe om lijsten te vragen verbonden aan de lijst die momenteel door uw regel wordt gebruikt. Dit omvat lijsten met een 1-1 kardinaliteitsverbinding, of inzamelingstabellen (verbinding 1-N).
 
-1. Navigate inside the **Brand** table and select the **Label** attribute.
+Voor a **1-1 verbinding**, navigeer aan de verbonden lijst, selecteer de gewenste attributen en bepaal de verwachte waarde.
 
-    ![Screenshot of the Brand table](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
+U kunt een lijstverbinding in de **plukker van de Waarde** ook direct selecteren en bevestigen. In dat geval moeten de waarden die beschikbaar zijn voor de geselecteerde tabel, worden geselecteerd met een speciale kiezer, zoals in het onderstaande voorbeeld wordt getoond.
 
-1. Define the expected value for the attribute.
++++voorbeeld van Query
 
-    ![Example of a defined expected value](assets/1-1-table.png){zoomable="yes"}{width="85%" align="center"}
+Hier, richt de vraag zich merken het waarvan etiket &quot;loopt&quot;.
 
-Here is a query sample where a table link has been selected directly. Available values for this table must be selected from a dedicated picker.
+1. Navigeer binnen de **Merk** lijst en selecteer het **3} attribuut van het Etiket {.**
 
-![Example of a query sample](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
+   ![ Schermafbeelding van de lijst van het Merk ](assets/rule-builder-1-1-attribute.png)
 
-+++ 
+1. Definieer de verwachte waarde voor het kenmerk.
 
-For a **1-N link**, you can define sub-conditions to refine your query, as shown in the example below.
+   ![ Schermafbeelding van de lijst van het Merk ](assets/rule-builder-1-1-attribute-value.png)
 
-+++Query example
+Hier volgt een queryvoorbeeld waarin een tabelkoppeling rechtstreeks is geselecteerd. Beschikbare waarden voor deze tabel moeten worden geselecteerd in een speciale kiezer.
 
-Here, the query is targeting recipients who made purchases related to the BrewMaster product, for a total amount of at least 100$.
+![ Schermafbeelding van de lijst van het Merk ](assets/rule-builder-1-1-attribute-table.png)
 
-1. Select the **Purchases** table and confirm.
++++
 
-    ![Screenshot of the Purchase table](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
+Voor a **1-N verbinding**, kunt u sub-voorwaarden bepalen om uw vraag te verfijnen, zoals aangetoond in het hieronder voorbeeld.
 
-1. An outbound transition is added, allowing you to create sub-conditions.
++++voorbeeld van Query
 
-    ![Example of an outbound transition](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
+Hier richt de vraag zich op ontvangers die aankopen hebben gedaan met betrekking tot het Brewmsaster-product, voor meer dan 100$.
 
-1. Select the **Price** attribute and target purchases of 1000$ or more
+1. Selecteer **Aankopen** lijst en bevestig.
 
-    ![Screenshot of the Price attribute](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
+1. Klik op **[!UICONTROL Add condition]** om de subvoorwaarden te definiëren die op de geselecteerde tabel moeten worden toegepast.
 
-1. Add sub-conditions to suit your needs. Here we have added a condition to target profiles who purchased a BrewMaster product.
+   ![ Schermafbeelding van de lijst van de Aankoop ](assets/rule-builder-1-n-purchase.png)
 
-    ![Example of sub-conditions](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
+1. Voeg subvoorwaarden toe die aan uw behoeften voldoen.
 
-+++ 
+   ![ Schermafbeelding van de lijst van de Aankoop ](assets/rule-builder-1-n-collection.png)
 
-### Custom conditions with aggregate data {#aggregate}
++++
 
-Custom conditions allow you to perform aggregate operations. To do this, you need to directly select an attribute from a collection table:
+### Aangepaste omstandigheden met geaggregeerde gegevens {#aggregate}
 
-1. Navigate inside the desired collection table and select the attribute on which you want to perform an aggregate operation.
+Met aangepaste omstandigheden kunt u gezamenlijke bewerkingen uitvoeren. Hiervoor moet u rechtstreeks een kenmerk in een verzamelingstabel selecteren:
 
-    ![Screenshot of the attribute list](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
+1. Navigeer binnen de gewenste inzamelingstabel en selecteer de attributen waarop u een gezamenlijke verrichting wilt uitvoeren.
 
-1. In the properties pane, toggle on the **Aggregate data** option and select the desired aggregate function.
+1. In de eigenschappen ruit, knevel op de **Samengevoegde gegevens** optie en selecteer de gewenste gezamenlijke functie.
 
+   ![ Schermafbeelding van de Samengevoegde gegevensoptie ](assets/rule-builder-aggregate.png)
 
+## Voorwaarden combineren met operatoren {#operators}
 
+Telkens als u een nieuwe voorwaarde in uw regel toevoegt, wordt het automatisch verbonden met de bestaande voorwaarde door een **EN** exploitant. Dit betekent dat de resultaten van de twee voorwaarden worden gecombineerd.
 
+Als u de operator tussen voorwaarden wilt wijzigen, klikt u erop en selecteert u de gewenste operator.
 
+![ Voorbeeld van een vraag ](assets/rule-builder-change-operator.png)
 
+Beschikbare operatoren zijn:
 
-## Combine conditions with groups and operators
+* **EN (Doorsnede)**: Combineert resultaten die alle het filtreren componenten in de uitgaande overgangen aanpassen.
+* **OF (Unie)**: Omvat resultaten die minstens één van de het filtreren componenten in de uitgaande overgangen aanpassen.
+* **BEHALVE (Uitsluiting)**: Sluit resultaten uit die alle het filtreren componenten in de uitgaande overgang aanpassen.
 
-Use **Group operators** (AND, OR, EXCEPT) allow you to group filtering components in the diagram. They are added on existing transitions before a filtering component. [Learn how to work with operators](#filtering)
+## Manipulatieomstandigheden {#manipulate}
 
-    Example: *Recipients who are Super VIP **AND** VIP to reward **OR** VIP Demo, **EXCEPT** recipients under 21 years old and above 45.
+De werkbalk van het canvas van de regelbouwer biedt opties voor het eenvoudig manipuleren van de voorwaarden binnen uw regel:
 
+| Werkbalkpictogram | Beschrijving |
+|--- |--- |
+| ![ Beweging omhoog selectiepictogram ](assets/do-not-localize/rule-builder-icon-up.svg) | Verplaats de component omhoog een rij. |
+| ![ Beweging onderaan selectiepictogram ](assets/do-not-localize/rule-builder-icon-down.svg) | Verplaats de component een rij omlaag. |
+| ![ het selectiepictogram van de Groep ](assets/do-not-localize/rule-builder-icon-group.svg) | Plaats twee componenten in een groep. |
+| ![ Ungroup selectiepictogram ](assets/do-not-localize/rule-builder-icon-ungroup.svg) | Scheid de componenten van één groep. |
+| ![ breid al pictogram ](assets/do-not-localize/rule-builder-icon-expand.svg) uit | Vouw alle groepen uit. |
+| ![ Vouw al pictogram ](assets/do-not-localize/rule-builder-icon-collapse.svg) samen | Vouw alle groepen samen. |
+| ![ verwijder al pictogram ](assets/do-not-localize/rule-builder-icon-delete.svg) | Alle groepen en componenten verwijderen. |
 
+Afhankelijk van uw behoeften, kunt u tussenliggende groepen componenten moeten tot stand brengen door componenten in een zelfde groep te groeperen en hen te verbinden samen.
 
+* Om twee bestaande voorwaarden te groeperen, selecteer één van de twee voorwaarden en klik de ![ Beweging omhoog selectiepictogram ](assets/do-not-localize/rule-builder-icon-up.svg) of ![ Beweging onderaan selectiepictogram ](assets/do-not-localize/rule-builder-icon-down.svg) knoop om het met de voorwaarde hierboven of onder te groeperen.
 
+* Om een bestaande voorwaarde met nieuwe te groeperen, selecteer de voorwaarde, klik het ![ beeld dat de Meer actieknoop ](assets/do-not-localize/rule-builder-icon-more.svg) toont en **[!UICONTROL Add group]** selecteert. Selecteer het nieuwe kenmerk dat u aan de groep wilt toevoegen en bevestig het vervolgens.
 
+  ![](assets/rule-builder-edit-groups.png)
 
+In het onderstaande voorbeeld hebben we een tussengroep opgericht voor klanten die het BrewMaster- of VanillaVelvet-product hebben aangeschaft.
 
+![](assets/rule-builder-groups.png)
 
+## Uw query controleren en valideren
 
+Zodra u uw vraag in het canvas hebt gebouwd, kunt u het controleren gebruikend de **eigenschappen van de Regel** ruit. Beschikbare bewerkingen zijn:
 
-### Copy-paste components {#copy}
+* **resultaten van de Mening:** toont de gegevens die uit uw vraag voortvloeien.
+* **mening van de Code**: Toont een op code-gebaseerde versie van de vraag in SQL.
+* **berekent**: Updates en toont het aantal verslagen die door uw regel worden gericht.
+* **Uitgezocht of sparen filter**: Kies een bestaand vooraf bepaald filter om in het canvas te gebruiken, of sparen uw vraag als vooraf bepaald filter voor toekomstig hergebruik.
 
-The rule builder allows you to copy one or multiple filtering components and paste them at the end of a transition. This operation can be executed within the current query canvas, or in any canvas within your instance.
+  >[!IMPORTANT]
+  >
+  >Selecteer een vooraf gedefinieerd filter in het deelvenster Eigenschappen regel om de regel die in het canvas is gemaakt te vervangen door het geselecteerde filter.
 
->[!NOTE]
->
->The copied selection is kept as long as you are working in your instance. If you log off and log back in, your selection will no longer be available for pasting.
-
->[!IMPORTANT]
->
->It is currently impossible to copy and paste components in the New Rule builder experience. To follow these next steps, please click the **[!UICONTROL Get back to the classic experience]** toggle at the top to use the Classic Rule builder.
-
-
-To copy-paste filtering components, follow these steps:
-
-1. Select the filtering component that you want to copy by clicking on it in the query canvas. To select multiple components, use the multiple selection tool available in the toolbar located at the upper-right corner of the canvas.
-
-1. Click the **[!UICONTROL Copy]** button in the component's properties pane or in the blue ribbon at the bottom of the screen if you have selected multiple components.
-
-    |Copy a single component|Copy multiple components|
-    |  ---  |  ---  |
-    |![](assets/copy-single-component.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|![](assets/copy-multiple-components.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|
-
-1. To paste the component(s), click the + button at the end of the desired transition and select **Paste n items**.
-
-    ![Example of pasting the components](assets/copy-paste.png){zoomable="yes"}
-
-## Combine filtering components with operators {#operators}
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_group"
->title="Group"
->abstract="In this pane, you can change the operator used to link filtering conditions together."
-
-Each time you add a new filtering component to your query, it is automatically linked to the other component by an **AND** operator. This means that results from the two filtering components are combined.
-
-In this example, we have added a new audience-type filtering components on the second transition. The component is linked to the predefined filter condition with an **AND** operator, meaning that the query results include recipients targeted by the "Newsletter Subscribers - MADRID" predefined filter AND belonging to the "Purchasers (All time)" audience.
-
->[!BEGINTABS]
-
->[!TAB Classic rule builder]
-
-![Example of a query](assets/query-operator.png){zoomable="yes"}
-
-To change the operator used to link filtering conditions together, click on it and select the desired operator in the **Group** pane that opens on the right hand side.
-
-Available operators are:
-
-* **AND (Intersection)**: Combines results matching all the filtering components in the outbound transitions. 
-* **OR (Union)**: Includes results matching at least one of the filtering components in the outbound transitions.
-* **EXCEPT (Exclusion)**: Excludes results matching all the filtering componentns in the outbound transition. 
-
-![Example of a query](assets/query-operator-change.png){zoomable="yes"}
-
-In addition, you can create intermediate groups of components by grouping components into a same group and linking them together. That way, the AND operator will be put by default, you can then change it to the desired operator.
-
->[!TAB New rule builder]
-
-![Example of a query](assets/ruleb-9.png){zoomable="yes"}
-
-To change the operator used to link filtering conditions together, click on it, it will change to OR, EXCEPT and then back to AND, and select the desired operator.
-
-Available operators are:
-
-* **AND (Intersection)**: Combines results matching all the filtering components in the outbound transitions. 
-* **OR (Union)**: Includes results matching at least one of the filtering components in the outbound transitions.
-* **EXCEPT (Exclusion)**: Excludes results matching all the filtering componentns in the outbound transition.
-
-![Example of a query](assets/ruleb-10.gif){zoomable="yes"}
-
->[!ENDTABS]
-
-In the example below, we have created an intermediate group to include results from either the "VIP to reward" or "Super VIP" audiences.
-
->[!BEGINTABS]
-
->[!TAB Classic rule builder]
-
-![Example of a query](assets/query-intermediate-group.png){zoomable="yes"}
-
->[!TAB New rule builder]
-
-![Example of a query in the new rule builder](assets/ruleb-11.png){zoomable="yes"}
-
->[!ENDTABS]
-
-## Check and validate your query
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_ruleproperties"
->title="Rule properties"
->abstract="Once you've built your query in the canvas, you can check it using the **Rule properties** pane located on the right hand side.<br/>This pane allows you to display the resulting data, to retrieve an SQL code version of the query, and check the number of targeted records.<br/>Use the **Select or save filter** button to save your query as a predefined filter, or replace the canvas content with an existing filter."
-
-Once you've built your query in the canvas, you can check it using the **Rule properties** pane located on the right hand side  This pane displays when building a query to create an audience. Available operations are:
-
-* **View results:** Displays the data resulting from your query.
-* **Code view**: Displays a code-based version of the query in SQL.
-* **Calculate**: Updates and displays the number of records targeted by your query.
-* **Select or save filter**: Choose an existing predefined filter to use in the canvas, or save your query as a predefined filter for future reuse. [Learn how to work with predefined filters](../get-started/predefined-filters.md)
-
-    >[!IMPORTANT]
-    >
-    >Select a predefined filter from the Rule properties pane replaces the query that has been built in the canvas with the selected filter.
-
-When your query is ready, click the **[!UICONTROL Confirm]** button in the upper-right corner to save it.
-
-
->[!BEGINTABS]
-
->[!TAB Classic rule builder]
-
-You can modify your query at any time by opening it. Keep in mind that upon opening an existing query, it displays in a simplified view without the visiblity of  **+** buttons. To add new elements to the query, select a component or operator on the canvas to display the **+** buttons.
-
-![Example of a query](assets/edit-audience.png){zoomable="yes"}
-
->[!TAB New Rule builder]
-
-You can modify your query at any time by opening it, to do that, click on the **[!UICONTROL Add condition]** button on the top-left corner.
-
-![Example of a query in the new rule builder](assets/ruleb-11.png){zoomable="yes"}
-
->[!ENDTABS]
--->
+Wanneer uw regel gereed is, klikt u op de knop **[!UICONTROL Confirm]** in de map om deze op te slaan.
