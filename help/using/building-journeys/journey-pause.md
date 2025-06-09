@@ -10,16 +10,16 @@ hide: true
 hidefromtoc: true
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: publiceren, reizen, live, geldigheid, controle
-source-git-commit: cd85b58350b4f8829aa1bc925c151be9b061b170
+source-git-commit: 341f818d84264e3cb57563466866fdf43ebc401c
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
 
 # Een reis pauzeren {#journey-pause}
 
-U kunt uw live reizen pauzeren, alle benodigde wijzigingen uitvoeren en deze op elk gewenst moment hervatten. Een reis kan maximaal 14 dagen worden onderbroken. U kunt kiezen of de reis wordt hervat aan het einde van de pauze periode, of of het volledig stopt.
+U kunt uw live reizen pauzeren, alle benodigde wijzigingen uitvoeren en deze op elk gewenst moment hervatten. Een reis kan maximaal 14 dagen worden onderbroken. <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> De reis wordt automatisch hervat aan het eind van de pauzeperiode. U kunt het [ ook manueel hervatten ](#journey-resume-steps).
 
 
 >[!AVAILABILITY]
@@ -41,16 +41,15 @@ Dit vermogen vermindert het risico om onbedoelde berichten tijdens fouten of upd
 
 * Een reisversie kan maximaal 14 dagen worden onderbroken.
 * Gepauzeerde reizen worden in alle bedrijfsregels beschouwd, net als wanneer ze in leven waren.
-* Profielen worden tijdens een gepauzeerde reis &quot;verwijderd&quot; wanneer ze een actieactiviteit bereiken. Als ze op een wachttijd blijven tijdens het pauzeren van een reis en het verlaten van een reis die wacht op de hervatting, zullen ze de reis voortzetten en niet worden weggegooid.
-* Zelfs na het pauzeren zouden deze gebeurtenissen, naarmate de gebeurtenissen verder worden verwerkt, worden geteld in het quotum van 5 ktps, waarna de vertraging voor de eenheid zichtbaar wordt.
+* Profielen worden tijdens een gepauzeerde reis &quot;verwijderd&quot; wanneer ze een actieactiviteit bereiken. Als zij op een wachttijd blijven tijdens de tijd dat een reis wordt gepauzeerd en vertrekken die wachten nadat deze is hervat, zullen zij de reis voortzetten en niet worden weggegooid.
+* Zelfs na de pauze zouden deze gebeurtenissen, aangezien de gebeurtenissen nog steeds worden verwerkt, worden geteld voor het aantal Reisgebeurtenissen per seconde quota, waarna er een vertraging optreedt voor de eenheid.
 * Profielen die tijdens de pauze op de reis zijn gekomen, worden nog steeds als aanspreekbare profielen geteld.
 * Als profielen tijdens een gepauzeerde rit staan, worden de profielkenmerken tijdens het hervatten vernieuwd
 * Voorwaarden worden nog steeds uitgevoerd tijdens gepauzeerde reizen, dus als een reis is gepauzeerd vanwege problemen met de gegevenskwaliteit, kan elke voorwaarde voorafgaand aan een actieknooppunt worden geëvalueerd met onjuiste gegevens.
 * Voor de incrementele op het publiek gebaseerde leestreis wordt rekening gehouden met de gepauzeerde duur. Als de reis bijvoorbeeld op de tweede dag werd gepauzeerd en op de vijfde van de maand werd hervat, zal de 6de reis alle profielen nemen die van de eerste tot en met de zesde zijn gekwalificeerd. Dit is niet het geval voor publiekskwalificatie of op gebeurtenis-gebaseerde reizen (als een publiekskwalificatie of een gebeurtenis tijdens een pauze worden ontvangen, worden die gebeurtenissen verworpen).
 * Gepauzeerde ritten worden meegeteld in de quota voor rechtstreekse reizen.
 * De wereldwijde time-out van de reis geldt nog steeds voor gepauzeerde reizen. Als een profiel bijvoorbeeld 90 dagen op reis was en de reis wordt gepauzeerd, zal dit profiel de reis op de 91ste dag nog steeds verlaten.
-* Een nieuwe **Hervatten** reisstatus is beschikbaar wanneer een reis wordt hervat. Het begint opnieuw aan reisgebeurtenissen te luisteren wanneer u **klikt hervat**.  Er is enige vertraging bij de hervatting van profielen in de reis. Wanneer de reis van **het Hervatten** aan **Levend** gaat, betekent het dat alle profielen zijn hervat. **het Hervatten** kan daarom wat tijd vergen.
-* Als profielen op reis worden gehouden en deze reis automatisch na XX dagen wordt hervat, worden profielen doorgevoerd en niet weggelaten. Als u hen wilt laten vallen, moet u de reis manueel hervatten.
+* Als profielen op reis worden gehouden en deze reis na een paar dagen automatisch wordt hervat, blijven profielen de reis voortzetten en niet vallen. Als je ze wilt laten vallen, moet je de reis stoppen.
   <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
 
 ## Hoe een reis pauzeren {#journey-pause-steps}
@@ -70,8 +69,8 @@ Voer de volgende stappen uit om uw reis te pauzeren:
 
    U kunt:
 
-   * Profielen vasthouden
-   * Profielen negeren
+   * Profielen bewaren - Profielen wachten tot de reis is hervat
+   * Profielen negeren - Profielen worden uitgesloten van de rit op het volgende actieknooppunt
 
 1. Klik de **knoop van de Pauze** om te bevestigen.
 
@@ -81,10 +80,12 @@ Een reis kan maximaal 14 dagen worden onderbroken.
 
 Gepauzeerde reizen kunnen op elk gewenst moment handmatig worden hervat.
 
-Ga als volgt te werk om een rit te hervatten:
+Voer de volgende stappen uit om de pauze van de reis te beëindigen en opnieuw te luisteren naar de gebeurtenissen van de reis:
 
 1. Open de reis die u wilt hervatten.
 1. Klik op **...Meer** knoop op de hoger-juiste sectie van het wegcanvas, en selecteer **Hervatten**.
+
+   De reisschakelaars aan de **Herhalende** status. De overgang van het **Hervatten** aan **Levende** status kan wat tijd vergen: alle profielen moeten voor de reis worden hervat om **Levend** opnieuw te zijn.
 
 
 
