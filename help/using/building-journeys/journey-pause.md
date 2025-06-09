@@ -10,16 +10,16 @@ hide: true
 hidefromtoc: true
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: publiceren, reizen, live, geldigheid, controle
-source-git-commit: 341f818d84264e3cb57563466866fdf43ebc401c
+source-git-commit: 3f00e7efd58fec09187be7d31199139b753dfcc2
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
 
 # Een reis pauzeren {#journey-pause}
 
-U kunt uw live reizen pauzeren, alle benodigde wijzigingen uitvoeren en deze op elk gewenst moment hervatten. Een reis kan maximaal 14 dagen worden onderbroken. <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> De reis wordt automatisch hervat aan het eind van de pauzeperiode. U kunt het [ ook manueel hervatten ](#journey-resume-steps).
+U kunt uw live reizen pauzeren, alle benodigde wijzigingen uitvoeren en deze op elk gewenst moment hervatten. <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> De reis wordt automatisch hervat aan het eind van de pauzeperiode. U kunt het [ ook manueel hervatten ](#journey-resume-steps).
 
 
 >[!AVAILABILITY]
@@ -74,13 +74,11 @@ Voer de volgende stappen uit om uw reis te pauzeren:
 
 1. Klik de **knoop van de Pauze** om te bevestigen.
 
-Een reis kan maximaal 14 dagen worden onderbroken.
-
 ## Hoe te om een gepauzeerde reis te hervatten {#journey-resume-steps}
 
-Gepauzeerde reizen kunnen op elk gewenst moment handmatig worden hervat.
+Gepauzeerde reizen worden automatisch hervat aan het einde van de maximale pauzeduur van 14 dagen. Ze kunnen op elk gewenst moment handmatig worden hervat.
 
-Voer de volgende stappen uit om de pauze van de reis te beëindigen en opnieuw te luisteren naar de gebeurtenissen van de reis:
+Ga als volgt te werk om een gepauzeerde reis te hervatten en opnieuw te luisteren naar de gebeurtenissen van de reis:
 
 1. Open de reis die u wilt hervatten.
 1. Klik op **...Meer** knoop op de hoger-juiste sectie van het wegcanvas, en selecteer **Hervatten**.
