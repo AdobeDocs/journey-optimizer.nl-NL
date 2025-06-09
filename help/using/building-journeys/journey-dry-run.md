@@ -11,7 +11,7 @@ hidefromtoc: true
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: publiceren, reizen, live, geldigheid, controle
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: cd85b58350b4f8829aa1bc925c151be9b061b170
+source-git-commit: 318733edf55c7a9b067f4456bda657aecdb613cf
 workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 0%
@@ -113,4 +113,4 @@ U kunt tot de **Laatste rapporten van 24 uren** en **Al-tijdrapporten** voor de 
 
 Droge ritten moeten handmatig worden stopgezet. Klik de **Dichte** knoop om de test te beëindigen, en te bevestigen.
 
-Na 14 dagen wordt bij Droge ritten automatisch de status Concept gebruikt.
+Na 14 dagen, de looppas van de Droging automatisch overgang naar de **status van het Ontwerp**.
