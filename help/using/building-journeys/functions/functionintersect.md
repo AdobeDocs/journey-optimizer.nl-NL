@@ -7,7 +7,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: intersect, function, expression, trip
 exl-id: e236efa9-91a8-4f08-94c6-45f1e060bb2f
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 49c3fd09d23e6394b6eff8ba4da71ed7bab8c82c
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 8%
@@ -42,7 +42,7 @@ Lijst
 `intersect(listDateTimeOnly,listDateTimeOnly)`: listDateTimeOnly
 `intersect(listDateOnly,listDateOnly)`: listDateOnly
 `intersect(listDuration,listDuration)`: listDuration
-`intersect(listBoolean,listBoolean)`: listBoolean
+`intersect(listBoolean,listBoolean)` : listBoolean
 
 Retourneert een lijst.
 
@@ -55,12 +55,12 @@ intersect(
 )
 ```
 
-Retourneert [&quot;sport&quot;, &quot;nieuws&quot;]
+Keert [ &quot;sport&quot;terug, &quot;nieuws&quot;]
 
 ```json
 intersect(
     #{ExperienceDataPlatform.profile.interests},
-    ["sports", "news", "documentary"]
+    ["sports", "documentary"]
 )
 ```
 
