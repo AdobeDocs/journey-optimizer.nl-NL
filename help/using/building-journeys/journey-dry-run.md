@@ -11,7 +11,7 @@ hidefromtoc: true
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: publiceren, reizen, live, geldigheid, controle
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: c9f9ee8734184a734cdf6e5af88fa5a05b49a8de
+source-git-commit: 140720d72b57ec32250dee01b8c282b8ce871fc5
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 0%
@@ -81,7 +81,7 @@ Voer de volgende stappen uit om de droog-uitvoering te activeren:
 
    ![ Begin de reis droge looppas ](assets/dry-run-button.png)
 
-1. De publicatie bevestigen
+1. Bevestig de publicatie.
 
    Een statusbericht, **Activerend Dry looppas**, verschijnt terwijl de overgang gebeurt.
 
