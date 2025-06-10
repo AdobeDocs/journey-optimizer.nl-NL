@@ -10,17 +10,16 @@ hide: true
 hidefromtoc: true
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: publiceren, reizen, live, geldigheid, controle
-source-git-commit: bb881f0257408ad70f3737c24d1caa28deea96e0
+source-git-commit: 0de7e1befa73cec2758be30caa28c93a2bf45b90
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
 
 # Een reis pauzeren {#journey-pause}
 
-U kunt uw live reizen pauzeren, alle benodigde wijzigingen uitvoeren en deze op elk gewenst moment hervatten. <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> De reis wordt automatisch hervat aan het eind van de pauzeperiode. U kunt het [ ook manueel hervatten ](#journey-resume-steps).
-
+U kunt uw live reizen pauzeren, alle benodigde wijzigingen uitvoeren en deze op elk gewenst moment hervatten.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> tijdens de pauze, kunt u [ globale filters ](#journey-global-filters) toepassen om profielen uit te sluiten die op hun attributen worden gebaseerd. De reis wordt automatisch hervat aan het einde van de pauze. U kunt het [ ook manueel hervatten ](#journey-resume-steps).
 
 >[!AVAILABILITY]
 >
@@ -54,14 +53,14 @@ Dit vermogen vermindert het risico om onbedoelde berichten tijdens fouten of upd
 
 ## Hoe een reis pauzeren {#journey-pause-steps}
 
-U kunt elke live reis pauzeren.
+U kunt om het even welke **Levende** reis pauzeren.
 
 Voer de volgende stappen uit om uw reis te pauzeren:
 
 1. Open de reis die u wilt pauzeren.
 1. Klik op **...Meer** knoop op de hoger-juiste sectie van het wegcanvas, en selecteer **Pauzeren**.
 
-   ![ Pauzeer de reisknoop ](assets/pause-journey-button.png)
+   ![ Pauzeer de reisknoop ](assets/pause-journey-button.png){width="80%" align="left"}
 
 1. Selecteer hoe u profielen wilt beheren die zich momenteel op de reis bevinden.
 
@@ -74,6 +73,11 @@ Voer de volgende stappen uit om uw reis te pauzeren:
 
 1. Klik de **knoop van de Pauze** om te bevestigen.
 
+Van de lijst van uw reizen, kunt u één of verscheidene **Levende** reizen pauzeren. Om een groep reizen (_bulkpauze_) te pauzeren, hen in de lijst te selecteren en de **knoop van de Pauze** in de blauwe bar bij de bodem van het scherm te klikken. De **knoop van de Pauze** is slechts beschikbaar wanneer **Levende** reizen worden geselecteerd.
+
+![ Bulk pauzeert twee levende reizen van de bodembar ](assets/bulk-pause-journeys.png){width="80%" align="left"}
+
+
 ## Hoe te om een gepauzeerde reis te hervatten {#journey-resume-steps}
 
 Gepauzeerde reizen worden automatisch hervat aan het einde van de maximale pauzeduur van 14 dagen. Ze kunnen op elk gewenst moment handmatig worden hervat.
@@ -85,6 +89,35 @@ Ga als volgt te werk om een gepauzeerde reis te hervatten en opnieuw te luistere
 
    De reisschakelaars aan de **Herhalende** status. De overgang van het **Hervatten** aan **Levende** status kan wat tijd vergen: alle profielen moeten voor de reis worden hervat om **Levend** opnieuw te zijn.
 
+1. Klik op de knop **Hervatten** om te bevestigen.
 
 
+Van de lijst van uw reizen, kunt u één of verscheidene **Gepauzeerde** reizen hervatten. Om een groep ritten (_bulksgewijs hervat_) te hervatten, hen te selecteren en de **hervat** knoop te klikken die in de blauwe bar bij de bodem van het scherm wordt gevestigd. Gelieve te merken op dat de **Hervatten** knoop slechts beschikbaar zal zijn wanneer **Gepauzeerde** reizen worden geselecteerd.
 
+
+## Een algemeen filter toepassen op profielen in een gepauzeerde reis  {#journey-global-filters}
+
+Wanneer een reis wordt gepauzeerd, kunt u een globaal filter toepassen dat op profielattributen wordt gebaseerd. Met dit filter kunt u profielen uitsluiten die overeenkomen met de gedefinieerde expressie tijdens het hervatten. Profielen die voldoen aan de criteria die momenteel op de reis staan, worden afgesloten en nieuwe profielen die proberen binnen te komen, worden geblokkeerd.
+
+Als u bijvoorbeeld alle Franse klanten wilt uitsluiten van de marketingcommunicatie naar Frankrijk, voert u de volgende stappen uit:
+
+
+1. Blader naar de gepauzeerde reis die u wilt wijzigen.
+
+1. Klik op de **criteria van de Uitgang &amp; Globale filter** pictogram.
+
+1. Definieer een filter op basis van profielkenmerken in de algemene filterinstellingen.
+
+1. Stel de expressie in om profielen uit te sluiten als het kenmerk country gelijk is aan Frankrijk.
+
+1. Hervat de reis.
+
+   Op het moment van hervatting worden alle profielen met het landkenmerk dat aan Frankrijk is toegekend, automatisch van de reis uitgesloten. Alle nieuwe profielen met het kenmerk country die aan Frankrijk zijn toegekend om de reis te maken, worden geblokkeerd.
+
+Houd er rekening mee dat profieluitsluitingen voor profielen die momenteel op reis zijn en voor nieuwe profielen alleen worden uitgevoerd wanneer ze een actieknooppunt bereiken.
+
+>[!CAUTION]
+>
+>* U kunt **slechts één** globale filter per reis plaatsen.
+>
+>* U kunt slechts tot stand brengen, bijwerken of een globaal filter in **Gepauzeerde** reizen schrappen.
