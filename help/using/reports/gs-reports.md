@@ -5,14 +5,14 @@ title: Stel begonnen met het melden van en controlemogelijkheden in  [!DNL Adobe
 description: Leer hoe te met  [!DNL Adobe Journey Optimizer]  het melden en controlemogelijkheden te werken.
 role: User
 level: Beginner
-source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
+source-git-commit: 8c391d7437798df4f40baa65003e16a8c56228ab
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '387'
 ht-degree: 1%
 
 ---
 
-# Aan de slag met rapportage- en monitoringmogelijkheden {#get-started-report}
+# Aan de slag met rapportagemogelijkheden {#get-started-report}
 
 Adobe Journey Optimizer biedt u aansprekende inzichten door zijn robuuste rapporteringsmogelijkheden. Er zijn rapporten beschikbaar voor campagnes, reizen, landingspagina&#39;s, abonnementlijsten en meer. De beschikbare rapporten worden hieronder vermeld.
 
@@ -102,6 +102,7 @@ Nu u inzicht hebt in de typen rapporten in **[!DNL Journey Optimizer]**, is het 
 
 ## Alle tijdrapporten per kanaal
 
+### Uitgaande kanalen
 
 Selecteer een uitgaand kanaal om bijbehorende globale rapporten te ontdekken.
 
@@ -116,6 +117,7 @@ Selecteer een uitgaand kanaal om bijbehorende globale rapporten te ontdekken.
 <div align="center"><a href="campaign-global-report-cja-direct.md"><strong>Direct mail</strong></a></div></td>
 </tr></table>
 
+### Binnenkomende ervaringen
 
 Selecteer een binnenkomende ervaring om bijbehorende globale rapporten te ontdekken.
 
