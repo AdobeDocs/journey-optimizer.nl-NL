@@ -5,10 +5,10 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2397612142da8b7bebebcc3a99b4fedfa453b9c0
+source-git-commit: dd1a9b6e14617014756e5b4449578a1f7bf805b4
 workflow-type: tm+mt
 source-wordcount: '2423'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
@@ -182,7 +182,7 @@ ht-degree: 20%
    + [Georkestreerde campagnes openen en beheren](using/orchestrated/access-manage-orchestrated-campaigns.md)
    + Start uw eerste georkestreerde campagne{#launch}
       + [Belangrijke stappen voor het maken van georkestreerde campagnes](using/orchestrated/gs-campaign-creation.md)
-      + [De campagne maken en configureren](using/orchestrated/create-orchestrated-campaign.md)
+      + [De campagne maken en plannen](using/orchestrated/create-orchestrated-campaign.md)
       + [Orchestraten](using/orchestrated/orchestrate-activities.md)
       + [Berichten verzenden met georkestreerde campagnes](using/orchestrated/send-messages.md)
       + [De campagne starten en controleren](using/orchestrated/start-monitor-campaigns.md)
@@ -190,7 +190,7 @@ ht-degree: 20%
    + De database opvragen {#query-database}
       + [ Werk met de regelbouwer ](using/orchestrated/orchestrated-rule-builder.md)
       + [ bouwt uw eerste regel ](using/orchestrated/build-query.md)
-      + [ geef uitdrukkingen  uit](using/orchestrated/edit-expressions.md)
+      + [ geef uitdrukkingen ](using/orchestrated/edit-expressions.md) uit
    + Gecontroleerde campagnes {#design-campaigns}
       + [Aan de slag met activiteiten](using/orchestrated/activities/about-activities.md)
       + [En-join](using/orchestrated/activities/and-join.md)
@@ -361,7 +361,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
          + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [ gegevens van Adobe Experience Platform van het Gebruik voor verpersoonlijking (Beta) ](using/personalization/lookup-aep-data.md)
@@ -698,7 +698,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
             + [API voor besluitvorming](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [Edge-API voor besluitvorming](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [Batchbeslissing-API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-+ Gegevensbeheer {#data-management}
++ Data management {#data-management}
    + [Aan de slag met gegevensbeheer](using/data/gs-data.md)
    + [Werken met schema&#39;s](using/data/get-started-schemas.md)
    + Journey Optimizer-gegevenssets {#datasets}
@@ -706,7 +706,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
    + [Uw kanalen configureren](using/configuration/get-started-configuration.md)
