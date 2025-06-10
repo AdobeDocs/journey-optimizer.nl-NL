@@ -9,21 +9,22 @@ role: Admin
 level: Intermediate
 keywords: configuratie, reis, dashboard, gegevensbronnen, gebeurtenissen, acties
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: 65b7b8323e37a0143a3941af1b9c2fb8b595a376
+source-git-commit: 9eda5416ba72fae390fc7eca6d9a3c699cedde50
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 29%
+source-wordcount: '519'
+ht-degree: 25%
 
 ---
 
-# Gegevensbronnen, gebeurtenissen en handelingen configureren {#configure-journeys}
+# Aan de slag met de configuratie van reizen {#configure-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_configuration_dashboard"
 >title="Informatie over reisconfiguratie"
->abstract="Om berichten met reizen te verzenden, moet u Gegevensbronnen, Gebeurtenissen en Acties vormen. Met behulp van gegevensbronnen kunt u een verbinding met een systeem definiëren om aanvullende informatie op te halen die tijdens uw reizen wordt gebruikt, bijvoorbeeld onder uw omstandigheden. Met gebeurtenissen kunt u uw reizen starten wanneer een gebeurtenis wordt ontvangen. Met aangepaste acties kunt u verbinding maken met een systeem van derden om uw berichten te verzenden. Als u ingebouwde berichtmogelijkheden van Journey Optimizer gebruikt, hoeft u geen actie te configureren."
+>abstract="Om berichten met reizen te verzenden, is het noodzakelijk om Gegevensbronnen, Gebeurtenissen, en Acties te vormen. De bronnen van gegevens laten u toe om een verbinding aan een systeem te vestigen om extra informatie terug te winnen die in uw reizen, zoals in voorwaarden zal worden gebruikt. Gebeurtenissen maken het mogelijk dat uw reizen worden geïnitieerd wanneer een gebeurtenis wordt ontvangen. Met Aangepaste acties kunt u gemakkelijker verbinding maken met een systeem van derden om uw berichten te verzenden. Als u ingebouwde communicatiemogelijkheden van Journey Optimizer gebruikt, is het configureren van een handeling niet vereist."
 
-Voor het verzenden van berichten met ritten is het nodig **[!UICONTROL Data Sources]** , **[!UICONTROL Events]** en **[!UICONTROL Actions]** te configureren.
+Voor het verzenden van berichten met ritten moet u **[!UICONTROL Data Sources]** , **[!UICONTROL Events]** en **[!UICONTROL Actions]** configureren. De bronnen van gegevens laten u toe om een verbinding aan een systeem te vestigen om extra informatie terug te winnen die in uw reizen, zoals in voorwaarden zal worden gebruikt. Gebeurtenissen maken het mogelijk dat uw reizen worden geïnitieerd wanneer een gebeurtenis wordt ontvangen. Met Aangepaste acties kunt u gemakkelijker verbinding maken met een systeem van derden om uw berichten te verzenden. Als u ingebouwde communicatiemogelijkheden van Journey Optimizer gebruikt, is het configureren van een handeling niet vereist.
+
 
 ![](assets/admin-menu.png)
 
@@ -47,7 +48,7 @@ Journey Optimizer-berichtmogelijkheden zijn ingebouwd: u hoeft alleen een kanaal
 
 Bij het definiëren van een [gebeurtenispayload](../event/about-creating.md#define-the-payload-fields), een [veldengroep-payload](../datasource/configure-data-sources.md#define-field-groups) en het selecteren van velden in de [expressie-editor](../building-journeys/expression/expressionadvanced.md) wordt naast de veldnaam ook de weergavenaam weergegeven. Deze informatie wordt opgehaald uit de schemadefinitie in het Gegevenservaringmodel.
 
-Als er beschrijvingen als xdm:alternateDisplayInfo worden opgegeven tijdens het instellen van schema’s, worden de weergavenamen vervangen door de gebruikersvriendelijke namen. Dit is vooral handig wanneer u werkt met &quot;eVars&quot; en algemene velden. U kunt beschrijvers van vriendschappelijke namen via een API vraag vormen. Zie de [ontwikkelaarshandleiding voor schemaregistratie](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=nl-NL){target="_blank"} voor meer informatie.
+Als er beschrijvingen als xdm:alternateDisplayInfo worden opgegeven tijdens het instellen van schema’s, worden de weergavenamen vervangen door de gebruikersvriendelijke namen. Dit is vooral handig wanneer u werkt met &quot;eVars&quot; en algemene velden. U kunt beschrijvers van vriendschappelijke namen via een API vraag vormen. Zie de [ontwikkelaarshandleiding voor schemaregistratie](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html){target="_blank"} voor meer informatie.
 
 ![](assets/xdm-from-descriptors.png)
 
