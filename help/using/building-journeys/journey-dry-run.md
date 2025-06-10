@@ -11,9 +11,9 @@ hidefromtoc: true
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: publiceren, reizen, live, geldigheid, controle
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: bb881f0257408ad70f3737c24d1caa28deea96e0
+source-git-commit: c9f9ee8734184a734cdf6e5af88fa5a05b49a8de
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -123,6 +123,6 @@ U kunt tot de **Laatste rapporten van 24 uren** en **Al-tijdrapporten** voor de 
 
 De droge looppas reizen **moeten** manueel worden tegengehouden.
 
-Klik de **Dichte** knoop om de test te beëindigen, en te bevestigen.
+Klik de **Dichte** knoop om de test te beëindigen, en klik **terug naar Ontwerp** om te bevestigen.
 
 <!-- After 14 days, Dry run journeys automatically transition to the **Draft** status.-->

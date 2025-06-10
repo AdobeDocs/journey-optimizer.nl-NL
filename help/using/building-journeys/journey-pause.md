@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: publiceren, reizen, live, geldigheid, controle
-source-git-commit: 0de7e1befa73cec2758be30caa28c93a2bf45b90
+source-git-commit: c9f9ee8734184a734cdf6e5af88fa5a05b49a8de
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -68,8 +68,8 @@ Voer de volgende stappen uit om uw reis te pauzeren:
 
    U kunt:
 
-   * Profielen bewaren - Profielen wachten tot de reis is hervat
-   * Profielen negeren - Profielen worden uitgesloten van de rit op het volgende actieknooppunt
+   * **Greep** profielen - de Profielen zullen op de reis wachten om worden hervat
+   * **verwerpt** profielen - de Profielen zullen van de reis op de volgende actieknooppunt worden uitgesloten
 
 1. Klik de **knoop van de Pauze** om te bevestigen.
 
@@ -101,16 +101,21 @@ Wanneer een reis wordt gepauzeerd, kunt u een globaal filter toepassen dat op pr
 
 Als u bijvoorbeeld alle Franse klanten wilt uitsluiten van de marketingcommunicatie naar Frankrijk, voert u de volgende stappen uit:
 
-
 1. Blader naar de gepauzeerde reis die u wilt wijzigen.
 
 1. Klik op de **criteria van de Uitgang &amp; Globale filter** pictogram.
 
-1. Definieer een filter op basis van profielkenmerken in de algemene filterinstellingen.
+   ![ voeg een globale filter aan een gepauzeerde reis toe ](assets/add-global-filter.png){width="50%" align="left"}
+
+1. In de **Criteria van de Uitgang &amp; Globale montages van de Filter**, bepaal een filter dat op profielattributen wordt gebaseerd.
 
 1. Stel de expressie in om profielen uit te sluiten als het kenmerk country gelijk is aan Frankrijk.
 
-1. Hervat de reis.
+   ![ voeg een globale filter aan een gepauzeerde reis toe ](assets/add-country-filter.png){width="50%" align="left"}
+
+1. Sparen uw filter en klik de **reis van de Update** knoop om uw veranderingen toe te passen.
+
+1. [ hervat de reis ](#journey-resume-steps).
 
    Op het moment van hervatting worden alle profielen met het landkenmerk dat aan Frankrijk is toegekend, automatisch van de reis uitgesloten. Alle nieuwe profielen met het kenmerk country die aan Frankrijk zijn toegekend om de reis te maken, worden geblokkeerd.
 
