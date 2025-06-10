@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 2169ab0e42ab2e8890c87e698e937f0341515b1f
+source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
 workflow-type: tm+mt
 source-wordcount: '1351'
 ht-degree: 4%
@@ -19,12 +19,12 @@ ht-degree: 4%
 
 Om tot [!DNL Adobe Journey Optimizer] toegang te hebben, verbind met [ Adobe Experience Cloud ](https://experience.adobe.com) met uw Adobe ID, en selecteer [!DNL Journey Optimizer].
 
-Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=nl-NL#adobe-experience-platform-ui-guide){target="_blank"} voor meer details.
+Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target="_blank"} voor meer details.
 
 
 >[!NOTE]
 >
->* De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [ toestemmingen ](../administration/permissions.md) en van uw [ vergunning gevend pakket ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af. Neem voor alle vragen contact op met de Adobe Customer Success Manager of uw Adobe-vertegenwoordiger.
+>* De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [ toestemmingen ](../administration/permissions.md) en van uw [ vergunning gevend pakket ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af. Neem voor alle vragen contact op met de Adobe Customer Success Manager of uw Adobe-vertegenwoordiger.
 >
 >* Deze documentatie wordt vaak bijgewerkt om de laatste wijzigingen in de gebruikersinterface van het product te weerspiegelen. Sommige schermafbeeldingen kunnen echter enigszins afwijken van uw gebruikersinterface.
 >
@@ -59,8 +59,6 @@ Bouw campagnes en reizen van deze sectie.
 
 * **[!UICONTROL Journeys]** - Maak, configureer en orkestreer uw klantritten: combineer de gebeurtenissen, organisatie en actieactiviteiten om uw meerstapsscenario&#39;s voor meerdere kanalen samen te stellen. [Meer informatie](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Landing pages]** - bestemmingspagina&#39;s maken, ontwerpen, testen en publiceren: verzend uw gebruikers koppelingen naar onlineformulieren waar zij zich kunnen aanmelden of zich kunnen afmelden bij het ontvangen van uw communicatie, of abonneer op specifieke services. [Meer informatie](../landing-pages/get-started-lp.md)
-
 
 ### [!UICONTROL DECISION MANAGEMENT] {#left-nav-decision}
 
@@ -80,6 +78,9 @@ Inhoud van deze sectie maken en beheren.
 
 * **[!UICONTROL Fragments]** - Fragmenten maken en beheren om het ontwerpen van e-mail soepel te laten verlopen: maak vooraf aangepaste inhoudsblokken die kunnen worden gebruikt om e-mailinhoud snel samen te stellen. [Meer informatie](../content-management/fragments.md)
 
+* **[!UICONTROL Landing pages]** - bestemmingspagina&#39;s maken, ontwerpen, testen en publiceren: verzend uw gebruikers koppelingen naar onlineformulieren waar zij zich kunnen aanmelden of zich kunnen afmelden bij het ontvangen van uw communicatie, of abonneer op specifieke services. [Meer informatie](../landing-pages/get-started-lp.md)
+
+
 ### [!UICONTROL DATA MANAGEMENT] {#left-nav-data}
 
 Uw gegevens in deze sectie beheren.
@@ -90,7 +91,7 @@ Uw gegevens in deze sectie beheren.
 
 * **[!UICONTROL Queries]** - Gebruik Adobe Experience Platform Query Service om query&#39;s te schrijven en uit te voeren, eerder uitgevoerde query&#39;s weer te geven en toegang te krijgen tot query&#39;s die zijn opgeslagen door gebruikers binnen uw organisatie. [Meer informatie](../data/get-started-queries.md)
 
-* **[!UICONTROL Monitoring]** - Gebruik dit menu om de gegevensinvoer in de gebruikersinterface van Adobe Experience Platform te controleren. Leer meer in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=nl-NL){target="_blank"}
+* **[!UICONTROL Monitoring]** - Gebruik dit menu om de gegevensinvoer in de gebruikersinterface van Adobe Experience Platform te controleren. Leer meer in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html){target="_blank"}
 
 ### [!UICONTROL CONNECTIONS] {#left-nav-connections}
 

@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9eda5416ba72fae390fc7eca6d9a3c699cedde50
+source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2432'
 ht-degree: 20%
 
 ---
@@ -190,7 +190,7 @@ ht-degree: 20%
    + De database opvragen {#query-database}
       + [ Werk met de regelbouwer ](using/orchestrated/orchestrated-rule-builder.md)
       + [ bouwt uw eerste regel ](using/orchestrated/build-query.md)
-      + [ geef uitdrukkingen  uit](using/orchestrated/edit-expressions.md)
+      + [ geef uitdrukkingen ](using/orchestrated/edit-expressions.md) uit
    + Gecontroleerde campagnes {#design-campaigns}
       + [Aan de slag met activiteiten](using/orchestrated/activities/about-activities.md)
       + [En-join](using/orchestrated/activities/and-join.md)
@@ -361,7 +361,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
          + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [ gegevens van Adobe Experience Platform van het Gebruik voor verpersoonlijking (Beta) ](using/personalization/lookup-aep-data.md)
@@ -447,7 +447,8 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Werken met berekende kenmerken](using/audience/computed-attributes.md)
    + [Identiteiten](using/audience/get-started-identity.md)
    + [Licentiegebruik](using/audience/license-usage.md)
-+ Track &amp; monitor {#reporting}
++ Rapportage en bewaking {#reporting}
+   + [Aan de slag met rapportage en controle](using/reports/gs-reports.md)
    + Live-rapport {#live-report}
       + [Aan de slag met Live-rapport](using/reports/live-report.md)
       + [Lijst met meetwaarden](using/reports/live-report-components.md)
@@ -485,7 +486,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Overzichtsrapport](using/reports/channel-report-cja.md)
       + [Rapport van bestemmingspagina](using/reports/lp-report-global-cja.md)
       + [Abonnementenlijstrapport](using/reports/subscription-report-global-cja.md)
-   + Reisrapporten {#reports}
+   + Aangepaste reisrapporten {#reports}
       + [Trainingsrapporten maken](using/reports/sharing-overview.md)
       + [Lijst met gebeurtenisvelden voor stappen](using/reports/sharing-field-list.md)
       + Gebeurtenisvelden voor oudere stappen {#legacy-step-event-fields}
@@ -706,7 +707,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
    + [Aan de slag met kanaalconfiguratie](using/configuration/get-started-configuration.md)

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 0%
@@ -17,8 +17,7 @@ ht-degree: 0%
 
 # Aan de slag met Live-rapport {#live-report}
 
-Met de **[!UICONTROL Live report]** kunt u de impact en prestaties van uw reizen en uw berichten in een ingebouwd dashboard in real-time meten en visualiseren.
-Gegevens zijn beschikbaar in de **[!UICONTROL Live report]** zodra uw levering is verzonden of uw reis wordt uitgevoerd via het tabblad **[!UICONTROL Last 24hrs]** .
+Met de **[!UICONTROL Live report]** kunt u de impact en prestaties van uw reizen en uw berichten in een ingebouwd dashboard in real-time meten en visualiseren. Gegevens zijn beschikbaar in de **[!UICONTROL Live report]** zodra uw levering is verzonden of uw reis wordt uitgevoerd via het tabblad **[!UICONTROL Last 24hrs]** .
 
 * Als u een reis in de context van een reis wilt richten, van het **[!UICONTROL Journeys]** menu, toegang uw reis **[!UICONTROL More actions]** menu en klik de **[!UICONTROL View last 24hrs report]** knoop.
 
@@ -64,7 +63,7 @@ Uw dashboard wordt nu opgeslagen. Uw verschillende wijzigingen worden opnieuw to
 
 ## Uw rapporten exporteren {#export-reports}
 
-U kunt uw verschillende rapporten eenvoudig exporteren naar de indelingen PDF of CSV, zodat u deze kunt delen of afdrukken.
+U kunt uw verschillende rapporten eenvoudig exporteren naar PDF- of CSV-indelingen, zodat u deze kunt delen of afdrukken.
 
 >[!BEGINTABS]
 
@@ -76,7 +75,7 @@ U kunt uw verschillende rapporten eenvoudig exporteren naar de indelingen PDF of
 
 1. Configureer het document in het venster Afdrukken naar wens. Welke opties beschikbaar zijn, is afhankelijk van de browser.
 
-1. Kies of u het rapport wilt afdrukken of opslaan als PDF.
+1. Kies of je het rapport wilt afdrukken of opslaan als PDF.
 
 1. Zoek de map waarin u het bestand wilt opslaan, geef het bestand een andere naam als dat nodig is en klik op Opslaan.
 
