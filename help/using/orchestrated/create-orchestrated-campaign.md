@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 6574735581de0872e78e8e05efea5c6a50dc59b1
+source-git-commit: 935ab0399da88c792104b7dc14793b69713951fc
 workflow-type: tm+mt
-source-wordcount: '1668'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 | Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
 |---|---|---|---|
-| [ wordt begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](configuration-steps.md)<br/><br/>[ Toegang en beheert georkestreerde camapens ](access-manage-orchestrated-campaigns.md) | [ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](gs-campaign-creation.md)<br/><br/><b>[ creëren en vormen de campagne ](create-orchestrated-campaign.md)</b><br/><br/>[ activiteiten van het Orchestrate ](orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](send-messages.md)<br/><br/>[ Begin en controleren de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uitdrukkingen ](edit-expressions.md) uit | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ combineert ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) - [ Fork ](activities/fork.md) opnieuw verzoening [&#128279;](activities/reconciliation.md) - [ Gesplitst ](activities/split.md) - [ wacht ](activities/wait.md) |
+| [ wordt begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](configuration-steps.md)<br/><br/>[ Toegang en beheert georkestreerde camapens ](access-manage-orchestrated-campaigns.md) | [ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](gs-campaign-creation.md)<br/><br/><b>[ creëren en vormen de campagne ](create-orchestrated-campaign.md)</b><br/><br/>[ activiteiten van het Orchestrate ](orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](send-messages.md)<br/><br/>[ Begin en controleren de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uitdrukkingen ](edit-expressions.md) uit | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ combineert ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) - [ Fork ](activities/fork.md) opnieuw verzoening ](activities/reconciliation.md) - [ Gesplitst ](activities/split.md) - [ wacht ](activities/wait.md)[ |
 
 {style="table-layout:fixed"}
 
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 Voer de volgende stappen uit om een georkestreerde campagne te maken:
 
-1. Om a **georkestreerde campagne** tot stand te brengen, doorblader aan het **Campagnes** menu.
+1. Blader naar het **menu van Campagnes**.
 
 1. Klik op de knop **[!UICONTROL Create orchestrated campaign]** in de rechterbovenhoek van het scherm.
 
-1. In de georkestreerde dialoog van campagneeigenschappen **&#x200B;**, selecteer het malplaatje te gebruiken om de georkestreerde campagne tot stand te brengen (u kunt het gebrek ingebouwde malplaatje ook gebruiken). [ Leer meer over georkestreerde campagnemalplaatjes ](#campaign-templates).
+1. In de georkestreerde dialoog van campagneeigenschappen ****, selecteer het malplaatje te gebruiken om de georkestreerde campagne tot stand te brengen (u kunt het gebrek ingebouwde malplaatje ook gebruiken). [ Leer meer over georkestreerde campagnemalplaatjes ](#campaign-templates).
 
 1. Voer een label in voor de georkestreerde campagne. Daarnaast raden we u ten zeerste aan een beschrijving toe te voegen aan uw georkestreerde campagne, in het speciale veld van de sectie **[!UICONTROL Additional options]** van het scherm.
 
