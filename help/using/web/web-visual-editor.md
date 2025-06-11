@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 98e99978-8538-40b4-92ac-7184864017eb
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 1%
@@ -20,13 +20,13 @@ ht-degree: 1%
 >id="ajo_web_url_to_edit_surface"
 >title="Confirm the URL to edit"
 >abstract="Confirm the URL of the specific web page to use for editing the content that will be applied on the web configuration defined above. The web page must be implemented using the Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=nl-NL" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="Enter the URL to edit"
 >abstract="Enter the URL of a specific web page to use for editing the content that will be applied to all pages matching the rule. The web page must be implemented using Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=nl-NL" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 -->
 
 In [!DNL Journey Optimizer], wordt het visuele Web authoring aangedreven door de **Adobe Experience Cloud Visual Helper** browser uitbreiding van Chrome. [Meer informatie](web-prerequisites.md#visual-authoring-prerequisites)
@@ -41,7 +41,7 @@ Voer de onderstaande stappen uit om uw webervaring te gaan ontwerpen met de visu
 
 >[!CAUTION]
 >
->[ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=nl-NL){target="_blank"} moet in uw Web-pagina worden omvat. [Meer informatie](web-prerequisites.md#implementation-prerequisites)
+>[ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"} moet in uw Web-pagina worden omvat. [Meer informatie](web-prerequisites.md#implementation-prerequisites)
 
 1. Klik in het **[!UICONTROL Edit content]** -scherm op **[!UICONTROL Edit web page]** om de webontwerper te openen.
 
@@ -73,7 +73,7 @@ Voer de onderstaande stappen uit om uw webervaring te gaan ontwerpen met de visu
 
 >[!NOTE]
 >
->De webinhoudontwerper is meestal vergelijkbaar met de e-mailontwerper. Leer meer over [ het ontwerpen van inhoud met  [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>De ontwerper van webinhoud is meestal vergelijkbaar met de e-mail-Designer. Leer meer over [ het ontwerpen van inhoud met  [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 
 Nadat u de webinhoud hebt bewerkt, kunt u uw wijzigingen beheren. [Meer informatie](manage-web-modifications.md)
 
@@ -89,8 +89,8 @@ Nadat u de webinhoud hebt bewerkt, kunt u uw wijzigingen beheren. [Meer informat
    * [Scheidingslijn](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
    * [Afbeelding](../email/content-components.md#image)
-   * Kop - Het gebruik van deze component is vergelijkbaar met het gebruik van de component **[!UICONTROL Text]** in de e-mailontwerper. [Meer informatie](../email/content-components.md#text)
-   * Alinea - Het gebruik van deze component is vergelijkbaar met het gebruik van de component **[!UICONTROL Text]** in de e-mailontwerper. [Meer informatie](../email/content-components.md#text)
+   * Kop - Het gebruik van deze component is vergelijkbaar met het gebruik van de component **[!UICONTROL Text]** in de Designer-e-mail. [Meer informatie](../email/content-components.md#text)
+   * Alinea - Het gebruik van deze component is vergelijkbaar met het gebruik van de component **[!UICONTROL Text]** in de Designer-e-mail. [Meer informatie](../email/content-components.md#text)
    * Koppeling
 
    ![](assets/web-designer-components.png)
@@ -170,4 +170,4 @@ De mogelijkheid om de apparaatgrootte te wijzigen is ontworpen voor responsieve 
 
 In de onderstaande video ziet u hoe u een webervaring kunt ontwerpen met de webontwerper in [!DNL Journey Optimizer] -campagnes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452641/?quality=12&learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

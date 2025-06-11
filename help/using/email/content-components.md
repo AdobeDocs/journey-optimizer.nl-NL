@@ -1,15 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Componenten voor inhoud van e-mailontwerpers gebruiken
+title: E-mail Designer-inhoudsonderdelen gebruiken
 description: Leer hoe u inhoudcomponenten in uw e-mails kunt gebruiken
 feature: Email Design
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-keywords: componenten, e-mailontwerper, editor, e-mail
+keywords: componenten, E-mail, Designer, editor, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '1265'
 ht-degree: 1%
@@ -169,7 +169,7 @@ Gebruik de component **[!UICONTROL Image]** om een afbeeldingsbestand van uw com
 
 1. Klik op het tabblad **[!UICONTROL Settings]** op **[!UICONTROL Browse]** om een afbeeldingsbestand te kiezen uit uw elementen of **[!UICONTROL Import media]** om een element te uploaden naar Adobe Experience Manager Assets.
 
-   Meer over [!DNL Adobe Experience Manager Assets] leren, verwijs naar [ documentatie van Adobe Experience Manager Assets ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=nl-NL){target="_blank"} .
+   Meer over [!DNL Adobe Experience Manager Assets] leren, verwijs naar [ documentatie van Adobe Experience Manager Assets ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
    >[!NOTE]
    >

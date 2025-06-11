@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '2032'
 ht-degree: 8%
@@ -77,7 +77,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 </table>
 
 
-Zie ook [ de Nota&#39;s van de Versie van Adobe Experience Platform Oktober ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=nl-NL){target="_blank"}  voor meer veranderingen.
+Zie ook [ de Nota&#39;s van de Versie van Adobe Experience Platform Oktober ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html){target="_blank"} voor meer veranderingen.
 
 ### Verbeteringen
 
@@ -111,9 +111,9 @@ Zie ook [ de Nota&#39;s van de Versie van Adobe Experience Platform Oktober ](ht
 
 ### Oplossingen
 
-* Probleem verholpen waardoor de lijst met reizen, de berichtenlijst en de e-mailontwerper niet konden worden weergegeven als de browsertaal niet Engels was.
-* Probleem verholpen met een syntaxisfout die optrad bij het toevoegen van personalisatie met behulp van een expressie in de e-mailontwerper: tekens zijn ten onrechte beschermd.
-* Vaste een kwestie die tot een fout 404 leidde toen het navigeren in het **1&rbrace; menu van het Beleid.**
+* Probleem verholpen waardoor de lijst met reizen, de berichtenlijst en de e-maillijst van Designer niet konden worden weergegeven als de browsertaal niet Engels was.
+* Probleem verholpen met een syntaxisfout die optrad bij het toevoegen van personalisatie met een expressie in de e-mailtoepassing: tekens zijn ten onrechte beschermd.
+* Vaste een kwestie die tot een fout 404 leidde toen het navigeren in het **1} menu van het Beleid.**
 * Probleem verholpen waarbij andere live reizen werden geïnitieerd tijdens het testen van een reis met behulp van een zakelijke gebeurtenis.
 
 
@@ -162,7 +162,7 @@ Zie ook [ de Nota&#39;s van de Versie van Adobe Experience Platform Oktober ](ht
 **Reizen**
 
 * Systeem produceerde schema&#39;s en datasets die tijdens levering voor stapgebeurtenissen zijn gecreeerd zijn nu op read-only wijze, beschermend tegen om het even welke onbedoelde wijzigingen in kritieke schema&#39;s. [Meer informatie](../reports/sharing-overview.md)
-* Cleanly etiketteer **&#x200B;**&#x200B;activiteit met een etiket wachten dat in het canvas zal worden getoond. Het etiket wordt ook gebruikt in rapportering en testwijzelogboeken om duidelijk te identificeren wat u doet. [Meer informatie](../building-journeys/about-journey-activities.md#best-practices)
+* Cleanly etiketteer **** activiteit met een etiket wachten dat in het canvas zal worden getoond. Het etiket wordt ook gebruikt in rapportering en testwijzelogboeken om duidelijk te identificeren wat u doet. [Meer informatie](../building-journeys/about-journey-activities.md#best-practices)
 * Vind uw gebeurtenissen en acties sneller door elementen in de **Gebeurtenissen** en **categorieën van de Actie** te filtreren gebruikend onderzoek. Orchestratie-activiteiten worden niet meer gefilterd. [Meer informatie](../building-journeys/using-the-journey-designer.md)
 * Wanneer u een gebeurtenis-id-voorwaarde definieert in een op regels gebaseerde of zakelijke gebeurtenis, is de operator &quot;contains&quot; nu beschikbaar voor tekenreekstypen velden. [Meer informatie](../event/about-creating.md)
 
@@ -294,7 +294,7 @@ Zie ook [ de Nota&#39;s van de Versie van Adobe Experience Platform Oktober ](ht
 ### Oplossingen
 
 * Probleem met toegankelijkheid in navigatie op het tabblad Bericht verholpen.
-* Probleem met lokalisatie in de labels van de e-mailontwerper is opgelost.
+* Probleem met lokalisatie in de Designer-labels voor e-mail opgelost.
 * Probleem verholpen bij het selecteren van meerdere knooppunten in een rit en klikken op Verwijderen in het eigenschappenvenster.
 * Probleem verholpen waarbij geen nieuwe koptekst kon worden toegevoegd aan een actie die tijdens een rit werd gebruikt.
 * U kunt nu nagaan waarom het maken van een berichtvoorinstelling is mislukt door een explicietere waarschuwing in de gebruikersinterface.
@@ -365,4 +365,4 @@ Zie ook [ de Nota&#39;s van de Versie van Adobe Experience Platform Oktober ](ht
 * Oplossing voor een probleem waarbij IP-informatie ontbrak in het scherm PTR-records.
 * De lokalisatie in het aanbod van het spoor in de Expression Editor is nu geïmplementeerd.
 * Onjuiste spatiëring in pop-ups met gegevens gecorrigeerd.
-* Probleem verholpen met een probleem in de e-mailontwerper tijdens het uploaden van een HTML-bestand waarbij het interne stijlblad met de eigenschap `background-image` niet werd ondersteund.
+* Probleem verholpen in de E-mail-Designer tijdens het uploaden van een HTML-bestand waarbij interne stijlpagina met de eigenschap `background-image` niet werd ondersteund.

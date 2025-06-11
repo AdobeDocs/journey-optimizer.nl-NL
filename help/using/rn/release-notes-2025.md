@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '2025'
 ht-degree: 8%
@@ -212,7 +212,7 @@ De nieuwe mogelijkheden die bij deze release worden geleverd, worden hieronder w
 <tbody>
 <tr>
 <td>
-<p>De functie voor de uitlijningsscore voor merken biedt duidelijke feedback rechtstreeks in de e-mailontwerper, zodat u kunt zien of uw inhoud wordt uitgelijnd op de toon, stijl en richtlijnen van uw merk. Deze functie is beschikbaar in Beta.</p>
+<p>De functie voor de uitlijningsscore van merken biedt duidelijke feedback rechtstreeks in de e-mailtoepassing, zodat u kunt zien of uw inhoud wordt uitgelijnd op de toon, stijl en richtlijnen van uw merk. Deze functie is beschikbaar in Beta.</p>
 <p>Raadpleeg de <a href="../content-management/brands-score.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
@@ -270,7 +270,7 @@ Er zijn nieuwe API&#39;s beschikbaar voor het weergeven van voorvertoningen van 
 
 * **Gepersonaliseerde URL die** volgen - de datum van Beschikbaarheid: 30 April, 2025
 
-  Voor meer flexibiliteit en controle over uw e-mailinstellingen kunt u nu al uw URL-volgparameters tegelijk aanpassen op het niveau van de configuratie van het e-mailkanaal in plaats van deze te doen in de e-mailontwerper voor elke koppeling in uw inhoud. [Meer informatie](../email/surface-personalization.md#personalize-url-tracking)
+  Voor meer flexibiliteit en meer controle over uw e-mailinstellingen kunt u nu al uw URL-volgparameters tegelijk aanpassen op het niveau van de configuratie van het e-mailkanaal in plaats van deze te gebruiken in de E-mail-Designer voor elke koppeling in uw inhoud. [Meer informatie](../email/surface-personalization.md#personalize-url-tracking)
 
 * **E-mail Designer** - Beschikbaarheidsdatum: 1 April, 2025
 
@@ -477,7 +477,7 @@ Raadpleeg de [gedetailleerde documentatie](../test-approve/approval-policies.md)
 
 **Bedrijfs regels**
 
-U kunt nu dagelijkse aftopping gebruiken in reizen en campagnes met batchsegmentatie. Om ervoor te zorgen dat de regels voor dagelijkse frequentiecapping correct zijn, moet u de naamruimte met de hoogste prioriteit kiezen tijdens het ontwerpen van een campagne of een reis. Leer meer over namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+U kunt nu dagelijkse aftopping gebruiken in reizen en campagnes met batchsegmentatie. Om ervoor te zorgen dat de regels voor dagelijkse frequentiecapping correct zijn, moet u de naamruimte met de hoogste prioriteit kiezen tijdens het ontwerpen van een campagne of een reis. Leer meer over namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
 Ter herinnering: dagelijkse frequentiecapping in regelsets is alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 

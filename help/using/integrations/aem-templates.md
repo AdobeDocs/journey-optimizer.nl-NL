@@ -11,7 +11,7 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 1%
@@ -22,12 +22,12 @@ ht-degree: 1%
 
 ## Aan de slag met Adobe Experience Manager-sjablonen {#gs-aem-templates}
 
-Met Adobe Journey Optimizer kunt u op maat gemaakte berichten maken via Adobe Experience Manager-sites. Begin door uw sjablonen te ontwerpen met gebruik van Adobe Experience Manager-inhoudsbronnen en verzend deze vervolgens naar Adobe Journey Optimizer. Als deze sjablonen eenmaal zijn gedeeld, zijn ze toegankelijk in de Adobe Journey Optimizer e-mailontwerper, waardoor het maken en verzenden van berichten naar het gewenste publiek eenvoudiger wordt.
+Met Adobe Journey Optimizer kunt u op maat gemaakte berichten maken via Adobe Experience Manager-sites. Begin door uw sjablonen te ontwerpen met gebruik van Adobe Experience Manager-inhoudsbronnen en verzend deze vervolgens naar Adobe Journey Optimizer. Als deze sjablonen eenmaal zijn gedeeld, zijn ze toegankelijk in Adobe Journey Optimizer Email Designer, waardoor het maken en verzenden van berichten naar het gewenste publiek eenvoudiger wordt.
 
 >[!AVAILABILITY]
 >
 >Integratie met Adobe Experience Manager is momenteel alleen beschikbaar als een bètaversie om gebruikers te selecteren.
->Als bètagebruiker, gebruik [ deze vorm ](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} om te delen terugkoppelt.
+>>Als bètagebruiker, gebruik [ deze vorm ](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} om te delen terugkoppelt.
 
 
 ### Vereisten {#prerequisites}
@@ -36,7 +36,7 @@ Voordat u begint met het gebruik van deze functie, moet u zich aan de volgende v
 
 * **de montages van Experience Manager**
 
-  Dit vermogen is beschikbaar met [ Adobe Experience Manager as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html?lang=nl-NL){target="_blank"}.
+  Dit vermogen is beschikbaar met [ Adobe Experience Manager as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html){target="_blank"}.
 
   Als onderdeel van het bètaprogramma wordt de Cloud Service-configuratie uitgevoerd door Adobe in Adobe Experience Manager om verbinding te maken met Adobe Journey Optimizer.
 
@@ -62,7 +62,7 @@ Voer de volgende stappen uit om een Adobe Experience Manager-sjabloon naar Adobe
 
    ![](assets/aem-outbound-menu.png)
 
-1. Vanuit uw inhoudsbibliotheek kunt u eerder geconfigureerde sjablonen gebruiken of een geheel nieuwe sjabloon maken. [Meer informatie](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=nl-NL#creating-a-new-page)
+1. Vanuit uw inhoudsbibliotheek kunt u eerder geconfigureerde sjablonen gebruiken of een geheel nieuwe sjabloon maken. [Meer informatie](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
 
 1. Door Journey Optimizer-verpersoonlijkingssyntaxis in uw sjabloon op te nemen, kunt u de aanpassingsmogelijkheden van de toepassing verbeteren. [Meer informatie](../personalization/personalization-syntax.md)
 

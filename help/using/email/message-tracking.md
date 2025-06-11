@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: koppelingen, bijhouden, controleren, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 1%
@@ -26,7 +26,7 @@ U kunt het bijhouden van e-mailberichten inschakelen door de opties **[!UICONTRO
 
 >[!BEGINTABS]
 
->[!TAB laat het volgen in een reis  toe]
+>[!TAB  laat het volgen in een reis ] toe
 
 ![](assets/message-tracking-journey.png)
 
@@ -173,7 +173,7 @@ Het melden van openingen en klikken is beschikbaar in het [ Levende rapport ](..
 
 [ URL het volgen ](email-settings.md#url-tracking) wordt beheerd op het configuratieniveau en is op alle URLs inbegrepen in uw berichtinhoud van toepassing.
 
-U kunt ook [ individuele URLs ](../personalization/personalization-syntax.md#perso-urls) in de e-mailontwerper personaliseren. Volg onderstaande stappen om aangepaste URL-volgparameters toe te voegen aan één koppeling in uw inhoud.
+U kunt ook [ individuele URLs ](../personalization/personalization-syntax.md#perso-urls) in E-mail Designer personaliseren. Volg onderstaande stappen om aangepaste URL-volgparameters toe te voegen aan één koppeling in uw inhoud.
 
 1. Selecteer een koppeling en klik op **[!UICONTROL Insert link]** op de contextuele werkbalk.
 

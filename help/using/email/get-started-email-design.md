@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, ontwerp, voorraad, middelen
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 1%
+source-wordcount: '599'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,7 @@ U kunt bestaande inhoud importeren in [!DNL Journey Optimizer] of de mogelijkhed
 
 * Verbeter de ervaring van klanten door gepersonaliseerde en dynamische berichten te creëren die op hun profielattributen worden gebaseerd. Leer meer over [ verpersoonlijking ](../personalization/personalize.md) en [ dynamische inhoud ](../personalization/get-started-dynamic-content.md).
 
-➡️ [ ontdekt deze eigenschap in video ](#video)
+➡️ [Ontdek deze functie in video](#video)
 
 ## Aanbevolen werkwijzen voor e-mailontwerp {#best-practices}
 
@@ -52,9 +52,9 @@ Zodra u [ een e-mail ](create-email.md) aan een reis of een campagne hebt toegev
 
 1. Kies op de homepage van Designer via e-mail hoe u uw e-mail wilt ontwerpen uit de volgende opties:
 
-   * **Ontwerp uw e-mail van kras** door de interface van de e-mailontwerper en hefboomwerkings beelden van [ Adobe Experience Manager Assets ](../integrations/assets.md). Leer hoe te om uw e-mailinhoud in [ te ontwerpen deze sectie ](content-from-scratch.md).
+   * **Ontwerp uw e-mail van kras** door de E-mailDesigner interface en hefboomwerkings beelden van [ Adobe Experience Manager Assets ](../integrations/assets.md). Leer hoe te om uw e-mailinhoud in [ te ontwerpen deze sectie ](content-from-scratch.md).
 
-   * **Code of deeg ruwe HTML** direct in de e-mailontwerper. Leer hoe te om uw eigen inhoud in [ te coderen deze sectie ](code-content.md).
+   * **Code of deeg ruwe HTML** direct in E-mailDesigner. Leer hoe te om uw eigen inhoud in [ te coderen deze sectie ](code-content.md).
 
      >[!NOTE]
      >
@@ -78,4 +78,4 @@ Leer hoe u e-mailinhoud maakt met de berichteneditor.
 
 Leer hoe u contentexperimenten configureert voor een A/B-test en e-mailinhoud verkent, wat de beste manier is om uw zakelijke doelstellingen te bepalen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447337?captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
