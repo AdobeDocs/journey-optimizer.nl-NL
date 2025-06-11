@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: a9349cedc4da2a8e76e53f9e2b5185270cda2558
+source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
-source-wordcount: '2500'
+source-wordcount: '2499'
 ht-degree: 0%
 
 ---
@@ -19,14 +19,14 @@ ht-degree: 0%
 
 Hieronder vindt u aanvullende instructies en beperkingen wanneer u [!DNL Adobe Journey Optimizer] gebruikt.
 
-De rechten, de productbeperkingen en de prestatiesbegeleiding worden vermeld in [ Adobe Journey Optimizer pagina van de productbeschrijving ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+De rechten, de productbeperkingen en de prestatiesbegeleiding worden vermeld in [ Adobe Journey Optimizer pagina van de productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 
 >[!CAUTION]
 >
->* [ Grafieken voor gegevens en segmentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/guardrails){target="_blank"} zijn ook op Adobe Journey Optimizer van toepassing.
+>* [ Grafieken voor gegevens en segmentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} zijn ook op Adobe Journey Optimizer van toepassing.
 >
->* Zie ook [ Grafieken voor de Ingestie van Gegevens in het Profiel van de Klant in real time ](https://experienceleague.adobe.com/nl/docs/experience-platform/ingestion/guardrails){target="_blank"}
+>* Zie ook [ Grafieken voor de Ingestie van Gegevens in het Profiel van de Klant in real time ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
 
 ## Ondersteunde browsers {#browsers}
@@ -68,7 +68,7 @@ De volgende guardrails zijn op het [ kanaal van SMS ](../sms/get-started-sms.md)
 
 [!DNL Journey Optimizer] [ Webcampagnes ](../web/get-started-web.md) richten nieuwe profielen die niet eerder op andere kanalen zijn betrokken. Hierdoor wordt het totale aantal aanspreekbare profielen verhoogd. Dit kan kosten met zich meebrengen als het contractuele aantal aanschafbare profielen dat u hebt aangeschaft, wordt overschreden.
 
-De metriek van de vergunning voor elk pakket is vermeld op de [ pagina van de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+De metriek van de vergunning voor elk pakket is vermeld op de [ pagina van de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 ### Kanaalhulplijnen op basis van code {#code-based-guardrails}
 
@@ -212,7 +212,7 @@ De volgende gidsen zijn op [ Gelezen de reisactiviteit van het publiek ](../buil
 
 ### Poortkwalificatie {#audience-qualif-g}
 
-De volgende richtlijn is op de [&#128279;](../building-journeys/audience-qualification-events.md) de reisactiviteit van de Kwalificatie van het publiek 0&rbrace; van toepassing:
+De volgende richtlijn is op de ](../building-journeys/audience-qualification-events.md) de reisactiviteit van de Kwalificatie van het publiek 0} van toepassing:[
 
 * De kwalificatie-activiteit Publiek kan niet worden gebruikt met Adobe Campaign-activiteiten.
 
@@ -220,7 +220,7 @@ De volgende richtlijn is op de [&#128279;](../building-journeys/audience-qualifi
 
 De volgende gidsen zijn op de [ redacteur van de reisuitdrukking ](../building-journeys/expression/expressionadvanced.md) van toepassing:
 
-* U kunt gebeurtenisveldgroepen niet gebruiken voor reizen die beginnen met een leespubliek, een kwalificatie Audience of een activiteit voor een zakelijke gebeurtenis. U moet een nieuw publiek creëren en een onpublieksvoorwaarde in de reis gebruiken.
+* U kunt gebeurtenisveldgroepen niet gebruiken voor reizen die beginnen met een leespubliek, een kwalificatie Audience of een activiteit voor een zakelijke gebeurtenis. U moet een nieuw publiek maken en de voorwaarde `inaudience` gebruiken tijdens de rit.
 * `timeSeriesEvents` -kenmerken kunnen niet worden gebruikt in de expressie-editor. Maak een nieuwe veldgroep op basis van een `XDM ExperienceEvent` -schema voor toegang tot Experience Events op profielniveau.
 
 

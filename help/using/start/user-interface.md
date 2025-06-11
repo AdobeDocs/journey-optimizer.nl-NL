@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6eb552466cbd25b9ddf0e02bad75c8c750b1f738
+source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1642'
 ht-degree: 4%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 4%
 
 Om tot [!DNL Adobe Journey Optimizer] toegang te hebben, verbind met [ Adobe Experience Cloud ](https://experience.adobe.com) met uw Adobe ID, en selecteer [!DNL Journey Optimizer].
 
-Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=nl-NL#adobe-experience-platform-ui-guide){target="_blank"} voor meer details.
+Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target="_blank"} voor meer details.
 
 
 >[!NOTE]
 >
->* De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [ toestemmingen ](../administration/permissions.md) en van uw [ vergunning gevend pakket ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af. Neem voor alle vragen contact op met de Adobe Customer Success Manager of uw Adobe-vertegenwoordiger.
+>* De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [ toestemmingen ](../administration/permissions.md) en van uw [ vergunning gevend pakket ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af. Neem voor alle vragen contact op met de Adobe Customer Success Manager of uw Adobe-vertegenwoordiger.
 >
 >* Deze documentatie wordt vaak bijgewerkt om de laatste wijzigingen in de gebruikersinterface van het product te weerspiegelen. Sommige schermafbeeldingen kunnen echter enigszins afwijken van uw gebruikersinterface.
 >
@@ -93,7 +93,7 @@ Uw gegevens in deze sectie beheren.
 
 * **[!UICONTROL Queries]** - Gebruik Adobe Experience Platform Query Service om query&#39;s te schrijven en uit te voeren, eerder uitgevoerde query&#39;s weer te geven en toegang te krijgen tot query&#39;s die zijn opgeslagen door gebruikers binnen uw organisatie. [Meer informatie](../data/get-started-queries.md)
 
-* **[!UICONTROL Monitoring]** - Gebruik dit menu om de gegevensinvoer in de gebruikersinterface van Adobe Experience Platform te controleren. Leer meer in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=nl-NL){target="_blank"}
+* **[!UICONTROL Monitoring]** - Gebruik dit menu om de gegevensinvoer in de gebruikersinterface van Adobe Experience Platform te controleren. Leer meer in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html){target="_blank"}
 
 ### [!UICONTROL CONNECTIONS] {#left-nav-connections}
 
@@ -226,7 +226,8 @@ Beginnen met [!DNL Journey Optimizer]? Hebt u ervaring met specifieke vragen? Be
 
 <!--ORCHESTRATED CAMPAIGNS - Overview page-->
 
-<!--ORCHESTRATED CAMPAIGNS SKU only-->
+
+<!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS SKU only-->
 
 
 >[!CONTEXTUALHELP]
@@ -255,7 +256,7 @@ Beginnen met [!DNL Journey Optimizer]? Hebt u ervaring met specifieke vragen? Be
 >title="Beschikbare kanalen"
 >abstract="E-mail, SMS, Push-berichten, Direct mail"
 
-<!--ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
+<!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
 
 
 >[!CONTEXTUALHELP]
@@ -268,6 +269,30 @@ Beginnen met [!DNL Journey Optimizer]? Hebt u ervaring met specifieke vragen? Be
 >id="ajo_oc_jo_camppaign_ovv_2"
 >title="Beschikbare kanalen"
 >abstract="E-mail, SMS, pushmeldingen, In-app, Web, ervaringen op basis van code"
+
+
+<!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS - API triggered tab -->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_1"
+>title="Transactiegerichte API-campagnes"
+>abstract="Berichten in real time activeren via API-aanroepen"
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_2"
+>title="Marketingberichten"
+>abstract="Promotie-inhoud (opt-in vereist, met inachtneming van de bedrijfsregels)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_3"
+>title="Transactionele berichten"
+>abstract="Dienstgerelateerde inhoud (bevestiging, waarschuwingen, niet onderworpen aan een vergunning voor het in de handel brengen)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_4"
+>title="Beschikbare kanalen"
+>abstract="E-mail, SMS, pushberichten"
 
 <!--APPROVAL POLICIES-->
 
