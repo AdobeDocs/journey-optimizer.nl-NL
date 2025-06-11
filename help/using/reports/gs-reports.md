@@ -5,10 +5,10 @@ title: Stel begonnen met het melden van en controlemogelijkheden in  [!DNL Adobe
 description: Leer hoe te met  [!DNL Adobe Journey Optimizer]  het melden en controlemogelijkheden te werken.
 role: User
 level: Beginner
-source-git-commit: 8c391d7437798df4f40baa65003e16a8c56228ab
+source-git-commit: 95b47370f85f43b3fdc78dd661f0a0789169e544
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 1%
+source-wordcount: '408'
+ht-degree: 0%
 
 ---
 
@@ -104,30 +104,30 @@ Nu u inzicht hebt in de typen rapporten in **[!DNL Journey Optimizer]**, is het 
 
 ### Uitgaande kanalen
 
-Selecteer een uitgaand kanaal om bijbehorende globale rapporten te ontdekken.
+Selecteer een uitgaand kanaal om bijbehorende **globale rapporten van alle tijd** te ontdekken.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
-<td><a href="campaign-global-report-cja-email.md"><img alt="email" src="../channels/assets/do-not-localize/email.png"></a>
-<div align="center"><a href="campaign-global-report-cja-email.md"><strong> E-mail </strong></a></div></td>
+<td><img alt="email" src="../channels/assets/do-not-localize/email.png">
+<div align="center"><p><strong>Email channel</strong></p><p><a href="campaign-global-report-cja-email.md"><strong>Campagnerapport</strong></a></p><p><a href="journey-global-report-cja-email.md"><strong>Reisrapport</strong></a></p></div></td>
 <td><a href="campaign-global-report-cja-sms.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a>
-<div align="center"><a href="campaign-global-report-cja-sms.md"><strong> SMS </strong></a></div></td>
+<div align="center"><p><strong>SMS-kanaal</strong></p><p><a href="campaign-global-report-cja-sms.md"><strong>Campagnerapport</strong></a></p><p><a href="journey-global-report-cja-sms.md"><strong>Reisrapport</strong></a></p></div></td>
 <td><a href="campaign-global-report-cja-push.md"><img alt="duwen" src="../channels/assets/do-not-localize/push.png"></a>
-<div align="center"><a href="campaign-global-report-cja-push.md"><strong> Push bericht </strong></a></div></td>
+<div align="center"><p><strong>Push-kanaal</strong></p><p><a href="campaign-global-report-cja-push.md"><strong>Campagnerapport</strong></a></p><p><a href="journey-global-report-cja-push.md"><strong>Reisrapport</strong></a></p></div></td>
 <td><a href="campaign-global-report-cja-direct.md"><img alt="direct mail" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
-<div align="center"><a href="campaign-global-report-cja-direct.md"><strong>Direct mail</strong></a></div></td>
+<div align="center"><p><strong>Direct mailkanaal</strong></p><p><a href="campaign-global-report-cja-direct.md"><strong>Campagnerapport</strong></a></p><p><a href="journey-global-report-cja-direct.md"><strong>Reisrapport</strong></a></p></div></td>
 </tr></table>
 
 ### Binnenkomende ervaringen
 
-Selecteer een binnenkomende ervaring om bijbehorende globale rapporten te ontdekken.
+Selecteer een binnenkomende ervaring om bijbehorende **globale rapporten van alle tijd** te ontdekken.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
-<td><a href="campaign-global-report-cja-inapp.md"><img alt="in-app" src="../channels/assets/do-not-localize/inapp.jpg"></a>
+<td><img alt="in-app" src="../channels/assets/do-not-localize/inapp.jpg">
 <div align="center"><p><strong>Kanaal in app</strong></p><p><a href="campaign-global-report-cja-inapp.md"><strong>Campagnerapport</strong></a></p><p><a href="journey-global-report-cja-inapp.md"><strong>Reisrapport</strong></a></p></div></td>
-<td><p><a href="campaign-global-report-cja-web.md"><img alt="web" src="../channels/assets/do-not-localize/web.jpg"></a></p>
+<td><p><img alt="web" src="../channels/assets/do-not-localize/web.jpg"></p>
 <div align="center"><p><strong>Webkanaal</strong></p><p><a href="campaign-global-report-cja-web.md"><strong>Campagnerapport</strong></a></p><p><a href="journey-global-report-cja-web.md"><strong>Reisrapport</strong></a></p></div></td>
-<td><a href="campaign-global-report-cja-code.md"><img alt="code-gebaseerde ervaring" src="../channels/assets/do-not-localize/code.png"></a>
+<td>&lt;<img alt="code-gebaseerde ervaring" src="../channels/assets/do-not-localize/code.png">
 <div align="center"><p><strong>Ervaringen op basis van code</strong></p><p><a href="campaign-global-report-cja-code.md"><strong>Campagnerapport</strong></a></p><p><a href="campaign-global-report-cja-code.md"><strong>Reisrapport</strong></a></p></div></td>
-<td><a href="journey-global-report-cja-code.md"><img alt="inhoudskaarten" src="../channels/assets/do-not-localize/cards.png"></a>
+<td><img alt="inhoudskaarten" src="../channels/assets/do-not-localize/cards.png">
 <div align="center"><p><strong>Inhoudskaarten</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>Campagnerapport</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>Reisrapport</strong></a></p></div></td>
 </tr></table>
