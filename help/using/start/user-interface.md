@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: a06872dd267b6fa63ea5be7fcc111015ff5e9d77
+source-git-commit: 476aaeb0d9d208eed3729b38c71a572daf0ec941
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1591'
 ht-degree: 4%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 4%
 
 Om tot [!DNL Adobe Journey Optimizer] toegang te hebben, verbind met [ Adobe Experience Cloud ](https://experience.adobe.com) met uw Adobe ID, en selecteer [!DNL Journey Optimizer].
 
-Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=nl-NL#adobe-experience-platform-ui-guide){target="_blank"} voor meer details.
+Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target="_blank"} voor meer details.
 
 
 >[!NOTE]
 >
->* De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [ toestemmingen ](../administration/permissions.md) en van uw [ vergunning gevend pakket ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af. Neem voor alle vragen contact op met de Adobe Customer Success Manager of uw Adobe-vertegenwoordiger.
+>* De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [ toestemmingen ](../administration/permissions.md) en van uw [ vergunning gevend pakket ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af. Neem voor alle vragen contact op met de Adobe Customer Success Manager of uw Adobe-vertegenwoordiger.
 >
 >* Deze documentatie wordt vaak bijgewerkt om de laatste wijzigingen in de gebruikersinterface van het product te weerspiegelen. Sommige schermafbeeldingen kunnen echter enigszins afwijken van uw gebruikersinterface.
 >
@@ -93,7 +93,7 @@ Uw gegevens in deze sectie beheren.
 
 * **[!UICONTROL Queries]** - Gebruik Adobe Experience Platform Query Service om query&#39;s te schrijven en uit te voeren, eerder uitgevoerde query&#39;s weer te geven en toegang te krijgen tot query&#39;s die zijn opgeslagen door gebruikers binnen uw organisatie. [Meer informatie](../data/get-started-queries.md)
 
-* **[!UICONTROL Monitoring]** - Gebruik dit menu om de gegevensinvoer in de gebruikersinterface van Adobe Experience Platform te controleren. Leer meer in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=nl-NL){target="_blank"}
+* **[!UICONTROL Monitoring]** - Gebruik dit menu om de gegevensinvoer in de gebruikersinterface van Adobe Experience Platform te controleren. Leer meer in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html){target="_blank"}
 
 ### [!UICONTROL CONNECTIONS] {#left-nav-connections}
 
@@ -174,6 +174,14 @@ Gebruik op elke pagina contextafhankelijke Help-knoppen voor meer informatie ove
 
 ![](assets/do-not-localize/Context-help.gif)
 
+## AI-assistent {#ai-assistant}
+
+De AI-assistent is een gebruikersinterfacefunctie waarmee u door Adobe-concepten kunt navigeren en deze kunt begrijpen en waarmee u inzichten in de werking van uw specifieke omgeving krijgt. Het is verkrijgbaar in verschillende producten in Adobe Experience Cloud, waaronder Adobe Journey Optimizer.
+
+Als u de AI-assistent wilt openen, klikt u op het pictogram op de bovenste balk. De AI-assistent wordt rechts in het scherm weergegeven.
+
+Leer hoe te om tot de Medewerker van AI [ op deze pagina ](ai-assistant.md) toegang te hebben en te gebruiken.
+
 ## Taalvoorkeuren {#language-pref}
 
 De gebruikersinterface is beschikbaar in de volgende talen:
@@ -199,13 +207,60 @@ De taal wijzigen:
 * Selecteer uw aangewezen taal en klik **sparen**. U kunt een tweede taal selecteren als de component die u gebruikt niet in uw eerste taal is gelokaliseerd.
   ![](assets/select-language.png)
 
+
+## Meer informatie {#more}
+
+Beginnen met [!DNL Journey Optimizer]? Hebt u ervaring met specifieke vragen? Beheerder van uw exemplaar van het bedrijf? [ neem uw eigen weg om aan uw doelstellingen sneller te krijgen ](quick-start.md)!
+
+
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
 
 
-<!--CONTENT LOCKING-->
+<!--ORCHESTRATED CAMPAIGNS - Overview page-->
+
+<!--ORCHESTRATED CAMPAIGNS SKU only-->
 
 
+>[!CONTEXTUALHELP]
+>id="ajo_oc_campaign_ovv_1"
+>title="Campagne-orkestatie"
+>abstract="Splitsen, combineren, verrijken en manipuleren van relationele gegevenssets om uw publiek te definiëren"
+
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_campaign_ovv_2"
+>title=Leverage multi-entity data"
+>abstract="Leer hoe georkestreerde campagnes uit relationele datasets kunnen voordeel halen om gegevens voor segmentatie &amp; verpersoonlijking te verrijken"
+
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_campaign_ovv_3"
+>title="Ad-hocsegmentatie en exacte aantallen"
+>abstract="Bouw uw segment stap voor stap met nauwkeurige tellingen"
+
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_campaign_ovv_4"
+>title="Beschikbare kanalen"
+>abstract="E-mail, SMS, Push-berichten, Direct mail"
+
+<!--ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_jo_camppaign_ovv_1"
+>title="Met instructies-interface om een campagne te maken en te verzenden"
+>abstract="Stel een of meerdere acties in met een kanaal, kies een publiek, stel een inhoud in, definieer een schema en u bent klaar om te verzenden"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_jo_camppaign_ovv_2"
+>title="Beschikbare kanalen"
+>abstract="E-mail, SMS, pushmeldingen, In-app, Web, ervaringen op basis van code"
 
 <!--APPROVAL POLICIES-->
 
