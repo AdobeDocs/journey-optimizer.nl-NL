@@ -61,7 +61,7 @@ U kunt:
 * **onbruikbaar maken/laat** de activiteit toe. Wanneer de georkestreerde campagne wordt uitgevoerd, worden activiteiten met een handicap en de volgende activiteiten op hetzelfde pad niet uitgevoerd en wordt de georkestreerde campagne gestopt.
 * **Pauze/hervat** de activiteit. Wanneer de georkestreerde campagne wordt uitgevoerd, pauzeert het bij de gepauzeerde activiteit. De bijbehorende taak en alle taken die deze in hetzelfde pad volgen, worden niet uitgevoerd.
 * **Exemplaar** de activiteit. Zie [deze sectie](#copy).
-* Heb toegang tot de Logboeken en de taken van de activiteit ****.
+* Heb toegang tot de Logboeken en de taken van de activiteit **&#x200B;**.
 
 Verscheidene **richtend** activiteiten, zoals **combineren** of **Deduplicatie**, staat u toe om de resterende bevolking te verwerken en het in een extra uitgaande overgang te omvatten. Bijvoorbeeld, als u a **Gesplitste** activiteit gebruikt, bestaat de aanvulling uit de bevolking die om het even welke eerder bepaalde ondergroepen niet aanpast. Om dit vermogen te gebruiken, activeer **aanvult** optie.
 
