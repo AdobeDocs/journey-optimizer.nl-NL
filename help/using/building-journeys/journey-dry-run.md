@@ -11,9 +11,9 @@ hidefromtoc: true
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: publiceren, reizen, live, geldigheid, controle
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 140720d72b57ec32250dee01b8c282b8ce871fc5
+source-git-commit: 2d7067782d6adc7fe5c458a575729d2293af2aaf
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,14 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
->title="Droog je reis"
->abstract="Nadat u de reis hebt ontworpen, voert u een droge run uit om te bevestigen dat deze functioneel is en dat de stappen correct zijn. Met deze publicatiemodus kunt u een reis roken zonder dat u de communicatie naar een profiel hoeft te sturen."
+>title="Droge uitvoermodus"
+>abstract="Deze reis is in Dry run. Reis Dry run is een speciale publicatiemodus in Adobe Journey Optimizer die reisartsen in staat stelt een reis te testen met behulp van echte productiegegevens zonder contact op te nemen met echte klanten of profielinformatie bij te werken.  Deze functie helpt reisartsen vertrouwen te winnen in hun reisontwerp en doelgroep voordat ze het live publiceren."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_dry_run_start"
+>title="Een rit publiceren in de modus Droog"
+>abstract="De Reizen van de Reizen is een speciale wijze van de reispublicatie in Adobe Journey Optimizer die reisartsen toestaat om een reis te testen gebruikend echte productiegegevens. Nadat u de reis hebt ontworpen, voert u een droge run uit om te bevestigen dat deze functioneel is en dat de stappen correct zijn. Met deze publicatiemodus kunt u een reis roken zonder dat u de communicatie naar een profiel hoeft te sturen."
 
 Reis Dry run is een speciale publicatiemodus in Adobe Journey Optimizer die reisartsen in staat stelt een reis te testen met behulp van echte productiegegevens zonder contact op te nemen met echte klanten of profielinformatie bij te werken.  Deze functie helpt reisartsen vertrouwen te winnen in hun reisontwerp en doelgroep voordat ze het live publiceren.
 

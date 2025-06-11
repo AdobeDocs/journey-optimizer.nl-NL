@@ -10,14 +10,19 @@ hide: true
 hidefromtoc: true
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: publiceren, reizen, live, geldigheid, controle
-source-git-commit: c9f9ee8734184a734cdf6e5af88fa5a05b49a8de
+source-git-commit: 2d7067782d6adc7fe5c458a575729d2293af2aaf
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1196'
 ht-degree: 0%
 
 ---
 
 # Een reis pauzeren {#journey-pause}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_pause"
+>title="Uw reis pauzeren"
+>abstract="U kunt een live reis pauzeren om te voorkomen dat nieuwe profielen binnenkomen. Kies of u profielen die momenteel op reis zijn, wilt verwijderen of op de juiste plaats wilt houden. Als deze optie behouden blijft, wordt de uitvoering van de volgende actie hervat zodra de reis opnieuw is gestart. Ideaal voor updates of noodstops zonder dat de voortgang verloren gaat."
 
 U kunt uw live reizen pauzeren, alle benodigde wijzigingen uitvoeren en deze op elk gewenst moment hervatten.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> tijdens de pauze, kunt u [ globale filters ](#journey-global-filters) toepassen om profielen uit te sluiten die op hun attributen worden gebaseerd. De reis wordt automatisch hervat aan het einde van de pauze. U kunt het [ ook manueel hervatten ](#journey-resume-steps).
 
@@ -80,7 +85,12 @@ Van de lijst van uw reizen, kunt u één of verscheidene **Levende** reizen pauz
 
 ## Hoe te om een gepauzeerde reis te hervatten {#journey-resume-steps}
 
-Gepauzeerde reizen worden automatisch hervat aan het einde van de maximale pauzeduur van 14 dagen. Ze kunnen op elk gewenst moment handmatig worden hervat.
+>[!CONTEXTUALHELP]
+>id="ajo_journey_pause"
+>title="Uw reis hervatten"
+>abstract="Hervat een gepauzeerde reis zodat nieuwe profielen opnieuw kunnen ingaan. Als profielen tijdens de pauze wachtten, zullen ze hun reis voortzetten. Ideaal voor het veilig opnieuw starten van reizen na updates of pauzes."
+
+Gepauzeerde reizen worden automatisch hervat aan het einde van de maximale pauzeduur van 14 dagen. Ze kunnen op elk gewenst moment handmatig worden hervat. Hervat een gepauzeerde reis staat nieuwe profielen toe om opnieuw binnen te gaan. Als profielen tijdens de pauze wachtten, zullen ze hun reis voortzetten. Ideaal voor het veilig opnieuw starten van reizen na updates of pauzes.
 
 Ga als volgt te werk om een gepauzeerde reis te hervatten en opnieuw te luisteren naar de gebeurtenissen van de reis:
 
