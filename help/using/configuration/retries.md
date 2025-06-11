@@ -46,7 +46,7 @@ Op voorwaarde dat tussen deze twee e-mails geen andere levering is geprobeerd en
 >id="ajo_admin_suppression_list_bounces"
 >title="De drempel voor opnieuw proberen bijwerken"
 >abstract="Als de standaardwaarde niet aan uw behoeften voldoet, kunt u het toegestane aantal opeenvolgende zachte grenzen wijzigen. Wanneer de teller voor opnieuw proberen de foutendrempel voor een specifiek e-mailadres bereikt, wordt dit adres toegevoegd aan de onderdrukkingslijst."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="De suppressielijst begrijpen"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=nl-NL" text="De suppressielijst begrijpen"
 
 Als de standaardwaarde 5 niet aan uw wensen voldoet, kunt u de foutdrempel wijzigen volgens de onderstaande stappen.
 
