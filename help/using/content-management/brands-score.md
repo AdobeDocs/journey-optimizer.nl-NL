@@ -38,7 +38,7 @@ ht-degree: 2%
 >[!AVAILABILITY]
 >
 >Dit vermogen wordt vrijgegeven als privé bèta. Het zal in toekomstige versies geleidelijk beschikbaar zijn voor alle klanten.
->>U moet met de [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} akkoord gaan alvorens u de Medewerker AI in Adobe Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>&#x200B;>U moet met de [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} akkoord gaan alvorens u de Medewerker AI in Adobe Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 De functie Merkuitlijning is ontworpen om u te helpen inhoud te maken, te reviseren en te beheren die aan de richtlijnen van uw merk voldoet. Het zorgt voor consistentie in toon, overseinen, en visuele identiteit over uw e-mailcampagnes, terwijl ook als kwaliteitscontrole dient alvorens uw inhoud live gaat.
 
@@ -60,7 +60,7 @@ Zodra [ uw merk opstelling en gepubliceerd ](brands.md) is, bepaal uw merk groep
 
 1. Doorblader door de **Score van de Groepering van het Merk** (Hoog, Medium, Laag) en overzicht gedetailleerde terugkoppelt.
 
-1. Klik het ](assets/do-not-localize/Smock_FullScreen_18_N.svg " Volledige het schermpictogram van het 1} beeld van de Duik ") om meer inzichten in uw score te zien.![
+1. Klik het ![&#128279;](assets/do-not-localize/Smock_FullScreen_18_N.svg " Volledige het schermpictogram van het 1&rbrace; beeld van de Duik ") om meer inzichten in uw score te zien.
 
    ![](assets/brand-score-3.png)
 
