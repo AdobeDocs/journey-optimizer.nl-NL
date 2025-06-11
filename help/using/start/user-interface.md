@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 35ab5ee85ee573da64bf34d9ec007796ee589f59
+source-git-commit: 6eb552466cbd25b9ddf0e02bad75c8c750b1f738
 workflow-type: tm+mt
-source-wordcount: '1594'
+source-wordcount: '1605'
 ht-degree: 4%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 4%
 
 Om tot [!DNL Adobe Journey Optimizer] toegang te hebben, verbind met [ Adobe Experience Cloud ](https://experience.adobe.com) met uw Adobe ID, en selecteer [!DNL Journey Optimizer].
 
-Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=nl-NL#adobe-experience-platform-ui-guide){target="_blank"} voor meer details.
+Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target="_blank"} voor meer details.
 
 
 >[!NOTE]
 >
->* De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [ toestemmingen ](../administration/permissions.md) en van uw [ vergunning gevend pakket ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af. Neem voor alle vragen contact op met de Adobe Customer Success Manager of uw Adobe-vertegenwoordiger.
+>* De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [ toestemmingen ](../administration/permissions.md) en van uw [ vergunning gevend pakket ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af. Neem voor alle vragen contact op met de Adobe Customer Success Manager of uw Adobe-vertegenwoordiger.
 >
 >* Deze documentatie wordt vaak bijgewerkt om de laatste wijzigingen in de gebruikersinterface van het product te weerspiegelen. Sommige schermafbeeldingen kunnen echter enigszins afwijken van uw gebruikersinterface.
 >
@@ -93,7 +93,7 @@ Uw gegevens in deze sectie beheren.
 
 * **[!UICONTROL Queries]** - Gebruik Adobe Experience Platform Query Service om query&#39;s te schrijven en uit te voeren, eerder uitgevoerde query&#39;s weer te geven en toegang te krijgen tot query&#39;s die zijn opgeslagen door gebruikers binnen uw organisatie. [Meer informatie](../data/get-started-queries.md)
 
-* **[!UICONTROL Monitoring]** - Gebruik dit menu om de gegevensinvoer in de gebruikersinterface van Adobe Experience Platform te controleren. Leer meer in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=nl-NL){target="_blank"}
+* **[!UICONTROL Monitoring]** - Gebruik dit menu om de gegevensinvoer in de gebruikersinterface van Adobe Experience Platform te controleren. Leer meer in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html){target="_blank"}
 
 ### [!UICONTROL CONNECTIONS] {#left-nav-connections}
 
@@ -149,12 +149,16 @@ Vanaf de startpagina van [!DNL Adobe Journey Optimizer] bieden productgebruiksge
 
 ![](assets/use-cases-home.png)
 
++++ **Beschikbare gebruiksgevallen**
+
 Beschikbare gebruiksgevallen zijn:
 
 * **creeer testprofielen**, om testprofielen tot stand te brengen die ons malplaatje CSV gebruiken om gepersonaliseerde berichten en reizen te testen. Leer hoe te om dit gebruiksgeval [ op deze pagina ](../audience/creating-test-profiles.md#use-case-1) uit te voeren.
 * **verzend een verjaardagsbericht naar klanten**, om automatisch een e-mail te verzenden om uw klanten rond hun verjaardag te wensen. (binnenkort beschikbaar)
 * **verzend e-mails naar aan boord nieuwe klanten**, om tot twee e-mails gemakkelijk te verzenden om uw onlangs geregistreerde klanten welkom te heten. (binnenkort beschikbaar)
 * **verzendt dupberichten naar ingevoerde lijst van klanten**, om een duw bericht aan een lijst van klanten snel te verzenden die van een Csv- dossier wordt ingevoerd. (binnenkort beschikbaar)
+
++++
 
 Klik op de koppeling **[!UICONTROL View details]** als u meer wilt weten over elk gebruik van hoofdletters en kleine letters.
 
@@ -199,14 +203,17 @@ De gebruikersinterface is beschikbaar in de volgende talen:
 
 Uw standaardinterfacetaal wordt bepaald door de aangewezen taal die in uw gebruikersprofiel wordt gespecificeerd.
 
-De taal wijzigen:
++++ **hoe te om uw taal** te veranderen
 
-* Klik **Voorkeur** van uw avatar, op het hoogste recht.
-  ![](assets/preferences.png)
-* Klik vervolgens op de taal die onder uw e-mailadres wordt weergegeven
-* Selecteer uw aangewezen taal en klik **sparen**. U kunt een tweede taal selecteren als de component die u gebruikt niet in uw eerste taal is gelokaliseerd.
-  ![](assets/select-language.png)
+Voer de volgende stappen uit om uw taal te wijzigen:
 
+1. Klik **Voorkeur** van uw avatar, op het hoogste recht.
+   ![](assets/preferences.png)
+1. Klik vervolgens op de taal die onder uw e-mailadres wordt weergegeven
+1. Selecteer uw aangewezen taal en klik **sparen**. U kunt een tweede taal selecteren als de component die u gebruikt niet in uw eerste taal is gelokaliseerd.
+   ![](assets/select-language.png)
+
++++
 
 ## Meer informatie {#more}
 
