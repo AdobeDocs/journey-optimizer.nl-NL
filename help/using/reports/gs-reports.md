@@ -5,9 +5,9 @@ title: Stel begonnen met het melden van en controlemogelijkheden in  [!DNL Adobe
 description: Leer hoe te met  [!DNL Adobe Journey Optimizer]  het melden en controlemogelijkheden te werken.
 role: User
 level: Beginner
-source-git-commit: 760579d13eb9f1e264dafb3f7b1e06cebd9aaaa2
+source-git-commit: a9349cedc4da2a8e76e53f9e2b5185270cda2558
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -98,36 +98,4 @@ Nu u inzicht hebt in de typen rapporten in **[!DNL Journey Optimizer]**, is het 
 <p>
 <p>
 </td>
-</tr></table>
-
-## Alle tijdrapporten per kanaal
-
-### Uitgaande kanalen
-
-Selecteer een uitgaand kanaal om bijbehorende **globale rapporten van alle tijd** te ontdekken.
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><img alt="email" src="../channels/assets/do-not-localize/email.png">
-<div align="center"><p><strong>Email channel</strong></p><p><a href="campaign-global-report-cja-email.md"><strong>Campagnerapport</strong></a></p><p><a href="journey-global-report-cja-email.md"><strong>Reisrapport</strong></a></p></div></td>
-<td><a href="campaign-global-report-cja-sms.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a>
-<div align="center"><p><strong>SMS-kanaal</strong></p><p><a href="campaign-global-report-cja-sms.md"><strong>Campagnerapport</strong></a></p><p><a href="journey-global-report-cja-sms.md"><strong>Reisrapport</strong></a></p></div></td>
-<td><a href="campaign-global-report-cja-push.md"><img alt="duwen" src="../channels/assets/do-not-localize/push.png"></a>
-<div align="center"><p><strong>Push-kanaal</strong></p><p><a href="campaign-global-report-cja-push.md"><strong>Campagnerapport</strong></a></p><p><a href="journey-global-report-cja-push.md"><strong>Reisrapport</strong></a></p></div></td>
-<td><a href="campaign-global-report-cja-direct.md"><img alt="direct mail" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
-<div align="center"><p><strong>Direct mailkanaal</strong></p><p><a href="campaign-global-report-cja-direct.md"><strong>Campagnerapport</strong></a></p><p><a href="journey-global-report-cja-direct.md"><strong>Reisrapport</strong></a></p></div></td>
-</tr></table>
-
-### Binnenkomende ervaringen
-
-Selecteer een binnenkomende ervaring om bijbehorende **globale rapporten van alle tijd** te ontdekken.
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><img alt="in-app" src="../channels/assets/do-not-localize/inapp.jpg">
-<div align="center"><p><strong>Kanaal in app</strong></p><p><a href="campaign-global-report-cja-inapp.md"><strong>Campagnerapport</strong></a></p><p><a href="journey-global-report-cja-inapp.md"><strong>Reisrapport</strong></a></p></div></td>
-<td><p><img alt="web" src="../channels/assets/do-not-localize/web.jpg"></p>
-<div align="center"><p><strong>Webkanaal</strong></p><p><a href="campaign-global-report-cja-web.md"><strong>Campagnerapport</strong></a></p><p><a href="journey-global-report-cja-web.md"><strong>Reisrapport</strong></a></p></div></td>
-<td><img alt="code-gebaseerde ervaring" src="../channels/assets/do-not-localize/code.png">
-<div align="center"><p><strong>Ervaringen op basis van code</strong></p><p><a href="campaign-global-report-cja-code.md"><strong>Campagnerapport</strong></a></p><p><a href="campaign-global-report-cja-code.md"><strong>Reisrapport</strong></a></p></div></td>
-<td><img alt="inhoudskaarten" src="../channels/assets/do-not-localize/cards.png">
-<div align="center"><p><strong>Inhoudskaarten</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>Campagnerapport</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>Reisrapport</strong></a></p></div></td>
 </tr></table>
