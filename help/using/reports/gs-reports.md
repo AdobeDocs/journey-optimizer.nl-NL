@@ -5,7 +5,7 @@ title: Stel begonnen met het melden van en controlemogelijkheden in  [!DNL Adobe
 description: Leer hoe te met  [!DNL Adobe Journey Optimizer]  het melden en controlemogelijkheden te werken.
 role: User
 level: Beginner
-source-git-commit: 95b47370f85f43b3fdc78dd661f0a0789169e544
+source-git-commit: 760579d13eb9f1e264dafb3f7b1e06cebd9aaaa2
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%
@@ -126,7 +126,7 @@ Selecteer een binnenkomende ervaring om bijbehorende **globale rapporten van all
 <div align="center"><p><strong>Kanaal in app</strong></p><p><a href="campaign-global-report-cja-inapp.md"><strong>Campagnerapport</strong></a></p><p><a href="journey-global-report-cja-inapp.md"><strong>Reisrapport</strong></a></p></div></td>
 <td><p><img alt="web" src="../channels/assets/do-not-localize/web.jpg"></p>
 <div align="center"><p><strong>Webkanaal</strong></p><p><a href="campaign-global-report-cja-web.md"><strong>Campagnerapport</strong></a></p><p><a href="journey-global-report-cja-web.md"><strong>Reisrapport</strong></a></p></div></td>
-<td>&lt;<img alt="code-gebaseerde ervaring" src="../channels/assets/do-not-localize/code.png">
+<td><img alt="code-gebaseerde ervaring" src="../channels/assets/do-not-localize/code.png">
 <div align="center"><p><strong>Ervaringen op basis van code</strong></p><p><a href="campaign-global-report-cja-code.md"><strong>Campagnerapport</strong></a></p><p><a href="campaign-global-report-cja-code.md"><strong>Reisrapport</strong></a></p></div></td>
 <td><img alt="inhoudskaarten" src="../channels/assets/do-not-localize/cards.png">
 <div align="center"><p><strong>Inhoudskaarten</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>Campagnerapport</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>Reisrapport</strong></a></p></div></td>
