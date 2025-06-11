@@ -5,7 +5,7 @@ title: Georkestreerde campagnes plannen en starten met Adobe Journey Optimizer
 description: Leer hoe u georkestreerde campagnes met Adobe Journey Optimizer kunt plannen en starten
 hide: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: d59643f18a335fe1e094156a1cfee65b717b9fce
+source-git-commit: 38d4cc896414fce2e8453940fb4674ce7e60fd2b
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 2%
@@ -48,7 +48,7 @@ Als campagnemanager, kunt u campagnes plannen om automatisch op specifieke tijde
 
 Voer de volgende stappen uit om het **georkestreerde campagneschema** te configureren:
 
-1. Selecteer zo spoedig mogelijk **&#x200B;**&#x200B;knoop op de bovenkant van uw georkestreerd campagnecanvas.
+1. Selecteer zo spoedig mogelijk **** knoop op de bovenkant van uw georkestreerd campagnecanvas.
 
 1. Vorm de **frequentie van de Uitvoering**:
 
@@ -121,7 +121,7 @@ De visuele indicatoren in de hoger-juiste hoek van elke activiteitendoos staan u
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="Logboeken en taken"
->abstract="De **Logboeken en het 1&rbrace; scherm van taken &lbrace;verstrekken een geschiedenis van de georkestreerde campagneuitvoering, registrerend alle gebruikersacties en ondervonden fouten.**"
+>abstract="De **Logboeken en het 1} scherm van taken {verstrekken een geschiedenis van de georkestreerde campagneuitvoering, registrerend alle gebruikersacties en ondervonden fouten.**"
 
 Het controleren van logboeken en taken is een zeer belangrijke stap om uw georkestreerde campagnes te analyseren en ervoor te zorgen zij behoorlijk lopen. Ze zijn toegankelijk via het pictogram **[!UICONTROL Logs]** dat beschikbaar is in de werkbalk Handeling en in het deelvenster Eigenschappen van elke activiteit.
 
