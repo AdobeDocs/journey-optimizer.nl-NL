@@ -102,7 +102,7 @@ De op domein-gebaseerde Authentificatie van het Bericht, het Melden, en de Confo
 >id="ajo_surface_dynamic_subdomain_list"
 >title="Sommige subdomeinen zijn mogelijk niet beschikbaar"
 >abstract="Bepaalde subdomeinen zijn momenteel niet beschikbaar voor selectie vanwege de registratie van de feedbacklus die in behandeling is. Dit proces kan tot 10 werkdagen duren. Na voltooiing kunt u kiezen uit alle beschikbare subdomeinen."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Aan de slag met subdomeindelegatie"
+>additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Aan de slag met subdomeindelegatie"
 
 Een terugkoppel lijn (FBL) is de dienst die door sommige ISPs wordt aangeboden die de e-mailafzender toestaat om automatisch op de hoogte te worden gebracht wanneer de gebruiker die een e-mail ontvangt verkiest om het als spam (ook als &quot;klacht&quot;wordt bekend) te merken.
 
