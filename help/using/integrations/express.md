@@ -33,7 +33,7 @@ Dankzij de Adobe Express-integratie in Adobe Journey Optimizer hebt u eenvoudig 
 >
 >Adobe Express-integratie in Adobe Journey Optimizer is momenteel niet beschikbaar voor gebruik met het Healthcare Shield of Privacy and Security Shield.
 
-Meer over Adobe Express leren, verwijs naar [ deze documentatie ](https://helpx.adobe.com/express/user-guide.html).
+Meer over Adobe Express leren, verwijs naar [ deze documentatie ](https://helpx.adobe.com/nl/express/user-guide.html).
 
 Om tot het **[!DNL Adobe Express]** menu toegang te hebben, heb toegang tot uw **montages van het Beeld** van E-mail Designer en klik **[!UICONTROL Edit in Adobe Express]**.
 
@@ -51,10 +51,10 @@ Met een Enterprise-licentie krijgen gebruikers volledige toegang tot de Adobe Ex
 
 +++Beschikbare gebruiksgevallen voor gebruikers van een Enterprise-licentie voor Adobe Express
 
-* [ verwijdert achtergrond ](https://helpx.adobe.com/express/create-and-edit-images/edit-images/remove-background.html)
-* [ verwijder voorwerpen ](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
-* [ Wissen ](https://helpx.adobe.com/express/create-and-edit-images/edit-images/eraser.html)
-* [ voorwerp van het Tussenvoegsel ](https://helpx.adobe.com/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
+* [ verwijdert achtergrond ](https://helpx.adobe.com/nl/express/create-and-edit-images/edit-images/remove-background.html)
+* [ verwijder voorwerpen ](https://helpx.adobe.com/nl/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
+* [ Wissen ](https://helpx.adobe.com/nl/express/create-and-edit-images/edit-images/eraser.html)
+* [ voorwerp van het Tussenvoegsel ](https://helpx.adobe.com/nl/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
 * [ Uitsnijden ](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
 * [ Gevolgen ](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
 
