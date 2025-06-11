@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: publiceren, reizen, live, geldigheid, controle
-source-git-commit: 2d7067782d6adc7fe5c458a575729d2293af2aaf
+source-git-commit: 25f5f30bd91b281310727069b4543c9815b485c2
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 0%
@@ -86,7 +86,7 @@ Van de lijst van uw reizen, kunt u één of verscheidene **Levende** reizen pauz
 ## Hoe te om een gepauzeerde reis te hervatten {#journey-resume-steps}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_pause"
+>id="ajo_journey_resume"
 >title="Uw reis hervatten"
 >abstract="Hervat een gepauzeerde reis zodat nieuwe profielen opnieuw kunnen ingaan. Als profielen tijdens de pauze wachtten, zullen ze hun reis voortzetten. Ideaal voor het veilig opnieuw starten van reizen na updates of pauzes."
 
