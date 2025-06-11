@@ -4,15 +4,33 @@ product: journey optimizer
 title: Georkestreerde campagnes plannen en starten met Adobe Journey Optimizer
 description: Leer hoe u georkestreerde campagnes met Adobe Journey Optimizer kunt plannen en starten
 hide: true
+hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 38d4cc896414fce2e8453940fb4674ce7e60fd2b
+source-git-commit: 435b4a7eee9428c7f0efeb62c72b39c0e2aaabba
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1192'
 ht-degree: 2%
 
 ---
 
 # Uw georkestreerde campagnes plannen en starten {#start-monitor}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_publication"
+>title="Georkestreerde campagne publiceren"
+>abstract="Als u uw campagne wilt starten, moet u deze publiceren. Zorg ervoor dat alle waarschuwingen zijn gewist voordat u ze publiceert."
+
++++ Inhoudsopgave
+
+| Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
+|---|---|---|---|
+| [ wordt begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](configuration-steps.md)<br/> &lt;br/ [ Toegang en beheert georkestreerde camapnes ](access-manage-orchestrated-campaigns.md) | [ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](gs-campaign-creation.md)<br/><br/>[ creëren en plannen de campagne ](create-orchestrated-campaign.md)<br/><br/>[ activiteiten van het Orchestrate ](orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](send-messages.md)<br/><br/><b>[ Begin en controleren de campagne ](start-monitor-campaigns.md)</b><br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uitdrukkingen ](edit-expressions.md) uit | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ combineert ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) - [ Fork ](activities/fork.md) opnieuw verzoening ](activities/reconciliation.md) - [ Gesplitst ](activities/split.md) - [ wacht ](activities/wait.md)[ |
+
+{style="table-layout:fixed"}
+
++++
+
+<br/>
 
 Nadat u de georkestreerde en ontworpen taken hebt gemaakt die u op het canvas wilt uitvoeren, kunt u deze publiceren en controleren hoe deze wordt uitgevoerd.
 
@@ -48,7 +66,7 @@ Als campagnemanager, kunt u campagnes plannen om automatisch op specifieke tijde
 
 Voer de volgende stappen uit om het **georkestreerde campagneschema** te configureren:
 
-1. Selecteer zo spoedig mogelijk **&#x200B;**&#x200B;knoop op de bovenkant van uw georkestreerd campagnecanvas.
+1. Selecteer zo spoedig mogelijk **** knoop op de bovenkant van uw georkestreerd campagnecanvas.
 
 1. Vorm de **frequentie van de Uitvoering**:
 
@@ -121,7 +139,7 @@ De visuele indicatoren in de hoger-juiste hoek van elke activiteitendoos staan u
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="Logboeken en taken"
->abstract="De **Logboeken en het 1&rbrace; scherm van taken &lbrace;verstrekken een geschiedenis van de georkestreerde campagneuitvoering, registrerend alle gebruikersacties en ondervonden fouten.**"
+>abstract="De **Logboeken en het 1} scherm van taken {verstrekken een geschiedenis van de georkestreerde campagneuitvoering, registrerend alle gebruikersacties en ondervonden fouten.**"
 
 Het controleren van logboeken en taken is een zeer belangrijke stap om uw georkestreerde campagnes te analyseren en ervoor te zorgen zij behoorlijk lopen. Ze zijn toegankelijk via het pictogram **[!UICONTROL Logs]** dat beschikbaar is in de werkbalk Handeling en in het deelvenster Eigenschappen van elke activiteit.
 
