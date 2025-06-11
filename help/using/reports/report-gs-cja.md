@@ -98,4 +98,4 @@ Selecteer een binnenkomende ervaring om bijbehorende **globale rapporten van all
 
 In de onderstaande video ziet u hoe u de verbeterde Journey Optimizer-rapportage met Customer Journey Analytics kunt gebruiken.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430413)
+>[!VIDEO](https://video.tv.adobe.com/v/3443157?captions=dut)
