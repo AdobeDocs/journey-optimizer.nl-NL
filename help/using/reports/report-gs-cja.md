@@ -49,9 +49,9 @@ De toegang tot deze rapporteringsmogelijkheden hangt van de context en productge
 
 ## Vereisten {#prerequisites}
 
-* Als u **niet** eigen Customer Journey Analytics bent, of als u het bezit maar **** geen toegang tot om het even welk het productprofiel van Customer Journey Analytics heeft, worden de toestemmingen beheerd in Journey Optimizer. In dit geval hebt u de machtiging **[!UICONTROL View channel reports]** of gerelateerde rollen nodig. [Meer informatie](../administration/permissions.md)
+* Als u **niet** eigen Customer Journey Analytics bent, of als u het bezit maar **&#x200B;**&#x200B;geen toegang tot om het even welk het productprofiel van Customer Journey Analytics heeft, worden de toestemmingen beheerd in Journey Optimizer. In dit geval hebt u de machtiging **[!UICONTROL View channel reports]** of gerelateerde rollen nodig. [Meer informatie](../administration/permissions.md)
 
-* Als u **** Customer Journey Analytics bezit en toegang tot een het productprofiel van Customer Journey Analytics hebt, hebt u nodig:
+* Als u **&#x200B;**&#x200B;Customer Journey Analytics bezit en toegang tot een het productprofiel van Customer Journey Analytics hebt, hebt u nodig:
 
    * **[!UICONTROL Audience Creation]** en **[!UICONTROL Audience View]** voor Customer Journey Analytics. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control){target="_blank"}
 
