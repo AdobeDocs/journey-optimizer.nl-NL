@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: opnieuw proberen, stuiteren, zacht, optimaliseren, fout
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: e422a62f49864c89bdaaab2d4b7622dc90163a71
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ Als de levering succesvol is nadat opnieuw is geprobeerd, wordt de foutenteller 
 
 Bijvoorbeeld:
 
-* U verzendt een e-mail op Maandag met een herbestellingstijd die aan 24 uren wordt geplaatst. Het adres emma.jones@mail.com kan niet worden bezorgd. Het e-mailbericht wordt tot drie keer opnieuw geprobeerd en probeert het niet meer tijdens de periode van 24 uur voor opnieuw proberen.
+* U verzendt een e-mail op Maandag met een herbestellingstijd die aan 24 uren wordt geplaatst. Het `emma.jones@mail.com` -adres kan niet worden bezorgd. Het e-mailbericht wordt tot drie keer opnieuw geprobeerd en probeert het niet meer tijdens de periode van 24 uur voor opnieuw proberen.
 
-* U verzendt nog een e-mail op woensdag. De emma.jones@mail.com, die al een aantal van drie fouten bevat, wordt ook als doel genoemd en kan ook niet worden geleverd - twee keer. Er zijn nog twee fouten.
+* U verzendt nog een e-mail op woensdag. De instructie `emma.jones@mail.com`, die al een telling met drie fouten bevat, is ook bedoeld en kan opnieuw niet worden afgeleverd - twee keer. Er zijn nog twee fouten.
 
-Op voorwaarde dat er geen andere levering is geprobeerd en dat deze twee e-mails zijn gelukt, wordt het adres emma.jones@mail.com toegevoegd aan de onderdrukkingslijst gezien de cumulatieve impact van 3 + 2 fouten.
+Op voorwaarde dat tussen deze twee e-mails geen andere levering is geprobeerd en geen succes is, wordt het `emma.jones@mail.com` -adres toegevoegd aan de lijst met onderdrukking vanwege de cumulatieve impact van 3 + 2 fouten.
 
 ## Drempelwaarde voor opnieuw proberen {#edit-retry-threshold}
 
@@ -46,7 +46,7 @@ Op voorwaarde dat er geen andere levering is geprobeerd en dat deze twee e-mails
 >id="ajo_admin_suppression_list_bounces"
 >title="De drempel voor opnieuw proberen bijwerken"
 >abstract="Als de standaardwaarde niet aan uw behoeften voldoet, kunt u het toegestane aantal opeenvolgende zachte grenzen wijzigen. Wanneer de teller voor opnieuw proberen de foutendrempel voor een specifiek e-mailadres bereikt, wordt dit adres toegevoegd aan de onderdrukkingslijst."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=nl-NL" text="De suppressielijst begrijpen"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="De suppressielijst begrijpen"
 
 Als de standaardwaarde 5 niet aan uw wensen voldoet, kunt u de foutdrempel wijzigen volgens de onderstaande stappen.
 
@@ -72,7 +72,7 @@ De **periode van de herprobeer tijd** is timeframe waarin om het even welk e-mai
 
 Door gebrek, zal het opnieuw proberen voor **3.5 dagen** (of **84 uren**) van de tijd worden uitgevoerd het bericht aan de e-mailrij werd toegevoegd.
 
-Nochtans, om ervoor te zorgen dat de pogingen van het opnieuw proberen niet meer wanneer niet meer nodig worden uitgevoerd, kunt u dit het plaatsen volgens uw behoeften veranderen wanneer het creëren van of het uitgeven van a [ kanaalconfiguratie ](channel-surfaces.md) (d.w.z. vooraf ingesteld bericht) die op het e-mailkanaal van toepassing is.
+Nochtans, om ervoor te zorgen dat de pogingen van het opnieuw proberen niet meer wanneer niet meer nodig worden uitgevoerd, kunt u dit het plaatsen volgens uw behoeften veranderen wanneer het creëren van of het uitgeven van a [ kanaalconfiguratie ](channel-surfaces.md) die op het e-mailkanaal van toepassing is.
 
 U kunt bijvoorbeeld de periode voor het opnieuw proberen instellen op 24 uur voor een transactie-e-mail die betrekking heeft op het opnieuw instellen van wachtwoorden en die een koppeling bevat die slechts een dag geldig is. Op dezelfde manier kunt u voor een uitverkoop in middernacht een uitzetperiode van 6 uur definiëren.
 
