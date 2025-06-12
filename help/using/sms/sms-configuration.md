@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 >id="ajo_admin_sms_api"
 >title="Uw SMS/MMS-provider configureren met Journey Optimizer"
 >abstract="Voordat u tekstberichten (SMS/MMS) kunt verzenden, moet u de providerinstellingen integreren met Journey Optimizer. Zodra gedaan, moet u een configuratie tot stand brengen SMS/MMS. Deze stappen moeten worden uitgevoerd door een Adobe Journey Optimizer System Administrator."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Een SMS-kanaalconfiguratie maken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Een SMS-kanaalconfiguratie maken"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
@@ -39,10 +39,12 @@ ht-degree: 0%
 
 Voordat u SMS of MMS verzendt, moet u de Adobe Journey Optimizer-omgeving configureren. Dit doet u als volgt:
 
-1. De providerinstellingen integreren met Journey Optimizer:
-   * [Met Sinch](sms-configuration-sinch.md)
-   * [Met Infobip](sms-configuration-infobip.md)
-   * [Met een aangepaste provider](sms-configuration-custom.md)
+1. Integreer de providerinstellingen met Journey Optimizer.
+De stappen zijn afhankelijk van uw SMS-provider. Klik op de onderstaande koppelingen voor gedetailleerde documentatie:
+   * [Infobip](sms-configuration-infobip.md)
+   * [Sinch](sms-configuration-sinch.md)
+   * [Twilio](sms-configuration-twilio.md)
+   * [Aangepaste provider](sms-configuration-custom.md)
 1. [Een SMS-configuratie maken](sms-configuration-surface.md)
 
 Deze stappen moeten door een Beheerder van het Systeem van Adobe Journey Optimizer [ worden uitgevoerd ](../start/path/administrator.md).

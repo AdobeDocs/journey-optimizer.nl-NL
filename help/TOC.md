@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
 workflow-type: tm+mt
-source-wordcount: '2433'
+source-wordcount: '2434'
 ht-degree: 20%
 
 ---
@@ -190,7 +190,7 @@ ht-degree: 20%
    + De database opvragen {#query-database}
       + [ Werk met de regelbouwer ](using/orchestrated/orchestrated-rule-builder.md)
       + [ bouwt uw eerste regel ](using/orchestrated/build-query.md)
-      + [ geef uitdrukkingen  uit](using/orchestrated/edit-expressions.md)
+      + [ geef uitdrukkingen ](using/orchestrated/edit-expressions.md) uit
    + Gecontroleerde campagnes {#design-campaigns}
       + [Aan de slag met activiteiten](using/orchestrated/activities/about-activities.md)
       + [En-join](using/orchestrated/activities/and-join.md)
@@ -233,6 +233,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Goedkeuringsbeleid maken en beheren](using/test-approve/approval-policies.md)
       + [Goedkeuring aanvragen](using/test-approve/request-approval.md)
       + [Een verzoek goedkeuren](using/test-approve/review-approve-request.md)
+   + [Systeemwaarschuwingen](using/reports/alerts.md)
 + Communicatiekanalen {#channels}
    + [Aan de slag met communicatiekanalen](using/channels/gs-channels.md)
    + Email channel {#email}
@@ -267,6 +268,10 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
          + [Parameters koptekst](using/email/header-parameters.md)
          + [URL-tracking](using/email/url-tracking.md)
          + [E-mailconfiguratie aanpassen](using/email/surface-personalization.md)
+      + E-maillevering {#deliverability}
+      + [Aan de slag met de prestaties](using/reports/deliverability.md)
+      + [De onderdrukkingslijst begrijpen](using/reports/suppression-list.md)
+      + [Nieuwe DMARC-vereiste](using/configuration/dmarc-record-update.md)
    + Kanaal in app{#in-app}
       + [Aan de slag met In-app-kanaal](using/in-app/get-started-in-app.md)
       + [Voorwaarden voor kanalen in de app](using/in-app/inapp-configuration.md)
@@ -362,7 +367,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
          + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [ gegevens van Adobe Experience Platform van het Gebruik voor verpersoonlijking (Beta) ](using/personalization/lookup-aep-data.md)
@@ -448,7 +453,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Werken met berekende kenmerken](using/audience/computed-attributes.md)
    + [Identiteiten](using/audience/get-started-identity.md)
    + [Licentiegebruik](using/audience/license-usage.md)
-+ Rapportage en bewaking {#reporting}
++ Rapportage {#reporting}
    + [Aan de slag met rapporten](using/reports/gs-reports.md)
    + Live-rapport {#live-report}
       + [Aan de slag met Live-rapport](using/reports/live-report.md)
@@ -487,6 +492,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Overzichtsrapport](using/reports/channel-report-cja.md)
       + [Rapport van bestemmingspagina](using/reports/lp-report-global-cja.md)
       + [Abonnementenlijstrapport](using/reports/subscription-report-global-cja.md)
+      + [Uitsluitingsredenen](using/reports/exclusion-list.md)
    + Aangepaste reisrapporten {#reports}
       + [Trainingsrapporten maken](using/reports/sharing-overview.md)
       + [Lijst met gebeurtenisvelden voor stappen](using/reports/sharing-field-list.md)
@@ -498,12 +504,6 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
          + [Velden voor ophalen van gegevens](using/reports/sharing-fetch-fields.md)
          + [Identiteitsvelden](using/reports/sharing-identity-fields.md)
       + [Voorbeelden van query&#39;s](using/reports/query-examples.md)
-   + Strategie en definitie {#deliverability}
-      + [Aan de slag met de prestaties](using/reports/deliverability.md)
-      + [De onderdrukkingslijst begrijpen](using/reports/suppression-list.md)
-      + [Nieuwe DMARC-vereiste](using/configuration/dmarc-record-update.md)
-   + [Waarschuwingen](using/reports/alerts.md)
-   + [Uitsluitingsredenen](using/reports/exclusion-list.md)
 + Beslissingsmogelijkheden {#decisioning}
    + [Aan de slag met beslissingsmogelijkheden](using/experience-decisioning/gs-decision.md)
    + Beslissing {#experience-decisioning}
@@ -708,7 +708,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
    + [Aan de slag met kanaalconfiguratie](using/configuration/get-started-configuration.md)

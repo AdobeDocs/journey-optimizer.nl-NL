@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Stel begonnen met het melden van en controlemogelijkheden in  [!DNL Adobe Journey Optimizer]
-description: Leer hoe te met  [!DNL Adobe Journey Optimizer]  het melden en controlemogelijkheden te werken.
+title: Aan de slag met rapporteringsmogelijkheden in  [!DNL Adobe Journey Optimizer]
+description: Leer hoe te om met  [!DNL Adobe Journey Optimizer]  rapporten toegang te hebben en te werken.
 role: User
 level: Beginner
-source-git-commit: 15a73ba3f2d91a38d61e6518d704fc218ad0eea3
+source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
