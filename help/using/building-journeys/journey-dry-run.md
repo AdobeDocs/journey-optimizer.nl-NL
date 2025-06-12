@@ -11,9 +11,9 @@ hidefromtoc: true
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: publiceren, reizen, live, geldigheid, controle
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 2d7067782d6adc7fe5c458a575729d2293af2aaf
+source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Reis Dry run is een speciale publicatiemodus in Adobe Journey Optimizer die reis
 
 >[!AVAILABILITY]
 >
->Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+>Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid) en wordt globaal geïmplementeerd in een toekomstige release.
 
 
 ## Belangrijkste voordelen {#journey-dry-run-benefits}

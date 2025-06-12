@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: publiceren, reizen, live, geldigheid, controle
-source-git-commit: 25f5f30bd91b281310727069b4543c9815b485c2
+source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1199'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ U kunt uw live reizen pauzeren, alle benodigde wijzigingen uitvoeren en deze op 
 
 >[!AVAILABILITY]
 >
->Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+>Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid) en wordt globaal geïmplementeerd in een toekomstige release.
 
 
 ## Belangrijkste voordelen {#journey-dry-run-benefits}
