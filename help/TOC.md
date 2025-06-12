@@ -5,7 +5,7 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+source-git-commit: 7e9d707d6413509aef207a6183f6c9953ccdf229
 workflow-type: tm+mt
 source-wordcount: '2434'
 ht-degree: 20%
@@ -190,7 +190,7 @@ ht-degree: 20%
    + De database opvragen {#query-database}
       + [ Werk met de regelbouwer ](using/orchestrated/orchestrated-rule-builder.md)
       + [ bouwt uw eerste regel ](using/orchestrated/build-query.md)
-      + [ geef uitdrukkingen  uit](using/orchestrated/edit-expressions.md)
+      + [ geef uitdrukkingen ](using/orchestrated/edit-expressions.md) uit
    + Gecontroleerde campagnes {#design-campaigns}
       + [Aan de slag met activiteiten](using/orchestrated/activities/about-activities.md)
       + [En-join](using/orchestrated/activities/and-join.md)
@@ -269,9 +269,9 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
          + [URL-tracking](using/email/url-tracking.md)
          + [E-mailconfiguratie aanpassen](using/email/surface-personalization.md)
       + E-maillevering {#deliverability}
-      + [Aan de slag met de prestaties](using/reports/deliverability.md)
-      + [De onderdrukkingslijst begrijpen](using/reports/suppression-list.md)
-      + [Nieuwe DMARC-vereiste](using/configuration/dmarc-record-update.md)
+         + [Aan de slag met de prestaties](using/reports/deliverability.md)
+         + [De onderdrukkingslijst begrijpen](using/reports/suppression-list.md)
+         + [Nieuwe DMARC-vereiste](using/configuration/dmarc-record-update.md)
    + Kanaal in app{#in-app}
       + [Aan de slag met In-app-kanaal](using/in-app/get-started-in-app.md)
       + [Voorwaarden voor kanalen in de app](using/in-app/inapp-configuration.md)
@@ -367,7 +367,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
          + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [ gegevens van Adobe Experience Platform van het Gebruik voor verpersoonlijking (Beta) ](using/personalization/lookup-aep-data.md)
@@ -468,6 +468,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Customer Journey Analytics handmatig configureren](using/reports/cja-ajo.md)
       + [Uw rapporten beheren](using/reports/report-cja-manage.md)
       + [Voorwaarden voor rapportage en experimenten](using/reports/reporting-configuration.md)
+      + [Uitsluitingsredenen](using/reports/exclusion-list.md)
       + Campagneverslagen{#reporting}
          + [Campagnerapport](using/reports/campaign-global-report-cja.md)
          + [Op code gebaseerd campagnerapport](using/reports/campaign-global-report-cja-code.md)
@@ -492,7 +493,6 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Overzichtsrapport](using/reports/channel-report-cja.md)
       + [Rapport van bestemmingspagina](using/reports/lp-report-global-cja.md)
       + [Abonnementenlijstrapport](using/reports/subscription-report-global-cja.md)
-      + [Uitsluitingsredenen](using/reports/exclusion-list.md)
    + Aangepaste reisrapporten {#reports}
       + [Trainingsrapporten maken](using/reports/sharing-overview.md)
       + [Lijst met gebeurtenisvelden voor stappen](using/reports/sharing-field-list.md)
@@ -708,7 +708,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
    + [Aan de slag met kanaalconfiguratie](using/configuration/get-started-configuration.md)
