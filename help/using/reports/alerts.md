@@ -29,7 +29,7 @@ Van het **menu van Alarm**, kunt u het beschikbare alarm bekijken, en aan hen in
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
-Leer meer over alarm in Adobe Experience Platform in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}.
+Leer meer over alarm in Adobe Experience Platform in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=nl-NL){target="_blank"}.
 
 In het linkermenu, onder **Beleid**, klik **Alarm**. Twee pre-gevormde alarm voor Journey Optimizer zijn beschikbaar: het [&#128279;](#alert-custom-actions) alarm van de Actie van de Douane van de 0&rbrace; Reis &lbrace;en het [ Gelezen Onsuccesvolle ](#alert-read-audiences) alarm van de Trekker van de Auditie.  Deze waarschuwingen worden hieronder beschreven.
 
@@ -37,9 +37,9 @@ U kunt aan elk alarm individueel van het gebruikersinterface intekenen, door **t
 
 ![](assets/alert-subscribe.png)
 
-U kunt aan alarm door [ I/O de berichten van de Gebeurtenis ook intekenen ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Waarschuwingsregels zijn ingedeeld in verschillende abonnementspakketten. Abonnementen voor gebeurtenissen die overeenkomen met de specifieke Journey Optimizer-waarschuwingen worden hieronder beschreven.
+U kunt aan alarm door [ I/O de berichten van de Gebeurtenis ook intekenen ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=nl-NL){target="_blank"}. Waarschuwingsregels zijn ingedeeld in verschillende abonnementspakketten. Abonnementen voor gebeurtenissen die overeenkomen met de specifieke Journey Optimizer-waarschuwingen worden hieronder beschreven.
 
-Als een onverwacht gedrag optreedt, wordt een waarschuwingsbericht verzonden naar de abonnees. Op basis van de gebruikersvoorkeuren worden waarschuwingen verzonden via e-mail en/of rechtstreeks in het Journey Optimizer-meldingscentrum, in de rechterbovenhoek van de gebruikersinterface. Standaard is alleen waarschuwingen in de app ingeschakeld. Om e-mailalarm toe te laten, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.
+Als een onverwacht gedrag optreedt, wordt een waarschuwingsbericht verzonden naar de abonnees. Op basis van de gebruikersvoorkeuren worden waarschuwingen verzonden via e-mail en/of rechtstreeks in het Journey Optimizer-meldingscentrum, in de rechterbovenhoek van de gebruikersinterface. Standaard is alleen waarschuwingen in de app ingeschakeld. Om e-mailalarm toe te laten, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=nl-NL#enable-email-alerts){target="_blank"}.
 
 Wanneer een alarm wordt opgelost, ontvangen de abonnees een &quot;Opgelost&quot;bericht.
 
