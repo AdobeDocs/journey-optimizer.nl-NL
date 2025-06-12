@@ -31,7 +31,7 @@ Van het **menu van Alarm**, kunt u het beschikbare alarm bekijken, en aan hen in
 
 Leer meer over alarm in Adobe Experience Platform in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}.
 
-In het linkermenu, onder **Beleid**, klik **Alarm**. Twee pre-gevormde alarm voor Journey Optimizer zijn beschikbaar: het ](#alert-custom-actions) alarm van de Actie van de Douane van de 0} Reis {en het [ Gelezen Onsuccesvolle ](#alert-read-audiences) alarm van de Trekker van de Auditie. [ Deze waarschuwingen worden hieronder beschreven.
+In het linkermenu, onder **Beleid**, klik **Alarm**. Twee pre-gevormde alarm voor Journey Optimizer zijn beschikbaar: het [&#128279;](#alert-custom-actions) alarm van de Actie van de Douane van de 0&rbrace; Reis &lbrace;en het [ Gelezen Onsuccesvolle ](#alert-read-audiences) alarm van de Trekker van de Auditie.  Deze waarschuwingen worden hieronder beschreven.
 
 U kunt aan elk alarm individueel van het gebruikersinterface intekenen, door **te selecteren onderteken** optie van het **Alarm** dashboard. Gebruik dezelfde methode om uw abonnement op te zeggen.
 
@@ -75,7 +75,7 @@ De I/O naam van het gebeurtenisabonnement die aan **beantwoordt las de Trekker v
 
 ## Problemen oplossen {#alert-troubleshooting}
 
-Om **te problemen op te lossen leest het 1} alarm van het publiek {, controleer uw publiekstelling in de interface van Experience Platform.**
+Om **te problemen op te lossen leest het 1&rbrace; alarm van het publiek &lbrace;, controleer uw publiekstelling in de interface van Experience Platform.**
 
 ![](assets/alert-troubleshooting-0.png)
 
