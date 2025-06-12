@@ -137,7 +137,7 @@ Voer de onderstaande stappen uit om de instellingen voor de primaire pagina te d
 
    ![](assets/lp_subscription-list.png)
 
-1. Van de het landen pagina, kunt u een reis ](../building-journeys/journey-gs.md#jo-build) direct tot stand brengen die een bevestigingsbericht naar gebruikers zal verzenden wanneer zij de vorm voorleggen. [ Leer hoe te om zulk een reis aan het eind van dit [ gebruiksgeval ](lp-use-cases.md#subscription-to-a-service) te bouwen.
+1. Van de het landen pagina, kunt u een reis [&#128279;](../building-journeys/journey-gs.md#jo-build) direct tot stand brengen die een bevestigingsbericht naar gebruikers zal verzenden wanneer zij de vorm voorleggen.  Leer hoe te om zulk een reis aan het eind van dit [ gebruiksgeval ](lp-use-cases.md#subscription-to-a-service) te bouwen.
 
    ![](assets/lp_create-journey.png)
 
