@@ -41,7 +41,7 @@ Dit vermogen vermindert het risico om onbedoelde berichten tijdens fouten of upd
 >
 >* Machtigingen om reizen te pauzeren en te hervatten zijn beperkt tot gebruikers met de machtiging op hoog niveau van **[!DNL Publish journeys]** . Leer meer over het beheren van [!DNL Journey Optimizer] de toegangsrechten van gebruikers in [ deze sectie ](../administration/permissions-overview.md).
 >
->* Alvorens het beginnen gebruiken van het pauze/hervattingsvermogen, [ lees uit de Grafieken en Beperkingen ](journey-pause-guardrails).
+>* Alvorens het beginnen gebruiken van het pauze/hervattingsvermogen, [ lees uit de Grafieken en Beperkingen ] (journey-pause-guardrails).
 
 
 ## Hoe een reis pauzeren {#journey-pause-steps}
@@ -170,7 +170,7 @@ Laten we het volgende voorbeeld van de reis nemen:
 
 ![ Steekproef van een reis ](assets/pause-journey-sample.png){width="50%" align="left"}
 
-Wanneer het pauzeren van deze reis, selecteert u als de profielen **** of **Geweigerd Greep** zijn en dan profielbeheer is het volgende:
+Wanneer het pauzeren van deze reis, selecteert u als de profielen **&#x200B;**&#x200B;of **Geweigerd Greep** zijn en dan profielbeheer is het volgende:
 
 1. **AddToCart** activiteit: alle nieuwe profielingangen worden geblokkeerd. Als een profiel reeds de reis vóór een pauze is ingegaan, zullen zij tot de volgende actieknooppunt voortzetten.
 1. **wacht** activiteit: de profielen blijven normaal op de knoop wachten en zullen het weggaan, zelfs als de reis in pauze is.
