@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 101796a9221beeb1fa4950d806a91997ee6c9ae4
+source-git-commit: c00d5a97e7bedf6f1a22a59cc3bd7588eb9ad32e
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2164'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 
 ## Opmerkingen bij de vervroegde release juni 25 {#25-6-rn}
@@ -30,7 +30,7 @@ ht-degree: 5%
 
 **de datum van de Versie**: 17-18 juni, 2025
 
-Zie ook [ de Nota&#39;s van de preVersie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de Nota&#39;s van de preVersie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 ### Nieuwe functies {#25-06-features}
 
@@ -201,6 +201,7 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
    * **de Steun van CSS van de Douane** - Journey Optimizer staat u nu toe om douane CSS aan uw e-mailinhoud direct binnen de E-mailontwerper toe te voegen.
    * **de wijzessteun van de Donker** - de e-mailontwerper van Journey Optimizer biedt nu de capaciteit aan om op donkere wijze te schakelen waar u specifieke montages kunt bepalen.
 
+* **Campagnes** - Nieuwe van labels voorzien navigatie voor actiecampagnes. Met dit nieuwe navigatiepatroon hebt u sneller toegang tot het ontwerpen van inhoud en kunt u de instellingen in alle campagnes verder uitbreiden.
 
 * **Beslissing** - de datum van de Beschikbaarheid: 3 Juni, 2025
 
