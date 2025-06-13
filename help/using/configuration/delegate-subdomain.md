@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdomein, delegatie, domein, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 229f335f4a5880bd310fe2d522ab6b3d3160d72b
+source-git-commit: 3cc5abdbec27ac9a8009b3b0d125a3b49dc9ed04
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '1968'
 ht-degree: 5%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 5%
 >id="ajo_admin_subdomainname"
 >title="Subdomeindelegatie"
 >abstract="Met Journey Optimizer kunt u uw subdomeinen delegeren aan Adobe. U kunt een subdomein volledig delegeren aan Adobe, wat de geadviseerde methode is. U kunt ook een subdomein creëren gebruikend CNAMEs om aan Adobe-specifieke verslagen te richten, maar deze benadering vereist u om DNS verslagen op uw te handhaven en te beheren."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="Methoden voor subdomeinconfiguratie"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="Methoden voor subdomeinconfiguratie"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname_header"
@@ -51,7 +51,7 @@ Subdomeinconfiguratie is **gemeenschappelijk aan alle milieu&#39;s**. Daarom hee
 >id="ajo_admin_subdomain_dns"
 >title="De overeenkomende DNS-records genereren"
 >abstract="Als u een nieuw subdomein volledig wilt delegeren aan Adobe, moet u de Adobe-gegevens van de nameserver die in de Journey Optimizer-interface worden weergegeven kopiëren en plakken in uw domein-ontvangende oplossing om de overeenkomende DNS-records te genereren. Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, moet u ook de SSL CDN URL-validatierecord kopiëren en plakken. Zodra de controles succesvol zijn, is subdomain klaar om worden gebruikt om berichten te leveren."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain#cname-subdomain-delegation" text="CNAME-subdomeindelegatie"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain#cname-subdomain-delegation" text="CNAME-subdomeindelegatie"
 
 Met [!DNL Journey Optimizer] kunt u de subdomeinen volledig delegeren naar Adobe, rechtstreeks vanuit de productinterface. Door dit te doen, zal Adobe berichten als beheerde dienst kunnen leveren door alle aspecten van DNS te controleren en te handhaven die voor het leveren, het teruggeven en het volgen van e-mailcampagnes worden vereist.
 
@@ -128,7 +128,7 @@ Met de CNAME-subdomeinset kunt u een subdomein maken en CNAME&#39;s gebruiken om
 >
 >De methode CNAME wordt geadviseerd als het beleid van uw organisatie de volledige subdomain delegatiemethode beperkt. Deze benadering vereist u om DNS verslagen op uw te handhaven en te beheren. Adobe zal niet in het veranderen van, het handhaven van of het beheren van DNS voor subdomain kunnen bijwonen die door de methode CNAME wordt gevormd.
 
-➡️ [ leren hoe te om subdomain tot stand te brengen gebruikend CNAME aan Adobe-Specifieke verslagen in deze video ](#video) richten
+➡️ [ Leer hoe te om subdomain tot stand te brengen die CNAME gebruiken om aan Adobe-Specifieke verslagen in deze video te richten ](#video)
 
 Volg onderstaande stappen om een subdomein in te stellen met gebruik van CNAME&#39;s:
 
@@ -243,10 +243,10 @@ Nadat uw verzoek door Adobe wordt behandeld, wordt het niet-gedelegeerde domein 
 
 >[!CAUTION]
 >
->Nadat een subdomein niet is gedelegeerd:
+>Wanneer een subdomein niet is gedelegeerd, geldt het volgende:
 >
->   * U kunt de kanaalconfiguraties die dat subdomein gebruikten, niet opnieuw activeren.
->   * U kunt exacte subdomein niet opnieuw delegeren via de gebruikersinterface. Neem desgewenst contact op met uw Adobe-vertegenwoordiger.
+>* U kunt de kanaalconfiguraties die dat subdomein gebruikten, niet opnieuw activeren.
+>* U kunt hetzelfde subdomein niet opnieuw delegeren via de gebruikersinterface. Neem desgewenst contact op met uw Adobe-vertegenwoordiger.
 
 ## Hoe kan ik-video{#video}
 
