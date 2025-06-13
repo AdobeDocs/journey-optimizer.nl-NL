@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
+source-git-commit: eff3f2fb4d1c369e77a22013ae1576b57449a8b7
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1000'
 ht-degree: 3%
 
 ---
@@ -45,7 +45,7 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <tbody>
 <tr>
 <td>
-<p>Het overseinen van RCS (Rich Communication Services) wordt nu gesteund in Journey Optimizer, toelatend de volgende verbeterde overseinenmogelijkheden onderworpen aan dragersteun:</p>
+<p>Het overseinen van RCS (Rich Communication Services) wordt nu gesteund in Journey Optimizer, toelatend de volgende verbeterde overseinenmogelijkheden afhankelijk van leverancier en dragersteun:</p>
 <ul>
 <li>Branded en de geverifieerde steun van de afzender: verzend berichten gebruikend geverifieerde bedrijfsprofielen met branding elementen (embleem, afzendernaam, enz.).</li>
 <li>Inzichten van de levering van berichten: Ontvang gedetailleerde leveringsrapporten met inbegrip van updates van de berichtstatus (b.v., verzonden, geleverd, gelezen).</li>
