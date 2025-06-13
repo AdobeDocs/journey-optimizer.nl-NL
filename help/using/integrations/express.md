@@ -10,9 +10,9 @@ role: User
 level: Beginner
 keywords: elementen, integratie
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: bba2fd3b481c582f33ffad79d1f1c1327143f108
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Dankzij de Adobe Express-integratie in Adobe Journey Optimizer hebt u eenvoudig 
 >
 >Adobe Express-integratie in Adobe Journey Optimizer is momenteel niet beschikbaar voor gebruik met het Healthcare Shield of Privacy and Security Shield.
 
-Meer over Adobe Express leren, verwijs naar [ deze documentatie ](https://helpx.adobe.com/nl/express/user-guide.html).
+Meer over Adobe Express leren, verwijs naar [ deze documentatie ](https://helpx.adobe.com/express/user-guide.html).
 
 Om tot het **[!DNL Adobe Express]** menu toegang te hebben, heb toegang tot uw **montages van het Beeld** van E-mail Designer en klik **[!UICONTROL Edit in Adobe Express]**.
 
@@ -41,26 +41,19 @@ Om tot het **[!DNL Adobe Express]** menu toegang te hebben, heb toegang tot uw *
 
 ➡️ [Ontdek deze functie in video](#video)
 
-## Adobe Express Enterprise-licentie {#licence}
+## Adobe Express gebruiken met een Enterprise-licentie {#licence}
 
 De functies die in de onderstaande secties worden beschreven, zijn toegankelijk voor gebruikers zonder Adobe Express Enterprise-licentie.
 
-Met een Enterprise-licentie krijgen gebruikers volledige toegang tot de Adobe Express-editor, zodat ze afbeeldingen kunnen wijzigen door de kleur, helderheid, scherpte, contrast, afmetingen en extra instellingen aan te passen.
+Met een Enterprise-licentie hebben gebruikers volledige toegang tot de Adobe Express Web-editor, zodat ze de instellingen van middelen kunnen aanpassen, inhoud kunnen genereren met Firefly, tekst kunnen toevoegen en aanvullende aanpassingen kunnen toepassen.
 
 ![](assets/express-licence.png)
 
-+++Beschikbare gebruiksgevallen voor gebruikers van een Enterprise-licentie voor Adobe Express
+Voor meer informatie over beschikbare gebruiksgevallen voor gebruikers met een vergunning van de Onderneming voor Adobe Express, verwijs naar [ documentatie van het Web van Adobe Express ](https://helpx.adobe.com/express/web.html).
 
-* [ verwijdert achtergrond ](https://helpx.adobe.com/nl/express/create-and-edit-images/edit-images/remove-background.html)
-* [ verwijder voorwerpen ](https://helpx.adobe.com/nl/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
-* [ Wissen ](https://helpx.adobe.com/nl/express/create-and-edit-images/edit-images/eraser.html)
-* [ voorwerp van het Tussenvoegsel ](https://helpx.adobe.com/nl/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
-* [ Uitsnijden ](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
-* [ Gevolgen ](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
+## Adobe Express gebruiken zonder Enterprise-licentie  {#edit}
 
-+++
-
-## Formaat afbeelding wijzigen {#resize}
+### Formaat afbeelding wijzigen {#resize}
 
 1. Selecteer **[!UICONTROL Resize image]** in het menu Adobe Express.
 
@@ -84,7 +77,7 @@ Met een Enterprise-licentie krijgen gebruikers volledige toegang tot de Adobe Ex
 
 Uw afbeelding kan nu worden gebruikt in uw inhoud.
 
-## Achtergrond verwijderen {#background}
+### Achtergrond verwijderen {#background}
 
 1. Selecteer **[!UICONTROL Remove background]** in het menu Adobe Express.
 
@@ -104,7 +97,7 @@ Uw afbeelding kan nu worden gebruikt in uw inhoud.
 
 Uw afbeelding kan nu worden gebruikt in uw inhoud.
 
-## Afbeelding uitsnijden {#crop-image}
+### Afbeelding uitsnijden {#crop-image}
 
 1. Selecteer **[!UICONTROL Crop image]** in het menu Adobe Express.
 
@@ -122,7 +115,7 @@ Uw afbeelding kan nu worden gebruikt in uw inhoud.
 
 Uw afbeelding kan nu worden gebruikt in uw inhoud.
 
-## Omzetten in JPEG of PNG {#convert}
+### Omzetten in JPEG of PNG {#convert}
 
 1. Selecteer **[!UICONTROL Convert to JPEG]** of **[!UICONTROL Convert to PNG]** in het menu Adobe Express, afhankelijk van de oorspronkelijke afbeeldingsindeling.
 
@@ -144,12 +137,11 @@ Uw afbeelding kan nu worden gebruikt in uw inhoud.
 
 Uw afbeelding kan nu worden gebruikt in uw inhoud.
 
-
 ## Hoe kan ik-video {#video}
 
 Leer hoe u uw middelen in Adobe Journey Optimizer kunt bewerken met de Adobe Express-gereedschappen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455529/?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 
