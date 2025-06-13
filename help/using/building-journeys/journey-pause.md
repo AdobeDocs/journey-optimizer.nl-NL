@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: publiceren, reizen, live, geldigheid, controle
-source-git-commit: 68a115d3075f7953501b10f2057b5aa87e0fcf92
+source-git-commit: adff7581d72947273675ab9b7bc36702d76d3792
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 0%
@@ -123,13 +123,13 @@ Als u bijvoorbeeld alle Franse klanten wilt uitsluiten van een gepauzeerde reis,
 
 1. Klik op de **criteria van de Uitgang &amp; Globale filter** pictogram.
 
-   ![ voeg een globale filter aan een gepauzeerde reis toe ](assets/add-global-filter.png){width="50%" align="left"}
+   ![ voeg een globale filter aan een gepauzeerde reis toe ](assets/add-global-filter.png)
 
 1. In de **Criteria van de Uitgang &amp; Globale montages van de Filter**, klik **toevoegen Globale Filter** bepaalt een filter dat op profielattributen wordt gebaseerd.
 
 1. Stel de expressie in om profielen uit te sluiten als het kenmerk country gelijk is aan Frankrijk.
 
-   ![ voeg een globale filter aan een gepauzeerde reis toe ](assets/add-country-filter.png){width="50%" align="left"}
+   ![ voeg een globale filter aan een gepauzeerde reis toe ](assets/add-country-filter.png)
 
 1. Sparen uw filter en klik de **reis van de Update** knoop om uw veranderingen toe te passen.
 
@@ -169,7 +169,7 @@ Laten we het volgende voorbeeld van de reis nemen:
 
 ![ Steekproef van een reis ](assets/pause-journey-sample.png)
 
-Wanneer het pauzeren van deze reis, selecteert u als de profielen **&#x200B;**&#x200B;of **Geweigerd Greep** zijn en dan profielbeheer is het volgende:
+Wanneer het pauzeren van deze reis, selecteert u als de profielen **** of **Geweigerd Greep** zijn en dan profielbeheer is het volgende:
 
 1. **AddToCart** activiteit: alle nieuwe profielingangen worden geblokkeerd. Als een profiel reeds de reis vóór een pauze is ingegaan, zullen zij tot de volgende actieknooppunt voortzetten.
 1. **wacht** activiteit: de profielen blijven normaal op de knoop wachten en zullen het weggaan, zelfs als de reis in pauze is.
