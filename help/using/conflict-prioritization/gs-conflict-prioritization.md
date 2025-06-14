@@ -4,7 +4,7 @@ description: Leer hoe u Journey Optimizer-tools voor conflicten en prioritering 
 role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 9d84a319497e833aa77416479dd019bab59aab55
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 0%
@@ -63,7 +63,7 @@ De reeksen van de regel staan u toe om **samen veelvoudige regels in regelreekse
 
 * **prioriteit Namespace voor het aftappen van de reisingang**
 
-  Het begrenzen van de ingang wordt slechts gesteund als namespace in de reis wordt geselecteerd hoogste prioritaire namespace die in de zandbak wordt bepaald is. Als naamruimteprioriteit niet expliciet is geconfigureerd, krijgt deze standaard de hoogste prioriteit via e-mail.
+  Het begrenzen van de ingang wordt slechts gesteund als namespace in de reis wordt geselecteerd hoogste prioritaire namespace die in de zandbak wordt bepaald is. Als namespace prioriteit niet uitdrukkelijk is gevormd, is de gebrek hoogste prioriteit e-mail.
 
 * **Gelijktijdige activeringen in de reizen van de publiekskwalificatie**
 
