@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: publiceren, reizen, live, geldigheid, controle
-source-git-commit: adff7581d72947273675ab9b7bc36702d76d3792
+source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 0%
@@ -113,7 +113,7 @@ Ga als volgt te werk om een gepauzeerde reis te hervatten en opnieuw te luistere
 Van de lijst van uw reizen, kunt u één of verscheidene **Gepauzeerde** reizen hervatten. Om een groep ritten (_bulksgewijs hervat_) te hervatten, hen te selecteren en de **hervat** knoop te klikken die in de blauwe bar bij de bodem van het scherm wordt gevestigd. Gelieve te merken op dat de **Hervatten** knoop slechts beschikbaar zal zijn wanneer **Gepauzeerde** reizen worden geselecteerd.
 
 
-## Een algemeen filter toepassen op profielen in een gepauzeerde reis  {#journey-global-filters}
+## Een algemeen filter toepassen op profielen in een gepauzeerde reis {#journey-global-filters}
 
 Wanneer een reis wordt gepauzeerd, kunt u een globaal filter toepassen dat op profielattributen wordt gebaseerd. Met dit filter kunt u profielen uitsluiten die overeenkomen met de gedefinieerde expressie tijdens het hervatten. Wanneer het globale filter is ingesteld, is het van toepassing op actieknooppunten, zelfs voor nieuwe profielingang. Profielen die de criteria en de nieuwe profielen aanpassen die proberen om binnen te gaan zullen van de reis **op de volgende actieknooppunt** worden uitgesloten zij ontmoeten.
 
@@ -169,7 +169,7 @@ Laten we het volgende voorbeeld van de reis nemen:
 
 ![ Steekproef van een reis ](assets/pause-journey-sample.png)
 
-Wanneer het pauzeren van deze reis, selecteert u als de profielen **&#x200B;**&#x200B;of **Geweigerd Greep** zijn en dan profielbeheer is het volgende:
+Wanneer het pauzeren van deze reis, selecteert u als de profielen **** of **Geweigerd Greep** zijn en dan profielbeheer is het volgende:
 
 1. **AddToCart** activiteit: alle nieuwe profielingangen worden geblokkeerd. Als een profiel reeds de reis vóór een pauze is ingegaan, zullen zij tot de volgende actieknooppunt voortzetten.
 1. **wacht** activiteit: de profielen blijven normaal op de knoop wachten en zullen het weggaan, zelfs als de reis in pauze is.

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: kwalificatie, evenementen, publiek, reis, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
+source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1164'
 ht-degree: 1%
 
 ---
@@ -33,39 +33,13 @@ Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
 
 ➡️ [Ontdek deze functie in video](#video)
 
-### Guardrails en aanbevelingen {#important-notes-segment-qualification}
-
-Volg de instructies en aanbevelingen hieronder om de reizen van de Kwalificatie van het publiek te bouwen. Zie ook [ beste praktijken van de Kwalificatie van het publiek ](#best-practices-segments).
-
-
-* De reizen van de Kwalificatie van het publiek worden hoofdzakelijk ontworpen om met het stromen publiek te werken. Deze combinatie garandeert een betere real-time ervaring. Het wordt sterk geadviseerd om **het stromen publiek** in de activiteit van de Kwalificatie van het Publiek te gebruiken.
-
-  Nochtans, als u partij op ingestitie-gebaseerde attributen in uw het stromen publiek of een partijpubliek voor een reis van de Kwalificatie van het Publiek wilt gebruiken, overweeg de tijdspanwijdte voor publieksevaluatie/activering. Een partijpubliek of het stromen publiek die batch-ingegane attributen gebruiken wordt klaar voor gebruik in de **activiteit van de Kwalificatie van het publiek ongeveer** 2 uren **na de voltooiing van uw segmentatietaak.** Deze taak wordt één keer per dag uitgevoerd op het tijdstip dat door de beheerder van de Adobe-organisatie is gedefinieerd.
-
-* Het publiek van Adobe Experience Platform wordt berekend of eens per dag (**partij** publiek) of in real time (voor **gestroomde** publiek, gebruikend de Hoge optie van het Publiek van de Frequentie van Adobe Experience Platform).
-
-   * Als het geselecteerde publiek wordt gestreamd, kunnen individuen die tot dit publiek behoren de reis in real time betreden.
-   * Als het publiek een batch is, kunnen mensen die net voor dit publiek zijn gekwalificeerd de reis invoeren wanneer de publieksberekening op Adobe Experience Platform wordt uitgevoerd.
-
-  Als beste praktijken, gebruik het stromen publiek in de activiteit van de Kwalificatie van het publiek van het a **&#x200B;**. Voor de gevallen van het partijgebruik, gelieve te gebruiken a **[gelezen publiek](read-audience.md)** activiteit.
-
-  >[!NOTE]
-  >
-  >Vanwege het batchkarakter van publiek dat is gemaakt met gebruik van compositieworkflows en aangepaste uploads, kunnen deze doelgroepen niet worden gericht op een activiteit die onder &quot;Audience Qualification&quot; valt. Alleen publiek dat is gemaakt met behulp van segmentdefinities kan in deze activiteit worden gebruikt.
-
-
-* De groepen van het de gebeurtenisgebied van de ervaring kunnen niet in ritten worden gebruikt die met a **Gelezen Publiek**, a **de Kwalificatie van het Publiek** of a **BedrijfsGebeurtenis** activiteit beginnen.
-
-* Wanneer het gebruiken van de Kwalificatie van het publiek **activiteit van het 0&rbrace; &lbrace;in een reis, kan die activiteit tot 10 minuten duren om actief te zijn en aan profielen te luisteren die of het publiek ingaan weggaan.**
-
 
 >[!CAUTION]
 >
->[ Grafieken voor gegevens en segmentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=nl-NL){target="_blank"} zijn ook op Adobe Journey Optimizer van toepassing.
+>Alvorens te beginnen vormend een kwalificatie van het Publiek, [ lees uit de Grafieken en Beperkingen ](#audience-qualification-guardrails).
 
 
-
-### De activiteit configureren {#configure-segment-qualification}
+## De activiteit configureren {#configure-segment-qualification}
 
 Voer de volgende stappen uit om de **[!UICONTROL Audience Qualification]** -activiteit te configureren:
 
@@ -93,7 +67,7 @@ Voer de volgende stappen uit om de **[!UICONTROL Audience Qualification]** -acti
 
    >[!NOTE]
    >
-   >**[!UICONTROL Enter]** en **[!UICONTROL Exit]** beantwoorden aan **gerealiseerde** en **Uitgegeven** status van de publieksparticipatie van Adobe Experience Platform. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [ documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=nl-NL#interpret-segment-results){target="_blank"}.
+   >**[!UICONTROL Enter]** en **[!UICONTROL Exit]** beantwoorden aan **gerealiseerde** en **Uitgegeven** status van de publieksparticipatie van Adobe Experience Platform. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [ documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. Selecteer een naamruimte. Dit is alleen nodig als de gebeurtenis als eerste stap van de reis wordt geplaatst. Het veld wordt standaard voorgevuld met de laatst gebruikte naamruimte.
 
@@ -135,7 +109,7 @@ Wanneer het gebruiken van de Kwalificatie van het Publiek voor gestroomd publiek
 
 Vermijd het gebruik van open en verzend gebeurtenissen met streaming segmentatie. In plaats daarvan, gebruik echte user-activity signalen zoals kliks, aankopen, of baken gegevens. Voor frequentie of suppression logica, gebruik bedrijfsregels eerder dan verzendt gebeurtenissen. [Meer informatie](../audience/about-audiences.md#open-and-send-event-guardrails)
 
-Voor meer informatie bij het stromen segmentatie, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
+Voor meer informatie bij het stromen segmentatie, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
 
 ### Overbelasting voorkomen {#overloads-speed-segment-qualification}
 
@@ -145,14 +119,46 @@ Hier volgen enkele aanbevolen procedures om overbelastingsystemen te vermijden d
 
   ![](assets/segment-error.png)
 
-* Plaats een plafondregel voor gegevensbronnen en handelingen die tijdens reizen worden gebruikt om overbelasting te voorkomen. Leer meer in [ documentatie van Journey Orchestration ](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=nl-NL){target="_blank"}. De bijschilderregel hoeft niet opnieuw te worden uitgevoerd. Als u het opnieuw moet proberen, gebruikt u een alternatief pad in de reis door het vakje **[!UICONTROL Add an alternative path in case of a timeout or an error]** in voorwaarden of handelingen in te schakelen.
+* Plaats een plafondregel voor gegevensbronnen en handelingen die tijdens reizen worden gebruikt om overbelasting te voorkomen. Leer meer in [ documentatie van Journey Orchestration ](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. De bijschilderregel hoeft niet opnieuw te worden uitgevoerd. Als u het opnieuw moet proberen, gebruikt u een alternatief pad in de reis door het vakje **[!UICONTROL Add an alternative path in case of a timeout or an error]** in voorwaarden of handelingen in te schakelen.
 
 * Voordat u het publiek in een productiereis gaat gebruiken, moet u het aantal personen dat dagelijks voor dit publiek in aanmerking komt, evalueren. Controleer hiertoe het menu **[!UICONTROL Audience]** , open het publiek en bekijk de grafiek van **[!UICONTROL Profiles over time]** .
 
   ![](assets/segment-overload.png)
 
+## Afvoerkanalen en beperkingen {#audience-qualification-guardrails}
+
+Volg de instructies en aanbevelingen hieronder om de reizen van de Kwalificatie van het publiek te bouwen. Zie ook [ beste praktijken van de Kwalificatie van het publiek ](#best-practices-segments).
+
+
+* De reizen van de Kwalificatie van het publiek worden hoofdzakelijk ontworpen om met het stromen publiek te werken. Deze combinatie garandeert een betere real-time ervaring. Het wordt sterk geadviseerd om **het stromen publiek** in de activiteit van de Kwalificatie van het Publiek te gebruiken.
+
+  Nochtans, als u partij op ingestitie-gebaseerde attributen in uw het stromen publiek of een partijpubliek voor een reis van de Kwalificatie van het Publiek wilt gebruiken, overweeg de tijdspanwijdte voor publieksevaluatie/activering. Een partijpubliek of het stromen publiek die batch-ingegane attributen gebruiken wordt klaar voor gebruik in de **activiteit van de Kwalificatie van het publiek ongeveer** 2 uren **na de voltooiing van uw segmentatietaak.** Deze taak wordt één keer per dag uitgevoerd op het tijdstip dat door de beheerder van de Adobe-organisatie is gedefinieerd.
+
+* Het publiek van Adobe Experience Platform wordt berekend of eens per dag (**partij** publiek) of in real time (voor **gestroomde** publiek, gebruikend de Hoge optie van het Publiek van de Frequentie van Adobe Experience Platform).
+
+   * Als het geselecteerde publiek wordt gestreamd, kunnen individuen die tot dit publiek behoren de reis in real time betreden.
+   * Als het publiek een batch is, kunnen mensen die net voor dit publiek zijn gekwalificeerd de reis invoeren wanneer de publieksberekening op Adobe Experience Platform wordt uitgevoerd.
+
+  Als beste praktijken, gebruik het stromen publiek in de activiteit van de Kwalificatie van het publiek van het a ****. Voor de gevallen van het partijgebruik, gelieve te gebruiken a **[gelezen publiek](read-audience.md)** activiteit.
+
+  >[!NOTE]
+  >
+  >Vanwege het batchkarakter van publiek dat is gemaakt met gebruik van compositieworkflows en aangepaste uploads, kunnen deze doelgroepen niet worden gericht op een activiteit die onder &quot;Audience Qualification&quot; valt. Alleen publiek dat is gemaakt met behulp van segmentdefinities kan in deze activiteit worden gebruikt.
+
+
+* De groepen van het de gebeurtenisgebied van de ervaring kunnen niet in ritten worden gebruikt die met a **Gelezen Publiek**, a **de Kwalificatie van het Publiek** of a **BedrijfsGebeurtenis** activiteit beginnen.
+
+* Wanneer het gebruiken van de Kwalificatie van het publiek **activiteit van het 0} {in een reis, kan die activiteit tot 10 minuten duren om actief te zijn en aan profielen te luisteren die of het publiek ingaan weggaan.**
+
+
+>[!CAUTION]
+>
+>[ Grafieken voor gegevens en segmentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html){target="_blank"} zijn ook op Adobe Journey Optimizer van toepassing.
+
+
+
 ## Hoe kan ik-video {#video}
 
 Begrijp de toepasselijke gebruiksgevallen voor reizen van de Kwalificatie van het Publiek in deze video. Leer hoe u een reis maakt met de kwalificatie &#39;Audience Qualification&#39; en welke best practices u kunt toepassen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446210?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

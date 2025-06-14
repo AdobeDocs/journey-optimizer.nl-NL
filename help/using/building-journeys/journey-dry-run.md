@@ -11,9 +11,9 @@ hidefromtoc: true
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: publiceren, reizen, live, geldigheid, controle
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
+source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -56,25 +56,10 @@ Op reis is er een droge run:
 
 >[!CAUTION]
 >
->Machtigingen voor het starten van de droge runtime zijn beperkt tot gebruikers met de machtiging op hoog niveau van **[!DNL Publish journeys]** . Machtigingen om Dry Run te stoppen zijn beperkt tot gebruikers met de machtiging op hoog niveau van **[!DNL Manage journeys]** . Leer meer over het beheren van [!DNL Journey Optimizer] de toegangsrechten van gebruikers in [ deze sectie ](../administration/permissions-overview.md).
+>* Machtigingen voor het starten van de droge runtime zijn beperkt tot gebruikers met de machtiging op hoog niveau van **[!DNL Publish journeys]** . Machtigingen om Dry Run te stoppen zijn beperkt tot gebruikers met de machtiging op hoog niveau van **[!DNL Manage journeys]** . Leer meer over het beheren van [!DNL Journey Optimizer] de toegangsrechten van gebruikers in [ deze sectie ](../administration/permissions-overview.md).
+>
+>* Alvorens het beginnen gebruiken van het Droge looppas vermogen, [ lees uit de Grafieken en Beperkingen ](#journey-dry-run-limitations).
 
-
-## Afvoerkanalen en beperkingen {#journey-dry-run-limitations}
-
-* De modus Droge run is niet beschikbaar voor reizen die gebeurtenissen met reacties bevatten.
-* Profielen in de modus Droog worden geteld voor inzetbare profielen.
-* Droge ritten hebben geen invloed op de bedrijfsregels.
-* Wanneer het creëren van een nieuwe reisversie, als een vorige reisversie **Levend** is, dan wordt de droge looppasactivering niet toegestaan op de nieuwe versie.
-* De looppas van de Droog van de reis produceert stepEvents. Deze stepEvents hebben een specifieke vlag en Dry run ID:
-   * `_experience.journeyOrchestration.stepEvents.inDryRun` retourneert `true` als de droog-uitvoering is geactiveerd, anders `false`
-   * `_experience.journeyOrchestration.stepEvents.dryRunID` retourneert de id van een droge runtime-instantie
-* Tijdens de Dry-run wordt de reis uitgevoerd met de volgende specifieke kenmerken:
-
-   * **de actieknooppunten van het Kanaal** met inbegrip van E-mail, SMS of Push berichten worden niet uitgevoerd.
-   * **de acties van de Douane** worden onbruikbaar gemaakt tijdens Droog looppas, en hun reacties worden geplaatst aan ongeldig.
-   * **wacht knopen** worden overgeslagen tijdens Dry looppas.
-     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-   * **de bronnen van Gegevens**, met inbegrip van externe gegevensbronnen, worden uitgevoerd door gebrek.
 
 ## Een droge run starten {#journey-dry-run-start}
 
@@ -132,3 +117,20 @@ De droge looppas reizen **moeten** manueel worden tegengehouden.
 Klik de **Dichte** knoop om de test te beëindigen, en klik **terug naar Ontwerp** om te bevestigen.
 
 <!-- After 14 days, Dry run journeys automatically transition to the **Draft** status.-->
+
+## Afvoerkanalen en beperkingen {#journey-dry-run-limitations}
+
+* De modus Droge run is niet beschikbaar voor reizen die gebeurtenissen met reacties bevatten.
+* Profielen in de modus Droog worden geteld voor inzetbare profielen.
+* Droge ritten hebben geen invloed op de bedrijfsregels.
+* Wanneer het creëren van een nieuwe reisversie, als een vorige reisversie **Levend** is, dan wordt de droge looppasactivering niet toegestaan op de nieuwe versie.
+* De looppas van de Droog van de reis produceert stepEvents. Deze stepEvents hebben een specifieke vlag en Dry run ID:
+   * `_experience.journeyOrchestration.stepEvents.inDryRun` retourneert `true` als de droog-uitvoering is geactiveerd, anders `false`
+   * `_experience.journeyOrchestration.stepEvents.dryRunID` retourneert de id van een droge runtime-instantie
+* Tijdens de Dry-run wordt de reis uitgevoerd met de volgende specifieke kenmerken:
+
+   * **de actieknooppunten van het Kanaal** met inbegrip van E-mail, SMS of Push berichten worden niet uitgevoerd.
+   * **de acties van de Douane** worden onbruikbaar gemaakt tijdens Droog looppas, en hun reacties worden geplaatst aan ongeldig.
+   * **wacht knopen** worden overgeslagen tijdens Dry looppas.
+     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
+   * **de bronnen van Gegevens**, met inbegrip van externe gegevensbronnen, worden uitgevoerd door gebrek.
