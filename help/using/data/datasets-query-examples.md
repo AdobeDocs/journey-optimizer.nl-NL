@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: dataset, optimizer, gebruiksgevallen
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: 1728d43bf278f9caf127d8ed44ef8b15969485f7
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '894'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Op deze pagina vindt u de lijst met Adobe Journey Optimizer-gegevenssets en verw
 * [Gegevensset BCC-feedbackgebeurtenis](#bcc-feedback-event-dataset)
 * [Entiteitsgegevens](#entity-dataset)
 
-Om de volledige lijst van gebieden en attributen voor elk schema te bekijken, raadpleeg het [ het schemawoordenboek van Journey Optimizer ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL){target="_blank"} .
+Om de volledige lijst van gebieden en attributen voor elk schema te bekijken, raadpleeg het [ het schemawoordenboek van Journey Optimizer ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
 ## Dataset over e-mailvolgervaringen{#email-tracking-experience-event-dataset}
 
@@ -167,6 +167,12 @@ ORDER BY timestamp DESC;
 waarbij de datumnotatie: `YYYY-MM-DD HH:MM:SS` is.
 
 Zodra geïdentificeerd, verwijder die adressen uit de onderdrukkingslijst van Journey Optimizer. [Meer informatie](../configuration/manage-suppression-list.md#remove-from-suppression-list).
+
+
+>[!NOTE]
+>
+>In sommige ritten is `messageID` mogelijk niet uniek voor elke afzonderlijke levering. Als een rit dezelfde handeling opnieuw naar hetzelfde profiel verzendt, kan dezelfde `messageID` opnieuw worden gebruikt. Als u gebeurtenissen op het individuele verzendniveau nauwkeurig wilt bijhouden of kenmerken, combineert u daarom de velden `journeyVersionID` , `journeyActionID` en `batchInstanceID` (voor batchritten) of `identityMap` voor nauwkeurigere uniciteit.
+
 
 ## Dataset met gebeurtenissen voor het bijhouden van pushmeldingen {#push-tracking-experience-event-dataset}
 
