@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: extern, bronnen, gegevens, configuratie, verbinding, derde
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 2a2abe3e663f8c9ff24c804eae53d44988960838
+source-git-commit: 71d1a7c305c33ab7bef91b82329ecb692445fb27
 workflow-type: tm+mt
-source-wordcount: '1583'
-ht-degree: 50%
+source-wordcount: '1631'
+ht-degree: 48%
 
 ---
 
@@ -229,9 +229,9 @@ Hier is een voorbeeld voor het dragerauthentificatietype:
 
 >[!NOTE]
 >
->Het verificatietoken wordt per reis in de cache opgeslagen: wanneer twee reizen dezelfde aangepaste handeling gebruiken, heeft elke reis een eigen token in de cache. Deze token wordt niet tussen deze reizen gedeeld.
+>* Het verificatietoken wordt per reis in de cache opgeslagen: wanneer twee reizen dezelfde aangepaste handeling gebruiken, heeft elke reis een eigen token in de cache. Deze token wordt niet tussen deze reizen gedeeld.
 >
->De duur van het geheime voorgeheugen helpt om teveel vraag aan de authentificatieeindpunten te vermijden. Het symbolenbehoud van de authentificatie wordt caching in de diensten, er is geen persistentie. Als de dienst opnieuw wordt begonnen, begint het met een schone geheime voorgeheugen. De cache-duur is standaard 1 uur. In de lading van de douaneauthentificatie, kan het worden aangepast door een andere bewaarduur te specificeren.
+>* De duur van het geheime voorgeheugen helpt om teveel vraag aan de authentificatieeindpunten te vermijden. Het symbolenbehoud van de authentificatie wordt caching in de diensten, er is geen persistentie. Als de dienst opnieuw wordt begonnen, begint het met een schone geheime voorgeheugen. De cache-duur is standaard 1 uur. In de lading van de douaneauthentificatie, kan het worden aangepast door een andere bewaarduur te specificeren.
 >
 
 Hier ziet u een voorbeeld van het type headerverificatie:
@@ -269,3 +269,7 @@ Hier is een voorbeeld van de reactie van de login API vraag:
   "expiryDuration" : 5
 }
 ```
+
+>[!CAUTION]
+>
+>Wanneer het vormen van douaneauthentificatie voor een douaneactie, merk op dat de genestelde voorwerpen JSON (b.v., sub-voorwerpen binnen `bodyParams`) momenteel **niet** worden gesteund. Alleen platte sleutel-waardeparen worden opgenomen in de uiteindelijke lading van het verzoek. Als uw verificatiepunt geneste objecten vereist, kan dit leiden tot ontbrekende velden en verificatiefouten.
