@@ -33,7 +33,7 @@ Dankzij de Adobe Express-integratie in Adobe Journey Optimizer hebt u eenvoudig 
 >
 >Adobe Express-integratie in Adobe Journey Optimizer is momenteel niet beschikbaar voor gebruik met het Healthcare Shield of Privacy and Security Shield.
 
-Meer over Adobe Express leren, verwijs naar [ deze documentatie ](https://helpx.adobe.com/express/user-guide.html).
+Meer over Adobe Express leren, verwijs naar [ deze documentatie ](https://helpx.adobe.com/nl/express/user-guide.html).
 
 Om tot het **[!DNL Adobe Express]** menu toegang te hebben, heb toegang tot uw **montages van het Beeld** van E-mail Designer en klik **[!UICONTROL Edit in Adobe Express]**.
 
