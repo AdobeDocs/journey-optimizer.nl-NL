@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 190f757853f65b7434319047760c2efb43d2d702
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 4%
+source-wordcount: '416'
+ht-degree: 3%
 
 ---
 
@@ -51,6 +51,17 @@ De hoeveelheid tijd (in milliseconden) die is besteed aan het uitvoeren van een 
 
 Type: lang
 
+>[!NOTE]
+>
+> Het `actionExecutionTime` gebied vertegenwoordigt de totale tijd (in milliseconden) die wordt genomen om de actie uit te voeren, met inbegrip van zowel de tijd het bestede verzoek wachtend in de rij (als de vertraging wordt gevormd en de tariefgrens wordt bereikt) en de daadwerkelijke uitvoeringstijd (met inbegrip van netwerklatentie aan het externe eindpunt).
+>
+> Het veld `Timestamp` geeft de eindtijd van de uitvoering van de handeling aan. Wanneer u wilt bepalen wanneer het profiel het aangepaste actieknooppunt heeft ingevoerd, trekt u `actionExecutionTime` van `Timestamp` af.
+>
+>Bijvoorbeeld als `Timestamp` &quot;2025-02-04 09 :39: 03 UTC&quot;is en `actionExecutionTime` 1.813.227 ms (~31 minuten) is, ging het profiel de knoop bij ongeveer &quot;2025-02-04 09 :08: 32 UTC&quot;binnen.
+
+
+
+
 ## actionExecutionError {#actionexecutionerror-field}
 
 Type fout dat optreedt wanneer de handeling wordt aangeroepen.
@@ -61,7 +72,7 @@ Waarden:
 * http
 * begrenzen
 * timeout
-* error
+* fout
 
 ## actionExecutionErrorCode {#actionexecutionerrorcode-field}
 
