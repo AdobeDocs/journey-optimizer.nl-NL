@@ -10,9 +10,9 @@ role: User
 level: Beginner
 keywords: elementen, integratie
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: bba2fd3b481c582f33ffad79d1f1c1327143f108
+source-git-commit: 070debe5c4fb5e39316b12a0788ec55abbf3c005
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '531'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Dankzij de Adobe Express-integratie in Adobe Journey Optimizer hebt u eenvoudig 
 >
 >Adobe Express-integratie in Adobe Journey Optimizer is momenteel niet beschikbaar voor gebruik met het Healthcare Shield of Privacy and Security Shield.
 
-Meer over Adobe Express leren, verwijs naar [ deze documentatie ](https://helpx.adobe.com/nl/express/user-guide.html).
+Meer over Adobe Express leren, verwijs naar [ deze documentatie ](https://helpx.adobe.com/express/user-guide.html).
 
 Om tot het **[!DNL Adobe Express]** menu toegang te hebben, heb toegang tot uw **montages van het Beeld** van E-mail Designer en klik **[!UICONTROL Edit in Adobe Express]**.
 
@@ -52,6 +52,13 @@ Met een Enterprise-licentie hebben gebruikers volledige toegang tot de Adobe Exp
 Voor meer informatie over beschikbare gebruiksgevallen voor gebruikers met een vergunning van de Onderneming voor Adobe Express, verwijs naar [ documentatie van het Web van Adobe Express ](https://helpx.adobe.com/express/web.html).
 
 ## Adobe Express gebruiken zonder Enterprise-licentie  {#edit}
+
+Zonder een Enterprise-licentie hebben gebruikers toegang tot de volgende gebruiksgevallen die beschikbaar zijn in Adobe Express:
+
+* [Formaat afbeelding wijzigen](#resize)
+* [Achtergrond verwijderen](#background)
+* [Afbeelding uitsnijden](#crop-image)
+* [Omzetten in JPEG of PNG](#convert)
 
 ### Formaat afbeelding wijzigen {#resize}
 
@@ -141,7 +148,7 @@ Uw afbeelding kan nu worden gebruikt in uw inhoud.
 
 Leer hoe u uw middelen in Adobe Journey Optimizer kunt bewerken met de Adobe Express-gereedschappen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455529/?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 
