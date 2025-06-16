@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: publiceren, reizen, live, geldigheid, controle
-source-git-commit: 187ddc49d72a0ed5ce0ad6f7b910815ae2e59d34
+source-git-commit: 33b60693d060e37873f9d505d0893839698036a8
 workflow-type: tm+mt
-source-wordcount: '2008'
+source-wordcount: '2011'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Dit vermogen vermindert het risico om onbedoelde berichten tijdens fouten of upd
 >
 >* Machtigingen om reizen te pauzeren en te hervatten zijn beperkt tot gebruikers met de machtiging op hoog niveau van **[!DNL Publish journeys]** . Leer meer over het beheren van [!DNL Journey Optimizer] de toegangsrechten van gebruikers in [ deze sectie ](../administration/permissions-overview.md).
 >
->* Alvorens het beginnen gebruiken van het pauze/hervattingsvermogen, [ lees uit de Grafieken en Beperkingen ](#journey-pause-guardrails).
+>* Alvorens het beginnen gebruiken van het pauze/hervattingsvermogen, [ lees uit de Guardrails en de beperkingen ](#journey-pause-guardrails).
 
 
 ## Hoe een reis pauzeren {#journey-pause-steps}
@@ -148,39 +148,42 @@ Houd er rekening mee dat profieluitsluitingen voor profielen die momenteel op re
 
 ## Afvoerkanalen en beperkingen {#journey-pause-guardrails}
 
-* Een reisversie kan maximaal 14 dagen worden onderbroken.
-* Gepauzeerde reizen worden in alle bedrijfsregels beschouwd, net als wanneer ze in leven waren.
-* Profielen worden tijdens een gepauzeerde reis &quot;verwijderd&quot; wanneer ze een actieactiviteit bereiken. Als zij op een wachttijd blijven tijdens de tijd dat een reis wordt gepauzeerd en vertrekken die wachten nadat deze is hervat, zullen zij de reis voortzetten en niet worden weggegooid.
-* Zelfs na de pauze zouden deze gebeurtenissen, aangezien de gebeurtenissen nog steeds worden verwerkt, worden geteld voor het aantal Reisgebeurtenissen per seconde quota, waarna er een vertraging optreedt voor de eenheid.
-* Profielen die tijdens de pauze op de reis zijn gekomen, worden nog steeds als aanspreekbare profielen geteld.
+* Een reisversie kan maximaal 14 dagen worden onderbroken
+* Gepauzeerde reizen worden meegerekend in de quota voor rechtstreekse reizen
+* Profielen die tijdens de pauze zijn opgepakt maar die tijdens de reis zijn verwijderd, worden nog steeds als inzetbare profielen geteld
+* Gepauzeerde reizen worden in alle bedrijfsregels in aanmerking genomen, op dezelfde manier als wanneer ze levend waren
+* De wereldwijde time-out van de reis geldt nog steeds voor gepauzeerde reizen. Als een profiel bijvoorbeeld 90 dagen op reis was en de reis wordt gepauzeerd, zal dit profiel de reis op de 91ste dag nog steeds verlaten
+* Profielen worden **verworpen** in een gepauzeerde reis wanneer zij een actieactiviteit bereiken. Als zij op een wachttijd blijven tijdens de tijd dat een reis wordt gepauzeerd en vertrekken die wachten nadat deze is hervat, zullen zij de reis voortzetten en niet worden weggegooid. [ zie de steekproef van begin tot eind ](#journey-pause-sample)
+* Zelfs na de pauze zouden deze gebeurtenissen, aangezien de gebeurtenissen nog steeds worden verwerkt, worden geteld voor het aantal Journale Gebeurtenissen per seconde quota waarna er een vertraging ontstaat voor de eenheid
 * Als profielen tijdens een gepauzeerde rit staan, worden de profielkenmerken tijdens het hervatten vernieuwd
-* Voorwaarden worden nog steeds uitgevoerd tijdens gepauzeerde reizen, dus als een reis is gepauzeerd vanwege problemen met de gegevenskwaliteit, kan elke voorwaarde voorafgaand aan een actieknooppunt worden geëvalueerd met onjuiste gegevens.
-* Voor de incrementele op het publiek gebaseerde leestreis wordt rekening gehouden met de gepauzeerde duur. Als de reis bijvoorbeeld op de tweede dag werd gepauzeerd en op de vijfde van de maand werd hervat, zal de 6de reis alle profielen nemen die van de eerste tot en met de zesde zijn gekwalificeerd. Dit is niet het geval voor publiekskwalificatie of op gebeurtenis-gebaseerde reizen (als een publiekskwalificatie of een gebeurtenis tijdens een pauze worden ontvangen, worden die gebeurtenissen verworpen).
-* Gepauzeerde ritten worden meegeteld in de quota voor rechtstreekse reizen.
-* De wereldwijde time-out van de reis geldt nog steeds voor gepauzeerde reizen. Als een profiel bijvoorbeeld 90 dagen op reis was en de reis wordt gepauzeerd, zal dit profiel de reis op de 91ste dag nog steeds verlaten.
-* Als profielen op reis worden gehouden en deze reis na een paar dagen automatisch wordt hervat, blijven profielen de reis voortzetten en niet vallen. Als je ze wilt laten vallen, moet je de reis stoppen.
-* Bij gepauzeerde ritten worden waarschuwingen niet afgevuurd voor waarschuwingen over batchsegmenten.
-* Er zijn geen controlelogboeken in het systeem wanneer na 14 dagen pauzestatus van de reis wordt beëindigd.
-* Sommige verwijderde profielen kunnen zichtbaar zijn in de Gebeurtenis van de Stap van de Reis maar niet zichtbaar in het melden. Bijvoorbeeld: verwerp bedrijfsgebeurtenissen voor Read Audience, lees de banen van het Publiek die wegens gepauzeerde reis worden gelaten vallen, Verworpen gebeurtenissen wanneer de gebeurtenisactiviteit na een actie was waar het profiel wachtte.
-  <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
+* Voorwaarden worden nog steeds uitgevoerd tijdens gepauzeerde reizen, zodat als een reis is gepauzeerd vanwege problemen met de gegevenskwaliteit, elke voorwaarde vóór een actieknooppunt kan worden geëvalueerd met onjuiste gegevens
+* Voor stijgende die publiek **wordt gebaseerd Gelezen publiek** reizen, wordt de gepauzeerde duur overwogen. Als de reis bijvoorbeeld op de tweede dag werd gepauzeerd en op de vijfde van de maand werd hervat, zal de 6de reis alle profielen nemen die van de eerste tot en met de zesde zijn gekwalificeerd. Dit is niet het geval voor publiekskwalificatie of op gebeurtenis-gebaseerde reizen (als een publiekskwalificatie of een gebeurtenis tijdens een pauze worden ontvangen, worden die gebeurtenissen verworpen)
+* Als profielen op reis worden gehouden en deze reis na een paar dagen automatisch wordt hervat, blijven profielen de reis voortzetten en niet vallen. Als je ze wilt laten vallen, moet je de reis stoppen
+* Bij gepauzeerde reizen worden waarschuwingen niet afgevuurd voor waarschuwingen over batchsegmenten
+* Er zijn geen auditlogs in het systeem wanneer na 14 dagen pauzestatus de reis wordt beëindigd
+* Sommige verwijderde profielen kunnen zichtbaar zijn in de Gebeurtenis van de Stap van de Reis maar niet zichtbaar in het melden. Bijvoorbeeld:
+   * De bedrijfsgebeurtenissen van de verwerping voor **Lees Publiek**
+   * **Gelezen de banen van het publiek** die wegens gepauzeerde reis worden gelaten vallen
+   * Verworpen gebeurtenissen wanneer de **activiteit van de Gebeurtenis** na een actie was waar het profiel wachtte
+     <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
 
-## Einde tot einde van monster {#journey-pause-sample}
+## Eindmonster {#journey-pause-sample}
 
 Laten we het volgende voorbeeld van de reis nemen:
 
-![ Steekproef van een reis ](assets/pause-journey-sample.png)
+![ Steekproef van een reis ](assets/pause-journey-sample.png){zoomable="yes"}
 
-Wanneer het pauzeren van deze reis, selecteert u als de profielen **&#x200B;**&#x200B;of **Geweigerd Greep** zijn en dan profielbeheer is het volgende:
+Wanneer het pauzeren van deze reis, selecteert u als de profielen **** of **Greep** worden genegeerd, en dan profielbeheer is het volgende:
 
-1. **AddToCart** activiteit: alle nieuwe profielingangen worden geblokkeerd. Als een profiel reeds de reis vóór een pauze is ingegaan, zullen zij tot de volgende actieknooppunt voortzetten.
+1. **AddToCart** activiteit: alle nieuwe profielingangen worden geblokkeerd. Als een profiel al de reis vóór een pauze is ingegaan, gaan zij tot de volgende actieknooppunt voort.
 1. **wacht** activiteit: de profielen blijven normaal op de knoop wachten en zullen het weggaan, zelfs als de reis in pauze is.
 1. **Voorwaarde**: de profielen blijven door voorwaarden gaan en zich naar de juiste tak bewegen, die op de uitdrukking wordt gebaseerd op de voorwaarde wordt bepaald.
 1. **duw**/**e-mail** activiteiten: tijdens een gepauzeerde reis, beginnen de profielen te wachten of worden verworpen (die op de keus door de gebruiker op het tijdstip van pauze wordt gemaakt) op de volgende actieknooppunt wordt gebaseerd. Profielen wachten dus of worden daar genegeerd.
-1. **Gebeurtenissen** na actieknooppunten: als een profiel op een actieknooppunt wacht en er een gebeurtenis na het is, als die gebeurtenis wordt in brand gestoken, zal het profiel worden verworpen.
+1. **Gebeurtenissen** na **3} knopen van de Actie {: als een profiel op een** knoop van de Actie **wacht en er een** activiteit van de Gebeurtenis **na het is, als die gebeurtenis in brand wordt gestoken, wordt het profiel verworpen.**
 
-Op basis van dit gedrag kunt u zien dat de profielnummers toenemen tijdens een gepauzeerde reis, meestal bij activiteiten vóór Handelingen. Bijvoorbeeld, in dat voorbeeld, wordt de Wacht genegeerd, verhogend het aantal profielen die door de activiteit van de Voorwaarde gaan.
+Zoals per dit gedrag, kunt u profielaantallen zien die op gepauzeerde reis stijgen, meestal in activiteiten vóór **Actie** activiteiten. Bijvoorbeeld, in dat voorbeeld, **wacht** activiteit wordt genegeerd, verhogend het aantal profielen die door de **** activiteit van de Voorwaarde gaan.
 
 Wanneer u deze reis hervat:
 
 1. Vernieuwde ingangen beginnen binnen een minuut
-1. Profielen die op dit moment op de reis naar activiteiten in het kader van Actie stonden, worden hervat met een tps-tarief van 5 kB. Daarna zullen ze de actie ingaan waar ze op wachtten, en de reis voortzetten.
+1. De profielen die momenteel in de reis op **activiteiten wachtten van de Actie** worden hervat bij een tarief van 5k tps. Zij kunnen dan de **Actie** ingaan zij op wachtten, en de reis voortzetten.
