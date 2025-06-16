@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: publiceren, reizen, live, geldigheid, controle
-source-git-commit: 60d3cbb1a95e347d6e727b79ccee8534453a55ab
+source-git-commit: 187ddc49d72a0ed5ce0ad6f7b910815ae2e59d34
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '2008'
 ht-degree: 0%
 
 ---
@@ -76,23 +76,21 @@ Wanneer een reis wordt gepauzeerd, worden de verse ingangen altijd genegeerd, on
 
 Wanneer een reis wordt gepauzeerd, hangt profielbeheer en activiteitenuitvoering van de activiteit af. Gedragingen worden hieronder beschreven. Voor een volledig begrip, zie ook dit [ Eind om steekproef ](#journey-pause-sample) te beëindigen.
 
+
 | Reisactiviteiten | Gevolgen |
 |-------------------------|--------------------------------------------------|
 | [ Kwalificatie van het publiek ](audience-qualification-events.md) | <ul> <li>In het eerste knooppunt: Het publiek wordt verwijderd </li><li>In andere knopen: Het zelfde gedrag zoals in een levende reis, echter als de publiekskwalificatie na een <strong> Actie </strong> activiteit is en de gebruiker op die actie wordt gepauzeerd, wordt de publiekskwalificatie verworpen. </li></ul> |
 | [ Eenvoudige Gebeurtenis ](general-events.md) | <ul> <li>In het eerste knooppunt: De gebeurtenis wordt genegeerd</li><li>In andere knopen: Het zelfde gedrag zoals in een levende reis, echter als de gebeurtenis na een <strong> Actie </strong> activiteit is en de gebruiker op die actie wordt gepauzeerd, wordt de gebeurtenis verworpen. </li></ul> |
-| [ gelezen Publiek ](read-audience.md) | Hetzelfde gedrag als tijdens een live reis, met een paar specifieke kenmerken:<ol> |
-<li> Als <strong> Pauze </strong> werd geduwd nadat <strong> gelezen publiek </strong> activiteit was begonnen, zullen de profielen die de reis zijn ingegaan (tot de volgende <strong> actie </strong> activiteit) verdergaan. Als het volledige publiek nog niet is ingevoerd tijdens de reis en het publiek met een bepaalde snelheid leest, worden de resterende profielen in de wachtrij genegeerd.</li>
-<li> Voor afzonderlijke uitvoeringen: er wordt geen fout weergegeven op het moment van hervatting als de geplande datum voor de hervattingsdatum ligt. Dat schema wordt genegeerd.</li>&lt;
-<li>Voor incrementele reizen: <ul><li>Als pauze plaatsvindt vóór de eerste instantie, wordt bij hervatting het volledige publiek afgespeeld. </li><li>Als bijvoorbeeld pauze optreedt op de vierde dag van een dagelijkse herhaling en de reis onderbroken blijft tot de negende dag, worden alle profielen die vanaf de vierde tot de negende dag zijn ingevoerd, hervat  </li></ul></ol>   |
-| [Reaction](response-events.md)      | Het zelfde gedrag zoals in een levende reis, echter als de reactie na een <strong> Actie </strong> activiteit is en de gebruiker op die actie wordt gepauzeerd, wordt de gebeurtenis verworpen.    |
-| [Wacht](wait-activity.md)             | Hetzelfde gedrag als tijdens een live reis | 
-| [Condition](condition-activity.md)  | Hetzelfde gedrag als tijdens een live reis |
-| Inhoudsbesluit  | Profielen worden geparkeerd of gedecardeerd op basis van de keuze van de gebruiker wanneer de reis is gepauzeerd |
-| [Kanaalactie](trip-message.md)  | Profielen worden geparkeerd of gedecardeerd op basis van de keuze van de gebruiker wanneer de reis is gepauzeerd |
-| [Aangepaste actie](../action/action.md)   | Profielen worden geparkeerd of gedecardeerd op basis van de keuze van de gebruiker wanneer de reis is gepauzeerd |
-| [Profiel bijwerken](update-profiles.md) &amp; [Springen](jump.md) | Hetzelfde gedrag als tijdens een live reis  |
-| [External Data Source](../datasource/external-data-sources.md)  | Hetzelfde gedrag als tijdens een live reis |
-| [Afsluitcriteria] (eigenschappen van de reis.md#exit-criteria)  | Hetzelfde gedrag als tijdens een live reis |
+| [ gelezen Publiek ](read-audience.md) | Hetzelfde gedrag als tijdens een live reis, met enkele specifieke kenmerken <ol> <li> Als <strong> Pauze </strong> werd geduwd nadat <strong> gelezen publiek </strong> activiteit was begonnen, zullen de profielen die de reis zijn ingegaan (tot de volgende <strong> actie </strong> activiteit) verdergaan. Als het volledige publiek nog niet is ingevoerd tijdens de reis en het publiek met een bepaalde snelheid leest, worden de resterende profielen in de wachtrij genegeerd.</li><li> Voor afzonderlijke uitvoeringen: er wordt geen fout weergegeven op het moment van hervatting als de geplande datum voor de hervattingsdatum ligt. Dat schema wordt genegeerd.</li><li>Voor incrementele reizen: <ul><li>Als pauze plaatsvindt vóór de eerste instantie, wordt bij hervatting het volledige publiek afgespeeld. </li><li>Als bijvoorbeeld pauze optreedt op de vierde dag van een dagelijkse herhaling en de reis onderbroken blijft tot de negende dag, worden alle profielen die vanaf de vierde tot de negende dag zijn ingevoerd, hervat  </li></ul></ol> |
+| [ Reactie ](reaction-events.md) | Het zelfde gedrag zoals in een levende reis, echter als de reactie na een <strong> Actie </strong> activiteit is en de gebruiker op die actie wordt gepauzeerd, wordt de gebeurtenis verworpen. |
+| [Wachten](wait-activity.md) | Hetzelfde gedrag als tijdens een live reis |
+| [Condition](condition-activity.md) | Hetzelfde gedrag als tijdens een live reis |
+| Inhoudsbesluit | Profielen worden geparkeerd of gedecardeerd op basis van de keuze van de gebruiker wanneer de reis is gepauzeerd |
+| [ Actie van het Kanaal ](journeys-message.md) | Profielen worden geparkeerd of gedecardeerd op basis van de keuze van de gebruiker wanneer de reis is gepauzeerd |
+| [ Actie van de Douane ](../action/action.md) | Profielen worden geparkeerd of gedecardeerd op basis van de keuze van de gebruiker wanneer de reis is gepauzeerd |
+| [ Profiel van de Update ](update-profiles.md) &amp; [ Jump ](jump.md) | Hetzelfde gedrag als tijdens een live reis |
+| [ Externe Gegevens Source ](../datasource/external-data-sources.md) | Hetzelfde gedrag als tijdens een live reis |
+| [ Criteria van de Uitgang ](journey-properties.md#exit-criteria) | Hetzelfde gedrag als tijdens een live reis |
 
 ## Hoe te om een gepauzeerde reis te hervatten {#journey-resume-steps}
 
@@ -172,7 +170,7 @@ Laten we het volgende voorbeeld van de reis nemen:
 
 ![ Steekproef van een reis ](assets/pause-journey-sample.png)
 
-Wanneer het pauzeren van deze reis, selecteert u als de profielen **&#x200B;**&#x200B;of **Geweigerd Greep** zijn en dan profielbeheer is het volgende:
+Wanneer het pauzeren van deze reis, selecteert u als de profielen **** of **Geweigerd Greep** zijn en dan profielbeheer is het volgende:
 
 1. **AddToCart** activiteit: alle nieuwe profielingangen worden geblokkeerd. Als een profiel reeds de reis vóór een pauze is ingegaan, zullen zij tot de volgende actieknooppunt voortzetten.
 1. **wacht** activiteit: de profielen blijven normaal op de knoop wachten en zullen het weggaan, zelfs als de reis in pauze is.
