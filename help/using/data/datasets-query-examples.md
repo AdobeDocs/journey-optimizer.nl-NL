@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: dataset, optimizer, gebruiksgevallen
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 1728d43bf278f9caf127d8ed44ef8b15969485f7
+source-git-commit: 3df87ee9028217d353d657167e541e7d113c6065
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Op deze pagina vindt u de lijst met Adobe Journey Optimizer-gegevenssets en verw
 * [Gegevensset BCC-feedbackgebeurtenis](#bcc-feedback-event-dataset)
 * [Entiteitsgegevens](#entity-dataset)
 
-Om de volledige lijst van gebieden en attributen voor elk schema te bekijken, raadpleeg het [ het schemawoordenboek van Journey Optimizer ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL){target="_blank"}.
+Om de volledige lijst van gebieden en attributen voor elk schema te bekijken, raadpleeg het [ het schemawoordenboek van Journey Optimizer ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
 ## Dataset over e-mailvolgervaringen{#email-tracking-experience-event-dataset}
 
@@ -146,6 +146,11 @@ Permanente fouten gegroepeerd op stuitercode:
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, COUNT(*) AS hardbouncecount FROM ajo_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type = 'Hard' AND _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY failurereason
 ```
 
+>[!NOTE]
+>
+>In sommige ritten is `messageID` mogelijk niet uniek voor elke afzonderlijke levering. Als een rit dezelfde handeling opnieuw naar hetzelfde profiel verzendt, kan dezelfde `messageID` opnieuw worden gebruikt. Als u gebeurtenissen op het individuele verzendniveau nauwkeurig wilt bijhouden of kenmerken, combineert u daarom de velden `journeyVersionID` , `journeyActionID` en `batchInstanceID` (voor batchritten) of `identityMap` voor nauwkeurigere uniciteit.
+
+
 ### Identificeer quarantined adressen na een ISP stroomonderbreking{#isp-outage-query}
 
 In het geval van een stroomonderbreking van Internet Service Provider (ISP), moet u e-mailadressen identificeren die verkeerd als grenzen (quarantined) voor specifieke domeinen, tijdens een timeframe worden aangebracht. Gebruik de volgende query om deze adressen op te halen:
@@ -169,9 +174,6 @@ waarbij de datumnotatie: `YYYY-MM-DD HH:MM:SS` is.
 Zodra geïdentificeerd, verwijder die adressen uit de onderdrukkingslijst van Journey Optimizer. [Meer informatie](../configuration/manage-suppression-list.md#remove-from-suppression-list).
 
 
->[!NOTE]
->
->In sommige ritten is `messageID` mogelijk niet uniek voor elke afzonderlijke levering. Als een rit dezelfde handeling opnieuw naar hetzelfde profiel verzendt, kan dezelfde `messageID` opnieuw worden gebruikt. Als u gebeurtenissen op het individuele verzendniveau nauwkeurig wilt bijhouden of kenmerken, combineert u daarom de velden `journeyVersionID` , `journeyActionID` en `batchInstanceID` (voor batchritten) of `identityMap` voor nauwkeurigere uniciteit.
 
 
 ## Dataset met gebeurtenissen voor het bijhouden van pushmeldingen {#push-tracking-experience-event-dataset}
