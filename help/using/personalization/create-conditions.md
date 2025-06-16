@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressie, editor, voorwaardelijk, regels
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 6f9bdb179f2bfff30494495b68a15aaac77d6b9e
+source-git-commit: 0ce842816e8a63fabd21483323c664238c32848a
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -56,17 +56,17 @@ U kunt als volgt een voorwaardelijke regel maken:
 
 1. Bouw de voorwaardelijke regel volgens uw behoeften. U doet dit door de gewenste kenmerken vanuit het linkermenu naar het canvas te slepen en neer te zetten.
 
-   De stappen om kenmerken in het canvas te combineren zijn gelijkaardig aan de ervaring van het segmentbouwen. Voor meer informatie over hoe te met het canvas van de regelbouwer te werken, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=nl-NL#rule-builder-canvas).
+   De stappen om kenmerken in het canvas te combineren zijn gelijkaardig aan de ervaring van het segmentbouwen. Voor meer informatie over hoe te met het canvas van de regelbouwer te werken, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas).
 
    ![](assets/conditions-create.png)
 
    De kenmerken zijn ingedeeld in drie tabbladen:
 
    * **[!UICONTROL Profile]** :
-      * **[!UICONTROL Audiences]** geeft alle publiekskenmerken weer (bijvoorbeeld status, versie enz.) voor [ de dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL),
-      * **[!UICONTROL XDM Individual profiles]** maakt een lijst van alle profielattributen verbonden aan het [ Model van de Gegevens van de Ervaring (XDM) schema ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) dat in Adobe Experience Platform wordt bepaald.
+      * **[!UICONTROL Audiences]** maakt een lijst van alle publieksattributen (d.w.z. status, versie etc.) voor [ de dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"},
+      * **[!UICONTROL XDM Individual profiles]** maakt een lijst van alle profielattributen verbonden aan het [ Model van de Gegevens van de Ervaring (XDM) schema ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"} dat in Adobe Experience Platform wordt bepaald.
    * **[!UICONTROL Contextual]**: wanneer uw bericht tijdens een reis wordt gebruikt, zijn de contextuele reisgebieden beschikbaar door dit lusje.
-   * **[!UICONTROL Audiences]**: maakt een lijst van alle publiek dat van segmentdefinities wordt geproduceerd die in [ de dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL) worden gecreeerd.
+   * **[!UICONTROL Audiences]**: maakt een lijst van alle publiek dat van segmentdefinities wordt geproduceerd die in [ de dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} worden gecreeerd.
 
 1. Zodra uw voorwaardelijke regel klaar is, kunt u deze aan uw bericht toevoegen om dynamische inhoud te maken. [ Leer hoe te om dynamische inhoud toe te voegen ](dynamic-content.md)
 
@@ -87,6 +87,11 @@ Als er voorwaardenregels zijn die u vaak opnieuw gebruikt, kunt u deze opslaan i
    ![](assets/conditions-name-description.png)
 
 1. De voorwaardelijke regel wordt opgeslagen in de bibliotheek. U kunt het nu gebruiken om dynamische inhoud in uw berichten tot stand te brengen. [ Leer hoe te om dynamische inhoud toe te voegen ](dynamic-content.md)
+
+
+>[!CAUTION]
+>
+>Gebruik bij de naamgeving van voorwaardelijke inhoudsvarianten alleen alfanumerieke tekens (A-Z, a-z, 0-9). Door speciale tekens (zoals `<` , `>` , `=` , `{` , `}` , enz.) in variantnamen te gebruiken, kan de sjablooneditor componenten afbreken of verbergen.
 
 ## Opgeslagen voorwaardelijke regels bewerken en verwijderen {#edit-delete}
 

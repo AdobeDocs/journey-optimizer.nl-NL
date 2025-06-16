@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, editor, dynamic, content
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 0ce842816e8a63fabd21483323c664238c32848a
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,11 @@ U kunt als volgt dynamische inhoud in expressies toevoegen:
 1. Wanneer de inhoud gereed is, kunt u een voorvertoning van de verschillende varianten weergeven met de knop **[!UICONTROL Simulate content]** . [ Leer hoe te om berichten ](../content-management/preview-test.md) te testen en voor te vertonen
 
    ![](assets/conditions-preview.png)
+
+>[!CAUTION]
+>
+>Als de E-mail Designer niet correct wordt weergegeven nadat voorwaardelijke blokken zijn toegevoegd, controleert u of de syntaxis van elke nieuwe voorwaarde correct is en of er geen dubbele of conflicterende instructies bestaan. Als er problemen blijven optreden, kunt u probleemgebieden opnieuw samenstellen in een nieuwe sjabloon en elke voorwaardelijke blokkering stapsgewijs testen.
+
 
 ## Dynamische inhoud toevoegen aan e-mails {#emails}
 
