@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: publiceren, reizen, live, geldigheid, controle
-source-git-commit: 9d84a319497e833aa77416479dd019bab59aab55
+source-git-commit: df9787d3a22d6fc615049fd738317c943e46ce8f
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: '2008'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Voer de volgende stappen uit om uw reis te pauzeren:
 1. Open de reis die u wilt pauzeren.
 1. Klik op **...Meer** knoop op de hoger-juiste sectie van het wegcanvas, en selecteer **Pauzeren**.
 
-   ![ Pauzeer de reisknoop ](assets/pause-journey-button.png){width="80%" align="left"}
+   ![ Pauzeer de reisknoop ](assets/pause-journey-button.png)
 
 1. Selecteer hoe u profielen wilt beheren die zich momenteel op de reis bevinden.
 
@@ -78,8 +78,8 @@ Profielbeheer wanneer een reis wordt gepauzeerd, is afhankelijk van de activitei
 
 | Reisactiviteiten | Profielmanagement |
 |-------------------------|--------------------------------------------------|
-| [ Kwalificatie van het publiek ](audience-qualification-events.md) | In de eerste knoop: Verworpen <br> in andere knopen: Het zelfde gedrag zoals in een levende reis, echter als de publiekskwalificatie na een <strong> Actie </strong> activiteit is en de gebruiker op die actie wordt gepauzeerd, wordt de publiekskwalificatie verworpen. |
-| [ Eenvoudige Gebeurtenis ](general-events.md) | In de eerste knoop: Ontworpen <br> in andere knopen: Zelfde gedrag zoals in een levende reis, echter als de gebeurtenis na een <strong> actie </strong> activiteit is en de gebruiker op die actie wordt gepauzeerd, wordt de gebeurtenis verworpen. |
+| [ Kwalificatie van het publiek ](audience-qualification-events.md) | <ul> <li>In het eerste knooppunt: Profielen worden verwijderd </li><br><li>In andere knopen: Het zelfde gedrag zoals in een levende reis, echter als de publiekskwalificatie na een <strong> Actie </strong> activiteit is en de gebruiker op die actie wordt gepauzeerd, wordt de publiekskwalificatie verworpen. </li></ul> |
+| [ Eenvoudige Gebeurtenis ](general-events.md) | - In de eerste knoop: Profielen worden verworpen <br> in andere knopen: Het zelfde gedrag zoals in een levende reis, echter als de gebeurtenis na een <strong> actie </strong> activiteit is en de gebruiker op die actie wordt gepauzeerd, wordt de gebeurtenis verworpen. |
 | [ gelezen Publiek ](read-audience.md) | Het zelfde gedrag zoals in een levende reis, met een paar specifieke kenmerken:<br> 1.  Als <strong> Pauze </strong> werd geduwd nadat <strong> gelezen publiek </strong> activiteit was begonnen, zullen de profielen die de reis zijn ingegaan (tot de volgende <strong> actie </strong> activiteit) verdergaan. Als het volledige publiek nog niet is ingevoerd tijdens de reis en het publiek met een bepaalde snelheid leest, worden de resterende profielen in de wachtrij genegeerd.   <br> 2. Voor afzonderlijke uitvoeringen: er wordt geen fout weergegeven op het moment van hervatting als de geplande datum voor de hervattingsdatum ligt. Dat schema wordt genegeerd. <br> 3. Voor incrementele reizen: <br> - Als pauze optreedt vóór de eerste keer, wordt bij hervatting het volledige publiek afgespeeld. <br>- Als pauze bijvoorbeeld plaatsvindt op de vierde dag van een dagelijkse herhaling en de reis onderbroken blijft tot de negende dag, worden alle profielen die vanaf de vierde tot de negende dag zijn ingevoerd, hervat |
 | [ Reactie ](reaction-events.md) | Het zelfde gedrag zoals in een levende reis, echter als de reactie na een <strong> Actie </strong> activiteit is en de gebruiker op die actie wordt gepauzeerd, zal de gebeurtenis worden verworpen. |
 | [Wachten](wait-activity.md) | Hetzelfde gedrag als tijdens een live reis |
@@ -169,7 +169,7 @@ Laten we het volgende voorbeeld van de reis nemen:
 
 ![ Steekproef van een reis ](assets/pause-journey-sample.png)
 
-Wanneer het pauzeren van deze reis, selecteert u als de profielen **&#x200B;**&#x200B;of **Geweigerd Greep** zijn en dan profielbeheer is het volgende:
+Wanneer het pauzeren van deze reis, selecteert u als de profielen **** of **Geweigerd Greep** zijn en dan profielbeheer is het volgende:
 
 1. **AddToCart** activiteit: alle nieuwe profielingangen worden geblokkeerd. Als een profiel reeds de reis vóór een pauze is ingegaan, zullen zij tot de volgende actieknooppunt voortzetten.
 1. **wacht** activiteit: de profielen blijven normaal op de knoop wachten en zullen het weggaan, zelfs als de reis in pauze is.
