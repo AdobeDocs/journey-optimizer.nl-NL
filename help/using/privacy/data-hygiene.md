@@ -38,4 +38,4 @@ Voordat u grootschalige verwijderingen uitvoert, moet u alle vereiste leverings-
 Raadpleeg de documentatie bij Adobe Experience Platform voor meer informatie over de Privacy Service en hoe u bewerkingen tijdens de gegevenslevenscyclus kunt uitvoeren:
 
 * [ overzicht van Privacy Service ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl)
-* [ Levenscyclus van Gegevens in het Platform van de Ervaring van Adobe ](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html)
+* [ Levenscyclus van Gegevens in het Platform van de Ervaring van Adobe ](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html?lang=nl-NL)
