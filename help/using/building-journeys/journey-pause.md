@@ -92,7 +92,7 @@ Wanneer een reis wordt gepauzeerd, hangt profielbeheer en activiteitenuitvoering
 | [Aangepaste actie](../action/action.md)   | Profielen worden geparkeerd of gedecardeerd op basis van de keuze van de gebruiker wanneer de reis is gepauzeerd |
 | [Profiel bijwerken](update-profiles.md) &amp; [Springen](jump.md) | Hetzelfde gedrag als tijdens een live reis  |
 | [External Data Source](../datasource/external-data-sources.md)  | Hetzelfde gedrag als tijdens een live reis |
-| [Afsluitcriteria](eigenschappen van de reis.md#exit-criteria)  | Hetzelfde gedrag als tijdens een live reis |
+| [Afsluitcriteria] (eigenschappen van de reis.md#exit-criteria)  | Hetzelfde gedrag als tijdens een live reis |
 
 ## Hoe te om een gepauzeerde reis te hervatten {#journey-resume-steps}
 
@@ -172,7 +172,7 @@ Laten we het volgende voorbeeld van de reis nemen:
 
 ![ Steekproef van een reis ](assets/pause-journey-sample.png)
 
-Wanneer het pauzeren van deze reis, selecteert u als de profielen **** of **Geweigerd Greep** zijn en dan profielbeheer is het volgende:
+Wanneer het pauzeren van deze reis, selecteert u als de profielen **&#x200B;**&#x200B;of **Geweigerd Greep** zijn en dan profielbeheer is het volgende:
 
 1. **AddToCart** activiteit: alle nieuwe profielingangen worden geblokkeerd. Als een profiel reeds de reis vóór een pauze is ingegaan, zullen zij tot de volgende actieknooppunt voortzetten.
 1. **wacht** activiteit: de profielen blijven normaal op de knoop wachten en zullen het weggaan, zelfs als de reis in pauze is.
