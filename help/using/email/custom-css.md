@@ -10,9 +10,9 @@ level: Intermediate
 keywords: css, editor, summary, email
 hide: true
 hidefromtoc: true
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: bf9f1dbacba54e8b2c499d888ba1f4d66c78b7ee
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '663'
 ht-degree: 1%
 
 ---
@@ -199,6 +199,12 @@ Uw aangepaste CSS wordt aan het einde van de sectie `<head>` toegevoegd als onde
 
 De aangepaste CSS wordt niet geïnterpreteerd of gevalideerd door het deelvenster Designer e-mailen **[!UICONTROL Settings]** . Deze is volledig onafhankelijk en kan alleen worden gewijzigd via de optie **[!UICONTROL Add Custom CSS]** .
 
+Als het kenmerk `data-disabled` set to `true` is ingesteld voor de stijltag `global-custom` , wordt de aangepaste CSS niet toegepast. Bijvoorbeeld:
+
+```html
+<style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
+```
+
 ### Geïmporteerde inhoud
 
 Houd rekening met het volgende als u aangepaste CSS wilt gebruiken met inhoud die is geïmporteerd in de e-mailtoepassing Designer:
@@ -216,7 +222,7 @@ Houd rekening met de onderstaande opties als uw aangepaste CSS niet wordt toegep
 
 * Zorg ervoor dat uw CSS geldig is en geen syntaxisfouten bevat (zoals ontbrekende accolades, onjuiste eigenschapsnamen). [ leer hoe ](#use-valid-css)
 
-* Zorg ervoor dat uw CSS wordt toegevoegd aan de tag `<style>` met het kenmerk `data-name="global-custom"` . [Meer informatie](#implementation)
+* Zorg ervoor dat uw CSS wordt toegevoegd aan de tag `<style>` met het kenmerk `data-name="global-custom"` en dat `data-disabled` niet wordt toegepast op `global-custom` . [Meer informatie](#implementation)
 
 * Zorg ervoor dat uw CSS niet door andere CSS regels, met inbegrip van om het even welk [ thema ](apply-email-themes.md) wordt met voeten getreden die op uw inhoud wordt toegepast.
 
@@ -229,16 +235,3 @@ Houd rekening met de onderstaande opties als uw aangepaste CSS niet wordt toegep
        background: red !important;
      }
      ```
-
-<!--
-### Guardrails
--->
-
-
-
-
-
-
-
-
-
