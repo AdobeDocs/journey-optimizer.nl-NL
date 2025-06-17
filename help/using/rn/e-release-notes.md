@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8188749c47be0a3d91b9857d170bceb4747a3400
+source-git-commit: 20f5dc6eab5695b485f4569ad098922a130d4b56
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 3%
+source-wordcount: '1022'
+ht-degree: 2%
 
 ---
 
@@ -83,7 +83,7 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <tbody>
 <tr>
 <td>
-<p>U kunt nu specifieke bewerkbare velden definiëren in JSON- of HTML-inhoudssjablonen, waarmee niet-technische gebruikers inhoud eenvoudig kunnen bewerken in een formulierweergave in de op code gebaseerde ervaring in het maken van kanalen zonder dat ze code hoeven te bewerken. Meer dan dat, wanneer het bepalen van de code-gebaseerde malplaatjes van de ervaringsinhoud kunt u besluitvormingsbeleid in het malplaatje nu opnemen, die herbruikbaarheid en gebruiksgemak verhogen.</p>
+<p>U kunt nu specifieke bewerkbare velden definiëren in JSON- of HTML-inhoudssjablonen, waarmee niet-technische gebruikers inhoud eenvoudig kunnen bewerken in een formulierweergave in de op code gebaseerde ervaring in het maken van kanalen zonder dat ze code hoeven te bewerken.<br /> meer dan dat, wanneer het bepalen van de code-gebaseerde malplaatjes van de ervaringsinhoud, kunt u besluitvormingsbeleid in het malplaatje nu opnemen, die herbruikbaarheid en gebruiksgemak verhogen.</p>
 </td>
 </tr>
 </tbody>
@@ -99,7 +99,6 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <tr>
 <td>
 <p>Naast de volledige delegatie en de methode CNAME, is een nieuwe subdomain configuratiemethode nu beschikbaar: de de delegatiemethode van de Douane, die u toelaat om volledig het controleren en het handhaven van alle aspecten van DNS te bezitten die voor het leveren, het teruggeven en het volgen van berichten worden vereist.</p>
-<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
 </td>
 </tr>
 </tbody>
@@ -227,13 +226,17 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 * **op code-gebaseerde ervaringen**
 
-  Het besluitvormingsbeleid is nu beschikbaar in code-gebaseerde malplaatjes van de ervaringsinhoud en op de code redacteur juiste spoorlijn.
+   * Het toevoegen van een besluitvormingsbeleid is nu beschikbaar in code-gebaseerde malplaatjes van de ervaringsinhoud.
 
-* **Email Designer**
+   * Van het op code-gebaseerde de ervaringstraject of scherm van de campagneuitgave, kunt u direct een besluitvormingsbeleid toevoegen, zonder de verpersoonlijkingsredacteur te openen.
 
-   * **de Steun van CSS van de Douane** - Journey Optimizer staat u nu toe om douane CSS aan uw e-mailinhoud direct binnen de E-mailontwerper toe te voegen.
-   * **de wijzessteun van de Donker** - de e-mailontwerper van Journey Optimizer biedt nu de capaciteit aan om op donkere wijze te schakelen waar u specifieke montages kunt bepalen.
+* **de Steun van CSS van de Douane in E-mail Designer**
 
+  Met Journey Optimizer kunt u nu aangepaste CSS rechtstreeks in de e-mailtoepassing toevoegen aan uw e-mailinhoud.
+
+* **Nieuwe van labels voorzien navigatie voor campagnes**
+
+  Een nieuw navigatiepatroon maakt snellere toegang tot het ontwerpen van inhoud mogelijk en ondersteunt verdere uitbreiding van instellingen in alle campagnes.
 
 * **Beslissing** - de datum van de Beschikbaarheid: 3 Juni, 2025
 
