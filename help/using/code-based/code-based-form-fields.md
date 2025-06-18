@@ -99,7 +99,7 @@ Om sommige van uw code van JSON of van HTML editable te maken, begin door een co
 
 Wanneer u een op code gebaseerde sjabloon voor ervaringsinhoud maakt, kunt u een beslissingsbeleid gebruiken om aanbiedingen in bewerkbare formuliervelden te benutten.
 
-1. Creeer een op code-gebaseerd ervaringsmalplaatje zoals hierboven beschreven [ ](#add-editable-fields).
+1. Creeer een op code-gebaseerd ervaringsmalplaatje zoals hierboven beschreven [&#128279;](#add-editable-fields).
 
 1. Klik op **[!UICONTROL Add decision policy]** met het pictogram **[!UICONTROL Show Decisioning]** in de rechterraster van het scherm voor de editie of in de editor voor expressies in de sectie **[!UICONTROL Decision policy]** in het linkermenu.
 
@@ -109,7 +109,7 @@ Wanneer u een op code gebaseerde sjabloon voor ervaringsinhoud maakt, kunt u een
 
    ![](assets/cbe-template-insert-policy.png)
 
-1. Na de `{{#each}}` markering, neem de code op die aan het editable vormgebied (s) beantwoordt dat u wilt toevoegen, gebruikend de **gealigneerde** syntaxis hierboven beschreven [ ](#add-editable-fields). Vervang `"name"` door een unieke id om het bewerkbare veld te identificeren. In dit voorbeeld gebruikt u &quot;title&quot;.
+1. Na de `{{#each}}` markering, neem de code op die aan het editable vormgebied (s) beantwoordt dat u wilt toevoegen, gebruikend de **gealigneerde** syntaxis hierboven beschreven [&#128279;](#add-editable-fields). Vervang `"name"` door een unieke id om het bewerkbare veld te identificeren. In dit voorbeeld gebruikt u &quot;title&quot;.
 
    ![](assets/cbe-template-policy-inline.png){width="90%"}
 
