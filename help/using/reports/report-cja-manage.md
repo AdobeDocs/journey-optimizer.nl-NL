@@ -193,7 +193,7 @@ d. Open the report for the journey that you added the metric to and ensure that 
 >[!IMPORTANT]
 >
 >Elke organisatie is beperkt tot het publiceren van 25 soorten publiek. Bovendien kunnen gebruikers maximaal 5 soorten publiek per uur en 20 personen per dag publiceren.
->> Eenmalig publiek heeft een levensduur van 48 uur. Als er binnen die termijn 25 soorten publiek worden gepubliceerd, kunnen extra soorten publiek daarom pas worden gepubliceerd nadat de periode van 48 uur is verstreken.
+>&#x200B;> Eenmalig publiek heeft een levensduur van 48 uur. Als er binnen die termijn 25 soorten publiek worden gepubliceerd, kunnen extra soorten publiek daarom pas worden gepubliceerd nadat de periode van 48 uur is verstreken.
 
 U kunt nu specifieke gegevens in de tabel selecteren en rechtstreeks een publiek maken op basis van deze selecties, zodat het proces voor het maken van een publiek wordt gestroomlijnd en vereenvoudigd.
 

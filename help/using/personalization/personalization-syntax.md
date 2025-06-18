@@ -69,7 +69,7 @@ waarbij:
    * `{{profile.homeAddress.city}}`
    * `{{profile.faxPhone.number}}`
 
-+++
+  +++
 
 * **Doelgroep**
 
@@ -112,7 +112,7 @@ waarbij:
 
      `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-+++
+  +++
 
 ## Helpers{#helpers-all}
 
