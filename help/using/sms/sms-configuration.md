@@ -7,14 +7,14 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
-# Ga aan de slag met de configuratie van SMS {#sms-configuration}
+# Aan de slag met de configuratie SMS / MMS / RCS {#sms-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
@@ -30,14 +30,14 @@ ht-degree: 0%
 >id="ajo_admin_sms_api"
 >title="Uw SMS/MMS-provider configureren met Journey Optimizer"
 >abstract="Voordat u tekstberichten (SMS/MMS) kunt verzenden, moet u de providerinstellingen integreren met Journey Optimizer. Zodra gedaan, moet u een configuratie tot stand brengen SMS/MMS. Deze stappen moeten worden uitgevoerd door een Adobe Journey Optimizer System Administrator."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Een SMS-kanaalconfiguratie maken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Een SMS-kanaalconfiguratie maken"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
 >title="Selecteer de configuratie van de leverancier van SMS"
 >abstract="Selecteer de API geloofsbrieven die voor uw verkoper van SMS worden gevormd."
 
-Voordat u SMS of MMS verzendt, moet u de Adobe Journey Optimizer-omgeving configureren. Dit doet u als volgt:
+Voordat u SMS, MMS of RCS verzendt, moet u de Adobe Journey Optimizer-omgeving configureren. Dit doet u als volgt:
 
 1. Integreer de providerinstellingen met Journey Optimizer.
 De stappen zijn afhankelijk van uw SMS-provider. Klik op de onderstaande koppelingen voor gedetailleerde documentatie:
@@ -51,7 +51,7 @@ Deze stappen moeten door een Beheerder van het Systeem van Adobe Journey Optimiz
 
 ## Vereisten{#sms-prerequisites}
 
-Adobe Journey Optimizer is momenteel geïntegreerd met externe providers die services voor tekstberichten aanbieden die onafhankelijk zijn van Adobe Journey Optimizer. De gesteunde leveranciers voor tekstoverseinen en MMS zijn: **Sinch**, **Twilio** en **Infobip**.
+Adobe Journey Optimizer is momenteel geïntegreerd met externe providers die services voor tekstberichten aanbieden die onafhankelijk zijn van Adobe Journey Optimizer. De gesteunde leveranciers voor tekstoverseinen en MMS zijn: **Sinch**, **Twilio** en **Infobip**. Merk op dat u extra overseinenleveranciers kunt vormen gebruikend de [ configuratie van de douaneleverancier ](sms-configuration-custom.md).
 
 Voorafgaand aan het kanaalconfiguratie van SMS, moet u een rekening met één van deze leveranciers tot stand brengen om uw **Symbolische API** en **identiteitskaart van de Dienst** te krijgen, die u de verbinding tussen Adobe Journey Optimizer en de toepasselijke leverancier moet vormen.
 

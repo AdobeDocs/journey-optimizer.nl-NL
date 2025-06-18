@@ -7,16 +7,16 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met Marketers {#get-started-marketers}
 
-Als a **Markering** of de Praktijk van de Reis van de a **&#x200B;**, bent u verantwoordelijk voor het creëren van aanbiedingen en reizen en het ontwerpen van inhoud. U kunt beginnen met [!DNL Adobe Journey Optimizer] te werken zodra de [ Beheerder van het Systeem ](administrator.md) en de [ Ingenieur van Gegevens ](data-engineer.md) u toegang en bereidde uw milieu verlenen.
+Als a **Markering** of de Praktijk van de Reis van de a ****, bent u verantwoordelijk voor het creëren van aanbiedingen en reizen en het ontwerpen van inhoud. U kunt beginnen met [!DNL Adobe Journey Optimizer] te werken zodra de [ Beheerder van het Systeem ](administrator.md) en de [ Ingenieur van Gegevens ](data-engineer.md) u toegang en bereidde uw milieu verlenen.
 
 Raadpleeg de volgende secties voor het instellen van uw eerste reis, het toevoegen van aanbiedingen en middelen en het verzenden van berichten:
 
@@ -34,7 +34,7 @@ Raadpleeg de volgende secties voor het instellen van uw eerste reis, het toevoeg
 
 1. **test en bevestigt**. Als de inhoud eenmaal is gedefinieerd, kunt u testprofielen gebruiken of monsters nemen van invoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig worden toegevoegd om een voorvertoning van de inhoud weer te geven.
 
-   Als u [ gepersonaliseerde inhoud ](../../personalization/personalize.md) opnam, zult u kunnen controleren hoe deze inhoud in het bericht wordt getoond. Bovendien hefboomwerking uw **rekening 0&rbrace; Litmus &lbrace;in [!DNL Journey Optimizer] om onmiddellijk voorproef uw** e-mailteruggevende **in populaire e-mailcliënten.** U kunt er dan voor zorgen dat uw e-mailinhoud er goed uitziet en goed werkt in elk Postvak IN. Leer hoe te om uw berichten [ in deze sectie ](../../content-management/preview-test.md) te testen en te bevestigen.
+   Als u [ gepersonaliseerde inhoud ](../../personalization/personalize.md) opnam, zult u kunnen controleren hoe deze inhoud in het bericht wordt getoond. Bovendien hefboomwerking uw **rekening 0} Litmus {in [!DNL Journey Optimizer] om onmiddellijk voorproef uw** e-mailteruggevende **in populaire e-mailcliënten.** U kunt er dan voor zorgen dat uw e-mailinhoud er goed uitziet en goed werkt in elk Postvak IN. Leer hoe te om uw berichten [ in deze sectie ](../../content-management/preview-test.md) te testen en te bevestigen.
 
 1. **de klantenreizen van het Ontwerp** om gepersonaliseerde, contextuele ervaringen te leveren. Met [!DNL Journey Optimizer] kunt u in real-time gebruikmaken van het orkestgebruik en contextuele gegevens opslaan in gebeurtenissen of gegevensbronnen. Ontwerp multistep geavanceerde scenario&#39;s aangedreven door de volgende mogelijkheden:
 

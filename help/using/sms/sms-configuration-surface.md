@@ -7,22 +7,22 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
-# Een SMS/MMS-configuratie maken {#message-preset-sms}
+# Een SMS/MMS/RCS-configuratie maken {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="De berichtcategorie definiëren"
 >abstract="Selecteer het type tekstberichten die deze configuratie gebruiken: Marketing voor promotieberichten, waarvoor toestemming van de gebruiker vereist is, of Transactie voor niet-commerciële berichten, zoals het terugstellen van wachtwoorden."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=nl-NL#sms-opt-out-management" text="Afmelden bij marketingberichten"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="Afmelden bij marketingberichten"
 
-Zodra uw SMS/MMS-kanaal is geconfigureerd, moet u een kanaalconfiguratie maken om SMS- en/of MMS-berichten van **[!DNL Journey Optimizer]** te kunnen verzenden.
+Nadat u het SMS/MMS/RCS-kanaal hebt geconfigureerd, moet u een kanaalconfiguratie maken om SMS-, RCS- en MMS-berichten van **[!DNL Journey Optimizer]** te kunnen verzenden.
 
 Ga als volgt te werk om een kanaalconfiguratie te maken:
 

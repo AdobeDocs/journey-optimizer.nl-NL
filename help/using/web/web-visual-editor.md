@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 98e99978-8538-40b4-92ac-7184864017eb
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '908'
 ht-degree: 1%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 1%
 >id="ajo_web_url_to_edit_surface"
 >title="Confirm the URL to edit"
 >abstract="Confirm the URL of the specific web page to use for editing the content that will be applied on the web configuration defined above. The web page must be implemented using the Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=nl-NL" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="Enter the URL to edit"
 >abstract="Enter the URL of a specific web page to use for editing the content that will be applied to all pages matching the rule. The web page must be implemented using Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=nl-NL" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 -->
 
 In [!DNL Journey Optimizer], wordt het visuele Web authoring aangedreven door de **Adobe Experience Cloud Visual Helper** browser uitbreiding van Chrome. [Meer informatie](web-prerequisites.md#visual-authoring-prerequisites)
@@ -41,7 +41,7 @@ Voer de onderstaande stappen uit om uw webervaring te gaan ontwerpen met de visu
 
 >[!CAUTION]
 >
->[ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=nl-NL){target="_blank"} moet in uw Web-pagina worden omvat. [Meer informatie](web-prerequisites.md#implementation-prerequisites)
+>[ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"} moet in uw Web-pagina worden omvat. [Meer informatie](web-prerequisites.md#implementation-prerequisites)
 
 1. Klik in het **[!UICONTROL Edit content]** -scherm op **[!UICONTROL Edit web page]** om de webontwerper te openen.
 
@@ -162,7 +162,7 @@ De mogelijkheid om de apparaatgrootte te wijzigen is ontworpen voor responsieve 
 
 >[!CAUTION]
 >
->U kunt een webervaring bewerken met een specifieke apparaatgrootte. Nochtans, zolang de selecteurs het zelfde zijn, zijn deze veranderingen op alle grootte en apparaten, niet alleen de apparatengrootte van toepassing dat u binnen werkt. Op dezelfde manier worden de wijzigingen toegepast op alle schermgrootten, en niet alleen op de desktopweergave wanneer u een ervaring bewerkt in de normale weergave.
+>U kunt een webervaring bewerken met een specifieke apparaatgrootte. Zolang de kiezers echter hetzelfde zijn, zijn deze wijzigingen van toepassing op alle formaten en apparaten en niet alleen op de apparaatgrootte waarin u werkt. Op dezelfde manier worden de wijzigingen toegepast op alle schermgrootten, en niet alleen op de desktopweergave wanneer u een ervaring bewerkt in de normale weergave.
 >
 >[!DNL Journey Optimizer] biedt momenteel geen ondersteuning voor paginawijzigingen die specifiek zijn voor de apparaatgrootte. Dit betekent dat als u bijvoorbeeld een aparte mobiele website met een aparte sitestructuur hebt, u de wijzigingen specifiek voor uw mobiele site in een andere campagne moet doorvoeren.
 
@@ -170,4 +170,4 @@ De mogelijkheid om de apparaatgrootte te wijzigen is ontworpen voor responsieve 
 
 In de onderstaande video ziet u hoe u een webervaring kunt ontwerpen met de webontwerper in [!DNL Journey Optimizer] -campagnes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452641/?quality=12&learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

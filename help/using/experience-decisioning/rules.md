@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 1ca6ea08e177989a0aea8646ca28b1216644fd3e
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 2%
@@ -45,7 +45,7 @@ Voer de volgende stappen uit om een beslissingsregel te maken:
 1. Bouw de beslissingsregel aan uw behoeften gebruikend de Bouwer van het Segment van Adobe Experience Platform. Hiervoor kunt u verschillende gegevensbronnen gebruiken, zoals:
    * Eigenschappen van profiel- en beslissingsitems,
    * Soorten publiek
-   * Contextgegevens afkomstig van Adobe Experience Platform. [ Leer hoe te hefboomwerking contextgegevens ](#context-data)
+   * Contextgegevens afkomstig van Adobe Experience Platform. [ Leer hoe te hefboomwerking contextgegevens ](context-data.md)
 
    ![](assets/decision-rules-build.png)
 

@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressie, editor, syntaxis, personalisatie
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '572'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ waarbij:
 
 * De woorden **waar**, **vals**, **ongeldig** en **niet gedefiniëerd** worden slechts toegestaan in het eerste deel van een weguitdrukking.
 
-* In Handlebars, zijn de waarden die door {{expression}} zijn teruggekeerd **HTML-ontsnapte**. Als de expressie `&` bevat, wordt de geretourneerde uitvoer met escape-teken van HTML gegenereerd als `&amp;` . Als u niet wilt dat Handgrepen aan een waarde ontsnappen, gebruikt u de &#39;&#39;drievoudige streepje&#39;&#39;.
+* In Handlebars, zijn de waarden die door {{expression}} zijn teruggekeerd **HTML-ontsnapte**. Als de expressie `&` bevat, wordt de geretourneerde uitvoer met escape-teken van HTML gegenereerd als `&amp;` . Als u niet wilt dat Handgrepen aan een waarde ontsnappen, gebruikt u de &#39;&#39;drievoudig-streepje&#39;&#39;.
 
 * Wat argumenten voor letterlijke functies betreft, ondersteunt de sjabloontaalparser geen enkel unescaped backslash (`\`)-symbool. Dit teken moet met een extra backslash (`\`) worden beschermd. Voorbeeld:
 
@@ -53,7 +53,7 @@ waarbij:
 
 * **Profiel**
 
-  Dit namespace staat u toe om alle die attributen van verwijzingen te voorzien in het profielschema in [ wordt beschreven het Model van Gegevens van Adobe Experience Platform (XDM) documentatie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"} .
+  Dit namespace staat u toe om alle die attributen van verwijzingen te voorzien in het profielschema in [ wordt beschreven het Model van Gegevens van Adobe Experience Platform (XDM) documentatie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
 
   De attributen moeten in het schema worden bepaald alvorens in een [!DNL Journey Optimizer] verpersoonlijkingsblok wordt van verwijzingen voorzien.
 
@@ -69,11 +69,11 @@ waarbij:
    * `{{profile.homeAddress.city}}`
    * `{{profile.faxPhone.number}}`
 
-  +++
++++
 
 * **Doelgroep**
 
-  Meer over de segmentatiedienst leren, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL){target="_blank"} .
+  Meer over de segmentatiedienst leren, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
 
 * **Aanbiedingen**
 
@@ -112,7 +112,7 @@ waarbij:
 
      `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-  +++
++++
 
 ## Helpers{#helpers-all}
 

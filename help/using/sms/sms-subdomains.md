@@ -8,9 +8,9 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, subdomeinen, configuratie
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 19f127c2abc81239abda8ebd38bdcacee796a1b0
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,13 @@ ht-degree: 0%
 >id="ajo_admin_subdomain_sms"
 >title="Een SMS/MMS-subdomein delegeren"
 >abstract="U moet een subdomein vormen voor uw tekstberichten te gebruiken, aangezien u dit subdomein nodig hebt om een configuratie van SMS tot stand te brengen. U kunt een subdomein gebruiken dat al aan Adobe is gedelegeerd, of een nieuw subdomein vormen."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Een SMS-configuratie maken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Een SMS-configuratie maken"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
 >title="Een SMS/MMS-subdomein selecteren"
 >abstract="Om een configuratie van SMS te kunnen tot stand brengen, zorg ervoor u eerder minstens één subdomain van SMS om van de lijst Subdomain te kiezen hebt gevormd."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Een SMS-configuratie maken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Een SMS-configuratie maken"
 
 ## Aan de slag met SMS-subdomeinen {#gs-sms-mms-subdomains}
 
@@ -61,6 +61,10 @@ Voer de onderstaande stappen uit als u een subdomein wilt gebruiken dat al is ge
 1. Voer het voorvoegsel in dat in je SMS-URL wordt weergegeven.
 
    Alleen alfanumerieke tekens en afbreekstreepjes zijn toegestaan.
+
+   >[!CAUTION]
+   >
+   >Gebruik `cdn` of `data` voorvoegsels niet omdat deze zijn gereserveerd voor intern gebruik. Andere beperkte of gereserveerde voorvoegsels zoals `dmarc` of `spf` moeten ook worden vermeden.
 
 1. Selecteer een gedelegeerd subdomein in de lijst.
 
@@ -131,34 +135,17 @@ Het subdomein wordt gemarkeerd als **[!UICONTROL Failed]** als u geen validatier
 
 ## Een subdomein delegeren ongedaan maken {#undelegate-subdomain}
 
-Neem contact op met uw Adobe-vertegenwoordiger als u een SMS-subdomein wilt dedelegeren.
+Als u wenst om subdomain van SMS te delegeren, bereik aan uw vertegenwoordiger van Adobe met subdomain u wilt loskoppelen.
 
-U moet echter verschillende stappen uitvoeren in de gebruikersinterface voordat u Adobe bereikt.
+<!--
+1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/modify-stop-campaign.md#stop)
+
+1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)-->
+
+Als subdomain van SMS naar een CNAME-record wijst, kunt u het CNAME DNS-record verwijderen dat u voor het SMS-subdomein hebt gemaakt van uw hostoplossing (maar niet het oorspronkelijke e-mailsubdomein als dat er is).
 
 >[!NOTE]
 >
->U kunt alleen subdomeinen met de status **[!UICONTROL Success]** dedelegeren. Subdomeinen met de statussen **[!UICONTROL Draft]** en **[!UICONTROL Failed]** kunnen eenvoudig uit de gebruikersinterface worden verwijderd.
-
-Voer eerst de volgende stappen uit in [!DNL Journey Optimizer] :
-
-1. Deactiveer alle kanaalconfiguraties verbonden aan subdomain. [ leer hoe ](../configuration/channel-surfaces.md#deactivate-a-surface)
-
-<!--
-1. If the SMS subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
-
-1. Stop de actieve campagnes verbonden aan subdomeinen. [ leer hoe ](../campaigns/modify-stop-campaign.md#stop)
-
-1. Stop de actieve reizen verbonden aan subdomeinen. [ leer hoe ](../building-journeys/end-journey.md#stop-journey)
-
-1. Als subdomain van SMS a [ nieuw gedelegeerd subdomain ](#sms-configure-new-subdomain) was, verwijder de DNS ingangen verbonden aan dat subdomain.
-
-Als u klaar bent, neemt u contact op met uw Adobe-vertegenwoordiger met het subdomein dat u wilt uitschakelen.
+>Een subdomain van SMS kan aan een CNAME- verslag richten omdat het of een [ bestaand subdomain ](#sms-use-existing-subdomain) aan Adobe werd gedelegeerd gebruikend de [ methode CNAME ](../configuration/delegate-subdomain.md#cname-subdomain-delegation), of a [ nieuw subdomain van SMS ](#sms-configure-new-subdomain) dat u vormde.
 
 Nadat uw verzoek door Adobe wordt behandeld, wordt het niet-gedelegeerde domein niet meer getoond op de pagina van de subdomeininventaris.
-
->[!CAUTION]
->
->Nadat een subdomein niet is gedelegeerd:
->
->   * U kunt de kanaalconfiguraties die dat subdomein gebruikten, niet opnieuw activeren.
->   * U kunt exacte subdomein niet opnieuw delegeren via de gebruikersinterface. Neem desgewenst contact op met uw Adobe-vertegenwoordiger.

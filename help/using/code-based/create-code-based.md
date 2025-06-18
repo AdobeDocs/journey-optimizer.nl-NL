@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '761'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Volg de onderstaande stappen om uw op code gebaseerde ervaring op te bouwen via 
 
 >[!BEGINTABS]
 
->[!TAB voeg een op code-gebaseerde ervaring aan een reis  toe]
+>[!TAB  voeg een op code-gebaseerde ervaring aan een reis ] toe
 
 Om a **code-gebaseerde ervaring** activiteit aan een reis toe te voegen, volg deze stappen:
 
@@ -97,11 +97,17 @@ Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [ deze 
 >id="ajo_code_based_experience"
 >title="De personalisatie-editor gebruiken"
 >abstract="Voeg de code die u wilt leveren in en bewerk deze als onderdeel van deze op code gebaseerde ervaringsactie."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="Werken met de verpersoonlijkingseditor"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="Werken met de verpersoonlijkingseditor"
+
+Volg onderstaande stappen om de inhoud van uw op code gebaseerde ervaring te bewerken.
 
 1. Selecteer **[!UICONTROL Edit code]** in het scherm van de reisactiviteit of de campagneeditie.
 
    ![](assets/code-based-campaign-edit-code.png)
+
+   >[!NOTE]
+   >
+   >Als u een op code-gebaseerde sjabloon van de ervaringsinhoud met vooraf bepaalde editable vormgebieden gebruikt, kunt u de inhoud van deze gebieden beheren zonder de verpersoonlijkingsredacteur te openen. [Meer informatie](code-based-form-fields.md)
 
 1. De [ verpersoonlijkingsredacteur ](../personalization/personalization-build-expressions.md) opent. Het is een niet-visuele interface van de ervaringsverwezenlijking die u toestaat om uw code te ontwerpen.
 
@@ -119,9 +125,17 @@ Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [ deze 
 
    U kunt ook een deel van de code-inhoud opslaan als een fragment. [ leer hoe ](../content-management/fragments.md#save-as-expression-fragment)
 
-1. Met code-gebaseerde ervaringen, kunt u de eigenschap van het Beslissen gebruiken. Selecteer het pictogram **[!UICONTROL Decision policy]** op de linkerbalk en klik op **[!UICONTROL Add decision policy]** . [Meer informatie](../experience-decisioning/create-decision.md)
+1. Met code-gebaseerde ervaringen, kunt u de eigenschap van het Beslissen gebruiken. Selecteer het pictogram **[!UICONTROL Decision policy]** op de linkerbalk en klik op **[!UICONTROL Add decision policy]** . [Meer informatie](../experience-decisioning/create-decision.md#add-decision)
 
    ![](assets/code-based-campaign-create-decision.png)
+
+   <!--![](../experience-decisioning/assets/decision-code-based-create.png)-->
+
+   Vanuit het scherm van de reis- of campagneeditie kunt u ook rechtstreeks een beslissingsbeleid toevoegen zonder de personalisatie-editor te openen. Gebruik het toegewezen pictogram op de rechterrail om de sectie **[!UICONTROL Decisioning]** weer te geven.
+
+   <!--![](assets/code-based-campaign-show-decisioning.png)-->
+
+   De gedetailleerde stappen om een besluitvormingsbeleid tot stand te brengen worden voorgesteld in [ deze sectie ](../experience-decisioning/create-decision.md#add-decision).
 
 1. Klik op **[!UICONTROL Save and close]** om uw wijzigingen te bevestigen.
 
@@ -131,4 +145,4 @@ Zodra uw ontwikkelaar een API- of SDK-aanroep maakt om inhoud op te halen voor h
 
 In de onderstaande video ziet u hoe u een op code gebaseerde ervaringscampagne kunt maken, de eigenschappen ervan kunt configureren, testen en publiceren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449459/?quality=12&learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

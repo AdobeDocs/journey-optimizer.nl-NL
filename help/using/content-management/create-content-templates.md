@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '652'
 ht-degree: 3%
 
 ---
@@ -70,6 +70,12 @@ Voer de onderstaande stappen uit om een volledig nieuwe inhoudssjabloon te maken
    * [SMS-inhoud definiëren](../sms/create-sms.md#sms-content)
    * [Inhoud direct mail definiëren](../direct-mail/create-direct-mail.md)
    * [In-app-inhoud definiëren](../in-app/design-in-app.md)
+   * [ bepaal webinhoud ](../web/create-web.md#edit-web-content)
+   * [Op code gebaseerde ervaringsinhoud definiëren](../code-based/create-code-based.md)
+
+     >[!NOTE]
+     >
+     >U kunt besluitvormingsbeleid aan code-gebaseerde malplaatjes van de ervaringsinhoud toevoegen. [Meer informatie](../experience-decisioning/create-decision.md#add-decision)
 
 1. U kunt de inhoud testen. [ leer hoe ](#test-template)
 

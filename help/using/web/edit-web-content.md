@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1044'
 ht-degree: 1%
 
 ---
@@ -37,13 +37,13 @@ Heb toegang tot de volgende secties om meer over elk onderwerp te leren:
 >id="ajo_web_url_to_edit_surface"
 >title="Bevestig de URL die u wilt bewerken"
 >abstract="Bevestig de URL van de specifieke webpagina die u wilt gebruiken voor het bewerken van de inhoud die wordt toegepast op de hierboven gedefinieerde webconfiguratie. De webpagina moet worden geïmplementeerd met de Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=nl-NL" text="Meer informatie"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Meer informatie"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="Voer de te bewerken URL in"
 >abstract="Voer de URL in van een specifieke webpagina die u wilt gebruiken voor het bewerken van de inhoud die wordt toegepast op alle pagina&#39;s die aan de regel voldoen. De webpagina moet worden geïmplementeerd met Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=nl-NL" text="Meer informatie"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Meer informatie"
 
 Volg onderstaande stappen om uw webervaring te ontwerpen.
 
@@ -61,7 +61,7 @@ Volg onderstaande stappen om uw webervaring te ontwerpen.
 
    >[!CAUTION]
    >
-   >De Web-pagina moet [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=nl-NL){target="_blank"} omvatten. [Meer informatie](web-prerequisites.md#implementation-prerequisites)
+   >De Web-pagina moet [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"} omvatten. [Meer informatie](web-prerequisites.md#implementation-prerequisites)
 
 1. Klik op **[!UICONTROL Edit web page]** om te beginnen met ontwerpen. De webontwerper wordt weergegeven.
 
@@ -176,7 +176,7 @@ De mogelijkheid om de apparaatgrootte te wijzigen is ontworpen voor responsieve 
 
 >[!CAUTION]
 >
->U kunt een webervaring bewerken met een specifieke apparaatgrootte. Nochtans, zolang de selecteurs het zelfde zijn, zijn deze veranderingen op alle grootte en apparaten, niet alleen de apparatengrootte van toepassing dat u binnen werkt. Op dezelfde manier worden de wijzigingen toegepast op alle schermgrootten, en niet alleen op de desktopweergave wanneer u een ervaring bewerkt in de normale weergave.
+>U kunt een webervaring bewerken met een specifieke apparaatgrootte. Zolang de kiezers echter hetzelfde zijn, zijn deze wijzigingen van toepassing op alle formaten en apparaten en niet alleen op de apparaatgrootte waarin u werkt. Op dezelfde manier worden de wijzigingen toegepast op alle schermgrootten, en niet alleen op de desktopweergave wanneer u een ervaring bewerkt in de normale weergave.
 >
 >[!DNL Journey Optimizer] biedt momenteel geen ondersteuning voor paginawijzigingen die specifiek zijn voor de apparaatgrootte. Dit betekent dat als u bijvoorbeeld een aparte mobiele website met een aparte sitestructuur hebt, u de wijzigingen specifiek voor uw mobiele site in een andere campagne moet doorvoeren.
 
@@ -184,4 +184,4 @@ De mogelijkheid om de apparaatgrootte te wijzigen is ontworpen voor responsieve 
 
 In de onderstaande video ziet u hoe u een webervaring kunt ontwerpen met de webontwerper in [!DNL Journey Optimizer] -campagnes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452641/?quality=12&learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

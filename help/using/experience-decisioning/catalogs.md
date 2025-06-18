@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 50687bad19e4866ace1e3e94f3efcdad84e98c96
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Om optimale prestaties en consistentie te verzekeren, handhaaft de Beslissing de
 
   Er wordt maximaal vier nestniveaus ondersteund. Afbeeldingen worden niet op het laatste niveau ondersteund.
 
-## Het schema van de catalogus openen en bewerken
+## Het schema van de catalogus openen en bewerken {#access-catalog-schema}
 
 Ga als volgt te werk om het schema van de catalogus te openen waarin de kenmerken van de beslissingsitems zijn opgeslagen:
 
@@ -59,7 +59,7 @@ Ga als volgt te werk om het schema van de catalogus te openen waarin de kenmerke
 
    De waarde die op een attribuut met het besluit activaattribuut wordt ingevoerd is een openbare url. Meestal wijst dit naar een afbeelding.
 
-   De gedetailleerde informatie over hoe te met de schema&#39;s van Adobe Experience Platform te werken is beschikbaar in de [ documentatie van het Systeem XDM ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=nl-NL).
+   De gedetailleerde informatie over hoe te met de schema&#39;s van Adobe Experience Platform te werken is beschikbaar in de [ documentatie van het Systeem XDM ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html).
 
 1. Sla het schema op wanneer u de gewenste aangepaste kenmerken hebt toegevoegd. Het nieuwe veld is nu beschikbaar in het scherm voor het maken van een besluit-item, in de sectie **[!UICONTROL Custom attributes]** .
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: transport, integratie, standaard, campagne, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '905'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ Voor **[!UICONTROL Email]** en **[!UICONTROL SMS]** zijn de parameters identiek.
 
 >[!NOTE]
 >
->Als Adobe Campaign Standard de transactiesjabloon van een profiel gebruikt voor e-mail, wordt het systeem voor het opzeggen van abonnementen automatisch afgehandeld. Om dit uit te voeren, kunt u een **[!UICONTROL Unsubscription link]** inhoudsblok binnen [ het transactionele e-mailmalplaatje ](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl) gemakkelijk omvatten. Nochtans, als u een op gebeurtenis-gebaseerde malplaatje (rtEvent) gebruikt, moet u een verbinding in het bericht opnemen die de e-mail van de ontvanger als parameter URL overgaat, en hen aan een unsubscription het landen pagina leidt. Deze landingspagina moet worden gemaakt en ervoor zorgen dat het besluit van de ontvanger om af te zien daadwerkelijk aan Adobe wordt toegezonden.
+>Als Adobe Campaign Standard de transactiesjabloon van een profiel gebruikt voor e-mail, wordt het systeem voor het opzeggen van abonnementen automatisch afgehandeld. Om dit uit te voeren, kunt u een **[!UICONTROL Unsubscription link]** inhoudsblok binnen [ het transactionele e-mailmalplaatje ](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl) gemakkelijk omvatten. Als u echter een op een gebeurtenis gebaseerde sjabloon (rtEvent) gebruikt, moet u een koppeling opnemen in het bericht die de e-mail van de ontvanger doorgeeft als een URL-parameter en deze doorstuurt naar een bestemmingspagina zonder abonnement. Deze landingspagina moet worden gemaakt en ervoor zorgen dat het besluit van de ontvanger om af te zien daadwerkelijk aan Adobe wordt toegezonden.
 
 Eerst, moet u een transactioneel overseinensjabloon kiezen.
 

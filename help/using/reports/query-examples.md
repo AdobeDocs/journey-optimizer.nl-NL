@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1500'
 ht-degree: 0%
 
 ---
@@ -662,7 +662,7 @@ Het zal alle de dienstgebeurtenissen terugkeren met betrekking tot de bepaalde r
 We kunnen ook problemen ontdekken zoals:
 
 * fouten in onderwerp of de schepping van de uitvoerbaan (met inbegrip van onderbrekingen op de vraag van de publieksuitvoer API)
-* exportbanen die kunnen worden vastgezet (als voor een bepaalde reisversie geen enkele gebeurtenis over de beëindiging van exporttaken heeft)
+* uitvoerbanen die kunnen worden vastgehouden (wanneer voor een bepaalde reisversie geen enkele gebeurtenis plaatsvindt met betrekking tot de beëindiging van de exporttaken)
 * problemen met workers als we een gebeurtenis voor het beëindigen van exporttaken hebben ontvangen, maar geen eindversie voor verwerking door worker één
 
 BELANGRIJK: als er geen gebeurtenis is die door deze vraag wordt geretourneerd, kan dit aan een van de volgende redenen zijn te wijten:

@@ -7,13 +7,13 @@ feature: Fragments
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: c84c09aac2d888c689591f2517269c88bee0cda6
+exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
-
 
 # Aanpasbare fragmenten {#customizable-fragments}
 
@@ -33,13 +33,13 @@ Voer de volgende stappen uit om gedeelten van een visueel fragment bewerkbaar te
 
 >[!NOTE]
 >
->Bewerkbare velden kunnen worden toegevoegd aan **image**, **text** en **knop** componenten. Voor **HTML** componenten, worden de editable gebieden toegevoegd gebruikend de verpersoonlijkingsredacteur, gelijkend op uitdrukkingsfragmenten. [Leer hoe u bewerkbaar veld kunt toevoegen in HTML-componenten en expressiefragmenten](#expression)
+>Bewerkbare gebieden kunnen aan **beeld** worden toegevoegd, **tekst** en **knoop** componenten. Voor **HTML** componenten, worden de editable gebieden toegevoegd gebruikend de verpersoonlijkingsredacteur, gelijkend op uitdrukkingsfragmenten. [ Leer hoe te om editable gebied in de componenten van HTML en uitdrukkingsfragmenten toe te voegen ](#expression)
 
 1. Open het scherm voor de editie van de fragmentinhoud.
 
 1. Selecteer de component in het fragment waar u bewerkbare velden wilt configureren.
 
-1. Het deelvenster Eigenschappen van component wordt aan de rechterkant geopend. Selecteer de **Bewerkbare velden** en schakelt u vervolgens de **Versie inschakelen** -optie.
+1. Het deelvenster Eigenschappen van component wordt aan de rechterkant geopend. Selecteer de **Bewerkbare gebieden** lusje dan knevel **toelaten uitgave** optie.
 
 1. Alle velden die voor de geselecteerde component kunnen worden bewerkt, worden in het deelvenster weergegeven. Welke velden beschikbaar zijn voor bewerking, is afhankelijk van het geselecteerde componenttype.
 
@@ -47,7 +47,7 @@ Voer de volgende stappen uit om gedeelten van een visueel fragment bewerkbaar te
 
    ![](assets/fragment-param-enable.png)
 
-1. Klik op de knop **Overzicht** om alle bewerkbare velden en hun standaardwaarden te controleren.
+1. Klik het **Overzicht** om alle editable gebieden en hun standaardwaarden te controleren.
 
    In dit voorbeeld wordt het veld URL van de knop weergegeven met de standaardwaarde die in de component is gedefinieerd. Deze waarde kan door gebruikers worden aangepast nadat ze het fragment aan hun inhoud hebben toegevoegd.
 
@@ -55,13 +55,13 @@ Voer de volgende stappen uit om gedeelten van een visueel fragment bewerkbaar te
 
 1. Sla de wijzigingen op als u klaar bent om het fragment bij te werken.
 
-1. Nadat u het fragment in een e-mail hebt toegevoegd, kunnen gebruikers alle bewerkbare velden aanpassen die in het fragment zijn geconfigureerd. [Leer hoe u bewerkbare velden in een visueel fragment kunt aanpassen](../email/use-visual-fragments.md#customize-fields)
+1. Nadat u het fragment in een e-mail hebt toegevoegd, kunnen gebruikers alle bewerkbare velden aanpassen die in het fragment zijn geconfigureerd. [ Leer hoe te om editable gebieden in een visueel fragment aan te passen ](../email/use-visual-fragments.md#customize-fields)
 
-## Bewerkbare velden toevoegen aan HTML-componenten en expressiefragmenten {#expression}
+## Bewerkbare velden toevoegen in HTML-componenten en expressiefragmenten {#expression}
 
-Als u delen van een HTML-component of een expressiefragment bewerkbaar wilt maken, moet u een specifieke syntaxis gebruiken in de expressie-editor. Hiervoor moet u een **variabel** met een standaardwaarde die gebruikers kunnen overschrijven nadat ze het fragment aan hun inhoud hebben toegevoegd.
+Als u delen van een HTML-component of een expressiefragment bewerkbaar wilt maken, moet u een specifieke syntaxis gebruiken in de expressie-editor. Dit impliceert het verklaren van a **variabele** met een standaardwaarde die de gebruikers na het toevoegen van het fragment aan hun inhoud kunnen met voeten treden.
 
-Stel dat u een fragment wilt maken om het toe te voegen aan uw e-mails en gebruikers de mogelijkheid wilt geven een specifieke kleur aan te passen die op verschillende locaties wordt gebruikt, zoals de achtergrondkleuren van frames of knoppen. Wanneer u een fragment maakt, moet u een variabele met een **unieke id**, bijvoorbeeld &quot;color&quot;, en roep deze op de gewenste locaties in de fragmentinhoud aan waar u deze kleur wilt toepassen. Wanneer gebruikers het fragment aan hun inhoud toevoegen, kunnen ze de kleur aanpassen die wordt gebruikt op de plaats waar naar de variabele wordt verwezen.
+Stel dat u een fragment wilt maken om het toe te voegen aan uw e-mails en gebruikers de mogelijkheid wilt geven een specifieke kleur aan te passen die op verschillende locaties wordt gebruikt, zoals de achtergrondkleuren van frames of knoppen. Wanneer het creëren van uw fragment, moet u een variabele met a **unieke identiteitskaart**, bijvoorbeeld &quot;kleur&quot;verklaren, en het roepen bij de gewenste plaatsen in de fragmentinhoud roepen waar u deze kleur wilt toepassen. Wanneer gebruikers het fragment aan hun inhoud toevoegen, kunnen ze de kleur aanpassen die wordt gebruikt op de plaats waar naar de variabele wordt verwezen.
 
 Voor HTML-componenten kunnen alleen specifieke elementen bewerkbare velden worden. Vouw de onderstaande sectie uit voor meer informatie.
 
@@ -81,15 +81,15 @@ In de onderstaande code kan bijvoorbeeld elk rood gemarkeerd element een eigensc
 
 Voer de volgende stappen uit om een variabele te declareren en in het fragment te gebruiken:
 
-1. Open het expressiefragment en bewerk de inhoud ervan in de personalisatie-editor. Voor HTML-componenten selecteert u de component in het fragment en klikt u op de knop **De broncode weergeven** knop.
+1. Open het expressiefragment en bewerk de inhoud ervan in de personalisatie-editor. Voor de componenten van HTML, selecteer de component in het fragment en klik **tonen de broncode** knoop.
 
    ![](assets/fragment-html-edit.png)
 
-1. Declareer de variabele die gebruikers moeten bewerken. Ga naar de **Helpfuncties** in het linkernavigatievenster en voegt u de opdracht **inline** helperfunctie. De syntaxis voor het declareren en aanroepen van de variabele wordt automatisch toegevoegd aan de inhoud.
+1. Declareer de variabele die gebruikers moeten bewerken. Navigeer aan het **de functies van de Helper** menu in de linkernavigatieruit en voeg de **gealigneerde** hulpfunctie toe. De syntaxis voor het declareren en aanroepen van de variabele wordt automatisch toegevoegd aan de inhoud.
 
    ![](assets/fragment-add-helper.png)
 
-1. Vervangen `"name"` met een unieke id om het bewerkbare veld te identificeren.
+1. Vervang `"name"` door een unieke id om het bewerkbare veld te identificeren.
 
    >[!NOTE]
    >
@@ -99,12 +99,12 @@ Voer de volgende stappen uit om een variabele te declareren en in het fragment t
 
    | Actie | Parameter | Voorbeeld |
    | ------- | ------- | ------- |
-   | Een bewerkbaar veld declareren met een **standaardwaarde**. Wanneer u het fragment aan uw inhoud toevoegt, wordt deze standaardwaarde gebruikt als u het niet aanpast. | Voeg de standaardwaarde tussen de inline-tags toe. | `{{#inline "editableFieldID"}}default_value{{/inline}}` |
-   | Een **label** voor het bewerkbare veld. Dit label wordt weergegeven in de e-mailtoepassing van de Designer wanneer de velden van het fragment worden bewerkt. | `name="title"` | `{{#inline "editableFieldID" name="title"}}default_value{{/inline}}` |
-   | Declareer een bewerkbaar veld dat een **Afbeeldingsbron** dat moet worden gepubliceerd . | `assetType="image"` | `{{#inline "editableFieldID" assetType="image"}}default_value{{/inline}}` |
-   | Declareer een bewerkbaar veld dat een **URL** dat moet worden bijgehouden.<br/>Merk op dat vooraf gedefinieerde blokken die buiten het vak &#39;URL van pagina spiegelen&#39; en &#39;Koppeling opzeggen&#39; staan, niet bewerkbare velden kunnen worden. | `assetType="url"` | `{{#inline "editableFieldID" assetType="url"}}default_value{{/inline}}` |
+   | Declareer een editable gebied met a **standaardwaarde**. Wanneer u het fragment aan uw inhoud toevoegt, wordt deze standaardwaarde gebruikt als u het fragment niet aanpast. | Voeg de standaardwaarde tussen de inline-tags toe. | `{{#inline "editableFieldID"}}default_value{{/inline}}` |
+   | Bepaal a **etiket** voor het editable gebied. Dit label wordt weergegeven in de e-mailtoepassing van de Designer wanneer de velden van het fragment worden bewerkt. | `name="title"` | `{{#inline "editableFieldID" name="title"}}default_value{{/inline}}` |
+   | Verklaar een editable gebied dat een **bron van het Beeld** bevat die moet worden gepubliceerd. | `assetType="image"` | `{{#inline "editableFieldID" assetType="image"}}default_value{{/inline}}` |
+   | Declareer een editable gebied dat een **URL** bevat die moet worden gevolgd.<br/> Merk op dat de uit-van-de-doos &quot;pagina URL van de Spiegel&quot;en de &quot;verbinding van Unsubscribe&quot;vooraf bepaalde blokken niet editable gebieden kunnen worden. | `assetType="url"` | `{{#inline "editableFieldID" assetType="url"}}default_value{{/inline}}` |
 
-1. Gebruik de `{{{name}}}` in uw code op elke plaats waar u de waarde van het bewerkbare veld wilt weergeven. Vervangen `name` met de unieke id van het veld dat u eerder hebt gedefinieerd.
+1. Gebruik de syntaxis `{{{name}}}` in uw code op elke plaats waar u de waarde van het bewerkbare veld wilt weergeven. Vervang `name` door de unieke id van het veld dat u eerder hebt gedefinieerd.
 
    ![](assets/fragment-call-variable.png)
 
@@ -112,26 +112,26 @@ Voer de volgende stappen uit om een variabele te declareren en in het fragment t
 
 Wanneer gebruikers het fragment aan hun e-mailinhoud toevoegen, kunnen ze nu de standaardwaarden van de variabelen overschrijven met de door hen gekozen waarden:
 
-* Voor expressiefragmenten wordt een specifieke syntaxis gebruikt om de waarden van variabelen te overschrijven. [Leer hoe u bewerkbare velden in een expressiefragment kunt aanpassen](../personalization/use-expression-fragments.md#customize-fields)
+* Voor expressiefragmenten wordt een specifieke syntaxis gebruikt om de waarden van variabelen te overschrijven. [ Leer hoe te om editable gebieden in een uitdrukkingsfragment aan te passen ](../personalization/use-expression-fragments.md#customize-fields)
 
-* Voor HTML-componenten wordt de variabele weergegeven in de lijst met bewerkbare velden in de E-mail-Designer. [Leer hoe u bewerkbare velden in een visueel fragment kunt aanpassen](../email/use-visual-fragments.md#customize-fields)
+* Voor HTML-componenten wordt de variabele weergegeven in de lijst met bewerkbare velden in de E-mail Designer. [ Leer hoe te om editable gebieden in een visueel fragment aan te passen ](../email/use-visual-fragments.md#customize-fields)
 
 ## Voorbeeld van bewerkbaar expressiefragment {#example}
 
-In het onderstaande voorbeeld maken we een expressiefragment dat nieuwe sportcollecties presenteert. Standaard geeft het fragment deze inhoud weer: *Op zoek naar meer? Mis onze nieuwste sportcollectie niet!*
+In het onderstaande voorbeeld maken we een expressiefragment dat nieuwe sportcollecties presenteert. Door gebrek, toont het fragment deze inhoud: *zoekend naar meer? Mis onze nieuwste sportcollectie niet!*
 
-We willen gebruikers toestaan om &quot;sport&quot; in deze inhoud te vervangen door de sport van hun keuze. Bijvoorbeeld: *Op zoek naar meer? Mis onze nieuwste yoga-collectie niet!*
+We willen gebruikers toestaan om &quot;sport&quot; in deze inhoud te vervangen door de sport van hun keuze. Bijvoorbeeld: *zoek meer? Mis onze nieuwste yoga-verzameling niet!*
 
 Dit doet u als volgt:
 
 1. Declareer een &quot;sport&quot;variabele met identiteitskaart &quot;sport&quot;.
 
-   Als gebruikers de waarde van de variabele niet wijzigen nadat ze het fragment in hun inhoud hebben toegevoegd, wordt standaard de waarde weergegeven die is gedefinieerd tussen de `{{#inline}}` en `{{/inline}}` tags, d.w.z. &quot;sport&quot;.
+   Als gebruikers de waarde van de variabele niet wijzigen nadat ze het fragment in hun inhoud hebben toegevoegd, wordt standaard de waarde weergegeven die is gedefinieerd tussen de tags `{{#inline}}` en `{{/inline}}` , dat wil zeggen &#39;sport&#39;.
 
-1. Voeg de ``{{{sport}}}`` syntaxis in de fragmentinhoud waar u de variabelewaarde wilt weergeven, dat wil zeggen standaard &quot;sport&quot; of de waarde die door de gebruikers wordt gekozen.
+1. Voeg de syntaxis ``{{{sport}}}`` in de fragmentinhoud toe waar u de variabelewaarde wilt weergeven, dat wil zeggen standaard &#39;sport&#39; of de waarde die door gebruikers wordt gekozen.
 
    ![](assets/fragment-expression-custom.png)
 
-1. Wanneer gebruikers het uitdrukkingsfragment aan hun inhoud toevoegen, kunnen de waarde van de variabele met hun keus direct van de uitdrukkingsredacteur veranderen. [Leer hoe u bewerkbare velden in een expressiefragment kunt aanpassen](../personalization/use-expression-fragments.md#customize-fields)
+1. Wanneer gebruikers het uitdrukkingsfragment aan hun inhoud toevoegen, kunnen de waarde van de variabele met hun keus direct van de uitdrukkingsredacteur veranderen. [ Leer hoe te om editable gebieden in een uitdrukkingsfragment aan te passen ](../personalization/use-expression-fragments.md#customize-fields)
 
    ![](assets/fragment-expression-use.png)

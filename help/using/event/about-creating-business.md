@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: gebeurtenis, reis, zaken, configuratie
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1105'
 ht-degree: 6%
 
 ---
@@ -31,7 +31,7 @@ Bedrijfsevenementen kunnen &quot;een product is weer in voorraad&quot;, &quot;de
 
 >[!NOTE]
 >
->U kunt ook op het geval van het bedrijfsgebeurtenisgebruik [ leerprogramma ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html?lang=nl-NL) letten. Merk op dat het schema niet voor profiel te hoeven worden toegelaten.
+>U kunt ook op het geval van het bedrijfsgebeurtenisgebruik [ leerprogramma ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html) letten. Merk op dat het schema niet voor profiel te hoeven worden toegelaten.
 
 ## Belangrijke opmerkingen {#important-notes}
 
@@ -56,7 +56,7 @@ Zakelijke gebeurtenissen volgen op dezelfde manier als voor eenheidsgebeurteniss
 
 **wat zijn de gidsen om overladende materialized publiek te vermijden?**
 
-In het geval van on-shot bedrijfsgebeurtenissen, voor een bepaalde reis, worden de gegevens die door de eerste gebeurtenisbaan worden geduwd opnieuw gebruikt tijdens een tijdvenster van 1 uur. Voor geregelde reizen is er geen spoor. Leer meer over publiek in de [ documentatie van de Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL).
+In het geval van on-shot bedrijfsgebeurtenissen, voor een bepaalde reis, worden de gegevens die door de eerste gebeurtenisbaan worden geduwd opnieuw gebruikt tijdens een tijdvenster van 1 uur. Voor geregelde reizen is er geen spoor. Leer meer over publiek in de [ documentatie van de Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 ## Aan de slag met bedrijfsgebeurtenissen {#gs-business-events}
 
@@ -110,7 +110,7 @@ Hier zijn de eerste stappen om een bedrijfsgebeurtenis te vormen:
 
 ## De laadvelden definiëren {#define-the-payload-fields}
 
-De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de gebeurtenis in uw reis verwacht te ontvangen en de sleutel om te identificeren welke persoon aan de gebeurtenis wordt geassocieerd. De nuttige lading is gebaseerd op de Experience Cloud XDM gebiedsdefinitie. Voor meer informatie over XDM, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"} .
+De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de gebeurtenis in uw reis verwacht te ontvangen en de sleutel om te identificeren welke persoon aan de gebeurtenis wordt geassocieerd. De nuttige lading is gebaseerd op de Experience Cloud XDM gebiedsdefinitie. Voor meer informatie over XDM, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
 
 1. Selecteer een XDM-schema in de lijst en klik op het veld **[!UICONTROL Fields]** of op het pictogram **[!UICONTROL Edit]** .
 

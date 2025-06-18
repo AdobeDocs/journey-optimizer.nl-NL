@@ -8,9 +8,9 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: web, subdomeinen, configuratie
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -152,35 +152,15 @@ You cannot delete a subdomain with the **[!UICONTROL Processing]** status.
 
 ## Een subdomein delegeren ongedaan maken {#undelegate-subdomain}
 
-Neem contact op met uw Adobe-vertegenwoordiger als u de gedelegeerde websubdomein wilt opheffen.
-
-U moet echter verschillende stappen uitvoeren in de gebruikersinterface voordat u Adobe bereikt.
-
->[!NOTE]
->
->U kunt alleen subdomeinen met de status **[!UICONTROL Success]** dedelegeren. Subdomeinen met de statussen **[!UICONTROL Draft]** en **[!UICONTROL Failed]** kunnen eenvoudig uit de gebruikersinterface worden verwijderd.
-
-Voer eerst de volgende stappen uit in [!DNL Journey Optimizer] :
-
-1. Deactiveer alle kanaalconfiguraties verbonden aan subdomain. [ leer hoe ](../configuration/channel-surfaces.md#deactivate-a-surface)
+Als u een websubdomein wilt dedelegeren, neemt u contact op met uw Adobe-vertegenwoordiger met het subdomein dat u wilt dedelegeren.
 
 <!--
-1. If the web subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
+1. Deactivate all the channel configurations associated with the subdomain. [Learn how](../configuration/channel-surfaces.md#deactivate-a-surface)
 
-1. Stop de actieve campagnes verbonden aan subdomeinen. [ leer hoe ](../campaigns/modify-stop-campaign.md#stop)
+1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/modify-stop-campaign.md#stop)
 
-1. Stop de actieve reizen verbonden aan subdomeinen. [ leer hoe ](../building-journeys/end-journey.md#stop-journey)
+1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)-->
 
-1. Als het Web subdomain a [ nieuw afgevaardigd subdomain ](#web-configure-new-subdomain) was, verwijder de DNS ingangen verbonden aan dat subdomain.
-
-Als u klaar bent, neemt u contact op met uw Adobe-vertegenwoordiger met het subdomein dat u wilt uitschakelen.
+Als Websubdomain a [ nieuw gedelegeerd subdomain ](#web-configure-new-subdomain) was, kunt u het DNS CNAME- verslag schrappen dat u voor Websubdomain van uw het ontvangen oplossing creeerde (maar schrapt niet het originele e-mailsubdomain als om het even welk).
 
 Nadat uw verzoek door Adobe wordt behandeld, wordt het niet-gedelegeerde domein niet meer getoond op de pagina van de subdomeininventaris.
-
->[!CAUTION]
->
->Nadat een subdomein niet is gedelegeerd:
->
->   * U kunt de kanaalconfiguraties die dat subdomein gebruikten, niet opnieuw activeren.
->
->   * U kunt exacte subdomein niet opnieuw delegeren via de gebruikersinterface. Neem desgewenst contact op met uw Adobe-vertegenwoordiger.

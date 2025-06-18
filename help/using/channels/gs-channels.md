@@ -6,9 +6,9 @@ description: Leer hoe te met  [!DNL Adobe Journey Optimizer]  communicatiekanale
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Adobe Journey Optimizer biedt verschillende native kanalen om effectief met uw p
 De uitgaande kanalen van de berichtlevering impliceren het verzenden van berichten naar klanten zonder vroegere interactie. Voorbeelden zijn e-mailcampagnes en pushberichten, waar u proactief contact opneemt met uw publiek. In [!DNL Adobe Journey Optimizer] zijn de ondersteunde uitgaande kanalen:
 
 * **E-mail**: Lever gepersonaliseerde berichten rechtstreeks aan uw klanten&#39; inboxes.
-* **SMS/MMS**: Verzend tekstberichten om gebruikers op hun mobiele apparaten te bereiken.
+* **SMS/MMS/RCS**: Verzend tekstberichten om gebruikers op hun mobiele apparaten te bereiken.
 * **het Bericht van de duw**: Sluit gebruikers met onmiddellijke berichten op hun apparaten aan, die directe actie drijven.
 * **Directe Post**: Gebruik fysieke post om een tastbare verbinding met uw publiek tot stand te brengen.
 

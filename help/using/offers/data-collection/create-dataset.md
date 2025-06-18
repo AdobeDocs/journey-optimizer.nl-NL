@@ -7,9 +7,9 @@ feature: Ranking, Decision Management, Datasets
 role: Data Engineer, Developer
 level: Experienced
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Begin door het schema te creëren dat in uw dataset zal worden gebruikt:
 
    >[!NOTE]
    >
-   >Leer meer over schema&#39;s XDM en gebiedsgroepen in de [ XDM het overzichtsdocumentatie van het Systeem ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"} .
+   >Leer meer over schema&#39;s XDM en gebiedsgroepen in de [ XDM het overzichtsdocumentatie van het Systeem ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
 
 1. Ga een naam en een beschrijving voor uw schema in en klik **Afwerking**.
    ![](../assets/ai-ranking-xdm-event-2.png)
@@ -51,9 +51,9 @@ Begin door het schema te creëren dat in uw dataset zal worden gebruikt:
 
 >[!NOTE]
 >
->Leer meer over het bouwen van schema&#39;s in [ Grondbeginselen van schemacompositie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=nl-NL#understanding-schemas){target="_blank"} .
+>Leer meer over het bouwen van schema&#39;s in [ Grondbeginselen van schemacompositie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}.
 
-U bent nu bereid om een dataset tot stand te brengen gebruikend dit schema. Hiervoor voert u de volgende stappen uit:
+u bent nu klaar om een dataset tot stand te brengen gebruikend dit schema. Hiervoor voert u de volgende stappen uit:
 
 1. Selecteer **[!UICONTROL Datasets]** in het menu **[!UICONTROL Data Management]** en ga naar de tab **[!UICONTROL Browse]** .
 

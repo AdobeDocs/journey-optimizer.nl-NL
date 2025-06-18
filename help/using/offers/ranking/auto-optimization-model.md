@@ -7,9 +7,9 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1358'
 ht-degree: 0%
 
 ---
@@ -23,33 +23,33 @@ Een model voor automatische optimalisatie is bedoeld voor aanbiedingen die het r
 Voor het gebruik van modellen voor automatische optimalisatie voor besluitvormingsbeheer gelden de onderstaande beperkingen:
 
 * Modellen voor automatische optimalisatie werken niet met de API voor het bepalen van batch.
-* Feedback die nodig is om het model te maken, moet worden verzonden als een ervaringsgebeurtenis. Het mag niet automatisch worden verzonden in [!DNL Journey Optimizer] kanalen.
+* Feedback die nodig is om het model te maken, moet worden verzonden als een ervaringsgebeurtenis. Deze mag niet automatisch via [!DNL Journey Optimizer] -kanalen worden verzonden.
 
 ## Terminologie {#terminology}
 
 De volgende termen zijn handig wanneer u het over automatisch optimaliseren hebt:
 
-* **Meervoudig bewapende bandit**: A [meerbewapende bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit){target="_blank"} de optimalisatiebenadering maakt een balans op tussen verkennend leren en het benutten van dat leren.
+* **Meervoudig-gewapende bandit**: Een [ multi-gewapende bandit ](https://en.wikipedia.org/wiki/Multi-armed_bandit){target="_blank"} benadering van optimalisatiesaldi verkennend leren en exploitatie van dat leren.
 
-* **Thomson sampling**: Thompson sampling is een algoritme voor online beslissingsproblemen waarbij acties opeenvolgend worden genomen op een manier die evenwicht moet vinden tussen het exploiteren van wat bekend is om het maximaliseren van de directe prestaties en het investeren om nieuwe informatie te verzamelen die toekomstige prestaties kan verbeteren. [Meer informatie](#thompson-sampling)
+* **Thomson bemonstering**: De steekproef van Thompson is een algoritme voor online besluitvormingsproblemen waar de acties opeenvolgend op een manier worden genomen die tussen het exploiteren van wat moet in evenwicht brengen om directe prestaties te maximaliseren en te investeren om nieuwe informatie te verzamelen die toekomstige prestaties kan verbeteren. [Meer informatie](#thompson-sampling)
 
-* [**Beta-distributie**](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}: Set of continuous [probability distributions](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"} defined on the interval [0, 1] [parameterized](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} by two positive [shape parameters](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}.
+* [**de distributie van Beta** ](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}: Reeks ononderbroken [ kansverdelingen ](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"} die op het interval [ 0 worden bepaald, ] [ ](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} door twee positieve [ vormparameters ](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"} wordt bepaald.
 
 ## Thompson Sampling {#thompson-sampling}
 
-Het algoritme dat aan Auto-optimalisering ten grondslag ligt is **Thompson sampling**. In deze sectie bespreken we de intuïtie achter Thompson-steekproeven.
+Het algoritme dat aan auto-optimalisering ten grondslag ligt is **Thompson bemonstering**. In deze sectie bespreken we de intuïtie achter Thompson-steekproeven.
 
-[Thompson sampling](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}, of Bayesiaanse bandieten, is een Bayesiaanse benadering van het multi-gewapende bandit probleem.  Het basisidee is om de gemiddelde beloning van elk aanbod als een beloning te behandelen? **willekeurige variabele** en gebruik de gegevens die we tot nu toe hebben verzameld om ons &quot; geloof &quot; over de gemiddelde beloning bij te werken . Dit &quot;geloof&quot; wordt wiskundig weergegeven door een **waarschijnlijkheidsverdeling achter de hand** - in wezen een reeks waarden voor de gemiddelde beloning, samen met de plausibiliteit (of waarschijnlijkheid) die de beloning voor elke aanbieding heeft. Dan, voor elk besluit, zullen we **monster een punt van elk van deze beloningsverdelingen achteraf** en selecteer het bod waarvan de in de steekproef opgenomen beloning de hoogste waarde had.
+[ Thompson bemonstering ](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}, of Badesische banden, is een Bayesiaanse benadering van het multi-gewapende bandit probleem.  Het basisidee is de gemiddelde beloning 𝛍 van elk aanbod als a **willekeurige variabele** te behandelen en de gegevens te gebruiken die wij tot dusverre hebben verzameld, om ons &quot;geloof&quot;over de gemiddelde beloning bij te werken. Dit &quot;geloof&quot;wordt vertegenwoordigd wiskundig door a **posterior kansdistributie** - hoofdzakelijk een waaier van waarden voor de gemiddelde beloning, samen met de plausibiliteit (of de waarschijnlijkheid) dat de beloning die waarde voor elk aanbod heeft. Dan, voor elk besluit, zullen wij **een punt van elk van deze posterior beloningsverdelingen** steekproef en zullen selecteren de aanbieding waarvan bemonsterde beloning de hoogste waarde had.
 
-Dit proces wordt geïllustreerd in onderstaande afbeelding, waar we drie verschillende aanbiedingen hebben. Aanvankelijk hebben we geen bewijs van de gegevens en we gaan ervan uit dat alle aanbiedingen een uniforme posterior-beloningspreiding hebben. We nemen een monster van de posterior beloningsdistributie van elk aanbod. Het voorbeeld dat u hebt geselecteerd bij de distributie van Aanbieding 2, heeft de hoogste waarde. Dit voorbeeld **exploratie**. Na het tonen van Aanbieding 2, verzamelen wij om het even welke potentiële beloning (bijvoorbeeld omzetting/geen-omzetting) en werken de posterior distributie van Aanbieding 2 bij gebruikend Bayes Theorem zoals hieronder verklaard.  We zetten dit proces voort en werken de posterior distributies bij telkens wanneer een aanbieding wordt getoond en de beloning wordt geïnd. In het tweede cijfer, wordt Aanbieding 3 geselecteerd - hoewel Aanbieding 1 de hoogste gemiddelde beloning heeft (zijn posterior beloningsdistributie is het verst naar rechts), heeft het proces van bemonstering van elke distributie ertoe geleid dat wij een schijnbaar suboptimale Aanbieding 3 kozen. Daarmee geven we onszelf de kans om meer te leren over de werkelijke beloningsverdeling van Aanbieding 3.
+Dit proces wordt geïllustreerd in onderstaande afbeelding, waar we drie verschillende aanbiedingen hebben. Aanvankelijk hebben we geen bewijs van de gegevens en we gaan ervan uit dat alle aanbiedingen een uniforme posterior-beloningspreiding hebben. We nemen een monster van de posterior beloningsdistributie van elk aanbod. Het voorbeeld dat u hebt geselecteerd bij de distributie van Aanbieding 2, heeft de hoogste waarde. Dit is een voorbeeld van **exploratie**. Na het tonen van Aanbieding 2, verzamelen wij om het even welke potentiële beloning (bijvoorbeeld omzetting/geen-omzetting) en werken de posterior distributie van Aanbieding 2 bij gebruikend Bayes Theorem zoals hieronder verklaard.  We zetten dit proces voort en werken de posterior distributies bij telkens wanneer een aanbieding wordt getoond en de beloning wordt geïnd. In het tweede cijfer, wordt Aanbieding 3 geselecteerd - hoewel Aanbieding 1 de hoogste gemiddelde beloning heeft (zijn posterior beloningsdistributie is het verst naar rechts), heeft het proces van bemonstering van elke distributie ertoe geleid dat wij een schijnbaar suboptimale Aanbieding 3 kozen. Daarmee geven we onszelf de kans om meer te leren over de werkelijke beloningsverdeling van Aanbieding 3.
 
-Aangezien meer monsters worden verzameld, neemt het vertrouwen toe en wordt een nauwkeuriger schatting van de mogelijke beloning verkregen (die overeenkomt met een kleinere beloningsverdeling). Dit proces om onze overtuigingen bij te werken naarmate er meer bewijs beschikbaar komt, wordt bekend als **Bayesiaanse gevolgtrekking**.
+Aangezien meer monsters worden verzameld, neemt het vertrouwen toe en wordt een nauwkeuriger schatting van de mogelijke beloning verkregen (die overeenkomt met een kleinere beloningsverdeling). Dit proces om onze overtuigingen bij te werken aangezien het meer bewijsmateriaal beschikbaar wordt is gekend als **Bayesiaanse Inferentie**.
 
-Uiteindelijk, als één aanbieding (b.v. Aanbieding 1) een duidelijke winnaar is, zal zijn posterior beloningsdistributie van anderen worden gescheiden. Op dit moment zal de in de steekproef opgenomen beloning van aanbod 1 voor elk besluit waarschijnlijk de hoogste zijn, en we zullen er met een hogere waarschijnlijkheid voor kiezen. Dit is **exploitatie** - we zijn er sterk van overtuigd dat aanbod 1 het beste is, en daarom wordt gekozen om beloningen te maximaliseren.
+Uiteindelijk, als één aanbieding (b.v. Aanbieding 1) een duidelijke winnaar is, zal zijn posterior beloningsdistributie van anderen worden gescheiden. Op dit moment zal de in de steekproef opgenomen beloning van aanbod 1 voor elk besluit waarschijnlijk de hoogste zijn, en we zullen er met een hogere waarschijnlijkheid voor kiezen. Dit is **exploitatie** - wij hebben een sterk geloof dat Aanbieding 1 het beste is, en zo wordt het gekozen om beloningen te maximaliseren.
 
 ![](../assets/ai-ranking-thompson-sampling.png)
 
-**Figuur 1**: *Voor elk besluit, nemen wij een punt van de posterior beloningsverdelingen. Het aanbod met de hoogste steekproefwaarde (omrekeningskoers) wordt gekozen. In de eerste fase hebben alle aanbiedingen een uniforme verdeling, omdat we geen enkel bewijs hebben over de omrekeningskoersen van de aanbiedingen uit de gegevens. Terwijl we meer monsters verzamelen, worden de posterior distributies smaller en nauwkeuriger. Uiteindelijk wordt het aanbod met de hoogste omrekeningskoers telkens gekozen.*
+**Figuur 1**: *voor elk besluit, steekproef wij een punt van de posterior beloningsverdelingen. Het aanbod met de hoogste steekproefwaarde (omrekeningskoers) wordt gekozen. In de eerste fase hebben alle aanbiedingen een uniforme verdeling, aangezien we geen enkel bewijs hebben van de omrekeningskoersen van de aanbiedingen op basis van de gegevens. Terwijl we meer monsters verzamelen, worden de posterior distributies smaller en nauwkeuriger. Uiteindelijk, zal de aanbieding met de hoogste omzettingspercentages elke keer worden gekozen.*
 
 <!--
 ![](../assets/ai-ranking-thompson-sampling-initial.png)
@@ -57,45 +57,45 @@ Uiteindelijk, als één aanbieding (b.v. Aanbieding 1) een duidelijke winnaar is
 ![](../assets/ai-ranking-thompson-sampling-ultimate.png)
 -->
 
-+++**Technische details**
++++**Technische Details**
 
-Voor het berekenen/bijwerken van distributies gebruiken we **Bayes Theorem**. Voor elke aanbieding ***i***, willen we hun ***P(??i | gegevens)***, d.w.z. voor elke aanbieding ***i***, hoe waarschijnlijk een beloningswaarde is **??i** is, gezien de gegevens die we tot nu toe voor dat aanbod hebben verzameld.
+Om distributies te berekenen/bij te werken, gebruiken wij **Zeggen Theorem**. Voor elke aanbieding ***i***, willen wij hun ***P (𝛍 i berekenen | gegevens)***, d.w.z. voor elke aanbieding ***i***, hoe waarschijnlijk is een beloningswaarde **𝛍i**, gezien de gegevens die wij tot nu toe voor die aanbieding hebben verzameld.
 
 Van Bayes Theorem:
 
-***Posterior = Likeliability * Voorafgaand***
+***Posterior = Waarschijnlijkheid * Voorafgaand***
 
-De **voorafgaande waarschijnlijkheid** Dit is de eerste schatting van de waarschijnlijkheid om een uitvoer te produceren. De waarschijnlijkheid, nadat enig bewijs is verzameld, wordt bekend als **achterste waarschijnlijkheid**. 
+De **vroegere waarschijnlijkheid** is de aanvankelijke gok over de waarschijnlijkheid om een output te veroorzaken. De waarschijnlijkheid, nadat één of ander bewijsmateriaal is verzameld, is gekend als **achterste waarschijnlijkheid**. 
 
-De auto-optimalisering wordt ontworpen om binaire beloningen (klik/geen-klik) te overwegen. In dit geval vertegenwoordigt de waarschijnlijkheid het aantal successen van N-proeven en wordt zij gemodelleerd door een **Binomiale distributie**. Voor sommige waarschijnlijkheidsfuncties, als u een bepaalde vroegere kiest, uiteindelijk is de achter-achter in de zelfde distributie zoals vroeger. Zo&#39;n voordien wordt dan een **voorafgaand samenvoegen**. Dit soort van vroeger maakt de berekening van posterior distributie zeer eenvoudig. De **Beta-distributie** is een conjugaat voorafgaand aan de binomiale waarschijnlijkheid (binaire beloningen), en is zo een geschikte en verstandige keuze voor de voorafgaande en posterior kansverdelingen.De bètadistributie neemt twee parameters; ***α*** en ***β***. Deze parameters kunnen worden beschouwd als het aantal successen en mislukkingen en de gemiddelde waarde die wordt gegeven door:
+De auto-optimalisering wordt ontworpen om binaire beloningen (klik/geen-klik) te overwegen. In dit geval, vertegenwoordigt de waarschijnlijkheid het aantal successen van de proeven van N en door a **Binomiale distributie** gemodelleerd. Voor sommige waarschijnlijkheidsfuncties, als u een bepaalde vroegere kiest, uiteindelijk is de achter-achter in de zelfde distributie zoals vroeger. Zulk vroeger dan wordt genoemd a **conjugaat voorafgaand**. Dit soort van vroeger maakt de berekening van posterior distributie zeer eenvoudig. De **distributie van Beta** is een conjugaat voorafgaand aan de binomiale waarschijnlijkheid (binaire beloningen), en is zo een geschikte en redelijke keus voor de vroegere en posterior kansverdelingen.De distributie van Beta neemt twee parameters, ***α*** en ***β***. Deze parameters kunnen worden beschouwd als het aantal successen en mislukkingen en de gemiddelde waarde die wordt gegeven door:
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-De functie van de Waarschijnlijkheid zoals wij hierboven verklaren wordt gemodelleerd door een Binomiale distributie, met s successes (omzettingen) en f mislukkingen (geen omzettingen) en q is a [willekeurige variabele](https://en.wikipedia.org/wiki/Random_variable){target="_blank"} with a [beta distribution](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}.
+De functie van de Waarschijnlijkheid zoals wij hierboven verklaarden wordt gemodelleerd door een Binomiale distributie, met s successen (omzettingen) en f mislukkingen (geen-omzettingen) en q is a [ willekeurige variabele ](https://en.wikipedia.org/wiki/Random_variable){target="_blank"} met a [ bètadistributie ](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}.
 
-De bovenstaande methode wordt gemodelleerd door bètadistributie en de posterior-distributie heeft de volgende vorm:
+Het bovenstaande voorbeeld wordt gemodelleerd door Beta-distributie en de posterior-distributie heeft de volgende vorm:
 
 ![](../assets/ai-ranking-posterior-distribution.svg)
 
-De waarde achteraf wordt berekend door het aantal successen en mislukkingen toe te voegen aan de bestaande parameters ***α***, ***β***.
+Posterior wordt berekend door het aantal successen en mislukkingen eenvoudig toe te voegen aan de bestaande parameters ***α***, ***β***.
 
-Voor automatische optimalisatie, zoals in het bovenstaande voorbeeld wordt getoond, beginnen we met een eerdere distributie ***Bèta(1, 1)*** (uniforme distributie) voor alle aanbiedingen en na het krijgen van successen en van mislukkingen voor een bepaalde aanbieding, wordt de posterior een bètadistributie met parameters ***(s+α, f+β)*** voor dat aanbod.
+Voor auto-optimalisering, zoals aangetoond in het voorbeeld hierboven, beginnen wij met een vroegere distributie ***Beta (1, 1)*** (eenvormige distributie) voor alle aanbiedingen en na het krijgen van s successen en van mislukkingen voor een bepaalde aanbieding, de posterior wordt een distributie van Beta met parameters ***(s+α, f+β)*** voor die aanbieding.
 +++
 
 **Verwante onderwerpen**:
 
 Lees de volgende onderzoeksdocumenten voor een dieper inzicht in Thompson sampling:
-* [Een empirische evaluatie van Thompson Sampling](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
-* [Analyse van Thompson Sampling voor het probleem van de multigewapende bandit](https://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
+* [ een Empirische Evaluatie van Thompson Steekproef ](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
+* [ Analyse van Thompson Steekproef voor het Meervoudig-gewapende Probleem van de Bandit ](https://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
 
 ## Koudstartprobleem {#cold-start}
 
-Het probleem van de &quot;koude start&quot; doet zich voor wanneer een nieuwe aanbieding aan een campagne wordt toegevoegd en er geen gegevens beschikbaar zijn over de omrekeningskoers van de nieuwe aanbieding. In deze periode moeten we een strategie bedenken voor de vraag hoe vaak dit nieuwe aanbod wordt gekozen, zodat de prestatievermindering tot een minimum wordt beperkt, terwijl we informatie verzamelen over de omrekeningskoers van dit nieuwe aanbod. Er zijn meerdere oplossingen beschikbaar om dit probleem aan te pakken. De sleutel is om een evenwicht te vinden tussen de verkenning van dit nieuwe aanbod, terwijl we de exploitatie niet veel opofferen. Momenteel gebruiken we &quot;uniforme distributie&quot; als eerste schatting van de omrekeningskoers van de nieuwe aanbieding (voorafgaande distributie). In feite geven we alle conversiesnelheidswaarden dezelfde kans op voorkomen.
+Het probleem van de &quot;koude start&quot; doet zich voor wanneer een nieuwe aanbieding aan een campagne wordt toegevoegd en er geen gegevens beschikbaar zijn over de omrekeningskoers van de nieuwe aanbieding. In deze periode moeten we een strategie bedenken voor de vraag hoe vaak dit nieuwe aanbod wordt gekozen, zodat de prestatievermindering tot een minimum wordt beperkt, terwijl we informatie verzamelen over de omrekeningskoers van dit nieuwe aanbod. Er zijn meerdere oplossingen beschikbaar om dit probleem aan te pakken. De sleutel is het vinden van een evenwicht tussen het verkennen van dit nieuwe aanbod, terwijl we de exploitatie niet veel opofferen. Momenteel gebruiken we &quot;uniforme distributie&quot; als eerste schatting van de omrekeningskoers van de nieuwe aanbieding (voorafgaande distributie). In feite geven we alle conversiesnelheidswaarden dezelfde kans op voorkomen.
 
 
 ![](../assets/ai-ranking-cold-start-strategies.png)
 
-**Figuur 2**: *Neem een campagne met 3 aanbiedingen. Terwijl de campagne live is, wordt aanbieding 4 toegevoegd aan de campagne. Aanvankelijk hebben we geen gegevens over de omrekeningskoers van aanbod 4 en moeten we het probleem van de koudstartprocedure aanpakken. We gebruiken uniforme distributie als onze eerste schatting van de omrekeningskoers van Aanbieding 4, terwijl we gegevens verzamelen voor dit nieuwe aanbod. Zoals uiteengezet in de [Thompson sampling](#thompson-sampling) in de sectie waarin wordt aangegeven welke aanbieding aan een gebruiker wordt getoond, nemen we een monster van de achterwaartse beloningen van de aanbiedingen en selecteren we de aanbieding met de hoogste samplewaarde. In het bovenstaande voorbeeld wordt Aanbieding 4 gekozen en later op basis van de geïnde beloning, wordt de posterior-distributie van dit aanbod bijgewerkt zoals uiteengezet in het [Thompson sampling](#thompson-sampling) sectie.*
+**Figuur 2**: *overweeg een campagne met 3 aanbiedingen. Terwijl de campagne live is, wordt aanbieding 4 toegevoegd aan de campagne. Aanvankelijk hebben we geen gegevens over de omrekeningskoers van aanbod 4 en moeten we het probleem van de koudstartprocedure aanpakken. We gebruiken uniforme distributie als onze eerste schatting van de omrekeningskoers van Aanbieding 4, terwijl we gegevens verzamelen voor dit nieuwe aanbod. Zoals verklaard in de [ steekproef van Thompson ](#thompson-sampling) sectie, om te kiezen welke aanbieding aan een gebruiker zal worden getoond, nemen wij steekproefpunten van de posterior beloningsdistributies van de aanbiedingen en selecteren de aanbieding met de hoogste steekproefwaarde. In het voorbeeld hierboven, wordt Aanbieding 4 gekozen en later gebaseerd op de verzamelde beloning, wordt de posterior distributie van dit aanbod bijgewerkt zoals verklaard in de [ steekproef Thompson ](#thompson-sampling) sectie.*
 
 ## Liftmeting {#lift}
 

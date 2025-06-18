@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 keywords: landen, landingspagina, subdomeinen, configuratie
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 1aa2ac109cdbf0ba6af58204926f1cd5add334b0
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,13 @@ ht-degree: 0%
 >id="ajo_admin_subdomain_lp"
 >title="Een subdomein van een bestemmingspagina delegeren"
 >abstract="U moet een subdomein configureren om te gebruiken voor uw bestemmingspagina&#39;s, aangezien u dit subdomein nodig hebt om een voorinstelling voor een bestemmingspagina te maken. U kunt een subdomein gebruiken dat al aan Adobe is gedelegeerd of een nieuw subdomein configureren."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=nl-NL#lp-create-preset" text="Voorinstellingen voor openingspagina&#39;s maken"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Voorinstellingen voor openingspagina&#39;s maken"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
 >title="Een voorinstelling voor een openingspagina maken"
 >abstract="Als u een voorinstelling voor een bestemmingspagina wilt maken, moet u ervoor zorgen dat u eerder ten minste één subdomein van de bestemmingspagina hebt geconfigureerd om te kiezen uit de lijst met subdomeinnamen."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=nl-NL#lp-create-preset" text="Voorinstellingen voor openingspagina&#39;s maken"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Voorinstellingen voor openingspagina&#39;s maken"
 
 ## Aan de slag met het landen van subdomeinen van pagina&#39;s {#gs-lp-subdomains}
 
@@ -63,6 +63,10 @@ Als u een subdomein wilt gebruiken dat al is gedelegeerd aan Adobe, voert u de v
 1. Voer het voorvoegsel in dat wordt weergegeven in de URL van de bestemmingspagina.
 
    Alleen alfanumerieke tekens en afbreekstreepjes zijn toegestaan.
+
+   >[!CAUTION]
+   >
+   >Gebruik `cdn` of `data` voorvoegsels niet omdat deze zijn gereserveerd voor intern gebruik. Andere beperkte of gereserveerde voorvoegsels zoals `dmarc` of `spf` moeten ook worden vermeden.
 
 1. Selecteer een gedelegeerd subdomein in de lijst.
 
@@ -135,36 +139,16 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
 
 ## Een subdomein delegeren ongedaan maken {#undelegate-subdomain}
 
-Neem contact op met uw Adobe-vertegenwoordiger als u een subdomein van een bestemmingspagina wilt verwijderen.
+Als u een bestemmingspagina subdomain wenst te delegeren, volg de hieronder stappen.
 
-U moet echter verschillende stappen uitvoeren in de gebruikersinterface voordat u Adobe bereikt.
+1. Verwijder in [!DNL Journey Optimizer] de publicatie van alle bestemmingspagina&#39;s die aan het subdomein zijn gekoppeld. [ leer hoe ](create-lp.md#access-landing-pages)
 
->[!NOTE]
->
->U kunt alleen subdomeinen met de status **[!UICONTROL Success]** dedelegeren. Subdomeinen met de statussen **[!UICONTROL Draft]** en **[!UICONTROL Failed]** kunnen eenvoudig uit de gebruikersinterface worden verwijderd.
+1. Als subdomein van de landingspagina naar een CNAME-record wijst, kunt u de CNAME DNS-record verwijderen die u voor het subdomein van de bestemmingspagina hebt gemaakt van uw hostingoplossing (maar niet het oorspronkelijke e-mailsubdomein verwijderen als dat er is).
 
-Voer eerst de volgende stappen uit in [!DNL Journey Optimizer] :
+   >[!NOTE]
+   >
+   >Een het landen pagina subdomain kan aan een CNAME- verslag richten omdat het of een [ bestaand subdomain ](#lp-use-existing-subdomain) aan Adobe werd gedelegeerd gebruikend de [ methode CNAME ](../configuration/delegate-subdomain.md#cname-subdomain-delegation), of a [ nieuw het landen pagina subdomain ](#lp-configure-new-subdomain) dat u vormde.
 
-1. Verwijder de publicatie van alle bestemmingspagina&#39;s die aan het subdomein zijn gekoppeld. [ leer hoe ](create-lp.md#access-landing-pages)
-
-1. Deactiveer alle kanaalconfiguraties verbonden aan subdomain. [ leer hoe ](../configuration/channel-surfaces.md#deactivate-a-surface)
-
-<!--
-1. If the landing page subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)
-
-1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/modify-stop-campaign.md#stop)
-
-1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)
--->
-
-Als u klaar bent, neemt u contact op met uw Adobe-vertegenwoordiger met het subdomein dat u wilt uitschakelen.
+1. Neem contact op met een Adobe-medewerker met het subdomein dat u wilt verwijderen.
 
 Nadat uw verzoek door Adobe wordt behandeld, wordt het niet-gedelegeerde domein niet meer getoond op de pagina van de subdomeininventaris.
-
->[!CAUTION]
->
->Nadat een subdomein niet is gedelegeerd:
->
->   * U kunt de kanaalconfiguraties die dat subdomein gebruikten, niet opnieuw activeren.
->
->   * U kunt exacte subdomein niet opnieuw delegeren via de gebruikersinterface. Neem desgewenst contact op met uw Adobe-vertegenwoordiger.

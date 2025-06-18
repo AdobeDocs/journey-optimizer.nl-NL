@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 20f5dc6eab5695b485f4569ad098922a130d4b56
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '2143'
-ht-degree: 5%
+source-wordcount: '2050'
+ht-degree: 7%
 
 ---
 
@@ -20,17 +20,17 @@ ht-degree: 5%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 
-## Opmerkingen bij de vervroegde release juni 25 {#25-6-rn}
+## Opmerkingen bij de release van juni &#39;25 {#25-6-rn}
 
+<!--
+**Early release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.-->
 
-**de vroege versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd op de releasedatum.
+**de datum van de Versie**: 18 Juni, 2025
 
-**de datum van de Versie**: 17-18 juni, 2025
-
-Zie ook [ de Nota&#39;s van de preVersie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nieuwe functies {#25-06-features}
 
@@ -70,26 +70,29 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <tr>
 <td>
 <p>U kunt nu specifieke bewerkbare velden definiëren in JSON- of HTML-inhoudssjablonen, waarmee niet-technische gebruikers inhoud eenvoudig kunnen bewerken in een formulierweergave in de op code gebaseerde ervaring in het maken van kanalen zonder dat ze code hoeven te bewerken.<br /> meer dan dat, wanneer het bepalen van de code-gebaseerde malplaatjes van de ervaringsinhoud kunt u besluitvormingsbeleid in het malplaatje nu opnemen, die herbruikbaarheid en gebruiksgemak verhogen.</p>
+<img src="assets/do-not-localize/form-fields.gif">
+<p>Raadpleeg de <a href="../code-based/code-based-form-fields.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Aangepaste delegatiemethode voor subdomeinen</strong><br/></th>
+<th><strong>Custom delegation method for subdomains</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Naast de volledige delegatie en de methode CNAME, is een nieuwe subdomain configuratiemethode nu beschikbaar: de de delegatiemethode van de Douane, die u toelaat om volledig het controleren en het handhaven van alle aspecten van DNS te bezitten die voor het leveren, het teruggeven en het volgen van berichten worden vereist.</p>
+<p>In addition to the full delegation and the CNAME method, a new subdomain configuration method is now available: the Custom delegation method, which enables you to fully own controlling and maintaining all aspects of DNS that are required for delivering, rendering and tracking messages.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
+-->
 
 <table>
 <thead>
@@ -101,7 +104,9 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <tr>
 <td>
 <p>U kunt nu persoonlijke aanbiedingen opnemen in uw reizen door middel van een speciale activiteit voor het bepalen van inhoud in het reiscanvas en deze gebruiken in reisactiviteiten, waaronder voorwaarden en aangepaste acties.</p>
+<img src="assets/do-not-localize/content-decision.gif">
 <p>Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid) en wordt globaal geïmplementeerd in een toekomstige release.</p>
+<p>Raadpleeg de <a href="../building-journeys/content-decision.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -117,7 +122,10 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <tr>
 <td>
 <p>Reis Dry run is een speciale publicatiemodus in Adobe Journey Optimizer die reisartsen in staat stelt een reis te testen met behulp van echte productiegegevens zonder contact op te nemen met echte klanten of profielinformatie bij te werken. Deze functie helpt reisartsen vertrouwen te winnen in hun reisontwerp en doelgroep voordat ze het live publiceren.</p>
+<img src="assets/do-not-localize/DryRun.gif">
 <p>Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid) en wordt globaal geïmplementeerd in een toekomstige release.</p>
+<p>Raadpleeg de <a href="../building-journeys/journey-dry-run.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+
 </td>
 </tr>
 </tbody>
@@ -135,7 +143,9 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <p>U kunt nu uw reizen pauzeren en hervatten. Deze mogelijkheid geeft reisartsen meer controle en flexibiliteit door het tijdelijk stilleggen van de actieve reizen toe te staan zonder de ervaring van de klant te verstoren. Wanneer gepauzeerd, worden geen mededelingen verzonden, en de profielen blijven in een geschorste staat tot de reis wordt hervat.</p>
 <p>U kunt slechts één reis pauzeren en hervatten, of bulkpauze uitvoeren en verrichtingen aan een groep reizen hervatten.</p>
 <p>Bovendien kunt u algemene filters toepassen op gepauzeerde reizen om profielen uit te sluiten op basis van hun kenmerken.</p>
+<img src="assets/do-not-localize/PauseResume.gif">
 <p>Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid) en wordt globaal geïmplementeerd in een toekomstige release.</p>
+<p>Raadpleeg de <a href="../building-journeys/journey-pause.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -185,25 +195,25 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 
 De verbeteringen die bij deze release worden geleverd, worden hieronder weergegeven.
 
-* **de regelreeksen van het Kanaal**
+<!--* **Channel rule sets**
 
-   * **venster van de Duur van de Douane** voor het in kaart brengen - een nieuw **gebied van de Telling van de Herhaling** is nu beschikbaar in het scherm van de reeksen van de kanaalregel, toestaand u om frequentie het in kaart brengen regels over veelvoudige dagen, weken, of maanden, afhankelijk van de gespecificeerde duur toe te passen.
+  * **Custom duration window** for capping -  A new **Repeat Count** field is now available in the channel rule sets configuration screen, allowing you to apply frequency capping rules over multiple days, weeks, or months, depending on the specified duration.
 
-   * **Uurduur** - u kunt het bedekken op een uurbasis voor de reeksen van de kanaalregel nu toepassen.
+  * **Hourly duration** - You can now apply capping on an hourly basis for channel rule sets.    -->
 
 * **op code-gebaseerde ervaringen**
 
-   * Het toevoegen van een besluitvormingsbeleid is nu beschikbaar in code-gebaseerde malplaatjes van de ervaringsinhoud.
+   * Het toevoegen van een besluitvormingsbeleid is nu beschikbaar in code-gebaseerde malplaatjes van de ervaringsinhoud, waar het aan hefboomwerking aanbiedingen in editable vormgebieden kan worden gebruikt. [Meer informatie](../code-based/code-based-form-fields.md)
 
-   * Van het op code-gebaseerde de ervaringstraject of scherm van de campagneuitgave, kunt u direct een besluitvormingsbeleid toevoegen, zonder de verpersoonlijkingsredacteur te openen.
+   * Van het op code-gebaseerde de ervaringstraject of scherm van de campagneuitgave, kunt u direct een besluitvormingsbeleid toevoegen, zonder de verpersoonlijkingsredacteur te openen. [Meer informatie](../code-based/create-code-based.md#edit-code)
 
 * **de Steun van CSS van de Douane in E-mail Designer**
 
-  Met Journey Optimizer kunt u nu aangepaste CSS rechtstreeks in de e-mailtoepassing toevoegen aan uw e-mailinhoud.
+  Met Journey Optimizer kunt u nu aangepaste CSS rechtstreeks in de e-mailtoepassing toevoegen aan uw e-mailinhoud. [Meer informatie](../email/custom-css.md)
 
 * **Nieuwe van labels voorzien navigatie voor campagnes**
 
-  Een nieuw navigatiepatroon maakt snellere toegang tot het ontwerpen van inhoud mogelijk en ondersteunt verdere uitbreiding van instellingen in alle campagnes.
+  Een nieuw navigatiepatroon maakt snellere toegang tot het ontwerpen van inhoud mogelijk en ondersteunt verdere uitbreiding van instellingen in alle campagnes. [Meer informatie](../campaigns/create-campaign.md)
 
 * **Beslissing** - de datum van de Beschikbaarheid: 3 Juni, 2025
 

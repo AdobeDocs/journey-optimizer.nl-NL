@@ -8,21 +8,21 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1022'
 ht-degree: 2%
 
 ---
 
-# Een tekstbericht maken (SMS/MMS) {#create-sms}
+# Een SMS/MMS/RCS-bericht maken {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="Een tekstbericht maken"
->abstract="Om een tekstbericht (SMS/MMS) te creëren, voeg een actie van SMS in een reis of een campagne toe en begin het met de verpersoonlijkingsredacteur te personaliseren."
+>abstract="Om een tekstbericht (SMS/MMS/RCS) tot stand te brengen, voeg een actie van SMS in een reis of een campagne toe en begin het met de verpersoonlijkingsredacteur aan te passen."
 
-U kunt tekst- (SMS) en multimedia-berichten (MMS) ontwerpen en verzenden met Adobe Journey Optimizer. U moet eerst een actie van SMS in een reis of een campagne toevoegen, en dan de inhoud van het tekstbericht bepalen, zoals hieronder beschreven. Adobe Journey Optimizer biedt ook mogelijkheden om uw tekstberichten te testen voordat ze worden verzonden, zodat u de rendering, personalisatiekenmerken en alle andere instellingen kunt controleren.
+U kunt tekst (SMS), RCS- en MMS-berichten (Rich Communication) en multimedia-berichten met Adobe Journey Optimizer ontwerpen en verzenden. U moet eerst een actie van SMS in een reis of een campagne toevoegen, en dan de inhoud van het tekstbericht bepalen, zoals hieronder beschreven. Adobe Journey Optimizer biedt ook mogelijkheden om uw tekstberichten te testen voordat ze worden verzonden, zodat u de rendering, personalisatiekenmerken en alle andere instellingen kunt controleren.
 
 >[!NOTE]
 >
@@ -31,11 +31,11 @@ U kunt tekst- (SMS) en multimedia-berichten (MMS) ontwerpen en verzenden met Ado
 
 ## Een tekstbericht toevoegen {#create-sms-journey-campaign}
 
-Blader op de onderstaande tabbladen om te leren hoe u een tekstbericht (SMS/MMS) kunt toevoegen aan een campagne of een reis.
+Blader op de onderstaande tabbladen om te leren hoe u een tekstbericht (SMS/MMS/RCS) kunt toevoegen aan een campagne of een reis.
 
 >[!BEGINTABS]
 
->[!TAB voeg een tekstbericht aan een Reis  toe]
+>[!TAB  voeg een tekstbericht aan een Reis ] toe
 
 1. Open uw reis dan belemmering en laat vallen een activiteit van SMS van de **sectie van Acties** van het palet.
 
@@ -90,18 +90,20 @@ U kunt nu de inhoud van uw tekstbericht ontwerpen via de knop **[!UICONTROL Edit
 
 >[!ENDTABS]
 
-## Je SMS-inhoud definiëren{#sms-content}
+## SMS/RCS-inhoud definiëren{#sms-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="Je SMS-inhoud definiëren"
->abstract="Pas en verpersoonlijk uw tekstberichten (SMS/MMS) aan door de verpersoonlijkingsredacteur te gebruiken om de inhoud te bepalen en dynamische elementen op te nemen."
+>abstract="Pas en verpersoonlijk uw tekstberichten (SMS/MMS/RCS) aan door de verpersoonlijkingsredacteur te gebruiken om de inhoud te bepalen en dynamische elementen op te nemen."
 
-Volg onderstaande stappen om uw SMS-inhoud te configureren. De montages voor MMS zijn gedetailleerd in [ deze sectie ](#mms-content).
+Volg onderstaande stappen om de inhoud van uw bericht te configureren. De montages voor MMS zijn gedetailleerd in [ deze sectie ](#mms-content).
 
 1. Klik in het configuratiescherm van de reis of campagne op de knop **[!UICONTROL Edit content]** om de inhoud van het tekstbericht te configureren.
 
 1. Klik op het veld **[!UICONTROL Message]** om de personalisatie-editor te openen.
+
+   Voor RCS overseinen met Infobip, Twilio, of andere derdeleveranciers, kleef de vereiste JSON nuttige lading in uw [ configuratie van douaneSMS ](sms-configuration-custom.md#api-credential).
 
    ![](assets/sms-content.png)
 

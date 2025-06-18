@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7e9d707d6413509aef207a6183f6c9953ccdf229
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2448'
 ht-degree: 20%
 
 ---
@@ -75,6 +75,7 @@ ht-degree: 20%
       + [Doelgroep lezen](using/building-journeys/read-audience.md)
       + [Ingebouwde kanaalhandelingen](using/building-journeys/journeys-message.md)
       + [Aangepaste acties](using/building-journeys/using-custom-actions.md)
+      + [Inhoudsbeslissing](using/building-journeys/content-decision.md)
       + [Adobe Campaign Standard-acties](using/building-journeys/using-adobe-campaign-standard.md)
       + [Handelingen voor Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-v7-v8.md)
       + [Springen](using/building-journeys/jump.md)
@@ -190,7 +191,7 @@ ht-degree: 20%
    + De database opvragen {#query-database}
       + [ Werk met de regelbouwer ](using/orchestrated/orchestrated-rule-builder.md)
       + [ bouwt uw eerste regel ](using/orchestrated/build-query.md)
-      + [ geef uitdrukkingen  uit](using/orchestrated/edit-expressions.md)
+      + [ geef uitdrukkingen ](using/orchestrated/edit-expressions.md) uit
    + Gecontroleerde campagnes {#design-campaigns}
       + [Aan de slag met activiteiten](using/orchestrated/activities/about-activities.md)
       + [En-join](using/orchestrated/activities/and-join.md)
@@ -288,19 +289,19 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
          + [Pushmeldingsstroom](using/push/push-gs.md)
          + [Pushmeldingskanaal configureren](using/push/push-configuration.md)
          + [Snelstartworkflow voor mobiele instaptoegang](using/push/mobile-onboarding-wf.md)
-   + SMS/MMS-kanaal{#sms}
+   + SMS/MMS/RCS-kanaal{#sms}
       + [Aan de slag met tekstberichten](using/sms/get-started-sms.md)
-      + [Een tekstbericht maken (SMS/MMS)](using/sms/create-sms.md)
+      + [Een SMS-/MMS-/RCS-bericht maken](using/sms/create-sms.md)
       + [Tekstberichten controleren en verzenden](using/sms/send-sms.md)
       + [ beheer de opt-out van het tekstbericht ](using/sms/sms-opt-out.md)
       + [SMS-subdomeinen instellen](using/sms/sms-subdomains.md)
-      + SMS/MMS-kanaal configureren{#configure-sms}
-         + [Ga aan de slag met de configuratie van SMS](using/sms/sms-configuration.md)
+      + SMS/MMS/RCS-kanaal configureren{#configure-sms}
+         + [Aan de slag met de configuratie SMS / MMS / RCS](using/sms/sms-configuration.md)
          + [Sinch-provider configureren](using/sms/sms-configuration-sinch.md)
          + [Infobip-provider configureren](using/sms/sms-configuration-infobip.md)
          + [Twilio-provider configureren](using/sms/sms-configuration-twilio.md)
          + [Een aangepaste provider configureren](using/sms/sms-configuration-custom.md)
-         + [Een SMS-configuratie maken](using/sms/sms-configuration-surface.md)
+         + [Een SMS-/MMS-/RCS-configuratie maken](using/sms/sms-configuration-surface.md)
    + Direct mail {#direct-mail}
       + [Aan de slag met direct mail](using/direct-mail/get-started-direct-mail.md)
       + [Een directe e-mail maken](using/direct-mail/create-direct-mail.md)
@@ -329,6 +330,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
          + [Op code gebaseerde ervaringsconfiguratie maken](using/code-based/code-based-configuration.md)
       + Op code gebaseerde ervaringen maken {#create-code-based-experiences}
          + [Codegebaseerde ervaringen opbouwen en samenstellen](using/code-based/create-code-based.md)
+         + [Bewerkbare velden gebruiken in op code gebaseerde ervaringen](using/code-based/code-based-form-fields.md)
          + [Ervaringen op basis van code testen](using/code-based/test-code-based.md)
          + [Op code gebaseerde ervaringen beheren](using/code-based/publish-code-based.md)
    + Inhoudskaarten{#content-card}
@@ -367,7 +369,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
          + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [ gegevens van Adobe Experience Platform van het Gebruik voor verpersoonlijking (Beta) ](using/personalization/lookup-aep-data.md)
@@ -708,7 +710,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
    + [Aan de slag met kanaalconfiguratie](using/configuration/get-started-configuration.md)

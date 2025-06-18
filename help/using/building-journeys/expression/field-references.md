@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: reis, veld, expressie, gebeurtenis
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
-source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '558'
 ht-degree: 2%
 
 ---
@@ -23,9 +23,9 @@ Als u speciale tekens in een veld gebruikt, moet u dubbele aanhalingstekens of e
 
 * het veld begint met numerieke tekens
 * het veld begint met het &quot;-&quot; teken
-* het veld bevat iets anders dan: _a_-_z_, _A_-_Z_, _0_-_9_, _, _-_
+* het gebied bevat om het even wat buiten: _a_ - _z_, _A_ - _Z_, _0_ - _9_, _, _-_
 
-Als uw veld bijvoorbeeld _3h_: _#{OpenWeather.weerData.rain.&#39;3h&#39;} > 0_
+Bijvoorbeeld als uw gebied _3h_ is: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
 ```json
 // event field
@@ -56,7 +56,7 @@ Er kan een standaardwaarde aan een veldnaam worden gekoppeld. De syntaxis is als
 
 >[!NOTE]
 >
->Het veldtype en de standaardwaarde moeten hetzelfde zijn. Bijvoorbeeld: `@event{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}` is ongeldig omdat de standaardwaarde een geheel getal is en de verwachte waarde een tekenreeks.
+>Het veldtype en de standaardwaarde moeten hetzelfde zijn. `@event{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}` is bijvoorbeeld ongeldig omdat de standaardwaarde een geheel getal is en de verwachte waarde een tekenreeks.
 
 Voorbeelden:
 
@@ -99,7 +99,7 @@ U kunt elke gewenste expressie toevoegen als standaardwaarde. De enige beperking
 
 ## Verwijzing naar een veld in verzamelingen
 
-Er wordt verwezen naar de elementen die zijn gedefinieerd in verzamelingen met behulp van de specifieke functies `all`, `first` en `last`. Raadpleeg [deze sectie](../expression/collection-management-functions.md) voor meer informatie.
+Er wordt verwezen naar de elementen die in verzamelingen zijn gedefinieerd, met behulp van de specifieke functies `all` , `first` en `last` . Raadpleeg [deze sectie](../expression/collection-management-functions.md) voor meer informatie.
 
 Voorbeeld:
 
@@ -109,19 +109,19 @@ Voorbeeld:
 
 ## Verwijzing naar een veld dat is gedefinieerd in een kaart
 
-### `entry` function
+### `entry` functie
 
-Om een element in een kaart terug te winnen, gebruiken wij de ingangsfunctie met een bepaalde sleutel. Deze wordt bijvoorbeeld gebruikt wanneer de sleutel van een gebeurtenis wordt gedefinieerd op basis van de geselecteerde naamruimte. Zie voor meer informatie [deze pagina](../../event/about-creating.md#select-the-namespace).
+Om een element in een kaart terug te winnen, gebruiken wij de ingangsfunctie met een bepaalde sleutel. Deze wordt bijvoorbeeld gebruikt wanneer de sleutel van een gebeurtenis wordt gedefinieerd op basis van de geselecteerde naamruimte. Voor meer informatie, zie [ deze pagina ](../../event/about-creating.md#select-the-namespace).
 
 ```json
 @event{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-In deze expressie krijgen we de vermelding voor de E-mailsleutel van het veld IdentityMap van een gebeurtenis. Het item &#39;Email&#39; is een verzameling, waaruit we de &#39;id&#39; in het eerste element gebruiken met &#39;first()&#39;. Zie voor meer informatie [deze pagina](../expression/collection-management-functions.md).
+In deze expressie krijgen we de vermelding voor de E-mailsleutel van het veld IdentityMap van een gebeurtenis. Het item &#39;Email&#39; is een verzameling, waaruit we de &#39;id&#39; in het eerste element gebruiken met &#39;first()&#39;. Voor meer informatie, zie [ deze pagina ](../expression/collection-management-functions.md).
 
-### `firstEntryKey` function
+### `firstEntryKey` functie
 
-Als u de eerste entry-sleutel van een kaart wilt ophalen, gebruikt u de optie `firstEntryKey` functie.
+Gebruik de functie `firstEntryKey` om de eerste entry-toets van een kaart op te halen.
 
 In dit voorbeeld wordt getoond hoe u het eerste e-mailadres van de abonnees van een specifieke lijst ophaalt:
 
@@ -129,11 +129,11 @@ In dit voorbeeld wordt getoond hoe u het eerste e-mailadres van de abonnees van 
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
 ```
 
-In dit voorbeeld krijgt de abonnementenlijst de naam `daily-email`. E-mailadressen worden gedefinieerd als sleutels in het dialoogvenster `subscribers` kaart, die aan de kaart van de abonnementenlijst wordt verbonden.
+In dit voorbeeld heeft de abonnementenlijst de naam `daily-email` . E-mailadressen worden gedefinieerd als sleutels in de `subscribers` -kaart, die is gekoppeld aan de abonnementenlijstkaart.
 
-### `keys` function
+### `keys` functie
 
-Om aan alle sleutels van een kaart terug te winnen, gebruik `keys` functie.
+Gebruik de functie `keys` om alle toetsen van een kaart op te halen.
 
 In dit voorbeeld wordt getoond hoe u voor een specifiek profiel alle e-mailadressen kunt ophalen die zijn gekoppeld aan de abonnees van een specifieke lijst:
 
@@ -145,7 +145,7 @@ In dit voorbeeld wordt getoond hoe u voor een specifiek profiel alle e-mailadres
 
 Als u een veld selecteert uit een externe gegevensbron waarvoor een parameter moet worden aangeroepen, wordt rechts een nieuw tabblad weergegeven waarin u deze parameter kunt opgeven. Zie [deze pagina](../expression/expressionadvanced.md).
 
-Als u de parameters van de gegevensbron wilt opnemen in de hoofdexpressie, kunt u voor complexere gebruiksgevallen de waarden definiëren met behulp van het trefwoord _param_. Een parameter kan elke geldige expressie zijn, zelfs van een andere gegevensbron die ook een andere parameter bevat.
+Voor complexere gebruiksgevallen, als u de parameters van de gegevensbron in de belangrijkste uitdrukking wilt omvatten, kunt u hun waarden bepalen gebruikend de sleutelwoord _params_. Een parameter kan elke geldige expressie zijn, zelfs van een andere gegevensbron die ook een andere parameter bevat.
 
 >[!NOTE]
 >
@@ -158,7 +158,7 @@ Gebruik de volgende syntaxis:
 ```
 
 * **`<params-1-name>`**: de exacte naam van de eerste parameter uit de gegevensbron.
-* **`<params-1-value>`**: de waarde van de eerste parameter. Het kan elke geldige expressie zijn.
+* **`<params-1-value>`** : de waarde van de eerste parameter. Het kan elke geldige expressie zijn.
 
 Voorbeeld:
 

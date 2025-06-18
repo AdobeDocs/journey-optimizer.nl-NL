@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '3598'
+source-wordcount: '3599'
 ht-degree: 8%
 
 ---
@@ -733,7 +733,7 @@ Als Adobe Campaign Standard-klant kunt u nu e-mails, pushberichten en SMS verzen
 <p>Journey Optimizer provide RESTful APIs that allow you to programmatically perform key operations in your applications.
 Developer SDK for Journey Optimizer is now available with the Suppression API (beta).</p>
 <p>With this API, you can control your outgoing messages using suppression and allow lists.
-The suppression list helps you with honoring the ISPs' feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you don't send mails to customers from your development sandbox.</p>
+The suppression list helps you with honoring the ISPs' feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you do not send mails to customers from your development sandbox.</p>
 <p>See <a href="https://developer.adobe.com/journey-optimizer-apis/">Adobe Journey Optimizer APIs</a>.</p>
 </td>
 </tr>
@@ -817,7 +817,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 
 **Reizen**
 
-* De de stapgebeurtenissen van Journey Optimizer kunnen nu met andere datasets in [ Adobe Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=nl-NL) worden verbonden. Het **profileID** gebied, in het ingebouwde schema van de Gebeurtenis van de Stap van de Reis, wordt nu bepaald als identiteitsgebied. [Meer informatie](../reports/sharing-overview.md#integration-cja)
+* De de stapgebeurtenissen van Journey Optimizer kunnen nu met andere datasets in [ Adobe Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) worden verbonden. Het **profileID** gebied, in het ingebouwde schema van de Gebeurtenis van de Stap van de Reis, wordt nu bepaald als identiteitsgebied. [Meer informatie](../reports/sharing-overview.md#integration-cja)
 
 **het beheer van het Besluit**
 

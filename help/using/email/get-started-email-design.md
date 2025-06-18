@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, ontwerp, voorraad, middelen
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '600'
 ht-degree: 2%
 
 ---
@@ -78,4 +78,4 @@ Leer hoe u e-mailinhoud maakt met de berichteneditor.
 
 Leer hoe u contentexperimenten configureert voor een A/B-test en e-mailinhoud verkent, wat de beste manier is om uw zakelijke doelstellingen te bepalen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447337?captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

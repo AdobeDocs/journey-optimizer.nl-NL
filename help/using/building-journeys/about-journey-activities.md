@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: reis, activiteiten, aan de slag, gebeurtenissen, actie
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '577'
 ht-degree: 8%
 
 ---
@@ -48,7 +48,7 @@ In het palet zijn aan de linkerkant van het scherm de volgende orkestactiviteite
 
 ![ de activiteitenpalet van Orchestratie in de reisontwerper ](assets/journey49.png)
 
-## Acties {#action-activities}
+## Actieactiviteiten {#action-activities}
 
 Handelingen zijn wat u wilt doen als gevolg van een of andere trigger, zoals het verzenden van een bericht. Het is het stukje van de reis dat de klant ervaart.
 
@@ -72,6 +72,7 @@ U kunt ook specifieke acties instellen om berichten te verzenden:
 
    * [[!DNL Journey Optimizer] en Campagne v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] en Campaign Standard](../action/acs-action.md)
+   * [[!DNL Journey Optimizer] en Marketo Engage](../action/marketo-engage.md)
 
 ## Best practices {#best-practices}
 

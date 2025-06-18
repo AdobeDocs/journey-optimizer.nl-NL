@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: problemen oplossen, problemen oplossen, reis, controle, fouten
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 1ee75284f3c5f0c7870e8bd8779d4daf9879aa40
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 48%
+source-wordcount: '1042'
+ht-degree: 43%
 
 ---
 
@@ -64,7 +64,7 @@ Het startpunt van een journey is altijd een gebeurtenis. U kunt tests uitvoeren 
 
 U kunt controleren of de API-aanroep die u via deze tools verzendt, correct is verzonden of niet. Als een fout wordt geretourneerd, betekent dit dat er een probleem is met uw aanroep. Controleer opnieuw de payload, de koptekst (vooral de organisatie-id) en de bestemmings-URL. U kunt de beheerder vragen wat de juiste URL is.
 
-Gebeurtenissen worden niet rechtstreeks van de bron naar de ritten verplaatst. Reizen vertrouwen inderdaad op Adobe Experience Platform-API&#39;s voor streaming-opname. Dientengevolge, in het geval van gebeurtenis verwante kwesties, kunt u naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=nl-NL){target="_blank"}  voor het Streamen van opname APIs het oplossen van problemen verwijzen.
+Gebeurtenissen worden niet rechtstreeks van de bron naar de ritten verplaatst. Reizen vertrouwen inderdaad op Adobe Experience Platform-API&#39;s voor streaming-opname. Dientengevolge, in het geval van gebeurtenis verwante kwesties, kunt u naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} voor het Streamen van opname APIs het oplossen van problemen verwijzen.
 
 Als uw reis er niet in slaagt testwijze met fout `ERR_MODEL_RULES_16` toe te laten, zorg ervoor de gebruikte gebeurtenis een [ identiteit namespace ](../audience/get-started-identity.md) omvat wanneer het gebruiken van een kanaalactie.
 
@@ -74,7 +74,7 @@ De naamruimte identity wordt gebruikt om de testprofielen op unieke wijze te ide
 
 Reisrapportage meet de toegang van mensen tot een reis in real-time.
 
-Als u de gebeurtenis zonder problemen verzendt maar geen toegang tot de journey ziet, betekent dit dat er iets misgaat tussen het verzenden van de gebeurtenis en de ontvangst van de gebeurtenis in de journey.
+Als u het evenement met succes verzendt, maar geen toegang ziet tot de reis, betekent dit dat er iets mis gaat tussen het verzenden van het evenement en de ontvangst van het evenement op de reis.
 
 U kunt het oplossen van problemen met de hieronder vragen beginnen:
 
@@ -101,7 +101,7 @@ Controleer bijvoorbeeld het volgende:
 
 ## Controleren of berichten zijn verzonden {#checking-that-messages-are-sent-successfully}
 
-Als personen de juiste stroom in de journey volgen, maar geen berichten ontvangen die ze wel zouden moeten ontvangen, kunt u het volgende controleren:
+Als individuen de juiste manier in de reis stromen maar geen berichten ontvangen zij zouden moeten ontvangen, kunt u controleren of:
 
 * [!DNL Journey Optimizer] heeft correct rekening gehouden met de aanvraag om het bericht te verzenden. Zakelijke gebruikers hebben toegang tot het bericht dat ze geacht worden te zijn verzonden en controleren of de tijd van de meest recente uitvoering overeenkomt met de uitvoeringstijd van uw reis. Ze kunnen ook de meest recente ontvangen API-oproepen/gebeurtenissen controleren.
 * [!DNL Journey Optimizer] heeft het bericht verzonden. Controleer de reisrapportering om ervoor te zorgen dat er geen fouten zijn.

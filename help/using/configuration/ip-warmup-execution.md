@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP, groep, subdomeinen, leverbaarheid
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '2538'
+source-wordcount: '2539'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Elke fase bestaat uit verschillende uitvoeringen, waaraan u één campagne toewi
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="Domeingroepen uitsluiten"
 >abstract="Selecteer de domeinen die u van de huidige fase wilt uitsluiten. De uitsluiting van het domein vereist een niet-uitgevoerde fase, zodat kunt u een lopende fase moeten verdelen om uitsluitingen toe te voegen."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html?lang=nl-NL#split-phase" text="Een fase splitsen"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="Een fase splitsen"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_phases"
@@ -82,7 +82,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
       >[!CAUTION]
       >
-      >Zodra het IP warmup plan loopt, als u het [ uitvoeringsadres ](../email/email-settings.md#execution-address) in de configuratie van het e-mailkanaal [&#128279;](channel-surfaces.md) bijwerkt die in de IP warmup campagne wordt gebruikt, kon de domeinuitsluiting ontbreken. Bewerk de configuratie van het e-mailkanaal niet nadat het IP-opwarmingsplan is gestart.
+      >Zodra het IP warmup plan loopt, als u het [ uitvoeringsadres ](../email/email-settings.md#execution-address) in de configuratie van het e-mailkanaal [ ](channel-surfaces.md) bijwerkt die in de IP warmup campagne wordt gebruikt, kon de domeinuitsluiting ontbreken. Bewerk de configuratie van het e-mailkanaal niet nadat het IP-opwarmingsplan is gestart.
 
    1. Selecteer in de sectie **[!UICONTROL Campaign for exclusion of profiles]** de campagnes die het publiek dat u wilt uitsluiten van de huidige fase.
 
@@ -162,7 +162,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. Naar keuze, kunt u een tijdvenster bepalen waarin de IP warmup campagne kan worden uitgevoerd voor het geval dat er om het even welke vertragingen in de [ publieksevaluatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL#how-segmentation-works){target="_blank"} zijn. Klik hiertoe linksboven op het pictogram Eigenschappen naast de naam van het abonnement en gebruik de vervolgkeuzelijst **[!UICONTROL Retry run time]** om een duur te selecteren van maximaal 240 minuten (4 uur).
+1. Naar keuze, kunt u een tijdvenster bepalen waarin de IP warmup campagne kan worden uitgevoerd voor het geval dat er om het even welke vertragingen in de [ publieksevaluatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} zijn. Klik hiertoe linksboven op het pictogram Eigenschappen naast de naam van het abonnement en gebruik de vervolgkeuzelijst **[!UICONTROL Retry run time]** om een duur te selecteren van maximaal 240 minuten (4 uur).
 
    >[!NOTE]
    >
@@ -220,7 +220,7 @@ Selecteer de knop **[!UICONTROL Activate]** om een uitvoering te activeren. Dan 
 
 Wanneer het runnen van veelvoudige IP warmup plannen gelijktijdig, allen gericht de zelfde IP pool en domeinen, is het cruciaal om de potentiële gevolgen te voorzien. Bijvoorbeeld, als ISP een dagelijkse grens van 100 e-mail afdwingt, zou het runnen van verscheidene plannen die op de zelfde domeinen richten deze drempel kunnen overschrijden.
 
-Zorg ervoor u genoeg tijd hebt gepland om voor de [ publieksevaluatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL#how-segmentation-works){target="_blank"} toe te staan om worden uitgevoerd.
+Zorg ervoor u genoeg tijd hebt gepland om voor de [ publieksevaluatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} toe te staan om worden uitgevoerd.
 
 ![](assets/ip-warmup-plan-activate.png)
 
@@ -232,7 +232,7 @@ Wanneer u een run activeert, worden automatisch meerdere soorten publiek gemaakt
 
 * Indien de eerste uitvoering van een fase wordt geactiveerd:
 
-   * Een [ publiek ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=nl-NL){target="_blank"} wordt gecreeerd voor de uitgesloten campagnepubliek (als om het even welk), met de volgende noemende overeenkomst: `<warmupName>-Phase<phaseNo>-Audience Exclusion `.
+   * Een [ publiek ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"} wordt gecreeerd voor de uitgesloten campagnepubliek (als om het even welk), met de volgende noemende overeenkomst: `<warmupName>-Phase<phaseNo>-Audience Exclusion `.
 
    * Er wordt een publiek gemaakt voor de (eventuele) domeingroepen die zijn uitgesloten, met de volgende naamgevingsconventie: `<warmupName>-Phase<phaseNo>-Domain Exclusion` .
 
@@ -254,7 +254,7 @@ Wanneer u een run activeert, worden automatisch meerdere soorten publiek gemaakt
      >
      >Het systeem maakt geen nieuw publiek voor het geval er geen wijziging optreedt in het laatste betrokkenheidsfilter voor volgende fasen.
 
-   * Een [ publiekssamenstelling ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=nl-NL){target="_blank"} wordt gecreeerd die aan het publiek beantwoordt de campagne zal worden verzonden naar, met de volgende noemende overeenkomst: `<warmupName>-Phase<phaseNo>-Run<runNo>`.
+   * Een [ publiekssamenstelling ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html){target="_blank"} wordt gecreeerd die aan het publiek beantwoordt de campagne zal worden verzonden naar, met de volgende noemende overeenkomst: `<warmupName>-Phase<phaseNo>-Run<runNo>`.
 
      >[!NOTE]
      >
@@ -328,7 +328,7 @@ Volg de stappen [ hierboven ](#define-phases) om de nieuwe fase te bepalen.
 * U kunt ook de vorige campagne uitsluiten, of een domein dat niet goed presteert. Leer hoe in [ deze sectie ](#define-phases).
 
 <!--
-You don't have to decide the campaign upfront. You can do a split later. It's a work in progress plan: you activate one run at a time with a campaign and you always have the flexibility to modify it while working on it.
+You do not have to decide the campaign upfront. You can do a split later. It's a work in progress plan: you activate one run at a time with a campaign and you always have the flexibility to modify it while working on it.
 
 But need to explain in which case you want to modify campaigns, provide examples
 -->

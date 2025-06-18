@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 0%
+source-wordcount: '457'
+ht-degree: 1%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 Met verzamelingen kunt u uw aanbiedingen ordenen door deze te hergroeperen in categorieën van uw keuze. U kunt bijvoorbeeld een &quot;sport&quot;-collectie maken die alleen sportgerelateerde aanbiedingen bevat.
 
-➡️ [ ontdekt deze eigenschap in video ](#video)
+➡️ [Ontdek deze functie in video](#video)
 
 De lijst met aanbiedingsverzamelingen is toegankelijk in het menu **[!UICONTROL Offers]** .
 

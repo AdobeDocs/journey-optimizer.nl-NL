@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: activiteit, toestand, canvas, reis
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1504'
 ht-degree: 5%
 
 ---
@@ -67,12 +67,14 @@ In de eenvoudige modus kunt u eenvoudige query&#39;s uitvoeren op basis van een 
 
 ![](assets/journey64.png)
 
-Als u de [ Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL){target="_blank"}  gebruikt om uw publiek tot stand te brengen, kunt u hefboomwerking hen in uw reisvoorwaarden. Verwijs naar [ Gebruikend publiek in voorwaarden ](../building-journeys/condition-activity.md#using-a-segment).
+Als u de [ Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} gebruikt om uw publiek tot stand te brengen, kunt u hefboomwerking hen in uw reisvoorwaarden. Verwijs naar [ Gebruikend publiek in voorwaarden ](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
 >
 >U kunt geen vragen op tijdreeksen (bijvoorbeeld een lijst van aankopen, voorbij klikken op berichten) met de eenvoudige redacteur uitvoeren. Hiervoor moet u de geavanceerde editor gebruiken. Zie [deze pagina](expression/expressionadvanced.md).
+
+
 
 Wanneer er een fout in een actie of een voorwaarde optreedt, eindigt de journey van een individu. De enige manier om door te gaan is het selectievakje **[!UICONTROL Add an alternative path in case of a timeout or an error]** in te schakelen. Zie [deze sectie](../building-journeys/using-the-journey-designer.md#paths).
 
@@ -108,7 +110,7 @@ Er zijn drie filteropties beschikbaar:
 
 ## Percentage splitsing {#percentage_split}
 
-Met deze optie kunt u het publiek willekeurig opsplitsen om een andere actie voor elke groep te definiëren. Geef het aantal splitsingen en de verdeling voor elk pad op. De gesplitste berekening is statistisch, aangezien het systeem niet kan voorspellen hoeveel mensen in deze activiteit van de reis zullen stromen. Als gevolg hiervan heeft de splitsing een zeer lage foutmarge. Deze functie is gebaseerd op een willekeurig mechanisme van Java (zie deze [ pagina ](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html){target="_blank"} ).
+Met deze optie kunt u het publiek willekeurig opsplitsen om een andere actie voor elke groep te definiëren. Geef het aantal splitsingen en de verdeling voor elk pad op. De gesplitste berekening is statistisch, aangezien het systeem niet kan voorspellen hoeveel mensen in deze activiteit van de reis zullen stromen. Als gevolg hiervan heeft de splitsing een zeer lage foutmarge. Deze functie is gebaseerd op een willekeurig mechanisme van Java (zie deze [ pagina ](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html){target="_blank"}).
 
 In de testmodus wordt bij het bereiken van een splitsing altijd de bovenste vertakking gekozen. U kunt de positie van de gesplitste vertakkingen opnieuw ordenen als u wilt dat de test een ander pad kiest. Zie [deze pagina](../building-journeys/testing-the-journey.md)
 
@@ -173,4 +175,4 @@ Voer de volgende stappen uit om een publiek in een reisvoorwaarde te gebruiken:
 
    >[!NOTE]
    >
-   >Merk op dat slechts de individuen met de **Realized** status van de publieksparticipatie als leden van het publiek zullen worden beschouwd. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [ documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=nl-NL#interpret-segment-results){target="_blank"} .
+   >Merk op dat slechts de individuen met de **Realized** status van de publieksparticipatie als leden van het publiek zullen worden beschouwd. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [ documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

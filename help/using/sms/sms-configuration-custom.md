@@ -7,14 +7,14 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 37313ca8a9527c934d8aeaf265e9674219726636
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '944'
 ht-degree: 0%
 
 ---
 
-# Een aangepaste SMS-provider configureren {#sms-configuration-custom}
+# Een aangepaste provider configureren {#sms-configuration-custom}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"
@@ -31,11 +31,11 @@ ht-degree: 0%
 >title="Payload van provider"
 >abstract="Geef de lading van de aanvraag op om ervoor te zorgen dat de juiste gegevens worden verzonden voor het genereren van de verwerking en reactie."
 
-Deze eigenschap machtigt u om uw eigen leveranciers van SMS te integreren en te vormen, die flexibiliteit voorbij de standaardleveranciers (Sinch, Twilio, en Infobip) aanbieden. Dit maakt naadloos SMS-schrijven, levering, rapportage en beheer van de toestemming mogelijk.
+Deze eigenschap machtigt u om uw eigen overseinenleveranciers te integreren en te vormen, die flexibiliteit voorbij de standaardopties (Sinch, Twilio, en Infobip) aanbieden. Dit maakt naadloos ontwerp, levering, rapportering, en toestemmingsbeheer voor zowel SMS als RCS berichten mogelijk.
 
-Met de aangepaste providerconfiguratie voor SMS kunt u aangepaste SMS-providers rechtstreeks in Journey Optimizer configureren, geavanceerde aanpassingen van de payload gebruiken voor dynamisch berichten en de voorkeuren voor machtigingen (opt-in/opt-out) beheren om naleving te garanderen.
+Met de configuratie van de douaneleverancier, kunt u de diensten van het derdeoverseinen direct binnen Journey Optimizer verbinden, berichtlading voor dynamische inhoud aanpassen, en opt-in beheren/opt-out voorkeur om naleving over zowel SMS als kanalen te verzekeren.
 
-Volg onderstaande stappen om uw aangepaste SMS-provider te configureren:
+Volg onderstaande stappen om uw aangepaste provider te configureren:
 
 1. [API-referentie maken](#api-credential)
 1. [Webhaak maken](#webhook)
@@ -44,7 +44,7 @@ Volg onderstaande stappen om uw aangepaste SMS-provider te configureren:
 
 ## Uw API-referentie maken {#api-credential}
 
-Voer de volgende stappen uit als u berichten wilt verzenden in Journey Optimizer via een aangepaste provider die niet vanuit de doos beschikbaar is door Adobe (bijv. Sinch, Infobip, Twilio):
+Voer de volgende stappen uit als u SMS- en RCS-berichten in Journey Optimizer wilt verzenden via een aangepaste provider die niet vanuit de doos beschikbaar is door Adobe (bijvoorbeeld Sinch, Infobip, Twilio):
 
 1. Navigeer in de linkertrack naar **[!UICONTROL Administration]** `>` **[!UICONTROL Channels]** , selecteer het menu **[!UICONTROL API Credentials]** onder **[!UICONTROL SMS settings]** en klik op de knop **[!UICONTROL Create new API credentials]** .
 
@@ -73,6 +73,8 @@ Voer de volgende stappen uit als u berichten wilt verzenden in Journey Optimizer
    ![](assets/sms_byo_2.png)
 
 1. Voeg uw **[!UICONTROL Provider Payload]** toe om uw verzoeklading te bevestigen en aan te passen.
+
+   Voor RCS- berichten, wordt deze nuttige lading later gebruikt tijdens [ inhoudsontwerp ](create-sms.md#sms-content).
 
 1. Klik op **[!UICONTROL Submit]** wanneer u de configuratie van uw API-referenties hebt voltooid.
 

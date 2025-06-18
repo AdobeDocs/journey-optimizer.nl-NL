@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: extern, bronnen, gegevens, configuratie, verbinding, derde
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 71d1a7c305c33ab7bef91b82329ecb692445fb27
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1631'
-ht-degree: 48%
+source-wordcount: '1634'
+ht-degree: 43%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_custom"
 >title="Externe databronnen"
->abstract="Met externe databronnen kunt u een verbinding maken met externe systemen, bijvoorbeeld als u een hotelboekingssysteem gebruikt om te controleren of de persoon een kamer heeft besproken. In tegenstelling tot de ingebouwde databron van het Adobe Experience Platform kunt u zoveel externe databronnen maken als u wilt."
+>abstract="Met externe gegevensbronnen kunt u een verbinding met systemen van derden definiëren, bijvoorbeeld als u een boekingssysteem voor hotels gebruikt om te controleren of de persoon een kamer heeft geregistreerd. In tegenstelling tot de ingebouwde databron van het Adobe Experience Platform kunt u zoveel externe databronnen maken als u wilt."
 
 ## Werken met externe gegevensbronnen {#gs-ext-data-sources}
 
-Met externe databronnen kunt u een verbinding maken met externe systemen, bijvoorbeeld als u een hotelboekingssysteem gebruikt om te controleren of de persoon een kamer heeft besproken. In tegenstelling tot de ingebouwde databron van het Adobe Experience Platform kunt u zoveel externe databronnen maken als u wilt.
+Met externe gegevensbronnen kunt u een verbinding met systemen van derden definiëren, bijvoorbeeld als u een boekingssysteem voor hotels gebruikt om te controleren of de persoon een kamer heeft geregistreerd. In tegenstelling tot de ingebouwde databron van het Adobe Experience Platform kunt u zoveel externe databronnen maken als u wilt.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Alleen alfanumerieke tekens en onderstrepingstekens zijn toegestaan. De maximuml
 
    >[!CAUTION]
    >
-   >We raden u uit beveiligingsoverwegingen sterk aan om HTTPS te gebruiken. Bedenk ook dat we het gebruik van Adobe-adressen die niet openbaar beschikbaar zijn en het gebruik van IP-adressen niet toestaan.
+   >We raden u uit beveiligingsoverwegingen sterk aan om HTTPS te gebruiken. Merk ook op dat wij niet het gebruik van de adressen van Adobe toestaan die niet openbaar beschikbaar en het gebruik van IP adressen zijn.
 
    ![](assets/journey27.png)
 

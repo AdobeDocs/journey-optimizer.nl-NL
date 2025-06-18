@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie, subdomein
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: a5bd1e92b3696a7de2c44522099d54bc6e1e00ab
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1136'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Voer de onderstaande stappen uit om dynamische subdomeinen te definiëren in een
 
    >[!NOTE]
    >
-   >Bepaalde subdomeinen zijn momenteel niet beschikbaar voor selectie toe te schrijven aan hangende [ terugkoppel lijn ](../reports/deliverability.md#feedback-loops) registratie. Dit proces kan tot 10 werkdagen duren. Na voltooiing kunt u kiezen uit alle beschikbare subdomeinen. <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
+   >Bepaalde subdomeinen zijn momenteel niet beschikbaar voor selectie toe te schrijven aan hangende [ terugkoppel lijn ](../reports/deliverability.md#feedback-loops) registratie. Dit proces kan tot 10 werkdagen duren. Na voltooiing kunt u kiezen uit alle beschikbare subdomeinen. <!--where FL registration happens? is it when delegating a subdomain and you are awaiting from subdomain validation? or is it on ISP side only?-->
 
    ![](assets/surface-email-select-subdomain.png)
 

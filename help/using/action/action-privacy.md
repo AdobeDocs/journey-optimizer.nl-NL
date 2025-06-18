@@ -8,9 +8,10 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: gegevens, bestuur, DULE, labels, labels, platform, beleid
-source-git-commit: 7f54200facc8845d5c39bb5d16751ed49579ea8a
+exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1283'
 ht-degree: 1%
 
 ---
@@ -24,9 +25,9 @@ ht-degree: 1%
 
 ## Aan de slag met beleid voor gegevensbeheer {#gs}
 
-Met zijn [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=nl-NL){target="_blank"}  kader van de Etikettering en van het Gebruik van Gegevens van 0&rbrace; (DULE), staat Adobe Experience Platform u toe om het beleid van het gegevensbeheer over uw kanalen te beheren en af te dwingen door **uw gebieden** te etiketteren en **marketing acties** voor elk kanaal te creëren.
+Met zijn ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html){target="_blank"} kader van de Etikettering en van het Gebruik van Gegevens van 0} (DULE), staat Adobe Experience Platform u toe om het beleid van het gegevensbeheer over uw kanalen te beheren en af te dwingen door **het etiketteren van uw gebieden** en het creëren van **marketing acties** voor elk kanaal.[
 
-Zodra de etiketten en de marketing acties worden bepaald, kunt u **beleid van het gegevensbeheer** tot stand brengen dat deze twee elementen verbindt. U kunt bijvoorbeeld een beleid instellen dat een ePHI-label koppelt aan een marketingactie &quot;e-mailadressering&quot;, zodat velden met de naam &quot;ePHI&quot; niet worden gebruikt voor het personaliseren van e-mailberichten. [ Leer hoe te om het beleid van het gegevensbeheer te creëren ](#governance-policies)
+Zodra de etiketten en de marketing acties worden bepaald, kunt u **beleid van het gegevensbeheer** tot stand brengen dat deze twee elementen verbindt. U kunt bijvoorbeeld een beleid instellen dat een ePHI-label koppelt aan een marketingactie &quot;e-mailadressering&quot;, zodat velden met de naam &quot;ePHI&quot; niet worden gebruikt voor het personaliseren van e-mailberichten. [ Leer hoe te om het beleid van het gegevensbeheer te creëren ](#policy)
 
 Nadat u het governancebeleid hebt gemaakt, kunt u de marketingacties toepassen op uw reizen/campagnes en reizen aangepaste acties.
 [ Leer hoe te om marketing acties in Journey Optimizer toe te passen ](#apply-marketing-actions)
@@ -47,7 +48,7 @@ De eerste stap om het beleid van het gegevensbeheer af te dwingen is etiket te c
 
    ![](assets/action-privacy3.png)
 
-1. Ga terug naar het **menu van Beleid**, selecteer de **Handeling van de Marketing** tabel en klik **creeer marketing actie**. Wij adviseren dat u één marketing actie voor elk kanaal en elke derde douaneactie creeert die in uw reizen wordt gebruikt. Bijvoorbeeld, creeer a _Slack marketing actie_ die voor uw Slack douaneactie zal worden gebruikt.
+1. Ga terug naar het **menu van Beleid**, selecteer de **Handeling van de Marketing** tabel en klik **creeer marketing actie**. Wij adviseren dat u één marketing actie voor elk kanaal en elke derde douaneactie creeert die in uw reizen wordt gebruikt. Bijvoorbeeld, creeer a _Slack marketing actie_ die voor uw douaneactie van Slack zal worden gebruikt.
 
    ![](assets/action-privacy4.png)
 
@@ -57,7 +58,7 @@ Nu labels en marketingacties zijn gemaakt, kunt u deze koppelen aan het beleid v
 
 ![](assets/action-privacy5.png)
 
-Wanneer u, in een reis zult gebruiken, zal uw Slack douaneactie die met de _Slack marketing actie_ wordt gevormd, zal het bijbehorende beleid leveraged zijn.
+Wanneer u, in een reis zult gebruiken, uw de douaneactie van Slack die met de _wordt gevormd Slack marketing actie_, zal het bijbehorende beleid leveraged zijn.
 
 ## Marketing-acties toepassen in Journey Optimizer {#apply-marketing-actions}
 
@@ -91,13 +92,13 @@ Als het systeem een beperkt veld identificeert, wordt een fout weergegeven waard
 
 >[!NOTE]
 >
->Campagne v7/v8 en Campaigns Standard reizen worden niet ondersteund.
+>Campagne v7/v8 en Campaign Standard-reizen worden niet ondersteund.
 
 Neem het voorbeeld van het bloedtypeveld dat u wilt beperken van het exporteren naar een derde via aangepaste handelingen. Hiervoor moet u de marketingactie toepassen op uw aangepaste actie en vervolgens uw reis maken en er aangepaste actie aan toevoegen.
 
 1. In het linkermenu, onder **Beleid**, klik **Configuraties** en selecteer **Acties**.
 
-1. Open de aangepaste Slack. Wanneer u een aangepaste handeling configureert, kunnen twee velden worden gebruikt voor gegevensbeheer.
+1. Open je aangepaste Slack-actie. Wanneer u een aangepaste handeling configureert, kunnen twee velden worden gebruikt voor gegevensbeheer.
 
    ![](assets/action-privacy6.png)
 
@@ -133,4 +134,4 @@ Fouten zijn zichtbaar via de knop **[!UICONTROL Alerts]** . Klik op de fout om g
 
 Deze dialoog wijst erop dat de huidige reis/campagneconfiguratie een bestaand beleid van het gegevensbeheer schendt. Gebruik het diagram van de gegevenslijn om te begrijpen welke andere configuratieveranderingen moeten worden aangebracht alvorens u uw reis of campagne kunt activeren.
 
-De gedetailleerde informatie is beschikbaar in de [ documentatie van de de schending van het gegevensgebruiksbeleid ](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation) {_blank}.
+De gedetailleerde informatie is beschikbaar in de [ documentatie van de de schending van het gegevensgebruiksbeleid ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.
