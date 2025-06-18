@@ -56,4 +56,4 @@ Leer hoe u reizen kunt maken in de volgende gebruiksgevallen van begin tot eind:
 
 Ontdek de onderdelen van een reis en begrijp de grondbeginselen van het maken van een reis op het canvas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430347?quality=12&captions=dut)
