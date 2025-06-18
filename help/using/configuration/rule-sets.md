@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: bericht, frequentie, regels, druk
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1900'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Volg onderstaande stappen om een regelset te maken.
 
 >[!NOTE]
 >
->U kunt tot 3 lokale regelreeksen van kanaaldomein en tot 5 lokale regelreeksen van reisdomein tot stand brengen.
+>U kunt tot 10 actieve lokale regelreeksen voor kanaaldomein en voor het reisdomein tot stand brengen.
 
 1. Open de lijst **[!UICONTROL Rules sets]** en klik vervolgens op **[!UICONTROL Create rule set]** .
 
@@ -142,7 +142,7 @@ De parameters beschikbaar voor de regel hangen van het regelvastgestelde domein 
 
      >[!CAUTION]
      > 
-     >Om ervoor te zorgen dat de regels voor dagelijkse frequentiecapping correct zijn, moet u de naamruimte met de hoogste prioriteit kiezen tijdens het ontwerpen van een campagne of een reis. Leer meer over namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+     >Om ervoor te zorgen dat de regels voor dagelijkse frequentiecapping correct zijn, moet u de naamruimte met de hoogste prioriteit kiezen tijdens het ontwerpen van een campagne of een reis. Leer meer over namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
    Houd er rekening mee dat de waarde van de profielteller wordt bijgewerkt wanneer de communicatie wordt geleverd. Begrijpt u dit wanneer u grote hoeveelheden communicatie verzendt aangezien de productie in de ontvanger zou kunnen resulteren die de e-mailnotulen of zelfs uren na de inleiding van de mededeling (in het geval dat u miljoenen mededelingen gelijktijdig verzendt) krijgen.
 
@@ -312,4 +312,4 @@ Om een afluisterregel op een reis toe te passen, toegang tot de reis en open zij
 
 ## Hoe kan ik-video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444732?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

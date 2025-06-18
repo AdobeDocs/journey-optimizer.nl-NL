@@ -8,9 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: bericht, frequentie, regels, druk
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
+source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -32,7 +33,7 @@ Ga als volgt te werk om een kanaalregelset te maken:
 
 >[!NOTE]
 >
->U kunt tot 3 lokale regelreeksen van kanaaldomein en tot 5 lokale regelreeksen van reisdomein tot stand brengen.
+>U kunt tot 10 actieve lokale regelreeksen voor kanaaldomein en voor het reisdomein tot stand brengen.
 
 1. Open de lijst **[!UICONTROL Rules sets]** en klik vervolgens op **[!UICONTROL Create rule set]** .
 
@@ -66,7 +67,7 @@ Ga als volgt te werk om een kanaalregelset te maken:
 
      >[!CAUTION]
      > 
-     >Om ervoor te zorgen dat de regels voor dagelijkse frequentiecapping correct zijn, moet u de naamruimte met de hoogste prioriteit kiezen tijdens het ontwerpen van een campagne of een reis. Leer meer over namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+     >Om ervoor te zorgen dat de regels voor dagelijkse frequentiecapping correct zijn, moet u de naamruimte met de hoogste prioriteit kiezen tijdens het ontwerpen van een campagne of een reis. Leer meer over namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
    Houd er rekening mee dat de waarde van de profielteller wordt bijgewerkt wanneer de communicatie wordt geleverd. Begrijpt u dit wanneer u grote hoeveelheden communicatie verzendt aangezien de productie in de ontvanger zou kunnen resulteren die de e-mailnotulen of zelfs uren na de inleiding van de mededeling (in het geval dat u miljoenen mededelingen gelijktijdig verzendt) krijgen.
 
@@ -151,4 +152,4 @@ In this scenario, an individual profile:
 
 ## Hoe kan ik-video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444732?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
