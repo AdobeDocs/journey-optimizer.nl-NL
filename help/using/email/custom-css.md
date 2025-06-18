@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: css, editor, summary, email
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: a4055d1c4b6d75a04b71067df0c8f5499bae24d6
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '697'
 ht-degree: 1%
 
 ---
@@ -38,13 +38,17 @@ Volg onderstaande stappen om aangepaste CSS toe te voegen aan uw e-mailinhoud.
    >
    >De sectie **[!UICONTROL CSS styles]** is alleen beschikbaar als er al inhoud in de editor aanwezig is.
 
+1. Klik op de knop **[!UICONTROL Add Custom CSS]**.
+
 1. Voer uw CSS-code in in het speciale tekstgebied dat wordt weergegeven. Zorg ervoor dat de aangepaste CSS geldig is en de juiste syntaxis volgt. [Meer informatie](#use-valid-css)
 
    ![ ga douane CSS in het specifieke tekstgebied ](assets/email-body-custom-css.png){width="65%"} in
 
    >[!NOTE]
    >
-   >De knop **[!UICONTROL Add Custom CSS]** is alleen beschikbaar wanneer **[!UICONTROL Body]** is geselecteerd. U kunt echter aangepaste CSS-stijlen toepassen op alle componenten in uw inhoud.
+   >De knop **[!UICONTROL Add custom CSS]** is alleen beschikbaar wanneer **[!UICONTROL Body]** is geselecteerd. U kunt echter aangepaste CSS-stijlen toepassen op alle componenten in uw inhoud.
+   >
+   >Wanneer het gebruiken van a [ malplaatje met gesloten inhoud ](../content-management/content-locking.md#use), kunt u geen douane CSS aan uw inhoud toevoegen. Het knoplabel verandert in **[!UICONTROL View custom CSS]** en eventuele aangepaste CSS die al in de inhoud aanwezig is, is alleen-lezen.
 
 1. Sla uw aangepaste CSS op en controleer of uw aangepaste CSS correct is toegepast op uw inhoud. Als dit niet het geval is, controleer de [ sectie van het Oplossen van problemen ](#troubleshooting).
 
