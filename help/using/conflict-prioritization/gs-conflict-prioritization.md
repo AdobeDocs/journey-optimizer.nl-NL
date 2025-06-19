@@ -4,7 +4,7 @@ description: Leer hoe u Journey Optimizer-tools voor conflicten en prioritering 
 role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: 9d84a319497e833aa77416479dd019bab59aab55
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 0%
@@ -57,7 +57,7 @@ De reeksen van de regel staan u toe om **samen veelvoudige regels in regelreekse
 
 * **de tegenlatentie van het Profiel**
 
-  Het kan tot 20 minuten duren nadat een klant een reis is ingegaan voor de waarde van de profielteller die moet worden bijgewerkt.
+  Het kan tot 10 minuten duren nadat een klant een reis is ingegaan voor de waarde van de profielteller die moet worden bijgewerkt.
 
   Als een profiel twee reizen binnen een kort tijdsbestek aflegt, wordt bij de tweede reis mogelijk niet goed erkend dat de frequentiegrens al is bereikt, waardoor het profiel beide reizen kan betreden.
 
