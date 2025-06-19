@@ -312,4 +312,4 @@ Om een afluisterregel op een reis toe te passen, toegang tot de reis en open zij
 
 ## Hoe kan ik-video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3444732?quality=12&captions=dut)
