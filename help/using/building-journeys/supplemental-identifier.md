@@ -3,9 +3,9 @@ title: Aanvullende identificatiecode bij door gebeurtenissen veroorzaakte reizen
 description: Leer hoe u een aanvullende id kunt gebruiken tijdens een door een gebeurtenis geïnitieerde reis.
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: e7f4959ceaa238e39858196b08d739053b21835c
+source-git-commit: 5e7aad25fa08994f6cbce9adfce4a3dc94fe3e47
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Hierdoor worden door de gebeurtenis geïnitieerde reizen uitgevoerd in de contex
 
 Bovendien staat Journey Optimizer u toe om attributen van het supplementaire herkenningsteken (b.v. boekingsaantal, receptvernieuwingsdatum, producttype) voor berichtaanpassing te hefboomwerking, die hoogst relevante mededelingen verzekeren. <!--Example: A healthcare provider can send renewal reminders for each prescription in a patient's profile.-->
 
-## Afbeeldingen en beperkingen
+## Afbeeldingen en beperkingen {#guardrails}
 
 * **Gelijktijdige instantielimieten**: De profielen kunnen niet meer dan 10 gezamenlijke reisinstanties hebben.
 
@@ -61,7 +61,14 @@ Bovendien staat Journey Optimizer u toe om attributen van het supplementaire her
 
 * **het type van Gegevens en schemastructuur**: Het supplementaire herkenningsteken moet van type zijn `string`. Dit kan een onafhankelijk tekenreekskenmerk zijn of een tekenreekskenmerk binnen een array van objecten. Het onafhankelijke tekenreekskenmerk resulteert in één enkele instantie van de rit, terwijl het tekenreekskenmerk binnen een array van objecten resulteert in een unieke instantie van de reis per herhaling van de objectarray. Tekenreeksarrays en -maps worden niet ondersteund.
 
-## Voeg een aanvullende id toe en gebruik deze voor een reis
+* **Reisingang**
+
+  Het gedrag van de terugkeer van de reis met supplementaire herkenningstekens volgt het bestaande terugkeerbeleid:
+
+   * Als de reis niet-deelnemer is, kan dezelfde profiel-ID + combinatie van aanvullende id de reis niet opnieuw binnenkomen.
+   * Als de reis met een tijdvenster is gecentreerd, kan de zelfde profiel ID + supplementaire combinatie van identiteitskaart na het bepaalde tijdvenster opnieuw ingaan.
+
+## Voeg een aanvullende id toe en gebruik deze voor een reis {#add}
 
 Voer de volgende stappen uit als u een aanvullende id wilt gebruiken voor een rit:
 
@@ -88,6 +95,10 @@ Voer de volgende stappen uit als u een aanvullende id wilt gebruiken voor een ri
       ![](assets/supplemental-ID-event.png)
 
    1. Gebruik de uitdrukkingsredacteur om de attributen te selecteren u als supplementaire identiteitskaart merkte
+
+      >[!NOTE]
+      >
+      >Gebruik de expressie-editor in **[!UICONTROL Advanced mode]** om het kenmerk te selecteren.
 
    1. Nadat u de aanvullende id hebt geselecteerd, wordt de bijbehorende naamruimte in het scherm voor gebeurtenisconfiguratie weergegeven als alleen-lezen.
 
