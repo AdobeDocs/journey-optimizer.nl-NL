@@ -32,7 +32,7 @@ De reeksen van de regel staan u toe om **samen veelvoudige regels in regelreekse
 U kunt twee typen regelsets maken:
 
 * **de regelreeksen van het Kanaal** passen het afschilderen regels op communicatiekanalen toe. Verzend bijvoorbeeld niet meer dan 1 e-mail- of sms-communicatie per dag.
-* **de regelreeksen van 0} Reis {passen ingang en gelijktijdige afschilderingsregels op een reis toe.** Voer bijvoorbeeld niet profielen in voor meer dan één reis tegelijk.
+* **de regelreeksen van 0&rbrace; Reis &lbrace;passen ingang en gelijktijdige afschilderingsregels op een reis toe.** Voer bijvoorbeeld niet profielen in voor meer dan één reis tegelijk.
 
 ➡️ [Ontdek deze functie in video](#video)
 
