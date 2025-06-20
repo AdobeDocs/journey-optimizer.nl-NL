@@ -56,7 +56,7 @@ De volgende afbeelding toont de systemen en services die bij de bijbehorende geg
 
 * **Adobe Experience Platform Mobile SDK** die cliënt-zijintegratie APIs voor uw mobiles via Android en iOS compatibele SDKs verstrekt. De SDK biedt een [!DNL Adobe Journey Optimizer] -extensie die een aantal specifieke API&#39;s voor pushberichten toegankelijk maakt en gegevensstroom mogelijk maakt, zoals het registreren van het pushtoken of het verzenden van push-tracking-gebeurtenissen of andere aangepaste ervaringsgebeurtenissen naar Adobe Experience Platform. De SDK biedt ook diverse andere extensies die andere Adobe Experience Cloud en andere partnermogelijkheden van derden mogelijk maken.
 
-  De integratie van SDK vereist ook opstelling van de ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl){target="_blank"} diensten van de Inzameling van Gegevens van Adobe Experience Platform [ zoals:
+  De integratie van SDK vereist ook opstelling van de [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl){target="_blank"} diensten van de Inzameling van Gegevens van Adobe Experience Platform  zoals:
 
    * Een gegevensstroom maken om het profiel te configureren en de gegevenssets met gebeurtenissen te ervaren op basis waarvan de gegevens in Adobe Experience Platform stromen
    * Mobiele eigenschap aan de clientzijde maken en extensies toevoegen. De SDK is nauw geïntegreerd met deze extensies voor een naadloze ervaring bij het verzamelen van gegevens.

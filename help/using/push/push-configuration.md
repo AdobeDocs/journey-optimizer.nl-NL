@@ -312,7 +312,7 @@ Voor deze reis aan het werk, moet u een schema tot stand brengen XDM. Voor meer 
    ![](assets/test_push_2.png)
 1. Ga een naam en een beschrijving voor uw schema in en klik **Afwerking**.
    ![](assets/test_push_3.png)
-1. In de **sectie van de Groepen van het Gebied**, op de linkerzijde, voegt de klik **** toe en selecteert **[!UICONTROL Create a new field group]**.
+1. In de **sectie van de Groepen van het Gebied**, op de linkerzijde, voegt de klik **&#x200B;**&#x200B;toe en selecteert **[!UICONTROL Create a new field group]**.
 
 1. Voer een **[!UICONTROL Display Name]** en een **[!UICONTROL Description]** in. Klik op **[!UICONTROL Add field groups]** wanneer u gereed bent. Voor meer informatie over hoe te om gebiedsgroepen tot stand te brengen, verwijs naar [ documentatie van het Systeem XDM ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html){target="_blank"}.
 
