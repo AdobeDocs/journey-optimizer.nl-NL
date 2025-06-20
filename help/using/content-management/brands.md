@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: f9266d01610b92d8a55be8263da6bb808b3cc8ff
 workflow-type: tm+mt
-source-wordcount: '1381'
+source-wordcount: '1389'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,8 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Dit vermogen wordt vrijgegeven als privé bèta. Het zal in toekomstige versies geleidelijk beschikbaar zijn voor alle klanten.
+>Deze mogelijkheid is beschikbaar als een persoonlijke bètaversie. Het zal in toekomstige versies geleidelijk beschikbaar zijn voor alle klanten.
+>
 >U moet met de [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} akkoord gaan alvorens u de Medewerker AI in Adobe Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 Merkrichtlijnen zijn een gedetailleerde reeks regels en normen die de visuele en verbale identiteit van een merk bepalen. Zij fungeren als referentie om een consistente merkweergave te behouden op alle marketing- en communicatieplatforms.
@@ -46,6 +47,8 @@ In [!DNL Journey Optimizer] hebt u nu de optie om uw merkdetails handmatig in te
 Gebruikers die het menu **[!UICONTROL Brands]** in [!DNL Adobe Journey Optimizer] willen openen, moeten de machtigingen **[!UICONTROL Manage brand kit]** of **[!UICONTROL Enable AI assistant]** hebben. [Meer informatie](../administration/permissions.md)
 
 +++  Leer hoe u merkgerelateerde machtigingen kunt toewijzen
+
+Voer de volgende stappen uit om machtigingen voor merken toe te wijzen:
 
 1. In het **product van Toestemmingen**, ga naar het **lusje van Rollen** en selecteer de gewenste **Rol**.
 
@@ -65,7 +68,7 @@ Gebruikers die het menu **[!UICONTROL Brands]** in [!DNL Adobe Journey Optimizer
 
 1. Ga de naam van de gebruiker, e-mailadres in, of kies van de lijst, dan klik **sparen**.
 
-1. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/users).
+1. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users).
 
 +++
 
