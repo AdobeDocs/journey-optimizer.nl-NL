@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: publiceren, reizen, live, geldigheid, controle
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -118,17 +118,19 @@ Klik de **Dichte** knoop om de test te beëindigen, en klik **terug naar Ontwerp
 
 ## Afvoerkanalen en beperkingen {#journey-dry-run-limitations}
 
-* De modus Droge run is niet beschikbaar voor reizen die gebeurtenissen met reacties bevatten.
-* Profielen in de modus Droog worden geteld voor inzetbare profielen.
-* Droge ritten hebben geen invloed op de bedrijfsregels.
+* De droge-uitvoeringsmodus is niet beschikbaar voor reizen die reactiegebeurtenissen bevatten
+* Profielen in de droge-uitvoeringsmodus worden geteld voor controleerbare profielen
+* Reizen in de droge-uitvoeringsmodus worden meegeteld voor de live-reisquota
+* Droge ritten hebben geen invloed op de bedrijfsregels
 * Wanneer het creëren van een nieuwe reisversie, als een vorige reisversie **Levend** is, dan wordt de droge looppasactivering niet toegestaan op de nieuwe versie.
 * De looppas van de Droog van de reis produceert stepEvents. Deze stepEvents hebben een specifieke vlag en Dry run ID:
    * `_experience.journeyOrchestration.stepEvents.inDryRun` retourneert `true` als de droog-uitvoering is geactiveerd, anders `false`
    * `_experience.journeyOrchestration.stepEvents.dryRunID` retourneert de id van een droge runtime-instantie
+
 * Tijdens de Dry-run wordt de reis uitgevoerd met de volgende specifieke kenmerken:
 
-   * **de actieknooppunten van het Kanaal** met inbegrip van E-mail, SMS of Push berichten worden niet uitgevoerd.
-   * **de acties van de Douane** worden onbruikbaar gemaakt tijdens Droog looppas, en hun reacties worden geplaatst aan ongeldig.
+   * **de actieknooppunten van het Kanaal** met inbegrip van E-mail, SMS of Push berichten worden niet uitgevoerd
+   * **de acties van de Douane** worden onbruikbaar gemaakt tijdens Droog looppas, en hun reacties worden geplaatst aan ongeldig
    * **wacht knopen** worden overgeslagen tijdens Dry looppas.
      <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-   * **de bronnen van Gegevens**, met inbegrip van externe gegevensbronnen, worden uitgevoerd door gebrek.
+   * **gegevensbronnen**, met inbegrip van externe gegevensbronnen, worden uitgevoerd door gebrek
