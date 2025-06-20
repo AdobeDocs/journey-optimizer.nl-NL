@@ -9,9 +9,9 @@ role: Data Engineer
 level: Beginner
 keywords: expressie, editor, start, personalisatie
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 85fc6bdc6386f52374172d50667edeea5344011f
+source-git-commit: 5b8d26b4fbc323308b5a49672f9d30298756ccf9
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '505'
 ht-degree: 3%
 
 ---
@@ -37,11 +37,11 @@ Met deze syntaxis kunt u berichten in meerdere velden personaliseren, zoals onde
 
 ## Gegevens gebruikt voor personalisatie
 
-Personalization is gebaseerd op de profielgegevens die door het **worden geleid XDM Individuele die schema van het Profiel** in Adobe Experience Platform wordt bepaald. Het **schema van het Profiel van 0&rbrace; XDM Individuele is het enige schema u kunt gebruiken om inhoud in [!DNL Journey Optimizer] te personaliseren.** Leer meer in [ het Model van Gegevens van Adobe Experience Platform (XDM) documentatie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
+Personalization is gebaseerd op de profielgegevens die door het **worden geleid XDM Individuele die schema van het Profiel** in Adobe Experience Platform wordt bepaald. Het **schema van het Profiel van 0} XDM Individuele is het enige schema u kunt gebruiken om inhoud in [!DNL Journey Optimizer] te personaliseren.** Leer meer in [ het Model van Gegevens van Adobe Experience Platform (XDM) documentatie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
 
 U kunt hefboomwerking **gegevens verwerkte attributen** ook gebruiken om uw inhoud te personaliseren. Met berekende kenmerken kunt u afzonderlijke gedragsgebeurtenissen samenvatten in berekende profielkenmerken die beschikbaar zijn op Adobe Experience Platform. [ leer hoe te met gegevens verwerkte attributen ](../audience/computed-attributes.md) werken
 
-Bovendien kunt u met [!DNL Journey Optimizer] gegevens van Adobe Experience Platform in de personalisatie-editor gebruiken om uw inhoud aan te passen. Om dit te doen, moeten de datasets nodig voor raadplegingsverpersoonlijking eerst door een API vraag worden toegelaten. Zodra u klaar bent, kunt u hun gegevens gebruiken om uw inhoud aan te passen aan Journey Optimizer. THis-functie is momenteel beschikbaar in bèta. [Meer informatie](../personalization/lookup-aep-data.md)
+Bovendien kunt u met [!DNL Journey Optimizer] gegevens van Adobe Experience Platform in de personalisatie-editor gebruiken om uw inhoud aan te passen. Om dit te doen, moeten de datasets nodig voor raadplegingsverpersoonlijking eerst door een API vraag worden toegelaten. Zodra u klaar bent, kunt u hun gegevens gebruiken om uw inhoud aan te passen aan Journey Optimizer. Deze functie is momenteel beschikbaar in bèta. [Meer informatie](../personalization/lookup-aep-data.md)
 
 ## Leer en experimenteer met personalisatie {#playground}
 
@@ -51,7 +51,7 @@ Deze playground verstrekt een gesimuleerd milieu om verpersoonlijkingscode te sc
 
 ![ verpersoonlijkings playground ](assets/playground.png)
 
-➡️ [ toegang tot de verpersoonlijkings playground ](https://experienceleague.adobe.com/nl/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [ toegang tot de verpersoonlijkings playground ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## Laten we dieper duiken
 
@@ -97,7 +97,7 @@ Nu u in **[!DNL Journey Optimizer]** inzicht hebt in personalisatie, is het tijd
 
 Leer hoe u contextuele gebeurtenisinformatie van een journey kunt gebruiken om een bericht te personaliseren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448140?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 Leer hoe u op profiel gebaseerde personalisatie aan een bericht toevoegt en hoe u het lidmaatschap van een publiek als voorwaarde aan een verpersoonlijkingsblok kunt gebruiken.
 
