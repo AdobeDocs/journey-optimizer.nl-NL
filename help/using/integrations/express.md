@@ -49,7 +49,7 @@ Met een Enterprise-licentie hebben gebruikers volledige toegang tot de Adobe Exp
 
 ![](assets/express-licence.png)
 
-Voor meer informatie over beschikbare gebruiksgevallen voor gebruikers met een vergunning van de Onderneming voor Adobe Express, verwijs naar [ documentatie van het Web van Adobe Express ](https://helpx.adobe.com/express/web.html).
+Voor meer informatie over beschikbare gebruiksgevallen voor gebruikers met een vergunning van de Onderneming voor Adobe Express, verwijs naar [ documentatie van het Web van Adobe Express ](https://helpx.adobe.com/nl/express/web.html).
 
 ## Adobe Express gebruiken zonder Enterprise-licentie  {#edit}
 
