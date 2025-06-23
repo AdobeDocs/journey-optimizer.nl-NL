@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: b5cdffa0794b3862094d8830b13bb618d94fe97f
+source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 | Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
 |---|---|---|---|
-| [ worden begonnen met georkestreerde campagnes ](../gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](../configuration-steps.md)<br/><br/>[ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](../gs-campaign-creation.md) | [ creeer een georkestreerde campagne ](../create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](../orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](../send-messages.md)<br/><br/>[ Begin en controleer de campagne ](../start-monitor-campaigns.md)<br/><br/>[ Meldend ](../reporting-campaigns.md) | [ Werk met de Vraag Modeler ](../orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](../build-query.md)<br/><br/>[ uitdrukkingen ](../edit-expressions.md) uit | [ wordt begonnen met activiteiten ](about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](and-join.md) - [ bouwt publiek ](build-audience.md) - [ dimensie van de Verandering ](change-dimension.md) - [ combineert ](combine.md) - [ Deduplicatie ](deduplication.md) - [ Verrijking ](enrichment.md) - [ Fork ](fork.md) opnieuw verzoening [&#128279;](reconciliation.md) - [ Gesplitst ](split.md) - [ wacht ](wait.md) |
+| [ worden begonnen met georkestreerde campagnes ](../gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](../configuration-steps.md)<br/><br/>[ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](../gs-campaign-creation.md) | [ creeer een georkestreerde campagne ](../create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](../orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](../send-messages.md)<br/><br/>[ Begin en controleer de campagne ](../start-monitor-campaigns.md)<br/><br/>[ Meldend ](../reporting-campaigns.md) | [ Werk met de Vraag Modeler ](../orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](../build-query.md)<br/><br/>[ uitdrukkingen ](../edit-expressions.md) uit | [ wordt begonnen met activiteiten ](about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](and-join.md) - [ bouwt publiek ](build-audience.md) - [ dimensie van de Verandering ](change-dimension.md) - [ combineert ](combine.md) - [ Deduplicatie ](deduplication.md) - [ Verrijking ](enrichment.md) - [ Fork ](fork.md) opnieuw verzoening ](reconciliation.md) - [ Gesplitst ](split.md) - [ wacht ](wait.md)[ |
 
 {style="table-layout:fixed"}
 
@@ -48,11 +48,11 @@ ht-degree: 0%
 
 <br/>
 
-De **Verzoening** activiteit is a **richtend** activiteit die u toestaat om het verband tussen de gegevens in Adobe Journey Optimizer en de gegevens in een het werklijst te bepalen, bijvoorbeeld gegevens die van een extern dossier worden geladen.
+De **[!UICONTROL Reconciliation]** -activiteit is een **[!UICONTROL Targeting]** -activiteit waarmee u de koppeling kunt definiëren tussen de gegevens in Adobe Journey Optimizer en de gegevens in een werktabel, bijvoorbeeld gegevens die uit een extern bestand zijn geladen.
 
-De **Verrijking** activiteit laat u extra gegevens aan uw georkestreerde campagne toevoegen, bijvoorbeeld, door gegevens van veelvoudige bronnen te combineren of met een tijdelijk middel te verbinden. In tegenstelling, wordt de **Verzoening** activiteit gebruikt om niet geïdentificeerde of externe gegevens met bestaande middelen in het gegevensbestand aan te passen.
+Met de activiteit **[!UICONTROL Enrichment]** kunt u aanvullende gegevens toevoegen aan uw georkestreerde campagne, bijvoorbeeld door gegevens uit meerdere bronnen te combineren of te koppelen aan een tijdelijke bron. De **[!UICONTROL Reconciliation]** -activiteit wordt daarentegen gebruikt om niet-geïdentificeerde of externe gegevens te koppelen aan bestaande bronnen in de database.
 
-**Verzoening** vereist dat de verwante verslagen reeds in het systeem bestaan. Als u bijvoorbeeld een aankoopbestand importeert waarin producten, tijdstempels en klantgegevens worden vermeld, moeten zowel de producten als de klanten al aanwezig zijn in de database om de koppeling tot stand te brengen.
+**[!UICONTROL Reconciliation]** vereist dat de verwante records al in het systeem bestaan. Als u bijvoorbeeld een aankoopbestand importeert waarin producten, tijdstempels en klantgegevens worden vermeld, moeten zowel de producten als de klanten al aanwezig zijn in de database om de koppeling tot stand te brengen.
 
 ## De afstemmingsactiviteit configureren {#reconciliation-configuration}
 
@@ -65,13 +65,13 @@ De **Verrijking** activiteit laat u extra gegevens aan uw georkestreerde campagn
 >id="ajo_orchestration_reconciliation_rules"
 >title="Afstemmingsregels"
 >abstract="Selecteer afstemmingsregels die u wilt gebruiken voor de deduplicatie. Om attributen te gebruiken, selecteer de **Eenvoudige attributen** optie en kies de bron en bestemmingsgebieden. Om uw eigen verzoeningsvoorwaarde tot stand te brengen gebruikend de vraagmodeler, selecteer de **Geavanceerde verzoeningsvoorwaarden** optie."
->additional-url="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/query-database/query-modeler-overview" text="Werken met de querymodelfunctie"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="Werken met de querymodelfunctie"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_targeting_selection"
 >title="Doeldimensie selecteren"
 >abstract="Selecteer het richten afmeting voor uw binnenkomende gegevens met elkaar in overeenstemming te brengen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=nl-NL#targeting-dimensions" text="Doelafmetingen"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html#targeting-dimensions" text="Doelafmetingen"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_keep_unreconciled_data"
@@ -83,22 +83,36 @@ De **Verrijking** activiteit laat u extra gegevens aan uw georkestreerde campagn
 >title="Afstemmingskenmerk"
 >abstract="Selecteer het kenmerk dat u wilt gebruiken om gegevens op elkaar af te stemmen en klik op Bevestigen."
 
-Volg deze stappen om de **Verzoening** activiteit te vormen:
+Voer de volgende stappen uit om de **[!UICONTROL Reconciliation]** -activiteit te configureren:
 
-1. Voeg de activiteit van de a **Verzoening** in uw georkestreerde campagne toe.
+1. Voeg een **[!UICONTROL Reconciliation]** activiteit aan uw werkschema toe.
 
-1. Selecteer de nieuwe doeldimensie. Met een dimensie kunt u de doelgroep definiëren: ontvangers, abonnees van apps, operators, abonnees, enzovoort.
+1. Kies een nieuwe doeldimensie om te bepalen wie u richt zoals ontvangers of abonnees.
 
-1. Selecteer de velden die u wilt gebruiken voor de afstemming. U kunt een of meer verzoeningscriteria gebruiken.
+1. Stel de velden in die u wilt gebruiken om inkomende gegevens af te stemmen op bestaande profielen.
 
-   1. Om attributen te gebruiken om gegevens te combineren, selecteer de **Eenvoudige attributen** optie. Het **Source** gebied maakt een lijst van de gebieden beschikbaar in de inputovergang, die moeten worden in overeenstemming gebracht. Het **gebied van de Bestemming** beantwoordt aan de gebieden van geselecteerde het richten afmeting. De gegevens worden in overeenstemming gebracht wanneer bron en bestemming gelijk zijn. Bijvoorbeeld, selecteer de **E-mail** gebieden om profielen te dedupliceren die op hun e-mailadres worden gebaseerd.
+1. Selecteer **[!UICONTROL Simple attributes]** als u gegevens met behulp van basisvelden wilt afstemmen.
 
-      Om andere verzoeningscriteria toe te voegen, klik **regel** toevoegen knoop. Als er meerdere samenvoegvoorwaarden zijn opgegeven, moeten deze ALLES worden gecontroleerd zodat de gegevens aan elkaar kunnen worden gekoppeld.
+1. Stel de overeenkomende velden in:
 
-      ![](../assets/workflow-reconciliation-criteria.png)
+   * **[!UICONTROL Source]**: geeft een lijst weer van de binnenkomende gegevensvelden.
 
-   1. Om andere attributen te gebruiken om gegevens te combineren, selecteer de **Geavanceerde verzoeningsvoorwaarden** optie. U kunt dan uw eigen verzoeningsvoorwaarde tot stand brengen gebruikend de vraagmodeler.
+   * **[!UICONTROL Destination]**: verwijst naar velden in de geselecteerde doeldimensie.
 
-1. U kunt gegevens filtreren om het gebruiken van te verzoenen **creeer filterknoop**. Hiermee kunt u een aangepaste voorwaarde maken met behulp van de querymodelfunctie.
+   Er treedt een overeenkomst op wanneer beide waarden gelijk zijn, bijvoorbeeld wanneer **[!UICONTROL Email]** de profielen definieert.
 
-Door gebrek, worden de niet in overeenstemming gebrachte gegevens gehouden in de uitgaande overgang en beschikbaar in de werkbare lijst voor toekomstig gebruik. Om onverenigde gegevens te verwijderen, desactiveer **houden unconiled gegevens** optie.
+   ![](../assets/workflow-reconciliation-criteria.png)
+
+1. Klik op **[!UICONTROL Add rule]** als u meer overeenkomende regels wilt toevoegen. Er moet aan alle voorwaarden worden voldaan voordat een overeenkomst plaatsvindt.
+
+1. Kies **[!UICONTROL Advanced reconciliation conditions]** voor complexere voorwaarden. Gebruik [ vraagmodeler ](../orchestrated-rule-builder.md) om douanelogica te bepalen.
+
+1. Als u wilt filteren welke gegevens moeten worden afgestemd, klikt u op **[!UICONTROL Create filter]** en definieert u uw voorwaarde in de querymodelfunctie.
+
+1. Door gebrek, worden de niet afgedekte verslagen gehouden in de uitgaande overgang en in de werklijst opgeslagen. Schakel de optie **[!UICONTROL Keep unreconciled data]** in als u deze wilt verwijderen.
+
+## Voorbeeld {#example-reconciliation}
+
+In dit voorbeeld wordt de **[!UICONTROL Reconciliation]** -activiteit in Adobe Journey Optimizer gebruikt om ervoor te zorgen dat e-mails alleen naar herkende klanten worden verzonden. De gegevens lopen door een **[!UICONTROL Read Audience]** -activiteit die gericht is op gebruikers met eerdere bestellingen. De **[!UICONTROL Reconciliation]** -activiteit komt deze inkomende gegevens vervolgens overeen met de bestaande profielen in de database via het e-mailveld.
+
+![](../assets/workflow-reconciliation-sample-1.0.png)

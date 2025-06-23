@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
-source-git-commit: 54b5591186dd51c0ea1fda6055d6c52fd079a748
+source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 | Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
 |---|---|---|---|
-| [ worden begonnen met georkestreerde campagnes ](../gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](../configuration-steps.md)<br/><br/>[ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](../gs-campaign-creation.md) | [ creeer een georkestreerde campagne ](../create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](../orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](../send-messages.md)<br/><br/>[ Begin en controleer de campagne ](../start-monitor-campaigns.md)<br/><br/>[ Meldend ](../reporting-campaigns.md) | [ Werk met de Vraag Modeler ](../orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](../build-query.md)<br/><br/>[ uitdrukkingen ](../edit-expressions.md) uit | [ wordt begonnen met activiteiten ](about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](and-join.md) - [ bouwt publiek ](build-audience.md) - [ dimensie van de Verandering ](change-dimension.md) - [ combineert ](combine.md) - [ Deduplicatie ](deduplication.md) - [ Verrijking ](enrichment.md) - [ Fork ](fork.md) opnieuw verzoening [&#128279;](reconciliation.md) - [ Gesplitst ](split.md) - [ wacht ](wait.md) |
+| [ worden begonnen met georkestreerde campagnes ](../gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](../configuration-steps.md)<br/><br/>[ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](../gs-campaign-creation.md) | [ creeer een georkestreerde campagne ](../create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](../orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](../send-messages.md)<br/><br/>[ Begin en controleer de campagne ](../start-monitor-campaigns.md)<br/><br/>[ Meldend ](../reporting-campaigns.md) | [ Werk met de Vraag Modeler ](../orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](../build-query.md)<br/><br/>[ uitdrukkingen ](../edit-expressions.md) uit | [ wordt begonnen met activiteiten ](about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](and-join.md) - [ bouwt publiek ](build-audience.md) - [ dimensie van de Verandering ](change-dimension.md) - [ combineert ](combine.md) - [ Deduplicatie ](deduplication.md) - [ Verrijking ](enrichment.md) - [ Fork ](fork.md) opnieuw verzoening ](reconciliation.md) - [ Gesplitst ](split.md) - [ wacht ](wait.md)[ |
 
 {style="table-layout:fixed"}
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 <br/>
 
-De **en-sluit zich aan** activiteit is de controle **activiteit van de a** Stroom. Hiermee kunt u meerdere uitvoeringstakken van een georkestreerde campagne synchroniseren.
+De **[!UICONTROL And-join]** -activiteit is een **[!UICONTROL Flow control]** -activiteit. Hiermee kunt u meerdere uitvoeringstakken van een georkestreerde campagne synchroniseren.
 
 Deze activiteit brengt slechts zijn uitgaande overgang teweeg zodra alle binnenkomende overgangen worden geactiveerd, met andere woorden, zodra alle voorafgaande activiteiten zijn geëindigd. Hierdoor kunt u ervoor zorgen dat bepaalde activiteiten zijn voltooid voordat u doorgaat met het uitvoeren van de georkestreerde campagne.
 
@@ -44,20 +44,20 @@ Deze activiteit brengt slechts zijn uitgaande overgang teweeg zodra alle binnenk
 >title="Samenvoegopties"
 >abstract="Selecteer de activiteiten waaraan u wilt deelnemen. In de **Primaire reeks** drop-down, kies welke binnenkomende overgangspopulatie u wilt houden."
 
-Voer de volgende stappen uit om de **EN-lid** activiteit te vormen:
+Voer de volgende stappen uit om de **[!UICONTROL AND-join]** -activiteit te configureren:
 
 ![](../assets/workflow-andjoin.png)
 
 1. Voeg veelvoudige activiteiten, zoals kanaalactiviteiten, toe om minstens twee verschillende uitvoertakken tot stand te brengen.
 
-1. Tussenvoegsel **EN-sluit zich** activiteit in één van de takken aan.
+1. Voeg een **[!UICONTROL AND-join]** -activiteit in een van de vertakkingen in.
 
-1. Onder de **het samenvoegen opties** sectie, selecteer alle voorafgaande activiteiten u zich wilt aansluiten.
+1. Selecteer onder de sectie **[!UICONTROL Merging options]** alle voorgaande activiteiten waaraan u wilt deelnemen.
 
-1. Van de **Primaire reeks** drop-down, kies de binnenkomende overgangspopulatie u wilt behouden.
+1. Kies in de vervolgkeuzelijst **[!UICONTROL Primary set]** de binnenkomende overgangspopulatie die u wilt behouden.
 
 ## Voorbeeld{#and-join-example}
 
-Dit voorbeeld illustreert twee gecoördineerde campagnevertakkingen, elk met een e-maillevering, één gericht op gouden leden en ander zilver. **EN** activeert zodra beide inkomende overgangen worden teweeggebracht, en SMS zal worden verzonden slechts nadat beide e-mailleveringen worden voltooid, na een vertraging van 7 dagen.
+Dit voorbeeld illustreert twee gecoördineerde campagnevertakkingen, elk met een e-maillevering, één gericht op gouden leden en ander zilver. **[!UICONTROL AND-join]** activeert zodra beide inkomende overgangen in werking worden gesteld, en SMS zal slechts worden verzonden nadat beide e-mailleveringen, na een vertraging van 7 dagen worden voltooid.
 
 ![](../assets/workflow-andjoin-example.png){zoomable="yes"}
