@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: publiceren, reizen, live, geldigheid, controle
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
+source-git-commit: f2e13aa4bbc27e8197b5e6db44763ffbabdc0ebc
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,13 @@ Op reis is er een droge run:
 1. **de inzichten van het publiek**: De artsen van de reis kunnen publieksbereikbaarheid bij diverse vervoerknopen, met inbegrip van opt-outs, uitsluitingen, en andere voorwaarden voorspellen.
 1. **in real time terugkoppelt**: De metriek wordt getoond direct in het wegcanvas, gelijkend op levende rapportering, toelatend reisartsen om hun reisontwerp te verfijnen.
 
+Tijdens de Dry-run wordt de reis uitgevoerd met de volgende specifieke kenmerken:
+
+* **de actieknooppunten van het Kanaal** met inbegrip van E-mail, SMS of Push berichten worden niet uitgevoerd
+* **de acties van de Douane** worden onbruikbaar gemaakt tijdens Droog looppas, en hun reacties worden geplaatst aan ongeldig
+* **wacht knopen** worden overgeslagen tijdens Dry looppas.
+  <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
+* **gegevensbronnen**, met inbegrip van externe gegevensbronnen, worden uitgevoerd door gebrek
 
 >[!CAUTION]
 >
@@ -86,7 +93,7 @@ Metrische gegevens worden direct op het canvas van de reis weergegeven.
 
 Voor elke activiteit kunt u controleren:
 
-* **[!UICONTROL Entered]**: Het totale aantal personen dat deze activiteit heeft ingevoerd.
+* **[!UICONTROL Entered]**: Het totale aantal personen dat deze activiteit heeft ingevoerd. Voor **de activiteiten van de Actie**, aangezien zij niet op Droog looppas wijze worden uitgevoerd, wijst metrisch op profielen die door overgaan.
 * **[!UICONTROL Exited (met exit criteria)]**: Het totale aantal personen dat de reis heeft verlaten uit die activiteit, als gevolg van uitstapcriteria.
 * **[!UICONTROL Exited (forced exit)]**: Het totale aantal personen dat de reis heeft verlaten terwijl deze was gepauzeerd vanwege de configuratie van een reisdeskundige. Deze metrische waarde is altijd gelijk aan nul voor reizen in de droge loopwijze.
 * **[!UICONTROL Error]**: Het totale aantal personen dat een fout heeft gemaakt met die activiteit.
@@ -127,10 +134,4 @@ Klik de **Dichte** knoop om de test te beëindigen, en klik **terug naar Ontwerp
    * `_experience.journeyOrchestration.stepEvents.inDryRun` retourneert `true` als de droog-uitvoering is geactiveerd, anders `false`
    * `_experience.journeyOrchestration.stepEvents.dryRunID` retourneert de id van een droge runtime-instantie
 
-* Tijdens de Dry-run wordt de reis uitgevoerd met de volgende specifieke kenmerken:
-
-   * **de actieknooppunten van het Kanaal** met inbegrip van E-mail, SMS of Push berichten worden niet uitgevoerd
-   * **de acties van de Douane** worden onbruikbaar gemaakt tijdens Droog looppas, en hun reacties worden geplaatst aan ongeldig
-   * **wacht knopen** worden overgeslagen tijdens Dry looppas.
-     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-   * **gegevensbronnen**, met inbegrip van externe gegevensbronnen, worden uitgevoerd door gebrek
+* Bij het analyseren van gegevens over het melden van reizen met gebruik van de Adobe Experience Platform Query-service, moeten gebeurtenissen met een droog runtimeprogramma worden uitgesloten. Stel hiervoor de markering `inDryRun` in op `false` .
