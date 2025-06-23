@@ -10,14 +10,24 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 97a791329f35ba64a1dca9aef7802e0f4103dbe5
+source-git-commit: baca603427ebba9ecb843b3c8d219c40354dde0f
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
 
 # Adobe Experience Platform-gegevens gebruiken voor personalisatie{#aep-data}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_rules_dataset_lookup"
+>title="Gegevensset opzoeken"
+>abstract="Door Adobe Experience Platform-gegevens in besluitvormingsregels te gebruiken, kunt u geschiktheidscriteria definiëren op basis van dynamische, externe kenmerken, zodat beslissingsitems alleen worden weergegeven wanneer dat relevant is. Maak een toewijzing om te definiëren hoe de Adobe Experience Platform-gegevensset wordt gekoppeld aan gegevens in [!DNL Journey Optimizer] . Selecteer de dataset met de attributen u nodig hebt en kies een het aansluiten van sleutel die in zowel de attributen van het besluitvormingspunt als de dataset bestaat."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_formula_dataset_lookup"
+>title="Gegevensset opzoeken"
+>abstract="De rangschikkingsformules bepalen de prioriteit van besluitvormingspunten. Met de gegevenssetkenmerken van [!DNL Adobe Experience Platform] kunt u de waarderingslogica dynamisch aanpassen aan de omstandigheden in de praktijk. Maak een toewijzing om te definiëren hoe de Adobe Experience Platform-gegevensset wordt gekoppeld aan gegevens in [!DNL Journey Optimizer] . Selecteer de dataset met de attributen u nodig hebt en kies een het aansluiten sleutel die in zowel de attributen van het besluitvormingspunt als de dataset bestaat"
 
 >[!AVAILABILITY]
 >
@@ -132,11 +142,11 @@ Zodra een dataset voor raadplegingsverpersoonlijking gebruikend een API vraag is
 
    +++Waar om een dataset ID terug te winnen?
 
-   Dataset-id&#39;s kunnen worden opgehaald in de gebruikersinterface van Adobe Experience Platform. Leer hoe te met datasets in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"} te werken.
+   Dataset-id&#39;s kunnen worden opgehaald in de gebruikersinterface van Adobe Experience Platform. Leer hoe te met datasets in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"} te werken.
 
    ![](assets/aep-data-dataset.png)
 
-   +++
++++
 
 1. Pas de syntaxis aan uw wensen aan. In dit voorbeeld willen we gegevens ophalen over de vluchten van passagiers. De syntaxis is als volgt:
 
@@ -163,11 +173,11 @@ Zodra een dataset voor raadplegingsverpersoonlijking gebruikend een API vraag is
 
      +++Waar moet u een veld-id ophalen?
 
-     Velden-id&#39;s kunnen worden opgehaald wanneer een voorbeeld van een gegevensset in de gebruikersinterface van Adobe Experience Platform wordt weergegeven. Leer hoe te voorproef datasets in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
+     Velden-id&#39;s kunnen worden opgehaald wanneer een voorbeeld van een gegevensset in de gebruikersinterface van Adobe Experience Platform wordt weergegeven. Leer hoe te voorproef datasets in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
 
      ![](assets/aep-data-field.png)
 
-     +++
++++
 
    In dit voorbeeld willen we informatie gebruiken over de instaptijd en -poort van de passagiers. Daarom voegen wij deze twee lijnen toe:
 
