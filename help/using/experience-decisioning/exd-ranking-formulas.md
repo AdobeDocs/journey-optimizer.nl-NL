@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1227'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,10 @@ Volg de onderstaande stappen om een rangschikkingsformule te maken.
 
    * vul de **[!UICONTROL Criteria]** sectie van het [ gebruikersinterface ](#ranking-select-criteria) in,
    * of schakelaar aan de [ coderedacteur ](#ranking-code-editor).
+
+   >[!NOTE]
+   >
+   >U kunt ook gegevens uit Adobe Experience Platform gebruiken om de waarderingslogica dynamisch aan te passen aan de omstandigheden in de praktijk. Dit is vooral nuttig voor attributen die vaak veranderen, zoals productbeschikbaarheid, of prijs in real time. Deze mogelijkheid is momenteel beschikbaar voor alle klanten als een openbare bètaversie. Neem contact op met uw accountvertegenwoordiger als u toegang wilt. [ Leer hoe te om de gegevens van Adobe Experience Platform voor besluit te gebruiken ](../experience-decisioning/aep-data-exd.md)
 
 <!--## Select an ELS dataset {#els-dataset}
 
@@ -130,7 +134,7 @@ Als het gebied van het besluitpunt (douaneattribuut) het geografische etiket van
 
 ## De code-editor gebruiken {#ranking-code-editor}
 
-Om rangschikkende formules in **syntaxis van PQL** uit te drukken, schakelaar aan de coderedacteur gebruikend de specifieke knoop op hoogste recht van het scherm. Voor meer op hoe te om de syntaxis van PQL te gebruiken, verwijs naar de [ specifieke documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=nl-NL).
+Om rangschikkende formules in **syntaxis van PQL** uit te drukken, schakelaar aan de coderedacteur gebruikend de specifieke knoop op hoogste recht van het scherm. Voor meer op hoe te om de syntaxis van PQL te gebruiken, verwijs naar de [ specifieke documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
 
 >[!CAUTION]
 >

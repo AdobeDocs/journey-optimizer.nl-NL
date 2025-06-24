@@ -9,14 +9,15 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: expression, editor
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
+source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Platform-gegevens gebruiken voor beslissingen{#aep-data}
+# Adobe Experience Platform-gegevens gebruiken voor beslissingen {#aep-data}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
@@ -30,7 +31,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Deze functie is momenteel beschikbaar voor alle klanten als een openbare bètaversie. Neem contact op met uw accountvertegenwoordiger als u toegang wilt tot deze functie
+>Deze mogelijkheid is momenteel beschikbaar voor alle klanten als een openbare bètaversie. Neem contact op met uw accountvertegenwoordiger als u toegang wilt.
 
 Met [!DNL Journey Optimizer] kunt u gegevens van [!DNL Adobe Experience Platform] gebruiken om te beslissen. Dit staat u toe om de definitie van uw beslissingsattributen tot extra gegevens in datasets voor bulkupdates uit te breiden die periodiek veranderen zonder het moeten manueel de attributen één voor één bijwerken. Bijvoorbeeld beschikbaarheid, wachttijden, enz.
 

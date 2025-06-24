@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 2%
+source-wordcount: '502'
+ht-degree: 1%
 
 ---
 
@@ -39,6 +39,10 @@ De lijst met beslissingsregels is toegankelijk in het menu **[!UICONTROL Strateg
 Voer de volgende stappen uit om een beslissingsregel te maken:
 
 1. Navigeer naar de knop **[!UICONTROL Strategy setup]** / **[!UICONTROL Decision rules]** en klik vervolgens op de knop **[!UICONTROL Create rule]** .
+
+   >[!NOTE]
+   >
+   >U kunt gegevens van Adobe Experience Platform ook gebruiken om uw besluitvormingslogica met externe gegevens te verrijken. Dit is vooral nuttig voor attributen die vaak veranderen, zoals productbeschikbaarheid, of prijs in real time. Deze mogelijkheid is momenteel beschikbaar voor alle klanten als een openbare bètaversie. Neem contact op met uw accountvertegenwoordiger als u toegang wilt. [ Leer hoe te om de gegevens van Adobe Experience Platform voor besluit te gebruiken ](../experience-decisioning/aep-data-exd.md)
 
 1. Het scherm van de besluitvormingsregels opent. Geef de regel een naam en geef een beschrijving op.
 
