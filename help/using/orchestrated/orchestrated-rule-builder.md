@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
+source-git-commit: 19e3e261f076a158a513a84e993db5851d9cf577
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 | Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
 |---|---|---|---|
-| [ wordt begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](configuration-steps.md)<br/><br/>[ Toegang en beheert georkestreerde camapens ](access-manage-orchestrated-campaigns.md) | [ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](gs-campaign-creation.md)<br/><br/>[ creëren en plannen de campagne ](create-orchestrated-campaign.md)<br/><br/>[ activiteiten van het Orchestrate ](orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](send-messages.md)<br/><br/>[ Begin en controleren de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | <b>[ Werk met de regelbouwer ](orchestrated-rule-builder.md)</b><br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uitdrukkingen ](edit-expressions.md) uit | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ combineert ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) - [ Fork ](activities/fork.md) opnieuw verzoening [&#128279;](activities/reconciliation.md) - [ Gesplitst ](activities/split.md) - [ wacht ](activities/wait.md) |
+| [ wordt begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](configuration-steps.md)<br/><br/>[ Toegang en beheert georkestreerde camapens ](access-manage-orchestrated-campaigns.md) | [ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](gs-campaign-creation.md)<br/><br/>[ creëren en plannen de campagne ](create-orchestrated-campaign.md)<br/><br/>[ activiteiten van het Orchestrate ](orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](send-messages.md)<br/><br/>[ Begin en controleren de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | <b>[ Werk met de regelbouwer ](orchestrated-rule-builder.md)</b><br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uitdrukkingen ](edit-expressions.md) uit | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ combineert ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) - [ Fork ](activities/fork.md) opnieuw verzoening ](activities/reconciliation.md) - [ Gesplitst ](activities/split.md) - [ wacht ](activities/wait.md)[ |
 
 {style="table-layout:fixed"}
 
@@ -31,13 +31,17 @@ ht-degree: 0%
 
 Geordende campagnes komen met een regelbouwer die het proces vereenvoudigt om het gegevensbestand te filtreren dat op diverse criteria wordt gebaseerd. De bouwer van de regel beheert zeer complexe en lange vragen efficiënt, die grotere flexibiliteit en precisie aanbieden.
 
-Het steunt ook vooraf bepaalde filters binnen voorwaarden, die gebruikers machtigen om vragen te verfijnen terwijl het gebruiken van geavanceerde uitdrukkingen en exploitanten voor uitvoerige publiek richtend en segmenteringsstrategieën.
+Het steunt ook vooraf bepaalde filters binnen voorwaarden, die u machtigen om vragen te verfijnen terwijl het gebruiken van geavanceerde uitdrukkingen en exploitanten voor uitvoerige publiek richtend en segmenteringsstrategieën.
 
 ## Heb toegang tot de regelbouwer
 
-De bouwer van de regel is beschikbaar wanneer het bouwen van een vraag in een **[!UICONTROL Build audience]** activiteit om een publiek te richten. Hiermee kunt u opgeven voor welke populatie u zich wilt richten en eenvoudig nieuwe soorten publiek maken die zijn afgestemd op uw behoeften.
+De vraagmodeler is beschikbaar in elke context waar u regels aan filtergegevens moet bepalen.
 
-![ beeld dat een activiteit van het bouwstijlpubliek toont ](assets/rule-builder-query.png)
+| Gebruik | Voorbeeld |
+|  ---  |  ---  |
+| **bouwt publiek**: Specificeer de bevolking u in uw georkestreerde campagnes wilt richten gebruikend a **[!UICONTROL Build audience]** activiteit, en creeert moeiteloos nieuwe die toehoorders aan uw behoeften worden aangepast. [ Leer hoe te om publiek te bouwen ](../orchestrated/activities/build-audience.md) | ![ Beeld die tonen hoe te om tot de interface van de publieksverwezenlijking toegang te hebben ](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
+| **creeer voorwaarde in het campagnecanvas**: Pas regels binnen het campagnecanvas toe gebruikend een **[!UICONTROL Split]** activiteit, om zich op uw specifieke vereisten te richten. [ Leer hoe te om een Gesplitste activiteit ](../orchestrated/activities/split.md) te gebruiken | ![ Beeld die hoe te om tot de opties van de werkschemaaanpassing toegang te hebben ](assets/query-access-split.png){width="200" align="center" zoomable="yes"} toont |
+| **creeer geavanceerde filters**: Bouw regels om de gegevens te filtreren die in lijsten zoals werkschemalogboeken of het richten van dimensies worden getoond. | ![ Beeld die hoe te om lijstfilters ](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} tonen aan te passen |
 
 ## Interface van Rule builder {#interface}
 
