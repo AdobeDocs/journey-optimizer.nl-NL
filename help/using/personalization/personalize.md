@@ -37,7 +37,7 @@ Met deze syntaxis kunt u berichten in meerdere velden personaliseren, zoals onde
 
 ## Gegevens gebruikt voor personalisatie
 
-Personalization is gebaseerd op de profielgegevens die door het **worden geleid XDM Individuele die schema van het Profiel** in Adobe Experience Platform wordt bepaald. Het **schema van het Profiel van 0} XDM Individuele is het enige schema u kunt gebruiken om inhoud in [!DNL Journey Optimizer] te personaliseren.** Leer meer in [ het Model van Gegevens van Adobe Experience Platform (XDM) documentatie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
+Personalization is gebaseerd op de profielgegevens die door het **worden geleid XDM Individuele die schema van het Profiel** in Adobe Experience Platform wordt bepaald. Het **schema van het Profiel van 0&rbrace; XDM Individuele is het enige schema u kunt gebruiken om inhoud in [!DNL Journey Optimizer] te personaliseren.** Leer meer in [ het Model van Gegevens van Adobe Experience Platform (XDM) documentatie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
 
 U kunt hefboomwerking **gegevens verwerkte attributen** ook gebruiken om uw inhoud te personaliseren. Met berekende kenmerken kunt u afzonderlijke gedragsgebeurtenissen samenvatten in berekende profielkenmerken die beschikbaar zijn op Adobe Experience Platform. [ leer hoe te met gegevens verwerkte attributen ](../audience/computed-attributes.md) werken
 

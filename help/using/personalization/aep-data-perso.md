@@ -51,7 +51,7 @@ Wijzig in de tussentijd de onderstaande richtsnoeren:
 
 ## Een dataset inschakelen voor gegevensopzoekhandeling {#enable}
 
-Om gegevens van uw dataset voor verpersoonlijking te hefboomwerking, moet u een API vraag gebruiken om zijn status terug te winnen en de raadplegingsdienst toe te laten. De gedetailleerde informatie is beschikbaar in deze sectie: {de datasets van Adobe Experience Platform van 0} hefboomwerking in  [!DNL Journey Optimizer]](../data/lookup-aep-data.md)[
+Om gegevens van uw dataset voor verpersoonlijking te hefboomwerking, moet u een API vraag gebruiken om zijn status terug te winnen en de raadplegingsdienst toe te laten. De gedetailleerde informatie is beschikbaar in deze sectie: {de datasets van Adobe Experience Platform van 0} hefboomwerking in  [!DNL Journey Optimizer][&#128279;](../data/lookup-aep-data.md)
 
 ## Gebruik een dataset voor verpersoonlijking {#leverage}
 
@@ -88,7 +88,7 @@ Zodra een dataset voor raadplegingsverpersoonlijking gebruikend een API vraag is
 
    ![](assets/aep-data-dataset.png)
 
-+++
+   +++
 
 1. Pas de syntaxis aan uw wensen aan. In dit voorbeeld willen we gegevens ophalen over de vluchten van passagiers. De syntaxis is als volgt:
 
@@ -119,7 +119,7 @@ Zodra een dataset voor raadplegingsverpersoonlijking gebruikend een API vraag is
 
      ![](assets/aep-data-field.png)
 
-+++
+     +++
 
    In dit voorbeeld willen we informatie gebruiken over de instaptijd en -poort van de passagiers. Daarom voegen wij deze twee lijnen toe:
 
