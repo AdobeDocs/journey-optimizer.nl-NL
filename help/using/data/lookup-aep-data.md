@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adobe Experience Platform-gegevens gebruiken in  [!DNL Journey Optimizer]  (Beta)
+title: Adobe Experience Platform-gegevens gebruiken (Beta)
 description: Leer hoe te om de datasets van Adobe Experience Platform in  [!DNL Journey Optimizer]  Beslissing en verpersoonlijkingsmogelijkheden te gebruiken.
 badge: label="Beta" type="Informative"
 feature: Personalization, Rules
@@ -9,14 +9,15 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: expression, editor
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
+source-git-commit: 4c78163cfc34937888cd323b461246f5955232bb
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Platform-gegevens gebruiken in [!DNL Journey Optimizer] {#aep-data}
+# Adobe Experience Platform-gegevens gebruiken {#aep-data}
 
 >[!AVAILABILITY]
 >
