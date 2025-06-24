@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
+source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1179'
 ht-degree: 8%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 8%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 
 ## Opmerkingen bij de release van juni &#39;25 {#25-6-rn}
@@ -30,7 +30,7 @@ ht-degree: 8%
 
 **de datum van de Versie**: 18 Juni, 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nieuwe functies {#25-06-features}
 
@@ -191,6 +191,24 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 </table>
 
 
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Experience Platform datasets in decisions (bèta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Experience Platform datasets die voorheen beschikbaar waren voor personalisatie, kunnen nu worden gebruikt voor beslissingen. Dit staat u toe om de definitie van uw beslissingsattributen tot extra gegevens in datasets voor bulkupdates uit te breiden die periodiek veranderen zonder het moeten manueel de attributen één voor één bijwerken. Bijvoorbeeld beschikbaarheid, wachttijden, enz.</p>
+<p>Deze mogelijkheid is momenteel beschikbaar voor alle klanten als een openbare bètaversie. Neem contact op met uw accountvertegenwoordiger als u toegang wilt tot deze functie</p>
+<p>Raadpleeg de <a href="../experience-decisioning/aep-data-exd.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Beschikbaarheidsdatum: 20 juni 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### Verbeteringen {#25-06-improv}
 
 De verbeteringen die bij deze release worden geleverd, worden hieronder weergegeven.
@@ -219,13 +237,11 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
   Een nieuw navigatiepatroon maakt snellere toegang tot het ontwerpen van inhoud mogelijk en ondersteunt verdere uitbreiding van instellingen in alle campagnes. [Meer informatie](../campaigns/create-campaign.md)
 
-* **Beslissing** - de datum van de Beschikbaarheid: 3 Juni, 2025
+* **Beslissing**
 
-  Decisioning-objecten kunnen nu worden gekopieerd tussen sandboxen, waardoor test- en implementatieworkflows worden gestroomlijnd. [Meer informatie](../configuration/copy-objects-to-sandbox.md#decisioning)
+   * **Sandbox exemplaar &amp; Beslissing** (beschikbaarheidsdatum: 3 Juni, 2025) - De beslissende voorwerpen kunnen nu tussen zandbakken worden gekopieerd, die het testen en plaatsingswerkschema&#39;s stroomlijnen. [Meer informatie](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-* **de kenmerksteun van het Punt van het Besluit voor beslissingsregels** - de datum van de Beschikbaarheid: 4 juni, 2025
-
-  U kunt nu kenmerken van beslissingspunten gebruiken om beslissingsregels te maken. [Meer informatie](../experience-decisioning/rules.md#create)
+   * **de kenmerksteun van het Punt van het Besluit voor besluitvormingsregels** (beschikbaarheidsdatum: 4 juni, 2025) - u kunt de attributen van het besluitvormingspunt nu hefboomwerking besluiten om besluitvormingsregels tot stand te brengen. [Meer informatie](../experience-decisioning/rules.md#create)
 
 * **Interactieve update van API van de Uitvoering van het Bericht** - de datum van de Beschikbaarheid: 6 juni, 2025
 
