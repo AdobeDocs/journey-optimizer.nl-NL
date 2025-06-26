@@ -1,14 +1,13 @@
 ---
-title: Gegevensverzameling
+title: Dataverzameling
 description: Meer informatie over het verzamelen van feedback over beslissingsbeheer
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer, Developer
 level: Experienced
-exl-id: 278cb255-439c-4ce8-ab59-07df79774b98
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: bd94edd5be8651fdde5c353a59442ab3f255cfbc
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '386'
 ht-degree: 1%
 
 ---
@@ -17,10 +16,10 @@ ht-degree: 1%
 
 ## Gegevensverzameling
 
-U kunt feedback van offer decisioning verzamelen in Adobe Experience Platform, inclusief welke aanbiedingen worden weergegeven en hoe gebruikers met hen communiceren. Deze gegevens kunnen worden gebruikt voor:
-* Samenstellen [Beslissingsbeheerrapporten](../reports/get-started-events.md);
-* Gebruiken [frequentiecalculatie](../offer-library/add-constraints.md#capping) regels;
-* Gebouw [AI-modellen](../ranking/create-ranking-strategies.md) die als waarderingsmethode kunnen worden gebruikt.
+Je kunt feedback over beslissingen in Adobe Experience Platform verzamelen, waaronder welke aanbiedingen worden weergegeven en hoe gebruikers met hen communiceren. Deze gegevens kunnen worden gebruikt voor:
+* Samenstellend [ het beheersrapporten van het Besluit ](../reports/get-started-events.md);
+* Het gebruiken van [ frequentie die ](../offer-library/add-constraints.md#capping) regels begrenzen;
+* De bouw [ AI modellen ](../ranking/create-ranking-strategies.md) die als het rangschikken methode kunnen worden gebruikt.
 
 ## Typen gebeurtenissen
 
@@ -28,25 +27,25 @@ De manier waarop gegevens worden verzameld, varieert afhankelijk van het gebeurt
 
 ### Gebeurtenissen van Besluit
 
-Telkens wanneer het besluitvormingsbeheer een besluit neemt, wordt informatie over dat beslissingsfeit **automatisch** naar Adobe Experience Platform verzonden voor alle kanalen. [Meer informatie](../reports/get-started-events.md)
+Telkens als het beheer van het Besluit een besluit neemt, wordt de informatie met betrekking tot die besluitvormingsgebeurtenis **automatisch** verzonden naar Adobe Experience Platform voor alle kanalen. [Meer informatie](../reports/get-started-events.md)
 
 ### Impressie en klik op gebeurtenissen
 
 Afbeeldingen en klikken in het kader van besluitvormingsbeheer worden als volgt gedefinieerd:
 
-* An **indruk** gebeurtenis is wanneer een aanbieding aan een gebruiker wordt getoond.
+* Een **indruk** gebeurtenis is wanneer een aanbieding aan een gebruiker wordt getoond.
 
-* A **klikken** gebeurtenis is wanneer een gebruiker klikt of met een aanbieding in wisselwerking staat.
+* A **klik** gebeurtenis is wanneer een gebruiker klikt of met een aanbieding in wisselwerking staat.
 
-Feedback op afbeeldingen en klikken wordt vastgelegd op basis van de [!DNL Journey Optimizer] kanaal dat wordt gebruikt.
+Feedback op afbeeldingen en klikken wordt vastgelegd afhankelijk van het gebruikte [!DNL Journey Optimizer] kanaal.
 
-**E-mails** gemaakt door [!DNL Journey Optimizer] **automatisch** impressies bijhouden en klikken.
+**Emails** authored door [!DNL Journey Optimizer] **** sporen automatisch indrukken en klikken.
 
-Maar **meeste kanalen** impressies en klikgegevens vereisen die als een **Experience, gebeurtenis**. Dit omvat:
+Nochtans, **vereisen de meeste kanalen** impressies en kliks gegevens die in Adobe Experience Platform als **ervaringsgebeurtenis** moeten worden verzonden. Dit omvat het volgende:
 
-* Webpagina&#39;s die de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL){target="_blank"} om aanbiedingen te renderen
+* Web-pagina&#39;s die [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} gebruiken om aanbiedingen terug te geven
 
-* Mobiele toepassingen met de [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=nl-NL){target="_blank"} to render offers - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
+* Mobiele apps die [ Adobe Experience Platform Mobile SDK ](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} gebruiken om aanbiedingen terug te geven - [ leer meer ](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
 * Kiosks
 * Berichten die via toepassingen van derden worden verzonden
   <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->
@@ -57,12 +56,12 @@ Maar **meeste kanalen** impressies en klikgegevens vereisen die als een **Experi
 
 ### Aangepaste gebeurtenissen
 
-Feedback op aangepaste gebeurtenissen die aan een voorstel zijn gekoppeld, kan naar Adobe Experience Platform worden verzonden op basis van je eigen voorkeuren. Als een aanbieding bijvoorbeeld meerdere knoppen bevat, zoals *Geïnteresseerd*, *Niet geïnteresseerd*, enzovoort, wilt u deze gebeurtenissen mogelijk afzonderlijk verzenden, maar deze kunnen ook worden verzonden als ervaringsgebeurtenissen.
+Feedback op aangepaste gebeurtenissen die aan een voorstel zijn gekoppeld, kan naar Adobe Experience Platform worden verzonden op basis van je eigen voorkeuren. Bijvoorbeeld, als een aanbieding veelvoudige knopen zoals *Geïnteresseerde* heeft, *niet geinteresseerd*, enz., kunt u in die gebeurtenissen willen verzenden afzonderlijk, maar deze kunnen ook binnen als ervaringsgebeurtenissen worden verzonden.
 
 ## Feedbackgegevens verzenden
 
 Als u feedbackgegevens wilt verzenden, moet u een gegevensset maken om gebeurtenissen te verzamelen en voor elk gebeurtenistype een ervaringsgebeurtenis definiëren die naar Adobe Experience Platform wordt verzonden.
 
-* Leer hoe te om een dataset tot stand te brengen waar de ervaringsgebeurtenissen in zullen worden verzameld [deze sectie](create-dataset.md).
+* Leer hoe te om een dataset tot stand te brengen waar de ervaringsgebeurtenissen in [ deze sectie ](create-dataset.md) zullen worden verzameld.
 
-* Leer hoe u ervaringsgebeurtenissen definieert die u wilt verzenden in feedbackgegevens in [deze sectie](schema-requirement.md).
+* Leer hoe te om ervaringsgebeurtenissen te bepalen in terugkoppelt gegevens in [ dit sectie ](schema-requirement.md) te verzenden.

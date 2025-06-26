@@ -6,35 +6,34 @@ description: Leer hoe u uw aanbiedingsschema configureert om gebeurtenissen vast
 feature: Ranking, Datasets, Decision Management
 role: Developer, Data Engineer
 level: Experienced
-exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: bd94edd5be8651fdde5c353a59442ab3f255cfbc
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
 
 # Gegevensverzameling configureren {#schema-requirements}
 
-Als u feedback wilt krijgen over andere gebeurtenistypen dan beslissingsgebeurtenissen, moet u de juiste waarde voor elk gebeurtenistype in een **Experience, gebeurtenis** die naar Adobe Experience Platform wordt verzonden.
+Om terugkoppelen op gebeurtenistypes buiten besluitvormingsgebeurtenissen te kunnen krijgen, moet u de correcte waarde voor elk gebeurtenistype in een **ervaringsgebeurtenis** plaatsen die in Adobe Experience Platform wordt verzonden.
 
 >[!CAUTION]
 >
->Voor elk gebeurtenistype, zorg ervoor het schema in de dataset wordt gebruikt heeft **[!UICONTROL Experience Event - Proposition Interactions]** veldgroep die eraan is gekoppeld. [Meer informatie](create-dataset.md)
+>Voor elk gebeurtenistype, zorg ervoor het schema dat in de dataset wordt gebruikt de **[!UICONTROL Experience Event - Proposition Interactions]** gebiedsgroep verbonden aan het heeft. [Meer informatie](create-dataset.md)
 
-Hieronder vindt u de schemavereisten die u in uw JavaScript-code moet implementeren.
+Hieronder staan de schemavereisten die u in uw code van JavaScript moet uitvoeren.
 
 >[!NOTE]
 >
->Beslissingsgebeurtenissen hoeven niet te worden verzonden omdat het beheer van het besluit deze gebeurtenissen automatisch zal genereren en in de **[!UICONTROL ODE DecisionEvents]** gegevensset<!--to check--> die automatisch wordt gegenereerd.
+>De gebeurtenissen van het besluit hoeven niet binnen worden verzonden aangezien het beheer van het Besluit deze gebeurtenissen automatisch zal produceren en hen in de **[!UICONTROL ODE DecisionEvents]** dataset <!--to check--> zetten die auto-geproduceerd is.
 
 ## Afbeeldingen bijhouden {#track-impressions}
 
 Zorg ervoor dat het gebeurtenistype en de bron als volgt zijn:
 
-**Gebeurtenistype Experience:** `decisioning.propositionDisplay`
-**Bron:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) of batch ingestie
-+++**Bemonsteringslading:**
+**gebeurtenistype van de Ervaring:** `decisioning.propositionDisplay`
+**Source:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) of partijingestion
++++**lading van de Steekproef:**
 
 ```
 {
@@ -66,9 +65,9 @@ Zorg ervoor dat het gebeurtenistype en de bron als volgt zijn:
 
 Zorg ervoor dat het gebeurtenistype en de bron als volgt zijn:
 
-**Gebeurtenistype Experience:** `decisioning.propositionInteract`
-**Bron:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) of batch ingestie
-+++**Bemonsteringslading:**
+**gebeurtenistype van de Ervaring:** `decisioning.propositionInteract`
+**Source:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) of partijingestion
++++**lading van de Steekproef:**
 
 ```
 {
@@ -98,13 +97,13 @@ Zorg ervoor dat het gebeurtenistype en de bron als volgt zijn:
 
 ## Aangepaste gebeurtenissen bijhouden {#track-custom-events}
 
-Voor douanegebeurtenissen, moet het schema dat in de dataset wordt gebruikt ook hebben **[!UICONTROL Experience Event - Proposition Interactions]** veldgroep die eraan is gekoppeld, maar er is geen specifieke vereiste met betrekking tot het type ervaringsgebeurtenis dat moet worden gebruikt om deze gebeurtenissen van tags te voorzien.
+Voor aangepaste gebeurtenissen moet aan het schema dat in de gegevensset wordt gebruikt ook de veldgroep **[!UICONTROL Experience Event - Proposition Interactions]** zijn gekoppeld, maar is er geen specifieke vereiste voor het gebeurtenistype Experience die moet worden gebruikt om deze gebeurtenissen te labelen.
 
 >[!NOTE]
 >
->Als u aangepaste gebeurtenissen wilt laten opnemen in [frequentiecalculatie](../offer-library/add-constraints.md#capping), moet u de ervaringsgebeurtenis met Adobe Experience Platform eindpunten verbinden door het naar één van beide eindpunten van de gegevensinzameling van Edge te verzenden:
+>Om uw douanegebeurtenissen te hebben die in [ frequentietoewijzing ](../offer-library/add-constraints.md#capping) worden vermeld, moet u de ervaringsgebeurtenis met Adobe Experience Platform eindpunten verbinden door het naar één van beide eindpunten van de gegevensinzameling van Edge te verzenden:
 >
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->Als u het [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=nl-NL){target="_blank"}, wordt de verbinding automatisch gemaakt.
+>Als u het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} of [ Adobe Experience Platform Mobiele SDK ](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} gebruikt, wordt de verbinding automatisch gemaakt.
