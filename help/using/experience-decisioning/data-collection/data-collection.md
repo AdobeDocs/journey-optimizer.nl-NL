@@ -5,7 +5,9 @@ feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer, Developer
 level: Experienced
-source-git-commit: dd108b67ec252d391418d8af53de696bf9cd167d
+hide: true
+hidefromtoc: true
+source-git-commit: e5c457494d5d79d1a7951b9172c39c91007e2651
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 1%
@@ -40,13 +42,13 @@ Afbeeldingen en klikken in het kader van besluitvormingsbeheer worden als volgt 
 
 Feedback op afbeeldingen en klikken wordt vastgelegd afhankelijk van het gebruikte [!DNL Journey Optimizer] kanaal.
 
-**Emails** authored door [!DNL Journey Optimizer] **&#x200B;**&#x200B;sporen automatisch indrukken en klikken.
+**Emails** authored door [!DNL Journey Optimizer] **** sporen automatisch indrukken en klikken.
 
 Nochtans, **vereisen de meeste kanalen** impressies en kliks gegevens die in Adobe Experience Platform als **ervaringsgebeurtenis** moeten worden verzonden. Dit omvat het volgende:
 
-* Web-pagina&#39;s die [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL){target="_blank"} gebruiken om aanbiedingen terug te geven
+* Web-pagina&#39;s die [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} gebruiken om aanbiedingen terug te geven
 
-* Mobiele apps die [ Adobe Experience Platform Mobile SDK ](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=nl-NL){target="_blank"} gebruiken om aanbiedingen terug te geven - [ leer meer ](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
+* Mobiele apps die [ Adobe Experience Platform Mobile SDK ](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} gebruiken om aanbiedingen terug te geven - [ leer meer ](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
 * Kiosks
 * Berichten die via toepassingen van derden worden verzonden
   <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->
