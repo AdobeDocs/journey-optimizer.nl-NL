@@ -63,7 +63,7 @@ Als een tijdzone voor een profiel is gedefinieerd, zal het door de reis worden t
 
 >[!NOTE]
 >
->De streek van de profieltijd werkt met het **timeZone** gebied bestaand in de **3} gebiedsgroep van de Details van de Voorkeur {.**
+>De streek van de profieltijd werkt met het **timeZone** gebied bestaand in de **3&rbrace; gebiedsgroep van de Details van de Voorkeur &lbrace;.**
 
 ## Tijdzones gebruiken in expressies {#timezone-in-expressions}
 

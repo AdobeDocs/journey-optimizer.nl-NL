@@ -16,12 +16,7 @@ ht-degree: 0%
 
 ---
 
-# De eigenschappen van uw reis instellen {#jo-properties}
-penc
->[!CONTEXTUALHELP]
->id="ajo_journey_properties"
->title="Journeyeigenschappen"
->abstract="In dit gedeelte worden de eigenschappen van de reis weergegeven. Standaard zijn alleen-lezen parameters verborgen. Welke instellingen beschikbaar zijn, is afhankelijk van de status van de rit, uw machtigingen en de productconfiguratie."
+# De eigenschappen van uw reis instellenpenc>[!CONTEXTUALHELP]>id="ajo_journey_properties">title="Journeyeigenschappen">abstract="In dit gedeelte worden de eigenschappen van de reis weergegeven. Standaard zijn alleen-lezen parameters verborgen. Welke instellingen beschikbaar zijn, is afhankelijk van de status van de rit, uw machtigingen en de productconfiguratie." {#jo-properties}
 
 ## Toegang tot de eigenschappen van een reis {#access-properties}
 
