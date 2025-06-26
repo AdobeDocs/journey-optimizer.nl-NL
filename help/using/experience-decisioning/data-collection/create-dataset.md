@@ -69,4 +69,4 @@ u bent nu klaar om een dataset tot stand te brengen gebruikend dit schema. Hierv
 
 >[!NOTE]
 >
->Deze dataset kan nu worden geselecteerd om gebeurtenisgegevens te verzamelen wanneer [ het creëren van een AI model ]().
+>Deze dataset kan nu worden geselecteerd om gebeurtenisgegevens te verzamelen wanneer [ het creëren van een AI model ] ().

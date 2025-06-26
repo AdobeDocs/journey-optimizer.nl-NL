@@ -41,7 +41,7 @@ Afbeeldingen en klikken in het kader van besluitvormingsbeheer worden als volgt 
 
 Feedback op afbeeldingen en klikken wordt vastgelegd afhankelijk van het gebruikte [!DNL Journey Optimizer] kanaal.
 
-**Emails** authored door [!DNL Journey Optimizer] **** sporen automatisch indrukken en klikken.
+**Emails** authored door [!DNL Journey Optimizer] **&#x200B;**&#x200B;sporen automatisch indrukken en klikken.
 
 Nochtans, **vereisen de meeste kanalen** impressies en kliks gegevens die in Adobe Experience Platform als **ervaringsgebeurtenis** moeten worden verzonden. Dit omvat het volgende:
 
