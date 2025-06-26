@@ -25,7 +25,7 @@ ht-degree: 1%
 
 ## Aan de slag met beleid voor gegevensbeheer {#gs}
 
-Met zijn [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html){target="_blank"} kader van de Etikettering en van het Gebruik van Gegevens van 0&rbrace; (DULE), staat Adobe Experience Platform u toe om het beleid van het gegevensbeheer over uw kanalen te beheren en af te dwingen door **het etiketteren van uw gebieden** en het creëren van **marketing acties** voor elk kanaal.
+Met zijn [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=nl-NL){target="_blank"} kader van de Etikettering en van het Gebruik van Gegevens van 0&rbrace; (DULE), staat Adobe Experience Platform u toe om het beleid van het gegevensbeheer over uw kanalen te beheren en af te dwingen door **het etiketteren van uw gebieden** en het creëren van **marketing acties** voor elk kanaal.
 
 Zodra de etiketten en de marketing acties worden bepaald, kunt u **beleid van het gegevensbeheer** tot stand brengen dat deze twee elementen verbindt. U kunt bijvoorbeeld een beleid instellen dat een ePHI-label koppelt aan een marketingactie &quot;e-mailadressering&quot;, zodat velden met de naam &quot;ePHI&quot; niet worden gebruikt voor het personaliseren van e-mailberichten. [ Leer hoe te om het beleid van het gegevensbeheer te creëren ](#policy)
 
@@ -134,4 +134,4 @@ Fouten zijn zichtbaar via de knop **[!UICONTROL Alerts]** . Selecteer de fout om
 
 Deze dialoog wijst erop dat de huidige reis/campagneconfiguratie een bestaand beleid van het gegevensbeheer schendt. Gebruik het diagram van de gegevenslijn om te begrijpen welke andere configuratieveranderingen moeten worden aangebracht alvorens u uw reis of campagne kunt activeren.
 
-De gedetailleerde informatie is beschikbaar in de [ documentatie van de de schending van het gegevensgebruiksbeleid ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.
+De gedetailleerde informatie is beschikbaar in de [ documentatie van de de schending van het gegevensgebruiksbeleid ](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.
