@@ -6,8 +6,7 @@ description: Leer hoe u uw aanbiedingsschema configureert om gebeurtenissen vast
 feature: Ranking, Datasets, Decision Management
 role: Developer, Data Engineer
 level: Experienced
-exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: 42b7b7fe7ab6380ca54e05ab0905f2517f489782
+source-git-commit: dd108b67ec252d391418d8af53de696bf9cd167d
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -107,4 +106,4 @@ Voor aangepaste gebeurtenissen moet aan het schema dat in de gegevensset wordt g
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->Als u het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL){target="_blank"} of [ Adobe Experience Platform Mobiele SDK ](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=nl-NL){target="_blank"} gebruikt, wordt de verbinding automatisch gemaakt.
+>Als u het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} of [ Adobe Experience Platform Mobiele SDK ](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} gebruikt, wordt de verbinding automatisch gemaakt.
