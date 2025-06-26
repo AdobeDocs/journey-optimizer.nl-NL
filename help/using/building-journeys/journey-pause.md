@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: publiceren, reizen, live, geldigheid, controle
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 624bcbdbbd33d9827b98c953043e692757deb847
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2106'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ U kunt om het even welke **Levende** reis pauzeren.
 Voer de volgende stappen uit om uw reis te pauzeren:
 
 1. Open de reis die u wilt pauzeren.
-1. Klik op **...Meer** knoop op de hoger-juiste sectie van het wegcanvas, en selecteer **Pauzeren**.
+1. Klik **...Meer** knoop op de hoger-juiste sectie van het wegcanvas, en selecteer **Pauzeren**.
 
    ![ Pauzeer de reisknoop ](assets/pause-journey-button.png)
 
@@ -61,7 +61,7 @@ Voer de volgende stappen uit om uw reis te pauzeren:
    U kunt:
 
    * **Greep** profielen - de Profielen zullen op de volgende **knoop van de Actie** op de reis wachten die moet worden hervat
-   * **verwerpt** profielen - de Profielen zullen van de reis op de volgende **3 knoop van de Actie worden uitgesloten &lbrace;**
+   * **verwerpt** profielen - de Profielen zullen van de reis op de volgende **3 knoop van de Actie worden uitgesloten {**
 
 1. Klik de **knoop van de Pauze** om te bevestigen.
 
@@ -103,7 +103,7 @@ Gepauzeerde reizen worden automatisch hervat aan het einde van de maximale pauze
 Ga als volgt te werk om een gepauzeerde reis te hervatten en opnieuw te luisteren naar de gebeurtenissen van de reis:
 
 1. Open de reis die u wilt hervatten.
-1. Klik op **...Meer** knoop op de hoger-juiste sectie van het wegcanvas, en selecteer **Hervatten**.
+1. Selecteer **...Meer** knoop op de hoger-juiste sectie van het wegcanvas, en dan **hervatten**.
 
    De reisschakelaars aan de **Herhalende** status. Wanneer de reis hervat, beginnen nieuwe ingangen binnen een minuut. Herhalingsprofielen die zijn opgeslagen, kunnen enige tijd in beslag nemen - profielen worden hervat met een tps-snelheid van 5 kB.  Aangezien alle profielen voor de reis moeten worden hervat om **Levend** opnieuw te zijn, kan de overgang van het **Hervatten** aan **Levende** status wat tijd vergen.
 
@@ -121,7 +121,7 @@ Als u bijvoorbeeld alle Franse klanten wilt uitsluiten van een gepauzeerde reis,
 
 1. Blader naar de gepauzeerde reis die u wilt wijzigen.
 
-1. Klik op de **criteria van de Uitgang &amp; Globale filter** pictogram.
+1. Selecteer de **criteria van de Uitgang &amp; Globale filter** pictogram.
 
    ![ voeg een globale filter aan een gepauzeerde reis toe ](assets/add-global-filter.png)
 
@@ -176,13 +176,13 @@ Laten we het volgende voorbeeld van de reis nemen:
 
 ![ Steekproef van een reis ](assets/pause-journey-sample.png){zoomable="yes"}
 
-Wanneer het pauzeren van deze reis, selecteert u als de profielen **&#x200B;**&#x200B;of **Greep** worden genegeerd, en dan profielbeheer is het volgende:
+Wanneer het pauzeren van deze reis, selecteert u als de profielen **** of **Greep** worden genegeerd, en dan profielbeheer is het volgende:
 
 1. **AddToCart** activiteit: alle nieuwe profielingangen worden geblokkeerd. Als een profiel al de reis vóór een pauze is ingegaan, gaan zij tot de volgende actieknooppunt voort.
 1. **wacht** activiteit: de profielen blijven normaal op de knoop wachten en zullen het weggaan, zelfs als de reis in pauze is.
 1. **Voorwaarde**: de profielen blijven door voorwaarden gaan en zich naar de juiste tak bewegen, die op de uitdrukking wordt gebaseerd op de voorwaarde wordt bepaald.
 1. **duw**/**e-mail** activiteiten: tijdens een gepauzeerde reis, beginnen de profielen te wachten of worden verworpen (die op de keus door de gebruiker op het tijdstip van pauze wordt gemaakt) op de volgende actieknooppunt wordt gebaseerd. Profielen wachten dus of worden daar genegeerd.
-1. **Gebeurtenissen** na **3&rbrace; knopen van de Actie &lbrace;: als een profiel op een** knoop van de Actie **wacht en er een** activiteit van de Gebeurtenis **na het is, als die gebeurtenis in brand wordt gestoken, wordt het profiel verworpen.**
+1. **Gebeurtenissen** na **3} knopen van de Actie {: als een profiel op een** knoop van de Actie **wacht en er een** activiteit van de Gebeurtenis **na het is, als die gebeurtenis in brand wordt gestoken, wordt het profiel verworpen.**
 
 Zoals per dit gedrag, kunt u profielaantallen zien die op gepauzeerde reis stijgen, meestal in activiteiten vóór **Actie** activiteiten. Bijvoorbeeld, in dat voorbeeld, **wacht** activiteit nog wordt toegelaten, die het aantal profielen verhogen die door de **Voorwaarde** activiteit gaan, aangezien zij het weggaan.
 

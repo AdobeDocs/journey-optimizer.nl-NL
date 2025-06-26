@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: gegevens, bestuur, DULE, labels, labels, platform, beleid
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1282'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 ## Aan de slag met beleid voor gegevensbeheer {#gs}
 
-Met zijn [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=nl-NL){target="_blank"} kader van de Etikettering en van het Gebruik van Gegevens van 0&rbrace; (DULE), staat Adobe Experience Platform u toe om het beleid van het gegevensbeheer over uw kanalen te beheren en af te dwingen door **het etiketteren van uw gebieden** en het creëren van **marketing acties** voor elk kanaal.
+Met zijn ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html){target="_blank"} kader van de Etikettering en van het Gebruik van Gegevens van 0} (DULE), staat Adobe Experience Platform u toe om het beleid van het gegevensbeheer over uw kanalen te beheren en af te dwingen door **het etiketteren van uw gebieden** en het creëren van **marketing acties** voor elk kanaal.[
 
 Zodra de etiketten en de marketing acties worden bepaald, kunt u **beleid van het gegevensbeheer** tot stand brengen dat deze twee elementen verbindt. U kunt bijvoorbeeld een beleid instellen dat een ePHI-label koppelt aan een marketingactie &quot;e-mailadressering&quot;, zodat velden met de naam &quot;ePHI&quot; niet worden gebruikt voor het personaliseren van e-mailberichten. [ Leer hoe te om het beleid van het gegevensbeheer te creëren ](#policy)
 
@@ -128,10 +128,10 @@ Als één van de gebieden geëtiketteerd _ePHI1_ (het bloedtypegebied in ons voo
 
 Als het systeem een beperkt veld in een reis/campagne of een aangepaste handeling identificeert, wordt een fout weergegeven die voorkomt dat u deze publiceert.
 
-Fouten zijn zichtbaar via de knop **[!UICONTROL Alerts]** . Klik op de fout om gedetailleerde informatie weer te geven over de schending van het gegevensbeheerbeleid.
+Fouten zijn zichtbaar via de knop **[!UICONTROL Alerts]** . Selecteer de fout om gedetailleerde informatie over de schending van het gegevensgovernancebeleid te tonen die gebeurde.
 
 ![](assets/action-privacy8.png)
 
 Deze dialoog wijst erop dat de huidige reis/campagneconfiguratie een bestaand beleid van het gegevensbeheer schendt. Gebruik het diagram van de gegevenslijn om te begrijpen welke andere configuratieveranderingen moeten worden aangebracht alvorens u uw reis of campagne kunt activeren.
 
-De gedetailleerde informatie is beschikbaar in de [ documentatie van de de schending van het gegevensgebruiksbeleid ](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.
+De gedetailleerde informatie is beschikbaar in de [ documentatie van de de schending van het gegevensgebruiksbeleid ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: tijdzone, eigendommen, transport, conditie, tijd, datum, aangepast
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '358'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 U kunt een tijdzone in de [ eigenschappen ](../building-journeys/journey-properties.md#timezone) van uw reis bepalen.
 
-Klik op het potloodpictogram in de rechterbovenhoek van het scherm om de eigenschappen van het pad te openen.
+Als u de eigenschappen van een rit wilt openen, selecteert u het potloodpictogram rechtsboven in het scherm.
 
 Deze tijdzone wordt gebruikt voor elke activiteit van de reis die een tijdselement bevat, zoals:
 
@@ -63,7 +63,7 @@ Als een tijdzone voor een profiel is gedefinieerd, zal het door de reis worden t
 
 >[!NOTE]
 >
->De streek van de profieltijd werkt met het **timeZone** gebied bestaand in de **3&rbrace; gebiedsgroep van de Details van de Voorkeur &lbrace;.**
+>De streek van de profieltijd werkt met het **timeZone** gebied bestaand in de **3} gebiedsgroep van de Details van de Voorkeur {.**
 
 ## Tijdzones gebruiken in expressies {#timezone-in-expressions}
 

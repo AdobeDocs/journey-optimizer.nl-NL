@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 5fcbde9344e919b817ef8d360d2318a6d9a1513f
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1306'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ U kunt testprofielen op verschillende manieren maken. Op de volgende pagina vind
 
   Adobe Journey Optimizer verstrekt ook een specifiek [ in-product gebruiksgeval ](#use-case-1) om de verwezenlijking van het testprofiel te vergemakkelijken.
 
-U kunt een JSON-bestand uploaden naar een bestaande gegevensset. Voor meer informatie, verwijs naar de [ documentatie van de Ingestie van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=nl-NL#add-data-to-dataset){target="_blank"}.
+U kunt een JSON-bestand uploaden naar een bestaande gegevensset. Voor meer informatie, verwijs naar de [ documentatie van de Ingestie van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"}.
 
 Het maken van een testprofiel lijkt op het maken van gewone profielen in Adobe Experience Platform. Voor meer informatie, verwijs naar de [ documentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}.
 
@@ -71,7 +71,7 @@ Klik eenmaal op **[!UICONTROL Add field groups]** : de lijst met veldgroepen wor
 
 >[!NOTE]
 >
->Voor meer informatie over schemaverwezenlijking, verwijs naar de [ documentatie XDM ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=nl-NL#prerequisites){target="_blank"}.
+>Voor meer informatie over schemaverwezenlijking, verwijs naar de [ documentatie XDM ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}.
 
 ### Een gegevensset maken
 
@@ -90,7 +90,7 @@ Dan moet u **tot de dataset** leiden waarin de profielen zullen worden ingevoerd
 
 >[!NOTE]
 >
-> Voor meer informatie over datasetverwezenlijking, verwijs naar de [ documentatie van de Dienst van de Catalogus ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=nl-NL#getting-started){target="_blank"}.
+> Voor meer informatie over datasetverwezenlijking, verwijs naar de [ documentatie van de Dienst van de Catalogus ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}.
 
 ## Gebruiksscenario in het product{#use-case-1}
 
@@ -114,7 +114,7 @@ De volgende informatie is vereist:
    1. **Land**: Het profielland van de test van woonplaats
    1. **Geslacht**: Het profielgeslacht van de test. De beschikbare waarden zijn **man**, **vrouwelijk** en **niet_gespecificeerd**
 
-Klik op de knop **[!UICONTROL Run]** rechtsboven nadat u de naamruimte van de identiteit hebt geselecteerd en het CSV-bestand hebt opgegeven op basis van de bovenstaande indeling. Het kan enkele minuten duren voordat de gebruiksaanwijzing is voltooid. Zodra het gebruik is voltooid en de testprofielen zijn gemaakt, wordt een melding verzonden om de gebruiker op de hoogte te stellen.
+Nadat u de naamruimte van de identiteit hebt geselecteerd en het CSV-bestand hebt opgegeven op basis van de bovenstaande indeling, selecteert u de knop **[!UICONTROL Run]** rechtsboven. Het kan enkele minuten duren voordat de gebruiksaanwijzing is voltooid. Zodra het gebruik is voltooid en de testprofielen zijn gemaakt, wordt een melding verzonden om de gebruiker op de hoogte te stellen.
 
 >[!NOTE]
 >
@@ -187,7 +187,7 @@ Uw testprofielen worden toegevoegd en kunnen nu worden gebruikt bij het testen v
 
 >[!NOTE]
 >
->Voor meer informatie over csv de invoer, verwijs naar de [ documentatie van de Ingestie van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=nl-NL#tutorials){target="_blank"}.
+>Voor meer informatie over csv de invoer, verwijs naar de [ documentatie van de Ingestie van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}.
 >
 
 

@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: reenter, trip, end, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ U kunt bijvoorbeeld een reis stoppen als een markeerder beseft dat de reis het v
 
 U kunt ook het volgende doen:
 
-1. Klik in de lijst **[!UICONTROL Journeys]** op de rit die u wilt stoppen.
+1. Klik in de lijst **[!UICONTROL Journeys]** op de reis die u wilt stoppen.
 1. Klik rechtsboven op de pijl omlaag.
 
    ![](assets/finish_drop_down_list2.png){width="50%" align="left" zoomable="yes"}

@@ -9,10 +9,10 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: reis, gebruiksgeval, bericht, abonnees, lijst, gelezen
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -20,17 +20,17 @@ ht-degree: 3%
 
 Het doel van dit gebruiksgeval is een reis tot stand te brengen om een bericht naar de abonnees van een lijst te verzenden.
 
-In dit voorbeeld wordt **[!UICONTROL Consent and Preference Details]** veldgroep van [!DNL Adobe Experience Platform] wordt gebruikt. Als u deze veldgroep wilt zoeken, gaat u naar **[!UICONTROL Data Management]** menu, kiest u **[!UICONTROL Schemas]**. Op de **[!UICONTROL Field groups]** voert u de naam van de veldgroep in het zoekveld in.
+In dit voorbeeld wordt de veldgroep **[!UICONTROL Consent and Preference Details]** van [!DNL Adobe Experience Platform] gebruikt. Kies **[!UICONTROL Schemas]** in het menu **[!UICONTROL Data Management]** om deze veldgroep te zoeken. Typ op het tabblad **[!UICONTROL Field groups]** de naam van de veldgroep in het zoekveld.
 
-![Deze veldgroep bevat het abonnementselement](assets/consent-and-preference-details-field-group.png)
+![ Deze gebiedsgroep omvat het abonnementselement ](assets/consent-and-preference-details-field-group.png)
 
 Om deze reis te vormen, volg deze stappen:
 
-1. Maak een reis die begint met een **[!UICONTROL Read]** activiteit. [Meer informatie](journey-gs.md).
-1. Een **[!UICONTROL Email]** actie op de reis. [Meer informatie](journeys-message.md).
-1. In de **[!UICONTROL Email parameters]** van de **[!UICONTROL Email]** activiteiteninstellingen, vervang het standaard e-mailadres (`PersonalEmail.adress`) met het e-mailadres van de abonnees van de lijst:
+1. Maak een reis die begint met een **[!UICONTROL Read]** -activiteit. [Meer informatie](journey-gs.md).
+1. Voeg een **[!UICONTROL Email]** actieactiviteit aan de reis toe. [Meer informatie](journeys-message.md).
+1. Vervang in de sectie **[!UICONTROL Email parameters]** van de **[!UICONTROL Email]** activity-instellingen het standaard-e-mailadres ( `PersonalEmail.adress` ) door het e-mailadres van de abonnees van de lijst:
 
-   1. Klik op de knop **[!UICONTROL Enable parameter override]** pictogram rechts van **[!UICONTROL Address]** en klik vervolgens op de knop **[!UICONTROL Edit]** pictogram.
+   1. Klik op het pictogram **[!UICONTROL Enable parameter override]** rechts van het veld **[!UICONTROL Address]** en klik vervolgens op het pictogram **[!UICONTROL Edit]** .
 
       ![](assets/message-to-subscribers-uc-1.png)
 
@@ -44,19 +44,19 @@ Om deze reis te vormen, volg deze stappen:
 
       In dit voorbeeld worden de volgende functies gebruikt:
 
-      | -functie | Beschrijving | Voorbeeld |
+      | Functie | Beschrijving | Voorbeeld |
       | --- | --- | --- |
-      | `entry` | Verwijs naar een kaartelement volgens geselecteerde namespace | Een specifieke abonnementenlijst bekijken |
-      | `firstEntryKey` | De eerste entry-sleutel van een kaart ophalen | Het eerste e-mailadres van abonnees ophalen |
+      | `entry` | Verwijst naar een structuurelement volgens de geselecteerde naamruimte | Een specifieke abonnementenlijst bekijken |
+      | `firstEntryKey` | Hiermee wordt de eerste entry-sleutel van een kaart opgehaald | Het eerste e-mailadres van abonnees ophalen |
 
-      In dit voorbeeld krijgt de abonnementenlijst de naam `daily-email`. E-mailadressen worden gedefinieerd als sleutels in het dialoogvenster `subscribers` kaart, die aan de kaart van de abonnementenlijst wordt verbonden.
+      In dit voorbeeld heeft de abonnementenlijst de naam `daily-email` . E-mailadressen worden gedefinieerd als sleutels in de `subscribers` -kaart, die is gekoppeld aan de abonnementenlijstkaart.
 
-      Meer informatie over [verwijzingen naar velden](expression/field-references.md) in expressies.
+      Lees meer over [ verwijzingen naar gebieden ](expression/field-references.md) in uitdrukkingen.
 
       ![](assets/message-to-subscribers-uc-2.png)
 
-   1. In de **[!UICONTROL Add an expression]** klikt u op **[!UICONTROL Ok]**.
+   1. Klik in het dialoogvenster **[!UICONTROL Add an expression]** op **[!UICONTROL Ok]** .
 
 >[!CAUTION]
 >
->Overschrijven van e-mailadressen mag alleen worden gebruikt voor specifieke gebruiksgevallen. Meestal hoeft u het e-mailadres niet te wijzigen omdat de waarde die in het dialoogvenster **[!UICONTROL Execution fields]** Dat is de methode die moet worden gebruikt. [Meer informatie](../configuration/primary-email-addresses.md)
+>Overschrijven van e-mailadressen mag alleen worden gebruikt voor specifieke gebruiksgevallen. Meestal hoeft u het e-mailadres niet te wijzigen, omdat de waarde die wordt gedefinieerd als het primaire adres in de **[!UICONTROL Execution fields]** het adres is dat moet worden gebruikt. [Meer informatie](../configuration/primary-email-addresses.md)

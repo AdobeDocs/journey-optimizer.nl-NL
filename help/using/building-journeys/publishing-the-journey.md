@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 keywords: publiceren, reizen, live, geldigheid, controle
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 5bdacef2196592776c6b37708b0df0986460ca1f
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '594'
 ht-degree: 1%
 
 ---
 
 # Uw reis publiceren {#publishing-the-journey}
 
-Als u een reis wilt activeren en nieuwe profielen wilt toestaan deze in te voeren, moet u deze publiceren. De publicatie maakt de reis live en functioneel. Voordat u gaat publiceren, moet u controleren of de rit voltooid en geldig is en eventuele fouten verhelpen. Een reis kan namelijk niet worden gepubliceerd als deze fouten bevat.
+U moet een reis publiceren om het te activeren en het ter beschikking te stellen voor nieuwe profielen om de reis binnen te gaan. Voordat u uw reis publiceert, controleert u of deze geldig is en of er geen fouten zijn. U kunt geen reis met fouten publiceren.
 
 ➡️ [Ontdek deze functie in video](#video)
 
@@ -26,7 +26,7 @@ Als u een reis wilt activeren en nieuwe profielen wilt toestaan deze in te voere
 
 De stappen om een reis te publiceren zijn hieronder gedetailleerd:
 
-1. Voordat u uw reis publiceert, moet u controleren of deze geldig en foutloos is. De reizen kunnen niet worden gepubliceerd als zij om het even welke fouten bevatten.
+1. Voordat u uw reis publiceert, controleert u of deze geldig is en of er geen fouten zijn. U kunt geen reis met fouten publiceren.
 
    * Leer hoe te om uw reis op [ deze pagina ](testing-the-journey.md) te testen.
    * Leer hoe te om uw reisfouten in [ problemen op te lossen deze sectie ](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
@@ -35,20 +35,17 @@ De stappen om een reis te publiceren zijn hieronder gedetailleerd:
 
    >[!NOTE]
    >
-   > Als uw reis aan een goedkeuringsbeleid onderworpen is, moet u goedkeuring vragen alvorens u het kunt publiceren. [Meer informatie](../test-approve/gs-approval.md)
-
+   > Als uw reis aan een goedkeuringsbeleid onderworpen is, moet u om goedkeuring verzoeken om uw reis te publiceren. [Meer informatie](../test-approve/gs-approval.md)
 
    ![](assets/journeyuc1_18.png)
 
-Wanneer de reis wordt gepubliceerd, is het op **read-only** wijze. Als een reis alleen-lezen is, kunt u alleen de activiteitslabels en -beschrijvingen, de naam van de reis en de beschrijving van de reis wijzigen. Als u meer wijzigingen aan een gepubliceerde reis moet maken, creeer [ een nieuwe versie ](journey-ui.md#journey-versions) van uw reis.
+Wanneer de reis wordt gepubliceerd, is het op **read-only** wijze. In de modus Alleen-lezen kunt u alleen de activiteitslabels en -beschrijvingen, de naam van de reis en de beschrijving van de reis wijzigen. Als u extra aanpassingen aan een gepubliceerde reis moet maken, creeer [ een nieuwe versie ](journey-ui.md#journey-versions) van uw reis.
 
-Wanneer u een reis stopt, wordt deze permanent stopgezet: alle mensen die op de reis stromen, worden permanent gestopt en de reis houdt op nieuwe ingangen toe te staan. Als u de reis opnieuw moet leiden, moet u het dupliceren en de nieuwe reis publiceren.
-
+Als je een reis stopt, wordt deze permanent gestopt. Alle personen die door de reis lopen, worden permanent tegengehouden en de reis maakt geen nieuwe inzendingen meer mogelijk. Als u de reis opnieuw moet leiden, dupliceer het en publiceer de nieuwe reis.
 
 >[!IMPORTANT]
 >
->Als er wijzigingen worden aangebracht in een biedbesluit dat wordt gebruikt in een reisbericht, moet u de reis ongedaan maken en opnieuw publiceren.  Dit zal ervoor zorgen dat de veranderingen in het reisbericht worden opgenomen en dat de boodschap in overeenstemming is met de meest recente updates.
-
+>Als er wijzigingen worden aangebracht in een biedbesluit dat wordt gebruikt in een reisbericht, moet u de reis ongedaan maken en opnieuw publiceren. Dit zorgt ervoor dat de veranderingen in het bericht van de reis worden opgenomen en dat het bericht met de recentste updates verenigbaar is.
 
 ## Journeyversies {#journey-versions}
 
@@ -90,4 +87,4 @@ Wanneer u een nieuwe versie van een reis publiceert, beëindigt de vorige versie
 
 Leer hoe u een reis publiceert in deze video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427938?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

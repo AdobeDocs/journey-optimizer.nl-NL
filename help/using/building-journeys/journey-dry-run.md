@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: publiceren, reizen, live, geldigheid, controle
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: bb3379fa71aaeb00d0833c67547de70f4e9c3fb1
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ U kunt de functie Dry-run gebruiken in elke conceptreis zonder fouten.
 Voer de volgende stappen uit om de droog-uitvoering te activeren:
 
 1. Open de reis die u wilt testen.
-1. Klik op de **Droog looppas** knoop.
+1. Selecteer de **Droog looppas** knoop.
 
    ![ Begin de reis droge looppas ](assets/dry-run-button.png)
 

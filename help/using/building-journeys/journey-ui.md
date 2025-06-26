@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1142'
 ht-degree: 2%
 
 ---
@@ -31,12 +31,12 @@ Klik in de menusectie JOURNEY MANAGEMENT op **[!UICONTROL Journeys]** . Er zijn 
 
 Op het tabblad **[!UICONTROL Overview]** wordt een dashboard weergegeven met de belangrijkste maatstaven voor uw reizen.
 
-![ reis dashboard die het Overzicht tabel ](assets/journeys-dashboard.png) benadrukken
+![ dashboard van de Reis die het Overzicht tabel ](assets/journeys-dashboard.png) benadrukt
 
 * **verwerkte Profielen**: totaal aantal profielen die in de laatste 24 uren worden verwerkt
 * **Levende reizen**: totaal aantal levende reizen met verkeer over de laatste 24 uren. De actieve reizen omvatten **Eenheids reizen** (gebeurtenis-gebaseerd) en **ritten van de Partij** (gelezen publiek).
 * **tarief van de Fout**: verhouding van alle profielen in fout vergeleken met het totale aantal profielen die over de laatste 24 uren inging.
-* **verwerpt tarief**: verhouding van alle verworpen profielen vergeleken met het totale aantal profielen die de afgelopen 24 uren inging. Een weggegooid profiel vertegenwoordigt iemand die niet in aanmerking komt om de reis binnen te gaan, bijvoorbeeld vanwege een onjuiste naamruimte of vanwege toegangsregels.
+* **verwerpt tarief**: verhouding van alle verworpen profielen vergeleken met het totale aantal profielen die de afgelopen 24 uren inging. Een weggegooid profiel vertegenwoordigt iemand die niet in aanmerking komt om de reis, bijvoorbeeld, wegens onjuiste namespace of toegangsregels binnen te gaan.
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Naast de lijst met ritten geeft [!DNL Journey Optimizer] een kalenderweergave va
 
 >[!AVAILABILITY]
 >
->De kalenderweergave is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Om toegang te verzoeken, gebruik [ deze vorm ](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
+>De kalenderweergave is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Om toegang te verzoeken, gebruik [ deze vorm ](https://forms.cloud.microsoft/r/FC49afuJVi){target="_blank"}.
 >
 >Deze functie is actief ontwikkeld. We verwelkomen uw invoer en verzoeken met de knop **[!UICONTROL Beta Feedback]** in het bovenste menu.
 
@@ -80,7 +80,7 @@ In de reislijst, worden alle reisversies getoond met het versieaantal. Wanneer u
 
 ## Uw reizen filteren {#journey-filter}
 
-In de lijst met reizen kunt u met behulp van verschillende filters de lijst met reizen verfijnen.
+Gebruik in de lijst met reizen verschillende filters om de lijst met reizen te verfijnen.
 
 ![ het Scherm dat een steekproef van reis toont filtrerend met twee geselecteerde types van reizen ](assets/filter-journeys.png)
 
@@ -102,7 +102,7 @@ Daarnaast wordt in het configuratievenster Gebeurtenis, Gegevensbron en Handelin
 
 Het soort reis hangt af van de activiteiten die in die reis worden gebruikt. Het kan zijn:
 
-* **[!UICONTROL Unitary event]** - Eenheidsuitzettingen worden gekoppeld aan een specifiek profiel. Gebeurtenissen hebben betrekking op het gedrag van een persoon of iets dat met een persoon verband houdt (een persoon bereikte bijvoorbeeld 10 000 loyaliteitspunten). [Meer informatie](../event/about-events.md).
+* **[!UICONTROL Unitary event]** - Eenheidsuitzettingen worden gekoppeld aan een specifiek profiel. Gebeurtenissen hebben betrekking op het gedrag van een persoon of iets dat met een persoon verband houdt (een persoon bereikte bijvoorbeeld 10.000 loyaliteitspunten). [Meer informatie](../event/about-events.md).
 * **[!UICONTROL Business event]**. De reis van bedrijfsgebeurtenissen begint met een niet-profielgerelateerde gebeurtenis. De gebeurtenisconfiguratie wordt uitgevoerd door een technische gebruiker en kan niet worden uitgegeven. [Meer informatie](../event/about-events.md).
 * **[!UICONTROL Audience Qualification]** - De reizen van de Kwalificatie van het publiek luisteren naar de ingangen en de uitgangen van profielen in het publiek van Adobe Experience Platform om individuen te maken ingaan of zich op een reis voortbewegen. [Meer informatie](audience-qualification-events.md).
 * **[!UICONTROL Read audience]** - Bij Lezen kijkreizen nemen alle personen in het publiek de reis in en ontvangen ze de berichten die in uw reis zijn opgenomen.  [Meer informatie](read-audience.md).
@@ -117,9 +117,9 @@ De reisstatus hangt af van de levenscyclus. Het kan zijn:
 * **Gesloten**: de reis is gesloten gebruikend **dicht aan nieuwe ingangen** knoop. De reis houdt in dat nieuwe individuen de reis kunnen betreden. Personen die al onderweg zijn, kunnen de reis normaal afmaken.
 * **Ontwerp**: de reis is in zijn eerste stadium. Het is nog niet gepubliceerd.
 * **Ontwerp (Test)**: de testwijze is geactiveerd gebruikend de **wijze van de Test** knoop.
-* **Voltooid**: De reis schakelt automatisch aan deze status na de globale onderbreking 91 dag [&#128279;](journey-properties.md#global_timeout). Profielen die al op reis zijn, worden normaal afgehandeld. Nieuwe profielen kunnen niet langer de reis betreden.
+* **Voltooid**: De reis schakelt automatisch aan deze status na de globale onderbreking 91 dag [ ](journey-properties.md#global_timeout). Profielen die al op reis zijn, worden normaal afgehandeld. Nieuwe profielen kunnen niet langer de reis betreden.
 * **Levend**: de reis is gepubliceerd gebruikend **publiceer** knoop.
-* **Gestopt**: de reis is uitgezet gebruikend de **3&rbrace; knoop van het Einde &lbrace;.** Alle individuen sluiten onmiddellijk de reis.
+* **Gestopt**: de reis is uitgezet gebruikend de **3} knoop van het Einde {.** Alle individuen sluiten onmiddellijk de reis.
 
 >[!NOTE]
 >

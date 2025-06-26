@@ -9,19 +9,19 @@ role: User
 level: Intermediate
 keywords: reis, configuratie, eigenschappen
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '2375'
+source-wordcount: '2373'
 ht-degree: 0%
 
 ---
 
 # De eigenschappen van uw reis instellen {#jo-properties}
-
+penc
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Journeyeigenschappen"
->abstract="In dit gedeelte worden de eigenschappen van de reis weergegeven. Standaard zijn alleen-lezen parameters verborgen. Welke instellingen beschikbaar zijn, is afhankelijk van de status van de rit, van uw machtigingen en de productconfiguratie."
+>abstract="In dit gedeelte worden de eigenschappen van de reis weergegeven. Standaard zijn alleen-lezen parameters verborgen. Welke instellingen beschikbaar zijn, is afhankelijk van de status van de rit, uw machtigingen en de productconfiguratie."
 
 ## Toegang tot de eigenschappen van een reis {#access-properties}
 
@@ -33,7 +33,7 @@ U kunt:
 
 * Wijs Adobe Experience Platform Verenigde Markeringen aan uw reis toe, om hen gemakkelijk te classificeren en onderzoek van de campagnemelijst te verbeteren. [ leer hoe te met markeringen ](../start/search-filter-categorize.md#tags) werken
 * Selecteer uw reismetriek. [ leer hoe te om uw reismetriek te vormen en te volgen ](success-metrics.md)
-* Beheer [ ingang en ingang ](#entrance). Profielbeheer is afhankelijk van het soort reis. De details zijn beschikbaar op [ deze pagina ](entry-management.md)
+* Beheer [ ingang en ingang ](#entrance). Profielbeheer is afhankelijk van het type reis. De details zijn beschikbaar op [ deze pagina ](entry-management.md)
 * Beheer [ toegang tot gegevens ](#manage-access)
 * Selecteer de reis en profiel [ tijdzones ](#timezone)
 * Kies douane [ begin en einddata ](#dates)
@@ -46,7 +46,7 @@ U kunt:
 >
 >Voor live reizen worden in dit scherm alleen de publicatiedatum en de naam van de gebruiker weergegeven die de reis heeft gepubliceerd.
 
-De **technische details van het Exemplaar** staat u toe om technische informatie over de reis te kopiëren die het ondersteuningsteam kan gebruiken om problemen op te lossen. De volgende informatie wordt gekopieerd: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
+De **technische details van het Exemplaar** optie staat u toe om technische informatie over de reis te kopiëren die het steunteam kan gebruiken om problemen op te lossen. De volgende informatie wordt gekopieerd: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
 
 Leer meer over technische gebieden met betrekking tot een reis voor een bepaald profiel, en hoe te om hen [ op deze pagina ](expression/journey-properties.md) te gebruiken.
 
@@ -54,7 +54,7 @@ Leer meer over technische gebieden met betrekking tot een reis voor een bepaald 
 
 De modus voor profielinvoer wordt gedefinieerd op het niveau van het transport, in het configuratievenster rechts. De instellingen worden hieronder beschreven.
 
-Profielbeheer is afhankelijk van het soort reis. Leer meer over profielingang en terugkeerbeheer, op [ deze pagina ](entry-management.md).
+Profielbeheer is afhankelijk van het type reis. Leer meer over profielingang en terugkeerbeheer, op [ deze pagina ](entry-management.md).
 
 ### Ingang toestaan  {#allow-reentrance}
 
@@ -62,7 +62,7 @@ Profielbeheer is afhankelijk van het soort reis. Leer meer over profielingang en
 >id="ajo_journey_properties_entrance"
 >title="Ingang toestaan"
 >abstract="Nieuwe reizen maken standaard terugkeer mogelijk. U kunt uncheck **toestaan ingang** optie bijvoorbeeld als u een eenmalig geschenk wilt aanbieden wanneer een persoon een winkel ingaat."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profieltoegangsbeheer"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profieltoegangsbeheer"
 
 Nieuwe reizen maken standaard terugkeer mogelijk. U kunt uncheck **toestaan terugkeer** optie voor &quot;één schot&quot;reizen, bijvoorbeeld als u een eenmalig geschenk wilt aanbieden wanneer een persoon een winkel ingaat.
 
@@ -71,14 +71,14 @@ Nieuwe reizen maken standaard terugkeer mogelijk. U kunt uncheck **toestaan teru
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="Reentrale wachttijd"
->abstract="Stel de tijd in om te wachten voordat een profiel de reis weer kan betreden tijdens een enkele reis. Hierdoor kunnen gebruikers de reis niet opnieuw betreden voor een bepaalde duur. Maximale duur: 90 dagen."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profieltoegangsbeheer"
+>abstract="Stel de tijd in die moet worden gewacht voordat een profiel de reis weer kan betreden tijdens een enkele reis. Hierdoor kunnen gebruikers de reis niet opnieuw betreden voor een bepaalde duur. Maximale duur: 90 dagen."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profieltoegangsbeheer"
 
 Wanneer **toe staat terugkeer** optie wordt geactiveerd, **de ingang wacht periode** gebied wordt getoond. In dit veld kunt u de tijd definiëren die u moet wachten voordat u een profiel toestaat om de reis opnieuw te betreden tijdens een enkele reis (te beginnen met een evenement of een publiekskwalificatie). Hierdoor wordt voorkomen dat ritten meerdere keren ten onrechte worden geactiveerd voor dezelfde gebeurtenis. Het veld wordt standaard ingesteld op 5 minuten. De maximale duur is 90 dagen.
 
 ## Toegang beheren {#manage-access}
 
-U kunt de toegang tot een reis beperken die op toegangslabels wordt gebaseerd.
+U kunt de toegang tot een reis beperken op basis van toegangslabels.
 
 Klik op het pictogram **[!UICONTROL Manage access labels]** en selecteer een of meerdere labels om aangepaste labels voor gegevensgebruik toe te wijzen aan de rit.
 
@@ -95,12 +95,12 @@ De tijdzone wordt gedefinieerd op het niveau van de reis. U kunt een vaste tijdz
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Begindatum"
->abstract="Selecteer de datum waarop de profielen kunnen beginnen de reis in te gaan. Als er geen begindatum is vastgesteld, wordt deze standaard ingesteld op de publicatiedatum van de reis."
+>abstract="Selecteer de datum waarop de profielen kunnen beginnen de reis in te gaan. Als er geen begindatum is vastgesteld, wordt standaard de publicatiedatum van de reis aangehouden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="Einddatum"
->abstract="Stel de datum in waarop de reis eindigt. Op deze datum wordt de reis automatisch verlaten door actieve profielen, en geen nieuwe ingangen zullen worden toegestaan."
+>abstract="Stel de datum in waarop de reis eindigt. Op deze datum wordt de reis automatisch verlaten door actieve profielen, en geen nieuwe ingang wordt toegestaan."
 
 Door gebrek, kunnen de profielen uw reis ingaan zodra het wordt gepubliceerd, en kunnen blijven tot de [ globale reisonderbreking ](#global_timeout) wordt bereikt. De enige uitzondering is terugkerende lees publiekstrajecten met **geactiveerde ingang van de Kracht op herhaling**, die op de begindatum van het volgende voorkomen beëindigen.
 
@@ -252,7 +252,7 @@ Adobe Journey Optimizer gebruikt samenvoegbeleid terwijl het terugwinnen van pro
 
 Adobe Journey Optimizer past het fusiebeleid toe dat gedurende de hele reis wordt gebruikt. Daarom als de veelvoudige publiek in een reis (bijvoorbeeld het gebruiken van binnen [`inAudience` functies ](functions/functioninaudience.md)) wordt gebruikt, leidt dit tot inconsistenties met het fusiebeleid dat door de reis wordt gebruikt, wordt een fout opgeheven en de publicatie wordt geblokkeerd. Nochtans, als een inconsistent publiek in berichtverpersoonlijking wordt gebruikt, wordt een alarm niet opgeheven, ondanks de inconsistentie. Om deze reden, wordt het hoogst geadviseerd om het samenvoegbeleid te controleren verbonden aan uw publiek, wanneer dit publiek in berichtverpersoonlijking wordt gebruikt.
 
-Meer over fusiebeleid leren, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+Meer over fusiebeleid leren, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
 >[!NOTE]
 >

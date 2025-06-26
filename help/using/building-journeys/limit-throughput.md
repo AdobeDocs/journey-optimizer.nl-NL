@@ -8,9 +8,9 @@ role: Developer, Data Engineer
 level: Experienced
 keywords: reis, gegevensbronnen, grens, productie, douane, acties
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ U kunt deze waarde wijzigen van 500 tot 20 000 exemplaren per seconde. Als u lag
 
 ![](assets/limit-throughput-2.png)
 
-Neem een voorbeeld van a **publiek-teweeggebrachte reizen** die met een bevolking van **10 000 profielen** werken en gegevens verzenden naar een extern systeem dat **100 verzoeken/seconde** steunt.
+Neem een voorbeeld van a **publiek-teweeggebrachte reizen** die met een bevolking van **10.000 profielen** werken en gegevens verzenden naar een extern systeem ondersteunend **100 verzoeken/seconde**.
 
 1. U kunt het leespubliek definiëren om profielen te lezen met een doorvoer van 500 profielen per seconde. Dit betekent dat het 20 seconden duurt om al uw profielen te lezen. Op de tweede 1 lees je er 500, op de tweede 2 500, enzovoort.
 

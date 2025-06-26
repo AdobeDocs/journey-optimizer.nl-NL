@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 4%
+source-wordcount: '765'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="Journeys"
->abstract="Ontwerpen van klantritten om persoonlijke, contextuele ervaringen te bieden. Met Journey Optimizer kunt u in real-time gebruikmaken van het orkestgebruik en contextuele gegevens opslaan in gebeurtenissen of gegevensbronnen. Het **Overzicht** lusje toont een dashboard met zeer belangrijke metriek met betrekking tot uw reizen. Het **doorbladert** lusje toont de lijst van bestaande reizen."
+>abstract="Ontwerpen van klantritten om persoonlijke, contextuele ervaringen te bieden. Met Journey Optimizer kunt u gebruiksscenario&#39;s voor realtime orchestratie maken met contextuele gegevens die zijn opgeslagen in gebeurtenissen of gegevensbronnen. Het **Overzicht** lusje toont een dashboard met zeer belangrijke metriek met betrekking tot uw reizen. Het **doorbladert** lusje toont de lijst van bestaande reizen."
 
 Adobe Journey Optimizer bevat een omnichannel orchestration canvas dat marketers in staat stelt marketingactiviteiten te harmoniseren met een-op-een-klantenservice. Met de gebruikersinterface kunt u activiteiten van het palet naar het canvas slepen om uw reis te maken. Het interface van de reisgebruiker is gedetailleerd op [ deze pagina ](journey-ui.md).
 
@@ -38,19 +38,19 @@ De belangrijkste stappen om een reis tot stand te brengen zijn gedetailleerd op 
 ![ stappen van de reisverwezenlijking: creeer, ontwerp, test, en publiceer ](assets/journey-creation-process.png)
 
 
-Bouw multi-step klantenreizen een opeenvolging van interactie, aanbiedingen, en berichten over kanalen in echt in werking stellen - tijd. Deze benadering zorgt ervoor dat klanten op de optimale momenten worden betrokken die op hun acties en relevante bedrijfssignalen worden gebaseerd. Het doelpubliek kan worden gedefinieerd op basis van gedrag, contextuele gegevens en bedrijfsgebeurtenissen. De vereisten hangen van uw gebruiksgeval af, en het [ type van reis ](entry-management.md#types-of-journeys) u bouwt.
+Bouw uit meerdere stappen klantenreizen om een opeenvolging van interactie, aanbiedingen, en berichten over kanalen in real time in werking te stellen. Deze benadering zorgt ervoor dat klanten op de optimale momenten worden betrokken die op hun acties en relevante bedrijfssignalen worden gebaseerd. Het doelpubliek wordt gedefinieerd op basis van gedrag, contextuele gegevens en bedrijfsgebeurtenissen. De vereisten hangen van uw gebruiksgeval en het [ type van reis ](entry-management.md#types-of-journeys) af u bouwt.
 
-Voordat u begint met het bouwen van uw reis, controleert u of de relevante configuratiestappen zijn uitgevoerd:
+Voordat u begint met het bouwen van uw reis, dient u ervoor te zorgen dat de relevante configuratiestappen zijn voltooid:
 
-* Als u uw reizen wilt teweegbrengen tijdelijk wanneer een gebeurtenis wordt ontvangen, moet u **een gebeurtenis** vormen. U bepaalt de verwachte informatie en hoe te om het te verwerken. [Meer informatie](../event/about-events.md).
+* Als u uw reizen individueel wilt teweegbrengen wanneer een gebeurtenis wordt ontvangen, **vormt een gebeurtenis**. Definieer de verwachte informatie en hoe deze moet worden verwerkt. [Meer informatie](../event/about-events.md).
 
 <!--   ![](assets/jo-event7bis.png)  -->
 
-* Uw reis kan ook naar het publiek van Adobe Experience Platform luisteren om berichten in partij naar een gespecificeerde reeks profielen te verzenden. Voor dit, moet u **publiek** creëren. [Meer informatie](../audience/about-audiences.md).
+* Uw reis kan aan het publiek van Adobe Experience Platform ook luisteren om berichten in partijen naar een gespecificeerde reeks profielen te verzenden. Voor dit, **creeer publiek**. [Meer informatie](../audience/about-audiences.md).
 
 <!--   ![](assets/segment2.png)  -->
 
-* U kunt een verbinding met een systeem bepalen om extra informatie terug te winnen die in uw reizen, bijvoorbeeld in uw voorwaarden zal worden gebruikt. Deze verbinding baseert zich op a **gegevensbron**. [Meer informatie](../datasource/about-data-sources.md)
+* Definieer een verbinding met een systeem om aanvullende informatie op te halen die bijvoorbeeld in uw omstandigheden tijdens uw reizen wordt gebruikt. Deze verbinding baseert zich op a **gegevensbron**. [Meer informatie](../datasource/about-data-sources.md).
 
 <!--   ![](assets/jo-datasource.png)  -->
 
@@ -90,17 +90,17 @@ De omnichannel reisontwerper helpt u multi-step reizen met gericht publiek, upda
 
    ![](assets/read-segment.png)
 
-1. Sleep de volgende stappen die het individu zal volgen en zet ze neer. U kunt bijvoorbeeld een voorwaarde toevoegen, gevolgd door een kanaalactie. Meer over activiteiten leren, verwijs naar [ deze sectie ](about-journey-activities.md).
+1. Begin door een gebeurtenis of a **Gelezen activiteit van het publiek** van het palet in het canvas te slepen en te laten vallen. Meer over reisontwerp leren, verwijs naar [ deze sectie ](using-the-journey-designer.md).
 
 ## De reis testen {#jo-test}
 
-Nadat u uw reis hebt gemaakt, kunt u deze testen voordat u de site publiceert. Journey Optimizer biedt &quot;testmodus&quot; als een manier om testprofielen te bekijken terwijl ze op reis gaan en mogelijke fouten vóór activering op te sporen. Door snelle tests uit te voeren kunt u controleren of de reizen correct werken, zodat u ze met vertrouwen kunt publiceren.
+Als u uw reis hebt gemaakt, test u deze voordat u publiceert. Journey Optimizer biedt de wijze van de a **Test** als manier aan om testprofielen te bekijken aangezien zij zich langs de reis bewegen, die potentiële fouten vóór activering ontdekken. Door snelle tests uit te voeren, zorgt u ervoor dat de reizen correct werken, zodat u ze met vertrouwen kunt publiceren. Leer hoe te om uw reis [ in deze sectie ](testing-the-journey.md) te testen
 
-Leer meer in deze [ sectie ](testing-the-journey.md)
+U kunt uw reis in **Droog looppas** ook uitvoeren. Reis Dry run is een speciale publicatiemodus in Adobe Journey Optimizer die reisartsen in staat stelt een reis te testen met behulp van echte productiegegevens zonder contact op te nemen met echte klanten of profielinformatie bij te werken. Deze functie helpt reisartsen vertrouwen te winnen in hun reisontwerp en doelgroep voordat ze het live publiceren. Leer hoe te om een reis op Dry looppas wijze [ in deze sectie ](journey-dry-run.md) te publiceren.
 
 ## De reis publiceren {#jo-pub}
 
-U moet een reis publiceren om het te activeren en het ter beschikking te stellen voor nieuwe profielen om het in te gaan. Voordat u uw reis publiceert, controleert u of deze geldig is en of er geen fout optreedt. U kunt geen reis met fouten publiceren. Leer meer over de reispublicatie in deze [ sectie ](publishing-the-journey.md).
+U moet een reis publiceren om het te activeren en het ter beschikking te stellen voor nieuwe profielen om het in te gaan. Voordat u uw reis publiceert, controleert u of deze geldig is en of er geen fouten zijn. U kunt geen reis met fouten publiceren. Leer meer over reispublicatie in deze [ sectie ](publishing-the-journey.md).
 
 ![](assets/jo-journeyuc2_32bis.png)
 
@@ -112,4 +112,4 @@ Leer meer over reisrapporten in deze [ sectie ](../reports/live-report.md).
 
 >[!NOTE]
 >
->Als u aan a **levende** reis moet wijzigen, [ creeer een nieuwe versie ](journey-ui.md#journey-versions) van uw reis.
+>Als u a **levende** reis moet wijzigen, [ creeer een nieuwe versie ](journey-ui.md#journey-versions) van uw reis.
