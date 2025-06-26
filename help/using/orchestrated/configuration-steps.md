@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
+source-git-commit: 10333b4dab32abe87b1e8b4f3e4d7b1e72eafb50
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 4%
+source-wordcount: '978'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 | Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
 |---|---|---|---|
-| [ wordt begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)<br/><br/><b>[ stappen van de Configuratie ](configuration-steps.md)</b><br/><br/>[ Toegang en beheert georkestreerde camapens ](access-manage-orchestrated-campaigns.md) | [ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](gs-campaign-creation.md)<br/><br/>[ creëren en plannen de campagne ](create-orchestrated-campaign.md)<br/><br/>[ activiteiten van het Orchestrate ](orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](send-messages.md)<br/><br/>[ Begin en controleren de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uitdrukkingen ](edit-expressions.md) uit | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ combineert ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) - [ Fork ](activities/fork.md) opnieuw verzoening [&#128279;](activities/reconciliation.md) - [ Gesplitst ](activities/split.md) - [ wacht ](activities/wait.md) |
+| [ wordt begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)<br/><br/><b>[ stappen van de Configuratie ](configuration-steps.md)</b><br/><br/>[ Toegang en beheert georkestreerde camapens ](access-manage-orchestrated-campaigns.md) | [ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](gs-campaign-creation.md)<br/><br/>[ creëren en plannen de campagne ](create-orchestrated-campaign.md)<br/><br/>[ activiteiten van het Orchestrate ](orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](send-messages.md)<br/><br/>[ Begin en controleren de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uitdrukkingen ](edit-expressions.md) uit | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ combineert ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) - [ Fork ](activities/fork.md) opnieuw verzoening ](activities/reconciliation.md) - [ Gesplitst ](activities/split.md) - [ wacht ](activities/wait.md)[ |
 
 {style="table-layout:fixed"}
 
@@ -34,123 +34,164 @@ Documentatie in uitvoering
 
 >[!ENDSHADEBOX]
 
-<!--
+Deze gids begeleidt u door het proces om een relationeel schema tot stand te brengen, vormend een dataset voor georkestreerde campagnes, die gegevens via een S3 bron opnemen, en het vragen van de ingebedde gegevens in het AP platform.
 
-This guide walks you through the process of creating a relational schema, configuring a dataset for orchestrated campaigns, ingesting data via an S3 source, and querying the ingested data in the AP platform. Each step is explained in detail with emphasis on why it is important.
+In dit voorbeeld, omvat de opstelling het integreren van twee zeer belangrijke entiteiten, **Transacties van de Loyalty** en **Beloningen van de Loyalty**, en verbindt hen met bestaande kernentiteiten **Ontvangers** en **Merken**.
 
+1. [DDL-bestand uploaden](#upload-ddl)
 
-You have now:
+   Bepaal het relationele gegevensmodel voor georkestreerde campagnes, met inbegrip van de **Transacties van de Loyalty** en **Beloningen van de Loyalty** entiteiten, samen met vereiste sleutels en versioning attributen.
 
-- Created a relational schema
-- Configured a CDC-enabled dataset
-- Ingested data via S3
-- Scheduled and monitored a data flow
-- Queried the ingested data
+1. [Entiteiten selecteren](#entities)
 
-This setup is essential for running orchestrated AGO campaigns effectively and ensuring timely, accurate data synchronization.
+   Vestig betekenisvolle verhoudingen tussen lijsten in uw schema om een samenhangend en onderling verbonden gegevensmodel tot stand te brengen.
 
-## Create a relational schema / (-) Upload DDL file 
+1. [Koppelingsschema](#link-schema)
 
-1. Log in to the AP Platform.
+   Verbind de **entiteit van de Transacties van de Loyalty** {aan **Ontvangers**, en **Beloningen van de Loyalty** aan **Merken**, om een verbonden gegevensmodel te bouwen dat gepersonaliseerde klantenreizen steunt.
 
-1. Navigate to the **Data Management** > **Schema**.
+1. [Gegevens samenvoegen](#ingest)
 
-1. Click on **Create Schema**.
+   Breng gegevens van ondersteunde bronnen, zoals SFTP, cloudopslag of databases, naar Adobe Experience Platform.
 
-1. You will be prompted to select between two schema types:
+## DDL-bestand uploaden {#upload-ddl}
 
-    * **Standard**
-    * **Relational**, used specifically for orchestrated campaigns
+Deze sectie biedt stapsgewijze instructies voor het maken van een relationeel schema in Adobe Experience Platform door een DDL-bestand (Data Definition Language) te uploaden. Met behulp van een DDL-bestand kunt u vooraf de structuur van uw gegevensmodel definiëren, inclusief tabellen, kenmerken, sleutels en relaties.
 
-    ![](assets/admin_schema_1.png)
+1. Meld u aan bij het AP-platform.
 
-1. Select **Upload DDL file** to define an entity relationship diagram and create schemas.
+1. Navigeer aan het **Beheer van Gegevens** > **Schema**.
 
-    The table structure must contain:
-    * At least one primary key
-    * A version identifier, such as a `lastmodified` field of type `datetime` or `number`.
+1. Klik op **creeer Schema**.
 
-1. Drag and drop your DDL file and click **[!UICONTROL Next]**.
+1. U wordt gevraagd een keuze te maken uit twee schematypen:
 
-1. Set up each schema and its columns, ensuring that a primary key is specified. 
+   * **Standaard**
+   * **Relationeel**, die specifiek voor georkestreerde campagnes wordt gebruikt
 
-    One attribute, such as `lastmodified`, must be designated as a version descriptor. This attribute, typically of type `datetime`, `long`, or `int`, is essential for ingestion processes to ensure that the dataset is updated with the latest data version.
+   ![](assets/admin_schema_1.png)
 
-1. Type-in your **[!UICONTROL Schema name]** and click **[!UICONTROL Done]**.
+1. Selecteer **uploadt Ddl- dossier** om een diagram van de entiteitverhouding te bepalen en schema&#39;s tot stand te brengen.
 
-    ![](assets/admin_schema_2.png)
+   De tabelstructuur moet het volgende bevatten:
+   * Ten minste één primaire sleutel
+   * Een versie-id, zoals een `lastmodified` veld van het type `datetime` of `number` .
 
-Verify the table and field definitions within the canvas. [Learn more in the section below](#entities)
+1. Sleep en zet het DDL-bestand neer en klik op **[!UICONTROL Next]** .
 
-## Select entities {#entities}
+1. Typ uw **[!UICONTROL Schema name]** in.
 
-To create links between tables of your schema, follow these steps:
+1. Opstelling elk schema en zijn kolommen, die ervoor zorgen dat een primaire sleutel wordt gespecificeerd.
 
-1. Access the canvas view of your data model and choose the two tables you want to link
+   Eén kenmerk, zoals `lastmodified` , moet worden opgegeven als een versiedescriptor. Dit kenmerk, doorgaans van het type `datetime`, `long` of `int` , is essentieel voor innameprocessen om ervoor te zorgen dat de gegevensset wordt bijgewerkt met de meest recente gegevensversie.
 
-1. Click the ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) button next to the Source Join, then drag and guide the arrow towards the Target Join to establish the connection.
+   ![](assets/admin_schema_2.png)
 
-1. Fill in the given form to define the link and click **Apply** once configured.
+1. Klik **[!UICONTROL Done]** eenmaal gereed.
 
-    ![](assets/admin_schema_3.png)
+U kunt nu de tabel- en velddefinities op het canvas controleren. [ leer meer in de sectie hieronder ](#entities)
 
-    **Cardinality**:
+## Entiteiten selecteren {#entities}
 
-     * **1-N**: one occurrence of the source table can have several corresponding occurrences of the target table, but one occurrence of the target table can have at most one corresponding occurrence of the source table.
+Volg onderstaande stappen om logische verbindingen tussen tabellen in uw schema te definiëren.
 
-    * **N-1**: one occurrence of the target table can have several corresponding occurrences of the source table, but one occurrence of the source table can have at most one corresponding occurrence of the target table.
+1. Open de canvasweergave van uw gegevensmodel en kies de twee tabellen die u wilt koppelen
 
-    * **1-1**: one occurrence of the source table can have at most one corresponding occurrence of the target table.
+1. Klik op de knop ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) naast Source Join en sleep de pijl naar Target Join om de verbinding tot stand te brengen.
 
-1. All links defined in your data model are represented as arrows in the canvas view. Click on an arrow between two tables to view details, make edits, or remove the link as needed.
+   ![](assets/admin_schema_5.png)
 
-1. Use the toolbar to customize and adjust your canvas.
+1. Vul de bepaalde vorm in om de verbinding te bepalen en klik **toepassen** eens gevormd.
 
-    ![](assets/toolbar.png)
+   ![](assets/toolbar.png)
 
-    * **Zoom in**: Magnify the canvas to see details of your data model more clearly.
+   **Kardinaliteit**:
 
-    * **Zoom out**: Reduce the canvas size for a broader view of your data model.
+   * **1-n**: één voorkomen van de bronlijst kan verscheidene overeenkomstige voorkomen van de doellijst hebben, maar één voorkomen van de doellijst kan hoogstens één overeenkomstige voorkomen van de bronlijst hebben.
 
-    * **Fit view**: Adjust the zoom to fit all schemas within the visible area.
+   * **n-1**: één voorkomen van de doellijst kan verscheidene overeenkomstige voorkomen van de bronlijst hebben, maar één voorkomen van de bronlijst kan hoogstens één overeenkomstige voorkomen van de doellijst hebben.
 
-    * **Filter**: Choose which schema to display within the canvas.
+   * **1-1**: één voorkomen van de bronlijst kan hoogstens één overeenkomstige voorkomen van de doellijst hebben.
 
-    * **Force auto layout**: Automatically arrange schemas for better organization.
+1. Alle koppelingen die in het gegevensmodel zijn gedefinieerd, worden als pijlen weergegeven in de canvasweergave. Klik op een pijl tussen twee tabellen om details weer te geven, wijzigingen aan te brengen of de koppeling naar wens te verwijderen.
 
-    * **Display map**: Toggle a minimap overlay to help navigate large or complex schema layouts more easily.
+   ![](assets/admin_schema_6.png)
 
-1. Click **Save** once done. This action creates the schemas and associated data sets, and enables the data set for use in Orchestrated Campaigns.
+1. Gebruik de werkbalk om het canvas aan te passen en aan te passen.
 
-1. Click **[!UICONTROL Open Jobs]** to monitor the progress of the creation job. This process may take couple minutes, depending on the number of tables defined in the DDL file. 
+   ![](assets/toolbar.png)
 
-    ![](assets/admin_schema_4.png)
+   * **Gezoem binnen**: vergroot het canvas om details van uw gegevensmodel duidelijker te zien.
 
-Doc AEP: https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/tutorials/create-schema-ui
+   * **Gezoem uit**: Verminder de canvasgrootte voor een bredere mening van uw gegevensmodel.
 
-## Add data
+   * **Passende mening**: Pas het gezoem aan om alle schema&#39;s binnen het zichtbare gebied te passen.
 
-1. Set up
+   * **Filter**: Kies welk schema om binnen het canvas te tonen.
 
-1. Connect existing or new account
+   * **de auto lay-out van de Dwinging**: Orden automatisch schema&#39;s voor betere organisatie.
 
-1. Select dataset fields
+   * **Kaart van de Vertoning**: Ga een minikaartbekleding in-/uitschakelen helpen grote of complexe schemalay-outs gemakkelijker navigeren.
 
-1. Map desired source fields to target dataset fields
+1. Klik **sparen** eens gereed. Deze actie leidt tot de schema&#39;s en bijbehorende gegevensreeksen, en laat de gegevensreeks voor gebruik in Geordende Campagnes toe.
 
-1. 
+1. Klik op **[!UICONTROL Open Jobs]** om de voortgang van de ontwerptaak te volgen. Dit proces kan enkele minuten duren, afhankelijk van het aantal tabellen dat in het DDL-bestand is gedefinieerd.
 
-## Set up sources
+   ![](assets/admin_schema_4.png)
 
-Adobe Experience Platform allows data to be ingested from external sources while providing you with the ability to structure, label, and enhance incoming data using Experience Platform services. You can ingest data from a variety of sources such as Adobe applications, cloud-based storages, databases, and many others.
+## Koppelingsschema {#link-schema}
 
-6 sources compatible avec data relationel, tout ce qui est fichier (data storage), SFTP, azure blob, amazon S3, database cloud snowflake, 
+Vestig een verband tussen het **schema van de 0} loyaliteitstransacties {en het** Ontvangers **schema om elke transactie met het correcte klantenverslag te associëren.**
 
+1. Navigeer aan **[!UICONTROL Schemas]** en open eerder **loyaliteitstransacties** creëren.
 
-![](assets/admin_sources_1.png)
+1. Klik op **[!UICONTROL Add Relationship]** van de klant **[!UICONTROL Field properties]** .
 
-https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload
+   ![](assets/schema_1.png)
 
+1. Selecteer **[!UICONTROL Many-to-One]** als de relatie **[!UICONTROL Type]** .
+
+1. Verbinding met het bestaande **Ontvangers** schema.
+
+   ![](assets/schema_2.png)
+
+1. Voer een **[!UICONTROL Relationship name from current schema]** en **[!UICONTROL Relationship name from reference schema]** in.
+
+1. Klik op **[!UICONTROL Apply]** om de wijzigingen op te slaan.
+
+Ga door een verband tussen het **loyaliteitbeloningen** schema en het **Merken** schema te creëren om elke beloningsingang met het aangewezen merk te associëren.
+
+![](assets/schema_3.png)
+
+## Samenvattingsgegevens {#ingest}
+
+Adobe Experience Platform staat toe dat gegevens uit externe bronnen worden opgenomen en biedt u de mogelijkheid om inkomende gegevens te structureren, labelen en verbeteren met behulp van Experience Platform-services. U kunt gegevens invoeren uit verschillende bronnen, zoals Adobe-toepassingen, opslag in de cloud, databases en vele andere.
+
+1. Via het menu **[!UICONTROL Connections]** opent u het menu **[!UICONTROL Sources]** .
+
+1. Selecteer de categorie **[!UICONTROL Cloud storage]** , vervolgens Amazon S3 en klik op **[!UICONTROL Add Data]** .
+
+   ![](assets/admin_sources_1.png)
+
+1. Sluit uw S3-account aan:
+
+   * Met een bestaande account
+
+   * Met een nieuwe account
+
+   [ leer meer in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+
+   ![](assets/admin_sources_2.png)
+
+1. Navigeer door de verbonden S3 bron tot u van de twee die omslagen de plaats bepalen vroeger worden gecreeerd d.w.z. **loyaliteitbeloningen** en **loyaliteitstransacties**.
+
+1. Klik op uw map.
+
+   Als u een map selecteert, worden alle huidige en toekomstige bestanden met dezelfde structuur automatisch verwerkt. Als u een bestand selecteert, moet u de bestanden handmatig bijwerken voor elke nieuwe gegevensverhoging.
+
+   ![](assets/s3_config_1.png)
+
+1. Kies de gegevensindeling en klik op Volgende.
 
 <!--manual
 ## Create a relational schema manual
