@@ -93,7 +93,7 @@ Om uw inhoudsmalplaatjes gemakkelijk te navigeren, gebruik omslagen om hen effec
 >
 >Wanneer een sjabloon wordt bewerkt of verwijderd, hebben campagnes of reizen met inbegrip van inhoud die met deze sjabloon is gemaakt, geen invloed op deze sjabloon.
 
-## [!BADGE  Beperkte malplaatjes van de Vertoning van de Beschikbaarheid ]{type=Informative} als duimnagels {#template-thumbnails}
+## [!BADGE &#x200B; Beperkte malplaatjes van de Vertoning van de Beschikbaarheid &#x200B;]{type=Informative} als duimnagels {#template-thumbnails}
 
 Selecteer de modus **[!UICONTROL Grid view]** om elke sjabloon als een miniatuur weer te geven.
 
