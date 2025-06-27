@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: gebruiksgeval, meerkanaals, reis, gebeurtenissen
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: a94d579086f8ab78e611b15d993bb8f12673ea36
+source-git-commit: 06d25d9344588d668304bbf5d6d3c2e7cd6659ef
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 1%
@@ -29,7 +29,7 @@ Gebruik deze bibliotheek als referentiepunt bij het ontwerpen van reizen, het mo
   <td>
     <div>
     <a href="exp-event-lookup.md">
-    <img alt="ervaringsgebeurtenissen opzoeken aanbevolen werkwijzen" src="../assets/do-not-localize/icon-configure.svg" /></a> 
+    <img alt="ervaringsgebeurtenissen opzoeken aanbevolen werkwijzen" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
     <br> leer gemeenschappelijke patronen en scalable benaderingen om u te helpen de meesten van de Gebeurtenissen van de Ervaring in Adobe Journey Optimizer maken. Deze gebruiksgevallen zijn ontworpen om u te helpen veelvoorkomende uitdagingen op te lossen, zoals het beheren van opt-outs, het controleren van berichtfrequentie, het personaliseren van inhoud die op gebruikersgedrag wordt gebaseerd, en het reageren op signalen in real time.
     </div>
       <div>
@@ -92,7 +92,7 @@ Gebruik deze bibliotheek als referentiepunt bij het ontwerpen van reizen, het mo
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="collections.md">
-<img alt="Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen" src="../assets/do-not-localize/icon-quick-start.svg">
+<img alt="Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen" src="../assets/do-not-localize/icon-configure.svg">
 </a>
 <div>
 <a href="collections.md"><strong> geef inzamelingen dynamisch met douaneacties </strong></a> over
