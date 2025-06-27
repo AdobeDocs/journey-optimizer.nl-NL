@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 445194fcc08efacdbf5f97a425d01229f82d11ea
+source-git-commit: 3eeb84e57af655bef669be8e9fc9ae7a024b1ab0
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 | Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
 |---|---|---|---|
-| [ krijgen begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](configuration-steps.md)<br/><br/>[ Toegang en beheert georkestreerde campagnes ](access-manage-orchestrated-campaigns.md) | [ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](gs-campaign-creation.md)<br/><br/><b>[ creëren en plannen de campagne ](create-orchestrated-campaign.md)</b><br/><br/>[ activiteiten van het Orchestrate ](orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](send-messages.md)<br/><br/>[ Begin en controleren de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uitdrukkingen ](edit-expressions.md) uit | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ combineert ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) - [ Fork ](activities/fork.md) opnieuw verzoening [&#128279;](activities/reconciliation.md) - [ Gesplitst ](activities/split.md) - [ wacht ](activities/wait.md) |
+| [ krijgen begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](configuration-steps.md)<br/><br/>[ Toegang en beheert georkestreerde campagnes ](access-manage-orchestrated-campaigns.md) | [ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](gs-campaign-creation.md)<br/><br/><b>[ creëren en plannen de campagne ](create-orchestrated-campaign.md)</b><br/><br/>[ activiteiten van het Orchestrate ](orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](send-messages.md)<br/><br/>[ Begin en controleren de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uitdrukkingen ](edit-expressions.md) uit | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ combineert ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) - [ Fork ](activities/fork.md) opnieuw verzoening ](activities/reconciliation.md) - [ Gesplitst ](activities/split.md) - [ wacht ](activities/wait.md)[ |
 
 {style="table-layout:fixed"}
 
@@ -50,7 +50,7 @@ Voer de volgende stappen uit om een georkestreerde campagne te maken:
 
 1. Klik op **[!UICONTROL Create]**.
 
-Uw georkestreerde campagne wordt nu gemaakt en wordt weergegeven in de lijst met georkestreerde campagnes. U kunt deze eigenschappen op elk ogenblik veranderen door het ![ pictogram van de montages van de Campagne ](assets/do-not-localize/campaign-settings.svg) in het campagnecanvas te klikken.
+Uw georkestreerde campagne wordt nu gemaakt en wordt weergegeven in de lijst met georkestreerde campagnes. U kunt deze eigenschappen op elk ogenblik bijwerken door het ![ pictogram van de montages van de Campagne ](assets/do-not-localize/campaign-settings.svg) in het campagnecanvas te klikken.
 
 ## De campagne plannen {#schedule}
 
@@ -92,7 +92,7 @@ Voer de volgende stappen uit om het campagnereschema te configureren:
    * **[!UICONTROL Date]**: selecteer de datum waarop de campagne moet worden uitgevoerd.
    * **[!UICONTROL Time]**: selecteer het specifieke tijdstip waarop de campagne moet worden uitgevoerd.
 
-   +++
++++
 
    +++Dagelijks
 
@@ -106,7 +106,7 @@ Voer de volgende stappen uit om het campagnereschema te configureren:
 
    * **[!UICONTROL Start time]**: bepaal de tijd de campagne elke dag zou moeten uitvoeren.
 
-   +++
++++
 
    +++meerdere keren per dag
 
@@ -115,7 +115,7 @@ Voer de volgende stappen uit om het campagnereschema te configureren:
    * **[!UICONTROL Selected hours]**: Selecteer de specifieke tijden de campagne zou moeten lopen en zijn dagelijkse herhaling (voer elke dag van de week of op bepaalde dagen uit) vormen.
    * **[!UICONTROL Periodic]**: kies om de campagne elke n minuten of uren uit te voeren. U kunt ook het tijdbereik definiëren binnen de dag waarop uitvoeringen zijn toegestaan.
 
-   +++
++++
 
    +++wekelijks
 
@@ -126,7 +126,7 @@ Voer de volgende stappen uit om het campagnereschema te configureren:
    * **[!UICONTROL Daily recurrence]**: kies specifieke dagen van de week voor uitvoering (bijvoorbeeld elke maandag en donderdag).
    * **[!UICONTROL Start time]**: stel de tijd in waarop de campagne op de geselecteerde dagen moet worden uitgevoerd.
 
-   +++
++++
 
    +++Maandelijks
 
@@ -142,7 +142,7 @@ Voer de volgende stappen uit om het campagnereschema te configureren:
 
    * **[!UICONTROL Start time]**: stel de tijd in waarop de campagne moet worden uitgevoerd.
 
-   +++
++++
 
 1. Gebruik de instelling **[!UICONTROL Validity period]** om een specifieke begin- en einddatum te definiëren, waarbij de uitvoering van de campagne wordt beperkt tot een beperkt tijdvenster.
 
