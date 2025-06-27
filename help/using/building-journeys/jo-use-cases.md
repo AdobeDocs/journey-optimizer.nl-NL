@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: gebruiksgeval, meerkanaals, reis, gebeurtenissen
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: 938f0b0247cc4b9d3e05a234082db534acbbbac5
+source-git-commit: f1d96aa3fb74c9aedefa026fc65a4dcc8a2b4109
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 1%
@@ -29,7 +29,7 @@ Gebruik deze bibliotheek als referentiepunt bij het ontwerpen van reizen, het mo
   <td>
     <div>
     <a href="exp-event-lookup.md">
-    <img alt="ervaringsgebeurtenissen opzoeken aanbevolen werkwijzen" src="../assets/do-not-localize/icon-content.svg" /></a> 
+    <img alt="ervaringsgebeurtenissen opzoeken aanbevolen werkwijzen" src="../assets/do-not-localize/icon_profile-audience.svg" /></a> 
     <br> leer gemeenschappelijke patronen en scalable benaderingen om u te helpen de meesten van de Gebeurtenissen van de Ervaring in Adobe Journey Optimizer maken. Deze gebruiksgevallen zijn ontworpen om u te helpen veelvoorkomende uitdagingen op te lossen, zoals het beheren van opt-outs, het controleren van berichtfrequentie, het personaliseren van inhoud die op gebruikersgedrag wordt gebaseerd, en het reageren op signalen in real time.
     </div>
       <div>
