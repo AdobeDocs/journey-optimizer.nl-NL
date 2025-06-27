@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: gebruiksgeval, meerkanaals, reis, gebeurtenissen
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: 4a14c76aeceba624cd252890e37ccf3e42049597
+source-git-commit: 0a96368f2aefa1ffa6e12d08d679b2d360701127
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 1%
@@ -47,7 +47,7 @@ Gebruik deze bibliotheek als referentiepunt bij het ontwerpen van reizen, het mo
   <td>
     <div>
     <a href="../data/datasets-query-examples.md">
-    <img alt="queryvoorbeelden" src="../assets/do-not-localize/icon-data.svg" width="35px" /></a> 
+    <img alt="queryvoorbeelden" src="../assets/do-not-localize/icon-data.svg"/></a> 
     <br> om uw gebruiksgevallen te bouwen, moet u de datasets van Adobe Journey Optimizer, zoals systeemdatasets vragen voor het opnemen van het volgen ervaringsgebeurtenissen, de dataset voor het opnemen van step gebeurtenissen in een reis, de dataset voor het opnemen van aanbiedingsvoorstellen aan de gebruikers, en meer.
     </div>
       <div>
