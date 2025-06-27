@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: a9dc2998097c45bd6235af3f5c08bc7077dc3f2f
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 19%
+source-wordcount: '285'
+ht-degree: 20%
 
 ---
 
@@ -31,12 +31,12 @@ Momenteel biedt [!DNL Journey Optimizer] de twee hieronder beschreven kernoploss
 
 Ons besluitvormingskader van de volgende generatie, ontworpen om bestaande Journey Optimizer-workflows te verenigen en de basis te leggen voor het beheer van extra inhoudscatalogi. Beslissingsvoorstellen:
 
-* Beheer van op schema gebaseerde itemcatalogus: vergroot de flexibiliteit door aangepaste metagegevens aan elke aanbieding te koppelen.
-* Flexibele inzamelingsregels: Eenvoudig groepsaanbiedingen voor toekomstige evaluatie op basis van verschillende criteria.
-* Bijgewerkte configuratie van besluitvormingsbeleid en selectiestrategie: Herbruikbaarheid van besluitvormingscomponenten toestaan.
-* Experimentatiemogelijkheden: test beslissingslogica ten opzichte van andere inhoudcomponenten om de prestaties te meten.
+* Beheer van op schema gebaseerde itemcatalogus: vergroot de flexibiliteit door aangepaste metagegevens aan elke aanbieding te koppelen
+* Flexibele inzamelingsregels: Eenvoudig groepsaanbiedingen voor toekomstige evaluatie op basis van verschillende criteria
+* Bijgewerkt besluitvormingsbeleid en configuratie van de selectiestrategie: Herbruikbaarheid van besluitvormingscomponenten toestaan
+* Experimentatiemogelijkheden: test beslissingslogica ten opzichte van andere inhoudcomponenten om de prestaties te meten
 
-Vooralsnog wordt Experience Decisioning ondersteund in het codereperingskanaal.
+Het Beslissen van de ervaring wordt gesteund in het code-Gebaseerde kanaal van de Ervaring.
 
 ➡️ [ worden begonnen met Beslissing ](../experience-decisioning/gs-experience-decisioning.md)
 

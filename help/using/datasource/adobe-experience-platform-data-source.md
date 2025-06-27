@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: ingebouwd, bron, gegevens, platform, integratie
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: f5ea4455fc0a8ed9e2819a260a8691fc1237844c
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '403'
 ht-degree: 8%
 
 ---
@@ -21,17 +21,19 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_built_in"
 >title="Adobe Experience Platform-databron"
->abstract="Adobe Experience Platform-gegevensbron definieert de verbinding met Adobe Real-time klantprofiel. Deze gegevensbron is ingebouwd en vooraf geconfigureerd en kan niet worden verwijderd. Het is ontworpen om gegevens van de Real-time Dienst van het Profiel van de Klant terug te winnen en te gebruiken (bijvoorbeeld, controleer of de persoon die een reis inging een vrouwelijk is). Hiermee kunt u de gegevens van het profiel en de gegevens van Experience Events gebruiken."
+>abstract="Adobe Experience Platform-gegevensbron definieert de verbinding met Adobe Real-time klantprofiel. Deze gegevensbron is ingebouwd en vooraf geconfigureerd en kan niet worden verwijderd. Het is ontworpen om gegevens van de Real-time Dienst van het Profiel van de Klant terug te winnen en te gebruiken (bijvoorbeeld, controleer of de persoon die een reis inging een vrouwelijk is). Hiermee kunt u profielgegevens gebruiken."
 
-Adobe Experience Platform-gegevensbron definieert de verbinding met Adobe Real-time klantprofiel. Deze gegevensbron is ingebouwd en vooraf geconfigureerd en kan niet worden verwijderd. Deze gegevensbron is ontworpen om gegevens van de Real-time Dienst van het Profiel van de Klant terug te winnen en te gebruiken (bijvoorbeeld, controleer of de persoon die een reis inging een vrouwelijk is). Hiermee kunt u de gegevens van het profiel en de gegevens van Experience Events gebruiken. Voor meer informatie over het Profiel van de Klant in real time van Adobe, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}.
+Adobe Experience Platform-gegevensbron definieert de verbinding met Adobe Real-time klantprofiel. Deze gegevensbron is ingebouwd en vooraf geconfigureerd en kan niet worden verwijderd. Deze gegevensbron is ontworpen om gegevens van de Real-time Dienst van het Profiel van de Klant terug te winnen en te gebruiken (bijvoorbeeld, controleer of de persoon die een reis inging een vrouwelijk is). Hiermee kunt u profielgegevens gebruiken. Voor meer informatie over het Profiel van de Klant in real time van Adobe, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}.
 
 Om de verbinding aan de Dienst van het Profiel van de Klant in real time toe te staan, moeten wij een sleutel gebruiken om een persoon, en een namespace te identificeren die contextualizes de sleutel. Hierdoor kunt u deze gegevensbron alleen gebruiken als uw reizen beginnen met een gebeurtenis die een sleutel en een naamruimte bevat. [Meer informatie](../building-journeys/journey.md).
 
 U kunt de vooraf geconfigureerde veldgroep met de naam &quot;ProfileFieldGroup&quot; bewerken, nieuwe veldgroepen toevoegen en de groepen verwijderen die niet worden gebruikt in concepten of livedagen. [Meer informatie](../datasource/configure-data-sources.md#define-field-groups).
 
->[!NOTE]
+
+>[!CAUTION]
 >
->U kunt de 1000 meest recente ervaringsgebeurtenissen ophalen die minder dan een jaar geleden zijn gemaakt.
+>Het gebruik van ervaringsgebeurtenissen in reisexpressies/omstandigheden wordt niet ondersteund. Als uw gebruikscase het gebruik van ervaringsgebeurtenissen vereist, overweeg alternatieve methodes. [Meer informatie](../building-journeys/exp-event-lookup.md)
+
 
 De belangrijkste stappen om gebiedsgroepen aan de ingebouwde gegevensbron toe te voegen zijn hieronder gedetailleerd:
 
@@ -45,7 +47,7 @@ De belangrijkste stappen om gebiedsgroepen aan de ingebouwde gegevensbron toe te
 
    ![](assets/journey24.png)
 
-1. Selecteer een schema in de vervolgkeuzelijst **[!UICONTROL Schema]** . Dit gebied maakt een lijst **van de Gebeurtenissen van het Profiel** en **Ervaring** schema&#39;s beschikbaar in Adobe Experience Platform. Het maken van schema&#39;s wordt uitgevoerd in Adobe Experience Platform en niet in Adobe Journey Optimizer.
+1. Selecteer een schema in de vervolgkeuzelijst **[!UICONTROL Schema]** . Het maken van schema&#39;s wordt uitgevoerd in Adobe Experience Platform en niet in Adobe Journey Optimizer.
 1. Selecteer de velden die u wilt gebruiken en sla uw wijzigingen op.
 
 

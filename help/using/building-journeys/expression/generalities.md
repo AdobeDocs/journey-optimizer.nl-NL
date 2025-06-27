@@ -8,16 +8,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: syntaxis, redacteur, reis
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
 
 # Syntaxis van geavanceerde expressie-editor {#syntax}
 
-De grondbeginselen van de syntaxis wanneer het gebruiken van de [ Geavanceerde uitdrukkingsredacteur ](expressionadvanced.md) zijn hieronder vermeld. De steekproeven van gebruik van de geavanceerde uitdrukkingsredacteur zijn beschikbaar op [ deze pagina ](advanced-editor-use-cases.md).
+De grondbeginselen van de syntaxis wanneer het gebruiken van de [ Geavanceerde uitdrukkingsredacteur ](expressionadvanced.md) zijn hieronder vermeld. <!-- Samples of use of the advanced expression editor are available on [this page](advanced-editor-use-cases.md).-->
 
 ## Haakjes en prioriteit van expressie {#parentheses-and-expression-priority}
 

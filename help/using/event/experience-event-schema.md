@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: schema's, XDM, platform, streaming, opname, reis
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d79e42cd42fa8342526e02116f65a8e53449fad5
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,13 @@ ht-degree: 0%
 [!DNL Journey Optimizer] -gebeurtenissen zijn XDM Experience Events die via Streaming Ingestie naar Adobe Experience Platform worden verzonden.
 
 Daarom is een belangrijke voorwaarde voor het instellen van gebeurtenissen voor [!DNL Journey Optimizer] dat u bekend bent met het Adobe Experience Platform Experience Data Model (of XDM) en hoe u XDM Experience Event-schema&#39;s kunt samenstellen en hoe u XDM-gegevens kunt streamen naar Adobe Experience Platform.
+
+
+>[!CAUTION]
+>
+>Opzoekingen naar ervaringsgebeurtenissen in reisomstandigheden worden niet meer ondersteund. Zoek hier naar alternatieve best practices. Neem contact op met uw Adobe-vertegenwoordiger als u een kwestie hebt die aanleiding geeft tot het gebruik van een gebeurtenis en die nog steeds zoekopdrachten voor Experience Events nodig heeft en die niet door de vermelde alternatieven kan worden ondersteund. Wij helpen u bij het bereiken van uw doel.
+>
+>De toegang tot de context vanaf het begin van een reis wordt niet beïnvloed.
 
 ## Schemavereisten voor [!DNL Journey Optimizer] gebeurtenissen  {#schema-requirements}
 
@@ -42,7 +49,7 @@ Elk XDM-schema dat voor [!DNL Journey Optimizer] -gebeurtenissen wordt gebruikt,
 
   ![](assets/schema4.png)
 
-* Als u deze gegevens voor raadpleging later in een Reis beschikbaar zou willen zijn, merk het schema en de dataset voor profiel.
+* Als u deze gegevens voor profiel beschikbaar wilt hebben, merk het schema en de dataset voor profiel. [Meer informatie](../data/lookup-aep-data.md)
 
   ![](assets/schema5.png)
 
@@ -54,81 +61,83 @@ Elk XDM-schema dat voor [!DNL Journey Optimizer] -gebeurtenissen wordt gebruikt,
 
   ![](assets/schema8.png)
 
-## Schema-relaties benutten{#leverage_schema_relationships}
+<!--
+## Leverage schema relationships{#leverage_schema_relationships}
 
-Adobe Experience Platform staat u toe om verhoudingen tussen schema&#39;s te bepalen om één dataset als raadplegingslijst voor een andere te gebruiken.
+Adobe Experience Platform allows you to define relationships between schemas in order to use one dataset as a lookup table for another. 
 
-Laten we zeggen dat uw model met merkgegevens een schema heeft voor het vastleggen van aankopen. U hebt ook een schema voor de productcatalogus. U kunt de product-id vastleggen in het aankoopschema en een relatie gebruiken om de volledige productdetails uit de productcatalogus op te zoeken. Hierdoor kunt u een publiek maken voor alle klanten die bijvoorbeeld een laptop hebben gekocht, zonder dat u expliciet alle laptop-id&#39;s hoeft op te geven of alle productdetails in transactiesystemen hoeft vast te leggen.
+Let's say your brand data model has a schema capturing purchases. You also have a schema for the product catalog. You can capture the product ID in the purchase schema and use a relationship to look up more complete product details from the product catalog. This allows you to create an audience for all customers who bought a laptop, for example, without having to explicitly list out all laptop IDs or capture every single product details in transactional systems.
 
-Als u een relatie wilt definiëren, moet u een speciaal veld in het bronschema hebben, in dit geval het veld product-id in het aankoopschema. Dit gebied moet het gebied van productID in het bestemmingsschema van verwijzingen voorzien. De bron en bestemmingstabellen moeten voor profielen worden toegelaten en het bestemmingsschema moet dat gemeenschappelijke gebied hebben dat als zijn primaire identiteit wordt bepaald.
+To define a relationship, you need to have a dedicated field in the source schema, in this case the product ID field in the purchase schema. This field needs to reference the product ID field in the destination schema. The source and destination tables must be enabled for profiles and the destination schema must have that common field defined as its primary identity. 
 
-Hier volgt het productcatalogusschema dat is ingeschakeld voor profiel met de product-id die is gedefinieerd als de primaire identiteit.
+Here is the product catalog schema enabled for profile with the product ID defined as the primary identity. 
 
 ![](assets/schema9.png)
 
-Hier volgt het aankoopschema met de relatie die is gedefinieerd in het veld product-id.
+Here is the purchase schema with the relationship defined on the product ID field.
 
 ![](assets/schema10.png)
 
 >[!NOTE]
 >
->Leer meer over schemaverhoudingen in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=nl-NL).
+>Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
 
-In Journey Optimizer kunt u vervolgens alle velden uit de gekoppelde tabellen benutten:
+In Journey Optimizer, you can then leverage all the fields from the linked tables:
 
-* wanneer het vormen van een zaken of eenheidsgebeurtenis, [ las meer ](../event/experience-event-schema.md#unitary_event_configuration)
-* wanneer het gebruiken van voorwaarden in een reis, [ las meer ](../event/experience-event-schema.md#journey_conditions_using_event_context)
-* in berichtverpersoonlijking, [ las meer ](../event/experience-event-schema.md#message_personalization)
-* in de verpersoonlijking van de douaneactie, [ las meer ](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+* when configuring a business or unitary event, [Read more](../event/experience-event-schema.md#unitary_event_configuration) 
+* when using conditions in a journey, [Read more](../event/experience-event-schema.md#journey_conditions_using_event_context) 
+* in message personalization, [Read more](../event/experience-event-schema.md#message_personalization) 
+* in custom action personalization, [Read more](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context) 
 
 ### Arrays{#relationships_limitations}
 
-U kunt een schemaverhouding op een serie van koorden, bijvoorbeeld, een lijst van product IDs bepalen.
+You can define a schema relationship on an array of strings, for example, a list of product IDs.
 
 ![](assets/schema15.png)
 
-U kunt ook een schema-relatie definiëren met een kenmerk binnen een array van objecten, bijvoorbeeld een lijst met aankoopgegevens (product-id, productnaam, prijs, korting). De opgezochte waarden zullen in reizen (voorwaarden, douaneacties, enz.) en berichtverpersoonlijking beschikbaar zijn.
+You can also define a schema relationship with an attribute inside of an array of objects, for example a list of purchase information (product ID, product name, price, discount). The lookup values will be available in journeys (conditions, custom actions, etc.) and message personalization. 
 
 ![](assets/schema16.png)
 
-### Gebeurtenisconfiguratie{#unitary_event_configuration}
+### Event configuration{#unitary_event_configuration}
 
-De gekoppelde schemavelden zijn beschikbaar in de configuratie van een eenheidsgebeurtenis en bedrijfsgebeurtenis:
+The linked schema fields are available in unitary and business event configuration:
 
-* wanneer het doorbladeren door de gebieden van het gebeurtenisschema in het scherm van de gebeurtenisconfiguratie.
-* wanneer het bepalen van een voorwaarde voor systeem-geproduceerde gebeurtenissen.
+* when browsing through the event schema fields in the event configuration screen.
+* when defining a condition for system-generated events.
 
 ![](assets/schema11.png)
 
-De gekoppelde velden zijn niet beschikbaar:
+The linked fields are not available:
 
-* in de sleutelformule voor gebeurtenissen
-* in event id condition (op regel gebaseerde gebeurtenissen)
+* in the event key formula
+* in event id condition (rule-based events)
 
-Leren hoe te om een eenheidsgebeurtenis te vormen, verwijs naar deze [ pagina ](../event/about-creating.md).
+To learn how to configure a unitary event, refer to this [page](../event/about-creating.md).
 
-### Reisomstandigheden met gebeurteniscontext{#journey_conditions_using_event_context}
+### Journey conditions using event context{#journey_conditions_using_event_context}
 
-U kunt gegevens van een raadplegingslijst gebruiken verbonden met een gebeurtenis die in een reis voor voorwaardenbouw (uitdrukkingsredacteur) wordt gebruikt.
+You can use data from a lookup table linked to an event used in a journey for condition building (expression editor).
 
-Voeg een voorwaarde toe in een reis, geef de uitdrukking uit en ontvouw de gebeurtenisknoop in de uitdrukkingsredacteur.
+Add a condition in a journey, edit the expression and unfold the event node in the expression editor. 
 
 ![](assets/schema12.png)
 
-Leren hoe te om reisvoorwaarden te bepalen, verwijs naar deze [ pagina ](../building-journeys/condition-activity.md).
+To learn how to define journey conditions, refer to this [page](../building-journeys/condition-activity.md).
 
-### Berichtenpersonalisatie{#message_personalization}
+### Message personalization{#message_personalization}
 
-De gekoppelde velden zijn beschikbaar wanneer u een bericht personaliseert. De verwante gebieden worden getoond in de context die van de reis tot het bericht wordt overgegaan.
+The linked fields are available when personalizing a message. The related fields are displayed in the context passed from the journey to the message.
 
 ![](assets/schema14.png)
 
-Leren hoe te om een bericht met contextuele reisinformatie te personaliseren, verwijs naar deze [ pagina ](../personalization/personalization-use-case.md).
+To learn how to personalize a message with contextual journey information, refer to this [page](../personalization/personalization-use-case.md).
 
-### Aangepaste actie-personalisatie met context van reisgebeurtenis{#custom_action_personalization_with_journey_event_context}
+### Custom action personalization with journey event context{#custom_action_personalization_with_journey_event_context}
 
-De verbonden gebieden zijn beschikbaar wanneer het vormen van de actieparameters van een actie van de reisdouane.
+The linked fields are available when configuring the action parameters of a journey custom action activity. 
 
 ![](assets/schema13.png)
 
-Leren hoe te om douaneacties te gebruiken, verwijs naar deze [ pagina ](../building-journeys/using-custom-actions.md).
+To learn how to use custom actions, refer to this [page](../building-journeys/using-custom-actions.md).
+-->

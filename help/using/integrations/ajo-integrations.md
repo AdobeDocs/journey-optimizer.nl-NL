@@ -7,9 +7,9 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '955'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Met Adobe Journey Optimizer kunt u deze gegevens eenvoudig beheren, behouden en 
 
 >[!NOTE]
 >
-> Voortgebouwd op Adobe Experience Platform, wordt Adobe Journey Optimizer native verbonden met [ Adobe Real-time het Profiel van de Klant ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}. Deze ingebouwde gegevensbron is vooraf geconfigureerd en is ontworpen om gegevens op te halen en te gebruiken uit het Real-time profiel van de Klant (bijvoorbeeld, controleer of de persoon die een reis is aangegaan een klant is of niet). Hiermee kunt u de gegevens van het profiel en de gegevens van Experience Events gebruiken. [Meer informatie](../datasource/adobe-experience-platform-data-source.md).
+> Voortgebouwd op Adobe Experience Platform, wordt Adobe Journey Optimizer native verbonden met [ Adobe Real-time het Profiel van de Klant ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}. Deze ingebouwde gegevensbron is vooraf geconfigureerd en is ontworpen om gegevens op te halen en te gebruiken uit het Real-time profiel van de Klant (bijvoorbeeld, controleer of de persoon die een reis is aangegaan een klant is of niet). Hiermee kunt u profielgegevens gebruiken. [Meer informatie](../datasource/adobe-experience-platform-data-source.md).
 
 
 ## Adobe Customer Journey Analytics {#integration-cja}
@@ -123,7 +123,7 @@ Met de Adobe Journey Optimizer-modules in Adobe Workfront kunt u records maken, 
 
 Een overzicht van de belangrijkste stap van deze integratie is beschikbaar [ in dit blogbericht ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
 
-Leer meer over Journey Optimizer + Adobe Workfront [ in de documentatie van Adobe Workfront ](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=nl-NL){target="_blank"}.
+Leer meer over Journey Optimizer + Adobe Workfront [ in de documentatie van Adobe Workfront ](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html){target="_blank"}.
 
 ## Aangepaste kanalen {#integration-custom}
 
