@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: query, collecties, functies, lading, reis
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: ca2e30ddb5e80783b57b9f3e0d07ff8d0bc0bbdb
+source-git-commit: 8e020f79e0f44e6fc804fcceb149146f9644c777
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '472'
 ht-degree: 1%
 
 ---
@@ -148,15 +148,6 @@ Deze expressie retourneert het laatste pushmeldingtoken dat is gekoppeld aan mob
 ```
 
 Het resultaat is `token_2` .
-
->[!NOTE]
->
->De ervaringsgebeurtenissen worden uit Adobe Experience Platform opgehaald als een verzameling in omgekeerde chronologische volgorde, vandaar:
->
->* De functie **[!UICONTROL first]** retourneert de meest recente gebeurtenis
->* **[!UICONTROL last]** functie retourneert de oudste functie.
-
-
 
 ## De functie at(`<index>`)
 
