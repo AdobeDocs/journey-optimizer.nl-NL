@@ -6,9 +6,9 @@ description: Leer hoe te met  [!DNL Adobe Journey Optimizer]  communicatiekanale
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: f365a5819575990b92ca589557d37c3f274bd4d7
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -41,16 +41,16 @@ Selecteer een kanaal om dieper te duiken en te ontdekken hoe u deze effectief ku
 <div align="center"><a href="../direct-mail/get-started-direct-mail.md"><strong>Direct mail</strong></a></div></td>
 </tr></table>
 
-## Binnenkomende ervaringen {#inbound-channels}
+## Mobiele apps en internet {#inbound-channels}
 
-Met binnenkomende ervaringen, klanten om interactie in werking te stellen. Voorbeelden zijn berichtgeving in de app en ervaringen op het web, waarbij gebruikers op eigen voorwaarden met inhoud kunnen werken. In [!DNL Adobe Journey Optimizer] zijn de ondersteunde binnenkomende kanalen:
+Met Mobiele App en Web binnenkomende ervaringen, beginnen de klanten interactie. Voorbeelden zijn berichtgeving in de app en ervaringen op het web, waarbij gebruikers op eigen voorwaarden met inhoud werken. In [!DNL Adobe Journey Optimizer] zijn de ondersteunde binnenkomende kanalen:
 
 * **In-app**: Communiceer met gebruikers binnen uw mobiele of Webtoepassingen om hun ervaring te verbeteren.
 * **Web**: Het Web-based overseinen van het gebruik om met gebruikers in wisselwerking te staan die uw plaats doorbladeren.
 * **op code-gebaseerde Ervaring**: Voer douaneervaringen door codering voor unieke betrokkenheidskansen uit.
 * **Kaarten van de Inhoud**: Deel dynamische inhoud direct binnen uw toepassingen of websites om gebruikers op de hoogte te houden en betrokken te houden.
 
-Selecteer een kanaal om dieper te duiken en te ontdekken hoe u deze effectief kunt benutten in uw marketingstrategie.
+Selecteer een kanaal om dieper te duiken en te ontdekken hoe u deze kanalen effectief kunt gebruiken in uw marketingstrategie.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="../in-app/get-started-in-app.md"><img alt="in-app" src="assets/do-not-localize/inapp.jpg"></a>
@@ -70,5 +70,4 @@ In Adobe Journey Optimizer kunt u communicatiekanalen in twee primaire contexten
 
 * **Reizen**: Creeer naadloze klantenervaringen over veelvoudige touchpoints. Automatiseer interacties op basis van gebruikersgedrag en -voorkeuren en zorg voor tijdige en relevante communicatie die gebruikers door hun reis met uw merk begeleidt. [ leer hoe te om een reis ](../building-journeys/journey-gs.md) tot stand te brengen en uit te voeren.
 
-* **Campagnes**: Stel een specifieke marketing campagnes op die een bepaald kanaal gebruiken om gerichte doelstellingen te bereiken. Of het promoten van een nieuw product of het drijven van seizoensgebonden verkoop, laten de campagnes u toe om gerichte overseinenstrategieën te creëren die aan uw publiek worden aangepast. [ leer hoe te om een campagne ](../campaigns/get-started-with-campaigns.md) tot stand te brengen en uit te voeren.
-
+* **Campagnes**: Stel specifieke marketing campagnes op die een bepaald kanaal gebruiken om gerichte doelstellingen te bereiken. Of het promoten van een nieuw product of het drijven van seizoensgebonden verkoop, laten de campagnes u toe om gerichte overseinenstrategieën te creëren die aan uw publiek worden aangepast. [ leer hoe te om een campagne ](../campaigns/get-started-with-campaigns.md) tot stand te brengen en uit te voeren.
