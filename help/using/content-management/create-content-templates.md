@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '598'
 ht-degree: 3%
 
 ---
@@ -22,25 +22,25 @@ ht-degree: 3%
 >title="Uw eigen inhoudssjabloon definiëren"
 >abstract="Maak een volledig zelfstandig aangepaste sjabloon, zodat uw inhoud tijdens meerdere reizen en campagnes opnieuw kan worden gebruikt."
 
-U kunt inhoudssjablonen op twee manieren maken:
+Er zijn twee manieren om inhoudssjablonen te maken:
 
 * Maak een geheel nieuw inhoudssjabloon met behulp van het menu met de linkerrails **[!UICONTROL Content templates]** . [ leer hoe ](#create-template-from-scratch)
 
 * Wanneer u inhoud ontwerpt binnen een campagne of een reis, slaat u deze op als een sjabloon. [ leer hoe ](#save-as-template)
 
-Nadat u de inhoudssjabloon hebt opgeslagen, kunt u deze gebruiken voor een campagne of een reis. Of het nu om nieuwe inhoud of om inhoud uit vorige inhoud gaat, u kunt deze sjabloon nu gebruiken wanneer u inhoud maakt binnen [!DNL Journey Optimizer] . [ leer hoe ](#use-content-templates)
+Nadat u de inhoudssjabloon hebt opgeslagen, kunt u deze gebruiken voor een campagne of een reis. Ongeacht of deze sjabloon geheel of gedeeltelijk op basis van vorige inhoud is gemaakt, u kunt deze sjabloon gebruiken wanneer u inhoud maakt binnen [!DNL Journey Optimizer] . [ leer hoe ](#use-content-templates)
 
 >[!NOTE]
 >
 >* Wijzigingen in inhoudssjablonen worden niet doorgegeven aan campagnes of reizen, of het nu live of conceptueel gaat.
 >
->* Op dezelfde manier wanneer sjablonen worden gebruikt in een campagne of een reis, hebben alle bewerkingen die u aanbrengt in uw campagne en inhoud van de reis geen invloed op de eerder gebruikte inhoudssjabloon.
+>* Op dezelfde manier wanneer sjablonen worden gebruikt in een campagne of een reis, hebben wijzigingen die zijn aangebracht in uw campagne en reisinhoud geen invloed op de eerder gebruikte inhoudssjabloon.
 
 ## Een geheel nieuwe sjabloon maken {#create-template-from-scratch}
 
 >[!NOTE]
 >
->Vanaf maart 2025 zijn de sjablonen voor HTML-inhoud nu vervangen. U kunt nog steeds bestaande HTML-inhoudssjablonen gebruiken die eerder in [!DNL Journey Optimizer] zijn gemaakt.
+>Vanaf maart 2025 zijn inhoudssjablonen van het HTML-type afgekeurd. Bestaande HTML-inhoudssjablonen die eerder in [!DNL Journey Optimizer] zijn gemaakt, kunnen nog steeds worden gebruikt.
 
 Voer de onderstaande stappen uit om een volledig nieuwe inhoudssjabloon te maken.
 
@@ -58,9 +58,9 @@ Voer de onderstaande stappen uit om een volledig nieuwe inhoudssjabloon te maken
 
 1. Selecteer of maak Adobe Experience Platform-tags in het veld **[!UICONTROL Tags]** om uw sjabloon te categoriseren voor een verbeterde zoekopdracht. [Meer informatie](../start/search-filter-categorize.md#tags)
 
-1. Als u aangepaste of basislabels voor gegevensgebruik aan de sjabloon wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md).
+1. Selecteer **[!UICONTROL Manage access]** als u aangepaste of basislabels voor gegevensgebruik aan de sjabloon wilt toewijzen. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md).
 
-1. Klik op **[!UICONTROL Create]** en ontwerp de inhoud zo nodig op dezelfde manier als voor alle inhoud binnen een reis of campagne, afhankelijk van het geselecteerde kanaal.
+1. Klik op **[!UICONTROL Create]** en ontwerp de inhoud zo nodig op dezelfde manier als voor alle inhoud in een rit of campagne, afhankelijk van het geselecteerde kanaal.
 
    ![](assets/content-template-edition.png)
 
@@ -89,14 +89,9 @@ Deze sjabloon kan nu worden gebruikt wanneer u inhoud maakt binnen [!DNL Journey
 
 >[!NOTE]
 >
->Als u een sjabloon voor e-mailinhoud maakt en snel een specifieke stijl wilt toepassen die past bij uw merk en ontwerp, kunt u een thema toepassen op uw inhoud. [Meer informatie](../email/apply-email-themes.md)
+>Wanneer u een sjabloon voor e-mailinhoud maakt, kunt u snel een specifieke stijl toepassen die past bij uw merk en ontwerp door een thema toe te passen op uw inhoud. [Meer informatie](../email/apply-email-themes.md)
 
 ## Inhoud opslaan als inhoudssjabloon {#save-as-template}
-
->[!CONTEXTUALHELP]
->id="ajo_messages_depecrated_inventory"
->title="Leer hoe u berichten kunt migreren"
->abstract="Op 25 juli 2022 is het menu Berichten verdwenen en worden berichten nu rechtstreeks vanuit een reis geschreven. Als u oude berichten tijdens reizen opnieuw wilt gebruiken, moet u ze opslaan als sjablonen."
 
 Wanneer u inhoud ontwerpt in een campagne of een reis, kunt u deze opslaan voor toekomstig hergebruik. Volg de onderstaande stappen om dit te doen.
 
@@ -106,7 +101,7 @@ Wanneer u inhoud ontwerpt in een campagne of een reis, kunt u deze opslaan voor 
 
    ![](assets/content-template-button-save.png)
 
-   Als u in [ E-mail Designer ](../email/get-started-email-design.md) bent, kunt u deze optie van de **[!UICONTROL More]** drop-down lijst op bovenkant recht van het scherm ook selecteren.
+   Als u in [ E-mail Designer ](../email/get-started-email-design.md) bent, kunt u deze optie van de **[!UICONTROL More]** drop-down lijst in de hoger-juiste hoek van het scherm ook selecteren.
 
    ![](assets/content-template-more-button-save.png)
 
@@ -120,7 +115,7 @@ Wanneer u inhoud ontwerpt in een campagne of een reis, kunt u deze opslaan voor 
 
 1. Selecteer of creeer een markering van Adobe Experience Platform van het **gebied van Markeringen** om uw malplaatje te categoriseren. [Meer informatie](../start/search-filter-categorize.md#tags)
 
-1. Als u aangepaste of basislabels voor gegevensgebruik aan de sjabloon wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [Meer informatie](../administration/object-based-access.md).
+1. Selecteer **[!UICONTROL Manage access]** als u aangepaste of basislabels voor gegevensgebruik aan de sjabloon wilt toewijzen. [Meer informatie](../administration/object-based-access.md).
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -130,4 +125,5 @@ U kunt deze sjabloon nu gebruiken wanneer u inhoud maakt binnen [!DNL Journey Op
 
 >[!NOTE]
 >
->Om het even welke verandering in dat nieuwe malplaatje wordt niet verspreid aan de inhoud het uit komt. Op dezelfde manier wordt de nieuwe sjabloon niet gewijzigd wanneer de oorspronkelijke inhoud wordt bewerkt binnen die inhoud.
+>Wijzigingen in de nieuwe sjabloon worden niet doorgegeven aan de inhoud waaruit de sjabloon afkomstig is. Op dezelfde manier wordt de nieuwe sjabloon niet gewijzigd wanneer de oorspronkelijke inhoud wordt bewerkt.
+

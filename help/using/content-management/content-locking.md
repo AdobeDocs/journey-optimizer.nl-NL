@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
-source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
@@ -34,20 +34,20 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_activated"
 >title="Bestuur ingeschakeld"
->abstract="De inhoudvergrendeling wordt geactiveerd en kan voorkomen dat u wijzigingen aanbrengt."
+>abstract="De inhoudvergrendeling wordt geactiveerd en voorkomt wijzigingen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_read_only"
 >title="Alleen-lezen"
->abstract="Deze inhoud is alleen-lezen en kan niet worden gewijzigd."
+>abstract="Deze inhoud bevindt zich in de modus Alleen-lezen en kan niet worden gewijzigd."
 
-Met Journey Optimizer kunt u inhoud in e-mailsjablonen vergrendelen door de volledige sjabloon of specifieke structuren en onderdelen te vergrendelen. Hierdoor kunt u onbedoelde bewerkingen of verwijderingen voorkomen, waardoor u meer controle hebt over de aanpassing van de sjabloon en de efficiëntie en betrouwbaarheid van uw e-mailcampagnes verbetert.
+Met Journey Optimizer kunt u inhoud in e-mailsjablonen vergrendelen door de volledige sjabloon of specifieke structuren en componenten te vergrendelen. Zo voorkomt u onbedoelde bewerkingen of verwijderingen, waardoor u meer controle hebt over de aanpassing van sjablonen en de efficiëntie en betrouwbaarheid van uw e-mailcampagnes verbetert.
 
 >[!IMPORTANT]
 >
->Inhoudsvergrendeling is een functie op editorniveau voor auteurs en garandeert niet dat de inhoud wordt bewerkt wanneer deze wordt geïmporteerd of gemaakt via de API.
+>Inhoudsvergrendeling is een functie op editorniveau voor auteurs en garandeert niet dat de inhoud onbewerkt blijft wanneer deze wordt geïmporteerd of gemaakt via de API.
 
-Het sluiten van de inhoud kan of op het **structuur** niveau, of op het **component** niveau worden toegepast. Hier volgen de belangrijkste principes die van toepassing zijn op het structuur- en componentniveau wanneer de inhoud in de sjabloon wordt vergrendeld.
+Het sluiten van de inhoud kan of op het **structuur** niveau of op het **component** niveau worden toegepast. Hieronder vindt u de belangrijkste beginselen die van toepassing zijn op het niveau van structuur en component wanneer u de inhoud van de sjabloon vergrendelt:
 
 * Wanneer een structuur is vergrendeld:
 
@@ -65,7 +65,7 @@ Het sluiten van de inhoud kan of op het **structuur** niveau, of op het **compon
 >
 >Gebruikers met machtigingen om inhoudssjablonen te maken, kunnen de vergrendeling van inhoud inschakelen.
 
-➡️ [ ontdekt deze eigenschap in video ](#video)
+➡️ [Ontdek deze functie in video](#video)
 
 ## Een e-mailsjabloon vergrendelen {#define}
 
@@ -95,9 +95,9 @@ U kunt contentvergrendeling voor een e-mailsjabloon rechtstreeks inschakelen in 
    * [Leer hoe u structuren kunt vergrendelen](#lock-structures)
    * [Leer hoe u componenten kunt vergrendelen](#lock-components)
 
-   Als u de modus **[!UICONTROL Read only]** kiest, kunt u de sjabloon op de gebruikelijke manier voltooien en opslaan.
+   Als u de modus **[!UICONTROL Read only]** kiest, voert u de voltooide bewerking uit en slaat u de sjabloon op de gebruikelijke manier op.
 
-U kunt de instellingen van **[!UICONTROL Governance]** op elk gewenst moment tijdens het ontwerpen van de sjabloon aanpassen door de hoofdtekst van de sjabloon te selecteren. Klik hiertoe op de koppeling **[!UICONTROL Body]** in de navigatieregel die zich boven aan het rechterdeelvenster bevindt.
+U kunt de instellingen van **[!UICONTROL Governance]** op elk gewenst moment tijdens het ontwerpen van de sjabloon aanpassen door de hoofdtekst van de sjabloon te selecteren. Klik hiertoe op de koppeling **[!UICONTROL Body]** in de navigatieregel die zich boven aan het rechterzijvenster bevindt.
 
 ![](assets/template-lock-body.png)
 
@@ -156,7 +156,7 @@ Een specifieke component in een structuur vergrendelen:
 
 ### Vergrendelde inhoud identificeren {#identify}
 
-Als u vergrendelde structuren en componenten in de sjabloon gemakkelijk wilt identificeren, gebruikt u de **[!UICONTROL Navigation tree]** in het linkerzijmenu. Dit menu biedt een visueel overzicht van alle sjabloonelementen, waarbij vergrendelde items worden gemarkeerd met een vergrendelingspictogram en bewerkbare items met een potloodpictogram.
+Als u vergrendelde structuren en componenten in de sjabloon gemakkelijk wilt identificeren, gebruikt u de **[!UICONTROL Navigation tree]** in het menu aan de linkerkant. Dit menu biedt een visueel overzicht van alle sjabloonelementen, waarbij vergrendelde items worden gemarkeerd met een vergrendelingspictogram en bewerkbare items met een potloodpictogram.
 
 In het onderstaande voorbeeld wordt governance ingeschakeld voor het sjabloonlichaam. *Structuur 2* is gesloten met *Component 1* editable, terwijl *Structuur 3* volledig gesloten is.
 
@@ -173,17 +173,16 @@ Als u een sjabloon met vergrendelde inhoud gebruikt, wordt het bericht **[!UICON
 
 Afhankelijk van het type vergrendeling dat op de sjabloon wordt toegepast, kunt u verschillende handelingen uitvoeren op de structuren en componenten van de sjabloon. Schakel de optie **[!UICONTROL Highlight editable areas]** in als u snel alle bewerkbare gebieden in de sjabloon wilt identificeren.
 
-In de onderstaande sjabloon zijn bijvoorbeeld alle gebieden bewerkbaar, behalve de bovenste afbeelding die is vergrendeld. Dit betekent dat u deze afbeelding niet kunt bewerken of verwijderen.
+In de onderstaande sjabloon zijn bijvoorbeeld alle gebieden bewerkbaar, behalve de bovenste afbeelding, die vergrendeld is. Dit betekent dat u de afbeelding niet kunt bewerken of verwijderen.
 
 ![](assets/template-lock-highlight.png)
 
-Raadpleeg de volgende secties voor gedetailleerde informatie over de verschillende typen vergrendeling die kunnen worden toegepast:
+In de volgende secties vindt u gedetailleerde informatie over de verschillende typen vergrendeling die kunnen worden toegepast:
 
 * [Vergrendelingsstructuren](#lock-structures)
 * [Componenten vergrendelen](#lock-components)
 
-Hier volgen enkele voorbeelden van e-maileditie en de bijbehorende configuratie voor vergrendeling van inhoud die is ingesteld:
-
+Hier volgen enkele voorbeelden van e-mailedities en de bijbehorende configuraties voor vergrendeling van inhoud die zijn ingesteld:
 
 | Type inhoudvergrendeling | Sjabloonconfiguratie | E-maileditie |
 | ------- | ------- | ------- |
@@ -197,4 +196,4 @@ Hier volgen enkele voorbeelden van e-maileditie en de bijbehorende configuratie 
 
 Leer hoe u inhoud in e-mailsjablonen kunt vergrendelen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451613?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

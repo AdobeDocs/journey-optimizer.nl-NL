@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '281'
 ht-degree: 2%
 
 ---
@@ -38,9 +38,9 @@ ht-degree: 2%
 >[!AVAILABILITY]
 >
 >Dit vermogen wordt vrijgegeven als privé bèta. Het zal in toekomstige versies geleidelijk beschikbaar zijn voor alle klanten.
->&#x200B;>U moet met de [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} akkoord gaan alvorens u de Medewerker AI in Adobe Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>>U moet met de [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} akkoord gaan alvorens u de Medewerker AI in Adobe Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-De functie Merkuitlijning is ontworpen om u te helpen inhoud te maken, te reviseren en te beheren die aan de richtlijnen van uw merk voldoet. Het zorgt voor consistentie in toon, overseinen, en visuele identiteit over uw e-mailcampagnes, terwijl ook als kwaliteitscontrole dient alvorens uw inhoud live gaat.
+Met de functie Merkuitlijning kunt u inhoud maken, bekijken en beheren die voldoet aan uw richtlijnen voor merken. Het zorgt voor consistentie in toon, overseinen, en visuele identiteit over uw e-mailcampagnes, terwijl ook als kwaliteitscontrole dient alvorens uw inhoud live gaat.
 
 ## Uw inhoud valideren met uitlijning van het merk {#validate-content}
 
@@ -50,7 +50,7 @@ Zodra [ uw merk opstelling en gepubliceerd ](brands.md) is, bepaal uw merk groep
 
 1. Open het menu **[!UICONTROL Brand Alignment]** in de E-mail-Designer.
 
-   Uw inhoud wordt automatisch geëvalueerd op basis van uw standaardmerk. [ Leer hoe te om een standaardmerk ](brands.md) toe te wijzen.
+   Uw inhoud wordt automatisch afgezet tegen uw standaardmerk. [ Leer hoe te om een standaardmerk ](brands.md) toe te wijzen.
 
    ![](assets/brand-score-1.png)
 
@@ -60,7 +60,7 @@ Zodra [ uw merk opstelling en gepubliceerd ](brands.md) is, bepaal uw merk groep
 
 1. Doorblader door de **Score van de Groepering van het Merk** (Hoog, Medium, Laag) en overzicht gedetailleerde terugkoppelt.
 
-1. Klik het ![&#128279;](assets/do-not-localize/Smock_FullScreen_18_N.svg " Volledige het schermpictogram van het 1&rbrace; beeld van de Duik ") om meer inzichten in uw score te zien.
+1. Klik het ![ Volledige het schermpictogram voor gedetailleerde inzichten ](assets/do-not-localize/Smock_FullScreen_18_N.svg " Volledig scherm ") pictogram om meer inzichten in uw score te zien.
 
    ![](assets/brand-score-3.png)
 
