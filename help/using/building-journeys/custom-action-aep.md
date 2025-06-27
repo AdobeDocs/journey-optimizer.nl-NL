@@ -8,18 +8,18 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
 
-# Hoofdlettergebruik: gebruik aangepaste handelingen om gebeurtenissen voor reizen in Experience Platform te schrijven {#custom-action-aep}
+# Aangepaste acties gebruiken om gebeurtenissen voor reizen in Experience Platform te schrijven {#custom-action-aep}
 
 Dit gebruiksgeval verklaart hoe te om douanegebeurtenissen in Adobe Experience Platform van Reizen te schrijven gebruikend de Acties van de Douane en Voor authentiek verklaarde vraag.
 
-## Een IO-project configureren {#custom-action-aep-IO}
+## Een ontwikkelaarsproject configureren {#custom-action-aep-IO}
 
 1. Van Adobe Developer Console, klik **Project** en open uw IO project.
 
@@ -39,9 +39,9 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Nadat u uw project op de Adobe Developer Console hebt gemaakt, moet u ontwikkelaars en API-toegangsbeheer de juiste machtigingen geven. Leer meer in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
+>Nadat u uw project op de Adobe Developer Console hebt gemaakt, moet u ontwikkelaars en API-toegangsbeheer de juiste machtigingen geven. Leer meer in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
 
-## Source configureren met HTTP API Inlet
+## De bron configureren met HTTP API Inlet
 
 1. Maak een eindpunt in Adobe Experience Platform om de gegevens van reizen te schrijven.
 
@@ -144,7 +144,7 @@ Voer voor dit voorbeeld de volgende stappen uit:
 
    ![](assets/custom-action-aep-8.png)
 
-### De Payload instellen {#custom-action-aep-payload}
+### De lading instellen {#custom-action-aep-payload}
 
 1. In de **gebieden van het Verzoek** en **Reactie**, kleef de nuttige lading van de bronverbinding die vóór werd gebruikt.
 

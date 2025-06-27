@@ -8,15 +8,15 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '424'
 ht-degree: 4%
 
 ---
 
 
-# Hoofdlettergebruik: verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen{#passing-collection}
+# Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen{#passing-collection}
 
 U kunt een verzameling doorgeven in aangepaste handelingsparameters die bij uitvoering dynamisch worden gevuld. Er worden twee soorten verzamelingen ondersteund:
 
@@ -106,7 +106,7 @@ Je kunt zien dat &#39;products&#39; een array van twee objecten is. U moet ten m
 
 1. Maak een aangepaste handeling. Zie [deze pagina](../action/about-custom-action-configuration.md).
 
-1. In de **[!UICONTROL Action parameters]** plakken in het JSON-voorbeeld. De weergegeven structuur is statisch: bij het plakken van de lading worden alle velden gedefinieerd als constanten.
+1. Plak in de sectie **[!UICONTROL Action parameters]** het JSON-voorbeeld. De weergegeven structuur is statisch: bij het plakken van de lading worden alle velden gedefinieerd als constanten.
 
    ![](assets/uc-collection-1.png)
 
@@ -128,7 +128,7 @@ Je kunt zien dat &#39;products&#39; een array van twee objecten is. U moet ten m
 
 1. Maak uw reis en voeg de aangepaste actie toe die u hebt gemaakt. Zie [deze pagina](../building-journeys/using-custom-actions.md).
 
-1. In de **[!UICONTROL Action parameters]** definieert u de arrayparameter (&quot;products&quot; in ons voorbeeld) met de geavanceerde expressie-editor.
+1. Definieer in de sectie **[!UICONTROL Action parameters]** de arrayparameter (&quot;products&quot; in ons voorbeeld) met de geavanceerde expressie-editor.
 
    ![](assets/uc-collection-3.png)
 
@@ -136,7 +136,7 @@ Je kunt zien dat &#39;products&#39; een array van twee objecten is. U moet ten m
 
    ![](assets/uc-collection-4.png)
 
-Voor het matrixveld kunt u ook de geavanceerde expressie-editor gebruiken om gegevensbewerkingen uit te voeren. In het volgende voorbeeld gebruiken wij [filter](functions/functionfilter.md) en [doorsnijden](functions/functionintersect.md) functies:
+Voor het matrixveld kunt u ook de geavanceerde expressie-editor gebruiken om gegevensbewerkingen uit te voeren. In het volgende voorbeeld, gebruiken wij de [ filter ](functions/functionfilter.md) en [ ](functions/functionintersect.md) functies doorsnijden:
 
 ![](assets/uc-collection-5.png)
 

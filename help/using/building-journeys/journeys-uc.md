@@ -9,14 +9,14 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: use case, multi-channel, messages, trip, channel, events, push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 0%
+source-wordcount: '699'
+ht-degree: 1%
 
 ---
 
-# Hoofdlettergebruik: berichten met meerdere kanalen verzenden{#send-multi-channel-messages}
+# Multikanaalberichten verzenden {#send-multi-channel-messages}
 
 In deze sectie wordt een gebruiksscenario beschreven waarin een leespubliek, een gebeurtenis, reactiegebeurtenissen en e-mail-/pushberichten worden gecombineerd.
 
@@ -89,7 +89,7 @@ De gebeurtenis is nu geconfigureerd en klaar om in de reis te worden gebruikt. M
 
    ![](assets/jo-uc5.png)
 
-1. Voeg de gebeurtenis van de Reactie van de a **&#x200B;**&#x200B;toe en selecteer **Geopende E-mail**. De gebeurtenis wordt geactiveerd wanneer een persoon die tot het publiek behoort, het e-mailbericht opent.
+1. Voeg de gebeurtenis van de Reactie van de a **** toe en selecteer **Geopende E-mail**. De gebeurtenis wordt geactiveerd wanneer een persoon die tot het publiek behoort, het e-mailbericht opent.
 
 1. Controle **bepaalt de gebeurtenisonderbreking** doos, bepaalt een duur (1 dag in dit voorbeeld), en controle **plaatste een onderbrekingspad**. Hiermee maakt u een ander pad voor personen die het eerste pushbericht of e-mailbericht niet openen.
 

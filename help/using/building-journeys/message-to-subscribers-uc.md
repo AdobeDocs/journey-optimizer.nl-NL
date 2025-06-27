@@ -9,14 +9,14 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: reis, gebruiksgeval, bericht, abonnees, lijst, gelezen
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '304'
 ht-degree: 2%
 
 ---
 
-# Hoofdlettergebruik: een bericht verzenden naar de abonnees van een lijst{#send-a-message-to-the-subscribers-of-a-list}
+# Een bericht verzenden naar de abonnees van een lijst {#send-a-message-to-the-subscribers-of-a-list}
 
 Het doel van dit gebruiksgeval is een reis tot stand te brengen om een bericht naar de abonnees van een lijst te verzenden.
 

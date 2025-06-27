@@ -9,14 +9,14 @@ role: Admin, Data Engineer, User
 level: Intermediate, Experienced
 keywords: reis, boodschap, campagne, integratie
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
 
-# Hoofdlettergebruik: een bericht verzenden met Campagne v7/v8 {#campaign-v7-v8-use-case}
+# Een bericht verzenden met Campagne v7/v8 {#campaign-v7-v8-use-case}
 
 In deze handige case worden alle stappen beschreven die vereist zijn om een e-mail te verzenden via de integratie met Adobe Campaign v7 en Adobe Campaign v8.
 
