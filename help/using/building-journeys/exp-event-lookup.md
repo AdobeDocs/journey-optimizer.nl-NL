@@ -3,19 +3,19 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Ervaar gebeurtenissen opzoeken tijdens reizen
 description: Leer hoe u Experience Events lookup kunt gebruiken tijdens reizen
-source-git-commit: 190d7d5fd5cb93a6ddf3757e00f42a9714a1f722
+exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
+source-git-commit: cee47accd4f5427f7e10015eba8b952d4e86daab
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '933'
 ht-degree: 1%
 
 ---
-
 
 # Opzoeken van gebeurtenissen tijdens reizen beleven {#ee-journeys}
 
 >[!CAUTION]
 >
->Vanaf 8 juli, in nieuwe klantenorganisaties, zal het creëren van uitdrukkingen gebruikend ervaringsgebeurtenissen niet meer in de uitdrukkingsredacteur worden gesteund die in reisvoorwaarden wordt gebruikt. Dientengevolge, kan de ervaringsgebeurtenissen in de [ gegevensbron van Experience Platform ](../datasource/adobe-experience-platform-data-source.md) niet voor het creëren van uitdrukkingen worden gebruikt. Hieronder wordt verwezen naar alternatieve benaderingen en aanbevolen methoden voor het maken van expressies/logica met ervaringsgebeurtenissen.
+>Vanaf 8 juli 2025 wordt in nieuwe klantenorganisaties het maken van expressies met behulp van ervaringsgebeurtenissen niet langer ondersteund in de expressie-editor die wordt gebruikt in reisomstandigheden. Dientengevolge, kan de ervaringsgebeurtenissen in de [ gegevensbron van Experience Platform ](../datasource/adobe-experience-platform-data-source.md) niet voor het creëren van uitdrukkingen worden gebruikt. Hieronder wordt verwezen naar alternatieve benaderingen en aanbevolen methoden voor het maken van expressies/logica met ervaringsgebeurtenissen.
 >
 >Wilt u meer details? [ las uit Veelgestelde vragen ](#faq-ee).
 
@@ -51,9 +51,9 @@ Als u profielen wilt onderdrukken die bepaalde gedragingen hebben aangetoond, ge
 
 Meer informatie:
 
-* Adobe Experience Platform [ de bouwer van het Segment - Gebeurtenissen ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* Adobe Experience Platform [ de bouwer van het Segment - Gebeurtenissen ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* De bouwer van het Segment van Adobe Experience Platform [ - de beperkingen van de Tijd ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* De bouwer van het Segment van Adobe Experience Platform [ - de beperkingen van de Tijd ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Gebruik van soorten publiek in omstandigheden](../building-journeys/condition-activity.md#using-audiences-in-conditions)
 
@@ -70,9 +70,9 @@ Om het verzenden van berichten naar profielen te verhinderen die om het even wel
 
 Meer informatie met doelgroepen:
 
-* Adobe Experience Platform [ de bouwer van het Segment - Gebeurtenissen ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* Adobe Experience Platform [ de bouwer van het Segment - Gebeurtenissen ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* De bouwer van het Segment van Adobe Experience Platform [ - de beperkingen van de Tijd ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* De bouwer van het Segment van Adobe Experience Platform [ - de beperkingen van de Tijd ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Gebruik van soorten publiek in omstandigheden](../building-journeys/condition-activity.md#using-audiences-in-conditions)
 
@@ -92,9 +92,9 @@ Als u profielen wilt opnemen of uitsluiten op basis van het feit of ze een bepaa
 
 Meer informatie:
 
-* Adobe Experience Platform [ de bouwer van het Segment - Gebeurtenissen ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* Adobe Experience Platform [ de bouwer van het Segment - Gebeurtenissen ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* De bouwer van het Segment van Adobe Experience Platform [ - de beperkingen van de Tijd ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* De bouwer van het Segment van Adobe Experience Platform [ - de beperkingen van de Tijd ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Gebruik van soorten publiek in omstandigheden](../building-journeys/condition-activity.md#using-audiences-in-conditions)
 
@@ -104,8 +104,8 @@ Meer informatie:
 
 Om mededelingen te personaliseren die op de recentste kar worden gebaseerd of gebeurtenissen over veelvoudige karttypes of productmeningen te doorbladeren:
 
-* Als u toegang tot [ Gegevens Distiller van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/data-distiller/overview){target="_blank"} hebt, vorm geautomatiseerde vragen om de vereiste gegevens uit de gebeurtenis te halen, het te manipuleren om het gebruiksgeval te passen, en het terug naar een profiel-toegelaten dataset voor activering te schrijven.
-* Als de gegevens van het verlaten van de plaats op het profiel met scalaire attributen kunnen worden gemodelleerd, denk na gebruikend Berekende attributen om de recentste informatie te vangen en dan naar deze attributen in de reis te verwijzen om de mededeling te construeren. [ leer meer in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* Als u toegang tot [ Gegevens Distiller van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview){target="_blank"} hebt, vorm geautomatiseerde vragen om de vereiste gegevens uit de gebeurtenis te halen, het te manipuleren om het gebruiksgeval te passen, en het terug naar een profiel-toegelaten dataset voor activering te schrijven.
+* Als de gegevens van het verlaten van de plaats op het profiel met scalaire attributen kunnen worden gemodelleerd, denk na gebruikend Berekende attributen om de recentste informatie te vangen en dan naar deze attributen in de reis te verwijzen om de mededeling te construeren. [ leer meer in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 ## Reizen op basis van gedrag
@@ -122,7 +122,7 @@ Om ritten op aankopen te activeren en onderdrukken als de waarde boven of onder 
 
 Meer informatie:
 
-* Adobe Experience Platform [ Berekende attributen overzicht ](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* Adobe Experience Platform [ Berekende attributen overzicht ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 
