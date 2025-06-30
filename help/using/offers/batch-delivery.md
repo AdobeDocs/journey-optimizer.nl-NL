@@ -27,7 +27,7 @@ Batchlevering kan ook worden uitgevoerd met behulp van API&#39;s. Voor meer op d
 
 Voordat u een taakaanvraag configureert, moet u controleren of u het volgende hebt gemaakt:
 
-* **dataset van A** in Adobe Experience Platform. Deze dataset zal worden gebruikt om het beslissingsresultaat op te slaan gebruikend het schema &quot;ODE DecisionEvents&quot;. Leer meer in de [ documentatie van Datasets ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html).
+* **dataset van A** in Adobe Experience Platform. Deze dataset zal worden gebruikt om het beslissingsresultaat op te slaan gebruikend het schema &quot;ODE DecisionEvents&quot;. Leer meer in de [ documentatie van Datasets ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=nl-NL).
 
 * **een publiek** in Adobe Experience Platform. Het publiek moet worden geëvalueerd en vervolgens worden bijgewerkt. Leer hoe te om de evaluatie van het publiekslidmaatschap in de [ documentatie van de Dienst van de Segmentatie ](https://www.adobe.com/go/segmentation-overview-en) bij te werken
 

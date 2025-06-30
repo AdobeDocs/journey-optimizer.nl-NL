@@ -24,7 +24,7 @@ Gegevens van een aangepast publiek voor uploaden kunnen in Beslissingsbeheer wor
 
 Raadpleeg de secties voor meer informatie over het publiek voor Aangepaste upload:
 * [Aan de slag met publiek en Journey Optimizer](../audience/about-audiences.md)
-* [ het Invoeren van een publiek in Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [ het Invoeren van een publiek in Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## Lees hier meer {#must-read}
 
