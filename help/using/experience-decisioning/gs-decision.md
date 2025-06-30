@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 20%
@@ -36,7 +36,7 @@ Ons besluitvormingskader van de volgende generatie, ontworpen om bestaande Journ
 * Bijgewerkt besluitvormingsbeleid en configuratie van de selectiestrategie: Herbruikbaarheid van besluitvormingscomponenten toestaan
 * Experimentatiemogelijkheden: test beslissingslogica ten opzichte van andere inhoudcomponenten om de prestaties te meten
 
-Het Beslissen van de ervaring wordt gesteund in het code-Gebaseerde kanaal van de Ervaring.
+Het nemen van besluiten wordt momenteel gesteund in op code-gebaseerd ervaringskanaal.
 
 ➡️ [ worden begonnen met Beslissing ](../experience-decisioning/gs-experience-decisioning.md)
 

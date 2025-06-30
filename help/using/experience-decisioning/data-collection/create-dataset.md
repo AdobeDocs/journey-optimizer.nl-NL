@@ -8,7 +8,8 @@ role: Data Engineer, Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: e5c457494d5d79d1a7951b9172c39c91007e2651
+exl-id: 96c1326f-be40-4738-8997-a67dc14872bb
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -52,9 +53,9 @@ Begin door het schema te creëren dat in uw dataset zal worden gebruikt:
 
 >[!NOTE]
 >
->Leer meer over het bouwen van schema&#39;s in [ Grondbeginselen van schemacompositie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=nl-NL#understanding-schemas){target="_blank"}.
+>Leer meer over het bouwen van schema&#39;s in [ Grondbeginselen van schemacompositie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}.
 
-u bent nu klaar om een dataset tot stand te brengen gebruikend dit schema. Hiervoor voert u de volgende stappen uit:
+U bent nu klaar om een dataset tot stand te brengen gebruikend dit schema. Hiervoor voert u de volgende stappen uit:
 
 1. Selecteer **[!UICONTROL Datasets]** in het menu **[!UICONTROL Data Management]** en ga naar de tab **[!UICONTROL Browse]** .
 
@@ -70,4 +71,4 @@ u bent nu klaar om een dataset tot stand te brengen gebruikend dit schema. Hierv
 
 >[!NOTE]
 >
->Deze dataset kan nu worden geselecteerd om gebeurtenisgegevens te verzamelen wanneer het creëren van een AI model <!--add link to Creat AI models section-->.
+>Deze dataset kan nu worden geselecteerd om gebeurtenisgegevens te verzamelen wanneer het creëren van een [ AI model ](../ranking/create-ai-models.md).

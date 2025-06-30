@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: e63a21b5dcc8f227d56c696c8fd0825c75684189
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -19,14 +19,14 @@ ht-degree: 0%
 >id="ajo_exd_config_strategies"
 >title="Uw selectiestrategieën definiëren"
 >abstract="Een selectiestrategie is herbruikbaar en bestaat uit een verzameling die gekoppeld is aan een toelatingsbeperking en een rangschikkingsmethode om te bepalen welke aanbiedingen moeten worden getoond wanneer zij in een besluitvormingsbeleid worden geselecteerd."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision" text="Beslissingsbeleid maken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision" text="Beslissingsbeleid maken"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
 >title="De in aanmerking komende profielen beperken"
 >abstract="U kunt de selectie van aanbiedingen voor deze selectiestrategie beperken. Standaard zijn alle profielen subsidiabel, maar u kunt publiek of regels gebruiken om de selectie van de aanbieding te beperken tot specifieke profielen."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Soorten publiek gebruiken"
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules" text="Beslissingsregels gebruiken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Soorten publiek gebruiken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules" text="Beslissingsregels gebruiken"
 
 Een selectiestrategie is herbruikbaar, en bestaat uit een inzameling verbonden aan een geschiktheidsbeperking en een rangschikkende methode om de aanbiedingen te bepalen die moeten worden getoond wanneer geselecteerd in a [ besluitvormingsbeleid ](create-decision.md).
 
@@ -88,7 +88,7 @@ Volg onderstaande stappen om een selectiestrategie te maken.
 >id="ajo_exd_strategy_ranking"
 >title="Bepalen hoe aanbiedingen moeten worden beoordeeld"
 >abstract="Als meerdere aanbiedingen in aanmerking komen voor een bepaalde selectiestrategie, kiest u de methode waarmee de beste aanbieding voor elk profiel wordt geselecteerd bij het maken van een selectiestrategie: prioriteit of rangschikkingsformule."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html?lang=nl-NL" text="Beslissingsbeleid maken"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="Beslissingsbeleid maken"
 
 Als meerdere aanbiedingen in aanmerking komen voor een bepaalde selectiestrategie, kunt u bij het maken van een selectiestrategie de methode kiezen waarmee u de beste aanbieding voor elk profiel kunt selecteren. Je kunt voorstellen plaatsen op:
 
@@ -98,9 +98,9 @@ Als meerdere aanbiedingen in aanmerking komen voor een bepaalde selectiestrategi
 
 ### Voorstelprioriteit {#offer-priority}
 
-Door gebrek, wanneer verscheidene aanbiedingen voor een bepaalde plaatsing in een besluitvormingsbeleid verkiesbaar zijn, zullen de punten met de hoogste **prioriteit** eerst aan de klanten worden geleverd.
+Door gebrek, wanneer verscheidene aanbiedingen in een besluitvormingsbeleid verkiesbaar zijn, zullen de punten met de hoogste **prioriteit** eerst aan de klanten worden geleverd.
 
-![](assets/item-priority.png)
+![](assets/item-priority.png){width=85%}
 
 De prioritaire scores van aanbiedingen worden toegewezen wanneer het creëren van a [ besluitvormingspunt ](items.md).
 
@@ -108,17 +108,17 @@ De prioritaire scores van aanbiedingen worden toegewezen wanneer het creëren va
 
 Naast het aanbieden van prioriteit, staat Journey Optimizer u toe om **het rangschikken formules** tot stand te brengen. Dit zijn formules die bepalen welke aanbieding eerst voor een bepaalde plaatsing moet worden gepresenteerd, in plaats van rekening te houden met de prioriteitsscores van de aanbiedingen.
 
-U kunt bijvoorbeeld de prioriteit verhogen van alle aanbiedingen met een einddatum van minder dan 24 uur, of aanbiedingen verhogen van de categorie &quot;actief&quot; als het interessepunt van het profiel &quot;actief&quot; is. Leer hoe te om een het rangschikken formule in [ tot stand te brengen deze sectie ](exd-ranking-formulas.md).
+U kunt bijvoorbeeld de prioriteit verhogen van alle aanbiedingen met een einddatum van minder dan 24 uur, of aanbiedingen verhogen van de categorie &quot;actief&quot; als het interessepunt van het profiel &quot;actief&quot; is. Leer hoe te om een het rangschikken formule in [ tot stand te brengen deze sectie ](ranking/ranking-formulas.md).
 
 Nadat u de formule hebt gemaakt, kunt u deze gebruiken in een selectiestrategie. Als meerdere aanbiedingen in aanmerking komen om te worden ingediend bij het gebruik van deze selectiestrategie, wordt in de beslissing de geselecteerde formule gebruikt om te berekenen welke aanbieding het eerst moet worden geleverd.
 
 ### AI-rangschikking {#ai-ranking}
 
-U kunt ook een getraind modelsysteem gebruiken dat aanbiedingen voor een bepaald profiel automatisch rangschikt door een AI-model te selecteren. Leer hoe te om een AI model in [ tot stand te brengen deze sectie ](../offers/ranking/ai-models.md).
+U kunt ook een getraind modelsysteem gebruiken dat aanbiedingen voor een bepaald profiel automatisch rangschikt door een AI-model te selecteren. Leer hoe te om een AI model in [ tot stand te brengen deze sectie ](ranking/create-ai-models.md).
 
 Nadat u een AI-model hebt gemaakt, kunt u het gebruiken in een selectiestrategie. Indien meerdere aanbiedingen in aanmerking komen, bepaalt het opgeleide modelsysteem welke aanbieding eerst voor deze selectiestrategie moet worden ingediend.
 
 >[!NOTE]
 >
->Momenteel is het [&#128279;](../offers/ranking/auto-optimization-model.md#lift) rapport van de Meting van het 0&rbrace; optillen slechts beschikbaar voor het [ Gepersonaliseerde model van optimalisering ](../offers/ranking/personalized-optimization-model.md) AI.
+>Momenteel is het ](ranking/auto-optimization-model.md#lift) rapport van de Meting van het 0} optillen slechts beschikbaar voor het [ Gepersonaliseerde model van optimalisering ](ranking/personalized-optimization-model.md) AI.[
 

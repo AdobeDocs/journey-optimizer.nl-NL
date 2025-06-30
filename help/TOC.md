@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d0ac966780349ab10c47dd9ea915ca4f5964e938
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '2476'
+source-wordcount: '2490'
 ht-degree: 20%
 
 ---
@@ -190,7 +190,7 @@ ht-degree: 20%
    + De database opvragen {#query-database}
       + [ Werk met de regelbouwer ](using/orchestrated/orchestrated-rule-builder.md)
       + [ bouwt uw eerste regel ](using/orchestrated/build-query.md)
-      + [ geef uitdrukkingen  uit](using/orchestrated/edit-expressions.md)
+      + [ geef uitdrukkingen ](using/orchestrated/edit-expressions.md) uit
    + Gecontroleerde campagnes {#design-campaigns}
       + [Aan de slag met activiteiten](using/orchestrated/activities/about-activities.md)
       + [En-join](using/orchestrated/activities/and-join.md)
@@ -369,7 +369,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
          + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [Adobe Experience Platform-gegevens gebruiken voor personalisatie (Beta)](using/personalization/aep-data-perso.md)
@@ -548,12 +548,18 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
          + [De itemcatalogus configureren](using/experience-decisioning/catalogs.md)
          + [Beslissingsitems maken](using/experience-decisioning/items.md)
          + [Itemverzamelingen beheren](using/experience-decisioning/collections.md)
-      + Itemselectie configureren {#selection}
-         + [Beslissingsregels maken](using/experience-decisioning/rules.md)
-         + [Classificatiemethoden maken](using/experience-decisioning/ranking.md)
-         + [De AI-formulebuilder gebruiken](using/experience-decisioning/exd-ranking-formulas.md)
+      + [Beslissingsregels maken](using/experience-decisioning/rules.md)
+      + Classificaties maken {#rankings}
+         + [Classificatiemethoden maken](using/experience-decisioning/ranking/ranking.md)
+         + [De AI-formulebuilder gebruiken](using/experience-decisioning/ranking/ranking-formulas.md)
+         + AI-modellen {#ai-models}
+            + [AI-modellen](using/experience-decisioning/ranking/ai-models.md)
+            + [Model voor automatische optimalisatie](using/experience-decisioning/ranking/auto-optimization-model.md)
+            + [Gepersonaliseerd optimalisatiemodel](using/experience-decisioning/ranking/personalized-optimization-model.md)
+            + [AI-modellen maken](using/experience-decisioning/ranking/create-ai-models.md)
+      + Adobe Experience Platform-gegevens gebruiken {#aep-data}
          + [Gebruik van contextgegevens](using/experience-decisioning/context-data.md)
-         + [Adobe Experience Platform gebruiken voor beslissingen](using/experience-decisioning/aep-data-exd.md)
+         + [Adobe Experience Platform gebruiken voor besluitvorming](using/experience-decisioning/aep-data-exd.md)
       + [Selectiestrategieën maken](using/experience-decisioning/selection-strategies.md)
       + [Beslissingsbeleid maken](using/experience-decisioning/create-decision.md)
       + [Verslag over het besluit](using/experience-decisioning/cja-reporting.md)
@@ -579,7 +585,6 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
          + [Beoordelingsformule](using/offers/ranking/create-ranking-formulas.md)
          + AI-modellen {#ai-models}
             + [AI-modellen](using/offers/ranking/ai-models.md)
-            + AI-modeltypen {#ai-model-types}
             + [Model voor automatische optimalisatie](using/offers/ranking/auto-optimization-model.md)
             + [Gepersonaliseerd optimalisatiemodel](using/offers/ranking/personalized-optimization-model.md)
             + [AI-modellen maken](using/offers/ranking/create-ranking-strategies.md)
@@ -715,7 +720,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}

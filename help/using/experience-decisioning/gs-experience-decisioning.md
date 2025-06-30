@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 4%
@@ -50,13 +50,13 @@ De belangrijkste stappen om met Beslissing te werken zijn als volgt:
 
    1. Typ de naam of het e-mailadres van de gebruiker of selecteer de gebruiker in de lijst en klik op **[!UICONTROL Save]** .
 
-      Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/users) toevoegen.
+      Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users) toevoegen.
 
       ![](assets/decision_permission_3.png)
 
    Uw gebruiker moet dan een e-mail ontvangen die aan uw instantie opnieuw richt.
 
-   +++
++++
 
 1. **vorm douanekenmerken**: Tailor de puntcatalogus aan uw specifieke vereisten door opstellingsdouaneattributen in het schema van de catalogus.
 
@@ -76,7 +76,7 @@ De belangrijkste stappen om met Beslissing te werken zijn als volgt:
 
 1. **voert het rangschikken methodes** uit: Creeer het rangschikken methodes en pas hen binnen selectiestrategieën toe om de prioritaire orde te bepalen om besluitpunten te selecteren.
 
-   ➡️ [ Leer hoe te om het rangschikken methodes ](ranking.md) tot stand te brengen
+   ➡️ [ Leer hoe te om het rangschikken methodes ](ranking/ranking.md) tot stand te brengen
 
 1. **creeer selectiestrategieën**: Bouw selectiestrategieën die hefboominzamelingen, besluitvormingsregels, en het rangschikken methodes om de besluitpunten te identificeren geschikt voor het tonen aan profielen.
 

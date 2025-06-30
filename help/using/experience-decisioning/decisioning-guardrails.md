@@ -5,7 +5,7 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 8%
@@ -18,28 +18,28 @@ Houd rekening met de volgende instructies en beperkingen om een optimaal gebruik
 
 De volledige lijst van [!DNL Journey Optimizer] guardrails &amp; beperkingen is beschikbaar in [ deze sectie ](../start/guardrails.md).
 
-## Beslissingsverzoeken
+## Beslissingsverzoeken {#decision-requests}
 
 | Guardrail | Limiet |
 | ------- | ------- |
 | Op code gebaseerde API-aanvraag voor ervaring met beslissingsbeleid met Edge-segmentatie | 1500 |
 | Op code gebaseerde API-aanvraag voor ervaring met beslissingsbeleid waarbij Edge-segmentatie niet wordt gebruikt | 5000 |
 
-## Itemverzamelingen
+## Itemverzamelingen {#item-collections}
 
 | Guardrail | Limiet |
 | ------- | ------- |
 | Items verzamelen | 10K |
 | Totaal aantal aanbiedingen per objectverzameling | 500 |
 
-## Beslissingsbeleid
+## Beslissingsbeleid {#decision-policy}
 
 | Guardrail | Limiet |
 | ------- | ------- |
 | Aantal selectiestrategieën en handmatige items per beslissingsbeleid | 10 |
 | Maximumaantal aangeboden objecten per beslissingsbeleid | 30 |
 
-## Subsidiabiliteitsregels
+## Subsidiabiliteitsregels {#eligibility-rules}
 
 | Guardrail | Limiet |
 | ------- | ------- |
@@ -49,7 +49,7 @@ De volledige lijst van [!DNL Journey Optimizer] guardrails &amp; beperkingen is 
 | Maximale grootte van de pql-regel | 15 K (UTF-8) |
 | Max. aantal nestniveaus | 30 |
 
-## Beoordelingsformule
+## Beoordelingsformule {#ranking-formulas}
 
 | Guardrail | Limiet |
 | ------- | ------- |
@@ -58,7 +58,7 @@ De volledige lijst van [!DNL Journey Optimizer] guardrails &amp; beperkingen is 
 | Max. aantal kenmerken van contextgegevens | 30 |
 | Max. aantal nestniveaus | 30 |
 
-## Overige
+## Overige {#others}
 
 | Guardrail | Limiet |
 | ------- | ------- |

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,7 @@ De tabel **[!UICONTROL Decision Items Performance]** evalueert hoe goed elk item
 
 >[!NOTE]
 >
->De tabel **[!UICONTROL Ranking Strategy]** wordt alleen beschikbaar als een AI-model is opgenomen in de campagne. [Meer informatie](../experience-decisioning/ranking.md)
+>De **[!UICONTROL Ranking Strategy]** lijst wordt beschikbaar slechts wanneer een [ AI model ](../experience-decisioning/ranking/ai-models.md) in de campagne wordt opgenomen. <!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
 
 ![](assets/cja-decision-ranking-strategy.png)
 
@@ -161,7 +161,7 @@ De belangrijkste getoonde metriek omvatten:
 
 >[!NOTE]
 >
->De grafiek **[!UICONTROL Conversion rate for Holdout and Model Driven traffic]** wordt alleen beschikbaar als een AI-model is opgenomen in de campagne. [Meer informatie](../experience-decisioning/ranking.md)
+>De **[!UICONTROL Conversion rate for Holdout and Model Driven traffic]** grafiek wordt beschikbaar slechts wanneer een [ AI model ](../experience-decisioning/ranking/ai-models.md) in de campagne wordt opgenomen. <!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
 
 ![](assets/cja-decisioning-conversion.png)
 
@@ -173,4 +173,4 @@ In de grafiek **[!UICONTROL Conversion rate for Holdout and Model Driven traffic
 
 >[!CAUTION]
 >
->Wanneer het gebruiken van een AI model dat in a [ wordt opgenomen rangschikt formule ](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula), worden de gegevens niet weerspiegeld in het rapport van het tarief van de Omzetting.
+>Wanneer het gebruiken van een AI model dat in a [ wordt opgenomen rangschikt formule ](../experience-decisioning/ranking/ranking-formulas.md), worden de gegevens niet weerspiegeld in het rapport van het tarief van de Omzetting.

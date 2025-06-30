@@ -10,14 +10,14 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '821'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Platform-gegevens gebruiken voor beslissingen {#aep-data}
+# Adobe Experience Platform-gegevens gebruiken voor besluitvorming {#aep-data}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
@@ -33,7 +33,7 @@ ht-degree: 0%
 >
 >Deze mogelijkheid is momenteel beschikbaar voor alle klanten als een openbare bètaversie. Neem contact op met uw accountvertegenwoordiger als u toegang wilt.
 
-Met [!DNL Journey Optimizer] kunt u gegevens van [!DNL Adobe Experience Platform] gebruiken om te beslissen. Dit staat u toe om de definitie van uw beslissingsattributen tot extra gegevens in datasets voor bulkupdates uit te breiden die periodiek veranderen zonder het moeten manueel de attributen één voor één bijwerken. Bijvoorbeeld beschikbaarheid, wachttijden, enz.
+Met [!DNL Journey Optimizer] kunt u gegevens van [!DNL Adobe Experience Platform] gebruiken voor besluitvorming. Dit staat u toe om de definitie van uw beslissingsattributen tot extra gegevens in datasets voor bulkupdates uit te breiden die periodiek veranderen zonder het moeten manueel de attributen één voor één bijwerken. Bijvoorbeeld beschikbaarheid, wachttijden, enz.
 
 ## Beperkingen en richtlijnen voor Beta {#guidelines}
 
@@ -48,14 +48,14 @@ Neem voordat u begint de volgende beperkingen en richtlijnen in acht:
 
 Als u gegevens uit een [!DNL Adobe Experience Platform] -dataset wilt gebruiken voor besluitvorming, moet u deze eerst inschakelen voor opzoeken via een API-aanroep. Voor gedetailleerde instructies, verwijs naar deze sectie: [ de datasets van Adobe Experience Platform van de Leverage in Journey Optimizer ](../data/lookup-aep-data.md).
 
-## Adobe Experience Platform-gegevens gebruiken voor beslissingen
+## Adobe Experience Platform-gegevens gebruiken {#leverage-aep-data}
 
 Zodra een dataset voor raadpleging wordt toegelaten, kunt u zijn attributen gebruiken om uw besluitvormingslogica met externe gegevens te verrijken. Dit is vooral nuttig voor attributen die vaak veranderen, zoals productbeschikbaarheid, of prijs in real time.
 
 Kenmerken van Adobe Experience Platform-gegevenssets kunnen worden gebruikt in twee delen van besluitvormingslogica:
 
-* **Regels van het Besluit**: Bepaal of een besluitvormingspunt verkiesbaar is om te worden getoond.
-* **het Rangschikken Formulas**: Geef voorrang aan besluitvormingspunten die op externe gegevens worden gebaseerd.
+* **de regels van het Besluit**: Bepaal of een besluitvormingspunt verkiesbaar is om te worden getoond.
+* **Rangschikkende formules**: Prioriteit besluitvormingspunten die op externe gegevens worden gebaseerd.
 
 In de volgende secties wordt uitgelegd hoe u Adobe Experience Platform-gegevens in beide contexten kunt gebruiken.
 
@@ -86,7 +86,7 @@ Voer de volgende stappen uit om Adobe Experience Platform-gegevens te gebruiken 
 
    ![](assets/exd-lookup-menu.png)
 
-### Beoordelingsformule
+### Beoordelingsformule {#ranking-formulas}
 
 De rangschikkingsformules bepalen de prioriteit van besluitvormingspunten. Met de gegevenssetkenmerken van [!DNL Adobe Experience Platform] kunt u de waarderingslogica dynamisch aanpassen aan de omstandigheden in de praktijk.
 
@@ -107,6 +107,6 @@ Voer de volgende stappen uit om Adobe Experience Platform-gegevens te gebruiken 
    >
    >U kunt maximaal 3 toewijzingen per waarderingsformule maken.
 
-1. Gebruik de datasetgebieden om uw het rangschikken formule zoals gebruikelijk te bouwen. [ Leer hoe te om een het rangschikken formule ](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula) tot stand te brengen
+1. Gebruik de datasetgebieden om uw het rangschikken formule zoals gebruikelijk te bouwen. [ Leer hoe te om een het rangschikken formule ](ranking/ranking-formulas.md#create-ranking-formula) tot stand te brengen
 
    ![](assets/exd-lookup-formula-criteria.png)
