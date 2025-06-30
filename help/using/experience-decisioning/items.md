@@ -19,7 +19,7 @@ ht-degree: 0%
 >id="ajo_exd_items"
 >title="Beslissingsitems beheren"
 >abstract="Met Journey Optimizer kunt u marketingaanbiedingen maken, ook wel &#39;beslissingsitems&#39; genoemd, die u kunt maken en indelen in een gecentraliseerde catalogus en verzamelingen. Momenteel worden alle gemaakte beslissingsitems geconsolideerd in één catalogus met &quot;voorstellen&quot;. Van dit scherm, kunt u tot het schema van de catalogus ook toegang hebben gebruikend **schema** knoop uitgeven en douanekenmerken voor uw besluitvormingspunten creëren."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="De itemcatalogus configureren"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html?lang=nl-NL" text="De itemcatalogus configureren"
 
 Met Journey Optimizer kunt u marketingaanbiedingen maken, ook wel &#39;beslissingsitems&#39; genoemd, die u kunt maken en indelen in een gecentraliseerde catalogus en verzamelingen. Ze bestaan uit standaard- en aangepaste kenmerken die precies op uw behoeften zijn afgestemd. Bovendien, nemen zij profielbeperkingen op die u toestaan om te bepalen aan wie een besluitpunt kan worden getoond.
 
@@ -38,7 +38,7 @@ Als u een beslissingsitem wilt maken, navigeert u naar **[!UICONTROL Decisioning
 >id="ajo_exd_item_custom_attributes"
 >title="De aangepaste kenmerken definiëren"
 >abstract="Aangepaste kenmerken zijn specifieke kenmerken die zijn toegesneden op uw behoeften en die u kunt toewijzen aan een beslissingsitem. Zij worden gecreeerd in het de catalogusschema van besluitvormingspunten. Deze sectie wordt alleen weergegeven als u ten minste één aangepast kenmerk aan het catalogusschema hebt toegevoegd."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="De itemcatalogus configureren"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html?lang=nl-NL" text="De itemcatalogus configureren"
 
 Begin door de standaard en douanekenmerken van het besluitpunt te bepalen:
 
@@ -65,8 +65,8 @@ Begin door de standaard en douanekenmerken van het besluitpunt te bepalen:
 >title="Soorten publiek of beslissingsregels toevoegen"
 >abstract="Standaard kunnen alle profielen in aanmerking komen voor het item voor een beslissing, maar u kunt het publiek of de regels gebruiken om het item te beperken tot specifieke profielen."
 
-<!--additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="Use decision rules"-->
+<!--additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=nl-NL" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html?lang=nl-NL" text="Use decision rules"-->
 
 Standaard komen alle profielen in aanmerking om het beslissingsitem te ontvangen, maar u kunt het publiek of de regels gebruiken om het item te beperken tot specifieke profielen, beide oplossingen voor verschillende toepassingen. Vouw de onderstaande sectie uit voor meer informatie:
 
