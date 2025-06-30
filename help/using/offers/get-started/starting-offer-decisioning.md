@@ -1,19 +1,24 @@
 ---
 title: Aan de slag met Beslissingsbeheer
 description: Ontdek hoe Adobe Journey Optimizer u kan helpen uw klanten op het juiste moment het juiste aanbod te sturen
+badge: label="Verouderd" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '909'
 ht-degree: 49%
 
 ---
 
 # Aan de slag met Beslissingsbeheer {#about-decision-management}
+
+>[!TIP]
+>
+>Beslissing, de nieuwe beslissingsmogelijkheden van [!DNL Adobe Journey Optimizer], is nu beschikbaar via het op code gebaseerde ervaringskanaal! [Meer informatie](../../experience-decisioning/gs-experience-decisioning.md)
 
 Gebruik [!DNL Journey Optimizer] om uw klanten de beste aanbieding en ervaring op alle aanraakpunten op het juiste moment te bieden. Als u ze eenmaal hebt ontworpen, richt u zich op uw publiek met persoonlijke aanbiedingen.
 
@@ -36,7 +41,7 @@ Voordelen zijn:
 
 >[!NOTE]
 >
->Als u een [ Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=nl-NL){target="_blank"}  gebruiker die de **Offer Decisioning** toepassing leveraging, zijn alle die eigenschappen van het Beheer van het Besluit in deze sectie worden beschreven ook op u van toepassing.
+>Als u een [ Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} gebruiker die de **Offer Decisioning** toepassing leveraging, zijn alle die eigenschappen van het Beheer van het Besluit in deze sectie worden beschreven ook op u van toepassing.
 
 ## Aanbiedingen en beslissingen {#about-offers-and-decisions}
 
@@ -68,7 +73,7 @@ Dankzij de mogelijkheden voor Beslissingsbeheer en de integratie met Adobe Exper
 
 ## Toegang verlenen tot het beheer van besluiten {#granting-acess-to-decision-management}
 
-De toestemmingen om beslissingsmogelijkheden toegang te hebben en te gebruiken worden beheerd gebruikend [ Adobe Admin Console ](https://helpx.adobe.com/nl/enterprise/managing/user-guide.html){target="_blank"} .
+De toestemmingen om beslissingsmogelijkheden toegang te hebben en te gebruiken worden beheerd gebruikend [ Adobe Admin Console ](https://helpx.adobe.com/nl/enterprise/managing/user-guide.html){target="_blank"}.
 
 Als u toegang wilt verlenen tot de functionaliteit voor beslissingsbeheer, moet u een **[!UICONTROL Product profile]** maken en de bijbehorende machtigingen aan uw gebruikers toewijzen. Leer meer over het beheren van [!DNL Journey Optimizer] gebruikers en toestemmingen in [ deze sectie ](../../administration/permissions.md).
 

@@ -1,15 +1,16 @@
 ---
 title: Verzamelingsaanduidingen maken
 description: Leer hoe u kwalificatietoetsen voor verzamelingen voor uw aanbiedingen kunt maken
+badge: label="Verouderd" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -24,7 +25,7 @@ Door verzamelingsaanduidingen (die voorheen &#39;&#39;tags&#39;&#39; werden geno
 
 Verzamelingsbepalers kunnen ook worden gebruikt om aanbiedingen samen te groeperen in aanbiedingsinzamelingen. Zie [ inzamelingen ](../offer-library/creating-collections.md) creëren.
 
-➡️ [ ontdekt deze eigenschap in video ](#video)
+➡️ [Ontdek deze functie in video](#video)
 
 De lijst met gemaakte verzamelingskwalificatietoetsen is toegankelijk in het menu **[!UICONTROL Components]** .
 

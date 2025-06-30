@@ -1,14 +1,15 @@
 ---
 title: Aangepaste aanbiedingen in een e-mail gebruiken
 description: Ontdek een voorbeeld van begin tot eind dat alle stappen toont nodig om aanbiedingen te vormen en hen in een e-mail te gebruiken.
+badge: label="Verouderd" type="Informative"
 feature: Decision Management, Email
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1076'
 ht-degree: 2%
 
 ---

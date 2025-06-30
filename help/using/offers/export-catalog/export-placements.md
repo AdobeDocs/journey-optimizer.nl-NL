@@ -1,14 +1,15 @@
 ---
 title: Dataset met plaatsingen
 description: Deze sectie maakt een lijst van alle gebieden die in de uitgevoerde dataset voor plaatsingen worden gebruikt
+badge: label="Verouderd" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '362'
 ht-degree: 1%
 
 ---
@@ -23,98 +24,98 @@ De meest recente succesvolle partij in de dataset wordt getoond op het recht. De
 
 >[!NOTE]
 >
->Leer hoe te om tot de uitgevoerde datasets voor elk voorwerp van uw Bibliotheek van de Aanbieding in toegang te hebben [deze sectie](../export-catalog/access-dataset.md).
+>Leer hoe te om tot de uitgevoerde datasets voor elk voorwerp van uw Bibliotheek van de Aanbieding in [ toegang te hebben deze sectie ](../export-catalog/access-dataset.md).
 
-Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogvenster **[!UICONTROL Decision Object Repository - Placements]** dataset.
+Hier volgt een lijst met alle velden die kunnen worden gebruikt in de **[!UICONTROL Decision Object Repository - Placements]** -gegevensset.
 
 <!--A placement describes a location or place in a personalized message. It is used to set technical constraints for content that the personalization decision supplies. The placement also represents a request to produce certain types of metrics when an experience event is produced where this placement is involved. For instance, the placement facilitates a personalized clickable image inside an email shown to an end-user. The placement may for instance request from the assembled experience that the click on its image gets reported in an experience event with a metric https://ns.adobe.com/xdm/data/metrics/web/linkclicks and a reference to this placement.-->
 
 +++ Id
 
-**Veld:** _id
-**Titel:** Id
-**Omschrijving:** Een unieke id voor de record.
-**Type:** string
+**Gebied:** _id
+**Titel:** Identifier
+**Beschrijving:** Een uniek herkenningsteken voor het verslag.
+**Type:** koord
 
 +++
 
 +++ _experience
 
-**Veld:** _experience
-**Type:** object
+**Gebied:** _experience
+**Type:** voorwerp
 
 +++
 
 +++ _experience > decisions
 
-**Veld:** beslissing
-**Type:** object
+**Gebied:** beslissing
+**Type:** voorwerp
 
 +++
 
 +++ _experience > decisions > Placement&#39;s Channel Identifier
 
-**Veld:** channelID
-**Titel:** Kanaalid van plaatsing
-**Omschrijving:** Het kanaal waarin het voorstel is gedaan. De waarde is een geldige kanaal-URI. Zie https://ns.adobe.com/xdm/channels/channel.
-**Type:** string
+**Gebied:** channelID
+**Titel:** het Kanaal van de Plaatsing Herkenningsteken
+**Beschrijving:** het kanaal waarin het voorstel werd gemaakt. De waarde is een geldige kanaal-URI. Zie https://ns.adobe.com/xdm/channels/channel.
+**Type:** koord
 
 +++
 
 +++ _experience > decisions > Content Component Type
 
-**Veld:** componentType
-**Titel:** Type inhoudcomponent
-**Omschrijving:** Een opsomming van URI&#39;s waarbij elke waarde wordt toegewezen aan een type dat aan de inhoudcomponent wordt gegeven. Sommige consumenten van de inhoudrepresentaties verwachten dat de @type-waarde een verwijzing naar een schema is dat aanvullende eigenschappen van de inhoudcomponent beschrijft.
-**Type:** string
+**Gebied:** componentType
+**Titel:** Type van Component van de Inhoud
+**Beschrijving:** een opsommende reeks URIs waar elke waarde aan een type toewijst dat aan de inhoudscomponent wordt gegeven. Sommige consumenten van de inhoudrepresentaties verwachten dat de @type-waarde een verwijzing naar een schema is dat aanvullende eigenschappen van de inhoudcomponent beschrijft.
+**Type:** koord
 
 +++
 
 +++ _experience > decisions > contentTypes
 
-**Veld:** contentTypes
-**Type:** array
+**Gebied:** contentTypes
+**Type:** serie
 
 +++
 
 +++_experience > decisions > contentTypes > MIME Media Type
 
-**Titel:** MIME-mediatype
-**Omschrijving:** Een beperking voor het mediatype van de componenten die in die plaatsing worden verwacht. Er kunnen meerdere mediatypen mogelijk zijn voor één component, zoals een andere afbeeldingsindeling.
-**Type:** string
+**Titel:** MIME Mediatype
+**Beschrijving:** een beperking voor het media type van de componenten die in die plaatsing worden verwacht. Er kunnen meerdere mediatypen mogelijk zijn voor één component, zoals een andere afbeeldingsindeling.
+**Type:** koord
 
 +++
 
 +++ _experience > decisions > Placement Description
 
-**Veld:** beschrijving
-**Titel:** Plaatsingsbeschrijving
-**Omschrijving:** Het wordt gebruikt om menselijke leesbare intenties over te brengen over hoe de dynamische inhoud in de algemene berichtlevering wordt gebruikt. Dat een bepaalde ruimte een \&quot;banner\&quot; in een webpagina is, wordt vaak weergegeven via de beschrijving en niet via een formele methode.
-**Type:** string
+**Gebied:** beschrijving
+**Titel:** Beschrijving van de Plaatsing
+**Beschrijving:** het wordt gebruikt om menselijke leesbare intenties over te brengen op hoe de dynamische inhoud in de algemene berichtlevering wordt gebruikt. Dat een bepaalde ruimte een \&quot;banner\&quot; in een webpagina is, wordt vaak weergegeven via de beschrijving en niet via een formele methode.
+**Type:** koord
 
 +++
 
 +++ _experience > decisions > Placement Name
 
-**Veld:** name
-**Titel:** Plaatsingsnaam
-**Omschrijving:** Een toegewezen naam voor de plaatsing om naar het in menselijke interactie te verwijzen.
-**Type:** string
+**Gebied:** naam
+**Titel:** Naam van de Plaatsing
+**Beschrijving:** Een toegewezen naam voor de plaatsing om naar het in menselijke interactie te verwijzen.
+**Type:** koord
 
 +++
 
 +++ _repo
 
-**Veld:** _repo
-**Type:** object
+**Gebied:** _repo
+**Type:** voorwerp
 
 +++
 
 +++ _repo > Placement ETag
 
-**Veld:** etel
+**Gebied:** markering
 **Titel:** Plaatsing ETag
-**Omschrijving:** De revisie die het object voor de beslissingsoptie had toen de momentopname werd gemaakt.
-**Type:** string
+**Beschrijving:** de revisie die het voorwerp van de beslissingsoptie was toen de momentopname werd genomen.
+**Type:** koord
 
 +++

@@ -3,16 +3,17 @@ product: experience platform
 solution: Experience Platform
 title: Aan de slag met contextgegevens
 description: Leer hoe u contextgegevens kunt gebruiken in besluitvormingsbeheer.
+badge: label="Verouderd" type="Informative"
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+exl-id: 4e736f9d-0f05-4a79-8ebf-ea22517d78a9
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
-
 
 # Aan de slag met contextgegevens {#context-data}
 
@@ -29,4 +30,3 @@ Zie de volgende secties voor gedetailleerde informatie over het gebruik van cont
 
 * [Contextgegevens gebruiken in Edge-beslissingsverzoeken](context-data-edge.md)
 * [Contextgegevens gebruiken in beslissingsverzoeken](context-data-decisioning.md)
-

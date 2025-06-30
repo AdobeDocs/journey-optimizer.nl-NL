@@ -1,15 +1,16 @@
 ---
 title: Beoordelingsformule
 description: Meer informatie over het maken van formules om aanbiedingen te beoordelen
+badge: label="Verouderd" type="Informative"
 feature: Ranking, Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 **Rangschikkende formules** staan u toe om regels te bepalen die welke aanbieding eerst voor een bepaalde plaatsing, eerder dan rekening houdend met de prioritaire scores van aanbiedingen zullen bepalen.
 
-De rangschikkende formules worden uitgedrukt in **syntaxis van PQL** en kunnen attributen van het hefboomwerkingenprofiel, contextgegevens en aanbiedingsattributen. Voor meer op hoe te om de syntaxis van PQL te gebruiken, verwijs naar de [ specifieke documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=nl-NL).
+De rangschikkende formules worden uitgedrukt in **syntaxis van PQL** en kunnen attributen van het hefboomwerkingenprofiel, contextgegevens en aanbiedingsattributen. Voor meer op hoe te om de syntaxis van PQL te gebruiken, verwijs naar de [ specifieke documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
 
 Nadat u een rangschikkingsformule hebt gemaakt, kunt u deze toewijzen aan een plaatsing in een beslissing. Voor meer op dit, zie [ aanbiedingsselectie in besluiten ](../offer-activities/configure-offer-selection.md) vormen.
 

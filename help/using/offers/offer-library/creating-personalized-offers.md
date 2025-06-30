@@ -1,15 +1,16 @@
 ---
 title: Gepersonaliseerde aanbiedingen maken
 description: Leer hoe u uw aanbiedingen kunt maken, configureren en beheren
+badge: label="Verouderd" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '795'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -21,7 +22,7 @@ Voordat u een aanbieding maakt, moet u controleren of u het volgende hebt gemaak
 * Als u een toelatingsvoorwaarde wilt toevoegen: a **besluitvormingsregel** die de voorwaarde zal bepalen waaronder de aanbieding zal worden voorgesteld. Zie [ besluitvormingsregels ](../offer-library/creating-decision-rules.md) creëren.
 * Één of verscheidene **inzamelingsbepalers** (die eerder als &quot;markeringen&quot;worden bekend) die u aan de aanbieding kunt willen associëren. Zie [ inzamelingsbepalende eigenschappen ](../offer-library/creating-tags.md) creëren.
 
-➡️ [ ontdekt deze eigenschap in video ](#video)
+➡️ [Ontdek deze functie in video](#video)
 
 De lijst met gepersonaliseerde aanbiedingen is toegankelijk in het menu **[!UICONTROL Offers]** .
 
@@ -130,7 +131,7 @@ In de lijst met aanbiedingen kunt u de aanbieding selecteren en de eigenschappen
 
 ![](../assets/offer_created.png)
 
-Selecteer de **[!UICONTROL Edit]** knoop om naar de wijze van de aanbiedingsuitgave terug te gaan, waar u de 1&rbrace; details van de aanbieding [&#128279;](#create-offer) kunt wijzigen, [ vertegenwoordiging ](#representations), evenals [ geschiktheidsregels en beperkingen ](#eligibility) uitgeven.
+Selecteer de **[!UICONTROL Edit]** knoop om naar de wijze van de aanbiedingsuitgave terug te gaan, waar u de 1} details van de aanbieding ](#create-offer) kunt wijzigen, [ vertegenwoordiging ](#representations), evenals [ geschiktheidsregels en beperkingen ](#eligibility) uitgeven.[
 
 Selecteer een goedgekeurde aanbieding en klik op **[!UICONTROL Undo approve]** om de status van de aanbieding weer in te stellen op **[!UICONTROL Draft]** .
 

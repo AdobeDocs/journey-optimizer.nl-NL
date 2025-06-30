@@ -1,13 +1,14 @@
 ---
 title: Batchbeslissing
 description: Leer hoe u beslissingen kunt aanbieden aan alle profielen in een bepaald Adobe Experience Platform-publiek.
+badge: label="Verouderd" type="Informative"
 feature: Decision Management
 role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '821'
 ht-degree: 1%
 
 ---
@@ -26,7 +27,7 @@ Batchlevering kan ook worden uitgevoerd met behulp van API&#39;s. Voor meer op d
 
 Voordat u een taakaanvraag configureert, moet u controleren of u het volgende hebt gemaakt:
 
-* **dataset van A** in Adobe Experience Platform. Deze dataset zal worden gebruikt om het beslissingsresultaat op te slaan gebruikend het schema &quot;ODE DecisionEvents&quot;. Leer meer in de [ documentatie van Datasets ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=nl-NL).
+* **dataset van A** in Adobe Experience Platform. Deze dataset zal worden gebruikt om het beslissingsresultaat op te slaan gebruikend het schema &quot;ODE DecisionEvents&quot;. Leer meer in de [ documentatie van Datasets ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html).
 
 * **een publiek** in Adobe Experience Platform. Het publiek moet worden geëvalueerd en vervolgens worden bijgewerkt. Leer hoe te om de evaluatie van het publiekslidmaatschap in de [ documentatie van de Dienst van de Segmentatie ](https://www.adobe.com/go/segmentation-overview-en) bij te werken
 

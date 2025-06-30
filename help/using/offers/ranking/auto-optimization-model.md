@@ -3,13 +3,14 @@ product: experience platform
 solution: Experience Platform
 title: Modellen voor automatische optimalisatie
 description: Meer informatie over modellen voor automatische optimalisatie
+badge: label="Verouderd" type="Informative"
 feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1359'
 ht-degree: 0%
 
 ---
@@ -33,7 +34,7 @@ De volgende termen zijn handig wanneer u het over automatisch optimaliseren hebt
 
 * **Thomson bemonstering**: De steekproef van Thompson is een algoritme voor online besluitvormingsproblemen waar de acties opeenvolgend op een manier worden genomen die tussen het exploiteren van wat moet in evenwicht brengen om directe prestaties te maximaliseren en te investeren om nieuwe informatie te verzamelen die toekomstige prestaties kan verbeteren. [Meer informatie](#thompson-sampling)
 
-* [**de distributie van Beta** ](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}: Reeks ononderbroken [ kansverdelingen ](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"} die op het interval [ 0 worden bepaald, ] [&#128279;](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} door twee positieve [ vormparameters ](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"} wordt bepaald.
+* [**de distributie van Beta** ](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}: Reeks ononderbroken [ kansverdelingen ](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"} die op het interval [ 0 worden bepaald, ] [ ](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} door twee positieve [ vormparameters ](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"} wordt bepaald.
 
 ## Thompson Sampling {#thompson-sampling}
 

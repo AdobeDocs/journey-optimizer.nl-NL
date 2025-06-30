@@ -3,14 +3,15 @@ product: experience platform
 solution: Experience Platform
 title: AI-modellen maken
 description: Leer hoe u AI-modellen maakt om aanbiedingen te beoordelen
+badge: label="Verouderd" type="Informative"
 feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '458'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -56,7 +57,7 @@ Voer de volgende stappen uit om een AI-model te maken:
    >* **de gebeurtenissen van de Indrukking** (aanbiedingen die worden getoond)
    >* **de gebeurtenissen van de Omzetting** (aanbiedingen die in kliks via e-mail of Web) resulteren.
    >
-   >Deze gebeurtenissen worden automatisch vastgelegd met de Web SDK of de Mobile SDK die is opgegeven. Leer meer over dit in [ het overzicht van SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL).
+   >Deze gebeurtenissen worden automatisch vastgelegd met de Web SDK of de Mobile SDK die is opgegeven. Leer meer over dit in [ het overzicht van SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html).
 
 1. Selecteer de gegevensset(s) waar de conversie- en impressiefeedagen worden verzameld. Leer hoe te om dergelijke dataset in [ tot stand te brengen deze sectie ](../data-collection/create-dataset.md). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
@@ -68,7 +69,7 @@ Voer de volgende stappen uit om een AI-model te maken:
 
 1. Als u een **[!UICONTROL Personalized optimization]** AI-model maakt, selecteert u het segment dat u wilt gebruiken om het AI-model te trainen.
 
-   ➡️ [ ontdekt deze eigenschap in video ](#video)
+   ➡️ [Ontdek deze functie in video](#video)
 
    ![](../assets/ai-ranking-segments.png)
 
@@ -86,7 +87,7 @@ Voer de volgende stappen uit om een AI-model te maken:
 * defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
 * and in which dataset you want to collect the event data.-->
 
-Nu telkens als een aanbieding wordt getoond en/of geklikt, wilt u de overeenkomstige gebeurtenis automatisch worden gevangen door de **[!UICONTROL Experience Event - Proposition Interactions]** gebiedsgroep gebruikend het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=nl-NL#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"}  of Mobiele SDK.
+Nu telkens als een aanbieding wordt getoond en/of geklikt, wilt u de overeenkomstige gebeurtenis automatisch worden gevangen door de **[!UICONTROL Experience Event - Proposition Interactions]** gebiedsgroep gebruikend het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} of Mobiele SDK.
 
 Als u gebeurtenistypen wilt kunnen verzenden (weergegeven aanbod of aangeklikte aanbieding), moet u de juiste waarde voor elk gebeurtenistype instellen in een ervaringsgebeurtenis die naar Adobe Experience Platform wordt verzonden. [ leer hoe ](../data-collection/schema-requirement.md)
 
@@ -94,4 +95,4 @@ Als u gebeurtenistypen wilt kunnen verzenden (weergegeven aanbod of aangeklikte 
 
 Leer hoe u een gepersonaliseerd optimalisatiemodel maakt en hoe u dit op een beslissing toepast.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445957?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)

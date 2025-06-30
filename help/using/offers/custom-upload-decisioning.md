@@ -1,16 +1,17 @@
 ---
 title: Aangepast uploadpubliek gebruiken voor beslissingen
 description: Leer hoe u Aangepast uploadpubliek kunt gebruiken om beslissingen te nemen.
+badge: label="Verouderd" type="Informative"
 feature: Decision Management
 role: User
 level: Intermediate
-source-git-commit: 1e46321de543196277613889c438dc6756e45652
+exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
-
 
 # Aangepast uploadpubliek gebruiken voor beslissingen {#custom-upload-decisioning}
 
@@ -23,14 +24,13 @@ Gegevens van een aangepast publiek voor uploaden kunnen in Beslissingsbeheer wor
 
 Raadpleeg de secties voor meer informatie over het publiek voor Aangepaste upload:
 * [Aan de slag met publiek en Journey Optimizer](../audience/about-audiences.md)
-* [ Importing an publiek in Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"} 
+* [ het Invoeren van een publiek in Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## Lees hier meer {#must-read}
 
 * Deze functionaliteit wordt gesteund in **slechts het Beheer van het Besluit**, niet in Beslissing (vroeger gekend als &quot;Beslissing van de Ervaring&quot;).
 * Het is uitsluitend beschikbaar door **Beslissing API (Hub)** verzoeken en wordt niet gesteund door **Edge Decisioning API** of **partijbesluit**.
  
-
 ## Een aangepast upload-publiek gebruiken als geschiktheidscriteria {#eligibilty}
 
 U kunt een publiek van de upload van de Douane als geschiktheidscriteria op zowel het voorstel als beslissingsniveau gebruiken. Als deze criteria eenmaal zijn toegevoegd, kunnen aanbiedingen of inzamelingen van aanbiedingen van de subsidiabiliteit worden uitgesloten. Hier volgt een overzicht van de verschillende locaties waar u Aangepaste uploadmogelijkheden kunt gebruiken om aanbiedingen en beslissingen beter in aanmerking te nemen:

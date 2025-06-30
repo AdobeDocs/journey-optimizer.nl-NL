@@ -1,15 +1,16 @@
 ---
 title: Alternatieve aanbiedingen maken
 description: Leer hoe u fallback-aanbiedingen kunt maken voor klanten die niet in aanmerking komen voor een aanbieding
+badge: label="Verouderd" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '287'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 De fallback-aanbieding wordt naar klanten gestuurd als zij niet in aanmerking komen voor andere aanbiedingen. De stappen om een reserveaanbieding tot stand te brengen bestaan uit het creëren van één of verscheidene vertegenwoordiging, zoals wanneer het creëren van een aanbieding.
 
-➡️ [ ontdekt deze eigenschap in video ](#video)
+➡️ [Ontdek deze functie in video](#video)
 
 De lijst met terugvalaanbiedingen is toegankelijk in het menu **[!UICONTROL Offers]** .
 

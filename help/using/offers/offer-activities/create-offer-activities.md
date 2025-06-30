@@ -1,12 +1,13 @@
 ---
 title: Beslissingen maken
 description: Leer hoe u beslissingen maakt
+badge: label="Verouderd" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '2445'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 Besluiten zijn containers voor uw aanbiedingen die gebruikmaken van de Offertenbeslissingsengine om de beste aanbieding te kiezen, afhankelijk van het doel van de levering.
 
-➡️ [ leren hoe te om aanbiedingsactiviteiten in deze video tot stand te brengen ](#video)
+➡️ [ Leer hoe te om aanbiedingsactiviteiten in deze video tot stand te brengen ](#video)
 
 De lijst met beslissingen is toegankelijk via het tabblad **[!UICONTROL Offers]** > **[!UICONTROL Decisions]** . De filters zijn beschikbaar om u te helpen besluiten op hun status of begin en einddata terugwinnen.
 
@@ -350,7 +351,7 @@ In de beslissingslijst kunt u de beslissing selecteren om de eigenschappen ervan
 
 ![](../assets/decision_created.png)
 
-Selecteer de **[!UICONTROL Edit]** knoop om naar de wijze van de beslissingsuitgave terug te gaan, waar u de 1&rbrace; details van het besluit [&#128279;](#create-activity) kunt wijzigen, [ besluitvormingswerkingsgebied ](#add-decision-scopes) en [ fallback aanbieding ](#add-fallback).
+Selecteer de **[!UICONTROL Edit]** knoop om naar de wijze van de beslissingsuitgave terug te gaan, waar u de 1} details van het besluit ](#create-activity) kunt wijzigen, [ besluitvormingswerkingsgebied ](#add-decision-scopes) en [ fallback aanbieding ](#add-fallback).[
 
 >[!IMPORTANT]
 >

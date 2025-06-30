@@ -1,12 +1,13 @@
 ---
 title: Plaatsingen maken
 description: Leer hoe u plaatsingen voor uw aanbiedingen kunt maken
+badge: label="Verouderd" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 1%
@@ -32,7 +33,7 @@ ht-degree: 1%
 
 Een plaatsing helpt ervoor te zorgen dat de juiste aanbiedingsinhoud op de juiste plaats binnen uw bericht verschijnt. Wanneer u inhoud aan een aanbieding toevoegt, wordt u gevraagd een plaatsing te selecteren waarin die inhoud kan worden weergegeven.
 
-➡️ [ leren hoe te plaatsen in deze video ](#video) tot stand te brengen
+➡️ [ Leer hoe te plaatsen in deze video ](#video) tot stand te brengen
 
 In het onderstaande voorbeeld zijn er drie plaatsen die overeenkomen met verschillende typen inhoud (afbeelding, tekst, HTML).
 
@@ -67,11 +68,11 @@ Voer de volgende stappen uit om een plaatsing te maken:
 
    * **[!UICONTROL Include content]** / **[!UICONTROL Include metadata]** : geef op of de inhoud en metagegevens van de aanbieding moeten worden geretourneerd in de API-reactie. U kunt alleen alle metagegevens of specifieke velden opnemen. De waarde voor Inclusief metagegevens is standaard ingesteld op true.
 
-   Deze parameters kunnen ook direct in uw API verzoek worden geplaatst als u met [ Beslissing API ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html?lang=nl-NL) werkt. Als u deze echter configureert in de gebruikersinterface, kunt u tijd besparen omdat u deze niet in elke API-aanvraag hoeft door te geven. Merk op dat als u de parameters zowel in gebruikersinterface als het API verzoek vormt, de waarden van het API verzoek over degenen van de interface zullen prevaleren.
+   Deze parameters kunnen ook direct in uw API verzoek worden geplaatst als u met [ Beslissing API ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html) werkt. Als u deze echter configureert in de gebruikersinterface, kunt u tijd besparen omdat u deze niet in elke API-aanvraag hoeft door te geven. Merk op dat als u de parameters zowel in gebruikersinterface als het API verzoek vormt, de waarden van het API verzoek over degenen van de interface zullen prevaleren.
 
    >[!NOTE]
    >
-   >Als u met [ Edge beslist API ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?lang=nl-NL&) werkt, kunt u niet deze parameters in uw verzoek plaatsen. U moet ze in dit scherm definiëren.
+   >Als u met [ Edge beslist API ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?) werkt, kunt u niet deze parameters in uw verzoek plaatsen. U moet ze in dit scherm definiëren.
    >
    >Als u met de [ Bevestiging API van de Partij ](../api-reference/offer-delivery-api/batch-decisioning-api.md) werkt, kunt u deze parameters of in dit scherm of in uw API verzoek plaatsen. Als parameterwaarden niet overeenkomen tussen het scherm en het APi-verzoek, worden de aanvraagwaarden gebruikt.
 

@@ -1,24 +1,25 @@
 ---
 title: Aan de slag met waarderingen
 description: Leer hoe u met classificaties werkt
+badge: label="Verouderd" type="Informative"
 feature: Ranking, Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: f736dcc7-6f6e-42ff-a940-4602299ae2b6
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met waarderingen {#create-fallback-offers}
 
-[!DNL Journey Optimizer] kunt u classificaties gebruiken om aanbiedingen voor een bepaald profiel weer te geven:
+Met [!DNL Journey Optimizer] kunt u voor een bepaald profiel classificaties gebruiken voor aanbiedingen in ranks:
 
-* **Beoordelingsformule** kunt u regels definiëren die bepalen welke aanbieding eerst voor een bepaalde plaatsing moet worden gepresenteerd, in plaats van rekening te houden met de prioriteitsscores van de aanbiedingen. [Meer informatie over waarderingsformules](create-ranking-formulas.md)
+* **Rangschikkende formules** staan u toe om regels te bepalen die welke aanbieding eerst voor een bepaalde plaatsing, eerder dan rekening houdend met de prioritaire scores van aanbiedingen zullen bepalen. [ leer meer over het rangschikken formules ](create-ranking-formulas.md)
 
-* **AI-modellen** kunt u getrainde modelsystemen gebruiken die meerdere gegevenspunten gebruiken om te bepalen welke aanbieding eerst voor een bepaalde plaatsing moet worden gepresenteerd. [Meer informatie over AI-modellen](ai-models.md)
+* **AI modellen** staan u toe om opgeleide modelsystemen te gebruiken die hefboomwerking veelvoudige gegevenspunten zullen bepalen welke aanbieding eerst voor een bepaalde plaatsing zou moeten worden voorgesteld. [ leer meer over AI modellen ](ai-models.md)
 
-Nadat u een rangschikkingsformule of een AI-model hebt gemaakt, kunt u deze toewijzen aan een plaatsing in een beslissing. Zie voor meer informatie [Aanbiedingen selecteren in beslissingen configureren](../offer-activities/configure-offer-selection.md).
+Nadat u een rangschikkingsformule of een AI-model hebt gemaakt, kunt u deze toewijzen aan een plaatsing in een beslissing. Voor meer op dit, zie [ aanbiedingsselectie in besluiten ](../offer-activities/configure-offer-selection.md) vormen.

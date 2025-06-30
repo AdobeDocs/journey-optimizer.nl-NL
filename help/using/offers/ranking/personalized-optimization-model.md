@@ -3,13 +3,14 @@ product: experience platform
 solution: Experience Platform
 title: Gepersonaliseerd optimalisatiemodel
 description: Meer informatie over aangepaste optimalisatiemodellen
+badge: label="Verouderd" type="Informative"
 feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 9188b144d1f98f57c585c3828420b9cd48d1d90a
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -39,14 +40,14 @@ Er zijn drie typen functies:
 
 | Typen functies | Functies toevoegen aan modellen |
 |--------------|----------------------------|
-| Decisioning-objecten (placementID, activityID, DecisionScopeID) | Deel van de feedback-ervaringen over het beheer van beslissingen die naar het AEP zijn verzonden |
+| Decisioning-objecten (placementID, activityID, DecisionScopeID) | Deel van de feedback Experience Events voor het beheer van beslissingen die naar AEP zijn verzonden |
 | Doelgroepen | Het publiek 0-50 kan worden toegevoegd als functies bij het maken van het Willekeurige AI-model |
-| Contextgegevens | Een deel van de beslissing feedback over ervaringen die naar AEP zijn gestuurd. Beschikbare contextgegevens die aan het schema moeten worden toegevoegd: Commerce Details, Channel Details, Application Details, Web Details, Environment Details, Device Details, PlaceContext |
+| Contextgegevens | Een deel van de beslissingen die terugkoppelen Ervaring Gebeurtenissen verzonden naar AEP. Beschikbare contextgegevens die aan het schema moeten worden toegevoegd: Commerce Details, Channel Details, Application Details, Web Details, Environment Details, Device Details, PlaceContext |
 
 Het model heeft twee fasen:
 
 * In de **off-line modelopleiding** fase, wordt een model getraind door eigenschapinteractie in historische gegevens te leren en te herdenken.
-* In de **fase van de 0&rbrace; online conferentie, worden de kandidaten aangeboden gerangschikt gebaseerd op scores in real time die door het model worden geproduceerd.** In tegenstelling tot traditionele samenwerkings het filtreren technieken, die moeilijk om eigenschappen voor gebruikers en aanbiedingen te omvatten is, is de gepersonaliseerde optimalisering een diep het leren gebaseerde raadsmethode, en kan complexe en niet-lineaire patronen van de eigenschapinteractie omvatten en leren.
+* In de **fase van de 0} online conferentie, worden de kandidaten aangeboden gerangschikt gebaseerd op scores in real time die door het model worden geproduceerd.** In tegenstelling tot traditionele samenwerkings het filtreren technieken, die moeilijk om eigenschappen voor gebruikers en aanbiedingen te omvatten is, is de gepersonaliseerde optimalisering een diep het leren gebaseerde raadsmethode, en kan complexe en niet-lineaire patronen van de eigenschapinteractie omvatten en leren.
 
 Hier volgt een vereenvoudigd voorbeeld om het basisidee achter gepersonaliseerde optimalisatie te illustreren. Veronderstel wij een dataset hebben die historische interactie tussen gebruikers en aanbiedingen opslaat, die in Figuur 1 wordt getoond. Er zijn:
 * Twee aanbiedingen, aanbieding_1 en aanbieding_2,

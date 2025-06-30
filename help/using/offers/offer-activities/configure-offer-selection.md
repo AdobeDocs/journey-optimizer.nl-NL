@@ -1,15 +1,16 @@
 ---
 title: Selectie van aanbiedingen in beslissingen configureren
 description: Leer hoe u de selectie van aanbiedingen kunt beheren in beslissingen
+badge: label="Verouderd" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 5%
+source-wordcount: '439'
+ht-degree: 3%
 
 ---
 
@@ -24,33 +25,33 @@ Als verscheidene aanbiedingen voor een bepaalde plaatsing verkiesbaar zijn, kunt
 
 ## Voorstelprioriteit {#offer-priority}
 
-Wanneer meerdere aanbiedingen in aanmerking komen voor een bepaalde plaatsing in een besluit, worden standaard de aanbiedingen met de hoogste **prioriteit** wordt eerst aan de klanten geleverd.
+Door gebrek, wanneer verscheidene aanbiedingen voor een bepaalde plaatsing in een besluit verkiesbaar zijn, zullen de aanbiedingen met de hoogste **prioriteit** eerst aan de klanten worden geleverd.
 
 ![](../assets/offer-priority.png)
 
-De prioritaire scores van aanbiedingen worden toegewezen wanneer het creëren van een aanbieding. Leer hoe u een persoonlijke aanbieding kunt maken in [deze sectie](../offer-library/creating-personalized-offers.md).
+De prioritaire scores van aanbiedingen worden toegewezen wanneer het creëren van een aanbieding. Leer hoe te om een gepersonaliseerde aanbieding in [ tot stand te brengen deze sectie ](../offer-library/creating-personalized-offers.md).
 
 ## Willekeurige formule {#assign-ranking-formula}
 
-Met Journey Optimizer kunt u niet alleen prioriteit bieden, maar ook **waarderingsformules**. Dit zijn formules die bepalen welke aanbieding eerst voor een bepaalde plaatsing moet worden gepresenteerd, in plaats van rekening te houden met de prioriteitsscores van de aanbiedingen.
+Naast het aanbieden van prioriteit, staat Journey Optimizer u toe om **het rangschikken formules** tot stand te brengen. Dit zijn formules die bepalen welke aanbieding eerst voor een bepaalde plaatsing moet worden gepresenteerd, in plaats van rekening te houden met de prioriteitsscores van de aanbiedingen.
 
 U kunt bijvoorbeeld de prioriteit verhogen van alle aanbiedingen met een einddatum van minder dan 24 uur, of aanbiedingen verhogen van de categorie &quot;actief&quot; als het interessepunt van het profiel &quot;actief&quot; is.
 
-Leer hoe u een waarderingsformule maakt in [deze sectie](../ranking/create-ranking-formulas.md).
+Leer hoe te om een het rangschikken formule in [ tot stand te brengen deze sectie ](../ranking/create-ranking-formulas.md).
 
-Nadat een formule is gemaakt, kunt u deze toewijzen aan een plaatsing in een beslissing. Volg de onderstaande stappen om dit te doen:
+Nadat een formule is gemaakt, kunt u deze toewijzen aan een plaatsing in een beslissing. Hiervoor voert u de volgende stappen uit:
 
-1. Maak een beslissing of bewerk een bestaande beslissing. Zie [Besluiten maken](../offer-activities/create-offer-activities.md).
+1. Maak een beslissing of bewerk een bestaande beslissing. Zie [ besluiten ](../offer-activities/create-offer-activities.md) creëren.
 
-1. Voeg de plaatsingen toe die uw voorstellen zullen bevatten. Zie [Plaatsen maken](../offer-library/creating-placements.md).
+1. Voeg de plaatsingen toe die uw voorstellen zullen bevatten. Zie [ plaatsingen ](../offer-library/creating-placements.md) creëren.
 
-1. Voeg voor elke plaatsing een verzameling toe. Zie [Verzamelingen maken](../offer-library/creating-collections.md).
+1. Voeg voor elke plaatsing een verzameling toe. Zie [ inzamelingen ](../offer-library/creating-collections.md) creëren.
 
-1. Selecteren **[!UICONTROL Formula]** als de waarderingsmethode klikt u op **[!UICONTROL Add ranking]**.
+1. Selecteer **[!UICONTROL Formula]** als waarderingsmethode en klik op **[!UICONTROL Add ranking]** .
 
    ![](../assets/offer-activity-ranking.png)
 
-1. Selecteer de gewenste formule en klik op **[!UICONTROL Select]**.
+1. Selecteer de gewenste formule en klik op **[!UICONTROL Select]** .
 
    ![](../assets/ranking-selection.png)
 
@@ -60,19 +61,19 @@ Als meerdere aanbiedingen in aanmerking komen om in deze plaatsing te worden gep
 
 ## AI-rangschikking {#use-ranking-strategy}
 
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=nl-NL){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-U kunt ook een getraind modelsysteem gebruiken dat aanbiedingen voor een bepaald profiel automatisch rangschikt door een AI-model te selecteren. Leer hoe u een AI-model maakt in [deze sectie](../ranking/create-ranking-strategies.md).
+U kunt ook een getraind modelsysteem gebruiken dat aanbiedingen voor een bepaald profiel automatisch rangschikt door een AI-model te selecteren. Leer hoe te om een AI model in [ tot stand te brengen deze sectie ](../ranking/create-ranking-strategies.md).
 
 Nadat u een AI-model hebt gemaakt, kunt u het toewijzen aan een plaatsing in een beslissing. Hiervoor voert u de volgende stappen uit:
 
-1. Maak een beslissing of bewerk een bestaande beslissing. Zie [Besluiten maken](../offer-activities/create-offer-activities.md).
+1. Maak een beslissing of bewerk een bestaande beslissing. Zie [ besluiten ](../offer-activities/create-offer-activities.md) creëren.
 
-1. Voeg de plaatsingen toe die uw voorstellen zullen bevatten. Zie [Plaatsen maken](../offer-library/creating-placements.md).
+1. Voeg de plaatsingen toe die uw voorstellen zullen bevatten. Zie [ plaatsingen ](../offer-library/creating-placements.md) creëren.
 
-1. Voeg voor elke plaatsing een verzameling toe. Zie [Verzamelingen maken](../offer-library/creating-collections.md).
+1. Voeg voor elke plaatsing een verzameling toe. Zie [ inzamelingen ](../offer-library/creating-collections.md) creëren.
 
-1. Kies ervoor om voorstellen te plaatsen op **[!UICONTROL AI ranking]** in de vervolgkeuzelijst en klik op **[!UICONTROL Add ranking]**.
+1. Kies om aanbiedingen op **[!UICONTROL AI ranking]** te plaatsen in de vervolgkeuzelijst en klik op **[!UICONTROL Add ranking]** .
 
    ![](../assets/ranking-selection-ai-ranking.png)
 

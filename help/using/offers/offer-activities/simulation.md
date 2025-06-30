@@ -1,14 +1,15 @@
 ---
 title: Simulaties maken
 description: Leer hoe u kunt simuleren welke aanbiedingen voor een bepaalde plaatsing worden geleverd om uw beslissingslogica te valideren
+badge: label="Verouderd" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
@@ -214,5 +215,5 @@ Nadat u een beslissingsbereik hebt toegevoegd en een testprofiel hebt geselectee
 
    >[!NOTE]
    >
-   >Wanneer u de aanvraag- of antwoordladingen naar uw eigen code kopieert, moet u {USER_TOKEN} en {API_KEY} vervangen door geldige waarden. Leer hoe te om deze waarden in [ Adobe Experience Platform APIs terug te winnen ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=nl-NL){target="_blank"}  documentatie.
+   >Wanneer u de aanvraag- of antwoordladingen naar uw eigen code kopieert, moet u {USER_TOKEN} en {API_KEY} vervangen door geldige waarden. Leer hoe te om deze waarden in de [ Adobe Experience Platform APIs ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"} documentatie terug te winnen.
 

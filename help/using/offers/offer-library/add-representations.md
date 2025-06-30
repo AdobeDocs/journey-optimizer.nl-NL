@@ -1,14 +1,15 @@
 ---
 title: Afbeeldingen toevoegen aan een aanbieding
 description: Leer hoe u afbeeldingen aan uw aanbiedingen kunt toevoegen
+badge: label="Verouderd" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 7e9174f8a21c71b8b8e7633d664d5de7d877c240
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -72,7 +73,7 @@ Als de geselecteerde plaatsing beeld-type is, kunt u inhoud toevoegen die uit de
 
 >[!NOTE]
 >
-> Om met [ de Hoofdzaak van de Activa van de Manager van de Ervaring van Adobe ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=nl-NL){target="_blank"} te werken, moet u [!DNL Assets Essentials] voor uw organisatie opstellen en ervoor zorgen dat de gebruikers een deel van de **Hoofdzaak van Activa Consumenten** of **Hoofdzaak van Activa** profielen van het Product zijn. Leer meer over [ deze pagina ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=nl-NL){target="_blank"}.
+> Om met [ de Hoofdzaak van de Activa van de Manager van de Ervaring van Adobe ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"} te werken, moet u [!DNL Assets Essentials] voor uw organisatie opstellen en ervoor zorgen dat de gebruikers een deel van de **Hoofdzaak van Activa Consumenten** of **Hoofdzaak van Activa** profielen van het Product zijn. Leer meer over [ deze pagina ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
 
 1. Kies de optie **[!UICONTROL Asset library]**.
 
@@ -88,9 +89,9 @@ Als de geselecteerde plaatsing beeld-type is, kunt u inhoud toevoegen die uit de
 
 ### HTML- of JSON-bestanden toevoegen {#html-json}
 
-Als de geselecteerde plaatsing HTML-type is, kunt u HTML of inhoud ook toevoegen JSON die uit de [ bibliotheek van de Activa van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=nl-NL){target="_blank"} komt).
+Als de geselecteerde plaatsing HTML-type is, kunt u HTML of inhoud ook toevoegen JSON die uit de [ bibliotheek van de Activa van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"} komt).
 
-Bijvoorbeeld, creeerde u een HTML e-mailmalplaatje in [ Adobe Experience Manager ](https://experienceleague.adobe.com/docs/experience-manager.html?lang=nl-NL){target="_blank"} en u wilt dat dossier voor uw aanbiedingsinhoud gebruiken. In plaats van het creëren van een nieuw dossier, kunt u het malplaatje in de **Bibliotheek van Activa** eenvoudig uploaden om het in de vertegenwoordiging van uw aanbieding te kunnen opnieuw gebruiken.
+Bijvoorbeeld, creeerde u een HTML e-mailmalplaatje in [ Adobe Experience Manager ](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"} en u wilt dat dossier voor uw aanbiedingsinhoud gebruiken. In plaats van het creëren van een nieuw dossier, kunt u het malplaatje in de **Bibliotheek van Activa** eenvoudig uploaden om het in de vertegenwoordiging van uw aanbieding te kunnen opnieuw gebruiken.
 
 Om uw inhoud in een vertegenwoordiging opnieuw te gebruiken, doorblader de **Bibliotheek van Activa** zoals die in [ wordt beschreven deze sectie ](#images) en selecteer het HTML of JSON dossier van uw keus.
 
@@ -110,7 +111,7 @@ Leer meer over [ het fragmentintegratie van de Inhoud met Journey Optimizer ](..
 
 U wilt bijvoorbeeld de afbeelding aanpassen die als een aanbieding wordt weergegeven. Je wilt dat gebruikers die de voorkeur geven aan vakanties in de stad de skyline NYC zien en gebruikers die de voorkeur geven aan strandvakanties om de noordkust van Hawaii te zien.
 
-Gebruik de verpersoonlijkingsredacteur om de attributen van het Profiel terug te winnen die in Adobe Experience Platform worden opgeslagen gebruikend verenigingsschema&#39;s. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=nl-NL){target="_blank"}
+Gebruik de verpersoonlijkingsredacteur om de attributen van het Profiel terug te winnen die in Adobe Experience Platform worden opgeslagen gebruikend verenigingsschema&#39;s. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
 
 ![](../assets/offer-content-url-personalization.png)
 
