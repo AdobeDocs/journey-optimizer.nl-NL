@@ -55,7 +55,7 @@ Voer de volgende stappen uit om een AI-model te maken:
    * **de gebeurtenissen van de Indrukking** (aanbiedingen die worden getoond)
    * **de gebeurtenissen van de Omzetting** (aanbiedingen die in kliks via e-mail of Web) resulteren.
 
-   Deze gebeurtenissen worden automatisch vastgelegd met de Web SDK of de Mobile SDK die is opgegeven. Leer meer in het ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) overzicht van SDK van het Web 0} Adobe Experience Platform.[
+   Deze gebeurtenissen worden automatisch vastgelegd met de Web SDK of de Mobile SDK die is opgegeven. Leer meer in het [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) overzicht van SDK van het Web 0&rbrace; Adobe Experience Platform.
 
 +++ Modellen optimaliseren op aangepaste [!DNL Customer Journey Analytics] metriek
 
