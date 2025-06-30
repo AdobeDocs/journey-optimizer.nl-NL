@@ -6,9 +6,9 @@ description: Leer hoe u georkestreerde campagnes met Adobe Journey Optimizer kun
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: f8afef4729e50b7c9899bf7f2fe282347220dfac
+source-git-commit: 02270bddf988e8a722e78d0b63fe157c74b586e4
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 | Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
 |---|---|---|---|
-| [ krijgen begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](configuration-steps.md)<br/><br/>[ Toegang en beheert georkestreerde campagnes ](access-manage-orchestrated-campaigns.md) | [ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](gs-campaign-creation.md)<br/><br/>[ creëren en plannen de campagne ](create-orchestrated-campaign.md)<br/><br/>[ activiteiten van het Orchestrate ](orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](send-messages.md)<br/><br/><b>[ Begin en controleren de campagne ](start-monitor-campaigns.md)</b><br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uitdrukkingen ](edit-expressions.md) uit | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ combineert ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) - [ Fork ](activities/fork.md) opnieuw verzoening [&#128279;](activities/reconciliation.md) - [ Gesplitst ](activities/split.md) - [ wacht ](activities/wait.md) |
+| [ krijgen begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](configuration-steps.md)<br/><br/>[ Toegang en beheert georkestreerde campagnes ](access-manage-orchestrated-campaigns.md) | [ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](gs-campaign-creation.md)<br/><br/>[ creëren en plannen de campagne ](create-orchestrated-campaign.md)<br/><br/>[ activiteiten van het Orchestrate ](orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](send-messages.md)<br/><br/><b>[ Begin en controleren de campagne ](start-monitor-campaigns.md)</b><br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uitdrukkingen ](edit-expressions.md) uit | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ combineert ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) - [ Fork ](activities/fork.md) opnieuw verzoening ](activities/reconciliation.md) - [ Gesplitst ](activities/split.md) - [ wacht ](activities/wait.md)[ |
 
 {style="table-layout:fixed"}
 
@@ -36,36 +36,62 @@ Nadat u de georkestreerde en ontworpen taken hebt gemaakt die u op het canvas wi
 
 U kunt de campagne ook in testmodus uitvoeren om de uitvoering en het resultaat van de verschillende activiteiten te controleren.
 
-## De georkestreerde campagne testen en publiceren {#test}
+## Uw campagne testen vóór publicatie {#test}
 
-Met Journey Optimizer kunt u uw georkestreerde campagnes testen voordat u deze publiceert. Hierdoor kunt u de uitvoering en het resultaat controleren van de verschillende taken waaruit de campagne bestaat en heeft deze geen functioneel effect: alle activiteiten op het canvas worden uitgevoerd, behalve voor de activiteiten die van invloed zijn op **[!UICONTROL Save audience]** - en kanaalactiviteiten.
+Met Journey Optimizer kunt u georkestreerde campagnes testen voordat u live gaat. In de testmodus worden alle activiteiten op het canvas uitgevoerd, behalve **[!UICONTROL Save audience]** -activiteiten en kanaalactiviteiten. Er is geen functioneel effect op uw gegevens of publiek.
 
-Als u een georkestreerde campagne wilt starten in de testmodus, opent u de geordende campagne en klikt u op de knop **[!UICONTROL Start]** .
+Een campagne testen:
+
+1. Open de georkestreerde campagne.
+2. Klik op **[!UICONTROL Start]**.
 
 ![](assets/campaign-start.png){zoomable="yes"}
 
-Zodra de georkestreerde campagne loopt, wordt elke activiteit in het canvas uitgevoerd in opeenvolgende orde, tot het eind van de georkestreerde campagne wordt bereikt.
+Elke activiteit in de campagne wordt opeenvolgend uitgevoerd tot het eind van het diagram wordt bereikt. Tijdens de uitvoering van de test kunt u de campagne beheren met de actiebalk op het canvas. Vanaf dat punt kunt u:
 
-Klik op de knop **[!UICONTROL Publish]** als uw campagne klaar is om live te gaan. De visuele stroom in het canvas wordt opnieuw gestart, zodat u de profielen in het diagram kunt verwerken.
+* **Einde** de uitvoering op elk ogenblik.
+* **Begin** opnieuw de uitvoering.
+* **hervat** de uitvoering als het eerder wegens een kwestie werd gepauzeerd.
 
-## Geordende campagnes visuele stroom
+Als tijdens de uitvoering een fout of waarschuwing optreedt, wordt u hiervan op de hoogte gesteld via het pictogram **[!UICONTROL Alerts]** / **[!UICONTROL Warning]** op de werkbalk Canvas.
 
-Wanneer een georkestreerde campagne, of in testwijze of in productie loopt, kunt u de vooruitgang van de gerichte profielen door de verschillende taken in real time volgen gebruikend een visuele stroom. Hierdoor kunt u snel de status van elke activiteit en het aantal profielen identificeren dat tussen de activiteiten overgaat.
+![](assets/campaign-warning.png){zoomable="yes"}
+
+U kunt ontbroken activiteiten ook snel identificeren gebruikend de [ visuele statusindicatoren ](#activities) die direct op elke activiteit worden getoond. Voor gedetailleerde het oplossen van problemen, open de [ logboeken van de campagne ](#logs-tasks), die diepgaande informatie over de fout en zijn context verstrekken.
+
+## De campagne publiceren {#publish}
+
+Nadat uw campagne is getest en klaar is, klikt u op **[!UICONTROL Publish]** om deze actief te maken.
+
+![](assets/campaign-publish.png){zoomable="yes"}
+
+De visuele stroom begint opnieuw en echte profielen beginnen in real-time door de reis te stromen.
+
+## Campagne uitvoeren {#monitor}
+
+### Visuele controle van de stroom {#flow}
+
+Tijdens het uitvoeren (in test- of live modus) toont de visuele stroom hoe profielen in real-time door de reis bewegen. Het aantal profielen dat de overgang tussen taken maakt, wordt weergegeven.
 
 ![](assets/workflow-execution.png){zoomable="yes"}
 
-Gegevens die van de ene activiteit naar de andere worden vervoerd via overgangen, worden opgeslagen in een tijdelijke werktabel. Deze gegevens kunnen voor elke overgang worden weergegeven. Selecteer hiertoe een overgang om de eigenschappen ervan in de rechterkant van het scherm te openen.
-
-* Klik op **[!UICONTROL Preview schema]** om het schema van de werktabel weer te geven.
-* Klik op **[!UICONTROL Preview results]** om de gegevens te visualiseren die in de geselecteerde overgang worden verzonden.
+1. Selecteer een overgang.
+1. In het rechterpaneel:
+- Klik op **[!UICONTROL Preview schema]** om het werktabelschema weer te geven.
+- Klik op **[!UICONTROL Preview results]** om de getransporteerde gegevens weer te geven.
 
 ![](assets/transition.png){zoomable="yes"}
 
-## De uitvoering van de campagne controleren
+Gegevens die van de ene activiteit naar de andere worden vervoerd via overgangen, worden opgeslagen in een tijdelijke werktabel. Deze gegevens kunnen voor elke overgang worden weergegeven. Gegevens die tussen activiteiten worden doorgegeven, inspecteren:
 
-### Activiteitenuitvoering controleren {#activities}
+1. Selecteer een overgang.
+1. Klik in het deelvenster Eigenschappen op **[!UICONTROL Preview schema]** om het schema van de werktabel weer te geven. Selecteer **[!UICONTROL Preview results]** om de getransporteerde gegevens weer te geven.
 
-De visuele indicatoren in elk activiteitenvakje staan u toe om hun uitvoering te controleren:
+![](assets/transition.png){zoomable="yes"}
+
+### Indicatoren voor de uitvoering van activiteiten {#activities}
+
+De visuele statusindicatoren helpen u begrijpen hoe elke activiteit uitvoert:
 
 | Visuele indicator | Beschrijving |
 |-----|------------|
@@ -74,32 +100,22 @@ De visuele indicatoren in elk activiteitenvakje staan u toe om hun uitvoering te
 | ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | Er is een fout opgetreden in de activiteit. Om het probleem op te lossen, opent u de georkestreerde campagnelogboeken voor meer informatie. |
 | ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | De activiteit is met succes uitgevoerd. |
 
-### Logboeken en taken controleren {#logs-tasks}
+### Logboeken en taken {#logs-tasks}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="Logboeken en taken"
->abstract="De **Logboeken en het 1&rbrace; scherm van taken &lbrace;verstrekken een geschiedenis van de georkestreerde campagneuitvoering, registrerend alle gebruikersacties en ondervonden fouten.**"
+>abstract="De **Logboeken en het 1} scherm van taken {verstrekken een geschiedenis van de georkestreerde campagneuitvoering, registrerend alle gebruikersacties en ondervonden fouten.**"
 
-Het controleren van logboeken en taken is een zeer belangrijke stap om uw georkestreerde campagnes te analyseren en ervoor te zorgen zij behoorlijk lopen. Ze zijn toegankelijk via het pictogram **[!UICONTROL Logs]** dat beschikbaar is in de werkbalk Handeling en in het deelvenster Eigenschappen van elke activiteit.
+Het controleren van logboeken en taken is een zeer belangrijke stap om uw georkestreerde campagnes te analyseren en ervoor te zorgen zij behoorlijk lopen. Logbestanden en taken zijn toegankelijk via de knop **[!UICONTROL Logs]** , die beschikbaar is in zowel de test- als de live modus op de canvaswerkbalk of in het deelvenster Eigenschappen van elke activiteit.
 
-Het menu **[!UICONTROL Logs and tasks]** bevat een geschiedenis van de georkestreerde uitvoering van de campagne, waarin alle handelingen van de gebruiker zijn opgenomen en fouten zijn aangetroffen.
+Het scherm **[!UICONTROL Logs and tasks]** biedt een complete geschiedenis van de uitvoering van de campagne, waarin alle handelingen van de gebruiker zijn opgenomen en fouten zijn aangetroffen.
 
 ![](assets/workflow-logs.png){zoomable="yes"}
 
 Er zijn twee soorten informatie beschikbaar:
 
-* Het tabblad **[!UICONTROL Log]** bevat de uitvoeringsgeschiedenis van alle georkestreerde campagneactiviteiten. De uitgevoerde bewerkingen en uitvoeringsfouten worden chronologisch geïndexeerd.
-* Het tabblad **[!UICONTROL Tasks]** bevat details over de uitvoeringsvolgorde van de activiteiten.
+* Het tabblad **[!UICONTROL Log]** bevat de chronologische geschiedenis van alle bewerkingen en fouten.
+* Het tabblad **[!UICONTROL Tasks]** bevat de stapsgewijze uitvoeringsvolgorde van activiteiten.
 
 Op beide tabbladen kunt u de weergegeven kolommen en hun volgorde kiezen, filters toepassen en het zoekveld gebruiken om snel de gewenste informatie te zoeken.
-
-## Opdrachten voor het uitvoeren van geordende campagne {#execution-commands}
-
-De actiebalk in de rechterbovenhoek bevat opdrachten waarmee u de georkestreerde uitvoering van de campagne kunt beheren. U kunt:
-
-* **[!UICONTROL Start]** / **[!UICONTROL Resume]** de uitvoering van de opdracht   georkestreerde campagne, die dan de status In progress krijgt. Als de georkestreerde campagne is gepauzeerd, wordt deze hervat, anders wordt de campagne gestart en worden de initiële activiteiten vervolgens geactiveerd.
-
-* **[!UICONTROL Pause]** de uitvoering van de georkestreerde campagne, die vervolgens de status Gepauzeerd krijgt. Er zullen geen nieuwe activiteiten worden geactiveerd totdat de activiteiten worden hervat, maar de lopende activiteiten worden niet opgeschort.
-
-* **[!UICONTROL Stop]** een georkestreerde campagne die wordt uitgevoerd en die vervolgens de status Voltooid krijgt. De lopende bewerkingen worden indien mogelijk onderbroken. U kunt de georkestreerde campagne niet hervatten vanaf dezelfde plaats als waar ze is gestopt.
