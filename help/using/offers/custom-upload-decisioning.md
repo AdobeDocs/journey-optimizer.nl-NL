@@ -31,6 +31,7 @@ Raadpleeg de secties voor meer informatie over het publiek voor Aangepaste uploa
 * Deze functionaliteit wordt gesteund in **slechts het Beheer van het Besluit**, niet in Beslissing (vroeger gekend als &quot;Beslissing van de Ervaring&quot;).
 * Het is uitsluitend beschikbaar door **Beslissing API (Hub)** verzoeken en wordt niet gesteund door **Edge Decisioning API** of **partijbesluit**.
  
+
 ## Een aangepast upload-publiek gebruiken als geschiktheidscriteria {#eligibilty}
 
 U kunt een publiek van de upload van de Douane als geschiktheidscriteria op zowel het voorstel als beslissingsniveau gebruiken. Als deze criteria eenmaal zijn toegevoegd, kunnen aanbiedingen of inzamelingen van aanbiedingen van de subsidiabiliteit worden uitgesloten. Hier volgt een overzicht van de verschillende locaties waar u Aangepaste uploadmogelijkheden kunt gebruiken om aanbiedingen en beslissingen beter in aanmerking te nemen:

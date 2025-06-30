@@ -146,7 +146,7 @@ Hier is een voorbeeld van een verzoek die contextgegevens overgaan.
 
   ![](assets/context-edge-copy-scope.png)
 
-+++
+  +++
 
 ```
 {

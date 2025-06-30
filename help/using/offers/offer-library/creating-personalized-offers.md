@@ -131,7 +131,7 @@ In de lijst met aanbiedingen kunt u de aanbieding selecteren en de eigenschappen
 
 ![](../assets/offer_created.png)
 
-Selecteer de **[!UICONTROL Edit]** knoop om naar de wijze van de aanbiedingsuitgave terug te gaan, waar u de 1} details van de aanbieding ](#create-offer) kunt wijzigen, [ vertegenwoordiging ](#representations), evenals [ geschiktheidsregels en beperkingen ](#eligibility) uitgeven.[
+Selecteer de **[!UICONTROL Edit]** knoop om naar de wijze van de aanbiedingsuitgave terug te gaan, waar u de 1&rbrace; details van de aanbieding [&#128279;](#create-offer) kunt wijzigen, [ vertegenwoordiging ](#representations), evenals [ geschiktheidsregels en beperkingen ](#eligibility) uitgeven.
 
 Selecteer een goedgekeurde aanbieding en klik op **[!UICONTROL Undo approve]** om de status van de aanbieding weer in te stellen op **[!UICONTROL Draft]** .
 
