@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '711'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Een fragment is een herbruikbare component waarnaar in een of meer e-mails kan worden verwezen via Journey Optimizer-campagnes, -reizen of inhoudssjablonen. Met deze functionaliteit kunt u meerdere blokken met aangepaste inhoud vooraf samenstellen. Deze blokken kunnen door marketinggebruikers worden gebruikt om snel e-mailinhoud samen te stellen in een verbeterd ontwerpproces. [ leer hoe te om fragmenten ](../content-management/fragments.md) tot stand te brengen en te beheren.
 
-➡️ [ leren hoe te om, auteur en gebruiks fragmenten in deze video te beheren ](../content-management/fragments.md#video-fragments)
+➡️ [ Leer hoe te, auteur en gebruiks fragmenten in deze video ](../content-management/fragments.md#video-fragments) beheren
 
 ## Een fragment gebruiken {#use-fragment}
 
@@ -85,11 +85,13 @@ Als bepaalde delen van het geselecteerde fragment bewerkbaar zijn gemaakt, kunt 
 
 Voer de volgende stappen uit om bewerkbare velden in een fragment aan te passen:
 
-1. Voeg het fragment toe aan de inhoud en selecteer het om het eigenschappenvenster aan de rechterkant te openen.
+1. Voeg het fragment toe aan uw inhoud.
 
-1. Alle editable gebieden in het fragment worden getoond in het **lusje van Montages**, onder de **sectie van het Fragment**.
+1. Selecteer het om de eigenschappen ruit op de rechterkant te openen.
 
-   Bewerkbare velden worden groen gemarkeerd in het voorvertoningsvenster als deze zijn geselecteerd in het rechterdeelvenster. Zo kunt u de locatie van de velden in de inhoud gemakkelijk herkennen.
+   Alle editable gebieden in het fragment worden getoond in het **lusje van Montages**, onder de **sectie van het Fragment**.
+
+1. Wanneer u in het rechterdeelvenster een bewerkbaar veld selecteert, wordt dit in het centrale voorvertoningsvenster groen gemarkeerd, zodat u gemakkelijk de locatie van het veld in de inhoud kunt identificeren.
 
    In het voorbeeld hieronder, kan de beeld **bron** en **alt tekst** worden uitgegeven, evenals &quot;klik hier&quot;knoop **URL**.
 
