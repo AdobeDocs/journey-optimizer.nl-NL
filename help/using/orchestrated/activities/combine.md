@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
-source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
+source-git-commit: cb335fd5610d70d801ae1c32dfe4d3ca9d1160ab
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1056'
 ht-degree: 9%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 9%
 
 | Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
 |---|---|---|---|
-| [ worden begonnen met georkestreerde campagnes ](../gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](../configuration-steps.md)<br/><br/>[ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](../gs-campaign-creation.md) | [ creeer een georkestreerde campagne ](../create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](../orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](../send-messages.md)<br/><br/>[ Begin en controleer de campagne ](../start-monitor-campaigns.md)<br/><br/>[ Meldend ](../reporting-campaigns.md) | [ Werk met de Vraag Modeler ](../orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](../build-query.md)<br/><br/>[ uitdrukkingen ](../edit-expressions.md) uit | [ wordt begonnen met activiteiten ](about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](and-join.md) - [ bouwt publiek ](build-audience.md) - [ dimensie van de Verandering ](change-dimension.md) - [ combineert ](combine.md) - [ Deduplicatie ](deduplication.md) - [ Verrijking ](enrichment.md) - [ Fork ](fork.md) opnieuw verzoening [&#128279;](reconciliation.md) - [ Gesplitst ](split.md) - [ wacht ](wait.md) |
+| [ worden begonnen met georkestreerde campagnes ](../gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](../configuration-steps.md)<br/><br/>[ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](../gs-campaign-creation.md) | [ creeer een georkestreerde campagne ](../create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](../orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](../send-messages.md)<br/><br/>[ Begin en controleer de campagne ](../start-monitor-campaigns.md)<br/><br/>[ Meldend ](../reporting-campaigns.md) | [ Werk met de Vraag Modeler ](../orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](../build-query.md)<br/><br/>[ uitdrukkingen ](../edit-expressions.md) uit | [ wordt begonnen met activiteiten ](about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](and-join.md) - [ bouwt publiek ](build-audience.md) - [ dimensie van de Verandering ](change-dimension.md) - [ combineert ](combine.md) - [ Deduplicatie ](deduplication.md) - [ Verrijking ](enrichment.md) - [ Fork ](fork.md) opnieuw verzoening ](reconciliation.md) - [ Gesplitst ](split.md) - [ wacht ](wait.md)[ |
 
 {style="table-layout:fixed"}
 
@@ -33,15 +33,15 @@ ht-degree: 9%
 
 <br/>
 
-De **[!UICONTROL Combine]** -activiteit is een **[!UICONTROL Targeting]** -activiteit. Deze activiteit staat u toe om segmentatie op uw binnenkomende bevolking uit te voeren. U kunt dus meerdere populaties combineren, een deel ervan uitsluiten of gegevens alleen gemeenschappelijk houden voor verschillende doelen. Hier volgen de beschikbare segmentatietypen:
+De **[!UICONTROL Combine]** activiteit is een type van **[!UICONTROL Targeting]** activiteit die u toelaat om uw binnenkomende bevolking effectief te segmenteren. Hiermee kunt u meerdere populaties samenvoegen, specifieke segmenten uitsluiten of alleen de gegevens behouden die over verschillende doelen worden gedeeld.
 
-<!--
-The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
--->
+De volgende segmentatieopties zijn beschikbaar:
 
-* Met **[!UICONTROL Union]** kunt u het resultaat van meerdere activiteiten opnieuw groeperen in één doel.
-* Met **[!UICONTROL Intersection]** kunt u alleen de elementen behouden die gelden voor de verschillende binnenkomende populaties in de activiteit.
-* Met **[!UICONTROL Exclusion]** kunt u elementen op basis van bepaalde criteria uitsluiten van één populatie.
+* **[!UICONTROL Union]** : voegt de resultaten van meerdere activiteiten samen tot één gezamenlijk doel.
+
+* **[!UICONTROL Intersection]**: behoudt alleen de elementen die gemeenschappelijk zijn voor alle binnenkomende populaties.
+
+* **[!UICONTROL Exclusion]**: verwijdert elementen uit één populatie op basis van opgegeven criteria.
 
 ## De combinatieactiviteit configureren {#combine-configuration}
 
@@ -62,7 +62,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 Voer de volgende algemene stappen uit om de **[!UICONTROL Combine]** -activiteit te configureren:
 
-![](../assets/workflow-combine.png)
+![](../assets/orchestrated-combine.png)
 
 1. Voeg meerdere activiteiten, zoals **[!UICONTROL Build audience]** -activiteiten, toe om ten minste twee verschillende uitvoeringstakken te vormen.
 1. Voeg een **[!UICONTROL Combine]** activiteit aan om het even welke vorige takken toe.
@@ -82,6 +82,10 @@ In de **[!UICONTROL Combine]** -activiteit kunt u een **[!UICONTROL Union]** con
 * **[!UICONTROL Keys only]**: Dit is de standaardmodus. De activiteit behoudt slechts één element wanneer elementen van de verschillende binnenkomende overgangen dezelfde sleutel hebben. Deze optie kan alleen worden gebruikt als de binnenkomende populaties homogeen zijn.
 * **[!UICONTROL A selection of columns]**: selecteer deze optie om de lijst met kolommen te definiëren waarop de afstemming van gegevens wordt toegepast. U moet eerst de primaire set (de set met de brondata) selecteren en vervolgens de kolommen die u voor de samenvoeging wilt gebruiken.
 
+In het volgende voorbeeld gebruiken we een **[!UICONTROL Combine]** -activiteit en voegen we een **[!UICONTROL Union]** toe om alle profielen van de twee query&#39;s op te halen: leden van Loyalty&#39;s en kopers om een groter publiek te vormen.
+
+![](../assets/orchestrated-union-example.png)
+
 ## Doorsnede {#combine-intersection}
 
 >[!CONTEXTUALHELP]
@@ -93,6 +97,11 @@ In de **[!UICONTROL Combine]** -activiteit kunt u een **[!UICONTROL Intersection
 
 1. Selecteer **[!UICONTROL Reconciliation type]** om te bepalen hoe de duplicaten worden behandeld. Zie [ Unie ](#union) sectie.
 1. U kunt de optie **[!UICONTROL Generate completement]** inschakelen als u de resterende populatie wilt verwerken. Het complement zal de samenvoeging bevatten van de resultaten van alle binnenkomende activiteiten min de doorsnede. Een extra uitgaande overgang zal dan aan de activiteit worden toegevoegd.
+
+In het volgende voorbeeld wordt de **[!UICONTROL Intersection]** tussen twee queryactiviteiten getoond. Het wordt hier gebruikt om profielen op te halen met een Loyalty-lidmaatschap en wiens laatste aankoop minder dan een maand geleden was.
+
+![](../assets/orchestrated-intersection-example.png)
+
 
 ## Uitsluiting {#combine-exclusion}
 
@@ -122,16 +131,9 @@ In de **[!UICONTROL Combine]** -activiteit kunt u een **[!UICONTROL Exclusion]**
 1. Indien nodig, kunt u binnenkomende lijsten manipuleren. Om een doel van een andere dimensie uit te sluiten, moet dit doel worden teruggebracht naar dezelfde doeldimensie als het hoofddoel. Klik hiertoe op **[!UICONTROL Add a rule]** in de sectie **[!UICONTROL Exclusion rules]** en geef de voorwaarden voor het wijzigen van de afmetingen op. Afstemming van gegevens vindt plaats via een attribuut of een join-functie.
 1. U kunt de optie **[!UICONTROL Generate completement]** inschakelen als u de resterende populatie wilt verwerken. Zie de [ sectie van de Intersectie ](#intersection).
 
-## Voorbeelden{#combine-examples}
+In het volgende **[!UICONTROL Exclusion]** -voorbeeld worden twee query&#39;s weergegeven die zijn geconfigureerd voor filterprofielen die een product hebben aangeschaft. De profielen die geen loyaliteitslidmaatschap hebben worden dan uitgesloten van de eerste reeks.
 
-In het volgende voorbeeld gebruiken we een **[!UICONTROL Combine]** -activiteit en voegen we een **[!UICONTROL Union]** toe om alle profielen van de twee query&#39;s op te halen: personen tussen 18 en 27 jaar oud en personen tussen 34 en 40 jaar oud.
+Waarom: Je voert een loyaliteitscampagne, dus niet-leden zijn irrelevant.
 
-![](../assets/workflow-union-example.png)
+![](../assets/orchestrated-exclusion-example.png)
 
-In het volgende voorbeeld wordt de **[!UICONTROL Intersection]** tussen twee queryactiviteiten getoond. Het wordt hier gebruikt om profielen op te halen die tussen 18 en 27 jaar oud zijn en waarvan e-mailadres is verstrekt.
-
-![](../assets/workflow-intersection-example.png)
-
-In het volgende **[!UICONTROL Exclusion]** -voorbeeld worden twee query&#39;s getoond die zijn geconfigureerd voor filterprofielen die 18 tot 27 jaar oud zijn en een Adobe-e-maildomein hebben. De profielen met een Adobe-e-maildomein worden dan uitgesloten van de eerste set.
-
-![](../assets/workflow-exclusion-example.png)
