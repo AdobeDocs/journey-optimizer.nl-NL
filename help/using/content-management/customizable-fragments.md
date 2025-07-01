@@ -205,7 +205,7 @@ RTF-tekst, zoals regeleinden, vet, cursief, enzovoort, kan met HTML-componenten 
 
 Wanneer gebruikers het fragment aan hun e-mailinhoud toevoegen, kunnen ze nu de RTF-inhoud en -opmaak bewerken die u hebt gemaakt. Voer de onderstaande stappen uit als u bewerkbare tekstfragmenten met tekstopmaak wilt gebruiken als een markering.
 
-1. [ creeer e-mail ](../email/create-email.md) in een campagne of een reis, dan voeg het fragment met rijke tekst toe die [ ](#add-rich-text) werd gecreeerd.
+1. [ creeer e-mail ](../email/create-email.md) in een campagne of een reis, dan voeg het fragment met rijke tekst toe die [&#128279;](#add-rich-text) werd gecreeerd.
 
    U ziet de twee bewerkbare velden die aan de rechterkant zijn gemaakt.
 
