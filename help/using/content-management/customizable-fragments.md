@@ -8,16 +8,18 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
+source-git-commit: f93d422dfeb5e0d658d40286882ee59b80ae9184
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
 
 # Aanpasbare fragmenten {#customizable-fragments}
 
-Wanneer fragmenten worden gebruikt in een campagne- of reisactie, worden ze standaard vergrendeld vanwege overerving. Dit betekent dat alle wijzigingen die in een fragment worden aangebracht, automatisch worden doorgevoerd in alle campagnes en reizen waar het fragment wordt gebruikt. Met aanpasbare fragmenten kunnen specifieke velden in een fragment als bewerkbaar worden gedefinieerd wanneer het fragment aan een campagne- of reisactie wordt toegevoegd. Stel dat u een fragment hebt met een banner, tekst of knop. U kunt bepaalde velden, zoals de URL van het afbeeldingsdoel of knopdoel, instellen als bewerkbaar. Hierdoor kunnen gebruikers deze elementen wijzigen wanneer ze het fragment opnemen in hun campagne of reis, zodat ze een op maat gemaakte ervaring hebben zonder dat dit van invloed is op het oorspronkelijke fragment.
+Wanneer fragmenten worden gebruikt in een campagne- of reisactie, worden ze standaard vergrendeld vanwege overerving. Dit betekent dat alle wijzigingen die in een fragment worden aangebracht, automatisch worden doorgevoerd in alle campagnes en reizen waar het fragment wordt gebruikt.
+
+Met **klantgerichte fragmenten**, kunnen de specifieke gebieden binnen een fragment als editable worden bepaald wanneer het fragment aan een campagne of een reisactie wordt toegevoegd. Stel dat u een fragment hebt met een banner, tekst of knop. U kunt bepaalde velden, zoals de URL van het afbeeldingsdoel of knopdoel, instellen als bewerkbaar. Hierdoor kunnen gebruikers deze elementen wijzigen wanneer ze het fragment opnemen in hun campagne of reis, zodat ze een op maat gemaakte ervaring hebben zonder dat dit van invloed is op het oorspronkelijke fragment.
 
 Aanpasbare fragmenten zorgen ervoor dat de fragmentovererving niet wordt verbroken. Hierdoor zijn gecentraliseerde wijzigingen op fragmentniveau eerder niet meer doorgevoerd in de campagnes en reizen. Op deze manier kunnen delen van inhoud op het moment van gebruik worden aangepast, zodat u de standaardwaarden kunt overschrijven met contextspecifieke details.
 
@@ -110,7 +112,7 @@ Voer de volgende stappen uit om een variabele te declareren en in het fragment t
 
    ![](assets/fragment-call-variable.png)
 
-1. Sla het fragment op.
+1. Sla het fragment op en publiceer het.
 
 Wanneer gebruikers het fragment aan hun e-mailinhoud toevoegen, kunnen ze nu de standaardwaarden van de variabelen overschrijven met de door hen gekozen waarden:
 
@@ -118,7 +120,7 @@ Wanneer gebruikers het fragment aan hun e-mailinhoud toevoegen, kunnen ze nu de 
 
 * Voor HTML-componenten wordt de variabele weergegeven in de lijst met bewerkbare velden in de E-mail Designer. [ Leer hoe te om editable gebieden in een visueel fragment aan te passen ](../email/use-visual-fragments.md#customize-fields)
 
-## Voorbeeld van bewerkbaar expressiefragment {#example}
+### Voorbeeld van bewerkbaar expressiefragment {#example}
 
 In het onderstaande voorbeeld maken we een expressiefragment dat nieuwe sportcollecties presenteert. Door gebrek, toont het fragment deze inhoud: *zoekend naar meer? Mis onze nieuwste sportcollectie niet!*
 
@@ -142,11 +144,11 @@ Dit doet u als volgt:
 
 RTF-tekst, zoals regeleinden, vet, cursief, enzovoort, kan met HTML-componenten aan een bewerkbaar fragment worden toegevoegd. Volg de onderstaande stappen om dit te doen.
 
-➡️ [ Leer hoe te om rijke tekst aan een component van HTML binnen een editable fragment in deze video toe te voegen en te gebruiken ](#video)
+➡️ [ Leer hoe te om rijke tekst aan een editable fragment in deze video toe te voegen en te gebruiken ](#video)
 
 ### Een fragment met opgemaakte tekst maken {#add-rich-text}
 
-1. Maak een visueel fragment en voeg componenten toe.
+1. Creeer een visueel [ fragment ](create-fragments.md) en begin componenten toe te voegen.
 
 1. Voeg een [ component van HTML ](../email/content-components.md#HTML) toe en open de redacteur van HTML.
 
@@ -154,7 +156,7 @@ RTF-tekst, zoals regeleinden, vet, cursief, enzovoort, kan met HTML-componenten 
 
 1. Vervang `"name"` door de id die u voor bewerkbare inhoud wilt gebruiken, bijvoorbeeld &quot;EditableContent&quot;.
 
-1. Vervang `render_content` door de HTML-code die overeenkomt met de gewenste standaardinhoud.
+1. Vervang `render_content` door de HTML-code die overeenkomt met de standaard rijke inhoud die u wilt. U kunt vette, cursieve, regeleinden, lijsten met opsommingstekens enzovoort toevoegen.
 
    ![](assets/fragment-rich-editable-content.png)
 <!--
@@ -197,24 +199,28 @@ RTF-tekst, zoals regeleinden, vet, cursief, enzovoort, kan met HTML-componenten 
 
    ![](assets/fragment-rich-editable-fields.png)
 
-1. Publiceer het fragment.
+1. Sparen en [ publiceer ](create-fragments.md#publish) het fragment.
 
 ### bewerkbare fragmenten met RTF-indeling gebruiken {#use-rich-text}
 
-Wanneer gebruikers het fragment aan hun e-mailinhoud toevoegen, kunnen ze nu de RTF-inhoud en -opmaak bewerken die u hebt gemaakt. Voer de onderstaande stappen uit als u bewerkbare fragmenten met RTF-opmaak wilt gebruiken als een markeerteken.
+Wanneer gebruikers het fragment aan hun e-mailinhoud toevoegen, kunnen ze nu de RTF-inhoud en -opmaak bewerken die u hebt gemaakt. Voer de onderstaande stappen uit als u bewerkbare tekstfragmenten met tekstopmaak wilt gebruiken als een markering.
 
-1. Maak een e-mail in een campagne of een reis en voeg vervolgens het gemaakte fragment toe.
+1. [ creeer e-mail ](../email/create-email.md) in een campagne of een reis, dan voeg het fragment met rijke tekst toe die [ ](#add-rich-text) werd gecreeerd.
 
-   U ziet de twee bewerkbare velden die in het rechterdeelvenster zijn gemaakt.
+   U ziet de twee bewerkbare velden die aan de rechterkant zijn gemaakt.
 
    ![](assets/fragment-use-rich-editable-fields.png)
 
-1. U kunt op **[!UICONTROL Simulate content]** klikken om te zien hoe de bewerkbare inhoud en opmaak worden weergegeven.
+1. U kunt op **[!UICONTROL Simulate content]** klikken om te zien hoe de bewerkbare inhoud en opmaak worden weergegeven. [ leer meer bij het voorvertonen van inhoud ](preview-test.md)
 
-1. Selecteer het pictogram **[!UICONTROL Add personalization]** naast een van de bewerkbare velden en bewerk de CSS-opmaak en/of inhoud naar wens.
+1. Selecteer het pictogram **[!UICONTROL Add personalization]** naast een van de bewerkbare velden.
+
+1. In de verpersoonlijkingsredacteur die opent, werk <!--CSS--> het stileren en/of inhoud bij zoals gewenst door elementen van het editable gebied toe te voegen of te verwijderen.
+
+   ![](assets/fragment-rich-editable-fields-update-styling.png)
 
 ## Hoe kan ik-video {#video}
 
 In deze video ziet u hoe u HTML-componenten in een fragment bewerkbaar kunt maken, zodat u zowel inhoud als opmaak dynamisch kunt bijwerken.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464374/?learn=on&#x26;enablevpops&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
