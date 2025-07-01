@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: f93d422dfeb5e0d658d40286882ee59b80ae9184
+source-git-commit: 5bc467f7fd25dd4218470c0e73bc0dc87938e218
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 0%
@@ -159,35 +159,6 @@ RTF-tekst, zoals regeleinden, vet, cursief, enzovoort, kan met HTML-componenten 
 1. Vervang `render_content` door de HTML-code die overeenkomt met de standaard rijke inhoud die u wilt. U kunt vette, cursieve, regeleinden, lijsten met opsommingstekens enzovoort toevoegen.
 
    ![](assets/fragment-rich-editable-content.png)
-<!--
-    +++For example:
-
-    ```html
-
-    <h1>Main title</h1>
-
-    <h2>Subtitle One</h2>
-    <p>This is a paragraph with a line break.<br>Here is the new line.</p>
-
-    <p class="bold">This text is bold.</p>
-    <p class="italic">This text is italic.</p>
-    <p class="bold-italic">This text is bold and italic.</p>
-
-    <ul>
-        <li>First bullet point</li>
-        <li>Second bullet point with more text</li>
-        <li>Third bullet point</li>
-    </ul>
-
-    <hr>
-
-    <h2>Subtitle Two</h2>
-    <blockquote>This is a blockquote or note with styled background and border.</blockquote>
-
-    ```
-
-    +++
--->
 
 1. Binnen de zelfde component van HTML, voeg een andere **gealigneerde** hulpfunctie voor uw het stileren elementen toe.
 
@@ -205,7 +176,7 @@ RTF-tekst, zoals regeleinden, vet, cursief, enzovoort, kan met HTML-componenten 
 
 Wanneer gebruikers het fragment aan hun e-mailinhoud toevoegen, kunnen ze nu de RTF-inhoud en -opmaak bewerken die u hebt gemaakt. Voer de onderstaande stappen uit als u bewerkbare tekstfragmenten met tekstopmaak wilt gebruiken als een markering.
 
-1. [ creeer e-mail ](../email/create-email.md) in een campagne of een reis, dan voeg het fragment met rijke tekst toe die [&#128279;](#add-rich-text) werd gecreeerd.
+1. [ creeer e-mail ](../email/create-email.md) in een campagne of een reis, dan voeg het fragment met rijke tekst toe die [ ](#add-rich-text) werd gecreeerd.
 
    U ziet de twee bewerkbare velden die aan de rechterkant zijn gemaakt.
 
@@ -223,4 +194,4 @@ Wanneer gebruikers het fragment aan hun e-mailinhoud toevoegen, kunnen ze nu de 
 
 In deze video ziet u hoe u HTML-componenten in een fragment bewerkbaar kunt maken, zodat u zowel inhoud als opmaak dynamisch kunt bijwerken.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464374/?learn=on&#x26;enablevpops&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
