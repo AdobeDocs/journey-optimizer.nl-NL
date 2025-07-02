@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: 8a6fc9fca96bfab90a72be329e2ab99c6942a4a7
+source-git-commit: ef0d0e54e566d168a4845cd1af57900d54aec0b7
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 | Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
 |---|---|---|---|
-| [ krijgen begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](configuration-steps.md)<br/><br/>[ Toegang en beheert georkestreerde campagnes ](access-manage-orchestrated-campaigns.md) | [ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](gs-campaign-creation.md)<br/><br/>[ creëren en plannen de campagne ](create-orchestrated-campaign.md)<br/><br/>[ activiteiten van het Orchestrate ](orchestrate-activities.md)<br/><br/>[ Begin en controleer de campagne ](start-monitor-campaigns.md)<br/><br/><b>[ Meldend ](reporting-campaigns.md)</b> | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uitdrukkingen ](edit-expressions.md) uit | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ de activiteiten van het Kanaal ](activities/channels.md) - [ combineren ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) Formeel k [ - ](activities/fork.md) Verzoening [ - ](activities/reconciliation.md) Gesplitst [ - ](activities/split.md) wacht [&#128279;](activities/wait.md) |
+| [ krijgen begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](configuration-steps.md)<br/><br/>[ Toegang en beheert georkestreerde campagnes ](access-manage-orchestrated-campaigns.md) | [ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](gs-campaign-creation.md)<br/><br/>[ creëren en plannen de campagne ](create-orchestrated-campaign.md)<br/><br/>[ activiteiten van het Orchestrate ](orchestrate-activities.md)<br/><br/>[ Begin en controleer de campagne ](start-monitor-campaigns.md)<br/><br/><b>[ Meldend ](reporting-campaigns.md)</b> | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uitdrukkingen ](edit-expressions.md) uit | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ de activiteiten van het Kanaal ](activities/channels.md) - [ combineren ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) Formeel k [ - ](activities/fork.md) Verzoening [ - ](activities/reconciliation.md) Gesplitst [ - ](activities/split.md) wacht [](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -30,6 +30,7 @@ ht-degree: 0%
 
 De geordende campagne biedt u actionable inzicht door zijn robuuste rapporteringsmogelijkheden. Deze inzichten helpen u publieksgedrag beter begrijpen, de prestaties van elke stap in uw klantenreis meten, en gegeven-gedreven besluiten nemen om toekomstige campagnes te optimaliseren. Met gedetailleerde metriek en visualisaties kunt u betrokkenheid volgen en uw gerichte strategieën verfijnen voor maximale impact.
 
+![](assets/report-orchestrated.png)
 
 ## Typen rapporten {#reporting-types}
 
@@ -45,7 +46,7 @@ De geordende campagne biedt u actionable inzicht door zijn robuuste rapportering
     <tr style="background-color: #FFFFFF;">
       <td><a href="../reports/report-gs-cja.md"><img alt="Alle tijdrapporten" src="assets/all-time-report.png"></a></td>
       <td>
-        De geordende campagnerapportage is volledig geïntegreerd met de mogelijkheden van Customer Journey Analytics, die rapportering over beide platforms standaardiseren en gegevensconsistentie en betrouwbaarheid verbeteren. Leer meer over <a href="../reports/report-gs-cja.md"> alle tijdrapporten </a>.
+        <b> Al tijdrapport </b> is volledig geïntegreerd met de mogelijkheden van Customer Journey Analytics, die rapportering over beide platforms standaardiseren en gegevensconsistentie en betrouwbaarheid verbeteren. Leer meer over alle tijdrapporten <a href="../reports/report-gs-cja.md"> in deze sectie </a>.
       </td>
     </tr>
   </tbody>
