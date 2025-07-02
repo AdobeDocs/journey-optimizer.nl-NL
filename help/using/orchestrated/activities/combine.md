@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
-source-git-commit: cb335fd5610d70d801ae1c32dfe4d3ca9d1160ab
+source-git-commit: 01c9b947ce9459944c5c16ef177b55e889eb3634
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 9%
+source-wordcount: '1041'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 9%
 
 | Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
 |---|---|---|---|
-| [ worden begonnen met georkestreerde campagnes ](../gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](../configuration-steps.md)<br/><br/>[ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](../gs-campaign-creation.md) | [ creeer een georkestreerde campagne ](../create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](../orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](../send-messages.md)<br/><br/>[ Begin en controleer de campagne ](../start-monitor-campaigns.md)<br/><br/>[ Meldend ](../reporting-campaigns.md) | [ Werk met de Vraag Modeler ](../orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](../build-query.md)<br/><br/>[ uitdrukkingen ](../edit-expressions.md) uit | [ wordt begonnen met activiteiten ](about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](and-join.md) - [ bouwt publiek ](build-audience.md) - [ dimensie van de Verandering ](change-dimension.md) - [ combineert ](combine.md) - [ Deduplicatie ](deduplication.md) - [ Verrijking ](enrichment.md) - [ Fork ](fork.md) opnieuw verzoening [&#128279;](reconciliation.md) - [ Gesplitst ](split.md) - [ wacht ](wait.md) |
+| [ worden begonnen met georkestreerde campagnes ](../gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](../configuration-steps.md)<br/><br/>[ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](../gs-campaign-creation.md) | [ creeer een georkestreerde campagne ](../create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](../orchestrate-activities.md)<br/><br/>[ verzenden berichten met georkestreerde campagnes ](../send-messages.md)<br/><br/>[ Begin en controleer de campagne ](../start-monitor-campaigns.md)<br/><br/>[ Meldend ](../reporting-campaigns.md) | [ Werk met de Vraag Modeler ](../orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](../build-query.md)<br/><br/>[ uitdrukkingen ](../edit-expressions.md) uit | [ wordt begonnen met activiteiten ](about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](and-join.md) - [ bouwt publiek ](build-audience.md) - [ dimensie van de Verandering ](change-dimension.md) - [ combineert ](combine.md) - [ Deduplicatie ](deduplication.md) - [ Verrijking ](enrichment.md) - [ Fork ](fork.md) opnieuw verzoening ](reconciliation.md) - [ Gesplitst ](split.md) - [ wacht ](wait.md)[ |
 
 {style="table-layout:fixed"}
 
@@ -62,7 +62,7 @@ De volgende segmentatieopties zijn beschikbaar:
 
 Voer de volgende algemene stappen uit om de **[!UICONTROL Combine]** -activiteit te configureren:
 
-![](../assets/orchestrated-combine.png)
+![](../assets/orchestrated-union.png)
 
 1. Voeg meerdere activiteiten, zoals **[!UICONTROL Build audience]** -activiteiten, toe om ten minste twee verschillende uitvoeringstakken te vormen.
 1. Voeg een **[!UICONTROL Combine]** activiteit aan om het even welke vorige takken toe.
@@ -77,12 +77,13 @@ Voer de volgende algemene stappen uit om de **[!UICONTROL Combine]** -activiteit
 >title="Afstemmingsopties"
 >abstract="Selecteer het **Type van Verzoening** om te bepalen hoe te om duplicaten te behandelen. Door gebrek, wordt de **optie van Sleutels** geactiveerd, betekenend dat de activiteit slechts één element houdt wanneer de elementen van de verschillende binnenkomende overgangen de zelfde sleutel hebben. Gebruik de **selectie van A kolommen** optie om de lijst van kolommen te bepalen waarop de gegevensverzoening wordt toegepast."
 
-In de **[!UICONTROL Combine]** -activiteit kunt u een **[!UICONTROL Union]** configureren. Hiervoor moet u de optie **[!UICONTROL Reconciliation type]** selecteren om te definiëren hoe duplicaten worden verwerkt:
+Binnen de **[!UICONTROL Combine]** -activiteit kunt u een **[!UICONTROL Union]** configureren door een **[!UICONTROL Reconciliation type]** te selecteren om te bepalen hoe dubbele records worden beheerd:
 
-* **[!UICONTROL Keys only]**: Dit is de standaardmodus. De activiteit behoudt slechts één element wanneer elementen van de verschillende binnenkomende overgangen dezelfde sleutel hebben. Deze optie kan alleen worden gebruikt als de binnenkomende populaties homogeen zijn.
-* **[!UICONTROL A selection of columns]**: selecteer deze optie om de lijst met kolommen te definiëren waarop de afstemming van gegevens wordt toegepast. U moet eerst de primaire set (de set met de brondata) selecteren en vervolgens de kolommen die u voor de samenvoeging wilt gebruiken.
+* **[!UICONTROL Keys only]** (standaardwaarde): behoudt één record wanneer meerdere binnenkomende overgangen dezelfde sleutel delen. Deze optie is alleen van toepassing wanneer de binnenkomende populaties homogeen zijn.
 
-In het volgende voorbeeld gebruiken we een **[!UICONTROL Combine]** -activiteit en voegen we een **[!UICONTROL Union]** toe om alle profielen van de twee query&#39;s op te halen: leden van Loyalty&#39;s en kopers om een groter publiek te vormen.
+* **[!UICONTROL A selection of columns]**: hiermee kunt u opgeven welke kolommen worden gebruikt voor het afstemmen van gegevens. Selecteer **[!UICONTROL Add attribute]**.
+
+In het volgende voorbeeld, wordt a **[!UICONTROL Combine]** activiteit gebruikt met a **[!UICONTROL Union]** om de resultaten van twee vragen, **Loyalty Leden** en **Aankopers** samen te voegen, in één enkel, groter publiek dat alle profielen van beide segmenten omvat.
 
 ![](../assets/orchestrated-union-example.png)
 
@@ -95,10 +96,15 @@ In het volgende voorbeeld gebruiken we een **[!UICONTROL Combine]** -activiteit 
 
 In de **[!UICONTROL Combine]** -activiteit kunt u een **[!UICONTROL Intersection]** configureren. Hiervoor moet u de volgende extra stappen volgen:
 
-1. Selecteer **[!UICONTROL Reconciliation type]** om te bepalen hoe de duplicaten worden behandeld. Zie [ Unie ](#union) sectie.
-1. U kunt de optie **[!UICONTROL Generate completement]** inschakelen als u de resterende populatie wilt verwerken. Het complement zal de samenvoeging bevatten van de resultaten van alle binnenkomende activiteiten min de doorsnede. Een extra uitgaande overgang zal dan aan de activiteit worden toegevoegd.
+1. Selecteer **[!UICONTROL Reconciliation type]** om te bepalen hoe duplicaten worden verwerkt:
 
-In het volgende voorbeeld wordt de **[!UICONTROL Intersection]** tussen twee queryactiviteiten getoond. Het wordt hier gebruikt om profielen op te halen met een Loyalty-lidmaatschap en wiens laatste aankoop minder dan een maand geleden was.
+   * **[!UICONTROL Keys only]** (standaardwaarde): behoudt één record wanneer meerdere binnenkomende overgangen dezelfde sleutel delen. Deze optie is alleen van toepassing wanneer de binnenkomende populaties homogeen zijn.
+
+   * **[!UICONTROL A selection of columns]**: hiermee kunt u opgeven welke kolommen worden gebruikt voor het afstemmen van gegevens. Selecteer **[!UICONTROL Add attribute]**.
+
+1. Schakel **[!UICONTROL Generate completement]** in als u de resterende populatie wilt verwerken. Het complement omvat de samenvoeging van alle binnenkomende activiteitsresultaten, met uitzondering van de doorsnede. Een extra uitgaande overgang wordt toegevoegd aan de activiteit.
+
+Het volgende voorbeeld illustreert het gebruik van **[!UICONTROL Intersection]** tussen twee vraagactiviteiten. Het wordt gebruikt om profielen te identificeren die **Leden van de Loyalty** zijn en een aankoop binnen de laatste maand hebben gemaakt.
 
 ![](../assets/orchestrated-intersection-example.png)
 
@@ -127,13 +133,13 @@ In het volgende voorbeeld wordt de **[!UICONTROL Intersection]** tussen twee que
 
 In de **[!UICONTROL Combine]** -activiteit kunt u een **[!UICONTROL Exclusion]** configureren. Hiervoor moet u de volgende extra stappen volgen:
 
-1. Selecteer in de sectie **[!UICONTROL Sets to join]** de **[!UICONTROL Primary set]** van de binnenkomende overgangen. Dit is de set waaruit elementen worden uitgesloten. De andere sets komen overeen met de elementen voordat deze worden uitgesloten van de primaire set.
-1. Indien nodig, kunt u binnenkomende lijsten manipuleren. Om een doel van een andere dimensie uit te sluiten, moet dit doel worden teruggebracht naar dezelfde doeldimensie als het hoofddoel. Klik hiertoe op **[!UICONTROL Add a rule]** in de sectie **[!UICONTROL Exclusion rules]** en geef de voorwaarden voor het wijzigen van de afmetingen op. Afstemming van gegevens vindt plaats via een attribuut of een join-functie.
-1. U kunt de optie **[!UICONTROL Generate completement]** inschakelen als u de resterende populatie wilt verwerken. Zie de [ sectie van de Intersectie ](#intersection).
+1. Kies in de sectie **[!UICONTROL Sets to join]** de **[!UICONTROL Primary set]** , die de hoofdpopulatie vertegenwoordigt. Records in de andere sets worden uitgesloten van deze primaire set.
+
+1. Indien nodig, kunt u binnenkomende lijsten aanpassen om doelstellingen van verschillende afmetingen te richten. Om een doel van een andere dimensie uit te sluiten, moet het eerst worden opgenomen in dezelfde doelgerichte dimensie als de belangrijkste bevolking. Klik hiertoe op **[!UICONTROL Add a rule]** en definieer de voorwaarden voor het wijzigen van de dimensie. De verzoening wordt dan gedaan gebruikend of een attribuut of een toetreden.
+
+1. Schakel **[!UICONTROL Generate completement]** in als u de resterende populatie wilt verwerken. Het complement omvat de samenvoeging van alle binnenkomende activiteitsresultaten, met uitzondering van de doorsnede. Een extra uitgaande overgang wordt toegevoegd aan de activiteit.
 
 In het volgende **[!UICONTROL Exclusion]** -voorbeeld worden twee query&#39;s weergegeven die zijn geconfigureerd voor filterprofielen die een product hebben aangeschaft. De profielen die geen loyaliteitslidmaatschap hebben worden dan uitgesloten van de eerste reeks.
-
-Waarom: Je voert een loyaliteitscampagne, dus niet-leden zijn irrelevant.
 
 ![](../assets/orchestrated-exclusion-example.png)
 
