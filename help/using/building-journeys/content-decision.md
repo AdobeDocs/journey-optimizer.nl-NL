@@ -7,10 +7,12 @@ feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
+badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: activiteit, besluitvorming, inhouds-beslissing, beslissingsbeleid, canvas, reis
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
+source-git-commit: 701b2caeac704149c820ce3bf6338107ab4bc9f8
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '990'
 ht-degree: 1%
 
 ---
@@ -155,7 +157,7 @@ Hieronder ziet u het volledige voorbeeld van een reis waarbij een activiteit voo
 
 <!--When all activities are properly configured and saved, [publish](publishing-the-journey.md) your journey.-->
 
-Zodra de reis [&#128279;](publishing-the-journey.md) wordt geactiveerd:
+Zodra de reis [ ](publishing-the-journey.md) wordt geactiveerd:
 
 <!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 
