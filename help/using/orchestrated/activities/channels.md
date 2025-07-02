@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: cfb09467809a69516c34d52be3f41e7a1abdb7c3
+source-git-commit: 6a2b49d952408d6c9b0e147505f5112ada3f4967
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 | Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
 |---|---|---|---|
-| [ worden begonnen met georkestreerde campagnes ](../gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](../configuration-steps.md)<br/><br/>[ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](../gs-campaign-creation.md) | [ creeer een georkestreerde campagne ](../create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](../orchestrate-activities.md)<br/><br/><br/>[ Begin en controleer de campagne ](../start-monitor-campaigns.md)<br/><br/>[ Meldend ](../reporting-campaigns.md) | [ Werk met de Vraag Modeler ](../orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](../build-query.md)<br/><br/>[ uitdrukkingen ](../edit-expressions.md) uit | [ wordt begonnen met activiteiten ](about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](and-join.md) - [ bouwt publiek ](build-audience.md) - [ dimensie van de Verandering ](change-dimension.md) - **[de activiteiten van het Kanaal](channels.md)** - [ combineren ](combine.md) - [ Deduplicatie ](deduplication.md) - [ Verrijking ](enrichment.md) Formeel k [ - ](fork.md) Verzoening [ - ](reconciliation.md) Gesplitst [ - ](split.md) wacht [&#128279;](wait.md) |
+| [ worden begonnen met georkestreerde campagnes ](../gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](../configuration-steps.md)<br/><br/>[ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](../gs-campaign-creation.md) | [ creeer een georkestreerde campagne ](../create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](../orchestrate-activities.md)<br/><br/><br/>[ Begin en controleer de campagne ](../start-monitor-campaigns.md)<br/><br/>[ Meldend ](../reporting-campaigns.md) | [ Werk met de Vraag Modeler ](../orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](../build-query.md)<br/><br/>[ uitdrukkingen ](../edit-expressions.md) uit | [ wordt begonnen met activiteiten ](about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](and-join.md) - [ bouwt publiek ](build-audience.md) - [ dimensie van de Verandering ](change-dimension.md) - **[de activiteiten van het Kanaal](channels.md)** - [ combineren ](combine.md) - [ Deduplicatie ](deduplication.md) - [ Verrijking ](enrichment.md) Formeel k [ - ](fork.md) Verzoening [ - ](reconciliation.md) Gesplitst [ - ](split.md) wacht [](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -87,7 +87,7 @@ Volg onderstaande stappen om een levering in te stellen in het kader van een geo
 
    ![ beeld dat het canvas met beschikbare activiteiten toont ](../assets/channel-add.png)
 
-1. Selecteer de toegevoegde activiteit en klik **[!UICONTROL Edit Email]**, **[!UICONTROL Edit SMS]**, of **[!UICONTROL Edit Push]** knoop afhankelijk van het gekozen kanaal.
+1. Selecteer de toegevoegde activiteit en klik **[!UICONTROL Edit email]**, **[!UICONTROL Edit SMS]**, of **[!UICONTROL Edit Push]** knoop afhankelijk van het gekozen kanaal.
 
    ![ beeld dat het canvas met een e-mailactiviteit toont ](../assets/channel-edit.png)
 
@@ -95,39 +95,32 @@ Volg onderstaande stappen om een levering in te stellen in het kader van een geo
 
 ### De kanaalconfiguratie en -instellingen instellen {#configuration}
 
-1. Selecteer het tabblad **[!UICONTROL Actions]** en kies de kanaalconfiguratie die u voor uw bericht wilt gebruiken.
+Met het tabblad **[!UICONTROL Actions]** kunt u een kanaalconfiguratie voor uw bericht selecteren en aanvullende instellingen configureren, zoals bijhouden, inhoud experimenteren of meertalige inhoud.
+
+1. Kies de kanaalconfiguratie voor uw bericht te gebruiken.
 
    Een configuratie wordt bepaald door de Beheerder van het a [ Systeem ](../../start/path/administrator.md). Het bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameters, subdomein, mobiele apps, enzovoort. [ leer hoe te de configuraties van het opstellingskanaal ](../../configuration/channel-surfaces.md).
 
-1. Voor e-mail en SMS gebruikt u de volgende opties om te controleren hoe de ontvangers reageren op uw e-mail- of SMS-berichten.
+   ![ beeld dat de sectie van Acties ](../assets/channel-actions.png) toont
 
-   De resultaten van het bijhouden van de campagne zijn toegankelijk vanuit het campagnerapport nadat de campagne is uitgevoerd. [ leer meer over campagnerapporten ](../../reports/campaign-global-report-cja.md)
+1. Voor e-mail en SMS gebruikt u de opties in de sectie **[!UICONTROL Action tracking]** om te controleren hoe de ontvangers reageren op uw e-mail- of SMS-berichten. De resultaten van het bijhouden van de campagne zijn toegankelijk vanuit het campagnerapport nadat de campagne is uitgevoerd. [ leer meer over campagnerapporten ](../../reports/campaign-global-report-cja.md)
 
-1. Voor pushberichten gebruikt u de optie **[!UICONTROL Rapid delivery mode]** om snelle berichten te verzenden naar een publieksgrootte van minder dan 30M op een pushkanaal.
+1. Voor pushberichten gebruikt u de optie **[!UICONTROL Rapid delivery mode]** om snelle berichten te verzenden naar een publieksgrootte van minder dan 30M op een pushkanaal. De snelle leveringswijze is een **[!DNL Journey Optimizer]** toe:voegen-op die zeer snelle drukknop toestaat die in grote volumes verzendt. [Meer informatie](../../push/create-push.md#rapid-delivery)
 
-   De snelle leveringswijze is een **[!DNL Journey Optimizer]** toe:voegen-op die zeer snelle drukknop toestaat die in grote volumes verzendt. [Meer informatie](../../push/create-push.md#rapid-delivery)
+1. Gebruik de sectie **[!UICONTROL Content experiment]** om meerdere leveringsbehandelingen te definiëren om te meten welke het beste presteert voor uw doelgroep. Klik de **[!UICONTROL Create experiment]** knoop dan de stappen volgen in deze sectie worden gedetailleerd: [ creeer een inhoud experimenteermogelijkheden ](../../content-management/content-experiment.md) die.
 
-1. In de sectie **[!UICONTROL Content experiment]** kunt u meerdere leveringsbehandelingen definiëren om te meten welke het beste presteert voor uw doelgroep.
+   ![ beeld dat de sectie van het Inhoudexperiment toont ](../assets/channel-experiment.png)
 
-   Om dit te doen, klik de **[!UICONTROL Create experiment]** knoop dan de stappen volgen die in deze sectie worden gedetailleerd: [ creeer een mogelijkheden van het inhoudexperiment ](../../content-management/content-experiment.md).
-
-1. Met de sectie **[!UICONTROL Languages]** kunt u inhoud maken in meerdere talen binnen uw campagne.
-
-   Klik hiertoe op de knop **[!UICONTROL Add languages]** en selecteer de gewenste **[!UICONTROL Language settings]** . De gedetailleerde informatie over hoe te opstelling en gebruik meertalige mogelijkheden zijn beschikbaar in deze sectie: [ krijgt begonnen met meertalige inhoud ](../../content-management/multilingual-gs.md)
+1. Gebruik de sectie **[!UICONTROL Languages]** om inhoud in meerdere talen binnen uw campagne te maken. Klik hiertoe op de knop **[!UICONTROL Add languages]** en selecteer de gewenste **[!UICONTROL Language settings]** . De gedetailleerde informatie over hoe te opstelling en gebruik meertalige mogelijkheden zijn beschikbaar in deze sectie: [ krijgt begonnen met meertalige inhoud ](../../content-management/multilingual-gs.md)
 
 ### De inhoud definiëren {#content}
 
-Selecteer de tab **[!UICONTROL Content]** om de inhoud van het bericht te definiëren. Het maken van de inhoud is afhankelijk van het geselecteerde kanaal.
+Gebruik het tabblad **[!UICONTROL Content]** om de inhoud van het bericht te definiëren. Het maken van de inhoud is afhankelijk van het geselecteerde kanaal. Leer gedetailleerde stappen om uw berichtinhoud op de volgende pagina&#39;s tot stand te brengen:
 
-Leer gedetailleerde stappen om uw berichtinhoud op de volgende pagina&#39;s tot stand te brengen:
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><a href="../../email/create-email.md"><img alt="email" src="../../channels/assets/do-not-localize/email.png"></a>
-<div align="center"><a href="../../email/create-email.md"><strong> E-mail </strong></a></div></td>
-<td><a href="../../sms/create-sms.md"><img alt="sms" src="../../channels/assets/do-not-localize/sms.png"></a>
-<div align="center"><a href="../../sms/create-sms.md"><strong> SMS </strong></a></div></td>
-<td><a href="../../push/create-push.md"><img alt="duwen" src="../../channels/assets/do-not-localize/push.png"></a>
-<div align="center"><a href="../../push/create-push.md"><strong> Push bericht </strong></a></div></td>
+<table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
+<td><a href="../../email/create-email.md"><img alt="email" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>Email</strong></a></td>
+<td><a href="../../sms/create-sms.md"><img alt="sms" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../sms/create-sms.md"><strong>Sms</strong></a></td>
+<td><a href="../../push/create-push.md"><img alt="duwen" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Pushmelding</strong></a></td>
 </tr></table>
 
 Zodra de inhoud is gedefinieerd, gebruikt u de knop **[!UICONTROL Simulate content]** om een voorvertoning van uw inhoud weer te geven en deze te testen met testprofielen of voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [Meer informatie](../../content-management/preview-test.md)
@@ -136,9 +129,9 @@ Zodra de inhoud is gedefinieerd, gebruikt u de knop **[!UICONTROL Simulate conte
 
 Navigeer met de pijl **[!UICONTROL Back]** terug naar uw georkestreerde campagne.
 
-![ beeld dat de achterknoop ](../assets/channel-back.png) toont
-
 U kunt nu de activiteiten op het canvas ordenen en de campagne publiceren om de berichten te verzenden. [ Leer hoe te om georkestreerde campagnes te beginnen en te controleren ](../start-monitor-campaigns.md)
+
+![ beeld dat de achterknoop ](../assets/channel-back.png) toont
 
 <!--
 ## Examples {#cross-channel-workflow-sample}
