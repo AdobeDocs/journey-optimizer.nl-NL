@@ -120,5 +120,5 @@ Nadat u een AI-model hebt gemaakt, kunt u het gebruiken in een selectiestrategie
 
 >[!NOTE]
 >
->Momenteel is het [ rapport van de Meting van het 0} optillen slechts beschikbaar voor het ](ranking/auto-optimization-model.md#lift) Gepersonaliseerde model van optimalisering [ AI.](ranking/personalized-optimization-model.md)
+>Momenteel is het [ rapport van de Meting van het 0&rbrace; optillen slechts beschikbaar voor het ](ranking/auto-optimization-model.md#lift) Gepersonaliseerde model van optimalisering [ AI.](ranking/personalized-optimization-model.md)
 
