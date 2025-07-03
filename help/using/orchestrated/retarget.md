@@ -1,21 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Belangrijke stappen voor het maken van georkestreerde campagnes
-description: Leer de belangrijkste principes van het maken van georkestreerde campagnes met Adobe Journey Optimizer
-badge: label="Alpha"
+title: Gestroomlijnde campagnes met Adobe Journey Optimizer starten en volgen
+description: Leer hoe u georkestreerde campagnes met Adobe Journey Optimizer kunt starten en volgen.
 hide: true
 hidefromtoc: true
-exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 source-git-commit: 6439be00315dfde7ab385d7f848b7031d95060f4
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
 
-
-# Belangrijke stappen voor het maken van georkestreerde campagnes {#orchestrated-campaign-creation}
+# Opnieuw rangschikken {#retarget}
 
 +++ Inhoudsopgave
 
@@ -26,8 +23,6 @@ ht-degree: 0%
 {style="table-layout:fixed"}
 
 +++
-
-<br/>
 
 >[!BEGINSHADEBOX]
 
