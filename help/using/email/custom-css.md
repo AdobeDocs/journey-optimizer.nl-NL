@@ -8,9 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: css, editor, summary, email
-source-git-commit: a4055d1c4b6d75a04b71067df0c8f5499bae24d6
+exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
+source-git-commit: 707815ddfdca656cdf341f103bee3440e9700270
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '694'
 ht-degree: 1%
 
 ---
@@ -40,13 +41,15 @@ Volg onderstaande stappen om aangepaste CSS toe te voegen aan uw e-mailinhoud.
 
 1. Klik op de knop **[!UICONTROL Add Custom CSS]**.
 
+   >[!NOTE]
+   >
+   >De knop **[!UICONTROL Add custom CSS]** is alleen beschikbaar wanneer **[!UICONTROL Body]** is geselecteerd. U kunt echter aangepaste CSS-stijlen toepassen op alle componenten in uw inhoud.
+
 1. Voer uw CSS-code in in het speciale tekstgebied dat wordt weergegeven. Zorg ervoor dat de aangepaste CSS geldig is en de juiste syntaxis volgt. [Meer informatie](#use-valid-css)
 
    ![ ga douane CSS in het specifieke tekstgebied ](assets/email-body-custom-css.png){width="65%"} in
 
    >[!NOTE]
-   >
-   >De knop **[!UICONTROL Add custom CSS]** is alleen beschikbaar wanneer **[!UICONTROL Body]** is geselecteerd. U kunt echter aangepaste CSS-stijlen toepassen op alle componenten in uw inhoud.
    >
    >Wanneer het gebruiken van a [ malplaatje met gesloten inhoud ](../content-management/content-locking.md#use), kunt u geen douane CSS aan uw inhoud toevoegen. Het knoplabel verandert in **[!UICONTROL View custom CSS]** en eventuele aangepaste CSS die al in de inhoud aanwezig is, is alleen-lezen.
 
@@ -201,12 +204,6 @@ Uw aangepaste CSS wordt aan het einde van de sectie `<head>` toegevoegd als onde
 
 De aangepaste CSS wordt niet geïnterpreteerd of gevalideerd door het deelvenster Designer e-mailen **[!UICONTROL Settings]** . Deze is volledig onafhankelijk en kan alleen worden gewijzigd via de optie **[!UICONTROL Add Custom CSS]** .
 
-Als het kenmerk `data-disabled` set to `true` is ingesteld voor de stijltag `global-custom` , wordt de aangepaste CSS niet toegepast. Bijvoorbeeld:
-
-```html
-<style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
-```
-
 ### Geïmporteerde inhoud
 
 Houd rekening met het volgende als u aangepaste CSS wilt gebruiken met inhoud die is geïmporteerd in de e-mailtoepassing Designer:
@@ -224,7 +221,13 @@ Houd rekening met de onderstaande opties als uw aangepaste CSS niet wordt toegep
 
 * Zorg ervoor dat uw CSS geldig is en geen syntaxisfouten bevat (zoals ontbrekende accolades, onjuiste eigenschapsnamen). [ leer hoe ](#use-valid-css)
 
-* Zorg ervoor dat uw CSS wordt toegevoegd aan de tag `<style>` met het kenmerk `data-name="global-custom"` en dat `data-disabled` niet wordt toegepast op `global-custom` . [Meer informatie](#implementation)
+* Zorg ervoor dat uw CSS wordt toegevoegd aan de tag `<style>` met het kenmerk `data-name="global-custom"` .
+
+* Controleer of het kenmerk `global-custom` set to `data-disabled` is ingesteld voor de stijltag `true` . In dat geval wordt de aangepaste CSS niet toegepast. Bijvoorbeeld:
+
+  ```html
+  <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
+  ```
 
 * Zorg ervoor dat uw CSS niet door andere CSS regels, met inbegrip van om het even welk [ thema ](apply-email-themes.md) wordt met voeten getreden die op uw inhoud wordt toegepast.
 
