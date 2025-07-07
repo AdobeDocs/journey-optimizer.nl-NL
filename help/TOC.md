@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 61498b61f7f05e0553fe575c980fd1bee08500a3
+source-git-commit: a214afd830b9a0f37268b7e298e742470004e2a0
 workflow-type: tm+mt
-source-wordcount: '2491'
+source-wordcount: '2492'
 ht-degree: 20%
 
 ---
@@ -62,10 +62,6 @@ ht-degree: 20%
       + [Beëindig uw reis](using/building-journeys/end-journey.md)
       + [Een journey naar een andere sandbox kopiëren](using/building-journeys/copy-to-sandbox.md)
       + [ integreren met de Intelligente Diensten ](using/building-journeys/ai-services-overview.md)
-   + Problemen oplossen {#troubleshoot-journey}
-      + [Los reisfouten op](using/building-journeys/troubleshooting.md)
-      + [Los uw reisuitvoering problemen op](using/building-journeys/troubleshooting-execution.md)
-      + [Binnenkomende acties oplossen](using/building-journeys/troubleshooting-inbound.md)
    + Activiteiten {#about-journey-building}
       + [Aan de slag met reisactiviteiten](using/building-journeys/about-journey-activities.md)
       + [Algemene gebeurtenissen](using/building-journeys/general-events.md)
@@ -178,12 +174,16 @@ ht-degree: 20%
       + [Leveringen opwaarderen](using/building-journeys/ramp-up-deliveries-uc.md)
       + [Productie beperken met externe gegevensbronnen en aangepaste acties](using/building-journeys/limit-throughput.md)
       + [Aangepaste acties gebruiken om gebeurtenissen voor reizen in Experience Platform te schrijven](using/building-journeys/custom-action-aep.md)
+   + Problemen oplossen {#troubleshoot-journey}
+      + [Los reisfouten op](using/building-journeys/troubleshooting.md)
+      + [Los uw reisuitvoering problemen op](using/building-journeys/troubleshooting-execution.md)
+      + [Binnenkomende acties oplossen](using/building-journeys/troubleshooting-inbound.md)
 + Geordende campagnes {#orchestrated-campaigns}
    + [Aan de slag met georkestreerde campagnes](using/orchestrated/gs-orchestrated-campaigns.md)
    + [Configuratiestappen](using/orchestrated/configuration-steps.md)
    + [Georkestreerde campagnes openen en beheren](using/orchestrated/access-manage-orchestrated-campaigns.md)
    + Start uw eerste georkestreerde campagne{#launch}
-      + [Belangrijke stappen voor het maken van georkestreerde campagnes](using/orchestrated/gs-campaign-creation.md)
+      + [Belangrijke stappen om een georkestreerde campagne te maken](using/orchestrated/gs-campaign-creation.md)
       + [De campagne maken en plannen](using/orchestrated/create-orchestrated-campaign.md)
       + [Orchestraten](using/orchestrated/orchestrate-activities.md)
       + [De campagne starten en controleren](using/orchestrated/start-monitor-campaigns.md)
@@ -372,7 +372,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
          + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [Adobe Experience Platform-gegevens gebruiken voor personalisatie (Beta)](using/personalization/aep-data-perso.md)
@@ -723,7 +723,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
