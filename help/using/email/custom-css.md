@@ -139,6 +139,7 @@ Hieronder staan voorbeelden van geldige CSS.
   }
 }
 ```
+
 +++
 
 +++ Voorbeelden van ongeldige CSS
@@ -165,6 +166,7 @@ Ongeldige syntaxis, zoals ontbrekende accolades, wordt niet geaccepteerd:
 body {
   background: red;
 ```
+
 +++
 
 ## Technische uitvoering {#implementation}
@@ -205,6 +207,7 @@ Uw aangepaste CSS wordt aan het einde van de sectie `<head>` toegevoegd als onde
   </body>
 </html>
 ```
+
 +++
 
 De aangepaste CSS wordt niet geïnterpreteerd of gevalideerd door het deelvenster Designer e-mailen **[!UICONTROL Settings]** . Deze is volledig onafhankelijk en kan alleen worden gewijzigd via de optie **[!UICONTROL Add Custom CSS]** .
