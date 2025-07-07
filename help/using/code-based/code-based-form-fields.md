@@ -5,7 +5,8 @@ feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
+source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
 workflow-type: tm+mt
 source-wordcount: '1194'
 ht-degree: 0%
@@ -99,7 +100,7 @@ Om sommige van uw code van JSON of van HTML editable te maken, begin door een co
 
 Wanneer u een op code gebaseerde sjabloon voor ervaringsinhoud maakt, kunt u een beslissingsbeleid gebruiken om aanbiedingen in bewerkbare formuliervelden te benutten.
 
-1. Creeer een op code-gebaseerd ervaringsmalplaatje zoals hierboven beschreven [&#128279;](#add-editable-fields).
+1. Creeer een op code-gebaseerd ervaringsmalplaatje zoals hierboven beschreven [ ](#add-editable-fields).
 
 1. Klik op **[!UICONTROL Add decision policy]** met het pictogram **[!UICONTROL Show Decisioning]** in de rechterraster van het scherm voor de editie of in de editor voor expressies in de sectie **[!UICONTROL Decision policy]** in het linkermenu.
 
@@ -109,7 +110,7 @@ Wanneer u een op code gebaseerde sjabloon voor ervaringsinhoud maakt, kunt u een
 
    ![](assets/cbe-template-insert-policy.png)
 
-1. Na de `{{#each}}` markering, neem de code op die aan het editable vormgebied (s) beantwoordt dat u wilt toevoegen, gebruikend de **gealigneerde** syntaxis hierboven beschreven [&#128279;](#add-editable-fields). Vervang `"name"` door een unieke id om het bewerkbare veld te identificeren. In dit voorbeeld gebruikt u &quot;title&quot;.
+1. Na de `{{#each}}` markering, neem de code op die aan het editable vormgebied (s) beantwoordt dat u wilt toevoegen, gebruikend de **gealigneerde** syntaxis hierboven beschreven [ ](#add-editable-fields). Vervang `"name"` door een unieke id om het bewerkbare veld te identificeren. In dit voorbeeld gebruikt u &quot;title&quot;.
 
    ![](assets/cbe-template-policy-inline.png){width="90%"}
 
@@ -148,8 +149,8 @@ Hieronder volgen een paar voorbeelden van JSON- en HTML-sjablonen, waarvan er en
 >
 >Bij het verwijzen naar de inline velden in de JSON-payload:
 >
->   * Tekenreeksvelden moeten tussen dubbele aanhalingstekens staan.
->   * Gehele getallen of laarzen mogen NIET tussen dubbele aanhalingstekens staan. (Zie het veld `number_of_items` in het bovenstaande voorbeeld.)
+>* Tekenreeksvelden moeten tussen dubbele aanhalingstekens staan.
+>* Gehele getallen of laarzen mogen NIET tussen dubbele aanhalingstekens staan. (Zie het veld `number_of_items` in het bovenstaande voorbeeld.)
 
 **malplaatje JSON met besluit:**
 
@@ -245,5 +246,4 @@ U kunt de formuliervelden eenvoudig bewerken vanuit een ervaringstraject of -cam
 
 Leer hoe u bewerkbare velden kunt toevoegen aan op code gebaseerde ervaringskanaal-inhoudssjablonen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463997/?learn=on&#x26;enablevpops&captions=dut)
-
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: extern, bronnen, gegevens, configuratie, verbinding, derde
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
 workflow-type: tm+mt
 source-wordcount: '1634'
 ht-degree: 43%
@@ -108,11 +108,11 @@ Bij een GET-aanroep die parameter(s) vereist, voert u de parameter(s) in het vel
 * geeft een lijst weer van de parameters die tijdens de aanroep moeten worden doorgegeven in het veld **[!UICONTROL Dynamic Values]** (in het onderstaande voorbeeld: &quot;identifier&quot;).
 * geef ze ook volgens precies dezelfde syntaxis op in de hoofdtekst van de verzonden payload. Hiervoor moet u het volgende toevoegen: &quot;param&quot;: &quot;name of your parameter&quot; (in het onderstaande voorbeeld: &quot;identifier&quot;). Volg de onderstaande syntaxis:
 
-  ```json
-  {"id":{"param":"identifier"}}
-  ```
+```json
+{"id":{"param":"identifier"}}
+```
 
-  ![](assets/journey29.png)
+![](assets/journey29.png)
 
 
 Zodra uw veranderingen worden bewaard, wordt de gegevensbron gevormd en klaar om in uw reizen, bijvoorbeeld in uw voorwaarden te worden gebruikt of een e-mail te personaliseren. Als de temperatuur boven 30 °C ligt, kunt u besluiten een bepaalde mededeling te sturen.
