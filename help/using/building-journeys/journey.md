@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 keywords: reis, ontdek, begin
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 6c4bfc4544afc84d4a8685562f716c258a2acbab
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -40,13 +40,7 @@ Van binnen de reisontwerper, kunnen de marketers in real time teweeggebrachte 1:
 
 De [ reisontwerper ](using-the-journey-designer.md) verstrekt [ ingebouwde kanaalacties ](journeys-message.md) die uitgaande berichten, zoals e-mail, dupberichten, en SMS/MMS, evenals binnenkomende kanalen, met inbegrip van mobiele apps, websites, en code-gebaseerde ervaringen steunen die direct binnen Journey Optimizer worden gebouwd. U kunt derdesystemen ook gebruiken om berichten te verzenden — of via e-mail, tekst, of andere kanalen — Journey Optimizer omvat [ douaneacties ](using-custom-actions.md) om deze systemen toe te staan om in reizen direct van de reisontwerper worden geïntegreerd.
 
-Leer hoe u reizen kunt maken in de volgende gebruiksgevallen van begin tot eind:
-
-* [Multikanaalberichten verzenden](journeys-uc.md)
-* [Een bericht verzenden met Campagne v7/v8](ajo-ac.md)
-* [Een bericht verzenden naar abonnees](message-to-subscribers-uc.md)
-* [Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen](collections.md)
-* [Productie beperken met externe gegevensbronnen en aangepaste handelingen](limit-throughput.md)
+Leer hoe te reizen [ in deze gebruiksgevallen van begin tot eind te bouwen ](jo-use-cases.md).
 
 >[!NOTE]
 >
@@ -56,4 +50,4 @@ Leer hoe u reizen kunt maken in de volgende gebruiksgevallen van begin tot eind:
 
 Ontdek de onderdelen van een reis en begrijp de grondbeginselen van het maken van een reis op het canvas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430347?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
