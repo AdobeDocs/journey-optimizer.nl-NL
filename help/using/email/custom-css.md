@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: css, editor, summary, email
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: 707815ddfdca656cdf341f103bee3440e9700270
+source-git-commit: c72e6c1ff9d1ce1510f8571d82e56ae21c63194d
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '700'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ U kunt elke geldige CSS-tekenreeks invoeren in het tekstgebied **[!UICONTROL Add
 >
 >Vermijd het gebruik van CSS die de lay-out of functionaliteit van de inhoud onbedoeld kan onderbreken.
 
-### Geldige CSS
++++ Voorbeelden van CSS
 
 Hieronder staan voorbeelden van geldige CSS.
 
@@ -139,8 +139,9 @@ Hieronder staan voorbeelden van geldige CSS.
   }
 }
 ```
++++
 
-### Ongeldige CSS
++++ Voorbeelden van ongeldige CSS
 
 Als er ongeldige CSS wordt ingevoerd, wordt een foutbericht weergegeven dat aangeeft dat de CSS niet kan worden opgeslagen. Hieronder staan voorbeelden van ongeldige CSS.
 
@@ -164,10 +165,13 @@ Ongeldige syntaxis, zoals ontbrekende accolades, wordt niet geaccepteerd:
 body {
   background: red;
 ```
++++
 
 ## Technische uitvoering {#implementation}
 
 Uw aangepaste CSS wordt aan het einde van de sectie `<head>` toegevoegd als onderdeel van een `<style>` -tag met het kenmerk `data-name="global-custom"` , zoals in het onderstaande voorbeeld. Op deze manier weet u zeker dat de aangepaste stijlen globaal op de inhoud worden toegepast.
+
++++ Zie voorbeeld
 
 ```html
 <!DOCTYPE html>
@@ -201,10 +205,11 @@ Uw aangepaste CSS wordt aan het einde van de sectie `<head>` toegevoegd als onde
   </body>
 </html>
 ```
++++
 
 De aangepaste CSS wordt niet geïnterpreteerd of gevalideerd door het deelvenster Designer e-mailen **[!UICONTROL Settings]** . Deze is volledig onafhankelijk en kan alleen worden gewijzigd via de optie **[!UICONTROL Add Custom CSS]** .
 
-### Geïmporteerde inhoud
+### Guardrails - Geïmporteerde inhoud
 
 Houd rekening met het volgende als u aangepaste CSS wilt gebruiken met inhoud die is geïmporteerd in de e-mailtoepassing Designer:
 
@@ -223,20 +228,28 @@ Houd rekening met de onderstaande opties als uw aangepaste CSS niet wordt toegep
 
 * Zorg ervoor dat uw CSS wordt toegevoegd aan de tag `<style>` met het kenmerk `data-name="global-custom"` .
 
-* Controleer of het kenmerk `global-custom` set to `data-disabled` is ingesteld voor de stijltag `true` . In dat geval wordt de aangepaste CSS niet toegepast. Bijvoorbeeld:
+* Controleer of het kenmerk `global-custom` set to `data-disabled` is ingesteld voor de stijltag `true` . In dat geval wordt de aangepaste CSS niet toegepast.
+
++++ Bijvoorbeeld:
 
   ```html
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
++++
+
 * Zorg ervoor dat uw CSS niet door andere CSS regels, met inbegrip van om het even welk [ thema ](apply-email-themes.md) wordt met voeten getreden die op uw inhoud wordt toegepast.
 
    * Gebruik de browsergereedschappen voor ontwikkelaars om de inhoud te controleren en te controleren of uw CSS zich richt op de juiste kiezers.
 
-   * Voeg `!important` aan uw declaraties toe om ervoor te zorgen dat deze voorrang krijgen. Bijvoorbeeld:
+   * Voeg `!important` aan uw declaraties toe om ervoor te zorgen dat deze voorrang krijgen.
+
++++ Bijvoorbeeld:
 
      ```css
      .acr-Form {
        background: red !important;
      }
      ```
+
++++
