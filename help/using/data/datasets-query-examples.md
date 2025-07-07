@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: dataset, optimizer, gebruiksgevallen
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 3df87ee9028217d353d657167e541e7d113c6065
+source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,10 @@ Op deze pagina vindt u de lijst met Adobe Journey Optimizer-gegevenssets en verw
 * [Gegevensset BCC-feedbackgebeurtenis](#bcc-feedback-event-dataset)
 * [Entiteitsgegevens](#entity-dataset)
 
-Om de volledige lijst van gebieden en attributen voor elk schema te bekijken, raadpleeg het [ het schemawoordenboek van Journey Optimizer ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL){target="_blank"}.
+Om de volledige lijst van gebieden en attributen voor elk schema te bekijken, raadpleeg het [ het schemawoordenboek van Journey Optimizer ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+
+Zie ook verscheidene algemeen gebruikte [ voorbeelden aan de Gebeurtenissen van de Stap van de Vraag ](../reports/query-examples.md).
+
 
 ## Dataset over e-mailvolgervaringen{#email-tracking-experience-event-dataset}
 
@@ -234,6 +237,11 @@ group by
     _experience.journeyOrchestration.stepEvents.nodeID,
     _experience.journeyOrchestration.stepEvents.nodeName; 
 ```
+
+
+Zie ook verscheidene algemeen gebruikte [ voorbeelden aan de Gebeurtenissen van de Stap van de Vraag ](../reports/query-examples.md).
+
+
 
 ## Dataset voor beslissingsgebeurtenis{#ode-decisionevents}
 
