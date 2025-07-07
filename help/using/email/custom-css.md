@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: css, editor, summary, email
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: edf82b966588a792c660430ced2cfe72c6b88216
+source-git-commit: 5593758448216efcc82971b1072b7fc8c9303572
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 1%
@@ -142,6 +142,7 @@ Hieronder staan voorbeelden van geldige CSS.
 
 +++
 
+
 +++ Voorbeelden van ongeldige CSS
 
 Als er ongeldige CSS wordt ingevoerd, wordt een foutbericht weergegeven dat aangeeft dat de CSS niet kan worden opgeslagen. Hieronder staan voorbeelden van ongeldige CSS.
@@ -209,6 +210,7 @@ Uw aangepaste CSS wordt aan het einde van de sectie `<head>` toegevoegd als onde
 ```
 
 +++
+
 
 De aangepaste CSS wordt niet geïnterpreteerd of gevalideerd door het deelvenster Designer e-mailen **[!UICONTROL Settings]** . Deze is volledig onafhankelijk en kan alleen worden gewijzigd via de optie **[!UICONTROL Add Custom CSS]** .
 
