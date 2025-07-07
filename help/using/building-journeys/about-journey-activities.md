@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: reis, activiteiten, aan de slag, gebeurtenissen, actie
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 527a539272460aa6aa22de5bb3da2223521ee2a3
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 8%
+source-wordcount: '665'
+ht-degree: 12%
 
 ---
 
@@ -62,8 +62,6 @@ In het palet, links op het scherm, onder **[!UICONTROL Events]** en **[!UICONTRO
 
 Deze activiteiten staan voor de verschillende beschikbare communicatiekanalen. U kunt ze combineren om een scenario voor meerdere kanalen te maken.
 
-<!--If you have configured custom actions, they also appear here. [Learn more](../building-journeys/using-custom-actions.md)-->
-
 U kunt ook specifieke acties instellen om berichten te verzenden:
 
 * Als u berichten verzendt met een systeem van derden, kunt u een specifieke aangepaste handeling maken. [Meer informatie](../action/action.md)
@@ -80,7 +78,7 @@ U kunt ook specifieke acties instellen om berichten te verzenden:
 
 Met de meeste activiteiten kunt u een **[!UICONTROL Label]** definiëren. Hiermee voegt u een achtervoegsel toe aan de naam die onder uw activiteit op het canvas wordt weergegeven. Dit is handig als u dezelfde activiteit meerdere keren gebruikt en u deze gemakkelijker wilt identificeren. Het maakt het zuiveren ook gemakkelijker in het geval van fouten en maakt rapporten gemakkelijker te lezen. U kunt ook een optionele **[!UICONTROL Description]** toevoegen.
 
-![](assets/journey-action-label.png)
+![ Etiket en de gebieden van de Beschrijving in de eigenschappen van de reisactiviteit ](assets/journey-action-label.png)
 
 >[!NOTE]
 >
@@ -90,18 +88,24 @@ Met de meeste activiteiten kunt u een **[!UICONTROL Label]** definiëren. Hierme
 
 De meeste activiteiten geven een aantal geavanceerde en/of technische parameters weer die u niet kunt wijzigen.
 
-![](assets/journey-advanced-parameters.png)
+![ Geavanceerde parametergebieden in de eigenschappen van de reisactiviteit ](assets/journey-advanced-parameters.png)
 
 Verberg deze parameters met de knop **[!UICONTROL Hide read-only fields]** voor een betere leesbaarheid.
 
-![](assets/journey-hide-read-only-fields.png)
+![ verberg read-only gebiedspictogram in de eigenschappen van de reisactiviteit ](assets/journey-hide-read-only-fields.png)
 
 In bepaalde situaties kunt u de waarden van deze parameters voor specifiek gebruik overschrijven. Als u een waarde wilt afdwingen, klikt u op het pictogram **[!UICONTROL Enable parameter override]** rechts van het veld. [Meer informatie](../configuration/primary-email-addresses.md#journey-parameters)
 
-![](assets/journey-enable-parameter-override.png)
+![ laat parameteropheffing optie in de eigenschappen van de E-mailactiviteit toe ](assets/journey-enable-parameter-override.png)
 
 ### Een alternatief pad toevoegen
 
 Wanneer er een fout in een actie of een voorwaarde optreedt, eindigt de journey van een individu. De enige manier om door te gaan is het selectievakje **[!UICONTROL Add an alternative path in case of a timeout or an error]** in te schakelen. Zie [deze sectie](../building-journeys/using-the-journey-designer.md#paths).
 
-![](assets/journey42.png)
+![ voeg een alternatieve wegoptie in de eigenschappen van de voorwaardenactiviteit ](assets/journey42.png) toe
+
+## Problemen oplossen {#troubleshooting}
+
+Controleer voordat u uw journey gaat testen en publiceren of alle activiteiten correct zijn geconfigureerd. U kunt geen tests of publicaties uitvoeren als het systeem nog steeds fouten detecteert.
+
+Leer hoe te om fouten in activiteiten en in de reis [ op deze pagina ](troubleshooting.md) problemen op te lossen.
