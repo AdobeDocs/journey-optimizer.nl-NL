@@ -6,9 +6,10 @@ description: Leer hoe u de publieksactiviteit Opslaan in een georkestreerde camp
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 8a5026cdeb63b7b261ec0dfa690c5bd41d7de772
+exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
+source-git-commit: ab3cfbdc5c48b5fea47817d39fb8429e096439ff
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 | Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
 |---|---|---|---|
-| [ krijgen begonnen met georkestreerde campagnes ](../gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](../configuration-steps.md)<br/><br/>[ Toegang en beheert georkestreerde campagnes ](../access-manage-orchestrated-campaigns.md) | [ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](../gs-campaign-creation.md)<br/><br/>[ creëren en plannen de campagne ](../create-orchestrated-campaign.md)<br/><br/>[ activiteiten van het Orchestrate ](../orchestrate-activities.md)<br/><br/>[ Begin en controleer de campagne ](../start-monitor-campaigns.md)<br/><br/>[ Meldend ](../reporting-campaigns.md) | [ Werk met de regelbouwer ](../orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](../build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](../edit-expressions.md)<br/><br/>[ opnieuw op ](../retarget.md) | [ wordt begonnen met activiteiten ](about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](and-join.md) - [ bouwt publiek ](build-audience.md) - [ dimensie van de Verandering ](change-dimension.md) - [ de activiteiten van het Kanaal ](channels.md) - [ combineren ](combine.md) - [ Deduplicatie ](deduplication.md) - [ Verrijking ](enrichment.md) Formeel k [ - ](fork.md) Verzoening [ - ](reconciliation.md) sparen publiek <b>[ - ](save-audience.md)</b> Gesplitst [ - ](split.md) wacht [&#128279;](wait.md) |
+| [ krijgen begonnen met georkestreerde campagnes ](../gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](../configuration-steps.md)<br/><br/>[ Toegang en beheert georkestreerde campagnes ](../access-manage-orchestrated-campaigns.md) | [ Zeer belangrijke stappen voor georkestreerde campagneverwezenlijking ](../gs-campaign-creation.md)<br/><br/>[ creëren en plannen de campagne ](../create-orchestrated-campaign.md)<br/><br/>[ activiteiten van het Orchestrate ](../orchestrate-activities.md)<br/><br/>[ Begin en controleer de campagne ](../start-monitor-campaigns.md)<br/><br/>[ Meldend ](../reporting-campaigns.md) | [ Werk met de regelbouwer ](../orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](../build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](../edit-expressions.md)<br/><br/>[ opnieuw op ](../retarget.md) | [ wordt begonnen met activiteiten ](about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](and-join.md) - [ bouwt publiek ](build-audience.md) - [ dimensie van de Verandering ](change-dimension.md) - [ de activiteiten van het Kanaal ](channels.md) - [ combineren ](combine.md) - [ Deduplicatie ](deduplication.md) - [ Verrijking ](enrichment.md) Formeel k [ - ](fork.md) Verzoening [ - ](reconciliation.md) sparen publiek <b>[ - ](save-audience.md)</b> Gesplitst [ - ](split.md) wacht [](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -32,26 +33,28 @@ Deze activiteit is bijzonder nuttig om publiekssegmenten te bewaren die binnen d
 
 ## Vorm sparen publieksactiviteit {#save-audience-configuration}
 
-Volg deze stappen om **te vormen sparen publiek** activiteit:
+Voer de volgende stappen uit om de **[!UICONTROL Save audience]** -activiteit te configureren:
 
-1. Voeg a **sparen publiek** activiteit aan uw georkestreerde campagne toe.
+1. Voeg een **[!UICONTROL Save audience]** activiteit aan uw georkestreerde campagne toe.
 
-1. Op de **drop-down Wijze**, selecteer de actie u wilt uitvoeren:
+1. Voer een **[!UICONTROL Audience label]** in die het opgeslagen publiek identificeert.
 
-   * **creeer of werk een bestaand publiek** bij: Bepaal een **etiket van het Publiek**. Als het publiek reeds bestaat, wordt het bijgewerkt; anders, wordt een nieuw publiek gecreeerd.
+1. Klik op **[!UICONTROL Add audience attribute]** om te definiëren hoe de publieksgegevens worden gestructureerd en opgeslagen voor toekomstig hergebruik.
 
-   * **werk een bestaand publiek** bij: Kies het **Publiek** u van de lijst van bestaand publiek wilt bijwerken.
+   ![](../assets/save-audience-1.png)
 
-1. Selecteer de **wijze van de Update** die op bestaand publiek van toepassing is:
+1. Selecteer vervolgens de juiste **[!UICONTROL Primary identity field]** &#x200B; en **[!UICONTROL Identity namespace]** voor een nauwkeurige profielresolutie.
 
-   * **vervang publieksinhoud met nieuwe gegevens**: Alle publieksinhoud wordt vervangen, en het oude gegeven wordt verloren. Slechts worden de gegevens van de binnenkomende overgang van **sparen publiek** activiteit behouden. Met deze optie wist u het publiekstype en de doeldimensie van het bijgewerkte publiek.
+   ![](../assets/save-audience-2.png)
 
-   * **Volledig publiek met nieuwe gegevens**: De oude publieksinhoud wordt behouden, en de gegevens van de binnenkomende overgang van **sparen publiek** activiteit wordt toegevoegd aan het.
+1. Voltooi uw installatie door de georkestreerde campagne op te slaan en te publiceren. Hierdoor wordt uw publiek gegenereerd en opgeslagen.
 
-1. Controle **produceert een uitgaande overgang** optie als u een overgang na **wilt toevoegen sparen publiek** activiteit.
+De inhoud van het opgeslagen publiek is vervolgens beschikbaar in de gedetailleerde weergave van het publiek, die u kunt openen via het menu **[!UICONTROL Audiences]** .
 
-De inhoud van het bewaarde publiek is dan beschikbaar in de detailmening van het publiek, dat van het **Publiek** menu kan worden betreden. De kolommen beschikbaar in deze mening beantwoorden aan de kolommen van de binnenkomende overgang van de georkestreerde campagne **sparen publiek** activiteit.
+![](../assets/save-audience-3.png)
 
 ## Voorbeeld {#save-audience-example}
 
-In het volgende voorbeeld ziet u hoe u een eenvoudige publieksupdate maakt. Een planner voert de georkestreerde campagne eens per maand uit. Met een query worden alle profielen opgehaald die zijn geabonneerd op de verschillende beschikbare toepassingen. **sparen publiek** activiteit werkt het publiek door profielen uit te verwijderen die van de dienst sinds laatste georkestreerde campagneuitvoering hebben afgemeld en onlangs ingetekende profielen toevoegen.
+In het volgende voorbeeld ziet u hoe u een eenvoudig publiek kunt maken door doelframes in te stellen. Een query identificeert alle profielen die een aankoop hebben gedaan in de afgelopen 30 dagen. De **[!UICONTROL Save audience]** -activiteit legt deze profielen vervolgens vast om een herbruikbaar publiek van recente kopers te maken.
+
+![](../assets/save-audience-4.png)
