@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9bbaad0c7d6bbbb7b35b8d3b72d8a5adc29f28db
+source-git-commit: 61498b61f7f05e0553fe575c980fd1bee08500a3
 workflow-type: tm+mt
-source-wordcount: '2488'
+source-wordcount: '2491'
 ht-degree: 20%
 
 ---
@@ -61,9 +61,11 @@ ht-degree: 20%
       + [Send-Time optimalisatie](using/building-journeys/send-time-optimization.md)
       + [Beëindig uw reis](using/building-journeys/end-journey.md)
       + [Een journey naar een andere sandbox kopiëren](using/building-journeys/copy-to-sandbox.md)
-      + [Uw reis oplossen](using/building-journeys/troubleshooting.md)
-      + [Binnenkomende acties tijdens reizen oplossen](using/building-journeys/troubleshooting-inbound.md)
       + [ integreren met de Intelligente Diensten ](using/building-journeys/ai-services-overview.md)
+   + Problemen oplossen {#troubleshoot-journey}
+      + [Los reisfouten op](using/building-journeys/troubleshooting.md)
+      + [Los uw reisuitvoering problemen op](using/building-journeys/troubleshooting-execution.md)
+      + [Binnenkomende acties oplossen](using/building-journeys/troubleshooting-inbound.md)
    + Activiteiten {#about-journey-building}
       + [Aan de slag met reisactiviteiten](using/building-journeys/about-journey-activities.md)
       + [Algemene gebeurtenissen](using/building-journeys/general-events.md)
@@ -370,7 +372,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
          + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [Adobe Experience Platform-gegevens gebruiken voor personalisatie (Beta)](using/personalization/aep-data-perso.md)
@@ -721,7 +723,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
