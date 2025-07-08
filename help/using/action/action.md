@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: acties, reizen, berichten, verzenden, verbindingen
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: bb2272e6959d896fb6b3286cec2c16a545a9f671
+source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 44%
+source-wordcount: '281'
+ht-degree: 42%
 
 ---
 
@@ -44,8 +44,10 @@ Selecteer **[!UICONTROL Configurations]** in de sectie van het menu BEHEER om de
 
 ![](assets/custom1.png)
 
+Leer hoe te om een douaneactie [ op deze specifieke pagina ](../action/troubleshoot-custom-action.md) problemen op te lossen.
+
 ## Hoe kan ik-video {#video}
 
 Leer hoe u aangepaste handelingen configureert.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430272?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
