@@ -5,7 +5,7 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 62525caa9b065538c090b98d38c15dbd960dafe7
+source-git-commit: 84c65ee3f890685a12653c07ef06a179515f602d
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 20%
@@ -356,23 +356,9 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Een LIJNbericht maken](using/line/create-line.md)
       + [Controleer en verzend uw berichten van de LIJN](using/line/send-line.md)
 + Inhoudsbeheer {#content-management}
-   + Landingspagina&#39;s {#landing-pages}
-      + [Aan de slag met bestemmingspagina&#39;s](using/landing-pages/get-started-lp.md)
-      + [Een landingspagina maken](using/landing-pages/create-lp.md)
-      + [Uw openingspagina&#39;s beheren](using/landing-pages/manage-lp.md)
-      + Inhoud ontwerpen {#landing-pages-design}
-         + [Informatie over het ontwerpen van bestemmingspagina](using/landing-pages/design-lp.md)
-         + [De inhoud van de openingspagina maken](using/landing-pages/lp-content.md)
-         + [Sjablonen maken](using/landing-pages/lp-templates.md)
-         + [Aangepaste JavaScript toevoegen](using/landing-pages/lp-custom-js.md)
-      + [Een lidmaatschapslijst maken](using/landing-pages/subscription-list.md)
-      + [Gebruikskwesties leren](using/landing-pages/lp-use-cases.md)
-      + Landingspagina’s configureren {#lp-configuration}
-         + [Subdomeinen van bestemmingspagina configureren](using/landing-pages/lp-subdomains.md)
-         + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [Adobe Experience Platform-gegevens gebruiken voor personalisatie (Beta)](using/personalization/aep-data-perso.md)
@@ -392,6 +378,20 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
          + [Statusmelding van bestelling](using/personalization/personalization-use-case.md)
          + [E-mailadres voor afmelden van winkelwagentje](using/personalization/personalization-use-case-helper-functions.md)
          + [E-mail met voorschriften voor het gezondheidsplan](using/personalization/perso-uc-plan-prescriptions.md)
+   + Landingspagina&#39;s {#landing-pages}
+      + [Aan de slag met bestemmingspagina&#39;s](using/landing-pages/get-started-lp.md)
+      + [Een landingspagina maken](using/landing-pages/create-lp.md)
+      + [Uw openingspagina&#39;s beheren](using/landing-pages/manage-lp.md)
+      + Inhoud ontwerpen {#landing-pages-design}
+         + [Informatie over het ontwerpen van bestemmingspagina](using/landing-pages/design-lp.md)
+         + [De inhoud van de openingspagina maken](using/landing-pages/lp-content.md)
+         + [Sjablonen maken](using/landing-pages/lp-templates.md)
+         + [Aangepaste JavaScript toevoegen](using/landing-pages/lp-custom-js.md)
+      + [Een lidmaatschapslijst maken](using/landing-pages/subscription-list.md)
+      + [Gebruikskwesties leren](using/landing-pages/lp-use-cases.md)
+      + Landingspagina’s configureren {#lp-configuration}
+         + [Subdomeinen van bestemmingspagina configureren](using/landing-pages/lp-subdomains.md)
+         + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
    + Contentsjablonen {#content-templates}
       + [Aan de slag met inhoudssjablonen](using/content-management/content-templates.md)
       + [Sjablonen openen en beheren](using/content-management/access-content-templates.md)
@@ -723,7 +723,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
