@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: problemen oplossen, problemen oplossen, reis, controle, fouten
-source-git-commit: fa53fbe84a0d9c20a47e3d9f312b1673ab0611ca
+source-git-commit: 6ede06256038f781cfb8307bacc4e731b0323a8c
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Verken de pagina&#39;s hieronder om in specifieke het oplossen van problemenonde
     <div><strong> los reisuitvoering </strong><br/> problemen op hoe te om reisgebeurtenissen problemen op te lossen, controleer als de profielen uw reis ingegaan, hoe zij door het navigeren, en als de berichten worden verzonden.</div>
     </td>
     <td>
-    <a href="./building-journeys/troubleshooting-inbound.md" "><img src="../assets/do-not-localize/in-app.jpg"></a>
+    <a href="..building-journeys/troubleshooting-inbound.md" "><img src="../assets/do-not-localize/in-app.jpg"></a>
     <div><strong> los binnenkomende acties </strong><br/> problemen op leren hoe te om kwesties met betrekking tot binnenkomende acties in een reis te zuiveren, om u te helpen hen identificeren en oplossen op uw eigen.</div>
     </td>
     <td>
@@ -45,7 +45,7 @@ Verken de pagina&#39;s hieronder om in specifieke het oplossen van problemenonde
   <tr style="border: 0;">
     <td align="center"><a href="../building-journeys/troubleshooting.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="../building-journeys/troubleshooting-execution.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="./building-journeys/troubleshooting-inbound.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="../building-journeys/troubleshooting-inbound.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="../action/troubleshoot-custom-action.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
     </tr>
 </table>
