@@ -32,7 +32,7 @@ Deze gids verstrekt een geleidelijke proces om kwesties met betrekking tot binne
 
 Controleer het volgende voordat u begint met het oplossen van problemen:
 
-1. Opstelling een **Assurance** zitting. Leer hoe in de [ documentatie van Adobe Experience Platform Assurance ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
+1. Opstelling een **Assurance** zitting. Leer hoe in de [ documentatie van Adobe Experience Platform Assurance ](https://experienceleague.adobe.com/nl/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
 1. Navigeer naar de reis die de binnenkomende actie bevat om de reisnaam en versie-id op te halen.
 
@@ -46,7 +46,7 @@ Controleer het volgende voordat u begint met het oplossen van problemen:
 
    ![](assets/troubleshoot-inbound-retrieve-action-id.png)
 
-1. Haal de profielnaamruimte en -id op om te bepalen bij welk profiel problemen optreden. Gebaseerd op uw configuratie, kan namespace ECID, e-mail, of klant identiteitskaart zijn Leer hoe te omhoog een profiel in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"} kijken.
+1. Haal de profielnaamruimte en -id op om te bepalen bij welk profiel problemen optreden. Gebaseerd op uw configuratie, kan namespace ECID, e-mail, of klant identiteitskaart zijn Leer hoe te omhoog een profiel in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"} kijken.
 
 ## Scenario 1: De gebruiker heeft niet de binnenkomende inhoud ontvangen {#scenario-1}
 
@@ -61,7 +61,7 @@ In dit scenario, is een profiel de binnenkomende actie in de reis ingegaan, maar
 
 2. **&#39;joai&#39;-identiteit gedefinieerd in platform-id&#39;s**
 
-   De binnenkomende actie gebruikt **joai** namespace in het profiel `segmentMembership` voor het activeren van het profiel voor de binnenkomende stap. Controleer of deze is gedefinieerd in Platform-id&#39;s voor de sandbox. Leer meer op [ Dienst van de Identiteit van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home){target="_blank"}
+   De binnenkomende actie gebruikt **joai** namespace in het profiel `segmentMembership` voor het activeren van het profiel voor de binnenkomende stap. Controleer of deze is gedefinieerd in Platform-id&#39;s voor de sandbox. Leer meer op [ Dienst van de Identiteit van Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/home){target="_blank"}
 
 ### Foutopsporingsstappen {#debugging-steps}
 
@@ -77,7 +77,7 @@ Begin door te controleren of het apparaat/de cliënt de verwachte inhoud krijgt.
 
 >[!TAB  In-app kanaal ]
 
-1. Ga naar [ Assurance ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} zitting en selecteer de **[!UICONTROL In-App Messaging]** sectie van het linkerpaneel.
+1. Ga naar [ Assurance ](https://experienceleague.adobe.com/nl/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} zitting en selecteer de **[!UICONTROL In-App Messaging]** sectie van het linkerpaneel.
 
 1. Klik in het tabblad **[!UICONTROL Messages on Device]** op de vervolgkeuzelijst **[!UICONTROL Messages]** .
 
@@ -89,11 +89,11 @@ Begin door te controleren of het apparaat/de cliënt de verwachte inhoud krijgt.
 
 >[!TAB  het kanaal van het Web ]
 
-Bezoek de pagina en inspecteer het voorzien van een netwerklusje, of controleer de antwoordlading van Edge in de **[!UICONTROL Edge Delivery]** sectie van de [ Assurance ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} zitting.
+Bezoek de pagina en inspecteer het voorzien van een netwerklusje, of controleer de antwoordlading van Edge in de **[!UICONTROL Edge Delivery]** sectie van de [ Assurance ](https://experienceleague.adobe.com/nl/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} zitting.
 
 >[!TAB  op code-Gebaseerd ervaringskanaal ]
 
-Voer een curl verzoek uit gebruikend [ Adobe API ](https://developer.adobe.com/data-collection-apis/docs/api/) en controleer de antwoordlading van Edge in de **[!UICONTROL Edge Delivery]** sectie van de [ Assurance ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} zitting.
+Voer een curl verzoek uit gebruikend [ Adobe API ](https://developer.adobe.com/data-collection-apis/docs/api/) en controleer de antwoordlading van Edge in de **[!UICONTROL Edge Delivery]** sectie van de [ Assurance ](https://experienceleague.adobe.com/nl/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} zitting.
 
 >[!ENDTABS]
 
@@ -107,7 +107,7 @@ Wanneer een cliënt een verzoek aan Edge Network voor een bepaald profiel en opp
 
 Voer de onderstaande stappen uit om fouten op te sporen in het Edge Network-gedrag.
 
-1. Open de weergave **[!UICONTROL Edge Delivery]** in de Assurance-sessie. Deze weergave bevat informatie over de uitvoering van de binnenkomende actie op de Edge Network-server. Leer meer in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
+1. Open de weergave **[!UICONTROL Edge Delivery]** in de Assurance-sessie. Deze weergave bevat informatie over de uitvoering van de binnenkomende actie op de Edge Network-server. Leer meer in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
 
 1. Controleer of de Edge-activiteit die overeenkomt met de binnenkomende actie wordt vermeld in de secties **[!UICONTROL Qualified Activities]** of **[!UICONTROL Unqualified Activities]** .
 
@@ -127,7 +127,7 @@ Voer de onderstaande stappen uit om fouten op te sporen in het Edge Network-gedr
 
    U kunt controleren of het **joai** segment in de mening van de de leveringsserver van Edge Network van het profiel aanwezig is door het **te openen segmentsMap** element van de sectie van het Profiel en het zoeken naar de aanwezigheid van **joai** segmentidentiteitskaart.
 
-1. Als de de leveringsserver van Edge Network niet het profiel zoals het zijn in het relevante **joai** segment bekijkt, ga naar de volgende stap.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. Als de de leveringsserver van Edge Network niet het profiel zoals het zijn in het relevante **joai** segment bekijkt, ga naar de volgende stap.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
 ### Stap 3: Controleer of het &#39;joai&#39;-publiek is doorgegeven aan de Edge Network {#step-3}
 
@@ -215,8 +215,8 @@ Ga door de zelfde het zuiveren stappen zoals voor [ Scenario 1 ](#debugging-step
 
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/nl/docs/experience-platform/assurance/tutorials/using-assurance)
 - [Adobe Experience Platform Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=nl-NL)
 
 -->
