@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: problemen oplossen, problemen oplossen, reis, controle, fouten
-source-git-commit: 6ede06256038f781cfb8307bacc4e731b0323a8c
+source-git-commit: b9db2b39629750ead953a229a46e3a75467fd203
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Verken de pagina&#39;s hieronder om in specifieke het oplossen van problemenonde
     <div><strong> los reisuitvoering </strong><br/> problemen op hoe te om reisgebeurtenissen problemen op te lossen, controleer als de profielen uw reis ingegaan, hoe zij door het navigeren, en als de berichten worden verzonden.</div>
     </td>
     <td>
-    <a href="..building-journeys/troubleshooting-inbound.md" "><img src="../assets/do-not-localize/in-app.jpg"></a>
+    <a href="../building-journeys/troubleshooting-inbound.md" "><img src="../assets/do-not-localize/in-app.jpg"></a>
     <div><strong> los binnenkomende acties </strong><br/> problemen op leren hoe te om kwesties met betrekking tot binnenkomende acties in een reis te zuiveren, om u te helpen hen identificeren en oplossen op uw eigen.</div>
     </td>
     <td>
