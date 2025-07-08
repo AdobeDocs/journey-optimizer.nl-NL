@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: publiceren, reizen, live, geldigheid, controle
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 62525caa9b065538c090b98d38c15dbd960dafe7
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -87,24 +87,10 @@ Voer de volgende stappen uit om de droog-uitvoering te activeren:
 
 Zodra de publicatie van de modus Dry is gestart, kunt u de uitvoering van de reis visualiseren en bepalen hoe profielen door de vertakkingen en knooppunten van de rit worden doorlopen.
 
-Metrische gegevens worden direct op het canvas van de reis weergegeven.
+Metrische gegevens worden direct op het canvas van de reis weergegeven. Leer meer over reis levende rapportering en metriek, in [ Levend rapport in het wegcanvas ](report-journey.md).
 
 ![ Monitor de runtime van de reisdroge uitvoering ](assets/dry-run-metrics.png)
 
-Voor elke activiteit, in hun activiteitenvakje, kunt u controleren:
-
-* **[!UICONTROL Entered]**: Het totale aantal personen dat deze activiteit heeft ingevoerd. Voor **de activiteiten van de Actie**, aangezien zij niet op Droog looppas wijze worden uitgevoerd, wijst metrisch op profielen die door overgaan.
-* **[!UICONTROL Exited (met exit criteria)]**: Het totale aantal personen dat de reis heeft verlaten uit die activiteit, als gevolg van uitstapcriteria.
-* **[!UICONTROL Exited (forced exit)]**: Het totale aantal personen dat de reis heeft verlaten terwijl deze was gepauzeerd vanwege de configuratie van een reisdeskundige. Deze metrische waarde is altijd gelijk aan nul voor reizen in de droge loopwijze.
-* **[!UICONTROL Error]**: Het totale aantal personen dat een fout heeft gemaakt met die activiteit.
-
-
-Op het niveau van de reis, op de bovenkant linkersectie van het canvas, kunt u controleren:
-
-* Het totale aantal **binnengaan profielen**
-* Het totale aantal van **Verlaten profielen**
-* Het totale aantal **Profielen in fout**
-* Het totale aantal **Verworpen profielen** in de reis
 
 U kunt tot de **Laatste rapporten van 24 uren** en **Al-tijdrapporten** voor de Dry looppas ook toegang hebben. Om tot deze rapporten toegang te hebben, klik het **rapport van de Mening** knoop op de hoger-juiste hoek van het wegcanvas.
 

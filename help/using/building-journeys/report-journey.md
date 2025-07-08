@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: De reis Publish
+title: De reis publiceren
 description: Ontdek hoe je op je reis meldt
 feature: Journeys
 topic: Content Management
@@ -9,26 +9,28 @@ role: User
 level: Intermediate
 keywords: publiceren, reizen, live, geldigheid, controle
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
-source-git-commit: b604ab6d94f414b96378f15986edbcf92cee77dc
+source-git-commit: 62525caa9b065538c090b98d38c15dbd960dafe7
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 0%
+source-wordcount: '381'
+ht-degree: 1%
 
 ---
 
 # Live melding op de reiscanvas {#report-journey}
 
->[!NOTE]
+Nadat uw reis wordt gepubliceerd, zodra de [ Dry looppas wijze ](journey-dry-run.md) wordt geactiveerd, **Levende Rapportering** metriek van de laatste 24 uren, direct binnen het wegcanvas verstrekt.
+
+
+>[!AVAILABILITY]
 >
 >Als u geen gegevens kunt zien in uw live rapport over de reis, moeten uw toegangsrechten worden uitgebreid en de machtiging **[!UICONTROL View journeys report]** worden opgenomen. [Meer informatie](../administration/permissions.md)
 
-Nadat uw reis wordt gepubliceerd, **Levende Rapportering** verstrekt metriek van de laatste 24 uren, direct binnen het wegcanvas.
 
 De weergegeven gebeurtenissen hebben zich in de afgelopen 24 uur voorgedaan, met een minimuminterval van twee minuten tussen de gebeurtenis en de weergave, meestal binnen vijf minuten.
 
 ![](assets/journey_live_report.png)
 
-Voor uw live reis hebt u toegang tot:
+Voor uw reizen op Levende of [ Droog looppaswijze ](journey-dry-run.md), kunt u controleren:
 
 * **[!UICONTROL Entered profiles]**: Het totale aantal personen dat de reis heeft betreden.
 * **[!UICONTROL Exited profiles]**: Het totale aantal personen dat de reis heeft verlaten (inclusief fouten).
@@ -40,8 +42,18 @@ Voor uw live reis hebt u toegang tot:
    * Op **terugkomende** reizen, wordt een teruggooi geteld op elke herhaling als het individu reeds in de reis is en het terugkeerbeleid niet aan &quot;forceer terugkeer&quot;wordt geplaatst.
    * Op **Gelezen de activiteiten van het Publiek**, komt een verwerpen voor als geen identiteit voor het uitgevoerde individu wordt geplaatst, of als ontvangen identiteitsnaamruimte niet verwachte voor de reis aanpast.
 
-Voor elke activiteit binnen elke levende reis hebt u toegang tot:
+Voor elke activiteit binnen elke reis in Levende of [ Droge looppas wijze ](journey-dry-run.md), hebt u toegang tot:
 
-* **[!UICONTROL Entered]**: Het totale aantal personen dat deze activiteit heeft ingevoerd.
-* **[!UICONTROL Exited (met exit criteria)]**: Het totale aantal personen dat de reis heeft verlaten uit die activiteit, als gevolg van uitstapcriteria.
+* **[!UICONTROL Entered]**: Het totale aantal personen dat deze activiteit heeft ingevoerd. Voor **de activiteiten van de Actie**, aangezien zij niet op Droog looppas wijze worden uitgevoerd, wijst metrisch op profielen die door overgaan.
+* **[!UICONTROL Exited (met exit criteria)]**: Het totale aantal personen dat de reis heeft verlaten van die activiteit, als gevolg van een exit-criterium (inclusief fouten).
+* **[!UICONTROL Exited (forced exit)]**: Het totale aantal personen dat de reis heeft verlaten terwijl deze was gepauzeerd vanwege de configuratie van een reisdeskundige. Deze metrische waarde is altijd gelijk aan nul voor reizen in de droge loopwijze.
 * **[!UICONTROL Error]**: Het totale aantal personen dat een fout heeft gemaakt met die activiteit.
+
+
+>[!MORELIKETHIS]
+>
+>* [Aan de slag met rapportage](../reports/gs-reports.md)
+>* [ publiceer uw reis ](publishing-the-journey.md)
+>* [ Droog van de Reis ](journey-dry-run.md)
+>* [ vormt en volgt uw reismetriek ](success-metrics.md)
+>* [ de reisrapporten van de Douane ](../reports/sharing-overview.md)
