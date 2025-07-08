@@ -5,7 +5,7 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 392bf9871ee39aa8a5279661814daff9482be0fd
+source-git-commit: 125eca7a832703644fd3bfc506c3f3f5cc4486a7
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 20%
@@ -36,10 +36,10 @@ ht-degree: 20%
       + [Aan de slag als ontwikkelaar](using/start/path/developer.md)
    + [Gebruikersinterface](using/start/user-interface.md)
    + [Zoeken, filteren en categoriseren](using/start/search-filter-categorize.md)
+   + [Guardrails](using/start/guardrails.md)
    + [Toegankelijkheid](using/start/accessibility.md)
    + [Playbooks voor gebruiksscenario&#39;s](using/start/playbooks.md)
    + [Werken met AI-assistent](using/start/ai-assistant.md)
-   + [Guardrails](using/start/guardrails.md)
    + [Best practices](using/start/best-practices.md)
 + Journeys {#orchestrate-journeys}
    + [Aan de slag met reizen](using/building-journeys/journey.md)
@@ -372,7 +372,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
          + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [Adobe Experience Platform-gegevens gebruiken voor personalisatie (Beta)](using/personalization/aep-data-perso.md)
@@ -723,7 +723,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
