@@ -162,7 +162,7 @@ Voer de onderstaande stappen uit om een groep e-mailadressen of domeinen toe te 
    DOMAIN,somedomain.com,Comment
    ```
 
-1. Vul de CSV-sjabloon in met de e-mailadressen en/of domeinen die u wilt toevoegen aan de suppressielijst. Alle ASCII bedrukbare karakters die tussen 32 en 126 worden samengesteld worden toegestaan in de **1} kolom van de COMMENTAAR {.**
+1. Vul de CSV-sjabloon in met de e-mailadressen en/of domeinen die u wilt toevoegen aan de suppressielijst. Alle ASCII bedrukbare karakters die tussen 32 en 126 worden samengesteld worden toegestaan in de **1&rbrace; kolom van de COMMENTAAR &lbrace;.**
 
    >[!CAUTION]
    >
