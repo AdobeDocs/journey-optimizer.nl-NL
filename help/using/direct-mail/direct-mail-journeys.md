@@ -61,7 +61,7 @@ Alvorens tot een direct-mailbericht te leiden, zorg ervoor u een dossier gevormd
 
 ## Een configuratie voor direct mail maken {#direct-mail-surface}
 
-Een direct-mailconfiguratie bevat de instellingen voor de opmaak van het bestand dat de doelpublieksgegevens bevat en wordt gebruikt door de mailprovider. U moet ook bepalen waar het dossier door het dossier te selecteren verplettert configuratie zal worden uitgevoerd. De gedetailleerde informatie over hoe te om een direct-mailconfiguratie tot stand te brengen is beschikbaar in de [ sectie van de de postconfiguratie 0} Direct.](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
+Een direct-mailconfiguratie bevat de instellingen voor de opmaak van het bestand dat de doelpublieksgegevens bevat en wordt gebruikt door de mailprovider. U moet ook bepalen waar het dossier door het dossier te selecteren verplettert configuratie zal worden uitgevoerd. De gedetailleerde informatie over hoe te om een direct-mailconfiguratie tot stand te brengen is beschikbaar in de [ sectie van de de postconfiguratie 0&rbrace; Direct.](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
 
 Zodra uw configuratie direct-mail klaar is, kunt u een directe postactie in uw reis toevoegen.
 
@@ -69,7 +69,7 @@ Zodra uw configuratie direct-mail klaar is, kunt u een directe postactie in uw r
 
 Voer de volgende stappen uit om een actie direct mail toe te voegen aan een rit:
 
-1. Open uw reis dan belemmering en laat vallen a **[!UICONTROL Direct mail]** activiteit van de **2} sectie van Acties {van het palet.**
+1. Open uw reis dan belemmering en laat vallen a **[!UICONTROL Direct mail]** activiteit van de **2&rbrace; sectie van Acties &lbrace;van het palet.**
 
 1. Verstrek basisinformatie over uw bericht (etiket, beschrijving, categorie), dan kies de berichtconfiguratie aan gebruik. Het veld **[!UICONTROL configuration]** wordt standaard voorgevuld met de laatste configuratie die de gebruiker voor dat kanaal heeft gebruikt. Voor meer informatie over hoe te om een reis te vormen, verwijs naar [ deze pagina ](../building-journeys/journey-gs.md).
 
