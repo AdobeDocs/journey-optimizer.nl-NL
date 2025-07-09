@@ -5,15 +5,16 @@ feature: Direct Mail
 topic: Content Management
 role: User
 level: Beginner
+badge: label="Beperkte beschikbaarheid" type="Informative"
 hidefromtoc: true
 hide: true
 robots: noindex
 googlebot: noindex
 keywords: direct mail, bericht, campagne
 exl-id: 44886355-ee3a-4323-899a-35d967487924
-source-git-commit: ca6e2834f92585094d3316e9259e3370cfad22fc
+source-git-commit: 755ffdb0a9986ce8c2175a9bc61ed4a56714ff7d
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -24,6 +25,10 @@ ht-degree: 0%
 >id="ajo_journey_direct_mail"
 >title="Eindactiviteit"
 >abstract="Directe post is een off-line kanaal dat u toestaat om de extractiedossiers te personaliseren en te produceren die door derde directe postleveranciers worden vereist om post naar uw klanten te verzenden."
+
+>[!AVAILABILITY]
+>
+>Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid).
 
 Directe post is een off-line kanaal dat u toestaat om de extractiedossiers te personaliseren en te produceren die door derde directe postleveranciers worden vereist om post naar uw klanten te verzenden.
 
@@ -56,7 +61,7 @@ Alvorens tot een direct-mailbericht te leiden, zorg ervoor u een dossier gevormd
 
 ## Een configuratie voor direct mail maken {#direct-mail-surface}
 
-Een direct-mailconfiguratie bevat de instellingen voor de opmaak van het bestand dat de doelpublieksgegevens bevat en wordt gebruikt door de mailprovider. U moet ook bepalen waar het dossier door het dossier te selecteren verplettert configuratie zal worden uitgevoerd. De gedetailleerde informatie over hoe te om een direct-mailconfiguratie tot stand te brengen is beschikbaar in de [ sectie van de de postconfiguratie 0&rbrace; Direct.](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
+Een direct-mailconfiguratie bevat de instellingen voor de opmaak van het bestand dat de doelpublieksgegevens bevat en wordt gebruikt door de mailprovider. U moet ook bepalen waar het dossier door het dossier te selecteren verplettert configuratie zal worden uitgevoerd. De gedetailleerde informatie over hoe te om een direct-mailconfiguratie tot stand te brengen is beschikbaar in de [ sectie van de de postconfiguratie 0} Direct.](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
 
 Zodra uw configuratie direct-mail klaar is, kunt u een directe postactie in uw reis toevoegen.
 
@@ -64,7 +69,7 @@ Zodra uw configuratie direct-mail klaar is, kunt u een directe postactie in uw r
 
 Voer de volgende stappen uit om een actie direct mail toe te voegen aan een rit:
 
-1. Open uw reis dan belemmering en laat vallen a **[!UICONTROL Direct mail]** activiteit van de **2&rbrace; sectie van Acties &lbrace;van het palet.**
+1. Open uw reis dan belemmering en laat vallen a **[!UICONTROL Direct mail]** activiteit van de **2} sectie van Acties {van het palet.**
 
 1. Verstrek basisinformatie over uw bericht (etiket, beschrijving, categorie), dan kies de berichtconfiguratie aan gebruik. Het veld **[!UICONTROL configuration]** wordt standaard voorgevuld met de laatste configuratie die de gebruiker voor dat kanaal heeft gebruikt. Voor meer informatie over hoe te om een reis te vormen, verwijs naar [ deze pagina ](../building-journeys/journey-gs.md).
 
