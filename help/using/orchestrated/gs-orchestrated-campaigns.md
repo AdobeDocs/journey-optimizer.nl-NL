@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: a1af07fd8e95864ec758717b35e93555eada03f0
+source-git-commit: ea4b65ae05f219203754ed6e5ddd7effc795ff56
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 | Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
 |---|---|---|---|
-| <b>[ wordt begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)</b><br/><br/>[ stappen van de Configuratie ](configuration-steps.md)<br/><br/>[ Toegang en beheer georkestreerde campagnes ](access-manage-orchestrated-campaigns.md)<br/><br/>[ Belangrijke stappen om een georkestreerde campagne ](gs-campaign-creation.md) tot stand te brengen | [ creeer en programma de campagne ](create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](orchestrate-activities.md)<br/><br/>[ Begin en controleer de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](edit-expressions.md)<br/><br/>[ opnieuw op ](retarget.md) | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ de activiteiten van het Kanaal ](activities/channels.md) - [ combineren ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) Formeel k [ - ](activities/fork.md) Verzoening [ - ](activities/reconciliation.md) sparen publiek [ - ](activities/save-audience.md) Gesplitst [ - ](activities/split.md) wacht [&#128279;](activities/wait.md) |
+| <b>[ wordt begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)</b><br/><br/>[ stappen van de Configuratie ](configuration-steps.md)<br/><br/>[ Toegang en beheer georkestreerde campagnes ](access-manage-orchestrated-campaigns.md)<br/><br/>[ Belangrijke stappen om een georkestreerde campagne ](gs-campaign-creation.md) tot stand te brengen | [ creeer en programma de campagne ](create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](orchestrate-activities.md)<br/><br/>[ Begin en controleer de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](edit-expressions.md)<br/><br/>[ opnieuw op ](retarget.md) | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ de activiteiten van het Kanaal ](activities/channels.md) - [ combineren ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) Formeel k [ - ](activities/fork.md) Verzoening [ - ](activities/reconciliation.md) sparen publiek [ - ](activities/save-audience.md) Gesplitst [ - ](activities/split.md) wacht [](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -28,25 +28,46 @@ ht-degree: 0%
 
 <br/>
 
-## Wat is een georkestreerde campagne?
+# Aan de slag met de campagneorganisatie {#gs}
 
-Geordende campagnes verbeteren Adobe Journey Optimizer door robuuste campagnecapaciteiten in te voeren die door het merk worden geïnitieerd, zodat u kanaalcampagnes kunt plannen en ordenen met geavanceerde segmentatiestrategieën.
+Campagne in [!DNL Adobe Journey Optimizer] biedt geavanceerde, merkgestarte marketingcampagnes via verschillende kanalen, waarmee u op grote schaal betrokkenheid, inkomsten en klantenloyaliteit kunt stimuleren.
 
-Cross-channel marketing is essentieel voor elk bedrijf dat zijn klanten effectief wil bereiken. Adobe Journey Optimizer biedt een uitgebreide grafische omgeving waarmee u complexe processen kunt ontwerpen die u kunnen helpen uw marketingcampagnes eenvoudig te beheren. Met georkestreerde campagnes, kunt u de volledige waaier van processen en taken organiseren, de snelheid en de schaal van elk aspect van uw marketing campagnes verbeteren, van het creëren van segmenten en het voorbereiden van berichten aan levering. Bovendien kunt u uw kanalen synchroon maken met één gebruiksvriendelijke interface voor het organiseren van campagnes.
+Hoewel marketing over de kanalen essentieel is, maken georkestreerde campagnes het naadloos. Met een visuele, belemmering-en-dalingsinterface, kunt u complexe marketing werkschema&#39;s ontwerpen en automatiseren, van segmentatie aan berichtlevering, over veelvoudige kanalen. Alles gebeurt in één intuïtieve omgeving, gebouwd voor snelheid, controle en efficiëntie.
 
-Een van de belangrijkste voordelen van georkestreerde campagnes is dat het eenvoudig is om gepersonaliseerde inhoud op alle kanalen aan uw klanten te leveren. Of uw klanten nu liever berichten via e-mail of mobiel ontvangen, Adobe Journey Optimizer biedt u de mogelijkheid om een consistente en contextafhankelijke ervaring op elk kanaal te leveren, zodat de reis van elke klant in een unieke ervaring wordt omgezet.
+Deze module brengt **aan** batch campagneorchestratie [!DNL Journey Optimizer], toelatend u:
 
-Geordende campagnes zijn ongelooflijk veelzijdig en kunnen in diverse contexten worden gebruikt, met inbegrip van het richten om publiek te beheren of berichten te verzenden, gegevensbeheer (ETL) om gegevens te manipuleren, en het invoeren van gegevens.
+* Bouw en voer **multi-step campagnes** (b.v., seizoensgebonden bevorderingen, nieuwe productlanceringen) uit,
+* Lever **gepersonaliseerd, verenigbaar overseinen** over om het even welk kanaal,
+* Coördineer **segmentatie, dossierverwerking, en taakbeheer** in één plaats,
+* Samenwerking mogelijk maken via goedkeuringen en taaktoewijzingen
 
-Met een uitgebreide grafische omgeving kunt u processen ontwerpen, zoals segmentatie, uitvoering van de campagne en bestandsverwerking. Geordende campagnes kunnen gebruikers ook impliceren door hen taken toe te wijzen of hen te laten uitgevoerde taken goedkeuren, die het gemakkelijker maken om het werk van uw team te beheren en ervoor te zorgen dat alles correct wordt gedaan.
+## Kernmogelijkheden
 
-## Reisorkest en campagneorkestatie
+Campagne wordt opgebouwd rond vier pijlers:
 
-Campagne Orchestration is de belangrijkste module voor het ontwerpen, verzenden en volgen van merkmededelingen op schaal. Het laat geautomatiseerde distributie van marketing berichten aan gericht publiek toe, leveraging bestaande gegevenssegmenten voor daadwerkelijke verpersoonlijking, door profiel en niet-profielentiteiten te combineren. Ideaal voor campagnegestuurde outreach, Campaign Orchestration zorgt voor consistente, efficiënte berichtlevering (vaak vooraf gepland) om de betrokkenheid van klanten te stimuleren en belangrijke marketingdoelstellingen te ondersteunen.
+1. **publiek op bestelling**
 
-Campagne Orchestration herdefinieert publiekssegmentatie door meerdere entiteiten in Adobe Journey Optimizer toe te laten, en vergemakkelijkt gericht overseinen die bijvoorbeeld op specifieke statussen, gebeurtenissen, contracten, of het boeken worden gebaseerd. Aangezien u mededelingen naar entiteiten buiten profielen kunt verzenden, of vragen op om het even welke entiteit tot stand brengen, kunt u een holistische mening hebben en een groot werkingsgebied van inzichten vangen om uw publiek te bouwen.
+   Meteen vraag over datasets om publiekssegmenten tot stand te brengen gebruikend om het even welke combinatie gegevenstypes en dimensies.
 
-Het machtigen van gegeven-gedreven besluiten, de Orchestratie van de Campagne hefboomwerking veelvoudige bronnen voor een dynamische verrijkte dataset.
+1. **Segmentatie &amp; het Verzenden van meerdere entiteiten**
+
+   Ga verder dan op persoon-gebaseerde campagnes-gebruik entiteiten zoals productcatalogi, opslagplaatsen, of de dienstgegevens om met precisie te richten.
+
+1. **pre-Verstuur Zichtbaarheid &amp; Precisie**
+
+   Zorg ervoor dat u de exacte segmentatiewaarden en het volledige bereik van de campagne opgeeft voordat u de toepassing start, zodat u verzekerd bent van nauwkeurigheid en vertrouwen.
+
+1. **multi-Step de Werkstromen van de Campagne**
+
+   Ontwerp meerfasencampagnes, van dagelijkse berichten tot complexe campagnes zoals seizoensgebonden promoties of grote productlanceringen.
+
+## Geordende campagnes en reizen
+
+Hoewel de georkestreerde campagnes visualisatie gelijkenissen vertonen met reizen, lost het verschillende doeleinden en gebruiksgevallen op:
+
+* **reizen** - 1 tot 1 canvas waar elk profiel door de verschillende stappen bij hun eigen tempo reist. De staat van elke klant wordt gehandhaafd binnen zijn context om acties in real time teweeg te brengen.
+
+* **Geordende campagnes** - in tegenstelling tot reizen, werken de georchetseerde campagnes gebruikend een partijcanvas dat segmenten berekent. Alle profielen worden samen verwerkt.
 
 ## Vereisten
 
@@ -58,7 +79,7 @@ Als u geen toegang hebt tot geordende campagnefuncties, neemt u contact op met u
 
 ## Laten we dieper duiken
 
-Nu u weet welke workflows er zijn en wat u ermee kunt doen in Adobe Campaign, is het tijd om dieper in deze documentatiegedeelten te duiken om met de functie te gaan werken.
+Nu je begrijpt wat georcherstreerde campagnes zijn, is het tijd om dieper in deze documentatiegedeelten te duiken om met de functie te gaan werken.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
