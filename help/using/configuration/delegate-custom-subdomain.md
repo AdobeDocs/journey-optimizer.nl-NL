@@ -10,7 +10,8 @@ level: Experienced
 keywords: subdomein, delegatie, domein, DNS
 hide: true
 hidefromtoc: true
-source-git-commit: 2950856622ea9ee6c761f4555d5322bb788bb2cb
+exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
+source-git-commit: a1172d331aff538e867428b36ab913b4ae9c8f7e
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 2%
@@ -128,3 +129,4 @@ Als de fouten terwijl het proberen om uw douanesubdomain voor te leggen voorkome
 * Controleer of uw certificaat aan alle technische vereisten voldoet voordat u het uploadt.
 
 * Controleer of het certificaat in de juiste indeling is geüpload.
+
