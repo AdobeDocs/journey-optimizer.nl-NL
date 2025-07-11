@@ -6,9 +6,9 @@ description: Leer hoe u georkestreerde campagnes met Adobe Journey Optimizer kun
 hide: true
 hidefromtoc: true
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
-source-git-commit: 0ae8372c179707a87a6b512a5420753a4aaef754
+source-git-commit: b1bee7a5ee05e0e535a982c31bafafdc760d21ae
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 | Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
 |---|---|---|---|
-| [ wordt begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](configuration-steps.md)<br/><br/>[ Toegang en beheer georkestreerde campagnes ](access-manage-orchestrated-campaigns.md)<br/><br/>[ Belangrijke stappen om een georkestreerde campagne ](gs-campaign-creation.md) tot stand te brengen | [ creeer en programma de campagne ](create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](orchestrate-activities.md)<br/><br/>[ Begin en controleer de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](edit-expressions.md)<br/><br/><b>[ opnieuw op ](retarget.md)</b> | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ de activiteiten van het Kanaal ](activities/channels.md) - [ combineren ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) Formeel k [ - ](activities/fork.md) Verzoening [ - ](activities/reconciliation.md) sparen publiek [ - ](activities/save-audience.md) Gesplitst [ - ](activities/split.md) wacht [&#128279;](activities/wait.md) |
+| [ wordt begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](configuration-steps.md)<br/><br/>[ Toegang en beheer georkestreerde campagnes ](access-manage-orchestrated-campaigns.md)<br/><br/>[ Belangrijke stappen om een georkestreerde campagne ](gs-campaign-creation.md) tot stand te brengen | [ creeer en programma de campagne ](create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](orchestrate-activities.md)<br/><br/>[ Begin en controleer de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](edit-expressions.md)<br/><br/><b>[ opnieuw op ](retarget.md)</b> | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ de activiteiten van het Kanaal ](activities/channels.md) - [ combineren ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) Formeel k [ - ](activities/fork.md) Verzoening [ - ](activities/reconciliation.md) sparen publiek [ - ](activities/save-audience.md) Gesplitst [ - ](activities/split.md) wacht [](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -35,72 +35,99 @@ Documentatie in uitvoering
 
 Met Opnieuw toewijzen kunt u op basis van de manier waarop ze op een vorige georkestreerde campagne hebben gereageerd, een follow-up geven aan de ontvangers. U kunt bijvoorbeeld een tweede e-mail verzenden naar profielen die wel een tweede e-mail hebben ontvangen maar niet op de eerste hebben geklikt.
 
-De geordende campagne verstrekt twee belangrijkste gegevensbronnen voor dit:
+**[!UICONTROL Orchestrated Campaign]** biedt hiervoor twee belangrijke gegevensbronnen:
 
-- **Feedback van het Bericht**: vangt op levering betrekking hebbende gebeurtenissen, b.v. verzonden bericht, geopend, teruggestuurd, enz.
+* **[!UICONTROL Message Feedback]**: legt gebeurtenissen vast die betrekking hebben op de levering, zoals verzonden, geopend, teruggestuurd, enz. bericht.
+* **[!UICONTROL Email Tracking]**: legt gebruikersacties vast, bijvoorbeeld klikken en openen.
 
-- **E-mail die** volgen: vangt gebruikersacties b.v. klikt en opent.
-
-## Een regel voor opnieuw toewijzen op basis van feedback maken
+## Een regel voor opnieuw toewijzen op basis van feedback maken {#feedback-retarget}
 
 De op feedback-Gebaseerde Terugkomende Regel staat u toe om ontvangers opnieuw te richten die op de gebeurtenissen worden gebaseerd van de berichtlevering in de **Terugkoppeling van het Bericht** dataset wordt gevangen. Deze gebeurtenissen omvatten uitkomsten zoals berichten die worden verzonden, geopend, teruggestuurd of gemarkeerd als spam.
 
-Gebruikend deze gegevens, kunt u regels bepalen om ontvangers te identificeren die een vorig bericht maar niet met het in dienst genomen, toelatend follow-upmededeling die op specifieke leveringsstatussen wordt gebaseerd.
+Gebruikend deze gegevens, kunt u regels bepalen om ontvangers te identificeren die een vorig bericht ontvingen toelatend follow-upmededeling die op specifieke leveringsstatussen wordt gebaseerd.
 
-1. Creeer een nieuwe **Geordende Campagne**.
+1. Maak een nieuwe **[!UICONTROL Orchestrated Campaign]** .
 
-2. Voeg a **toe bouwt de activiteit van het publiek** en plaatst de het richten dimensie aan **Ontvanger (caas)**.
+1. Voeg een **[!UICONTROL Build Audience]** -activiteit toe en stel de doeldimensie in op **[!UICONTROL Recipient (caas)]** .
 
-3. In de **Bouwer van de Regel**, klik **Voorwaarde** toevoegen en selecteer **Terugkoppeling van het Bericht** van de Plukker van Attributen. Klik **bevestigen**.
+1. Klik in de **[!UICONTROL Rule Builder]** op **[!UICONTROL Add Condition]** en selecteer **[!UICONTROL Message Feedback]** in de **[!UICONTROL Attributes Picker]** . Klik **[!UICONTROL Confirm]** om de Terugkoppeling van het a **Bericht tot stand te brengen bestaat zoals** voorwaarde.
 
-4. Voeg een voorwaarde voor **Status van de Terugkoppeling** toe en plaats de waarde aan **Verstuurd Bericht**.
+   ![](assets/retarget_1.png)
 
-5. Een specifieke georkestreerde campagne als doel instellen:
+1. Kies het kenmerk **[!UICONTROL Feedback Status]** om gebeurtenissen voor berichtlevering als doel in te stellen.
 
-   - Voeg nog een voorwaarde toe, zoek naar `entity` en navigeer naar:\
-     `_experience > CustomerJourneyManagement > Entities > AJO Orchestrated Campaign`.
++++ Gedetailleerd, stap voor stap
 
-   - Selecteer **Geordende Naam van de Campagne** en specificeer de campagnenaam.
+   1. Voeg een andere voorwaarde toe die is gekoppeld aan het kenmerk **[!UICONTROL Message feedback]** .
 
-6. Om een specifiek bericht of een activiteit binnen die georkestreerde campagne te richten:
+   1. Zoek het kenmerk **[!UICONTROL Feedback Status]** en klik op **[!UICONTROL Confirm]** .
 
-   - Voeg nog een voorwaarde toe, zoek naar `entity` en navigeer naar:\
-     `_experience > CustomerJourneyManagement > Entities > AJO Orchestrated Campaign`.
+      ![](assets/retarget_3.png)
 
-   - Selecteer **Geordende Naam van de Actie van de Campagne** en specificeer de naam van de campagneactie.
+   1. Kies in het menu **[!UICONTROL Custom condition]** welke leveringsstatus u wilt bijhouden in de vervolgkeuzelijst **[!UICONTROL Value]** .
 
-     De namen van de acties kunnen worden gevonden door het ![ pictogram van de Informatie ](assets/do-not-localize/info-icon.svg) naast een activiteit in het canvas te klikken.
+      ![](assets/retarget_4.png)
 
-   >[!TIP]
-   >
-   >In plaats van het gebruiken van namen, kunt u door **identiteitskaart van de Campagne** (UUID) ook filtreren, die in uw eigenschappen van de Campagne kan worden gevonden.
++++
+
+1. Kies het kenmerk **[!UICONTROL Orchestrated Campaign Name]** om een specifieke georkestreerde campagne als doel in te stellen.
+
++++ Gedetailleerd, stap voor stap
+
+   1. Voeg een andere voorwaarde toe die is gekoppeld aan het kenmerk **[!UICONTROL Message feedback]** , zoek naar **[!UICONTROL entity]** en navigeer naar:
+
+      `_experience > CustomerJourneyManagement > Entities > AJO Orchestrated Campaign entity`.
+
+   1. Selecteer **[!UICONTROL Orchestrated Campaign Name]**.
+
+      ![](assets/retarget_5.png)
+
+   1. Geef in het menu **[!UICONTROL Custom condition]** de naam van de campagne op in het veld **[!UICONTROL Value]** .
+
++++
+
+1. Kies het kenmerk **[!UICONTROL Orchestrated Campaign Action Name]** om een specifiek bericht of een specifieke activiteit in een geordende campagne als doel in te stellen.
+
++++ Gedetailleerd, stap voor stap
+
+   1. Voeg een andere voorwaarde toe die is gekoppeld aan het kenmerk **[!UICONTROL Message feedback]** , zoek naar **[!UICONTROL entity]** en navigeer naar:
+
+      `_experience > CustomerJourneyManagement > Entities > AJO Orchestrated Campaign entity`.
+
+   1. Selecteer **[!UICONTROL Orchestrated Campaign Action Name]**.
+
+      ![](assets/retarget_6.png)
+
+   1. Geef in het menu **[!UICONTROL Custom condition]** de naam van de actie voor de campagne op in het veld **[!UICONTROL Value]** .
+
+      De namen van de acties kunnen worden gevonden door het ![ pictogram van de Informatie ](assets/do-not-localize/info-icon.svg) naast een activiteit in het canvas te klikken.
+
+   ++
+
+1. U kunt ook filteren op **[!UICONTROL Campaign ID]** (UUID), die u vindt in de campagneeigenschappen.
 
 ## Een op reeksspatiëring gebaseerde herrichtingsregel maken
 
-Het volgen-Gebaseerde opnieuw richten van regel richt ontvangers die op hun interactie met een bericht worden gebaseerd, gebruikend gegevens van de **E-mail die** dataset volgen. Hiermee worden gebruikersacties vastgelegd, zoals het openen van e-mail en het klikken op koppelingen.
+Het volgen-Gebaseerde opnieuw richten van regel richt ontvangers die op hun interactie met een bericht worden gebaseerd, gebruikend gegevens van de **[!UICONTROL Email Tracking]** dataset. Hiermee worden gebruikersacties vastgelegd, zoals het openen van e-mail en het klikken op koppelingen.
 
-Om ontvangers opnieuw te richten die op berichtinteractie (b.v., open of klik) worden gebaseerd, gebruik de **E-mail die** entiteit volgen als volgt:
+Gebruik de entiteit **[!UICONTROL Email Tracking]** als volgt om ontvangers opnieuw te richten op basis van berichtinteractie (bijvoorbeeld openen of klikken):
 
-1. Creeer een nieuwe **Geordende Campagne**, dan voeg a **toe 3&rbrace; activiteit van het publiek van de Bouwstijl &lbrace;met** Ontvanger (camera&#39;s) **als het richten dimensie om zich op vorige georkestreerde campagneontvangers te concentreren.**
+1. Maak een nieuwe **[!UICONTROL Orchestrated Campaign]** .
 
-1. Voeg een nieuwe voorwaarde voor **E-mail het Volgen** toe. Klik **bevestigen** om tot &quot;E-mail het Volgen zoals&quot;voorwaarde te leiden bestaat.
+1. Voeg een **[!UICONTROL Build Audience]** -activiteit toe en stel de doeldimensie in op **[!UICONTROL Recipient (caas)]** om de focus op vorige georkestreerde campagneontvangers te richten.
 
-1. Binnen die voorwaarde, voeg een voorwaarde toe en onderzoek naar **het Type van Interactie** attributen.
+1. Klik in de **[!UICONTROL Rule Builder]** op **[!UICONTROL Add Condition]** en selecteer **[!UICONTROL Email Tracking]** in de **[!UICONTROL Attributes Picker]** .
 
-1. Van de opties van de douanevoorwaarde, gebruik **inbegrepen in** als exploitant en selecteer één of meerdere waarden afhankelijk van uw gebruiksgeval. Bijvoorbeeld:
-   - **Geopend Bericht**
-   - **Geklikte Verbinding van het Bericht**
+   Klik **[!UICONTROL Confirm]** om a **E-mail het Volgen tot stand te brengen bestaat zoals** voorwaarde.
 
-1. De volgende gegevens aan een specifieke campagne koppelen:
+   ![](assets/retarget_2.png)
 
-   - Voeg een voorwaarde toe in het blok E-mailtracking.
+1. Als u de interactie van profielen met een bericht wilt aanwijzen, voegt u een andere voorwaarde toe die is gekoppeld aan het kenmerk **[!UICONTROL Email tracking]** en zoekt u het kenmerk **[!UICONTROL Interaction Type]** .
 
-   - Navigeer naar `_experience > CustomerJourneyManagement > Entities > AJO Orchestrated Campaign` .
+   ![](assets/retarget_7.png)
 
-   - Voeg voorwaarden voor zowel **Geordende Naam van de Campagne** toe en, indien nodig, **Geordende Naam van de Actie van de Campagne**.
+1. Gebruik in de opties voor aangepaste voorwaarden **[!UICONTROL Included in]** als de operator en selecteer een of meer waarden, afhankelijk van het gebruikte hoofdlettergebruik, bijvoorbeeld **[!UICONTROL Message Opened]** of **[!UICONTROL Message Link Clicked]** .
 
-     De namen van de acties kunnen worden gevonden door het ![ pictogram van de Informatie ](assets/do-not-localize/info-icon.svg) naast een activiteit in het canvas te klikken.
+   ![](assets/retarget_8.png)
 
-   >[!TIP]
-   >
-   >In plaats van het gebruiken van namen, kunt u door **identiteitskaart van de Campagne** (UUID) ook filtreren, die in uw eigenschappen van de Campagne kan worden gevonden.
+1. Om de volgende gegevens aan een specifieke campagne te associëren, voeg een nieuwe **[!UICONTROL Message feedback]** voorwaarde toe en volg de stappen die [ in deze sectie ](#feedback-retarget) worden gedetailleerd.
