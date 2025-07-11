@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9324de79b7a1e787c3a23338c4292cd4ff2bb6df
+source-git-commit: 2950856622ea9ee6c761f4555d5322bb788bb2cb
 workflow-type: tm+mt
-source-wordcount: '2502'
+source-wordcount: '2507'
 ht-degree: 20%
 
 ---
@@ -362,7 +362,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
 + Inhoudsbeheer {#content-management}
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [Adobe Experience Platform-gegevens gebruiken voor personalisatie (Beta)](using/personalization/aep-data-perso.md)
@@ -727,7 +727,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
@@ -739,6 +739,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
    + E-mailsubdomeinen delegeren {#delegate-subdomains}
       + [Aan de slag met subdomeindelegatie](using/configuration/about-subdomain-delegation.md)
       + [Een subdomein delegeren](using/configuration/delegate-subdomain.md)
+      + [Een aangepast subdomein instellen](using/configuration/delegate-custom-subdomain.md)
       + [DMARC-record instellen](using/configuration/dmarc-record.md)
       + [Een Google TXT-record toevoegen](using/configuration/google-txt.md)
       + [PTR-records openen en bewerken](using/configuration/ptr-records.md)
