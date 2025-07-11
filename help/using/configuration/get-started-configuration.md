@@ -9,9 +9,9 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configuratie, configureren, berichten, kanaal, sandbox, optimaliseren
-source-git-commit: 6109c9176c160c2c0b1eafa06b855ebaf285e3ee
+source-git-commit: 21e2ea3e6a72d2a0eb0338df5665282d814501ac
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '303'
 ht-degree: 4%
 
 ---
@@ -19,8 +19,12 @@ ht-degree: 4%
 
 # Aan de slag met kanaalconfiguratie {#start-optimizer-configuration}
 
-Wanneer u [!DNL Journey Optimizer] voor het eerst opent, beschikt u over een productiesandbox en kunt u een bepaald aantal IP&#39;s toewijzen, afhankelijk van uw contract.
+>[!CONTEXTUALHELP]
+>id="ajo_channels_rate_controls"
+>title="Snelheidbesturingselementen voor kanalen"
+>abstract="Snelheidbesturingselementen voor kanalen"
 
+Wanneer u [!DNL Journey Optimizer] voor het eerst opent, beschikt u over een productiesandbox en kunt u een bepaald aantal IP&#39;s toewijzen, afhankelijk van uw contract.
 
 Om berichten te kunnen verzenden, moet u door de hieronder vermelde configuratiestappen gaan:
 

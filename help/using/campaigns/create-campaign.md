@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 21e2ea3e6a72d2a0eb0338df5665282d814501ac
 workflow-type: tm+mt
-source-wordcount: '1239'
+source-wordcount: '1245'
 ht-degree: 3%
 
 ---
@@ -65,7 +65,7 @@ Voer de volgende stappen uit om de doelgroep van een geplande marketingcampagne 
 
 1. In de **sectie van het publiek**, klik de **[!UICONTROL Select audience]** knoop om de lijst van beschikbare publiek van Adobe Experience Platform te tonen. Leer meer over publiek in [ deze sectie ](../audience/about-audiences.md).
 
-1. Kies in het veld **[!UICONTROL Identity type]** het type sleutel dat u wilt gebruiken om de personen van het geselecteerde publiek te identificeren. U kunt een bestaand identiteitstype gebruiken of een nieuw type maken met de Adobe Experience Platform Identity Service. De standaard naamruimten van de Identiteit zijn vermeld op [ deze pagina ](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
+1. Kies in het veld **[!UICONTROL Identity type]** het type sleutel dat u wilt gebruiken om de personen van het geselecteerde publiek te identificeren. U kunt een bestaand identiteitstype gebruiken of een nieuw type maken met de Adobe Experience Platform Identity Service. De standaard naamruimten van de Identiteit zijn vermeld op [ deze pagina ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
 
    Per campagne is slechts één identiteitstype toegestaan. Individuen die tot een segment behoren dat niet het geselecteerde identiteitstype onder hun verschillende identiteiten heeft kunnen niet door de campagne worden gericht.
 
@@ -158,6 +158,11 @@ Naast de berichtinhoud zelf, kunt u de volgende montages vormen:
 >id="ajo_campaigns_schedule_triggers"
 >title="actieftriggers voor campagne"
 >abstract="Definieer de frequentie waarmee het campagnebericht moet worden verzonden."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_throttling"
+>title="Besturingselement voor de rotatiesnelheid"
+>abstract="Besturingselement voor de rotatiesnelheid"
 
 Standaard worden geplande campagnes gestart zodra ze handmatig zijn geactiveerd en eindigen zodra het bericht eenmaal is verzonden.
 
