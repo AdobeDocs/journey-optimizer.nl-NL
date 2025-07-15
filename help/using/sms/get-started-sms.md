@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: cc0ffd008052fcb0ce06f6cdff0f2adb5c040568
+source-git-commit: b5ea41cec72fb80dd2fcc3aa467e80cd293fd239
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -70,15 +70,24 @@ Adobe Journey Optimizer verzendt tekstberichten via SMS-serviceproviders (of SMS
 
   +++Zie video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3428917?learn=on&captions=dut)
+  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
-  +++
++++
 
 * De onderstaande video helpt u beter te begrijpen welke mobiele mogelijkheden Adobe Journey Optimizer biedt aan marketers.
 
 
   +++Zie video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3430379?quality=12&learn=on&captions=dut)
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
-  +++
++++
+
+* In de onderstaande video kunt u via een aangepaste SMS-provider interactieve RCS-berichten met branding configureren en verzenden in Adobe Journey Optimizer.
+
+
+  +++Zie video
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3464755)
+
++++
