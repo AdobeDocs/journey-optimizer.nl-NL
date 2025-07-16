@@ -6,9 +6,9 @@ description: Leer hoe u georkestreerde campagnes met Adobe Journey Optimizer kun
 hide: true
 hidefromtoc: true
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
-source-git-commit: 811a04c1ce74627b48143da4cd78d6cc644f4ba5
+source-git-commit: 175762a1d843f55dd9dcbb1cb0ac107a27a370b0
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 | Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
 |---|---|---|---|
-| [ wordt begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](configuration-steps.md)<br/><br/>[ Toegang en beheer georkestreerde campagnes ](access-manage-orchestrated-campaigns.md)<br/><br/>[ Belangrijke stappen om een georkestreerde campagne ](gs-campaign-creation.md) tot stand te brengen | [ creeer en programma de campagne ](create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](orchestrate-activities.md)<br/><br/>[ Begin en controleer de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](edit-expressions.md)<br/><br/><b>[ opnieuw op ](retarget.md)</b> | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ de activiteiten van het Kanaal ](activities/channels.md) - [ combineren ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) Formeel k [ - ](activities/fork.md) Verzoening [ - ](activities/reconciliation.md) sparen publiek [ - ](activities/save-audience.md) Gesplitst [ - ](activities/split.md) wacht [&#128279;](activities/wait.md) |
+| [ wordt begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)<br/><br/>[ stappen van de Configuratie ](configuration-steps.md)<br/><br/>[ Toegang en beheer georkestreerde campagnes ](access-manage-orchestrated-campaigns.md)<br/><br/>[ Belangrijke stappen om een georkestreerde campagne ](gs-campaign-creation.md) tot stand te brengen | [ creeer en programma de campagne ](create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](orchestrate-activities.md)<br/><br/>[ Begin en controleer de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](edit-expressions.md)<br/><br/><b>[ opnieuw op ](retarget.md)</b> | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ de activiteiten van het Kanaal ](activities/channels.md) - [ combineren ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) Formeel k [ - ](activities/fork.md) Verzoening [ - ](activities/reconciliation.md) sparen publiek [ - ](activities/save-audience.md) Gesplitst [ - ](activities/split.md) wacht [](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -33,9 +33,9 @@ Documentatie in uitvoering
 
 >[!ENDSHADEBOX]
 
-Met Opnieuw toewijzen kunt u op basis van de manier waarop ze op een vorige georkestreerde campagne hebben gereageerd, een follow-up geven aan de ontvangers. U kunt bijvoorbeeld een tweede e-mail verzenden naar profielen die wel een tweede e-mail hebben ontvangen maar niet op de eerste hebben geklikt.
+Met Opnieuw toewijzen kunt u op basis van de manier waarop ze op een vorige georkestreerde campagne hebben gereageerd, een follow-up geven aan de ontvangers. U kunt bijvoorbeeld een tweede e-mail verzenden naar ontvangers die wel een tweede e-mail hebben ontvangen, maar niet op de eerste hebben geklikt.
 
-**[!UICONTROL Orchestrated Campaign]** biedt hiervoor twee belangrijke gegevensbronnen:
+**[!UICONTROL Orchestrated Campaign]** biedt hiervoor twee hoofdkenmerken:
 
 * **[!UICONTROL Message Feedback]**: legt gebeurtenissen vast die betrekking hebben op de levering, zoals verzonden, geopend, teruggestuurd, enz. bericht.
 * **[!UICONTROL Email Tracking]**: legt gebruikersacties vast, bijvoorbeeld klikken en openen.
@@ -44,7 +44,7 @@ Met Opnieuw toewijzen kunt u op basis van de manier waarop ze op een vorige geor
 
 ## Een regel voor opnieuw toewijzen op basis van feedback maken {#feedback-retarget}
 
-De op feedback-Gebaseerde Terugkomende Regel staat u toe om ontvangers opnieuw te richten die op de gebeurtenissen worden gebaseerd van de berichtlevering in de **Terugkoppeling van het Bericht** dataset wordt gevangen. Deze gebeurtenissen omvatten uitkomsten zoals berichten die worden verzonden, geopend, teruggestuurd of gemarkeerd als spam.
+Op feedback gebaseerde regel voor opnieuw toewijzen stelt u in staat ontvangers opnieuw als doel in te stellen op basis van gebeurtenissen voor het verzenden van berichten die zijn vastgelegd in het kenmerk **[!UICONTROL Message Feedback]** . Deze gebeurtenissen omvatten uitkomsten zoals berichten die worden verzonden, geopend, teruggestuurd of gemarkeerd als spam.
 
 Gebruikend deze gegevens, kunt u regels bepalen om ontvangers te identificeren die een vorig bericht ontvingen toelatend follow-upmededeling die op specifieke leveringsstatussen wordt gebaseerd.
 
@@ -72,7 +72,7 @@ Gebruikend deze gegevens, kunt u regels bepalen om ontvangers te identificeren d
 
 +++
 
-1. Kies het kenmerk **[!UICONTROL Orchestrated Campaign Name]** om een specifieke georkestreerde campagne als doel in te stellen.
+1. Kies het kenmerk **[!UICONTROL Orchestrated Campaign Name]** als u een specifieke geordende campagne wilt starten.
 
 +++ Gedetailleerd, stap voor stap
 
@@ -88,7 +88,7 @@ Gebruikend deze gegevens, kunt u regels bepalen om ontvangers te identificeren d
 
 +++
 
-1. Kies het kenmerk **[!UICONTROL Orchestrated Campaign Action Name]** om een specifiek bericht of een specifieke activiteit in een geordende campagne als doel in te stellen.
+1. Kies het **[!UICONTROL Orchestrated Campaign Action Name]** -kenmerk als u een specifiek bericht of een specifieke activiteit in een georkestreerde campagne als doel wilt instellen.
 
 +++ Gedetailleerd, stap voor stap
 
@@ -102,15 +102,20 @@ Gebruikend deze gegevens, kunt u regels bepalen om ontvangers te identificeren d
 
    1. Geef in het menu **[!UICONTROL Custom condition]** de naam van de actie voor de campagne op in het veld **[!UICONTROL Value]** .
 
-      De namen van de acties kunnen worden gevonden door het ![ pictogram van de Informatie ](assets/do-not-localize/info-icon.svg) naast een activiteit in het canvas te klikken.
+      De namen van de acties kunnen worden gevonden door het ![ pictogram van de Informatie ](assets/do-not-localize/info-icon.svg) naast het gebied van het Etiket van uw activiteit te klikken.
 
 +++
 
 1. U kunt ook filteren op **[!UICONTROL Campaign ID]** (UUID), die u vindt in de campagneeigenschappen.
 
-## Een op reeksspatiëring gebaseerde herrichtingsregel maken
+U hebt nu op feedback gebaseerde herrichtingsregel geconfigureerd om ontvangers te identificeren op basis van de leveringsstatus van een vorig bericht, zoals verzonden, geopend, teruggestuurd of gemarkeerd als spam. Met dit die publiek wordt bepaald, kunt u of een follow-up e-mail toevoegen of uw het richten verder verfijnen door [ het vormen van een Op volgen-Gebaseerde het opnieuw richten regel ](#tracking-based), die gebruikersinteractiegegevens gebruikt.
 
-Het volgen-Gebaseerde opnieuw richten van regel richt ontvangers die op hun interactie met een bericht worden gebaseerd, gebruikend gegevens van de **[!UICONTROL Email Tracking]** dataset. Hiermee worden gebruikersacties vastgelegd, zoals het openen van e-mail en het klikken op koppelingen.
+![](assets/retarget_9.png)
+
+
+## Een op reeksspatiëring gebaseerde herrichtingsregel maken {#tracking-based}
+
+Het volgen-gebaseerde opnieuw richten van regel richt ontvangers die op hun interactie met een bericht worden gebaseerd, gebruikend gegevens van het **[!UICONTROL Email Tracking]** attribuut. Hiermee worden gebruikersacties vastgelegd, zoals het openen van e-mail en het klikken op koppelingen.
 
 Gebruik de entiteit **[!UICONTROL Email Tracking]** als volgt om ontvangers opnieuw te richten op basis van berichtinteractie (bijvoorbeeld openen of klikken):
 
@@ -124,7 +129,7 @@ Gebruik de entiteit **[!UICONTROL Email Tracking]** als volgt om ontvangers opni
 
    ![](assets/retarget_2.png)
 
-1. Als u de interactie van profielen met een bericht wilt aanwijzen, voegt u een andere voorwaarde toe die is gekoppeld aan het kenmerk **[!UICONTROL Email tracking]** en zoekt u het kenmerk **[!UICONTROL Interaction Type]** .
+1. Als u de interactie van ontvangers met een bericht als doel wilt instellen, voegt u een andere voorwaarde toe die is gekoppeld aan het kenmerk **[!UICONTROL Email tracking]** en zoekt u het kenmerk **[!UICONTROL Interaction Type]** .
 
    ![](assets/retarget_7.png)
 
@@ -132,4 +137,7 @@ Gebruik de entiteit **[!UICONTROL Email Tracking]** als volgt om ontvangers opni
 
    ![](assets/retarget_8.png)
 
-1. Om de volgende gegevens aan een specifieke campagne te associëren, voeg een nieuwe **[!UICONTROL Message feedback]** voorwaarde toe en volg de stappen die [ in deze sectie ](#feedback-retarget) worden gedetailleerd.
+U hebt nu een op reeksspatiëring gebaseerde herrichtingsregel geconfigureerd voor doelontvangers op basis van hun interacties met een eerder bericht, zoals het openen van een e-mail of het klikken met koppelingen, met behulp van gegevens uit het kenmerk **[!UICONTROL Email Tracking]** . Met dit bepaalde publiek, kunt u of een follow-up actie toevoegen of uw het richten verder verfijnen door het met a [ te combineren terugkoppelen-Gebaseerde het opnieuw richten regel ](#feedback-retarget) om berichtresultaten zoals verzonden, die, of duidelijk als spam worden verzonden te omvatten.
+
+
+![](assets/retarget_10.png)
