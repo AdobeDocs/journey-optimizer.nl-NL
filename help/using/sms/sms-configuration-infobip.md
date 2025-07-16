@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 604af3a0ac9febb62f2e2b1705e2751b2c476e04
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '750'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ Ga als volgt te werk om Infobip met Journey Optimizer te configureren:
    | Bericht bij Afmelden | Voer de aangepaste reactie in die automatisch wordt verzonden als uw bericht om te weigeren. |
    | Trefwoorden Help | Ga het gebrek of douanetrefwoorden in die automatisch uw **Bericht van de Hulp** zullen teweegbrengen. Gebruik voor meerdere trefwoorden door komma&#39;s gescheiden waarden. |
    | Help-bericht | Ga de douanereactie in die automatisch als uw **Bericht van de Hulp** wordt verzonden. |
-   | Dubbele invoegtrefwoorden | Voer de trefwoorden in die het dubbele aanmeldingsproces activeren. Als een gebruikersprofiel niet bestaat, wordt het gecreeerd na succesvolle bevestiging. Gebruik voor meerdere trefwoorden door komma&#39;s gescheiden waarden. [ Leer meer over SMS Dubbelopt-binnen ](https://video.tv.adobe.com/v/3440284/?learn=on&captions=dut). |
+   | Dubbele invoegtrefwoorden | Voer de trefwoorden in die het dubbele aanmeldingsproces activeren. Als een gebruikersprofiel niet bestaat, wordt het gecreeerd na succesvolle bevestiging. Gebruik voor meerdere trefwoorden door komma&#39;s gescheiden waarden. [ Leer meer over SMS Dubbelopt-binnen ](https://video.tv.adobe.com/v/3427129/?learn=on). |
    | Dubbel bericht voor aanmelden | Voer de aangepaste reactie in die automatisch wordt verzonden als reactie op de dubbele aanmeldingsbevestiging. |
    | Id van hoofdentiteit | Ga uw toegewezen Hoofdentiteitskaart van DLT in. |
    | Inhoudssjabloon-id | Voer uw geregistreerde sjabloon-id voor DLT-inhoud in. |
@@ -73,7 +73,11 @@ Nadat u de API-referentie hebt gemaakt en geconfigureerd, moet u nu een kanaalco
 
 Het overseinen RCS wordt gesteund in Adobe Journey Optimizer door Infobip gebruikend de [ eigenschap van de Leverancier van SMS van de Douane ](sms-configuration-custom.md). Dit maakt het mogelijk rijke, interactieve berichten via geverifieerde bedrijfsprofielen te verzenden, met elementen zoals carrousels, knoppen en multimedia-inhoud.
 
+➡️ [ Onderzoek hoe Infobip RCS in Infrobip- documentatie ](https://www.infobip.com/docs/api/channels/rcs) steunt
+
 Om RCS overseinen met Infobip toe te laten, moeten de nieuwe API geloofsbrieven via een Leverancier van Aangepaste SMS worden gevormd. De bestaande referenties van Infobip SMS zijn niet compatibel, aangezien RCS een verschillend ladingsformaat vereist.
+
+RCS met Infobip vormen:
 
 1. **Registreer Uw Zaken voor RCS via Infobip**
 

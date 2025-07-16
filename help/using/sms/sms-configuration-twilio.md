@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 604af3a0ac9febb62f2e2b1705e2751b2c476e04
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '397'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,11 @@ Nadat u de API-referentie hebt gemaakt en geconfigureerd, moet u nu een kanaalco
 
 Het overseinen RCS wordt gesteund in Adobe Journey Optimizer door Twilio gebruikend de [ eigenschap van de Leverancier van SMS van de Douane ](sms-configuration-custom.md). Dit maakt het mogelijk rijke, interactieve berichten via geverifieerde bedrijfsprofielen te verzenden, met elementen zoals carrousels, knoppen en multimedia-inhoud.
 
+➡️ [ Onderzoek hoe Twilio RCS in de documentatie van Twilio steunt ](https://www.twilio.com/docs/rcs)
+
 Om RCS overseinen met Twilio toe te laten, moeten de nieuwe geloofsbrieven van API via een Leverancier van douaneSMS worden gevormd. De bestaande geloofsbrieven van TwilioSMS zijn niet compatibel, aangezien RCS een verschillend ladingsformaat vereist.
+
+RCS met Twilio configureren:
 
 1. **Register voor het Overseinen RCS in Twilio**
 
