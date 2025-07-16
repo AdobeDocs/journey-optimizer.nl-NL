@@ -5,7 +5,7 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
-source-git-commit: bc433a215021b9c5c6a8948468468808e7121712
+source-git-commit: 95a6d032808bc735a27a98dcb61efefa93cf5047
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 2%
@@ -23,7 +23,7 @@ Testprofielen zijn aanvullende ontvangers die niet voldoen aan de gedefinieerde 
 
 Voordat u testprofielen gebruikt om uw inhoud te testen, moet u deze eerst selecteren. Ga als volgt te werk om dit te doen:
 
-1. Klik in het scherm Inhoud bewerken van uw bericht of in de Designer-e-mail op de knop **[!UICONTROL Simulate content]** en selecteer **[!UICONTROL Sumulaye content]** .
+1. Klik in het scherm Inhoud bewerken van uw bericht of in de Designer-e-mail op de knop **[!UICONTROL Simulate content]** en selecteer **[!UICONTROL Simulate content]** .
 
 1. Klik op de knop **[!UICONTROL Manage test profiles]** en selecteer de naamruimte die u wilt gebruiken om testprofielen te identificeren door op het selectiepictogram **[!UICONTROL Identity namespace]** te klikken. [ Leer meer over de identiteitsnamespaces van Adobe Experience Platform ](../audience/get-started-identity.md).
 
