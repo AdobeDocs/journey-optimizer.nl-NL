@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2950856622ea9ee6c761f4555d5322bb788bb2cb
+source-git-commit: 1aa4f3e24a4cb7594232c0b25da8c9fd2e62c1de
 workflow-type: tm+mt
-source-wordcount: '2507'
+source-wordcount: '2523'
 ht-degree: 20%
 
 ---
@@ -182,7 +182,11 @@ ht-degree: 20%
       + [Aangepaste acties oplossen](using/action/troubleshoot-custom-action.md)
 + Geordende campagnes {#orchestrated-campaigns}
    + [Aan de slag met georkestreerde campagnes](using/orchestrated/gs-orchestrated-campaigns.md)
-   + [Configuratiestappen](using/orchestrated/configuration-steps.md)
+   + Relationele schema&#39;s en gegevens beheren {#schemas-datasets}
+      + [Begin met schema&#39;s en datasets](using/orchestrated/gs-schemas.md)
+      + [Handmatig schema](using/orchestrated/manual-schema.md)
+      + [Schema voor uploaden bestand](using/orchestrated/file-upload-schema.md)
+      + [Samenvattingsgegevens](using/orchestrated/ingest-data.md)
    + [Georkestreerde campagnes openen en beheren](using/orchestrated/access-manage-orchestrated-campaigns.md)
    + [Afvoerkanalen en beperkingen](using/orchestrated/guardrails.md)
    + Start uw eerste georkestreerde campagne{#launch}
@@ -362,7 +366,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
 + Inhoudsbeheer {#content-management}
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [Adobe Experience Platform-gegevens gebruiken voor personalisatie (Beta)](using/personalization/aep-data-perso.md)
@@ -727,7 +731,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
