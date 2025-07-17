@@ -23,7 +23,7 @@ ht-degree: 6%
 
 U kunt de inhoud in de app bewerken om ervaringsopties te configureren:
 
-* Klik op de knop **[!UICONTROL Edit content]** in een **[!UICONTROL Campaign]** -menu om de inhoud van het bericht te configureren.**[!UICONTROL Action]**
+* Klik op de knop **[!UICONTROL Campaign]** in een **[!UICONTROL Action]** -menu om de inhoud van het bericht te configureren.**[!UICONTROL Edit content]**
 
   ![](assets/edit-in-app-content.png)
 
@@ -141,7 +141,7 @@ Als **[!UICONTROL Advanced formatting mode]** is ingeschakeld, kunt u kiezen voo
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_buttons"
 >title="Voeg knoppen toe waarmee gebruikers kunnen communiceren met uw In-app-bericht."
->abstract="Deze sectie zal u toestaan om vraag-aan-actie knopen aan uw bericht toe te voegen. U kunt aangepaste tekst en doelen voor elke knop opnemen."
+>abstract="In deze sectie kunt u call-to-action-knoppen toevoegen aan uw bericht. U kunt aangepaste tekst en doelen voor elke knop opnemen."
 
 Voeg knoppen toe waarmee gebruikers kunnen communiceren met uw In-app-bericht.
 

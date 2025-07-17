@@ -117,7 +117,7 @@ Uw vertaalproject is nu gemaakt en kan worden gebruikt in een meertalige campagn
 
 In deze sectie kunt u verschillende landinstellingen instellen voor het beheer van meertalige inhoud. U kunt ook het kenmerk kiezen dat u wilt gebruiken om informatie met betrekking tot de profieltaal op te zoeken.
 
-1. Open **[!UICONTROL Channel]** > **[!UICONTROL General settings]** in het menu **[!UICONTROL Administration]** .
+1. Open **[!UICONTROL Administration]** > **[!UICONTROL Channel]** in het menu **[!UICONTROL General settings]** .
 
 1. Klik in het menu **[!UICONTROL Language settings]** op **[!UICONTROL Create language settings]** .
 
@@ -166,7 +166,7 @@ In deze sectie kunt u verschillende landinstellingen instellen voor het beheer v
 
    1. Open in Adobe Experience Platform Data Collection de tageigenschappen.
 
-   1. Open het menu **[!UICONTROL Rules]** en maak een nieuwe regel. De gedetailleerde informatie over hoe te om regels tot stand te brengen is beschikbaar in [!DNL Adobe Experience Platform] [ documentatie van de Inzameling van Gegevens ](https://experienceleague.adobe.com/nl/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"} 
+   1. Open het menu **[!UICONTROL Rules]** en maak een nieuwe regel. De gedetailleerde informatie over hoe te om regels tot stand te brengen is beschikbaar in [!DNL Adobe Experience Platform] [ documentatie van de Inzameling van Gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
    1. Voeg in de sectie **[!UICONTROL IF]** van de regel een gebeurtenis toe die als volgt is geconfigureerd:
 
@@ -199,7 +199,7 @@ In deze sectie kunt u verschillende landinstellingen instellen voor het beheer v
 
       * Klik op de knop **[!UICONTROL Keep changes]** om uw regel te bevestigen en op te slaan.
 
-   +++
++++
 
 1. Sleep de landinstellingen om ze opnieuw te ordenen en de prioriteit ervan in de lijst te beheren.
 
@@ -288,12 +288,12 @@ Als u uw vertaalproject en taalinstellingen hebt ingesteld, kunt u uw campagne o
 
 U kunt nu uw campagne of reis activeren. Als u eenmaal bent verzonden, kunt u de impact van uw meertalige reis of campagne in rapporten meten.
 
-## Insourcingvertaalproject beheren {#manage-ht-project}
+## Insourcing-vertaalproject beheren {#manage-ht-project}
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_insourcing_project"
->title="Omzetten van vertaalproject"
->abstract="Met het vertaalproject voor insourcing kunt u vertalingen direct binnen uw vertaalproject beheren en uitvoeren, het proces stroomlijnen en meer controle houden over de kwaliteit en consistentie van de vertaling."
+>title="Insourcing-vertaalproject"
+>abstract="Met een Insourcing-vertaalproject kunt u vertalingen rechtstreeks in uw vertaalproject beheren en uitvoeren, het proces stroomlijnen en meer controle houden over de kwaliteit en consistentie van de vertaling."
 
 Als u tijdens het configureren van uw taalinstellingen Insourcing hebt geselecteerd, kunt u uw inhoud rechtstreeks in uw vertaalproject vertalen.
 
