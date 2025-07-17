@@ -199,7 +199,7 @@ In deze sectie kunt u verschillende landinstellingen instellen voor het beheer v
 
       * Klik op de knop **[!UICONTROL Keep changes]** om uw regel te bevestigen en op te slaan.
 
-+++
+   +++
 
 1. Sleep de landinstellingen om ze opnieuw te ordenen en de prioriteit ervan in de lijst te beheren.
 
