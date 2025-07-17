@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: activiteit, besluitvorming, inhouds-beslissing, beslissingsbeleid, canvas, reis
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
-source-git-commit: 701b2caeac704149c820ce3bf6338107ab4bc9f8
+source-git-commit: 30234392f9b643fa37be701d4d6878d798ea94fe
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '987'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ Voer de onderstaande stappen uit om de **[!UICONTROL Content decision]** -activi
 
    Wanneer u meerdere beslissingsitems en/of strategieën toevoegt, worden deze in volgorde geëvalueerd, aangegeven met getallen links van elk object of elke groep objecten. Als u de standaardvolgorde wilt wijzigen, kunt u de objecten en/of groepen slepen en neerzetten om ze naar wens opnieuw te rangschikken. [Meer informatie](../experience-decisioning/create-decision.md#evaluation-order)
 
-1. Voeg desgewenst een fallback-aanbieding toe. [Meer informatie](../experience-decisioning/create-decision.md#fallback)
+1. (optioneel) Voeg een fallback-aanbieding toe. [Meer informatie](../experience-decisioning/create-decision.md#fallback)
 
 1. Controleer en sla uw beslissingsbeleid op.
 
@@ -85,7 +85,7 @@ Als u de uitvoer van een besluitvormingsactiviteit met betrekking tot inhoud wil
 
 1. Laat vanuit de categorie **[!UICONTROL Orchestration]** een **[!UICONTROL Condition]** -activiteit op uw canvas rusten. [Meer informatie](condition-activity.md#add-condition-activity)
 
-1. Wijzig desgewenst de naam van **[!UICONTROL Path1]** , die correspondeert met de eerste expressie die u definieert, in een meer relevant label.
+1. (optioneel) Wijzig de naam van een meer relevant label in **[!UICONTROL Path1]** , dat overeenkomt met de eerste expressie die u definieert.
 
 1. Klik voor dit eerste pad in het veld **[!UICONTROL Expression]** of gebruik het pictogram Bewerken om een expressie toe te voegen.
 
@@ -103,7 +103,7 @@ Als u de uitvoer van een besluitvormingsactiviteit met betrekking tot inhoud wil
 
    >[!NOTE]
    >
-   >Om het even welk beperkt die etiket op een attribuut wordt bepaald, of in een gebeurtenis van de reiservaring in een besluitvormingsregel (als contextgegevens) wordt gebruikt, of in het [ aanbiedingsschema ](../experience-decisioning/catalogs.md#access-catalog-schema), zal niet in beleidsschending voor DULE of toestemming resulteren. Leer meer over het beleid van het gegevensbeheer in [ deze sectie ](../action/action-privacy.md)
+   >Om het even welk beperkt die etiket op een attribuut wordt bepaald, of in een gebeurtenis van de reiservaring in een besluitvormingsregel (als contextgegevens) wordt gebruikt, of in het [ aanbiedingsschema ](../experience-decisioning/catalogs.md#access-catalog-schema), resulteert in beleidsschending voor DULE of toestemming. Leer meer over het beleid van het gegevensbeheer in [ deze sectie ](../action/action-privacy.md)
 
 1. Om te controleren als om het even welke aanbieding voor de profielen is teruggekeerd die de reis ingaan, gebruik de [ listSize ](functions/functionlistsize.md) functie met de volgende syntaxis: `listSize(@decision{ContentdecisionName.items})>0`
 
@@ -157,7 +157,7 @@ Hieronder ziet u het volledige voorbeeld van een reis waarbij een activiteit voo
 
 <!--When all activities are properly configured and saved, [publish](publishing-the-journey.md) your journey.-->
 
-Zodra de reis [&#128279;](publishing-the-journey.md) wordt geactiveerd:
+Zodra de reis [ ](publishing-the-journey.md) wordt geactiveerd:
 
 <!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 
