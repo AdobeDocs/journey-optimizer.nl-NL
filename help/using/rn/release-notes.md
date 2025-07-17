@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ec2cccb651360ec796610781affcedca96d66af4
+source-git-commit: a587b8754e94781b7735f3d7d5abb9b9767a74a5
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1277'
 ht-degree: 7%
 
 ---
@@ -20,14 +20,14 @@ ht-degree: 7%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 
 ## Laatste updates {#latest-updates}
 
 ### Verandering van de reisomstandigheden {#ee-change@}
 
-Vanaf 8 juli, in nieuwe klantenorganisaties, zal het creëren van uitdrukkingen gebruikend ervaringsgebeurtenissen niet meer in de uitdrukkingsredacteur worden gesteund die in reisvoorwaarden wordt gebruikt. Dientengevolge, kan de ervaringsgebeurtenissen in de [ gegevensbron van Experience Platform ](../datasource/adobe-experience-platform-data-source.md) niet voor het creëren van uitdrukkingen worden gebruikt. De alternatieve benaderingen en beste praktijken voor het creëren van uitdrukkingen/logica met ervaringsgebeurtenissen worden van verwijzingen voorzien [ hier ](../building-journeys/exp-event-lookup.md).
+Vanaf 8 juli wordt in nieuwe klantenorganisaties het maken van expressies met behulp van ervaringsgebeurtenissen niet langer ondersteund in de expressie-editor die wordt gebruikt in reisomstandigheden. Dientengevolge, kan de ervaringsgebeurtenissen in de [ gegevensbron van Experience Platform ](../datasource/adobe-experience-platform-data-source.md) niet voor het creëren van uitdrukkingen worden gebruikt. De alternatieve benaderingen en beste praktijken voor het creëren van uitdrukkingen/logica met ervaringsgebeurtenissen worden van verwijzingen voorzien [ hier ](../building-journeys/exp-event-lookup.md).
 
 Er is geen wijziging in de manier waarop gegevens over de reiscontext worden benaderd tijdens eenheidstreizen. In de redacteurs van de uitdrukking en van de verpersoonlijking, kunnen de gebruikers tot gegevens blijven toegang hebben die met de aanvankelijke reisgebeurtenis worden overgegaan.
 
@@ -41,7 +41,7 @@ Leer meer [ in dit FAQ ](../building-journeys/exp-event-lookup.md#faq-ee).
 
 **de datum van de Versie**: 18 Juni, 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nieuwe functies {#25-06-features}
 
