@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1aa4f3e24a4cb7594232c0b25da8c9fd2e62c1de
+source-git-commit: 069df6fb67960bc7bdad4a8e0c3fdfa2b82fb8b5
 workflow-type: tm+mt
-source-wordcount: '2523'
+source-wordcount: '2526'
 ht-degree: 20%
 
 ---
@@ -263,7 +263,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
             + [Gebruik visuele fragmenten](using/email/use-visual-fragments.md)
             + [Koppelingen toevoegen en berichten bijhouden](using/email/message-tracking.md)
             + [Aangepaste aanbiedingen invoegen](using/email/add-offers-email.md)
-            + [De tekstversie genereren](using/email/text-version-email.md)
+            + [Tekstversie genereren](using/email/text-version-email.md)
             + [Metagegevens toevoegen](using/email/email-metadata.md)
             + [Aangepaste CSS toevoegen](using/email/custom-css.md)
          + Stijl bewerken {#edit-style}
@@ -271,6 +271,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
             + [Achtergrondinstellingen bewerken](using/email/backgrounds.md)
             + [Verticale uitlijning en opvulling aanpassen](using/email/alignment-and-padding.md)
             + [Inline-opmaakkenmerken toevoegen](using/email/inline-styling.md)
+            + [Inhoud donkere modus definiëren](using/email/dark-mode.md)
       + [ beheer e-mailopt-out ](using/email/email-opt-out.md)
       + E-mailkanaal configureren {#configure-email}
          + [Aan de slag met e-mailconfiguratie](using/email/get-started-email-config.md)
@@ -366,7 +367,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
 + Inhoudsbeheer {#content-management}
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [Adobe Experience Platform-gegevens gebruiken voor personalisatie (Beta)](using/personalization/aep-data-perso.md)
@@ -731,7 +732,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
