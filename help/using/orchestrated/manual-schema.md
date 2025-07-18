@@ -7,20 +7,20 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
+source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 1%
+source-wordcount: '687'
+ht-degree: 0%
 
 ---
 
-# Handmatig schema {#manual-schema}
+# Handmatig relationeel schema instellen {#manual-schema}
 
 +++ Inhoudsopgave
 
 | Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
 |---|---|---|---|
-| [ wordt begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)<br/><br/> creeer en beheer relationele Schema&#39;s en Datasets:</br><ul><li>[ worden begonnen met Schema&#39;s en Datasets ](gs-schemas.md)</li><li>[ Handmatig schema ](manual-schema.md)</li><li>[ het uploadschema van het Dossier ](file-upload-schema.md)</li><li>[ Ingest gegevens ](ingest-data.md)</li></ul>[ toegang en beheer georkestreerde campagnes ](access-manage-orchestrated-campaigns.md)<br/><br/>[ Zeer belangrijke stappen om een georkestreerde campagne ](gs-campaign-creation.md) tot stand te brengen | [ creeer en programma de campagne ](create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](orchestrate-activities.md)<br/><br/>[ Begin en controleer de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](edit-expressions.md)<br/><br/>[ opnieuw op ](retarget.md) | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ de activiteiten van het Kanaal ](activities/channels.md) - [ combineren ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) Formeel k [ - ](activities/fork.md) Verzoening [ - ](activities/reconciliation.md) sparen publiek [ - ](activities/save-audience.md) Gesplitst [ - ](activities/split.md) wacht [&#128279;](activities/wait.md) |
+| [ wordt begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)<br/><br/> creeer en beheer relationele Schema&#39;s en Datasets:</br><ul><li>[ worden begonnen met Schema&#39;s en Datasets ](gs-schemas.md)</li><li>[ Handmatig schema ](manual-schema.md)</li><li>[ het uploadschema van het Dossier ](file-upload-schema.md)</li><li>[ Ingest gegevens ](ingest-data.md)</li></ul>[ toegang en beheer georkestreerde campagnes ](access-manage-orchestrated-campaigns.md)<br/><br/>[ Zeer belangrijke stappen om een georkestreerde campagne ](gs-campaign-creation.md) tot stand te brengen | [ creeer en programma de campagne ](create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](orchestrate-activities.md)<br/><br/>[ Begin en controleer de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](edit-expressions.md)<br/><br/>[ opnieuw op ](retarget.md) | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ de activiteiten van het Kanaal ](activities/channels.md) - [ combineren ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) Formeel k [ - ](activities/fork.md) Verzoening [ - ](activities/reconciliation.md) sparen publiek [ - ](activities/save-audience.md) Gesplitst [ - ](activities/split.md) wacht [](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -38,146 +38,123 @@ De inhoud op deze pagina is niet definitief en kan worden gewijzigd.
 
 Relationele schema&#39;s kunnen direct door het gebruikersinterface worden gecreeerd, toelatend gedetailleerde configuratie van attributen, primaire sleutels, versioning gebieden, en verhoudingen.
 
-<!--
-The following example manually defines the Loyalty Memberships schema to illustrate the required structure for orchestrated campaigns.
+Het volgende voorbeeld bepaalt manueel het **schema van het Membership van de Loyalty** om de vereiste structuur voor georkestreerde campagnes te illustreren.
 
-1. Log in to Adobe Experience Platform.
+1. [ creeer manueel een relationeel schema ](#schema) gebruikend de interface van Adobe Experience Platform.
 
-1. Navigate to the **Data Management** > **Schema**.
+1. [ voegt attributen ](#schema-attributes) zoals klant identiteitskaart, lidmaatschapsniveau, en statusgebieden toe.
 
-1. Click on **Create Schema**.
+1. [ Verbinding uw schema ](#link-schema) aan ingebouwde schema&#39;s zoals Ontvangers voor campagne het richten.
 
-1. You will be prompted to select between two schema types:
+1. [ creeer een dataset ](#dataset) die op uw schema wordt gebaseerd en laat het voor gebruik in georkestreerde campagnes toe.
 
-    * **Standard**
-    * **Relational**, used specifically for orchestrated campaigns
+1. [ Samenvatting gegevens ](ingest-data.md) in uw dataset van gesteunde bronnen.
 
-    ![](assets/admin_schema_1.png)
+## Uw schema maken {#schema}
 
-1. Provide a **Schema Name** (e.g., `test_demo_ck001`).
-1. Choose **Schema Type**:
-    **Record Type** (required for AGO campaigns)
-    **Time Series** (not applicable here)
-1. Click **Finish** to proceed to the schema design canvas.
+Begin door een nieuw relationeel schema manueel in Adobe Experience Platform te creëren. Met dit proces kunt u de schemastructuur helemaal opnieuw definiëren, inclusief de naam en het gedrag.
 
-## Select entities and fields to import
+1. Meld u aan bij Adobe Experience Platform.
 
-1. In the canvas, add attributes (fields) to your schema.
-1. Add a **Primary Key** (mandatory).
-1. Add a **Version Descriptor** attribute (for CDC support):
-     This must be of type **DateTime** or **Numeric** (Integer, Long, Short, Byte).
-     Common example: `last_modified`
+1. Ga naar het menu **[!UICONTROL Data Management]** > **[!UICONTROL Schema]** .
 
-> **Why?** The **Primary Key** uniquely identifies each record, and the **Version Descriptor** tracks changes, supporting CDC (Change Data Capture) and data mirroring.
+1. Klik op **[!UICONTROL Create Schema]**.
 
-1. Mark the appropriate fields as **Primary Key** and **Version Descriptor**.
-1. Click **Save**.
--->
+1. Selecteer **[!UICONTROL Relational]** als uw **type van Schema**.
 
-<!--
+   ![](assets/admin_schema_1.png){zoomable="yes"}
 
-## 5. Creating a Dataset
+1. Kies **[!UICONTROL Create manually]** om het schema samen te stellen door handmatig velden toe te voegen.
 
-1. Navigate to **Datasets**.
-1. Click on **Create Dataset**.
-1. Select the schema you just created.
-1. Assign a **Dataset Name** (same as schema is fine).
-1. Optionally, add tags (e.g., `AGO_campaigns`).
-6. Ensure the checkbox **"Relational Schema"** is checked.
-7. Click **Finish**.
+1. Voer uw **[!UICONTROL Schema display name]** in.
 
-> **Note:** Only one dataset can be created per relational schema.
+1. Kies **[!UICONTROL Record]** als uw **[!UICONTROL Schema behavior]** .
 
+   ![](assets/schema_manual_8.png){zoomable="yes"}
 
-## 6. Enabling the Dataset
+1. Klik **Afwerking** om aan uw schemaverwezenlijking te werk te gaan.
 
-1. Click **Enable** for the dataset.
-1. Wait a few moments for the status to show **Enabled**.
+U kunt nu kenmerken aan uw schema toevoegen om de structuur ervan te definiëren.
 
-> **Why?** Without enabling, the dataset cannot be used in orchestrated campaigns or ingest data.
+## Kenmerken toevoegen aan uw schema {#schema-attributes}
 
-## 7. Creating a Data Source (S3)
+Voeg vervolgens kenmerken toe om de structuur van het schema te definiëren. Deze gebieden vertegenwoordigen de belangrijkste gegevenspunten die in geordende campagnes, zoals klantenherkenningstekens, lidmaatschapsdetails, en activiteitendata worden gebruikt. Het bepalen van hen verzekert nauwkeurig betrouwbare verpersoonlijking, segmentatie, en het volgen.
 
-1. Navigate to **Sources**.
-1. Click **Create Source**.
-1. Choose the source type (e.g., **S3 Bucket**).
-1. Provide connection details:
-    - Bucket Path (optionally include subfolder path)
-1. Save the source.
+1. In het canvas, klik ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) naast uw **naam van het Schema** beginnen attributen toe te voegen.
 
-## 8. Preparing and Uploading Data
+   ![](assets/schema_manual_1.png){zoomable="yes"}
 
-1. Prepare your CSV file with:
-    - Column headers matching your schema attributes
-    - `last_modified` column
-    - `change_type` column (`U`/`DU` for upsert, `D` for delete)
+1. Voer het kenmerk **[!UICONTROL Field name]** , **[!UICONTROL Display name]** en **[!UICONTROL Type]** in.
 
-> **Important:** `change_type` is required but does not need to be defined in the schema.
+   In dit voorbeeld, hebben wij de attributen toegevoegd die in de lijst hieronder aan het **het lidmaatschapsschema van de Loyalty** worden gedetailleerd.
 
-1. Save the file as `.csv`.
++++ Voorbeelden van kenmerken
 
-1. Upload the file to the specified folder in your S3 bucket.
+   | Kenmerknaam | Gegevenstype | Aanvullende kenmerken |
+   |-|-|-|
+   | klant | TEKENREEKS | Primaire sleutel |
+   | membership_level | TEKENREEKS | Vereist |
+   | points_balance | INTEGER | Vereist |
+   | enrollment_date | DATE | Vereist |
+   | last_status_change | DATE | Vereist |
+   | expiration_date | DATE | - |
+   | is_active | BOOLEAN | Vereist |
+   | laatstelijk | DATETIME | Vereist |
 
++++
 
-## 9. Ingesting Data from S3
+1. Wijs de desbetreffende velden toe als de **[!UICONTROL Primary Key]** en **[!UICONTROL Version Descriptor]** .
 
-1. Go to **Sources** and find your S3 source.
-1. Click **Add Data**.
-1. Select the uploaded file.
-1. Specify the file format as **CSV** and any compression type if applicable.
-1. Review the data preview (ensure `change_type`, `last_modified`, and primary key are visible).
-1. Click **Next**.
+   **[!UICONTROL Primary Key]** zorgt ervoor dat elke record op unieke wijze wordt geïdentificeerd, terwijl **[!UICONTROL Version Descriptor]** updates vastlegt in de loop van de tijd, waardoor de functie Gegevens vastleggen wijzigen wordt ingeschakeld en gegevensmirroring wordt ondersteund.
 
-### Enable Change Data Capture (CDC)
+   ![](assets/schema_manual_2.png){zoomable="yes"}
 
-- Check **Enable Change Data Capture**.
-- Select the dataset enabled for AGO campaigns.
+1. Klik op **[!UICONTROL Save]**.
 
-### Field Mapping
+Zodra de attributen worden gecreeerd, moet u uw onlangs gecreeerd schema met een ingebouwd schema verbinden.
 
-- Fields are auto-mapped (note that `change_type` is not mapped and that's expected).
-- Click **Next**.
+## Koppelingsschema&#39;s {#link-schema}
 
-### Scheduling
+Creeer een verband tussen twee schema&#39;s staat u toe om uw georkestreerde campagnes met gegevens te verrijken die buiten het primaire profielschema worden opgeslagen.
 
-- Schedule ingestion frequency (minute, hour, day, week).
-- Set start time (immediate or future).
-- Click **Finish** to create the data flow.
+1. Selecteer in het nieuwe schema het kenmerk dat u als koppeling wilt gebruiken en klik op **[!UICONTROL Add relationship]** .
 
-## 10. Monitoring Data Flow
+   ![](assets/schema_manual_3.png){zoomable="yes"}
 
-1. Navigate back to **Sources > Data Flows**.
-1. Wait 4–5 minutes for the first run (initial overhead).
-1. Monitor:
-    - Status (Started, Completed)
-    - Number of records ingested
-    - Errors (if any)
+1. Kies de **[!UICONTROL Reference schema]** en **[!UICONTROL Reference field]** om de relatie tot stand te brengen.
 
-> **Tip:** Ingested data first lands in the **Data Lake**.
+   In dit voorbeeld is het kenmerk `customer` gekoppeld aan het schema `recipients` .
 
-## 11. Data Replication to Data Store
+   ![](assets/schema_manual_4.png){zoomable="yes"}
 
-The **Data Store** is updated:
+1. Voer een naam voor de relatie in vanuit het huidige schema en het referentieschema.
 
-- Every **15 minutes**, or
+1. Klik op **[!UICONTROL Apply]** zodra dit is geconfigureerd.
 
-- If **Data Lake size exceeds 5MB**
+Zodra de verhouding wordt gevestigd, moet u een dataset tot stand brengen die op uw schema wordt gebaseerd.
 
-This is a background replication process.
+## Creeer een dataset voor het schema {#dataset}
 
+Na het bepalen van uw schema, moet de volgende stap een dataset tot stand brengen die op het wordt gebaseerd. In deze gegevensset worden uw opgenomen gegevens opgeslagen en moeten geordende campagnes zijn ingeschakeld om deze toegankelijk te maken in Adobe Journey Optimizer. Als u deze optie inschakelt, wordt de gegevensset herkend voor gebruik in realtime workflows voor orchestratie en personalisatie.
 
-## 12. Querying the Dataset
+1. Ga naar het menu **[!UICONTROL Data Management]** > **[!UICONTROL Datasets]** en klik op **[!UICONTROL Create dataset]** .
 
-1. Navigate to **Query Services**.
-1. Click **Create Query**.
-1. Example query:
+   ![](assets/schema_manual_5.png){zoomable="yes"}
 
-   ```sql
-   SELECT * FROM test_demo_ck001;
-   ```
+1. Selecteer **[!UICONTROL Create dataset from schema]**.
 
-1. Run the query.
+1. Kies uw eerder gecreeerd schema, hier **het lidmaatschap van de Loyalty**, en klik **[!UICONTROL Next]**.
 
-> **Note:** If ingestion is incomplete, query will return an error. Check data flow status.
+   ![](assets/schema_manual_6.png){zoomable="yes"}
 
--->
+1. Voer een **[!UICONTROL Name]** voor uw **[!UICONTROL Dataset]** in en klik op **[!UICONTROL Finish]** .
+
+1. Laat de **Geordende 1} optie van Campagnes {toe om de dataset beschikbaar voor gebruik in uw campagnes van AJO te maken.**
+
+   De activering kan een paar minuten duren. Gegevensinvoer is alleen mogelijk nadat de optie volledig is geactiveerd.
+
+   ![](assets/schema_manual_7.png){zoomable="yes"}
+
+U kunt nu gegevens in uw schema beginnen op te nemen gebruikend de bron van uw keus.
+
+➡️ [ Leer hoe te om gegevens in te voeren ](ingest-data.md)

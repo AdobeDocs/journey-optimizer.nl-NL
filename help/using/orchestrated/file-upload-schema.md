@@ -6,20 +6,21 @@ description: Leer hoe u een relationeel schema maakt in Adobe Experience Platfor
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
+exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
+source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 1%
+source-wordcount: '844'
+ht-degree: 0%
 
 ---
 
-# Bestand uploaden {#file-upload-schema}
+# Relationele schema&#39;s maken met een DDL-bestand {#file-upload-schema}
 
 +++ Inhoudsopgave
 
 | Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
 |---|---|---|---|
-| [ wordt begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)<br/><br/> creeer en beheer relationele Schema&#39;s en Datasets:</br> <ul><li>[ worden begonnen met Schema&#39;s en Datasets ](gs-schemas.md)</li><li>[ Handmatig schema ](manual-schema.md)</li><li>[ het uploadschema van het Dossier ](file-upload-schema.md)</li><li>[ Ingest gegevens ](ingest-data.md)</li></ul>[ toegang en beheer georkestreerde campagnes ](access-manage-orchestrated-campaigns.md)<br/><br/>[ Zeer belangrijke stappen om een georkestreerde campagne ](gs-campaign-creation.md) tot stand te brengen | [ creeer en programma de campagne ](create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](orchestrate-activities.md)<br/><br/>[ Begin en controleer de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](edit-expressions.md)<br/><br/>[ opnieuw op ](retarget.md) | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ de activiteiten van het Kanaal ](activities/channels.md) - [ combineren ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) Formeel k [ - ](activities/fork.md) Verzoening [ - ](activities/reconciliation.md) sparen publiek [ - ](activities/save-audience.md) Gesplitst [ - ](activities/split.md) wacht [&#128279;](activities/wait.md) |
+| [ wordt begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)<br/><br/> creeer en beheer relationele Schema&#39;s en Datasets:</br> <ul><li>[ worden begonnen met Schema&#39;s en Datasets ](gs-schemas.md)</li><li>[ Handmatig schema ](manual-schema.md)</li><li>[ het uploadschema van het Dossier ](file-upload-schema.md)</li><li>[ Ingest gegevens ](ingest-data.md)</li></ul>[ toegang en beheer georkestreerde campagnes ](access-manage-orchestrated-campaigns.md)<br/><br/>[ Zeer belangrijke stappen om een georkestreerde campagne ](gs-campaign-creation.md) tot stand te brengen | [ creeer en programma de campagne ](create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](orchestrate-activities.md)<br/><br/>[ Begin en controleer de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](edit-expressions.md)<br/><br/>[ opnieuw op ](retarget.md) | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ de activiteiten van het Kanaal ](activities/channels.md) - [ combineren ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) Formeel k [ - ](activities/fork.md) Verzoening [ - ](activities/reconciliation.md) sparen publiek [ - ](activities/save-audience.md) Gesplitst [ - ](activities/split.md) wacht [](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -37,121 +38,125 @@ De inhoud op deze pagina is niet definitief en kan worden gewijzigd.
 
 Bepaal het relationele gegevensmodel dat voor georkestreerde campagnes wordt vereist door schema&#39;s zoals **Loyalty Membership**, **Transacties van de Loyalty**, en **Beloningen van de Loyalty** te creëren. Elk schema moet een primaire sleutel, een versieringsattribuut, en aangewezen verhoudingen omvatten om entiteiten zoals **Ontvangers** of **Merken** van verwijzingen te voorzien.
 
-<!--
-Schemas can be created manually through the interface or imported in bulk using a DDL file.
+De schema&#39;s kunnen manueel door de interface worden gecreeerd of in bulk worden ingevoerd gebruikend een Ddl- dossier.
 
-This section provides step-by-step guidance on how to create a relational schema within Adobe Experience Platform by uploading a DDL (Data Definition Language) file. Using a DDL file allows you to define the structure of your data model in advance, including tables, attributes, keys, and relationships. 
+Deze sectie biedt stapsgewijze instructies voor het maken van een relationeel schema in Adobe Experience Platform door een DDL-bestand (Data Definition Language) te uploaden. Met behulp van een DDL-bestand kunt u vooraf de structuur van uw gegevensmodel definiëren, inclusief tabellen, kenmerken, sleutels en relaties.
 
-## Upload a DDL file{#ddl-upload}
+1. [ upload een Ddl- dossier ](#ddl-upload) om relationele schema&#39;s tot stand te brengen en hun structuur te bepalen.
 
-By uploading a DDL file, you can define the structure of your data model in advance, including tables, attributes, keys, and relationships. 
+1. [ bepaalt verhoudingen ](#relationships) tussen lijsten in uw gegevensmodel.
 
-1. Log in to Adobe Experience Platform.
+1. [ schema&#39;s van de Verbinding ](#link-schema) om uw relationele gegevens met bestaande profielentiteiten zoals Ontvangers of Banden te verbinden.
 
-1. Navigate to the **Data Management** > **Schema**.
+1. [ Samenvatting gegevens ](ingest-data.md) in uw dataset van gesteunde bronnen.
 
-1. Click on **Create Schema**.
+## Een DDL-bestand uploaden{#ddl-upload}
 
-1. You will be prompted to select between two schema types:
+Door een DDL-bestand te uploaden, kunt u vooraf de structuur van uw gegevensmodel definiëren, inclusief tabellen, kenmerken, sleutels en relaties.
 
-    * **Standard**
-    * **Relational**, used specifically for orchestrated campaigns
+1. Meld u aan bij Adobe Experience Platform.
 
-    ![](assets/admin_schema_1.png)
+1. Navigeer aan het **Beheer van Gegevens** > **Schema** menu.
 
-1. Select **Upload DDL file** to define an entity relationship diagram and create schemas.
+1. Klik **creëren Schema**.
 
-    The table structure must contain:
-    * At least one primary key
-    * A version identifier, such as a `lastmodified` field of type `datetime` or `number`.
+1. Selecteer **[!UICONTROL Relational]** als uw **type van Schema**.
 
-1. Drag and drop your DDL file and click **[!UICONTROL Next]**.
+   ![](assets/admin_schema_1.png)
 
-1. Type-in your **[!UICONTROL Schema name]**.
+1. Selecteer **[!UICONTROL Upload DDL file]** om een entiteitrelatiediagram te bepalen en schema&#39;s tot stand te brengen.
 
-1. Set up each schema and its columns, ensuring that a primary key is specified. 
+   De tabelstructuur moet het volgende bevatten:
+   * Ten minste één primaire sleutel
+   * Een versie-id, zoals een `lastmodified` veld van het type `datetime` of `number` .
 
-    One attribute, such as `lastmodified`, must be designated as a version descriptor. This attribute, typically of type `datetime`, `long`, or `int`, is essential for ingestion processes to ensure that the dataset is updated with the latest data version.
+1. Sleep en zet het DDL-bestand neer en klik op **[!UICONTROL Next]** .
 
-    ![](assets/admin_schema_2.png)
+1. Typ uw **[!UICONTROL Schema name]** in.
 
-1. Click **[!UICONTROL Done]** once done.
+1. Opstelling elk schema en zijn kolommen, die ervoor zorgen dat een primaire sleutel wordt gespecificeerd.
 
-You can now verify the table and field definitions within the canvas. [Learn more in the section below](#entities)
+   Eén kenmerk, zoals `lastmodified` , moet worden opgegeven als een versiedescriptor. Dit kenmerk, doorgaans van het type `datetime`, `long` of `int` , is essentieel voor innameprocessen om ervoor te zorgen dat de gegevensset wordt bijgewerkt met de meest recente gegevensversie.
 
-## Define relationships {#relationships}
+   ![](assets/admin_schema_2.png)
 
-To define logical connections between tables within your schema, follow the steps below.
+1. Klik **[!UICONTROL Done]** eenmaal gereed.
 
-1. Access the canvas view of your data model and choose the two tables you want to link
+U kunt nu de tabel- en velddefinities op het canvas controleren. [ leer meer in de sectie hieronder ](#entities)
 
-1. Click the ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) button next to the Source Join, then drag and guide the arrow towards the Target Join to establish the connection.
+## Relaties definiëren {#relationships}
 
-    ![](assets/admin_schema_5.png)
+Volg onderstaande stappen om logische verbindingen tussen tabellen in uw schema te definiëren.
 
-1. Fill in the given form to define the link and click **Apply** once configured.
+1. Open de canvasweergave van uw gegevensmodel en kies de twee tabellen die u wilt koppelen
 
-    ![](assets/admin_schema_3.png)
+1. Klik op de knop ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) naast Source Join en sleep de pijl naar Target Join om de verbinding tot stand te brengen.
 
-    **Cardinality**:
+   ![](assets/admin_schema_5.png)
 
-     * **1-N**: one occurrence of the source table can have several corresponding occurrences of the target table, but one occurrence of the target table can have at most one corresponding occurrence of the source table.
+1. Vul de bepaalde vorm in om de verbinding te bepalen en klik **toepassen** eens gevormd.
 
-    * **N-1**: one occurrence of the target table can have several corresponding occurrences of the source table, but one occurrence of the source table can have at most one corresponding occurrence of the target table.
+   ![](assets/admin_schema_3.png)
 
-    * **1-1**: one occurrence of the source table can have at most one corresponding occurrence of the target table.
+   **Kardinaliteit**:
 
-1. All links defined in your data model are represented as arrows in the canvas view. Click on an arrow between two tables to view details, make edits, or remove the link as needed.
+   * **1-n**: één voorkomen van de bronlijst kan verscheidene overeenkomstige voorkomen van de doellijst hebben, maar één voorkomen van de doellijst kan hoogstens één overeenkomstige voorkomen van de bronlijst hebben.
 
-    ![](assets/admin_schema_6.png)
+   * **n-1**: één voorkomen van de doellijst kan verscheidene overeenkomstige voorkomen van de bronlijst hebben, maar één voorkomen van de bronlijst kan hoogstens één overeenkomstige voorkomen van de doellijst hebben.
 
-1. Use the toolbar to customize and adjust your canvas.
+   * **1-1**: één voorkomen van de bronlijst kan hoogstens één overeenkomstige voorkomen van de doellijst hebben.
 
-    ![](assets/toolbar.png)
+1. Alle koppelingen die in het gegevensmodel zijn gedefinieerd, worden als pijlen weergegeven in de canvasweergave. Klik op een pijl tussen twee tabellen om details weer te geven, wijzigingen aan te brengen of de koppeling naar wens te verwijderen.
 
-    * **Zoom in**: Magnify the canvas to see details of your data model more clearly.
+   ![](assets/admin_schema_6.png)
 
-    * **Zoom out**: Reduce the canvas size for a broader view of your data model.
+1. Gebruik de werkbalk om het canvas aan te passen en aan te passen.
 
-    * **Fit view**: Adjust the zoom to fit all schemas within the visible area.
+   ![](assets/toolbar.png)
 
-    * **Filter**: Choose which schema to display within the canvas.
+   * **Gezoem binnen**: vergroot het canvas om details van uw gegevensmodel duidelijker te zien.
 
-    * **Force auto layout**: Automatically arrange schemas for better organization.
+   * **Gezoem uit**: Verminder de canvasgrootte voor een bredere mening van uw gegevensmodel.
 
-    * **Display map**: Toggle a minimap overlay to help navigate large or complex schema layouts more easily.
+   * **Passende mening**: Pas het gezoem aan om alle schema&#39;s binnen het zichtbare gebied te passen.
 
-1. Click **Save** once done. This action creates the schemas and associated data sets and enables the data set for use in Orchestrated Campaigns.
+   * **Filter**: Kies welk schema om binnen het canvas te tonen.
 
-1. Click **[!UICONTROL Open Jobs]** to monitor the progress of the creation job. This process may take couple minutes, depending on the number of tables defined in the DDL file. 
+   * **de auto lay-out van de Dwinging**: Orden automatisch schema&#39;s voor betere organisatie.
 
-    ![](assets/admin_schema_4.png)
+   * **Kaart van de Vertoning**: Ga een minikaartbekleding in-/uitschakelen helpen grote of complexe schemalay-outs gemakkelijker navigeren.
 
-## Link schema {#link-schema}
+1. Klik **sparen** eens gereed. Deze actie leidt tot de schema&#39;s en bijbehorende gegevensreeksen en laat de gegevensreeks voor gebruik in Geordende Campagnes toe.
 
-Establish a relationship between the **loyalty transactions** schema and the **Recipients** schema to associate each transaction with the correct customer record.
+1. Klik op **[!UICONTROL Open Jobs]** om de voortgang van de ontwerptaak te volgen. Dit proces kan enkele minuten duren, afhankelijk van het aantal tabellen dat in het DDL-bestand is gedefinieerd.
 
-1. Navigate to **[!UICONTROL Schemas]** and open your previously create **loyalty transactions**.
+   ![](assets/admin_schema_4.png)
 
-1. Click **[!UICONTROL Add Relationship]** from the Customer **[!UICONTROL Field properties]**.
+## Koppelingsschema&#39;s {#link-schema}
 
-    ![](assets/schema_1.png)
+Vestig een verband tussen het **schema van de 0} loyaliteitstransacties {en het** Ontvangers **schema om elke transactie met het correcte klantenverslag te associëren.**
 
-1. Select **[!UICONTROL Many-to-One]** as the relationship **[!UICONTROL Type]**.
+1. Navigeer aan **[!UICONTROL Schemas]** en open eerder **loyaliteitstransacties** creëren.
 
-1. Link to the existing **Recipients** schema.
+1. Klik op **[!UICONTROL Add Relationship]** van de klant **[!UICONTROL Field properties]** .
 
-    ![](assets/schema_2.png)
+   ![](assets/schema_1.png)
 
-1. Enter a **[!UICONTROL Relationship name from current schema]** and **[!UICONTROL Relationship name from reference schema]**.
+1. Selecteer **[!UICONTROL Many-to-One]** als de relatie **[!UICONTROL Type]** .
 
-1. Click **[!UICONTROL Apply]** to save your changes.
+1. Verbinding met het bestaande **Ontvangers** schema.
 
-Continue by creating a relationship between the **loyalty rewards** schema and the **Brands** schema to associate each reward entry with the appropriate brand.
+   ![](assets/schema_2.png)
+
+1. Voer een **[!UICONTROL Relationship name from current schema]** en **[!UICONTROL Relationship name from reference schema]** in.
+
+1. Klik op **[!UICONTROL Apply]** om de wijzigingen op te slaan.
+
+Ga door een verband tussen het **loyaliteitbeloningen** schema en het **Merken** schema te creëren om elke beloningsingang met het aangewezen merk te associëren.
 
 ![](assets/schema_3.png)
 
--->
+
 <!--### Setting Up Change data capture ingestion {#cdc-ingestion}
 
 If you need to change the data source, you must delete the existing dataflow and create a new one pointing to the same dataset with the new source.
