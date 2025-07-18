@@ -10,14 +10,15 @@ level: Beginner, Intermediate
 keywords: donkere modus, e-mail, kleur, editor
 hide: true
 hidefromtoc: true
-source-git-commit: 069df6fb67960bc7bdad4a8e0c3fdfa2b82fb8b5
+exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
+source-git-commit: b5d9b9c26824517414982fa539e0b360500cafc6
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1679'
 ht-degree: 0%
 
 ---
 
-# Inhoud donkere modus definiëren {#dark-mode}
+# Inhoud in de donkere modus beheren {#dark-mode}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
@@ -144,13 +145,19 @@ Volg onderstaande stappen om aangepaste instellingen voor de donkere modus te de
 
    <!--![](assets/dark-mode-custom.png)-->
 
-1. Klik op **[!UICONTROL Simulate content]** als alle wijzigingen voor de donkere modus zijn aangebracht.
+1. U kunt op elk gewenst moment **[!UICONTROL Switch to live view]** gebruiken om te controleren hoe uw inhoud op verschillende apparaatgrootten wordt gerenderd. Selecteer in deze weergave de optie Donkere modus boven op het scherm om een voorvertoning weer te geven van de donkere modusversie van de inhoud op de verschillende apparaten.
+
+   ![](assets/dark-mode-live-view.png){width="80%" align="center"}
+
+   >[!CAUTION]
+   >
+   >De live weergave is een algemene voorvertoning die is ontworpen om te vergelijken hoe de rendering er tussen verschillende apparaatgrootten uitziet. De uiteindelijke rendering kan variëren afhankelijk van de e-mailclient van de ontvanger.
+
+1. Als u tevreden bent met de wijzigingen in de donkere modus, klikt u op **[!UICONTROL Simulate content]** .
 
    ![](assets/dark-mode-simulate.png)
 
-1. Selecteer **[!UICONTROL Render email]** en verbind met uw rekening van de NLS. U ziet de uiteindelijke donkere modus voor verschillende e-mailclients.
-
-   ![](assets/dark-mode-email-rendering.png){width="80%"}
+1. Selecteer **[!UICONTROL Render email]** en verbind met uw rekening van de NLS. U ziet de uiteindelijke donkere modus voor verschillende e-mailclients. Leer meer op [ E-mail teruggevend ](../content-management/rendering.md).
 
    >[!WARNING]
    >
