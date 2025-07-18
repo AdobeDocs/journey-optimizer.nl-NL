@@ -11,7 +11,7 @@ keywords: subdomein, delegatie, domein, DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: a1172d331aff538e867428b36ab913b4ae9c8f7e
+source-git-commit: 387e9bce455519a3e4c055e264ce7e47276ec378
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 2%
@@ -118,7 +118,7 @@ Volg onderstaande stappen om een aangepast subdomein in te stellen.
 
    ![](assets/subdomain-custom-feedback-loop.png){width="85%"}
 
-1. Klik op **[!UICONTROL Submit]** om de vereiste controles door Adobe uit te voeren.
+1. Klik op **[!UICONTROL Continue]** om de vereiste controles door Adobe uit te voeren.
 
 ## Controlelijst voor problemen oplossen {#check-list}
 
