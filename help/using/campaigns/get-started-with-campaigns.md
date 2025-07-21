@@ -96,7 +96,7 @@ Controleer de volgende voorwaarden voordat u begint met het maken van uw eerste 
 
    Uw gebruiker moet dan een e-mail ontvangen die aan uw instantie opnieuw richt.
 
-+++
+   +++
 
 1. **u hebt een publiek** nodig. De doelgroepen moeten beschikbaar zijn voordat ze de campagne kunnen opzetten. [ krijgt begonnen met publiek ](../audience/about-audiences.md).
 
