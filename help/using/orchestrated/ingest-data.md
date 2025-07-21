@@ -60,7 +60,7 @@ U kunt een gegevensstroom vormen om gegevens van een bron van Amazon S3 in Adobe
 
    * Met een nieuwe account
 
-   [ leer meer in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [ leer meer in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
