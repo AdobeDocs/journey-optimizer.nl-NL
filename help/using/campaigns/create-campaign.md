@@ -39,4 +39,4 @@ De campagnes van de actie (of Geplande campagnes) staan voor eenvoudige ad hoc p
 
 Leer hoe u een actiecampagne maakt.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3452731?quality=12&captions=dut)
