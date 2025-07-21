@@ -3,9 +3,9 @@ title: Aanvullende identificatiecode bij door gebeurtenissen veroorzaakte reizen
 description: Leer hoe u een aanvullende id kunt gebruiken tijdens een door een gebeurtenis geïnitieerde reis.
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 5e7aad25fa08994f6cbce9adfce4a3dc94fe3e47
+source-git-commit: 14a0054c605edd8ff0b63e71fb5c30104ff513ed
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ In dit voorbeeld hebben we een reserverings-id toegevoegd als een aanvullende id
 Hierdoor worden door de gebeurtenis geïnitieerde reizen uitgevoerd in de context van de profiel-id die aan de aanvullende id is gekoppeld (hier de boekings-id). Voor elke herhaling van de aanvullende identificator wordt één exemplaar van de reis uitgevoerd. Hierdoor zijn meerdere ingangen van dezelfde profiel-id mogelijk op reizen als ze verschillende boekingen hebben gemaakt.
 
 Bovendien staat Journey Optimizer u toe om attributen van het supplementaire herkenningsteken (b.v. boekingsaantal, receptvernieuwingsdatum, producttype) voor berichtaanpassing te hefboomwerking, die hoogst relevante mededelingen verzekeren. <!--Example: A healthcare provider can send renewal reminders for each prescription in a patient's profile.-->
+
+➡️ [Ontdek deze functie in video](#video)
 
 ## Afbeeldingen en beperkingen {#guardrails}
 
@@ -188,3 +190,9 @@ Voer de volgende stappen uit als u een aanvullende id wilt gebruiken voor een ri
    * Profiel: &quot;Alex&quot;.
    * Aanvullende id&#39;s: `"productID1234", "productID5678"`.
    * De reis voert afzonderlijk voor elk product uit, met gepersonaliseerde upsellingsmogelijkheden.
+
+## Hoe kan ik-video {#video}
+
+Leer hoe u een aanvullende id in [!DNL Adobe Journey Optimizer] kunt inschakelen en toepassen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
