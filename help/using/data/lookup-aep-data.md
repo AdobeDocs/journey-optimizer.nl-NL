@@ -10,14 +10,19 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, editor
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 416f82a932f0b484d8463ff24090a7061461822f
+source-git-commit: bd1274a5547f4ea835fc258f280c1efc667b6780
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
 
 # Adobe Experience Platform-gegevens gebruiken {#aep-data}
+
+>[!CONTEXTUALHELP]
+>id="lookup-aep-data"
+>title="Opzoeken inschakelen"
+>abstract="Opzoeken inschakelen"
 
 >[!AVAILABILITY]
 >
