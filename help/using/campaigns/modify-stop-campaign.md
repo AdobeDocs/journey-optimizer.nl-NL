@@ -1,26 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Een campagne wijzigen of stoppen
-description: Leer hoe u live campagnes in Journey Optimizer kunt wijzigen, stoppen of dupliceren
+title: Campagnes openen en beheren
+description: Leer hoe u uw campagnes in Journey Optimizer kunt openen en beheren.
 feature: Campaigns
 topic: Content Management
 role: User
 level: Beginner
 keywords: campagnes, status, planning, toegang, optimaliseren beheren
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
+source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
 
-# Campagnes beheren {#modify-stop-campaign}
-
-Nadat een campagne is geactiveerd, kunt u deze op elk gewenst moment wijzigen of stoppen. Deze bewerkingen zijn alleen beschikbaar voor campagnes met een terugkerende uitvoering.
-
-Daarnaast kunt u live campagnes (die één keer of met een terugkerende uitvoering worden uitgevoerd) dupliceren om nieuwe campagnes te maken en voltooide of gestopt campagnes archiveren.
+# Campagnes openen en beheren {#modify-stop-campaign}
 
 ## Campagnes openen {#access}
 
@@ -31,11 +27,27 @@ Daarnaast kunt u live campagnes (die één keer of met een terugkerende uitvoeri
 
 Campagnes zijn toegankelijk via het menu **[!UICONTROL Campaigns]** .
 
+>[!BEGINTABS]
+
+>[!TAB  campagnes van de Actie ]
+
+Selecteer het tabblad **[!UICONTROL Action]** voor toegang tot de lijst met actiecampagnes.
+
 Standaard worden in de lijst alle campagnes met de statussen **[!UICONTROL Draft]** , **[!UICONTROL Scheduled]** en **[!UICONTROL Live]** weergegeven. Om gestopt, voltooide, en gearchiveerde campagnes te tonen, moet u de filter ontruimen.
 
 ![](assets/create-campaign-list.png)
 
-U kunt de lijst ook filteren op basis van het type en het kanaal van de campagne of de tags die aan de campagnes zijn toegewezen tijdens het maken van de campagnes. [ Leer hoe te om markeringen aan een campagne toe te wijzen ](create-campaign.md#create)
+>[!TAB  API teweeggebrachte campagnes ]
+
+Selecteer het tabblad **[!UICONTROL API triggered]** voor toegang tot de lijst met API-geactiveerde campagnes.
+
+Standaard worden in de lijst alle campagnes met de statussen **[!UICONTROL Draft]** , **[!UICONTROL Scheduled]** en **[!UICONTROL Live]** weergegeven. Om gestopt, voltooide, en gearchiveerde campagnes te tonen, moet u de filter ontruimen.
+
+![](assets/api-triggered-list.png)
+
+>[!ENDTABS]
+
+U kunt de lijst ook filteren op basis van het type en het kanaal van de campagne of de tags die aan de campagnes zijn toegewezen tijdens het maken van de campagnes.
 
 ## Campagne-kalender {#calendar}
 
@@ -70,12 +82,12 @@ Als u details voor een specifieke campagne wilt weergeven, selecteert u deze in 
 Campagnes kunnen meerdere statussen hebben:
 
 * **[!UICONTROL Draft]**: De campagne wordt bewerkt en is niet geactiveerd.
-* **[!UICONTROL Activating]**: De campagne wordt geactiveerd.
-* **[!UICONTROL Processing]** *(e-mailcampagnes slechts)*: De publieksuitvoer is volledig, wordt de campagne gepubliceerd.
-* **[!UICONTROL Live]**: De campagne is geactiveerd.
 * **[!UICONTROL Scheduled]**: De campagne is geconfigureerd om te worden geactiveerd op een specifieke startdatum.
+* **[!UICONTROL Live]**: De campagne is geactiveerd.
+* **[!UICONTROL In review]**: De campagne is ter goedkeuring voorgelegd om te worden gepubliceerd. [ leer hoe te met goedkeuringen ](../test-approve/gs-approval.md) werken
 * **[!UICONTROL Stopped]**: de campagne is handmatig gestopt. U kunt het niet meer activeren of opnieuw gebruiken. [ Leer hoe te om een campagne ](modify-stop-campaign.md#stop) tegen te houden
 * **[!UICONTROL Completed]**: de campagne is voltooid. Deze status wordt automatisch toegewezen 3 dagen nadat een campagne is geactiveerd, of op de einddatum van de campagne als de campagne een terugkerende uitvoering heeft.
+* **[!UICONTROL Failed]**: De uitvoering van de campagne is mislukt. Controleer de logboeken om de kwestie te identificeren.
 * **[!UICONTROL Archived]**: De campagne is gearchiveerd. [ Leer hoe te om campagnes te archiveren ](modify-stop-campaign.md#archive)
 
 >[!NOTE]
@@ -86,11 +98,13 @@ Als er een fout optreedt in een van uw campagnes, verschijnt er een waarschuwing
 
 ![](assets/campaign-alerts.png)
 
-## Een terugkerende campagne wijzigen {#modify}
+## Herhaalde handelingscampagnes wijzigen en stoppen {#modify}
 
-Voer de volgende stappen uit om een terugkerende campagne te wijzigen en een nieuwe versie ervan te maken:
+### Een handelingscampagne wijzigen
 
-1. Open de campagne en klik op de knop **[!UICONTROL Modify campaign]** .
+Ga als volgt te werk om een terugkerende actiecampagne te wijzigen en een nieuwe versie te maken:
+
+1. Open de actiecampagne en klik op de knop **[!UICONTROL Modify campaign]** .
 
 1. Er wordt een nieuwe versie van de campagne gemaakt. U kunt de live versie controleren door op **[!UICONTROL Open live version]** te klikken.
 
@@ -106,7 +120,7 @@ Voer de volgende stappen uit om een terugkerende campagne te wijzigen en een nie
    >
    >Als u het concept activeert, wordt de live versie van de campagne vervangen.
 
-## Een terugkerende campagne stoppen {#stop}
+### Een actiecampagne stoppen {#stop}
 
 Als u een terugkerende campagne wilt stoppen, opent u deze en klikt u op de knop **[!UICONTROL Stop campaign]** .
 
@@ -116,11 +130,9 @@ Als u een terugkerende campagne wilt stoppen, opent u deze en klikt u op de knop
 >
 >Als een campagne wordt gestopt, wordt het verzenden niet gestopt, maar wordt een geplande verzending gestopt of de volgende keren als het verzenden al bezig is.
 
-<!-- inbound campaign (inapp): can stop and resume -->
-
 ## Een campagne dupliceren {#duplicate}
 
-U kunt een live campagne dupliceren om een nieuwe te maken. U doet dit door de campagne te openen en vervolgens op **[!UICONTROL Duplicate]** te klikken.
+U kunt een campagne dupliceren om een nieuwe te maken. U doet dit door de campagne te openen en vervolgens op **[!UICONTROL Duplicate]** te klikken.
 
 ![](assets/create-campaign-duplicate.png)
 
@@ -132,4 +144,4 @@ Om dit te voorkomen, kunt u voltooide en gestopt campagnes archiveren die u niet
 
 ![](assets/create-campaign-archive.png)
 
-Gearchiveerde campagnes kunnen vervolgens worden opgehaald met het speciale filter in de lijst. [ Leer hoe te om tot campagnes toegang te hebben ](get-started-with-campaigns.md#access)
+Gearchiveerde campagnes kunnen vervolgens worden opgehaald met het speciale filter in de lijst.

@@ -5,10 +5,10 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 069df6fb67960bc7bdad4a8e0c3fdfa2b82fb8b5
+source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
 workflow-type: tm+mt
-source-wordcount: '2526'
-ht-degree: 20%
+source-wordcount: '2581'
+ht-degree: 19%
 
 ---
 
@@ -218,10 +218,24 @@ ht-degree: 20%
       + [Wachten](using/orchestrated/activities/wait.md)
 + Campagnes {#campaigns}
    + [Aan de slag met campagnes](using/campaigns/get-started-with-campaigns.md)
-   + [Een campagne maken](using/campaigns/create-campaign.md)
-   + [Een campagne bekijken en activeren](using/campaigns/review-activate-campaign.md)
-   + [Campagnes beheren](using/campaigns/modify-stop-campaign.md)
-   + [Campagnes activeren met API&#39;s](using/campaigns/api-triggered-campaigns.md)
+   + [Campagnes openen en beheren](using/campaigns/modify-stop-campaign.md)
+   + Actiecampagnes {#action-campaigns}
+      + [Werken met actiecampagnes](using/campaigns/create-campaign.md)
+      + [De eigenschappen van de campagne definiëren](using/campaigns/campaign-properties.md)
+      + [Campagne configureren](using/campaigns/campaign-action.md)
+      + [De inhoud van de campagne bewerken](using/campaigns/campaign-content.md)
+      + [Het campagnepubliek definiëren](using/campaigns/campaign-audience.md)
+      + [De campagne plannen](using/campaigns/campaign-schedule.md)
+      + [Een handelingscampagne bekijken en activeren](using/campaigns/review-activate-campaign.md)
+   + API-actiecampagnes {#api-triggered-campaigns}
+      + [Werken met door API geactiveerde campagnes](using/campaigns/api-triggered-campaigns.md)
+      + [De eigenschappen van de campagne definiëren](using/campaigns/api-triggered-campaign-properties.md)
+      + [Campagne configureren](using/campaigns/api-triggered-campaign-action.md)
+      + [De inhoud van de campagne bewerken](using/campaigns/api-triggered-campaign-content.md)
+      + [Het campagnepubliek definiëren](using/campaigns/api-triggered-campaign-audience.md)
+      + [De campagne plannen](using/campaigns/api-triggered-campaign-schedule.md)
+      + [De campagne bekijken en activeren](using/campaigns/review-activate-api-triggered-campaign.md)
+      + [De uitvoering van de campagne activeren](using/campaigns/trigger-campaigns.md)
 + Conflictbeheer en prioritering {#conflict-prioritization}
    + [Aan de slag met conflictbeheer en -prioriteiten](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Mogelijke conflicten identificeren](using/conflict-prioritization/conflicts.md)
@@ -367,7 +381,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
 + Inhoudsbeheer {#content-management}
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [Adobe Experience Platform-gegevens gebruiken voor personalisatie (Beta)](using/personalization/aep-data-perso.md)
@@ -732,7 +746,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
