@@ -92,11 +92,11 @@ Controleer de volgende voorwaarden voordat u begint met het maken van uw eerste 
 
    1. Typ de naam of het e-mailadres van de gebruiker of selecteer de gebruiker in de lijst en klik op **[!UICONTROL Save]** .
 
-      Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/users) toevoegen.
+      Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users) toevoegen.
 
    Uw gebruiker moet dan een e-mail ontvangen die aan uw instantie opnieuw richt.
 
-   +++
++++
 
 1. **u hebt een publiek** nodig. De doelgroepen moeten beschikbaar zijn voordat ze de campagne kunnen opzetten. [ krijgt begonnen met publiek ](../audience/about-audiences.md).
 
