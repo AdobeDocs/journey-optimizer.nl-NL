@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: cf29013bd7578f6b04543d04e85c714ce7728f36
+source-git-commit: a600af73bd85d525bc1320d0aa6193660331e452
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1179'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Voor om het even welke veranderlijke kopbalwaarden, vraag/wegparameters of verzo
 
 Parameternamen:
 
-* Parameters koptekst: &#39;header&#39;.&lt;parameter-name>
+* Parameters koptekst: `header.<parameter-name>`
 * Query-parameters: `query.<parameter-name>`
 * Payload-parameters: `payload.<parameter-name>`
 * Padparameters: `dynamic_path.<parameter-name>`
