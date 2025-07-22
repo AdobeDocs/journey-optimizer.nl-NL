@@ -95,7 +95,7 @@ Voor om het even welke veranderlijke kopbalwaarden, vraag/wegparameters of verzo
 
 Parameternamen:
 
-* Parameters koptekst: &#39;header&#39;.<parameter-name>
+* Parameters koptekst: &#39;header&#39;.&lt;parameter-name>
 * Query-parameters: `query.<parameter-name>`
 * Payload-parameters: `payload.<parameter-name>`
 * Padparameters: `dynamic_path.<parameter-name>`
