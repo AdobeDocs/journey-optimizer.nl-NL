@@ -95,10 +95,10 @@ Voor om het even welke veranderlijke kopbalwaarden, vraag/wegparameters of verzo
 
 Parameternamen:
 
-* Parameters koptekst: koptekst.<parameter-name>
-* Query-parameters: query.<parameter-name>
-* Payload-parameters: payload.<parameter-name>
-* Padparameters: dynamic_path.<parameter-name>
+* Parameters koptekst: koptekst.&lt;parameter-name>
+* Query-parameters: query.&lt;parameter-name>
+* Payload-parameters: payload.&lt;parameter-name>
+* Padparameters: dynamic_path.&lt;parameter-name>
 
 Bijvoorbeeld:
 

@@ -140,7 +140,7 @@ Als u time-outs of fouten beter wilt afhandelen door fallback-inhoud weer te gev
 
 U kunt bijvoorbeeld een fallback-waarde weergeven voor één kenmerk zoals:
 
-Eerste videobeschrijving: {%=result.videos [ 0 ].description ?: &quot;niets vond&quot; %)
+Eerste videobeschrijving: &lbrace;%=result.videos [ 0 ].description ?: &quot;niets vond&quot; %)
 
 
 Of u kunt voorwaardelijk een volledig blok van inhoud als dit teruggeven:
@@ -197,10 +197,10 @@ Voor om het even welke veranderlijke kopbalwaarden, vraag/wegparameters of verzo
 
 Parameternamen:
 
-Parameters koptekst: koptekst.<parameter-name>
-Query-parameters: query.<parameter-name>
-Payload-parameters: payload.<parameter-name>
-Padparameters: dynamic_path.<parameter-name>
+Parameters koptekst: koptekst.&lt;parameter-name>
+Query-parameters: query.&lt;parameter-name>
+Payload-parameters: payload.&lt;parameter-name>
+Padparameters: dynamic_path.&lt;parameter-name>
 Bijvoorbeeld:
 
 {{externalDataLookup actionId="..." result="result" header.myHeaderParameter="value1" query.myQueryParameter="value2" payload.myPayloadParameter="value3"}}
