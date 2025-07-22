@@ -5,7 +5,7 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+source-git-commit: b731dfbf00557b96585dc4133f246bfb101bee98
 workflow-type: tm+mt
 source-wordcount: '2581'
 ht-degree: 19%
@@ -180,42 +180,6 @@ ht-degree: 19%
       + [Los reisuitvoering problemen op](using/building-journeys/troubleshooting-execution.md)
       + [Binnenkomende acties oplossen](using/building-journeys/troubleshooting-inbound.md)
       + [Aangepaste acties oplossen](using/action/troubleshoot-custom-action.md)
-+ Geordende campagnes {#orchestrated-campaigns}
-   + [Aan de slag met georkestreerde campagnes](using/orchestrated/gs-orchestrated-campaigns.md)
-   + Relationele schema&#39;s en gegevens beheren {#schemas-datasets}
-      + [Begin met schema&#39;s en datasets](using/orchestrated/gs-schemas.md)
-      + [Handmatig schema](using/orchestrated/manual-schema.md)
-      + [Schema voor uploaden bestand](using/orchestrated/file-upload-schema.md)
-      + [Samenvattingsgegevens](using/orchestrated/ingest-data.md)
-   + [Georkestreerde campagnes openen en beheren](using/orchestrated/access-manage-orchestrated-campaigns.md)
-   + [Afvoerkanalen en beperkingen](using/orchestrated/guardrails.md)
-   + Start uw eerste georkestreerde campagne{#launch}
-      + [Belangrijke stappen om een georkestreerde campagne te maken](using/orchestrated/gs-campaign-creation.md)
-      + [De campagne maken en plannen](using/orchestrated/create-orchestrated-campaign.md)
-      + [Orchestraten](using/orchestrated/orchestrate-activities.md)
-      + [De campagne starten en controleren](using/orchestrated/start-monitor-campaigns.md)
-      + [ Meldend ](using/orchestrated/reporting-campaigns.md)
-   + De database opvragen {#query-database}
-      + [ Werk met de regelbouwer ](using/orchestrated/orchestrated-rule-builder.md)
-      + [ bouwt uw eerste regel ](using/orchestrated/build-query.md)
-      + [Expressies bewerken](using/orchestrated/edit-expressions.md)
-      + [ opnieuw rangschikkend ](using/orchestrated/retarget.md)
-   + Gecontroleerde campagnes {#design-campaigns}
-      + [Aan de slag met activiteiten](using/orchestrated/activities/about-activities.md)
-      + [En-join](using/orchestrated/activities/and-join.md)
-      + [publiek opbouwen](using/orchestrated/activities/build-audience.md)
-      + [Dimensie wijzigen](using/orchestrated/activities/change-dimension.md)
-      + [Kanaalactiviteiten](using/orchestrated/activities/channels.md)
-      + [Combineren](using/orchestrated/activities/combine.md)
-      + [Deduplicatie](using/orchestrated/activities/deduplication.md)
-      + [Verrijking](using/orchestrated/activities/enrichment.md)
-      + [Vertakking](using/orchestrated/activities/fork.md)
-      + [Doelgroep lezen](using/orchestrated/activities/read-audience.md)
-      + [Afstemming](using/orchestrated/activities/reconciliation.md)
-      + [Doelgroep opslaan](using/orchestrated/activities/save-audience.md)
-      + [Splitsen](using/orchestrated/activities/split.md)
-      + [Testen](using/orchestrated/activities/test.md)
-      + [Wachten](using/orchestrated/activities/wait.md)
 + Campagnes {#campaigns}
    + [Aan de slag met campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Campagnes openen en beheren](using/campaigns/modify-stop-campaign.md)
@@ -236,6 +200,42 @@ ht-degree: 19%
       + [De campagne plannen](using/campaigns/api-triggered-campaign-schedule.md)
       + [De campagne bekijken en activeren](using/campaigns/review-activate-api-triggered-campaign.md)
       + [De uitvoering van de campagne activeren](using/campaigns/trigger-campaigns.md)
+   + Geordende campagnes {#orchestrated-campaigns}
+      + [Aan de slag met georkestreerde campagnes](using/orchestrated/gs-orchestrated-campaigns.md)
+      + Relationele schema&#39;s en gegevens beheren {#schemas-datasets}
+         + [Begin met schema&#39;s en datasets](using/orchestrated/gs-schemas.md)
+         + [Handmatig schema](using/orchestrated/manual-schema.md)
+         + [Schema voor uploaden bestand](using/orchestrated/file-upload-schema.md)
+         + [Samenvattingsgegevens](using/orchestrated/ingest-data.md)
+      + [Georkestreerde campagnes openen en beheren](using/orchestrated/access-manage-orchestrated-campaigns.md)
+      + [Afvoerkanalen en beperkingen](using/orchestrated/guardrails.md)
+      + Start uw eerste georkestreerde campagne{#launch}
+         + [Belangrijke stappen om een georkestreerde campagne te maken](using/orchestrated/gs-campaign-creation.md)
+         + [De campagne maken en plannen](using/orchestrated/create-orchestrated-campaign.md)
+         + [Orchestraten](using/orchestrated/orchestrate-activities.md)
+         + [De campagne starten en controleren](using/orchestrated/start-monitor-campaigns.md)
+         + [ Meldend ](using/orchestrated/reporting-campaigns.md)
+      + De database opvragen {#query-database}
+         + [ Werk met de regelbouwer ](using/orchestrated/orchestrated-rule-builder.md)
+         + [ bouwt uw eerste regel ](using/orchestrated/build-query.md)
+         + [Expressies bewerken](using/orchestrated/edit-expressions.md)
+         + [ opnieuw rangschikkend ](using/orchestrated/retarget.md)
+      + Gecontroleerde campagnes {#design-campaigns}
+         + [Aan de slag met activiteiten](using/orchestrated/activities/about-activities.md)
+         + [En-join](using/orchestrated/activities/and-join.md)
+         + [publiek opbouwen](using/orchestrated/activities/build-audience.md)
+         + [Dimensie wijzigen](using/orchestrated/activities/change-dimension.md)
+         + [Kanaalactiviteiten](using/orchestrated/activities/channels.md)
+         + [Combineren](using/orchestrated/activities/combine.md)
+         + [Deduplicatie](using/orchestrated/activities/deduplication.md)
+         + [Verrijking](using/orchestrated/activities/enrichment.md)
+         + [Vertakking](using/orchestrated/activities/fork.md)
+         + [Doelgroep lezen](using/orchestrated/activities/read-audience.md)
+         + [Afstemming](using/orchestrated/activities/reconciliation.md)
+         + [Doelgroep opslaan](using/orchestrated/activities/save-audience.md)
+         + [Splitsen](using/orchestrated/activities/split.md)
+         + [Testen](using/orchestrated/activities/test.md)
+         + [Wachten](using/orchestrated/activities/wait.md)
 + Conflictbeheer en prioritering {#conflict-prioritization}
    + [Aan de slag met conflictbeheer en -prioriteiten](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Mogelijke conflicten identificeren](using/conflict-prioritization/conflicts.md)
@@ -381,7 +381,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
 + Inhoudsbeheer {#content-management}
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [Adobe Experience Platform-gegevens gebruiken voor personalisatie (Beta)](using/personalization/aep-data-perso.md)
@@ -746,7 +746,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
