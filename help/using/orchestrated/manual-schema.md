@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
+source-git-commit: 6447f5d1a060037c0ceaa374db20966097585f9c
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 | Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
 |---|---|---|---|
-| [ wordt begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)<br/><br/> creeer en beheer relationele Schema&#39;s en Datasets:</br><ul><li>[ worden begonnen met Schema&#39;s en Datasets ](gs-schemas.md)</li><li>[ Handmatig schema ](manual-schema.md)</li><li>[ het uploadschema van het Dossier ](file-upload-schema.md)</li><li>[ Ingest gegevens ](ingest-data.md)</li></ul>[ toegang en beheer georkestreerde campagnes ](access-manage-orchestrated-campaigns.md)<br/><br/>[ Zeer belangrijke stappen om een georkestreerde campagne ](gs-campaign-creation.md) tot stand te brengen | [ creeer en programma de campagne ](create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](orchestrate-activities.md)<br/><br/>[ Begin en controleer de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](edit-expressions.md)<br/><br/>[ opnieuw op ](retarget.md) | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ de activiteiten van het Kanaal ](activities/channels.md) - [ combineren ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) Formeel k [ - ](activities/fork.md) Verzoening [ - ](activities/reconciliation.md) sparen publiek [ - ](activities/save-audience.md) Gesplitst [ - ](activities/split.md) wacht [&#128279;](activities/wait.md) |
+| [ wordt begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)<br/><br/> creeer en beheer relationele Schema&#39;s en Datasets:</br><ul><li>[ worden begonnen met Schema&#39;s en Datasets ](gs-schemas.md)</li><li>[ Handmatig schema ](manual-schema.md)</li><li>[ het uploadschema van het Dossier ](file-upload-schema.md)</li><li>[ Ingest gegevens ](ingest-data.md)</li></ul>[ toegang en beheer georkestreerde campagnes ](access-manage-orchestrated-campaigns.md)<br/><br/>[ Zeer belangrijke stappen om een georkestreerde campagne ](gs-campaign-creation.md) tot stand te brengen | [ creeer en programma de campagne ](create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](orchestrate-activities.md)<br/><br/>[ Begin en controleer de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](edit-expressions.md)<br/><br/>[ opnieuw op ](retarget.md) | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ de activiteiten van het Kanaal ](activities/channels.md) - [ combineren ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) Formeel k [ - ](activities/fork.md) Verzoening [ - ](activities/reconciliation.md) sparen publiek [ - ](activities/save-audience.md) Gesplitst [ - ](activities/split.md) wacht [](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -80,6 +80,21 @@ U kunt nu kenmerken aan uw schema toevoegen om de structuur ervan te definiëren
 
 Voeg vervolgens kenmerken toe om de structuur van het schema te definiëren. Deze gebieden vertegenwoordigen de belangrijkste gegevenspunten die in geordende campagnes, zoals klantenherkenningstekens, lidmaatschapsdetails, en activiteitendata worden gebruikt. Het bepalen van hen verzekert nauwkeurig betrouwbare verpersoonlijking, segmentatie, en het volgen.
 
+Schema&#39;s die worden gebruikt voor activering, moeten ten minste één identiteitsveld van het type `String` met een bijbehorende naamruimte bevatten. Dit zorgt voor compatibiliteit met de Adobe Journey Optimizer-functionaliteit voor het maken van doelen en het oplossen van identiteiten.
+
++++De volgende functies worden ondersteund bij het maken van relationele schema&#39;s in Adobe Experience Platform
+
+* **ENUM**\
+  De gebieden van ENUM worden gesteund in zowel op DDL-Gebaseerde als handschemaverwezenlijking, die u toestaan om attributen met een vaste reeks toegestane waarden te bepalen.
+
+* **Etiket van het Schema voor het Beleid van Gegevens**\
+  De etikettering wordt gesteund op het niveau van het schemagebied om gegevens te handhaven governance beleid zoals toegangsbeheer en gebruiksbeperkingen. Voor meer details, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl).
+
+* **Samengestelde Sleutel**\
+  Samengestelde primaire sleutels worden in relationele schemadefinities gesteund, toelatend het gebruik van veelvoudige gebieden samen om verslagen uniek te identificeren.
+
++++
+
 1. In het canvas, klik ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) naast uw **naam van het Schema** beginnen attributen toe te voegen.
 
    ![](assets/schema_manual_1.png){zoomable="yes"}
@@ -105,7 +120,11 @@ Voeg vervolgens kenmerken toe om de structuur van het schema te definiëren. Dez
 
 1. Wijs de desbetreffende velden toe als de **[!UICONTROL Primary Key]** en **[!UICONTROL Version Descriptor]** .
 
-   **[!UICONTROL Primary Key]** zorgt ervoor dat elke record op unieke wijze wordt geïdentificeerd, terwijl **[!UICONTROL Version Descriptor]** updates vastlegt in de loop van de tijd, waardoor de functie Gegevens vastleggen wijzigen wordt ingeschakeld en gegevensmirroring wordt ondersteund.
+   Zorg ervoor dat de volgende essentiële velden zijn opgenomen wanneer u een handmatig schema maakt:
+
+   * Ten minste één primaire sleutel
+   * Een versie-id, zoals een `lastmodified` veld van het type `datetime` of `number` .
+   * Voor CDC-opname (Change Data Capture) gebruikt u een speciale kolom met de naam `_change_request_type` van het type `String` , die het type gegevenswijziging aangeeft (bijvoorbeeld invoegen, bijwerken, verwijderen) en incrementele verwerking mogelijk maakt.
 
    ![](assets/schema_manual_2.png){zoomable="yes"}
 
@@ -149,11 +168,19 @@ Na het bepalen van uw schema, moet de volgende stap een dataset tot stand brenge
 
 1. Voer een **[!UICONTROL Name]** voor uw **[!UICONTROL Dataset]** in en klik op **[!UICONTROL Finish]** .
 
-1. Laat de **Geordende 1&rbrace; optie van Campagnes &lbrace;toe om de dataset beschikbaar voor gebruik in uw campagnes van AJO te maken.**
+U moet nu uw Dataset voor Orchestrate Campaigns toelaten.
 
-   De activering kan een paar minuten duren. Gegevensinvoer is alleen mogelijk nadat de optie volledig is geactiveerd.
+## Dataset inschakelen voor geordende campagnes {#enable}
+
+Na het creëren van uw dataset, moet u het voor Geordende Campagnes uitdrukkelijk toelaten. Deze stap zorgt ervoor dat uw dataset beschikbaar is voor organisatie en verpersoonlijking in real time binnen Adobe Journey Optimizer.
+
+1. Zoek de gegevensset in de lijst **[!UICONTROL Datasets]** .
+
+1. Van de **[!UICONTROL Datasets]** montages, laat de **Geordende 2} optie van Campagnes {toe om de dataset beschikbaar voor gebruik in uw Geordende Campagnes te maken.**
 
    ![](assets/schema_manual_7.png){zoomable="yes"}
+
+1. Wacht een paar minuten tot het activeringsproces is voltooid. De gegevensinvoer en het campagnegebruik zijn alleen mogelijk als deze instelling volledig is geactiveerd.
 
 U kunt nu gegevens in uw schema beginnen op te nemen gebruikend de bron van uw keus.
 
