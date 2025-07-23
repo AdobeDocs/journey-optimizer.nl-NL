@@ -9,14 +9,14 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-badge: label="Beta" type="Informative"
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: f57a89e249c41e76f9ebf1a77dfe383129ae9250
+source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '737'
 ht-degree: 2%
 
 ---
+
 
 # Een whatsApp-bericht maken {#create-whatsapp}
 
@@ -65,7 +65,7 @@ Blader hieronder naar de tabbladen om te leren hoe u een WhatsApp-bericht kunt t
 
 >[!BEGINTABS]
 
->[!TAB voeg een bericht WhatsApp aan een Reis  toe]
+>[!TAB  voeg een bericht WhatsApp aan een Reis ] toe
 
 1. Open uw reis dan belemmering en laat vallen a **WhatsApp activiteit** van de **sectie van Acties** van het palet.
 
@@ -91,7 +91,7 @@ U kunt nu de inhoud van uw WhatsApp-bericht ontwerpen vanaf de knop **[!UICONTRO
 
 1. Kies in het veld **[!UICONTROL Identity namespace]** de naamruimte die u wilt gebruiken om de personen van het geselecteerde publiek te identificeren. [Meer informatie](../event/about-creating.md#select-the-namespace).
 
-1. Kies **[!UICONTROL WhatsApp]** in de sectie **[!UICONTROL Actions]** en selecteer of maak een nieuwe configuratie.
+1. Kies **[!UICONTROL Actions]** in de sectie **[!UICONTROL WhatsApp]** en selecteer of maak een nieuwe configuratie.
 
    Leer meer over configuratie WhatsApp op [ deze pagina ](whatsapp-configuration.md).
 
@@ -154,8 +154,7 @@ Merk op dat uw WhatsApp malplaatje eerst door Meta moet worden goedgekeurd alvor
 
 1. Gebruik de knop **[!UICONTROL Simulate content]** om een voorvertoning weer te geven van uw WhatsApp-berichtinhoud, verkorte URL&#39;s en gepersonaliseerde inhoud. [Meer informatie](send-whatsapp.md)
 
-Nadat u de tests hebt uitgevoerd en de inhoud hebt gevalideerd, kunt u uw WhatsApp-bericht naar uw publiek sturen. Deze stappen zijn gedetailleerd op [ deze pagina ](send-whatsapp.md)
-
+Zodra u uw tests hebt uitgevoerd en de inhoud bevestigd, kunt u [ uw bericht verzenden WhatsApp ](send-whatsapp.md) aan uw publiek en zijn prestaties door [ het melden ](../reports/campaign-global-report-cja.md) controleren.
 
 <!--
 * **[!UICONTROL Template message]**: Predefined message imported from Meta into Journey Optimizer. These are intended for sending notifications, alerts, or updates to your customers.

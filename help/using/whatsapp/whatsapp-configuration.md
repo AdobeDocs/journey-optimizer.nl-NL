@@ -8,12 +8,11 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-badge: label="Beta" type="Informative"
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 2%
+source-wordcount: '582'
+ht-degree: 1%
 
 ---
 
@@ -34,6 +33,8 @@ Voordat u het WhatsApp-bericht verzendt, moet u uw Adobe Journey Optimizer-omgev
 
 1. [Uw WhatsApp API-referenties maken](#WhatsApp-credentials)
 1. [De whatsApp-configuratie maken](#WhatsApp-configuration)
+1. [Maak uw whatsApp-webhooks](#WhatsApp-webhook)
+
 
 Deze stappen moeten door een Beheerder van het Systeem van Adobe Journey Optimizer [ worden uitgevoerd ](../start/path/administrator.md).
 
@@ -54,7 +55,7 @@ Deze stappen moeten door een Beheerder van het Systeem van Adobe Journey Optimiz
 
    ![](assets/whatsapp-api-2.png)
 
-1. Selecteer het **aantal van de Telefoon** wordt gebruikt om uw Whatsapp berichten te verzenden die.
+1. Selecteer de **naam van de Afzender** wordt gebruikt om uw Whatsapp berichten te verzenden die.
 
 1. De instellingen voor het telefoonnummer worden automatisch ingevuld:
 
@@ -104,5 +105,47 @@ Nadat u de API-referentie hebt gemaakt en geconfigureerd, moet u nu een kanaalco
    >Als de controles niet succesvol zijn, leer meer over de mogelijke mislukkingsredenen in [ deze sectie ](../configuration/channel-surfaces.md).
 
 1. Wanneer de controles succesvol zijn, krijgt de kanaalconfiguratie de **[!UICONTROL Active]** status. Het is klaar om te worden gebruikt om berichten te leveren.
+
+## Webhaak maken {#WhatsApp-webhook}
+
+>[!NOTE]
+>
+>Zonder opgegeven opt-in- of opt-out-trefwoorden zijn standaardtoestemmingsberichten niet ingeschakeld.
+
+Zodra uw whatsApp API geloofsbrieven met succes zijn gecreeerd, moet de volgende stap een webhaak tot stand brengen en uw binnenkomende montages vormen.
+
+1. Navigeer in de linkertrack naar **[!UICONTROL Administration]** `>` **[!UICONTROL Channels]** , selecteer het menu **[!UICONTROL WhatsApp Webhooks]** onder **[!UICONTROL WhatsApp settings]** en klik op de knop **[!UICONTROL Create Webhook]** .
+
+   ![](assets/sms_byo_5.png)
+
+1. Voer een [!UICONTROL Name] in voor uw webhaak.
+
+1. Van drop-down, selecteer de [ Configuratie ](#whatsapp-configuration) u eerder creeerde.
+
+1. Klik ![ toevoegen ](assets/do-not-localize/Smock_AddCircle_18_N.svg) beginnen vormend **[!UICONTROL Inbound keyword category]** zoals:
+
+   * **[!UICONTROL Opt-in Keywords]**
+   * **[!UICONTROL Opt-out Keywords]**
+   * **[!UICONTROL Help Keywords]**
+
+1. Voer uw **[!UICONTROL Keyword]** in.
+
+   Om veelvoudige sleutelwoorden toe te voegen, voegt de klik ![ ](assets/do-not-localize/Smock_AddCircle_18_N.svg) toe.
+
+1. Geef op welke **[!UICONTROL Reply Message]** moet worden verzonden wanneer een geconfigureerd trefwoord wordt ontvangen.
+
+<!--
+1. Click **[!UICONTROL View payload editor]** to validate and customize your request payloads. 
+    
+    You can dynamically personalize your payload using profile attributes, and ensure accurate data is sent for processing and response generation with the help of built-in helper functions.
+-->
+
+1. Klik **[!UICONTROL Submit]** wanneer u de configuratie van uw WhatsApp Webhaak beëindigde.
+
+1. In het **[!UICONTROL Webhooks]** menu, klik het ![ bakpictogram ](assets/do-not-localize/Smock_Delete_18_N.svg) om uw WebHaak te schrappen WhatsApp.
+
+1. Als u de bestaande configuratie wilt wijzigen, zoekt u de gewenste Webhaak en klikt u op de optie **[!UICONTROL Edit]** om de gewenste wijzigingen aan te brengen.
+
+Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zoals bericht creatie, verpersoonlijking, verbinding het volgen, en rapportering.
 
 U kunt nu WhatsApp-berichten verzenden met Journey Optimizer.
