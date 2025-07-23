@@ -3,9 +3,9 @@ title: Aanvullende identificatiecode bij door gebeurtenissen veroorzaakte reizen
 description: Leer hoe u een aanvullende id kunt gebruiken tijdens een door een gebeurtenis geïnitieerde reis.
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 14a0054c605edd8ff0b63e71fb5c30104ff513ed
+source-git-commit: 664f38b4ff56ce871599400f898e23a8d04f7816
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '963'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,10 @@ Bovendien staat Journey Optimizer u toe om attributen van het supplementaire her
 
    * Als de reis niet-deelnemer is, kan dezelfde profiel-ID + combinatie van aanvullende id de reis niet opnieuw binnenkomen.
    * Als de reis met een tijdvenster is gecentreerd, kan de zelfde profiel ID + supplementaire combinatie van identiteitskaart na het bepaalde tijdvenster opnieuw ingaan.
+
+* **Downstream gebeurtenisconfiguratie**
+
+  Als u een andere gebeurtenis stroomafwaarts in de reis gebruikt, moet het zelfde extra identiteitskaart gebruiken en zelfde identiteitskaart hebben namespace.
 
 ## Voeg een aanvullende id toe en gebruik deze voor een reis {#add}
 
@@ -195,4 +199,4 @@ Voer de volgende stappen uit als u een aanvullende id wilt gebruiken voor een ri
 
 Leer hoe u een aanvullende id in [!DNL Adobe Journey Optimizer] kunt inschakelen en toepassen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464798?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
