@@ -9,7 +9,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
+source-git-commit: acb87d0c7c3b8b1bde033f9483ecdeca5cee3325
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 1%
@@ -115,8 +115,6 @@ Nadat u de API-referentie hebt gemaakt en geconfigureerd, moet u nu een kanaalco
 Zodra uw whatsApp API geloofsbrieven met succes zijn gecreeerd, moet de volgende stap een webhaak tot stand brengen en uw binnenkomende montages vormen.
 
 1. Navigeer in de linkertrack naar **[!UICONTROL Administration]** `>` **[!UICONTROL Channels]** , selecteer het menu **[!UICONTROL WhatsApp Webhooks]** onder **[!UICONTROL WhatsApp settings]** en klik op de knop **[!UICONTROL Create Webhook]** .
-
-   ![](assets/sms_byo_5.png)
 
 1. Voer een [!UICONTROL Name] in voor uw webhaak.
 
