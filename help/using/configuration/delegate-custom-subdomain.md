@@ -11,9 +11,9 @@ keywords: subdomein, delegatie, domein, DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 64ff860167439e1b098918cd913f2361f7365a50
+source-git-commit: c1b016af0d44e0dceb4cc292ddf1820abf2734e1
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '711'
 ht-degree: 2%
 
 ---
@@ -122,7 +122,7 @@ Volg onderstaande stappen om een aangepast subdomein in te stellen.
 
    >[!NOTE]
    >
-   >Ontbrekende records (de records die nog niet op de hostingoplossing zijn gemaakt) worden weergegeven.
+   >Zorg ervoor dat alle records correct zijn gemaakt voordat u verdergaat.
 
    Adobe genereert een SSL CDN URL-validatierecord. Kopieer deze validatierecord naar het hostplatform. Als u deze record op de hostingoplossing juist hebt gemaakt, schakelt u het selectievakje &quot;I confirm...&quot; in.
 
