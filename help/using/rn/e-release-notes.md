@@ -2,26 +2,26 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Opmerkingen voor de release van Journey Optimizer
-description: Opmerkingen bij de release Journey Optimizer
+description: Opmerkingen bij de release Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f74ef3dfe8ceb504ace425cf4e701c9733373c2f
+source-git-commit: 08d32e9323d5841cdac5ed08b3e1764aeb6368be
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
 
-# Opmerkingen vooraf release {#e-release-notes}
+# Opmerkingen voorafgaand aan de release {#e-release-notes}
 
 [!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [ versienota&#39;s ](release-notes.md).
 
 **de Nota&#39;s van de pre hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. De verbindingen, de schermen en de bijgewerkte documentatie worden gepubliceerd in de [ versienota&#39;s ](release-notes.md), bij de versiedatum.
 
 
-## Opmerkingen bij de vervroegde release juli 1925 {#25-7-rn}
+## Opmerkingen bij de pre-release juli 25 {#25-7-rn}
 
 
 **de Nota&#39;s van de pre hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd op de releasedatum.
@@ -118,6 +118,12 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <tr>
 <td>
 <p>Journey Optimizer stelt u nu in staat met de gereedschappen gepersonaliseerde en geoptimaliseerde inhoud te leveren aan het publiek van uw campagnes, zodat u experimenten met inhoud kunt uitvoeren, doelgerichte regels kunt maken en geavanceerde combinaties van beide kunt gebruiken om de doeltreffendheid van uw campagnes te maximaliseren.</p>
+<p>Met Optimalisatie kunt u:</p>
+<ul>
+<li>Inhoud testen</li>
+<li>Gebruikmakingsregels</li>
+<li>Geavanceerde combinaties van experimenten en doelwitten gebruiken binnen één campagne</li></ul>
+<P>Wanneer de campagne live is, worden profielen beoordeeld aan de hand van de gedefinieerde criteria en op basis van overeenkomstige criteria, worden ze geleverd met de juiste ervaring of inhoud van de campagne.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -158,7 +164,6 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <li>De mogelijkheid om conceptiecampagnes weer te geven als u een begin- en einddatum hebt ingesteld</li>
 <li>Een nieuwe instelling voor het verbergen en weergeven van kalenderitems die lange tijd worden uitgevoerd</li>
 </ul>
-<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
