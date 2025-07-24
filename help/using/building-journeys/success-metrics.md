@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: publiceren, reizen, live, geldigheid, controle
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: d772ef2d98775446618bd6614a26b9f352e073bd
+source-git-commit: f8f07c27dc7e2ef223972e9044042c60e6dca4c8
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '516'
 ht-degree: 1%
 
 ---
@@ -22,17 +22,17 @@ Verbeter duidelijk zicht in de doeltreffendheid van uw klantenreizen met reismet
 
 ## Vereisten {#prerequisites}
 
-Alvorens uw reismetriek te gebruiken, moet u een dataset toevoegen die `Commerce Details`, `Web`, en `Mobile` [ gebiedsgroepen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=nl-NL#field-group){target="_blank"} onder Configuratie > het Melden in Adobe Experience Platform omvat.
+Alvorens uw reismetriek te gebruiken, moet u een dataset toevoegen die `Commerce Details`, `Web`, en `Mobile` [ gebiedsgroepen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"} onder Configuratie > het Melden in Adobe Experience Platform omvat.
 
 Deze veldgroepen moeten uit de ingebouwde opties worden geselecteerd, niet uit aangepaste groepen. Verwijs naar [ datasets ](../reports/reporting-configuration.md#add-datasets) sectie toevoegen.
 
 ## Beschikbare cijfers {#metrics}
 
-De lijst van metriek varieert afhankelijk van de [ gebiedsgroepen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=nl-NL#field-group){target="_blank"} inbegrepen aan uw dataset.
+De lijst van metriek varieert afhankelijk van de [ gebiedsgroepen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"} inbegrepen aan uw dataset.
 
 Als uw dataset niet wordt gevormd, slechts zullen de volgende metriek beschikbaar zijn: **[!UICONTROL Click]**, **[!UICONTROL Unique Click]**, **[!UICONTROL Clickthrough Rate]** en **[!UICONTROL Open Rate]**.
 
-Met een Customer Journey Analytics-licentie kunt u aangepaste succeswaarden maken. [Meer informatie](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
+Met een Customer Journey Analytics-licentie kunt u aangepaste succeswaarden maken. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
 
 
 | Metrics | Verwante veldgroep |
@@ -69,9 +69,13 @@ Elke metrisch komt met een vastgestelde attributie die bepaalt welke aanraakpunt
 
   Met Journey Optimizer- en Customer Journey Analytics-licenties kunt u aangepaste metriek maken met specifieke attributie-instellingen of de kenmerken van de ingebouwde metriek wijzigen.
 
-  Leer meer over [ modellen van de Attributie ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
+  Leer meer over [ modellen van de Attributie ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
 
 ## Uw reismetriek toewijzen {#assign}
+
+>[!IMPORTANT]
+>
+>Per reis is slechts één maatstaf toegestaan.
 
 Volg de onderstaande stappen om de gegevens van uw reis te volgen:
 
