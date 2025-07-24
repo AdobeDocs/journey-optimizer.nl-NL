@@ -10,15 +10,20 @@ level: Beginner
 mini-toc-levels: 1
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: c1b016af0d44e0dceb4cc292ddf1820abf2734e1
+source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 5%
+source-wordcount: '139'
+ht-degree: 3%
 
 ---
 
 
 # Werken met actiecampagnes {#gs-action-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="campaigns_overview_action"
+>title="Actiecampagnes"
+>abstract="**Geleide UI om een campagne**<br/> te creëren en te verzenden reeks één of veelvoudige acties met een kanaal, kies een publiek, plaats een inhoud, bepaal een programma en u bent bereid om <br/><br/>**Beschikbare kanalen**<br/> E-mail, SMS, Push berichten, In-app, Web, Op code-gebaseerde ervaringen te verzenden"
 
 ## Informatie over actiecampagnes {#about}
 
