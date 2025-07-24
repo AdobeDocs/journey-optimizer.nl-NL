@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 08d32e9323d5841cdac5ed08b3e1764aeb6368be
+source-git-commit: 085a86b0869a10536300329acc27914f12be6d7b
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <tr>
 <td>
 <p>U kunt nu beleidsregels voor beslissingen toevoegen aan e-mailreizen en -campagnes. Beslissingsbeleid is containers voor uw aanbiedingen die de beslissingsengine gebruiken om dynamisch de beste inhoud te retourneren die voor elk publiekslid kan worden geleverd.</p>
-<p>Dit vermogen is slechts beschikbaar voor een reeks organisaties. Het is momenteel niet beschikbaar voor gebruik met het Gezondheidsschild, en met het Privacy en Veiligheidsschild (Beperkte Beschikbaarheid).</p>
+<p>Deze mogelijkheid is momenteel niet beschikbaar voor gebruik met het Gezondheidsschild en met het Privacy and Security Shield (beperkte beschikbaarheid).</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
