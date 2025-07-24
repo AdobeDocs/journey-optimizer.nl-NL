@@ -1,89 +1,54 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Vroege aanvullende informatie
-description: Opmerkingen bij de vervroegde release van Journey Optimizer
+title: Opmerkingen vooraf release
+description: Opmerkingen bij de release Journey Optimizer
 feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 20f5dc6eab5695b485f4569ad098922a130d4b56
+source-git-commit: 2201cc8b9c0c7813c13156937e1cf319660c1039
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 2%
+source-wordcount: '928'
+ht-degree: 0%
 
 ---
 
-# Vroege aanvullende informatie {#e-release-notes}
+# Opmerkingen vooraf release {#e-release-notes}
 
 [!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [ versienota&#39;s ](release-notes.md).
 
-**de vroege versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. De verbindingen, de schermen en de bijgewerkte documentatie worden gepubliceerd in de [ versienota&#39;s ](release-notes.md), bij de versiedatum.
+**de Nota&#39;s van de pre hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. De verbindingen, de schermen en de bijgewerkte documentatie worden gepubliceerd in de [ versienota&#39;s ](release-notes.md), bij de versiedatum.
 
 
-## Opmerkingen bij de vervroegde release juni 25 {#25-6-rn}
+## Opmerkingen bij de vervroegde release juli 1925 {#25-7-rn}
 
 
-**de vroege versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd op de releasedatum.
+**de Nota&#39;s van de pre hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd op de releasedatum.
 
-**de datum van de Versie**: 18 Juni, 2025
+**de datum van de Versie**: 29 juli, 2025
 
 
-### Nieuwe functies {#25-06-features}
+### Nieuwe functies {#25-7-features}
 
 De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder beschreven.
 
-
+#### Functie-updates
 
 
 <table>
 <thead>
 <tr>
-<th><strong>RCS-berichten</strong><br/></th>
+<th><strong>WhatsApp-kanaal</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Het Rich Communication Services (RCS) overseinen wordt nu gesteund in Journey Optimizer, toelatend de volgende verbeterde overseinenmogelijkheden afhankelijk van leverancier en dragersteun:</p>
-<ul>
-<li>Branded en de geverifieerde steun van de afzender: verzend berichten gebruikend geverifieerde bedrijfsprofielen met branding elementen (embleem, afzendernaam, enz.).</li>
-<li>Inzichten van de levering van berichten: Ontvang gedetailleerde leveringsrapporten met inbegrip van updates van de berichtstatus (b.v., verzonden, geleverd, gelezen).</li>
-<li>Koppelingentracering: sluit URL's in RCS-berichten in en traceer deze voor betrokkenheidsanalyses.</li>
-<li>Terugvallen op SMS: Automatische fallback aan SMS wanneer het apparaat van het profiel geen RCS steunt of tijdelijk onbereikbaar via RCS is.</li>
-<li>Basisberichtcompositie: Verstuur op tekst gebaseerde RCS-berichten met optionele media en rijke elementen, afhankelijk van de providerondersteuning.</li>
-</ul>
-<!--p>For more information, refer to the <a href="../sms/sms-configuration.md">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>True Multi-Tenant Unitary Delivery</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>No description provided.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<table>
-<thead>
-<tr>
-<th><strong>Formuliervelden in ervaringsinhoud op basis van code</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>U kunt nu specifieke bewerkbare velden definiëren in JSON- of HTML-inhoudssjablonen, waarmee niet-technische gebruikers inhoud eenvoudig kunnen bewerken in een formulierweergave in de op code gebaseerde ervaring in het maken van kanalen zonder dat ze code hoeven te bewerken.<br /> meer dan dat, wanneer het bepalen van de code-gebaseerde malplaatjes van de ervaringsinhoud, kunt u besluitvormingsbeleid in het malplaatje nu opnemen, die herbruikbaarheid en gebruiksgemak verhogen.</p>
+<p>Journey Optimizer ondersteunt nu direct WhatsApp-berichten, waardoor u probleemloos kunt integreren in uw reizen en campagnes voor betere communicatie en betrokkenheid van ontvangers.</p>
+<p>Eerder in Beta is deze mogelijkheid nu beschikbaar voor alle omgevingen (algemene beschikbaarheid).</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
 </tbody>
@@ -92,52 +57,74 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <table>
 <thead>
 <tr>
-<th><strong>Aangepaste delegatiemethode voor subdomeinen</strong><br/></th>
+<th><strong>Merken</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Naast de volledige delegatie en de methode CNAME, is een nieuwe subdomain configuratiemethode nu beschikbaar: de de delegatiemethode van de Douane, die u toelaat om volledig het controleren en het handhaven van alle aspecten van DNS te bezitten die voor het leveren, het teruggeven en het volgen van berichten worden vereist.</p>
+<p>U kunt nu uw eigen merken maken en aanpassen om uw visuele en verbale identiteit in verschillende communicatie duidelijk te definiëren. Met de merkuitlijningsscore kunt u in real-time feedback ontvangen over hoe goed uw inhoud de toon, stijl en richtlijnen van uw merk weerspiegelt, zodat u bij elke boodschap die u verzendt, consistent onder het merk kunt blijven.</p>
+<p>Eerder in Beta is deze mogelijkheid nu beschikbaar voor alle omgevingen (algemene beschikbaarheid).</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
 <tr>
-<th><strong>Inhoudsbesnoeiingsactiviteit tijdens reizen</strong><br/></th>
+<th><strong>Ervaring kiezen in e-mailkanaal</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt nu persoonlijke aanbiedingen opnemen in uw reizen door middel van een speciale activiteit voor het bepalen van inhoud in het reiscanvas en deze gebruiken in reisactiviteiten, waaronder voorwaarden en aangepaste acties.</p>
-<p>Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid) en wordt globaal geïmplementeerd in een toekomstige release.</p>
+<p>U kunt nu beleidsregels voor beslissingen toevoegen aan e-mailreizen en -campagnes. Beslissingsbeleid is containers voor uw aanbiedingen die de beslissingsengine gebruiken om dynamisch de beste inhoud te retourneren die voor elk publiekslid kan worden geleverd.</p>
+<p>Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
+<p>Dit vermogen is slechts beschikbaar voor een reeks organisaties. Het is momenteel niet beschikbaar voor gebruik met het Gezondheidsschild, en met het Privacy en Veiligheidsschild (Beperkte Beschikbaarheid).</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
 </tbody>
 </table>
 
-
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Experience Decisioning in email channel</strong><br/></th>
+<th><strong>Beslissingsactiviteit inhoud</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>No description provided.</p>
+<p>U kunt nu persoonlijke aanbiedingen opnemen in uw reizen door middel van een toegewijde Content-beslissingsactiviteit in het reiscanvas en deze gebruiken in reisactiviteiten, waaronder voorwaarden en aangepaste acties.</p>
+<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
-
+<table>
+<thead>
+<tr>
+<th><strong>Optimalisatie in campagnes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer stelt u nu in staat met de gereedschappen gepersonaliseerde en geoptimaliseerde inhoud te leveren aan het publiek van uw campagnes, zodat u experimenten met inhoud kunt uitvoeren, doelgerichte regels kunt maken en geavanceerde combinaties van beide kunt gebruiken om de doeltreffendheid van uw campagnes te maximaliseren.</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -149,26 +136,9 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <tr>
 <td>
 <p>Reis Dry run is een speciale publicatiemodus in Adobe Journey Optimizer die reisartsen in staat stelt een reis te testen met behulp van echte productiegegevens zonder contact op te nemen met echte klanten of profielinformatie bij te werken. Deze functie helpt reisartsen vertrouwen te winnen in hun reisontwerp en doelgroep voordat ze het live publiceren.</p>
-<p>Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid) en wordt globaal geïmplementeerd in een toekomstige release.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Reizen onderbreken en hervatten</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>U kunt nu uw reizen pauzeren en hervatten. Deze mogelijkheid geeft reisartsen meer controle en flexibiliteit door het tijdelijk stilleggen van de actieve reizen toe te staan zonder de ervaring van de klant te verstoren. Wanneer gepauzeerd, worden geen mededelingen verzonden, en de profielen blijven in een geschorste staat tot de reis wordt hervat.</p>
-<p>U kunt slechts één reis pauzeren en hervatten, of bulkpauze uitvoeren en verrichtingen aan een groep reizen hervatten.</p>
-<p>Bovendien kunt u algemene filters toepassen op gepauzeerde reizen om profielen uit te sluiten op basis van hun kenmerken.</p>
-<p>Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid) en wordt globaal geïmplementeerd in een toekomstige release.</p>
+<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
 </tbody>
@@ -177,75 +147,77 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <table>
 <thead>
 <tr>
-<th><strong>Schaal de winnaar van uw proefversie</strong><br/></th>
+<th><strong>Kalenderweergave</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Met Schaal de winnaar van de proefversie kunt u de winnende variatie van een experiment automatisch of handmatig voor alle gebruikers uitrollen. Deze functie zorgt ervoor dat u, zodra een topuitvoerder is geïdentificeerd, het bereik en de effectiviteit ervan kunt maximaliseren zonder voortdurend handmatig toezicht.</p>
-<p>Raadpleeg de <a href="../content-management/content-experiment.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-<p>Beschikbaarheidsdatum: 2 juni 2025</p></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Conflict en prioriteit</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>In Journey Optimizer is het beheren van het volume en de timing van campagnes en reizen van essentieel belang om te voorkomen dat klanten met te veel interacties worden overspoeld. Journey Optimizer biedt nu diverse hulpmiddelen voor conflictbeheer en prioritering - voorheen alleen beschikbaar voor organisaties met beperkte toegang (LA) - die nu algemeen beschikbaar zijn (GA).</p>
-<p>Eerder uitgebracht in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's. Met deze algemene release zijn de volgende verbeteringen aangebracht:</p>
+<p>Eerder beschikbaar in Beperkte Beschikbaarheid, is deze eigenschap nu beschikbaar aan alle milieu's. Met deze algemene beschikbaarheidsrelease omvat deze functie:</p>
 <ul>
-<li>Uitgebreide ondersteuning: de tools voor conflictbeheer ondersteunen nu niet alleen publiekstrajecten, maar ook eenheidsreizen en kwalificatiereizen voor het publiek.</li>
-<li>Verbeterd het Oplossen van problemen: Twee nieuwe gebieden van de stapgebeurtenis zijn nu beschikbaar in de Dienst van de Vraag, toelatend u om te analyseren waarom een profiel van een reis of een campagne werd verworpen.</li>
-<li>Verbeterde rapportage: in rapporten wordt nu aangegeven welke specifieke regel een profiel van een reis of campagne heeft uitgesloten, waardoor meer transparantie en activeerbare inzichten worden geboden.</li></ul>
-<img src="assets/do-not-localize/gif-conflict.gif">
-<p>Raadpleeg de <a href="../conflict-prioritization/gs-conflict-prioritization.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-<p>Beschikbaarheidsdatum: 3 juni 2025</p>
+<li>Ontwerpverbeteringen voor de navigatie in datums</li>
+<li>De mogelijkheid om conceptiecampagnes weer te geven als u een begin- en einddatum hebt ingesteld</li>
+<li>Een nieuwe instelling voor het verbergen en weergeven van kalenderitems die lange tijd worden uitgevoerd</li>
+</ul>
+<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Aanvullende ID tijdens reizen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is het gebruik van extra IDs in reizen nu beschikbaar aan alle milieu's. Met deze algemene beschikbaarheidsrelease bevat deze functie nu ondersteuning voor reizen van lezers.</p>
+<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-### Verbeteringen {#25-06-improv}
+### Verbeteringen {#25-7-improv}
 
 De verbeteringen die bij deze release worden geleverd, worden hieronder weergegeven.
 
-* **de regelreeksen van het Kanaal**
+- **Email Designer**
+   - De Journey Optimizer Email Designer biedt nu de mogelijkheid om over te schakelen naar de weergave in de donkere modus, waar u aanvullende specifieke aangepaste instellingen kunt definiëren. De uiteindelijke rendering is afhankelijk van de e-mailclient van de ontvanger. Bovendien ondersteunen niet alle e-mailclients de donkere modus.
+  <!-- [Read more](../FILE.md) -->
 
-   * **venster van de Duur van de Douane** voor het in kaart brengen - een nieuw **gebied van de Telling van de Herhaling** is nu beschikbaar in het scherm van de reeksen van de kanaalregel, toestaand u om frequentie het in kaart brengen regels over veelvoudige dagen, weken, of maanden, afhankelijk van de gespecificeerde duur toe te passen.
+- **Campagnes**
+   - **regel-Gebaseerde Verdiskwalificatie van de Campagne** - in de kaarten van de Inhoud, wanneer het uitgeven van extra leveringsregels, is de vorige optie van de Regels van de Levering vervangen met drie verschillende regeltypes aan betere controle berichttiming en zicht:
+      - Bericht weergeven als: voorwaarden die bepalen wanneer de inhoudskaart wordt weergegeven.
+      - Bericht sluiten als: Voorwaarden die de inhoudskaart tijdelijk verbergen. De weergave kan worden hersteld als opnieuw aan de voorwaarden voor de show wordt voldaan.
+      - Schakel het bericht uit als: Voorwaarden die voorkomen dat de inhoudskaart opnieuw wordt weergegeven.
+  <!-- [Read more](../FILE.md) -->
 
-   * **Uurduur** - u kunt het bedekken op een uurbasis voor de reeksen van de kanaalregel nu toepassen.
+   - **Veelvoudige binnenkomende acties in campagnes** - om uw campagneorchestratie te vereenvoudigen, kunt u verscheidene binnenkomende acties in één enkele campagne nu bepalen. Met deze functie kunt u meerdere op code gebaseerde ervaringen, In-app-berichten, Content Cards of webhandelingen tegelijk op verschillende locaties aanbieden, waarbij elke actie een specifieke inhoud bevat.
+  <!-- [Read more](../FILE.md) -->
 
-* **op code-gebaseerde ervaringen**
+   - **de inventarisreorganisatie van de Campagne** - Gepland en API-teweeggebrachte campagnes zijn nu verdeeld in afzonderlijke lusjes in de campagneinventaris voor gemakkelijkere navigatie en beheer.
+  <!-- [Read more](../FILE.md) -->
 
-   * Het toevoegen van een besluitvormingsbeleid is nu beschikbaar in code-gebaseerde malplaatjes van de ervaringsinhoud.
+- **het Beheer van Gegevens**
+   - **de update van de systeemdatasets van het Beheer van het Besluit** - de geschrapte Gepersonaliseerde en aanbiedingen van de Fallback worden nu duidelijk zoals gearchiveerd in de &quot;beslissing_object_repository_personalized_aanbiedingen&quot;en &quot;Decision_object_repository_fallback_aanbiedingen&quot;datasets. De bestaande records in de dataset worden niet gewijzigd.
+  <!-- [Read more](../FILE.md) -->
 
-   * Van het op code-gebaseerde de ervaringstraject of scherm van de campagneuitgave, kunt u direct een besluitvormingsbeleid toevoegen, zonder de verpersoonlijkingsredacteur te openen.
+- **Reizen**
+   - **de Tooling van Sandbox van de Reis Verbeteringen** - wanneer het kopiëren van reizen over veelvoudige zandbakken gebruikend de pakketuitvoer en de invoermogelijkheden, zijn de volgende mogelijkheden nu ook beschikbaar:
+      - Een bestaande gebeurtenis op het doel selecteren
+      - Het kopiëren over een evenement onafhankelijk van een reis
+      - Het ontdekken van gebiedsgroep/gegevensbronverhoudingen, die met hen verbinden bij de bestemming als zij bestaan, creërend hen als zij niet.
+  <!-- [Read more](../FILE.md) -->
 
-* **de Steun van CSS van de Douane in E-mail Designer**
-
-  Met Journey Optimizer kunt u nu aangepaste CSS rechtstreeks in de e-mailtoepassing toevoegen aan uw e-mailinhoud.
-
-* **Nieuwe van labels voorzien navigatie voor campagnes**
-
-  Een nieuw navigatiepatroon maakt snellere toegang tot het ontwerpen van inhoud mogelijk en ondersteunt verdere uitbreiding van instellingen in alle campagnes.
-
-* **Beslissing** - de datum van de Beschikbaarheid: 3 Juni, 2025
-
-  Decisioning-objecten kunnen nu worden gekopieerd tussen sandboxen, waardoor test- en implementatieworkflows worden gestroomlijnd. [Meer informatie](../configuration/copy-objects-to-sandbox.md#decisioning)
-
-* **de kenmerksteun van het Punt van het Besluit voor beslissingsregels** - de datum van de Beschikbaarheid: 4 juni, 2025
-
-  U kunt nu kenmerken van beslissingspunten gebruiken om beslissingsregels te maken. [Meer informatie](../experience-decisioning/rules.md#create)
-
-* **Interactieve update van API van de Uitvoering van het Bericht** - de datum van de Beschikbaarheid: 6 juni, 2025
-
-  De Interactieve API van de Uitvoering van het Bericht staat u nu toe om het programma van aanstaande campagneuitvoering te schrappen. [Meer informatie](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
+- **Kanaal - InApp**
+   - **In-app Zeer belangrijke/paren van de Waarde** - met In-app berichten, kunt u Sleutel en paren van de Waarde bepalen om douanevariabelen in de berichtlading te omvatten. Deze zeer belangrijk-waardeparen laten u toe om extra gegevens over te gaan die op uw specifieke configuratie en gebruiksgeval worden gebaseerd.
+  <!-- [Read more](../FILE.md) -->
