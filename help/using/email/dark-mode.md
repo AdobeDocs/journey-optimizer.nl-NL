@@ -11,9 +11,9 @@ keywords: donkere modus, e-mail, kleur, editor
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: b5d9b9c26824517414982fa539e0b360500cafc6
+source-git-commit: 12b41a253693184e4e3d866f00e7d8b0a1e30ce3
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1652'
 ht-degree: 0%
 
 ---
@@ -153,7 +153,7 @@ Volg onderstaande stappen om aangepaste instellingen voor de donkere modus te de
    >
    >De live weergave is een algemene voorvertoning die is ontworpen om te vergelijken hoe de rendering er tussen verschillende apparaatgrootten uitziet. De uiteindelijke rendering kan variëren afhankelijk van de e-mailclient van de ontvanger.
 
-1. Als u tevreden bent met de wijzigingen in de donkere modus, klikt u op **[!UICONTROL Simulate content]** .
+1. Als u tevreden bent met de wijzigingen in de donkere modus, klikt u op **[!UICONTROL Simulate Content]** .
 
    ![](assets/dark-mode-simulate.png)
 
@@ -209,13 +209,13 @@ Inline CSS helps maintain more control over styling, as some clients strip exter
 
 ## E-mailclients die donkere modus ondersteunen {#supporting-email-clients}
 
-Hieronder volgt een lijst met de belangrijkste e-mailclients die donkere modus ondersteunen. Sommige versies van de vermelde e-mailclients bieden echter geen ondersteuning voor de donkere modus, zodat deze versies ook ter wille van de duidelijkheid en nauwkeurigheid in deze tabel worden weergegeven.
+Hieronder volgt een lijst met de belangrijkste e-mailclients die donkere modus ondersteunen.
 
->[!WARNING]
+>[!NOTE]
 >
->De uiteindelijke rendering in de donkere modus is afhankelijk van elke e-mailclient. De resultaten kunnen dus per e-mailclient verschillen. Om een simulatie te zien die zo dicht mogelijk bij het definitieve resultaat voor elke e-mailcliënt komt, gebruik de [ E-mail teruggevende ](../content-management/rendering.md) optie.
+>Sommige versies van deze e-mailclients ondersteunen geen donkere modus, zodat ze omwille van de duidelijkheid ook in deze tabel worden weergegeven.
 
-| E-mailclients die donkere modus ondersteunen | Compatibele versies | Niet-ondersteunde versies |
+| E-mailclients die donkere modus ondersteunen | Compatibele versies | *Niet gestaafde versies* |
 |---------|----------|---------|
 | Apple Mail macOS | 12.4, 16.0 | *10.3* |
 | Apple Mail iOS | 13.0, 16.1 | *12.2* |
@@ -236,6 +236,10 @@ Hieronder volgt een lijst met de belangrijkste e-mailclients die donkere modus o
 | 1&amp;1 (Desktop Webmail en Android) | 2022-06 | NA |
 | WEB.DE (iOS en Android) | 2022-06 | NA |
 | Free.fr | 2022-12 | NA |
+
+>[!WARNING]
+>
+>De uiteindelijke rendering in de donkere modus is afhankelijk van elke e-mailclient. De resultaten kunnen dus per e-mailclient verschillen.
 
 <!--
 * Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}
