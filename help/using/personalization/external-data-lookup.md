@@ -8,17 +8,17 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: a600af73bd85d525bc1320d0aa6193660331e452
+exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
+source-git-commit: 5df643d2b0623d40779d155e406467d622d3d753
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1193'
 ht-degree: 0%
 
 ---
 
-
 # Help voor externe gegevens opzoeken
 
-De `externalDataLookup` hulp in de [!DNL Journey Optmizer] verpersoonlijkingsredacteur kan worden gebruikt om gegevens van een extern eindpunt voor gebruik dynamisch te halen voor het produceren van inhoud voor binnenkomende kanalen zoals de op code-gebaseerde Ervaring, Web en in-app kanalen van het Bericht.
+De `externalDataLookup` hulp in de [!DNL Journey Optimizer] verpersoonlijkingsredacteur kan worden gebruikt om gegevens van een extern eindpunt voor gebruik dynamisch te halen voor het produceren van inhoud voor binnenkomende kanalen zoals de op code-gebaseerde Ervaring, Web en in-app kanalen van het Bericht.
 
 >[!AVAILABILITY]
 >
@@ -35,14 +35,14 @@ Zodra de Actie is bepaald, kan het allebei worden gebruikt:
 
 Raadpleeg ook Aangepaste acties in [!DNL Journey Optimizer] Binnenkomende kanalen voor campagnes en reizen#GuardrailandGuidelines.
 
-* Standaard gebruikt [!DNL Journey Optimizer] een time-out van 300 ms wanneer een extern eindpunt wordt aangeroepen. Neem contact op met [!DNL Journey Optimizer] Engineering om deze time-out voor een eindpunt te vergroten.
-* In de Personalization Editor kunt u met [!DNL Journey Optimizer] niet door het schema van de eindpuntreactie bladeren wanneer u expressies invoegt en kunt u verwijzingen naar JSON-kenmerken van de reactie die in expressies wordt gebruikt, niet valideren.
-* De ondersteunde datatypen voor parameters van de payload-variabele die via de helper externalDataLookup moeten worden vervangen, zijn String, Integer, Decimaal, Boolean, listString, listInt, listInteger, listDecimal.
-* Wijzigingen in een actieconfiguratie worden niet weerspiegeld in overeenkomende ExternalDataLookup-aanroepen in live campagnes en reizen. Om een verandering om te weerspiegelen, moet u om het even welke levende campagnes of reizen kopiëren of wijzigen die de Actie in een externalDataLookup helper gebruiken.
-* Het gebruik van variabelen wordt nog niet ondersteund binnen externe parameters van de opzoekhelper.
-* Dynamisch URL-pad wordt momenteel niet ondersteund.  - Inbound Custom Actions Enhancements#DynamicPathSegments.
-* Rendering met meerdere controles wordt ondersteund.
-* De opties van de authentificatie in de configuratie van de Actie worden momenteel niet gesteund door externalDataLookup helper. In de tussentijd kunt u voor API-verificatie op basis van sleutels of andere licentietoetsen voor normale tekst deze als headervelden opgeven in de configuratie van Handeling.
+* **Standaardonderbreking** - door gebrek, [!DNL Journey Optimizer] gebruikt een onderbreking van 300ms wanneer het roepen van een extern eindpunt. Neem contact op met uw Adobe-vertegenwoordiger om deze time-out voor een eindpunt te verhogen.
+* **Bladeren van het schema van de Reactie &amp; uitdrukkingsbevestiging** - in de verpersoonlijkingsredacteur, kunt u niet het schema van de eindpuntreactie doorbladeren wanneer het opnemen van uitdrukkingen. [!DNL Journey Optimizer] valideert geen verwijzingen naar JSON-kenmerken van de reactie die in expressies wordt gebruikt.
+* **Gesteunde gegevenstypes voor parameters** - de gesteunde datatypes voor de parameters van de ladingsvariabele die via externalDataLookup helper moeten worden vervangen zijn `String`, `Integer`, `Decimal`, `Boolean`, `listString`, `listInt`, `listInteger`, `listDecimal`.
+* **auto-verfrist zich voor bijgewerkte acties** - De veranderingen in een configuratie van de Actie worden niet weerspiegeld in de overeenkomstige ExternalDataLookup vraag in levende campagnes en reizen. Om een verandering om te weerspiegelen, moet u om het even welke levende campagnes of reizen kopiëren of wijzigen die de Actie in een externalDataLookup helper gebruiken.
+* **Veranderlijke substitutie** - voor nu, wordt het gebruik van variabelen niet gesteund binnen de externalDataLookup helperparameters.
+* **Dynamisch weg** - voor nu, wordt de dynamische weg URL niet gesteund.
+* **multi-pass het teruggeven** - multi-pass het teruggeven wordt gesteund.
+* **Authentificatie** - voor nu, worden de authentificatieopties in de configuratie van de Actie niet gesteund door de externalDataLookup helper. In de tussentijd kunt u voor API-verificatie op basis van sleutels of andere licentietoetsen voor normale tekst deze als headervelden opgeven in de configuratie van Handeling.
 
 ## Een handeling configureren en de hulplijn gebruiken
 
@@ -102,15 +102,21 @@ Parameternamen:
 
 Bijvoorbeeld:
 
-`{{externalDataLookup actionId="..." result="result" header.myHeaderParameter="value1" query.myQueryParameter="value2" payload.myPayloadParameter="value3"}}`
+```
+{{externalDataLookup actionId="..." result="result" header.myHeaderParameter="value1" query.myQueryParameter="value2" payload.myPayloadParameter="value3"}}`
+```
 
 Parameterwaarden kunnen vaste waarden zijn of ze kunnen worden gepersonaliseerd door te verwijzen naar profielvelden of andere contextafhankelijke kenmerken, bijvoorbeeld:
 
-`{{externalDataLookup actionId="..." result="result" query.myQueryParameter=profile.myProfileValue}}`
+```
+{{externalDataLookup actionId="..." result="result" query.myQueryParameter=profile.myProfileValue}}
+```
 
 Payload-parameters kunnen worden opgegeven met behulp van puntnotatie voor verwijzing naar geneste JSON-kenmerken, bijvoorbeeld:
 
-`{{externalDataLookup actionId="..." result="result" payload.context.channel="web"}}`
+```
+{{externalDataLookup actionId="..." result="result" payload.context.channel="web"}}
+```
 
 ### Toegang tot het resultaat
 
@@ -174,7 +180,9 @@ Als u time-outs of fouten beter wilt afhandelen door fallback-inhoud weer te gev
 
 U kunt bijvoorbeeld een fallback-waarde weergeven voor één kenmerk zoals:
 
-`First video description: {%=result.videos[0].description ?: "none found" %}`
+```
+First video description: {%=result.videos[0].description ?: "none found" %}
+```
 
 Of u kunt voorwaardelijk een volledig blok van inhoud als dit teruggeven:
 
@@ -196,7 +204,7 @@ Bijvoorbeeld:
 
 Onder de sectie Edge Delivery van het betrouwbaarheidsspoor als deel van uitvoeringsdetails is een nieuw blok customActions toegevoegd met verzoek en reactiedetails gelijkend op hieronder. De sectie Fouten zou bij het zuiveren moeten helpen als er om het even welke kwesties terwijl het uitvoeren van douaneactie waren
 
-![](assets/external-data-troubleshoot.png)
+![](assets/external-data-troubleshoot.png " width=50% ")
 
 ## Veelgestelde vragen
 
@@ -204,7 +212,9 @@ Onder de sectie Edge Delivery van het betrouwbaarheidsspoor als deel van uitvoer
 
   Gebruik het menu Contexual Attributes > DataStream > Event om door het schema Experience Event te bladeren dat u gebruikt en voeg het relevante kenmerk als parameterwaarde als volgt in:
 
-  `{{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}`
+  ```
+  {{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}
+  ```
 
 * Doet [!DNL Journey Optimizer] om het even welk caching van externe eindpuntreacties?
 
