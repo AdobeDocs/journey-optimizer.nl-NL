@@ -423,36 +423,36 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 
 De verbeteringen die bij deze release worden geleverd, worden hieronder weergegeven.
 
-* **de regelreeksen van het Kanaal**
+&#x200B;* **de regelreeksen van het Kanaal**
 
-   * **venster van de Duur van de Douane** voor het in kaart brengen - een nieuw **Elk** gebied is nu beschikbaar in het scherm van de de reeksen van de kanaalregel, toestaand u om de regels van de frequentie het in kaart brengen over veelvoudige dagen, weken, of maanden, afhankelijk van de gespecificeerde duur toe te passen.
+   &#x200B;* **venster van de Duur van de Douane** voor het in kaart brengen - een nieuw **Elk** gebied is nu beschikbaar in het scherm van de de reeksen van de kanaalregel, toestaand u om de regels van de frequentie het in kaart brengen over veelvoudige dagen, weken, of maanden, afhankelijk van de gespecificeerde duur toe te passen.
 
-   * **de frequentie van het terugstellen van de Uur het afschilderen** - u kunt het afschilderen op een uurbasis voor de reeksen van de kanaalregel nu toepassen. Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met de klantenservice om de functie in te schakelen.
+   &#x200B;* **de frequentie van het terugstellen van de Uur het afschilderen** - u kunt het afschilderen op een uurbasis voor de reeksen van de kanaalregel nu toepassen. Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met de klantenservice om de functie in te schakelen.
 
-   * **Dagelijkse duur** - eerder beschikbaar in Beperkte Beschikbaarheid, &quot;Dagelijkse&quot;frequentietoewijzing in de reeksen van de kanaalregel is nu beschikbaar aan alle klanten.
+   &#x200B;* **Dagelijkse duur** - eerder beschikbaar in Beperkte Beschikbaarheid, &quot;Dagelijkse&quot;frequentietoewijzing in de reeksen van de kanaalregel is nu beschikbaar aan alle klanten.
 
   Raadpleeg de [gedetailleerde documentatie](../conflict-prioritization/channel-capping.md) voor meer informatie.
 
-* **op code-gebaseerde ervaringen**
+&#x200B;* **op code-gebaseerde ervaringen**
 
-   * Het toevoegen van een besluitvormingsbeleid is nu beschikbaar in code-gebaseerde malplaatjes van de ervaringsinhoud, waar het aan hefboomwerking aanbiedingen in editable vormgebieden kan worden gebruikt. [Meer informatie](../code-based/code-based-form-fields.md)
+   &#x200B;* Het toevoegen van een besluitvormingsbeleid is nu beschikbaar in code-gebaseerde malplaatjes van de ervaringsinhoud, waar het aan hefboomwerking aanbiedingen in editable vormgebieden kan worden gebruikt. [Meer informatie](../code-based/code-based-form-fields.md)
 
-   * Van het op code-gebaseerde de ervaringstraject of scherm van de campagneuitgave, kunt u direct een besluitvormingsbeleid toevoegen, zonder de verpersoonlijkingsredacteur te openen. [Meer informatie](../code-based/create-code-based.md#edit-code)
+   &#x200B;* Van het op code-gebaseerde de ervaringstraject of scherm van de campagneuitgave, kunt u direct een besluitvormingsbeleid toevoegen, zonder de verpersoonlijkingsredacteur te openen. [Meer informatie](../code-based/create-code-based.md#edit-code)
 
-* **de Steun van CSS van de Douane in E-mail Designer**
+&#x200B;* **de Steun van CSS van de Douane in E-mail Designer**
 
   Met Journey Optimizer kunt u nu aangepaste CSS rechtstreeks in de e-mailtoepassing toevoegen aan uw e-mailinhoud. [Meer informatie](../email/custom-css.md)
 
-* **Nieuwe van labels voorzien navigatie voor campagnes**
+&#x200B;* **Nieuwe van labels voorzien navigatie voor campagnes**
 
   Een nieuw navigatiepatroon maakt snellere toegang tot het ontwerpen van inhoud mogelijk en ondersteunt verdere uitbreiding van instellingen in alle campagnes. [Meer informatie](../campaigns/create-campaign.md)
 
-* **Beslissing**
+&#x200B;* **Beslissing**
 
-   * **Sandbox exemplaar &amp; Beslissing** (beschikbaarheidsdatum: 3 Juni, 2025) - De beslissende voorwerpen kunnen nu tussen zandbakken worden gekopieerd, die het testen en plaatsingswerkschema&#39;s stroomlijnen. [Meer informatie](../configuration/copy-objects-to-sandbox.md#decisioning)
+   &#x200B;* **Sandbox exemplaar &amp; Beslissing** (beschikbaarheidsdatum: 3 Juni, 2025) - De beslissende voorwerpen kunnen nu tussen zandbakken worden gekopieerd, die het testen en plaatsingswerkschema&#39;s stroomlijnen. [Meer informatie](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-   * **de kenmerksteun van het Punt van het Besluit voor besluitvormingsregels** (beschikbaarheidsdatum: 4 juni, 2025) - u kunt de attributen van het besluitvormingspunt nu hefboomwerking besluiten om besluitvormingsregels tot stand te brengen. [Meer informatie](../experience-decisioning/rules.md#create)
+   &#x200B;* **de kenmerksteun van het Punt van het Besluit voor besluitvormingsregels** (beschikbaarheidsdatum: 4 juni, 2025) - u kunt de attributen van het besluitvormingspunt nu hefboomwerking besluiten om besluitvormingsregels tot stand te brengen. [Meer informatie](../experience-decisioning/rules.md#create)
 
-* **Interactieve update van API van de Uitvoering van het Bericht** - de datum van de Beschikbaarheid: 6 juni, 2025
+&#x200B;* **Interactieve update van API van de Uitvoering van het Bericht** - de datum van de Beschikbaarheid: 6 juni, 2025
 
   De Interactieve API van de Uitvoering van het Bericht staat u nu toe om het programma van aanstaande campagneuitvoering te schrappen. [Meer informatie](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
