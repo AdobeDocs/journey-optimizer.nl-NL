@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: c1013cd39dc1d85448e78e5406706a06fbc00de9
+source-git-commit: 0d6e3c082032b11b38f7d4b67da1e38756b5f101
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 | Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
 |---|---|---|---|
-| <b>[ wordt begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)</b><br/><br/> creeer en beheer relationele Schema&#39;s en Datasets:</br> <ul><li>[ worden begonnen met Schema&#39;s en Datasets ](gs-schemas.md)</li><li>[ Handmatig schema ](manual-schema.md)</li><li>[ het uploadschema van het Dossier ](file-upload-schema.md)</li><li>[ Ingest gegevens ](ingest-data.md)</li></ul>[ toegang en beheer georkestreerde campagnes ](access-manage-orchestrated-campaigns.md)<br/><br/>[ Zeer belangrijke stappen om een georkestreerde campagne ](gs-campaign-creation.md) tot stand te brengen | [ creeer en programma de campagne ](create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](orchestrate-activities.md)<br/><br/>[ Begin en controleer de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](edit-expressions.md)<br/><br/>[ opnieuw op ](retarget.md) | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ de activiteiten van het Kanaal ](activities/channels.md) - [ combineren ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) Formeel k [ - ](activities/fork.md) Verzoening [ - ](activities/reconciliation.md) sparen publiek [ - ](activities/save-audience.md) Gesplitst [ - ](activities/split.md) wacht [&#128279;](activities/wait.md) |
+| <b>[ wordt begonnen met georkestreerde campagnes ](gs-orchestrated-campaigns.md)</b><br/><br/> creeer en beheer relationele Schema&#39;s en Datasets:</br> <ul><li>[ worden begonnen met Schema&#39;s en Datasets ](gs-schemas.md)</li><li>[ Handmatig schema ](manual-schema.md)</li><li>[ het uploadschema van het Dossier ](file-upload-schema.md)</li><li>[ Ingest gegevens ](ingest-data.md)</li></ul>[ toegang en beheer georkestreerde campagnes ](access-manage-orchestrated-campaigns.md)<br/><br/>[ Zeer belangrijke stappen om een georkestreerde campagne ](gs-campaign-creation.md) tot stand te brengen | [ creeer en programma de campagne ](create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](orchestrate-activities.md)<br/><br/>[ Begin en controleer de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](edit-expressions.md)<br/><br/>[ opnieuw op ](retarget.md) | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ de activiteiten van het Kanaal ](activities/channels.md) - [ combineren ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) Formeel k [ - ](activities/fork.md) Verzoening [ - ](activities/reconciliation.md) sparen publiek [ - ](activities/save-audience.md) Gesplitst [ - ](activities/split.md) wacht [](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -55,7 +55,8 @@ Campagne wordt opgebouwd rond vier pijlers:
 <tr style="border: 0;">
 <td><img alt="Op verzoek publiek" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b> Op bestelling publiek </b><br/> direct vraag over datasets om publiekssegmenten tot stand te brengen gebruikend om het even welke combinatie gegevenstypes en dimensies.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Segmentering en verzending van meerdere entiteiten" src="assets/do-not-localize/icon-entity.svg" width="50px"></a></td><td><b> Multi-entiteitsegmentatie &amp; het verzenden van </b><br/> gaat voorbij op persoon-gebaseerde campagnes-gebruik entiteiten zoals productcatalogi, opslagplaatsen, of de dienstgegevens om met precisie te richten.</td></tr>
+<td><img alt="Segmentering en verzending van meerdere entiteiten" src="assets/do-not-localize/icon-entity.svg" width="50px"></a></td><td><b> Multi-entiteitsegmentatie &amp; het verzenden van </b><br/> gaat voorbij op persoon-gebaseerde campagnes-gebruik entiteiten zoals productcatalogi, opslagplaatsen, of de dienstgegevens om met precisie te richten.<br/><br/>
+Ondersteuning voor verzending op meerdere niveaus, waarbij één bericht wordt verzonden per profiel en per bijbehorende secundaire entiteit. Deze secundaire entiteiten kunnen contactadressen, reserveringen, abonnementen, contracten, of andere verbonden gegevens omvatten. Zo kunt u bijvoorbeeld campagnes verzenden naar alle bekende adressen van een profiel of voor elke reservering die aan dat profiel is gekoppeld.</td></tr>
 <tr style="border: 0;">
 <td><img alt="Zichtbaarheid vóór verzending en precisie" src="assets/do-not-localize/icon-visibility.svg" width="50px"></a></td><td><b> pre-verzend zicht &amp; precisie </b><br/> krijgt nauwkeurige segmentatietelling en volledig campagnewerkingsgebied vóór lancering, die nauwkeurigheid en vertrouwen verzekert.</td></tr>
 <tr style="border: 0;">
@@ -69,6 +70,8 @@ Hoewel de georkestreerde campagnes visualisatie gelijkenissen vertonen met reize
 * **reizen** - 1 tot 1 canvas waar elk profiel door de verschillende stappen bij hun eigen tempo reist. De staat van elke klant wordt gehandhaafd binnen zijn context om acties in real time teweeg te brengen.
 
 * **Geordende campagnes** - in tegenstelling tot reizen, werken de georchetseerde campagnes gebruikend een partijcanvas dat segmenten berekent. Alle profielen worden samen verwerkt.
+
+Beide canvas&#39;s zijn geoptimaliseerd voor hun respectieve gebruiksgevallen: Journey canvas publiceert een reis die de neiging heeft langer te leven, terwijl het canvas van de Campagne voor herhalende en stijgende looppas van een partijcampagne wordt ontworpen.
 
 ## Vereisten
 
