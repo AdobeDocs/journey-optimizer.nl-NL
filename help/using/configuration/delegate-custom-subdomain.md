@@ -11,7 +11,7 @@ keywords: subdomein, delegatie, domein, DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: c1b016af0d44e0dceb4cc292ddf1820abf2734e1
+source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 2%
@@ -124,10 +124,9 @@ Volg onderstaande stappen om een aangepast subdomein in te stellen.
    >
    >Zorg ervoor dat alle records correct zijn gemaakt voordat u verdergaat.
 
-   Adobe genereert een SSL CDN URL-validatierecord. Kopieer deze validatierecord naar het hostplatform. Als u deze record op de hostingoplossing juist hebt gemaakt, schakelt u het selectievakje &quot;I confirm...&quot; in.
+1. Adobe genereert een SSL CDN URL-validatierecord. Kopieer deze validatierecord naar het hostplatform. Als u deze record op de hostingoplossing juist hebt gemaakt, schakelt u het selectievakje &quot;I confirm...&quot; in.
 
-1. Klik op **[!UICONTROL Submit]** om de vereiste controles door Adobe uit te voeren. [Meer informatie](#submit-subdomain)
-
+1. Klik op **[!UICONTROL Submit]** om de vereiste controles door Adobe uit te voeren. [Meer informatie](delegate-subdomain.md#submit-subdomain)
 
 ## Controlelijst voor problemen oplossen {#check-list}
 
@@ -138,4 +137,3 @@ Als de fouten terwijl het proberen om uw douanesubdomain voor te leggen voorkome
 * Controleer of uw certificaat aan alle technische vereisten voldoet voordat u het uploadt.
 
 * Controleer of het certificaat in de juiste indeling is geüpload.
-
