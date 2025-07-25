@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: fa65d30fd55fa7f9392623352ff3c77192cc77dc
+source-git-commit: 9af09d694f58d169dcf4448562129ed0b37f35df
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '715'
 ht-degree: 1%
 
 ---
@@ -81,11 +81,11 @@ Nadat u de API-referentie hebt gemaakt en geconfigureerd, moet u nu een kanaalco
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
 >title="Trefwoorden invoeren"
->abstract="U kunt trefwoorden definiëren om specifieke automatische reacties te activeren, zoals voor Inschakelen, Uitschakelen, Help of Standaard, op basis van de gebruikerstekst. Trefwoorden zijn niet hoofdlettergevoelig, dus stop en STOP worden bijvoorbeeld op dezelfde manier behandeld."
+>abstract="U kunt trefwoorden definiëren om specifieke automatische reacties te activeren op basis van de gebruikerstekst. Trefwoorden zijn niet hoofdlettergevoelig, dus stop en STOP worden bijvoorbeeld op dezelfde manier behandeld."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_webhook_url"
->title=" URL voor terugbellen"
+>title="URL voor terugbellen"
 >abstract="De validatieaanvraag en webhaakmeldingen voor dit object worden naar de opgegeven URL verzonden."
 
 >[!CONTEXTUALHELP]
