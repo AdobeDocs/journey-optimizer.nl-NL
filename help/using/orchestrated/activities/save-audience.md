@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 81f0338935ee36b152963f2b1c0e7989b86f5f8a
+source-git-commit: 0ae9ed8ba93bd4f64f27380f956e1c97af75dd90
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 | Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
 |---|---|---|---|
-| [ wordt begonnen met georkestreerde campagnes ](../gs-orchestrated-campaigns.md)<br/><br/> creeer en beheer relationele Schema&#39;s en Datasets:</br> <ul><li>[ worden begonnen met Schema&#39;s en Datasets ](../gs-schemas.md)</li><li>[ Handmatig schema ](../manual-schema.md)</li><li>[ het uploadschema van het Dossier ](../file-upload-schema.md)</li><li>[ Ingest gegevens ](../ingest-data.md)</li></ul>[ toegang en beheer georkestreerde campagnes ](../access-manage-orchestrated-campaigns.md) | [ Zeer belangrijke stappen om een georkestreerde campagne ](../gs-campaign-creation.md)<br/><br/>[ tot stand te brengen en te plannen de campagne ](../create-orchestrated-campaign.md)<br/><br/>[ activiteiten van het Orchestrate ](../orchestrate-activities.md)<br/><br/>[ Begin en de campagne ](../start-monitor-campaigns.md)<br/><br/>[ Meldend ](../reporting-campaigns.md) te controleren | [ Werk met de regelbouwer ](../orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](../build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](../edit-expressions.md)<br/><br/>[ opnieuw op ](../retarget.md) | [ wordt begonnen met activiteiten ](about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](and-join.md) - [ bouwt publiek ](build-audience.md) - [ dimensie van de Verandering ](change-dimension.md) - [ de activiteiten van het Kanaal ](channels.md) - [ combineren ](combine.md) - [ Deduplicatie ](deduplication.md) - [ Verrijking ](enrichment.md) Formeel k [ - ](fork.md) Verzoening [ - ](reconciliation.md) sparen publiek <b>[ - ](save-audience.md)</b> Gesplitst [ - ](split.md) wacht [&#128279;](wait.md) |
+| [ wordt begonnen met georkestreerde campagnes ](../gs-orchestrated-campaigns.md)<br/><br/> creeer en beheer relationele Schema&#39;s en Datasets:</br> <ul><li>[ worden begonnen met Schema&#39;s en Datasets ](../gs-schemas.md)</li><li>[ Handmatig schema ](../manual-schema.md)</li><li>[ het uploadschema van het Dossier ](../file-upload-schema.md)</li><li>[ Ingest gegevens ](../ingest-data.md)</li></ul>[ toegang en beheer georkestreerde campagnes ](../access-manage-orchestrated-campaigns.md) | [ Zeer belangrijke stappen om een georkestreerde campagne ](../gs-campaign-creation.md)<br/><br/>[ tot stand te brengen en te plannen de campagne ](../create-orchestrated-campaign.md)<br/><br/>[ activiteiten van het Orchestrate ](../orchestrate-activities.md)<br/><br/>[ Begin en de campagne ](../start-monitor-campaigns.md)<br/><br/>[ Meldend ](../reporting-campaigns.md) te controleren | [ Werk met de regelbouwer ](../orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](../build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](../edit-expressions.md)<br/><br/>[ opnieuw op ](../retarget.md) | [ wordt begonnen met activiteiten ](about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](and-join.md) - [ bouwt publiek ](build-audience.md) - [ dimensie van de Verandering ](change-dimension.md) - [ de activiteiten van het Kanaal ](channels.md) - [ combineren ](combine.md) - [ Deduplicatie ](deduplication.md) - [ Verrijking ](enrichment.md) Formeel k [ - ](fork.md) Verzoening [ - ](reconciliation.md) sparen publiek <b>[ - ](save-audience.md)</b> Gesplitst [ - ](split.md) wacht [](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -54,11 +54,13 @@ Voer de volgende stappen uit om de **[!UICONTROL Save audience]** -activiteit te
 
 1. Voer een **[!UICONTROL Audience label]** in die het opgeslagen publiek identificeert.
 
-1. Klik op **[!UICONTROL Add audience attribute]** om te definiëren hoe de publieksgegevens worden gestructureerd en opgeslagen voor toekomstig hergebruik.
+1. Kies een **[!UICONTROL Profile mapping field &#x200B;]** optie in de doeldimensie van uw campagne.
+
+   ➡️ [ volg de stappen in deze pagina worden gedetailleerd om uw Campagne te creëren richtend afmeting ](../target-dimension.md)
 
    ![](../assets/save-audience-1.png)
 
-1. Selecteer vervolgens de juiste **[!UICONTROL Primary identity field]** &#x200B; en **[!UICONTROL Identity namespace]** voor een nauwkeurige profielresolutie.
+1. Klik op **[!UICONTROL Add audience mappings]** als u het opgeslagen publiek wilt koppelen aan extra identiteitsvelden.
 
    ![](../assets/save-audience-2.png)
 
@@ -66,10 +68,8 @@ Voer de volgende stappen uit om de **[!UICONTROL Save audience]** -activiteit te
 
 De inhoud van het opgeslagen publiek is vervolgens beschikbaar in de gedetailleerde weergave van het publiek, die u kunt openen via het menu **[!UICONTROL Audiences]** .
 
-![](../assets/save-audience-3.png)
-
 ## Voorbeeld {#save-audience-example}
 
-In het volgende voorbeeld ziet u hoe u een eenvoudig publiek kunt maken door doelframes in te stellen. Een query identificeert alle profielen die een aankoop hebben gedaan in de afgelopen 30 dagen. De **[!UICONTROL Save audience]** -activiteit legt deze profielen vervolgens vast om een herbruikbaar publiek van recente kopers te maken.
+In het volgende voorbeeld ziet u hoe u een eenvoudig publiek kunt maken door doelframes in te stellen. Een vraag identificeert alle ontvangers die een reis in de laatste 30 dagen door deze bevolking binnen uw georkestreerde campagne te filtreren boekten. Door **Ontvangers te kiezen - CRMID** als **het richten dimensie**, richt het publiek elke individuele het boeken gebeurtenis eerder dan enkel de ontvanger als geheel. De **[!UICONTROL Save audience]** -activiteit legt deze profielen vervolgens vast om een herbruikbaar publiek van recente kopers te maken.
 
-![](../assets/save-audience-4.png)
+![](../assets/save-audience-3.png)
