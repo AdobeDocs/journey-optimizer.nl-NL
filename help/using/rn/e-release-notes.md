@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 085a86b0869a10536300329acc27914f12be6d7b
+source-git-commit: 24c34fd35c03acf8e83bfb8a913ad7e57afd7b7b
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '948'
 ht-degree: 0%
 
 ---
@@ -45,9 +45,9 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer ondersteunt nu direct WhatsApp-berichten, waardoor u probleemloos kunt integreren in uw reizen en campagnes voor betere communicatie en betrokkenheid van ontvangers.</p>
+<p>Journey Optimizer ondersteunt nu direct WhatsApp-berichten, waardoor u probleemloos kunt integreren in uw reizen en campagnes voor betere communicatie en betrokkenheid van ontvangers. Dit native kanaal biedt een oplossing voor de integratie van WhatsApp-sjablonen, de voorvertoning van berichten, personalisatie, rapportage van levering, webhaken, het beheer van de opt-in- en opt-out-toestemming en meer.</p>
 <p>Eerder in Beta is deze mogelijkheid nu beschikbaar voor alle omgevingen (algemene beschikbaarheid).</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><img src="../whatsapp/assets/do-not-localize/WA-Animation.gif"/><p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
