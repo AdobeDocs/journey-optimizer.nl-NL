@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a750a64105cc3939d8d6e2c96e109d6a39e21a9e
+source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2316'
 ht-degree: 4%
 
 ---
@@ -20,14 +20,14 @@ ht-degree: 4%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 
 ## Opmerkingen bij de pre-release juli 25 {#25-7-rn}
 
 **de Nota&#39;s van de pre hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd op de releasedatum.
 
-Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 29 juli, 2025
 
@@ -94,25 +94,6 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <table>
 <thead>
 <tr>
-<th><strong>Activiteiten in verband met inhoudsbeslissingen tijdens reizen</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>U kunt nu persoonlijke aanbiedingen opnemen in uw reizen door middel van een speciale actie voor het nemen van beslissingen over inhoud in het reiscanvas en deze gebruiken in reisactiviteiten, waaronder voorwaarden en aangepaste acties.</p>
-<img src="assets/do-not-localize/content-decision.gif">
-<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Optimalisatie in campagnes</strong><br/></th>
 </tr>
 </thead>
@@ -126,6 +107,29 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <li>Gebruikmakingsregels</li>
 <li>Geavanceerde combinaties van experimenten en doelwitten gebruiken binnen één campagne</li></ul>
 <P>Wanneer de campagne live is, worden profielen beoordeeld aan de hand van de gedefinieerde criteria en op basis van overeenkomstige criteria, worden ze geleverd met de juiste ervaring of inhoud van de campagne.</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Donkere modus in de Designer-e-mail</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>De Journey Optimizer Email Designer biedt nu de mogelijkheid om over te schakelen naar de weergave in de donkere modus, waar u bovendien specifieke aangepaste instellingen kunt definiëren die alleen worden weergegeven voor ontvangers die hun e-mails in de donkere modus lezen.</p>
+<p>Let op het volgende:</p>
+<ul>
+<li>De uiteindelijke rendering in de donkere modus kan variëren en is afhankelijk van de e-mailclient van de ontvanger.</li>
+<li>Niet alle e-mailclients ondersteunen de aangepaste donkere modus. Bovendien passen sommige e-mailclients alleen hun eigen standaard donkere modus toe op alle ontvangen e-mails. In beide gevallen kunnen de aangepaste instellingen die u in de e-mailtoepassing hebt gedefinieerd, niet worden weergegeven.</li>
+</ul>
+<P>Deze mogelijkheid is momenteel beschikbaar in bètaversie en alleen voor bètaklanten. Neem contact op met uw Adobe-vertegenwoordiger als u wilt deelnemen aan het bètaprogramma.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -205,10 +209,6 @@ Leer meer [ in dit FAQ ](../building-journeys/exp-event-lookup.md#faq-ee).
 
 De verbeteringen die bij deze release worden geleverd, worden hieronder weergegeven.
 
-- **Email Designer**
-   - De Journey Optimizer Email Designer biedt nu de mogelijkheid om over te schakelen naar de weergave in de donkere modus, waar u aanvullende specifieke aangepaste instellingen kunt definiëren. De uiteindelijke rendering is afhankelijk van de e-mailclient van de ontvanger. Bovendien ondersteunen niet alle e-mailclients de donkere modus.
-  <!-- [Read more](../FILE.md) -->
-
 - **Campagnes**
    - **regel-Gebaseerde Verdiskwalificatie van de Campagne** - in de kaarten van de Inhoud, wanneer het uitgeven van extra leveringsregels, is de vorige optie van de Regels van de Levering vervangen met drie verschillende regeltypes aan betere controle berichttiming en zicht:
       - Bericht weergeven als: voorwaarden die bepalen wanneer de inhoudskaart wordt weergegeven.
@@ -237,6 +237,9 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
    - **In-app Zeer belangrijke/paren van de Waarde** - met In-app berichten, kunt u Sleutel en paren van de Waarde bepalen om douanevariabelen in de berichtlading te omvatten. Deze zeer belangrijk-waardeparen laten u toe om extra gegevens over te gaan die op uw specifieke configuratie en gebruiksgeval worden gebaseerd.
   <!-- [Read more](../FILE.md) -->
 
+- **Beslissing**
+   - **het tooling APIs van de Migratie** - het team van Journey Optimizer werkt momenteel aan migratie tooling APIs om besluitvormingsbeheersentiteiten aan Beslissing te migreren. Met deze gereedschappen kunt u naadloze migratie mogelijk maken tussen sandboxen met de mogelijkheden voor afhankelijkheidsresolutie en terugdraaien. Neem indien nodig contact op met uw Adobe-vertegenwoordiger.
+
 
 ## Opmerkingen bij de release van juni &#39;25 {#25-6-rn}
 
@@ -245,7 +248,7 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 **de datum van de Versie**: 18 Juni, 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nieuwe functies {#25-06-features}
 

@@ -3,6 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Overschakelen naar donkere modus
 description: Meer informatie over het gebruik van de donkere modus in de Designer-e-mail
+badge: label="Beta" type="Informative"
 feature: Email Design
 topic: Content Management
 role: User
@@ -11,9 +12,9 @@ keywords: donkere modus, e-mail, kleur, editor
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 12b41a253693184e4e3d866f00e7d8b0a1e30ce3
+source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
 workflow-type: tm+mt
-source-wordcount: '1652'
+source-wordcount: '1655'
 ht-degree: 0%
 
 ---
@@ -34,6 +35,10 @@ ht-degree: 0%
 >id="ac_edition_darkmode_preview"
 >title="Overschakelen naar donkere modus"
 >abstract="Schakel over naar de donkere modus om te bekijken hoe deze kan worden weergegeven bij ondersteunde e-mailclients. <br> Voorzichtigheid: Het definitieve teruggeven hangt van de e-mailcliënt van de ontvanger af. Niet alle e-mailclients ondersteunen de aangepaste donkere modus."
+
+>[!AVAILABILITY]
+>
+>Deze mogelijkheid is momenteel beschikbaar in bètaversie en alleen voor bètaklanten. Neem contact op met uw Adobe-vertegenwoordiger als u wilt deelnemen aan het bètaprogramma.
 
 Wanneer het ontwerpen van uw e-mails, [!DNL Journey Optimizer] [ E-mail Designer ](get-started-email-design.md) staat u toe om aan **[!UICONTROL Dark mode]** te schakelen waar u specifieke douanemontages kunt bepalen. Wanneer de donkere modus is ingeschakeld, geven de ondersteunende e-mailclients de instellingen weer die u voor deze modus hebt gedefinieerd.
 
@@ -91,9 +96,10 @@ Volg onderstaande stappen om de donkere modus te openen in de E-mail-Designer en
 
 1. Selecteer de optie **[!UICONTROL Design from scratch]** op de homepage van Designer via e-mail. [Meer informatie](content-from-scratch.md)
 
-   >[!NOTE]
-   >
-   >Momenteel kunt u niet op donkere wijze kunnen schakelen als u een [ e-mailmalplaatje ](use-email-templates.md) selecteert of als u a [ thema ](apply-email-themes.md) toepast.
+<!--Should work with templates and themes, NOT for LP and fragments - but TBC with eng.
+    >[!NOTE]
+    >
+    >Currently you may not be able to switch to dark mode if you select an [email template](use-email-templates.md) or if you apply a [theme](apply-email-themes.md).-->
 
 1. Voeg [ structuren ](content-from-scratch.md) en [ inhoudcomponenten ](content-components.md) aan uw inhoud toe.
 
@@ -104,12 +110,8 @@ Volg onderstaande stappen om de donkere modus te openen in de E-mail-Designer en
 1. De standaardvoorvertoning in de donkere modus wordt weergegeven.
 
    ![](assets/dark-mode-default.png)
-<!--
-    >[!NOTE]
-    >
-    >Dark mode applies to all elements, except images and icons.-->
 
-Standaard wordt in de voorvertoning van de donkere modus van e-mail Designer het kleurschema &#39;full color invert&#39; toegepast op alle elementen behalve afbeeldingen en pictogrammen. <!--It fully inverts all colors for all the elements (texts, buttons, etc.)-->
+Standaard wordt in de voorvertoning van de donkere modus van e-mail Designer het kleurschema &#39;full color invert&#39; toegepast op alle elementen behalve afbeeldingen en pictogrammen.
 
 Het betekent dat gebieden met lichte en donkere elementen worden gedetecteerd en omgekeerd, zodat de lichte achtergronden donker worden en donkere tekst licht, terwijl donkere achtergronden licht worden en lichte tekst donker wordt.
 
@@ -135,7 +137,7 @@ Als u de aangepaste stijl voor de donkere modus van Designer via e-mail wilt geb
 
 Volg onderstaande stappen om aangepaste instellingen voor de donkere modus te definiëren.
 
-1. Zorg ervoor dat **[!UICONTROL Dark mode]** is ingeschakeld in de e-mailtoepassing van de Designer. [ leer hoe ](#preview-dark-mode)
+1. Zorg ervoor dat u overschakelt naar de voorvertoning van **[!UICONTROL Dark mode]** in de e-mailtoepassing Designer. [ leer hoe ](#preview-dark-mode)
 
 1. Bewerk alle opmaakkleurkenmerken, zoals tekst, achtergronden, knoppen, enz.
 
