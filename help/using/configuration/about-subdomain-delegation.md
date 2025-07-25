@@ -102,7 +102,7 @@ In de onderstaande tabel wordt een overzicht gegeven van de werking van deze met
 | **CNAME method** |  Create the subdomain and namespace record. Adobe will then provide the records to be placed in your DNS servers and will configure the corresponding values in Adobe Campaign DNS servers.<br/><br/>In this setup, both you and Adobe share responsibility for maintaining DNS. | High |
 | **Custom delegation method** |  Create the subdomain and namespace record - Adobe will then provide the records to be placed in your DNS servers. Upload the SSL Certificate obtained from the Certificate Authority and complete the Feedback Loop steps by verifying domain ownership and reporting email address.<br/><br/>In this setup, you have full responsibility for maintaining DNS. | Very high |-->
 
-De extra informatie over domeinconfiguratie is beschikbaar in [ deze documentatie ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html){target="_blank"}.
+De extra informatie over domeinconfiguratie is beschikbaar in [ deze documentatie ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=nl-NL){target="_blank"}.
 
 Als u een vraag hebt over configuratiemethoden voor subdomeinen, kunt u contact opnemen met Adobe of contact opnemen met de klantenservice om advies in te winnen over de leveringsmogelijkheden.
 
