@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
+source-git-commit: 82b1dd99e13b63a1b19b96211f4410a16dd82a9e
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Wanneer u inhoud bewerkt in [!DNL Journey Optimizer] , kunt u de inhoud geheel o
 
 >[!NOTE]
 >
->Wanneer het volgen in een reis of een campagne wordt toegelaten, als u verbindingen aan een fragment toevoegt en als dit fragment in een e-mail wordt gebruikt, worden deze verbindingen gevolgd zoals alle andere verbindingen inbegrepen in het bericht. [ leer meer op verbindingen en het volgen ](../email/message-tracking.md)
+>Wanneer het volgen in een reis of een campagne wordt toegelaten, als de verbindingen in een bewaard fragment aanwezig zijn en als dit fragment in een e-mail wordt gebruikt, worden deze verbindingen gevolgd zoals alle andere verbindingen inbegrepen in het bericht. [ leer meer op verbindingen en het volgen ](../email/message-tracking.md)
 
 ## Opslaan als visueel fragment {#save-as-visual-fragment}
 
@@ -51,7 +51,7 @@ Voer de volgende stappen uit om inhoud van de e-mailtoepassing als fragment op t
 
 1. Selecteer of creeer de markeringen van Adobe Experience Platform van het **gebied van Markeringen** om uw malplaatje voor beter onderzoek te categoriseren. [Meer informatie](../start/search-filter-categorize.md#tags)
 
-1. Klik op **[!UICONTROL Create]**. Het fragment wordt toegevoegd aan de [ fragmentlijst ](#access-manage-fragments) met de **3&rbrace; status van het Ontwerp &lbrace;.** Het wordt een zelfstandig fragment dat kan worden gebruikt als elk ander visueel fragment uit die lijst.
+1. Klik op **[!UICONTROL Create]**. Het fragment wordt toegevoegd aan de [ fragmentlijst ](#access-manage-fragments) met de **3} status van het Ontwerp {.** Het wordt een zelfstandig fragment dat kan worden gebruikt als elk ander visueel fragment uit die lijst.
 
    >[!NOTE]
    >
@@ -84,6 +84,6 @@ Voer de onderstaande stappen uit om inhoud op te slaan als een expressiefragment
 
    <!--An expression fragment cannot be nested inside another fragment.-->
 
-1. Het fragment wordt toegevoegd aan de [ fragmentlijst ](#access-manage-fragments) met de **3&rbrace; status van het Ontwerp &lbrace;.** Het wordt een zelfstandig fragment dat kan worden gebruikt als elk ander expressiefragment uit die lijst.
+1. Het fragment wordt toegevoegd aan de [ fragmentlijst ](#access-manage-fragments) met de **3} status van het Ontwerp {.** Het wordt een zelfstandig fragment dat kan worden gebruikt als elk ander expressiefragment uit die lijst.
 
 1. Als u het fragment wilt kunnen gebruiken tijdens reizen en campagnes, moet u het live maken. [ leer hoe te om een fragment ](../content-management/create-fragments.md#publish) voor te vertonen en te publiceren
