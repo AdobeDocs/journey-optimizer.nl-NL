@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie, subdomein
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Volg onderstaande stappen om gepersonaliseerde variabelen voor de parameters van
 
 Volg de onderstaande stappen om aangepaste URL-volgparameters te gebruiken.
 
-1. Ga naar de sectie **[!UICONTROL URL tracking parameters]** van uw configuratie van het e-mailkanaal.
+1. Ga naar de sectie **[!UICONTROL URL tracking parameters]** van uw configuratie van het e-mailkanaal. [Meer informatie](url-tracking.md)
 
 1. Klik op het pictogram Bewerken naast elk veld. Naast contextafhankelijke kenmerken kunt u ook profielkenmerken selecteren.
 

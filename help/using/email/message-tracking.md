@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: koppelingen, bijhouden, controleren, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1155'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ U kunt het bijhouden van e-mailberichten inschakelen door de opties **[!UICONTRO
 
 >[!BEGINTABS]
 
->[!TAB laat het volgen in een reis  toe]
+>[!TAB  laat het volgen in een reis ] toe
 
 ![](assets/message-tracking-journey.png)
 
@@ -48,6 +48,10 @@ Wanneer toegelaten, volgen deze opties het gedrag van de ontvangers van uw beric
 ## Koppelingen invoegen {#insert-links}
 
 Wanneer [ het volgen ](#enable-tracking) wordt toegelaten, worden alle verbindingen inbegrepen in de berichtinhoud gevolgd.
+
+>[!NOTE]
+>
+>Koppelingen van fragmenten die in een e-mail worden gebruikt, worden ook bijgehouden. [ Leer meer op fragmenten ](../content-management/fragments.md)
 
 Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
