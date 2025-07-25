@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
 source-wordcount: '2032'
 ht-degree: 8%
@@ -34,7 +34,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 <td>
 <p>Adobe Journey Optimizer ondersteunt nu CNAME's. Een CNAME, of Canonical Name verslag, is een verslag dat aan een ander domeinadres eerder dan een IP adres richt. De subdomeindelegatie van CNAME laat u toe om subdomain tot stand te brengen en CNAMEs te gebruiken om aan Adobe-specifieke verslagen te richten. Met behulp van deze configuratie delen u en Adobe de verantwoordelijkheid voor het onderhoud van DNS om een omgeving in te stellen voor het verzenden, renderen en volgen van e-mails.</p>
 <p>Deze methode wordt aanbevolen als het beleid van uw organisatie de methode voor volledige subdomeindelegatie beperkt.</p>
-<p>Leer meer over subdomain delegatie CNAME in de <a href="../configuration/delegate-subdomain.md#cname-subdomain-delegation"> gedetailleerde documentatie </a>.</p>
+<p>Leer meer over subdomain delegatie CNAME in de <a href="../configuration/delegate-subdomain.md#cname-subdomain-setup"> gedetailleerde documentatie </a>.</p>
 </td>
 </tr>
 </tbody>
@@ -78,7 +78,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 </table>
 
 
-Zie ook [ de Nota&#39;s van de Versie van Adobe Experience Platform Oktober ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=nl-NL){target="_blank"} voor meer veranderingen.
+Zie ook [ de Nota&#39;s van de Versie van Adobe Experience Platform Oktober ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html){target="_blank"} voor meer veranderingen.
 
 ### Verbeteringen
 
@@ -114,7 +114,7 @@ Zie ook [ de Nota&#39;s van de Versie van Adobe Experience Platform Oktober ](ht
 
 * Probleem verholpen waardoor de lijst met reizen, de berichtenlijst en de e-maillijst van Designer niet konden worden weergegeven als de browsertaal niet Engels was.
 * Probleem verholpen met een syntaxisfout die optrad bij het toevoegen van personalisatie met een expressie in de e-mailtoepassing: tekens zijn ten onrechte beschermd.
-* Vaste een kwestie die tot een fout 404 leidde toen het navigeren in het **1&rbrace; menu van het Beleid.**
+* Vaste een kwestie die tot een fout 404 leidde toen het navigeren in het **1} menu van het Beleid.**
 * Probleem verholpen waarbij andere live reizen werden geïnitieerd tijdens het testen van een reis met behulp van een zakelijke gebeurtenis.
 
 
@@ -163,7 +163,7 @@ Zie ook [ de Nota&#39;s van de Versie van Adobe Experience Platform Oktober ](ht
 **Reizen**
 
 * Systeem produceerde schema&#39;s en datasets die tijdens levering voor stapgebeurtenissen zijn gecreeerd zijn nu op read-only wijze, beschermend tegen om het even welke onbedoelde wijzigingen in kritieke schema&#39;s. [Meer informatie](../reports/sharing-overview.md)
-* Cleanly etiketteer **&#x200B;**&#x200B;activiteit met een etiket wachten dat in het canvas zal worden getoond. Het etiket wordt ook gebruikt in rapportering en testwijzelogboeken om duidelijk te identificeren wat u doet. [Meer informatie](../building-journeys/about-journey-activities.md#best-practices)
+* Cleanly etiketteer **** activiteit met een etiket wachten dat in het canvas zal worden getoond. Het etiket wordt ook gebruikt in rapportering en testwijzelogboeken om duidelijk te identificeren wat u doet. [Meer informatie](../building-journeys/about-journey-activities.md#best-practices)
 * Vind uw gebeurtenissen en acties sneller door elementen in de **Gebeurtenissen** en **categorieën van de Actie** te filtreren gebruikend onderzoek. Orchestratie-activiteiten worden niet meer gefilterd. [Meer informatie](../building-journeys/using-the-journey-designer.md)
 * Wanneer u een gebeurtenis-id-voorwaarde definieert in een op regels gebaseerde of zakelijke gebeurtenis, is de operator &quot;contains&quot; nu beschikbaar voor tekenreekstypen velden. [Meer informatie](../event/about-creating.md)
 

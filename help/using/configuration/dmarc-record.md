@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: subdomein, domein, mail, dmarc, record
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
 source-wordcount: '1452'
 ht-degree: 0%
@@ -104,7 +104,7 @@ Voer de onderstaande stappen uit om ervoor te zorgen dat u DMARC-recordinstellin
 
    * [ volledig afgevaardigd ](delegate-subdomain.md#full-subdomain-delegation) aan Adobe, wordt geen verdere actie vereist.
 
-   * Opstelling met [ CNAME ](delegate-subdomain.md#cname-subdomain-delegation), moet u het DNS verslag voor DMARC in uw het ontvangen oplossing kopiëren om de passende DNS verslagen te produceren.
+   * Opstelling met [ CNAME ](delegate-subdomain.md#cname-subdomain-setup), moet u het DNS verslag voor DMARC in uw het ontvangen oplossing kopiëren om de passende DNS verslagen te produceren.
 
      ![](assets/dmarc-record-edit-cname.png)
 

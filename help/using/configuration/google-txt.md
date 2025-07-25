@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: subdomein, google, txt, record, gmail, leverability
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 7%
@@ -29,7 +29,7 @@ Met [!DNL Journey Optimizer] kunt u speciale TXT-records voor de verificatie van
 
 >[!CAUTION]
 >
-> Deze bewerking kan alleen worden uitgevoerd als een subdomein de status **[!UICONTROL Success]** heeft. Voor meer op de statussen van subdomeinen, verwijs naar [ deze sectie ](about-subdomain-delegation.md#access-delegated-subdomains).
+> Deze bewerking kan alleen worden uitgevoerd als een subdomein de status **[!UICONTROL Success]** heeft. Voor meer op de statussen van subdomeinen, verwijs naar [ deze sectie ](delegate-subdomain.md#access-delegated-subdomains).
 
 Ga als volgt te werk om een Google TXT-record aan uw subdomein toe te voegen:
 

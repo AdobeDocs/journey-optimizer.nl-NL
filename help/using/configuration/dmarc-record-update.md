@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: subdomein, domein, mail, dmarc, record
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Daarom raadt Adobe u ten zeerste aan ervoor te zorgen dat DMARC-record is ingest
 of
    * Stel DMARC in op de gedelegeerde subdomeinen **in de gebruikersinterface van de[!DNL Journey Optimizer]** -configuratie, zonder extra werk voor de hostoplossing. [ leer hoe ](dmarc-record.md#implement-dmarc)
 
-* Als u opstelling uw verzendende subdomeinen met [ CNAME ](delegate-subdomain.md#cname-subdomain-delegation) hebt, volg één van de hieronder opties:
+* Als u opstelling uw verzendende subdomeinen met [ CNAME ](delegate-subdomain.md#cname-subdomain-setup) hebt, volg één van de hieronder opties:
 
    * Opstelling DMARC op uw subdomeinen of op het ouderdomein van uw subdomeinen **in uw het ontvangen oplossing**.
 of
@@ -66,8 +66,8 @@ of
 
 **Nuttige verbindingen**
 
-* Leer meer over DMARC in de [ Gids van de Beste praktijken van de Levering ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=nl-NL#about){target="_blank"} 
-* Lees uit de [ aankondiging van Google Gmail ](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"} 
-* Lees uit [ Yahoo! aankondiging ](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"} 
+* Leer meer over DMARC in de [ Gids van de Beste praktijken van de Levering ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"}
+* Lees uit de [ aankondiging van Google Gmail ](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
+* Lees uit [ Yahoo! aankondiging ](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
 
 <!--Find more guidance about these changes in the [Deliverability Best Practice Guide]-->

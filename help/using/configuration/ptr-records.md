@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: subdomein, PTR, records, DNS, domein, post
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Om een PTR- verslag met subdomain uit te geven die [ volledig ](delegate-subdoma
 
    ![](assets/ptr-record-select.png)
 
-1. Selecteer volledig subdomain [&#128279;](delegate-subdomain.md#full-subdomain-delegation) aan Adobe van de lijst wordt gedelegeerd.
+1. Selecteer volledig subdomain [ ](delegate-subdomain.md#full-subdomain-delegation) aan Adobe van de lijst wordt gedelegeerd.
 
    ![](assets/ptr-record-subdomain.png)
 
@@ -82,13 +82,13 @@ Om een PTR- verslag met subdomain uit te geven die [ volledig ](delegate-subdoma
 
 ### Gedelegeerde subdomeinen die de methode CNAME gebruiken {#edit-ptr-subdomains-cname}
 
-Om een PTR- verslag met subdomain uit te geven dat aan Adobe gebruikend de [ methode van de NAAM ](delegate-subdomain.md#cname-subdomain-delegation) wordt afgevaardigd, volg hieronder de stappen.
+Om een PTR- verslag met subdomain uit te geven dat aan Adobe gebruikend de [ methode van de NAAM ](delegate-subdomain.md#cname-subdomain-setup) wordt afgevaardigd, volg hieronder de stappen.
 
 1. Klik in de lijst op de naam van een PTR-record om deze te openen.
 
    ![](assets/ptr-record-select.png)
 
-1. Selecteer subdomain die aan Adobe wordt gedelegeerd gebruikend de [ methode van de NAAM ](delegate-subdomain.md#cname-subdomain-delegation) van de lijst.
+1. Selecteer subdomain die aan Adobe wordt gedelegeerd gebruikend de [ methode van de NAAM ](delegate-subdomain.md#cname-subdomain-setup) van de lijst.
 
    ![](assets/ptr-record-subdomain-cname.png)
 
