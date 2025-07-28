@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 0%
@@ -24,9 +24,9 @@ ht-degree: 0%
 
 +++ Inhoudsopgave
 
-| Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
+| Welkom bij Geordende campagnes | Start uw eerste geordende campagne | De database opvragen | Gecontroleerde campagnes |
 |---|---|---|---|
-| [ wordt begonnen met georkestreerde campagnes ](../gs-orchestrated-campaigns.md)<br/><br/> creeer en beheer relationele Schema&#39;s en Datasets:</br> <ul><li>[ worden begonnen met Schema&#39;s en Datasets ](../gs-schemas.md)</li><li>[ Handmatig schema ](../manual-schema.md)</li><li>[ het uploadschema van het Dossier ](../file-upload-schema.md)</li><li>[ Ingest gegevens ](../ingest-data.md)</li></ul>[ toegang en beheer georkestreerde campagnes ](../access-manage-orchestrated-campaigns.md) | [ Zeer belangrijke stappen om een georkestreerde campagne ](../gs-campaign-creation.md)<br/><br/>[ tot stand te brengen en te plannen de campagne ](../create-orchestrated-campaign.md)<br/><br/>[ activiteiten van het Orchestrate ](../orchestrate-activities.md)<br/><br/>[ Begin en de campagne ](../start-monitor-campaigns.md)<br/><br/>[ Meldend ](../reporting-campaigns.md) te controleren | [ Werk met de regelbouwer ](../orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](../build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](../edit-expressions.md)<br/><br/>[ opnieuw op ](../retarget.md) | [ wordt begonnen met activiteiten ](about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](and-join.md) - [ bouwt publiek ](build-audience.md) - [ dimensie van de Verandering ](change-dimension.md) - [ de activiteiten van het Kanaal ](channels.md) - [ combineren ](combine.md) - [ Deduplicatie ](deduplication.md) - [ Verrijking ](enrichment.md) Formeel k [ - ](fork.md) Verzoening [ - ](reconciliation.md) sparen publiek [ - ](save-audience.md) Gesplitst <b>[ - ](split.md)</b> wacht [&#128279;](wait.md) |
+| [ wordt begonnen met Geordende campagnes ](../gs-orchestrated-campaigns.md)<br/><br/> creeer en beheer relationele Schema&#39;s en Datasets:</br> <ul><li>[ worden begonnen met Schema&#39;s en Datasets ](../gs-schemas.md)</li><li>[ Handmatig schema ](../manual-schema.md)</li><li>[ het uploadschema van het Dossier ](../file-upload-schema.md)</li><li>[ Ingest gegevens ](../ingest-data.md)</li></ul>[ toegang en beheer Geordende campagnes ](../access-manage-orchestrated-campaigns.md) | [ Zeer belangrijke stappen om een Geordende campagne ](../gs-campaign-creation.md)<br/><br/>[ tot stand te brengen en de campagne te plannen ](../create-orchestrated-campaign.md)<br/><br/>[ activiteiten van het Orchestrate ](../orchestrate-activities.md)<br/><br/>[ Begin en de campagne ](../start-monitor-campaigns.md)<br/><br/>[ Meldend ](../reporting-campaigns.md) te controleren | [ Werk met de regelbouwer ](../orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](../build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](../edit-expressions.md)<br/><br/>[ opnieuw op ](../retarget.md) | [ wordt begonnen met activiteiten ](about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](and-join.md) - [ bouwt publiek ](build-audience.md) - [ dimensie van de Verandering ](change-dimension.md) - [ de activiteiten van het Kanaal ](channels.md) - [ combineren ](combine.md) - [ Deduplicatie ](deduplication.md) - [ Verrijking ](enrichment.md) Formeel k [ - ](fork.md) Verzoening [ - ](reconciliation.md) sparen publiek [ - ](save-audience.md) Gesplitst <b>[ - ](split.md)</b> wacht [](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -50,7 +50,7 @@ De **[!UICONTROL Split]** -activiteit is een **[!UICONTROL Targeting]** -activit
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_segments"
 >title="Segmenten voor splitsingsactiviteit"
->abstract="Voeg zoveel subsets toe als u wilt om de binnenkomende populatie te segmenteren.<br/></br> wanneer de **Gesplitste** activiteit wordt uitgevoerd, wordt de bevolking gesegmenteerd over de verschillende ondergroepen in de orde zij aan de activiteit worden toegevoegd. Voordat u de georkestreerde campagne start, moet u de subsets met de pijlknoppen in de gewenste volgorde plaatsen."
+>abstract="Voeg zoveel subsets toe als u wilt om de binnenkomende populatie te segmenteren.<br/></br> wanneer de **Gesplitste** activiteit wordt uitgevoerd, wordt de bevolking gesegmenteerd over de verschillende ondergroepen in de orde zij aan de activiteit worden toegevoegd. Voordat u de geordende campagne start, moet u de subsets met de pijlknoppen in de gewenste volgorde plaatsen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
@@ -89,7 +89,7 @@ De **[!UICONTROL Split]** -activiteit is een **[!UICONTROL Targeting]** -activit
 
 Voer de volgende stappen uit om de **[!UICONTROL Split]** -activiteit te configureren:
 
-1. Voeg een **[!UICONTROL Split]** activiteit aan uw georkestreerde campagne toe.
+1. Voeg een **[!UICONTROL Split]** activiteit aan uw Geordende campagne toe.
 
 1. Het deelvenster voor activiteitenconfiguratie wordt geopend met een standaardsubset. Klik op de knop **[!UICONTROL Add segment]** om zoveel subsets toe te voegen als u wilt om de binnenkomende populatie te segmenteren.
 
@@ -99,9 +99,9 @@ Voer de volgende stappen uit om de **[!UICONTROL Split]** -activiteit te configu
    >
    >De **Gesplitste** activiteitenprocessen subsets in de orde zij worden toegevoegd. Als de eerste subset bijvoorbeeld 70% van de bevolking opneemt, worden de criteria van de volgende subset toegepast op de resterende 30%.
    >
-   >Voordat u de georkestreerde campagne uitvoert, moet u ervoor zorgen dat de subsets volgens plan zijn geordend. Gebruik de pijlknoppen om de positie ervan aan te passen.
+   >Voordat u de geordende campagne uitvoert, moet u ervoor zorgen dat de subsets volgens plan zijn geordend. Gebruik de pijlknoppen om de positie ervan aan te passen.
 
-1. Nadat subsets zijn toegevoegd, toont de activiteit evenveel uitvoerovergangen als er subsets zijn. We raden u ten zeerste aan het label van elke subset te wijzigen om deze gemakkelijk te identificeren in het georkestreerde campagneccanvas.
+1. Nadat subsets zijn toegevoegd, toont de activiteit evenveel uitvoerovergangen als er subsets zijn. We raden u ten zeerste aan het label van elke subset te wijzigen om deze gemakkelijk te identificeren in het geordende campagneccanvas.
 
 1. Filters configureren voor elke subset:
 
@@ -127,7 +127,7 @@ Voer de volgende stappen uit om de **[!UICONTROL Split]** -activiteit te configu
 
    * **Als gecontroleerd**, kunnen de profielen in veelvoudige ondergroepen worden omvat als zij aan de criteria voor elk voldoen.
 
-De activiteit wordt nu gevormd. Bij de uitvoering van de georkestreerde campagne wordt de bevolking opgedeeld in de verschillende ondergroepen, in de volgorde waarin ze aan de activiteit zijn toegevoegd.
+De activiteit wordt nu gevormd. Bij de uitvoering van de geordende campagne wordt de populatie opgesplitst in de verschillende subgroepen, in de volgorde waarin ze aan de activiteit zijn toegevoegd.
 
 ## Voorbeeld{#split-example}
 

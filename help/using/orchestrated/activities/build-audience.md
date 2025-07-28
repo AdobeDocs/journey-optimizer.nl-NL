@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Gebruik de het publieksactiviteit van de Bouwstijl
-description: Leer hoe u de gebruikersactiviteit van de Build gebruikt in een georkestreerde campagne
+description: Leer hoe u de gebruikersactiviteit van de Build gebruikt in een geordende campagne
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 1%
@@ -19,13 +19,13 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
 >title="Activiteit voor publiek opbouwen"
->abstract="**bouwt publieksactiviteit** toestaat u om het publiek te bepalen dat de georkestreerde campagne zal ingaan. Wanneer het verzenden van berichten in de context van een georkestreerde campagne, wordt het berichtpubliek niet bepaald in de kanaalactiviteit, maar in a **bouwt publieksactiviteit**."
+>abstract="**bouwt publieksactiviteit** toestaat u om het publiek te bepalen dat de Geordende campagne zal ingaan. Wanneer het verzenden van berichten in de context van een Geordende campagne, wordt het berichtpubliek niet bepaald in de kanaalactiviteit, maar in a **bouwt publieksactiviteit**."
 
 +++ Inhoudsopgave
 
-| Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
+| Welkom bij Geordende campagnes | Start uw eerste geordende campagne | De database opvragen | Gecontroleerde campagnes |
 |---|---|---|---|
-| [ wordt begonnen met georkestreerde campagnes ](../gs-orchestrated-campaigns.md)<br/><br/> creeer en beheer relationele Schema&#39;s en Datasets:</br> <ul><li>[ worden begonnen met Schema&#39;s en Datasets ](../gs-schemas.md)</li><li>[ Handmatig schema ](../manual-schema.md)</li><li>[ het uploadschema van het Dossier ](../file-upload-schema.md)</li><li>[ Ingest gegevens ](../ingest-data.md)</li></ul>[ toegang en beheer georkestreerde campagnes ](../access-manage-orchestrated-campaigns.md) | [ Zeer belangrijke stappen om een georkestreerde campagne ](../gs-campaign-creation.md)<br/><br/>[ tot stand te brengen en te plannen de campagne ](../create-orchestrated-campaign.md)<br/><br/>[ activiteiten van het Orchestrate ](../orchestrate-activities.md)<br/><br/>[ Begin en de campagne ](../start-monitor-campaigns.md)<br/><br/>[ Meldend ](../reporting-campaigns.md) te controleren | [ Werk met de regelbouwer ](../orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](../build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](../edit-expressions.md)<br/><br/>[ opnieuw op ](../retarget.md) | [ wordt begonnen met activiteiten ](about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](and-join.md) - <b>[ bouwt publiek ](build-audience.md)</b> - [ dimensie van de Verandering ](change-dimension.md) - [ de activiteiten van het Kanaal ](channels.md) - [ combineren ](combine.md) - [ Deduplicatie ](deduplication.md) - [ Verrijking ](enrichment.md) Formeel k [ - ](fork.md) Verzoening [ - ](reconciliation.md) sparen publiek [ - ](save-audience.md) Gesplitst [ - ](split.md) wacht [&#128279;](wait.md) |
+| [ wordt begonnen met Geordende campagnes ](../gs-orchestrated-campaigns.md)<br/><br/> creeer en beheer relationele Schema&#39;s en Datasets:</br> <ul><li>[ worden begonnen met Schema&#39;s en Datasets ](../gs-schemas.md)</li><li>[ Handmatig schema ](../manual-schema.md)</li><li>[ het uploadschema van het Dossier ](../file-upload-schema.md)</li><li>[ Ingest gegevens ](../ingest-data.md)</li></ul>[ toegang en beheer Geordende campagnes ](../access-manage-orchestrated-campaigns.md) | [ Zeer belangrijke stappen om een Geordende campagne ](../gs-campaign-creation.md)<br/><br/>[ tot stand te brengen en de campagne te plannen ](../create-orchestrated-campaign.md)<br/><br/>[ activiteiten van het Orchestrate ](../orchestrate-activities.md)<br/><br/>[ Begin en de campagne ](../start-monitor-campaigns.md)<br/><br/>[ Meldend ](../reporting-campaigns.md) te controleren | [ Werk met de regelbouwer ](../orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](../build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](../edit-expressions.md)<br/><br/>[ opnieuw op ](../retarget.md) | [ wordt begonnen met activiteiten ](about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](and-join.md) - <b>[ bouwt publiek ](build-audience.md)</b> - [ dimensie van de Verandering ](change-dimension.md) - [ de activiteiten van het Kanaal ](channels.md) - [ combineren ](combine.md) - [ Deduplicatie ](deduplication.md) - [ Verrijking ](enrichment.md) Formeel k [ - ](fork.md) Verzoening [ - ](reconciliation.md) sparen publiek [ - ](save-audience.md) Gesplitst [ - ](split.md) wacht [](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -44,7 +44,7 @@ De inhoud op deze pagina is niet definitief en kan worden gewijzigd.
 
 Als een markeerteken kunt u complexe publiekssegmenten maken via een intuïtieve interface, zodat u gebruikers kunt richten op basis van een groot aantal criteria en gedragingen om uw campagnes effectiever op maat te maken.
 
-Gebruik hiervoor de **[!UICONTROL Build audience]** doelactiviteit. Deze activiteit bepaalt het publiek dat de georkestreerde campagne ingaat. Wanneer u berichten verzendt als onderdeel van een georkestreerde campagne, wordt het publiek gedefinieerd in de **[!UICONTROL Build audience]** -activiteit, niet in de georkestreerde campagne.
+Gebruik hiervoor de **[!UICONTROL Build audience]** doelactiviteit. Deze activiteit bepaalt het publiek dat de Geordende campagne ingaat. Wanneer u berichten verzendt als onderdeel van een geordende campagne, wordt het publiek gedefinieerd in de **[!UICONTROL Build audience]** -activiteit, niet in de geordende campagne.
 
 ## Vorm de het publieksactiviteit van de Bouwstijl {#build-audience-configuration}
 
@@ -73,6 +73,6 @@ Voer de volgende stappen uit om de **[!UICONTROL Build audience]** -activiteit t
 
 ## Voorbeelden{#build-audience-examples}
 
-Hier is een voorbeeld van een georkestreerde campagne met twee **[!UICONTROL Build audience]** activiteiten. De eerste doelen zijn profielen met items in hun winkelwagentje, gevolgd door een e-maillevering. De tweede richt profielen met een verlanglijst, gevolgd door een levering van SMS.
+Hier is een voorbeeld van een geordende campagne met twee **[!UICONTROL Build audience]** -activiteiten. De eerste doelen zijn profielen met items in hun winkelwagentje, gevolgd door een e-maillevering. De tweede richt profielen met een verlanglijst, gevolgd door een levering van SMS.
 
 ![](../assets/build-audience-2.png)

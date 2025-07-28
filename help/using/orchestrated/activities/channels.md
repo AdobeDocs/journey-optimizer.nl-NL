@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 855c45b5baec50865ac645eae707d5f1a5052b9b
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '1133'
 ht-degree: 1%
@@ -19,17 +19,17 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
 >title="E-mailactiviteit"
->abstract="Met de e-mailactiviteit kunt u e-mails verzenden binnen uw georkestreerde campagne, voor zowel eenmalige als terugkerende berichten. Hiermee wordt het proces geautomatiseerd waarbij e-mails worden verzonden naar een doel dat is berekend binnen dezelfde georkestreerde campagne. U kunt kanaalactiviteiten combineren tot een uit meerdere stappen bestaand campagnecanvas om kanaalcampagnes te maken die acties op klantengedrag en gegevens kunnen teweegbrengen."
+>abstract="Met de e-mailactiviteit kunt u e-mails verzenden binnen uw geordende campagne, voor zowel eenmalige als terugkerende berichten. Hiermee wordt het proces geautomatiseerd waarbij e-mails worden verzonden naar een doel dat is berekend binnen dezelfde geordende campagne. U kunt kanaalactiviteiten combineren tot een uit meerdere stappen bestaand campagnecanvas om kanaalcampagnes te maken die acties op klantengedrag en gegevens kunnen teweegbrengen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="SMS-activiteit"
->abstract="Met de SMS-activiteit kunt u SMS verzenden binnen uw georkestreerde campagne voor zowel eenmalige als terugkerende berichten. Het dient om het proces te automatiseren om SMS naar een doel te verzenden dat binnen de zelfde georkestreerde campagne wordt berekend. U kunt kanaalactiviteiten combineren tot het campagnecanvas met meerdere stappen om kanaalcampagnes te maken die acties kunnen activeren op basis van het gedrag en de gegevens van de klant."
+>abstract="Met de SMS-activiteit kunt u SMS verzenden binnen uw geordende campagne voor zowel eenmalige als terugkerende berichten. Het dient om het proces te automatiseren om SMS naar een doel te verzenden dat binnen de zelfde Geordende campagne wordt berekend. U kunt kanaalactiviteiten combineren tot het campagnecanvas met meerdere stappen om kanaalcampagnes te maken die acties kunnen activeren op basis van het gedrag en de gegevens van de klant."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push"
 >title="Push-activiteit"
->abstract="Met de pushactiviteit kunt u pushmeldingen verzenden als onderdeel van uw georkestreerde campagne. Het laat de levering van zowel eenmalige als terugkerende georkestreerde campagnes toe, die de verzendende Push berichten aan een vooraf bepaald doel binnen de zelfde georkestreerde campagne automatiseren. U kunt kanaalactiviteiten in het campagnecanvas combineren om kanaalcampagnes te creëren die acties kunnen teweegbrengen die op klantengedrag en gegevens worden gebaseerd."
+>abstract="Met de pushactiviteit kunt u pushmeldingen verzenden als onderdeel van uw geordende campagne. Het laat de levering van zowel eenmalige als terugkomende Geordende campagnes toe, die de verzendende Push berichten aan een vooraf bepaald doel binnen de zelfde Geordende campagne automatiseren. U kunt kanaalactiviteiten in het campagnecanvas combineren om kanaalcampagnes te creëren die acties kunnen teweegbrengen die op klantengedrag en gegevens worden gebaseerd."
 
 <!--
 UNUSED IDs in BJ
@@ -37,26 +37,26 @@ UNUSED IDs in BJ
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_ios"
 >title="Push iOS activity"
->abstract="The Push iOS activity let you send iOS Push notifications as part of your orchestrated campaign. It enables the delivery of both one-time and recurring orchestrated campaigns, automating the sending iOS Push notifications to a predefined target within the same workflow. You can combine channel activities into the campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
+>abstract="The Push iOS activity let you send iOS Push notifications as part of your Orchestrated campaign. It enables the delivery of both one-time and recurring Orchestrated campaigns, automating the sending iOS Push notifications to a predefined target within the same workflow. You can combine channel activities into the campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_android"
 >title="Push Android activity"
->abstract="The Push Android activity ket you send Android Push notifications as part of your orchestrated campaign. It enables the delivery of both one-time and recurring messages, automating the sending Android Push notifications to a predefined target within the same orchestrated campaign. You can combine channel activities into the orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
+>abstract="The Push Android activity ket you send Android Push notifications as part of your Orchestrated campaign. It enables the delivery of both one-time and recurring messages, automating the sending Android Push notifications to a predefined target within the same Orchestrated campaign. You can combine channel activities into the Orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
 
 -->
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_directmail"
 >title="Directe post"
->abstract="De direct-mailactiviteit vergemakkelijkt direct mail verzenden binnen uw georkestreerde campagne, voor zowel eenmalige als terugkomende berichten. Hiermee wordt het genereren van het extractiebestand geautomatiseerd dat is vereist door directe-mailproviders. U kunt kanaalactiviteiten in het georkestreerde campagnecanvas combineren om kanaalcampagnes te creëren die acties kunnen teweegbrengen die op klantengedrag en gegevens worden gebaseerd."
+>abstract="De direct-mailactiviteit vergemakkelijkt direct mail verzenden binnen uw Geordende campagne, voor zowel eenmalige als terugkomende berichten. Hiermee wordt het genereren van het extractiebestand geautomatiseerd dat is vereist door directe-mailproviders. U kunt kanaalactiviteiten in het Geordende campagnecanvas combineren om kanaalcampagnes tot stand te brengen die acties kunnen teweegbrengen die op klantengedrag en gegevens worden gebaseerd."
 
 
 +++ Inhoudsopgave
 
-| Welkom bij georkestreerde campagnes | Start uw eerste georkestreerde campagne | De database opvragen | Gecontroleerde campagnes |
+| Welkom bij Geordende campagnes | Start uw eerste geordende campagne | De database opvragen | Gecontroleerde campagnes |
 |---|---|---|---|
-| [ wordt begonnen met georkestreerde campagnes ](../gs-orchestrated-campaigns.md)<br/><br/> creeer en beheer relationele Schema&#39;s en Datasets:</br> <ul><li>[ worden begonnen met Schema&#39;s en Datasets ](../gs-schemas.md)</li><li>[ Handmatig schema ](../manual-schema.md)</li><li>[ het uploadschema van het Dossier ](../file-upload-schema.md)</li><li>[ Ingest gegevens ](../ingest-data.md)</li></ul>[ toegang en beheer georkestreerde campagnes ](../access-manage-orchestrated-campaigns.md) | [ Zeer belangrijke stappen om een georkestreerde campagne ](../gs-campaign-creation.md)<br/><br/>[ tot stand te brengen en te plannen de campagne ](../create-orchestrated-campaign.md)<br/><br/>[ activiteiten van het Orchestrate ](../orchestrate-activities.md)<br/><br/>[ Begin en de campagne ](../start-monitor-campaigns.md)<br/><br/>[ Meldend ](../reporting-campaigns.md) te controleren | [ Werk met de regelbouwer ](../orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](../build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](../edit-expressions.md)<br/><br/>[ opnieuw op ](../retarget.md) | [ wordt begonnen met activiteiten ](about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](and-join.md) - [ bouwt publiek ](build-audience.md) - [ dimensie van de Verandering ](change-dimension.md) - <b>[ de activiteiten van het Kanaal ](channels.md)</b> - [ combineren ](combine.md) - [ Deduplicatie ](deduplication.md) - [ Verrijking ](enrichment.md) Formeel k [ - ](fork.md) Verzoening [ - ](reconciliation.md) sparen publiek [ - ](save-audience.md) Gesplitst [ - ](split.md) wacht [&#128279;](wait.md) |
+| [ wordt begonnen met Geordende campagnes ](../gs-orchestrated-campaigns.md)<br/><br/> creeer en beheer relationele Schema&#39;s en Datasets:</br> <ul><li>[ worden begonnen met Schema&#39;s en Datasets ](../gs-schemas.md)</li><li>[ Handmatig schema ](../manual-schema.md)</li><li>[ het uploadschema van het Dossier ](../file-upload-schema.md)</li><li>[ Ingest gegevens ](../ingest-data.md)</li></ul>[ toegang en beheer Geordende campagnes ](../access-manage-orchestrated-campaigns.md) | [ Zeer belangrijke stappen om een Geordende campagne ](../gs-campaign-creation.md)<br/><br/>[ tot stand te brengen en de campagne te plannen ](../create-orchestrated-campaign.md)<br/><br/>[ activiteiten van het Orchestrate ](../orchestrate-activities.md)<br/><br/>[ Begin en de campagne ](../start-monitor-campaigns.md)<br/><br/>[ Meldend ](../reporting-campaigns.md) te controleren | [ Werk met de regelbouwer ](../orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](../build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](../edit-expressions.md)<br/><br/>[ opnieuw op ](../retarget.md) | [ wordt begonnen met activiteiten ](about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](and-join.md) - [ bouwt publiek ](build-audience.md) - [ dimensie van de Verandering ](change-dimension.md) - <b>[ de activiteiten van het Kanaal ](channels.md)</b> - [ combineren ](combine.md) - [ Deduplicatie ](deduplication.md) - [ Verrijking ](enrichment.md) Formeel k [ - ](fork.md) Verzoening [ - ](reconciliation.md) sparen publiek [ - ](save-audience.md) Gesplitst [ - ](split.md) wacht [](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -72,7 +72,7 @@ De inhoud op deze pagina is niet definitief en kan worden gewijzigd.
 
 >[!ENDSHADEBOX]
 
-Met [!DNL Adobe Journey Optimizer] kunt u marketingcampagnes automatiseren en uitvoeren via verschillende kanalen: e-mail, SMS en pushberichten. U kunt deze kanaalactiviteiten in het campagnecanvas combineren om kanaalgeorkestreerde campagnes tot stand te brengen die acties kunnen teweegbrengen die op klantengedrag en gegevens worden gebaseerd.
+Met [!DNL Adobe Journey Optimizer] kunt u marketingcampagnes automatiseren en uitvoeren via verschillende kanalen: e-mail, SMS en pushberichten. U kunt deze kanaalactiviteiten in het campagnecanvas combineren om dwars-kanaal Geordende campagnes tot stand te brengen die acties kunnen teweegbrengen die op klantengedrag en gegevens worden gebaseerd.
 
 Bijvoorbeeld:
 * Verzend een welkomstreeks via e-mail, SMS en push.
@@ -117,7 +117,7 @@ Gebruik het tabblad **[!UICONTROL Actions]** om een kanaalconfiguratie voor uw b
 
 1. **laat Snelle leveringswijze** toe (Duw)
 
-   De snelle leveringswijze is een [!DNL Journey Optimizer] toe:voegen-op die zeer snelle pushbericht toestaat die in grote volumes door campagnes verzenden. Snelle levering wordt gebruikt wanneer de vertraging in berichtlevering zaken-kritiek is, wanneer u een dringende duwalarm op mobiele telefoons wilt verzenden, bijvoorbeeld een breekbericht aan gebruikers die uw nieuwskanaal app hebben geïnstalleerd. Voor meer informatie over prestaties wanneer het gebruiken van Snelle leveringswijze, verwijs naar [ het productbeschrijving van Adobe Journey Optimizer ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html).
+   De snelle leveringswijze is een [!DNL Journey Optimizer] toe:voegen-op die zeer snelle pushbericht toestaat die in grote volumes door campagnes verzenden. Snelle levering wordt gebruikt wanneer de vertraging in berichtlevering zaken-kritiek is, wanneer u een dringende duwalarm op mobiele telefoons wilt verzenden, bijvoorbeeld een breekbericht aan gebruikers die uw nieuwskanaal app hebben geïnstalleerd. Voor meer informatie over prestaties wanneer het gebruiken van Snelle leveringswijze, verwijs naar [ het productbeschrijving van Adobe Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html).
 
 1. **creeer een inhoudexperiment**
 
@@ -143,17 +143,17 @@ Schakel over naar het tabblad **[!UICONTROL Content]** om uw bericht te maken. D
 
 ## Aanpassing toevoegen
 
-Personalization werkt in georkestreerde campagnes op dezelfde manier als andere **[!UICONTROL Journey Optimizer]** -campagnes of -reizen, maar met enkele belangrijke verschillen die specifiek zijn voor het georkestreerde canvas.
+Personalization in geordende campagnes werkt op dezelfde manier als andere **[!UICONTROL Journey Optimizer]** -campagnes of -reizen, maar met enkele belangrijke verschillen die specifiek zijn voor het georkestreerde canvas.
 
-Wanneer u tot de verpersoonlijkingsredacteur van een georkestreerde campagne toegang hebt, bevatten twee belangrijkste omslagen eigenschappen beschikbaar voor verpersoonlijking die hieronder wordt gedetailleerd.
+Wanneer u tot de verpersoonlijkingsredacteur van een Geordende campagne toegang hebt, bevatten twee belangrijkste omslagen eigenschappen beschikbaar voor verpersoonlijking die hieronder wordt gedetailleerd.
 
 * **[!UICONTROL Profile attributes]**
 
   Deze map bevat alle profielgerelateerde gegevens van [!DNL Adobe Experience Platform] . Dit zijn standaardkenmerken zoals naam, e-mailadres, locatie of andere kenmerken die in het gebruikersprofiel zijn vastgelegd.
 
-* **[!UICONTROL Target attributes]** (specifiek voor georkestreerde campagnes)
+* **[!UICONTROL Target attributes]** (specifiek voor geordende campagnes)
 
-  Deze map is uniek voor georkestreerde campagnes. Deze bevat kenmerken die rechtstreeks binnen het canvas van de campagne worden berekend. Deze bevat twee submappen:
+  Deze map is uniek voor geordende campagnes. Deze bevat kenmerken die rechtstreeks binnen het canvas van de campagne worden berekend. Deze bevat twee submappen:
 
    * **`<Targeting dimension>`** (bijv. &quot;Ontvangers&quot;, &quot;Aankopen&quot;): bevat alle kenmerken die betrekking hebben op de dimensie waarop uw campagne betrekking heeft.
 
@@ -173,14 +173,14 @@ Once the content is created, use the **[!UICONTROL Simulate Content]** button to
 
 ## Volgende stappen {#next}
 
-Wanneer de inhoud van het bericht gereed is, navigeert u met de pijl **[!UICONTROL Back]** terug naar uw georkestreerde campagne. Vervolgens kunt u de activiteiten op het canvas ordenen en de campagne publiceren om de berichten te verzenden. [ Leer hoe te om georkestreerde campagnes te beginnen en te controleren ](../start-monitor-campaigns.md)
+Wanneer de berichtinhoud klaar is, navigeert u met de pijl **[!UICONTROL Back]** terug naar uw geordende campagne. Vervolgens kunt u de activiteiten op het canvas ordenen en de campagne publiceren om de berichten te verzenden. [ leren hoe te om Geordende campagnes te beginnen en te controleren ](../start-monitor-campaigns.md)
 
 ![ beeld dat de achterknoop ](../assets/channel-back.png) toont
 
 <!--
 ## Examples {#cross-channel-workflow-sample}
 
-Here is a cross-channel orchestrated campaign example with a segmentation and two deliveries. The orchestrated campaign targets all customers who live in Paris and who are interested in coffee machines. Among this population, an email is sent to the regular customers and an SMS is sent to the VIP clients.
+Here is a cross-channel Orchestrated campaign example with a segmentation and two deliveries. The Orchestrated campaign targets all customers who live in Paris and who are interested in coffee machines. Among this population, an email is sent to the regular customers and an SMS is sent to the VIP clients.
 
 ![](../assets/workflow-channel-example.png)
 
@@ -194,7 +194,7 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-<!--You can also create a recurring orchestrated campaign to send a personalized SMS every first day of the month at 8 PM to all customers living in Paris.
+<!--You can also create a recurring Orchestrated campaign to send a personalized SMS every first day of the month at 8 PM to all customers living in Paris.
 
 ![](../assets/workflow-channel-example2.png)-->
 
