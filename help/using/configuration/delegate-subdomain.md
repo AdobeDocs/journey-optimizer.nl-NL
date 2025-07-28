@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdomein, delegatie, domein, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
+source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
 workflow-type: tm+mt
-source-wordcount: '1859'
+source-wordcount: '1868'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,18 @@ ht-degree: 2%
 >id="ajo_admin_subdomainname"
 >title="Subdomeindelegatie"
 >abstract="Met Journey Optimizer kunt u uw subdomeinen delegeren aan Adobe. U kunt een subdomein volledig delegeren aan Adobe, wat de geadviseerde methode is. </br> u kunt subdomain ook creëren gebruikend CNAMEs om aan Adobe-specifieke verslagen te richten, maar deze benadering vereist u om DNS verslagen op uw te handhaven en te beheren."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="Methoden voor subdomeinconfiguratie"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="Methoden voor subdomeinconfiguratie"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname_header"
 >title="Subdomeindelegatie"
 >abstract="Als u e-mailberichten wilt verzenden, delegeert u uw subdomein naar Adobe. Zodra gedaan, DNS verslagen, inboxes, afzender, antwoord aan en stuitend adressen zullen voor u worden gevormd."
 
-De domeinnaamdelegatie is een methode die de eigenaar van een domeinnaam (technisch: een DNS-zone) toestaat om een onderverdeling van de domeinnaam (technisch: een DNS-zone eronder, die een subzone kan worden genoemd) aan een andere entiteit te delegeren. In feite kunt u als klant, als u de zone &quot;example.com&quot; afhandelt, de subzone &quot;marketing.example.com&quot; delegeren aan Adobe. Leer meer over [ subdomain delegatie ](about-subdomain-delegation.md)
+De domeinnaamdelegatie is een methode die de eigenaar van een domeinnaam (technisch: een DNS-zone) toestaat om een onderverdeling van de domeinnaam (technisch: een DNS-zone eronder, die een subzone kan worden genoemd) aan een andere entiteit te delegeren. In feite kunt u als klant, als u de zone &quot;example.com&quot; afhandelt, de subzone &quot;marketing.example.com&quot; delegeren aan Adobe.
 
-Door gebrek, [!DNL Journey Optimizer] staat u toe om **tot 10 subdomeinen** af te vaardigen. Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen delegeren. Neem contact op met uw Adobe-contactpersoon voor meer informatie over het aantal subdomeinen waarop u recht hebt.
+>[!NOTE]
+>
+>Leer meer over subdomain delegatie en de verschillende methodes beschikbaar met [!DNL Journey Optimizer] in [ deze sectie ](about-subdomain-delegation.md).
 
 U kunt:
 
@@ -40,9 +42,19 @@ U kunt:
 
 De **volledige subdomain delegatie** is de geadviseerde methode. Leer meer over de verschillen tussen de verschillende methodes van de subdomeinconfiguratie in [ deze sectie ](about-subdomain-delegation.md#subdomain-delegation-methods).
 
->[!CAUTION]
->
->Parallelle verzending van subdomeinen wordt niet ondersteund in [!DNL Journey Optimizer] . Als u een subdomein probeert te verzenden voor delegatie wanneer een ander subdomein de **[!UICONTROL Processing]** status heeft, wordt een foutbericht weergegeven.
+## Guardrails {#guardrails}
+
+Volg de onderstaande instructies en aanbevelingen bij het instellen van subdomeinen in [!DNL Journey Optimizer] .
+
+* Door gebrek, [!DNL Journey Optimizer] staat u toe om **een maximum van 10 subdomeinen** af te vaardigen. Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen delegeren. Neem contact op met uw Adobe-contactpersoon voor meer informatie over het aantal subdomeinen waarop u recht hebt.
+
+* Parallelle verzending van subdomeinen wordt niet ondersteund in [!DNL Journey Optimizer] . Als u een subdomein probeert te verzenden voor delegatie wanneer een ander subdomein de **[!UICONTROL Processing]** status heeft, wordt een foutbericht weergegeven.
+
+* Het delegeren van een ongeldig subdomein naar Adobe is niet toegestaan. Zorg ervoor dat u een geldig subdomein invoert dat eigendom is van uw organisatie, zoals marketing.yourcompany.com.
+
+* U kunt niet hetzelfde verzendende domein gebruiken om berichten van [!DNL Adobe Journey Optimizer] en van een ander product, zoals [!DNL Adobe Campaign] of [!DNL Adobe Marketo Engage] , te verzenden.
+
+* Het delegeren van zowel een bovenliggend domein als een subdomein wordt niet ondersteund. Als u bijvoorbeeld subdomain.domain.com hebt gedelegeerd, kunt u email.subdomain.domain.com niet delegeren. En als u email.subdomain.domain.com hebt gedelegeerd, kunt u subdomain.domain.com niet delegeren.
 
 ## Gedelegeerde subdomeinen benaderen {#access-delegated-subdomains}
 
@@ -69,7 +81,7 @@ U kunt:
 
 >[!CAUTION]
 >
->Subdomeinconfiguratie is algemeen voor alle omgevingen. Daarom zal elke wijziging aan een subdomein ook invloed hebben op de productiesandboxen.
+>Subdomeinconfiguratie is **gemeenschappelijk aan alle milieu&#39;s**. Daarom zal elke wijziging aan een subdomein ook invloed hebben op de productiesandboxen.
 
 ## Een subdomein instellen in Journey Optimizer {#set-up-subdomain}
 
@@ -79,19 +91,14 @@ U kunt:
 >abstract="Als u een nieuw subdomein volledig wilt delegeren aan Adobe, moet u de Adobe-gegevens van de nameserver die in de Journey Optimizer-interface worden weergegeven kopiëren en plakken in uw domein-ontvangende oplossing om de overeenkomende DNS-records te genereren. Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, moet u ook de SSL CDN URL-validatierecord kopiëren en plakken. Zodra de controles succesvol zijn, is subdomain klaar om worden gebruikt om berichten te leveren."
 
 Volg onderstaande stappen om een nieuw subdomein in te stellen in [!DNL Journey Optimizer] .
-
+<!--
 >[!NOTE]
 >
->Deze sectie beschrijft hoe te opstelling een subdomain gebruikend de volledige delegatie of methodes CNAME. De methode van de douanedelegatie wordt gedetailleerd in [ deze sectie ](#setup-custom-subdomain).
-
+>This section describes how to set up a subdomain using the full delegation. The custom delegation method is detailed in [this section](#setup-custom-subdomain).-->
 
 1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email settings]** > **[!UICONTROL Subdomains]** en klik op **[!UICONTROL Set up subdomain]** .
 
    <!--![](assets/subdomain-delegate.png)-->
-
-   >[!CAUTION]
-   >
-   >Subdomeinconfiguratie is **gemeenschappelijk aan alle milieu&#39;s**. Daarom heeft elke wijziging van een subdomein ook invloed op de productiesandboxen.
 
 1. Selecteer in de sectie **[!UICONTROL Set up method]** een van de volgende opties:
 
@@ -105,14 +112,14 @@ Volg onderstaande stappen om een nieuw subdomein in te stellen in [!DNL Journey 
 1. Geef de naam op van het subdomein dat u wilt delegeren.
 
    ![](assets/subdomain-name.png)
+<!--
+    >[!CAUTION]
+    >
+    >Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
+    >
+    >You cannot use the same sending domain to send out messages from [!DNL Adobe Journey Optimizer] and from another product, such as [!DNL Adobe Campaign] or [!DNL Adobe Marketo Engage].
 
-   >[!CAUTION]
-   >
-   >Het delegeren van een ongeldig subdomein naar Adobe is niet toegestaan. Zorg ervoor dat u een geldig subdomein invoert dat eigendom is van uw organisatie, zoals marketing.yourcompany.com.
-   >
-   >U kunt niet hetzelfde verzendende domein gebruiken om berichten van [!DNL Adobe Journey Optimizer] en van een ander product, zoals [!DNL Adobe Campaign] of [!DNL Adobe Marketo Engage] , te verzenden.
-
-   <!--Capital letters are not allowed in subdomains. TBC by PM-->
+    Capital letters are not allowed in subdomains. TBC by PM-->
 
 1. Stel **[!UICONTROL DMARC record]** in de betreffende sectie in. Als subdomain een bestaand [ verslag van DMARC ](dmarc-record.md) heeft, en als het door [!DNL Journey Optimizer] wordt gehaald, kunt u de zelfde waarden gebruiken of hen veranderen zoals nodig. Als u geen waarden toevoegt, worden de standaardwaarden gebruikt. [ Leer hoe te om het verslag van DMARC te beheren ](dmarc-record.md#set-up-dmarc)
 
