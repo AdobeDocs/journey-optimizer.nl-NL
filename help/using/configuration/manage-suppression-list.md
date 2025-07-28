@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: onderdrukken, lijst, stuiteren, e-mail, optimaliseren, quarantaine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 1adf4db1e76645b2c369b39d54ef97aff5be963d
+source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1541'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ Mogelijke oorzaken voor een mislukte levering zijn:
 
 | Reden | Beschrijving | Categorie |
 | --- | --- | --- |
-| **[!UICONTROL Invalid Recipient]** | De ontvanger is ongeldig of bestaat niet. | Hard |
+| **[!UICONTROL Invalid Recipient]** | Het adres van de ontvanger is ongeldig of bestaat niet. | Hard |
 | **[!UICONTROL Soft Bounce]** | De berichtzachte die tegen een andere reden dan de zachte fouten in deze lijst worden vermeld, zoals wanneer het verzenden over het toegestane tarief door ISP wordt geadviseerd. | Zacht |
 | **[!UICONTROL DNS Failure]** | Het bericht dat als gevolg van een DNS-fout is teruggestuurd. | Zacht |
 | **[!UICONTROL Mailbox Full]** | Het bericht dat door de brievenbus van de ontvanger wordt teruggestuurd die volledig is en niet meer berichten kan goedkeuren. | Zacht |
@@ -162,7 +162,7 @@ Voer de onderstaande stappen uit om een groep e-mailadressen of domeinen toe te 
    DOMAIN,somedomain.com,Comment
    ```
 
-1. Vul de CSV-sjabloon in met de e-mailadressen en/of domeinen die u wilt toevoegen aan de suppressielijst. Alle ASCII bedrukbare karakters die tussen 32 en 126 worden samengesteld worden toegestaan in de **1&rbrace; kolom van de COMMENTAAR &lbrace;.**
+1. Vul de CSV-sjabloon in met de e-mailadressen en/of domeinen die u wilt toevoegen aan de suppressielijst. Alle ASCII bedrukbare karakters die tussen 32 en 126 worden samengesteld worden toegestaan in de **1} kolom van de COMMENTAAR {.**
 
    >[!CAUTION]
    >
