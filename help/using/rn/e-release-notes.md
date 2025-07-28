@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 24c34fd35c03acf8e83bfb8a913ad7e57afd7b7b
+source-git-commit: 3896015ea63a1d25a16744940ffc622b977ff4ce
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -216,9 +216,8 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 - **Reizen**
    - **de Tooling van Sandbox van de Reis Verbeteringen** - wanneer het kopiëren van reizen over veelvoudige zandbakken gebruikend de pakketuitvoer en de invoermogelijkheden, zijn de volgende mogelijkheden nu ook beschikbaar:
-      - Een bestaande gebeurtenis op het doel selecteren
       - Het kopiëren over een evenement onafhankelijk van een reis
-      - Het ontdekken van gebiedsgroep/gegevensbronverhoudingen, die met hen verbinden bij de bestemming als zij bestaan, creërend hen als zij niet.
+      - Gebeurtenissen, veldgroepen en gegevensbronnen detecteren en deze koppelen op de bestemming, indien aanwezig, en ze maken als dat niet het geval is.
   <!-- [Read more](../FILE.md) -->
 
 - **Kanaal - InApp**
