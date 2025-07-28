@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: zandbak, reis, exemplaar, milieu
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 4aaef970b76002c72e3c28f55078d96fdc3cd882
+source-git-commit: c90189d4b064e00bd2f2bdde67230aeb84dd97f6
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1585'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 U kunt objecten zoals reizen, aangepaste handelingen, inhoudssjablonen of fragmenten over meerdere sandboxen kopiëren met behulp van de opties voor exporteren en importeren van pakketten. Een pakket kan uit één object of uit meerdere objecten bestaan. Alle objecten die in een pakket zijn opgenomen, moeten afkomstig zijn uit dezelfde sandbox.
 
-Op deze pagina wordt het gebruik-hoofdlettergebruik voor Sandbox-gereedschappen in de context van Journey Optimizer beschreven. Voor meer informatie over de eigenschap zelf, verwijs naar de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=nl-NL).
+Op deze pagina wordt het gebruik-hoofdlettergebruik voor Sandbox-gereedschappen in de context van Journey Optimizer beschreven. Voor meer informatie over de eigenschap zelf, verwijs naar de het toolceregids van de zandbak van Adobe Experience Platform [ ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}.
 
 >[!NOTE]
 >
@@ -28,12 +28,13 @@ Op deze pagina wordt het gebruik-hoofdlettergebruik voor Sandbox-gereedschappen 
 
 Het kopieerproces wordt uitgevoerd via een pakketexport en importeren tussen de bron- en doelsandboxen. Hier volgen de algemene stappen voor het kopiëren van een reis van de ene naar de andere sandbox:
 
-1. Voeg het object dat u wilt exporteren als een pakket toe aan de bronsandbox.
-1. Exporteer het pakket naar de doelsandbox.
+1. [ voeg het voorwerp toe om als pakket in de bronzandbak ](#export) uit te voeren
+1. [Het pakket publiceren](#publish)
+1. [Het pakket importeren in de doelsandbox](#import)
 
 ## Geëxporteerde objecten en aanbevolen werkwijzen {#objects}
 
-Journey Optimizer staat het exporteren van reizen, aangepaste handelingen, inhoudssjablonen en fragmenten naar een andere sandbox toe. In de volgende secties vindt u informatie en tips en trucs voor elk type object.
+Journey Optimizer staat het exporteren van reizen, aangepaste handelingen, inhoudssjablonen, fragmenten en andere objecten naar een andere sandbox toe. In de volgende secties vindt u informatie en tips en trucs voor elk type object.
 
 ### Algemene beste praktijken {#global}
 
@@ -43,26 +44,34 @@ Journey Optimizer staat het exporteren van reizen, aangepaste handelingen, inhou
 
 * Landingspagina&#39;s worden momenteel niet ondersteund voor migratie tussen sandboxen. Wanneer u een reis naar een andere zandbak kopieert, zullen om het even welke verwijzingen naar landende pagina&#39;s in uw reis of e-mailinhoud nog naar originele (bron) zandbak landende pagina IDs richten. Na de migratie moet u alle verwijzingen naar bestemmingspagina&#39;s in uw reis en e-mailinhoud handmatig bijwerken om de juiste bestemmingspagina-id&#39;s van de doel-sandbox (doel) te gebruiken. Zie [ het landen pagina&#39;s ](../landing-pages/create-lp.md) creëren en publiceren.
 
++++ Journeys
 
-### Journeys {#journeys}
+* **gekopieerde gebiedsdelen** - wanneer het uitvoeren van een reis, naast de reis zelf, kopieert Journey Optimizer ook de meeste voorwerpen de reis van afhangt: publiek, douaneacties, schema&#39;s, gebeurtenissen en acties. Voor meer details op gekopieerde voorwerpen, verwijs naar de het hulpmiddelengids van Adobe Experience Platform [ zandbak ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}.
 
-* Bij het exporteren van een reis kopieert Journey Optimizer naast de reis zelf ook het grootste deel van de objecten waarvan de reis afhankelijk is: publiek, aangepaste acties, schema&#39;s, evenementen en acties. Voor meer details op gekopieerde voorwerpen, verwijs naar deze [ sectie ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=nl-NL#abobe-journey-optimizer-objects).
+* **Geadviseerde de Handmatige bevestiging** - wij waarborgen niet dat alle verbonden elementen aan de bestemmingszandbak worden gekopieerd. Wij adviseren ten zeerste dat u een grondige controle uitvoert, bijvoorbeeld alvorens een reis te publiceren. Zo kunt u elk mogelijk ontbrekend object identificeren.
 
-* We garanderen niet dat alle gekoppelde elementen naar de doelsandbox worden gekopieerd. Wij adviseren ten zeerste dat u een grondige controle uitvoert, bijvoorbeeld alvorens een reis te publiceren. Zo kunt u elk mogelijk ontbrekend object identificeren.
+* **wijze van het Ontwerp en uniciteit** - de gekopieerde voorwerpen in de doelzandbak zijn uniek en er is geen risico om bestaande elementen te beschrijven. Zowel de reis als alle berichten binnen de reis worden in de ontwerpmodus overgenomen. Hierdoor kunt u een grondige validatie uitvoeren voordat deze wordt gepubliceerd in de doelsandbox.
 
-* De gekopieerde objecten in de doelsandbox zijn uniek en er bestaat geen risico dat bestaande elementen worden overschreven. Zowel de reis als alle berichten binnen de reis worden in de ontwerpmodus overgenomen. Hierdoor kunt u een grondige validatie uitvoeren voordat deze wordt gepubliceerd in de doelsandbox.
+* **Meta-gegevens** - het exemplaarproces kopieert slechts over de meta-gegevens over de reis en de voorwerpen in die Reis. Er worden geen profiel- of gegevenssetgegevens gekopieerd als onderdeel van dit proces.
 
-* Het kopieerproces kopieert alleen de metagegevens over de reis en de objecten in die reis. Er worden geen profiel- of gegevenssetgegevens gekopieerd als onderdeel van dit proces.
+* **de acties van de Douane**
 
-### Aangepaste acties {#custom-actions}
+   * Wanneer het uitvoeren van douaneacties, worden de configuratie URL en de parameters van de lading gekopieerd over. Om veiligheidsredenen worden de verificatieparameters echter niet gekopieerd en vervangen door &quot;GEHEIM INSERT HIER&quot;. De waarden van de de verzoekkopbal en van de vraagparam van de constante worden van het verzoek ook vervangen door &quot;INSERT SECRET HERE&quot;.
 
-* Wanneer het uitvoeren van douaneacties, worden de configuratie URL en de parameters van de lading gekopieerd over. Om veiligheidsredenen worden de verificatieparameters echter niet gekopieerd en vervangen door &quot;GEHEIM INSERT HIER&quot;. De waarden van de de verzoekkopbal en van de vraagparam van de constante worden van het verzoek ook vervangen door &quot;INSERT SECRET HERE&quot;.
+     Dit zijn onder andere de aangepaste handelingen voor speciale doeleinden ([!DNL Adobe Campaign Standard] , [!DNL Campaign Classic] , [!DNL Marketo Engage] ).
 
-  Dit zijn onder andere de aangepaste handelingen voor speciale doeleinden ([!DNL Adobe Campaign Standard] , [!DNL Campaign Classic] , [!DNL Marketo Engage] ).
+   * Als u tijdens het importeren de optie &#39;Bestaande gebruiken&#39; selecteert voor een aangepaste handeling, moet de aangepaste actie die u selecteert, gelijk zijn aan de aangepaste bronactie (dus dezelfde configuratie, parameters, enzovoort) wanneer u een reis naar een andere sandbox kopieert. Anders bevat de nieuwe reiskopie fouten die niet op het canvas kunnen worden opgelost.
 
-* Als u tijdens het importeren de optie &#39;Bestaande gebruiken&#39; selecteert voor een aangepaste handeling, moet de aangepaste actie die u selecteert, gelijk zijn aan de aangepaste bronactie (dus dezelfde configuratie, parameters, enzovoort) wanneer u een reis naar een andere sandbox kopieert. Anders bevat de nieuwe reiskopie fouten die niet op het canvas kunnen worden opgelost.
+<!--* **Data sources, field groups and events** - When copying a journey that uses events, data sources, or field groups, the import process automatically checks whether components with the same name and type already exist in the target sandbox.
 
-### Campagnes {#campaigns}
+   * If a match is found, the existing components in the target sandbox are reused by the imported journey.
+   * If no match is found, the system creates new components.
+
+   This ensures that journeys relying on these elements remain functional after import, with minimal manual adjustment.
+-->
++++
+
++++ Campagnes
 
 Campagnes worden samen met alle punten gekopieerd met betrekking tot het profiel, het publiek, het schema, de gealigneerde berichten, en afhankelijke voorwerpen. Nochtans, worden de volgende punten **niet** gekopieerd:
 
@@ -77,15 +86,9 @@ Zorg er bij het kopiëren van campagnes voor dat het hieronder vermelde object i
 * **de varianten en montages van de Experimentatie van de Experimentatie**: De experimentele varianten en de montages zijn inbegrepen in het proces van het campagneexemplaar. Valideer deze instellingen in de doelsandbox na het importeren.
 * **Verenigde beslissing**: Het beleid van het besluit en de besluitvormingspunten worden gesteund voor de uitvoer en de invoer. Zorg ervoor dat aan beslissingen gerelateerde afhankelijkheden correct worden toegewezen in de doelsandbox.
 
-### Contentsjablonen {#content-templates}
++++
 
-* Bij het exporteren van een inhoudssjabloon worden ook alle geneste fragmenten gekopieerd.
-
-* Het exporteren van inhoudssjablonen kan soms leiden tot fragmentduplicatie. Als twee sjablonen bijvoorbeeld hetzelfde fragment delen en in afzonderlijke pakketten worden gekopieerd, moeten beide sjablonen hetzelfde fragment opnieuw gebruiken in de doelsandbox. Als u dubbel werk wilt voorkomen, selecteert u de optie &quot;Bestaande gebruiken&quot; tijdens het importproces. [ leer hoe te om een pakket ](#import) in te voeren
-
-* Om dubbel werk verder te vermijden, wordt aanbevolen inhoudssjablonen in één pakket te exporteren. Dit zorgt ervoor dat het systeem deduplicatie efficiënt beheert.
-
-### Beslissing {#decisioning}
++++ Beslissing
 
 * De objecten hieronder moeten aanwezig zijn in de doelsandbox voordat u beslissingsobjecten kopieert:
 
@@ -95,15 +98,41 @@ Zorg er bij het kopiëren van campagnes voor dat het hieronder vermelde object i
 
 * Sandbox-kopie voor rangschikkingsformules met AI-modellen wordt momenteel niet ondersteund.
 
+* Bij het kopiëren van een campagne worden de beslissingsitems (aanbiedingen) niet automatisch gekopieerd. Kopieer deze afzonderlijk met de optie Toevoegen aan pakket.
+
+* Als een besluitvormingsbeleid een selectiestrategie heeft, moeten de beslissingspunten afzonderlijk worden toegevoegd. Als het handboek/fallback beslissingspunten heeft, worden zij automatisch toegevoegd als directe gebiedsdelen.
+
 * Wanneer het kopiëren van Beslissende entiteiten, zorg ervoor u besluitvormingspunten **vóór** om het even welk ander voorwerp kopieert. Als u bijvoorbeeld eerst een verzameling kopieert en de nieuwe sandbox geen aanbiedingen bevat, blijft die nieuwe verzameling leeg.
 
-### Fragmenten {#fragments}
+* Wanneer het kopiëren van entiteiten met gebiedsdelen (b.v., schema, segmenten), &quot;creeer Nieuw&quot;tegen de entiteit om het te schrappen en de &quot;Bestaande&quot;optie van het Gebruik voor afhankelijke artefacten te openbaren. De extra gebiedsdelen kunnen vereisen herhalend deze stap verder onderaan de hiërarchie.
+
+  Voorbeeld: tijdens het invoeren van een campagne, om een gegevensstroomschema in een regel opnieuw te gebruiken, klik &quot;creeer Nieuw&quot;tegen BESLUIT_STRATEGY, dan opnieuw op BESLUITEN_REGELS, om de &quot;Bestaande&quot;optie van het Gebruik voor het gegevensstroomschema te openbaren.
+
+* Voor entiteiten die afhankelijk zijn van een databasecontextschema, moet u ervoor zorgen dat de gegevensstroom vooraf wordt gemaakt en een bestaand schema voor die gegevensstroom selecteren.
+
+* Als u tijdens het importeren rechtstreeks op &quot;Voltooien&quot; klikt, worden alle afhankelijkheden opnieuw gemaakt.
+
++++
+
++++ Contentsjablonen
+
+* Bij het exporteren van een inhoudssjabloon worden ook alle geneste fragmenten gekopieerd.
+
+* Het exporteren van inhoudssjablonen kan soms leiden tot fragmentduplicatie. Als twee sjablonen bijvoorbeeld hetzelfde fragment delen en in afzonderlijke pakketten worden gekopieerd, moeten beide sjablonen hetzelfde fragment opnieuw gebruiken in de doelsandbox. Als u dubbel werk wilt voorkomen, selecteert u de optie &quot;Bestaande gebruiken&quot; tijdens het importproces. [ leer hoe te om een pakket ](#import) in te voeren
+
+* Om dubbel werk verder te vermijden, wordt aanbevolen inhoudssjablonen in één pakket te exporteren. Dit zorgt ervoor dat het systeem deduplicatie efficiënt beheert.
+
++++
+
++++ Fragmenten
 
 * Fragmenten kunnen met uitvoering meerdere statussen hebben, zoals Live, Concept en Live. Wanneer u een fragment exporteert, wordt de laatste conceptstatus ervan naar de doelsandbox gekopieerd.
 
 * Bij het exporteren van een fragment worden ook alle geneste fragmenten gekopieerd.
 
-## Objecten toevoegen als pakket{#export}
++++
+
+## Objecten toevoegen als pakket {#export}
 
 Als u objecten naar een andere sandbox wilt kopiëren, moet u ze eerst als een pakket in de bronsandbox toevoegen. Voer de volgende stappen uit:
 
@@ -119,10 +148,6 @@ Als u objecten naar een andere sandbox wilt kopiëren, moet u ze eerst als een p
    * **creeer een nieuw pakket**: type de pakketnaam. U kunt ook een beschrijving toevoegen.
 
 1. Herhaal deze stappen om alle objecten toe te voegen die u met het pakket wilt exporteren.
-
->[!NOTE]
->
->Voor reizen die worden uitgevoerd, kopieert Journey Optimizer naast de reis zelf ook het grootste deel van de objecten waarvan de reis afhankelijk is: publiek, schema&#39;s, evenementen en acties. Voor meer detailreizen die uitvoeren, verwijs naar [ deze sectie ](../building-journeys/copy-to-sandbox.md).
 
 ## Het te exporteren pakket publiceren {#publish}
 
