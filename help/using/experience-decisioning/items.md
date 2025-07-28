@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 66e5d12e6d262014db5c7eb7603f678296591301
+source-git-commit: 923d9dfc4e281ea06ac1f5cd9c08d99a80617301
 workflow-type: tm+mt
-source-wordcount: '1690'
+source-wordcount: '1725'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 >id="ajo_exd_items"
 >title="Beslissingsitems beheren"
 >abstract="Met Journey Optimizer kunt u marketingaanbiedingen maken, ook wel &#39;beslissingsitems&#39; genoemd, die u kunt maken en indelen in een gecentraliseerde catalogus en verzamelingen. Momenteel worden alle gemaakte beslissingsitems geconsolideerd in één catalogus met &quot;voorstellen&quot;. Van dit scherm, kunt u tot het schema van de catalogus ook toegang hebben gebruikend **schema** knoop uitgeven en douanekenmerken voor uw besluitvormingspunten creëren."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html?lang=nl-NL" text="De itemcatalogus configureren"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="De itemcatalogus configureren"
 
 Met Journey Optimizer kunt u marketingaanbiedingen maken, ook wel &#39;beslissingsitems&#39; genoemd, die u kunt maken en indelen in een gecentraliseerde catalogus en verzamelingen. Ze bestaan uit standaard- en aangepaste kenmerken die precies op uw behoeften zijn afgestemd. Bovendien, nemen zij profielbeperkingen op die u toestaan om te bepalen aan wie een besluitpunt kan worden getoond.
 
@@ -38,7 +38,7 @@ Als u een beslissingsitem wilt maken, navigeert u naar **[!UICONTROL Decisioning
 >id="ajo_exd_item_custom_attributes"
 >title="De aangepaste kenmerken definiëren"
 >abstract="Aangepaste kenmerken zijn specifieke kenmerken die zijn toegesneden op uw behoeften en die u kunt toewijzen aan een beslissingsitem. Zij worden gecreeerd in het de catalogusschema van besluitvormingspunten. Deze sectie wordt alleen weergegeven als u ten minste één aangepast kenmerk aan het catalogusschema hebt toegevoegd."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html?lang=nl-NL" text="De itemcatalogus configureren"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="De itemcatalogus configureren"
 
 Begin door de standaard en douanekenmerken van het besluitpunt te bepalen:
 
@@ -64,8 +64,8 @@ Begin door de standaard en douanekenmerken van het besluitpunt te bepalen:
 >id="ajo_exd_item_constraints"
 >title="Soorten publiek of beslissingsregels toevoegen"
 >abstract="Standaard kunnen alle profielen in aanmerking komen voor het item voor een beslissing, maar u kunt het publiek of de regels gebruiken om het item te beperken tot specifieke profielen."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Soorten publiek gebruiken"
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Beslissingsregels gebruiken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Soorten publiek gebruiken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Beslissingsregels gebruiken"
 
 Standaard komen alle profielen in aanmerking om het beslissingsitem te ontvangen, maar u kunt het publiek of de regels gebruiken om het item te beperken tot specifieke profielen, beide oplossingen voor verschillende toepassingen. Vouw de onderstaande sectie uit voor meer informatie:
 
@@ -129,11 +129,11 @@ Klik op de knop **[!UICONTROL Create capping]** en voer de volgende stappen uit 
 
 1. Stel in de vervolgkeuzelijst **[!UICONTROL Reset capping frequency]** de frequentie in waarmee de afspeelteller opnieuw wordt ingesteld. Hiervoor definieert u de tijdsperiode voor het tellen (dagelijks, wekelijks of maandelijks) en voert u het aantal dagen/weken/maanden van uw keuze in. Bijvoorbeeld, als u de het in kaart brengen telling om de twee weken wilt terugstellen, selecteer **[!UICONTROL Weekly]** van de overeenkomstige drop-down lijst en type **2** op het andere gebied.
 
-   >[!NOTE]
-   >
-   >De frequentie die teletstelletterugstellen gebeurt bij **12am UTC**, op de dag dat u of op de eerste dag van de week/maand bepaalde waar toepasselijk. De dag van het wekbegin is **Zondag**. Om het even welke duur u kiest kan **2 jaar** (d.w.z. het overeenkomstige aantal maanden, weken of dagen) niet overschrijden.
-   >
-   >Na publicatie van het beslissingsobject kunt u de tijdsperiode (maandelijks, wekelijks of dagelijks) die u voor de frequentie hebt geselecteerd, niet meer wijzigen. U kunt de frequentietoewijzing nog steeds bewerken als het item de **[!UICONTROL Draft]** -status heeft en nog nooit eerder is gepubliceerd met de functie voor frequentiekoppeling ingeschakeld.
+   * De frequentie die teletstelletterugstellen gebeurt bij **12am UTC**, op de dag dat u of op de eerste dag van de week/maand bepaalde waar toepasselijk. De dag van het wekbegin is **Zondag**. Om het even welke duur u kiest kan **2 jaar** (d.w.z. het overeenkomstige aantal maanden, weken of dagen) niet overschrijden.
+
+   * Na publicatie van het beslissingsobject kunt u de tijdsperiode (maandelijks, wekelijks of dagelijks) die u voor de frequentie hebt geselecteerd, niet meer wijzigen. U kunt de frequentietoewijzing nog steeds bewerken als het item de **[!UICONTROL Draft]** -status heeft en nog nooit eerder is gepubliceerd met de functie voor frequentiekoppeling ingeschakeld.
+
+   * Er kan een buffertijd van maximaal 15 minuten zijn alvorens de gebeurtenissen naar frequentie het begrenzen van beperkingen worden geteld, of wanneer het besluitpunt wordt goedgekeurd, of wanneer het maximum wordt gecreeerd - welke laatste voorkomt.
 
 1. Klik op **[!UICONTROL Create]** om het maken van de aftapregel te bevestigen. U kunt tot 10 regels voor één enkel besluitpunt tot stand brengen. Klik hiertoe op de knop **[!UICONTROL Create capping]** en herhaal de bovenstaande stappen.
 
