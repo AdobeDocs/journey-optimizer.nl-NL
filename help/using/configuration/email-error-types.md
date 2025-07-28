@@ -10,7 +10,7 @@ level: Experienced
 keywords: opnieuw proberen, stuiteren, zacht, genegeerd, hard, optimaliseren, fout
 hide: true
 hidefromtoc: true
-source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
+source-git-commit: 817f7c88bfc2b40a7ce39575b4ad02fb372d429d
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 4%
@@ -18,7 +18,7 @@ ht-degree: 4%
 ---
 
 
-# Typen e-mailfouten
+# Typen e-mailfouten {#email-error-types}
 
 Mogelijke oorzaken voor een leveringsmislukking zijn veelvoudige. In de onderstaande tabel staan alle fouten die kunnen optreden bij het verzenden van e-mailleveringen met [!DNL Journey Optimizer] , alsmede de beschrijving en het type fout.
 
