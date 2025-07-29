@@ -53,7 +53,7 @@ Voer de volgende stappen uit om inhoud van de e-mailtoepassing als fragment op t
 
 1. Selecteer of creeer de markeringen van Adobe Experience Platform van het **gebied van Markeringen** om uw malplaatje voor beter onderzoek te categoriseren. [Meer informatie](../start/search-filter-categorize.md#tags)
 
-1. Klik op **[!UICONTROL Create]**. Het fragment wordt toegevoegd aan de [ fragmentlijst ](#access-manage-fragments) met de **3} status van het Ontwerp {.** Het wordt een zelfstandig fragment dat kan worden gebruikt als elk ander visueel fragment uit die lijst.
+1. Klik op **[!UICONTROL Create]**. Het fragment wordt toegevoegd aan de [ fragmentlijst ](#access-manage-fragments) met de **3&rbrace; status van het Ontwerp &lbrace;.** Het wordt een zelfstandig fragment dat kan worden gebruikt als elk ander visueel fragment uit die lijst.
 
    >[!NOTE]
    >
@@ -86,6 +86,6 @@ Voer de onderstaande stappen uit om inhoud op te slaan als een expressiefragment
 
    <!--An expression fragment cannot be nested inside another fragment.-->
 
-1. Het fragment wordt toegevoegd aan de [ fragmentlijst ](#access-manage-fragments) met de **3} status van het Ontwerp {.** Het wordt een zelfstandig fragment dat kan worden gebruikt als elk ander expressiefragment uit die lijst.
+1. Het fragment wordt toegevoegd aan de [ fragmentlijst ](#access-manage-fragments) met de **3&rbrace; status van het Ontwerp &lbrace;.** Het wordt een zelfstandig fragment dat kan worden gebruikt als elk ander expressiefragment uit die lijst.
 
 1. Als u het fragment wilt kunnen gebruiken tijdens reizen en campagnes, moet u het live maken. [ leer hoe te om een fragment ](../content-management/create-fragments.md#publish) voor te vertonen en te publiceren
