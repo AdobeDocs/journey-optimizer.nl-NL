@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
 workflow-type: tm+mt
-source-wordcount: '1846'
-ht-degree: 0%
+source-wordcount: '1859'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ Leer hoe te om de functies van het Koord in de verpersoonlijkingsredacteur te ge
 
 ## Camel Case {#camelCase}
 
-De `camelCase` functie kapitaliseert de eerste letter van elk woord van een tekenreeks.
+De functie `camelCase` maakt een hoofdletter van de eerste letter van elk woord van een tekenreeks.
 
 **Syntaxis**
 
@@ -37,7 +37,7 @@ Met de volgende functie krijgt de eerste letter van het woord een hoofdletter in
 
 ## Tekencode op {#char-code-at}
 
-De `charCodeAt` Deze functie retourneert de ASCII-waarde van een teken, zoals de functie charCodeAt in JavaScript. Er wordt een tekenreeks en een geheel getal gebruikt (de positie van het teken wordt gedefinieerd) als invoerargumenten en de bijbehorende ASCII-waarde wordt geretourneerd.
+De functie `charCodeAt` retourneert ASCII-waarde van een teken, zoals de functie charCodeAt in JavaScript. Er wordt een tekenreeks en een geheel getal gebruikt (de positie van het teken wordt gedefinieerd) als invoerargumenten en de bijbehorende ASCII-waarde wordt geretourneerd.
 
 **Syntaxis**
 
@@ -55,7 +55,7 @@ De volgende functie retourneert de ASCII-waarde van o, d.w.z. 111.
 
 ## Concat {#concate}
 
-De `concat` functie combineert twee tekenreeksen in één.
+De functie `concat` combineert twee tekenreeksen in één.
 
 **Syntaxis**
 
@@ -73,7 +73,7 @@ De volgende functie combineert profielstad en land in één tekenreeks.
 
 ## Bevat {#contains}
 
-De `contains` wordt gebruikt om te bepalen of een tekenreeks een opgegeven subtekenreeks bevat.
+De functie `contains` wordt gebruikt om te bepalen of een tekenreeks een opgegeven subtekenreeks bevat.
 
 **Syntaxis**
 
@@ -103,7 +103,7 @@ De `contains` wordt gebruikt om te bepalen of een tekenreeks een opgegeven subte
 
 ## Bevat niet{#doesNotContain}
 
-De `doesNotContain` wordt gebruikt om te bepalen of een tekenreeks geen opgegeven subtekenreeks bevat.
+De functie `doesNotContain` wordt gebruikt om te bepalen of een tekenreeks geen opgegeven subtekenreeks bevat.
 
 **Syntaxis**
 
@@ -128,7 +128,7 @@ De volgende query bepaalt, met hoofdlettergevoeligheid, of het e-mailadres van d
 
 ## Eindigt niet met{#doesNotEndWith}
 
-De `doesNotEndWith` wordt gebruikt om te bepalen of een tekenreeks niet eindigt met een opgegeven subtekenreeks.
+De functie `doesNotEndWith` wordt gebruikt om te bepalen of een tekenreeks niet eindigt met een opgegeven subtekenreeks.
 
 **Syntaxis**
 
@@ -152,7 +152,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## Begint niet met{#doesNotStartWith}
 
-De `doesNotStartWith` wordt gebruikt om te bepalen of een tekenreeks niet begint met een opgegeven subtekenreeks.
+De functie `doesNotStartWith` wordt gebruikt om te bepalen of een tekenreeks niet begint met een opgegeven subtekenreeks.
 
 **Syntaxis**
 
@@ -176,7 +176,7 @@ De volgende query bepaalt, met hoofdlettergevoeligheid, of de naam van de persoo
 
 ## Coderen 64{#encode64}
 
-De `encode64` Deze functie wordt gebruikt om een tekenreeks te coderen zodat Personal Information (PI) behouden blijft als deze bijvoorbeeld in een URL moet worden opgenomen.
+De functie `encode64` wordt gebruikt om een tekenreeks te coderen om Personal Information (PI) te behouden als deze bijvoorbeeld in een URL moet worden opgenomen.
 
 **Syntaxis**
 
@@ -186,7 +186,7 @@ De `encode64` Deze functie wordt gebruikt om een tekenreeks te coderen zodat Per
 
 ## Eindigt met{#endsWith}
 
-De `endsWith` wordt gebruikt om te bepalen of een tekenreeks eindigt met een opgegeven subtekenreeks.
+De functie `endsWith` wordt gebruikt om te bepalen of een tekenreeks eindigt met een opgegeven subtekenreeks.
 
 **Syntaxis**
 
@@ -211,7 +211,7 @@ De volgende query bepaalt, met hoofdlettergevoeligheid, of het e-mailadres van d
 
 ## Gelijk{#equals}
 
-De `equals` wordt gebruikt om te bepalen of een tekenreeks gelijk is aan de opgegeven tekenreeks, met hoofdlettergevoeligheid.
+De functie `equals` wordt gebruikt om te bepalen of een tekenreeks gelijk is aan de opgegeven tekenreeks, met hoofdlettergevoeligheid.
 
 **Syntaxis**
 
@@ -234,7 +234,7 @@ De volgende vraag bepaalt, met gevalgevoeligheid, als de naam van de persoon &qu
 
 ## Gelijk aan hoofdletter negeren{#equalsIgnoreCase}
 
-De `equalsIgnoreCase` wordt gebruikt om te bepalen of een tekenreeks gelijk is aan de opgegeven tekenreeks, zonder hoofdlettergevoeligheid.
+De functie `equalsIgnoreCase` wordt gebruikt om te bepalen of een tekenreeks gelijk is aan de opgegeven tekenreeks, zonder hoofdlettergevoeligheid.
 
 **Syntaxis**
 
@@ -257,7 +257,7 @@ De volgende vraag bepaalt, zonder gevalgevoeligheid, als de naam van de persoon 
 
 ## E-maildomein extraheren {#extractEmailDomain}
 
-De `extractEmailDomain` wordt gebruikt om het domein van een e-mailadres te extraheren.
+De functie `extractEmailDomain` wordt gebruikt om het domein van een e-mailadres te extraheren.
 
 **Syntaxis**
 
@@ -275,7 +275,7 @@ De volgende query extraheert het e-maildomein van het persoonlijke e-mailadres.
 
 ## Valuta opmaken {#format-currency}
 
-De `formatCurrency` wordt gebruikt om een willekeurig getal om te zetten in de corresponderende taalgevoelige valutarepresentatie, afhankelijk van de landinstelling die als tekenreeks is doorgegeven in het tweede argument.
+De functie `formatCurrency` wordt gebruikt om een willekeurig getal om te zetten in de corresponderende taalgevoelige valutarepresentatie, afhankelijk van de landinstelling die als een tekenreeks in het tweede argument is doorgegeven.
 
 **Syntaxis**
 
@@ -293,7 +293,7 @@ Deze query retourneert £ 56,00
 
 ## URL-host ophalen {#get-url-host}
 
-De `getUrlHost` wordt gebruikt om de hostnaam van een URL op te halen.
+De functie `getUrlHost` wordt gebruikt om de hostnaam van een URL op te halen.
 
 **Syntaxis**
 
@@ -311,7 +311,7 @@ Retourneert &quot;www.myurl.com&quot;
 
 ## URL-pad ophalen {#get-url-path}
 
-De `getUrlPath` wordt gebruikt om het pad na de domeinnaam van een URL op te halen.
+De functie `getUrlPath` wordt gebruikt om het pad na de domeinnaam van een URL op te halen.
 
 **Syntaxis**
 
@@ -329,7 +329,7 @@ Retourneert &quot;/contact.html&quot;
 
 ## URL-protocol ophalen {#get-url-protocol}
 
-De `getUrlProtocol` wordt gebruikt om het protocol van een URL op te halen.
+De functie `getUrlProtocol` wordt gebruikt om het protocol van een URL terug te winnen.
 
 **Syntaxis**
 
@@ -347,7 +347,7 @@ Retourneert &quot;http&quot;
 
 ## Index van {#index-of}
 
-De `indexOf` wordt gebruikt om de positie (in het eerste argument) van de eerste instantie van de tweede parameter te retourneren. Retourneert -1 als er geen overeenkomend actiepunt is.
+De functie `indexOf` wordt gebruikt om de positie (in het eerste argument) van de eerste instantie van de tweede parameter te retourneren. Retourneert -1 als er geen overeenkomend actiepunt is.
 
 **Syntaxis**
 
@@ -370,7 +370,7 @@ Retourneert 6.
 
 ## Is leeg {#isEmpty}
 
-De `isEmpty` wordt gebruikt om te bepalen of een tekenreeks leeg is.
+De functie `isEmpty` wordt gebruikt om te bepalen of een tekenreeks leeg is.
 
 **Syntaxis**
 
@@ -388,7 +388,7 @@ De volgende functie retourneert &#39;true&#39; als het mobiele telefoonnummer va
 
 ## Is niet leeg {#is-not-empty}
 
-De `isNotEmpty` wordt gebruikt om te bepalen of een tekenreeks niet leeg is.
+De functie `isNotEmpty` wordt gebruikt om te bepalen of een tekenreeks niet leeg is.
 
 **Syntaxis**
 
@@ -406,7 +406,7 @@ De volgende functie retourneert &#39;true&#39; als het mobiele telefoonnummer va
 
 ## Laatste index van {#last-index-of}
 
-De `lastIndexOf` wordt gebruikt om de positie (in het eerste argument) van de laatste instantie van de tweede parameter te retourneren. Retourneert -1 als er geen overeenkomend actiepunt is.
+De functie `lastIndexOf` wordt gebruikt om de positie (in het eerste argument) van de laatste instantie van de tweede parameter te retourneren. Retourneert -1 als er geen overeenkomend actiepunt is.
 
 **Syntaxis**
 
@@ -429,7 +429,7 @@ Retourneert 7.
 
 ## Links bijsnijden {#leftTrim}
 
-De `leftTrim` wordt gebruikt om witruimten te verwijderen uit het begin van een tekenreeks.
+De functie `leftTrim` wordt gebruikt om witruimten te verwijderen uit het begin van een tekenreeks.
 
 **Syntaxis**
 
@@ -439,7 +439,7 @@ De `leftTrim` wordt gebruikt om witruimten te verwijderen uit het begin van een 
 
 ## Lengte {#length}
 
-De `length` wordt gebruikt om het aantal tekens in een tekenreeks of expressie op te halen.
+De functie `length` wordt gebruikt om het aantal tekens in een tekenreeks of expressie op te halen.
 
 **Syntaxis**
 
@@ -457,7 +457,7 @@ De volgende functie retourneert de lengte van de stadsnaam van het profiel.
 
 ## leuk{#like}
 
-De `like` wordt gebruikt om te bepalen of een tekenreeks overeenkomt met een opgegeven patroon.
+De functie `like` wordt gebruikt om te bepalen of een tekenreeks overeenkomt met een opgegeven patroon.
 
 **Syntaxis**
 
@@ -468,7 +468,7 @@ De `like` wordt gebruikt om te bepalen of een tekenreeks overeenkomt met een opg
 | Argument | Beschrijving |
 | --------- | ----------- |
 | `{STRING_1}` | De tekenreeks die de controle moet uitvoeren. |
-| `{STRING_2}` | De expressie die moet overeenkomen met de eerste tekenreeks. Er zijn twee ondersteunde speciale tekens voor het maken van een expressie: `%` en `_`. <ul><li>`%` wordt gebruikt om nul of meer tekens te vertegenwoordigen.</li><li>`_` wordt gebruikt om precies één teken te vertegenwoordigen.</li></ul> |
+| `{STRING_2}` | De expressie die moet overeenkomen met de eerste tekenreeks. Er zijn twee ondersteunde speciale tekens voor het maken van een expressie: `%` en `_` . <ul><li>`%` wordt gebruikt om nul of meer tekens te vertegenwoordigen.</li><li>`_` wordt gebruikt om precies één teken te vertegenwoordigen.</li></ul> |
 
 **Voorbeeld**
 
@@ -480,7 +480,7 @@ Met de volgende query worden alle steden opgehaald waar profielen met het patroo
 
 ## Kleine letters{#lower}
 
-De `lowerCase` functie converteert een tekenreeks naar kleine letters.
+De functie `lowerCase` zet een tekenreeks om in kleine letters.
 
 **Syntaxis**
 
@@ -498,7 +498,7 @@ Deze functie converteert de voornaam van het profiel naar kleine letters.
 
 ## Overeenkomsten{#matches}
 
-De `matches` wordt gebruikt om te bepalen of een tekenreeks overeenkomt met een specifieke reguliere expressie. Zie [dit document](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) voor meer informatie over overeenkomende patronen in reguliere expressies.
+De functie `matches` wordt gebruikt om te bepalen of een tekenreeks overeenkomt met een specifieke reguliere expressie. Gelieve te verwijzen naar [ dit document ](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) voor meer informatie over passende patronen in regelmatige uitdrukkingen.
 
 **Syntaxis**
 
@@ -516,7 +516,7 @@ De volgende vraag bepaalt, zonder case gevoeligheid, als de naam van de persoon 
 
 ## Masker {#mask}
 
-De `Mask` Deze functie wordt gebruikt om een deel van een tekenreeks te vervangen door &#39;X&#39;-tekens.
+De functie `Mask` wordt gebruikt om een deel van een tekenreeks te vervangen door &#39;X&#39;-tekens.
 
 **Syntaxis**
 
@@ -532,11 +532,11 @@ De volgende query vervangt de tekenreeks &quot;123456789&quot; door &quot;X&quot
 {%= mask("123456789",1,2) %}
 ```
 
-De query retourneert `1XXXXXX89`.
+De query retourneert `1XXXXXX89` .
 
 ## MD5 {#md5}
 
-De `md5` functie wordt gebruikt om de md5 hash van een tekenreeks te berekenen en te retourneren.
+De functie `md5` wordt gebruikt om de md5-hash van een tekenreeks te berekenen en te retourneren.
 
 **Syntaxis**
 
@@ -554,7 +554,7 @@ Retourneert &quot;5eb63be01eeed093cb22bb8f5acdc3&quot;
 
 ## Niet gelijk aan{#notEqualTo}
 
-De `notEqualTo` wordt gebruikt om te bepalen of een tekenreeks niet gelijk is aan de opgegeven tekenreeks.
+De functie `notEqualTo` wordt gebruikt om te bepalen of een tekenreeks niet gelijk is aan de opgegeven tekenreeks.
 
 **Syntaxis**
 
@@ -577,7 +577,7 @@ De volgende vraag bepaalt, met case gevoeligheid, als de naam van de persoon nie
 
 ## Niet gelijk aan hoofdletter negeren {#not-equal-with-ignore-case}
 
-De `notEqualWithIgnoreCase` functie wordt gebruikt om twee tekenreeksen te vergelijken die case negeren.
+De functie `notEqualWithIgnoreCase` wordt gebruikt om twee tekenreeksen te vergelijken die case negeren.
 
 **Syntaxis**
 
@@ -600,7 +600,7 @@ De volgende query bepaalt of de naam van de persoon geen john is, zonder hoofdle
 
 ## Groep met reguliere expressies{#regexGroup}
 
-De `Group` Deze functie wordt gebruikt om specifieke informatie te extraheren op basis van de reguliere expressie die wordt gegeven.
+De functie `Group` wordt gebruikt om specifieke informatie te extraheren, gebaseerd op de reguliere expressie die wordt opgegeven.
 
 **Syntaxis**
 
@@ -624,7 +624,7 @@ De volgende query wordt gebruikt om de domeinnaam uit een e-mailadres te extrahe
 
 ## Vervangen {#replace}
 
-De `replace` Deze functie wordt gebruikt om een bepaalde subtekenreeks in een tekenreeks te vervangen door een andere subtekenreeks.
+De functie `replace` wordt gebruikt om een bepaalde subtekenreeks in een tekenreeks te vervangen door een andere subtekenreeks.
 
 **Syntaxis**
 
@@ -648,7 +648,7 @@ Retourneert &quot;Hello Mark, hier is je maandelijkse nieuwsbrief!&quot;
 
 ## Alles vervangen{#replaceAll}
 
-De `replaceAll` Deze functie wordt gebruikt om alle subtekenreeksen van een tekst te vervangen die overeenkomt met de expressie &quot;regex&quot; door de opgegeven letterlijke tekenreeks &quot;replacement&quot;. Regex hanteert speciale functies voor &quot;\&quot; en &quot;+&quot; en alle regex-expressies volgen de PQL-escaperestrategie. De vervanging vindt plaats vanaf het begin van de tekenreeks tot het einde. Als u bijvoorbeeld &quot;aa&quot; vervangt door &quot;b&quot; in de tekenreeks &quot;aaa&quot;, resulteert dit in &quot;ba&quot; in plaats van &quot;ab&quot;.
+De functie `replaceAll` wordt gebruikt om alle subtekenreeksen van een tekst te vervangen die overeenkomt met de expressie &quot;regex&quot; met de opgegeven letterlijke tekenreeks &quot;replacement&quot;. Regex hanteert een speciale afhandeling van &quot;\&quot; en &quot;+&quot; en alle regex-expressies volgen de PQL-escaperestrategie. De vervanging vindt plaats vanaf het begin van de tekenreeks tot het einde. Als u bijvoorbeeld &quot;aa&quot; vervangt door &quot;b&quot; in de tekenreeks &quot;aaa&quot;, resulteert dit in &quot;ba&quot; in plaats van &quot;ab&quot;.
 
 **Syntaxis**
 
@@ -658,14 +658,14 @@ De `replaceAll` Deze functie wordt gebruikt om alle subtekenreeksen van een teks
 
 >[!NOTE]
 >
-> Wanneer de expressie die als tweede argument wordt gebruikt, een speciaal regex-teken is, gebruikt u dubbele backslash (`//`).  Speciale regex-tekens zijn: [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]
+> Wanneer de uitdrukking die als tweede argument wordt genomen een speciaal regex karakter is, gebruik dubbele backslash (`//`).  Speciale regex-tekens zijn: [., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
 > 
-> Meer informatie in [Documentatie oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
+> Leer meer in [ documentatie van Oracle ](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
 >
 
 ## Rechts bijsnijden {#rightTrim}
 
-De `rightTrim` functie wordt gebruikt verwijdert witte ruimten van het eind van een koord.
+De functie `rightTrim` verwijdert witruimten van het einde van een tekenreeks.
 
 **Syntaxis**
 
@@ -673,9 +673,30 @@ De `rightTrim` functie wordt gebruikt verwijdert witte ruimten van het eind van 
 {%= rightTrim(string) %}
 ```
 
+## SHA256 {#sha256}
+
+De functie `SHA256` berekent en retourneert de sha256-hash van een tekenreeks.
+
+**Syntaxis**
+
+```sql
+{{
+
+{%= sha256(string) %}
+: string}}
+```
+
+**Voorbeeld**
+
+```sql
+{%= sha256("Eliechxh")%}
+```
+
+retourneert: `0b0b207880b999adaad6231026abf87caa30760b6f326b21727b61139332257d`
+
 ## Splitsen {#split}
 
-De `split` functie wordt gebruikt om een tekenreeks te splitsen op een bepaald teken.
+De functie `split` wordt gebruikt om een tekenreeks door een bepaald teken te splitsen.
 
 **Syntaxis**
 
@@ -685,7 +706,7 @@ De `split` functie wordt gebruikt om een tekenreeks te splitsen op een bepaald t
 
 ## Begint met{#startsWith}
 
-De `startsWith` wordt gebruikt om te bepalen of een tekenreeks begint met een opgegeven subtekenreeks.
+De functie `startsWith` wordt gebruikt om te bepalen of een tekenreeks begint met een opgegeven subtekenreeks.
 
 **Syntaxis**
 
@@ -709,7 +730,7 @@ De volgende vraag bepaalt, met gevalsgevoeligheid, als de naam van de persoon me
 
 ## Tekenreeks naar datum {#string-to-date}
 
-De `stringToDate` functie converteert een tekenreekswaarde naar een datum-tijdwaarde. Er zijn twee argumenten voor: tekenreeksrepresentatie van een datum-tijd en tekenreeksrepresentatie van de formatter.
+De functie `stringToDate` zet een tekenreekswaarde om in een datum-tijdwaarde. Er zijn twee argumenten voor: tekenreeksrepresentatie van een datum-tijd en tekenreeksrepresentatie van de formatter.
 
 **Syntaxis**
 
@@ -725,7 +746,7 @@ De `stringToDate` functie converteert een tekenreekswaarde naar een datum-tijdwa
 
 ## Tekenreeks naar geheel getal {#string-to-integer}
 
-De `string_to_integer` wordt gebruikt om een tekenreekswaarde om te zetten in een geheel-getalwaarde.
+De functie `string_to_integer` wordt gebruikt om een tekenreekswaarde om te zetten in een geheel-getalwaarde.
 
 **Syntaxis**
 
@@ -735,7 +756,7 @@ De `string_to_integer` wordt gebruikt om een tekenreekswaarde om te zetten in ee
 
 ## Tekenreeks naar nummer {#string-to-number}
 
-De `stringToNumber` wordt gebruikt om een tekenreeks in een getal om te zetten. Deze geeft dezelfde tekenreeks als uitvoer voor ongeldige invoer.
+De functie `stringToNumber` wordt gebruikt om een tekenreeks in een getal om te zetten. Deze geeft dezelfde tekenreeks als uitvoer voor ongeldige invoer.
 
 **Syntaxis**
 
@@ -745,7 +766,7 @@ De `stringToNumber` wordt gebruikt om een tekenreeks in een getal om te zetten. 
 
 ## Subtekenreeks {#sub-string}
 
-De `Count string` wordt gebruikt om de subtekenreeks van de tekenreeksexpressie tussen de beginindex en de eindindex te retourneren.
+De functie `Count string` wordt gebruikt om de subtekenreeks van de tekenreeksexpressie tussen de beginindex en de eindindex te retourneren.
 **Syntaxis**
 
 ```sql
@@ -754,7 +775,7 @@ De `Count string` wordt gebruikt om de subtekenreeks van de tekenreeksexpressie 
 
 ## Alles Beginhoofdletter{#titleCase}
 
-De **titleCase** functie wordt gebruikt om eerste letters van elke woorden van een tekenreeks met hoofdletters te maken.
+De **titleCase** functie wordt gebruikt om eerste brieven van elke woorden van een koord te kapitaliseren.
 
 **Syntaxis**
 
@@ -772,7 +793,7 @@ Als de persoon in Washington high street woont, zal deze functie Washington High
 
 ## Naar bool {#to-bool}
 
-De `toBool` functie wordt gebruikt om een argumentwaarde in een booleaanse waarde om te zetten, afhankelijk van het type.
+De functie `toBool` wordt gebruikt om een argumentwaarde in een booleaanse waarde om te zetten, afhankelijk van het type.
 
 **Syntaxis**
 
@@ -782,7 +803,7 @@ De `toBool` functie wordt gebruikt om een argumentwaarde in een booleaanse waard
 
 ## Tot op heden {#to-date-time}
 
-De `toDateTime` functie wordt gebruikt om tekenreeks om te zetten in datum. De epochdatum wordt geretourneerd als uitvoer voor ongeldige invoer.
+De functie `toDateTime` wordt gebruikt om een tekenreeks om te zetten in een datum. De epochdatum wordt geretourneerd als uitvoer voor ongeldige invoer.
 
 **Syntaxis**
 
@@ -792,7 +813,7 @@ De `toDateTime` functie wordt gebruikt om tekenreeks om te zetten in datum. De e
 
 ## Alleen tot op heden tijd {#to-date-time-only}
 
-De `toDateTimeOnly` function wordt gebruikt om een argumentwaarde om te zetten in een waarde die alleen voor de datumtijd geldt. De epochdatum wordt geretourneerd als uitvoer voor ongeldige invoer. Deze functie accepteert veldtypen tekenreeks, datum, lang en int.
+De functie `toDateTimeOnly` wordt gebruikt om een argumentwaarde om te zetten in een waarde met alleen datumtijd. De epochdatum wordt geretourneerd als uitvoer voor ongeldige invoer. Deze functie accepteert veldtypen tekenreeks, datum, lang en int.
 
 **Syntaxis**
 
@@ -802,7 +823,7 @@ De `toDateTimeOnly` function wordt gebruikt om een argumentwaarde om te zetten i
 
 ## Verkleinen {#trim}
 
-De **bijsnijden** verwijdert alle spaties van het begin tot het einde van een tekenreeks.
+De **versiering** functie verwijdert alle witte ruimten van het begin en aan het eind van een koord.
 
 **Syntaxis**
 
@@ -812,7 +833,7 @@ De **bijsnijden** verwijdert alle spaties van het begin tot het einde van een te
 
 ## Hoofdletters{#upper}
 
-De **upperCase** functie converteert een tekenreeks naar hoofdletters.
+De **upperCase** functie zet een koord in hogere hoofdletters om.
 
 **Syntaxis**
 
@@ -830,7 +851,7 @@ Deze functie converteert de achternaam van het profiel naar hoofdletters.
 
 ## URL-decodering {#url-decode}
 
-De `urlDecode` wordt gebruikt om een URL-gecodeerde tekenreeks te decoderen.
+De functie `urlDecode` wordt gebruikt om een URL-gecodeerde tekenreeks te decoderen.
 
 **Syntaxis**
 
@@ -840,7 +861,7 @@ De `urlDecode` wordt gebruikt om een URL-gecodeerde tekenreeks te decoderen.
 
 ## URL-codering {#url-encode}
 
-De `Count only null` wordt gebruikt om een tekenreeks te coderen met url.
+De functie `Count only null` wordt gebruikt om een tekenreeks te coderen met url.
 
 **Syntaxis**
 

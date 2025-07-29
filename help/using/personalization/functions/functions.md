@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
 workflow-type: tm+mt
-source-wordcount: '2388'
+source-wordcount: '2399'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 U kunt de sjabloontaal [!DNL Journey Optimizer] gebruiken om bewerkingen op gegevens uit te voeren, zoals berekeningen, gegevensopmaak of conversies, voorwaarden en deze te bewerken in de context van personalisatie. Leer de richtlijnen van de verpersoonlijkingssyntaxis op [ deze pagina ](../personalization-syntax.md).
 
-➡️ [ leren hoe te om hulpfuncties in deze video te gebruiken ](#video)
+➡️ [ Leer hoe te om hulpfuncties in deze video te gebruiken ](#video)
 
 De taal van het malplaatje wordt leveraged in helperfuncties beschikbaar in verpersoonlijkingsdrop-down lijst van de verpersoonlijkingsredacteur, zoals hieronder:
 
@@ -376,6 +376,9 @@ Klik op het pictogram `...` om de beschrijving van de functie weer te geven en d
     </tr>
     <tr>
         <td><a href="string.md#rightTrim">Rechts bijsnijden</a></td><td>Deze functie verwijdert witruimten van het einde van een tekenreeks </td>
+    </tr>
+    <tr>
+        <td><a href="string.md#sha256">SHA256</a></td><td>Deze functie berekent en retourneert de sha256 hash van een tekenreeks.</td>
     </tr>
     <tr>
         <td><a href="string.md#split">Splitsen</a></td><td>Deze functie wordt gebruikt om een tekenreeks te splitsen op een bepaald teken</td>

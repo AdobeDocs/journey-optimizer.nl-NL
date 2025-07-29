@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3896015ea63a1d25a16744940ffc622b977ff4ce
+source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '968'
 ht-degree: 0%
 
 ---
@@ -222,4 +222,8 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 - **Kanaal - InApp**
    - **In-app Zeer belangrijke/paren van de Waarde** - met In-app berichten, kunt u Sleutel en paren van de Waarde bepalen om douanevariabelen in de berichtlading te omvatten. Deze zeer belangrijk-waardeparen laten u toe om extra gegevens over te gaan die op uw specifieke configuratie en gebruiksgeval worden gebaseerd.
+  <!-- [Read more](../FILE.md) -->
+
+- **Personalization**
+   - Er is een nieuwe hulpfunctie, SHA256, toegevoegd aan de personalisatie-editor. Deze functie wordt gebruikt om de sha256 hash van een tekenreeks te berekenen en te retourneren.
   <!-- [Read more](../FILE.md) -->
