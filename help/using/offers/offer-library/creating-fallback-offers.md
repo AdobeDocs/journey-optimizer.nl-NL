@@ -7,9 +7,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '324'
 ht-degree: 3%
 
 ---
@@ -43,6 +43,10 @@ Voer de volgende stappen uit om een fallback-aanbieding te maken:
 1. Maak een of meer representaties voor de fallback-aanbieding. Hiervoor sleept u plaatsingen vanuit het linkervenster, bijvoorbeeld wanneer u een gepersonaliseerde aanbieding maakt. Zie [ gepersonaliseerde aanbiedingen ](../offer-library/creating-personalized-offers.md) creëren.
 
    ![](../assets/fallback_content.png)
+
+   >[!CAUTION]
+   >
+   >De aanbiedingen van de reserve zouden alle vertegenwoordiging moeten bevatten die binnen a [ wordt gebruikt besluit ](../offer-activities/create-offer-activities.md). Als een beslissing bijvoorbeeld vijf voorstellen bevat en elk voorstel een andere representatie heeft, moeten er vijf voorstellen in het fallback-aanbod worden opgenomen.
 
 1. Zodra de vertegenwoordiging van de reserveaanbieding is toegevoegd, een summiere vertoningen. Als alles correct is geconfigureerd en uw fallback-aanbieding klaar is om aan klanten te worden aangeboden, klikt u op **[!UICONTROL Finish]** en selecteert u vervolgens **[!UICONTROL Save and approve]** .
 

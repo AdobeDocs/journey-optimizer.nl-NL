@@ -7,9 +7,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
 workflow-type: tm+mt
-source-wordcount: '2445'
+source-wordcount: '2483'
 ht-degree: 0%
 
 ---
@@ -312,15 +312,19 @@ De selectie ziet er als volgt uit:
 >title="Een fallback-aanbieding toevoegen"
 >abstract="Zodra u het besluitvormingswerkingsgebied bepaalde, bepaal de reserveaanbieding die als laatste redmiddel aan de klanten zal worden voorgesteld die niet de regels en de beperkingen van de aanbiedingen geschiktheid aanpassen."
 
-Zodra u het besluitvormingswerkingsgebied bepaalde, bepaal de reserveaanbieding die als laatste redmiddel aan de klanten zal worden voorgesteld die niet de regels en de beperkingen van de aanbiedingen geschiktheid aanpassen.
+Nadat u het besluitvormingswerkingsgebied bepaalde, bepaal de [ fallback aanbieding ](../offer-library/creating-fallback-offers.md) die als laatste redmiddel aan de klanten zal worden voorgesteld die niet de regels en de beperkingen van de aanbiedingen geschiktheid aanpassen.
 
-U doet dit door het te selecteren in de lijst met beschikbare fallback-aanbiedingen voor de plaatsingen die in de beslissing zijn gedefinieerd, en vervolgens op **[!UICONTROL Next]** te klikken.
+U doet dit door het te selecteren in de lijst met beschikbare fallback-aanbiedingen voor de plaatsingen die in de beslissing zijn gedefinieerd.
 
 ![](../assets/add-fallback-offer.png)
 
 >[!NOTE]
 >
->Klik op de koppeling **[!UICONTROL Open offer library]** om de lijst met aanbiedingen op een nieuw tabblad weer te geven.
+>De terugvalaanbiedingen moeten alle in een besluit gebruikte verklaringen bevatten. Als een beslissing bijvoorbeeld vijf voorstellen bevat en elk voorstel een andere representatie heeft, moeten er vijf voorstellen in het fallback-aanbod worden opgenomen.
+
+Klik op **[!UICONTROL Next]** als deze optie is geselecteerd.
+
+Klik op de koppeling **[!UICONTROL Open offer library]** om de lijst met aanbiedingen op een nieuw tabblad weer te geven.
 
 ## Beslissing bekijken en opslaan {#review}
 
@@ -351,7 +355,7 @@ In de beslissingslijst kunt u de beslissing selecteren om de eigenschappen ervan
 
 ![](../assets/decision_created.png)
 
-Selecteer de **[!UICONTROL Edit]** knoop om naar de wijze van de beslissingsuitgave terug te gaan, waar u de 1&rbrace; details van het besluit [&#128279;](#create-activity) kunt wijzigen, [ besluitvormingswerkingsgebied ](#add-decision-scopes) en [ fallback aanbieding ](#add-fallback).
+Selecteer de **[!UICONTROL Edit]** knoop om naar de wijze van de beslissingsuitgave terug te gaan, waar u de 1} details van het besluit [ kunt wijzigen, ](#create-activity) besluitvormingswerkingsgebied [ en ](#add-decision-scopes) fallback aanbieding [.](#add-fallback)
 
 >[!IMPORTANT]
 >
