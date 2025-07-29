@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 >id="ajo_create_fragment"
 >title="Uw eigen fragmenten definiëren"
 >abstract="Maak en beheer standalone fragmenten om uw inhoud te hergebruiken voor meerdere reizen en campagnes."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="Fragmenten maken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="Fragmenten maken"
 
 Een fragment is een herbruikbare component waarnaar in een of meer e-mails via [!DNL Journey Optimizer] -campagnes en -reizen kan worden verwezen. Met deze functionaliteit kunt u meerdere blokken aangepaste inhoud vooraf samenstellen die door marketinggebruikers kunnen worden gebruikt om snel e-mailinhoud samen te stellen in een verbeterd ontwerpproces.
 
@@ -43,6 +43,8 @@ In deze versie gelden de volgende beperkingen:
 * **de fragmenten van Visual** zijn beschikbaar voor het E-mailkanaal slechts.
 * **de fragmenten van de Uitdrukking** zijn niet beschikbaar voor het in-app kanaal.
 
+Meer grails die op fragmenten van toepassing zijn zijn beschikbaar in [ deze sectie ](../start/guardrails.md#fragments-guardrails).
+
 ## Fragmenten voor visuele en expressies {#visual-expression}
 
 Er zijn twee typen fragmenten beschikbaar:
@@ -62,4 +64,4 @@ Leer hoe te om, auteur, en gebruik **visuele fragmenten** in [!DNL Journey Optim
 
 Leer hoe te om, auteur, en gebruiks **uitdrukkingsfragmenten** in [!DNL Journey Optimizer] te beheren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3438923/?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)

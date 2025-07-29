@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: f8ee42f42849bec199bfa5203dc59112f98de99c
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Wanneer u inhoud bewerkt in [!DNL Journey Optimizer] , kunt u de inhoud geheel of gedeeltelijk opslaan als fragment en deze later opnieuw gebruiken. U kunt inhoud als fragment of [ van E-mail Designer ](#save-as-visual-fragment) bewaren, of [ van de uitdrukkingsredacteur ](#save-as-expression-fragment).
 
 >[!NOTE]
+>
+>[ Contextafhankelijke attributen ](../personalization/personalization-build-expressions.md) worden niet gesteund in fragmenten.
 >
 >Wanneer het volgen in een reis of een campagne wordt toegelaten, als de verbindingen in een bewaard fragment aanwezig zijn en als dit fragment in een bericht wordt gebruikt, worden deze verbindingen gevolgd zoals alle andere verbindingen inbegrepen in het bericht. [ leer meer op verbindingen en het volgen ](../email/message-tracking.md)
 
@@ -37,7 +39,7 @@ Voer de volgende stappen uit om inhoud van de e-mailtoepassing als fragment op t
    >
    >Visuele fragmenten mogen niet groter zijn dan 100 kB.
 
-1. Het scherm **[!UICONTROL Save as fragment]** wordt weergegeven. Hier selecteert u de elementen die u in het fragment wilt opnemen, inclusief personalisatievelden en dynamische inhoud. Contextuele kenmerken worden niet ondersteund in fragmenten.
+1. Het scherm **[!UICONTROL Save as fragment]** wordt weergegeven. Hier selecteert u de elementen die u in het fragment wilt opnemen, inclusief personalisatievelden en dynamische inhoud.
 
    ![](assets/fragment-save-as-screen.png)
 
@@ -51,7 +53,7 @@ Voer de volgende stappen uit om inhoud van de e-mailtoepassing als fragment op t
 
 1. Selecteer of creeer de markeringen van Adobe Experience Platform van het **gebied van Markeringen** om uw malplaatje voor beter onderzoek te categoriseren. [Meer informatie](../start/search-filter-categorize.md#tags)
 
-1. Klik op **[!UICONTROL Create]**. Het fragment wordt toegevoegd aan de [ fragmentlijst ](#access-manage-fragments) met de **3&rbrace; status van het Ontwerp &lbrace;.** Het wordt een zelfstandig fragment dat kan worden gebruikt als elk ander visueel fragment uit die lijst.
+1. Klik op **[!UICONTROL Create]**. Het fragment wordt toegevoegd aan de [ fragmentlijst ](#access-manage-fragments) met de **3} status van het Ontwerp {.** Het wordt een zelfstandig fragment dat kan worden gebruikt als elk ander visueel fragment uit die lijst.
 
    >[!NOTE]
    >
@@ -84,6 +86,6 @@ Voer de onderstaande stappen uit om inhoud op te slaan als een expressiefragment
 
    <!--An expression fragment cannot be nested inside another fragment.-->
 
-1. Het fragment wordt toegevoegd aan de [ fragmentlijst ](#access-manage-fragments) met de **3&rbrace; status van het Ontwerp &lbrace;.** Het wordt een zelfstandig fragment dat kan worden gebruikt als elk ander expressiefragment uit die lijst.
+1. Het fragment wordt toegevoegd aan de [ fragmentlijst ](#access-manage-fragments) met de **3} status van het Ontwerp {.** Het wordt een zelfstandig fragment dat kan worden gebruikt als elk ander expressiefragment uit die lijst.
 
 1. Als u het fragment wilt kunnen gebruiken tijdens reizen en campagnes, moet u het live maken. [ leer hoe te om een fragment ](../content-management/create-fragments.md#publish) voor te vertonen en te publiceren

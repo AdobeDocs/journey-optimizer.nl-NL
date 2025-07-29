@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressie, editor, bibliotheek, personalisatie
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '948'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Wanneer het gebruiken van de **verpersoonlijkingsredacteur**, kunt u hefboomwerk
 
 Een fragment is een herbruikbare component waarnaar in [!DNL Journey Optimizer] -campagnes en -reizen kan worden verwezen. Met deze functionaliteit kunt u meerdere blokken met aangepaste inhoud vooraf samenstellen. Deze blokken kunnen door marketinggebruikers worden gebruikt om inhoud snel samen te stellen in een verbeterd ontwerpproces. [ leer hoe te om fragmenten ](../content-management/fragments.md) tot stand te brengen en te beheren.
 
-➡️ [ leren hoe te om, auteur en gebruiks fragmenten in deze video te beheren ](../content-management/fragments.md#video-fragments)
+➡️ [ Leer hoe te, auteur en gebruiks fragmenten in deze video ](../content-management/fragments.md#video-fragments) beheren
 
 ## Expressiefragment gebruiken {#use-expression-fragment}
 
@@ -50,7 +50,7 @@ Volg onderstaande stappen om expressiefragmenten aan uw inhoud toe te voegen.
 
    >[!CAUTION]
    >
-   >U kunt om het even welk **Ontwerp** toevoegen of **Levend** fragment aan uw inhoud. U kunt uw reis of campagne echter niet activeren als er een fragment met de status Concept in wordt gebruikt. Tijdens de reis- of campagnepublicatie wordt een fout weergegeven in ontwerpfragmenten die u moet goedkeuren om te kunnen publiceren.
+   >U kunt om het even welk **Ontwerp** toevoegen of **Levend** fragment aan uw inhoud. Nochtans, zult u uw reis of campagne niet kunnen activeren als een fragment met de **status van het Ontwerp** in het wordt gebruikt. Tijdens de reis- of campagnepublicatie wordt een fout weergegeven in ontwerpfragmenten die u moet goedkeuren om te kunnen publiceren.
 
 1. Zodra fragment ID is toegevoegd, als u het overeenkomstige uitdrukkingsfragment opent en [ het ](../content-management/fragments.md#edit-fragments) van de interface uitgeeft, worden de veranderingen gesynchroniseerd. Ze worden automatisch doorgegeven aan alle concepten of live reizen/campagnes die die fragment-id bevatten.
 

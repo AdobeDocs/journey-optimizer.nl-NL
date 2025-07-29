@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 2%
@@ -35,7 +35,7 @@ Blader op de onderstaande tabbladen om te leren hoe u een tekstbericht (SMS/MMS/
 
 >[!BEGINTABS]
 
->[!TAB voeg een tekstbericht aan een Reis  toe]
+>[!TAB  voeg een tekstbericht aan een Reis ] toe
 
 1. Open uw reis dan belemmering en laat vallen een activiteit van SMS van de **sectie van Acties** van het palet.
 
@@ -122,6 +122,8 @@ Volg onderstaande stappen om de inhoud van uw bericht te configureren. De montag
 1. Klik in het menu **[!UICONTROL Helper functions]** op **[!UICONTROL URL function]** en selecteer vervolgens **[!UICONTROL Add URL]** .
 
    ![](assets/sms_tracking_2.png)
+
+   <!--The URL shortening function cannot be used within a fragment. TBC-->
 
 1. Plak in het veld `originalUrl` de URL die u wilt verkorten en klik op **[!UICONTROL Save]** .
 
