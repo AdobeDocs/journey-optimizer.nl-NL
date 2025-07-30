@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c0b72e046720a667841b83752fe8bba63e572e95
+source-git-commit: c6896c02778ec637570f286a9487220995000bf9
 workflow-type: tm+mt
-source-wordcount: '2342'
-ht-degree: 4%
+source-wordcount: '1888'
+ht-degree: 6%
 
 ---
 
@@ -20,18 +20,19 @@ ht-degree: 4%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 
-## Opmerkingen bij de pre-release juli 25 {#25-7-rn}
+## Opmerkingen bij de release van juli 1925 {#25-7-rn}
 
-**de Nota&#39;s van de pre hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd op de releasedatum.
+<!--
+**Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **de datum van de Versie**: 29 juli, 2025
 
-### Nieuwe functies {#25-7-features}
+### Nieuwe functies {#features-25-7}
 
 De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder beschreven.
 
@@ -49,7 +50,7 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <p>Journey Optimizer ondersteunt nu direct WhatsApp-berichten, waardoor u probleemloos kunt integreren in uw reizen en campagnes voor betere communicatie en betrokkenheid van ontvangers. Dit native kanaal biedt een oplossing voor de integratie van WhatsApp-sjablonen, de voorvertoning van berichten, personalisatie, rapportage van levering, webhaken, het beheer van de opt-in- en opt-out-toestemming en meer.</p>
 <p>Eerder in Beta is deze mogelijkheid nu beschikbaar voor alle omgevingen (algemene beschikbaarheid).</p>
 <p><img src="../whatsapp/assets/do-not-localize/WA-Animation.gif"/><p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>Raadpleeg de <a href="../whatsapp/get-started-whatsapp.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -67,78 +68,82 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <p>U kunt nu uw eigen merken maken en aanpassen om uw visuele en verbale identiteit in verschillende communicatie duidelijk te definiëren. Met de merkuitlijningsscore kunt u in real-time feedback ontvangen over hoe goed uw inhoud de toon, stijl en richtlijnen van uw merk weerspiegelt, zodat u bij elke boodschap die u verzendt, consistent onder het merk kunt blijven.</p>
 <p>Eerder in Beta is deze mogelijkheid nu beschikbaar voor alle omgevingen (algemene beschikbaarheid).</p>
 <p><img src="assets/do-not-localize/brand-score.gif"/></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>Raadpleeg de <a href="../content-management/brands.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Ervaring kiezen in e-mailkanaal</strong><br/></th>
+<th><strong>Use Experience Decisioning in email channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt nu beleidsregels voor beslissingen toevoegen aan e-mailreizen en -campagnes. Beslissingsbeleid is containers voor uw aanbiedingen die de beslissingsengine gebruiken om dynamisch de beste inhoud te retourneren die voor elk publiekslid kan worden geleverd.</p>
-<p>Deze mogelijkheid is momenteel niet beschikbaar voor gebruik met het Gezondheidsschild en met het Privacy and Security Shield (beperkte beschikbaarheid).</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>You can now add Decision policies into email journeys and campaigns. Decision policies are containers for your offers that leverage the Decisioning engine to dynamically return the best content to deliver for each audience member.</p>
+<p>This capability is currently unavailable for use with the Healthcare Shield, and with the Privacy and Security Shield (Limited Availability).</p>
+<p>img src="assets/do-not-localize/FILE.gif"/></p>
+For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Optimalisatie in campagnes</strong><br/></th>
+<th><strong>Optimization in campaigns</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer stelt u nu in staat met de gereedschappen gepersonaliseerde en geoptimaliseerde inhoud te leveren aan het publiek van uw campagnes, zodat u experimenten met inhoud kunt uitvoeren, doelgerichte regels kunt maken en geavanceerde combinaties van beide kunt gebruiken om de doeltreffendheid van uw campagnes te maximaliseren.</p>
-<p>Met Optimalisatie kunt u:</p>
+<p>Journey Optimizer now empowers you with the tools to deliver personalized and optimized content to your campaigns' audience, allowing you to run content experiments, create rule-based targeting, and use advanced combinations of both, to maximize the effectiveness of your campaigns.</p>
+<p>With Optimization, you can:</p>
 <ul>
-<li>Test veelvoudige inhoudsvariaties om het meest efficiënte overseinen te identificeren.</li>
-<li>Aangepaste inhoud leveren op basis van gebruikerskenmerken en contextuele gegevens.</li>
-<li>Combineer gerichte acties en experimenten voor geavanceerde campagnestrategieën.</li>
-<li>Filter gebruikers uit die niet voldoen aan variantcriteria.</li>
-<li>Zorg voor terugvalmechanismen om de betrokkenheid van de gebruiker te behouden.</li>
+<li>Test multiple content variations to identify the most effective messaging.</li>
+<li>Deliver personalized content based on user attributes and contextual data.</li>
+<li>Combine targeting and experimentation for advanced campaign strategies.</li>
+<li>Filter out users that do not match variant criteria.</li>
+<li>Ensure fallback mechanisms to maintain user engagement.</li>
 </ul>
-<P>Wanneer de campagne live is, worden profielen beoordeeld aan de hand van de gedefinieerde criteria en op basis van overeenkomstige criteria, worden ze geleverd met de juiste ervaring of inhoud van de campagne.</p>
-<p><img src="assets/do-not-localize/campaign-optimization.gif"/>&gt;</p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<P>Once the campaign is live, profiles are evaluated against the defined criteria, and based on matching criteria, they are delivered with the appropriate experience or content from the campaign.</p>
+<p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Donkere modus in de Designer-e-mail</strong><br/></th>
+<th><strong>Dark mode in the Email Designer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>De Journey Optimizer Email Designer biedt nu de mogelijkheid om over te schakelen naar de weergave in de donkere modus, waar u bovendien specifieke aangepaste instellingen kunt definiëren die alleen worden weergegeven voor ontvangers die hun e-mails in de donkere modus lezen.</p>
-<p>Let op het volgende:</p>
+<p>The Journey Optimizer Email Designer now offers the ability to switch to dark mode view, where you can additionally define specific custom settings that will display only for recipients reading their emails in dark mode.</p>
+<p>Note the following:</p>
 <ul>
-<li>De uiteindelijke rendering in de donkere modus kan variëren en is afhankelijk van de e-mailclient van de ontvanger.</li>
-<li>Niet alle e-mailclients ondersteunen de aangepaste donkere modus. Bovendien passen sommige e-mailclients alleen hun eigen standaard donkere modus toe op alle ontvangen e-mails. In beide gevallen kunnen de aangepaste instellingen die u in de e-mailtoepassing hebt gedefinieerd, niet worden weergegeven.</li>
+<li>The dark mode final rendering may vary and depends on the recipient's email client.</li>
+<li>Not all email clients support custom dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.</li>
 </ul>
-<P>Deze mogelijkheid is momenteel beschikbaar in bètaversie en alleen voor bètaklanten. Neem contact op met uw Adobe-vertegenwoordiger als u wilt deelnemen aan het bètaprogramma.</p>
+<P>This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.</p>
 <p><img src="assets/do-not-localize/dark-mode.gif"/></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>For more information, refer to the <a href="../email/dark-mode.md">detailed documentation</a>. </p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -152,53 +157,55 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <p>Reis Dry run is een speciale publicatiemodus in Adobe Journey Optimizer die reisartsen in staat stelt een reis te testen met behulp van echte productiegegevens zonder contact op te nemen met echte klanten of profielinformatie bij te werken. Deze functie helpt reisartsen vertrouwen te winnen in hun reisontwerp en doelgroep voordat ze het live publiceren.</p>
 <img src="assets/do-not-localize/DryRun.gif">
 <p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>Voor meer informatie, verwijs naar de <a href="../building-journeys/journey-dry-run.md"> gedetailleerde documentatie </a></p>
 </td>
 </tr>
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Kalenderweergave</strong><br/></th>
+<th><strong>Calendar view</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>In de lijsten met reizen en campagnes is nu een kalenderweergave beschikbaar. Hiermee kunt u alle reizen en campagnes in de respectieve lijsten visualiseren.</p>
-<p>Eerder beschikbaar in Beperkte Beschikbaarheid, is deze eigenschap nu beschikbaar aan alle milieu's. Met deze algemene beschikbaarheidsrelease omvat deze functie:</p>
+<p>A calendar view is now available in the journeys and campaigns lists. It allows you to visualize all journeys and campaigns activations in the respective lists.</p>
+<p>Previously available in Limited Availability, this feature is now available to all environments. With this General Availability release, the feature includes:</p>
 <ul>
-<li>Ontwerpverbeteringen voor de navigatie in datums</li>
-<li>De mogelijkheid om conceptiecampagnes weer te geven als u een begin- en einddatum hebt ingesteld</li>
-<li>Een nieuwe instelling voor het verbergen en weergeven van kalenderitems die lange tijd worden uitgevoerd</li>
+<li>Design improvements for the navigation in dates</li>
+<li>The ability to see draft campaigns if you have set a start and end date</li>
+<li>A new setting to hide and show calendar items running for a long time</li>
 </ul>
 <img src="assets/do-not-localize/calendar.gif">
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Aanvullende ID voor reizen</strong><br/></th>
+<th><strong>Supplemental ID for journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt nu ritten activeren met een profiel-id en een andere id, zoals een bestellings-id, een abonnement-id of een recept-id, zodat hetzelfde profiel zich meerdere keren tegelijk in dezelfde reis kan bevinden. Dit laat scenario's zoals het beheren van veelvoudige orden of abonnementen parallel toe, met elke instantie die zijn eigen weg door de reis volgt.</p>
-<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is het gebruik van extra IDs in reizen nu beschikbaar aan alle milieu's. Met deze algemene beschikbaarheidsrelease bevat deze functie nu ondersteuning voor reizen van lezers.</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>You can now trigger journeys using a profile ID along with another identifier, such as an order ID, subscription ID, or prescription ID, allowing the same profile to be in the same journey multiple times at once. This enables scenarios like managing multiple orders or subscriptions in parallel, with each instance following its own path through the journey.</p>
+<p>Previously released in Limited Availability, the use of supplemental IDs in journeys is now available to all environments. With this General Availability release, the feature now includes support for Read audience journeys.</p>
+<p><img src="assets/do-not-localize/FILE.gif"/></p>
+<p>For more information, refer to the <a href="../building-journeys/supplemental-identifier.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 ### Verandering van de reisomstandigheden {#ee-change@}
 
@@ -213,36 +220,46 @@ Leer meer [ in dit FAQ ](../building-journeys/exp-event-lookup.md#faq-ee).
 De verbeteringen die bij deze release worden geleverd, worden hieronder weergegeven.
 
 - **Campagnes**
-   - **regel-Gebaseerde Verdiskwalificatie van de Campagne** - in de kaarten van de Inhoud, wanneer het uitgeven van extra leveringsregels, is de vorige optie van de Regels van de Levering vervangen met drie verschillende regeltypes aan betere controle berichttiming en zicht:
-      - Bericht weergeven als: voorwaarden die bepalen wanneer de inhoudskaart wordt weergegeven.
-      - Bericht sluiten als: Voorwaarden die de inhoudskaart tijdelijk verbergen. De weergave kan worden hersteld als opnieuw aan de voorwaarden voor de show wordt voldaan.
-      - Schakel het bericht uit als: Voorwaarden die voorkomen dat de inhoudskaart opnieuw wordt weergegeven.
-  <!-- [Read more](../FILE.md) -->
 
    - **Veelvoudige binnenkomende acties in campagnes** - om uw campagneorchestratie te vereenvoudigen, kunt u verscheidene binnenkomende acties in één enkele campagne nu bepalen. Met deze functie kunt u meerdere op code gebaseerde ervaringen, In-app-berichten, Content Cards of webhandelingen tegelijk op verschillende locaties aanbieden, waarbij elke actie een specifieke inhoud bevat.
   <!-- [Read more](../FILE.md) -->
 
    - **de inventarisreorganisatie van de Campagne** - Gepland en API-teweeggebrachte campagnes zijn nu verdeeld in afzonderlijke lusjes in de campagneinventaris voor gemakkelijkere navigatie en beheer.
-  <!-- [Read more](../FILE.md) -->
+
+[Meer informatie](../campaigns/modify-stop-campaign.md)
 
 - **het Beheer van Gegevens**
    - **de update van de systeemdatasets van het Beheer van het Besluit** - de geschrapte Gepersonaliseerde en aanbiedingen van de Fallback worden nu duidelijk zoals gearchiveerd in de &quot;beslissing_object_repository_personalized_aanbiedingen&quot;en &quot;Decision_object_repository_fallback_aanbiedingen&quot;datasets. De bestaande records in de dataset worden niet gewijzigd.
-  <!-- [Read more](../FILE.md) -->
+
+[Meer informatie](../offers/export-catalog/access-dataset.md)
 
 - **Reizen**
    - **de Tooling van Sandbox van de Reis Verbeteringen** - wanneer het kopiëren van reizen over veelvoudige zandbakken gebruikend de pakketuitvoer en de invoermogelijkheden, zijn de volgende mogelijkheden nu ook beschikbaar:
       - Een bestaande gebeurtenis op het doel selecteren
       - Het kopiëren over een evenement onafhankelijk van een reis
       - Het ontdekken van gebiedsgroep/gegevensbronverhoudingen, die met hen verbinden bij de bestemming als zij bestaan, creërend hen als zij niet.
-  <!-- [Read more](../FILE.md) -->
 
-- **Kanaal - InApp**
-   - **In-app Zeer belangrijke/paren van de Waarde** - met In-app berichten, kunt u Sleutel en paren van de Waarde bepalen om douanevariabelen in de berichtlading te omvatten. Deze zeer belangrijk-waardeparen laten u toe om extra gegevens over te gaan die op uw specifieke configuratie en gebruiksgeval worden gebaseerd.
-  <!-- [Read more](../FILE.md) -->
+[Meer informatie](../configuration/copy-objects-to-sandbox.md)
+
+- **Kanaal - in-app**
+   - **In-app Zeer belangrijke/paren van de Waarde** - met In-app berichten, kunt u Sleutel en paren van de Waarde bepalen om douanevariabelen in de berichtlading te omvatten. Deze zeer belangrijk-waardeparen laten u toe om extra gegevens over te gaan die op uw specifieke configuratie en gebruiksgeval worden gebaseerd. [Meer informatie](../in-app/design-in-app.md)
+
+- **Kanaal - de Kaart van de Inhoud**
+
+   - **regel-Gebaseerde Verdiskwalificatie van de Campagne** - toen het uitgeven van extra leveringsregels, is de vorige optie van de Regels van de Levering vervangen met drie verschillende regeltypes aan betere controle berichttiming en zicht:
+      - Bericht weergeven als: voorwaarden die bepalen wanneer de inhoudskaart wordt weergegeven.
+      - Bericht sluiten als: Voorwaarden die de inhoudskaart tijdelijk verbergen. De weergave kan worden hersteld als opnieuw aan de voorwaarden voor de show wordt voldaan.
+      - Schakel het bericht uit als: Voorwaarden die voorkomen dat de inhoudskaart opnieuw wordt weergegeven.
+
+[Meer informatie](../content-card/design-content-card.md)
 
 - **Beslissing**
    - **het tooling APIs van de Migratie** - het team van Journey Optimizer werkt momenteel aan migratie tooling APIs om besluitvormingsbeheersentiteiten aan Beslissing te migreren. Met deze gereedschappen kunt u naadloze migratie mogelijk maken tussen sandboxen met de mogelijkheden voor afhankelijkheidsresolutie en terugdraaien. Neem indien nodig contact op met uw Adobe-vertegenwoordiger.
 
+- **Personalization**
+   - Er is een nieuwe hulpfunctie, SHA256, toegevoegd aan de personalisatie-editor. Deze functie wordt gebruikt om de sha256 hash van een tekenreeks te berekenen en te retourneren.
+
+[Meer informatie](../personalization/functions/string.md#sha256)
 
 ## Opmerkingen bij de release van juni &#39;25 {#25-6-rn}
 
@@ -251,7 +268,7 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 **de datum van de Versie**: 18 Juni, 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nieuwe functies {#25-06-features}
 
