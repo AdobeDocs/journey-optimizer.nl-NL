@@ -1,19 +1,18 @@
 ---
 title: Merk uitlijnen
 description: Leer hoe u on-brand inhoud kunt maken, valideren en beheren met de score van uw merk.
-badge: label="Beta" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
+source-git-commit: 0a3e8a0eba6eaac125f508b8b81e2fab992eb978
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '260'
 ht-degree: 2%
 
 ---
 
-# Merk uitlijnen (Beta){#brands-score}
+# Merk uitlijnen {#brands-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"
@@ -37,8 +36,7 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->Dit vermogen wordt vrijgegeven als privé bèta. Het zal in toekomstige versies geleidelijk beschikbaar zijn voor alle klanten.
->&#x200B;>U moet met de [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} akkoord gaan alvorens u de Medewerker AI in Adobe Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>U moet met de [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} akkoord gaan alvorens u de Medewerker AI in Adobe Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 Met de functie Merkuitlijning kunt u inhoud maken, bekijken en beheren die voldoet aan uw richtlijnen voor merken. Het zorgt voor consistentie in toon, overseinen, en visuele identiteit over uw e-mailcampagnes, terwijl ook als kwaliteitscontrole dient alvorens uw inhoud live gaat.
 

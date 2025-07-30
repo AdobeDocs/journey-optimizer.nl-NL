@@ -3,7 +3,7 @@ title: Aanvullende identificatiecode bij door gebeurtenissen veroorzaakte reizen
 description: Leer hoe u een aanvullende id kunt gebruiken tijdens een door een gebeurtenis geïnitieerde reis.
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 664f38b4ff56ce871599400f898e23a8d04f7816
+source-git-commit: 5e4297fb0e2d0b910c9fe102299162e8bb46a311
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 0%
@@ -199,4 +199,4 @@ Voer de volgende stappen uit als u een aanvullende id wilt gebruiken voor een ri
 
 Leer hoe u een aanvullende id in [!DNL Adobe Journey Optimizer] kunt inschakelen en toepassen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464798?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
