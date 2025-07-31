@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 45870255078af7b374cf4a63f72bc94d53581bcb
+source-git-commit: 382962876824058a7267143436c02d39dbc42b20
 workflow-type: tm+mt
-source-wordcount: '1888'
+source-wordcount: '1957'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 
 ## Opmerkingen bij de release van juli 1925 {#25-7-rn}
@@ -28,7 +28,7 @@ ht-degree: 6%
 <!--
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **de datum van de Versie**: 29 juli, 2025
 
@@ -74,25 +74,22 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 </tbody>
 </table>
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Use Experience Decisioning in email channel</strong><br/></th>
+<th><strong>Ervaring kiezen in e-mailkanaal</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now add Decision policies into email journeys and campaigns. Decision policies are containers for your offers that leverage the Decisioning engine to dynamically return the best content to deliver for each audience member.</p>
-<p>This capability is currently unavailable for use with the Healthcare Shield, and with the Privacy and Security Shield (Limited Availability).</p>
-<p>img src="assets/do-not-localize/FILE.gif"/></p>
-For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
+<p>U kunt nu beleidsregels voor beslissingen toevoegen aan e-mailreizen en -campagnes. Beslissingsbeleid is containers voor uw aanbiedingen die de beslissingsengine gebruiken om dynamisch de beste inhoud te retourneren die voor elk publiekslid kan worden geleverd.</p>
+<p>Deze mogelijkheid is momenteel niet beschikbaar voor gebruik met het Gezondheidsschild en met het Privacy and Security Shield (beperkte beschikbaarheid).</p>
+Voor meer informatie, verwijs naar de <a href="../experience-decisioning/create-decision.md"> gedetailleerde documentatie </a></p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 <!--
 <table>
@@ -268,7 +265,7 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 **de datum van de Versie**: 18 Juni, 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nieuwe functies {#25-06-features}
 
