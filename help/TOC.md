@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
-source-wordcount: '2592'
+source-wordcount: '2594'
 ht-degree: 19%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 19%
    + [Best practices](using/start/best-practices.md)
 + Journeys {#orchestrate-journeys}
    + [Aan de slag met reizen](using/building-journeys/journey.md)
-   + Een journey maken{#create-journey}
+   + Een journey maken {#create-journey}
       + [Uw eerste journey maken](using/building-journeys/journey-gs.md)
       + [De eigenschappen van uw reis instellen](using/building-journeys/journey-properties.md)
       + [Vorm en spoor uw reismetriek](using/building-journeys/success-metrics.md)
@@ -53,7 +53,7 @@ ht-degree: 19%
       + [Uw reis publiceren](using/building-journeys/publishing-the-journey.md)
       + [Een reis pauzeren](using/building-journeys/journey-pause.md)
       + [Live melding op reis](using/building-journeys/report-journey.md)
-   + Uw reizen beheren{#manage-journey}
+   + Uw reizen beheren {#manage-journey}
       + [Bladeren en uw reizen filteren](using/building-journeys/journey-ui.md)
       + [Profielingang bij reizen](using/building-journeys/entry-management.md)
       + [Aanvullende identificatiecode bij door gebeurtenissen veroorzaakte reizen](using/building-journeys/supplemental-identifier.md)
@@ -382,7 +382,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
 + Inhoudsbeheer {#content-management}
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [Adobe Experience Platform-gegevens gebruiken voor personalisatie (Beta)](using/personalization/aep-data-perso.md)
@@ -452,7 +452,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Experimenteer met inhoud met AI](using/content-management/generative-experimentation.md)
       + [Openingspagina met AI](using/content-management/generative-lp.md)
       + [Gebruiksgevallen van AI Assistant](using/content-management/generative-uc.md)
-      + Merken (bèta){#brands}
+      + Merken {#brands}
          + [Uw merken maken en beheren](using/content-management/brands.md)
          + [Uw Brand-uitlijningsscore evalueren](using/content-management/brands-score.md)
    + Meertalige inhoud{#content-multilingual}
@@ -585,6 +585,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
             + [Model voor automatische optimalisatie](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [Gepersonaliseerd optimalisatiemodel](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [AI-modellen maken](using/experience-decisioning/ranking/create-ai-models.md)
+      + [Werken met stages](using/experience-decisioning/placements.md)
       + Adobe Experience Platform-gegevens gebruiken {#aep-data}
          + [Gebruik van contextgegevens](using/experience-decisioning/context-data.md)
          + [Adobe Experience Platform gebruiken voor besluitvorming](using/experience-decisioning/aep-data-exd.md)
@@ -748,7 +749,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}

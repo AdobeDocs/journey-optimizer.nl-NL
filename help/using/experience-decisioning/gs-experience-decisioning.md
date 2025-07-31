@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '513'
 ht-degree: 4%
 
 ---
@@ -50,13 +50,13 @@ De belangrijkste stappen om met Beslissing te werken zijn als volgt:
 
    1. Typ de naam of het e-mailadres van de gebruiker of selecteer de gebruiker in de lijst en klik op **[!UICONTROL Save]** .
 
-      Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/users) toevoegen.
+      Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users) toevoegen.
 
       ![](assets/decision_permission_3.png)
 
    Uw gebruiker moet dan een e-mail ontvangen die aan uw instantie opnieuw richt.
 
-   +++
++++
 
 1. **vorm douanekenmerken**: Tailor de puntcatalogus aan uw specifieke vereisten door opstellingsdouaneattributen in het schema van de catalogus.
 
@@ -82,7 +82,7 @@ De belangrijkste stappen om met Beslissing te werken zijn als volgt:
 
    ➡️ [ Leer hoe te om selectiestrategieën in het gebruikersinterface ](selection-strategies.md) in het gebruikersinterface (en in de [ API documentatie ](api-reference/selection-strategies/create.md) tot stand te brengen)
 
-1. **creeer een besluitvormingsbeleid en bedt het in uw op code-gebaseerde campagne** in: Het beleid van het besluit combineert veelvoudige selectiestrategieën om de in aanmerking komende besluitpunten te bepalen om aan het voorgenomen publiek te tonen.
+1. **creeer een besluitvormingsbeleid en bedt het in uw op code-gebaseerde of e-mailreis/campagne** in: Het beleid van het besluit combineert veelvoudige selectiestrategieën om de in aanmerking komende besluitpunten te bepalen aan vertoning aan het voorgenomen publiek.
 
    ➡️ [ Leer hoe te met besluitvormingsbeleid ](create-decision.md) te werken
 ➡️ om de aanbieding via op code-gebaseerd ervaringskanaal met succes te leveren, volg de implementatiestappen in [ deze sectie ](../code-based/code-based-implementation-samples.md).

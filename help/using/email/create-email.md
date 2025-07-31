@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: maken, e-mail, starten, reizen, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '957'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Als u een e-mail wilt maken in [!DNL Journey Optimizer] , voegt u een **[!UICONT
 
 >[!BEGINTABS]
 
->[!TAB voeg een e-mail aan een reis  toe]
+>[!TAB  voeg een e-mail aan een reis ] toe
 
 1. Open uw reis en sleep vervolgens een **[!UICONTROL Email]** -activiteit vanuit de **[!UICONTROL Actions]** -sectie van het palet.
 
@@ -84,7 +84,17 @@ Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [ deze 
 
    ![](assets/email_campaign_edit_content.png)
 
-   In de sectie **[!UICONTROL Header]** van het **[!UICONTROL Edit content]** -scherm worden het veld **[!UICONTROL From name]** , **[!UICONTROL From email]** en **[!UICONTROL BCC]** geconfigureerd in de e-mailconfiguratie die u hebt geselecteerd. [ Leer meer ](email-settings.md) <!--check if same for journey-->
+1. Schakel **[!UICONTROL Enable decisioning]** in als u beleidsregels voor beslissingen in uw e-mail wilt opnemen.
+
+   Beslissingsbeleid is containers voor uw aanbiedingen die de beslissingsengine gebruiken om dynamisch de beste inhoud te retourneren die voor elk publiekslid kan worden geleverd. [ Leer hoe te om een besluitvormingsbeleid in e-mail toe te voegen ](../experience-decisioning/create-decision.md#add)
+
+   ![](assets/../../experience-decisioning/assets/decision-policy-enable.png)
+
+   >[!AVAILABILITY]
+   >
+   >Organisaties die de invoegtoepassing Adobe Healthcare Shield of Privacy and Security Shield hebben aangeschaft, hebben momenteel nog geen beleid voor het maken van beslissingen in e-mails.
+
+1. Controleer in de sectie **[!UICONTROL Header]** de velden **[!UICONTROL From name]** , **[!UICONTROL From email]** en **[!UICONTROL BCC]** . Zij worden gevormd in de e-mailconfiguratie die u selecteerde. [ Leer meer ](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
@@ -92,9 +102,7 @@ Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [ deze 
 
    >[!NOTE]
    >
-   >* De onderwerpregel is verplicht.
-   >
-   >* De onderwerpregel mag geen regeleinden bevatten.
+   >De onderwerpregel is verplicht. Er mogen geen regeleinden worden opgenomen.
 
 1. Klik op de knop **[!UICONTROL Edit email body]** om toegang te krijgen tot de e-mailtoepassing van de Designer en uw inhoud op te bouwen. [Meer informatie](get-started-email-design.md)
 
@@ -168,7 +176,7 @@ Wanneer uw e-mail klaar is, voltooi de configuratie van uw [ reis ](../building-
 
 >[!NOTE]
 >
->Om het gedrag van uw ontvangers door e-mailopeningen en/of interactie te volgen, zorg ervoor dat de specifieke opties in de **[!UICONTROL Tracking]** sectie in de 1&rbrace; e-mailactiviteit van de reis &rbrack;(../building-journeys/journeys-message.md) of in de e-mail [ campagne ](../campaigns/create-campaign.md) worden toegelaten.<!--to move?-->&lbrack;
+>Om het gedrag van uw ontvangers door e-mailopeningen en/of interactie te volgen, zorg ervoor dat de specifieke opties in de **[!UICONTROL Tracking]** sectie in de 1} e-mailactiviteit van de reis [ of in de e-mail ](../building-journeys/journeys-message.md) campagne [ worden toegelaten.](../campaigns/create-campaign.md)<!--to move?-->
 
 <!--
 
