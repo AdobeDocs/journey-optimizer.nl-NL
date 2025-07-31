@@ -4,9 +4,9 @@ description: Leer hoe u Journey Optimizer-tools voor conflicten en prioritering 
 role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
+source-git-commit: 8146221975b7460bf1deaca9363d1624b719b480
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Met het **hulpmiddel van de conflictopsporing**, kunt u potentiële overlappinge
 
 ### Regelsets
 
-De reeksen van de regel staan u toe om **samen veelvoudige regels in regelreeksen** te groeperen en hen op de reizen en de campagnes van uw keus toe te passen. Dit verstrekt betere granulariteit om te beperken hoe vaak en hoeveel reizen een klant binnen een bepaald tijdkader kan ingaan of te controleren hoe vaak de gebruikers een bericht afhankelijk van het type van mededeling zullen ontvangen.
+De reeksen van de regel staan u toe om **samen veelvoudige regels in regelreeksen** te groeperen en hen op de reizen en de campagnes van uw keus toe te passen. Dit verstrekt betere granulariteit om te beperken hoe vaak en hoeveel reizen een klant binnen een bepaald tijdkader kan ingaan of te controleren hoe vaak de gebruikers een bericht afhankelijk van het type van mededeling zullen ontvangen. [ leer hoe te met regelreeksen ](../conflict-prioritization/rule-sets.md) werken
 
 * **Reis het in kaart brengen &amp; arbitrage**
 
