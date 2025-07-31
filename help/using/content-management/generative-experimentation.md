@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 1f7fd3468d85852931c6a753c2363ebe5a293b33
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 4%
@@ -20,7 +20,7 @@ ht-degree: 4%
 >[!IMPORTANT]
 >
 >Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](gs-generative.md#generative-guardrails).
-></br>
+>></br>
 >
 >U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u AI Medewerker in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
@@ -44,9 +44,7 @@ Nadat u uw berichten hebt gemaakt en gepersonaliseerd, kunt u de inhoud optillen
 
    ![](assets/experiment-genai-3.png)
 
-1. Open vanuit het venster Inhoud experimenteren de knop **[!UICONTROL Experiment settings]** om uw experiment te configureren. [ Leer meer over de Experiment van de Inhoud ](../content-management/content-experiment.md)
-
-   ![](assets/experiment-genai-4.png)
+1. Vanuit uw Content Experiment kunt u nu uw inhoud-experimenteren configureren. [ Leer meer over de Experiment van de Inhoud ](../content-management/content-experiment.md)
 
 1. Wanneer uw Content-experiment gereed is, kunt u vanaf de overzichtspagina van de campagne op **[!UICONTROL Review to activate]** klikken om een overzicht van de campagne weer te geven. Waarschuwt de weergave als een parameter onjuist is of ontbreekt. [Meer informatie](../content-management/content-experiment.md#treatment-experiment)
 

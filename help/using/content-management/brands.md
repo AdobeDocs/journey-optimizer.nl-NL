@@ -3,14 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Merk beheren
 description: Leer hoe u richtlijnen voor uw merk kunt maken en beheren
-badge: label="Beta" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: f9266d01610b92d8a55be8263da6bb808b3cc8ff
+source-git-commit: 0a3e8a0eba6eaac125f508b8b81e2fab992eb978
 workflow-type: tm+mt
-source-wordcount: '1389'
+source-wordcount: '1369'
 ht-degree: 0%
 
 ---
@@ -33,8 +32,6 @@ ht-degree: 0%
 >abstract="Selecteer uw merk om ervoor te zorgen dat uw inhoud is samengesteld in overeenstemming met de specifieke richtlijnen, standaarden en identiteit, zodat consistentie en brandintegriteit behouden blijven."
 
 >[!AVAILABILITY]
->
->Deze mogelijkheid is beschikbaar als een persoonlijke bètaversie. Het zal in toekomstige versies geleidelijk beschikbaar zijn voor alle klanten.
 >
 >U moet met de [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} akkoord gaan alvorens u de Medewerker AI in Adobe Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
@@ -68,7 +65,7 @@ Voer de volgende stappen uit om machtigingen voor merken toe te wijzen:
 
 1. Ga de naam van de gebruiker, e-mailadres in, of kies van de lijst, dan klik **sparen**.
 
-1. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/users).
+1. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users).
 
 +++
 

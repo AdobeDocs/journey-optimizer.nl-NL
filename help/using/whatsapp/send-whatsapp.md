@@ -7,28 +7,15 @@ feature: Whatsapp
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
-source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
+source-git-commit: 623d9b15d1f7f4e7f73f26cf3e19516bed4c0f56
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
 
 # Controleer en verzend uw WhatsApp-berichten {#send-whatsapp}
-
->[!BEGINSHADEBOX]
-
-**Lijst van inhoud**
-
-* [Aan de slag met WhatsApp-berichten](get-started-whatsapp.md)
-* [Aan de slag met WhatsApp-configuratie](whatsapp-configuration.md)
-* [Een whatsApp-bericht maken](create-whatsapp.md)
-* **[Controle en verzend uw WhatsApp- berichten](send-whatsapp.md)**
-
->[!ENDSHADEBOX]
 
 ## Een voorvertoning weergeven van uw WhatsApp-bericht {#preview-whatsapp}
 

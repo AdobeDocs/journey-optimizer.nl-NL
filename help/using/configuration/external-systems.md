@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: extern, API, optimaliseren, aftopping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: e3ed3d2d662d76c022a7820f3771289b14c8b8b8
+source-git-commit: 0a6db9c9537563fea5d56289d78b9ed49d703734
 workflow-type: tm+mt
-source-wordcount: '1374'
-ht-degree: 23%
+source-wordcount: '1352'
+ht-degree: 24%
 
 ---
 
@@ -102,7 +102,7 @@ Laten we een voorbeeld nemen voor een time-out van 5 seconden.
 
 **Hoe kan ik een het in kaart brengen of throttling regel vormen? Is er een standaardregel?**
 
-Om het in kaart brengen of het vertragen regels tot stand te brengen, gelieve te verwijzen naar [ deze sectie ](../configuration/external-systems.md#capping). Door gebrek, is er geen throttling regel maar een maximum van 300.000 vraag over één minuut die voor alle douaneacties, per gastheer en per zandbak wordt bepaald. Deze grens is geplaatst gebaseerd op klantengebruik, om externe eindpunten te beschermen die door douaneacties worden gericht. U moet hiermee rekening houden bij reizen voor uw publiek door een juiste leessnelheid te definiëren (5000 profielen/s wanneer aangepaste handelingen worden gebruikt). Indien nodig, kunt u deze het plaatsen met voeten treden door een grotere het maximum van het maximum of het vertragen grens door onze Capping/het Draaien APIs te bepalen.
+Om het in kaart brengen of het vertragen regels tot stand te brengen, gelieve te verwijzen naar [ deze sectie ](../configuration/external-systems.md#capping). Door gebrek, is er geen throttling regel maar een maximum van 300.000 vraag over één minuut die voor alle douaneacties, per gastheer en per zandbak wordt bepaald. Deze grens is geplaatst gebaseerd op klantengebruik, om externe eindpunten te beschermen die door douaneacties worden gericht. Indien nodig, kunt u deze het plaatsen met voeten treden door een grotere het maximum van het maximum of het vertragen grens door onze Capping/het Draaien APIs te bepalen.
 
 **hoeveel pogingen worden uitgevoerd? Kan ik het aantal pogingen veranderen of een minimumwachttijdperiode tussen pogingen bepalen?**
 

@@ -6,18 +6,22 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: ee2e07353762a81aadd3d63580c528f617599623
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '1319'
 ht-degree: 1%
 
 ---
 
 # Inhoudskaarten maken {#create-content-card}
 
+>[!IMPORTANT]
+>
+>Standaard wordt de kaart verborgen met de knop Sluiten. Om meer functionaliteit toe te voegen, kunt u ontslagregels manueel bepalen of.
+
 >[!BEGINTABS]
 
->[!TAB voeg de kaarten van de Inhoud aan een reis  toe]
+>[!TAB  voeg de kaarten van de Inhoud aan een reis ] toe
 
 Voer de volgende stappen uit om een inhoudskaart toe te voegen aan een rit:
 
@@ -33,7 +37,7 @@ Voer de volgende stappen uit om een inhoudskaart toe te voegen aan een rit:
 
 1. U kunt nu beginnen met het ontwerpen van uw inhoud met de knop **[!UICONTROL Edit content]** . [Meer informatie](design-content-card.md)
 
-1. Schakel de optie **[!UICONTROL Enable additional delivery rules]** in. Kies vervolgens **[!UICONTROL Edit rules]** de gebeurtenis(sen) en criteria die het bericht activeren. Met regelbuilders kunnen gebruikers criteria en waarden opgeven die, wanneer ze voldoen, een set handelingen activeren.
+1. Schakel de optie **[!UICONTROL Enable additional delivery rules]** in en selecteer **[!UICONTROL Edit rules]** om te bepalen wanneer uw bericht moet worden weergegeven, verwijderd of permanent verborgen.
 
    ![](assets/content-card-jo-3.png)
 
@@ -53,7 +57,7 @@ Voer de volgende stappen uit om een inhoudskaart toe te voegen aan een rit:
       | Levenscyclus toepassing | Toepassing sluiten | Wordt geactiveerd wanneer de toepassing wordt gesloten. |
       | Levenscyclus toepassing | Toepassing vastloopt | Wordt geactiveerd wanneer de toepassing geen achtergrond heeft voordat deze wordt gesloten. De gebeurtenis wordt verzonden wanneer de toepassing na de crash wordt gestart. Adobe Mobile-crashrapportage implementeert geen globale handler voor niet-afgevangen uitzonderingen. |
 
-      +++
++++
 
    1. Kies de voorwaarde **[!UICONTROL Or]** als u meer **[!UICONTROL Triggers]** wilt toevoegen om de lijn verder uit te breiden.
 
@@ -78,7 +82,7 @@ Voer de volgende stappen uit om een inhoudskaart toe te voegen aan een rit:
       | Levenscyclus toepassing | Starten | Wordt geactiveerd wanneer aan het opgegeven aantal Launches wordt voldaan. |
       | Levenscyclus toepassing | Tijd van dag | Wordt geactiveerd wanneer de opgegeven tijd van de dag is bereikt. |
 
-      +++
++++
 
    1. Klik op **[!UICONTROL Make group]** om triggers samen te groeperen.
 
@@ -88,7 +92,7 @@ Voer de volgende stappen uit om een inhoudskaart toe te voegen aan een rit:
 
 Voor meer informatie over hoe te om een reis te vormen, verwijs naar [ deze pagina ](../building-journeys/journey-gs.md).
 
->[!TAB voeg de kaarten van de Inhoud aan een campagne  toe]
+>[!TAB  voeg de kaarten van de Inhoud aan een campagne ] toe
 
 Volg de onderstaande stappen om uw inhoudskaarten te gaan maken via een campagne.
 
@@ -116,11 +120,56 @@ Volg de onderstaande stappen om uw inhoudskaarten te gaan maken via een campagne
 
 1. Klik op **[!UICONTROL Create experiment]** om de inhoud van uw bericht te testen. Hierdoor kunt u meerdere variabelen van een levering testen op monsterpopulaties om te bepalen welke behandeling de grootste invloed heeft op het doelpubliek. [ Leer meer over inhoudexperiment ](../content-management/content-experiment.md).
 
-1. Gebruik de schakeloptie **[!UICONTROL Enable additional delivery rules]** als er meer triggers nodig zijn. Aanvullende leveringsregels zijn niet vereist.
+1. Schakel de optie **[!UICONTROL Enable additional delivery rules]** in en selecteer **[!UICONTROL Edit rules]** om te bepalen wanneer uw bericht moet worden weergegeven, verwijderd of permanent verborgen.
 
-   Klik op **[!UICONTROL Edit triggers]** om de gebeurtenis(sen) en criteria voor het verzenden van berichten te selecteren. De regelbouwer laat u voorwaarden en waarden specificeren die, wanneer voldaan aan, acties teweegbrengen.
+   De regelbouwers van het gebruik om specifieke voorwaarden te plaatsen die deze acties teweegbrengen.
 
-   ![](assets/content-card-create-3.png)
+   1. Klik op **[!UICONTROL Add condition]** om uw gebeurtenis te selecteren.
+
+      +++Zie beschikbare gebeurtenis.
+
+      | Pakket | Trigger | Definitie |
+      |---|---|---|
+      | Gegevens verzenden naar platform | Gegevens verzonden naar platform | Wordt geactiveerd wanneer de mobiele app een Edge Experience-gebeurtenis uitgeeft om gegevens naar Adobe Experience Platform te verzenden. Gewoonlijk de API vraag [ sendEvent ](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) van de uitbreiding van AEP Edge. |
+      | Core tracking | Handeling track | Teweeggebracht wanneer de erfenisfunctionaliteit die in mobiele code API [ wordt aangeboden trackAction ](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) wordt geroepen. |
+      | Core tracking | Status track | Teweeggebracht wanneer de erfenisfunctionaliteit die in mobiele code API [ wordt aangeboden trackState ](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) wordt geroepen. |
+      | Core tracking | PII verzamelen | Teweeggebracht wanneer de erfenisfunctionaliteit die in mobiele code API [ wordt aangeboden collectPII ](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) wordt geroepen. |
+      | Levenscyclus toepassing | Toepassing starten | Teweeggebracht bij elke looppas, met inbegrip van neerstortingen en installaties. Wordt ook geactiveerd op een hervat vanaf de achtergrond wanneer de time-out van de levenscyclussessie is overschreden. |
+      | Levenscyclus toepassing | Toepassing installeren | Wordt geactiveerd bij de eerste run na installatie of herinstallatie. |
+      | Levenscyclus toepassing | Toepassingsupdate | Teweeggebracht bij de eerste looppas na een verbetering of wanneer het versieaantal verandert. |
+      | Levenscyclus toepassing | Toepassing sluiten | Wordt geactiveerd wanneer de toepassing wordt gesloten. |
+      | Levenscyclus toepassing | Toepassing vastloopt | Wordt geactiveerd wanneer de toepassing geen achtergrond heeft voordat deze wordt gesloten. De gebeurtenis wordt verzonden wanneer de toepassing na de crash wordt gestart. Adobe Mobile-crashrapportage implementeert geen globale handler voor niet-afgevangen uitzonderingen. |
+
++++
+
+   1. Kies de voorwaarde **[!UICONTROL Or]** als u meer **[!UICONTROL Triggers]** wilt toevoegen om de lijn verder uit te breiden.
+
+   1. Kies de voorwaarde **[!UICONTROL And]** als u **[!UICONTROL Traits]** wilt toevoegen en uw regel beter wilt perfectioneren.
+
+      +++Zie beschikbare Traits.
+
+      | Pakket | Treinen | Definitie |
+      |---|---|---|
+      | Apparaatinfo | Naam vervoerder | Wordt geactiveerd wanneer aan een van de naam van de vervoerder uit de lijst wordt voldaan. |
+      | Apparaatinfo | Apparaatnaam | Wordt geactiveerd wanneer aan een van de apparaatnamen wordt voldaan. |
+      | Apparaatinfo | Landinstelling | Wordt geactiveerd wanneer aan een van de talen in de lijst wordt voldaan. |
+      | Apparaatinfo | Besturingssysteemversie | Wordt geactiveerd wanneer aan een van de opgegeven versies van het besturingssysteem wordt voldaan. |
+      | Apparaatinfo | Vorige OS-versie | Wordt geactiveerd wanneer aan een van de opgegeven versies van het vorige besturingssysteem wordt voldaan. |
+      | Apparaatinfo | Uitvoeren, modus | Wordt geactiveerd als de uitvoeringsmodus een toepassing of een uitbreiding is. |
+      | Levenscyclus toepassing | Toepassings-id | Wordt geactiveerd wanneer aan de opgegeven toepassings-id wordt voldaan. |
+      | Levenscyclus toepassing | Dag van de week | Wordt geactiveerd wanneer de opgegeven dag van de week is bereikt. |
+      | Levenscyclus toepassing | Dag sinds eerste gebruik | Wordt geactiveerd wanneer het opgegeven aantal dagen sinds het eerste gebruik is bereikt. |
+      | Levenscyclus toepassing | Dag sinds laatste gebruik | Wordt geactiveerd wanneer het opgegeven aantal dagen sinds laatste gebruik is bereikt. |
+      | Levenscyclus toepassing | Dag sinds upgrade | Wordt geactiveerd wanneer het opgegeven aantal dagen sinds de laatste upgrade is bereikt. |
+      | Levenscyclus toepassing | Datum van installatie | Wordt geactiveerd wanneer de opgegeven installatiedatum is bereikt. |
+      | Levenscyclus toepassing | Starten | Wordt geactiveerd wanneer aan het opgegeven aantal Launches wordt voldaan. |
+      | Levenscyclus toepassing | Tijd van dag | Wordt geactiveerd wanneer de opgegeven tijd van de dag is bereikt. |
+
++++
+
+   1. Klik op **[!UICONTROL Make group]** om triggers samen te groeperen.
+
+   ![](assets/content-card-rules.png)
 
 1. U kunt uw campagne plannen aan een specifieke datum of reeks om met regelmatige intervallen opnieuw te komen. [Meer informatie](../campaigns/create-campaign.md#schedule)
 
