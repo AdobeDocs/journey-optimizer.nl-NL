@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: acties, reizen, berichten, verzenden, verbindingen
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
+source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 42%
@@ -24,7 +24,6 @@ ht-degree: 42%
 >abstract="Acties zijn verbindingen waarmee u persoonlijke, realtime-ervaringen kunt bieden aan klanten, zoals pushberichten, e-mail, sms of andere digitale opties die in uw bedrijf worden gebruikt."
 
 Acties zijn verbindingen waarmee u persoonlijke, realtime-ervaringen kunt bieden aan klanten, zoals pushberichten, e-mail, sms of andere digitale opties die in uw bedrijf worden gebruikt.
-
 
 ➡️ [Ontdek deze functie in video](#video)
 
@@ -50,4 +49,4 @@ Leer hoe te om een douaneactie [ op deze specifieke pagina ](../action/troublesh
 
 Leer hoe u aangepaste handelingen configureert.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430272?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
