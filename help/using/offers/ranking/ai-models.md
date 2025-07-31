@@ -8,9 +8,9 @@ feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: c79b860d4220b3125bbee2240e047552a04fe118
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ U kunt bijvoorbeeld een AI-model selecteren voor het e-mailkanaal en een ander m
 
 >[!IMPORTANT]
 >
->Vooralsnog worden classificatiemodellen niet ondersteund in door Journey Optimizer geschreven kanalen.
+>AI-modellen worden momenteel niet ondersteund in door Journey Optimizer geschreven kanalen.
 
 ## AI-modeltypen {#ai-model-types}
 
@@ -33,7 +33,7 @@ U kunt bijvoorbeeld een AI-model selecteren voor het e-mailkanaal en een ander m
 >id="ajo_decisioning_ai_model_type"
 >title="Het modeltype kiezen"
 >abstract="Selecteer het type van AI model u wilt tot stand brengen: **auto-optimalisering** optimaliseert aanbiedingen die op het verleden aanbiedingsprestaties worden gebaseerd, terwijl **Gepersonaliseerde optimalisering** optimaliseert en verpersoonlijkt aanbiedingen die op publiek worden gebaseerd en prestaties aanbieden."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/create-ranking-strategies#create-ranking-strategy" text="Een AI-model maken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/create-ranking-strategies#create-ranking-strategy" text="Een AI-model maken"
 
 Er zijn twee typen AI-modellen beschikbaar in [!DNL Journey Optimizer] :
 
@@ -53,6 +53,6 @@ U kunt als volgt AI-modellen maken en gebruiken:
 
    >[!IMPORTANT]
    >
-   >Het rangschikken modellen vereisen terugkoppelt gebeurtenissen die binnen als ervaringsgebeurtenissen worden verzonden om worden verzameld. [ Leer meer over de inzameling van de gegevens van het Beheer van Besluit ](../data-collection/data-collection.md)
+   >AI-modellen vereisen dat feedbackgebeurtenissen worden verzonden als ervaringsgebeurtenissen om te worden verzameld. [ Leer meer over de inzameling van de gegevens van het Beheer van Besluit ](../data-collection/data-collection.md)
 
 1. Wijs het AI-model toe aan een plaatsing in een besluit om in aanmerking komende aanbiedingen te classificeren. [Meer informatie](../offer-activities/configure-offer-selection.md)
