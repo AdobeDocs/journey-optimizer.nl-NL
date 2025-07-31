@@ -29,7 +29,7 @@ Als u een e-mail wilt maken in [!DNL Journey Optimizer] , voegt u een **[!UICONT
 
 >[!BEGINTABS]
 
->[!TAB  voeg een e-mail aan een reis ] toe
+>[!TAB voeg een e-mail aan een reis  toe]
 
 1. Open uw reis en sleep vervolgens een **[!UICONTROL Email]** -activiteit vanuit de **[!UICONTROL Actions]** -sectie van het palet.
 
@@ -176,7 +176,7 @@ Wanneer uw e-mail klaar is, voltooi de configuratie van uw [ reis ](../building-
 
 >[!NOTE]
 >
->Om het gedrag van uw ontvangers door e-mailopeningen en/of interactie te volgen, zorg ervoor dat de specifieke opties in de **[!UICONTROL Tracking]** sectie in de 1} e-mailactiviteit van de reis [ of in de e-mail ](../building-journeys/journeys-message.md) campagne [ worden toegelaten.](../campaigns/create-campaign.md)<!--to move?-->
+>Om het gedrag van uw ontvangers door e-mailopeningen en/of interactie te volgen, zorg ervoor dat de specifieke opties in de **[!UICONTROL Tracking]** sectie in de 1&rbrace; e-mailactiviteit van de reis [ of in de e-mail ](../building-journeys/journeys-message.md) campagne [ worden toegelaten.](../campaigns/create-campaign.md)<!--to move?-->
 
 <!--
 

@@ -118,7 +118,7 @@ Als u de beste dynamische aanbieding en ervaring wilt presenteren aan de ontvang
 
       ![](assets/decision-code-based-create.png)
 
-+++
+   +++
 
    +++E-mail Designer **[!UICONTROL Decisioning]** -menu
 
@@ -128,7 +128,7 @@ Als u de beste dynamische aanbieding en ervaring wilt presenteren aan de ontvang
 
       ![](assets/decision-policy-email-designer.png)
 
-+++
+   +++
 
 1. Geef een naam op en selecteer een catalogus (die momenteel is beperkt tot de standaardcatalogus **[!UICONTROL Offers]** ).
 
@@ -184,7 +184,7 @@ In de sectie **[!UICONTROL Strategy sequence]** kunt u de beslissingsitems en de
    >
    >Alleen selectiestrategieën kunnen binnen een reeks worden gesleept en neergezet. Als u de positie van een beslissingsitem wilt wijzigen, moet u het item verwijderen en opnieuw toevoegen met de knop **[!UICONTROL Add]** nadat u de andere items hebt toegevoegd die u eerder wilt evalueren.
 
-   U kunt **** veelvoudige selectiestrategieën in groepen ook combineren zodat worden zij samen en niet afzonderlijk geëvalueerd. Klik hiertoe op de knop **`+`** onder een selectiestrategie om deze te combineren met een andere. U kunt een selectiestrategie ook naar een andere slepen om de twee strategieën in een groep te groeperen.
+   U kunt **&#x200B;**&#x200B;veelvoudige selectiestrategieën in groepen ook combineren zodat worden zij samen en niet afzonderlijk geëvalueerd. Klik hiertoe op de knop **`+`** onder een selectiestrategie om deze te combineren met een andere. U kunt een selectiestrategie ook naar een andere slepen om de twee strategieën in een groep te groeperen.
 
    >[!NOTE]
    >
@@ -236,7 +236,7 @@ Voorstel 5 - 50
 
      De gerangschikte voorstellen zijn nu als volgt: Voorstel 5, voorstel 3, voorstel 4, voorstel 2, voorstel 1, voorstel 6.
 
-+++
+   +++
 
 1. Klikken **[!UICONTROL Next]**
 
@@ -291,13 +291,13 @@ Zodra gecreeerd, kunnen het besluitvormingsbeleid en de attributen verbonden aan
 
    ![](assets/decision-policy-placement.png)
 
-+++
+   +++
 
    +++Voeg besluitvormingsbeleidscode in code-gebaseerde ervaring op
 
    ![](assets/decision-code-based-add-decision.png)
 
-+++
+   +++
 
    >[!NOTE]
    >
@@ -314,7 +314,7 @@ Nu kunt u alle beslissingskenmerken toevoegen die u in die code wilt. De beschik
 >[!NOTE]
 >
 >Voor het volgen van het Punt van het besluitvormingsbeleid, moet de `trackingToken` attributen als volgt voor de inhoud van het besluitvormingsbeleid worden toegevoegd:
->>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Klik op elke map om deze uit te vouwen. Plaats de cursor van de muis op de gewenste locatie en klik op het pictogram + naast het kenmerk dat u wilt toevoegen. U kunt zoveel kenmerken aan de code toevoegen als u wilt.
 
