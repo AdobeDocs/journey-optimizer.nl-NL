@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: bfa6e54673fc51d1bd6c253cc17a0018e3d7815b
 workflow-type: tm+mt
-source-wordcount: '1561'
+source-wordcount: '1623'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](gs-generative.md#generative-guardrails).
-></br>
+>></br>
 >
 >U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u AI Medewerker in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
@@ -47,8 +47,6 @@ In het volgende voorbeeld gebruiken we AI Assistant om een bestaande e-mailsjabl
 1. Schakel de optie **[!UICONTROL Use original content]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
 1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
-
-   Merk op dat de eigenschap van Merken als privé bèta wordt vrijgegeven en aan alle klanten in toekomstige versies geleidelijk beschikbaar zal zijn.
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
@@ -84,7 +82,13 @@ In het volgende voorbeeld gebruiken we AI Assistant om een bestaande e-mailsjabl
 
 1. Klik op **[!UICONTROL Generate]** als de vraag gereed is.
 
-1. Blader door de gegenereerde **[!UICONTROL Variations]** tekst en klik op **[!UICONTROL Preview]** om een schermvullende versie van de geselecteerde variant weer te geven.
+1. Blader door de gegenereerde **[!UICONTROL Variations]** tekst en klik op **[!UICONTROL Preview]** om een schermvullende versie van de geselecteerde variant weer te geven of op **[!UICONTROL Apply]** om de huidige inhoud te vervangen.
+
+1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
+
+   Leer meer op [ de groeperingsscore van het Merk ](brands-score.md).
+
+   ![](assets/full-email-7.png){zoomable="yes"}
 
 1. Navigeer naar de optie **[!UICONTROL Refine]** in het **[!UICONTROL Preview]** -venster voor toegang tot extra aanpassingsfuncties:
 
@@ -95,6 +99,8 @@ In het volgende voorbeeld gebruiken we AI Assistant om een bestaande e-mailsjabl
    U kunt ook de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de tekst wijzigen.
 
    ![](assets/full-email-5.png){zoomable="yes"}
+
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](brands.md) richt.
 
 1. Klik op **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 
@@ -120,8 +126,6 @@ In het volgende voorbeeld gebruiken we AI Assistant om de inhoud van onze e-mail
 
 1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
 
-   Merk op dat de eigenschap van Merken als privé bèta wordt vrijgegeven en aan alle klanten in toekomstige versies geleidelijk beschikbaar zal zijn.
-
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
    Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang **[!UICONTROL Prompt Library]** die een diverse waaier van snelle ideeën verstrekt om uw campagnes te verbeteren.
@@ -145,7 +149,15 @@ In het volgende voorbeeld gebruiken we AI Assistant om de inhoud van onze e-mail
 
 1. Klik op **[!UICONTROL Generate]** als de vraag gereed is.
 
-1. Blader door de gegenereerde **[!UICONTROL Variations]** tekst en klik op **[!UICONTROL Preview]** om een schermvullende versie van de geselecteerde variant weer te geven.
+1. Blader door het gegenereerde bestand **[!UICONTROL Variations]** .
+
+   Klik op **[!UICONTROL Preview]** om een schermvullende versie van de geselecteerde variant weer te geven of klik op **[!UICONTROL Apply]** om de huidige inhoud te vervangen.
+
+1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
+
+   Leer meer op [ de groeperingsscore van het Merk ](brands-score.md).
+
+   ![](assets/text-genai-6.png){zoomable="yes"}
 
 1. Navigeer naar de optie **[!UICONTROL Refine]** in het **[!UICONTROL Preview]** -venster voor toegang tot extra aanpassingsfuncties:
 
@@ -155,13 +167,15 @@ In het volgende voorbeeld gebruiken we AI Assistant om de inhoud van onze e-mail
 
    * **[!UICONTROL Summarize]**: langdurige informatie kan e-mailontvangers te veel laden. Met AI Assistant kunt u belangrijke punten samenvoegen tot heldere, beknopte samenvattingen die aandacht trekken en hen aanmoedigen om verder te lezen.
 
-   * **[!UICONTROL Rephrase]**:De AI-assistent kan uw bericht op verschillende manieren herformuleren, zodat u steeds fris schrijft en aantrekkelijk wordt voor verschillende soorten publiek.
+   * **[!UICONTROL Rephrase]**:TheAI Assistant kan uw bericht op verschillende manieren herformuleren, zodat u steeds fris schrijft en aantrekkelijk wordt voor verschillende soorten publiek.
 
    * **[!UICONTROL Use simpler language]**: Gebruik AI Assistant om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
 
    U kunt ook de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de tekst wijzigen.
 
    ![](assets/text-genai-5.png){zoomable="yes"}
+
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](brands.md) richt.
 
 1. Klik op **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 
@@ -189,8 +203,6 @@ In het onderstaande voorbeeld leert u hoe u AI Assistant kunt gebruiken om uw mi
 
 1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
 
-   Merk op dat de eigenschap van Merken als privé bèta wordt vrijgegeven en aan alle klanten in toekomstige versies geleidelijk beschikbaar zal zijn.
-
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
    Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang **[!UICONTROL Prompt Library]** die een diverse waaier van snelle ideeën verstrekt om uw campagnes te verbeteren.
@@ -199,7 +211,7 @@ In het onderstaande voorbeeld leert u hoe u AI Assistant kunt gebruiken om uw mi
 
 1. Volg uw vraag met de optie **[!UICONTROL Image settings]** :
 
-   * **[!UICONTROL Aspect ratio]**: hiermee bepaalt u de breedte en hoogte van het element. U kunt kiezen uit veelgebruikte verhoudingen, zoals 16:9, 4:3, 3:2 of 1:1, of u kunt een aangepaste grootte invoeren.
+   * **[!UICONTROL Aspect ratio]**: hiermee bepaalt u de breedte en hoogte van het element. U hebt de optie om van gemeenschappelijke verhoudingen zoals 16 te kiezen :9, 4 :3, 3 :2, of 1 :1, of u kunt een douanegrootte ingaan.
    * **[!UICONTROL Content type]**: hiermee wordt de aard van het visuele element gecategoriseerd, waarbij onderscheid wordt gemaakt tussen verschillende vormen van visuele representatie, zoals foto&#39;s, afbeeldingen of illustraties.
    * **[!UICONTROL Visual intensity]**: U kunt de invloed van de afbeelding bepalen door de intensiteit ervan aan te passen. Bij een lagere instelling (2) wordt het uiterlijk zachter en minder sterk, terwijl bij een hogere instelling (10) de afbeelding levendiger en visueel krachtiger wordt.
    * **[!UICONTROL Color & tone]**: De algemene weergave van de kleuren in een afbeelding en de sfeer die of de sfeer die door de afbeelding wordt overgebracht.
@@ -216,9 +228,26 @@ In het onderstaande voorbeeld leert u hoe u AI Assistant kunt gebruiken om uw mi
 
 1. Blader in **[!UICONTROL Variation suggestions]** om het gewenste element te zoeken.
 
-   Klik op **[!UICONTROL Preview]** om een schermvullende versie van de geselecteerde variant weer te geven.
+   Klik op **[!UICONTROL Preview]** om een schermvullende versie van de geselecteerde variant weer te geven of op **[!UICONTROL Apply]** om de huidige inhoud te vervangen.
 
-1. Kies **[!UICONTROL Generate Similar]** als u verwante afbeeldingen met deze variant wilt weergeven.
+1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
+
+   Leer meer op [ de groeperingsscore van het Merk ](brands-score.md).
+
+   <!--
+    ![](assets/image-genai-7.png){zoomable="yes"}
+    -->
+
+1. Navigeer naar de optie **[!UICONTROL Refine]** in het **[!UICONTROL Preview]** -venster voor toegang tot extra aanpassingsfuncties:
+
+   * **[!UICONTROL Generate Similar]** om verwante afbeeldingen met deze variant weer te geven.
+   * **[!UICONTROL Edit in Adobe Express]** om uw element verder aan te passen.
+
+[Meer informatie over Adobe Express-integratie](../integrations/express.md)
+
+   * **[!UICONTROL Save]** gebruiken om de elementen op te slaan, zodat u ze later kunt gebruiken.
+
+   ![](assets/image-genai-5.png){zoomable="yes"}
 
 1. Klik op **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 
