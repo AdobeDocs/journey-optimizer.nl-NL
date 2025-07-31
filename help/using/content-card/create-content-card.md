@@ -21,7 +21,7 @@ ht-degree: 1%
 
 >[!BEGINTABS]
 
->[!TAB  voeg de kaarten van de Inhoud aan een reis ] toe
+>[!TAB voeg de kaarten van de Inhoud aan een reis  toe]
 
 Voer de volgende stappen uit om een inhoudskaart toe te voegen aan een rit:
 
@@ -57,7 +57,7 @@ Voer de volgende stappen uit om een inhoudskaart toe te voegen aan een rit:
       | Levenscyclus toepassing | Toepassing sluiten | Wordt geactiveerd wanneer de toepassing wordt gesloten. |
       | Levenscyclus toepassing | Toepassing vastloopt | Wordt geactiveerd wanneer de toepassing geen achtergrond heeft voordat deze wordt gesloten. De gebeurtenis wordt verzonden wanneer de toepassing na de crash wordt gestart. Adobe Mobile-crashrapportage implementeert geen globale handler voor niet-afgevangen uitzonderingen. |
 
-+++
+      +++
 
    1. Kies de voorwaarde **[!UICONTROL Or]** als u meer **[!UICONTROL Triggers]** wilt toevoegen om de lijn verder uit te breiden.
 
@@ -82,7 +82,7 @@ Voer de volgende stappen uit om een inhoudskaart toe te voegen aan een rit:
       | Levenscyclus toepassing | Starten | Wordt geactiveerd wanneer aan het opgegeven aantal Launches wordt voldaan. |
       | Levenscyclus toepassing | Tijd van dag | Wordt geactiveerd wanneer de opgegeven tijd van de dag is bereikt. |
 
-+++
+      +++
 
    1. Klik op **[!UICONTROL Make group]** om triggers samen te groeperen.
 
@@ -92,7 +92,7 @@ Voer de volgende stappen uit om een inhoudskaart toe te voegen aan een rit:
 
 Voor meer informatie over hoe te om een reis te vormen, verwijs naar [ deze pagina ](../building-journeys/journey-gs.md).
 
->[!TAB  voeg de kaarten van de Inhoud aan een campagne ] toe
+>[!TAB voeg de kaarten van de Inhoud aan een campagne  toe]
 
 Volg de onderstaande stappen om uw inhoudskaarten te gaan maken via een campagne.
 
@@ -140,7 +140,7 @@ Volg de onderstaande stappen om uw inhoudskaarten te gaan maken via een campagne
       | Levenscyclus toepassing | Toepassing sluiten | Wordt geactiveerd wanneer de toepassing wordt gesloten. |
       | Levenscyclus toepassing | Toepassing vastloopt | Wordt geactiveerd wanneer de toepassing geen achtergrond heeft voordat deze wordt gesloten. De gebeurtenis wordt verzonden wanneer de toepassing na de crash wordt gestart. Adobe Mobile-crashrapportage implementeert geen globale handler voor niet-afgevangen uitzonderingen. |
 
-+++
+      +++
 
    1. Kies de voorwaarde **[!UICONTROL Or]** als u meer **[!UICONTROL Triggers]** wilt toevoegen om de lijn verder uit te breiden.
 
@@ -165,7 +165,7 @@ Volg de onderstaande stappen om uw inhoudskaarten te gaan maken via een campagne
       | Levenscyclus toepassing | Starten | Wordt geactiveerd wanneer aan het opgegeven aantal Launches wordt voldaan. |
       | Levenscyclus toepassing | Tijd van dag | Wordt geactiveerd wanneer de opgegeven tijd van de dag is bereikt. |
 
-+++
+      +++
 
    1. Klik op **[!UICONTROL Make group]** om triggers samen te groeperen.
 

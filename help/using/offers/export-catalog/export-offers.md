@@ -123,6 +123,7 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in de **[!UICONT
      **Voorbeeld:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Taal**
+
      **Gebied:** taal
      **Titel:** Taal
      **Beschrijving:** de taal of de talen van het middel. \nLanguages worden gespecificeerd in taalcode zoals die in [ wordt bepaald IETF RFC 3066 ](https://www.ietf.org/rfc/rfc3066.txt), die deel van BCP 47 uitmaakt, die elders in XDM wordt gebruikt.

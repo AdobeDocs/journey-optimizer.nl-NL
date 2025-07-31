@@ -217,7 +217,7 @@ Zie ook [ deze pagina ](../building-journeys/read-audience.md#must-read).
 
 ### Poortkwalificatie {#audience-qualif-g}
 
-De volgende richtlijn is op de [ de reisactiviteit van de Kwalificatie van het publiek 0} van toepassing:](../building-journeys/audience-qualification-events.md)
+De volgende richtlijn is op de [ de reisactiviteit van de Kwalificatie van het publiek 0&rbrace; van toepassing:](../building-journeys/audience-qualification-events.md)
 
 * De kwalificatie-activiteit Publiek kan niet worden gebruikt met Adobe Campaign-activiteiten.
 
