@@ -43,7 +43,7 @@ Dankzij de Adobe Express-integratie in Adobe Journey Optimizer hebt u eenvoudig 
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/nl/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
 >[!TAB  het fragment van de Inhoud van AEM ]
 
@@ -121,11 +121,11 @@ Door Adobe Experience Manager as a Cloud Service te integreren met Adobe Journey
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong> Adobe Journey Optimizer </strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html" target="_blank"> Leerprogramma's </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank"> Beschrijving van het Product </a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank"> Overzicht van de Veiligheid (PDF) </a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank"> APIs verwijzing </a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank"> het Woordenboek van het Schema van Journey Optimizer </a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=nl-NL" target="_blank"> Leerprogramma's </a> - <a href="https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank"> Beschrijving van het Product </a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank"> Overzicht van de Veiligheid (PDF) </a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank"> APIs verwijzing </a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL" target="_blank"> het Woordenboek van het Schema van Journey Optimizer </a>
 
 </td>
 <td><strong> Adobe Experience Platform </strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html" target="_blank"> Documentatie </a> - <a href="https://www.adobe.com/nl/experience-platform/documentation-and-developer-resources.html" target="_blank"> middelen van Ontwikkelaars </a>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=nl-NL" target="_blank"> Documentatie </a> - <a href="https://www.adobe.com/nl/experience-platform/documentation-and-developer-resources.html" target="_blank"> middelen van Ontwikkelaars </a>
 </td>
 </tr></table>
 
