@@ -11,9 +11,9 @@ keywords: subdomein, delegatie, domein, DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
+source-git-commit: 0490045a763876d3518e3db92e8427691044f6aa
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '723'
 ht-degree: 2%
 
 ---
@@ -88,6 +88,10 @@ Volg onderstaande stappen om een aangepast subdomein in te stellen.
 1. Klik op **[!UICONTROL Download CSR]** en sla het formulier op uw lokale computer op. Verzend het naar de Autoriteit van het Certificaat om uw SSL certificaat te krijgen.
 
 1. Nadat u het certificaat hebt opgehaald, klikt u op **[!UICONTROL Upload SSL certificate]** en uploadt u het naar [!DNL Journey Optimizer] in .pem-indeling.
+
+   >[!CAUTION]
+   >
+   >Zowel gegevens als CDN-subdomeinen moeten in hetzelfde certificaat worden opgenomen.
 
 ## De stappen voor het herhalen van feedback voltooien {#feedback-loop-steps}
 
