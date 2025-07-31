@@ -30,7 +30,7 @@ U kunt het bijhouden van e-mailberichten inschakelen door de opties **[!UICONTRO
 
 >[!BEGINTABS]
 
->[!TAB  laat het volgen in een reis ] toe
+>[!TAB laat het volgen in een reis  toe]
 
 ![](assets/message-tracking-journey.png)
 
