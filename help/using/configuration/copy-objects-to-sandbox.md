@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: zandbak, reis, exemplaar, milieu
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: c90189d4b064e00bd2f2bdde67230aeb84dd97f6
+source-git-commit: f8134fd1e030fb969747a37acd657f62fd398c75
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1691'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 U kunt objecten zoals reizen, aangepaste handelingen, inhoudssjablonen of fragmenten over meerdere sandboxen kopiëren met behulp van de opties voor exporteren en importeren van pakketten. Een pakket kan uit één object of uit meerdere objecten bestaan. Alle objecten die in een pakket zijn opgenomen, moeten afkomstig zijn uit dezelfde sandbox.
 
-Op deze pagina wordt het gebruik-hoofdlettergebruik voor Sandbox-gereedschappen in de context van Journey Optimizer beschreven. Voor meer informatie over de eigenschap zelf, verwijs naar de het toolceregids van de zandbak van Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=nl-NL#abobe-journey-optimizer-objects){target="_blank"}.
+Op deze pagina wordt het gebruik-hoofdlettergebruik voor Sandbox-gereedschappen in de context van Journey Optimizer beschreven. Voor meer informatie over de eigenschap zelf, verwijs naar de het toolceregids van de zandbak van Adobe Experience Platform [ ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}.
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ Journey Optimizer staat het exporteren van reizen, aangepaste handelingen, inhou
 
 +++ Journeys
 
-* **gekopieerde gebiedsdelen** - wanneer het uitvoeren van een reis, naast de reis zelf, kopieert Journey Optimizer ook de meeste voorwerpen de reis van afhangt: publiek, douaneacties, schema&#39;s, gebeurtenissen en acties. Voor meer details op gekopieerde voorwerpen, verwijs naar de het hulpmiddelengids van Adobe Experience Platform [ zandbak ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=nl-NL#abobe-journey-optimizer-objects){target="_blank"}.
+* **gekopieerde gebiedsdelen** - wanneer het uitvoeren van een reis, naast de reis zelf, kopieert Journey Optimizer ook de meeste voorwerpen de reis van afhangt: publiek, douaneacties, schema&#39;s, gebeurtenissen en acties. Voor meer details op gekopieerde voorwerpen, verwijs naar de het hulpmiddelengids van Adobe Experience Platform [ zandbak ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}.
 
 * **Geadviseerde de Handmatige bevestiging** - wij waarborgen niet dat alle verbonden elementen aan de bestemmingszandbak worden gekopieerd. Wij adviseren ten zeerste dat u een grondige controle uitvoert, bijvoorbeeld alvorens een reis te publiceren. Zo kunt u elk mogelijk ontbrekend object identificeren.
 
@@ -62,13 +62,8 @@ Journey Optimizer staat het exporteren van reizen, aangepaste handelingen, inhou
 
    * Als u tijdens het importeren de optie &#39;Bestaande gebruiken&#39; selecteert voor een aangepaste handeling, moet de aangepaste actie die u selecteert, gelijk zijn aan de aangepaste bronactie (dus dezelfde configuratie, parameters, enzovoort) wanneer u een reis naar een andere sandbox kopieert. Anders bevat de nieuwe reiskopie fouten die niet op het canvas kunnen worden opgelost.
 
-<!--* **Data sources, field groups and events** - When copying a journey that uses events, data sources, or field groups, the import process automatically checks whether components with the same name and type already exist in the target sandbox.
+* **gegevensbronnen, gebiedsgroepen en gebeurtenissen** - wanneer het kopiëren van een reis die gebeurtenissen, gegevensbronnen, of gebiedsgroepen gebruikt, controleert het de invoerproces automatisch of de componenten met de zelfde naam en het type reeds in de doelzandbak bestaan. Een eenheidsgebeurtenis wordt bijvoorbeeld vervangen door een eenheidsgebeurtenis in de doelsandbox met dezelfde naam. Hetzelfde geldt voor bedrijfsgebeurtenissen, aangepaste gegevensbronnen en zowel op API- als op schema gebaseerde veldgroepen die worden gebruikt tijdens reizen. Als een eenheidsgebeurtenis van een bronsandbox dezelfde naam heeft als een doelsandbox voor een bedrijfsgebeurtenis, wordt deze niet gekopieerd of gemaakt. Dit geldt ook voor alle andere componenten.
 
-   * If a match is found, the existing components in the target sandbox are reused by the imported journey.
-   * If no match is found, the system creates new components.
-
-   This ensures that journeys relying on these elements remain functional after import, with minimal manual adjustment.
--->
 +++
 
 +++ Campagnes
