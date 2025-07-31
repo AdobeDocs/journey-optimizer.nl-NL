@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: koppelingen, bijhouden, controleren, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
+source-git-commit: 65a6afddfbc53afb88c6e69449720ac67f8f8f39
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1215'
 ht-degree: 1%
 
 ---
@@ -20,13 +20,17 @@ ht-degree: 1%
 
 Gebruik [!DNL Journey Optimizer] om koppelingen naar uw inhoud toe te voegen en de verzonden berichten bij te houden om het gedrag van de ontvangers te controleren.
 
+>[!NOTE]
+>
+>Wanneer de verbindingen in uw inhoud inbegrepen zijn, verlopen zij **25 maanden** nadat het bericht wordt verzonden, behalve verbindingen aan een spiegelpagina, die na **90 dagen** verlopen. Wanneer die vertraging is verstreken, zijn de koppelingen niet meer beschikbaar.
+
 ## Tekstspatiëring inschakelen {#enable-tracking}
 
 U kunt het bijhouden van e-mailberichten inschakelen door de opties **[!UICONTROL Email opens]** en/of **[!UICONTROL Click on email]** te controleren bij het maken van uw bericht tijdens een rit of een campagne, zoals in de volgende tabbladen wordt getoond:
 
 >[!BEGINTABS]
 
->[!TAB laat het volgen in een reis  toe]
+>[!TAB  laat het volgen in een reis ] toe
 
 ![](assets/message-tracking-journey.png)
 
@@ -79,7 +83,7 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
    >
    >Voor het interpreteren van URLs, [!DNL Journey Optimizer] voldoet aan de syntaxis van URI ([ norm RFC 3986 ](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), die sommige speciale internationale karakters in URLs onbruikbaar maakt. Wanneer u de proefdruk of e-mail probeert te verzenden, kunt u de tekenreeks via URL coderen als tijdelijke oplossing als u een fout hebt geretourneerd met een URL die aan uw inhoud is toegevoegd.
 
-1. U kunt uw koppelingen aanpassen. [Meer informatie](../personalization/personalization-syntax.md#perso-urls)
+1. U kunt uw koppelingen aanpassen. [Meer informatie](../personalization/personalization-build-expressions.md)
 
 1. Sla uw wijzigingen op.
 
@@ -91,6 +95,7 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 >
 >Het op de markt brengen-type e-mailberichten moeten een [ opt-out verbinding ](../privacy/opt-out.md#opt-out-management) omvatten, die niet voor transactionele berichten wordt vereist. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt bepaald in de [ kanaalconfiguratie ](../configuration/channel-surfaces.md#email-type) wanneer het creëren van het bericht.
 
+Zodra het bericht wordt verzonden, is de behoudperiode voor een verbinding **25 maanden**. Na die vertraging is de koppeling niet meer beschikbaar.
 
 ## Koppelen naar een spiegelpagina {#mirror-page}
 
@@ -104,7 +109,7 @@ Om een verbinding aan een spiegelpagina in uw e-mail toe te voegen, [ neem een v
 
 De spiegelpagina wordt automatisch gemaakt. Wanneer de e-mail is verzonden en de ontvangers op de koppeling voor de spiegelpagina klikken, wordt de inhoud van de e-mail in hun standaardwebbrowser weergegeven.
 
-De behoudperiode voor een spiegelpagina is **60 dagen**. Na die vertraging is de spiegelpagina niet meer beschikbaar.
+De behoudperiode voor een spiegelpagina is **90 dagen**. Na die vertraging is de spiegelpagina niet meer beschikbaar.
 
 >[!CAUTION]
 >
@@ -177,7 +182,7 @@ Het melden van openingen en klikken is beschikbaar in het [ Levende rapport ](..
 
 [ URL het volgen ](email-settings.md#url-tracking) wordt beheerd op het configuratieniveau en is op alle URLs inbegrepen in uw berichtinhoud van toepassing.
 
-U kunt ook [ individuele URLs ](../personalization/personalization-syntax.md#perso-urls) in E-mail Designer personaliseren. Volg onderstaande stappen om aangepaste URL-volgparameters toe te voegen aan één koppeling in uw inhoud.
+U kunt afzonderlijke URL&#39;s ook aanpassen in de Designer-mailtoepassing. Volg onderstaande stappen om aangepaste URL-volgparameters toe te voegen aan één koppeling in uw inhoud.
 
 1. Selecteer een koppeling en klik op **[!UICONTROL Insert link]** op de contextuele werkbalk.
 
@@ -185,7 +190,7 @@ U kunt ook [ individuele URLs ](../personalization/personalization-syntax.md#per
 
    ![](assets/message-tracking-insert-link-perso.png)
 
-1. Voeg de URL volgende parameter toe en selecteer het profielattribuut van uw keus van de verpersoonlijkingsredacteur.
+1. Voeg de URL volgende parameter toe en selecteer de profielattributen van uw keus van de [ verpersoonlijkingsredacteur ](../personalization/personalization-build-expressions.md).
 
    ![](assets/message-tracking-perso-parameter.png)
 
