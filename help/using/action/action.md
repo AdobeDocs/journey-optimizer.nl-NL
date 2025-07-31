@@ -49,4 +49,4 @@ Leer hoe te om een douaneactie [ op deze specifieke pagina ](../action/troublesh
 
 Leer hoe u aangepaste handelingen configureert.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430272?quality=12&captions=dut)
