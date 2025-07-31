@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: zaadlijst, zaadlijst, zaad, configuratie
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 1cca05a4f7590f42c1ed5104cb530930e139b2b9
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '964'
 ht-degree: 2%
 
 ---
@@ -83,7 +83,7 @@ U kunt op de naam van een zaadlijst klikken om deze te bewerken. <!--Use the **[
 >id="ajo_seed_list_details"
 >title="Een zaadlijst definiëren"
 >abstract="Gebruik een zaadlijst om specifieke interne adressen aan uw leveringspubliek voor verzekeringsdoeleinden automatisch toe te voegen. Met zaadlijsten kunt u de berichtkopieën controleren die worden verzonden om ervoor te zorgen dat alle weergave-elementen correct zijn en uw mailinglijst beveiligen. Deze functie is momenteel alleen van toepassing op het e-mailkanaal."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=nl-NL#use-seed-list" text="Wat zijn zaadlijsten?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="Wat zijn zaadlijsten?"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
@@ -155,5 +155,7 @@ Nu uw zaadlijst wordt gecreeerd, kunt u het in om het even welke campagne of rei
 Telkens wanneer een e-mailbericht naar uw klanten wordt verstuurd via die campagne of die reis, zullen de e-mailadressen op de geselecteerde zaadlijst het ook in de zelfde voorwaarden, tezelfdertijd en met de zelfde inhoud ontvangen zoals de beoogde ontvangers.
 
 >[!NOTE]
+>
+>[ de wijze van de Test ](../building-journeys/testing-the-journey.md) reizen verzenden geen e-mail naar de zaadlijst. Om uw e-mailinhoud te controleren, gebruik de [ voorproef en test ](../content-management/preview-test.md) functionaliteit alvorens uw bericht te verzenden.
 >
 >Voor terugkerende ritten, wordt de e-maillevering verzonden naar de zaadadressen bij elke reis uitvoering, op voorwaarde dat minstens één profiel de e-mailknoop bereikt.
