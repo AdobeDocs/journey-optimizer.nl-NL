@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: cf700f4097883c875c74196317f6494f74f9bc7c
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 Met [!DNL Journey Optimizer] kunt u gegevens van [!DNL Adobe Experience Platform] gebruiken voor besluitvorming. Dit staat u toe om de definitie van uw beslissingsattributen tot extra gegevens in datasets voor bulkupdates uit te breiden die periodiek veranderen zonder het moeten manueel de attributen één voor één bijwerken. Bijvoorbeeld beschikbaarheid, wachttijden, enz.
 
-## Beperkingen en richtlijnen voor Beta {#guidelines}
+## Afbeeldingen en beperkingen {#guidelines}
 
 Neem voordat u begint de volgende beperkingen en richtlijnen in acht:
 
