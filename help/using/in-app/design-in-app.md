@@ -242,7 +242,7 @@ Als **[!UICONTROL Advanced formatting mode]** wordt aangezet, kunt u uw bericht 
 
 ## Tabblad Gegevens {#data-tab}
 
-Van het **lusje van Gegevens**, kunt u een ** [!UICONTROL Key] ** &#x200B; en **[!UICONTROL Value]** bepalen om douanevariabelen in de nuttige lading te omvatten. Deze sleutel/waardeparen staan u toe om extra gegevens, afhankelijk van uw specifieke configuratie over te gaan.
+Van het **lusje van Gegevens**, kunt u een **&#x200B; [!UICONTROL Key] &#x200B;** &#x200B; en **[!UICONTROL Value]** bepalen om douanevariabelen in de nuttige lading te omvatten. Deze sleutel/waardeparen staan u toe om extra gegevens, afhankelijk van uw specifieke configuratie over te gaan.
 
 Voor meer informatie, verwijs naar de [ documentatie van de Ontwikkelaar ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata/).
 
