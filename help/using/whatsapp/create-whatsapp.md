@@ -7,29 +7,16 @@ feature: Whatsapp
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
+source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 2%
+source-wordcount: '811'
+ht-degree: 1%
 
 ---
 
 
 # Een whatsApp-bericht maken {#create-whatsapp}
-
->[!BEGINSHADEBOX]
-
-**Lijst van inhoud**
-
-* [Aan de slag met WhatsApp-berichten](get-started-whatsapp.md)
-* [Aan de slag met WhatsApp-configuratie](whatsapp-configuration.md)
-* **[creeer een bericht WhatsApp](create-whatsapp.md)**
-* [Controleer en verzend uw WhatsApp-berichten](send-whatsapp.md)
-
->[!ENDSHADEBOX]
 
 Met Adobe Journey Optimizer kunt u aansprekende berichten ontwerpen en verzenden op WhatsApp. Voeg eenvoudig een actie WhatsApp aan uw reis of campagne toe en maak uw berichtinhoud zoals hieronder gedetailleerd. Met Adobe Journey Optimizer kunt u ook uw WhatsApp-berichten testen voordat u ze verzendt. Zo kunt u de perfecte rendering, nauwkeurige personalisatie en een correcte configuratie van alle instellingen garanderen.
 
@@ -55,7 +42,8 @@ De volgende call-to-action-optie is beschikbaar voor whatsApp-berichten:
 | Oproep tot actie | Beschrijving |
 |-|-|
 | Bezoek website | Slechts één knop is toegestaan, met variabele parameters inbegrepen. |
-
+| Bellen op WhatsApp | Verstrekt een knoop die een praatje WhatsApp met het gespecificeerde telefoonaantal van het bericht direct opent. |
+| Telefoonnummer bellen | Verstrekt een knoop die een telefoonvraag aan het gespecificeerde aantal in werking stelt wanneer getikt door de gebruiker. |
 
 +++
 
@@ -65,7 +53,7 @@ Blader hieronder naar de tabbladen om te leren hoe u een WhatsApp-bericht kunt t
 
 >[!BEGINTABS]
 
->[!TAB voeg een bericht WhatsApp aan een Reis  toe]
+>[!TAB  voeg een bericht WhatsApp aan een Reis ] toe
 
 1. Open uw reis dan belemmering en laat vallen a **WhatsApp activiteit** van de **sectie van Acties** van het palet.
 
@@ -146,11 +134,15 @@ Merk op dat uw WhatsApp malplaatje eerst door Meta moet worden goedgekeurd alvor
 
    ![](assets/whatsapp-design-2.png)
 
+1. Voeg in het veld **[!UICONTROL Image URL]** media-URL&#39;s toe ter vervanging van plaatsaanduidingen in de sjabloon. De sjabloonmedia van Meta zijn alleen plaatsaanduidingen. Als u afbeeldingen, audio of video op de juiste wijze wilt weergeven, moet u externe URL&#39;s uit Adobe Experience Manager of andere bronnen gebruiken.
+
+   ![](assets/whatsapp-design-3.png)
+
 1. Gebruik de verpersoonlijkingsredacteur om verpersoonlijking aan uw malplaatje toe te voegen. U kunt elk kenmerk gebruiken, bijvoorbeeld de profielnaam of plaats.
 
    Blader door de volgende pagina om meer over [ verpersoonlijking ](../personalization/personalize.md) te leren.
 
-   ![](assets/whatsapp-design-3.png)
+   ![](assets/whatsapp-design-4.png)
 
 1. Gebruik de knop **[!UICONTROL Simulate content]** om een voorvertoning weer te geven van uw WhatsApp-berichtinhoud, verkorte URL&#39;s en gepersonaliseerde inhoud. [Meer informatie](send-whatsapp.md)
 
@@ -195,3 +187,14 @@ Once you have performed your tests and validated the content, you can send your 
 
 >[!ENDTABS]
 -->
+
+
+## Hoe kan ik-video {#video}
+
+In de onderstaande video ziet u hoe u een multi-step WhatsApp-reis maakt met Adobe Journey Optimizer.
+
++++ Zie video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
+
++++

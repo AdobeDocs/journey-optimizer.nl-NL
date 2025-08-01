@@ -7,28 +7,15 @@ feature: Whatsapp
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
+source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met WhatsApp-berichten {#get-started-whatsapp}
-
->[!BEGINSHADEBOX]
-
-**Lijst van inhoud**
-
-* **[worden begonnen met WhatsApp berichten](get-started-whatsapp.md)**
-* [Aan de slag met WhatsApp-configuratie](whatsapp-configuration.md)
-* [Een whatsApp-bericht maken](create-whatsapp.md)
-* [Controleer en verzend uw WhatsApp-berichten](send-whatsapp.md)
-
->[!ENDSHADEBOX]
 
 U kunt WhatsApp berichten direct door Journey Optimizer via [ Cloud API van Meta ](https://developers.facebook.com/docs/whatsapp/cloud-api/) verzenden. Met deze functie kunt u whatsApp naadloos integreren in reizen en campagnes, waardoor de communicatie en de betrokkenheid met ontvangers wordt verbeterd.
 
@@ -43,12 +30,9 @@ U kunt WhatsApp berichten direct door Journey Optimizer via [ Cloud API van Meta
 Voor de integratie van WhatsApp met Journey Optimizer is het volgende vereist:
 
 * Meta Business Manager-account
-* WhatsApp Business-account
-* WhatsApp-telefoonnummer
+* [ WhatsApp BedrijfsRekening met geverifieerde afzendernaam en telefoonaantal ](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
 * [ het toestemmingstoken van de Gebruiker met aangewezen toestemmingen ](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
 * [ Goedgekeurde malplaatjes van Meta ](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
-* [ Configuratie van Meta Webhooks ](https://developers.facebook.com/docs/whatsapp/webhooks/)
-
 
 U moet ook het volgende weten voordat u verdergaat met integratie:
 
@@ -62,7 +46,7 @@ De volgende beperkingen gelden voor het WhatsApp-kanaal:
 
 * Het WhatsApp-kanaal in Adobe Journey Optimizer is HIPAA-klaar, maar externe leveranciers vallen niet onder Adobe BAA. Klanten zijn verantwoordelijk voor hun eigen compatibiliteit en validatie van leveranciers.
 
-* Merk op dat geautomatiseerde of vooraf bepaalde antwoordberichten niet worden gesteund.
+* Merk op dat geautomatiseerde of vooraf bepaalde antwoordberichten nog niet worden gesteund.
 
 * Vanaf april 2025 is de levering van alle berichten van het marketingmalplaatje aan gebruikers WhatsApp die een telefoonaantal van de Verenigde Staten (een aantal dat uit een +1 het draaien code en een het gebiedscode van de V.S. bestaat) tijdelijk opgeschort. [ leer meer in de documentatie van Meta ](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-message-templates#per-user-marketing-template-message-limits)
 
@@ -70,11 +54,11 @@ De volgende beperkingen gelden voor het WhatsApp-kanaal:
 
 ## Hoe kan ik-video {#video}
 
-
-In de onderstaande video ziet u hoe u een reis maakt met een WhatsApp-actie.
+In de onderstaande video ziet u hoe u WhatsApp kunt integreren als een native kanaal in Adobe Journey Optimizer om veilige, realtime, gepersonaliseerde berichten op schaal te leveren.
 
 +++ Zie video
 
->[!VIDEO](https://video.tv.adobe.com/v/3451621?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
+

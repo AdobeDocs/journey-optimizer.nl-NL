@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: in-app, bericht, ontwerp, opmaak
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 61a30dcc93823dc5e8b647e683bfa2ebf5bfa01b
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1112'
 ht-degree: 6%
 
 ---
@@ -239,6 +239,22 @@ Als **[!UICONTROL Advanced formatting mode]** wordt aangezet, kunt u uw bericht 
 * **[!UICONTROL Message round corner]**: hiermee kunt u ronde hoeken toevoegen aan uw In-app-melding door het pictogram **[!UICONTROL Corner radius]** te wijzigen.
 
 +++
+
+## Tabblad Gegevens {#data-tab}
+
+Van het **lusje van Gegevens**, kunt u een ** [!UICONTROL Key] ** &#x200B; en **[!UICONTROL Value]** bepalen om douanevariabelen in de nuttige lading te omvatten. Deze sleutel/waardeparen staan u toe om extra gegevens, afhankelijk van uw specifieke configuratie over te gaan.
+
+Voor meer informatie, verwijs naar de [ documentatie van de Ontwikkelaar ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata/).
+
+1. Selecteer op het tabblad **[!UICONTROL Data]** de optie **[!UICONTROL Add key/value pair]**.
+
+   ![](assets/in-app-data-menu.png)
+
+1. Vul de velden **[!UICONTROL Key]** &#x200B; en **[!UICONTROL Value]** in.
+
+   ![](assets/in-app-data-menu-1.png)
+
+1. Klik op ![](assets/do-not-localize/Smock_Delete_18_N.svg) om de benodigde paar te verwijderen.
 
 **Verwante onderwerpen:**
 
