@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 41563414b2118ae1fcde65874c56f38daf4fa9ab
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '515'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,7 @@ Deze besluitpunten zijn naadloos geïntegreerd in een brede waaier van binnenkom
 
 >[!IMPORTANT]
 >
->Beslissingsbeleid is beschikbaar voor gebruik in code-gebaseerde ervaringscampagnes slechts.
+>Beslissingsbeleid is alleen beschikbaar voor gebruik in code-gebaseerde ervaring- en e-mailcampagnes.
 
 ➡️ Een gebruiksgeval dat van begin tot eind toont hoe te om besluiten tot stand te brengen en hen te gebruiken in inhoudsexperimenten met het op code-gebaseerde ervaringskanaal wordt voorgesteld in [ deze sectie ](experience-decisioning-uc.md).
 
@@ -50,13 +50,13 @@ De belangrijkste stappen om met Beslissing te werken zijn als volgt:
 
    1. Typ de naam of het e-mailadres van de gebruiker of selecteer de gebruiker in de lijst en klik op **[!UICONTROL Save]** .
 
-      Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/users) toevoegen.
+      Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users) toevoegen.
 
       ![](assets/decision_permission_3.png)
 
    Uw gebruiker moet dan een e-mail ontvangen die aan uw instantie opnieuw richt.
 
-   +++
++++
 
 1. **vorm douanekenmerken**: Tailor de puntcatalogus aan uw specifieke vereisten door opstellingsdouaneattributen in het schema van de catalogus.
 
