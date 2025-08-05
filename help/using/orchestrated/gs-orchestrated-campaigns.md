@@ -3,16 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Aan de slag met geordende campagnes
 description: Leer hoe u begint met geordende campagnes
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
+
 
 # Aan de slag met geordende campagnes {#orchestrated-camp}
 
@@ -20,26 +18,6 @@ ht-degree: 0%
 >id="campaigns_overview_orchestrated"
 >title="campagnes_overview_orchestrated"
 >abstract="<b> Splitsen van de Campagne de orchestratie </b><br/>, combineren, verrijken en manipuleren relationele datasets om uw publiek <br/><br/> te bepalen <b> Van de hefboomwerking multi-entiteitgegevens </b><br/> leren hoe Geordende campagnes uit relationele datasets kunnen voordeel halen om gegevens voor segmentatie &amp; verpersoonlijking <br/><br/><b> Ad-hoc segmentatie &amp; nauwkeurige tellingen </b><br/> te verrijken bouwt uw segment stap voor stap met nauwkeurige tellingen <br/><br/><b> Beschikbare kanalen </b><br/> E-mail, SMS, Push berichten, Directe post"
-
-+++ Inhoudsopgave
-
-| Welkom bij Geordende campagnes | Start uw eerste geordende campagne | De database opvragen | Gecontroleerde campagnes |
-|---|---|---|---|
-| <b>[ wordt begonnen met Geordende campagnes ](gs-orchestrated-campaigns.md)</b><br/><br/> creeer en beheer relationele Schema&#39;s en Datasets:</br> <ul><li>[ worden begonnen met Schema&#39;s en Datasets ](gs-schemas.md)</li><li>[ Handmatig schema ](manual-schema.md)</li><li>[ het uploadschema van het Dossier ](file-upload-schema.md)</li><li>[ Ingest gegevens ](ingest-data.md)</li></ul>[ toegang en beheer Geordende campagnes ](access-manage-orchestrated-campaigns.md)<br/><br/>[ Zeer belangrijke stappen om een Geordende campagne ](gs-campaign-creation.md) tot stand te brengen | [ creeer en programma de campagne ](create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](orchestrate-activities.md)<br/><br/>[ Begin en controleer de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](edit-expressions.md)<br/><br/>[ opnieuw op ](retarget.md) | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ de activiteiten van het Kanaal ](activities/channels.md) - [ combineren ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) Formeel k [ - ](activities/fork.md) Verzoening [ - ](activities/reconciliation.md) sparen publiek [ - ](activities/save-audience.md) Gesplitst [ - ](activities/split.md) wacht [&#128279;](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-De inhoud op deze pagina is niet definitief en kan worden gewijzigd.
-
->[!ENDSHADEBOX]
 
 Campagne in [!DNL Adobe Journey Optimizer] biedt geavanceerde, merkgestarte marketingcampagnes via verschillende kanalen, waarmee u op grote schaal betrokkenheid, inkomsten en klantenloyaliteit kunt stimuleren.
 
@@ -53,14 +31,14 @@ Campagne wordt opgebouwd rond vier pijlers:
 
 <table style="table-layout:auto">
 <tr style="border: 0;">
-<td><img alt="Op verzoek publiek" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b> Op bestelling publiek </b><br/> direct vraag over datasets om publiekssegmenten tot stand te brengen gebruikend om het even welke combinatie gegevenstypes en dimensies.</td></tr>
+<td><img alt="Op verzoek publiek" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b> Op bestelling publiek </b><br/> direct vraag over datasets om publiekssegmenten tot stand te brengen gebruikend om het even welke combinatie gegevenstypes en dimensies.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Segmentering en verzending van meerdere entiteiten" src="assets/do-not-localize/icon-entity.svg" width="50px"></a></td><td><b> Multi-entiteitsegmentatie &amp; het verzenden van </b><br/> gaat voorbij op persoon-gebaseerde campagnes-gebruik entiteiten zoals productcatalogi, opslagplaatsen, of de dienstgegevens om met precisie te richten.<br/><br/>
+<td><img alt="Segmentering en verzending van meerdere entiteiten" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b> Multi-entiteitsegmentatie &amp; het verzenden van </b><br/> gaat voorbij op persoon-gebaseerde campagnes-gebruik entiteiten zoals productcatalogi, opslagplaatsen, of de dienstgegevens om met precisie te richten.<br/><br/>
 Ondersteuning voor verzending op meerdere niveaus, waarbij één bericht wordt verzonden per profiel en per bijbehorende secundaire entiteit. Deze secundaire entiteiten kunnen contactadressen, reserveringen, abonnementen, contracten, of andere verbonden gegevens omvatten. Zo kunt u bijvoorbeeld campagnes verzenden naar alle bekende adressen van een profiel of voor elke reservering die aan dat profiel is gekoppeld.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Zichtbaarheid vóór verzending en precisie" src="assets/do-not-localize/icon-visibility.svg" width="50px"></a></td><td><b> pre-verzend zicht &amp; precisie </b><br/> krijgt nauwkeurige segmentatietelling en volledig campagnewerkingsgebied vóór lancering, die nauwkeurigheid en vertrouwen verzekert.</td></tr>
+<td><img alt="Zichtbaarheid vóór verzending en precisie" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b> pre-verzend zicht &amp; precisie </b><br/> krijgt nauwkeurige segmentatietelling en volledig campagnewerkingsgebied vóór lancering, die nauwkeurigheid en vertrouwen verzekert.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Workflows voor meerdere stappen" src="assets/do-not-localize/icon-multistep.svg" width="50px"></a></td><td><b> multi-step campagnewerkschema's </b><br/> Ontwerp multi-stappen campagnes, van dagelijkse berichten aan complexe campagnes zoals seizoensgebonden promoties of belangrijke productlanceringen.</td></tr>
+<td><img alt="Workflows voor meerdere stappen" src="assets/do-not-localize/icon-multistep.svg" width="150px"></a></td><td><b> multi-step campagnewerkschema's </b><br/> Ontwerp multi-stappen campagnes, van dagelijkse berichten aan complexe campagnes zoals seizoensgebonden promoties of belangrijke productlanceringen.</td></tr>
 </table>
 
 ## Geordende campagnes en reizen
@@ -69,17 +47,25 @@ Hoewel de geordende visualisatie van campagnes gelijkenissen vertoont met reizen
 
 * **reizen** - 1 tot 1 canvas waar elk profiel door de verschillende stappen bij hun eigen tempo reist. De staat van elke klant wordt gehandhaafd binnen zijn context om acties in real time teweeg te brengen.
 
-* **Geordende campagnes** - in tegenstelling tot reizen, werken de georchetseerde campagnes gebruikend een partijcanvas dat segmenten berekent. Alle profielen worden samen verwerkt.
+* **Geordende campagnes** - in tegenstelling tot reizen, werken de Geordende campagnes gebruikend een partijcanvas dat segmenten berekent. Alle profielen worden samen verwerkt.
 
 Beide canvas&#39;s zijn geoptimaliseerd voor hun respectieve gebruiksgevallen: Journey canvas publiceert een reis die de neiging heeft langer te leven, terwijl het canvas van de Campagne voor herhalende en stijgende looppas van een partijcampagne wordt ontworpen.
 
-## Vereisten
+## Wat zit er in een geordende campagne? {#gs-ms-campaign-inside}
 
-Voordat u gaat werken met geordende campagnes, is het van essentieel belang dat u over de juiste machtigingen beschikt. De toegang tot Geordende campagnes wordt beperkt tot gebruikers die aan relevante **[!UICONTROL Product Profile]**, zoals Geordende de Beheerder van de Campagne, Geordende Begeleider van de Campagne, Geordende Beheerde Manager van de Campagne, of de Geordende Kijker van de Campagne worden toegewezen.
+Het geordende campagnecanvas is een voorstelling van wat er moet gebeuren. Hierin worden de verschillende taken beschreven die moeten worden uitgevoerd en hoe deze aan elkaar zijn gekoppeld.
 
-Als u geen toegang hebt tot geordende campagnefuncties, neemt u contact op met uw beheerder om de benodigde machtigingen aan te vragen.
+![ beeld dat een Geordend campagnecanvas ](assets/canvas-example.png) toont
 
-➡️ [ Leer meer over productprofielen met betrekking tot Geordende Campagnes ](../administration/ootb-product-profiles.md)
+Elke geordende campagne bevat:
+
+* **Activiteiten**: Een activiteit is een uit te voeren taak. De verschillende activiteiten worden op het diagram weergegeven door pictogrammen. Elke activiteit heeft specifieke eigenschappen en andere eigenschappen die voor alle activiteiten gemeenschappelijk zijn.
+
+  In een geordend campagnediagram, kan een bepaalde activiteit veelvoudige taken veroorzaken, in het bijzonder wanneer er een lijn of terugkerende acties is.
+
+* **Overgangen**: De overgangen verbinden een bronactiviteit met een bestemmingsactiviteit en bepalen hun opeenvolging.
+
+* **Worktables**: De werklijst bevat alle informatie die door de overgang wordt gedragen. Voor elke geordende campagne worden verschillende worktables gebruikt. De gegevens in deze tabellen kunnen worden gebruikt gedurende de gehele levenscyclus van de geordende campagne.
 
 ## Laten we dieper duiken
 

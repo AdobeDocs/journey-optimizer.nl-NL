@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: toestemming, high-level, laag-level, profiel, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: e20db7c39e751bf720cd0ae75b4e8f031de18eef
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1300'
 ht-degree: 0%
 
 ---
@@ -523,32 +523,30 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 +++
 
-<!--
-## Orchestrated campaign resource {#ai-orchestrated-campaign} 
+## Geordende campagnebron {#ai-orchestrated-campaign}
 
-* **[!DNL Manage orchestrated campaigns]** high-level permission allows users to create new and edit/delete orchestrated campaigns.
+* Met machtiging op hoog niveau van **[!DNL Manage orchestrated campaigns]** kunnen gebruikers nieuwe campagnes maken en geordende campagnes bewerken/verwijderen.
 
-  +++ This permission includes the following low-level permissions:  
++++ Deze toestemming omvat de volgende laagvlakke toestemmingen:
 
-    * Journey Optimizer specific:
+   * specifiek voor Journey Optimizer:
 
-      * orchestrated_campaigns.read  
-      * orchestrated_campaigns.write  
-      * orchestrated_campaigns.delete  
-      * cjm-web-subdomain.read  
-      * cjm-message.read  
-      * cjm-message.write  
-      * cjm-message.delete  
-      * cjm-library-item.read  
-      * cjm-message-general-setting.read  
-      * cjm-message-preset.read  
-      * cjm-message-preview-test.write  
-      * experiment.read  
-      * experiment.write  
-      * experiment.delete  
-      * experiment.activate
+      * orchestrated_campagnes.read
+      * orchestrated_campagnes.write
+      * orchestrated_campagnes.delete
+      * cjm-web-subdomain.read
+      * cjm-message.read
+      * cjm-message.write
+      * cjm-message.delete
+      * cjm-library-item.read
+      * cjm-message-general-setting.read
+      * cjm-message-preset.read
+      * cjm-message-preview-test.write
+      * experiment.read
+      * experiment.write
+      * experiment.delete
 
-    * Adobe Experience Platform specific:
+   * specifiek voor Adobe Experience Platform:
 
       * identity-graph.read
       * segments.read
@@ -557,65 +555,91 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
       * schemas.read
       * sandboxes.view
 
-  +++
++++
 
-* **[!DNL Manage orchestrated campaigns admin]** high-level permission allows users to create new and edit/delete 
+* Met machtiging op hoog niveau van **[!DNL Manage orchestrated campaigns admin]** kunnen gebruikers nieuwe koppelingen en verbindingen en verbindingen tussen Adobe Experience Platform-profielen en relationele opslagentiteiten maken en bewerken/verwijderen.
 
-  +++ This permission includes the following low-level permissions:  
++++ Deze toestemming omvat de volgende laagvlakke toestemmingen:
 
-    * Journey Optimizer specific:
+   * specifiek voor Journey Optimizer:
 
+      * cjm-orchestrated-campaign-admin.read
+      * cjm-orchestrated-campaign-admin.write
+      * cjm-orchestrated-campaign-admin.delete
 
++++
 
-  +++
+* Met **[!DNL Publish orchestrated campaigns]** machtiging op hoog niveau kunnen gebruikers geordende campagnes publiceren.
 
-* **[!DNL Publish orchestrated campaigns]** high-level permission allows users to publish orchestrated campaigns.
++++ Deze toestemming omvat de volgende laagvlakke toestemmingen:
 
-  +++ This permission includes the following low-level permissions:
+   * specifiek voor Journey Optimizer:
 
-    * Journey Optimizer specific:
+      * cjm-orchestrated-campaign.read
+      * cjm-orchestrated-campaign.publish
+      * cjm-web-subdomain.read
+      * cjm-message.read
+      * cjm-message.publish
+      * cjm-library-item.read
 
-      * orchestrated_campaigns.publish
-      * orchestrated_campaigns.read
+   * specifiek voor Adobe Experience Platform:
 
+      * sandboxes.view
 
-  +++
++++
 
-* **[!DNL View orchestrated campaigns]** high-level permission allows users to 
+* Met **[!DNL View orchestrated campaigns]** machtiging op hoog niveau kunnen gebruikers de geordende campagne en de inhoud ervan bekijken.
 
-  +++ This permission includes the following low-level permissions:  
++++ Deze toestemming omvat de volgende laagvlakke toestemmingen:
 
-    * Journey Optimizer specific:
+   * specifiek voor Journey Optimizer:
 
-      * orchestrated_campaigns.read
+      * cjm-orchestrated-campaign.read
+      * cjm-message.read
+      * cjm-library-item.read
+      * cjm-message-general-setting.read
+      * cjm-message-preset.read
+      * experiment.read
 
-    * Adobe Experience Platform specific:
+   * specifiek voor Adobe Experience Platform:
 
+      * sandboxes.view
       * segments.read
       * profiles.read
 
-  +++
++++
 
-* **[!DNL View orchestrated campaigns admin]** high-level permission allows users to 
+* Met machtiging op hoog niveau van **[!DNL View orchestrated campaigns admin]** kunnen gebruikers de beheerinstellingen weergeven, maar kunnen instellingen niet worden bewerkt.
 
-  +++ This permission includes the following low-level permissions:  
++++ Deze toestemming omvat de volgende laagvlakke toestemmingen:
 
+   * specifiek voor Journey Optimizer:
 
-  +++
+      * cjm-orchestrated-campaign-admin.read
 
-* **[!DNL View orchestrated campaigns report]** high-level permission allows users to read and edit orchestrated campaigns report.
++++
 
-  +++ This permission includes the following low-level permissions:  
+* **[!DNL View orchestrated campaigns report]** toestemming op hoog niveau staat gebruikers toe om georkestreerde campagneprestaties in zowel levend als bedrijfsrapport te bekijken.
 
-    * Journey Optimizer specific:
-      * orchestrated_campaigns_report.read
-      * messages_report.read
++++ Deze toestemming omvat de volgende laagvlakke toestemmingen:
 
-    * Adobe Experience Platform specific:
+   * specifiek voor Journey Optimizer:
 
+      * cjm-orchestrated-campaign-reports.read
+      * cjm-message-report.read
+      * cjm-channel-report.read
+      * cjm-orchestrated-campaign.read
+      * cjm-message.read
+      * cjm-library-item.read
+      * experiment.read
+      * experiment-report.read
+
+   * specifiek voor Adobe Experience Platform:
+
+      * sandboxes.view
       * datasets.read
       * queries.read
       * queries.write
       * queries.delete
-  +++
--->
+
++++

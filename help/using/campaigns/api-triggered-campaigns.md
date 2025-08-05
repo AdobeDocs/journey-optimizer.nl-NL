@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '246'
 ht-degree: 2%
 
 ---
@@ -44,8 +44,12 @@ Beschikbare kanalen voor API-getriggerde campagnes zijn E-mail, SMS en Push beri
 1. [De campagne bekijken en activeren](review-activate-api-triggered-campaign.md)
 1. [De uitvoering van de campagne activeren](trigger-campaigns.md)
 
+>[!IMPORTANT]
+>
+>Alvorens uw campagne te creëren, zorg ervoor u de algemene [ campagneeerste vereisten ](../campaigns/get-started-with-campaigns.md#prerequisites) hebt herzien.
+
 ## Hoe kan ik-video&#39;s {#video}
 
 Leer hoe te om een campagne tot stand te brengen en het van een extern systeem teweeg te brengen dat op gebruikersinteractie wordt gebaseerd, gebruikend de Interactieve REST API van de Uitvoering van het Bericht.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452731?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

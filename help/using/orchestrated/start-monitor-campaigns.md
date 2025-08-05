@@ -3,15 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Geordende campagnes met Adobe Journey Optimizer starten en volgen
 description: Leer hoe u geordende campagnes met Adobe Journey Optimizer kunt starten en volgen.
-hide: true
-hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 5e52573689ab06084441390299b01e112e699244
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
+
 
 # Uw geordende campagnes starten en volgen {#start-monitor}
 
@@ -19,26 +18,6 @@ ht-degree: 0%
 >id="ajo_campaign_publication"
 >title="Geordende campagne publiceren"
 >abstract="Als u uw campagne wilt starten, moet u deze publiceren. Zorg ervoor dat alle fouten zijn gewist voordat u ze publiceert."
-
-+++ Inhoudsopgave
-
-| Welkom bij Geordende campagnes | Start uw eerste geordende campagne | De database opvragen | Gecontroleerde campagnes |
-|---|---|---|---|
-| [ wordt begonnen met Geordende campagnes ](gs-orchestrated-campaigns.md)<br/><br/> creeer en beheer relationele Schema&#39;s en Datasets:</br> <ul><li>[ worden begonnen met Schema&#39;s en Datasets ](gs-schemas.md)</li><li>[ Handmatig schema ](manual-schema.md)</li><li>[ het uploadschema van het Dossier ](file-upload-schema.md)</li><li>[ Ingest gegevens ](ingest-data.md)</li></ul>[ toegang en beheer Geordende campagnes ](access-manage-orchestrated-campaigns.md)<br/><br/>[ Zeer belangrijke stappen om een Geordende campagne ](gs-campaign-creation.md) tot stand te brengen | [ creeer en programma de campagne ](create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](orchestrate-activities.md)<br/><br/><b>[ Begin en controleer de campagne ](start-monitor-campaigns.md)</b><br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](edit-expressions.md)<br/><br/>[ opnieuw op ](retarget.md) | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ de activiteiten van het Kanaal ](activities/channels.md) - [ combineren ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) Formeel k [ - ](activities/fork.md) Verzoening [ - ](activities/reconciliation.md) sparen publiek [ - ](activities/save-audience.md) Gesplitst [ - ](activities/split.md) wacht [&#128279;](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-De inhoud op deze pagina is niet definitief en kan worden gewijzigd.
-
->[!ENDSHADEBOX]
 
 Nadat u de georkestreerde en ontworpen taken hebt gemaakt die u op het canvas wilt uitvoeren, kunt u deze publiceren en controleren hoe deze wordt uitgevoerd.
 
@@ -50,18 +29,13 @@ Met [!DNL Journey Optimizer] kunt u geordende campagnes testen voordat u live ga
 
 >[!IMPORTANT]
 >
->Alle activiteiten op het canvas worden uitgevoerd, behalve **[!UICONTROL Save audience]** -activiteiten en kanaalactiviteiten. Er is geen functioneel effect op uw gegevens of publiek.**
+>Alle activiteiten op het canvas worden uitgevoerd, behalve **[!UICONTROL Save audience]** -activiteiten en kanaalactiviteiten. Er is geen functioneel effect op uw gegevens of publiek.
 
-Een campagne testen:
-
-1. Open de geordende campagne.
-2. Klik op **[!UICONTROL Start]**.
+Als u een geordende campagne wilt testen, opent u de campagne en selecteert u **[!UICONTROL Start]** .
 
 ![](assets/campaign-start.png){zoomable="yes"}
 
-Elke activiteit in de campagne wordt opeenvolgend uitgevoerd tot het eind van het diagram wordt bereikt.
-
-Tijdens de test kunt u de uitvoering van de campagne besturen met de actiebalk op het canvas. Vanaf dat punt kunt u:
+Elke activiteit in de campagne wordt opeenvolgend uitgevoerd tot het eind van het diagram wordt bereikt. Tijdens de test kunt u de uitvoering van de campagne besturen met de actiebalk op het canvas. Vanaf dat punt kunt u:
 
 * **Einde** de uitvoering op elk ogenblik.
 * **Begin** opnieuw de uitvoering.
@@ -104,7 +78,7 @@ Gegevens die van de ene activiteit naar de andere worden vervoerd via overgangen
 1. Selecteer een overgang.
 1. Klik in het deelvenster Eigenschappen op **[!UICONTROL Preview schema]** om het schema van de werktabel weer te geven. Selecteer **[!UICONTROL Preview results]** om de getransporteerde gegevens weer te geven.
 
-![](assets/transition.png){zoomable="yes"}
+   ![](assets/transition.png){zoomable="yes"}
 
 ### Indicatoren voor de uitvoering van activiteiten {#activities}
 
@@ -122,9 +96,11 @@ De visuele statusindicatoren helpen u begrijpen hoe elke activiteit uitvoert:
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="Logboeken en taken"
->abstract="De **Logboeken en het 1&rbrace; scherm van taken &lbrace;verstrekken een geschiedenis van de Geordende campagneuitvoering, registrerend alle gebruikersacties en ondervonden fouten.**"
+>abstract="De **Logboeken en het 1} scherm van taken {verstrekken een geschiedenis van de Geordende campagneuitvoering, registrerend alle gebruikersacties en ondervonden fouten.**"
 
-Het controleren van logboeken en taken is een zeer belangrijke stap om uw Geordende campagnes te analyseren en ervoor te zorgen zij behoorlijk lopen. Logbestanden en taken zijn toegankelijk via de knop **[!UICONTROL Logs]** , die beschikbaar is in zowel de test- als de live modus op de canvaswerkbalk of in het deelvenster Eigenschappen van elke activiteit.
+Het controleren van logboeken en taken is een zeer belangrijke stap om uw Geordende campagnes te analyseren en ervoor te zorgen zij behoorlijk lopen. Logbestanden en taken zijn toegankelijk via de knop **[!UICONTROL Logs]** , die beschikbaar is in zowel de test- als de live modus op de canvaswerkbalk.
+
+![](assets/logs-button.png){zoomable="yes"}
 
 Het scherm **[!UICONTROL Logs and tasks]** biedt een complete geschiedenis van de uitvoering van de campagne, waarin alle handelingen van de gebruiker zijn opgenomen en fouten zijn aangetroffen.
 
@@ -136,3 +112,7 @@ Er zijn twee soorten informatie beschikbaar:
 * Het tabblad **[!UICONTROL Tasks]** bevat de stapsgewijze uitvoeringsvolgorde van activiteiten.
 
 Op beide tabbladen kunt u de weergegeven kolommen en hun volgorde kiezen, filters toepassen en het zoekveld gebruiken om snel de gewenste informatie te zoeken.
+
+## Volgende stappen {#next}
+
+Nadat u het geordende campagnediagram hebt gestart, kunt u Journey Optimizer-rapporteringsmogelijkheden gebruiken om inzicht te krijgen in het gedrag van het publiek en om de prestaties van elke stap in de reis van uw klant te meten. [ Leer meer op Geordende campagnes die ](../orchestrated/reporting-campaigns.md) melden

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ U kunt het campagnerapport openen door in uw campagne op de knop **[!UICONTROL R
 
 ![](assets/cja-email-kpis.png)
 
-De KPI&#39;s (Key Performance Indicators) van **[!UICONTROL Campaign]** functioneren als een allesomvattend dashboard, dat een analyse levert van essentiële metriek die aan uw campagne is gekoppeld. Dit omvat details zoals het aantal kliks en het aantal geleverde berichten, die een uitvoerig inzicht in de doeltreffendheid van uw campagne en het niveau van betrokkenheid aanbieden.
+De KPI&#39;s (Key Performance Indicators) van **[!UICONTROL Campaign]** functioneren als een allesomvattend dashboard, dat een analyse levert van essentiële metriek die aan uw campagne is gekoppeld. Dit omvat details zoals het aantal kliks en het aantal geleverde berichten, die een uitvoerige insight in de doeltreffendheid en het niveau van betrokkenheid van uw campagne aanbieden.
 
 KPIs zal variëren gebaseerd op de kanalen die in uw campagne worden gebruikt.
 
@@ -44,6 +44,9 @@ KPIs zal variëren gebaseerd op de kanalen die in uw campagne worden gebruikt.
 * **[!UICONTROL Displays]**: Het aantal keren dat het bericht is geopend.
 
 +++
+
+>[!AVAILABILITY]
+>Geordende campagnes ondersteunen alleen de SMS-, e-mail- en pushkanalen. Andere kanalen (In-app, Web, Direct mail, enz.) zijn niet beschikbaar in georkestreerde campagnes en verschijnen niet in rapportering.
 
 ### Overzicht van Campaign {#delivery-global}
 

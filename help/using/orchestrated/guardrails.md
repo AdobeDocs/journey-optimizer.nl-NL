@@ -3,97 +3,83 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Gangbare campagnes en beperkingen
 description: Meer informatie over geordende campagnes, instructies en beperkingen
-hide: true
-hidefromtoc: true
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
 
+
 # Afvoerkanalen en beperkingen {#guardrails}
 
-+++ Inhoudsopgave
+Hieronder vindt u aanvullende instructies en beperkingen wanneer u geordende campagnes gebruikt.
 
-| Welkom bij Geordende campagnes | Start uw eerste geordende campagne | De database opvragen | Gecontroleerde campagnes |
-|---|---|---|---|
-| [ wordt begonnen met Geordende campagnes ](gs-orchestrated-campaigns.md)<br/><br/> creeer en beheer relationele Schema&#39;s en Datasets:</br> <ul><li>[ worden begonnen met Schema&#39;s en Datasets ](gs-schemas.md)</li><li>[ Handmatig schema ](manual-schema.md)</li><li>[ het uploadschema van het Dossier ](file-upload-schema.md)</li><li>[ Ingest gegevens ](ingest-data.md)</li></ul>[ toegang en beheer Geordende campagnes ](access-manage-orchestrated-campaigns.md)<br/><br/>[ Zeer belangrijke stappen om een Geordende campagne ](gs-campaign-creation.md) tot stand te brengen | [ creeer en programma de campagne ](create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](orchestrate-activities.md)<br/><br/>[ Begin en controleer de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](edit-expressions.md)<br/><br/>[ opnieuw op ](retarget.md) | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ de activiteiten van het Kanaal ](activities/channels.md) - [ combineren ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) Formeel k [ - ](activities/fork.md) Verzoening [ - ](activities/reconciliation.md) sparen publiek [ - ](activities/save-audience.md) Gesplitst [ - ](activities/split.md) wacht [&#128279;](activities/wait.md) |
+## Beperkingen van gegevensstroom
 
-{style="table-layout:fixed"}
+### Gegevensontwerp en -opslag
 
-+++
+* De relationele datastore steunt a **maximum van 200 lijsten** (schema&#39;s).
 
-## Beperkingen van gegevensstroom tot gegevensset
+* Voor Geordende campagnes, moet de totale grootte van om het even welk individueel schema **100 GB** niet overschrijden.
 
-Elke dataset in Adobe Experience Platform kan slechts met één actieve dataflow tegelijkertijd worden geassocieerd. Deze 1 :1 kardinaliteit wordt strikt afgedwongen door het platform.
+* De dagelijkse updates aan een schema zouden **tot minder dan 20%** van zijn totale verslagtelling moeten worden beperkt om prestaties en stabiliteit te handhaven.
 
-Als u gegevensbronnen moet schakelen (bijvoorbeeld van Amazon S3 naar Salesforce):
+* Relationele gegevens zijn het primaire model dat wordt ondersteund voor inname, gegevensmodellering en segmentatiegebruik.
 
-U moet de bestaande gegevensstroom schrappen die met de dataset wordt verbonden.
+* De schema&#39;s die voor het richten worden gebruikt moeten minstens **één identiteitsgebied van type`String`** bevatten, die aan een bepaalde identiteitsnaamruimte in kaart wordt gebracht.
 
-Dan, creeer een nieuwe gegevensstroom met de nieuwe bron die aan de zelfde dataset wordt in kaart gebracht.
-
-Dit garandeert betrouwbare gegevensinvoer en is van essentieel belang bij het gebruik van Change Data Capture (CDC), die afhankelijk is van een gedefinieerde primaire sleutel en versioning-eigenschap (bijvoorbeeld laatst gewijzigd) voor incrementele updates.
-
-
-## Relationele schema&#39;s/beperkingen voor gegevensinvoer
-
-* Tot 200 relationele schema&#39;s (lijsten) worden gesteund in de relationele datastore.
-
-* De totale grootte van een relationeel schema dat voor de Orchestratie van de Campagne wordt gebruikt zou niet 100 GB moeten overschrijden.
-
-* Inname in de batch voor Campaign Orchestration dient niet vaker dan eens per 15 minuten plaats te vinden.
-
-* Dagelijkse wijzigingen in een relationeel schema moeten onder 20% van het totale aantal records blijven.
-
-## Gegevensmodellering
-
-* Versiedescriptor is verplicht voor alle schema&#39;s, inclusief feitelijke tabellen.
-
-* Voor elke tabel is een primaire sleutel vereist.
-
-* Table_name die tijdens datasetverwezenlijking wordt toegewezen wordt gebruikt over de segmentatie UI en verpersoonlijkingseigenschappen.
-
-  Deze naam is permanent en kan na het maken niet worden gewijzigd.
-
-* Veldgroepen worden momenteel niet ondersteund.
-
-## Gegevensopname
+### Gegevensopname
 
 * Profiel + relationele gegevensinvoer is vereist.
 
-* Een veranderingstype gebied wordt vereist voor op dossier-gebaseerde opname, terwijl het registreren van de lijst voor de opname van de DB van de Wolk moet worden toegelaten. Dit is nodig voor Change Data Capture (CDC).
+* Al opname moet via **Gegevens van de Verandering voorkomen vangt** bronnen:
 
-* De latentie van inname tot gegevensbeschikbaarheid in Snowflake varieert van 15 minuten tot 2 uur, afhankelijk van gegevensvolume, gelijktijdige uitvoering en het type bewerkingen (invoegen is sneller dan updates).
+   * Voor **op dossier-Gebaseerd**: `change_type` gebied wordt vereist.
 
-* Er wordt momenteel gewerkt aan toezicht op de gegevens in Snowflake; er is momenteel geen native bevestiging voor succesvolle inname.
+   * Voor **op wolk-Gebaseerde**: Het registreren van de lijst moet worden toegelaten.
 
-* Directe updates voor Snowflake of de dataset worden niet ondersteund. Alle veranderingen moeten door bronnen van CDC stromen.
+* **de directe updates aan Snowflake of datasets worden niet gesteund**. Het systeem is alleen-lezen; alle wijzigingen moeten worden toegepast via Gegevens wijzigen.
 
-  De queryservice is alleen-lezen.
+* **de processen van ETL worden niet gesteund**. Gegevens moeten vóór inname volledig in de vereiste indeling worden omgezet.
 
-* ETL wordt niet ondersteund — klanten moeten gegevens in de vereiste indeling leveren.
+* **Gedeeltelijke updates worden niet toegestaan**, moet elke rij als volledig verslag worden verstrekt.
 
-* Gedeeltelijke updates zijn niet toegestaan. Elke rij moet worden opgegeven als een volledige record.
+* De opname van de partij voor de Orchestratie van de Campagne is beperkt tot **eens om de 15 minuten**.
 
-* De congestie baseert zich op de Dienst van de Vraag en Gegevens Distiller.
+* De latentie van de opsluiting, tijd van opname aan beschikbaarheid in Snowflake, waagt typisch **van 15 minuten aan 2 uren**, afhankelijk van:
 
-## Segmentatie
+   * Gegevensvolume
 
-* LOV (Lijst met waarden) en opsommingen zijn momenteel beschikbaar.
+   * Gelijktijdige installatie van het systeem
 
-* Opgeslagen soorten publiek zijn statische lijsten, de inhoud ervan geeft de gegevens weer die beschikbaar zijn op het moment dat de campagne wordt uitgevoerd.
+   * Type bewerking, bijv. invoegtoepassingen zijn sneller dan updates
 
-* Toevoegen aan een opgeslagen publiek wordt niet ondersteund. Voor updates is volledige overschrijving vereist.
+### Gegevensmodellering
 
-* Het publiek mag alleen scalaire kenmerken hebben; kaarten en arrays worden niet ondersteund.
+* Alle schema&#39;s, met inbegrip van feitenlijsten, moeten **een versiedescriptor** omvatten om juiste versiecontrole en traceerbaarheid te verzekeren.
 
-* Segmentatie ondersteunt vooral relationele gegevens. Terwijl het mengen met profielgegevens wordt toegestaan, kan het brengen van grote profieldatasets prestaties beïnvloeden. Om dit te voorkomen:
+* Elke lijst moet een bepaalde **primaire sleutel** hebben om gegevensintegriteit en stroomafwaartse verrichtingen te steunen.
 
-* Er zijn hulplijnen aanwezig, zoals het beperken van het aantal profielkenmerken dat is geselecteerd in batch- of streaming-doelgroepen.
+* `table_name` die tijdens de verwezenlijking van datasets wordt toegewezen is permanent en door segmentatie en verpersoonlijkingseigenschappen wordt gebruikt.
 
-* Leesgroepen worden niet in de cache geplaatst. Elke campagnerun zorgt voor een volledige leesbewerking.
+* **de groepen van het Gebied worden niet gesteund** in het huidige gegevens modelleringskader.
 
-  Optimalisatie is nodig voor grote of complexe doelgroepen.
+## Activiteitsbeperkingen
+
+* Slechts **scalaire attributen worden gesteund** in publieksdefinities; **kaarten en series worden niet toegestaan**.
+
+* **de activiteiten van de Segmentatie baseert zich hoofdzakelijk op relationele gegevens**. Hoewel profielgegevens kunnen worden opgenomen, kan het gebruik van grote profielgegevenssets de prestaties beïnvloeden.
+
+* **De grenzen worden afgedwongen op het aantal profielattributen** die in zowel partij als het stromen publiek kunnen worden gebruikt om systeemefficiency te handhaven.
+
+* **Lijst van Waarden (LOVs)** en **opsommingen** worden volledig gesteund.
+
+* **gelezen Publiek wordt niet in het voorgeheugen ondergebracht**, teweegbrengt elke campagneuitvoering een volledige publieksevaluatie van de onderliggende gegevens teweeg.
+
+* **de Optimalisering wordt sterk geadviseerd** wanneer het werken met grote of complexe publieksdefinities om prestaties te verzekeren.
+
+* **de Bewaarde publieksactiviteiten zijn statisch**, wijzen zij op de gegevens beschikbaar op het tijdstip van campagneuitvoering.
+
+* **het toevoegen aan een Opgeslagen activiteit van het Publiek wordt niet gesteund**. Om het even welke wijzigingen vereisen een volledige beschreven van het publiek.

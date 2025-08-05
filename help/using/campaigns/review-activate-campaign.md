@@ -1,15 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Een actiecampagne bekijken en activeren
-description: Leer hoe te om actiecampagnes in  [!DNL Journey Optimizer] te herzien en te activeren.
+title: Een actiecampagne evalueren en activeren
+description: Leer hoe te om de campagnes van de Actie in  [!DNL Journey Optimizer] te herzien en te activeren.
 feature: Campaigns
 topic: Content Management
 role: User
 level: Intermediate
 keywords: campagne, revisie, validatie, activering, activering, optimaliseren
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 3%
@@ -17,9 +17,9 @@ ht-degree: 3%
 ---
 
 
-# De actiecampagne evalueren en activeren {#action-campaign-review}
+# De campagne van de Actie evalueren en activeren {#action-campaign-review}
 
-Zodra uw actiecampagne is gevormd, moet u zijn parameter en inhoud herzien alvorens het te activeren. Ga als volgt te werk om dit te doen:
+Zodra uw campagne van de Actie is gevormd, moet u zijn parameter en inhoud herzien alvorens het te activeren. Ga als volgt te werk om dit te doen:
 
 >[!IMPORTANT]
 >

@@ -3,47 +3,36 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Uw doeldimensie maken
 description: Leer hoe te om een relationeel schema aan het klantenprofiel in kaart te brengen
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
 
+
 # Een doeldimensie configureren {#configuration}
 
-+++ Inhoudsopgave
+Met **[!UICONTROL Orchestrated Campaigns]**, kunt u gerichte mededelingen op entiteitniveau ontwerpen en leveren, leveraging Adobe Experience Platform relationele schemamogelijkheden.
 
-| Welkom bij Geordende campagnes | Start uw eerste geordende campagne | De database opvragen | Gecontroleerde campagnes |
-|---|---|---|---|
-| [ wordt begonnen met Geordende campagnes ](gs-orchestrated-campaigns.md)<br/><br/> creeer en beheer relationele Schema&#39;s en Datasets:</br> <ul><li>[ worden begonnen met Schema&#39;s en Datasets ](gs-schemas.md)</li><li>[ Handmatig schema ](manual-schema.md)</li><li>[ het uploadschema van het Dossier ](file-upload-schema.md)</li><li>[ Ingest gegevens ](ingest-data.md)</li></ul>[ Toegang en beheer Geordende campagnes ](access-manage-orchestrated-campaigns.md)<br/><br/>[ Zeer belangrijke stappen om een Geordende campagne ](gs-campaign-creation.md)<br/><br/>[ te creëren vormt een dimensie van het Doel ](target-dimension.md) | <b>[ creeer en programma de campagne ](create-orchestrated-campaign.md)</b><br/><br/>[ Orchestrate activiteiten ](orchestrate-activities.md)<br/><br/>[ Begin en controleer de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](edit-expressions.md)<br/><br/>[ opnieuw op ](retarget.md) | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ de activiteiten van het Kanaal ](activities/channels.md) - [ combineren ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) Formeel k [ - ](activities/fork.md) Verzoening [ - ](activities/reconciliation.md) sparen publiek [ - ](activities/save-audience.md) Gesplitst [ - ](activities/split.md) wacht [&#128279;](activities/wait.md) |
+Hoewel de segmentatie voor **[!UICONTROL Orchestrated Campaigns]** hoofdzakelijk op relationele schema&#39;s werkt, komt de daadwerkelijke berichtlevering altijd op het **niveau van het Profiel** voor.
 
-{style="table-layout:fixed"}
+Wanneer het vormen richt, bepaalt u twee zeer belangrijke aspecten:
 
-+++
+* **gerichte Schema&#39;s**
 
+  U geeft op welke relationele schema&#39;s geschikt zijn voor doelframes. Standaard wordt het schema met de naam `Recipient` gebruikt, maar u kunt alternatieven configureren, zoals `Visitors` , `Customers` .
 
-<br/>
+  >[!IMPORTANT]
+  >
+  > Het doelschema moet een 1 :1 verhouding met het `Profile` schema hebben. U kunt `Purchases` bijvoorbeeld niet gebruiken als een doelschema, omdat dit doorgaans een een-op-een-relatie vertegenwoordigt.
 
->[!BEGINSHADEBOX]
+* **Verbinding van het Profiel**
 
-</br>
-
-De inhoud op deze pagina is niet definitief en kan worden gewijzigd.
-
->[!ENDSHADEBOX]
-
-In veel gevallen kan één klantprofiel worden gekoppeld aan meerdere gerelateerde entiteiten, zoals abonnementen, servicecontracten of apparaten, elk met zijn eigen unieke id- en communicatiebehoeften.
-
-Met **Geordende Campagnes**, kunt u gerichte mededelingen op het entiteitniveau nu ontwerpen en leveren, gebruikend **mogelijkheden van het relationele schema van Adobe Experience Platform**. Dit staat u toe om, per entiteit in plaats van per ontvanger te segmenteren, te personaliseren en te rapporteren.
+  Het systeem moet begrijpen hoe het doelschema wordt toegewezen aan `Profile`. Dit wordt bereikt door een gedeeld identiteitsgebied - dat zowel in het doelschema als het `Profile` schema bestaat en als identiteitsnaamruimte gevormd.
 
 ## Uw doeldimensie maken {#targeting-dimension}
-
-Eén klantprofiel kan worden gekoppeld aan meerdere gerelateerde entiteiten, zoals contracten, apparaten of abonnementen, elk met een eigen unieke id. Deze opstelling laat u richten, segmenteren, en rapport over elke entiteit individueel.
 
 Begin door campagneorchestratie op te zetten door een relationeel schema aan het klantenprofiel in kaart te brengen.
 
@@ -55,21 +44,29 @@ Begin door campagneorchestratie op te zetten door een relationeel schema aan het
 
 1. Kies uw [ eerder gevormd Schema ](gs-schemas.md) &#x200B; van drop-down.
 
+   Terwijl alle relationele schema&#39;s zichtbaar zijn, slechts zijn de schema&#39;s met een directe identiteitsverhouding aan het **Profiel** verkiesbaar voor selectie.
+
 1. Selecteer **[!UICONTROL Identity value]** die de entiteit vertegenwoordigt u wilt richten.
 
    In dit voorbeeld is het klantprofiel gekoppeld aan meerdere abonnementen, die elk worden vertegenwoordigd door een uniek `crmID` in het `Recipient` -schema. Als u **[!UICONTROL Target Dimension]** instelt om het `Recipient` schema en de `crmID` identiteit te gebruiken, kunt u berichten verzenden op abonnementsniveau in plaats van naar het hoofdklantprofiel, zodat elk contract of elke regel een eigen gepersonaliseerd bericht ontvangt.
 
-   [ leer meer in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/composition#identity)
+   [ leer meer in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 
-1. Klik op **[!UICONTROL Save]** om de installatie te voltooien.
+1. Klik op **[!UICONTROL Save]** om de installatie te voltooien. Een **[!UICONTROL Target dimension]** kan na het maken niet worden verwijderd of bewerkt.
 
 Nadat u de **[!UICONTROL Target Dimension]** hebt geconfigureerd, gaat u verder met het maken en instellen van de **[!UICONTROL Channel Configuration]** en het definiëren van de bijbehorende **[!UICONTROL Execution Details]** .
 
 ## De kanaalconfiguratie configureren {#channel-configuration}
 
-Nadat u **[!UICONTROL Target Dimension]** hebt ingesteld, moet u uw e-mail of SMS configureren **[!UICONTROL Channel Configuration]** en de juiste instellingen voor **[!UICONTROL Execution Details]** definiëren. Dit zorgt ervoor dat de berichten worden verzonden gebruikend de correcte identiteit en het richten logica.
+Nadat u **[!UICONTROL Target Dimension]** hebt ingesteld, moet u uw e-mail of SMS configureren **[!UICONTROL Channel Configuration]** en de juiste instellingen voor **[!UICONTROL Execution Details]** definiëren. Zo kunt u definiëren:
+
+* **het niveau van berichtlevering**: bijvoorbeeld, verzendend één bericht per ontvanger, zoals één enkele e-mail per individu.
+
+* **het uitvoeringsadres**: het specifieke contactgebied dat voor het verzenden, zoals een e-mailadres of een telefoonaantal moet worden gebruikt.
+
+U kunt als volgt de kanaalconfiguratie configureren:
 
 1. Begin door uw **[!UICONTROL Channel configuration]** te maken en te configureren.
 
@@ -93,15 +90,21 @@ Nadat u **[!UICONTROL Target Dimension]** hebt ingesteld, moet u uw e-mail of SM
 
    ![](assets/target-dimension-4.png)
 
+1. Als u **[!UICONTROL Target + Secondary Dimension]** hebt geselecteerd als de leveringsmethode, kiest u een **[!UICONTROL Secondary Dimension]** om de context voor het verzenden van berichten te definiëren.
+
 1. Kies onder de sectie **[!UICONTROL Execution Address]** welke **[!UICONTROL Source]** moet worden gebruikt om het bezorgadres op te halen, zoals het e-mailadres of telefoonnummer:
 
    * **[!UICONTROL Profile]**: selecteer deze optie als het bezorgingsadres, bijvoorbeeld e-mail, rechtstreeks in het hoofdprofiel van de klant wordt opgeslagen.
 
      Nuttig wanneer het verzenden van berichten naar de belangrijkste klant, niet een specifieke bijbehorende entiteit.
 
-   * **[!UICONTROL Target Dimension]**: Kies deze optie als het bezorgadres is opgeslagen in de verwante entiteit, bijvoorbeeld een ontvanger of abonnement.
+   * **[!UICONTROL Target Dimension]**: Kies deze optie als het bezorgadres is opgeslagen in de primaire entiteit, bijvoorbeeld een ontvanger.
 
      Nuttig wanneer elke ontvanger zijn eigen bezorgadres heeft, zoals een ander e-mailadres of telefoonnummer.
+
+   * **[!UICONTROL Secondary Dimension]**: Wanneer u **[!UICONTROL Target + Secondary Dimension]** als leveringsmethode gebruikt, selecteert u de relevante **[!UICONTROL Secondary Dimension]** die u eerder hebt geconfigureerd.
+
+     Als de secundaire dimensie bijvoorbeeld een boeking of abonnement vertegenwoordigt, kan het uitvoeringsadres, zoals een e-mail, van dat niveau worden genomen. Dit is handig wanneer profielen bij het boeken of abonneren op een service andere contactgegevens gebruiken.
 
 1. Van het **[!UICONTROL Delivery address]** gebied, klik ![ geef pictogram ](assets/do-not-localize/edit.svg) uit om het specifieke gebied te kiezen voor uw berichtlevering te gebruiken.
 

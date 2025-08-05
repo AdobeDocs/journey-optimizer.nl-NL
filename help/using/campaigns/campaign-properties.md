@@ -9,17 +9,17 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: a7b03b71-0f2c-45ca-a2f7-38ddc64913c1
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 1%
 
 ---
 
+# De campagneeigenschappen voor Actie definiëren {#action-campaign-properties}
 
-# De eigenschappen van de handelingscampagne definiëren {#action-campaign-properties}
-
-Ga als volgt te werk om een handelingscampagne te maken en de eigenschappen ervan te definiëren:
+Voer de volgende stappen uit om een handelingscampagne te maken en de eigenschappen ervan te definiëren:
 
 1. Blader naar het menu **[!UICONTROL Campaigns]** en selecteer de tab **[!UICONTROL Action]** .
 
@@ -37,4 +37,4 @@ Ga als volgt te werk om een handelingscampagne te maken en de eigenschappen erva
 
 ## Volgende stappen {#next}
 
-Zodra uw actiecampagne wordt gecreeerd en gevormd, kunt u zijn actie vormen. [Meer informatie](campaign-action.md)
+Zodra uw campagne van de Actie wordt gecreeerd en gevormd, kunt u zijn actie vormen. [Meer informatie](campaign-action.md)

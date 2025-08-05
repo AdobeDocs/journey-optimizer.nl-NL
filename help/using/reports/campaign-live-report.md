@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '3280'
+source-wordcount: '3309'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,9 @@ De pagina Campagne **[!UICONTROL Live report]** wordt weergegeven met de volgend
 * [Sms](#sms-live)
 * [Web](#web-tab)
 * [Direct mail](#direct-mail-tab)
+
+>[!AVAILABILITY]
+>Geordende campagnes ondersteunen alleen de SMS-, e-mail- en pushkanalen. Andere kanalen (In-app, Web, Direct mail, enz.) zijn niet beschikbaar in georkestreerde campagnes en verschijnen niet in rapportering.
 
 De campagne **[!UICONTROL Live report]** is verdeeld in verschillende widgets waarin het succes van uw campagne en de fouten worden beschreven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Voor meer informatie over dit, verwijs naar deze [ sectie ](../reports/live-report.md#modify-dashboard).
 
@@ -66,7 +69,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ## Tabblad E-mail {#email-live}
 
-Op het tabblad **[!UICONTROL Email]** van uw campagne **[!UICONTROL Live report]** vindt u de belangrijkste gegevens met betrekking tot de e-mail die u in uw campagne hebt verzonden.
+Op het tabblad **[!UICONTROL Live report]** van uw campagne **[!UICONTROL Email]** vindt u de belangrijkste gegevens met betrekking tot de e-mail die u in uw campagne hebt verzonden.
 
 ### E-mail - Prestaties verzenden {#email-sending-performance}
 
@@ -196,7 +199,7 @@ De **[!UICONTROL Email - Performance by date]** -widget biedt een gedetailleerd 
 
 ![](assets/campaign_email_live_error.png)
 
-De grafieken en tabellen van **[!UICONTROL Error Reasons]** bieden inzicht in de specifieke fouten die tijdens het verzendingsproces in de afgelopen 24 uur zijn opgetreden. Deze informatie is nuttig om de aard en de frequentie van fouten te begrijpen.
+De **[!UICONTROL Error Reasons]** -grafieken en -tabellen verschaffen insight informatie over de specifieke fouten die zich tijdens het verzendingsproces in de afgelopen 24 uur hebben voorgedaan. Deze informatie is nuttig om de aard en de frequentie van fouten te begrijpen.
 
 ### Uitgesloten redenen {#email-exclude-reasons}
 

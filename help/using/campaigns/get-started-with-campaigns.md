@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: campagne, hoe, begin, optimaliseer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 0%
+source-wordcount: '702'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="Campagne"
->abstract="De campagnes beginnen standaard bij handmatige activering en eindigen direct nadat het bericht eenmaal is verzonden. U hebt de flexibiliteit om een specifieke datum en tijd voor het te verzenden bericht te plaatsen. Bovendien kunt u een einddatum voor terugkerende actiecampagnes specificeren. In de triggers van Actie kunt u de verzendfrequentie van berichten ook configureren om deze aan te passen aan uw voorkeuren."
+>abstract="De campagnes beginnen standaard bij handmatige activering en eindigen direct nadat het bericht eenmaal is verzonden. U hebt de flexibiliteit om een specifieke datum en tijd voor het te verzenden bericht te plaatsen. Bovendien kunt u een einddatum voor terugkerende campagnes van de Actie specificeren. In de triggers van Actie kunt u de verzendfrequentie van berichten ook configureren om deze aan te passen aan uw voorkeuren."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
@@ -72,48 +72,75 @@ U kunt verschillende typen campagnes maken in Journey Optimizer:
 
   API getriggerde campagnes staan toe of voor marketing mededelingen om aan een publiek op het juiste ogenblik te bereiken, of voor transactie/operationele berichten aan een individu zoals een wachtwoordteruggestelde, waar de behoefte personalisatie kan impliceren door niet alleen profielattributen maar ook de contextgegevens in real time in de trekker te gebruiken die een nuttige lading van de WEERSTAPI is.
 
-<!--* **Orchestrated campaigns**
+* **Geordende campagnes**
 
-    Campaign Orchestration in Adobe Journey Optimizer powers sophisticated, brand-initiated marketing campaigns across channels, helping you drive engagement, revenue, and customer loyalty at scale.
+  Campagne Orchestration in Adobe Journey Optimizer biedt geavanceerde, merkgestarte marketingcampagnes over verschillende kanalen, waarmee u op grote schaal betrokkenheid, inkomsten en klantenloyaliteit kunt stimuleren.
 
-    While cross-channel marketing is essential, Orchestrated campaigns make it seamless. With a visual, drag-and-drop interface, you can design and automate complex marketing workflows, from segmentation to message delivery, across multiple channels. Everything happens in one intuitive environment, built for speed, control, and efficiency.-->
+  Hoewel de marketing over de kanalen essentieel is, maken de geordende campagnes het naadloos. Met een visuele, belemmering-en-dalingsinterface, kunt u complexe marketing werkschema&#39;s ontwerpen en automatiseren, van segmentatie aan berichtlevering, over veelvoudige kanalen. Alles gebeurt in één intuïtieve omgeving, gebouwd voor snelheid, controle en efficiëntie.
 
-## Voordat u begint {#campaign-prerequisites}
+## Vereisten {#prerequisites}
 
-Controleer de volgende voorwaarden voordat u begint met het maken van uw eerste campagne in [!DNL Journey Optimizer] :
+Controleer voordat u uw campagne maakt of u de voorwaarden hieronder hebt gecontroleerd.
 
-1. **u hebt juiste toestemmingen** nodig. Campagnes zijn alleen beschikbaar voor gebruikers met toegang tot een campagne-gerelateerde **[!UICONTROL Product profile]** , zoals Campagnebeheerder, Campagneontwikkelaar, Campagnebeheerder en/of Campagneviewer. Als u geen toegang hebt tot campagnes, moeten uw toestemmingen worden uitgebreid.
+### Machtigingen
 
-   +++Meer informatie over het toewijzen van een aan een campagne gerelateerde rol
+Campagnes zijn alleen beschikbaar voor gebruikers met de juiste machtigingen die hieronder worden vermeld. [ leer meer over ingebouwde rollen van Journey Optimizer ](../administration/ootb-product-profiles.md)
 
-   1. Als u een rol wilt toewijzen aan een gebruiker in het [!DNL Permissions] -product, navigeert u naar het tabblad **[!UICONTROL Roles]** en selecteert u een van de ingebouwde campagneonderdelen **[!UICONTROL Roles]** : Campagnebeheerder, campagnefiatteur, Campagnebeheerder of Campagneviewer.
+>[!BEGINTABS]
 
-   1. Klik op het tabblad **[!UICONTROL Users]** op **[!UICONTROL Add user]**.
+>[!TAB  campagnes van de Actie ]
 
-   1. Typ de naam of het e-mailadres van de gebruiker of selecteer de gebruiker in de lijst en klik op **[!UICONTROL Save]** .
+Campagnebeheerder
+Campagnefiatteur
+Campagnebeheer
+Campagneviewer
 
-      Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/users) toevoegen.
+>[!TAB  API teweeggebrachte campagnes ]
 
-   Uw gebruiker moet dan een e-mail ontvangen die aan uw instantie opnieuw richt.
+Campagnebeheerder
+Campagnefiatteur
+Campagnebeheer
+Campagneviewer
 
-   +++
+>[!TAB  Geordende campagnes ]
 
-1. **u hebt een publiek** nodig. De doelgroepen moeten beschikbaar zijn voordat ze de campagne kunnen opzetten. [ krijgt begonnen met publiek ](../audience/about-audiences.md).
+Beheerder geordende campagne
+Geordende campagnefiatteur
+Geordende campagnebeheerder
+Geordende campagneviewer
 
-1. **u hebt een kanaalconfiguratie** nodig. Als u een kanaal wilt kunnen selecteren, moet de corresponderende kanaalconfiguratie (d.w.z. vooraf ingesteld) zijn gemaakt en beschikbaar. [ leer hoe te de configuraties van het opstellingskanaal ](../configuration/channel-surfaces.md).
+>[!ENDTABS]
+
+Als u geen toegang hebt tot campagnefuncties, neemt u contact op met uw beheerder om de benodigde machtigingen aan te vragen.
+
++++Meer informatie over het toewijzen van een aan een campagne gerelateerde rol
+
+1. Als u een rol wilt toewijzen aan een gebruiker in het [!DNL Permissions] -product, navigeert u naar het tabblad **[!UICONTROL Roles]** en selecteert u een van de hierboven beschreven geïntegreerde campagnes voor **[!UICONTROL Roles]** .
+
+1. Klik op het tabblad **[!UICONTROL Users]** op **[!UICONTROL Add user]**.
+
+1. Typ de naam of het e-mailadres van de gebruiker of selecteer de gebruiker in de lijst en klik op **[!UICONTROL Save]** .
+
+   Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users) toevoegen.
+
+Uw gebruiker moet dan een e-mail ontvangen die aan uw instantie opnieuw richt.
+
++++
+
+### Doelgroep
+
+De doelgroepen moeten beschikbaar zijn voordat ze de campagne kunnen opzetten. [ krijgt begonnen met publiek ](../audience/about-audiences.md).
+
+### Kanaalconfiguratie
+
+Als u een kanaal wilt kunnen selecteren, moet de corresponderende kanaalconfiguratie (d.w.z. vooraf ingesteld) zijn gemaakt en beschikbaar. [ leer hoe te de configuraties van het opstellingskanaal ](../configuration/channel-surfaces.md).
 
 ## Laten we dieper duiken
 
 Nu u de campagnes in [!DNL Journey Optimizer] begrijpt, is het tijd om dieper in deze documentatiesecties te duiken om uw eerste campagnes te beginnen creëren.
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
-<td><a href="create-campaign.md"><img alt="actieplannen" src="assets/do-not-localize/gs-action-campaign.png" width="50%"></a><br/><a href="create-campaign.md">Actiecampagnes</a></td>
-<td><a href="api-triggered-campaigns.md"><img alt="sms" src="assets/do-not-localize/gs-api-triggered-campaign.png" width="50%"></a><br/><a href="api-triggered-campaigns.md">API-actiecampagnes</a></td>
+<td><a href="create-campaign.md"><img width="70%" alt="actieplannen" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">Actiecampagnes</a></td>
+<td><a href="api-triggered-campaigns.md"><img width="70%" alt="sms" src="assets/do-not-localize/gs-api-triggered-campaign.png"></a><br/><a href="api-triggered-campaigns.md">API-actiecampagnes</a></td>
+<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img width="70%" alt="duwen" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">Geordende campagnes</a></td>
 </tr></table>
-
-<!--
-<table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
-<td><a href="create-campaign.md"><img alt="action campaigns" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">Action campaigns</a></td>
-<td><a href="api-triggered-campaigns.md"><img alt="sms" src="assets/do-not-localize/gs-api-triggered-campaign.png"></a><br/><a href="api-triggered-campaigns.md">API triggered campaigns</a></td>
-<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img alt="push" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">Orchestrated campaigns</a></td>
-</tr></table>-->

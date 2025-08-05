@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '152'
 ht-degree: 3%
 
 ---
@@ -31,17 +31,21 @@ De campagnes van de actie (of Geplande campagnes) staan voor eenvoudige ad hoc p
 
 ➡️ [Ontdek deze functie in video](#video)
 
-## Belangrijkste stappen voor het opzetten van actiecampagnes {#steps}
+## Belangrijkste stappen voor het maken van handelscampagnes {#steps}
 
-1. [De eigenschappen van de handelingscampagne definiëren](campaign-properties.md)
+1. [De campagneeigenschappen voor Actie definiëren](campaign-properties.md)
 1. [Campagne configureren](campaign-action.md)
-1. [De inhoud van de actiecampagne bewerken](campaign-content.md)
-1. [Het doelpubliek van de actiecampagne definiëren](campaign-audience.md)
+1. [De inhoud van de handelingscampagne bewerken](campaign-content.md)
+1. [Het publiek van de campagne definiëren](campaign-audience.md)
 1. [De actiecampagne plannen](campaign-schedule.md)
-1. [De handelingscampagne bekijken en activeren](review-activate-campaign.md)
+1. [De campagne van de Actie bekijken en activeren](review-activate-campaign.md)
+
+>[!IMPORTANT]
+>
+>Alvorens uw campagne te creëren, zorg ervoor u de algemene [ campagneeerste vereisten ](../campaigns/get-started-with-campaigns.md#prerequisites) hebt herzien.
 
 ## Hoe kan ik-video&#39;s {#video}
 
-Leer hoe u een actiecampagne maakt.
+Leer hoe u een handelingencampagne maakt.
 
 >[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

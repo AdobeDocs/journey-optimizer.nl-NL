@@ -2,26 +2,26 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: De actiecampagne plannen
-description: Leer hoe u de actiecampagne kunt plannen.
+description: Leer hoe u de campagne Handelingen kunt plannen.
 feature: Campaigns
 topic: Content Management
 role: User
 level: Beginner
 mini-toc-levels: 1
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: b183eeb8-606f-444d-9302-274f159c3847
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 0%
 
 ---
 
-
 # De actiecampagne plannen {#action-campaign-schedule}
 
 Gebruik het tabblad **[!UICONTROL Schedule]** om het campagneschema te definiëren.
 
-Standaard worden actiecampagnes gestart zodra ze handmatig zijn geactiveerd en worden ze beëindigd zodra het bericht eenmaal is verzonden. Als u de campagne niet meteen na activering wilt uitvoeren, kunt u met de optie **[!UICONTROL Campaign start]** een datum en tijd opgeven waarop het bericht moet worden verzonden.
+Standaard worden actiecampagnes gestart als ze handmatig zijn geactiveerd en eindigen als het bericht eenmaal is verzonden. Als u de campagne niet meteen na activering wilt uitvoeren, kunt u met de optie **[!UICONTROL Campaign start]** een datum en tijd opgeven waarop het bericht moet worden verzonden.
 
 Met de optie **[!UICONTROL Campaign end]** kunt u opgeven wanneer een campagne moet stoppen met uitvoeren. Buiten de opgegeven datums wordt de campagne niet uitgevoerd.
 

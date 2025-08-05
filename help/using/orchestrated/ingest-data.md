@@ -3,38 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Configuratiestappen
 description: Leer hoe u gegevens van ondersteunde bronnen, zoals SFTP, cloudopslag of databases, naar Adobe Experience Platform kunt overbrengen.
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 1%
+source-wordcount: '631'
+ht-degree: 0%
 
 ---
 
+
 # Samenvattingsgegevens {#ingest-data}
-
-+++ Inhoudsopgave
-
-| Welkom bij Geordende campagnes | Start uw eerste geordende campagne | De database opvragen | Gecontroleerde campagnes |
-|---|---|---|---|
-| [ worden begonnen met Geordende campagnes ](gs-orchestrated-campaigns.md)<br/><br/> creeer en beheer relationele Schema&#39;s en Datasets </br> <ul><li>[ worden begonnen met Schema&#39;s en Datasets ](gs-schemas.md)</li><li>[ Handmatig schema ](manual-schema.md)</li><li>[ het uploadschema van het Dossier ](file-upload-schema.md)</li><li>[ Ingest gegevens ](ingest-data.md)</li></ul>[ toegang en beheer Geordende campagnes ](access-manage-orchestrated-campaigns.md)<br/><br/>[ Zeer belangrijke stappen om een Geordende campagne ](gs-campaign-creation.md) tot stand te brengen | [ creeer en programma de campagne ](create-orchestrated-campaign.md)<br/><br/>[ Orchestrate activiteiten ](orchestrate-activities.md)<br/><br/>[ Begin en controleer de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](edit-expressions.md)<br/><br/>[ opnieuw op ](retarget.md) | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ de activiteiten van het Kanaal ](activities/channels.md) - [ combineren ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) Formeel k [ - ](activities/fork.md) Verzoening [ - ](activities/reconciliation.md) sparen publiek [ - ](activities/save-audience.md) Gesplitst [ - ](activities/split.md) wacht [&#128279;](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-</br>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-De inhoud op deze pagina is niet definitief en kan worden gewijzigd.
-
->[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -58,33 +36,53 @@ De volgende bronnen worden ondersteund voor gebruik met geordende campagnes:
   <tbody>
     <tr>
       <td rowspan="3">Cloud Storage</td>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
     </tr>
       <td rowspan="4">Cloud Data Warehouses</td>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Gegevenslandingszone<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Gegevenslandingszone<a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
     </tr>
     <tr>
       <td rowspan="3">Bestandsgebaseerde uploads</td>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Lokaal bestand uploaden<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Lokaal bestand uploaden<a></td>
     </tr>
 
 </tbody>
 </table>
+
+## Richtsnoeren voor de gegevenshygiëne van relationele schema&#39;s {#cdc}
+
+Voor datasets die met **[!UICONTROL Change data capture]** worden toegelaten, worden alle gegevensveranderingen met inbegrip van schrappingen, automatisch weerspiegeld van het bronsysteem in Adobe Experience Platform.
+
+Aangezien Adobe Journey Optimizer Campaigns vereist dat alle geregistreerde datasets worden ingeschakeld met **[!UICONTROL Change data capture]** , is het de verantwoordelijkheid van de klant om verwijderingen bij de bron te beheren. Alle records die uit het bronsysteem zijn verwijderd, worden automatisch verwijderd uit de bijbehorende dataset in Adobe Experience Platform.
+
+Als u records wilt verwijderen via bestandsopname, moet het gegevensbestand van de klant de record markeren met een `D` -waarde in het `Change Request Type` -veld. Dit geeft aan dat de record in Adobe Experience Platform moet worden verwijderd, wat een weerspiegeling is van het bronsysteem.
+
+Als een klant records alleen uit Adobe Experience Platform wil verwijderen zonder dat dit van invloed is op de oorspronkelijke brongegevens, zijn de volgende opties beschikbaar:
+
+* **Volmacht of Geanimeerde Lijst voor de gegevens van de Verandering vangen Replicatie**
+
+  De klant kan een volmacht of een geanimeerde bronlijst tot stand brengen om te controleren welke verslagen in Adobe Experience Platform worden herhaald. De schrappingen kunnen dan selectief van deze intermediaire lijst worden beheerd.
+
+* **Schrapping via Gegevens Distiller**
+
+  Als vergunning gegeven, **Gegevens Distiller** kan worden gebruikt om schrappingsverrichtingen direct binnen Adobe Experience Platform, onafhankelijk van het bronsysteem te steunen.
+
+  [ Leer meer op Gegevens Distiller ](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
 
 ## Een gegevensstroom configureren
 
@@ -105,6 +103,8 @@ In dit voorbeeld wordt getoond hoe u een gegevensstroom configureert die gestruc
    ![](assets/S3_config_1.png)
 
 1. Schakel **[!UICONTROL Dataset details]** vanaf de pagina **[!UICONTROL Enable Change data capture]** in om alleen gegevenssets weer te geven die zijn toegewezen aan relationele schema&#39;s en die zowel een primaire sleutel als een versiedescriptor bevatten.
+
+[Meer informatie over richtlijnen voor de gegevenshygiëne van relationele schema&#39;s](#cdc)
 
    >[!IMPORTANT]
    >
@@ -133,4 +133,5 @@ In dit voorbeeld wordt getoond hoe u een gegevensstroom configureert die gestruc
 1. Selecteer **[!UICONTROL Connections]** in het menu **[!UICONTROL Sources]** en open het tabblad **[!UICONTROL Data Flows]** om de uitvoering van de flow bij te houden, ingesloten records te controleren en eventuele fouten op te lossen.
 
    ![](assets/S3_config_5.png)
+
 

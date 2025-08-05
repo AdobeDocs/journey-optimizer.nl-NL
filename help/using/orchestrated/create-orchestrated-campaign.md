@@ -3,38 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Geordende campagnes met Journey Optimizer maken en plannen
 description: Leer hoe u een geordende campagne kunt maken en plannen met Adobe Journey Optimizer
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
 
 
 # Een geordende campagne maken en plannen {#create-first-campaign}
-
-+++ Inhoudsopgave
-
-| Welkom bij Geordende campagnes | Start uw eerste geordende campagne | De database opvragen | Gecontroleerde campagnes |
-|---|---|---|---|
-| [ wordt begonnen met Geordende campagnes ](gs-orchestrated-campaigns.md)<br/><br/> creeer en beheer relationele Schema&#39;s en Datasets:</br> <ul><li>[ worden begonnen met Schema&#39;s en Datasets ](gs-schemas.md)</li><li>[ Handmatig schema ](manual-schema.md)</li><li>[ het uploadschema van het Dossier ](file-upload-schema.md)</li><li>[ Ingest gegevens ](ingest-data.md)</li></ul>[ toegang en beheer Geordende campagnes ](access-manage-orchestrated-campaigns.md)<br/><br/>[ Zeer belangrijke stappen om een Geordende campagne ](gs-campaign-creation.md) tot stand te brengen | <b>[ creeer en programma de campagne ](create-orchestrated-campaign.md)</b><br/><br/>[ Orchestrate activiteiten ](orchestrate-activities.md)<br/><br/>[ Begin en controleer de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](edit-expressions.md)<br/><br/>[ opnieuw op ](retarget.md) | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ de activiteiten van het Kanaal ](activities/channels.md) - [ combineren ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) Formeel k [ - ](activities/fork.md) Verzoening [ - ](activities/reconciliation.md) sparen publiek [ - ](activities/save-audience.md) Gesplitst [ - ](activities/split.md) wacht [&#128279;](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-De inhoud op deze pagina is niet definitief en kan worden gewijzigd.
-
->[!ENDSHADEBOX]
 
 Maak een geordende campagne in [!DNL Adobe Journey Optimizer] en configureer het uitvoeringsschema om te bepalen wanneer de campagne start en hoe vaak deze wordt uitgevoerd. Kies ervoor de campagne onmiddellijk te starten, op een specifieke datum en tijd, of op terugkerende basis met flexibele planningsopties zoals dagelijkse, wekelijkse of maandelijkse frequenties.
 
@@ -61,7 +39,7 @@ Voer de volgende stappen uit om een geordende campagne te maken:
 
    1. Selecteer een **[!UICONTROL Merge policy]** voor uw campagne.
 
-      In [!DNL Adobe Experience Platform] is elk publiek gebonden aan een specifiek samenvoegbeleid, dat bepaalt hoe de profielinformatie wordt gecombineerd om een samengevoegd profiel te vormen. Wanneer u een samenvoegbeleid selecteert in de publieksactiviteit Lezen, zijn alleen publiek beschikbaar dat is gebaseerd op hetzelfde samenvoegbeleid. Standaard gebruikt het systeem het standaardsamenvoegbeleid, maar u kunt dit desgewenst wijzigen. Voor meer informatie over fusiebeleid, verwijs naar de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+      In [!DNL Adobe Experience Platform] is elk publiek gebonden aan een specifiek samenvoegbeleid, dat bepaalt hoe de profielinformatie wordt gecombineerd om een samengevoegd profiel te vormen. Wanneer u een samenvoegbeleid selecteert in de publieksactiviteit Lezen, zijn alleen publiek beschikbaar dat is gebaseerd op hetzelfde samenvoegbeleid. Standaard gebruikt het systeem het standaardsamenvoegbeleid, maar u kunt dit desgewenst wijzigen. Voor meer informatie over fusiebeleid, verwijs naar de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
    1. Gebruik het veld **[!UICONTROL Tags]** om Adobe Experience Platform Unified Tags toe te wijzen aan uw campagne. Op deze manier kunt u ze gemakkelijk classificeren en zoeken verbeteren vanuit de lijst Geordende campagnes. [ Leer hoe te met markeringen ](../start/search-filter-categorize.md#tags) te werken.
 
@@ -107,7 +85,7 @@ Voer de volgende stappen uit om het campagnereschema te configureren:
    * **[!UICONTROL Date]**: selecteer de datum waarop de campagne moet worden uitgevoerd.
    * **[!UICONTROL Time]**: selecteer het specifieke tijdstip waarop de campagne moet worden uitgevoerd.
 
-   +++
++++
 
    +++Dagelijks
 
@@ -121,7 +99,7 @@ Voer de volgende stappen uit om het campagnereschema te configureren:
 
    * **[!UICONTROL Start time]**: bepaal de tijd de campagne elke dag zou moeten uitvoeren.
 
-   +++
++++
 
    +++meerdere keren per dag
 
@@ -130,7 +108,7 @@ Voer de volgende stappen uit om het campagnereschema te configureren:
    * **[!UICONTROL Selected hours]**: Selecteer de specifieke tijden de campagne zou moeten lopen en zijn dagelijkse herhaling (voer elke dag van de week of op bepaalde dagen uit) vormen.
    * **[!UICONTROL Periodic]**: kies om de campagne elke n minuten of uren uit te voeren. U kunt ook het tijdbereik definiëren binnen de dag waarop uitvoeringen zijn toegestaan.
 
-   +++
++++
 
    +++wekelijks
 
@@ -141,7 +119,7 @@ Voer de volgende stappen uit om het campagnereschema te configureren:
    * **[!UICONTROL Daily recurrence]**: kies specifieke dagen van de week voor uitvoering (bijvoorbeeld elke maandag en donderdag).
    * **[!UICONTROL Start time]**: stel de tijd in waarop de campagne op de geselecteerde dagen moet worden uitgevoerd.
 
-   +++
++++
 
    +++Maandelijks
 
@@ -157,7 +135,7 @@ Voer de volgende stappen uit om het campagnereschema te configureren:
 
    * **[!UICONTROL Start time]**: stel de tijd in waarop de campagne moet worden uitgevoerd.
 
-   +++
++++
 
 1. Gebruik de instelling **[!UICONTROL Validity period]** om een specifieke begin- en einddatum te definiëren, waarbij de uitvoering van de campagne wordt beperkt tot een beperkt tijdvenster.
 

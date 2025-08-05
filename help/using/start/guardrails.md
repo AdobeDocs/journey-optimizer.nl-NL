@@ -7,10 +7,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: bb3b07dc5dbb5ef50470caf52da2e10fcaf21a5e
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '2610'
+source-wordcount: '2634'
 ht-degree: 0%
 
 ---
@@ -19,14 +20,14 @@ ht-degree: 0%
 
 Hieronder vindt u aanvullende instructies en beperkingen wanneer u [!DNL Adobe Journey Optimizer] gebruikt.
 
-De rechten, de productbeperkingen en de prestatiesbegeleiding worden vermeld in [ Adobe Journey Optimizer pagina van de productbeschrijving ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+De rechten, de productbeperkingen en de prestatiesbegeleiding worden vermeld in [ Adobe Journey Optimizer pagina van de productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 
 >[!CAUTION]
 >
->* [ Grafieken voor gegevens en segmentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/guardrails){target="_blank"} zijn ook op Adobe Journey Optimizer van toepassing.
+>* [ Grafieken voor gegevens en segmentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} zijn ook op Adobe Journey Optimizer van toepassing.
 >
->* Zie ook [ Grafieken voor de Ingestie van Gegevens in het Profiel van de Klant in real time ](https://experienceleague.adobe.com/nl/docs/experience-platform/ingestion/guardrails){target="_blank"}
+>* Zie ook [ Grafieken voor de Ingestie van Gegevens in het Profiel van de Klant in real time ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
 
 ## Ondersteunde browsers {#browsers}
@@ -68,7 +69,7 @@ De volgende guardrails zijn op het [ kanaal van SMS ](../sms/get-started-sms.md)
 
 [!DNL Journey Optimizer] [ Webcampagnes ](../web/get-started-web.md) richten nieuwe profielen die niet eerder op andere kanalen zijn betrokken. Hierdoor wordt het totale aantal aanspreekbare profielen verhoogd. Dit kan kosten met zich meebrengen als het contractuele aantal aanschafbare profielen dat u hebt aangeschaft, wordt overschreden.
 
-De metriek van de vergunning voor elk pakket is vermeld op de [ pagina van de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+De metriek van de vergunning voor elk pakket is vermeld op de [ pagina van de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 ### Kanaalhulplijnen op basis van code {#code-based-guardrails}
 
@@ -112,7 +113,6 @@ In de afdelingen Beslissingen en Beslissingsbeheer worden de volgende informatie
 
 * [Afbakening en beperkingen](../experience-decisioning/decisioning-guardrails.md)
 * [Beheersbeheerinstructies en beperkingen](../offers/decision-management-guardrails.md)
-
 
 ## Reisgeleiders {#journeys-guardrails}
 
@@ -217,7 +217,7 @@ Zie ook [ deze pagina ](../building-journeys/read-audience.md#must-read).
 
 ### Poortkwalificatie {#audience-qualif-g}
 
-De volgende richtlijn is op de [ de reisactiviteit van de Kwalificatie van het publiek 0&rbrace; van toepassing:](../building-journeys/audience-qualification-events.md)
+De volgende richtlijn is op de [ de reisactiviteit van de Kwalificatie van het publiek 0} van toepassing:](../building-journeys/audience-qualification-events.md)
 
 * De kwalificatie-activiteit Publiek kan niet worden gebruikt met Adobe Campaign-activiteiten.
 
@@ -259,3 +259,7 @@ De volgende instructies zijn van toepassing op de activiteiten **[!UICONTROL Cam
 
 * Adobe Campaign-activiteiten kunnen niet worden gebruikt met een Read-publiek of met een Audience-kwalificatieactiviteit.
 * Campagne-activiteiten kunnen niet worden gebruikt met andere kanaalactiviteiten: kaart, ervaring op basis van code, e-mail, push, SMS, In-app berichten, Web.
+
+## Garanties voor campagneorganisatie {#orchestration-guardrails}
+
+De gidsen en de beperkingen om in mening te houden wanneer het werken met het Orchestratie van de Campagne zijn gedetailleerd in deze sectie: [ de beheerslandingen en beperkingen van het Besluit ](../orchestrated/guardrails.md).

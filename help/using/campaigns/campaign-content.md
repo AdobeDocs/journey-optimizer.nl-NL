@@ -1,23 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: De inhoud van de actiecampagne bewerken
-description: Leer hoe u de inhoud van de actiecampagne kunt bewerken.
+title: De inhoud van de handelingscampagne bewerken
+description: Leer hoe u de inhoud van de campagne ActionScript kunt bewerken.
 feature: Campaigns
 topic: Content Management
 role: User
 level: Beginner
 mini-toc-levels: 1
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: bcb7a5e4-440d-4548-b305-c320bafe6ee7
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 2%
 
 ---
 
-
-# De inhoud van de actiecampagne bewerken {#action-campaign-content}
+# De inhoud van de handelingscampagne bewerken {#action-campaign-content}
 
 Als u de inhoud van het bericht wilt configureren, navigeert u naar de tab **[!UICONTROL Content]** of klikt u op de knop **[!UICONTROL Edit content]** .
 
@@ -59,4 +59,4 @@ Klik op de linkerpijl om terug te bladeren naar het scherm Campagne maken.
 
 ## Volgende stappen {#next}
 
-Zodra de inhoud van uw actiecampagne klaar is, kunt u het campagnepubliek bepalen. [Meer informatie](campaign-audience.md)
+Zodra de inhoud van uw campagne klaar is, kunt u het campagnepubliek bepalen. [Meer informatie](campaign-audience.md)

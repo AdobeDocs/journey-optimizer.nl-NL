@@ -3,38 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Geordende campagnes maken met Adobe Journey Optimizer
 description: Leer hoe u met Adobe Journey Optimizer geordende campagnes kunt maken
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
 
+
 # Campagne organiseren {#orchestrate}
-
-+++ Inhoudsopgave
-
-| Welkom bij Geordende campagnes | Start uw eerste geordende campagne | De database opvragen | Gecontroleerde campagnes |
-|---|---|---|---|
-| [ wordt begonnen met Geordende campagnes ](gs-orchestrated-campaigns.md)<br/><br/> creeer en beheer relationele Schema&#39;s en Datasets:</br> <ul><li>[ worden begonnen met Schema&#39;s en Datasets ](gs-schemas.md)</li><li>[ Handmatig schema ](manual-schema.md)</li><li>[ het uploadschema van het Dossier ](file-upload-schema.md)</li><li>[ Ingest gegevens ](ingest-data.md)</li></ul>[ toegang en beheer Geordende campagnes ](access-manage-orchestrated-campaigns.md)<br/><br/>[ Zeer belangrijke stappen om een Geordende campagne ](gs-campaign-creation.md) tot stand te brengen | [ creeer en programma de campagne ](create-orchestrated-campaign.md)<br/><br/><b>[ Orchestrate activiteiten ](orchestrate-activities.md)</b><br/><br/>[ Begin en controleer de campagne ](start-monitor-campaigns.md)<br/><br/>[ Meldend ](reporting-campaigns.md) | [ Werk met de regelbouwer ](orchestrated-rule-builder.md)<br/><br/>[ bouwt uw eerste vraag ](build-query.md)<br/><br/>[ uit geeft uitdrukkingen ](edit-expressions.md)<br/><br/>[ opnieuw op ](retarget.md) | [ wordt begonnen met activiteiten ](activities/about-activities.md)<br/><br/> Activiteiten:<br/>[ en-sluit zich aan ](activities/and-join.md) - [ bouwt publiek ](activities/build-audience.md) - [ dimensie van de Verandering ](activities/change-dimension.md) - [ de activiteiten van het Kanaal ](activities/channels.md) - [ combineren ](activities/combine.md) - [ Deduplicatie ](activities/deduplication.md) - [ Verrijking ](activities/enrichment.md) Formeel k [ - ](activities/fork.md) Verzoening [ - ](activities/reconciliation.md) sparen publiek [ - ](activities/save-audience.md) Gesplitst [ - ](activities/split.md) wacht [&#128279;](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-De inhoud op deze pagina is niet definitief en kan worden gewijzigd.
-
->[!ENDSHADEBOX]
 
 Zodra u [ een Geordende campagne ](gs-campaign-creation.md) hebt gecreeerd, kunt u beginnen de verschillende taken te ordenen het zal uitvoeren. Hiervoor wordt een visueel canvas verschaft, zodat u een geordend campagnediagram kunt maken. Binnen dit diagram, kunt u diverse activiteiten toevoegen en hen in een opeenvolgende orde verbinden.
 
@@ -82,9 +60,9 @@ Wanneer u activiteiten toevoegt, zijn er actieknoppen beschikbaar in het deelven
 
 ![ onbruikbaar maken pictogram ](assets/do-not-localize/activity-disable.svg) ![ laat pictogram ](assets/do-not-localize/activity-enable.svg) onbruikbaar maken/laat de activiteit toe. Wanneer de geordende campagne wordt uitgevoerd, worden activiteiten met een handicap en de volgende activiteiten op hetzelfde pad niet uitgevoerd en wordt de geordende campagne gestopt.
 
-&lbrace;het pictogram van de Pauze ![ ](assets/do-not-localize/activity-pause.svg) hervatten pictogram ![ Pauze/hervat de activiteit. ](assets/do-not-localize/activity-resume.svg) Wanneer de Geordende campagne wordt uitgevoerd, pauzeert het bij de gepauzeerde activiteit. De bijbehorende taak en alle taken die deze in hetzelfde pad volgen, worden niet uitgevoerd.
+{het pictogram van de Pauze ![ ](assets/do-not-localize/activity-pause.svg) hervatten pictogram ![ Pauze/hervat de activiteit. ](assets/do-not-localize/activity-resume.svg) Wanneer de Geordende campagne wordt uitgevoerd, pauzeert het bij de gepauzeerde activiteit. De bijbehorende taak en alle taken die deze in hetzelfde pad volgen, worden niet uitgevoerd.
 
-U kunt elke activiteit op het canvas gebruiken als onderbrekingspunt om de uitvoering van de campagne te pauzeren. Dit betekent dat de campagne alleen wordt uitgevoerd totdat deze activiteit plaatsvindt en dat de uitvoering vervolgens wordt gepauzeerd. Terwijl het pauzeren van de uitvoering, houdt de segmenteringsmotor tijdelijke gegevens beschikbaar voor u aan voorproef. U kunt de binnenkomende overgang net voor de gepauzeerde activiteit selecteren om de getransplanteerde gegevens te bekijken. Leer meer op deze sectie: [ Visuele stroom controle ](../orchestrated/start-monitor-campaigns.md#flow).
+U kunt elke activiteit op het canvas gebruiken als onderbrekingspunt om de uitvoering van de campagne te pauzeren. Dit betekent dat de campagne alleen wordt uitgevoerd totdat deze activiteit plaatsvindt en dat de uitvoering vervolgens wordt gepauzeerd. Terwijl het pauzeren van de uitvoering, houdt de segmenteringsmotor tijdelijke gegevens beschikbaar voor u aan voorproef. U kunt de binnenkomende overgang net voor de gepauzeerde activiteit selecteren om de getransplanteerde gegevens te bekijken. Leer meer op deze sectie: [ Visuele stroom controle ](../orchestrated/start-monitor-campaigns.md#flow)
 
 ![ het pictogram van het Exemplaar ](assets/do-not-localize/activity-copy.svg) Kopieer de activiteit. [ Leer hoe te om activiteiten kopiëren-te kleven ](#copy)
 

@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '2594'
+source-wordcount: '2591'
 ht-degree: 19%
 
 ---
@@ -202,14 +202,14 @@ ht-degree: 19%
       + [De uitvoering van de campagne activeren](using/campaigns/trigger-campaigns.md)
    + Geordende campagnes {#orchestrated-campaigns}
       + [Aan de slag met geordende campagnes](using/orchestrated/gs-orchestrated-campaigns.md)
-      + Relationele schema&#39;s en gegevens beheren {#schemas-datasets}
-         + [Begin met schema&#39;s en datasets](using/orchestrated/gs-schemas.md)
-         + [Handmatig schema](using/orchestrated/manual-schema.md)
-         + [Schema voor uploaden bestand](using/orchestrated/file-upload-schema.md)
-         + [Samenvattingsgegevens](using/orchestrated/ingest-data.md)
-      + [Geordende campagnes openen en beheren](using/orchestrated/access-manage-orchestrated-campaigns.md)
-      + [Een doeldimensie maken](using/orchestrated/target-dimension.md)
       + [Afvoerkanalen en beperkingen](using/orchestrated/guardrails.md)
+      + Gegevensconfiguratie {#configuration}
+         + Relationele schema&#39;s en gegevens beheren {#schemas-datasets}
+            + [Begin met schema&#39;s en datasets](using/orchestrated/gs-schemas.md)
+            + [Handmatig schema](using/orchestrated/manual-schema.md)
+            + [Schema voor uploaden bestand](using/orchestrated/file-upload-schema.md)
+            + [Samenvattingsgegevens](using/orchestrated/ingest-data.md)
+         + [Een doeldimensie maken](using/orchestrated/target-dimension.md)
       + Start uw eerste geordende campagne{#launch}
          + [Belangrijke stappen om een geordende campagne te maken](using/orchestrated/gs-campaign-creation.md)
          + [De campagne maken en plannen](using/orchestrated/create-orchestrated-campaign.md)
@@ -382,7 +382,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
 + Inhoudsbeheer {#content-management}
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [ voeg verpersoonlijking ](using/personalization/personalization-build-expressions.md) toe
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
       + [Adobe Experience Platform-gegevens gebruiken voor personalisatie (Beta)](using/personalization/aep-data-perso.md)
@@ -749,7 +749,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}

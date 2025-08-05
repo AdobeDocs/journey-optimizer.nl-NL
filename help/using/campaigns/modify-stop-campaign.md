@@ -6,12 +6,13 @@ description: Leer hoe u uw campagnes in Journey Optimizer kunt openen en beheren
 feature: Campaigns
 topic: Content Management
 role: User
+mini-toc-levels: 1
 level: Beginner
 keywords: campagnes, status, planning, toegang, optimaliseren beheren
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
@@ -24,6 +25,16 @@ ht-degree: 0%
 >id="ajo_campaigns_view"
 >title="Lijst- en kalenderweergaven van campagnes"
 >abstract="Naast de lijst met campagnes biedt [!DNL Journey Optimizer] een kalenderweergave van uw campagnes en een duidelijke visuele weergave van hun programma&#39;s. Met deze knoppen kunt u op elk gewenst moment schakelen tussen de lijst- en de kalenderweergave."
+
+>[!CONTEXTUALHELP]
+>id="ajo_targeting_workflow_list"
+>title="Geordende inventarisatie van campagnes"
+>abstract="In dit scherm, kunt u tot de volledige lijst van Geordende campagnes toegang hebben, hun huidige status, laatste/volgende uitvoeringsdata controleren, en een nieuwe Geordende campagne creëren."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_campaign_action"
+>title="Actie"
+>abstract="In deze secties worden alle acties weergegeven die in de geordende campagne worden gebruikt."
 
 Campagnes zijn toegankelijk via het menu **[!UICONTROL Campaigns]** .
 
@@ -45,9 +56,85 @@ Standaard worden in de lijst alle campagnes met de statussen **[!UICONTROL Draft
 
 ![](assets/api-triggered-list.png)
 
+>[!TAB  Geordende campagnes ]
+
+Selecteer het tabblad **[!UICONTROL Orchestration]** voor toegang tot de lijst met geordende campagnes.
+
+![ beeld dat de Geordende campagneinventaris ](assets/inventory.png){zoomable="yes"}{zoomable="yes"} toont
+
+Elk Geordende campagne in de lijst toont informatie zoals de huidige [ status van de campagne ](#status), het bijbehorende kanaal en de markeringen, of de laatste tijd het werd gewijzigd. U kunt de getoonde kolommen aanpassen door ![ te klikken vormt lay-outknoop ](assets/do-not-localize/inventory-configure-layout.svg).
+
 >[!ENDTABS]
 
-U kunt de lijst ook filteren op basis van het type en het kanaal van de campagne of de tags die aan de campagnes zijn toegewezen tijdens het maken van de campagnes.
+Bovendien zijn er een zoekbalk en filters beschikbaar waarmee u gemakkelijk in de lijst kunt zoeken. U kunt bijvoorbeeld campagnes filteren om alleen de campagnes weer te geven die aan een bepaald kanaal of een bepaalde tag zijn gekoppeld, of de campagnes die tijdens een bepaald datumbereik zijn gemaakt.
+
+Het ![ beeld dat de Meer knoop van acties ](assets/do-not-localize/rule-builder-icon-more.svg) in de campagneinventaris toont staat u toe om diverse hieronder gedetailleerde verrichtingen uit te voeren.
+
+![ beeld dat de campagneinventaris ](assets/inventory-actions.png) toont
+
+* **[!UICONTROL View all time report]** / **[!UICONTROL View last 24 hours report]** - Gebruik rapporten om de impact en prestaties van uw campagnes te meten en te visualiseren.
+* **[!UICONTROL Edit tags]** - Bewerk de tags die aan de campagne zijn gekoppeld.
+* **[!UICONTROL Duplicate]** - Soms moet u een campagne dupliceren, bijvoorbeeld om een geordende campagne uit te voeren die is gestopt.
+* **[!UICONTROL Delete]** - Verwijder de campagne. Deze handeling is alleen beschikbaar voor **[!UICONTROL Draft]** -campagnes.
+* **[!UICONTROL Archive]** - Archiveer de campagne. Alle gearchiveerde campagnes worden verwijderd als de planning 30 dagen na de laatste gewijzigde datum doorloopt. Deze actie is beschikbaar voor alle campagnes behalve **[!UICONTROL Draft]** campagnes.
+
+Voor actie- en API-campagnes zijn de volgende aanvullende acties beschikbaar:
+
+* **[!UICONTROL Add to package]** - Voeg de campagne toe aan een pakket om deze naar een andere sandbox te exporteren. [ de voorwerpen van de Uitvoer aan een andere zandbak ](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL Open draft version]** - Als een nieuwe versie van de campagne is gemaakt en nog niet is geactiveerd, kunt u de conceptversie van de campagne openen met deze actie.
+
+## Statistieken en waarschuwingen voor campagnes {#statuses}
+
+Campagnes kunnen meerdere statussen hebben:
+
+>[!BEGINTABS]
+
+>[!TAB  campagnes van de Actie ]
+
+* **[!UICONTROL Draft]**: De campagne wordt bewerkt en is niet geactiveerd.
+* **[!UICONTROL Scheduled]**: De campagne is geconfigureerd om te worden geactiveerd op een specifieke startdatum.
+* **[!UICONTROL Live]**: De campagne is geactiveerd.
+* **[!UICONTROL In review]**: De campagne is ter goedkeuring voorgelegd om te worden gepubliceerd. [ leer hoe te met goedkeuringen ](../test-approve/gs-approval.md) werken
+* **[!UICONTROL Stopped]**: de campagne is handmatig gestopt. U kunt het niet meer activeren of opnieuw gebruiken. [ Leer hoe te om een campagne ](modify-stop-campaign.md#stop) tegen te houden
+* **[!UICONTROL Completed]**: de campagne is voltooid. Deze status wordt automatisch toegewezen 3 dagen nadat een campagne is geactiveerd, of op de einddatum van de campagne als de campagne een terugkerende uitvoering heeft.
+* **[!UICONTROL Failed]**: De uitvoering van de campagne is mislukt. Controleer de logboeken om de kwestie te identificeren.
+* **[!UICONTROL Archived]**: De campagne is gearchiveerd. [ Leer hoe te om campagnes te archiveren ](modify-stop-campaign.md#archive)
+
+>[!NOTE]
+>
+>Het pictogram &#39;Conceptversie openen&#39; naast de status **[!UICONTROL Live]** of **[!UICONTROL Scheduled]** geeft aan dat er een nieuwe versie van een actie of een API-activering is gemaakt en nog niet is geactiveerd.
+
+>[!TAB  API teweeggebrachte campagnes ]
+
+* **[!UICONTROL Draft]**: De campagne wordt bewerkt en is niet geactiveerd.
+* **[!UICONTROL Scheduled]**: De campagne is geconfigureerd om te worden geactiveerd op een specifieke startdatum.
+* **[!UICONTROL Live]**: De campagne is geactiveerd.
+* **[!UICONTROL In review]**: De campagne is ter goedkeuring voorgelegd om te worden gepubliceerd. [ leer hoe te met goedkeuringen ](../test-approve/gs-approval.md) werken
+* **[!UICONTROL Stopped]**: de campagne is handmatig gestopt. U kunt het niet meer activeren of opnieuw gebruiken. [ Leer hoe te om een campagne ](modify-stop-campaign.md#stop) tegen te houden
+* **[!UICONTROL Completed]**: de campagne is voltooid. Deze status wordt automatisch toegewezen 3 dagen nadat een campagne is geactiveerd, of op de einddatum van de campagne als de campagne een terugkerende uitvoering heeft.
+* **[!UICONTROL Failed]**: De uitvoering van de campagne is mislukt. Controleer de logboeken om de kwestie te identificeren.
+* **[!UICONTROL Archived]**: De campagne is gearchiveerd. [ Leer hoe te om campagnes te archiveren ](modify-stop-campaign.md#archive)
+
+>[!NOTE]
+>
+>Het pictogram &#39;Conceptversie openen&#39; naast de status **[!UICONTROL Live]** of **[!UICONTROL Scheduled]** geeft aan dat er een nieuwe versie van een actie of een API-activering is gemaakt en nog niet is geactiveerd.
+
+>[!TAB  Geordende campagnes ]
+
+* **[!UICONTROL Draft]**: De geordende campagne is gemaakt. Het is nog niet gepubliceerd.
+* **[!UICONTROL Publishing]**: De geordende campagne wordt gepubliceerd.
+* **[!UICONTROL Live]**: De geordende campagne is gepubliceerd en wordt uitgevoerd.
+* **[!UICONTROL Scheduled]**: De uitvoering van de geordende campagne is gepland.
+* **[!UICONTROL Completed]**: De uitvoering van de geordende campagne is voltooid. De voltooide status wordt automatisch toegewezen tot 3 dagen nadat een campagne berichten die zonder fout verzenden heeft voltooid.
+* **[!UICONTROL Closed]**: Deze status wordt weergegeven wanneer een terugkerende campagne is gesloten. De campagne gaat door tot alle activiteiten zijn voltooid, maar er kunnen geen profielen meer worden opgenomen in de campagne.
+* **[!UICONTROL Archived]**: De geordende campagne is gearchiveerd. Alle gearchiveerde campagnes worden verwijderd als de planning 30 dagen na de laatste gewijzigde datum wordt gewijzigd. U kunt een gearchiveerde campagne zo nodig dupliceren om eraan te kunnen blijven werken.
+* **[!UICONTROL Stopped]**: De uitvoering van de geordende campagne is gestopt. Als u de campagne opnieuw wilt starten, moet u deze dupliceren.
+
+>[!ENDTABS]
+
+Als er een fout optreedt in een van uw campagnes, verschijnt er een waarschuwingspictogram naast de status van de campagne. Klik erop om informatie over de waarschuwing weer te geven. Deze waarschuwingen kunnen zich in verschillende situaties voordoen, bijvoorbeeld wanneer het campagnebericht niet is gepubliceerd of wanneer de gekozen configuratie onjuist is.
+
+![](assets/campaign-alerts.png)
 
 ## Campagne-kalender {#calendar}
 
@@ -55,7 +142,7 @@ Naast de lijst met campagnes biedt [!DNL Journey Optimizer] een kalenderweergave
 
 >[!AVAILABILITY]
 >
->De kalenderweergave is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Om toegang te verzoeken, gebruik [ deze vorm ](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
+>De kalenderweergave is momenteel alleen beschikbaar voor actiecampagnes en door API&#39;s getriggerde campagnes voor een set organisaties (beperkte beschikbaarheid). Om toegang te verzoeken, gebruik [ deze vorm ](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
 >
 >Deze functie is actief ontwikkeld. We verwelkomen uw invoer en verzoeken met de knop **[!UICONTROL Beta Feedback]** in het bovenste menu.
 
@@ -77,34 +164,13 @@ Als u details voor een specifieke campagne wilt weergeven, selecteert u deze in 
 
 ![ campagnemijst met de informatieruit geopend ](assets/campaign-rail.png)
 
-## Statistieken en waarschuwingen voor campagnes {#statuses}
-
-Campagnes kunnen meerdere statussen hebben:
-
-* **[!UICONTROL Draft]**: De campagne wordt bewerkt en is niet geactiveerd.
-* **[!UICONTROL Scheduled]**: De campagne is geconfigureerd om te worden geactiveerd op een specifieke startdatum.
-* **[!UICONTROL Live]**: De campagne is geactiveerd.
-* **[!UICONTROL In review]**: De campagne is ter goedkeuring voorgelegd om te worden gepubliceerd. [ leer hoe te met goedkeuringen ](../test-approve/gs-approval.md) werken
-* **[!UICONTROL Stopped]**: de campagne is handmatig gestopt. U kunt het niet meer activeren of opnieuw gebruiken. [ Leer hoe te om een campagne ](modify-stop-campaign.md#stop) tegen te houden
-* **[!UICONTROL Completed]**: de campagne is voltooid. Deze status wordt automatisch toegewezen 3 dagen nadat een campagne is geactiveerd, of op de einddatum van de campagne als de campagne een terugkerende uitvoering heeft.
-* **[!UICONTROL Failed]**: De uitvoering van de campagne is mislukt. Controleer de logboeken om de kwestie te identificeren.
-* **[!UICONTROL Archived]**: De campagne is gearchiveerd. [ Leer hoe te om campagnes te archiveren ](modify-stop-campaign.md#archive)
-
->[!NOTE]
->
->Het pictogram &#39;Conceptversie openen&#39; naast de status **[!UICONTROL Live]** of **[!UICONTROL Scheduled]** geeft aan dat een nieuwe versie van de campagne is gemaakt en nog niet is geactiveerd. [Meer informatie](modify-stop-campaign.md#modify).
-
-Als er een fout optreedt in een van uw campagnes, verschijnt er een waarschuwingspictogram naast de status van de campagne. Klik erop om informatie over de waarschuwing weer te geven. Deze waarschuwingen kunnen zich in verschillende situaties voordoen, bijvoorbeeld wanneer het campagnebericht niet is gepubliceerd of wanneer de gekozen configuratie onjuist is.
-
-![](assets/campaign-alerts.png)
-
 ## Herhaalde handelingscampagnes wijzigen en stoppen {#modify}
 
 ### Een handelingscampagne wijzigen
 
-Ga als volgt te werk om een terugkerende actiecampagne te wijzigen en een nieuwe versie te maken:
+Voer de volgende stappen uit om een nieuwe versie van een terugkerende campagne te wijzigen en te maken:
 
-1. Open de actiecampagne en klik op de knop **[!UICONTROL Modify campaign]** .
+1. Open de campagne en klik op de knop **[!UICONTROL Modify campaign]** .
 
 1. Er wordt een nieuwe versie van de campagne gemaakt. U kunt de live versie controleren door op **[!UICONTROL Open live version]** te klikken.
 
@@ -129,12 +195,6 @@ Als u een terugkerende campagne wilt stoppen, opent u deze en klikt u op de knop
 >[!IMPORTANT]
 >
 >Als een campagne wordt gestopt, wordt het verzenden niet gestopt, maar wordt een geplande verzending gestopt of de volgende keren als het verzenden al bezig is.
-
-## Een campagne dupliceren {#duplicate}
-
-U kunt een campagne dupliceren om een nieuwe te maken. U doet dit door de campagne te openen en vervolgens op **[!UICONTROL Duplicate]** te klikken.
-
-![](assets/create-campaign-duplicate.png)
 
 ## Een campagne archiveren {#archive}
 
