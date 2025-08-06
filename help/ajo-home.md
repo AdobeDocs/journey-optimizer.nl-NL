@@ -5,10 +5,10 @@ description: Leer hoe je Adobe Journey Optimizer gebruikt.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 78742ecf7253cdf750e48505e964d1d2504ef874
+source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 12%
+source-wordcount: '394'
+ht-degree: 11%
 
 ---
 
@@ -22,15 +22,15 @@ Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en
 
 >[!TAB  juli &quot;25 versie ]
 
-Release juni is nu live! Controleer de opmerkingen bij de release om nieuwe mogelijkheden, wijzigingen en verbeteringen te ontdekken.
+Release juli is nu live! Controleer de opmerkingen bij de release om nieuwe mogelijkheden, wijzigingen en verbeteringen te ontdekken.
 
 [![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB  Conflict &amp; prioritering ]
+>[!TAB  Campagne Orchestration ]
 
-Journey Optimizer biedt nu verschillende tools voor conflictbeheer en prioritering. Deze hulpmiddelen zijn beschikbaar voor uw campagnes en de Kwalificatie van het Publiek, Lees publiek, en unitaire reizen.
+Journey Optimizer omvat nu **Organiseren van de Campagne**, een nieuw vermogen doelgericht-gebouwd voor merk-in werking gestelde, partijcampagnes. Deze release introduceert een campagneorchestration canvas en verbeterde gegevensmodellering, die samenwerken om marketers gepersonaliseerde cross-channel campagnes te laten plannen, richten en leveren.
 
-[![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/gs-conflict-prioritization.md)
+[![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
 
 >[!TAB  Adobe Express ]
 
@@ -43,7 +43,7 @@ Dankzij de Adobe Express-integratie in Adobe Journey Optimizer hebt u eenvoudig 
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/nl/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
 >[!TAB  het fragment van de Inhoud van AEM ]
 
@@ -121,11 +121,11 @@ Door Adobe Experience Manager as a Cloud Service te integreren met Adobe Journey
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong> Adobe Journey Optimizer </strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=nl-NL" target="_blank"> Leerprogramma's </a> - <a href="https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank"> Beschrijving van het Product </a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank"> Overzicht van de Veiligheid (PDF) </a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank"> APIs verwijzing </a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL" target="_blank"> het Woordenboek van het Schema van Journey Optimizer </a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html" target="_blank"> Leerprogramma's </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank"> Beschrijving van het Product </a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank"> Overzicht van de Veiligheid (PDF) </a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank"> APIs verwijzing </a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank"> het Woordenboek van het Schema van Journey Optimizer </a>
 
 </td>
 <td><strong> Adobe Experience Platform </strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=nl-NL" target="_blank"> Documentatie </a> - <a href="https://www.adobe.com/nl/experience-platform/documentation-and-developer-resources.html" target="_blank"> middelen van Ontwikkelaars </a>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html" target="_blank"> Documentatie </a> - <a href="https://www.adobe.com/nl/experience-platform/documentation-and-developer-resources.html" target="_blank"> middelen van Ontwikkelaars </a>
 </td>
 </tr></table>
 
