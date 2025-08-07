@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
+source-git-commit: 03699215020770d0636c77e9d197990ab5da0975
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 1%
@@ -53,7 +53,7 @@ Blader hieronder naar de tabbladen om te leren hoe u een WhatsApp-bericht kunt t
 
 >[!BEGINTABS]
 
->[!TAB voeg een bericht WhatsApp aan een Reis  toe]
+>[!TAB  voeg een bericht WhatsApp aan een Reis ] toe
 
 1. Open uw reis dan belemmering en laat vallen a **WhatsApp activiteit** van de **sectie van Acties** van het palet.
 
@@ -195,6 +195,6 @@ In de onderstaande video ziet u hoe u een multi-step WhatsApp-reis maakt met Ado
 
 +++ Zie video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470288/?learn=on&captions=dut")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++

@@ -5,9 +5,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: 0a3e8a0eba6eaac125f508b8b81e2fab992eb978
+source-git-commit: 03699215020770d0636c77e9d197990ab5da0975
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '287'
 ht-degree: 2%
 
 ---
@@ -69,3 +69,13 @@ Zodra [ uw merk opstelling en gepubliceerd ](brands.md) is, bepaal uw merk groep
 1. Bewerk de inhoud op basis van de aanbevelingen om de uitlijning van merken te verbeteren.
 
 1. Controleer de inhoud handmatig opnieuw nadat u wijzigingen hebt aangebracht om de uitlijningsscore te vernieuwen.
+
+## Hoe kan ik-video {#video}
+
+De video hieronder toont hoe te om uw eigen merken tot stand te brengen en aan te passen om uw visuele en verbale identiteit over mededelingen duidelijk te bepalen.
+
++++ Zie video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
+
++++
