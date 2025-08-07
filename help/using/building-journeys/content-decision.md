@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: activiteit, besluitvorming, inhouds-beslissing, beslissingsbeleid, canvas, reis
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
-source-git-commit: 30234392f9b643fa37be701d4d6878d798ea94fe
+source-git-commit: 2ca37e17b788357f0b8f135c1a5889aa5145cb2f
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1080'
 ht-degree: 1%
 
 ---
@@ -72,6 +72,16 @@ Voer de onderstaande stappen uit om de **[!UICONTROL Content decision]** -activi
    ![ Overzicht van het beleid van Besluit ](assets/journey-content-decision-policy.png){width=70%}<!--reshoot or change screen-->
 
 U bent nu klaar om de output van deze inhoud beslissingsactiviteit in uw reis te gebruiken.
+
+## Afbeeldingen en beperkingen {#guardrails}
+
+**Toegelaten beleid**
+
+Het duurt maximaal 48 uur om het goedkeuringsbeleid bij te werken. Als in een besluitvormingsbeleid wordt verwezen naar een kenmerk dat is gekoppeld aan een onlangs bijgewerkt beleid voor toestemming, worden de wijzigingen niet onmiddellijk toegepast.
+
+Op dezelfde manier als nieuwe profielattributen die aan een toestemmingsbeleid onderworpen zijn aan een besluitvormingsbeleid worden toegevoegd, zullen zij bruikbaar zijn, maar het toestemmingsbeleid verbonden aan hen zal niet worden afgedwongen tot de vertraging is overgegaan.
+
+Beleid met toestemming is alleen beschikbaar voor organisaties met de invoegtoepassing Adobe Healthcare Shield of Privacy and Security Shield.
 
 ## De uitvoer van de activiteit voor het nemen van beslissingen over inhoud gebruiken {#use-content-decision-output}
 
@@ -157,7 +167,7 @@ Hieronder ziet u het volledige voorbeeld van een reis waarbij een activiteit voo
 
 <!--When all activities are properly configured and saved, [publish](publishing-the-journey.md) your journey.-->
 
-Zodra de reis [&#128279;](publishing-the-journey.md) wordt geactiveerd:
+Zodra de reis [ ](publishing-the-journey.md) wordt geactiveerd:
 
 <!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 
