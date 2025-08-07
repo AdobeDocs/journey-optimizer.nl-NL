@@ -167,7 +167,7 @@ Hieronder ziet u het volledige voorbeeld van een reis waarbij een activiteit voo
 
 <!--When all activities are properly configured and saved, [publish](publishing-the-journey.md) your journey.-->
 
-Zodra de reis [ ](publishing-the-journey.md) wordt geactiveerd:
+Zodra de reis [&#128279;](publishing-the-journey.md) wordt geactiveerd:
 
 <!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 
