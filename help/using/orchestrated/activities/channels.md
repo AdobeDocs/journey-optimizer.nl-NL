@@ -4,9 +4,9 @@ product: journey optimizer
 title: Een kanaalactiviteit toevoegen aan een campagne met meerdere stappen
 description: Leer hoe u een kanaalactiviteit toevoegt aan een campagne die uit meerdere stappen bestaat
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1071'
 ht-degree: 1%
 
 ---
@@ -52,11 +52,17 @@ UNUSED IDs in BJ
 Met [!DNL Adobe Journey Optimizer] kunt u marketingcampagnes automatiseren en uitvoeren via verschillende kanalen: e-mail, SMS en pushberichten. U kunt deze kanaalactiviteiten in het campagnecanvas combineren om dwars-kanaal Geordende campagnes tot stand te brengen die acties kunnen teweegbrengen die op klantengedrag en gegevens worden gebaseerd.
 
 Bijvoorbeeld:
+
 * Verzend een welkomstreeks via e-mail, SMS en push.
 * Na aankoop een e-mailvervolgbericht verzenden.
 * Verzend gepersonaliseerde verjaardagsgroeten via SMS.
 
 Door kanaalactiviteiten te gebruiken, kunt u uitvoerige en gepersonaliseerde campagnes tot stand brengen die klanten over veelvoudige touchpoints en aandrijvingsomzettingen in dienst nemen.
+
+
+>[!CAUTION]
+>
+>Alleen SMS-, push- en e-mailkanalen worden ondersteund in geordende campagnes.
 
 >[!PREREQUISITES]
 >
@@ -94,7 +100,7 @@ Gebruik het tabblad **[!UICONTROL Actions]** om een kanaalconfiguratie voor uw b
 
 1. **laat Snelle leveringswijze** toe (Duw)
 
-   De snelle leveringswijze is een [!DNL Journey Optimizer] toe:voegen-op die zeer snelle pushbericht toestaat die in grote volumes door campagnes verzenden. Snelle levering wordt gebruikt wanneer de vertraging in berichtlevering zaken-kritiek is, wanneer u een dringende duwalarm op mobiele telefoons wilt verzenden, bijvoorbeeld een breekbericht aan gebruikers die uw nieuwskanaal app hebben geïnstalleerd. Voor meer informatie over prestaties wanneer het gebruiken van Snelle leveringswijze, verwijs naar [ het productbeschrijving van Adobe Journey Optimizer ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html).
+   De snelle leveringswijze is een [!DNL Journey Optimizer] toe:voegen-op die zeer snelle pushbericht toestaat die in grote volumes door campagnes verzenden. Snelle levering wordt gebruikt wanneer de vertraging in berichtlevering zaken-kritiek is, wanneer u een dringende duwalarm op mobiele telefoons wilt verzenden, bijvoorbeeld een breekbericht aan gebruikers die uw nieuwskanaal app hebben geïnstalleerd. Voor meer informatie over prestaties wanneer het gebruiken van Snelle leveringswijze, verwijs naar [ het productbeschrijving van Adobe Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html).
 
 1. **creeer een inhoudexperiment**
 

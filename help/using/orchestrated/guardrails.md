@@ -4,9 +4,9 @@ product: journey optimizer
 title: Gangbare campagnes en beperkingen
 description: Meer informatie over geordende campagnes, instructies en beperkingen
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Hieronder vindt u aanvullende instructies en beperkingen wanneer u geordende cam
 
 * De schema&#39;s die voor het richten worden gebruikt moeten minstens **één identiteitsgebied van type`String`** bevatten, die aan een bepaalde identiteitsnaamruimte in kaart wordt gebracht.
 
-### Gegevensopname
+### Data-opname
 
 * Profiel + relationele gegevensinvoer is vereist.
 
@@ -83,3 +83,7 @@ Hieronder vindt u aanvullende instructies en beperkingen wanneer u geordende cam
 * **de Bewaarde publieksactiviteiten zijn statisch**, wijzen zij op de gegevens beschikbaar op het tijdstip van campagneuitvoering.
 
 * **het toevoegen aan een Opgeslagen activiteit van het Publiek wordt niet gesteund**. Om het even welke wijzigingen vereisen een volledige beschreven van het publiek.
+
+## Kanaalbeperkingen
+
+Alleen SMS-, push- en e-mailkanalen worden ondersteund in geordende campagnes.
