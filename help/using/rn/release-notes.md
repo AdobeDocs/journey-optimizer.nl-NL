@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a53e94f0199cda211d32be55c8e9a52303dc3d25
+source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1428'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 3%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 
 ## Campagneorganisatie
@@ -86,7 +86,7 @@ Leer meer in de [ documentatie van het Organiseren van de Campagne ](../orchestr
 
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: August 19, 2025
 
@@ -100,6 +100,36 @@ New capabilities coming with this release are detailed below.
 Improvements coming with this release are listed below.
 -->
 
+## Updates van augustus &#39;25 {#25.8-rn}
+
+<table>
+<thead>
+<tr>
+<th><strong>Optimalisatie in campagnes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer stelt u nu in staat met de gereedschappen gepersonaliseerde en geoptimaliseerde inhoud te leveren aan het publiek van uw campagnes, zodat u experimenten met inhoud kunt uitvoeren, doelgerichte regels kunt maken en geavanceerde combinaties van beide kunt gebruiken om de doeltreffendheid van uw campagnes te maximaliseren.</p>
+<p>Met Optimalisatie kunt u:</p>
+<ul>
+<li>Test veelvoudige inhoudsvariaties om het meest efficiënte overseinen te identificeren.</li>
+<li>Aangepaste inhoud leveren op basis van gebruikerskenmerken en contextuele gegevens.</li>
+<li>Combineer gerichte acties en experimenten voor geavanceerde campagnestrategieën.</li>
+<li>Filter gebruikers uit die niet voldoen aan variantcriteria.</li>
+<li>Zorg voor terugvalmechanismen om de betrokkenheid van de gebruiker te behouden.</li>
+</ul>
+<P>Wanneer de campagne live is, worden profielen beoordeeld aan de hand van de gedefinieerde criteria en op basis van overeenkomstige criteria, worden ze geleverd met de juiste ervaring of inhoud van de campagne.</p>
+<p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
+<p>Releasedatum: 8 augustus 2025</p>
+<p>Voor meer informatie, verwijs naar de <a href="../campaigns/campaigns-message-optimization.md"> gedetailleerde documentatie </a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 
 ## Opmerkingen bij de release van juli 1925 {#25-7-rn}
 
@@ -110,24 +140,6 @@ Improvements coming with this release are listed below.
 De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder beschreven.
 
 #### Functies
-
-<table>
-<thead>
-<tr>
-<th><strong>WhatsApp-kanaal</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer ondersteunt nu direct WhatsApp-berichten, waardoor u probleemloos kunt integreren in uw reizen en campagnes voor betere communicatie en betrokkenheid van ontvangers. Dit native kanaal biedt een oplossing voor de integratie van WhatsApp-sjablonen, de voorvertoning van berichten, personalisatie, rapportage van levering, webhaken, het beheer van de opt-in- en opt-out-toestemming en meer.</p>
-<p>Eerder in Beta is deze mogelijkheid nu beschikbaar voor alle omgevingen (algemene beschikbaarheid).</p>
-<p><img src="../whatsapp/assets/do-not-localize/WA-Animation.gif"/><p>
-<p>Raadpleeg de <a href="../whatsapp/get-started-whatsapp.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -179,36 +191,6 @@ Voor meer informatie, verwijs naar de <a href="../experience-decisioning/create-
 </tr>
 </tbody>
 </table>
-
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Optimization in campaigns</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer now empowers you with the tools to deliver personalized and optimized content to your campaigns' audience, allowing you to run content experiments, create rule-based targeting, and use advanced combinations of both, to maximize the effectiveness of your campaigns.</p>
-<p>With Optimization, you can:</p>
-<ul>
-<li>Test multiple content variations to identify the most effective messaging.</li>
-<li>Deliver personalized content based on user attributes and contextual data.</li>
-<li>Combine targeting and experimentation for advanced campaign strategies.</li>
-<li>Filter out users that do not match variant criteria.</li>
-<li>Ensure fallback mechanisms to maintain user engagement.</li>
-</ul>
-<P>Once the campaign is live, profiles are evaluated against the defined criteria, and based on matching criteria, they are delivered with the appropriate experience or content from the campaign.</p>
-<p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
-<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
-</td>
-</tr>
-</tbody>
-</table>
--->
-
-
 
 <table>
 <thead>
@@ -275,7 +257,7 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 * **Campagnes**
 
    * **Veelvoudige binnenkomende acties in campagnes** - om uw campagneorchestratie te vereenvoudigen, kunt u verscheidene binnenkomende acties in één enkele campagne nu bepalen. Met deze functie kunt u meerdere op code gebaseerde ervaringen, In-app-berichten, Content Cards of webhandelingen tegelijk op verschillende locaties aanbieden, waarbij elke actie een specifieke inhoud bevat.
-  <!-- [Read more](../FILE.md) -->
+     [Meer informatie](../campaigns/campaign-action.md#multi-action)
 
    * **de inventarisreorganisatie van de Campagne** - Gepland en API-teweeggebrachte campagnes zijn nu verdeeld in afzonderlijke lusjes in de campagneinventaris voor gemakkelijkere navigatie en beheer.
 
