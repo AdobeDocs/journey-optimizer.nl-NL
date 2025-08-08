@@ -3,12 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Berichtoptimalisatie
 description: Gebruik berichtoptimalisatie om gepersonaliseerde en geoptimaliseerde marketingcampagnes te maken.
-feature: Message optimization
-topic: Experimentation
 role: User
 level: Intermediate
 keywords: campagne optimaliseren, experimenteren, doelgericht testen, A/B testen
-source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
+source-git-commit: edbe25e0cb341c08e440eb0663fb9b253273f48a
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 0%
