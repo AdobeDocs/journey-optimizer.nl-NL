@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 6326e1e3056f41f1550ac785bcbf83af175b37cc
+source-git-commit: 1f53a578e91cd26e0e062c20b371a344ad709a8f
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,12 @@ ht-degree: 0%
 
 [!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [ versienota&#39;s ](release-notes.md).
 
-**de Nota&#39;s van de pre hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. De verbindingen, de schermen en de bijgewerkte documentatie worden gepubliceerd in de [ versienota&#39;s ](release-notes.md), bij de versiedatum.
 
+## Opmerkingen bij de pre-release van augustus &#39;25 {#25-8-rn}
 
-## Opmerkingen bij de pre-release augustus &#39;25 {#25-7-rn}
+**de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-**de Nota&#39;s van de pre hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd op de releasedatum.
-
-Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 19 augustus, 2025
 
@@ -65,8 +63,8 @@ Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experi
 <p>Eerder beschikbaar in Beperkte Beschikbaarheid, is deze eigenschap nu beschikbaar aan alle milieu's. Met deze algemene beschikbaarheidsrelease omvat deze functie:</p>
 <ul>
 <li>Ontwerpverbeteringen voor de navigatie in datums</li>
-<li>De mogelijkheid om conceptiecampagnes weer te geven als u een begin- en einddatum hebt ingesteld</li>
-<li>Een nieuwe instelling voor het verbergen en weergeven van kalenderitems die lange tijd worden uitgevoerd</li>
+<li>de mogelijkheid om ontwerpcampagnes te bekijken als u een begin- en einddatum hebt ingesteld,</li>
+<li>Een nieuwe instelling voor het verbergen en weergeven van kalenderitems die lange tijd worden uitgevoerd.</li>
 </ul>
 <p><!--img src="assets/do-not-localize/calendar.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../building-journeys/journey-ui.md#journeys-calendar">detailed documentation</a>--></p>
@@ -110,7 +108,7 @@ Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experi
 <p>Gebruik Adobe Experience Platform-gegevens in de personalisatie-editor om uw inhoud aan te passen. Om dit te doen, moeten de datasets nodig voor raadplegingsverpersoonlijking eerst door een API vraag worden toegelaten. Als u klaar bent, kunt u hun gegevens gebruiken om uw inhoud aan te passen aan [!DNL Journey Optimizer] .</p>
 <p>Eerder uitgebracht in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's. Met deze algemene release zijn de volgende verbeteringen aangebracht:</p>
 <ul>
-<li>Ondersteuning van binnenkomende kanalen</li>
+<li>Ondersteuning van binnenkomende kanalen;</li>
 <li>De hulpfunctie "datasetLookup" kan nu worden gebruikt binnen expressies en visuele fragmenten om inhoud te personaliseren met behulp van gegevens uit Adobe Experience Platform-gegevenssets,</li>
 <li>Een optie in de dataset staat u nu toe om datasets voor raadpleging toe te laten verpersoonlijking, zonder het moeten een API vraag uitvoeren.</li>
 </ul>
@@ -179,16 +177,15 @@ Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experi
 
 De verbeteringen die bij deze release worden geleverd, worden hieronder weergegeven.
 
-
-- **Campagnes**
-   - **controle van het Tarief in uitgaande campagnes** - u kunt throttling tariefcontrole voor uitgaande campagnes (E-mail, SMS, Push berichten) nu toelaten, toestaand u om overbelasting op stroomafwaartse systemen, zoals het landen van pagina&#39;s of de platforms van de klantenzorg te verhinderen.
-   - **campagne die van de Actie** plant - de campagne dagelijks, wekelijkse en maandelijkse planners zijn bijgewerkt voor betere granulariteit. U kunt nu bijvoorbeeld het aantal weken/maanden tussen de schema&#39;s instellen, bepalen op welke dag de uitvoering moet plaatsvinden en besluiten te stoppen na een bepaald aantal gevallen of op een bepaalde datum.
-
 - **Beheer**
    - **de configuratiecontrolealarm van het Kanaal** - u kunt nu intekenen om systeemalarm, of door e-mail of in het het kennisgevingscentrum van Journey Optimizer te ontvangen, voor het geval dat een fout van de kanaalconfiguratie gebeurt of als een DNS verslag mist.
 
+- **Campagnes**
+   - **controle van het Tarief in uitgaande campagnes** - u kunt throttling tariefcontrole voor uitgaande campagnes (E-mail, SMS, Push berichten) nu toelaten, toestaand u om overbelasting op stroomafwaartse systemen, zoals het landen van pagina&#39;s of de platforms van de klantenzorg te verhinderen.
+   - **campagne die van de Actie** plant - de campagne dagelijks, wekelijkse en maandelijkse planners zijn bijgewerkt voor betere granulariteit. U kunt nu bijvoorbeeld het aantal weken/maanden tussen de schema&#39;s instellen, bepalen op welke dag de uitvoering moet plaatsvinden en besluiten te stoppen na een bepaald aantal exemplaren of op een bepaalde datum.
+
 - **Kanaal - duw**
-   - **de vervaldatum van het pushbericht** - u kunt nu een vervaldatum voor elk Push- bericht specificeren, dat tijd-gevoelige berichten (zoals de Zwarte Verkoop van Vrijdag) verhindert na een bepaalde datum worden verzonden en zo het leveren van slechte ervaring aan uw klanten vermijdt.
+   - **de vervaldatum van het pushbericht** - u kunt nu een vervaldatum voor elk Push- bericht specificeren, dat tijd-gevoelige berichten (zoals de Zwarte Verkoop van Vrijdag) verhindert na een bepaalde datum worden verzonden, zo vermijdt leverend slechte ervaring aan uw klanten.
 
 - **Kanaal - E-mail**
    - **de gehechtheid van PDF aan e-mail** - u kunt statische dossiers van PDF aan e-mailberichten nu vastmaken die met Journey Optimizer worden verzonden.
