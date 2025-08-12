@@ -5,9 +5,9 @@ title: Aan de slag met geordende campagnes
 description: Leer hoe u begint met geordende campagnes
 short-description: Ontdek de georkestreerde belangrijkste kenmerken van de campagne en gebruik gevallen.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 86bd6a100644a0f50aa9e18fd7023dec11c05bfe
+source-git-commit: 4510cfde1579fbabe7deb1289f70f13ee21a3d4a
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 0%
 >abstract="<b> Splitsen van de Campagne de orchestratie </b><br/>, combineren, verrijken en manipuleren relationele datasets om uw publiek <br/><br/> te bepalen <b> Van de hefboomwerking multi-entiteitgegevens </b><br/> leren hoe Geordende campagnes uit relationele datasets kunnen voordeel halen om gegevens voor segmentatie &amp; verpersoonlijking <br/><br/><b> Ad-hoc segmentatie &amp; nauwkeurige tellingen </b><br/> te verrijken bouwt uw segment stap voor stap met nauwkeurige tellingen <br/><br/><b> Beschikbare kanalen </b><br/> E-mail, SMS, Push berichten, Directe post"
 
 Campagne in [!DNL Adobe Journey Optimizer] biedt geavanceerde, merkgestarte marketingcampagnes via verschillende kanalen, waarmee u op grote schaal betrokkenheid, inkomsten en klantenloyaliteit kunt stimuleren.
+
+>[!IMPORTANT]
+>
+>Om tot Campagneorganisatie toegang te hebben, moet uw vergunning of de **Journey Optimizer - Campagnes &amp; Reizen** of **Journey Optimizer - het pakket van Campagnes** omvatten. Neem contact op met uw Adobe-vertegenwoordiger om uw licentie te bevestigen en indien nodig bij te werken.
 
 Hoewel de marketing over de kanalen essentieel is, maken de geordende campagnes het naadloos. Met een visuele, belemmering-en-dalingsinterface, kunt u complexe marketing werkschema&#39;s ontwerpen en automatiseren, van segmentatie aan berichtlevering, over veelvoudige kanalen. Alles gebeurt in één intuïtieve omgeving, gebouwd voor snelheid, controle en efficiëntie.
 
