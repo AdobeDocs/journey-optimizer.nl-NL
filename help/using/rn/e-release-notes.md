@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1f53a578e91cd26e0e062c20b371a344ad709a8f
+source-git-commit: 1be17ef27ca3ed7ff98d9df47cfa9066a89625f3
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 19 augustus, 2025
 
@@ -140,14 +140,13 @@ Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experi
 <table>
 <thead>
 <tr>
-<th><strong>Aangepaste formulieren op de bestemmingspagina</strong><br/></th>
+<th><strong>Reispad optimaliseren</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Met Journey Optimizer kunt u nu aangepaste formulieren maken en deze gebruiken in bestemmingspagina's om profielkenmerken vast te leggen in de gegevensset die voor elk formulier is gedefinieerd.</p>
-<p>Deze mogelijkheid is momenteel beschikbaar in bètaversie en alleen voor bètaklanten. Neem contact op met uw Adobe-vertegenwoordiger als u wilt deelnemen aan het bètaprogramma.</p>
+<p>Journey Optimizer biedt u nu de mogelijkheid om uw reizen te optimaliseren door gebruik te maken van AI- en experimentatiekaders en tegelijk een naadloze bruikbaarheid en differentiatie tussen conditie en optimalisatiefuncties te garanderen.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -158,13 +157,32 @@ Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experi
 <table>
 <thead>
 <tr>
-<th><strong>Reisoptimalisatie</strong><br/></th>
+<th><strong>Actie tijdens reizen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer biedt u nu de mogelijkheid om uw reizen te optimaliseren door gebruik te maken van AI- en experimentatiekaders en tegelijk een naadloze bruikbaarheid en differentiatie tussen conditie en optimalisatiefuncties te garanderen.</p>
+<p>Journey Optimizer steunt een nieuwe generische activiteit van de Actie die u toelaat om zowel enige acties als multi-kanaal uitgaande acties te vormen, die voor gestroomlijnde actieconfiguratie binnen het reiscanvas toestaan. Met deze nieuwe activiteit, hebt u ook de capaciteit om het richten optimalisering, experimenten, en meertalige taalvarianten aan om het even welke ingebouwde kanaalactie toe te voegen.</p>
+<p>Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Aangepaste formulieren op de bestemmingspagina</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met Journey Optimizer kunt u nu aangepaste formulieren maken en deze gebruiken in bestemmingspagina's om profielkenmerken vast te leggen in de gegevensset die voor elk formulier is gedefinieerd.</p>
+<p>Deze mogelijkheid is momenteel beschikbaar in bètaversie en alleen voor bètaklanten. Neem contact op met uw Adobe-vertegenwoordiger als u wilt deelnemen aan het bètaprogramma.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -197,5 +215,4 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
      Als u uw koppeling voor het opzeggen van uw abonnement met één klik verder wilt aanpassen, kunt u nu aangepaste kenmerken definiëren die aan de gebeurtenis voor toestemming worden toegevoegd.
 
 - **Reizen**
-   - **activiteit van de Actie in reizen** - Journey Optimizer steunt een nieuwe generische activiteit van de Actie die u toelaat om zowel enig als multi-kanaal uitgaande acties te vormen, die voor gestroomlijnde actieconfiguratie binnen het wegcanvas toestaan. Met deze nieuwe activiteit, hebt u ook de capaciteit om het richten optimalisering, experimenten, en meertalige taalvarianten aan om het even welke ingebouwde kanaalactie toe te voegen.
    - **de bulkverrichtingen van de Reis** - van de lijst van uw reizen, kunt u veelvoudige punten nu selecteren. Als deze optie is geselecteerd, kunt u maximaal tien reizen per keer pauzeren of hervatten.
