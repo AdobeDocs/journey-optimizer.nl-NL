@@ -62,8 +62,8 @@ Begin door de standaard en douanekenmerken van het besluitpunt te bepalen:
 >id="ajo_exd_item_constraints"
 >title="Soorten publiek of beslissingsregels toevoegen"
 >abstract="Standaard kunnen alle profielen in aanmerking komen voor het item voor een beslissing, maar u kunt het publiek of de regels gebruiken om het item te beperken tot specifieke profielen."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Soorten publiek gebruiken"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Beslissingsregels gebruiken"
+>additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Soorten publiek gebruiken"
+>additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Beslissingsregels gebruiken"
 
 Standaard komen alle profielen in aanmerking om het beslissingsitem te ontvangen, maar u kunt het publiek of de regels gebruiken om het item te beperken tot specifieke profielen, beide oplossingen voor verschillende toepassingen. Vouw de onderstaande sectie uit voor meer informatie:
 
