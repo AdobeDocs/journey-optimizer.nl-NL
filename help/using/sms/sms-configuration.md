@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: dc4c512ba48ab7de45ad9719eeb87056ee757dd6
+source-git-commit: c9b8ee427b2a7366a01e34f6d83439e0ea2f7653
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 >id="ajo_admin_sms_api"
 >title="Uw SMS/MMS-provider configureren met Journey Optimizer"
 >abstract="Voordat u tekstberichten (SMS/MMS) kunt verzenden, moet u de providerinstellingen integreren met Journey Optimizer. Zodra gedaan, moet u een configuratie tot stand brengen SMS/MMS. Deze stappen moeten worden uitgevoerd door een Adobe Journey Optimizer System Administrator."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Een SMS-kanaalconfiguratie maken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Een SMS-kanaalconfiguratie maken"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
@@ -40,7 +40,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_fuzzy_opt_out"
 >title="Fuzzy opt-out"
->abstract="&quot;Indien toegelaten, ontdekt de Vluike Opt-out binnenkomende berichten die dicht op bepaalde opt-out sleutelwoorden (b.v., &quot;CANCIL&quot;) lijken en verzendt automatisch een bevestigingsantwoord om de het afmelden van de gebruiker te verifiëren intent. Als de gebruiker via de gedefinieerde prompt bevestigt, wordt het abonnement opgezegd."
+>abstract="Indien ingeschakeld, detecteert Fuzzy Opt-out binnenkomende berichten die sterk lijken op gedefinieerde uitschakeltrefwoorden (bijvoorbeeld &#39;CANCIL&#39;) en verzendt automatisch een bevestigingsantwoord om te controleren of de gebruiker zich afmeldt. Als de gebruiker via de gedefinieerde prompt bevestigt, wordt het abonnement opgezegd."
 
 Voordat u SMS, MMS of RCS verzendt, moet u de Adobe Journey Optimizer-omgeving configureren. Dit doet u als volgt:
 
