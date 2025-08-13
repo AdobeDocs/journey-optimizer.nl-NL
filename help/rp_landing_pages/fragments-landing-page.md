@@ -20,7 +20,7 @@ Herbruikbare inhoudsfragmenten in Adobe Journey Optimizer helpen u tijd te bespa
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
 
 Inleiding tot Fragmenten gebruiken
 
@@ -30,7 +30,7 @@ Leer de basisbeginselen van het maken, beheren en hergebruiken van visuele en ex
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Hoe te om Herbruikbare Fragmenten te creëren
 
@@ -40,7 +40,7 @@ Volg een stapsgewijze handleiding om herbruikbare visuele en expressiefragmenten
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Bestaande inhoud opslaan als fragmenten
 
@@ -50,7 +50,7 @@ Ontdek hoe u inhoud rechtstreeks vanuit de Designer-e-mail of de personalisatie-
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 Aanpasbare fragmenten gebruiken
 
@@ -60,7 +60,7 @@ Leer hoe u specifieke velden bewerkbaar maakt in fragmenten voor dynamische aanp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Inhoudsfragmenten beheren
 

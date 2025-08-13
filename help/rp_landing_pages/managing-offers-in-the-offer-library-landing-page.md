@@ -20,7 +20,7 @@ Met de sectie &#39;Aanbiedingen maken en beheren&#39; in Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Aanbiedingen configureren in Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Leer hoe te om gepersonaliseerde aanbiedingen tot stand te brengen, vertegenwoor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Hoe je terugvalvoorstellen kunt maken
 
@@ -40,7 +40,7 @@ Stapsgewijze zelfstudie over het maken van fallback-aanbiedingen voor klanten di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Aanbiedingsverzamelingen maken en beheren
 

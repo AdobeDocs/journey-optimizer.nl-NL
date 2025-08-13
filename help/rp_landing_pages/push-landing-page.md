@@ -38,7 +38,7 @@ U kunt pushmeldingen maken:
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Pushmeldingen maken en configureren
 
@@ -48,7 +48,7 @@ Stapsgewijze handleiding voor het maken en configureren van pushberichten, inclu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 Uw pushmelding ontwerpen
 
@@ -58,7 +58,7 @@ Ontdek hoe u pushmeldingen kunt ontwerpen en personaliseren met media, knoppen, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Pushmeldingen voorvertonen, valideren en verzenden
 
@@ -68,7 +68,7 @@ Leer hoe u pushmeldingen kunt voorvertonen, valideren en verzenden, en hoe u erv
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Configuratie pushmelding
 

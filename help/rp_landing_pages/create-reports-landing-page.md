@@ -20,7 +20,7 @@ Door Beslissingsbeheerrapporten te maken in Adobe Journey Optimizer kunt u waard
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
 
 Werken met gebeurtenissen voor Beheer van beslissingen
 
@@ -30,7 +30,7 @@ Leer hoe u gegevenssets voor Beslissingsbeheer kunt gebruiken voor rapportage en
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Toegang tot XDM-velden voor DecisioningEvents en ontdek deze
 

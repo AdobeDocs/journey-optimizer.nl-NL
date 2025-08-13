@@ -20,7 +20,7 @@ De e-maillevering gaat er allemaal om ervoor te zorgen dat uw e-mails de inbox v
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
 
 Inleiding tot e-maillevering
 
@@ -30,7 +30,7 @@ Leer de concepten, aanbevolen procedures en gereedschappen voor het optimalisere
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Onderdrukkingslijsten
 
@@ -40,7 +40,7 @@ Ontdek hoe suppressielijsten de reputatie van de afzender beschermen en e-maille
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
 
 Voldoen aan nieuwe DMARC-vereisten
 

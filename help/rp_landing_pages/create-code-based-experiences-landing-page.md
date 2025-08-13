@@ -20,7 +20,7 @@ Met code-gebaseerde ervaringen in Adobe Journey Optimizer kunt u zeer aangepaste
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 Codegebaseerde ervaringen opbouwen en samenstellen
 
@@ -30,7 +30,7 @@ Leer hoe u in Adobe Journey Optimizer op code gebaseerde ervaringen kunt maken e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Bewerkbare velden gebruiken in op code gebaseerde ervaringen
 
@@ -40,7 +40,7 @@ Ontdek hoe u bewerkbare velden aan sjablonen kunt toevoegen, zodat marketers HTM
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Code-gebaseerde ervaringen testen
 
@@ -50,7 +50,7 @@ Ontdek hoe u op code gebaseerde ervaringen kunt voorvertonen en simuleren met te
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Publiceer en beheer code-Gebaseerde Ervaringen
 

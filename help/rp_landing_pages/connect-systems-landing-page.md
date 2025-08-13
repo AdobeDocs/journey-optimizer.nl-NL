@@ -20,7 +20,7 @@ Met Adobe Journey Optimizer kunt u uw systemen en omgevingen naadloos verbinden,
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 Adobe Journey Optimizer integreren met andere oplossingen
 
@@ -30,7 +30,7 @@ Begrijp hoe Adobe Journey Optimizer verbinding maakt met andere Adobe-oplossinge
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 Werken met Adobe Journey Optimizer API&#39;s
 
@@ -40,7 +40,7 @@ Ontdek hoe u API&#39;s kunt gebruiken om persoonlijke ervaringen op verschillend
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 Uw reizen integreren met externe systemen
 
@@ -50,7 +50,7 @@ Leer de beste praktijken voor de integratie van Adobe Journey Optimizer met exte
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 Verzenden met Adobe-oplossingen
 
@@ -60,7 +60,7 @@ Configureer Adobe Journey Optimizer voor integratie met Adobe Campaign, Marketo 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Sandboxbeheer in Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Virtuele omgevingen, rollen en workflows effectief beheren met sandboxen in Adob
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Aan de slag met Bronconnectors
 

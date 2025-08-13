@@ -20,7 +20,7 @@ Adobe Experience Platform is de basis voor het aanbieden van echt persoonlijke k
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 De functie inAudience gebruiken
 

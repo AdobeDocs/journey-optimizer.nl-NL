@@ -20,7 +20,7 @@ Met handelscampagnes in Adobe Journey Optimizer kunt u actuele, doelgerichte ber
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Een actiecampagne maken
 
@@ -30,7 +30,7 @@ Leer hoe u actiecampagnes maakt en beheert, inclusief eigenschappen, handelingen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Campagneeigenschappen voor handelingen definiëren
 
@@ -40,7 +40,7 @@ Stapsgewijze instructies voor het definiëren van campagne-eigenschappen zoals n
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Campagnehandelingen configureren
 
@@ -50,7 +50,7 @@ Handleiding voor het instellen van campagnehandelingen, waaronder kanaalselectie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
 
 Optimalisatie van berichten gebruiken
 
@@ -60,7 +60,7 @@ Gebruik gerichte toepassingen en experimenten om de betrokkenheid te maximaliser
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg?lang=nl-NL)
 
 Campagne-inhoud bewerken
 
@@ -70,7 +70,7 @@ Ontwerp, test en configureer inhoud voor uw actiecampagnes op meerdere kanalen.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=nl-NL)
 
 Campagnepubliek definiëren
 

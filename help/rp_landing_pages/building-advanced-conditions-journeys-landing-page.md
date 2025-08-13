@@ -20,7 +20,7 @@ Adobe Journey Optimizer omvat een **geavanceerde uitdrukkingsredacteur** die u c
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=nl-NL)
 
 De geavanceerde expressie-editor gebruiken
 
@@ -30,7 +30,7 @@ Leer hoe u de geavanceerde expressie-editor kunt gebruiken om aangepaste express
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 Geavanceerde syntaxis voor expressies
 
@@ -40,7 +40,7 @@ U kunt de syntaxisregels, voorwaardelijke instructies en gegevenstypen die nodig
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 Functies in Adobe Journey Optimizer
 

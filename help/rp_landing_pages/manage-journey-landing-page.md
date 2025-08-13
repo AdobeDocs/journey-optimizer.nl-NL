@@ -20,7 +20,7 @@ Het beheren van uw reizen in Adobe Journey Optimizer gaat er allemaal om u de mi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Bladeren en uw reizen filteren
 
@@ -30,7 +30,7 @@ Leer hoe u reizen effectief kunt navigeren, filteren en beheren, inclusief gegev
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Profielinvoer in reizen
 
@@ -40,7 +40,7 @@ Begrijp hoe de profielen reizen, met inbegrip van terugkeerregels voor unitaire 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
 
 Aanvullende id&#39;s gebruiken in reizen
 
@@ -50,7 +50,7 @@ Ontdek hoe u aanvullende id&#39;s kunt gebruiken voor een verbeterde personalisa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Tijdzonebeheer
 
@@ -60,7 +60,7 @@ Leer hoe u vaste en profielgedefinieerde tijdzones configureert voor een juiste 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
 
 Send-Time optimalisatie
 
@@ -70,7 +70,7 @@ Maximaliseer uw betrokkenheid bij e-mail- en pushberichten door optimale verzend
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Uw reis beëindigen
 

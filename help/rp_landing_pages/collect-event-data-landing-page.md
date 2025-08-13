@@ -20,7 +20,7 @@ Door gebeurtenisgegevens te verzamelen in Adobe Journey Optimizer kunt u belangr
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
 
 Aan de slag met gegevensverzameling voor beheer
 
@@ -30,7 +30,7 @@ Leer de grondbeginselen van gegevensverzameling voor Beslissingsbeheer, met inbe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Hoe te om een Dataset tot stand te brengen om de Gebeurtenissen van de Ervaring te verzamelen
 
@@ -40,7 +40,7 @@ Volg de stapsgewijze instructies om een dataset en schema te maken voor het verz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Vastleggen van gebeurtenisgegevens configureren voor beslissingsbeheer
 

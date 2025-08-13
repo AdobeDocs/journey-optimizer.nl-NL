@@ -20,7 +20,7 @@ Door uw reizen te integreren met externe systemen in Adobe Journey Optimizer kun
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Beste praktijken voor de Externe Integratie van het Systeem
 
@@ -30,7 +30,7 @@ Leer beste praktijken en technische richtlijnen voor de integratie van Adobe Jou
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 Overzicht en implementatiegids van API voor uitsnijden
 
@@ -40,7 +40,7 @@ Begrijp hoe te om, het maximum montages voor externe systeemintegratie tot stand
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 Throttling API: Configuratie- en beheerdersgids
 

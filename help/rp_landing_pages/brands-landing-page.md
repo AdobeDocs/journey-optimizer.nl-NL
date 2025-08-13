@@ -20,7 +20,7 @@ In Adobe Journey Optimizer kunt u met de functie &#39;Merken&#39; de unieke iden
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Uw merkenrichtlijnen maken en beheren
 
@@ -30,7 +30,7 @@ Leer hoe u merkrichtlijnen voor een consistente visuele en verbale identiteit ku
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Uw merkenuitlijningsscore evalueren
 

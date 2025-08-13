@@ -20,7 +20,7 @@ Door het configureren van bestemmingspagina&#39;s in Adobe Journey Optimizer kun
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Subdomeinen van bestemmingspagina configureren
 
@@ -30,7 +30,7 @@ Leer hoe u subdomeinen voor het hosten van landingspagina&#39;s in Adobe Journey
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Voorinstellingen voor bestemmingspagina definiëren
 

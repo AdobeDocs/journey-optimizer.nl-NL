@@ -20,7 +20,7 @@ Het creëren van publiek in Adobe Journey Optimizer machtigt u om, de groepen me
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Segmentdefinities maken in Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Leer hoe te om publiekssegmenten, met inbegrip van geleidelijke instructies voor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 Aan de slag met Audience Composition
 
@@ -40,7 +40,7 @@ Ontdek hoe u workflows kunt maken die bestaande soorten publiek combineren, verr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg?lang=nl-NL)
 
 Hoe te om soorten publiek in te voeren die Aangepaste CSV uploaden gebruiken
 
@@ -50,7 +50,7 @@ Ontdek hoe u publiek importeert via CSV-bestanden en kenmerken toewijst aan prof
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
 
 Samenstelling van Federated-doelgroep
 

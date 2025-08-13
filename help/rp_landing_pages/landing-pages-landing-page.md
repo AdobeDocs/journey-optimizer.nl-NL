@@ -20,7 +20,7 @@ Met bestemmingspagina&#39;s in Adobe Journey Optimizer kunt u op maat gemaakte, 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
 
 Inleiding tot landingspagina&#39;s
 
@@ -30,7 +30,7 @@ Leer de grondbeginselen van het landen van pagina&#39;s, hun functionaliteit, en
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Openingspagina&#39;s maken en publiceren
 
@@ -40,7 +40,7 @@ Stapsgewijze instructies voor het effectief maken, configureren, testen en publi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Uw bestemmingspagina&#39;s beheren
 
@@ -50,7 +50,7 @@ U kunt landingspagina&#39;s openen, ordenen en uitvoeren, bijvoorbeeld publicere
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 Inhoud ontwerpen voor bestemmingspagina&#39;s
 
@@ -60,7 +60,7 @@ U kunt landingspagina&#39;s maken en aanpassen met sjablonen, formulieren en gea
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Abonnementenlijsten maken en beheren
 
@@ -70,7 +70,7 @@ Stel abonnementenlijsten in om opted-in profielen te beheren en gerichte communi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
 
 Gebruiksscenario&#39;s voor bestemmingspagina
 

@@ -20,7 +20,7 @@ In Adobe Journey Optimizer kunt u uw marketinginspanningen personaliseren en str
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Hulplijn voor het maken van plaatsingen voor aanbiedingen
 
@@ -30,7 +30,7 @@ Leer hoe u plaatsingen kunt maken en beheren om ervoor te zorgen dat de juiste i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
 
 Beslissingsregels maken in Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Bepaal besluitvormingsregels om aanbiedingen te personaliseren door specifieke p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg?lang=nl-NL)
 
 Verzamelingskwalificaties maken en beheren in Adobe Journey Optimizer
 

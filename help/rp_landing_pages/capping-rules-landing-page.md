@@ -20,7 +20,7 @@ Door de regels voor het afluisteren van berichten en reizen in Adobe Journey Opt
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Werken met regelsets
 
@@ -30,7 +30,7 @@ Leer hoe u regelsets maakt, beheert en activeert om berichtfrequentie en toegang
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Afdekkingen en arbitrages voor reizen
 
@@ -40,7 +40,7 @@ Ontdek hoe u de toegangs- en corresponderingsplafonds voor reizen kunt instellen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Frequentiecorrectie per kanaal
 

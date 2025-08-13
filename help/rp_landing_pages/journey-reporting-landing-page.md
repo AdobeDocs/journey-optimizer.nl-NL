@@ -20,7 +20,7 @@ Reisrapporten in Adobe Journey Optimizer bieden krachtige tools om te analyseren
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
 
 Reisrapporten analyseren
 
@@ -30,7 +30,7 @@ Ontdek hoe u de reisprestaties kunt analyseren en optimaliseren met meetgegevens
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 Reisrapporten op basis van code
 
@@ -40,7 +40,7 @@ Begrijp en analyseer metriek voor betrokkenheid in code-gebaseerde ervaringen bi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 Betrokkenheid voor inhoudskaart
 
@@ -50,7 +50,7 @@ Leer hoe u de betrokkenheid van gebruikers met inhoudskaarten meet en evalueert 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=nl-NL)
 
 Metrische gegevens voor directe e-mail
 
@@ -60,7 +60,7 @@ De belangrijkste metriek voor direct-mailcampagnes analyseren en interpreteren, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg?lang=nl-NL)
 
 E-mailreisrapportage
 
@@ -70,7 +70,7 @@ Verbeter inzicht in e-mailprestaties, betrokkenheid, en leveringsmetriek voor uw
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=nl-NL)
 
 In-app Messaging-inzichten
 

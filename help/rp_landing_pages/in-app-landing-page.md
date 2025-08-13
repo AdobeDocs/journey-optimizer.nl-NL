@@ -21,7 +21,7 @@ Met het kanaal in de app in Adobe Journey Optimizer kunt u in real-time verbindi
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Kanaalconfiguratie in de app
 
@@ -31,7 +31,7 @@ Stapsgewijze handleiding voor het instellen van machtigingen, leveringsinstellin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Mobiele in-app berichten maken
 
@@ -41,7 +41,7 @@ Leer hoe u mobiele In-app-berichten kunt maken, configureren en publiceren met b
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 In-app webberichten maken
 
@@ -51,7 +51,7 @@ Vorm en creeer het Overseinen van het Web in-app campagnes met trekkers, publiek
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg?lang=nl-NL)
 
 In-app-inhoud ontwerpen en aanpassen
 
@@ -61,7 +61,7 @@ Ontdek lay-outopties, pas de inhoud aan en gebruik geavanceerde opmaak om uw In-
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=nl-NL)
 
 Meldingen voor uw In-app controleren en verzenden
 

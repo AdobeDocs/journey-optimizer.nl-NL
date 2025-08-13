@@ -20,7 +20,7 @@ In Adobe Journey Optimizer kunt u met behulp van waarderingen bepalen hoe items 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Willekeurige methoden maken en gebruiken
 
@@ -30,7 +30,7 @@ Leer hoe te om rangschikkende methodes, met inbegrip van formules en modellen va
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 De AIR Formula Builder gebruiken
 
@@ -40,7 +40,7 @@ Onderzoek hoe te om de AI formule bouwer te gebruiken om dynamische het rangschi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
 
 Inzicht in en implementatie van AI-modellen
 

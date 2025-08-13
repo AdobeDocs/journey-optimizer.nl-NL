@@ -20,7 +20,7 @@ Met Personalization in Adobe Journey Optimizer kunt u op maat gesneden, indrukwe
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Aan de slag met Personalization
 
@@ -30,7 +30,7 @@ Leer de grondbeginselen van verpersoonlijking in Adobe Journey Optimizer, met in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Personalization toevoegen en valideren
 
@@ -40,7 +40,7 @@ Stel de verpersoonlijkingseditor in als u aangepaste inhoud voor e-mails, pushbe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 Personalization-syntaxis begrijpen
 
@@ -50,7 +50,7 @@ Dive in de regels en de voorbeelden van op Handlebars-Gebaseerde verpersoonlijki
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 Expressiefragmenten opnieuw gebruiken
 
@@ -60,7 +60,7 @@ Gebruik herbruikbare expressiefragmenten voor efficiënte en consistente persona
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=nl-NL)
 
 Adobe Experience Platform-gegevens gebruiken voor Personalization (Beta)
 
@@ -70,7 +70,7 @@ Leer om de datasets van AEP met de hulpfunctie &quot;datasetLookup&quot;te gebru
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=nl-NL)
 
 Referentiehandleiding voor hulplijnfuncties
 

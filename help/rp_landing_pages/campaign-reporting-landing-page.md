@@ -20,7 +20,7 @@ Met campagnerapporten in Adobe Journey Optimizer kunt u via verschillende kanale
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
 
 Overzicht campagnerapport
 
@@ -30,7 +30,7 @@ Leer hoe u de campagneprestaties kunt analyseren met behulp van belangrijke meet
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 Op code gebaseerd campagnerapport
 
@@ -40,7 +40,7 @@ Begrijp hoe te om gepersonaliseerde ervaringen en op AI-gedreven besluitvormings
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Campagnerapport voor inhoudskaart
 
@@ -50,7 +50,7 @@ Analyseer campagnes voor inhoudskaarten met cijfers zoals weergave en klik op tr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=nl-NL)
 
 Rapport voor Direct Mail Campaign
 
@@ -60,7 +60,7 @@ Evalueer de efficiency van direct-mailcampagnes door leveringsstatus, fouten, en
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg?lang=nl-NL)
 
 E-mailcampagnerapport
 
@@ -70,7 +70,7 @@ Verbeter inzicht in de metriek van e-mailprestaties, betrokkenheidspercentages, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg?lang=nl-NL)
 
 Rapport Experimentatiecampagne
 
