@@ -1,44 +1,103 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Snel starten
-description: Ontdek als marketeer, beheerder of data-engineer de kracht van Adobe Journey Optimizer aan de hand van stapsgewijze instructies.
-feature: Overview
-topic: Content Management
-role: User
+title: AJO Rollen en verantwoordelijkheden
+description: Leer meer over de verschillende rollen die bij Adobe Journey Optimizer zijn betrokken en over hun verantwoordelijkheden
+feature: Get Started
+role: Admin, Data Engineer, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: acb4c2dce86afb0b85125413a42094f96366a57d
+redpen-status: PASS_||_2025-04-28_15-13-07
+source-git-commit: d2cdafef6f2d69ea85d9d042c859a8b1e7654d7d
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 14%
+source-wordcount: '634'
+ht-degree: 0%
 
 ---
 
-# Snel starten {#cjm-quick-start}
 
-Met [!DNL Adobe Journey Optimizer], kunt u bestaande berichtinhoud invoeren of een nieuwe inhoud ontwerpen, berichten met de gegevens van het klantenprofiel personaliseren, gebeurtenissen tot stand brengen om berichten teweeg te brengen, publiek te bepalen, aanbiedingen tot stand te brengen en toe te voegen, en tot een volledige reeks rapportering en controlemiddelen toegang te hebben om het effect van uw berichten en klantenreizen te meten.
+# AJO Rollen en verantwoordelijkheden
 
-Gebaseerd op uw organisatie, kunt u verscheidene types van gebruikers bepalen en hen toegang tot bepaalde mogelijkheden afhankelijk van hun toestemmingen verlenen.
+Adobe Journey Optimizer (AJO) stelt merken in staat om verbonden en gecontextualiseerde klantreizen te leveren gedurende de gehele levenscyclus van de klant. Het staat teams toe om interactie bij schaal te personaliseren en klantenverwachtingen met bedrijfsdoelstellingen te richten. In deze documentatie wordt uitgelegd wat de belangrijkste functies zijn bij het effectief gebruiken van Journey Optimizer, hun verantwoordelijkheden en hoe u aan de slag kunt gaan.
 
-Beginnen met [!DNL Journey Optimizer]? Hebt u ervaring met specifieke vragen? Beheerder van uw exemplaar van het bedrijf? Volg uw eigen weg om sneller aan uw doelstellingen te komen!
+**Belangrijke Nota:** Adobe Journey Optimizer bepaalt verschillende rollen met specifieke verantwoordelijkheden. Eén individu kan meerdere rollen of alle rollen uitvoeren, afhankelijk van de structuur van uw organisatie.
 
-Als u de kracht van Adobe Journey Optimizer wilt leren kennen en ontdekken met stapsgewijze instructies, selecteert u uw profiel.
+## Op rollen gebaseerde snelle-starthulplijnen
 
-* Ik ben een **Beheerder**
+Om de implementatie te vereenvoudigen, organiseert AJO taken in specifieke rollen die op deskundigheid worden gebaseerd. Elke rol concentreert zich op essentiële taken die worden vereist om een naadloze klantenervaring te leveren.
 
-  Bereid uw milieu voor, verleent toegang, vormt montages. [Meer informatie](path/administrator.md)
+| Rol | Primaire verantwoordelijkheden | Sleutelvaardigheden | Typische taken |
+|-------------------|----------------------------------|--------------------------------|-----------------------------------------------|
+| **Beheerder** | Systeeminstellingen en machtigingsbeheer | Systeemconfiguratie, gebruikersbeheer, beveiliging | Sandboxen configureren, gebruikers beheren, kanalen instellen |
+| **Ingenieur van Gegevens** | Gegevensstructuur en -stromen configureren | Gegevensmodellering, schemaontwerp, API integratie | Opstelling schema&#39;s, beheert datasets, vormt gegevensbronnen |
+| **Ontwikkelaar** | Technische integratie en aanpassingen | Mobiele ontwikkeling, API-implementatie, codering | Mobiele apps integreren, API&#39;s implementeren, aangepaste handelingen maken |
+| **Marketer** | Klantreizen ontwerpen en uitvoeren | Marketingstrategie, creatie van content, reisontwerp | Campagnes maken, reizen ontwerpen en rapporten analyseren |
 
-* Ik ben a **Ingenieur van Gegevens**
+Elke rol richt een specifieke fase van de implementatie van AJO en verzekert een gestructureerd en efficiënt plaatsingsproces.
 
-  De profielen van de invoer, bouwen publiek, creëren schema&#39;s, en datasets. [Meer informatie](path/data-engineer.md)
+## Implementatievolgorde en Rol-afhankelijkheden
 
-* Ik ben a **Marketer**
+Een geslaagde Journey Optimizer-implementatie volgt doorgaans deze volgorde, die de afhankelijkheden tussen rollen weerspiegelt:
 
-  Ontwerpberichten, voeg aanbiedingen, middelen toe en bouw klantentreizen. [Meer informatie](path/marketer.md)
+1. **Beheerder**: Plaatst omhoog het milieu\
+   De beheerder legt de technische stichting voor het systeem en verzekert juiste toegang en configuratie voor alle gebruikers.
+   * Sandboxen en machtigingen configureren
+   * Gebruikerstoegang instellen
+   * Communicatiekanalen en technische instellingen configureren
+
+2. **Ingenieur van Gegevens**: Creeert de gegevensstichting\
+   De Ingenieurs van gegevens bepalen de gegevensstructuur en de stroom, die voor gepersonaliseerde ervaringen essentieel zijn.
+   * Schema&#39;s ontwerpen en implementeren
+   * Naamruimten voor identiteiten instellen
+   * Gegevensinvoer configureren
+   * Testprofielen maken
+
+3. **Ontwikkelaar**: Handvatten technische integratie\
+   Ontwikkelaars stellen AJO in staat om te communiceren met mobiele apps, websites en externe systemen door technische integratie te implementeren. Push-berichten zijn bijvoorbeeld afhankelijk van configuraties die door de ontwikkelaar worden gestuurd.
+   * Mobiele toepassingen integreren voor pushberichten
+   * Web SDK&#39;s implementeren
+   * Aangepaste integratie ontwikkelen met behulp van API&#39;s
+   * Aangepaste acties maken voor systemen van derden
+
+4. **Marketer**: Creeert en lanceert reizen\
+   De verkopers gebruiken het grondwerk dat door andere rollen wordt gelegd om klantenervaringen te ontwerpen en op te stellen. Zij richten zich op publiekssegmentatie, gepersonaliseerde inhoud, en reis optimalisering.
+   * Doelsegmenten ontwerpen
+   * Aangepaste inhoud maken
+   * Bouw en test reizen
+   * Prestaties analyseren en optimaliseren
+
+**Nota:** Terwijl deze opeenvolging typisch is, kunnen sommige activiteiten parallel voorkomen. Ontwikkelaars kunnen bijvoorbeeld aan toepassingsintegratie werken terwijl Data Engineers schema&#39;s configureren.
+
+## Aan de slag met Rol
+
+Elke rol begint met specifieke taken die aan zijn nadruk worden aangepast. Als u deze eerste stappen uitvoert, verloopt het instappen soepeler en wordt het proces beter afgestemd op het gehele implementatieproces:
+
+1. **voor Marketers**: Focus op de verwezenlijking van de reis, berichtontwerp, en campagneuitvoering.\
+   Voorbeeld: maak eerst een welkomstcampagne voor nieuwe klanten.
+
+2. **voor de Ingenieurs van Gegevens**: Vestig de gegevensstichting, vorm schema&#39;s, en integreer gegevensbronnen.\
+   Voorbeeld: Opstelling een schema om de geschiedenis van de klantenaankoop voor gepersonaliseerde aanbevelingen te volgen.
+
+3. **voor Beheerders**: De milieu&#39;s van de opstelling, leiden toestemmingen, en vormen overseinenkanalen.\
+   Voorbeeld: configureer sandboxomgevingen voor het testen van verschillende berichtstrategieën.
+
+4. **voor Ontwikkelaars**: Integreer mobiele apps, voer APIs uit, en bouwt douaneintegratie.\
+   Voorbeeld: gebruik de AJO API om pushmeldingen te activeren op basis van acties van klanten in uw mobiele app.
+
+Klik op de onderstaande rol voor specifieke richtlijnen die zijn afgestemd op uw verantwoordelijkheden:
+
+* [ krijgt Begonnen als Marketer ](path/marketer.md)
+* [ krijgen Begonnen als Ingenieur van Gegevens ](path/data-engineer.md)
+* [ krijgen Begonnen als Beheerder ](path/administrator.md)
 
 ## Hoe kan ik-video {#video}
 
-Inzicht in de belangrijkste mogelijkheden en persona&#39;s van Journey Optimizer. Leer hoe u door de gebruikersinterface kunt navigeren afhankelijk van uw rol.
+Bekijk de inleidende video voor meer informatie over sleutelmogelijkheden en persona&#39;s van Journey Optimizer. De video doorloopt de gebruikersinterface en markeert belangrijke eigenschappen die op rol-specifieke workflows worden gebaseerd.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430315?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
+
+## Aanvullende bronnen
+
+Verken de volgende bronnen voor diepgaander leren en updates:
+* [Release-opmerkingen](https://experienceleague.adobe.com/docs/journey-optimizer/using/rn/release-notes.html)
+* [ Video&#39;s van het Leerprogramma ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html)

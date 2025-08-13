@@ -1,0 +1,62 @@
+---
+solution: Journey Optimizer
+product: Journey Optimizer
+title: Rapportage
+description: Rapportage
+redpen-status: CREATED_||_2025-08-11_20-54-26
+source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+workflow-type: tm+mt
+source-wordcount: '194'
+ht-degree: 3%
+
+---
+
+
+# Rapportage{#section-overview}
+
+Bij rapportage in Adobe Journey Optimizer gaat het er allemaal om om onbewerkte gegevens om te zetten in activeerbare inzichten om u te helpen uw klantritten en marketingstrategieën te verfijnen. Of u updates in real time met levende rapporten of tendensen op lange termijn door alltime rapporten nodig hebt, deze eigenschap machtigt u om prestaties over kanalen en ervaringen te analyseren. Leer hoe live- en all-time-rapporten elkaar aanvullen, en biedt zowel directe feedback als diepgaande analyses van Customer Journey Analytics. Dive in op maat gemaakte inzichten voor uitgaande campagnes, binnenkomende ervaringen, en douanereisgegevens, allen ontworpen om u te helpen gegevensgedreven besluiten met vertrouwen maken.
+
+## Rapportfuncties
+
+:::: landing-cards-container
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
+
+Inleiding tot rapportage
+
+Leer meer over rapportagemogelijkheden in Adobe Journey Optimizer, waaronder live- en all-time rapporten voor actioneerbare inzichten en optimalisatie.
+
+[Aan de slag met rapportage](../using/reports/gs-reports.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+
+Live rapporten
+
+Ontdek rapportagetools in real-time om reizen, campagnes, abonnementen en communicatiekanalen te meten en te optimaliseren.
+
+[Meer informatie over Live-rapporten](live-report-landing-page.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+Alle tijdrapportage
+
+Begrijp metriek, integratie met Customer Journey Analytics, en hulpmiddelen voor prestatiesanalyse en inzicht op lange termijn.
+
+[Alle tijdrapportage detecteren](channel-report-landing-page.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+
+Aangepaste reisrapportage
+
+Duik in reis rapporterend met schema&#39;s, datasets, SQL vragen, en integratie met Customer Journey Analytics voor gegevensanalyse.
+
+[Aangepaste journalistiek verkennen](reports-landing-page.md)
+:::
+
+::::

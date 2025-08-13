@@ -6,7 +6,8 @@ description: Gebruik berichtoptimalisatie om gepersonaliseerde en geoptimaliseer
 role: User
 level: Intermediate
 keywords: campagne optimaliseren, experimenteren, doelgericht testen, A/B testen
-source-git-commit: edbe25e0cb341c08e440eb0663fb9b253273f48a
+exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 0%
@@ -98,7 +99,7 @@ Volg de onderstaande stappen om experimenten in te stellen en te bepalen welk be
 
 1. Maak een campagne. [ Leer meer ](../campaigns/create-campaign.md) <!--Add link to API triggered?-->
 
-1. Van het **[!UICONTROL Actions]** lusje, selecteer minstens twee binnenkomende acties, bijvoorbeeld [ code-gebaseerde ervaring ](../code-based/get-started-code-based.md) en [ in-app ](../in-app/get-started-in-app.md).
+1. Van het **[!UICONTROL Actions]** lusje, selecteer minstens twee binnenkomende acties, bijvoorbeeld [ code-gebaseerde ervaring ](../code-based/get-started-code-based.md) en [ in-app ](../../rp_landing_pages/in-app-landing-page.md).
 
 1. Selecteer **[!UICONTROL Message Optimization]** in de sectie **[!UICONTROL Experimentation]** .
 
@@ -161,4 +162,3 @@ Zodra de campagne live is, worden gebruikers van elke doelgroep willekeurig toeg
 
 E.g. explaining how a marketer can look at the report to determine which treatment (e.g. which message content) is performing the best for the targeting audience
 -->
-

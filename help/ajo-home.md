@@ -1,131 +1,109 @@
 ---
-keywords: Journey Optimizer;home;populaire onderwerpen
-title: Journey Optimizer-productdocumentatie
-description: Leer hoe je Adobe Journey Optimizer gebruikt.
 solution: Journey Optimizer
-product: journey optimizer
-exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
+product: Journey Optimizer
+title: Documentatie voor Adobe Journey Optimizer
+description: Documentatie voor Adobe Journey Optimizer
+redpen-status: CREATED_||_2025-08-11_21-21-01
+source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 11%
+source-wordcount: '425'
+ht-degree: 4%
 
 ---
 
-# Adobe [!DNL Journey Optimizer] -documentatie {#cjm-documentation}
 
-## Nieuwe functies
+# Documentatie voor Adobe Journey Optimizer{#section-overview}
 
-Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en -documentatie! Bekijk voor een uitgebreide lijst met functies, verbeteringen en oplossingen de gedetailleerde [Aanvullende informatie](using/rn/release-notes.md). Bezoek de [ pagina van documentatieupdates ](using/rn/documentation-updates.md) om met de recentste veranderingen in de productdocumentatie bijgewerkt te blijven.
+Adobe Journey Optimizer stelt teams in staat om naadloze, persoonlijke klantervaringen te ontwerpen en te leveren via kanalen als e-mail, SMS en meer. Door geavanceerde hulpmiddelen voor campagneorchestratie, gegevensbeheer, en besluitvorming te combineren, helpt het u reizen tot stand brengen die zich aan klantenbehoeften in echt - tijd aanpassen. Deze documentatie biedt een roadmap voor het beheersen van het platform - van het onderzoeken van zijn recentste eigenschappen en integratie aan het leren hoe te om publiek te beheren, reizen te vormen, en prestaties te analyseren. Of het nu gaat om een marketeer, gegevensanalist of campagnemanager, u vindt stapsgewijze hulplijnen, aanbevolen procedures en bronnen die op maat zijn gemaakt om u te helpen uw doelen met vertrouwen te bereiken.
 
->[!BEGINTABS]
+## Verkennen starten
 
->[!TAB  juli &quot;25 versie ]
+:::: landing-cards-container
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Release juli is nu live! Controleer de opmerkingen bij de release om nieuwe mogelijkheden, wijzigingen en verbeteringen te ontdekken.
+Nieuwe functies in Adobe Journey Optimizer
 
-[![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+Blijf up-to-date met de nieuwste opmerkingen over releases, nieuwe functies en wijzigingen in de documentatie in Adobe Journey Optimizer.
 
->[!TAB  Campagne Orchestration ]
+[Nieuwe functies weergeven](./rp_landing_pages/whats-new-landing-page.md)
+:::
 
-Journey Optimizer omvat nu **Organiseren van de Campagne**, een nieuw vermogen doelgericht-gebouwd voor merk-in werking gestelde, partijcampagnes. Deze release introduceert een campagneorchestration canvas en verbeterde gegevensmodellering, die samenwerken om marketers gepersonaliseerde cross-channel campagnes te laten plannen, richten en leveren.
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-[![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
+Aan de slag met Adobe Journey Optimizer
 
->[!TAB  Adobe Express ]
+Leer de basisbeginselen van Adobe Journey Optimizer, inclusief zijn mogelijkheden, architectuur en gebruikersinterface.
 
-Dankzij de Adobe Express-integratie in Adobe Journey Optimizer hebt u eenvoudig toegang tot Adobe Express-functies voor het bewerken van inhoud. Dankzij deze integratie kunt u afbeeldingen vergroten/verkleinen, achtergronden verwijderen, visuele effecten uitsnijden en elementen omzetten in JPEG of PNG zonder dat u tussen oplossingen hoeft te schakelen.
+[Aan de slag](./rp_landing_pages/get-started-landing-page.md)
+:::
 
-[![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-<!--
->[!TAB AI Assistant]
+Uitgebreide gids voor reizen
 
-Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
+Met deze uitgebreide handleiding kunt u persoonlijke reizen van klanten ontwerpen, ordenen, beheren en optimaliseren.
 
-[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/nl/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[Reizen verkennen](./rp_landing_pages/orchestrate-journeys-landing-page.md)
+:::
 
->[!TAB  het fragment van de Inhoud van AEM ]
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
-Door Adobe Experience Manager as a Cloud Service te integreren met Adobe Journey Optimizer, kunt u nu uw AEM-inhoudsfragmenten naadloos opnemen in uw Journey Optimizer-inhoud. Deze gestroomlijnde verbinding vereenvoudigt het proces van toegang tot en gebruik van AEM-inhoud, waardoor persoonlijke en dynamische campagnes en reizen kunnen worden gemaakt.
+Campagnes begrijpen en beheren
 
-[![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/aem-fragments.md)
+Gedetailleerde richtlijnen voor het maken, beheren en optimaliseren van verschillende soorten campagnes, zodat u deze op effectieve wijze kunt richten.
+
+[Meer informatie over campagnes](./rp_landing_pages/campaigns-landing-page.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+
+Communicatiekanalen
+
+Configureer en beheer e-mail, SMS, pushberichten en andere kanalen voor persoonlijke klantinteracties.
+
+[Kanalen verkennen](./using/channels/gs-channels.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
+
+Conflictbeheer en -prioritering
+
+Leer hoe u communicatieconflicten tussen campagnes en reizen op effectieve wijze kunt prioriteren en beheren.
+
+[Meer informatie over conflictbeheer](./rp_landing_pages/conflict-prioritization-landing-page.md)
+:::
+
+::::
 
 
->[!ENDTABS]
+## Aanvullende bronnen
 
-## Begin met de basisbeginselen!
-
-<table style="table-layout:fixed">
-  <tr style="border: 0;">
-    <td>
-    <a href="using/start/quick-start.md"><img src="using/assets/do-not-localize/start-quick.png"></a>
-    <div><strong> Snelle begingidsen </strong><br/> leren hoe te om uw doelstellingen sneller in Journey Optimizer met uw gepersonaliseerde benadering afhankelijk van uw rol te bereiken.</div>
-    </td>
-    <td>
-    <a href="using/start/user-interface.md"><img src="using/assets/do-not-localize/start-interface.jpeg"></a>
-    <div><strong>Gebruikersinterface</strong><br/>Leer navigeren en uw ervaring optimaliseren in Journey Optimizer.</div>
-    </td>
-    <td>
-    <a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong> creeer uw eerste reis </strong><br/> Ontwerp en orkestreer gepersonaliseerde omnichannel reizen om marketing outreach met één-aan-één klantenovereenkomst te harmoniseren. 
-    </div>
-    </td>
-    <td>
-    <a href="using/campaigns/create-campaign.md"><img src="using/assets/do-not-localize/start-campaign.jpeg"></a>
-    <div><strong> Lancering uw eerste campagne </strong><br/> creeert en begint uw eerste campagne in Journey Optimizer om gerichte, éénmalige inhoud aan een specifiek publiek te leveren.</div>
-    </td>
-  </tr>
-  <tr style="border: 0;">
-    <td align="center"><a href="using/start/quick-start.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="using/start/user-interface.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="using/campaigns/create-campaign.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
-    </tr>
-</table>
-
-## De documentatie verkennen
-
-<table style="table-layout:auto">
-  <tr style="border: 0;">
-    <td>
-      <img src="using/assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
-      <strong> de ervaring van de Klant </strong><br/> <a href="using/building-journeys/journey.md"> Reizen </a> - <a href="using/campaigns/get-started-with-campaigns.md"> Campagnes </a> - <a href="using/landing-pages/get-started-lp.md"> het Bestaan pagina's </a> - <a href="using/reports/live-report.md"> het Melden </a> - <a href="using/offers/get-started/starting-offer-decisioning.md"> Beheer van het Besluit </a>
-    </td>
-    <td>
-      <img src="using/assets/do-not-localize/icon-configure.svg" width="35px"><br/>
-      <strong> Configuratie <br/> beleid </strong><br/> <a href="using/configuration/channel-surfaces.md"> de oppervlakten van het Kanaal </a> - <a href="using/configuration/about-data-sources-events-actions.md"> vormen reizen </a> - <a href="using/administration/permissions-overview.md"> controle van de Toegang </a> - <a href="using/administration/sandboxes.md"> het beheer van Sandboxen </a>
-    </td>
-    <td>
-      <img src="using/assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
-      <strong>Communicatiekanalen</strong><br/><a href="using/email/get-started-email.md">E-mail</a> - <a href="using/sms/get-started-sms.md">Sms</a> - <a href="using/in-app/get-started-in-app.md">In-app</a> - <a href="using/push/get-started-push.md">Pushmeldingen</a> - <a href="using/direct-mail/get-started-direct-mail.md">Direct mail</a> - <a href="using/web/get-started-web.md">Web</a>
-    </td>
-  </tr>
-  <tr style="border: 0;">
-    <td>
-      <img src="using/assets/do-not-localize/icon-content.svg" width="35px"><br/>
-      <strong> het beheer van de Inhoud </strong><br/> <a href="using/integrations/assets.md"> Assets/beelden </a> - <a href="using/personalization/personalize.md"> Personalization </a> - <a href="using/content-management/content-templates.md"> Herbruikbare </a> &amp; <a href="using/personalization/dynamic-content.md"> dynamische </a> inhoud - <a href="using/content-management/preview-test.md"> Test &amp; voorproef inhoud </a>
-    </td>
-    <td>
-      <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
-      <strong> Profielen &amp; publiek </strong><br/> <a href="using/audience/about-audiences.md"> Soorten publiek </a> - <a href="using/audience/get-started-profiles.md"> Profielen </a> - <a href="using/audience/get-started-identity.md"> Identiteiten </a> - <a href="using/audience/license-usage.md"> het gebruik van de Vergunning </a> - <a href="using/privacy/get-started-privacy.md"> het beheer van de Privacy </a>
-    </td>
-    <td>
-      <img src="using/assets/do-not-localize/icon-data.svg" width="35px"><br/>
-      <strong> het beheer van Gegevens </strong><br/> <a href="using/data/get-started-schemas.md"> Schema's </a> - <a href="using/data/get-started-datasets.md"> Datasets </a> - <a href="using/data/get-started-queries.md"> Vragen </a>
-    </td>
-  </tr>
-</table>
+- **[het Testen, Bevestiging, en Goedkeuring](./rp_landing_pages/test-landing-page.md)** - test en keur uw inhoud, reizen, en campagnes goed om kwaliteit en nauwkeurigheid vóór plaatsing te verzekeren.
+- **[Soorten publiek, Profielen, en Identiteiten](./rp_landing_pages/audiences-profiles-identities-landing-page.md)** - beheer publiek, profielen, en identiteiten om het efficiënte richten en verpersoonlijking toe te laten.
+- **[Uitgebreide Rapportering](./rp_landing_pages/reporting-landing-page.md)** - analyseer en optimaliseer reizen, campagnes, en kanalen met geavanceerde rapporteringseigenschappen.
+- **[Mogelijkheden van het Besluit](./rp_landing_pages/decisioning-landing-page.md)** - de beslissingshulpmiddelen van de hefboomwerking om gepersonaliseerde aanbiedingen tot stand te brengen en te beheren en marketing werkschema&#39;s te optimaliseren.
+- **[Uitgebreid Gegevensbeheer](./rp_landing_pages/data-management-landing-page.md)** - beheer effectief gegevens met hulpmiddelen voor bestuur, schemagebruik, en het vragen van mogelijkheden.
+- **[Configuratie van het Kanaal](./rp_landing_pages/configuration-landing-page.md)** - opstelling en optimaliseer communicatie kanalen voor naleving en verbeterde campagneprestaties.
+- **[Configuratie van de Reis](./rp_landing_pages/configure-journeys-landing-page.md)** - vorm gegevensbronnen, gebeurtenissen, en acties om naadloze klantenreizen te bouwen.
+- **[verbindt Systemen en Milieu&#39;s](./rp_landing_pages/connect-systems-landing-page.md)** - integreer Adobe Journey Optimizer met externe systemen, APIs, en de oplossingen van Adobe.
+- **[het Leiden Toegangsbeheer](./rp_landing_pages/access-control-landing-page.md)** - de gebruikerstoegang, rollen, en toestemmingen van de Controle om gegevens te beschermen en bestuur te verzekeren.
+- **[Privacy, Toestemming, en het Beheer van Gegevens](./rp_landing_pages/privacy-landing-page.md)** - beheer gegevensprivacy, toestemming, en bestuur om aan verordeningen te voldoen en gevoelige informatie te beschermen.
 
 ## Aanvullende bronnen
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong> Adobe Journey Optimizer </strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=nl-NL" target="_blank"> Leerprogramma's </a> - <a href="https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank"> Beschrijving van het Product </a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank"> Overzicht van de Veiligheid (PDF) </a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank"> APIs verwijzing </a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL" target="_blank"> het Woordenboek van het Schema van Journey Optimizer </a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html" target="_blank"> Leerprogramma's </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank"> Beschrijving van het Product </a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank"> Overzicht van de Veiligheid (PDF) </a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank"> APIs verwijzing </a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank"> het Woordenboek van het Schema van Journey Optimizer </a>
 
 </td>
 <td><strong> Adobe Experience Platform </strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=nl-NL" target="_blank"> Documentatie </a> - <a href="https://www.adobe.com/nl/experience-platform/documentation-and-developer-resources.html" target="_blank"> middelen van Ontwikkelaars </a>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html" target="_blank"> Documentatie </a> - <a href="https://www.adobe.com/nl/experience-platform/documentation-and-developer-resources.html" target="_blank"> middelen van Ontwikkelaars </a>
 </td>
 </tr></table>
 

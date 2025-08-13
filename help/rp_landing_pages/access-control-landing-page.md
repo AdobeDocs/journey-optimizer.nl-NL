@@ -1,0 +1,87 @@
+---
+solution: Journey Optimizer
+product: Journey Optimizer
+title: Toegangsbeheer
+description: Toegangsbeheer
+redpen-status: CREATED_||_2025-08-11_21-19-16
+source-git-commit: e8b71a7efe1ca05a33bc6f33253900a58fa6665c
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 3%
+
+---
+
+
+# Toegangsbeheer{#section-overview}
+
+Met toegangsbeheer in Adobe Journey Optimizer kunnen beheerders gebruikerstoegang beheren in overeenstemming met organisatorische behoeften en beheerstandaarden. Gebruikend **rollen**, **toestemmingen**, **zandbakken**, en geavanceerde modellen zoals op voorwerp en attribuut-gebaseerde controles, kunt u toegang maken om gevoelige gegevens te beschermen terwijl het toelaten van samenwerking. De ingebouwde rollen vereenvoudigen opstelling, terwijl de douanetoestemmingen en de etiketten nauwkeurigere controle aanbieden. Deze hulpmiddelen helpen veiligheid en flexibiliteit in evenwicht brengen, die teams de toegang geven die zij hebben vereist zonder naleving te compromitteren.
+
+## Functies voor toegangsbeheer
+
+:::: landing-cards-container
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+Aan de slag met Toegangsbeheer
+
+Leer de concepten en processen voor het beheren van gebruikerstoestemmingen, rollen, zandbakken, en toegangsbeheermechanismen in Adobe Journey Optimizer.
+
+[Het overzicht verkennen](../using/administration/permissions-overview.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+Gebruikers en rollen beheren
+
+Stapsgewijze begeleiding bij het toewijzen, bewerken en maken van rollen om gebruikerstoegang en -machtigingen in Adobe Journey Optimizer te beheren.
+
+[Leer hoe u rollen beheert](../using/administration/permissions.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
+
+Ingebouwde rollen
+
+Ontdek de vooraf bepaalde rollen en hun bijbehorende toestemmingen om toegangsbeheer effectief te beheren.
+
+[Ingebouwde rollen weergeven](../using/administration/ootb-product-profiles.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+
+Ingebouwde machtigingen
+
+Begrijp de beschikbare toestemmingen en hun functionaliteit om op rol-gebaseerde toegangscontrole in Adobe Journey Optimizer te vormen.
+
+[Rechten verkennen](../using/administration/ootb-permissions.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+Machtigingsniveaus
+
+Leer over high-level en laag-vlakke toestemmingen en hoe zij korrelige controle over eigenschappen en toegang toelaten.
+
+[Toegangsniveaus begrijpen](../using/administration/high-low-permissions.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+
+Toegangsbeheer op basis van kenmerken
+
+Beheer gegevenstoegang met labels, bescherm gevoelige elementen en verforceer het beheerbeleid met op kenmerken gebaseerde toegangscontrole.
+
+[Meer informatie over ABAC](../using/administration/attribute-based-access.md)
+:::
+
+::::
+
+
+## Aanvullende bronnen
+
+- **[voorwerp-vlakke Controle van de Toegang](../using/administration/object-based-access.md)** - bepaal en beheer objecten-vlakke gegevenstoegang met etiketten om bestuur te verzekeren en gevoelige digitale activa te beschermen.

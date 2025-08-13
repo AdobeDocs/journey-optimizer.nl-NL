@@ -5,20 +5,23 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
+source-git-commit: 0d9d5324a8ca2c02fd18c01808e45be83952cc91
 workflow-type: tm+mt
-source-wordcount: '2598'
-ht-degree: 19%
+source-wordcount: '2875'
+ht-degree: 18%
 
 ---
+
 
 # Adobe Journey Optimizer Help {#using}
 
 + [Journey Optimizer-documentatie](ajo-home.md)
 + Nieuwe functies {#whats-new}
+   + [Nieuwe functies](/help/rp_landing_pages/whats-new-landing-page.md)
    + [Vroege aanvullende informatie](using/rn/e-release-notes.md)
    + [Opmerkingen bij de laatste release](using/rn/release-notes.md)
    + Opmerkingen bij vorige release {#previous-rn-new}
+      + [Opmerkingen bij vorige release](/help/rp_landing_pages/previous-rn-new-landing-page.md)
       + [2025](using/rn/release-notes-2025.md)
       + [2024](using/rn/release-notes-2024.md)
       + [2023](using/rn/release-notes-2023.md)
@@ -26,9 +29,13 @@ ht-degree: 19%
       + [2021](using/rn/release-notes-2021.md)
    + [Documentatie-updates](using/rn/documentation-updates.md)
    + [Verbeterd reiscanvas](using/rn/new-canvas.md)
-+ Aan de slag{#get-started}
-   + [Wat is Journey Optimizer](using/start/get-started.md)
-   + Hulplijnen voor snel starten{#quick-start}
++ Aan de slag {#get-started}
+   + [Aan de slag](/help/rp_landing_pages/get-started-landing-page.md)
+   + [Belangrijkste mogelijkheden](using/start/get-started.md)
+   + [Architectuur](using/start/architecture-concepts-redpen.md)
+   + [Basisconcepten](using/start/functional-areas-redpen.md)
+   + [Belangrijke terminologie](using/start/terminology-md-redpen.md)
+   + Taken en verantwoordelijkheden {#quick-start}
       + [Overzicht](using/start/quick-start.md)
       + [Aan de slag als een marketeter](using/start/path/marketer.md)
       + [Aan de slag als Data engineer](using/start/path/data-engineer.md)
@@ -36,14 +43,16 @@ ht-degree: 19%
       + [Aan de slag als ontwikkelaar](using/start/path/developer.md)
    + [Gebruikersinterface](using/start/user-interface.md)
    + [Zoeken, filteren en categoriseren](using/start/search-filter-categorize.md)
-   + [Guardrails](using/start/guardrails.md)
    + [Toegankelijkheid](using/start/accessibility.md)
-   + [Playbooks voor gebruiksscenario&#39;s](using/start/playbooks.md)
    + [Werken met AI-assistent](using/start/ai-assistant.md)
+   + [Guardrails](using/start/guardrails.md)
    + [Best practices](using/start/best-practices.md)
+   + [Afspeelboeken](using/start/playbooks.md)
 + Journeys {#orchestrate-journeys}
+   + [Journeys](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Aan de slag met reizen](using/building-journeys/journey.md)
    + Een journey maken {#create-journey}
+      + [Een journey maken](/help/rp_landing_pages/create-journey-landing-page.md)
       + [Uw eerste journey maken](using/building-journeys/journey-gs.md)
       + [De eigenschappen van uw reis instellen](using/building-journeys/journey-properties.md)
       + [Vorm en spoor uw reismetriek](using/building-journeys/success-metrics.md)
@@ -54,6 +63,7 @@ ht-degree: 19%
       + [Een reis pauzeren](using/building-journeys/journey-pause.md)
       + [Live melding op reis](using/building-journeys/report-journey.md)
    + Uw reizen beheren {#manage-journey}
+      + [Uw reizen beheren](/help/rp_landing_pages/manage-journey-landing-page.md)
       + [Bladeren en uw reizen filteren](using/building-journeys/journey-ui.md)
       + [Profielingang bij reizen](using/building-journeys/entry-management.md)
       + [Aanvullende id&#39;s gebruiken tijdens reizen](using/building-journeys/supplemental-identifier.md)
@@ -61,8 +71,9 @@ ht-degree: 19%
       + [Send-Time optimalisatie](using/building-journeys/send-time-optimization.md)
       + [Beëindig uw reis](using/building-journeys/end-journey.md)
       + [Een journey naar een andere sandbox kopiëren](using/building-journeys/copy-to-sandbox.md)
-      + [ integreren met de Intelligente Diensten ](using/building-journeys/ai-services-overview.md)
+      + [Integreren met intelligente services](using/building-journeys/ai-services-overview.md)
    + Activiteiten {#about-journey-building}
+      + [Activiteiten](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [Aan de slag met reisactiviteiten](using/building-journeys/about-journey-activities.md)
       + [Algemene gebeurtenissen](using/building-journeys/general-events.md)
       + [Reactie](using/building-journeys/reaction-events.md)
@@ -78,8 +89,10 @@ ht-degree: 19%
       + [Springen](using/building-journeys/jump.md)
       + [Profiel bijwerken](using/building-journeys/update-profiles.md)
    + Expressies maken {#building-advanced-conditions-journeys}
+      + [Expressies maken](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
       + [Werken met de geavanceerde expressie-editor](using/building-journeys/expression/expressionadvanced.md)
       + Syntaxis {#syntax}
+         + [Syntaxis](/help/rp_landing_pages/syntax-landing-page.md)
          + [Syntaxis van geavanceerde expressie-editor](using/building-journeys/expression/generalities.md)
          + [Voorwaardelijke instructie](using/building-journeys/expression/conditional-instruction.md)
          + [Datatypen](using/building-journeys/expression/data-types.md)
@@ -89,10 +102,12 @@ ht-degree: 19%
          + [Journeyeigenschappen](using/building-journeys/expression/journey-properties.md)
          + [Voorbeelden](using/building-journeys/expression/advanced-editor-use-cases.md)
       + Functies {#main-functions-journey}
+         + [Functies](/help/rp_landing_pages/main-functions-journey-landing-page.md)
          + [Hoofdfuncties](using/building-journeys/expression/functions.md)
          + Adobe Experience Platform {#adobe-experience-platform}
             + [inPubliek](using/building-journeys/functions/functioninaudience.md)
          + Samenvoeging {#aggregation}
+            + [Samenvoeging](/help/rp_landing_pages/aggregation-landing-page.md)
             + [avg](using/building-journeys/functions/functionavg.md)
             + [count](using/building-journeys/functions/functioncount.md)
             + [countOnlyNull](using/building-journeys/functions/functioncountonlynull.md)
@@ -103,6 +118,7 @@ ht-degree: 19%
             + [min](using/building-journeys/functions/functionmin.md)
             + [sum](using/building-journeys/functions/functionsum.md)
          + Conversie {#conversion}
+            + [Conversie](/help/rp_landing_pages/conversion-landing-page.md)
             + [toBool](using/building-journeys/functions/functiontobool.md)
             + [toDateOnly](using/building-journeys/functions/functiontodateonly.md)
             + [toDateTime](using/building-journeys/functions/functiontodatetime.md)
@@ -112,6 +128,7 @@ ht-degree: 19%
             + [toInteger](using/building-journeys/functions/functiontointeger.md)
             + [toString](using/building-journeys/functions/functiontostring.md)
          + Datum {#date}
+            + [Datum](/help/rp_landing_pages/date-landing-page.md)
             + [currentTimeInMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
             + [inLastDays](using/building-journeys/functions/functioninlastdays.md)
             + [inLastHours](using/building-journeys/functions/functioninlasthours.md)
@@ -127,6 +144,7 @@ ht-degree: 19%
             + [setDays](using/building-journeys/functions/functionsetdays.md)
             + [updateTimeZone](using/building-journeys/functions/functionupdatetimezone.md)
          + Lijst {#list}
+            + [Lijst](/help/rp_landing_pages/list-landing-page.md)
             + [distinct](using/building-journeys/functions/functiondistinct.md)
             + [distinctWithNull](using/building-journeys/functions/functiondistinctwithnull.md)
             + [filter](using/building-journeys/functions/functionfilter.md)
@@ -138,9 +156,11 @@ ht-degree: 19%
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
          + Math {#math}
+            + [Math](/help/rp_landing_pages/math-landing-page.md)
             + [random](using/building-journeys/functions/functionrandom.md)
             + [round](using/building-journeys/functions/functionround.md)
          + String {#string}
+            + [String](/help/rp_landing_pages/string-landing-page.md)
             + [concat](using/building-journeys/functions/functionconcat.md)
             + [contain](using/building-journeys/functions/functioncontain.md)
             + [containIgnoreCase](using/building-journeys/functions/functioncontainwithignorecase.md)
@@ -165,6 +185,7 @@ ht-degree: 19%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + Gebruiksscenario’s {#journey-use-cases}
+      + [Gebruiksscenario’s](/help/rp_landing_pages/journey-use-cases-landing-page.md)
       + [Gebruikskwesties leren](using/building-journeys/jo-use-cases.md)
       + [Opzoeken van gebeurtenissen beleven](using/building-journeys/exp-event-lookup.md)
       + [Multikanaalberichten verzenden](using/building-journeys/journeys-uc.md)
@@ -175,15 +196,17 @@ ht-degree: 19%
       + [Productie beperken met externe gegevensbronnen en aangepaste acties](using/building-journeys/limit-throughput.md)
       + [Aangepaste acties gebruiken om gebeurtenissen voor reizen in Experience Platform te schrijven](using/building-journeys/custom-action-aep.md)
    + Problemen oplossen {#troubleshoot-journey}
-      + [Uw reizen oplossen](using/building-journeys/gs-troubleshooting.md)
+      + [Problemen oplossen](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
       + [Los reisfouten op](using/building-journeys/troubleshooting.md)
       + [Los reisuitvoering problemen op](using/building-journeys/troubleshooting-execution.md)
       + [Binnenkomende acties oplossen](using/building-journeys/troubleshooting-inbound.md)
       + [Aangepaste acties oplossen](using/action/troubleshoot-custom-action.md)
 + Campagnes {#campaigns}
+   + [Campagnes](/help/rp_landing_pages/campaigns-landing-page.md)
    + [Aan de slag met campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Campagnes openen en beheren](using/campaigns/modify-stop-campaign.md)
    + Actiecampagnes {#action-campaigns}
+      + [Actiecampagnes](/help/rp_landing_pages/action-campaigns-landing-page.md)
       + [Werken met actiecampagnes](using/campaigns/create-campaign.md)
       + [De eigenschappen van de campagne definiëren](using/campaigns/campaign-properties.md)
       + [Campagne configureren](using/campaigns/campaign-action.md)
@@ -193,6 +216,7 @@ ht-degree: 19%
       + [De campagne plannen](using/campaigns/campaign-schedule.md)
       + [Een handelingscampagne bekijken en activeren](using/campaigns/review-activate-campaign.md)
    + API-actiecampagnes {#api-triggered-campaigns}
+      + [API-actiecampagnes](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
       + [Werken met door API geactiveerde campagnes](using/campaigns/api-triggered-campaigns.md)
       + [De eigenschappen van de campagne definiëren](using/campaigns/api-triggered-campaign-properties.md)
       + [Campagne configureren](using/campaigns/api-triggered-campaign-action.md)
@@ -202,28 +226,34 @@ ht-degree: 19%
       + [De campagne bekijken en activeren](using/campaigns/review-activate-api-triggered-campaign.md)
       + [De uitvoering van de campagne activeren](using/campaigns/trigger-campaigns.md)
    + Geordende campagnes {#orchestrated-campaigns}
+      + [Geordende campagnes](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [Aan de slag met geordende campagnes](using/orchestrated/gs-orchestrated-campaigns.md)
       + [Afvoerkanalen en beperkingen](using/orchestrated/guardrails.md)
       + [Veelgestelde vragen](using/orchestrated/orchestrated-campaigns-faq.md)
-      + Gegevensconfiguratie {#configuration}
+      + Gegevensconfiguratie {#data-configuration}
+         + [Gegevensconfiguratie](/help/rp_landing_pages/data-configuration-landing-page.md)
          + Relationele schema&#39;s en gegevens beheren {#schemas-datasets}
+            + [Relationele schema&#39;s en gegevens beheren](/help/rp_landing_pages/schemas-datasets-landing-page.md)
             + [Begin met schema&#39;s en datasets](using/orchestrated/gs-schemas.md)
             + [Handmatig schema](using/orchestrated/manual-schema.md)
             + [Schema voor uploaden bestand](using/orchestrated/file-upload-schema.md)
             + [Samenvattingsgegevens](using/orchestrated/ingest-data.md)
          + [Een doeldimensie maken](using/orchestrated/target-dimension.md)
-      + Start uw eerste geordende campagne{#launch}
+      + Start uw eerste geordende campagne {#launch}
+         + [Start uw eerste geordende campagne](/help/rp_landing_pages/launch-landing-page.md)
          + [Belangrijke stappen om een geordende campagne te maken](using/orchestrated/gs-campaign-creation.md)
          + [De campagne maken en plannen](using/orchestrated/create-orchestrated-campaign.md)
          + [Orchestraten](using/orchestrated/orchestrate-activities.md)
          + [De campagne starten en controleren](using/orchestrated/start-monitor-campaigns.md)
-         + [ Meldend ](using/orchestrated/reporting-campaigns.md)
+         + [Rapportage](using/orchestrated/reporting-campaigns.md)
       + De database opvragen {#query-database}
-         + [ Werk met de regelbouwer ](using/orchestrated/orchestrated-rule-builder.md)
-         + [ bouwt uw eerste regel ](using/orchestrated/build-query.md)
+         + [De database opvragen](/help/rp_landing_pages/query-database-landing-page.md)
+         + [Werken met de regelbouwer](using/orchestrated/orchestrated-rule-builder.md)
+         + [Uw eerste regel samenstellen](using/orchestrated/build-query.md)
          + [Expressies bewerken](using/orchestrated/edit-expressions.md)
-         + [ opnieuw rangschikkend ](using/orchestrated/retarget.md)
+         + [Opnieuw rangschikken](using/orchestrated/retarget.md)
       + Gecontroleerde campagnes {#design-campaigns}
+         + [Gecontroleerde campagnes](/help/rp_landing_pages/design-campaigns-landing-page.md)
          + [Aan de slag met activiteiten](using/orchestrated/activities/about-activities.md)
          + [En-join](using/orchestrated/activities/and-join.md)
          + [publiek opbouwen](using/orchestrated/activities/build-audience.md)
@@ -240,15 +270,19 @@ ht-degree: 19%
          + [Testen](using/orchestrated/activities/test.md)
          + [Wachten](using/orchestrated/activities/wait.md)
 + Conflictbeheer en prioritering {#conflict-prioritization}
+   + [Conflictbeheer en prioritering](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
    + [Aan de slag met conflictbeheer en -prioriteiten](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Mogelijke conflicten identificeren](using/conflict-prioritization/conflicts.md)
-   + [ wijs prioritaire scores toe ](using/conflict-prioritization/priority-scores.md)
-Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
+   + [Prioriteitsscores toewijzen](using/conflict-prioritization/priority-scores.md)
+   + Regels voor het toewijzen van berichten en reizen instellen {#capping-rules}
+      + [Regels voor het toewijzen van berichten en reizen instellen](/help/rp_landing_pages/capping-rules-landing-page.md)
       + [Werken met regelsets](using/conflict-prioritization/rule-sets.md)
       + [Afbakening van reizen en arbitrage](using/conflict-prioritization/journey-capping.md)
       + [Frequentiecapaciteit per kanaal en communicatietype](using/conflict-prioritization/channel-capping.md)
 + Testen en goedkeuren {#test}
+   + [Testen en goedkeuren](/help/rp_landing_pages/test-landing-page.md)
    + Inhoud voorvertonen en testen {#preview-test}
+      + [Inhoud voorvertonen en testen](/help/rp_landing_pages/preview-test-landing-page.md)
       + [Aan de slag met voorvertoning en testen](using/content-management/preview-test.md)
       + [Testprofielen selecteren](using/content-management/test-profiles.md)
       + [Voorvertonen met testprofielen](using/content-management/preview.md)
@@ -257,6 +291,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Inhoudsvariaties simuleren](using/test-approve/simulate-sample-input.md)
       + [E-mailspamrapport](using/content-management/spam-report.md)
    + Reizen en campagnes goedkeuren {#approve}
+      + [Reizen en campagnes goedkeuren](/help/rp_landing_pages/approve-landing-page.md)
       + [Aan de slag met goedkeuringen](using/test-approve/gs-approval.md)
       + [Goedkeuringsbeleid maken en beheren](using/test-approve/approval-policies.md)
       + [Goedkeuring aanvragen](using/test-approve/request-approval.md)
@@ -265,17 +300,20 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
 + Communicatiekanalen {#channels}
    + [Aan de slag met communicatiekanalen](using/channels/gs-channels.md)
    + Email channel {#email}
-      + [Aan de slag met e-mails](using/email/get-started-email.md)
+      + [Email channel](/help/rp_landing_pages/email-landing-page.md)
       + [Een e-mail maken](using/email/create-email.md)
       + Uw e-mailinhoud ontwerpen {#design-email}
+         + [Uw e-mailinhoud ontwerpen](/help/rp_landing_pages/design-email-landing-page.md)
          + [Aan de slag met e-mailontwerp](using/email/get-started-email-design.md)
          + Inhoud maken {#start-creating-content}
+            + [Inhoud maken](/help/rp_landing_pages/start-creating-content-landing-page.md)
             + [Inhoud helemaal opnieuw ontwerpen](using/email/content-from-scratch.md)
             + [Uw inhoud importeren](using/email/existing-content.md)
             + [Uw eigen inhoud coderen](using/email/code-content.md)
             + [E-mailsjablonen gebruiken](using/email/use-email-templates.md)
             + [E-mailthema&#39;s gebruiken](using/email/apply-email-themes.md)
          + Uw inhoud ontwerpen {#add-content}
+            + [Uw inhoud ontwerpen](/help/rp_landing_pages/add-content-landing-page.md)
             + [Inhoudscomponenten gebruiken](using/email/content-components.md)
             + [Gebruik visuele fragmenten](using/email/use-visual-fragments.md)
             + [Koppelingen toevoegen en berichten bijhouden](using/email/message-tracking.md)
@@ -284,13 +322,15 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
             + [Metagegevens toevoegen](using/email/email-metadata.md)
             + [Aangepaste CSS toevoegen](using/email/custom-css.md)
          + Stijl bewerken {#edit-style}
+            + [Stijl bewerken](/help/rp_landing_pages/edit-style-landing-page.md)
             + [Aan de slag met e-mailstijl](using/email/get-started-email-style.md)
             + [Achtergrondinstellingen bewerken](using/email/backgrounds.md)
             + [Verticale uitlijning en opvulling aanpassen](using/email/alignment-and-padding.md)
             + [Inline-opmaakkenmerken toevoegen](using/email/inline-styling.md)
             + [Inhoud donkere modus definiëren](using/email/dark-mode.md)
-      + [ beheer e-mailopt-out ](using/email/email-opt-out.md)
+      + [E-mailuitschakelbeheer](using/email/email-opt-out.md)
       + E-mailkanaal configureren {#configure-email}
+         + [E-mailkanaal configureren](/help/rp_landing_pages/configure-email-landing-page.md)
          + [Aan de slag met e-mailconfiguratie](using/email/get-started-email-config.md)
          + [Instellingen voor e-mailconfiguratie definiëren](using/email/email-settings.md)
          + [Abonnement op lijst opzeggen inschakelen](using/email/list-unsubscribe.md)
@@ -298,32 +338,36 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
          + [URL-tracking](using/email/url-tracking.md)
          + [E-mailconfiguratie aanpassen](using/email/surface-personalization.md)
       + E-maillevering {#deliverability}
+         + [E-maillevering](/help/rp_landing_pages/deliverability-landing-page.md)
          + [Aan de slag met de prestaties](using/reports/deliverability.md)
          + [De onderdrukkingslijst begrijpen](using/reports/suppression-list.md)
          + [Nieuwe DMARC-vereiste](using/configuration/dmarc-record-update.md)
-   + Kanaal in app{#in-app}
-      + [Aan de slag met In-app-kanaal](using/in-app/get-started-in-app.md)
+   + Kanaal in app {#in-app}
+      + [Kanaal in app](/help/rp_landing_pages/in-app-landing-page.md)
       + [Voorwaarden voor kanalen in de app](using/in-app/inapp-configuration.md)
       + [Een mobiel bericht in de app maken](using/in-app/create-in-app.md)
       + [Een bericht voor een webtoepassing maken](using/in-app/create-in-app-web.md)
       + [In-app-inhoud ontwerpen](using/in-app/design-in-app.md)
       + [Meldingen voor In-app controleren en verzenden](using/in-app/send-in-app.md)
-   + Push-meldingskanaal{#push}
-      + [Aan de slag met pushmeldingen](using/push/get-started-push.md)
+   + Push-meldingskanaal {#push}
+      + [Push-meldingskanaal](/help/rp_landing_pages/push-landing-page.md)
       + [Een pushmelding maken](using/push/create-push.md)
       + [Uw pushmelding ontwerpen](using/push/design-push.md)
       + [Uw pushmelding controleren en verzenden](using/push/send-push.md)
-      + Pushmeldingen configureren{#push-config}
+      + Pushmeldingen configureren {#push-config}
+         + [Pushmeldingen configureren](/help/rp_landing_pages/push-config-landing-page.md)
          + [Pushmeldingsstroom](using/push/push-gs.md)
          + [Pushmeldingskanaal configureren](using/push/push-configuration.md)
          + [Snelstartworkflow voor mobiele instaptoegang](using/push/mobile-onboarding-wf.md)
-   + SMS/MMS/RCS-kanaal{#sms}
+   + SMS/MMS/RCS-kanaal {#sms}
+      + [SMS/MMS/RCS-kanaal](/help/rp_landing_pages/sms-landing-page.md)
       + [Aan de slag met tekstberichten](using/sms/get-started-sms.md)
       + [Een SMS-/MMS-/RCS-bericht maken](using/sms/create-sms.md)
       + [Tekstberichten controleren en verzenden](using/sms/send-sms.md)
-      + [ beheer de opt-out van het tekstbericht ](using/sms/sms-opt-out.md)
+      + [Weigeren tekstbericht beheren](using/sms/sms-opt-out.md)
       + [SMS-subdomeinen instellen](using/sms/sms-subdomains.md)
-      + SMS/MMS/RCS-kanaal configureren{#configure-sms}
+      + SMS/MMS/RCS-kanaal configureren {#configure-sms}
+         + [SMS/MMS/RCS-kanaal configureren](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [Aan de slag met de configuratie SMS / MMS / RCS](using/sms/sms-configuration.md)
          + [Sinch-provider configureren](using/sms/sms-configuration-sinch.md)
          + [Infobip-provider configureren](using/sms/sms-configuration-infobip.md)
@@ -331,64 +375,76 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
          + [Een aangepaste provider configureren](using/sms/sms-configuration-custom.md)
          + [Een SMS-/MMS-/RCS-configuratie maken](using/sms/sms-configuration-surface.md)
    + Direct mail {#direct-mail}
+      + [Direct mail](/help/rp_landing_pages/direct-mail-landing-page.md)
       + [Aan de slag met direct mail](using/direct-mail/get-started-direct-mail.md)
       + [Een directe e-mail maken](using/direct-mail/create-direct-mail.md)
       + [Een direct mailbericht controleren en verzenden](using/direct-mail/test-send-direct-mail.md)
       + [Direct mail configureren](using/direct-mail/direct-mail-configuration.md)
       + [Berichten direct mail verzenden met reizen](using/direct-mail/direct-mail-journeys.md)
    + Webkanaal {#web}
+      + [Webkanaal](/help/rp_landing_pages/web-landing-page.md)
       + [Aan de slag met webkanaal](using/web/get-started-web.md)
       + Webkanaal configureren {#configure-web-channel}
+         + [Webkanaal configureren](/help/rp_landing_pages/configure-web-channel-landing-page.md)
          + [Voorwaarden voor webkanalen](using/web/web-prerequisites.md)
          + [Websubdomeinen configureren](using/web/web-delegated-subdomains.md)
          + [Webkanaalconfiguratie maken](using/web/web-configuration.md)
       + [Webervaringen maken](using/web/create-web.md)
       + Webpagina&#39;s van auteurs {#author-web-pages}
+         + [Webpagina&#39;s van auteurs](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [Werken met de webontwerper](using/web/web-visual-editor.md)
          + [De niet-visuele editor gebruiken](using/web/web-non-visual-editor.md)
          + [Wijzigingen beheren](using/web/manage-web-modifications.md)
          + [Uw webervaringen bewaken](using/web/monitor-web-experiences.md)
          + [Toepassingen van één pagina maken](using/web/web-spa.md)
    + Ervaring op basis van code {#code-based-experience}
+      + [Ervaring op basis van code](/help/rp_landing_pages/code-based-experience-landing-page.md)
       + [Aan de slag met op code gebaseerd kanaal](using/code-based/get-started-code-based.md)
       + Op code gebaseerd kanaal configureren {#configure-code-based-channel}
+         + [Op code gebaseerd kanaal configureren](/help/rp_landing_pages/configure-code-based-channel-landing-page.md)
          + [Afbeeldingen en voorwaarden](using/code-based/code-based-prerequisites.md)
          + [Op code gebaseerde ervaringsoppervlakken](using/code-based/code-based-surface.md)
          + [Voorbeelden van implementatiemethoden](using/code-based/code-based-implementation-samples.md)
          + [Beslissing in op code-gebaseerde ervaringsimplementaties](using/code-based/code-based-decisioning-implementations.md)
          + [Op code gebaseerde ervaringsconfiguratie maken](using/code-based/code-based-configuration.md)
       + Op code gebaseerde ervaringen maken {#create-code-based-experiences}
+         + [Op code gebaseerde ervaringen maken](/help/rp_landing_pages/create-code-based-experiences-landing-page.md)
          + [Codegebaseerde ervaringen opbouwen en samenstellen](using/code-based/create-code-based.md)
          + [Bewerkbare velden gebruiken in op code gebaseerde ervaringen](using/code-based/code-based-form-fields.md)
          + [Ervaringen op basis van code testen](using/code-based/test-code-based.md)
          + [Op code gebaseerde ervaringen beheren](using/code-based/publish-code-based.md)
-   + Inhoudskaarten{#content-card}
-      + [Aan de slag met inhoudskaarten](using/content-card/get-started-content-card.md)
+   + Inhoudskaarten {#content-card}
+      + [Inhoudskaarten](/help/rp_landing_pages/content-card-landing-page.md)
       + Inhoud kaartkanaal configureren {#configure}
+         + [Inhoud kaartkanaal configureren](/help/rp_landing_pages/configure-landing-page.md)
          + [Voorwaarden voor inhoudskaarten](using/content-card/content-card-configuration-prereq.md)
          + [Het kanaal voor inhoudskaarten in Journey Optimizer configureren](using/content-card/content-card-configuration.md)
          + [Ondersteuning voor inhoudskaarten configureren in Mobile SDK](using/content-card/content-card-lp.md)
          + [Ondersteuning voor inhoudskaarten configureren in Web SDK](using/content-card/content-card-configuration-sdk.md)
       + [Inhoudskaarten maken](using/content-card/create-content-card.md)
       + [Inhoudskaarten ontwerpen](using/content-card/design-content-card.md)
-   + WhatsApp{#whatsapp}
+   + WhatsApp {#whatsapp}
+      + [WhatsApp](/help/rp_landing_pages/whatsapp-landing-page.md)
       + [Aan de slag met WhatsApp-berichten](using/whatsapp/get-started-whatsapp.md)
       + [WhatsApp-kanaal configureren in Journey Optimizer](using/whatsapp/whatsapp-configuration.md)
       + [Een whatsApp-bericht maken](using/whatsapp/create-whatsapp.md)
       + [Controleer en verzend uw WhatsApp-berichten](using/whatsapp/send-whatsapp.md)
    + REGEL {#line}
-      + [Aan de slag met LINE-kanaal](using/line/get-started-line.md)
+      + [REGEL](/help/rp_landing_pages/line-landing-page.md)
       + [Regelkanaal configureren in Journey Optimizer](using/line/line-configuration.md)
       + [Een LIJNbericht maken](using/line/create-line.md)
       + [Controleer en verzend uw berichten van de LIJN](using/line/send-line.md)
 + Inhoudsbeheer {#content-management}
+   + [Inhoudsbeheer](/help/rp_landing_pages/content-management-landing-page.md)
    + Personalisatie {#personalization}
+      + [Personalisatie](/help/rp_landing_pages/personalization-landing-page.md)
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [ voeg verpersoonlijking  toe](using/personalization/personalization-build-expressions.md)
+      + [Aanpassing toevoegen](using/personalization/personalization-build-expressions.md)
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
-      + [ hergebruik uitdrukkingsfragmenten ](using/personalization/use-expression-fragments.md)
+      + [Expressiefragmenten opnieuw gebruiken](using/personalization/use-expression-fragments.md)
       + [Adobe Experience Platform-gegevens gebruiken voor personalisatie (Beta)](using/personalization/aep-data-perso.md)
       + Lijst met hulpfuncties {#functions}
+         + [Lijst met hulpfuncties](/help/rp_landing_pages/functions-landing-page.md)
          + [Aan de slag met hulpfuncties](using/personalization/functions/functions.md)
          + [Help voor externe gegevens opzoeken](using/personalization/external-data-lookup.md)
          + [Samenvoegingsfuncties](using/personalization/functions/aggregation.md)
@@ -400,16 +456,19 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
          + [Toewijzingsfuncties](using/personalization/functions/maps.md)
          + [Math-functies](using/personalization/functions/math.md)
          + [Objectfuncties](using/personalization/functions/objects.md)
-         + [ functies van het Koord ](using/personalization/functions/string.md)
-      + Personalization-gebruikskwesties{#personalization-use-cases}
+         + [Reeksfuncties](using/personalization/functions/string.md)
+      + Personalization-gebruikskwesties {#personalization-use-cases}
+         + [Personalization-gebruikskwesties](/help/rp_landing_pages/personalization-use-cases-landing-page.md)
          + [Statusmelding van bestelling](using/personalization/personalization-use-case.md)
          + [E-mailadres voor afmelden van winkelwagentje](using/personalization/personalization-use-case-helper-functions.md)
          + [E-mail met voorschriften voor het gezondheidsplan](using/personalization/perso-uc-plan-prescriptions.md)
    + Landingspagina&#39;s {#landing-pages}
+      + [Landingspagina&#39;s](/help/rp_landing_pages/landing-pages-landing-page.md)
       + [Aan de slag met bestemmingspagina&#39;s](using/landing-pages/get-started-lp.md)
       + [Een landingspagina maken](using/landing-pages/create-lp.md)
       + [Uw openingspagina&#39;s beheren](using/landing-pages/manage-lp.md)
       + Inhoud ontwerpen {#landing-pages-design}
+         + [Inhoud ontwerpen](/help/rp_landing_pages/landing-pages-design-landing-page.md)
          + [Informatie over het ontwerpen van bestemmingspagina](using/landing-pages/design-lp.md)
          + [De inhoud van de openingspagina maken](using/landing-pages/lp-content.md)
          + [Sjablonen maken](using/landing-pages/lp-templates.md)
@@ -417,9 +476,11 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Een lidmaatschapslijst maken](using/landing-pages/subscription-list.md)
       + [Gebruikskwesties leren](using/landing-pages/lp-use-cases.md)
       + Landingspagina’s configureren {#lp-configuration}
+         + [Landingspagina’s configureren](/help/rp_landing_pages/lp-configuration-landing-page.md)
          + [Subdomeinen van bestemmingspagina configureren](using/landing-pages/lp-subdomains.md)
          + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
    + Contentsjablonen {#content-templates}
+      + [Contentsjablonen](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Aan de slag met inhoudssjablonen](using/content-management/content-templates.md)
       + [Sjablonen openen en beheren](using/content-management/access-content-templates.md)
       + [Inhoudssjablonen maken](using/content-management/create-content-templates.md)
@@ -427,16 +488,19 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Inhoudssjablonen testen](using/content-management/test-content-templates.md)
       + [Inhoudssjablonen gebruiken](using/content-management/use-content-templates.md)
    + Herbruikbare inhoudsfragmenten {#fragments}
+      + [Herbruikbare inhoudsfragmenten](/help/rp_landing_pages/fragments-landing-page.md)
       + [Aan de slag met fragmenten](using/content-management/fragments.md)
       + [Een fragment maken](using/content-management/create-fragments.md)
       + [Bestaande inhoud opslaan als fragment](using/content-management/save-fragments.md)
       + [Aanpasbare fragmenten](using/content-management/customizable-fragments.md)
       + [Fragmenten beheren](using/content-management/manage-fragments.md)
    + Dynamische inhoud {#dynamic}
+      + [Dynamische inhoud](/help/rp_landing_pages/dynamic-landing-page.md)
       + [Aan de slag met dynamische inhoud](using/personalization/get-started-dynamic-content.md)
       + [Voorwaardelijke regels maken](using/personalization/create-conditions.md)
       + [Dynamische inhoud maken](using/personalization/dynamic-content.md)
    + Gebruiksscenario&#39;s tussen oplossingen {#combine}
+      + [Gebruiksscenario&#39;s tussen oplossingen](/help/rp_landing_pages/combine-landing-page.md)
       + [Combineer oplossingen om uw inhoud te beheren](using/integrations/content-integrations.md)
       + [Werken met Experience Manager Assets](using/integrations/assets.md)
       + [Werken met Adobe Stock](using/integrations/stock.md)
@@ -445,7 +509,8 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Werken met Experience Manager-inhoudsfragmenten](using/integrations/aem-fragments.md)
       + [Werken met dynamische media](using/integrations/aem-dynamic.md)
       + [Werken met GenStudio for Performance Marketing](using/integrations/genstudio.md)
-   + AI Assistant voor het genereren van inhoud{#ai-assistant}
+   + AI Assistant voor het genereren van inhoud {#ai-assistant}
+      + [AI Assistant voor het genereren van inhoud](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [Aan de slag met AI Assistant](using/content-management/gs-generative.md)
       + [E-mailgeneratie met AI](using/content-management/generative-email.md)
       + [Push generation met AI](using/content-management/generative-push.md)
@@ -455,53 +520,65 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Openingspagina met AI](using/content-management/generative-lp.md)
       + [Gebruiksgevallen van AI Assistant](using/content-management/generative-uc.md)
       + Merken {#brands}
+         + [Merken](/help/rp_landing_pages/brands-landing-page.md)
          + [Uw merken maken en beheren](using/content-management/brands.md)
          + [Uw Brand-uitlijningsscore evalueren](using/content-management/brands-score.md)
-   + Meertalige inhoud{#content-multilingual}
+   + Meertalige inhoud {#content-multilingual}
+      + [Meertalige inhoud](/help/rp_landing_pages/content-multilingual-landing-page.md)
       + [Aan de slag met meertalige inhoud](using/content-management/multilingual-gs.md)
       + [Een landinstelling maken](using/content-management/multilingual-locale.md)
       + [Een taalprovider maken](using/content-management/multilingual-provider.md)
       + [Meertalige inhoud maken met handmatige vertaling](using/content-management/multilingual-manual.md)
       + [Meertalige inhoud maken met automatische vertaling](using/content-management/multilingual-automated.md)
    + Inhoudsexperiment {#content-experiment}
+      + [Inhoudsexperiment](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [Aan de slag met het experimenteren met inhoud](using/content-management/get-started-experiment.md)
       + [Een inhoudexperiment maken](using/content-management/content-experiment.md)
       + Technische opmerkingen {#technotes}
+         + [Technische opmerkingen](/help/rp_landing_pages/technotes-landing-page.md)
          + [Statistische berekeningen begrijpen](using/content-management/experiment-calculations.md)
          + [Statistische berekeningen in het Experimentenrapport begrijpen](using/content-management/experiment-report-calculations.md)
-+ Soorten publiek, profielen en identiteit{#audiences-profiles-identities}
++ Soorten publiek, profielen en identiteit {#audiences-profiles-identities}
+   + [Soorten publiek, profielen en identiteit](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
    + Doelgroepen {#audiences}
+      + [Doelgroepen](/help/rp_landing_pages/audiences-landing-page.md)
       + [Aan de slag met het publiek](using/audience/about-audiences.md)
       + Soorten publiek maken {#create}
+         + [Soorten publiek maken](/help/rp_landing_pages/create-landing-page.md)
          + [Segmentdefinities](using/audience/creating-a-segment-definition.md)
          + [Samenstelling publiek](using/audience/get-started-audience-orchestration.md)
          + [Aangepaste upload](using/audience/custom-upload.md)
          + [Samenstelling van Federated-doelgroep](using/audience/federated-audience-composition.md)
       + [Activering van het publiek in campagnes en reizen](using/audience/target-audiences.md)
       + [Verrijkingskenmerken benutten](using/audience/enrichment-attributes.md)
-   + Profielen{#profiles}
+   + Profielen {#profiles}
+      + [Profielen](/help/rp_landing_pages/profiles-landing-page.md)
       + [Aan de slag met profielen](using/audience/get-started-profiles.md)
       + [Testprofielen maken](using/audience/creating-test-profiles.md)
       + [Werken met berekende kenmerken](using/audience/computed-attributes.md)
    + [Identiteiten](using/audience/get-started-identity.md)
    + [Licentiegebruik](using/audience/license-usage.md)
 + Rapportage {#reporting}
+   + [Rapportage](/help/rp_landing_pages/reporting-landing-page.md)
    + [Aan de slag met rapporten](using/reports/gs-reports.md)
    + Live-rapport {#live-report}
+      + [Live-rapport](/help/rp_landing_pages/live-report-landing-page.md)
       + [Aan de slag met Live-rapport](using/reports/live-report.md)
       + [Lijst met meetwaarden](using/reports/live-report-components.md)
       + [Journey Live-rapport](using/reports/journey-live-report.md)
       + [Campagne Live-rapport](using/reports/campaign-live-report.md)
       + [Openingspagina Live-rapport](using/reports/lp-report-live.md)
       + [Abonnementenlijst Live-rapport](using/reports/subscription-report-live.md)
-   + Alle tijdrapporten{#channel-report}
+   + Alle tijdrapporten {#channel-report}
+      + [Alle tijdrapporten](/help/rp_landing_pages/channel-report-landing-page.md)
       + [Aan de slag met alle tijdrapporten](using/reports/report-gs-cja.md)
       + [Lijst met meetwaarden](using/reports/global-report-components-cja.md)
       + [Customer Journey Analytics handmatig configureren](using/reports/cja-ajo.md)
       + [Uw rapporten beheren](using/reports/report-cja-manage.md)
       + [Voorwaarden voor rapportage en experimenten](using/reports/reporting-configuration.md)
       + [Uitsluitingsredenen](using/reports/exclusion-list.md)
-      + Campagneverslagen{#reporting}
+      + Campagneverslagen {#campaign-reporting}
+         + [Campagneverslagen](/help/rp_landing_pages/campaign-reporting-landing-page.md)
          + [Campagnerapport](using/reports/campaign-global-report-cja.md)
          + [Op code gebaseerd campagnerapport](using/reports/campaign-global-report-cja-code.md)
          + [Campagnerapport voor inhoudskaart](using/reports/campaign-global-report-cja-content.md)
@@ -512,7 +589,8 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
          + [Campagnerapport voor pushmeldingen](using/reports/campaign-global-report-cja-push.md)
          + [Rapport voor SMS-campagne](using/reports/campaign-global-report-cja-sms.md)
          + [Rapport webcampagne](using/reports/campaign-global-report-cja-web.md)
-      + Reisrapporten{#reporting}
+      + Reisrapporten {#journey-reporting}
+         + [Reisrapporten](/help/rp_landing_pages/journey-reporting-landing-page.md)
          + [Reisrapport](using/reports/journey-global-report-cja.md)
          + [Op code gebaseerd reisrapport](using/reports/journey-global-report-cja-code.md)
          + [Reisrapport voor inhoudskaart](using/reports/journey-global-report-cja-content.md)
@@ -526,9 +604,11 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [Rapport van bestemmingspagina](using/reports/lp-report-global-cja.md)
       + [Abonnementenlijstrapport](using/reports/subscription-report-global-cja.md)
    + Aangepaste reisrapporten {#reports}
+      + [Aangepaste reisrapporten](/help/rp_landing_pages/reports-landing-page.md)
       + [Trainingsrapporten maken](using/reports/sharing-overview.md)
       + [Lijst met gebeurtenisvelden voor stappen](using/reports/sharing-field-list.md)
       + Gebeurtenisvelden voor oudere stappen {#legacy-step-event-fields}
+         + [Gebeurtenisvelden voor oudere stappen](/help/rp_landing_pages/legacy-step-event-fields-landing-page.md)
          + [Oudere velden](using/reports/sharing-legacy-fields.md)
          + [Reisvelden](using/reports/sharing-journey-fields.md)
          + [Algemene velden](using/reports/sharing-common-fields.md)
@@ -537,70 +617,79 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
          + [Identiteitsvelden](using/reports/sharing-identity-fields.md)
       + [Voorbeelden van query&#39;s](using/reports/query-examples.md)
 + Beslissingsmogelijkheden {#decisioning}
+   + [Beslissingsmogelijkheden](/help/rp_landing_pages/decisioning-landing-page.md)
    + [Aan de slag met beslissingsmogelijkheden](using/experience-decisioning/gs-decision.md)
    + Beslissing {#experience-decisioning}
+      + [Beslissing](/help/rp_landing_pages/experience-decisioning-landing-page.md)
       + [Aan de slag met beslissing](using/experience-decisioning/gs-experience-decisioning.md)
       + [Afbakening en beperkingen](using/experience-decisioning/decisioning-guardrails.md)
-      + API-referentie{#api-reference}
+      + API-referentie {#experience-decisioning-api-reference}
+         + [API-referentie](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
          + Aanbiedingsobjecten maken en beheren {#create-manage}
-            + Beslissingsitems{#decision-items}
+            + Beslissingsitems {#decision-items}
                + [Beslissingsitems maken](using/experience-decisioning/api-reference/decisions-items/create.md)
                + [Lijst met beslissingsitems](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
                + [Beslissingsitems verwijderen](using/experience-decisioning/api-reference/decisions-items/delete.md)
                + [Opzoeken, beslissingsitems](using/experience-decisioning/api-reference/decisions-items/lookup.md)
                + [Beslissingsitems bijwerken](using/experience-decisioning/api-reference/decisions-items/update.md)
-            + Items verzamelen{#items-collections}
+            + Items verzamelen {#items-collections}
                + [Items verzamelen](using/experience-decisioning/api-reference/items-collections/create.md)
                + [Itemverzamelingen verwijderen](using/experience-decisioning/api-reference/items-collections/delete.md)
                + [Lijst met verzamelingen items](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
                + [Opzoekitemverzamelingen](using/experience-decisioning/api-reference/items-collections/lookup.md)
                + [Items verzamelen bijwerken](using/experience-decisioning/api-reference/items-collections/update.md)
-            + Selectiestrategieën{#selection-strategies}
+            + Selectiestrategieën {#selection-strategies}
                + [Selectiestrategieën maken](using/experience-decisioning/api-reference/selection-strategies/create.md)
                + [Selectiestrategieën verwijderen](using/experience-decisioning/api-reference/selection-strategies/delete.md)
                + [Selectiestrategieën opzoeken](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
                + [Lijst met selectiestrategieën](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
                + [Selectiestrategieën bijwerken](using/experience-decisioning/api-reference/selection-strategies/update.md)
-            + Beoordelingsformule{#ranking-formulas}
+            + Beoordelingsformule {#ranking-formulas}
                + [Rangschikkingsformules maken](using/experience-decisioning/api-reference/ranking-formulas/create.md)
                + [Classificatieformules verwijderen](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
                + [Opzoeken van rangschikkingsformules](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
                + [Selectierangstformules](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
                + [Rangschikkingsformules bijwerken](using/experience-decisioning/api-reference/ranking-formulas/update.md)
-            + Subsidiabiliteitsregels{#eligibility-rules}
+            + Subsidiabiliteitsregels {#eligibility-rules}
                + [Subsidiabiliteitsregels maken](using/experience-decisioning/api-reference/eligibility-rules/create.md)
                + [Subsidiabiliteitsregels verwijderen](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
                + [Subsidiabiliteitsregels voor opzoeken](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
                + [Lijst van subsidiabiliteitsregels](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
                + [Subsidiabiliteitsregels bijwerken](using/experience-decisioning/api-reference/eligibility-rules/update.md)
          + [Aanbiedingen leveren met behulp van het op code-gebaseerde Ervingenkanaal](using/experience-decisioning/api-reference/deliver.md)
-      + Beslissingsitems beheren {#decision-items}
+      + Beslissingsitems beheren {#manage-decision-items}
+         + [Beslissingsitems beheren](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [De itemcatalogus configureren](using/experience-decisioning/catalogs.md)
          + [Beslissingsitems maken](using/experience-decisioning/items.md)
          + [Itemverzamelingen beheren](using/experience-decisioning/collections.md)
       + [Beslissingsregels maken](using/experience-decisioning/rules.md)
-      + Classificaties maken {#rankings}
+      + Classificaties maken {#experience-decisioning-rankings}
+         + [Classificaties maken](/help/rp_landing_pages/experience-decisioning-rankings-landing-page.md)
          + [Classificatiemethoden maken](using/experience-decisioning/ranking/ranking.md)
          + [De AI-formulebuilder gebruiken](using/experience-decisioning/ranking/ranking-formulas.md)
-         + AI-modellen {#ai-models}
+         + AI-modellen {#experience-decisioning-ai-models}
+            + [AI-modellen](/help/rp_landing_pages/experience-decisioning-ai-models-landing-page.md)
             + [AI-modellen](using/experience-decisioning/ranking/ai-models.md)
             + [Model voor automatische optimalisatie](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [Gepersonaliseerd optimalisatiemodel](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [AI-modellen maken](using/experience-decisioning/ranking/create-ai-models.md)
       + [Werken met stages](using/experience-decisioning/placements.md)
       + Adobe Experience Platform-gegevens gebruiken {#aep-data}
+         + [Adobe Experience Platform-gegevens gebruiken](/help/rp_landing_pages/aep-data-landing-page.md)
          + [Gebruik van contextgegevens](using/experience-decisioning/context-data.md)
          + [Adobe Experience Platform gebruiken voor besluitvorming](using/experience-decisioning/aep-data-exd.md)
       + [Selectiestrategieën maken](using/experience-decisioning/selection-strategies.md)
       + [Beslissingsbeleid maken](using/experience-decisioning/create-decision.md)
       + [Verslag over het besluit](using/experience-decisioning/cja-reporting.md)
       + [Gebruiksscenario voor beslissing](using/experience-decisioning/experience-decisioning-uc.md)
-      + Gebeurtenisgegevens verzamelen {#collect-event-data}
+      + Gebeurtenisgegevens verzamelen {#experience-decisioning-collect-event-data}
          + [Aan de slag met gegevensverzameling](using/experience-decisioning/data-collection/data-collection.md)
          + [Een gegevensset maken om gebeurtenissen te verzamelen](using/experience-decisioning/data-collection/create-dataset.md)
          + [Vastleggen van gebeurtenissen configureren](using/experience-decisioning/data-collection/schema-requirement.md)
    + Beslissingsbeheer {#offer-decisioning}
+      + [Beslissingsbeheer](/help/rp_landing_pages/offer-decisioning-landing-page.md)
       + Aan de slag met het beheer van beslissingen {#get-started-decision}
+         + [Aan de slag met het beheer van beslissingen](/help/rp_landing_pages/get-started-decision-landing-page.md)
          + [Over het beheer van besluiten](using/offers/get-started/starting-offer-decisioning.md)
          + [Belangrijke beheerinstructies en beperkingen](using/offers/decision-management-guardrails.md)
          + [Gebruikersinterface](using/offers/get-started/user-interface.md)
@@ -608,41 +697,51 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
          + [Aangepast uploadpubliek gebruiken voor beslissingen](using/offers/custom-upload-decisioning.md)
          + [Kwestie gebruiken: aanbiedingen invoegen in een e-mail](using/offers/offers-e2e.md)
       + Componenten maken {#create-components}
+         + [Componenten maken](/help/rp_landing_pages/create-components-landing-page.md)
          + [Plaatsingen maken](using/offers/offer-library/creating-placements.md)
          + [Beslissingsregels maken](using/offers/offer-library/creating-decision-rules.md)
          + [Verzamelingsaanduidingen maken](using/offers/offer-library/creating-tags.md)
       + Classificaties maken {#rankings}
+         + [Classificaties maken](/help/rp_landing_pages/rankings-landing-page.md)
          + [Aan de slag met waarderingen](using/offers/ranking/get-started-rankings.md)
          + [Beoordelingsformule](using/offers/ranking/create-ranking-formulas.md)
          + AI-modellen {#ai-models}
+            + [AI-modellen](/help/rp_landing_pages/ai-models-landing-page.md)
             + [AI-modellen](using/offers/ranking/ai-models.md)
             + [Model voor automatische optimalisatie](using/offers/ranking/auto-optimization-model.md)
             + [Gepersonaliseerd optimalisatiemodel](using/offers/ranking/personalized-optimization-model.md)
             + [AI-modellen maken](using/offers/ranking/create-ranking-strategies.md)
       + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
+         + [Aanbiedingen maken en beheren](/help/rp_landing_pages/managing-offers-in-the-offer-library-landing-page.md)
          + Aanbiedingen configureren {#configure-offers}
+            + [Aanbiedingen configureren](/help/rp_landing_pages/configure-offers-landing-page.md)
             + [Gepersonaliseerde aanbiedingen maken](using/offers/offer-library/creating-personalized-offers.md)
             + [Afbeeldingen toevoegen](using/offers/offer-library/add-representations.md)
             + [Beperkingen toevoegen](using/offers/offer-library/add-constraints.md)
          + [Alternatieve aanbiedingen maken](using/offers/offer-library/creating-fallback-offers.md)
          + [Verzamelingen maken](using/offers/offer-library/creating-collections.md)
       + Besluiten maken en beheren {#create-manage-activities}
+         + [Besluiten maken en beheren](/help/rp_landing_pages/create-manage-activities-landing-page.md)
          + [Beslissingen nemen](using/offers/offer-activities/create-offer-activities.md)
          + [Selectie van aanbiedingen in beslissingen configureren](using/offers/offer-activities/configure-offer-selection.md)
          + [Simulaties maken](using/offers/offer-activities/simulation.md)
       + [Batchbeslissingen gebruiken](using/offers/batch-delivery.md)
       + Gebeurtenisgegevens verzamelen {#collect-event-data}
+         + [Gebeurtenisgegevens verzamelen](/help/rp_landing_pages/collect-event-data-landing-page.md)
          + [Aan de slag met gegevensverzameling](using/offers/data-collection/data-collection.md)
          + [Een gegevensset maken om gebeurtenissen te verzamelen](using/offers/data-collection/create-dataset.md)
          + [Vastleggen van gebeurtenissen configureren](using/offers/data-collection/schema-requirement.md)
       + Gebruik van contextgegevens {#context-data}
+         + [Gebruik van contextgegevens](/help/rp_landing_pages/context-data-landing-page.md)
          + [Aan de slag met contextgegevens](using/offers/context-data.md)
          + [Contextgegevens en Edge-beslissingsverzoeken](using/offers/context-data-edge.md)
          + [Contextgegevens- en beslissingsverzoek](using/offers/context-data-decisioning.md)
       + Beslissingsbeheerrapporten maken {#create-reports}
+         + [Beslissingsbeheerrapporten maken](/help/rp_landing_pages/create-reports-landing-page.md)
          + [Werken met gebeurtenissen in verband met het beheer van beslissingen](using/offers/reports/get-started-events.md)
          + [Toegang tot gebeurtenissen van XDM-velden](using/offers/reports/xdm-fields.md)
       + Uw aanbiedingencatalogus exporteren {#export-catalog}
+         + [Uw aanbiedingencatalogus exporteren](/help/rp_landing_pages/export-catalog-landing-page.md)
          + [Aan de slag met het exporteren van de aanbiedingscatalogus](using/offers/export-catalog/get-started-export.md)
          + [De geëxporteerde aanbiedingscatalogus openen](using/offers/export-catalog/access-dataset.md)
          + [Dataset met gepersonaliseerde aanbiedingen](using/offers/export-catalog/export-offers.md)
@@ -650,6 +749,7 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
          + [Dataset met plaatsingen](using/offers/export-catalog/export-placements.md)
          + [Dataset met alternatieven](using/offers/export-catalog/export-fallback.md)
       + API-naslag {#api-reference}
+         + [API-naslag](/help/rp_landing_pages/api-reference-landing-page.md)
          + [Aan de slag](using/offers/api-reference/getting-started.md)
          + Aanbiedingen maken en beheren met behulp van API&#39;s {#offers-api}
             + Plaatsen {#placements}
@@ -696,71 +796,77 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
                + [Een beslissing verwijderen](using/offers/api-reference/activities-api/activities/delete.md)
             + Verouderde API&#39;s {#legacy-api}
                + [Oudere API&#39;s](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
-               + Plaatsen {#placements}
+               + Plaatsen {#legacy-api-placements}
                   + [Plaatsingen weergeven](using/offers/api-reference/offers-api/legacy-apis/placements/placements-list.md)
                   + [Een plaatsing opzoeken](using/offers/api-reference/offers-api/legacy-apis/placements/lookup.md)
                   + [Een plaatsing maken](using/offers/api-reference/offers-api/legacy-apis/placements/create.md)
                   + [Een plaatsing bijwerken](using/offers/api-reference/offers-api/legacy-apis/placements/update.md)
                   + [Een plaatsing verwijderen](using/offers/api-reference/offers-api/legacy-apis/placements/delete.md)
-               + Besluitvormingsregels {#decision-rules}
+               + Besluitvormingsregels {#legacy-api-decision-rules}
                   + [Beslissingsregels weergeven](using/offers/api-reference/offers-api/legacy-apis/decision-rules/rules-list.md)
                   + [Een beslissingsregel opzoeken](using/offers/api-reference/offers-api/legacy-apis/decision-rules/lookup.md)
                   + [Een beslissingsregel maken](using/offers/api-reference/offers-api/legacy-apis/decision-rules/create.md)
                   + [Een beslissingsregel bijwerken](using/offers/api-reference/offers-api/legacy-apis/decision-rules/update.md)
                   + [Een beslissingsregel verwijderen](using/offers/api-reference/offers-api/legacy-apis/decision-rules/delete.md)
-               + Verzamelingsaanduidingen {#tags}
+               + Verzamelingsaanduidingen {#legacy-api-tags}
                   + [Kwaliteitsaanduidingen voor verzamelingen weergeven](using/offers/api-reference/offers-api/legacy-apis/tags/tags-list.md)
                   + [Een verzamelingskwalificatie opzoeken](using/offers/api-reference/offers-api/legacy-apis/tags/lookup.md)
                   + [Een verzamelingskwalificatie maken](using/offers/api-reference/offers-api/legacy-apis/tags/create.md)
                   + [Een verzamelingskwalificatie bijwerken](using/offers/api-reference/offers-api/legacy-apis/tags/update.md)
                   + [Een verzamelingskwalificatie verwijderen](using/offers/api-reference/offers-api/legacy-apis/tags/delete.md)
-               + Aangepaste aanbiedingen {#personalized-offers}
+               + Aangepaste aanbiedingen {#legacy-api-personalized-offers}
                   + [Persoonlijke aanbiedingen weergeven](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/offers-list.md)
                   + [Een persoonlijke aanbieding opzoeken](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/lookup.md)
                   + [Een persoonlijke aanbieding maken](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/create.md)
                   + [Een persoonlijke aanbieding bijwerken](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/update.md)
                   + [Een persoonlijke aanbieding verwijderen](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/delete.md)
-               + Herkansingsaanbiedingen {#fallback-offers}
+               + Herkansingsaanbiedingen {#legacy-api-fallback-offers}
                   + [Alternatieve aanbiedingen weergeven](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/fallback-list.md)
                   + [Een alternatieve aanbieding opzoeken](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/lookup.md)
                   + [Een alternatieve aanbieding maken](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/create.md)
                   + [Een alternatieve aanbieding bijwerken](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/update.md)
                   + [Een alternatieve aanbieding verwijderen](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/delete.md)
-               + Verzamelingen {#collections}
+               + Verzamelingen {#legacy-api-collections}
                   + [Verzamelingen weergeven](using/offers/api-reference/offers-api/legacy-apis/collections/collections-list.md)
                   + [Een verzameling opzoeken](using/offers/api-reference/offers-api/legacy-apis/collections/lookup.md)
                   + [Een verzameling maken](using/offers/api-reference/offers-api/legacy-apis/collections/create.md)
                   + [Een verzameling bijwerken](using/offers/api-reference/offers-api/legacy-apis/collections/update.md)
                   + [Een verzameling verwijderen](using/offers/api-reference/offers-api/legacy-apis/collections/delete.md)
-               + Besluiten {#decisions-api}
+               + Besluiten {#legacy-api-decisions-api}
                   + [Beslissingen weergeven](using/offers/api-reference/offers-api/legacy-apis/activities-api/activities-list.md)
                   + [Een beslissing opzoeken](using/offers/api-reference/offers-api/legacy-apis/activities-api/lookup.md)
                   + [Een beslissing nemen](using/offers/api-reference/offers-api/legacy-apis/activities-api/create.md)
                   + [Een beslissing bijwerken](using/offers/api-reference/offers-api/legacy-apis/activities-api/update.md)
                   + [Een beslissing verwijderen](using/offers/api-reference/offers-api/legacy-apis/activities-api/delete.md)
          + Aanbiedingen leveren met behulp van API&#39;s {#offer-delivery-api}
+            + [Aanbiedingen leveren met behulp van API&#39;s](/help/rp_landing_pages/offer-delivery-api-landing-page.md)
             + [Aan de slag met API&#39;s voor levering van aanbiedingen](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
             + [API voor besluitvorming](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [Edge-API voor besluitvorming](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [Batchbeslissing-API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Data management {#data-management}
+   + [Data management](/help/rp_landing_pages/data-management-landing-page.md)
    + [Aan de slag met gegevensbeheer](using/data/gs-data.md)
    + [Werken met schema&#39;s](using/data/get-started-schemas.md)
    + Journey Optimizer-gegevenssets {#datasets}
+      + [Journey Optimizer-gegevenssets](/help/rp_landing_pages/datasets-landing-page.md)
       + [Aan de slag met gegevenssets](using/data/get-started-datasets.md)
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
+   + [Kanaalconfiguratie](/help/rp_landing_pages/configuration-landing-page.md)
    + [Aan de slag met kanaalconfiguratie](using/configuration/get-started-configuration.md)
    + [Kanaalconfiguraties instellen](using/configuration/channel-surfaces.md)
    + Kanaalinstellingen met instructies {#guided-setup}
+      + [Kanaalinstellingen met instructies](/help/rp_landing_pages/guided-setup-landing-page.md)
       + [Aan de slag met de instelling van het kanaal met instructies](using/configuration/set-mobile-config.md)
       + [Een kanaalinstelling maken](using/configuration/create-channel-set-up.md)
    + E-mailsubdomeinen delegeren {#delegate-subdomains}
+      + [E-mailsubdomeinen delegeren](/help/rp_landing_pages/delegate-subdomains-landing-page.md)
       + [Aan de slag met subdomeindelegatie](using/configuration/about-subdomain-delegation.md)
       + [Een subdomein delegeren](using/configuration/delegate-subdomain.md)
       + [Een aangepast subdomein instellen](using/configuration/delegate-custom-subdomain.md)
@@ -769,12 +875,14 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
       + [PTR-records openen en bewerken](using/configuration/ptr-records.md)
       + [IP-pools maken](using/configuration/ip-pools.md)
    + Voer een IP warmlopingsplan uit {#implement-ip-warmup-plan}
+      + [Voer een IP warmlopingsplan uit](/help/rp_landing_pages/implement-ip-warmup-plan-landing-page.md)
       + [Ga aan de slag met IP-opwarmingsplannen](using/configuration/ip-warmup-gs.md)
       + [IP-warmtecampagnes maken](using/configuration/ip-warmup-campaign.md)
       + [Creeer een IP warmlopingsplan](using/configuration/ip-warmup-plan.md)
       + [Voer het IP-opwarmingsplan uit](using/configuration/ip-warmup-execution.md)
       + [IP-bestanden voor opwarmingsplannen](using/configuration/ip-warmup-plan-files.md)
    + E-mailadressen controleren {#monitor-reputation}
+      + [E-mailadressen controleren](/help/rp_landing_pages/monitor-reputation-landing-page.md)
       + [Typen e-mailfouten](using/configuration/email-error-types.md)
       + [Onderdrukkingslijst](using/configuration/manage-suppression-list.md)
       + [Opnieuw](using/configuration/retries.md)
@@ -784,39 +892,48 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
    + [Uitvoeringadressen wijzigen](using/configuration/primary-email-addresses.md)
    + [Bedrijfsregels configureren](using/configuration/frequency-rules.md)
 + Reisconfiguratie {#configure-journeys}
+   + [Reisconfiguratie](/help/rp_landing_pages/configure-journeys-landing-page.md)
    + [Aan de slag met de configuratie van reizen](using/configuration/about-data-sources-events-actions.md)
    + Gebeurtenisconfiguratie {#events-journeys}
+      + [Gebeurtenisconfiguratie](/help/rp_landing_pages/events-journeys-landing-page.md)
       + [Werken met reisgebeurtenissen](using/event/about-events.md)
       + [Een eenheidsgebeurtenis configureren](using/event/about-creating.md)
       + [ExperienceEvent-schema’s](using/event/experience-event-schema.md)
       + [Werken met Adobe Analytics-gegevens](using/event/about-analytics.md)
       + [Een bedrijfsgebeurtenis configureren](using/event/about-creating-business.md)
       + [Aanvullende stappen om gebeurtenissen te verzenden](using/event/additional-steps-to-send-events-to-journey.md)
-   + Gegevensbronconfiguratie{#data-source-journeys}
+   + Gegevensbronconfiguratie {#data-source-journeys}
+      + [Gegevensbronconfiguratie](/help/rp_landing_pages/data-source-journeys-landing-page.md)
       + [Aan de slag met gegevensbronnen](using/datasource/about-data-sources.md)
       + [Een gegevensbron configureren](using/datasource/configure-data-sources.md)
       + [Adobe Experience Platform-databron](using/datasource/adobe-experience-platform-data-source.md)
       + [Externe databronnen](using/datasource/external-data-sources.md)
    + Actieconfiguratie {#action-journeys}
+      + [Actieconfiguratie](/help/rp_landing_pages/action-journeys-landing-page.md)
       + [Aan de slag met aangepaste handelingen](using/action/action.md)
       + [Een aangepaste handeling configureren](using/action/about-custom-action-configuration.md)
       + [API-aanroepreacties gebruiken in aangepaste handelingen](using/action/action-response.md)
 + Sluit uw systemen en omgevingen aan {#connect-systems}
+   + [Sluit uw systemen en omgevingen aan](/help/rp_landing_pages/connect-systems-landing-page.md)
    + [Integreren met andere oplossingen](using/integrations/ajo-integrations.md)
    + [Werken met Journey Optimizer API&#39;s](using/configuration/ajo-apis.md)
    + Uw reizen integreren met externe systemen {#external-systems}
+      + [Uw reizen integreren met externe systemen](/help/rp_landing_pages/external-systems-landing-page.md)
       + [Reisintegratie met externe systemen](using/configuration/external-systems.md)
       + [Afkappings-API](using/configuration/capping.md)
       + [API voor beperken](using/configuration/throttling.md)
    + Verzenden met Adobe-oplossingen {#adobe-solutions}
+      + [Verzenden met Adobe-oplossingen](/help/rp_landing_pages/adobe-solutions-landing-page.md)
       + [Campaign Standard-actie tijdens reizen](using/action/acs-action.md)
       + [Campagne v7/v8 - actie tijdens reizen](using/action/acc-action.md)
       + [Marketo Engage-actie tijdens reizen](using/action/marketo-engage.md)
    + Sandboxbeheer {#sandbox}
+      + [Sandboxbeheer](/help/rp_landing_pages/sandbox-landing-page.md)
       + [Sandboxen gebruiken en toewijzen](using/administration/sandboxes.md)
       + [Objecten exporteren naar een andere sandbox](using/configuration/copy-objects-to-sandbox.md)
    + [Vorm de Bronschakelaar](using/start/get-started-sources.md)
 + Toegangsbeheer {#access-control}
+   + [Toegangsbeheer](/help/rp_landing_pages/access-control-landing-page.md)
    + [Aan de slag met toegangsbeheer](using/administration/permissions-overview.md)
    + [Gebruikers en rollen beheren](using/administration/permissions.md)
    + [Ingebouwde rollen](using/administration/ootb-product-profiles.md)
@@ -825,11 +942,13 @@ Plaats bericht &amp; reis het begrenzen regels  {#capping-rules}
    + [Toegangsbeheer op basis van kenmerken](using/administration/attribute-based-access.md)
    + [Toegangsbeheer op objectniveau](using/administration/object-based-access.md)
 + Privacy {#privacy}
+   + [Privacy](/help/rp_landing_pages/privacy-landing-page.md)
    + [Aan de slag met privacy](using/privacy/get-started-privacy.md)
    + [Privacyverzoeken](using/privacy/requests.md)
    + [Controleregelingen op middelen](using/privacy/audit-logs.md)
    + [Levenscyclusbewerkingen voor gegevens uitvoeren](using/privacy/data-hygiene.md)
    + Toestemming beheren {#consent}
+      + [Toestemming beheren](/help/rp_landing_pages/consent-landing-page.md)
       + [Weigeren beheren](using/privacy/opt-out.md)
       + [Werken met toestemmingsbeleid](using/action/consent.md)
    + [Datagovernance](using/action/action-privacy.md)

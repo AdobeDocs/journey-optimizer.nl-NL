@@ -6,12 +6,13 @@ description: Leer hoe te met  [!DNL Adobe Journey Optimizer]  communicatiekanale
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: f365a5819575990b92ca589557d37c3f274bd4d7
+source-git-commit: d2cdafef6f2d69ea85d9d042c859a8b1e7654d7d
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
+
 
 # Aan de slag met [!DNL Adobe Journey Optimizer] kanalen {#get-started-email}
 
@@ -23,51 +24,108 @@ Adobe Journey Optimizer biedt verschillende native kanalen om effectief met uw p
 
 De uitgaande kanalen van de berichtlevering impliceren het verzenden van berichten naar klanten zonder vroegere interactie. Voorbeelden zijn e-mailcampagnes en pushberichten, waar u proactief contact opneemt met uw publiek. In [!DNL Adobe Journey Optimizer] zijn de ondersteunde uitgaande kanalen:
 
-* **E-mail**: Lever gepersonaliseerde berichten rechtstreeks aan uw klanten&#39; inboxes.
-* **SMS/MMS/RCS**: Verzend tekstberichten om gebruikers op hun mobiele apparaten te bereiken.
-* **het Bericht van de duw**: Sluit gebruikers met onmiddellijke berichten op hun apparaten aan, die directe actie drijven.
-* **Directe Post**: Gebruik fysieke post om een tastbare verbinding met uw publiek tot stand te brengen.
+:::: landing-cards-container
 
-Selecteer een kanaal om dieper te duiken en te ontdekken hoe u deze effectief kunt benutten in uw marketingstrategie.
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><a href="../email/get-started-email.md"><img alt="email" src="assets/do-not-localize/email.png"></a>
-<div align="center"><a href="../email/get-started-email.md"><strong> E-mail </strong></a></div></td>
-<td><a href="../sms/get-started-sms.md"><img alt="sms" src="assets/do-not-localize/sms.png"></a>
-<div align="center"><a href="../sms/get-started-sms.md"><strong> SMS </strong></a></div></td>
-<td><a href="../push/get-started-push.md"><img alt="duwen" src="assets/do-not-localize/push.png"></a>
-<div align="center"><a href="../push/get-started-push.md"><strong> Push bericht </strong></a></div></td>
-<td><a href="../direct-mail/get-started-direct-mail.md"><img alt="direct mail" src="assets/do-not-localize/direct-mail.jpg"></a>
-<div align="center"><a href="../direct-mail/get-started-direct-mail.md"><strong>Direct mail</strong></a></div></td>
-</tr></table>
+E-mailkanaal
+
+Ontdek hoe u e-mailcampagnes kunt maken, configureren en optimaliseren, inclusief tips en trucs voor personalisatie, levering en naleving.
+
+[Meer informatie over e-mailkanalen](../../rp_landing_pages/email-landing-page.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/bell.svg)
+
+Kanaal voor pushmelding
+
+Leer hoe u pushmeldingen voor iOS en Android kunt maken, configureren en verzenden, inclusief geavanceerde opties zoals meldingen via de mond en de modus voor snelle levering.
+
+[Meer informatie over pushmeldingen](../../rp_landing_pages/push-landing-page.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
+
+SMS/MMS/RCS-berichten
+
+Begrijp hoe te om SMS, MMS, en RCS berichten voor marketing en transactionele doeleinden, met inbegrip van naleving en verpersoonlijking tot stand te brengen, te beheren en te vormen.
+
+[Meer informatie over SMS/MMS/RCS-berichten](../../rp_landing_pages/sms-landing-page.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
+
+Campagnes Direct Mail
+
+Ontdek hoe u direct-mailcampagnes kunt maken en beheren, waaronder het exporteren van extractiebestanden voor externe providers en het controleren van de gebruikerstoestand.
+
+[Meer informatie over campagnes via e-mail](../../rp_landing_pages/direct-mail-landing-page.md)
+:::
+
+::::
 
 ## Mobiele apps en internet {#inbound-channels}
 
 Met Mobiele App en Web binnenkomende ervaringen, beginnen de klanten interactie. Voorbeelden zijn berichtgeving in de app en ervaringen op het web, waarbij gebruikers op eigen voorwaarden met inhoud werken. In [!DNL Adobe Journey Optimizer] zijn de ondersteunde binnenkomende kanalen:
 
-* **In-app**: Communiceer met gebruikers binnen uw mobiele of Webtoepassingen om hun ervaring te verbeteren.
-* **Web**: Het Web-based overseinen van het gebruik om met gebruikers in wisselwerking te staan die uw plaats doorbladeren.
-* **op code-gebaseerde Ervaring**: Voer douaneervaringen door codering voor unieke betrokkenheidskansen uit.
-* **Kaarten van de Inhoud**: Deel dynamische inhoud direct binnen uw toepassingen of websites om gebruikers op de hoogte te houden en betrokken te houden.
+:::: landing-cards-container
 
-Selecteer een kanaal om dieper te duiken en te ontdekken hoe u deze kanalen effectief kunt gebruiken in uw marketingstrategie.
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><a href="../in-app/get-started-in-app.md"><img alt="in-app" src="assets/do-not-localize/inapp.jpg"></a>
-<div align="center"><a href="../in-app/get-started-in-app.md"><strong> In-app </strong></a></div></td>
-<td><a href="../web/get-started-web.md"><img alt="web" src="assets/do-not-localize/web.jpg"></a>
-<div align="center"><a href="../web/get-started-web.md"><strong> Web </strong></a></div></td>
-<td><a href="../code-based/get-started-code-based.md"><img alt="code-gebaseerde ervaring" src="assets/do-not-localize/code.png"></a>
-<div align="center"><a href="../code-based/get-started-code-based.md"><strong> op code-gebaseerde ervaring </strong></a></div></td>
-<td><a href="../content-card/get-started-content-card.md"><img alt="inhoudskaarten" src="assets/do-not-localize/cards.png"></a>
-<div align="center"><a href="../content-card/get-started-content-card.md"><strong> kaarten van de Inhoud </strong></a></div></td>
-</tr></table>
+In-app-berichten
 
+Ontdek hoe u In-app-meldingen voor mobiele en webplatforms kunt configureren, ontwerpen en aanpassen om gebruikers in toepassingen te betrekken.
+
+[Meer informatie over In-app berichten](../../rp_landing_pages/in-app-landing-page.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/globe.svg)
+
+Web
+
+Leer hoe u webervaringen maakt, configureert en personaliseert en webkanalen integreert met uitgaande marketingstrategieën.
+
+[Meer informatie over webkanalen](../../rp_landing_pages/web-landing-page.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/code.svg)
+
+Ervaring op basis van code
+
+Diveer in code-gebaseerde ervaringen om gepersonaliseerde inhoud over digitale platforms te leveren gebruikend SDKs en APIs.
+
+[Meer informatie over op code gebaseerde ervaringen](../../rp_landing_pages/code-based-experience-landing-page.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/id-card.svg)
+
+Inhoudskaarten
+
+Ontdek hoe u inhoudskaarten kunt configureren, maken en ontwerpen voor aantrekkelijke en gepersonaliseerde berichten in mobiele apps en websites.
+
+[Meer informatie over op code gebaseerde ervaringen](../../rp_landing_pages/content-card-landing-page.md)
+:::
+
+::::
+
+
+## Aanvullende bronnen
+
+- **[WhatsApp Overseinen](../../rp_landing_pages/whatsapp-landing-page.md)** - Leer hoe te om het overseinen WhatsApp via de Wolk API van Meta te integreren en te gebruiken voor gepersonaliseerde en volgzame communicatie campagnes.
+- **[het Overseinen van de LIJN](../../rp_landing_pages/line-landing-page.md)** - ontdekt hoe te, de berichten van de LIJN voor efficiënte mededeling in campagnes en reizen te vormen tot stand te brengen en te personaliseren.
 
 ## Kanalen in reizen en campagnes {#leverage}
 
 In Adobe Journey Optimizer kunt u communicatiekanalen in twee primaire contexten gebruiken:
 
-* **Reizen**: Creeer naadloze klantenervaringen over veelvoudige touchpoints. Automatiseer interacties op basis van gebruikersgedrag en -voorkeuren en zorg voor tijdige en relevante communicatie die gebruikers door hun reis met uw merk begeleidt. [ leer hoe te om een reis ](../building-journeys/journey-gs.md) tot stand te brengen en uit te voeren.
+- **Reizen**: Creeer naadloze klantenervaringen over veelvoudige touchpoints. Automatiseer interacties op basis van gebruikersgedrag en -voorkeuren en zorg voor tijdige en relevante communicatie die gebruikers door hun reis met uw merk begeleidt. [ leer hoe te om een reis ](../building-journeys/journey-gs.md) tot stand te brengen en uit te voeren.
 
-* **Campagnes**: Stel specifieke marketing campagnes op die een bepaald kanaal gebruiken om gerichte doelstellingen te bereiken. Of het promoten van een nieuw product of het drijven van seizoensgebonden verkoop, laten de campagnes u toe om gerichte overseinenstrategieën te creëren die aan uw publiek worden aangepast. [ leer hoe te om een campagne ](../campaigns/get-started-with-campaigns.md) tot stand te brengen en uit te voeren.
+- **Campagnes**: Stel specifieke marketing campagnes op die een bepaald kanaal gebruiken om gerichte doelstellingen te bereiken. Of het promoten van een nieuw product of het drijven van seizoensgebonden verkoop, laten de campagnes u toe om gerichte overseinenstrategieën te creëren die aan uw publiek worden aangepast. [ leer hoe te om een campagne ](../campaigns/get-started-with-campaigns.md) tot stand te brengen en uit te voeren.

@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 **Lijst van inhoud**
 
-* [Aan de slag met inhoudskaarten](get-started-content-card.md)
+* [Aan de slag met inhoudskaarten](../../rp_landing_pages/content-card-landing-page.md)
 * [Voorwaarden voor inhoudskaarten](content-card-configuration-prereq.md)
 * [Het kanaal voor inhoudskaarten in Journey Optimizer configureren](content-card-configuration.md)
 * [Inhoudskaarten maken](create-content-card.md)

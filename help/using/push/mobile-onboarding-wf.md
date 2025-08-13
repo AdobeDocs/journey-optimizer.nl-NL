@@ -9,16 +9,16 @@ role: Admin
 level: Intermediate
 badge: label="Beta" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
 workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # Snelstartworkflow voor mobiele instaptoegang {#mobile-wf}
 
-Het nieuwe **mobiele onboarding snel beginwerkschema** is een nieuwe producteigenschap om Adobe Experience Platform Mobile SDK snel te vormen, begint mobiele gebeurtenisgegevens te verzamelen en te bevestigen, en dupberichten met [!DNL Journey Optimizer] te verzenden.
+Het nieuwe **mobiele onboarding snel startwerkschema** is een nieuwe producteigenschap om Adobe Experience Platform Mobile SDK snel te vormen, begint mobiele gebeurtenisgegevens te verzamelen en te bevestigen, en dupberichten met [!DNL Journey Optimizer] te verzenden.
 
 Deze mogelijkheid is via de startpagina van **[!DNL Adobe Experience Platform Data Collection]** toegankelijk voor alle klanten als openbare Beta.
 
@@ -33,8 +33,8 @@ Als u toegang wilt tot de nieuwe workflow voor snel aan boord gaan van mobiele a
 Hieronder vindt u een aantal aanvullende kenmerken:
 
 * Eenvoudige workflow in vier stappen en gebruikersinterface.
-* Levert een basisopstelling om mobiele gebeurtenisgegevens via [ Adobe Experience Platform Mobile SDK ](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} te beginnen verzamelen  in notulen.
-* De capaciteit om een basis mobiele duw gebeurtenis leveraging [ Adobe Experience Platform Assurance ](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=nl-NL){target="_blank"} te testen en te bevestigen .
+* Levert een basisopstelling om mobiele gebeurtenisgegevens via [ Adobe Experience Platform Mobile SDK ](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} in notulen te beginnen te verzamelen.
+* De capaciteit om een basis mobiele duw gebeurtenis leveraging [ Adobe Experience Platform Assurance ](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"} te testen en te bevestigen.
 * Auto leidt tot en vormt alle noodzakelijke Inzameling van Gegevens, en de activa van Journey Optimizer.
 * In productbegeleiding en tooltips.
 * Verstrekt een natuurlijke overgang voor geavanceerdere implementatie indien nodig.
@@ -72,7 +72,7 @@ De automatische opstelling wordt gedaan. U kunt nu naar de eigenschap mobile van
 
 **Verwante onderwerpen**
 
-* [Aan de slag met pushmeldingen](get-started-push.md)
+* [Aan de slag met pushmeldingen](../../rp_landing_pages/push-landing-page.md)
 * [Gegevensstroom van pushmeldingen en componenten](push-gs.md)
 * [Het pushkanaal configureren](push-configuration.md)
 * [Pushmeldingenrapport](../reports/journey-global-report-cja-push.md#push-global)

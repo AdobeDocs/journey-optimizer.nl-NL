@@ -1,0 +1,62 @@
+---
+solution: Journey Optimizer
+product: Journey Optimizer
+title: AI-modellen
+description: AI-modellen
+redpen-status: CREATED_||_2025-08-11_20-55-44
+source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+workflow-type: tm+mt
+source-wordcount: '218'
+ht-degree: 0%
+
+---
+
+
+# AI-modellen{#section-overview}
+
+Met AI-modellen in Adobe Journey Optimizer kunt u op het juiste moment het juiste aanbod doen door aanbevelingen te rangschikken en aan te passen op basis van uw zakelijke doelstellingen en klantinteracties. Of u nu wereldwijd wilt optimaliseren voor kliks en conversies of aanbiedingen wilt maken voor specifieke doelgroepen, deze modellen gebruiken geavanceerde technieken, zoals het leren van machines, om de besluitvorming slimmer en effectiever te maken. U kunt op twee manieren te werk gaan: automatisch optimaliseren voor algemene prestaties en persoonlijke optimalisatie voor publiekspecifieke aanbevelingen. Bovendien leert u hoe u modellen maakt, uitdagingen aangaat zoals het koudstartprobleem en de resultaten bijhoudt. Ontgrendel de kracht van gegevensgestuurde beslissingen met vertrouwen en nauwkeurigheid.
+
+## AI-modellen in Adobe Journey Optimizer
+
+:::: landing-cards-container
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
+
+Aan de slag met AI-modellen
+
+Leer meer over de typen, doelen en stappen om AI-modellen te maken en te gebruiken voor het beoordelen van aanbiedingen in Adobe Journey Optimizer.
+
+[Meer informatie over AI-modellen](../using/experience-decisioning/ranking/ai-models.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+
+Modellen voor automatische optimalisatie
+
+Begrijp hoe de auto-optimalisatiemodellen, met inbegrip van de bemonstering van Thompson en de Bayesiaanse gevolgtrekking, werken om KPIs als omzettingspercentages te maximaliseren.
+
+[Automatische optimalisatiemodellen verkennen](../using/experience-decisioning/ranking/auto-optimization-model.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+Aangepaste optimalisatiemodellen
+
+Ontdek hoe de Gepersonaliseerde Modellen van de Optimalisering klantengegevens hefboomwerking om gepersonaliseerde aanbiedingen aan te bevelen en zakenKPIs te stimuleren.
+
+[Dive into Personalized Optimization](../using/experience-decisioning/ranking/personalized-optimization-model.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+Stapsgewijze handleiding: AI-modellen maken
+
+Volg een gedetailleerde zelfstudie voor het creëren van AI modellen om aanbiedingen te rangschikken die op bedrijfsdoelstellingen en optimalisatiemetriek worden gebaseerd.
+
+[Start het maken van AI-modellen](../using/experience-decisioning/ranking/create-ai-models.md)
+:::
+
+::::
