@@ -52,7 +52,7 @@ Als u zaken voor webgebruik wilt uitvoeren, kunt u het webkanaal of de ervaring 
 
 **Web**
 
-* Bewerk uw inhoud gebruikend de [ visuele redacteur van de 0} Webontwerper {of de Web ](../web/web-visual-editor.md){target="_blank"} niet-visuele redacteur [.](../web/web-non-visual-editor.md)
+* Bewerk uw inhoud gebruikend de [ visuele redacteur van de 0&rbrace; Webontwerper &lbrace;of de Web ](../web/web-visual-editor.md){target="_blank"} niet-visuele redacteur [.](../web/web-non-visual-editor.md)
 * U hebt [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"} nodig - een cliënt-zijimplementatie.
   <!--* You need the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}-->
 * Met het webkanaal kunt u alles op de pagina wijzigen en hebt u een vooraf gedefinieerde lijst met handelingen die u kunt gebruiken om wijzigingen aan te brengen. [Meer informatie](../web/web-visual-editor.md){target="_blank"}

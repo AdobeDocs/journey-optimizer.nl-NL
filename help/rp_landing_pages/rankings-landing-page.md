@@ -20,7 +20,7 @@ Met lezingen in Adobe Journey Optimizer kunt u bepalen welke aanbiedingen als ee
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Aan de slag met waarderingen
 
@@ -30,7 +30,7 @@ Leer de grondbeginselen van classificaties in Adobe Journey Optimizer, met inbeg
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Willekeurige formules maken en gebruiken
 
@@ -40,7 +40,7 @@ Volg stapsgewijze instructies om rangschikkingsformules te maken met PQL-syntaxi
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 AI-modellen voor waardering van aanbiedingen
 

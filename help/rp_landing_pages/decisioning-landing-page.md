@@ -20,7 +20,7 @@ Dankzij de beslissingsmogelijkheden in Journey Optimizer kunt u op het juiste mo
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Inleiding tot beslissingsmogelijkheden
 
@@ -30,7 +30,7 @@ Leer over de hulpmiddelen en de eigenschappen in Adobe Journey Optimizer die gep
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Beslissing in Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Ontdek hoe u persoonlijke inhoud kunt maken, beheren en optimaliseren met behulp
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Beslissingsbeheer in Adobe Journey Optimizer
 

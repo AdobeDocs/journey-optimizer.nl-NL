@@ -20,7 +20,7 @@ De malplaatjes van de inhoud in Adobe Journey Optimizer zijn krachtige hulpmidde
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met inhoudssjablonen
 
@@ -30,7 +30,7 @@ Leer de basisbeginselen van het maken en beheren van inhoudssjablonen om het her
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Sjablonen openen en beheren
 
@@ -40,7 +40,7 @@ Ontdek hoe u inhoudssjablonen kunt openen, ordenen en beheren, inclusief het mak
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Inhoudssjablonen maken
 
@@ -50,7 +50,7 @@ Stapsgewijze handleiding voor het maken van herbruikbare inhoudssjablonen op bas
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Inhoud in e-mailsjablonen vergrendelen
 
@@ -60,7 +60,7 @@ Leer hoe u secties of volledige sjablonen kunt vergrendelen om onbedoelde bewerk
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Inhoudssjablonen testen
 
@@ -70,7 +70,7 @@ E-mailsjablonen valideren door rendering, variaties en proefdrukken te testen vo
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Inhoudssjablonen gebruiken
 

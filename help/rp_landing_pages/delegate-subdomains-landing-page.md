@@ -20,7 +20,7 @@ Het delegeren van e-mailsubdomeinen in Adobe Journey Optimizer stelt beheerders 
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met subdomeindelegatie
 
@@ -30,7 +30,7 @@ Leer de voordelen, de configuratiemethodes, en de overwegingen voor het delegere
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Een subdomein delegeren
 
@@ -40,7 +40,7 @@ De geleidelijke begeleiding voor het delegeren van subdomeinen aan Adobe, met in
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 DMARC-records instellen
 
@@ -50,7 +50,7 @@ Configureer DMARC-records om de e-mailbeveiliging en de leverbaarheid voor gedel
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Een Google TXT-record toevoegen
 
@@ -60,7 +60,7 @@ Verifieer subdomeinen voor Gmail leverability door Google TXT- verslagen in Adob
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 PTR-records openen en bewerken
 
@@ -70,7 +70,7 @@ PTR-records beheren voor gedelegeerde subdomeinen, waaronder het bewerken en beg
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 IP-pools maken
 

@@ -20,7 +20,7 @@ Door inhoud te ontwerpen in Adobe Journey Optimizer kunt u onhandige bestemmings
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Een bestemmingspagina ontwerpen in Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Leer hoe u geheel nieuwe bestemmingspagina&#39;s maakt, onbewerkte HTML gebruikt
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Inhoud van bestemmingspagina maken en aanpassen
 
@@ -40,7 +40,7 @@ Voeg componenten zoals formulieren toe, pas de stijlen aan en gebruik contextuel
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Werken met landingspaginasjablonen
 
@@ -50,7 +50,7 @@ Sla bestemmingspagina&#39;s op als sjablonen en gebruik ze opnieuw om de workflo
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Aangepaste JavaScript gebruiken in bestemmingspagina&#39;s
 

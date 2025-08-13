@@ -20,7 +20,7 @@ Met Adobe Journey Optimizer&#39;s gebruiksscenario&#39;s voor meerdere oplossing
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe-oplossingen combineren om inhoud te beheren
 
@@ -30,7 +30,7 @@ Leer hoe u Adobe Journey Optimizer kunt integreren met andere Adobe-oplossingen,
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Adobe Experience Manager Assets gebruiken
 
@@ -40,7 +40,7 @@ Stapsgewijze begeleiding bij het integreren, uploaden en beheren van middelen va
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/images.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/images.svg)
 
 Werken met Adobe Stock-afbeeldingen
 
@@ -50,7 +50,7 @@ Ontdek hoe u Adobe Stock-afbeeldingen kunt zoeken, licentiëren en aanpassen voo
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg)
 
 Assets bewerken met Adobe Express
 
@@ -60,7 +60,7 @@ Leer hoe u achtergronden kunt vergroten of verkleinen, uitsnijden en verwijderen
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Werken met AEM-inhoudsfragmenten
 
@@ -70,7 +70,7 @@ Stapsgewijze instructies voor de integratie van AEM Content Fragments met Adobe 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Werken met dynamische media
 

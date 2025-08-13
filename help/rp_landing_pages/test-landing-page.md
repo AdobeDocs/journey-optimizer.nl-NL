@@ -20,7 +20,7 @@ Met de functies Testen en goedkeuren in Adobe Journey Optimizer kunt u uw campag
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Inhoud voorvertonen, testen en valideren
 
@@ -30,7 +30,7 @@ Leer hoe u persoonlijke inhoud kunt voorvertonen, testen en valideren met testpr
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Goedkeuringswerkstromen voor reizen en campagnes
 
@@ -40,7 +40,7 @@ Begrijp hoe u goedkeuringsprocedures instelt, beheert en uitvoert om kwaliteitsc
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Toegang tot en abonnement op systeemwaarschuwingen
 

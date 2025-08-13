@@ -20,7 +20,7 @@ Met de sectie Conversie in Adobe Journey Optimizer kunt u gegevens transformeren
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toBool, functie
 
@@ -30,7 +30,7 @@ Verschillende gegevenstypen converteren naar Booleaanse waarden met de functie t
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDateOnly Function
 
@@ -40,7 +40,7 @@ Datumrepresentaties converteren naar een type dateOnly met de functie toDateOnly
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDateTime Functie
 
@@ -50,7 +50,7 @@ Zet verschillende inputs om in een datum-tijdwaarde met behulp van de toDateTime
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDateTimeOnly Function
 
@@ -60,7 +60,7 @@ Zet een waarde in datum-tijd formaat zonder tijdzone gebruikend om toDateTimeOnl
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDecimal, functie
 
@@ -70,7 +70,7 @@ Diverse gegevenstypen converteren naar decimale waarden met de functie toDecimal
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDuration, functie
 

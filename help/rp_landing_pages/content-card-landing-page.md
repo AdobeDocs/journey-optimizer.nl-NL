@@ -23,7 +23,7 @@ Met deze functie kunnen marketers relevante, rijke media-inhoud presenteren aan 
 :::: landing-cards-container
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Kanaal voor inhoudskaarten configureren
 
@@ -33,7 +33,7 @@ Stel het Content Cards-kanaal in en integreer het voor web-, mobiele en kiosk-pl
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Inhoudskaarten maken en configureren
 
@@ -43,7 +43,7 @@ Stapsgewijze zelfstudie voor het maken, aanpassen en implementeren van inhoudska
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Ontwerpinhoudskaarten
 

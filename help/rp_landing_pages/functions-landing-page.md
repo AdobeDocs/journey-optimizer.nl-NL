@@ -20,7 +20,7 @@ Helderfuncties in Adobe Journey Optimizer stellen u in staat om ervaringen nauwk
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met Helper-functies
 
@@ -30,7 +30,7 @@ Leer hoe u hulpfuncties kunt gebruiken voor gegevensmanipulatie en personalisati
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Samenvoegingsfunctiebibliotheek
 
@@ -40,7 +40,7 @@ Ontdek functies om meerdere waarden samen te vatten in één waarde voor persona
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Rekenkundige functiebibliotheek
 
@@ -50,7 +50,7 @@ Ontdek hoe rekenkundige functies berekeningen uitvoeren, zoals optellen, aftrekk
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referentie voor Array- en lijstfuncties
 
@@ -60,7 +60,7 @@ Leer arrays en lijsten te manipuleren met functies zoals tellen, ophalen van ver
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Bibliotheek met datum- en tijdfuncties
 
@@ -70,7 +70,7 @@ Gebruik datum- en tijdfuncties om datums voor aanpassingsworkflows te manipulere
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Booleaanse functie en vergelijkingsfunctie
 

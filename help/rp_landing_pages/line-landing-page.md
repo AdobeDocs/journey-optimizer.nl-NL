@@ -30,7 +30,7 @@ Voordat u uw LIJNbericht maakt, configureert u uw LIJNkanaal met Journey Optimiz
 :::: landing-cards-container
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Het lijnkanaal configureren
 
@@ -40,7 +40,7 @@ Volg de stapsgewijze instructies om het LINE-kanaal of de instellingen voor het 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Lijneberichten maken en configureren
 
@@ -50,7 +50,7 @@ Ontdek hoe u REGELS kunt toevoegen aan reizen en campagnes, inhoud kunt aanpasse
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Regelberichten controleren en verzenden
 

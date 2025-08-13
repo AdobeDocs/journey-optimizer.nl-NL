@@ -27,7 +27,7 @@ De uitgaande kanalen van de berichtlevering impliceren het verzenden van bericht
 :::: landing-cards-container
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 E-mailkanaal
 
@@ -37,7 +37,7 @@ Ontdek hoe u e-mailcampagnes kunt maken, configureren en optimaliseren, inclusie
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Kanaal voor pushmelding
 
@@ -47,7 +47,7 @@ Leer hoe u pushmeldingen voor iOS en Android kunt maken, configureren en verzend
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 SMS/MMS/RCS-berichten
 
@@ -57,7 +57,7 @@ Begrijp hoe te om SMS, MMS, en RCS berichten voor marketing en transactionele do
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 Campagnes Direct Mail
 
@@ -75,7 +75,7 @@ Met Mobiele App en Web binnenkomende ervaringen, beginnen de klanten interactie.
 :::: landing-cards-container
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 In-app-berichten
 
@@ -85,7 +85,7 @@ Ontdek hoe u In-app-meldingen voor mobiele en webplatforms kunt configureren, on
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
@@ -95,7 +95,7 @@ Leer hoe u webervaringen maakt, configureert en personaliseert en webkanalen int
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Ervaring op basis van code
 
@@ -105,7 +105,7 @@ Diveer in code-gebaseerde ervaringen om gepersonaliseerde inhoud over digitale p
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/id-card.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 Inhoudskaarten
 

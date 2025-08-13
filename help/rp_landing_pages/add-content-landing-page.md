@@ -20,7 +20,7 @@ Het ontwerpen van uw inhoud in Adobe Journey Optimizer gaat allemaal over het ma
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Inhoudscomponenten gebruiken
 
@@ -30,7 +30,7 @@ Leer hoe u componenten zoals tekst, knoppen, afbeeldingen en meer kunt toevoegen
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
 
 Gebruikmaken van visuele fragmenten
 
@@ -40,7 +40,7 @@ Ontdek hoe u herbruikbare fragmenten kunt maken om uw e-mailontwerp te stroomlij
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Koppelingen en trackberichten toevoegen
 
@@ -50,7 +50,7 @@ Schakel het bijhouden van koppelingen in, voeg koppelingen in en beheer de weerg
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Aangepaste voorstellen invoegen
 
@@ -60,7 +60,7 @@ Gebruik besluitvormingsbeheer om persoonlijke aanbiedingen die zijn afgestemd op
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
 Tekstversie genereren
 
@@ -70,7 +70,7 @@ Maak en pas de onbewerkte tekstversie van uw e-mailbericht aan voor ontvangers d
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Metagegevens toevoegen
 

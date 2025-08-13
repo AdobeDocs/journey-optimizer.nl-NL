@@ -20,7 +20,7 @@ Het maken van inhoud in Adobe Journey Optimizer gaat allemaal over flexibiliteit
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 E-mailinhoud ontwerpen vanuit werkruimte
 
@@ -30,7 +30,7 @@ Leer hoe u e-mailinhoud maakt en aanpast met de e-mailkoppelingen van Adobe Jour
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Bestaande e-mailinhoud importeren
 
@@ -40,7 +40,7 @@ Importeer HTML-inhoud naar Adobe Journey Optimizer, pas ontwerpelementen aan en 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Uw eigen e-mailinhoud coderen
 
@@ -50,7 +50,7 @@ Codeer uw e-mailinhoud handmatig met onbewerkte HTML in de modus &#39;Uw eigen c
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Werken met e-mailsjablonen
 
@@ -60,7 +60,7 @@ Bespaar tijd door voorbeeld- of aangepaste e-mailsjablonen te gebruiken om uw on
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gebruik e-mailthema&#39;s
 

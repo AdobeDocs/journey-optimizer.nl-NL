@@ -20,7 +20,7 @@ Ontdek hoe u webervaringen kunt maken, personaliseren en optimaliseren met de kr
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Inhoud bewerken met de Web Designer
 
@@ -30,7 +30,7 @@ Leer hoe u de visuele webontwerper in Adobe Journey Optimizer kunt gebruiken voo
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Webinhoud bewerken met de niet-visuele editor
 
@@ -40,7 +40,7 @@ Ontdek hoe u de niet-visuele editor kunt gebruiken voor webwijzigingen, zoals he
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Webwijzigingen beheren in Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Leer hoe u webwijzigingen kunt beheren met het deelvenster Wijzigingen, inclusie
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Uw webervaringen volgen
 
@@ -60,7 +60,7 @@ Begrijp hoe u de betrokkenheid bij het web kunt controleren met behulp van rappo
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Toepassingen met één pagina maken in Adobe Journey Optimizer
 

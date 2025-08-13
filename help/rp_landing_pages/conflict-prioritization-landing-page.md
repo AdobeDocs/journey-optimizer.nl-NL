@@ -20,7 +20,7 @@ Conflictbeheer en prioritering in Adobe Journey Optimizer helpen u doordachte, g
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met Conflictbeheer
 
@@ -30,7 +30,7 @@ Leer hoe u hulpmiddelen zoals conflictdetectie, prioriteitsscores en regelsets k
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Mogelijke conflicten identificeren
 
@@ -40,7 +40,7 @@ Ontdek methoden om campagne- en reisconflicten op te sporen en op te lossen, zod
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Prioriteitsscores toewijzen aan campagnes
 
@@ -50,7 +50,7 @@ Leer numerieke prioriteitsscores toe te wijzen aan reizen en campagnes om confli
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Regels voor berichten en reizen uitlijnen instellen
 

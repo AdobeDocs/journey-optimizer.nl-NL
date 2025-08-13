@@ -20,7 +20,7 @@ De sectie API-naslaggids in Adobe Journey Optimizer ontgrendelt de gereedschappe
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met de bibliotheek-API van de aanbieding
 
@@ -30,7 +30,7 @@ Leer hoe te om de Bibliotheek API van de Aanbieding voor besluitvormingsbeheer, 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Aanbiedingen leveren met Adobe Journey Optimizer API&#39;s
 
