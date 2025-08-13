@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b62f0325b8d7aa1e213a5c6273d0634a0e005a6e
+source-git-commit: da1562edb6ba8e98210c5c6add4fa16ca025d9f7
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 19 augustus, 2025
 
@@ -164,7 +164,12 @@ Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experi
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer steunt een nieuwe generische activiteit van de Actie die u toelaat om zowel enige acties als multi-kanaal uitgaande acties te vormen, die voor gestroomlijnde actieconfiguratie binnen het reiscanvas toestaan. Met deze nieuwe activiteit, hebt u ook de capaciteit om het richten optimalisering, experimenten, en meertalige taalvarianten aan om het even welke ingebouwde kanaalactie toe te voegen.</p>
+<p>Journey Optimizer steunt een nieuwe generische activiteit van de Actie die u toelaat om zowel enige acties als multi-kanaal uitgaande acties te vormen, die voor gestroomlijnde actieconfiguratie binnen het reiscanvas toestaan. Met deze nieuwe functie kunt u met name:</p>
+<ul>
+<li>Een vereenvoudigde native actieconfiguratie binnen het reiscanvas.</li>
+<li>De capaciteit om multi-actie binnenkomende knopen te creëren.</li>
+<li>De mogelijkheid om optimalisatie toe te voegen aan ingebouwde kanaalacties.</li>
+</ul>
 <p>Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
