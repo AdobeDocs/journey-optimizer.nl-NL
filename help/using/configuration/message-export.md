@@ -11,9 +11,10 @@ keywords: exporteren, berichten, HIPAA, e-mails, SMS, configuratie
 badge: label="Beperkte beschikbaarheid" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 9e76bfb65865ec7814493ad6e08834d367a9417a
+exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
+source-git-commit: c62653af3c1eacaaf55dcf181d33f2253521e33d
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '503'
 ht-degree: 1%
 
 ---
@@ -29,11 +30,7 @@ ht-degree: 1%
 >
 >Deze functie is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-**Uitvoer van het Bericht** laat u verzonden e-mail en SMS berichtinhoud van [!DNL Journey Optimizer] naar uw eigen opslag via [!DNL Adobe Experience Platform] bestemmingen overbrengen.
-
->[!NOTE]
->
->[!DNL Experience Platform] -doelen bestaan uit een framework waarmee gegevens van Experience Platform naar externe eindpunten kunnen worden verzonden. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/home){target="_blank"}
+**Uitvoer van het Bericht** laat u verzonden e-mail en SMS berichtinhoud van [!DNL Journey Optimizer] naar uw eigen opslag via [!DNL Adobe Experience Platform] bestemmingen overbrengen, die toelaten om gegevens uit [!DNL Experience Platform] in externe eindpunten te leveren. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"}
 
 Met deze eigenschap, wordt de inhoud van e-mail en SMS berichten die via [!DNL Journey Optimizer] worden verzonden die voor de uitvoer zijn duidelijk geschreven aan de [!DNL Experience Platform] **Dataset van de Uitvoer van het Bericht van AJO**.
 
@@ -41,7 +38,7 @@ De verslagen worden dan bewaard in de **Dataset van de Uitvoer van het Bericht v
 <!--
 ## Terminology
 
-* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/home){target="_blank"}
+* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"}
 * **AJO Message Export Dataset** - An [!DNL Experience Platform] dataset which stores the message content of email and SMS messages sent via [!DNL Journey Optimizer] which have been marked for export.
 * **Retention**: Records in the AJO Message Export Dataset are retained for 3 calendar days from ingestion.-->
 
@@ -70,9 +67,9 @@ Voordat u uw gegevens kunt exporteren, moet u het exportproces instellen door de
 >
 >Deze instelling moet voor elke sandbox worden geconfigureerd.
 
-1. Kies een Experience Platform [ bestemmingstype ](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/destination-types). Een lijst van beschikbare bestemmingsplatforms die klaar zijn om gegevens te ontvangen is beschikbaar op [ deze pagina ](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
+1. Kies een Experience Platform [ bestemmingstype ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}. Een lijst van beschikbare bestemmingsplatforms die klaar zijn om gegevens te ontvangen is beschikbaar op [ deze pagina ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
 
-1. In [!DNL Experience Platform], vorm uw bestemming door geloofsbrieven, emmertje/container, wegprefix, en veiligheidsopties te bepalen. [ leer hoe ](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. In [!DNL Experience Platform], vorm uw bestemming door geloofsbrieven, emmertje/container, wegprefix, en veiligheidsopties te bepalen. [ leer hoe ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. Creeer een stroom van de datasetuitvoer gebruikend de volgende gegevens:
 
@@ -95,5 +92,3 @@ Om de Uitvoer van het Bericht op uw campagnes en reizen toe te passen, moet u de
 De e-mail en SMS berichten die via campagnes of reizen worden verzonden gebruikend deze kanaalconfiguratie worden geschreven aan de **Dataset van de Uitvoer van het Bericht van AJO**. De records worden vervolgens naar de geselecteerde opslagbestemming geëxporteerd op basis van de exportgegevensstroom die u hebt gedefinieerd.
 
 Als u de schakeloptie **[!UICONTROL Enable Message Export]** uitschakelt, worden nieuwe records voor deze kanaalconfiguratie niet meer opgenomen in de gegevensset. Bestaande records blijven bewaard totdat het retentietijdstip is verlopen.
-
-
