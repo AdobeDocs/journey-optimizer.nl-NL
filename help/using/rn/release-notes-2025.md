@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
 workflow-type: tm+mt
-source-wordcount: '4197'
+source-wordcount: '5113'
 ht-degree: 7%
 
 ---
@@ -18,6 +18,171 @@ ht-degree: 7%
 # Aanvullende informatie 2025 {#release-notes-2025}
 
 Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Journey Optimizer] in 2025 heeft uitgebracht.
+
+## Opmerkingen bij de release van juli 1925 {#25-7-rn}
+
+**de datum van de Versie**: 29 juli, 2025
+
+### Nieuwe functies {#features-25-7}
+
+De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder beschreven.
+
+#### Functies
+
+<table>
+<thead>
+<tr>
+<th><strong>Merken</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu uw eigen merken maken en aanpassen om uw visuele en verbale identiteit in verschillende communicatie duidelijk te definiëren. Met de merkuitlijningsscore kunt u in real-time feedback ontvangen over hoe goed uw inhoud de toon, stijl en richtlijnen van uw merk weerspiegelt, zodat u bij elke boodschap die u verzendt, consistent onder het merk kunt blijven.</p>
+<p>Eerder in Beta is deze mogelijkheid nu beschikbaar voor alle omgevingen (algemene beschikbaarheid).</p>
+<p><img src="assets/do-not-localize/brand-score.gif"/></p>
+<p>Raadpleeg de <a href="../content-management/brands.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Beslissing in e-mailkanaal gebruiken</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu beleidsregels voor beslissingen toevoegen aan e-mailreizen en -campagnes. Beslissingsbeleid is containers voor uw aanbiedingen die de beslissingsengine gebruiken om dynamisch de beste inhoud te retourneren die voor elk publiekslid kan worden geleverd.</p>
+<p>Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
+Voor meer informatie, verwijs naar de <a href="../experience-decisioning/create-decision.md"> gedetailleerde documentatie </a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>LINE-kanaal</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer heeft zijn kanaalmogelijkheden uitgebreid om steun voor het kanaal van de LIJN te omvatten. Dankzij deze verbetering kunt u LINE-ervaringen maken, bewerken en voorvertonen, zodat u meer persoonlijke en boeiende interacties kunt maken. Met LINE, kunt u met meer klanten verbinden, relevante inhoud verzenden, en uw overeenkomst verbeteren.</p>
+<p>Eerder beschikbaar slechts verzoek, is het kanaal van de LIJN nu beschikbaar aan alle gebruikers (Algemene Beschikbaarheid).</p>
+<p>Raadpleeg de <a href="../../rp_landing_pages/line-landing-page.md">gedetailleerde documentatie</a> voor meer informatie.</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Reizen op reis</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Reis Dry run is een speciale publicatiemodus in Adobe Journey Optimizer die reisartsen in staat stelt een reis te testen met behulp van echte productiegegevens zonder contact op te nemen met echte klanten of profielinformatie bij te werken. Deze functie helpt reisartsen vertrouwen te winnen in hun reisontwerp en doelgroep voordat ze het live publiceren.</p>
+<img src="assets/do-not-localize/DryRun.gif">
+<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
+<p>Voor meer informatie, verwijs naar de <a href="../building-journeys/journey-dry-run.md"> gedetailleerde documentatie </a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Aanvullende ID voor reizen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu ritten activeren met een profiel-id en een andere id, zoals een bestellings-id, een abonnement-id of een recept-id, zodat hetzelfde profiel zich meerdere keren tegelijk in dezelfde reis kan bevinden. Dit laat scenario's zoals het beheren van veelvoudige orden of abonnementen parallel toe, met elke instantie die zijn eigen weg door de reis volgt.</p>
+<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is het gebruik van extra IDs in reizen nu beschikbaar aan alle milieu's. Met deze algemene beschikbaarheidsrelease bevat deze functie nu ondersteuning voor reizen van lezers.</p>
+<p><img src="assets/do-not-localize/gif-supplemental.gif"/></p>
+<p>Voor meer informatie, verwijs naar de <a href="../building-journeys/supplemental-identifier.md"> gedetailleerde documentatie </a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Waarschuwingen in producten
+
+U kunt nu aan **e-mail en in-product alarm** voor de productreleases van Journey Optimizer intekenen.
+
+Abonneren:
+
+* Navigeer aan **Voorkeur van Adobe Experience Cloud**
+* Onder **Meldingen**, vind **Nieuwe versies van Journey Optimizer**
+* In-app- en e-mailmeldingen inschakelen
+
+![](assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
+
+
+### Verandering van de reisomstandigheden {#ee-change@}
+
+Vanaf 8 juli wordt in nieuwe klantenorganisaties het maken van expressies met behulp van ervaringsgebeurtenissen niet langer ondersteund in de expressie-editor die wordt gebruikt in reisomstandigheden. Dientengevolge, kan de ervaringsgebeurtenissen in de [ gegevensbron van Experience Platform ](../datasource/adobe-experience-platform-data-source.md) niet voor het creëren van uitdrukkingen worden gebruikt. De alternatieve benaderingen en beste praktijken voor het creëren van uitdrukkingen/logica met ervaringsgebeurtenissen worden van verwijzingen voorzien [ hier ](../building-journeys/exp-event-lookup.md).
+
+Er is geen wijziging in de manier waarop gegevens over de reiscontext worden benaderd tijdens eenheidstreizen. In de redacteurs van de uitdrukking en van de verpersoonlijking, kunnen de gebruikers tot gegevens blijven toegang hebben die met de aanvankelijke reisgebeurtenis worden overgegaan.
+
+Leer meer [ in dit FAQ ](../building-journeys/exp-event-lookup.md#faq-ee).
+
+### Verbeteringen {#25-7-improv}
+
+De verbeteringen die bij deze release worden geleverd, worden hieronder weergegeven.
+
+* **Campagnes**
+
+   * **Veelvoudige binnenkomende acties in campagnes** - om uw campagneorchestratie te vereenvoudigen, kunt u verscheidene binnenkomende acties in één enkele campagne nu bepalen. Met deze functie kunt u meerdere op code gebaseerde ervaringen, In-app-berichten, Content Cards of webhandelingen tegelijk op verschillende locaties aanbieden, waarbij elke actie een specifieke inhoud bevat.
+     [Meer informatie](../campaigns/campaign-action.md#multi-action)
+
+   * **de inventarisreorganisatie van de Campagne** - Gepland en API-teweeggebrachte campagnes zijn nu verdeeld in afzonderlijke lusjes in de campagneinventaris voor gemakkelijkere navigatie en beheer.
+
+[Meer informatie](../campaigns/modify-stop-campaign.md)
+
+* **het Beheer van Gegevens**
+   * **de update van de systeemdatasets van het Beheer van het Besluit** - de geschrapte Gepersonaliseerde en aanbiedingen van de Fallback worden nu duidelijk zoals gearchiveerd in de &quot;beslissing_object_repository_personalized_aanbiedingen&quot;en &quot;Decision_object_repository_fallback_aanbiedingen&quot;datasets. De bestaande records in de dataset worden niet gewijzigd.
+
+[Meer informatie](../offers/export-catalog/access-dataset.md)
+
+* **Reizen**
+   * **de Tooling van Sandbox van de Reis Verbeteringen** - wanneer het kopiëren van reizen over veelvoudige zandbakken gebruikend de pakketuitvoer en de invoermogelijkheden, zijn de volgende mogelijkheden nu ook beschikbaar:
+      * Een bestaande gebeurtenis op het doel selecteren
+      * Het kopiëren over een evenement onafhankelijk van een reis
+      * Het ontdekken van gebiedsgroep/gegevensbronverhoudingen, die met hen verbinden bij de bestemming als zij bestaan, creërend hen als zij niet.
+
+[Meer informatie](../configuration/copy-objects-to-sandbox.md)
+
+* **Kanaal - in-app**
+   * **In-app Zeer belangrijke/paren van de Waarde** - met In-app berichten, kunt u Sleutel en paren van de Waarde bepalen om douanevariabelen in de berichtlading te omvatten. Deze zeer belangrijk-waardeparen laten u toe om extra gegevens over te gaan die op uw specifieke configuratie en gebruiksgeval worden gebaseerd. [Meer informatie](../in-app/design-in-app.md)
+
+* **Kanaal - de Kaart van de Inhoud**
+
+   * **regel-Gebaseerde Verdiskwalificatie van de Campagne** - toen het uitgeven van extra leveringsregels, is de vorige optie van de Regels van de Levering vervangen met drie verschillende regeltypes aan betere controle berichttiming en zicht:
+      * Bericht weergeven als: voorwaarden die bepalen wanneer de inhoudskaart wordt weergegeven.
+      * Bericht sluiten als: Voorwaarden die de inhoudskaart tijdelijk verbergen. De weergave kan worden hersteld als opnieuw aan de voorwaarden voor de show wordt voldaan.
+      * Schakel het bericht uit als: Voorwaarden die voorkomen dat de inhoudskaart opnieuw wordt weergegeven.
+
+[Meer informatie](../content-card/design-content-card.md)
+
+* **Beslissing**
+   * **het tooling APIs van de Migratie** - het team van Journey Optimizer werkt momenteel aan migratie tooling APIs om besluitvormingsbeheersentiteiten aan Beslissing te migreren. Met deze gereedschappen kunt u naadloze migratie mogelijk maken tussen sandboxen met de mogelijkheden voor afhankelijkheidsresolutie en terugdraaien. Neem indien nodig contact op met uw Adobe-vertegenwoordiger.
+
+* **Personalization**
+   * Er is een nieuwe hulpfunctie, SHA256, toegevoegd aan de personalisatie-editor. Deze functie wordt gebruikt om de sha256 hash van een tekenreeks te berekenen en te retourneren.
+
+[Meer informatie](../personalization/functions/string.md#sha256)
 
 
 ## Opmerkingen bij de release van juni &#39;25 {#25-6-rn}
@@ -939,7 +1104,7 @@ Raadpleeg de [gedetailleerde documentatie](../test-approve/approval-policies.md)
 
 **Bedrijfs regels**
 
-U kunt nu dagelijkse aftopping gebruiken in reizen en campagnes met batchsegmentatie. Om ervoor te zorgen dat de regels voor dagelijkse frequentiecapping correct zijn, moet u de naamruimte met de hoogste prioriteit kiezen tijdens het ontwerpen van een campagne of een reis. Leer meer over namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+U kunt nu dagelijkse aftopping gebruiken in reizen en campagnes met batchsegmentatie. Om ervoor te zorgen dat de regels voor dagelijkse frequentiecapping correct zijn, moet u de naamruimte met de hoogste prioriteit kiezen tijdens het ontwerpen van een campagne of een reis. Leer meer over namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
 Ter herinnering: dagelijkse frequentiecapping in regelsets is alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
