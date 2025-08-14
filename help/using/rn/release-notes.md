@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e8edafaff94ae9498f3d0eb3d696b38cd25e4c0a
+source-git-commit: c50553f5a591ae1f462f8162313999424bec533c
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1715'
 ht-degree: 0%
 
 ---
@@ -20,14 +20,14 @@ ht-degree: 0%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 
 ## Opmerkingen bij de pre-release augustus &#39;25 {#25-8-rn}
 
 **de Nota&#39;s van de pre hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd op de releasedatum.
 
-Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 19 augustus, 2025
 
@@ -244,7 +244,13 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
    * **controle van het Tarief in uitgaande campagnes** - u kunt throttling tariefcontrole voor uitgaande campagnes (E-mail, SMS, Push berichten) nu toelaten, toestaand u om overbelasting op stroomafwaartse systemen, zoals het landen van pagina&#39;s of de platforms van de klantenzorg te verhinderen.
 
-   * **campagne die van de Actie** plant - de campagne dagelijks, wekelijkse en maandelijkse planners zijn bijgewerkt voor betere granulariteit. U kunt nu bijvoorbeeld het aantal weken/maanden tussen de schema&#39;s instellen, bepalen op welke dag de uitvoering moet plaatsvinden en besluiten te stoppen na een bepaald aantal exemplaren of op een bepaalde datum.
+   * **campagne die van de Actie** plant - de campagne dagelijks, wekelijkse, en maandelijkse planners zijn bijgewerkt om meer gedetailleerde controle over terugkomende programma&#39;s te verstrekken:
+
+      * **Wekelijkse herhaling**: U kunt nu verkiezen om de campagne elke week of elke twee weken te herhalen, en de dag(en) van de week te selecteren waarop het zou moeten lopen.
+
+      * **Maandelijkse herhaling**: U kunt nu verkiezen om de campagne elke maand of om de andere maand te herhalen, en de dag van de maand te selecteren waarop het zou moeten lopen.
+
+      * **Dagelijkse, wekelijkse, of maandelijkse programma&#39;s**: U kunt specificeren als het terugkomende programma op een specifieke datum of na een bepaald aantal voorkomen zou moeten ophouden.
 
    * **Geplande transactionele actiecampagnes** - Geplande transactionele actiecampagnes zijn nu beschikbaar voor het verzenden van partij, op publiek-gebaseerde transactionele mededelingen via E-mail, SMS, en de kanalen van de Duw.
 
