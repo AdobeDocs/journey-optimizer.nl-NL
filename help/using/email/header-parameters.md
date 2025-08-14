@@ -8,13 +8,13 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie
-source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
+exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
+source-git-commit: 1b4ab451ed9e2315ffe4850c6ab4b8ad20223ac3
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
-
 
 # Parameters koptekst {#email-header}
 
@@ -64,7 +64,7 @@ Als u een fout bij het voorleggen van de e-mailconfiguratie krijgt, betekent het
 
 >[!NOTE]
 >
->Als subdomain van het adres u inging een domein is dat [ volledig ](../configuration/delegate-subdomain.md#full-subdomain-delegation) aan Adobe werd gedelegeerd, contacteer uw de rekeningsmanager van Adobe.
+>Als subdomain van het adres u inging een domein is dat [ volledig ](../configuration/delegate-subdomain.md#full-subdomain-delegation) aan Adobe werd gedelegeerd, contacteer uw vertegenwoordiger van Adobe.
 
 ## E-mail doorsturen {#forward-email}
 
