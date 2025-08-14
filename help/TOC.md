@@ -5,10 +5,10 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 804dfd79ac48b0030213e9a3ba944146a4fe8c15
+source-git-commit: 9e76bfb65865ec7814493ad6e08834d367a9417a
 workflow-type: tm+mt
-source-wordcount: '2878'
-ht-degree: 18%
+source-wordcount: '2881'
+ht-degree: 19%
 
 ---
 
@@ -227,7 +227,7 @@ ht-degree: 18%
       + [De uitvoering van de campagne activeren](using/campaigns/trigger-campaigns.md)
    + Geordende campagnes {#orchestrated-campaigns}
       + [Geordende campagnes](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
-      + [Aan de slag met geordende campagnes](using/orchestrated/gs-orchestrated-campaigns.md)
+      + [Aan de slag met georkestreerde campagnes](using/orchestrated/gs-orchestrated-campaigns.md)
       + [Afvoerkanalen en beperkingen](using/orchestrated/guardrails.md)
       + [Veelgestelde vragen](using/orchestrated/orchestrated-campaigns-faq.md)
       + Gegevensconfiguratie {#data-configuration}
@@ -855,7 +855,7 @@ ht-degree: 18%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
@@ -890,6 +890,7 @@ ht-degree: 18%
       + [Lijst van gewenste personen](using/configuration/allow-list.md)
    + [zaadlijsten gebruiken](using/configuration/seed-lists.md)
    + [Ondersteuning voor archivering](using/configuration/archiving-support.md)
+   + [Inhoud van berichten exporteren](using/configuration/message-export.md)
    + [Uitvoeringadressen wijzigen](using/configuration/primary-email-addresses.md)
    + [Bedrijfsregels configureren](using/configuration/frequency-rules.md)
 + Reisconfiguratie {#configure-journeys}
