@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Aan de slag met georkestreerde campagnes
-description: Leer hoe u begint met geordende campagnes
-short-description: Ontdek de georkestreerde belangrijkste kenmerken van de campagne en gebruik gevallen.
+description: Meer informatie over hoe u aan de slag kunt gaan met georkestreerde campagnes
+short-description: Ontdek de belangrijkste kenmerken en gebruiksscenario's van georkestreerde campagnes.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 source-git-commit: 4510cfde1579fbabe7deb1289f70f13ee21a3d4a
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 

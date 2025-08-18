@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Uw eerste journey maken
-description: Belangrijke stappen om uw eerste journey met Adobe Journey Optimizer te maken
+description: Belangrijke stappen om uw eerste journey met Adobe Journey Optimizer te bouwen
 feature: Journeys, Get Started
 topic: Content Management
 role: User
