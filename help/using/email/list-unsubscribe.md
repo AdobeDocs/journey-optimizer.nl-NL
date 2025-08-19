@@ -93,7 +93,7 @@ De functies **[!UICONTROL Mailto (unsubscribe)]** en **[!UICONTROL One-click uns
   >
   >Leer meer over het beheren van unsubscribe mogelijkheden binnen uw berichten in [ deze sectie ](../email/email-opt-out.md#unsubscribe-header).
 
-In [!DNL Journey Optimizer], wordt de toestemming behandeld door het schema van de Experience Platform [ Toestemming ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"}. Standaard is de waarde voor het veld voor toestemming leeg en wordt deze behandeld als toestemming voor het ontvangen van uw communicatie. U kunt deze standaardwaarde wijzigen terwijl het aan een van de mogelijke hier vermelde waarden [ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target="_blank"}, of gebruik [ toestemmingsbeleid ](../action/consent.md) om de standaardlogica met voeten te treden.
+In [!DNL Journey Optimizer], wordt de toestemming behandeld door het schema van de Experience Platform [ Toestemming ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"}. Standaard is de waarde voor het veld voor toestemming leeg en wordt deze behandeld als toestemming voor het ontvangen van uw communicatie. U kunt deze standaardwaarde wijzigen terwijl het aan een van de mogelijke hier vermelde waarden [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target="_blank"}, of gebruik [ toestemmingsbeleid ](../action/consent.md) om de standaardlogica met voeten te treden.
 
 Momenteel voegt [!DNL Journey Optimizer] geen specifieke tag toe aan afmeldingsgebeurtenissen die worden geactiveerd door de functie voor afmelden van lijst. Als u List moet onderscheiden wanneer u klikt op een abonnement op een andere actie voor annuleren, moet u aangepaste tags extern implementeren of een externe bestemmingspagina gebruiken voor tracering.
 
@@ -160,7 +160,7 @@ Hieronder vindt u de monsterparameters en de reactie op de toestemming:
 
 | Query-parameter | Voorbeeld van lading |
 |---------|----------|
-| pid | <br> &quot;pid&quot; : &quot;5142733041546020095851529937068211571&quot;, <br> &quot;pns&quot; : &quot;CRMID&quot;,<br> 2}&quot;e&quot;    : &quot;john@google.com&quot;, <br> &quot;ens&quot; : &quot;Email&quot;, <br> |
+| pid | <br> &quot;pid&quot; : &quot;5142733041546020095851529937068211571&quot;, <br> &quot;pns&quot; : &quot;CRMID&quot;,<br> 2&rbrace;&quot;e&quot;    : &quot;john@google.com&quot;, <br> &quot;ens&quot; : &quot;Email&quot;, <br> |
 | param | <br> &quot;m&quot;: &quot;messageExecutionId&quot;, <br> &quot;ci&quot; : &quot;campagneId&quot;, <br> &quot;jv&quot;: &quot;tripVersionId&quot;, <br> &quot;ja&quot;: &quot;tripActionId&quot;, <br> &quot;s&quot;: &quot;sandboxId&quot;, <br> &quot;us&quot;: &quot;unsubscribeScope&quot;<br> |
 
 Toestemmingsreactie:
