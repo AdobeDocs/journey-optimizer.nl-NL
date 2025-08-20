@@ -83,7 +83,7 @@ Ga als volgt te werk om een kanaalconfiguratie te maken:
 
    >[!NOTE]
    >
-   >Het beleid van de toestemming is momenteel slechts beschikbaar voor organisaties die het **Bevel van de Gezondheidszorg** en **Privacy en het 3} toe:voegen-op dienstenaanbod van het Schild van de Veiligheid hebben gekocht.**
+   >Het beleid van de toestemming is momenteel slechts beschikbaar voor organisaties die het **Bevel van de Gezondheidszorg** en **Privacy en het 3&rbrace; toe:voegen-op dienstenaanbod van het Schild van de Veiligheid hebben gekocht.**
 
    ![](assets/surface-marketing-action.png)
 

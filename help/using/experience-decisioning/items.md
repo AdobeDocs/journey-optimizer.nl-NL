@@ -68,7 +68,7 @@ Begin door de standaard en douanekenmerken van het besluitpunt te bepalen:
    >
    >Momenteel slechts [ uitdrukkingsfragmenten ](../personalization/use-expression-fragments.md) worden gesteund.
    >
-   >Geneste fragmenten (fragmenten die verwijzen naar andere fragmenten) kunnen niet worden gebruikt. De goedkeuring van het besluitvormingspunt [ ](#approve) zal ontbreken als u zulk een fragment toevoegt.
+   >Geneste fragmenten (fragmenten die verwijzen naar andere fragmenten) kunnen niet worden gebruikt. De goedkeuring van het besluitvormingspunt [&#128279;](#approve) zal ontbreken als u zulk een fragment toevoegt.
 
 1. Aangepaste kenmerken opgeven (optioneel). Aangepaste kenmerken zijn specifieke kenmerken die zijn toegesneden op uw behoeften en die u kunt toewijzen aan een beslissingsitem. Zij worden bepaald in het de catalogusschema van besluitvormingspunten. [ leer hoe te met catalogi ](catalogs.md) werken
 

@@ -184,7 +184,7 @@ In de sectie **[!UICONTROL Strategy sequence]** kunt u de beslissingsitems en de
    >
    >Alleen selectiestrategieën kunnen binnen een reeks worden gesleept en neergezet. Als u de positie van een beslissingsitem wilt wijzigen, moet u het item verwijderen en opnieuw toevoegen met de knop **[!UICONTROL Add]** nadat u de andere items hebt toegevoegd die u eerder wilt evalueren.
 
-   U kunt **** veelvoudige selectiestrategieën in groepen ook combineren zodat worden zij samen en niet afzonderlijk geëvalueerd. Klik hiertoe op de knop **`+`** onder een selectiestrategie om deze te combineren met een andere. U kunt een selectiestrategie ook naar een andere slepen om de twee strategieën in een groep te groeperen.
+   U kunt **&#x200B;**&#x200B;veelvoudige selectiestrategieën in groepen ook combineren zodat worden zij samen en niet afzonderlijk geëvalueerd. Klik hiertoe op de knop **`+`** onder een selectiestrategie om deze te combineren met een andere. U kunt een selectiestrategie ook naar een andere slepen om de twee strategieën in een groep te groeperen.
 
    >[!NOTE]
    >
@@ -314,7 +314,7 @@ Nu kunt u alle beslissingskenmerken toevoegen die u in die code wilt. De beschik
 >[!NOTE]
 >
 >Voor het volgen van het Punt van het besluitvormingsbeleid, moet de `trackingToken` attributen als volgt voor de inhoud van het besluitvormingsbeleid worden toegevoegd:
->>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Klik op elke map om deze uit te vouwen. Plaats de cursor van de muis op de gewenste locatie en klik op het pictogram + naast het kenmerk dat u wilt toevoegen. U kunt zoveel kenmerken aan de code toevoegen als u wilt.
 
@@ -344,7 +344,7 @@ Nadat u dit hebt gedaan, kunt u een van de volgende methoden gebruiken:
 
 >[!BEGINTABS]
 
->[!TAB  neemt direct de code ] op
+>[!TAB neemt direct de code  op]
 
 U plakt gewoon het codeblok hieronder in de code voor het beslissingsbeleid. Vervang `variable` door de fragment-id en `placement` door de fragmentverwijzingssleutel:
 
@@ -355,7 +355,7 @@ U plakt gewoon het codeblok hieronder in de code voor het beslissingsbeleid. Ver
 
 >[!TAB  volg de gedetailleerde stappen ]
 
-1. Navigeer aan **[!UICONTROL Helper functions]** en voeg **** functie `{% let variable = expression %} {{variable}}` aan de coderuit toe, waar u de variabele voor uw fragment kunt verklaren.
+1. Navigeer aan **[!UICONTROL Helper functions]** en voeg **&#x200B;**&#x200B;functie `{% let variable = expression %} {{variable}}` aan de coderuit toe, waar u de variabele voor uw fragment kunt verklaren.
 
    ![](assets/decision-let-function.png)
 
