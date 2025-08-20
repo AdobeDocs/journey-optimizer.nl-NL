@@ -10,9 +10,9 @@ mini-toc-levels: 1
 level: Beginner
 keywords: campagnes, status, planning, toegang, optimaliseren beheren
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1401'
+source-wordcount: '1476'
 ht-degree: 0%
 
 ---
@@ -140,16 +140,6 @@ Als er een fout optreedt in een van uw campagnes, verschijnt er een waarschuwing
 
 Naast de lijst met campagnes biedt [!DNL Journey Optimizer] een kalenderweergave van uw campagnes en een duidelijke visuele weergave van hun programma&#39;s.
 
->[!AVAILABILITY]
->
->De kalenderweergave is momenteel alleen beschikbaar voor actiecampagnes en door API&#39;s getriggerde campagnes voor een set organisaties (beperkte beschikbaarheid). Om toegang te verzoeken, gebruik [ deze vorm ](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
->
->Deze functie is actief ontwikkeld. We verwelkomen uw invoer en verzoeken met de knop **[!UICONTROL Beta Feedback]** in het bovenste menu.
-
-In de kalender worden alle campagnes weergegeven die voor de huidige week zijn gepland. Gebruik de pijlknoppen boven de kalender om tussen weken te navigeren.
-
-![ kalendermening die levende campagnes tonen ](assets/campaigns-timeline.png)
-
 Hoe campagnes worden vertegenwoordigd:
 
 * Standaard worden in het kalenderraster alle live en geplande campagnes voor de geselecteerde week weergegeven. Aanvullende filteropties kunnen voltooide, gestopt en voltooide activeringen of activeringen van een bepaald type of kanaal weergeven.
@@ -158,11 +148,43 @@ Hoe campagnes worden vertegenwoordigd:
 * Als er geen begintijd is opgegeven, wordt de dichtstbijzijnde handmatige activeringstijd gebruikt om deze in de kalender te plaatsen.
 * Campagnes worden getoond als timespans van 1 uur, maar dit weerspiegelt geen daadwerkelijke verzend of voltooiingstijd.
 
-Voor meer informatie over een campagne klikt u op het visuele blok om de details ervan te openen.
+Navigeren in de agenda voor uw campagnes:
 
-Als u details voor een specifieke campagne wilt weergeven, selecteert u deze in de lijst. Er wordt een informatievenster geopend met verschillende informatie over de campagne, zoals het type, de toegang tot de rapporten of de tags die zijn toegewezen.
+1. Klik het ![ kalender ](assets/do-not-localize/Smock_Calendar_18_N.svg) pictogram om tot uw kalender van Campagnes toegang te hebben.
 
-![ campagnemijst met de informatieruit geopend ](assets/campaign-rail.png)
+1. Gebruik de pijlknoppen of de datumkiezer boven de kalender om tussen weken te gaan.
+
+   In de kalender worden alle campagnes weergegeven die voor de huidige week zijn gepland.
+
+   ![ kalendermening die levende campagnes tonen ](assets/campaigns-timeline.png)
+
+1. Klik het ![ tandwiel ](assets/do-not-localize/Smock_Gears_18_N.png) pictogram om de vertoning van punten van een knevel te voorzien die veelvoudige dagen of weken overspannen.
+
+   ![ kalendermening die levende campagnes tonen ](assets/campaign-long-term.png)
+
+1. Klik ![ toevoegen kalender ](assets/do-not-localize/Smock_CalendarAdd_18_N.svg) pictogram om tot drie externe kalenders te beheren en toe te voegen.
+
+   ![ kalendermening die externe kalenders tonen ](assets/campaign-external-calendar.png)
+
+1. Sleep uw CSV-bestanden met gebeurtenisnamen, begindatums en einddatums en zet deze neer.
+
+   Geüploade gebeurtenissen worden voor alle gebruikers in uw organisatie weergegeven en worden zowel op de kalenders Reis als Campagne weergegeven.
+
+   +++De CSV-indeling moet als volgt zijn:
+
+   | Kolom1 | Kolom2 | Kolom3 |
+   |-|-|-|
+   | Gebeurtenisnaam | Begindatum in mm/dd/jj-formaat | Einddatum in mm/dd/yformaat |
+
+   +++
+
+1. Indien nodig, kunt u toegevoegde externe kalenders verbergen, verbergen of verwijderen.
+
+   ![ kalendermening die externe kalenders tonen ](assets/campaign-manage-calendar.png)
+
+1. Voor meer informatie over een campagne klikt u op het visuele blok om de details ervan te openen. Er wordt een informatievenster geopend met verschillende informatie over de campagne, zoals het type, de toegang tot de rapporten of de tags die zijn toegewezen.
+
+   ![ campagnemijst met de informatieruit geopend ](assets/campaign-rail.png)
 
 ## Herhaalde handelingscampagnes wijzigen en stoppen {#modify}
 

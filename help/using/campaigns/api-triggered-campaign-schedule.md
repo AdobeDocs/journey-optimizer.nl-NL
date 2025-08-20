@@ -8,17 +8,19 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: e04b0d38-6b3d-4086-a0f0-c1b8f6d9634f
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 1%
+source-wordcount: '215'
+ht-degree: 0%
 
 ---
-
 
 # De door de API geactiveerde campagne plannen {#api-schedule}
 
 Gebruik het tabblad **[!UICONTROL Schedule]** om het campagneschema te definiëren.
+
+## Begin- en einddatum instellen
 
 Door gebrek, beginnen API teweeggebrachte campagnes zodra zij worden teweeggebracht, en eindigen zodra het bericht is verzonden eens. Als u de campagne niet direct wilt uitvoeren nadat deze is geactiveerd, kunt u met de optie **[!UICONTROL Campaign start]** een datum en tijd opgeven waarop het bericht moet worden verzonden.
 
@@ -29,6 +31,16 @@ Met de optie **[!UICONTROL Campaign end]** kunt u opgeven wanneer een campagne m
 >[!NOTE]
 >
 >Wanneer u campagnes in [!DNL Adobe Journey Optimizer] plant, moet u ervoor zorgen dat de begindatum/tijd wordt uitgelijnd op de gewenste eerste levering.
+
+## Snelheidbeheersing instellen
+
+Met [!DNL Journey Optimizer] kunt u tariefcontrole inschakelen voor uitgaande acties (e-mail, SMS, pushberichten).
+
+Deze functie is vooral handig om overbelasting op downstreamsystemen, zoals pagina&#39;s voor landingen of platforms voor klantenservice, te voorkomen. Bijvoorbeeld, kunt u een tariefgrens van 165 berichten per seconde plaatsen om constante levering zonder overweldigende stroomafwaartse systemen te verzekeren.
+
+Als u het snelheidsbeheer wilt instellen, schakelt u de optie **[!UICONTROL Throttle delivery]** in de sectie **[!UICONTROL Delivery settings]** in en geeft u het gewenste **[!UICONTROL Delivery rate]** op.
+
+![](assets/throttling-rate-control.png)
 
 ## Volgende stappen {#next}
 

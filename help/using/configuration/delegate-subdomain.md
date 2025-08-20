@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdomein, delegatie, domein, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1853'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 >id="ajo_admin_subdomainname"
 >title="Subdomeindelegatie"
 >abstract="Met Journey Optimizer kunt u uw subdomeinen delegeren aan Adobe. U kunt een subdomein volledig delegeren aan Adobe, wat de geadviseerde methode is. </br> u kunt subdomain ook creëren gebruikend CNAMEs om aan Adobe-specifieke verslagen te richten, maar deze benadering vereist u om DNS verslagen op uw te handhaven en te beheren."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="Methoden voor subdomeinconfiguratie"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="Methoden voor subdomeinconfiguratie"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname_header"
@@ -176,11 +176,10 @@ Volg de onderstaande stappen om een subdomein in te stellen met gebruik van CNAM
 Voer de onderstaande stappen uit om de subdomeindelegatie te voltooien.
 
 1. Klik op **[!UICONTROL Submit]**.
-
-   >[!NOTE]
-   >
-   >Als een fout terwijl het proberen voorkomt om een douane subdomain voor te leggen, verwijs naar [ deze sectie ](#check-list).
-
+<!--
+    >[!NOTE]
+    >
+    >If an error occurs while trying to submit a custom subdomain, refer to [this section](delegate-custom-subdomain.md#check-list).-->
 
 1. U kunt de records maken en de subdomeinconfiguratie later verzenden met de knop **[!UICONTROL Save as draft]** .
 

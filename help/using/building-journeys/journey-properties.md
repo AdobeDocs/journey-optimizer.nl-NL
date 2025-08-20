@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, configuratie, eigenschappen
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 7d5d27d9509dd80fece2e360d58437d26df7c4de
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2713'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Profielbeheer is afhankelijk van het type reis. Leer meer over profielingang en 
 >id="ajo_journey_properties_entrance"
 >title="Ingang toestaan"
 >abstract="Nieuwe reizen maken standaard terugkeer mogelijk. U kunt uncheck **toestaan ingang** optie bijvoorbeeld als u een eenmalig geschenk wilt aanbieden wanneer een persoon een winkel ingaat."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profieltoegangsbeheer"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profieltoegangsbeheer"
 
 Nieuwe reizen maken standaard terugkeer mogelijk. U kunt uncheck **toestaan terugkeer** optie voor &quot;één schot&quot;reizen, bijvoorbeeld als u een eenmalig geschenk wilt aanbieden wanneer een persoon een winkel ingaat.
 
@@ -72,7 +72,7 @@ Nieuwe reizen maken standaard terugkeer mogelijk. U kunt uncheck **toestaan teru
 >id="ajo_journey_properties_re-entrance_wait"
 >title="Reentrale wachttijd"
 >abstract="Stel de tijd in die moet worden gewacht voordat een profiel de reis weer kan betreden tijdens een enkele reis. Hierdoor kunnen gebruikers de reis niet opnieuw betreden voor een bepaalde duur. Maximale duur: 90 dagen."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profieltoegangsbeheer"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profieltoegangsbeheer"
 
 Wanneer **toe staat terugkeer** optie wordt geactiveerd, **de ingang wacht periode** gebied wordt getoond. In dit veld kunt u de tijd definiëren die u moet wachten voordat u een profiel toestaat om de reis opnieuw te betreden tijdens een enkele reis (te beginnen met een evenement of een publiekskwalificatie). Hierdoor wordt voorkomen dat ritten meerdere keren ten onrechte worden geactiveerd voor dezelfde gebeurtenis. Het veld wordt standaard ingesteld op 5 minuten. De maximale duur is 90 dagen.
 
@@ -252,7 +252,7 @@ Adobe Journey Optimizer gebruikt samenvoegbeleid terwijl het terugwinnen van pro
 
 Adobe Journey Optimizer past het fusiebeleid toe dat gedurende de hele reis wordt gebruikt. Daarom als de veelvoudige publiek in een reis (bijvoorbeeld het gebruiken van binnen [`inAudience` functies ](functions/functioninaudience.md)) wordt gebruikt, leidt dit tot inconsistenties met het fusiebeleid dat door de reis wordt gebruikt, wordt een fout opgeheven en de publicatie wordt geblokkeerd. Nochtans, als een inconsistent publiek in berichtverpersoonlijking wordt gebruikt, wordt een alarm niet opgeheven, ondanks de inconsistentie. Om deze reden, wordt het hoogst geadviseerd om het samenvoegbeleid te controleren verbonden aan uw publiek, wanneer dit publiek in berichtverpersoonlijking wordt gebruikt.
 
-Meer over fusiebeleid leren, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+Meer over fusiebeleid leren, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
 >[!NOTE]
 >
@@ -262,10 +262,10 @@ Meer over fusiebeleid leren, verwijs naar [ documentatie van Adobe Experience Pl
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
->title="Criteria voor het verlaten van de reis"
->abstract="In dit gedeelte worden de opties voor afsluitcriteria weergegeven. U kunt één of veelvoudige regels van de uitgangscriteria voor uw reis tot stand brengen."
+>title="Afsluitingscriteria"
+>abstract="In dit gedeelte worden de opties voor afsluitcriteria weergegeven. U kunt één of veelvoudige regels en filters van de uitgangscriteria voor uw reis tot stand brengen."
 
-### Beschrijving {#exit-criteria-desc}
+### Afsluitcriteria voor reizen {#exit-criteria-desc}
 
 Door afsluitcriteria toe te voegen, sluiten de profielen de reis af zodra een gebeurtenis (bijvoorbeeld: Aankoop) plaatsvindt of komen zij in aanmerking voor een publiek. Dit zal de gebruiker verhinderen om het even welke verdere mededelingen van de reis te krijgen.
 
@@ -275,7 +275,7 @@ U wilt misschien profielen van een reis verwijderen als zij niet meer aan het do
 
 Een marketeer heeft een promotietraject met een reeks communicatie. Elk van deze mededelingen is bedoeld om de klant ertoe aan te zetten een aankoop te doen. Zodra de aankoop wordt gemaakt, mag de klant de rest van de berichten in de reeks niet meer ontvangen. Door een exit-criterium te definiëren, worden profielen die een aankoop hebben gedaan, van de reis verwijderd.
 
-### Configuratie en gebruik {#exit-criteria-config}
+#### Configuratie en gebruik {#exit-criteria-config}
 
 Afsluitingscriteria worden vastgesteld op het niveau van de reis. Eén reis kan meerdere exit-criteria hebben. Als u meerdere afsluitcriteria hebt ingesteld, vindt de evaluatie van boven naar beneden plaats met een `OR` -logica. Vandaar, als u Criteria A van de Uitgang en Criteria B hebt, wordt het geëvalueerd als A **OF** B. De criteria worden bij elke etappe van de reis geëvalueerd.
 
@@ -296,12 +296,39 @@ U kunt meerdere afsluitcriteria toevoegen.
 
 ![](assets/exitcriteria-sample.png){width="40%" align="left"}
 
+
+### Afsluitcriteria op basis van profielkenmerken {#profile-exit-criteria}
+
+De op kenmerk-Gebaseerde Criteria van de Uitgang van het profiel geeft u grotere controle over gepauzeerde reizen door u toe te staan om regels te bepalen die specifieke profielen automatisch verwijderen alvorens de reis hervat. U kunt afsluitvoorwaarden instellen op basis van profielkenmerken, zoals locatie, status of voorkeuren, om ervoor te zorgen dat alleen de relevante profielen worden voortgezet in de rit nadat deze is hervat.
+
+Bijvoorbeeld, kunt u [ een reis ](journey-pause.md) pauzeren, een uitgangsvoorwaarde toevoegen om alle profielen te verwijderen die in Frankrijk worden gevestigd, en de reis hervatten wetend dat die profielen bij de volgende actiestap zullen worden uitgesloten. Deze logica geldt zowel voor profielen die al tijdens de reis worden gebruikt als voor nieuwe profielen die na de hervatting van de reis in aanmerking komen.
+
+Deze functie werkt naast de functie Pauzeren/Hervatten, zodat u reizen veiliger en flexibeler kunt beheren. Het minimaliseert handinterventie, vermindert het risico om irrelevante of niet-volgzame mededelingen te verzenden, en houdt uw reislogica gericht aan huidige bedrijfsvereisten.
+
+Verwijs naar deze sectie om te leren hoe te [ de criteria van de de uitgang van het gebruiksprofielattribuut in gepauzeerde reizen ](journey-pause.md#apply-a-global-filter-to-profiles-in-a-paused-journey).
+
 ### Afvoerkanalen en beperkingen {#exit-criteria-guardrails}
 
-De volgende instructies en beperkingen zijn van toepassing op de mogelijkheid om de reis te verlaten:
+De volgende guardrails en de beperkingen zijn op het [ vermogen van de Criteria van de Uitgang 0} van de Reis {van toepassing:](#exit-criteria-desc)
 
 * Afsluitingscriteria worden alleen in de ontwerpstatus gedefinieerd
 * Reis namespace coherentie tussen gebeurtenissen en op gebeurtenis-gebaseerde uitgangscriteria
+
+De volgende gidsen zijn van toepassing wanneer het gebruiken van het [ Attribuut-Gebaseerde vermogen van de Uitgang van het Profiel ](#profile-exit-criteria):
+
+* **de criteria van de Uitgang zijn van toepassing op het actieniveau**\
+  De afsluitcriteria voor &quot;Profielkenmerk&quot; worden alleen geëvalueerd bij handelingen. In tegenstelling tot andere soorten uitstapcriteria gelden deze niet over de hele reis.\
+  Als u een reis hervat en sommige profielen aan de uitgangsvoorwaarde voldoen, zullen die profielen bij de volgende actieknooppunt worden uitgesloten.\
+  Nieuwe profielen die de reis na hervatting ingaan zullen ook bij hun eerste actieknooppunt worden geëvalueerd en worden uitgesloten, als zij aan de voorwaarde voldoen.
+
+* **Één op profiel-gebaseerde uitgangsregel per reis**\
+  U kunt slechts één &quot;Kenmerk van het Profiel&quot;uitgangscriteria per reis bepalen. Deze beperking helpt duidelijkheid te behouden en voorkomt conflicten in reislogica.
+
+* **Beschikbaar in gepauzeerde reizen slechts**\
+  U kunt de afsluitcriteria voor &quot;Profielkenmerk&quot; alleen toevoegen of bewerken wanneer de reis wordt gepauzeerd.
+
+   * In a **ontwerpprijs reis**, verschijnt de *optie van het Attribuut van het Profiel* gehandicapt (read-only), terwijl *Gebeurtenis* en *Publiek* opties actief blijven.
+   * In a **gepauzeerde reis**, wordt de *optie van het Attribuut van het Profiel* editable, en *Gebeurtenis* en *de opties van het Publiek* worden read-only.
 
 ## Reisschema {#schedule}
 

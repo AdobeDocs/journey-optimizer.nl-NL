@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: campagne, hoe, begin, optimaliseer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '729'
 ht-degree: 1%
 
 ---
@@ -40,8 +40,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_throttling"
->title="Besturingselement voor de rotatiesnelheid"
->abstract="Besturingselement voor de rotatiesnelheid"
+>title="Snelheidbeheersing"
+>abstract="Plaats de controle van het Tarief voor uw campagne door de gewenste tariefgrenzen te specificeren. Deze functie is vooral handig om overbelasting op downstreamsystemen, zoals pagina&#39;s voor landingen of platforms voor klantenservice, te voorkomen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card3"
@@ -113,7 +113,7 @@ Geordende campagneviewer
 
 Als u geen toegang hebt tot campagnefuncties, neemt u contact op met uw beheerder om de benodigde machtigingen aan te vragen.
 
-+++Meer informatie over het toewijzen van een aan een campagne gerelateerde rol
++++Leer hoe u een rol met betrekking tot een campagne toewijst
 
 1. Als u een rol wilt toewijzen aan een gebruiker in het [!DNL Permissions] -product, navigeert u naar het tabblad **[!UICONTROL Roles]** en selecteert u een van de hierboven beschreven geïntegreerde campagnes voor **[!UICONTROL Roles]** .
 
@@ -121,7 +121,7 @@ Als u geen toegang hebt tot campagnefuncties, neemt u contact op met uw beheerde
 
 1. Typ de naam of het e-mailadres van de gebruiker of selecteer de gebruiker in de lijst en klik op **[!UICONTROL Save]** .
 
-   Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/users) toevoegen.
+   Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users) toevoegen.
 
 Uw gebruiker moet dan een e-mail ontvangen die aan uw instantie opnieuw richt.
 

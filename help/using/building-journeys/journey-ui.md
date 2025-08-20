@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1360'
 ht-degree: 2%
 
 ---
@@ -48,34 +48,57 @@ Op het tabblad **[!UICONTROL Browse]** wordt de lijst met bestaande reizen weerg
 
 ![ reis dashboard die het Browse lusje benadrukt ](assets/journeys-browse.png)
 
+In de reislijst, worden alle reisversies getoond met het versieaantal. Wanneer u een reis zoekt, verschijnen de nieuwste versies bij de eerste keer dat de toepassing wordt geopend boven aan de lijst. Vervolgens kunt u de gewenste sortering definiëren en wordt deze door de toepassing als gebruikervoorkeur behouden. De versie van de reis wordt ook weergegeven boven aan de interface van de reiseditie, boven het canvas. Leer meer over [ beheer van de reisversie ](publishing-the-journey.md#journey-versions-journey-versions).
+
 ### Reizigerskalender {#calendar}
 
 Naast de lijst met ritten geeft [!DNL Journey Optimizer] een kalenderweergave van uw reizen, met een duidelijke visuele weergave van hun dienstregelingen.
 
->[!AVAILABILITY]
->
->De kalenderweergave is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Om toegang te verzoeken, gebruik [ deze vorm ](https://forms.cloud.microsoft/r/FC49afuJVi){target="_blank"}.
->
->Deze functie is actief ontwikkeld. We verwelkomen uw invoer en verzoeken met de knop **[!UICONTROL Beta Feedback]** in het bovenste menu.
-
-Om tot de kalendermening toegang te hebben, open de reislijst en klik het ![ pictogram van de Kalender ](assets/do-not-localize/timeline-icon.svg) pictogram.
-
-In de kalender worden alle reizen weergegeven die voor de huidige week zijn gepland. Gebruik de pijlknoppen boven de kalender om tussen weken te navigeren.
-
-![ kalendermening die levende reizen tonen ](assets/timeline-journeys.png)
-
 Hoe reizen worden vertegenwoordigd:
 
-* Standaard worden in het rooster alle actieve en geplande reizen voor de geselecteerde week weergegeven. Extra filteropties kunnen voltooide, gestopt en voltooide activeringen of activeringen tonen.
+* Standaard toont het kalenderraster alle actieve en geplande reizen voor de geselecteerde week. Extra filteropties kunnen voltooide, gestopt en voltooide activeringen of activeringen tonen.
 * Conceptreizen en ritten in testmodus worden niet weergegeven.
 * Reizen die meerdere dagen beslaan, worden boven in het kalenderraster weergegeven.
 * Als er geen begintijd is opgegeven, wordt de dichtstbijzijnde handmatige activeringstijd gebruikt om deze in de kalender te plaatsen.
 * De reizen worden getoond als timespans van 1 uur, maar dit weerspiegelt geen daadwerkelijke verzend of voltooiingstijd.
 
-Voor meer details op een reis, klik zijn visueel blok om zijn details te openen en te onderzoeken.
+Navigeren in uw kalender voor reizen:
 
-In de reislijst, worden alle reisversies getoond met het versieaantal. Wanneer u een reis zoekt, verschijnen de nieuwste versies bij de eerste keer dat de toepassing wordt geopend boven aan de lijst. Vervolgens kunt u de gewenste sortering definiëren en wordt deze door de toepassing als gebruikervoorkeur behouden. De versie van de reis wordt ook weergegeven boven aan de interface van de reiseditie, boven het canvas. Leer meer over [ beheer van de reisversie ](publishing-the-journey.md#journey-versions-journey-versions).
+1. Om tot de kalendermening toegang te hebben, open de reislijst en klik het ![ pictogram van de Kalender ](assets/do-not-localize/timeline-icon.svg) pictogram.
 
+1. Gebruik de pijlknoppen of de datumkiezer boven de kalender om tussen weken te gaan.
+
+   In de kalender worden alle reizen weergegeven die voor de huidige week zijn gepland.
+
+   ![ kalendermening die levende reizen tonen ](assets/timeline-journeys.png)
+
+1. Klik het ![ tandwiel ](assets/do-not-localize/Smock_Gears_18_N.png) pictogram om de vertoning van punten van een knevel te voorzien die veelvoudige dagen of weken overspannen.
+
+   ![ kalendermening die levende campagnes tonen ](assets/journey-calendar-1.png)
+
+1. Klik ![ toevoegen kalender ](assets/do-not-localize/Smock_CalendarAdd_18_N.svg) pictogram om tot drie externe kalenders te beheren en toe te voegen.
+
+   ![ kalendermening die externe kalenders tonen ](assets/journey-calendar-2.png)
+
+1. Sleep uw CSV-bestanden met gebeurtenisnamen, begindatums en einddatums en zet deze neer.
+
+   Geüploade gebeurtenissen worden voor alle gebruikers in uw organisatie weergegeven en worden zowel op de kalenders Reis als Campagne weergegeven.
+
+   +++De CSV-indeling moet als volgt zijn:
+
+   | Kolom1 | Kolom2 | Kolom3 |
+   |-|-|-|
+   | Gebeurtenisnaam | Begindatum in mm/dd/jj-formaat | Einddatum in mm/dd/yformaat |
+
+   +++
+
+1. Indien nodig, kunt u toegevoegde externe kalenders verbergen, verbergen of verwijderen.
+
+   ![ kalendermening die externe kalenders tonen ](assets/journey-calendar-3.png)
+
+1. Voor meer details op een reis, klik zijn visueel blok om zijn details te openen en te onderzoeken.
+
+   ![ campagnemijst met de informatieruit geopend ](assets/journey-calendar-4.png)
 
 
 ## Uw reizen filteren {#journey-filter}
@@ -117,9 +140,9 @@ De reisstatus hangt af van de levenscyclus. Het kan zijn:
 * **Gesloten**: de reis is gesloten gebruikend **dicht aan nieuwe ingangen** knoop. De reis houdt in dat nieuwe individuen de reis kunnen betreden. Personen die al onderweg zijn, kunnen de reis normaal afmaken.
 * **Ontwerp**: de reis is in zijn eerste stadium. Het is nog niet gepubliceerd.
 * **Ontwerp (Test)**: de testwijze is geactiveerd gebruikend de **wijze van de Test** knoop.
-* **Voltooid**: De reis schakelt automatisch aan deze status na de globale onderbreking 91 dag [&#128279;](journey-properties.md#global_timeout). Profielen die al op reis zijn, worden normaal afgehandeld. Nieuwe profielen kunnen niet langer de reis betreden.
+* **Voltooid**: De reis schakelt automatisch aan deze status na de globale onderbreking 91 dag [ ](journey-properties.md#global_timeout). Profielen die al op reis zijn, worden normaal afgehandeld. Nieuwe profielen kunnen niet langer de reis betreden.
 * **Levend**: de reis is gepubliceerd gebruikend **publiceer** knoop.
-* **Gestopt**: de reis is uitgezet gebruikend de **3&rbrace; knoop van het Einde &lbrace;.** Alle individuen sluiten onmiddellijk de reis.
+* **Gestopt**: de reis is uitgezet gebruikend de **3} knoop van het Einde {.** Alle individuen sluiten onmiddellijk de reis.
 
 >[!NOTE]
 >
@@ -144,3 +167,19 @@ Volg onderstaande stappen om dit te doen:
    ![](assets/duplicate-jo2.png)
 
 1. De nieuwe reis wordt gecreeerd en beschikbaar in de reislijst.
+
+
+## Bulkbewerkingen {#bulk-operations}
+
+Van de lijst van uw reizen, kunt u veelvoudige **Levende** reizen pauzeren. Om een groep reizen (_bulkpauze_) te pauzeren, hen in de lijst te selecteren en de **knoop van de Pauze** in de blauwe bar bij de bodem van het scherm te klikken. De **knoop van de Pauze** is slechts beschikbaar wanneer **Levende** reizen worden geselecteerd.
+
+![ Bulk pauzeert twee levende reizen van de bodembar ](assets/bulk-pause-journeys.png)
+
+U kunt één of verscheidene **Gepauzeerde** reizen ook hervatten. Om een groep ritten (_bulksgewijs hervat_) te hervatten, hen te selecteren en de **hervat** knoop te klikken die in de blauwe bar bij de bodem van het scherm wordt gevestigd. Gelieve te merken op dat de **Hervatten** knoop slechts beschikbaar zal zijn wanneer **Gepauzeerde** reizen worden geselecteerd.
+
+[ Leer meer over de reizen van de Pauze/van de Hervat ](journey-pause.md).
+
+>[!NOTE]
+>
+>U kunt pauzeren/hervatten tot 10 reizen per verrichting.
+

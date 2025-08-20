@@ -6,12 +6,11 @@ description: Leer hoe u een live reis pauzeert en hervat
 feature: Journeys
 role: User
 level: Intermediate
-badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: publiceren, reizen, live, geldigheid, controle
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 9db476ff5b693bef91e982502c6dd37321610fc7
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '2169'
+source-wordcount: '2225'
 ht-degree: 0%
 
 ---
@@ -23,11 +22,8 @@ ht-degree: 0%
 >title="Uw reis pauzeren"
 >abstract="U kunt een live reis pauzeren om te voorkomen dat nieuwe profielen binnenkomen. Kies of u profielen die momenteel op reis zijn, wilt verwijderen of op de juiste plaats wilt houden. Als deze optie behouden blijft, wordt de uitvoering van de volgende actie hervat zodra de reis opnieuw is gestart. Ideaal voor updates of noodstops zonder dat de voortgang verloren gaat."
 
-U kunt uw live reizen pauzeren, alle benodigde wijzigingen uitvoeren en deze op elk gewenst moment hervatten.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> tijdens de pauze, kunt u [ globale filters ](#journey-global-filters) toepassen om profielen uit te sluiten die op hun attributen worden gebaseerd. De reis wordt automatisch hervat aan het einde van de pauze. U kunt het [ ook manueel hervatten ](#journey-resume-steps).
+U kunt uw live reizen pauzeren, alle benodigde wijzigingen uitvoeren en deze op elk gewenst moment hervatten.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> tijdens de pauze, kunt u [ de criteria van de de uitgang van profielattributen ](#journey-global-filters) toepassen om profielen uit te sluiten die op hun attributen worden gebaseerd. De reis wordt automatisch hervat aan het einde van de pauze. U kunt het [ ook manueel hervatten ](#journey-resume-steps).
 
->[!AVAILABILITY]
->
->Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid) en wordt globaal geïmplementeerd in een toekomstige release.
 
 
 ## Belangrijkste voordelen {#journey-pause-benefits}
@@ -61,15 +57,19 @@ Voer de volgende stappen uit om uw reis te pauzeren:
    U kunt:
 
    * **Greep** profielen - de Profielen zullen op de volgende **knoop van de Actie** op de reis wachten die moet worden hervat
-   * **verwerpt** profielen - de Profielen zullen van de reis op de volgende **3 knoop van de Actie worden uitgesloten &lbrace;**
+   * **verwerpt** profielen - de Profielen zullen van de reis op de volgende **3 knoop van de Actie worden uitgesloten {**
 
 1. Klik de **knoop van de Pauze** om te bevestigen.
+
+Het maximumaantal profielen dat kan worden aangehouden in gepauzeerde reizen voor uw organisatie is zichtbaar in de reisinventaris. Het is alleen zichtbaar wanneer ten minste één reis wordt onderbroken. Deze indicator toont ook het totale aantal gepauzeerde reizen. Het wordt elke 30 minuten vernieuwd. Leer meer in de [ Grafieken en Beperkingen ](#guardrails-and-limitations).
+
+![ Aantal gepauzeerde reizen en profielen momenteel gepauzeerd ](assets/profiles-in-paused-journeys.png){width="50%" align="left"}
 
 Van de lijst van uw reizen, kunt u één of verscheidene **Levende** reizen pauzeren. Om een groep reizen (_bulkpauze_) te pauzeren, hen in de lijst te selecteren en de **knoop van de Pauze** in de blauwe bar bij de bodem van het scherm te klikken. De **knoop van de Pauze** is slechts beschikbaar wanneer **Levende** reizen worden geselecteerd.
 
 ![ Bulk pauzeert twee levende reizen van de bodembar ](assets/bulk-pause-journeys.png)
 
-### Gedrag tijdens gepauzeerde reizen
+## Logica voor het uitvoeren van gepauzeerde reizen {#journey-pause-exec}
 
 Wanneer een reis wordt gepauzeerd, worden de verse ingangen altijd genegeerd, ongeacht de Greep/de wijze van de Weigering.
 
@@ -113,23 +113,23 @@ Ga als volgt te werk om een gepauzeerde reis te hervatten en opnieuw te luistere
 Van de lijst van uw reizen, kunt u één of verscheidene **Gepauzeerde** reizen hervatten. Om een groep ritten (_bulksgewijs hervat_) te hervatten, hen te selecteren en de **hervat** knoop te klikken die in de blauwe bar bij de bodem van het scherm wordt gevestigd. Gelieve te merken op dat de **Hervatten** knoop slechts beschikbaar zal zijn wanneer **Gepauzeerde** reizen worden geselecteerd.
 
 
-## Een algemeen filter toepassen op profielen in een gepauzeerde reis {#journey-global-filters}
+## Een exit-criterium toepassen op een gepauzeerde reis {#journey-global-filters}
 
-Wanneer een reis wordt gepauzeerd, kunt u een globaal filter toepassen dat op profielattributen wordt gebaseerd. Met dit filter kunt u profielen uitsluiten die overeenkomen met de gedefinieerde expressie tijdens het hervatten. Wanneer het globale filter is ingesteld, wordt het toegepast op actieknooppunten, zelfs bij invoer van nieuwe profielen. De bestaande profielen die de criteria en de nieuwe profielen aanpassen die de reis ingaan zullen van de reis **op de volgende actieknooppunt** worden uitgesloten zij ontmoeten.
+Wanneer een reis wordt gepauzeerd, kunt u een uitgangscriteria toepassen die op profielattributen worden gebaseerd. Met dit filter kunt u profielen uitsluiten die overeenkomen met de gedefinieerde expressie tijdens het hervatten. Wanneer de op kenmerken gebaseerde afsluitcriteria voor het profiel zijn ingesteld, wordt deze afgedwongen bij actieknooppunten, zelfs bij toegang tot nieuwe profielen. De bestaande profielen die de criteria en de nieuwe profielen aanpassen die de reis ingaan zullen van de reis **op de volgende actieknooppunt** worden uitgesloten zij ontmoeten.
 
 Als u bijvoorbeeld alle Franse klanten wilt uitsluiten van een gepauzeerde reis, voert u de volgende stappen uit:
 
 1. Blader naar de gepauzeerde reis die u wilt wijzigen.
 
-1. Selecteer de **criteria van de Uitgang &amp; Globale filter** pictogram.
+1. Selecteer het **criteria van de Uitgang** pictogram.
 
-   ![ voeg een globale filter aan een gepauzeerde reis toe ](assets/add-global-filter.png)
+   ![ voeg de criteria van de profielattributen weg aan een gepauzeerde reis ](assets/add-global-filter.png) toe
 
-1. In de **Criteria van de Uitgang &amp; Globale montages van de Filter**, klik **Globale Filter** toevoegen om een filter te bepalen dat op profielattributen wordt gebaseerd.
+1. In de **montages van de Criteria van de Uitgang**, klik **toevoegt uitgangscriteria** om een filter te bepalen dat op profielattributen wordt gebaseerd.
 
 1. Stel de expressie in om profielen uit te sluiten als het kenmerk country gelijk is aan Frankrijk.
 
-   ![ voeg een globale filter aan een gepauzeerde reis toe ](assets/add-country-filter.png)
+   ![ voeg de criteria van de profielattributen weg aan een gepauzeerde reis ](assets/add-country-filter.png) toe
 
 1. Sparen uw filter en klik de **reis van de Update** knoop om uw veranderingen toe te passen.
 
@@ -137,13 +137,15 @@ Als u bijvoorbeeld alle Franse klanten wilt uitsluiten van een gepauzeerde reis,
 
    Op het moment van hervatting worden alle profielen met het landkenmerk dat aan Frankrijk is ingesteld, automatisch van de reis bij het volgende actieknooppunt uitgesloten. Alle nieuwe profielen met het kenmerk country die aan Frankrijk zijn toegewezen en die de reis proberen te betreden, worden ook geblokkeerd bij het volgende actieknooppunt.
 
-Houd er rekening mee dat profieluitsluitingen voor profielen die momenteel op reis zijn en voor nieuwe profielen alleen worden uitgevoerd wanneer ze een actieknooppunt bereiken.
+Ben zich ervan bewust dat de profieluitsluitingen voor profielen momenteel in de reis en voor nieuwe profielen slechts **zullen voorkomen wanneer zij een actieknooppunt** bereiken.
 
 >[!CAUTION]
 >
->* U kunt **slechts één** globale filter per reis plaatsen.
+>* U kunt **slechts één** Op kenmerk-Gebaseerde uitgangscriteria van het Profiel per reis plaatsen.
 >
->* U kunt slechts tot stand brengen, bijwerken of een globaal filter in **Gepauzeerde** reizen schrappen.
+>* U kunt slechts tot stand brengen, bijwerken of schrappen een op Attribuut-Gebaseerd Profiel uitgangscriteria in **Gepauzeerde** reizen.
+>
+>* Leer meer over de op Attribuut-Gebaseerde uitgangscriteria van het Profiel [ in deze sectie ](journey-properties.md#profile-exit-criteria).
 
 ## Afvoerkanalen en beperkingen {#journey-pause-guardrails}
 
@@ -169,7 +171,8 @@ Deze limiet wordt elke 30 minuten gecontroleerd. Dit betekent dat u de drempel v
    * De bedrijfsgebeurtenissen van de verwerping voor **Lees Publiek**
    * **Gelezen de banen van het publiek** die wegens gepauzeerde reis worden gelaten vallen
    * Verworpen gebeurtenissen wanneer de **activiteit van de Gebeurtenis** na een actie was waar het profiel wachtte
-     <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
+
+
 
 ## Eindmonster {#journey-pause-sample}
 
@@ -177,13 +180,13 @@ Laten we het volgende voorbeeld van de reis nemen:
 
 ![ Steekproef van een reis ](assets/pause-journey-sample.png){zoomable="yes"}
 
-Wanneer het pauzeren van deze reis, selecteert u als de profielen **&#x200B;**&#x200B;of **Greep** worden genegeerd, en dan profielbeheer is het volgende:
+Wanneer het pauzeren van deze reis, selecteert u als de profielen **** of **Greep** worden genegeerd, en dan profielbeheer is het volgende:
 
 1. **AddToCart** activiteit: alle nieuwe profielingangen worden geblokkeerd. Als een profiel al de reis vóór een pauze is ingegaan, gaan zij tot de volgende actieknooppunt voort.
 1. **wacht** activiteit: de profielen blijven normaal op de knoop wachten en zullen het weggaan, zelfs als de reis in pauze is.
 1. **Voorwaarde**: de profielen blijven door voorwaarden gaan en zich naar de juiste tak bewegen, die op de uitdrukking wordt gebaseerd op de voorwaarde wordt bepaald.
 1. **duw**/**e-mail** activiteiten: tijdens een gepauzeerde reis, beginnen de profielen te wachten of worden verworpen (die op de keus door de gebruiker op het tijdstip van pauze wordt gemaakt) op de volgende actieknooppunt wordt gebaseerd. Profielen wachten dus of worden daar genegeerd.
-1. **Gebeurtenissen** na **3&rbrace; knopen van de Actie &lbrace;: als een profiel op een** knoop van de Actie **wacht en er een** activiteit van de Gebeurtenis **na het is, als die gebeurtenis in brand wordt gestoken, wordt de gebeurtenis verworpen.**
+1. **Gebeurtenissen** na **3} knopen van de Actie {: als een profiel op een** knoop van de Actie **wacht en er een** activiteit van de Gebeurtenis **na het is, als die gebeurtenis in brand wordt gestoken, wordt de gebeurtenis verworpen.**
 
 Zoals per dit gedrag, kunt u profielaantallen zien die op gepauzeerde reis stijgen, meestal in activiteiten vóór **Actie** activiteiten. Bijvoorbeeld, in dat voorbeeld, **wacht** activiteit nog wordt toegelaten, die het aantal profielen verhogen die door de **Voorwaarde** activiteit gaan, aangezien zij het weggaan.
 

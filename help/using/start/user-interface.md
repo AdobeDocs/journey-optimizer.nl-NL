@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1690'
 ht-degree: 4%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 4%
 
 Om tot [!DNL Adobe Journey Optimizer] toegang te hebben, verbind met [ Adobe Experience Cloud ](https://experience.adobe.com) met uw Adobe ID, en selecteer [!DNL Journey Optimizer].
 
-Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=nl-NL#adobe-experience-platform-ui-guide){target="_blank"} voor meer details.
+Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target="_blank"} voor meer details.
 
 
 >[!NOTE]
 >
->* De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [ toestemmingen ](../administration/permissions.md) en van uw [ vergunning gevend pakket ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af. Neem voor alle vragen contact op met de Adobe Customer Success Manager of uw Adobe-vertegenwoordiger.
+>* De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [ toestemmingen ](../administration/permissions.md) en van uw [ vergunning gevend pakket ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af. Neem voor alle vragen contact op met de Adobe Customer Success Manager of uw Adobe-vertegenwoordiger.
 >
 >* Deze documentatie wordt vaak bijgewerkt om de laatste wijzigingen in de gebruikersinterface van het product te weerspiegelen. Sommige schermafbeeldingen kunnen echter enigszins afwijken van uw gebruikersinterface.
 >
@@ -93,7 +93,7 @@ Uw gegevens in deze sectie beheren.
 
 * **[!UICONTROL Queries]** - Gebruik Adobe Experience Platform Query Service om query&#39;s te schrijven en uit te voeren, eerder uitgevoerde query&#39;s weer te geven en toegang te krijgen tot query&#39;s die zijn opgeslagen door gebruikers binnen uw organisatie. [Meer informatie](../data/get-started-queries.md)
 
-* **[!UICONTROL Monitoring]** - Gebruik dit menu om de gegevensinvoer in de gebruikersinterface van Adobe Experience Platform te controleren. Leer meer in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=nl-NL){target="_blank"}
+* **[!UICONTROL Monitoring]** - Gebruik dit menu om de gegevensinvoer in de gebruikersinterface van Adobe Experience Platform te controleren. Leer meer in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html){target="_blank"}
 
 ### [!UICONTROL CONNECTIONS] {#left-nav-connections}
 
@@ -179,15 +179,19 @@ Gebruik op elke pagina contextafhankelijke Help-knoppen voor meer informatie ove
 ![](assets/do-not-localize/Context-help.gif)
 
 
-## Waarschuwingen in producten
+## Meldingen in producten {#in-product-notifications}
 
-U kunt aan **e-mail en in-product alarm** voor de productreleases van Journey Optimizer intekenen.
+U kunt **in-product en e-mailalarm** toelaten om over verscheidene gebeurtenissen worden geïnformeerd die van belang voor u kunnen zijn: mislukkingen die door het systeem worden ontdekt, goedkeuringsverzoeken, en/of [!DNL Journey Optimizer] productversies.
 
-Abonneren:
+Volg onderstaande stappen om deze meldingen in te schakelen.
 
-1. Navigeer aan **Voorkeur van Adobe Experience Cloud**
-1. Onder **Meldingen**, vind **Nieuwe versies van Journey Optimizer**
-1. In-app- en e-mailmeldingen inschakelen
+1. Navigeer naar [!DNL Adobe Experience Cloud] **[!UICONTROL Preferences]** .
+1. Zoek onder **[!UICONTROL Notifications]** naar **[!UICONTROL Journey Optimizer]** .
+1. Schakel naar wens in-app- en/of e-mailmeldingen in:
+
+   * **[!UICONTROL Alerts]**: Wanneer een fout optreedt, kunt u systeemmeldingen ophalen voor de waarschuwingen waarop u zich hebt geabonneerd. [Meer informatie](../reports/alerts.md)
+   * **[!UICONTROL Approvals]**: Er wordt een melding weergegeven wanneer iemand u vraagt een object goed te keuren of toegang te krijgen tot een object.
+   * **[!UICONTROL New releases]**: u wordt op de hoogte gesteld van nieuwe productreleases van [!DNL Journey Optimizer] .
 
 ![](../rn/assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
 

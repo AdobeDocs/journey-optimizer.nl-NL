@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '988'
 ht-degree: 0%
 
 ---
@@ -85,6 +85,16 @@ Voer de volgende stappen uit als u SMS- en RCS-berichten in Journey Optimizer wi
 1. Als u bestaande referenties wilt wijzigen, zoekt u de gewenste API-referenties en klikt u op de optie **[!UICONTROL Edit]** om de benodigde wijzigingen aan te brengen.
 
    ![](assets/sms_byo_4.png)
+
+1. Klik op **[!UICONTROL Verify SMS connection]** vanuit uw bestaande API-referenties om uw SMS API-referenties te testen en te verifiëren door een voorbeeldbericht naar een opgegeven apparaat te verzenden.
+
+1. Vul de **gebieden van het Aantal** en **Bericht** in en klik **[!UICONTROL Verify connection]**.
+
+   >[!IMPORTANT]
+   >
+   >Het bericht moet zodanig zijn gestructureerd dat het wordt uitgelijnd met de indeling voor de lading van de provider.
+
+   ![](assets/verify-connection.png)
 
 Na het creëren van en het vormen van uw API geloofsbrieven, moet u nu opstelling [ de binnenkomende montages voor Webhaak ](#webhook) voor de berichten van SMS.
 

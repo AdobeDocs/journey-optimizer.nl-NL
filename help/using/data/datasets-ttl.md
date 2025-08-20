@@ -8,9 +8,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform, data Lake, create, Lake, datasets, profile
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '689'
 ht-degree: 2%
 
 ---
@@ -45,13 +45,14 @@ De onderstaande tabel bevat een lijst met alle beïnvloede gegevenssets en hun r
 | Beslissingsobjectopslagplaats - Alternatieve aanbiedingen | 13 maanden | nvt |
 | Beslissingsobjectrepository - Plaatsingen | 13 maanden | nvt |
 | Beslissingsobjectopslagplaats - Activiteiten | 13 maanden | nvt |
+| Ervaar het Beslissen van de Bewaarplaats van Objecten - De Persoonlijke Punten van de Aanbieding | 13 maanden | nvt |
 | ODE-beslissingsgebeurtenissen - prodbeslissing | 13 maanden | nvt |
 
 ## Veelgestelde vragen {#faq}
 
 Hieronder volgt een lijst met antwoorden op veelgestelde vragen over TLL-gegevenssets.
 
-+++Is deze wijziging alleen van toepassing op productiestanddozen of is deze ook van toepassing op dev-sandboxen?
++++Zal deze wijziging alleen van toepassing zijn op productiesandboxen of zal deze ook van toepassing zijn op dev-sandboxen?
 
 Deze wijziging is van toepassing op alle sandboxtypen.
 
@@ -63,29 +64,29 @@ De door het systeem gegenereerde gegevenssetgegevens in het profiel worden na 90
 
 +++
 
-+++Als een door het systeem gegenereerde gegevensset naar [!DNL Customer Journey Analytics] (CJA) wordt geduwd, zullen de gegevens in CJA ook door de TTL worden beïnvloed?
++++Als een door het systeem gegenereerde gegevensset wordt doorgegeven aan [!DNL Customer Journey Analytics] (CJA), zullen de gegevens in CJA ook door de TTL worden beïnvloed?
 
 Gegevens in [!DNL Customer Journey Analytics] blijven gesynchroniseerd met Experience Platform. Daarom zal een verwijdering van gegevens toe te schrijven aan een TTL op systeem-geproduceerde datasetgegevens ook de gegevens in [!DNL Customer Journey Analytics] beïnvloeden.
 
 +++
 
-+++ Kunnen klanten TTL voor [!DNL Journey Optimizer] gegevens van de systeemdataset in profielopslag verhogen?
++++ Kunnen klanten TTL voor [!DNL Journey Optimizer] gegevens van de systeemdataset in profielopslag verhogen? 
 
 De uitbreidingen van TTLs worden momenteel niet gesteund. Het is echter de bedoeling dat het TTL-proces wordt geoptimaliseerd zodat deze verlengingsverzoeken soms vanaf de tweede helft van 2025 kunnen worden ingediend.
 
 >[!NOTE]
 >
->Voor gegevens die in het profiel zijn opgeslagen, geldt de machtiging Totaal gegevensvolume. Elke toename van de gegevensopslag op het profiel als gevolg van een uitbreiding van de TTL zou daarom in mindering worden gebracht op de machtiging Totaal gegevensvolume. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=nl-NL){target=_blank}
+>Voor gegevens die in het profiel zijn opgeslagen, geldt de machtiging Totaal gegevensvolume. Elke toename van de gegevensopslag op het profiel als gevolg van een uitbreiding van de TTL zou daarom in mindering worden gebracht op de machtiging Totaal gegevensvolume. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target=&quot;_blank}
 
 +++
 
-+++Kunnen klanten TTL voor [!DNL Journey Optimizer] gegevens van de systeemdataset in gegevens verhogen?
++++Kunnen klanten TTL voor [!DNL Journey Optimizer] de gegevens van de systeemdataset in gegevenshoop verhogen? 
 
-De uitbreidingen van TTLs worden momenteel niet gesteund. De klanten kunnen gegevens door Doelen uitvoeren om gegevens langer te behouden. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=nl-NL){target=_blank} . Bovendien kunnen klanten met een machtiging **[!DNL Data Distiller]** afgeleide gegevenssets maken om de gegevens in het gegevensmeer op te slaan zonder een TTL. [ leer meer ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+De uitbreidingen van TTLs worden momenteel niet gesteund. De klanten kunnen gegevens door Doelen uitvoeren om gegevens langer te behouden. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html) {target= &quot;_blank}. Bovendien kunnen klanten met een machtiging **[!DNL Data Distiller]** afgeleide gegevenssets maken om de gegevens in het gegevensmeer op te slaan zonder een TTL. [ leer meer ](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
-+++Zullen de volgende mogelijkheden door TTLs worden beïnvloed?
++++Zullen de TTL&#39;s invloed hebben op de volgende mogelijkheden? 
 
 * **Opzoeken opslag**: Nr
 * **Afbakening van de Reis**: Nr
@@ -105,7 +106,7 @@ De uitbreidingen van TTLs worden momenteel niet gesteund. De klanten kunnen gege
 
 +++
 
-+++Welke timestamp wordt gebruikt voor handhaving TTL (b.v., voor backfill gebruiksgevallen)?
++++Welke timestamp wordt gebruikt voor de handhaving van TTL (b.v., voor backfill gebruiksgevallen)? 
 
 De tijdstempel van de gebeurtenis wordt gebruikt (dus niet de innamedatum).
 

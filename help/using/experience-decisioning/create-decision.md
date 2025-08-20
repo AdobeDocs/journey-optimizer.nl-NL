@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 229fb3d120727b51e011d8056f8d914c7968f2d0
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '2435'
+source-wordcount: '2679'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 0%
 >id="ajo_code_based_decision"
 >title="Wat is een beslissing?"
 >abstract="Het beslissingsbeleid bevat alle selectielogica waarmee de beslissingsengine de beste inhoud kan kiezen. Het besluitvormingsbeleid is specifiek voor de campagne. Hun doel is de beste aanbiedingen voor elk profiel te selecteren terwijl het campagneontwerp u toestaat om erop te wijzen hoe de geselecteerde besluitvormingspunten zouden moeten worden voorgesteld, met inbegrip van welke puntattributen om in het bericht worden omvat."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Informatie over beslissen"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Informatie over beslissen"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_decision_policy"
 >title="Een beslissingsbeleid definiëren"
 >abstract="Een besluitvormingsbeleid staat u toe om de beste punten van de motor van Beslissing te kiezen en hen aan het juiste publiek te leveren."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Informatie over beslissen"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Informatie over beslissen"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_decision_policy"
@@ -91,7 +91,7 @@ De belangrijkste stappen om besluitvormingsbeleid in uw berichten als volgt te g
 >id="ajo_code_based_strategy"
 >title="Wat is een strategie?"
 >abstract="De volgorde van de selectiestrategie bepaalt welke strategie eerst wordt geëvalueerd. Er is ten minste één strategie nodig. Beslissingsonderdelen in gecombineerde strategieën worden samen geëvalueerd."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Strategieën maken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Strategieën maken"
 
 Als u de beste dynamische aanbieding en ervaring wilt presenteren aan de ontvangers en bezoekers van uw e-mail op uw website of mobiele app, voegt u een beslissingsbeleid toe aan een e-mail of een campagne of reis op basis van code. Volg de onderstaande stappen om dit te doen.
 
@@ -111,7 +111,7 @@ Als u de beste dynamische aanbieding en ervaring wilt presenteren aan de ontvang
 
 1. Het beleid kan in e-mail en code-gebaseerde ervaringen worden gecreeerd gebruikend de verpersoonlijkingsredacteur. Ze kunnen ook worden gemaakt in e-mailberichten via een speciaal menu in de Designer-e-mail. Vouw de onderstaande secties uit voor meer informatie.
 
-   +++Personalization-editor
+   +++Personalization Editor
 
    1. Open de personalisatie-editor en selecteer **[!UICONTROL Decision policy]** .
    1. Klik op de knop **[!UICONTROL Add decision policy]** om een nieuw beleid te maken.
@@ -120,7 +120,7 @@ Als u de beste dynamische aanbieding en ervaring wilt presenteren aan de ontvang
 
    +++
 
-   +++E-mail Designer **[!UICONTROL Decisioning]** -menu
+   +++Menu E-mail Designer **[!UICONTROL Decisioning]**
 
    1. Selecteer een component, klik op het pictogram **[!UICONTROL Decisioning]** op de werkbalk of in het deelvenster Eigenschappen en selecteer vervolgens **[!UICONTROL Add new policy]** .
 
@@ -138,7 +138,7 @@ Als u de beste dynamische aanbieding en ervaring wilt presenteren aan de ontvang
 
    Voor e-mailberichten kunnen alleen meerdere items worden geretourneerd in een **[!UICONTROL Repeat grid]** -inhoudscomponent. Vouw de onderstaande sectie uit voor meer informatie:
 
-+++ Meerdere beslissingsobjecten in e-mails retourneren
+   +++ Meerdere beslissingsobjecten in e-mails retourneren
 
    1. Sleep een component **[!UICONTROL Repeat Grid]** naar het canvas en configureer deze naar wens met het deelvenster **[!UICONTROL Settings]** .
 
@@ -150,7 +150,7 @@ Als u de beste dynamische aanbieding en ervaring wilt presenteren aan de ontvang
 
    ![](assets/decision-policy-repeat-number.png)
 
-+++
+   +++
 
 1. Klik op **[!UICONTROL Next]**.
 
@@ -172,7 +172,7 @@ In de sectie **[!UICONTROL Strategy sequence]** kunt u de beslissingsitems en de
 
 1. Wanneer het toevoegen van verscheidene besluitvormingspunten en/of strategieën, zullen zij in een specifieke orde worden geëvalueerd. Het eerste object dat aan de reeks is toegevoegd, wordt eerst geëvalueerd, enzovoort. Als u de standaardvolgorde wilt wijzigen, sleept u de objecten en/of de groepen en zet u deze neer om ze naar wens opnieuw te rangschikken. Vouw de onderstaande sectie uit voor meer informatie.
 
-   +++Evaluatievolgorde beheren in een beslissingsbeleid
+   +++De evaluatievolgorde in een beslissingsbeleid beheren
 
    Nadat u besluitvormingspunten en selectiestrategieën aan uw beleid hebt toegevoegd, kunt u hun volgorde rangschikken om hun evaluatievolgorde te bepalen en kunt u selectiestrategieën combineren om deze samen te evalueren.
 
@@ -184,7 +184,7 @@ In de sectie **[!UICONTROL Strategy sequence]** kunt u de beslissingsitems en de
    >
    >Alleen selectiestrategieën kunnen binnen een reeks worden gesleept en neergezet. Als u de positie van een beslissingsitem wilt wijzigen, moet u het item verwijderen en opnieuw toevoegen met de knop **[!UICONTROL Add]** nadat u de andere items hebt toegevoegd die u eerder wilt evalueren.
 
-   U kunt **&#x200B;**&#x200B;veelvoudige selectiestrategieën in groepen ook combineren zodat worden zij samen en niet afzonderlijk geëvalueerd. Klik hiertoe op de knop **`+`** onder een selectiestrategie om deze te combineren met een andere. U kunt een selectiestrategie ook naar een andere slepen om de twee strategieën in een groep te groeperen.
+   U kunt **** veelvoudige selectiestrategieën in groepen ook combineren zodat worden zij samen en niet afzonderlijk geëvalueerd. Klik hiertoe op de knop **`+`** onder een selectiestrategie om deze te combineren met een andere. U kunt een selectiestrategie ook naar een andere slepen om de twee strategieën in een groep te groeperen.
 
    >[!NOTE]
    >
@@ -277,13 +277,13 @@ U kunt een besluitbeleid op elk ogenblik uitgeven of schrappen gebruikend de ell
 
 Zodra gecreeerd, kunnen het besluitvormingsbeleid en de attributen verbonden aan de teruggekeerde besluitpunten in uw inhoud worden gebruikt om uw inhoud te personaliseren. Volg deze stappen om dit te doen.
 
-### De beslissingsbeleidscode invoegen {#insert-code}
+### De beleidscode voor beslissingen invoegen {#insert-code}
 
 1. Open de personalisatie-editor en open het menu **[!UICONTROL Decision policy]** .
 
 1. Klik voor e-mailberichten op **[!UICONTROL Insert syntax]** om de code toe te voegen die overeenkomt met het beslissingsbeleid. Voor code-gebaseerde ervaringen, klik **[!UICONTROL Insert policy]**.
 
-   +++beleidscode voor beslissingen in e-mails invoegen
+   +++Code voor besluitbeleid invoegen in e-mails
 
    ![](assets/decision-policy-add.png)
 
@@ -293,7 +293,7 @@ Zodra gecreeerd, kunnen het besluitvormingsbeleid en de attributen verbonden aan
 
    +++
 
-   +++Voeg besluitvormingsbeleidscode in code-gebaseerde ervaring op
+   +++Code voor beslissingsbeleid invoegen in een op code gebaseerde ervaring
 
    ![](assets/decision-code-based-add-decision.png)
 
@@ -314,7 +314,7 @@ Nu kunt u alle beslissingskenmerken toevoegen die u in die code wilt. De beschik
 >[!NOTE]
 >
 >Voor het volgen van het Punt van het besluitvormingsbeleid, moet de `trackingToken` attributen als volgt voor de inhoud van het besluitvormingsbeleid worden toegevoegd:
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Klik op elke map om deze uit te vouwen. Plaats de cursor van de muis op de gewenste locatie en klik op het pictogram + naast het kenmerk dat u wilt toevoegen. U kunt zoveel kenmerken aan de code toevoegen als u wilt.
 
@@ -327,6 +327,57 @@ Nu kunt u alle beslissingskenmerken toevoegen die u in die code wilt. De beschik
 1. U kunt ook alle andere kenmerken toevoegen die beschikbaar zijn in de verpersoonlijkingseditor, zoals profielkenmerken.
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
+
+### Hefboomfragmenten {#fragments}
+
+Als uw besluitvormingsbeleid besluitpunten met inbegrip van fragmenten bevat, kunt u deze fragmenten in de code van het besluitvormingsbeleid hefboomwerking. [ Leer meer op fragmenten ](../content-management/fragments.md)
+
+>[!AVAILABILITY]
+>
+>Deze mogelijkheid is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+
+Stel bijvoorbeeld dat u verschillende inhoud wilt weergeven voor verschillende modellen van mobiele apparaten. Zorg ervoor u fragmenten die aan die apparaten beantwoorden aan het besluitvormingspunt toevoegde dat u in het besluitvormingsbeleid gebruikt. [ leer hoe ](items.md#attributes).
+
+![](assets/item-fragments.png){width=70%}
+
+Nadat u dit hebt gedaan, kunt u een van de volgende methoden gebruiken:
+
+>[!BEGINTABS]
+
+>[!TAB  neemt direct de code ] op
+
+U plakt gewoon het codeblok hieronder in de code voor het beslissingsbeleid. Vervang `variable` door de fragment-id en `placement` door de fragmentverwijzingssleutel:
+
+```
+{% let variable =  get(item._experience.decisioning.offeritem.contentReferencesMap, "placement").id %}
+{{fragment id = variable}}
+```
+
+>[!TAB  volg de gedetailleerde stappen ]
+
+1. Navigeer aan **[!UICONTROL Helper functions]** en voeg **** functie `{% let variable = expression %} {{variable}}` aan de coderuit toe, waar u de variabele voor uw fragment kunt verklaren.
+
+   ![](assets/decision-let-function.png)
+
+1. Gebruik de **Kaart** > **krijgt** functie `{%= get(map, string) %}` om uw uitdrukking te bouwen. De kaart is het fragment waarnaar wordt verwezen in het beslissingsitem en de tekenreeks kan het apparaatmodel zijn dat u als **[!UICONTROL Fragment reference key]** hebt ingevoerd in het beslissingsitem.
+
+   ![](assets/decision-map-function.png)
+
+1. U kunt ook een contextueel kenmerk gebruiken dat deze id van het apparaatmodel zou bevatten.
+
+   ![](assets/decision-contextual-attribute.png)
+
+1. Voeg de variabele toe die u als fragment-id voor het fragment hebt gekozen.
+
+   ![](assets/decision-fragment-id.png)
+
+>[!ENDTABS]
+
+De fragment-id en de verwijzingssleutel worden geselecteerd in de sectie **[!UICONTROL Fragments]** van het beslissingsitem.
+
+>[!WARNING]
+>
+>Als de fragmentsleutel onjuist is of als de fragmentinhoud niet geldig is, zal de rendering mislukken en een fout veroorzaken in de Edge-aanroep.
 
 ## Slotstappen {#final-steps}
 

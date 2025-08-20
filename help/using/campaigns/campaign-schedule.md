@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 # De actiecampagne plannen {#action-campaign-schedule}
 
 Gebruik het tabblad **[!UICONTROL Schedule]** om het campagneschema te definiëren.
+
+## Begin- en einddatum instellen
 
 Standaard worden actiecampagnes gestart als ze handmatig zijn geactiveerd en eindigen als het bericht eenmaal is verzonden. Als u de campagne niet meteen na activering wilt uitvoeren, kunt u met de optie **[!UICONTROL Campaign start]** een datum en tijd opgeven waarop het bericht moet worden verzonden.
 
@@ -31,15 +33,25 @@ Met de optie **[!UICONTROL Campaign end]** kunt u opgeven wanneer een campagne m
 >
 >Wanneer u campagnes in [!DNL Adobe Journey Optimizer] plant, moet u ervoor zorgen dat de begindatum/tijd wordt uitgelijnd op de gewenste eerste levering. Voor terugkerende campagnes, als de aanvankelijke geplande tijd reeds is overgegaan, zullen de campagnes aan de volgende beschikbare tijdgroef volgens hun terugkeringsregels rollen.
 
-Er zijn aanvullende planningsopties beschikbaar op basis van het campagnekanaal:
+## Snelheidbeheersing instellen
 
-* **Frequentie** (E-mail, SMS, de Actie van de Duw)
+Met [!DNL Journey Optimizer] kunt u tariefcontrole inschakelen voor uitgaande acties (e-mail, SMS, pushberichten).
 
-  U kunt een frequentie bepalen waarmee het bericht van de campagne zou moeten worden verzonden. Hiervoor gebruikt u de **[!UICONTROL Action triggers]** -opties in het scherm voor het maken van campagnes om op te geven of de campagne dagelijks, wekelijks of maandelijks moet worden uitgevoerd.
+Deze functie is vooral handig om overbelasting op downstreamsystemen, zoals pagina&#39;s voor landingen of platforms voor klantenservice, te voorkomen. Bijvoorbeeld, kunt u een tariefgrens van 165 berichten per seconde plaatsen om constante levering zonder overweldigende stroomafwaartse systemen te verzekeren.
 
-* **IP de activering van het warmup plan** (E-mail)
+Als u het snelheidsbeheer wilt instellen, schakelt u de optie **[!UICONTROL Throttle delivery]** in de sectie **[!UICONTROL Delivery settings]** in en geeft u het gewenste **[!UICONTROL Delivery rate]** op.
 
-  Voor e-mailcampagnes, kunt u specifieke IP campagnes van de opwarmingsplanactivering tot stand brengen. Het campagneschema zal door het IP warmup plan worden gedreven het zal worden geassocieerd met, betekenend dat het programma niet meer in de campagne zelf wordt bepaald. [ Leer hoe te om IP warmup campagnes ](../configuration/ip-warmup-campaign.md) tot stand te brengen.
+![](assets/throttling-rate-control.png)
+
+## Een uitvoeringsfrequentie instellen
+
+Voor acties voor e-mail-, sms- en pushmeldingen kunt u een frequentie definiëren waarmee het campagnebericht moet worden verzonden. Hiervoor gebruikt u de **[!UICONTROL Action triggers]** -opties in het scherm voor het maken van campagnes om op te geven of de campagne dagelijks, wekelijks of maandelijks moet worden uitgevoerd.
+
+![](assets/action-triggers.png)
+
+## IP-opwarmingsplannen instellen
+
+Voor e-mailacties kunt u specifieke campagnes voor activering van het IP-warmteopruimingsplan maken. Het campagneschema zal door het IP warmup plan worden gedreven het zal worden geassocieerd met, betekenend dat het programma niet meer in de campagne zelf wordt bepaald. [ Leer hoe te om IP warmup campagnes ](../configuration/ip-warmup-campaign.md) tot stand te brengen.
 
 ## Volgende stappen {#next}
 

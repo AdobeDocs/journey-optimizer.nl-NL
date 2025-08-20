@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: b1de82a4fdba58880e21b114ec3d2b9c3c81df0c
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1715'
+source-wordcount: '1843'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,24 @@ Begin door de standaard en douanekenmerken van het besluitpunt te bepalen:
 
 1. Het **gebied van Markeringen** staat u toe om Adobe Experience Platform Verenigde Markeringen aan uw besluitvormingspunten toe te wijzen. Op deze manier kunt u ze gemakkelijk classificeren en zoeken verbeteren. [ leer hoe te met markeringen ](../start/search-filter-categorize.md#tags) werken
 
+1. Gebruik fragmenten om meerdere inhoud aan het beslissingsitem toe te voegen, bijvoorbeeld als u verschillende inhoud wilt weergeven voor verschillende modellen mobiele apparaten. [ Leer meer op fragmenten ](../content-management/fragments.md)
+
+   >[!AVAILABILITY]
+   >
+   >Fragmenten in beslissingsitems zijn momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+
+   Selecteer in de sectie **[!UICONTROL Fragments]** de gepubliceerde fragmenten die u wilt gebruiken en wijs er een referentietoets aan toe. U kunt deze fragmenten vervolgens gebruiken in uw beslissingsbeleid. [ leer hoe ](create-decision.md#fragments)
+
+   ![](assets/item-fragments.png){width=70%}
+
+   U kunt alleen gepubliceerde fragmenten selecteren en maximaal zes fragmenten toevoegen aan een beslissingsitem.
+
+   >[!WARNING]
+   >
+   >Momenteel slechts [ uitdrukkingsfragmenten ](../personalization/use-expression-fragments.md) worden gesteund.
+   >
+   >Geneste fragmenten (fragmenten die verwijzen naar andere fragmenten) kunnen niet worden gebruikt. De goedkeuring van het besluitvormingspunt [ ](#approve) zal ontbreken als u zulk een fragment toevoegt.
+
 1. Aangepaste kenmerken opgeven (optioneel). Aangepaste kenmerken zijn specifieke kenmerken die zijn toegesneden op uw behoeften en die u kunt toewijzen aan een beslissingsitem. Zij worden bepaald in het de catalogusschema van besluitvormingspunten. [ leer hoe te met catalogi ](catalogs.md) werken
 
 1. Wanneer de kenmerken van het beslissingsitem zijn gedefinieerd, klikt u op **[!UICONTROL Next]** .
@@ -62,8 +80,8 @@ Begin door de standaard en douanekenmerken van het besluitpunt te bepalen:
 >id="ajo_exd_item_constraints"
 >title="Soorten publiek of beslissingsregels toevoegen"
 >abstract="Standaard kunnen alle profielen in aanmerking komen voor het item voor een beslissing, maar u kunt het publiek of de regels gebruiken om het item te beperken tot specifieke profielen."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Soorten publiek gebruiken"
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Beslissingsregels gebruiken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Soorten publiek gebruiken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Beslissingsregels gebruiken"
 
 Standaard komen alle profielen in aanmerking om het beslissingsitem te ontvangen, maar u kunt het publiek of de regels gebruiken om het item te beperken tot specifieke profielen, beide oplossingen voor verschillende toepassingen. Vouw de onderstaande sectie uit voor meer informatie:
 
@@ -137,14 +155,16 @@ Klik op de knop **[!UICONTROL Create capping]** en voer de volgende stappen uit 
 
    ![](assets/item-capping-rules.png)
 
+<!--* Identifying how many times a given customer has been shown a decision item. 
+If a marketer wants to determine how many times a specific customer has been shown an offer, they can do that. Go to Profiles menu, Attributes tab. You'll see all counter values. The alphanumeric string is associated to the offer. To make the map, go to an item, in the URL check the last alphanumeric strings. D stands for day, w stands for week, m for month. "Ce" custom event-->
+
+## Het beslissingsonderdeel beoordelen en goedkeuren {#approve}
+
 1. Als de subsidiabiliteits- en bijschilderingsregels voor het beslissingsonderdeel zijn gedefinieerd, klikt u op **[!UICONTROL Next]** om het onderdeel te bekijken en op te slaan.
 
 1. Het beslissingsitem wordt nu in de lijst weergegeven, met de status **[!UICONTROL Draft]** . Wanneer het klaar is om aan profielen te worden voorgesteld, klik de ellipsieknoop en selecteer **[!UICONTROL Approve]**.
 
    ![](assets/item-approve.png)
-
-<!--* Identifying how many times a given customer has been shown a decision item. 
-If a marketer wants to determine how many times a specific customer has been shown an offer, they can do that. Go to Profiles menu, Attributes tab. You'll see all counter values. The alphanumeric string is associated to the offer. To make the map, go to an item, in the URL check the last alphanumeric strings. D stands for day, w stands for week, m for month. "Ce" custom event-->
 
 ## Beslissingsitems beheren {#manage}
 

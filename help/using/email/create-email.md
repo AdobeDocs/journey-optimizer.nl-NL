@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: maken, e-mail, starten, reizen, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '950'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Als u een e-mail wilt maken in [!DNL Journey Optimizer] , voegt u een **[!UICONT
 
 >[!BEGINTABS]
 
->[!TAB voeg een e-mail aan een reis  toe]
+>[!TAB  voeg een e-mail aan een reis ] toe
 
 1. Open uw reis en sleep vervolgens een **[!UICONTROL Email]** -activiteit vanuit de **[!UICONTROL Actions]** -sectie van het palet.
 
@@ -92,7 +92,7 @@ Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [ deze 
 
    >[!AVAILABILITY]
    >
-   >Organisaties die de invoegtoepassing Adobe Healthcare Shield of Privacy and Security Shield hebben aangeschaft, hebben momenteel nog geen beleid voor het maken van beslissingen in e-mails.
+   >Momenteel is het maken van beleidsbeslissingen in e-mails beschikbaar in Beperkte beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 1. Controleer in de sectie **[!UICONTROL Header]** de velden **[!UICONTROL From name]** , **[!UICONTROL From email]** en **[!UICONTROL BCC]** . Zij worden gevormd in de e-mailconfiguratie die u selecteerde. [ Leer meer ](email-settings.md) <!--check if same for journey-->
 
@@ -176,7 +176,7 @@ Wanneer uw e-mail klaar is, voltooi de configuratie van uw [ reis ](../building-
 
 >[!NOTE]
 >
->Om het gedrag van uw ontvangers door e-mailopeningen en/of interactie te volgen, zorg ervoor dat de specifieke opties in de **[!UICONTROL Tracking]** sectie in de 1&rbrace; e-mailactiviteit van de reis [ of in de e-mail ](../building-journeys/journeys-message.md) campagne [ worden toegelaten.](../campaigns/create-campaign.md)<!--to move?-->
+>Om het gedrag van uw ontvangers door e-mailopeningen en/of interactie te volgen, zorg ervoor dat de specifieke opties in de **[!UICONTROL Tracking]** sectie in de 1} e-mailactiviteit van de reis [ of in de e-mail ](../building-journeys/journeys-message.md) campagne [ worden toegelaten.](../campaigns/create-campaign.md)<!--to move?-->
 
 <!--
 
