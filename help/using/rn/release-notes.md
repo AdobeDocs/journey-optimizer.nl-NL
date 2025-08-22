@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: eefc6cd7804a14e289d2f1aa3a136f3e6215852c
+source-git-commit: 50317e37c536dc8f1a950172fda00590f8a9fa35
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1475'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 
 ## Opmerkingen bij de release van augustus &#39;25 {#25-8-rn}
@@ -296,7 +296,7 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 * **Configuratie**
 
-   * **Dynamische domeinsteun** - Journey Optimizer steunt nu volledige/basisURL verpersoonlijking voor vooraf bepaalde die domeinen door Adobe worden goedgekeurd. Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid voor een set klanten. [Meer informatie](../personalization/personalization-build-expressions.md#where)
+  &lt;!—* **Dynamische domeinsteun** - Journey Optimizer steunt nu volledige/basisURL verpersoonlijking voor vooraf bepaalde die domeinen door Adobe worden goedgekeurd. Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid voor een set klanten. [ las meer ](../personalization/personalization-build-expressions.md#where)-Update op Augustus 21: Het wachten op eng. om te bevestigen wanneer opgesteld op prod.—>
 
    * **de kenmerkensteun van de Douane met één-Klik unsubscribe URL** - met Journey Optimizer, als u toestemming buiten Adobe beheert, kunt u een extern douaneeindpunt plaatsen door uw eigen te bepalen unsubscribe verbinding in de e-mailconfiguratie. Wanneer uw ontvangers op de koppeling voor afmelden klikken, voegt Journey Optimizer enkele standaardprofielspecifieke parameters toe aan de gebeurtenis voor het bijwerken van de toestemming.
 
