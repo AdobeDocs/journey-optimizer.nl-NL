@@ -4,9 +4,9 @@ product: journey optimizer
 title: Configuratiestappen
 description: Leer hoe u relationele schema's rechtstreeks via de gebruikersinterface kunt maken.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 4f262d4cbbe2241ec8356333d9a3191081f58a6a
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Schema&#39;s die worden gebruikt voor activering, moeten ten minste één identi
 
    In dit voorbeeld, hebben wij de attributen toegevoegd die in de lijst hieronder aan het **het lidmaatschapsschema van de Loyalty** worden gedetailleerd.
 
-+++ Voorbeelden van kenmerken
+   +++ Voorbeelden van kenmerken
 
    | Kenmerknaam | Gegevenstype | Aanvullende kenmerken |
    |-|-|-|
@@ -92,7 +92,7 @@ Schema&#39;s die worden gebruikt voor activering, moeten ten minste één identi
    | is_active | BOOLEAN | Vereist |
    | laatstelijk | DATETIME | Vereist |
 
-+++
+   +++ 
 
 1. Wijs de desbetreffende velden toe als de **[!UICONTROL Primary Key]** en **[!UICONTROL Version Descriptor]** .
 
@@ -100,7 +100,7 @@ Schema&#39;s die worden gebruikt voor activering, moeten ten minste één identi
 
    * Ten minste één primaire sleutel
    * Een versie-id, zoals een `lastmodified` veld van het type `datetime` of `number` .
-   * Voor CDC-opname (Change Data Capture) gebruikt u een speciale kolom met de naam `_change_request_type` van het type `String` , die het type gegevenswijziging aangeeft (bijvoorbeeld invoegen, bijwerken, verwijderen) en incrementele verwerking mogelijk maakt.
+   * Voor CDC-opname (Change Data Capture) gebruikt u een speciale kolom met de naam `_change_request_type` van het type `String` , die het type gegevenswijziging aangeeft (bijvoorbeeld invoegen, bijwerken, verwijderen) en incrementele verwerking mogelijk maakt. `_change_request_type` mag geen deel uitmaken van het tabelschema, maar moet alleen tijdens de opname aan het gegevensbestand worden toegevoegd.
 
    ![](assets/schema_manual_2.png){zoomable="yes"}
 
@@ -152,7 +152,7 @@ Na het creëren van uw dataset, moet u het voor Geordende Campagnes uitdrukkelij
 
 1. Zoek de gegevensset in de lijst **[!UICONTROL Datasets]** .
 
-1. Van de **[!UICONTROL Datasets]** montages, laat de **Geordende 2&rbrace; optie van Campagnes &lbrace;toe om de dataset beschikbaar voor gebruik in uw Geordende Campagnes te maken.**
+1. Van de **[!UICONTROL Datasets]** montages, laat de **Geordende 2} optie van Campagnes {toe om de dataset beschikbaar voor gebruik in uw Geordende Campagnes te maken.**
 
    ![](assets/schema_manual_7.png){zoomable="yes"}
 

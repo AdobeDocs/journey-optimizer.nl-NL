@@ -4,7 +4,7 @@ product: journey optimizer
 title: Gangbare campagnes en beperkingen
 description: Meer informatie over geordende campagnes, instructies en beperkingen
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
+source-git-commit: 4f262d4cbbe2241ec8356333d9a3191081f58a6a
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Hieronder vindt u aanvullende instructies en beperkingen wanneer u geordende cam
 
 * Al opname moet via **Gegevens van de Verandering voorkomen vangt** bronnen:
 
-   * Voor **op dossier-Gebaseerd**: `change_type` gebied wordt vereist.
+   * Voor **op dossier-Gebaseerd**: `_change_request_type` gebied wordt vereist.
 
    * Voor **op wolk-Gebaseerde**: Het registreren van de lijst moet worden toegelaten.
 
