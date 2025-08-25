@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 4417643cbf206b9ad112bae5c270cdfc746a9c5d
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Met [!DNL Journey Optimizer] kunt u tariefcontrole inschakelen voor uitgaande ac
 
 Deze functie is vooral handig om overbelasting op downstreamsystemen, zoals pagina&#39;s voor landingen of platforms voor klantenservice, te voorkomen. Bijvoorbeeld, kunt u een tariefgrens van 165 berichten per seconde plaatsen om constante levering zonder overweldigende stroomafwaartse systemen te verzekeren.
 
-Als u het snelheidsbeheer wilt instellen, schakelt u de optie **[!UICONTROL Throttle delivery]** in de sectie **[!UICONTROL Delivery settings]** in en geeft u het gewenste **[!UICONTROL Delivery rate]** op.
+Als u de snelheidsregeling wilt instellen, schakelt u de optie **[!UICONTROL Throttle delivery]** in de **[!UICONTROL Delivery settings]** -sectie in en geeft u de gewenste **[!UICONTROL Delivery rate]** per seconde op.
 
 ![](assets/throttling-rate-control.png)
 
