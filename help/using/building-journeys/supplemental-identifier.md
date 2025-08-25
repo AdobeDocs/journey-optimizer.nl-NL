@@ -2,9 +2,9 @@
 title: Aanvullende id's gebruiken tijdens reizen
 description: Leer hoe u aanvullende id's kunt gebruiken tijdens reizen.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
+source-git-commit: efd39577a4836144c4ba41018e5750278e82c079
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,8 @@ Bovendien staat Journey Optimizer u toe om attributen van het supplementaire her
 
    * Als de reis niet-deelnemer is, kan dezelfde profiel-ID + combinatie van aanvullende id de reis niet opnieuw binnenkomen.
    * Als de reis met een tijdvenster is gecentreerd, kan de zelfde profiel ID + supplementaire combinatie van identiteitskaart na het bepaalde tijdvenster opnieuw ingaan.
+
+* **de Etikettering en de Handhaving van het Gebruik van Gegevens (DULE)** - Geen DULE bevestigingscontroles worden uitgevoerd op supplementaire identiteitskaart Dit betekent dat deze eigenschap niet in aanmerking zal worden genomen wanneer de reis op zoek is naar schendingen van het beleid inzake gegevensbeheer.
 
 * **Downstream gebeurtenisconfiguratie**
 
@@ -138,6 +140,10 @@ Voer de volgende stappen uit om een extra id te gebruiken voor een leestoepreis:
       >Zorg ervoor u niet de attributen als **Primaire identiteit** merkt.
 
    1. Selecteer de naamruimte die u aan de aanvullende id wilt koppelen. Dit moet een naamruimte voor niet-persoonlijke id zijn.
+
+      >[!NOTE]
+      >
+      >Nadat u de naamruimte voor niet-persoonlijke identiteiten op een schema hebt toegepast, moet u een nieuwe gebeurtenis (voor door gebeurtenissen geactiveerde reizen) of een nieuwe veldgroep (voor publiekstransporten Lezen) maken om de aanvullende id te kunnen gebruiken. Bestaande entiteiten kunnen niet worden vernieuwd om de nieuwe id te herkennen.
 
 <!--1. **Add the supplemental ID field to the data source**
 
@@ -244,4 +250,4 @@ In een objectarray met de aanvullende id als `bookingNum` en een kenmerk op hetz
 
 Leer hoe u een aanvullende id in [!DNL Adobe Journey Optimizer] kunt inschakelen en toepassen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464798?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
