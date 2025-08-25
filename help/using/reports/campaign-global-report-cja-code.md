@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '804'
 ht-degree: 0%
 
 ---
@@ -156,6 +156,10 @@ De belangrijkste getoonde metriek omvatten:
 * **[!UICONTROL Clicks]**: het totale aantal keren dat gebruikers op persoonlijke ervaringen hebben geklikt die aan hen werden weergegeven.
 
 * **[!UICONTROL Conversion rate]**: percentage weergaven dat tot gebruikersacties heeft geleid (klik bijvoorbeeld) om aan te geven dat het model erin geslaagd is gebruikers aan te trekken.
+
+>[!NOTE]
+>
+>Momenteel is het [ rapport van de Meting van het 0} optillen slechts beschikbaar voor het ](../experience-decisioning/ranking/auto-optimization-model.md#lift) Gepersonaliseerde model van optimalisering [ AI. ](../experience-decisioning/ranking/personalized-optimization-model.md) Als u rapporten over liftmetingen nodig hebt, gebruikt u in plaats daarvan het gepersonaliseerde optimalisatiemodel.
 
 ### Omrekeningskoers voor Holdout- en Model-georiënteerd verkeer {#conversion-rate}
 

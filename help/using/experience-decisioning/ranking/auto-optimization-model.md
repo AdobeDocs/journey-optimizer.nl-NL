@@ -6,9 +6,10 @@ description: Meer informatie over modellen voor automatische optimalisatie
 feature: Ranking, Decision Management
 role: User
 level: Experienced
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+exl-id: 8a8b66cb-dd96-4373-bbe0-a67e0dc0b2c0
+source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1367'
 ht-degree: 0%
 
 ---
@@ -32,7 +33,7 @@ De volgende termen zijn handig wanneer u het over automatisch optimaliseren hebt
 
 * **Thomson bemonstering**: De steekproef van Thompson is een algoritme voor online besluitvormingsproblemen waar de acties opeenvolgend op een manier worden genomen die tussen het exploiteren van wat moet in evenwicht brengen om directe prestaties te maximaliseren en te investeren om nieuwe informatie te verzamelen die toekomstige prestaties kan verbeteren. [Meer informatie](#thompson-sampling)
 
-* [**de distributie van Beta** ](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}: Reeks ononderbroken [ kansverdelingen ](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"} die op het interval [ 0 worden bepaald, ] [&#128279;](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} door twee positieve [ vormparameters ](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"} wordt bepaald.
+* [**de distributie van Beta** ](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}: Reeks ononderbroken [ kansverdelingen ](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"} die op het interval [ 0 worden bepaald, ] [ ](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} door twee positieve [ vormparameters ](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"} wordt bepaald.
 
 ## Thompson Sampling {#thompson-sampling}
 
@@ -97,3 +98,7 @@ Het probleem van de &quot;koude start&quot; doet zich voor wanneer een nieuwe aa
 Bijvoorbeeld, als wij in het meten van de prestaties van een strategie van de Steekproef van Thompson (TS) die in het rangschikken van de dienst wordt gebruikt geinteresseerd, en KPI is omzettingspercentage (CVR), wordt de &quot;lift&quot;van de TS strategie tegen basislijnstrategie gedefinieerd als:
 
 ![](../assets/ai-ranking-lift.png)
+
+>[!NOTE]
+>
+>Momenteel is het rapport van de Meting van de Lift slechts beschikbaar voor [ Gepersonaliseerde optimalisering ](personalized-optimization-model.md) AI model. [ Leer meer op Beslissing die ](../../reports/campaign-global-report-cja-code.md#decisioning-reporting) rapporteert
