@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Berichtoptimalisatie
-description: Gebruik berichtoptimalisatie om gepersonaliseerde en geoptimaliseerde marketingcampagnes te maken.
+description: Gebruik berichtoptimalisatie om gepersonaliseerde en geoptimaliseerde marketingreizen en -campagnes te maken.
 role: User
 level: Intermediate
 keywords: campagne optimaliseren, experimenteren, doelgericht testen, A/B testen
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+source-git-commit: 270bc80cbd8cc1ebaba7449b344f32425759f66e
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
@@ -181,4 +181,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Leer hoe u berichtoptimalisatie kunt benutten in actie- of API-campagnes. U zult zien hoe te om sub-publiek te richten, berichtvariaties door plaats tot stand te brengen, fallback inhoud toe te laten, en veelvoudige experimenten in één enkele campagne in werking te stellen. In deze zelfstudie wordt ook uitgelegd hoe u campagnes met meerdere kanalen kunt beheren en tegelijkertijd de consistentie van berichten kunt behouden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470374?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
