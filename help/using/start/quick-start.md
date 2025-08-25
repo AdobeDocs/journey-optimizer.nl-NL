@@ -94,10 +94,10 @@ Klik op de onderstaande rol voor specifieke richtlijnen die zijn afgestemd op uw
 
 Bekijk de inleidende video voor meer informatie over sleutelmogelijkheden en persona&#39;s van Journey Optimizer. De video doorloopt de gebruikersinterface en markeert belangrijke eigenschappen die op rol-specifieke workflows worden gebaseerd.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430315?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Aanvullende bronnen
 
 Verken de volgende bronnen voor diepgaander leren en updates:
 * [Release-opmerkingen](https://experienceleague.adobe.com/docs/journey-optimizer/using/rn/release-notes.html)
-* [ Video&#39;s van het Leerprogramma ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=nl-NL)
+* [ Video&#39;s van het Leerprogramma ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html)
