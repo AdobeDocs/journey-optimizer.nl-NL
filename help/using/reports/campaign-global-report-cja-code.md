@@ -159,7 +159,7 @@ De belangrijkste getoonde metriek omvatten:
 
 >[!NOTE]
 >
->Momenteel is het [ rapport van de Meting van het 0} optillen slechts beschikbaar voor het ](../experience-decisioning/ranking/auto-optimization-model.md#lift) Gepersonaliseerde model van optimalisering [ AI. ](../experience-decisioning/ranking/personalized-optimization-model.md) Als u rapporten over liftmetingen nodig hebt, gebruikt u in plaats daarvan het gepersonaliseerde optimalisatiemodel.
+>Momenteel is het [ rapport van de Meting van het 0&rbrace; optillen slechts beschikbaar voor het ](../experience-decisioning/ranking/auto-optimization-model.md#lift) Gepersonaliseerde model van optimalisering [ AI. ](../experience-decisioning/ranking/personalized-optimization-model.md) Als u rapporten over liftmetingen nodig hebt, gebruikt u in plaats daarvan het gepersonaliseerde optimalisatiemodel.
 
 ### Omrekeningskoers voor Holdout- en Model-georiënteerd verkeer {#conversion-rate}
 
