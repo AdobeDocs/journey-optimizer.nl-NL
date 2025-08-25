@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
+source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '780'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Gebruik het tabblad **[!UICONTROL Actions]** om een kanaalconfiguratie voor uw b
 
 1. **Optimalisering van de Leverage**
 
-   Gebruik de sectie **[!UICONTROL Message Optimization]** om inhoudexperimenten uit te voeren, of hefboomwerking het richten van regels, of geavanceerde combinaties van zowel experimenteren als richten te gebruiken. Deze verschillende opties en de te volgen stappen zijn gedetailleerd in deze sectie: [ Optimalisering in campagnes ](campaigns-message-optimization.md).
+   Gebruik de sectie **[!UICONTROL Optimization]** om inhoudexperimenten uit te voeren, of hefboomwerking het richten van regels, of geavanceerde combinaties van zowel experimenteren als richten te gebruiken. Deze verschillende opties en de te volgen stappen zijn gedetailleerd in [ deze sectie ](campaigns-message-optimization.md).
 <!--
 1. **Create a content experiment**
 
@@ -49,7 +49,7 @@ Gebruik het tabblad **[!UICONTROL Actions]** om een kanaalconfiguratie voor uw b
 
 1. **voeg meertalige inhoud** toe
 
-   Gebruik de sectie **[!UICONTROL Languages]** om inhoud in meerdere talen binnen uw campagne te maken. Klik hiertoe op de knop **[!UICONTROL Add languages]** en selecteer de gewenste **[!UICONTROL Language settings]** . De gedetailleerde informatie over hoe te opstelling en gebruik meertalige mogelijkheden zijn beschikbaar in deze sectie: [ krijgt begonnen met meertalige inhoud ](../content-management/multilingual-gs.md).
+   Gebruik de sectie **[!UICONTROL Languages]** om inhoud in meerdere talen binnen uw campagne te maken. Klik hiertoe op de knop **[!UICONTROL Add languages]** en selecteer de gewenste **[!UICONTROL Language settings]** . De gedetailleerde informatie over hoe te opstelling en gebruik meertalige mogelijkheden zijn beschikbaar in [ deze sectie ](../content-management/multilingual-gs.md).
 
 Afhankelijk van het geselecteerde communicatiekanaal zijn aanvullende instellingen beschikbaar. Vouw de onderstaande secties uit voor meer informatie.
 
@@ -67,13 +67,13 @@ In de sectie **[!UICONTROL Action tracking]** kunt u bijhouden hoe de ontvangers
 
 +++**laat Snelle leveringswijze** toe (Duw).
 
-De snelle leveringswijze is een [!DNL Journey Optimizer] toe:voegen-op die zeer snelle pushbericht toestaat die in grote volumes door campagnes verzenden. Snelle levering wordt gebruikt wanneer de vertraging in berichtlevering zaken-kritiek is, wanneer u een dringende duwalarm op mobiele telefoons wilt verzenden, bijvoorbeeld een breekbericht aan gebruikers die uw nieuwskanaal app hebben geïnstalleerd. Voor meer informatie over prestaties wanneer het gebruiken van Snelle leveringswijze, verwijs naar [ het productbeschrijving van Adobe Journey Optimizer ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html).
+De snelle leveringswijze is een [!DNL Journey Optimizer] toe:voegen-op die zeer snelle pushbericht toestaat die in grote volumes door campagnes verzenden. Snelle levering wordt gebruikt wanneer de vertraging in berichtlevering zaken-kritiek is, wanneer u een dringende duwalarm op mobiele telefoons wilt verzenden, bijvoorbeeld een breekbericht aan gebruikers die uw nieuwskanaal app hebben geïnstalleerd. Voor meer informatie over prestaties wanneer het gebruiken van Snelle leveringswijze, verwijs naar [ het productbeschrijving van Adobe Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html).
 
 +++
 
 +++**wijs prioritaire scores** toe (Web, in-app, op code-gebaseerd)
 
-Als u een prioriteitsscore toewijst aan de campagne, kunt u prioriteit geven aan een inboe en campagne wanneer er een opgelegde beperking zoals een frequentiegrens is. Voer een numerieke waarde in (tussen 0 en 100). Let op: hoe hoger het getal, hoe hoger de prioriteit. [ Leer hoe te om prioritaire scores aan reizen &amp; campagnes toe te wijzen ](../conflict-prioritization/priority-scores.md)
+Wijs een prioritaire score aan de campagne toe staat u toe om aan een binnenkomende campagne voorrang te geven wanneer er een opgelegde beperking zoals een frequentiegrens is. Voer een numerieke waarde in (tussen 0 en 100). Let op: hoe hoger het getal, hoe hoger de prioriteit. [ Leer hoe te om prioritaire scores aan reizen &amp; campagnes toe te wijzen ](../conflict-prioritization/priority-scores.md)
 
 +++
 

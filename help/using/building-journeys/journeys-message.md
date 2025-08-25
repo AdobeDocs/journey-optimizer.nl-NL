@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, bericht, push, sms, e-mail, in-app, web, inhoudskaart, op code gebaseerde ervaring
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '512'
 ht-degree: 1%
 
 ---
@@ -43,6 +43,7 @@ Volg onderstaande stappen om een ingebouwde kanaalactie aan een reis toe te voeg
 
    ![](assets/journey-web-activity.png)
 
+1. U kunt ook de **[!UICONTROL Action]** -activiteit selecteren, zodat u meerdere binnenkomende acties kunt selecteren. [Meer informatie](journey-action.md)
 
 1. Configureer uw activiteit. De gedetailleerde configuratierichtlijnen zijn beschikbaar in de hieronder verbindingen.
 

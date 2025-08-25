@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
 workflow-type: tm+mt
-source-wordcount: '2887'
+source-wordcount: '2886'
 ht-degree: 19%
 
 ---
@@ -81,6 +81,7 @@ ht-degree: 19%
       + [Voorwaarde](using/building-journeys/condition-activity.md)
       + [Wachten](using/building-journeys/wait-activity.md)
       + [Doelgroep lezen](using/building-journeys/read-audience.md)
+      + [Actie](using/building-journeys/journey-action.md)
       + [Ingebouwde kanaalhandelingen](using/building-journeys/journeys-message.md)
       + [Aangepaste acties](using/building-journeys/using-custom-actions.md)
       + [Inhoudsbeslissing](using/building-journeys/content-decision.md)
@@ -210,7 +211,6 @@ ht-degree: 19%
       + [Werken met actiecampagnes](using/campaigns/create-campaign.md)
       + [De eigenschappen van de campagne definiëren](using/campaigns/campaign-properties.md)
       + [Campagne configureren](using/campaigns/campaign-action.md)
-      + [Gebruik berichtoptimalisering in een campagne](using/campaigns/campaigns-message-optimization.md)
       + [De inhoud van de campagne bewerken](using/campaigns/campaign-content.md)
       + [Het campagnepubliek definiëren](using/campaigns/campaign-audience.md)
       + [De campagne plannen](using/campaigns/campaign-schedule.md)
@@ -540,6 +540,7 @@ ht-degree: 19%
          + [Technische opmerkingen](/help/rp_landing_pages/technotes-landing-page.md)
          + [Statistische berekeningen begrijpen](using/content-management/experiment-calculations.md)
          + [Statistische berekeningen in het Experimentenrapport begrijpen](using/content-management/experiment-report-calculations.md)
+   + [Optimalisatie van berichten gebruiken](using/campaigns/campaigns-message-optimization.md)
 + Soorten publiek, profielen en identiteit {#audiences-profiles-identities}
    + [Soorten publiek, profielen en identiteit](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
    + Doelgroepen {#audiences}
@@ -856,7 +857,7 @@ ht-degree: 19%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
