@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f59ee0ce2ad53717672d06519ce38141b69d4d90
+source-git-commit: c19c0df82ade193984710f6c2bdae6acd55a6fb5
 workflow-type: tm+mt
-source-wordcount: '1492'
-ht-degree: 2%
+source-wordcount: '1672'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 
 ## Opmerkingen bij de release van augustus &#39;25 {#25-8-rn}
@@ -157,31 +157,29 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 </tbody>
 </table-->
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Action activity in journeys</strong><br/></th>
+<th><strong>Actie tijdens reizen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer supports a new generic Action activity that enables you to configure both single actions and multi-action inbound action groups, allowing for streamlined action configuration within the journey canvas. In particular, this new feature allows for:</p>
+<p>Journey Optimizer steunt een nieuwe generische activiteit van de Actie die u toelaat om zowel enige acties als multi-actie binnenkomende actiegroepen te vormen, die voor gestroomlijnde actieconfiguratie binnen het reiscanvas toestaan. Met deze nieuwe functie kunt u met name:</p>
 <ul>
-<li>A simplified native action configuration within the journey canvas.</li>
-<li>The capacity to create multi-action inbound nodes.</li>
-<li>The ability to add optimization to any built-in channel action.</li>
-<li>The ability to add both experimentation and multi-lingual options to any action.</li>
+<li>Een vereenvoudigde native actieconfiguratie binnen het reiscanvas.</li>
+<li>De capaciteit om multi-actie binnenkomende actiegroepen te creëren.</li>
+<li>De mogelijkheid om optimalisatie toe te voegen aan ingebouwde kanaalacties.</li>
+<li>De mogelijkheid om experimenten en meertalige opties toe te voegen aan elke actie.</li>
 </ul>
-<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
+<p>Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
 <p><img src="assets/do-not-localize/action-activity.gif"/></p>
-<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
+<p>Voor meer informatie, verwijs naar de <a href="../building-journeys/journey-action.md"> gedetailleerde documentatie </a></p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 <table>
 <thead>
@@ -236,7 +234,7 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer machtigt nu u met de hulpmiddelen om gepersonaliseerde en geoptimaliseerde inhoud aan uw publiek te leveren, toestaand u om inhoudexperimenten in werking te stellen, op regel-gebaseerde het richten tot stand te brengen, en geavanceerde combinaties van allebei te gebruiken, om de doeltreffendheid van uw campagnes <!-- and journeys--> te maximaliseren.</p>
+<p>Journey Optimizer stelt u nu in staat met de gereedschappen gepersonaliseerde en geoptimaliseerde inhoud aan uw publiek te leveren, zodat u contentexperimenten kunt uitvoeren, doelgerichte regelgeving kunt maken en geavanceerde combinaties van beide kunt gebruiken om de doeltreffendheid van uw campagnes en reizen te maximaliseren.</p>
 <p>Met Optimalisatie kunt u:</p>
 <ul>
 <li>Test veelvoudige inhoudsvariaties om het meest efficiënte overseinen te identificeren.</li>
@@ -245,9 +243,9 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <li>Filter gebruikers uit die niet voldoen aan variantcriteria.</li>
 <li>Zorg voor terugvalmechanismen om de betrokkenheid van de gebruiker te behouden.</li>
 </ul>
-<P>Zodra de reis <!--/campaign is live-->, de profielen tegen de bepaalde criteria worden geëvalueerd, en gebaseerd op passende criteria, worden zij geleverd met de aangewezen ervaring of de inhoud.</p>
+<P>Zodra de reis of de campagne live is, worden profielen beoordeeld aan de hand van de vastgestelde criteria en op basis van passende criteria, worden zij geleverd met de juiste ervaring of inhoud.</p>
 <p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
-<p><!--Previously released on August 8 in campaigns only, this capacity is now also available in journeys starting from August 19.-->Beschikbaarheidsdatum: 8 augustus 2025</p>
+<p>Alleen al op 8 augustus is deze capaciteit tijdens campagnes beschikbaar op reizen die beginnen op 22 augustus.</p>
 <p>Voor meer informatie, verwijs naar de <a href="../campaigns/campaigns-message-optimization.md"> gedetailleerde documentatie </a></p>
 </td>
 </tr>
@@ -302,6 +300,12 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
      Als u uw koppeling voor het opzeggen van uw abonnement met één klik verder wilt aanpassen, kunt u nu aangepaste kenmerken definiëren die ook aan de gebeurtenis voor toestemming worden toegevoegd. [Meer informatie](../email/list-unsubscribe.md#custom-attributes)
 
+* **Datasets**
+
+   * **Ervaring die Bewaarplaats van Objecten bepaalt - de Gepersonaliseerde Punten van de Aanbieding** - de ingebouwde de uitvoerdataset vangt nu alle aanbiedingsattributen en levenscyclusstatus, toelatend volledige verpersoonlijking en rapportering. [Meer informatie](../data/export-datasets.md)
+
+   * Introduceerde versiecontrole via het veld `etag` om de consistentie te verbeteren en wijzigingen bij te houden om items betrouwbaarder aan te bieden.
+
 * **Beslissing**
 
    * **de fragmenten van de Band aan besluitvormingspunten** - Journey Optimizer verstrekt nu de capaciteit om fragmenten aan besluitvormingspunten vast te maken die in code-gebaseerde ervaringscampagnes door besluitvormingsbeleid kunnen worden leveraged. Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid voor een set klanten. [Meer informatie](../experience-decisioning/create-decision.md#fragments)
@@ -312,11 +316,7 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
    * **Redirect (302) Steun in de Acties van de Douane** - de acties van de Douane kunnen HTTP 302 nu behandelen herleidt op een per-verzoekbasis. Hierdoor kunnen reizen worden geïntegreerd met API&#39;s die aanvragen doorsturen naar gelokaliseerde of regiospecifieke URL&#39;s. Omleidingen worden automatisch gevolgd, zodat de juiste inhoud zonder extra configuratie wordt geleverd.
 
-* **Datasets**
-
-   * **Ervaring die Bewaarplaats van Objecten bepaalt - de Gepersonaliseerde Punten van de Aanbieding** - de ingebouwde de uitvoerdataset vangt nu alle aanbiedingsattributen en levenscyclusstatus, toelatend volledige verpersoonlijking en rapportering. [Meer informatie](../data/export-datasets.md)
-
-   * Introduceerde versiecontrole via het veld `etag` om de consistentie te verbeteren en wijzigingen bij te houden om items betrouwbaarder aan te bieden.
+   * **Veelvoudige binnenkomende acties in reizen** - om uw reisorchestratie te vereenvoudigen, kunt u verscheidene binnenkomende acties in één enkele reis nu bepalen. Deze functie was eerder beschikbaar in campagnes en stelt u in staat om meerdere op code gebaseerde ervaringen, In-app-berichten, Content Cards of webhandelingen tegelijk naar verschillende locaties te verzenden, waarbij elke actie een specifieke inhoud bevat. [Meer informatie](../building-journeys/journey-action.md#multi-action)
 
 ## Campagneorganisatie
 
