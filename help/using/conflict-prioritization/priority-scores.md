@@ -4,9 +4,9 @@ description: Leer hoe u prioriteitsscores kunt toewijzen aan reizen en campagnes
 role: User
 level: Beginner
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 0334d0b6d2fc9665ee1fe407502117679cf220f2
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '459'
 ht-degree: 1%
 
 ---
@@ -16,12 +16,17 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_priority"
 >title="Prioriteit"
->abstract="Wijs een prioritaire score toe aan de reis. Prioriteit is essentieel om prioriteit te geven aan een reis wanneer er een opgelegde beperking is, zoals een frequentiegrens. Voer een numerieke waarde in (van 0-100). Let op: hoe hoger het getal, hoe hoger de prioriteit. Voor situaties waarin twee ritten dezelfde prioriteitsscore hebben, wordt de reis die als eerste werd ingezet, getoond."
+>abstract="Wijs een prioriteitsscore toe aan de campagne. Prioriteit is essentieel om prioriteit te geven aan een campagne wanneer er een opgelegde beperking is, zoals een frequentiegrens.</br> ga een numerieke waarde (van 0-100) in. Let op: hoe hoger het getal, hoe hoger de prioriteit. Voor situaties waarin twee campagnes dezelfde prioriteitsscore hebben, wordt de campagne weergegeven die als eerste werd geactiveerd."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Prioriteit"
->abstract="Wijs een prioritaire score toe aan de reis. Prioriteit is essentieel om prioriteit te geven aan een reis wanneer er een opgelegde beperking is, zoals een frequentiegrens. Voer een numerieke waarde in (van 0-100). Let op: hoe hoger het getal, hoe hoger de prioriteit."
+>abstract="Wijs een prioritaire score toe aan de reis. Prioriteit is essentieel om prioriteit te geven aan een reis wanneer er een opgelegde beperking is, zoals een frequentiegrens.</br> ga een numerieke waarde (van 0-100) in. Let op: hoe hoger het getal, hoe hoger de prioriteit. Voor situaties waarin twee ritten dezelfde prioriteitsscore hebben, wordt de reis die als eerste werd ingezet, getoond."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_priority"
+>title="Prioriteit"
+>abstract="Wijs een prioritaire score aan de reisactie toe. Prioriteit is essentieel om een binnenkomende actie voorrang te geven wanneer er veelvoudige reisacties of campagnes gebruikend de zelfde kanaalconfiguratie zijn.</br> ga een numerieke waarde (van 0-100) in. Let op: hoe hoger het getal, hoe hoger de prioriteit. Standaard wordt de prioriteitsscore voor de actie overgenomen van de algemene prioriteitsscore voor de reis."
 
 Met Journey Optimizer kunt u een prioriteitsscore toekennen aan een reis of campagne. Prioriteit is essentieel om prioriteit te geven aan een reis, campagne of actie wanneer er een opgelegde beperking is (zoals een frequentiegrens). In situaties waar een klant voor vele reizen, campagnes, of mededelingen kwalificeert en u selectief wilt zijn wat zij zouden moeten ingaan en ontvangen, zou u dit gebied moeten gebruiken.
 
@@ -43,4 +48,4 @@ Als u een prioriteitsscore wilt toewijzen aan een reis of campagne, voert u een 
 
 ## Hoe kan ik-video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445007?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
