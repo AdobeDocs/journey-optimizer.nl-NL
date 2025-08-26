@@ -2,9 +2,9 @@
 title: Aanvullende id's gebruiken tijdens reizen
 description: Leer hoe u aanvullende id's kunt gebruiken tijdens reizen.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: efd39577a4836144c4ba41018e5750278e82c079
+source-git-commit: c46ad0283eec025cbf6183bf1aac0e3808450e21
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
@@ -101,6 +101,8 @@ Voer de volgende stappen uit om een aanvullende id te gebruiken in een gebeurten
 
    1. Selecteer de naamruimte die u aan de aanvullende id wilt koppelen. Dit moet een naamruimte voor niet-persoonlijke id zijn.
 
+      Nadat u de naamruimte voor niet-persoonlijke identiteit op een schema hebt toegepast, moet u een nieuwe gebeurtenis maken om de aanvullende id te kunnen gebruiken. Bestaande entiteiten kunnen niet worden vernieuwd om de nieuwe id te herkennen.
+
 1. **voeg extra identiteitskaart aan de gebeurtenis toe**
 
    1. Maak of bewerk de gewenste gebeurtenis. [ Leer hoe te om een eenheidsgebeurtenis te vormen ](../event/about-creating.md)
@@ -141,9 +143,7 @@ Voer de volgende stappen uit om een extra id te gebruiken voor een leestoepreis:
 
    1. Selecteer de naamruimte die u aan de aanvullende id wilt koppelen. Dit moet een naamruimte voor niet-persoonlijke id zijn.
 
-      >[!NOTE]
-      >
-      >Nadat u de naamruimte voor niet-persoonlijke identiteiten op een schema hebt toegepast, moet u een nieuwe gebeurtenis (voor door gebeurtenissen geactiveerde reizen) of een nieuwe veldgroep (voor publiekstransporten Lezen) maken om de aanvullende id te kunnen gebruiken. Bestaande entiteiten kunnen niet worden vernieuwd om de nieuwe id te herkennen.
+      Nadat u de naamruimte voor niet-persoonlijke identiteit op een schema hebt toegepast, moet u een nieuwe veldgroep maken om de aanvullende id te kunnen gebruiken. Bestaande entiteiten kunnen niet worden vernieuwd om de nieuwe id te herkennen.
 
 <!--1. **Add the supplemental ID field to the data source**
 
@@ -250,4 +250,4 @@ In een objectarray met de aanvullende id als `bookingNum` en een kenmerk op hetz
 
 Leer hoe u een aanvullende id in [!DNL Adobe Journey Optimizer] kunt inschakelen en toepassen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464798?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
