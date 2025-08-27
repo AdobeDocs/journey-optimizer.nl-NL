@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c19c0df82ade193984710f6c2bdae6acd55a6fb5
+source-git-commit: 14df4a342a88a52dc003338e323b8108817ce1ce
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 1%
+source-wordcount: '1700'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 
 ## Opmerkingen bij de release van augustus &#39;25 {#25-8-rn}
@@ -259,6 +259,13 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 * **Beheer**
 
    * **de configuratiecontrole van het Kanaal alarm** - u kunt nu intekenen om systeemalarm, of door e-mail of in het het kennisgevingscentrum van Journey Optimizer te ontvangen, voor het geval <!--a channel configuration failure happens or if --> een DNS verslag mist. [Meer informatie](../reports/alerts.md#alert-dns-record-missing)
+
+* **AI Medewerker**
+
+   * **Inhoudsgeneratie in veelvoudige talen** - de Inhoud kan nu in Frans, Spaans, Duits, Italiaans, Japans, Zweeds, Nederlands, en Noors worden geproduceerd. [Meer informatie](../content-management/generative-uc.md#languages)
+
+     Beschikbaarheidsdatum: 25 augustus
+
 
 * **Campagnes**
 
