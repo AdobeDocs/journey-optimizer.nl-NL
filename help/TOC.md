@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
 workflow-type: tm+mt
-source-wordcount: '2886'
+source-wordcount: '2889'
 ht-degree: 19%
 
 ---
@@ -78,13 +78,15 @@ ht-degree: 19%
       + [Algemene gebeurtenissen](using/building-journeys/general-events.md)
       + [Reactie](using/building-journeys/reaction-events.md)
       + [kwalificatie publiek](using/building-journeys/audience-qualification-events.md)
-      + [Voorwaarde](using/building-journeys/condition-activity.md)
-      + [Wachten](using/building-journeys/wait-activity.md)
+      + [Optimaliseren](using/building-journeys/optimize.md)
+      + [Voorwaarden](using/building-journeys/conditions.md)
+      + [Voorwaardeactiviteit](using/building-journeys/condition-activity.md)
       + [Doelgroep lezen](using/building-journeys/read-audience.md)
+      + [Wachten](using/building-journeys/wait-activity.md)
+      + [Inhoudsbeslissing](using/building-journeys/content-decision.md)
       + [Actie](using/building-journeys/journey-action.md)
       + [Ingebouwde kanaalhandelingen](using/building-journeys/journeys-message.md)
       + [Aangepaste acties](using/building-journeys/using-custom-actions.md)
-      + [Inhoudsbeslissing](using/building-journeys/content-decision.md)
       + [Adobe Campaign Standard-acties](using/building-journeys/using-adobe-campaign-standard.md)
       + [Handelingen voor Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-v7-v8.md)
       + [Springen](using/building-journeys/jump.md)
@@ -857,7 +859,7 @@ ht-degree: 19%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}

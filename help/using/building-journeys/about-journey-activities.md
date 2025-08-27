@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: reis, activiteiten, aan de slag, gebeurtenissen, actie
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 527a539272460aa6aa22de5bb3da2223521ee2a3
+source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '667'
 ht-degree: 12%
 
 ---
@@ -42,11 +42,12 @@ Orchestratieactiviteiten zijn verschillende omstandigheden die helpen de volgend
 
 In het palet zijn aan de linkerkant van het scherm de volgende orkestactiviteiten beschikbaar:
 
-* [Voorwaarde](../building-journeys/condition-activity.md)
-* [Wachten](../building-journeys/wait-activity.md)
-* [Publiek lezen](../building-journeys/read-audience.md)
+* [Optimaliseren](optimize.md)
+* [Publiek lezen](read-audience.md)
+* [Wachten](wait-activity.md)
+* [Inhoudsbeslissing](content-decision.md)
 
-![ de activiteitenpalet van Orchestratie in de reisontwerper ](assets/journey49.png)
+![ de activiteitenpalet van Orchestratie in de reisontwerper ](assets/journey-orchestration-activities.png)
 
 ## Actieactiviteiten {#action-activities}
 

@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 keywords: campagne optimaliseren, experimenteren, doelgericht testen, A/B testen
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 270bc80cbd8cc1ebaba7449b344f32425759f66e
+source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Volg de onderstaande stappen om experimenten in te stellen en te bepalen welk be
    >
    >Als u onderweg bent, voegt u een **[!UICONTROL Action]** -activiteit toe, kiest u een kanaalactiviteit en selecteert u **[!UICONTROL Configure action]** . [Meer informatie](../building-journeys/journey-action.md#add-action)
 
-1. Van het **[!UICONTROL Actions]** lusje, selecteer minstens twee binnenkomende acties, bijvoorbeeld [ code-gebaseerde ervaring ](../code-based/get-started-code-based.md) en [ in-app ](../../rp_landing_pages/in-app-landing-page.md).
+1. Van het **[!UICONTROL Actions]** lusje, selecteer twee binnenkomende acties, bijvoorbeeld [ code-gebaseerde ervaring ](../code-based/get-started-code-based.md) en [ in-app ](../../rp_landing_pages/in-app-landing-page.md).
 
 1. Selecteer **[!UICONTROL Optimization]** in de sectie **[!UICONTROL Create experiment]** .
 
@@ -181,4 +181,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Leer hoe u berichtoptimalisatie kunt benutten in actie- of API-campagnes. U zult zien hoe te om sub-publiek te richten, berichtvariaties door plaats tot stand te brengen, fallback inhoud toe te laten, en veelvoudige experimenten in één enkele campagne in werking te stellen. In deze zelfstudie wordt ook uitgelegd hoe u campagnes met meerdere kanalen kunt beheren en tegelijkertijd de consistentie van berichten kunt behouden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470374?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
