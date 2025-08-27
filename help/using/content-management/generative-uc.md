@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
@@ -110,5 +110,23 @@ Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-mailcamp
 1. Controleer **[!UICONTROL Variation suggestions]** om het element te zoeken dat u wilt gebruiken.
 
 1. Selecteer **[!UICONTROL Preview]** om de gekozen variatie op het volledige scherm weer te geven.
+
+1. Klik op **[!UICONTROL Select]** als u de geschikte inhoud hebt gevonden.
+
+## Inhoud genereren in verschillende talen {#languages}
+
+![](assets/do-not-localize/gen-ai-language.gif)
+
+1. Klik op **[!UICONTROL Edit content]** als uw campagne is ingesteld en geconfigureerd.
+
+1. Open het menu **[!UICONTROL AI Assistant]** .
+
+1. Pas de inhoud aan door uw gewenste verzoek in te voeren in het tekstvak **[!UICONTROL Prompt]** in het Frans, Spaans, Duits, Italiaans, Japans, Zweeds, Nederlands of Noors.
+
+1. Til uw vraag aan met de optie **[!UICONTROL Text settings]** en selecteer de gewenste **[!UICONTROL Languages]** voor de gegenereerde inhoud.
+
+1. Pas de vraag desgewenst verder aan en klik op **[!UICONTROL Generate]** .
+
+1. Bekijk de **[!UICONTROL Variation suggestions]** in de geselecteerde taal.
 
 1. Klik op **[!UICONTROL Select]** als u de geschikte inhoud hebt gevonden.
