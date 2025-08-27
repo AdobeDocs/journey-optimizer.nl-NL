@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: reis, activiteiten, aan de slag, gebeurtenissen, actie
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
+source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '666'
 ht-degree: 12%
 
 ---
@@ -42,7 +42,7 @@ Orchestratieactiviteiten zijn verschillende omstandigheden die helpen de volgend
 
 In het palet zijn aan de linkerkant van het scherm de volgende orkestactiviteiten beschikbaar:
 
-* [Optimaliseren](optimize.md)
+<!--* [Optimize](optimize.md)-->
 * [Publiek lezen](read-audience.md)
 * [Wachten](wait-activity.md)
 * [Inhoudsbeslissing](content-decision.md)
