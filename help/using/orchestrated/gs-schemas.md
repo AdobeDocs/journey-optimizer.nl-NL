@@ -4,7 +4,7 @@ product: journey optimizer
 title: Configuratiestappen
 description: Leer hoe u een relationeel schema maakt in Adobe Experience Platform door een DDL te uploaden
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
-source-git-commit: 7fc03d15c63789a2c35e3d517ca0c63f93545d4c
+source-git-commit: 1cd98a42d6d30b21ea5fb6f8d6c745bf735b0e6c
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 1%
@@ -22,7 +22,7 @@ Deze gids begeleidt u door het proces om een relationeel schema tot stand te bre
 
    Definieer de structuur van uw gegevensmodel, inclusief tabellen, kenmerken en relaties. Kies ervoor het schema handmatig te bouwen in de gebruikersinterface of een DDL-bestand te uploaden voor een snellere installatie.
 
-   Wanneer het creëren van het schema manueel, dataset moet ook manueel worden gecreeerd en worden toegelaten. Wanneer u een DDL-bestand gebruikt, worden gegevenssets automatisch gemaakt en ingeschakeld.
+   Wanneer het creëren van het schema manueel, dataset moet ook manueel worden gecreeerd en worden toegelaten. Wanneer het gebruiken van een Ddl- dossier, zijn de verwezenlijking van de dataset en enablement automatisch.
 
 1. [Koppelingsschema](file-upload-schema.md)
 
