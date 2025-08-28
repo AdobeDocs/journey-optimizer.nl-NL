@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: 064d060dcb939a633b423bf4414506d8e4320c99
 workflow-type: tm+mt
 source-wordcount: '2634'
 ht-degree: 0%
@@ -20,14 +20,14 @@ ht-degree: 0%
 
 Hieronder vindt u aanvullende instructies en beperkingen wanneer u [!DNL Adobe Journey Optimizer] gebruikt.
 
-De rechten, de productbeperkingen en de prestatiesbegeleiding worden vermeld in [ Adobe Journey Optimizer pagina van de productbeschrijving ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+De rechten, de productbeperkingen en de prestatiesbegeleiding worden vermeld in [ Adobe Journey Optimizer pagina van de productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 
 >[!CAUTION]
 >
->* [ Grafieken voor gegevens en segmentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/guardrails){target="_blank"} zijn ook op Adobe Journey Optimizer van toepassing.
+>* [ Grafieken voor gegevens en segmentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} zijn ook op Adobe Journey Optimizer van toepassing.
 >
->* Zie ook [ Grafieken voor de Ingestie van Gegevens in het Profiel van de Klant in real time ](https://experienceleague.adobe.com/nl/docs/experience-platform/ingestion/guardrails){target="_blank"}
+>* Zie ook [ Grafieken voor de Ingestie van Gegevens in het Profiel van de Klant in real time ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
 
 ## Ondersteunde browsers {#browsers}
@@ -69,7 +69,7 @@ De volgende guardrails zijn op het [ kanaal van SMS ](../sms/get-started-sms.md)
 
 [!DNL Journey Optimizer] [ Webcampagnes ](../web/get-started-web.md) richten nieuwe profielen die niet eerder op andere kanalen zijn betrokken. Hierdoor wordt het totale aantal aanspreekbare profielen verhoogd. Dit kan kosten met zich meebrengen als het contractuele aantal aanschafbare profielen dat u hebt aangeschaft, wordt overschreden.
 
-De metriek van de vergunning voor elk pakket is vermeld op de [ pagina van de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+De metriek van de vergunning voor elk pakket is vermeld op de [ pagina van de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 ### Kanaalhulplijnen op basis van code {#code-based-guardrails}
 
@@ -166,7 +166,7 @@ De volgende gidsen zijn op de [ Acties van de Douane ](../action/action.md) in u
 
 De volgende gidsen zijn op de [ Gebeurtenissen ](../event/about-events.md) in uw reizen van toepassing:
 
-* Voor elke organisatie, steunt Journey Optimizer een piekvolume van 5.000 inkomende reisgebeurtenissen per seconde.
+* Journey Optimizer ondersteunt een piekvolume van 5.000 inkomende reisgebeurtenissen per seconde, over alle sandboxen.
 * Het kan tot 5 minuten duren voordat de eerste actie tijdens de reis wordt uitgevoerd.
 * Voor door het systeem gegenereerde gebeurtenissen moeten streaminggegevens die worden gebruikt om een klantentraject te starten, eerst binnen Journey Optimizer worden geconfigureerd om een unieke orchestratie-id te verkrijgen. Deze orkest-id moet worden toegevoegd aan de streaminglading die naar Adobe Experience Platform komt. Deze beperking geldt niet voor op regels gebaseerde gebeurtenissen.
 * Zakelijke evenementen kunnen niet worden gebruikt in combinatie met monitaire evenementen of kwalificatieactiviteiten voor het publiek.
@@ -217,7 +217,7 @@ Zie ook [ deze pagina ](../building-journeys/read-audience.md#must-read).
 
 ### Poortkwalificatie {#audience-qualif-g}
 
-De volgende richtlijn is op de [ de reisactiviteit van de Kwalificatie van het publiek 0&rbrace; van toepassing:](../building-journeys/audience-qualification-events.md)
+De volgende richtlijn is op de [ de reisactiviteit van de Kwalificatie van het publiek 0} van toepassing:](../building-journeys/audience-qualification-events.md)
 
 * De kwalificatie-activiteit Publiek kan niet worden gebruikt met Adobe Campaign-activiteiten.
 
