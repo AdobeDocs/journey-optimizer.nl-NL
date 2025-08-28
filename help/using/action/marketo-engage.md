@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: markt, markt om integratie te bevorderen
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
+source-git-commit: 1592c3ae28f1f7a5465c8fb236790a460e9afb25
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
@@ -48,6 +48,7 @@ In Journey Optimizer moet u een aangepaste handeling voor Marketo Engage configu
 ![](assets/engage-customaction-payload.png){width="70%" align="left"}
 
 1. Waarden voor nuttige lading controleren en configureren
+
 Nota: Om waarden dynamisch over te gaan, voor elke gebiedsverandering **Constante** aan **Variabele**.
 
 ![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
