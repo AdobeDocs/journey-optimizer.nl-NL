@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: markt, markt om integratie te bevorderen
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: 1592c3ae28f1f7a5465c8fb236790a460e9afb25
+source-git-commit: aafd172fe24a4ecb300f5f4cf5561f38dfeadfc7
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
@@ -39,14 +39,10 @@ In Journey Optimizer moet u een aangepaste handeling voor Marketo Engage configu
 1. Selecteer **[!UICONTROL Configurations]** in de sectie van het menu van het Beleid.
 1. Klik in de sectie **[!UICONTROL Actions]** op **[!UICONTROL Create Action]** . Het deelvenster Handelingsconfiguratie wordt aan de rechterkant van het scherm geopend.
 1. Ga Naam, Beschrijving in, en selecteer **Adobe Marketo Engage** als **Type van Actie**
-
-![](assets/engage-customaction-creation.png){width="40%" align="left"}
-
+   ![](assets/engage-customaction-creation.png){width="40%" align="left"}
 1. Klik **uitgeven nuttige lading** pictogram voor uw **Verzoek** en **nuttige lading van de Reactie**.
 1. Voor beide, stel uw lading samen en kleef het in specifieke popup.
-
-![](assets/engage-customaction-payload.png){width="70%" align="left"}
-
+   ![](assets/engage-customaction-payload.png){width="70%" align="left"}
 1. Waarden voor nuttige lading controleren en configureren
 
 Nota: Om waarden dynamisch over te gaan, voor elke gebiedsverandering **Constante** aan **Variabele**.
