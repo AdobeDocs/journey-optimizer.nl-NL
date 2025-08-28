@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: 4417643cbf206b9ad112bae5c270cdfc746a9c5d
+source-git-commit: eeacfacf3068f831afb7b7ad78214941a9259c93
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,14 @@ Deze functie is vooral handig om overbelasting op downstreamsystemen, zoals pagi
 
 Als u de snelheidsregeling wilt instellen, schakelt u de optie **[!UICONTROL Throttle delivery]** in de **[!UICONTROL Delivery settings]** -sectie in en geeft u de gewenste **[!UICONTROL Delivery rate]** per seconde op.
 
+* Minimaal ondersteunde leveringspercentage: 1 per seconde.
+* Maximale ondersteunde leversnelheid: 2000 per seconde wanneer de optie &quot;Throttle delivery&quot; is ingeschakeld.
+
 ![](assets/throttling-rate-control.png)
+
+>[!IMPORTANT]
+>
+>Bij het instellen van een leveringstarief is de maximale tijdlijn waarvoor het campagnepubliek kan worden uitgevoerd 12 uur. Als de leveringstarief aan een waarde wordt geplaatst die niet alle publiek toestaat om het bericht in het 12 uurstijdsbestek te worden verzonden, dan zouden de resterende profielen van de campagne worden uitgesloten. U kunt de telling van deze uitgesloten profielen in het campagnerapport zien.
 
 ## Een uitvoeringsfrequentie instellen
 

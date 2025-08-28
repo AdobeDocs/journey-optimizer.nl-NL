@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
 exl-id: e04b0d38-6b3d-4086-a0f0-c1b8f6d9634f
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: eeacfacf3068f831afb7b7ad78214941a9259c93
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -38,9 +38,16 @@ Met [!DNL Journey Optimizer] kunt u tariefcontrole inschakelen voor uitgaande ac
 
 Deze functie is vooral handig om overbelasting op downstreamsystemen, zoals pagina&#39;s voor landingen of platforms voor klantenservice, te voorkomen. Bijvoorbeeld, kunt u een tariefgrens van 165 berichten per seconde plaatsen om constante levering zonder overweldigende stroomafwaartse systemen te verzekeren.
 
-Als u het snelheidsbeheer wilt instellen, schakelt u de optie **[!UICONTROL Throttle delivery]** in de sectie **[!UICONTROL Delivery settings]** in en geeft u het gewenste **[!UICONTROL Delivery rate]** op.
+Als u de snelheidsregeling wilt instellen, schakelt u de optie **[!UICONTROL Throttle delivery]** in de **[!UICONTROL Delivery settings]** -sectie in en geeft u de gewenste **[!UICONTROL Delivery rate]** per seconde op.
+
+* Minimaal ondersteunde leveringspercentage: 1 per seconde.
+* Maximale ondersteunde leversnelheid: 2000 per seconde wanneer de optie &quot;Throttle delivery&quot; is ingeschakeld.
 
 ![](assets/throttling-rate-control.png)
+
+>[!IMPORTANT]
+>
+>Bij het instellen van een leveringstarief is de maximale tijdlijn waarvoor het campagnepubliek kan worden uitgevoerd 12 uur. Als de leveringstarief aan een waarde wordt geplaatst die niet alle publiek toestaat om het bericht in het 12 uurstijdsbestek te worden verzonden, dan zouden de resterende profielen van de campagne worden uitgesloten. U kunt de telling van deze uitgesloten profielen in het campagnerapport zien.
 
 ## Volgende stappen {#next}
 
