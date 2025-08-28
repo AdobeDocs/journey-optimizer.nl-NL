@@ -4,10 +4,10 @@ product: journey optimizer
 title: Configuratiestappen
 description: Leer hoe u gegevens van ondersteunde bronnen, zoals SFTP, cloudopslag of databases, naar Adobe Experience Platform kunt overbrengen.
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 0%
+source-wordcount: '674'
+ht-degree: 1%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 0%
 
 Adobe Experience Platform staat toe dat gegevens uit externe bronnen worden opgenomen en biedt u de mogelijkheid om inkomende gegevens te structureren, labelen en verbeteren met behulp van Experience Platform-services. U kunt gegevens invoeren uit verschillende bronnen, zoals Adobe-toepassingen, opslag in de cloud, databases en vele andere.
 
+Een dataset is een opslag en beheersconstructie voor een inzameling van gegevens, typisch een lijst, die een schema (kolommen) en gebieden (rijen) bevat. De gegevens die met succes in Experience Platform worden opgenomen worden opgeslagen binnen het gegevensmeer als datasets.
+
 ## Ondersteunde bronnen voor geordende campagnes {#supported}
 
 De volgende bronnen worden ondersteund voor gebruik met geordende campagnes:
@@ -30,35 +32,35 @@ De volgende bronnen worden ondersteund voor gebruik met geordende campagnes:
   <thead>
     <tr>
       <th>Type</th>
-      <th>Source</th>
+      <th>Bron</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td rowspan="3">Cloud Storage</td>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
     </tr>
       <td rowspan="4">Cloud Data Warehouses</td>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Gegevenslandingszone<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Gegevenslandingszone<a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
     </tr>
     <tr>
       <td rowspan="3">Bestandsgebaseerde uploads</td>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Lokaal bestand uploaden<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Lokaal bestand uploaden<a></td>
     </tr>
 
 </tbody>
@@ -82,7 +84,7 @@ Als een klant records alleen uit Adobe Experience Platform wil verwijderen zonde
 
   Als vergunning gegeven, **Gegevens Distiller** kan worden gebruikt om schrappingsverrichtingen direct binnen Adobe Experience Platform, onafhankelijk van het bronsysteem te steunen.
 
-  [ Leer meer op Gegevens Distiller ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/data-distiller/overview)
+  [ Leer meer op Gegevens Distiller ](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
 
 ## Een gegevensstroom configureren
 
@@ -98,7 +100,7 @@ In dit voorbeeld wordt getoond hoe u een gegevensstroom configureert die gestruc
 
    ![](assets/admin_sources_2.png)
 
-1. Kies de gegevens die u in Adobe Experience Platform wilt opnemen.
+1. Kies de gegevens die u in Adobe Experience Platform wilt invoeren.
 
    ![](assets/S3_config_1.png)
 
@@ -120,7 +122,7 @@ In dit voorbeeld wordt getoond hoe u een gegevensstroom configureert die gestruc
 
    De maximale ondersteunde grootte is 100 MB.
 
-1. Controleer in het venster **[!UICONTROL Mapping]** of elk kenmerk van het bronbestand correct is toegewezen aan de corresponderende velden in het doelschema.
+1. Controleer in het venster **[!UICONTROL Mapping]** of elk kenmerk van het bronbestand correct is toegewezen aan de corresponderende velden in het doelschema. [ Leer meer over het richten van dimensies ](target-dimension.md).
 
    Klik **[!UICONTROL Next]** eenmaal gereed.
 

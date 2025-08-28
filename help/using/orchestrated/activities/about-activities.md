@@ -4,9 +4,9 @@ product: journey optimizer
 title: Werken met geordende campagneactiviteiten
 description: Meer informatie over geordende campagneactiviteiten
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '393'
 ht-degree: 3%
 
 ---
@@ -30,6 +30,8 @@ Deze activiteiten zijn specifiek gericht op de doelgroepen. Met deze instructies
 
 ![ Lijst van het richten van activiteiten ](../assets/targeting-activities.png){width="40%" align="left"}
 
+De beschikbare gerichte activiteiten zijn:
+
 * [ bouwt publiek ](build-audience.md): Bepaal uw doelbevolking. U kunt of een bestaand publiek selecteren of de regelbouwer gebruiken om uw eigen vraag te bepalen.
 * [ dimensie van de Verandering ](change-dimension.md): Verander de het richten dimensie aangezien u uw Geordende campagne bouwt.
 * [ combineren ](combine.md): Voer segmentatie op uw binnenkomende bevolking uit. U kunt een samenvoeging, een doorsnede of een uitsluiting gebruiken.
@@ -49,9 +51,11 @@ Met Adobe Journey Optimizer kunt u marketingcampagnes op meerdere kanalen automa
 >title="Eindactiviteit"
 >abstract="Het **Eind** activiteit staat u toe om het eind van een Geordende campagne grafisch te merken. Deze activiteit heeft geen functioneel effect en is daarom optioneel."
 
-![ Lijst van de activiteiten van de debietcontrole ](../assets/flow-control-activities.png){width="30%" align="left"}
+De volgende activiteiten zijn specifiek gericht op het organiseren en uitvoeren van geordende campagnes. Hun belangrijkste taak is de coördinatie van de andere activiteiten.
 
-De volgende activiteiten zijn specifiek gericht op het organiseren en uitvoeren van geordende campagnes. Hun voornaamste taak is de coördinatie van de andere activiteiten:
+![ Lijst van de activiteiten van de debietcontrole ](../assets/flow-control-activities.png){width="20%" align="left"}
+
+Beschikbare activiteiten op het gebied van stroombeheersing zijn:
 
 * [ en-sluit zich aan ](and-join.md): Synchroniseer veelvoudige uitvoeringstakken van een Geordende campagne.
 * [ Fork ](fork.md): Creeer uitgaande overgangen om verscheidene activiteiten tezelfdertijd te beginnen.
