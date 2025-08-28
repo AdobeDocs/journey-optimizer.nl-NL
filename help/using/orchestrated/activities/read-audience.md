@@ -81,6 +81,6 @@ Wanneer een publiek is gemaakt, is het alleen-lezen en kan het niet meer worden 
 
 ## Voorbeeld
 
-In het onderstaande voorbeeld wordt de **[!UICONTROL Read audience]** -activiteit gebruikt om een eerder gemaakt en opgeslagen publiek op te halen van profielen die zijn geabonneerd op de nieuwsbrief. Het publiek wordt dan verrijkt met het **1} attribuut van het Loyalty lidmaatschap {om het richten van gebruikers toe te laten die lid van het loyaliteitsprogramma zijn.**
+In het onderstaande voorbeeld wordt de **[!UICONTROL Read audience]** -activiteit gebruikt om een eerder gemaakt en opgeslagen publiek op te halen van profielen die zijn geabonneerd op de nieuwsbrief. Het publiek wordt dan verrijkt met het **1&rbrace; attribuut van het Loyalty lidmaatschap &lbrace;om het richten van gebruikers toe te laten die lid van het loyaliteitsprogramma zijn.**
 
 ![](../assets/read-audience-5.png)
