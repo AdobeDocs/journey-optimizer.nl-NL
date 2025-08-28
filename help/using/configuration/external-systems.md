@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: extern, API, optimaliseren, aftopping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
+source-git-commit: e7908a328a14b307f0ea6914d2d06c5325ceb211
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 21%
+source-wordcount: '1615'
+ht-degree: 20%
 
 ---
 
@@ -119,3 +119,14 @@ Voor een bepaalde vraag, kan een maximum van drie pogingen na de eerste vraag wo
 **waar kan ik onderbreking vormen? Is er een maximumwaarde?**
 
 In elke reis, kunt u een onderbrekingsduur bepalen. De duur van de onderbreking wordt gevormd in de eigenschappen van een reis. De duur van de onderbreking moet tussen 1 seconde en 30 seconden zijn. Verwijs naar [ deze sectie ](../configuration/external-systems.md#timeout) en [ deze pagina ](../building-journeys/journey-properties.md#timeout_and_error).
+
+**wat is het maximum aantal verbindingen die door Journey Optimizer worden geopend wanneer de douaneacties worden gebruikt?**
+
+Met de IP toegelaten volmacht en een throttling configuratie die op het gerichte eindpunt wordt bepaald, is het aantal verbindingen gebaseerd op het tarief (die schattingen, niet gewaarborgde aantallen zijn):
+
+* tussen 200 en 2000 c/s: 50 aansluitingen
+* tussen 2000 en 3000: 75 aansluitingen
+* tussen 3000 en 4000: 100 aansluitingen
+* tussen 4000 en 5000: 125 aansluitingen
+
+Als geen throttling configuratie op een eindpunt wordt bepaald, wordt de motor van Journey Optimizer ontworpen om omhoog te schrapen en het kan aan een hoog aantal verbindingen (meer dan 2.000) krijgen. Om beperkt aantal verbindingen te krijgen, moeten de klanten een throttling configuratie gebruiken.
