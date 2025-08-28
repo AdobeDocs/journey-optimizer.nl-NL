@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: extern, API, optimaliseren, aftopping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0a6db9c9537563fea5d56289d78b9ed49d703734
+source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 24%
+source-wordcount: '1499'
+ht-degree: 21%
 
 ---
 
@@ -76,7 +76,15 @@ Voor **aangepaste acties** moet u de capaciteit van uw externe API evalueren. Al
 >
 >Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Voor meer informatie over reacties, zie deze [ sectie ](../action/action-response.md)
 
-## Time-out en opnieuw proberen{#timeout}
+## Eindpunten met een langzame responstijd {#response-time}
+
+Wanneer een eindpunt een reactietijd meer dan 0.75 seconden heeft, worden zijn vraag van de douaneactie verpletterd door de specifieke **langzame dienst van de douaneactie** in plaats van de standaarddienst.
+
+Deze trage dienst van de douaneactie past een het maximum van 150.000 vraag toe om de 30 seconden. De limiet wordt afgedwongen via een schuifvenster, dat op elke milliseconde binnen die periode van 30 seconden kan beginnen. Zodra het venster volledig is, worden de extra vraag verworpen met het begrenzen van fouten. Het systeem wacht niet op het volgende vaste interval, maar begint onmiddellijk na het bereiken van de drempel van 30 seconden te begrenzen.
+
+Omdat de langzame eindpunten vertragingen over alle een rij gevormde acties in de pijpleiding kunnen veroorzaken, wordt het geadviseerd om douaneacties met eindpunten niet te vormen die langzame reactietijden hebben. Verpletterend dergelijke acties aan de langzame dienst helpt algemene systeemprestaties beschermen en verhindert toegevoegde latentie voor andere douaneacties.
+
+## Time-out en opnieuw proberen {#timeout}
 
 Als de het maximum afschilderen of vertragen regel wordt vervuld, dan wordt de onderbrekingsregel toegepast.
 

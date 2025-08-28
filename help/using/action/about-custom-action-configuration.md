@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1695'
 ht-degree: 1%
 
 ---
@@ -36,6 +36,11 @@ In parameters voor aangepaste handelingen kunt u een eenvoudige verzameling en e
 De parameters voor aangepaste handelingen hebben een verwachte indeling (bijvoorbeeld tekenreeks, decimaal, enz.). U moet deze verwachte formaten zorgvuldig respecteren. Leer meer in dit [ gebruiksgeval ](../building-journeys/collections.md).
 
 De acties van de douane steunen JSON formaat slechts wanneer het gebruiken van [ verzoek ](../action/about-custom-action-configuration.md#define-the-message-parameters) of [ antwoordladloads ](../action/action-response.md).
+
+>[!NOTE]
+>
+>Wanneer een eindpunt een reactietijd meer dan 0.75 seconden heeft, worden zijn vraag van de douaneactie verpletterd door de specifieke langzaam [ dienst van de douaneactie ](../configuration/external-systems.md#response-time) in plaats van de standaarddienst.
+
 
 ## Best practices{#custom-action-enhancements-best-practices}
 
@@ -151,7 +156,7 @@ Adobe Journey Optimizer biedt standaard ondersteuning voor TLS 1.3 voor aangepas
 
 U kunt Wederzijdse Veiligheid van de Laag van het Vervoer (mTLS) gebruiken om verbeterde veiligheid in uitgaande verbindingen aan de douaneacties van Adobe Journey Optimizer te verzekeren. mTLS is een end-to-end veiligheidsmethode voor wederzijdse authentificatie die ervoor zorgt dat beide partijen die informatie delen wie zij beweren te zijn alvorens de gegevens worden gedeeld. mTLS bevat een extra stap in vergelijking met TLS, waarin de server ook om het certificaat van de client vraagt en dit aan het einde verifieert.
 
-Wederzijdse TLS-verificatie (mTLS) wordt ondersteund in aangepaste handelingen. Er is geen extra configuratie vereist in de douaneactie of de reis om mTLS te activeren; het komt automatisch voor wanneer een mTLS-Toegelaten eindpunt wordt ontdekt. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+Wederzijdse TLS-verificatie (mTLS) wordt ondersteund in aangepaste handelingen. Er is geen extra configuratie vereist in de douaneactie of de reis om mTLS te activeren; het komt automatisch voor wanneer een mTLS-Toegelaten eindpunt wordt ontdekt. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## De parameters voor de nuttige lading definiëren {#define-the-message-parameters}
 
