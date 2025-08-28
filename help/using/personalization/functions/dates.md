@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
+source-git-commit: ed4d50cbc488fb396c4fffec21d3f0062d3fc20a
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1032'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ De functie `addDays` past een bepaalde datum met een bepaald aantal dagen aan, g
 {%= addDays(date, number) %}
 ```
 
-+++Example
++++Voorbeeld
 
 * Invoer: `{%= addDays(stringToDate("2024-11-01T17:19:51Z"),10) %}`
 * Uitvoer: `2024-11-11T17:19:51Z`
@@ -44,7 +44,7 @@ De functie `addHours` past een bepaalde datum met een bepaald aantal uren aan, g
 {%= addHours(date, number) %}
 ```
 
-+++Example
++++Voorbeeld
 
 * Invoer: `{%= addHours(stringToDate("2024-11-01T17:19:51Z"),1) %}`
 * Uitvoer: `2024-11-01T18:19:51Z`
@@ -61,7 +61,7 @@ De functie `addMinutes` past een bepaalde datum met een opgegeven aantal minuten
 {%= addMinutes(date, number) %}
 ```
 
-+++Example
++++Voorbeeld
 
 * Invoer: `{%= addMinutes(stringToDate("2024-11-01T17:59:51Z"),10) %}`
 * Uitvoer: `2024-11-01T18:09:51Z`
@@ -78,7 +78,7 @@ De functie `addMonths` past een bepaalde datum met een bepaald aantal maanden aa
 {%= addMonths(date, number) %}
 ```
 
-+++Example
++++Voorbeeld
 
 * Invoer: `{%= addMonths(stringToDate("2024-11-01T17:19:51Z"),2) %}`
 * Uitvoer: `2025-01-01T17:19:51Z`
@@ -95,7 +95,7 @@ In `addSeconds` wordt een bepaalde datum met een opgegeven aantal seconden aange
 {%= addSeconds(date, number) %}
 ```
 
-+++Example
++++Voorbeeld
 
 * Invoer: `{%= addSeconds(stringToDate("2024-11-01T17:19:51Z"),10) %}`
 * Uitvoer: `2024-11-01T17:20:01Z`
@@ -112,7 +112,7 @@ In `addYears` wordt een bepaalde datum met een opgegeven aantal jaren aangepast 
 {%= addYears(date, number) %}
 ```
 
-+++Example
++++Voorbeeld
 
 * Invoer: `{%= addYears(stringToDate("2024-11-01T17:19:51Z"),2) %}`
 * Uitvoer: `2026-11-01T17:19:51Z`
@@ -149,9 +149,9 @@ De functie `ageInDays` berekent de leeftijd van een bepaalde datum in dagen, d.w
 {%= ageInDays(date) %}
 ```
 
-+++Example
++++Voorbeeld
 
-currentDate = 2025-01-07T12 :17: 10.720122+05:30 (Azië/Kolkata)
+currentDate = 2025-01-07T12 :17: 10.720122+05 :30 (Azië/Kolkata)
 
 * Invoer: `{%= ageInDays(stringToDate("2025-01-01T17:19:51Z"))%}`
 * Uitvoer: `5`
@@ -168,9 +168,9 @@ De functie `ageInMonths` berekent de leeftijd van een bepaalde datum in maanden,
 {%= ageInMonths(date) %}
 ```
 
-+++Example
++++Voorbeeld
 
-currentDate = 2025-01-07T12 :22: 46.993748+05:30 (Azië/Kolkata)
+currentDate = 2025-01-07T12 :22: 46.993748+05 :30 (Azië/Kolkata)
 
 * Invoer: `{%=ageInMonths(stringToDate("2024-01-01T00:00:00Z"))%}`
 * Uitvoer: `12`
@@ -187,7 +187,7 @@ De functie `compareDates` vergelijkt de eerste invoerdatum met de andere. Retour
 {%= compareDates(date1, date2) %}
 ```
 
-+++Example
++++Voorbeeld
 
 * Invoer: `{%=compareDates(stringToDate("2024-12-02T00:00:00Z"), stringToDate("2024-12-03T00:00:00Z"))%}`
 * Uitvoer: `-1`
@@ -204,7 +204,7 @@ De functie `convertZonedDateTime` zet een datum-tijd om in een bepaalde tijdzone
 {%= convertZonedDateTime(dateTime, timezone) %}
 ```
 
-+++Example
++++Voorbeeld
 
 * Invoer: `{%=convertZonedDateTime(stringToDate("2019-02-19T08:09:00Z"), "Asia/Tehran")%}`
 * Uitvoer: `2019-02-19T11:39+03:30[Asia/Tehran]`
@@ -261,7 +261,7 @@ De `dayOfWeek` retourneert het getal dat de dag van de maand vertegenwoordigt.
 {%= dayOfMonth(datetime) %}
 ```
 
-+++Example
++++Voorbeeld
 
 * Invoer: `{%= dayOfMonth(stringToDate("2024-11-05T17:19:51Z")) %}`
 * Uitvoer: `5`
@@ -319,7 +319,7 @@ De functie `diffInSeconds` retourneert het verschil tussen twee datums in second
 {%= diffInSeconds(endDate, startDate) %}
 ```
 
-+++Example
++++Voorbeeld
 
 * Invoer: `{%=diffInSeconds(stringToDate("2024-11-01T17:19:51Z"), stringToDate("2024-11-01T17:19:01Z"))%}`
 * Uitvoer: `50`
@@ -336,7 +336,7 @@ De functie `extractHours` extraheert de uurcomponent uit een bepaald tijdstempel
 {%= extractHours(date) %}
 ```
 
-+++Example
++++Voorbeeld
 
 * Invoer: `{%= extractHours(stringToDate("2024-11-01T17:19:51Z"))%}`
 * Uitvoer: `17`
@@ -353,7 +353,7 @@ De functie `extractMinutes` extraheert de component minute uit een bepaald tijds
 {%= extractMinutes(date) %}
 ```
 
-+++Example
++++Voorbeeld
 
 * Invoer: `{%= extractMinute(stringToDate("2024-11-01T17:19:51Z"))%}`
 * Uitvoer: `19`
@@ -370,7 +370,7 @@ De functie `extractMonth` extraheert de component month uit een opgegeven tijdst
 {%= extractMonths(date) %}
 ```
 
-+++Example
++++Voorbeeld
 
 * Invoer: `{%=extractMonth(stringToDate("2024-11-01T17:19:51Z"))%}`
 * Uitvoer: `11`
@@ -387,7 +387,7 @@ De functie `extractSeconds` extraheert de tweede component uit een bepaald tijds
 {%= extractSeconds(date) %}
 ```
 
-+++Example
++++Voorbeeld
 
 * Invoer: `{%=extractSeconds(stringToDate("2024-11-01T17:19:51Z"))%}`
 * Uitvoer: `51`
@@ -410,7 +410,7 @@ Waar de eerste tekenreeks het datumkenmerk is en de tweede waarde hoe u de datum
 >
 > Als een datumpatroon ongeldig is, wordt de datum teruggezet naar de ISO-standaardindeling.
 >
-> U kunt de datum die functies gebruiken Java zoals samengevat in [ documentatie van het Oracle ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html) {_blank}
+> U kunt de datum die functies gebruiken Java zoals samengevat in [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **Voorbeeld**
 
@@ -436,16 +436,16 @@ Waar de eerste tekenreeks het datumkenmerk is, is de tweede waarde hoe u de datu
 >
 > Als een datumpatroon ongeldig is, wordt de datum teruggezet naar de ISO-standaardindeling.
 >
-> U kunt de datum het formatteren functies van Java zoals samengevat in [ documentatie van het Oracle ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html) gebruiken.
+> U kunt de datum het formatteren functies van Java zoals samengevat in [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html) gebruiken.
 >
-> U kunt het formatteren en geldige scènes gebruiken zoals samengevat in [ documentatie van het Oracle ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) en [ Gesteunde scènes ](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+> U kunt het formatteren en geldige scènes gebruiken zoals samengevat in [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) en [ Gesteunde scènes ](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
 
 **Voorbeeld**
 
-De volgende bewerking retourneert de datum in de volgende notatie: MM/DD/YY en landinstelling FRANKRIJK.
+De volgende bewerking retourneert de datum in de volgende notatie: MM/dd/YY en landinstelling FRANKRIJK.
 
 ```sql
-{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY", "fr_FR") %}
+{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY", "fr_FR") %}
 ```
 
 ## Get CurrentZonedDateTime {#get-current-zoned-date-time}
@@ -458,7 +458,7 @@ De functie `getCurrentZonedDateTime` retourneert de huidige datum en tijd met in
 {%= getCurrentZonedDateTime() %}
 ```
 
-+++Example
++++Voorbeeld
 
 * Invoer: `{%= getCurrentZonedDateTime() %}`
 * Uitvoer: `2024-12-06T17:22:02.281067+05:30[Asia/Kolkata]`
@@ -475,7 +475,7 @@ De functie `diffInHours` retourneert het verschil tussen twee datums in termen v
 {%= diffInHours(endDate, startDate) %}
 ```
 
-+++Example
++++Voorbeeld
 
 * Invoer: `{%= diffInHours(stringToDate("2024-11-01T17:19:51Z"), stringToDate("2024-11-01T07:19:51Z"))%}`
 * Uitvoer: `10`
@@ -492,7 +492,7 @@ De functie `diffInMinutes` wordt gebruikt om het verschil tussen twee datums in 
 {%= diffInMinutes(endDate, startDate) %}
 ```
 
-+++Example
++++Voorbeeld
 
 * Invoer: `{%= diffInMinutes(stringToDate("2024-11-01T17:19:51Z"), stringToDate("2024-11-01T16:19:51Z"))%}`
 * Uitvoer: `60`
@@ -509,7 +509,7 @@ De functie `diffInMonths` retourneert het verschil tussen twee datums in termen 
 {%= diffInMonths(endDate, startDate) %}
 ```
 
-+++Example
++++Voorbeeld
 
 * Invoer: `{%=diffInMonths(stringToDate("2024-11-01T17:19:51Z"), stringToDate("2024-08-01T17:19:51Z"))%}`
 * Uitvoer: `3`
@@ -566,7 +566,7 @@ De functie `ToDateTime` zet een tekenreeks om in datum. De epochdatum wordt gere
 {%= toDateTime(string, string) %}
 ```
 
-+++Example
++++Voorbeeld
 
 * Invoer: `{%=toDateTime("2024-11-01T17:19:51Z")%}`
 * Uitvoer: `2024-11-01T17:19:51Z`
@@ -595,7 +595,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Korten naar begin van dag {#truncate-day}
 
-De functie `truncateToStartOfDay` wordt gebruikt om een bepaalde datum-tijd te wijzigen door het te plaatsen aan het begin van de dag met de tijd die aan 00:00 wordt geplaatst.
+De `truncateToStartOfDay` functie wordt gebruikt om een bepaalde datum-tijd te wijzigen door het aan het begin van de dag met de tijd te plaatsen die aan 00 :00 wordt geplaatst.
 
 **Syntaxis**
 
@@ -603,7 +603,7 @@ De functie `truncateToStartOfDay` wordt gebruikt om een bepaalde datum-tijd te w
 {%= truncateToStartOfDay(date) %}
 ```
 
-+++Example
++++Voorbeeld
 
 * Invoer: `{%= truncateToStartOfDay(stringToDate("2024-11-01T17:19:51Z")) %}`
 * Uitvoer: `2024-11-01T00:00Z`
@@ -612,7 +612,7 @@ De functie `truncateToStartOfDay` wordt gebruikt om een bepaalde datum-tijd te w
 
 ## truncateToStartOfQuarter {#truncate-quarter}
 
-De functie `truncateToStartOfQuarter` wordt gebruikt om een datum-tijd tot de eerste dag van zijn kwart (b.v., Jan 1, Apr 1, jul 1, okt 1) om 00:00 af te kappen.
+De functie `truncateToStartOfQuarter` wordt gebruikt om een datum-tijd tot de eerste dag van zijn kwart (b.v., 1 Jan, 1 Apr, 1 jul, 1 okt 1) om 00 te beknotten :00.
 
 **Syntaxis**
 
@@ -620,7 +620,7 @@ De functie `truncateToStartOfQuarter` wordt gebruikt om een datum-tijd tot de ee
 {%= truncateToStartOfQuarter(dateTime) %}
 ```
 
-+++Example
++++Voorbeeld
 
 * Invoer: `{%=truncateToStartOfQuarter(stringToDate("2024-11-01T17:19:51Z"))%}`
 * Uitvoer: `2024-10-01T00:00Z`
@@ -629,7 +629,7 @@ De functie `truncateToStartOfQuarter` wordt gebruikt om een datum-tijd tot de ee
 
 ## truncateToStartOfWeek {#truncate-week}
 
-De functie `truncateToStartOfWeek` wijzigt een bepaalde datum-tijd door het aan het begin van de week (Maandag om 00:00) te plaatsen.
+De functie `truncateToStartOfWeek` wijzigt een bepaalde datum-tijd door het aan het begin van de week (Maandag bij 00 :00 te plaatsen).
 
 **Syntaxis**
 
@@ -637,7 +637,7 @@ De functie `truncateToStartOfWeek` wijzigt een bepaalde datum-tijd door het aan 
 {%= truncateToStartOfWeek(dateTime) %}
 ```
 
-+++Example
++++Voorbeeld
 
 * Invoer: `truncateToStartOfWeek(stringToDate("2024-11-19T17:19:51Z"))%} // tuesday`
 * Uitvoer: `2024-11-18T00:00Z // monday`
@@ -646,7 +646,7 @@ De functie `truncateToStartOfWeek` wijzigt een bepaalde datum-tijd door het aan 
 
 ## truncateToStartOfYear {#truncate-year}
 
-De functie `truncateToStartOfYear` wordt gebruikt om een bepaalde datum-tijd te wijzigen door het te beknotten aan de eerste dag van het jaar (1 januari) om 00:00.
+De `truncateToStartOfYear` functie wordt gebruikt om een bepaalde datum-tijd te wijzigen door het te beknotten aan de eerste dag van het jaar (Januari 1) bij 00 :00.
 
 **Syntaxis**
 
@@ -654,7 +654,7 @@ De functie `truncateToStartOfYear` wordt gebruikt om een bepaalde datum-tijd te 
 {%= truncateToStartOfYear(dateTime) %}
 ```
 
-+++Example
++++Voorbeeld
 
 * Invoer: `{%=truncateToStartOfYear(stringToDate("2024-11-01T17:19:51Z"))%}`
 * Uitvoer: `2024-01-01T00:00Z`
@@ -691,7 +691,7 @@ De functie `diffInYears` wordt gebruikt om het verschil tussen twee datums in te
 {%= diffInYears(endDate, startDate) %}: int
 ```
 
-+++Example
++++Voorbeeld
 
 * Invoer: `{%=diffInYears(stringToDate("2024-11-01T17:19:51Z"), stringToDate("2019-10-01T17:19:51Z"))%}`
 * Uitvoer: `5`
