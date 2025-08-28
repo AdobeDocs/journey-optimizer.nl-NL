@@ -6,9 +6,9 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
+source-git-commit: ff3511e55eb56d8d5448df6d5de92dfd29ea8718
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,43 @@ Het ontwerpconcept voor kaarten biedt een op formulieren gebaseerde ontwerpervar
 
 Nadat de inhoud is gedefinieerd en gepersonaliseerd, kunt u deze controleren en activeren. Uw campagne wordt verzonden volgens het ingestelde schema. [ leer meer op deze pagina ](../campaigns/review-activate-campaign.md).
 
+## Inhoudskaartlay-out
+
+![](assets/content-card-image.png)
+
+Kies in de sectie **[!UICONTROL Content card layout]** een van de drie opties voor de lay-out van afbeeldingen op basis van uw berichtvereisten.
+
+* **[!UICONTROL Small image]**: geeft naast tekst een compacte afbeelding weer, ideaal voor berichten waarin inhoud voorrang heeft op visuele aspecten.
+
+* **[!UICONTROL Large image]**: kenmerkt een opvallende afbeelding boven of naast de tekst, waardoor de visuele focus van uw bericht komt te liggen.
+
+* **[!UICONTROL Image only]**: geeft de afbeelding weer zonder bijbehorende tekst, perfect voor visuele berichten of zelfstandige afbeeldingen.
+
 ## Inhoud, tabblad {#content-tab}
 
-Via het tabblad **[!UICONTROL Content]** kunt u uw inhoudskaarten aanpassen door zowel de inhoud als het ontwerp van de knop **[!UICONTROL Close]** te definiëren. Bovendien kunt u de inhoud verbeteren met media en rechtstreeks vanuit dit tabblad actieknoppen toevoegen.
+Via het tabblad **[!UICONTROL Content]** kunt u uw inhoudskaarten aanpassen door inhoud te definiëren en media en actieknoppen rechtstreeks vanuit dit tabblad toe te voegen.
+
+### Tekstinhoud {#title-body}
+
+Als u uw bericht wilt samenstellen, voert u de tekst in de velden **[!UICONTROL Title]** en **[!UICONTROL Body]** in.
+
+![](assets/content-card-design-2.png)
+
+Als u uw bericht verder wilt aanpassen, gebruikt u het pictogram **[!UICONTROL Personalization]** om gepersonaliseerde elementen toe te voegen. Voor gedetailleerde instructies op hoe te om de verpersoonlijkingseigenschappen te gebruiken, verwijs naar [ deze sectie ](../personalization/personalize.md).
+
+### Media {#add-media}
+
+Met het veld **[!UICONTROL Media]** kunt u uw inhoudskaarten verbeteren door media toe te voegen, waardoor uw presentatie aantrekkelijker kan worden voor eindgebruikers.
+
+![](assets/content-card-design-3.png)
+
+Als u media wilt opnemen, typt u de gewenste media in de URL of klikt u op het pictogram **[!UICONTROL Select Assets]** om te kiezen uit de elementen die zijn opgeslagen in de Assets-bibliotheek. [ Leer meer over activabeheer ](../integrations/assets.md).
+
++++Meer opties met geavanceerde opmaak
+
+Als de **[!UICONTROL Advanced formatting mode]** is ingeschakeld, kunt u een **[!UICONTROL Alternative text]** voor schermlezingstoepassing en een ander element in het **[!UICONTROL Dark Mode Media URL]** -veld toevoegen.
+
++++
 
 ### Knop Sluiten {#close-button}
 
@@ -35,13 +69,7 @@ U kunt uit de volgende stijlen selecteren:
 * **[!UICONTROL Simple]**
 * **[!UICONTROL Circle]**
 
-### Inhoud {#title-body}
 
-Als u uw bericht wilt samenstellen, voert u de tekst in de velden **[!UICONTROL Title]** en **[!UICONTROL Body]** in.
-
-![](assets/content-card-design-2.png)
-
-Als u uw bericht verder wilt aanpassen, gebruikt u het pictogram **[!UICONTROL Personalization]** om gepersonaliseerde elementen toe te voegen. Voor gedetailleerde instructies op hoe te om de verpersoonlijkingseigenschappen te gebruiken, verwijs naar [ deze sectie ](../personalization/personalize.md).
 
 <!--
 +++More options with advanced formatting
@@ -55,21 +83,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 +++
 -->
 
-### Media {#add-media}
 
-Met het veld **[!UICONTROL Media]** kunt u uw inhoudskaarten verbeteren door media toe te voegen, waardoor uw presentatie aantrekkelijker kan worden voor eindgebruikers.
-
-![](assets/content-card-design-3.png)
-
-Als u media wilt opnemen, typt u de gewenste media in de URL of klikt u op het pictogram **[!UICONTROL Select Assets]** om te kiezen uit de elementen die zijn opgeslagen in de Assets-bibliotheek. [ Leer meer over activabeheer ](../integrations/assets.md).
-
-<!--
-+++More options with advanced formatting
-
-If the **[!UICONTROL Advanced formatting mode]** is switched on, you can add an **[!UICONTROL Alternative text]** for screen reading applications and another asset in the **[!UICONTROL Dark Mode Media URL]** field.
-
-+++
--->
 
 ### Knoppen {#add-buttons}
 
