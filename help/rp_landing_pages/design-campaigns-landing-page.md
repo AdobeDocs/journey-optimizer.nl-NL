@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Gecontroleerde campagnes
-description: Gecontroleerde campagnes
+title: Geordende campagnes
+description: Geordende campagnes
 redpen-status: CREATED_||_2025-08-11_20-27-08
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: d6635d58-b618-4d92-b60f-c6fc63e473a6
+source-git-commit: 4270fbfb191700704d161f472abf62f7af79c208
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
 
 ---
 
-
-# Gecontroleerde campagnes{#section-overview}
+# Geordende campagnes{#section-overview}
 
 Met geordende campagneactiviteiten in Adobe Journey Optimizer kunt u naadloze, gegevensgestuurde marketingreizen ontwerpen die op het juiste moment en via de juiste kanalen verbinding maken met uw publiek. Door het richten, kanaal, en de activiteiten van de debietcontrole te combineren, kunt u nauwkeurige publiekssegmenten bepalen, berichten personaliseren, en complexe werkschema&#39;s automatiseren. Of u nu publiek maakt, campagnevertakkingen synchroniseert of vertragingen toevoegt voor een perfecte timing, deze activiteiten werken samen om de uitvoering van uw campagne te stroomlijnen. Met hulpmiddelen zoals Verrijking voor gegevensverbetering of Splitsen voor publiekssegmentatie, zult u een flexibele toolkit hebben om betekenisvolle, oneigenlijke klantenervaringen tot stand te brengen.
 
@@ -20,7 +20,7 @@ Met geordende campagneactiviteiten in Adobe Journey Optimizer kunt u naadloze, g
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Werken met geordende campagneactiviteiten
 
@@ -30,7 +30,7 @@ Leer over het richten, kanaal, en stroom controleactiviteiten om georkestreerde 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Het gebruiken van EN sluit zich aan bij Activiteit
 
@@ -40,7 +40,7 @@ Synchroniseer veelvoudige uitvoeringstakken door voorafgaande taken te verzekere
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Activiteit publiek maken
 
@@ -50,7 +50,7 @@ Bepaal en vorm publiekssegmenten voor uw campagnes gebruikend de het publieksact
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Dimensieactiviteit wijzigen
 
@@ -60,7 +60,7 @@ Verbeter het richten door tussen gegevensentiteiten binnen uw campagne te versch
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Kanaalactiviteiten
 
@@ -70,7 +70,7 @@ Stel e-mail, SMS, pushberichten en direct mail in voor interkanaals orchestratie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Activiteiten combineren
 

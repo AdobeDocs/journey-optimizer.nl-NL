@@ -5,7 +5,7 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
+source-git-commit: 4270fbfb191700704d161f472abf62f7af79c208
 workflow-type: tm+mt
 source-wordcount: '2889'
 ht-degree: 19%
@@ -254,8 +254,8 @@ ht-degree: 19%
          + [Uw eerste regel samenstellen](using/orchestrated/build-query.md)
          + [Expressies bewerken](using/orchestrated/edit-expressions.md)
          + [Opnieuw rangschikken](using/orchestrated/retarget.md)
-      + Gecontroleerde campagnes {#design-campaigns}
-         + [Gecontroleerde campagnes](/help/rp_landing_pages/design-campaigns-landing-page.md)
+      + Geordende campagnes {#design-campaigns}
+         + [Geordende campagnes](/help/rp_landing_pages/design-campaigns-landing-page.md)
          + [Aan de slag met activiteiten](using/orchestrated/activities/about-activities.md)
          + [En-join](using/orchestrated/activities/and-join.md)
          + [publiek opbouwen](using/orchestrated/activities/build-audience.md)
@@ -859,7 +859,7 @@ ht-degree: 19%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
