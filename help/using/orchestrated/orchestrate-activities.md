@@ -4,9 +4,9 @@ product: journey optimizer
 title: Geordende campagnes maken met Adobe Journey Optimizer
 description: Leer hoe u met Adobe Journey Optimizer geordende campagnes kunt maken
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '877'
 ht-degree: 0%
 
 ---
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 # Campagne organiseren {#orchestrate}
 
-Zodra u [ een Geordende campagne ](gs-campaign-creation.md) hebt gecreeerd, kunt u beginnen de verschillende taken te ordenen het zal uitvoeren. Hiervoor wordt een visueel canvas verschaft, zodat u een geordend campagnediagram kunt maken. Binnen dit diagram, kunt u diverse activiteiten toevoegen en hen in een opeenvolgende orde verbinden.
+Zodra u [ een Geordende campagne ](gs-campaign-creation.md) hebt gecreeerd, kunt u beginnen de verschillende taken te ordenen het zal uitvoeren. Hiervoor is een visueel canvas beschikbaar, waarmee u een geordend campagnecanvas kunt maken. Binnen dit canvas kunt u verschillende activiteiten toevoegen en deze in een opeenvolgende volgorde verbinden.
 
 ## Activiteiten toevoegen {#add}
 
-In dit stadium van de configuratie, wordt het diagram getoond met een beginpictogram, dat het begin van uw Geordende campagne vertegenwoordigt. Als u uw eerste activiteit wilt toevoegen, klikt u op de knop **+** die is verbonden met het beginpictogram.
+In dit stadium van de configuratie, wordt het Geordende campagnecanvas getoond met een beginpictogram, dat het begin van uw Geordende campagne vertegenwoordigt. Als u uw eerste activiteit wilt toevoegen, klikt u op de knop **+** die is verbonden met het beginpictogram.
 
-Er wordt een lijst met activiteiten weergegeven die aan het diagram kunnen worden toegevoegd. De beschikbare activiteiten hangen af van uw positie binnen het geordende campagnediagram. Bijvoorbeeld, wanneer het toevoegen van uw eerste activiteit, kunt u uw Geordende campagne beginnen door een publiek te richten, het Geordende campagneweg te splitsen, of a **te plaatsen wacht** activiteit om de Geordende campagneuitvoering te vertragen. Anderzijds, na a **bouwt publiek** activiteit, kunt u uw doel met het richten van activiteiten verfijnen, een levering naar uw publiek met kanaalactiviteiten verzenden, of het Geordende campagneproces met de activiteiten van de stroomcontrole organiseren.
+Er wordt een lijst weergegeven met activiteiten die kunnen worden toegevoegd aan het canvas voor geordende campagnes. De beschikbare activiteiten zijn afhankelijk van uw positie binnen het geordende campagnecanvas. Bijvoorbeeld, wanneer het toevoegen van uw eerste activiteit, kunt u uw Geordende campagne beginnen door een publiek te richten, het Geordende campagneweg te splitsen, of a **te plaatsen wacht** activiteit om de Geordende campagneuitvoering te vertragen. Anderzijds, na a **bouwt publiek** activiteit, kunt u uw doel met het richten van activiteiten verfijnen, een levering naar uw publiek met kanaalactiviteiten verzenden, of het Geordende campagneproces met de activiteiten van de stroomcontrole organiseren.
 
 ![](assets/orchestrated-start.png){zoomable="yes"}
 
-Zodra een activiteit aan het diagram is toegevoegd, verschijnt een juiste ruit, toestaand u om het met specifieke montages te vormen. De gedetailleerde informatie over hoe te om elke activiteit te vormen is beschikbaar in [ deze sectie ](activities/about-activities.md).
+Nadat een activiteit aan het canvas is toegevoegd, wordt er een rechterdeelvenster weergegeven waarmee u het kunt configureren met specifieke instellingen. De gedetailleerde informatie over hoe te om elke activiteit te vormen is beschikbaar in [ deze sectie ](activities/about-activities.md).
 
 ![](assets/orchestrated-configure-activities.png){zoomable="yes"}
 
@@ -60,7 +60,7 @@ Wanneer u activiteiten toevoegt, zijn er actieknoppen beschikbaar in het deelven
 
 ![ onbruikbaar maken pictogram ](assets/do-not-localize/activity-disable.svg) ![ laat pictogram ](assets/do-not-localize/activity-enable.svg) onbruikbaar maken/laat de activiteit toe. Wanneer de geordende campagne wordt uitgevoerd, worden activiteiten met een handicap en de volgende activiteiten op hetzelfde pad niet uitgevoerd en wordt de geordende campagne gestopt.
 
-&lbrace;het pictogram van de Pauze ![ ](assets/do-not-localize/activity-pause.svg) hervatten pictogram ![ Pauze/hervat de activiteit. ](assets/do-not-localize/activity-resume.svg) Wanneer de Geordende campagne wordt uitgevoerd, pauzeert het bij de gepauzeerde activiteit. De bijbehorende taak en alle taken die deze in hetzelfde pad volgen, worden niet uitgevoerd.
+{het pictogram van de Pauze ![ ](assets/do-not-localize/activity-pause.svg) hervatten pictogram ![ Pauze/hervat de activiteit. ](assets/do-not-localize/activity-resume.svg) Wanneer de Geordende campagne wordt uitgevoerd, pauzeert het bij de gepauzeerde activiteit. De bijbehorende taak en alle taken die deze in hetzelfde pad volgen, worden niet uitgevoerd.
 
 U kunt elke activiteit op het canvas gebruiken als onderbrekingspunt om de uitvoering van de campagne te pauzeren. Dit betekent dat de campagne alleen wordt uitgevoerd totdat deze activiteit plaatsvindt en dat de uitvoering vervolgens wordt gepauzeerd. Terwijl het pauzeren van de uitvoering, houdt de segmenteringsmotor tijdelijke gegevens beschikbaar voor u aan voorproef. U kunt de binnenkomende overgang net voor de gepauzeerde activiteit selecteren om de getransplanteerde gegevens te bekijken. Leer meer op deze sectie: [ Visuele stroom controle ](../orchestrated/start-monitor-campaigns.md#flow)
 
@@ -85,7 +85,7 @@ Als u de activiteiten wilt plakken, klikt u op de knop **+** in een overgang en 
 
 ![](assets/orchestrated-copy-3.png){zoomable="yes"}{width="50%"}
 
-## Voorbeeld van diagram {#example}
+## Canvas-voorbeeld {#example}
 
 Hier is een geordend campagnevoorbeeld dat wordt ontworpen om een e-mail naar alle klanten te verzenden die een aankoop van minstens 100 $ hebben gemaakt, terwijl het uitsluiten van alle klanten die minder dan 50 loyaliteitspunten hebben.
 
@@ -106,4 +106,4 @@ Hiervoor zijn de volgende activiteiten toegevoegd:
 
 ## Volgende stappen {#next}
 
-Nadat u het geordende campagnediagram hebt ontworpen, kunt u de geordende campagne uitvoeren en de voortgang van de verschillende taken volgen. [ Leer hoe te om een Geordende campagne te beginnen en zijn uitvoering te controleren ](start-monitor-campaigns.md)
+Nadat het ontwerpen van het geordende campagneccanvas is voltooid, kunt u de geordende campagne uitvoeren en de voortgang van de verschillende taken volgen. [ Leer hoe te om een Geordende campagne te beginnen en zijn uitvoering te controleren ](start-monitor-campaigns.md)

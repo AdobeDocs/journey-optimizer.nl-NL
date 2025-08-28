@@ -5,7 +5,7 @@ title: Aan de slag met georkestreerde campagnes
 description: Meer informatie over hoe u aan de slag kunt gaan met georkestreerde campagnes
 short-description: Ontdek de belangrijkste kenmerken en gebruiksscenario's van georkestreerde campagnes.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 4510cfde1579fbabe7deb1289f70f13ee21a3d4a
+source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 4%
@@ -64,9 +64,9 @@ Het geordende campagnecanvas is een voorstelling van wat er moet gebeuren. Hieri
 
 Elke geordende campagne bevat:
 
-* **Activiteiten**: Een activiteit is een uit te voeren taak. De verschillende activiteiten worden op het diagram weergegeven door pictogrammen. Elke activiteit heeft specifieke eigenschappen en andere eigenschappen die voor alle activiteiten gemeenschappelijk zijn.
+* **Activiteiten**: Een activiteit is een uit te voeren taak. De verschillende activiteiten worden op het canvas vertegenwoordigd door pictogrammen. Elke activiteit heeft specifieke eigenschappen en andere eigenschappen die voor alle activiteiten gemeenschappelijk zijn.
 
-  In een geordend campagnediagram, kan een bepaalde activiteit veelvoudige taken veroorzaken, in het bijzonder wanneer er een lijn of terugkerende acties is.
+  In een geordend campagnecanvas kan een bepaalde activiteit veelvoudige taken veroorzaken, in het bijzonder wanneer er een lijn of terugkomende acties is.
 
 * **Overgangen**: De overgangen verbinden een bronactiviteit met een bestemmingsactiviteit en bepalen hun opeenvolging.
 
