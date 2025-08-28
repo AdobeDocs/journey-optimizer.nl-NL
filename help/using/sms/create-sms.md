@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 12dbe0031e9037d879e0d2309c7c26cc3c00cc4e
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 2%
@@ -35,7 +35,7 @@ Blader op de onderstaande tabbladen om te leren hoe u een tekstbericht (SMS/MMS/
 
 >[!BEGINTABS]
 
->[!TAB voeg een tekstbericht aan een Reis  toe]
+>[!TAB  voeg een tekstbericht aan een Reis ] toe
 
 1. Open uw reis dan belemmering en laat vallen een activiteit van SMS van de **sectie van Acties** van het palet.
 
@@ -129,7 +129,7 @@ Volg onderstaande stappen om de inhoud van uw bericht te configureren. De montag
 
    >[!CAUTION]
    >
-   > De levensduur van korte URL&#39;s is ingesteld op 15 dagen. Na deze periode zijn deze korte URL&#39;s niet meer toegankelijk en wordt het bericht `404 short-code not found` weergegeven.
+   > De levensduur van korte URL&#39;s is ingesteld op 30 dagen. Na deze periode zijn deze korte URL&#39;s niet meer toegankelijk en wordt het bericht `404 short-code not found` weergegeven.
 
 1. Klik op **[!UICONTROL Save]** en controleer uw bericht in de voorvertoning. U kunt nu uw berichtinhoud zoals die in [ wordt gedetailleerd deze sectie ](#sms-mms-test) testen en controleren.
 

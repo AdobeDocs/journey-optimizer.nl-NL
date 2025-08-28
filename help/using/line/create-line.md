@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
-source-git-commit: 81cd7c2c8be26d760f369ecacc5859cf090234fc
+source-git-commit: 12dbe0031e9037d879e0d2309c7c26cc3c00cc4e
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '616'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Blader op de onderstaande tabbladen om te leren hoe u een LINE-bericht kunt toev
 
 >[!BEGINTABS]
 
->[!TAB voeg een bericht van de LIJN aan een Reis  toe]
+>[!TAB  voeg een bericht van de LIJN aan een Reis ] toe
 
 1. Open uw reis dan belemmering en laat vallen a **LIJN** activiteit van de **sectie van Acties** van het palet.
 
@@ -77,6 +77,18 @@ U kunt nu de inhoud van uw tekstbericht ontwerpen via de knop **[!UICONTROL Edit
 >[!ENDTABS]
 
 ## Regelinhoud definiëren{#line-content}
+
+Adobe Journey Optimizer ondersteunt de volgende berichttypen voor LINE:
+
+* **Tekst**: Verzend duidelijke of geformatteerde tekstberichten.
+* **Stickers**: Bouw inheemse stickers van de LIJN op om karakter en uitdrukkingskracht toe te voegen.
+* **Beelden**: Maak beelden vast om visueel beroep te verbeteren.
+* **Video&#39;s**: Deel videoinhoud voor dynamische mededeling.
+* **Plaatsen**: Verzend plaatsinformatie met kaarten.
+* **Malplaatjes**: Gebruik vooraf bepaalde malplaatjes voor verenigbaar overseinen.
+* **de Berichten van Flex**: Creeer complexe lay-outs met rijke inhoud gebruikend op JSON-Gebaseerde Berichten van Flex.
+
+Deze berichttypes kunnen worden gevormd door de inhoud te uitgeven JSON direct, toestaand voor dynamische en gepersonaliseerde overseinenstrategieën.
 
 Volg onderstaande stappen om uw LIJNinhoud te configureren.
 
