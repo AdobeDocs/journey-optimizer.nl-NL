@@ -23,7 +23,7 @@ Blader op de onderstaande tabbladen om te leren hoe u een LINE-bericht kunt toev
 
 >[!BEGINTABS]
 
->[!TAB  voeg een bericht van de LIJN aan een Reis ] toe
+>[!TAB voeg een bericht van de LIJN aan een Reis  toe]
 
 1. Open uw reis dan belemmering en laat vallen a **LIJN** activiteit van de **sectie van Acties** van het palet.
 
