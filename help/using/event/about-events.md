@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: gebeurtenissen, gebeurtenis, reis, definitie, begin
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 3764d7eebbe304e0773fa329db2755342ce64c85
+source-git-commit: 461bf985a890d0f2f2723241846df0666248eea0
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1075'
 ht-degree: 23%
 
 ---
@@ -36,7 +36,7 @@ U kunt twee soorten gebeurtenissen vormen: **Eenheids gebeurtenissen** en **Bedr
 
 ## Unitaire gebeurtenissen {#unitary-events}
 
-**de gebeurtenissen van 0&rbrace; Eenheids &lbrace;worden verbonden aan een persoon.** Ze hebben betrekking op het gedrag van een persoon (bijvoorbeeld een persoon kocht een product, bezocht een winkel, verlaat een website, enz.) of iets dat met een persoon verband houdt (bijvoorbeeld een persoon bereikte 10.000 loyaliteitspunten). Dit is waar [!DNL Journey Optimizer] tijdens reizen naar luistert om de beste volgende acties te ordenen. Uniforme gebeurtenissen kunnen op regels zijn gebaseerd of door het systeem worden gegenereerd. Leren hoe te om een eenheidsgebeurtenis tot stand te brengen, verwijs naar deze [ pagina ](../event/about-creating.md).
+**de gebeurtenissen van 0} Eenheids {worden verbonden aan een persoon.** Ze hebben betrekking op het gedrag van een persoon (bijvoorbeeld een persoon kocht een product, bezocht een winkel, verlaat een website, enz.) of iets dat met een persoon verband houdt (bijvoorbeeld een persoon bereikte 10.000 loyaliteitspunten). Dit is waar [!DNL Journey Optimizer] tijdens reizen naar luistert om de beste volgende acties te ordenen. Uniforme gebeurtenissen kunnen op regels zijn gebaseerd of door het systeem worden gegenereerd. Leren hoe te om een eenheidsgebeurtenis tot stand te brengen, verwijs naar deze [ pagina ](../event/about-creating.md).
 
 Eenheidstrajecten (te beginnen met een evenement of een kwalificatie van het publiek) bevatten een begeleidend element dat voorkomt dat ritten bij dezelfde gebeurtenis meerdere keren ten onrechte worden gestart. De ingang van het profiel wordt tijdelijk geblokkeerd door gebrek gedurende 5 minuten. Bijvoorbeeld, als een gebeurtenis een reis bij 12 :01 voor een specifiek profiel teweegbrengt en een andere bij 12 :03 aankomt (of het de zelfde gebeurtenis of verschillende is die de zelfde reis teweegbrengen) die reis niet opnieuw voor dit profiel zal beginnen.
 
@@ -55,7 +55,7 @@ Voor **unitaire** gebeurtenissen, zijn er twee soorten gebeurtenisidentiteitskaa
 
   >[!CAUTION]
   >
-  >Een beperkingsregel wordt bepaald voor op regels gebaseerde gebeurtenissen. Het beperkt het aantal gekwalificeerde gebeurtenissen dat een reis tot 5.000 per seconden kan verwerken voor een bepaalde Organisatie. Het komt overeen met Journey Optimizer SLA&#39;s. Verwijs naar uw Journey Optimizer vergunning gevend en [ Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html).
+  >Een beperkingsregel wordt bepaald voor op regels gebaseerde gebeurtenissen. Het beperkt het aantal gekwalificeerde gebeurtenissen dat een reis tot 5.000 per seconden kan verwerken voor een bepaalde Organisatie. Het komt overeen met Journey Optimizer SLA&#39;s. Verwijs naar uw Journey Optimizer vergunning gevend en [ Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html).
 
 * **Door het systeem gegenereerde** gebeurtenissen: deze gebeurtenissen vereisen een eventID. Dit eventID-veld wordt automatisch gegenereerd wanneer de gebeurtenis wordt gemaakt. Het systeem dat de gebeurtenis pusht, moet geen ID genereren, het moet overgaan naar degene die in de voorvertoning van de payload beschikbaar is.
 
@@ -67,14 +67,11 @@ Voor **unitaire** gebeurtenissen, zijn er twee soorten gebeurtenisidentiteitskaa
 
 Gebeurtenissen zijn POST-API-aanroepen. Gebeurtenissen worden naar Adobe Experience Platform verzonden via de API&#39;s voor streaming-insluiting. De URL-bestemming van gebeurtenissen die via transactie-API&#39;s worden verzonden, wordt een &quot;inlet&quot; genoemd. De payload van gebeurtenissen volgt de XDM-indeling.
 
-De payload bevat informatie die vereist is voor de Streaming Ingestie-API&#39;s om te werken (in de koptekst) en de informatie die [!DNL Journey Optimizer] nodig heeft om te werken en informatie die moet worden gebruikt tijdens reizen (in het lichaam, bijvoorbeeld de hoeveelheid achtergelaten winkelwagentje). Er zijn twee modi voor streamingopname, geverifieerd en niet-geverifieerd. Raadpleeg [deze koppeling](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=nl-NL){target="_blank"}voor meer informatie over streamingopname-API’s.
+De payload bevat informatie die vereist is voor de Streaming Ingestie-API&#39;s om te werken (in de koptekst) en de informatie die [!DNL Journey Optimizer] nodig heeft om te werken en informatie die moet worden gebruikt tijdens reizen (in het lichaam, bijvoorbeeld de hoeveelheid achtergelaten winkelwagentje). Er zijn twee modi voor streamingopname, geverifieerd en niet-geverifieerd. Raadpleeg [deze koppeling](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html){target="_blank"}voor meer informatie over streamingopname-API’s.
 
 Na aankomst door Streaming Ingestie APIs, stromen de gebeurtenissen in de interne dienst genoemd Pijpleiding en dan in Adobe Experience Platform. Als in het het gebeurtenisschema de markering voor real-timeklantprofielservice is ingeschakeld en een dataset-id eveneens de markering voor real-timeklantprofiel heeft, stroomt deze naar de real-timeklantprofielservice.
 
 Voor door het systeem gegenereerde gebeurtenissen filtert de Pipeline gebeurtenissen met een lading die [!DNL Journey Optimizer] eventIDs bevat (zie het proces van de gebeurtenisverwezenlijking hieronder) die door [!DNL Journey Optimizer] wordt verstrekt en in gebeurtenislading bevat. Voor op regel-gebaseerde gebeurtenissen, identificeert het systeem de gebeurtenis gebruikend de eventID voorwaarde. Er wordt naar deze gebeurtenissen geluisterd door [!DNL Journey Optimizer] en de bijbehorende journey wordt geactiveerd.
-
-## Een gebeurtenis bijwerken en verwijderen {#update-event}
-
 
 ## Een gebeurtenis bijwerken en verwijderen {#update-event}
 
@@ -87,7 +84,7 @@ Gebeurtenissen die worden gebruikt tijdens reizen onder Live, Concepten of Geslo
 
 Leer hoe te om een gebeurtenis te vormen, specificeer het het stromen eindpunt en de lading voor een gebeurtenis.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431512?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Begrijp de toepasselijke gebruiksscenario&#39;s voor bedrijfsgebeurtenissen. Leer hoe u een journey bouwt met behulp van een bedrijfsgebeurtenis en welke aanbevolen procedures u toepast.
 
