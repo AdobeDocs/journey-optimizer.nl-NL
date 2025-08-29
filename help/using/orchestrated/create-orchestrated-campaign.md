@@ -4,9 +4,9 @@ product: journey optimizer
 title: Geordende campagnes met Journey Optimizer maken en plannen
 description: Leer hoe u een geordende campagne kunt maken en plannen met Adobe Journey Optimizer
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: a58d71b3cdb5e83f80b064673f0a6d087b7c191d
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
@@ -31,19 +31,22 @@ Voer de volgende stappen uit om een geordende campagne te maken:
 
    ![](assets/create-modal.png)
 
-1. Definieer de campagneeigenschappen. Om dit te doen, klik het ![ pictogram van de montages van de Campagne ](assets/do-not-localize/campaign-settings.svg) knoop naast de naam van de campagne.
-
-   ![](assets/inventory-create.png)
+1. Definieer de campagneeigenschappen.
 
    1. Voer een **[!UICONTROL Name]** en **[!UICONTROL Description]** in voor de campagne.
 
    1. Selecteer een **[!UICONTROL Merge policy]** voor uw campagne.
 
-      In [!DNL Adobe Experience Platform] is elk publiek gebonden aan een specifiek samenvoegbeleid, dat bepaalt hoe de profielinformatie wordt gecombineerd om een samengevoegd profiel te vormen. Wanneer u een samenvoegbeleid selecteert in de publieksactiviteit Lezen, zijn alleen publiek beschikbaar dat is gebaseerd op hetzelfde samenvoegbeleid. Standaard gebruikt het systeem het standaardsamenvoegbeleid, maar u kunt dit desgewenst wijzigen. Voor meer informatie over fusiebeleid, verwijs naar de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+      In [!DNL Adobe Experience Platform] is elk publiek gebonden aan een specifiek samenvoegbeleid, dat bepaalt hoe de profielinformatie wordt gecombineerd om een samengevoegd profiel te vormen. Wanneer u een samenvoegbeleid selecteert in de publieksactiviteit Lezen, zijn alleen publiek beschikbaar dat is gebaseerd op hetzelfde samenvoegbeleid. Standaard gebruikt het systeem het standaardsamenvoegbeleid, maar u kunt dit desgewenst wijzigen. Voor meer informatie over fusiebeleid, verwijs naar de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
    1. Gebruik het veld **[!UICONTROL Tags]** om Adobe Experience Platform Unified Tags toe te wijzen aan uw campagne. Op deze manier kunt u ze gemakkelijk classificeren en zoeken verbeteren vanuit de lijst Geordende campagnes. [ Leer hoe te met markeringen ](../start/search-filter-categorize.md#tags) te werken.
 
    1. Klik op **[!UICONTROL Save]**.
+
+
+   U kunt tot de campagneeigenschappen op elk ogenblik toegang hebben gebruikend het ![ pictogram van de montages van de Campagne ](assets/do-not-localize/campaign-settings.svg) knoop naast de naam van de campagne.
+
+   ![](assets/inventory-create.png)
 
 ## De campagne plannen {#schedule}
 
@@ -101,7 +104,7 @@ Voer de volgende stappen uit om het campagnereschema te configureren:
 
    +++
 
-   +++meerdere keren per dag
+   +++Meerdere keren per dag
 
    Voer de campagne meerdere keren uit binnen dezelfde dag. U kunt specifieke tijden kiezen of een periodieke frequentie plaatsen.
 
@@ -110,7 +113,7 @@ Voer de volgende stappen uit om het campagnereschema te configureren:
 
    +++
 
-   +++wekelijks
+   +++Wekelijks
 
    Voer de campagne wekelijks uit, met opties voor specifieke dagen.
 
