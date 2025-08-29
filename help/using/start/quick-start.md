@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: AJO Rollen en verantwoordelijkheden
-description: Leer meer over de verschillende rollen die bij Adobe Journey Optimizer zijn betrokken en over hun verantwoordelijkheden
+description: Meer informatie over de verschillende rollen voor Adobe Journey Optimizer en over hun verantwoordelijkheden
 feature: Get Started
 role: Admin, Data Engineer, Developer, User
 level: Beginner
@@ -11,7 +11,7 @@ redpen-status: PASS_||_2025-04-28_15-13-07
 source-git-commit: d2cdafef6f2d69ea85d9d042c859a8b1e7654d7d
 workflow-type: tm+mt
 source-wordcount: '634'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -94,10 +94,10 @@ Klik op de onderstaande rol voor specifieke richtlijnen die zijn afgestemd op uw
 
 Bekijk de inleidende video voor meer informatie over sleutelmogelijkheden en persona&#39;s van Journey Optimizer. De video doorloopt de gebruikersinterface en markeert belangrijke eigenschappen die op rol-specifieke workflows worden gebaseerd.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430315?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Aanvullende bronnen
 
 Verken de volgende bronnen voor diepgaander leren en updates:
 * [Release-opmerkingen](https://experienceleague.adobe.com/docs/journey-optimizer/using/rn/release-notes.html)
-* [ Video&#39;s van het Leerprogramma ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=nl-NL)
+* [ Video&#39;s van het Leerprogramma ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html)
