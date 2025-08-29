@@ -22,7 +22,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-compose"
 >title="Pas uw pushmelding aan."
->abstract="Om uw bericht samen te stellen, ga de inhoud in de **Titel** en **3} gebieden van het Lichaam in.** Als u personalisatietokens wilt opnemen, opent u het dialoogvenster voor personalisatie."
+>abstract="Om uw bericht samen te stellen, ga de inhoud in de **Titel** en **3&rbrace; gebieden van het Lichaam in.** Als u personalisatietokens wilt opnemen, opent u het dialoogvenster voor personalisatie."
 
 Klik op de velden **[!UICONTROL Title]** en **[!UICONTROL Body]** om uw bericht samen te stellen. Gebruik de verpersoonlijkingsredacteur om inhoud te bepalen, gegevens te personaliseren en dynamische inhoud toe te voegen. Leer meer over [ verpersoonlijking ](../personalization/personalize.md) en [ dynamische inhoud ](../personalization/get-started-dynamic-content.md) in de verpersoonlijkingsredacteur.
 
