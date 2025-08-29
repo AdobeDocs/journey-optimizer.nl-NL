@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
+source-git-commit: e7567a68425c8fba5fc0f0b84b494b20d9f4df89
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1442'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-compose"
 >title="Pas uw pushmelding aan."
->abstract="Om uw bericht samen te stellen, ga de inhoud in de **Titel** en **3&rbrace; gebieden van het Lichaam in.** Als u personalisatietokens wilt opnemen, opent u het dialoogvenster voor personalisatie."
+>abstract="Om uw bericht samen te stellen, ga de inhoud in de **Titel** en **3} gebieden van het Lichaam in.** Als u personalisatietokens wilt opnemen, opent u het dialoogvenster voor personalisatie."
 
 Klik op de velden **[!UICONTROL Title]** en **[!UICONTROL Body]** om uw bericht samen te stellen. Gebruik de verpersoonlijkingsredacteur om inhoud te bepalen, gegevens te personaliseren en dynamische inhoud toe te voegen. Leer meer over [ verpersoonlijking ](../personalization/personalize.md) en [ dynamische inhoud ](../personalization/get-started-dynamic-content.md) in de verpersoonlijkingsredacteur.
 
@@ -58,7 +58,7 @@ In de Android-versie kunt u alleen een afbeeldingspictogram en een afbeelding vo
 
 Er zijn twee opties beschikbaar. U kunt:
 
-* Selecteer een element in **[!DNL Adobe Experience Manager Assets]** met de knop **[!UICONTROL Add media]** .
+* Selecteer een element in **[!UICONTROL Add media]** met de knop **[!DNL Adobe Experience Manager Assets]** .
 
   Leer hoe te om **[!DNL Adobe Experience Manager Assets]** op [ te gebruiken deze pagina ](../integrations/assets.md).
 
@@ -127,6 +127,8 @@ U kunt **[!UICONTROL Advanced options]** voor uw pushmelding configureren. De be
 | **[!UICONTROL Notification channel]** (alleen Android) | Koppel een berichtkanaal aan de pushmelding.<br/> Beginnend in Android 8.0 (API niveau 26), moeten alle berichten aan een kanaal worden toegewezen om te tonen. Voor meer op dit, verwijs naar de [ de ontwikkelaarsdocumentatie van Android ](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels). |
 | **[!UICONTROL Add content-availability flag]** (alleen iOS) | Verstuurt de markering voor de beschikbare inhoud in de pushlading om ervoor te zorgen dat de app wordt geactiveerd zodra deze de pushmelding ontvangt. Dit betekent dat de app toegang kan krijgen tot de payload-gegevens.<br/> Dit werkt zelfs als de app op de achtergrond wordt uitgevoerd en zonder tussenkomst van de gebruiker (bijvoorbeeld tikken op pushmelding). Dit is echter niet van toepassing als de app niet wordt uitgevoerd. Zie de [Apple Developer documentatie](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html) voor meer informatie hierover. |
 | **[!UICONTROL Add mutable-content flag]** (alleen iOS) | Verzendt de markering voor meerbare inhoud in de pushlading en zorgt ervoor dat de inhoud van het pushbericht kan worden gewijzigd door een uitbreiding van de berichtservice die in iOS SDK is opgegeven. Zie [Apple Developer documentatie](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html) voor meer informatie hierover.<br/> U kunt dan uw mobiele app-extensies gebruiken om de inhoud of presentatie van aankomende pushmeldingen die zijn verzonden vanuit [!DNL Journey Optimizer] , verder te wijzigen. Gebruikers kunnen deze optie bijvoorbeeld gebruiken om gegevens te decoderen, de tekst van de hoofdtekst of titel van een melding te wijzigen, een thread-id aan een melding toe te voegen, enzovoort. |
+| **[!UICONTROL Add Push expiration]** (alleen iOS) | Kies de **Datum en de Tijd** van uw Duw vervaldatum. Op iOS wordt de vervaldatum van een melding afgedwongen als een harde stop. Dit betekent dat elk bericht dat de Apple Push Notification Service (APNS) bereikt nadat de vervaldatum is verstreken, niet wordt afgeleverd, zodat klanten nooit verouderde of irrelevante berichten ontvangen. Zie de [Apple Developer documentatie](https://developer.apple.com/documentation/usernotifications/sending-notification-requests-to-apns) voor meer informatie hierover. |
 | **[!UICONTROL Notification visibility]** (alleen Android) | Hiermee definieert u de zichtbaarheid van het pushbericht. <br/><b> Privé </b> zal het bericht op alle lockscreens tonen, maar verborgen gevoelige of privé informatie over veilige lockscreens. <br/><b> Openbaar </b> zal het bericht in zijn geheel op alle lockscreens tonen. <br/><b> Geheim </b> zal om het even welk deel van het bericht op veilig lockscreen niet openbaren. <br/> voor meer op dit, verwijs de [ documentatie van de ontwikkelaar van Android ](https://developer.android.com/reference/android/app/Notification). |
 | **[!UICONTROL Notification priority]** (alleen Android) | Hiermee definieert u het belang van de pushmelding van Laag tot Max. Dit bepaalt hoe &quot;indringend&quot;de dupmelding zal zijn wanneer het wordt geleverd. Voor meer op dit, verwijs naar de [ de ontwikkelaarsdocumentatie van Android ](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |
 | **[!UICONTROL Delivery priority]** (alleen Android) | Hiermee stelt u een hoge of normale prioriteit in voor uw pushberichten. Zie de [Google Developer-documentatie](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message) voor meer informatie over de prioriteit van berichten. |
+| **[!UICONTROL Time to live]** (alleen Android) | Plaats het aantal seconden waarna uw bericht zal verlopen. In Android wordt verlopen beschouwd als een leveringsvenster: in Firebase Cloud Messaging (FCM) wordt de vervaltijd omgezet in een tijd-naar-live (TTL)-waarde die begint wanneer het bericht wordt ontvangen. Dit betekent dat niet-geleverde campagnes later kunnen worden verzonden dan verwacht of zelfs buiten het gewenste tijdsbestek. Voor meer op dit, verwijs de [ de ontwikkelaarsdocumentatie van Android ](https://firebase.google.com/docs/cloud-messaging/concept-options#ttl). |
