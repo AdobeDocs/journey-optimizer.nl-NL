@@ -5,9 +5,9 @@ title: Aan de slag met georkestreerde campagnes
 description: Meer informatie over hoe u aan de slag kunt gaan met georkestreerde campagnes
 short-description: Ontdek de belangrijkste kenmerken en gebruiksscenario's van georkestreerde campagnes.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
+source-git-commit: 94c7594e9a12b0bc91bb01989b5dd25afb662cfe
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '635'
 ht-degree: 4%
 
 ---
@@ -29,6 +29,8 @@ Campagne in [!DNL Adobe Journey Optimizer] biedt geavanceerde, merkgestarte mark
 Hoewel de marketing over de kanalen essentieel is, maken de geordende campagnes het naadloos. Met een visuele, belemmering-en-dalingsinterface, kunt u complexe marketing werkschema&#39;s ontwerpen en automatiseren, van segmentatie aan berichtlevering, over veelvoudige kanalen. Alles gebeurt in één intuïtieve omgeving, gebouwd voor snelheid, controle en efficiëntie.
 
 ![](assets/canvas-example-diagram.png){zoomable="yes"}
+
+➡️ [ ontdekt Geordende campagnes in video ](#video-oc)
 
 ## Kernmogelijkheden
 
@@ -71,6 +73,15 @@ Elke geordende campagne bevat:
 * **Overgangen**: De overgangen verbinden een bronactiviteit met een bestemmingsactiviteit en bepalen hun opeenvolging.
 
 * **Worktables**: De werklijst bevat alle informatie die door de overgang wordt gedragen. Voor elke geordende campagne worden verschillende worktables gebruikt. De gegevens in deze tabellen kunnen worden gebruikt gedurende de gehele levenscyclus van de geordende campagne.
+
+
+## Introductievideo {#video-oc}
+
+Leer de belangrijkste concepten en mogelijkheden beschikbaar met Geordende campagnes.
+
+
+>[!VIDEO](https://video.tv.adobe.com/v/3471538/?learn=on&enablevpops)
+
 
 ## Laten we dieper duiken
 
