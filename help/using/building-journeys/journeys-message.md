@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: reis, bericht, push, sms, e-mail, in-app, web, inhoudskaart, op code gebaseerde ervaring
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
+source-git-commit: 25847b9252b54e63c9ceb4641fb53a80d3bf89bd
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 2%
@@ -126,7 +126,7 @@ Volg onderstaande stappen om een ingebouwde kanaalactie aan een reis toe te voeg
    >
    >* Voor e-mails en pushmeldingen kunt u Send-Time optimaliseren inschakelen. [Meer informatie](send-time-optimization.md)
 
-1. Afhankelijk van de activiteit, kunt u geavanceerde parameters tonen specifiek voor het geselecteerde kanaal, en sommige standaardwaarden zoals het uitvoeringsadres met voeten treden. [Meer informatie](../about-journey-activities.md#advanced-parameters)
+1. Afhankelijk van de activiteit, kunt u geavanceerde parameters tonen specifiek voor het geselecteerde kanaal, en sommige standaardwaarden zoals het uitvoeringsadres met voeten treden. [Meer informatie](about-journey-activities.md#advanced-parameters)
 
    >[!NOTE]
    >
