@@ -3,29 +3,29 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Toegankelijke inhoud ontwerpen
 description: Leer hoe u toegankelijke inhoud ontwerpt voor uw e-mails en landingspagina's in Journey Optimizer
-feature: Email Design
+feature: Email Design, Landing Pages
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: e-mail, ontwerp, toegankelijkheid
-hide: true
-hidefromtoc: true
-source-git-commit: be87e47f7c3303575c2784af7ce76c138cb03154
+source-git-commit: fff37a5325eb99a5a484cad93c391cb92fef7526
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
 
 # Toegankelijke inhoud ontwerpen {#accessible-content}
 
+>[!NOTE]
+>
+>Deze pagina gaat over het toegankelijk maken van uw inhoud voor al uw ontvangers, zodat mensen met een handicap uw e-mails en landingspagina&#39;s die zijn ontworpen met [!DNL Journey Optimizer] kunnen lezen, begrijpen en ermee kunnen communiceren.
+>
+>De toegankelijkheid van de [!DNL Journey Optimizer] interface zelf is gedetailleerd in [ deze sectie ](../start/accessibility.md).
+
 De [ Europese toegankelijkheidswet ](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} is een richtlijn die wordt ontworpen om de interne markt voor toegankelijke producten en diensten te verbeteren door barrières weg te nemen die door verschillende nationale regels in de lidstaten worden veroorzaakt.
 
 Wanneer het creëren van inhoud voor uw **e-mails** en **landende pagina&#39;s** in [!DNL Journey Optimizer], kunnen de toegankelijkheidsbeste praktijken voor e-mailmarketers die op deze pagina worden vermeld u helpen in naleving van deze richtlijn. Ze zijn gebaseerd op Web Content Accessibility Guidelines (WCAG) 2.1, niveau AA.
-
->[!NOTE]
->
->De toegankelijkheidseigenschappen wanneer het gebruiken van de [!DNL Journey Optimizer] interface zelf zijn gedetailleerd in [ deze sectie ](../start/accessibility.md).
 
 De Europese toegankelijkheidswet bepaalt dat alle digitale communicatie, inclusief e-mails, nieuwsbrieven, PDF&#39;s en downloadbare inhoud, toegankelijk moet zijn. Daarom moet u specifieke richtlijnen volgen, zoals het gebruik van toegankelijke lettertypen, leesbare indelingen en het aanbieden van alternatieve tekst voor afbeeldingen.
 
@@ -33,7 +33,6 @@ De Europese toegankelijkheidswet bepaalt dat alle digitale communicatie, inclusi
 
 <!--You can adjust a number of styling parameters and attributes from the Email Designer **[!UICONTROL Styles]** pane.-->
  
-
 ## Zorg ervoor dat de tekst leesbaar is {#text-readability}
 
 Gebruik de tab **[!UICONTROL Styles]** van de component **[!UICONTROL Text]** om ervoor te zorgen dat de tekst leesbaar is, bijvoorbeeld door een juist kleurcontrast en eenvoudige lettertypen te gebruiken. [Meer informatie](content-components.md#text)
