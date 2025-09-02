@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: primair, uitvoeren, e-mail, doel, profiel, optimaliseer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 5b6543fd98b0457652374a34712e91501ace898c
+source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,12 @@ Het uitvoeringsveld wordt bijgewerkt en wordt nu gebruikt als primair adres.
 
 ## Het standaard uitvoeringsveld overschrijven {#override-default-execution-address}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_execution_address"
+>title="Een aangepaste waarde definiëren"
+>abstract="In sommige specifieke gevallen kunt u het standaardadres voor uitvoering overschrijven. Gebruik **toelaten parameteropheffing** pictogram rechts van het gebied om een douane primair adres te bepalen."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="Het uitvoeringsadres"
+
 Voor specifieke gebruiksgevallen kunt u het uitvoeringsveld globaal overschrijven en een andere waarde definiëren op het niveau van de e-mailconfiguratie of op het niveau van de reis.
 
 Het overschrijven van deze waarde kan bijvoorbeeld nuttig zijn om:
@@ -83,9 +89,9 @@ Wanneer een uitvoeringsadres in de e-mailconfiguratie wordt bepaald, wordt het g
 
 ### In de reisparameters {#journey-parameters}
 
-Wanneer het toevoegen van een **[!UICONTROL Email]** actie aan a [ reis ](../email/create-email.md#create-email-journey-campaign), wordt het primaire e-mailadres getoond onder de reis geavanceerde parameters.
+Wanneer het toevoegen van een **[!UICONTROL Email]** of **[!UICONTROL SMS]** actie aan a [ reis ](../email/create-email.md#create-email-journey-campaign), wordt het primaire e-mailadres getoond onder de reis geavanceerde parameters.
 
-In bepaalde specifieke contexten kunt u deze waarde overschrijven met het pictogram **[!UICONTROL Enable parameter override]** rechts van het veld **[!UICONTROL address]** .
+In bepaalde specifieke contexten kunt u deze waarde overschrijven met het pictogram **[!UICONTROL Enable parameter override]** rechts van het veld.
 
 ![](assets/journey-enable-parameter-override.png)
 

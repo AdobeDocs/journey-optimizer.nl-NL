@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: reis, bericht, push, sms, e-mail, in-app, web, inhoudskaart, op code gebaseerde ervaring
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 1%
+source-wordcount: '553'
+ht-degree: 2%
 
 ---
 
@@ -120,13 +120,17 @@ Volg onderstaande stappen om een ingebouwde kanaalactie aan een reis toe te voeg
       </tr>
       </table>
 
->[!NOTE]
->
->* Elke binnenkomende ervaringsactiviteit komt met een 3 dagen **wachten** activiteit. [Meer informatie](wait-activity.md#auto-wait-node)
->
->* Voor e-mails en pushmeldingen kunt u Send-Time optimaliseren inschakelen. [Meer informatie](send-time-optimization.md)
+   >[!NOTE]
+   >
+   >* Elke binnenkomende ervaringsactiviteit komt met een 3 dagen **wachten** activiteit. [Meer informatie](wait-activity.md#auto-wait-node)
+   >
+   >* Voor e-mails en pushmeldingen kunt u Send-Time optimaliseren inschakelen. [Meer informatie](send-time-optimization.md)
 
+1. Afhankelijk van de activiteit, kunt u geavanceerde parameters tonen specifiek voor het geselecteerde kanaal, en sommige standaardwaarden zoals het uitvoeringsadres met voeten treden. [Meer informatie](../about-journey-activities.md#advanced-parameters)
 
+   >[!NOTE]
+   >
+   >Als de geavanceerde parameters verborgen zijn, klikt u op de knop **[!UICONTROL Show read-only fields]** boven in het rechterdeelvenster.
 
 ## Live-inhoud bijwerken {#update-live-content}
 

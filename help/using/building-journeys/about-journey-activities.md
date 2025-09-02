@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: reis, activiteiten, aan de slag, gebeurtenissen, actie
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
+source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 12%
+source-wordcount: '690'
+ht-degree: 11%
 
 ---
 
@@ -91,13 +91,19 @@ De meeste activiteiten geven een aantal geavanceerde en/of technische parameters
 
 ![ Geavanceerde parametergebieden in de eigenschappen van de reisactiviteit ](assets/journey-advanced-parameters.png)
 
-Verberg deze parameters met de knop **[!UICONTROL Hide read-only fields]** voor een betere leesbaarheid.
+Verberg deze parameters voor een betere leesbaarheid met de knop **[!UICONTROL Hide read-only fields]** boven in het rechterdeelvenster.
 
 ![ verberg read-only gebiedspictogram in de eigenschappen van de reisactiviteit ](assets/journey-hide-read-only-fields.png)
 
 In bepaalde situaties kunt u de waarden van deze parameters voor specifiek gebruik overschrijven. Als u een waarde wilt afdwingen, klikt u op het pictogram **[!UICONTROL Enable parameter override]** rechts van het veld. [Meer informatie](../configuration/primary-email-addresses.md#journey-parameters)
 
 ![ laat parameteropheffing optie in de eigenschappen van de E-mailactiviteit toe ](assets/journey-enable-parameter-override.png)
+
+>[!NOTE]
+>
+>Klik op de knop **[!UICONTROL Show read-only fields]** als de geavanceerde parameters verborgen zijn
+>
+>![ toon read-only gebiedenpictogram in de eigenschappen van de reisactiviteit ](assets/journey-show-read-only-fields.png){width=60%}
 
 ### Een alternatief pad toevoegen
 
