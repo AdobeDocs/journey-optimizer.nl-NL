@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: e-mail, ontwerp, toegankelijkheid
 hide: true
 hidefromtoc: true
-source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
+source-git-commit: be87e47f7c3303575c2784af7ce76c138cb03154
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,6 @@ De Europese toegankelijkheidswet bepaalt dat alle digitale communicatie, inclusi
 
 <!--You can adjust a number of styling parameters and attributes from the Email Designer **[!UICONTROL Styles]** pane.-->
  
-
 ## Zorg ervoor dat de tekst leesbaar is {#text-readability}
 
 Gebruik de tab **[!UICONTROL Styles]** van de component **[!UICONTROL Text]** om ervoor te zorgen dat de tekst leesbaar is, bijvoorbeeld door een juist kleurcontrast en eenvoudige lettertypen te gebruiken. [Meer informatie](content-components.md#text)
@@ -325,7 +324,9 @@ De schermlezers lezen:
 >
 >Always ensure link text is discernible (visible) and descriptive (clear about purpose). Avoid vague labels like 'here' or 'more'.-->
 
-## Ondersteuning voor toetsenbordnavigatie en focus bieden <!--for landing pages--> {#keyboard}
+## Ondersteuning voor toetsenbordnavigatie en focus bieden {#keyboard}
+
+<!--for landing pages-->
 
 Dankzij toetsenbordnavigatie en focusondersteuning hebben mensen die geen muis kunnen gebruiken, volledige toegang tot en interactie met inhoud. Het verbetert ook de algemene bruikbaarheid door alle gebruikers een duidelijke en consistente manier te geven om door informatie te bewegen.
 
