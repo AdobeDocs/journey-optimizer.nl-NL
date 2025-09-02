@@ -7,10 +7,10 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 7558d323f73382b8cb40b45eb9d79ca037eb574d
+source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '486'
+ht-degree: 2%
 
 ---
 
@@ -20,6 +20,9 @@ Toegankelijkheid heeft betrekking op een reeks functies die een softwareproduct 
 
 Om het doel van toegankelijkheidsconformiteit te helpen bereiken, volgt [!DNL Journey Optimizer] de internationaal erkende beste praktijken in de Richtlijnen van de Toegankelijkheid van de Inhoud van het Web (WCAG) 2.1 Niveau A en Niveau AA. Leer meer in het recentste [ Rapport van de Conformiteit van de Toegankelijkheid van Adobe Journey Optimizer ](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer.html){target="_blank"}.
 
+>[!NOTE]
+>
+>De richtlijnen om toegankelijke inhoud voor uw e-mail en landende pagina&#39;s te ontwerpen zijn gedetailleerd in [ deze sectie ](../email/accessible-content.md).
 
 De toegankelijkheidsfuncties in [!DNL Adobe Journey Optimizer] worden overgenomen van Adobe Experience Platform:
 
@@ -27,7 +30,7 @@ De toegankelijkheidsfuncties in [!DNL Adobe Journey Optimizer] worden overgenome
 * Kleurcontrast
 * Validatie van vereiste velden
 
-De eigenschappen van de toegankelijkheid in Adobe Experience Platform zijn gedetailleerd [ in deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=nl-NL){target="_blank"}.
+De eigenschappen van de toegankelijkheid in Adobe Experience Platform zijn gedetailleerd [ in deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target="_blank"}.
 
 De volgende algemene sneltoetsen zijn beschikbaar in [!DNL Journey Optimizer] :
 
