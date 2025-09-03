@@ -6,9 +6,9 @@ description: Veelgestelde vragen over door Journey Optimizer georganiseerde camp
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: e63fd5dc50100000a810e2dfcb8c8e8827628b0c
+source-git-commit: a6a8521254005159b410790f88877d0591a16d15
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1091'
 ht-degree: 1%
 
 ---
@@ -19,13 +19,15 @@ Hieronder vindt u Veelgestelde vragen over door Adobe Journey Optimizer geordend
 
 Wilt u meer details? Gebruik de feedbackopties onder aan deze pagina om je vraag te stellen.
 
-## Wat zijn geordende campagnes? {#what-are-oc}
+## Wat is campagneorkest? {#what-are-oc}
 
-Geordende campagnes in Adobe Journey Optimizer Help-merken voeren complexe, één-op-veel marketingcampagnes op schaal. Ze zijn ontworpen voor door het merk geïnitieerde betrokkenheid, zoals promoties, seizoenscampagnes of communicatie op basis van account.
+Campagne Orchestration is een eigenschap van Journey Optimizer die enige-stap of multi-step werkschema&#39;s steunt die hefboomwerking de Relationele Datastore om publiek voor het doel van partijovereenkomst te bouwen en te segmenteren.
 
-Vergeleken met single-send campagnes, brengen zij **orchestratie en het rangschikken** aan uitgaande marketing: de kijkcijfers bewegen zich door een multi-step werkschema samen, eerder dan het ontvangen van een eenmalig blaast.
+Het brengt een nieuw type van campagnes aan Journey Optimizer: **Geordende campagnes**. Geordende campagnes helpen merken complexe, één-op-veel marketingcampagnes op schaal uit te voeren. Ze zijn ontworpen voor door het merk geïnitieerde betrokkenheid, zoals promoties, seizoenscampagnes of communicatie op basis van account.
 
-## Wat kan ik doen met geordende campagnes? {#what-can-i-do}
+Vergeleken met single-send/actiecampagnes, brengen zij **orchestratie en het rangschikken** aan uitgaande marketing: de kijkcijfers bewegen zich door een multi-step werkschema samen, eerder dan het ontvangen van een eenmalig blaast.
+
+## Wat kan ik doen met een geordende campagne? {#what-can-i-do}
 
 De belangrijkste mogelijkheden omvatten:
 
@@ -45,10 +47,14 @@ De belangrijkste mogelijkheden omvatten:
 
 >[!ENDSHADEBOX]
 
+## Hoe toegang te krijgen tot Campagneorchestratie? {#access-oc}
+
+Om tot Campagneorganisatie toegang te hebben, moet uw vergunning of de **Journey Optimizer - Campagnes &amp; Reizen** of **Journey Optimizer - het pakket van Campagnes** omvatten. Neem contact op met uw Adobe-vertegenwoordiger om uw licentie te bevestigen en indien nodig bij te werken.
+
 
 ## Welke kanalen worden gesteund? {#channels}
 
-De geordende campagnes steunen **e-mail, SMS, en dupberichten**.
+U kunt Geordende campagnes tot stand brengen om **e-mails**, **SMS**, en **dupberichten** te verzenden.
 
 
 >[!BEGINSHADEBOX]
@@ -186,4 +192,4 @@ Ja, volg de onderstaande aanbevolen procedures:
 >* [ Geordende campagnes begeleiden &amp; beperkingen ](../orchestrated/guardrails.md)
 >* [ worden begonnen met schema&#39;s en datasets in Geordende campagnes ](../orchestrated/gs-schemas.md)
 >* [ creeer uw eerste Geordende campagne ](../orchestrated/gs-campaign-creation.md)
->* [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+>* [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
