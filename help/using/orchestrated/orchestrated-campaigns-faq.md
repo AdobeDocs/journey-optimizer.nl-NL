@@ -6,7 +6,7 @@ description: Veelgestelde vragen over door Journey Optimizer georganiseerde camp
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 6a0b4f7da2794f6ffd9af51440f1bca8aa5e7fb1
+source-git-commit: e63fd5dc50100000a810e2dfcb8c8e8827628b0c
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 1%
@@ -80,7 +80,7 @@ verfijnd.
 
 >[!BEGINSHADEBOX]
 
-**Voorbeeld** - richt alle ontvangers met abonnementen die in volgende 3ad-h0 dagen verlopen: In Campagneorganisatie kan de vraag met het schema van Abonnementen beginnen, enkel de kolom van de vervaldatum van dat schema zoeken en alle abonnementen terugkeren toe te verlopen, dan rollen omhoog aan de ontvankelijke gegevens die met die specifieke abonnementen IDs verwant zijn die resultaten sneller en efficiënter terugkeren dan gegevensmodellen die elke vraag op het niveau beginnen.
+**Voorbeeld** - richt alle ontvangers met abonnementen die in de volgende 30 dagen verlopen. In Campagneorganisatie kan de vraag met het schema van Abonnementen beginnen, enkel de kolom van de vervaldatum van dat schema zoeken en alle abonnementen terugkeren toe te schrijven aan verlopen, dan rol omhoog aan de ontvankelijke gegevens die met die specifieke abonnementen IDs verwant zijn die resultaten sneller en efficiënter terugkeren dan gegevensmodellen die met elke vraag op het ontvankelijke niveau beginnen.
 
 >[!ENDSHADEBOX]
 
@@ -186,4 +186,4 @@ Ja, volg de onderstaande aanbevolen procedures:
 >* [ Geordende campagnes begeleiden &amp; beperkingen ](../orchestrated/guardrails.md)
 >* [ worden begonnen met schema&#39;s en datasets in Geordende campagnes ](../orchestrated/gs-schemas.md)
 >* [ creeer uw eerste Geordende campagne ](../orchestrated/gs-campaign-creation.md)
->* [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+>* [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
