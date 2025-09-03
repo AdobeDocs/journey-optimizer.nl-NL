@@ -6,7 +6,7 @@ description: Veelgestelde vragen over door Journey Optimizer georganiseerde camp
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: f850cb5573c321d479fe956e8c9b9bf377e78dfc
+source-git-commit: 6a0b4f7da2794f6ffd9af51440f1bca8aa5e7fb1
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 1%
@@ -19,7 +19,7 @@ Hieronder vindt u Veelgestelde vragen over door Adobe Journey Optimizer geordend
 
 Wilt u meer details? Gebruik de feedbackopties onder aan deze pagina om je vraag te stellen.
 
-## Wat zijn georkestreerde campagnes? {#what-are-oc}
+## Wat zijn geordende campagnes? {#what-are-oc}
 
 Geordende campagnes in Adobe Journey Optimizer Help-merken voeren complexe, één-op-veel marketingcampagnes op schaal. Ze zijn ontworpen voor door het merk geïnitieerde betrokkenheid, zoals promoties, seizoenscampagnes of communicatie op basis van account.
 
@@ -50,6 +50,7 @@ De belangrijkste mogelijkheden omvatten:
 
 De geordende campagnes steunen **e-mail, SMS, en dupberichten**.
 
+
 >[!BEGINSHADEBOX]
 
 **Aanbevelingen**
@@ -60,14 +61,15 @@ De geordende campagnes steunen **e-mail, SMS, en dupberichten**.
 
 >[!ENDSHADEBOX]
 
-## Hoe zijn geordende campagnes anders dan reizen? {#oc-vs-journeys}
 
-* **Orchestrated Campaigns**: Best voor **partij, één-aan-vele** campagnes. Het hele publiek beweegt zich samen door het campagnecanvas.
+## Hoe zijn geordende campagnes anders dan Reizen? {#oc-vs-journeys}
+
+* **Geordende campagnes**: Best voor **partij, één-aan-vele** campagnes. Het hele publiek beweegt zich samen door het campagnecanvas.
 * **Reizen**: Best voor **real time, één-aan-één** overeenkomst. Elke klant beweegt zich door de reis in hun eigen tempo, die door gedrag of gebeurtenissen wordt teweeggebracht.
 
 >[!BEGINSHADEBOX]
 
-**Uiteinde** - Vele organisaties gebruiken **zowel samen** - Schijven voor teweeggebrachte, reactieve ervaringen, en Geordende Campagnes voor geplande, op kalender-gebaseerde initiatieven.
+**Uiteinde** - Vele organisaties gebruiken **zowel samen** - de Schijven voor teweeggebrachte, reactieve ervaringen, en Geordende campagnes voor geplande, op kalender-gebaseerde initiatieven.
 
 >[!ENDSHADEBOX]
 
@@ -151,11 +153,11 @@ In Campagne Orchestration, verwijzen wij naar ad hoc segmentatie als &quot;Leven
 
 ## Steunt dit besluit? {#decisioning}
 
-Op dit moment worden voor beslissingen geen relationele gegevens van geordende campagnes gebruikt.
+Op dit moment wordt bij beslissingen geen gebruik gemaakt van relationele gegevens van geordende campagnes.
 
 ## Hoe werkt implementatie in verschillende omgevingen? {#deployment}
 
-Objecten die zijn gemaakt in geordende campagnes (bijv. publiek, workflows) zijn gekoppeld aan de sandbox waarin ze zijn gemaakt. De standaardworkflows voor verpakken en implementeren in verschillende omgevingen (dev, stage, prod) zijn momenteel niet beschikbaar voor geordende campagnes.
+Objecten die zijn gemaakt in geordende campagnes (bijv. publiek, workflows) zijn gekoppeld aan de sandbox waarin ze zijn gemaakt. De standaardworkflows voor verpakken en implementeren in verschillende omgevingen (Dev, Stage, Prod) zijn momenteel niet beschikbaar voor geordende campagnes.
 
 >[!BEGINSHADEBOX]
 
@@ -184,4 +186,4 @@ Ja, volg de onderstaande aanbevolen procedures:
 >* [ Geordende campagnes begeleiden &amp; beperkingen ](../orchestrated/guardrails.md)
 >* [ worden begonnen met schema&#39;s en datasets in Geordende campagnes ](../orchestrated/gs-schemas.md)
 >* [ creeer uw eerste Geordende campagne ](../orchestrated/gs-campaign-creation.md)
->* [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+>* [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
