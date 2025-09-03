@@ -4,9 +4,9 @@ product: journey optimizer
 title: Configuratiestappen
 description: Leer hoe u relationele schema's rechtstreeks via de gebruikersinterface kunt maken.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 4f262d4cbbe2241ec8356333d9a3191081f58a6a
+source-git-commit: 9984863e2c3f7fb8f74cefacfc026b70d27bddd7
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -150,9 +150,11 @@ U moet nu uw Dataset voor Orchestrate Campaigns toelaten.
 
 Na het creëren van uw dataset, moet u het voor Geordende Campagnes uitdrukkelijk toelaten. Deze stap zorgt ervoor dat uw dataset beschikbaar is voor organisatie en verpersoonlijking in real time binnen Adobe Journey Optimizer.
 
+Verwijs naar [ documentatie van Adobe Developer ](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement) om Geordende Uitbreiding van de Campagne op Dataset te bevestigen of toe te laten.
+
 1. Zoek de gegevensset in de lijst **[!UICONTROL Datasets]** .
 
-1. Van de **[!UICONTROL Datasets]** montages, laat de **Geordende 2&rbrace; optie van Campagnes &lbrace;toe om de dataset beschikbaar voor gebruik in uw Geordende Campagnes te maken.**
+1. Van de **[!UICONTROL Datasets]** montages, laat de **Geordende 2} optie van Campagnes {toe om de dataset beschikbaar voor gebruik in uw Geordende Campagnes te maken.**
 
    ![](assets/schema_manual_7.png){zoomable="yes"}
 
