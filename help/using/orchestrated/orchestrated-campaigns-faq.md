@@ -6,9 +6,9 @@ description: Veelgestelde vragen over door Journey Optimizer georganiseerde camp
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 13bc5f91e0e47bf36b9b9921fa926f8a5e2a50d6
+source-git-commit: b7c1da838c7e87a9d8bc3ddf5ef09fa756d853b8
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '991'
 ht-degree: 1%
 
 ---
@@ -71,6 +71,18 @@ De geordende campagnes steunen **e-mail, SMS, en dupberichten**.
 
 >[!ENDSHADEBOX]
 
+## Wat is segmentatie van meerdere entiteiten? {#multi-entity}
+
+Campagne Orchestration in Adobe Journey Optimizer gebruikt een relationele database. Dit type van gegevensmodel heeft afzonderlijke schema&#39;s van gegevens die via 1 :1 of 1 :many verhoudingen worden verbonden. Dit laat gebruikers toe om een vraag op om het even welk schema te beginnen - niet alleen op ontvankelijk niveau - en dan terug en uit te keren naar andere verwante regelingen, zoals aankopen, producten, boeken of ontvankelijke details die grote flexibiliteit in verstrekken hoe de segmenten en het publiek kunnen worden gecreeerd en
+verfijnd.
+
+>[!BEGINSHADEBOX]
+
+**Voorbeeld** - richt alle ontvangers met abonnementen die in volgende 3ad-h0 dagen verlopen: In Campagneorganisatie kan de vraag met het schema van Abonnementen beginnen, enkel de kolom van de vervaldatum van dat schema zoeken en alle abonnementen terugkeren toe te verlopen, dan rollen omhoog aan de ontvankelijke gegevens die met die specifieke abonnementen IDs verwant zijn die resultaten sneller en efficiënter terugkeren dan gegevensmodellen die elke vraag op het niveau beginnen.
+
+>[!ENDSHADEBOX]
+
+
 ## Hoe werkt het gegevensmodel? {#data-model}
 
 De campagnes gebruiken a **relationele gegevensbestand**. Hierdoor kunt u query&#39;s uitvoeren op verschillende gegevenssets (zoals klanten, producten, abonnementen) en deze op flexibele wijze verbinden voor geavanceerde segmentatie.
@@ -108,7 +120,7 @@ Ja. U kunt de profielen van de klant samen met verbonden gegevens (zoals aankope
 
 ## Hoe zit het met machtigingen en toestemming? {#permissions}
 
-Machtigingen en toestemming worden centraal beheerd in Adobe Experience Platform. De zelfde regels zijn op zowel Reizen als Geordende Campagnes van toepassing om naleving en verenigbare klantenervaring te verzekeren.
+Machtigingen en toestemming voor geordende campagnes en reizen worden centraal beheerd in Adobe Experience Platform. Deze instellingen worden toegepast op beide oplossingen voor elke ontvanger voordat deze wordt verzonden.
 
 >[!BEGINSHADEBOX]
 
@@ -116,13 +128,13 @@ Machtigingen en toestemming worden centraal beheerd in Adobe Experience Platform
 
 * Pas **gecentraliseerd bestuur** toe - vermijd het leiden van toestemming afzonderlijk op campagneseniveau.
 * Periodiek de gegevens over de toestemming controleren om inconsistenties op te sporen.
-* Eerbiedig **kanaal-specifieke opt-outs** - veronderstel geen globale toestemming alle kanalen behandelt.
+* Eerbiedig **kanaal-specifieke opt-outs** - veronderstel geen globale toestemming alle kanalen dekt.
 
 >[!ENDSHADEBOX]
 
 ## Kan ik ad-hocsegmentatie uitvoeren? {#ad-hoc}
 
-Ja. Met **Levende Segmentatie**, kunt u complexe vragen op de plaats bouwen en hen onmiddellijk over uitgaande kanalen activeren.
+In Campagne Orchestration, verwijzen wij naar ad hoc segmentatie als &quot;Levende segmentatie&quot;waar u tot alle gegevens kunt toegang hebben beschikbaar in de relationele opslag in echt - tijd, een complexe vraag bovenop het bouwen en het resultaat voor onmiddellijke activering door uitgaande kanalen (bijvoorbeeld E-mail + SMS).
 
 >[!BEGINSHADEBOX]
 
@@ -133,6 +145,11 @@ Ja. Met **Levende Segmentatie**, kunt u complexe vragen op de plaats bouwen en h
 * Valideer het aantal gebruikers vóór activering om te voorkomen dat het publiek te veel of te weinig wordt verzonden.
 
 >[!ENDSHADEBOX]
+
+## Kunnen de gegevens in het relationele gegevensbestand voor berichtverpersoonlijking worden gebruikt? {#relational-personalization}
+
+Ja. In Campagne Orchestration kan een ontvankelijk profiel dat als &quot;Entiteit van Mensen&quot;wordt bekend worden bijgewerkt en dat gegeven voor verpersoonlijking wordt gebruikt. Daarnaast kunnen verrijkte gegevens van gekoppelde entiteiten in de relationele database ook worden gebruikt voor personalisatie.
+
 
 ## Steunt dit besluit? {#decisioning}
 
@@ -161,3 +178,4 @@ Ja, volg de onderstaande aanbevolen procedures:
 * Waar mogelijk, **stagger verzendt tijden** om overweldigende stroomafwaartse systemen (b.v., callcenters, websites) te vermijden.
 * Vestig a **controle routine** - spoorleveringslogboeken, foutentarieven, en opt-outs na elk verzenden.
 * Looppas **post-campagneanalyse** in Customer Journey Analytics om het richten en het orchestreren voor de volgende cyclus te verfijnen.
+
