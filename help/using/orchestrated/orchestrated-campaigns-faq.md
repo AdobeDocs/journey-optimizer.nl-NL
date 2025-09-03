@@ -6,9 +6,9 @@ description: Veelgestelde vragen over door Journey Optimizer georganiseerde camp
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: b7c1da838c7e87a9d8bc3ddf5ef09fa756d853b8
+source-git-commit: b7851997ee9e3ffaa6455888924b4dcd1c7ff10d
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '979'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ De campagnes gebruiken a **relationele gegevensbestand**. Hierdoor kunt u query&
 
 ## Kan ik berichten met deze gegevens personaliseren? {#personalization}
 
-Ja. U kunt de profielen van de klant samen met verbonden gegevens (zoals aankopen of abonnementen) gebruiken om inhoud over alle gesteunde kanalen te personaliseren.
+Ja. In Campagne Orchestration kan een ontvankelijk profiel dat als &quot;Entiteit van Mensen&quot;wordt bekend worden bijgewerkt en dat gegeven voor verpersoonlijking wordt gebruikt. Daarnaast kunnen verrijkte gegevens van gekoppelde entiteiten in de relationele database ook worden gebruikt voor personalisatie. U kunt de profielen van de klant samen met verbonden gegevens (zoals aankopen of abonnementen) gebruiken om inhoud over alle gesteunde kanalen te personaliseren.
 
 >[!BEGINSHADEBOX]
 
@@ -145,10 +145,6 @@ In Campagne Orchestration, verwijzen wij naar ad hoc segmentatie als &quot;Leven
 * Valideer het aantal gebruikers vóór activering om te voorkomen dat het publiek te veel of te weinig wordt verzonden.
 
 >[!ENDSHADEBOX]
-
-## Kunnen de gegevens in het relationele gegevensbestand voor berichtverpersoonlijking worden gebruikt? {#relational-personalization}
-
-Ja. In Campagne Orchestration kan een ontvankelijk profiel dat als &quot;Entiteit van Mensen&quot;wordt bekend worden bijgewerkt en dat gegeven voor verpersoonlijking wordt gebruikt. Daarnaast kunnen verrijkte gegevens van gekoppelde entiteiten in de relationele database ook worden gebruikt voor personalisatie.
 
 
 ## Steunt dit besluit? {#decisioning}
