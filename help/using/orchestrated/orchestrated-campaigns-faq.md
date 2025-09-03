@@ -6,9 +6,9 @@ description: Veelgestelde vragen over door Journey Optimizer georganiseerde camp
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: b7851997ee9e3ffaa6455888924b4dcd1c7ff10d
+source-git-commit: f850cb5573c321d479fe956e8c9b9bf377e78dfc
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '1010'
 ht-degree: 1%
 
 ---
@@ -114,8 +114,10 @@ Ja. In Campagne Orchestration kan een ontvankelijk profiel dat als &quot;Entitei
 
 ## Is zij geïntegreerd met andere Adobe-oplossingen? {#integrations}
 
+Ja. Campagneorchestratie is native geïntegreerd met:
+
 * **Customer Journey Analytics**: De rapporten van de organisatie van de campagne zijn beschikbaar.
-* **Real-Time CDP**: Het publiek dat in Campagnes wordt gebouwd kan in CDP worden gelezen.
+* **Real-Time CDP**: Het publiek dat in Campagnes wordt gebouwd kan in Real-Time CDP worden gelezen.
 * **Federated Audience Composition (FAC)**: Beschikbaar als toe:voegen-op.
 
 ## Hoe zit het met machtigingen en toestemming? {#permissions}
@@ -175,3 +177,11 @@ Ja, volg de onderstaande aanbevolen procedures:
 * Vestig a **controle routine** - spoorleveringslogboeken, foutentarieven, en opt-outs na elk verzenden.
 * Looppas **post-campagneanalyse** in Customer Journey Analytics om het richten en het orchestreren voor de volgende cyclus te verfijnen.
 
+
+
+>[!MORELIKETHIS]
+>
+>* [ Geordende campagnes begeleiden &amp; beperkingen ](../orchestrated/guardrails.md)
+>* [ worden begonnen met schema&#39;s en datasets in Geordende campagnes ](../orchestrated/gs-schemas.md)
+>* [ creeer uw eerste Geordende campagne ](../orchestrated/gs-campaign-creation.md)
+>* [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
