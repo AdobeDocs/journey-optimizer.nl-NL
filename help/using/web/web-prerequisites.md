@@ -21,7 +21,7 @@ Als u webpagina&#39;s wilt openen en schrijven in de gebruikersinterface van [!D
 
 * Als u toegang wilt tot de [!DNL Journey Optimizer] -webontwerper, moet een specifieke Google Chrome-browserextensie zijn geïnstalleerd. [Meer informatie](#visual-authoring-prerequisites)
 
-* Voor de Webervaring die correct moet worden geleverd, zorg ervoor u de hier gedetailleerde montages van Adobe Experience Platform [ ](#delivery-prerequisites) bepaalt.
+* Voor de Webervaring die correct moet worden geleverd, zorg ervoor u de hier gedetailleerde montages van Adobe Experience Platform [&#128279;](#delivery-prerequisites) bepaalt.
 
 * Om rapportering voor het Webkanaal toe te laten, moet u ervoor zorgen de dataset die in uw gegevensstroom van de Webimplementatie wordt gebruikt ook in uw rapporteringsconfiguratie wordt omvat. [Meer informatie](#experiment-prerequisites)
 
