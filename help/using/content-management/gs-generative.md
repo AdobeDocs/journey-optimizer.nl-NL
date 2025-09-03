@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: c5cd0708f8b39fca5de14b1c24be1dd3a6b3fd87
+source-git-commit: 39508e605479344a42bff0e5ce82b714f6bcff48
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 2%
@@ -35,14 +35,14 @@ ht-degree: 2%
 
 >[!INFO]
 >
->Ga in een hands-on ervaring met [ binnen onze levende eigenschapvoorproef ](https://experienceleague.adobe.com/nl/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}, die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
+>Ga in een hands-on ervaring met [ binnen onze levende eigenschapvoorproef ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}, die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
 
 
 De AI Assistant in Adobe Journey Optimizer, die wordt aangedreven door Microsoft Azure OpenAI en Adobe Firefly, biedt proactieve suggesties voor wijzigingen in inhoud voor tekst en afbeeldingen. Dit nieuwe vermogen verstrekt a **herinnering gebaseerde tekst en beeldgeneratie**. Het genereren van afbeeldingen wordt beheerd met Adobe Firefly.
 
 De Medewerker van AI steunt generatie **in veelvoudige talen** toelatend u om diverse globale publiek te bereiken en in dienst te nemen. AI Assistant is beschikbaar in de volgende talen:
 
-<table style="table-layout:fixed"><tr style="border: 0;">
+<table style="table-layout:fixed"><table style="table-layout:fixed"><tr style="border: 0; text-align: center;background-color: #FFFFFF;">
   <tr>
     <td><ul><li>Frans</li><li>Spaans</li><li>Duits</li><li>Italiaans</li></ul></td>
     <td><ul><li>Japans</li><li>Zweeds</li><li>Nederlands</li><li>Noors</li></ul></td>
@@ -80,7 +80,7 @@ Om tot AI Medewerker in de eigenschap van Adobe Journey Optimizer toegang te heb
 
 1. Ga de naam van de gebruiker, e-mailadres in, of kies van de lijst, dan klik **sparen**.
 
-1. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/users).
+1. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users).
 
 De gebruiker ontvangt een e-mail met instructies om toegang te krijgen tot uw exemplaar.
 
@@ -96,7 +96,7 @@ De algemene richtlijnen voor het gebruik van AI Assistant in Adobe Journey Optim
 * Gebruik een merkspecifieke of aangepaste sjabloon om uw e-mailinhoud te maken met AI Assistant in Adobe Journey Optimizer. E-mailsjablonen met maximaal 8-10 afbeeldingen worden aanbevolen.
 * Zorg ervoor dat u eventuele problematische uitvoerbestanden meldt met het blokje omhoog, omlaag of de vlagpictogrammen bij het selecteren van varianten.
 * Op uw gebruik van AI Assistant zijn de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen van toepassing. [Meer informatie](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* Als onderdeel van de toezegging van Adobe om de transparantie bij het gebruik van generatieve AI-tools bij het maken van media te bevorderen, zal Adobe Content Credentials toepassen wanneer inhoud of een project dat een door Firefly gegenereerd element bevat, wordt gedownload of geëxporteerd. [Meer informatie](https://helpx.adobe.com/nl/firefly/using/content-credentials.html)
+* Als onderdeel van de toezegging van Adobe om de transparantie bij het gebruik van generatieve AI-tools bij het maken van media te bevorderen, zal Adobe Content Credentials toepassen wanneer inhoud of een project dat een door Firefly gegenereerd element bevat, wordt gedownload of geëxporteerd. [Meer informatie](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
 De volgende beperkingen gelden voor AI Assistant in Adobe Journey Optimizer:
 
