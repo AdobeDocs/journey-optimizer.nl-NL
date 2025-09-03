@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adobe Experience Platform-gegevens gebruiken voor beslissingen (Beta)
+title: Adobe Experience Platform-gegevens gebruiken voor beslissingen
 description: Leer hoe u Adobe Experience Platform-gegevens kunt gebruiken voor beslissingen.
-badge: label="Beta" type="Informative"
+badge: label="Beperkte beschikbaarheid" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: expression, editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: cf700f4097883c875c74196317f6494f74f9bc7c
+source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,11 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Deze mogelijkheid is momenteel beschikbaar voor alle klanten als een openbare bètaversie. Neem contact op met uw accountvertegenwoordiger als u toegang wilt.
+>Deze functie is momenteel beschikbaar voor alle klanten als een beperkte beschikbaarheidsrelease.
 
 Met [!DNL Journey Optimizer] kunt u gegevens van [!DNL Adobe Experience Platform] gebruiken voor besluitvorming. Dit staat u toe om de definitie van uw beslissingsattributen tot extra gegevens in datasets voor bulkupdates uit te breiden die periodiek veranderen zonder het moeten manueel de attributen één voor één bijwerken. Bijvoorbeeld beschikbaarheid, wachttijden, enz.
+
+Alvorens te beginnen, moeten de datasets nodig voor raadplegingsverpersoonlijking eerst voor raadpleging worden toegelaten. De gedetailleerde informatie is beschikbaar in deze sectie: [ de gegevens van Adobe Experience Platform van het Gebruik ](../data/lookup-aep-data.md).
 
 ## Afbeeldingen en beperkingen {#guidelines}
 
@@ -43,10 +45,6 @@ Neem voordat u begint de volgende beperkingen en richtlijnen in acht:
 * Een beslissingsregel kan 3 datasets gebruiken.
 * Een rangschikkende formule kan 3 datasets gebruiken.
 * Wanneer een besluitbeleid wordt geëvalueerd, zal het systeem tot 1000 datasetvragen (raadplegingen) in totaal uitvoeren. Elke datasetafbeelding die door een besluitpuntentellingen als één vraag wordt gebruikt. Voorbeeld: Als een besluitpunt 2 datasets gebruikt, evaluerend die aanbiedingen tellen als 2 vragen naar de 1000-vraaggrens.
-
-## Een dataset inschakelen voor gegevensopzoekhandeling {#enable}
-
-Als u gegevens uit een [!DNL Adobe Experience Platform] -dataset wilt gebruiken voor besluitvorming, moet u deze eerst inschakelen voor opzoeken via een API-aanroep. Voor gedetailleerde instructies, verwijs naar deze sectie: [ de datasets van Adobe Experience Platform van de Leverage in Journey Optimizer ](../data/lookup-aep-data.md).
 
 ## Adobe Experience Platform-gegevens gebruiken {#leverage-aep-data}
 

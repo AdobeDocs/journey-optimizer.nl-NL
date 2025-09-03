@@ -1,46 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adobe Experience Platform-gegevens gebruiken voor personalisatie (Beta)
+title: Adobe Experience Platform-gegevens gebruiken voor personalisatie
 description: Leer hoe u Adobe Experience Platform-gegevens kunt gebruiken voor personalisatie.
-badge: label="Beta" type="Informative"
+badge: label="Beperkte beschikbaarheid" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: expression, editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 07e855b1a334a226c34223e5dd034f88733d6e2e
+source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Platform-gegevens gebruiken voor personalisatie{#aep-data}
+# Adobe Experience Platform-gegevens gebruiken voor personalisatie {#aep-data}
 
 >[!AVAILABILITY]
 >
->Deze functie is momenteel beschikbaar voor alle klanten als een openbare bètaversie.
->
->om dit vermogen te gebruiken, moet u bètatermijnen voor uw organisatie eerst goedkeuren die tonen wanneer het toevoegen van de nieuwe hulpfuncties &quot;datasetLookup&quot;in de verpersoonlijkingsredacteur.
+>Deze functie is momenteel beschikbaar voor alle klanten als een beperkte beschikbaarheidsrelease.
 
-Journey Optimizer staat u toe om gegevens van hefboomwerking van Adobe Experience Platform in de verpersoonlijkingsredacteur aan [ te personaliseren uw inhoud ](../personalization/personalize.md). Om dit te doen, moeten de datasets nodig voor raadplegingsverpersoonlijking eerst door een API vraag worden toegelaten zoals hieronder beschreven. Als u klaar bent, kunt u hun gegevens gebruiken om uw inhoud aan te passen aan [!DNL Journey Optimizer] .
+Journey Optimizer staat u toe aan hefboomwerkingsgegevens van het het verslagdatasets van Adobe Experience Platform in de verpersoonlijkingsredacteur om [ uw inhoud ](../personalization/personalize.md) te personaliseren. Alvorens te beginnen, moeten de datasets nodig voor raadplegingsverpersoonlijking eerst voor raadpleging worden toegelaten. De gedetailleerde informatie is beschikbaar in deze sectie: [ de gegevens van Adobe Experience Platform van het Gebruik ](../data/lookup-aep-data.md).
 
-## Beperkingen en richtlijnen voor Beta {#guidelines}
-
-Controleer voordat u begint de volgende beperkingen en richtlijnen:
-
-* **Gesteunde kanalen**: Voor nu, is dit vermogen slechts beschikbaar voor gebruik binnen e-mail, SMS en direct-mailkanalen.
-* **Fragments**: De verpersoonlijking van de raadpleging van de gegevensset kan niet binnen uitdrukking of visuele fragmenten op dit ogenblik worden geplaatst.
-
-## Een dataset inschakelen voor gegevensopzoekhandeling {#enable}
-
-Om gegevens van uw dataset voor verpersoonlijking te hefboomwerking, moet u een API vraag gebruiken om zijn status terug te winnen en de raadplegingsdienst toe te laten. De gedetailleerde informatie is beschikbaar in deze sectie: {de datasets van Adobe Experience Platform van 0} hefboomwerking in [ [!DNL Journey Optimizer]](../data/lookup-aep-data.md)
-
-## Gebruik een dataset voor verpersoonlijking {#leverage}
-
-Zodra een dataset voor raadplegingsverpersoonlijking gebruikend een API vraag is toegelaten, kunt u zijn gegevens gebruiken om uw inhoud in [!DNL Journey Optimizer] te personaliseren.
+Zodra een dataset voor raadplegingsverpersoonlijking is toegelaten, kunt u zijn gegevens gebruiken om uw inhoud in [!DNL Journey Optimizer] te personaliseren.
 
 1. Open de verpersoonlijkingsredacteur, die in elke context beschikbaar is waar u verpersoonlijking zoals berichten kunt bepalen. [ Leer hoe te met de verpersoonlijkingsredacteur ](../personalization/personalization-build-expressions.md) te werken
 
@@ -67,9 +52,9 @@ Zodra een dataset voor raadplegingsverpersoonlijking gebruikend een API vraag is
 
    * **required=false**: Als vereist aan WAAR wordt geplaatst, zal het bericht slechts worden geleverd als een passende sleutel wordt gevonden. Indien ingesteld op false, is geen overeenkomende sleutel vereist en kan het bericht nog steeds worden bezorgd. Houd er rekening mee dat als de waarde false is, u in de berichtinhoud een back-up- of standaardwaarde moet opgeven.
 
-   +++Waar om een dataset ID terug te winnen?
+   +++Waar kan ik een gegevensset-id ophalen?
 
-   Dataset-id&#39;s kunnen worden opgehaald in de gebruikersinterface van Adobe Experience Platform. Leer hoe te met datasets in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"} te werken.
+   Dataset-id&#39;s kunnen worden opgehaald in de gebruikersinterface van Adobe Experience Platform. Leer hoe te met datasets in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"} te werken.
 
    ![](assets/aep-data-dataset.png)
 
@@ -100,7 +85,7 @@ Zodra een dataset voor raadplegingsverpersoonlijking gebruikend een API vraag is
 
      +++Waar moet u een veld-id ophalen?
 
-     Velden-id&#39;s kunnen worden opgehaald wanneer een voorbeeld van een gegevensset in de gebruikersinterface van Adobe Experience Platform wordt weergegeven. Leer hoe te voorproef datasets in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
+     Velden-id&#39;s kunnen worden opgehaald wanneer een voorbeeld van een gegevensset in de gebruikersinterface van Adobe Experience Platform wordt weergegeven. Leer hoe te voorproef datasets in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
 
      ![](assets/aep-data-field.png)
 
