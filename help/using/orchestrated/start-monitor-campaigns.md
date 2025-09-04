@@ -97,7 +97,7 @@ De visuele statusindicatoren helpen u begrijpen hoe elke activiteit uitvoert:
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="Logboeken en taken"
->abstract="De **Logboeken en het 1} scherm van taken {verstrekken een geschiedenis van de Geordende campagneuitvoering, registrerend alle gebruikersacties en ondervonden fouten.**"
+>abstract="De **Logboeken en het 1&rbrace; scherm van taken &lbrace;verstrekken een geschiedenis van de Geordende campagneuitvoering, registrerend alle gebruikersacties en ondervonden fouten.**"
 
 Het controleren van logboeken en taken is een zeer belangrijke stap om uw Geordende campagnes te analyseren en ervoor te zorgen zij behoorlijk lopen. Logbestanden en taken zijn toegankelijk via de knop **[!UICONTROL Logs]** , die beschikbaar is in zowel de test- als de live modus op de canvaswerkbalk.
 

@@ -36,7 +36,7 @@ U kunt deze informatie gebruiken om uw publiek nauwkeuriger te segmenteren op ba
 >title="Verrijkingsactiviteit"
 >abstract="Zodra de verrijkingsgegevens aan de Orchestrated campagne zijn toegevoegd, kan het in de activiteiten worden gebruikt die na de activiteit van de Verrijking worden toegevoegd om klanten in verschillende groepen te segmenteren die op hun gedrag, voorkeur, en behoeften worden gebaseerd, of om gepersonaliseerde marketing berichten en campagnes te creëren die eerder met uw doelpubliek zullen resoneren."
 
-Volg deze stappen om de **1} activiteit van de Verrijking {te vormen:**
+Volg deze stappen om de **1&rbrace; activiteit van de Verrijking &lbrace;te vormen:**
 
 1. Voeg een **Verrijking** activiteit toe.
 

@@ -116,7 +116,7 @@ U kunt een lijstverbinding in de **plukker van de Waarde** ook direct selecteren
 
 Hier, richt de vraag zich merken het waarvan etiket &quot;loopt&quot;.
 
-1. Navigeer binnen de **Merk** lijst en selecteer het **3} attribuut van het Etiket {.**
+1. Navigeer binnen de **Merk** lijst en selecteer het **3&rbrace; attribuut van het Etiket &lbrace;.**
 
    ![ Schermafbeelding van de lijst van het Merk ](assets/rule-builder-1-1-attribute.png)
 
