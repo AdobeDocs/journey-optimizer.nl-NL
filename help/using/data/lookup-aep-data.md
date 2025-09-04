@@ -11,9 +11,9 @@ level: Intermediate
 keywords: expression, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
+source-git-commit: ea40a13765be5ff603dd848df4fb02a4dbb9a426
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
 >title="Opzoeken inschakelen"
->abstract="Opzoeken inschakelen"
+>abstract="Als u een gegevensset inschakelt voor opzoekopdrachten, kunt u de gegevens van de gegevensset benutten met de mogelijkheden van Journey Optimizer voor personalisatie en besluitvorming."
 
 >[!AVAILABILITY]
 >
