@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdomein, delegatie, domein, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1868'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 >id="ajo_admin_subdomainname"
 >title="Subdomeindelegatie"
 >abstract="Met Journey Optimizer kunt u uw subdomeinen delegeren aan Adobe. U kunt een subdomein volledig delegeren aan Adobe, wat de geadviseerde methode is. </br> u kunt subdomain ook creëren gebruikend CNAMEs om aan Adobe-specifieke verslagen te richten, maar deze benadering vereist u om DNS verslagen op uw te handhaven en te beheren."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="Methoden voor subdomeinconfiguratie"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="Methoden voor subdomeinconfiguratie"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname_header"
@@ -106,6 +106,10 @@ Volg onderstaande stappen om een nieuw subdomein in te stellen in [!DNL Journey 
    * De opstelling van de NAAM - [ leert meer ](about-subdomain-delegation.md#cname-subdomain-setup)
 
      Leer hoe te opstelling subdomeinen met CNAMEs in deze [ specifieke sectie ](#cname-subdomain-setup)
+
+   * De delegatie van de douane - [ leert meer ](about-subdomain-delegation.md#custom-subdomain-delegation)
+
+     Leer hoe te opstelling douanesubdomeinen in deze [ specifieke sectie ](delegate-custom-subdomain.md)
 
    <!--![](assets/subdomain-method-full.png)-->
 

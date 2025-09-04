@@ -8,17 +8,19 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: subdomein, delegatie, domein, DNS
-hide: true
-hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 0490045a763876d3518e3db92e8427691044f6aa
+source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '900'
 ht-degree: 2%
 
 ---
 
 # Een aangepast subdomein instellen {#delegate-custom-subdomain}
+
+>[!AVAILABILITY]
+>
+>Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 Als alternatief aan [ volledig gemachtigde ](about-subdomain-delegation.md#full-subdomain-delegation) en [ CNAME opstelling ](about-subdomain-delegation.md#cname-subdomain-delegation) methodes, staat de **delegatie van de Douane** methode u toe om de eigendom van uw subdomeinen binnen Journey Optimizer te nemen om volledige controle over de geproduceerde certificaten te hebben.
 
@@ -66,8 +68,8 @@ Volg onderstaande stappen om een aangepast subdomein in te stellen.
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_key_length"
->title="xxx"
->abstract=""
+>title="Een sleutelpositie selecteren"
+>abstract="De sleutellengte kan alleen 2048 of 4096 bits zijn. Deze kan niet worden gewijzigd nadat het subdomein is verzonden."
 
 1. Klik in de sectie **[!UICONTROL SSL Certificate]** op **[!UICONTROL Generate CSR]** .
 
@@ -85,13 +87,35 @@ Volg onderstaande stappen om een aangepast subdomein in te stellen.
    >
    >De sleutellengte kan alleen 2048 of 4096 bits zijn. Deze kan niet worden gewijzigd nadat het subdomein is verzonden.
 
-1. Klik op **[!UICONTROL Download CSR]** en sla het formulier op uw lokale computer op. Verzend het naar de Autoriteit van het Certificaat om uw SSL certificaat te krijgen.
+1. Klik op **[!UICONTROL Download CSR]** en sla het formulier op uw lokale computer op.
 
-1. Nadat u het certificaat hebt opgehaald, klikt u op **[!UICONTROL Upload SSL certificate]** en uploadt u het naar [!DNL Journey Optimizer] in .pem-indeling.
+1. Verzend het naar de Instantie van het Certificaat (CA) om uw SSL certificaat te krijgen. Alvorens dit CSR aan uw CA voor ondertekening voor te leggen, zijn er een paar belangrijke punten om te overwegen:
 
-   >[!CAUTION]
-   >
-   >Zowel gegevens als CDN-subdomeinen moeten in hetzelfde certificaat worden opgenomen.
+   * De gedownloade CSR van stap 3 is slechts voor data.subdomain.com.
+
+   * Het certificaat moet echter zowel data.subdomain.com als cdn.subdomain.com bestrijken als onderwerpalternatieven (SAN) binnen één certificaat. Als u bijvoorbeeld example.adobe.com delegeert, komt data.subdomain.com overeen met data.example.adobe.com en cdn.subdomain.com met cdn.example.adobe.com.
+
+   * Zowel de subdomeinen Data (data.example.adobe.com) als CDN (cdn.example.adobe.com) moeten als peer ingangen in het zelfde certificaat worden toegevoegd.
+
+   * De meeste CA&#39;s staan u toe om extra San&#39;s (zoals CDN subdomain) tijdens het ondertekeningsproces toe te voegen
+
+      * Via het CA-portaal (aanbevolen, indien beschikbaar), of
+      * Door dit handmatig bij hun ondersteuningsteam aan te vragen als de poortoptie niet beschikbaar is.
+
+   * Zodra ondertekend, zal CA één enkel certificaat uitgeven dat zowel het domein van Gegevens als subdomain CDN behandelt.
+
+1. Nadat u het certificaat hebt opgehaald, klikt u op **[!UICONTROL Upload SSL certificate]** en uploadt u het certificaat naar [!DNL Journey Optimizer] in .pem-indeling met de volledige certificaatketen. Hier volgt een voorbeeld van een .pem-bestandsindeling:
+
+   ```
+   -----BEGIN CERTIFICATE-----
+   MIIDXTCCAkWgAwIBAgIJALc3... (base64 encoded data)
+   -----END CERTIFICATE-----
+   ```
+
+   <!--
+    >[!CAUTION]
+    >
+    >Both Data and CDN subdomains must be included in the same certificate.-->
 
 ## De stappen voor het herhalen van feedback voltooien {#feedback-loop-steps}
 
