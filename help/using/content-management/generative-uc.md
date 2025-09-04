@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: c5cd0708f8b39fca5de14b1c24be1dd3a6b3fd87
+source-git-commit: 45ae810fadfcf507ee94a703a928bacdeba09e9b
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 0%
@@ -130,3 +130,4 @@ Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-mailcamp
 1. Bekijk de **[!UICONTROL Variation suggestions]** in de geselecteerde taal.
 
 1. Klik op **[!UICONTROL Select]** als u de geschikte inhoud hebt gevonden.
+
