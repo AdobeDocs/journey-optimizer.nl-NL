@@ -10,9 +10,10 @@ level: Beginner
 keywords: integratie
 hide: true
 hidefromtoc: true
-source-git-commit: e8512ddab2548c8b2156331c335632cde8686f80
+exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
+source-git-commit: 26f0bdd9f67648d0a382fd67c296bf44f0ea42df
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -29,6 +30,18 @@ Met deze functie hebt u toegang tot externe gegevens en kunt u inhoud ophalen ui
 * **Informatie van de Prijs** voor producten.
 * **Aanbevelingen van het Product** van aanbeveling motoren.
 * **Logistics werkt** als leveringsstatus bij.
+
+## Beta-beperkingen {#limitations}
+
+De bètaversie heeft de volgende beperkingen:
+
+* Uitgaande kanalen worden slechts gesteund.
+
+* Alleen JSON-indeling wordt ondersteund voor API-reacties. HTML en onbewerkte binaire afbeeldingsuitvoer zijn niet beschikbaar.
+
+* Alleen API&#39;s voor ophalen die specifiek zijn voor bepaalde inhoud worden ondersteund, API&#39;s voor lijsten zijn niet beschikbaar.
+
+* De functie Integraties is zowel beschikbaar voor reizen als voor campagnes, maar wordt niet ondersteund in fragmenten.
 
 ## Uw integratie configureren {#configure}
 
@@ -131,7 +144,3 @@ Als markeerteken, kunt u gevormde integraties gebruiken om uw inhoud te personal
 Uw integratieverpersoonlijking wordt nu met succes toegepast op uw inhoud, ervoor zorgend elke ontvanger een op maat gemaakte, relevante ervaring ontvangt die op de attributen wordt gebaseerd u hebt gevormd.
 
 ![](assets/external-integration-content-7.png)
-
-
-
-
