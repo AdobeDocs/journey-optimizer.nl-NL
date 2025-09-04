@@ -7,16 +7,17 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: nowWithDelta, function, expression, trip
 exl-id: cb1eb221-8532-4637-ac6c-8e058463ac94
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 6%
+source-wordcount: '114'
+ht-degree: 4%
 
 ---
 
 # nowWithDelta {#nowWithDelta}
 
-Retourneert de huidige datumtijd inclusief een verschuiving. Als een tijdzone-id wordt opgegeven, wordt de verschuiving van de tijdzone toegepast. Raadpleeg voor meer informatie over gegevenstypen [deze pagina](../expression/data-types.md).
+Retourneert de huidige datumtijd inclusief een verschuiving. Als een tijdzone-id wordt opgegeven, wordt de verschuiving van de tijdzone toegepast. Voor meer informatie over gegevenstypes, verwijs naar [ deze pagina ](../expression/data-types.md).
 
 ## Categorie
 
@@ -32,7 +33,7 @@ Datum
 |--- |--- |
 | delta | positieve of negatieve gehele waarde |
 | datumonderdeel | jaar, maanden, dagen, uren, minuten of seconden als een tekenreeks |
-| tijdzone-id | tekenreeksrepresentatie van de tijdzonewaarde. Zie voor meer informatie [Gegevenstypen](../expression/data-types.md). Tijdzone-id moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn. |
+| tijdzone-id | tekenreeksrepresentatie van de tijdzonewaarde. Voor meer, zie [ types van Gegevens ](../expression/data-types.md). Tijdzone-id moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn. |
 
 ## Handtekeningen en type geretourneerd
 

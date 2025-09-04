@@ -7,10 +7,11 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: differentCount, function, expression, trip
 exl-id: 8796ba91-5c64-43c2-a444-27ac8b719c86
-source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '138'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -58,4 +59,4 @@ Retourneert het aantal strikt verschillende objecten in de opgegeven array met o
 
 `distinctCount(@event{my_event.productListItems}, "SKU")`
 
-Retourneert het aantal objecten met een duidelijke waarde van het kenmerk &quot;SKU&quot;{}.
+Keert het aantal voorwerpen terug die een duidelijke &quot;SKU&quot;attributenwaarde {} hebben.

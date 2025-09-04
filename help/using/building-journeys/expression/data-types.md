@@ -8,10 +8,11 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: expression, data, data type, trip
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 2%
+source-wordcount: '616'
+ht-degree: 4%
 
 ---
 
@@ -31,7 +32,7 @@ JSON-indeling: String
 
 Serienummeringsindeling: UTF-8
 
-**Letterlijke weergave**
+**Letterlijke vertegenwoordiging**
 
 ```json
 "<value>"
@@ -59,7 +60,7 @@ Gehele waarde van -2^63 tot 2^63-1.
 
 JSON-indeling: Number
 
-**Letterlijke weergave**
+**Letterlijke vertegenwoordiging**
 
 ```json
 <integer value>
@@ -85,7 +86,7 @@ JSON-indeling: Number
 
 Serienummeringsindeling: gebruiken van &#39;.&#39; als decimaalteken.
 
-**Letterlijke weergave**
+**Letterlijke vertegenwoordiging**
 
 ```json
 <integer value>.<integer value>
@@ -105,7 +106,7 @@ Booleaanse waarde, in kleine letters geschreven: true of false
 
 JSON-indeling: Boolean
 
-**Letterlijke weergave**
+**Letterlijke vertegenwoordiging**
 
 ```json
 true
@@ -137,7 +138,7 @@ Deze kan worden ingekapseld in een toDateOnly-functie.
 
 Het gebruikt DateTimeFormatter ISO_LOCAL_DATE_TIME om de waarde te deserialiseren en in series te vervaardigen. [Meer informatie](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
 
-**Letterlijke weergave**
+**Letterlijke vertegenwoordiging**
 
 ```json
 date("<dateOnly in ISO-8601 format>")  
@@ -165,9 +166,9 @@ Het kan in een toDateTimeOnly functie worden ingekapseld.
 
 Serienummeringsindeling: ISO-8601 extended offset date-time format.
 
-Het gebruikt DateTimeFormatter ISO_LOCAL_DATE_TIME om de waarde te deserialiseren en in series te vervaardigen. [Meer informatie](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;){_blank}.
+Het gebruikt DateTimeFormatter ISO_LOCAL_DATE_TIME om de waarde te deserialiseren en in series te vervaardigen. [Meer informatie](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME"){_blank}.
 
-**Letterlijke weergave**
+**Letterlijke vertegenwoordiging**
 
 ```json
 date("<dateTimeOnly in ISO-8601 format>")  
@@ -200,7 +201,7 @@ U kunt ook een geheel getal doorgeven dat een epochwaarde doorgeeft. [Meer infor
 
 De tijdzone kan door een compensatie of een tijdzonecode worden gespecificeerd (voorbeeld: Europa/Parijs, Z - betekenend UTC).
 
-**Letterlijke weergave**
+**Letterlijke vertegenwoordiging**
 
 ```json
 toDateTime("<dateTime in ISO-8601 format>")
@@ -260,7 +261,7 @@ Serienummeringsindeling: als u een tijdzone-id wilt deserialiseren, wordt de jav
 
 Duration.parse: de toegestane notaties zijn gebaseerd op de ISO-8601-duurnotatie PnDTnHnMn.nS met dagen die worden beschouwd als precies 24 uur. [Meer informatie](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-){_blank}.
 
-**Letterlijke weergave**
+**Letterlijke vertegenwoordiging**
 
 ```json
 toDuration("<duration in ISO-8601 format>")
@@ -320,7 +321,7 @@ Door komma&#39;s gescheiden lijst met expressies waarbij vierkante haakjes als s
 
 Polymorfisme wordt niet ondersteund en daarom moeten alle uitdrukkingen in de lijst van hetzelfde type zijn.
 
-**Letterlijke weergave**
+**Letterlijke vertegenwoordiging**
 
 ```json
 [<expression>, <expression>, ... ]

@@ -7,10 +7,11 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: tobool, function, expression, trip
 exl-id: 0bb68d05-bb90-48b7-aff3-82ab15d55ebe
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 7%
+source-wordcount: '79'
+ht-degree: 5%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 7%
 Zet een argumentwaarde in een booleaanse waarde om, afhankelijk van het type.
 
 * Van tekenreeks: probeer de tekenreekswaarde om te zetten als een booleaanse waarde, van &quot;true&quot; als de tekenreekswaarde &quot;true&quot; is, anders false
-* Uit numeriek: true als de numerieke waarde niet gelijk is aan 0, false in andere gevallen
+* Uit numeriek: true wanneer de numerieke waarde niet gelijk is aan 0, anders false
 
 ## Categorie
 

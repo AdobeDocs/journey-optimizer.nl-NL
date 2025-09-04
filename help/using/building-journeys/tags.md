@@ -9,9 +9,10 @@ role: User
 level: Intermediate
 keywords: reis, tags
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -22,11 +23,11 @@ Als Journey Optimizer-expert kunt u uw reizen organiseren met tags. Met tags kun
 
 ## Tags toevoegen aan een rit
 
-De **Tags** in de reiseigenschappen kunt u tags voor uw reis definiëren. U kunt een bestaande tag selecteren of een nieuwe tag maken. Typ de naam van de gewenste tag en selecteer deze in de lijst. Als deze niet beschikbaar is, klikt u op **Maken** om een nieuwe te maken en deze aan uw reis toe te voegen. U kunt zo veel tags definiëren als nodig is.
+Het **gebied van Markeringen**, in de reiseigenschappen, staat u toe om markeringen voor uw reis te bepalen. U kunt een bestaande tag selecteren of een nieuwe tag maken. Typ de naam van de gewenste tag en selecteer deze in de lijst. Als het niet beschikbaar is, creeert de klik **** om nieuwe tot stand te brengen en het toe te voegen aan uw reis. U kunt zo veel tags definiëren als nodig is.
 
 ![](assets/tags1.png)
 
-De gedefinieerde lijst met tags wordt weergegeven onder de **Tags** veld.
+De lijst van bepaalde markeringen wordt getoond onder het **gebied van Markeringen**.
 
 >[!NOTE]
 >
@@ -42,13 +43,13 @@ Een filter is ook beschikbaar om alleen reizen met bepaalde tags weer te geven.
 
 ![](assets/tags2.png)
 
-U kunt tags toevoegen aan of verwijderen uit elk type transport (live, concept, enz.). Klik op de knop **Meer handelingen** pictogram naast de reis, en selecteer **Codes bewerken**.
+U kunt tags toevoegen aan of verwijderen uit elk type transport (live, concept, enz.). Klik het **Meer acties** pictogram naast de reis, en selecteer **uitgeven markeringen**.
 
 ![](assets/tags3.png)
 
 ## Tags beheren
 
-Beheerders kunnen tags verwijderen en deze op categorieën ordenen met de opdracht **Tags** menu, onder **ADMINISTRATIE**. Zie dit [documentatie](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=nl-NL).
+De beheerders kunnen markeringen schrappen en hen door categorieën organiseren gebruikend het **menu van Codes**, onder **BEHEER**. Verwijs naar deze [ documentatie ](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html).
 
 >[!NOTE]
 >

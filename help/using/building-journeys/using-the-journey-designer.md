@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 keywords: ontwerp, canvas, reis, interface, slepen, neerzetten
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '1614'
 ht-degree: 0%
@@ -85,7 +86,7 @@ Wanneer u uw reis met een gebeurtenis begint, wordt de reis teweeggebracht wanne
 
 U kunt **verscheidene gebeurtenissen** in uw reis toevoegen, zolang zij zelfde namespace gebruiken. Gebeurtenissen worden vooraf geconfigureerd. [ leer meer over reisgebeurtenissen ](about-journey-activities.md#event-activities)
 
-U kunt de gebeurtenis van de Reactie van de a **&#x200B;**&#x200B;na een bericht ook toevoegen om op het volgen van gegevens met betrekking tot het bericht te reageren. Op deze manier kunt u bijvoorbeeld een ander bericht verzenden als de persoon het vorige bericht heeft geopend of erin heeft geklikt. [ Leer meer over reactiegebeurtenissen ](reaction-events.md).
+U kunt de gebeurtenis van de Reactie van de a **** na een bericht ook toevoegen om op het volgen van gegevens met betrekking tot het bericht te reageren. Op deze manier kunt u bijvoorbeeld een ander bericht verzenden als de persoon het vorige bericht heeft geopend of erin heeft geklikt. [ Leer meer over reactiegebeurtenissen ](reaction-events.md).
 
 De gebeurtenisactiviteit van de Kwalificatie van het publiek van het gebruik **om individuen te maken ingaan of zich voorwaarts in een reis die op de publieksingangen en de uitgang van Adobe Experience Platform wordt gebaseerd.** U kunt alle nieuwe zilverklanten een reis maken en gepersonaliseerde berichten verzenden. Leer meer in deze [ sectie ](audience-qualification-events.md).
 

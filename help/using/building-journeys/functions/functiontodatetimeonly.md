@@ -7,7 +7,8 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: toDateTimeOnly, functie, expressie, transport
 exl-id: db54c119-5080-403a-b254-43645be6b4a8
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 7%
@@ -47,7 +48,7 @@ Retourneer een datetime zonder rekening te houden met tijdzone.
 
 `toDateTimeOnly ("2023-08-18")`
 
-retourneert een dateTime die 2023-08-18T00 vertegenwoordigt:00:00,000
+keert dateTime terug die 2023-08-18T00 :00: 00.000 vertegenwoordigt
 
 `toDateTimeOnly(now())`
 

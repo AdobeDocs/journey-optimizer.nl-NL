@@ -7,16 +7,17 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: toDuration, function, expression, trip
 exl-id: c78e30c5-99ee-4dc7-a03a-17f7ee65f83a
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 2%
+source-wordcount: '289'
+ht-degree: 1%
 
 ---
 
 # toDuration {#toDuration}
 
-Zet een argumentwaarde in een duur om. Raadpleeg voor meer informatie over gegevenstypen [deze pagina](../expression/data-types.md).
+Zet een argumentwaarde in een duur om. Voor meer informatie over gegevenstypes, verwijs naar [ deze pagina ](../expression/data-types.md).
 
 ## Categorie
 
@@ -33,7 +34,7 @@ Conversie
 | string | formaten die gebaseerd zijn op de ISO-8601-duurnotatie PnDTnHnMn.nS met dagen waarvan wordt aangenomen dat ze precies 24 uur zijn |
 | integer | aantal milliseconden |
 
-If string expression: aanvaarde formaten zijn gebaseerd op de ISO-8601-duurnotatie PnDTnHnMn.nS met dagen die precies 24 uur worden geacht.
+Als tekenreeksexpressie: geaccepteerde notaties zijn gebaseerd op de ISO-8601-duurnotatie PnDTnHnMn.nS met dagen die worden beschouwd als precies 24 uur.
 
 De tekenreeks begint met een optioneel teken, aangeduid met het negatieve of positieve ASCII-symbool. Indien negatief, wordt de hele periode genegeerd. De ASCII-letter &quot;P&quot; staat vervolgens in hoofdletters of kleine letters. Er zijn dan vier secties, elk bestaande uit een getal en een achtervoegsel. De secties hebben achtervoegsels in ASCII van &quot;D&quot;, &quot;H&quot;, &quot;M&quot; en &quot;S&quot; gedurende dagen, uren, minuten en seconden, die in hoofdletters of in kleine letters worden geaccepteerd. De achtervoegsels moeten op volgorde voorkomen. De ASCII-letter &quot;T&quot; moet vóór het eerste exemplaar van een uur-, minuut- of tweede sectie plaatsvinden, indien aanwezig. Ten minste één van de vier delen moet aanwezig zijn en indien &quot;T&quot; aanwezig is, moet er ten minste één deel na &quot;T&quot; aanwezig zijn. Het nummerdeel van elke sectie moet uit een of meer ASCII-cijfers bestaan. Het getal kan worden voorafgegaan door het negatieve of positieve ASCII-symbool. Het aantal dagen, uren en minuten moet worden geparseerd. Het aantal seconden moet samen met de optionele breuk parseren. Het decimale punt kan een punt of een komma zijn. Het fractionele deel kan van nul tot 9 cijfers hebben.
 

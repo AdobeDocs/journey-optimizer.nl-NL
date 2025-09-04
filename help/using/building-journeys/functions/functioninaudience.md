@@ -7,7 +7,8 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inPubliek, functie, expressie, reis
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 385e27fd4ea34f6a10b8da6b99a2c888edf9d57e
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 3%
@@ -31,7 +32,7 @@ Soorten publiek kan twee statussen hebben:
 * gerealiseerd: Entiteit komt in aanmerking voor de segmentdefinitie.
 * verlaten: De entiteit verlaat de segmentdefinitie.
 
-Slechts zullen de individuen met de **Realized** status van de publieksparticipatie als leden van het publiek worden beschouwd. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [ documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=nl-NL#interpret-segment-results).
+Slechts zullen de individuen met de **Realized** status van de publieksparticipatie als leden van het publiek worden beschouwd. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [ documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results).
 
 `inAudience('audienceName') == true` betekent dat u een segmentLidmaatschap met de ingegaan status hebt.
 

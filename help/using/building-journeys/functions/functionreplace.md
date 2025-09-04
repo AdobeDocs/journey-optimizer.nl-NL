@@ -7,10 +7,11 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: replace, function, expression, trip
 exl-id: 3eb35fd6-2d11-4f24-b0d9-5334e7ed7872
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 4%
+source-wordcount: '152'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +23,7 @@ De vervanging vindt plaats vanaf het begin van de tekenreeks tot het einde. Als 
 
 ## Categorie
 
-Tekenreeks
+String
 
 ## Functiesyntaxis
 
@@ -53,10 +54,10 @@ Retourneert &quot;Hexlo World&quot;.
 Omdat de doelparameter een RegExp is, moet u, afhankelijk van de tekenreeks die u wilt vervangen, mogelijk enkele tekens verwijderen. Hier volgt een voorbeeld:
 
 * te evalueren tekenreeks: `|OFFER_A|OFFER_B`
-* verstrekt door een profielattribuut `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
+* opgegeven door een profielkenmerk `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
 * Te vervangen tekenreeks: `|OFFER_A`
 * Tekenreeks vervangen door: `''`
-* U moet toevoegen `\\` vóór de `|` teken.
+* U moet `\\` vóór het `|` -teken toevoegen.
 
 De expressie is:
 

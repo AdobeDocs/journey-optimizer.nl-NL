@@ -7,10 +7,11 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: lengte, functie, expressie, reis
 exl-id: 22c32919-2936-417c-a668-4f6dbf8b759b
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 13%
+source-wordcount: '39'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +21,7 @@ Retourneert het aantal tekens van de tekenreeksexpressie in de parameter.
 
 ## Categorie
 
-Tekenreeks
+String
 
 ## Functiesyntaxis
 

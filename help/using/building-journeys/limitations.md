@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 keywords: reizen, beperking
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -29,7 +30,7 @@ Hier zijn beperkingen met betrekking tot het gebruik van reizen.
 
 ## Beperkingen van reisversies {#journey-versions-limitations}
 
-* Een reis die begint met een gebeurtenisactiviteit in v1 kan niet met iets anders beginnen dan een gebeurtenis in verdere versies. U kunt geen reis met een **gebeurtenis beginnen van de Kwalificatie van het publiek 0&rbrace;.**
+* Een reis die begint met een gebeurtenisactiviteit in v1 kan niet met iets anders beginnen dan een gebeurtenis in verdere versies. U kunt geen reis met een **gebeurtenis beginnen van de Kwalificatie van het publiek 0}.**
 * Een reis die met een **activiteit begint van de Kwalificatie van het Publiek** in v1 moet altijd met een **Kwalificatie van het Publiek** in verdere versies beginnen.
 * Het publiek en namespace die in **de Kwalificatie van het Publiek** (eerste knoop) worden gekozen kunnen niet in nieuwe versies worden veranderd.
 * De regel van de terugkeer moet het zelfde in alle reisversies zijn.
@@ -38,7 +39,7 @@ Hier zijn beperkingen met betrekking tot het gebruik van reizen.
 ## Beperkingen voor aangepaste handelingen {#custom-actions-limitations}
 
 * De URL van de aangepaste handeling ondersteunt geen dynamische parameters. 
-* Alleen methoden voor het aanroepen van POSTEN en PUTTEN worden ondersteund. 
+* Alleen aanroepmethoden POST en PUT worden ondersteund. 
 * De naam van de queryparameter of -header mag niet beginnen met &quot;.&quot; of &quot;$&quot;. 
 * IP-adressen zijn niet toegestaan. 
 * Interne Adobe-adressen (.adobe.) zijn niet toegestaan.

@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 keywords: springen, activiteit, reis, splitsen, splitsen
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 2%
@@ -59,8 +60,8 @@ Bij reis B wordt de eerste gebeurtenis intern geactiveerd via de **[!UICONTROL J
 
 * De **[!UICONTROL Jump]** -activiteit is alleen beschikbaar voor reizen die een naamruimte gebruiken.
 * U kunt alleen naar een reis springen die dezelfde naamruimte gebruikt als de oorspronkelijke reis.
-* U kunt niet aan een reis springen die met een **gebeurtenis van de Kwalificatie van het publiek 0&rbrace; &lbrace;of** Gelezen Publiek **begint.**
-* U kunt geen a **[!UICONTROL Jump]** activiteit en a **2&rbrace; gebeurtenis van de Kwalificatie van het Publiek of** Gelezen Publiek **in de zelfde reis hebben.**
+* U kunt niet aan een reis springen die met een **gebeurtenis van de Kwalificatie van het publiek 0} {of** Gelezen Publiek **begint.**
+* U kunt geen a **[!UICONTROL Jump]** activiteit en a **2} gebeurtenis van de Kwalificatie van het Publiek of** Gelezen Publiek **in de zelfde reis hebben.**
 * U kunt zoveel **[!UICONTROL Jump]** activiteiten opnemen als u nodig hebt voor een reis. Na een **[!UICONTROL Jump]** kunt u alle benodigde activiteiten toevoegen.
 * U kunt zo veel sprongniveaus hebben zoals nodig. Zo springt een A naar reis B, die naar reis C gaat, enzovoort.
 * De doeltocht kan ook zoveel **[!UICONTROL Jump]** activiteiten omvatten als nodig is.
@@ -82,7 +83,7 @@ Bij reis B wordt de eerste gebeurtenis intern geactiveerd via de **[!UICONTROL J
    ![](assets/jump2.png)
 
 1. Klik binnen het **reis van het Doel** gebied.
-In de lijst worden alle reisversies weergegeven die concept, live of in de testmodus zijn. De reizen die een verschillende namespace gebruiken of die met een **gebeurtenis van de Kwalificatie van het publiek 0&rbrace; beginnen zijn niet beschikbaar.** Doeltrajecten die een luspatroon zouden maken, worden ook uitgefilterd.
+In de lijst worden alle reisversies weergegeven die concept, live of in de testmodus zijn. De reizen die een verschillende namespace gebruiken of die met een **gebeurtenis van de Kwalificatie van het publiek 0} beginnen zijn niet beschikbaar.** Doeltrajecten die een luspatroon zouden maken, worden ook uitgefilterd.
 
    ![](assets/jump3.png)
 

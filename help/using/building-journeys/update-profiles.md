@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 keywords: profiel, update, reis, activiteit
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 0%
@@ -33,13 +34,13 @@ Met de **[!UICONTROL Update Profile]** -actieactiviteit kunt u een bestaand Adob
 * Net als bij andere acties kunt u een alternatief pad definiëren in het geval van een fout of time-out. U kunt geen twee acties parallel plaatsen.
 * Het updateverzoek dat naar Adobe Experience Platform wordt verzonden, is onmiddellijk of binnen een seconde. Het duurt normaal een paar seconden, maar soms nog meer zonder garantie. Dientengevolge, bijvoorbeeld, als een actie &quot;gebied 1&quot;gebruikt dat door een **wordt bijgewerkt actie van het Profiel van de Update** wordt geplaatst juist vóór, zou u niet moeten verwachten dat &quot;gebied 1&quot;in de actie zal worden bijgewerkt.
 * De **het profiel van de Update** activiteit steunt geen gebieden XDM die als opsommingen of voorgestelde waarden worden bepaald.
-* De **[!UICONTROL Update profile]** activiteit werkt slechts de [ Opslag van het Profiel ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl-NL#profile-data-store){target="_blank"} bij, niet het meer van Gegevens.
+* De **[!UICONTROL Update profile]** activiteit werkt slechts de [ Opslag van het Profiel ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"} bij, niet het meer van Gegevens.
 
 ## Selectie gegevensset {#dataset-selection}
 
 De **activiteit van het Profiel van de Update** vereist een specifieke dataset om updates op te slaan. Aangezien deze activiteit slechts de opslag van het Profiel (niet Datalake) bijwerkt, zouden alle updates in een profiel-toegelaten dataset specifiek moeten worden bewaard die voor **wordt aangewezen de acties van het Profiel van de Update**. Het gebruiken van een dataset die voor partij of het stromen ingeslikt wordt gebruikt zal in onlangs onberen gegevens resulteren die de veranderingen beschrijven die door de **actie van het Profiel van de Update** worden aangebracht.
 
-Bovendien, vereist de **activiteitenconfiguratie van het Profiel van de 0&rbrace; Update &lbrace;geen identiteit namespace.** Als dusdanig, zorg ervoor dat de geselecteerde dataset het zelfde **Gebruik van de Identiteit namespace** dat door de actie werd gebruikt die de reis lanceerde aangezien het dit namespace is deze updates zullen gebruiken. De identiteitskaart kan ook door de geselecteerde dataset worden gebruikt. Als u geen gegevensset selecteert met de juiste naamruimte of met een identiteitskaart, mislukt de activiteit Profiel bijwerken.
+Bovendien, vereist de **activiteitenconfiguratie van het Profiel van de 0} Update {geen identiteit namespace.** Als dusdanig, zorg ervoor dat de geselecteerde dataset het zelfde **Gebruik van de Identiteit namespace** dat door de actie werd gebruikt die de reis lanceerde aangezien het dit namespace is deze updates zullen gebruiken. De identiteitskaart kan ook door de geselecteerde dataset worden gebruikt. Als u geen gegevensset selecteert met de juiste naamruimte of met een identiteitskaart, mislukt de activiteit Profiel bijwerken.
 
 ## De profielupdate gebruiken
 

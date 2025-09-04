@@ -7,10 +7,11 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: sort, function, expression, trip
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
-source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -72,11 +73,11 @@ Retourneert een lijst met objecten.
 
 `sort(["A", "C", "B"], true)`
 
-Retourneert `["A","B","C"]`.
+Retourneert `["A","B","C"]` .
 
 `sort([1, 3, 2], false)`
 
-Retourneert `[3, 2, 1]`.
+Retourneert `[3, 2, 1]` .
 
 `sort(@event{my_event.productListItems}, "SKU", true)`
 

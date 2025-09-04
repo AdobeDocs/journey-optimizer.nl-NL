@@ -8,7 +8,8 @@ role: User
 level: Intermediate
 keywords: publiceren, reizen, live, geldigheid, controle
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 8c8fb70baf66d2b48c81c6344717be18993141f8
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 0%
@@ -59,8 +60,8 @@ Tijdens de Droge Looppas, loopt de reis op simulatiemodus, die het volgende spec
 * **Gegevensbronnen**, met inbegrip van externe gegevensbronnen, en **wacht** activiteiten worden onbruikbaar gemaakt door gebrek tijdens de Droog looppas. Nochtans kunt u dit gedrag [ veranderen wanneer het activeren van de Dry looppaswijze ](#journey-dry-run-start).
 
 * **de knopen van de Reactie** worden niet uitgevoerd: alle profielen die het ingaan zullen met succes weggaan. De volgende prioriteitsregels zijn echter van toepassing:
-   * Als de knoop van de Reactie van de a **&#x200B;**&#x200B;met één of veelvoudige **unitaire gebeurtenisknopen** parallel wordt gebruikt, zullen de profielen altijd door de reactiegebeurtenis gaan.
-   * Als de knoop van de Reactie van de a **&#x200B;**&#x200B;met één of veelvoudige **3&rbrace; knopen van de reactiegebeurtenis &lbrace;parallel wordt gebruikt, zullen de profielen altijd door eerste op het canvas (bij de bovenkant) gaan.**
+   * Als de knoop van de Reactie van de a **** met één of veelvoudige **unitaire gebeurtenisknopen** parallel wordt gebruikt, zullen de profielen altijd door de reactiegebeurtenis gaan.
+   * Als de knoop van de Reactie van de a **** met één of veelvoudige **3} knopen van de reactiegebeurtenis {parallel wordt gebruikt, zullen de profielen altijd door eerste op het canvas (bij de bovenkant) gaan.**
 
 >[!CAUTION]
 >

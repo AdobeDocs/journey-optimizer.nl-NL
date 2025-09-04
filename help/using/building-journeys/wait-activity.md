@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 keywords: wachten, activiteit, reis, volgende, canvas
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 3%
@@ -49,7 +50,7 @@ Een beste praktijk om **niet te gebruiken wacht** activiteiten om ingang te blok
 
 ### Wachten en testmodus {#wait-test-mode}
 
-Op testwijze, staat de **[!UICONTROL Wait time in test]** parameter u toe om de tijd te bepalen dat elk **&#x200B;**&#x200B;activiteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Leer meer op [ deze pagina ](../building-journeys/testing-the-journey.md).
+Op testwijze, staat de **[!UICONTROL Wait time in test]** parameter u toe om de tijd te bepalen dat elk **** activiteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Leer meer op [ deze pagina ](../building-journeys/testing-the-journey.md).
 
 ### Wachten en mobiele kanalen {#wait-mobile-channels}
 

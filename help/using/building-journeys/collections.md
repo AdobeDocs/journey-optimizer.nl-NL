@@ -8,7 +8,8 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 4%
@@ -136,7 +137,7 @@ Je kunt zien dat &#39;products&#39; een array van twee objecten is. U moet ten m
 
    ![](assets/uc-collection-4.png)
 
-Voor het matrixveld kunt u ook de geavanceerde expressie-editor gebruiken om gegevensbewerkingen uit te voeren. In het volgende voorbeeld, gebruiken wij de [ filter ](functions/functionfilter.md) en [&#128279;](functions/functionintersect.md) functies doorsnijden:
+Voor het matrixveld kunt u ook de geavanceerde expressie-editor gebruiken om gegevensbewerkingen uit te voeren. In het volgende voorbeeld, gebruiken wij de [ filter ](functions/functionfilter.md) en [ ](functions/functionintersect.md) functies doorsnijden:
 
 ![](assets/uc-collection-5.png)
 

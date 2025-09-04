@@ -8,7 +8,8 @@ role: User
 level: Intermediate
 keywords: terugkeer, reis, profiel, terugkerend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 1%
@@ -30,7 +31,7 @@ Met Adobe Journey Optimizer kunt u de volgende soorten reizen maken:
 
 * **leest publiek** reizen: Deze reizen beginnen met a **gelezen luisteraaractiviteit**. Wanneer de reis wordt uitgevoerd, komen profielen van het doelpubliek de reis binnen. Voor elk profiel wordt één exemplaar van deze reis gemaakt. Deze reizen kunnen terugkeren of &quot;one-shot&quot; zijn. [Meer informatie](#entry-read-audience)
 
-* **reizen van de kwalificatie van het publiek 0&rbrace; &lbrace;: deze reizen beginnen met een de kwalificatiegebeurtenis van het Publiek.** Deze reizen luisteren naar de in- en uitgangen van profielen in het publiek. Wanneer dit gebeurt, gaat het bijbehorende profiel de reis in. [Meer informatie](#entry-unitary)
+* **reizen van de kwalificatie van het publiek 0} {: deze reizen beginnen met een de kwalificatiegebeurtenis van het Publiek.** Deze reizen luisteren naar de in- en uitgangen van profielen in het publiek. Wanneer dit gebeurt, gaat het bijbehorende profiel de reis in. [Meer informatie](#entry-unitary)
 
 In alle vervoerstypes, kan een profiel niet veelvoudige tijden in de zelfde reis, tezelfdertijd, voor alle actieve [ versies van de reis ](publishing-the-journey.md#journey-versions-journey-versions) zijn. Om te controleren of een persoon op reis is, wordt de profielidentiteit gebruikt als sleutel. Het systeem staat niet toe dat dezelfde sleutel, bijvoorbeeld de sleutel `CRMID=3224`, zich op verschillende plaatsen op dezelfde reis bevindt.
 

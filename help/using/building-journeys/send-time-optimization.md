@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 keywords: send-time, send, message, optimization, trip, AI, Intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: 78b8b4d6e8cf49ab39150b7bc412bef009bbad2b
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '1485'
 ht-degree: 0%
@@ -132,7 +133,7 @@ Organisaties zullen waarschijnlijk meer baat hebben bij het gebruik van Send-Tim
 
 +++
 
-+++Ik klik altijd op e-mails of pushberichten om 12.00 uur, waarom heeft het algoritme geen bericht naar me gestuurd om 12.00 uur?
++++Ik klik altijd op e-mails of push-berichten om 12.00 uur, waarom heeft het algoritme geen bericht naar me gestuurd om 12.00 uur?
 
 
 Dit kan om meerdere redenen gebeuren:
@@ -149,7 +150,7 @@ De optimalisering van de Send-Tijd gebruikt het `timeZone` profielgebied om de t
 +++
 
 
-+++Zal de Optimalisering van de Send-Time verzenden duwende berichten naar gebruikers tijdens de nacht in hun lokale tijdzone?
++++Zal de Optimalisering van de Send-Time Push berichten naar gebruikers tijdens de nacht in hun lokale tijdzone verzenden?
 
 De optimalisering van de Send-Tijd kan de pushberichten naar gebruikers tijdens de nacht in hun lokale tijdzone in de volgende omstandigheden verzenden:
 

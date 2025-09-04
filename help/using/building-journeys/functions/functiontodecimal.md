@@ -7,10 +7,11 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: decimaal, functie, expressie, transport
 exl-id: d761fa4d-5f99-4dee-b747-3eab464c4071
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 9%
+source-wordcount: '80'
+ht-degree: 6%
 
 ---
 
@@ -32,7 +33,7 @@ Conversie
 |--- |--- |
 | string | converteert de tekenreekswaarde als een decimaal |
 | dateTime | zet de datum om als aantal milliseconden (epoch milliseconds) |
-| boolean | Zet de booleaanse waarde om als 1 indien true, 0 indien false |
+| boolean | Zet de booleaanse waarde om als 1 indien waar (true), 0 indien onwaar (false) |
 | integer | wordt omgezet in decimaal (voorbeeld.: 1 wordt 1,0) |
 
 ## Handtekeningen en geretourneerde typen

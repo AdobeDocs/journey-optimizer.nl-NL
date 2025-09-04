@@ -7,10 +7,11 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: in, function, expression, trip
 exl-id: 629b7aa3-8904-453b-ba3c-c6a333b13c81
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 14%
+ht-degree: 3%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 14%
 
 Controleert of de waarde van het eerste argument in de lijst voorkomt. De controle wordt uitgevoerd door Gelijk op elke argumentwaarde. De waarde wordt true geretourneerd als de argumentwaarde wordt gevonden, anders false.
 
-Het type van `<expression>` moet overeenkomen met items in de lijst. Typen items in de lijst moeten, ter herinnering, met elkaar overeenkomen.
+Het type van `<expression>` moet met punten van de lijst aanpassen. Typen items in de lijst moeten, ter herinnering, met elkaar overeenkomen.
 
 ## Categorie
 
@@ -32,7 +33,7 @@ Lijst
 
 | Parameter | Type |
 |-----------|------------------|
-| Tekenreeks | Tekenreeks |
+| String | String |
 | Boolean | Boolean |
 | Geheel | Geheel |
 | Decimaal | Decimaal |

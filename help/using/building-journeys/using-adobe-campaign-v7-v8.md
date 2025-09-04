@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 keywords: reis, integratie, campagne, v7, v8
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%
@@ -25,14 +26,14 @@ ht-degree: 0%
 
 Integratie is beschikbaar als u Adobe Campaign v7 of v8 hebt. Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden van Adobe Campaign Transaction Messaging.
 
-De verbinding tussen de Journey Optimizer en de instanties van de Campagne is opstelling door Adobe bij leveringstijd. Neem contact op met de Adobe.
+De verbinding tussen de Journey Optimizer- en Campagneinstanties wordt door Adobe tijdens de levering ingesteld. Neem contact op met Adobe.
 
-Om dit te werken, moet u een specifieke actie vormen. Zie dit [sectie](../action/acc-action.md).
+Om dit te werken, moet u een specifieke actie vormen. Verwijs naar deze [ sectie ](../action/acc-action.md).
 
-In dit hoofdstuk wordt een gebruiksgeval van begin tot eind weergegeven [sectie](../building-journeys/ajo-ac.md).
+Een gebruiksgeval van begin tot eind wordt voorgesteld in deze [ sectie ](../building-journeys/ajo-ac.md).
 
-1. Ontwerp uw reis, te beginnen met een gebeurtenis. Zie dit [sectie](../building-journeys/journey.md).
-1. In de **Handeling** selecteert u een Campagne-actie en voegt u deze toe aan uw reis.
-1. In de **Handelingsparameters**, worden alle velden weergegeven die in de berichtlading worden verwacht. U moet elk van deze gebieden met het gebied in kaart brengen u, of van de gebeurtenis of van de gegevensbron wilt gebruiken. Dit is vergelijkbaar met aangepaste handelingen. Zie dit [sectie](../building-journeys/using-custom-actions.md).
+1. Ontwerp uw reis, te beginnen met een gebeurtenis. Zie deze [ sectie ](../building-journeys/journey.md).
+1. In de **sectie van de Actie** van het palet, selecteer een actie van de Campagne en voeg het aan uw reis toe.
+1. In de **parameters van de Actie**, worden alle gebieden die in de berichtlading worden verwacht getoond. U moet elk van deze gebieden met het gebied in kaart brengen u, of van de gebeurtenis of van de gegevensbron wilt gebruiken. Dit is vergelijkbaar met aangepaste handelingen. Verwijs naar deze [ sectie ](../building-journeys/using-custom-actions.md).
 
 ![](assets/accintegration2.png)

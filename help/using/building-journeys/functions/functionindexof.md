@@ -7,10 +7,11 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: indexOf, function, expression, trip
 exl-id: 3b57be48-8dc5-4207-9ebb-664ff3e1fb3c
-source-git-commit: 383ab306401bc52717a9818e871100993e1ff2ff
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 14%
+source-wordcount: '67'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +21,7 @@ Retourneert de positie (in het eerste argument) van de eerste instantie van de t
 
 ## Categorie
 
-Tekenreeks
+String
 
 ## Functiesyntaxis
 
@@ -30,8 +31,8 @@ Tekenreeks
 
 | Parameter | Type |
 |-----------|------------------|
-| string | Tekenreeks |
-| opgegeven waarde | Tekenreeks |
+| string | String |
+| opgegeven waarde | String |
 
 ## Handtekening en type geretourneerd
 

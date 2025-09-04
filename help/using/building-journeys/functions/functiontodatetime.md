@@ -7,7 +7,8 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: toDateTime, function, expression, trip
 exl-id: 2b487e60-593e-4bf7-9639-f469ba0f5cdc
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 4%
@@ -37,7 +38,7 @@ Conversie
 
 >[!NOTE]
 >
->Tijdzone-id moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn. Raadpleeg voor meer informatie over gegevenstypen [deze pagina](../expression/data-types.md).
+>Tijdzone-id moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn. Voor meer informatie over gegevenstypes, verwijs naar [ deze pagina ](../expression/data-types.md).
 
 ## Handtekeningen en geretourneerde typen
 
@@ -47,7 +48,7 @@ Conversie
 
 `toDateTime(<integer>)`
 
-Retourneer een **dateTime**.
+Keer a **dateTime** terug.
 
 <!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 
@@ -74,15 +75,15 @@ Return a datetime.
 
 `toDateTime ("2023-08-18T23:17:59.123Z")`
 
-Retourneert 2023-08-18T23:17:59,123Z
+Keert 2023-08-18T23 :17: 59.123Z terug
 
 `toDateTime(toDateTimeOnly("UTC", "2023-08-18T23:17:59.123"))`
 
-Retourneert 2023-08-18T23:17:59,123Z
+Keert 2023-08-18T23 :17: 59.123Z terug
 
 `toDateTime(1560762190189)`
 
-Retourneert 2023-06-17T09:03:10,189Z
+Keert 2023-06-17T09 :03: 10.189Z terug
 
 <!--`toDateTime ("2016-08-18T23:17:59.123", "UTC")`
 

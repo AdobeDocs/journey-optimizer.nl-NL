@@ -10,7 +10,8 @@ hide: true
 hidefromtoc: true
 keywords: expressie, voorwaarde, use-case, gebeurtenissen
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 1%
@@ -164,4 +165,4 @@ substr(
 Uitleg: in dit voorbeeld worden `substr` - en `lastIndexOf` -functies gebruikt om accolades te verwijderen die de CRM-id omsluiten die is doorgegeven met een mobiele startgebeurtenis van de app.
 
 
-Voor meer op hoe te om de geavanceerde uitdrukkingsredacteur te gebruiken, let op [ deze video ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=nl-NL).
+Voor meer op hoe te om de geavanceerde uitdrukkingsredacteur te gebruiken, let op [ deze video ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html).

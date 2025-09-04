@@ -7,10 +7,11 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inNextYear, function, expression, trip
 exl-id: e4597772-d53c-4e15-8237-b2460ce31170
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 14%
+ht-degree: 10%
 
 ---
 

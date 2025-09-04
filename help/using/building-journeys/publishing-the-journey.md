@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 keywords: publiceren, reizen, live, geldigheid, controle
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 1%
@@ -87,4 +88,4 @@ Wanneer u een nieuwe versie van een reis publiceert, beëindigt de vorige versie
 
 Leer hoe u een reis publiceert in deze video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427938?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

@@ -8,7 +8,8 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: gevorderd, toestand, actie, reis
 exl-id: 5a5b35a7-e3b5-4dc0-8a87-e985956b04a4
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 De voorwaardelijke instructie (als vervolgens anders) wordt ondersteund in de geavanceerde editor. Hiermee kunnen complexere expressies worden gedefinieerd. Het bestaat uit de volgende elementen:
 
-* **[!UICONTROL if]**: de voorwaarde die eerst moet worden geëvalueerd.
+* **[!UICONTROL if]** : de voorwaarde die eerst moet worden geëvalueerd.
 * **[!UICONTROL then]**: de expressie die moet worden geëvalueerd als het resultaat van de evaluatie van de voorwaarde waar is.
 * **[!UICONTROL else]**: de expressie die moet worden geëvalueerd als het resultaat van de evaluatie van de voorwaarde onwaar is.
 
@@ -35,7 +36,7 @@ else
    (<expression3>)
 ```
 
-`<expression1>` moet een **boolean**.
+`<expression1>` moet a **boolean** terugkeren.
 
 `<expression2>` en `<expression3>` moeten hetzelfde type of compatibele typen hebben. De ondersteunde handtekeningen en geretourneerde typen zijn:
 

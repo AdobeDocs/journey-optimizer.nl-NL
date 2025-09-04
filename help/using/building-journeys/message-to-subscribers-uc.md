@@ -9,7 +9,8 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: reis, gebruiksgeval, bericht, abonnees, lijst, gelezen
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 2%
@@ -20,7 +21,7 @@ ht-degree: 2%
 
 Het doel van dit gebruiksgeval is een reis tot stand te brengen om een bericht naar de abonnees van een lijst te verzenden.
 
-In dit voorbeeld wordt de veldgroep **[!UICONTROL Consent and Preference Details]** van [!DNL Adobe Experience Platform] gebruikt. Kies **[!UICONTROL Schemas]** in het menu **[!UICONTROL Data Management]** om deze veldgroep te zoeken. Typ op het tabblad **[!UICONTROL Field groups]** de naam van de veldgroep in het zoekveld.
+In dit voorbeeld wordt de veldgroep **[!UICONTROL Consent and Preference Details]** van [!DNL Adobe Experience Platform] gebruikt. Kies **[!UICONTROL Data Management]** in het menu **[!UICONTROL Schemas]** om deze veldgroep te zoeken. Typ op het tabblad **[!UICONTROL Field groups]** de naam van de veldgroep in het zoekveld.
 
 ![ Deze gebiedsgroep omvat het abonnementselement ](assets/consent-and-preference-details-field-group.png)
 

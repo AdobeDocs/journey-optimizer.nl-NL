@@ -8,7 +8,8 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: reis, expressie, editor, eigenschappen
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
-source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # Eigenschappen voor reizen {#journey-properties}
 
-In de [eenvoudige expressie-editor](../condition-activity.md#about_condition)en in de [geavanceerde expressie-editor](../expression/expressionadvanced.md), onder de **Gebeurtenis** en **Gegevensbron** categorieën kunt u de **Reiseigenschappen** categorie. Deze categorie bevat technische velden die verband houden met de reis voor een bepaald profiel. Dit is de informatie die door het systeem wordt opgehaald van levende reizen, zoals de reis-ID, of de specifieke fouten die worden aangetroffen.
+In de [ eenvoudige uitdrukkingsredacteur ](../condition-activity.md#about_condition), en in de [ geavanceerde uitdrukkingsredacteur ](../expression/expressionadvanced.md), onder de **Gebeurtenis** en **Gegevensbron** categorieën, kunt u tot de **categorie van de Eigenschappen van de Reis** toegang hebben. Deze categorie bevat technische velden die verband houden met de reis voor een bepaald profiel. Dit is de informatie die door het systeem wordt opgehaald van levende reizen, zoals de reis-ID, of de specifieke fouten die worden aangetroffen.
 
 ![](../assets/journey-properties.png)
 
@@ -28,17 +29,17 @@ Het bevat bijvoorbeeld informatie over:
 * huidige stap, laatste huidige stap, enz.
 * geneste profielen
 
-  De lijst met velden is beschikbaar [in deze sectie](#journey-properties-fields).
+  De lijst van gebieden is beschikbaar [ in deze sectie ](#journey-properties-fields).
 
 U kunt deze velden gebruiken om expressies te maken. Tijdens de uitvoering van de reis worden de waarden direct van de reis opgehaald.
 
 Hieronder volgen enkele voorbeelden van gebruiksgevallen:
 
-* **Verworpen profielen vastleggen**: u kunt alle profielen verzenden die van een bericht worden uitgesloten door een plafondregel aan een derdesysteem voor het registreren. Hiervoor stelt u een pad in in het geval van een time-out en een fout en voegt u een voorwaarde toe om te filteren op een specifiek fouttype, bijvoorbeeld: &quot;Verwijder mensen door op de regel te tikken&quot;. U kunt de verwijderde profielen vervolgens via een aangepaste handeling naar een systeem van een andere fabrikant duwen.
+* **Logboek verwierp profielen**: u kunt alle profielen verzenden die van een bericht door een afschilderingsregel aan een derdesysteem voor het registreren doeleinden worden uitgesloten. Hiervoor stelt u een pad in in het geval van een time-out en een fout en voegt u een voorwaarde toe om te filteren op een specifiek fouttype, bijvoorbeeld: &quot;Verwijder mensen door op de regel te tikken&quot;. U kunt de verwijderde profielen vervolgens via een aangepaste handeling naar een systeem van een andere fabrikant duwen.
 
-* **Waarschuwingen verzenden bij fouten**: u kunt een bericht naar een systeem van een derde verzenden telkens als een fout op een bericht voorkomt. Hiervoor stelt u een pad in in het geval van een fout, voegt u een voorwaarde en een aangepaste handeling toe. U kunt bijvoorbeeld een melding verzenden naar een kanaal van de Slack met de beschrijving van de aangetroffen fout.
+* **verzendt alarm in het geval van fouten**: u kunt een bericht naar een derdesysteem verzenden telkens als een fout op een bericht voorkomt. Hiervoor stelt u een pad in in het geval van een fout, voegt u een voorwaarde en een aangepaste handeling toe. U kunt bijvoorbeeld een melding verzenden naar een Slack-kanaal met een beschrijving van de aangetroffen fout.
 
-* **Fouten in rapportage verfijnen** : in plaats van slechts één pad voor foutmeldingen te hebben, kunt u een voorwaarde per fouttype definiëren. Hierdoor kunt u de rapportage verfijnen en alle gegevens van fouttypen weergeven.
+* **verfijnen fouten in het melden**: in plaats van het hebben van enkel één weg voor berichten in fout, kunt u een voorwaarde per foutentype bepalen. Hierdoor kunt u de rapportage verfijnen en alle gegevens van fouttypen weergeven.
 
 ## Lijst met velden {#journey-properties-fields}
 

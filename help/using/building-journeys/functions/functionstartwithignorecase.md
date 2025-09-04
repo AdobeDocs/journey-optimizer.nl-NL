@@ -7,10 +7,11 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: startWithIgnoreCase, function, expression, trip
 exl-id: b6bd9f77-272f-4c2b-b085-20ab5f043793
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 14%
+ht-degree: 8%
 
 ---
 
@@ -20,7 +21,7 @@ Retourneert true als de tweede parameter een voorvoegsel van de eerste is zonder
 
 ## Categorie
 
-Tekenreeks
+String
 
 ## Functiesyntaxis
 

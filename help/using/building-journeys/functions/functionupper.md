@@ -1,16 +1,17 @@
 ---
 product: journey optimizer
 title: upper
-description: Meer informatie over de functie boven
+description: Meer informatie over het bovenste gedeelte van de functie
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
 keywords: upper, function, expression, trip
 exl-id: 09e11d52-2d52-4479-b67f-6dd53b00a861
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '32'
-ht-degree: 15%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +21,7 @@ Retourneert een hoofdletterversie van de parameter.
 
 ## Categorie
 
-Tekenreeks
+String
 
 ## Functiesyntaxis
 

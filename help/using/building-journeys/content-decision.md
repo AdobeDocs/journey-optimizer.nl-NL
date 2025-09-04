@@ -10,7 +10,8 @@ level: Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: activiteit, besluitvorming, inhouds-beslissing, beslissingsbeleid, canvas, reis
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
-source-git-commit: 2ca37e17b788357f0b8f135c1a5889aa5145cb2f
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '1080'
 ht-degree: 1%
@@ -167,7 +168,7 @@ Hieronder ziet u het volledige voorbeeld van een reis waarbij een activiteit voo
 
 <!--When all activities are properly configured and saved, [publish](publishing-the-journey.md) your journey.-->
 
-Zodra de reis [&#128279;](publishing-the-journey.md) wordt geactiveerd:
+Zodra de reis [ ](publishing-the-journey.md) wordt geactiveerd:
 
 <!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 

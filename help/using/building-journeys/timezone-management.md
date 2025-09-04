@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 keywords: tijdzone, eigendommen, transport, conditie, tijd, datum, aangepast
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
@@ -63,7 +64,7 @@ Als een tijdzone voor een profiel is gedefinieerd, zal het door de reis worden t
 
 >[!NOTE]
 >
->De streek van de profieltijd werkt met het **timeZone** gebied bestaand in de **3&rbrace; gebiedsgroep van de Details van de Voorkeur &lbrace;.**
+>De streek van de profieltijd werkt met het **timeZone** gebied bestaand in de **3} gebiedsgroep van de Details van de Voorkeur {.**
 
 ## Tijdzones gebruiken in expressies {#timezone-in-expressions}
 
