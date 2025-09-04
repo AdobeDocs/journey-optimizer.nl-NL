@@ -13,9 +13,9 @@ hidefromtoc: true
 hide: true
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 7d57767fcfacbba3a4ec2d1279937ca63ffb8c48
+source-git-commit: 3cda7aad46e6961c7d19706bad060565b92d7b19
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ Stel dat u drie paden wilt vergelijken:
 
 Zodra de reis levend is, worden de gebruikers willekeurig toegewezen om verschillende wegen te gaan. [!DNL Journey Optimizer] houdt bij welk pad het beste presteert en biedt activeerbare inzichten.
 
-Volg het succes van uw reis met het rapport van de Experiment van de Weg van de Reis.<!--Reporting page on Journey Path Experimentation to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+<!--Follow the success of your journey with the Journey Path Experiment report.Reporting page on Journey Path Experimentation to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
 
 ### Gebruiksscenario&#39;s bij experimenten {#uc-experiment}
 
@@ -204,7 +204,7 @@ Volg de onderstaande stappen om doelgericht te kiezen op een reis.
 
 Zodra de reis levend is, wordt de weg die voor elk segment wordt gespecificeerd verwerkt zodat de Gouden leden de weg met de e-mailaanbiedingen ingaan, terwijl de andere leden de weg met de herinnering van SMS ingaan.
 
-Volg het succes van uw reis met het Targeting rapport van de Weg van de Reis.<!--Reporting page on Journey Path Targeting to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+<!--Follow the success of your journey with the Journey Path Targeting report.Reporting page on Journey Path Targeting to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
 
 ### Gebruiksgevallen voor regel instellen {#uc-targeting}
 
