@@ -310,7 +310,7 @@ Verwijs naar deze sectie om te leren hoe te [ de criteria van de de uitgang van 
 
 ### Afvoerkanalen en beperkingen {#exit-criteria-guardrails}
 
-De volgende guardrails en de beperkingen zijn op het [ vermogen van de Criteria van de Uitgang 0} van de Reis {van toepassing:](#exit-criteria-desc)
+De volgende guardrails en de beperkingen zijn op het [ vermogen van de Criteria van de Uitgang 0&rbrace; van de Reis &lbrace;van toepassing:](#exit-criteria-desc)
 
 * Afsluitingscriteria worden alleen in de ontwerpstatus gedefinieerd
 * Reis namespace coherentie tussen gebeurtenissen en op gebeurtenis-gebaseerde uitgangscriteria
