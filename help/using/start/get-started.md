@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: e758e4f3532d9f1abb7a564431993c11032804ba
+source-git-commit: ab23386f22e6b585df412ccab039576a51a3ce20
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 2%
+source-wordcount: '847'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en combineert een uniform, realtime klantprofiel, een API-eerste open framework, gecentraliseerde besluitvorming over aanbiedingen en kunstmatige intelligentie (AI) en computertraining (ML) voor personalisatie en optimalisatie. Met Journey Optimizer kunnen merken op intelligente wijze bepalen wat de volgende beste interactie is met schaal, snelheid en flexibiliteit voor de hele reis van de klant. Met [!DNL Adobe Journey Optimizer] kunnen bedrijven zowel geplande marketingcampagnes (zoals wekelijkse promoties voor een detailhandel) als op maat gesneden individuele communicatie (zoals een pushmelding voor een item dat een klant van een loyauteit-app eerder heeft bekeken) binnen dezelfde toepassing maken en leveren.
 
-➡️ [ ontdekt Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=nl-NL){target="_blank"} (video)
+➡️ [ ontdekt Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html){target="_blank"} (video)
 
 
 <!-- Use [!DNL Adobe Journey Optimizer] to build multi-step customer journeys that initiate a sequence of interactions, offers, and messages across channels in real time. This approach ensures customers are engaged at the optimal moments based on their actions and relevant business signals. Learn how to build journeys in [this section](../building-journeys/journey-gs.md).
@@ -49,18 +49,16 @@ De belangrijkste mogelijkheden omvatten:
 
 * **Echte Inzichten &amp; Betrokkenheid van de Klant in real time** - een geïntegreerd profiel gebruikt levende gegevens van alle bronnen over klantenaanraakpunten, met inbegrip van gedrag, transactie, financiële, en operationele gegevens om persoonlijke en contextuele ervaringen voor klanten in hun tijd te optimaliseren.
 
-* **Modern Omnichannel Orchestration &amp; Execution** - één enkel canvas waarop om de klantenreis voor 1:1 klantenovereenkomst en marketing te harmoniseren en te optimaliseren klant outach-om brands te helpen meer waarde over de klantenlevenscyclus leveren. De reizen van de klant die in [!DNL Adobe Journey Optimizer] worden ontworpen kunnen dynamisch zijn en gebeurtenis gebaseerd om brands te helpen op signalen in real time reageren evenals die interactie met geplande campagnes te verbinden zodat kunnen de juiste besluiten over welke mededelingen worden gemaakt om een klant te verzenden, wanneer en door welke kanalen.
+* **Modern Omnichannel Orchestration &amp; Execution** - één enkel canvas waarop om de klantenreis voor 1 :1 klantenovereenkomst te harmoniseren en te optimaliseren klantenovereenkomst en marketing outreach-om brands te helpen meer waarde over de klantenlevenscyclus leveren. De reizen van de klant die in [!DNL Adobe Journey Optimizer] worden ontworpen kunnen dynamisch zijn en gebeurtenis gebaseerd om brands te helpen op signalen in real time reageren evenals die interactie met geplande campagnes te verbinden zodat kunnen de juiste besluiten over welke mededelingen worden gemaakt om een klant te verzenden, wanneer en door welke kanalen.
 
 * **Intelligente Beslissing &amp; Personalization** - de merknamen kunnen gecentraliseerd besluit toepassen en kunstmatige intelligentie en machine het leren opnemen aan configuratieterugzicht door de klantenervaring, makend het gemakkelijker om besluiten te automatiseren en de ervaring op schaal te optimaliseren. Met beslissingsbevoegdheden worden gecentraliseerde aanbiedingen via kanalen op schaal [!DNL Adobe Journey Optimizer] mogelijk gemaakt.
 
 
 >[!NOTE]
 >
->* De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [ toestemmingen ](../administration/permissions.md) en van uw [ vergunning gevend pakket ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af. Neem voor alle vragen contact op met de Adobe Customer Success Manager of uw Adobe-vertegenwoordiger.
+>* De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [ toestemmingen ](../administration/permissions.md) en van uw [ vergunning gevend pakket ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af. Neem voor alle vragen contact op met de Adobe Customer Success Manager of uw Adobe-vertegenwoordiger.
 >
 >* Algemene richtlijnen en procedures voor privacy in Adobe Experience Cloud zijn van toepassing op [!DNL Journey Optimizer] . [ Leer meer over de privacy van Adobe Experience Cloud ](https://www.adobe.com/privacy/experience-cloud.html){target="_blank"}.
-
-
 
 
 ## Architectuur {#architecture}
@@ -78,6 +76,12 @@ De kernfunctionaliteit en -services van Journey Optimizer werken voor de basisco
 ![](assets/ajo-architecture-diagram.png){width="70%" zoomable="yes"}
 
 
+### Adobe Journey Optimizer Blueprints
+
+De blauwdrukken voor digitale ervaringen bieden systeem- en gegevensstroomarchitectuurdiagrammen om beter te begrijpen hoe Adobe Experience Platform en toepassingen worden geïntegreerd en geïmplementeerd. De blauwdrukken bieden een visuele weergave van gegevens- en inhoudsstromen tussen systemen en componenten, de volgorde van bewerkingen en afhankelijkheden om te helpen bij het ontwerpen van gebruiksgevallen en de architectuur van Adobe Experience Platform en toepassingen.
+
+Zie [ de blauwdrukken van Adobe Journey Optimizer ](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}.
+
 
 >[!MORELIKETHIS]
 >
@@ -85,3 +89,4 @@ De kernfunctionaliteit en -services van Journey Optimizer werken voor de basisco
 >* [ reizen van het Ontwerp en verzend berichten ](../building-journeys/journey-gs.md)
 >* [ Levende rapporten ](../reports/live-report.md)
 >* [ het Overzicht van de Veiligheid van Journey Optimizer ](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)
+>* [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.htm){target="_blank"}

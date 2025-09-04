@@ -8,10 +8,10 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: gebruiksgeval, meerkanaals, reis, gebeurtenissen
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: 27d1ada9f501cd30fdb57104377845de75eff1b0
+source-git-commit: ab23386f22e6b585df412ccab039576a51a3ce20
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 1%
+source-wordcount: '467'
+ht-degree: 0%
 
 ---
 
@@ -134,14 +134,29 @@ Blader in de volgende blogberichten naar meer instructies en tips voor het maken
 <img alt="Stap gebeurtenissen in uw reizen" src="../assets/do-not-localize/list.jpeg">
 <div>
 <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024" target="_blank"> het beheersen Gebeurtenissen van de Stap in Adobe Journey Optimizer: Grondbeginselen, Schema, en Essentiële Vragen voor gegevens-gedreven Campagnes
-</a>
+</a></p>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658" target="_blank">Hoofdlettergebruik: snelle externe Audience Activation met aangepaste upload</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/personalization-beyond-the-ajo-profile-bringing-non-profile/ba-p/769225" target="_blank">Hoofdlettergebruik: Personalization buiten het profiel
+</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/take-flight-with-personalization-how-airlines-can-elevate-offers/ba-p/767513" target="_blank">Ga naar Personalization: Hoe luchtvaartmaatschappijen aanbiedingen met Adobe Journey Optimizer kunnen verhogen
+</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-real-time-personalization-a-marketer-s-guide-to-aem/ba-p/762606" target="_blank">Personalization in real time beheren: een gids van de Markering aan de Fragments van de Inhoud van AEM en Adobe Journey Optimizer
+</a></p>
 </div>
 <p></td>
 <td>
 <img alt="Aangepaste acties" src="../assets/do-not-localize/step-event.jpeg">
-<div><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323" target="_blank"> hoe te om Adobe Journey Optimizer met de Acties van de Douane uit te breiden: De Gevallen van het Gebruik van de integratie
-</a>
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323" target="_blank">Hoe te om Adobe Journey Optimizer met de Acties van de Douane uit te breiden: De Gevallen van het Gebruik van de integratie
+</a></p>
 </div>
-<p></td>
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/breaking-down-barriers-how-adobe-journey-optimizer-s-custom/ba-p/759223" target="_blank">De functie Aangepaste delegatie van Adobe Journey Optimizer lost problemen met de naleving van de Enterprise-regels op
+</a></p>
+</div>
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/line-in-ajo-from-first-campaign-to-advanced-expression-fragment/ba-p/771048" target="_blank">REGEL in Journey Optimizer: Van eerste campagne tot Geavanceerde voorbeelden voor expressiefragment en aangepaste handelingen
+</a></p>
+</div>
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-universal-link-integration-guide-for-ios/ba-p/768669" target="_blank">Journey Optimizer Universal Link Integration Guide voor iOS
+</a></p>
+</div>
+</td>
 </tr></table>
