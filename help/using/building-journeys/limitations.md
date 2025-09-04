@@ -30,7 +30,7 @@ Hier zijn beperkingen met betrekking tot het gebruik van reizen.
 
 ## Beperkingen van reisversies {#journey-versions-limitations}
 
-* Een reis die begint met een gebeurtenisactiviteit in v1 kan niet met iets anders beginnen dan een gebeurtenis in verdere versies. U kunt geen reis met een **gebeurtenis beginnen van de Kwalificatie van het publiek 0}.**
+* Een reis die begint met een gebeurtenisactiviteit in v1 kan niet met iets anders beginnen dan een gebeurtenis in verdere versies. U kunt geen reis met een **gebeurtenis beginnen van de Kwalificatie van het publiek 0&rbrace;.**
 * Een reis die met een **activiteit begint van de Kwalificatie van het Publiek** in v1 moet altijd met een **Kwalificatie van het Publiek** in verdere versies beginnen.
 * Het publiek en namespace die in **de Kwalificatie van het Publiek** (eerste knoop) worden gekozen kunnen niet in nieuwe versies worden veranderd.
 * De regel van de terugkeer moet het zelfde in alle reisversies zijn.

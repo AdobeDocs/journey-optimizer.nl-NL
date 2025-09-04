@@ -90,7 +90,7 @@ De gebeurtenis is nu geconfigureerd en klaar om in de reis te worden gebruikt. M
 
    ![](assets/jo-uc5.png)
 
-1. Voeg de gebeurtenis van de Reactie van de a **** toe en selecteer **Geopende E-mail**. De gebeurtenis wordt geactiveerd wanneer een persoon die tot het publiek behoort, het e-mailbericht opent.
+1. Voeg de gebeurtenis van de Reactie van de a **&#x200B;**&#x200B;toe en selecteer **Geopende E-mail**. De gebeurtenis wordt geactiveerd wanneer een persoon die tot het publiek behoort, het e-mailbericht opent.
 
 1. Controle **bepaalt de gebeurtenisonderbreking** doos, bepaalt een duur (1 dag in dit voorbeeld), en controle **plaatste een onderbrekingspad**. Hiermee maakt u een ander pad voor personen die het eerste pushbericht of e-mailbericht niet openen.
 

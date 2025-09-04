@@ -140,7 +140,7 @@ Volg de instructies en aanbevelingen hieronder om de reizen van de Kwalificatie 
    * Als het geselecteerde publiek wordt gestreamd, kunnen individuen die tot dit publiek behoren de reis in real time betreden.
    * Als het publiek een batch is, kunnen mensen die net voor dit publiek zijn gekwalificeerd de reis invoeren wanneer de publieksberekening op Adobe Experience Platform wordt uitgevoerd.
 
-  Als beste praktijken, gebruik het stromen publiek in de activiteit van de Kwalificatie van het publiek van het a ****. Voor de gevallen van het partijgebruik, gelieve te gebruiken a **[gelezen publiek](read-audience.md)** activiteit.
+  Als beste praktijken, gebruik het stromen publiek in de activiteit van de Kwalificatie van het publiek van het a **&#x200B;**. Voor de gevallen van het partijgebruik, gelieve te gebruiken a **[gelezen publiek](read-audience.md)** activiteit.
 
   >[!NOTE]
   >
@@ -149,7 +149,7 @@ Volg de instructies en aanbevelingen hieronder om de reizen van de Kwalificatie 
 
 * De groepen van het de gebeurtenisgebied van de ervaring kunnen niet in ritten worden gebruikt die met a **Gelezen Publiek**, a **de Kwalificatie van het Publiek** of a **BedrijfsGebeurtenis** activiteit beginnen.
 
-* Wanneer het gebruiken van de Kwalificatie van het publiek **activiteit van het 0} {in een reis, kan die activiteit tot 10 minuten duren om actief te zijn en aan profielen te luisteren die of het publiek ingaan weggaan.**
+* Wanneer het gebruiken van de Kwalificatie van het publiek **activiteit van het 0&rbrace; &lbrace;in een reis, kan die activiteit tot 10 minuten duren om actief te zijn en aan profielen te luisteren die of het publiek ingaan weggaan.**
 
 
 >[!CAUTION]

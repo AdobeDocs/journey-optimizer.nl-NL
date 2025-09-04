@@ -86,7 +86,7 @@ Wanneer u uw reis met een gebeurtenis begint, wordt de reis teweeggebracht wanne
 
 U kunt **verscheidene gebeurtenissen** in uw reis toevoegen, zolang zij zelfde namespace gebruiken. Gebeurtenissen worden vooraf geconfigureerd. [ leer meer over reisgebeurtenissen ](about-journey-activities.md#event-activities)
 
-U kunt de gebeurtenis van de Reactie van de a **** na een bericht ook toevoegen om op het volgen van gegevens met betrekking tot het bericht te reageren. Op deze manier kunt u bijvoorbeeld een ander bericht verzenden als de persoon het vorige bericht heeft geopend of erin heeft geklikt. [ Leer meer over reactiegebeurtenissen ](reaction-events.md).
+U kunt de gebeurtenis van de Reactie van de a **&#x200B;**&#x200B;na een bericht ook toevoegen om op het volgen van gegevens met betrekking tot het bericht te reageren. Op deze manier kunt u bijvoorbeeld een ander bericht verzenden als de persoon het vorige bericht heeft geopend of erin heeft geklikt. [ Leer meer over reactiegebeurtenissen ](reaction-events.md).
 
 De gebeurtenisactiviteit van de Kwalificatie van het publiek van het gebruik **om individuen te maken ingaan of zich voorwaarts in een reis die op de publieksingangen en de uitgang van Adobe Experience Platform wordt gebaseerd.** U kunt alle nieuwe zilverklanten een reis maken en gepersonaliseerde berichten verzenden. Leer meer in deze [ sectie ](audience-qualification-events.md).
 
