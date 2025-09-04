@@ -1,0 +1,272 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Journey Optimizer oplossen
+description: Journey Optimizer problemen oplossen
+feature: Get Started
+role: User
+level: Intermediate
+hide: true
+hidefromtoc: true
+source-git-commit: 3ab8957d0aec6f30853de5537e03f0e7bec2017c
+workflow-type: tm+mt
+source-wordcount: '1663'
+ht-degree: 0%
+
+---
+
+# Problemen oplossen {#ajo-troubleshooting}
+
+
+Hieronder volgt een lijst met artikelen voor het oplossen van problemen voor Adobe Journey Optimizer. Elke het oplossen van problemensectie verstrekt antwoorden aan vaak gestelde vragen en oplossingen aan problemen.
+
+Zie ook de [ Veelgestelde vragen van Adobe Experience Platform en de documentatie van het Oplossen van problemen ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/troubleshooting#service-troubleshooting-directory){target="_blank"}.
+
+## Email channel {#ajo-troubleshooting-email}
+
+### E-mailontwerp {#ajo-troubleshooting-design}
+
++++ Hoe kan ik voorkomen dat er in Adobe Journey Optimizer problemen met e-mailopmaak optreden met thema&#39;s?
+
+In Adobe Journey Optimizer (AJO) kan het wijzigen van de standaard CSS-blokken in de e-mailkoptekst leiden tot onverwachte opmaakproblemen, vooral na het verwijderen van inhoudsfragmenten. Deze problemen zijn merkbaarder op mobiele apparaten en kunnen leiden tot layoutverschuivingen of opmaakinconsistenties. Om dit te voorkomen, gebruikt u de functie Thema&#39;s om aangepaste CSS veilig toe te passen zonder door het systeem gegenereerde CSS-stijlen te wijzigen.
+
+Verwijs naar [ dit het oplossen van problemenartikel ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27252){target="_blank"} om te leren hoe te om deze kwestie op te lossen.
+
+Leer meer over e-mail het formatteren [ op deze pagina ](../email/get-started-email-design.md).
+
++++
+
+
++++ Waarom werken fragmenten met bewerkbare velden niet?
+
+In Adobe Journey Optimizer worden fragmenten met bewerkbare velden mogelijk niet correct geladen of onverwacht gedupliceerd wanneer ze aan sjablonen worden toegevoegd. Het probleem heeft doorgaans invloed op specifieke fragmenten in verschillende omgevingen.
+
+Verwijs naar [ dit het oplossen van problemenartikel ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26908){target="_blank"} om te leren hoe te om deze kwestie op te lossen.
+
+Leer meer over klantgerichte fragmenten [ op deze pagina ](../content-management/customizable-fragments.md).
+
++++
+
++++ Waarom verdwijnen e-mailsjablonen en inhoud van ongepubliceerde reizen?
+
+Wanneer u e-mailsjablonen bewerkt in een niet-gepubliceerde reis, kunnen de inhoud en sjablonen van bepaalde e-mails onverwachts verdwijnen. Dit kan tot nieuwe werk en vertragingen leiden. Om het risico van deze kwestie te verminderen, vermijd gelijktijdige uitgeeft, beperk het aantal open lusjes, en sla regelmatig veranderingen op.
+
+Verwijs naar [ dit het oplossen van problemenartikel ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26738){target="_blank"} om te leren hoe te om deze kwestie op te lossen.
+
+Leer meer over malplaatjes [ op deze pagina ](../email/use-email-templates.md).
+
++++
+
++++ Kan een profiel meerdere pushtokens hebben in Adobe Journey Optimizer?
+
+Bij het implementeren van pushberichten in Journey Optimizer kan één profiel meerdere pushtokens hebben die zijn gekoppeld aan verschillende apparaten. Tijdens een pushmeldingscampagne is Journey Optimizer ontworpen om deze tokens te beheren en ervoor te zorgen dat het doelprofiel op alle gekoppelde apparaten kan worden bereikt.
+
+Verwijs naar [ dit het oplossen van problemenartikel ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26738){target="_blank"} om meer over het beheer van het duptoken te leren.
+
+Leer meer over dupconfiguratie [ op deze pagina ](../push/push-configuration.md).
+
++++
+
+### E-mailtracking en rapportage {#ajo-troubleshooting-tracking}
+
++++ Hoe te om ontbrekende verbindingen van het e-mailvolgen in rapportering te verhinderen?
+
+Het bijhouden van koppelingen ontbreekt in Adobe Journey Optimizer wanneer e-mailURL&#39;s dynamische variabelen gebruiken en niet beginnen met http, of wanneer logische instructies in het URL-veld worden geplaatst. U lost dit probleem op door ervoor te zorgen dat alle URL&#39;s beginnen met http, geen logica te gebruiken in het URL-veld en complexe personalisatielogica te verplaatsen naar de HTML-inhoud of vooraf verwerkte kenmerken.
+
+
+Verwijs naar [ dit het oplossen van problemenartikel ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26932){target="_blank"} om te leren hoe te om deze kwestie op te lossen.
+
+Leer meer over e-mail het volgen [ op deze pagina ](../email/message-tracking.md).
+
++++
+
+### E-mail verzenden {#ajo-troubleshooting-sending}
+
++++ Hoe los ik een fout van de Uitwisseling van de Post wanneer het opzetten van API-teweeggebrachte transactie-e-mailcampagnes op? 
+
+Als u een fout van de Uitwisseling van de Post (MX) terwijl het creëren van een kanaalconfiguratie voor een API-teweeggebrachte transactie e-mailcampagne in Adobe Journey Optimizer ontmoet, kan het aan **DNS misconfiguraties** of **het beleidsbeperkingen van DMARC** toe te schrijven zijn. Om dit op te lossen, zorg ervoor dat uw DNS correct wordt gevormd en verifieer dat uw domein met **op domein-gebaseerde Authentificatie van het Bericht, het Melden, en Conformance (DMARC)** vereisten voldoet.
+
+Verwijs naar [ dit het oplossen van problemenartikel ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26200){target="_blank"} om te leren hoe te om deze kwestie op te lossen.
+
+Leer meer over e-mailDMARC beleid [ op deze pagina ](../configuration/dmarc-record-update.md).
+
+Zie ook [ API-teweeggebrachte campagnedocumentatie ](../campaigns/api-triggered-campaigns.md).
++++
+
+## Push-kanaal {#ajo-troubleshooting-push}
+
++++ Kan een profiel meerdere pushtokens hebben in Adobe Journey Optimizer?
+
+Bij het implementeren van pushberichten in Journey Optimizer kan één profiel meerdere pushtokens hebben die zijn gekoppeld aan verschillende apparaten. Tijdens een pushmeldingscampagne is Journey Optimizer ontworpen om deze tokens te beheren en ervoor te zorgen dat het doelprofiel op alle gekoppelde apparaten kan worden bereikt.
+
+Verwijs naar [ dit het oplossen van problemenartikel ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26738){target="_blank"} om meer over het beheer van het duptoken te leren.
+
+Leer meer over dupconfiguratie [ op deze pagina ](../push/push-configuration.md).
+
++++
+
++++ Waarom leidt het klikken op een duwbericht me niet aan gevormd Web URL om?  
+
+Als de pushberichten niet worden omgeleid naar de bedoelde web-URL, kan dit worden veroorzaakt door een onjuiste configuratie voor klikken op handeling of door uitgeschakelde instellingen voor pushmeldingen. Zorg ervoor dat de **klikactie** voor het duw bericht correct wordt geplaatst en dat **automatische vertoning en het volgen** van duw berichten worden toegelaten om deze kwestie op te lossen.
+
+Verwijs naar [ dit het oplossen van problemenartikel ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26226){target="_blank"} om meer over deze kwestie te leren.
+
+Leer meer over dupconfiguratie [ op deze pagina ](../push/push-configuration.md).
+
++++
+
+
+## SMS-kanaal {#ajo-troubleshooting-sms}
+
++++ Waarom wordt mijn transactie-SMS niet geleverd, ook al is de toestemming ingesteld op `marketing.sms.value=y` ?
+
+Als een ontvanger **STOP** aan SMS antwoordt, worden alle toekomstige berichten van dat korte aantal geblokkeerd — met inbegrip van transactionele berichten. Om ononderbroken levering van transactieSMS te waarborgen, vorm en verzend hen door a **afzonderlijk kort aantal** dat de ontvangers niet eerder hebben gekozen uit.
+
+Verwijs naar [ dit het oplossen van problemenartikel ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26258){target="_blank"} om meer over deze kwestie te leren.
+
+Leer meer over de opt-outconfiguratie van SMS [ op deze pagina ](../sms/sms-opt-out.md).
+
++++
+
+
+## Data management {#ajo-troubleshooting-data-management}
+
++++ Hoe zijn de tijd-aan-Levende (TTL) montages van toepassing op de datasets van het Profiel en van het Leer van Gegevens wanneer u een nieuwe zandbak creeert?
+
+Organisaties die nieuwe sandboxen in Adobe Journey Optimizer leveren, hebben vragen opgeworpen over hoe de instellingen voor tijd tot leven (TTL) van toepassing zijn op de datasets van het Profiel en Gegevensmeer. Dit artikel verduidelijkt dat de montages van TTL geen bestaande zandbakken beïnvloeden en automatisch toegepast slechts op nieuw provisioned degenen.
+
+Verwijs naar [ dit het oplossen van problemenartikel ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"} om te leren hoe te om TTL te behandelen.
+
+Leer meer over dataset tijd-aan-levende [ op deze pagina ](../data/datasets-ttl.md).
+
++++
+
+
+## Profielen en beheer van het publiek {#ajo-troubleshooting-audiences}
+
++++ Hoe kan ik verschillen in aantal gebruikers oplossen?
+
+Het aantal verwerkte ingangen in de **Gelezen eigenschap van het Publiek** van Adobe Journey Optimizer kan lager zijn dan de verwachte publiekstelling. Dit probleem doet zich vaak voor als gevolg van onjuiste naamruimteconfiguraties, waardoor profielen van reizen worden uitgesloten. De resolutie omvat het controleren en corrigeren van naamruimteconfiguraties, het controleren van relevante documentatie en het aanpassen van prioriteiten om ervoor te zorgen dat bewerkingen in Adobe Journey Optimizer soepeler verlopen.
+
+Verwijs naar [ dit het oplossen van problemenartikel ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"} om te leren hoe te om deze kwestie op te lossen.
+
+Zie ook [ dit artikel over verouderde publieksaantallen ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26166){target="_blank"}.
+
+Leer meer over de **Gelezen activiteit van het publiek** in reizen [ op deze pagina ](../building-journeys/read-audience.md).
+
++++
+
++++ Waarom mislukken profielupdates?
+
+In Adobe Journey Optimizer, kunnen bepaalde gebiedswaarden niet correct na het lopen door een **activiteit van het Profiel van de Update** in een reis bijwerken. In sommige gevallen kunnen bijgewerkte velden verdwijnen of terugkeren naar de vorige status. Om dit te richten, controleren voor conflicterende regels of voorwaarden, herzie toestemmingsmontages, gebruik een unieke dataset voor de **activiteit van het Profiel van de Update**, en verzeker geen ander insluitingsproces aan het zelfde profiel tezelfdertijd schrijft.
+
+Verwijs naar [ dit het oplossen van problemenartikel ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26352){target="_blank"} om stappen te leren om deze kwestie op te lossen.
+
+Leer meer over de **activiteit van het Profiel van de Update** in reizen [ op deze pagina ](../building-journeys/update-profiles.md).
+
+Zie ook de [ documentatie van Adobe Experience Platform over Inname van Gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}.
+
++++
+
++++ Waarom komt er een verschil in aantal profielen bij een reis in vergelijking met het betrokken publiek?
+
+De discrepantie kan gebeuren wanneer de reis een het profielmomentopname van een vorige dag gebruikt als de momentopname van de huidige dag niet beschikbaar op het tijdstip van reisuitvoering is.
+
+Verwijs naar [ dit het oplossen van problemenartikel ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"} om stappen te leren om deze kwestie op te lossen.
+
+Leer meer in [ dit communautaire post van Journey Optimizer ](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}.
+
+Zie ook de [ documentatie van de Programma&#39;s API van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"} om te controleren wanneer uw dagelijkse baan gepland is.
+
++++
+
+
++++ Hoe kan ik problemen met de doelgroep oplossen?
+
+De de bevolkingsproblemen van het publiek kunnen voorkomen wanneer de componenten of de middelen, vaak toe te schrijven aan recht, levering, of toestemmingsmisconfiguraties ontbreken. Als u deze problemen wilt verhelpen, begint u met het controleren van rechten, het garanderen van correcte provisioning en het controleren van machtigingen. Als het probleem aanhoudt, escaleer de zaak en coördineer met steunteams voor een volledige resolutie.
+
+Verwijs naar [ dit het oplossen van problemenartikel ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26333){target="_blank"} om stappen te leren om deze kwestie op te lossen.
+
+Leer meer over de **activiteit van het Profiel van de Update** in reizen [ op deze pagina ](../building-journeys/update-profiles.md).
+
+Zie ook de [ documentatie van het Profiel van Adobe Real-Time CDP ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#profile-detail){target="_blank"}.
+
++++
+
++++ Hoe los ik problemen op die aanleiding geven tot reizen nadat het publiek in Adobe Journey Optimizer is veranderd? 
+
+Als een reis na wijzigingen aan zijn bijhorende publiek, zoals veranderingen in het fusiebeleid ophoudt teweegbrengend, kunt u onderbroken campagnestromen ervaren. Om dit op te lossen, **dupliceer en publiceer de reis** met de bijgewerkte publieksmontages om trekkerfunctie correct te verzekeren.
+
+Verwijs naar [ dit het oplossen van problemenartikel ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26224){target="_blank"} om stappen te leren om deze kwestie op te lossen.
+
+Leer hoe te om een reis [ op deze pagina ](../building-journeys/journey-ui.md#duplicate-a-journey) te dupliceren.
+
++++
+
+
+## Journeys
+
+### Gebeurtenissen
+
++++ Waarom leidt mijn gebeurtenis niet tot de geplande reis?  
+
+De gebeurtenissen kunnen er niet in slagen om een reis teweeg te brengen zelfs als alle criteria worden voldaan aan wanneer zij **door vraagdiensten** eerder dan wordt gestroomd aan de **Dienst van de Kern van de Inzameling van Gegevens (DCCS)** worden gecreeerd. Om dit op te lossen, herzie de gebeurtenisconfiguratie, zorg ervoor gebeurtenissen **direct aan DCCS** worden gestroomd, en verifieer functionaliteit gebruikend **testwijze**.
+
+Verwijs naar [ dit het oplossen van problemenartikel ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26031){target="_blank"} om stappen te leren om deze kwestie op te lossen.
+
+Leer meer over gebeurtenissen [ op deze pagina ](../event/about-events.md).
+
+Zie ook {de guardrails van de Gebeurtenis van 0}. [](../start/guardrails.md#events)
+
++++
+
+## Beslissing {#ajo-troubleshooting-decisioning}
+
++++ Hoe los ik problemen op bij het maken van aanbiedingsverzamelingen?
+
+De moeilijkheden die tot aanbiedingsinzamelingen leiden komen vaak voor wanneer **catalogi niet provisioned** voor uw organisatie zijn. Om dit op te lossen, verifieer dat alle vereiste catalogi correct provisioned zijn alvorens te proberen om aanbiedingsinzamelingen tot stand te brengen.
+
+Verwijs naar [ dit het oplossen van problemenartikel ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26265){target="_blank"} om stappen te leren om deze kwestie op te lossen.
+
+Leer meer over aanbiedingsinzamelingen [ op deze pagina ](../offers/offer-library/creating-collections.md).
+
++++
+
+
+## Meertalig {#ajo-troubleshooting-multilingual}
+
++++ Hoe los je dit probleem op `Message validation error (CJMMAS - 1069-500)`?
+
+In Adobe Journey Optimizer voorkomt een Message Validation Error (CJMMAS - 1069-500) die gekoppeld is aan de meertalige functie dat reizen niet in de testmodus worden ingesteld of worden gepubliceerd.
+
+Verwijs naar [ dit het oplossen van problemenartikel ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26168){target="_blank"} om stappen te leren om deze kwestie op te lossen.
+
+Leer meer over meertalige inhoud [ op deze pagina ](../content-management/multilingual-gs.md).
+
+++
+
+
+## Configuratie {#ajo-troubleshooting-config}
+
+### Beveiliging {#ajo-troubleshooting-security}
+
++++ Hoe kan ik TLS v1.3 inschakelen voor aangepaste handelingen?  
+
+Om **gegevensintegriteit en veiligheid** te handhaven wanneer het verbinden met derdesystemen, zorg ervoor dat de Veiligheid van de Laag van het Vervoer (**TLS**) v1.3 voor uw douaneacties wordt toegelaten. Dit helpt mededelingen beschermen en verhindert potentiële veiligheidskwetsbaarheid.
+
+
+Verwijs naar [ dit het oplossen van problemenartikel ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26223){target="_blank"} om meer te leren.
+
+Leer meer over meertalige inhoud [ op deze pagina ](../action/about-custom-action-configuration.md).
+
++++
+
+### Dashboards {#ajo-troubleshooting-dashboards}
+
++++ Waarom kan ik geen dashboard direct van een vraag in Adobe Journey Optimizer tot stand brengen? 
+
+In Adobe Journey Optimizer kunnen dashboards niet rechtstreeks van query&#39;s worden gemaakt. Om dashboards te bouwen, gebruik de beschikbare **functies van de dashboardverwezenlijking** binnen Adobe Experience Platform, die u toestaan om vraaggegevens effectief te visualiseren en te analyseren.
+
+Verwijs naar [ dit het oplossen van problemenartikel ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26201){target="_blank"} om meer te leren.
+
+++

@@ -5,8 +5,9 @@ title: Geordende campagnes Veelgestelde vragen
 description: Veelgestelde vragen over door Journey Optimizer georganiseerde campagnes
 hide: true
 hidefromtoc: true
+version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: a6a8521254005159b410790f88877d0591a16d15
+source-git-commit: a72ad0289df18df123832c5b83c301e539ebce60
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 1%
@@ -192,4 +193,4 @@ Ja, volg de onderstaande aanbevolen procedures:
 >* [ Geordende campagnes begeleiden &amp; beperkingen ](../orchestrated/guardrails.md)
 >* [ worden begonnen met schema&#39;s en datasets in Geordende campagnes ](../orchestrated/gs-schemas.md)
 >* [ creeer uw eerste Geordende campagne ](../orchestrated/gs-campaign-creation.md)
->* [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+>* [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
