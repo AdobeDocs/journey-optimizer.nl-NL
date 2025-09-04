@@ -4,7 +4,8 @@ product: journey optimizer
 title: Uw eerste regel samenstellen
 description: Leer hoe u regels maakt voor uw geordende campagnes
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '1695'
 ht-degree: 0%
@@ -42,7 +43,7 @@ Ga als volgt te werk om voorwaarden aan uw query toe te voegen:
 
 1. Klik het ![ beeld dat de Meer actieknoop ](assets/do-not-localize/rule-builder-icon-more.svg) naast een attribuut toont om tot deze extra opties toegang te hebben:
 
-+++ Verdeling van waarden
+   +++ Verdeling van waarden
 
    Analyseer de verdeling van waarden voor een bepaald kenmerk binnen de tabel. Deze functie is handig voor het begrijpen van de beschikbare waarden, hun aantallen en percentages. Het helpt ook problemen zoals inconsistente hoofdlettergebruik of spelling te voorkomen bij het maken van query&#39;s of het maken van expressies.
 
@@ -50,9 +51,9 @@ Ga als volgt te werk om voorwaarden aan uw query toe te voegen:
 
    ![ beeld dat de Distributie van waardeinterface toont ](assets/rule-builder-distribution-values.png)
 
-+++
+   +++
 
-+++ Toevoegen aan Favorieten
+   +++ Toevoegen aan Favorieten
 
    Door kenmerken toe te voegen aan het menu Favorieten hebt u snel toegang tot de meest gebruikte kenmerken. U kunt maximaal 20 kenmerken toevoegen aan favorieten. Favoriete en recente kenmerken zijn gekoppeld aan elke gebruiker binnen een organisatie, zodat de toegankelijkheid op verschillende computers gegarandeerd is en een naadloze ervaring op alle apparaten mogelijk is.
 
@@ -60,7 +61,7 @@ Ga als volgt te werk om voorwaarden aan uw query toe te voegen:
 
    ![ beeld dat de favoriete interface ](assets/rule-builder-favorites.png) toont
 
-+++
+   +++
 
 1. Klik op **[!UICONTROL Confirm]** om het geselecteerde kenmerk aan uw voorwaarde toe te voegen.
 
@@ -111,11 +112,11 @@ Voor a **1-1 verbinding**, navigeer aan de verbonden lijst, selecteer de gewenst
 
 U kunt een lijstverbinding in de **plukker van de Waarde** ook direct selecteren en bevestigen. In dat geval moeten de waarden die beschikbaar zijn voor de geselecteerde tabel, worden geselecteerd met een speciale kiezer, zoals in het onderstaande voorbeeld wordt getoond.
 
-+++voorbeeld van Query
++++Voorbeeld van query
 
 Hier, richt de vraag zich merken het waarvan etiket &quot;loopt&quot;.
 
-1. Navigeer binnen de **Merk** lijst en selecteer het **3&rbrace; attribuut van het Etiket &lbrace;.**
+1. Navigeer binnen de **Merk** lijst en selecteer het **3} attribuut van het Etiket {.**
 
    ![ Schermafbeelding van de lijst van het Merk ](assets/rule-builder-1-1-attribute.png)
 
@@ -127,11 +128,11 @@ Hier volgt een queryvoorbeeld waarin een tabelkoppeling rechtstreeks is geselect
 
 ![ Schermafbeelding van de lijst van het Merk ](assets/rule-builder-1-1-attribute-table.png)
 
-+++
++++ 
 
 Voor a **1-N verbinding**, kunt u sub-voorwaarden bepalen om uw vraag te verfijnen, zoals aangetoond in het hieronder voorbeeld.
 
-+++voorbeeld van Query
++++Voorbeeld van query
 
 Hier richt de vraag zich op ontvangers die aankopen hebben gedaan met betrekking tot het Brewmsaster-product, voor meer dan 100$.
 
@@ -145,7 +146,7 @@ Hier richt de vraag zich op ontvangers die aankopen hebben gedaan met betrekking
 
    ![ Schermafbeelding van de lijst van de Aankoop ](assets/rule-builder-1-n-collection.png)
 
-+++
++++ 
 
 ### Aangepaste omstandigheden met geaggregeerde gegevens {#aggregate}
 

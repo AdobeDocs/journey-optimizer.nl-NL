@@ -4,7 +4,8 @@ product: journey optimizer
 title: Geordende campagnes met Adobe Journey Optimizer starten en volgen
 description: Leer hoe u geordende campagnes met Adobe Journey Optimizer kunt starten en volgen.
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 0%
@@ -40,7 +41,7 @@ Gebruikend deze gegevens, kunt u regels bepalen om ontvangers te identificeren d
 
 1. Kies het kenmerk **[!UICONTROL Feedback Status]** om gebeurtenissen voor berichtlevering als doel in te stellen.
 
-+++ Gedetailleerd, stap voor stap
+   +++ Gedetailleerd, stap voor stap
 
    1. Voeg een andere voorwaarde toe die is gekoppeld aan het kenmerk **[!UICONTROL Message feedback]** .
 
@@ -52,11 +53,11 @@ Gebruikend deze gegevens, kunt u regels bepalen om ontvangers te identificeren d
 
       ![](assets/retarget_4.png){zoomable="yes"}
 
-+++
+   +++
 
 1. Kies het kenmerk **[!UICONTROL Orchestrated Campaign Name]** als u een specifieke geordende campagne wilt starten.
 
-+++ Gedetailleerd, stap voor stap
+   +++ Gedetailleerd, stap voor stap
 
    1. Voeg een andere voorwaarde toe die is gekoppeld aan het kenmerk **[!UICONTROL Message feedback]** , zoek naar **[!UICONTROL entity]** en navigeer naar:
 
@@ -68,11 +69,11 @@ Gebruikend deze gegevens, kunt u regels bepalen om ontvangers te identificeren d
 
    1. Geef in het menu **[!UICONTROL Custom condition]** de naam van de campagne op in het veld **[!UICONTROL Value]** .
 
-+++
+   +++
 
 1. Kies het **[!UICONTROL Orchestrated Campaign Action Name]** -kenmerk als u een specifiek bericht of een specifieke activiteit in een geordende campagne als doel wilt instellen.
 
-+++ Gedetailleerd, stap voor stap
+   +++ Gedetailleerd, stap voor stap
 
    1. Voeg een andere voorwaarde toe die is gekoppeld aan het kenmerk **[!UICONTROL Message feedback]** , zoek naar **[!UICONTROL entity]** en navigeer naar:
 
@@ -86,7 +87,7 @@ Gebruikend deze gegevens, kunt u regels bepalen om ontvangers te identificeren d
 
       De namen van de acties kunnen worden gevonden door het ![ pictogram van de Informatie ](assets/do-not-localize/info-icon.svg) naast het gebied van het Etiket van uw activiteit te klikken.
 
-+++
+   +++
 
 1. U kunt ook filteren op **[!UICONTROL Campaign ID]** (UUID), die u vindt in de campagneeigenschappen.
 

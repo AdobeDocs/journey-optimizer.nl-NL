@@ -4,7 +4,8 @@ product: journey optimizer
 title: Configuratiestappen
 description: Leer hoe u relationele schema's rechtstreeks via de gebruikersinterface kunt maken.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 9984863e2c3f7fb8f74cefacfc026b70d27bddd7
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 0%
@@ -154,7 +155,7 @@ Verwijs naar [ documentatie van Adobe Developer ](https://developer.adobe.com/jo
 
 1. Zoek de gegevensset in de lijst **[!UICONTROL Datasets]** .
 
-1. Van de **[!UICONTROL Datasets]** montages, laat de **Geordende 2&rbrace; optie van Campagnes &lbrace;toe om de dataset beschikbaar voor gebruik in uw Geordende Campagnes te maken.**
+1. Van de **[!UICONTROL Datasets]** montages, laat de **Geordende 2} optie van Campagnes {toe om de dataset beschikbaar voor gebruik in uw Geordende Campagnes te maken.**
 
    ![](assets/schema_manual_7.png){zoomable="yes"}
 

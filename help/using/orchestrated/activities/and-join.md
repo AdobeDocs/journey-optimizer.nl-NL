@@ -4,7 +4,8 @@ product: journey optimizer
 title: De activiteit AND-join gebruiken
 description: Leer hoe u de AND-join-activiteit gebruikt in een geordende campagne
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 0%
