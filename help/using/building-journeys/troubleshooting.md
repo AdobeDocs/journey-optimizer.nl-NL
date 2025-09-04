@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: problemen oplossen, problemen oplossen, reis, controle, fouten
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 61498b61f7f05e0553fe575c980fd1bee08500a3
+source-git-commit: 27ae100873fee1a790c7e1e757248f9c3af8e24a
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 42%
@@ -52,6 +52,6 @@ Fouten en waarschuwingen die globaal zijn voor de journey, worden als eerste in 
 
 ## Een alternatief pad toevoegen {#canvas-add-path}
 
-U kunt een fallback-actie definiëren in het geval van een fout voor de volgende reisactiviteiten: **[!UICONTROL Condition]** en **[!UICONTROL Action]** .
+U kunt een fallback-actie definiëren in het geval van een fout voor de volgende reisactiviteiten: **[!UICONTROL Optimize]** en **[!UICONTROL Action]** .
 
 Wanneer er een fout in een actie of een voorwaarde optreedt, eindigt de journey van een individu. De enige manier om dit voort te zetten is het oplossen van de kwestie. U kunt voorkomen dat de rit wordt onderbroken door ook de optie **[!UICONTROL Add an alternative path in case of a timeout or an error]** in de eigenschappen van de activiteit in te schakelen. Lees meer in [deze sectie](../building-journeys/using-the-journey-designer.md#paths).
