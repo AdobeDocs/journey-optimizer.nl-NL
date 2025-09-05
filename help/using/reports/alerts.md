@@ -32,7 +32,7 @@ Wanneer een fout optreedt, kunt u systeemwaarschuwingen ontvangen in het Journey
 
 >[!NOTE]
 >
->Leer meer over alarm in Adobe Experience Platform in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}.
+>Leer meer over alarm in Adobe Experience Platform in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=nl-NL){target="_blank"}.
 
 Klik in het linkermenu onder **[!UICONTROL Administration]** op **[!UICONTROL Alerts]** . Er zijn verschillende vooraf geconfigureerde waarschuwingen voor Journey Optimizer beschikbaar.
 
@@ -61,7 +61,7 @@ Deze worden als volgt vermeld en elke waarschuwing wordt hieronder beschreven.
 
 1. Gebruik dezelfde methode voor **[!UICONTROL Unsubscribe]** .
 
-1. U kunt aan alarm door [ I/O de berichten van de Gebeurtenis ook intekenen ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Waarschuwingsregels zijn ingedeeld in verschillende abonnementspakketten. De abonnementen van de gebeurtenis die aan het specifieke alarm van Journey Optimizer beantwoorden zijn gedetailleerd [ hieronder ](#journey-alerts).
+1. U kunt aan alarm door [ I/O de berichten van de Gebeurtenis ook intekenen ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=nl-NL){target="_blank"}. Waarschuwingsregels zijn ingedeeld in verschillende abonnementspakketten. De abonnementen van de gebeurtenis die aan het specifieke alarm van Journey Optimizer beantwoorden zijn gedetailleerd [ hieronder ](#journey-alerts).
 
 1. Als een onverwacht gedrag optreedt en/of een bepaalde set voorwaarden in uw bewerkingen is bereikt (zoals een mogelijk probleem wanneer het systeem een drempelwaarde overschrijdt), worden waarschuwingsmeldingen verzonden naar gebruikers in uw organisatie die zich op deze gebruikers hebben geabonneerd.
 
@@ -71,7 +71,7 @@ Op basis van de voorkeuren van de abonnee worden waarschuwingen verzonden via e-
 >
 >Standaard is alleen waarschuwingen in de app ingeschakeld.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=nl-NL#enable-email-alerts){target="_blank"}.-->
 
 Wanneer een alarm wordt opgelost, ontvangen de abonnees een &quot;Opgelost&quot;bericht.
 
