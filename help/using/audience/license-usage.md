@@ -25,7 +25,7 @@ Ga naar **[!UICONTROL Administration]** > **[!UICONTROL License Usage]** om dit 
 
 >[!NOTE]
 >
->* Om het dashboard te bekijken, moet u de [ toestemming hebben van het Gebruik Dashboard van het Gebruik van de Vergunning van 0} Mening.](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"}
+>* Om het dashboard te bekijken, moet u de [ toestemming hebben van het Gebruik Dashboard van het Gebruik van de Vergunning van 0&rbrace; Mening.](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"}
 >
 >* Bepaalde metriek (bijvoorbeeld computeruren, e-mails) worden niet weergegeven voor ontwikkelingssandboxen, zoals aangegeven door `N/A` in de quotakolom. Alleen waarden die niet &#39;null&#39; zijn, worden weergegeven in het dashboard: als de waarden nul of dicht bij nul zijn, worden ze niet gevuld.
 
