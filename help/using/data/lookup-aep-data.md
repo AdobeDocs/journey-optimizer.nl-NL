@@ -11,9 +11,9 @@ level: Intermediate
 keywords: expression, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: ea40a13765be5ff603dd848df4fb02a4dbb9a426
+source-git-commit: 248aae7b2841086ef5a0ea73936c245963e8eae2
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Controleer voordat u begint de volgende beperkingen en richtlijnen:
 
 ### Entitlement for lookup service
 
-| Functie-component | Limiet productiesandbox | Notities |
+| Functie-component | Limieten | Notities |
 | ------- | ------- | ------- |
 | Gegevensbestanden voor opzoeken ingeschakeld | Maximaal 10 per organisatie | Maximum aantal datasets die voor raadpleging in om het even welke bepaalde tijd kunnen worden gevormd. Deze grens is op het totale gecombineerde aantal raadplegingsdatasets over zowel productie als ontwikkelingszandbakken binnen de klanteninstantie van toepassing. |
 | Aantal gegevensrecords | Tot 2 miljoen verslagen per dataset | Maximum aantal verslagen toegestaan in één enkele dataset, die als totale telling over alle partijen binnen die dataset wordt berekend. |
