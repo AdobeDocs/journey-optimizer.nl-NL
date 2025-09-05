@@ -5,9 +5,9 @@ title: Gangbare campagnes en beperkingen
 description: Meer informatie over geordende campagnes, instructies en beperkingen
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 35cd3aac01467b42d0cba22de507f11546f4feb9
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -31,31 +31,31 @@ Hieronder vindt u aanvullende instructies en beperkingen wanneer u geordende cam
 
 * De schema&#39;s die voor het richten worden gebruikt moeten minstens **één identiteitsgebied van type`String`** bevatten, die aan een bepaalde identiteitsnaamruimte in kaart wordt gebracht.
 
+* Het gemiddelde aantal attributen per schema **zou 50 kolommen** niet moeten overschrijden om manageability en prestaties te handhaven.
+
 ### Data-opname
 
 * Profiel + relationele gegevensinvoer is vereist.
 
 * Al opname moet via **Gegevens van de Verandering voorkomen vangt** bronnen:
 
-   * Voor **op dossier-Gebaseerd**: `_change_request_type` gebied wordt vereist.
+   * Voor **op dossier-Gebaseerd**: `_change_request_type` gebied wordt vereist. Ondersteunde waarden zijn `U` (upsert) of `D` (delete).
 
    * Voor **op wolk-Gebaseerde**: Het registreren van de lijst moet worden toegelaten.
 
-* **de directe updates aan Snowflake of datasets worden niet gesteund**. Het systeem is alleen-lezen; alle wijzigingen moeten worden toegepast via Gegevens wijzigen.
-
-* **de processen van ETL worden niet gesteund**. Gegevens moeten vóór inname volledig in de vereiste indeling worden omgezet.
-
-* **Gedeeltelijke updates worden niet toegestaan**, moet elke rij als volledig verslag worden verstrekt.
+* **Gedeeltelijke verslagupdates worden niet toegestaan**, moet elke rij als volledig verslag worden verstrekt.
 
 * De opname van de partij voor de Orchestratie van de Campagne is beperkt tot **eens om de 15 minuten**.
 
-* De latentie van de opsluiting, tijd van opname aan beschikbaarheid in Snowflake, waagt typisch **van 15 minuten aan 2 uren**, afhankelijk van:
+* De latentie van de congestie, in relationele opslag, waagt typisch **van 15 minuten aan 2 uren**, afhankelijk van:
 
    * Gegevensvolume
 
    * Gelijktijdige installatie van het systeem
 
    * Type bewerking, bijv. invoegtoepassingen zijn sneller dan updates
+
+* **Dataflow aan datasetverhouding is 1-1**. Dit betekent dat slechts één bron één dataset tegelijk kan voeden. Om de bron te schakelen, moet bestaande dataflow worden geschrapt en een nieuwe dataflow worden gecreeerd met de nieuwe bron.
 
 ### Gegevensmodellering
 
@@ -75,7 +75,7 @@ Hieronder vindt u aanvullende instructies en beperkingen wanneer u geordende cam
 
 * **De grenzen worden afgedwongen op het aantal profielattributen** die in zowel partij als het stromen publiek kunnen worden gebruikt om systeemefficiency te handhaven.
 
-* **Lijst van Waarden (LOVs)** en **opsommingen** worden volledig gesteund.
+* **Opsommingen** worden volledig gesteund.
 
 * **gelezen Publiek wordt niet in het voorgeheugen ondergebracht**, teweegbrengt elke campagneuitvoering een volledige publieksevaluatie van de onderliggende gegevens teweeg.
 

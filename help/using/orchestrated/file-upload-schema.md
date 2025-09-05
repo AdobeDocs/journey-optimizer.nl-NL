@@ -5,9 +5,9 @@ title: Configuratiestappen
 description: Leer hoe u een relationeel schema maakt in Adobe Experience Platform door een DDL te uploaden
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 35cd3aac01467b42d0cba22de507f11546f4feb9
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '1006'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,19 @@ Op Excel gebaseerde schemabestanden worden geüpload. Download het [ verstrekte 
 
 * **ENUM**\
   De gebieden van ENUM worden gesteund in zowel op DDL-Gebaseerde als handschemaverwezenlijking, die u toestaan om attributen met een vaste reeks toegestane waarden te bepalen.
+Hier volgt een voorbeeld:
+
+  ```
+  CREATE TABLE orders (
+  order_id     INT NOT NULL,
+  product_id   INT NOT NULL,
+  order_date   DATE NOT NULL,
+  customer_id  INT NOT NULL,
+  quantity     INT NOT NULL,
+  order_status enum ('PENDING', 'SHIPPED', 'DELIVERED', 'CANCELLED'),
+  PRIMARY KEY (order_id, product_id)
+  );
+  ```
 
 * **Etiket van het Schema voor het Beleid van Gegevens**\
   De etikettering wordt gesteund op het niveau van het schemagebied om gegevens te handhaven governance beleid zoals toegangsbeheer en gebruiksbeperkingen. Voor meer details, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl).
@@ -61,9 +74,10 @@ Op Excel gebaseerde schemabestanden worden geüpload. Download het [ verstrekte 
 1. Selecteer **[!UICONTROL Upload DDL file]** om een entiteitrelatiediagram te bepalen en schema&#39;s tot stand te brengen.
 
    De tabelstructuur moet het volgende bevatten:
-   * Ten minste één primaire sleutel
+   * Ten minste één primaire sleutel.
    * Een versie-id, zoals een `lastmodified` veld van het type `datetime` of `number` .
-   * Voor CDC-opname (Change Data Capture), een speciale kolom met de naam `_change_request_type` van het type `String` , die het type gegevenswijziging aangeeft (bijv. invoegen, bijwerken, verwijderen) en incrementele verwerking mogelijk maakt
+   * Voor CDC-opname (Change Data Capture) gebruikt u een speciale kolom met de naam `_change_request_type` van het type `String` , die het type gegevenswijziging aangeeft (bijvoorbeeld invoegen, bijwerken, verwijderen) en incrementele verwerking mogelijk maakt.
+   * In het DDL-bestand mogen niet meer dan 200 tabellen worden gedefinieerd.
 
 
    >[!IMPORTANT]
@@ -79,9 +93,13 @@ Op Excel gebaseerde schemabestanden worden geüpload. Download het [ verstrekte 
 
 1. Opstelling elk schema en zijn kolommen, die ervoor zorgen dat een primaire sleutel wordt gespecificeerd.
 
-   Eén kenmerk, zoals `lastmodified` , moet worden opgegeven als een versiedescriptor. Dit kenmerk, doorgaans van het type `datetime`, `long` of `int` , is essentieel voor innameprocessen om ervoor te zorgen dat de gegevensset wordt bijgewerkt met de meest recente gegevensversie.
+   Eén kenmerk, zoals `lastmodified` , moet worden opgegeven als de versiedescriptor (type `datetime` , `long` of `int` ) om ervoor te zorgen dat gegevenssets worden bijgewerkt met de meest recente gegevens. Gebruikers kunnen de versiedescriptor wijzigen, die na het instellen verplicht wordt. Een kenmerk kan niet zowel een primaire sleutel (PK) als een versiedescriptor zijn.
 
    ![](assets/admin_schema_2.png)
+
+1. Markeer een attribuut als `identity` en wijs het aan een bepaalde identiteitsnamespace toe.
+
+1. Wijzig de naam van elke tabel, verwijder of voeg een beschrijving toe aan elke tabel.
 
 1. Klik **[!UICONTROL Done]** eenmaal gereed.
 
@@ -94,6 +112,10 @@ Volg onderstaande stappen om logische verbindingen tussen tabellen in uw schema 
 1. Open de canvasweergave van uw gegevensmodel en kies de twee tabellen die u wilt koppelen
 
 1. Klik op de knop ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) naast Source Join en sleep de pijl naar Target Join om de verbinding tot stand te brengen.
+
+   >[!NOTE]
+   >
+   >Samengestelde toetsen worden ondersteund als deze in het DDL-bestand zijn gedefinieerd.
 
    ![](assets/admin_schema_5.png)
 
@@ -143,7 +165,7 @@ Volg onderstaande stappen om logische verbindingen tussen tabellen in uw schema 
 >
 > Alleen relaties die expliciet in het DDL-bestand zijn gedefinieerd, worden door het systeem herkend. Om het even welke entiteitverhoudingen die buiten het Ddl- dossier bestaan zullen worden genegeerd en niet verwerkt.
 
-Vestig een verband tussen het **schema van de 0&rbrace; loyaliteitstransacties &lbrace;en het** Ontvangers **schema om elke transactie met het correcte klantenverslag te associëren.**
+Vestig een verband tussen het **schema van de 0} loyaliteitstransacties {en het** Ontvangers **schema om elke transactie met het correcte klantenverslag te associëren.**
 
 1. Navigeer aan **[!UICONTROL Schemas]** en open eerder **loyaliteitstransacties** creëren.
 
