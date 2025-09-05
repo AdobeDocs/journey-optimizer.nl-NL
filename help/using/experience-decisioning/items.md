@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '2057'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Begin door de standaard en douanekenmerken van het besluitpunt te bepalen:
    >
    >Momenteel slechts [ uitdrukkingsfragmenten ](../personalization/use-expression-fragments.md) worden gesteund.
    >
-   >Geneste fragmenten (fragmenten die verwijzen naar andere fragmenten) kunnen niet worden gebruikt. De goedkeuring van het besluitvormingspunt [&#128279;](#approve) zal ontbreken als u zulk een fragment toevoegt.
+   >Geneste fragmenten (fragmenten die verwijzen naar andere fragmenten) kunnen niet worden gebruikt. De goedkeuring van het besluitvormingspunt [ ](#approve) zal ontbreken als u zulk een fragment toevoegt.
 
 1. Aangepaste kenmerken opgeven (optioneel). Aangepaste kenmerken zijn specifieke kenmerken die zijn toegesneden op uw behoeften en die u kunt toewijzen aan een beslissingsitem. Zij worden bepaald in het de catalogusschema van besluitvormingspunten. [ leer hoe te met catalogi ](catalogs.md) werken
 
@@ -80,8 +80,8 @@ Begin door de standaard en douanekenmerken van het besluitpunt te bepalen:
 >id="ajo_exd_item_constraints"
 >title="Soorten publiek of beslissingsregels toevoegen"
 >abstract="Standaard kunnen alle profielen in aanmerking komen voor het item voor een beslissing, maar u kunt het publiek of de regels gebruiken om het item te beperken tot specifieke profielen."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Soorten publiek gebruiken"
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Beslissingsregels gebruiken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Soorten publiek gebruiken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Beslissingsregels gebruiken"
 
 Standaard komen alle profielen in aanmerking om het beslissingsitem te ontvangen, maar u kunt het publiek of de regels gebruiken om het item te beperken tot specifieke profielen, beide oplossingen voor verschillende toepassingen. Vouw de onderstaande sectie uit voor meer informatie:
 
@@ -109,7 +109,7 @@ Wanneer u publiek of beslissingsregels selecteert, kunt u informatie over de ges
 
 ## Lijnen voor uitlijnen instellen {#capping}
 
-Afkappen wordt gebruikt als beperking om het maximumaantal keren te bepalen dat een aanbieding kan worden voorgesteld. Door het aantal keren dat gebruikers specifieke aanbiedingen krijgen te beperken, kunt u voorkomen dat uw klanten te veel vragen en zo elk aanraakpunt optimaliseren met de beste aanbieding. U kunt tot 10 titels voor een bepaald besluitpunt tot stand brengen.
+Afdekkingen worden gebruikt als beperking om het maximumaantal keren te bepalen dat een aanbiedingsobject kan worden aangeboden. Door het aantal keren dat gebruikers specifieke aanbiedingen krijgen te beperken, kunt u voorkomen dat uw klanten te veel vragen en zo elk aanraakpunt optimaliseren met de beste aanbieding. U kunt tot 10 titels voor een bepaald besluitpunt tot stand brengen.
 
 ![](assets/item-capping.png)
 
@@ -118,7 +118,17 @@ Afkappen wordt gebruikt als beperking om het maximumaantal keren te bepalen dat 
 >
 >De waarde van de afluisterteller kan tot 3 seconden duren om bij te werken. Stel bijvoorbeeld dat u een webbanner weergeeft die een aanbieding op uw website weergeeft. Als een bepaalde gebruiker in minder dan 3 seconden naar de volgende pagina van uw website bladert, wordt de tellerwaarde niet voor die gebruiker verhoogd.
 
-Klik op de knop **[!UICONTROL Create capping]** en voer de volgende stappen uit om bijschilregels voor het beslissingsitem in te stellen:
+Wanneer het vormen van het begrenzen van regels, kunt u attributen van verwijzingen voorzien die in de datasets van Adobe Experience Platform worden opgeslagen om drempels te bepalen. Als u een gegevensset wilt gebruiken, selecteert u deze in de sectie **[!UICONTROL Dataset]** .
+
+![](assets/exd-lookup-capping.png)
+
+>[!NOTE]
+>
+>Deze mogelijkheid is momenteel beschikbaar als Beperkte Beschikbaarheid voor alle gebruikers. De gedetailleerde informatie over hoe te om het te gebruiken is beschikbaar in deze sectie: [ gegevens van Adobe Experience Platform van het Gebruik voor Beslissing ](../experience-decisioning/aep-data-exd.md)
+
+Klik op de knop **[!UICONTROL Create capping]** en voer de onderstaande stappen uit om de uitlijningsregels voor het beslissingsitem in te stellen.
+
+![](assets/item-capping-create.png)
 
 1. Definieer met welke **[!UICONTROL Capping event]** rekening wordt gehouden om de teller te verhogen.
 
@@ -139,9 +149,31 @@ Klik op de knop **[!UICONTROL Create capping]** en voer de volgende stappen uit 
 
    * Selecteer **[!UICONTROL Per profile]** om te bepalen hoe vaak de aanbieding aan de zelfde gebruiker kan worden voorgesteld. Als je bijvoorbeeld een bank bent met een &#39;Platinum credit card&#39;-aanbieding, wil je niet dat dit voorstel meer dan vijf keer per profiel wordt weergegeven. U bent namelijk van mening dat als de gebruiker het aanbod vijf keer heeft gezien en er niet op heeft gereageerd, hij een grotere kans heeft om op het volgende beste aanbod in te gaan.
 
-1. Geef in het veld **[!UICONTROL Capping count limit]** het aantal keren op dat de aanbieding aan alle gebruikers of per profiel kan worden weergegeven, afhankelijk van het geselecteerde type aftopping. Het getal moet een geheel getal groter dan 0 zijn.
+1. Definieer de grenswaarde voor uitlijnen. Hiervoor kunt u een statische waarde invoeren of de drempel berekenen met een expressie. Vouw de onderstaande secties uit voor meer informatie.
+
+   +++Statische drempel
+
+   Geef in het veld **[!UICONTROL Capping count limit]** het aantal keren op dat de aanbieding aan alle gebruikers of per profiel kan worden weergegeven, afhankelijk van het geselecteerde type aftopping. Het getal moet een geheel getal groter dan 0 zijn.
 
    U hebt bijvoorbeeld een aangepaste gebeurtenis voor het toewijzen van plafonds gedefinieerd, waarmee rekening wordt gehouden, zoals het aantal uitcheckgebeurtenissen. Als u 10 invoert in het veld **[!UICONTROL Capping count limit]** , worden er na 10 controles geen voorstellen meer verzonden.
+
+   +++
+
+   +++Expressiedrempel
+
+   In plaats daarvan kunt u uw eigen expressie definiëren door een statische waarde te gebruiken voor de afkapdrempel. Hierdoor kunt u de drempel dynamisch berekenen met behulp van beslissingskenmerken en/of externe kenmerken van een Adobe Experience Platform-gegevensset.
+
+   Een markeerteken kan bijvoorbeeld besluiten een vermenigvuldiger toe te voegen om de belichting aan te passen. Zo kunnen zij de beschikbare voorraad met twee vermenigvuldigen, zodat het aanbod aan tweemaal zoveel klanten kan worden getoond als de beschikbare eenheden. Deze benadering voorziet dat niet alle klanten zich zullen omzetten, waardoor een beter bereik wordt gewaarborgd zonder oververkoop.
+
+   >[!NOTE]
+   >
+   >De het in kaart brengen van regel **uitdrukkingen** zijn momenteel beschikbaar als Beperkte Beschikbaarheid aan alle gebruikers. Deze worden alleen ondersteund voor het type **[!UICONTROL In total]** capapping.
+
+   Als u een expressie wilt gebruiken, schakelt u de optie **[!UICONTROL Expression]** in en bewerkt u de expressie naar wens.
+
+   ![](assets/exd-lookup-capping-expression.png)
+
+   +++
 
 1. Stel in de vervolgkeuzelijst **[!UICONTROL Reset capping frequency]** de frequentie in waarmee de afspeelteller opnieuw wordt ingesteld. Hiervoor definieert u de tijdsperiode voor het tellen (dagelijks, wekelijks of maandelijks) en voert u het aantal dagen/weken/maanden van uw keuze in. Bijvoorbeeld, als u de het in kaart brengen telling om de twee weken wilt terugstellen, selecteer **[!UICONTROL Weekly]** van de overeenkomstige drop-down lijst en type **2** op het andere gebied.
 
@@ -188,3 +220,4 @@ Als u een beslissingsitem selecteert of op de knop Ovaal klikt, worden de hieron
   ![](assets/item-undo.png)
 
 * **[!UICONTROL Archive]**: stelt de status van het beslissingsitem in op **[!UICONTROL Archived]** . Het beslissingsitem is nog steeds beschikbaar in de lijst, maar u kunt de status niet terugzetten op **[!UICONTROL Draft]** of **[!UICONTROL Approved]** . U kunt deze alleen dupliceren of verwijderen.
+

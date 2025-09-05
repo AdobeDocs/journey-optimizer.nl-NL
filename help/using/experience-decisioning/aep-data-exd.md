@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
+source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
@@ -35,27 +35,45 @@ ht-degree: 0%
 
 Met [!DNL Journey Optimizer] kunt u gegevens van [!DNL Adobe Experience Platform] gebruiken voor besluitvorming. Dit staat u toe om de definitie van uw beslissingsattributen tot extra gegevens in datasets voor bulkupdates uit te breiden die periodiek veranderen zonder het moeten manueel de attributen één voor één bijwerken. Bijvoorbeeld beschikbaarheid, wachttijden, enz.
 
-Alvorens te beginnen, moeten de datasets nodig voor raadplegingsverpersoonlijking eerst voor raadpleging worden toegelaten. De gedetailleerde informatie is beschikbaar in deze sectie: [ de gegevens van Adobe Experience Platform van het Gebruik ](../data/lookup-aep-data.md).
+>[!IMPORTANT]
+>
+>[!DNL Journey Optimizer] steunt tot 1000 raadplegingen voor één enkel besluitvormingsbeleid.
 
-## Afbeeldingen en beperkingen {#guidelines}
+## Vereisten
 
-Neem voordat u begint de volgende beperkingen en richtlijnen in acht:
+### Gegevenssets inschakelen voor opzoeken
 
-* Een besluitvormingsbeleid kan tot 3 datasets totaal, over al zijn besluitvormingsregels en rangschikkingsformules samen verwijzen. Bijvoorbeeld, als uw regels 2 datasets gebruiken, kunnen uw formules slechts 1 extra dataset gebruiken.
-* Een beslissingsregel kan 3 datasets gebruiken.
-* Een rangschikkende formule kan 3 datasets gebruiken.
-* Wanneer een besluitbeleid wordt geëvalueerd, zal het systeem tot 1000 datasetvragen (raadplegingen) in totaal uitvoeren. Elke datasetafbeelding die door een besluitpuntentellingen als één vraag wordt gebruikt. Voorbeeld: Als een besluitpunt 2 datasets gebruikt, evaluerend die aanbiedingen tellen als 2 vragen naar de 1000-vraaggrens.
+Alvorens te beginnen, moeten de datasets nodig voor besluit eerst voor raadpleging worden toegelaten. Volg de stappen in deze sectie worden gedetailleerd: [ de gegevens van Adobe Experience Platform van het Gebruik ](../data/lookup-aep-data.md).
+
+### Toewijzingen maken
+
+Als u kenmerken van Adobe Experience Platform wilt gebruiken voor besluitvorming, moet u een toewijzing maken om te definiëren hoe de Adobe Experience Platform-gegevensset wordt gekoppeld aan gegevens in [!DNL Journey Optimizer] . Voer hiertoe de volgende stappen uit:
+
+1. Navigeer naar **[!UICONTROL Catalogs]** / **[!UICONTROL Dataset lookup]** en klik vervolgens op **[!UICONTROL Create]** .
+
+   ![](assets/exd-lookup-mapping.png)
+
+1. Configureer de toewijzing:
+
+   1. Klik op **[!UICONTROL Select dataset]** om alle Adobe Experience Platform weer te geven die is ingeschakeld voor opzoeken. Selecteer de dataset met de attributen u wenst.
+
+   1. Klik op **[!UICONTROL Select key]** om een verbindingssleutel te kiezen (bijvoorbeeld een vluchtnummer of de klant-id) die in zowel de kenmerken van het beslissingspunt als de gegevensset bestaat.
+
+   ![](assets/exd-lookup-mapping-create.png)
+
+1. Klik op **[!UICONTROL Save]**.
 
 ## Adobe Experience Platform-gegevens gebruiken {#leverage-aep-data}
 
-Zodra een dataset voor raadpleging wordt toegelaten, kunt u zijn attributen gebruiken om uw besluitvormingslogica met externe gegevens te verrijken. Dit is vooral nuttig voor attributen die vaak veranderen, zoals productbeschikbaarheid, of prijs in real time.
+Zodra een dataset voor raadpleging wordt toegelaten en de afbeeldingen zijn gecreeerd, kunt u de gegevens gebruiken om uw besluitvormingslogica met externe gegevens te verrijken. Dit is vooral nuttig voor attributen die vaak veranderen, zoals productbeschikbaarheid, of prijs in real time.
 
 Kenmerken van Adobe Experience Platform-gegevenssets kunnen worden gebruikt in twee delen van besluitvormingslogica:
 
 * **de regels van het Besluit**: Bepaal of een besluitvormingspunt verkiesbaar is om te worden getoond.
 * **Rangschikkende formules**: Prioriteit besluitvormingspunten die op externe gegevens worden gebaseerd.
+* **Afschilderende regels**: De externe gegevens van het gebruik om de drempel voor het afschilderen van regels te berekenen.
 
-In de volgende secties wordt uitgelegd hoe u Adobe Experience Platform-gegevens in beide contexten kunt gebruiken.
+In de volgende secties wordt uitgelegd hoe u in deze context Adobe Experience Platform-gegevens kunt gebruiken.
 
 ### Besluitvormingsregels {#rules}
 
@@ -69,16 +87,9 @@ Voer de volgende stappen uit om Adobe Experience Platform-gegevens te gebruiken 
 
    ![](assets/exd-lookup-rule.png)
 
-1. Klik op **[!UICONTROL Create mapping]** om te definiëren hoe de Adobe Experience Platform-gegevensset wordt gekoppeld aan gegevens in [!DNL Journey Optimizer] .
+1. Klik op **[!UICONTROL Add dataset]** en selecteer vervolgens de gegevensset met de kenmerken die u nodig hebt.
 
-   * Selecteer de dataset met de attributen u wenst.
-   * Kies een verbindingssleutel (bijvoorbeeld product-id of winkel-id) die bestaat in zowel de kenmerken van het beslissingstitem als de gegevensset.
-
-   ![](assets/exd-lookup-mapping.png)
-
-   >[!NOTE]
-   >
-   >U kunt maximaal 3 toewijzingen per regel maken.
+   ![](assets/exd-lookup-select-dataset.png)
 
 1. Klik op **[!UICONTROL Continue]**. U kunt nu de gegevenssetkenmerken openen in het menu **[!UICONTROL Dataset Lookup]** en deze gebruiken in uw regelvoorwaarden. [ Leer hoe te om een besluitvormingsregel ](../experience-decisioning/rules.md#create) tot stand te brengen
 
@@ -92,19 +103,54 @@ Stel bijvoorbeeld dat een luchtvaartmaatschappij een rangschikkingsformule gebru
 
 Voer de volgende stappen uit om Adobe Experience Platform-gegevens te gebruiken in rangschikkingsformules:
 
-1. Een waarderingsformule maken of bewerken. Klik in de sectie **[!UICONTROL Dataset lookup]** op **[!UICONTROL Create mapping]** .
+1. Een waarderingsformule maken of bewerken.
 
-1. Bepaal de datasetafbeelding:
+1. Klik in de sectie **[!UICONTROL Dataset lookup]** op **[!UICONTROL Add dataset]** .
 
-   * Selecteer de juiste gegevensset (bv. beschikbaarheid van de zitplaatsen via de vlucht).
-   * Kies een verbindingssleutel (bijvoorbeeld vluchtnummer of klant-id) die in zowel de kenmerken van het beslissingspunt als de gegevensset bestaat.
+1. Selecteer de juiste gegevensset.
 
-   ![](assets/exd-lookup-formula-mapping.png)
+   ![](assets/exd-lookup-formula-dataset.png)
 
    >[!NOTE]
    >
-   >U kunt maximaal 3 toewijzingen per waarderingsformule maken.
+   >Als de dataset u zoekt niet in de lijst toont, zorg ervoor u het voor raadpleging hebt toegelaten en u hebt een afbeelding van de datasetraadpleging gecreeerd. Voor meer details, verwijs naar de [ sectie van Eerste vereisten ](#prerequisites).
 
 1. Gebruik de datasetgebieden om uw het rangschikken formule zoals gebruikelijk te bouwen. [ Leer hoe te om een het rangschikken formule ](ranking/ranking-formulas.md#create-ranking-formula) tot stand te brengen
 
    ![](assets/exd-lookup-formula-criteria.png)
+
+### Afdekregels {#capping-rules}
+
+De begrenzingsregels worden gebruikt als beperkingen om het maximumaantal tijden te bepalen een besluitpunt kan worden voorgesteld. Als u Adobe Experience Platform-gegevens gebruikt in de uitlijningsregels, kunt u uitlijningscriteria definiëren op basis van dynamische, externe kenmerken. Dit wordt gedaan door een uitdrukking in uw het in kaart brengen regel te gebruiken om de gewenste het in kaart brengen drempel te berekenen.
+
+Een retailer wil bijvoorbeeld een aanbieding beperken op basis van real-time productvoorraad. In plaats van een vaste drempel van 500 in te stellen, gebruiken ze een expressie die verwijst naar het `inventory_count` -veld in een Adobe Experience Platform-gegevensset. Indien uit de dataset blijkt dat er nog 275 posten in voorraad zijn, zal de aanbieding slechts tot dat aantal worden geleverd.
+
+>[!NOTE]
+>
+>De het in kaart brengen van regel **uitdrukkingen** zijn momenteel beschikbaar als Beperkt vermogen van de Beschikbaarheid aan alle gebruikers, en worden gesteund slechts voor het **[!UICONTROL In total]** afschilderende type.
+
+Ga als volgt te werk als u Adobe Experience Platform-gegevens wilt gebruiken in expressies met toewijzingsregels:
+
+1. Maak of bewerk een beslissingsitem.
+
+1. Wanneer u de geschiktheid van items definieert, klikt u op **[!UICONTROL Add dataset]** en selecteert u de gewenste gegevensset.
+
+   ![](assets/exd-lookup-capping.png)
+
+   >[!NOTE]
+   >
+   >Als de dataset u zoekt niet in de lijst toont, zorg ervoor u het voor raadpleging hebt toegelaten en u hebt een afbeelding van de datasetraadpleging gecreeerd. Voor meer details, verwijs naar de [ sectie van Eerste vereisten ](#prerequisites).
+
+1. Selecteer het type **[!UICONTROL In total]** capapping en schakel vervolgens de optie **[!UICONTROL Expression]** in.
+
+   ![](assets/exd-lookup-capping-expression.png)
+
+   >[!NOTE]
+   >
+   >Als de dataset u zoekt niet in de lijst toont, zorg ervoor u het voor raadpleging hebt toegelaten en u hebt een afbeelding van de datasetraadpleging gecreeerd. Voor meer details, verwijs naar de [ sectie van Eerste vereisten ](#prerequisites).
+
+1. Bewerk de expressie en gebruik de gegevenssetvelden om uw expressie te maken.
+
+   ![](assets/exd-lookup-capping-attribute.png)
+
+1. Voltooi zoals gebruikelijk de configuratie van uw het maximum- en regelbeslissingspunt. [ Leer hoe te om het begrenzen van regels te plaatsen ](../experience-decisioning/items.md#capping)
