@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7ecabe24cfb7e81e6760c9841c97353921c374bb
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,16 @@ Ga als volgt te werk om een verzameling te maken:
 1. Voeg één of veelvoudige regels toe om de punten te bepalen die in de inzameling moeten worden omvat. Dit doet u als volgt:
 
    1. Kies een itemkenmerk dat u als criterium wilt gebruiken. De lijst met kenmerken bevat alle standaard- en aangepaste kenmerken die zijn gedefinieerd in het catalogusschema. [ Leer meer over de catalogus van punten ](catalogs.md)
-   1. Selecteer de gewenste operator en voer de waarde in waarop u wilt filteren.
+   1. Selecteer de gewenste operator en voer de waarde in waarop u wilt filteren.Geef elke aanbiedingsnaam expliciet op of maak een &quot;luma-zomer&quot;-tag aan elke aanbieding en wijs deze toe.
+
+      >[!NOTE]
+      >
+      >**BEVAT** exploitant geen gedeeltelijke of vervangingsgelijken. Het werkt als een **IN** exploitant, betekenend moet u een serie van nauwkeurige waarden voor de attributen verstrekken.
+      >
+      >Bijvoorbeeld, zeggen u veelvoudige zomeraanbiedingen hebt u in een inzameling wilt omvatten: *&quot;luma-zomer-yoga&quot;*, *&quot;luma-zomer-fitness&quot;*, en *&quot;luma-zomer-lopend&quot;*. Als u deze items wilt opnemen, moet u een regel definiëren, zoals &quot;Naam van aanbieding&quot; BEVAT &quot;luma-zomer-yoga&quot;, &quot;luma-zomer-fitness&quot;, &quot;luma-zomer-running&quot;. Deze regel retourneert alleen die aanbiedingen die exact overeenkomen met een van de namen in de lijst.
+      >
+      >Als u gedeeltelijke aanpassing (b.v., alle aanbiedingen die *&quot;luma-zomer&quot;* bevatten) nodig hebt, wordt dit momenteel niet gesteund. U moet elke aanbiedingsnaam uitdrukkelijk specificeren, of a *&quot;luma-zomer&quot;* markering toewijzen aan elke aanbieding en die markering in uw regel gebruiken.
+
    1. Herhaal deze stappen om zoveel regels toe te voegen als nodig is. Wanneer de veelvoudige regels worden toegevoegd, kunt u tussen **kiezen en** en **of** exploitanten om hen te combineren. Klik hiertoe op het bedieningspaneel om te schakelen tussen de twee keuzen.
    1. Klik op de knop **[!UICONTROL Preview collection]** om de items weer te geven die voldoen aan de regels die u hebt gedefinieerd.
 
