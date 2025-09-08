@@ -10,9 +10,9 @@ mini-toc-levels: 1
 level: Beginner
 keywords: campagnes, status, planning, toegang, optimaliseren beheren
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 21d3fd6a182fe8ecce13b4216e03f93348955c14
+source-git-commit: 1215c7c2de090db7bcdb7943cc96599d9809972d
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1789'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,6 @@ Zie alle campagnestatussen en alarm [ in deze sectie ](#statuses).
 
 
 ## Campagnes openen {#access}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_view"
->title="Lijst- en kalenderweergaven van campagnes"
->abstract="Naast de lijst met campagnes biedt [!DNL Journey Optimizer] een kalenderweergave van uw campagnes en een duidelijke visuele weergave van hun programma&#39;s. Met deze knoppen kunt u op elk gewenst moment schakelen tussen de lijst- en de kalenderweergave."
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
@@ -89,15 +84,15 @@ Het ![ beeld dat de Meer knoop van acties ](assets/do-not-localize/rule-builder-
 
 ![ beeld dat de campagneinventaris ](assets/inventory-actions.png) toont
 
-* **[!UICONTROL View all time report]** / **[!UICONTROL View last 24 hours report]** - Gebruik rapporten om de impact en prestaties van uw campagnes te meten en te visualiseren.
-* **[!UICONTROL Edit tags]** - Bewerk de tags die aan de campagne zijn gekoppeld.
-* **[!UICONTROL Duplicate]** - Soms moet u een campagne dupliceren, bijvoorbeeld om een geordende campagne uit te voeren die is gestopt.
-* **[!UICONTROL Delete]** - Verwijder de campagne. Deze handeling is alleen beschikbaar voor **[!UICONTROL Draft]** -campagnes.
-* **[!UICONTROL Archive]** - Archiveer de campagne. Alle gearchiveerde campagnes worden verwijderd als de planning 30 dagen na de laatste gewijzigde datum doorloopt. Deze actie is beschikbaar voor alle campagnes behalve **[!UICONTROL Draft]** campagnes.
+* **[!UICONTROL View all time report]** / **[!UICONTROL View last 24 hours report]** - Gebruik rapporten om de impact en prestaties van uw campagnes te meten en te visualiseren. Leer meer over [ campagnerapporten ](../reports/campaign-global-report-cja.md).
+* **[!UICONTROL Edit tags]** - Bewerk de tags die aan de campagne zijn gekoppeld. Leer hoe te [ gebruiks markeringen in uw campagnes ](../start/search-filter-categorize.md#add-tags-to-an-object)
+* **[!UICONTROL Duplicate]** - Gebruik deze optie om een campagne te dupliceren, bijvoorbeeld om een geordende campagne uit te voeren die is gestopt. [Meer informatie](#duplicate-a-campaign)
+* **[!UICONTROL Delete]** - Gebruik deze optie om een campagne te verwijderen. [Meer informatie](#delete-a-campaign)
+* **[!UICONTROL Archive]** - Archiveer de campagne. Alle gearchiveerde campagnes worden verwijderd als de planning 30 dagen na de laatste gewijzigde datum doorloopt. Deze actie is beschikbaar voor alle campagnes behalve **[!UICONTROL Draft]** campagnes. Leer meer over [ campagnearchief ](#archive-a-campaign).
 
 Voor actie- en API-campagnes zijn de volgende aanvullende acties beschikbaar:
 
-* **[!UICONTROL Add to package]** - Voeg de campagne toe aan een pakket om deze naar een andere sandbox te exporteren. [ de voorwerpen van de Uitvoer aan een andere zandbak ](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL Add to package]** - Voeg de campagne toe aan een pakket om deze naar een andere sandbox te exporteren. Leer hoe te [ voorwerpen naar een andere zandbak ](../configuration/copy-objects-to-sandbox.md) uitvoeren
 * **[!UICONTROL Open draft version]** - Als een nieuwe versie van de campagne is gemaakt en nog niet is geactiveerd, kunt u de conceptversie van de campagne openen met deze actie.
 
 ## Campagnelevenscyclus {#statuses}
@@ -154,6 +149,11 @@ Als er een fout optreedt in een van uw campagnes, verschijnt er een waarschuwing
 ![](assets/campaign-alerts.png)
 
 ## Campagne-kalender {#calendar}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_view"
+>title="Lijst- en kalenderweergaven van campagnes"
+>abstract="Naast de lijst met campagnes biedt [!DNL Journey Optimizer] een kalenderweergave van uw campagnes en een duidelijke visuele weergave van hun programma&#39;s. Met deze knoppen kunt u op elk gewenst moment schakelen tussen de lijst- en de kalenderweergave."
 
 Naast de lijst met campagnes biedt [!DNL Journey Optimizer] een kalenderweergave van uw campagnes en een duidelijke visuele weergave van hun programma&#39;s.
 
@@ -244,3 +244,23 @@ Om dit te voorkomen, kunt u voltooide en gestopt campagnes archiveren die u niet
 ![](assets/create-campaign-archive.png)
 
 Gearchiveerde campagnes kunnen vervolgens worden opgehaald met het speciale filter in de lijst.
+
+
+## Een campagne verwijderen {#delete}
+
+Om een campagne te schrappen, gebruik het ellips ![ beeld dat de Meer actieknoop ](assets/do-not-localize/rule-builder-icon-more.svg) toont en **[!UICONTROL Delete]** selecteert.
+
+![](assets/delete-a-campaign.png){width="70%" align="left"}
+
+>[!IMPORTANT]
+>
+>Deze optie is alleen beschikbaar voor **[!UICONTROL Draft]** -campagnes.
+
+
+## Een campagne dupliceren {#duplicate}
+
+Om een campagne te dupliceren, bijvoorbeeld als het is tegengehouden, gebruik het ellips ![ beeld dat de Meer actieknoop ](assets/do-not-localize/rule-builder-icon-more.svg) toont en **[!UICONTROL Duplicate]** selecteert.
+
+Voer de naam van de campagne in en bevestig deze.
+
+De campagne wordt gemaakt en toegevoegd aan de lijst met campagnes.
