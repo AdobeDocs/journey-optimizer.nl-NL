@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: bcb7a5e4-440d-4548-b305-c320bafe6ee7
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 2%
@@ -23,7 +23,7 @@ Als u de inhoud van het bericht wilt configureren, navigeert u naar de tab **[!U
 
 ![](assets/campaign-content.png)
 
-## De inhoud ontwerpen
+## De inhoud ontwerpen {#action-campaign-channels}
 
 Het proces voor het maken van inhoud is afhankelijk van het kanaal dat u hebt geselecteerd. Leer gedetailleerde stappen om uw berichtinhoud op de volgende pagina&#39;s tot stand te brengen:
 

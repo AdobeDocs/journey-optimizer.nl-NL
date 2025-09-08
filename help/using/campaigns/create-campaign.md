@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 3%
+source-wordcount: '179'
+ht-degree: 2%
 
 ---
 
@@ -30,6 +30,13 @@ ht-degree: 3%
 De campagnes van de actie (of Geplande campagnes) staan voor eenvoudige ad hoc partijmededelingen voor marketing gebruiksgevallen zoals promotieaanbiedingen, betrokkenheidscampagnes, aankondigingen, wettelijke berichten, of beleidsupdates toe.
 
 ➡️ [Ontdek deze functie in video](#video)
+
+
+>[!NOTE]
+>
+>De gesteunde kanalen zijn: [ E-mail ](../email/get-started-email.md), [ SMS/MMS/RCS ](../sms/get-started-sms.md), [ Push berichten ](../push/get-started-push.md), [ WhatsApp ](../whatsapp/get-started-whatsapp.md), [ LIJN ](../line/get-started-line.md), [ Directe post ](../direct-mail/get-started-direct-mail.md), [ in-app ](../in-app/get-started-in-app.md), [ Web ](../web/get-started-web.md), [} op code-gebaseerde ervaringen ](../code-based/get-started-code-based.md).
+>
+>Welke kanalen beschikbaar zijn, is afhankelijk van uw licentiemodel en invoegtoepassingen.
 
 ## Belangrijkste stappen voor het maken van handelscampagnes {#steps}
 
