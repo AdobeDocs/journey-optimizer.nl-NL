@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: a72ad0289df18df123832c5b83c301e539ebce60
+source-git-commit: 9d1e9f22c7841f9d17e857f652d94dbd6a068c06
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1102'
 ht-degree: 1%
 
 ---
@@ -71,12 +71,12 @@ U kunt Geordende campagnes tot stand brengen om **e-mails**, **SMS**, en **dupbe
 
 ## Hoe zijn geordende campagnes anders dan Reizen? {#oc-vs-journeys}
 
-* **Geordende campagnes**: Best voor **partij, één-aan-vele** campagnes. Het hele publiek beweegt zich samen door het campagnecanvas.
+* **Geordende campagnes**: Best voor **partij, één-aan-vele** campagnes. De vooruitgang van het publiek in bulk, op een programma.
 * **Reizen**: Best voor **real time, één-aan-één** overeenkomst. Elke klant beweegt zich door de reis in hun eigen tempo, die door gedrag of gebeurtenissen wordt teweeggebracht.
 
 >[!BEGINSHADEBOX]
 
-**Uiteinde** - Vele organisaties gebruiken **zowel samen** - de Schijven voor teweeggebrachte, reactieve ervaringen, en Geordende campagnes voor geplande, op kalender-gebaseerde initiatieven.
+**Beste praktijken**: Gebruik hen samen — Reizen voor teweeggebrachte, reactieve ervaringen, en Geordende Campagnes voor geplande, op kalender-gebaseerde initiatieven.
 
 >[!ENDSHADEBOX]
 
@@ -160,7 +160,7 @@ In Campagne Orchestration, verwijzen wij naar ad hoc segmentatie als &quot;Leven
 
 ## Steunt dit besluit? {#decisioning}
 
-Op dit moment wordt bij beslissingen geen gebruik gemaakt van relationele gegevens van geordende campagnes.
+Ja. Beslissing kan relationele gegevens uit geordende campagnes gebruiken. Zodra relationeel schema met schema&#39;s XDM wordt verbonden, kunnen de gegevens XDM in besluit worden gebruikt.
 
 ## Hoe werkt implementatie in verschillende omgevingen? {#deployment}
 
@@ -193,4 +193,4 @@ Ja, volg de onderstaande aanbevolen procedures:
 >* [ Geordende campagnes begeleiden &amp; beperkingen ](../orchestrated/guardrails.md)
 >* [ worden begonnen met schema&#39;s en datasets in Geordende campagnes ](../orchestrated/gs-schemas.md)
 >* [ creeer uw eerste Geordende campagne ](../orchestrated/gs-campaign-creation.md)
->* [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+>* [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
