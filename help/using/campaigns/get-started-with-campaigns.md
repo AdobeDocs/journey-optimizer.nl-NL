@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: campagne, hoe, begin, optimaliseer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: d07d4c2001bd9e9d08539788073757bc1034c9ec
+source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '747'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ U kunt verschillende typen campagnes maken in Journey Optimizer:
 
 * **campagnes van de Actie**
 
-  De campagnes van de actie (of Geplande campagnes) staan voor eenvoudige ad hoc partijmededelingen voor marketing gebruiksgevallen zoals promotieaanbiedingen, betrokkenheidscampagnes, aankondigingen, wettelijke berichten, of beleidsupdates toe.
+  De campagnes van de actie (of Geplande campagnes) staan voor eenvoudige ad hoc partijmededelingen voor marketing gebruiksgevallen zoals promotieaanbiedingen, betrokkenheidscampagnes, aankondigingen, wettelijke berichten, of beleidsupdates toe. Ondersteunde kanalen zijn:
 
 * **API teweeggebrachte campagnes**
 
@@ -121,7 +121,7 @@ Als u geen toegang hebt tot campagnefuncties, neemt u contact op met uw beheerde
 
 1. Typ de naam of het e-mailadres van de gebruiker of selecteer de gebruiker in de lijst en klik op **[!UICONTROL Save]** .
 
-   Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/users) toevoegen.
+   Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users) toevoegen.
 
 Uw gebruiker moet dan een e-mail ontvangen die aan uw instantie opnieuw richt.
 

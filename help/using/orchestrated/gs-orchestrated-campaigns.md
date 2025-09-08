@@ -6,9 +6,9 @@ description: Meer informatie over hoe u aan de slag kunt gaan met georkestreerde
 short-description: Ontdek de belangrijkste kenmerken en gebruiksscenario's van georkestreerde campagnes.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '654'
 ht-degree: 4%
 
 ---
@@ -48,6 +48,13 @@ Ondersteuning voor verzending op meerdere niveaus, waarbij één bericht wordt v
 <tr style="border: 0;">
 <td><img alt="Workflows voor meerdere stappen" src="assets/do-not-localize/icon-multistep.svg" width="150px"></a></td><td><b> multi-step campagnewerkschema's </b><br/> Ontwerp multi-stappen campagnes, van dagelijkse berichten aan complexe campagnes zoals seizoensgebonden promoties of belangrijke productlanceringen.</td></tr>
 </table>
+
+
+>[!NOTE]
+>
+>De gesteunde kanalen zijn: [ E-mail ](../email/get-started-email.md), [ SMS/MMS/RCS ](../sms/get-started-sms.md), [ Push berichten ](../push/get-started-push.md).
+>
+>Welke kanalen beschikbaar zijn, is afhankelijk van uw licentiemodel en invoegtoepassingen.
 
 ## Geordende campagnes en reizen
 
