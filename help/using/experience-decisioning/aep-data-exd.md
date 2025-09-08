@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: 825cffb38c366a7a93cd58da9d2439ff530c60e9
+source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
@@ -20,14 +20,29 @@ ht-degree: 0%
 # Adobe Experience Platform-gegevens gebruiken voor besluitvorming {#aep-data}
 
 >[!CONTEXTUALHELP]
+>id="ajo_exd_catalogs_dataset"
+>title="Opzoeken gegevensset
+>abstract=In order to use attributes from Adobe Experience Platform for decisioning, you need to create a mapping to define how the Adobe Experience Platform dataset joins with data in [!DNL Journey Optimizer].”
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_catalogs_dataset_create"
+>title="Opzoeken gegevensset"
+>abstract="Selecteer de dataset met de attributen u onder alle datasets van Adobe Experience Platform nodig hebt die voor raadpleging zijn toegelaten, dan selecteer een kaartsleutel (b.v., vluchtaantal of klant identiteitskaart) die in zowel de attributen van het besluitvormingspunt als de dataset bestaat.&quot;
+
+>[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
 >title="Gegevensset opzoeken"
->abstract="Door Adobe Experience Platform-gegevens in besluitvormingsregels te gebruiken, kunt u geschiktheidscriteria definiëren op basis van dynamische, externe kenmerken, zodat beslissingsitems alleen worden weergegeven wanneer dat relevant is. Maak een toewijzing om te definiëren hoe de Adobe Experience Platform-gegevensset wordt gekoppeld aan gegevens in [!DNL Journey Optimizer] . Selecteer de dataset met de attributen u nodig hebt en kies een het aansluiten van sleutel die in zowel de attributen van het besluitvormingspunt als de dataset bestaat."
+>abstract="Selecteer de Adobe Experience Platform-gegevensset met de kenmerken die u nodig hebt. Als de dataset niet in de lijst toont, zorg ervoor u het voor raadpleging hebt toegelaten en u hebt een afbeelding van de datasetraadpleging gecreeerd."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_formula_dataset_lookup"
 >title="Gegevensset opzoeken"
->abstract="De rangschikkingsformules bepalen de prioriteit van besluitvormingspunten. Met de gegevenssetkenmerken van [!DNL Adobe Experience Platform] kunt u de waarderingslogica dynamisch aanpassen aan de omstandigheden in de praktijk. Maak een toewijzing om te definiëren hoe de Adobe Experience Platform-gegevensset wordt gekoppeld aan gegevens in [!DNL Journey Optimizer] . Selecteer de dataset met de attributen u nodig hebt en kies een het aansluiten sleutel die in zowel de attributen van het besluitvormingspunt als de dataset bestaat"
+>abstract="Gebruik [!DNL Adobe Experience Platform] datasetkenmerken om de waarderingslogica dynamisch aan te passen aan de omstandigheden in de praktijk. Klik op **[!UICONTROL Add dataset]** om de Adobe Experience Platform-gegevensset te selecteren met de kenmerken die u nodig hebt. Als de dataset niet in de lijst toont, zorg ervoor u het voor raadpleging hebt toegelaten en u hebt een afbeelding van de datasetraadpleging gecreeerd."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_capping_dataset"
+>title="Gegevensset toevoegen&quot;
+>abstract="Gebruik [!DNL Adobe Experience Platform] -gegevenssetkenmerken om afdekkende criteria te definiëren op basis van dynamische, externe kenmerken. Klik op **[!UICONTROL Add dataset]** om de Adobe Experience Platform-gegevensset te selecteren met de kenmerken die u nodig hebt. Als de dataset niet in de lijst toont, zorg ervoor u het voor raadpleging hebt toegelaten en u hebt een afbeelding van de datasetraadpleging gecreeerd.&quot;
 
 >[!AVAILABILITY]
 >
@@ -55,7 +70,7 @@ Als u kenmerken van Adobe Experience Platform wilt gebruiken voor besluitvorming
 
 1. Configureer de toewijzing:
 
-   1. Klik op **[!UICONTROL Select dataset]** om alle Adobe Experience Platform weer te geven die is ingeschakeld voor opzoeken. Selecteer de dataset met de attributen u wenst.
+   1. Klik op **[!UICONTROL Select dataset]** om alle Adobe Experience Platform-gegevenssets weer te geven die zijn ingeschakeld voor opzoeken. Selecteer de dataset met de attributen u wenst.
 
    1. Klik op **[!UICONTROL Select key]** om een verbindingssleutel te kiezen (bijvoorbeeld een vluchtnummer of de klant-id) die in zowel de kenmerken van het beslissingspunt als de gegevensset bestaat.
 
