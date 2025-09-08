@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 17e3c3e123415b6fb464fbf5de1ab3882a3ad73e
+source-git-commit: 36bef8f07645b1e9a5a010e3f1b4044f2099b002
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-mailcamp
 
 ## Vergelijkbare afbeelding genereren
 
-<!--![](assets/do-not-localize/uc-image-similar.gif)-->
+![](assets/do-not-localize/uc-image-similar.gif)
 
 1. Selecteer **[!UICONTROL Edit content]** nadat u de campagne hebt ingesteld.
 
