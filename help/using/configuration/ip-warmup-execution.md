@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, groep, subdomeinen, leverbaarheid
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '2539'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Elke fase bestaat uit verschillende uitvoeringen, waaraan u één campagne toewi
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="Domeingroepen uitsluiten"
 >abstract="Selecteer de domeinen die u van de huidige fase wilt uitsluiten. De uitsluiting van het domein vereist een niet-uitgevoerde fase, zodat kunt u een lopende fase moeten verdelen om uitsluitingen toe te voegen."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html?lang=nl-NL#split-phase" text="Een fase splitsen"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="Een fase splitsen"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_phases"
@@ -82,7 +82,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
       >[!CAUTION]
       >
-      >Zodra het IP warmup plan loopt, als u het [ uitvoeringsadres ](../email/email-settings.md#execution-address) in de configuratie van het e-mailkanaal [&#128279;](channel-surfaces.md) bijwerkt die in de IP warmup campagne wordt gebruikt, kon de domeinuitsluiting ontbreken. Bewerk de configuratie van het e-mailkanaal niet nadat het IP-opwarmingsplan is gestart.
+      >Zodra het IP warmup plan loopt, als u het [ uitvoeringsadres ](../email/email-settings.md#execution-address) in de configuratie van het e-mailkanaal [ ](channel-surfaces.md) bijwerkt die in de IP warmup campagne wordt gebruikt, kon de domeinuitsluiting ontbreken. Bewerk de configuratie van het e-mailkanaal niet nadat het IP-opwarmingsplan is gestart.
 
    1. Selecteer in de sectie **[!UICONTROL Campaign for exclusion of profiles]** de campagnes die het publiek dat u wilt uitsluiten van de huidige fase.
 
@@ -92,14 +92,14 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    1. Selecteer in de sectie **[!UICONTROL Journeys for exclusion of profiles]** de ritten met het publiek dat u wilt uitsluiten van de huidige fase.
 
-+++ Als u de optie Transparanten voor uitsluiten van profielen wilt gebruiken, moet u een relatie tot stand brengen tussen de schema&#39;s AJO Message Feedback Event en AJO Entity Record.
+      +++ Als u de optie Transparanten voor uitsluiten van profielen wilt gebruiken, moet u een relatie tot stand brengen tussen de schema&#39;s AJO Message Feedback Event en AJO Entity Record.
 
       1. Creeer een douane **Namespace** die als identiteitstype voor de hieronder stappen zal dienen.
 
       1. De toegang Adobe Experience Platform, van het **menu van Schema&#39;s**, selecteert het **Schema van het Verslag van de Entiteit van AJO** en plaatst het **_id** gebied als primaire identiteit, en selecteert eerder gecreeerde namespace als **Identiteit namespace**.
 
       1. Van het **menu van Schema&#39;s**, selecteer het **Schema van de Gebeurtenis van de Terugkoppeling van het Bericht van AJO**, en navigeer aan het **_messageID** gebied. Selecteer **verhouding** toevoegen en kies **het Schema van het Verslag van de Entiteit van AJO** als **schema van de Verwijzing** en uw eerder gecreeerd namespace als **Identiteit van de Verwijzing namespace**.
-+++
+      +++
 
    1. In de sectie **[!UICONTROL Profiles targeted in previous runs]** ziet u dat de profielen uit de vorige versies van die fase altijd zijn uitgesloten. Als in Run #1 bijvoorbeeld een profiel in de eerste 4800 doelgroepen is opgenomen, zorgt het systeem er automatisch voor dat hetzelfde profiel de e-mail niet ontvangt in Run #2.
 
@@ -162,7 +162,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. Naar keuze, kunt u een tijdvenster bepalen waarin de IP warmup campagne kan worden uitgevoerd voor het geval dat er om het even welke vertragingen in de [ publieksevaluatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL#how-segmentation-works){target="_blank"} zijn. Klik hiertoe linksboven op het pictogram Eigenschappen naast de naam van het abonnement en gebruik de vervolgkeuzelijst **[!UICONTROL Retry run time]** om een duur te selecteren van maximaal 240 minuten (4 uur).
+1. Naar keuze, kunt u een tijdvenster bepalen waarin de IP warmup campagne kan worden uitgevoerd voor het geval dat er om het even welke vertragingen in de [ publieksevaluatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} zijn. Klik hiertoe linksboven op het pictogram Eigenschappen naast de naam van het abonnement en gebruik de vervolgkeuzelijst **[!UICONTROL Retry run time]** om een duur te selecteren van maximaal 240 minuten (4 uur).
 
    >[!NOTE]
    >
@@ -220,7 +220,7 @@ Selecteer de knop **[!UICONTROL Activate]** om een uitvoering te activeren. Dan 
 
 Wanneer het runnen van veelvoudige IP warmup plannen gelijktijdig, allen gericht de zelfde IP pool en domeinen, is het cruciaal om de potentiële gevolgen te voorzien. Bijvoorbeeld, als ISP een dagelijkse grens van 100 e-mail afdwingt, zou het runnen van verscheidene plannen die op de zelfde domeinen richten deze drempel kunnen overschrijden.
 
-Zorg ervoor u genoeg tijd hebt gepland om voor de [ publieksevaluatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL#how-segmentation-works){target="_blank"} toe te staan om worden uitgevoerd.
+Zorg ervoor u genoeg tijd hebt gepland om voor de [ publieksevaluatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} toe te staan om worden uitgevoerd.
 
 ![](assets/ip-warmup-plan-activate.png)
 
@@ -232,7 +232,7 @@ Wanneer u een run activeert, worden automatisch meerdere soorten publiek gemaakt
 
 * Indien de eerste uitvoering van een fase wordt geactiveerd:
 
-   * Een [ publiek ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=nl-NL){target="_blank"} wordt gecreeerd voor de uitgesloten campagnepubliek (als om het even welk), met de volgende noemende overeenkomst: `<warmupName>-Phase<phaseNo>-Audience Exclusion `.
+   * Een [ publiek ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"} wordt gecreeerd voor de uitgesloten campagnepubliek (als om het even welk), met de volgende noemende overeenkomst: `<warmupName>-Phase<phaseNo>-Audience Exclusion `.
 
    * Er wordt een publiek gemaakt voor de (eventuele) domeingroepen die zijn uitgesloten, met de volgende naamgevingsconventie: `<warmupName>-Phase<phaseNo>-Domain Exclusion` .
 
@@ -254,7 +254,7 @@ Wanneer u een run activeert, worden automatisch meerdere soorten publiek gemaakt
      >
      >Het systeem maakt geen nieuw publiek voor het geval er geen wijziging optreedt in het laatste betrokkenheidsfilter voor volgende fasen.
 
-   * Een [ publiekssamenstelling ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=nl-NL){target="_blank"} wordt gecreeerd die aan het publiek beantwoordt de campagne zal worden verzonden naar, met de volgende noemende overeenkomst: `<warmupName>-Phase<phaseNo>-Run<runNo>`.
+   * Een [ publiekssamenstelling ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html){target="_blank"} wordt gecreeerd die aan het publiek beantwoordt de campagne zal worden verzonden naar, met de volgende noemende overeenkomst: `<warmupName>-Phase<phaseNo>-Run<runNo>`.
 
      >[!NOTE]
      >
@@ -304,7 +304,7 @@ Meer in het algemeen, om het effect van uw plan te meten, kunt u de prestaties v
 
 ![](assets/ip-warmup-plan-reports.png)
 
-U kunt tot de rapporten van het [ menu van Campagnes ](../campaigns/modify-stop-campaign.md#access) ook toegang hebben aangezien uw plan verschillende campagnes zou kunnen gebruiken.
+U kunt tot de rapporten van het [ menu van Campagnes ](../campaigns/manage-campaigns.md#access) ook toegang hebben aangezien uw plan verschillende campagnes zou kunnen gebruiken.
 
 
 ## Uw abonnement beheren {#manage-plan}

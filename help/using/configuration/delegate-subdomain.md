@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: subdomein, delegatie, domein, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '1868'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 >id="ajo_admin_subdomainname"
 >title="Subdomeindelegatie"
 >abstract="Met Journey Optimizer kunt u uw subdomeinen delegeren aan Adobe. U kunt een subdomein volledig delegeren aan Adobe, wat de geadviseerde methode is. </br> u kunt subdomain ook creëren gebruikend CNAMEs om aan Adobe-specifieke verslagen te richten, maar deze benadering vereist u om DNS verslagen op uw te handhaven en te beheren."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="Methoden voor subdomeinconfiguratie"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="Methoden voor subdomeinconfiguratie"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname_header"
@@ -253,7 +253,7 @@ Voer eerst de volgende stappen uit in [!DNL Journey Optimizer] :
 
    U moet een specifiek verzoek voor elke [ het landen pagina ](../landing-pages/lp-subdomains.md#undelegate-subdomain), [ SMS ](../sms/sms-subdomains.md#undelegate-subdomain), of [ Web subdomain ](../web/web-delegated-subdomains.md#undelegate-subdomain) opheffen.
 
-1. Stop de actieve campagnes verbonden aan subdomeinen. [ leer hoe ](../campaigns/modify-stop-campaign.md#stop)
+1. Stop de actieve campagnes verbonden aan subdomeinen. [ leer hoe ](../campaigns/manage-campaigns.md#stop)
 
 1. Stop de actieve reizen verbonden aan subdomeinen. [ leer hoe ](../building-journeys/end-journey.md#stop-journey)
 

@@ -10,7 +10,7 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '4376'
 ht-degree: 8%
@@ -82,7 +82,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 **Campagnes**
 
 <!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* Wanneer er een fout optreedt in een van uw campagnes, verschijnt er nu een waarschuwingspictogram in de lijst met campagnes naast de status van de campagne. [Meer informatie](../campaigns/modify-stop-campaign.md#statuses)
+* Wanneer er een fout optreedt in een van uw campagnes, verschijnt er nu een waarschuwingspictogram in de lijst met campagnes naast de status van de campagne. [Meer informatie](../campaigns/manage-campaigns.md#statuses)
 
 **Reizen**
 
@@ -339,7 +339,7 @@ A new option is available in the email surface settings to include email address
 <p>U kunt nu compositieworkflows maken om bestaande Adobe Experience Platform-soorten publiek te combineren tot een visueel canvas en verschillende activiteiten (splitsen, verrijken...) gebruiken om nieuwe soorten publiek te maken. Nieuw gecreëerd publiek wordt samen met het bestaande publiek weer in Adobe Experience Platform opgeslagen en kan in Journey Optimizer-campagnes worden gebruikt om klanten te bereiken.</p>
 <img src="assets/do-not-localize/gif-ao.gif"/>
 <p>Raadpleeg de <a href="../audience/get-started-audience-orchestration.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-<p>De samenstelling van het publiek is volledig geïntegreerd met het nieuwe Adobe Experience Platform-menu "Soorten publiek", dat als een gecentraliseerd portaal voor het publiek fungeert. U kunt nu een bladerpagina gebruiken die een nieuw dashboard met segmenttendensen en overlappingen omvat om nieuwe inzichten te vinden en organisatorische hulpmiddelen voor het folderen en het etiketteren te onderzoeken. Binnen deze ervaring zijn beheerbesturingselementen ingebouwd voor gestandaardiseerde publiekslabels en mogelijkheden voor levenscyclusbeheer van het publiek om activeringsworkflows te beheren. Met deze nieuwe beheerervaring kunt u het publiek nu gemakkelijk en veilig beheren vanaf één locatie. Voor meer informatie, verwijs naar <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=nl-NL" target="_blank"> documentatie van Adobe Experience Platform </a>.</p></p>
+<p>De samenstelling van het publiek is volledig geïntegreerd met het nieuwe Adobe Experience Platform-menu "Soorten publiek", dat als een gecentraliseerd portaal voor het publiek fungeert. U kunt nu een bladerpagina gebruiken die een nieuw dashboard met segmenttendensen en overlappingen omvat om nieuwe inzichten te vinden en organisatorische hulpmiddelen voor het folderen en het etiketteren te onderzoeken. Binnen deze ervaring zijn beheerbesturingselementen ingebouwd voor gestandaardiseerde publiekslabels en mogelijkheden voor levenscyclusbeheer van het publiek om activeringsworkflows te beheren. Met deze nieuwe beheerervaring kunt u het publiek nu gemakkelijk en veilig beheren vanaf één locatie. Voor meer informatie, verwijs naar <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html" target="_blank"> documentatie van Adobe Experience Platform </a>.</p></p>
 </td>
 </tr>
 </tbody>
@@ -633,9 +633,9 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **Campagnes**
 
-* Het is nu mogelijk een campagne te dupliceren vanuit het inventarisscherm met behulp van het actiemenu voor ovaal. [Meer informatie](../campaigns/modify-stop-campaign.md#duplicate)
+* Het is nu mogelijk een campagne te dupliceren vanuit het inventarisscherm met behulp van het actiemenu voor ovaal. [Meer informatie](../campaigns/manage-campaigns.md#duplicate)
 * U kunt nu ontwerpwijzigingen in een live campagne verwijderen.
-* De stappen voor het activeren van een campagne zijn nu gestroomlijnd. [Meer informatie](../campaigns/modify-stop-campaign.md)
+* De stappen voor het activeren van een campagne zijn nu gestroomlijnd. [Meer informatie](../campaigns/manage-campaigns.md)
 
 **Beheer van het Besluit**
 
@@ -970,7 +970,7 @@ Note that each widget can be resized and deleted as needed.
 <td>
 <p>Adobe Experience Platform biedt een reeks mogelijkheden voor gegevenshygiëne waarmee u uw opgeslagen gegevens kunt beheren via programmatische verwijderingen van consumentengegevens en gegevenssets. Deze mogelijkheid is nu beschikbaar voor Adobe Journey Optimizer. </p>
 <p>U kunt uw gegevensopslag beheren om ervoor te zorgen dat de informatie wordt gebruikt zoals verwacht, wordt bijgewerkt wanneer onjuiste gegevens het bevestigen vereisen, en wordt geschrapt wanneer het organisatorische beleid het noodzakelijk acht.</p>
-<p><strong> Voorzichtigheid </strong> - de mogelijkheden van de Hygiëne van Gegevens zijn momenteel slechts beschikbaar voor organisaties die het <strong> Schild van de Gezondheidszorg </strong> en <strong> Privacy en het 5&rbrace; toe:voegen-op dienstenaanbod van het Schild van de Veiligheid hebben gekocht.</strong></p><p>Raadpleeg de <a href="../privacy/data-hygiene.md">gedetailleerde documentatie</a> voor meer informatie.
+<p><strong> Voorzichtigheid </strong> - de mogelijkheden van de Hygiëne van Gegevens zijn momenteel slechts beschikbaar voor organisaties die het <strong> Schild van de Gezondheidszorg </strong> en <strong> Privacy en het 5} toe:voegen-op dienstenaanbod van het Schild van de Veiligheid hebben gekocht.</strong></p><p>Raadpleeg de <a href="../privacy/data-hygiene.md">gedetailleerde documentatie</a> voor meer informatie.
 </td>
 </tr>
 </tbody>
@@ -988,7 +988,7 @@ Note that each widget can be resized and deleted as needed.
 <p>U kunt nu zelfstandige inhoudssjablonen maken die u kunt gebruiken voor reizen en campagnes voor snel hergebruik.</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p>Leer hoe te om, inhoudsmalplaatjes in <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=nl-NL"> tot stand te brengen uit te geven en te gebruiken deze video </a>. Raadpleeg de <a href="../content-management/content-templates.md">gedetailleerde documentatie</a> voor meer informatie.
+<p>Leer hoe te om, inhoudsmalplaatjes in <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html"> tot stand te brengen uit te geven en te gebruiken deze video </a>. Raadpleeg de <a href="../content-management/content-templates.md">gedetailleerde documentatie</a> voor meer informatie.
 </p>
 </td>
 </tr>

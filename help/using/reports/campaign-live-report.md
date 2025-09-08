@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '3309'
 ht-degree: 0%
@@ -522,7 +522,7 @@ De KPI&#39;s van **[!UICONTROL Web performance]** bieden uitgebreide inzichten i
 
 * **[!UICONTROL Interactions]**: totaal aantal afspraken met uw webpagina. Dit omvat alle handelingen die de gebruikers hebben uitgevoerd, zoals klikken of andere interacties.
 
-+++
++++ 
 
 ### Weboverzicht {#web-summary}
 
@@ -541,7 +541,7 @@ De grafiek van **[!UICONTROL Web summary]** toont de evolutie van uw Web ervaart
 
 * **[!UICONTROL Interactions]**: totaal aantal afspraken met uw webpagina. Dit omvat alle handelingen die de gebruikers hebben uitgevoerd, zoals klikken of andere interacties.
 
-+++
++++ 
 
 ### Interacties per element {#web-interactions}
 
@@ -608,5 +608,5 @@ Verwijs naar [ deze pagina ](exclusion-list.md) voor de uitvoerige lijst van uit
 * [Aan de slag met campagnes](../campaigns/get-started-with-campaigns.md)
 * [Een campagne maken](../campaigns/create-campaign.md)
 * [API-gestuurde campagnes maken](../campaigns/api-triggered-campaigns.md)
-* [Een campagne wijzigen of stoppen](../campaigns/modify-stop-campaign.md)
+* [Een campagne wijzigen of stoppen](../campaigns/manage-campaigns.md)
 * [Campagnerapport](campaign-global-report-cja.md)

@@ -8,7 +8,7 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, subdomeinen, configuratie
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
@@ -26,13 +26,13 @@ ht-degree: 0%
 >id="ajo_admin_subdomain_sms"
 >title="Een SMS/MMS-subdomein delegeren"
 >abstract="U moet een subdomein vormen voor uw tekstberichten te gebruiken, aangezien u dit subdomein nodig hebt om een configuratie van SMS tot stand te brengen. U kunt een subdomein gebruiken dat al aan Adobe is gedelegeerd, of een nieuw subdomein vormen."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Een SMS-configuratie maken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Een SMS-configuratie maken"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
 >title="Een SMS/MMS-subdomein selecteren"
 >abstract="Om een configuratie van SMS te kunnen tot stand brengen, zorg ervoor u eerder minstens één subdomain van SMS om van de lijst Subdomain te kiezen hebt gevormd."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Een SMS-configuratie maken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Een SMS-configuratie maken"
 
 ## Aan de slag met SMS-subdomeinen {#gs-sms-mms-subdomains}
 
@@ -138,7 +138,7 @@ Het subdomein wordt gemarkeerd als **[!UICONTROL Failed]** als u geen validatier
 Als u wenst om subdomain van SMS te delegeren, bereik aan uw vertegenwoordiger van Adobe met subdomain u wilt loskoppelen.
 
 <!--
-1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/modify-stop-campaign.md#stop)
+1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/manage-campaigns.md#stop)
 
 1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)-->
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '5113'
 ht-degree: 7%
@@ -149,7 +149,7 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
    * **de inventarisreorganisatie van de Campagne** - Gepland en API-teweeggebrachte campagnes zijn nu verdeeld in afzonderlijke lusjes in de campagneinventaris voor gemakkelijkere navigatie en beheer.
 
-[Meer informatie](../campaigns/modify-stop-campaign.md)
+[Meer informatie](../campaigns/manage-campaigns.md)
 
 * **het Beheer van Gegevens**
    * **de update van de systeemdatasets van het Beheer van het Besluit** - de geschrapte Gepersonaliseerde en aanbiedingen van de Fallback worden nu duidelijk zoals gearchiveerd in de &quot;beslissing_object_repository_personalized_aanbiedingen&quot;en &quot;Decision_object_repository_fallback_aanbiedingen&quot;datasets. De bestaande records in de dataset worden niet gewijzigd.
@@ -423,7 +423,7 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 <p>In de lijsten met reizen en campagnes is nu een kalenderweergave beschikbaar. Hiermee kunt u alle reizen en campagnes in de respectieve lijsten visualiseren.</p>
 <p>Deze wijziging is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Om toegang te verzoeken, gebruik <a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank"> deze vorm </a>.</p>
 <img src="assets/do-not-localize/calendar.gif">
-<p>Voor meer informatie, verwijs naar deze secties: <a href="../building-journeys/journey-ui.md"> doorblader en filter uw reizen </a>, <a href="../campaigns/modify-stop-campaign.md"> campagnes van de Toegang </a>.</p>
+<p>Voor meer informatie, verwijs naar deze secties: <a href="../building-journeys/journey-ui.md"> doorblader en filter uw reizen </a>, <a href="../campaigns/manage-campaigns.md"> campagnes van de Toegang </a>.</p>
 <p>Beschikbaarheidsdatum: 28 mei 2025</p>
 </td>
 </tr>
@@ -1104,7 +1104,7 @@ Raadpleeg de [gedetailleerde documentatie](../test-approve/approval-policies.md)
 
 **Bedrijfs regels**
 
-U kunt nu dagelijkse aftopping gebruiken in reizen en campagnes met batchsegmentatie. Om ervoor te zorgen dat de regels voor dagelijkse frequentiecapping correct zijn, moet u de naamruimte met de hoogste prioriteit kiezen tijdens het ontwerpen van een campagne of een reis. Leer meer over namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+U kunt nu dagelijkse aftopping gebruiken in reizen en campagnes met batchsegmentatie. Om ervoor te zorgen dat de regels voor dagelijkse frequentiecapping correct zijn, moet u de naamruimte met de hoogste prioriteit kiezen tijdens het ontwerpen van een campagne of een reis. Leer meer over namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
 Ter herinnering: dagelijkse frequentiecapping in regelsets is alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
