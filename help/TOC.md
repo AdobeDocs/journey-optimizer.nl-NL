@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d7a291fc8e203b2e5b77969b406591544882b26e
+source-git-commit: cbb96e60b5f3f18499380829c909ad5c4fb6bb37
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2913'
 ht-degree: 18%
 
 ---
@@ -357,6 +357,7 @@ ht-degree: 18%
       + [Meldingen voor In-app controleren en verzenden](using/in-app/send-in-app.md)
    + Push-meldingskanaal {#push}
       + [Push-meldingskanaal](/help/rp_landing_pages/push-landing-page.md)
+      + [Aan de slag met pushmeldingen](using/push/get-started-push.md)
       + [Een pushmelding maken](using/push/create-push.md)
       + [Uw pushmelding ontwerpen](using/push/design-push.md)
       + [Uw pushmelding controleren en verzenden](using/push/send-push.md)
@@ -437,6 +438,7 @@ ht-degree: 18%
       + [Controleer en verzend uw WhatsApp-berichten](using/whatsapp/send-whatsapp.md)
    + REGEL {#line}
       + [REGEL](/help/rp_landing_pages/line-landing-page.md)
+      + [Aan de slag met LINE-kanaal](using/line/get-started-line.md)
       + [Regelkanaal configureren in Journey Optimizer](using/line/line-configuration.md)
       + [Een LIJNbericht maken](using/line/create-line.md)
       + [Controleer en verzend uw berichten van de LIJN](using/line/send-line.md)
@@ -865,7 +867,7 @@ ht-degree: 18%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
