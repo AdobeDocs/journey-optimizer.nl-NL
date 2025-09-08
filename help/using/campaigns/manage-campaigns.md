@@ -10,9 +10,9 @@ mini-toc-levels: 1
 level: Beginner
 keywords: campagnes, status, planning, toegang, optimaliseren beheren
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 21d3fd6a182fe8ecce13b4216e03f93348955c14
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1700'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Alvorens met campagnes te beginnen, controleer de volgende eerste vereisten die 
 
 * **campagnes van de Toegang**. U kunt tot campagnes of van de [ campagnemijst ](#access) of van de [ campagnecalender ](#calendar) toegang hebben.
 
-* **creeer de campagne**. De stappen van de creatie hangen van het [ type van campagne ](get-started-with-campaigns.md#get-started-with-campaigns) af u creeert. Leer hoe te om een [ actiecampagne ](../campaigns/create-campaign.md), een [ API-teweeggebrachte campagne ](../campaigns/api-triggered-campaigns.md), of een [ georkestreerde campagne ](../orchestrated/create-orchestrated-campaign.md) tot stand te brengen.
+* **creeer de campagne**. De stappen van de verwezenlijking hangen van het [ type van campagne ](get-started-with-campaigns.md#get-started-with-campaigns) af. Leer hoe te om een [ actiecampagne ](../campaigns/create-campaign.md), een [ API-teweeggebrachte campagne ](../campaigns/api-triggered-campaigns.md), of een [ georkestreerde campagne ](../orchestrated/create-orchestrated-campaign.md) tot stand te brengen.
 
 * **bepaal de campagneeigenschappen**. Leer hoe te om eigenschappen voor een [ actiecampagne ](../campaigns/campaign-properties.md), voor een [ API-teweeggebrachte campagne ](../campaigns/api-triggered-campaign-properties.md), of een [ georkesteerde campagne ](../orchestrated/create-orchestrated-campaign.md) te plaatsen.
 
@@ -53,7 +53,7 @@ Zie alle campagnestatussen en alarm [ in deze sectie ](#statuses).
 >title="Actie"
 >abstract="In deze secties worden alle acties weergegeven die in de geordende campagne worden gebruikt."
 
-Campagnes zijn toegankelijk via het menu **[!UICONTROL Campaigns]** .
+Campagnes zijn toegankelijk via het menu **[!UICONTROL Campaigns]** . Gebruik de lusjes om campagnes, door type te doorbladeren: **actie** campagnes, **API-teweeggebrachte** campagnes, en **Geordende** campagnes. Leer meer over het [ type van campagne ](get-started-with-campaigns.md#get-started-with-campaigns). Welke typen beschikbaar zijn, is afhankelijk van uw licentieovereenkomst en uw machtigingen.
 
 >[!BEGINTABS]
 
