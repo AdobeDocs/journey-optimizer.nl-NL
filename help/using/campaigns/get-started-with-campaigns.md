@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: campagne, hoe, begin, optimaliseer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
+source-git-commit: 5821bc3f3c6e81ae1ae7389bbca1bdcec11cc805
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 1%
+source-wordcount: '803'
+ht-degree: 0%
 
 ---
 
@@ -62,21 +62,21 @@ Gebruik Journey Optimizer-campagnes om via verschillende kanalen eenmalige inhou
 
 ![](assets/gs-campaigns.png)
 
-U kunt verschillende typen campagnes maken in Journey Optimizer:
+In Journey Optimizer kunt u verschillende typen campagnes maken. Ondersteunde kanalen en gebruiksgevallen variëren afhankelijk van het type campagne. Deze typen worden hieronder vermeld.
 
 * **campagnes van de Actie**
 
-  De campagnes van de actie (of Geplande campagnes) staan voor eenvoudige ad hoc partijmededelingen voor marketing gebruiksgevallen zoals promotieaanbiedingen, betrokkenheidscampagnes, aankondigingen, wettelijke berichten, of beleidsupdates toe. Ondersteunde kanalen zijn:
+  De campagnes van de actie (of Geplande campagnes) staan voor eenvoudige ad hoc partijmededelingen voor marketing gebruiksgevallen zoals promotieaanbiedingen, betrokkenheidscampagnes, aankondigingen, wettelijke berichten, of beleidsupdates toe. Leer meer over actiecampagnes mogelijkheden, gebruiksgevallen en gesteunde kanalen [ op deze pagina ](create-campaign.md).
 
 * **API teweeggebrachte campagnes**
 
-  API getriggerde campagnes staan toe of voor marketing mededelingen om aan een publiek op het juiste ogenblik te bereiken, of voor transactie/operationele berichten aan een individu zoals een wachtwoordteruggestelde, waar de behoefte personalisatie kan impliceren door niet alleen profielattributen maar ook de contextgegevens in real time in de trekker te gebruiken die een nuttige lading van de WEERSTAPI is.
+  API getriggerde campagnes staan toe of voor marketing mededelingen om aan een publiek op het juiste ogenblik te bereiken, of voor transactie/operationele berichten aan een individu zoals een wachtwoordteruggestelde, waar de behoefte personalisatie kan impliceren door niet alleen profielattributen maar ook de contextgegevens in real time in de trekker te gebruiken die een nuttige lading van de WEERSTAPI is. Leer meer over API-teweeggebrachte campagnecapaciteiten, gebruiksgevallen en gesteunde kanalen [ op deze pagina ](api-triggered-campaigns.md).
 
 * **Geordende campagnes**
 
   Campagne Orchestration in Adobe Journey Optimizer biedt geavanceerde, merkgestarte marketingcampagnes over verschillende kanalen, waarmee u op grote schaal betrokkenheid, inkomsten en klantenloyaliteit kunt stimuleren.
 
-  Hoewel de marketing over de kanalen essentieel is, maken de geordende campagnes het naadloos. Met een visuele, belemmering-en-dalingsinterface, kunt u complexe marketing werkschema&#39;s ontwerpen en automatiseren, van segmentatie aan berichtlevering, over veelvoudige kanalen. Alles gebeurt in één intuïtieve omgeving, gebouwd voor snelheid, controle en efficiëntie.
+  Hoewel de marketing over de kanalen essentieel is, maken de geordende campagnes het naadloos. Met een visuele, belemmering-en-dalingsinterface, kunt u complexe marketing werkschema&#39;s ontwerpen en automatiseren, van segmentatie aan berichtlevering, over veelvoudige kanalen. Alles gebeurt in één intuïtieve omgeving, gebouwd voor snelheid, controle en efficiëntie. Leer meer over Geordende campagnecapaciteiten, gebruiksgevallen en gesteunde kanalen [ op deze pagina ](../orchestrated/gs-orchestrated-campaigns.md).
 
 ## Vereisten {#prerequisites}
 
@@ -121,7 +121,7 @@ Als u geen toegang hebt tot campagnefuncties, neemt u contact op met uw beheerde
 
 1. Typ de naam of het e-mailadres van de gebruiker of selecteer de gebruiker in de lijst en klik op **[!UICONTROL Save]** .
 
-   Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/users) toevoegen.
+   Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users) toevoegen.
 
 Uw gebruiker moet dan een e-mail ontvangen die aan uw instantie opnieuw richt.
 
