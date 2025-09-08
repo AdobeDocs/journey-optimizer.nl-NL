@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 316fdb4e581ea139c2914f395a5d1823c2ded3cc
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '517'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ De lijst met XDM-velden die worden doorgegeven, is uitgebreid. Sommige bevatten 
 >
 >Datasets kunnen niet worden ingeschakeld voor realtime profielservice. Controleer of de schakeloptie **[!UICONTROL Profile]** is uitgeschakeld.
 
-[!DNL Journey Optimizer] verzendt gegevens op streamingwijze zoals deze zich voordoen. U kunt deze gegevens vragen met de Query-service. U kunt verbinding maken met Customer Journey Analytics of andere BI-gereedschappen om gegevens met betrekking tot deze stappen weer te geven.
+[!DNL Journey Optimizer] verzendt gegevens zoals deze zich voordoen, in het streamen. U kunt deze gegevens vragen met de Query-service. U kunt verbinding maken met Customer Journey Analytics of andere BI-gereedschappen om gegevens met betrekking tot deze stappen weer te geven.
 
 De volgende schema&#39;s worden gemaakt:
 
@@ -63,12 +63,12 @@ De lijsten van XDM gebieden die tot Adobe Experience Platform worden overgegaan 
 
 ## Integratie met Customer Journey Analytics {#integration-cja}
 
-[!DNL Journey Optimizer] stapgebeurtenissen kunnen aan andere datasets in [ Adobe Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=nl-NL){target="_blank"}  worden verbonden.
+[!DNL Journey Optimizer] stapgebeurtenissen kunnen aan andere datasets in [ Adobe Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html){target="_blank"} worden verbonden.
 
 De algemene workflow is:
 
 * [!DNL Customer Journey Analytics] voert de gegevensset &quot;Journey Step Event&quot; in.
-* Het **profileID** gebied in het bijbehorende schema van de Gebeurtenis van de Stap van de Reis voor Journey Orchestration&quot;wordt bepaald als gebied van de Identiteit. In [!DNL Customer Journey Analytics], kunt u deze dataset aan een andere dataset dan verbinden die de zelfde waarde zoals de op persoon gebaseerde herkenningsteken heeft.
-* Om deze dataset in [!DNL Customer Journey Analytics], voor dwars-kanaalreisanalyse te gebruiken, verwijs naar [ documentatie van de Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=nl-NL){target="_blank"} .
+* Het **profileID** gebied in het bijbehorende &quot;schema van de Gebeurtenis van de Stap van de Reis voor Journey Orchestration&quot;wordt bepaald als gebied van de Identiteit. In [!DNL Customer Journey Analytics], kunt u deze dataset aan een andere dataset dan verbinden die de zelfde waarde zoals de op persoon gebaseerde herkenningsteken heeft.
+* Om deze dataset in [!DNL Customer Journey Analytics], voor dwars-kanaalreisanalyse te gebruiken, verwijs naar [ documentatie van Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
 
 ➡️ [ Werk met Customer Journey Analytics ](cja-ajo.md){target="_blank"}

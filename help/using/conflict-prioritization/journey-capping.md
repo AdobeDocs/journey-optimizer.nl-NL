@@ -4,9 +4,9 @@ description: Leer hoe u regels voor aftopping kunt maken voor uw reizen en hoe u
 role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 316fdb4e581ea139c2914f395a5d1823c2ded3cc
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '875'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Voer de volgende stappen uit om een regel voor het afdekken van reizen te maken:
 
 1. Vouw de onderstaande secties uit om te leren hoe u elk type uitvulling kunt configureren:
 
-   +++Configureer een regel voor het afdekken van verplaatsingen
+   +++Een regel voor het aftoppen van reisgegevens configureren
 
    1. Stel in het veld **[!UICONTROL Capping]** het maximum aantal ritten in dat een profiel kan invoeren.
    1. Definieer in het veld **[!UICONTROL Duration]** de tijdsperiode die u wilt overwegen. De duur is gebaseerd op de UTC-tijdzone. Zo wordt de Daily cap ingesteld op middernacht UTC.
@@ -76,7 +76,7 @@ Voer de volgende stappen uit om een regel voor het afdekken van reizen te maken:
 
    +++
 
-   +++Configureer een regel voor het aftoppen van de route
+   +++Een regel voor aftopping van de route configureren 
 
    1. Stel in het veld **[!UICONTROL Capping]** het maximumaantal ritten in waarin een profiel gelijktijdig kan worden ingeschreven.
 
@@ -113,8 +113,8 @@ Zodra een reis levend is, kunt u het reisrapport controleren als de vastgestelde
 
 ![](assets/journey-report.png)
 
-Bovendien kunt u de dienst van de Vraag van Adobe Experience Platform **&#x200B;**&#x200B;ook hefboomwerking om vragen te bouwen om te identificeren welke regel een profiel veroorzaakte om niet in een bepaalde reis binnen te gaan. Een vraagvoorbeeld is beschikbaar in [ deze sectie ](../reports/query-examples.md#common-queries).
+Bovendien kunt u de [ Dienst van de Vraag van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} gebruiken om vragen te bouwen om te identificeren welke regel een profiel veroorzaakte om niet in een bepaalde reis binnen te gaan. Een vraagvoorbeeld is beschikbaar in [ deze sectie ](../reports/query-examples.md#common-queries).
 
 ## Hoe kan ik-video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447621?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

@@ -9,9 +9,9 @@ level: Intermediate
 keywords: publiceren, reizen, live, geldigheid, controle
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 18611c721dfd1b189a9272f9c49a2c2e778584cc
 workflow-type: tm+mt
-source-wordcount: '2225'
+source-wordcount: '2429'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,6 @@ ht-degree: 0%
 >abstract="U kunt een live reis pauzeren om te voorkomen dat nieuwe profielen binnenkomen. Kies of u profielen die momenteel op reis zijn, wilt verwijderen of op de juiste plaats wilt houden. Als deze optie behouden blijft, wordt de uitvoering van de volgende actie hervat zodra de reis opnieuw is gestart. Ideaal voor updates of noodstops zonder dat de voortgang verloren gaat."
 
 U kunt uw live reizen pauzeren, alle benodigde wijzigingen uitvoeren en deze op elk gewenst moment hervatten.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> tijdens de pauze, kunt u [ de criteria van de de uitgang van profielattributen ](#journey-exit-criteria) toepassen om profielen uit te sluiten die op hun attributen worden gebaseerd. De reis wordt automatisch hervat aan het einde van de pauze. U kunt het [ ook manueel hervatten ](#journey-resume-steps).
-
-
 
 ## Belangrijkste voordelen {#journey-pause-benefits}
 
@@ -58,7 +56,7 @@ Voer de volgende stappen uit om uw reis te pauzeren:
    U kunt:
 
    * **Greep** profielen - de Profielen zullen op de volgende **knoop van de Actie** op de reis wachten die moet worden hervat
-   * **verwerpt** profielen - de Profielen zullen van de reis op de volgende **3 knoop van de Actie worden uitgesloten &lbrace;**
+   * **verwerpt** profielen - de Profielen zullen van de reis op de volgende **3 knoop van de Actie worden uitgesloten {**
 
 1. Klik de **knoop van de Pauze** om te bevestigen.
 
@@ -91,6 +89,9 @@ Wanneer een reis wordt gepauzeerd, hangt profielbeheer en activiteitenuitvoering
 | [ Profiel van de Update ](update-profiles.md) &amp; [ Jump ](jump.md) | Profielen worden geparkeerd of verwijderd op basis van wat de gebruiker heeft gekozen wanneer de reis is gepauzeerd |
 | [ Externe Gegevens Source ](../datasource/external-data-sources.md) | Hetzelfde gedrag als tijdens een live reis |
 | [ Criteria van de Uitgang ](journey-properties.md#exit-criteria) | Hetzelfde gedrag als tijdens een live reis |
+
+
+Leer hoe te om verwerpingen in [ problemen op te lossen deze sectie ](#discards-troubleshoot).
 
 ## Hoe te om een gepauzeerde reis te hervatten {#journey-resume-steps}
 
@@ -181,13 +182,13 @@ Laten we het volgende voorbeeld van de reis nemen:
 
 ![ Steekproef van een reis ](assets/pause-journey-sample.png){zoomable="yes"}
 
-Wanneer het pauzeren van deze reis, selecteert u als de profielen **&#x200B;**&#x200B;of **Greep** worden genegeerd, en dan profielbeheer is het volgende:
+Wanneer het pauzeren van deze reis, selecteert u als de profielen **** of **Greep** worden genegeerd, en dan profielbeheer is het volgende:
 
 1. **AddToCart** activiteit: alle nieuwe profielingangen worden geblokkeerd. Als een profiel al de reis vóór een pauze is ingegaan, gaan zij tot de volgende actieknooppunt voort.
 1. **wacht** activiteit: de profielen blijven normaal op de knoop wachten en zullen het weggaan, zelfs als de reis in pauze is.
 1. **Voorwaarde**: de profielen blijven door voorwaarden gaan en zich naar de juiste tak bewegen, die op de uitdrukking wordt gebaseerd op de voorwaarde wordt bepaald.
 1. **duw**/**e-mail** activiteiten: tijdens een gepauzeerde reis, beginnen de profielen te wachten of worden verworpen (die op de keus door de gebruiker op het tijdstip van pauze wordt gemaakt) op de volgende actieknooppunt wordt gebaseerd. Profielen wachten dus of worden daar genegeerd.
-1. **Gebeurtenissen** na **3&rbrace; knopen van de Actie &lbrace;: als een profiel op een** knoop van de Actie **wacht en er een** activiteit van de Gebeurtenis **na het is, als die gebeurtenis in brand wordt gestoken, wordt de gebeurtenis verworpen.**
+1. **Gebeurtenissen** na **3} knopen van de Actie {: als een profiel op een** knoop van de Actie **wacht en er een** activiteit van de Gebeurtenis **na het is, als die gebeurtenis in brand wordt gestoken, wordt de gebeurtenis verworpen.**
 
 Zoals per dit gedrag, kunt u profielaantallen zien die op gepauzeerde reis stijgen, meestal in activiteiten vóór **Actie** activiteiten. Bijvoorbeeld, in dat voorbeeld, **wacht** activiteit nog wordt toegelaten, die het aantal profielen verhogen die door de **Voorwaarde** activiteit gaan, aangezien zij het weggaan.
 
@@ -195,3 +196,50 @@ Wanneer u deze reis hervat:
 
 1. Vernieuwde ingangen beginnen binnen een minuut.
 1. De profielen die momenteel in de reis op **activiteiten wachtten van de Actie** worden hervat bij een tarief van 5k tps. Zij kunnen dan de **Actie** ingaan zij op wachtten, en de reis voortzetten.
+
+## Problemen met het verwijderen van profielen tijdens gepauzeerde reizen oplossen  {#discards-troubleshoot}
+
+U kunt de [ Dienst van de Vraag van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} gebruiken om gebeurtenissen van de vraagstap te vragen, die meer informatie over profielverwerping, afhankelijk van kunnen verstrekken wanneer zij voorkwamen.
+
+* Gebruik de volgende code voor teruggooi die plaatsvindt voordat het profiel de reis binnengaat:
+
+  ```sql
+  SELECT
+  TIMESTAMP,
+  _experience.journeyOrchestration.profile.ID,
+  to_json(_experience.journeyOrchestration)
+  FROM
+  journey_step_events
+  WHERE
+  _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'PAUSED_JOURNEY_VERSION'
+  AND _experience.journeyOrchestration.journey.versionID=<jvId>  
+  ```
+
+  Hierin worden de teruggooi vermeld die zich op het punt van binnenkomst van de reis heeft voorgedaan:
+
+   1. Wanneer een kijkreis loopt en de eerste knoop nog verwerkt, als de reis wordt gepauzeerd, worden alle onverwerkte profielen verworpen.
+
+   1. Wanneer een nieuwe eenheidsgebeurtenis voor de beginknoop (om een ingang teweeg te brengen) aankomt terwijl de reis wordt gepauzeerd, wordt de gebeurtenis verworpen.
+
+* Gebruik de volgende code voor teruggooi die plaatsvindt wanneer het profiel zich al in de reis bevindt:
+
+  ```sql
+  SELECT
+  TIMESTAMP,
+  _experience.journeyOrchestration.profile.ID,
+  to_json(_experience.journeyOrchestration)
+  FROM
+  journey_step_events
+  WHERE
+  _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'JOURNEY_IN_PAUSED_STATE'
+  AND _experience.journeyOrchestration.journey.versionID=<jvId> 
+  ```
+
+  Dit bevel maakt een lijst van teruggooi die gebeurde wanneer de profielen in een reis zijn:
+
+   1. Als de reis wordt gepauzeerd met de toegelaten verwerpingsoptie en een profiel reeds vóór de pauze is ingegaan, zal dat profiel worden verworpen wanneer het de volgende actieknoop bereikt.
+
+   1. Als de reis werd gepauzeerd met de geselecteerde greepoptie maar de profielen werden verworpen wegens het overschrijden van het quotum van 10 miljoen, zullen die profielen nog worden verworpen wanneer zij de volgende actieknooppunt bereiken.
+
+
+
