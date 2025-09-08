@@ -21,13 +21,13 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset"
->title="Opzoeken gegevensset
+>title="Opzoeken gegevensset"
 >abstract=In order to use attributes from Adobe Experience Platform for decisioning, you need to create a mapping to define how the Adobe Experience Platform dataset joins with data in [!DNL Journey Optimizer].”
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset_create"
 >title="Opzoeken gegevensset"
->abstract="Selecteer de dataset met de attributen u onder alle datasets van Adobe Experience Platform nodig hebt die voor raadpleging zijn toegelaten, dan selecteer een kaartsleutel (b.v., vluchtaantal of klant identiteitskaart) die in zowel de attributen van het besluitvormingspunt als de dataset bestaat.&quot;
+>abstract="Selecteer de dataset met de attributen u onder alle datasets van Adobe Experience Platform nodig hebt die voor raadpleging zijn toegelaten, dan selecteer een kaartsleutel (b.v., vluchtaantal of klant identiteitskaart) die in zowel de attributen van het besluitvormingspunt als de dataset bestaat."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
@@ -41,8 +41,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
->title="Gegevensset toevoegen&quot;
->abstract="Gebruik [!DNL Adobe Experience Platform] -gegevenssetkenmerken om afdekkende criteria te definiëren op basis van dynamische, externe kenmerken. Klik op **[!UICONTROL Add dataset]** om de Adobe Experience Platform-gegevensset te selecteren met de kenmerken die u nodig hebt. Als de dataset niet in de lijst toont, zorg ervoor u het voor raadpleging hebt toegelaten en u hebt een afbeelding van de datasetraadpleging gecreeerd.&quot;
+>title="Gegevensset toevoegen"
+>abstract="Gebruik [!DNL Adobe Experience Platform] -gegevenssetkenmerken om afdekkende criteria te definiëren op basis van dynamische, externe kenmerken. Klik op **[!UICONTROL Add dataset]** om de Adobe Experience Platform-gegevensset te selecteren met de kenmerken die u nodig hebt. Als de dataset niet in de lijst toont, zorg ervoor u het voor raadpleging hebt toegelaten en u hebt een afbeelding van de datasetraadpleging gecreeerd."
 
 >[!AVAILABILITY]
 >
