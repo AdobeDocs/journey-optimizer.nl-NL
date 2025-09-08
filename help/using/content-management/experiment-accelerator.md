@@ -10,9 +10,9 @@ level: Beginner
 keywords: inhoud, experiment, meerdere, publiek, behandeling
 hide: true
 hidefromtoc: true
-source-git-commit: b52a0206e336185a8c630b7a6eace1fed14b1b66
+source-git-commit: e4d5631701c5c270af7aec931f6b98a567b4ed29
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Deelnemers worden willekeurig toegewezen aan één versie, een zogenaamde varian
 | Vertrouwelijk interval | Het geschatte bereik waarbinnen het werkelijke effect waarschijnlijk zal dalen. |
 | Segment | Een specifieke deelgroep van het publiek die onafhankelijk wordt geanalyseerd (bijvoorbeeld nieuwe gebruikers, mobiele bezoekers). |
 
-## Aanbevolen procedures voor het uitvoeren van experimenten
+## Aanbevolen werkwijzen voor het uitvoeren van experimenten
 
 * **Begin met een duidelijke hypothese**
 
@@ -119,7 +119,7 @@ Voorbeeld: _wij geloven dat het veranderen van X Y wegens Z zal verhogen._
 
   Houd een duidelijk overzicht van wat werd getest, waarom, en wat u leerde. Dit bouwt institutionele kennis op en voorkomt herhalende fouten.
 
-## Algemene cijfers en wat ze aangeven
+## Algemene meetwaarden
 
 | Metrisch | Wat zij doet | Wanneer gebruiken |
 |-|-|-|
@@ -136,11 +136,11 @@ Voorbeeld: _wij geloven dat het veranderen van X Y wegens Z zal verhogen._
 Een goed experiment levert niet alleen een win-winsituatie op, maar levert ook een duidelijk, actief leren op.
 Hier is wat om te zoeken:
 
-&controle; **Statistisch Vertrouwen**: Het verschil tussen varianten is waarschijnlijk niet toe te schrijven aan toeval.
-&controle; **richt zich op Doelstellingen**: primaire metrisch wijst op betekenisvolle vooruitgang naar een bedrijfsdoelstelling.
-&controle; **Secundaire Gevolgen**: Geen significante negatieve nevengevolgen op verwante metriek.
-&controle; **Schaalbaarheid**: Het resultaat kan toekomstige besluiten informeren of aan andere gebieden worden algemeen gemaakt.
-&controle; **Duidelijkheid**: De oorzaak van het resultaat is redelijk geïsoleerd en begrepen.
+&amp;controle; **Statistisch Vertrouwen**: Het verschil tussen varianten is waarschijnlijk niet toe te schrijven aan toeval.
+&amp;controle; **richt zich op Doelstellingen**: primaire metrisch wijst op betekenisvolle vooruitgang naar een bedrijfsdoelstelling.
+&amp;controle; **Secundaire Gevolgen**: Geen significante negatieve nevengevolgen op verwante metriek.
+&amp;controle; **Schaalbaarheid**: Het resultaat kan toekomstige besluiten informeren of aan andere gebieden worden algemeen gemaakt.
+&amp;controle; **Duidelijkheid**: De oorzaak van het resultaat is redelijk geïsoleerd en begrepen.
 
 Experimentatie gaat niet alleen over het vinden van de &quot;beste&quot; versie, het gaat over het opbouwen van kennis door middel van testen en iteratie. Als het goed gaat, onthullen de experimenten inzichten die slimmere beslissingen, betere gebruikerservaring en betere resultaten stimuleren.
 

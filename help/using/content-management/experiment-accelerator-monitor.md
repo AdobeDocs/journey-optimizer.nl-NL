@@ -10,9 +10,9 @@ level: Beginner
 keywords: inhoud, experiment, meerdere, publiek, behandeling
 hide: true
 hidefromtoc: true
-source-git-commit: b52a0206e336185a8c630b7a6eace1fed14b1b66
+source-git-commit: e4d5631701c5c270af7aec931f6b98a567b4ed29
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,8 @@ De detailpagina van het experiment wordt gesplitst in de volgende sectie:
 
 ![](assets/experiment-monitor-outcome.png)
 
+De **[!UICONTROL Experiment outcome]** geeft u een snel overzicht van de winnende variatie in uw experiment.
+
 ### Instellen {#set-up}
 
 ![](assets/experiment-monitor-hypothesis.png)
@@ -112,7 +114,7 @@ Onder aan de widget vindt u een beknopte samenvatting van de configuratie van uw
 
 * **[!UICONTROL Audience]**: Het (de) gedefinieerde gebruikerssegment(en) dat (die) tijdens het experiment als doel heeft (hebben).
 
-## Kansen {#opportunities}
+### Kansen {#opportunities}
 
 >[!AVAILABILITY]
 >
@@ -175,7 +177,6 @@ De tabel **[!UICONTROL Results]** bevat een gedetailleerde prestatie-indeling va
 >De functie Experimentation Insights is beperkt tot experimenten met op tekst gebaseerde wijzigingen.
 
 ![](assets/experiment-monitor-insights.png)
-
 
 **[!UICONTROL Experiment Insights]** zijn door AI gegenereerde lessen die zijn afgeleid van dit experiment. Deze inzichten komen beschikbaar zodra het experiment statistisch significant is geworden en een contextueel inzicht verschaft in wat heeft bijgedragen tot het succes ervan. Zij benadrukken de belangrijkste kenmerken die aanwezig zijn in de winnende behandeling, los van de controle, die waarschijnlijk het resultaat beïnvloedden.
 
