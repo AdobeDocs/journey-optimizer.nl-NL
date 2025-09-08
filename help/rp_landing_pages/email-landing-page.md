@@ -4,23 +4,17 @@ product: Journey Optimizer
 title: Email channel
 description: Email channel
 redpen-status: CREATED_||_2025-08-11_20-35-15
-source-git-commit: e8b71a7efe1ca05a33bc6f33253900a58fa6665c
+exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
+source-git-commit: 9cb3a60fb9a2266b4723dfc1b952f1bab11b97e3
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
 
-
 # Email channel{#section-overview}
 
-Met het e-mailkanaal in Adobe Journey Optimizer kunt u zeer nauwkeurig en creatief krachtige e-mailcampagnes ontwerpen, configureren en leveren. Of u nu persoonlijke berichten maakt met de intuïtieve Designer, geavanceerde e-mailreizen en -campagnes configureert of de optie-outs beheert voor compatibiliteit, dit kanaal brengt elk aspect van e-mailmarketing onder één dak. Begin met het instellen van het e-mailkanaal voor optimale prestaties en personalisatie en verken vervolgens gereedschappen om dynamische inhoud te maken die aansluit bij uw publiek. Diveer dieper in geavanceerde onderwerpen zoals het beheren van de reputatie van de afzender en het bereiken van DMARC-compatibiliteit om ervoor te zorgen dat uw e-mailland waar ze bedoeld zijn, behouden blijft. Van naadloze configuratie tot effectief ontwerp en strategische levering, het e-mailkanaal stelt u in staat om uw e-mailmarketing om te zetten in een betrouwbare, gegevensgestuurde engine voor de betrokkenheid van klanten.
-
-
->[!CONTEXTUALHELP]
->id="ajo_homepage_card4"
->title="E-mails ontwerpen"
->abstract="Gebruik **Adobe Journey Optimizer** om e-mailberichten naar uw klanten te verzenden. U kunt berichten maken, personaliseren en voorvertonen in de e-mailtoepassing van Designer."
+Met het e-mailkanaal in Adobe Journey Optimizer kunt u zeer nauwkeurig en creatief krachtige e-mailcampagnes ontwerpen, configureren en leveren. Of u nu persoonlijke berichten maakt met de intuïtieve e-mail-Designer, geavanceerde e-mailreizen en -campagnes configureert of opt-outs beheert voor compatibiliteit, dit kanaal brengt elk aspect van e-mailmarketing onder één dak. Begin met het instellen van het e-mailkanaal voor optimale prestaties en personalisatie en verken vervolgens gereedschappen om dynamische inhoud te maken die aansluit bij uw publiek. Diveer dieper in geavanceerde onderwerpen zoals het beheren van de reputatie van de afzender en het bereiken van DMARC naleving om uw e-mailland te verzekeren waar zij aan worden bedoeld. Van naadloze configuratie tot effectief ontwerp en strategische levering, het e-mailkanaal stelt u in staat om uw e-mailmarketing om te zetten in een betrouwbare, gegevensgestuurde engine voor de betrokkenheid van klanten.
 
 E-mailleveringen kunnen worden gemaakt:
 
@@ -38,7 +32,7 @@ E-mailleveringen kunnen worden gemaakt:
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Een e-mail maken
 
@@ -48,7 +42,7 @@ Stapsgewijze handleiding voor het toevoegen, configureren en testen van e-mailha
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 E-mailinhoud ontwerpen en optimaliseren
 
@@ -58,7 +52,7 @@ Ontdek gereedschappen en aanbevolen procedures voor het ontwerpen van responsiev
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 E-mail niet-ontvangen beheren
 
@@ -68,7 +62,7 @@ Configureer een- of tweestapsmechanisme voor weigeren om gebruikersvoorkeuren te
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 E-mailkanaal configureren
 
@@ -78,7 +72,7 @@ Stel e-mailconfiguraties in en beheer deze, zoals subdomeindelegatie, suppressie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 E-maillevering beheren
 
