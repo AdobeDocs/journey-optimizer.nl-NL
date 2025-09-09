@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 831db9b83f1b7011cdd26f957195592b06160837
+source-git-commit: 6d603641a3565b1f1465fa881383f4d48611c786
 workflow-type: tm+mt
-source-wordcount: '2063'
+source-wordcount: '2082'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## Updates van september {#sep-updates}
 
@@ -75,7 +75,7 @@ ht-degree: 2%
 <td>
 <p>Eerder vrijgegeven in openbare bèta is deze mogelijkheid nu beschikbaar voor alle omgevingen met beperkte beschikbaarheid. Met deze release zijn de volgende verbeteringen aangebracht:</p>
 <ul><li>Steun voor datasetraadpleging personalisatie in binnenkomende kanalen.</li>
-<li>De hulpfunctie "datasetLookup" kan nu worden gebruikt binnen expressiefragmenten.</li>
+<li>De hulpfunctie "datasetLookup" kan nu worden gebruikt binnen expressiefragmenten. Momenteel is deze mogelijkheid beschikbaar voor een beperkt aantal klanten. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</li>
 <li>Een optie in de interface van het gegevenssetbeheer staat u nu toe om op verslag-gebaseerde datasets voor raadplegingsverpersoonlijking toe te laten, zonder het moeten een API vraag uitvoeren.</li>
 <li>Verbeterde controle om de status van de gegevensopname te volgen en te weten wanneer de datasets klaar voor raadpleging zijn.</li>
 <li>Bijgewerkte gebruiksrichtlijnen en -instructies voor optimale prestaties en betrouwbaarheid.</li>

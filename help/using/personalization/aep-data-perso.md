@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
+source-git-commit: 6d603641a3565b1f1465fa881383f4d48611c786
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 >[!AVAILABILITY]
 >
 >Deze functie is momenteel beschikbaar voor alle klanten als een beperkte beschikbaarheidsrelease.
+>
+>Voor nu, kan de hulpfunctie &quot;datasetLookup&quot;binnen uitdrukkingsfragmenten voor een beperkte reeks klanten worden gebruikt. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 Journey Optimizer staat u toe aan hefboomwerkingsgegevens van het het verslagdatasets van Adobe Experience Platform in de verpersoonlijkingsredacteur om [ uw inhoud ](../personalization/personalize.md) te personaliseren. Alvorens te beginnen, moeten de datasets nodig voor raadplegingsverpersoonlijking eerst voor raadpleging worden toegelaten. De gedetailleerde informatie is beschikbaar in deze sectie: [ de gegevens van Adobe Experience Platform van het Gebruik ](../data/lookup-aep-data.md).
 
@@ -54,7 +56,7 @@ Zodra een dataset voor raadplegingsverpersoonlijking is toegelaten, kunt u zijn 
 
    +++Waar kan ik een gegevensset-id ophalen?
 
-   Dataset-id&#39;s kunnen worden opgehaald in de gebruikersinterface van Adobe Experience Platform. Leer hoe te met datasets in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"} te werken.
+   Dataset-id&#39;s kunnen worden opgehaald in de gebruikersinterface van Adobe Experience Platform. Leer hoe te met datasets in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"} te werken.
 
    ![](assets/aep-data-dataset.png)
 
@@ -85,7 +87,7 @@ Zodra een dataset voor raadplegingsverpersoonlijking is toegelaten, kunt u zijn 
 
      +++Waar moet u een veld-id ophalen?
 
-     Velden-id&#39;s kunnen worden opgehaald wanneer een voorbeeld van een gegevensset in de gebruikersinterface van Adobe Experience Platform wordt weergegeven. Leer hoe te voorproef datasets in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
+     Velden-id&#39;s kunnen worden opgehaald wanneer een voorbeeld van een gegevensset in de gebruikersinterface van Adobe Experience Platform wordt weergegeven. Leer hoe te voorproef datasets in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
 
      ![](assets/aep-data-field.png)
 
