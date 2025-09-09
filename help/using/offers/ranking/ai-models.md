@@ -8,10 +8,10 @@ feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: c79b860d4220b3125bbee2240e047552a04fe118
+source-git-commit: 58a5737a1eb56ab88aa71ba0a740dd51258e5248
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 3%
+source-wordcount: '396'
+ht-degree: 4%
 
 ---
 
@@ -27,13 +27,15 @@ U kunt bijvoorbeeld een AI-model selecteren voor het e-mailkanaal en een ander m
 >
 >AI-modellen worden momenteel niet ondersteund in door Journey Optimizer geschreven kanalen.
 
+➡️ [Ontdek deze functie in video](#video)
+
 ## AI-modeltypen {#ai-model-types}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_ai_model_type"
 >title="Het modeltype kiezen"
 >abstract="Selecteer het type van AI model u wilt tot stand brengen: **auto-optimalisering** optimaliseert aanbiedingen die op het verleden aanbiedingsprestaties worden gebaseerd, terwijl **Gepersonaliseerde optimalisering** optimaliseert en verpersoonlijkt aanbiedingen die op publiek worden gebaseerd en prestaties aanbieden."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/create-ranking-strategies#create-ranking-strategy" text="Een AI-model maken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/create-ranking-strategies#create-ranking-strategy" text="Een AI-model maken"
 
 Er zijn twee typen AI-modellen beschikbaar in [!DNL Journey Optimizer] :
 
@@ -56,3 +58,9 @@ U kunt als volgt AI-modellen maken en gebruiken:
    >AI-modellen vereisen dat feedbackgebeurtenissen worden verzonden als ervaringsgebeurtenissen om te worden verzameld. [ Leer meer over de inzameling van de gegevens van het Beheer van Besluit ](../data-collection/data-collection.md)
 
 1. Wijs het AI-model toe aan een plaatsing in een besluit om in aanmerking komende aanbiedingen te classificeren. [Meer informatie](../offer-activities/configure-offer-selection.md)
+
+## Hoe kan ik-video {#video}
+
+Leer hoe u een AI-model voor Offer Decisioning maakt en hoe u dit model toepast op een beslissing.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)
