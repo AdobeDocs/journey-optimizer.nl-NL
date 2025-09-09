@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
+source-git-commit: 30fed481bb02fd25f1833e76ae94330aa51d153b
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1051'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,11 @@ De volgende lijst toont de geldige waarden die uit *inhoud-Type* bestaan en ** g
 | x-api-key | `{API_KEY}` |
 
 * Alle verzoeken die een lading (POST, PUT, PATCH) bevatten vereisen de inhoud-type kopbal
+
+
+>[!NOTE]
+>
+>De machtigingscontrole wordt niet afgedwongen voor afzonderlijke sandboxen. Zolang de bezoeker een geldig teken voorlegde, zal levering API door gaan.
 
 ## API-verzoek {#request}
 
