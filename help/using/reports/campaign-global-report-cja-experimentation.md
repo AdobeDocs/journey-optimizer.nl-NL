@@ -1,22 +1,21 @@
 ---
-source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
+solution: Journey Optimizer
+product: journey optimizer
+title: Campagnerapport
+description: Leer hoe u experimentatiegegevens uit het campagnerapport kunt gebruiken
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
+exl-id: 69742163-7378-49ab-929e-86213d6e65e3
+source-git-commit: 08d444f499229f0942e4dae17d87030225f34d5f
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '317'
 ht-degree: 1%
 
 ---
-@ -0,0 +1,71 @@
----
-oplossing: Journey Optimizer
-product: optimaliseer de reis
-titel: Campagnerapport
-beschrijving: Leer hoe u experimentatiegegevens uit het campagnerapport kunt gebruiken
-functie: Rapporteren
-onderwerp: Inhoudbeheer
-rol: Gebruiker
-niveau: middelmatig
-exl-id: 69742163-7378-49ab-929e-86213d6e65e3
----
+
+
 # campagnerapport voor experimenten {#campaign-global-report-cja-experimentation}
 
 >[!CONTEXTUALHELP]
