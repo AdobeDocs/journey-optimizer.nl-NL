@@ -8,22 +8,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
+source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
 
 # Reisrapport {#journey-global-report}
 
-Het **rapport van de Reis** functies als een volledig-omringend dashboard, leverend een analyse van essentiële metriek verbonden aan uw reis. Dit omvat details zoals het aantal ingegane profielen en gevallen van mislukte individuele reizen, die een uitvoerig inzicht in de doeltreffendheid van uw reis en niveau van betrokkenheid aanbieden.
+Het **rapport van de Reis** functies als een volledig-omringend dashboard, leverend een analyse van essentiële metriek verbonden aan uw reis. Dit omvat details zoals het aantal ingevoerde profielen en gevallen van mislukte individuele reizen, die een uitvoerige insight in de doeltreffendheid en het niveau van betrokkenheid van uw reis aanbieden.
 
 **het rapport van de Reis** kan direct van uw reis met de **[!UICONTROL View report]** knoop worden betreden.
 
 ![](assets/gs-cja-report-3.png)
 
-Meer over Customer Journey Analytics Workspace leren en hoe te om gegevens te filtreren en te analyseren, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/home).
+Meer over Customer Journey Analytics Workspace leren en hoe te om gegevens te filtreren en te analyseren, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Reisoverzicht {#journey-global}
 
@@ -33,7 +33,7 @@ Het **[!UICONTROL Journey]** -rapport geeft u een duidelijk beeld van de belangr
 
 ![](assets/cja-journey-kpis.png)
 
-De **[!UICONTROL Journey]** Belangrijkste Indicatoren van Prestaties (KPIs) functioneren als een allesomvattend dashboard, dat een analyse van essentiële metriek verbonden aan uw reis levert. Dit omvat details zoals het aantal binnengekomen profielen en gevallen van mislukte individuele reizen, die een uitvoerig inzicht in de doeltreffendheid van uw reis en niveau van betrokkenheid aanbieden.
+De **[!UICONTROL Journey]** Belangrijkste Indicatoren van Prestaties (KPIs) functioneren als een allesomvattend dashboard, dat een analyse van essentiële metriek verbonden aan uw reis levert. Dit omvat details zoals het aantal binnengekomen profielen en gevallen van mislukte individuele reizen, die een uitvoerige insight in de doeltreffendheid en het niveau van betrokkenheid van uw reis aanbieden.
 
 +++ Meer informatie over de cijfers van de KPI&#39;s voor reizen
 
@@ -85,7 +85,7 @@ De **[!UICONTROL Action errors]** -widget geeft een overzicht van de verschillen
 
 ![](assets/cja-journey-canvas.png)
 
-Met de widget **[!UICONTROL Journey Canvas]** kunt u visueel het traject volgen van uw doelprofielen terwijl u door de reis navigeert. [ leer meer in de documentatie van Customer Journey Analytics ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
+Met de widget **[!UICONTROL Journey Canvas]** kunt u visueel het traject volgen van uw doelprofielen terwijl u door de reis navigeert. [ leer meer in de documentatie van Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 Verbeter uw canvasaanpassing met de volgende opties:
 
@@ -145,5 +145,23 @@ In de tabel **[!UICONTROL Event overview]** ziet u hoeveel profielen in de loop 
 +++ Meer informatie over statistieken voor reisstatistieken
 
 * **[!UICONTROL People]**: Aantal gebruikersprofielen dat als doelprofielen voor uw gebeurtenissen wordt gekwalificeerd.
+
++++
+
+## Overzicht van doelen {#targeting}
+
+![](assets/cja-journey-targeting-overview.png)
+
+Als u **[!UICONTROL Targeting rules]** instelt voor uw inhoud, biedt de tabel van **[!UICONTROL Targeting overview]** een gedetailleerde weergave van de belangrijkste betrokkenheidsmetriek, waarmee u kunt zien hoe de doelprofielen voor elke regel reageren op uw inhoud.
+
+➡️ [ Leer meer bij het richten van regels ](../campaigns/campaigns-message-optimization.md)
+
++++ Meer informatie over gerichte overzichtsmetriek
+
+* **[!UICONTROL People]**: Aantal gebruikersprofielen dat als doelprofielen voor uw gebeurtenissen wordt gekwalificeerd.
+
+* **[!UICONTROL Unique Clicks]**: Aantal profielen dat op de inhoud van een e-mail heeft geklikt.
+
+* **[!UICONTROL Unique click rate]**: percentage doelprofielen waarop ten minste één keer is geklikt.
 
 +++

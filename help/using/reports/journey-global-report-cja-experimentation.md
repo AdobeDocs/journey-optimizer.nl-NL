@@ -1,42 +1,41 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
+title: Campagnerapport
+description: Leer hoe u experimentatiegegevens uit het Journey-rapport kunt gebruiken
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
 source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '369'
 ht-degree: 1%
 
 ---
-@ -0,0 +1,71 @@
----
-oplossing: Journey Optimizer
-product: optimaliseer de reis
-titel: Campagnerapport
-beschrijving: Leer hoe u experimentatiegegevens uit het campagnerapport kunt gebruiken
-functie: Rapporteren
-onderwerp: Inhoudbeheer
-rol: Gebruiker
-niveau: middelmatig
-exl-id: 69742163-7378-49ab-929e-86213d6e65e3
----
-# campagnerapport voor experimenten {#campaign-global-report-cja-experimentation}
 
->[!CONTEXTUALHELP]
->id="ajo_campaigns_content_experiment_click"
->title="Metrisch met succes"
->abstract="De totale waarde van de metrische waarde van het Succes, eerder geselecteerd toen het creëren van uw Experimenten, gedeeld door het aantal profielen."
+# Evaluatietraject {#campaign-global-report-cja-experimentation}
 
-## Experimentatie {#experimentation}
+Uw rapport van de Reizen geeft u een volledig overzicht van hoe uw experiment, samen met de belangrijkste metriek uitvoert u zijn effect moet begrijpen.
 
-Het tabblad **[!UICONTROL Experimentation]** biedt belangrijke inzichten in de prestaties van elke variant en identificeert de meest succesvolle variant.
+In Journey Optimizer is het experimenteren met reizen opgesplitst in twee soorten:
 
-Het kan enige tijd duren om de beste uitvoerder te definiëren. Als uw experiment niet succesvol is, zal het aan **Onovertuigend** worden geplaatst.
+* [Inhoud experimenteren](../content-management/content-experiment.md)
+* [Padexperimenten](../building-journeys/optimize.md)
 
-![](assets/cja-experimentation-1.png)
+## Padexperiment {#experimentation}
+
+>[!NOTE]
+>
+> De tabellen en KPI&#39;s die voor uw Content-experiment worden beschreven, zijn dezelfde als die voor een Path-experiment. Raadpleeg de onderstaande documentatie als u een Content-experiment hebt ingesteld.
 
 ### ExperimentatiekPI&#39;s {#experimentation-kpis}
 
-![](assets/cja-experimentation-kpis.png)
+![](assets/journey-report-experiment-1.png)
 
-De KPI&#39;s (Key Performance Indicators) van **[!UICONTROL Experimentation]** functioneren als een allesomvattend dashboard, dat een analyse levert van essentiële metriek die aan uw experimentatie is gekoppeld.
+De **samenvatting van de Experimentatie** verstrekt zeer belangrijke inzichten in de prestaties van uw experiment, en identificeert meest succesvolle. Het kan enige tijd duren om de beste uitvoerder te definiëren. Als uw experiment niet succesvol is, zal het aan **Onovertuigend** worden geplaatst.
+
+De **Belangrijke Indicatoren van Prestaties van de Experimentatie Zeer belangrijke (KPIs)** functie als volledig-omvattend dashboard, leverend een analyse van essentiële metriek verbonden aan uw experimentatie.
 
 +++ Meer informatie over KPI&#39;s-meetgegevens voor experimenten
 
@@ -46,7 +45,9 @@ De KPI&#39;s (Key Performance Indicators) van **[!UICONTROL Experimentation]** f
 
 +++
 
-### Variant op metrische waarde met succes {#variant-inbound}
+
+
+### Meting van variant naar succes {#variant-inbound}
 
 ![](assets/cja-experimentation-variants.png)
 
@@ -74,6 +75,5 @@ Voor diepte-duik in deze resultaten en hoe te om hen te interpreteren, verwijs n
 ### Conversiesnelheid voor metrisch resultaat {#conversion-rate}
 
 ![](assets/cja-experimentation-conversion.png)
-
 
 De grafiek van **[!UICONTROL Confidence interval]** toont de waaier van mogelijke verbetering, die de basislijn met de best-presterende behandeling voor gekozen succesmetrisch vergelijkt. [Meer informatie](../content-management/experiment-calculations.md#confidence-intervals).

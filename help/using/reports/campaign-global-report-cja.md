@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -104,5 +104,23 @@ De tabel **[!UICONTROL Tracked link label]** biedt essentiële inzichten in de b
 * **[!UICONTROL Unique Clicks]**: Aantal profielen dat op de inhoud van het bericht heeft geklikt.
 
 * **[!UICONTROL Clicks]**: Het aantal keer dat er op de inhoud in het bericht is geklikt.
+
++++
+
+## Overzicht van doelen {#targeting}
+
+![](assets/cja-journey-targeting-overview.png)
+
+Als u **[!UICONTROL Targeting rules]** instelt voor uw inhoud, biedt de tabel van **[!UICONTROL Targeting overview]** een gedetailleerde weergave van de belangrijkste betrokkenheidsmetriek, waarmee u kunt zien hoe de doelprofielen voor elke regel reageren op uw inhoud.
+
+➡️ [ Leer meer bij het richten van regels ](../campaigns/campaigns-message-optimization.md)
+
++++ Meer informatie over gerichte overzichtsmetriek
+
+* **[!UICONTROL People]**: Aantal gebruikersprofielen dat als doelprofielen voor uw gebeurtenissen wordt gekwalificeerd.
+
+* **[!UICONTROL Unique Clicks]**: Aantal profielen dat op de inhoud van een e-mail heeft geklikt.
+
+* **[!UICONTROL Unique click rate]**: percentage doelprofielen waarop ten minste één keer is geklikt.
 
 +++
