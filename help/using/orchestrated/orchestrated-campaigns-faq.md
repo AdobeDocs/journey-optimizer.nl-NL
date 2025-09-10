@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 9d1e9f22c7841f9d17e857f652d94dbd6a068c06
+source-git-commit: 96b8813ebad35f51986cc62d847d9d3d256b08be
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 1%
@@ -158,6 +158,7 @@ In Campagne Orchestration, verwijzen wij naar ad hoc segmentatie als &quot;Leven
 >[!ENDSHADEBOX]
 
 
+
 ## Steunt dit besluit? {#decisioning}
 
 Ja. Beslissing kan relationele gegevens uit geordende campagnes gebruiken. Zodra relationeel schema met schema&#39;s XDM wordt verbonden, kunnen de gegevens XDM in besluit worden gebruikt.
@@ -193,4 +194,4 @@ Ja, volg de onderstaande aanbevolen procedures:
 >* [ Geordende campagnes begeleiden &amp; beperkingen ](../orchestrated/guardrails.md)
 >* [ worden begonnen met schema&#39;s en datasets in Geordende campagnes ](../orchestrated/gs-schemas.md)
 >* [ creeer uw eerste Geordende campagne ](../orchestrated/gs-campaign-creation.md)
->* [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+>* [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
