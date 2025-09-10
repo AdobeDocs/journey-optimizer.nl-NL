@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
+source-git-commit: d5d6903966b0c62095bfb5a17d94c4c3f4b18379
 workflow-type: tm+mt
-source-wordcount: '2920'
+source-wordcount: '2926'
 ht-degree: 18%
 
 ---
@@ -41,14 +41,14 @@ ht-degree: 18%
       + [Aan de slag als Data engineer](using/start/path/data-engineer.md)
       + [Aan de slag als beheerder](using/start/path/administrator.md)
       + [Aan de slag als ontwikkelaar](using/start/path/developer.md)
-   + [Gebruikersinterface](using/start/user-interface.md)
-   + [Zoeken, filteren en categoriseren](using/start/search-filter-categorize.md)
-   + [Toegankelijkheid](using/start/accessibility.md)
+   + Gebruikersinterface {#ui}
+      + [Aan de slag met de interface](using/start/user-interface.md)
+      + [Zoeken, filteren en categoriseren](using/start/search-filter-categorize.md)
+      + [Toegankelijkheid](using/start/accessibility.md)
    + [Werken met AI-assistent](using/start/ai-assistant.md)
-   + [Guardrails](using/start/guardrails.md)
-   + [Best practices](using/start/best-practices.md)
+   + [Playbooks voor gebruiksscenario&#39;s](using/start/playbooks.md)
+   + [Afbeeldingen en beperkingen](using/start/guardrails.md)
    + [Problemen oplossen](using/start/troubleshooting.md)
-   + [Afspeelboeken](using/start/playbooks.md)
 + Journeys {#orchestrate-journeys}
    + [Journeys](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Aan de slag met reizen](using/building-journeys/journey.md)
@@ -869,7 +869,7 @@ ht-degree: 18%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
