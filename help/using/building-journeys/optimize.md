@@ -11,9 +11,9 @@ keywords: activiteit, toestand, canvas, reis, optimalisering
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
+source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Zodra de reis levend is, worden profielen beoordeeld aan de hand van de vastgest
 ## Gebruik experimenteren {#experimentation}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_path_experiment_success_metric"
+>id="ajo_path_experiment_success_metric"
 >title="Metrisch met succes"
 >abstract="Succesvolle maatstaf wordt gebruikt om de best presterende behandeling in een experiment bij te houden en te evalueren."
 
@@ -70,7 +70,7 @@ Stel dat u drie paden wilt vergelijken:
 
 1. Selecteer **[!UICONTROL Experiment]** in de vervolgkeuzelijst **[!UICONTROL Method]** .
 
-   ![](assets/journey-optimize-experiment.png){width=75%}
+   ![](assets/journey-optimize-experiment.png){width=65%}
 
 1. Klik op **[!UICONTROL Create experiment]**.
 
@@ -137,15 +137,17 @@ Test of het verzenden van het eerste bericht via e-mail versus SMS tot hogere om
 
 ➡️ Gebruik de conversiesnelheid als de optimalisatiemethode (bijvoorbeeld aankopen, aanmelden).
 
-![](assets/journey-optimize-experiment-uc.png)
+![](assets/journey-optimize-experiment-uc-channel.png)
 
 +++
 
 +++Berichtfrequentie
 
-➡️ Voer een experiment uit om te controleren of het verzenden van een e-mail versus drie e-mails over een week meer aankopen oplevert.
+Voer een experiment uit om te controleren of het verzenden van één e-mail versus drie e-mails over een week meer aankopen oplevert.
 
-Gebruik aankopen of het afmeldingspercentage als optimalisatiemetrisch.
+➡️ Gebruik aankopen of de afmeldingsfrequentie als optimalisatiemetrisch.
+
+![](assets/journey-optimize-experiment-uc-frequency.png)
 
 +++
 
@@ -155,9 +157,16 @@ Vergelijk een wachttijd van 24 uur in vergelijking met een wachttijd van 72 uur 
 
 ➡️ Gebruik de doorklikfrequentie of de opbrengst als optimalisatiemetrisch.
 
+![](assets/journey-optimize-experiment-uc-wait.png)
+
 +++
 
 ## Hefboomdoel {#targeting}
+
+>[!CONTEXTUALHELP]
+>id="ajo_path_targeting_fallback"
+>title="Wat is een fallback-pad?"
+>abstract="Met Back-up maakt u een nieuw pad voor het publiek dat niet voldoet aan een van de hierboven gedefinieerde doelregels.</br> als u deze optie niet selecteert, zal om het even welk publiek dat niet voor een het richten regel kwalificeert niet de reserveweg ingaan."
 
 Het richten van regels staat u toe om specifieke regels of kwalificaties te bepalen die voor een klant moeten worden ontmoet om één van de reiswegen in te gaan, die op specifieke publiekssegmenten <!-- depending on profile attributes or contextual attributes--> wordt gebaseerd.
 
@@ -179,7 +188,7 @@ Volg de onderstaande stappen om doelgericht te kiezen op een reis.
 
 1. Selecteer **[!UICONTROL Targeting rule]** in de vervolgkeuzelijst **[!UICONTROL Method]** .
 
-   ![](assets/journey-optimize-targeting.png){width=70%}
+   ![](assets/journey-optimize-targeting.png){width=60%}
 
 1. Klik op **[!UICONTROL Create targeting rule]**.
 
@@ -187,7 +196,11 @@ Volg de onderstaande stappen om doelgericht te kiezen op een reis.
 
    ![](assets/journey-targeting-rule.png)
 
-1. Selecteer **[!UICONTROL Enable fallback content]** naar wens. Met de inhoud voor alternatieven kan uw doelgroep een standaardinhoud ontvangen als er geen specifieke doelregels zijn. Als u deze optie niet selecteert, zal een publiek dat niet in aanmerking komt voor een hierboven gedefinieerde doelregel geen fallback-pad invoeren.
+1. Selecteer de optie **[!UICONTROL Enable fallback content]** naar wens. Met deze actie maakt u een fallback-pad voor het publiek dat niet voldoet aan een van de hierboven gedefinieerde doelregels.
+
+   >[!NOTE]
+   >
+   >Als u deze optie niet selecteert, zal een publiek dat niet in aanmerking komt voor een doelregel het fallback-pad niet invoeren.
 
 1. Klik op **[!UICONTROL Create]** om de instellingen voor de doelregel op te slaan.
 
@@ -195,7 +208,11 @@ Volg de onderstaande stappen om doelgericht te kiezen op een reis.
 
    ![](assets/journey-targeting-paths.png)
 
-1. U kunt ook de **[!UICONTROL Add an alternative path in case of a timeout or an error]** gebruiken om een fallback-actie te definiëren. [Meer informatie](using-the-journey-designer.md#paths)
+1. Als u bij het definiëren van de regelinstellingen de optie **[!UICONTROL Enable fallback content]** hebt geselecteerd, definieert u een of meer handelingen voor het terugvalpad dat automatisch is toegevoegd.
+
+   ![](assets/journey-targeting-fallback.png){width=70%}
+
+1. U kunt desgewenst ook de **[!UICONTROL Add an alternative path in case of a timeout or an error]** gebruiken om een alternatieve actie te definiëren als er problemen optreden. [Meer informatie](using-the-journey-designer.md#paths)
 
 1. Ontwerp aangewezen inhoud voor elke actie die aan elke groep beantwoordt die door uw het richten regelmontages wordt bepaald. U kunt naadloos navigeren tussen de verschillende inhoud voor elke actie.
 
@@ -219,7 +236,7 @@ Goudstatusloyaliteitsleden kunnen persoonlijke aanbiedingen via e-mail ontvangen
 
 ➡️ Gebruik de omzet per profiel of conversiesnelheid als optimalisatiemetrisch.
 
-![](assets/journey-optimize-targeting-uc.png)
+![](assets/journey-optimize-targeting-uc-segment.png)
 
 +++
 
@@ -229,6 +246,8 @@ Klanten die een e-mail hebben geopend maar niet hebben geklikt, kunnen een pushm
 
 ➡️ Gebruik de doorkliksnelheid of downstreamomzettingen als optimalisatiemetrisch.
 
+![](assets/journey-optimize-targeting-uc-behavior.png)
+
 +++
 
 +++Aankoopgeschiedenis als doel
@@ -236,6 +255,8 @@ Klanten die een e-mail hebben geopend maar niet hebben geklikt, kunnen een pushm
 Klanten die onlangs een aankoop hebben gedaan, kunnen een kort pad naar &quot;Bedankt + Cross-sell&quot; volgen, terwijl klanten zonder aankoopgeschiedenis een langere reis naar de verpleegkunde beginnen.
 
 ➡️ Gebruik de aanschaffrequentie of de betrokkenheidsfactor voor herhaalde aanschaf als optimalisatiemetrisch.
+
+![](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 

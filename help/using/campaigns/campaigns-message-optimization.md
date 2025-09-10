@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 keywords: campagne optimaliseren, experimenteren, doelgericht testen, A/B testen
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
+source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,11 @@ Het verschil tussen experimenten en doelgerichtheid kan als volgt worden aangege
 ➡️ [ Leer meer over optimalisering in een campagne in deze video ](#video)
 
 ## Hefboomdoel {#targeting}
+
+>[!CONTEXTUALHELP]
+>id="ajo_content_targeting_fallback"
+>title="Wat is fallback-inhoud?"
+>abstract="Met de inhoud voor alternatieven kan uw doelgroep een standaardinhoud ontvangen wanneer geen doelregel is gekwalificeerd.</br> als u deze optie niet selecteert, om het even welk publiek dat niet voor een het richten hierboven bepaalde regel kwalificeert zal geen inhoud ontvangen."
 
 Het richten levert gepersonaliseerde inhoud aan specifieke publiekssegmenten die op gebruikersprofielattributen of contextafhankelijke attributen worden gebaseerd.
 
@@ -67,7 +72,7 @@ Volg de onderstaande stappen om doelframes in te stellen.
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
-1. Selecteer **[!UICONTROL Enable fallback content]** naar wens. Met de inhoud voor alternatieven kan uw doelgroep een standaardinhoud ontvangen wanneer geen specifieke doelregels zijn gekwalificeerd.
+1. Selecteer de optie **[!UICONTROL Enable fallback content]** naar wens. Met de inhoud voor alternatieven kan uw doelgroep een standaardinhoud ontvangen wanneer geen specifieke doelregels zijn gekwalificeerd.
 
    >[!NOTE]
    >
@@ -181,4 +186,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Leer hoe u berichtoptimalisatie kunt benutten in actie- of API-campagnes. U zult zien hoe te om sub-publiek te richten, berichtvariaties door plaats tot stand te brengen, fallback inhoud toe te laten, en veelvoudige experimenten in één enkele campagne in werking te stellen. In deze zelfstudie wordt ook uitgelegd hoe u campagnes met meerdere kanalen kunt beheren en tegelijkertijd de consistentie van berichten kunt behouden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470374?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
