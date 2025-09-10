@@ -302,7 +302,7 @@ Verwijs naar [ dit het oplossen van problemenartikel ](https://experienceleague.
 
 Leer meer over gebeurtenissen [ op deze pagina ](../event/about-events.md).
 
-Zie ook {de guardrails van de Gebeurtenis van 0}. [](../start/guardrails.md#events)
+Zie ook {de guardrails van de Gebeurtenis van 0}. [&#128279;](../start/guardrails.md#events)
 
 +++
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer kan alleen inhoudskaarten correct weergeven als u de vol
 * **de Inzameling van Gegevens van Adobe Experience Platform**
 
   [ creeer een datastream ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"} en [ voeg de dienst van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep){target="_blank"} toe. Schakel de opties **[!UICONTROL Edge Segmentation]** en **[!UICONTROL Adobe Journey Optimizer]** in. Dit zorgt ervoor dat Journey Optimizer-gebeurtenissen worden afgehandeld door de Adobe Experience Platform Edge Network.
-Voeg de **Gebeurtenis van de Ervaring toe - de 1} gebiedsgroep van de Interactie van de Positie {aan uw dataset om deze gegevens in uw rapporten te omvatten.** [ leer meer over gegevensstromen ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}
+Voeg de **Gebeurtenis van de Ervaring toe - de 1&rbrace; gebiedsgroep van de Interactie van de Positie &lbrace;aan uw dataset om deze gegevens in uw rapporten te omvatten.** [ leer meer over gegevensstromen ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}
 
 * **Adobe Experience Platform**
 
@@ -40,7 +40,7 @@ Voeg de **Gebeurtenis van de Ervaring toe - de 1} gebiedsgroep van de Interactie
 
 * **Problemen oplossen**
 
-  Gebruik de **mening van 0} Edge Delivery {binnen** Adobe Experience Platform Assurance **om mobiele ervaringen problemen op te lossen.** Het kan verzoeken inspecteren, randvraag verifiëren, en profielgegevens onderzoeken. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}
+  Gebruik de **mening van 0&rbrace; Edge Delivery &lbrace;binnen** Adobe Experience Platform Assurance **om mobiele ervaringen problemen op te lossen.** Het kan verzoeken inspecteren, randvraag verifiëren, en profielgegevens onderzoeken. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}
 
 * **de Experimenten van de Inhoud**
 
