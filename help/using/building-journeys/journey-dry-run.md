@@ -9,9 +9,9 @@ level: Intermediate
 keywords: publiceren, reizen, live, geldigheid, controle
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 0%
 
 Reis Dry run is een speciale publicatiemodus in Adobe Journey Optimizer die reisartsen in staat stelt een reis te testen met behulp van echte productiegegevens zonder contact op te nemen met echte klanten of profielinformatie bij te werken.  Deze functie helpt reisartsen vertrouwen te winnen in hun reisontwerp en doelgroep voordat ze het live publiceren.
 
+➡️ [ Leer meer over reis droog looppas in deze video ](#dry-run-video)
 
 ## Belangrijkste voordelen {#journey-dry-run-benefits}
 
@@ -60,8 +61,8 @@ Tijdens de Droge Looppas, loopt de reis op simulatiemodus, die het volgende spec
 * **Gegevensbronnen**, met inbegrip van externe gegevensbronnen, en **wacht** activiteiten worden onbruikbaar gemaakt door gebrek tijdens de Droog looppas. Nochtans kunt u dit gedrag [ veranderen wanneer het activeren van de Dry looppaswijze ](#journey-dry-run-start).
 
 * **de knopen van de Reactie** worden niet uitgevoerd: alle profielen die het ingaan zullen met succes weggaan. De volgende prioriteitsregels zijn echter van toepassing:
-   * Als de knoop van de Reactie van de a **&#x200B;**&#x200B;met één of veelvoudige **unitaire gebeurtenisknopen** parallel wordt gebruikt, zullen de profielen altijd door de reactiegebeurtenis gaan.
-   * Als de knoop van de Reactie van de a **&#x200B;**&#x200B;met één of veelvoudige **3&rbrace; knopen van de reactiegebeurtenis &lbrace;parallel wordt gebruikt, zullen de profielen altijd door eerste op het canvas (bij de bovenkant) gaan.**
+   * Als de knoop van de Reactie van de a **** met één of veelvoudige **unitaire gebeurtenisknopen** parallel wordt gebruikt, zullen de profielen altijd door de reactiegebeurtenis gaan.
+   * Als de knoop van de Reactie van de a **** met één of veelvoudige **3} knopen van de reactiegebeurtenis {parallel wordt gebruikt, zullen de profielen altijd door eerste op het canvas (bij de bovenkant) gaan.**
 
 >[!CAUTION]
 >
@@ -144,3 +145,8 @@ Als u stepEvent gegevens naar **externe systemen** uitvoert, kunt u de looppas D
 
 Wanneer het analyseren van **reis meldend metriek** gebruikend de dienst van de Vraag van Adobe Experience Platform, moeten de Dry looppas-geproduceerde step gebeurtenissen worden uitgesloten. Stel hiervoor de markering `inDryRun` in op `false` .
 
+## Hoe kan ik-video {#dry-run-video}
+
+In deze video ziet u hoe u uw reizen droog kunt uitvoeren.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

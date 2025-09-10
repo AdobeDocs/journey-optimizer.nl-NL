@@ -9,7 +9,7 @@ level: Intermediate
 keywords: publiceren, reizen, live, geldigheid, controle
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 18611c721dfd1b189a9272f9c49a2c2e778584cc
+source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
 workflow-type: tm+mt
 source-wordcount: '2429'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Voer de volgende stappen uit om uw reis te pauzeren:
    U kunt:
 
    * **Greep** profielen - de Profielen zullen op de volgende **knoop van de Actie** op de reis wachten die moet worden hervat
-   * **verwerpt** profielen - de Profielen zullen van de reis op de volgende **3 knoop van de Actie worden uitgesloten &lbrace;**
+   * **verwerpt** profielen - de Profielen zullen van de reis op de volgende **3 knoop van de Actie worden uitgesloten {**
 
 1. Klik de **knoop van de Pauze** om te bevestigen.
 
@@ -182,13 +182,13 @@ Laten we het volgende voorbeeld van de reis nemen:
 
 ![ Steekproef van een reis ](assets/pause-journey-sample.png){zoomable="yes"}
 
-Wanneer het pauzeren van deze reis, selecteert u als de profielen **&#x200B;**&#x200B;of **Greep** worden genegeerd, en dan profielbeheer is het volgende:
+Wanneer het pauzeren van deze reis, selecteert u als de profielen **** of **Greep** worden genegeerd, en dan profielbeheer is het volgende:
 
 1. **AddToCart** activiteit: alle nieuwe profielingangen worden geblokkeerd. Als een profiel al de reis vóór een pauze is ingegaan, gaan zij tot de volgende actieknooppunt voort.
 1. **wacht** activiteit: de profielen blijven normaal op de knoop wachten en zullen het weggaan, zelfs als de reis in pauze is.
 1. **Voorwaarde**: de profielen blijven door voorwaarden gaan en zich naar de juiste tak bewegen, die op de uitdrukking wordt gebaseerd op de voorwaarde wordt bepaald.
 1. **duw**/**e-mail** activiteiten: tijdens een gepauzeerde reis, beginnen de profielen te wachten of worden verworpen (die op de keus door de gebruiker op het tijdstip van pauze wordt gemaakt) op de volgende actieknooppunt wordt gebaseerd. Profielen wachten dus of worden daar genegeerd.
-1. **Gebeurtenissen** na **3&rbrace; knopen van de Actie &lbrace;: als een profiel op een** knoop van de Actie **wacht en er een** activiteit van de Gebeurtenis **na het is, als die gebeurtenis in brand wordt gestoken, wordt de gebeurtenis verworpen.**
+1. **Gebeurtenissen** na **3} knopen van de Actie {: als een profiel op een** knoop van de Actie **wacht en er een** activiteit van de Gebeurtenis **na het is, als die gebeurtenis in brand wordt gestoken, wordt de gebeurtenis verworpen.**
 
 Zoals per dit gedrag, kunt u profielaantallen zien die op gepauzeerde reis stijgen, meestal in activiteiten vóór **Actie** activiteiten. Bijvoorbeeld, in dat voorbeeld, **wacht** activiteit nog wordt toegelaten, die het aantal profielen verhogen die door de **Voorwaarde** activiteit gaan, aangezien zij het weggaan.
 
@@ -197,9 +197,9 @@ Wanneer u deze reis hervat:
 1. Vernieuwde ingangen beginnen binnen een minuut.
 1. De profielen die momenteel in de reis op **activiteiten wachtten van de Actie** worden hervat bij een tarief van 5k tps. Zij kunnen dan de **Actie** ingaan zij op wachtten, en de reis voortzetten.
 
-## Problemen met het verwijderen van profielen tijdens gepauzeerde reizen oplossen  {#discards-troubleshoot}
+## Problemen met het verwijderen van profielen tijdens gepauzeerde reizen oplossen {#discards-troubleshoot}
 
-U kunt de [ Dienst van de Vraag van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=nl-NL){target="_blank"} gebruiken om gebeurtenissen van de vraagstap te vragen, die meer informatie over profielverwerping, afhankelijk van kunnen verstrekken wanneer zij voorkwamen.
+U kunt de [ Dienst van de Vraag van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} gebruiken om gebeurtenissen van de vraagstap te vragen, die meer informatie over profielverwerping, afhankelijk van kunnen verstrekken wanneer zij voorkwamen.
 
 * Gebruik de volgende code voor teruggooi die plaatsvindt voordat het profiel de reis binnengaat:
 
