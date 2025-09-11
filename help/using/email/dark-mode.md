@@ -12,9 +12,9 @@ keywords: donkere modus, e-mail, kleur, editor
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 0501691c29d82dd1b8c94e0366e66cf5534cd1d2
+source-git-commit: 623f882f5d63a2ea4edc2ec8ef30a65364ed2207
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1502'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,9 @@ In dit geval moeten de specifieke instellingen die u in de e-mailtoepassing van 
 >
 >Leer hoe te om de montages van de douane donkere wijze met E-mail Designer in [ te bepalen deze sectie ](#define-custom-dark-mode).
 
-Er kunnen echter enkele beperkingen van toepassing zijn. Sommige e-mailclients, zoals Apple Mail 16 (macOs 13), genereren bijvoorbeeld geen donkere modus als er afbeeldingen aanwezig zijn in de e-mailinhoud.
+Sommige beperkingen kunnen echter van toepassing zijn voor elke e-mailclient. Sommige clients, zoals Apple Mail 16 (macOs 13), genereren bijvoorbeeld geen donkere modus als er afbeeldingen aanwezig zijn in de e-mailinhoud.
+
+Voor optimale resultaten test u de inhoud met de e-mailclients waarop u zich richt. Om een simulatie te zien die zo dicht mogelijk bij het definitieve resultaat voor elke cliënt komt, gebruik de [ E-mail teruggevende ](../content-management/rendering.md) optie in E-mail Designer.
 
 ## Donkere modus in de Designer-e-mail {#dark-mode-email-designer}
 
