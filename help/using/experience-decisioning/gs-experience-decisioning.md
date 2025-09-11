@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 41563414b2118ae1fcde65874c56f38daf4fa9ab
+source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 4%
@@ -50,7 +50,7 @@ De belangrijkste stappen om met Beslissing te werken zijn als volgt:
 
    1. Typ de naam of het e-mailadres van de gebruiker of selecteer de gebruiker in de lijst en klik op **[!UICONTROL Save]** .
 
-      Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/users) toevoegen.
+      Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users) toevoegen.
 
       ![](assets/decision_permission_3.png)
 
@@ -64,7 +64,7 @@ De belangrijkste stappen om met Beslissing te werken zijn als volgt:
 
 1. **creeer besluitpunten** om aan uw gericht publiek te tonen.
 
-   ➡️ [ Leer hoe te om beslissende punten ](items.md) in het gebruikersinterface (en in de [ API documentatie ](api-reference/decisions-items/create.md) tot stand te brengen)
+   ➡️ [ Leer hoe te om besluitvormingspunten ](items.md) in het gebruikersinterface (en in de [ API documentatie ](api-reference/decisions-items/create.md) tot stand te brengen)
 
 1. **organiseert zich met inzamelingen**: De inzamelingen van het gebruik om besluitpunten te categoriseren die op op attribuut-gebaseerde regels worden gebaseerd. Neem inzamelingen in uw selectiestrategieën op om te bepalen welke inzameling van besluitvormingspunten zou moeten worden overwogen.
 
