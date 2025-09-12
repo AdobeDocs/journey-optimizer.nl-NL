@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: campagne, hoe, begin, optimaliseer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 5821bc3f3c6e81ae1ae7389bbca1bdcec11cc805
+source-git-commit: 4bd3e202935cfc971990faa7d1dd2f3d0d7cdc6d
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 0%
+source-wordcount: '873'
+ht-degree: 1%
 
 ---
 
@@ -57,6 +57,31 @@ ht-degree: 0%
 >id="ajo_campaigns_campaign_type"
 >title="Type campagne"
 >abstract="Selecteer het type campagne. Welke kanalen beschikbaar zijn, is afhankelijk van het geselecteerde type. <br>**Geplande campagnes** (de campagnes van de Actie) - Ideaal voor eenvoudige, eenmalig partijmededelingen die u kunt plannen om in een specifieke tijd te lopen.<br>**API-teweeggebrachte campagnes** - geactiveerd door een API vraag, toelatend geautomatiseerd, gebeurtenis-gebaseerd overseinen direct van externe systemen.<br>**Geordende campagnes** - verstrek een visueel, belemmering-en-dalingscanvas om complexe, multi-step marketing werkschema&#39;s te ontwerpen en te automatiseren, van publiekssegmentatie aan gepersonaliseerde berichtlevering over kanalen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_orchestration"
+>title="Campagnes"
+>abstract="Maak uw segmentatiestroom, maak uw berichten over meerdere kanalen en plan uw campagnes. Ondersteunde kanalen: e-mail, SMS, pushmelding."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_scheduled_marketing"
+>title="Campagnes"
+>abstract="Lever enige of terugkomende uitgaande leveringen of lopende binnenkomende acties."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_scheduled_transactional"
+>title="Campagnes"
+>abstract="Lever enige of terugkomende uitgaande transactionele acties."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_api_marketing"
+>title="Campagnes"
+>abstract="Aangepaste marketingcommunicatie leveren aan doelgroepen. Ondersteunde kanalen: e-mail, sms, pushberichten."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_api_transactional"
+>title="Campagnes"
+>abstract="Transactiecommunicatie leveren aan afzonderlijke profielen of groepen profielen. Ondersteunde kanalen: e-mail, sms, pushberichten."
 
 Gebruik Journey Optimizer-campagnes om via verschillende kanalen eenmalige inhoud aan een specifiek publiek te leveren. Wanneer u reizen gebruikt, worden handelingen op volgorde uitgevoerd. Met campagnes, worden de acties uitgevoerd gelijktijdig, of onmiddellijk, of gebaseerd op een gespecificeerd programma.
 
@@ -121,7 +146,7 @@ Als u geen toegang hebt tot campagnefuncties, neemt u contact op met uw beheerde
 
 1. Typ de naam of het e-mailadres van de gebruiker of selecteer de gebruiker in de lijst en klik op **[!UICONTROL Save]** .
 
-   Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/users) toevoegen.
+   Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users) toevoegen.
 
 Uw gebruiker moet dan een e-mail ontvangen die aan uw instantie opnieuw richt.
 
