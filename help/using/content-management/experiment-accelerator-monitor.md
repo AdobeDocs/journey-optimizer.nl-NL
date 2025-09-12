@@ -10,9 +10,9 @@ level: Beginner
 keywords: inhoud, experiment, meerdere, publiek, behandeling
 hide: true
 hidefromtoc: true
-source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
+source-git-commit: c28a322ec13de2a23ab5cffb4785b14425e4e6e9
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
@@ -71,11 +71,13 @@ De **[!UICONTROL Experiment outcome]** geeft u een snel overzicht van de winnend
 
 ### Instellen {#set-up}
 
-![](assets/experiment-monitor-hypothesis.png)
-
 In **[!UICONTROL Hypothesis]** worden de geplande wijzigingen vastgelegd die moeten worden getest en wordt het verwachte effect op de primaire metrische waarde beschreven. Als u een duidelijke **[!UICONTROL Hypothesis]** definitie opgeeft, weet u zeker dat elk experiment een meetbaar doel heeft, waardoor het gemakkelijker wordt om resultaten te evalueren en te bepalen of de wijzigingen tot betekenisvolle verbeteringen leiden.
 
+Merk op dat voor [ Experimenteerde inzichten ](#insights) worden geproduceerd, u hypothese en behandelingsdetails en statistische betekenis moet bevestigen om worden bereikt.
+
 1. Klik op **[!UICONTROL Add]** om een **[!UICONTROL Hypothesis]** -object voor uw experiment te maken.
+
+   ![](assets/experiment-monitor-setup-1.png)
 
 1. Typ uw **[!UICONTROL Hypothesis]** in door de aangebrachte wijzigingen en de invloed van deze wijzigingen op de primaire metrische waarde in te vullen.
 
@@ -83,7 +85,9 @@ In **[!UICONTROL Hypothesis]** worden de geplande wijzigingen vastgelegd die moe
 
 1. Klik op **[!UICONTROL Review]** om de afbeelding voor elke bewerking toe te voegen of te vervangen.
 
-1. Selecteer **[!UICONTROL Add image]** of **[!UICONTROL Replace image]** om in uw lokale bestanden de beste schermafbeelding voor uw **[!UICONTROL Treatments]** te kiezen.
+   ![](assets/experiment-monitor-setup-2.png)
+
+1. Behandelingsafbeeldingen worden automatisch gegenereerd, maar u kunt **[!UICONTROL Add image]** of **[!UICONTROL Replace image]** selecteren om een voorkeursschermafbeelding van uw lokale bestanden te uploaden voor uw **[!UICONTROL Treatments]** .
 
    Houd er rekening mee dat in de schermafbeelding de volledige pagina moet worden vastgelegd.
 
@@ -109,7 +113,7 @@ U kunt ook een momentopname in real time bekijken van hoe de belangrijke behande
 
 * **[!UICONTROL Success metric]** vanuit Journey Optimizer of de **[!UICONTROL Primary metric]** vanuit Adobe Target, afhankelijk van wat tijdens het maken van het experiment is geconfigureerd.
 
-Onder aan de widget vindt u een beknopte samenvatting van de configuratie van uw experiment, waaronder:
+Onder aan de widget vindt u een beknopte samenvatting van de configuratie van uw experiment, zoals:
 
 * **[!UICONTROL Success metric]** vanuit Journey Optimizer of de **[!UICONTROL Primary metric]** vanuit Adobe Target, afhankelijk van wat tijdens het maken van het experiment is geconfigureerd.
 
@@ -123,17 +127,17 @@ Onder aan de widget vindt u een beknopte samenvatting van de configuratie van uw
 >
 >De functie Opportunity is beperkt tot experimenten met op tekst gebaseerde wijzigingen.
 
-![](assets/experiment-monitor-opportunities.png)
-
 In het deelvenster **[!UICONTROL Opportunities]** worden door AI gegenereerde aanbevelingen weergegeven die zijn ontworpen om de testprestaties te verbeteren en die zijn afgestemd op bredere bedrijfsdoelstellingen en KPI&#39;s.
 
-1. Selecteer de gewenste mogelijkheid en klik op **[!UICONTROL View Opportunity]** .
+Merk op dat voor de Te produceren kansen van de Experimenteer, u eerst hypothese en behandelingsdetails [ moet ](#set-up) bevestigen.
+
+1. Blader door de voorgestelde optie en klik op **[!UICONTROL View Opportunity]** .
+
+   ![](assets/experiment-monitor-opportunities.png)
 
 1. Het selecteren van een kans opent het **venster van de Details van de Kans**, dat een specifieke behandeling of een variatie schetst die door Experimentation Accelerator wordt voorgesteld. Deze weergave omvat:
 
    * **[!UICONTROL Hypothesis]**: Een door AI gegenereerde hypothese die het verwachte resultaat van de voorgestelde behandeling toelicht.
-
-   * **[!UICONTROL New text treatment example]**: woorden of woordgroepen die de door de AI aanbevolen stijl aangeven.
 
    * **[!UICONTROL Rationale]**: Een uitleg van waarom de Experimentation Accelerator deze mogelijkheid heeft voorgesteld.
 
@@ -142,12 +146,19 @@ In het deelvenster **[!UICONTROL Opportunities]** worden door AI gegenereerde aa
       * **[!UICONTROL Learning potential]**: Een schatting van hoeveel nieuwe insight de kans kan bieden, op basis van hoe anders deze is dan wat eerder is getest.
 
       * **[!UICONTROL Conversion potential]**: Een schatting van hoe waarschijnlijk de kans is om huidige behandelingen te overtreffen, gebaseerd op overeenkomsten met strategieën die historisch goed hebben gewerkt.
+   <!--
+   * **[!UICONTROL New text treatment example]**: Words or phrases that demonstrate the style the AI recommends using.
+   -->
 
-1. Vervolgens kunt u **[!UICONTROL Share]** uw opportuniteit gebruiken of deze rechtstreeks activeren door **[!UICONTROL Open Experiment]** te selecteren.
+   ![](assets/experiment-monitor-opportunities-2.png)
+
+1. Vervolgens kunt u het rechtstreeks aan het experiment toevoegen door **[!UICONTROL Open Experiment]** te selecteren.
 
 1. Als het oorspronkelijke experiment in Adobe Journey Optimizer is gemaakt en beheerd, wordt met deze actie de **[!UICONTROL Content Experimentation Panel]** in die campagne geopend.
 
    Voor experimenten die afkomstig zijn uit **[!DNL Adobe Target]** , worden de voorgestelde wijzigingen geladen in de testworkflow van **[!DNL Adobe Target]** .
+
+   ➡️ [ Leer meer in de documentatie van Adobe Target ](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
 
 1. In de experimentele weergave zijn dezelfde AI **[!UICONTROL Experimentation Opportunities]** die de Experimentation Accelerator heeft aangetroffen, toegankelijk.
 
@@ -163,9 +174,9 @@ De tabel **[!UICONTROL Results]** bevat een gedetailleerde prestatie-indeling va
 
 * **[!UICONTROL Place]**: de positie van de behandeling wordt bepaald op basis van prestaties die aangeven hoe de behandeling wordt vergeleken met andere behandelingen.
 
-* **[!UICONTROL People]**: Aantal gebruikersprofielen dat als doelprofielen voor uw berichten in aanmerking komt.
-
 * **[!UICONTROL Success metric]** vanuit Journey Optimizer of de **[!UICONTROL Primary metric]** vanuit Adobe Target, afhankelijk van wat tijdens het maken van het experiment is geconfigureerd.
+
+* **[!UICONTROL People]**: Aantal gebruikersprofielen dat als doelprofielen voor uw berichten in aanmerking komt.
 
 * **[!UICONTROL Lift]**: maat voor de procentuele verbetering van de conversiesnelheid van een bepaalde behandeling ten opzichte van de basislijn.
 
@@ -179,10 +190,12 @@ De tabel **[!UICONTROL Results]** bevat een gedetailleerde prestatie-indeling va
 >
 >De functie Experimentation Insights is beperkt tot experimenten met op tekst gebaseerde wijzigingen.
 
-![](assets/experiment-monitor-insights.png)
-
 **[!UICONTROL Experiment Insights]** zijn door AI gegenereerde lessen die zijn afgeleid van dit experiment. Deze inzichten komen beschikbaar zodra het experiment statistisch significant is geworden en een contextueel inzicht verschaft in wat heeft bijgedragen tot het succes ervan. Zij benadrukken de belangrijkste kenmerken die aanwezig zijn in de winnende behandeling, los van de controle, die waarschijnlijk het resultaat beïnvloedden.
 
 Merk op dat voor de Inzichten van de Experimenten die moeten worden geproduceerd, u eerst hypothese en behandelingsdetails [ en statistische betekenis moet bevestigen om worden bereikt.](#set-up)
 
 Klik op **[!UICONTROL View details]** voor meer informatie over alle inzichten.
+
+</br>
+
+![](assets/experiment-monitor-insights.png)
