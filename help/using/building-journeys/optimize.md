@@ -11,9 +11,9 @@ keywords: activiteit, toestand, canvas, reis, optimalisering
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
+source-git-commit: f1a44b91e8dfe28d0cf54c11a7912e568f3d176d
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1197'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ In de volgende voorbeelden ziet u hoe u de **[!UICONTROL Optimize]** -activiteit
 
 Test of het verzenden van het eerste bericht via e-mail versus SMS tot hogere omzettingen leidt.
 
-➡️ Gebruik de conversiesnelheid als de optimalisatiemethode (bijvoorbeeld aankopen, aanmelden).
+➡️ Gebruik de conversiesnelheid als de succesmaatstaf (bijvoorbeeld aankopen, aanmelden).
 
 ![](assets/journey-optimize-experiment-uc-channel.png)
 
@@ -145,7 +145,7 @@ Test of het verzenden van het eerste bericht via e-mail versus SMS tot hogere om
 
 Voer een experiment uit om te controleren of het verzenden van één e-mail versus drie e-mails over een week meer aankopen oplevert.
 
-➡️ Gebruik aankopen of de afmeldingsfrequentie als optimalisatiemetrisch.
+➡️ Gebruik aankopen of de afmeldingsfrequentie als de maatstaf voor succes.
 
 ![](assets/journey-optimize-experiment-uc-frequency.png)
 
@@ -155,7 +155,7 @@ Voer een experiment uit om te controleren of het verzenden van één e-mail vers
 
 Vergelijk een wachttijd van 24 uur in vergelijking met een wachttijd van 72 uur vóór een follow-up om te bepalen welke timing de betrokkenheid maximaliseert.
 
-➡️ Gebruik de doorklikfrequentie of de opbrengst als optimalisatiemetrisch.
+➡️ Gebruik de doorklikfrequentie of de opbrengst als succesmetrisch.
 
 ![](assets/journey-optimize-experiment-uc-wait.png)
 
@@ -166,7 +166,7 @@ Vergelijk een wachttijd van 24 uur in vergelijking met een wachttijd van 72 uur 
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="Wat is een fallback-pad?"
->abstract="Met Back-up maakt u een nieuw pad voor het publiek dat niet voldoet aan een van de hierboven gedefinieerde doelregels.</br> als u deze optie niet selecteert, zal om het even welk publiek dat niet voor een het richten regel kwalificeert niet de reserveweg ingaan."
+>abstract="Met alternatieven voor paden kunnen gebruikers een ander pad invoeren als er geen specifieke doelregels zijn. </br> als u deze optie niet selecteert, zal om het even welk publiek dat niet voor een het richten regel kwalificeert niet de reserveweg ingaan en de reis weggaan."
 
 Het richten van regels staat u toe om specifieke regels of kwalificaties te bepalen die voor een klant moeten worden ontmoet om één van de reiswegen in te gaan, die op specifieke publiekssegmenten <!-- depending on profile attributes or contextual attributes--> wordt gebaseerd.
 
@@ -196,11 +196,11 @@ Volg de onderstaande stappen om doelgericht te kiezen op een reis.
 
    ![](assets/journey-targeting-rule.png)
 
-1. Selecteer de optie **[!UICONTROL Enable fallback content]** naar wens. Met deze actie maakt u een fallback-pad voor het publiek dat niet voldoet aan een van de hierboven gedefinieerde doelregels.
+1. Selecteer de optie **[!UICONTROL Enable fallback path]** naar wens. Met deze actie maakt u een fallback-pad voor het publiek dat niet voldoet aan een van de hierboven gedefinieerde doelregels.
 
    >[!NOTE]
    >
-   >Als u deze optie niet selecteert, zal een publiek dat niet in aanmerking komt voor een doelregel het fallback-pad niet invoeren.
+   >Als u deze optie niet selecteert, komt een publiek dat niet in aanmerking komt voor een doelregel niet in het terugvalpad terecht en wordt de reis verlaten.
 
 1. Klik op **[!UICONTROL Create]** om de instellingen voor de doelregel op te slaan.
 
@@ -234,7 +234,7 @@ In de volgende voorbeelden ziet u hoe u de **[!UICONTROL Optimize]** -activiteit
 
 Goudstatusloyaliteitsleden kunnen persoonlijke aanbiedingen via e-mail ontvangen, terwijl alle andere leden naar SMS-herinneringen worden gestuurd.
 
-➡️ Gebruik de omzet per profiel of conversiesnelheid als optimalisatiemetrisch.
+<!--➡️ Use the revenue per profile or conversion rate as the optimization metric.-->
 
 ![](assets/journey-optimize-targeting-uc-segment.png)
 
@@ -244,7 +244,7 @@ Goudstatusloyaliteitsleden kunnen persoonlijke aanbiedingen via e-mail ontvangen
 
 Klanten die een e-mail hebben geopend maar niet hebben geklikt, kunnen een pushmelding ontvangen, terwijl zij die helemaal niet hebben geopend een SMS-bericht ontvangen.
 
-➡️ Gebruik de doorkliksnelheid of downstreamomzettingen als optimalisatiemetrisch.
+<!--➡️ Use the click-through rate or downstream conversions as the optimization metric.-->
 
 ![](assets/journey-optimize-targeting-uc-behavior.png)
 
@@ -254,15 +254,15 @@ Klanten die een e-mail hebben geopend maar niet hebben geklikt, kunnen een pushm
 
 Klanten die onlangs een aankoop hebben gedaan, kunnen een kort pad naar &quot;Bedankt + Cross-sell&quot; volgen, terwijl klanten zonder aankoopgeschiedenis een langere reis naar de verpleegkunde beginnen.
 
-➡️ Gebruik de aanschaffrequentie of de betrokkenheidsfactor voor herhaalde aanschaf als optimalisatiemetrisch.
+<!--➡️ Use the repeat purchase rate or engagement rate as the optimization metric.-->
 
 ![](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 
-## Een voorwaarde toevoegen {#conditions}
+### Een voorwaarde toevoegen {#conditions}
 
-U kunt een voorwaarde toevoegen om te bepalen hoe de individuen door uw reis door het creëren van veelvoudige wegen die op specifieke criteria worden gebaseerd. U kunt ook een ander pad configureren voor het afhandelen van time-outs of fouten, zodat u over een naadloze ervaring beschikt.
+De voorwaarden zijn een type van [ richtend ](#targeting) regels die u toelaten om te bepalen hoe de individuen door uw reis door veelvoudige wegen te creëren die op specifieke criteria worden gebaseerd.
 
 ![](assets/journey-condition.png)
 

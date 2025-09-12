@@ -12,9 +12,9 @@ keywords: donkere modus, e-mail, kleur, editor
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 623f882f5d63a2ea4edc2ec8ef30a65364ed2207
+source-git-commit: 6106c2cbd77a9962a0d496cdda3a7e6118e90bf0
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1505'
 ht-degree: 0%
 
 ---
@@ -24,21 +24,16 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
 >title="Overschakelen naar donkere modus"
->abstract="Schakel over naar de donkere modus waar u een voorvertoning kunt bekijken van de manier waarop specifieke aangepaste instellingen worden gerenderd en gedefinieerd. <br> Voorzichtigheid: Het definitieve teruggeven hangt van de e-mailcliënt van de ontvanger af. Niet alle e-mailclients ondersteunen de aangepaste donkere modus."
-
->[!CONTEXTUALHELP]
->id="ac_edition_darkmode_image"
->title="Een specifieke afbeelding gebruiken voor de donkere modus"
->abstract="U kunt een andere afbeelding selecteren die wordt weergegeven wanneer de donkere modus is ingeschakeld. <br> Voorzichtigheid: Het toevoegen van een specifiek beeld voor donkere wijze waarborgt het niet correct in alle e-mailcliënten teruggeeft. Niet alle e-mailclients ondersteunen de aangepaste donkere modus."
+>abstract="Schakel over naar de donkere modus waar u een voorvertoning kunt weergeven van de rendermethode en specifieke aangepaste instellingen kunt definiëren. <br> het definitieve teruggeven hangt van de e-mailcliënt van de ontvanger af. Alle e-mailclients bieden geen ondersteuning voor de aangepaste donkere modus."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
 >title="Overschakelen naar donkere modus"
->abstract="Schakel over naar de donkere modus om te bekijken hoe deze kan worden weergegeven bij ondersteunde e-mailclients. <br> Voorzichtigheid: Het definitieve teruggeven hangt van de e-mailcliënt van de ontvanger af. Niet alle e-mailclients ondersteunen de aangepaste donkere modus."
+>abstract="Schakel over naar de donkere modus om te bekijken hoe deze kan worden weergegeven bij ondersteunde e-mailclients. <br> het definitieve teruggeven hangt van de e-mailcliënt van de ontvanger af. Merk op dat alle e-mailcliënten donkere wijze niet steunen."
 
 >[!AVAILABILITY]
 >
->Deze mogelijkheid is momenteel beschikbaar in bètaversie en alleen voor bètaklanten. Neem contact op met uw Adobe-vertegenwoordiger als u wilt deelnemen aan het bètaprogramma.
+>Deze mogelijkheid is momenteel beschikbaar in bètaversie en alleen voor bètaklanten. <!--To join the beta program, contact your Adobe representative.-->
 
 Wanneer het ontwerpen van uw e-mails, [!DNL Journey Optimizer] [ E-mail Designer ](get-started-email-design.md) staat u toe om aan de **[!UICONTROL Dark mode]** mening over te schakelen.
 
@@ -73,6 +68,7 @@ Voordat u de donkere modus gebruikt in de [!DNL Journey Optimizer] e-mailtoepass
 ### Clients die de donkere modus niet ondersteunen {#not-supporting}
 
 Sommige e-mailclients ondersteunen deze functie helemaal niet, zoals:
+
 * Yahoo!Mail
 * AOL
 
@@ -80,7 +76,9 @@ Ongeacht of u aangepaste instellingen voor de donkere modus definieert in de e-m
 
 ### Clients die hun eigen donkere modus toepassen {#default-support}
 
-Sommige e-mailclients passen stelselmatig hun eigen donkere standaardmodus toe op alle ontvangen e-mailberichten. Kleuren, achtergronden, afbeeldingen, enz. worden automatisch aangepast met de instellingen voor de donkere modus die specifiek zijn voor de e-mailclient.
+Sommige e-mailclients passen stelselmatig hun eigen donkere standaardmodus toe op alle ontvangen e-mailberichten. Kleuren, achtergronden, afbeeldingen, enz. automatisch worden aangepast met de instellingen voor de donkere modus die specifiek zijn voor de e-mailclient. Dit betekent dat er geen externe wijziging mogelijk is.
+
+<!--It is important to note that less than 25% of email clients offer customization options for dark mode. Clients such as Gmail implement their own dark mode rendering, which is not subject to external modification.-->
 
 Deze clients zijn bijvoorbeeld:
 
@@ -173,6 +171,11 @@ Het betekent dat gebieden met lichte en donkere elementen worden gedetecteerd en
 Here you can see that we have applied a different background, defined another image and change the color of the text and button.-->
 
 ### Aangepaste donkere modus definiëren {#define-custom-dark-mode}
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_darkmode_image"
+>title="Een specifieke afbeelding gebruiken voor de donkere modus"
+>abstract="U kunt een andere afbeelding selecteren die wordt weergegeven wanneer de donkere modus is ingeschakeld. <br> het toevoegen van een specifiek beeld voor donkere wijze garandeert het correct in alle e-mailcliënten. Alle e-mailclients bieden geen ondersteuning voor de aangepaste donkere modus."
 
 Nadat u naar **[!UICONTROL Dark mode]** hebt overgeschakeld, kunt u specifieke opmaakelementen van uw inhoud bewerken die alleen worden weergegeven wanneer de donkere modus is ingeschakeld in de e-mailclient van de ontvanger - op voorwaarde dat deze functie wordt ondersteund.
 
