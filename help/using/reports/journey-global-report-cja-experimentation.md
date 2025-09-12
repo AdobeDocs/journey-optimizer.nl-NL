@@ -7,9 +7,9 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b63dea783a2f85d17aacc12c23a9f63d880aeeee
+source-git-commit: 14758fa4db49aed686c1554718337983d3812595
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
@@ -21,13 +21,12 @@ Uw rapport van de Reizen geeft u een volledig overzicht van hoe uw experiment, s
 In Journey Optimizer is het experimenteren met reizen opgesplitst in twee soorten:
 
 * [Inhoud experimenteren](../content-management/content-experiment.md)
+
+  Merk op dat de lijsten en KPIs die voor uw Inhoudsexperiment worden gedetailleerd het zelfde zijn als die voor een experiment van de Weg. Verwijs naar de [ documentatie hieronder ](#experimentation) als u opstelling een experiment van de Inhoud hebt.
+
 * [Padexperimenten](../building-journeys/optimize.md)
 
 ## Padexperiment {#experimentation}
-
->[!NOTE]
->
-> De tabellen en KPI&#39;s die voor uw Content-experiment worden beschreven, zijn dezelfde als die voor een Path-experiment. Raadpleeg de onderstaande documentatie als u een Content-experiment hebt ingesteld.
 
 ### ExperimentatiekPI&#39;s {#experimentation-kpis}
 
