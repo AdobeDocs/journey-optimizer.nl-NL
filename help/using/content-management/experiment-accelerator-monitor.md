@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Experimentation Accelerator
+title: Experimentation Accelerator-monitor
 description: Verbeter uw vermogen om experimenten effectief uit te voeren en inzichten te genereren
 feature: Experimentation
 topic: Content Management
@@ -10,19 +10,22 @@ level: Beginner
 keywords: inhoud, experiment, meerdere, publiek, behandeling
 hide: true
 hidefromtoc: true
-source-git-commit: e4d5631701c5c270af7aec931f6b98a567b4ed29
+source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '977'
 ht-degree: 0%
 
 ---
 
-# Tabblad Experimenten {#monitor}
+# Uw experimenten bijhouden {#monitor}
 
 >[!BEGINSHADEBOX]
 
 * [Aan de slag met de Experimentation Accelerator](experiment-accelerator.md)
-* **[het lusje van Experimenten](experiment-accelerator-monitor.md)**
+* [Gegevensgebruik in AI met Experimentation Accelerator](experiment-accelerator-security.md)
+* [Aanbevolen procedures voor Experimentation Accelerator](experiment-accelerator-best-practices.md)
+* **[experimenten van de Monitor](experiment-accelerator-monitor.md)**
+* [Metrische experimenten](experiment-accelerator-metrics.md)
 
 >[!ENDSHADEBOX]
 
@@ -180,6 +183,6 @@ De tabel **[!UICONTROL Results]** bevat een gedetailleerde prestatie-indeling va
 
 **[!UICONTROL Experiment Insights]** zijn door AI gegenereerde lessen die zijn afgeleid van dit experiment. Deze inzichten komen beschikbaar zodra het experiment statistisch significant is geworden en een contextueel inzicht verschaft in wat heeft bijgedragen tot het succes ervan. Zij benadrukken de belangrijkste kenmerken die aanwezig zijn in de winnende behandeling, los van de controle, die waarschijnlijk het resultaat beïnvloedden.
 
-Merk op dat voor de Inzichten van de Experimenten die moeten worden geproduceerd, u eerst hypothese en behandelingsdetails [ moet ](#set-up) bevestigen.
+Merk op dat voor de Inzichten van de Experimenten die moeten worden geproduceerd, u eerst hypothese en behandelingsdetails [ en statistische betekenis moet bevestigen om worden bereikt.](#set-up)
 
 Klik op **[!UICONTROL View details]** voor meer informatie over alle inzichten.

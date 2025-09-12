@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
+source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
 workflow-type: tm+mt
-source-wordcount: '2926'
+source-wordcount: '2940'
 ht-degree: 18%
 
 ---
@@ -547,7 +547,10 @@ ht-degree: 18%
       + [Een inhoudexperiment maken](using/content-management/content-experiment.md)
       + Experimenteerversneller {#experiment}
          + [Aan de slag met de experimentele accelerator](using/content-management/experiment-accelerator.md)
+         + [Gegevensgebruik in AI met Experimentation Accelerator](using/content-management/experiment-accelerator-security.md)
+         + [Tips en trucs voor experimenteren met versneller](using/content-management/experiment-accelerator-best-practices.md)
          + [Monitor experimenteerversneller](using/content-management/experiment-accelerator-monitor.md)
+         + [Metrische experimenteerversneller](using/content-management/experiment-accelerator-metrics.md)
       + Technische opmerkingen {#technotes}
          + [Technische opmerkingen](/help/rp_landing_pages/technotes-landing-page.md)
          + [Statistische berekeningen begrijpen](using/content-management/experiment-calculations.md)
@@ -869,7 +872,7 @@ ht-degree: 18%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
