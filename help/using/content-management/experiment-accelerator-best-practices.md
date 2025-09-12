@@ -98,11 +98,11 @@ Voorbeeld: _wij geloven dat het veranderen van X Y wegens Z zal verhogen._
 Een goed experiment levert niet alleen een win-winsituatie op, maar levert ook een duidelijk, actief leren op.
 Hier is wat om te zoeken:
 
-&amp;controle; **Statistisch Vertrouwen**: Het verschil tussen varianten is waarschijnlijk niet toe te schrijven aan toeval.
-&amp;controle; **richt zich op Doelstellingen**: primaire metrisch wijst op betekenisvolle vooruitgang naar een bedrijfsdoelstelling.
-&amp;controle; **Secundaire Gevolgen**: Geen significante negatieve nevengevolgen op verwante metriek.
-&amp;controle; **Schaalbaarheid**: Het resultaat kan toekomstige besluiten informeren of aan andere gebieden worden algemeen gemaakt.
-&amp;controle; **Duidelijkheid**: De oorzaak van het resultaat is redelijk geïsoleerd en begrepen.
+&controle; **Statistisch Vertrouwen**: Het verschil tussen varianten is waarschijnlijk niet toe te schrijven aan toeval.
+&controle; **richt zich op Doelstellingen**: primaire metrisch wijst op betekenisvolle vooruitgang naar een bedrijfsdoelstelling.
+&controle; **Secundaire Gevolgen**: Geen significante negatieve nevengevolgen op verwante metriek.
+&controle; **Schaalbaarheid**: Het resultaat kan toekomstige besluiten informeren of aan andere gebieden worden algemeen gemaakt.
+&controle; **Duidelijkheid**: De oorzaak van het resultaat is redelijk geïsoleerd en begrepen.
 
 Experimentatie gaat niet alleen over het vinden van de &quot;beste&quot; versie, het gaat over het opbouwen van kennis door middel van testen en iteratie. Als het goed gaat, onthullen de experimenten inzichten die slimmere beslissingen, betere gebruikerservaring en betere resultaten stimuleren.
 
