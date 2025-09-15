@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: e-mail, ontwerp, toegankelijkheid
-source-git-commit: 09a6ec5bf04a1252fea8724d587b46f688842906
+source-git-commit: 57890eede1d5a0de6002f31b9ce8807a903b84f7
 workflow-type: tm+mt
 source-wordcount: '1601'
 ht-degree: 0%
@@ -31,7 +31,7 @@ In lijn hiermee worden de aanbevolen procedures voor het ontwerpen van toegankel
 >
 >Anderzijds, is de toegankelijkheid van de [!DNL Journey Optimizer] interface zelf gedetaillerd in [ deze sectie ](../start/accessibility.md).
 > 
->## Zorg ervoor dat de tekst leesbaar is {#text-readability}
+## Zorg ervoor dat de tekst leesbaar is {#text-readability}
 
 Gebruik de tab **[!UICONTROL Styles]** van de component **[!UICONTROL Text]** om ervoor te zorgen dat de tekst leesbaar is, bijvoorbeeld door een juist kleurcontrast en eenvoudige lettertypen te gebruiken. [Meer informatie](content-components.md#text)
 
@@ -102,7 +102,7 @@ Volg onderstaande richtlijnen voor effectieve alternatieve tekst in digitale pro
 
 Gebruik de e-mail van Designer relevante structuur en [ inhoudscomponenten ](content-components.md), evenals de opties in de **[!UICONTROL Styles]** ruit, om uw inhoud op een duidelijke, logische en beknopte manier te organiseren die voor allen toegankelijk is.
 
-![](assets/accessible-components.png){width="1000%"}
+![](assets/accessible-components.png){width="100%"}
 
 * Gebruik gestructureerde, semantische HTML met de juiste koppen, alinea&#39;s, lijsten en tabellen.
 * Zorg ervoor dat de inhoud een logische stroom volgt van links naar rechts en van boven naar beneden.
