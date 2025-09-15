@@ -8,9 +8,9 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 0e9d8335bed8d8157a0f2302a5ff2b0a74257218
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '944'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,16 @@ ht-degree: 0%
 Door de geavanceerde technologieën in het onder toezicht houden van machine het leren en diep leren te gebruiken, staat de Persoonlijke optimalisering een bedrijfsgebruiker (marktleider) toe om bedrijfsdoelstellingen te bepalen en hun klantengegevens te gebruiken om zaken-georiënteerde modellen op te leiden om gepersonaliseerde aanbiedingen te dienen en KPIs te maximaliseren.
 
 ![](../../rn/assets/do-not-localize/ai-ranking.gif)
+
+## Gegevensvereisten
+
+Om een gepersonaliseerd optimalisatiemodel op te leiden, moet de dataset aan de volgende minimumvereisten voldoen:
+
+* Minstens 2 aanbiedingen in de dataset moeten minstens 250 vertoningsgebeurtenissen en 25 succesgebeurtenissen (bijvoorbeeld, klikken of omzettingen) hebben binnen de laatste 30 dagen.
+* Aanbiedingen met minder dan 250 beeldschermen en/of 25 succesgebeurtenissen in de afgelopen 30 dagen komen in aanmerking voor opname in gepersonaliseerd verkeer, maar worden door het personalisatiemodel behandeld als presterende op het niveau van de slechtst-score * aanbieding tot zij deze drempel overschrijden.
+* Aanbiedingen met minder dan 250 beeldschermen en/of 25 succesgebeurtenissen in de afgelopen 30 dagen blijven in aanmerking komen voor opname in het exploratieverkeer.
+
+Tot de eerste keer een gepersonaliseerd optimalisatiemodel wordt getraind, zullen aanbiedingen binnen een selectiestrategie die een gepersonaliseerd optimalisatiemodel gebruikt willekeurig worden gediend.
 
 ## Belangrijkste modelaannames en -beperkingen {#key}
 
@@ -47,7 +57,7 @@ Er zijn drie typen functies:
 Het model heeft twee fasen:
 
 * In de **off-line modelopleiding** fase, wordt een model getraind door eigenschapinteractie in historische gegevens te leren en te herdenken.
-* In de **fase van de 0&rbrace; online conferentie, worden de kandidaten aangeboden gerangschikt gebaseerd op scores in real time die door het model worden geproduceerd.** In tegenstelling tot traditionele samenwerkings het filtreren technieken, die moeilijk om eigenschappen voor gebruikers en aanbiedingen te omvatten is, is de gepersonaliseerde optimalisering een diep het leren gebaseerde raadsmethode, en kan complexe en niet-lineaire patronen van de eigenschapinteractie omvatten en leren.
+* In de **fase van de 0} online conferentie, worden de kandidaten aangeboden gerangschikt gebaseerd op scores in real time die door het model worden geproduceerd.** In tegenstelling tot traditionele samenwerkings het filtreren technieken, die moeilijk om eigenschappen voor gebruikers en aanbiedingen te omvatten is, is de gepersonaliseerde optimalisering een diep het leren gebaseerde raadsmethode, en kan complexe en niet-lineaire patronen van de eigenschapinteractie omvatten en leren.
 
 Hier volgt een vereenvoudigd voorbeeld om het basisidee achter gepersonaliseerde optimalisatie te illustreren. Veronderstel wij een dataset hebben die historische interactie tussen gebruikers en aanbiedingen opslaat, die in Figuur 1 wordt getoond. Er zijn:
 * Twee aanbiedingen, aanbieding_1 en aanbieding_2,

@@ -8,9 +8,9 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 0e9d8335bed8d8157a0f2302a5ff2b0a74257218
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,16 @@ ht-degree: 0%
 # Modellen voor automatische optimalisatie {#auto-optimization-model}
 
 Een model voor automatische optimalisatie is bedoeld voor aanbiedingen die het rendement (KPI&#39;s) maximaliseren dat door zakelijke klanten is ingesteld. Deze KPI’s kunnen de vorm aannemen van omrekeningskoersen, inkomsten, enz. Op dit punt, richt de auto-optimalisering zich op optimaliserend aanbiedingskliks met aanbiedingsomzetting als ons doel. Automatisch optimaliseren is niet-gepersonaliseerd en optimaliseert op basis van &#39;algemene&#39; prestaties van de aanbiedingen.
+
+## Gegevensvereisten
+
+Om een model voor automatische optimalisatie te trainen, moet de dataset aan de volgende minimumvereisten voldoen:
+
+* Ten minste 2 aanbiedingen in de dataset moeten minstens 100 vertoningsgebeurtenissen en 5 klikgebeurtenissen binnen de laatste 14 dagen hebben.
+* Aanbiedingen met minder dan 100 beeldschermen en/of 5 klikgebeurtenissen in de afgelopen 14 dagen worden door het model behandeld als nieuwe aanbiedingen, en komen alleen in aanmerking om door het exploratiebandit te worden gediend.
+* Aanbiedingen met meer dan 100 beeldschermen en 5 klikgebeurtenissen in de afgelopen 14 dagen worden door het model behandeld als bestaande aanbiedingen, en komen in aanmerking om door zowel exploratie- als exploitatiepunten te worden gediend.
+
+Tot de eerste keer dat een model voor automatische optimalisatie wordt getraind, worden aanbiedingen binnen een selectiestrategie met behulp van een model voor automatische optimalisatie willekeurig aangeboden.
 
 ## Beperkingen {#limitations}
 
@@ -34,7 +44,7 @@ De volgende termen zijn handig wanneer u het over automatisch optimaliseren hebt
 
 * **Thomson bemonstering**: De steekproef van Thompson is een algoritme voor online besluitvormingsproblemen waar de acties opeenvolgend op een manier worden genomen die tussen het exploiteren van wat moet in evenwicht brengen om directe prestaties te maximaliseren en te investeren om nieuwe informatie te verzamelen die toekomstige prestaties kan verbeteren. [Meer informatie](#thompson-sampling)
 
-* [**de distributie van Beta** ](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}: Reeks ononderbroken [ kansverdelingen ](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"} die op het interval [ 0 worden bepaald, ] [&#128279;](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} door twee positieve [ vormparameters ](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"} wordt bepaald.
+* [**de distributie van Beta** ](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}: Reeks ononderbroken [ kansverdelingen ](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"} die op het interval [ 0 worden bepaald, ] [ ](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} door twee positieve [ vormparameters ](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"} wordt bepaald.
 
 ## Thompson Sampling {#thompson-sampling}
 
