@@ -5,7 +5,7 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
+source-git-commit: 0e269babd228063d465e0790435d916e479701a7
 workflow-type: tm+mt
 source-wordcount: '2940'
 ht-degree: 18%
@@ -325,14 +325,14 @@ ht-degree: 18%
             + [Aangepaste aanbiedingen invoegen](using/email/add-offers-email.md)
             + [Tekstversie genereren](using/email/text-version-email.md)
             + [Metagegevens toevoegen](using/email/email-metadata.md)
-            + [Aangepaste CSS toevoegen](using/email/custom-css.md)
          + Stijl bewerken {#edit-style}
             + [Stijl bewerken](/help/rp_landing_pages/edit-style-landing-page.md)
             + [Aan de slag met e-mailstijl](using/email/get-started-email-style.md)
             + [Achtergrondinstellingen bewerken](using/email/backgrounds.md)
             + [Verticale uitlijning en opvulling aanpassen](using/email/alignment-and-padding.md)
             + [Inline-opmaakkenmerken toevoegen](using/email/inline-styling.md)
-            + [Inhoud donkere modus definiëren](using/email/dark-mode.md)
+            + [Aangepaste CSS toevoegen](using/email/custom-css.md)
+            + [Inhoud in de donkere modus beheren](using/email/dark-mode.md)
          + [Toegankelijke inhoud maken](using/email/accessible-content.md)
       + [E-mailuitschakelbeheer](using/email/email-opt-out.md)
       + E-mailkanaal configureren {#configure-email}
@@ -872,7 +872,7 @@ ht-degree: 18%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
