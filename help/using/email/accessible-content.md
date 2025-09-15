@@ -31,7 +31,7 @@ In lijn hiermee worden de aanbevolen procedures voor het ontwerpen van toegankel
 >
 >Anderzijds, is de toegankelijkheid van de [!DNL Journey Optimizer] interface zelf gedetaillerd in [ deze sectie ](../start/accessibility.md).
 > 
-## Zorg ervoor dat de tekst leesbaar is {#text-readability}
+>## Zorg ervoor dat de tekst leesbaar is {#text-readability}
 
 Gebruik de tab **[!UICONTROL Styles]** van de component **[!UICONTROL Text]** om ervoor te zorgen dat de tekst leesbaar is, bijvoorbeeld door een juist kleurcontrast en eenvoudige lettertypen te gebruiken. [Meer informatie](content-components.md#text)
 
