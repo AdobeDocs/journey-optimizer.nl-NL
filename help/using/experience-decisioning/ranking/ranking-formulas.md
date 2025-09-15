@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 6f4ec598a56b0e835e1e866f24dcc016f6835be8
 workflow-type: tm+mt
 source-wordcount: '1323'
 ht-degree: 0%
@@ -138,7 +138,7 @@ Als het gebied van het besluitpunt (douaneattribuut) het geografische etiket van
 
 ## De code-editor gebruiken {#ranking-code-editor}
 
-Om rangschikkende formules in **syntaxis van PQL** uit te drukken, schakelaar aan de coderedacteur gebruikend de specifieke knoop op hoogste recht van het scherm. Voor meer op hoe te om de syntaxis van PQL te gebruiken, verwijs naar de [ specifieke documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=nl-NL).
+Om rangschikkende formules in **syntaxis van PQL** uit te drukken, schakelaar aan de coderedacteur gebruikend de specifieke knoop op hoogste recht van het scherm. Voor meer op hoe te om de syntaxis van PQL te gebruiken, verwijs naar de [ specifieke documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
 
 >[!CAUTION]
 >
@@ -156,13 +156,13 @@ U wilt bijvoorbeeld de prioriteit van alle aanbiedingen verhogen met het kenmerk
 
 Om attributen met betrekking tot uw besluitpunten in formules te hefboomwerking, zorg ervoor u de correcte syntaxis in de code van uw het rangschikken formule volgt. Breid elke sectie voor meer informatie uit:
 
-+++Standaardeigenschappen van besluitvormingsposten voor hefboomwerking
++++Gebruikmaking van besluitvormingsposten — standaardkenmerken
 
 ![](../assets/formula-attribute.png)
 
 +++
 
-+++Aangepaste kenmerken van besluitvormingspunten voor hefboomwerking
++++Aangepaste kenmerken voor eigenschapsposten voor hefboomfinanciering
 
 ![](../assets/formula-attribute-custom.png)
 
@@ -172,7 +172,7 @@ Om attributen met betrekking tot uw besluitpunten in formules te hefboomwerking,
 
 U kunt verschillende rangschikkingsformules naar wens maken. Hieronder volgen enkele voorbeelden.
 
-+++Boost biedt aan met bepaald aanbiedingskenmerk op basis van profielkenmerk
++++Verhoog aanbiedingen met bepaald aanbiedingskenmerk op basis van profielkenmerk
 
 Als het profiel in de stad woont die overeenkomt met het aanbod, dan verdubbelt de prioriteit voor alle aanbiedingen in die stad.
 
@@ -184,7 +184,7 @@ if( offer.characteristics.get("city") = homeAddress.city, offer.rank.priority * 
 
 +++
 
-+++Boost biedt aanbiedingen waarbij de einddatum minder dan 24 uur van nu is
++++Verhoog aanbiedingen waarbij de einddatum minder dan 24 uur is.
 
 **Rangschikkende formule:**
 
@@ -194,7 +194,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 +++
 
-+++Boost-aanbiedingen op basis van de neiging van klanten om het aangeboden product aan te schaffen
++++Verhoog de aanbiedingen op basis van de neiging van klanten om het aangeboden product te kopen
 
 U kunt de score voor een aanbieding verhogen op basis van een klantdichtheid-score.
 
@@ -224,7 +224,7 @@ In dit geval geldt voor een profiel als:
 
 +++
 
-+++Boost-aanbiedingen op basis van contextgegevens {#context-data}
++++Verhoog de aanbiedingen op basis van contextgegevens
 
 Met [!DNL Journey Optimizer] kunt u bepaalde aanbiedingen verhogen op basis van de contextgegevens die in de aanroep worden doorgegeven. Als bijvoorbeeld `contextData.weather=hot` wordt doorgegeven, moet de prioriteit van alle aanbiedingen met `attribute=hot` worden verhoogd.
 
