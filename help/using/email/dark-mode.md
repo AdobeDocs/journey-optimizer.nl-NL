@@ -3,18 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Overschakelen naar donkere modus
 description: Meer informatie over het gebruik van de donkere modus in de Designer-e-mail
-badge: label="Beta" type="Informative"
 feature: Email Design
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: donkere modus, e-mail, kleur, editor
-hide: true
-hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 6106c2cbd77a9962a0d496cdda3a7e6118e90bf0
+source-git-commit: b6f0174b31b4ef317c18644a93a4ae38a712fb36
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1491'
 ht-degree: 0%
 
 ---
@@ -30,10 +27,6 @@ ht-degree: 0%
 >id="ac_edition_darkmode_preview"
 >title="Overschakelen naar donkere modus"
 >abstract="Schakel over naar de donkere modus om te bekijken hoe deze kan worden weergegeven bij ondersteunde e-mailclients. <br> het definitieve teruggeven hangt van de e-mailcliënt van de ontvanger af. Merk op dat alle e-mailcliënten donkere wijze niet steunen."
-
->[!AVAILABILITY]
->
->Deze mogelijkheid is momenteel beschikbaar in bètaversie en alleen voor bètaklanten. <!--To join the beta program, contact your Adobe representative.-->
 
 Wanneer het ontwerpen van uw e-mails, [!DNL Journey Optimizer] [ E-mail Designer ](get-started-email-design.md) staat u toe om aan de **[!UICONTROL Dark mode]** mening over te schakelen.
 

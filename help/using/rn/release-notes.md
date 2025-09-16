@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 244d17a6c75eaee5b09fb82a9237db041a2650d1
+source-git-commit: b6f0174b31b4ef317c18644a93a4ae38a712fb36
 workflow-type: tm+mt
-source-wordcount: '2068'
+source-wordcount: '2175'
 ht-degree: 1%
 
 ---
@@ -20,11 +20,33 @@ ht-degree: 1%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## Updates van september {#sep-updates}
 
 ### Nieuwe functies {#Sep-25-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Donkere modus in de Designer-e-mail</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>De Journey Optimizer Email Designer biedt nu de mogelijkheid om over te schakelen naar de weergave in de donkere modus, waar u bovendien specifieke aangepaste instellingen kunt definiëren die alleen worden weergegeven voor ontvangers die hun e-mails in de donkere modus lezen.</p>
+<p>Let op het volgende:</p>
+<ul>
+<li>De uiteindelijke rendering in de donkere modus kan variëren en is afhankelijk van de e-mailclient van de ontvanger.</li>
+<li>Niet alle e-mailclients ondersteunen de aangepaste donkere modus. Bovendien passen sommige e-mailclients alleen hun eigen standaard donkere modus toe op alle ontvangen e-mails. In beide gevallen kunnen de aangepaste instellingen die u in de e-mailtoepassing hebt gedefinieerd, niet worden weergegeven.</li>
+</ul>
+<p><img src="assets/do-not-localize/dark-mode.gif"/></p>
+<p>Voor meer informatie, verwijs naar de <a href="../email/dark-mode.md"> gedetailleerde documentatie </a></p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -153,29 +175,6 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 </tr>
 </tbody>
 </table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Dark mode in the Email Designer</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>The Journey Optimizer Email Designer now offers the ability to switch to dark mode view, where you can additionally define specific custom settings that will display only for recipients reading their emails in dark mode.</p>
-<p>Note the following:</p>
-<ul>
-<li>The dark mode final rendering may vary and depends on the recipient's email client.</li>
-<li>Not all email clients support custom dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.</li>
-</ul>
-<P>This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.</p>
-<p><img src="assets/do-not-localize/dark-mode.gif"/></p>
-<p>For more information, refer to the <a href="../email/dark-mode.md">detailed documentation</a></p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 <!--table>
 <thead>
