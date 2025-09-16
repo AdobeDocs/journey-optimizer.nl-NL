@@ -5,7 +5,7 @@ title: Configuratiestappen
 description: Leer hoe u een relationeel schema maakt in Adobe Experience Platform door een DDL te uploaden
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 69644e85d9c453f34fe8c5d40e0c1e8dce2891a5
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Een schema vertegenwoordigt en valideert de structuur en de indeling van gegeven
 
    Definieer de structuur van uw gegevensmodel, inclusief tabellen, kenmerken en relaties. Kies ervoor het schema handmatig te bouwen in de gebruikersinterface of een DDL-bestand te uploaden voor een snellere installatie.
 
-   Wanneer het creëren van het schema manueel, dataset moet ook manueel worden gecreeerd en worden toegelaten. Wanneer u een DDL-bestand gebruikt, worden gegevenssets automatisch gemaakt en ingeschakeld.
+   Wanneer het creëren van het schema manueel, dataset moet ook manueel worden gecreeerd en worden toegelaten. Wanneer het gebruiken van een Ddl- dossier, zijn de verwezenlijking van de dataset en enablement automatisch.
 
 1. [Koppelingsschema](file-upload-schema.md)
 
