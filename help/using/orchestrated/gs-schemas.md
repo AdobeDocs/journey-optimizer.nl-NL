@@ -5,10 +5,10 @@ title: Configuratiestappen
 description: Leer hoe u een relationeel schema maakt in Adobe Experience Platform door een DDL te uploaden
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: 69644e85d9c453f34fe8c5d40e0c1e8dce2891a5
+source-git-commit: 387aa023b4cb999ae4c27cbca4a2f7bcb5edf009
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 0%
+source-wordcount: '460'
+ht-degree: 1%
 
 ---
 
@@ -17,12 +17,44 @@ ht-degree: 0%
 
 Deze gids begeleidt u door het proces om een relationeel schema tot stand te brengen, vormend een dataset voor Geordende campagnes en het opnemen van gegevens.
 
-![](assets/do-not-localize/schema_admin.png)
+![ schema ](assets/do-not-localize/schema_admin.png){zoomable="yes"}
 
-Een dataset is een opslag en beheersconstructie voor een inzameling van gegevens, typisch een lijst, die een schema (kolommen) en gebieden (rijen) bevat. De gegevens die met succes in Experience Platform worden opgenomen worden opgeslagen binnen het gegevensmeer als datasets.
+## Belangrijkste concepten
 
-Een schema vertegenwoordigt en valideert de structuur en de indeling van gegevens. Het verstrekt een abstracte definitie van een real-world voorwerp (zoals een persoon) en schetst welke gegevens in elk geval van dat voorwerp (zoals naam, verjaardag, etc.) zouden moeten worden omvat.
+In de context van Geordende campagnes, is a **dataset** een opslag en beheersconstructie voor een inzameling van gegevens, typisch een lijst, die een schema (kolommen) en gebieden (rijen) bevat. De gegevens die met succes in Experience Platform worden opgenomen worden opgeslagen binnen het gegevensmeer als datasets.
 
+A **schema** vertegenwoordigt en bevestigt de structuur en het formaat van gegevens. Het verstrekt een abstracte definitie van een real-world voorwerp (zoals een persoon) en schetst welke gegevens in elk geval van dat voorwerp (zoals naam, verjaardag, etc.) zouden moeten worden omvat.
+
+A **gegevensmodel** is de conceptuele blauwdruk van het normaliseren van uw gegevens
+
+Hierin wordt beschreven:
+
+* De entiteiten (bijvoorbeeld klant, campagne, segment)
+* De kenmerken van deze entiteiten (bijvoorbeeld naam van de klant, begindatum van campagne)
+* De relaties tussen entiteiten (klanten behoren bijvoorbeeld tot segmenten, doelsegmenten voor campagnes)
+
+Een gegevensmodel is logisch en conceptueel, niet gebonden aan een fysieke implementatie in Geordende Campagne
+
+In a **Relationeel gegevensmodel**, wordt het gegeven georganiseerd in lijsten met betrekking tot andere lijsten.
+
+* Elke tabel heeft rijen (records) en kolommen (kenmerken)
+* Elke tabel heeft een primaire sleutel om rijen op unieke wijze te identificeren
+* Relaties tussen tabellen worden uitgedrukt met behulp van buitenlandse sleutels
+
+A **relationeel schema** is de formele definitie van het relationele gegevensmodel.
+
+Hier wordt aangegeven:
+
+* De reeks tabellen
+* De kolommen in elke tabel
+* De beperkingen
+* De relaties tussen tabellen
+
+Het organiseren van schema&#39;s of lijsten in een relationeel gegevensmodel is over het structureren van uw gegevens in veelvoudige lijsten. Zorg ervoor dat elke tabel één type entiteit/schema&#39;s opslaat
+
+## Implementatiestappen {#implementation}
+
+Voer de volgende stappen uit om gegevens in te voeren en relationeel schema te maken:
 
 1. Creeer [ relationeel schema manueel ](manual-schema.md) of [ gebruikend een Ddl- dossier ](file-upload-schema.md)
 
@@ -33,6 +65,14 @@ Een schema vertegenwoordigt en valideert de structuur en de indeling van gegeven
 1. [Koppelingsschema](file-upload-schema.md)
 
    Vestig relaties tussen uw schema&#39;s om gegevensconsistentie te verzekeren en dwars-entiteitvragen toe te laten. Koppel bijvoorbeeld loyaliteitstransacties aan ontvangers of beloningen aan merken.
+
+1. [Gegevensset maken](manual-schema.md#dataset)
+
+   Na het bepalen van uw schema, moet u een dataset tot stand brengen die op het wordt gebaseerd. Deze dataset fungeert als de opslag voor uw opgenomen gegevens.
+
+1. [Geordende campagne inschakelen](manual-schema.md#enable)
+
+   De dataset slaat uw opgenomen gegevens op en moet voor Geordende Campagnes worden toegelaten om het in Adobe Journey Optimizer toegankelijk te maken.
 
 1. [Gegevens samenvoegen](ingest-data.md)
 

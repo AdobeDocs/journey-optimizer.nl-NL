@@ -5,9 +5,9 @@ title: Gangbare campagnes en beperkingen
 description: Meer informatie over geordende campagnes, instructies en beperkingen
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 35cd3aac01467b42d0cba22de507f11546f4feb9
+source-git-commit: 359a2e5b60ba035e300f452e1211245f8f689609
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Afvoerkanalen en beperkingen {#guardrails}
 
-Hieronder vindt u aanvullende instructies en beperkingen wanneer u geordende campagnes gebruikt.
+Hieronder vindt u instructies en beperkingen wanneer u geordende campagnes gebruikt.
 
 ## Beperkingen van gegevensstroom
 
