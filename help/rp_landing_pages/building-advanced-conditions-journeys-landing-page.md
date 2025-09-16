@@ -20,7 +20,7 @@ Adobe Journey Optimizer omvat een **geavanceerde uitdrukkingsredacteur** die u c
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 De geavanceerde expressie-editor gebruiken
 
@@ -30,7 +30,7 @@ Leer hoe u de geavanceerde expressie-editor kunt gebruiken om aangepaste express
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Geavanceerde syntaxis voor expressies
 
@@ -40,7 +40,7 @@ U kunt de syntaxisregels, voorwaardelijke instructies en gegevenstypen die nodig
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Functies in Adobe Journey Optimizer
 
@@ -51,7 +51,7 @@ Toegang tot een uitgebreide handleiding voor functies voor gegevensmanipulatie, 
 
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Voorbeelden van vragen over Journey Optimizer-gegevenssets en verwante gebruiksgevallen
 
@@ -61,7 +61,7 @@ Heb toegang tot praktische SQL vraagvoorbeelden om gegevens over datasets van Jo
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Voorbeeld van SQL-query&#39;s voor gegevensanalyse
 
