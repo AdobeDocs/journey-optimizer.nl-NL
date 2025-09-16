@@ -8,37 +8,53 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: schema's, platform, gegevens, structuur
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
+source-git-commit: 70f647cf4e95c1152a5c16395b88b11a6b72865c
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Aan de slag met schema&#39;s {#schemas-gs}
 
-Schema&#39;s zijn de standaardmanier om gegevens in Experience Platform te beschrijven, zodat alle gegevens die aan schema&#39;s voldoen, opnieuw kunnen worden gebruikt in een organisatie zonder conflicten, of zelfs kunnen worden gedeeld tussen meerdere organisaties.
+[!DNL Adobe Journey Optimizer] baseert zich op **schema&#39;s van Adobe Experience Platform** om de structuur van gegevens op een verenigbare en herbruikbare manier te beschrijven. Een schema biedt een abstracte definitie van een echt object (zoals een persoon) en geeft aan welke gegevens in elke instantie van dat object moeten worden opgenomen (zoals naam, geboortedatum, enzovoort). Wanneer het gegeven in Experience Platform wordt opgenomen, is het altijd gestructureerd volgens een **schema XDM**.
 
-➡️ [ Leer om een schema in deze video ](#video-schema) tot stand te brengen en te vormen (video)
+## Standaard- en relationele schema&#39;s
 
-Een schema is een set regels die de structuur en indeling van gegevens vertegenwoordigen en valideren. Op een hoog niveau, verstrekken de schema&#39;s een abstracte definitie van een echt-wereld voorwerp (zoals een persoon) en schetsen welke gegevens in elke instantie van dat voorwerp (zoals voornaam, achternaam, verjaardag, etc.) zouden moeten worden omvat.
+Er zijn twee soorten schema&#39;s in Adobe Experience Platform:
 
-Leer hoe te schema&#39;s in [ te bouwen deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=nl-NL){target="_blank"}.
+* **Standaard schema&#39;s** zijn hiërarchische schema&#39;s die klassen en gebiedsgroepen gebruiken om verslag of tijd-reeksgegevens te vangen.
 
-De **werkruimte van Schema&#39;s** in [!DNL Adobe Journey Optimizer] gebruikersinterface staat u toe om de middelen van het Model van de Gegevens van de Ervaring (XDM), met inbegrip van schema&#39;s, klassen, de groepen van het schemagebied, en gegevenstypes te beheren. U kunt de kernbronnen van Adobe bekijken en verkennen en aangepaste bronnen en schema&#39;s voor uw organisatie maken.
+  Een standaardschema bestaat uit:
 
-![](assets/schemas-home.png)
+   * A **klasse** (die het gegevensgedrag bepaalt: verslag of tijd-reeks).
+   * Één of meerdere **gebiedsgroepen** (die specifieke gebieden aan het schema toevoegen).
 
-Leer hoe te om het gebruikersinterface van Schema&#39;s in [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=nl-NL){target="_blank"} te gebruiken
+  In Journey Optimizer, worden de standaardschema&#39;s typisch gebruikt om **individuele mensen en hun attributen** te vertegenwoordigen, vangen **tijd-reeksen interactie** zoals kliks, aankopen, of logins, en macht **Real-Time Profiel van de Klant** voor segmentatie en verpersoonlijking.
 
-De geleidelijke documentatie om een schema tot stand te brengen gebruikend de Redacteur van het Schema is beschikbaar in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=nl-NL){target="_blank"}.
+  ➡️ [ Leer om een standaardschema in deze video ](#video-schema) tot stand te brengen en te vormen (video)
 
-Raadpleeg het [ het schemawoordenboek van Journey Optimizer ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL){target="_blank"} om de volledige lijst van gebieden en attributen voor elk schema te bekijken.
+* **Relationele schema&#39;s** zijn vlakke, niet hiërarchische schema&#39;s die geen klassen of gebiedsgroepen gebruiken. Zij worden gebruikt om verslaggegevens voor relationele entiteiten te vangen en worden hoofdzakelijk gebruikt in [!DNL Journey Optimizer] **Geordende campagnes**.
 
+  Voorbeelden van relationele entiteiten zijn:
+   * Boeken, contracten of abonnementen
+   * Producten of catalogi
+   * Winkels, locaties of partners
+
+  Met relationele schema&#39;s, kunt u één bericht per entiteit (b.v., per boek, per abonnement) verzenden, segmenten creëren die op entiteitattributen (b.v., productcategorie, opslagplaats) worden gebaseerd, en adressability verbeteren door alle contacten te bereiken verbonden aan een entiteit.
+
+  Hoe relationele schema&#39;s werken:
+
+   1. **creeer schema&#39;s manueel of de invoer via DDL**
+   1. **schema&#39;s van de Verbinding** om verhoudingen tussen entiteiten en mensen (b.v., loyaliteitstransacties te bepalen verbonden aan leden, beloningen verbonden aan merken).
+   1. **Samenvatting gegevens** in uw dataset van gesteunde bronnen.
+
+  ➡️ [ Leer hoe te om relationele schema&#39;s en datasets ](../orchestrated/gs-schemas.md) te beheren
+➡️ [ worden begonnen met Geordende campagnes ](../orchestrated/gs-schemas.md)
 
 ## Hoe kan ik-video{#video-schema}
 
-Leer hoe u een schema maakt, veldgroepen toevoegt en aangepaste veldgroepen maakt en configureert.
+Leer hoe u een standaardschema maakt, veldgroepen toevoegt, aangepaste veldgroepen maakt en configureert.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
@@ -46,6 +62,6 @@ Leer hoe u een schema maakt, veldgroepen toevoegt en aangepaste veldgroepen maak
 >
 >* [ creeer een schema, een dataset en neemt gegevens op om de profielen van de Test in Journey Optimizer toe te voegen ](../audience/creating-test-profiles.md)
 >* [ XDM overzicht van het Systeem ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}
->* [ Beste praktijken voor gegevens modelleren ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=nl-NL){target="_blank"}
->* [ creeer een schema gebruikend de Registratie API van het Schema ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=nl-NL){target="_blank"}
->* [ bepaal een verband tussen twee schema&#39;s gebruikend de Redacteur van het Schema ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html?lang=nl-NL){target="_blank"}
+>* [ Beste praktijken voor gegevens modelleren ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html){target="_blank"}
+>* [ creeer een schema gebruikend de Registratie API van het Schema ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html){target="_blank"}
+>* [ bepaal een verband tussen twee schema&#39;s gebruikend de Redacteur van het Schema ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html){target="_blank"}
