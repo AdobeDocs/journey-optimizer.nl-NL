@@ -5,9 +5,9 @@ title: Geordende campagnes Veelgestelde vragen
 description: Veelgestelde vragen over door Journey Optimizer georganiseerde campagnes
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
+source-git-commit: 028f5d506d5fdbd2ed19ad7ded8c1fcd0a391702
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1043'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ De belangrijkste mogelijkheden omvatten:
 
 Om tot Campagneorganisatie toegang te hebben, moet uw vergunning of de **Journey Optimizer - Campagnes &amp; Reizen** of **Journey Optimizer - het pakket van Campagnes** omvatten. Neem contact op met uw Adobe-vertegenwoordiger om uw licentie te bevestigen en indien nodig bij te werken.
 
-Leer meer over het verlenen van vergunningen van het Organiseren van de Campagne model in [ Adobe Journey Optimizer productbeschrijving ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Leer meer over het verlenen van vergunningen van het Organiseren van de Campagne model in [ Adobe Journey Optimizer productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 ## Welke kanalen worden gesteund? {#channels}
 
@@ -105,7 +105,7 @@ De campagnes gebruiken a **relationele gegevensbestand**. Hierdoor kunt u query&
 
 >[!ENDSHADEBOX]
 
-## Kan ik berichten met deze gegevens personaliseren? {#personalization}
+## Kan ik berichten met relationele gegevens personaliseren? {#personalization}
 
 Ja. In Campagne Orchestration kan een ontvankelijk profiel dat als &quot;Entiteit van Mensen&quot;wordt bekend worden bijgewerkt en dat gegeven voor verpersoonlijking wordt gebruikt. Daarnaast kunnen verrijkte gegevens van gekoppelde entiteiten in de relationele database ook worden gebruikt voor personalisatie. U kunt de profielen van de klant samen met verbonden gegevens (zoals aankopen of abonnementen) gebruiken om inhoud over alle gesteunde kanalen te personaliseren.
 
@@ -120,7 +120,7 @@ Ja. In Campagne Orchestration kan een ontvankelijk profiel dat als &quot;Entitei
 >[!ENDSHADEBOX]
 
 
-## Is zij geïntegreerd met andere Adobe-oplossingen? {#integrations}
+## Integreren geordende campagnes met andere Adobe-oplossingen? {#integrations}
 
 Ja. Campagneorchestratie is native geïntegreerd met:
 
@@ -142,7 +142,7 @@ Machtigingen en toestemming voor geordende campagnes en reizen worden centraal b
 
 >[!ENDSHADEBOX]
 
-## Kan ik ad-hocsegmentatie uitvoeren? {#ad-hoc}
+## Kan ik ad-hocsegmentatie uitvoeren in geordende campagnes? {#ad-hoc}
 
 In Campagne Orchestration, verwijzen wij naar ad hoc segmentatie als &quot;Levende segmentatie&quot;waar u tot alle gegevens kunt toegang hebben beschikbaar in de relationele opslag in echt - tijd, een complexe vraag bovenop het bouwen en het resultaat voor onmiddellijke activering door uitgaande kanalen (bijvoorbeeld E-mail + SMS).
 
@@ -158,7 +158,7 @@ In Campagne Orchestration, verwijzen wij naar ad hoc segmentatie als &quot;Leven
 
 
 
-## Steunt dit besluit? {#decisioning}
+## Steunt geordende campagnes beslissingen? {#decisioning}
 
 Ja. Beslissing kan relationele gegevens uit geordende campagnes gebruiken. Zodra relationeel schema met schema&#39;s XDM wordt verbonden, kunnen de gegevens XDM in besluit worden gebruikt.
 
@@ -176,16 +176,17 @@ Objecten die zijn gemaakt in geordende campagnes (bijv. publiek, workflows) zijn
 
 >[!ENDSHADEBOX]
 
-## Zijn er aanbevolen procedures voor het uitvoeren van campagnes op schaal? {#scale}
+<!--
+## Are there recommended practices for running campaigns at scale? {#scale}
 
-Ja, volg de onderstaande aanbevolen procedures:
+Yes, follow the best practices below:  
 
-* **campagnes van het Plan rond bedrijfscalendars** (productlanceringen, seizoenspieken) om volume en middelen te richten.
-* Gebruik **publiek voorproeven** alvorens te verzenden om de verwachte grootte te bevestigen en verrassingen te vermijden.
-* Waar mogelijk, **stagger verzendt tijden** om overweldigende stroomafwaartse systemen (b.v., callcenters, websites) te vermijden.
-* Vestig a **controle routine** - spoorleveringslogboeken, foutentarieven, en opt-outs na elk verzenden.
-* Looppas **post-campagneanalyse** in Customer Journey Analytics om het richten en het orchestreren voor de volgende cyclus te verfijnen.
-
+* **Plan campaigns around business calendars** (product launches, seasonal peaks) to align volume and resources.  
+* Use **audience pre-views** before sending to confirm the expected size and avoid surprises.  
+* Where possible, **stagger send times** to avoid overwhelming downstream systems (e.g., call centers, websites).  
+* Establish a **monitoring routine**—track delivery logs, error rates, and opt-outs after each send.  
+* Run **post-campaign analysis** in Customer Journey Analytics to refine targeting and orchestration for the next cycle.  
+-->
 
 
 >[!MORELIKETHIS]
@@ -193,4 +194,4 @@ Ja, volg de onderstaande aanbevolen procedures:
 >* [ Geordende campagnes begeleiden &amp; beperkingen ](../orchestrated/guardrails.md)
 >* [ worden begonnen met schema&#39;s en datasets in Geordende campagnes ](../orchestrated/gs-schemas.md)
 >* [ creeer uw eerste Geordende campagne ](../orchestrated/gs-campaign-creation.md)
->* [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+>* [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
