@@ -10,9 +10,9 @@ level: Beginner
 keywords: inhoud, experiment, meerdere, publiek, behandeling
 hide: true
 hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+source-git-commit: eb5c9c949b89406cfe62f136bd6a52ab2692b6e4
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,36 @@ Welke experimenten beschikbaar zijn, is afhankelijk van uw instellingen:
 
 * **voor Adobe Target-slechts gebruikers**: Alle activiteiten A/B in uw organisatie van het Doel zijn inbegrepen in de productiesandbox van Journey Optimizer.
 
-Als u **[!UICONTROL Journey Optimizer Experimentation Accelerator]** wilt gebruiken, hebt u toegang tot de sandbox en de volgende gerelateerde machtigingen nodig.
+Als u **[!UICONTROL Journey Optimizer Experimentation Accelerator]** wilt gebruiken, hebt u toegang tot de sandbox en de volgende gerelateerde machtigingen nodig:
+
+* **[!UICONTROL View Experiments]**
+* **[!UICONTROL Manage Experiment Metada]**
+
++++ Leer hoe u aan Experimentatie gerelateerde machtigingen kunt toewijzen
+
+1. Ga in het **[!DNL Permissions]** -product naar de tab **[!UICONTROL Roles]** en selecteer de gewenste **[!UICONTROL Role]** .
+
+1. Klik op **[!UICONTROL Edit]** om de machtigingen te wijzigen.
+
+1. Voeg de **[!UICONTROL Experiment accelerator]** -bron toe en selecteer vervolgens **[!UICONTROL View Experiments]** en/of **[!UICONTROL Manage Experiment Metada]** in het keuzemenu.
+
+   ![](assets/permissions-experiment.png)
+
+1. Klik op **[!UICONTROL Save]** om wijzigingen toe te passen.
+
+Voor alle gebruikers die al zijn toegewezen aan deze rol, worden hun machtigingen automatisch bijgewerkt.
+
+Deze rol toewijzen aan nieuwe gebruikers:
+
+1. Navigeer naar het tabblad **[!UICONTROL Users]** in het dashboard Rollen en klik op **[!UICONTROL Add User]** .
+
+1. Voer de naam en het e-mailadres van de gebruiker in of kies een optie in de lijst en klik op **[!UICONTROL Save]** .
+
+   Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users).
+
+De gebruiker ontvangt een e-mail met instructies om toegang te krijgen tot uw exemplaar.
+
++++
 
 <!--table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="Overview" href="experiment-accelerator-overview.md" src="assets/do-not-localize/experiments-2.jpeg">
