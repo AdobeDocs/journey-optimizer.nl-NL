@@ -100,7 +100,7 @@ Voer de onderstaande stappen uit om een formulier te maken.
 
    <!--![](assets/lp_create-form-filled.png){width=50%}-->
 
-1. De formulierontwerper wordt geopend. Voeg [ componenten ](../email/content-components.md#add-content-components) toe om uw vorminhoud te bouwen. U kunt [ componenten en ](../email/content-components.md#text) componenten gebruiken 0} van de Tekst {.**[!UICONTROL Field]**
+1. De formulierontwerper wordt geopend. Voeg [ componenten ](../email/content-components.md#add-content-components) toe om uw vorminhoud te bouwen. U kunt [ componenten en ](../email/content-components.md#text) componenten gebruiken 0&rbrace; van de Tekst &lbrace;.**[!UICONTROL Field]**
 
 1. Met de component **[!UICONTROL Field]** kunt u kenmerken selecteren op basis van het geselecteerde gegevenssetschema.
 
