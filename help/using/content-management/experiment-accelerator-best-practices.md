@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Aanbevolen procedures voor Experimentation Accelerator
+title: Aanbevolen procedures voor Journey Optimizer Experimentation Accelerator
 description: Verbeter uw vermogen om experimenten effectief uit te voeren en inzichten te genereren
 feature: Experimentation
 topic: Content Management
@@ -10,20 +10,20 @@ level: Beginner
 keywords: inhoud, experiment, meerdere, publiek, behandeling
 hide: true
 hidefromtoc: true
-source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
+source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
 
-# Aanbevolen procedures voor Experimentation Accelerator {#content-experiment-best-practices}
+# Aanbevolen procedures voor Journey Optimizer Experimentation Accelerator {#content-experiment-best-practices}
 
 >[!BEGINSHADEBOX]
 
-* [Aan de slag met de Experimentation Accelerator](experiment-accelerator.md)
-* **[de beste praktijken van Experimentation Accelerator](experiment-accelerator-best-practices.md)**
-* [Privacy, beveiliging en bestuur in Experimentation Accelerator](experiment-accelerator-security.md)
+* [Aan de slag met de Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)
+* **[de beste praktijken van Journey Optimizer Experimentation Accelerator](experiment-accelerator-best-practices.md)**
+* [Privacy, beveiliging en bestuur in Journey Optimizer Experimentation Accelerator](experiment-accelerator-security.md)
 * [Monitorexperimenten](experiment-accelerator-monitor.md)
 * [Metrische experimenten](experiment-accelerator-metrics.md)
 
@@ -98,11 +98,11 @@ Voorbeeld: _wij geloven dat het veranderen van X Y wegens Z zal verhogen._
 Een goed experiment levert niet alleen een win-winsituatie op, maar levert ook een duidelijk, actief leren op.
 Hier is wat om te zoeken:
 
-&controle; **Statistisch Vertrouwen**: Het verschil tussen varianten is waarschijnlijk niet toe te schrijven aan toeval.
-&controle; **richt zich op Doelstellingen**: primaire metrisch wijst op betekenisvolle vooruitgang naar een bedrijfsdoelstelling.
-&controle; **Secundaire Gevolgen**: Geen significante negatieve nevengevolgen op verwante metriek.
-&controle; **Schaalbaarheid**: Het resultaat kan toekomstige besluiten informeren of aan andere gebieden worden algemeen gemaakt.
-&controle; **Duidelijkheid**: De oorzaak van het resultaat is redelijk geïsoleerd en begrepen.
+&amp;controle; **Statistisch Vertrouwen**: Het verschil tussen varianten is waarschijnlijk niet toe te schrijven aan toeval.
+&amp;controle; **richt zich op Doelstellingen**: primaire metrisch wijst op betekenisvolle vooruitgang naar een bedrijfsdoelstelling.
+&amp;controle; **Secundaire Gevolgen**: Geen significante negatieve nevengevolgen op verwante metriek.
+&amp;controle; **Schaalbaarheid**: Het resultaat kan toekomstige besluiten informeren of aan andere gebieden worden algemeen gemaakt.
+&amp;controle; **Duidelijkheid**: De oorzaak van het resultaat is redelijk geïsoleerd en begrepen.
 
 Experimentatie gaat niet alleen over het vinden van de &quot;beste&quot; versie, het gaat over het opbouwen van kennis door middel van testen en iteratie. Als het goed gaat, onthullen de experimenten inzichten die slimmere beslissingen, betere gebruikerservaring en betere resultaten stimuleren.
 
