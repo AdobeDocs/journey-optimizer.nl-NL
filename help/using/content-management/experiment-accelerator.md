@@ -10,7 +10,7 @@ level: Beginner
 keywords: inhoud, experiment, meerdere, publiek, behandeling
 hide: true
 hidefromtoc: true
-source-git-commit: eb5c9c949b89406cfe62f136bd6a52ab2692b6e4
+source-git-commit: 11c62deaf90b961233a35b9c4be8b81264b4c8e7
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Als u **[!UICONTROL Journey Optimizer Experimentation Accelerator]** wilt gebrui
 * **[!UICONTROL View Experiments]**
 * **[!UICONTROL Manage Experiment Metada]**
 
-+++ Leer hoe u aan Experimentatie gerelateerde machtigingen kunt toewijzen
++++ Leer hoe u aan Experimenten gerelateerde machtigingen kunt toewijzen
 
 1. Ga in het **[!DNL Permissions]** -product naar de tab **[!UICONTROL Roles]** en selecteer de gewenste **[!UICONTROL Role]** .
 
@@ -88,7 +88,7 @@ Deze rol toewijzen aan nieuwe gebruikers:
 
 1. Voer de naam en het e-mailadres van de gebruiker in of kies een optie in de lijst en klik op **[!UICONTROL Save]** .
 
-   Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/users).
+   Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users).
 
 De gebruiker ontvangt een e-mail met instructies om toegang te krijgen tot uw exemplaar.
 
