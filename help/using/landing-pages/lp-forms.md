@@ -32,7 +32,7 @@ Als u profielgegevens wilt vastleggen met uw [!DNL Journey Optimizer] -bestemmin
 >id="ajo_lp_form_connection"
 >title="Selecteer het te gebruiken eindpunt"
 >abstract="Definieer het streamingeindpunt waar gegevens worden verzonden bij het verzenden van het formulier."
->additional-url="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Een HTTP API-streamingverbinding maken"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Een HTTP API-streamingverbinding maken"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -68,7 +68,7 @@ Bij het maken van een voorinstelling:
 
    >[!NOTE]
    >
-   >Leer meer bij het creëren van een het stromen bronverbinding in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   >Leer meer bij het creëren van een het stromen bronverbinding in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
 1. Selecteer een **[!UICONTROL Dataset]** die u aan het formulier wilt koppelen. Hier worden de reacties op het formulier opgeslagen en weergegeven. U kunt typen om een specifieke dataset te zoeken of het van de lijst te selecteren.
 
@@ -100,7 +100,7 @@ Voer de onderstaande stappen uit om een formulier te maken.
 
    <!--![](assets/lp_create-form-filled.png){width=50%}-->
 
-1. De formulierontwerper wordt geopend. Voeg [ componenten ](../email/content-components.md#add-content-components) toe om uw vorminhoud te bouwen. U kunt [ componenten en ](../email/content-components.md#text) componenten gebruiken 0&rbrace; van de Tekst &lbrace;.**[!UICONTROL Field]**
+1. De formulierontwerper wordt geopend. Voeg [ componenten ](../email/content-components.md#add-content-components) toe om uw vorminhoud te bouwen. U kunt [ componenten en ](../email/content-components.md#text) componenten gebruiken 0} van de Tekst {.**[!UICONTROL Field]**
 
 1. Met de component **[!UICONTROL Field]** kunt u kenmerken selecteren op basis van het geselecteerde gegevenssetschema.
 
