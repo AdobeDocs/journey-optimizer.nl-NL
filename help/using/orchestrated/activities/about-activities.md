@@ -5,7 +5,7 @@ title: Werken met geordende campagneactiviteiten
 description: Meer informatie over geordende campagneactiviteiten
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
-source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
+source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 2%
@@ -28,7 +28,10 @@ Alle activiteiten worden beschreven in de volgende onderdelen:
 
 >[!NOTE]
 >
->Afhankelijk van uw licentiemodel, uw machtigingen en uw implementatie kunnen de beschikbare activiteiten afwijken.
+>* Afhankelijk van uw licentiemodel, uw machtigingen en uw implementatie kunnen de beschikbare activiteiten afwijken.
+>
+>* Het aantal activiteiten in een geordende campagne is beperkt tot 500.
+
 
 ## Targetingactiviteiten {#targeting}
 
@@ -48,7 +51,9 @@ De beschikbare gerichte activiteiten zijn:
 
 ## Kanaalactiviteiten {#channel}
 
-Met Adobe Journey Optimizer kunt u marketingcampagnes op meerdere kanalen automatiseren en uitvoeren. U kunt kanaalactiviteiten in het canvas combineren om dwars-kanaal Geordende campagne tot stand te brengen die acties kan teweegbrengen die op klantengedrag worden gebaseerd. De volgende **activiteiten van het Kanaal** zijn beschikbaar: E-mail en SMS. [ leer hoe te om een kanaalactie in de context van een Geordende campagne ](channels.md) tot stand te brengen.
+Met Adobe Journey Optimizer kunt u marketingcampagnes op meerdere kanalen automatiseren en uitvoeren. U kunt [ kanaalactiviteiten ](channels.md) in het canvas combineren om dwars-kanaal Geordende campagne tot stand te brengen die acties kan teweegbrengen die op klantengedrag worden gebaseerd.
+
+Leer hoe te om [ een kanaalactie in een Geordende campagne ](channels.md) tot stand te brengen.
 
 ## Workflowbeheeractiviteiten {#flow-control}
 

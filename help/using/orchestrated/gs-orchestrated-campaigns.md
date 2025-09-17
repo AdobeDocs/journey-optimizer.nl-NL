@@ -6,7 +6,7 @@ description: Meer informatie over hoe u aan de slag kunt gaan met georkestreerde
 short-description: Ontdek de belangrijkste kenmerken en gebruiksscenario's van georkestreerde campagnes.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
+source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 4%
@@ -74,7 +74,7 @@ Het geordende campagnecanvas is een voorstelling van wat er moet gebeuren. Hieri
 
 Elke geordende campagne bevat:
 
-* **Activiteiten**: Een activiteit is een uit te voeren taak. De verschillende activiteiten worden op het canvas vertegenwoordigd door pictogrammen. Elke activiteit heeft specifieke eigenschappen en andere eigenschappen die voor alle activiteiten gemeenschappelijk zijn.
+* **Activiteiten**: Een activiteit is een uit te voeren taak. De [ diverse activiteiten ](activities/about-activities.md) worden vertegenwoordigd op het canvas door pictogrammen. Elke activiteit heeft specifieke eigenschappen en andere eigenschappen die voor alle activiteiten gemeenschappelijk zijn.
 
   In een geordend campagnecanvas kan een bepaalde activiteit veelvoudige taken veroorzaken, in het bijzonder wanneer er een lijn of terugkomende acties is.
 

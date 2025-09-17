@@ -5,7 +5,7 @@ title: Geordende campagnes Veelgestelde vragen
 description: Veelgestelde vragen over door Journey Optimizer georganiseerde campagnes
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 9ae0d910f6246b87683b04db97bbdb7355beb349
+source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 1%
@@ -18,7 +18,7 @@ Hieronder vindt u Veelgestelde vragen over door Adobe Journey Optimizer geordend
 
 Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [ gemeenschap van Adobe Journey Optimizer ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
 
-## Wat is campagneorkest? {#what-are-oc}
++++ Wat is campagneorkest? {#what-are-oc}
 
 Campagne Orchestration is een eigenschap van Journey Optimizer die enige-stap of multi-step werkschema&#39;s steunt die hefboomwerking de Relationele Datastore om publiek voor het doel van partijovereenkomst te bouwen en te segmenteren.
 
@@ -26,7 +26,9 @@ Het brengt een nieuw type van campagnes aan Journey Optimizer: **Geordende campa
 
 Vergeleken met single-send/actiecampagnes, brengen zij **orchestratie en het rangschikken** aan uitgaande marketing: de kijkcijfers bewegen zich door een multi-step werkschema samen, eerder dan het ontvangen van een eenmalig blaast.
 
-## Wat kan ik doen met een geordende campagne? {#what-can-i-do}
++++
+
++++ Wat kan ik doen met een geordende campagne?
 
 De belangrijkste mogelijkheden omvatten:
 
@@ -46,13 +48,17 @@ De belangrijkste mogelijkheden omvatten:
 
 >[!ENDSHADEBOX]
 
-## Hoe toegang te krijgen tot Campagneorchestratie? {#access-oc}
++++
+
++++ Hoe toegang te krijgen tot Campagneorchestratie?
 
 Om tot Campagneorganisatie toegang te hebben, moet uw vergunning of de **Journey Optimizer - Campagnes &amp; Reizen** of **Journey Optimizer - het pakket van Campagnes** omvatten. Neem contact op met uw Adobe-vertegenwoordiger om uw licentie te bevestigen en indien nodig bij te werken.
 
-Leer meer over het verlenen van vergunningen van het Organiseren van de Campagne model in [ Adobe Journey Optimizer productbeschrijving ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Leer meer over het verlenen van vergunningen van het Organiseren van de Campagne model in [ Adobe Journey Optimizer productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-## Hoe zijn geordende campagnes anders dan Reizen? {#oc-vs-journeys}
++++
+
++++ Hoe zijn geordende campagnes anders dan Reizen?
 
 * **Geordende campagnes**: Best voor **partij, één-aan-vele** campagnes. De vooruitgang van het publiek in bulk, op een programma.
 * **Reizen**: Best voor **real time, één-aan-één** overeenkomst. Elke klant beweegt zich door de reis in hun eigen tempo, die door gedrag of gebeurtenissen wordt teweeggebracht.
@@ -63,7 +69,9 @@ Leer meer over het verlenen van vergunningen van het Organiseren van de Campagne
 
 >[!ENDSHADEBOX]
 
-## Wat is segmentatie van meerdere entiteiten? {#multi-entity}
++++
+
++++ Wat is segmentatie van meerdere entiteiten?
 
 Campagne Orchestration in Adobe Journey Optimizer gebruikt een relationele database. Dit type van gegevensmodel heeft afzonderlijke schema&#39;s van gegevens die via 1 :1 of 1 :many verhoudingen worden verbonden. Dit laat gebruikers toe om een vraag op om het even welk schema te beginnen - niet alleen op ontvankelijk niveau - en dan terug en uit te keren naar andere verwante regelingen, zoals aankopen, producten, boeken of ontvankelijke details die grote flexibiliteit in verstrekken hoe de segmenten en het publiek kunnen worden gecreeerd en
 verfijnd.
@@ -74,8 +82,9 @@ verfijnd.
 
 >[!ENDSHADEBOX]
 
++++
 
-## Hoe werkt het gegevensmodel? {#data-model}
++++ Hoe werkt het gegevensmodel?
 
 De campagnes gebruiken a **relationele gegevensbestand**. Hierdoor kunt u query&#39;s uitvoeren op verschillende gegevenssets (zoals klanten, producten, abonnementen) en deze op flexibele wijze verbinden voor geavanceerde segmentatie.
 
@@ -89,7 +98,9 @@ De campagnes gebruiken a **relationele gegevensbestand**. Hierdoor kunt u query&
 
 >[!ENDSHADEBOX]
 
-## Kan ik berichten met relationele gegevens personaliseren? {#personalization}
++++
+
++++ Kan ik berichten met relationele gegevens personaliseren?
 
 Ja. In Campagne Orchestration kan een ontvankelijk profiel dat als &quot;Entiteit van Mensen&quot;wordt bekend worden bijgewerkt en dat gegeven voor verpersoonlijking wordt gebruikt. Daarnaast kunnen verrijkte gegevens van gekoppelde entiteiten in de relationele database ook worden gebruikt voor personalisatie. U kunt de profielen van de klant samen met verbonden gegevens (zoals aankopen of abonnementen) gebruiken om inhoud over alle gesteunde kanalen te personaliseren.
 
@@ -103,6 +114,8 @@ Ja. In Campagne Orchestration kan een ontvankelijk profiel dat als &quot;Entitei
 
 >[!ENDSHADEBOX]
 
++++
+
 <!--
 ## Do Orchestrated campaigns integrate with other Adobe solutions? {#integrations}
 
@@ -112,32 +125,44 @@ Yes. Campaign orchestration is natively integrated with:
 * **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
 * **Federated Audience Composition (FAC)**: Available as an add-on.  -->
 
-## Welke kanalen worden gesteund? {#channels}
++++ Welke kanalen worden gesteund?
 
 U kunt Geordende campagnes tot stand brengen om **e-mails**, **SMS**, en **dupberichten** te verzenden.
 
-## Kunnen meerdere communicaties en verschillende kanalen worden gelanceerd binnen dezelfde geordende campagne?
++++
+
++++ Kunnen meerdere communicaties en verschillende kanalen worden gelanceerd binnen dezelfde geordende campagne?
 
 Ja, geordende campagnes ondersteunen kanaalorkestorkest.
 
-## Zijn de geordende campagnemalplaatjes beschikbaar?
++++
+
++++ Zijn de geordende campagnemalplaatjes beschikbaar?
 
 Nr, kunt u campagnemalplaatjes niet bepalen of gebruiken, maar u kunt inhoudsmalplaatjes voor uw mededelingen gebruiken.
 
-## Is de inhoudsontwerper voor berichten specifiek voor Geordende campagnes?
++++
+
++++ Is de inhoudsontwerper voor berichten specifiek voor Geordende campagnes?
 
 Nee, de inhoudsontwerper, inclusief de e-mail-Designer, is overal in Journey Optimizer beschikbaar.
 
-## Hoe zijn de verschillende kanalen verbonden in geordende campagnes?
++++
+
++++ Hoe zijn de verschillende kanalen verbonden in geordende campagnes?
 
 De component en runtime van het kanaal worden gebruikt voor alle Journey Optimizer-campagnes, maar de ondersteunde kanalen verschillen.
 
-## Kunnen geordende campagnes verbinding maken met uitgaande kanalen (web, inApp)?
++++
+
+
++++ Kunnen geordende campagnes verbinding maken met uitgaande kanalen (web, inApp)?
 
 Nee, uitgaande kanalen worden niet ondersteund in geordende campagnes.
 
++++
 
-## Hoe zit het met machtigingen en toestemming? {#permissions}
++++ Hoe zit het met machtigingen en toestemming?
 
 Machtigingen en toestemming voor geordende campagnes en reizen worden centraal beheerd in Adobe Experience Platform. Deze instellingen worden toegepast op beide oplossingen voor elke ontvanger voordat deze wordt verzonden.
 
@@ -151,7 +176,10 @@ Machtigingen en toestemming voor geordende campagnes en reizen worden centraal b
 
 >[!ENDSHADEBOX]
 
-## Kan ik ad-hocsegmentatie uitvoeren in geordende campagnes? {#ad-hoc}
++++
+
+
++++ Kan ik ad-hocsegmentatie uitvoeren in geordende campagnes?
 
 In Campagne Orchestration, verwijzen wij naar ad hoc segmentatie als &quot;Levende segmentatie&quot;waar u tot alle gegevens kunt toegang hebben beschikbaar in de relationele opslag in echt - tijd, een complexe vraag bovenop het bouwen en het resultaat voor onmiddellijke activering door uitgaande kanalen (bijvoorbeeld E-mail + SMS).
 
@@ -165,15 +193,23 @@ In Campagne Orchestration, verwijzen wij naar ad hoc segmentatie als &quot;Leven
 
 >[!ENDSHADEBOX]
 
-## Heeft Campagne Orchestration alleen toegang tot gegevens die via batch zijn geladen, of kan het ook vragen in real time bijgewerkte tabellen (zoals Analytics-gegevens)?
++++
+
+
++++ Heeft Campagne Orchestration alleen toegang tot gegevens die via batch zijn geladen, of kan het ook vragen in real time bijgewerkte tabellen (zoals Analytics-gegevens)?
 
 Journey Optimizer Campaign Orchestration kan eerst een ad-hocquery maken boven op Relationele schema&#39;s. Relationele schema&#39;s ondersteunen alleen Batch-bronnen voor nu. Daarnaast biedt de toepassing ondersteuning voor gebruikers van elk type Adobe Experience Platform Audience.
 
-## Steunt geordende campagnes beslissingen? {#decisioning}
++++
+
++++ Steunt geordende campagnes beslissingen?
 
 Ja. Beslissing kan relationele gegevens uit geordende campagnes gebruiken. Zodra relationeel schema met schema&#39;s XDM wordt verbonden, kunnen de gegevens XDM in besluit worden gebruikt.
 
-## Hoe werkt implementatie in verschillende omgevingen? {#deployment}
++++
+
+
++++ Hoe werkt implementatie in verschillende omgevingen?
 
 Objecten die zijn gemaakt in geordende campagnes (bijv. publiek, workflows) zijn gekoppeld aan de sandbox waarin ze zijn gemaakt. De standaardworkflows voor verpakken en implementeren in verschillende omgevingen (Dev, Stage, Prod) zijn momenteel niet beschikbaar voor geordende campagnes.
 
@@ -187,6 +223,8 @@ Objecten die zijn gemaakt in geordende campagnes (bijv. publiek, workflows) zijn
 
 >[!ENDSHADEBOX]
 
++++
+
 <!--
 ## Are there recommended practices for running campaigns at scale? {#scale}
 
@@ -199,14 +237,15 @@ Yes, follow the best practices below:
 * Run **post-campaign analysis** in Customer Journey Analytics to refine targeting and orchestration for the next cycle.  
 -->
 
-## Wat is het verband tussen de Ontvanger en de Entiteiten van het Profiel?
++++ Wat is het verband tussen de Ontvanger en de Entiteiten van het Profiel?
 
 De segmentatie wordt uitgevoerd op Ontvangers terwijl het verzenden tegen het Profiel van Adobe Experience Platform. De het doelafmeting van de Ontvanger breidt het verenigde Profiel met extra gegevens uit die voor segmentatie binnen Geordende campagnes worden gebruikt, terwijl de Ontvanger met Profiel bij runtime voor het verzenden van berichten en het toestemmingsbeleid en bedrijfsregels in overeenstemming wordt gebracht. Deze afstemming is nuttig voor het verenigen van bedrijfsregels en het toepassen van toestemming op profielniveau
 
 ![](assets/recipients-and-profiles.png)
 
++++
 
-## In welke gevallen wordt aangeraden de ontvanger te gebruiken in combinatie met de profielentiteiten?
++++ In welke gevallen wordt aangeraden de ontvanger te gebruiken in combinatie met de profielentiteiten?
 
 Het antwoord &#39;Ja&#39; stelt de beste gegevensopslag voor - maar bevestigt altijd de beste aanpak op basis van uw gebruikscase en beperkingen met uw Adobe-vertegenwoordiger.
 
@@ -218,24 +257,29 @@ Het antwoord &#39;Ja&#39; stelt de beste gegevensopslag voor - maar bevestigt al
 | Zijn er ad-hocbehoeften aan publiekscreatie, evaluatie, en activering? | Kunnen de gedragsgegevens worden beperkt tot `<` 90 dagen met behulp van vooraf samengestelde aggregaten? |
 |  | Zijn gegevens nodig voor het personaliseren van berichten in real time? |
 
++++
 
-## Wat is het maximumaantal activiteiten per geordende campagne?
++++ Wat is het maximumaantal activiteiten per geordende campagne?
 
 Het aantal activiteiten in een geordende campagne is beperkt tot 500.
 
-## Is het mogelijk om verbeteringen uit te voeren om extra gegevens toe te voegen?
++++
+
++++ Is het mogelijk om verbeteringen uit te voeren om extra gegevens toe te voegen?
 
 Ja, u kunt gegevens verrijken van de relationele winkel en van het Adobe Experience Platform-publiek.
 
-## Moeten alle filters via publiek worden gedefinieerd of kan een bepaald type filter worden geconfigureerd?
++++
+
++++ Moeten alle filters via publiek worden gedefinieerd of kan een bepaald type filter worden geconfigureerd?
 
 De geordende campagnes steunen Vooraf bepaalde Filters: u kunt een vraag als filter bepalen en opslaan, en het toevoegen aan uw favorieten om in verdere segmentatietaken opnieuw te worden gebruikt.
 
-
++++
 
 >[!MORELIKETHIS]
 >
 >* [ Geordende campagnes begeleiden &amp; beperkingen ](../orchestrated/guardrails.md)
 >* [ worden begonnen met schema&#39;s en datasets in Geordende campagnes ](../orchestrated/gs-schemas.md)
 >* [ creeer uw eerste Geordende campagne ](../orchestrated/gs-campaign-creation.md)
->* [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+>* [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
