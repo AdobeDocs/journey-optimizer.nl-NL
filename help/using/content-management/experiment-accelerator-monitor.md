@@ -158,7 +158,7 @@ Merk op dat voor de Te produceren kansen van de Experimenteer, u eerst hypothese
 
    Voor experimenten die afkomstig zijn uit **[!DNL Adobe Target]** , worden de voorgestelde wijzigingen geladen in de testworkflow van **[!DNL Adobe Target]** .
 
-   ➡️ [ Leer meer in de documentatie van Adobe Target ](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
+   ➡️ [ Leer meer in de documentatie van Adobe Target ](https://experienceleague.adobe.com/nl/docs/target/using/activities/abtest/test-ab)
 
 1. In de experimentele weergave zijn dezelfde AI **[!UICONTROL Experimentation Opportunities]** die de Journey Optimizer Experimentation Accelerator heeft aangetroffen, toegankelijk.
 
