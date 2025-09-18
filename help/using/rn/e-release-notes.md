@@ -7,7 +7,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: abb1da09160cd5454460588242c475b85f4adf6b
+source-git-commit: 87406499a11060bceffd2709b7a907b97d72c8a9
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 23-24 september, 2025
 
@@ -235,8 +235,8 @@ Er is een optie toegevoegd bij het maken of instellen van goedkeuringsbeleid om 
 
   Als u het e-mailadres voor opzeggen verder wilt aanpassen, kunt u nu aangepaste kenmerken definiëren die worden toegevoegd aan de gebeurtenis permission. Deze mogelijkheid is al beschikbaar voor de aangepaste koppeling voor één klik voor het afmelden van abonnementen sinds de release van 25 augustus.
 
-- **mTLS Steun voor SMS BYOP**\
-  Wanneer u een aangepaste SMS-provider instelt, hebt u nu de mogelijkheid om wederzijdse TLS-verificatie (mTLS) in te schakelen. Hiervoor moeten zowel de client als de server elkaars identiteit bevestigen voordat een veilige verbinding tot stand wordt gebracht.
+- ***mTLS Steun voor het Kanaal van SMS**
+Wanneer u een aangepaste SMS-provider instelt, hebt u nu de mogelijkheid om wederzijdse TLS-verificatie (mTLS) in te schakelen. Hiervoor moeten zowel de client als de server elkaars identiteit bevestigen voordat een veilige verbinding tot stand wordt gebracht.
 
 - **Op model-gebaseerde Schema&#39;s**\
   Voor een duidelijkere en intuïtievere ervaring wordt Relationele Schema&#39;s nu bedoeld als Model-Gebaseerde Schema&#39;s in Geordende campagnes.
