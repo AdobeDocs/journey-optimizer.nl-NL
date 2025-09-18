@@ -4,23 +4,23 @@ product: Journey Optimizer
 title: Journeys
 description: Journeys
 redpen-status: CREATED_||_2025-08-11_20-21-13
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+exl-id: c148c9e8-8b1d-4c64-8bb6-dc86898cb672
+source-git-commit: 21364f17c8a09d564e97cfc5f29f742dd8f32f4a
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '296'
 ht-degree: 1%
 
 ---
 
-
 # Journeys{#section-overview}
 
-De reizen in Adobe Journey Optimizer staan u toe om gepersonaliseerde, veelvoudige klantenreizen tot stand te brengen die in real time aan het gedrag en de behoeften van uw publiek aanpassen. Met een intuïtief canvas voor slepen en neerzetten kunt u berichten en acties op meerdere kanalen ordenen, waarbij gebruik wordt gemaakt van contextafhankelijke gegevens en doelgroepen voor maximale impact. Ongeacht of u real-time triggers onderzoekt, reiseigenschappen beheert of geavanceerde gereedschappen gebruikt, zoals aangepaste handelingen en expressies, biedt deze sectie een duidelijke routekaart. Kies voor &#39;Hoe kan ik?&#39;-gidsen, gebruiksscenario&#39;s en tips voor het oplossen van problemen om op een betrouwbare manier reizen te ontwerpen en te verfijnen die belangrijke, actuele ervaringen van klanten opleveren.
+De reizen in Adobe Journey Optimizer stellen u in staat om persoonlijke, uit meerdere stappen bestaande klantritten te maken die zich in real time aanpassen aan het gedrag en de behoeften van uw publiek. Met een intuïtief canvas voor slepen en neerzetten kunt u berichten en acties op meerdere kanalen ordenen, waarbij gebruik wordt gemaakt van contextafhankelijke gegevens en doelgroepen voor maximale impact. Ongeacht of u real-time triggers onderzoekt, reiseigenschappen beheert of geavanceerde gereedschappen gebruikt, zoals aangepaste handelingen en expressies, biedt deze sectie een duidelijke routekaart. Kies voor &#39;Hoe kan ik?&#39;-gidsen, gebruiksscenario&#39;s en tips voor het oplossen van problemen om op een betrouwbare manier reizen te ontwerpen en te verfijnen die belangrijke, actuele ervaringen van klanten opleveren.
 
 ## Overzicht van reizen
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met Adobe Journey Optimizer-reizen
 
@@ -30,7 +30,7 @@ Leer hoe u in meerdere stappen en realtime klantritten kunt maken met behulp van
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Uitgebreide gids voor het Creëren en het Leiden van Reizen
 
@@ -40,7 +40,7 @@ Stapsgewijze begeleiding bij het ontwerpen, testen, publiceren en volgen van kla
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Uitgebreide gids voor het beheren van reizen
 
@@ -50,7 +50,7 @@ Beheer klantritten efficiënt met hulpmiddelen voor het filtreren, profielbeheer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Activiteiten in Adobe Journey Optimizer
 
@@ -60,7 +60,7 @@ Ontdek hoe u activiteiten zoals triggers, beslissingsstappen, publieksbeheer en 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Expressies maken in Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Masterexpressies maken voor dynamische workflows, gegevensmanipulatie en geavanc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Praktische gebruiksscenario&#39;s voor Adobe Journey Optimizer
 
@@ -85,3 +85,7 @@ Verken real-world toepassingen van Adobe Journey Optimizer, met inbegrip van mul
 ## Aanvullende bronnen
 
 - **[de Reizen van de Klant van het Oplossen van problemen](troubleshoot-journey-landing-page.md)** - Diagnose en los kwesties van de reisuitvoering met hulpmiddelen, foutencodes, en beste praktijken voor het zuiveren en optimalisering op.
+
+- **[abonneert aan de Alarm van de Reis](../using/reports/alerts.md)** - ontdek hoe te om systeemalarm te beheren, aan berichten in te tekenen, en problemen in reizen en campagnes problemen op te lossen.
+
+
