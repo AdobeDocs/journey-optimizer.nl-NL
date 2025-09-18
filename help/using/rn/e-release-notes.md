@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 87406499a11060bceffd2709b7a907b97d72c8a9
+source-git-commit: 2ebdb37b390988941f29a5e6ecfe147984450d51
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1548'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 23-24 september, 2025
 
@@ -58,6 +58,22 @@ Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experi
 </tr>
 </tbody>
 </table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Controle en rapportage van aangepaste acties</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Controle en rapportage van aangepaste acties is nu beschikbaar. Deze mogelijkheid biedt een betere zichtbaarheid in de gezondheid en uitvoering van de reis, inclusief levenscyclusstatus en prestatiewaarschuwingen. U kunt nu snel begrijpen wanneer, waar en waarom een afwijkende situatie zich voordoet in een aangepaste handeling.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -246,9 +262,6 @@ Wanneer u een aangepaste SMS-provider instelt, hebt u nu de mogelijkheid om wede
 
 - **Simulerend inhoudsvariaties voor alle binnenkomende kanalen**\
   Eerder alleen beschikbaar voor de communicatiekanalen E-mail, SMS en Push, geldt het simuleren van variaties in inhoud nu ook voor alle inkomende kanalen.
-
-- **actie van de Douane controle en het melden**\
-  Deze mogelijkheid biedt een betere zichtbaarheid in de gezondheid en uitvoering van de reis, inclusief levenscyclusstatus en prestatiewaarschuwingen. U kunt nu snel begrijpen wanneer, waar en waarom een afwijkende situatie zich voordoet in een aangepaste handeling.
 
 - **steun Webhaak voor API teweeggebrachte campagnes**\
   API-campagnes ondersteunen nu webhaken. Configureer een URL van een webhaak om statusupdates in real time te ontvangen voor elk bericht, waardoor de zichtbaarheid wordt verbeterd en een naadloze bewaking en automatisering mogelijk wordt.
