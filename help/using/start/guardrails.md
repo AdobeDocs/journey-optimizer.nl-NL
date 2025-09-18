@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: de338bcbd73b94ac004ee39106e50fe707afb19a
+source-git-commit: 4ce48f7929aa218908e8a1e25c37410c6ded6bde
 workflow-type: tm+mt
-source-wordcount: '2634'
+source-wordcount: '2694'
 ht-degree: 0%
 
 ---
@@ -20,14 +20,14 @@ ht-degree: 0%
 
 Hieronder vindt u aanvullende instructies en beperkingen wanneer u [!DNL Adobe Journey Optimizer] gebruikt.
 
-De rechten, de productbeperkingen en de prestatiesbegeleiding worden vermeld in [ Adobe Journey Optimizer pagina van de productbeschrijving ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+De rechten, de productbeperkingen en de prestatiesbegeleiding worden vermeld in [ Adobe Journey Optimizer pagina van de productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 
 >[!CAUTION]
 >
->* [ Grafieken voor gegevens en segmentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/guardrails){target="_blank"} zijn ook op Adobe Journey Optimizer van toepassing.
+>* [ Grafieken voor gegevens en segmentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} zijn ook op Adobe Journey Optimizer van toepassing.
 >
->* Zie ook [ Grafieken voor de Ingestie van Gegevens in het Profiel van de Klant in real time ](https://experienceleague.adobe.com/nl/docs/experience-platform/ingestion/guardrails){target="_blank"}
+>* Zie ook [ Grafieken voor de Ingestie van Gegevens in het Profiel van de Klant in real time ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
 
 ## Ondersteunde browsers {#browsers}
@@ -69,7 +69,7 @@ De volgende guardrails zijn op het [ kanaal van SMS ](../sms/get-started-sms.md)
 
 [!DNL Journey Optimizer] [ Webcampagnes ](../web/get-started-web.md) richten nieuwe profielen die niet eerder op andere kanalen zijn betrokken. Hierdoor wordt het totale aantal aanspreekbare profielen verhoogd. Dit kan kosten met zich meebrengen als het contractuele aantal aanschafbare profielen dat u hebt aangeschaft, wordt overschreden.
 
-De metriek van de vergunning voor elk pakket is vermeld op de [ pagina van de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+De metriek van de vergunning voor elk pakket is vermeld op de [ pagina van de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 ### Kanaalhulplijnen op basis van code {#code-based-guardrails}
 
@@ -196,29 +196,10 @@ U kunt uit één van deze twee oplossingen kiezen:
 
 * Stel een reis in die niet onmiddellijk gebruikmaakt van het profiel. Als de reis bijvoorbeeld is ontworpen om het aanmaken van een account te bevestigen, kan de ervaringsgebeurtenis informatie bevatten die nodig is om het eerste bevestigingsbericht te verzenden (voornaam, achternaam, e-mailadres, enz.).
 
-### Profiel bijwerken {#update-profile-g}
 
-Specifieke instructies zijn van toepassing op de **[!UICONTROL Update profile]** -activiteit. Zij zijn vermeld op [ deze pagina ](../building-journeys/update-profiles.md).
+### Aanvullende id&#39;s {#supplemental}
 
-### Doelgroep lezen {#read-segment-g}
-
-De volgende gidsen zijn op [ Gelezen de reisactiviteit van het publiek ](../building-journeys/read-audience.md) van toepassing:
-
-* Gestroomlijnde doelgroepen zijn altijd up-to-date, maar batchdoelgroepen worden niet berekend tijdens het ophalen. Ze worden alleen elke dag geëvalueerd op het tijdstip van de dagelijkse batchevaluatie.
-* Voor reizen die a **gebruiken Gelezen de activiteit van het publiek**, is er een maximumaantal reizen dat precies tezelfdertijd kan beginnen. De pogingen zullen door het systeem worden uitgevoerd maar gelieve te vermijden hebbend meer dan vijf reizen (met **Gelezen Publiek**, gepland of die &quot;zo spoedig mogelijk&quot;beginnen) op het nauwkeurige zelfde ogenblik door hen over tijd, bijvoorbeeld 5 tot 10 minuten uit elkaar te spreiden.
-* De **Gelezen activiteit van het publiek** kan niet met de activiteiten van Adobe Campaign worden gebruikt.
-* De **Gelezen activiteit van het Publiek** kan slechts als eerste activiteit in een reis, van na een bedrijfsgebeurtenisactiviteit worden gebruikt.
-* Een reis kan slechts één **Gelezen activiteit van het Publiek** hebben.
-* Zie ook aanbevelingen over hoe te om **te gebruiken las de activiteit van het publiek** op [ deze pagina ](../building-journeys/read-audience.md).
-* De pogingen worden toegepast door gebrek op publiek-getriggerde reizen (die met a **Gelezen Publiek** of a **BedrijfsGebeurtenis** beginnen) terwijl het terugwinnen van de uitvoerbaan. Als er een fout optreedt tijdens het maken van de exporttaak, worden de pogingen om de 10mn opnieuw uitgevoerd, tot maximaal 1 uur. Daarna zullen we het als een mislukking beschouwen. Deze soorten reizen kunnen daarom tot 1 uur na de geplande tijd worden uitgevoerd.
-
-Zie ook [ deze pagina ](../building-journeys/read-audience.md#must-read).
-
-### Poortkwalificatie {#audience-qualif-g}
-
-De volgende richtlijn is op de [ de reisactiviteit van de Kwalificatie van het publiek 0&rbrace; van toepassing:](../building-journeys/audience-qualification-events.md)
-
-* De kwalificatie-activiteit Publiek kan niet worden gebruikt met Adobe Campaign-activiteiten.
+Specifieke garanties gelden voor het gebruik van aanvullende identificatiemiddelen op reizen. Zij zijn vermeld in [ deze pagina ](../building-journeys/supplemental-identifier.md#guardrails)
 
 ### Expression-editor {#expression-editor}
 
@@ -227,8 +208,23 @@ De volgende gidsen zijn op de [ redacteur van de reisuitdrukking ](../building-j
 * U kunt gebeurtenisveldgroepen niet gebruiken voor reizen die beginnen met een leespubliek, een kwalificatie Audience of een activiteit voor een zakelijke gebeurtenis. U moet een nieuw publiek maken en de voorwaarde `inaudience` gebruiken tijdens de rit.
 * `timeSeriesEvents` -kenmerken kunnen niet worden gebruikt in de expressie-editor. Maak een nieuwe veldgroep op basis van een `XDM ExperienceEvent` -schema voor toegang tot Experience Events op profielniveau.
 
+### Reisactiviteiten {#activities}
 
-### Activiteiten in de app {#in-app-activity-limitations}
+#### Kwalificatieactiviteit van het publiek {#audience-qualif-g}
+
+De volgende richtlijn is op de [ de reisactiviteit van de Kwalificatie van het publiek 0} van toepassing:](../building-journeys/audience-qualification-events.md)
+
+* De kwalificatie-activiteit Publiek kan niet worden gebruikt met Adobe Campaign-activiteiten.
+* Aanvullende id&#39;s worden niet ondersteund voor de kwalificatie Publiek.
+
+#### Campagne {#ac-g}
+
+De volgende instructies zijn van toepassing op de activiteiten **[!UICONTROL Campaign v7/v8]** en **[!UICONTROL Campaign Standard]** :
+
+* Adobe Campaign-activiteiten kunnen niet worden gebruikt met een Read-publiek of met een Audience-kwalificatieactiviteit.
+* Campagne-activiteiten kunnen niet worden gebruikt met andere kanaalactiviteiten: kaart, ervaring op basis van code, e-mail, push, SMS, In-app berichten, Web.
+
+#### Activiteiten in de app {#in-app-activity-limitations}
 
 De volgende instructies zijn van toepassing op de handeling **[!UICONTROL In-app message]** . Leer meer over in-app berichten op [ deze pagina ](../in-app/create-in-app.md).
 
@@ -248,16 +244,28 @@ De volgende instructies zijn van toepassing op de handeling **[!UICONTROL In-app
 
 * De inhoud van berichten in de app is beperkt tot 2 MB. Het opnemen van grote afbeeldingen kan het publicatieproces belemmeren.
 
-### Snelheid {#jump-g}
+#### Snelheid {#jump-g}
 
 Specifieke instructies zijn van toepassing op de **[!UICONTROL Jump]** -activiteit. Zij zijn vermeld op [ deze pagina ](../building-journeys/jump.md#jump-limitations).
 
-### Campagne {#ac-g}
+#### Lees de publieksactiviteit {#read-segment-g}
 
-De volgende instructies zijn van toepassing op de activiteiten **[!UICONTROL Campaign v7/v8]** en **[!UICONTROL Campaign Standard]** :
+De volgende gidsen zijn op [ Gelezen de reisactiviteit van het publiek ](../building-journeys/read-audience.md) van toepassing:
 
-* Adobe Campaign-activiteiten kunnen niet worden gebruikt met een Read-publiek of met een Audience-kwalificatieactiviteit.
-* Campagne-activiteiten kunnen niet worden gebruikt met andere kanaalactiviteiten: kaart, ervaring op basis van code, e-mail, push, SMS, In-app berichten, Web.
+* Gestroomlijnde doelgroepen zijn altijd up-to-date, maar batchdoelgroepen worden niet berekend tijdens het ophalen. Ze worden alleen elke dag geëvalueerd op het tijdstip van de dagelijkse batchevaluatie.
+* Voor reizen die a **gebruiken Gelezen de activiteit van het publiek**, is er een maximumaantal reizen dat precies tezelfdertijd kan beginnen. De pogingen zullen door het systeem worden uitgevoerd maar gelieve te vermijden hebbend meer dan vijf reizen (met **Gelezen Publiek**, gepland of die &quot;zo spoedig mogelijk&quot;beginnen) op het nauwkeurige zelfde ogenblik door hen over tijd, bijvoorbeeld 5 tot 10 minuten uit elkaar te spreiden.
+* De **Gelezen activiteit van het publiek** kan niet met de activiteiten van Adobe Campaign worden gebruikt.
+* De **Gelezen activiteit van het Publiek** kan slechts als eerste activiteit in een reis, van na een bedrijfsgebeurtenisactiviteit worden gebruikt.
+* Een reis kan slechts één **Gelezen activiteit van het Publiek** hebben.
+* Zie ook aanbevelingen over hoe te om **te gebruiken las de activiteit van het publiek** op [ deze pagina ](../building-journeys/read-audience.md).
+* De pogingen worden toegepast door gebrek op publiek-getriggerde reizen (die met a **Gelezen Publiek** of a **BedrijfsGebeurtenis** beginnen) terwijl het terugwinnen van de uitvoerbaan. Als er een fout optreedt tijdens het maken van de exporttaak, worden de pogingen om de 10mn opnieuw uitgevoerd, tot maximaal 1 uur. Daarna zullen we het als een mislukking beschouwen. Deze soorten reizen kunnen daarom tot 1 uur na de geplande tijd worden uitgevoerd.
+* Voor ritten die gebruikmaken van aanvullende id&#39;s, is de leessnelheid van de activiteit van het leespubliek voor elke reisinstantie beperkt tot maximaal 500 profielen per seconde.
+
+Zie ook [ deze pagina ](../building-journeys/read-audience.md#must-read).
+
+#### Profielactiviteit bijwerken {#update-profile-g}
+
+Specifieke instructies zijn van toepassing op de **[!UICONTROL Update profile]** -activiteit. Zij zijn vermeld op [ deze pagina ](../building-journeys/update-profiles.md).
 
 ## Garanties voor campagneorganisatie {#orchestration-guardrails}
 

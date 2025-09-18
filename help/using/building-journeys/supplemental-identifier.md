@@ -3,9 +3,9 @@ title: Aanvullende id's gebruiken tijdens reizen
 description: Leer hoe u aanvullende id's kunt gebruiken tijdens reizen.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 4ce48f7929aa218908e8a1e25c37410c6ded6bde
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1346'
 ht-degree: 0%
 
 ---
@@ -17,45 +17,37 @@ ht-degree: 0%
 >title="Aanvullende id gebruiken"
 >abstract="De aanvullende identificatiecode is een secundaire identificatiecode die aanvullende context biedt voor de uitvoering van een reis. Als u deze wilt definiëren, selecteert u het veld dat u wilt gebruiken als de aanvullende id en kiest u een naamruimte die u hieraan wilt koppelen."
 
-Door gebrek, worden de reizen uitgevoerd in de context van a **profielidentiteitskaart**. Dit betekent dat, zolang het profiel actief is op een bepaalde reis, het niet in staat zal zijn om een andere reis opnieuw te betreden. Om dit te verhinderen, [!DNL Journey Optimizer] staat u toe om a **supplementaire herkenningsteken**, zoals een orde identiteitskaart, identiteitskaart van het abonnement, recept identiteitskaart, naast profielidentiteitskaart te vangen.
-In dit voorbeeld hebben we een reserverings-id toegevoegd als een aanvullende id.
+<!--
+By default, journeys are executed in the context of a **profile ID**. This means that, as long as the profile is active in a given journey, it won't be able to re-enter another journey. To prevent this, [!DNL Journey Optimizer] allows you to capture a **supplemental identifier**, such as an order ID, subscription ID, prescription ID, in addition to the profile ID. 
+In this example, we have added a booking ID as a supplemental identifier. 
 
 ![](assets/event-supplemental-id.png){width=40% zoomable}
 
-Op deze manier worden reizen uitgevoerd in de context van de profiel-id die aan de aanvullende identificatiecode (hier de boekings-id) is gekoppeld. Voor elke herhaling van de aanvullende identificator wordt één exemplaar van de reis uitgevoerd. Hierdoor zijn meerdere ingangen van dezelfde profiel-id mogelijk op reizen als ze verschillende boekingen hebben gemaakt.
+By doing so, journeys are executed in the context of the profile ID associated to the supplemental identifier (here, the booking ID). One instance of the journey is executed for each iteration of the supplemental identifier. This allows multiple entrances of the same profile ID in journeys if they have made different bookings. 
 
-Bovendien staat Journey Optimizer u toe om attributen van het supplementaire herkenningsteken (b.v. boekingsaantal, receptvernieuwingsdatum, producttype) voor berichtaanpassing te hefboomwerking, die hoogst relevante mededelingen verzekeren. <!--Example: A healthcare provider can send renewal reminders for each prescription in a patient's profile.-->
+In addition, Journey Optimizer allows you to leverage attributes of the supplemental identifier (e.g., booking number, prescription renewal date, product type) for message customization, ensuring highly relevant communications.-->
+
+<table style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <td style="vertical-align: top; padding-right: 20px; border: none;">
+      <p>Door gebrek, worden de reizen uitgevoerd in de context van a <b> profielidentiteitskaart </b>. Dit betekent dat, zolang het profiel actief is op een bepaalde reis, het niet in staat zal zijn om een andere reis opnieuw te betreden. Om dit te verhinderen, staat Journey Optimizer u toe om a <b> supplementaire herkenningsteken </b>, zoals een orde identiteitskaart, abonnement identiteitskaart, recept identiteitskaart, naast profielidentiteitskaart te vangen.  
+      <p>In dit voorbeeld, hebben wij a <b> het boeken identiteitskaart </b> als extra herkenningsteken toegevoegd.</p>
+      <p>Op deze manier worden reizen uitgevoerd in de context van de profiel-id die aan de aanvullende identificatiecode (hier de boekings-id) is gekoppeld. Voor elke herhaling van de aanvullende identificator wordt één exemplaar van de reis uitgevoerd. Hierdoor zijn meerdere ingangen van dezelfde profiel-id mogelijk op reizen als ze verschillende boekingen hebben gemaakt.</p>
+      <p>Bovendien staat Journey Optimizer u toe om attributen van het supplementaire herkenningsteken (b.v. boekingsaantal, receptvernieuwingsdatum, producttype) voor berichtaanpassing te hefboomwerking, die hoogst relevante mededelingen verzekeren.</p>
+    </td>
+    <td style="vertical-align: top; border: none; text-align: center; width: 40%;">
+      <img src="assets/event-supplemental-id.png" alt="Voorbeeld van aanvullende id" style="max-width:100%;" />
+    </td>
+  </tr>
+</table>
 
 ➡️ [Ontdek deze functie in video](#video)
 
 ## Afbeeldingen en beperkingen {#guardrails}
 
-* **Gesteunde reizen**: Voor nu, is het gebruik van supplementaire herkenningstekens beschikbaar voor **gebeurtenis-teweeggebrachte** en **Gelezen publiek** reizen. Het is niet beschikbaar voor de kwalificatiereizen van het publiek.
+* **Gesteunde reizen**: De Supplementaire herkenningstekens worden gesteund voor **gebeurtenis-teweeggebrachte** en **Lees publiek** reizen. Zij worden **niet gesteund** voor de kwalificatiereizen van het Publiek (d.w.z., reizen die met een de kwalificatieactiviteit van het Publiek beginnen).
 
 * **Gelijktijdige instantielimieten**: De profielen kunnen niet meer dan 10 gezamenlijke reisinstanties hebben.
-
-<!--* **Array depth**: Supplemental identifier objects can have a maximum depth of 3 levels (2 levels of nesting).
-
-    +++Example
-
-    ```
-    [
-    (level 1) "Atorvastatin" : {
-    "description" : "used to lower cholesterol",
-    "renewal_date" : "11/20/25",
-    "dosage" : "10mg"
-    (level 2) "ingredients" : [
-    (level 3) "Atorvastatin calcium",
-    "lactose monohydrate",
-    "microcrystalline cellulose",
-    "other" ]
-    }
-    ]
-    ```
-
-    +++
--->
-* **Criteria van de Uitgang**: De criteria van de uitgang, indien teweeggebracht, zouden alle instanties van het profiel levend in de reis op dat ogenblik weggaan. Dit is geen context voor de combinatie profiel-id + aanvullende id.
 
 * **Regels van de Frequentie**: Elke die reisinstantie van het supplementaire gebruik wordt gecreeerd tellingen van het herkenningsteken naar frequentie het afschilderen, zelfs als het gebruik van supplementenherkenningstekens in veelvoudige reisinstanties resulteert.
 
@@ -77,8 +69,20 @@ Bovendien staat Journey Optimizer u toe om attributen van het supplementaire her
 * **leest publiekstrajecten**
 
    * Aanvullende id is uitgeschakeld als u een bedrijfsgebeurtenis gebruikt.
-
    * De aanvullende id moet een veld uit het profiel zijn (dus geen gebeurtenis-/contextveld).
+   * Voor leestuchtritten waarbij gebruik wordt gemaakt van aanvullende id&#39;s, is de leessnelheid van de activiteit van het leestopubliek voor elk reisexemplaar beperkt tot maximaal 500 profielen per seconde.
+
+## Criteria afsluiten met aanvullende id&#39;s {#exit-criteria}
+
+Voorwaarde: reis ingeschakeld voor aanvullende id (via eenheidsgebeurtenis of activiteiten voor het lezen van het publiek)
+
+In de onderstaande tabel wordt het gedrag van profielen in een extra ID-reis beschreven wanneer afsluitcriteria zijn geconfigureerd:
+
+| Configuratie van afsluitcriteria | Gedrag wanneer aan afsluitcriteria is voldaan |
+| ---------------------------- | ---------------------------------- |
+| Gebaseerd op een niet-aanvullende id-gebeurtenis | Alle exemplaren van het overeenkomstige profiel in die reis worden verlaten. |
+| Gebaseerd op een supplementaire gebeurtenis van identiteitskaart <br/>*Nota: Supplementale identiteitskaart namespace moet dat van de aanvankelijke knoop aanpassen.* | Alleen het overeenkomende profiel en de aanvullende id-instantie worden afgesloten. |
+| Gebaseerd op een publiek | Alle exemplaren van het overeenkomstige profiel in die reis worden verlaten. |
 
 ## Voeg een aanvullende id toe en gebruik deze voor een reis {#add}
 
@@ -251,4 +255,4 @@ In een objectarray met de aanvullende id als `bookingNum` en een kenmerk op hetz
 
 Leer hoe u een aanvullende id in [!DNL Adobe Journey Optimizer] kunt inschakelen en toepassen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464798?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
