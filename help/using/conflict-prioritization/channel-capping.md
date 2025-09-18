@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: bericht, frequentie, regels, druk
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
+source-git-commit: 64228dfbd0e8c2884df179767d0ec9fe13d6fdf6
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ De reeksen van de kanaalregel van hefboomwerking staat u toe om frequentie het b
 
 >[!IMPORTANT]
 >
->Om ervoor te zorgen dat kanaalniveau het maximum correct werkt, zorg ervoor u de hoogste prioriteit namespace terwijl het ontwerpen van een campagne of een reis kiest. Leer meer over namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+>Om ervoor te zorgen dat kanaalniveau het maximum correct werkt, zorg ervoor u de hoogste prioriteit namespace terwijl het ontwerpen van een campagne of een reis kiest. Leer meer over namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
 ## Een regel voor kanaaluitlijning maken
 
@@ -65,25 +65,20 @@ Ga als volgt te werk om een kanaalregelset te maken:
 
    De teller loopt voor elke periode als volgt af:
 
-   * **[!UICONTROL Hourly]** - De frequentieklep is geldig voor het geselecteerde aantal uren (minimaal 3 uur). De teller wordt automatisch opnieuw ingesteld aan het begin van elk tijdvenster. Voor een frequentiegrens van 3 uur herstelt deze elke 3 uur, samenvallend met het einde van een UTC-uur.
-
-     >[!AVAILABILITY]
-     >
-     >Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met de klantenservice om de functie in te schakelen.
-
+   * **[!UICONTROL Hourly]** - De frequentiekapitaal is geldig voor het geselecteerde aantal uren. De teller wordt automatisch opnieuw ingesteld aan het begin van elk tijdvenster. Voor een frequentiegrens van 1 uur, herstelt het elk uur, die met het eind van een UTC uur samenvalt.
    * **[!UICONTROL Daily]** - het dagelijkse frequentiekapitaal is geldig voor de dag tot 23 :59: 59 UTC en stelt aan 0 bij het begin van de volgende dag terug.
    * **[!UICONTROL Weekly]** - het frequentiekapitaal is geldig tot Zaterdag 23 :59: 59 UTC van die week aangezien de kalenderweek op zondag begint. De vervaldatum is van toepassing ongeacht wanneer de regel is gemaakt. Bijvoorbeeld, als de regel op Donderdag wordt gecreeerd, is deze regel geldig tot Zaterdag bij 23 :59: 59.
    * **[!UICONTROL Monthly]** - het frequentiekapitaal is geldig tot de laatste dag van de maand bij 23 :59: 59 UTC. Bijvoorbeeld, is de maandelijkse vervaldatum voor Januari 01-31 23 :59: 59 UTC.
 
    >[!IMPORTANT]
    >
-   >* Om nauwkeurigheid te verzekeren, zorg ervoor u de hoogste prioriteit namespace terwijl het ontwerpen van een campagne of een reis kiest. Leer meer over namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"} <br/>
+   >* Om nauwkeurigheid te verzekeren, zorg ervoor u de hoogste prioriteit namespace terwijl het ontwerpen van een campagne of een reis kiest. Leer meer over namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"} <br/>
    >
    >* De waarde van de profielteller wordt bijgewerkt wanneer de mededeling wordt geleverd. Begrijpt u dit wanneer u grote hoeveelheden communicatie verzendt aangezien de productie in de ontvanger zou kunnen resulteren die de e-mailnotulen of zelfs uren na de inleiding van de mededeling (in het geval dat u miljoenen mededelingen gelijktijdig verzendt) krijgen. Dit is van belang wanneer een ontvanger twee mededelingen dicht bij elkaar ontvangt. We stellen voor om communicatie met elkaar te scheiden met minstens twee uur, waar mogelijk, zodat de ontvanger voldoende tijd heeft om de communicatie te ontvangen en de tegenwaarde dienovereenkomstig bij te werken.
 
 1. In het veld **[!UICONTROL Every]** kunt u de regels voor frequentiecapping gedurende meerdere uren, dagen, weken of maanden herhalen, afhankelijk van de opgegeven duur. Voorbeeld: pas de regel voor de frequentiecalapping toe gedurende 2 weken.
 
-   Zorg ervoor dat u een waarde invoert die overeenkomt met het geselecteerde duurtype: 3-23 voor Uur, 1-30 voor Dagelijks, 1-4 voor Wekelijks en 1-3 voor Maandelijks.
+   Zorg ervoor dat u een waarde invoert die overeenkomt met het geselecteerde duurtype: 1-23 voor Uur, 1-30 voor Dagelijks, 1-4 voor Wekelijks en 1-3 voor Maandelijks.
 
    De teller wordt automatisch teruggezet aan 0 wanneer een nieuw tijdvenster begint. Voor een frequentiegrens van 2 dagen, komt dit terug om de twee dagen om middernacht UTC.
 
@@ -166,4 +161,4 @@ In this scenario, an individual profile:
 
 ## Hoe kan ik-video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444732?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

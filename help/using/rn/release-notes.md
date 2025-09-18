@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c4aa1a6ecabb7b742bce084bb96865f965531d77
+source-git-commit: 64228dfbd0e8c2884df179767d0ec9fe13d6fdf6
 workflow-type: tm+mt
-source-wordcount: '2180'
+source-wordcount: '2226'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## Updates van september {#sep-updates}
 
@@ -111,6 +111,8 @@ ht-degree: 1%
 </table>
 
 ### Verbeteringen {#Sep-25-improv}
+
+* **de frequentie van het terugstellen van de Uur het afschilderen** - u kunt het afschilderen op een uurbasis voor de reeksen van de kanaalregel nu toepassen. Voorheen beschikbaar in Beperkte Beschikbaarheid, is deze eigenschap nu beschikbaar aan alle milieu&#39;s en staat u toe om 1 uur (eerder 3 uren) te kiezen. [ las meer ](../conflict-prioritization/channel-capping.md). Datum waarop de aansprakelijkheid betrekking heeft: 17 september
 
 * **Dynamische domeinsteun** - Journey Optimizer steunt nu volledige/basisURL verpersoonlijking voor vooraf bepaalde die domeinen door Adobe worden goedgekeurd. [ las meer ](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
 
