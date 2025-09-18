@@ -212,7 +212,7 @@ De volgende gidsen zijn op de [ redacteur van de reisuitdrukking ](../building-j
 
 #### Kwalificatieactiviteit van het publiek {#audience-qualif-g}
 
-De volgende richtlijn is op de [ de reisactiviteit van de Kwalificatie van het publiek 0} van toepassing:](../building-journeys/audience-qualification-events.md)
+De volgende richtlijn is op de [ de reisactiviteit van de Kwalificatie van het publiek 0&rbrace; van toepassing:](../building-journeys/audience-qualification-events.md)
 
 * De kwalificatie-activiteit Publiek kan niet worden gebruikt met Adobe Campaign-activiteiten.
 * Aanvullende id&#39;s worden niet ondersteund voor de kwalificatie Publiek.
