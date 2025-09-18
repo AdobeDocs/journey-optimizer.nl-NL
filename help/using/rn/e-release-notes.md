@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 59a6413fb111c3ac595416d8e5933b981bc64d3c
+source-git-commit: abb1da09160cd5454460588242c475b85f4adf6b
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1540'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 23-24 september, 2025
 
@@ -77,13 +77,13 @@ Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experi
 <table>
 <thead>
 <tr>
-<th><strong>Journey Agent</strong><br/></th>
+<th><strong>Journey Agent is hier!</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Met Journey Agent kunnen Journey Optimizer-gebruikers reizen maken, analyseren en optimaliseren met behulp van een natuurlijke taalinterface. Met Journey Agent kunnen artsen snel planning- of publieksconflicten detecteren en oplossen, prestaties en aflooppunten analyseren en de best presterende reizen identificeren die moeten worden gerepliceerd voor toekomstige campagnes.</p>
+<p>AI Assistant bevat nu basisvaardigheden voor Journey Agent voor Journey Optimizer, waarmee artsen reizen kunnen analyseren via een natuurlijke taalinterface. Met deze nieuwe vaardigheden kunnen gebruikers (binnenkort) reizen analyseren en maken om mogelijke plannings- of publieksconflicten op te sporen en op te lossen.</p>
 </td>
 </tr>
 </tbody>
@@ -110,6 +110,24 @@ Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experi
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Aangepaste formulieren op de bestemmingspagina</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met [!DNL Journey Optimizer] kunt u nu profielkenmerken vastleggen via de bestemmingspagina's.</p>
+<p>U kunt aangepaste formulieren maken, ontwerpen en beheren op basis van een specifieke gegevensset. U kunt deze formulieren vervolgens gebruiken in bestemmingspagina's om de profielkenmerken van uw keuze toe te voegen aan de gegevensset die voor elk formulier is gedefinieerd.</p>
+<p>Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
+<!--p><img src="assets/do-not-localize/forms.gif"/></p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p-->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
