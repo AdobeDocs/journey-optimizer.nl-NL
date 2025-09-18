@@ -10,7 +10,7 @@ level: Intermediate
 badge: label="Private bèta" type="Informative"
 hidefromtoc: true
 hide: true
-source-git-commit: 9155a16a0557a32c1d59b66b03fc84c5bc7b8463
+source-git-commit: 53d8fbb28e8516e4ee79f556a335b2d084af42e7
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 1%
@@ -28,13 +28,7 @@ ht-degree: 1%
 
 Wanneer het teruggeven van inhoud voor simulatie of het proef, analyseert het systeem uw inhoud en identificeert alle verpersoonlijkingstokens en vertakkende regels. Deze vervangt personalisatietokens door betekenisvolle waarden die een vrijwel realistische voorvertoning van de uiteindelijke inhoud bieden.
 
-Overweeg een e-mailmalplaatje van de financiële diensten met vertakkende logica die op **wordt gebaseerd investeringstype**, **leeftijdsgroep**, **burgerlijke status**, **controle van fiscale identiteitskaart**, en **plaats**.
-
-Zonder het genereren van varianten moet u handmatig tientallen varianten maken om alle paden te valideren. Met automatisch gegenereerde varianten produceert het systeem representatieve varianten die deze voorwaarden automatisch dekken.  Elke gegenereerde variant wordt weergegeven in het voorvertoningsvenster en geeft precies aan welke blokken en voorwaarden zijn toegepast.
-
->[!NOTE]
->
->Deze functie werkt op dezelfde manier als de standaardfunctie voor het simuleren van inhoudsvariaties. Voor meer informatie over de simulaties van inhoudsvariaties en de bijbehorende guardrails en beperkingen, verwijs naar deze sectie: [ simuleer inhoudsvariaties ](../test-approve/simulate-sample-input.md)
+Overweeg een e-mailmalplaatje van de financiële diensten met vertakkende logica die op **wordt gebaseerd investeringstype**, **leeftijdsgroep**, **burgerlijke status**, **controle van fiscale identiteitskaart**, en **plaats**. Zonder het genereren van varianten moet u handmatig tientallen varianten maken om alle paden te valideren. Met automatisch gegenereerde varianten produceert het systeem representatieve varianten die deze voorwaarden automatisch dekken.  Elke gegenereerde variant wordt weergegeven in het voorvertoningsvenster en geeft precies aan welke blokken en voorwaarden zijn toegepast.
 
 ## Inhoudsvarianten genereren
 
@@ -51,3 +45,7 @@ Ga als volgt te werk om variaties voor uw inhoud te genereren en deze voor te ve
 3. [!DNL Journey Optimizer] genereert automatisch varianten op basis van gedetecteerde kenmerken.
 
 4. Controleer de lijst met gegenereerde varianten in het linkerdeelvenster en selecteer een variant om de gepersonaliseerde rendering weer te geven in het voorvertoningsvenster.
+
+>[!NOTE]
+>
+>Deze functie werkt op dezelfde manier als de standaardfunctie voor het simuleren van inhoudsvariaties. Voor meer informatie over de simulaties van inhoudsvariaties en de bijbehorende guardrails en beperkingen, verwijs naar deze sectie: [ simuleer inhoudsvariaties ](../test-approve/simulate-sample-input.md)
