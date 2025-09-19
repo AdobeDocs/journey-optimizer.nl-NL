@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4765ec89dfee24227d13c5cb04595f63409186cb
+source-git-commit: dc2a984a093ee1bf5a856658d6c6f43c7d617823
 workflow-type: tm+mt
 source-wordcount: '3148'
 ht-degree: 1%
@@ -20,14 +20,14 @@ ht-degree: 1%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 
 ## Opmerkingen bij de pre-release september {#25-9-rn}
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 23-24 september, 2025
 
@@ -236,64 +236,64 @@ Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experi
 
 ### Verbeteringen
 
-- **toestemmingen van het beleid van de Goedkeuring**
+* **toestemmingen van het beleid van de Goedkeuring**
 Er is een optie toegevoegd bij het maken of instellen van goedkeuringsbeleid om te voorkomen dat ontwikkelaars van reizen/campagnes hun eigen objecten goedkeuren.
 
-- **Nieuwe Alarm van de Reis**\
+* **Nieuwe Alarm van de Reis**\
   Nieuwe vooraf geconfigureerde waarschuwingen zijn beschikbaar voor reizen:
-   - Profielverwijderingsfrequentie overschreden: verhouding van het aantal verwijderde profielgegevens naar ingevoerde profielen over de laatste 5 minuten is overschreden.
-   - Aangepast foutenpercentage voor handeling overschreden: verhouding tussen fouten met aangepaste handeling en geslaagde HTTP-aanroepen gedurende de laatste 5 minuten is de drempel overschreden.
-   - Foutpercentage profiel overschreden: de verhouding tussen profielen in fout en ingevoerde profielen over de laatste 5 minuten overschrijdt de drempel.
+   * Profielverwijderingsfrequentie overschreden: verhouding van het aantal verwijderde profielgegevens naar ingevoerde profielen over de laatste 5 minuten is overschreden.
+   * Aangepast foutenpercentage voor handeling overschreden: verhouding tussen fouten met aangepaste handeling en geslaagde HTTP-aanroepen gedurende de laatste 5 minuten is de drempel overschreden.
+   * Foutpercentage profiel overschreden: de verhouding tussen profielen in fout en ingevoerde profielen over de laatste 5 minuten overschrijdt de drempel.
 
-- **Geneste JSON lichaamsparams nu gesteund in douaneauthentificatie**\
+* **Geneste JSON lichaamsparams nu gesteund in douaneauthentificatie**\
   Wanneer u aangepaste verificatie voor een aangepaste handeling configureert, worden geneste JSON-objecten (bijvoorbeeld subobjecten binnen `bodyParams` ) nu ondersteund.
 
-- **maak fragmenten aan besluitvormingspunten** vast\
+* **maak fragmenten aan besluitvormingspunten** vast\
   Journey Optimizer biedt nu de mogelijkheid om fragmenten aan besluitvormingsitems te koppelen die via beleidsregels kunnen worden gebruikt in op code gebaseerde ervaringscampagnes.
 
-- **de kenmerkensteun van de Douane met Één-Klik unsubscribe URL**\
+* **de kenmerkensteun van de Douane met Één-Klik unsubscribe URL**\
   Met Journey Optimizer, als u toestemming buiten Adobe beheert, kunt u een extern douaneeindpunt plaatsen door uw eigen één-klik te bepalen unsubscribe verbinding in de e-mailconfiguratie. Wanneer uw ontvangers op de koppeling voor afmelden klikken, voegt Journey Optimizer enkele standaardprofielspecifieke parameters toe aan de gebeurtenis voor het bijwerken van de toestemming.
 
   Als u het e-mailadres voor opzeggen verder wilt aanpassen, kunt u nu aangepaste kenmerken definiëren die worden toegevoegd aan de gebeurtenis permission. Deze mogelijkheid is al beschikbaar voor de aangepaste koppeling voor één klik voor het afmelden van abonnementen sinds de release van 25 augustus.
 
-- ***mTLS Steun voor het Kanaal van SMS**
+* ***mTLS Steun voor het Kanaal van SMS**
 Wanneer u een aangepaste SMS-provider instelt, hebt u nu de mogelijkheid om wederzijdse TLS-verificatie (mTLS) in te schakelen. Hiervoor moeten zowel de client als de server elkaars identiteit bevestigen voordat een veilige verbinding tot stand wordt gebracht.
 
-- **Op model-gebaseerde Schema&#39;s**\
+* **Op model-gebaseerde Schema&#39;s**\
   Voor een duidelijkere en intuïtievere ervaring wordt Relationele Schema&#39;s nu bedoeld als Model-Gebaseerde Schema&#39;s in Geordende campagnes.
 
-- **de opzoeksteun van de Dataset in reizen**\
+* **de opzoeksteun van de Dataset in reizen**\
   Een nieuwe activiteit in reizen, **de raadpleging van de Dataset**, staat u toe om gegevens van de het recorddatasets van Adobe Experience Platform dynamisch terug te winnen tijdens runtime. Door gebruik te maken van deze mogelijkheid hebt u toegang tot gegevens die mogelijk niet in het profiel of de lading van de gebeurtenis zijn opgeslagen, zodat uw klanteninteractie zowel relevant als tijdig is.
 
-- **Simulerend inhoudsvariaties voor alle binnenkomende kanalen**\
+* **Simulerend inhoudsvariaties voor alle binnenkomende kanalen**\
   Eerder alleen beschikbaar voor de communicatiekanalen E-mail, SMS en Push, geldt het simuleren van variaties in inhoud nu ook voor alle inkomende kanalen.
 
-- **steun Webhaak voor API teweeggebrachte campagnes**\
+* **steun Webhaak voor API teweeggebrachte campagnes**\
   API-campagnes ondersteunen nu webhaken. Configureer een URL van een webhaak om statusupdates in real time te ontvangen voor elk bericht, waardoor de zichtbaarheid wordt verbeterd en een naadloze bewaking en automatisering mogelijk wordt.
 
-- **Redirect Steun in de Acties van de Douane van de Reis**\
+* **Redirect Steun in de Acties van de Douane van de Reis**\
   Omleidingen (302) worden nu ondersteund in Aangepaste handelingen voor reizen.
 
-- **Hoge productiemodus voor API teweeggebrachte e-mailcampagnes**\
+* **Hoge productiemodus voor API teweeggebrachte e-mailcampagnes**\
   Er is nu een nieuwe modus voor hoge doorvoer beschikbaar in door de API geïnitieerde campagnes. Deze wijze wordt ontworpen voor grootschalig, in real time overseinen (tot 5000 transacties per seconde) en verstrekt hogere beschikbaarheid met lagere latentie.\
   Deze mogelijkheid is alleen beschikbaar voor het e-mailkanaal, voor organisaties die de invoegtoepassing voor transactiemeldingen met hoge Adobe-doorvoer hebben aangeschaft. Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie.
 
 
-- **de frequentie van het terugstellen van de Uur het afschilderen** - u kunt het afschilderen op een uurbasis voor de reeksen van de kanaalregel nu toepassen. Voorheen beschikbaar in Beperkte Beschikbaarheid, is deze eigenschap nu beschikbaar aan alle milieu&#39;s en staat u toe om 1 uur (eerder 3 uren) te kiezen. [ las meer ](../conflict-prioritization/channel-capping.md). Beschikbaarheidsdatum: 17 september
+* **de frequentie van het terugstellen van de Uur het afschilderen** - u kunt het afschilderen op een uurbasis voor de reeksen van de kanaalregel nu toepassen. Voorheen beschikbaar in Beperkte Beschikbaarheid, is deze eigenschap nu beschikbaar aan alle milieu&#39;s en staat u toe om 1 uur (eerder 3 uren) te kiezen. [ las meer ](../conflict-prioritization/channel-capping.md). Beschikbaarheidsdatum: 17 september
 
-- **Dynamische domeinsteun** - Journey Optimizer steunt nu volledige/basisURL verpersoonlijking voor vooraf bepaalde die domeinen door Adobe worden goedgekeurd. [ las meer ](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
+* **Dynamische domeinsteun** - Journey Optimizer steunt nu volledige/basisURL verpersoonlijking voor vooraf bepaalde die domeinen door Adobe worden goedgekeurd. [ las meer ](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
 
   >[!NOTE]
   >
   >Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid voor een reeks klanten.
 
-- **Uitdrukking voor Beslissende het begrenzen van regels** - u kunt uw eigen uitdrukkingen nu bouwen om de drempel van een afschilderingsregel voor een besluitvormingspunt te bepalen. [Meer informatie](../experience-decisioning/items.md#capping)
+* **Uitdrukking voor Beslissende het begrenzen van regels** - u kunt uw eigen uitdrukkingen nu bouwen om de drempel van een afschilderingsregel voor een besluitvormingspunt te bepalen. [Meer informatie](../experience-decisioning/items.md#capping)
 
->[!NOTE]
->
->Deze mogelijkheid is momenteel beschikbaar als een beperkte beschikbaarheid voor alle gebruikers.
+  >[!NOTE]
+  >
+  >Deze mogelijkheid is momenteel beschikbaar als een beperkte beschikbaarheid voor alle gebruikers.
 
-- **de configuratiecontrolealarm van het Kanaal** - u kunt nu intekenen om systeemalarm, of door e-mail of in het het kennisgevingscentrum van Journey Optimizer te ontvangen, voor het geval dat een fout van de e-mailkanaalconfiguratie gebruikend het type van de douanesubdomeindelegatie gebeurt. [Meer informatie](../reports/alerts.md#alert-dns-record-missing)
+* **de configuratiecontrolealarm van het Kanaal** - u kunt nu intekenen om systeemalarm, of door e-mail of in het het kennisgevingscentrum van Journey Optimizer te ontvangen, voor het geval dat een fout van de e-mailkanaalconfiguratie gebruikend het type van de douanesubdomeindelegatie gebeurt. [Meer informatie](../reports/alerts.md#alert-dns-record-missing)
 
 
 ## Opmerkingen bij de release van augustus &#39;25 {#25-8-rn}
@@ -487,72 +487,72 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 
 De verbeteringen die bij deze release worden geleverd, worden hieronder weergegeven.
 
-&#x200B;* **Beheer**
+* **Beheer**
 
-   &#x200B;* **de configuratiecontrole van het Kanaal alarm** - u kunt nu intekenen om systeemalarm, of door e-mail of in het het kennisgevingscentrum van Journey Optimizer te ontvangen, voor het geval <!--a channel configuration failure happens or if --> een DNS verslag mist. [Meer informatie](../reports/alerts.md#alert-dns-record-missing)
+   * **de configuratiecontrole van het Kanaal alarm** - u kunt nu intekenen om systeemalarm, of door e-mail of in het het kennisgevingscentrum van Journey Optimizer te ontvangen, voor het geval <!--a channel configuration failure happens or if --> een DNS verslag mist. [Meer informatie](../reports/alerts.md#alert-dns-record-missing)
 
-&#x200B;* **AI Medewerker**
+* **AI Medewerker**
 
-   &#x200B;* **Inhoudsgeneratie in veelvoudige talen** - de Inhoud kan nu in Frans, Spaans, Duits, Italiaans, Japans, Zweeds, Nederlands, en Noors worden geproduceerd. [Meer informatie](../content-management/generative-uc.md#languages)
+   * **Inhoudsgeneratie in veelvoudige talen** - de Inhoud kan nu in Frans, Spaans, Duits, Italiaans, Japans, Zweeds, Nederlands, en Noors worden geproduceerd. [Meer informatie](../content-management/generative-uc.md#languages)
 
      Beschikbaarheidsdatum: 25 augustus
 
 
-&#x200B;* **Campagnes**
+* **Campagnes**
 
-   &#x200B;* **controle van het Tarief in uitgaande campagnes** - u kunt tariefcontrole voor uitgaande campagnes (E-mail, SMS, Push berichten) nu toelaten, toestaand u om overbelasting op stroomafwaartse systemen, zoals het landen van pagina&#39;s of de platforms van de klantenzorg te verhinderen. [Meer informatie](../campaigns/campaign-schedule.md#rate-control)
+   * **controle van het Tarief in uitgaande campagnes** - u kunt tariefcontrole voor uitgaande campagnes (E-mail, SMS, Push berichten) nu toelaten, toestaand u om overbelasting op stroomafwaartse systemen, zoals het landen van pagina&#39;s of de platforms van de klantenzorg te verhinderen. [Meer informatie](../campaigns/campaign-schedule.md#rate-control)
 
-   &#x200B;* **campagne die van de Actie** plant - de campagne dagelijks, wekelijkse, en maandelijkse planners zijn bijgewerkt om meer gedetailleerde controle over terugkomende programma&#39;s te verstrekken:
+   * **campagne die van de Actie** plant - de campagne dagelijks, wekelijkse, en maandelijkse planners zijn bijgewerkt om meer gedetailleerde controle over terugkomende programma&#39;s te verstrekken:
 
-      &#x200B;* **Wekelijkse herhaling**: U kunt nu verkiezen om de campagne elke week of elke twee weken te herhalen, en de dag(en) van de week te selecteren waarop het zou moeten lopen.
+      * **Wekelijkse herhaling**: U kunt nu verkiezen om de campagne elke week of elke twee weken te herhalen, en de dag(en) van de week te selecteren waarop het zou moeten lopen.
 
-      &#x200B;* **Maandelijkse herhaling**: U kunt nu verkiezen om de campagne elke maand of om de andere maand te herhalen, en de dag van de maand te selecteren waarop het zou moeten lopen.
+      * **Maandelijkse herhaling**: U kunt nu verkiezen om de campagne elke maand of om de andere maand te herhalen, en de dag van de maand te selecteren waarop het zou moeten lopen.
 
-      &#x200B;* **Dagelijkse, wekelijkse, of maandelijkse programma&#39;s**: U kunt specificeren als het terugkomende programma op een specifieke datum of na een bepaald aantal voorkomen zou moeten ophouden.
+      * **Dagelijkse, wekelijkse, of maandelijkse programma&#39;s**: U kunt specificeren als het terugkomende programma op een specifieke datum of na een bepaald aantal voorkomen zou moeten ophouden.
 
-   &#x200B;* **Geplande transactionele actiecampagnes** - Geplande transactionele actiecampagnes zijn nu beschikbaar voor het verzenden van partij, op publiek-gebaseerde transactionele mededelingen via E-mail, SMS, en de kanalen van de Duw.
+   * **Geplande transactionele actiecampagnes** - Geplande transactionele actiecampagnes zijn nu beschikbaar voor het verzenden van partij, op publiek-gebaseerde transactionele mededelingen via E-mail, SMS, en de kanalen van de Duw.
 
-&#x200B;* **Kanaal - de kaarten van de Inhoud**
+* **Kanaal - de kaarten van de Inhoud**
 
-   &#x200B;* **de lay-outmalplaatjes van de kaart van de Inhoud** - Het kanaal van de kaart van de Inhoud verstrekt nu OTB berichtlay-outs die uw auteurservaring zullen stroomlijnen. Deze release bevat sjablonen voor de lay-out Kleine afbeelding, Grote afbeelding en Alleen afbeelding. [Meer informatie](../content-card/design-content-card.md)
+   * **de lay-outmalplaatjes van de kaart van de Inhoud** - Het kanaal van de kaart van de Inhoud verstrekt nu OTB berichtlay-outs die uw auteurservaring zullen stroomlijnen. Deze release bevat sjablonen voor de lay-out Kleine afbeelding, Grote afbeelding en Alleen afbeelding. [Meer informatie](../content-card/design-content-card.md)
 
-&#x200B;* **Kanaal - duw**
+* **Kanaal - duw**
 
-   &#x200B;* **de vervaldatum van het pushbericht** - u kunt nu een vervaldatum voor elk Push- bericht specificeren, dat tijd-gevoelige berichten (zoals de Zwarte Verkoop van Vrijdag) verhindert na een bepaalde datum worden verzonden, zo vermijdt leverend slechte ervaring aan uw klanten.
+   * **de vervaldatum van het pushbericht** - u kunt nu een vervaldatum voor elk Push- bericht specificeren, dat tijd-gevoelige berichten (zoals de Zwarte Verkoop van Vrijdag) verhindert na een bepaalde datum worden verzonden, zo vermijdt leverend slechte ervaring aan uw klanten.
 
-&#x200B;* **Kanaal - SMS**
+* **Kanaal - SMS**
 
-   &#x200B;* **Fuzzy Opt-out** - wanneer toegelaten, ontdekt de **Fuzzy Opt-out** optie binnenkomende berichten die dicht op bepaalde opt-out sleutelwoorden (b.v., &quot;CANCIL&quot;) lijken en verzendt automatisch een bevestigingsantwoord om de unsubscribe intent van de gebruiker te verifiëren. Als de gebruiker via de gedefinieerde prompt bevestigt, wordt het abonnement opgezegd. [Meer informatie](../sms/sms-configuration-sinch.md)
+   * **Fuzzy Opt-out** - wanneer toegelaten, ontdekt de **Fuzzy Opt-out** optie binnenkomende berichten die dicht op bepaalde opt-out sleutelwoorden (b.v., &quot;CANCIL&quot;) lijken en verzendt automatisch een bevestigingsantwoord om de unsubscribe intent van de gebruiker te verifiëren. Als de gebruiker via de gedefinieerde prompt bevestigt, wordt het abonnement opgezegd. [Meer informatie](../sms/sms-configuration-sinch.md)
 
      >[!NOTE]
      >
      >**Fuzzy Opt-out** is slechts beschikbaar met Sinch en Infobip.
 
-   &#x200B;* **verifieer de Verbinding van SMS** - U kunt uw geloofsbrieven van SMS API binnen Adobe Journey Optimizer nu gemakkelijk testen en verifiëren door een steekproefbericht naar een aangewezen apparaat te verzenden. [Meer informatie](../sms/sms-configuration-sinch.md)
+   * **verifieer de Verbinding van SMS** - U kunt uw geloofsbrieven van SMS API binnen Adobe Journey Optimizer nu gemakkelijk testen en verifiëren door een steekproefbericht naar een aangewezen apparaat te verzenden. [Meer informatie](../sms/sms-configuration-sinch.md)
 
-&#x200B;* **Configuratie**
+* **Configuratie**
 
-   &#x200B;* **de kenmerkensteun van de Douane met één-Klik unsubscribe URL** - met Journey Optimizer, als u toestemming buiten Adobe beheert, kunt u een extern douaneeindpunt plaatsen door uw eigen te bepalen unsubscribe verbinding in de e-mailconfiguratie. Wanneer uw ontvangers op de koppeling voor afmelden klikken, voegt Journey Optimizer enkele standaardprofielspecifieke parameters toe aan de gebeurtenis voor het bijwerken van de toestemming.
+   * **de kenmerkensteun van de Douane met één-Klik unsubscribe URL** - met Journey Optimizer, als u toestemming buiten Adobe beheert, kunt u een extern douaneeindpunt plaatsen door uw eigen te bepalen unsubscribe verbinding in de e-mailconfiguratie. Wanneer uw ontvangers op de koppeling voor afmelden klikken, voegt Journey Optimizer enkele standaardprofielspecifieke parameters toe aan de gebeurtenis voor het bijwerken van de toestemming.
 
      Als u uw koppeling voor het opzeggen van uw abonnement met één klik verder wilt aanpassen, kunt u nu aangepaste kenmerken definiëren die ook aan de gebeurtenis voor toestemming worden toegevoegd. [Meer informatie](../email/list-unsubscribe.md#custom-attributes)
 
-&#x200B;* **Datasets**
+* **Datasets**
 
-   &#x200B;* **Ervaring die Bewaarplaats van Objecten bepaalt - de Gepersonaliseerde Punten van de Aanbieding** - de ingebouwde de uitvoerdataset vangt nu alle aanbiedingsattributen en levenscyclusstatus, toelatend volledige verpersoonlijking en rapportering. [Meer informatie](../data/export-datasets.md)
+   * **Ervaring die Bewaarplaats van Objecten bepaalt - de Gepersonaliseerde Punten van de Aanbieding** - de ingebouwde de uitvoerdataset vangt nu alle aanbiedingsattributen en levenscyclusstatus, toelatend volledige verpersoonlijking en rapportering. [Meer informatie](../data/export-datasets.md)
 
-   &#x200B;* Introduceerde versiecontrole via het veld `etag` om de consistentie te verbeteren en wijzigingen bij te houden om items betrouwbaarder aan te bieden.
+   * Introduceerde versiecontrole via het veld `etag` om de consistentie te verbeteren en wijzigingen bij te houden om items betrouwbaarder aan te bieden.
 
-&#x200B;* **Beslissing**
+* **Beslissing**
 
-   &#x200B;* **de fragmenten van de Band aan besluitvormingspunten** - Journey Optimizer verstrekt nu de capaciteit om fragmenten aan besluitvormingspunten vast te maken die in code-gebaseerde ervaringscampagnes door besluitvormingsbeleid kunnen worden leveraged. Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid voor een reeks klanten. [Meer informatie](../experience-decisioning/create-decision.md#fragments)
+   * **de fragmenten van de Band aan besluitvormingspunten** - Journey Optimizer verstrekt nu de capaciteit om fragmenten aan besluitvormingspunten vast te maken die in code-gebaseerde ervaringscampagnes door besluitvormingsbeleid kunnen worden leveraged. Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid voor een reeks klanten. [Meer informatie](../experience-decisioning/create-decision.md#fragments)
 
-&#x200B;* **Reizen**
+* **Reizen**
 
-   &#x200B;* **de bulkverrichtingen van de Reis** - van de lijst van uw reizen, kunt u veelvoudige punten nu selecteren. Als deze optie is geselecteerd, kunt u maximaal tien reizen per keer pauzeren of hervatten.
+   * **de bulkverrichtingen van de Reis** - van de lijst van uw reizen, kunt u veelvoudige punten nu selecteren. Als deze optie is geselecteerd, kunt u maximaal tien reizen per keer pauzeren of hervatten.
 
-   &#x200B;* **Redirect (302) Steun in de Acties van de Douane** - de acties van de Douane kunnen HTTP 302 nu behandelen herleidt op een per-verzoekbasis. Hierdoor kunnen reizen worden geïntegreerd met API&#39;s die aanvragen doorsturen naar gelokaliseerde of regiospecifieke URL&#39;s. Omleidingen worden automatisch gevolgd, zodat de juiste inhoud zonder extra configuratie wordt geleverd.
+   * **Redirect (302) Steun in de Acties van de Douane** - de acties van de Douane kunnen HTTP 302 nu behandelen herleidt op een per-verzoekbasis. Hierdoor kunnen reizen worden geïntegreerd met API&#39;s die aanvragen doorsturen naar gelokaliseerde of regiospecifieke URL&#39;s. Omleidingen worden automatisch gevolgd, zodat de juiste inhoud zonder extra configuratie wordt geleverd.
 
-   &#x200B;* **Veelvoudige binnenkomende acties in reizen** - om uw reisorchestratie te vereenvoudigen, kunt u verscheidene binnenkomende acties in één enkele reis nu bepalen. Deze functie was eerder beschikbaar in campagnes en stelt u in staat om meerdere op code gebaseerde ervaringen, In-app-berichten, Content Cards of webhandelingen tegelijk naar verschillende locaties te verzenden, waarbij elke actie een specifieke inhoud bevat. [Meer informatie](../building-journeys/journey-action.md#multi-action)
+   * **Veelvoudige binnenkomende acties in reizen** - om uw reisorchestratie te vereenvoudigen, kunt u verscheidene binnenkomende acties in één enkele reis nu bepalen. Deze functie was eerder beschikbaar in campagnes en stelt u in staat om meerdere op code gebaseerde ervaringen, In-app-berichten, Content Cards of webhandelingen tegelijk naar verschillende locaties te verzenden, waarbij elke actie een specifieke inhoud bevat. [Meer informatie](../building-journeys/journey-action.md#multi-action)
 
 ## Campagneorganisatie
 
@@ -570,19 +570,19 @@ Het omvat [ Relationele Schema&#39;s &amp; Datasets ](#oc-relational) en [ het C
 
 ### Belangrijkste mogelijkheden {#oc-capabilities}
 
-&#x200B;* **multi-step werkschema&#39;s**
+* **multi-step werkschema&#39;s**
 
   Maak geavanceerde multi-kanaals batchcampagnes met de nieuwe, speciaal gebouwde campagnecorchestratiekanvas.
 
-&#x200B;* **Op bestelling publiek**
+* **Op bestelling publiek**
 
   Segmentpubliek op aanvraag voor onmiddellijke activering.
 
-&#x200B;* **Meerentiteitssegmentatie**
+* **Meerentiteitssegmentatie**
 
   Bouw publiek gebruikend bedrijfscontext (niet-personendimensies) zoals product, opslag, vernieuwingen, reserveringen, en meer.
 
-&#x200B;* **pre-send zicht**
+* **pre-send zicht**
 
   Het publiek en de campagnes vóór het starten en tijdens het uitvoeren van campagnes evalueren, verfijnen en optimaliseren
 
@@ -590,23 +590,23 @@ Het omvat [ Relationele Schema&#39;s &amp; Datasets ](#oc-relational) en [ het C
 
 Een gloednieuwe visuele orchestration interface speciaal gebouwd voor batchcampagnes. Met dit canvas kunt u:
 
-&#x200B;* Visuele planning van multi-step, multi-channel campagnestromen
+* Visuele planning van multi-step, multi-channel campagnestromen
 
-&#x200B;* Ondersteuning voor publiek op aanvraag die is opgebouwd op basis van relationele query&#39;s
+* Ondersteuning voor publiek op aanvraag die is opgebouwd op basis van relationele query&#39;s
 
-&#x200B;* Geavanceerde publiekssplitsing, wachttijden en voorwaardelijke logica
+* Geavanceerde publiekssplitsing, wachttijden en voorwaardelijke logica
 
-&#x200B;* Nauwkeurige pre-send tellingen na het toepassen van bedrijfsregels en filters
+* Nauwkeurige pre-send tellingen na het toepassen van bedrijfsregels en filters
 
 ### Relationele schema&#39;s en gegevenssets {#oc-relational}
 
 Adobe Journey Optimizer ondersteunt nu relationele entiteiten (bijvoorbeeld producten, winkels, boekingen, contracten) die zijn gekoppeld aan profielen van personen. Dit maakt segmentatie en personalisatie over multidimensionale gegevensstructuren mogelijk, waardoor gebruiksgevallen zoals:
 
-&#x200B;* Eén bericht per boeking, abonnement of contract
+* Eén bericht per boeking, abonnement of contract
 
-&#x200B;* Segmentatie op basis van gerelateerde entiteitskenmerken (bijvoorbeeld productcategorie of locatie van winkel)
+* Segmentatie op basis van gerelateerde entiteitskenmerken (bijvoorbeeld productcategorie of locatie van winkel)
 
-&#x200B;* Verbeterde adresseerbaarheid (verzend bijvoorbeeld alle bekende contacten die verbonden zijn met een entiteit)
+* Verbeterde adresseerbaarheid (verzend bijvoorbeeld alle bekende contacten die verbonden zijn met een entiteit)
 
 ### Waarom het belangrijk is
 
