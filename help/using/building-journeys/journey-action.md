@@ -177,7 +177,7 @@ Volg de onderstaande stappen om meerdere binnenkomende acties in één knooppunt
 
 1. Ga op dezelfde manier verder om meer acties toe te voegen. U kunt tot 10 binnenkomende acties in een groep van de reisactie toevoegen.
 
-Zodra de reis [ ](publishing-the-journey.md) levend is, worden alle acties gelijktijdig geactiveerd.
+Zodra de reis [&#128279;](publishing-the-journey.md) levend is, worden alle acties gelijktijdig geactiveerd.
 <!--
 ## Next steps {#next}
 
