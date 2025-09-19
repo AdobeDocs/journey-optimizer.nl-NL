@@ -487,72 +487,72 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 
 De verbeteringen die bij deze release worden geleverd, worden hieronder weergegeven.
 
-* **Beheer**
+&#x200B;* **Beheer**
 
-   * **de configuratiecontrole van het Kanaal alarm** - u kunt nu intekenen om systeemalarm, of door e-mail of in het het kennisgevingscentrum van Journey Optimizer te ontvangen, voor het geval <!--a channel configuration failure happens or if --> een DNS verslag mist. [Meer informatie](../reports/alerts.md#alert-dns-record-missing)
+   &#x200B;* **de configuratiecontrole van het Kanaal alarm** - u kunt nu intekenen om systeemalarm, of door e-mail of in het het kennisgevingscentrum van Journey Optimizer te ontvangen, voor het geval <!--a channel configuration failure happens or if --> een DNS verslag mist. [Meer informatie](../reports/alerts.md#alert-dns-record-missing)
 
-* **AI Medewerker**
+&#x200B;* **AI Medewerker**
 
-   * **Inhoudsgeneratie in veelvoudige talen** - de Inhoud kan nu in Frans, Spaans, Duits, Italiaans, Japans, Zweeds, Nederlands, en Noors worden geproduceerd. [Meer informatie](../content-management/generative-uc.md#languages)
+   &#x200B;* **Inhoudsgeneratie in veelvoudige talen** - de Inhoud kan nu in Frans, Spaans, Duits, Italiaans, Japans, Zweeds, Nederlands, en Noors worden geproduceerd. [Meer informatie](../content-management/generative-uc.md#languages)
 
      Beschikbaarheidsdatum: 25 augustus
 
 
-* **Campagnes**
+&#x200B;* **Campagnes**
 
-   * **controle van het Tarief in uitgaande campagnes** - u kunt tariefcontrole voor uitgaande campagnes (E-mail, SMS, Push berichten) nu toelaten, toestaand u om overbelasting op stroomafwaartse systemen, zoals het landen van pagina&#39;s of de platforms van de klantenzorg te verhinderen. [Meer informatie](../campaigns/campaign-schedule.md#rate-control)
+   &#x200B;* **controle van het Tarief in uitgaande campagnes** - u kunt tariefcontrole voor uitgaande campagnes (E-mail, SMS, Push berichten) nu toelaten, toestaand u om overbelasting op stroomafwaartse systemen, zoals het landen van pagina&#39;s of de platforms van de klantenzorg te verhinderen. [Meer informatie](../campaigns/campaign-schedule.md#rate-control)
 
-   * **campagne die van de Actie** plant - de campagne dagelijks, wekelijkse, en maandelijkse planners zijn bijgewerkt om meer gedetailleerde controle over terugkomende programma&#39;s te verstrekken:
+   &#x200B;* **campagne die van de Actie** plant - de campagne dagelijks, wekelijkse, en maandelijkse planners zijn bijgewerkt om meer gedetailleerde controle over terugkomende programma&#39;s te verstrekken:
 
-      * **Wekelijkse herhaling**: U kunt nu verkiezen om de campagne elke week of elke twee weken te herhalen, en de dag(en) van de week te selecteren waarop het zou moeten lopen.
+      &#x200B;* **Wekelijkse herhaling**: U kunt nu verkiezen om de campagne elke week of elke twee weken te herhalen, en de dag(en) van de week te selecteren waarop het zou moeten lopen.
 
-      * **Maandelijkse herhaling**: U kunt nu verkiezen om de campagne elke maand of om de andere maand te herhalen, en de dag van de maand te selecteren waarop het zou moeten lopen.
+      &#x200B;* **Maandelijkse herhaling**: U kunt nu verkiezen om de campagne elke maand of om de andere maand te herhalen, en de dag van de maand te selecteren waarop het zou moeten lopen.
 
-      * **Dagelijkse, wekelijkse, of maandelijkse programma&#39;s**: U kunt specificeren als het terugkomende programma op een specifieke datum of na een bepaald aantal voorkomen zou moeten ophouden.
+      &#x200B;* **Dagelijkse, wekelijkse, of maandelijkse programma&#39;s**: U kunt specificeren als het terugkomende programma op een specifieke datum of na een bepaald aantal voorkomen zou moeten ophouden.
 
-   * **Geplande transactionele actiecampagnes** - Geplande transactionele actiecampagnes zijn nu beschikbaar voor het verzenden van partij, op publiek-gebaseerde transactionele mededelingen via E-mail, SMS, en de kanalen van de Duw.
+   &#x200B;* **Geplande transactionele actiecampagnes** - Geplande transactionele actiecampagnes zijn nu beschikbaar voor het verzenden van partij, op publiek-gebaseerde transactionele mededelingen via E-mail, SMS, en de kanalen van de Duw.
 
-* **Kanaal - de kaarten van de Inhoud**
+&#x200B;* **Kanaal - de kaarten van de Inhoud**
 
-   * **de lay-outmalplaatjes van de kaart van de Inhoud** - Het kanaal van de kaart van de Inhoud verstrekt nu OTB berichtlay-outs die uw auteurservaring zullen stroomlijnen. Deze release bevat sjablonen voor de lay-out Kleine afbeelding, Grote afbeelding en Alleen afbeelding. [Meer informatie](../content-card/design-content-card.md)
+   &#x200B;* **de lay-outmalplaatjes van de kaart van de Inhoud** - Het kanaal van de kaart van de Inhoud verstrekt nu OTB berichtlay-outs die uw auteurservaring zullen stroomlijnen. Deze release bevat sjablonen voor de lay-out Kleine afbeelding, Grote afbeelding en Alleen afbeelding. [Meer informatie](../content-card/design-content-card.md)
 
-* **Kanaal - duw**
+&#x200B;* **Kanaal - duw**
 
-   * **de vervaldatum van het pushbericht** - u kunt nu een vervaldatum voor elk Push- bericht specificeren, dat tijd-gevoelige berichten (zoals de Zwarte Verkoop van Vrijdag) verhindert na een bepaalde datum worden verzonden, zo vermijdt leverend slechte ervaring aan uw klanten.
+   &#x200B;* **de vervaldatum van het pushbericht** - u kunt nu een vervaldatum voor elk Push- bericht specificeren, dat tijd-gevoelige berichten (zoals de Zwarte Verkoop van Vrijdag) verhindert na een bepaalde datum worden verzonden, zo vermijdt leverend slechte ervaring aan uw klanten.
 
-* **Kanaal - SMS**
+&#x200B;* **Kanaal - SMS**
 
-   * **Fuzzy Opt-out** - wanneer toegelaten, ontdekt de **Fuzzy Opt-out** optie binnenkomende berichten die dicht op bepaalde opt-out sleutelwoorden (b.v., &quot;CANCIL&quot;) lijken en verzendt automatisch een bevestigingsantwoord om de unsubscribe intent van de gebruiker te verifiëren. Als de gebruiker via de gedefinieerde prompt bevestigt, wordt het abonnement opgezegd. [Meer informatie](../sms/sms-configuration-sinch.md)
+   &#x200B;* **Fuzzy Opt-out** - wanneer toegelaten, ontdekt de **Fuzzy Opt-out** optie binnenkomende berichten die dicht op bepaalde opt-out sleutelwoorden (b.v., &quot;CANCIL&quot;) lijken en verzendt automatisch een bevestigingsantwoord om de unsubscribe intent van de gebruiker te verifiëren. Als de gebruiker via de gedefinieerde prompt bevestigt, wordt het abonnement opgezegd. [Meer informatie](../sms/sms-configuration-sinch.md)
 
      >[!NOTE]
      >
      >**Fuzzy Opt-out** is slechts beschikbaar met Sinch en Infobip.
 
-   * **verifieer de Verbinding van SMS** - U kunt uw geloofsbrieven van SMS API binnen Adobe Journey Optimizer nu gemakkelijk testen en verifiëren door een steekproefbericht naar een aangewezen apparaat te verzenden. [Meer informatie](../sms/sms-configuration-sinch.md)
+   &#x200B;* **verifieer de Verbinding van SMS** - U kunt uw geloofsbrieven van SMS API binnen Adobe Journey Optimizer nu gemakkelijk testen en verifiëren door een steekproefbericht naar een aangewezen apparaat te verzenden. [Meer informatie](../sms/sms-configuration-sinch.md)
 
-* **Configuratie**
+&#x200B;* **Configuratie**
 
-   * **de kenmerkensteun van de Douane met één-Klik unsubscribe URL** - met Journey Optimizer, als u toestemming buiten Adobe beheert, kunt u een extern douaneeindpunt plaatsen door uw eigen te bepalen unsubscribe verbinding in de e-mailconfiguratie. Wanneer uw ontvangers op de koppeling voor afmelden klikken, voegt Journey Optimizer enkele standaardprofielspecifieke parameters toe aan de gebeurtenis voor het bijwerken van de toestemming.
+   &#x200B;* **de kenmerkensteun van de Douane met één-Klik unsubscribe URL** - met Journey Optimizer, als u toestemming buiten Adobe beheert, kunt u een extern douaneeindpunt plaatsen door uw eigen te bepalen unsubscribe verbinding in de e-mailconfiguratie. Wanneer uw ontvangers op de koppeling voor afmelden klikken, voegt Journey Optimizer enkele standaardprofielspecifieke parameters toe aan de gebeurtenis voor het bijwerken van de toestemming.
 
      Als u uw koppeling voor het opzeggen van uw abonnement met één klik verder wilt aanpassen, kunt u nu aangepaste kenmerken definiëren die ook aan de gebeurtenis voor toestemming worden toegevoegd. [Meer informatie](../email/list-unsubscribe.md#custom-attributes)
 
-* **Datasets**
+&#x200B;* **Datasets**
 
-   * **Ervaring die Bewaarplaats van Objecten bepaalt - de Gepersonaliseerde Punten van de Aanbieding** - de ingebouwde de uitvoerdataset vangt nu alle aanbiedingsattributen en levenscyclusstatus, toelatend volledige verpersoonlijking en rapportering. [Meer informatie](../data/export-datasets.md)
+   &#x200B;* **Ervaring die Bewaarplaats van Objecten bepaalt - de Gepersonaliseerde Punten van de Aanbieding** - de ingebouwde de uitvoerdataset vangt nu alle aanbiedingsattributen en levenscyclusstatus, toelatend volledige verpersoonlijking en rapportering. [Meer informatie](../data/export-datasets.md)
 
-   * Introduceerde versiecontrole via het veld `etag` om de consistentie te verbeteren en wijzigingen bij te houden om items betrouwbaarder aan te bieden.
+   &#x200B;* Introduceerde versiecontrole via het veld `etag` om de consistentie te verbeteren en wijzigingen bij te houden om items betrouwbaarder aan te bieden.
 
-* **Beslissing**
+&#x200B;* **Beslissing**
 
-   * **de fragmenten van de Band aan besluitvormingspunten** - Journey Optimizer verstrekt nu de capaciteit om fragmenten aan besluitvormingspunten vast te maken die in code-gebaseerde ervaringscampagnes door besluitvormingsbeleid kunnen worden leveraged. Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid voor een reeks klanten. [Meer informatie](../experience-decisioning/create-decision.md#fragments)
+   &#x200B;* **de fragmenten van de Band aan besluitvormingspunten** - Journey Optimizer verstrekt nu de capaciteit om fragmenten aan besluitvormingspunten vast te maken die in code-gebaseerde ervaringscampagnes door besluitvormingsbeleid kunnen worden leveraged. Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid voor een reeks klanten. [Meer informatie](../experience-decisioning/create-decision.md#fragments)
 
-* **Reizen**
+&#x200B;* **Reizen**
 
-   * **de bulkverrichtingen van de Reis** - van de lijst van uw reizen, kunt u veelvoudige punten nu selecteren. Als deze optie is geselecteerd, kunt u maximaal tien reizen per keer pauzeren of hervatten.
+   &#x200B;* **de bulkverrichtingen van de Reis** - van de lijst van uw reizen, kunt u veelvoudige punten nu selecteren. Als deze optie is geselecteerd, kunt u maximaal tien reizen per keer pauzeren of hervatten.
 
-   * **Redirect (302) Steun in de Acties van de Douane** - de acties van de Douane kunnen HTTP 302 nu behandelen herleidt op een per-verzoekbasis. Hierdoor kunnen reizen worden geïntegreerd met API&#39;s die aanvragen doorsturen naar gelokaliseerde of regiospecifieke URL&#39;s. Omleidingen worden automatisch gevolgd, zodat de juiste inhoud zonder extra configuratie wordt geleverd.
+   &#x200B;* **Redirect (302) Steun in de Acties van de Douane** - de acties van de Douane kunnen HTTP 302 nu behandelen herleidt op een per-verzoekbasis. Hierdoor kunnen reizen worden geïntegreerd met API&#39;s die aanvragen doorsturen naar gelokaliseerde of regiospecifieke URL&#39;s. Omleidingen worden automatisch gevolgd, zodat de juiste inhoud zonder extra configuratie wordt geleverd.
 
-   * **Veelvoudige binnenkomende acties in reizen** - om uw reisorchestratie te vereenvoudigen, kunt u verscheidene binnenkomende acties in één enkele reis nu bepalen. Deze functie was eerder beschikbaar in campagnes en stelt u in staat om meerdere op code gebaseerde ervaringen, In-app-berichten, Content Cards of webhandelingen tegelijk naar verschillende locaties te verzenden, waarbij elke actie een specifieke inhoud bevat. [Meer informatie](../building-journeys/journey-action.md#multi-action)
+   &#x200B;* **Veelvoudige binnenkomende acties in reizen** - om uw reisorchestratie te vereenvoudigen, kunt u verscheidene binnenkomende acties in één enkele reis nu bepalen. Deze functie was eerder beschikbaar in campagnes en stelt u in staat om meerdere op code gebaseerde ervaringen, In-app-berichten, Content Cards of webhandelingen tegelijk naar verschillende locaties te verzenden, waarbij elke actie een specifieke inhoud bevat. [Meer informatie](../building-journeys/journey-action.md#multi-action)
 
 ## Campagneorganisatie
 
@@ -570,19 +570,19 @@ Het omvat [ Relationele Schema&#39;s &amp; Datasets ](#oc-relational) en [ het C
 
 ### Belangrijkste mogelijkheden {#oc-capabilities}
 
-* **multi-step werkschema&#39;s**
+&#x200B;* **multi-step werkschema&#39;s**
 
   Maak geavanceerde multi-kanaals batchcampagnes met de nieuwe, speciaal gebouwde campagnecorchestratiekanvas.
 
-* **Op bestelling publiek**
+&#x200B;* **Op bestelling publiek**
 
   Segmentpubliek op aanvraag voor onmiddellijke activering.
 
-* **Meerentiteitssegmentatie**
+&#x200B;* **Meerentiteitssegmentatie**
 
   Bouw publiek gebruikend bedrijfscontext (niet-personendimensies) zoals product, opslag, vernieuwingen, reserveringen, en meer.
 
-* **pre-send zicht**
+&#x200B;* **pre-send zicht**
 
   Het publiek en de campagnes vóór het starten en tijdens het uitvoeren van campagnes evalueren, verfijnen en optimaliseren
 
@@ -590,23 +590,23 @@ Het omvat [ Relationele Schema&#39;s &amp; Datasets ](#oc-relational) en [ het C
 
 Een gloednieuwe visuele orchestration interface speciaal gebouwd voor batchcampagnes. Met dit canvas kunt u:
 
-* Visuele planning van multi-step, multi-channel campagnestromen
+&#x200B;* Visuele planning van multi-step, multi-channel campagnestromen
 
-* Ondersteuning voor publiek op aanvraag die is opgebouwd op basis van relationele query&#39;s
+&#x200B;* Ondersteuning voor publiek op aanvraag die is opgebouwd op basis van relationele query&#39;s
 
-* Geavanceerde publiekssplitsing, wachttijden en voorwaardelijke logica
+&#x200B;* Geavanceerde publiekssplitsing, wachttijden en voorwaardelijke logica
 
-* Nauwkeurige pre-send tellingen na het toepassen van bedrijfsregels en filters
+&#x200B;* Nauwkeurige pre-send tellingen na het toepassen van bedrijfsregels en filters
 
 ### Relationele schema&#39;s en gegevenssets {#oc-relational}
 
 Adobe Journey Optimizer ondersteunt nu relationele entiteiten (bijvoorbeeld producten, winkels, boekingen, contracten) die zijn gekoppeld aan profielen van personen. Dit maakt segmentatie en personalisatie over multidimensionale gegevensstructuren mogelijk, waardoor gebruiksgevallen zoals:
 
-* Eén bericht per boeking, abonnement of contract
+&#x200B;* Eén bericht per boeking, abonnement of contract
 
-* Segmentatie op basis van gerelateerde entiteitskenmerken (bijvoorbeeld productcategorie of locatie van winkel)
+&#x200B;* Segmentatie op basis van gerelateerde entiteitskenmerken (bijvoorbeeld productcategorie of locatie van winkel)
 
-* Verbeterde adresseerbaarheid (verzend bijvoorbeeld alle bekende contacten die verbonden zijn met een entiteit)
+&#x200B;* Verbeterde adresseerbaarheid (verzend bijvoorbeeld alle bekende contacten die verbonden zijn met een entiteit)
 
 ### Waarom het belangrijk is
 
