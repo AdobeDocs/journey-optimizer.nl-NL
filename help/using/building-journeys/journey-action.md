@@ -10,9 +10,9 @@ level: Intermediate
 keywords: reis, bericht, push, sms, e-mail, in-app, web, inhoudskaart, op code gebaseerde ervaring
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
+source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '946'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Afhankelijk van het geselecteerde communicatiekanaal zijn aanvullende instelling
 
 Selecteer in de vervolgkeuzelijst **[!UICONTROL Business rules]** een regel die is ingesteld om afdekkingsregels toe te passen op de actie die u uitvoert.
 
-De reeksen van de kanaalregel van hefboomwerking staat u toe om frequentie het begrenzen door communicatie type te plaatsen om het overbelasten van klanten met gelijkaardige berichten te verhinderen.
+De reeksen van de kanaalregel van hefboomwerking staan u toe om frequentie het begrenzen door communicatie type te plaatsen om het overbelasten van klanten met gelijkaardige berichten te verhinderen.
 
 [Leer hoe u met regelsets werkt](../conflict-prioritization/rule-sets.md)
 
@@ -102,7 +102,7 @@ De snelle leveringswijze is een [!DNL Journey Optimizer] toe:voegen-op die zeer 
 
 Snelle levering wordt gebruikt wanneer de vertraging in berichtlevering zaken-kritiek is, wanneer u een dringende duwalarm op mobiele telefoons wilt verzenden, bijvoorbeeld een breekbericht aan gebruikers die uw nieuwskanaal app hebben geïnstalleerd.
 
-Voor meer informatie over prestaties wanneer het gebruiken van Snelle leveringswijze, verwijs naar [ het productbeschrijving van Adobe Journey Optimizer ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Voor meer informatie over prestaties wanneer het gebruiken van Snelle leveringswijze, verwijs naar [ het productbeschrijving van Adobe Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 +++
 
@@ -177,7 +177,7 @@ Volg de onderstaande stappen om meerdere binnenkomende acties in één knooppunt
 
 1. Ga op dezelfde manier verder om meer acties toe te voegen. U kunt tot 10 binnenkomende acties in een groep van de reisactie toevoegen.
 
-Zodra de reis [&#128279;](publishing-the-journey.md) levend is, worden alle acties gelijktijdig geactiveerd.
+Zodra de reis [ ](publishing-the-journey.md) levend is, worden alle acties gelijktijdig geactiveerd.
 <!--
 ## Next steps {#next}
 
