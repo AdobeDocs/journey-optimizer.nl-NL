@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2ebdb37b390988941f29a5e6ecfe147984450d51
+source-git-commit: 8d732c417d23e47a16d58999e00a2019b9db34a8
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1529'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 23-24 september, 2025
 
@@ -117,9 +117,9 @@ Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experi
 <p>Journey Optimizer Experimentation Accelerator is een AI-eerste product dat ontworpen is om je experimenten naar een hoger niveau te tillen. Het is ontworpen voor Adobe Journey Optimizer- en Adobe Target-gebruikers en verenigt het beheer van experimenten, biedt inzicht en mogelijkheden op basis van AI en introduceert een nieuwe experimentator.</p>
 <p>U kunt uitkijken naar:</p>
 <ul>
-<li><strong> Verenigde Experimentele Inventaris:</strong> bekijk, filter, en beheer snel alle experimenten van Adobe Journey Optimizer en Adobe Target in één centrale werkruimte. De nieuwe teamschakelaar staat gebruikers toe om meningen door team en rol te maken, ervoor zorgen de juiste mensen de meest relevante experimenten zien.</li>
+<li><strong> Verenigde Experimentele Inventaris:</strong> bekijk, filter, en beheer snel alle experimenten van Adobe Journey Optimizer en Adobe Target in één centrale werkruimte.</li>
 <li><strong> AI de Experimentele Inzichten &amp; Kansen:</strong> ga voorbij statistische overzichten met GenAI-Gedreven inzichten en aanbevelingen. Elk experiment bevat nu actiemogelijkheden, compleet met ondersteuning voor rationale, zodat teams betrouwbaarder kunnen beslissen wat ze moeten testen.</li>
-<li><strong> Multi-Armed Bandit (MAB) Steun:</strong> maximaliseer effect terwijl het verminderen van verspild verkeer met multi-Armed Bandit experimenten. In plaats van het publiek gelijkmatig te verdelen, wijst MAB automatisch meer bezoekers toe aan de best-presterende variaties in echt - tijd zodat kunt u betere ervaringen aan meer klanten leveren terwijl nog het leren van wat werkt.</li>
+<li><strong> Multi-Armed Bandit (MAB) Steun in Journey Optimizer:</strong> maximaliseer effect terwijl het verminderen van verspild verkeer met multi-Armed experimenten van de Bandit. In plaats van het publiek gelijkmatig te verdelen, wijst MAB automatisch meer bezoekers toe aan de best-presterende variaties in echt - tijd zodat kunt u betere ervaringen aan meer klanten leveren terwijl nog het leren van wat werkt.</li>
 </ul>
 </td>
 </tr>
