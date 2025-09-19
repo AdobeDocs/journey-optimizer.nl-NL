@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9155a16a0557a32c1d59b66b03fc84c5bc7b8463
+source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
 workflow-type: tm+mt
-source-wordcount: '2950'
+source-wordcount: '2948'
 ht-degree: 18%
 
 ---
@@ -80,10 +80,10 @@ ht-degree: 18%
       + [Reactie](using/building-journeys/reaction-events.md)
       + [kwalificatie publiek](using/building-journeys/audience-qualification-events.md)
       + [Optimaliseren](using/building-journeys/optimize.md)
-      + [Voorwaarden](using/building-journeys/conditions.md)
-      + [Voorwaardeactiviteit](using/building-journeys/condition-activity.md)
       + [Doelgroep lezen](using/building-journeys/read-audience.md)
       + [Wachten](using/building-journeys/wait-activity.md)
+      + [Voorwaarden](using/building-journeys/conditions.md)
+      + [Voorwaarde](using/building-journeys/condition-activity.md)
       + [Inhoudsbeslissing](using/building-journeys/content-decision.md)
       + [Actie](using/building-journeys/journey-action.md)
       + [Ingebouwde kanaalhandelingen](using/building-journeys/journeys-message.md)
@@ -874,7 +874,7 @@ ht-degree: 18%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
