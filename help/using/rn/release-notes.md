@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 86522e2562d1504bb9a67836cfabccbe3fbda4c0
+source-git-commit: a05d7e022a0b154848405a6b5d27d399a24161db
 workflow-type: tm+mt
-source-wordcount: '3064'
+source-wordcount: '3093'
 ht-degree: 1%
 
 ---
@@ -20,14 +20,14 @@ ht-degree: 1%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 
 ## Opmerkingen bij de pre-release september {#25-9-rn}
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 23-24 september, 2025
 
@@ -103,7 +103,7 @@ Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experi
 <tbody>
 <tr>
 <td>
-<p>AI Assistant bevat nu basisvaardigheden voor Journey Agent voor Journey Optimizer, waarmee artsen reizen kunnen analyseren via een natuurlijke taalinterface. Met deze nieuwe vaardigheden kunnen gebruikers (binnenkort) reizen analyseren en maken om mogelijke plannings- of publieksconflicten op te sporen en op te lossen.</p>
+<p>Journey Agent is verkrijgbaar in Journey Optimizer en wordt aangedreven door Adobe Experience Platform Agent Orchestrator. Het laat u toe om reizen door een natuurlijke taalinterface te analyseren. De agent zal publiek of programmaconflicten en profieldrop-offs in een reis ontdekken om u te helpen stappen nemen om hen op te lossen. Binnenkort kunt u reizen maken met ongeduldige ondersteuning.</p>
 </td>
 </tr>
 </tbody>
@@ -240,9 +240,12 @@ Er is een optie toegevoegd bij het maken of instellen van goedkeuringsbeleid om 
 
 * **Nieuwe Alarm van de Reis**\
   Nieuwe vooraf geconfigureerde waarschuwingen zijn beschikbaar voor reizen:
+
    * Profielverwijderingsfrequentie overschreden: verhouding van het aantal verwijderde profielgegevens naar ingevoerde profielen over de laatste 5 minuten is overschreden.
    * Aangepast foutenpercentage voor handeling overschreden: verhouding tussen fouten met aangepaste handeling en geslaagde HTTP-aanroepen gedurende de laatste 5 minuten is de drempel overschreden.
    * Foutpercentage profiel overschreden: de verhouding tussen profielen in fout en ingevoerde profielen over de laatste 5 minuten overschrijdt de drempel.
+
+  U kunt drempelwaarden wijzigen en u kunt zich abonneren op individuele waarschuwingen op het niveau van de reis ten opzichte van de rest van de wereld.
 
 * **Geneste JSON lichaamsparams nu gesteund in douaneauthentificatie**\
   Wanneer u aangepaste verificatie voor een aangepaste handeling configureert, worden geneste JSON-objecten (bijvoorbeeld subobjecten binnen `bodyParams` ) nu ondersteund.
@@ -252,7 +255,7 @@ Er is een optie toegevoegd bij het maken of instellen van goedkeuringsbeleid om 
 
   Als u het e-mailadres voor opzeggen verder wilt aanpassen, kunt u nu aangepaste kenmerken definiëren die worden toegevoegd aan de gebeurtenis permission. Deze mogelijkheid is al beschikbaar voor de aangepaste koppeling voor één klik voor het afmelden van abonnementen sinds de release van 25 augustus.
 
-* ***mTLS Steun voor het Kanaal van SMS**
+* **mTLS Steun voor het Kanaal van SMS**
 Wanneer u een aangepaste SMS-provider instelt, hebt u nu de mogelijkheid om wederzijdse TLS-verificatie (mTLS) in te schakelen. Hiervoor moeten zowel de client als de server elkaars identiteit bevestigen voordat een veilige verbinding tot stand wordt gebracht.
 
 * **Op model-gebaseerde Schema&#39;s**\
