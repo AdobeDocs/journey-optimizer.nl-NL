@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dc2a984a093ee1bf5a856658d6c6f43c7d617823
+source-git-commit: e7db0386b4616828ed5282cfd45e080455d1c22a
 workflow-type: tm+mt
-source-wordcount: '3148'
+source-wordcount: '3120'
 ht-degree: 1%
 
 ---
@@ -20,14 +20,14 @@ ht-degree: 1%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 
 ## Opmerkingen bij de pre-release september {#25-9-rn}
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 23-24 september, 2025
 
@@ -248,9 +248,6 @@ Er is een optie toegevoegd bij het maken of instellen van goedkeuringsbeleid om 
 * **Geneste JSON lichaamsparams nu gesteund in douaneauthentificatie**\
   Wanneer u aangepaste verificatie voor een aangepaste handeling configureert, worden geneste JSON-objecten (bijvoorbeeld subobjecten binnen `bodyParams` ) nu ondersteund.
 
-* **maak fragmenten aan besluitvormingspunten** vast\
-  Journey Optimizer biedt nu de mogelijkheid om fragmenten aan besluitvormingsitems te koppelen die via beleidsregels kunnen worden gebruikt in op code gebaseerde ervaringscampagnes.
-
 * **de kenmerkensteun van de Douane met Één-Klik unsubscribe URL**\
   Met Journey Optimizer, als u toestemming buiten Adobe beheert, kunt u een extern douaneeindpunt plaatsen door uw eigen één-klik te bepalen unsubscribe verbinding in de e-mailconfiguratie. Wanneer uw ontvangers op de koppeling voor afmelden klikken, voegt Journey Optimizer enkele standaardprofielspecifieke parameters toe aan de gebeurtenis voor het bijwerken van de toestemming.
 
@@ -278,20 +275,15 @@ Wanneer u een aangepaste SMS-provider instelt, hebt u nu de mogelijkheid om wede
   Er is nu een nieuwe modus voor hoge doorvoer beschikbaar in door de API geïnitieerde campagnes. Deze wijze wordt ontworpen voor grootschalig, in real time overseinen (tot 5000 transacties per seconde) en verstrekt hogere beschikbaarheid met lagere latentie.\
   Deze mogelijkheid is alleen beschikbaar voor het e-mailkanaal, voor organisaties die de invoegtoepassing voor transactiemeldingen met hoge Adobe-doorvoer hebben aangeschaft. Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie.
 
-
 * **de frequentie van het terugstellen van de Uur het afschilderen** - u kunt het afschilderen op een uurbasis voor de reeksen van de kanaalregel nu toepassen. Voorheen beschikbaar in Beperkte Beschikbaarheid, is deze eigenschap nu beschikbaar aan alle milieu&#39;s en staat u toe om 1 uur (eerder 3 uren) te kiezen. [ las meer ](../conflict-prioritization/channel-capping.md). Beschikbaarheidsdatum: 17 september
 
 * **Dynamische domeinsteun** - Journey Optimizer steunt nu volledige/basisURL verpersoonlijking voor vooraf bepaalde die domeinen door Adobe worden goedgekeurd. [ las meer ](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
 
-  >[!NOTE]
-  >
-  >Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid voor een reeks klanten.
+  Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid voor een reeks klanten.
 
 * **Uitdrukking voor Beslissende het begrenzen van regels** - u kunt uw eigen uitdrukkingen nu bouwen om de drempel van een afschilderingsregel voor een besluitvormingspunt te bepalen. [Meer informatie](../experience-decisioning/items.md#capping)
 
-  >[!NOTE]
-  >
-  >Deze mogelijkheid is momenteel beschikbaar als een beperkte beschikbaarheid voor alle gebruikers.
+  Deze mogelijkheid is momenteel beschikbaar als een beperkte beschikbaarheid voor alle gebruikers.
 
 * **de configuratiecontrolealarm van het Kanaal** - u kunt nu intekenen om systeemalarm, of door e-mail of in het het kennisgevingscentrum van Journey Optimizer te ontvangen, voor het geval dat een fout van de e-mailkanaalconfiguratie gebruikend het type van de douanesubdomeindelegatie gebeurt. [Meer informatie](../reports/alerts.md#alert-dns-record-missing)
 
