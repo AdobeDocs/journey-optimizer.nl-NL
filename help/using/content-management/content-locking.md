@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
-source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
+source-git-commit: dcbb83e72377838281e1762bb99230e7fe52ab4c
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 0%
@@ -84,7 +84,7 @@ U kunt contentvergrendeling voor een e-mailsjabloon rechtstreeks inschakelen in 
 
    ![](assets/template-lock-enable.png)
 
-1. Als u de modus **[!UICONTROL Content locking]** hebt geselecteerd, kunt u nader bepalen hoe gebruikers kunnen communiceren met de sjabloon. Schakel de optie **[!UICONTROL Enable content edition]** in en kies een van de volgende opties:
+1. Als u de modus **[!UICONTROL Content locking]** hebt geselecteerd, kunt u nader bepalen hoe gebruikers kunnen communiceren met de sjabloon. Schakel de optie **[!UICONTROL Enable content addition]** in en kies een van de volgende opties:
 
    * **[!UICONTROL Allow structure & content addition]**: gebruikers kunnen structuren tussen bestaande structuren toevoegen en inhoudscomponenten of fragmenten binnen bewerkbare structuren toevoegen.
 
@@ -112,7 +112,7 @@ Een structuur in de sjabloon vergrendelen:
 
 1. Selecteer de structuur die u wilt vergrendelen.
 
-1. Kies **[!UICONTROL Locked]** in de vervolgkeuzelijst **[!UICONTROL Lock type]** .
+1. Kies **[!UICONTROL Lock type]** in de vervolgkeuzelijst **[!UICONTROL Locked]** .
 
    ![](assets/template-lock-structure.png)
 
@@ -126,7 +126,7 @@ Nadat een structuur is vergrendeld, kunnen er geen verdere inhoudcomponenten of 
 
 1. Schakel de optie **[!UICONTROL Use specific locking]** in.
 
-1. Kies **[!UICONTROL Editable]** in de vervolgkeuzelijst **[!UICONTROL Lock type]** . Selecteer **[!UICONTROL Editable content only]** als u het bewerken van inhoud tijdens het vergrendelen van stijlen wilt toestaan. [ leer hoe te om componenten ](#lock-components) te sluiten
+1. Kies **[!UICONTROL Lock type]** in de vervolgkeuzelijst **[!UICONTROL Editable]** . Selecteer **[!UICONTROL Editable content only]** als u het bewerken van inhoud tijdens het vergrendelen van stijlen wilt toestaan. [ leer hoe te om componenten ](#lock-components) te sluiten
 
    ![](assets/template-lock-editable-component.png)
 
@@ -145,7 +145,7 @@ Een specifieke component in een structuur vergrendelen:
 
    ![](assets/template-lock-component.png)
 
-   * **[!UICONTROL Editable content lock only]**: vergrendel de stijlen van de component, maar sta het bewerken van inhoud toe.
+   * **[!UICONTROL Editable content only]**: vergrendel de stijlen van de component, maar sta het bewerken van inhoud toe.
    * **[!UICONTROL Locked]**: vergrendel zowel de inhoud als de stijlen van de component volledig.
 
    >[!NOTE]
@@ -169,7 +169,7 @@ In het onderstaande voorbeeld wordt governance ingeschakeld voor het sjabloonlic
 >title="Bewerkbare gebieden markeren"
 >abstract="Afhankelijk van het type vergrendeling dat op de sjabloon wordt toegepast, kunt u verschillende handelingen uitvoeren op de structuren en componenten van de sjabloon. Schakel de optie **[!UICONTROL Highlight editable areas]** in als u snel alle bewerkbare gebieden in de sjabloon wilt identificeren."
 
-Als u een sjabloon met vergrendelde inhoud gebruikt, wordt het bericht **[!UICONTROL Governance enabled]** weergegeven in het rechterdeelvenster.
+Als u een sjabloon met vergrendelde inhoud gebruikt, wordt er een bericht weergegeven in het rechterdeelvenster.
 
 Afhankelijk van het type vergrendeling dat op de sjabloon wordt toegepast, kunt u verschillende handelingen uitvoeren op de structuren en componenten van de sjabloon. Schakel de optie **[!UICONTROL Highlight editable areas]** in als u snel alle bewerkbare gebieden in de sjabloon wilt identificeren.
 
@@ -196,4 +196,4 @@ Hier volgen enkele voorbeelden van e-mailedities en de bijbehorende configuratie
 
 Leer hoe u inhoud in e-mailsjablonen kunt vergrendelen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451613?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

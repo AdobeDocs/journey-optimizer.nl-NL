@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 9bf642227facd44401a33a1047b53018478ed35a
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 20%
+source-wordcount: '287'
+ht-degree: 19%
 
 ---
 
@@ -46,6 +46,6 @@ Het nemen van besluiten wordt momenteel gesteund in op code-gebaseerd ervaringsk
 
 Ons gevestigde kenmerk in Journey Optimizer, Beslissingsbeheer gebruikt een centrale bibliotheek van marketingaanbiedingen en een beslissingsengine die regels en beperkingen toepast op realtime klantprofielen, waarbij Adobe Experience Platform-gegevens worden gebruikt om het juiste aanbod op het juiste moment te leveren.
 
-Beslissingsbeheer biedt momenteel ondersteuning voor vier kanalen: e-mail, In-App-berichten, pushberichten en SMS.
+Beslissingsbeheer ondersteunt de volgende kanalen: E-mail, In-App-berichten, pushberichten, SMS en Direct-mail.
 
 ➡️ [ worden begonnen met het beheer van het Besluit ](../offers/get-started/starting-offer-decisioning.md)

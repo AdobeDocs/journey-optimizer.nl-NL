@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
 exl-id: e04b0d38-6b3d-4086-a0f0-c1b8f6d9634f
-source-git-commit: eeacfacf3068f831afb7b7ad78214941a9259c93
+source-git-commit: d3570e2c3d6340deaba8ca0f342161ab43ad1c43
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
@@ -51,4 +51,4 @@ Als u de snelheidsregeling wilt instellen, schakelt u de optie **[!UICONTROL Thr
 
 ## Volgende stappen {#next}
 
-Zodra uw campagneconfiguratie en inhoud klaar zijn, kunt u het herzien en activeren. [Meer informatie](review-activate-campaign.md)
+Zodra uw campagneconfiguratie en inhoud klaar zijn, kunt u het herzien en activeren. [Meer informatie](../campaigns/review-activate-api-triggered-campaign.md)

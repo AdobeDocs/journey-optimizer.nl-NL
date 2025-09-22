@@ -9,16 +9,16 @@ role: Developer
 level: Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
 exl-id: 561f1215-d13d-4ffc-b6f1-396ae67774c8
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: d3570e2c3d6340deaba8ca0f342161ab43ad1c43
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '278'
 ht-degree: 4%
 
 ---
 
 # De door de API geactiveerde campagne controleren en activeren {#api-review}
 
-Zodra uw campagne van de Actie is gevormd, moet u zijn parameter en inhoud herzien alvorens het te activeren. Ga als volgt te werk om dit te doen:
+Zodra uw API teweeggebrachte campagne is gevormd, moet u zijn parameter en inhoud herzien alvorens het te activeren. Ga als volgt te werk om dit te doen:
 
 >[!IMPORTANT]
 >
@@ -41,7 +41,6 @@ Zodra uw campagne van de Actie is gevormd, moet u zijn parameter en inhoud herzi
    De **[!UICONTROL Completed]** -status wordt automatisch toegewezen aan de campagne drie dagen nadat deze is geactiveerd of op de einddatum van de campagne als deze een terugkerende uitvoering heeft. [ leer meer over campagnestatussen ](get-started-with-campaigns.md#statuses).
 
    Als er geen einddatum is opgegeven, behoudt de campagne de status **[!UICONTROL Live]** . Als u deze wilt wijzigen, moet u de campagne handmatig stoppen. [ Leer hoe te om een campagne ](manage-campaigns.md) tegen te houden
-
 
 1. Nadat een campagne is geactiveerd, kunt u op elk gewenst moment de informatie controleren door deze te openen. Met dit overzicht kunt u statistieken opvragen over het aantal doelprofielen en geleverde en mislukte acties.
 
