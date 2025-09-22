@@ -20,7 +20,7 @@ Met Adobe Journey Optimizer-gebruiksscenario&#39;s kunt u zinvolle, persoonlijke
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
 
 Gebruikskwesties leren
 
@@ -30,7 +30,7 @@ Onderzoek praktische voorbeelden en strategieën om de mogelijkheden van Adobe J
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Opzoeken van gebeurtenissen beleven
 
@@ -40,7 +40,7 @@ Gebruik ervaringsgebeurtenissen om opt-outs te beheren, inhoud aan te passen en 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Multikanaalberichten verzenden
 
@@ -50,7 +50,7 @@ Reizen maken die publiekssegmentatie en gebeurtenistriggers gebruiken om geperso
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 Een bericht verzenden met Campagne v7/v8
 
@@ -60,7 +60,7 @@ Integreer Adobe Campaign met Journey Optimizer om e-mailberichten te verzenden m
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Een bericht verzenden naar abonnees
 
@@ -70,7 +70,7 @@ Reizen instellen om berichten naar abonnees te verzenden op basis van voorkeuren
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen
 
