@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Gebruiksscenario’s
 description: Gebruiksscenario’s
 redpen-status: CREATED_||_2025-08-11_20-20-12
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: 09b60e6e-8874-4950-a37a-fc807d3b39b1
+source-git-commit: 8218c4666588bb58e0529a73eebcddef3209cbd0
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 5%
+source-wordcount: '334'
+ht-degree: 4%
 
 ---
-
 
 # Gebruiksscenario’s{#section-overview}
 
@@ -20,7 +20,7 @@ Met Adobe Journey Optimizer-gebruiksscenario&#39;s kunt u zinvolle, persoonlijke
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Gebruikskwesties leren
 
@@ -30,7 +30,7 @@ Onderzoek praktische voorbeelden en strategieën om de mogelijkheden van Adobe J
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Opzoeken van gebeurtenissen beleven
 
@@ -40,7 +40,7 @@ Gebruik ervaringsgebeurtenissen om opt-outs te beheren, inhoud aan te passen en 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Multikanaalberichten verzenden
 
@@ -50,7 +50,7 @@ Reizen maken die publiekssegmentatie en gebeurtenistriggers gebruiken om geperso
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Een bericht verzenden met Campagne v7/v8
 
@@ -60,7 +60,7 @@ Integreer Adobe Campaign met Journey Optimizer om e-mailberichten te verzenden m
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Een bericht verzenden naar abonnees
 
@@ -70,7 +70,7 @@ Reizen instellen om berichten naar abonnees te verzenden op basis van voorkeuren
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen
 
@@ -86,3 +86,4 @@ Leer hoe te om douaneacties te vormen om dynamische gegevensinzamelingen in reis
 
 - **[de productie van de grens met externe gegevensbronnen &amp; douaneacties](../using/building-journeys/limit-throughput.md)** - optimaliseer reisproductie en beheer grenzen voor externe systemen gebruikend Gegevensbronnen en de Acties van de Douane.
 - **[douaneacties van het Gebruik om reisgebeurtenissen in Experience Platform](../using/building-journeys/custom-action-aep.md)** te schrijven - vorm voor authentiek verklaarde vraag en eindpunten van HTTP API om reisgebeurtenissen in Adobe Experience Platform te schrijven.
+- **[verwijder profielen uit een levende reis](../using/building-journeys/journey-pause.md#apply-an-exit-criteria-in-a-paused-journey)** - voor zaken of verrichtingsredenen, kunt u sommige profielen uit een levende reis moeten verwijderen, en profielen uitsluiten die een specifieke criteria momenteel in de reis aanpassen. Dit kan door de reis te pauzeren.
