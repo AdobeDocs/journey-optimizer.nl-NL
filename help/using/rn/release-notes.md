@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0c27f2cec8200e6f65c22caec560dbea5bc80042
+source-git-commit: 8ef9b3b886e9856c6c2dac55e33a7ca6ce86b414
 workflow-type: tm+mt
 source-wordcount: '3097'
 ht-degree: 1%
@@ -20,14 +20,14 @@ ht-degree: 1%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 
 ## Opmerkingen bij de pre-release september {#25-9-rn}
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 23-24 september, 2025
 
@@ -292,6 +292,8 @@ Wanneer u een aangepaste SMS-provider instelt, hebt u nu de mogelijkheid om wede
 
 * **de configuratiecontrolealarm van het Kanaal** - u kunt nu intekenen om systeemalarm, of door e-mail of in het het kennisgevingscentrum van Journey Optimizer te ontvangen, voor het geval dat een fout van de e-mailkanaalconfiguratie gebruikend het type van de douanesubdomeindelegatie gebeurt. [Meer informatie](../reports/alerts.md#alert-dns-record-missing)
 
+* **één-klik unsubscribe verzoeken** - wij hebben verbeteringen geïntroduceerd die de behandeling van one-click verder versterken unsubscribe verzoeken die onder Beheerde Adobe worden gevormd, die betrouwbare en verenigbare verwerking verzekeren.
+
 
 ## Opmerkingen bij de release van augustus &#39;25 {#25-8-rn}
 
@@ -532,8 +534,6 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
    * **de kenmerkensteun van de Douane met één-Klik unsubscribe URL** - met Journey Optimizer, als u toestemming buiten Adobe beheert, kunt u een extern douaneeindpunt plaatsen door uw eigen te bepalen unsubscribe verbinding in de e-mailconfiguratie. Wanneer uw ontvangers op de koppeling voor afmelden klikken, voegt Journey Optimizer enkele standaardprofielspecifieke parameters toe aan de gebeurtenis voor het bijwerken van de toestemming.
 
      Als u uw koppeling voor het opzeggen van uw abonnement met één klik verder wilt aanpassen, kunt u nu aangepaste kenmerken definiëren die ook aan de gebeurtenis voor toestemming worden toegevoegd. [Meer informatie](../email/list-unsubscribe.md#custom-attributes)
-
-   * **één-klik unsubscribe verzoeken** - wij hebben verbeteringen geïntroduceerd die de behandeling van one-click verder versterken unsubscribe verzoeken die onder Beheerde Adobe worden gevormd, die betrouwbare en verenigbare verwerking verzekeren.
 
 * **Datasets**
 
