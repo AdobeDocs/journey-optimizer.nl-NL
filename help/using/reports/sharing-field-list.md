@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
+source-git-commit: 11b2141db8d0e6dd44987d5f7941430fbe3e48f8
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '601'
 ht-degree: 3%
 
 ---
@@ -77,11 +77,11 @@ Leer meer over eventTypes [ in deze sectie ](#discarded-events).
 Deze categorie bevat de oorspronkelijke velden voor stapgebeurtenissen. Verwijs naar deze [ sectie ](../reports/sharing-legacy-fields.md).
 
 
-## Los verworpen gebeurtenistypes in reis_step_events problemen op  {#discarded-events}
+## Los verworpen gebeurtenistypen in de gebeurtenissen van de stap van de Reis problemen op  {#discarded-events}
 
-Bij het opvragen van gegevens van het type &#39;trip_step_events&#39; met `eventCode = 'discard'`, kunnen er verschillende gebeurtenistypen optreden.
+Bij het opvragen van gebeurtenissen met betrekking tot de stap van de reis naar records met `eventCode = 'discard'`, kan er een aantal eventTypes optreden.
 
-Hieronder zijn definities, gemeenschappelijke oorzaken, en het oplossen van problemenstappen voor het meest frequente verwerpen eventTypes:
+Hieronder vindt u definities, algemene oorzaken en stappen voor het oplossen van problemen voor het meest voorkomende verwijderen `eventTypes` :
 
 * EXTERNAL_KEY_COMPUTATION_ERROR: Het systeem kan geen unieke id (externe sleutel) voor de klant berekenen uit de gebeurtenisgegevens.
 Veelvoorkomende oorzaken: ontbrekende of onjuist gevormde klant-id&#39;s (bijvoorbeeld e-mail, klant-id) in de gebeurtenislading.
@@ -108,5 +108,5 @@ Leer meer over deze gebeurtenissen en hoe te om hen in [ problemen op te lossen 
 
 * [ de vraagsteekproeven van de Dataset - de Gebeurtenis van de Stap van de Reis ](../data/datasets-query-examples.md#journey-step-event).
 * [ Voorbeelden van vragen - op gebeurtenis-gebaseerde Vragen ](query-examples.md#event-based-queries).
-* [ Ingebouwd schemawoordenboek ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+* [ Ingebouwd schemawoordenboek ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 

@@ -5,7 +5,7 @@ title: Geordende campagnes Veelgestelde vragen
 description: Veelgestelde vragen over door Journey Optimizer georganiseerde campagnes
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 0a80d8df834c48b6a5e6f4fafae89006b64bca11
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
 source-wordcount: '1430'
 ht-degree: 1%
@@ -50,7 +50,7 @@ De belangrijkste mogelijkheden omvatten:
 
 Om tot Campagneorganisatie toegang te hebben, moet uw vergunning of de **Journey Optimizer - Campagnes &amp; Reizen** of **Journey Optimizer - het pakket van Campagnes** omvatten. Neem contact op met uw Adobe-vertegenwoordiger om uw licentie te bevestigen en indien nodig bij te werken.
 
-Leer meer over het verlenen van vergunningen van het Organiseren van de Campagne model in [ Adobe Journey Optimizer productbeschrijving ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Leer meer over het verlenen van vergunningen van het Organiseren van de Campagne model in [ Adobe Journey Optimizer productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 +++
 
@@ -177,13 +177,13 @@ In Campagne Orchestration, verwijzen wij naar ad hoc segmentatie als &quot;Leven
 
 +++ Heeft Campagne Orchestration alleen toegang tot gegevens die via batch zijn geladen, of kan het ook vragen in real time bijgewerkte tabellen (zoals Analytics-gegevens)?
 
-Journey Optimizer Campaign Orchestration kan eerst een ad-hocquery maken boven op Relationele schema&#39;s. Relationele schema&#39;s ondersteunen alleen Batch-bronnen voor nu. Daarnaast biedt de toepassing ondersteuning voor gebruikers van elk type Adobe Experience Platform Audience.
+Journey Optimizer Campaign Orchestration kan eerst een ad-hocquery bouwen boven op modelgebaseerde schema&#39;s. Modelgebaseerde schema&#39;s ondersteunen alleen op dit moment Batch-bronnen. Daarnaast biedt de toepassing ondersteuning voor gebruikers van elk type Adobe Experience Platform Audience.
 
 +++
 
 +++ Steunt geordende campagnes beslissingen?
 
-Ja. Beslissing kan relationele gegevens uit geordende campagnes gebruiken. Zodra relationeel schema met schema&#39;s XDM wordt verbonden, kunnen de gegevens XDM in besluit worden gebruikt.
+Ja. Beslissing kan relationele gegevens uit geordende campagnes gebruiken. Zodra model-gebaseerd schema met schema&#39;s XDM wordt verbonden, kunnen de gegevens XDM in besluit worden gebruikt.
 
 +++
 
@@ -260,4 +260,4 @@ Raadpleeg de volgende bronnen voor meer informatie en updates:
 * [Gestroomlijnde campagnes zorgen en beperkingen](../orchestrated/guardrails.md)
 * [Begin met schema&#39;s en datasets in Geordende campagnes](../orchestrated/gs-schemas.md)
 * [Uw eerste geordende campagne maken](../orchestrated/gs-campaign-creation.md)
-* [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}

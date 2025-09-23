@@ -2,30 +2,30 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Configuratiestappen
-description: Leer hoe u een relationeel schema maakt in Adobe Experience Platform door een DDL te uploaden
+description: Leer hoe u een model-gebaseerd schema maakt in Adobe Experience Platform door een DDL te uploaden
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 35cd3aac01467b42d0cba22de507f11546f4feb9
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
 
 
-# Relationele schema&#39;s maken met een DDL-bestand {#file-upload-schema}
+# Op modellen gebaseerde schema&#39;s maken met een DDL-bestand {#file-upload-schema}
 
-Bepaal het relationele gegevensmodel dat voor Geordende campagnes wordt vereist door schema&#39;s zoals **Loyalty Membership**, **Transacties van de Loyalty**, en **Beloningen van de Loyalty** te creëren. Elk schema moet een primaire sleutel, een versieringsattribuut, en aangewezen verhoudingen omvatten om entiteiten zoals **Ontvangers** of **Merken** van verwijzingen te voorzien.
+Bepaal het op model-gebaseerde gegevensmodel dat voor Geordende campagnes wordt vereist door schema&#39;s zoals **Loyalty Membership**, **Transacties van de Loyalty**, en **Beloningen van de Loyalty** te creëren. Elk schema moet een primaire sleutel, een versieringsattribuut, en aangewezen verhoudingen omvatten om entiteiten zoals **Ontvangers** of **Merken** van verwijzingen te voorzien.
 
 De schema&#39;s kunnen manueel door de interface worden gecreeerd of in bulk worden ingevoerd gebruikend een Ddl- dossier.
 
-Deze sectie biedt stapsgewijze instructies voor het maken van een relationeel schema in Adobe Experience Platform door een DDL-bestand (Data Definition Language) te uploaden. Met behulp van een DDL-bestand kunt u vooraf de structuur van uw gegevensmodel definiëren, inclusief tabellen, kenmerken, sleutels en relaties.
+Deze sectie verstrekt geleidelijke begeleiding op hoe te om een model-gebaseerd schema binnen Adobe Experience Platform tot stand te brengen door een DL (de Taal van de Definitie van Gegevens) dossier te uploaden. Met behulp van een DDL-bestand kunt u vooraf de structuur van uw gegevensmodel definiëren, inclusief tabellen, kenmerken, sleutels en relaties.
 
-1. [ upload een Ddl- dossier ](#ddl-upload) om relationele schema&#39;s tot stand te brengen en hun structuur te bepalen.
+1. [ upload een Ddl- dossier ](#ddl-upload) om model-gebaseerde schema&#39;s tot stand te brengen en hun structuur te bepalen.
 
 1. [ bepaalt verhoudingen ](#relationships) tussen lijsten in uw gegevensmodel.
 
-1. [ schema&#39;s van de Verbinding ](#link-schema) om uw relationele gegevens met bestaande profielentiteiten zoals Ontvangers of Banden te verbinden.
+1. [ schema&#39;s van de Verbinding ](#link-schema) om uw op model-gebaseerde gegevens met bestaande profielentiteiten zoals Ontvangers of Banden te verbinden.
 
 1. [ Samenvatting gegevens ](ingest-data.md) in uw dataset van gesteunde bronnen.
 
@@ -35,7 +35,7 @@ Door een DDL-bestand te uploaden, kunt u vooraf de structuur van uw gegevensmode
 
 Op Excel gebaseerde schemabestanden worden geüpload. Download het [ verstrekte malplaatje ](assets/template.zip) om uw schemadefinities gemakkelijk voor te bereiden.
 
-+++De volgende functies worden ondersteund bij het maken van relationele schema&#39;s in Adobe Experience Platform
++++De volgende functies worden ondersteund bij het maken van modelgebaseerde schema&#39;s in Adobe Experience Platform
 
 * **ENUM**\
   De gebieden van ENUM worden gesteund in zowel op DDL-Gebaseerde als handschemaverwezenlijking, die u toestaan om attributen met een vaste reeks toegestane waarden te bepalen.
@@ -57,7 +57,7 @@ Hier volgt een voorbeeld:
   De etikettering wordt gesteund op het niveau van het schemagebied om gegevens te handhaven governance beleid zoals toegangsbeheer en gebruiksbeperkingen. Voor meer details, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl).
 
 * **Samengestelde Sleutel**\
-  Samengestelde primaire sleutels worden in relationele schemadefinities gesteund, toelatend het gebruik van veelvoudige gebieden samen om verslagen uniek te identificeren.
+  Samengestelde primaire sleutels worden ondersteund in modelgebaseerde schemadefinities, waardoor het gebruik van meerdere velden samen mogelijk wordt om records uniek te identificeren.
 
 +++
 
@@ -67,7 +67,7 @@ Hier volgt een voorbeeld:
 
 1. Klik **creëren Schema**.
 
-1. Selecteer **[!UICONTROL Relational]** als uw **type van Schema**.
+1. Selecteer **[!UICONTROL Model-based]** als uw **type van Schema**.
 
    ![](assets/admin_schema_1.png)
 
@@ -155,7 +155,7 @@ Volg onderstaande stappen om logische verbindingen tussen tabellen in uw schema 
 
 1. Klik op **[!UICONTROL Open Jobs]** om de voortgang van de ontwerptaak te volgen. Dit proces kan enkele minuten duren, afhankelijk van het aantal tabellen dat in het DDL-bestand is gedefinieerd.
 
-   U kunt ook uw relationele taken openen door het venster **[!UICONTROL Upload DDL file]** te openen en **[!UICONTROL View all relational Jobs]** te selecteren.
+   U kunt uw DDL-importtaken ook openen door het venster **[!UICONTROL Upload DDL file]** te openen en **[!UICONTROL View all DDL import jobs]** te selecteren.
 
    ![](assets/admin_schema_4.png)
 
@@ -165,7 +165,7 @@ Volg onderstaande stappen om logische verbindingen tussen tabellen in uw schema 
 >
 > Alleen relaties die expliciet in het DDL-bestand zijn gedefinieerd, worden door het systeem herkend. Om het even welke entiteitverhoudingen die buiten het Ddl- dossier bestaan zullen worden genegeerd en niet verwerkt.
 
-Vestig een verband tussen het **schema van de 0&rbrace; loyaliteitstransacties &lbrace;en het** Ontvangers **schema om elke transactie met het correcte klantenverslag te associëren.**
+Vestig een verband tussen het **schema van de 0} loyaliteitstransacties {en het** Ontvangers **schema om elke transactie met het correcte klantenverslag te associëren.**
 
 1. Navigeer aan **[!UICONTROL Schemas]** en open eerder **loyaliteitstransacties** creëren.
 

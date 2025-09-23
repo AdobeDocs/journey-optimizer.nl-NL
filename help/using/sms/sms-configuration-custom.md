@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 71b4c2b711858731cfd0f627a5ff97fe9eb817a2
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,10 @@ Voer de volgende stappen uit als u SMS- en RCS-berichten in Journey Optimizer wi
    * **[!UICONTROL Auth Type&#x200B;]**: Selecteer uw toestemmingstype en [ voltooi de overeenkomstige gebieden ](#auth-options) die op de gekozen authentificatiemethode worden gebaseerd.
 
      ![](assets/sms-byop.png)
+
+1. Schakel de optie **[!UICONTROL mTLS support]** in, die ervoor zorgt dat zowel de client als de server elkaar verifiëren voordat een veilige verbinding tot stand wordt gebracht.
+
+   Als u alleen mTLS wilt gebruiken, selecteert u **[!UICONTROL No Authentication]** in de vervolgkeuzelijst **[!UICONTROL Auth Type]** en schakelt u vervolgens **[!UICONTROL mTLS support]** in.
 
 1. Klik in de sectie **[!UICONTROL Headers]** op **[!UICONTROL Add new parameter]** om de HTTP-headers op te geven voor het aanvraagbericht dat naar de externe service wordt verzonden.
 

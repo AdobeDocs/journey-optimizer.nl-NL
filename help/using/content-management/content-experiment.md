@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: inhoud, experiment, meerdere, publiek, behandeling
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 348a1c0bfaca1abe7fd5705b36879af30da18e54
+source-git-commit: 397fad9c95e0c11c0496ab5c9adfb6f8169de4f6
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 1%
+source-wordcount: '1746'
+ht-degree: 0%
 
 ---
 
@@ -68,7 +68,21 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 >title="Metrisch met succes"
 >abstract="Succesvolle maatstaf wordt gebruikt om de best presterende behandeling in een experiment bij te houden en te evalueren. Ben zeker aan opstelling uw dataset voor bepaalde metriek alvorens het te gebruiken."
 
-1. Wanneer uw bericht wordt gepersonaliseerd, van de pagina van het campagneresamenvatting, klik **[!UICONTROL Create experiment]** beginnen uw inhoudexperiment te vormen.
+Bij het experimenteren met de inhoud kunt u kiezen uit drie typen experimenten:
+
+* **[!UICONTROL A/B experiment]**: definieer de verkeersverdeling tussen de behandelingen aan het begin van de test. De prestaties worden beoordeeld op basis van de gekozen primaire maatstaf, de Experimentation Accelerator, rapporteert dan de waargenomen lift tussen de behandelingen.
+
+* **[!UICONTROL Multi-armed bandit]**: verkeer dat tussen behandelingen wordt opgesplitst, wordt automatisch afgehandeld. Om de 7 dagen, worden de prestaties op primaire metrisch beoordeeld, en de gewichten worden dienovereenkomstig aangepast. Uit de rapportage in de Experimentation Accelerator blijkt nog steeds dat Lift aanwezig is, als A/B-tests.
+
+* **[!UICONTROL Bring your own Multi-armed bandit]**: verkeer dat tussen behandelingen wordt opgesplitst, wordt automatisch afgehandeld. U hebt de flexibiliteit om te bepalen wanneer en hoe het zou moeten veranderen door de Experiment APIs te gebruiken om toewijzingen in real time aan te passen.
+
+➡️ [ Leer meer op het verschil tussen A/B en Multi-gewapende bandit experimenten ](mab-vs-ab.md)
+
+>[!BEGINTABS]
+
+>[!TAB  A/B experiment ]
+
+1. Wanneer uw bericht wordt gepersonaliseerd, van het **[!UICONTROL Actions]** lusje, klik **[!UICONTROL Create experiment]** beginnen uw inhoudexperiment te vormen.
 
    ![](assets/content_experiment_3.png)
 
@@ -78,9 +92,11 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 
    ![](assets/content_experiment_11.png)
 
-1. Wanneer u een experiment instelt met de functie In-app of Web en de opties **[!UICONTROL Inbound Clicks]** , **[!UICONTROL Unique Inbound Clicks]** , **[!UICONTROL Page Views]** of **[!UICONTROL Unique Page Views metrics]** kiest, kunt u in de vervolgkeuzelijst **[!UICONTROL Click Action]** klikken en weergaven op specifieke pagina&#39;s nauwkeurig bijhouden en controleren.
+1. Wanneer u een experiment instelt met de In-app of het webkanaal en **[!UICONTROL Inbound Clicks]** , **[!UICONTROL Unique Inbound Clicks]** , **[!UICONTROL Page Views]** of **[!UICONTROL Unique Page Views metrics]** kiest, kunt u in het veld **[!UICONTROL Dimensions]** klikken en weergaven op specifieke pagina&#39;s nauwkeurig bijhouden en controleren.
 
    ![](assets/content_experiment_20.png)
+
+1. Als u een API-getriggerde campagne hebt gemaakt, selecteert u **[!UICONTROL A/B Experiment]** in de vervolgkeuzelijst **[!UICONTROL Experiment type]** .
 
 1. Klik op **[!UICONTROL Add treatment]** om zoveel nieuwe verwerkingen te maken als nodig is.
 
@@ -104,7 +120,89 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 
 1. Laat het auto-schaalexperiment toe om de winnende variatie van uw experiment automatisch uit te rollen. [ Leer meer op hoe te om winnaar te schrapen ](#scale-winner)
 
+   ![](assets/content_experiment_14.png)
+
 1. Klik op **[!UICONTROL Create]** wanneer de configuratie is ingesteld.
+
+>[!TAB  Meervoudig-gewapende bandit ]
+
+Merk op dat het multi-gewapende bandeexperiment slechts met het volgende beschikbaar is:
+
+* Binnenkomende kanalen
+* Eenheid
+* API-actiecampagnes (zowel transactioneel als operationeel)
+* Uitgaande Kanalen als het programma opnieuw voorkomt
+
+1. Wanneer uw bericht wordt gepersonaliseerd, van het **[!UICONTROL Actions]** lusje, klik **[!UICONTROL Create experiment]** beginnen uw inhoudexperiment te vormen.
+
+   ![](assets/content_experiment_3.png)
+
+1. Selecteer de **[!UICONTROL Success metric]** die u voor het experiment wilt instellen.
+
+   In dit voorbeeld selecteert u **[!UICONTROL Email open]** om te testen of profielen hun e-mails openen als de promotiecode zich op de onderwerpregel bevindt.
+
+   ![](assets/content_experiment_11.png)
+
+1. Als u een API-getriggerde campagne hebt gemaakt, selecteert u **[!UICONTROL Multi-armed bandit]** in de vervolgkeuzelijst **[!UICONTROL Experiment type]** .
+
+   ![](assets/content-experiment-mab-1.png)
+
+1. Klik op **[!UICONTROL Add treatment]** om zoveel nieuwe verwerkingen te maken als nodig is.
+
+   ![](assets/content-experiment-mab-2.png)
+
+1. Wijzig de **[!UICONTROL Title]** van uw behandeling om deze beter te kunnen onderscheiden.
+
+1. Kies of u een **[!UICONTROL Holdout]** -groep wilt toevoegen aan uw levering. Deze groep zal geen inhoud van deze campagne ontvangen.
+
+   Als u de schakelbalk inschakelt, neemt dit automatisch 10% van uw bevolking in beslag. Indien nodig kunt u dit percentage aanpassen.
+
+   >[!IMPORTANT]
+   >
+   >Wanneer een holdout-groep wordt gebruikt in een actie voor het experimenteren met inhoud, is de holdout-toewijzing alleen van toepassing op die specifieke actie. Nadat de actie wordt voltooid, zullen de profielen in de holdout groep de weg verdergaan en berichten van andere acties kunnen ontvangen. Daarom zorg ervoor dat om het even welke verdere berichten niet op het ontvangstbewijs van een bericht door een profiel vertrouwen dat in een holdout groep zou kunnen zijn. Als dat het geval is, moet u mogelijk de callout-toewijzing verwijderen.
+
+   ![](assets/content-experiment-mab-3.png)
+
+>[!TAB  breng uw eigen Multi-gewapende bandit ]
+
+Merk op dat Breng uw eigen Multi-gewapende bandeexperiment slechts met het volgende beschikbaar is:
+
+* Binnenkomende kanalen
+* Eenheid
+* API-actiecampagnes (zowel transactioneel als operationeel)
+* Uitgaande Kanalen als het programma opnieuw voorkomt
+
+1. Wanneer uw bericht wordt gepersonaliseerd, van het **[!UICONTROL Actions]** lusje, klik **[!UICONTROL Create experiment]** beginnen uw inhoudexperiment te vormen.
+
+   ![](assets/content_experiment_3.png)
+
+1. Selecteer de **[!UICONTROL Success metric]** die u voor het experiment wilt instellen.
+
+   In dit voorbeeld selecteert u **[!UICONTROL Email open]** om te testen of profielen hun e-mails openen als de promotiecode zich op de onderwerpregel bevindt.
+
+   ![](assets/content_experiment_11.png)
+
+1. Als u een API-getriggerde campagne hebt gemaakt, selecteert u **[!UICONTROL Bring your own Multi-armed bandit]** in de vervolgkeuzelijst **[!UICONTROL Experiment type]** .
+
+   ![](assets/content-experiment-mab-4.png)
+
+1. Klik op **[!UICONTROL Add treatment]** om zoveel nieuwe verwerkingen te maken als nodig is.
+
+   ![](assets/content-experiment-mab-5.png)
+
+1. Wijzig de **[!UICONTROL Title]** van uw behandeling om deze beter te kunnen onderscheiden.
+
+1. Kies of u een **[!UICONTROL Holdout]** -groep wilt toevoegen aan uw levering. Deze groep zal geen inhoud van deze campagne ontvangen.
+
+   Als u de schakelbalk inschakelt, neemt dit automatisch 10% van uw bevolking in beslag. Indien nodig kunt u dit percentage aanpassen.
+
+   >[!IMPORTANT]
+   >
+   >Wanneer een holdout-groep wordt gebruikt in een actie voor het experimenteren met inhoud, is de holdout-toewijzing alleen van toepassing op die specifieke actie. Nadat de actie wordt voltooid, zullen de profielen in de holdout groep de weg verdergaan en berichten van andere acties kunnen ontvangen. Daarom zorg ervoor dat om het even welke verdere berichten niet op het ontvangstbewijs van een bericht door een profiel vertrouwen dat in een holdout groep zou kunnen zijn. Als dat het geval is, moet u mogelijk de callout-toewijzing verwijderen.
+
+   ![](assets/content-experiment-mab-6.png)
+
+>[!ENDTABS]
 
 ## Uw behandelingen ontwerpen {#treatment-experiment}
 
@@ -147,7 +245,6 @@ U kunt kiezen uit twee modi:
 
 * **Handmatig Schalen**: Herzie manueel experimenteerresultaten en stel de terugwinning van de het winnen behandeling in werking, die volledige controle over timing en besluiten handhaaft.
 
-
 ### Automatisch schalen {#autoscaling}
 
 Met Automatisch schalen kunt u vooraf gedefinieerde regels instellen voor het tijdstip waarop de winnende bewerking of een fallback moet worden uitgevoerd, op basis van de resultaten van het experiment.
@@ -167,9 +264,9 @@ Automatisch schalen inschakelen voor experimenten:
    * Zodra de winnaar is gevonden.
    * Na het experiment wordt live gedurende de geselecteerde tijd uitgevoerd.
 
-     De automatisch schaalbare tijd moet voor de einddatum van het experiment zijn gepland. Als deze voor een tijd na de einddatum wordt ingesteld, verschijnt er een validatiewaarschuwing en wordt de campagne of de reis niet gepubliceerd.
+De automatisch schaalbare tijd moet voor de einddatum van het experiment zijn gepland. Als deze voor een tijd na de einddatum wordt ingesteld, verschijnt er een validatiewaarschuwing en wordt de campagne of de reis niet gepubliceerd.
 
-   ![](assets/scale-winner-2.png)
+    ![](assets/scale-winner-2.png)
 
 1. Kies het terugvalgedrag als er geen winnaar is gevonden op schaaltijd:
 

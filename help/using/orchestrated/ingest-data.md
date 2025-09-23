@@ -5,7 +5,7 @@ title: Configuratiestappen
 description: Leer hoe u gegevens van ondersteunde bronnen, zoals SFTP, cloudopslag of databases, naar Adobe Experience Platform kunt overbrengen.
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 1%
@@ -39,35 +39,35 @@ De volgende bronnen worden ondersteund voor gebruik met geordende campagnes:
   <tbody>
     <tr>
       <td rowspan="3">Cloud Storage</td>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
     </tr>
       <td rowspan="4">Cloud Data Warehouses</td>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Gegevenslandingszone<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Gegevenslandingszone<a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
     </tr>
     <tr>
       <td rowspan="3">Bestandsgebaseerde uploads</td>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Lokaal bestand uploaden<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Lokaal bestand uploaden<a></td>
     </tr>
 
 </tbody>
 </table>
 
-## Richtsnoeren voor de gegevenshygiëne van relationele schema&#39;s {#cdc}
+## Richtsnoeren voor op modellen gebaseerde gegevenshygiëne in het schema {#cdc}
 
 Voor datasets die met **[!UICONTROL Change data capture]** worden toegelaten, worden alle gegevensveranderingen met inbegrip van schrappingen, automatisch weerspiegeld van het bronsysteem in Adobe Experience Platform.
 
@@ -85,7 +85,7 @@ Als een klant records alleen uit Adobe Experience Platform wil verwijderen zonde
 
   Als vergunning gegeven, **Gegevens Distiller** kan worden gebruikt om schrappingsverrichtingen direct binnen Adobe Experience Platform, onafhankelijk van het bronsysteem te steunen.
 
-  [ Leer meer op Gegevens Distiller ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/data-distiller/overview)
+  [ Leer meer op Gegevens Distiller ](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
 
 ## Een gegevensstroom configureren
 
@@ -105,9 +105,9 @@ In dit voorbeeld wordt getoond hoe u een gegevensstroom configureert die gestruc
 
    ![](assets/S3_config_1.png)
 
-1. Schakel **[!UICONTROL Dataset details]** vanaf de pagina **[!UICONTROL Enable Change data capture]** in om alleen gegevenssets weer te geven die zijn toegewezen aan relationele schema&#39;s en die zowel een primaire sleutel als een versiedescriptor bevatten.
+1. Schakel **[!UICONTROL Dataset details]** vanaf de pagina **[!UICONTROL Enable Change data capture]** in om alleen gegevenssets weer te geven die zijn toegewezen aan op modellen gebaseerde schema&#39;s en die zowel een primaire sleutel als een versiedescriptor bevatten.
 
-[Meer informatie over richtlijnen voor de gegevenshygiëne van relationele schema&#39;s](#cdc)
+[Meer informatie over richtlijnen voor op modellen gebaseerde Schemas-gegevenshygiëne](#cdc)
 
    >[!IMPORTANT]
    >

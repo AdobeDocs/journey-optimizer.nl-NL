@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 36136c8fce1b6bd9113d95787afbcff5a7605ddf
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '490'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Voor het maken van goedkeuringsbeleid hebt u in Adobe Experience Platform systeem- of productbeheerdersrechten nodig. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/home)
+>Voor het maken van goedkeuringsbeleid hebt u in Adobe Experience Platform systeem- of productbeheerdersrechten nodig. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 Met het goedkeuringsbeleid kunnen beheerders een validatieproces voor reizen en campagnes instellen. Dit systeem schetst specifieke voorwaarden die bepalen of een reis of campagne goedkeuring vereist. Dit beleid kan in ingewikkeldheid variëren, van eenvoudig het vereisen van alle campagnes om door een bepaalde gebruiker of een team worden herzien, tot het bepalen van criteria die op wie de campagne hebben gecreeerd worden gebaseerd.
 
@@ -51,6 +51,8 @@ Voer de volgende stappen uit om een goedkeuringsbeleid te maken:
 
 1. Selecteer of het beleid van toepassing is op **[!UICONTROL Journeys]** of **[!UICONTROL Campaigns]** .
 
+1. Schakel **[!UICONTROL Block self-approval]** in om te voorkomen dat ontwikkelaars van reizen/campagnes hun eigen objecten goedkeuren.
+
    ![](assets/policy_create_2.png)
 
 U kunt nu de voorwaarden verfijnen om op te geven wie het goedkeuringsverzoek kan starten en wie het kan valideren.
@@ -69,7 +71,7 @@ Voer de volgende stappen uit om de voorwaarden te definiëren die aan een goedke
 
    ![](assets/policy_condition_1.png)
 
-+++ Meer informatie over beschikbare rubrieken en opties
+   +++ Meer informatie over beschikbare rubrieken en opties
    <table>
     <tr>
       <th>Categorie</th>

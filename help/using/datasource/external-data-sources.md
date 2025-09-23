@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: extern, bronnen, gegevens, configuratie, verbinding, derde
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
+source-git-commit: 4d979ccc421221993a752dd41bc22ea3d83e7555
 workflow-type: tm+mt
-source-wordcount: '1634'
-ht-degree: 43%
+source-wordcount: '1604'
+ht-degree: 44%
 
 ---
 
@@ -272,4 +272,4 @@ Hier is een voorbeeld van de reactie van de login API vraag:
 
 >[!CAUTION]
 >
->Wanneer het vormen van douaneauthentificatie voor een douaneactie, merk op dat de genestelde voorwerpen JSON (b.v., sub-voorwerpen binnen `bodyParams`) momenteel **niet** worden gesteund. Alleen platte sleutel-waardeparen worden opgenomen in de uiteindelijke lading van het verzoek. Als uw verificatiepunt geneste objecten vereist, kan dit leiden tot ontbrekende velden en verificatiefouten.
+>Wanneer het vormen van douaneauthentificatie voor een douaneactie, merk op dat de genestelde voorwerpen JSON (b.v., sub-voorwerpen binnen `bodyParams`) **worden gesteund**.

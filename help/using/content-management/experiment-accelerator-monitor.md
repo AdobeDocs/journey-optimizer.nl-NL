@@ -8,26 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: inhoud, experiment, meerdere, publiek, behandeling
-hide: true
-hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+exl-id: 40a57083-d7b1-416b-af87-4b603b83052d
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1008'
 ht-degree: 0%
 
 ---
 
 # Uw experimenten bijhouden {#monitor}
-
->[!BEGINSHADEBOX]
-
-* [Aan de slag met de Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)
-* [Gegevensgebruik in AI met Journey Optimizer Experimentation Accelerator](experiment-accelerator-security.md)
-* [Aanbevolen procedures voor Journey Optimizer Experimentation Accelerator](experiment-accelerator-best-practices.md)
-* **[experimenten van de Monitor](experiment-accelerator-monitor.md)**
-* [Metrische experimenten](experiment-accelerator-metrics.md)
-
->[!ENDSHADEBOX]
 
 Het tabblad **[!UICONTROL Experiments]** centraliseert het bijhouden en analyseren van tests vanuit Adobe Journey Optimizer en Adobe Target. U kunt alle experimenten bekijken, KPIs herzien, en filter of onderzoek om van specifieke tests de plaats te bepalen.
 
@@ -158,7 +147,7 @@ Merk op dat voor de Te produceren kansen van de Experimenteer, u eerst hypothese
 
    Voor experimenten die afkomstig zijn uit **[!DNL Adobe Target]** , worden de voorgestelde wijzigingen geladen in de testworkflow van **[!DNL Adobe Target]** .
 
-   ➡️ [ Leer meer in de documentatie van Adobe Target ](https://experienceleague.adobe.com/nl/docs/target/using/activities/abtest/test-ab)
+   ➡️ [ Leer meer in de documentatie van Adobe Target ](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
 
 1. In de experimentele weergave zijn dezelfde AI **[!UICONTROL Experimentation Opportunities]** die de Journey Optimizer Experimentation Accelerator heeft aangetroffen, toegankelijk.
 

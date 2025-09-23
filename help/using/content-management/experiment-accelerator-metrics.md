@@ -8,27 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: inhoud, experiment, meerdere, publiek, behandeling
-hide: true
-hidefromtoc: true
 exl-id: 74868625-f4ea-44f9-ae2a-8e5fdd22a081
-source-git-commit: 70fce6fae4db58c72496945c50155dbd0b4986b4
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
 
 # Metrics {#experiment-accelerator-metrics}
-
->[!BEGINSHADEBOX]
-
-* [Aan de slag met de Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)
-* [Gegevensgebruik in AI met Journey Optimizer Experimentation Accelerator](experiment-accelerator-security.md)
-* [Aanbevolen procedures voor Journey Optimizer Experimentation Accelerator](experiment-accelerator-best-practices.md)
-* [Monitorexperimenten](experiment-accelerator-monitor.md)
-* **[metriek van de Experimentatie](experiment-accelerator-metrics.md)**
-
->[!ENDSHADEBOX]
 
 Op de pagina **[!UICONTROL Metrics]** worden succesgegevens van Journey Optimizer- en Target-experimenten op één plaats weergegeven, zodat prestatiebewaking, vergelijking en diepgaande inzichten mogelijk zijn.
 

@@ -5,7 +5,7 @@ title: Geordende campagnes
 description: Geordende campagnes
 redpen-status: CREATED_||_2025-08-11_20-27-33
 exl-id: 31f3668f-99fb-4388-a379-4979c63b7b3a
-source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 2%
@@ -20,7 +20,7 @@ Met geordende campagnes in Adobe Journey Optimizer kunt u geavanceerde, uit meer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Inleiding tot geordende campagnes
 
@@ -30,7 +30,7 @@ Leer meer over de kernmogelijkheden, componenten en het onderscheid tussen geord
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Afvoerkanalen en beperkingen
 
@@ -40,17 +40,17 @@ Begrijp de beperkingen en beperkingen om te overwegen wanneer het gebruiken van 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gegevensconfiguratie voor geordende campagnes
 
-Vorm relationele schema&#39;s, datasets, en kanalen om gegevensbereidheid voor Geordende campagnes te verzekeren.
+Vorm model-gebaseerde schema&#39;s, datasets, en kanalen om gegevensbereidheid voor Geordende campagnes te verzekeren.
 
 [Gegevensconfiguratie verkennen](data-configuration-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Geordende campagnes starten en beheren
 
@@ -60,7 +60,7 @@ Een stapsgewijze gids voor het maken, orkesteren, controleren en analyseren van 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Vraag het Gegevensbestand voor Geordende Campagnes
 
@@ -70,7 +70,7 @@ Hoofddatabase die zich richt op doelgroepen, segmenten en doelgroepen in georden
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Uitgebreide gids voor campagneactiviteiten
 
@@ -84,4 +84,4 @@ Ontdek het richten, kanaal, en stroom controleactiviteiten beschikbaar voor het 
 ## Aanvullende bronnen
 
 - **[vaak Gestelde Vragen](../using/orchestrated/orchestrated-campaigns-faq.md)** - onderzoek Veelgestelde Vragen (FAQ) over Adobe Journey Optimizer Geordende campagnes.
-.
+

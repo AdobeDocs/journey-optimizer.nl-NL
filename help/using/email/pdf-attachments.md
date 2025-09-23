@@ -8,9 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: e-mail, bericht, bijlage, pdf, editor
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
+source-git-commit: 504b038a5f0a1f40304e355325843c238ab56da5
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -22,10 +23,6 @@ ht-degree: 0%
 >title="Een PDF-bijlage toevoegen"
 >abstract="Blader naar een PDF-bestand dat u als bijlage bij uw e-mail wilt toevoegen.</br> u kunt tot 6 berichten met een gehechtheid van PDF per profiel per jaar verzenden. De maximaal toegestane bestandsgrootte voor elke bijlage is 5 MB.</br> voor om het even welk extra grootte of volume, kunt u een toe:voegen-op van het gehechtheepakket kopen. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger."
 
->[!AVAILABILITY]
->
->Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
-
 U kunt een statisch PDF-bestand toevoegen aan de e-mailberichten die u verzendt met [!DNL Journey Optimizer] .
 
 >[!IMPORTANT]
@@ -34,7 +31,7 @@ U kunt een statisch PDF-bestand toevoegen aan de e-mailberichten die u verzendt 
 >
 >* De maximaal toegestane bestandsgrootte voor elke bijlage is 5 MB.
 >
->Voor elke extra grootte of elk extra volume kunt u een invoegtoepassing voor een bijlagepakket aanschaffen. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>Voor elke extra grootte of elk ander volume kunt u de invoegtoepassing PDF-bijlagen aanschaffen. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 Voer de onderstaande stappen uit als u een PDF-bestand aan een e-mailbericht wilt koppelen.
 
@@ -48,7 +45,7 @@ Voer de onderstaande stappen uit als u een PDF-bestand aan een e-mailbericht wil
 
    >[!NOTE]
    >
-   >Bij het ontwerpen van berichten hebt u rechtstreeks vanuit de Journey Optimizer-interface toegang tot de gegevensopslagruimte Assets. Meer over het ingebedde [!DNL Assets Essentials] gebruikersinterface leren, verwijs naar [ documentatie van de Hoofdzaak van Experience Manager Assets ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=nl-NL){target="_blank"}.
+   >Bij het ontwerpen van berichten hebt u rechtstreeks vanuit de Journey Optimizer-interface toegang tot de gegevensopslagruimte Assets. Meer over het ingebedde [!DNL Assets Essentials] gebruikersinterface leren, verwijs naar [ documentatie van de Hoofdzaak van Experience Manager Assets ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
 1. Gebruik het filter **[!UICONTROL PDF]** in de sectie **[!UICONTROL MIME Type]** om de selectie te beperken tot de juiste bestandsindeling.
 

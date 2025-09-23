@@ -2,10 +2,10 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Configuratiestappen
-description: Leer hoe u een relationeel schema maakt in Adobe Experience Platform door een DDL te uploaden
+description: Leer hoe u een model-gebaseerd schema maakt in Adobe Experience Platform door een DDL te uploaden
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: 387aa023b4cb999ae4c27cbca4a2f7bcb5edf009
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 1%
@@ -13,9 +13,9 @@ ht-degree: 1%
 ---
 
 
-# Aan de slag met relationele schema&#39;s en gegevenssets{#gs-schemas}
+# Ga aan de slag met op modellen gebaseerde schema&#39;s en gegevenssets{#gs-schemas}
 
-Deze gids begeleidt u door het proces om een relationeel schema tot stand te brengen, vormend een dataset voor Geordende campagnes en het opnemen van gegevens.
+Deze gids begeleidt u door het proces om een model-gebaseerd schema tot stand te brengen, vormend een dataset voor Geordende campagnes en het opnemen van gegevens.
 
 ![ schema ](assets/do-not-localize/schema_admin.png){zoomable="yes"}
 
@@ -35,13 +35,13 @@ Hierin wordt beschreven:
 
 Een gegevensmodel is logisch en conceptueel, niet gebonden aan een fysieke implementatie in Geordende Campagne
 
-In a **Relationeel gegevensmodel**, wordt het gegeven georganiseerd in lijsten met betrekking tot andere lijsten.
+In a **model-gebaseerd gegevensmodel**, wordt het gegeven georganiseerd in lijsten met betrekking tot andere lijsten.
 
 * Elke tabel heeft rijen (records) en kolommen (kenmerken)
 * Elke tabel heeft een primaire sleutel om rijen op unieke wijze te identificeren
 * Relaties tussen tabellen worden uitgedrukt met behulp van buitenlandse sleutels
 
-A **relationeel schema** is de formele definitie van het relationele gegevensmodel.
+A **op model-gebaseerd schema** is de formele definitie van het op model-gebaseerde gegevensmodel.
 
 Hier wordt aangegeven:
 
@@ -50,13 +50,13 @@ Hier wordt aangegeven:
 * De beperkingen
 * De relaties tussen tabellen
 
-Het organiseren van schema&#39;s of lijsten in een relationeel gegevensmodel is over het structureren van uw gegevens in veelvoudige lijsten. Zorg ervoor dat elke tabel één type entiteit/schema&#39;s opslaat
+Het organiseren van schema&#39;s of lijsten in een model-gebaseerd gegevensmodel is over het structureren van uw gegevens in veelvoudige lijsten. Zorg ervoor dat elke tabel één type entiteit/schema&#39;s opslaat
 
 ## Implementatiestappen {#implementation}
 
-Voer de volgende stappen uit om gegevens in te voeren en relationeel schema te maken:
+Voer de volgende stappen uit om gegevens in te voeren en op een model gebaseerd schema te maken:
 
-1. Creeer [ relationeel schema manueel ](manual-schema.md) of [ gebruikend een Ddl- dossier ](file-upload-schema.md)
+1. Creeer [ model-gebaseerd schema manueel ](manual-schema.md) of [ gebruikend een Ddl- dossier ](file-upload-schema.md)
 
    Definieer de structuur van uw gegevensmodel, inclusief tabellen, kenmerken en relaties. Kies ervoor het schema handmatig te bouwen in de gebruikersinterface of een DDL-bestand te uploaden voor een snellere installatie.
 

@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
-source-wordcount: '2948'
+source-wordcount: '2954'
 ht-degree: 18%
 
 ---
@@ -235,8 +235,8 @@ ht-degree: 18%
       + [Veelgestelde vragen](using/orchestrated/orchestrated-campaigns-faq.md)
       + Gegevensconfiguratie {#data-configuration}
          + [Gegevensconfiguratie](/help/rp_landing_pages/data-configuration-landing-page.md)
-         + Relationele schema&#39;s en gegevens beheren {#schemas-datasets}
-            + [Relationele schema&#39;s en gegevens beheren](/help/rp_landing_pages/schemas-datasets-landing-page.md)
+         + Op modellen gebaseerde schema&#39;s en gegevenssets beheren {#schemas-datasets}
+            + [Op modellen gebaseerde schema&#39;s en gegevenssets beheren](/help/rp_landing_pages/schemas-datasets-landing-page.md)
             + [Begin met schema&#39;s en datasets](using/orchestrated/gs-schemas.md)
             + [Handmatig schema](using/orchestrated/manual-schema.md)
             + [Schema voor uploaden bestand](using/orchestrated/file-upload-schema.md)
@@ -555,6 +555,7 @@ ht-degree: 18%
          + [Metrische experimenteerversneller](using/content-management/experiment-accelerator-metrics.md)
       + Technische opmerkingen {#technotes}
          + [Technische opmerkingen](/help/rp_landing_pages/technotes-landing-page.md)
+         + [A/B-test versus multigewapende bandit](using/content-management/mab-vs-ab.md)
          + [Statistische berekeningen begrijpen](using/content-management/experiment-calculations.md)
          + [Statistische berekeningen in het Experimentenrapport begrijpen](using/content-management/experiment-report-calculations.md)
 + Soorten publiek, profielen en identiteit {#audiences-profiles-identities}
@@ -874,7 +875,7 @@ ht-degree: 18%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}

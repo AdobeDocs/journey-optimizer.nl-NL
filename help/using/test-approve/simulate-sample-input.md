@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
-source-git-commit: 03b22446ee06b5a6c20145c4b9abed95ac24e8bb
+source-git-commit: de1a8f0136dad476b1bd0e2cb3468da9271e66d0
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,10 @@ Alle kenmerken die in de inhoud voor personalisatie worden gebruikt, worden auto
 
 Overweeg de volgende instructies en voorwaarden voordat u begint met het testen van de inhoud met behulp van voorbeeldinvoergegevens.
 
-* **Kanalen** - het Simuleren van inhoudsvariaties is slechts beschikbaar voor de E-mail, SMS en Push berichtkanalen.
+* **Kanalen** - het Simuleren van inhoudsvariaties is beschikbaar voor:
+
+   * de kanalen voor e-mail-, sms- en pushmeldingen;
+   * alle binnenkomende kanalen (Web, code-gebaseerde ervaring, In-app, de kaarten van de Inhoud).
 
 * **Gesteunde mogelijkheden** - de variaties van de inhoud kunnen met [!DNL Journey Optimizer] meertalige inhoud en inhoud experimenteren mogelijkheden worden gebruikt. Zo kunt u berichten in meerdere talen testen en inhoud optimaliseren door te experimenteren.
 
@@ -42,7 +45,7 @@ Overweeg de volgende instructies en voorwaarden voordat u begint met het testen 
 
   >[!NOTE]
   >
-  >Momenteel zijn inbox rendering en spamrapporten niet beschikbaar in de huidige ervaring:. Als u deze functies wilt gebruiken, selecteert u de knop **[!UICONTROL Simulate content]** in de inhoud om toegang te krijgen tot de vorige gebruikersinterface.
+  >Momenteel zijn inbox rendering en spamrapporten niet beschikbaar in de huidige ervaring. Als u deze functies wilt gebruiken, selecteert u de knop **[!UICONTROL Simulate content]** in de inhoud om toegang te krijgen tot de vorige gebruikersinterface.
 
 * **Attributen** - zowel worden profiel als contextafhankelijke attributen gesteund.
 

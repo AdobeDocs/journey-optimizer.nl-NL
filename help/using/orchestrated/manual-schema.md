@@ -2,24 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Configuratiestappen
-description: Leer hoe u relationele schema's rechtstreeks via de gebruikersinterface kunt maken.
+description: Leer hoe u op modellen gebaseerde schema's rechtstreeks via de gebruikersinterface kunt maken.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 5eb60e7c551796829c25a407ff45fbfec4bb76dd
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
 
+# Een handmatig op een model gebaseerd schema instellen {#manual-schema}
 
-# Handmatig relationeel schema instellen {#manual-schema}
-
-Relationele schema&#39;s kunnen direct door het gebruikersinterface worden gecreeerd, toelatend gedetailleerde configuratie van attributen, primaire sleutels, versioning gebieden, en verhoudingen.
+Op modellen gebaseerde schema&#39;s kunnen direct door het gebruikersinterface worden gecreeerd, toelatend gedetailleerde configuratie van attributen, primaire sleutels, versieringsgebieden, en verhoudingen.
 
 Het volgende voorbeeld bepaalt manueel het **schema van het Membership van de Loyalty** om de vereiste structuur voor Geordende campagnes te illustreren.
 
-1. [ creeer manueel een relationeel schema ](#schema) gebruikend de interface van Adobe Experience Platform.
+1. [ creeer manueel een model-gebaseerd schema ](#schema) gebruikend de interface van Adobe Experience Platform.
 
 1. [ voegt attributen ](#schema-attributes) zoals klant identiteitskaart, lidmaatschapsniveau, en statusgebieden toe.
 
@@ -31,7 +30,7 @@ Het volgende voorbeeld bepaalt manueel het **schema van het Membership van de Lo
 
 ## Uw schema maken {#schema}
 
-Begin door een nieuw relationeel schema manueel in Adobe Experience Platform te creëren. Met dit proces kunt u de schemastructuur helemaal opnieuw definiëren, inclusief de naam en het gedrag.
+Begin door een nieuw model-gebaseerd schema manueel in Adobe Experience Platform te creëren. Met dit proces kunt u de schemastructuur helemaal opnieuw definiëren, inclusief de naam en het gedrag.
 
 1. Meld u aan bij Adobe Experience Platform.
 
@@ -39,7 +38,7 @@ Begin door een nieuw relationeel schema manueel in Adobe Experience Platform te 
 
 1. Klik op **[!UICONTROL Create Schema]**.
 
-1. Selecteer **[!UICONTROL Relational]** als uw **type van Schema**.
+1. Selecteer **[!UICONTROL Model-based]** als uw **type van Schema**.
 
    ![](assets/admin_schema_1.png){zoomable="yes"}
 
@@ -59,7 +58,7 @@ Voeg vervolgens kenmerken toe om de structuur van het schema te definiëren. Dez
 
 Schema&#39;s die worden gebruikt voor activering, moeten ten minste één identiteitsveld van het type `String` met een bijbehorende naamruimte bevatten. Dit zorgt voor compatibiliteit met de Adobe Journey Optimizer-functionaliteit voor het maken van doelen en het oplossen van identiteiten.
 
-+++De volgende functies worden ondersteund bij het maken van relationele schema&#39;s in Adobe Experience Platform
++++De volgende functies worden ondersteund bij het maken van modelgebaseerde schema&#39;s in Adobe Experience Platform
 
 * **ENUM**\
   De gebieden van ENUM worden gesteund in zowel op DDL-Gebaseerde als handschemaverwezenlijking, die u toestaan om attributen met een vaste reeks toegestane waarden te bepalen.
@@ -68,7 +67,7 @@ Schema&#39;s die worden gebruikt voor activering, moeten ten minste één identi
   De etikettering wordt gesteund op het niveau van het schemagebied om gegevens te handhaven governance beleid zoals toegangsbeheer en gebruiksbeperkingen. Voor meer details, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl).
 
 * **Samengestelde Sleutel**\
-  Samengestelde primaire sleutels worden in relationele schemadefinities gesteund, toelatend het gebruik van veelvoudige gebieden samen om verslagen uniek te identificeren.
+  Samengestelde primaire sleutels worden ondersteund in modelgebaseerde schemadefinities, waardoor het gebruik van meerdere velden samen mogelijk wordt om records uniek te identificeren.
 
 +++
 
@@ -149,13 +148,19 @@ U moet nu uw Dataset voor Orchestrate Campaigns toelaten.
 
 ## Dataset inschakelen voor geordende campagnes {#enable}
 
+>[!CONTEXTUALHELP]
+>id="ajo_oc_enable_dataset_for_oc"
+>title="Geordende campagnes"
+>abstract="Na het creëren van uw dataset, moet u het voor Geordende Campagnes uitdrukkelijk toelaten. Deze stap zorgt ervoor dat uw dataset beschikbaar is voor organisatie en verpersoonlijking in real time binnen Adobe Journey Optimizer."
+
+
 Na het creëren van uw dataset, moet u het voor Geordende Campagnes uitdrukkelijk toelaten. Deze stap zorgt ervoor dat uw dataset beschikbaar is voor organisatie en verpersoonlijking in real time binnen Adobe Journey Optimizer.
 
 Verwijs naar [ documentatie van Adobe Developer ](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement) om Geordende Uitbreiding van de Campagne op Dataset te bevestigen of toe te laten.
 
 1. Zoek de gegevensset in de lijst **[!UICONTROL Datasets]** .
 
-1. Van de **[!UICONTROL Datasets]** montages, laat de **Geordende 2&rbrace; optie van Campagnes &lbrace;toe om de dataset beschikbaar voor gebruik in uw Geordende Campagnes te maken.**
+1. Van de **[!UICONTROL Datasets]** montages, laat de **Geordende 2} optie van Campagnes {toe om de dataset beschikbaar voor gebruik in uw Geordende Campagnes te maken.**
 
    ![](assets/schema_manual_7.png){zoomable="yes"}
 
