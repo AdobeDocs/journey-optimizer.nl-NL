@@ -10,9 +10,10 @@ level: Beginner
 keywords: inhoud, experiment, meerdere, publiek, behandeling
 hide: true
 hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+exl-id: 74868625-f4ea-44f9-ae2a-8e5fdd22a081
+source-git-commit: 70fce6fae4db58c72496945c50155dbd0b4986b4
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -35,8 +36,6 @@ Op de pagina **[!UICONTROL Metrics]** worden succesgegevens van Journey Optimize
 
 Wanneer u het tabblad **[!UICONTROL Metrics]** opent, worden alle beschikbare succesgegevens van Journey Optimizer en Adobe Target weergegeven in een geconsolideerde weergave, zodat u de prestaties van verschillende initiatieven kunt bijhouden, resultaten kunt vergelijken en snel gebieden kunt identificeren die aandacht behoeven.
 
-De lijst **[!UICONTROL Metrics]** bevat:
-
 U kunt filters openen door op ![](assets/do-not-localize/Smock_Filter_18_N.svg) te klikken. Dit biedt contextspecifieke opties, zoals filteren op **[!UICONTROL Source]** of **[!UICONTROL Used in active experiments]** .
 
 U kunt ook snel elke gewenste metrische waarde zoeken door de naam ervan in de zoekbalk te typen.
@@ -53,9 +52,9 @@ Het **[!UICONTROL Incremental over time]** -diagram geeft een visuele uitsplitsi
 
 U kunt de volgende samenvattingswaarden snel raadplegen:
 
-* **[!UICONTROL Total]**:
+* **[!UICONTROL Total]**: De cumulatieve waarde van de geselecteerde metrische waarde gedurende de rapportageperiode.
 
-* **[!UICONTROL Average]**:
+* **[!UICONTROL Average]**: De gemiddelde waarde van de metrische waarde die over het geselecteerde tijdbereik wordt berekend. Door dagelijkse of wekelijkse schommelingen in evenwicht te brengen, geeft het een duidelijker beeld van de normale prestaties en kan het als basislijn voor vergelijking worden gebruikt.
 
 * **[!UICONTROL Conversion rate]**: percentage profielen dat de gewenste actie heeft uitgevoerd (bijv. aankoop, aanmelden) na het zien van de behandeling.
 
@@ -64,3 +63,11 @@ Elke waarde bevat een procentuele wijziging ten opzichte van de vorige periode, 
 ### Experimenteer, effect
 
 In deze sectie worden alle actieve experimenten binnen de geselecteerde tijdsperiode (Laatste 90 dagen, Laatste 30 dagen of Laatste 7 dagen) weergegeven en wordt hun bijdrage aan de meting gemarkeerd.
+
+De volgende keuzelijsten zijn beschikbaar:
+
+* **[!UICONTROL Lift]**: maat voor de procentuele verbetering van de conversiesnelheid van een bepaalde behandeling ten opzichte van de basislijn.
+
+* **[!UICONTROL Confidence]**: Bewijs dat een bepaalde behandeling gelijk is aan de basisbehandeling. [Meer informatie](../content-management/experiment-calculations.md#understand-confidence)
+
+* **[!UICONTROL Contribution]**: Het aandeel van de totale verandering in de metrische waarde dat kan worden toegeschreven aan een specifiek experiment of een specifieke behandeling, waardoor de initiatieven die de grootste relatieve impact hebben, kunnen worden geïdentificeerd.
