@@ -12,9 +12,9 @@ badge: label="Beperkte beschikbaarheid" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
+source-git-commit: 60a4fb6b88fe94119bcbd209a5f893e12142c0f0
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1188'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Als u profielgegevens wilt vastleggen met uw [!DNL Journey Optimizer] -bestemmin
 >id="ajo_lp_form_connection"
 >title="Selecteer het te gebruiken eindpunt"
 >abstract="Definieer het streamingeindpunt waar gegevens worden verzonden bij het verzenden van het formulier."
->additional-url="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Een HTTP API-streamingverbinding maken"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Een HTTP API-streamingverbinding maken"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -69,7 +69,7 @@ Bij het maken van een voorinstelling:
 
    >[!NOTE]
    >
-   >Leer meer bij het creëren van een het stromen bronverbinding in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   >Leer meer bij het creëren van een het stromen bronverbinding in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
 1. Selecteer een **[!UICONTROL Dataset]** die u aan het formulier wilt koppelen. Hier worden de reacties op het formulier opgeslagen en weergegeven. U kunt typen om een specifieke dataset te zoeken of het van de lijst te selecteren.
 
@@ -91,7 +91,7 @@ Alle bestaande formulieren worden weergegeven. U kunt formulieren filteren op ba
 >id="ajo_lp_form_preset"
 >title="Een voorinstelling selecteren"
 >abstract="Kies een vooraf gedefinieerde voorinstelling die de te gebruiken verbinding en een vooraf gedefinieerde gegevensset voor uw formulier bevat."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Een formuliervoorinstelling maken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Een formuliervoorinstelling maken"
 
 Voer de onderstaande stappen uit om een formulier te maken.
 
@@ -107,7 +107,7 @@ Voer de onderstaande stappen uit om een formulier te maken.
 
    <!--![](assets/lp_create-form-filled.png){width=50%}-->
 
-1. De formulierontwerper wordt geopend. Voeg [ componenten ](../email/content-components.md#add-content-components) toe om uw vorminhoud te bouwen. U kunt [ componenten en ](../email/content-components.md#text) componenten gebruiken 0&rbrace; van de Tekst &lbrace;.**[!UICONTROL Field]**
+1. De formulierontwerper wordt geopend. Voeg [ componenten ](../email/content-components.md#add-content-components) toe om uw vorminhoud te bouwen. U kunt [ componenten en ](../email/content-components.md#text) componenten gebruiken 0} van de Tekst {.**[!UICONTROL Field]**
 
 1. Met de component **[!UICONTROL Field]** kunt u kenmerken selecteren op basis van het geselecteerde gegevenssetschema.
 
@@ -156,6 +156,32 @@ Stel een van de volgende handelingen in:
   >De voorwaarden die in een regel worden gedefinieerd, worden opeenvolgend gelezen.
 
   ![](assets/lp_create-form-thank-you-conditional.png){width=40%}
+
+## Een gepubliceerd formulier bewerken {#edit-form}
+
+Nadat een formulier is gepubliceerd, kunt u het nog steeds bewerken. Voer de onderstaande stappen uit.
+
+1. Heb toegang tot de [ lijst van vormen ](#access-forms) en selecteer een gepubliceerde vorm.
+
+1. Klik op de knop **[!UICONTROL Edit form]**.
+
+   ![](assets/lp_edit-form-button.png){width=90%}
+
+1. Er wordt een nieuwe versie van het formulier gemaakt met de status van het concept. Klik op **[!UICONTROL Create draft version]**.
+
+1. Werk het formulier naar wens bij en klik op **[!UICONTROL Save]** . Het formulier heeft nu de status **[!UICONTROL Published (with draft)]** :
+
+   * De huidige versie heeft de status **[!UICONTROL Published]** totdat u de bijgewerkte versie publiceert.
+
+   * De bijgewerkte versie heeft de **[!UICONTROL Draft]** status.
+
+1. In het formulieroverzicht kunt u weer navigeren tussen de twee versies van het formulier.
+
+   ![](assets/lp_published-with-draft-form.png){width=70%}
+
+1. In de sectie **[!UICONTROL Draft]** kunt u het concept publiceren of verwijderen en de details of inhoud van het formulier bewerken.
+
+   ![](assets/lp_edit-draft-form.png){width=75%}
 
 ## Gebruik het formulier in een landingspagina {#leverage-form-in-lp}
 
