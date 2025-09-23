@@ -11,9 +11,9 @@ level: Intermediate
 keywords: expression, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 248aae7b2841086ef5a0ea73936c245963e8eae2
+source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,13 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
 >title="Opzoeken inschakelen"
->abstract="Als u een gegevensset inschakelt voor opzoekopdrachten, kunt u de gegevens van de gegevensset benutten met de mogelijkheden van Journey Optimizer voor personalisatie en besluitvorming."
+>abstract="Als u een dataset voor opzoeken inschakelt, kunt u de gegevens ervan benutten binnen de mogelijkheden van Journey Optimizer op het gebied van personalisatie, besluitvorming en reisorganisatie."
 
 >[!AVAILABILITY]
 >
 >Deze functie is momenteel beschikbaar voor alle klanten als een beperkte beschikbaarheidsrelease.
 
-Met Journey Optimizer kunt u gegevens uit Adobe Experience Platform-gegevens benutten met mogelijkheden voor personalisatie en besluitvorming. Om dit te doen, op verslag-gebaseerde datasets nodig voor raadplegingsverpersoonlijking moet eerst voor de raadplegingsdienst worden toegelaten zoals hieronder beschreven.
+Met Journey Optimizer kunt u gegevens uit Adobe Experience Platform-gegevens benutten met mogelijkheden voor personalisatie, besluitvorming en reisorkest. Om dit te doen, op verslag-gebaseerde datasets nodig voor raadplegingsverpersoonlijking moet eerst voor de raadplegingsdienst worden toegelaten zoals hieronder beschreven.
 
 ## Lees hier meer
 
@@ -150,12 +150,10 @@ Deze procesindicator helpt in begrip wanneer de nieuwe partijen gegevens in de r
 
 ![](assets/aep-data-monitoring.png)
 
-<!--Ivan Mironchuk
-Note - we have a bug here currently. Will need to update screenshot once the lookup service will accurately reflect the progress.-->
-
 ## Volgende stappen
 
 Nadat een dataset voor raadpleging gebruikend een API vraag is toegelaten, kunt u de gegevens met [!DNL Journey Optimizer] verpersoonlijking en Beslissingsmogelijkheden gebruiken. Raadpleeg de volgende secties voor meer informatie:
 
 * [Adobe Experience Platform-gegevens gebruiken voor personalisatie](../personalization/aep-data-perso.md)
 * [Adobe Experience Platform-gegevens gebruiken voor beslissingen](../experience-decisioning/aep-data-exd.md)
+* [Adobe Experience Platform-gegevens gebruiken voor reisorchestratie](../building-journeys/dataset-lookup.md)

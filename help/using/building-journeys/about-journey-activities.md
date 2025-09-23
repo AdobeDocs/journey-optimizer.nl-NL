@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: reis, activiteiten, aan de slag, gebeurtenissen, actie
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '692'
 ht-degree: 11%
 
 ---
@@ -47,6 +47,7 @@ In het palet zijn aan de linkerkant van het scherm de volgende orkestactiviteite
 * [Publiek lezen](read-audience.md)
 * [Wachten](wait-activity.md)
 * [Inhoudsbeslissing](content-decision.md)
+* [Opzoeken gegevensset](dataset-lookup.md)
 
 ![ de activiteitenpalet van Orchestratie in de reisontwerper ](assets/journey-orchestration-activities.png)
 

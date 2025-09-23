@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
 workflow-type: tm+mt
-source-wordcount: '2954'
+source-wordcount: '2956'
 ht-degree: 18%
 
 ---
@@ -80,18 +80,19 @@ ht-degree: 18%
       + [Reactie](using/building-journeys/reaction-events.md)
       + [kwalificatie publiek](using/building-journeys/audience-qualification-events.md)
       + [Optimaliseren](using/building-journeys/optimize.md)
-      + [Doelgroep lezen](using/building-journeys/read-audience.md)
-      + [Wachten](using/building-journeys/wait-activity.md)
       + [Voorwaarden](using/building-journeys/conditions.md)
       + [Voorwaarde](using/building-journeys/condition-activity.md)
+      + [Doelgroep lezen](using/building-journeys/read-audience.md)
+      + [Wachten](using/building-journeys/wait-activity.md)
       + [Inhoudsbeslissing](using/building-journeys/content-decision.md)
+      + [Opzoeken gegevensset](using/building-journeys/dataset-lookup.md)
       + [Actie](using/building-journeys/journey-action.md)
       + [Ingebouwde kanaalhandelingen](using/building-journeys/journeys-message.md)
+      + [Springen](using/building-journeys/jump.md)
+      + [Profiel bijwerken](using/building-journeys/update-profiles.md)
       + [Aangepaste acties](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard-acties](using/building-journeys/using-adobe-campaign-standard.md)
       + [Handelingen voor Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-v7-v8.md)
-      + [Springen](using/building-journeys/jump.md)
-      + [Profiel bijwerken](using/building-journeys/update-profiles.md)
    + Expressies maken {#building-advanced-conditions-journeys}
       + [Expressies maken](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
       + [Werken met de geavanceerde expressie-editor](using/building-journeys/expression/expressionadvanced.md)
@@ -875,7 +876,7 @@ ht-degree: 18%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
