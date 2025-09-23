@@ -5,9 +5,9 @@ title: Geordende campagnes Veelgestelde vragen
 description: Veelgestelde vragen over door Journey Optimizer georganiseerde campagnes
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: f82e725b58dbb2fdea70455a203d83b13b0e4a2b
+source-git-commit: 0a80d8df834c48b6a5e6f4fafae89006b64bca11
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1430'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ De belangrijkste mogelijkheden omvatten:
 
 Om tot Campagneorganisatie toegang te hebben, moet uw vergunning of de **Journey Optimizer - Campagnes &amp; Reizen** of **Journey Optimizer - het pakket van Campagnes** omvatten. Neem contact op met uw Adobe-vertegenwoordiger om uw licentie te bevestigen en indien nodig bij te werken.
 
-Leer meer over het verlenen van vergunningen van het Organiseren van de Campagne model in [ Adobe Journey Optimizer productbeschrijving ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Leer meer over het verlenen van vergunningen van het Organiseren van de Campagne model in [ Adobe Journey Optimizer productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 +++
 
@@ -253,11 +253,11 @@ De geordende campagnes steunen Vooraf bepaalde Filters: u kunt een vraag als fil
 +++
 
 
+## Aanvullende bronnen
 
+Raadpleeg de volgende bronnen voor meer informatie en updates:
 
->[!MORELIKETHIS]
->
->* [ Geordende campagnes begeleiden &amp; beperkingen ](../orchestrated/guardrails.md)
->* [ worden begonnen met schema&#39;s en datasets in Geordende campagnes ](../orchestrated/gs-schemas.md)
->* [ creeer uw eerste Geordende campagne ](../orchestrated/gs-campaign-creation.md)
->* [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [Gestroomlijnde campagnes zorgen en beperkingen](../orchestrated/guardrails.md)
+* [Begin met schema&#39;s en datasets in Geordende campagnes](../orchestrated/gs-schemas.md)
+* [Uw eerste geordende campagne maken](../orchestrated/gs-campaign-creation.md)
+* [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}

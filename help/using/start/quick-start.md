@@ -8,9 +8,9 @@ role: Admin, Data Engineer, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: d2cdafef6f2d69ea85d9d042c859a8b1e7654d7d
+source-git-commit: 0a80d8df834c48b6a5e6f4fafae89006b64bca11
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '633'
 ht-degree: 2%
 
 ---
@@ -94,10 +94,11 @@ Klik op de onderstaande rol voor specifieke richtlijnen die zijn afgestemd op uw
 
 Bekijk de inleidende video voor meer informatie over sleutelmogelijkheden en persona&#39;s van Journey Optimizer. De video doorloopt de gebruikersinterface en markeert belangrijke eigenschappen die op rol-specifieke workflows worden gebaseerd.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430315?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Aanvullende bronnen
 
 Verken de volgende bronnen voor diepgaander leren en updates:
-* [Release-opmerkingen](https://experienceleague.adobe.com/docs/journey-optimizer/using/rn/release-notes.html)
-* [ Video&#39;s van het Leerprogramma ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=nl-NL)
+
+* [Release-opmerkingen](../rn/release-notes.md)
+* [ Video&#39;s van het Leerprogramma ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html)
