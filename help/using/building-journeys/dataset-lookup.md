@@ -62,7 +62,7 @@ Voer de volgende stappen uit om de **[!UICONTROL Dataset lookup]** -activiteit t
 
    >[!NOTE]
    >
-   >Als de dataset u zoekt niet in de lijst toont, zorg ervoor u het voor raadpleging hebt toegelaten. Voor meer details, verwijs naar [ ](#must-read) sectie moet lezen.
+   >Als de dataset u zoekt niet in de lijst toont, zorg ervoor u het voor raadpleging hebt toegelaten. Voor meer details, verwijs naar [&#128279;](#must-read) sectie moet lezen.
 
 1. Selecteer de specifieke gebieden u van de dataset wilt halen.
 
@@ -114,7 +114,7 @@ De gegevens die door de **[!UICONTROL Dataset lookup]** -activiteit worden opgeh
 
 1. **Gebeurtenis van de Aankoop**: Vang SKUs van de kar van de gebruiker.
 
-1. **de opzoekactiviteit van 0} Dataset:**
+1. **de opzoekactiviteit van 0&rbrace; Dataset:**
 * Gegevensset: `products-dataset` (SKU als primaire sleutel).
 * Opzoektoetsen: `list(@event{purchase_event.products.sku})`.
 * Te retourneren velden: `["SKU", "category", "price"]`.
@@ -158,7 +158,7 @@ De gegevens die door de **[!UICONTROL Dataset lookup]** -activiteit worden opgeh
 
 1. **Trigger van de Gebeurtenis van het Profiel**: Leg e-mail IDs van het profiel of gebeurteniscontext vast.
 
-1. **de activiteit van de Opzoeken van de Dataset van 0}:**
+1. **de activiteit van de Opzoeken van de Dataset van 0&rbrace;:**
    * Gegevensset: `loyalty-member-dataset` (e-mail als primaire sleutel).
    * Opzoektoetsen: `@profile.email`.
    * Te retourneren velden: `["email", "loyaltyTier"]`.
