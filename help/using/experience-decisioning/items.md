@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
+source-git-commit: 7926e90f3a2ca62b297a8db548f044086d3dab66
 workflow-type: tm+mt
 source-wordcount: '2109'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Begin door de standaard en douanekenmerken van het besluitpunt te bepalen:
    >
    >Momenteel slechts [ uitdrukkingsfragmenten ](../personalization/use-expression-fragments.md) worden gesteund.
    >
-   >Geneste fragmenten (fragmenten die verwijzen naar andere fragmenten) kunnen niet worden gebruikt. De goedkeuring van het besluitvormingspunt [&#128279;](#approve) zal ontbreken als u zulk een fragment toevoegt.
+   >Geneste fragmenten (fragmenten die verwijzen naar andere fragmenten) kunnen niet worden gebruikt. De goedkeuring van het besluitvormingspunt [ ](#approve) zal ontbreken als u zulk een fragment toevoegt.
 
 1. Aangepaste kenmerken opgeven (optioneel). Aangepaste kenmerken zijn specifieke kenmerken die zijn toegesneden op uw behoeften en die u kunt toewijzen aan een beslissingsitem. Zij worden bepaald in het de catalogusschema van besluitvormingspunten. [ leer hoe te met catalogi ](catalogs.md) werken
 
@@ -82,8 +82,8 @@ Begin door de standaard en douanekenmerken van het besluitpunt te bepalen:
 >abstract="Standaard kunnen alle profielen in aanmerking komen voor het item voor een beslissing, maar u kunt het publiek of de regels gebruiken om het item te beperken tot specifieke profielen."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -116,7 +116,7 @@ Wanneer u publiek of beslissingsregels selecteert, kunt u informatie over de ges
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_expression"
 >title="Expressie"
->abstract="In plaats daarvan kunt u uw eigen expressie definiëren door een statische waarde te gebruiken voor de afkapdrempel. Hierdoor kunt u de drempel dynamisch berekenen met behulp van beslissingskenmerken en/of externe kenmerken van een Adobe Experience Platform-gegevensset.<br/><br/> uitdrukkingen **van de regel van de Capping van 0&rbrace; zijn momenteel beschikbaar als Beperkte Beschikbaarheid aan alle gebruikers.** Deze worden alleen ondersteund voor het type **[!UICONTROL In total]** capapping."
+>abstract="In plaats daarvan kunt u uw eigen expressie definiëren door een statische waarde te gebruiken voor de afkapdrempel. Hierdoor kunt u de drempel dynamisch berekenen met behulp van beslissingskenmerken en/of externe kenmerken van een Adobe Experience Platform-gegevensset.<br/><br/> uitdrukkingen **van de regel van de Capping van 0} zijn momenteel beschikbaar als Beperkte Beschikbaarheid aan alle gebruikers.** Deze worden alleen ondersteund voor het type **[!UICONTROL In total]** capapping."
 
 Afdekkingen worden gebruikt als beperking om het maximumaantal keren te bepalen dat een aanbiedingsobject kan worden aangeboden. Door het aantal keren dat gebruikers specifieke aanbiedingen krijgen te beperken, kunt u voorkomen dat uw klanten te veel vragen en zo elk aanraakpunt optimaliseren met de beste aanbieding. U kunt tot 10 titels voor een bepaald besluitpunt tot stand brengen.
 
