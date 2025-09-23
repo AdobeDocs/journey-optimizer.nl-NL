@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 version: Journey Orchestration
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
+source-git-commit: 4b0355c4e871e89c1b3eeea978959a2d97fa475d
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Adobe Experience Platform] -gegevens gebruiken tijdens reizen {#datalookup}
 
@@ -62,7 +62,7 @@ Voer de volgende stappen uit om de **[!UICONTROL Dataset lookup]** -activiteit t
 
    >[!NOTE]
    >
-   >Als de dataset u zoekt niet in de lijst toont, zorg ervoor u het voor raadpleging hebt toegelaten. Voor meer details, verwijs naar [&#128279;](#must-read) sectie moet lezen.
+   >Als de dataset u zoekt niet in de lijst toont, zorg ervoor u het voor raadpleging hebt toegelaten. Voor meer details, verwijs naar [ ](#must-read) sectie moet lezen.
 
 1. Selecteer de specifieke gebieden u van de dataset wilt halen.
 
@@ -114,7 +114,7 @@ De gegevens die door de **[!UICONTROL Dataset lookup]** -activiteit worden opgeh
 
 1. **Gebeurtenis van de Aankoop**: Vang SKUs van de kar van de gebruiker.
 
-1. **de opzoekactiviteit van 0&rbrace; Dataset:**
+1. **de opzoekactiviteit van 0} Dataset:**
 * Gegevensset: `products-dataset` (SKU als primaire sleutel).
 * Opzoektoetsen: `list(@event{purchase_event.products.sku})`.
 * Te retourneren velden: `["SKU", "category", "price"]`.
@@ -158,7 +158,7 @@ De gegevens die door de **[!UICONTROL Dataset lookup]** -activiteit worden opgeh
 
 1. **Trigger van de Gebeurtenis van het Profiel**: Leg e-mail IDs van het profiel of gebeurteniscontext vast.
 
-1. **de activiteit van de Opzoeken van de Dataset van 0&rbrace;:**
+1. **de activiteit van de Opzoeken van de Dataset van 0}:**
    * Gegevensset: `loyalty-member-dataset` (e-mail als primaire sleutel).
    * Opzoektoetsen: `@profile.email`.
    * Te retourneren velden: `["email", "loyaltyTier"]`.
