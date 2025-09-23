@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
+source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1554'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Deze sectie maakt een lijst van verscheidene algemeen gebruikte voorbeelden om d
 
 Zorg ervoor dat de gebieden die in uw vragen worden gebruikt waarden in het overeenkomstige schema hebben geassocieerd.
 
-+++Wat is het verschil tussen id, instanceid en profiel
++++Wat is het verschil tussen id, instanceid en profileid
 
 * id: uniek voor alle items van de step-gebeurtenis. Twee verschillende step-gebeurtenissen kunnen niet dezelfde id hebben.
 * instanceId: instanceID is het zelfde voor alle stapgebeurtenissen verbonden aan een profiel binnen een reis uitvoering. Als een profiel de reis opnieuw ingaat, zal een verschillend instanceId worden gebruikt. Deze nieuwe instanceId zal voor alle step gebeurtenissen van de opnieuw ingegaan instantie (van begin tot eind) hetzelfde zijn.
@@ -33,7 +33,7 @@ Zorg ervoor dat de gebieden die in uw vragen worden gebruikt waarden in het over
 
 ## Basis gebruiksgevallen/gemeenschappelijke vragen {#common-queries}
 
-+++Hoeveel profielen gingen een reis in een bepaald tijdkader in
++++Hoeveel profielen een reis in een bepaald tijdkader inging
 
 Deze vraag geeft het aantal verschillende profielen die de bepaalde reis in het bepaalde tijdkader inging.
 
@@ -47,9 +47,11 @@ AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+
 +++
 
-+++Welke regel heeft ertoe geleid dat een profiel niet op een bepaalde reis is ingegaan
++++Welke regel ertoe heeft geleid dat een profiel geen bepaalde reis heeft gemaakt
 
 _Voorbeeld_
 
@@ -110,7 +112,7 @@ AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 
 +++
 
-+++Wat gebeurt er met een specifiek profiel in een specifieke reis in een specifiek tijdsbestek?
++++Wat gebeurt er met een specifiek profiel in een specifieke reis in een specifieke tijdspanne
 
 _de vraag van het meer van Gegevens_
 
@@ -139,7 +141,7 @@ ORDER BY timestamp;
 
 +++
 
-+++Hoeveel tijd is verstreken tussen twee knopen
++++Hoeveel tijd is verstreken tussen twee knopen 
 
 Deze vragen kunnen, bijvoorbeeld, worden gebruikt om de tijd te schatten die in een wachttijdactiviteit wordt doorgebracht. Dit staat u toe om ervoor te zorgen dat de wachttijdactiviteit correct wordt gevormd.
 
@@ -268,7 +270,7 @@ WHERE
 
 +++
 
-+++Hoe te om de details van een serviceEvent te controleren
++++De details van een serviceEvent controleren 
 
 De dataset van de Gebeurtenissen van de Stap van de Reis bevat alle stepEvents en serviceEvents. stepEvents worden gebruikt bij de rapportage, aangezien ze betrekking hebben op activiteiten (gebeurtenis, acties, enz.) van profielen tijdens een reis. serviceEvents worden opgeslagen in de zelfde dataset, en zij wijzen op extra informatie voor het zuiveren doeleinden, bijvoorbeeld de reden voor een gebeurtenis van de ervaringsgebeurtenis verwerpen.
 
@@ -290,7 +292,7 @@ WHERE _experience.journeyOrchestration.serviceType is not null;
 
 ## Bericht-/handelingsfouten {#message-action-errors}
 
-+++Lijst van elke fout die in reizen wordt ontmoet
++++Lijst van fouten tijdens reizen
 
 Met deze query kunt u elke fout die tijdens reizen is aangetroffen, weergeven tijdens het uitvoeren van een bericht/handeling.
 
@@ -320,7 +322,7 @@ Deze vraag keert alle verschillende fouten terug die terwijl het uitvoeren van e
 
 ## Op profielen gebaseerde query&#39;s {#profile-based-queries}
 
-+++Zoek als een profiel een specifieke reis inging
++++Zoeken of een profiel een specifieke reis heeft ingevoerd
 
 _de vraag van het meer van Gegevens_
 
@@ -344,7 +346,7 @@ Het resultaat moet groter zijn dan 0. Deze vraag keert het nauwkeurige aantal ti
 
 +++
 
-+++Zoek of een profiel is verzonden naar een specifiek bericht
++++Zoeken of een profiel een specifiek bericht is verzonden
 
 Methode 1: als de naam van uw bericht niet uniek is in de reis (het wordt gebruikt op veelvoudige plaatsen).
 
@@ -396,7 +398,7 @@ De vraag keert de lijst van alle berichten samen met hun telling terug die voor 
 
 +++
 
-+++Zoek alle berichten die een profiel in de afgelopen 30 dagen heeft ontvangen
++++Zoeken naar alle berichten die een profiel in de afgelopen 30 dagen heeft ontvangen
 
 _de vraag van het meer van Gegevens_
 
@@ -424,7 +426,7 @@ De vraag keert de lijst van alle berichten samen met hun telling terug die voor 
 
 +++
 
-+++Zoek alle reizen die een profiel in de afgelopen 30 dagen heeft ingevoerd
++++Zoeken naar alle ritten die een profiel in de afgelopen 30 dagen heeft ingevoerd
 
 _de vraag van het meer van Gegevens_
 
@@ -450,7 +452,7 @@ De vraag keert de lijst van alle reisnamen samen met het aantal tijden terug het
 
 +++
 
-+++Aantal profielen dat voor een reis dagelijks in aanmerking kwam
++++Aantal profielen dat in aanmerking kwam voor een dagelijkse reis
 
 _de vraag van het meer van Gegevens_
 
@@ -474,11 +476,14 @@ ORDER BY DATE(timestamp) desc
 
 De vraag keert, voor de bepaalde periode, het aantal profielen terug dat de reis elke dag inging. Als een profiel wordt ingevoerd via meerdere identiteiten, wordt het twee keer geteld. Als de terugkeer wordt toegelaten, zou het profielaantal over verschillende dagen kunnen worden gedupliceerd als het de reis op verschillende dag opnieuw inging.
 
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+
+
 +++
 
 ## Vragen met betrekking tot het leespubliek {#read-segment-queries}
 
-+++Tijd die u nodig hebt om een doelexporttaak te voltooien
++++Tijd die nodig is om een doelexporttaak te voltooien
 
 _de vraag van het meer van Gegevens_
 
@@ -512,7 +517,7 @@ De vraag keert het tijdverschil, in notulen, tussen terug wanneer de publiek uit
 
 +++
 
-+++Aantal profielen dat door de reis werd verworpen omdat zij duplicaten waren
++++Aantal profielen dat tijdens de rit is verwijderd omdat het dubbele profielen waren
 
 _de vraag van het meer van Gegevens_
 
@@ -584,7 +589,7 @@ De vraag keert alle profielID terug die door de reis werden verworpen omdat de i
 
 +++
 
-+++Aantal profielen dat door de reis werd verworpen omdat de reis in testknoop was en het profiel geen testprofiel was
++++Aantal profielen dat tijdens de rit is weggegooid omdat de rit zich in het testknooppunt bevond en het profiel geen testprofiel was
 
 _de vraag van het meer van Gegevens_
 
@@ -632,7 +637,7 @@ De vraag keert alle profielID terug die door de reis wegens één of andere inte
 
 +++
 
-+++Overzicht van het Leespubliek voor een bepaalde reisversie
++++Overzicht van het leespubliek voor een bepaalde reisversie
 
 _de vraag van het meer van Gegevens_
 
@@ -673,7 +678,7 @@ BELANGRIJK: als er geen gebeurtenis is die door deze vraag wordt geretourneerd, 
 +++
 
 
-+++Krijg de fouten van het publiek van het Gelezen voor een bepaalde reisversie
++++Ontvang leesfouten voor een bepaalde reisversie
 
 _de vraag van het meer van Gegevens_
 
@@ -701,7 +706,7 @@ WHERE
 
 +++
 
-+++Verwerkingsstatus van exporttaak ophalen
++++Status exporttaak ophalen
 
 _de vraag van het meer van Gegevens_
 
@@ -732,7 +737,7 @@ Als er geen record wordt geretourneerd, betekent dit dat:
 
 +++
 
-+++U kunt metingen voor geëxporteerde profielen ophalen, inclusief gegevens over verwijderde taken en exporttaken voor elke exporttaak
++++Metrische gegevens over geëxporteerde profielen ophalen, inclusief gegevens over verwijderde taken en exporttaken voor elke exporttaak
 
 _de vraag van het meer van Gegevens_
 
@@ -794,7 +799,7 @@ WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 
 +++
 
-+++Haal de geaggregeerde metriek (doelgroep exporteert taken en verwijderde bestanden) op alle exporttaken op
++++Hiermee krijgt u geaggregeerde metriek (doelgroepen, exporttaken en verwijderde bestanden) voor alle exporttaken
 
 _de vraag van het meer van Gegevens_
 
@@ -861,7 +866,7 @@ Het keert de algemene metriek voor een bepaalde reisversie terug, ongeacht de ba
 
 ## Vragen in verband met de kwalificatie van het publiek {#segment-qualification-queries}
 
-+++Profiel verworpen wegens een verschillend publieksrealisatie dan gevormde
++++Profiel dat is verwijderd vanwege een ander publiek dan geconfigureerd
 
 _de vraag van het meer van Gegevens_
 
@@ -887,7 +892,7 @@ Deze vraag keert alle profielID terug die door de reisversie wegens verkeerde pu
 
 +++
 
-+++De gebeurtenissen van de Kwalificatie van het publiek verworpen door een andere reden voor een specifiek profiel
++++De gebeurtenissen van de Kwalificatie van het publiek die door een andere reden voor een specifiek profiel worden verworpen
 
 _de vraag van het meer van Gegevens_
 
@@ -917,7 +922,7 @@ Deze query retourneert alle gebeurtenissen (externe gebeurtenissen/kwalificatieg
 
 ## Op gebeurtenissen gebaseerde query&#39;s {#event-based-queries}
 
-+++Controleer of een zakelijke gebeurtenis is ontvangen voor een reis
++++Controleren of een zakelijke gebeurtenis is ontvangen voor een reis
 
 _de vraag van het meer van Gegevens_
 
@@ -945,7 +950,7 @@ WHERE DATE(timestamp) > (now() - interval '6' hour)
 
 +++
 
-+++Controleer of een externe gebeurtenis van een profiel is verwijderd omdat er geen gerelateerde reis is gevonden
++++Controleren of een externe gebeurtenis van een profiel is verwijderd omdat er geen gerelateerde reis is gevonden
 
 _de vraag van het meer van Gegevens_
 
@@ -969,9 +974,11 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+
 +++
 
-+++Controleer of een externe gebeurtenis van een profiel om een andere reden is verwijderd
++++Controleren of een externe gebeurtenis van een profiel om een andere reden is verwijderd
 
 _de vraag van het meer van Gegevens_
 
@@ -997,6 +1004,8 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+
 +++
 
 +++Controleer de telling van alle gebeurtenissen die door stateMachine door errorCode worden verworpen
@@ -1017,9 +1026,11 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
 
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+
 +++
 
-+++Controleer alle verwijderde gebeurtenissen omdat invoer niet is toegestaan
++++Alle verwijderde gebeurtenissen controleren omdat toegang niet is toegestaan
 
 _de vraag van het meer van Gegevens_
 
@@ -1042,6 +1053,8 @@ FROM journey_step_events
 where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
 ```
+
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 +++
 
@@ -1069,11 +1082,12 @@ ORDER BY DATE(timestamp) desc
 
 De vraag keert, voor de bepaalde periode, de telling van unieke reizen terug die elke dag teweegbrachten. Eén enkele reis die op meerdere dagen plaatsvindt, wordt één keer per dag meegeteld.
 
+
 +++
 
 ## Vragen over reistijden {#journey-instances-queries}
 
-+++Aantal profielen in een specifieke staat een specifieke tijd
++++Aantal profielen in een specifieke status op een specifieke tijd
 
 _de vraag van het meer van Gegevens_
 
@@ -1223,7 +1237,7 @@ ORDER BY
 
 +++
 
-+++Hoeveel profielen hebben de reis in de specifieke periode verlaten
++++Hoeveel profielen zijn de reis in de specifieke periode verlaten
 
 _de vraag van het meer van Gegevens_
 
@@ -1263,7 +1277,7 @@ ORDER BY
 
 +++
 
-+++Hoeveel profielen verlieten de reis in de specifieke periode met knoop/status
++++Hoeveel profielen verlaat de reis in de specifieke periode met knoop/status
 
 _de vraag van het meer van Gegevens_
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 6%
+source-wordcount: '598'
+ht-degree: 3%
 
 ---
 
@@ -46,7 +46,7 @@ Deze veldgroep wordt gebruikt in het reisschema (met betrekking tot tripStepEven
 
 ## profiel {#profile-field}
 
-Deze veldgroep is specifiek voor tripStepEvent: deze gebeurtenis heeft betrekking op de reis en heeft niet de identityMap, die de profielidentiteit beschrijft, indien aanwezig.
+Deze veldgroep is specifiek voor tripStepEvent: deze gebeurtenis heeft betrekking op de reis en heeft niet de identityMap, die de profielidentiteit beschrijft, als om het even welk.
 
 Voor tripStepEvent, moeten wij gebieden met betrekking tot de identiteit ook toevoegen:
 
@@ -70,6 +70,43 @@ Deze mix bevat alle velden die overeenkomen met een profielexporttaak.
 | eventType | String | Het gebeurtenistype dat aangeeft of het een foutgebeurtenis in de info-gebeurtenis is: Info, Error |
 | eventCode | String | De foutcode die de reden voor het overeenkomende eventType aangeeft |
 
+Leer meer over eventTypes [ in deze sectie ](#discarded-events).
+
 ## stepEvents {#stepevents-field}
 
-Deze categorie bevat de oorspronkelijke velden voor stapgebeurtenissen. Zie dit [sectie](../reports/sharing-legacy-fields.md).
+Deze categorie bevat de oorspronkelijke velden voor stapgebeurtenissen. Verwijs naar deze [ sectie ](../reports/sharing-legacy-fields.md).
+
+
+## Los verworpen gebeurtenistypes in reis_step_events problemen op  {#discarded-events}
+
+Bij het opvragen van gegevens van het type &#39;trip_step_events&#39; met `eventCode = 'discard'`, kunnen er verschillende gebeurtenistypen optreden.
+
+Hieronder zijn definities, gemeenschappelijke oorzaken, en het oplossen van problemenstappen voor het meest frequente verwerpen eventTypes:
+
+* EXTERNAL_KEY_COMPUTATION_ERROR: Het systeem kan geen unieke id (externe sleutel) voor de klant berekenen uit de gebeurtenisgegevens.
+Veelvoorkomende oorzaken: ontbrekende of onjuist gevormde klant-id&#39;s (bijvoorbeeld e-mail, klant-id) in de gebeurtenislading.
+Problemen oplossen: controleer de gebeurtenisconfiguratie op de vereiste id&#39;s en zorg ervoor dat de gebeurtenisgegevens volledig en correct zijn opgemaakt.
+* NO_INTERESTED_JOURNEYS_FOR_SEGMENTMEMBERSHIP_EVENT: Er is een segmentkwalificatiegebeurtenis ontvangen, maar er zijn geen reizen geconfigureerd om op dit segment te reageren.
+Veelvoorkomende oorzaken: geen reizen gebruiken het segment als trigger, reizen bevinden zich in concept/stopstatus of segmenten-id&#39;s komen niet overeen.
+Het oplossen van problemen: Verzeker minstens één reis levend is en voor het segment gevormd, verifieer segment IDs.
+* JOURNEY_INSTANCE_ID_NOT_CREATE: Het systeem kon geen reisinstantie voor de klant maken.
+Veelvoorkomende oorzaken: dubbele gebeurtenissen, hoog gebeurtenisvolume, beperkingen aan systeembronnen.
+Problemen oplossen: deduplicatie implementeren, verkeersspikes vermijden, reisontwerp optimaliseren, contact opnemen met ondersteuning als dit blijvend is.
+* EVENT_WITH_NO_JOURNEY: Er is een gebeurtenis ontvangen, maar er is geen actieve reis geconfigureerd om erop te reageren.
+Veelvoorkomende oorzaken: naam/id van gebeurtenis komen niet overeen, reis niet gepubliceerd, verkeerde sandbox/org, testmodus/profiel komen niet overeen.
+Problemen oplossen: controleer de configuratie van gebeurtenissen en reizen, controleer de status van de reis en gebruik de tools voor foutopsporing.
+
+Voor teruggooi tijdens gepauzeerde reizen:
+
+* PAUSED_JOURNEY_VERSION: teruggooi die zich op het punt van de ingang van de reis voordeed
+
+* JOURNEY_IN_PAUSED_STATE: Overboord gooien wat is gebeurd wanneer profielen op reis zijn
+
+Leer meer over deze gebeurtenissen en hoe te om hen in [ problemen op te lossen pauzeer een sectie van de Reis ](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys).
+
+## Aanvullende bronnen
+
+* [ de vraagsteekproeven van de Dataset - de Gebeurtenis van de Stap van de Reis ](../data/datasets-query-examples.md#journey-step-event).
+* [ Voorbeelden van vragen - op gebeurtenis-gebaseerde Vragen ](query-examples.md#event-based-queries).
+* [ Ingebouwd schemawoordenboek ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
+
