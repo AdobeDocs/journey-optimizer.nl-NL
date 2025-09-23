@@ -45,7 +45,7 @@ Voer de onderstaande stappen uit als u een PDF-bestand aan een e-mailbericht wil
 
    >[!NOTE]
    >
-   >Bij het ontwerpen van berichten hebt u rechtstreeks vanuit de Journey Optimizer-interface toegang tot de gegevensopslagruimte Assets. Meer over het ingebedde [!DNL Assets Essentials] gebruikersinterface leren, verwijs naar [ documentatie van de Hoofdzaak van Experience Manager Assets ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
+   >Bij het ontwerpen van berichten hebt u rechtstreeks vanuit de Journey Optimizer-interface toegang tot de gegevensopslagruimte Assets. Meer over het ingebedde [!DNL Assets Essentials] gebruikersinterface leren, verwijs naar [ documentatie van de Hoofdzaak van Experience Manager Assets ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=nl-NL){target="_blank"}.
 
 1. Gebruik het filter **[!UICONTROL PDF]** in de sectie **[!UICONTROL MIME Type]** om de selectie te beperken tot de juiste bestandsindeling.
 
