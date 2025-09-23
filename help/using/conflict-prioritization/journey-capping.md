@@ -4,9 +4,9 @@ description: Leer hoe u regels voor aftopping kunt maken voor uw reizen en hoe u
 role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 316fdb4e581ea139c2914f395a5d1823c2ded3cc
+source-git-commit: 450a6accf11d72d56e6b93cec9ec89dc8cf3c8f3
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,9 @@ Voer de volgende stappen uit om een regel voor het afdekken van reizen te maken:
 
    1. Stel in het veld **[!UICONTROL Capping]** het maximumaantal ritten in waarin een profiel gelijktijdig kan worden ingeschreven.
 
-   1. Gebruik het veld **[!UICONTROL Prioritization look ahead]** om te scheiden hoe items in de reis worden geplaatst op basis van prioriteitsscores over een bepaalde periode (bijvoorbeeld 1 dag, 7 dagen, 30 dagen). Dit helpt om voorrang te geven aan het binnenkomen van duurdere reizen als een profiel in aanmerking komt voor meerdere reizen.
+   1. Gebruik het veld **[!UICONTROL Prioritization look ahead]** om te scheiden hoe items in de reis worden geplaatst op basis van prioriteitsscores over een bepaalde periode (bijvoorbeeld 1 dag, 7 dagen, 30 dagen).
+
+      Met deze optie worden de geplande reizen van het leespubliek gedurende de rest van de week gescand om te bepalen of het profiel moet worden onderdrukt van het betreden van de reis vanwege een reis met hogere prioriteit die naar voren komt. Het helpt om voorrang te geven aan het binnenkomen van duurdere reizen als een profiel in aanmerking komt voor meerdere reizen.
 
    In dit voorbeeld willen we profielen beperken van het betreden van de reis als ze al zijn ingeschreven voor een andere reis die dezelfde regel bevat. Als een andere reis binnen de volgende 7 dagen een hogere prioritaire score heeft, zal het profiel deze reis niet ingaan.
 
@@ -113,8 +115,8 @@ Zodra een reis levend is, kunt u het reisrapport controleren als de vastgestelde
 
 ![](assets/journey-report.png)
 
-Bovendien kunt u de [ Dienst van de Vraag van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=nl-NL){target="_blank"} gebruiken om vragen te bouwen om te identificeren welke regel een profiel veroorzaakte om niet in een bepaalde reis binnen te gaan. Een vraagvoorbeeld is beschikbaar in [ deze sectie ](../reports/query-examples.md#common-queries).
+Bovendien kunt u de [ Dienst van de Vraag van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} gebruiken om vragen te bouwen om te identificeren welke regel een profiel veroorzaakte om niet in een bepaalde reis binnen te gaan. Een vraagvoorbeeld is beschikbaar in [ deze sectie ](../reports/query-examples.md#common-queries).
 
 ## Hoe kan ik-video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447621?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
