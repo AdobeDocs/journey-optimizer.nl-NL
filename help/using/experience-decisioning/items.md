@@ -82,8 +82,8 @@ Begin door de standaard en douanekenmerken van het besluitpunt te bepalen:
 >abstract="Standaard kunnen alle profielen in aanmerking komen voor het item voor een beslissing, maar u kunt het publiek of de regels gebruiken om het item te beperken tot specifieke profielen."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
