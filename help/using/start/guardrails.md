@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4ce48f7929aa218908e8a1e25c37410c6ded6bde
+source-git-commit: 5da036a6b352eecaf6a14f5d21bf5391fc5ed3fa
 workflow-type: tm+mt
-source-wordcount: '2694'
+source-wordcount: '2803'
 ht-degree: 0%
 
 ---
@@ -20,14 +20,14 @@ ht-degree: 0%
 
 Hieronder vindt u aanvullende instructies en beperkingen wanneer u [!DNL Adobe Journey Optimizer] gebruikt.
 
-De rechten, de productbeperkingen en de prestatiesbegeleiding worden vermeld in [ Adobe Journey Optimizer pagina van de productbeschrijving ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+De rechten, de productbeperkingen en de prestatiesbegeleiding worden vermeld in [ Adobe Journey Optimizer pagina van de productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 
 >[!CAUTION]
 >
->* [ Grafieken voor gegevens en segmentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/guardrails){target="_blank"} zijn ook op Adobe Journey Optimizer van toepassing.
+>* [ Grafieken voor gegevens en segmentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} zijn ook op Adobe Journey Optimizer van toepassing.
 >
->* Zie ook [ Grafieken voor de Ingestie van Gegevens in het Profiel van de Klant in real time ](https://experienceleague.adobe.com/nl/docs/experience-platform/ingestion/guardrails){target="_blank"}
+>* Zie ook [ Grafieken voor de Ingestie van Gegevens in het Profiel van de Klant in real time ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
 
 ## Ondersteunde browsers {#browsers}
@@ -52,10 +52,9 @@ Deze verandering zal uit aan **bestaande klantenzandbakken** in een verdere fase
 
 ### E-mailhandleidingen {#message-guardrails}
 
-De volgende gidsen zijn op het [ e-mailkanaal ](../../rp_landing_pages/email-landing-page.md) van toepassing:
+<!--The following guardrails apply to the [email channel](../../rp_landing_pages/email-landing-page.md):-->
 
-* U kunt geen bijlagen aan een e-mailbericht toevoegen met [!DNL Journey Optimizer] .
-* U kunt niet hetzelfde verzendende domein gebruiken om berichten van [!DNL Adobe Journey Optimizer] en van een ander product, zoals [!DNL Adobe Campaign] of [!DNL Adobe Marketo Engage] , te verzenden.
+U kunt niet hetzelfde verzendende domein gebruiken om e-mailberichten te verzenden vanuit [!DNL Adobe Journey Optimizer] en vanuit een ander product, zoals [!DNL Adobe Campaign] of [!DNL Adobe Marketo Engage] .
 
 ### SMS-handleidingen {#sms-guardrails}
 
@@ -65,15 +64,21 @@ De volgende guardrails zijn op het [ kanaal van SMS ](../sms/get-started-sms.md)
 * Berichtfeedback synchroniseren is momenteel niet beschikbaar voor MMS.
 * Het beheer van de toestemming werkt op het kanaalniveau van SMS voor MMS.
 
-### Webkanaalhulplijnen {#web-guardrails}
+### Binnenkomende kanaalhulplijnen {#inbound-guardrails}
 
-[!DNL Journey Optimizer] [ Webcampagnes ](../web/get-started-web.md) richten nieuwe profielen die niet eerder op andere kanalen zijn betrokken. Hierdoor wordt het totale aantal aanspreekbare profielen verhoogd. Dit kan kosten met zich meebrengen als het contractuele aantal aanschafbare profielen dat u hebt aangeschaft, wordt overschreden.
+* Journey Optimizer ondersteunt een piekvolume van 5.000 binnenkomende verzoeken per seconde. Deze graadlijn is op alle binnenkomende verzoeken van toepassing, die uit om het even welke Journey Optimizer gesteunde binnenkomende kanalen ([ Web ](../web/get-started-web.md), [ In-app ](../in-app/get-started-in-app.md), [ code-gebaseerde ervaringen ](../code-based/get-started-code-based.md), [ inhoudskaarten ](../../rp_landing_pages/content-card-landing-page.md)) kunnen voortkomen.
 
-De metriek van de vergunning voor elk pakket is vermeld op de [ pagina van de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+  Binnenkomende Journey Optimizer-kanalen zijn gericht op nieuwe profielen die mogelijk nog niet eerder zijn ingeschakeld op andere kanalen. Hierdoor wordt het totale aantal aanspreekbare profielen verhoogd. Dit kan kosten met zich meebrengen als het contractuele aantal aanschafbare profielen dat u hebt aangeschaft, wordt overschreden.
 
-### Kanaalhulplijnen op basis van code {#code-based-guardrails}
+  De metriek van de vergunning voor elk pakket is vermeld op de [ pagina van de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-Om code-gebaseerde ervaringsacties in [!DNL Journey Optimizer] te gebruiken en de lading van de codeinhoud te leveren die door uw toepassingen kan worden gebruikt, volg de eerste vereisten die op [ worden gedetailleerd deze pagina ](../code-based/code-based-prerequisites.md).
+* Journey Optimizer biedt op elk gewenst moment ondersteuning voor maximaal 500 actieve acties. Deze binnenkomende acties ([ Web ](../web/get-started-web.md), [ In-app ](../in-app/get-started-in-app.md), [ op code-gebaseerde ervaringen ](../code-based/get-started-code-based.md), [ inhoudskaarten ](../../rp_landing_pages/content-card-landing-page.md)) worden geteld als zij deel van een levende campagne uitmaken of als zij een knoop zijn die in een levende reis wordt gebruikt. Wanneer u dit aantal bereikt, moet u oudere campagnes of reizen deactiveren die binnenkomende acties gebruiken alvorens nieuwe te kunnen lanceren.
+
+* Om [ code-gebaseerde ervaring ](../code-based/get-started-code-based.md) acties in [!DNL Journey Optimizer] te gebruiken en de lading van de codeinhoud te leveren die door uw toepassingen kan worden gebruikt, volg de eerste vereisten die op [ worden gedetailleerd deze pagina ](../code-based/code-based-prerequisites.md).
+
+### Handleidingen voor Transactieberichten {#transactional-message-guardrails}
+
+Journey Optimizer ondersteunt een piekvolume van 500 transactieberichten per seconde in campagnes.
 
 ## Handleidingen voor landingspagina&#39;s {#lp-guardrails}
 
@@ -199,7 +204,7 @@ U kunt uit één van deze twee oplossingen kiezen:
 
 ### Aanvullende id&#39;s {#supplemental}
 
-Specifieke garanties gelden voor het gebruik van aanvullende identificatiemiddelen op reizen. Zij zijn vermeld in [ deze pagina ](../building-journeys/supplemental-identifier.md#guardrails)
+Specifieke garanties gelden voor het gebruik van aanvullende identificatiemiddelen op reizen. Zij zijn vermeld in [ deze pagina ](../building-journeys/supplemental-identifier.md#guardrails).
 
 ### Expression-editor {#expression-editor}
 
@@ -212,7 +217,7 @@ De volgende gidsen zijn op de [ redacteur van de reisuitdrukking ](../building-j
 
 #### Kwalificatieactiviteit van het publiek {#audience-qualif-g}
 
-De volgende richtlijn is op de [ de reisactiviteit van de Kwalificatie van het publiek 0&rbrace; van toepassing:](../building-journeys/audience-qualification-events.md)
+De volgende richtlijn is op de [ de reisactiviteit van de Kwalificatie van het publiek 0} van toepassing:](../building-journeys/audience-qualification-events.md)
 
 * De kwalificatie-activiteit Publiek kan niet worden gebruikt met Adobe Campaign-activiteiten.
 * Aanvullende id&#39;s worden niet ondersteund voor de kwalificatie Publiek.
