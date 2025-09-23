@@ -20,7 +20,7 @@ Met Adobe Journey Optimizer-gebruiksscenario&#39;s kunt u zinvolle, persoonlijke
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
 
 Gebruikskwesties leren
 
@@ -30,7 +30,7 @@ Onderzoek praktische voorbeelden en strategieën om de mogelijkheden van Adobe J
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Opzoeken van gebeurtenissen beleven
 
@@ -40,7 +40,7 @@ Gebruik ervaringsgebeurtenissen om opt-outs te beheren, inhoud aan te passen en 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Multikanaalberichten verzenden
 
@@ -50,7 +50,7 @@ Reizen maken die publiekssegmentatie en gebeurtenistriggers gebruiken om geperso
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 Een bericht verzenden met Campagne v7/v8
 
@@ -60,7 +60,7 @@ Integreer Adobe Campaign met Journey Optimizer om e-mailberichten te verzenden m
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Een bericht verzenden naar abonnees
 
@@ -70,7 +70,7 @@ Reizen instellen om berichten naar abonnees te verzenden op basis van voorkeuren
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen
 
@@ -86,4 +86,4 @@ Leer hoe te om douaneacties te vormen om dynamische gegevensinzamelingen in reis
 
 - **[de productie van de grens met externe gegevensbronnen &amp; douaneacties](../using/building-journeys/limit-throughput.md)** - optimaliseer reisproductie en beheer grenzen voor externe systemen gebruikend Gegevensbronnen en de Acties van de Douane.
 - **[douaneacties van het Gebruik om reisgebeurtenissen in Experience Platform](../using/building-journeys/custom-action-aep.md)** te schrijven - vorm voor authentiek verklaarde vraag en eindpunten van HTTP API om reisgebeurtenissen in Adobe Experience Platform te schrijven.
-- **[verwijder profielen uit een levende reis ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-pause#journey-exit-criteria)** - voor zaken of verrichtingsredenen, kunt u sommige profielen uit een levende reis moeten verwijderen, en profielen uitsluiten die een specifieke criteria momenteel in de reis aanpassen. Dit kan door de reis te pauzeren.
+- **[verwijder profielen uit een levende reis ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-pause#journey-exit-criteria)** - voor zaken of verrichtingsredenen, kunt u sommige profielen uit een levende reis moeten verwijderen, en profielen uitsluiten die een specifieke criteria momenteel in de reis aanpassen. Dit kan door de reis te pauzeren.
