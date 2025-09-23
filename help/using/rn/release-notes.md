@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8ef9b3b886e9856c6c2dac55e33a7ca6ce86b414
+source-git-commit: deafaf331edb1df9a3417a0e85d641a62fa682d2
 workflow-type: tm+mt
-source-wordcount: '3097'
+source-wordcount: '3111'
 ht-degree: 1%
 
 ---
@@ -20,14 +20,14 @@ ht-degree: 1%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 
 ## Opmerkingen bij de pre-release september {#25-9-rn}
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 23-24 september, 2025
 
@@ -237,7 +237,7 @@ Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experi
 
 * **toestemmingen van het beleid van de Goedkeuring**
 Er is een optie toegevoegd bij het maken of instellen van goedkeuringsbeleid om te voorkomen dat ontwikkelaars van reizen/campagnes hun eigen objecten goedkeuren.
-
+<!-->
 * **Nieuwe Alarm van de Reis**\
   Nieuwe vooraf geconfigureerde waarschuwingen zijn beschikbaar voor reizen:
 
@@ -246,6 +246,7 @@ Er is een optie toegevoegd bij het maken of instellen van goedkeuringsbeleid om 
    * Foutpercentage profiel overschreden: de verhouding tussen profielen in fout en ingevoerde profielen over de laatste 5 minuten overschrijdt de drempel.
 
   U kunt drempelwaarden wijzigen en u kunt zich abonneren op individuele waarschuwingen op het niveau van de reis ten opzichte van de rest van de wereld.
+—>
 
 * **Geneste JSON lichaamsparams nu gesteund in douaneauthentificatie**\
   Wanneer u aangepaste verificatie voor een aangepaste handeling configureert, worden geneste JSON-objecten (bijvoorbeeld subobjecten binnen `bodyParams` ) nu ondersteund.
@@ -258,9 +259,9 @@ Er is een optie toegevoegd bij het maken of instellen van goedkeuringsbeleid om 
 * **mTLS Steun voor het Kanaal van SMS**
 Wanneer u een aangepaste SMS-provider instelt, hebt u nu de mogelijkheid om wederzijdse TLS-verificatie (mTLS) in te schakelen. Hiervoor moeten zowel de client als de server elkaars identiteit bevestigen voordat een veilige verbinding tot stand wordt gebracht.
 
-<!--* **Model-based Schemas**  
-  For a clearer and more intuitive experience, Relational Schemas are now referred to as Model-based Schemas in Orchestrated campaigns.
--->
+
+* **Op model-gebaseerde Schema&#39;s**\
+  Relationele schema&#39;s worden nu als modelgebaseerde schema&#39;s in geordende campagnes genoemd.
 
 * **de opzoeksteun van de Dataset in reizen**\
   Een nieuwe activiteit in reizen, **de raadpleging van de Dataset**, staat u toe om gegevens van de het recorddatasets van Adobe Experience Platform dynamisch terug te winnen tijdens runtime. Door gebruik te maken van deze mogelijkheid hebt u toegang tot gegevens die mogelijk niet in het profiel of de lading van de gebeurtenis zijn opgeslagen, zodat uw klanteninteractie zowel relevant als tijdig is.
