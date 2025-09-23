@@ -68,7 +68,7 @@ Begin door de standaard en douanekenmerken van het besluitpunt te bepalen:
    >
    >Momenteel slechts [ uitdrukkingsfragmenten ](../personalization/use-expression-fragments.md) worden gesteund.
    >
-   >Geneste fragmenten (fragmenten die verwijzen naar andere fragmenten) kunnen niet worden gebruikt. De goedkeuring van het besluitvormingspunt [ ](#approve) zal ontbreken als u zulk een fragment toevoegt.
+   >Geneste fragmenten (fragmenten die verwijzen naar andere fragmenten) kunnen niet worden gebruikt. De goedkeuring van het besluitvormingspunt [&#128279;](#approve) zal ontbreken als u zulk een fragment toevoegt.
 
 1. Aangepaste kenmerken opgeven (optioneel). Aangepaste kenmerken zijn specifieke kenmerken die zijn toegesneden op uw behoeften en die u kunt toewijzen aan een beslissingsitem. Zij worden bepaald in het de catalogusschema van besluitvormingspunten. [ leer hoe te met catalogi ](catalogs.md) werken
 
@@ -116,7 +116,7 @@ Wanneer u publiek of beslissingsregels selecteert, kunt u informatie over de ges
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_expression"
 >title="Expressie"
->abstract="In plaats daarvan kunt u uw eigen expressie definiëren door een statische waarde te gebruiken voor de afkapdrempel. Hierdoor kunt u de drempel dynamisch berekenen met behulp van beslissingskenmerken en/of externe kenmerken van een Adobe Experience Platform-gegevensset.<br/><br/> uitdrukkingen **van de regel van de Capping van 0} zijn momenteel beschikbaar als Beperkte Beschikbaarheid aan alle gebruikers.** Deze worden alleen ondersteund voor het type **[!UICONTROL In total]** capapping."
+>abstract="In plaats daarvan kunt u uw eigen expressie definiëren door een statische waarde te gebruiken voor de afkapdrempel. Hierdoor kunt u de drempel dynamisch berekenen met behulp van beslissingskenmerken en/of externe kenmerken van een Adobe Experience Platform-gegevensset.<br/><br/> uitdrukkingen **van de regel van de Capping van 0&rbrace; zijn momenteel beschikbaar als Beperkte Beschikbaarheid aan alle gebruikers.** Deze worden alleen ondersteund voor het type **[!UICONTROL In total]** capapping."
 
 Afdekkingen worden gebruikt als beperking om het maximumaantal keren te bepalen dat een aanbiedingsobject kan worden aangeboden. Door het aantal keren dat gebruikers specifieke aanbiedingen krijgen te beperken, kunt u voorkomen dat uw klanten te veel vragen en zo elk aanraakpunt optimaliseren met de beste aanbieding. U kunt tot 10 titels voor een bepaald besluitpunt tot stand brengen.
 
