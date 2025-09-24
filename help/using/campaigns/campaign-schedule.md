@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: eeacfacf3068f831afb7b7ad78214941a9259c93
+source-git-commit: bc779f732b865d5c178141f0b660d5c75f95a237
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 0%
@@ -21,17 +21,33 @@ ht-degree: 0%
 
 Gebruik het tabblad **[!UICONTROL Schedule]** om het campagneschema te definiëren.
 
-## Begin- en einddatum instellen
+## Begindatum van campagne instellen
 
-Standaard worden actiecampagnes gestart als ze handmatig zijn geactiveerd en eindigen als het bericht eenmaal is verzonden. Als u de campagne niet meteen na activering wilt uitvoeren, kunt u met de optie **[!UICONTROL Campaign start]** een datum en tijd opgeven waarop het bericht moet worden verzonden.
+Standaard worden actiecampagnes gestart als ze handmatig zijn geactiveerd en eindigen als het bericht eenmaal is verzonden.
 
-Met de optie **[!UICONTROL Campaign end]** kunt u opgeven wanneer een campagne moet stoppen met uitvoeren. Buiten de opgegeven datums wordt de campagne niet uitgevoerd.
+Als u uw campagne niet meteen na activering wilt uitvoeren, kunt u in de sectie **[!UICONTROL Campaign start]** een datum en tijd opgeven waarop het bericht moet worden verzonden.
 
-![](assets/create-campaign-schedule.png)
+![](assets/campaign-start.png)
 
 >[!NOTE]
 >
 >Wanneer u campagnes in [!DNL Adobe Journey Optimizer] plant, moet u ervoor zorgen dat de begindatum/tijd wordt uitgelijnd op de gewenste eerste levering. Voor terugkerende campagnes, als de aanvankelijke geplande tijd reeds is overgegaan, zullen de campagnes aan de volgende beschikbare tijdgroef volgens hun terugkeringsregels rollen.
+
+## Een uitvoeringsfrequentie instellen
+
+Voor **E-mail**, **SMS**, en **Push bericht** acties, kunt u een frequentie bepalen waarbij het bericht van de campagne zou moeten worden verzonden. Hiervoor gebruikt u de **[!UICONTROL Action triggers]** -opties in het scherm voor het maken van campagnes om op te geven of de campagne dagelijks, wekelijks of maandelijks moet worden uitgevoerd.
+
+![](assets/campaign-frequency.png)
+
+>[!NOTE]
+>
+>Voor **e-mail** acties, kunt u specifieke IP campagnes van de opwarmingsPlan tot stand brengen. Het campagneschema zal door het IP warmup plan worden gedreven het zal worden geassocieerd met, betekenend dat het programma niet meer in de campagne zelf wordt bepaald. [ Leer hoe te om IP warmup campagnes ](../configuration/ip-warmup-campaign.md) tot stand te brengen.
+
+## Einddatum instellen
+
+In de sectie **[!UICONTROL Campaign end]** kunt u opgeven wanneer een campagne moet stoppen met uitvoeren. Buiten de opgegeven datums wordt de campagne niet uitgevoerd.
+
+![](assets/campaign-end.png)
 
 ## Snelheidbeheersing instellen
 
@@ -49,16 +65,6 @@ Als u de snelheidsregeling wilt instellen, schakelt u de optie **[!UICONTROL Thr
 >[!IMPORTANT]
 >
 >Bij het instellen van een leveringstarief is de maximale tijdlijn waarvoor het campagnepubliek kan worden uitgevoerd 12 uur. Als de leveringstarief aan een waarde wordt geplaatst die niet alle publiek toestaat om het bericht in het 12 uurstijdsbestek te worden verzonden, dan zouden de resterende profielen van de campagne worden uitgesloten. U kunt de telling van deze uitgesloten profielen in het campagnerapport zien.
-
-## Een uitvoeringsfrequentie instellen
-
-Voor acties voor e-mail-, sms- en pushmeldingen kunt u een frequentie definiëren waarmee het campagnebericht moet worden verzonden. Hiervoor gebruikt u de **[!UICONTROL Action triggers]** -opties in het scherm voor het maken van campagnes om op te geven of de campagne dagelijks, wekelijks of maandelijks moet worden uitgevoerd.
-
-![](assets/action-triggers.png)
-
-## IP-opwarmingsplannen instellen
-
-Voor e-mailacties kunt u specifieke campagnes voor activering van het IP-warmteopruimingsplan maken. Het campagneschema zal door het IP warmup plan worden gedreven het zal worden geassocieerd met, betekenend dat het programma niet meer in de campagne zelf wordt bepaald. [ Leer hoe te om IP warmup campagnes ](../configuration/ip-warmup-campaign.md) tot stand te brengen.
 
 ## Volgende stappen {#next}
 
