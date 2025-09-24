@@ -10,9 +10,9 @@ level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 12ece43b9a52150baa71fab09653c6212aea6643
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1413'
 ht-degree: 2%
 
 ---
@@ -138,18 +138,19 @@ Leer meer over reistypes en bijbehorend ingangsbeheer op [ deze pagina ](entry-m
 
 De reisstatus hangt af van de levenscyclus. Het kan zijn:
 
-* **Gesloten**: de reis is gesloten gebruikend **dicht aan nieuwe ingangen** knoop. De reis houdt in dat nieuwe individuen de reis kunnen betreden. Personen die al onderweg zijn, kunnen de reis normaal afmaken.
 * **Ontwerp**: de reis is in zijn eerste stadium. Het is nog niet gepubliceerd.
-* **Ontwerp (Test)**: de testwijze is geactiveerd gebruikend de **wijze van de Test** knoop.
-* **Voltooid**: De reis schakelt automatisch aan deze status na de globale onderbreking 91 dag [&#128279;](journey-properties.md#global_timeout). Profielen die al op reis zijn, worden normaal afgehandeld. Nieuwe profielen kunnen niet langer de reis betreden.
-* **Levend**: de reis is gepubliceerd gebruikend **publiceer** knoop.
-* **Gestopt**: de reis is uitgezet gebruikend de **3&rbrace; knoop van het Einde &lbrace;.** Alle individuen sluiten onmiddellijk de reis.
+* **Ontwerp (Test)**: de testwijze is geactiveerd gebruikend de **wijze van de Test** knoop. [Meer informatie](../building-journeys/testing-the-journey.md)
+* **Voltooid**: De reis schakelt automatisch aan deze status na de globale onderbreking 91 dag [ ](journey-properties.md#global_timeout). Profielen die al op reis zijn, worden normaal afgehandeld. Nieuwe profielen kunnen niet langer de reis betreden.
+* **Levend**: de reis is gepubliceerd gebruikend **publiceer** knoop. [Meer informatie](../building-journeys/publishing-the-journey.md)
+* **Gepauzeerd**: de levende reis is gepauzeerd, gebruikend de **3} knoop van de Pauze.** [Meer informatie](../building-journeys/journey-pause.md)
+* **Gestopt**: de reis is uitgezet gebruikend de **3} knoop van het Einde {.** Alle individuen sluiten onmiddellijk de reis. [Meer informatie](../building-journeys/end-journey.md#stop-a-journey)
+* **Gesloten**: de reis is gesloten gebruikend **dicht aan nieuwe ingangen** knoop. De reis houdt in dat nieuwe individuen de reis kunnen betreden. Personen die al onderweg zijn, kunnen de reis normaal afmaken. [Meer informatie](../building-journeys/end-journey.md)
 
 >[!NOTE]
 >
->* De publicatielevenscyclus van de Reis omvat ook een reeks tussenliggende statussen die niet beschikbaar zijn voor filtering: &quot;Publishing&quot; (tussen &quot;Draft&quot; en &quot;Live&quot;), &quot;Activating test mode&quot; of &quot;Deactivating test mode&quot; (tussen &quot;Draft&quot; en &quot;Draft (test)&quot;) en &quot;Stopping&quot; (tussen &quot;Live&quot; en &quot;Gestopt&quot;). Wanneer een reis in een tussenstadium is, is het read-only.
+>* De Journaal die levenscyclus creeert omvat ook een reeks intermediaire statussen die niet beschikbaar voor het filtreren zijn: **het Publiceren** (tussen &quot;Ontwerp&quot;en &quot;Levend&quot;), **activerende testwijze** of **het Deactiveren testwijze** (tussen **Ontwerp** en **Ontwerp (test)**), **het Stoppen** (tussen) **Levend** en **gestopt**), **Hervatten** (tussen **Gepauzeerd** en **Levend**), **Werkend Pauzeren** (tussen **Levend** en **Gepauzeerd**) wanneer een reis in een tussenstadium is, is het read-only.
 >
->* Als u aan a **levende** reis moet wijzigen, [ creeer een nieuwe versie ](#journey-versions) van uw reis.
+>* Als u aan a **Levende** reis moet wijzigen, [ creeer een nieuwe versie ](#journey-versions) van uw reis. U kunt ook uw live ritten pauzeren, alle benodigde wijzigingen uitvoeren en deze op elk gewenst moment hervatten. [ leer meer over het pauzeren van reizen ](../building-journeys/journey-pause.md)
 
 
 ## Een reis dupliceren {#duplicate-a-journey}
