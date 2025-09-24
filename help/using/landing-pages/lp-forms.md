@@ -12,10 +12,10 @@ badge: label="Beperkte beschikbaarheid" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 7cbc4c7964d3fe9b79cbbff3917216f624286dba
+source-git-commit: 58c9fb91bac95e343ddaee93eca24181b80c3894
 workflow-type: tm+mt
-source-wordcount: '1425'
-ht-degree: 0%
+source-wordcount: '1480'
+ht-degree: 1%
 
 ---
 
@@ -33,7 +33,7 @@ Als u profielgegevens wilt vastleggen met uw [!DNL Journey Optimizer] -bestemmin
 >id="ajo_lp_form_connection"
 >title="Selecteer het te gebruiken eindpunt"
 >abstract="Definieer het streamingeindpunt waar gegevens worden verzonden bij het verzenden van het formulier."
->additional-url="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Een HTTP API-streamingverbinding maken"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Een HTTP API-streamingverbinding maken"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -69,7 +69,7 @@ Bij het maken van een voorinstelling:
 
    >[!NOTE]
    >
-   >Leer meer bij het creëren van een het stromen bronverbinding in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   >Leer meer bij het creëren van een het stromen bronverbinding in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
 1. Selecteer een **[!UICONTROL Dataset]** die u aan het formulier wilt koppelen. Hier worden de reacties op het formulier opgeslagen en weergegeven. U kunt typen om een specifieke dataset te zoeken of het van de lijst te selecteren.
 
@@ -93,7 +93,7 @@ Alle bestaande formulieren worden weergegeven. U kunt formulieren filteren op ba
 >id="ajo_lp_form_preset"
 >title="Een voorinstelling selecteren"
 >abstract="Kies een vooraf gedefinieerde voorinstelling die de te gebruiken verbinding en een vooraf gedefinieerde gegevensset voor uw formulier bevat."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Een formuliervoorinstelling maken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Een formuliervoorinstelling maken"
 
 Voer de onderstaande stappen uit om een formulier te maken.
 
@@ -107,39 +107,57 @@ Voer de onderstaande stappen uit om een formulier te maken.
 
 1. Klik op **[!UICONTROL Create]**. De vormontwerper opent, die u toelaat om structuren en inhoud [ componenten ](../email/content-components.md#add-content-components) toe te voegen om uw inhoud te bouwen. U kunt [ Tekst ](../email/content-components.md#text) en **[!UICONTROL Field]** componenten gebruiken.
 
-1. Als u specifieke velden aan het formulier wilt toevoegen, sleept u een structuur naar het canvas en sleept u een component **[!UICONTROL Field]** naar het canvas. <!--**[!UICONTROL Select field attribute]** or **[!UICONTROL Add custom field]**.-->
+1. Als u profielgegevens en -kenmerken wilt vastleggen, voegt u specifieke velden toe aan het formulier. [Meer informatie](#define-fields)
 
-   ![](assets/lp_create-form-field.png)
+1. Configureer en ontwerp deze velden. [Meer informatie](#configure-fields)
 
-   Selecteer vervolgens een van de volgende opties:
+1. U kunt de indeling, opmaak en afmetingen van het formulier naar wens aanpassen in het deelvenster **[!UICONTROL Styles]** . [ Leer meer bij het stileren ](../email/get-started-email-style.md)
 
-   >[!BEGINTABS]
+1. Wanneer u alle velden hebt geconfigureerd, klikt u op **[!UICONTROL Save & close]** .
 
-   >[!TAB  Uitgezochte gebied attributen ]
+1. Vorm Dank u pagina. [ leer hoe ](#thank-you-page)
 
-   Gebruik deze optie om een attribuut te selecteren dat op het datasetschema wordt gebaseerd verbonden aan uw vorm.
+1. **[!UICONTROL Publish]** het formulier om het beschikbaar te maken voor selectie op bestemmingspagina&#39;s.
 
-   >[!NOTE]
-   >
-   >De dataset wordt bepaald in vooraf ingesteld geselecteerd voor uw vorm. [Meer informatie](#create-form-preset)
+### Specifieke velden definiëren {#define-fields}
 
-   ![](assets/lp_select-field-attribute.png){width=100%}
+Als u specifieke velden aan het formulier wilt toevoegen, sleept u een structuur naar het canvas en sleept u een component **[!UICONTROL Field]** naar het canvas. <!--**[!UICONTROL Select field attribute]** or **[!UICONTROL Add custom field]**.-->
 
-   U kunt bijvoorbeeld de e-mail- en persoon-id instellen. Wanneer de gebruikers deze gebieden invullen, wordt de ingegane informatie bewaard aan de geselecteerde dataset.
+![](assets/lp_create-form-field.png)
 
-   ![](assets/lp_create-form-field-attributes.png){width=55%}
+Selecteer vervolgens een van de volgende opties:
 
-   Als u de verzamelde gegevens wilt toewijzen aan een profiel, selecteert u een profiel-identiteitsveld. De identiteitsvelden zijn gemarkeerd als **[!UICONTROL Required]** in de lijst met kenmerken - u kunt er op filteren.
+>[!BEGINTABS]
 
-   ![](assets/lp_create-form-required-attributes.png){width=65%}
+>[!TAB  Uitgezochte gebied attributen ]
 
-   >[!TAB  voeg douanegebied ] toe
+Gebruik deze optie om een attribuut te selecteren dat op het datasetschema wordt gebaseerd verbonden aan uw vorm.
 
-   Met deze optie, kunt u enkel een vrij gebied bepalen zonder het aan een gebied in de verbonden dataset in kaart te brengen.
+>[!NOTE]
+>
+>De dataset wordt bepaald in vooraf ingesteld geselecteerd voor uw vorm. [Meer informatie](#create-form-preset)
 
-   ![](assets/lp_create-form-custom-field.png){width=85%}
+![](assets/lp_select-field-attribute.png){width=100%}
 
-   >[!ENDTABS]
+U kunt bijvoorbeeld de e-mail- en persoon-id instellen. Wanneer de gebruikers deze gebieden invullen, wordt de ingegane informatie bewaard aan de geselecteerde dataset.
+
+![](assets/lp_create-form-field-attributes.png){width=55%}
+
+Als u de verzamelde gegevens wilt toewijzen aan een profiel, selecteert u een profiel-identiteitsveld. De identiteitsvelden zijn gemarkeerd als **[!UICONTROL Required]** in de lijst met kenmerken - u kunt er op filteren.
+
+![](assets/lp_create-form-required-attributes.png){width=65%}
+
+>[!TAB  voeg douanegebied ] toe
+
+Met deze optie, kunt u enkel een vrij gebied bepalen zonder het aan een gebied in de verbonden dataset in kaart te brengen.
+
+![](assets/lp_create-form-custom-field.png){width=85%}
+
+>[!ENDTABS]
+
+### Een veld configureren en ontwerpen {#configure-fields}
+
+Nadat u een veldkenmerk hebt geselecteerd of een aangepast veld hebt toegevoegd, kunt u de details en het gedrag van het kenmerk verder aanpassen bij het verzenden van het formulier.
 
 1. In de sectie **[!UICONTROL Field details]** van het tabblad **[!UICONTROL Content]** aan de rechterkant kunt u de volgende elementen opgeven:
 
@@ -166,14 +184,6 @@ Voer de onderstaande stappen uit om een formulier te maken.
    * Selecteer **[!UICONTROL Enable input mask]** om de invoer van gebruikers te vervangen door generieke tekens. U kunt *9* gebruiken om het even welk aantal te betekenen, *a* om het even welke brief te betekenen, of * om het even welk aantal of brief te betekenen.<!--Not sure how you define that in the form-->
 
    ![](assets/lp_create-form-field-behaviors.png){width=75%}
-
-1. U kunt de indeling, opmaak en afmetingen van het formulier naar wens aanpassen in het deelvenster **[!UICONTROL Styles]** . [ Leer meer bij het stileren ](../email/get-started-email-style.md)
-
-1. Wanneer u alle velden hebt geconfigureerd, klikt u op **[!UICONTROL Save & close]** .
-
-1. Vorm Dank u pagina. [ leer hoe ](#thank-you-page)
-
-1. **[!UICONTROL Publish]** het formulier om het beschikbaar te maken voor selectie op bestemmingspagina&#39;s.
 
 ### De pagina Hartelijk dank configureren {#thank-you-page}
 
