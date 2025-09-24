@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+source-git-commit: 10fb1975aa5dcab1ad7f39815fcc5dd5ef0c187d
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1151'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 
 ## Opmerkingen bij de release van september 1925 {#25-9-rn}
@@ -90,20 +90,7 @@ ht-degree: 2%
 </tbody>
 </table>-->
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Journey Agent is here!</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Powered by Adobe Experience Platform Agent Orchestrator, Journey Agent is available in Journey Optimizer. It enables you to analyze journeys through a natural language interface. The agent will detect audience or schedule conflicts and profile drop-offs in a journey to help you take steps to resolve them. Soon, you will be able to create journeys with agentic support.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+
 
 <table>
 <thead>
@@ -168,6 +155,22 @@ ht-degree: 2%
 </tr>
 </tbody>
 </table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent is hier!</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Aangedreven door <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank"> Adobe Experience Platform Agent Orchestrator </a>, is Journey Agent beschikbaar in Journey Optimizer. Het laat u toe om reizen door een natuurlijke taalinterface te analyseren. De agent zal publiek of programmaconflicten en profieldrop-offs in een reis ontdekken om u te helpen stappen nemen om hen op te lossen. Binnenkort kunt u reizen maken met ongeduldige ondersteuning.</p>
+<!--p>For more information, refer to the <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">detailed documentation</a></p-->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
