@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c708f33079da6d3e739dcec86870623fad40a69b
+source-git-commit: 56fa96e7da6352fb8e0c658ced8950c011f65c9e
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1794'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 
 ## Opmerkingen bij de release van september 1925 {#25-9-rn}
@@ -197,9 +197,7 @@ Wanneer u een aangepaste SMS-provider instelt, hebt u nu de mogelijkheid om wede
 
 ### Binnenkort beschikbaar {#sept-25-9-soon}
 
-De volgende mogelijkheden en verbeteringen zijn gericht op de komende dagen.
-
-**de inhoud hieronder is onderworpen aan verandering zonder voorafgaande kennisgeving**. De verbindingen, de schermen en de bijgewerkte documentatie worden gepubliceerd wanneer deze mogelijkheden en de verbeteringen aan productiemilieu&#39;s worden vrijgegeven.
+In de komende dagen zijn de volgende mogelijkheden en verbeteringen gepland voor release. **de Informatie is onderworpen aan verandering**. De bijgewerkte verbindingen, de schermen, en de documentatie zullen worden gedeeld zodra deze updates in productie levend zijn.
 
 <table>
 <thead>
@@ -276,7 +274,7 @@ De volgende mogelijkheden en verbeteringen zijn gericht op de komende dagen.
 <p>U kunt aangepaste formulieren maken, ontwerpen en beheren op basis van een specifieke gegevensset. U kunt deze formulieren vervolgens gebruiken in bestemmingspagina's om de profielkenmerken van uw keuze toe te voegen aan de gegevensset die voor elk formulier is gedefinieerd.</p>
 <p>Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
-<p>Voor meer informatie, verwijs naar de <a href="../landing-pages/lp-forms.md"> gedetailleerde documentatie </a></p>
+<!--p>For more information, refer to the <a href="../landing-pages/lp-forms.md">detailed documentation</a></p-->
 </td>
 </tr>
 </tbody>
@@ -310,11 +308,15 @@ De volgende mogelijkheden en verbeteringen zijn gericht op de komende dagen.
 * **Nieuwe Alarm van de Reis**\
   Nieuwe vooraf geconfigureerde waarschuwingen zijn beschikbaar voor reizen:
 
-   * [ Profiel verwerpt Tarief dat ](../reports/alerts.md#profile-discard-rate-exceeded) wordt overschreden: Verhouding van profielteruggooi naar ingegaan profielen over de laatste 5 minuten overschrijdt drempel.
-   * [ het Tarief van de Fout van de Actie van de Douane overtrof ](../reports/alerts.md#custom-action-error-rate-exceeded): Verhouding van de fouten van de douaneactie aan succesvolle vraag van HTTP over de laatste 5 minuten overschrijdt drempel.
-   * [ het Tarief van de Fout van het Profiel overtrok ](../reports/alerts.md#profile-error-rate-exceeded): Verhouding van profiel-in-fout aan ingegaan profielen over de laatste 5 minuten overschrijdt drempel.
+   * Profielverwijderingsfrequentie overschreden: verhouding van het aantal verwijderde profielgegevens naar ingevoerde profielen over de laatste 5 minuten is overschreden.
+   * Aangepast foutenpercentage voor handeling overschreden: verhouding tussen fouten met aangepaste handeling en geslaagde HTTP-aanroepen gedurende de laatste 5 minuten is de drempel overschreden.
+   * Foutpercentage profiel overschreden: de verhouding tussen profielen in fout en ingevoerde profielen over de laatste 5 minuten overschrijdt de drempel.
+<!--
+  * [Profile Discard Rate Exceeded](../reports/alerts.md#profile-discard-rate-exceeded): Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
+  * [Custom Action Error Rate Exceeded](../reports/alerts.md#custom-action-error-rate-exceeded): Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
+  * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.-->
 
-  U kunt drempelwaarden wijzigen en u kunt zich abonneren op individuele waarschuwingen op het niveau van de reis ten opzichte van de rest van de wereld.
+U kunt drempelwaarden wijzigen en u kunt zich abonneren op individuele waarschuwingen op het niveau van de reis ten opzichte van de rest van de wereld.
 
 
 * **de kenmerkensteun van de Douane met Één-Klik unsubscribe URL**\
