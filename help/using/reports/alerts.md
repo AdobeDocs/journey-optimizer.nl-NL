@@ -39,7 +39,7 @@ Deze worden als volgt vermeld en elke waarschuwing wordt hieronder beschreven.
 
 * Signaleringen die specifiek zijn voor reizen:
 
-   * het [ alarm van de Actie van de Douane van de 1} Reis](#alert-custom-actions)
+   * het [ alarm van de Actie van de Douane van de 1&rbrace; Reis](#alert-custom-actions)
    * [ Gelezen de Trekker van de Publiek Onsuccesvol ](#alert-read-audiences) alarm
 <!--DOCAC-13465   * the [Profile Discard Rate Exceeded](#alert-discard-rate) alert
    * the [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate) alert
@@ -148,7 +148,7 @@ Het alarm op **Gelezen Publiek** wordt opgelost wanneer een profiel de **Gelezen
 
 De I/O naam van het gebeurtenisabonnement die aan **beantwoordt las de Trekker van het Publiek Onsuccesvol** alarm is **Reis leest publieksvertragingen, Mislukkingen en Fouten**.
 
-Om **te problemen op te lossen leest het 1} alarm van het publiek {, controleer uw publiekstelling in de interface van Experience Platform.**
+Om **te problemen op te lossen leest het 1&rbrace; alarm van het publiek &lbrace;, controleer uw publiekstelling in de interface van Experience Platform.**
 
 ![](assets/alert-troubleshooting-0.png)
 
