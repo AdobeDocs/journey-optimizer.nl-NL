@@ -147,7 +147,7 @@ Als u de verzamelde gegevens wilt toewijzen aan een profiel, selecteert u een pr
 
 ![](assets/lp_create-form-required-attributes.png){width=65%}
 
->[!TAB  voeg douanegebied ] toe
+>[!TAB voeg douanegebied  toe]
 
 Met deze optie, kunt u enkel een vrij gebied bepalen zonder het aan een gebied in de verbonden dataset in kaart te brengen.
 
