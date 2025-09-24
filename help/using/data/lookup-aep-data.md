@@ -11,9 +11,9 @@ level: Intermediate
 keywords: expression, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+source-git-commit: 189a5e1c31946e05ef88161f0b5d678b95dd2064
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -55,15 +55,6 @@ Controleer voordat u begint de volgende beperkingen en richtlijnen:
 >[!NOTE]
 >
 >Neem contact op met uw Adobe-vertegenwoordiger als er meer volumes nodig zijn dan de hierboven vermelde instructies.
-
-### Aanvullende prestatieoverwegingen
-
-De volgende aanbevelingen zijn een leidraad om vertragingen in de leverbaarheid te voorkomen:
-
-| Overwegingen | Aanbevolen limiet | Beschrijving |
-| ------- | ------- | ------- |
-| Kenmerken per opzoekopdracht | Maximaal 20 | Het aantal gegevensvelden dat per record wordt opgehaald in één opzoekactiviteit. |
-| Opzoeken | Tot 5 per reis | Elke reis kan tot 5 afzonderlijke raadplegingsactiviteiten bevatten. Elke raadpleging kan een verschillende dataset richten. |
 
 ## Een dataset inschakelen voor gegevensopzoekhandeling {#enable}
 
