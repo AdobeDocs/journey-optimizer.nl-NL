@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 21765901738001a8a702bf15d5d2a9d5d930f774
+source-git-commit: c3700e139451cbd3a33af751d5715750a0e8675e
 workflow-type: tm+mt
-source-wordcount: '1815'
+source-wordcount: '1776'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 
 ## Opmerkingen bij de release van september 1925 {#25-9-rn}
@@ -29,22 +29,22 @@ ht-degree: 0%
 
 ### Nieuwe functies {#sept-25-9-features}
 
-<table>
+<!-- table>
 <thead>
 <tr>
-<th><strong>Openbare API om reizen op te halen</strong><br/></th>
+<th><strong>Public API to retrieve journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Er is nu een nieuwe Journey Optimizer API beschikbaar voor het ophalen van reizen en de bijbehorende objecten, zoals campagnes en oppervlakken.</p>
-<p>Voor meer informatie, verwijs naar de <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/"> gedetailleerde documentatie </a></p>
-<p>Beschikbaarheidsdatum: 25 september 2025</p>
+<p>A new Journey Optimizer API is now available to retrieve journeys and their associated objects such as campaigns and surfaces.</p>
+<p>For more information, refer to the <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">detailed documentation</a></p>
+<p>Availability date: Sept 25, 2025</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -78,8 +78,8 @@ ht-degree: 0%
 <tbody>
 <tr>
 <td>
-<p>Aangedreven door <a href="https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank"> Adobe Experience Platform Agent Orchestrator </a>, is Journey Agent beschikbaar in Journey Optimizer. Het laat u toe om reizen door een natuurlijke taalinterface te analyseren. De agent zal publiek of programmaconflicten en profieldrop-offs in een reis ontdekken om u te helpen stappen nemen om hen op te lossen. Binnenkort kunt u reizen maken met ongeduldige ondersteuning.</p>
-<p>Voor meer informatie, verwijs naar de <a href="https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank"> gedetailleerde documentatie </a></p>
+<p>Aangedreven door <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank"> Adobe Experience Platform Agent Orchestrator </a>, is Journey Agent beschikbaar in Journey Optimizer. Het laat u toe om reizen door een natuurlijke taalinterface te analyseren. De agent zal publiek of programmaconflicten en profieldrop-offs in een reis ontdekken om u te helpen stappen nemen om hen op te lossen. Binnenkort kunt u reizen maken met ongeduldige ondersteuning.</p>
+<p>Voor meer informatie, verwijs naar de <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank"> gedetailleerde documentatie </a></p>
 <p>Beschikbaarheidsdatum: 24 september 2025</p>
 </td>
 </tr>
