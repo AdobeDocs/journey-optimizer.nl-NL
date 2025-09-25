@@ -21,7 +21,7 @@ Adobe Journey Optimizer stelt teams in staat om naadloze, persoonlijke klanterva
 :::: landing-cards-container
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met Adobe Journey Optimizer
 
@@ -31,7 +31,7 @@ Leer de basisbeginselen van Adobe Journey Optimizer, inclusief zijn mogelijkhede
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Uitgebreide gids voor reizen
 
@@ -41,7 +41,7 @@ Met deze uitgebreide handleiding kunt u persoonlijke reizen van klanten ontwerpe
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Campagnes begrijpen en beheren
 
@@ -51,7 +51,7 @@ Gedetailleerde richtlijnen voor het maken, beheren en optimaliseren van verschil
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Conflictbeheer en -prioritering
 

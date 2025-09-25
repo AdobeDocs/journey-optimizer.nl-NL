@@ -49,7 +49,7 @@ Dankzij de Adobe Express-integratie in Adobe Journey Optimizer hebt u eenvoudig 
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Nieuwste aanvullende informatie
 
@@ -59,7 +59,7 @@ Blijf up-to-date met de nieuwste opmerkingen over releases, nieuwe functies en v
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag
 
@@ -69,7 +69,7 @@ Leer de basisbeginselen van Journey Optimizer, inclusief zijn mogelijkheden, arc
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Uitgebreide gids voor reizen
 
@@ -79,7 +79,7 @@ Met deze uitgebreide handleiding kunt u persoonlijke reizen van klanten ontwerpe
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Campagnes begrijpen en beheren
 
@@ -89,7 +89,7 @@ Gedetailleerde richtlijnen voor het maken, beheren en optimaliseren van verschil
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Communicatiekanalen
 
@@ -99,7 +99,7 @@ Configureer en beheer e-mail, SMS, pushberichten en andere kanalen voor persoonl
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Conflictbeheer en -prioritering
 
