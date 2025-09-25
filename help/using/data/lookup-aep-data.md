@@ -3,7 +3,6 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Experience Platform-gegevens gebruiken
 description: Leer hoe te om de datasets van Adobe Experience Platform in  [!DNL Journey Optimizer]  Beslissing en verpersoonlijkingsmogelijkheden te gebruiken.
-badge: label="Beperkte beschikbaarheid" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
@@ -11,9 +10,9 @@ level: Intermediate
 keywords: expression, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 189a5e1c31946e05ef88161f0b5d678b95dd2064
+source-git-commit: e3c6b00ccc0d034fc42dd1294a9b3a72054a48d3
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '739'
 ht-degree: 0%
 
 ---
@@ -24,10 +23,6 @@ ht-degree: 0%
 >id="lookup-aep-data"
 >title="Opzoeken inschakelen"
 >abstract="Als u een dataset voor opzoeken inschakelt, kunt u de gegevens ervan benutten binnen de mogelijkheden van Journey Optimizer op het gebied van personalisatie, besluitvorming en reisorganisatie."
-
->[!AVAILABILITY]
->
->Deze functie is momenteel beschikbaar voor alle klanten als een beperkte beschikbaarheidsrelease.
 
 Met Journey Optimizer kunt u gegevens uit Adobe Experience Platform-gegevens benutten met mogelijkheden voor personalisatie, besluitvorming en reisorkest. Om dit te doen, op verslag-gebaseerde datasets nodig voor raadplegingsverpersoonlijking moet eerst voor de raadplegingsdienst worden toegelaten zoals hieronder beschreven.
 
