@@ -4,13 +4,15 @@ product: Journey Optimizer
 title: Nieuwe functies
 description: Nieuwe functies
 redpen-status: CREATED_||_2025-08-11_20-03-09
-source-git-commit: cadb4a66c23010cb663eb1e840d0568021690edf
+hide: true
+hidefromtoc: true
+exl-id: 24460cae-3944-4ac4-9076-aca521cfddbd
+source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 7%
 
 ---
-
 
 # Nieuwe functies{#section-overview}
 
@@ -35,7 +37,7 @@ Dankzij de Adobe Express-integratie in Adobe Journey Optimizer hebt u eenvoudig 
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/nl/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
 >[!TAB  het fragment van de Inhoud van AEM ]
 
@@ -50,7 +52,7 @@ Door Adobe Experience Manager as a Cloud Service te integreren met Adobe Journey
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Opmerkingen bij de nieuwste release voor Adobe Journey Optimizer
 
@@ -60,7 +62,7 @@ Ontdek de nieuwste functies, verbeteringen en updates in Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Opmerkingen bij de vorige release van Adobe Journey Optimizer
 
@@ -70,7 +72,7 @@ Ontdek de uitgebreide opmerkingen bij de release van vorige jaren, met gedetaill
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Laatste updates voor Adobe Journey Optimizer-documentatie
 
