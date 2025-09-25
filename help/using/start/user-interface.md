@@ -361,7 +361,7 @@ Beginnen met [!DNL Journey Optimizer]? Hebt u ervaring met specifieke vragen? Be
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings"
 >title="Webhaken inschakelen"
->abstract="Schakel webhaken in om real-time feedback te ontvangen over de uitvoeringsstatus van uw berichten. Alvorens deze optie te activeren, zorg ervoor u een webhaak in het **Beleid** /2} Kanalen **/nl** Feedback Webhaak **menu hebt gevormd.**"
+>abstract="Schakel webhaken in om real-time feedback te ontvangen over de uitvoeringsstatus van uw berichten. Alvorens deze optie te activeren, zorg ervoor u een webhaak in het **Beleid** /2&rbrace; Kanalen **/nl** Feedback Webhaak **menu hebt gevormd.**"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_create"
