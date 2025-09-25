@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: dataset, optimizer, gebruiksgevallen
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
+source-git-commit: 90b8f69f3849418eaec1b65b14e0362980c43e9a
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Op deze pagina vindt u de lijst met Adobe Journey Optimizer-gegevenssets en verw
 * [Gegevensset BCC-feedbackgebeurtenis](#bcc-feedback-event-dataset)
 * [Entiteitsgegevens](#entity-dataset)
 
-Om de volledige lijst van gebieden en attributen voor elk schema te bekijken, raadpleeg het [ het schemawoordenboek van Journey Optimizer ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL){target="_blank"}.
+Om de volledige lijst van gebieden en attributen voor elk schema te bekijken, raadpleeg het [ het schemawoordenboek van Journey Optimizer ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
 Zie ook verscheidene algemeen gebruikte [ voorbeelden aan de Gebeurtenissen van de Stap van de Vraag ](../reports/query-examples.md).
 
@@ -236,6 +236,33 @@ where
 group by
     _experience.journeyOrchestration.stepEvents.nodeID,
     _experience.journeyOrchestration.stepEvents.nodeName; 
+```
+
+
+
+
+Deze vraag wint terug welke knopen (door nodeID en nodeName) in de reis met de levering van een bericht aan een profiel worden geassocieerd, gebruikend zijn profiel ID en de dataset van de Gebeurtenis van de Terugkoppeling van het Bericht:
+
+```sql
+select
+    _experience.journeyorchestration.stepevents.nodeID, JSE._experience.journeyorchestration.stepevents.nodeName
+from journey_step_events JSE
+where 
+    _experience.journeyOrchestration.stepEvents.actionID 
+    in
+
+    (
+    select
+        _experience.customerJourneyManagement.messageExecution.journeyActionID
+    from  ajo_message_feedback_event_dataset
+    where 
+        _experience.customerJourneyManagement.messageProfile.messageProfileID = '<PROFILE ID>'
+    group by
+        _experience.customerJourneyManagement.messageExecution.journeyActionID
+    )
+
+group by
+    _experience.journeyorchestration.stepevents.nodeID, JSE._experience.journeyorchestration.stepevents.nodeName  
 ```
 
 
