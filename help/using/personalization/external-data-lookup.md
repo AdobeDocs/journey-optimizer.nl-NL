@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 5df643d2b0623d40779d155e406467d622d3d753
+source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1197'
 ht-degree: 0%
 
 ---
@@ -172,7 +172,7 @@ U kunt bijvoorbeeld de items ophalen en doorlopen om een itemarray te retournere
 
 ### Time-outs en foutafhandeling
 
-[!DNL Journey Optimizer] gebruikt een strikte onderbreking wanneer het roepen van het externe eindpunt om laag-latentie, hoge productieprestatiekenmerken voor AEP Edge Network te handhaven.
+[!DNL Journey Optimizer] gebruikt een strikte onderbreking wanneer het roepen van het externe eindpunt om laag-latentie, hoge productieprestatiekenmerken voor Adobe Experience Platform Edge Network te handhaven.
 
 Als de eindpunttijden uit zijn of er een andere soort fout die het eindpunt bereikt, zal de resultaatvariabele leeg zijn. Verwijzingen naar kenmerken in de resultaatvariabele zijn in dit geval ook leeg. Als u het kenmerk gewoon in de inhoud weergeeft, wordt het kenmerk leeg weergegeven. Als u een arraykenmerk in het resultaat wilt doorlopen, worden geen items geretourneerd.
 
@@ -198,7 +198,7 @@ Of u kunt voorwaardelijk een volledig blok van inhoud als dit teruggeven:
 
 ### Foutopsporing
 
-Voor hulp bij foutopsporing worden time-out- en foutgegevens voor externe gegevenszoekopdrachten opgenomen in de Edge Delivery-weergave in AEP Assurance. Als u de verwachte resultaten voor een externeDataLookup helper in een binnenkomende actie niet ziet, kunt u een zitting van Assurance beginnen, een [!DNL Journey Optimizer] vraag van een Web of mobiele implementatie in werking stellen, en de mening van Edge Delivery gebruiken om onderbreking of foutendetails te controleren.
+Voor hulp bij foutopsporing worden time-out- en foutgegevens voor externe gegevenszoekopdrachten opgenomen in de Edge Delivery-weergave in Adobe Experience Platform Assurance. Als u de verwachte resultaten voor een externeDataLookup helper in een binnenkomende actie niet ziet, kunt u een zitting van Assurance beginnen, een [!DNL Journey Optimizer] vraag van een Web of mobiele implementatie in werking stellen, en de mening van Edge Delivery gebruiken om onderbreking of foutendetails te controleren.
 
 Bijvoorbeeld:
 
