@@ -37,7 +37,7 @@ Dankzij de Adobe Express-integratie in Adobe Journey Optimizer hebt u eenvoudig 
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/nl/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
 >[!TAB  het fragment van de Inhoud van AEM ]
 
@@ -52,7 +52,7 @@ Door Adobe Experience Manager as a Cloud Service te integreren met Adobe Journey
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Opmerkingen bij de nieuwste release voor Adobe Journey Optimizer
 
@@ -62,7 +62,7 @@ Ontdek de nieuwste functies, verbeteringen en updates in Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
 
 Opmerkingen bij de vorige release van Adobe Journey Optimizer
 
@@ -72,7 +72,7 @@ Ontdek de uitgebreide opmerkingen bij de release van vorige jaren, met gedetaill
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
 
 Laatste updates voor Adobe Journey Optimizer-documentatie
 
