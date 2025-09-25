@@ -5,7 +5,7 @@ title: Documentatie voor Adobe Journey Optimizer
 description: Documentatie voor Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
+source-git-commit: 65b994873e2e8202de20876c2c83868f145e2d90
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 7%
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 Adobe Journey Optimizer stelt teams in staat om naadloze, persoonlijke klantervaringen te ontwerpen en te leveren via kanalen als e-mail, SMS en meer. Door geavanceerde hulpmiddelen voor campagneorchestratie, gegevensbeheer, en besluitvorming te combineren, helpt het u reizen tot stand brengen die zich aan klantenbehoeften in echt - tijd aanpassen. Deze documentatie biedt een roadmap voor het beheersen van het platform - van het onderzoeken van zijn recentste eigenschappen en integratie aan het leren hoe te om publiek te beheren, reizen te vormen, en prestaties te analyseren. Of u nu een marketeer, gegevensanalist of campagnemanager bent, u vindt stapsgewijze hulplijnen, aanbevolen procedures en bronnen die op maat zijn gemaakt om u te helpen uw doelen met vertrouwen te bereiken.
 
-## Nieuwe functies {#section-overview}
+## Nieuwe functies {#section-new}
 
 Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en -documentatie! Bekijk voor een uitgebreide lijst met functies, verbeteringen en oplossingen de gedetailleerde [Aanvullende informatie](../using/rn/release-notes.md).
 
@@ -45,11 +45,11 @@ Dankzij de Adobe Express-integratie in Adobe Journey Optimizer hebt u eenvoudig 
 >[!ENDTABS]
 
 
-## Verkennen starten
+## Verkennen starten {#section-explore}
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Nieuwste aanvullende informatie
 
@@ -59,7 +59,7 @@ Blijf up-to-date met de nieuwste opmerkingen over releases, nieuwe functies en v
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag
 
@@ -69,7 +69,7 @@ Leer de basisbeginselen van Journey Optimizer, inclusief zijn mogelijkheden, arc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Uitgebreide gids voor reizen
 
@@ -79,7 +79,7 @@ Met deze uitgebreide handleiding kunt u persoonlijke reizen van klanten ontwerpe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Campagnes begrijpen en beheren
 
@@ -89,7 +89,7 @@ Gedetailleerde richtlijnen voor het maken, beheren en optimaliseren van verschil
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Communicatiekanalen
 
@@ -99,7 +99,7 @@ Configureer en beheer e-mail, SMS, pushberichten en andere kanalen voor persoonl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Conflictbeheer en -prioritering
 
@@ -128,11 +128,11 @@ Leer hoe u communicatieconflicten tussen campagnes en reizen op effectieve wijze
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong> Adobe Journey Optimizer </strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=nl-NL" target="_blank"> Leerprogramma's </a> - <a href="https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank"> Beschrijving van het Product </a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank"> Overzicht van de Veiligheid (PDF) </a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank"> APIs verwijzing </a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL" target="_blank"> het Woordenboek van het Schema van Journey Optimizer </a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html" target="_blank"> Leerprogramma's </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank"> Beschrijving van het Product </a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank"> Overzicht van de Veiligheid (PDF) </a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank"> APIs verwijzing </a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank"> het Woordenboek van het Schema van Journey Optimizer </a>
 
 </td>
 <td><strong> Adobe Experience Platform </strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=nl-NL" target="_blank"> Documentatie </a> - <a href="https://www.adobe.com/nl/experience-platform/documentation-and-developer-resources.html" target="_blank"> middelen van Ontwikkelaars </a>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html" target="_blank"> Documentatie </a> - <a href="https://www.adobe.com/nl/experience-platform/documentation-and-developer-resources.html" target="_blank"> middelen van Ontwikkelaars </a>
 </td>
 </tr></table>
 
