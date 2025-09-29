@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 0%
+source-wordcount: '448'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >id="ajo_admin_surface_sms_type"
 >title="De berichtcategorie definiëren"
 >abstract="Selecteer het type tekstberichten die deze configuratie gebruiken: Marketing voor promotieberichten, waarvoor toestemming van de gebruiker vereist is, of Transactie voor niet-commerciële berichten, zoals het terugstellen van wachtwoorden."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=nl-NL#sms-opt-out-management" text="Afmelden bij marketingberichten"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="Afmelden bij marketingberichten"
 
 Nadat u het SMS/MMS/RCS-kanaal hebt geconfigureerd, moet u een kanaalconfiguratie maken om SMS-, RCS- en MMS-berichten van **[!DNL Journey Optimizer]** te kunnen verzenden.
 
@@ -40,7 +40,7 @@ Ga als volgt te werk om een kanaalconfiguratie te maken:
 
 1. Bepaal de **montages van SMS**.
 
-   ![](assets/sms-surface-settings.png)
+   ![](assets/sms-surface-settings.png){width=80%}
 
    Selecteer eerst de **[!UICONTROL SMS Type]** die met de configuratie wordt verzonden: **[!UICONTROL Transactional]** of **[!UICONTROL Marketing]** .
 
@@ -59,13 +59,17 @@ Ga als volgt te werk om een kanaalconfiguratie te maken:
 
 1. Ga **[!UICONTROL Sender number]** in &#x200B; u voor uw mededelingen wilt gebruiken.
 
-1. Selecteer de **[!UICONTROL SMS Execution Field]** om de **[!UICONTROL Profile attribute]** te selecteren die aan de telefoonnummers van de profielen is gekoppeld.
-
 1. Als u de functie voor het verkorten van URL&#39;s wilt gebruiken in uw SMS-berichten, selecteert u een item in de lijst **[!UICONTROL Subdomain]** .
 
    >[!NOTE]
    >
    >Om een subdomein te kunnen selecteren, zorg ervoor u eerder minstens één subdomain SMS/MMS hebt gevormd. [ leer hoe ](sms-subdomains.md)
+
+1. In de sectie **[!UICONTROL Execution dimension]** gebruikt u **[!UICONTROL SMS Execution Field]** om onder de profielkenmerken het telefoonnummer te selecteren dat u met prioriteit wilt gebruiken als er meerdere nummers beschikbaar zijn in de database. [Meer informatie](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
+
+   >[!NOTE]
+   >
+   >Door gebrek, [!DNL Journey Optimizer] gebruikt het telefoonaantal dat in de [ wordt gespecificeerd algemene montages ](../configuration/primary-email-addresses.md) op het zandbakniveau. Wanneer u dit veld bijwerkt, wordt de standaardwaarde voor de ritten en campagnes met deze configuratie genegeerd.
 
 1. Nadat alle parameters zijn geconfigureerd, klikt u op **[!UICONTROL Submit]** om te bevestigen. U kunt de kanaalconfiguratie als ontwerp ook bewaren en zijn configuratie later hervatten.
 

@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
 workflow-type: tm+mt
-source-wordcount: '1438'
+source-wordcount: '1368'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ In de **sectie van het Type E-mail**, selecteer het type van bericht voor de con
 
 * Selecteer **Marketing** voor promotionele e-mail, zoals wekelijkse promoties voor een detailhandel. Voor deze berichten is toestemming van de gebruiker vereist.
 
-* Selecteer **Transactioneel** voor niet-commerciële e-mail, zoals orderbevestiging, wachtwoord terugstellende berichten, of leveringsinformatie bijvoorbeeld. Deze e-mails kunnen naar profielen worden verzonden die **&#x200B;**&#x200B;van marketing mededelingen afsloot. Deze berichten kunnen alleen in specifieke contexten worden verzonden.
+* Selecteer **Transactioneel** voor niet-commerciële e-mail, zoals orderbevestiging, wachtwoord terugstellende berichten, of leveringsinformatie bijvoorbeeld. Deze e-mails kunnen naar profielen worden verzonden die **** van marketing mededelingen afsloot. Deze berichten kunnen alleen in specifieke contexten worden verzonden.
 
 Wanneer u een bericht maakt, moet u een geldige kanaalconfiguratie kiezen die overeenkomt met de categorie die u voor uw e-mail hebt geselecteerd.
 
@@ -109,7 +109,7 @@ Als u een fout bij het voorleggen van de e-mailconfiguratie krijgt, betekent het
 >id="ajo_surface_suppressed_addresses"
 >title="Prioriteit suppressielijst overschrijven"
 >abstract="U kunt ook transactiemeldingen verzenden naar profielen, zelfs als hun e-mailadres op de suppressielijst voor Adobe Journey Optimizer staat vanwege een spamklacht. Deze optie is standaard uitgeschakeld."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=nl-NL" text="De vervolgkeuzelijst beheren"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html" text="De vervolgkeuzelijst beheren"
 
 >[!IMPORTANT]
 >
@@ -139,7 +139,7 @@ Zodra deze optie wordt toegelaten, hoewel een klant uw marketing e-mail als spam
 >id="ajo_surface_seed_list"
 >title="Een zaadlijst toevoegen"
 >abstract="Selecteer de zaadlijst van uw keus om specifieke interne adressen aan uw publiek automatisch toe te voegen. Deze zaadadressen zullen op de tijd van de leveringsuitvoering worden omvat en zullen een nauwkeurige kopie van het bericht voor betrouwbaarheidsdoeleinden ontvangen."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=nl-NL#use-seed-list" text="Wat zijn zaadlijsten?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="Wat zijn zaadlijsten?"
 
 Met een zaadlijst in [!DNL Journey Optimizer] kunt u automatisch specifieke e-mailadressen opnemen in uw leveringen. [Meer informatie](../configuration/seed-lists.md)
 
@@ -165,7 +165,7 @@ Leer hoe te om zaadlijst in een campagne of een reis in [ te gebruiken deze sect
 >id="ajo_admin_presets_retryperiod"
 >title="De periode voor het opnieuw proberen aanpassen"
 >abstract="Retries worden 3,5 dagen (84 uur) uitgevoerd wanneer een e-maillevering mislukt als gevolg van een tijdelijke soft bounce-fout. U kunt deze standaardperiode voor opnieuw proberen aanpassen aan uw wensen."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=nl-NL" text="Opnieuw proberen"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="Opnieuw proberen"
 
 U kunt **e-mail vormen opnieuw probeert parameters**.
 
@@ -187,11 +187,6 @@ Met **[!UICONTROL URL tracking parameters]** kunt u de doeltreffendheid van uw m
 
 ## Uitvoeringsadres {#execution-address}
 
->[!CONTEXTUALHELP]
->id="ajo_email_config_execution_address"
->title="Het standaard te gebruiken uitvoeringsadres overschrijven"
->abstract="Als er meerdere e-mailadressen beschikbaar zijn in de database (persoonlijk, professioneel, enz.), kunt u kiezen bij welke e-mailadressen de verzending prioriteit moet krijgen. Het primaire adres wordt bepaald op het zandbakniveau, maar hier kunt u het gebrek met voeten treden dat voor deze specifieke e-mailconfiguratie plaatst."
-
 Als u een profiel als doel instelt, zijn mogelijk verschillende e-mailadressen beschikbaar in de database (professioneel e-mailadres, persoonlijk e-mailadres, enz.).
 
 In dat geval gebruikt [!DNL Journey Optimizer] het adres dat is opgegeven in **[!UICONTROL Execution fields]** op sandboxniveau om te bepalen welk e-mailadres prioriteit moet krijgen van de profielservice. [Meer informatie](../configuration/primary-email-addresses.md)
@@ -202,8 +197,6 @@ In dat geval gebruikt [!DNL Journey Optimizer] het adres dat is opgegeven in **[
 
 U kunt dit standaard uitvoeringsveld echter wijzigen op het niveau van de configuratie van het e-mailkanaal. U kunt deze instelling vervolgens toepassen op specifieke campagnes of reizen.
 
-Hiervoor bewerkt u het veld **[!UICONTROL Delivery address]** en selecteert u een item in de lijst met beschikbare XDM-velden van het e-mailtype.
+Hiervoor bewerkt u het veld **[!UICONTROL Delivery address]** en selecteert u een item in de lijst met beschikbare XDM-velden van het e-mailtype. [Meer informatie](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 
 ![](assets/email-config-delivery-address.png)
-
-Het uitvoeringsgebied wordt bijgewerkt en dan gebruikt als primair adres. De algemene instelling op sandboxniveau wordt genegeerd.

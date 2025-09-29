@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: primair, uitvoeren, e-mail, doel, profiel, optimaliseer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
+source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,10 @@ In dat geval gebruikt [!DNL Journey Optimizer] **[!UICONTROL Execution fields]**
 Als u de velden wilt controleren die standaard worden gebruikt, opent u het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL General settings]** > **[!UICONTROL Executions fields]** .
 
 ![](assets/primary-address-execution-fields.png)
+
+>[!NOTE]
+>
+>De gebieden van de uitvoering zijn beschikbaar voor de kanalen van e-mail en van SMS.
 
 De huidige waarden worden gebruikt voor alle leveringen op sandboxniveau. U kunt deze velden zo nodig bijwerken.
 
@@ -66,32 +70,24 @@ Het uitvoeringsveld wordt bijgewerkt en wordt nu gebruikt als primair adres.
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## Het standaard uitvoeringsveld overschrijven {#override-default-execution-address}
+## Het standaarduitvoeringsveld in de reisparameters overschrijven {#override-execution-address-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_execution_address"
 >title="Een aangepaste waarde definiëren"
 >abstract="In sommige specifieke gevallen kunt u het standaardadres voor uitvoering overschrijven. Gebruik **toelaten parameteropheffing** pictogram rechts van het gebied om een douane primair adres te bepalen."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="Het uitvoeringsadres"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="Het uitvoeringsadres"
 
-Voor specifieke gebruiksgevallen kunt u het uitvoeringsveld globaal overschrijven en een andere waarde definiëren op het niveau van de e-mailconfiguratie of op het niveau van de reis.
+Voor specifieke gebruiksgevallen kunt u het uitvoeringsveld dat globaal is ingesteld negeren en een andere waarde definiëren op het niveau van de reis.
 
 Het overschrijven van deze waarde kan bijvoorbeeld nuttig zijn om:
 
 * Test een e-mailbericht. U kunt uw eigen e-mailadres toevoegen: nadat u de reis hebt gepubliceerd, wordt het e-mailbericht naar u verzonden.
 * Stuur een e-mail naar de abonnees van een lijst. Leer meer in [ dit gebruiksgeval ](../building-journeys/message-to-subscribers-uc.md).
 
-### In de e-mailconfiguratie
-
-U kunt het standaard uitvoeringsgebied veranderen dat in de [ algemene montages ](#admin-settings) wordt geplaatst wanneer het bepalen van een configuratie van het e-mailkanaal. [Meer informatie](../email/email-settings.md#execution-address)
-
-Wanneer een uitvoeringsadres in de e-mailconfiguratie wordt bepaald, wordt het gebruikt als primair adres en treedt algemene het plaatsen op het zandbakniveau met voeten.
-
-### In de reisparameters {#journey-parameters}
-
 Wanneer het toevoegen van een **[!UICONTROL Email]** of **[!UICONTROL SMS]** actie aan a [ reis ](../email/create-email.md#create-email-journey-campaign), wordt het primaire e-mailadres getoond onder de reis geavanceerde parameters.
 
-In bepaalde specifieke contexten kunt u deze waarde overschrijven met het pictogram **[!UICONTROL Enable parameter override]** rechts van het veld.
+Overschrijf deze waarde met het pictogram **[!UICONTROL Enable parameter override]** rechts van het veld.
 
 ![](assets/journey-enable-parameter-override.png)
 
@@ -99,4 +95,23 @@ In bepaalde specifieke contexten kunt u deze waarde overschrijven met het pictog
 >
 >Overschrijven van e-mailadressen mag alleen worden gebruikt voor specifieke gebruiksgevallen. Meestal hoeft u het e-mailadres niet te wijzigen, omdat de waarde die wordt gedefinieerd als het primaire adres in de **[!UICONTROL Execution fields]** het adres is dat moet worden gebruikt.
 
+## Het standaard uitvoeringsveld in de kanaalconfiguratie overschrijven {#override-execution-address-channel-config}
 
+>[!CONTEXTUALHELP]
+>id="ajo_email_config_execution_address"
+>title="Het standaard te gebruiken uitvoeringsadres overschrijven"
+>abstract="Als er meerdere e-mailadressen of telefoonnummers beschikbaar zijn in de database (persoonlijk, professioneel, enz.), kunt u aangeven welke prioriteit u wilt geven aan het verzenden. Het primaire adres wordt bepaald op het zandbakniveau, maar hier kunt u het gebrek met voeten treden dat voor deze specifieke kanaalconfiguratie plaatst."
+
+U kunt het standaarduitvoeringsadres voor een specifieke e-mail of een sms [ kanaalconfiguratie ](channel-surfaces.md) veranderen.
+
+Ga hiertoe naar de sectie **[!UICONTROL Execution dimension]** en bewerk het veld onder **[!UICONTROL Execution Address]** .
+
+![](assets/sms-config-execution-address.png){width=85%}
+
+Selecteer vervolgens een item in de lijst met beschikbare XDM-velden van het e-mailtype.
+
+![](assets/sms-config-execution-field.png)
+
+Het uitvoeringsgebied wordt bijgewerkt en dan gebruikt als primair adres voor de campagnes of de reizen gebruikend deze kanaalconfiguratie. Het treedt het [ algemene plaatsen ](#admin-settings) met voeten die op het zandbakniveau wordt bepaald.
+
+<!--[Learn more on the execution address in the email configuration ](../email/email-settings.md#execution-address)-->
