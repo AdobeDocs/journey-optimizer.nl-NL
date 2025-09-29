@@ -10,9 +10,9 @@ level: Intermediate
 keywords: expression, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: e3c6b00ccc0d034fc42dd1294a9b3a72054a48d3
+source-git-commit: e9ed993dd5957adb305b582b30e6675d2bb4526f
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '749'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Controleer voordat u begint de volgende beperkingen en richtlijnen:
 * Datasets die zijn ingeschakeld voor opzoeken, mogen geen PII (Personeel Identified Information) bevatten.
 * Datasets die voor raadpleging worden toegelaten en in verpersoonlijking worden gebruikt worden niet beschermd tegen schrapping. Het is aan u om spoor te houden van welke datasets voor verpersoonlijking worden gebruikt om ervoor te zorgen zij niet worden geschrapt of worden verwijderd.
 * Datasets moeten worden gekoppeld aan een schema dat NIET van het type Profiel of Gebeurtenis is is.
-* Schema&#39;s moeten een primaire identiteit hebben. Voor zoekopdrachten kan slechts één primaire sleutel worden gebruikt.
+* Het stromen gegevensopname wordt gesteund voor raadpleging-toegelaten datasets. Houd er rekening mee dat de verwerking van inname nog moet zijn voltooid voordat de gegevens beschikbaar zijn voor personalisatie of besluitvorming.
 
 ### Entitlement for lookup service
 

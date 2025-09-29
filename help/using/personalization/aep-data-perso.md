@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+source-git-commit: e9ed993dd5957adb305b582b30e6675d2bb4526f
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Zodra een dataset voor raadplegingsverpersoonlijking is toegelaten, kunt u zijn 
 
    +++Waar kan ik een gegevensset-id ophalen?
 
-   Dataset-id&#39;s kunnen worden opgehaald in de gebruikersinterface van Adobe Experience Platform. Leer hoe te met datasets in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"} te werken.
+   Dataset-id&#39;s kunnen worden opgehaald in de gebruikersinterface van Adobe Experience Platform. Leer hoe te met datasets in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"} te werken.
 
    ![](assets/aep-data-dataset.png)
 
@@ -81,13 +81,15 @@ Zodra een dataset voor raadplegingsverpersoonlijking is toegelaten, kunt u zijn 
    >[!NOTE]
    >
    >Wanneer het van verwijzingen voorzien van een datasetgebied, zorg ervoor dat u de volledige die gebiedspad zoals binnen het schema wordt bepaald aanpast.
+   >
+   >Er zijn geen harde grenzen op het aantal gebieden die kunnen worden getrokken gebruikend de helperfunctie. Voor de beste prestaties is het echter raadzaam het aantal velden onder de 50 te houden om te voorkomen dat de doorvoer wordt beïnvloed.
 
    * **resultaat** is de waarde die u aan de **resultaat** parameter in de **MultiEntiteit** hulpfunctie hebt toegewezen. In dit voorbeeld &quot;vlucht&quot;.
    * **fieldID** is identiteitskaart van het gebied u wilt terugwinnen. Deze id is zichtbaar in de gebruikersinterface van [!DNL Adobe Experience Platform] wanneer het doorbladeren van het recordschema met betrekking tot uw dataset:
 
      +++Waar moet u een veld-id ophalen?
 
-     Velden-id&#39;s kunnen worden opgehaald wanneer een voorbeeld van een gegevensset in de gebruikersinterface van Adobe Experience Platform wordt weergegeven. Leer hoe te voorproef datasets in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
+     Velden-id&#39;s kunnen worden opgehaald wanneer een voorbeeld van een gegevensset in de gebruikersinterface van Adobe Experience Platform wordt weergegeven. Leer hoe te voorproef datasets in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
 
      ![](assets/aep-data-field.png)
 
