@@ -76,7 +76,7 @@ Het uitvoeringsveld wordt bijgewerkt en wordt nu gebruikt als primair adres.
 >id="ajo_journey_execution_address"
 >title="Een aangepaste waarde definiëren"
 >abstract="In sommige specifieke gevallen kunt u het standaardadres voor uitvoering overschrijven. Gebruik **toelaten parameteropheffing** pictogram rechts van het gebied om een douane primair adres te bepalen."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="Het uitvoeringsadres"
+>additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="Het uitvoeringsadres"
 
 Voor specifieke gebruiksgevallen kunt u het uitvoeringsveld dat globaal is ingesteld negeren en een andere waarde definiëren op het niveau van de reis.
 
