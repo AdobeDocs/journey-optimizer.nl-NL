@@ -20,7 +20,7 @@ ht-degree: 1%
 >id="ajo_admin_surface_sms_type"
 >title="De berichtcategorie definiëren"
 >abstract="Selecteer het type tekstberichten die deze configuratie gebruiken: Marketing voor promotieberichten, waarvoor toestemming van de gebruiker vereist is, of Transactie voor niet-commerciële berichten, zoals het terugstellen van wachtwoorden."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="Afmelden bij marketingberichten"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=nl-NL#sms-opt-out-management" text="Afmelden bij marketingberichten"
 
 Nadat u het SMS/MMS/RCS-kanaal hebt geconfigureerd, moet u een kanaalconfiguratie maken om SMS-, RCS- en MMS-berichten van **[!DNL Journey Optimizer]** te kunnen verzenden.
 
