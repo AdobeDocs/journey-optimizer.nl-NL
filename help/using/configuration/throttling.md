@@ -83,7 +83,7 @@ Voorbeeld:
 
 >[!IMPORTANT]
 >
->De configuratie zal slechts actief na het roepen van **** eindpunt opstellen.
+>De configuratie zal slechts actief na het roepen van **&#x200B;**&#x200B;eindpunt opstellen.
 
 ## Fouten
 
