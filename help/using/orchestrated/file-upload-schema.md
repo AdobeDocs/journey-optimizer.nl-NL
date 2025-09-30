@@ -29,7 +29,7 @@ Deze sectie verstrekt geleidelijke begeleiding op hoe te om een model-gebaseerd 
 
 1. [ Samenvatting gegevens ](ingest-data.md) in uw dataset van gesteunde bronnen.
 
-➡️ [ Leer meer over op model-gebaseerde schema&#39;s in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
+➡️ [ Leer meer over op model-gebaseerde schema&#39;s in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/model-based)
 
 ## Een DDL-bestand uploaden{#ddl-upload}
 
