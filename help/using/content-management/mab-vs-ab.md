@@ -4,29 +4,23 @@ description: Meer informatie over A/B testen versus multigewapende bandit
 feature: A/B Testing, Experimentation
 role: User
 level: Experienced
-source-git-commit: 397fad9c95e0c11c0496ab5c9adfb6f8169de4f6
+exl-id: 1f7b74d2-77c3-4113-8e6a-1e2a95117748
+source-git-commit: a659f596c0d37f4b91ec41e52c02c8385f6ae16b
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
 
 # A/B vs. Multi-gewapende bandit experimenten {#mab-vs-ab}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="ajo_ab_test_mab"
->title="Experiment type"
->abstract="Experiment type determines how traffic is allocated between treatments during your test. Choose the method that best aligns with your goals:</br>
->
->* **A/B Experiment**: Splits traffic as you define between treatments and measures performance until results are statistically significant. Best for learning which treatment performs better in a controlled comparison.
->
->* **Multi-armed Bandit**: Shifts traffic toward higher-performing treatments as data is collected, balancing speed and optimization. Useful when you want to maximize conversions during the experiment.
->
->* **Bring your own Multi-armed Bandit**: Use your own algorithm to decide traffic allocation, giving you flexibility if you have a custom model or strategy."
--->
+>title="Type experiment"
+>abstract="Het type experiment bepaalt hoe het verkeer tussen behandelingen tijdens de test wordt verdeeld. Kies de methode die het best op uw doelstellingen richt:</br><b> A/B Experiment </b>: Splitst verkeer aangezien u tussen behandelingen en maatprestaties bepaalt tot de resultaten statistisch significant zijn. De beste manier om te leren welke behandeling beter functioneert in een gecontroleerde vergelijking.</br><b> Multi-gewapende Bandit </b>: Verschuift verkeer in de richting van beter-presterende behandelingen aangezien het gegeven wordt verzameld, in evenwicht brengend snelheid en optimalisering. Nuttig wanneer u conversies tijdens het experiment wilt maximaliseren.</br><b> breng uw eigen Meervoudig-gewapende Bandit </b>: Gebruik uw eigen algoritme om verkeerstoewijzing te besluiten, die u flexibiliteit geven als u een douanemodel of een strategie hebt."
 
 Deze pagina verstrekt een gedetailleerde vergelijking van **A/B** en **Multi-Armed Bandit** experimenten, die hun respectieve sterke punten, beperkingen, en de scenario&#39;s verklaren waarin elke benadering het meest effectief is.
+
 
 ## A/B {#ab-test}
 
@@ -132,4 +126,3 @@ De belangrijkste beperkingen van de multi-gewapende banimethoden zijn:
 | U hebt beperkt verkeer en wilt rendement van investeringen snel optimaliseren | Meervoudig bewapende banaan |
 | Je hebt veel verkeer en je kunt het trager leren betalen | A/B |
 | Belanghebbenden hebben duidelijke beslissingspunten nodig | A/B |
-
