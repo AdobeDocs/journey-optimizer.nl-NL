@@ -4,13 +4,13 @@ product: journey optimizer
 title: API voor beperken
 description: Leer hoe u met de Throttling-API werkt
 feature: Journeys, API
-role: User
+role: Developer
 level: Beginner
 keywords: extern, API, optimaliseren, aftopping
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
+source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1024'
 ht-degree: 48%
 
 ---
@@ -19,14 +19,14 @@ ht-degree: 48%
 
 Met de Throttling-API kunt u uw throttling-configuraties maken, configureren en controleren om het aantal gebeurtenissen dat per seconde wordt verzonden te beperken.
 
-Deze sectie bevat algemene informatie over het werken met de API. Een gedetailleerde API beschrijving is beschikbaar in [ documentatie van Adobe Journey Optimizer APIs ](https://developer.adobe.com/journey-optimizer-apis/).
+Deze sectie bevat algemene informatie over het werken met de API. Een gedetailleerde API beschrijving is beschikbaar in [ documentatie van Adobe Journey Optimizer APIs ](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.
 
 ## Lees hier meer
 
 * **Één configuratie per organisatie:** slechts wordt één configuratie momenteel toegestaan per organisatie. Er moet een configuratie worden gedefinieerd in een productiesandbox (opgegeven via `x-sandbox-name` in de koppen).
 * **organisatie-vlakke toepassing:** de configuratie van A wordt toegepast op organisatieniveau.
 * **API grens behandeling:** wanneer de grens die in API wordt geplaatst wordt bereikt, worden de verdere gebeurtenissen een rij gevormd tot 6 uren. Deze waarde kan niet worden gewijzigd.
-* **`maxHttpConnections`parameter:** De parameter &#39;maxHttpConnections&#39; is een optionele parameter die beschikbaar is in de API voor uitlijnen, maar u alleen toestaat het aantal verbindingen te beperken dat Journey Optimizer opent voor het externe systeem. [ Leer hoe te met het Kappen API ](../configuration/capping.md) te werken
+* **`maxHttpConnections`parameter:** De `maxHttpConnections` parameter is een optionele parameter die beschikbaar is in de API voor uitsnijden, zodat u alleen het aantal verbindingen kunt beperken dat Journey Optimizer opent voor het externe systeem. [ Leer hoe te met het Kappen API ](../configuration/capping.md) te werken
 
   Als u het aantal verbindingen wilt beperken maar die externe vraag ook wilt vertragen, kunt u twee configuraties, één throttling en één het in kaart brengen, op het zelfde eindpunt vormen. Beide configuraties kunnen voor één eindpunt coëxisteren. Als u &#39;maxHttpConnections&#39; wilt instellen voor een vertraagd eindpunt, gebruikt u de Throttling-API om de vertragingsdrempel en de Capping-API in te stellen om &#39;maxHttpConnections&#39; in te stellen. Wanneer u de API voor uitsnijden aanroept, kunt u de drempelwaarde voor uitlijnen instellen op iets hoger dan de drempelwaarde voor vertragen, zodat de uitlijningsregel in feite nooit wordt toegepast.
 
@@ -45,20 +45,21 @@ In de onderstaande tabel staan de beschikbare opdrachten voor de vertragings-API
 | [!DNL GET] | /throttlingConfigs/`{uid}` | Een beperkingsconfiguratie ophalen |
 | [!DNL DELETE] | /throttlingConfigs/`{uid}` | Een beperkingsconfiguratie verwijderen |
 
-Bovendien is een inzameling van Postman beschikbaar [ hier ](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json) om u in uw het testen configuratie te helpen.
+Bovendien is een inzameling van Postman beschikbaar [ hier ](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json){target="_blank"} om u in uw het testen configuratie te helpen.
 
-Deze inzameling is opstelling geweest om de Variabele die inzameling van Postman te delen via __[de Integraties van de Console van Adobe I/O wordt geproduceerd ](https://console.adobe.io/integrations) > probeert het uit > Download voor Postman__, die een dossier van het Milieu van Postman met de geselecteerde integratiewaarden produceert.
+Deze inzameling is opstelling geweest om de Variabele die inzameling van Postman te delen via **[de Integraties van de Console van Adobe I/O wordt geproduceerd ](https://console.adobe.io/integrations) > probeert het uit > Download voor Postman**, die een dossier van het Milieu van Postman met de geselecteerde integratiewaarden produceert.
 
 Eenmaal gedownload en geüpload naar Postman moet u drie variabelen toevoegen: `{JO_HOST}`,`{BASE_PATH}` en `{SANDBOX_NAME}`.
+
 * `{JO_HOST}` : [!DNL Journey Optimizer] URL van gateway.
 * `{BASE_PATH}` : ingangspunt voor de API.
-* `{SANDBOX_NAME}`: de header **x-sandbox-name** (bijvoorbeeld &#39;prod&#39;) die overeenkomt met de sandboxnaam waar de API-operaties zullen plaatsvinden. Zie het [sandboxoverzicht](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=nl) voor meer informatie.
+* `{SANDBOX_NAME}`: de header **x-sandbox-name** (bijvoorbeeld &#39;prod&#39;) die overeenkomt met de sandboxnaam waar de API-operaties zullen plaatsvinden. Zie het [sandboxoverzicht](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=nl){target="_blank"} voor meer informatie.
 
 ## Beperkingsconfiguratie {#configuration}
 
 Dit is de structuur van een beperkingsconfiguratie. De attributen **name** en **description** zijn optioneel.
 
-```
+```json
 {
     "name": "<given name - free text>",
     "description": "<given description - free text>"
@@ -70,7 +71,7 @@ Dit is de structuur van een beperkingsconfiguratie. De attributen **name** en **
 
 Voorbeeld:
 
-```
+```json
 {
   "name": "throttling-config-external",
   "description": "example of throttling config for an external endpoint",
@@ -82,13 +83,13 @@ Voorbeeld:
 
 >[!IMPORTANT]
 >
->De configuratie zal slechts actief na het roepen van **&#x200B;**&#x200B;eindpunt opstellen.
+>De configuratie zal slechts actief na het roepen van **** eindpunt opstellen.
 
 ## Fouten
 
 Bij het maken of bijwerken van een configuratie valideert het proces de gegeven configuratie en retourneert de validatiestatus die wordt geïdentificeerd door de unieke ID, ofwel:
 
-```
+```json
 "ok" or "error"
 ```
 
@@ -123,7 +124,7 @@ Bij het maken, verwijderen of implementeren van een beperkingsconfiguratie kunne
 
 Als u probeert een configuratie te maken op een non-prod sandbox:
 
-```
+```json
 {
     "status": 400,
     "error": "{\"code\":1463,\"family\":\"INPUT_OUTPUT_ERROR\",\"message\":\"Operation not allowed on throttling config: non prod sandbox\",\"service\":\"vyg-authoring-api\",\"version\":\"ed87515\",\"context\":\"com.adobe.voyager.service.authoring.restapis.v1_0.ThrottlingConfigService:384\",\"schema\":\"throttlingConfigs$ui-tests\"}",
@@ -133,7 +134,7 @@ Als u probeert een configuratie te maken op een non-prod sandbox:
 
 Als deze sandbox niet bestaat:
 
-```
+```json
 {
     "status": 500,
     "error": "{\"code\":4000,\"family\":\"INTERNAL_ERROR\",\"message\":\"INTERNAL ERROR\",\"service\":\"vyg-authoring-api\",\"version\":\"ed87515\",\"context\":\"com.adobe.voyager.common.exceptions.ApiErrorException:43\"}",
@@ -143,7 +144,7 @@ Als deze sandbox niet bestaat:
 
 Wanneer u probeert een andere configuratie te maken:
 
-```
+```json
 {
     "status": 400,
     "error": "{\"code\":1465,\"family\":\"INPUT_OUTPUT_ERROR\",\"message\":\"Can't create throttling config: only one config allowed per org\",\"service\":\"vyg-authoring-api\",\"version\":\"ed87515\",\"context\":\"com.adobe.voyager.service.authoring.restapis.v1_0.ThrottlingConfigService:108\",\"schema\":\"throttlingConfigs$prod\"}",
@@ -163,7 +164,7 @@ Bij het bijwerken van een geïmplementeerde configuratie wordt onmiddellijk reke
 
 **Maken - POST**
 
-```
+```json
 {
     "canDeploy": {
         "validationStatus": "ok"
@@ -200,7 +201,7 @@ Bij het bijwerken van een geïmplementeerde configuratie wordt onmiddellijk reke
 
 **Update - PUT**
 
-```
+```json
 {
     "updatedElement": {
         "_id": "043a1aea-2dfd-4965-b93a-cb9a1eced0e6_8872a010-f91e-11ea-895c-11ef8f98ba52",
@@ -238,7 +239,7 @@ Bij het bijwerken van een geïmplementeerde configuratie wordt onmiddellijk reke
 
 **Lezen (na update) - GET**
 
-```
+```json
 {
     "result": {
         "_id": "043a1aea-2dfd-4965-b93a-cb9a1eced0e6_8872a010-f91e-11ea-895c-11ef8f98ba52",
@@ -270,7 +271,7 @@ Bij het bijwerken van een geïmplementeerde configuratie wordt onmiddellijk reke
 
 **Lezen (na implementatie) - GET**
 
-```
+```json
 {
     "result": {
         "_id": "043a1aea-2dfd-4965-b93a-cb9a1eced0e6_8872a010-f91e-11ea-895c-11ef8f98ba52",
@@ -310,7 +311,7 @@ Deze sectie bevat een overzicht van de belangrijkste gebruiksgevallen voor het b
 
 De details op elk API bevel zijn beschikbaar in de [ API beschrijving &amp; inzameling van Postman ](#description).
 
-+++Creatie en plaatsing van een nieuwe het vertragen configuratie
++++Het creëren en de plaatsing van een nieuwe throttling configuratie
 
 API-aanroepen voor gebruik:
 
@@ -321,7 +322,7 @@ API-aanroepen voor gebruik:
 
 +++
 
-+++Update en stel een throttling configuratie (nog niet opgesteld) op.
++++Werk en stel een throttling configuratie (nog niet opgesteld) bij
 
 API-aanroepen voor gebruik:
 
@@ -333,7 +334,7 @@ API-aanroepen voor gebruik:
 
 +++
 
-+++Verwijder een geïmplementeerde vertragingsconfiguratie en verwijder deze
++++Implementeer en verwijder een geïmplementeerde throttingconfiguratie
 
 API-aanroepen voor gebruik:
 
@@ -343,7 +344,7 @@ API-aanroepen voor gebruik:
 
 +++
 
-+++ schrap een opgestelde throttingconfiguratie
++++Een geïmplementeerde vertragingsconfiguratie verwijderen
 
 In slechts één API-aanroep kunt u de configuratie met behulp van de parameter `forceDelete` verwijderen en de implementatie ervan ongedaan maken.
 
@@ -354,7 +355,7 @@ API-aanroepen voor gebruik:
 
 +++
 
-+++ Update een reeds opgezette throttingconfiguratie
++++Een reeds geïmplementeerde configuratie voor vertragen bijwerken
 
 >[!NOTE]
 >

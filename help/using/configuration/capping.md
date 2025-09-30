@@ -4,13 +4,13 @@ product: journey optimizer
 title: Afkappings-API
 description: Meer informatie over het werken met de API voor uitlijnen
 feature: Journeys, API
-role: User
+role: Developer
 level: Beginner
 keywords: extern, API, optimaliseren, aftopping
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
+source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '730'
 ht-degree: 6%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 6%
 
 Met de API voor uitsnijden kunt u uw configuraties voor uitlijnen maken, configureren en controleren.
 
-Deze sectie bevat algemene informatie over het werken met de API. Een gedetailleerde API beschrijving is beschikbaar in [ documentatie van Adobe Journey Optimizer APIs ](https://developer.adobe.com/journey-optimizer-apis/).
+Deze sectie bevat algemene informatie over het werken met de API. Een gedetailleerde API beschrijving is beschikbaar in [ documentatie van Adobe Journey Optimizer APIs ](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.
 
 ## API-beschrijving van uitlijnen en Postman-verzameling {#description}
 
-In de onderstaande tabel staan de beschikbare opdrachten voor de API voor aftiteling. De gedetailleerde informatie met inbegrip van verzoeksteekproeven, parameters, en antwoordformaten is beschikbaar in de [ documentatie van Adobe Journey Optimizer APIs ](https://developer.adobe.com/journey-optimizer-apis/references/journeys/).
+In de onderstaande tabel staan de beschikbare opdrachten voor de API voor aftiteling. De gedetailleerde informatie met inbegrip van verzoeksteekproeven, parameters, en antwoordformaten is beschikbaar in de [ documentatie van Adobe Journey Optimizer APIs ](https://developer.adobe.com/journey-optimizer-apis/references/journeys/){target="_blank"}.
 
 | Methode | Pad | Beschrijving |
 |---|---|---|
@@ -46,13 +46,13 @@ Deze inzameling is opstelling geweest om de Variabele die inzameling van Postman
 Eenmaal gedownload en geüpload naar Postman moet u drie variabelen toevoegen: `{JO_HOST}`,`{BASE_PATH}` en `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Optimizer] URL van gateway.
 * `{BASE_PATH}` : ingangspunt voor de API.
-* `{SANDBOX_NAME}`: de header **x-sandbox-name** (bijvoorbeeld &#39;prod&#39;) die overeenkomt met de sandboxnaam waar de API-operaties zullen plaatsvinden. Zie het [sandboxoverzicht](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=nl) voor meer informatie.
+* `{SANDBOX_NAME}`: de header **x-sandbox-name** (bijvoorbeeld &#39;prod&#39;) die overeenkomt met de sandboxnaam waar de API-operaties zullen plaatsvinden. Zie het [sandboxoverzicht](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=nl){target="_blank"} voor meer informatie.
 
 ## Eindpuntconfiguratie
 
 Hier is de basisstructuur van een eindpuntconfiguratie:
 
-```
+```json
 {
     "url": "<endpoint URL>",  //wildcards are allowed in the endpoint URL
     "methods": [ "<HTTP method such as GET, POST, >, ...],
@@ -75,12 +75,12 @@ Hier is de basisstructuur van een eindpuntconfiguratie:
 >
 >De maximale waarde die kan worden ingesteld, is 400. Als niets wordt gespecificeerd, dan kan het systeem tot veelvoudige duizenden verbindingen afhankelijk van het dynamische schrapen van het systeem openen.
 >
->Wanneer de het plafonneren configuratie wordt opgesteld, als geen &quot;maxHttpConnection&quot;waarde is verstrekt, wordt het gebrek &quot;maxHttpConnection = -1&quot;toegevoegd in de opgestelde configuratie, betekenend dat Journey Optimizer de standaardwaarde van het systeem zal gebruiken.
+>Wanneer de configuratie voor plafonnering wordt geïmplementeerd, als er geen `maxHttpConnections` -waarde is ingesteld, wordt een standaardwaarde `maxHttpConnections = -1` toegevoegd aan de configuratie die wordt geïmplementeerd en gebruikt Journey Optimizer de standaardwaarde van het systeem.
 
 Voorbeeld:
 
-```
-`{
+```json
+{
   "url": "https://api.example.org/data/2.5/*",
   "methods": [
     "GET"
@@ -98,13 +98,13 @@ Voorbeeld:
 
 >[!IMPORTANT]
 >
->De configuratie zal slechts actief na het roepen van **&#x200B;**&#x200B;eindpunt opstellen.
+>De configuratie zal slechts actief na het roepen van **** eindpunt opstellen.
 
 ## Waarschuwing en fouten
 
 Wanneer a **canDeploy** methode wordt geroepen, bevestigt het proces de configuratie en keert de bevestigingsstatus terug die door zijn Unieke identiteitskaart wordt geïdentificeerd, of:
 
-```
+```json
 "ok" or "error"
 ```
 
@@ -112,7 +112,7 @@ De mogelijke fouten zijn:
 
 * **ERR_ENDPOINTCONFIG_100**: het in kaart brengen van config: ontbrekende of ongeldige URL
 * **ERR_ENDPOINTCONFIG_101**: het in kaart brengen van config: misvormde url
-* **ERR_ENDPOINTCONFIG_102**: het in kaart brengen config: misvormde url: vervangingsklank in url niet toegestaan in gastheer:haven
+* **ERR_ENDPOINTCONFIG_102**: het in kaart brengen van config: misvormde url: vervangingsklank in url niet toegestaan in gastheer :port
 * **ERR_ENDPOINTCONFIG_103**: het in kaart brengen van config: ontbrekende methodes van HTTP
 * **ERR_ENDPOINTCONFIG_104**: het in kaart brengen van config: geen bepaalde vraagclassificatie
 * **ERR_ENDPOINTCONFIG_107**: het in kaart brengen van config: ongeldige maximum vraagtelling (maxCallsCount)
@@ -131,7 +131,7 @@ Deze sectie bevat een overzicht van de belangrijkste gebruiksgevallen voor het b
 
 De details op elk API bevel zijn beschikbaar in de [ API beschrijving &amp; inzameling van Postman ](#description).
 
-+++Maak en implementeer een nieuwe configuratie voor het toewijzen van een bijschrift
++++Een nieuwe configuratie voor uitlijnen maken en implementeren
 
 API-aanroepen voor gebruik:
 
@@ -142,7 +142,7 @@ API-aanroepen voor gebruik:
 
 +++
 
-+++Werk en stel een het maximum configuratie (nog niet opgesteld) op
++++Update en stel een het maximum configuratie (nog niet opgesteld) op
 
 API-aanroepen voor gebruik:
 
@@ -154,7 +154,7 @@ API-aanroepen voor gebruik:
 
 +++
 
-+++Verwijder implementaties en verwijder een geïmplementeerde uitlijningsconfiguratie
++++Implementeer en verwijder een geïmplementeerde configuratie voor plafonnering
 
 API-aanroepen voor gebruik:
 
@@ -164,7 +164,7 @@ API-aanroepen voor gebruik:
 
 +++
 
-+++ verwijder een geïmplementeerde uitlijningsconfiguratie in één stap
++++Een geïmplementeerde uitlijningsconfiguratie in één stap verwijderen
 
 In slechts één API-aanroep kunt u de configuratie met behulp van de parameter `forceDelete` verwijderen en de implementatie ervan ongedaan maken.
 
@@ -175,7 +175,7 @@ API-aanroepen voor gebruik:
 
 +++
 
-+++ Werk een reeds opgezette het maximum configuratie bij
++++Een reeds geïmplementeerde configuratie voor plafonnering bijwerken
 
 >[!NOTE]
 >
