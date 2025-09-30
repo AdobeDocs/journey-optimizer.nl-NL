@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 29d1aab42bf34adfb8ae8f28d1204d1980487cf4
+source-git-commit: 1d869ee8bf1c76e182a3f6b0433e5ab2eec2a8fb
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1224'
 ht-degree: 0%
 
 ---
@@ -199,17 +199,19 @@ Wanneer u een webhaak instelt, kunt u het doel ervan definiëren op basis van he
 
    * **[!UICONTROL API credentials]**: Kies van drop-down u [ eerder gevormde API geloofsbrieven ](#api-credential).
 
+   * **[!UICONTROL Sender Phone Number &#x200B;]**: ga het de telefoonaantal van de Afzender in &#x200B; u voor uw mededelingen wilt gebruiken.
+
+     ![](assets/webhook-inbound.png)
+
 1. Klik op ![](assets/do-not-localize/Smock_Add_18_N.svg) om trefwoordencategorieën toe te voegen en configureer deze als volgt:
 
    * **[!UICONTROL Inbound Keyword Category]**: Kies de trefwoordcategorieën **[!UICONTROL Opt-In]** , **[!UICONTROL Opt-Out]** , **[!UICONTROL Help]** of **[!UICONTROL Default]** .
 
-   * **[!UICONTROL Enter a keyword]**: voer de standaardtrefwoorden of aangepaste trefwoorden in die het bericht automatisch activeren. Gebruik voor meerdere trefwoorden door komma&#39;s gescheiden waarden.
+   * **[!UICONTROL Enter a keyword]**: voer de standaardtrefwoorden of aangepaste trefwoorden in die het bericht automatisch activeren. Klik op ![](assets/do-not-localize/Smock_Add_18_N.svg) om meerdere trefwoorden toe te voegen.
 
-   * **[!UICONTROL Reply Message]**: voer de aangepaste reactie in die automatisch wordt verzonden.
+   * **[!UICONTROL Reply Message]**: selecteer in het keuzemenu de aangepaste reactie die automatisch wordt verzonden.
 
    ![](assets/sms_byo_6.png)
-
-1. Schakel de optie **[!UICONTROL Fuzzy Opt-out]** in om berichten te detecteren die lijken op uitschakeltrefwoorden (bijvoorbeeld &#39;CANCIL&#39;).
 
 1. Klik op **[!UICONTROL View payload editor]** om uw aanvraag te valideren en aan te passen.
 
@@ -243,6 +245,8 @@ Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zo
 
    * **[!UICONTROL Type]**: Feedback.
 
+   ![](assets/webhook-feedback.png)
+
 1. Klik op **[!UICONTROL View payload editor]** om uw aanvraag te valideren en aan te passen.
 
    U kunt uw lading dynamisch personaliseren gebruikend profielattributen, en ervoor zorgen wordt de nauwkeurige gegevens verzonden voor verwerking en reactiegeneratie met de hulp van ingebouwde hulpfuncties.
@@ -255,7 +259,7 @@ Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zo
 
 1. Open en kopieer uw nieuwe **[!UICONTROL Webhook URL]** vanuit uw eerder verzonden **[!UICONTROL Webhook]** .
 
-   ![](assets/sms_byo_7.png)
+   ![](assets/sms_byo_8.png)
 
 Na het creëren van en het vormen van de binnenkomende montages voor Webhaak, moet u nu a [ kanaalconfiguratie ](sms-configuration-surface.md) voor de berichten van SMS tot stand brengen.
 
