@@ -223,7 +223,7 @@ Wanneer u een aangepaste SMS-provider instelt, hebt u nu de mogelijkheid om wede
 
    * Wanneer vestiging een leverancier van douaneSMS, kunt u a **Standaard** gebruikt sleutelwoord nu bepalen wanneer een inkomend SMS een niet erkend sleutelwoord bevat. U kunt **Douane** sleutelwoorden voor specifieke acties ook tot stand brengen - de datum van de Beschikbaarheid: Plak 23, 2025
 
-   * U kunt tot ongedefinieerde binnenkomende sleutelwoordenreacties nu toegang hebben die via een SMS-bericht worden verzonden, met inbegrip van typos, woorden of zinnen die niet expliciet in de configuratie zijn gedefinieerd. Zij worden opgeslagen in de **dataset van de Gebeurtenis van de Ervaring van 0} AJO e-mail Tracking, onder** InboundMessage **voor 13 maanden - de datum van de Beschikbaarheid: ept 23, 2025**
+   * U kunt tot ongedefinieerde binnenkomende sleutelwoordenreacties nu toegang hebben die via een SMS-bericht worden verzonden, met inbegrip van typos, woorden of zinnen die niet expliciet in de configuratie zijn gedefinieerd. Zij worden opgeslagen in de **dataset van de Gebeurtenis van de Ervaring van 0&rbrace; AJO e-mail Tracking, onder** InboundMessage **voor 13 maanden - de datum van de Beschikbaarheid: ept 23, 2025**
 
 * **WhatsApp** - u kunt nu verkiezen om het standaarduitvoeringsadres voor WhatsApp te gebruiken of opstelling een douaneadres.
 
