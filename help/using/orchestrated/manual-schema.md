@@ -5,9 +5,9 @@ title: Configuratiestappen
 description: Leer hoe u op modellen gebaseerde schema's rechtstreeks via de gebruikersinterface kunt maken.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: 5eb60e7c551796829c25a407ff45fbfec4bb76dd
+source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ Het volgende voorbeeld bepaalt manueel het **schema van het Membership van de Lo
 1. [ creeer een dataset ](#dataset) die op uw schema wordt gebaseerd en laat het voor gebruik in Geordende campagnes toe.
 
 1. [ Samenvatting gegevens ](ingest-data.md) in uw dataset van gesteunde bronnen.
+
+➡️ [ Leer meer over handmodel-gebaseerde schema&#39;s in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Uw schema maken {#schema}
 
@@ -106,11 +108,11 @@ Schema&#39;s die worden gebruikt voor activering, moeten ten minste één identi
 
 1. Klik op **[!UICONTROL Save]**.
 
-Zodra de attributen worden gecreeerd, moet u uw onlangs gecreeerd schema met een ingebouwd schema verbinden.
+Nadat u kenmerken hebt gemaakt en opgeslagen, kunt u het schema koppelen aan andere relationele schema&#39;s door relaties te definiëren.
 
 ## Koppelingsschema&#39;s {#link-schema}
 
-Creeer een verband tussen twee schema&#39;s staat u toe om uw Geordende campagnes met gegevens te verrijken die buiten het primaire profielschema worden opgeslagen.
+Als u een relatie tussen twee schema&#39;s maakt, kunt u Geordende campagnes verbeteren met gegevens buiten het primaire profielschema.
 
 1. Selecteer in het nieuwe schema het kenmerk dat u als koppeling wilt gebruiken en klik op **[!UICONTROL Add relationship]** .
 
@@ -126,11 +128,9 @@ Creeer een verband tussen twee schema&#39;s staat u toe om uw Geordende campagne
 
 1. Klik op **[!UICONTROL Apply]** zodra dit is geconfigureerd.
 
-Zodra de verhouding wordt gevestigd, moet u een dataset tot stand brengen die op uw schema wordt gebaseerd.
-
 ## Creeer een dataset voor het schema {#dataset}
 
-Na het bepalen van uw schema, moet de volgende stap een dataset tot stand brengen die op het wordt gebaseerd. In deze gegevensset worden uw opgenomen gegevens opgeslagen en moeten geordende campagnes zijn ingeschakeld om deze toegankelijk te maken in Adobe Journey Optimizer. Als u deze optie inschakelt, wordt de gegevensset herkend voor gebruik in realtime workflows voor orchestratie en personalisatie.
+Na het bepalen van uw schema, kunt u een dataset nu tot stand brengen die op het wordt gebaseerd. De dataset slaat uw opgenomen gegevens op en moet voor Geordende Campagnes worden toegelaten om toegankelijk te zijn.
 
 1. Ga naar het menu **[!UICONTROL Data Management]** > **[!UICONTROL Datasets]** en klik op **[!UICONTROL Create dataset]** .
 
@@ -144,7 +144,7 @@ Na het bepalen van uw schema, moet de volgende stap een dataset tot stand brenge
 
 1. Voer een **[!UICONTROL Name]** voor uw **[!UICONTROL Dataset]** in en klik op **[!UICONTROL Finish]** .
 
-U moet nu uw Dataset voor Orchestrate Campaigns toelaten.
+U moet nu uw Dataset voor Geordende Campagnes toelaten.
 
 ## Dataset inschakelen voor geordende campagnes {#enable}
 
@@ -160,7 +160,7 @@ Verwijs naar [ documentatie van Adobe Developer ](https://developer.adobe.com/jo
 
 1. Zoek de gegevensset in de lijst **[!UICONTROL Datasets]** .
 
-1. Van de **[!UICONTROL Datasets]** montages, laat de **Geordende 2&rbrace; optie van Campagnes &lbrace;toe om de dataset beschikbaar voor gebruik in uw Geordende Campagnes te maken.**
+1. Van de **[!UICONTROL Datasets]** montages, laat de **Geordende 2} optie van Campagnes {toe om de dataset beschikbaar voor gebruik in uw Geordende Campagnes te merken.**
 
    ![](assets/schema_manual_7.png){zoomable="yes"}
 

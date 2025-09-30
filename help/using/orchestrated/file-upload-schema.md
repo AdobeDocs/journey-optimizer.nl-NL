@@ -5,9 +5,9 @@ title: Configuratiestappen
 description: Leer hoe u een model-gebaseerd schema maakt in Adobe Experience Platform door een DDL te uploaden
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1044'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Deze sectie verstrekt geleidelijke begeleiding op hoe te om een model-gebaseerd 
 1. [ schema&#39;s van de Verbinding ](#link-schema) om uw op model-gebaseerde gegevens met bestaande profielentiteiten zoals Ontvangers of Banden te verbinden.
 
 1. [ Samenvatting gegevens ](ingest-data.md) in uw dataset van gesteunde bronnen.
+
+➡️ [ Leer meer over op model-gebaseerde schema&#39;s in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
 
 ## Een DDL-bestand uploaden{#ddl-upload}
 
@@ -91,7 +93,7 @@ Hier volgt een voorbeeld:
 
 1. Typ uw **[!UICONTROL Schema name]** in.
 
-1. Opstelling elk schema en zijn kolommen, die ervoor zorgen dat een primaire sleutel wordt gespecificeerd.
+1. Opstelling elk schema en zijn kolommen, die ervoor zorgen dat een primaire sleutel en een versiedescriptor worden gespecificeerd.
 
    Eén kenmerk, zoals `lastmodified` , moet worden opgegeven als de versiedescriptor (type `datetime` , `long` of `int` ) om ervoor te zorgen dat gegevenssets worden bijgewerkt met de meest recente gegevens. Gebruikers kunnen de versiedescriptor wijzigen, die na het instellen verplicht wordt. Een kenmerk kan niet zowel een primaire sleutel (PK) als een versiedescriptor zijn.
 
@@ -107,7 +109,7 @@ U kunt nu de tabel- en velddefinities op het canvas controleren. [ leer meer in 
 
 ## Relaties definiëren {#relationships}
 
-Volg onderstaande stappen om logische verbindingen tussen tabellen in uw schema te definiëren.
+U kunt verhoudingen direct binnen het Ddl- dossier specificeren wanneer het creëren van uw schema. Als u liever relaties buiten het bestand definieert, kunt u dit in de interface doen door de onderstaande stappen te volgen.
 
 1. Open de canvasweergave van uw gegevensmodel en kies de twee tabellen die u wilt koppelen
 
@@ -165,7 +167,7 @@ Volg onderstaande stappen om logische verbindingen tussen tabellen in uw schema 
 >
 > Alleen relaties die expliciet in het DDL-bestand zijn gedefinieerd, worden door het systeem herkend. Om het even welke entiteitverhoudingen die buiten het Ddl- dossier bestaan zullen worden genegeerd en niet verwerkt.
 
-Vestig een verband tussen het **schema van de 0&rbrace; loyaliteitstransacties &lbrace;en het** Ontvangers **schema om elke transactie met het correcte klantenverslag te associëren.**
+Vestig een verband tussen het **schema van de 0} loyaliteitstransacties {en het** Ontvangers **schema om elke transactie met het correcte klantenverslag te associëren.**
 
 1. Navigeer aan **[!UICONTROL Schemas]** en open eerder **loyaliteitstransacties** creëren.
 

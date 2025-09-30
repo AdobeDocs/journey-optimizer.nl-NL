@@ -5,9 +5,9 @@ title: Configuratiestappen
 description: Leer hoe u een model-gebaseerd schema maakt in Adobe Experience Platform door een DDL te uploaden
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '470'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Deze gids begeleidt u door het proces om een model-gebaseerd schema tot stand te
 
 ## Belangrijkste concepten
 
-In de context van Geordende campagnes, is a **dataset** een opslag en beheersconstructie voor een inzameling van gegevens, typisch een lijst, die een schema (kolommen) en gebieden (rijen) bevat. De gegevens die met succes in Experience Platform worden opgenomen worden opgeslagen binnen het gegevensmeer als datasets.
+In de context van Geordende campagnes, is a **dataset** een opslag en beheersconstructie voor een inzameling van gegevens, typisch een lijst, die een schema (rijen) en gebieden (kolommen) bevat. De gegevens die met succes in Experience Platform worden opgenomen worden opgeslagen binnen het gegevensmeer als datasets.
 
 A **schema** vertegenwoordigt en bevestigt de structuur en het formaat van gegevens. Het verstrekt een abstracte definitie van een real-world voorwerp (zoals een persoon) en schetst welke gegevens in elk geval van dat voorwerp (zoals naam, verjaardag, etc.) zouden moeten worden omvat.
 
@@ -52,6 +52,8 @@ Hier wordt aangegeven:
 
 Het organiseren van schema&#39;s of lijsten in een model-gebaseerd gegevensmodel is over het structureren van uw gegevens in veelvoudige lijsten. Zorg ervoor dat elke tabel één type entiteit/schema&#39;s opslaat
 
+➡️ [ Leer meer over schema&#39;s in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+
 ## Implementatiestappen {#implementation}
 
 Voer de volgende stappen uit om gegevens in te voeren en op een model gebaseerd schema te maken:
@@ -62,7 +64,7 @@ Voer de volgende stappen uit om gegevens in te voeren en op een model gebaseerd 
 
    Wanneer het creëren van het schema manueel, dataset moet ook manueel worden gecreeerd en worden toegelaten. Wanneer het gebruiken van een Ddl- dossier, zijn de verwezenlijking van de dataset en enablement automatisch.
 
-1. [Koppelingsschema](file-upload-schema.md)
+1. [Koppelingsschema&#39;s](file-upload-schema.md)
 
    Vestig relaties tussen uw schema&#39;s om gegevensconsistentie te verzekeren en dwars-entiteitvragen toe te laten. Koppel bijvoorbeeld loyaliteitstransacties aan ontvangers of beloningen aan merken.
 
@@ -70,7 +72,7 @@ Voer de volgende stappen uit om gegevens in te voeren en op een model gebaseerd 
 
    Na het bepalen van uw schema, moet u een dataset tot stand brengen die op het wordt gebaseerd. Deze dataset fungeert als de opslag voor uw opgenomen gegevens.
 
-1. [Geordende campagne inschakelen](manual-schema.md#enable)
+1. [Geordende campagnes inschakelen](manual-schema.md#enable)
 
    De dataset slaat uw opgenomen gegevens op en moet voor Geordende Campagnes worden toegelaten om het in Adobe Journey Optimizer toegankelijk te maken.
 
