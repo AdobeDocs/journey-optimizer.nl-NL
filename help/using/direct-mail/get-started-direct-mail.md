@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: direct mail, bericht, campagne
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: d4b300f09a2e0b68ae1b5ba44995dad473ff67b3
+source-git-commit: 73f5cfdedd5a472cf922a5dfd950f3361896ba8d
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,7 @@ ht-degree: 0%
 
 Directe post is een off-line kanaal dat u toestaat om de extractiedossiers te personaliseren en te produceren die door derde directe postleveranciers worden vereist om post naar uw klanten te verzenden.
 
->[!AVAILABILITY]
->
->Rechtstreekse e-mailberichten kunnen alleen worden gemaakt in het kader van geplande campagnes en reizen. Ze zijn niet beschikbaar voor gebruik in API-gestuurde en georkestreerde campagnes.
-
-Bij het maken van een campagne voor direct mail genereert [!DNL Journey Optimizer] automatisch een bestand met alle doelprofielen en geselecteerde gegevens, zoals postadressen en profielkenmerken. Dit bestand wordt naar de server van uw keuze verzonden, zodat het toegankelijk is voor de door u gekozen externe provider, die het eigenlijke mailingproces voor u afhandelt.
+Bij het maken van een campagne voor direct mail genereert Journey Optimizer automatisch een bestand met alle doelprofielen en geselecteerde gegevens, zoals postadressen en profielkenmerken. Dit bestand wordt naar de server van uw keuze verzonden, zodat het toegankelijk is voor de door u gekozen externe provider, die het eigenlijke mailingproces voor u afhandelt.
 
 U zult met uw gekozen derde direct-mailleverancier moeten werken om het even welke vereiste toestemmingen van uw klanten te verkrijgen, als toepasselijk, zodat uw klanten post van u kunnen ontvangen.
 
@@ -32,4 +28,10 @@ De belangrijkste stappen voor het verzenden van direct-mailberichten zijn als vo
 
 ![](assets/dm-creation-process.png)
 
+>[!AVAILABILITY]
+>
+>Directe-mailberichten kunnen alleen worden gemaakt in het kader van geplande campagnes. Ze zijn niet beschikbaar voor gebruik in API-getriggerde campagnes of reizen.
+
 ![](../rn/assets/do-not-localize/gif-dm.gif)
+
+
