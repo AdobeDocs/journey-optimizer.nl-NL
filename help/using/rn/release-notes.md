@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c25e3898e02342c90c6495cd979b91657fb03379
+source-git-commit: 0b7adefe5eb2a2f89330437cc09a1361870c6041
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: '1876'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## Opmerkingen bij de release van september 1925 {#25-9-rn}
 
@@ -77,8 +77,8 @@ ht-degree: 0%
 <tbody>
 <tr>
 <td>
-<p>Aangedreven door <a href="https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank"> Adobe Experience Platform Agent Orchestrator </a>, is Journey Agent beschikbaar in Journey Optimizer. Het laat u toe om reizen door een natuurlijke taalinterface te analyseren. De agent zal publiek of programmaconflicten en profieldrop-offs in een reis ontdekken om u te helpen stappen nemen om hen op te lossen. Binnenkort kunt u reizen maken met ongeduldige ondersteuning.</p>
-<p>Voor meer informatie, verwijs naar de <a href="https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank"> gedetailleerde documentatie </a></p>
+<p>Aangedreven door <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank"> Adobe Experience Platform Agent Orchestrator </a>, is Journey Agent beschikbaar in Journey Optimizer. Het laat u toe om reizen door een natuurlijke taalinterface te analyseren. De agent zal publiek of programmaconflicten en profieldrop-offs in een reis ontdekken om u te helpen stappen nemen om hen op te lossen. Binnenkort kunt u reizen maken met ongeduldige ondersteuning.</p>
+<p>Voor meer informatie, verwijs naar de <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank"> gedetailleerde documentatie </a></p>
 <p>Beschikbaarheidsdatum: 24 september 2025</p>
 </td>
 </tr>
@@ -223,7 +223,7 @@ Wanneer u een aangepaste SMS-provider instelt, hebt u nu de mogelijkheid om wede
 
    * Wanneer vestiging een leverancier van douaneSMS, kunt u a **Standaard** gebruikt sleutelwoord nu bepalen wanneer een inkomend SMS een niet erkend sleutelwoord bevat. U kunt **Douane** sleutelwoorden voor specifieke acties ook tot stand brengen - de datum van de Beschikbaarheid: Plak 23, 2025
 
-   * U kunt tot ongedefinieerde binnenkomende sleutelwoordenreacties nu toegang hebben die via een SMS-bericht worden verzonden, met inbegrip van typos, woorden of zinnen die niet expliciet in de configuratie zijn gedefinieerd. Zij worden opgeslagen in de **dataset van de Gebeurtenis van de Ervaring van 0&rbrace; AJO e-mail Tracking, onder** InboundMessage **voor 13 maanden - de datum van de Beschikbaarheid: ept 23, 2025**
+   * U kunt tot ongedefinieerde binnenkomende sleutelwoordenreacties nu toegang hebben die via een SMS-bericht worden verzonden, met inbegrip van typos, woorden of zinnen die niet expliciet in de configuratie zijn gedefinieerd. Zij worden opgeslagen in de **dataset van de Gebeurtenis van de Ervaring van 0} AJO e-mail Tracking, onder** InboundMessage **voor 13 maanden - de datum van de Beschikbaarheid: ept 23, 2025**
 
 * **WhatsApp** - u kunt nu verkiezen om het standaarduitvoeringsadres voor WhatsApp te gebruiken of opstelling een douaneadres.
 
@@ -349,12 +349,5 @@ U kunt drempelwaarden wijzigen en u kunt zich abonneren op individuele waarschuw
   Met Journey Optimizer, als u toestemming buiten Adobe beheert, kunt u een extern douaneeindpunt plaatsen door uw eigen één-klik te bepalen unsubscribe verbinding in de e-mailconfiguratie. Wanneer uw ontvangers op de koppeling voor afmelden klikken, voegt Journey Optimizer enkele standaardprofielspecifieke parameters toe aan de gebeurtenis voor het bijwerken van de toestemming.
 
   Als u het e-mailadres voor opzeggen verder wilt aanpassen, kunt u nu aangepaste kenmerken definiëren die worden toegevoegd aan de gebeurtenis permission. Deze mogelijkheid is al beschikbaar voor de aangepaste koppeling voor één klik voor het afmelden van abonnementen sinds de release van 25 augustus.
-
-  <!-- Availability date: Sept XX, 2025-->
-
-
-* **Hoge productiemodus voor API teweeggebrachte e-mailcampagnes**\
-  Er is nu een nieuwe modus voor hoge doorvoer beschikbaar in door de API geïnitieerde campagnes. Deze wijze wordt ontworpen voor grootschalig, in real time overseinen (tot 5000 transacties per seconde) en verstrekt hogere beschikbaarheid met lagere latentie.\
-  Deze mogelijkheid is alleen beschikbaar voor het e-mailkanaal, voor organisaties die de invoegtoepassing voor transactiemeldingen met hoge Adobe-doorvoer hebben aangeschaft. Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie.
 
   <!-- Availability date: Sept XX, 2025-->
