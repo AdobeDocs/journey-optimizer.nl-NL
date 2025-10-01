@@ -6,9 +6,9 @@ description: Meer informatie over hoe u aan de slag kunt gaan met georkestreerde
 short-description: Ontdek de belangrijkste kenmerken en gebruiksscenario's van georkestreerde campagnes.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
+source-git-commit: 97f9c32435667fecb950892ed6f6531085055e59
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '652'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
 >title="campagnes_overview_orchestrated"
->abstract="<b> Splitsen van de Campagne de orchestratie </b><br/>, combineren, verrijken en manipuleren relationele datasets om uw publiek <br/><br/> te bepalen <b> Van de hefboomwerking multi-entiteitgegevens </b><br/> leren hoe Geordende campagnes uit relationele datasets kunnen voordeel halen om gegevens voor segmentatie &amp; verpersoonlijking <br/><br/><b> Ad-hoc segmentatie &amp; nauwkeurige tellingen </b><br/> te verrijken bouwt uw segment stap voor stap met nauwkeurige tellingen <br/><br/><b> Beschikbare kanalen </b><br/> E-mail, SMS, Push berichten, Directe post"
+>abstract="<b> Splitsen van de Campagne de orchestratie </b><br/>, combineren, verrijken en manipuleren relationele datasets om uw publiek <br/><br/> te bepalen <b> Van de hefboomwerking multi-entiteitgegevens </b><br/> leren hoe de Geordende campagnes uit relationele datasets kunnen voordeel halen om gegevens voor segmentatie &amp; verpersoonlijking <br/><br/><b> Ad-hoc segmentatie &amp; de nauwkeurige tellingen </b><br/> bouwen uw segment stap voor stap met nauwkeurige tellingen <br/><br/><b> Beschikbare kanalen </b><br/> E-mail, SMS, Push berichten"
 
 Campagne in [!DNL Adobe Journey Optimizer] biedt geavanceerde, merkgestarte marketingcampagnes via verschillende kanalen, waarmee u op grote schaal betrokkenheid, inkomsten en klantenloyaliteit kunt stimuleren.
 
