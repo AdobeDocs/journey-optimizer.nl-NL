@@ -3,9 +3,9 @@ title: Aanvullende id's gebruiken tijdens reizen
 description: Leer hoe u aanvullende id's kunt gebruiken tijdens reizen.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 6c23b920787a1b39d60b397e9c74094695e59295
+source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1361'
 ht-degree: 0%
 
 ---
@@ -16,16 +16,6 @@ ht-degree: 0%
 >id="ajo_journey_parameters_supplemental_identifier"
 >title="Aanvullende id gebruiken"
 >abstract="De aanvullende identificatiecode is een secundaire identificatiecode die aanvullende context biedt voor de uitvoering van een reis. Als u deze wilt definiëren, selecteert u het veld dat u wilt gebruiken als de aanvullende id en kiest u een naamruimte die u hieraan wilt koppelen."
-
-<!--
-By default, journeys are executed in the context of a **profile ID**. This means that, as long as the profile is active in a given journey, it won't be able to re-enter another journey. To prevent this, [!DNL Journey Optimizer] allows you to capture a **supplemental identifier**, such as an order ID, subscription ID, prescription ID, in addition to the profile ID. 
-In this example, we have added a booking ID as a supplemental identifier. 
-
-![](assets/event-supplemental-id.png){width=40% zoomable}
-
-By doing so, journeys are executed in the context of the profile ID associated to the supplemental identifier (here, the booking ID). One instance of the journey is executed for each iteration of the supplemental identifier. This allows multiple entrances of the same profile ID in journeys if they have made different bookings. 
-
-In addition, Journey Optimizer allows you to leverage attributes of the supplemental identifier (e.g., booking number, prescription renewal date, product type) for message customization, ensuring highly relevant communications.-->
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
@@ -71,6 +61,7 @@ In addition, Journey Optimizer allows you to leverage attributes of the suppleme
    * Aanvullende id is uitgeschakeld als u een bedrijfsgebeurtenis gebruikt.
    * De aanvullende id moet een veld uit het profiel zijn (dus geen gebeurtenis-/contextveld).
    * Voor leestuchtritten waarbij gebruik wordt gemaakt van aanvullende id&#39;s, is de leessnelheid van de activiteit van het leestopubliek voor elk reisexemplaar beperkt tot maximaal 500 profielen per seconde.
+   * Alleen Unified Profile Service-publiek wordt ondersteund wanneer u leest-publiekstrajecten gebruikt met aanvullende id&#39;s.
 
 ## Criteria afsluiten met aanvullende id&#39;s {#exit-criteria}
 
@@ -255,4 +246,4 @@ In een objectarray met de aanvullende id als `bookingNum` en een kenmerk op hetz
 
 Leer hoe u een aanvullende id in [!DNL Adobe Journey Optimizer] kunt inschakelen en toepassen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464798?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

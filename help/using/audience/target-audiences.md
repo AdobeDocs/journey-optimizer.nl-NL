@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
+source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,11 @@ Houd rekening met de volgende instructies voor het publiek Aangepaste upload en 
 
 * **Voorproef en proefdruksteun:** momenteel, wordt de voorproef en de proef niet gesteund voor publiek dat gebruikend CSV wordt gecreeerd uploadt of Federated de Samenstelling van het Publiek. Houd dit in gedachten wanneer u uw campagnes plant.
 
-* **richtend nieuwe profielen:** wanneer een gelijke niet tussen een verslag en een profiel van UPS wordt gevonden, wordt een nieuw leeg profiel gecreeerd. Dit profiel is gekoppeld aan de verrijkingskenmerken die zijn opgeslagen in het datumpeer. Omdat dit nieuwe profiel leeg is, zijn velden die doorgaans worden gebruikt in Journey Optimizer (bijvoorbeeld PersonalEmail.address, mobilePhone.number) leeg en kunnen deze daarom niet worden gebruikt voor het opgeven van doelen.
+* **richtend nieuwe profielen:** wanneer een gelijke niet tussen een verslag en een Verenigd profiel van de Dienst van het Profiel wordt gevonden, wordt een nieuw leeg profiel gecreeerd. Dit profiel is gekoppeld aan de verrijkingskenmerken die zijn opgeslagen in het datumpeer. Omdat dit nieuwe profiel leeg is, zijn velden die doorgaans worden gebruikt in Journey Optimizer (bijvoorbeeld PersonalEmail.address, mobilePhone.number) leeg en kunnen deze daarom niet worden gebruikt voor het opgeven van doelen.
 
   Om dit op te lossen, kunt u het &quot;uitvoeringsgebied&quot;(of &quot;uitvoeringsadres&quot;afhankelijk van het kanaal) in de kanaalconfiguratie als &quot;identityMap&quot;specificeren. Hierdoor wordt gegarandeerd dat het kenmerk dat wordt gekozen als de identiteit bij het maken van een publiek, het kenmerk is dat wordt gebruikt voor het maken van een doelaccount in Journey Optimizer.
 
-* **Geactiveerde verslagen &amp; identiteitsstitching:** Elk verslag in het publiek wordt geactiveerd, met inbegrip van om het even welke duplicaten. Tijdens de volgende UPS-profielexport worden deze records aan identiteitsstitching onderworpen. Hierdoor kan het aantal geactiveerde records afwijken van het aantal profielen na identiteitsstitching.
+* **Geactiveerde verslagen &amp; identiteitsstitching:** Elk verslag in het publiek wordt geactiveerd, met inbegrip van om het even welke duplicaten. Tijdens de volgende Verenigde het profieluitvoer van de Dienst van het Profiel, zullen deze verslagen door identiteit stitching gaan. Hierdoor kan het aantal geactiveerde records afwijken van het aantal profielen na identiteitsstitching.
 
 ## Doelpubliek in [!DNL Journey Optimizer]
 
@@ -55,7 +55,7 @@ U kunt het publiek op verschillende manieren gebruiken in **[!DNL Journey Optimi
 
 * Gebruik de **activiteit van de Voorwaarde** in een reis om voorwaarden te bouwen die op publiekslidmaatschap worden gebaseerd. [ leer hoe te om publiek in voorwaarden ](../building-journeys/condition-activity.md#using-a-segment) te gebruiken.
 
-* Gebruik de **gebeurtenisactiviteit van de Kwalificatie van het publiek 0&rbrace; &lbrace;in een reis om individuen te maken ingaan of zich voorwaarts in de reis gebaseerd op de kijkposten van Adobe Experience Platform en uitgang.** U kunt bijvoorbeeld alle nieuwe zilverklanten een reis laten maken en hun berichten sturen. Voor meer op hoe te om deze activiteit te gebruiken, verwijs naar [ hoe te om een de kwalificatieactiviteit van het Publiek te vormen ](../building-journeys/audience-qualification-events.md).
+* Gebruik de **gebeurtenisactiviteit van de Kwalificatie van het publiek 0} {in een reis om individuen te maken ingaan of zich voorwaarts in de reis gebaseerd op de kijkposten van Adobe Experience Platform en uitgang.** U kunt bijvoorbeeld alle nieuwe zilverklanten een reis laten maken en hun berichten sturen. Voor meer op hoe te om deze activiteit te gebruiken, verwijs naar [ hoe te om een de kwalificatieactiviteit van het Publiek te vormen ](../building-journeys/audience-qualification-events.md).
 
   >[!NOTE]
   >
