@@ -31,7 +31,7 @@ Hoewel de marketing over de kanalen essentieel is, maken de geordende campagnes 
 
 ![](assets/canvas-example-diagram.png){zoomable="yes"}
 
-➡️ [&#x200B; ontdekt Geordende campagnes in video &#x200B;](#video-oc)
+➡️ [ ontdekt Geordende campagnes in video ](#video-oc)
 
 ## Kernmogelijkheden
 
@@ -52,7 +52,7 @@ Ondersteuning voor verzending op meerdere niveaus, waarbij één bericht wordt v
 
 >[!NOTE]
 >
->De gesteunde kanalen zijn: [&#x200B; E-mail &#x200B;](../email/get-started-email.md), [&#x200B; SMS/MMS/RCS &#x200B;](../sms/get-started-sms.md), [&#x200B; Push berichten &#x200B;](../push/get-started-push.md).
+>De gesteunde kanalen zijn: [ E-mail ](../email/get-started-email.md), [ SMS/MMS/RCS ](../sms/get-started-sms.md), [ Push berichten ](../push/get-started-push.md).
 >
 >Welke kanalen beschikbaar zijn, is afhankelijk van uw licentiemodel en invoegtoepassingen.
 
@@ -70,11 +70,11 @@ Beide canvas&#39;s zijn geoptimaliseerd voor hun respectieve gebruiksgevallen: J
 
 Het geordende campagnecanvas is een voorstelling van wat er moet gebeuren. Hierin worden de verschillende taken beschreven die moeten worden uitgevoerd en hoe deze aan elkaar zijn gekoppeld.
 
-![&#x200B; beeld dat een Geordend campagnecanvas &#x200B;](assets/canvas-example.png) toont
+![ beeld dat een Geordend campagnecanvas ](assets/canvas-example.png) toont
 
 Elke geordende campagne bevat:
 
-* **Activiteiten**: Een activiteit is een uit te voeren taak. De [&#x200B; diverse activiteiten &#x200B;](activities/about-activities.md) worden vertegenwoordigd op het canvas door pictogrammen. Elke activiteit heeft specifieke eigenschappen en andere eigenschappen die voor alle activiteiten gemeenschappelijk zijn.
+* **Activiteiten**: Een activiteit is een uit te voeren taak. De [ diverse activiteiten ](activities/about-activities.md) worden vertegenwoordigd op het canvas door pictogrammen. Elke activiteit heeft specifieke eigenschappen en andere eigenschappen die voor alle activiteiten gemeenschappelijk zijn.
 
   In een geordend campagnecanvas kan een bepaalde activiteit veelvoudige taken veroorzaken, in het bijzonder wanneer er een lijn of terugkomende acties is.
 
