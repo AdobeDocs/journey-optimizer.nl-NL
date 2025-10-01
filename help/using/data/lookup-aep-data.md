@@ -10,9 +10,9 @@ level: Intermediate
 keywords: expression, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: e9ed993dd5957adb305b582b30e6675d2bb4526f
+source-git-commit: eb0da59bbdaa16eb381dda965cd06fb8548a945a
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -32,10 +32,22 @@ Met Journey Optimizer kunt u gegevens uit Adobe Experience Platform-gegevens ben
 
 Controleer voordat u begint de volgende beperkingen en richtlijnen:
 
-* Datasets die zijn ingeschakeld voor opzoeken, mogen geen PII (Personeel Identified Information) bevatten.
-* Datasets die voor raadpleging worden toegelaten en in verpersoonlijking worden gebruikt worden niet beschermd tegen schrapping. Het is aan u om spoor te houden van welke datasets voor verpersoonlijking worden gebruikt om ervoor te zorgen zij niet worden geschrapt of worden verwijderd.
-* Datasets moeten worden gekoppeld aan een schema dat NIET van het type Profiel of Gebeurtenis is is.
-* Het stromen gegevensopname wordt gesteund voor raadpleging-toegelaten datasets. Houd er rekening mee dat de verwerking van inname nog moet zijn voltooid voordat de gegevens beschikbaar zijn voor personalisatie of besluitvorming.
+* **Geen PII in datasets** - Datasets die voor raadpleging worden toegelaten zou geen Persoonlijk Identificeerbare Informatie (PII) moeten bevatten.
+
+* 
+   * **het risico van de Schrapping** - Datasets die in verpersoonlijking worden gebruikt worden niet beschermd tegen schrapping. U moet bijhouden welke gegevenssets worden gebruikt om ervoor te zorgen dat deze niet worden verwijderd.
+
+* **het type van Schema** - Datasets moeten met een schema worden geassocieerd dat **NIET** van het type van Profiel of van de Gebeurtenis is is.
+
+* **houd de raadplegingsknevel aan** - vermijd herhaaldelijk het draaien datasets aan en uit. Dit kan leiden tot onverwachte indexering. De beste praktijken moeten de dataset verlaten die wordt toegelaten zolang u van plan bent om het voor raadplegingen te gebruiken.
+
+* **Partij van gegevensschrapping** - Verwijderend een partij gegevens uit uw dataset verwijdert volledig alle passende sleutels uit de raadplegingsdienst. Bijvoorbeeld:
+
+  **Partij 1**: Sku1, Sku2, Sku3\
+  **Partij 2**: Sku1, Sku2, Sku3, Sku4, Sku5, Sku6\
+  **Partij 3**: Sku7, Sku8, Sku9, Sku10
+
+  Als u **Partij 1** schrapt, worden Sku1, Sku2, en Sku3 verwijderd uit de raadplegingsopslag. De resulterende opzoekgegevens bevatten vervolgens: Sku4, Sku5, Sku6, Sku7, Sku8, Sku9, Sku10.
 
 ### Entitlement for lookup service
 
