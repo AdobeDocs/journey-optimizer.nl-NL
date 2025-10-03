@@ -5,9 +5,9 @@ title: Een kanaalactiviteit toevoegen aan een campagne met meerdere stappen
 description: Leer hoe u een kanaalactiviteit toevoegt aan een campagne die uit meerdere stappen bestaat
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
+source-git-commit: 3931b1d6fd97b92c79aff2c003f8cb692fc52e47
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1074'
 ht-degree: 1%
 
 ---
@@ -60,16 +60,15 @@ Bijvoorbeeld:
 
 Door kanaalactiviteiten te gebruiken, kunt u uitvoerige en gepersonaliseerde campagnes tot stand brengen die klanten over veelvoudige touchpoints en aandrijvingsomzettingen in dienst nemen.
 
-
 >[!CAUTION]
 >
 >Alleen SMS-, push- en e-mailkanalen worden ondersteund in geordende campagnes.
 
+## Een kanaalactiviteit toevoegen en de eigenschappen ervan definiëren {#add}
+
 >[!PREREQUISITES]
 >
->Alvorens een kanaalactiviteit toe te voegen, bepaal het doelpubliek gebruikend a [ de publieksactiviteit van de Bouwstijl ](build-audience.md).
-
-## Een kanaalactiviteit toevoegen en de eigenschappen ervan definiëren {#add}
+>Alvorens een kanaalactiviteit toe te voegen, bepaal het doelpubliek gebruikend a [ bouwt publiek ](build-audience.md) of a [ gelezen publiek ](read-audience.md) activiteit.
 
 1. Voeg een kanaalactiviteit toe aan het canvas. De beschikbare kanaalactiviteiten zijn **[!UICONTROL Email]** , **[!UICONTROL SMS]** en **[!UICONTROL Push]** .
 
@@ -101,7 +100,7 @@ Gebruik het tabblad **[!UICONTROL Actions]** om een kanaalconfiguratie voor uw b
 
 1. **laat Snelle leveringswijze** toe (Duw)
 
-   De snelle leveringswijze is een [!DNL Journey Optimizer] toe:voegen-op die zeer snelle pushbericht toestaat die in grote volumes door campagnes verzenden. Snelle levering wordt gebruikt wanneer de vertraging in berichtlevering zaken-kritiek is, wanneer u een dringende duwalarm op mobiele telefoons wilt verzenden, bijvoorbeeld een breekbericht aan gebruikers die uw nieuwskanaal app hebben geïnstalleerd. Voor meer informatie over prestaties wanneer het gebruiken van Snelle leveringswijze, verwijs naar [ het productbeschrijving van Adobe Journey Optimizer ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+   De snelle leveringswijze is een [!DNL Journey Optimizer] toe:voegen-op die zeer snelle pushbericht toestaat die in grote volumes door campagnes verzenden. Snelle levering wordt gebruikt wanneer de vertraging in berichtlevering zaken-kritiek is, wanneer u een dringende duwalarm op mobiele telefoons wilt verzenden, bijvoorbeeld een breekbericht aan gebruikers die uw nieuwskanaal app hebben geïnstalleerd. Voor meer informatie over prestaties wanneer het gebruiken van Snelle leveringswijze, verwijs naar [ het productbeschrijving van Adobe Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 1. **creeer een inhoudexperiment**
 
