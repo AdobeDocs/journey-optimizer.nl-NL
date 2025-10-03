@@ -43,7 +43,7 @@ Begin door campagneorchestratie op te zetten door een relationeel schema aan het
 
 1. Klik op **[!UICONTROL Create]** om uw **[!UICONTROL Targeting dimension]** -bestand te maken.
 
-1. Kies uw [ eerder gevormd Schema ](gs-schemas.md) &#x200B; van drop-down.
+1. Kies uw [&#x200B; eerder gevormd Schema &#x200B;](gs-schemas.md) &#x200B; van drop-down.
 
    Terwijl alle relationele schema&#39;s zichtbaar zijn, slechts zijn de schema&#39;s met een directe identiteitsverhouding aan het **Profiel** verkiesbaar voor selectie.
 
@@ -51,7 +51,7 @@ Begin door campagneorchestratie op te zetten door een relationeel schema aan het
 
    In dit voorbeeld is het klantprofiel gekoppeld aan meerdere abonnementen, die elk worden vertegenwoordigd door een uniek `crmID` in het `Recipient` -schema. Als u **[!UICONTROL Target Dimension]** instelt om het `Recipient` schema en de `crmID` identiteit te gebruiken, kunt u berichten verzenden op abonnementsniveau in plaats van naar het hoofdklantprofiel, zodat elk contract of elke regel een eigen gepersonaliseerd bericht ontvangt.
 
-   [ leer meer in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
+   [&#x200B; leer meer in de documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 
@@ -73,7 +73,7 @@ U kunt als volgt de kanaalconfiguratie configureren:
 
    U kunt ook een bestaande **[!UICONTROL Channel configuration]** bijwerken.
 
-   ➡️ [ volg de stappen die in deze pagina ](../email/surface-personalization.md) worden gedetailleerd
+   ➡️ [&#x200B; volg de stappen die in deze pagina &#x200B;](../email/surface-personalization.md) worden gedetailleerd
 
 1. Open vanuit de sectie **[!UICONTROL Execution details]** van uw **[!UICONTROL Channel configuration]** de tab **[!UICONTROL Orchestrated campaigns]** .
 
@@ -87,7 +87,7 @@ U kunt als volgt de kanaalconfiguratie configureren:
 
    * **[!UICONTROL Target + Secondary Dimension]**: verzenden met zowel primaire als secundaire entiteiten, bijvoorbeeld ontvanger + contract.
 
-1. Selecteer van drop-down uw [ eerder gecreeerd Doel Dimension ](#targeting-dimension).
+1. Selecteer van drop-down uw [&#x200B; eerder gecreeerd Doel Dimension &#x200B;](#targeting-dimension).
 
    ![](assets/target-dimension-4.png)
 
@@ -107,7 +107,7 @@ U kunt als volgt de kanaalconfiguratie configureren:
 
      Als de secundaire dimensie bijvoorbeeld een boeking of abonnement vertegenwoordigt, kan het uitvoeringsadres, zoals een e-mail, van dat niveau worden genomen. Dit is handig wanneer profielen bij het boeken of abonneren op een service andere contactgegevens gebruiken.
 
-1. Van het **[!UICONTROL Delivery address]** gebied, klik ![ geef pictogram ](assets/do-not-localize/edit.svg) uit om het specifieke gebied te kiezen voor uw berichtlevering te gebruiken.
+1. Van het **[!UICONTROL Delivery address]** gebied, klik ![&#x200B; geef pictogram &#x200B;](assets/do-not-localize/edit.svg) uit om het specifieke gebied te kiezen voor uw berichtlevering te gebruiken.
 
    ![](assets/target-dimension-4.png)
 
