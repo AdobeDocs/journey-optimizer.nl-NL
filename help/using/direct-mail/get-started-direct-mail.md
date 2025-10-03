@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: direct mail, bericht, campagne
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: 73f5cfdedd5a472cf922a5dfd950f3361896ba8d
+source-git-commit: 6865131089122419a7d2f41bd7c6a36d144aa71c
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ De belangrijkste stappen voor het verzenden van direct-mailberichten zijn als vo
 
 >[!AVAILABILITY]
 >
->Directe-mailberichten kunnen alleen worden gemaakt in het kader van geplande campagnes. Ze zijn niet beschikbaar voor gebruik in API-getriggerde campagnes of reizen.
+>Directe-mailberichten kunnen alleen worden gemaakt in het kader van geplande campagnes. Zij zijn niet beschikbaar voor gebruik in georkestreerde en API-getriggerde campagnes of in reizen.
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
 
