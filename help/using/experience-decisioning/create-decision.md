@@ -160,7 +160,7 @@ In de sectie **[!UICONTROL Strategy sequence]** kunt u de beslissingsitems en de
 
 1. Klik op **[!UICONTROL Add]** en kies het type object dat u in het beleid wilt opnemen:
 
-   * **[!UICONTROL Selection strategy]**: voeg een of meerdere selectiestrategieën toe. Beslissingsstrategieën maken gebruik van collecties die verband houden met toelatingsbeperkingen en rangordemethoden om te bepalen welke items moeten worden getoond. U kunt een bestaande selectiestrategie selecteren of een nieuwe selectiestrategie maken met de knop **[!UICONTROL Create selection strategy]** . [ Leer hoe te om selectiestrategieën ](selection-strategies.md) tot stand te brengen
+   * **[!UICONTROL Selection strategy]**: voeg een of meerdere selectiestrategieën toe. Beslissingsstrategieën maken gebruik van collecties die verband houden met toelatingsbeperkingen en rangordemethoden om te bepalen welke items moeten worden getoond. U kunt een bestaande selectiestrategie selecteren of een nieuwe selectiestrategie maken met de knop **[!UICONTROL Create selection strategy]** . [&#x200B; Leer hoe te om selectiestrategieën &#x200B;](selection-strategies.md) tot stand te brengen
 
    * **[!UICONTROL Decision item]**: voeg enkele beslissingsitems toe die u wilt presenteren zonder dat u een selectiestrategie hoeft te doorlopen. U kunt slechts één beslissingsitem tegelijk selecteren. Alle voorwaarden die voor het onderdeel zijn ingesteld, zijn van toepassing.
 
@@ -168,7 +168,7 @@ In de sectie **[!UICONTROL Strategy sequence]** kunt u de beslissingsitems en de
 
    >[!NOTE]
    >
-   >Een beslissingsbeleid ondersteunt maximaal 10 selectiestrategieën en besluitvormingselementen samen. [ leer meer over het Beslissen van gidsen &amp; beperkingen ](gs-experience-decisioning.md#guardrails)
+   >Een beslissingsbeleid ondersteunt maximaal 10 selectiestrategieën en besluitvormingselementen samen. [&#x200B; leer meer over het Beslissen van gidsen &amp; beperkingen &#x200B;](gs-experience-decisioning.md#guardrails)
 
 1. Wanneer het toevoegen van verscheidene besluitvormingspunten en/of strategieën, zullen zij in een specifieke orde worden geëvalueerd. Het eerste object dat aan de reeks is toegevoegd, wordt eerst geëvalueerd, enzovoort. Als u de standaardvolgorde wilt wijzigen, sleept u de objecten en/of de groepen en zet u deze neer om ze naar wens opnieuw te rangschikken. Vouw de onderstaande sectie uit voor meer informatie.
 
@@ -184,7 +184,7 @@ In de sectie **[!UICONTROL Strategy sequence]** kunt u de beslissingsitems en de
    >
    >Alleen selectiestrategieën kunnen binnen een reeks worden gesleept en neergezet. Als u de positie van een beslissingsitem wilt wijzigen, moet u het item verwijderen en opnieuw toevoegen met de knop **[!UICONTROL Add]** nadat u de andere items hebt toegevoegd die u eerder wilt evalueren.
 
-   U kunt **** veelvoudige selectiestrategieën in groepen ook combineren zodat worden zij samen en niet afzonderlijk geëvalueerd. Klik hiertoe op de knop **`+`** onder een selectiestrategie om deze te combineren met een andere. U kunt een selectiestrategie ook naar een andere slepen om de twee strategieën in een groep te groeperen.
+   U kunt **&#x200B;**&#x200B;veelvoudige selectiestrategieën in groepen ook combineren zodat worden zij samen en niet afzonderlijk geëvalueerd. Klik hiertoe op de knop **`+`** onder een selectiestrategie om deze te combineren met een andere. U kunt een selectiestrategie ook naar een andere slepen om de twee strategieën in een groep te groeperen.
 
    >[!NOTE]
    >
@@ -255,7 +255,7 @@ U kunt elk item in de lijst selecteren, waarin alle beslissingsitems worden weer
 
 Wanneer uw beslissingsbeleid klaar is, slaat u het op en klikt u op **[!UICONTROL Create]** .
 
-Voor e-mailberichten moet u een plaatsing definiëren voor de component die aan het beslissingsbeleid is gekoppeld. Klik hiertoe op de knop **[!UICONTROL Decisioning]** in het deelvenster Eigenschappen van component en selecteer **[!UICONTROL Assign placement]** . [ Leer hoe te met plaatsen ](../experience-decisioning/placements.md) te werken
+Voor e-mailberichten moet u een plaatsing definiëren voor de component die aan het beslissingsbeleid is gekoppeld. Klik hiertoe op de knop **[!UICONTROL Decisioning]** in het deelvenster Eigenschappen van component en selecteer **[!UICONTROL Assign placement]** . [&#x200B; Leer hoe te met plaatsen &#x200B;](../experience-decisioning/placements.md) te werken
 
 ![](assets/decision-policy-rail.png)
 
@@ -303,18 +303,18 @@ Zodra gecreeerd, kunnen het besluitvormingsbeleid en de attributen verbonden aan
    >
    >Als de knoop van de codetoevoeging niet toont, kan een besluitbeleid reeds voor de oudercomponent gevormd zijn.
 
-1. De code voor het beslissingsbeleid wordt toegevoegd. Deze opeenvolging zal het aantal tijden worden herhaald u het besluitvormingsbeleid wilt zijn teruggekeerd. Bijvoorbeeld, als u verkoos om terug 2 punten terug te keren wanneer [ creërend het besluit ](#add-decision), zal de zelfde opeenvolging tweemaal worden herhaald.
+1. De code voor het beslissingsbeleid wordt toegevoegd. Deze opeenvolging zal het aantal tijden worden herhaald u het besluitvormingsbeleid wilt zijn teruggekeerd. Bijvoorbeeld, als u verkoos om terug 2 punten terug te keren wanneer [&#x200B; creërend het besluit &#x200B;](#add-decision), zal de zelfde opeenvolging tweemaal worden herhaald.
 
 ### Kenmerken voor hefboomfinanciering-besluitvormingsposten {#attributes}
 
-Nu kunt u alle beslissingskenmerken toevoegen die u in die code wilt. De beschikbare kenmerken worden opgeslagen in het schema van de catalogus van **[!UICONTROL Offers]** . De attributen van de douane worden opgeslagen in **`_<imsOrg`>** omslag en standaardattributen in de **`_experience`** omslag. [ Leer meer over het schema van de catalogus van Aanbiedingen ](catalogs.md)
+Nu kunt u alle beslissingskenmerken toevoegen die u in die code wilt. De beschikbare kenmerken worden opgeslagen in het schema van de catalogus van **[!UICONTROL Offers]** . De attributen van de douane worden opgeslagen in **`_<imsOrg`>** omslag en standaardattributen in de **`_experience`** omslag. [&#x200B; Leer meer over het schema van de catalogus van Aanbiedingen &#x200B;](catalogs.md)
 
 ![](assets/decision-code-based-decision-attributes.png)
 
 >[!NOTE]
 >
 >Voor het volgen van het Punt van het besluitvormingsbeleid, moet de `trackingToken` attributen als volgt voor de inhoud van het besluitvormingsbeleid worden toegevoegd:
->>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Klik op elke map om deze uit te vouwen. Plaats de cursor van de muis op de gewenste locatie en klik op het pictogram + naast het kenmerk dat u wilt toevoegen. U kunt zoveel kenmerken aan de code toevoegen als u wilt.
 
@@ -330,13 +330,13 @@ Nu kunt u alle beslissingskenmerken toevoegen die u in die code wilt. De beschik
 
 ### Hefboomfragmenten {#fragments}
 
-Als uw besluitvormingsbeleid besluitpunten met inbegrip van fragmenten bevat, kunt u deze fragmenten in de code van het besluitvormingsbeleid hefboomwerking. [ Leer meer op fragmenten ](../content-management/fragments.md)
+Als uw besluitvormingsbeleid besluitpunten met inbegrip van fragmenten bevat, kunt u deze fragmenten in de code van het besluitvormingsbeleid hefboomwerking. [&#x200B; Leer meer op fragmenten &#x200B;](../content-management/fragments.md)
 
 >[!AVAILABILITY]
 >
 >Deze mogelijkheid is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-Stel bijvoorbeeld dat u verschillende inhoud wilt weergeven voor verschillende modellen van mobiele apparaten. Zorg ervoor u fragmenten die aan die apparaten beantwoorden aan het besluitvormingspunt toevoegde dat u in het besluitvormingsbeleid gebruikt. [ leer hoe ](items.md#attributes).
+Stel bijvoorbeeld dat u verschillende inhoud wilt weergeven voor verschillende modellen van mobiele apparaten. Zorg ervoor u fragmenten die aan die apparaten beantwoorden aan het besluitvormingspunt toevoegde dat u in het besluitvormingsbeleid gebruikt. [&#x200B; leer hoe &#x200B;](items.md#attributes).
 
 ![](assets/item-fragments.png){width=70%}
 
@@ -344,7 +344,7 @@ Nadat u dit hebt gedaan, kunt u een van de volgende methoden gebruiken:
 
 >[!BEGINTABS]
 
->[!TAB  neemt direct de code ] op
+>[!TAB neemt direct de code  op]
 
 U plakt gewoon het codeblok hieronder in de code voor het beslissingsbeleid. Vervang `variable` door de fragment-id en `placement` door de fragmentverwijzingssleutel:
 
@@ -355,7 +355,7 @@ U plakt gewoon het codeblok hieronder in de code voor het beslissingsbeleid. Ver
 
 >[!TAB  volg de gedetailleerde stappen ]
 
-1. Navigeer aan **[!UICONTROL Helper functions]** en voeg **** functie `{% let variable = expression %} {{variable}}` aan de coderuit toe, waar u de variabele voor uw fragment kunt verklaren.
+1. Navigeer aan **[!UICONTROL Helper functions]** en voeg **&#x200B;**&#x200B;functie `{% let variable = expression %} {{variable}}` aan de coderuit toe, waar u de variabele voor uw fragment kunt verklaren.
 
    ![](assets/decision-let-function.png)
 
@@ -424,6 +424,6 @@ Voor code-gebaseerde ervaringen, zodra uw ontwikkelaar een API of SDK vraag om i
 
 >[!NOTE]
 >
->Momenteel kunt u geen inhoud van het gebruikersinterface in a [ code-gebaseerde ervaring ](../code-based/create-code-based.md) campagne of reis simuleren gebruikend besluiten. Een alternerende actie is beschikbaar in [ deze sectie ](../code-based/code-based-decisioning-implementations.md).
+>Momenteel kunt u geen inhoud van het gebruikersinterface in a [&#x200B; code-gebaseerde ervaring &#x200B;](../code-based/create-code-based.md) campagne of reis simuleren gebruikend besluiten. Een alternerende actie is beschikbaar in [&#x200B; deze sectie &#x200B;](../code-based/code-based-decisioning-implementations.md).
 
-Om te zien hoe uw besluiten presteren, kunt u douane [ Customer Journey Analytics creëren die dashboards ](cja-reporting.md) rapporteert.
+Om te zien hoe uw besluiten presteren, kunt u douane [&#x200B; Customer Journey Analytics creëren die dashboards &#x200B;](cja-reporting.md) rapporteert.
