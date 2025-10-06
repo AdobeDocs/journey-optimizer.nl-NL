@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: bericht, frequentie, regels, druk
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
+source-git-commit: 9cd21ef6552ce8f6ddb2097de883ec1a1bbf06e2
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ De reeksen van de regel staan u toe om **samen veelvoudige regels in regelreekse
 U kunt twee typen regelsets maken:
 
 * **de regelreeksen van het Kanaal** passen het afschilderen regels op communicatiekanalen toe. Verzend bijvoorbeeld niet meer dan 1 e-mail- of sms-communicatie per dag.
-* **de regelreeksen van 0&rbrace; Reis &lbrace;passen ingang en gelijktijdige afschilderingsregels op een reis toe.** Voer bijvoorbeeld niet profielen in voor meer dan één reis tegelijk.
+* **de regelreeksen van 0} Reis {passen ingang en gelijktijdige afschilderingsregels op een reis toe.** Voer bijvoorbeeld niet profielen in voor meer dan één reis tegelijk.
 
 ➡️ [Ontdek deze functie in video](#video)
 
@@ -74,6 +74,11 @@ Naast deze &quot;Globale Vastgestelde de regel van de Regel van het Standaard&qu
 >abstract="Specify the maximum number of messages sent to a customer profile within the chosen time frame. The frequency cap will be based on the selected calendar period and will be reset at the beginning of the corresponding time frame."-->
 
 >[!CONTEXTUALHELP]
+>id="ajo_rule_type"
+>title="Type regel"
+>abstract="Selecteer het gewenste regeltype voor uw geplaatste kanaalregel: Gebruik het **type dat van de het in kaart brengen van de Frequentie** wordt geplaatst om het begrenzen van regels op communicatiekanalen toe te passen. Verzend bijvoorbeeld niet meer dan 1 e-mail- of sms-communicatie per dag. Selecteer **stille uren** (beschikbaar in Beperkte Beschikbaarheid) om op tijd-gebaseerde uitsluitingen te bepalen om ervoor te zorgen dat geen berichten tijdens specifieke periodes&quot;worden verzonden.
+
+>[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
 >title="Selecteer de categorie voor berichtregels"
 >abstract="Wanneer deze optie wordt geactiveerd en toegepast op een bericht, worden alle frequentieregels die overeenkomen met de geselecteerde categorie automatisch toegepast op dit bericht. Momenteel is alleen de marketingcategorie beschikbaar."
@@ -82,6 +87,11 @@ Naast deze &quot;Globale Vastgestelde de regel van de Regel van het Standaard&qu
 >id="ajo_rule_set_rule_capping"
 >title="Regelbegrenzing"
 >abstract="Plaats het maximum voor uw regel. Afhankelijk van het regelvastgestelde domein en de selectie op het gebied van het Type van Regel, kan dit gebied het maximumaantal berichten bepalen dat naar een profiel kan worden verzonden, of het maximumaantal reizen het profiel kan ingaan of worden ingeschreven gelijktijdig."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_business_rules"
+>title="Regelset"
+>abstract="Selecteer de regel die u wilt toepassen op de aangepaste handeling."
 
 Volg onderstaande stappen om een regelset te maken.
 
@@ -164,4 +174,4 @@ De status verandert in **[!UICONTROL Inactive]** en de regel geldt niet voor toe
 
 ## Hoe kan ik-video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444732?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
