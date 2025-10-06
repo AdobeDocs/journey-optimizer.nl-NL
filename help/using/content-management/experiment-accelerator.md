@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: inhoud, experiment, meerdere, publiek, behandeling
 exl-id: 938b148e-b2cd-4d8b-9f73-dd62420d6184
-source-git-commit: 09a0b24c7e6ae071851a60f35f50e3f5048b0148
+source-git-commit: 4c0d5be4d8783818453683190d1371b8516bc3a4
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->**Journey Optimizer Experimentation Accelerator** vereist een betaalde vergunning en kan met of Adobe Target of Adobe Journey Optimizer werken.
+>**Journey Optimizer Experimentation Accelerator** vereist een betaalde vergunning voor klanten en integreert foutloos met of Adobe Target of Adobe Journey Optimizer.
 
 **Journey Optimizer Experimentation Accelerator** is een krachtig hulpmiddel dat wordt ontworpen om het experimenteringsproces te stroomlijnen en te verbeteren. Door te integreren met Adobe Target en Adobe Journey Optimizer, biedt het een gecentraliseerd platform voor het beheren, analyseren en optimaliseren van experimenten. De Journey Optimizer Experimentation Accelerator maakt gebruik van door AI aangestuurde inzichten en adaptieve tests en geeft u de mogelijkheid om gegevensgestuurde beslissingen te nemen, marketingstrategieën te verbeteren en meetbare resultaten te behalen.
 
@@ -40,7 +40,7 @@ Belangrijkste voordelen zijn:
 
 ## Toegang tot Journey Optimizer Experimentation Accelerator
 
-Na [&#x200B; het creëren van en het vormen van uw experiment &#x200B;](content-experiment.md) en het verzenden van uw campagnes of reizen naar uw profielen, kunt u tot **[!UICONTROL Journey Optimizer Experimentation Accelerator]** toegang hebben om dieper in te duiken hoe uw experiment uitvoert.
+Na [ het creëren van en het vormen van uw experiment ](content-experiment.md) en het verzenden van uw campagnes of reizen naar uw profielen, kunt u tot **[!UICONTROL Journey Optimizer Experimentation Accelerator]** toegang hebben om dieper in te duiken hoe uw experiment uitvoert.
 
 U kunt **[!UICONTROL Journey Optimizer Experimentation Accelerator]** openen vanuit het linkermenu vanuit de vervolgkeuzelijst [!UICONTROL Experimentation] of via de Apps-schakeloptie. Gebruikers met alleen een Target-licentie hebben er alleen toegang toe via de Apps-schakeloptie.
 
@@ -77,7 +77,7 @@ Deze rol toewijzen aan nieuwe gebruikers:
 
 1. Voer de naam en het e-mailadres van de gebruiker in of kies een optie in de lijst en klik op **[!UICONTROL Save]** .
 
-   Als de gebruiker niet eerder werd gecreeerd, verwijs naar [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/users).
+   Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users).
 
 De gebruiker ontvangt een e-mail met instructies om toegang te krijgen tot uw exemplaar.
 
