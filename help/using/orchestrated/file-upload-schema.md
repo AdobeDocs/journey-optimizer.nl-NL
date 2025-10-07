@@ -5,9 +5,9 @@ title: Configuratiestappen
 description: Leer hoe u een model-gebaseerd schema maakt in Adobe Experience Platform door een DDL te uploaden
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
+source-git-commit: d910abc164a713c7d8634cdd11cc4cd8b42be398
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Deze sectie verstrekt geleidelijke begeleiding op hoe te om een model-gebaseerd 
 
 1. [ Samenvatting gegevens ](ingest-data.md) in uw dataset van gesteunde bronnen.
 
-➡️ [ Leer meer over op model-gebaseerde schema&#39;s in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/model-based)
+➡️ [ Leer meer over op model-gebaseerde schema&#39;s in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
 
 ## Een DDL-bestand uploaden{#ddl-upload}
 
@@ -57,9 +57,6 @@ Hier volgt een voorbeeld:
 
 * **Etiket van het Schema voor het Beleid van Gegevens**\
   De etikettering wordt gesteund op het niveau van het schemagebied om gegevens te handhaven governance beleid zoals toegangsbeheer en gebruiksbeperkingen. Voor meer details, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl).
-
-* **Samengestelde Sleutel**\
-  Samengestelde primaire sleutels worden ondersteund in modelgebaseerde schemadefinities, waardoor het gebruik van meerdere velden samen mogelijk wordt om records uniek te identificeren.
 
 +++
 
@@ -167,7 +164,7 @@ U kunt verhoudingen direct binnen het Ddl- dossier specificeren wanneer het cre�
 >
 > Alleen relaties die expliciet in het DDL-bestand zijn gedefinieerd, worden door het systeem herkend. Om het even welke entiteitverhoudingen die buiten het Ddl- dossier bestaan zullen worden genegeerd en niet verwerkt.
 
-Vestig een verband tussen het **schema van de 0&rbrace; loyaliteitstransacties &lbrace;en het** Ontvangers **schema om elke transactie met het correcte klantenverslag te associëren.**
+Vestig een verband tussen het **schema van de 0} loyaliteitstransacties {en het** Ontvangers **schema om elke transactie met het correcte klantenverslag te associëren.**
 
 1. Navigeer aan **[!UICONTROL Schemas]** en open eerder **loyaliteitstransacties** creëren.
 

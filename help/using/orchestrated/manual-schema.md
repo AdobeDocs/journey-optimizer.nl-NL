@@ -5,7 +5,7 @@ title: Configuratiestappen
 description: Leer hoe u op modellen gebaseerde schema's rechtstreeks via de gebruikersinterface kunt maken.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
+source-git-commit: d910abc164a713c7d8634cdd11cc4cd8b42be398
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Het volgende voorbeeld bepaalt manueel het **schema van het Membership van de Lo
 
 1. [ Samenvatting gegevens ](ingest-data.md) in uw dataset van gesteunde bronnen.
 
-➡️ [ Leer meer over handmodel-gebaseerde schema&#39;s in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [ Leer meer over handmodel-gebaseerde schema&#39;s in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Uw schema maken {#schema}
 
@@ -160,7 +160,7 @@ Verwijs naar [ documentatie van Adobe Developer ](https://developer.adobe.com/jo
 
 1. Zoek de gegevensset in de lijst **[!UICONTROL Datasets]** .
 
-1. Van de **[!UICONTROL Datasets]** montages, laat de **Geordende 2&rbrace; optie van Campagnes &lbrace;toe om de dataset beschikbaar voor gebruik in uw Geordende Campagnes te merken.**
+1. Van de **[!UICONTROL Datasets]** montages, laat de **Geordende 2} optie van Campagnes {toe om de dataset beschikbaar voor gebruik in uw Geordende Campagnes te merken.**
 
    ![](assets/schema_manual_7.png){zoomable="yes"}
 
