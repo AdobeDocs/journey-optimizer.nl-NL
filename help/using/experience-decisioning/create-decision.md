@@ -82,5 +82,5 @@ De belangrijkste stappen voor hefboomwerking beslissingsbeleid in berichten zijn
 
 Nu u begrijpt hoe beleidsbeslissingen werken en hoe u persoonlijke aanbiedingen kunt aanbieden, bent u klaar om uw eerste beslissingsbeleid te maken.
 
-➡️ [ Leer hoe te om een besluitvormingsbeleid ](../experience-decisioning/create-decision-policy.md) tot stand te brengen
+➡️ [&#x200B; Leer hoe te om een besluitvormingsbeleid &#x200B;](../experience-decisioning/create-decision-policy.md) tot stand te brengen
 
