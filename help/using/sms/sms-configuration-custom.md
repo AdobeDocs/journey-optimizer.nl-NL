@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 1d869ee8bf1c76e182a3f6b0433e5ab2eec2a8fb
+source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -173,7 +173,7 @@ Als de trefwoorden opt-in of opt-out niet worden opgegeven, worden standaardtoes
 
 >[!ENDSHADEBOX]
 
-Nadat de API-referenties zijn gemaakt, kunt u nu een webhaak maken en de inkomende instellingen configureren. Deze configuratie zorgt ervoor dat uw systeem inkomende gegevens of berichten behoorlijk kan ontvangen en verwerken.
+Zodra uw API geloofsbrieven met succes zijn gecreeerd, kunt u Webhooks nu vormen om binnenkomende reacties voor het beheren van opt-in en opt-out toestemming te vangen, en leveringsrapporten zoals lees ontvangstbewijzen te ontvangen waar beschikbaar.
 
 Wanneer u een webhaak instelt, kunt u het doel ervan definiëren op basis van het type gegevens dat u wilt vastleggen:
 

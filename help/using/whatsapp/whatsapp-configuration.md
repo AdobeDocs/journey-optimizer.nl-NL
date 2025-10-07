@@ -7,9 +7,9 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
+source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '766'
 ht-degree: 1%
 
 ---
@@ -84,7 +84,7 @@ Nadat u de API-referentie hebt gemaakt en geconfigureerd, moet u nu uw Webhaak v
 >
 >Zonder opgegeven opt-in- of opt-out-trefwoorden zijn standaardtoestemmingsberichten niet ingeschakeld.
 
-Zodra uw whatsApp API geloofsbrieven met succes zijn gecreeerd, moet de volgende stap een webhaak tot stand brengen en uw binnenkomende montages vormen.
+Nadat de whatsApp API-referenties zijn gemaakt, kunt u nu Webhooks configureren om binnenkomende reacties vast te leggen voor het beheer van de toestemming om zich aan te melden en te weigeren, en om leveringsrapporten te ontvangen, zoals leesontvangstbewijzen indien beschikbaar.
 
 1. Navigeer in de linkertrack naar **[!UICONTROL Administration]** `>` **[!UICONTROL Channels]** , selecteer het menu **[!UICONTROL WhatsApp Webhooks]** onder **[!UICONTROL WhatsApp settings]** en klik op de knop **[!UICONTROL Create Webhook]** .
 
@@ -125,7 +125,7 @@ Zodra uw whatsApp API geloofsbrieven met succes zijn gecreeerd, moet de volgende
 
 1. Als u de bestaande configuratie wilt wijzigen en toegang wilt krijgen tot uw **[!UICONTROL Webhook URL]** of **[!UICONTROL Webhook Verify toker]** , zoekt u de gewenste Webhaak en klikt u op de optie **[!UICONTROL Edit]** om de gewenste wijzigingen aan te brengen.
 
-1. Kopieer de hier gegenereerde **[!UICONTROL Webhook Verify toker]** en plak deze in de Meta-interface als onderdeel van uw WebHaak-instelling.
+1. Kopieer de **[!UICONTROL Webhook Verify toker]** die u hier hebt gegenereerd en plak deze in de Meta-interface als onderdeel van uw WebHaak-instelling.
 
    Voor gedetailleerde instructies op hoe en waar om dit verificatietoken toe te voegen, verwijs naar [ documentatie van Meta ](https://developers.facebook.com/docs/graph-api/webhooks/getting-started#configure-webhooks-product).
 
@@ -180,6 +180,6 @@ In de onderstaande video ziet u hoe u het WhatsApp-kanaal instelt in Adobe Journ
 
 +++ Zie video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470274/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++
