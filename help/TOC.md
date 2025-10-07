@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: be07b0dfec31d23f741bfc2a9f89fe1a7891ef0b
+source-git-commit: 7896dc3450f499e0889f6e32df5958ae9868d9e6
 workflow-type: tm+mt
-source-wordcount: '2954'
+source-wordcount: '2969'
 ht-degree: 18%
 
 ---
@@ -700,7 +700,10 @@ ht-degree: 18%
          + [Gebruik van contextgegevens](using/experience-decisioning/context-data.md)
          + [Adobe Experience Platform gebruiken voor besluitvorming](using/experience-decisioning/aep-data-exd.md)
       + [Selectiestrategieën maken](using/experience-decisioning/selection-strategies.md)
-      + [Beslissingsbeleid maken](using/experience-decisioning/create-decision.md)
+      + Aanbiedingen leveren met behulp van besluitvormingsbeleid {#decision-policies}
+         + [Aan de slag met beleidsbeslissingen](using/experience-decisioning/create-decision.md)
+         + [Beslissingsbeleid maken](using/experience-decisioning/create-decision-policy.md)
+         + [Beslissingsbeleid gebruiken in berichten](using/experience-decisioning/use-decision-policy.md)
       + [Verslag over het besluit](using/experience-decisioning/cja-reporting.md)
       + [Gebruiksscenario voor beslissing](using/experience-decisioning/experience-decisioning-uc.md)
       + Gebeurtenisgegevens verzamelen {#experience-decisioning-collect-event-data}
@@ -875,7 +878,7 @@ ht-degree: 18%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
