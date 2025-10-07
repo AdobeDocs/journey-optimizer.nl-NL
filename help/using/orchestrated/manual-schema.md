@@ -28,7 +28,7 @@ Het volgende voorbeeld bepaalt manueel het **schema van het Membership van de Lo
 
 1. [&#x200B; Samenvatting gegevens &#x200B;](ingest-data.md) in uw dataset van gesteunde bronnen.
 
-➡️ [&#x200B; Leer meer over handmodel-gebaseerde schema&#39;s in de documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [&#x200B; Leer meer over handmodel-gebaseerde schema&#39;s in de documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Uw schema maken {#schema}
 
