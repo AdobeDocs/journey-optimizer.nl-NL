@@ -5,9 +5,9 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1688'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,15 @@ ht-degree: 0%
 >id="ajo_code_based_strategy"
 >title="Wat is een strategie?"
 >abstract="De volgorde van de selectiestrategie bepaalt welke strategie eerst wordt geëvalueerd. Er is ten minste één strategie nodig. Beslissingsonderdelen in gecombineerde strategieën worden samen geëvalueerd."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Strategieën maken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Strategieën maken"
 
-Om de beste dynamische aanbieding en ervaring aan uw klanten voor te stellen, voeg een besluitvormingsbeleid aan uw inhoud in een campagne of reis dan vormen de punten om terug te keren en de selectiestrategie aan gebruik. Volg de onderstaande stappen om dit te doen.
+Om de beste dynamische aanbieding en ervaring aan uw klanten voor te stellen, voeg een besluitvormingsbeleid aan uw inhoud in een campagne of reis dan vormen de punten om terug te keren en de selectiestrategie aan gebruik. Hiervoor voert u de volgende stappen uit:
+
+1. [ voeg een besluitvormingsbeleid ](#add) toe - van de redacteur van Personalization of E-mail Designer.
+1. [ vorm het besluitvormingsbeleid ](#configurre) - voeg een naam toe en specificeer het aantal punten om terug te keren.
+1. [ opstelling een strategieopeenvolging ](#strategy) - selecteer de punten met het besluitvormingsbeleid terug te keren.
+1. [ Uitgezochte reserveaanbiedingen ](#fallback) (facultatief) - selecteer punten om te tonen als geen punten of selectiestrategieën worden gekwalificeerd.
+1. [ Overzicht en sparen ](#review) de selectiestrategie
 
 >[!AVAILABILITY]
 >
@@ -39,7 +45,7 @@ Om de beste dynamische aanbieding en ervaring aan uw klanten voor te stellen, vo
 
 ## Een beslissingsbeleid toevoegen {#add}
 
-1. Open een reis of een campagne, selecteer de actie van het a [&#x200B; kanaal &#x200B;](../building-journeys/journeys-message.md) en geef de inhoud van uw bericht uit.
+1. Open een reis of een campagne, selecteer de actie van het a [ kanaal ](../building-journeys/journeys-message.md) en geef de inhoud van uw bericht uit.
 
 1. Schakel de optie **[!UICONTROL Enable decisioning]** in voor e-mailberichten.
 
@@ -51,9 +57,7 @@ Om de beste dynamische aanbieding en ervaring aan uw klanten voor te stellen, vo
    >
    >Merk op dat om het even welk die besluitvormingsbeleid binnen e-mail wordt gevormd niet in het malplaatje zal worden bewaard. Als u het malplaatje op een andere e-mail toepast, moet u het beleid opnieuw vormen.
 
-1. Open de verpersoonlijkingsredacteur om het besluitvormingsbeleid tot stand te brengen.
-
-   Voor e-mailberichten kunt u ook een speciaal menu in de e-mailontwerper gebruiken om een beslissingsbeleid te maken. Vouw de onderstaande secties uit om de twee methoden te verkennen.
+1. Open de **verpersoonlijkingsredacteur** om het besluitvormingsbeleid tot stand te brengen. Voor e-mail, kunt u een specifiek menu in de **E-mail ontwerper** ook gebruiken om een besluitvormingsbeleid tot stand te brengen. Vouw de onderstaande secties uit om de twee methoden te verkennen.
 
    +++Een beslissingsbeleid maken vanuit de Personalization-editor
 
@@ -74,7 +78,7 @@ Om de beste dynamische aanbieding en ervaring aan uw klanten voor te stellen, vo
 
    +++
 
-## Vorm de details van het besluitvormingsbeleid {#configure}
+## Het beslissingsbeleid configureren {#configure}
 
 Nadat u een nieuw besluitvormingsbeleid in uw inhoud hebt toegevoegd, opent het scherm van de configuratiescherm van het beslissingsbeleid.
 
@@ -84,9 +88,9 @@ Nadat u een nieuw besluitvormingsbeleid in uw inhoud hebt toegevoegd, opent het 
 
    ![](assets/decision-code-based-details.png)
 
-   Als u meerdere items in een e-mailbericht wilt retourneren, moet u een inhoudscomponent **[!UICONTROL Repeat grid]** gebruiken. Vouw de onderstaande sectie uit voor meer informatie:
+   Voor het e-mailkanaal is het veld **[!UICONTROL Number of items]** standaard ingesteld op 1 en kan dit alleen worden gewijzigd als het beslissingsbeleid wordt toegevoegd vanuit een component **[!UICONTROL Repeat Grid]** . Als u meerdere items in een e-mailbericht wilt retourneren, moet u een **[!UICONTROL Repeat grid]** -inhoudscomponent toevoegen om meerdere items in het veld **[!UICONTROL Number of items]** te kunnen selecteren. Vouw de onderstaande sectie uit voor meer informatie:
 
-   +++ Meerdere beslissingsobjecten in e-mails retourneren
+   +++Meerdere beslissingsobjecten in e-mails retourneren
 
    1. Sleep een component **[!UICONTROL Repeat Grid]** in de e-mail en configureer deze naar wens in het deelvenster **[!UICONTROL Settings]** .
 
@@ -102,7 +106,7 @@ Nadat u een nieuw besluitvormingsbeleid in uw inhoud hebt toegevoegd, opent het 
 
 1. Klik op **[!UICONTROL Next]**.
 
-## Items selecteren en selectiestrategieën instellen {#select}
+## Een strategiereeks instellen {#strategy}
 
 In de sectie **[!UICONTROL Strategy sequence]** kunt u de beslissingsitems selecteren en selectiestrategieën instellen die in het besluitvormingsbeleid worden weergegeven.
 
@@ -112,7 +116,7 @@ In de sectie **[!UICONTROL Strategy sequence]** kunt u de beslissingsitems selec
 
    * **[!UICONTROL Selection strategy]** - Beslissingsstrategieën maken gebruik van collecties die verband houden met geschiktheidsbeperkingen en rangordemethoden om te bepalen welke items moeten worden weergegeven.
 
-     U kunt een of meerdere bestaande selectiestappen selecteren of een nieuwe strategie maken met de knop **[!UICONTROL Create selection strategy]** . [&#x200B; Leer hoe te om selectiestrategieën &#x200B;](selection-strategies.md) tot stand te brengen
+     U kunt een of meerdere bestaande selectiestappen selecteren of een nieuwe strategie maken met de knop **[!UICONTROL Create selection strategy]** . [ Leer hoe te om selectiestrategieën ](selection-strategies.md) tot stand te brengen
 
    * **[!UICONTROL Decision item]** - Selecteer enkele-beslissingsitems zonder een selectiestrategie te moeten doorlopen.
 
@@ -120,7 +124,7 @@ In de sectie **[!UICONTROL Strategy sequence]** kunt u de beslissingsitems selec
 
    >[!NOTE]
    >
-   >Een beslissingsbeleid ondersteunt maximaal 10 selectiestrategieën en besluitvormingselementen samen. [&#x200B; leer meer over het Beslissen van gidsen &amp; beperkingen &#x200B;](gs-experience-decisioning.md#guardrails)
+   >Een beslissingsbeleid ondersteunt maximaal 10 selectiestrategieën en besluitvormingselementen samen. [ leer meer over het Beslissen van gidsen &amp; beperkingen ](gs-experience-decisioning.md#guardrails)
 
 1. Wanneer het toevoegen van verscheidene besluitvormingspunten en/of strategieën, zullen zij in een specifieke orde worden geëvalueerd. Het eerste object dat aan de reeks is toegevoegd, wordt eerst geëvalueerd, enzovoort. Als u de standaardvolgorde wilt wijzigen, sleept u de objecten en/of de groepen en zet u deze neer om ze naar wens opnieuw te rangschikken. Vouw de onderstaande sectie uit voor meer informatie.
 
@@ -136,7 +140,7 @@ In de sectie **[!UICONTROL Strategy sequence]** kunt u de beslissingsitems selec
    >
    >Alleen selectiestrategieën kunnen binnen een reeks worden gesleept en neergezet. Als u de positie van een beslissingsitem wilt wijzigen, moet u het item verwijderen en opnieuw toevoegen met de knop **[!UICONTROL Add]** nadat u de andere items hebt toegevoegd die u eerder wilt evalueren.
 
-   U kunt **&#x200B;**&#x200B;veelvoudige selectiestrategieën in groepen ook combineren zodat worden zij samen en niet afzonderlijk geëvalueerd. Klik hiertoe op de knop **`+`** onder een selectiestrategie om deze te combineren met een andere. U kunt een selectiestrategie ook naar een andere slepen om de twee strategieën in een groep te groeperen.
+   U kunt **** veelvoudige selectiestrategieën in groepen ook combineren zodat worden zij samen en niet afzonderlijk geëvalueerd. Klik hiertoe op de knop **`+`** onder een selectiestrategie om deze te combineren met een andere. U kunt een selectiestrategie ook naar een andere slepen om de twee strategieën in een groep te groeperen.
 
    >[!NOTE]
    >
@@ -203,7 +207,7 @@ U kunt elk item in de lijst selecteren, waarin alle beslissingsitems worden weer
 >[!NOTE]
 > Back-ups zijn optioneel. U kunt maximaal het aantal aangevraagde objecten selecteren. Als geen verkiesbaar zijn en geen reserve wordt geplaatst, zal niets worden getoond.
 
-## Beslissingsbeleid bekijken en opslaan {#save}
+## Beslissingsbeleid bekijken en opslaan {#review}
 
 Nadat u een selectiestrategie hebt geconfigureerd en fallback-voorstellen hebt toegevoegd, klikt u op **[!UICONTROL Next]** om uw beslissingsbeleid te bekijken en op te slaan. Klik vervolgens op **[!UICONTROL Create]** om het maken van het beleid te bevestigen.
 
@@ -225,7 +229,7 @@ U kunt een besluitbeleid op elk ogenblik uitgeven of schrappen gebruikend de ell
 
 Voor e-mailberichten moet u een plaatsing definiëren voor de component die aan het beslissingsbeleid is gekoppeld.
 
-Klik hiertoe op de knop **[!UICONTROL Decisioning]** in het deelvenster Eigenschappen van component en selecteer **[!UICONTROL Assign placement]** . [&#x200B; Leer hoe te met plaatsen &#x200B;](../experience-decisioning/placements.md) te werken
+Klik hiertoe op de knop **[!UICONTROL Decisioning]** in het deelvenster Eigenschappen van component en selecteer **[!UICONTROL Assign placement]** . [ Leer hoe te met plaatsen ](../experience-decisioning/placements.md) te werken
 
 ![](assets/decision-policy-rail.png)
 
@@ -233,5 +237,5 @@ Klik hiertoe op de knop **[!UICONTROL Decisioning]** in het deelvenster Eigensch
 
 Nu u weet hoe u een beslissingsbeleid kunt maken, kunt u dit beleid gebruiken in [!DNL Journey Optimizer] kanalen om aanbiedingen te leveren.
 
-➡️ [&#x200B; Leer hoe te om besluitvormingsbeleid in berichten te gebruiken &#x200B;](../experience-decisioning/use-decision-policy.md)
+➡️ [ Leer hoe te om besluitvormingsbeleid in berichten te gebruiken ](../experience-decisioning/use-decision-policy.md)
 
