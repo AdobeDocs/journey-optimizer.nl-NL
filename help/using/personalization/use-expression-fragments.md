@@ -20,9 +20,9 @@ ht-degree: 0%
 
 Wanneer het gebruiken van de **verpersoonlijkingsredacteur**, kunt u hefboomwerking alle uitdrukkingsfragmenten die zijn gecreeerd of aan de huidige zandbak bewaard.
 
-Een fragment is een herbruikbare component waarnaar in [!DNL Journey Optimizer] -campagnes en -reizen kan worden verwezen. Met deze functionaliteit kunt u meerdere blokken met aangepaste inhoud vooraf samenstellen. Deze blokken kunnen door marketinggebruikers worden gebruikt om inhoud snel samen te stellen in een verbeterd ontwerpproces. [ Leer meer op fragmenten ](../content-management/fragments.md)
+Een fragment is een herbruikbare component waarnaar in [!DNL Journey Optimizer] -campagnes en -reizen kan worden verwezen. Met deze functionaliteit kunt u meerdere blokken met aangepaste inhoud vooraf samenstellen. Deze blokken kunnen door marketinggebruikers worden gebruikt om inhoud snel samen te stellen in een verbeterd ontwerpproces. [&#x200B; Leer meer op fragmenten &#x200B;](../content-management/fragments.md)
 
-➡️ [ Leer hoe te, auteur en gebruiks fragmenten in deze video ](../content-management/fragments.md#video-fragments) beheren
+➡️ [&#x200B; Leer hoe te, auteur en gebruiks fragmenten in deze video &#x200B;](../content-management/fragments.md#video-fragments) beheren
 
 ## Expressiefragment gebruiken {#use-expression-fragment}
 
@@ -32,9 +32,9 @@ Volg onderstaande stappen om expressiefragmenten aan uw inhoud toe te voegen.
 >
 >U kunt maximaal 30 fragmenten in een bepaalde levering toevoegen. Fragmenten kunnen maximaal 1 niveau worden genest.
 
-1. Open de [ verpersoonlijkingsredacteur ](personalization-build-expressions.md) en selecteer de **[!UICONTROL Fragments]** knoop op de linkerruit.
+1. Open de [&#x200B; verpersoonlijkingsredacteur &#x200B;](personalization-build-expressions.md) en selecteer de **[!UICONTROL Fragments]** knoop op de linkerruit.
 
-   In de lijst worden alle uitdrukkingsfragmenten weergegeven die als fragmenten in de huidige sandbox zijn gemaakt of opgeslagen. [ Leer hoe te om fragmenten ](../content-management/create-fragments.md) tot stand te brengen
+   In de lijst worden alle uitdrukkingsfragmenten weergegeven die als fragmenten in de huidige sandbox zijn gemaakt of opgeslagen. [&#x200B; Leer hoe te om fragmenten &#x200B;](../content-management/create-fragments.md) tot stand te brengen
 Ze worden gesorteerd op aanmaakdatum: recent toegevoegde expressiefragmenten worden als eerste weergegeven in de lijst.
 
    ![](assets/expression-fragments-pane.png)
@@ -53,17 +53,17 @@ Ze worden gesorteerd op aanmaakdatum: recent toegevoegde expressiefragmenten wor
    >
    >U kunt om het even welk **Ontwerp** toevoegen of **Levend** fragment aan uw inhoud. Nochtans, zult u uw reis of campagne niet kunnen activeren als een fragment met de **status van het Ontwerp** in het wordt gebruikt. Tijdens de reis- of campagnepublicatie wordt een fout weergegeven in ontwerpfragmenten die u moet goedkeuren om te kunnen publiceren.
 
-1. Zodra fragment ID is toegevoegd, als u het overeenkomstige uitdrukkingsfragment opent en [ het ](../content-management/manage-fragments.md#edit-fragments) van de interface uitgeeft, worden de veranderingen gesynchroniseerd. Ze worden automatisch doorgegeven aan alle concepten of live reizen/campagnes die die fragment-id bevatten.
+1. Zodra fragment ID is toegevoegd, als u het overeenkomstige uitdrukkingsfragment opent en [&#x200B; het &#x200B;](../content-management/manage-fragments.md#edit-fragments) van de interface uitgeeft, worden de veranderingen gesynchroniseerd. Ze worden automatisch doorgegeven aan alle concepten of live reizen/campagnes die die fragment-id bevatten.
 
 1. Klik op de knop **[!UICONTROL More actions]** naast een fragment. Selecteer **[!UICONTROL View fragment]** in het contextmenu dat wordt geopend voor meer informatie over dat fragment. **[!UICONTROL Fragment ID]** wordt ook weergegeven en kan hier worden gekopieerd.
 
    ![](assets/expression-fragment-view.png)
 
-1. U kunt het expressiefragment openen in een ander venster om de inhoud en eigenschappen ervan te bewerken. U kunt de optie **[!UICONTROL Open fragment]** in het contextmenu of vanuit het deelvenster **[!UICONTROL Fragment info]** gebruiken. [ Leer hoe te om een fragment uit te geven ](../content-management/manage-fragments.md#edit-fragments)
+1. U kunt het expressiefragment openen in een ander venster om de inhoud en eigenschappen ervan te bewerken. U kunt de optie **[!UICONTROL Open fragment]** in het contextmenu of vanuit het deelvenster **[!UICONTROL Fragment info]** gebruiken. [&#x200B; Leer hoe te om een fragment uit te geven &#x200B;](../content-management/manage-fragments.md#edit-fragments)
 
    ![](assets/expression-fragment-open.png)
 
-1. U kunt uw inhoud dan aanpassen en bevestigen zoals gewoonlijk gebruikend alle verpersoonlijking en auteursmogelijkheden van de [ verpersoonlijkingsredacteur ](personalization-build-expressions.md).
+1. U kunt uw inhoud dan aanpassen en bevestigen zoals gewoonlijk gebruikend alle verpersoonlijking en auteursmogelijkheden van de [&#x200B; verpersoonlijkingsredacteur &#x200B;](personalization-build-expressions.md).
 
 1. In sommige gevallen hoeft u alleen variabelen te berekenen, dus u kunt de inhoud van het expressiefragment verbergen. Hiervoor gebruikt u het kenmerk `render` en stelt u dit in op `false` . Bijvoorbeeld:
 
@@ -73,7 +73,7 @@ Ze worden gesorteerd op aanmaakdatum: recent toegevoegde expressiefragmenten wor
 
 >[!NOTE]
 >
->Als u een uitdrukkingsfragment creeert dat veelvoudige lijnonderbrekingen bevat en het in [ SMS ](../sms/create-sms.md#sms-content) of [ duw ](../push/design-push.md) inhoud gebruikt, worden de lijnonderbrekingen bewaard. Aldus zorg ervoor om uw [ SMS ](../sms/send-sms.md) of [ duw ](../push/send-push.md) bericht te testen alvorens het te verzenden.
+>Als u een uitdrukkingsfragment creeert dat veelvoudige lijnonderbrekingen bevat en het in [&#x200B; SMS &#x200B;](../sms/create-sms.md#sms-content) of [&#x200B; duw &#x200B;](../push/design-push.md) inhoud gebruikt, worden de lijnonderbrekingen bewaard. Aldus zorg ervoor om uw [&#x200B; SMS &#x200B;](../sms/send-sms.md) of [&#x200B; duw &#x200B;](../push/send-push.md) bericht te testen alvorens het te verzenden.
 
 ## Gebruik impliciete variabelen {#implicit-variables}
 
@@ -110,7 +110,7 @@ De volgende gebruiksgevallen zijn mogelijk:
 
 ## Bewerkbare velden aanpassen {#customize-fields}
 
-Als bepaalde delen van een expressiefragment bewerkbaar zijn gemaakt met variabelen, kunt u de standaardwaarden ervan overschrijven met een specifieke syntaxis. [ Leer hoe te om uw fragmenten klantgericht te maken ](../content-management/customizable-fragments.md)
+Als bepaalde delen van een expressiefragment bewerkbaar zijn gemaakt met variabelen, kunt u de standaardwaarden ervan overschrijven met een specifieke syntaxis. [&#x200B; Leer hoe te om uw fragmenten klantgericht te maken &#x200B;](../content-management/customizable-fragments.md)
 
 Voer de volgende stappen uit om de velden aan te passen:
 
@@ -122,7 +122,7 @@ Voer de volgende stappen uit om de velden aan te passen:
 
    ![](../content-management/assets/fragment-expression-use.png)
 
-Een voorbeeld dat toont hoe te om editable gebieden in een uitdrukkingsfragmenten toe te voegen en hun waarden met voeten te treden wanneer het creëren van een e-mail is beschikbaar in [ deze sectie ](../content-management/customizable-fragments.md#example).
+Een voorbeeld dat toont hoe te om editable gebieden in een uitdrukkingsfragmenten toe te voegen en hun waarden met voeten te treden wanneer het creëren van een e-mail is beschikbaar in [&#x200B; deze sectie &#x200B;](../content-management/customizable-fragments.md#example).
 
 ## Overerving onderbreken {#break-inheritance}
 
