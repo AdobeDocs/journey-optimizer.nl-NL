@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 7896dc3450f499e0889f6e32df5958ae9868d9e6
+source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -19,13 +19,13 @@ ht-degree: 0%
 >id="ajo_code_based_decision"
 >title="Wat is een beslissing?"
 >abstract="Het beslissingsbeleid bevat alle selectielogica waarmee de beslissingsengine de beste inhoud kan kiezen. Het besluitvormingsbeleid is specifiek voor de campagne. Hun doel is de beste aanbiedingen voor elk profiel te selecteren terwijl het campagneontwerp u toestaat om erop te wijzen hoe de geselecteerde besluitvormingspunten zouden moeten worden voorgesteld, met inbegrip van welke puntattributen om in het bericht worden omvat."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Informatie over beslissen"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Informatie over beslissen"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_decision_policy"
 >title="Een beslissingsbeleid definiëren"
 >abstract="Een besluitvormingsbeleid staat u toe om de beste punten van de motor van Beslissing te kiezen en hen aan het juiste publiek te leveren."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Informatie over beslissen"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Informatie over beslissen"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_decision_policy"
@@ -82,4 +82,5 @@ De belangrijkste stappen voor hefboomwerking beslissingsbeleid in berichten zijn
 
 Nu u begrijpt hoe beleidsbeslissingen werken en hoe u persoonlijke aanbiedingen kunt aanbieden, bent u klaar om uw eerste beslissingsbeleid te maken.
 
-➡️ [&#x200B; Leer hoe te om een besluitvormingsbeleid &#x200B;](../experience-decisioning/create-decision-policy.md) tot stand te brengen
+➡️ [ Leer hoe te om een besluitvormingsbeleid ](../experience-decisioning/create-decision-policy.md) tot stand te brengen
+
