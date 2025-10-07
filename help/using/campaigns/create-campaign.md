@@ -34,13 +34,13 @@ De campagnes van de actie (of Geplande campagnes) staan voor eenvoudige ad hoc p
 
 >[!NOTE]
 >
->De gesteunde kanalen zijn: [ E-mail ](../email/get-started-email.md), [ SMS/MMS/RCS ](../sms/get-started-sms.md), [ Push berichten ](../push/get-started-push.md), [ WhatsApp ](../whatsapp/get-started-whatsapp.md), [ LIJN ](../line/get-started-line.md), [ Directe post ](../direct-mail/get-started-direct-mail.md), [ in-app ](../in-app/get-started-in-app.md), [ Web ](../web/get-started-web.md), [} op code-gebaseerde ervaringen ](../code-based/get-started-code-based.md).
+>De gesteunde kanalen zijn: [&#x200B; E-mail &#x200B;](../email/get-started-email.md), [&#x200B; SMS/MMS/RCS &#x200B;](../sms/get-started-sms.md), [&#x200B; Push berichten &#x200B;](../push/get-started-push.md), [&#x200B; WhatsApp &#x200B;](../whatsapp/get-started-whatsapp.md), [&#x200B; LIJN &#x200B;](../line/get-started-line.md), [&#x200B; Directe post &#x200B;](../direct-mail/get-started-direct-mail.md), [&#x200B; in-app &#x200B;](../in-app/get-started-in-app.md), [&#x200B; Web &#x200B;](../web/get-started-web.md), [&rbrace; op code-gebaseerde ervaringen &#x200B;](../code-based/get-started-code-based.md).
 >
 >Welke kanalen beschikbaar zijn, is afhankelijk van uw licentiemodel en invoegtoepassingen.
 
 ## Belangrijkste stappen voor het maken van handelscampagnes {#steps}
 
-Alvorens met campagnes te beginnen, controleer de volgende eerste vereisten die [ in deze sectie ](get-started-with-campaigns.md#permissions) worden vermeld. Als aan deze voorwaarden is voldaan, kunt u uw campagne starten:
+Alvorens met campagnes te beginnen, controleer de volgende eerste vereisten die [&#x200B; in deze sectie &#x200B;](get-started-with-campaigns.md#permissions) worden vermeld. Als aan deze voorwaarden is voldaan, kunt u uw campagne starten:
 
 1. [De campagneeigenschappen voor Actie definiëren](campaign-properties.md)
 1. [Campagne configureren](campaign-action.md)
