@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 3cb16d48c8f478643e8c9891e4fd8c0c3b18f2c5
 workflow-type: tm+mt
 source-wordcount: '1383'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 Als u uw fragmenten wilt beheren, opent u de fragmentlijst via **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** links menu.
 
-Alle fragmenten die op de huidige zandbak - of [ van het **[!UICONTROL Fragments]** menu ](#create-fragments) werden gecreeerd, of gebruikend [ sparen als fragmentoptie ](#save-as-fragment) - worden getoond.
+Alle fragmenten die op de huidige zandbak - of [ van het **[!UICONTROL Fragments]** menu ](create-fragments.md#create-fragments) werden gecreeerd, of gebruikend [ sparen als fragmentoptie ](save-fragments.md) - worden getoond.
 
 In het linkerdeelvenster kunt u fragmenten ordenen in mappen. Standaard worden alle fragmenten weergegeven. Wanneer u een map selecteert, worden alleen de fragmenten en mappen in de geselecteerde map weergegeven. [Meer informatie](#folders)
 
@@ -97,8 +97,8 @@ U kunt uw fragmenten eenvoudig navigeren door mappen zodat u ze effectiever kunt
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="Nieuwe fragmentstatussen"
->abstract="Aangezien **Ontwerp** en **Levende** statussen met de versie van Journey Optimizer Juni zijn geïntroduceerd, hebben alle fragmenten die vóór deze versie worden gecreeerd de **Ontwerp** status, zelfs als zij in een reis of een campagne worden gebruikt. Als u om het even welke verandering in deze fragmenten aanbrengt, moet u hen publiceren om hen **Levend** te maken en de veranderingen in de bijbehorende campagnes en de reizen te verspreiden. U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren. <br/> het Publiceren vereist de <a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manage"> Publish 2&rbrace; gebruikerstoestemming van het Fragment &lbrace;.</a>"
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manager" text="Meer informatie over machtigingen voor inhoudsfragmenten"
+>abstract="Aangezien **Ontwerp** en **Levende** statussen met de versie van Journey Optimizer Juni zijn geïntroduceerd, hebben alle fragmenten die vóór deze versie worden gecreeerd de **Ontwerp** status, zelfs als zij in een reis of een campagne worden gebruikt. Als u om het even welke verandering in deze fragmenten aanbrengt, moet u hen publiceren om hen **Levend** te maken en de veranderingen in de bijbehorende campagnes en de reizen te verspreiden. U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren. <br/> het Publiceren vereist de <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manage"> Publish 2} gebruikerstoestemming van het Fragment {.</a>"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manager" text="Meer informatie over machtigingen voor inhoudsfragmenten"
 
 Fragmenten kunnen meerdere statussen hebben:
 
