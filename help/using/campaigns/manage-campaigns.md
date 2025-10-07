@@ -10,33 +10,14 @@ mini-toc-levels: 1
 level: Beginner
 keywords: campagnes, status, planning, toegang, optimaliseren beheren
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 1215c7c2de090db7bcdb7943cc96599d9809972d
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
-source-wordcount: '1789'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
 
 # Campagnes openen en beheren {#manage-campaigns}
-
-Alvorens met campagnes te beginnen, controleer de volgende eerste vereisten die [ in deze sectie ](get-started-with-campaigns.md#permissions) worden vermeld. Als aan deze voorwaarden is voldaan, kunt u uw campagne starten:
-
-* **campagnes van de Toegang**. U kunt tot campagnes of van de [ campagnemijst ](#access) of van de [ campagnecalender ](#calendar) toegang hebben.
-
-* **creeer de campagne**. De stappen van de verwezenlijking hangen van het [ type van campagne ](get-started-with-campaigns.md#get-started-with-campaigns) af. Leer hoe te om een [ actiecampagne ](../campaigns/create-campaign.md), een [ API-teweeggebrachte campagne ](../campaigns/api-triggered-campaigns.md), of een [ georkestreerde campagne ](../orchestrated/create-orchestrated-campaign.md) tot stand te brengen.
-
-* **bepaal de campagneeigenschappen**. Leer hoe te om eigenschappen voor een [ actiecampagne ](../campaigns/campaign-properties.md), voor een [ API-teweeggebrachte campagne ](../campaigns/api-triggered-campaign-properties.md), of een [ georkesteerde campagne ](../orchestrated/create-orchestrated-campaign.md) te plaatsen.
-
-* **bepaal de campagnekanalen en de inhoud**. Leer hoe te om de inhoud van een [ actiecampagne ](../campaigns/campaign-content.md), een [ API-teweeggebrachte campagne ](../campaigns/api-triggered-campaign-content.md), of een [ georkesteerde campagne ](../orchestrated/orchestrate-activities.md) te bepalen.
-
-* **Plan uw campagne** - u kunt geplande campagnes [ in de campagnecalender ](#calendar) controleren.
-
-Start vervolgens het testen, verbeter en verfijnen uw campagne voordat u deze uitvoert. Zodra uw campagne live is, kunt u deze controleren en rapporten openen.
-
-Zie alle campagnestatussen en alarm [ in deze sectie ](#statuses).
-
-
-## Campagnes openen {#access}
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"

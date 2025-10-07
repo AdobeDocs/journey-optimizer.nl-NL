@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 0%
@@ -21,18 +21,15 @@ ht-degree: 0%
 
 Gebruik het tabblad **[!UICONTROL Actions]** om een kanaalconfiguratie voor uw bericht te selecteren en aanvullende instellingen te configureren, zoals het bijhouden van inhoud, het experimenteren met inhoud of meertalige inhoud.
 
-
-
 1. **kies het kanaal**
 
    Navigeer naar de tab **[!UICONTROL Actions]** , klik op de knop **[!UICONTROL Add action]** en selecteer het communicatiekanaal.
 
    ![](assets/create-campaign-add-action.png)
 
-
    >[!NOTE]
    >
-   >De gesteunde kanalen zijn: [ E-mail ](../email/get-started-email.md), [ SMS/MMS/RCS ](../sms/get-started-sms.md), [ Push berichten ](../push/get-started-push.md), [ WhatsApp ](../whatsapp/get-started-whatsapp.md), [ LIJN ](../line/get-started-line.md), [ Directe post ](../direct-mail/get-started-direct-mail.md), [ in-app ](../in-app/get-started-in-app.md), [ Web ](../web/get-started-web.md), [&rbrace; op code-gebaseerde ervaringen ](../code-based/get-started-code-based.md).
+   >De gesteunde kanalen zijn: [ E-mail ](../email/get-started-email.md), [ SMS/MMS/RCS ](../sms/get-started-sms.md), [ Push berichten ](../push/get-started-push.md), [ WhatsApp ](../whatsapp/get-started-whatsapp.md), [ LIJN ](../line/get-started-line.md), [ Directe post ](../direct-mail/get-started-direct-mail.md), [ in-app ](../in-app/get-started-in-app.md), [ Web ](../web/get-started-web.md), [} op code-gebaseerde ervaringen ](../code-based/get-started-code-based.md).
    >
    >Welke kanalen beschikbaar zijn, is afhankelijk van uw licentiemodel en invoegtoepassingen.
 
@@ -72,7 +69,7 @@ In de sectie **[!UICONTROL Action tracking]** kunt u bijhouden hoe de ontvangers
 
 +++**laat Snelle leveringswijze** toe (Duw).
 
-De snelle leveringswijze is een [!DNL Journey Optimizer] toe:voegen-op die zeer snelle pushbericht toestaat die in grote volumes door campagnes verzenden. Snelle levering wordt gebruikt wanneer de vertraging in berichtlevering zaken-kritiek is, wanneer u een dringende duwalarm op mobiele telefoons wilt verzenden, bijvoorbeeld een breekbericht aan gebruikers die uw nieuwskanaal app hebben geïnstalleerd. Voor meer informatie over prestaties wanneer het gebruiken van Snelle leveringswijze, verwijs naar [ het productbeschrijving van Adobe Journey Optimizer ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+De snelle leveringswijze is een [!DNL Journey Optimizer] toe:voegen-op die zeer snelle pushbericht toestaat die in grote volumes door campagnes verzenden. Snelle levering wordt gebruikt wanneer de vertraging in berichtlevering zaken-kritiek is, wanneer u een dringende duwalarm op mobiele telefoons wilt verzenden, bijvoorbeeld een breekbericht aan gebruikers die uw nieuwskanaal app hebben geïnstalleerd. Voor meer informatie over prestaties wanneer het gebruiken van Snelle leveringswijze, verwijs naar [ het productbeschrijving van Adobe Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 +++
 

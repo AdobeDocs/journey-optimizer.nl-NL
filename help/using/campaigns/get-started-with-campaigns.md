@@ -7,11 +7,12 @@ feature: Campaigns
 topic: Content Management
 role: User
 level: Beginner
+mini-toc-levels: 1
 keywords: campagne, hoe, begin, optimaliseer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 4bd3e202935cfc971990faa7d1dd2f3d0d7cdc6d
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '950'
 ht-degree: 1%
 
 ---
@@ -83,82 +84,93 @@ ht-degree: 1%
 >title="Campagnes"
 >abstract="Transactiecommunicatie leveren aan afzonderlijke profielen of groepen profielen. Ondersteunde kanalen: e-mail, sms, pushberichten."
 
-Gebruik Journey Optimizer-campagnes om via verschillende kanalen eenmalige inhoud aan een specifiek publiek te leveren. Wanneer u reizen gebruikt, worden handelingen op volgorde uitgevoerd. Met campagnes, worden de acties uitgevoerd gelijktijdig, of onmiddellijk, of gebaseerd op een gespecificeerd programma.
+Gebruik [!DNL Journey Optimizer] -campagnes om eenmalige inhoud aan een specifiek publiek via meerdere kanalen te leveren. In tegenstelling tot reizen, die acties stap voor stap uitvoeren, voeren de campagnes acties gelijktijdig uit — of onmiddellijk of op een bepaald programma.
 
 ![](assets/gs-campaigns.png)
 
-In Journey Optimizer kunt u verschillende typen campagnes maken. Ondersteunde kanalen en gebruiksgevallen variëren afhankelijk van het type campagne. Deze typen worden hieronder vermeld.
+## Typen campagne
 
-* **campagnes van de Actie**
+[!DNL Journey Optimizer] ondersteunt drie soorten campagnes. Elk type past op verschillende gebruiksgevallen en ondersteunt verschillende kanalen.
 
-  De campagnes van de actie (of Geplande campagnes) staan voor eenvoudige ad hoc partijmededelingen voor marketing gebruiksgevallen zoals promotieaanbiedingen, betrokkenheidscampagnes, aankondigingen, wettelijke berichten, of beleidsupdates toe. Leer meer over actiecampagnes mogelijkheden, gebruiksgevallen en gesteunde kanalen [ op deze pagina ](create-campaign.md).
-
-* **API teweeggebrachte campagnes**
-
-  API getriggerde campagnes staan toe of voor marketing mededelingen om aan een publiek op het juiste ogenblik te bereiken, of voor transactie/operationele berichten aan een individu zoals een wachtwoordteruggestelde, waar de behoefte personalisatie kan impliceren door niet alleen profielattributen maar ook de contextgegevens in real time in de trekker te gebruiken die een nuttige lading van de WEERSTAPI is. Leer meer over API-teweeggebrachte campagnecapaciteiten, gebruiksgevallen en gesteunde kanalen [ op deze pagina ](api-triggered-campaigns.md).
-
-* **Geordende campagnes**
-
-  Campagne Orchestration in Adobe Journey Optimizer biedt geavanceerde, merkgestarte marketingcampagnes over verschillende kanalen, waarmee u op grote schaal betrokkenheid, inkomsten en klantenloyaliteit kunt stimuleren.
-
-  Hoewel de marketing over de kanalen essentieel is, maken de geordende campagnes het naadloos. Met een visuele, belemmering-en-dalingsinterface, kunt u complexe marketing werkschema&#39;s ontwerpen en automatiseren, van segmentatie aan berichtlevering, over veelvoudige kanalen. Alles gebeurt in één intuïtieve omgeving, gebouwd voor snelheid, controle en efficiëntie. Leer meer over Geordende campagnecapaciteiten, gebruiksgevallen en gesteunde kanalen [ op deze pagina ](../orchestrated/gs-orchestrated-campaigns.md).
-
-## Vereisten {#prerequisites}
-
-Controleer voordat u uw campagne maakt of u de voorwaarden hieronder hebt gecontroleerd.
-
-### Machtigingen
-
-Campagnes zijn alleen beschikbaar voor gebruikers met de juiste machtigingen die hieronder worden vermeld. [ leer meer over ingebouwde rollen van Journey Optimizer ](../administration/ootb-product-profiles.md)
+![](assets/campaign-modal.png)
 
 >[!BEGINTABS]
 
->[!TAB  campagnes van de Actie ]
+>[!TAB  Geordende campagnes ]
 
-Campagnebeheerder
-Campagnefiatteur
-Campagnebeheer
-Campagneviewer
+**Geordende campagnes** macht gesofisticeerde, merk-in werking gestelde marketing campagnes over kanalen, die u bevordering betrokkenheid, opbrengst, en klantenloyaliteit bij schaal bevorderen.
+
+Hoewel de marketing over de kanalen essentieel is, maken de geordende campagnes het naadloos. Met een visuele, belemmering-en-dalingsinterface, kunt u complexe marketing werkschema&#39;s ontwerpen en automatiseren, van segmentatie aan berichtlevering, over veelvoudige kanalen. Alles gebeurt in één intuïtieve omgeving, gebouwd voor snelheid, controle en efficiëntie.
+
+➡️ [ Leer hoe te met Geordende campagnes ](../orchestrated/gs-orchestrated-campaigns.md) te werken.
+
+>[!TAB  campagnes van de Actie (of Geplande campagnes) ]
+
+**campagnes van de Actie**, die ook als Geplande campagnes worden bekend, staan voor eenvoudige ad hoc partijmededelingen toe.
+
+* **Gepland - marketing** - voor marketing gebruiksgevallen zoals promotieaanbiedingen, betrokkenheidscampagnes, aankondigingen, wettelijke berichten, of beleidsupdates. Ontvangers moeten worden ingeschakeld.
+* **Gepland - Transactioneel** - in tegenstelling tot de campagnes van de Marketing, vereisen de Transactionele campagnes geen ontvangers om worden geopend. Gebruik deze categorie voor communicatie in verband met storingen, noodsituaties en annuleringen. Ondersteunde kanalen: e-mail, SMS, pushmelding.
+
+➡️ [ Leer hoe te met actiecampagnes ](create-campaign.md) te werken
 
 >[!TAB  API teweeggebrachte campagnes ]
 
-Campagnebeheerder
-Campagnefiatteur
-Campagnebeheer
-Campagneviewer
+**API-teweeggebrachte campagnes** staan u toe om de uitvoering van de campagne teweeg te brengen gebruikend een API vraag. Deze mededelingen kunnen worden verzonden waar de behoefte personalisatie door niet alleen een wachtwoord kan impliceren die profielattributen opnieuw instelt maar ook de contextgegevens in real time in de trekker die een nuttige lading van de WEERSTAPI is.
 
->[!TAB  Geordende campagnes ]
+* **API teweeggebracht - marketing** - verzend gepersonaliseerde marketing mededelingen aan gericht publiek.
+* **API teweeggebracht - Transactioneel** - verzend berichten na een actie die door een individu zoals het verzoek van het wachtwoordterugstellen wordt uitgevoerd, kartaankoop, enz.
 
-Beheerder geordende campagne
-Geordende campagnefiatteur
-Geordende campagnebeheerder
-Geordende campagneviewer
+➡️ [ Leer hoe te met API-teweeggebrachte campagnes ](api-triggered-campaigns.md) te werken
+
 
 >[!ENDTABS]
 
-Als u geen toegang hebt tot campagnefuncties, neemt u contact op met uw beheerder om de benodigde machtigingen aan te vragen.
+## Ondersteunde kanalen per type campagne {#channels}
 
-+++Leer hoe u een rol met betrekking tot een campagne toewijst
+In de onderstaande tabel ziet u de beschikbaarheid van elk kanaal voor verschillende campagneretypen, waarbij de locatie van de kanalen wordt aangegeven.
 
-1. Als u een rol wilt toewijzen aan een gebruiker in het [!DNL Permissions] -product, navigeert u naar het tabblad **[!UICONTROL Roles]** en selecteert u een van de hierboven beschreven geïntegreerde campagnes voor **[!UICONTROL Roles]** .
+| Kanaal | Handeling (marketing) | Handeling (transactief) | API-geactiveerd (marketing) | API-geactiveerd (transactioneel) | Geordend |
+|----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|
+| Email | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Sms | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Pushmelding | ✅ | ✅ | ✅ | ✅ | ✅ |
+| In-app | ✅ | — | — | — | — |
+| Direct mail | ✅ | — | — | — | — |
+| Web | ✅ | — | — | — | — |
+| Op code gebaseerde exp. | ✅ | — | — | — | — |
+| Inhoudskaarten | ✅ | — | — | — | — |
+| WhatsApp | ✅ | — | — | — | — |
+| Lijn | ✅ | — | — | — | — |
 
-1. Klik op het tabblad **[!UICONTROL Users]** op **[!UICONTROL Add user]**.
+## Vereisten {#prerequisites}
 
-1. Typ de naam of het e-mailadres van de gebruiker of selecteer de gebruiker in de lijst en klik op **[!UICONTROL Save]** .
+Controleer voordat u met campagnes gaat werken of u de onderstaande voorwaarden hebt gecontroleerd.
 
-   Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/users) toevoegen.
+* **Soorten publiek** Soorten publiek moeten beschikbaar zijn alvorens de campagne te creëren. [ krijgt begonnen met publiek ](../audience/about-audiences.md).
 
-Uw gebruiker moet dan een e-mail ontvangen die aan uw instantie opnieuw richt.
+* **configuraties van het Kanaal** - om een kanaal te kunnen selecteren, moet u de overeenkomstige die kanaalconfiguratie (d.w.z. vooraf ingesteld) hebben wordt gecreeerd en beschikbaar. [ leer hoe te de configuraties van het opstellingskanaal ](../configuration/channel-surfaces.md).
 
-+++
+* **Toestemmingen** - de campagnes zijn slechts beschikbaar aan gebruikers met aangewezen hieronder vermelde toestemmingen. Als u geen toegang hebt tot campagnefuncties, neemt u contact op met uw beheerder om de benodigde machtigingen aan te vragen. [ leer meer over ingebouwde rollen van Journey Optimizer ](../administration/ootb-product-profiles.md)
 
-### Doelgroep
+  | Type campagne | Machtigingen |
+  |----------------------------|----------------------------------------------------------------------------|
+  | **campagnes van de Actie** | De beheerder van de campagne <br> Campagne goedkeurde {<br> Manager van de Campagne <br> de kijker van de Campagne |
+  | **API teweeggebrachte campagnes** | De beheerder van de campagne <br> Campagne goedkeurde {<br> Manager van de Campagne <br> de kijker van de Campagne |
+  | **Geordende campagnes** | De geordende Beheerder van de Campagne <br> Geordende Begeleidende fiatteur van de Campagne {<br> Geordende Manager van de Campagne <br> Geordende Kijker van de Campagne |
 
-De doelgroepen moeten beschikbaar zijn voordat ze de campagne kunnen opzetten. [ krijgt begonnen met publiek ](../audience/about-audiences.md).
+  +++Leer hoe u een rol met betrekking tot een campagne toewijst
 
-### Kanaalconfiguratie
+   1. Als u een rol wilt toewijzen aan een gebruiker in het [!DNL Permissions] -product, navigeert u naar het tabblad **[!UICONTROL Roles]** en selecteert u een van de hierboven beschreven geïntegreerde campagnes voor **[!UICONTROL Roles]** .
 
-Als u een kanaal wilt kunnen selecteren, moet de corresponderende kanaalconfiguratie (d.w.z. vooraf ingesteld) zijn gemaakt en beschikbaar. [ leer hoe te de configuraties van het opstellingskanaal ](../configuration/channel-surfaces.md).
+   1. Klik op het tabblad **[!UICONTROL Users]** op **[!UICONTROL Add user]**.
+
+   1. Typ de naam of het e-mailadres van de gebruiker of selecteer de gebruiker in de lijst en klik op **[!UICONTROL Save]** .
+
+      Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users) toevoegen.
+
+  Uw gebruiker moet dan een e-mail ontvangen die aan uw instantie opnieuw richt.
+
+  +++
 
 ## Laten we dieper duiken
 

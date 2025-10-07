@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '189'
 ht-degree: 2%
 
 ---
@@ -34,11 +34,13 @@ De campagnes van de actie (of Geplande campagnes) staan voor eenvoudige ad hoc p
 
 >[!NOTE]
 >
->De gesteunde kanalen zijn: [ E-mail ](../email/get-started-email.md), [ SMS/MMS/RCS ](../sms/get-started-sms.md), [ Push berichten ](../push/get-started-push.md), [ WhatsApp ](../whatsapp/get-started-whatsapp.md), [ LIJN ](../line/get-started-line.md), [ Directe post ](../direct-mail/get-started-direct-mail.md), [ in-app ](../in-app/get-started-in-app.md), [ Web ](../web/get-started-web.md), [&rbrace; op code-gebaseerde ervaringen ](../code-based/get-started-code-based.md).
+>De gesteunde kanalen zijn: [ E-mail ](../email/get-started-email.md), [ SMS/MMS/RCS ](../sms/get-started-sms.md), [ Push berichten ](../push/get-started-push.md), [ WhatsApp ](../whatsapp/get-started-whatsapp.md), [ LIJN ](../line/get-started-line.md), [ Directe post ](../direct-mail/get-started-direct-mail.md), [ in-app ](../in-app/get-started-in-app.md), [ Web ](../web/get-started-web.md), [} op code-gebaseerde ervaringen ](../code-based/get-started-code-based.md).
 >
 >Welke kanalen beschikbaar zijn, is afhankelijk van uw licentiemodel en invoegtoepassingen.
 
 ## Belangrijkste stappen voor het maken van handelscampagnes {#steps}
+
+Alvorens met campagnes te beginnen, controleer de volgende eerste vereisten die [ in deze sectie ](get-started-with-campaigns.md#permissions) worden vermeld. Als aan deze voorwaarden is voldaan, kunt u uw campagne starten:
 
 1. [De campagneeigenschappen voor Actie definiëren](campaign-properties.md)
 1. [Campagne configureren](campaign-action.md)
@@ -46,10 +48,6 @@ De campagnes van de actie (of Geplande campagnes) staan voor eenvoudige ad hoc p
 1. [Het publiek van de campagne definiëren](campaign-audience.md)
 1. [De actiecampagne plannen](campaign-schedule.md)
 1. [De campagne van de Actie bekijken en activeren](review-activate-campaign.md)
-
->[!IMPORTANT]
->
->Alvorens uw campagne te creëren, zorg ervoor u de algemene [ campagneeerste vereisten ](../campaigns/get-started-with-campaigns.md#prerequisites) hebt herzien.
 
 ## Hoe kan ik-video&#39;s {#video}
 
