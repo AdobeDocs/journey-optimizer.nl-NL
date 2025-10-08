@@ -5,9 +5,9 @@ title: Gangbare campagnes en beperkingen
 description: Meer informatie over geordende campagnes, instructies en beperkingen
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: a9b790bc833b5819862bf2f3284968d81f595f28
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '508'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Hieronder vindt u instructies en beperkingen wanneer u geordende campagnes gebru
 
 * Het gemiddelde aantal attributen per schema **zou 50 kolommen** niet moeten overschrijden om manageability en prestaties te handhaven.
 
-* Model-gebaseerde schema&#39;s kunnen niet voor Adobe Experience Platform **Profielen** worden toegelaten. Slechts worden de Standaard schema&#39;s XDM gesteund voor Adobe Experience Platform **Profielen**. Modelgebaseerde schema&#39;s kunnen worden ingeschakeld voor geordende campagnes of actiecampagnes. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* Model-gebaseerde schema&#39;s kunnen niet voor Adobe Experience Platform **Profielen** worden toegelaten. Slechts worden de Standaard schema&#39;s XDM gesteund voor Adobe Experience Platform **Profielen**. Modelgebaseerde schema&#39;s kunnen worden ingeschakeld voor geordende campagnes of actiecampagnes. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### Data-opname
 
@@ -68,6 +68,8 @@ Hieronder vindt u instructies en beperkingen wanneer u geordende campagnes gebru
 * `table_name` die tijdens de verwezenlijking van datasets wordt toegewezen is permanent en door segmentatie en verpersoonlijkingseigenschappen wordt gebruikt.
 
 * **de groepen van het Gebied worden niet gesteund** in het huidige gegevens modelleringskader.
+
+* Ondersteuning voor samengestelde primaire sleutels met stromen voor het uploaden van bestanden is momenteel niet beschikbaar.
 
 ## Activiteitsbeperkingen
 
