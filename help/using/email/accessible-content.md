@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: e-mail, ontwerp, toegankelijkheid
-source-git-commit: 57890eede1d5a0de6002f31b9ce8807a903b84f7
+exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
+source-git-commit: dc7b24223bd32a75b87946733a6b098811e007d9
 workflow-type: tm+mt
 source-wordcount: '1601'
 ht-degree: 0%
@@ -30,8 +31,8 @@ In lijn hiermee worden de aanbevolen procedures voor het ontwerpen van toegankel
 >Deze pagina gaat over het toegankelijk maken van uw inhoud voor al uw ontvangers, zodat mensen met een handicap uw e-mails en landingspagina&#39;s die zijn ontworpen met [!DNL Journey Optimizer] kunnen lezen, begrijpen en ermee kunnen communiceren.
 >
 >Anderzijds, is de toegankelijkheid van de [!DNL Journey Optimizer] interface zelf gedetaillerd in [ deze sectie ](../start/accessibility.md).
-> 
->## Zorg ervoor dat de tekst leesbaar is {#text-readability}
+
+## Zorg ervoor dat de tekst leesbaar is {#text-readability}
 
 Gebruik de tab **[!UICONTROL Styles]** van de component **[!UICONTROL Text]** om ervoor te zorgen dat de tekst leesbaar is, bijvoorbeeld door een juist kleurcontrast en eenvoudige lettertypen te gebruiken. [Meer informatie](content-components.md#text)
 
