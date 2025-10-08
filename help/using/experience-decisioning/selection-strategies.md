@@ -24,8 +24,8 @@ ht-degree: 0%
 >id="ajo_exd_strategy_eligibility"
 >title="De in aanmerking komende profielen beperken"
 >abstract="U kunt de selectie van aanbiedingen voor deze selectiestrategie beperken. Standaard zijn alle profielen subsidiabel, maar u kunt publiek of regels gebruiken om de selectie van de aanbieding te beperken tot specifieke profielen."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Soorten publiek gebruiken"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Beslissingsregels gebruiken"
+>additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Soorten publiek gebruiken"
+>additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Beslissingsregels gebruiken"
 
 Een selectiestrategie is herbruikbaar, en bestaat uit een inzameling verbonden aan een geschiktheidsbeperking en een rangschikkende methode om de aanbiedingen te bepalen die moeten worden getoond wanneer geselecteerd in a [&#x200B; besluitvormingsbeleid &#x200B;](create-decision.md).
 
@@ -87,7 +87,7 @@ Volg onderstaande stappen om een selectiestrategie te maken.
 >id="ajo_exd_strategy_ranking"
 >title="Bepalen hoe aanbiedingen moeten worden beoordeeld"
 >abstract="Als meerdere aanbiedingen in aanmerking komen voor een bepaalde selectiestrategie, kiest u de methode waarmee de beste aanbieding voor elk profiel wordt geselecteerd bij het maken van een selectiestrategie: prioriteit of rangschikkingsformule."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision.html" text="Beslissingsbeleid maken"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision.html?lang=nl-NL" text="Beslissingsbeleid maken"
 
 Als meerdere aanbiedingen in aanmerking komen voor een bepaalde selectiestrategie, kunt u bij het maken van een selectiestrategie de methode kiezen waarmee u de beste aanbieding voor elk profiel kunt selecteren. Je kunt voorstellen plaatsen op:
 
