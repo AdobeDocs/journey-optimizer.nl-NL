@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: inhoud, experiment, meerdere, publiek, behandeling
 exl-id: 74868625-f4ea-44f9-ae2a-8e5fdd22a081
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: 664f6bafd4cfb4d86b7a449c279484ca49933247
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -50,9 +50,11 @@ Elke waarde bevat een procentuele wijziging ten opzichte van de vorige periode, 
 
 ### Experimenteer, effect
 
+![](assets/experiment-monitor-metrics-3.png)
+
 In deze sectie worden alle actieve experimenten binnen de geselecteerde tijdsperiode (Laatste 90 dagen, Laatste 30 dagen of Laatste 7 dagen) weergegeven en wordt hun bijdrage aan de meting gemarkeerd.
 
-De volgende keuzelijsten zijn beschikbaar:
+De volgende cijfers zijn beschikbaar:
 
 * **[!UICONTROL Lift]**: maat voor de procentuele verbetering van de conversiesnelheid van een bepaalde behandeling ten opzichte van de basislijn.
 
