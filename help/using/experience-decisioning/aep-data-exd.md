@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: e411778cc873a24e4846e7acbe439222dd6e4c82
+source-git-commit: 813e7a61a69e73afe3f2f9fc808c551d85bd22a0
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1163'
 ht-degree: 0%
 
 ---
@@ -44,15 +44,17 @@ ht-degree: 0%
 >title="Gegevensset toevoegen"
 >abstract="Gebruik [!DNL Adobe Experience Platform] -gegevenssetkenmerken om afdekkende criteria te definiëren op basis van dynamische, externe kenmerken. Klik op **[!UICONTROL Add dataset]** om de Adobe Experience Platform-gegevensset te selecteren met de kenmerken die u nodig hebt. Als de dataset niet in de lijst toont, zorg ervoor u het voor raadpleging hebt toegelaten en u hebt een afbeelding van de datasetraadpleging gecreeerd."
 
+Met [!DNL Journey Optimizer] kunt u gegevens van [!DNL Adobe Experience Platform] gebruiken voor besluitvorming. Dit staat u toe om de definitie van uw beslissingsattributen tot extra gegevens in datasets voor bulkupdates uit te breiden die periodiek veranderen zonder het moeten manueel de attributen één voor één bijwerken. Bijvoorbeeld beschikbaarheid, wachttijden, enz.
+
 >[!AVAILABILITY]
 >
 >Deze functie is momenteel beschikbaar voor alle klanten als een beperkte beschikbaarheidsrelease.
 
-Met [!DNL Journey Optimizer] kunt u gegevens van [!DNL Adobe Experience Platform] gebruiken voor besluitvorming. Dit staat u toe om de definitie van uw beslissingsattributen tot extra gegevens in datasets voor bulkupdates uit te breiden die periodiek veranderen zonder het moeten manueel de attributen één voor één bijwerken. Bijvoorbeeld beschikbaarheid, wachttijden, enz.
+## Afbeeldingen en beperkingen {#guardrails}
 
->[!IMPORTANT]
->
->[!DNL Journey Optimizer] steunt tot 1000 raadplegingen voor één enkel besluitvormingsbeleid.
+* **Gesteunde kanalen** - de raadpleging van de Dataset met besluit werkt momenteel voor de Acties van de Douane E-mail en van de Reis. <!--Support for code-based experience channels is coming soon.-->
+* **gebruik van Attributen** - de functionaliteit van de datasetraadpleging voor besluit breidt de definities van het besluitvormingspunt met extra attributen uit — het breidt geen attributen tot profielen uit
+* Limieten voor opzoeken: [!DNL Journey Optimizer] ondersteunt maximaal 1.000 opzoekopdrachten per beslissingsbeleid.
 
 ## Vereisten
 
