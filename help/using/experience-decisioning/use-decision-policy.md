@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: 2960ed9c9f7a65cbd7122424c2438a461ee8beab
+source-git-commit: f8b91ef5504396ab696acc05ac273423dd5f208e
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '929'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Zodra een besluitvormingsbeleid is gecreeerd, kunnen het beleid en de attributen
    >
    >Als de knoop van de codetoevoeging niet toont, kan een besluitbeleid reeds voor de oudercomponent gevormd zijn.
 
-1. De code voor het beslissingsbeleid wordt toegevoegd. Deze opeenvolging zal het aantal tijden worden herhaald u het besluitvormingsbeleid wilt zijn teruggekeerd. Bijvoorbeeld, als u verkoos om terug 2 punten terug te keren wanneer [&#x200B; creërend het besluit &#x200B;](#add-decision), zal de zelfde opeenvolging tweemaal worden herhaald.
+1. De code voor het beslissingsbeleid wordt toegevoegd. Deze opeenvolging zal het aantal tijden worden herhaald u het besluitvormingsbeleid wilt zijn teruggekeerd. Bijvoorbeeld, als u verkoos om terug 2 punten terug te keren wanneer [ creërend het besluit ](#add-decision), zal de zelfde opeenvolging tweemaal worden herhaald.
 
 >[!TAB  E-mail ]
 
@@ -53,18 +53,18 @@ Zodra een besluitvormingsbeleid is gecreeerd, kunnen het beleid en de attributen
 
 >[!ENDTABS]
 
-Zodra de code voor het besluitvormingsbeleid wordt toegevoegd, zal deze opeenvolging worden herhaald het aantal tijden u het besluitbeleid wilt zijn teruggekeerd. Bijvoorbeeld, als u verkoos om terug 2 punten terug te keren wanneer [&#x200B; creërend het besluit &#x200B;](#add-decision), zal de zelfde opeenvolging tweemaal worden herhaald.
+Zodra de code voor het besluitvormingsbeleid wordt toegevoegd, zal deze opeenvolging worden herhaald het aantal tijden u het besluitbeleid wilt zijn teruggekeerd. Bijvoorbeeld, als u verkoos om terug 2 punten terug te keren wanneer [ creërend het besluit ](#add-decision), zal de zelfde opeenvolging tweemaal worden herhaald.
 
 ## Kenmerken voor hefboomfinanciering-besluitvormingsposten {#attributes}
 
-Nu kunt u alle beslissingskenmerken toevoegen die u in die code wilt. De beschikbare kenmerken worden opgeslagen in het schema van de catalogus van **[!UICONTROL Offers]** . De attributen van de douane worden opgeslagen in **`_<imsOrg`>** omslag en standaardattributen in de **`_experience`** omslag. [&#x200B; Leer meer over het schema van de catalogus van Aanbiedingen &#x200B;](catalogs.md)
+Nu kunt u alle beslissingskenmerken toevoegen die u in die code wilt. De beschikbare kenmerken worden opgeslagen in het schema van de catalogus van **[!UICONTROL Offers]** . De attributen van de douane worden opgeslagen in **`_<imsOrg`>** omslag en standaardattributen in de **`_experience`** omslag. [ Leer meer over het schema van de catalogus van Aanbiedingen ](catalogs.md)
 
 ![](assets/decision-code-based-decision-attributes.png)
 
 >[!NOTE]
 >
 >Voor het volgen van het beleid van Punt, moet het `trackingToken` attribuut als volgt voor de inhoud van het besluitvormingsbeleid worden toegevoegd:
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 Als u een kenmerk wilt toevoegen, klikt u op het plusteken (+) naast het kenmerk. U kunt zoveel kenmerken aan de code toevoegen als u wilt.
 
@@ -78,15 +78,15 @@ U kunt ook alle andere kenmerken toevoegen die beschikbaar zijn in de verpersoon
 
 ![](assets/decision-code-based-decision-profile-attribute.png)
 
-## Hefboomfragmenten {#fragments}
+## Hefboomfragmenten (op code-gebaseerde ervaring) {#fragments}
 
-Als uw besluitvormingsbeleid besluitpunten met inbegrip van fragmenten bevat, kunt u deze fragmenten in de code van het besluitvormingsbeleid hefboomwerking. [&#x200B; Leer meer op fragmenten &#x200B;](../content-management/fragments.md)
+Als uw besluitvormingsbeleid besluitpunten met inbegrip van fragmenten bevat, kunt u deze fragmenten in de code van het besluitvormingsbeleid hefboomwerking. [ Leer meer op fragmenten ](../content-management/fragments.md)
 
 >[!AVAILABILITY]
 >
->Deze mogelijkheid is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>Deze mogelijkheid is momenteel alleen beschikbaar voor het op code gebaseerde ervaringskanaal en voor een aantal organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-Stel bijvoorbeeld dat u verschillende inhoud wilt weergeven voor verschillende modellen van mobiele apparaten. Zorg ervoor u fragmenten die aan die apparaten beantwoorden aan het besluitvormingspunt toevoegde dat u in het besluitvormingsbeleid gebruikt. [&#x200B; leer hoe &#x200B;](items.md#attributes).
+Stel bijvoorbeeld dat u verschillende inhoud wilt weergeven voor verschillende modellen van mobiele apparaten. Zorg ervoor u fragmenten die aan die apparaten beantwoorden aan het besluitvormingspunt toevoegde dat u in het besluitvormingsbeleid gebruikt. [ leer hoe ](items.md#attributes).
 
 ![](assets/item-fragments.png){width=70%}
 
@@ -94,7 +94,7 @@ Nadat u dit hebt gedaan, kunt u een van de volgende methoden gebruiken:
 
 >[!BEGINTABS]
 
->[!TAB neemt direct de code  op]
+>[!TAB  neemt direct de code ] op
 
 U plakt gewoon het codeblok hieronder in de code voor het beslissingsbeleid. Vervang `variable` door de fragment-id en `placement` door de fragmentverwijzingssleutel:
 
@@ -105,7 +105,7 @@ U plakt gewoon het codeblok hieronder in de code voor het beslissingsbeleid. Ver
 
 >[!TAB  volg de gedetailleerde stappen ]
 
-1. Navigeer aan **[!UICONTROL Helper functions]** en voeg **&#x200B;**&#x200B;functie `{% let variable = expression %} {{variable}}` aan de coderuit toe, waar u de variabele voor uw fragment kunt verklaren.
+1. Navigeer aan **[!UICONTROL Helper functions]** en voeg **** functie `{% let variable = expression %} {{variable}}` aan de coderuit toe, waar u de variabele voor uw fragment kunt verklaren.
 
    ![](assets/decision-let-function.png)
 
@@ -174,7 +174,7 @@ Voor code-gebaseerde ervaringen, zodra uw ontwikkelaar een API of SDK vraag om i
 
 >[!NOTE]
 >
->Momenteel kunt u geen inhoud van het gebruikersinterface in a [&#x200B; code-gebaseerde ervaring &#x200B;](../code-based/create-code-based.md) campagne of reis simuleren gebruikend besluiten. Een alternerende actie is beschikbaar in [&#x200B; deze sectie &#x200B;](../code-based/code-based-decisioning-implementations.md).
+>Momenteel kunt u geen inhoud van het gebruikersinterface in a [ code-gebaseerde ervaring ](../code-based/create-code-based.md) campagne of reis simuleren gebruikend besluiten. Een alternerende actie is beschikbaar in [ deze sectie ](../code-based/code-based-decisioning-implementations.md).
 
-Om te zien hoe uw besluiten presteren, kunt u douane [&#x200B; Customer Journey Analytics creëren die dashboards &#x200B;](cja-reporting.md) rapporteert.
+Om te zien hoe uw besluiten presteren, kunt u douane [ Customer Journey Analytics creëren die dashboards ](cja-reporting.md) rapporteert.
 
