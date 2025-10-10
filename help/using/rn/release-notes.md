@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b0198df405217c7870a471d271987da08d0e2308
+source-git-commit: 673a7f58f49afcc12ef9823db6ec68dbee4e77db
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1620'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,11 @@ ht-degree: 0%
 >title="Nieuwe functies"
 >abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen. [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## Updates van oktober 1925 {#25-10-rn}
+
+### Nieuwe functies {#25-10-features}
 
 <table>
 <thead>
@@ -65,6 +67,20 @@ ht-degree: 0%
 </tbody>
 </table>
 
+### Verbeteringen {#25-10-improvements}
+
+**de kenmerkensteun van de Douane voor Brievenbus (unsubscribe)**
+
+Als u met Journey Optimizer toestemming buiten Adobe beheert, kunt u externe aangepaste eindpunten instellen door uw eigen koppeling voor het uit-schrijven van abonnementen met één klik te definiëren en een aangepast e-mailadres voor het afmelden van abonnementen in de e-mailconfiguratie. Wanneer uw ontvangers op de koppeling voor afmelden klikken, voegt Journey Optimizer enkele standaardprofielspecifieke parameters toe aan de gebeurtenis voor het bijwerken van de toestemming.
+
+Als u uw aangepaste eindpunten verder wilt aanpassen, kunt u nu aangepaste kenmerken definiëren die ook aan de gebeurtenis permission worden toegevoegd.
+
+>[!AVAILABILITY]
+>
+>Deze mogelijkheid is al beschikbaar voor de aangepaste versie **[!UICONTROL One-click Unsubscribe URL]** sinds augustus 1995 en wordt nu vrijgegeven voor de optie **[!UICONTROL Mailto (unsubscribe)]** in Beperkte beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+
+Beschikbaarheidsdatum: 6 oktober 2025
+
 ## Opmerkingen bij de release van september 1925 {#25-9-rn}
 
 **de datum van de Versie**: 23-24 september, 2025
@@ -104,7 +120,7 @@ ht-degree: 0%
 <tr>
 <td>
 <p>Aangedreven door <a href="https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank"> Adobe Experience Platform Agent Orchestrator </a>, is Journey Agent beschikbaar in Journey Optimizer. Het laat u toe om reizen door een natuurlijke taalinterface te analyseren. De agent zal publiek of programmaconflicten en profieldrop-offs in een reis ontdekken om u te helpen stappen nemen om hen op te lossen. Binnenkort kunt u reizen maken met ongeduldige ondersteuning.</p>
-<p>Voor meer informatie, verwijs naar de <a href="https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank"> gedetailleerde documentatie </a></p>
+<p>Voor meer informatie, verwijs naar de <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank"> gedetailleerde documentatie </a></p>
 <p>Beschikbaarheidsdatum: 24 september 2025</p>
 </td>
 </tr>
@@ -205,48 +221,48 @@ ht-degree: 0%
   Beschikbaarheidsdatum: 29 september 2025
 
 * **mTLS Steun voor het Kanaal van SMS**
-Wanneer u een aangepaste SMS-provider instelt, hebt u nu de mogelijkheid om wederzijdse TLS-verificatie (mTLS) in te schakelen. Hiervoor moeten zowel de client als de server elkaars identiteit bevestigen voordat een veilige verbinding tot stand wordt gebracht. [&#x200B; las meer &#x200B;](../sms/sms-configuration-custom.md) - de datum van de Beschikbaarheid: 23 september, 2025
+Wanneer u een aangepaste SMS-provider instelt, hebt u nu de mogelijkheid om wederzijdse TLS-verificatie (mTLS) in te schakelen. Hiervoor moeten zowel de client als de server elkaars identiteit bevestigen voordat een veilige verbinding tot stand wordt gebracht. [ las meer ](../sms/sms-configuration-custom.md) - de datum van de Beschikbaarheid: 23 september, 2025
 
 * **Op model-gebaseerde Schema&#39;s**\
-  Modelgebaseerde schema&#39;s kunnen nu worden gebruikt om uw relationele modelleringsbehoeften in geordende campagnes te ondersteunen. [&#x200B; las meer &#x200B;](../orchestrated/gs-schemas.md) - de datum van de Beschikbaarheid: Sept 23.2025
+  Modelgebaseerde schema&#39;s kunnen nu worden gebruikt om uw relationele modelleringsbehoeften in geordende campagnes te ondersteunen. [ las meer ](../orchestrated/gs-schemas.md) - de datum van de Beschikbaarheid: Sept 23.2025
 
 * **de opzoeksteun van de Dataset in reizen**\
-  Een nieuwe activiteit in reizen, **de raadpleging van de Dataset**, staat u toe om gegevens van de het recorddatasets van Adobe Experience Platform dynamisch terug te winnen tijdens runtime. Door gebruik te maken van deze mogelijkheid hebt u toegang tot gegevens die mogelijk niet in het profiel of de lading van de gebeurtenis zijn opgeslagen, zodat uw klanteninteractie zowel relevant als tijdig is. [&#x200B; las meer &#x200B;](../building-journeys/dataset-lookup.md) - de datum van de Beschikbaarheid: Sept 23.2025
+  Een nieuwe activiteit in reizen, **de raadpleging van de Dataset**, staat u toe om gegevens van de het recorddatasets van Adobe Experience Platform dynamisch terug te winnen tijdens runtime. Door gebruik te maken van deze mogelijkheid hebt u toegang tot gegevens die mogelijk niet in het profiel of de lading van de gebeurtenis zijn opgeslagen, zodat uw klanteninteractie zowel relevant als tijdig is. [ las meer ](../building-journeys/dataset-lookup.md) - de datum van de Beschikbaarheid: Sept 23.2025
 
   Deze activiteit is slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 * **Redirect Steun in de Acties van de Douane van de Reis**\
   Omleidingen (302) worden nu ondersteund in Aangepaste handelingen voor reizen. - Beschikbaarheidsdatum: september 2025
 
-* **de configuratiecontrolealarm van het Kanaal** - u kunt nu intekenen om systeemalarm, of door e-mail of in het het kennisgevingscentrum van Journey Optimizer te ontvangen, voor het geval dat een fout van de e-mailkanaalconfiguratie gebruikend het type van de douanesubdomeindelegatie gebeurt. [&#x200B; las meer &#x200B;](../reports/alerts.md#alert-channel-config-failure) - de datum van de Beschikbaarheid: 23 september, 2025
+* **de configuratiecontrolealarm van het Kanaal** - u kunt nu intekenen om systeemalarm, of door e-mail of in het het kennisgevingscentrum van Journey Optimizer te ontvangen, voor het geval dat een fout van de e-mailkanaalconfiguratie gebruikend het type van de douanesubdomeindelegatie gebeurt. [ las meer ](../reports/alerts.md#alert-channel-config-failure) - de datum van de Beschikbaarheid: 23 september, 2025
 
 * **één-klik unsubscribe verzoeken** - wij hebben verbeteringen geïntroduceerd die de behandeling van one-click verder versterken unsubscribe verzoeken die onder Beheerde Adobe worden gevormd, die betrouwbare en verenigbare verwerking verzekeren. - Beschikbaarheidsdatum: september 2025
 
 * **Geneste JSON lichaamsparams nu gesteund in douaneauthentificatie**\
-  Wanneer u aangepaste verificatie voor een aangepaste handeling configureert, worden geneste JSON-objecten (bijvoorbeeld subobjecten binnen `bodyParams` ) nu ondersteund. [&#x200B; las meer &#x200B;](../datasource/external-data-sources.md#custom-authentication-mode) - de datum van de Beschikbaarheid: Sept 18, 2025
+  Wanneer u aangepaste verificatie voor een aangepaste handeling configureert, worden geneste JSON-objecten (bijvoorbeeld subobjecten binnen `bodyParams` ) nu ondersteund. [ las meer ](../datasource/external-data-sources.md#custom-authentication-mode) - de datum van de Beschikbaarheid: Sept 18, 2025
 
-* **de frequentie van het terugstellen van de Uur het afschilderen** - u kunt het afschilderen op een uurbasis voor de reeksen van de kanaalregel nu toepassen. Voorheen beschikbaar in Beperkte Beschikbaarheid, is deze eigenschap nu beschikbaar aan alle milieu&#39;s en staat u toe om 1 uur (eerder 3 uren) te kiezen. [&#x200B; las meer &#x200B;](../conflict-prioritization/channel-capping.md) - de datum van de Beschikbaarheid: Sept 17.2025
+* **de frequentie van het terugstellen van de Uur het afschilderen** - u kunt het afschilderen op een uurbasis voor de reeksen van de kanaalregel nu toepassen. Voorheen beschikbaar in Beperkte Beschikbaarheid, is deze eigenschap nu beschikbaar aan alle milieu&#39;s en staat u toe om 1 uur (eerder 3 uren) te kiezen. [ las meer ](../conflict-prioritization/channel-capping.md) - de datum van de Beschikbaarheid: Sept 17.2025
 
 * **Simulerend inhoudsvariaties voor alle binnenkomende kanalen**\
-  Eerder alleen beschikbaar voor de communicatiekanalen E-mail, SMS en Push, geldt het simuleren van variaties in inhoud nu ook voor alle inkomende kanalen. [&#x200B; las meer &#x200B;](../test-approve/simulate-sample-input.md) - de datum van de Beschikbaarheid: Sept 17.2025
+  Eerder alleen beschikbaar voor de communicatiekanalen E-mail, SMS en Push, geldt het simuleren van variaties in inhoud nu ook voor alle inkomende kanalen. [ las meer ](../test-approve/simulate-sample-input.md) - de datum van de Beschikbaarheid: Sept 17.2025
 
-* **Uitdrukking voor Beslissende het begrenzen van regels** - u kunt uw eigen uitdrukkingen nu bouwen om de drempel van een afschilderingsregel voor een besluitvormingspunt te bepalen. [&#x200B; las meer &#x200B;](../experience-decisioning/items.md#capping) - de datum van de Beschikbaarheid: Sept 16, 2025
+* **Uitdrukking voor Beslissende het begrenzen van regels** - u kunt uw eigen uitdrukkingen nu bouwen om de drempel van een afschilderingsregel voor een besluitvormingspunt te bepalen. [ las meer ](../experience-decisioning/items.md#capping) - de datum van de Beschikbaarheid: Sept 16, 2025
 
-* **Dynamische domeinsteun** - Journey Optimizer steunt nu volledige/basisURL verpersoonlijking voor vooraf bepaalde die domeinen door Adobe worden goedgekeurd. [&#x200B; las meer &#x200B;](../personalization/personalization-build-expressions.md#where) - de datum van de Beschikbaarheid: Sept 12, 2025
+* **Dynamische domeinsteun** - Journey Optimizer steunt nu volledige/basisURL verpersoonlijking voor vooraf bepaalde die domeinen door Adobe worden goedgekeurd. [ las meer ](../personalization/personalization-build-expressions.md#where) - de datum van de Beschikbaarheid: Sept 12, 2025
 
   Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid voor een reeks klanten.
 
 * **Webhooks** - Deze versie introduceert de volgende verhogingen voor Webhooks wanneer het vormen van een leverancier van douaneSMS:
 
-   * U kunt nu het doel van uw website definiëren, Inkomend of Feedback, afhankelijk van het type gegevens dat u wilt vastleggen. [&#x200B; las meer &#x200B;](../sms/sms-configuration-custom.md#webhook) - de datum van de Beschikbaarheid: 23 september, 2025
+   * U kunt nu het doel van uw website definiëren, Inkomend of Feedback, afhankelijk van het type gegevens dat u wilt vastleggen. [ las meer ](../sms/sms-configuration-custom.md#webhook) - de datum van de Beschikbaarheid: 23 september, 2025
 
-   * De interface voor het vormen van sleutelwoorden is verbeterd voor gemakkelijkere opstelling. [&#x200B; las meer &#x200B;](../sms/sms-configuration-custom.md#webhook) - de datum van de Beschikbaarheid: 23 september, 2025
+   * De interface voor het vormen van sleutelwoorden is verbeterd voor gemakkelijkere opstelling. [ las meer ](../sms/sms-configuration-custom.md#webhook) - de datum van de Beschikbaarheid: 23 september, 2025
 
 * **SMS**
 
-   * Wanneer vestiging een leverancier van douaneSMS, kunt u a **Standaard** gebruikt sleutelwoord nu bepalen wanneer een inkomend SMS een niet erkend sleutelwoord bevat. U kunt **sleutelwoorden van de Douane van 0&rbrace; &lbrace;voor specifieke acties ook tot stand brengen.** [&#x200B; las meer &#x200B;](../sms/sms-configuration-custom.md) - de datum van de Beschikbaarheid: 23 september, 2025
+   * Wanneer vestiging een leverancier van douaneSMS, kunt u a **Standaard** gebruikt sleutelwoord nu bepalen wanneer een inkomend SMS een niet erkend sleutelwoord bevat. U kunt **sleutelwoorden van de Douane van 0} {voor specifieke acties ook tot stand brengen.** [ las meer ](../sms/sms-configuration-custom.md) - de datum van de Beschikbaarheid: 23 september, 2025
 
-   * U kunt tot ongedefinieerde binnenkomende sleutelwoordenreacties nu toegang hebben die via een SMS-bericht worden verzonden, met inbegrip van typos, woorden of zinnen die niet expliciet in de configuratie zijn gedefinieerd. Zij worden opgeslagen in de **dataset van de Gebeurtenis van de Ervaring van 0&rbrace; AJO E-mail Tracking, onder** InboundMessage **voor 13 maanden.** Alleen beschikbaar bij Sinch, Infobip en de aangepaste SMS-provider. - Beschikbaarheidsdatum: 23 september 2025
+   * U kunt tot ongedefinieerde binnenkomende sleutelwoordenreacties nu toegang hebben die via een SMS-bericht worden verzonden, met inbegrip van typos, woorden of zinnen die niet expliciet in de configuratie zijn gedefinieerd. Zij worden opgeslagen in de **dataset van de Gebeurtenis van de Ervaring van 0} AJO E-mail Tracking, onder** InboundMessage **voor 13 maanden.** Alleen beschikbaar bij Sinch, Infobip en de aangepaste SMS-provider. - Beschikbaarheidsdatum: 23 september 2025
 
 <!--
 * **Approval policy permissions**
@@ -343,14 +359,6 @@ In the next few days, the following capabilities and enhancements are scheduled 
   * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.
 
   You can modify threshold values and subscribe to individual journey-level alerts vs globally.
-
-  Availability date: Sept XX, 2025
-
-
-* **Custom attributes support with One-click unsubscribe URL**  
-  With Journey Optimizer, if you are managing consent outside of Adobe, you can set an external custom endpoint by defining your own one-click unsubscribe link in the email configuration. When your recipients click the unsubscribe link, Journey Optimizer appends some default profile-specific parameters to the consent update event. 
-
-  To further personalize the unsubscribe email address, you can now define custom attributes that will be appended to the consent event. This capability has already been available for the custom one-click unsubscribe link since the August 25 release.
 
   Availability date: Sept XX, 2025
 
