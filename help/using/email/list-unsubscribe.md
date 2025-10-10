@@ -43,7 +43,7 @@ Afhankelijk van de e-mailclient en de instellingen voor het opheffen van abonnem
 >
 >Leer hoe te om de unsubscription montages in [&#x200B; te beheren deze sectie &#x200B;](#enable-list-unsubscribe) hieronder.
 
-In beide gevallen, wanneer een ontvanger de opt-out verbinding klikt, wordt hun afmeldingsverzoek dienovereenkomstig verwerkt. Het overeenkomstige profiel wordt onmiddellijk verkozen uit en deze keus wordt bijgewerkt in [&#x200B; Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}.
+In beide gevallen, wanneer een ontvanger de opt-out verbinding klikt, wordt hun afmeldingsverzoek dienovereenkomstig verwerkt. Het overeenkomstige profiel wordt onmiddellijk verkozen uit en deze keus wordt bijgewerkt in [&#x200B; Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=nl-NL#getting-started){target="_blank"}.
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ In beide gevallen, wanneer een ontvanger de opt-out verbinding klikt, wordt hun 
 >id="ajo_admin_preset_unsubscribe"
 >title="Voeg een afmeldings-URL toe aan uw e-mails"
 >abstract="Schakel deze optie in om automatisch een afmelde URL aan de koptekst van de e-mail toe te voegen. U kunt een URL voor afmelden ook instellen in een bericht door een koppeling voor het uitschakelen van het abonnement in te voegen in de e-mailinhoud met één klik."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Een-klik-optie instellen om te weigeren in de e-mailinhoud"
+>additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Een-klik-optie instellen om te weigeren in de e-mailinhoud"
 
 Als de optie **[!UICONTROL Enable List-Unsubscribe]** is ingeschakeld en de e-mailclient van de ontvangers dit ondersteunt, bevat de e-mailheader standaard zowel een mailto als een URL waarmee ontvangers zich van uw mailinglijst kunnen afmelden.
 
@@ -93,7 +93,7 @@ De functies **[!UICONTROL Mailto (unsubscribe)]** en **[!UICONTROL One-click uns
   >
   >Leer meer over het beheren van unsubscribe mogelijkheden binnen uw berichten in [&#x200B; deze sectie &#x200B;](../email/email-opt-out.md#unsubscribe-header).
 
-In [!DNL Journey Optimizer], wordt de toestemming behandeld door het schema van de Experience Platform [&#x200B; Toestemming &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"}. Standaard is de waarde voor het veld voor toestemming leeg en wordt deze behandeld als toestemming voor het ontvangen van uw communicatie. U kunt deze standaardwaarde wijzigen terwijl het aan een van de mogelijke hier vermelde waarden [&#x200B; &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target="_blank"}, of gebruik [&#x200B; toestemmingsbeleid &#x200B;](../action/consent.md) om de standaardlogica met voeten te treden.
+In [!DNL Journey Optimizer], wordt de toestemming behandeld door het schema van de Experience Platform [&#x200B; Toestemming &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=nl-NL){target="_blank"}. Standaard is de waarde voor het veld voor toestemming leeg en wordt deze behandeld als toestemming voor het ontvangen van uw communicatie. U kunt deze standaardwaarde wijzigen terwijl het aan een van de mogelijke hier vermelde waarden [&#x200B; &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=nl-NL#choice-values){target="_blank"}, of gebruik [&#x200B; toestemmingsbeleid &#x200B;](../action/consent.md) om de standaardlogica met voeten te treden.
 
 Momenteel voegt [!DNL Journey Optimizer] geen specifieke tag toe aan afmeldingsgebeurtenissen die worden geactiveerd door de functie voor afmelden van lijst. Als u List moet onderscheiden wanneer u klikt op een abonnement op een andere actie voor annuleren, moet u aangepaste tags extern implementeren of een externe bestemmingspagina gebruiken voor tracering.
 
