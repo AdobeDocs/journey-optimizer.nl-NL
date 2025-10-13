@@ -6,9 +6,9 @@ feature: Release Notes
 description: Adobe Journey Optimizer Release Cycle
 hide: true
 hidefromtoc: true
-source-git-commit: 625dfbb66effb30172f6faf56db6fe512aef909a
+source-git-commit: 920c9080768e1972b487b3a258281914a4b7d8de
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Veelvoorkomende releasepaden zijn:
 | **Label** | **Doel** | **Beschikbaarheid** | **Zeer belangrijke Nota&#39;s** |
 |------------|-------------|------------------|----------------|
 | **Bèta** | Vroege tests en feedbackverzameling. | Alleen geselecteerde klanten of organisaties die deelnemen aan het Adobe Beta-programma. | - Niet bestemd voor gebruik bij de productie.<br> - De functionaliteit of het ontwerp kan vóór GA veranderen.<br> - Met feedback kunt u de uiteindelijke implementatie verfijnen. |
-| **Beperkte Beschikbaarheid (LA)** | Uitvoeren voor validatie en bewaking. | Alleen ingeschakeld voor geselecteerde klanten of omgevingen (bijvoorbeeld ontwikkelingssandboxen). | - De functie is bijna definitief en wordt actief gecontroleerd.<br>- Wordt gebruikt om prestaties en schaalbaarheid te valideren voordat de algemene release wordt uitgebracht.<br> - Voor toegang is Adobe-goedkeuring vereist. |
+| **Beperkte Beschikbaarheid (LA)** | Uitvoeren voor validatie en bewaking. | Alleen ingeschakeld voor geselecteerde klanten of omgevingen (bijvoorbeeld ontwikkelingssandboxen). | - productieklaar en volledig ondersteund.<br>- Wordt gebruikt om prestaties en schaalbaarheid te valideren voordat de algemene release wordt uitgebracht.<br> - Voor toegang is Adobe-goedkeuring vereist. |
 | **Algemene Beschikbaarheid (GA)** | Brede release van volledig ondersteunde functionaliteit. | Standaard ingeschakeld voor alle in aanmerking komende organisaties. | - productieklaar en volledig ondersteund.<br> - U kunt licenties of rechten toepassen.<br> - Kan geleidelijk worden uitgevoerd over verschillende regio&#39;s. |
 
 
@@ -80,9 +80,16 @@ Om up-to-date te blijven:
 
 * Herzie de [**recentste versienota&#39;s**](release-notes.md) voor nieuwe en bijgewerkte mogelijkheden.
 * Controleer de **_Meest recente updates_** sectie tussen maandelijkse versies voor plaatsingen in real time.
-* De Nota&#39;s van de pre-Versie van de monitor **&#x200B;**&#x200B;(indien beschikbaar) voor een voorproef van aanstaande eigenschappen.
+* De Nota&#39;s van de pre-Versie van de monitor **** (indien beschikbaar) voor een voorproef van aanstaande eigenschappen.
 * Neem contact op met uw Adobe-vertegenwoordiger voor Beta of beperkte toegang tot of machtiging tot toegang.
 
+U kunt aan **e-mail en in-product alarm** voor de productreleases van Journey Optimizer intekenen. Abonneren:
+
+1. Navigeer aan **Voorkeur van Adobe Experience Cloud**
+1. Onder **Meldingen**, vind **Journey Optimizer**
+1. Laat **Nieuwe versies** In-app en e-mailberichten toe
+
+![](assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
 
 ## Veelgestelde vragen {#faq}
 
