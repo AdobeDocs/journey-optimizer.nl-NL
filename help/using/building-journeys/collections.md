@@ -169,7 +169,7 @@ Je kunt zien dat &#39;products&#39; een array van twee objecten is. U moet ten m
 
    ![](assets/uc-collection-4.png)
 
-Voor het matrixveld kunt u ook de geavanceerde expressie-editor gebruiken om gegevensbewerkingen uit te voeren. In het volgende voorbeeld, gebruiken wij de [ filter ](functions/functionfilter.md) en [ ](functions/functionintersect.md) functies doorsnijden:
+Voor het matrixveld kunt u ook de geavanceerde expressie-editor gebruiken om gegevensbewerkingen uit te voeren. In het volgende voorbeeld, gebruiken wij de [&#x200B; filter &#x200B;](functions/functionfilter.md) en [&#x200B; &#x200B;](functions/functionintersect.md) functies doorsnijden:
 
 ![](assets/uc-collection-5.png)
 
