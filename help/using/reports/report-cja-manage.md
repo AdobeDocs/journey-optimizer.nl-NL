@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 881cae4638082f804a5e2a768dfa135193959191
 workflow-type: tm+mt
 source-wordcount: '1274'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Verbeter uw gegevensanalysefunctie met uw **[!DNL Customer Journey Analytics]** 
 
 Met deze krachtige optie wordt u naadloos omgeleid naar uw **[!DNL Customer Journey Analytics]** -omgeving, zodat u uw rapporten uitgebreid kunt personaliseren. U kunt uw widgets verrijken met speciale Customer Journey Analytics-meetgegevens, zodat u uw inzichten op een geheel nieuw niveau kunt brengen.
 
-[ leer meer over de interface van Customer Journey Analytics.](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-getting-started)
+[ leer meer over de interface van Customer Journey Analytics.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-getting-started)
 
 ## De rapportperiode definiëren {#report-period}
 
@@ -137,7 +137,7 @@ U kunt aangepaste berekende metriek rechtstreeks in uw rapporten maken. U kunt m
 
    >[!NOTE]
    >
-   >Als u Customer Journey Analytics hebt, kunt u uw metriek verder aanpassen met extra opties. [Meer informatie](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics#areas-of-the-calculated-metrics-builder)
+   >Als u Customer Journey Analytics hebt, kunt u uw metriek verder aanpassen met extra opties. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics#areas-of-the-calculated-metrics-builder)
 
 1. Kies de juiste **[!UICONTROL Decimal Places]** en selecteer een **[!UICONTROL Format]** (Decimaal, Tijd, Percentage of Valuta) op basis van de manier waarop u de metrische waarde wilt weergeven.
 
@@ -155,13 +155,13 @@ U kunt aangepaste berekende metriek rechtstreeks in uw rapporten maken. U kunt m
 
 Uw nieuwe metrisch zal worden omvat wanneer u het rapport als PDF of CSV uitvoert. Deze wordt echter uit het rapport verwijderd wanneer u het rapport afsluit.
 
-## Gegevens verkennen met de verkennende analyse {#exploratory}
+## Gegevens verkennen met de Insight builder {#exploratory}
 
-Met het gereedschap Verkennende analyse kunt u eenvoudig tabellen en visualisaties maken op basis van de geselecteerde **[!UICONTROL Dimensions]** en **[!UICONTROL Metrics]** . Met dit gereedschap stroomlijnt u de gegevensverkenning, zodat u de gegevens eenvoudig kunt aanpassen en analyseren. Leer meer in [ deze documentatie ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/quickinsight).
+Met het gereedschap Insight Builder kunt u eenvoudig tabellen en visualisaties maken op basis van de geselecteerde **[!UICONTROL Dimensions]** en **[!UICONTROL Metrics]** . Met dit gereedschap stroomlijnt u de gegevensverkenning, zodat u de gegevens eenvoudig kunt aanpassen en analyseren. Leer meer in [ deze documentatie ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight).
 
-1. Begin door tot het rapport toegang te hebben waar u de Verkennende Analyse wilt gebruiken.
+1. Begin door tot het rapport toegang te hebben waar u de bouwer van Insight wilt gebruiken.
 
-1. Selecteer het menu Verkennende analyse in het menu Linkerspoor.
+1. Selecteer het Insight builder-menu in het menu left-rail.
 
    ![](assets/exploratory_analysis_1.png)
 
@@ -193,7 +193,7 @@ d. Open the report for the journey that you added the metric to and ensure that 
 >[!IMPORTANT]
 >
 >Elke organisatie is beperkt tot het publiceren van 25 soorten publiek. Bovendien kunnen gebruikers maximaal 5 soorten publiek per uur en 20 personen per dag publiceren.
->&#x200B;> Eenmalig publiek heeft een levensduur van 48 uur. Als er binnen die termijn 25 soorten publiek worden gepubliceerd, kunnen extra soorten publiek daarom pas worden gepubliceerd nadat de periode van 48 uur is verstreken.
+>> Eenmalig publiek heeft een levensduur van 48 uur. Als er binnen die termijn 25 soorten publiek worden gepubliceerd, kunnen extra soorten publiek daarom pas worden gepubliceerd nadat de periode van 48 uur is verstreken.
 
 U kunt nu specifieke gegevens in de tabel selecteren en rechtstreeks een publiek maken op basis van deze selecties, zodat het proces voor het maken van een publiek wordt gestroomlijnd en vereenvoudigd.
 
@@ -207,7 +207,7 @@ U kunt nu specifieke gegevens in de tabel selecteren en rechtstreeks een publiek
 
    >[!NOTE]
    >
-   >Als u Customer Journey Analytics hebt, kunt u uw metriek verder aanpassen met extra opties. [Meer informatie](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/audiences/publish)
+   >Als u Customer Journey Analytics hebt, kunt u uw metriek verder aanpassen met extra opties. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
 
    ![](assets/audience_1.png)
 
@@ -221,7 +221,7 @@ U kunt nu doorgaan en het nieuwe publiek gebruiken met een reis of campagne.
 >
 > De **functionaliteit van het Malplaatje** wordt geleidelijk ingevoerd in fasen, met volledige Algemene Beschikbaarheid die tegen eind Januari wordt gepland, en exclusief beschikbaar aan gebruikers met a [!DNL Customer Journey Analytics] vergunning.
 
-Je hebt nu de mogelijkheid om je Journey Optimizer-rapporten te verbeteren met behulp van Customer Journey Analytics-sjablonen. [ Leer meer over het malplaatje van Customer Journey Analytics ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
+Je hebt nu de mogelijkheid om je Journey Optimizer-rapporten te verbeteren met behulp van Customer Journey Analytics-sjablonen. [ Leer meer over het malplaatje van Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
 
 Wanneer u rapporten opent, kunt u kiezen uit twee sjabloontypen in het vervolgkeuzemenu **[!UICONTROL Select a template]** :
 
@@ -234,19 +234,19 @@ Als er geen sjabloon is gemaakt, wordt het vervolgkeuzemenu **[!UICONTROL Select
 
 Voer de volgende stappen uit om een sjabloon te maken:
 
-1. Navigeer in [!DNL Customer Journey Analytics] naar het menu **[!UICONTROL Workspace]** en selecteer **[!UICONTROL Adobe templates]** . [ leer meer over de beschikbare malplaatjes ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/templates/use-templates#available-templates)
+1. Navigeer in [!DNL Customer Journey Analytics] naar het menu **[!UICONTROL Workspace]** en selecteer **[!UICONTROL Adobe templates]** . [ leer meer over de beschikbare malplaatjes ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#available-templates)
 
 1. Blader door de beschikbare vooraf gebouwde sjablonen en klik op **[!UICONTROL Use template]** om deze te selecteren.
 
    ![](assets/cja_template_1.png)
 
-1. Pas uw rapport aan uw behoeften aan. Verwijs naar [ documentatie van Customer Journey Analytics ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/home).
+1. Pas uw rapport aan uw behoeften aan. Verwijs naar [ documentatie van Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 1. Zodra uw aangepaste sjabloon is voltooid, opent u het menu **[!UICONTROL Project]** en selecteert u **[!UICONTROL Save as template]** .
 
    ![](assets/cja_template_2.png)
 
-1. Geef de benodigde gegevens voor de template op. Verwijs naar [ documentatie van Customer Journey Analytics ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/templates/create-templates#edit-or-delete-a-template) voor de gedetailleerde informatie.
+1. Geef de benodigde gegevens voor de template op. Verwijs naar [ documentatie van Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/create-templates#edit-or-delete-a-template) voor de gedetailleerde informatie.
 
    >[!IMPORTANT]
    >
