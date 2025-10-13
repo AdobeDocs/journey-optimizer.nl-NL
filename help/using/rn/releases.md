@@ -6,7 +6,7 @@ feature: Release Notes
 description: Adobe Journey Optimizer Release Cycle
 hide: true
 hidefromtoc: true
-source-git-commit: c70cdb0f12b484844ab0222cec8922f30b0ee7dc
+source-git-commit: f00deec2db697dccca161d82fe80b7f3f451c172
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 [!DNL Adobe Journey Optimizer] werkt op een doorlopend leveringsmodel, dat een scalable, gefaseerde benadering van eigenschapplaatsing toelaat. Dit model stelt Adobe in staat sneller te innoveren en te zorgen voor blijvende stabiliteit en prestaties tijdens de implementatie.
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 > Omdat [!DNL Adobe Journey Optimizer] ononderbroken levering gebruikt, kunnen de nieuwe mogelijkheden progressief over organisaties of gebieden verschijnen.
 
@@ -35,7 +35,7 @@ Als onderdeel van dit model:
 
 [!DNL Adobe Journey Optimizer] volgt doorgaans een maandelijks releasecadence, waarbij implementaties gewoonlijk plaatsvinden in de laatste week van elke maand. Maandelijkse releaseopmerkingen en bijbehorende documentatie worden op dinsdag gepubliceerd. Opmerkingen vóór de release worden gepubliceerd op vrijdag vóór de releaseweek.
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 > Aan het einde van elk kwartaal kunnen releases worden verwacht en tot twee weken vóór het einde van de maand worden geïmplementeerd om ze af te stemmen op kwartaalschema&#39;s of afhankelijke productreleases.
 
@@ -53,7 +53,7 @@ Veelvoorkomende releasepaden zijn:
 * **Beta → LA → GA** — De grotere of experimentele mogelijkheden vorderen door alle fasen voor het testen en bevestiging.
 * **Beta → GA** — Bepaalde stabiele eigenschappen van Beta kunnen direct naar GA zonder een tussenfase van LA bewegen.
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 > Als u geïnteresseerd bent in vroege toegang tot functies in Beta of Beperkte beschikbaarheid, neemt u contact op met uw Adobe-vertegenwoordiger om deelnemingsopties te bespreken.
 
@@ -80,7 +80,7 @@ Om up-to-date te blijven:
 
 * Herzie de [**recentste versienota&#39;s**](release-notes.md) voor nieuwe en bijgewerkte mogelijkheden.
 * Controleer de **_Meest recente updates_** sectie tussen maandelijkse versies voor plaatsingen in real time.
-* De Nota&#39;s van de pre-Versie van de monitor **&#x200B;**&#x200B;(indien beschikbaar) voor een voorproef van aanstaande eigenschappen.
+* De Nota&#39;s van de pre-Versie van de monitor **** (indien beschikbaar) voor een voorproef van aanstaande eigenschappen.
 * Neem contact op met uw Adobe-vertegenwoordiger voor Beta of beperkte toegang tot of machtiging tot toegang.
 
 
