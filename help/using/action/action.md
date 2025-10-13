@@ -37,13 +37,13 @@ Acties zijn verbindingen waarmee u persoonlijke, realtime-ervaringen kunt bieden
 >
 >De configuratie van douaneacties moet door a **technische gebruiker** worden uitgevoerd.
 
-Aangepaste acties zijn aanvullende acties die door technische gebruikers worden gedefinieerd en beschikbaar worden gesteld aan marketers: als deze acties eenmaal zijn geconfigureerd, worden ze weergegeven in het linkerpalet van uw reis, in de categorie **[!UICONTROL Action]** . Leer meer op [ deze pagina ](../building-journeys/about-journey-activities.md#action-activities).
+Aangepaste acties zijn aanvullende acties die door technische gebruikers worden gedefinieerd en beschikbaar worden gesteld aan marketers: als deze acties eenmaal zijn geconfigureerd, worden ze weergegeven in het linkerpalet van uw reis, in de categorie **[!UICONTROL Action]** . Leer meer op [&#x200B; deze pagina &#x200B;](../building-journeys/about-journey-activities.md#action-activities).
 
-Selecteer **[!UICONTROL Configurations]** in de sectie van het menu BEHEER om de actielijst weer te geven of een nieuwe actie te configureren. Klik in de sectie **[!UICONTROL Actions]** op **[!UICONTROL Manage]** . De lijst met acties wordt weergegeven. Zie [ deze pagina ](../start/user-interface.md) voor meer informatie over de interface.
+Selecteer **[!UICONTROL Configurations]** in de sectie van het menu BEHEER om de actielijst weer te geven of een nieuwe actie te configureren. Klik in de sectie **[!UICONTROL Actions]** op **[!UICONTROL Manage]** . De lijst met acties wordt weergegeven. Zie [&#x200B; deze pagina &#x200B;](../start/user-interface.md) voor meer informatie over de interface.
 
 ![](assets/custom1.png)
 
-Leer hoe te om een douaneactie [ op deze specifieke pagina ](../action/troubleshoot-custom-action.md) problemen op te lossen.
+Leer hoe te om een douaneactie [&#x200B; op deze specifieke pagina &#x200B;](../action/troubleshoot-custom-action.md) problemen op te lossen.
 
 ## Hoe kan ik-video {#video}
 
@@ -55,8 +55,8 @@ Leer hoe u aangepaste handelingen configureert.
 
 Blader in de onderstaande secties voor meer informatie over het configureren en gebruiken van aangepaste handelingen:
 
-* [ vorm uw douaneacties ](../action/about-custom-action-configuration.md) - leer hoe te om een douaneactie tot stand te brengen en te vormen
-* [ de douaneacties van het Gebruik ](../building-journeys/using-custom-actions.md) - leer hoe te om douaneacties in uw reizen te gebruiken
-* [ de inzamelingen van de pas in de parameters van de douaneactie ](../building-journeys/collections.md) - leer hoe te om een inzameling in de parameters van de douaneactie over te gaan die dynamisch bevolkt bij runtime is
-* [ het oplossen van problemen van de Actie van de Douane ](../action/troubleshoot-custom-action.md) - Leer hoe te om een douaneactie problemen op te lossen
+* [&#x200B; vorm uw douaneacties &#x200B;](../action/about-custom-action-configuration.md) - leer hoe te om een douaneactie tot stand te brengen en te vormen
+* [&#x200B; de douaneacties van het Gebruik &#x200B;](../building-journeys/using-custom-actions.md) - leer hoe te om douaneacties in uw reizen te gebruiken
+* [&#x200B; de inzamelingen van de pas in de parameters van de douaneactie &#x200B;](../building-journeys/collections.md) - leer hoe te om een inzameling in de parameters van de douaneactie over te gaan die dynamisch bevolkt bij runtime is
+* [&#x200B; het oplossen van problemen van de Actie van de Douane &#x200B;](../action/troubleshoot-custom-action.md) - Leer hoe te om een douaneactie problemen op te lossen
 
