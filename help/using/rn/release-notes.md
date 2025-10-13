@@ -24,7 +24,7 @@ ht-degree: 1%
 
 Wegens dit model, worden de versienota&#39;s **bijgewerkt tussen maandelijkse versies**.  Een specifieke [&#x200B; Recentste updates &#x200B;](#updates-rn) sectie benadrukt nieuwe mogelijkheden en verbeteringen aangezien zij aan productie-zodat wordt opgesteld u altijd op de hoogte gebracht van alle veranderingen in echt - tijd. <!--For full details about the release cycle and availability phases, see [Journey Optimizer release cycle](#releases.md).-->
 
-[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
+[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
 
 ## Laatste updates {#updates-rn}
 
@@ -126,7 +126,7 @@ Beschikbaarheidsdatum: 6 oktober 2025
 <tr>
 <td>
 <p>Aangedreven door <a href="https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank"> Adobe Experience Platform Agent Orchestrator </a>, is Journey Agent beschikbaar in Journey Optimizer. Het laat u toe om reizen door een natuurlijke taalinterface te analyseren. De agent zal publiek of programmaconflicten en profieldrop-offs in een reis ontdekken om u te helpen stappen nemen om hen op te lossen. Binnenkort kunt u reizen maken met ongeduldige ondersteuning.</p>
-<p>Voor meer informatie, verwijs naar de <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank"> gedetailleerde documentatie </a></p>
+<p>Voor meer informatie, verwijs naar de <a href="https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank"> gedetailleerde documentatie </a></p>
 <p>Beschikbaarheidsdatum: 24 september 2025</p>
 </td>
 </tr>
