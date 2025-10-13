@@ -9,10 +9,10 @@ role: Developer, Data Engineer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 3d0e2817ef2b544aced441d7bb8b1a94ac2acccf
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 4%
+source-wordcount: '560'
+ht-degree: 3%
 
 ---
 
@@ -34,7 +34,7 @@ U kunt een verzameling doorgeven in aangepaste handelingsparameters die bij uitv
 
 * objectverzamelingen: een array met JSON-objecten, bijvoorbeeld:
 
-  ```
+  ```json
   {
   "products":[
      {
@@ -58,20 +58,52 @@ U kunt een verzameling doorgeven in aangepaste handelingsparameters die bij uitv
 
 ## Beperkingen {#limitations}
 
-* Geneste arrays van objecten binnen een objectarray worden momenteel niet ondersteund. Bijvoorbeeld:
+* **Steun voor Geneste Arrays in de Acties van de Douane**
 
-  ```
-  {
-  "products":[
-    {
-       "id":"productA",
-       "name":"A",
-       "price":20,
-       "locations": [{"name": "Paris"}, {"name": "London"}]
-    },
-   ]
-  }
-  ```
+  Adobe Journey Optimizer steunt genestelde series van voorwerpen in douaneactie **antwoordladloads**, maar deze steun is beperkt in **verzoeklading**.
+
+  In request-payloads worden geneste arrays alleen ondersteund wanneer ze een vast aantal items bevatten, zoals gedefinieerd in de aangepaste actieconfiguratie. Bijvoorbeeld, als een genestelde serie altijd precies drie punten omvat, kan het als constante worden gevormd. Wanneer het aantal items dynamisch moet zijn, kunnen alleen niet-geneste arrays (arrays op het onderste niveau) als variabelen worden gedefinieerd.
+
+  Voorbeeld:
+
+   1. Het volgende voorbeeld illustreert a **niet-gesteund gebruiksgeval**.
+
+      In dit voorbeeld bevat de productarray een geneste array (`locations`) met een dynamisch aantal items. Deze array wordt niet ondersteund in aanvraagladingen.
+
+      ```json
+      {
+      "products": [
+         {
+            "id": "productA",
+            "name": "A",
+            "price": 20,
+            "locations": [
+            { "name": "Paris" },
+            { "name": "London" }
+            ]
+         }
+      ]
+      }
+      ```
+
+   2. Ondersteund, bijvoorbeeld met vaste items die zijn gedefinieerd als constanten.
+
+      In dit geval worden de geneste locaties vervangen door vaste velden (`location1`, `location2` ), zodat de laadgegevens geldig blijven in de ondersteunde configuratie.
+
+      ```json
+      {
+      "products": [
+         {
+            "id": "productA",
+            "name": "A",
+            "price": 20,
+            "location1": { "name": "Paris" },
+            "location2": { "name": "London" }
+         }
+      ]
+      }
+      ```
+
 
 * Als u verzamelingen wilt testen in de testmodus, moet u de modus Codeweergave gebruiken. De modus Codeweergave wordt momenteel niet ondersteund voor bedrijfsgebeurtenissen. U kunt alleen een verzameling met één element verzenden.
 
@@ -79,7 +111,7 @@ U kunt een verzameling doorgeven in aangepaste handelingsparameters die bij uitv
 
 In deze sectie gebruiken we het volgende JSON-payload-voorbeeld. Dit is een array van objecten met een veld dat een eenvoudige verzameling is.
 
-```
+```json
 {
   "ctxt": {
     "products": [
@@ -137,7 +169,7 @@ Je kunt zien dat &#39;products&#39; een array van twee objecten is. U moet ten m
 
    ![](assets/uc-collection-4.png)
 
-Voor het matrixveld kunt u ook de geavanceerde expressie-editor gebruiken om gegevensbewerkingen uit te voeren. In het volgende voorbeeld, gebruiken wij de [ filter ](functions/functionfilter.md) en [&#128279;](functions/functionintersect.md) functies doorsnijden:
+Voor het matrixveld kunt u ook de geavanceerde expressie-editor gebruiken om gegevensbewerkingen uit te voeren. In het volgende voorbeeld, gebruiken wij de [ filter ](functions/functionfilter.md) en [ ](functions/functionintersect.md) functies doorsnijden:
 
 ![](assets/uc-collection-5.png)
 
@@ -149,7 +181,7 @@ Voor heterogene typen en arrays van arrays wordt de array gedefinieerd met het l
 
 Voorbeeld van een heterogeen type:
 
-```
+```json
 {
     "data_mixed-types": [
         "test",
@@ -162,7 +194,7 @@ Voorbeeld van een heterogeen type:
 
 Voorbeeld van array van arrays:
 
-```
+```json
 {
     "data_multiple-arrays": [
         [
