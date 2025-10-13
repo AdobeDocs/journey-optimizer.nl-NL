@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 12dbe0031e9037d879e0d2309c7c26cc3c00cc4e
+source-git-commit: 3d4b4fce529db70c53daea3d15d4af9a14b57424
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1065'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ Blader op de onderstaande tabbladen om te leren hoe u een tekstbericht (SMS/MMS/
 
 >[!BEGINTABS]
 
->[!TAB voeg een tekstbericht aan een Reis  toe]
+>[!TAB  voeg een tekstbericht aan een Reis ] toe
 
 1. Open uw reis dan belemmering en laat vallen een activiteit van SMS van de **sectie van Acties** van het palet.
 
@@ -96,6 +96,10 @@ U kunt nu de inhoud van uw tekstbericht ontwerpen via de knop **[!UICONTROL Edit
 >id="ajo_message_sms_content"
 >title="Je SMS-inhoud definiëren"
 >abstract="Pas en verpersoonlijk uw tekstberichten (SMS/MMS/RCS) aan door de verpersoonlijkingsredacteur te gebruiken om de inhoud te bepalen en dynamische elementen op te nemen."
+
+>[!AVAILABILITY]
+>
+>RCS Upscale is geen HIPAA-Klaar Dienst en moet niet worden gebruikt om het even welke Gevoelige Persoonlijke Gegevens, met inbegrip van Toegelaten Gegevens van de Gezondheid, zoals Persoonlijke Informatie van de Gezondheid of PHI te verzamelen, op te slaan of te verwerken die uw organisatie anders in Journey Optimizer zou kunnen worden toegestaan te verwerken.
 
 Volg onderstaande stappen om de inhoud van uw bericht te configureren. De montages voor MMS zijn gedetailleerd in [ deze sectie ](#mms-content).
 
