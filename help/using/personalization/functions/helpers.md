@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 110c4895ac7f0b683a695e9705a8f8ac54d09637
+source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '612'
 ht-degree: 1%
 
 ---
@@ -106,12 +106,12 @@ De instructie `elseif` geeft een nieuwe voorwaarde op die moet worden getest als
 
 >[!NOTE]
 >
->Meer over publiek en de segmentatieservice leren, verwijs naar deze [ sectie ](../../audience/about-audiences.md).
+>Meer over publiek en de segmentatieservice leren, verwijs naar [ deze sectie ](../../audience/about-audiences.md).
 
 
 ## Tenzij{#unless}
 
-De hulpfunctie `unless` wordt gebruikt om een voorwaardelijk blok te definiëren. Als de evaluatie van de expressie false retourneert, wordt het blok gerenderd als dit tegengesteld is aan de functie `if` .
+De hulpfunctie `unless` wordt gebruikt om een voorwaardelijk blok te definiëren. Als de evaluatie van de expressie false retourneert, wordt het blok gerenderd als dit tegengesteld is aan de `if` helper.
 
 **Syntaxis**
 
@@ -211,3 +211,78 @@ In het volgende voorbeeld kunt u de totale som van prijzen voor producten in de 
     {{/each}}
 {{sum}}
 ```
+
+## Metagegevens van uitvoering {#execution-metadata}
+
+>[!AVAILABILITY]
+>
+>Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+
+Met de `executionMetadata` -hulpfunctie kunt u op dynamische wijze aangepaste sleutel-waardeparen vastleggen en opslaan in de context van de berichtuitvoering.
+
+**Syntaxis**
+
+```
+{{executionMetadata key="your_key" value="your_value"}}
+```
+
+In deze syntaxis verwijst `key` naar de naam van de metagegevens en is `value` de metagegevens die moeten worden voortgezet.
+
+**Gebruiksscenario**
+
+Met deze functie kunt u contextafhankelijke informatie toevoegen aan elke native actie van uw campagnes of reizen. Op deze manier kunt u contextgegevens voor levering in realtime naar externe systemen exporteren voor verschillende doeleinden, zoals reeksspatiëring, analyse, personalisatie en downstreamverwerking.
+
+>[!NOTE]
+>
+>De functie van Meta-gegevens van de Uitvoering wordt niet gesteund door [ douaneacties ](../../action/action.md).
+
+U kunt bijvoorbeeld de functie Metagegevens uitvoeren gebruiken om een specifieke id toe te voegen aan elke levering die naar elk profiel wordt verzonden. Deze informatie wordt tijdens runtime gegenereerd en de verrijkte metagegevens voor uitvoering kunnen vervolgens worden geëxporteerd voor afstemming op een extern rapportageplatform.
+
+**hoe het** werkt
+
+Selecteer een element uit de inhoud van uw kanaal in een campagne of een rit en voeg, met de personalisatie-editor, de `executionMetadata` -hulplijn toe aan dit element.
+
+>[!NOTE]
+>
+>De functie Metagegevens van de Uitvoering is niet zichtbaar wanneer de inhoud zelf wordt getoond.
+
+
+Tijdens runtime wordt de metagegevenswaarde toegevoegd aan de bestaande **[!UICONTROL Message Feedback Event Dataset]** met het volgende schema:
+
+```
+"_experience": {
+  "customerJourneyManagement": {
+    "messageExecution": {
+      "metadata": {
+        "your_key": "your_value"
+      }
+    }
+  }
+}
+```
+
+>[!NOTE]
+>
+>Leer meer op datasets in [ deze sectie ](../../data/get-started-datasets.md).
+
+**Beperking**
+
+Er is een bovengrens van 2kb op de belangrijkste waardeparen per actie.
+
+Als de limiet van 2 kB wordt overschreden, wordt het bericht nog steeds geleverd, maar een van de sleutelwaardeparen kan worden afgekapt.
+
+**Voorbeeld**
+
+```
+{{executionMetadata key="firstName" value=profile.person.name.firstName}}
+```
+
+In dit voorbeeld, uitgaande van `profile.person.name.firstName` = &quot;Alex&quot;, is de resulterende entiteit:
+
+```
+{
+  "key": "firstName",
+  "value": "Alex"
+}
+```
+

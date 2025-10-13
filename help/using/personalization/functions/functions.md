@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
+source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2422'
 ht-degree: 0%
 
 ---
@@ -436,6 +436,9 @@ De helpers zijn gedetailleerd op [ deze pagina ](helpers.md).
     </tr>
     <tr>
         <td><a href="helpers.md#each">Elk</a></td><td>Deze functie wordt gebruikt om een array te doorlopen</td>
+    </tr>
+    <tr>
+        <td><a href="helpers.md#execution-metadata">Metagegevens van uitvoering</a></td><td>Met deze functie worden metagegevens van aangepaste sleutels en waarden vastgelegd tijdens het renderen van berichten, zodat deze kunnen worden opgeslagen in het metagegevensobject voor uitvoering van de runtime</td>
     </tr>
     <tr>
         <td><a href="helpers.md#if-function">Indien</a></td><td>Deze functie wordt gebruikt om een voorwaardelijk blok te bepalen - als de uitdrukkingsevaluatie waar terugkeert, wordt het blok teruggegeven</td>
