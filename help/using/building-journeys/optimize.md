@@ -11,9 +11,9 @@ keywords: activiteit, toestand, canvas, reis, optimalisering
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
+source-git-commit: 15a143956156458cf78d02a4cf92300e97cef949
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1245'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,7 @@ Zodra de reis levend is, worden profielen beoordeeld aan de hand van de vastgest
 >id="ajo_path_experiment_success_metric"
 >title="Metrisch met succes"
 >abstract="Succesvolle maatstaf wordt gebruikt om de best presterende behandeling in een experiment bij te houden en te evalueren."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Vorm en spoor uw reismetriek"
 
 Met behulp van experimenten kunt u verschillende paden testen op basis van een willekeurige splitsing om te bepalen wat het beste werkt op basis van vooraf gedefinieerde succeswaarden.
 
@@ -75,13 +76,6 @@ Stel dat u drie paden wilt vergelijken:
 1. Klik op **[!UICONTROL Create experiment]**.
 
 1. Selecteer de **[!UICONTROL Success metric]** die u voor het experiment wilt instellen. Leer meer op de beschikbare metriek en hoe te om de lijst in [ te vormen deze sectie ](success-metrics.md).
-
-   <!--Need to have the list of all default metrics + a description for each.
-    Explain why the metric selection is important.
-    Are there custom metrics? If so explain.
-    If possible, add best practices and examples for each metrics (could even be a dedicated section).
-    Consider adding an example in this step: For this example, select this metric to test xxx.
-    -->
 
    ![](assets/journey-optimize-experiment-metrics.png){width=80%}
 
