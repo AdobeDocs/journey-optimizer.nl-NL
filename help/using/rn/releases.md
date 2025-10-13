@@ -80,7 +80,7 @@ Om up-to-date te blijven:
 
 * Herzie de [**recentste versienota&#39;s**](release-notes.md) voor nieuwe en bijgewerkte mogelijkheden.
 * Controleer de **_Meest recente updates_** sectie tussen maandelijkse versies voor plaatsingen in real time.
-* De Nota&#39;s van de pre-Versie van de monitor **** (indien beschikbaar) voor een voorproef van aanstaande eigenschappen.
+* De Nota&#39;s van de pre-Versie van de monitor **&#x200B;**&#x200B;(indien beschikbaar) voor een voorproef van aanstaande eigenschappen.
 * Neem contact op met uw Adobe-vertegenwoordiger voor Beta of beperkte toegang tot of machtiging tot toegang.
 
 
