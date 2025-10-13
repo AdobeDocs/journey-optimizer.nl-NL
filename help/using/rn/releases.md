@@ -6,9 +6,9 @@ feature: Release Notes
 description: Adobe Journey Optimizer Release Cycle
 hide: true
 hidefromtoc: true
-source-git-commit: f00deec2db697dccca161d82fe80b7f3f451c172
+source-git-commit: 0de90d707c02e11bfb8a6af7b22d4273a8b6b88d
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Als onderdeel van dit model:
 >
 > Aan het einde van elk kwartaal kunnen releases worden verwacht en tot twee weken vóór het einde van de maand worden geïmplementeerd om ze af te stemmen op kwartaalschema&#39;s of afhankelijke productreleases.
 
-Terwijl de maandelijkse versie de belangrijkste reeks nieuwe mogelijkheden en moeilijke situaties introduceert, staat de ononderbroken leveringsbenadering extra updates toe om tussen cycli worden opgesteld wanneer klaar. Opmerkingen bij de release en bijbehorende documentatie worden vervolgens dienovereenkomstig bijgewerkt.
+Terwijl de maandelijkse versie de belangrijkste reeks nieuwe mogelijkheden en moeilijke situaties introduceert, staat de ononderbroken leveringsbenadering extra updates toe om tussen cycli worden opgesteld wanneer klaar. Opmerkingen bij de release en bijbehorende documentatie worden vervolgens dienovereenkomstig bijgewerkt en de beschikbaarheidsdatum wordt vermeld. Alle wijzigingen die tijdens de maand worden gepubliceerd, worden geconsolideerd in de maandelijkse releaseopmerkingen op de releasedatum.
 
 
 ## Geen paden {#release-paths}
@@ -80,7 +80,7 @@ Om up-to-date te blijven:
 
 * Herzie de [**recentste versienota&#39;s**](release-notes.md) voor nieuwe en bijgewerkte mogelijkheden.
 * Controleer de **_Meest recente updates_** sectie tussen maandelijkse versies voor plaatsingen in real time.
-* De Nota&#39;s van de pre-Versie van de monitor **&#x200B;**&#x200B;(indien beschikbaar) voor een voorproef van aanstaande eigenschappen.
+* De Nota&#39;s van de pre-Versie van de monitor **** (indien beschikbaar) voor een voorproef van aanstaande eigenschappen.
 * Neem contact op met uw Adobe-vertegenwoordiger voor Beta of beperkte toegang tot of machtiging tot toegang.
 
 
