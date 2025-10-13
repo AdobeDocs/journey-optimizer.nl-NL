@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
@@ -88,3 +88,13 @@ Als de aanvraag mislukt, kunt u controleren:
 * De aanvraagmethode (GET versus POST) en de bijbehorende lading.
 * Het API eindpunt en de kopballen die in de douaneactie worden bepaald.
 * Gebruik de reactiegegevens om potentiële misconfiguraties te identificeren.
+
+## Aanvullende bronnen
+
+Blader in de onderstaande secties voor meer informatie over het configureren en gebruiken van aangepaste handelingen:
+
+* [ worden begonnen met douaneacties ](../action/action.md) - leer wat een douaneactie is en hoe zij u met uw derdesystemen helpen verbinden
+* [ vorm uw douaneacties ](../action/about-custom-action-configuration.md) - leer hoe te om een douaneactie tot stand te brengen en te vormen
+* [ de douaneacties van het Gebruik ](../building-journeys/using-custom-actions.md) - leer hoe te om douaneacties in uw reizen te gebruiken
+* [ de inzamelingen van de pas in de parameters van de douaneactie ](../building-journeys/collections.md) - leer hoe te om een inzameling in de parameters van de douaneactie over te gaan die dynamisch bevolkt bij runtime is
+

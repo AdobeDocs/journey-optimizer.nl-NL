@@ -1,27 +1,33 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen
-description: Een bericht verzenden met Campaign v7/v8
+title: Verzamelingen doorgeven aan aangepaste handelingsparameters
+description: Leer hoe u verzamelingen dynamisch doorgeeft in Journey Optimizer met behulp van aangepaste handelingen
 feature: Journeys, Use Cases, Custom Actions, Collections
 topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 8f25fd5110777c148246864b364d02e4c6bf00da
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 1%
+source-wordcount: '719'
+ht-degree: 0%
 
 ---
 
 
-# Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen{#passing-collection}
+# Verzamelingen doorgeven aan aangepaste handelingsparameters {#passing-collection}
 
-U kunt een verzameling doorgeven in aangepaste handelingsparameters die bij uitvoering dynamisch worden gevuld. Er worden twee typen verzamelingen ondersteund:
+U kunt een verzameling doorgeven in aangepaste handelingsparameters die bij uitvoering dynamisch worden gevuld.
 
-* **eenvoudige inzamelingen**: series van eenvoudige gegevenstypes, bijvoorbeeld, met een listString:
+Er worden twee typen verzamelingen ondersteund:
+
+* **Eenvoudige inzamelingen**
+
+  Gebruik eenvoudige verzamelingen voor lijsten met basiswaarden, zoals tekenreeksen, getallen of regeleinden. Deze zijn handig wanneer u alleen een lijst met items zonder extra eigenschappen hoeft door te geven.
+
+  Bijvoorbeeld een lijst met apparaattypen:
 
   ```json
   {
@@ -32,7 +38,11 @@ U kunt een verzameling doorgeven in aangepaste handelingsparameters die bij uitv
   }
   ```
 
-* o **objecten inzamelingen**: een serie van voorwerpen JSON, bijvoorbeeld:
+* **de inzamelingen van Objecten**
+
+  Gebruik objectverzamelingen wanneer elk item meerdere velden of eigenschappen bevat. Deze worden doorgaans gebruikt om gestructureerde gegevens door te geven, zoals productdetails, gebeurtenisrecords of itemkenmerken.
+
+  Bijvoorbeeld:
 
   ```json
   {
@@ -56,6 +66,9 @@ U kunt een verzameling doorgeven in aangepaste handelingsparameters die bij uitv
   }
   ```
 
+>[!NOTE]
+>
+>Geneste arrays in verzamelingen worden slechts gedeeltelijk ondersteund in aangepaste handelingen voor opvragingsladingen. Voor details, zie [ Beperkingen ](#limitations).
 
 ## Algemene procedure {#general-procedure}
 
@@ -87,7 +100,7 @@ In deze sectie gebruiken we het volgende JSON-payload-voorbeeld. Dit is een arra
 
 U ziet dat `products` een array van twee objecten is. U moet ten minste één object hebben.
 
-1. Maak een aangepaste handeling. Leer meer op [&#x200B; deze pagina &#x200B;](../action/about-custom-action-configuration.md).
+1. Maak een aangepaste handeling. Leer meer op [ deze pagina ](../action/about-custom-action-configuration.md).
 
 1. Plak in de sectie **[!UICONTROL Action parameters]** het JSON-voorbeeld. De weergegeven structuur is statisch: bij het plakken van de lading worden alle velden gedefinieerd als constanten.
 
@@ -109,7 +122,7 @@ U ziet dat `products` een array van twee objecten is. U moet ten minste één ob
 
    ![](assets/uc-collection-2.png){width="70%" align="left"}
 
-1. Maak uw reis en voeg de aangepaste actie toe die u hebt gemaakt. Leer meer op [&#x200B; deze pagina &#x200B;](../building-journeys/using-custom-actions.md).
+1. Maak uw reis en voeg de aangepaste actie toe die u hebt gemaakt. Leer meer op [ deze pagina ](../building-journeys/using-custom-actions.md).
 
 1. Definieer in de sectie **[!UICONTROL Action parameters]** de arrayparameter (`products` in ons voorbeeld) met de geavanceerde expressie-editor.
 
@@ -119,11 +132,13 @@ U ziet dat `products` een array van twee objecten is. U moet ten minste één ob
 
    ![](assets/uc-collection-4.png){width="50%" align="left"}
 
-Voor het matrixveld kunt u ook de geavanceerde expressie-editor gebruiken om gegevensbewerkingen uit te voeren. In het volgende voorbeeld, gebruiken wij de [&#x200B; filter &#x200B;](functions/functionfilter.md) en [&#x200B; &#x200B;](functions/functionintersect.md) functies doorsnijden:
+Voor het matrixveld kunt u ook de geavanceerde expressie-editor gebruiken om gegevensbewerkingen uit te voeren. In het volgende voorbeeld, gebruiken wij de [ filter ](functions/functionfilter.md) en [ ](functions/functionintersect.md) functies doorsnijden:
 
 ![](assets/uc-collection-5.png)
 
 ## Beperkingen {#limitations}
+
+Hoewel verzamelingen in aangepaste acties flexibiliteit bieden voor het doorgeven van dynamische gegevens, zijn er bepaalde structurele beperkingen die u moet kennen:
 
 * **Steun voor Geneste Arrays in de Acties van de Douane**
 
@@ -172,7 +187,7 @@ Voor het matrixveld kunt u ook de geavanceerde expressie-editor gebruiken om geg
       ```
 
 
-* Als u verzamelingen wilt testen in de testmodus, moet u de modus Codeweergave gebruiken. De modus Codeweergave wordt momenteel niet ondersteund voor bedrijfsgebeurtenissen. U kunt alleen een verzameling met één element verzenden.
+* **het Testen inzamelingen**: Om inzamelingen te testen gebruikend testwijze, moet u de wijze van de codemening gebruiken. Merk op dat de wijze van de codemening niet voor bedrijfsgebeurtenissen wordt gesteund, zodat in dat geval, kunt u slechts een inzameling verzenden die één enkel element bevat.
 
 
 ## Bijzondere gevallen{#examples}
@@ -208,6 +223,12 @@ Voorbeeld van array van arrays:
 }
 ```
 
-**Verwante onderwerpen**
+## Aanvullende bronnen
 
-[Aangepaste handelingen gebruiken](../building-journeys/using-custom-actions.md)
+Blader in de onderstaande secties voor meer informatie over het configureren, gebruiken en oplossen van problemen met aangepaste handelingen:
+
+* [ worden begonnen met douaneacties ](../action/action.md) - leer wat een douaneactie is en hoe zij u met uw derdesystemen helpen verbinden
+* [ vorm uw douaneacties ](../action/about-custom-action-configuration.md) - leer hoe te om een douaneactie tot stand te brengen en te vormen
+* [ de douaneacties van het Gebruik ](../building-journeys/using-custom-actions.md) - leer hoe te om douaneacties in uw reizen te gebruiken
+* [ het oplossen van problemen van de Actie van de Douane ](../action/troubleshoot-custom-action.md) - Leer hoe te om een douaneactie problemen op te lossen
+

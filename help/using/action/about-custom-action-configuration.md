@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
-source-wordcount: '1695'
+source-wordcount: '1775'
 ht-degree: 1%
 
 ---
@@ -26,6 +26,34 @@ ht-degree: 1%
 Als u een derdesysteem gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, gebruik douaneacties om zijn verbinding aan uw reis te vormen. Bijvoorbeeld kunt u met de volgende systemen met douaneacties verbinden: Epsilon, Slack, [ Adobe Developer ](https://developer.adobe.com){target="_blank"}, Vuurbasis, enz.
 
 Aangepaste acties zijn aanvullende acties die door technische gebruikers worden gedefinieerd en beschikbaar worden gesteld aan verkopers. Als deze zijn geconfigureerd, worden ze weergegeven in het linkerpalet van uw reis, in de categorie **[!UICONTROL Action]** . Leer meer op [ deze pagina ](../building-journeys/about-journey-activities.md#action-activities).
+
+
+## Configuratiestappen {#configuration-steps}
+
+Hier zijn de belangrijkste stappen die worden vereist om een douaneactie te vormen:
+
+1. Selecteer **[!UICONTROL Configurations]** in de sectie van het menu BEHEER. Klik in de sectie **[!UICONTROL Actions]** op **[!UICONTROL Manage]** . Klik op **[!UICONTROL Create Action]** om een nieuwe handeling te maken. Het deelvenster Handelingsconfiguratie wordt aan de rechterkant van het scherm geopend.
+
+   ![](assets/custom2.png)
+
+1. Voer een naam in voor de handeling.
+
+   >[!NOTE]
+   >
+   >Alleen alfanumerieke tekens en onderstrepingstekens zijn toegestaan. De maximumlengte is 30 tekens.
+
+1. Voeg een beschrijving aan uw actie toe. Deze stap is optioneel.
+1. Het aantal ritten dat deze handeling gebruikt, wordt weergegeven in het veld **[!UICONTROL Used in]** . U kunt op de knop **[!UICONTROL View journeys]** klikken om de lijst met ritten weer te geven die deze handeling gebruiken.
+1. Definieer de verschillende **[!UICONTROL URL Configuration]** -parameters. Zie [deze pagina](../action/about-custom-action-configuration.md#url-configuration).
+1. Configureer de sectie **[!UICONTROL Authentication]** . Deze configuratie is het zelfde als voor gegevensbronnen.  Zie [deze sectie](../datasource/external-data-sources.md#custom-authentication-mode).
+1. Definieer de **[!UICONTROL Action parameters]** . Zie [deze pagina](../action/about-custom-action-configuration.md#define-the-message-parameters).
+1. Klik op **[!UICONTROL Save]**.
+
+   De aangepaste handeling is nu geconfigureerd en klaar om te worden gebruikt tijdens uw reizen. Zie [deze pagina](../building-journeys/about-journey-activities.md#action-activities).
+
+   >[!NOTE]
+   >
+   >Wanneer een douaneactie in een reis wordt gebruikt, zijn de meeste parameters read-only. U kunt alleen de velden **[!UICONTROL Name]** , **[!UICONTROL Description]** , **[!UICONTROL URL]** en **[!UICONTROL Authentication]** wijzigen.
 
 ## Beperkingen{#custom-actions-limitations}
 
@@ -66,33 +94,6 @@ In Journey Optimizer kunt u beleid voor gegevensbeheer en toestemming toepassen 
 * [ het bestuur van Gegevens ](../action/action-privacy.md).
 * [ Toestemming ](../action/action-privacy.md).
 
-
-## Configuratiestappen {#configuration-steps}
-
-Hier zijn de belangrijkste stappen die worden vereist om een douaneactie te vormen:
-
-1. Selecteer **[!UICONTROL Configurations]** in de sectie van het menu BEHEER. Klik in de sectie **[!UICONTROL Actions]** op **[!UICONTROL Manage]** . Klik op **[!UICONTROL Create Action]** om een nieuwe handeling te maken. Het deelvenster Handelingsconfiguratie wordt aan de rechterkant van het scherm geopend.
-
-   ![](assets/custom2.png)
-
-1. Voer een naam in voor de handeling.
-
-   >[!NOTE]
-   >
-   >Alleen alfanumerieke tekens en onderstrepingstekens zijn toegestaan. De maximumlengte is 30 tekens.
-
-1. Voeg een beschrijving aan uw actie toe. Deze stap is optioneel.
-1. Het aantal ritten dat deze handeling gebruikt, wordt weergegeven in het veld **[!UICONTROL Used in]** . U kunt op de knop **[!UICONTROL View journeys]** klikken om de lijst met ritten weer te geven die deze handeling gebruiken.
-1. Definieer de verschillende **[!UICONTROL URL Configuration]** -parameters. Zie [deze pagina](../action/about-custom-action-configuration.md#url-configuration).
-1. Configureer de sectie **[!UICONTROL Authentication]** . Deze configuratie is het zelfde als voor gegevensbronnen.  Zie [deze sectie](../datasource/external-data-sources.md#custom-authentication-mode).
-1. Definieer de **[!UICONTROL Action parameters]** . Zie [deze pagina](../action/about-custom-action-configuration.md#define-the-message-parameters).
-1. Klik op **[!UICONTROL Save]**.
-
-   De aangepaste handeling is nu geconfigureerd en klaar om te worden gebruikt tijdens uw reizen. Zie [deze pagina](../building-journeys/about-journey-activities.md#action-activities).
-
-   >[!NOTE]
-   >
-   >Wanneer een douaneactie in een reis wordt gebruikt, zijn de meeste parameters read-only. U kunt alleen de velden **[!UICONTROL Name]** , **[!UICONTROL Description]** , **[!UICONTROL URL]** en **[!UICONTROL Authentication]** wijzigen.
 
 ## Eindpuntconfiguratie {#url-configuration}
 
@@ -156,7 +157,7 @@ Adobe Journey Optimizer biedt standaard ondersteuning voor TLS 1.3 voor aangepas
 
 U kunt Wederzijdse Veiligheid van de Laag van het Vervoer (mTLS) gebruiken om verbeterde veiligheid in uitgaande verbindingen aan de douaneacties van Adobe Journey Optimizer te verzekeren. mTLS is een end-to-end veiligheidsmethode voor wederzijdse authentificatie die ervoor zorgt dat beide partijen die informatie delen wie zij beweren te zijn alvorens de gegevens worden gedeeld. mTLS bevat een extra stap in vergelijking met TLS, waarin de server ook om het certificaat van de client vraagt en dit aan het einde verifieert.
 
-Wederzijdse TLS-verificatie (mTLS) wordt ondersteund in aangepaste handelingen. Er is geen extra configuratie vereist in de douaneactie of de reis om mTLS te activeren; het komt automatisch voor wanneer een mTLS-Toegelaten eindpunt wordt ontdekt. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+Wederzijdse TLS-verificatie (mTLS) wordt ondersteund in aangepaste handelingen. Er is geen extra configuratie vereist in de douaneactie of de reis om mTLS te activeren; het komt automatisch voor wanneer een mTLS-Toegelaten eindpunt wordt ontdekt. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## De parameters voor de nuttige lading definiëren {#define-the-message-parameters}
 
@@ -195,6 +196,15 @@ In de gebiedsconfiguratie, moet u:
 >
 
 
-## Problemen oplossen
+* [ het oplossen van problemen van de Actie van de Douane ](../action/troubleshoot-custom-action.md) - Leer hoe te om een douaneactie problemen op te lossen
 
-Leer hoe te om een douaneactie [ op deze specifieke pagina ](../action/troubleshoot-custom-action.md) problemen op te lossen.
+
+## Aanvullende bronnen
+
+Blader in de onderstaande secties voor meer informatie over het configureren, gebruiken en oplossen van problemen met aangepaste handelingen:
+
+* [ worden begonnen met douaneacties ](../action/action.md) - leer wat een douaneactie is en hoe zij u met uw derdesystemen helpen verbinden
+* [ de douaneacties van het Gebruik ](../building-journeys/using-custom-actions.md) - leer hoe te om douaneacties in uw reizen te gebruiken
+* [ het oplossen van problemen van de Actie van de Douane ](../action/troubleshoot-custom-action.md) - Leer hoe te om een douaneactie problemen op te lossen
+* [ de inzamelingen van de pas in de parameters van de douaneactie ](../building-journeys/collections.md) - leer hoe te om een inzameling in de parameters van de douaneactie over te gaan die dynamisch bevolkt bij runtime is
+
