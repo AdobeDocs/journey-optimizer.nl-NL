@@ -87,7 +87,7 @@ In deze sectie gebruiken we het volgende JSON-payload-voorbeeld. Dit is een arra
 
 U ziet dat `products` een array van twee objecten is. U moet ten minste één object hebben.
 
-1. Maak een aangepaste handeling. Leer meer op [ deze pagina ](../action/about-custom-action-configuration.md).
+1. Maak een aangepaste handeling. Leer meer op [&#x200B; deze pagina &#x200B;](../action/about-custom-action-configuration.md).
 
 1. Plak in de sectie **[!UICONTROL Action parameters]** het JSON-voorbeeld. De weergegeven structuur is statisch: bij het plakken van de lading worden alle velden gedefinieerd als constanten.
 
@@ -109,7 +109,7 @@ U ziet dat `products` een array van twee objecten is. U moet ten minste één ob
 
    ![](assets/uc-collection-2.png){width="70%" align="left"}
 
-1. Maak uw reis en voeg de aangepaste actie toe die u hebt gemaakt. Leer meer op [ deze pagina ](../building-journeys/using-custom-actions.md).
+1. Maak uw reis en voeg de aangepaste actie toe die u hebt gemaakt. Leer meer op [&#x200B; deze pagina &#x200B;](../building-journeys/using-custom-actions.md).
 
 1. Definieer in de sectie **[!UICONTROL Action parameters]** de arrayparameter (`products` in ons voorbeeld) met de geavanceerde expressie-editor.
 
@@ -119,7 +119,7 @@ U ziet dat `products` een array van twee objecten is. U moet ten minste één ob
 
    ![](assets/uc-collection-4.png){width="50%" align="left"}
 
-Voor het matrixveld kunt u ook de geavanceerde expressie-editor gebruiken om gegevensbewerkingen uit te voeren. In het volgende voorbeeld, gebruiken wij de [ filter ](functions/functionfilter.md) en [ ](functions/functionintersect.md) functies doorsnijden:
+Voor het matrixveld kunt u ook de geavanceerde expressie-editor gebruiken om gegevensbewerkingen uit te voeren. In het volgende voorbeeld, gebruiken wij de [&#x200B; filter &#x200B;](functions/functionfilter.md) en [&#x200B; &#x200B;](functions/functionintersect.md) functies doorsnijden:
 
 ![](assets/uc-collection-5.png)
 
