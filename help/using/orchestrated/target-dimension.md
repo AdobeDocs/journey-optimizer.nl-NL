@@ -43,7 +43,7 @@ Begin door campagneorchestratie op te zetten door een relationeel schema aan het
 
 1. Klik op **[!UICONTROL Create]** om uw **[!UICONTROL Targeting dimension]** -bestand te maken.
 
-1. Kies uw [ eerder gevormd Schema ](gs-schemas.md) &#x200B; van drop-down.
+1. Kies uw [&#x200B; eerder gevormd Schema &#x200B;](gs-schemas.md) &#x200B; van drop-down.
 
    Terwijl alle relationele schema&#39;s zichtbaar zijn, slechts zijn de schema&#39;s met een directe identiteitsverhouding aan het **Profiel** verkiesbaar voor selectie.
 
@@ -51,7 +51,7 @@ Begin door campagneorchestratie op te zetten door een relationeel schema aan het
 
    In dit voorbeeld is het klantprofiel gekoppeld aan meerdere abonnementen, die elk worden vertegenwoordigd door een uniek `crmID` in het `Recipient` -schema. Als u **[!UICONTROL Target Dimension]** instelt om het `Recipient` schema en de `crmID` identiteit te gebruiken, kunt u berichten verzenden op abonnementsniveau in plaats van naar het hoofdklantprofiel, zodat elk contract of elke regel een eigen gepersonaliseerd bericht ontvangt.
 
-   [ leer meer in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
+   [&#x200B; leer meer in de documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 
