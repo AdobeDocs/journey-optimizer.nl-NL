@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 25b4c66ac907780a587b6e599cb8965e0bb1626f
+source-git-commit: 3d14a6ea3bd6756304db3fdf80b2a2786d5d2a1c
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,9 @@ De grafiek van **[!UICONTROL Impression & Click trend]** bevat een gedetailleerd
 
 +++ Meer informatie over cijfers voor indrukken en klikken op trends
 
-* **[!UICONTROL Clicks]**: Het aantal keren dat er op de inhoud is geklikt in uw In-app-berichten.
+* **[!UICONTROL Clicks]**: Het aantal keren dat de gebruiker interactie had met de berichten in de app.
 
-* **[!UICONTROL Displays]**: Het aantal keren dat het bericht is geopend.
+* **[!UICONTROL Displays]**: Het aantal keren dat het bericht in de app aan de gebruiker is getoond.
 
 +++
 
@@ -53,7 +53,7 @@ In de grafiek van **[!UICONTROL Clicks]** worden in-app klikgegevens weergegeven
 
 * **[!UICONTROL Unique Clicks]**: Aantal profielen dat op een inhoud in uw In-app-berichten heeft geklikt
 
-* **[!UICONTROL Clicks]**: Het aantal keren dat er op de inhoud is geklikt in uw In-app-berichten.
+* **[!UICONTROL Clicks]**: Het aantal keren dat de gebruiker interactie had met de berichten in de app.
 
 +++
 
@@ -65,7 +65,7 @@ De grafiek van **[!UICONTROL Displays]** helpt u zowel het algemene bereik van h
 
 +++ Meer informatie over weergavemetriek
 
-* **[!UICONTROL Displays]**: Het aantal keren dat het bericht is geopend.
+* **[!UICONTROL Displays]**: Het aantal keren dat het bericht in de app aan de gebruiker is getoond.
 
 * **[!UICONTROL Unique displays]**: Het aantal keren dat het bericht is geopend, wordt er geen rekening gehouden met meerdere interacties van één profiel.
 
@@ -85,17 +85,17 @@ De tabel **[!UICONTROL Tracking data]** bevat een gedetailleerde momentopname va
 
 * **[!UICONTROL Click through open rate (CTOR)]**: Het aantal keren dat de berichten in de app zijn geopend.
 
-* **[!UICONTROL Clicks]**: Het aantal keren dat er op de inhoud is geklikt in uw In-app-berichten.
+* **[!UICONTROL Clicks]**: Het aantal keren dat de gebruiker interactie had met de berichten in de app.
 
 * **[!UICONTROL Unique Clicks]**: Aantal profielen dat op een inhoud in uw In-app berichten klikte.
 
-* **[!UICONTROL Displays]**: Het aantal keren dat het bericht is geopend.
+* **[!UICONTROL Displays]**: Het aantal keren dat het bericht in de app aan de gebruiker is getoond.
 
 * **[!UICONTROL Unique displays]**: Het aantal keren dat het bericht is geopend, wordt er geen rekening gehouden met meerdere interacties van één profiel.
 
-* **[!UICONTROL Sends]**: Het totale aantal verzendingen voor uw in-app-berichten.
+* **[!UICONTROL Sends]**: Het aantal keren dat de app de In-app-campagne heeft aangevraagd. Meerdere aanvragen per gebruikerssessie (bijvoorbeeld bij het starten of opnieuw laden) kunnen ertoe leiden dat deze waarde het aantal unieke gebruikers overschrijdt als de campagnegegevens niet in de cache zijn opgeslagen.
 
-* **[!UICONTROL Inbound triggered]**: Het aantal keren dat een bericht in de app werd geactiveerd door een gebruikersinteractie of een vooraf gedefinieerde gebeurtenis.
+* **[!UICONTROL Inbound triggered]**: Het aantal keren dat de app het bericht in de app weergeeft. Dit getal kan lager zijn dan het totaal dat wordt verzonden als de regels aan de app het bericht niet weergeven.
 
 * **[!UICONTROL Inbound dismisses]**: Het aantal keren dat gebruikers het bericht in de app hebben verwijderd zonder ermee te werken.
 
@@ -112,9 +112,9 @@ De tabel **[!UICONTROL Tracked link labels]** bevat een uitgebreid overzicht van
 
 * **[!UICONTROL Unique Clicks]**: Aantal profielen dat op een inhoud in uw In-app berichten klikte.
 
-* **[!UICONTROL Clicks]**: Het aantal keren dat er op de inhoud is geklikt in uw In-app-berichten.
+* **[!UICONTROL Clicks]**: Het aantal keren dat de gebruiker interactie had met de berichten in de app.
 
-* **[!UICONTROL Displays]**: Het aantal keren dat het bericht is geopend.
+* **[!UICONTROL Displays]**: Het aantal keren dat het bericht in de app aan de gebruiker is getoond.
 
 * **[!UICONTROL Unique displays]**: Het aantal keren dat het bericht is geopend, wordt er geen rekening gehouden met meerdere interacties van één profiel.
 
@@ -130,6 +130,6 @@ De tabel **[!UICONTROL Tracked link URLs]** bevat een uitgebreid overzicht van d
 
 * **[!UICONTROL Unique Clicks]**: Aantal profielen dat op een inhoud in uw In-app berichten klikte.
 
-* **[!UICONTROL Clicks]**: Het aantal keren dat er op de inhoud is geklikt in uw In-app-berichten.
+* **[!UICONTROL Clicks]**: Het aantal keren dat de gebruiker interactie had met de berichten in de app.
 
 +++

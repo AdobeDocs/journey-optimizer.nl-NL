@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 3d14a6ea3bd6756304db3fdf80b2a2786d5d2a1c
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,9 @@ De grafiek van **[!UICONTROL Display & Click trend]** bevat een gedetailleerde a
 
 +++ Meer informatie over weergave en klik op trends
 
-* **[!UICONTROL Clicks]**: Het aantal keren dat er op de inhoud is geklikt in uw In-app-berichten.
+* **[!UICONTROL Clicks]**: Het aantal keren dat de gebruiker interactie had met de berichten in de app.
 
-* **[!UICONTROL Displays]**: Het aantal keren dat het bericht is geopend.
+* **[!UICONTROL Displays]**: Het aantal keren dat het bericht in de app aan de gebruiker is getoond.
 
 +++
 
@@ -51,7 +51,7 @@ In de grafiek van **[!UICONTROL Clicks]** worden in-app klikgegevens weergegeven
 
 * **[!UICONTROL Unique Clicks]**: Aantal profielen dat op een inhoud in uw In-app-berichten heeft geklikt
 
-* **[!UICONTROL Clicks]**: Het aantal keren dat er op de inhoud is geklikt in uw In-app-berichten.
+* **[!UICONTROL Clicks]**: Het aantal keren dat de gebruiker interactie had met de berichten in de app.
 
 +++
 
@@ -61,7 +61,7 @@ De grafiek van **[!UICONTROL Displays]** helpt u zowel het algemene bereik van h
 
 +++ Meer informatie over weergavemetriek
 
-* **[!UICONTROL Displays]**: Het aantal keren dat het bericht is geopend.
+* **[!UICONTROL Displays]**: Het aantal keren dat het bericht in de app aan de gebruiker is getoond.
 
 * **[!UICONTROL Unique displays]**: Het aantal keren dat het bericht is geopend, wordt er geen rekening gehouden met meerdere interacties van één profiel.
 
@@ -79,11 +79,11 @@ De tabel **[!UICONTROL Tracking data]** bevat een gedetailleerde momentopname va
 
 * **[!UICONTROL Click through open rate (CTOR)]**: Het aantal keren dat de berichten in de app zijn geopend.
 
-* **[!UICONTROL Clicks]**: Het aantal keren dat er op de inhoud is geklikt in uw In-app-berichten.
+* **[!UICONTROL Clicks]**: Het aantal keren dat de gebruiker interactie had met de berichten in de app.
 
 * **[!UICONTROL Unique Clicks]**: Aantal profielen dat op een inhoud in uw In-app berichten klikte.
 
-* **[!UICONTROL Displays]**: Het aantal keren dat het bericht is geopend.
+* **[!UICONTROL Displays]**: Het aantal keren dat het bericht in de app aan de gebruiker is getoond.
 
 * **[!UICONTROL Unique displays]**: Het aantal keren dat het bericht is geopend, wordt er geen rekening gehouden met meerdere interacties van één profiel.
 
@@ -105,9 +105,9 @@ De tabel **[!UICONTROL Tracked link labels]** bevat een uitgebreid overzicht van
 
 * **[!UICONTROL Unique Clicks]**: Aantal profielen dat op een inhoud in uw In-app berichten klikte.
 
-* **[!UICONTROL Clicks]**: Het aantal keren dat er op de inhoud is geklikt in uw In-app-berichten.
+* **[!UICONTROL Clicks]**: Het aantal keren dat de gebruiker interactie had met de berichten in de app.
 
-* **[!UICONTROL Displays]**: Het aantal keren dat het bericht is geopend.
+* **[!UICONTROL Displays]**: Het aantal keren dat het bericht in de app aan de gebruiker is getoond.
 
 * **[!UICONTROL Unique displays]**: Het aantal keren dat het bericht is geopend, wordt er geen rekening gehouden met meerdere interacties van één profiel.
 
@@ -123,6 +123,6 @@ De tabel **[!UICONTROL Tracked link URLs]** bevat een uitgebreid overzicht van d
 
 * **[!UICONTROL Unique Clicks]**: Aantal profielen dat op een inhoud in uw In-app-berichten heeft geklikt
 
-* **[!UICONTROL Clicks]**: Het aantal keren dat er op de inhoud is geklikt in uw In-app-berichten.
+* **[!UICONTROL Clicks]**: Het aantal keren dat de gebruiker interactie had met de berichten in de app.
 
 +++
