@@ -50,14 +50,14 @@ Voer de volgende stappen uit om uw Sinch-provider te configureren voor het verze
    |---|---|    
    | SMS-leverancier | Sinch |
    | Naam | Kies een naam voor uw API-referentie. |
-   | Service-id en API-token | Open de pagina met API&#39;s en je kunt je gegevens vinden op het tabblad SMS. Leer meer in [ de Documentatie van de Sinch ](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}. |
+   | Service-id en API-token | Open de pagina met API&#39;s en je kunt je gegevens vinden op het tabblad SMS. Leer meer in [&#x200B; de Documentatie van de Sinch &#x200B;](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}. |
    | Trefwoorden bij Inschakelen | Voer de standaardtrefwoorden of aangepaste trefwoorden in die automatisch uw aanmeldingsbericht activeren. Gebruik voor meerdere trefwoorden door komma&#39;s gescheiden waarden. |
    | Bericht bij aanmelden | Voer de aangepaste reactie in die automatisch wordt verzonden als uw aanmeldingsbericht. |
    | Trefwoorden uitschakelen | Voer de standaardtrefwoorden of aangepaste trefwoorden in die automatisch het bericht Uitschakelen activeren. Gebruik voor meerdere trefwoorden door komma&#39;s gescheiden waarden. |
    | Bericht bij Afmelden | Voer de aangepaste reactie in die automatisch wordt verzonden als uw bericht om te weigeren. |
    | Trefwoorden Help | Ga het gebrek of douanetrefwoorden in die automatisch uw **Bericht van de Hulp** zullen teweegbrengen. Gebruik voor meerdere trefwoorden door komma&#39;s gescheiden waarden. |
    | Help-bericht | Ga de douanereactie in die automatisch als uw **Bericht van de Hulp** wordt verzonden. |
-   | Dubbele invoegtrefwoorden | Voer de trefwoorden in die het dubbele aanmeldingsproces activeren. Als een gebruikersprofiel niet bestaat, wordt het gecreeerd na succesvolle bevestiging. Gebruik voor meerdere trefwoorden door komma&#39;s gescheiden waarden. [ Leer meer over SMS Dubbelopt-binnen ](https://video.tv.adobe.com/v/3427129/?learn=on). |
+   | Dubbele invoegtrefwoorden | Voer de trefwoorden in die het dubbele aanmeldingsproces activeren. Als een gebruikersprofiel niet bestaat, wordt het gecreeerd na succesvolle bevestiging. Gebruik voor meerdere trefwoorden door komma&#39;s gescheiden waarden. [&#x200B; Leer meer over SMS Dubbelopt-binnen &#x200B;](https://video.tv.adobe.com/v/3427129/?learn=on). |
    | Dubbel bericht voor aanmelden | Voer de aangepaste reactie in die automatisch wordt verzonden als reactie op de dubbele aanmeldingsbevestiging. |
    | Inkomend getal | Voeg uw unieke binnenkomende aantal of korte code toe. Hierdoor kunt u dezelfde API-referenties gebruiken in verschillende sandboxen, elk met een eigen binnenkomend nummer of korte code. |
    | Aangepaste binnenkomende trefwoorden | Definieer unieke trefwoorden voor specifieke acties, zoals KORTING, AANBIEDINGEN, ENROLL. Deze trefwoorden worden vastgelegd en opgeslagen als kenmerken in het profiel, zodat u een kwalificatie voor een streaming segment op de reis kunt activeren en een aangepaste reactie of actie kunt leveren. |
@@ -106,8 +106,8 @@ Voer de volgende stappen uit om Sinch MMS te configureren voor het verzenden van
 
    * **[!UICONTROL Project ID]** , **[!UICONTROL App ID]** en **[!UICONTROL API Token]** : volg de onderstaande stappen om uw MMS API-referenties te verzamelen.
 
-      * Voor **[!UICONTROL Project ID]** en **[!UICONTROL App ID]**: Heb toegang tot de [ API van de Gesprek - overzicht ](https://dashboard.sinch.com/convapi/overview) pagina van uw project van Sinch op uw Staaldashboard.
-      * Voor **[!UICONTROL API Token]**: Verkrijg de [ sleutels van de Toegang ](https://community.sinch.com/t5/Customer-Dashboard/Sinch-Access-Keys/ta-p/12638) voor uw Project van de Sinch en produceer a **Base64 API Symbolisch** uit uw Duidelijke Sleutels van de Toegang van het Project ****.
+      * Voor **[!UICONTROL Project ID]** en **[!UICONTROL App ID]**: Heb toegang tot de [&#x200B; API van de Gesprek - overzicht &#x200B;](https://dashboard.sinch.com/convapi/overview) pagina van uw project van Sinch op uw Staaldashboard.
+      * Voor **[!UICONTROL API Token]**: Verkrijg de [&#x200B; sleutels van de Toegang &#x200B;](https://community.sinch.com/t5/Customer-Dashboard/Sinch-Access-Keys/ta-p/12638) voor uw Project van de Sinch en produceer a **Base64 API Symbolisch** uit uw Duidelijke Sleutels van de Toegang van het Project **&#x200B;**.
 
 1. Klik op **[!UICONTROL Submit]** wanneer u de configuratie van uw API-referenties hebt voltooid.
 
@@ -161,24 +161,24 @@ De berichten vallen automatisch terug naar SMS wanneer het apparaat van het prof
 
 1. **Opstelling uw brandde agent RCS**
 
-   Creeer een branded agent RCS in het Snel Dashboard van de Sinch. [ Leer meer op brandde agent RCS ](https://community.sinch.com/t5/RCS/Getting-Started-with-RCS-using-Conversation-API/ta-p/17844)
+   Creeer een branded agent RCS in het Snel Dashboard van de Sinch. [&#x200B; Leer meer op brandde agent RCS &#x200B;](https://community.sinch.com/t5/RCS/Getting-Started-with-RCS-using-Conversation-API/ta-p/17844)
 
-1. **Opstelling uw [ geloofsbrieven van de Douane API](sms-configuration-custom.md)**
+1. **Opstelling uw [&#x200B; geloofsbrieven van de Douane API](sms-configuration-custom.md)**
 
    Zodra uw agent RCS wordt goedgekeurd, moet u opstelling uw geloofsbrieven van de Douane API, die uw AppId, Naam, URL en authentificatietype omvatten.
 
 1. **vorm uw RCS met de nuttige lading van de Leverancier.**
 
-   In uw [ geloofsbrieven van de Douane API ](sms-configuration-custom.md), voeg uw Payload van de Leverancier toe om uw RCS- berichten te bevestigen en aan te passen.
+   In uw [&#x200B; geloofsbrieven van de Douane API &#x200B;](sms-configuration-custom.md), voeg uw Payload van de Leverancier toe om uw RCS- berichten te bevestigen en aan te passen.
 
-1. **creeer a [ kanaalconfiguratie ](sms-configuration-surface.md) voor uw RCS- berichten**
+1. **creeer a [&#x200B; kanaalconfiguratie &#x200B;](sms-configuration-surface.md) voor uw RCS- berichten**
 
    Vorm een kanaaloppervlakte in Journey Optimizer door uw geloofsbrieven van Sinch te verbinden en de overseinenparameters te bepalen. Met deze instelling kunt u RCS-berichten van Journey Optimizer samenstellen en verzenden.
 
-1. **creeer en verpersonaliseer uw [ bericht van SMS](../sms/create-sms.md)**
+1. **creeer en verpersonaliseer uw [&#x200B; bericht van SMS](../sms/create-sms.md)**
 
    Plak uw lading direct in de inhoud van SMS om uw Rich Communication Services (RCS) berichten in te bedden en te leveren.
 
-   ➡️ [ Onderzoek hoe de Steun van Sinch RCS in de documentatie van de Sonde ](https://sinch.com/blog/rcs-api-guide/)
+   ➡️ [&#x200B; Onderzoek hoe de Steun van Sinch RCS in de documentatie van de Sonde &#x200B;](https://sinch.com/blog/rcs-api-guide/)
 
 
