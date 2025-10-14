@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: e7567a68425c8fba5fc0f0b84b494b20d9f4df89
+source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
 workflow-type: tm+mt
 source-wordcount: '1442'
 ht-degree: 4%
@@ -22,7 +22,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-compose"
 >title="Pas uw pushmelding aan."
->abstract="Om uw bericht samen te stellen, ga de inhoud in de **Titel** en **3&rbrace; gebieden van het Lichaam in.** Als u personalisatietokens wilt opnemen, opent u het dialoogvenster voor personalisatie."
+>abstract="Om uw bericht samen te stellen, ga de inhoud in de **Titel** en **3} gebieden van het Lichaam in.** Als u personalisatietokens wilt opnemen, opent u het dialoogvenster voor personalisatie."
 
 Klik op de velden **[!UICONTROL Title]** en **[!UICONTROL Body]** om uw bericht samen te stellen. Gebruik de verpersoonlijkingsredacteur om inhoud te bepalen, gegevens te personaliseren en dynamische inhoud toe te voegen. Leer meer over [ verpersoonlijking ](../personalization/personalize.md) en [ dynamische inhoud ](../personalization/get-started-dynamic-content.md) in de verpersoonlijkingsredacteur.
 
@@ -75,7 +75,7 @@ Nadat de media zijn toegevoegd, worden deze rechts van de meldingsinstantie weer
 
 Maak een actionable melding door knoppen toe te voegen aan uw pushinhoud.
 
-Als het apparatenscherm wordt gesloten, worden deze knopen niet getoond: slechts is de **Titel** en het **Bericht** van het bericht zichtbaar. Als het apparaat ontgrendeld is, zien de ontvangers de knoppen.
+Als het apparatenscherm wordt gesloten, worden deze knopen niet getoond: slechts dan is de **Titel** en het **Bericht** van het bericht zichtbaar. Als het apparaat ontgrendeld is, zien de ontvangers de knoppen.
 
 In de Android-versie kunt u maximaal drie knoppen toevoegen.
 

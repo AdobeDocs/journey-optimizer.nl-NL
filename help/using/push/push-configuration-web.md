@@ -6,10 +6,11 @@ description: Leer hoe u uw omgeving configureert voor het verzenden van pushmeld
 feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
-exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
+hidefromtoc: true
+hide: true
 source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1732'
 ht-degree: 2%
 
 ---
@@ -132,8 +133,7 @@ Adobe Experience Platform Mobile SDK biedt client-side integratie-API&#39;s voor
 
 Tegen het einde van deze procedure moet u ook een eigenschap mobile in [!DNL Adobe Experience Platform Data Collection] hebben gemaakt en geconfigureerd. Doorgaans maakt u een eigenschap voor mobiele apparaten voor elke mobiele toepassing die u wilt beheren. Leer hoe te om een mobiel bezit in [ Adobe Experience Platform Mobiele documentatie van SDK ](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"} tot stand te brengen en te vormen.
 
-<!--To enable **Web push notifications**, ensure that the [pushNotifications property](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/pushnotifications) is properly configured within the Web SDK. Then, use [the sendPushSubscription command](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendpushsubscription) to register push subscriptions with Adobe Experience Platform.
--->
+Om **Push berichten van het Web** toe te laten, zorg ervoor dat het [ pushNotifications bezit ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/pushnotifications) behoorlijk binnen het Web SDK wordt gevormd. Dan, gebruik [ het sendPushSubscription bevel ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendpushsubscription) om dupabonnementen met Adobe Experience Platform te registreren.
 
 ## Stap 1: Voeg uw pushreferenties voor de app toe in Journey Optimizer {#push-credentials-launch}
 
@@ -175,15 +175,13 @@ De registratie van de pushreferenties voor de mobiele app is vereist om Adobe te
 
       1. Sleep de FCM-pushgegevens en zet deze neer. Voor meer details op hoe te om de dupgeloofsbrieven te krijgen verwijs naar [ Documentatie van Google ](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
-<!--
-    * **For Web**
+   * **voor Web**
 
-        ![](assets/add-app-config-web.png)
+     ![](assets/add-app-config-web.png)
 
-        1. Provide the **[!UICONTROL App ID]**.
+      1. Geef de **[!UICONTROL App ID]** op.
 
-        1. Enter your **[!UICONTROL VAPID public key]** and **[!UICONTROL private key]**.
--->
+      1. Voer de **[!UICONTROL VAPID public key]** en **[!UICONTROL private key]** in.
 
 1. Klik op **[!UICONTROL Submit]** om uw toepassingsconfiguratie te maken.
 
@@ -228,7 +226,7 @@ Wanneer u uw pushreferenties hebt gemaakt, moet u een configuratie maken om push
 
 1. Selecteer **[!UICONTROL Marketing action]**(s) om het toestemmingsbeleid aan de berichten te associëren gebruikend deze configuratie. Alle toestemmingsbeleid verbonden aan de marketing actie wordt gebruikt om de voorkeur van uw klanten te respecteren. [Meer informatie](../action/consent.md#surface-marketing-actions)
 
-1. Kies uw **[!UICONTROL Platform]**: Android en/of iOS <!--and/or Web--> .
+1. Kies uw **[!UICONTROL Platform]**: Android, iOS en/of Web.
 
 1. Selecteer het zelfde **[!UICONTROL App id]** zoals voor uw [ hierboven gevormde dupreferentie ](#push-credentials-launch).
 
