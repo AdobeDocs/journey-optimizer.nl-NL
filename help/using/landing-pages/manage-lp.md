@@ -29,7 +29,7 @@ In het linkerdeelvenster kunt u bestemmingspagina&#39;s in mappen ordenen. Stand
 
 ![](assets/lp-access-list-folders.png)
 
-Als u een specifiek item wilt zoeken, typt u een naam in het zoekveld. Wanneer de a [ omslag ](#folders) wordt geselecteerd, is het onderzoek op alle het landen pagina&#39;s of omslagen in het eerste niveau van hiërarchie van die omslag <!--(not nested items)--> van toepassing.
+Als u een specifiek item wilt zoeken, typt u een naam in het zoekveld. Wanneer de a [&#x200B; omslag &#x200B;](#folders) wordt geselecteerd, is het onderzoek op alle het landen pagina&#39;s of omslagen in het eerste niveau van hiërarchie van die omslag <!--(not nested items)--> van toepassing.
 
 U kunt bestemmingspagina&#39;s filtreren die op hun status, wijzigingsdatum, of markeringen worden gebaseerd.
 
@@ -37,9 +37,9 @@ U kunt bestemmingspagina&#39;s filtreren die op hun status, wijzigingsdatum, of 
 
 In deze lijst kunt u op de drie stippen naast een openingspagina klikken en de gewenste actie selecteren:
 
-* Voor [ gepubliceerde ](create-lp.md#publish-landing-page) landende pagina&#39;s, heb toegang tot het [ landende paginarapport ](../reports/lp-report-global-cja.md) en [ laatste 24 uren levend rapport ](../reports/lp-report-live.md).
+* Voor [&#x200B; gepubliceerde &#x200B;](create-lp.md#publish-landing-page) landende pagina&#39;s, heb toegang tot het [&#x200B; landende paginarapport &#x200B;](../reports/lp-report-global-cja.md) en [&#x200B; laatste 24 uren levend rapport &#x200B;](../reports/lp-report-live.md).
 
-* **Schrapping** en **unpublish** een het landen pagina. U kunt a [ niet gepubliceerde ](create-lp.md#publish-landing-page) het landen pagina schrappen. Als u het wilt verwijderen, moet u de publicatie eerst ongedaan maken.
+* **Schrapping** en **unpublish** een het landen pagina. U kunt a [&#x200B; niet gepubliceerde &#x200B;](create-lp.md#publish-landing-page) het landen pagina schrappen. Als u het wilt verwijderen, moet u de publicatie eerst ongedaan maken.
 
   >[!CAUTION]
   >
@@ -47,7 +47,7 @@ In deze lijst kunt u op de drie stippen naast een openingspagina klikken en de g
 
 * **dupliceer** om het even welke het landen pagina.
 
-* Bewerk de bijbehorende [ markeringen van een landende pagina ](../start/search-filter-categorize.md#tags).
+* Bewerk de bijbehorende [&#x200B; markeringen van een landende pagina &#x200B;](../start/search-filter-categorize.md#tags).
 
 * Verplaats de openingspagina naar een map. [Meer informatie](#folders)
 
@@ -86,6 +86,6 @@ Om eenvoudig door uw openingspagina&#39;s te kunnen navigeren, kunt u omslagen g
 
 1. Met de knop **[!UICONTROL More actions]** kunt u ook bestemmingspagina&#39;s naar een andere bestaande map verplaatsen.
 
-1. Nu kunt u naar de map navigeren die u net hebt gemaakt. Elke nieuwe het landen pagina u [ creeert ](create-lp.md#create-landing-page.md) van hier wordt bewaard in de huidige omslag.
+1. Nu kunt u naar de map navigeren die u net hebt gemaakt. Elke nieuwe het landen pagina u [&#x200B; creeert &#x200B;](create-lp.md#create-landing-page.md) van hier wordt bewaard in de huidige omslag.
 
    ![](assets/lp-folder-create.png)

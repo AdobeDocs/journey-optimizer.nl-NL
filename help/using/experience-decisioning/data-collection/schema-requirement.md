@@ -103,9 +103,9 @@ Voor aangepaste gebeurtenissen moet aan het schema dat in de gegevensset wordt g
 
 >[!NOTE]
 >
->Om uw douanegebeurtenissen te hebben die in [ in kaart brengen ](../items.md#capping) worden gebracht, moet u de ervaringsgebeurtenis met Adobe Experience Platform eindpunten verbinden door het naar één van beiden van deze twee eindpunten van de gegevensinzameling van Edge te verzenden:
+>Om uw douanegebeurtenissen te hebben die in [&#x200B; in kaart brengen &#x200B;](../items.md#capping) worden gebracht, moet u de ervaringsgebeurtenis met Adobe Experience Platform eindpunten verbinden door het naar één van beiden van deze twee eindpunten van de gegevensinzameling van Edge te verzenden:
 >
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->Als u het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL){target="_blank"} of [ Adobe Experience Platform Mobiele SDK ](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=nl-NL){target="_blank"} gebruikt, wordt de verbinding automatisch gemaakt.
+>Als u het [&#x200B; Web SDK van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL){target="_blank"} of [&#x200B; Adobe Experience Platform Mobiele SDK &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=nl-NL){target="_blank"} gebruikt, wordt de verbinding automatisch gemaakt.

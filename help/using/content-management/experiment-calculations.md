@@ -20,11 +20,11 @@ ht-degree: 0%
 
 In dit artikel worden de statistische berekeningen beschreven die worden gebruikt bij het uitvoeren van experimenten in Adobe Journey Optimizer.
 
-De experimentatie gebruikt [ geavanceerde statistische methodes ](../content-management/assets/confidence_sequence_technical_details.pdf) om **opeenvolgingen van het Vertrouwen** en **Vertrouwen** te berekenen, die u toestaan om uw experimenten zolang als nodig in werking te stellen, en uw resultaten onophoudelijk te controleren.
+De experimentatie gebruikt [&#x200B; geavanceerde statistische methodes &#x200B;](../content-management/assets/confidence_sequence_technical_details.pdf) om **opeenvolgingen van het Vertrouwen** en **Vertrouwen** te berekenen, die u toestaan om uw experimenten zolang als nodig in werking te stellen, en uw resultaten onophoudelijk te controleren.
 
 Dit artikel beschrijft hoe de Experimentatie werkt, en verstrekt een intuïtieve inleiding aan Adobe **Om het even welke Geldige Reeksen van het Vertrouwen van de Tijd**.
 
-Voor deskundige gebruikers, zijn de technische details en de verwijzingen gedetailleerd op [ deze pagina ](../content-management/assets/confidence_sequence_technical_details.pdf).
+Voor deskundige gebruikers, zijn de technische details en de verwijzingen gedetailleerd op [&#x200B; deze pagina &#x200B;](../content-management/assets/confidence_sequence_technical_details.pdf).
 
 ## Statistische test- en controlefouten {#statistical-testing}
 

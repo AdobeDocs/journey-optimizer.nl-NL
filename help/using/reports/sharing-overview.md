@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # Trainingsrapporten maken {#design-jo-reports}
 
-Naast [ rapporten in real time ](live-report.md) en ingebouwde [ rapporteringsmogelijkheden ](report-gs-cja.md), [!DNL Journey Optimizer] kunnen de gegevens van de vervoersprestaties automatisch verzenden naar Adobe Experience Platform zodat kan het met andere gegevens voor analysedoeleinden worden gecombineerd.
+Naast [&#x200B; rapporten in real time &#x200B;](live-report.md) en ingebouwde [&#x200B; rapporteringsmogelijkheden &#x200B;](report-gs-cja.md), [!DNL Journey Optimizer] kunnen de gegevens van de vervoersprestaties automatisch verzenden naar Adobe Experience Platform zodat kan het met andere gegevens voor analysedoeleinden worden gecombineerd.
 
 >[!NOTE]
 >
@@ -63,12 +63,12 @@ De lijsten van XDM gebieden die tot Adobe Experience Platform worden overgegaan 
 
 ## Integratie met Customer Journey Analytics {#integration-cja}
 
-[!DNL Journey Optimizer] stapgebeurtenissen kunnen aan andere datasets in [ Adobe Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=nl-NL){target="_blank"} worden verbonden.
+[!DNL Journey Optimizer] stapgebeurtenissen kunnen aan andere datasets in [&#x200B; Adobe Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=nl-NL){target="_blank"} worden verbonden.
 
 De algemene workflow is:
 
 * [!DNL Customer Journey Analytics] voert de gegevensset &quot;Journey Step Event&quot; in.
 * Het **profileID** gebied in het bijbehorende &quot;schema van de Gebeurtenis van de Stap van de Reis voor Journey Orchestration&quot;wordt bepaald als gebied van de Identiteit. In [!DNL Customer Journey Analytics], kunt u deze dataset aan een andere dataset dan verbinden die de zelfde waarde zoals de op persoon gebaseerde herkenningsteken heeft.
-* Om deze dataset in [!DNL Customer Journey Analytics], voor dwars-kanaalreisanalyse te gebruiken, verwijs naar [ documentatie van Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=nl-NL){target="_blank"}.
+* Om deze dataset in [!DNL Customer Journey Analytics], voor dwars-kanaalreisanalyse te gebruiken, verwijs naar [&#x200B; documentatie van Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=nl-NL){target="_blank"}.
 
-➡️ [ Werk met Customer Journey Analytics ](cja-ajo.md){target="_blank"}
+➡️ [&#x200B; Werk met Customer Journey Analytics &#x200B;](cja-ajo.md){target="_blank"}

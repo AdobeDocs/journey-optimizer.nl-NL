@@ -31,9 +31,9 @@ Voer de volgende stappen uit om een handelingscampagne te maken en de eigenschap
 
    ![](assets/create-campaign-properties.png)
 
-1. Gebruik het **gebied van Markeringen** om Adobe Experience Platform Verenigde Markeringen aan uw campagne toe te wijzen. Op deze manier kunt u ze gemakkelijk classificeren en de zoekopdracht in de lijst met campagnes verbeteren. [ Leer hoe te met markeringen ](../start/search-filter-categorize.md#tags) te werken.
+1. Gebruik het **gebied van Markeringen** om Adobe Experience Platform Verenigde Markeringen aan uw campagne toe te wijzen. Op deze manier kunt u ze gemakkelijk classificeren en de zoekopdracht in de lijst met campagnes verbeteren. [&#x200B; Leer hoe te met markeringen &#x200B;](../start/search-filter-categorize.md#tags) te werken.
 
-1. U kunt de toegang tot deze campagne beperken op toegangslabels wordt gebaseerd die. Blader naar de knop **[!UICONTROL Manage access]** boven aan deze pagina om een toegangsbeperking toe te voegen. Zorg ervoor dat u alleen labels selecteert waarvoor u gemachtigd bent. [ Leer meer over het Toegangsbeheer van het Niveau van Objecten ](../administration/object-based-access.md).
+1. U kunt de toegang tot deze campagne beperken op toegangslabels wordt gebaseerd die. Blader naar de knop **[!UICONTROL Manage access]** boven aan deze pagina om een toegangsbeperking toe te voegen. Zorg ervoor dat u alleen labels selecteert waarvoor u gemachtigd bent. [&#x200B; Leer meer over het Toegangsbeheer van het Niveau van Objecten &#x200B;](../administration/object-based-access.md).
 
 ## Volgende stappen {#next}
 

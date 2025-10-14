@@ -17,4 +17,4 @@ ht-degree: 0%
 
 Een schema vertegenwoordigt en valideert de structuur en de indeling van gegevens. Het verstrekt een abstracte definitie van een real-world voorwerp (zoals een persoon) en schetst welke gegevens in elk geval van dat voorwerp (zoals naam, verjaardag, etc.) zouden moeten worden omvat.
 
-![ creeer de knoop van het Schema met Relationele geselecteerde optie ](assets/create-relational-schema.png)
+![&#x200B; creeer de knoop van het Schema met Relationele geselecteerde optie &#x200B;](assets/create-relational-schema.png)

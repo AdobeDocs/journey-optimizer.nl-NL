@@ -52,13 +52,13 @@ Voer de volgende stappen uit om de **[!UICONTROL Read audience]** -activiteit te
 
 1. Voer een **[!UICONTROL Label]** in voor uw activiteit. Dit label wordt gebruikt als de naam van uw publiek.
 
-1. Klik ![ pictogram van het omslagonderzoek ](../assets/do-not-localize/folder-search.svg) om het publiek te selecteren u wenst om voor uw Geordende campagne te richten.
+1. Klik ![&#x200B; pictogram van het omslagonderzoek &#x200B;](../assets/do-not-localize/folder-search.svg) om het publiek te selecteren u wenst om voor uw Geordende campagne te richten.
 
    ![](../assets/read-audience-2.png)
 
 1. Kies een **[!UICONTROL Entity&#x200B;]** optie in de doeldimensie van uw campagne. Deze instelling definieert de doelentiteit en het kenmerk dat wordt gebruikt om het publiek te combineren met de doeldimensie.
 
-   ➡️ [ volg de stappen in deze pagina worden gedetailleerd om uw Campagne te creëren richtend afmeting ](../target-dimension.md)
+   ➡️ [&#x200B; volg de stappen in deze pagina worden gedetailleerd om uw Campagne te creëren richtend afmeting &#x200B;](../target-dimension.md)
 
    ![](../assets/read-audience-3.png)
 

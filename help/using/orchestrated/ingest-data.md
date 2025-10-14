@@ -85,7 +85,7 @@ Als een klant records alleen uit Adobe Experience Platform wil verwijderen zonde
 
   Als vergunning gegeven, **Gegevens Distiller** kan worden gebruikt om schrappingsverrichtingen direct binnen Adobe Experience Platform, onafhankelijk van het bronsysteem te steunen.
 
-  [ Leer meer op Gegevens Distiller ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/data-distiller/overview)
+  [&#x200B; Leer meer op Gegevens Distiller &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/data-distiller/overview)
 
 ## Een gegevensstroom configureren
 
@@ -93,7 +93,7 @@ In dit voorbeeld wordt getoond hoe u een gegevensstroom configureert die gestruc
 
 1. Via het menu **[!UICONTROL Connections]** opent u het menu **[!UICONTROL Sources]** .
 
-1. Kies uw bron afhankelijk van de [ Gesteunde Bronnen voor Geordende campagnes ](#supported).
+1. Kies uw bron afhankelijk van de [&#x200B; Gesteunde Bronnen voor Geordende campagnes &#x200B;](#supported).
 
    ![](assets/admin_sources_1.png)
 
@@ -123,7 +123,7 @@ In dit voorbeeld wordt getoond hoe u een gegevensstroom configureert die gestruc
 
    De maximale ondersteunde grootte is 100 MB.
 
-1. Controleer in het venster **[!UICONTROL Mapping]** of elk kenmerk van het bronbestand correct is toegewezen aan de corresponderende velden in het doelschema. [ Leer meer over het richten van dimensies ](target-dimension.md).
+1. Controleer in het venster **[!UICONTROL Mapping]** of elk kenmerk van het bronbestand correct is toegewezen aan de corresponderende velden in het doelschema. [&#x200B; Leer meer over het richten van dimensies &#x200B;](target-dimension.md).
 
    Klik **[!UICONTROL Next]** eenmaal gereed.
 

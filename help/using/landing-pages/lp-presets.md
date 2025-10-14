@@ -24,9 +24,9 @@ ht-degree: 2%
 
 ## Aan de slag met voorinstellingen voor openingspagina {#gs-lp-presets}
 
-Wanneer [ creërend een het landen pagina ](../landing-pages/create-lp.md#create-a-lp), moet u een het landen vooraf ingestelde pagina selecteren om de het landen pagina en hefboomwerking het door **[!DNL Journey Optimizer]** te kunnen bouwen. De voorinstelling bevat het subdomein dat moet worden gebruikt voor de bestemmingspagina&#39;s die op deze voorinstelling zijn gebaseerd.
+Wanneer [&#x200B; creërend een het landen pagina &#x200B;](../landing-pages/create-lp.md#create-a-lp), moet u een het landen vooraf ingestelde pagina selecteren om de het landen pagina en hefboomwerking het door **[!DNL Journey Optimizer]** te kunnen bouwen. De voorinstelling bevat het subdomein dat moet worden gebruikt voor de bestemmingspagina&#39;s die op deze voorinstelling zijn gebaseerd.
 
-Voordat u een voorinstelling maakt, moet u controleren of u eerder minstens één subdomein van de bestemmingspagina hebt geconfigureerd. [ Leer hoe te om een het landen pagina subdomain ](lp-subdomains.md) tot stand te brengen.
+Voordat u een voorinstelling maakt, moet u controleren of u eerder minstens één subdomein van de bestemmingspagina hebt geconfigureerd. [&#x200B; Leer hoe te om een het landen pagina subdomain &#x200B;](lp-subdomains.md) tot stand te brengen.
 
 ## Voorinstellingen voor openingspagina&#39;s openen {#access-lp-presets}
 
@@ -60,11 +60,11 @@ Voer de onderstaande stappen uit om een voorinstelling voor een openingspagina t
 
    ![](assets/lp_preset-subdomain.png)
 
-   Om een subdomein te kunnen selecteren, zorg ervoor u eerder minstens één het landen paginasubdomain hebt gevormd. [ leer hoe ](#lp-subdomains)
+   Om een subdomein te kunnen selecteren, zorg ervoor u eerder minstens één het landen paginasubdomain hebt gevormd. [&#x200B; leer hoe &#x200B;](#lp-subdomains)
 
    De instellingen die overeenkomen met de geselecteerde subdomeinweergave.
 
-1. U kunt het subdomein van de bestemmingspagina voor het volgen URL selecteren door de optie **[!UICONTROL Same as landing page subdomain]** te controleren. [ Leer meer over het volgen ](../email/message-tracking.md)
+1. U kunt het subdomein van de bestemmingspagina voor het volgen URL selecteren door de optie **[!UICONTROL Same as landing page subdomain]** te controleren. [&#x200B; Leer meer over het volgen &#x200B;](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 

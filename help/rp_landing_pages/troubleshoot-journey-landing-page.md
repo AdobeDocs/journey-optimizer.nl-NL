@@ -64,4 +64,4 @@ Valideer en foutopsporing aangepaste handelingen met de functie &#39;Testaanvraa
 
 ### Aanvullende bronnen
 
-Bovendien, controleer uit [ dit communautaire blogpost van Adobe ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884) die gemeenschappelijke foutencodes detailleert en hoe te om hen effectief op te lossen.
+Bovendien, controleer uit [&#x200B; dit communautaire blogpost van Adobe &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884) die gemeenschappelijke foutencodes detailleert en hoe te om hen effectief op te lossen.

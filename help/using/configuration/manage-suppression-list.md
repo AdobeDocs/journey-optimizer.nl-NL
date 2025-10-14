@@ -22,13 +22,13 @@ Met [!DNL Journey Optimizer] kunt u alle e-mailadressen controleren die automati
 
 Dergelijke e-mailadressen worden automatisch verzameld in de Journey Optimizer **suppressielijst**. Een suppressielijst bestaat uit adressen en domeinen die van uw publiek moeten worden uitgesloten. Het verzamelt e-mailadressen en domeinen die over alle post in één enkele cliëntmilieu worden onderdrukt, betekenend specifiek voor een organisatie ID verbonden aan een zandbak identiteitskaart
 
-Leer meer over het concept en het gebruik van de suppressielijst in [ deze sectie ](../reports/suppression-list.md).
+Leer meer over het concept en het gebruik van de suppressielijst in [&#x200B; deze sectie &#x200B;](../reports/suppression-list.md).
 
 >[!NOTE]
 >
 >Adobe houdt een bijgewerkte lijst bij van bekende slechte adressen waarvan is aangetoond dat ze schadelijk zijn voor de service en de mailingreputatie, en zorgt ervoor dat er geen e-mailberichten aan hen worden bezorgd. Deze lijst wordt beheerd in een algemene suppressielijst die door alle Adobe-klanten wordt gebruikt. De adressen en domeinnamen in de globale suppressielijst worden verborgen. Alleen het aantal uitgesloten ontvangers wordt vermeld in de leveringsverslagen.
 
-Bovendien kunt u hefboomwerking de Journey Optimizer **HULPMIDDELEN API van de Onderdrukking** om uw uitgaande berichten te controleren gebruikend onderdrukking en lijsten van gewenste personen. [ Leer hoe te met de HULPMIDDEL te werken REST API ](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+Bovendien kunt u hefboomwerking de Journey Optimizer **HULPMIDDELEN API van de Onderdrukking** om uw uitgaande berichten te controleren gebruikend onderdrukking en lijsten van gewenste personen. [&#x200B; Leer hoe te met de HULPMIDDEL te werken REST API &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## De lijst met onderdrukking openen {#access-suppression-list}
 
@@ -39,7 +39,7 @@ Blader naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UI
 
 >[!CAUTION]
 >
->De toestemmingen om de suppressielijst te bekijken, uit te voeren en te beheren zijn beperkt tot [ Beheerders van de Reis ](../administration/ootb-product-profiles.md#journey-administrator). Leer meer over het beheren van [!DNL Journey Optimizer] de toegangsrechten van gebruikers in [ deze sectie ](../administration/permissions-overview.md).
+>De toestemmingen om de suppressielijst te bekijken, uit te voeren en te beheren zijn beperkt tot [&#x200B; Beheerders van de Reis &#x200B;](../administration/ootb-product-profiles.md#journey-administrator). Leer meer over het beheren van [!DNL Journey Optimizer] de toegangsrechten van gebruikers in [&#x200B; deze sectie &#x200B;](../administration/permissions-overview.md).
 
 
 Er zijn filters beschikbaar waarmee u door de lijst kunt bladeren.
@@ -61,7 +61,7 @@ De onderdrukkingscategorieën zijn als volgt:
 
   Wanneer de fout het resultaat van een spamklacht is, valt het ook in de **Harde** categorie. Het e-mailadres van de ontvanger die de klacht heeft ingediend, wordt onmiddellijk naar de onderdrukkingslijst gezonden.
 
-* **Zacht**: Een zachte stuit is een tijdelijke e-mailstuiter die voor een geldig e-mailadres voorkwam. Het e-mailadres wordt toegevoegd aan de suppressielijst nadat u het opnieuw hebt geprobeerd. Zachte fouten verzenden een adres naar de onderdrukkingslijst zodra de foutenteller de grensdrempel bereikt. [ Leer meer over pogingen ](retries.md)
+* **Zacht**: Een zachte stuit is een tijdelijke e-mailstuiter die voor een geldig e-mailadres voorkwam. Het e-mailadres wordt toegevoegd aan de suppressielijst nadat u het opnieuw hebt geprobeerd. Zachte fouten verzenden een adres naar de onderdrukkingslijst zodra de foutenteller de grensdrempel bereikt. [&#x200B; Leer meer over pogingen &#x200B;](retries.md)
 
 * **Hand**: De handmatige fouten zijn manueel toegevoegd aan de onderdrukkingslijst. [Meer informatie](#add-addresses-and-domains)
 
@@ -81,12 +81,12 @@ Mogelijke oorzaken voor een mislukte levering zijn:
 
 >[!NOTE]
 >
->Gebruikers met een abonnement ontvangen geen e-mails van [!DNL Journey Optimizer]. Daarom kunnen hun e-mailadressen niet naar de onderdrukkingslijst worden verzonden. Hun keuze wordt op Experience Platform-niveau geregeld. [ Leer meer over opting-out ](../privacy/opt-out.md)
+>Gebruikers met een abonnement ontvangen geen e-mails van [!DNL Journey Optimizer]. Daarom kunnen hun e-mailadressen niet naar de onderdrukkingslijst worden verzonden. Hun keuze wordt op Experience Platform-niveau geregeld. [&#x200B; Leer meer over opting-out &#x200B;](../privacy/opt-out.md)
 
 
 ### Onderdrukkingsregels  {#suppression-rules}
 
-In de weergave **[!UICONTROL Suppression list]** kunt u ook de parameter retry die aan de onderdrukkingsregels is gekoppeld, bewerken via de knop **[!UICONTROL Edit suppression rules]** . Gebruik deze optie om de drempel voor opnieuw proberen voor de huidige zandbak bij te werken. [ Leer meer over herpogingen ](retries.md).
+In de weergave **[!UICONTROL Suppression list]** kunt u ook de parameter retry die aan de onderdrukkingsregels is gekoppeld, bewerken via de knop **[!UICONTROL Edit suppression rules]** . Gebruik deze optie om de drempel voor opnieuw proberen voor de huidige zandbak bij te werken. [&#x200B; Leer meer over herpogingen &#x200B;](retries.md).
 
 
 ## Voeg adressen en domeinen aan de onderdrukkingslijst toe{#add-addresses-and-domains}
@@ -109,7 +109,7 @@ U kunt de suppressielijst [!DNL Journey Optimizer] echter ook handmatig vullen o
 >
 >Het kan tot 60 minuten duren voordat [!DNL Journey Optimizer] de onderdrukte adressen in uitgaande e-mails in aanmerking neemt.
 
-U kunt e-mailadressen of domeinen [ tegelijkertijd ](#add-one-address-or-domain), of [ op bulkwijze ](#upload-csv-file) door een Csv- dossierupload toevoegen.
+U kunt e-mailadressen of domeinen [&#x200B; tegelijkertijd &#x200B;](#add-one-address-or-domain), of [&#x200B; op bulkwijze &#x200B;](#upload-csv-file) door een Csv- dossierupload toevoegen.
 
 ### Eén adres of domein toevoegen {#add-one-address-or-domain}
 
@@ -175,7 +175,7 @@ Voer de onderstaande stappen uit om een groep e-mailadressen of domeinen toe te 
 
    ![](assets/suppression-list-upload-csv-submit.png)
 
-Zodra uploaden wordt gedaan, kunt u zijn status van [ Recente uploads ](#recent-uploads) knoop controleren, zoals hieronder gedetailleerd.
+Zodra uploaden wordt gedaan, kunt u zijn status van [&#x200B; Recente uploads &#x200B;](#recent-uploads) knoop controleren, zoals hieronder gedetailleerd.
 
 ### Status van uploaden controleren {#recent-uploads}
 
@@ -211,7 +211,7 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 
 U kunt de onderdrukkingslijst handmatig bijwerken. Het verwijderen van een e-mailadres uit quarantaine is een gevoelige verrichting en kan uw IP reputatie en leverbaarheidstarieven beïnvloeden. Wees voorzichtig.
 
-Wanneer Adobe Journey Optimizer een e-mailadres of domein uit de suppressielijst verwijdert, kan het opnieuw leveren aan dit adres of domein.  Leer meer over leverability in [ deze sectie ](../reports/deliverability.md).
+Wanneer Adobe Journey Optimizer een e-mailadres of domein uit de suppressielijst verwijdert, kan het opnieuw leveren aan dit adres of domein.  Leer meer over leverability in [&#x200B; deze sectie &#x200B;](../reports/deliverability.md).
 
 Als u een adres uit de lijst met onderdrukking wilt verwijderen, gebruikt u de knop **[!UICONTROL Delete]** .
 
@@ -224,7 +224,7 @@ Als u een adres uit de lijst met onderdrukking wilt verwijderen, gebruikt u de k
 
 Bijvoorbeeld in het geval van een stroomonderbreking van Internet Service Provider (ISP), worden de e-mails ten onrechte gemarkeerd als harde bruggen omdat zij niet met succes aan hun ontvanger kunnen worden geleverd. Deze e-mailadressen moeten uit de onderdrukkingslijst worden verwijderd.
 
-Om die adressen terug te winnen, stel een specifieke vraag met douaneparameters in werking, die op de context van de stroomonderbreking worden gebaseerd. [ leer meer in deze steekproef ](../data/datasets-query-examples.md#isp-outage-query).
+Om die adressen terug te winnen, stel een specifieke vraag met douaneparameters in werking, die op de context van de stroomonderbreking worden gebaseerd. [&#x200B; leer meer in deze steekproef &#x200B;](../data/datasets-query-examples.md#isp-outage-query).
 
 Wanneer de betrokken e-mailadressen zijn geïdentificeerd, filtert u de lijst met onderdrukking om deze weer te geven. Bijvoorbeeld als een ISP stroomonderbreking van 11 Nov, 2022 aan 13 Nov, 2022 op het **test.com** domein gebeurde, filter de adressen die aan de suppressielijst in dat timeframe worden toegevoegd, zoals hieronder:
 

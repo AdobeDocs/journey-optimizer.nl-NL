@@ -45,7 +45,7 @@ Voer de volgende stappen uit om de **[!UICONTROL Build audience]** -activiteit t
 
 1. Klik op **[!UICONTROL Continue]**.
 
-1. Gebruik de regelbouwer om uw vraag te bepalen. [ leer meer over de Bouwer van de Regel in deze sectie ](../orchestrated-rule-builder.md)
+1. Gebruik de regelbouwer om uw vraag te bepalen. [&#x200B; leer meer over de Bouwer van de Regel in deze sectie &#x200B;](../orchestrated-rule-builder.md)
 
 1. Geef op of een uitgaande overgang moet worden gegenereerd wanneer het publiek leeg is.
 

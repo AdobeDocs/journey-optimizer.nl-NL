@@ -22,7 +22,7 @@ Privacy-aanvragen kunnen worden gemaakt en beheerd via het menu **[!UICONTROL Re
 
 ![](assets/requests.png)
 
-Voor meer informatie over Privacy Service en hoe te om privacyverzoeken tot stand te brengen en te beheren, verwijs naar de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl){target="_blank"} .
+Voor meer informatie over Privacy Service en hoe te om privacyverzoeken tot stand te brengen en te beheren, verwijs naar de [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl){target="_blank"} .
 
 <!--* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl-NL)
 * [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=nl-NL)-->
@@ -31,8 +31,8 @@ Voor meer informatie over Privacy Service en hoe te om privacyverzoeken tot stan
 
 U kunt individuele verzoeken om toegang tot en verwijdering van consumentengegevens vanuit Adobe Journey Optimizer op twee manieren verzenden:
 
-* Door **UI van Privacy Service**. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=nl-NL){target="_blank"} 
-* Door **Privacy Service API**. [ leer meer ](https://experienceleague.adobe.com/nl/docs/experience-platform/privacy/api/overview){target="_blank"} 
+* Door **UI van Privacy Service**. [&#x200B; leer meer &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=nl-NL){target="_blank"} 
+* Door **Privacy Service API**. [&#x200B; leer meer &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/privacy/api/overview){target="_blank"} 
   <!--More specific information on Privacy Service API [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank).-->
 
 Privacy Service steunt twee soorten verzoeken: **gegevenstoegang** en **gegevensschrapping**.
@@ -51,10 +51,10 @@ De drie upstream services zijn:
 >
 >In deze handleiding wordt alleen uitgelegd hoe u privacyverzoeken voor [!UICONTROL Adobe Journey Optimizer] kunt indienen.
 >
->* Als u ook van plan bent om privacyverzoeken voor het de gegevensmeer van het Platform te maken, verwijs naar deze [ gids ](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/privacy) naast dit leerprogramma.
+>* Als u ook van plan bent om privacyverzoeken voor het de gegevensmeer van het Platform te maken, verwijs naar deze [&#x200B; gids &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/privacy) naast dit leerprogramma.
 >
->* Voor Echte - tijdklantenprofiel, gelieve te verwijzen naar deze [ gids ](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/privacy).
->* Voor de dienst van de Identiteit, gelieve naar deze [ gids ](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/privacy) te verwijzen.
+>* Voor Echte - tijdklantenprofiel, gelieve te verwijzen naar deze [&#x200B; gids &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/privacy).
+>* Voor de dienst van de Identiteit, gelieve naar deze [&#x200B; gids &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/privacy) te verwijzen.
 >
 >Voor schrapping en toegangsverzoeken, moet u deze individuele systemen roepen om ervoor te zorgen de verzoeken door elk van hen worden behandeld. Als u een privacyaanvraag indient bij [!DNL Adobe Journey Optimizer] , worden de gegevens niet van al deze systemen verwijderd.
 
@@ -65,7 +65,7 @@ De drie upstream services zijn:
 Als u een aanvraag wilt indienen om gegevens voor Adobe Journey Optimizer te openen of te verwijderen, moet u beschikken over:
 
 * een Adobe-organisatie-id
-* een herkenningsteken van de Identiteit van de persoon u op en overeenkomstige namespace(s) wilt handelen.Voor meer informatie over identiteit namespaces in Adobe Journey Optimizer en Experience Platform, zie het [ overzicht van identiteitskaart namespace ](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/namespaces).
+* een herkenningsteken van de Identiteit van de persoon u op en overeenkomstige namespace(s) wilt handelen.Voor meer informatie over identiteit namespaces in Adobe Journey Optimizer en Experience Platform, zie het [&#x200B; overzicht van identiteitskaart namespace &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/namespaces).
 
 >[!IMPORTANT]
 >

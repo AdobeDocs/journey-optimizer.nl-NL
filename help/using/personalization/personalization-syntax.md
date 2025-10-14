@@ -18,7 +18,7 @@ ht-degree: 1%
 
 # Personalization-syntaxis {#personalization-syntax}
 
-Personalization in [!DNL Journey Optimizer] is gebaseerd op de sjabloonsyntaxis Handlebars genoemd. Voor een volledige beschrijving van de syntaxis van Handlebars, verwijs naar [ documentatie HandlebarsJS ](https://handlebarsjs.com/).
+Personalization in [!DNL Journey Optimizer] is gebaseerd op de sjabloonsyntaxis Handlebars genoemd. Voor een volledige beschrijving van de syntaxis van Handlebars, verwijs naar [&#x200B; documentatie HandlebarsJS &#x200B;](https://handlebarsjs.com/).
 
 Er worden een sjabloon en een invoerobject gebruikt om HTML of andere tekstopmaak te genereren. Handlebars de malplaatjes kijken als regelmatige teksten met ingebedde uitdrukkingen Handlebars.
 
@@ -53,11 +53,11 @@ waarbij:
 
 * **Profiel**
 
-  Dit namespace staat u toe om alle die attributen van verwijzingen te voorzien in het profielschema in [ wordt beschreven het Model van Gegevens van Adobe Experience Platform (XDM) documentatie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
+  Dit namespace staat u toe om alle die attributen van verwijzingen te voorzien in het profielschema in [&#x200B; wordt beschreven het Model van Gegevens van Adobe Experience Platform (XDM) documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
 
   De attributen moeten in het schema worden bepaald alvorens in een [!DNL Journey Optimizer] verpersoonlijkingsblok wordt van verwijzingen voorzien.
 
-  Voor meer informatie hoe te om profielattributen in voorwaarden te hefboomwerking, verwijs naar [ deze sectie ](functions/helpers.md#if-function).
+  Voor meer informatie hoe te om profielattributen in voorwaarden te hefboomwerking, verwijs naar [&#x200B; deze sectie &#x200B;](functions/helpers.md#if-function).
 
   +++Sampleverwijzingen
 
@@ -73,7 +73,7 @@ waarbij:
 
 * **Doelgroep**
 
-  Meer over de segmentatiedienst leren, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL){target="_blank"}.
+  Meer over de segmentatiedienst leren, verwijs naar [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL){target="_blank"}.
 
 * **Aanbiedingen**
 
@@ -90,9 +90,9 @@ waarbij:
    * `Placement Id` en `Activity Id` zijn plaatsings- en activiteitsidentificatoren
    * `Attributes` zijn specifieke kenmerken die afhankelijk zijn van het aanbiedingstype. Voorbeeld: `deliveryUrl` voor afbeeldingen
 
-  Voor meer informatie over Besluiten API en op de vertegenwoordiging van de Aanbieding, verwijs naar [ deze pagina ](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+  Voor meer informatie over Besluiten API en op de vertegenwoordiging van de Aanbieding, verwijs naar [&#x200B; deze pagina &#x200B;](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
-  Alle verwijzingen worden bevestigd tegen het Schema van Aanbiedingen met een bevestigingsmechanisme dat op [ wordt beschreven deze pagina ](../personalization/personalization-build-expressions.md)
+  Alle verwijzingen worden bevestigd tegen het Schema van Aanbiedingen met een bevestigingsmechanisme dat op [&#x200B; wordt beschreven deze pagina &#x200B;](../personalization/personalization-build-expressions.md)
 
   +++Sampleverwijzingen
 
@@ -122,7 +122,7 @@ Deze blokhelpers worden geïdentificeerd door een `#` voorafgaand aan de helpern
 
 Blokken zijn expressies met een blokopening (`{{# }}`) en een sluitend (`{{/}}`).
 
-Voor meer informatie over helperfuncties, verwijs [ deze sectie ](functions/helpers.md).
+Voor meer informatie over helperfuncties, verwijs [&#x200B; deze sectie &#x200B;](functions/helpers.md).
 
 ## Letterlijke typen {#literal-types}
 

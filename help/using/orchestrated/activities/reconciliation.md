@@ -91,7 +91,7 @@ Voer de volgende stappen uit om de **[!UICONTROL Reconciliation]** -activiteit t
 
 1. Klik op **[!UICONTROL Add rule]** als u meer overeenkomende regels wilt toevoegen. Er moet aan alle voorwaarden worden voldaan voordat een overeenkomst plaatsvindt.
 
-1. Kies **[!UICONTROL Advanced reconciliation conditions]** voor complexere voorwaarden. Gebruik de [ regelbouwer ](../orchestrated-rule-builder.md) om douanelogica te bepalen.
+1. Kies **[!UICONTROL Advanced reconciliation conditions]** voor complexere voorwaarden. Gebruik de [&#x200B; regelbouwer &#x200B;](../orchestrated-rule-builder.md) om douanelogica te bepalen.
 
 1. Als u wilt filteren welke gegevens moeten worden afgestemd, klikt u op **[!UICONTROL Create filter]** en definieert u de voorwaarde in de regelbouwer.
 

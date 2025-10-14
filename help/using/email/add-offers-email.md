@@ -26,16 +26,16 @@ U kunt bijvoorbeeld een besluit toevoegen dat in uw e-mail een speciale kortings
 >
 >Als er wijzigingen worden aangebracht in een biedbesluit dat wordt gebruikt in een reisbericht, moet u de reis ongedaan maken en opnieuw publiceren.  Dit zal ervoor zorgen dat de veranderingen in het reisbericht worden opgenomen en dat de boodschap in overeenstemming is met de meest recente updates.
 
-* Voor meer op om aanbiedingen tot stand te brengen en te beheren, verwijs naar [ deze sectie ](../offers/get-started/starting-offer-decisioning.md).
-* Voor a **volledig voorbeeld van begin tot eind** die tonen hoe te om aanbiedingen te vormen, gebruik hen in een besluit en hefboomwerking dit besluit in e-mail, controle uit [ deze sectie ](../offers/offers-e2e.md#insert-decision-in-email).
+* Voor meer op om aanbiedingen tot stand te brengen en te beheren, verwijs naar [&#x200B; deze sectie &#x200B;](../offers/get-started/starting-offer-decisioning.md).
+* Voor a **volledig voorbeeld van begin tot eind** die tonen hoe te om aanbiedingen te vormen, gebruik hen in een besluit en hefboomwerking dit besluit in e-mail, controle uit [&#x200B; deze sectie &#x200B;](../offers/offers-e2e.md#insert-decision-in-email).
 
-➡️ [ leren hoe te om aanbiedingen als verpersoonlijking in deze video toe te voegen ](#video-offers)
+➡️ [&#x200B; leren hoe te om aanbiedingen als verpersoonlijking in deze video toe te voegen &#x200B;](#video-offers)
 
 ## Een beslissing invoegen in een e-mail {#insert-offers}
 
 >[!CAUTION]
 >
->Alvorens te beginnen, moet u [ een aanbiedingsbesluit ](../offers/offer-activities/create-offer-activities.md) bepalen.
+>Alvorens te beginnen, moet u [&#x200B; een aanbiedingsbesluit &#x200B;](../offers/offer-activities/create-offer-activities.md) bepalen.
 
 Volg onderstaande stappen om een beslissing in te voegen in een e-mailbericht:
 
@@ -45,13 +45,13 @@ Volg onderstaande stappen om een beslissing in te voegen in een e-mailbericht:
 
    ![](assets/deliver-offer-component.png)
 
-   Leer hoe te om inhoudscomponenten in [ te gebruiken deze sectie ](content-components.md).
+   Leer hoe te om inhoudscomponenten in [&#x200B; te gebruiken deze sectie &#x200B;](content-components.md).
 
 1. Het tabblad **[!UICONTROL Offer decision]** wordt weergegeven in het rechterpalet. Klik op **[!UICONTROL Select Offer decision]** :
 
    1. Selecteer in het venster dat wordt weergegeven de plaatsing die overeenkomt met de aanbiedingen die u wilt weergeven.
 
-      [ Plaatsingen ](../offers/offer-library/creating-placements.md) zijn containers die worden gebruikt om uw aanbiedingen te tonen. In dit voorbeeld gebruiken we de plaatsing &quot;e-mail top image&quot;. Deze plaatsing is in de Bibliotheek van de Aanbieding gecreeerd om beeld-type aanbiedingen te tonen die zich aan de bovenkant van berichten bevinden.
+      [&#x200B; Plaatsingen &#x200B;](../offers/offer-library/creating-placements.md) zijn containers die worden gebruikt om uw aanbiedingen te tonen. In dit voorbeeld gebruiken we de plaatsing &quot;e-mail top image&quot;. Deze plaatsing is in de Bibliotheek van de Aanbieding gecreeerd om beeld-type aanbiedingen te tonen die zich aan de bovenkant van berichten bevinden.
 
    1. Besluiten die overeenkomen met de geselecteerde plaatsingsweergave. Selecteer de beslissing die u in de inhoudscomponent wilt gebruiken en klik op **[!UICONTROL Add]** .
 
@@ -81,7 +81,7 @@ Volg onderstaande stappen om de verschillende aanbiedingen die deel uitmaken van
 
       >[!NOTE]
       >
-      >In dit voorbeeld, gebruiken wij **E-mail** namespace. Leer meer over de identiteitsnaamruimten van Adobe Experience Platform [ in deze sectie ](../audience/get-started-identity.md).
+      >In dit voorbeeld, gebruiken wij **E-mail** namespace. Leer meer over de identiteitsnaamruimten van Adobe Experience Platform [&#x200B; in deze sectie &#x200B;](../audience/get-started-identity.md).
 
    1. Voer in het veld **[!UICONTROL Identity value]** de waarde in waarmee het testprofiel wordt geïdentificeerd. In dit voorbeeld voert u het e-mailadres van een testprofiel in.
 
@@ -97,7 +97,7 @@ Volg onderstaande stappen om de verschillende aanbiedingen die deel uitmaken van
 
    U kunt andere testprofielen selecteren om de e-mailinhoud voor elke variant van uw bericht te bekijken. In de berichtinhoud wordt het aanbod dat overeenkomt met het geselecteerde testprofiel (nu een man) nu weergegeven.
 
-Leer meer over de gedetailleerde stappen om berichtvoorproef in [ deze sectie ](#preview-your-messages) te controleren.
+Leer meer over de gedetailleerde stappen om berichtvoorproef in [&#x200B; deze sectie &#x200B;](#preview-your-messages) te controleren.
 
 ## Hoe kan ik-video{#video-offers}
 

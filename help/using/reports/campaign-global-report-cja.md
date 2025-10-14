@@ -113,7 +113,7 @@ De tabel **[!UICONTROL Tracked link label]** biedt essentiële inzichten in de b
 
 Als u **[!UICONTROL Targeting rules]** instelt voor uw inhoud, biedt de tabel van **[!UICONTROL Targeting overview]** een gedetailleerde weergave van de belangrijkste betrokkenheidsmetriek, waarmee u kunt zien hoe de doelprofielen voor elke regel reageren op uw inhoud.
 
-➡️ [ Leer meer bij het richten van regels ](../campaigns/campaigns-message-optimization.md)
+➡️ [&#x200B; Leer meer bij het richten van regels &#x200B;](../campaigns/campaigns-message-optimization.md)
 
 +++ Meer informatie over gerichte overzichtsmetriek
 

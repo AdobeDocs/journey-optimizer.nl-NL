@@ -89,7 +89,7 @@ Als beheerder, kunt u opstelling externe integratie door deze stappen te volgen:
 
    * **[!UICONTROL Basic Auth]**: standaard HTTP Basic Authentication gebruiken. Voer **[!UICONTROL Username]** en **[!UICONTROL Password]** in.
 
-   * **[!UICONTROL OAuth 2.0]**: verifieer het gebruiken van het protocol OAuth 2.0. Klik ![ uitgeven ](assets/do-not-localize/Smock_Edit_18_N.svg) pictogram **[!UICONTROL Payload]** om te vormen of bij te werken.
+   * **[!UICONTROL OAuth 2.0]**: verifieer het gebruiken van het protocol OAuth 2.0. Klik ![&#x200B; uitgeven &#x200B;](assets/do-not-localize/Smock_Edit_18_N.svg) pictogram **[!UICONTROL Payload]** om te vormen of bij te werken.
 
    ![](assets/external-integration-config-4.png)
 
@@ -97,7 +97,7 @@ Als beheerder, kunt u opstelling externe integratie door deze stappen te volgen:
 
 1. Met het veld **[!UICONTROL Response payload]** kunt u bepalen welke velden van de voorbeelduitvoer moeten worden gebruikt voor het aanpassen van berichten.
 
-   Klik ![ uitgeven ](assets/do-not-localize/Smock_Edit_18_N.svg) pictogram en kleef een steekproefJSON antwoordlading om gegevenstypes automatisch te ontdekken.
+   Klik ![&#x200B; uitgeven &#x200B;](assets/do-not-localize/Smock_Edit_18_N.svg) pictogram en kleef een steekproefJSON antwoordlading om gegevenstypes automatisch te ontdekken.
 
 1. Kies de velden die u toegankelijk wilt maken voor personalisatie en geef de corresponderende gegevenstypen op.
 
@@ -129,13 +129,13 @@ Als markeerteken, kunt u gevormde integraties gebruiken om uw inhoud te personal
 
    ![](assets/external-integration-content-4.png)
 
-1. Om uw integratieopstelling te voltooien, bepaal uw integratiekenmerken, die eerder tijdens [ configuratie ](#configure) werden gespecificeerd.
+1. Om uw integratieopstelling te voltooien, bepaal uw integratiekenmerken, die eerder tijdens [&#x200B; configuratie &#x200B;](#configure) werden gespecificeerd.
 
    U kunt waarden aan deze kenmerken toewijzen met behulp van statische waarden, die constant blijven, of profielkenmerken, die dynamisch informatie van gebruikersprofielen ophalen.
 
    ![](assets/external-integration-content-5.png)
 
-1. Zodra de integratiekenmerken worden bepaald, kunt u de integratievelden in uw inhoud voor gepersonaliseerd overseinen nu gebruiken door ![ te klikken voeg ](assets/do-not-localize/Smock_Add_18_N.svg) pictogram toe.
+1. Zodra de integratiekenmerken worden bepaald, kunt u de integratievelden in uw inhoud voor gepersonaliseerd overseinen nu gebruiken door ![&#x200B; te klikken voeg &#x200B;](assets/do-not-localize/Smock_Add_18_N.svg) pictogram toe.
 
    ![](assets/external-integration-content-6.png)
 

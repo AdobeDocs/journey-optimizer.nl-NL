@@ -22,7 +22,7 @@ Met [!DNL Journey Optimizer] kunt u de machtigingen definiëren en beheren die a
 
 De controle van de toegang voor [!DNL Journey Optimizer] wordt verstrekt door de **Toestemmingen** in Adobe Experience Cloud. Deze functionaliteit gebruikt rollen en beleid, die gebruikers met toestemmingen en zandbakken verbinden.
 
-Als u toegangsbeheer voor Journey Optimizer wilt configureren, moet u over beheerdersrechten voor het systeem of het product beschikken voor uw organisatie. De minimumrol die toestemmingen kan verlenen of intrekken is een productbeheerder. Andere beheerderrollen die toestemmingen kunnen beheren zijn systeembeheerders (geen beperkingen). Zie het [ artikel van het Centrum van de Hulp van Adobe ](https://helpx.adobe.com/nl/enterprise/using/admin-roles.html){target="_blank"} op administratieve rollen voor meer informatie.
+Als u toegangsbeheer voor Journey Optimizer wilt configureren, moet u over beheerdersrechten voor het systeem of het product beschikken voor uw organisatie. De minimumrol die toestemmingen kan verlenen of intrekken is een productbeheerder. Andere beheerderrollen die toestemmingen kunnen beheren zijn systeembeheerders (geen beperkingen). Zie het [&#x200B; artikel van het Centrum van de Hulp van Adobe &#x200B;](https://helpx.adobe.com/nl/enterprise/using/admin-roles.html){target="_blank"} op administratieve rollen voor meer informatie.
 
 <!-- A high-level workflow for gaining and assigning access permissions can be summarized as follows:
 
@@ -37,17 +37,17 @@ Als u toegangsbeheer voor Journey Optimizer wilt configureren, moet u over behee
 Gebruikersbeheer in [!DNL Journey Optimizer] is gebaseerd op de volgende belangrijke concepten:
 
 * **[!UICONTROL Roles]**: Rollen verwijzen naar een verzameling gebruikers die dezelfde machtigingen en sandboxen delen. Deze rollen staan u toe om toegang en toestemmingen voor verschillende groepen gebruikers binnen uw organisatie gemakkelijk te beheren. Een rol wordt geleverd met een reeks eenheidsrechten (toestemmingen) die gebruikers toegang tot bepaalde functionaliteit of voorwerpen in de interface verleent.
-Met [!DNL Journey Optimizer] kunt u een keuze maken uit een reeks vooraf bestaande **[!UICONTROL Roles]** -indelingen, elk met verschillende machtigingsniveaus, om deze toe te wijzen aan uw gebruikers. Leer meer over de beschikbare **ingebouwde rollen** op [ deze pagina ](ootb-product-profiles.md).
+Met [!DNL Journey Optimizer] kunt u een keuze maken uit een reeks vooraf bestaande **[!UICONTROL Roles]** -indelingen, elk met verschillende machtigingsniveaus, om deze toe te wijzen aan uw gebruikers. Leer meer over de beschikbare **ingebouwde rollen** op [&#x200B; deze pagina &#x200B;](ootb-product-profiles.md).
 
-* **[!UICONTROL Permissions]**: Machtigingen zijn eenheidrechten waarmee u de machtigingen kunt definiëren die aan **[!UICONTROL Roles]** zijn toegewezen. Elke machtiging wordt verzameld onder bronnen, bijvoorbeeld Reis of Aanbiedingen, die de verschillende functies of objecten in [!DNL Journey Optimizer] vertegenwoordigen. Leer meer in de [ niveaus van de Toestemming ](high-low-permissions.md) sectie.
+* **[!UICONTROL Permissions]**: Machtigingen zijn eenheidrechten waarmee u de machtigingen kunt definiëren die aan **[!UICONTROL Roles]** zijn toegewezen. Elke machtiging wordt verzameld onder bronnen, bijvoorbeeld Reis of Aanbiedingen, die de verschillende functies of objecten in [!DNL Journey Optimizer] vertegenwoordigen. Leer meer in de [&#x200B; niveaus van de Toestemming &#x200B;](high-low-permissions.md) sectie.
 
   ![](assets/do-not-localize/permissions_2.png)
 
-* **[!UICONTROL Sandboxes]**: virtuele sandboxen verdelen instanties in afzonderlijke, geïsoleerde virtuele omgevingen. Sandboxen worden toegewezen via rollen in Machtigingen. Leer meer over [ gebruikend zandbakken ](sandboxes.md).
+* **[!UICONTROL Sandboxes]**: virtuele sandboxen verdelen instanties in afzonderlijke, geïsoleerde virtuele omgevingen. Sandboxen worden toegewezen via rollen in Machtigingen. Leer meer over [&#x200B; gebruikend zandbakken &#x200B;](sandboxes.md).
 
-* **op voorwerp-gebaseerde toegangsbeheer**: Etiketten om de toegang tot een voorwerp te beperken. Deze aanpak beschermt gevoelige digitale middelen tegen onbevoegde gebruikers en zorgt voor een verdere bescherming van persoonsgegevens. Leer meer over [ op voorwerp-Gebaseerd toegangsbeheer ](object-based-access.md).
+* **op voorwerp-gebaseerde toegangsbeheer**: Etiketten om de toegang tot een voorwerp te beperken. Deze aanpak beschermt gevoelige digitale middelen tegen onbevoegde gebruikers en zorgt voor een verdere bescherming van persoonsgegevens. Leer meer over [&#x200B; op voorwerp-Gebaseerd toegangsbeheer &#x200B;](object-based-access.md).
 
-* **op attributen-gebaseerde toegangscontrole**: Vergunningen om gegevenstoegang voor specifieke teams of groepen gebruikers te beheren. Op attributen-gebaseerde toegangscontrole laat beheerders toe om toegang tot specifieke voorwerpen en/of mogelijkheden te controleren die op attributen worden gebaseerd. Kenmerken kunnen metagegevens zijn die aan een object worden toegevoegd, zoals een label dat aan een schemaveld of -segment wordt toegevoegd. Een beheerder bepaalt toegangsbeleid dat attributen omvat om de toestemmingen van de gebruikerstoegang te beheren. Leer meer over [ op attributen-gebaseerd toegangsbeheer ](attribute-based-access.md).
+* **op attributen-gebaseerde toegangscontrole**: Vergunningen om gegevenstoegang voor specifieke teams of groepen gebruikers te beheren. Op attributen-gebaseerde toegangscontrole laat beheerders toe om toegang tot specifieke voorwerpen en/of mogelijkheden te controleren die op attributen worden gebaseerd. Kenmerken kunnen metagegevens zijn die aan een object worden toegevoegd, zoals een label dat aan een schemaveld of -segment wordt toegevoegd. Een beheerder bepaalt toegangsbeleid dat attributen omvat om de toestemmingen van de gebruikerstoegang te beheren. Leer meer over [&#x200B; op attributen-gebaseerd toegangsbeheer &#x200B;](attribute-based-access.md).
 
 
 ## Laten we dieper duiken

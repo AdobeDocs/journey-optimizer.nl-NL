@@ -20,13 +20,13 @@ ht-degree: 1%
 >title="Definieer een op code gebaseerde ervaringsconfiguratie"
 >abstract="Een op code-gebaseerde configuratie bepaalt de weg en de plaats binnen uw toepassing, uniek geïdentificeerd door URI in de toepassingsimplementatie, waar de inhoud zal worden geleverd en worden verbruikt."
 
-Alvorens [ bouwend uw ervaring ](create-code-based.md), moet u een op code-gebaseerde ervaringsconfiguratie tot stand brengen waarin u bepaalt waar de inhoud binnen uw toepassing zal worden geleverd en worden verbruikt.
+Alvorens [&#x200B; bouwend uw ervaring &#x200B;](create-code-based.md), moet u een op code-gebaseerde ervaringsconfiguratie tot stand brengen waarin u bepaalt waar de inhoud binnen uw toepassing zal worden geleverd en worden verbruikt.
 
 Een op code-gebaseerde ervaringsconfiguratie moet naar de oppervlakte verwijzen, die fundamenteel de plaats is waar u uw veranderingen wilt teruggeven. Volgens het geselecteerde platform moet u een locatie/pad of de volledige oppervlakte-URI invoeren. [Meer informatie](code-based-surface.md)
 
 >[!NOTE]
 >
->Wanneer u veelvoudige code-gebaseerde ervaringsacties gebruikend de zelfde kanaalconfiguratie (en zo lopend op de zelfde oppervlakte) hebt, bepaalt de campagne of reis **[!UICONTROL Priority score]** wat aan de eindgebruiker wordt geleverd als zij voor meer dan één actie kwalificeren. [ leer meer op prioritaire scores ](../conflict-prioritization/priority-scores.md)
+>Wanneer u veelvoudige code-gebaseerde ervaringsacties gebruikend de zelfde kanaalconfiguratie (en zo lopend op de zelfde oppervlakte) hebt, bepaalt de campagne of reis **[!UICONTROL Priority score]** wat aan de eindgebruiker wordt geleverd als zij voor meer dan één actie kwalificeren. [&#x200B; leer meer op prioritaire scores &#x200B;](../conflict-prioritization/priority-scores.md)
 
 ## Een op code gebaseerde ervaringsconfiguratie maken {#create-code-based-configuration}
 
@@ -52,7 +52,7 @@ Ga als volgt te werk om een op code gebaseerde configuratie van het ervaringskan
    >
    > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook onderstrepingsteken `_` -, punt `.` - en afbreekstreepjes `-` gebruiken.
 
-1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md)
+1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [&#x200B; leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) &#x200B;](../administration/object-based-access.md)
 
 1. Selecteer **[!UICONTROL Marketing action]**(s) om het toestemmingsbeleid aan de berichten te associëren gebruikend deze configuratie. Alle toestemmingsbeleid verbonden aan de marketing actie wordt gebruikt om de voorkeur van uw klanten te respecteren. [Meer informatie](../action/consent.md#surface-marketing-actions)
 
@@ -76,11 +76,11 @@ Ga als volgt te werk om een op code gebaseerde configuratie van het ervaringskan
 
 1. Klik op **[!UICONTROL Submit]** om de wijzigingen op te slaan.
 
-U kunt deze configuratie nu selecteren wanneer [ creërend een code-gebaseerde ervaring ](create-code-based.md) in uw campagnes en reizen.
+U kunt deze configuratie nu selecteren wanneer [&#x200B; creërend een code-gebaseerde ervaring &#x200B;](create-code-based.md) in uw campagnes en reizen.
 
 >[!NOTE]
 >
->Het implementatieteam van uw app is verantwoordelijk voor het uitvoeren van expliciete API- of SDK-aanroepen om inhoud op te halen voor de oppervlakken die zijn gedefinieerd in de geselecteerde op code gebaseerde ervaringsconfiguratie. Leer meer over de verschillende klantenimplementaties in [ deze sectie ](code-based-implementation-samples.md).
+>Het implementatieteam van uw app is verantwoordelijk voor het uitvoeren van expliciete API- of SDK-aanroepen om inhoud op te halen voor de oppervlakken die zijn gedefinieerd in de geselecteerde op code gebaseerde ervaringsconfiguratie. Leer meer over de verschillende klantenimplementaties in [&#x200B; deze sectie &#x200B;](code-based-implementation-samples.md).
 
 ### Webplatforms {#web}
 
@@ -108,7 +108,7 @@ Volg onderstaande stappen om de op code gebaseerde instellingen voor ervaringsco
 1. Het volgende is van toepassing op de voorbeeld-URL:
 
    * Als er één pagina-URL wordt ingevoerd, wordt die URL gebruikt voor de voorvertoning. U hoeft geen andere URL in te voeren.
-   * Als a [ pagina&#39;s passende regel ](../web/web-configuration.md#web-page-matching-rule) wordt geselecteerd, moet u a **[!UICONTROL Default authoring and preview URL]** ingaan die aan voorproef de ervaring in browser zal worden gebruikt. [Meer informatie](test-code-based.md#preview-on-device)
+   * Als a [&#x200B; pagina&#39;s passende regel &#x200B;](../web/web-configuration.md#web-page-matching-rule) wordt geselecteerd, moet u a **[!UICONTROL Default authoring and preview URL]** ingaan die aan voorproef de ervaring in browser zal worden gebruikt. [Meer informatie](test-code-based.md#preview-on-device)
 
      ![](assets/code_config_matching_rules_preview.png)
 
@@ -148,19 +148,19 @@ Volg onderstaande stappen om de op code gebaseerde instellingen voor ervaringsco
 
    * Voor Android:
 
-      * [ creeer Diepe Verbindingen aan de Context van de Toepassing ](https://developer.android.com/training/app-links/deep-linking)
+      * [&#x200B; creeer Diepe Verbindingen aan de Context van de Toepassing &#x200B;](https://developer.android.com/training/app-links/deep-linking)
 
    * Voor iOS:
 
-      * [ het bepalen van een Regeling van Douane URL voor Uw app ](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
+      * [&#x200B; het bepalen van een Regeling van Douane URL voor Uw app &#x200B;](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
 
-      * [ ondersteunend Universele Verbindingen in Uw app ](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
+      * [&#x200B; ondersteunend Universele Verbindingen in Uw app &#x200B;](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
 
 +++
 
    >[!NOTE]
    >
-   >Als u kwesties terwijl het previewing van de ervaring ontmoet, gelieve te verwijzen naar [ deze documentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
+   >Als u kwesties terwijl het previewing van de ervaring ontmoet, gelieve te verwijzen naar [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
 
 ### Andere platforms {#other}
 

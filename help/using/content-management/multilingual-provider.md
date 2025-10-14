@@ -36,7 +36,7 @@ Voordat u de gekozen vertaalprovider toevoegt, moet u controleren of u een accou
 
    >[!NOTE]
    >
-   >Om een nieuwe **Leverancier** aan de lijst toe te voegen, kunt u uw **Leverancier** vragen om de instructies te volgen die in [ worden gedetailleerd dit document ](https://developer.adobe.com/gcs/partner/) om het aan boord gaan proces te voltooien.
+   >Om een nieuwe **Leverancier** aan de lijst toe te voegen, kunt u uw **Leverancier** vragen om de instructies te volgen die in [&#x200B; worden gedetailleerd dit document &#x200B;](https://developer.adobe.com/gcs/partner/) om het aan boord gaan proces te voltooien.
 
    ![](assets/provider_2.png)
 

@@ -21,9 +21,9 @@ Gebruik [!DNL Journey Optimizer] om tekstberichten (SMS/MMS/RCS) naar uw klanten
 
 Tekstberichten kunnen worden gemaakt en verzonden tijdens een rit of in een campagne. Gebruik voor SMS, MMS en RCS de SMS-handeling.
 
-* In a **Reis**. Creeer een reis, voeg een activiteit van SMS toe, en bepaal basismontages. Blader vervolgens naar het deelvenster Handelingen: SMS rechts om de inhoud voor het SMS-, MMS- of RCS-bericht te maken. [ leer hoe te om een reis ](../building-journeys/journey-gs.md) tot stand te brengen
+* In a **Reis**. Creeer een reis, voeg een activiteit van SMS toe, en bepaal basismontages. Blader vervolgens naar het deelvenster Handelingen: SMS rechts om de inhoud voor het SMS-, MMS- of RCS-bericht te maken. [&#x200B; leer hoe te om een reis &#x200B;](../building-journeys/journey-gs.md) tot stand te brengen
 
-* In a **Campagne**. Maak een campagne, selecteer SMS als uw actie en definieer basisinstellingen. Vervolgens bewerkt u de inhoud van het bericht om het SMS-, MMS- of RCS-bericht te definiëren dat u wilt verzenden. [ Leer hoe te om een campagne ](../campaigns/create-campaign.md#configure) tot stand te brengen
+* In a **Campagne**. Maak een campagne, selecteer SMS als uw actie en definieer basisinstellingen. Vervolgens bewerkt u de inhoud van het bericht om het SMS-, MMS- of RCS-bericht te definiëren dat u wilt verzenden. [&#x200B; Leer hoe te om een campagne &#x200B;](../campaigns/create-campaign.md#configure) tot stand te brengen
 
 Adobe Journey Optimizer verzendt tekstberichten via SMS-serviceproviders (of SMS-gatewayproviders). Voordat u uw SMS/MMS/RCS-bericht maakt, configureert u uw serviceprovider voor tekst en RCS-berichten met Journey Optimizer. [Meer informatie](sms-configuration.md)
 

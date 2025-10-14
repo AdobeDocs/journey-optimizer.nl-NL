@@ -33,7 +33,7 @@ Met Adobe Journey Optimizer kunt u de volgende soorten reizen maken:
 
 * **reizen van de kwalificatie van het publiek 0&rbrace; &lbrace;: deze reizen beginnen met een de kwalificatiegebeurtenis van het Publiek.** Deze reizen luisteren naar de in- en uitgangen van profielen in het publiek. Wanneer dit gebeurt, gaat het bijbehorende profiel de reis in. [Meer informatie](#entry-unitary)
 
-In alle vervoerstypes, kan een profiel niet veelvoudige tijden in de zelfde reis, tezelfdertijd, voor alle actieve [ versies van de reis ](publishing-the-journey.md#journey-versions-journey-versions) zijn. Om te controleren of een persoon op reis is, wordt de profielidentiteit gebruikt als sleutel. Het systeem staat niet toe dat dezelfde sleutel, bijvoorbeeld de sleutel `CRMID=3224`, zich op verschillende plaatsen op dezelfde reis bevindt.
+In alle vervoerstypes, kan een profiel niet veelvoudige tijden in de zelfde reis, tezelfdertijd, voor alle actieve [&#x200B; versies van de reis &#x200B;](publishing-the-journey.md#journey-versions-journey-versions) zijn. Om te controleren of een persoon op reis is, wordt de profielidentiteit gebruikt als sleutel. Het systeem staat niet toe dat dezelfde sleutel, bijvoorbeeld de sleutel `CRMID=3224`, zich op verschillende plaatsen op dezelfde reis bevindt.
 
 ## Eenheids- en publiekskwalificatietrajecten{#entry-unitary}
 
@@ -41,9 +41,9 @@ In **de gebeurtenis van de Eenheid** en **de kwalificatiereizen van het publiek*
 
 * Als de terugkeer wordt toegelaten, kan een profiel een reis verscheidene keren ingaan, maar kan het niet doen tot hij het vorige geval van de reis volledig verliet.
 
-* Als de terugkeer wordt onbruikbaar gemaakt, kan een profiel niet veelvoudige tijden de zelfde reis, binnen de globale reis timeout periode ingaan. Zie deze [ sectie ](../building-journeys/journey-properties.md#global_timeout).
+* Als de terugkeer wordt onbruikbaar gemaakt, kan een profiel niet veelvoudige tijden de zelfde reis, binnen de globale reis timeout periode ingaan. Zie deze [&#x200B; sectie &#x200B;](../building-journeys/journey-properties.md#global_timeout).
 
-Bij reizen is standaard terugkeer toegestaan. Wanneer **toe staat terugkeer** optie wordt geactiveerd, **de ingang wacht periode** gebied wordt getoond. Hiermee kunt u de tijd definiëren die moet worden gewacht voordat een profiel de reis opnieuw kan betreden. Hierdoor wordt voorkomen dat ritten meerdere keren ten onrechte worden geactiveerd voor dezelfde gebeurtenis. Het veld wordt standaard ingesteld op 5 minuten. De maximumduur is 91 dagen ([ globale onderbreking ](journey-properties.md#global_timeout)).
+Bij reizen is standaard terugkeer toegestaan. Wanneer **toe staat terugkeer** optie wordt geactiveerd, **de ingang wacht periode** gebied wordt getoond. Hiermee kunt u de tijd definiëren die moet worden gewacht voordat een profiel de reis opnieuw kan betreden. Hierdoor wordt voorkomen dat ritten meerdere keren ten onrechte worden geactiveerd voor dezelfde gebeurtenis. Het veld wordt standaard ingesteld op 5 minuten. De maximumduur is 91 dagen ([&#x200B; globale onderbreking &#x200B;](journey-properties.md#global_timeout)).
 
 <!--
 When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. 
@@ -70,7 +70,7 @@ In het geval van bedrijfsgebeurtenissen, voor een bepaalde reis, worden de publi
 
 Een profiel kan meerdere keren aanwezig zijn op dezelfde reis, tegelijkertijd, maar in de context van verschillende bedrijfsgebeurtenissen.
 
-Voor meer informatie, verwijs naar deze [ sectie ](../event/about-creating-business.md)
+Voor meer informatie, verwijs naar deze [&#x200B; sectie &#x200B;](../event/about-creating-business.md)
 
 ## Reizen voor het publiek lezen {#entry-read-audience}
 
@@ -80,7 +80,7 @@ Voor meer informatie, verwijs naar deze [ sectie ](../event/about-creating-busin
 
 * Voor terugkerende reizen: standaard komen alle profielen van het publiek de reis in bij elke terugkerende reis. Ze moeten de reis afmaken voordat ze in een ander voorval kunnen terugkeren.
 
-Er zijn verschillende opties beschikbaar voor terugkerende lezersreizen. Voor meer informatie, verwijs naar [ Gebruik een publiek in een reis ](../building-journeys/read-audience.md) sectie.
+Er zijn verschillende opties beschikbaar voor terugkerende lezersreizen. Voor meer informatie, verwijs naar [&#x200B; Gebruik een publiek in een reis &#x200B;](../building-journeys/read-audience.md) sectie.
 
 <!--
 After 91 days, a Read audience journey switches to the **Finished** status. This behavior is set for 91 days only (i.e. journey timeout default value) as all information about profiles who entered the journey is removed 91 days after they entered. Persons still in the journey automatically are impacted. They exit the journey after the 30 day timeout. 

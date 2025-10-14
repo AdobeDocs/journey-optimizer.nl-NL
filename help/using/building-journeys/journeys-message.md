@@ -38,7 +38,7 @@ Met ingebouwde kanaalacties, kunt u uitgaande of binnenkomende berichten vormen.
 
 Volg onderstaande stappen om een ingebouwde kanaalactie aan een reis toe te voegen.
 
-1. Begin uw reis met een [ Gebeurtenis ](general-events.md) of a [ gelezen activiteit van het publiek ](read-audience.md).
+1. Begin uw reis met een [&#x200B; Gebeurtenis &#x200B;](general-events.md) of a [&#x200B; gelezen activiteit van het publiek &#x200B;](read-audience.md).
 
 1. Van de **sectie van Acties** van het palet, sleep en laat vallen een kanaalactiviteit in het canvas.
 

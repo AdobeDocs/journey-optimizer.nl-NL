@@ -33,6 +33,6 @@ Nadat de campagne is geactiveerd, moet u het gegenereerde voorbeeld-cURL-verzoek
 
    ![](assets/api-triggered-curl.png)
 
-1. Gebruik dit cURL-verzoek in de API&#39;s om de payload te bouwen en de campagne te starten. Voor meer informatie, verwijs naar de [ Interactieve documentatie van API van de Uitvoering van het Bericht ](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+1. Gebruik dit cURL-verzoek in de API&#39;s om de payload te bouwen en de campagne te starten. Voor meer informatie, verwijs naar de [&#x200B; Interactieve documentatie van API van de Uitvoering van het Bericht &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
 
-   API vraagvoorbeelden zijn ook beschikbaar op [ deze pagina ](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).
+   API vraagvoorbeelden zijn ook beschikbaar op [&#x200B; deze pagina &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).

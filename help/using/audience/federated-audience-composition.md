@@ -28,7 +28,7 @@ die onlangs bestellingen online plaatste met de voorkeursrestaurantlocatie van e
 * **Efficiënt gegevensbeheer** - minimaliseer gegevensexemplaar, regeer gevoelige
 gegevensgebruik, en optimaliseer de investeringen van IT om real-time cross-channel gebruiksgevallen op Adobe aan te vullen
 
-Voor meer informatie, te lezen gelieve de gids op [ Federated de Samenstelling van het Publiek ](https://experienceleague.adobe.com/nl/docs/federated-audience-composition/using/home){target="_blank"} .
+Voor meer informatie, te lezen gelieve de gids op [&#x200B; Federated de Samenstelling van het Publiek &#x200B;](https://experienceleague.adobe.com/nl/docs/federated-audience-composition/using/home){target="_blank"} .
 
 Meer informatie over Federated Audience Composition vindt u in video:
 

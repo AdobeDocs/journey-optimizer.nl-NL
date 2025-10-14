@@ -56,7 +56,7 @@ Dit ecosysteem werkt als een doorlopende optimalisatiecyclus. Gegevens zorgen er
 
 ## Gedetailleerde architectuur
 
-![ Architectuur van Adobe Journey Optimizer ](assets/ajo-architecture.png)
+![&#x200B; Architectuur van Adobe Journey Optimizer &#x200B;](assets/ajo-architecture.png)
 
 
 ## Privacy en beveiliging

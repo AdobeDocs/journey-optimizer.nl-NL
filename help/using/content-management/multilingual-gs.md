@@ -54,7 +54,7 @@ Voor de meertalige inhoud moeten de volgende instellingen worden gedefinieerd:
 
 * Als u de vertaalfunctie in Journey Optimizer wilt gebruiken, moet u API aan de bijbehorende rol toewijzen. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
-* Gebruikers moeten de machtiging **[!UICONTROL Manage Language settings]** krijgen om meertalige inhoud te maken. Voor automatische doorloop hebben gebruikers ook machtigingen nodig die betrekking hebben op de mogelijkheden van **[!UICONTROL Translation Service]** . [ leer meer over toestemmingen ](../administration/permissions.md)
+* Gebruikers moeten de machtiging **[!UICONTROL Manage Language settings]** krijgen om meertalige inhoud te maken. Voor automatische doorloop hebben gebruikers ook machtigingen nodig die betrekking hebben op de mogelijkheden van **[!UICONTROL Translation Service]** . [&#x200B; leer meer over toestemmingen &#x200B;](../administration/permissions.md)
 
 +++ Meer informatie over het toewijzen van meertalige gerelateerde machtigingen
 
@@ -74,7 +74,7 @@ Voor de meertalige inhoud moeten de volgende instellingen worden gedefinieerd:
 
    1. Ga de naam van de gebruiker, e-mailadres in, of kies van de lijst, dan klik **sparen**.
 
-   1. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/users).
+   1. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/users).
 
 +++
 

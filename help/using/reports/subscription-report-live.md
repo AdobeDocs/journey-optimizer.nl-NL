@@ -28,7 +28,7 @@ Klik op het pictogram **[!UICONTROL Report]** van de geselecteerde abonnementenl
 
 ![](assets/subscription_report_7.png)
 
-Het abonnement **[!UICONTROL Live report]** is verdeeld in verschillende widgets waarin uw abonnementen en afmeldingsopties worden gedetailleerd. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Voor meer informatie over dit verwijs naar deze [ sectie ](live-report.md).
+Het abonnement **[!UICONTROL Live report]** is verdeeld in verschillende widgets waarin uw abonnementen en afmeldingsopties worden gedetailleerd. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Voor meer informatie over dit verwijs naar deze [&#x200B; sectie &#x200B;](live-report.md).
 
 ![](assets/subscription_report_3.png)
 

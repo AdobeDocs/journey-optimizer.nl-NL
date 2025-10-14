@@ -56,7 +56,7 @@ Let op: voorlopig is er geen contextueel kenmerk beschikbaar voor gebruik in het
 
 ## Inhoud testen en controleren
 
-Zodra de inhoud is gedefinieerd, gebruikt u de knop **[!UICONTROL Simulate content]** om een voorvertoning van uw inhoud weer te geven en deze te testen met testprofielen of voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [ Leer hoe te om inhoud ](../content-management/preview-test.md) voor te vertonen en te testen. Klik op de linkerpijl om terug te bladeren naar het scherm Campagne maken.
+Zodra de inhoud is gedefinieerd, gebruikt u de knop **[!UICONTROL Simulate content]** om een voorvertoning van uw inhoud weer te geven en deze te testen met testprofielen of voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [&#x200B; Leer hoe te om inhoud &#x200B;](../content-management/preview-test.md) voor te vertonen en te testen. Klik op de linkerpijl om terug te bladeren naar het scherm Campagne maken.
 
 ![](assets/create-campaign-design.png)
 

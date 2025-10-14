@@ -20,11 +20,11 @@ ht-degree: 2%
 
 Gebruik de modus **[!UICONTROL Code your own]** om onbewerkte HTML te importeren en/of uw e-mailinhoud te coderen. Deze methode vereist HTML-vaardigheden.
 
-➡️ [ ontdekt deze eigenschap in video ](#video)
+➡️ [&#x200B; ontdekt deze eigenschap in video &#x200B;](#video)
 
 >[!CAUTION]
 >
-> De beelden van [ Adobe Experience Manager Assets ](../integrations/assets.md) kunnen niet worden van verwijzingen voorzien wanneer het gebruiken van deze methode. De afbeeldingen waarnaar in uw HTML-code wordt verwezen, moeten worden opgeslagen op een openbare locatie.
+> De beelden van [&#x200B; Adobe Experience Manager Assets &#x200B;](../integrations/assets.md) kunnen niet worden van verwijzingen voorzien wanneer het gebruiken van deze methode. De afbeeldingen waarnaar in uw HTML-code wordt verwezen, moeten worden opgeslagen op een openbare locatie.
 
 1. Selecteer **[!UICONTROL Code your own]** op de homepage van E-mail Designer.
 

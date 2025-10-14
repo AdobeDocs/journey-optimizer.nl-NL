@@ -23,9 +23,9 @@ ht-degree: 0%
 >title="Handelingen voor Adobe Campaign v7/v8"
 >abstract="Deze integratie is beschikbaar voor Adobe Campaign v7 en v8. Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden van Adobe Campaign Transaction Messaging. De verbinding tussen de Journey Optimizer- en Campagneinstanties wordt door Adobe tijdens de levering ingesteld."
 
-Als u Adobe Campaign Classic v7 of Campaign v8 hebt, kunt u op uw reizen een specifieke aangepaste actie uitvoeren om Adobe Journey Optimizer en Adobe Campaign te integreren. Dankzij deze integratie kunt u e-mails, pushberichten en SMS verzenden via de mogelijkheden van Adobe Campaign Transaction Messaging. Leer meer in dit [ gebruiksgeval van begin tot eind ](../building-journeys/ajo-ac.md).
+Als u Adobe Campaign Classic v7 of Campaign v8 hebt, kunt u op uw reizen een specifieke aangepaste actie uitvoeren om Adobe Journey Optimizer en Adobe Campaign te integreren. Dankzij deze integratie kunt u e-mails, pushberichten en SMS verzenden via de mogelijkheden van Adobe Campaign Transaction Messaging. Leer meer in dit [&#x200B; gebruiksgeval van begin tot eind &#x200B;](../building-journeys/ajo-ac.md).
 
-Voor elke gevormde actie, is de actie van de a [ Campagne activiteit ](../building-journeys/using-adobe-campaign-v7-v8.md) beschikbaar in het palet van de reisontwerper.
+Voor elke gevormde actie, is de actie van de a [&#x200B; Campagne activiteit &#x200B;](../building-journeys/using-adobe-campaign-v7-v8.md) beschikbaar in het palet van de reisontwerper.
 
 ## Activering {#access}
 
@@ -61,7 +61,7 @@ Op verzoek wordt de verbinding tussen de Journey Optimizer- en Adobe Campaign-om
 
 ## Vereisten {#prerequisites}
 
-In Adobe Campaign moet u een transactiemelding en de bijbehorende gebeurtenis maken en publiceren. Verwijs naar de [ documentatie van Adobe Campaign ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
+In Adobe Campaign moet u een transactiemelding en de bijbehorende gebeurtenis maken en publiceren. Verwijs naar de [&#x200B; documentatie van Adobe Campaign &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
 
 U kunt uw JSON-lading voor elk bericht samenstellen volgens het onderstaande patroon. U gaat deze lading dan kleven wanneer het vormen van de actie in Journey Optimizer (zie hieronder).
 
@@ -90,7 +90,7 @@ In Journey Optimizer moet u één actie per transactiemelding configureren.
 
 Ga als volgt te werk om een Campagne te maken:
 
-1. Maak een nieuwe handeling. [ Leer hoe te om douaneacties ](../action/action.md) tot stand te brengen.
+1. Maak een nieuwe handeling. [&#x200B; Leer hoe te om douaneacties &#x200B;](../action/action.md) tot stand te brengen.
 1. Voer een naam en beschrijving in.
 1. Op het **type van Actie** gebied, uitgezochte **Adobe Campaign Classic**.
    ![](assets/accintegration1.png)

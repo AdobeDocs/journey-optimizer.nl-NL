@@ -37,11 +37,11 @@ Voordelen zijn:
 * Verbeterde workflows: in plaats van meerdere verzendingen of campagnes te maken kunnen marketingteams de workflows verbeteren door één verzending te maken en de aanbiedingen in verschillende delen van de sjabloon te variëren,
 * De controle over het aantal keren dat een aanbieding wordt getoond aan campagnes en klanten.
 
-➡️ [ Leer meer over het Beheer van het Besluit in deze video&#39;s ](#video)
+➡️ [&#x200B; Leer meer over het Beheer van het Besluit in deze video&#39;s &#x200B;](#video)
 
 >[!NOTE]
 >
->Als u een [ Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=nl-NL){target="_blank"} gebruiker die de **Offer Decisioning** toepassing leveraging, zijn alle die eigenschappen van het Beheer van het Besluit in deze sectie worden beschreven ook op u van toepassing.
+>Als u een [&#x200B; Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=nl-NL){target="_blank"} gebruiker die de **Offer Decisioning** toepassing leveraging, zijn alle die eigenschappen van het Beheer van het Besluit in deze sectie worden beschreven ook op u van toepassing.
 
 ## Aanbiedingen en beslissingen {#about-offers-and-decisions}
 
@@ -73,11 +73,11 @@ Dankzij de mogelijkheden voor Beslissingsbeheer en de integratie met Adobe Exper
 
 ## Toegang verlenen tot het beheer van besluiten {#granting-acess-to-decision-management}
 
-De toestemmingen om beslissingsmogelijkheden toegang te hebben en te gebruiken worden beheerd gebruikend [ Adobe Admin Console ](https://helpx.adobe.com/nl/enterprise/managing/user-guide.html){target="_blank"}.
+De toestemmingen om beslissingsmogelijkheden toegang te hebben en te gebruiken worden beheerd gebruikend [&#x200B; Adobe Admin Console &#x200B;](https://helpx.adobe.com/nl/enterprise/managing/user-guide.html){target="_blank"}.
 
-Als u toegang wilt verlenen tot de functionaliteit voor beslissingsbeheer, moet u een **[!UICONTROL Product profile]** maken en de bijbehorende machtigingen aan uw gebruikers toewijzen. Leer meer over het beheren van [!DNL Journey Optimizer] gebruikers en toestemmingen in [ deze sectie ](../../administration/permissions.md).
+Als u toegang wilt verlenen tot de functionaliteit voor beslissingsbeheer, moet u een **[!UICONTROL Product profile]** maken en de bijbehorende machtigingen aan uw gebruikers toewijzen. Leer meer over het beheren van [!DNL Journey Optimizer] gebruikers en toestemmingen in [&#x200B; deze sectie &#x200B;](../../administration/permissions.md).
 
-De toestemmingen specifiek voor het Beheer van het Besluit worden vermeld in [ deze sectie ](../../administration/high-low-permissions.md#decisions-permissions).
+De toestemmingen specifiek voor het Beheer van het Besluit worden vermeld in [&#x200B; deze sectie &#x200B;](../../administration/high-low-permissions.md#decisions-permissions).
 
 ## Woordenlijst {#glossary}
 

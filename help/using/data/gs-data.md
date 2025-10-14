@@ -65,7 +65,7 @@ Alle gegevens worden beschouwd als het bezit van Klanten en kunnen slechts op uw
 
 U kunt de gegevensflexibiliteit van [!DNL Journey Optimizer] gebruiken om te voldoen aan uw specifieke vereisten met betrekking tot het bewaren, archiveren of verwijderen van gegevens:
 
-* **Extractie van Gegevens/de Uitvoer van Gegevens**: U kunt de extractie van brongegevens op elk ogenblik in werking stellen via de API van de gegevenstoegang zonder boetes of tijdvertragingen. De [ Toegang API van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=nl-NL){target="_blank"}  voorziet gebruikers van een interface RESTful die op de ontdekkingsbaarheid en de toegankelijkheid van ingebedde datasets binnen [!DNL Adobe Experience Platform] wordt geconcentreerd. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
+* **Extractie van Gegevens/de Uitvoer van Gegevens**: U kunt de extractie van brongegevens op elk ogenblik in werking stellen via de API van de gegevenstoegang zonder boetes of tijdvertragingen. De [&#x200B; Toegang API van Gegevens &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=nl-NL){target="_blank"}  voorziet gebruikers van een interface RESTful die op de ontdekkingsbaarheid en de toegankelijkheid van ingebedde datasets binnen [!DNL Adobe Experience Platform] wordt geconcentreerd. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
   Merk op dat de inhoud die in reizen of campagnes wordt gebruikt niet via hierboven vermelde API- of doelmethoden kan worden geëxtraheerd.
 
@@ -77,7 +77,7 @@ U kunt de gegevensflexibiliteit van [!DNL Journey Optimizer] gebruiken om te vol
 
 * **Aankopen en archiveringsmechanismen**: Het zuiveren van gegevens en archivering kan vrij worden bepaald en in [!DNL Adobe Journey Optimizer] worden geautomatiseerd om beleid van het gegevensbehoud te automatiseren. Het is mogelijk verschillende verouderingsstrategieën voor de verschillende gegevensentiteiten te definiëren. Exportmechanismen kunnen ook worden gedefinieerd om verouderde gegevens automatisch te exporteren voordat deze worden gewist of gearchiveerd.
 
-  De werkruimte van de Levenscyclus van Gegevens staat u toe om diverse taken van de gegevenslevenscyclus tot stand te brengen en te controleren, met inbegrip van het schrappen van consumentenidentiteiten en het plannen van datasettermijnen. Deze werkruimte is beschikbaar met het beveiligings- en privacyschild en het gezondheidsschild. Leer meer op [ deze pagina ](../privacy/data-hygiene.md).
+  De werkruimte van de Levenscyclus van Gegevens staat u toe om diverse taken van de gegevenslevenscyclus tot stand te brengen en te controleren, met inbegrip van het schrappen van consumentenidentiteiten en het plannen van datasettermijnen. Deze werkruimte is beschikbaar met het beveiligings- en privacyschild en het gezondheidsschild. Leer meer op [&#x200B; deze pagina &#x200B;](../privacy/data-hygiene.md).
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:

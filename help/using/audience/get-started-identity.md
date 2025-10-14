@@ -29,4 +29,4 @@ Het **menu van Identiteiten** in [!DNL Adobe Journey Optimizer] staat gebruikers
 
 Het verstrekt een **Grafiek van de Identiteit**, die een kaart van verhoudingen tussen verschillende identiteiten voor een bepaalde klant is. Deze grafiek biedt een visuele weergave van de manier waarop een klant met een merk werkt via verschillende kanalen. Alle grafieken van de klantenidentiteit worden collectief beheerd en door de Dienst van de Identiteit van Adobe Experience Platform in antwoord op klantenactiviteit bijgewerkt.
 
-De gedetailleerde informatie bij het werken met identiteiten is beschikbaar in de [ documentatie van de Dienst van de Identiteit ](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl){target="_blank"}.
+De gedetailleerde informatie bij het werken met identiteiten is beschikbaar in de [&#x200B; documentatie van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl){target="_blank"}.

@@ -29,17 +29,17 @@ De toegang tot deze rapporteringsmogelijkheden hangt van de context en productge
 
 * **reizen** - als u een reis of leveringen in de context van een reis, van het **[!UICONTROL Journeys]** menu wilt richten, toegang tot uw reis en klik de **[!UICONTROL View report]** knoop.
 
-  In de lijst met bestaande reizen kunt u ook **[!UICONTROL Report]** selecteren in het menu Geavanceerd van de geselecteerde reis. [ leer meer over het rapport van de Reis ](journey-global-report-cja.md)
+  In de lijst met bestaande reizen kunt u ook **[!UICONTROL Report]** selecteren in het menu Geavanceerd van de geselecteerde reis. [&#x200B; leer meer over het rapport van de Reis &#x200B;](journey-global-report-cja.md)
 
   ![](assets/gs-cja-report-3.png)
 
 * **Campagnes** - als u een campagne, van het **[!UICONTROL Campaigns]** menu wilt richten, toegang tot uw campagne en klik dan de **[!UICONTROL Reports]** knoop **[!UICONTROL View all time report]**.
 
-  In de lijst met bestaande campagnes kunt u ook **[!UICONTROL Report]** selecteren in het menu Geavanceerd van de geselecteerde campagne. [ leer meer over het rapport van de Campagne ](campaign-global-report-cja.md)
+  In de lijst met bestaande campagnes kunt u ook **[!UICONTROL Report]** selecteren in het menu Geavanceerd van de geselecteerde campagne. [&#x200B; leer meer over het rapport van de Campagne &#x200B;](campaign-global-report-cja.md)
 
   ![](assets/gs-cja-report-2.png)
 
-* **Globaal** - als u metriek voor alle campagnes en reizen binnen uw milieu wilt richten, heb toegang tot het **Overzicht** rapport door aan het **[!UICONTROL Reports]** menu binnen de **[!UICONTROL Journey Management]** sectie te navigeren. [ leer meer over het rapport van het Overzicht ](channel-report-cja.md)
+* **Globaal** - als u metriek voor alle campagnes en reizen binnen uw milieu wilt richten, heb toegang tot het **Overzicht** rapport door aan het **[!UICONTROL Reports]** menu binnen de **[!UICONTROL Journey Management]** sectie te navigeren. [&#x200B; leer meer over het rapport van het Overzicht &#x200B;](channel-report-cja.md)
 
   ![](assets/gs-cja-report-1.png)
 
@@ -57,7 +57,7 @@ De toegang tot deze rapporteringsmogelijkheden hangt van de context en productge
 
    * **[!UICONTROL Manage profiles]** machtiging voor Adobe Journey Optimizer. [Meer informatie](../administration/permissions.md)
 
-* Uw Customer Journey Analytics gegevensmeningen moeten met het volgende plaatsen worden gevormd: **Reeks als standaardgegevensmening in Adobe Journey Optimizer**. [ leer meer over gegevensmeningen ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
+* Uw Customer Journey Analytics gegevensmeningen moeten met het volgende plaatsen worden gevormd: **Reeks als standaardgegevensmening in Adobe Journey Optimizer**. [&#x200B; leer meer over gegevensmeningen &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
 
 
 ## Hoe kan ik-video{#video}

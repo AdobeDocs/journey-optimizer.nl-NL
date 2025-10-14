@@ -30,7 +30,7 @@ Dit werkt alleen met Adobe Analytics als u:
 >
 >Deze sectie is slechts op regel-gebaseerde gebeurtenissen en klanten van toepassing die de gegevens van Adobe Analytics of van het Web SDK moeten gebruiken.
 > 
->Als u Adobe Customer Journey Analytics gebruikt, verwijs naar [ deze pagina ](../reports/cja-ajo.md).
+>Als u Adobe Customer Journey Analytics gebruikt, verwijs naar [&#x200B; deze pagina &#x200B;](../reports/cja-ajo.md).
 >
 
 ## Adobe Analytics- of Web SDK-gegevens configureren {#leverage-analytics-data}
@@ -102,7 +102,7 @@ In the example below, learn how to target users who added a product to their car
    * **[!UICONTROL Name]**: Personalize the name of your **[!UICONTROL Event]**.
    * **[!UICONTROL Type]**: Choose the **[!UICONTROL Unitary]** Type. [Meer informatie](../event/about-events.md)
    * **[!UICONTROL Event ID type]**: Kies het type **[!UICONTROL Rule based]** gebeurtenis-id. [Meer informatie](../event/about-events.md#event-id-type)
-   * **[!UICONTROL Schema]**: Selecteer Analytics of WebSDK die schema [ vóór ](#leverage-analytics-data) wordt gecreeerd.
+   * **[!UICONTROL Schema]**: Selecteer Analytics of WebSDK die schema [&#x200B; vóór &#x200B;](#leverage-analytics-data) wordt gecreeerd.
    * **[!UICONTROL Fields]**: selecteer de velden Payload. [Meer informatie](../event/about-creating.md#define-the-payload-fields)
    * **[!UICONTROL Event ID condition]**: Bepaal de voorwaarde om de gebeurtenissen te identificeren die uw reis zullen teweegbrengen.
 

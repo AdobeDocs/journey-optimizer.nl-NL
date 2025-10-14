@@ -23,7 +23,7 @@ Het doel van dit gebruiksgeval is een reis tot stand te brengen om een bericht n
 
 In dit voorbeeld wordt de veldgroep **[!UICONTROL Consent and Preference Details]** van [!DNL Adobe Experience Platform] gebruikt. Kies **[!UICONTROL Data Management]** in het menu **[!UICONTROL Schemas]** om deze veldgroep te zoeken. Typ op het tabblad **[!UICONTROL Field groups]** de naam van de veldgroep in het zoekveld.
 
-![ Deze gebiedsgroep omvat het abonnementselement ](assets/consent-and-preference-details-field-group.png)
+![&#x200B; Deze gebiedsgroep omvat het abonnementselement &#x200B;](assets/consent-and-preference-details-field-group.png)
 
 Om deze reis te vormen, volg deze stappen:
 
@@ -52,7 +52,7 @@ Om deze reis te vormen, volg deze stappen:
 
       In dit voorbeeld heeft de abonnementenlijst de naam `daily-email` . E-mailadressen worden gedefinieerd als sleutels in de `subscribers` -kaart, die is gekoppeld aan de abonnementenlijstkaart.
 
-      Lees meer over [ verwijzingen naar gebieden ](expression/field-references.md) in uitdrukkingen.
+      Lees meer over [&#x200B; verwijzingen naar gebieden &#x200B;](expression/field-references.md) in uitdrukkingen.
 
       ![](assets/message-to-subscribers-uc-2.png)
 

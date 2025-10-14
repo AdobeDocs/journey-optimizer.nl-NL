@@ -19,11 +19,11 @@ ht-degree: 42%
 
 # Los fouten op alvorens uw reis te testen {#troubleshooting}
 
-Leer in deze sectie hoe u problemen met reizen kunt oplossen voordat u gaat testen of publiceren. Alle hieronder vermelde controles kunnen worden uitgevoerd in de testmodus van de journey of wanneer de journey live is. De aanbeveling is om alle onderstaande controles in de testmodus uit te voeren en vervolgens tot publicatie over te gaan. Leer meer over de testwijze op [ deze pagina ](../building-journeys/testing-the-journey.md).
+Leer in deze sectie hoe u problemen met reizen kunt oplossen voordat u gaat testen of publiceren. Alle hieronder vermelde controles kunnen worden uitgevoerd in de testmodus van de journey of wanneer de journey live is. De aanbeveling is om alle onderstaande controles in de testmodus uit te voeren en vervolgens tot publicatie over te gaan. Leer meer over de testwijze op [&#x200B; deze pagina &#x200B;](../building-journeys/testing-the-journey.md).
 
-Leer hoe te om reisgebeurtenissen problemen op te lossen, controleer als de profielen uw reis ingegaan, hoe zij door het navigeren, en als de berichten [ op deze pagina ](troubleshooting-execution.md) worden verzonden.
+Leer hoe te om reisgebeurtenissen problemen op te lossen, controleer als de profielen uw reis ingegaan, hoe zij door het navigeren, en als de berichten [&#x200B; op deze pagina &#x200B;](troubleshooting-execution.md) worden verzonden.
 
-Als u binnenkomende acties gebruikt, leer hoe te om hen [ op deze pagina ](troubleshooting-inbound.md) problemen op te lossen.
+Als u binnenkomende acties gebruikt, leer hoe te om hen [&#x200B; op deze pagina &#x200B;](troubleshooting-inbound.md) problemen op te lossen.
 
 ## Fouten in activiteiten {#activity-errors}
 

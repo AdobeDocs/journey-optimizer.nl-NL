@@ -29,7 +29,7 @@ Adobe Journey Optimizer gebruikt de Identity Service om profielen samen te voege
    * Dit kan 30 min - 4 uur duren.
    * Gewoonlijk genereert deze aanmeldingsgebeurtenis een identiteitsgrafiek die een koppeling vormt tussen CRMID en ECID.
 
-1. Na de eerste stitching, zullen om het even welke gegevens die met één van beide identiteiten worden verzonden worden geassocieerd aan het samengevoegde profiel en beschikbaar voor verpersoonlijking in Journey Optimizer in real time. Het bijwerken van het profiel met de meest recente gedragsgegevens kan 1 minuut duren. Verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl).
+1. Na de eerste stitching, zullen om het even welke gegevens die met één van beide identiteiten worden verzonden worden geassocieerd aan het samengevoegde profiel en beschikbaar voor verpersoonlijking in Journey Optimizer in real time. Het bijwerken van het profiel met de meest recente gedragsgegevens kan 1 minuut duren. Verwijs naar deze [&#x200B; pagina &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl).
 
 Houd rekening met het volgende wanneer u gebruikszaken maakt:
 

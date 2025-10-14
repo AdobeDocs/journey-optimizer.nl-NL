@@ -28,7 +28,7 @@ Als u rapporten wilt openen, selecteert u **[!UICONTROL View Last 24hrs report]*
 
 ![](assets/landing_page_report.png)
 
-De landingspagina **[!UICONTROL Live report]** is verdeeld in verschillende widgets waarin het succes en de fouten van uw levering worden weergegeven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Voor meer informatie over dit verwijs naar deze [ sectie ](live-report.md).
+De landingspagina **[!UICONTROL Live report]** is verdeeld in verschillende widgets waarin het succes en de fouten van uw levering worden weergegeven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Voor meer informatie over dit verwijs naar deze [&#x200B; sectie &#x200B;](live-report.md).
 
 +++Leer meer over de verschillende metriek en widgets beschikbaar voor het het Landing pagina live rapport.
 
@@ -59,4 +59,4 @@ De grafieken **[!UICONTROL Visits by messages]** / **[!UICONTROL Conversions by 
 De grafieken **[!UICONTROL Visits by channels]** / **[!UICONTROL Conversions by channels]** geven het totale aantal bezoeken en personen aan die de laatste 24 uur succesvol hebben gereageerd op uw landingspagina, afhankelijk van de kanalen.
 +++
 
-Voor een gedetailleerde lijst van elke metrisch beschikbaar in Adobe Journey Optimizer, verwijs naar [ deze pagina ](live-report.md#list-of-components-live).
+Voor een gedetailleerde lijst van elke metrisch beschikbaar in Adobe Journey Optimizer, verwijs naar [&#x200B; deze pagina &#x200B;](live-report.md#list-of-components-live).

@@ -24,13 +24,13 @@ Het Campaign Standard-transactiebericht en de bijbehorende gebeurtenis moeten wo
 
 ## Afvoerkanalen en beperkingen {#important-notes}
 
-* Voor Adobe Campaign Standard-acties wordt automatisch een afluisterregel van 4.000 aanroepen per 5 minuten gedefinieerd. Lees meer over transactionele overseinen SLAs in [ de Beschrijving van het Product van Adobe Campaign Standard ](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html){target="_blank"}.
+* Voor Adobe Campaign Standard-acties wordt automatisch een afluisterregel van 4.000 aanroepen per 5 minuten gedefinieerd. Lees meer over transactionele overseinen SLAs in [&#x200B; de Beschrijving van het Product van Adobe Campaign Standard &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html){target="_blank"}.
 
 * Adobe Campaign Standard-integratie wordt ingesteld door middel van een speciale ingebouwde actie in de lijst met acties. Dit moet voor elke zandbak worden gevormd.
 
 * U kunt geen Campaign Standard-actie gebruiken met de kwalificatie Publiek of Lezen publieksactiviteit.
 
-* Een reis kan niet zowel [ ingebouwde kanaalacties ](../building-journeys/journeys-message.md) als [ de acties van Campaign Standard ](../building-journeys/using-adobe-campaign-standard.md) gebruiken.
+* Een reis kan niet zowel [&#x200B; ingebouwde kanaalacties &#x200B;](../building-journeys/journeys-message.md) als [&#x200B; de acties van Campaign Standard &#x200B;](../building-journeys/using-adobe-campaign-standard.md) gebruiken.
 
 ## De handeling configureren {#configure-action}
 
@@ -60,7 +60,7 @@ Voer de volgende stappen uit om een Campaign Standard-actie te configureren:
    >
    >* De organisatie die aan deze Adobe Campaign Standard-instantie is gekoppeld, is gelijk aan de Journey Optimizer OrganisationRG
 
-Zodra deze configuratie is voltooid, zijn er drie acties beschikbaar in de categorie **[!UICONTROL Action]** wanneer u een rit ontwerpt: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** . [ leer hoe te om hen ](../building-journeys/using-adobe-campaign-standard.md) te gebruiken.
+Zodra deze configuratie is voltooid, zijn er drie acties beschikbaar in de categorie **[!UICONTROL Action]** wanneer u een rit ontwerpt: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** . [&#x200B; leer hoe te om hen &#x200B;](../building-journeys/using-adobe-campaign-standard.md) te gebruiken.
 
 ![](assets/journey58.png)
 
@@ -70,6 +70,6 @@ Gebruik de gebeurtenis van de Reacties van de a **&#x200B;**&#x200B;om op het vo
 
 * Voor SMS-berichten kunnen reizen reageren op verzonden of mislukte berichten.
 
-* Voor e-mailberichten kunnen reizen reageren op geklikte, verzonden, geopende of mislukte berichten. [ Leer meer over reactiegebeurtenissen ](../building-journeys/reaction-events.md).
+* Voor e-mailberichten kunnen reizen reageren op geklikte, verzonden, geopende of mislukte berichten. [&#x200B; Leer meer over reactiegebeurtenissen &#x200B;](../building-journeys/reaction-events.md).
 
-Wanneer het gebruiken van een derdesysteem om berichten te verzenden, moet u een douaneactie toevoegen en vormen. [ Leer meer over de configuratie van de douaneactie ](../action/about-custom-action-configuration.md).
+Wanneer het gebruiken van een derdesysteem om berichten te verzenden, moet u een douaneactie toevoegen en vormen. [&#x200B; Leer meer over de configuratie van de douaneactie &#x200B;](../action/about-custom-action-configuration.md).

@@ -55,7 +55,7 @@ Bij het maken van een voorinstelling:
 
 >[!NOTE]
 >
-> Als u formuliervoorinstellingen wilt openen en bewerken, moet u beschikken over de machtiging **[!UICONTROL Manage form presets]** in de productiesandbox. Leer meer over toestemmingen in [ deze sectie ](../administration/high-low-permissions.md#administration-permissions).<!--TBC-->
+> Als u formuliervoorinstellingen wilt openen en bewerken, moet u beschikken over de machtiging **[!UICONTROL Manage form presets]** in de productiesandbox. Leer meer over toestemmingen in [&#x200B; deze sectie &#x200B;](../administration/high-low-permissions.md#administration-permissions).<!--TBC-->
 
 1. Als u de **[!UICONTROL Form presets]** -voorraad wilt openen, selecteert u **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Form settings]** in het linkermenu.
 
@@ -69,7 +69,7 @@ Bij het maken van een voorinstelling:
 
    >[!NOTE]
    >
-   >Leer meer bij het creëren van een het stromen bronverbinding in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   >Leer meer bij het creëren van een het stromen bronverbinding in de [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
 1. Selecteer een **[!UICONTROL Dataset]** die u aan het formulier wilt koppelen. Hier worden de reacties op het formulier opgeslagen en weergegeven. U kunt typen om een specifieke dataset te zoeken of het van de lijst te selecteren.
 
@@ -103,19 +103,19 @@ Voer de onderstaande stappen uit om een formulier te maken.
 
    ![](assets/lp_create-form.png)
 
-1. Selecteer een **[!UICONTROL Preset]** met de verbinding die moet worden gebruikt en een vooraf gedefinieerde gegevensset voor uw formulier. [ Leer hoe te om een vorm tot stand te brengen vooraf ingesteld ](#create-form-preset)
+1. Selecteer een **[!UICONTROL Preset]** met de verbinding die moet worden gebruikt en een vooraf gedefinieerde gegevensset voor uw formulier. [&#x200B; Leer hoe te om een vorm tot stand te brengen vooraf ingesteld &#x200B;](#create-form-preset)
 
-1. Klik op **[!UICONTROL Create]**. De vormontwerper opent, die u toelaat om structuren en inhoud [ componenten ](../email/content-components.md#add-content-components) toe te voegen om uw inhoud te bouwen. U kunt [ Tekst ](../email/content-components.md#text) en **[!UICONTROL Field]** componenten gebruiken.
+1. Klik op **[!UICONTROL Create]**. De vormontwerper opent, die u toelaat om structuren en inhoud [&#x200B; componenten &#x200B;](../email/content-components.md#add-content-components) toe te voegen om uw inhoud te bouwen. U kunt [&#x200B; Tekst &#x200B;](../email/content-components.md#text) en **[!UICONTROL Field]** componenten gebruiken.
 
 1. Als u profielgegevens en -kenmerken wilt vastleggen, voegt u specifieke velden toe aan het formulier. [Meer informatie](#define-fields)
 
 1. Configureer en ontwerp deze velden. [Meer informatie](#configure-fields)
 
-1. U kunt de indeling, opmaak en afmetingen van het formulier naar wens aanpassen in het deelvenster **[!UICONTROL Styles]** . [ Leer meer bij het stileren ](../email/get-started-email-style.md)
+1. U kunt de indeling, opmaak en afmetingen van het formulier naar wens aanpassen in het deelvenster **[!UICONTROL Styles]** . [&#x200B; Leer meer bij het stileren &#x200B;](../email/get-started-email-style.md)
 
 1. Wanneer u alle velden hebt geconfigureerd, klikt u op **[!UICONTROL Save & close]** .
 
-1. Vorm Dank u pagina. [ leer hoe ](#thank-you-page)
+1. Vorm Dank u pagina. [&#x200B; leer hoe &#x200B;](#thank-you-page)
 
 1. **[!UICONTROL Publish]** het formulier om het beschikbaar te maken voor selectie op bestemmingspagina&#39;s.
 
@@ -199,7 +199,7 @@ Configureer in de sectie **[!UICONTROL Thank you page]** wat er gebeurt wanneer 
 Stel een van de volgende handelingen in:
 
 * **[!UICONTROL Stay on page]** - Met deze optie blijft de bezoeker op dezelfde pagina staan wanneer het formulier is verzonden.
-* **[!UICONTROL Landing page]** - selecteer een gepubliceerde [ landende pagina ](create-lp.md) waaraan de gebruiker na het voorleggen van de vorm opnieuw gericht wordt.
+* **[!UICONTROL Landing page]** - selecteer een gepubliceerde [&#x200B; landende pagina &#x200B;](create-lp.md) waaraan de gebruiker na het voorleggen van de vorm opnieuw gericht wordt.
 * **[!UICONTROL External URL]** - Voer de volledige URL in die u als vervolgpagina wilt gebruiken. Nadat de gebruiker het formulier heeft verzonden, wordt deze naar de opgegeven URL geleid.
 * **[!UICONTROL Conditional redirect]** - Stel regels in om op dynamische wijze verschillende vervolgacties weer te geven op basis van de reacties op het formulier.
 
@@ -215,7 +215,7 @@ Stel een van de volgende handelingen in:
 
 Nadat een formulier is gepubliceerd, kunt u het nog steeds bewerken. Voer de onderstaande stappen uit.
 
-1. Heb toegang tot de [ lijst van vormen ](#access-forms) en selecteer een gepubliceerde vorm.
+1. Heb toegang tot de [&#x200B; lijst van vormen &#x200B;](#access-forms) en selecteer een gepubliceerde vorm.
 
 1. Klik op de knop **[!UICONTROL Edit form]**.
 
@@ -241,15 +241,15 @@ Nadat een formulier is gepubliceerd, kunt u het nog steeds bewerken. Voer de ond
 
 U kunt dit formulier nu insluiten in een bestemmingspagina om gegevens vast te leggen die overeenkomen met de kenmerken die u in het formulier hebt gedefinieerd en op te slaan in de geselecteerde gegevensset. Voer de onderstaande stappen uit.
 
-1. Maak een openingspagina. [ leer hoe ](create-lp.md#create-landing-page)
+1. Maak een openingspagina. [&#x200B; leer hoe &#x200B;](create-lp.md#create-landing-page)
 
 1. Selecteer **[!UICONTROL Data Capture]** als het type openingspagina en klik op **[!UICONTROL Create]** .
 
    ![](assets/lp_create-lp-data-capture.png){width=65%}
 
-1. Vorm de primaire pagina. [ leer hoe ](create-lp.md#configure-primary-page)
+1. Vorm de primaire pagina. [&#x200B; leer hoe &#x200B;](create-lp.md#configure-primary-page)
 
-1. Open de [ het landen paginaontwerper ](design-lp.md).
+1. Open de [&#x200B; het landen paginaontwerper &#x200B;](design-lp.md).
 
 1. Sleep een **[!UICONTROL Structure component]** naar de inhoud. Sleep een component **[!UICONTROL Form]** naar die structuur.
 
@@ -263,19 +263,19 @@ U kunt dit formulier nu insluiten in een bestemmingspagina om gegevens vast te l
 
    >[!NOTE]
    >
-   >U kunt het geselecteerde formulier bijwerken met de knop **[!UICONTROL Edit form]** . Het formulier wordt geopend op een nieuw tabblad. De stappen om de vorminhoud uit te geven zijn het zelfde zoals die in [ wordt beschreven deze sectie ](#create-form).
+   >U kunt het geselecteerde formulier bijwerken met de knop **[!UICONTROL Edit form]** . Het formulier wordt geopend op een nieuw tabblad. De stappen om de vorminhoud uit te geven zijn het zelfde zoals die in [&#x200B; wordt beschreven deze sectie &#x200B;](#create-form).
 
 1. Configureer in de sectie **[!UICONTROL Follow up type]** wat er gebeurt wanneer een gebruiker het formulier invult:
 
    * Kies **[!UICONTROL Form defined]** om de actie te selecteren die is gedefinieerd in het ingesloten formulier. [Meer informatie](#thank-you-page)
 
-   * U kunt ook een gepubliceerde [ landende pagina ](create-lp.md) selecteren waaraan de gebruiker na het voorleggen van de vorm opnieuw gericht wordt.
+   * U kunt ook een gepubliceerde [&#x200B; landende pagina &#x200B;](create-lp.md) selecteren waaraan de gebruiker na het voorleggen van de vorm opnieuw gericht wordt.
 
    * U kunt ook een **[!UICONTROL External URL]** definiëren als de vervolgpagina waarop gebruikers de instructie krijgen wanneer ze het formulier verzenden.
 
-1. Sla de openingspagina op en test deze. [ leer hoe ](create-lp.md#test-landing-page)
+1. Sla de openingspagina op en test deze. [&#x200B; leer hoe &#x200B;](create-lp.md#test-landing-page)
 
-Zodra uw het landen pagina [ wordt gepubliceerd ](create-lp.md#publish-landing-page) en gebruikt in een reis, wanneer de gebruikers de vorm invullen, wordt de ingegane informatie opgenomen in de geselecteerde dataset.
+Zodra uw het landen pagina [&#x200B; wordt gepubliceerd &#x200B;](create-lp.md#publish-landing-page) en gebruikt in een reis, wanneer de gebruikers de vorm invullen, wordt de ingegane informatie opgenomen in de geselecteerde dataset.
 
 >[!NOTE]
 >

@@ -27,7 +27,7 @@ Met de **[!UICONTROL Live report]** kunt u de impact en prestaties van uw reizen
 
   ![](assets/report_campaign.png)
 
-Voor een gedetailleerde lijst van elke metrisch beschikbaar in Adobe Journey Optimizer, verwijs naar [ deze pagina ](#list-of-components-live).
+Voor een gedetailleerde lijst van elke metrisch beschikbaar in Adobe Journey Optimizer, verwijs naar [&#x200B; deze pagina &#x200B;](#list-of-components-live).
 
 ## Het dashboard aanpassen {#modify-dashboard}
 
@@ -35,7 +35,7 @@ Elk rapportdashboard kan worden gewijzigd door widgets te vergroten of te verkle
 
 1. Kies in de vervolgkeuzelijst **[!UICONTROL Actions]** of u wilt rapporteren over een bepaalde handeling van uw reizen.
 
-1. Kies of u testgebeurtenissen wilt uitsluiten van uw rapporten met de schakelbalk. Voor meer informatie over testgebeurtenissen, verwijs naar [ deze pagina ](../building-journeys/testing-the-journey.md).
+1. Kies of u testgebeurtenissen wilt uitsluiten van uw rapporten met de schakelbalk. Voor meer informatie over testgebeurtenissen, verwijs naar [&#x200B; deze pagina &#x200B;](../building-journeys/testing-the-journey.md).
 
    De optie **[!UICONTROL Exclude test events]** is alleen beschikbaar voor Journey-rapporten.
 

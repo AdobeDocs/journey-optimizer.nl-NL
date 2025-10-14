@@ -30,7 +30,7 @@ Volg onderstaande stappen om uw Web in-app kanaal in te stellen:
 
 1. Open het menu **[!UICONTROL Campaigns]** en klik op **[!UICONTROL Create campaign]** .
 
-1. Kies het uitvoeringstype van de campagne: Gepland of API-geactiveerd. Leer meer over campagneretypen op [ deze pagina ](../campaigns/create-campaign.md#campaigntype).
+1. Kies het uitvoeringstype van de campagne: Gepland of API-geactiveerd. Leer meer over campagneretypen op [&#x200B; deze pagina &#x200B;](../campaigns/create-campaign.md#campaigntype).
 
 1. Kies in de vervolgkeuzelijst **[!UICONTROL Actions]** de optie **[!UICONTROL In-app message]** .
 
@@ -62,7 +62,7 @@ Volg onderstaande stappen om uw Web in-app kanaal in te stellen:
 
       | Pakket | Trigger | Definitie |
       |---|---|---|
-      | Platform | Gegevens verzonden naar platform | Wordt geactiveerd wanneer de mobiele app een Edge Experience-gebeurtenis uitgeeft om gegevens naar Adobe Experience Platform te verzenden. Gewoonlijk de API vraag [ sendEvent ](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) van de uitbreiding van AEP Edge. |
+      | Platform | Gegevens verzonden naar platform | Wordt geactiveerd wanneer de mobiele app een Edge Experience-gebeurtenis uitgeeft om gegevens naar Adobe Experience Platform te verzenden. Gewoonlijk de API vraag [&#x200B; sendEvent &#x200B;](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) van de uitbreiding van AEP Edge. |
       | Handmatig | Handmatige trigger | Twee bijbehorende gegevenselementen: een sleutel, die een constante is die de gegevensset definieert (bijvoorbeeld geslacht, kleur, prijs), en een waarde, die een variabele is die tot de set behoort (bijvoorbeeld man/vrouw, groen, 100). |
 
       +++
@@ -97,7 +97,7 @@ Volg onderstaande stappen om uw Web in-app kanaal in te stellen:
 
 1. Kies zo nodig welke **[!UICONTROL Day of the week]** of **[!UICONTROL Time of day]** het bericht in de app wordt weergegeven.
 
-1. Campagnes worden ontworpen om op een specifieke datum of op een terugkomende frequentie worden uitgevoerd. Leer hoe te om **[!UICONTROL Schedule]** van uw campagne in [ te vormen deze sectie ](../campaigns/create-campaign.md#schedule).
+1. Campagnes worden ontworpen om op een specifieke datum of op een terugkomende frequentie worden uitgevoerd. Leer hoe te om **[!UICONTROL Schedule]** van uw campagne in [&#x200B; te vormen deze sectie &#x200B;](../campaigns/create-campaign.md#schedule).
 
    ![](assets/in_app_web_surface_6.png)
 

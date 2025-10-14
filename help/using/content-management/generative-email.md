@@ -19,10 +19,10 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](gs-generative.md#generative-guardrails).
+>Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [&#x200B; Grafieken en Beperkingen &#x200B;](gs-generative.md#generative-guardrails).
 >&#x200B;></br>
 >
->U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u AI Medewerker in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>U moet met a [&#x200B; gebruikersovereenkomst &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u AI Medewerker in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 Nadat u uw e-mails hebt gemaakt en aangepast, kunt u de kracht van AI Assistant in Journey Optimizer benutten, gevoed door generatieve AI, om uw inhoud te verhogen.
 
@@ -38,7 +38,7 @@ In het volgende voorbeeld gebruiken we AI Assistant om een bestaande e-mailsjabl
 
 1. Klik op **[!UICONTROL Edit content]** nadat u uw e-mailcampagne hebt gemaakt en geconfigureerd.
 
-   Voor meer informatie over hoe te om uw e-mailcampagne te vormen, verwijs naar [ deze pagina ](../campaigns/create-campaign.md).
+   Voor meer informatie over hoe te om uw e-mailcampagne te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../campaigns/create-campaign.md).
 
 1. Pas de layout naar wens aan en open het menu **[!UICONTROL AI Assistant]** .
 
@@ -46,7 +46,7 @@ In het volgende voorbeeld gebruiken we AI Assistant om een bestaande e-mailsjabl
 
 1. Schakel de optie **[!UICONTROL Use original content]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
-1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
+1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [&#x200B; leer meer &#x200B;](brands.md) op Banden.
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
@@ -86,7 +86,7 @@ In het volgende voorbeeld gebruiken we AI Assistant om een bestaande e-mailsjabl
 
 1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
 
-   Leer meer op [ de groeperingsscore van het Merk ](brands-score.md).
+   Leer meer op [&#x200B; de groeperingsscore van het Merk &#x200B;](brands-score.md).
 
    ![](assets/full-email-7.png){zoomable="yes"}
 
@@ -100,7 +100,7 @@ In het volgende voorbeeld gebruiken we AI Assistant om een bestaande e-mailsjabl
 
    ![](assets/full-email-5.png){zoomable="yes"}
 
-1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](brands.md) richt.
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [&#x200B; merkrichtlijnen &#x200B;](brands.md) richt.
 
 1. Klik op **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 
@@ -116,7 +116,7 @@ In het volgende voorbeeld gebruiken we AI Assistant om de inhoud van onze e-mail
 
 1. Klik op **[!UICONTROL Edit content]** nadat u uw e-mailcampagne hebt gemaakt en geconfigureerd.
 
-   Voor meer informatie over hoe te om uw e-mailcampagne te vormen, verwijs naar [ deze pagina ](../email/create-email.md).
+   Voor meer informatie over hoe te om uw e-mailcampagne te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../email/create-email.md).
 
 1. Selecteer een **[!UICONTROL Text component]** als u alleen een specifieke inhoud als doel wilt instellen. en opent u het menu **[!UICONTROL AI Assistant]** .
 
@@ -124,7 +124,7 @@ In het volgende voorbeeld gebruiken we AI Assistant om de inhoud van onze e-mail
 
 1. Schakel de optie **[!UICONTROL Use original content]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
-1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
+1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [&#x200B; leer meer &#x200B;](brands.md) op Banden.
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
@@ -155,7 +155,7 @@ In het volgende voorbeeld gebruiken we AI Assistant om de inhoud van onze e-mail
 
 1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
 
-   Leer meer op [ de groeperingsscore van het Merk ](brands-score.md).
+   Leer meer op [&#x200B; de groeperingsscore van het Merk &#x200B;](brands-score.md).
 
    ![](assets/text-genai-6.png){zoomable="yes"}
 
@@ -175,7 +175,7 @@ In het volgende voorbeeld gebruiken we AI Assistant om de inhoud van onze e-mail
 
    ![](assets/text-genai-5.png){zoomable="yes"}
 
-1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](brands.md) richt.
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [&#x200B; merkrichtlijnen &#x200B;](brands.md) richt.
 
 1. Klik op **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 
@@ -191,7 +191,7 @@ In het onderstaande voorbeeld leert u hoe u AI Assistant kunt gebruiken om uw mi
 
 1. Klik op **[!UICONTROL Edit content]** nadat u uw e-mailcampagne hebt gemaakt en geconfigureerd.
 
-   Voor meer informatie over hoe te om uw e-mailcampagne te vormen, verwijs naar [ deze pagina ](../email/create-email.md).
+   Voor meer informatie over hoe te om uw e-mailcampagne te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../email/create-email.md).
 
 1. Selecteer het element dat u wilt wijzigen met AI Assistant.
 
@@ -201,7 +201,7 @@ In het onderstaande voorbeeld leert u hoe u AI Assistant kunt gebruiken om uw mi
 
 1. Schakel de optie **[!UICONTROL Reference style]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de referentie-inhoud. U kunt ook een afbeelding uploaden om context aan uw variatie toe te voegen.
 
-1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
+1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [&#x200B; leer meer &#x200B;](brands.md) op Banden.
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
@@ -232,7 +232,7 @@ In het onderstaande voorbeeld leert u hoe u AI Assistant kunt gebruiken om uw mi
 
 1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
 
-   Leer meer op [ de groeperingsscore van het Merk ](brands-score.md).
+   Leer meer op [&#x200B; de groeperingsscore van het Merk &#x200B;](brands-score.md).
 
    <!--
     ![](assets/image-genai-7.png){zoomable="yes"}

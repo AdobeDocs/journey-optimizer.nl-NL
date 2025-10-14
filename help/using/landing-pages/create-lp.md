@@ -51,29 +51,29 @@ Als u een openingspagina wilt maken, moet u een voorinstelling selecteren, vervo
 
    ![](assets/lp_create-lp-details.png)
 
-1. Selecteer **[!UICONTROL Manage access]** als u aangepaste of basislabels voor gegevensgebruik aan de landingspagina wilt toewijzen. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md)
+1. Selecteer **[!UICONTROL Manage access]** als u aangepaste of basislabels voor gegevensgebruik aan de landingspagina wilt toewijzen. [&#x200B; leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) &#x200B;](../administration/object-based-access.md)
 
 1. Selecteer of maak Adobe Experience Platform-tags in het veld **[!UICONTROL Tags]** om uw openingspagina te categoriseren voor een betere zoekopdracht. [Meer informatie](../start/search-filter-categorize.md#tags)
 
-1. Selecteer een voorinstelling. Leer hoe te om het landen van pagina tot stand te brengen vooraf instelt in [ deze sectie ](../landing-pages/lp-presets.md#lp-create-preset).
+1. Selecteer een voorinstelling. Leer hoe te om het landen van pagina tot stand te brengen vooraf instelt in [&#x200B; deze sectie &#x200B;](../landing-pages/lp-presets.md#lp-create-preset).
 
    ![](assets/lp_create-lp-presets.png)
 
 1. Klik op **[!UICONTROL Create]**.
 
-1. De primaire pagina en de bijbehorende eigenschappen worden weergegeven. Leer hoe te om de primaire paginamontages [ hier ](#configure-primary-page) te vormen.
+1. De primaire pagina en de bijbehorende eigenschappen worden weergegeven. Leer hoe te om de primaire paginamontages [&#x200B; hier &#x200B;](#configure-primary-page) te vormen.
 
    ![](assets/lp_primary-page.png)
 
-1. Klik op het pictogram + om een subpagina toe te voegen. Leer hoe te om subpage montages [ hier ](#configure-subpages) te vormen.
+1. Klik op het pictogram + om een subpagina toe te voegen. Leer hoe te om subpage montages [&#x200B; hier &#x200B;](#configure-subpages) te vormen.
 
    ![](assets/lp_add-subpage.png)
 
-Zodra u vormde en de [ primaire pagina ](#configure-primary-page) ontwierp, en [ subpages ](#configure-subpages) als om het even welk, kunt u [ testen ](#test-landing-page) en [ publiceren ](#publish-landing-page) uw het landen pagina.
+Zodra u vormde en de [&#x200B; primaire pagina &#x200B;](#configure-primary-page) ontwierp, en [&#x200B; subpages &#x200B;](#configure-subpages) als om het even welk, kunt u [&#x200B; testen &#x200B;](#test-landing-page) en [&#x200B; publiceren &#x200B;](#publish-landing-page) uw het landen pagina.
 
 >[!CAUTION]
 >
->U hebt geen toegang tot uw landingspagina door de gedefinieerde URL gewoon te kopiëren en in een webbrowser te plakken, zelfs niet als deze is gepubliceerd. In plaats daarvan kunt u het testen gebruikend de voorproeffunctie zoals die in [ wordt beschreven deze sectie ](#test-landing-page).
+>U hebt geen toegang tot uw landingspagina door de gedefinieerde URL gewoon te kopiëren en in een webbrowser te plakken, zelfs niet als deze is gepubliceerd. In plaats daarvan kunt u het testen gebruikend de voorproeffunctie zoals die in [&#x200B; wordt beschreven deze sectie &#x200B;](#test-landing-page).
 
 ## De primaire pagina configureren {#configure-primary-page}
 
@@ -97,17 +97,17 @@ Voer de onderstaande stappen uit om de instellingen voor de primaire pagina te d
 
 1. U kunt de paginanaam wijzigen. Standaard is dit **[!UICONTROL Primary page]** .
 
-1. Bewerk de inhoud van de pagina met de inhoudsontwerper. Leer hoe te om het landen van pagina inhoud [ hier ](design-lp.md) te bepalen.
+1. Bewerk de inhoud van de pagina met de inhoudsontwerper. Leer hoe te om het landen van pagina inhoud [&#x200B; hier &#x200B;](design-lp.md) te bepalen.
 
    ![](assets/lp_open-designer.png)
 
-1. Geef de URL van de bestemmingspagina op. Het eerste deel van URL vereist u eerder opstelling een het landen pagina subdomain als deel van [ vooraf ingesteld ](../landing-pages/lp-presets.md#lp-create-preset) u selecteerde. [Meer informatie](../landing-pages/lp-subdomains.md)
+1. Geef de URL van de bestemmingspagina op. Het eerste deel van URL vereist u eerder opstelling een het landen pagina subdomain als deel van [&#x200B; vooraf ingesteld &#x200B;](../landing-pages/lp-presets.md#lp-create-preset) u selecteerde. [Meer informatie](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
    >De bestemmingspagina-URL moet uniek zijn.
    >
-   >U hebt geen toegang tot uw landingspagina door deze URL gewoon in een webbrowser te kopiëren en te plakken, zelfs niet als deze gepubliceerd is. In plaats daarvan kunt u het testen gebruikend de voorproeffunctie zoals die in [ wordt beschreven deze sectie ](#test-landing-page).
+   >U hebt geen toegang tot uw landingspagina door deze URL gewoon in een webbrowser te kopiëren en te plakken, zelfs niet als deze gepubliceerd is. In plaats daarvan kunt u het testen gebruikend de voorproeffunctie zoals die in [&#x200B; wordt beschreven deze sectie &#x200B;](#test-landing-page).
 
    ![](assets/lp_access-url.png)
 
@@ -124,7 +124,7 @@ Voer de onderstaande stappen uit om de instellingen voor de primaire pagina te d
 1. U kunt een vervaldatum voor uw pagina bepalen. In dat geval moet u een actie selecteren bij het verlopen van de pagina:
 
    * **[!UICONTROL Redirect URL]**: voer de URL in van de pagina waarnaar de gebruikers worden omgeleid wanneer de pagina vervalt.
-   * **[!UICONTROL Custom page]**: [ vorm subpage ](#configure-subpages) en selecteer het van de drop-down lijst die toont.
+   * **[!UICONTROL Custom page]**: [&#x200B; vorm subpage &#x200B;](#configure-subpages) en selecteer het van de drop-down lijst die toont.
    * **[!UICONTROL Browser error]**: typ de fouttekst die wordt weergegeven in plaats van de pagina.
 
    ![](assets/lp_expiry-date.png)
@@ -133,11 +133,11 @@ Voer de onderstaande stappen uit om de instellingen voor de primaire pagina te d
 
     ![](assets/lp_create-lp-additional-data.png)-->
 
-1. Als u één of meerdere abonnementslijsten selecteerde toen [ het ontwerpen van de primaire pagina ](design-lp.md), tonen zij in de **[!UICONTROL Subscription list]** sectie.
+1. Als u één of meerdere abonnementslijsten selecteerde toen [&#x200B; het ontwerpen van de primaire pagina &#x200B;](design-lp.md), tonen zij in de **[!UICONTROL Subscription list]** sectie.
 
    ![](assets/lp_subscription-list.png)
 
-1. Van de het landen pagina, kunt u een reis [&#128279;](../building-journeys/journey-gs.md#jo-build) direct tot stand brengen die een bevestigingsbericht naar gebruikers zal verzenden wanneer zij de vorm voorleggen.  Leer hoe te om zulk een reis aan het eind van dit [ gebruiksgeval ](lp-use-cases.md#subscription-to-a-service) te bouwen.
+1. Van de het landen pagina, kunt u een reis [&#128279;](../building-journeys/journey-gs.md#jo-build) direct tot stand brengen die een bevestigingsbericht naar gebruikers zal verzenden wanneer zij de vorm voorleggen.  Leer hoe te om zulk een reis aan het eind van dit [&#x200B; gebruiksgeval &#x200B;](lp-use-cases.md#subscription-to-a-service) te bouwen.
 
    ![](assets/lp_create-journey.png)
 
@@ -164,11 +164,11 @@ Voer de onderstaande stappen uit om de subpagina-instellingen te definiëren.
 
 1. U kunt de paginanaam wijzigen. Standaard is dit **[!UICONTROL Subpage 1]** .
 
-1. Bewerk de inhoud van de pagina met de inhoudsontwerper. Leer hoe te om het landen van pagina inhoud [ hier ](design-lp.md) te bepalen.
+1. Bewerk de inhoud van de pagina met de inhoudsontwerper. Leer hoe te om het landen van pagina inhoud [&#x200B; hier &#x200B;](design-lp.md) te bepalen.
 
    >[!NOTE]
    >
-   >U kunt een koppeling naar de primaire pagina invoegen vanuit elke subpagina van dezelfde bestemmingspagina. Als u bijvoorbeeld gebruikers wilt omleiden die een fout hebben gemaakt en zich opnieuw willen abonneren, kunt u een koppeling toevoegen van de bevestigingssubpagina naar de primaire pagina van het abonnement. Leer hoe te om verbindingen in [ op te nemen deze sectie ](../email/message-tracking.md#insert-links).
+   >U kunt een koppeling naar de primaire pagina invoegen vanuit elke subpagina van dezelfde bestemmingspagina. Als u bijvoorbeeld gebruikers wilt omleiden die een fout hebben gemaakt en zich opnieuw willen abonneren, kunt u een koppeling toevoegen van de bevestigingssubpagina naar de primaire pagina van het abonnement. Leer hoe te om verbindingen in [&#x200B; op te nemen deze sectie &#x200B;](../email/message-tracking.md#insert-links).
 
 1. Geef de URL van de bestemmingspagina op. Voor het eerste deel van de URL moet u eerder een subdomein voor een bestemmingspagina instellen. [Meer informatie](../landing-pages/lp-subdomains.md)
 
@@ -176,7 +176,7 @@ Voer de onderstaande stappen uit om de subpagina-instellingen te definiëren.
    >
    >De bestemmingspagina-URL moet uniek zijn.
    >
-   >U hebt geen toegang tot uw subpagina door deze URL gewoon in een webbrowser te kopiëren en te plakken, zelfs niet als deze is gepubliceerd. In plaats daarvan kunt u het testen gebruikend de voorproeffunctie zoals die in [ wordt beschreven deze sectie ](#test-landing-page).
+   >U hebt geen toegang tot uw subpagina door deze URL gewoon in een webbrowser te kopiëren en te plakken, zelfs niet als deze is gepubliceerd. In plaats daarvan kunt u het testen gebruikend de voorproeffunctie zoals die in [&#x200B; wordt beschreven deze sectie &#x200B;](#test-landing-page).
 
 ![](assets/lp_subpage-settings.png)
 
@@ -188,13 +188,13 @@ Voer de onderstaande stappen uit om de subpagina-instellingen te definiëren.
 >abstract="Nadat u de instellingen en inhoud van de bestemmingspagina hebt gedefinieerd, kunt u testprofielen gebruiken om een voorvertoning weer te geven."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html?lang=nl-NL" text="Testprofielen selecteren"
 
-Nadat de instellingen en inhoud van de bestemmingspagina zijn gedefinieerd, kunt u testprofielen gebruiken om een voorvertoning weer te geven. Als u [ gepersonaliseerde inhoud ](../personalization/personalize.md) opnam, zult u kunnen controleren hoe deze inhoud in de het landen pagina wordt getoond, gebruikend de gegevens van het testprofiel.
+Nadat de instellingen en inhoud van de bestemmingspagina zijn gedefinieerd, kunt u testprofielen gebruiken om een voorvertoning weer te geven. Als u [&#x200B; gepersonaliseerde inhoud &#x200B;](../personalization/personalize.md) opnam, zult u kunnen controleren hoe deze inhoud in de het landen pagina wordt getoond, gebruikend de gegevens van het testprofiel.
 
 >[!CAUTION]
 >
 >Als u bestemmingspagina&#39;s wilt testen, moet u **[!UICONTROL Publish Messages]** toestemming hebben.
 >
->U moet testprofielen beschikbaar hebben om een voorbeeld van uw berichten te kunnen bekijken en proefdrukken te kunnen verzenden. Leer hoe te om [ testprofielen ](../audience/creating-test-profiles.md) tot stand te brengen.
+>U moet testprofielen beschikbaar hebben om een voorbeeld van uw berichten te kunnen bekijken en proefdrukken te kunnen verzenden. Leer hoe te om [&#x200B; testprofielen &#x200B;](../audience/creating-test-profiles.md) tot stand te brengen.
 
 1. Klik in de interface van de bestemmingspagina op de knop **[!UICONTROL Simulate content]** om toegang te krijgen tot de selectie van het testprofiel.
 
@@ -208,7 +208,7 @@ Nadat de instellingen en inhoud van de bestemmingspagina zijn gedefinieerd, kunt
 
    ![](assets/lp_test-profiles.png)
 
-   De stappen om testprofielen te selecteren zijn het zelfde als wanneer het testen van een bericht. Zij zijn gedetailleerd in de [ sectie van het Beheer van de Inhoud ](../content-management/test-profiles.md).
+   De stappen om testprofielen te selecteren zijn het zelfde als wanneer het testen van een bericht. Zij zijn gedetailleerd in de [&#x200B; sectie van het Beheer van de Inhoud &#x200B;](../content-management/test-profiles.md).
 
 1. Selecteer **[!UICONTROL Open preview]** om de openingspagina te testen.
 
@@ -271,10 +271,10 @@ Als de landingspagina gereed is, kunt u deze publiceren en in een bericht gebrui
 
 Nadat de landingspagina is gepubliceerd, wordt deze met de status **[!UICONTROL Published]** toegevoegd aan de lijst met landingspagina&#39;s.
 
-Het is nu levend en klaar om in a [!DNL Journey Optimizer] bericht te worden gebruikt dat door a [ reis ](../building-journeys/journey.md) zal worden verzonden.
+Het is nu levend en klaar om in a [!DNL Journey Optimizer] bericht te worden gebruikt dat door a [&#x200B; reis &#x200B;](../building-journeys/journey.md) zal worden verzonden.
 
 >[!NOTE]
 >
->U kunt tot uw landende pagina niet toegang hebben door eenvoudig kopiëren-kleeft in Webbrowser bepaalde URL wanneer [ creërend de pagina ](#create-landing-page), zelfs als gepubliceerd. In plaats daarvan kunt u het testen gebruikend de voorproeffunctie zoals die in [ wordt beschreven deze sectie ](#test-landing-page).
+>U kunt tot uw landende pagina niet toegang hebben door eenvoudig kopiëren-kleeft in Webbrowser bepaalde URL wanneer [&#x200B; creërend de pagina &#x200B;](#create-landing-page), zelfs als gepubliceerd. In plaats daarvan kunt u het testen gebruikend de voorproeffunctie zoals die in [&#x200B; wordt beschreven deze sectie &#x200B;](#test-landing-page).
 
 U kunt de gevolgen van de landingspagina controleren aan de hand van specifieke rapporten. [Meer informatie](../reports/lp-report-live.md)

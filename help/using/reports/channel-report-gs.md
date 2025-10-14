@@ -19,19 +19,19 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->De huidige ervaring met rapportage wordt met ingang van januari 2025 opgeheven. Na deze datum wordt de nieuwe ervaring met rapportage de norm. We raden u aan bekend te maken met de nieuwe functies en functies om een soepele overgang te garanderen. [ worden begonnen met Journey Optimizer nieuwe het Melden interface.](report-gs-cja.md)
+>De huidige ervaring met rapportage wordt met ingang van januari 2025 opgeheven. Na deze datum wordt de nieuwe ervaring met rapportage de norm. We raden u aan bekend te maken met de nieuwe functies en functies om een soepele overgang te garanderen. [&#x200B; worden begonnen met Journey Optimizer nieuwe het Melden interface.](report-gs-cja.md)
 
 De rapporten van het Kanaal dienen als krachtig hulpmiddel dat een uitvoerig overzicht van verkeer en betrokkenheidsmetriek in een verenigd rapport voor elk kanaal verstrekt, dat alle Acties van alle Campagnes en Reizen omvat. Het is verdeeld in verschillende widgets, die elk een specifiek beeld van uw campagne of reisprestaties verstrekken.
 
 De Kanaalrapporten zijn volledig aanpasbaar, zodat kunt u resize of widgets verwijderen om een dashboard tot stand te brengen dat aan uw specifieke behoeften voldoet. U kunt de rapportgegevens ook exporteren naar een PDF- of CSV-bestand voor verdere analyse.
 
-Leer meer over de verschillende metriek en widgets beschikbaar voor het Kanaal rapporten over [ deze pagina ](channel-report.md).
+Leer meer over de verschillende metriek en widgets beschikbaar voor het Kanaal rapporten over [&#x200B; deze pagina &#x200B;](channel-report.md).
 
 ## Voordat u begint {#manage-reports-prereq}
 
 Controleer voordat u begint of u toegang hebt tot het menu **[!UICONTROL Reports]** .
 
-Als u het menu **[!UICONTROL Reports]** niet kunt zien, moeten uw toegangsrechten worden uitgebreid om de machtiging **[!UICONTROL View Channel Reports]** op te nemen. U kunt uw eigen toestemmingen uitbreiden, als u toegang tot Adobe Experience Platform [ Toestemmingen ](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=nl-NL){target="_blank"} voor uw organisatie hebt. Als dat niet het geval is, neemt u contact op met uw Adobe Journey Optimizer-beheerder.
+Als u het menu **[!UICONTROL Reports]** niet kunt zien, moeten uw toegangsrechten worden uitgebreid om de machtiging **[!UICONTROL View Channel Reports]** op te nemen. U kunt uw eigen toestemmingen uitbreiden, als u toegang tot Adobe Experience Platform [&#x200B; Toestemmingen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=nl-NL){target="_blank"} voor uw organisatie hebt. Als dat niet het geval is, neemt u contact op met uw Adobe Journey Optimizer-beheerder.
 
 +++Leer hoe te om rapporttoestemming toe te wijzen
 

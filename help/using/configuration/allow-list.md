@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # Lijst van gewenste personen {#allow-list}
 
-Het is mogelijk om een specifieke het verzenden-veilige lijst op het [ zandbak ](../administration/sandboxes.md) niveau te bepalen.
+Het is mogelijk om een specifieke het verzenden-veilige lijst op het [&#x200B; zandbak &#x200B;](../administration/sandboxes.md) niveau te bepalen.
 
 Met deze lijst van gewenste personen kunt u afzonderlijke e-mailadressen of domeinen opgeven die de enige ontvangers of domeinen zijn die geautoriseerd zijn om de e-mails te ontvangen die u vanuit een specifieke sandbox verzendt.
 
@@ -28,9 +28,9 @@ Met deze lijst van gewenste personen kunt u afzonderlijke e-mailadressen of dome
 
 Bijvoorbeeld, op een niet-productie-instantie, waar fouten kunnen optreden, zorgt de toegestane lijst ervoor dat u geen risico loopt op het verzenden van ongewenste berichten naar echte klantadressen, en biedt daarom een beveiligde omgeving voor testdoeleinden.
 
-Ook als de lijst met toegestane goederen actief maar leeg is, gaat er geen e-mail uit. Als u een belangrijk probleem tegenkomt, kunt u deze functie gebruiken om alle uitgaande communicatie vanuit [!DNL Journey Optimizer] te stoppen totdat u het probleem verhelpt. Leer meer over de [ logica van de lijst van gewenste personen ](#logic).
+Ook als de lijst met toegestane goederen actief maar leeg is, gaat er geen e-mail uit. Als u een belangrijk probleem tegenkomt, kunt u deze functie gebruiken om alle uitgaande communicatie vanuit [!DNL Journey Optimizer] te stoppen totdat u het probleem verhelpt. Leer meer over de [&#x200B; logica van de lijst van gewenste personen &#x200B;](#logic).
 
-Bovendien kunt u hefboomwerkingJourney Optimizer **HULPMIDDELEN API van de Onderdrukking** om uw uitgaande berichten te controleren gebruikend onderdrukking en lijsten van gewenste personen. [ Leer hoe te met de HULPMIDDEL te werken REST API ](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+Bovendien kunt u hefboomwerkingJourney Optimizer **HULPMIDDELEN API van de Onderdrukking** om uw uitgaande berichten te controleren gebruikend onderdrukking en lijsten van gewenste personen. [&#x200B; Leer hoe te met de HULPMIDDEL te werken REST API &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## Toegang tot de lijst van gewenste personen {#access-allowed-list}
 
@@ -72,7 +72,7 @@ De logica lijst van gewenste personen is van toepassing wanneer de functie actie
 
 >[!NOTE]
 >
->Wanneer geactiveerd, wordt de eigenschap van de lijst van gewenste personen geëerd wanneer het uitvoeren van reizen, maar ook wanneer het testen van berichten met [ proeven ](../content-management/proofs.md) en het testen reizen gebruikend de [ testwijze ](../building-journeys/testing-the-journey.md).
+>Wanneer geactiveerd, wordt de eigenschap van de lijst van gewenste personen geëerd wanneer het uitvoeren van reizen, maar ook wanneer het testen van berichten met [&#x200B; proeven &#x200B;](../content-management/proofs.md) en het testen reizen gebruikend de [&#x200B; testwijze &#x200B;](../building-journeys/testing-the-journey.md).
 
 ## Deactiveer de lijst met toegestane personen {#deactivate-allow-list}
 
@@ -152,7 +152,7 @@ Als u de lijst van gewenste personen wilt vullen, kunt u de API voor onderdrukki
 
 U kunt **uitvoeren voeg** toe, **schrapt** en **krijgt** verrichtingen.
 
-Leer meer over het maken van API vraag in [ Adobe Experience Platform APIs ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=nl-NL){target="_blank"} verwijzingsdocumentatie.
+Leer meer over het maken van API vraag in [&#x200B; Adobe Experience Platform APIs &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=nl-NL){target="_blank"} verwijzingsdocumentatie.
 
 ## De lijst van gewenste personen downloaden {#download-allowed-list}
 
@@ -189,7 +189,7 @@ Voer de volgende stappen uit om de lijst van gewenste personen als een CSV-besta
 >title="De lijst van gewenste personen beheren"
 >abstract="Wanneer de lijst van gewenste personen wordt geactiveerd, ontvangen alleen de ontvangers die zijn opgenomen in de lijst van gewenste personen e-mailberichten van deze sandbox. Wanneer deze functie is gedeactiveerd, ontvangen alle ontvangers e-mailberichten."
 
-Wanneer de lijst van gewenste personen [ actief ](#enable-allow-list) is, is de volgende logica van toepassing:
+Wanneer de lijst van gewenste personen [&#x200B; actief &#x200B;](#enable-allow-list) is, is de volgende logica van toepassing:
 
 * Als de lijst met toegestane personen leeg **is**, wordt er geen e-mail verzonden.
 
@@ -199,15 +199,15 @@ Wanneer de lijst van gewenste personen [ actief ](#enable-allow-list) is, is de 
 
 >[!NOTE]
 >
->De profielen met de status **[!UICONTROL Not allowed]** worden tijdens het verzenden van berichten uitgesloten. Daarom terwijl de **rapporten van de Reis** deze profielen zullen tonen zoals die door de reis ([ gelezen Publiek ](../building-journeys/read-audience.md) en [ berichtactiviteiten ](../building-journeys/journeys-message.md)) zijn bewogen, zullen de **E-mail rapporten** niet hen in de **[!UICONTROL Sent]** metriek omvatten aangezien zij voorafgaand aan e-mail het verzenden worden uitgefilterd.
+>De profielen met de status **[!UICONTROL Not allowed]** worden tijdens het verzenden van berichten uitgesloten. Daarom terwijl de **rapporten van de Reis** deze profielen zullen tonen zoals die door de reis ([&#x200B; gelezen Publiek &#x200B;](../building-journeys/read-audience.md) en [&#x200B; berichtactiviteiten &#x200B;](../building-journeys/journeys-message.md)) zijn bewogen, zullen de **E-mail rapporten** niet hen in de **[!UICONTROL Sent]** metriek omvatten aangezien zij voorafgaand aan e-mail het verzenden worden uitgefilterd.
 >
->Leer meer over het [ Levende Rapport ](../reports/live-report.md) en [ rapport van Customer Journey Analytics ](../reports/report-gs-cja.md).
+>Leer meer over het [&#x200B; Levende Rapport &#x200B;](../reports/live-report.md) en [&#x200B; rapport van Customer Journey Analytics &#x200B;](../reports/report-gs-cja.md).
 
 Wanneer de lijst van gewenste personen [&#128279;](#deactivate-allow-list) wordt gedeactiveerd, worden alle e-mails die u van de huidige zandbak verzendt verzonden naar alle ontvangers (mits zij niet op de suppressielijst), met inbegrip van echte klantenadressen zijn.
 
 ## Uitsluitingsrapportage {#reporting}
 
-Wanneer de lijst van gewenste personen actief is, kunt u e-mailadressen of domeinen terugwinnen die van het verzenden werden uitgesloten omdat zij niet op de lijst van gewenste personen waren. Om dit te doen, kunt u de [ Dienst van de Vraag van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=nl-NL){target="_blank"} gebruiken om de API hieronder vraag te maken.
+Wanneer de lijst van gewenste personen actief is, kunt u e-mailadressen of domeinen terugwinnen die van het verzenden werden uitgesloten omdat zij niet op de lijst van gewenste personen waren. Om dit te doen, kunt u de [&#x200B; Dienst van de Vraag van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=nl-NL){target="_blank"} gebruiken om de API hieronder vraag te maken.
 
 Om het **aantal e-mails** te krijgen die niet werden verzonden omdat de ontvangers niet op de lijst van gewenste personen waren, gebruik de volgende vraag:
 

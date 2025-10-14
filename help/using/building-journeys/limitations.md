@@ -25,7 +25,7 @@ Hier zijn beperkingen met betrekking tot het gebruik van reizen.
 
 * Er is geen verzendvertraging. 
 * In het geval van een fout worden drie pogingen systematisch opnieuw uitgevoerd. U kunt het aantal pogingen niet aanpassen volgens het ontvangen foutbericht. 
-* De ingebouwde **gebeurtenis van de Reactie** staat u toe om op uit-van-de-doos acties (zie deze [ pagina ](../building-journeys/reaction-events.md)) te reageren. Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen. 
+* De ingebouwde **gebeurtenis van de Reactie** staat u toe om op uit-van-de-doos acties (zie deze [&#x200B; pagina &#x200B;](../building-journeys/reaction-events.md)) te reageren. Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen. 
 * U kunt geen twee acties parallel plaatsen, u moet hen één na andere toevoegen.
 
 ## Beperkingen van reisversies {#journey-versions-limitations}

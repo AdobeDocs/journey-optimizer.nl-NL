@@ -24,7 +24,7 @@ Met experimenten met inhoud kunt u inhoud optimaliseren voor de acties in uw cam
 
 Experimenten bestaan uit een reeks gerandomiseerde onderzoeken, die in de context van online tests betekenen dat sommige willekeurig geselecteerde gebruikers worden blootgesteld aan een bepaalde variatie van een bericht en een andere willekeurig gekozen groep gebruikers aan een andere behandeling. Nadat u het bericht hebt verzonden, kunt u de resultaten meten die u interesseert, bijvoorbeeld wanneer u e-mailberichten opent of klikt.
 
-➡️ een gebruiksgeval van begin tot eind dat toont hoe te om inhoudsexperimenten te gebruiken om besluiten met het op code-gebaseerde ervaringskanaal te vergelijken is presentend in [ deze sectie ](../experience-decisioning/experience-decisioning-uc.md).
+➡️ een gebruiksgeval van begin tot eind dat toont hoe te om inhoudsexperimenten te gebruiken om besluiten met het op code-gebaseerde ervaringskanaal te vergelijken is presentend in [&#x200B; deze sectie &#x200B;](../experience-decisioning/experience-decisioning-uc.md).
 
 ## Waarom experimenten uitvoeren?
 
@@ -47,7 +47,7 @@ Bij het experimenteren met inhoud in Adobe Journey Optimizer wordt een pseudo-wi
 
 In detail, wordt het algoritme MumurHash3 met 32 bits gebruikt om het koord van de gebruikersidentiteit in één van 10.000 emmers te hakken. In een inhoudexperiment met 50% van het verkeer dat aan elke behandeling wordt toegewezen, zullen gebruikers die in emmers 1-5.000 vallen de eerste behandeling krijgen, terwijl gebruikers in de emmers 5.001 tot 10.000 de tweede behandeling zullen krijgen. Aangezien pseudo-willekeurige hashing wordt gebruikt, is het mogelijk dat de bezoeker niet precies 50-50 splitst. De splitsing is echter statistisch gelijk aan het splitsingspercentage van het doel.
 
-Merk op dat als deel van het vormen van elke campagne met een inhoudexperiment, u een identiteitsnamespace moet kiezen waarvan userId voor het randomisatiealgoritme zal worden geselecteerd. Dit is onafhankelijk van de [ uitvoeringsadressen ](../configuration/primary-email-addresses.md).
+Merk op dat als deel van het vormen van elke campagne met een inhoudexperiment, u een identiteitsnamespace moet kiezen waarvan userId voor het randomisatiealgoritme zal worden geselecteerd. Dit is onafhankelijk van de [&#x200B; uitvoeringsadressen &#x200B;](../configuration/primary-email-addresses.md).
 
 ### Gegevensverzameling en -analyse
 
@@ -58,7 +58,7 @@ De objectieve metriek kan in twee hoofdklassen worden gegroepeerd:
 * Directe cijfers, waarbij de gebruiker rechtstreeks op de behandeling reageert, bijvoorbeeld door een e-mail te openen of op een koppeling te klikken.
 * Indirecte of &quot;bodem van trechter&quot; metriek, die optreedt nadat de gebruiker aan de behandeling is blootgesteld.
 
-Voor directe objectieve metriek waar Adobe Journey Optimizer uw berichten bijhoudt, worden de reactiegebeurtenissen van eind - gebruikers automatisch geëtiketteerd met campagne en behandelingsidentificateurs, die directe vereniging van reactie metrisch met een behandeling toestaan. [ Leer meer over het volgen ](../email/message-tracking.md).
+Voor directe objectieve metriek waar Adobe Journey Optimizer uw berichten bijhoudt, worden de reactiegebeurtenissen van eind - gebruikers automatisch geëtiketteerd met campagne en behandelingsidentificateurs, die directe vereniging van reactie metrisch met een behandeling toestaan. [&#x200B; Leer meer over het volgen &#x200B;](../email/message-tracking.md).
 
 ![](assets/technote_2.png)
 
@@ -92,7 +92,7 @@ Als u bijvoorbeeld de inhoud van de berichttekst wijzigt, is het onwaarschijnlij
 +++Voer de test uit op de juiste publieksgrootte of voor lang genoeg
 
 Als je langer tests uitvoert, kun je kleinere verschillen in het doel meten tussen behandelingen. Nochtans, als de basislijnwaarde van uw doel metrisch is, dan zult u grotere steekproefgrootte nodig hebben.
-Het aantal gebruikers dat in uw experiment moet worden omvat hangt van de effect grootte af u wenst te ontdekken, de variantie of de spreiding van uw doel metrisch, evenals uw tolerantie voor vals positieve en vals negatieve fouten. In klassieke Experimenten, kunt u de calculator van de a [ steekproefgrootte ](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=nl-NL) gebruiken {_blank} om te bepalen hoe lang u uw test moet in werking stellen.
+Het aantal gebruikers dat in uw experiment moet worden omvat hangt van de effect grootte af u wenst te ontdekken, de variantie of de spreiding van uw doel metrisch, evenals uw tolerantie voor vals positieve en vals negatieve fouten. In klassieke Experimenten, kunt u de calculator van de a [&#x200B; steekproefgrootte &#x200B;](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=nl-NL) gebruiken {_blank} om te bepalen hoe lang u uw test moet in werking stellen.
 +++
 
 +++Statistische onzekerheid begrijpen
@@ -121,7 +121,7 @@ Hier volgen enkele richtlijnen voor het interpreteren van de resultaten van uw C
 
 Bij een volledige beschrijving van de resultaten moet rekening worden gehouden met alle beschikbare gegevens (bv. steekproefgrootten, omrekeningskoersen, betrouwbaarheidsintervallen enz.) en niet alleen met de verklaring van afdoend of niet. Zelfs als een resultaat nog niet overtuigend is, kan er nog steeds overtuigend bewijs zijn dat de ene behandeling anders is dan de andere.
 
-Om statistische berekeningen te begrijpen, verwijs naar deze [ pagina ](../content-management/experiment-calculations.md).
+Om statistische berekeningen te begrijpen, verwijs naar deze [&#x200B; pagina &#x200B;](../content-management/experiment-calculations.md).
 
 ### 1. Vergelijk genormaliseerde meetgegevens {#normalized-metrics}
 

@@ -78,15 +78,15 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 </table>
 
 
-Zie ook [ de Nota&#39;s van de Versie van Adobe Experience Platform Oktober ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=nl-NL){target="_blank"} voor meer veranderingen.
+Zie ook [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform Oktober &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=nl-NL){target="_blank"} voor meer veranderingen.
 
 ### Verbeteringen
 
 **Reizen**
 
-* **de redacteur van de Uitdrukking** - als machtsgebruiker, kunt u functies nu gebruiken om met kaarten te werken. Deze mogelijkheid kan worden benut met de abonnementenlijsten. Als voorbeeld kunt u vanuit een publiek nu een e-mailadres ophalen uit een abonnementenlijst. [ leer meer in deze steekproef ](../building-journeys/message-to-subscribers-uc.md)
+* **de redacteur van de Uitdrukking** - als machtsgebruiker, kunt u functies nu gebruiken om met kaarten te werken. Deze mogelijkheid kan worden benut met de abonnementenlijsten. Als voorbeeld kunt u vanuit een publiek nu een e-mailadres ophalen uit een abonnementenlijst. [&#x200B; leer meer in deze steekproef &#x200B;](../building-journeys/message-to-subscribers-uc.md)
 
-* **Controle** - De gebeurtenissen van de Stap voor levende reizen en testwijze zijn verbeterd. [ de Nieuwe gebieden ](../reports/sharing-field-list.md#serviceevents) zijn toegevoegd met betrekking tot de banen van de profieluitvoer. Voor een betere gebruikerservaring zijn de velden voor stapgebeurtenissen nu ingedeeld in verschillende categorieën. Alle vorige gebieden van stapgebeurtenissen zijn nog beschikbaar in de [ stepEvents ](../reports/sharing-legacy-fields.md) categorie.
+* **Controle** - De gebeurtenissen van de Stap voor levende reizen en testwijze zijn verbeterd. [&#x200B; de Nieuwe gebieden &#x200B;](../reports/sharing-field-list.md#serviceevents) zijn toegevoegd met betrekking tot de banen van de profieluitvoer. Voor een betere gebruikerservaring zijn de velden voor stapgebeurtenissen nu ingedeeld in verschillende categorieën. Alle vorige gebieden van stapgebeurtenissen zijn nog beschikbaar in de [&#x200B; stepEvents &#x200B;](../reports/sharing-legacy-fields.md) categorie.
 * **Toegankelijkheid** - de verhogingen van de Toegankelijkheid zijn uitgevoerd in reizen.
 * **Inzamelingen** - de series van voorwerpen die subvoorwerpen bevatten worden nu gesteund. [Meer informatie](../building-journeys/collections.md)
 * **Lijsten** - de schermen van lijsten zijn verbeterd voor reizen, gebeurtenissen, acties, gegevensbronnen.

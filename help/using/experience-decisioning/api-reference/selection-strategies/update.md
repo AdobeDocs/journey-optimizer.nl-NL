@@ -17,7 +17,7 @@ ht-degree: 1%
 
 U kunt een selectiestrategie wijzigen of bijwerken door een PATCH-aanvraag in te dienen bij de bibliotheek-API van de aanbieding.
 
-Voor meer informatie over Reparatie JSON, met inbegrip van beschikbare verrichtingen, zie de officiële [ documentatie van het Reparatie JSON ](https://jsonpatch.com/).
+Voor meer informatie over Reparatie JSON, met inbegrip van beschikbare verrichtingen, zie de officiële [&#x200B; documentatie van het Reparatie JSON &#x200B;](https://jsonpatch.com/).
 
 **API formaat**
 

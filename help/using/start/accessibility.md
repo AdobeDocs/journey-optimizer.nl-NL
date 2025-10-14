@@ -16,13 +16,13 @@ ht-degree: 2%
 
 # Toegankelijkheid in Journey Optimizer{#accessibility}
 
-Toegankelijkheid heeft betrekking op een reeks functies die een softwareproduct zo weinig mogelijk bruikbaar maken voor gebruikers met een visuele, auditieve, cognitieve, motorische of andere handicap. Adobe is marktleider op het gebied van toegankelijkheid en ondersteunt het creëren van uitstekende webervaringen door ontwikkelaars aan te moedigen rijke, aantrekkelijke inhoud te produceren die voor alle gebruikers toegankelijk is. Leer meer over Adobe toewijding aan toegankelijkheid in de [ pagina van de Toegankelijkheid van Adobe ](https://www.adobe.com/accessibility.html){target="_blank"}.
+Toegankelijkheid heeft betrekking op een reeks functies die een softwareproduct zo weinig mogelijk bruikbaar maken voor gebruikers met een visuele, auditieve, cognitieve, motorische of andere handicap. Adobe is marktleider op het gebied van toegankelijkheid en ondersteunt het creëren van uitstekende webervaringen door ontwikkelaars aan te moedigen rijke, aantrekkelijke inhoud te produceren die voor alle gebruikers toegankelijk is. Leer meer over Adobe toewijding aan toegankelijkheid in de [&#x200B; pagina van de Toegankelijkheid van Adobe &#x200B;](https://www.adobe.com/accessibility.html){target="_blank"}.
 
-Om het doel van toegankelijkheidsconformiteit te helpen bereiken, volgt [!DNL Journey Optimizer] de internationaal erkende beste praktijken in de Richtlijnen van de Toegankelijkheid van de Inhoud van het Web (WCAG) 2.1 Niveau A en Niveau AA. Leer meer in het recentste [ Rapport van de Conformiteit van de Toegankelijkheid van Adobe Journey Optimizer ](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer.html){target="_blank"}.
+Om het doel van toegankelijkheidsconformiteit te helpen bereiken, volgt [!DNL Journey Optimizer] de internationaal erkende beste praktijken in de Richtlijnen van de Toegankelijkheid van de Inhoud van het Web (WCAG) 2.1 Niveau A en Niveau AA. Leer meer in het recentste [&#x200B; Rapport van de Conformiteit van de Toegankelijkheid van Adobe Journey Optimizer &#x200B;](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer.html){target="_blank"}.
 
 >[!NOTE]
 >
->De richtlijnen om toegankelijke inhoud voor uw e-mail en landende pagina&#39;s te ontwerpen zijn gedetailleerd in [ deze sectie ](../email/accessible-content.md).
+>De richtlijnen om toegankelijke inhoud voor uw e-mail en landende pagina&#39;s te ontwerpen zijn gedetailleerd in [&#x200B; deze sectie &#x200B;](../email/accessible-content.md).
 
 De toegankelijkheidsfuncties in [!DNL Adobe Journey Optimizer] worden overgenomen van Adobe Experience Platform:
 
@@ -30,7 +30,7 @@ De toegankelijkheidsfuncties in [!DNL Adobe Journey Optimizer] worden overgenome
 * Kleurcontrast
 * Validatie van vereiste velden
 
-De eigenschappen van de toegankelijkheid in Adobe Experience Platform zijn gedetailleerd [ in deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=nl-NL){target="_blank"}.
+De eigenschappen van de toegankelijkheid in Adobe Experience Platform zijn gedetailleerd [&#x200B; in deze documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=nl-NL){target="_blank"}.
 
 De volgende algemene sneltoetsen zijn beschikbaar in [!DNL Journey Optimizer] :
 

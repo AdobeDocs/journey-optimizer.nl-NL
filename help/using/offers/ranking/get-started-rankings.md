@@ -18,8 +18,8 @@ ht-degree: 0%
 
 Met [!DNL Journey Optimizer] kunt u voor een bepaald profiel classificaties gebruiken voor aanbiedingen in ranks:
 
-* **Rangschikkende formules** staan u toe om regels te bepalen die welke aanbieding eerst voor een bepaalde plaatsing, eerder dan rekening houdend met de prioritaire scores van aanbiedingen zullen bepalen. [ leer meer over het rangschikken formules ](create-ranking-formulas.md)
+* **Rangschikkende formules** staan u toe om regels te bepalen die welke aanbieding eerst voor een bepaalde plaatsing, eerder dan rekening houdend met de prioritaire scores van aanbiedingen zullen bepalen. [&#x200B; leer meer over het rangschikken formules &#x200B;](create-ranking-formulas.md)
 
-* **AI modellen** staan u toe om opgeleide modelsystemen te gebruiken die hefboomwerking veelvoudige gegevenspunten zullen bepalen welke aanbieding eerst voor een bepaalde plaatsing zou moeten worden voorgesteld. [ leer meer over AI modellen ](ai-models.md)
+* **AI modellen** staan u toe om opgeleide modelsystemen te gebruiken die hefboomwerking veelvoudige gegevenspunten zullen bepalen welke aanbieding eerst voor een bepaalde plaatsing zou moeten worden voorgesteld. [&#x200B; leer meer over AI modellen &#x200B;](ai-models.md)
 
-Nadat u een rangschikkingsformule of een AI-model hebt gemaakt, kunt u deze toewijzen aan een plaatsing in een beslissing. Voor meer op dit, zie [ aanbiedingsselectie in besluiten ](../offer-activities/configure-offer-selection.md) vormen.
+Nadat u een rangschikkingsformule of een AI-model hebt gemaakt, kunt u deze toewijzen aan een plaatsing in een beslissing. Voor meer op dit, zie [&#x200B; aanbiedingsselectie in besluiten &#x200B;](../offer-activities/configure-offer-selection.md) vormen.

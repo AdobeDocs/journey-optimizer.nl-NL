@@ -18,9 +18,9 @@ Met het e-mailkanaal in Adobe Journey Optimizer kunt u zeer nauwkeurig en creati
 
 E-mailleveringen kunnen worden gemaakt:
 
-* In a **Weg**: zodra u een **[!UICONTROL Email]** activiteit aan uw reis toevoegde, en bepaalde basismontages, gebruik de **[!UICONTROL Actions: Email]** juiste ruit om de inhoud voor het bericht tot stand te brengen. [ leer hoe te om een reis ](../using/building-journeys/journey-gs.md) tot stand te brengen
+* In a **Weg**: zodra u een **[!UICONTROL Email]** activiteit aan uw reis toevoegde, en bepaalde basismontages, gebruik de **[!UICONTROL Actions: Email]** juiste ruit om de inhoud voor het bericht tot stand te brengen. [&#x200B; leer hoe te om een reis &#x200B;](../using/building-journeys/journey-gs.md) tot stand te brengen
 
-* In a **Campagne**: Zodra u een campagne creeerde, selecteer **[!UICONTROL Email]** als uw actie en bepaal basismontages. [ Leer hoe te om een campagne ](../using/campaigns/create-campaign.md#configure) tot stand te brengen
+* In a **Campagne**: Zodra u een campagne creeerde, selecteer **[!UICONTROL Email]** als uw actie en bepaal basismontages. [&#x200B; Leer hoe te om een campagne &#x200B;](../using/campaigns/create-campaign.md#configure) tot stand te brengen
 
 
 >[!IMPORTANT]

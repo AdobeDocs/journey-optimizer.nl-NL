@@ -51,7 +51,7 @@ Het proces voor het maken van inhoud is afhankelijk van het kanaal dat u hebt ge
 
 ## Inhoud testen en controleren
 
-Zodra de inhoud is gedefinieerd, gebruikt u de knop **[!UICONTROL Simulate content]** om een voorvertoning van uw inhoud weer te geven en deze te testen met testprofielen of voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [ Leer hoe te om inhoud ](../content-management/preview-test.md) voor te vertonen en te testen
+Zodra de inhoud is gedefinieerd, gebruikt u de knop **[!UICONTROL Simulate content]** om een voorvertoning van uw inhoud weer te geven en deze te testen met testprofielen of voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [&#x200B; Leer hoe te om inhoud &#x200B;](../content-management/preview-test.md) voor te vertonen en te testen
 
 Klik op de linkerpijl om terug te bladeren naar het scherm Campagne maken.
 

@@ -62,7 +62,7 @@ De **[!UICONTROL Experiment outcome]** geeft u een snel overzicht van de winnend
 
 In **[!UICONTROL Hypothesis]** worden de geplande wijzigingen vastgelegd die moeten worden getest en wordt het verwachte effect op de primaire metrische waarde beschreven. Als u een duidelijke **[!UICONTROL Hypothesis]** definitie opgeeft, weet u zeker dat elk experiment een meetbaar doel heeft, waardoor het gemakkelijker wordt om resultaten te evalueren en te bepalen of de wijzigingen tot betekenisvolle verbeteringen leiden.
 
-Merk op dat voor [ Experimenteerde inzichten ](#insights) worden geproduceerd, u hypothese en behandelingsdetails en statistische betekenis moet bevestigen om worden bereikt.
+Merk op dat voor [&#x200B; Experimenteerde inzichten &#x200B;](#insights) worden geproduceerd, u hypothese en behandelingsdetails en statistische betekenis moet bevestigen om worden bereikt.
 
 1. Klik op **[!UICONTROL Add]** om een **[!UICONTROL Hypothesis]** -object voor uw experiment te maken.
 
@@ -82,7 +82,7 @@ Merk op dat voor [ Experimenteerde inzichten ](#insights) worden geproduceerd, u
 
 1. Klik op het pictogram ![](assets/do-not-localize/Smock_Edit_18_N.svg) om de **[!UICONTROL Hypothesis]** -code indien nodig bij te werken.
 
-Zodra u klaar was met het vormen van uw **[!UICONTROL Hypothesis]**, zult u waardevolle [ Inzichten ](#insights) en [ Kansen ](#opportunities) krijgen.
+Zodra u klaar was met het vormen van uw **[!UICONTROL Hypothesis]**, zult u waardevolle [&#x200B; Inzichten &#x200B;](#insights) en [&#x200B; Kansen &#x200B;](#opportunities) krijgen.
 
 ### Details {#details}
 
@@ -118,7 +118,7 @@ Onder aan de widget vindt u een beknopte samenvatting van de configuratie van uw
 
 In het deelvenster **[!UICONTROL Opportunities]** worden door AI gegenereerde aanbevelingen weergegeven die zijn ontworpen om de testprestaties te verbeteren en die zijn afgestemd op bredere bedrijfsdoelstellingen en KPI&#39;s.
 
-Merk op dat voor de Te produceren kansen van de Experimenteer, u eerst hypothese en behandelingsdetails [ moet ](#set-up) bevestigen.
+Merk op dat voor de Te produceren kansen van de Experimenteer, u eerst hypothese en behandelingsdetails [&#x200B; moet &#x200B;](#set-up) bevestigen.
 
 1. Blader door de voorgestelde optie en klik op **[!UICONTROL View Opportunity]** .
 
@@ -147,7 +147,7 @@ Merk op dat voor de Te produceren kansen van de Experimenteer, u eerst hypothese
 
    Voor experimenten die afkomstig zijn uit **[!DNL Adobe Target]** , worden de voorgestelde wijzigingen geladen in de testworkflow van **[!DNL Adobe Target]** .
 
-   ➡️ [ Leer meer in de documentatie van Adobe Target ](https://experienceleague.adobe.com/nl/docs/target/using/activities/abtest/test-ab)
+   ➡️ [&#x200B; Leer meer in de documentatie van Adobe Target &#x200B;](https://experienceleague.adobe.com/nl/docs/target/using/activities/abtest/test-ab)
 
 1. In de experimentele weergave zijn dezelfde AI **[!UICONTROL Experimentation Opportunities]** die de Journey Optimizer Experimentation Accelerator heeft aangetroffen, toegankelijk.
 
@@ -181,7 +181,7 @@ De tabel **[!UICONTROL Results]** bevat een gedetailleerde prestatie-indeling va
 
 **[!UICONTROL Experiment Insights]** zijn door AI gegenereerde lessen die zijn afgeleid van dit experiment. Deze inzichten komen beschikbaar zodra het experiment statistisch significant is geworden en een contextueel inzicht verschaft in wat heeft bijgedragen tot het succes ervan. Zij benadrukken de belangrijkste kenmerken die aanwezig zijn in de winnende behandeling, los van de controle, die waarschijnlijk het resultaat beïnvloedden.
 
-Merk op dat voor de Inzichten van de Experimenten die moeten worden geproduceerd, u eerst hypothese en behandelingsdetails [ en statistische betekenis moet bevestigen om worden bereikt.](#set-up)
+Merk op dat voor de Inzichten van de Experimenten die moeten worden geproduceerd, u eerst hypothese en behandelingsdetails [&#x200B; en statistische betekenis moet bevestigen om worden bereikt.](#set-up)
 
 Klik op **[!UICONTROL View details]** voor meer informatie over alle inzichten.
 

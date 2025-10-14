@@ -34,7 +34,7 @@ Om dit te doen, zou de organisatie:
 
 >[!NOTE]
 >
->U kunt de batch ook bepalen via de Journey Optimizer-interface. Voor meer informatie, verwijs naar [ deze sectie ](../../batch-delivery.md), die informatie over globale eerste vereisten en beperkingen verstrekt om rekening te houden met wanneer het gebruiken van partijbeslissing.
+>U kunt de batch ook bepalen via de Journey Optimizer-interface. Voor meer informatie, verwijs naar [&#x200B; deze sectie &#x200B;](../../batch-delivery.md), die informatie over globale eerste vereisten en beperkingen verstrekt om rekening te houden met wanneer het gebruiken van partijbeslissing.
 
 * **het aantal lopende partijbanen per dataset**: Tot vijf partijbanen kunnen in een tijd, per dataset worden in werking gesteld. Om het even welke andere partijverzoeken met de zelfde outputdataset worden toegevoegd aan de rij. Er wordt een taak in de wachtrij opgehaald om te worden verwerkt zodra de vorige taak is voltooid.
 * **het in kaart brengen van de Frequentie**: Een partijlooppas van de profielmomentopname die eens per dag voorkomt. De API van [!DNL Batch Decisioning] kapt de frequentie in en laadt altijd profielen van de recentste momentopname.
@@ -45,11 +45,11 @@ Voordat u deze API gebruikt, moet u de volgende vereiste stappen uitvoeren.
 
 ### De beslissing voorbereiden {#prepare-decision}
 
-Om één of meerdere besluiten voor te bereiden, zorg ervoor u een dataset, een publiek, en een besluit hebt gecreeerd. Die eerste vereisten zijn gedetailleerd in [ deze sectie ](../../batch-delivery.md).
+Om één of meerdere besluiten voor te bereiden, zorg ervoor u een dataset, een publiek, en een besluit hebt gecreeerd. Die eerste vereisten zijn gedetailleerd in [&#x200B; deze sectie &#x200B;](../../batch-delivery.md).
 
 ### API-vereisten {#api-requirements}
 
-Alle [!DNL Batch Decisioning] verzoeken vereisen de volgende kopballen naast degenen die in de [ gids van de ontwikkelaar van het Beheer API van het Besluit ](../getting-started.md) worden bedoeld:
+Alle [!DNL Batch Decisioning] verzoeken vereisen de volgende kopballen naast degenen die in de [&#x200B; gids van de ontwikkelaar van het Beheer API van het Besluit &#x200B;](../getting-started.md) worden bedoeld:
 
 * `Content-Type`: `application/json`
 * `x-request-id`: Een unieke tekenreeks die de aanvraag identificeert.
@@ -61,7 +61,7 @@ Als u een werkbelasting wilt starten om beslissingen over batchprocessen te neme
 
 >[!NOTE]
 >
->De gedetailleerde informatie over de verwerkingstijd van partijbanen is beschikbaar in [ deze sectie ](../../batch-delivery.md).
+>De gedetailleerde informatie over de verwerkingstijd van partijbanen is beschikbaar in [&#x200B; deze sectie &#x200B;](../../batch-delivery.md).
 
 **API formaat**
 
@@ -110,7 +110,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 | `xdm:propositionRequests` | Een omslag die `placementId` en `activityId` bevat |
 | `xdm:segmentIds` | De waarde is een array die de unieke id van het publiek bevat. Het kan slechts één waarde bevatten. | `609028e4-e66c-4776-b0d9-c782887e2273` |
 
-Verwijs naar de [ documentatie van het Beheer van het Besluit ](../../get-started/starting-offer-decisioning.md) voor een overzicht van de belangrijkste concepten en eigenschappen.
+Verwijs naar de [&#x200B; documentatie van het Beheer van het Besluit &#x200B;](../../get-started/starting-offer-decisioning.md) voor een overzicht van de belangrijkste concepten en eigenschappen.
 
 **Reactie**
 
@@ -179,4 +179,4 @@ curl -X GET 'https://platform.adobe.io/data/core/dwm/workloads/decisions/f395ab1
 
 ## Volgende stappen {#next-steps}
 
-Door deze API-handleiding te volgen, hebt u de status van de werkbelasting gecontroleerd en aanbiedingen gedaan via de API [!DNL [!DNL Batch Decisioning]]. Voor meer informatie, zie het [ overzicht over het Beheer van het Besluit ](../../get-started/starting-offer-decisioning.md).
+Door deze API-handleiding te volgen, hebt u de status van de werkbelasting gecontroleerd en aanbiedingen gedaan via de API [!DNL [!DNL Batch Decisioning]]. Voor meer informatie, zie het [&#x200B; overzicht over het Beheer van het Besluit &#x200B;](../../get-started/starting-offer-decisioning.md).

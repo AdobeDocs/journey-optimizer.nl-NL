@@ -27,7 +27,7 @@ Het verzamelt e-mailadressen en domeinen die over alle post in één enkele cli�
 >
 >Adobe houdt een bijgewerkte lijst bij van bekende slechte adressen waarvan is aangetoond dat ze schadelijk zijn voor de service en de mailingreputatie, en zorgt ervoor dat er geen e-mailberichten aan hen worden bezorgd. Deze lijst wordt beheerd in een algemene suppressielijst die door alle Adobe-klanten wordt gebruikt. De adressen en domeinnamen in de globale suppressielijst worden verborgen. Alleen het aantal uitgesloten ontvangers wordt vermeld in de leveringsverslagen.
 
-Bovendien kunt u hefboomwerkingJourney Optimizer **HULPMIDDELEN API van de Onderdrukking** om uw uitgaande berichten te controleren gebruikend onderdrukking en lijsten van gewenste personen. [ Leer hoe te om met de REST API van de Onderdrukking te werken ](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"} 
+Bovendien kunt u hefboomwerkingJourney Optimizer **HULPMIDDELEN API van de Onderdrukking** om uw uitgaande berichten te controleren gebruikend onderdrukking en lijsten van gewenste personen. [&#x200B; Leer hoe te om met de REST API van de Onderdrukking te werken &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"} 
 
 ## Waarom een suppressielijst? {#why-suppression-list}
 
@@ -41,25 +41,25 @@ Ontvangers van wie de e-mailadressen worden onderdrukt, worden automatisch uitge
 
 De adressen worden toegevoegd aan de onderdrukkingslijst als volgt:
 
-* Al **harde grenzen** en **spamklachten** verzenden automatisch de overeenkomstige adressen naar de onderdrukkingslijst na één enkel voorkomen. Leer meer over spamklachten in [ deze sectie ](#spam-complaints).
+* Al **harde grenzen** en **spamklachten** verzenden automatisch de overeenkomstige adressen naar de onderdrukkingslijst na één enkel voorkomen. Leer meer over spamklachten in [&#x200B; deze sectie &#x200B;](#spam-complaints).
 
-* **zachte grenzen** verzenden niet onmiddellijk een adres naar de onderdrukkingslijst, maar zij verhogen een foutenteller. Verscheidene [ opnieuw probeert ](../configuration/retries.md) wordt dan uitgevoerd, en wanneer de foutenteller de drempel bereikt, wordt het adres toegevoegd aan de suppressielijst.
+* **zachte grenzen** verzenden niet onmiddellijk een adres naar de onderdrukkingslijst, maar zij verhogen een foutenteller. Verscheidene [&#x200B; opnieuw probeert &#x200B;](../configuration/retries.md) wordt dan uitgevoerd, en wanneer de foutenteller de drempel bereikt, wordt het adres toegevoegd aan de suppressielijst.
 
-* U kunt ook [**manueel** een adres of een domein ](../configuration/manage-suppression-list.md#add-addresses-and-domains) aan de onderdrukkingslijst toevoegen.
+* U kunt ook [**manueel** een adres of een domein &#x200B;](../configuration/manage-suppression-list.md#add-addresses-and-domains) aan de onderdrukkingslijst toevoegen.
 
-Leer meer over harde stuitingen en zachte stuitingen in [ deze sectie ](#delivery-failures).
-
->[!NOTE]
->
->Gebruikers met een abonnement kunnen geen adressen naar de onderdrukkingslijst verzenden omdat ze geen e-mails van [!DNL Journey Optimizer] ontvangen. Hun keuze wordt op Experience Platform-niveau geregeld. Leer meer over [ opting-out ](../privacy/opt-out.md).
-
-Voor elk adres, worden de fundamentele reden voor onderdrukking en de onderdrukkingscategorie (zacht, hard, enz.) getoond in de onderdrukkingslijst. Leer meer over de toegang tot van en het beheren van de suppressielijst in [ deze sectie ](../configuration/manage-suppression-list.md).
+Leer meer over harde stuitingen en zachte stuitingen in [&#x200B; deze sectie &#x200B;](#delivery-failures).
 
 >[!NOTE]
 >
->De profielen met de status **[!UICONTROL Suppressed]** worden tijdens het verzenden van berichten uitgesloten. Daarom terwijl de **rapporten van de Reis** deze profielen zullen tonen zoals die door de reis ([ gelezen Publiek ](../building-journeys/read-audience.md) en [ berichtactiviteiten ](../building-journeys/journeys-message.md)) zijn bewogen, zullen de **E-mail rapporten** niet hen in de **[!UICONTROL Sent]** metriek omvatten aangezien zij voorafgaand aan e-mail het verzenden worden uitgefilterd.
+>Gebruikers met een abonnement kunnen geen adressen naar de onderdrukkingslijst verzenden omdat ze geen e-mails van [!DNL Journey Optimizer] ontvangen. Hun keuze wordt op Experience Platform-niveau geregeld. Leer meer over [&#x200B; opting-out &#x200B;](../privacy/opt-out.md).
+
+Voor elk adres, worden de fundamentele reden voor onderdrukking en de onderdrukkingscategorie (zacht, hard, enz.) getoond in de onderdrukkingslijst. Leer meer over de toegang tot van en het beheren van de suppressielijst in [&#x200B; deze sectie &#x200B;](../configuration/manage-suppression-list.md).
+
+>[!NOTE]
 >
->Leer meer over het [ Levende Rapport ](../reports/live-report.md) en [ rapport van Customer Journey Analytics ](../reports/report-gs-cja.md). Om de reden voor alle uitsluitingsgevallen te weten te komen, kunt u de [ Dienst van de Vraag van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=nl-NL){target="_blank"} gebruiken .
+>De profielen met de status **[!UICONTROL Suppressed]** worden tijdens het verzenden van berichten uitgesloten. Daarom terwijl de **rapporten van de Reis** deze profielen zullen tonen zoals die door de reis ([&#x200B; gelezen Publiek &#x200B;](../building-journeys/read-audience.md) en [&#x200B; berichtactiviteiten &#x200B;](../building-journeys/journeys-message.md)) zijn bewogen, zullen de **E-mail rapporten** niet hen in de **[!UICONTROL Sent]** metriek omvatten aangezien zij voorafgaand aan e-mail het verzenden worden uitgefilterd.
+>
+>Leer meer over het [&#x200B; Levende Rapport &#x200B;](../reports/live-report.md) en [&#x200B; rapport van Customer Journey Analytics &#x200B;](../reports/report-gs-cja.md). Om de reden voor alle uitsluitingsgevallen te weten te komen, kunt u de [&#x200B; Dienst van de Vraag van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=nl-NL){target="_blank"} gebruiken .
 
 ### Leveringsfouten {#delivery-failures}
 
@@ -70,7 +70,7 @@ Er zijn twee soorten fouten wanneer een levering mislukt:
 
 A **hard stuiteren** voegt automatisch het e-mailadres aan de suppressielijst toe.
 
-A **zachte stuit** <!--or an **ignored** error--> die voorkomt ook verzendt het e-mailadres naar de onderdrukkingslijst na verscheidene herpogingen. [ Leer meer over pogingen ](../configuration/retries.md)
+A **zachte stuit** <!--or an **ignored** error--> die voorkomt ook verzendt het e-mailadres naar de onderdrukkingslijst na verscheidene herpogingen. [&#x200B; Leer meer over pogingen &#x200B;](../configuration/retries.md)
 
 Als u aan deze adressen blijft verzenden, kan het uw leveringstarieven beïnvloeden, omdat het ISPs vertelt dat u geen beste praktijken van het onderhoud van de e-mailadreslijst kunt volgen, en daarom geen betrouwbare afzender kan zijn.
 

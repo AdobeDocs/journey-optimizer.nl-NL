@@ -22,7 +22,7 @@ ht-degree: 4%
 
 Mogelijke oorzaken voor een leveringsmislukking zijn veelvoudige. In de onderstaande tabel staan alle fouten die kunnen optreden bij het verzenden van e-mailleveringen met [!DNL Journey Optimizer] , alsmede de beschrijving en het type fout.
 
-Deze fouten kunnen in de [ Dataset van de Gebeurtenis van de Terugkoppeling van het Bericht van AJO ](../data/datasets-query-examples.md#message-feedback-event-dataset) worden gevonden die de logboeken van de berichtlevering, met inbegrip van informatie over alle berichtlevering van [!DNL Journey Optimizer] bevat, en terugkoppelt verslagen van e-mail ISPs op grenzen.
+Deze fouten kunnen in de [&#x200B; Dataset van de Gebeurtenis van de Terugkoppeling van het Bericht van AJO &#x200B;](../data/datasets-query-examples.md#message-feedback-event-dataset) worden gevonden die de logboeken van de berichtlevering, met inbegrip van informatie over alle berichtlevering van [!DNL Journey Optimizer] bevat, en terugkoppelt verslagen van e-mail ISPs op grenzen.
 
 | Foutlabel | Fouttype | Technische waarde | Beschrijving |
 | --- | --- | --- | --- |

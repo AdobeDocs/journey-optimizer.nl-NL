@@ -27,7 +27,7 @@ De rapportpagina wordt getoond met de volgende lusjes:
 * [Campagnes](#campaign)
 * [Kanalen](#channel)
 
-Meer over Customer Journey Analytics Workspace leren en hoe te om gegevens te filtreren en te analyseren, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/home).
+Meer over Customer Journey Analytics Workspace leren en hoe te om gegevens te filtreren en te analyseren, verwijs naar [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/home).
 
 ## Hooglichten {#highlights}
 

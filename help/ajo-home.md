@@ -26,20 +26,20 @@ Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en
 
 Journey Optimizer September release is live! Ontdek de nieuwe functies en verbeteringen die deze maand in de Opmerkingen bij de release zijn gepubliceerd.
 
-[![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+[![&#x200B; leer meer &#x200B;](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
 
 >[!TAB  Campagne Orchestration ]
 
 Journey Optimizer omvat nu **Organiseren van de Campagne**, een nieuw vermogen doelgericht-gebouwd voor merk-in werking gestelde, partijcampagnes. Deze release introduceert een campagneorchestration canvas en verbeterde gegevensmodellering, die samenwerken om marketers gepersonaliseerde cross-channel campagnes te laten plannen, richten en leveren.
 
-[![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
+[![&#x200B; leer meer &#x200B;](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
 
 >[!TAB  Adobe Express ]
 
 Dankzij de Adobe Express-integratie in Adobe Journey Optimizer hebt u eenvoudig toegang tot Adobe Express-functies voor het bewerken van inhoud. Dankzij deze integratie kunt u afbeeldingen vergroten/verkleinen, achtergronden verwijderen, visuele effecten uitsnijden en elementen omzetten in JPEG of PNG zonder dat u tussen oplossingen hoeft te schakelen.
 
-[![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
+[![&#x200B; leer meer &#x200B;](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 
 
 >[!ENDTABS]

@@ -24,11 +24,11 @@ ht-degree: 6%
 
 Volg onderstaande stappen om een gegevensbron te configureren:
 
-1. Selecteer **[!UICONTROL Configurations]** in de sectie van het menu BEHEER. Klik in de sectie **[!UICONTROL Data Sources]** op **[!UICONTROL Manage]** . De lijst met databronnen wordt weergegeven. Zie [ deze pagina ](../start/user-interface.md) voor meer informatie over de interface.
+1. Selecteer **[!UICONTROL Configurations]** in de sectie van het menu BEHEER. Klik in de sectie **[!UICONTROL Data Sources]** op **[!UICONTROL Manage]** . De lijst met databronnen wordt weergegeven. Zie [&#x200B; deze pagina &#x200B;](../start/user-interface.md) voor meer informatie over de interface.
 
    ![](assets/journey18.png)
 
-1. Dan kunt u of gebiedsgroepen aan de ingebouwde gegevensbron (zie [ deze pagina ](../datasource/adobe-experience-platform-data-source.md)) toevoegen of een nieuwe externe gegevensbron (zie [ deze pagina ](../datasource/external-data-sources.md)) en bijbehorende gebiedsgroepen (zie [ deze pagina ](../datasource/configure-data-sources.md#define-field-groups)) tot stand brengen.
+1. Dan kunt u of gebiedsgroepen aan de ingebouwde gegevensbron (zie [&#x200B; deze pagina &#x200B;](../datasource/adobe-experience-platform-data-source.md)) toevoegen of een nieuwe externe gegevensbron (zie [&#x200B; deze pagina &#x200B;](../datasource/external-data-sources.md)) en bijbehorende gebiedsgroepen (zie [&#x200B; deze pagina &#x200B;](../datasource/configure-data-sources.md#define-field-groups)) tot stand brengen.
 
    ![](assets/journey23.png)
 

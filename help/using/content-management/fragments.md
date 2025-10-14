@@ -27,12 +27,12 @@ Een fragment is een herbruikbare component waarnaar in een of meer e-mails via [
 
 ![](../rn/assets/do-not-localize/fragments.gif)
 
-➡️ [ Leer hoe te om, auteur en gebruiksfragmenten in deze video&#39;s te beheren ](#video-fragments)
+➡️ [&#x200B; Leer hoe te om, auteur en gebruiksfragmenten in deze video&#39;s te beheren &#x200B;](#video-fragments)
 
 U kunt zo veel mogelijk gebruikmaken van fragmenten:
 
-* **creeer uw eigen fragmenten**: Creeer visuele of uitdrukkingsfragmenten, of van kras of door inhoud als fragment op te slaan. [ Leer hoe te om een fragment ](create-fragments.md) tot stand te brengen. Bovendien kunt u hefboomwerking Journey Optimizer **Inhoud REST API** gebruiken om inhoudsfragmenten te beheren. Voor meer op dit, verwijs naar de [ documentatie van Journey Optimizer APIs ](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
-* **hergebruik uw fragmenten:** gebruik hen zo vele tijden zoals nodig in uw inhoud. Zie [ visuele fragmenten ](../email/use-visual-fragments.md) en [ de uitdrukkingsfragmenten van de Leverage ](../personalization/use-expression-fragments.md) toevoegen
+* **creeer uw eigen fragmenten**: Creeer visuele of uitdrukkingsfragmenten, of van kras of door inhoud als fragment op te slaan. [&#x200B; Leer hoe te om een fragment &#x200B;](create-fragments.md) tot stand te brengen. Bovendien kunt u hefboomwerking Journey Optimizer **Inhoud REST API** gebruiken om inhoudsfragmenten te beheren. Voor meer op dit, verwijs naar de [&#x200B; documentatie van Journey Optimizer APIs &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
+* **hergebruik uw fragmenten:** gebruik hen zo vele tijden zoals nodig in uw inhoud. Zie [&#x200B; visuele fragmenten &#x200B;](../email/use-visual-fragments.md) en [&#x200B; de uitdrukkingsfragmenten van de Leverage &#x200B;](../personalization/use-expression-fragments.md) toevoegen
 
 ## Voordat u begint {#fragment-prerequisites}
 
@@ -43,16 +43,16 @@ In deze versie gelden de volgende beperkingen:
 * **de fragmenten van Visual** zijn beschikbaar voor het E-mailkanaal slechts.
 * **de fragmenten van de Uitdrukking** zijn niet beschikbaar voor het in-app kanaal.
 
-Meer grails die op fragmenten van toepassing zijn zijn beschikbaar in [ deze sectie ](../start/guardrails.md#fragments-guardrails).
+Meer grails die op fragmenten van toepassing zijn zijn beschikbaar in [&#x200B; deze sectie &#x200B;](../start/guardrails.md#fragments-guardrails).
 
 ## Fragmenten voor visuele en expressies {#visual-expression}
 
 Er zijn twee typen fragmenten beschikbaar:
 
-* **Visuele fragmenten** zijn vooraf bepaalde visuele blokken die u over veelvoudige e-mailleveringen kunt hergebruiken gebruikend [ E-mail Designer ](../email/get-started-email-design.md), of in [ inhoudsmalplaatjes ](../email/use-email-templates.md).
-* **de fragmenten van de Uitdrukking** zijn vooraf bepaalde uitdrukkingen die van een specifieke ingang in de [ verpersoonlijkingsredacteur ](../personalization/personalization-build-expressions.md) beschikbaar zijn.
+* **Visuele fragmenten** zijn vooraf bepaalde visuele blokken die u over veelvoudige e-mailleveringen kunt hergebruiken gebruikend [&#x200B; E-mail Designer &#x200B;](../email/get-started-email-design.md), of in [&#x200B; inhoudsmalplaatjes &#x200B;](../email/use-email-templates.md).
+* **de fragmenten van de Uitdrukking** zijn vooraf bepaalde uitdrukkingen die van een specifieke ingang in de [&#x200B; verpersoonlijkingsredacteur &#x200B;](../personalization/personalization-build-expressions.md) beschikbaar zijn.
 
-Alle gemaakte fragmenten zijn toegankelijk via het menu **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** links. [ Leer hoe te om fragmenten ](../content-management/manage-fragments.md) te beheren
+Alle gemaakte fragmenten zijn toegankelijk via het menu **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** links. [&#x200B; Leer hoe te om fragmenten &#x200B;](../content-management/manage-fragments.md) te beheren
 
 ![](assets/fragment-list.png)
 

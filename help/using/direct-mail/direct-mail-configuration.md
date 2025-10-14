@@ -18,13 +18,13 @@ ht-degree: 1%
 
 Met [!DNL Journey Optimizer] kunt u de bestanden die worden vereist door directe-mailproviders aanpassen en genereren om e-mail naar uw klanten te sturen.
 
-Wanneer [ creërend een direct-mailbericht ](../direct-mail/create-direct-mail.md), bepaalt u de gerichte publieksgegevens, met inbegrip van de gekozen contactinformatie (postadres bijvoorbeeld). Er wordt dan automatisch een bestand met deze gegevens gegenereerd en geëxporteerd naar een server, waar uw directe-mailprovider het bestand kan ophalen en de daadwerkelijke verzending kan verzorgen.
+Wanneer [&#x200B; creërend een direct-mailbericht &#x200B;](../direct-mail/create-direct-mail.md), bepaalt u de gerichte publieksgegevens, met inbegrip van de gekozen contactinformatie (postadres bijvoorbeeld). Er wordt dan automatisch een bestand met deze gegevens gegenereerd en geëxporteerd naar een server, waar uw directe-mailprovider het bestand kan ophalen en de daadwerkelijke verzending kan verzorgen.
 
 Voordat u dit bestand kunt genereren, moet u het volgende maken:
 
-1. [ dossier dat van A configuratie ](#file-routing-configuration) verplettert om de server te specificeren waar het dossier zal worden uitgevoerd en het dossier coderen, indien nodig.
+1. [&#x200B; dossier dat van A configuratie &#x200B;](#file-routing-configuration) verplettert om de server te specificeren waar het dossier zal worden uitgevoerd en het dossier coderen, indien nodig.
 
-1. [ de direct-mailconfiguratie van A ](#direct-mail-configuration) die verwijzingen het dossier dat configuratie verplettert. Als u geen dossier gevormd hebt dat optie verplettert, zult u geen directe-mailconfiguratie kunnen tot stand brengen.
+1. [&#x200B; de direct-mailconfiguratie van A &#x200B;](#direct-mail-configuration) die verwijzingen het dossier dat configuratie verplettert. Als u geen dossier gevormd hebt dat optie verplettert, zult u geen directe-mailconfiguratie kunnen tot stand brengen.
 
 
 >[!CAUTION]
@@ -89,11 +89,11 @@ Om het dossier te vormen dat, volg de stappen hieronder verplettert.
 
 Als u **[!UICONTROL Amazon S3]** als **[!UICONTROL Server type]** hebt geselecteerd, vult u de gegevens en referenties voor uw server in:
 
-* **de emmer van AWS**:Om te weten waar te om uw het emmernaam van AWS te vinden, verwijs naar [ deze pagina ](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
+* **de emmer van AWS**:Om te weten waar te om uw het emmernaam van AWS te vinden, verwijs naar [&#x200B; deze pagina &#x200B;](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
 
-* **de toegangssleutel van AWS**: Om te weten waar te om uw de toegangs belangrijkste identiteitskaart van AWS te vinden, verwijs naar [ deze pagina ](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
+* **de toegangssleutel van AWS**: Om te weten waar te om uw de toegangs belangrijkste identiteitskaart van AWS te vinden, verwijs naar [&#x200B; deze pagina &#x200B;](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
 
-* **geheime sleutel van AWS**: Om te weten waar te om uw geheime sleutel van AWS te vinden, verwijs naar [ deze pagina ](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
+* **geheime sleutel van AWS**: Om te weten waar te om uw geheime sleutel van AWS te vinden, verwijs naar [&#x200B; deze pagina &#x200B;](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
 
 * **gebied van AWS**: kies **[!UICONTROL AWS region]** waar de serverinfrastructuur zal worden gevestigd. AWS-regio&#39;s zijn geografische gebieden die AWS gebruikt om haar cloudinfrastructuur te hosten. In het algemeen verdient het de voorkeur het gebied te kiezen dat het dichtst bij de locatie van uw directe-mailprovider ligt.
 
@@ -123,13 +123,13 @@ Als u **[!UICONTROL SFTP]** als **[!UICONTROL Server type]** hebt geselecteerd, 
 
 Als u **[!UICONTROL Azure]** als **[!UICONTROL Server type]** hebt geselecteerd, vult u de gegevens en referenties voor uw server in:
 
-* **Azure Koord van de Verbinding**: Om uw **Azure Koord van de Verbinding** te vinden, verwijs naar [ deze pagina ](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
+* **Azure Koord van de Verbinding**: Om uw **Azure Koord van de Verbinding** te vinden, verwijs naar [&#x200B; deze pagina &#x200B;](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
 
   Het **Azure Koord van de Verbinding** zou het formaat hieronder moeten volgen:
 
   `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
 
-* **Naam van de Container**: Om uw **Naam van de Container** te vinden, verwijs naar [ deze pagina ](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
+* **Naam van de Container**: Om uw **Naam van de Container** te vinden, verwijs naar [&#x200B; deze pagina &#x200B;](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
 
   De **Naam van de Container** zou slechts de naam van de container zonder enige schuine strepen moeten bevatten.
 
@@ -145,13 +145,13 @@ Als u **[!UICONTROL Data Landing Zone]** als **[!UICONTROL Server type]** hebt g
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-Alle klanten van [!DNL Adobe Experience Platform] zijn provisioned met één container van de Landing van de Zone van Gegevens per zandbak. Leer meer over Gegevens het Landing Zone in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+Alle klanten van [!DNL Adobe Experience Platform] zijn provisioned met één container van de Landing van de Zone van Gegevens per zandbak. Leer meer over Gegevens het Landing Zone in de [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 
 Als u het bestand wilt versleutelen, kopieert en plakt u de coderingssleutel in het veld **[!UICONTROL PGP/GPG encryption key]** .
 
-Selecteer **[!UICONTROL Submit]** als u de gegevens voor het servertype hebt ingevuld. Het dossier dat configuratie verplettert wordt gecreeerd met de **[!UICONTROL Active]** status. Het is nu klaar om in a [ direct-mailconfiguratie ](#direct-mail-surface) worden gebruikt.
+Selecteer **[!UICONTROL Submit]** als u de gegevens voor het servertype hebt ingevuld. Het dossier dat configuratie verplettert wordt gecreeerd met de **[!UICONTROL Active]** status. Het is nu klaar om in a [&#x200B; direct-mailconfiguratie &#x200B;](#direct-mail-surface) worden gebruikt.
 
 U kunt **[!UICONTROL Save as draft]** ook selecteren om het dossier tot stand te brengen dat configuratie verplettert, maar u zult het niet in een configuratie kunnen selecteren tot het **[!UICONTROL Active]** is.
 
@@ -188,7 +188,7 @@ Een direct-mailconfiguratie moet ook het dossier omvatten dat configuratie verpl
    >
    > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook onderstrepingsteken `_` -, punt `.` - en afbreekstreepjes `-` gebruiken.
 
-1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md).
+1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [&#x200B; leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) &#x200B;](../administration/object-based-access.md).
 
 1. Selecteer het kanaal **[!UICONTROL Direct mail]** .
 
@@ -220,7 +220,7 @@ Een direct-mailconfiguratie moet ook het dossier omvatten dat configuratie verpl
 
 1. Verzend de configuratie voor direct mail.
 
-U kunt [ een direct-mailbericht ](../direct-mail/create-direct-mail.md) binnen een campagne nu tot stand brengen. Nadat de campagne is gestart, wordt het bestand met de doelgegevens van het publiek automatisch geëxporteerd naar de server die u hebt gedefinieerd. De direct-mailprovider kan dat bestand vervolgens ophalen en doorgaan met de directe-maillevering.
+U kunt [&#x200B; een direct-mailbericht &#x200B;](../direct-mail/create-direct-mail.md) binnen een campagne nu tot stand brengen. Nadat de campagne is gestart, wordt het bestand met de doelgegevens van het publiek automatisch geëxporteerd naar de server die u hebt gedefinieerd. De direct-mailprovider kan dat bestand vervolgens ophalen en doorgaan met de directe-maillevering.
 
 >[!NOTE]
 >

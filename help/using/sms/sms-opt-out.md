@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Uitschakelen van beheer voor tekstberichten {#sms-opt-out}
 
-In overeenstemming met de industriestandaarden en -voorschriften moeten alle SMS-marketingberichten een manier bevatten waarop de ontvangers hun abonnement gemakkelijk kunnen opzeggen. [ Leer meer over privacy &amp; opt-out beheer ](../privacy/opt-out.md)
+In overeenstemming met de industriestandaarden en -voorschriften moeten alle SMS-marketingberichten een manier bevatten waarop de ontvangers hun abonnement gemakkelijk kunnen opzeggen. [&#x200B; Leer meer over privacy &amp; opt-out beheer &#x200B;](../privacy/opt-out.md)
 
 >[!IMPORTANT]
 >
@@ -52,7 +52,7 @@ Merk op dat als een klant STOP aan een tekstbericht antwoordt, de leverancier al
 
 ## Lijsten van gewezen personen {#sms-blocklists}
 
-Naast het tegenhouden van Adobe Journey Optimizer verzendt op basis van de opt-out status (voor directe integratie met Twilio, Infobip, of Sinch), handhaven de meeste gatewayproviders van SMS ook een lijst van gewezen personen die u ervoor zorgt dat geen SMS-bericht wordt geleverd aan een individu dat ervoor heeft gekozen om te weigeren. Als u een leverancier buiten Sinch of Twilio gebruikt, en een SMS via [ douanekanaal ](../building-journeys/using-custom-actions.md) verzendt, moet u dit met uw leverancier bevestigen.
+Naast het tegenhouden van Adobe Journey Optimizer verzendt op basis van de opt-out status (voor directe integratie met Twilio, Infobip, of Sinch), handhaven de meeste gatewayproviders van SMS ook een lijst van gewezen personen die u ervoor zorgt dat geen SMS-bericht wordt geleverd aan een individu dat ervoor heeft gekozen om te weigeren. Als u een leverancier buiten Sinch of Twilio gebruikt, en een SMS via [&#x200B; douanekanaal &#x200B;](../building-journeys/using-custom-actions.md) verzendt, moet u dit met uw leverancier bevestigen.
 
 
 ## Korte codes {#short-codes}

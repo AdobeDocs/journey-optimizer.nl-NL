@@ -27,7 +27,7 @@ De expressie-editor is beschikbaar via de knop Constructor **[!UICONTROL Edit ex
 
 | Toegang van het **gebied van Attributen** | Toegang van het **gebied van de Waarde** |
 | --- | --- |
-| ![ de redacteur van de Uitdrukking voor het gebied van Attributen ](assets/rule-builder-expression-access-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![ de redacteur van de Uitdrukking voor het gebied van de Waarde ](assets/rule-builder-expression-access-value.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| ![&#x200B; de redacteur van de Uitdrukking voor het gebied van Attributen &#x200B;](assets/rule-builder-expression-access-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![&#x200B; de redacteur van de Uitdrukking voor het gebied van de Waarde &#x200B;](assets/rule-builder-expression-access-value.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 De uitdrukkingsredacteur verstrekt:
 
@@ -37,7 +37,7 @@ De uitdrukkingsredacteur verstrekt:
 
 Bewerk de expressie door een expressie rechtstreeks in het invoerveld in te voeren. Als u een veld of hulpfunctie wilt toevoegen, plaatst u de cursor in de expressie waar u deze wilt toevoegen en klikt u op +.
 
-![ de redacteurinterface van de Uitdrukking ](assets/rule-builder-expression-editor.png){zoomable="yes"}
+![&#x200B; de redacteurinterface van de Uitdrukking &#x200B;](assets/rule-builder-expression-editor.png){zoomable="yes"}
 
 ## Helpfuncties
 

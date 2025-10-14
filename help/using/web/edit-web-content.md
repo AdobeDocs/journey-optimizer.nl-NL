@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Webinhoud bewerken {#edit-web-content}
 
-Zodra u [ een Webervaring ](create-web.md#create-web-experience) aan een reis of een campagne toevoegde, kunt u de inhoud van uw plaats uitgeven gebruikend de Webontwerper.
+Zodra u [&#x200B; een Webervaring &#x200B;](create-web.md#create-web-experience) aan een reis of een campagne toevoegde, kunt u de inhoud van uw plaats uitgeven gebruikend de Webontwerper.
 
 [Leer hoe u een webcampagne maakt in deze video](#video)
 
@@ -23,7 +23,7 @@ In [!DNL Journey Optimizer], wordt het Web authoring aangedreven door **Adobe Ex
 
 >[!CAUTION]
 >
->Om tot Web-pagina&#39;s in het [!DNL Journey Optimizer] gebruikersinterface toegang te hebben en te schrijven, zorg ervoor u de eerste vereisten volgt die in [ worden vermeld deze sectie ](web-prerequisites.md).
+>Om tot Web-pagina&#39;s in het [!DNL Journey Optimizer] gebruikersinterface toegang te hebben en te schrijven, zorg ervoor u de eerste vereisten volgt die in [&#x200B; worden vermeld deze sectie &#x200B;](web-prerequisites.md).
 
 Heb toegang tot de volgende secties om meer over elk onderwerp te leren:
 
@@ -61,7 +61,7 @@ Volg onderstaande stappen om uw webervaring te ontwerpen.
 
    >[!CAUTION]
    >
-   >De Web-pagina moet [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=nl-NL){target="_blank"} omvatten. [Meer informatie](web-prerequisites.md#implementation-prerequisites)
+   >De Web-pagina moet [&#x200B; SDK van het Web van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=nl-NL){target="_blank"} omvatten. [Meer informatie](web-prerequisites.md#implementation-prerequisites)
 
 1. Klik op **[!UICONTROL Edit web page]** om te beginnen met ontwerpen. De webontwerper wordt weergegeven.
 
@@ -69,7 +69,7 @@ Volg onderstaande stappen om uw webervaring te ontwerpen.
 
    >[!NOTE]
    >
-   >Als u probeert om een website te laden die er niet in slaagt te laden, een berichtvertoningen die erop wijzen dat u de [ Visuele het Uitgeven Browser van de Helper browser uitbreiding ](#install-visual-editing-helper) installeert. Zie sommige uiteinden voor het oplossen van problemen in [ deze sectie ](web-prerequisites.md#troubleshooting).
+   >Als u probeert om een website te laden die er niet in slaagt te laden, een berichtvertoningen die erop wijzen dat u de [&#x200B; Visuele het Uitgeven Browser van de Helper browser uitbreiding &#x200B;](#install-visual-editing-helper) installeert. Zie sommige uiteinden voor het oplossen van problemen in [&#x200B; deze sectie &#x200B;](web-prerequisites.md#troubleshooting).
 
 1. Selecteer een element op het canvas, zoals een afbeelding, knop, alinea, tekst, container, kop, koppeling, enzovoort. [Meer informatie](#content-components)
 
@@ -89,7 +89,7 @@ Volg onderstaande stappen om uw webervaring te ontwerpen.
 
 >[!NOTE]
 >
->De ontwerper van webinhoud is meestal vergelijkbaar met de e-mail-Designer. Leer meer over [ het ontwerpen van inhoud met  [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>De ontwerper van webinhoud is meestal vergelijkbaar met de e-mail-Designer. Leer meer over [&#x200B; het ontwerpen van inhoud met  [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 
 ## Componenten gebruiken {#content-components}
 
@@ -133,7 +133,7 @@ Als u verpersoonlijking wilt toevoegen, selecteert u een container en selecteert
 
 ## Navigeren door de webontwerper {#navigate-web-designer}
 
-In deze sectie worden de verschillende manieren beschreven waarop u door de webontwerper kunt navigeren. Om de wijzigingen te bekijken en te beheren die aan uw Webervaring worden toegevoegd, zie [ deze sectie ](manage-web-modifications.md).
+In deze sectie worden de verschillende manieren beschreven waarop u door de webontwerper kunt navigeren. Om de wijzigingen te bekijken en te beheren die aan uw Webervaring worden toegevoegd, zie [&#x200B; deze sectie &#x200B;](manage-web-modifications.md).
 
 ### Breedkruimels gebruiken {#breadcrumbs}
 

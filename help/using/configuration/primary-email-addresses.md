@@ -83,9 +83,9 @@ Voor specifieke gebruiksgevallen kunt u het uitvoeringsveld dat globaal is inges
 Het overschrijven van deze waarde kan bijvoorbeeld nuttig zijn om:
 
 * Test een e-mailbericht. U kunt uw eigen e-mailadres toevoegen: nadat u de reis hebt gepubliceerd, wordt het e-mailbericht naar u verzonden.
-* Stuur een e-mail naar de abonnees van een lijst. Leer meer in [ dit gebruiksgeval ](../building-journeys/message-to-subscribers-uc.md).
+* Stuur een e-mail naar de abonnees van een lijst. Leer meer in [&#x200B; dit gebruiksgeval &#x200B;](../building-journeys/message-to-subscribers-uc.md).
 
-Wanneer het toevoegen van een **[!UICONTROL Email]** of **[!UICONTROL SMS]** actie aan a [ reis ](../email/create-email.md#create-email-journey-campaign), wordt het primaire e-mailadres getoond onder de reis geavanceerde parameters.
+Wanneer het toevoegen van een **[!UICONTROL Email]** of **[!UICONTROL SMS]** actie aan a [&#x200B; reis &#x200B;](../email/create-email.md#create-email-journey-campaign), wordt het primaire e-mailadres getoond onder de reis geavanceerde parameters.
 
 Overschrijf deze waarde met het pictogram **[!UICONTROL Enable parameter override]** rechts van het veld.
 
@@ -102,7 +102,7 @@ Overschrijf deze waarde met het pictogram **[!UICONTROL Enable parameter overrid
 >title="Het standaard te gebruiken uitvoeringsadres overschrijven"
 >abstract="Als er meerdere e-mailadressen of telefoonnummers beschikbaar zijn in de database (persoonlijk, professioneel, enz.), kunt u aangeven welke prioriteit u wilt geven aan het verzenden. Het primaire adres wordt bepaald op het zandbakniveau, maar hier kunt u het gebrek met voeten treden dat voor deze specifieke kanaalconfiguratie plaatst."
 
-U kunt het standaarduitvoeringsadres voor een specifieke e-mail of een sms [ kanaalconfiguratie ](channel-surfaces.md) veranderen.
+U kunt het standaarduitvoeringsadres voor een specifieke e-mail of een sms [&#x200B; kanaalconfiguratie &#x200B;](channel-surfaces.md) veranderen.
 
 Ga hiertoe naar de sectie **[!UICONTROL Execution dimension]** en bewerk het veld onder **[!UICONTROL Execution Address]** .
 
@@ -112,6 +112,6 @@ Selecteer vervolgens een item in de lijst met beschikbare XDM-velden van het e-m
 
 ![](assets/sms-config-execution-field.png)
 
-Het uitvoeringsgebied wordt bijgewerkt en dan gebruikt als primair adres voor de campagnes of de reizen gebruikend deze kanaalconfiguratie. Het treedt het [ algemene plaatsen ](#admin-settings) met voeten die op het zandbakniveau wordt bepaald.
+Het uitvoeringsgebied wordt bijgewerkt en dan gebruikt als primair adres voor de campagnes of de reizen gebruikend deze kanaalconfiguratie. Het treedt het [&#x200B; algemene plaatsen &#x200B;](#admin-settings) met voeten die op het zandbakniveau wordt bepaald.
 
 <!--[Learn more on the execution address in the email configuration ](../email/email-settings.md#execution-address)-->
