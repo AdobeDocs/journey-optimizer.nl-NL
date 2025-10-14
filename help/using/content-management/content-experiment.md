@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: inhoud, experiment, meerdere, publiek, behandeling
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 397fad9c95e0c11c0496ab5c9adfb6f8169de4f6
+source-git-commit: e1e7badf7a0539d49b0eb1d9668f945503f84ba6
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1743'
 ht-degree: 0%
 
 ---
@@ -264,9 +264,9 @@ Automatisch schalen inschakelen voor experimenten:
    * Zodra de winnaar is gevonden.
    * Na het experiment wordt live gedurende de geselecteerde tijd uitgevoerd.
 
-De automatisch schaalbare tijd moet voor de einddatum van het experiment zijn gepland. Als deze voor een tijd na de einddatum wordt ingesteld, verschijnt er een validatiewaarschuwing en wordt de campagne of de reis niet gepubliceerd.
+   De automatisch schaalbare tijd moet voor de einddatum van het experiment zijn gepland. Als deze voor een tijd na de einddatum wordt ingesteld, verschijnt er een validatiewaarschuwing en wordt de campagne of de reis niet gepubliceerd.
 
-    ![](assets/scale-winner-2.png)
+   ![](assets/scale-winner-2.png)
 
 1. Kies het terugvalgedrag als er geen winnaar is gevonden op schaaltijd:
 
