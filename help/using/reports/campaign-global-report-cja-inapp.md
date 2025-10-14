@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Alvorens u op uw campagnes en reizen kunt melden In-App, zorg ervoor om de rapporteringseerste vereisten te volgen die op [ worden verstrekt deze pagina ](../in-app/inapp-configuration.md#experiment-prerequisites).
+>Alvorens u op uw campagnes en reizen kunt melden In-App, zorg ervoor om de rapporteringseerste vereisten te volgen die op [&#x200B; worden verstrekt deze pagina &#x200B;](../in-app/inapp-configuration.md#experiment-prerequisites).
 
 >[!BEGINSHADEBOX]
 
