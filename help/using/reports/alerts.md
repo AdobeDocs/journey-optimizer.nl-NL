@@ -29,7 +29,7 @@ Wanneer een fout optreedt, kunt u systeemwaarschuwingen ontvangen in het Journey
 
 >[!NOTE]
 >
->Leer meer over alarm in Adobe Experience Platform in [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}.
+>Leer meer over alarm in Adobe Experience Platform in [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=nl-NL){target="_blank"}.
 
 Klik in het linkermenu onder **[!UICONTROL Administration]** op **[!UICONTROL Alerts]** . Er zijn verschillende vooraf geconfigureerde waarschuwingen voor Journey Optimizer beschikbaar.
 
@@ -74,7 +74,7 @@ Voer de volgende stappen uit als u zich wilt abonneren op een waarschuwing voor 
 
 1. Gebruik dezelfde methode voor **[!UICONTROL Unsubscribe]** .
 
-U kunt ook via [&#x200B; I/O de berichten van de Gebeurtenis &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"} intekenen. Waarschuwingsregels zijn ingedeeld in verschillende abonnementspakketten. De abonnementen van de gebeurtenis die aan het specifieke alarm van Journey Optimizer beantwoorden zijn gedetailleerd [&#x200B; hieronder &#x200B;](#journey-alerts).
+U kunt ook via [&#x200B; I/O de berichten van de Gebeurtenis &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=nl-NL){target="_blank"} intekenen. Waarschuwingsregels zijn ingedeeld in verschillende abonnementspakketten. De abonnementen van de gebeurtenis die aan het specifieke alarm van Journey Optimizer beantwoorden zijn gedetailleerd [&#x200B; hieronder &#x200B;](#journey-alerts).
 
 ### Unitair abonnement {#unitary-subscription}
 
@@ -90,7 +90,7 @@ Voer de volgende stappen uit als u zich wilt abonneren op een waarschuwing voor 
 
 1. Klik op **[!UICONTROL Save]** om te bevestigen.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=nl-NL#enable-email-alerts){target="_blank"}.-->
 
 ## Reiswaarschuwingen {#journey-alerts}
 
