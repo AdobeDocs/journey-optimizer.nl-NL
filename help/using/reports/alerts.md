@@ -19,39 +19,39 @@ ht-degree: 0%
 
 Wanneer het bouwen van uw reizen en campagnes, gebruik de **Alarm** knoop om fouten te controleren en op te lossen alvorens hen uit te voeren of te publiceren.
 
-* Leer hoe te om uw reizen op [ problemen op te lossen deze pagina ](../building-journeys/troubleshooting.md)
+* Leer hoe te om uw reizen op [&#x200B; problemen op te lossen deze pagina &#x200B;](../building-journeys/troubleshooting.md)
 
-* Leer hoe te om uw campagnes op [ te herzien deze pagina ](../campaigns/review-activate-campaign.md)
+* Leer hoe te om uw campagnes op [&#x200B; te herzien deze pagina &#x200B;](../campaigns/review-activate-campaign.md)
 
 
 Wanneer een bepaalde set voorwaarden is bereikt, kunnen bovendien waarschuwingsberichten worden verzonden naar alle gebruikers in uw organisatie die zich op hen hebben geabonneerd. Deze waarschuwingen zijn beschikbaar via het toegewezen **[!UICONTROL Alerts]** -menu. Adobe Experience Platform biedt verschillende vooraf gedefinieerde waarschuwingsregels die u voor uw organisatie kunt inschakelen. Bovendien kunt u zich abonneren op [!DNL Adobe Journey Optimizer] specifieke systeemwaarschuwingen zoals deze op deze pagina worden beschreven.
 
 >[!NOTE]
 >
->Leer meer over alarm in Adobe Experience Platform in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}.
+>Leer meer over alarm in Adobe Experience Platform in [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}.
 
 Klik in het linkermenu onder **[!UICONTROL Administration]** op **[!UICONTROL Alerts]** . Verscheidene pre-gevormde alarm voor Journey Optimizer zijn beschikbaar in **doorbladert** tabel.
 
 
 * Signaleringen die specifiek zijn voor reizen:
 
-   * het [ alarm van de Actie van de Douane van de 1} Reis](#alert-custom-actions)
-   * [ Gelezen de Trekker van de Publiek Onsuccesvol ](#alert-read-audiences) alarm
-   * Het [ Profiel verwerpt Tarief overschreden ](#alert-discard-rate) alarm
-   * het [ Vertrokken Tarief van de Fout van de Actie van de Douane ](#alert-custom-action-error-rate) alarm
-   * het [ Tarief van de Fout van het Profiel overtroffen ](#alert-profile-error-rate) alarm
+   * het [&#x200B; alarm van de Actie van de Douane van de 1&rbrace; Reis](#alert-custom-actions)
+   * [&#x200B; Gelezen de Trekker van de Publiek Onsuccesvol &#x200B;](#alert-read-audiences) alarm
+   * Het [&#x200B; Profiel verwerpt Tarief overschreden &#x200B;](#alert-discard-rate) alarm
+   * het [&#x200B; Vertrokken Tarief van de Fout van de Actie van de Douane &#x200B;](#alert-custom-action-error-rate) alarm
+   * het [&#x200B; Tarief van de Fout van het Profiel overtroffen &#x200B;](#alert-profile-error-rate) alarm
 
 * Waarschuwingen specifiek voor kanaalconfiguratie:
 
-   * het [ DNS van het Domein van AJO- verslag missen ](#alert-dns-record-missing) alarm
-   * de [ mislukking van de het kanaalconfiguratie van AJO ](#alert-channel-config-failure) alarm
+   * het [&#x200B; DNS van het Domein van AJO- verslag missen &#x200B;](#alert-dns-record-missing) alarm
+   * de [&#x200B; mislukking van de het kanaalconfiguratie van AJO &#x200B;](#alert-channel-config-failure) alarm
      <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
 ## Abonneren op waarschuwingen {#subscribe-alerts}
 
 Als een onverwacht gedrag optreedt en/of een bepaalde set voorwaarden in uw bewerkingen is bereikt (zoals een mogelijk probleem wanneer het systeem een drempelwaarde overschrijdt), worden waarschuwingsmeldingen verzonden naar gebruikers in uw organisatie die zich op deze gebruikers hebben geabonneerd.
 
-U kunt aan elk alarm individueel van het gebruikersinterface intekenen, of globaal van het **[!UICONTROL Alerts]** menu (zie [ Globale abonnement ](#global-subscription)), of eenheidsabonnement voor een specifieke reis (zie [ Eenheids abonnement ](#unitary-subscription)).
+U kunt aan elk alarm individueel van het gebruikersinterface intekenen, of globaal van het **[!UICONTROL Alerts]** menu (zie [&#x200B; Globale abonnement &#x200B;](#global-subscription)), of eenheidsabonnement voor een specifieke reis (zie [&#x200B; Eenheids abonnement &#x200B;](#unitary-subscription)).
 
 Op basis van de voorkeuren van de abonnee worden waarschuwingen verzonden via e-mail en/of rechtstreeks in het Journey Optimizer-meldingscentrum in de rechterbovenhoek van de gebruikersinterface (in-app-meldingen). Selecteer in de sectie [!DNL Adobe Experience Cloud] **[!UICONTROL Preferences]** hoe u deze waarschuwingen wilt ontvangen. [Meer informatie](../start/user-interface.md#in-product-alerts)
 
@@ -64,7 +64,7 @@ Voer de volgende stappen uit als u zich wilt abonneren op een waarschuwing voor 
 
 1. Blader in het linkermenu naar het dashboard van **[!UICONTROL Alerts]** en selecteer de optie **[!UICONTROL Subscribe]** voor de waarschuwing waarop u zich wilt abonneren.
 
-   ![ het Abonneren aan een alarm ](assets/alert-subscribe.png){width=80%}
+   ![&#x200B; het Abonneren aan een alarm &#x200B;](assets/alert-subscribe.png){width=80%}
 
    >[!NOTE]
    >
@@ -72,7 +72,7 @@ Voer de volgende stappen uit als u zich wilt abonneren op een waarschuwing voor 
 
 1. Gebruik dezelfde methode voor **[!UICONTROL Unsubscribe]** .
 
-U kunt ook via [ I/O de berichten van de Gebeurtenis ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"} intekenen. Waarschuwingsregels zijn ingedeeld in verschillende abonnementspakketten. De abonnementen van de gebeurtenis die aan het specifieke alarm van Journey Optimizer beantwoorden zijn gedetailleerd [ hieronder ](#journey-alerts).
+U kunt ook via [&#x200B; I/O de berichten van de Gebeurtenis &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"} intekenen. Waarschuwingsregels zijn ingedeeld in verschillende abonnementspakketten. De abonnementen van de gebeurtenis die aan het specifieke alarm van Journey Optimizer beantwoorden zijn gedetailleerd [&#x200B; hieronder &#x200B;](#journey-alerts).
 
 ### Unitair abonnement {#unitary-subscription}
 
@@ -80,9 +80,9 @@ Voer de volgende stappen uit als u zich wilt abonneren op een waarschuwing voor 
 
 1. Blader naar de reisinventaris en selecteer de optie **[!UICONTROL Subscribe to alerts]** voor een specifieke reis.
 
-   ![ het Abonneren aan een alarm voor een specifieke reis ](assets/subscribe-journey-alert.png){width=75%}
+   ![&#x200B; het Abonneren aan een alarm voor een specifieke reis &#x200B;](assets/subscribe-journey-alert.png){width=75%}
 
-1. Kies de waarschuwing(en). Het volgende alarm is beschikbaar: [ het Tarief van de Weigering van het Profiel werd overschreden ](#alert-discard-rate), [ het Tarief van de Fout van de Actie van de Douane overschreden ](#alert-custom-action-error-rate), en [ het Tarief van de Fout van het Profiel overschreden ](#alert-profile-error-rate).
+1. Kies de waarschuwing(en). Het volgende alarm is beschikbaar: [&#x200B; het Tarief van de Weigering van het Profiel werd overschreden &#x200B;](#alert-discard-rate), [&#x200B; het Tarief van de Fout van de Actie van de Douane overschreden &#x200B;](#alert-custom-action-error-rate), en [&#x200B; het Tarief van de Fout van het Profiel overschreden &#x200B;](#alert-profile-error-rate).
 
 1. Als u het abonnement op een waarschuwing wilt opzeggen, heft u de selectie van de waarschuwing op in hetzelfde scherm.
 
@@ -111,7 +111,7 @@ Het alarm op **Gelezen Publiek** wordt opgelost wanneer een profiel de **Gelezen
 
 De I/O naam van het gebeurtenisabonnement die aan **beantwoordt las de Trekker van het Publiek Onsuccesvol** alarm is **Reis leest publieksvertragingen, Mislukkingen en Fouten**.
 
-Om **te problemen op te lossen leest het 1} alarm van het publiek {, controleer uw publiekstelling in de interface van Experience Platform.**
+Om **te problemen op te lossen leest het 1&rbrace; alarm van het publiek &lbrace;, controleer uw publiekstelling in de interface van Experience Platform.**
 
 
 ### Aangepaste actie voor reis mislukt {#alert-custom-actions}
@@ -133,9 +133,9 @@ De naam van het I/O gebeurtenisabonnement die aan het alarm van de douaneactie b
 
 Om **het alarm van de Actie van de Douane problemen op te lossen**:
 
-* Controleer uw douaneactie gebruikend [ testwijze ](../building-journeys/testing-the-journey.md) op een andere reis.
+* Controleer uw douaneactie gebruikend [&#x200B; testwijze &#x200B;](../building-journeys/testing-the-journey.md) op een andere reis.
 
-* Controleer uw [ reisrapport ](../reports/journey-live-report.md) om foutenredenen op actie te zien.
+* Controleer uw [&#x200B; reisrapport &#x200B;](../reports/journey-live-report.md) om foutenredenen op actie te zien.
 
 * Controleer uw reis stepEvents om naar meer informatie rond &quot;failureReason&quot; te zoeken.
 
@@ -143,7 +143,7 @@ Om **het alarm van de Actie van de Douane problemen op te lossen**:
 
 ### Profielverwijderingsfrequentie overschreden {#alert-discard-rate}
 
-In deze waarschuwing wordt u gewaarschuwd als de verhouding tussen het profiel en de ingevoerde profielen in de afgelopen 5 minuten de drempel overschrijdt. De standaarddrempel wordt geplaatst aan 20% maar u kunt [ een douanegreep ](#custom-threshold) bepalen.
+In deze waarschuwing wordt u gewaarschuwd als de verhouding tussen het profiel en de ingevoerde profielen in de afgelopen 5 minuten de drempel overschrijdt. De standaarddrempel wordt geplaatst aan 20% maar u kunt [&#x200B; een douanegreep &#x200B;](#custom-threshold) bepalen.
 
 Klik de naam van het alarm om de waakzame details en configuratie te controleren.
 
@@ -158,7 +158,7 @@ Er zijn verscheidene redenen een profiel kon worden verworpen, dat de methode va
 
 ### Foutsnelheid aangepaste handeling overschreden {#alert-custom-action-error-rate}
 
-Deze waarschuwing waarschuwt u als de verhouding van de fouten van de douaneactie aan succesvolle vraag van HTTP de laatste 5 minuten overschrijdt drempel. De standaarddrempel wordt geplaatst aan 20% maar u kunt [ een douanegreep ](#custom-threshold) bepalen.
+Deze waarschuwing waarschuwt u als de verhouding van de fouten van de douaneactie aan succesvolle vraag van HTTP de laatste 5 minuten overschrijdt drempel. De standaarddrempel wordt geplaatst aan 20% maar u kunt [&#x200B; een douanegreep &#x200B;](#custom-threshold) bepalen.
 
 Fouten in aangepaste handelingen kunnen om verschillende redenen optreden. Als u deze fouten wilt oplossen, kunt u:
 
@@ -168,7 +168,7 @@ Fouten in aangepaste handelingen kunnen om verschillende redenen optreden. Als u
 
 ### Foutsnelheid profiel overschreden {#alert-profile-error-rate}
 
-Deze waarschuwing waarschuwt u als de verhouding van de fouten van de douaneactie aan succesvolle vraag van HTTP de laatste 5 minuten overschrijdt drempel. De standaarddrempel wordt geplaatst aan 20% maar u kunt [ een douanegreep ](#custom-threshold) bepalen.
+Deze waarschuwing waarschuwt u als de verhouding van de fouten van de douaneactie aan succesvolle vraag van HTTP de laatste 5 minuten overschrijdt drempel. De standaarddrempel wordt geplaatst aan 20% maar u kunt [&#x200B; een douanegreep &#x200B;](#custom-threshold) bepalen.
 
 Klik de naam van het alarm om de waakzame details en configuratie te controleren.
 
@@ -190,17 +190,17 @@ Dit alarm brengt u op de hoogte wanneer de kritieke DNS verslagen (NS of CNAME) 
 
 Het **DNS van het Domein van AJO DNS verslag missen** alarm wordt teweeggebracht wanneer het systeem ontdekt dat de vereiste NS of CNAME verslagen afwezig zijn of niet de configuratienormen aanpassen.
 
-1. Klik het alarm dat aan beïnvloede [ subdomain ](../configuration/delegate-subdomain.md) in de [!DNL Journey Optimizer] interface moet worden geleid.
+1. Klik het alarm dat aan beïnvloede [&#x200B; subdomain &#x200B;](../configuration/delegate-subdomain.md) in de [!DNL Journey Optimizer] interface moet worden geleid.
 
    <!--For guidance on editing delegated subdomains, see [this section](../configuration/delegate-subdomain.md).-->
 
-1. Verbeter de DNS configuratie door de verslagen correct te plaatsen en [ voorlegt opnieuw subdomain ](../configuration/delegate-subdomain.md#submit-subdomain) delegatie.
+1. Verbeter de DNS configuratie door de verslagen correct te plaatsen en [&#x200B; voorlegt opnieuw subdomain &#x200B;](../configuration/delegate-subdomain.md#submit-subdomain) delegatie.
 
    >[!NOTE]
    >
    >Zorg ervoor dat alle verslagen behoorlijk op uw domein het ontvangen oplossing alvorens te werk te gaan worden gecreeerd.
 
-1. Als u niet zeker bent van de juiste waarden, kunt u een nieuw subdomein maken in [!DNL Journey Optimizer] met dezelfde naam als het subdomein waarop het effect is toegepast. [ leer hoe te opstelling een nieuw subdomain ](../configuration/delegate-subdomain.md#set-up-subdomain)
+1. Als u niet zeker bent van de juiste waarden, kunt u een nieuw subdomein maken in [!DNL Journey Optimizer] met dezelfde naam als het subdomein waarop het effect is toegepast. [&#x200B; leer hoe te opstelling een nieuw subdomain &#x200B;](../configuration/delegate-subdomain.md#set-up-subdomain)
 
 Als de wijzigingen het probleem niet verhelpen, wordt dezelfde waarschuwing de volgende dag opnieuw geactiveerd.
 
@@ -210,15 +210,15 @@ Als de wijzigingen het probleem niet verhelpen, wordt dezelfde waarschuwing de v
 
 >[!IMPORTANT]
 >
->Dit alarm is slechts op **e-mail** kanaalconfiguraties van toepassing gebruikend het [ type van de douanesubdomain ](../configuration/delegate-custom-subdomain.md) delegatie. <!--Other channel types (such as SMS, push, or in-app) are not covered by this alert.-->
+>Dit alarm is slechts op **e-mail** kanaalconfiguraties van toepassing gebruikend het [&#x200B; type van de douanesubdomain &#x200B;](../configuration/delegate-custom-subdomain.md) delegatie. <!--Other channel types (such as SMS, push, or in-app) are not covered by this alert.-->
 
 Deze waarschuwing wordt geactiveerd als de systeemcontrole problemen met de configuratie van het e-mailkanaal detecteert. Deze kwesties kunnen misconfigured kanaalmontages, ongeldige DNS configuratie, de kwestie van de suppressielijst, IP inconsistentie, of een andere fouten omvatten die e-maillevering kunnen beïnvloeden.
 
 Als u een dergelijke waarschuwing ontvangt, worden de resolutiestappen hieronder weergegeven:
 
-1. Klik het alarm dat aan de beïnvloede [ configuratie van het e-mailkanaal ](../email/get-started-email-config.md) in de [!DNL Journey Optimizer] interface moet worden geleid.
+1. Klik het alarm dat aan de beïnvloede [&#x200B; configuratie van het e-mailkanaal &#x200B;](../email/get-started-email-config.md) in de [!DNL Journey Optimizer] interface moet worden geleid.
 
-   Voor begeleiding bij het uitgeven van kanaalconfiguraties, zie [ deze sectie ](../configuration/channel-surfaces.md#edit-channel-surface).
+   Voor begeleiding bij het uitgeven van kanaalconfiguraties, zie [&#x200B; deze sectie &#x200B;](../configuration/channel-surfaces.md#edit-channel-surface).
 
 1. Bekijk de configuratiegegevens en de foutberichten die u hebt ontvangen. Vaak voorkomende oorzaken van falen zijn:
 
@@ -229,7 +229,7 @@ Als u een dergelijke waarschuwing ontvangt, worden de resolutiestappen hieronder
 
    >[!NOTE]
    >
-   >De mogelijke redenen van de configuratiefout zijn vermeld in [ deze sectie ](../configuration/channel-surfaces.md).
+   >De mogelijke redenen van de configuratiefout zijn vermeld in [&#x200B; deze sectie &#x200B;](../configuration/channel-surfaces.md).
 
 1. Los het probleem op:
 
@@ -256,13 +256,13 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 ### Een waarschuwing bewerken
 
 U kunt de details van een alarm controleren door op zijn lijn te klikken. De naam, status en meldingskanalen worden weergegeven in het linkerdeelvenster.
-Voor Reis-waarschuwingen gebruikt u de knop **[!UICONTROL More actions]** om deze te bewerken. U kunt a [ douanegreep ](#custom-threshold) voor deze alarm dan bepalen.
+Voor Reis-waarschuwingen gebruikt u de knop **[!UICONTROL More actions]** om deze te bewerken. U kunt a [&#x200B; douanegreep &#x200B;](#custom-threshold) voor deze alarm dan bepalen.
 
 ![](assets/alert-more-actions.png){width=60%}
 
 #### Een aangepaste drempel definiëren {#custom-threshold}
 
-U kunt drempels voor het [ alarm van de Reis ](#journey-alerts) plaatsen. De drempelwaarschuwingen boven de standaardwaarde is 20%.
+U kunt drempels voor het [&#x200B; alarm van de Reis &#x200B;](#journey-alerts) plaatsen. De drempelwaarschuwingen boven de standaardwaarde is 20%.
 
 De drempel wijzigen:
 
@@ -303,5 +303,5 @@ Als u abonnees wilt verwijderen, verwijdert u hun e-mailadres uit de huidige abo
 
 ## Aanvullende bronnen {#additional-resources-alerts}
 
-* Leer hoe te om uw reizen op [ problemen op te lossen deze pagina ](../building-journeys/troubleshooting.md).
-* Leer hoe te om uw campagnes op [ te herzien deze pagina ](../campaigns/review-activate-campaign.md).
+* Leer hoe te om uw reizen op [&#x200B; problemen op te lossen deze pagina &#x200B;](../building-journeys/troubleshooting.md).
+* Leer hoe te om uw campagnes op [&#x200B; te herzien deze pagina &#x200B;](../campaigns/review-activate-campaign.md).
