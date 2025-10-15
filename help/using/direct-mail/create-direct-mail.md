@@ -27,8 +27,8 @@ Als u direct-mailberichten wilt maken, maakt u een geplande campagne en configur
 >
 >Voordat u een direct-mailbericht maakt, moet u controleren of u het volgende hebt geconfigureerd:
 >
->1. A [ dossier dat configuratie ](../direct-mail/direct-mail-configuration.md#file-routing-configuration) verplettert die de server specificeert waar het extractiedossier zou moeten worden geupload en worden opgeslagen,
->1. A [ direct-mailberichtconfiguratie ](../direct-mail/direct-mail-configuration.md#direct-mail-surface) die het dossier zal van verwijzingen voorzien dat configuratie verplettert.
+>1. A [&#x200B; dossier dat configuratie &#x200B;](../direct-mail/direct-mail-configuration.md#file-routing-configuration) verplettert die de server specificeert waar het extractiedossier zou moeten worden geupload en worden opgeslagen,
+>1. A [&#x200B; direct-mailberichtconfiguratie &#x200B;](../direct-mail/direct-mail-configuration.md#direct-mail-surface) die het dossier zal van verwijzingen voorzien dat configuratie verplettert.
 
 
 ## Een campagne voor direct mail maken{#create-dm-campaign}
@@ -59,11 +59,11 @@ Voer de volgende stappen uit om een campagne voor directe e-mail te maken:
 
 1. Kies in de sectie **[!UICONTROL Actions]** de optie **[!UICONTROL Direct mail]** .
 
-1. Selecteer of maak een **[!UICONTROL Direct mail configuration]** die u wilt gebruiken. [ Leer hoe te om een direct-mailconfiguratie ](direct-mail-configuration.md#direct-mail-surface) tot stand te brengen.
+1. Selecteer of maak een **[!UICONTROL Direct mail configuration]** die u wilt gebruiken. [&#x200B; Leer hoe te om een direct-mailconfiguratie &#x200B;](direct-mail-configuration.md#direct-mail-surface) tot stand te brengen.
 
    ![](assets/direct-mail-campaign.png){width="800" align="center"}
 
-1. De campagnes kunnen voor een specifieke datum worden gepland of worden geplaatst om met regelmatige intervallen opnieuw te komen. Leer hoe te om **[!UICONTROL Schedule]** van uw campagne in [ te vormen deze sectie ](../campaigns/create-campaign.md#schedule).
+1. De campagnes kunnen voor een specifieke datum worden gepland of worden geplaatst om met regelmatige intervallen opnieuw te komen. Leer hoe te om **[!UICONTROL Schedule]** van uw campagne in [&#x200B; te vormen deze sectie &#x200B;](../campaigns/create-campaign.md#schedule).
 
 U kunt nu het extractiebestand configureren en verzenden naar uw directe-mailprovider.
 
@@ -103,7 +103,7 @@ Het extractiebestand wordt vereist door directe-mailproviders om e-mail naar uw 
 
    1. Het deelvenster **[!UICONTROL Formatting]** wordt aan de rechterkant weergegeven, zodat u de geselecteerde kolom kunt instellen. Geef een **[!UICONTROL Label]** voor de kolom op.
 
-   1. Op het **[!UICONTROL Data]** gebied, selecteer de profielattributen om te tonen gebruikend de [ verpersoonlijkingsredacteur ](../personalization/personalization-build-expressions.md).
+   1. Op het **[!UICONTROL Data]** gebied, selecteer de profielattributen om te tonen gebruikend de [&#x200B; verpersoonlijkingsredacteur &#x200B;](../personalization/personalization-build-expressions.md).
 
    1. Als u het extractiebestand wilt sorteren met een kolom, selecteert u de kolom en schakelt u de optie **[!UICONTROL Sort by]** in. Het pictogram **[!UICONTROL Sort By]** wordt weergegeven naast het label van de kolom in de sectie **[!UICONTROL Data Fields]** .
 
@@ -113,5 +113,5 @@ Het extractiebestand wordt vereist door directe-mailproviders om e-mail naar uw 
 
       Als u de positie van een kolom wilt wijzigen, sleept u de kolom naar de gewenste locatie in de sectie **[!UICONTROL Data field]** . Als u een kolom wilt verwijderen, selecteert u deze en klikt u op de knop **[!UICONTROL Remove]** in het deelvenster **[!UICONTROL Formatting]** .
 
-U kunt nu uw directe-mailbericht testen en verzenden naar uw publiek. [ Leer hoe te om direct-mailberichten te testen en te verzenden ](test-send-direct-mail.md)
+U kunt nu uw directe-mailbericht testen en verzenden naar uw publiek. [&#x200B; Leer hoe te om direct-mailberichten te testen en te verzenden &#x200B;](test-send-direct-mail.md)
 
