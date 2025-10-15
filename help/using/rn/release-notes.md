@@ -61,7 +61,7 @@ De nieuwe mogelijkheden en verbeteringen die in de afgelopen weken zijn vrijgege
 <td>
 <p>Aangedreven door <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank"> Adobe Experience Platform Agent Orchestrator </a>, is de Agent van de Experimentatie beschikbaar in Journey Optimizer. </p>
 <p>De Experimentation Agent is een door AI aangedreven hulpmiddel dat moderniseert hoe u digitale experimenten over websites, e-mails, pushberichten, en toepassingen kunt in werking stellen en beheren. Het helpt u experimenten efficiënter in werking stellen, bedrijfsdoelstellingen organiseren, en actionable inzichten produceren, benadrukkend wat werkte, wat niet, en waar te om daarna te experimenteren.</p>
-<p>Voor meer informatie, verwijs naar de <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank"> gedetailleerde documentatie </a></p>
+<p>Voor meer informatie, verwijs naar de <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=nl-NL" target="_blank"> gedetailleerde documentatie </a></p>
 <p>Beschikbaarheidsdatum: 10 oktober 2025</p>
 </td>
 </tr>

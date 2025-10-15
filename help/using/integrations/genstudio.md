@@ -39,7 +39,7 @@ Om marketing efficiency te verbeteren en merkconsistentie te handhaven, kunt u [
 
 >[!INFO]
 >
->Om verder te gaan, controleer dit [&#x200B; overzicht &#x200B;](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} en a [&#x200B; demo &#x200B;](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"} van [!DNL Adobe GenStudio for Performance Marketing].
+>Om verder te gaan, controleer dit [&#x200B; overzicht &#x200B;](https://business.adobe.com/nl/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} en a [&#x200B; demo &#x200B;](https://business.adobe.com/nl/products/genstudio-for-performance-marketing.html#demo){target="_blank"} van [!DNL Adobe GenStudio for Performance Marketing].
 
 ➡️ [Ontdek deze functie in video](#video)
 
