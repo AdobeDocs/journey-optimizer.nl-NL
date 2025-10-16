@@ -15,9 +15,9 @@ ht-degree: 0%
 
 # Aan de slag met Helper-functies{#functions}
 
-U kunt de sjabloontaal [!DNL Journey Optimizer] gebruiken om bewerkingen op gegevens uit te voeren, zoals berekeningen, gegevensopmaak of conversies, voorwaarden en deze te bewerken in de context van personalisatie. Leer de richtlijnen van de verpersoonlijkingssyntaxis op [ deze pagina ](../personalization-syntax.md).
+U kunt de sjabloontaal [!DNL Journey Optimizer] gebruiken om bewerkingen op gegevens uit te voeren, zoals berekeningen, gegevensopmaak of conversies, voorwaarden en deze te bewerken in de context van personalisatie. Leer de richtlijnen van de verpersoonlijkingssyntaxis op [&#x200B; deze pagina &#x200B;](../personalization-syntax.md).
 
-➡️ [ Leer hoe te om hulpfuncties in deze video te gebruiken ](#video)
+➡️ [&#x200B; Leer hoe te om hulpfuncties in deze video te gebruiken &#x200B;](#video)
 
 De taal van het malplaatje wordt leveraged in helperfuncties beschikbaar in verpersoonlijkingsdrop-down lijst van de verpersoonlijkingsredacteur, zoals hieronder:
 
@@ -25,9 +25,9 @@ De taal van het malplaatje wordt leveraged in helperfuncties beschikbaar in verp
 
 >[!NOTE]
 >
->De functies en de mogelijkheden beschikbaar in de verpersoonlijkingsredacteur verschillen van degenen beschikbaar in de [ Reis geavanceerde uitdrukkingsredacteur ](../../building-journeys/expression/expressionadvanced.md).
+>De functies en de mogelijkheden beschikbaar in de verpersoonlijkingsredacteur verschillen van degenen beschikbaar in de [&#x200B; Reis geavanceerde uitdrukkingsredacteur &#x200B;](../../building-journeys/expression/expressionadvanced.md).
 
-In de [!DNL Journey Optimizer] verpersoonlijkingsredacteur, helperfuncties worden gegroepeerd in drie categorieën: [ Functies ](#functions-helper), [ Helpers ](#helper-helper) en [ Operatoren ](#operators-helper).
+In de [!DNL Journey Optimizer] verpersoonlijkingsredacteur, helperfuncties worden gegroepeerd in drie categorieën: [&#x200B; Functies &#x200B;](#functions-helper), [&#x200B; Helpers &#x200B;](#helper-helper) en [&#x200B; Operatoren &#x200B;](#operators-helper).
 
 Selecteer een categorie voor toegang tot subcategorieën en functies.
 
@@ -426,7 +426,7 @@ Klik op het pictogram `...` om de beschrijving van de functie weer te geven en d
 
 ## Helpers{#helper-helper}
 
-De helpers zijn gedetailleerd op [ deze pagina ](helpers.md).
+De helpers zijn gedetailleerd op [&#x200B; deze pagina &#x200B;](helpers.md).
 
 
 <table>
