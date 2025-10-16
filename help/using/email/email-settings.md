@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
+source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
 workflow-type: tm+mt
 source-wordcount: '1368'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 # E-mailinstellingen configureren {#email-settings}
 
-Als u een e-mailbericht wilt maken, moet u e-mailkanaalconfiguraties instellen die alle technische parameters definiëren die vereist zijn voor uw berichten. [&#x200B; leer hoe te om configuraties &#x200B;](../configuration/channel-surfaces.md) tot stand te brengen
+Als u een e-mailbericht wilt maken, moet u e-mailkanaalconfiguraties instellen die alle technische parameters definiëren die vereist zijn voor uw berichten. [ leer hoe te om configuraties ](../configuration/channel-surfaces.md) tot stand te brengen
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Definieer de e-mailinstellingen in de specifieke sectie van de kanaalconfigurati
 
 De e-mailconfiguratie wordt opgepikt voor het verzenden van mededelingen volgens de logica hieronder:
 
-* Voor batchritten is deze code niet van toepassing op batchuitvoering die al was gestart voordat de configuratie van het e-mailoppervlak is gemaakt. De wijzigingen worden opgepikt bij de volgende herhaling of nieuwe uitvoering.
+* Voor batchritten is deze code niet van toepassing op batchuitvoering die al was gestart voordat de configuratie van het e-mailoppervlak is gemaakt. De wijziging wordt opgepikt bij de volgende herhaling of nieuwe uitvoering.
 
 * Voor transactieberichten, wordt de verandering onmiddellijk voor de volgende mededeling (tot vijf minuten vertraging) opgepikt.
 
@@ -49,7 +49,7 @@ In de **sectie van het Type E-mail**, selecteer het type van bericht voor de con
 
 * Selecteer **Marketing** voor promotionele e-mail, zoals wekelijkse promoties voor een detailhandel. Voor deze berichten is toestemming van de gebruiker vereist.
 
-* Selecteer **Transactioneel** voor niet-commerciële e-mail, zoals orderbevestiging, wachtwoord terugstellende berichten, of leveringsinformatie bijvoorbeeld. Deze e-mails kunnen naar profielen worden verzonden die **&#x200B;**&#x200B;van marketing mededelingen afsloot. Deze berichten kunnen alleen in specifieke contexten worden verzonden.
+* Selecteer **Transactioneel** voor niet-commerciële e-mail, zoals orderbevestiging, wachtwoord terugstellende berichten, of leveringsinformatie bijvoorbeeld. Deze e-mails kunnen naar profielen worden verzonden die **** van marketing mededelingen afsloot. Deze berichten kunnen alleen in specifieke contexten worden verzonden.
 
 Wanneer u een bericht maakt, moet u een geldige kanaalconfiguratie kiezen die overeenkomt met de categorie die u voor uw e-mail hebt geselecteerd.
 
@@ -69,13 +69,13 @@ Selecteer de IP pool aan vennoot met de configuratie. [Meer informatie](../confi
 
 ![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
 
-U kunt niet met configuratieverwezenlijking te werk gaan terwijl de geselecteerde IP pool onder [&#x200B; uitgave &#x200B;](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status) is en nooit met geselecteerde subdomain is geassocieerd. Anders, zal de oudste versie van de IP pool/subdomain vereniging nog worden gebruikt. Als dit het geval is, sparen de configuratie als ontwerp en probeer opnieuw zodra de IP pool de **[!UICONTROL Success]** status heeft.
+U kunt niet met configuratieverwezenlijking te werk gaan terwijl de geselecteerde IP pool onder [ uitgave ](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status) is en nooit met geselecteerde subdomain is geassocieerd. Anders, zal de oudste versie van de IP pool/subdomain vereniging nog worden gebruikt. Als dit het geval is, sparen de configuratie als ontwerp en probeer opnieuw zodra de IP pool de **[!UICONTROL Success]** status heeft.
 
 >[!NOTE]
 >
->Voor niet-productiemilieu&#39;s, creeert Adobe geen uit-van-de-doos testsubdomeinen noch verleent toegang tot een gedeelde verzendende IP pool. U moet [&#x200B; uw eigen subdomeinen &#x200B;](../configuration/delegate-subdomain.md) afvaardigen en IPs van de pool gebruiken die aan uw organisatie wordt toegewezen.
+>Voor niet-productiemilieu&#39;s, creeert Adobe geen uit-van-de-doos testsubdomeinen noch verleent toegang tot een gedeelde verzendende IP pool. U moet [ uw eigen subdomeinen ](../configuration/delegate-subdomain.md) afvaardigen en IPs van de pool gebruiken die aan uw organisatie wordt toegewezen.
 
-Nadat een IP pool is geselecteerd, is de informatie PTR zichtbaar wanneer het hangen over de IP adressen onder de IP pool drop-down lijst wordt getoond. [&#x200B; leer meer over PTR verslagen &#x200B;](../configuration/ptr-records.md)
+Nadat een IP pool is geselecteerd, is de informatie PTR zichtbaar wanneer het hangen over de IP adressen onder de IP pool drop-down lijst wordt getoond. [ leer meer over PTR verslagen ](../configuration/ptr-records.md)
 
 >[!NOTE]
 >
@@ -109,13 +109,13 @@ Als u een fout bij het voorleggen van de e-mailconfiguratie krijgt, betekent het
 >id="ajo_surface_suppressed_addresses"
 >title="Prioriteit suppressielijst overschrijven"
 >abstract="U kunt ook transactiemeldingen verzenden naar profielen, zelfs als hun e-mailadres op de suppressielijst voor Adobe Journey Optimizer staat vanwege een spamklacht. Deze optie is standaard uitgeschakeld."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=nl-NL" text="De vervolgkeuzelijst beheren"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html" text="De vervolgkeuzelijst beheren"
 
 >[!IMPORTANT]
 >
 >Deze optie is alleen beschikbaar als u het e-mailtype **[!UICONTROL Transactional]** hebt geselecteerd. [Meer informatie](#email-type)
 
-In [!DNL Journey Optimizer], worden alle e-mailadressen die als harde grenzen, zachte grenzen, en spamklachten duidelijk zijn automatisch verzameld in de [&#x200B; suppressielijst &#x200B;](../configuration/manage-suppression-list.md) en uitgesloten van het verzenden in een reis of een campagne.
+In [!DNL Journey Optimizer], worden alle e-mailadressen die als harde grenzen, zachte grenzen, en spamklachten duidelijk zijn automatisch verzameld in de [ suppressielijst ](../configuration/manage-suppression-list.md) en uitgesloten van het verzenden in een reis of een campagne.
 
 Nochtans, kunt u besluiten om op het verzenden van berichten van het **transactie** type naar profielen te gaan zelfs als hun e-mailadressen op de suppressielijst toe te schrijven aan spamklacht door de gebruiker zijn.
 
@@ -139,7 +139,7 @@ Zodra deze optie wordt toegelaten, hoewel een klant uw marketing e-mail als spam
 >id="ajo_surface_seed_list"
 >title="Een zaadlijst toevoegen"
 >abstract="Selecteer de zaadlijst van uw keus om specifieke interne adressen aan uw publiek automatisch toe te voegen. Deze zaadadressen zullen op de tijd van de leveringsuitvoering worden omvat en zullen een nauwkeurige kopie van het bericht voor betrouwbaarheidsdoeleinden ontvangen."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=nl-NL#use-seed-list" text="Wat zijn zaadlijsten?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="Wat zijn zaadlijsten?"
 
 Met een zaadlijst in [!DNL Journey Optimizer] kunt u automatisch specifieke e-mailadressen opnemen in uw leveringen. [Meer informatie](../configuration/seed-lists.md)
 
@@ -147,7 +147,7 @@ Met een zaadlijst in [!DNL Journey Optimizer] kunt u automatisch specifieke e-ma
 >
 >Deze functie is momenteel alleen van toepassing op het e-mailkanaal.
 
-Selecteer in de sectie **[!UICONTROL Seed list]** de lijst die voor u van belang is. Leer hoe te om een zaadlijst in [&#x200B; tot stand te brengen deze sectie &#x200B;](../configuration/seed-lists.md#create-seed-list).
+Selecteer in de sectie **[!UICONTROL Seed list]** de lijst die voor u van belang is. Leer hoe te om een zaadlijst in [ tot stand te brengen deze sectie ](../configuration/seed-lists.md#create-seed-list).
 
 ![](../configuration/assets/seed-list-surface.png){width="80%"}
 
@@ -157,7 +157,7 @@ Selecteer in de sectie **[!UICONTROL Seed list]** de lijst die voor u van belang
 
 Wanneer de huidige configuratie in een campagne of reis wordt gebruikt, zijn de e-mailadressen op de geselecteerde zaadlijst inbegrepen in de tijd van de leveringsuitvoering, die zij een exemplaar van de levering voor verzekeringsdoeleinden zullen ontvangen.
 
-Leer hoe te om zaadlijst in een campagne of een reis in [&#x200B; te gebruiken deze sectie &#x200B;](../configuration/seed-lists.md#use-seed-list).
+Leer hoe te om zaadlijst in een campagne of een reis in [ te gebruiken deze sectie ](../configuration/seed-lists.md#use-seed-list).
 
 ## Parameters opnieuw proberen {#email-retry}
 
@@ -165,13 +165,13 @@ Leer hoe te om zaadlijst in een campagne of een reis in [&#x200B; te gebruiken d
 >id="ajo_admin_presets_retryperiod"
 >title="De periode voor het opnieuw proberen aanpassen"
 >abstract="Retries worden 3,5 dagen (84 uur) uitgevoerd wanneer een e-maillevering mislukt als gevolg van een tijdelijke soft bounce-fout. U kunt deze standaardperiode voor opnieuw proberen aanpassen aan uw wensen."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=nl-NL" text="Opnieuw proberen"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="Opnieuw proberen"
 
 U kunt **e-mail vormen opnieuw probeert parameters**.
 
 ![](assets/preset-retry-parameters.png)
 
-Door gebrek, wordt de [&#x200B; periode van de opnieuw probeert tijd &#x200B;](../configuration/retries.md#retry-duration) geplaatst aan 84 uren, maar u kunt dit het plaatsen aanpassen om uw behoeften beter aan te passen.
+Door gebrek, wordt de [ periode van de opnieuw probeert tijd ](../configuration/retries.md#retry-duration) geplaatst aan 84 uren, maar u kunt dit het plaatsen aanpassen om uw behoeften beter aan te passen.
 
 U moet een geheel-getalwaarde (in uren of notulen) binnen de volgende waaier ingaan:
 
@@ -179,7 +179,7 @@ U moet een geheel-getalwaarde (in uren of notulen) binnen de volgende waaier ing
 * Voor transactie-e-mailberichten is de minimale herroepingstermijn 10 minuten.
 * Voor beide e-mailtypen is de maximale hergebruiksperiode 84 uur (of 5040 minuten).
 
-Leer meer over pogingen in [&#x200B; deze sectie &#x200B;](../configuration/retries.md).
+Leer meer over pogingen in [ deze sectie ](../configuration/retries.md).
 
 ## URL-tracking {#url-tracking}
 

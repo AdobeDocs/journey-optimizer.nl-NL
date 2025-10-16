@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, ontwerp, toegankelijkheid
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: dc7b24223bd32a75b87946733a6b098811e007d9
+source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
 workflow-type: tm+mt
 source-wordcount: '1601'
 ht-degree: 0%
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 # Toegankelijke inhoud ontwerpen {#accessible-content}
 
-De [&#x200B; Europese toegankelijkheidswet &#x200B;](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} is een richtlijn die wordt ontworpen om de interne markt voor toegankelijke producten en diensten te verbeteren door barrières weg te nemen die door verschillende nationale regels in de lidstaten worden veroorzaakt.
+De [ Europese toegankelijkheidswet ](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} is een richtlijn die wordt ontworpen om de interne markt voor toegankelijke producten en diensten te verbeteren door barrières weg te nemen die door verschillende nationale regels in de lidstaten worden veroorzaakt.
 
 Deze verordening bepaalt dat alle digitale communicatie, inclusief e-mails, nieuwsbrieven, PDF&#39;s en downloadbare inhoud, toegankelijk moet zijn. Wanneer u inhoud maakt voor uw ontvangers, moet u daarom bepaalde richtlijnen volgen, zoals het gebruik van toegankelijke lettertypen, leesbare indelingen en het aanbieden van alternatieve tekst voor afbeeldingen.
 
-[!DNL Journey Optimizer] [&#x200B; E-mail Designer &#x200B;](content-from-scratch.md), die marketers toelaat om inhoud zowel voor **e-mail** als **het landen pagina&#39;s** te bouwen, staat u toe om gemakkelijk aan deze richtlijn te voldoen, die op de Richtlijnen van de Toegankelijkheid van de Inhoud van het Web (WCAG) 2.1, niveauAA wordt gebaseerd.
+[!DNL Journey Optimizer] [ E-mail Designer ](content-from-scratch.md), die marketers toelaat om inhoud zowel voor **e-mail** als **het landen pagina&#39;s** te bouwen, staat u toe om gemakkelijk aan deze richtlijn te voldoen, die op de Richtlijnen van de Toegankelijkheid van de Inhoud van het Web (WCAG) 2.1, niveauAA wordt gebaseerd.
 
 In lijn hiermee worden de aanbevolen procedures voor het ontwerpen van toegankelijke inhoud met [!DNL Journey Optimizer] hieronder weergegeven.
 
@@ -30,7 +30,7 @@ In lijn hiermee worden de aanbevolen procedures voor het ontwerpen van toegankel
 >
 >Deze pagina gaat over het toegankelijk maken van uw inhoud voor al uw ontvangers, zodat mensen met een handicap uw e-mails en landingspagina&#39;s die zijn ontworpen met [!DNL Journey Optimizer] kunnen lezen, begrijpen en ermee kunnen communiceren.
 >
->Anderzijds, is de toegankelijkheid van de [!DNL Journey Optimizer] interface zelf gedetaillerd in [&#x200B; deze sectie &#x200B;](../start/accessibility.md).
+>Anderzijds, is de toegankelijkheid van de [!DNL Journey Optimizer] interface zelf gedetaillerd in [ deze sectie ](../start/accessibility.md).
 
 ## Zorg ervoor dat de tekst leesbaar is {#text-readability}
 
@@ -75,7 +75,7 @@ Volg onderstaande tips om te controleren of uw inhoud visueel toegankelijk is:
 
 In [!DNL Journey Optimizer] kunt u de grootte en tussenruimte van de verschillende elementen in uw inhoud verder verfijnen met de opmaakparameters en -kenmerken uit het deelvenster Designer e-mailen **[!UICONTROL Styles]** . [Meer informatie](get-started-email-style.md)
 
-Bijvoorbeeld, kunt u de [&#x200B; achtergrond &#x200B;](backgrounds.md) bijwerken, of de marges veranderen, opvullen en groepering om de visuele toegankelijkheid van uw inhoud te verbeteren. [Meer informatie](alignment-and-padding.md)
+Bijvoorbeeld, kunt u de [ achtergrond ](backgrounds.md) bijwerken, of de marges veranderen, opvullen en groepering om de visuele toegankelijkheid van uw inhoud te verbeteren. [Meer informatie](alignment-and-padding.md)
 
 ![](assets/accessible-styles.png){width="80%"}
 
@@ -101,7 +101,7 @@ Volg onderstaande richtlijnen voor effectieve alternatieve tekst in digitale pro
 
 ## Leesbare indeling gebruiken {#readable-format}
 
-Gebruik de e-mail van Designer relevante structuur en [&#x200B; inhoudscomponenten &#x200B;](content-components.md), evenals de opties in de **[!UICONTROL Styles]** ruit, om uw inhoud op een duidelijke, logische en beknopte manier te organiseren die voor allen toegankelijk is.
+Gebruik de e-mail van Designer relevante structuur en [ inhoudscomponenten ](content-components.md), evenals de opties in de **[!UICONTROL Styles]** ruit, om uw inhoud op een duidelijke, logische en beknopte manier te organiseren die voor allen toegankelijk is.
 
 ![](assets/accessible-components.png){width="100%"}
 
@@ -120,25 +120,25 @@ Om leesbaar te zijn, moet uw inhoud duidelijk zijn, goed gestructureerd, en brui
 * Gebruik actieve stem om de zinsstructuur eenvoudiger te houden.
 * Vermijd slang, jargon of regionale woorden die sommige mensen misschien niet kennen.
 
-Om uw e-mailleesbaarheid te evalueren, kunt u de populaire [&#x200B; test van de Versnelling van de Lezing van de Vlesch gebruiken &#x200B;](https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2){target="_blank"}, die in Microsoft Word kan worden gevonden en berekent hoe gemakkelijk uw inhoud op een schaal van 0-100 moet lezen.
+Om uw e-mailleesbaarheid te evalueren, kunt u de populaire [ test van de Versnelling van de Lezing van de Vlesch gebruiken ](https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2){target="_blank"}, die in Microsoft Word kan worden gevonden en berekent hoe gemakkelijk uw inhoud op een schaal van 0-100 moet lezen.
 
 ## Uw inhoud testen {#test}
 
 Om de toegankelijkheid van uw inhoud te controleren, kunt u de testmogelijkheden gebruiken die door [!DNL Journey Optimizer] worden verstrekt. Ze zijn niet specifiek ontworpen om te controleren of uw inhoud volledig toegankelijk is, maar ze kunnen wel een eerste verificatieniveau bieden.
 
-* Geef een voorvertoning van de inhoud weer met testprofielen. [&#x200B; leer hoe &#x200B;](../content-management/preview.md)
+* Geef een voorvertoning van de inhoud weer met testprofielen. [ leer hoe ](../content-management/preview.md)
 
-* Gebruik de [&#x200B; E-mail die &#x200B;](../content-management/rendering.md) optie teruggeeft die hefboomwerkingen Litmus om uw ontwerpen over belangrijke e-mailcliënten (de Post van Apple, Gmail, Vooruitzichten) te simuleren en te zien of maken de tekst, de kleuren en de beelden uw inhoud toegankelijk. <!--Litmus includes accessibility testing-->
+* Gebruik de [ E-mail die ](../content-management/rendering.md) optie teruggeeft die hefboomwerkingen Litmus om uw ontwerpen over belangrijke e-mailcliënten (de Post van Apple, Gmail, Vooruitzichten) te simuleren en te zien of maken de tekst, de kleuren en de beelden uw inhoud toegankelijk. <!--Litmus includes accessibility testing-->
 
-* Verzend proefdrukken om de rendering van uw inhoud te testen voordat u deze naar uw echte publiek stuurt. [&#x200B; leer hoe &#x200B;](../content-management/proofs.md)
+* Verzend proefdrukken om de rendering van uw inhoud te testen voordat u deze naar uw echte publiek stuurt. [ leer hoe ](../content-management/proofs.md)
 
 ![](assets/accessible-simulate.png){width="90%"}
 
 Als u op een meer consistente manier wilt controleren of uw inhoud betrouwbaar toegankelijk is, gaat u naar specifieke externe gereedschappen, zoals:
 
-* De [&#x200B; contrastcontrole WebAim &#x200B;](https://webaim.org/resources/contrastchecker/){target="_blank"} en het [&#x200B; hulpmiddel van de de evaluatie van de Webtoegankelijkheid van de WAVE &#x200B;](https://wave.webaim.org/){target="_blank"} om contrast en naleving te evalueren;
+* De [ contrastcontrole WebAim ](https://webaim.org/resources/contrastchecker/){target="_blank"} en het [ hulpmiddel van de de evaluatie van de Webtoegankelijkheid van de WAVE ](https://wave.webaim.org/){target="_blank"} om contrast en naleving te evalueren;
 
-* De technologieën van de hulp zoals het schermlezers (bijvoorbeeld: [&#x200B; NVDA &#x200B;](https://www.nvaccess.org/download/){target="_blank"}, of [&#x200B; VoiceOver &#x200B;](https://support.apple.com/en-ie/guide/iphone/iph3e2e415f/ios){target="_blank"} op iPhone) om e-mails van het perspectief van visueel gehandicapte gebruikers te ervaren.
+* De technologieën van de hulp zoals het schermlezers (bijvoorbeeld: [ NVDA ](https://www.nvaccess.org/download/){target="_blank"}, of [ VoiceOver ](https://support.apple.com/en-ie/guide/iphone/iph3e2e415f/ios){target="_blank"} op iPhone) om e-mails van het perspectief van visueel gehandicapte gebruikers te ervaren.
 
 ## Donkere modus gebruiken {#dark-mode}
 
@@ -150,7 +150,7 @@ De donkere modus verbetert de visuele toegankelijkheid voor gebruikers met licht
 
 U kunt onder andere het beste transparante PNG&#39;s of SVG&#39;s gebruiken bij het ontwerpen van inhoud in de donkere modus, de juiste metatags en CSS instellen en een toegankelijke fallback-stijl bieden als de donkere modus niet wordt ondersteund. Zorg er ten slotte voor dat uw e-mailberichten correct worden weergegeven in de donkere modus door alle e-mailinhoud en UI-elementen te testen in zowel de lichte als de donkere modus.
 
-Gedetailleerde beste praktijken specifiek voor donkere wijze, met inbegrip van richtlijnen om toegankelijkheid te verzekeren, zijn vermeld in [&#x200B; deze sectie &#x200B;](dark-mode.md#best-practices). <!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
+Gedetailleerde beste praktijken specifiek voor donkere wijze, met inbegrip van richtlijnen om toegankelijkheid te verzekeren, zijn vermeld in [ deze sectie ](dark-mode.md#best-practices). <!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
 
 ## Specifieke kenmerken voor toegankelijkheid gebruiken {#attributes}
 
@@ -280,7 +280,7 @@ De schermlezers lezen:
 
 Schermlezers lezen koppelingen voor met behulp van hun tekst. Als een koppeling alleen &#39;Klik hier&#39; of &#39;Meer lezen&#39; heet, weten gebruikers van ondersteunende hulpmiddelen niet wat het doel is. Om toegankelijkheid te waarborgen, hebben ze beschrijvende tekst nodig die het doel of de actie duidelijk aangeeft.
 
-Gebruik E-mail Designer om [&#x200B; een verbinding &#x200B;](message-tracking.md#insert-links) aan uw inhoud toe te voegen en het etiket uit te geven om het (zichtbaar) en beschrijvend (duidelijk over doel) te maken. Vermijd vage labels zoals &#39;here&#39; of &#39;more&#39;.
+Gebruik E-mail Designer om [ een verbinding ](message-tracking.md#insert-links) aan uw inhoud toe te voegen en het etiket uit te geven om het (zichtbaar) en beschrijvend (duidelijk over doel) te maken. Vermijd vage labels zoals &#39;here&#39; of &#39;more&#39;.
 
 ![](assets/accessible-link.png){width="70%"}
 
