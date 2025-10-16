@@ -180,7 +180,7 @@ Gebeurtenispatronen voor stap gebruiken voor:
 ### Documentatiekoppelingen {#documentation-links}
 
 - **[stap het delen van de Reis overzicht](sharing-overview.md)**: Begrijpend hoe de gegevens van de reis aan Adobe Experience Platform stromen
-- **[Ingebouwd schemawoordenboek &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)**: Volledige XDM schemaverwijzing
+- **[Ingebouwd schemawoordenboek &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)**: Volledige XDM schemaverwijzing
 - **[Journey Optimizer die](report-gs-cja.md)** meldt: Overzicht van rapporteringsmogelijkheden in Journey Optimizer
 
 ### Integratiehulplijnen {#integration-guides}
