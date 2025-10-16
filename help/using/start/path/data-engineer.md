@@ -23,7 +23,7 @@ Leer hoe te **gegevens identificeren en schema en dataset** tot stand brengen om
 
 >[!NOTE]
 >
->Leer meer over **gegevensopname** in [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html){target="_blank"}.
+>Leer meer over **gegevensopname** in [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=nl-NL){target="_blank"}.
 
 De stappen om een identiteitsnamespace en een dataset tot stand te brengen die voor profielen wordt toegelaten, en de testprofielen zijn gedetailleerd in de hieronder secties:
 
