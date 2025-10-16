@@ -8,13 +8,13 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: b7f12c65-c1af-4c49-b126-c13a51940a43
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
 
 ---
-
 
 # De inhoud van de door de API geactiveerde campagne bewerken {#api-content}
 
@@ -49,14 +49,14 @@ Let op: voorlopig is er geen contextueel kenmerk beschikbaar voor gebruik in het
 
 **moet** lezen
 
-* De contextafhankelijke kenmerken die in de aanvraag worden doorgegeven, mogen niet groter zijn dan 200 kB en houden altijd rekening met het type tekenreeks.
+* De contextafhankelijke kenmerken die in de aanvraag worden doorgegeven, mogen niet groter zijn dan 200 kB en worden altijd beschouwd als tekenreeksen.
 * De syntaxis van `context.system` is beperkt tot intern gebruik van Adobe en mag niet worden gebruikt om contextuele kenmerken door te geven.
 * In tegenstelling tot voor profielen geschikte gebeurtenissen, worden de contextuele gegevens die in de REST API worden doorgegeven, gebruikt voor eenmalige communicatie en niet opgeslagen tegen profiel. Als er geen naamruimte is gevonden, wordt er maximaal een profiel gemaakt met de naamruimtedetails.
 * Het gebruik van een groot aantal of zware contextafhankelijke gegevens in uw inhoud kan van invloed zijn op de prestaties.
 
 ## Inhoud testen en controleren
 
-Zodra de inhoud is gedefinieerd, gebruikt u de knop **[!UICONTROL Simulate content]** om een voorvertoning van uw inhoud weer te geven en deze te testen met testprofielen of voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [&#x200B; Leer hoe te om inhoud &#x200B;](../content-management/preview-test.md) voor te vertonen en te testen. Klik op de linkerpijl om terug te bladeren naar het scherm Campagne maken.
+Zodra de inhoud is gedefinieerd, gebruikt u de knop **[!UICONTROL Simulate content]** om een voorvertoning van uw inhoud weer te geven en deze te testen met testprofielen of voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [ Leer hoe te om inhoud ](../content-management/preview-test.md) voor te vertonen en te testen. Klik op de linkerpijl om terug te bladeren naar het scherm Campagne maken.
 
 ![](assets/create-campaign-design.png)
 

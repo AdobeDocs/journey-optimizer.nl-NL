@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 0%
@@ -29,21 +29,21 @@ Gebruik het tabblad **[!UICONTROL Actions]** om een kanaalconfiguratie voor uw b
 
    >[!NOTE]
    >
-   >De gesteunde kanalen zijn: [&#x200B; E-mail &#x200B;](../email/get-started-email.md), [&#x200B; SMS/MMS/RCS &#x200B;](../sms/get-started-sms.md), [&#x200B; Push berichten &#x200B;](../push/get-started-push.md), [&#x200B; WhatsApp &#x200B;](../whatsapp/get-started-whatsapp.md), [&#x200B; LIJN &#x200B;](../line/get-started-line.md), [&#x200B; Directe post &#x200B;](../direct-mail/get-started-direct-mail.md), [&#x200B; in-app &#x200B;](../in-app/get-started-in-app.md), [&#x200B; Web &#x200B;](../web/get-started-web.md), [&rbrace; op code-gebaseerde ervaringen &#x200B;](../code-based/get-started-code-based.md).
+   >De gesteunde kanalen zijn: [ E-mail ](../email/get-started-email.md), [ SMS/MMS/RCS ](../sms/get-started-sms.md), [ Push berichten ](../push/get-started-push.md), [ WhatsApp ](../whatsapp/get-started-whatsapp.md), [ LIJN ](../line/get-started-line.md), [ Directe post ](../direct-mail/get-started-direct-mail.md), [ in-app ](../in-app/get-started-in-app.md), [ Web ](../web/get-started-web.md), [} op code-gebaseerde ervaringen ](../code-based/get-started-code-based.md).
    >
    >Welke kanalen beschikbaar zijn, is afhankelijk van uw licentiemodel en invoegtoepassingen.
 
-   Als u een binnenkomend kanaal selecteert (code-based ervaring, In-app bericht, de Actie van de Kaart van de Inhoud of van het Web), kunt u meer binnenkomende acties toevoegen - voor een totaal van tot 10 acties in één enkele campagne. [&#x200B; leer hoe &#x200B;](#multi-action)
+   Als u een binnenkomend kanaal selecteert (code-based ervaring, In-app bericht, de Actie van de Kaart van de Inhoud of van het Web), kunt u meer binnenkomende acties toevoegen - voor een totaal van tot 10 acties in één enkele campagne. [ leer hoe ](#multi-action)
 
 1. **selecteer een kanaalconfiguratie**
 
-   Een configuratie wordt bepaald door de Beheerder van het a [&#x200B; Systeem &#x200B;](../start/path/administrator.md). Het bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameters, subdomein, mobiele apps, enzovoort. [&#x200B; leer hoe te de configuraties van het opstellingskanaal &#x200B;](../configuration/channel-surfaces.md)
+   Een configuratie wordt bepaald door de Beheerder van het a [ Systeem ](../start/path/administrator.md). Het bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameters, subdomein, mobiele apps, enzovoort. [ leer hoe te de configuraties van het opstellingskanaal ](../configuration/channel-surfaces.md)
 
    ![](assets/create-campaign-action.png)
 
 1. **Optimalisering van de Leverage**
 
-   Gebruik de sectie **[!UICONTROL Optimization]** om inhoudexperimenten uit te voeren, of hefboomwerking het richten van regels, of geavanceerde combinaties van zowel experimenteren als richten te gebruiken. Deze verschillende opties en de te volgen stappen zijn gedetailleerd in [&#x200B; deze sectie &#x200B;](campaigns-message-optimization.md).
+   Gebruik de sectie **[!UICONTROL Optimization]** om inhoudexperimenten uit te voeren, of hefboomwerking het richten van regels, of geavanceerde combinaties van zowel experimenteren als richten te gebruiken. Deze verschillende opties en de te volgen stappen zijn gedetailleerd in [ deze sectie ](campaigns-message-optimization.md).
 <!--
 1. **Create a content experiment**
 
@@ -51,45 +51,45 @@ Gebruik het tabblad **[!UICONTROL Actions]** om een kanaalconfiguratie voor uw b
 
 1. **voeg meertalige inhoud** toe
 
-   Gebruik de sectie **[!UICONTROL Languages]** om inhoud in meerdere talen binnen uw campagne te maken. Klik hiertoe op de knop **[!UICONTROL Add languages]** en selecteer de gewenste **[!UICONTROL Language settings]** . De gedetailleerde informatie over hoe te opstelling en gebruik meertalige mogelijkheden zijn beschikbaar in [&#x200B; deze sectie &#x200B;](../content-management/multilingual-gs.md).
+   Gebruik de sectie **[!UICONTROL Languages]** om inhoud in meerdere talen binnen uw campagne te maken. Klik hiertoe op de knop **[!UICONTROL Add languages]** en selecteer de gewenste **[!UICONTROL Language settings]** . De gedetailleerde informatie over hoe te opstelling en gebruik meertalige mogelijkheden zijn beschikbaar in [ deze sectie ](../content-management/multilingual-gs.md).
 
 Afhankelijk van het geselecteerde communicatiekanaal zijn aanvullende instellingen beschikbaar. Vouw de onderstaande secties uit voor meer informatie.
 
 +++**pas het begrenzen regels** toe (E-mail, Directe post, Duw, SMS)
 
-Selecteer in de vervolgkeuzelijst **[!UICONTROL Business rules]** een regel die is ingesteld om de afkapregels toe te passen op uw campagne. De reeksen van de kanaalregel van hefboomwerking staan u toe om frequentie het begrenzen door communicatie type te plaatsen om het overbelasten van klanten met gelijkaardige berichten te verhinderen. [&#x200B; leer hoe te met regelreeksen &#x200B;](../conflict-prioritization/rule-sets.md) werken
+Selecteer in de vervolgkeuzelijst **[!UICONTROL Business rules]** een regel die is ingesteld om de afkapregels toe te passen op uw campagne. De reeksen van de kanaalregel van hefboomwerking staan u toe om frequentie het begrenzen door communicatie type te plaatsen om het overbelasten van klanten met gelijkaardige berichten te verhinderen. [ leer hoe te met regelreeksen ](../conflict-prioritization/rule-sets.md) werken
 
 +++
 
 +++**Overeenkomst van het Spoor** (E-mail, SMS).
 
-In de sectie **[!UICONTROL Action tracking]** kunt u bijhouden hoe de ontvangers op uw e-mail- of SMS-berichten reageren. De resultaten van het bijhouden van de campagne zijn toegankelijk vanuit het campagnerapport nadat de campagne is uitgevoerd. [&#x200B; leer meer over campagnerapporten &#x200B;](../reports/campaign-global-report-cja.md)
+In de sectie **[!UICONTROL Action tracking]** kunt u bijhouden hoe de ontvangers op uw e-mail- of SMS-berichten reageren. De resultaten van het bijhouden van de campagne zijn toegankelijk vanuit het campagnerapport nadat de campagne is uitgevoerd. [ leer meer over campagnerapporten ](../reports/campaign-global-report-cja.md)
 
 +++
 
 +++**laat Snelle leveringswijze** toe (Duw).
 
-De snelle leveringswijze is een [!DNL Journey Optimizer] toe:voegen-op die zeer snelle pushbericht toestaat die in grote volumes door campagnes verzenden. Snelle levering wordt gebruikt wanneer de vertraging in berichtlevering zaken-kritiek is, wanneer u een dringende duwalarm op mobiele telefoons wilt verzenden, bijvoorbeeld een breekbericht aan gebruikers die uw nieuwskanaal app hebben geïnstalleerd. Leer hoe te om Snelle leveringswijze voor de Duw berichten [&#x200B; op deze pagina &#x200B;](../push/create-push.md#rapid-delivery) toe te laten.
+De snelle leveringswijze is een [!DNL Journey Optimizer] toe:voegen-op die zeer snelle pushbericht toestaat die in grote volumes door campagnes verzenden. Snelle levering wordt gebruikt wanneer de vertraging in berichtlevering zaken-kritiek is, wanneer u een dringende duwalarm op mobiele telefoons wilt verzenden, bijvoorbeeld een breekbericht aan gebruikers die uw nieuwskanaal app hebben geïnstalleerd. Leer hoe te om Snelle leveringswijze voor de Duw berichten [ op deze pagina ](../push/create-push.md#rapid-delivery) toe te laten.
 
-Voor meer informatie over prestaties wanneer het gebruiken van Snelle leveringswijze, verwijs naar [&#x200B; het productbeschrijving van Adobe Journey Optimizer &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Voor meer informatie over prestaties wanneer het gebruiken van Snelle leveringswijze, verwijs naar [ het productbeschrijving van Adobe Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 +++
 
 +++**wijs prioritaire scores** toe (Web, in-app, op code-gebaseerd)
 
-Wijs een prioritaire score aan de campagne toe staat u toe om aan een binnenkomende campagne voorrang te geven wanneer er een opgelegde beperking zoals een frequentiegrens is. Voer een numerieke waarde in (tussen 0 en 100). Let op: hoe hoger het getal, hoe hoger de prioriteit. [&#x200B; Leer hoe te om prioritaire scores aan reizen &amp; campagnes toe te wijzen &#x200B;](../conflict-prioritization/priority-scores.md)
+Als u een prioriteitsscore toewijst aan de campagne, kunt u prioriteiten stellen aan een binnenkomende campagne wanneer er een opgelegde beperking zoals een frequentiegrens is. Voer een numerieke waarde in (tussen 0 en 100). Let op: hoe hoger het getal, hoe hoger de prioriteit. [ Leer hoe te om prioritaire scores aan reizen &amp; campagnes toe te wijzen ](../conflict-prioritization/priority-scores.md)
 
 +++
 
 +++**plaats extra leveringsregels** (de kaarten van de Inhoud)
 
-Voor inhoudskaartcampagnes kunt u aanvullende leveringsregels inschakelen om de gebeurtenis(sen) en criteria te kiezen die uw bericht activeren. [&#x200B; leer hoe te om inhoudskaarten &#x200B;](../content-card/create-content-card.md) tot stand te brengen
+Voor inhoudskaartcampagnes kunt u aanvullende leveringsregels inschakelen om de gebeurtenis(sen) en criteria te kiezen die uw bericht activeren. [ leer hoe te om inhoudskaarten ](../content-card/create-content-card.md) tot stand te brengen
 
 +++
 
 +++**bepaalt trekkers** (in-app)
 
-Voor in-app berichten kunt u de knop **[!UICONTROL Edit triggers]** gebruiken om de gebeurtenis(sen) en criteria te kiezen die uw bericht activeren. [&#x200B; Leer hoe te om een In-app bericht &#x200B;](../in-app/create-in-app.md) te creëren
+Voor in-app berichten kunt u de knop **[!UICONTROL Edit triggers]** gebruiken om de gebeurtenis(sen) en criteria te kiezen die uw bericht activeren. [ Leer hoe te om een In-app bericht ](../in-app/create-in-app.md) te creëren
 
 +++
 
@@ -104,9 +104,9 @@ Om uw campagneorchestratie te vereenvoudigen, kunt u verscheidene binnenkomende 
 
 >[!NOTE]
 >
->Deze capaciteit is alleen beschikbaar voor binnenkomende kanalen. Uitgaande kanalen zoals E-mail worden momenteel niet ondersteund.
+>Dit vermogen is slechts beschikbaar voor binnenkomende kanalen. Uitgaande kanalen zoals E-mail worden momenteel niet ondersteund.
 
-Met deze capaciteit kunt u verschillende op code gebaseerde ervaringen, In-app-berichten, Content Cards of Web-acties op verschillende locaties tegelijk aanbieden zonder dat u meerdere campagnes hoeft te maken. Het maakt de plaatsing van uw campagne gemakkelijker en staat voor vlottere rapportering toe, met alle gegevens geconsolideerd in één enkele campagne.
+Dit vermogen laat u toe om diverse op code-gebaseerde ervaringen, In-app berichten, de Kaarten van de Inhoud of acties van het Web aan verschillende plaatsen tezelfdertijd te leveren, zonder de behoefte om veelvoudige campagnes te creëren. Het maakt de plaatsing van uw campagne gemakkelijker en staat voor vlottere rapportering toe, met alle gegevens geconsolideerd in één enkele campagne.
 
 U kunt bijvoorbeeld een op code gebaseerde ervaring naar meerdere eindpunten met iets verschillende inhoud verzenden. Om dit te doen, creeer veelvoudige op code-gebaseerde acties binnen de zelfde campagne, elk met een verschillende eindpuntconfiguratie.
 
@@ -122,7 +122,7 @@ Voer de onderstaande stappen uit als u meerdere binnenkomende acties in een camp
 
 1. Ga op dezelfde manier verder om meer acties toe te voegen. U kunt maximaal 10 binnenkomende acties toevoegen aan een campagne.
 
-Zodra de campagne [&#x200B; levend &#x200B;](review-activate-campaign.md) is, worden alle acties gelijktijdig geactiveerd.
+Zodra de campagne [ levend ](review-activate-campaign.md) is, worden alle acties gelijktijdig geactiveerd.
 
 ## Volgende stappen {#next}
 
