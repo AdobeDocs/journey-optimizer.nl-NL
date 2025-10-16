@@ -149,7 +149,7 @@ Begrijp de volledige gegevensstructuur van de gebeurtenissen van de wegstap:
 
 **Kwaliteit van Gegevens**
 
-- Regelmatig toezicht voor [ verworpen gebeurtenissen ](sharing-field-list.md#discarded-events) om gegevenskwesties te identificeren
+- Regelmatig toezicht voor [&#x200B; verworpen gebeurtenissen &#x200B;](sharing-field-list.md#discarded-events) om gegevenskwesties te identificeren
 - Valideer dat de gebeurtenisschema&#39;s uw analysevereisten aanpassen
 - Correcte foutafhandeling implementeren in aangepaste query&#39;s
 
@@ -180,7 +180,7 @@ Gebeurtenispatronen voor stap gebruiken voor:
 ### Documentatiekoppelingen {#documentation-links}
 
 - **[stap het delen van de Reis overzicht](sharing-overview.md)**: Begrijpend hoe de gegevens van de reis aan Adobe Experience Platform stromen
-- **[Ingebouwd schemawoordenboek ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)**: Volledige XDM schemaverwijzing
+- **[Ingebouwd schemawoordenboek &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)**: Volledige XDM schemaverwijzing
 - **[Journey Optimizer die](report-gs-cja.md)** meldt: Overzicht van rapporteringsmogelijkheden in Journey Optimizer
 
 ### Integratiehulplijnen {#integration-guides}
