@@ -9,7 +9,7 @@ level: Experienced
 keywords: reis, veld, expressie, gebeurtenis
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 2%
@@ -69,7 +69,7 @@ Voorbeelden:
  
 expression example:
 - @event{OrderEvent.orderId}                                    -> "12345"
-- @event{OrderEvent.producdId, defaultValue : "not specified" } -> "not specified" // default value, productId is not a field present in the payload
+- @event{OrderEvent.productId, defaultValue : "not specified" } -> "not specified" // default value, productId is not a field present in the payload
 - @event{OrderEvent.productId}                                  -> null
  
  
@@ -112,13 +112,13 @@ Voorbeeld:
 
 ### `entry` functie
 
-Om een element in een kaart terug te winnen, gebruiken wij de ingangsfunctie met een bepaalde sleutel. Deze wordt bijvoorbeeld gebruikt wanneer de sleutel van een gebeurtenis wordt gedefinieerd op basis van de geselecteerde naamruimte. Voor meer informatie, zie [&#x200B; deze pagina &#x200B;](../../event/about-creating.md#select-the-namespace).
+Om een element in een kaart terug te winnen, gebruiken wij de ingangsfunctie met een bepaalde sleutel. Deze wordt bijvoorbeeld gebruikt wanneer de sleutel van een gebeurtenis wordt gedefinieerd op basis van de geselecteerde naamruimte. Voor meer informatie, zie [ deze pagina ](../../event/about-creating.md#select-the-namespace).
 
 ```json
 @event{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-In deze expressie krijgen we de vermelding voor de E-mailsleutel van het veld IdentityMap van een gebeurtenis. Het item &#39;Email&#39; is een verzameling, waaruit we de &#39;id&#39; in het eerste element gebruiken met &#39;first()&#39;. Voor meer informatie, zie [&#x200B; deze pagina &#x200B;](../expression/collection-management-functions.md).
+In deze expressie krijgen we de vermelding voor de E-mailsleutel van het veld IdentityMap van een gebeurtenis. Het item &#39;Email&#39; is een verzameling, waaruit we de &#39;id&#39; in het eerste element gebruiken met &#39;first()&#39;. Voor meer informatie, zie [ deze pagina ](../expression/collection-management-functions.md).
 
 ### `firstEntryKey` functie
 

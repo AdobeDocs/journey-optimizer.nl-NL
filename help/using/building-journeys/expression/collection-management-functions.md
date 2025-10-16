@@ -9,7 +9,7 @@ level: Experienced
 keywords: query, collecties, functies, lading, reis
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 1%
@@ -75,7 +75,7 @@ De functie **[!UICONTROL all]** laat de definitie van een filter op een bepaalde
 
 Zo kunt u onder alle gebruikers van de app de toepassingen ophalen met IOS 13 (Booleaanse expressie &quot;app used == IOS 13&quot;). Het resultaat van deze functie is de gefilterde lijst met items die overeenkomen met de booleaanse expressie (bijvoorbeeld: app-gebruiker 1, app-gebruiker 34, app-gebruiker 432).
 
-Bij een Source Condition-activiteit van Data kunt u controleren of het resultaat van de functie **[!UICONTROL all]** null is of niet. U kunt deze **[!UICONTROL all]** functie ook combineren met andere functies, zoals **[!UICONTROL count]** . Voor meer informatie, zie [&#x200B; de activiteit van de Voorwaarde van Source van Gegevens &#x200B;](../condition-activity.md#data_source_condition).
+Bij een Source Condition-activiteit van Data kunt u controleren of het resultaat van de functie **[!UICONTROL all]** null is of niet. U kunt deze **[!UICONTROL all]** functie ook combineren met andere functies, zoals **[!UICONTROL count]** . Voor meer informatie, zie [ de activiteit van de Voorwaarde van Source van Gegevens ](../condition-activity.md#data_source_condition).
 
 
 >[!CAUTION]
@@ -113,7 +113,7 @@ Het resultaat van de uitdrukking is **3**.
 
 >[!NOTE]
 >
->* Wanneer de het filtreren voorwaarde in **allen ()** functie leeg is, zal de filter alle elementen in de lijst terugkeren. **Om het aantal elementen van een verzameling te tellen, is de functie all echter niet vereist.
+>* Wanneer de het filtreren voorwaarde in **allen ()** functie leeg is, zal de filter alle elementen in de lijst terugkeren. **Nochtans, om het aantal elementen van een inzameling te tellen, wordt de alle functie niet vereist.**
 >
 >* `currentEventField` is alleen beschikbaar wanneer u gebeurtenisverzamelingen manipuleert, `currentDataPackField` wanneer u gegevensbronverzamelingen manipuleert en `currentActionField` wanneer u aangepaste actieverzamelingen bewerkt.
 >
@@ -163,7 +163,7 @@ Deze expressie retourneert de tweede token voor pushmeldingen van de lijst.
 
 
 ```json
-@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}`
+@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}
 ```
 
 Het resultaat is `token_2` .
