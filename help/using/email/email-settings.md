@@ -18,7 +18,7 @@ ht-degree: 1%
 
 # E-mailinstellingen configureren {#email-settings}
 
-Als u een e-mailbericht wilt maken, moet u e-mailkanaalconfiguraties instellen die alle technische parameters definiëren die vereist zijn voor uw berichten. [ leer hoe te om configuraties ](../configuration/channel-surfaces.md) tot stand te brengen
+Als u een e-mailbericht wilt maken, moet u e-mailkanaalconfiguraties instellen die alle technische parameters definiëren die vereist zijn voor uw berichten. [&#x200B; leer hoe te om configuraties &#x200B;](../configuration/channel-surfaces.md) tot stand te brengen
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ In de **sectie van het Type E-mail**, selecteer het type van bericht voor de con
 
 * Selecteer **Marketing** voor promotionele e-mail, zoals wekelijkse promoties voor een detailhandel. Voor deze berichten is toestemming van de gebruiker vereist.
 
-* Selecteer **Transactioneel** voor niet-commerciële e-mail, zoals orderbevestiging, wachtwoord terugstellende berichten, of leveringsinformatie bijvoorbeeld. Deze e-mails kunnen naar profielen worden verzonden die **** van marketing mededelingen afsloot. Deze berichten kunnen alleen in specifieke contexten worden verzonden.
+* Selecteer **Transactioneel** voor niet-commerciële e-mail, zoals orderbevestiging, wachtwoord terugstellende berichten, of leveringsinformatie bijvoorbeeld. Deze e-mails kunnen naar profielen worden verzonden die **&#x200B;**&#x200B;van marketing mededelingen afsloot. Deze berichten kunnen alleen in specifieke contexten worden verzonden.
 
 Wanneer u een bericht maakt, moet u een geldige kanaalconfiguratie kiezen die overeenkomt met de categorie die u voor uw e-mail hebt geselecteerd.
 
@@ -69,13 +69,13 @@ Selecteer de IP pool aan vennoot met de configuratie. [Meer informatie](../confi
 
 ![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
 
-U kunt niet met configuratieverwezenlijking te werk gaan terwijl de geselecteerde IP pool onder [ uitgave ](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status) is en nooit met geselecteerde subdomain is geassocieerd. Anders, zal de oudste versie van de IP pool/subdomain vereniging nog worden gebruikt. Als dit het geval is, sparen de configuratie als ontwerp en probeer opnieuw zodra de IP pool de **[!UICONTROL Success]** status heeft.
+U kunt niet met configuratieverwezenlijking te werk gaan terwijl de geselecteerde IP pool onder [&#x200B; uitgave &#x200B;](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status) is en nooit met geselecteerde subdomain is geassocieerd. Anders, zal de oudste versie van de IP pool/subdomain vereniging nog worden gebruikt. Als dit het geval is, sparen de configuratie als ontwerp en probeer opnieuw zodra de IP pool de **[!UICONTROL Success]** status heeft.
 
 >[!NOTE]
 >
->Voor niet-productiemilieu&#39;s, creeert Adobe geen uit-van-de-doos testsubdomeinen noch verleent toegang tot een gedeelde verzendende IP pool. U moet [ uw eigen subdomeinen ](../configuration/delegate-subdomain.md) afvaardigen en IPs van de pool gebruiken die aan uw organisatie wordt toegewezen.
+>Voor niet-productiemilieu&#39;s, creeert Adobe geen uit-van-de-doos testsubdomeinen noch verleent toegang tot een gedeelde verzendende IP pool. U moet [&#x200B; uw eigen subdomeinen &#x200B;](../configuration/delegate-subdomain.md) afvaardigen en IPs van de pool gebruiken die aan uw organisatie wordt toegewezen.
 
-Nadat een IP pool is geselecteerd, is de informatie PTR zichtbaar wanneer het hangen over de IP adressen onder de IP pool drop-down lijst wordt getoond. [ leer meer over PTR verslagen ](../configuration/ptr-records.md)
+Nadat een IP pool is geselecteerd, is de informatie PTR zichtbaar wanneer het hangen over de IP adressen onder de IP pool drop-down lijst wordt getoond. [&#x200B; leer meer over PTR verslagen &#x200B;](../configuration/ptr-records.md)
 
 >[!NOTE]
 >
@@ -115,7 +115,7 @@ Als u een fout bij het voorleggen van de e-mailconfiguratie krijgt, betekent het
 >
 >Deze optie is alleen beschikbaar als u het e-mailtype **[!UICONTROL Transactional]** hebt geselecteerd. [Meer informatie](#email-type)
 
-In [!DNL Journey Optimizer], worden alle e-mailadressen die als harde grenzen, zachte grenzen, en spamklachten duidelijk zijn automatisch verzameld in de [ suppressielijst ](../configuration/manage-suppression-list.md) en uitgesloten van het verzenden in een reis of een campagne.
+In [!DNL Journey Optimizer], worden alle e-mailadressen die als harde grenzen, zachte grenzen, en spamklachten duidelijk zijn automatisch verzameld in de [&#x200B; suppressielijst &#x200B;](../configuration/manage-suppression-list.md) en uitgesloten van het verzenden in een reis of een campagne.
 
 Nochtans, kunt u besluiten om op het verzenden van berichten van het **transactie** type naar profielen te gaan zelfs als hun e-mailadressen op de suppressielijst toe te schrijven aan spamklacht door de gebruiker zijn.
 
@@ -147,7 +147,7 @@ Met een zaadlijst in [!DNL Journey Optimizer] kunt u automatisch specifieke e-ma
 >
 >Deze functie is momenteel alleen van toepassing op het e-mailkanaal.
 
-Selecteer in de sectie **[!UICONTROL Seed list]** de lijst die voor u van belang is. Leer hoe te om een zaadlijst in [ tot stand te brengen deze sectie ](../configuration/seed-lists.md#create-seed-list).
+Selecteer in de sectie **[!UICONTROL Seed list]** de lijst die voor u van belang is. Leer hoe te om een zaadlijst in [&#x200B; tot stand te brengen deze sectie &#x200B;](../configuration/seed-lists.md#create-seed-list).
 
 ![](../configuration/assets/seed-list-surface.png){width="80%"}
 
@@ -157,7 +157,7 @@ Selecteer in de sectie **[!UICONTROL Seed list]** de lijst die voor u van belang
 
 Wanneer de huidige configuratie in een campagne of reis wordt gebruikt, zijn de e-mailadressen op de geselecteerde zaadlijst inbegrepen in de tijd van de leveringsuitvoering, die zij een exemplaar van de levering voor verzekeringsdoeleinden zullen ontvangen.
 
-Leer hoe te om zaadlijst in een campagne of een reis in [ te gebruiken deze sectie ](../configuration/seed-lists.md#use-seed-list).
+Leer hoe te om zaadlijst in een campagne of een reis in [&#x200B; te gebruiken deze sectie &#x200B;](../configuration/seed-lists.md#use-seed-list).
 
 ## Parameters opnieuw proberen {#email-retry}
 
@@ -171,7 +171,7 @@ U kunt **e-mail vormen opnieuw probeert parameters**.
 
 ![](assets/preset-retry-parameters.png)
 
-Door gebrek, wordt de [ periode van de opnieuw probeert tijd ](../configuration/retries.md#retry-duration) geplaatst aan 84 uren, maar u kunt dit het plaatsen aanpassen om uw behoeften beter aan te passen.
+Door gebrek, wordt de [&#x200B; periode van de opnieuw probeert tijd &#x200B;](../configuration/retries.md#retry-duration) geplaatst aan 84 uren, maar u kunt dit het plaatsen aanpassen om uw behoeften beter aan te passen.
 
 U moet een geheel-getalwaarde (in uren of notulen) binnen de volgende waaier ingaan:
 
@@ -179,7 +179,7 @@ U moet een geheel-getalwaarde (in uren of notulen) binnen de volgende waaier ing
 * Voor transactie-e-mailberichten is de minimale herroepingstermijn 10 minuten.
 * Voor beide e-mailtypen is de maximale hergebruiksperiode 84 uur (of 5040 minuten).
 
-Leer meer over pogingen in [ deze sectie ](../configuration/retries.md).
+Leer meer over pogingen in [&#x200B; deze sectie &#x200B;](../configuration/retries.md).
 
 ## URL-tracking {#url-tracking}
 
