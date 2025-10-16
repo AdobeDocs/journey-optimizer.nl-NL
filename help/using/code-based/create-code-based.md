@@ -145,4 +145,4 @@ Zodra uw ontwikkelaar een API- of SDK-aanroep maakt om inhoud op te halen voor h
 
 In de onderstaande video ziet u hoe u een op code gebaseerde ervaringscampagne kunt maken, de eigenschappen ervan kunt configureren, testen en publiceren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3449459/?captions=dut&quality=12&learn=on)
