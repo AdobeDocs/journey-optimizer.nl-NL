@@ -119,5 +119,5 @@ Leer meer over deze gebeurtenissen en hoe te om hen in [&#x200B; problemen op te
 
 * [&#x200B; de vraagsteekproeven van de Dataset - de Gebeurtenis van de Stap van de Reis &#x200B;](../data/datasets-query-examples.md#journey-step-event).
 * [&#x200B; Voorbeelden van vragen - op gebeurtenis-gebaseerde Vragen &#x200B;](query-examples.md#event-based-queries).
-* [&#x200B; Ingebouwd schemawoordenboek &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
+* [&#x200B; Ingebouwd schemawoordenboek &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
 
