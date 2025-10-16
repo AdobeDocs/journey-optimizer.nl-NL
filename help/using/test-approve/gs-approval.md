@@ -4,13 +4,13 @@ description: Leer hoe u een goedkeuringsproces instelt voor uw reizen en campagn
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 0%
 
 ---
-
 
 # Aan de slag met reizen en campagnes goedkeuren {#send-proofs}
 
@@ -22,7 +22,7 @@ Het goedkeuringsbeleid introduceert een gestructureerde werkstroom direct binnen
 
 Bovendien biedt deze functie een betere controle op de publicatie van uw reizen en campagnes: met het goedkeuringsproces dat in Journey Optimizer is ingebed, blijven campagnes en reizen tijdens de herziening vergrendeld, zodat er geen wijzigingen of onbedoelde activeringen plaatsvinden voordat alle noodzakelijke goedkeuringen zijn ingesteld.
 
-## Prerequites {#prerequisites}
+## Vereisten {#prerequisites}
 
 Voordat u begint, moet u controleren of de onderstaande machtigingen zijn geconfigureerd.
 
@@ -38,7 +38,7 @@ Om toegang te hebben keur en publiceer reizen en campagnes goed, moeten de gebru
 
    ![](assets/permissions_approval.png){zoomable="yes"}
 
-1. Voeg het **1&rbrace; middel van de Reizen &lbrace;toe, dan uitgezocht** goedkeuren en publiceer Reizen **van het drop-down menu.**
+1. Voeg het **1} middel van de Reizen {toe, dan uitgezocht** goedkeuren en publiceer Reizen **van het drop-down menu.**
 
    ![](assets/permissions_approval_2.png){zoomable="yes"}
 
@@ -50,7 +50,7 @@ Voor alle gebruikers die al zijn toegewezen aan deze rol, worden hun machtiginge
 
 1. Ga de naam van de gebruiker, e-mailadres in, of kies van de lijst, dan klik **sparen**.
 
-1. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/users).
+1. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users).
 
 De gebruiker ontvangt een e-mail met instructies om toegang te krijgen tot uw exemplaar.
 
@@ -64,11 +64,11 @@ Het algemene goedkeuringsproces is als volgt:
 
 1. **opstelling van het beleid van de Goedkeuring**
 
-   Beheerders voeren een goedkeuringsbeleid waarin de voorwaarden worden gedefinieerd waaronder het beleid op reizen of campagnes van toepassing is. U kunt bijvoorbeeld een goedkeuringsbeleid maken dat vereist dat alle geplande campagnes die door een bepaalde gebruiker zijn gemaakt, worden goedgekeurd voordat ze worden geactiveerd. [&#x200B; leer hoe te om goedkeuringsbeleid &#x200B;](approval-policies.md) tot stand te brengen
+   Beheerders voeren een goedkeuringsbeleid waarin de voorwaarden worden gedefinieerd waaronder het beleid op reizen of campagnes van toepassing is. U kunt bijvoorbeeld een goedkeuringsbeleid maken dat vereist dat alle geplande campagnes die door een bepaalde gebruiker zijn gemaakt, worden goedgekeurd voordat ze worden geactiveerd. [ leer hoe te om goedkeuringsbeleid ](approval-policies.md) tot stand te brengen
 
 1. **Campagne/reis voorlegging voor goedkeuring**
 
-   De makers van de campagne/reis bouwen een reis of campagne en leggen deze ter goedkeuring voor. De campagne/reis gaat een &quot;in Herziening&quot;staat in, waarin geen veranderingen kunnen worden aangebracht tenzij het verzoek wordt geannuleerd. [&#x200B; Leer hoe te om goedkeuring &#x200B;](request-approval.md) te verzoeken
+   De makers van de campagne/reis bouwen een reis of campagne en leggen deze ter goedkeuring voor. De campagne/reis gaat een &quot;in Herziening&quot;staat in, waarin geen veranderingen kunnen worden aangebracht tenzij het verzoek wordt geannuleerd. [ Leer hoe te om goedkeuring ](request-approval.md) te verzoeken
 
    >[!NOTE]
    >
@@ -76,7 +76,7 @@ Het algemene goedkeuringsproces is als volgt:
 
 1. **Overzicht en goedkeuring**
 
-   De fiatteur(s) die is (zijn) gedefinieerd in het goedkeuringsbeleid dat van toepassing is op de reis of campagne, ontvangt (ontvangen) een kennisgeving. Ze kunnen de inhoud, het publiek en de instellingen van de reis of campagne bekijken. Als er wijzigingen nodig zijn, vraagt de fiatteur om deze en retourneert hij de campagne naar &quot;Concept&quot; voor revisies. Als ze klaar zijn, kunnen ze de reis of campagne activeren en starten. [&#x200B; leer hoe te om een verzoek &#x200B;](review-approve-request.md) te herzien en goed te keuren
+   De fiatteur(s) die is (zijn) gedefinieerd in het goedkeuringsbeleid dat van toepassing is op de reis of campagne, ontvangt (ontvangen) een kennisgeving. Ze kunnen de inhoud, het publiek en de instellingen van de reis of campagne bekijken. Als er wijzigingen nodig zijn, vraagt de fiatteur om deze en retourneert hij de campagne naar &quot;Concept&quot; voor revisies. Als ze klaar zijn, kunnen ze de reis of campagne activeren en starten. [ leer hoe te om een verzoek ](review-approve-request.md) te herzien en goed te keuren
 
 ## Goedkeuringsaanvragen controleren {#monitor}
 

@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: schema's, XDM, platform, streaming, opname, reis
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: d79e42cd42fa8342526e02116f65a8e53449fad5
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Daarom is een belangrijke voorwaarde voor het instellen van gebeurtenissen voor 
 
 >[!CAUTION]
 >
->Opzoekingen naar ervaringsgebeurtenissen in reisomstandigheden worden niet meer ondersteund. Zoek hier naar alternatieve best practices. Neem contact op met uw Adobe-vertegenwoordiger als u een kwestie hebt die aanleiding geeft tot het gebruik van een gebeurtenis en die nog steeds zoekopdrachten voor Experience Events nodig heeft en die niet door de vermelde alternatieven kan worden ondersteund. Wij helpen u bij het bereiken van uw doel.
+>Opzoekingen naar ervaringsgebeurtenissen in reisomstandigheden worden niet meer ondersteund. Zoek hier naar alternatieve best practices. Neem contact op met uw Adobe-vertegenwoordiger als u een kwestie hebt die aanleiding geeft tot het gebruik van een reis en die nog steeds zoekopdrachten voor Experience Events nodig heeft en die niet door de vermelde alternatieven kan worden ondersteund. Wij helpen u bij het bereiken van uw doel.
 >
 >De toegang tot de context vanaf het begin van een reis wordt niet beïnvloed.
 
@@ -80,7 +80,7 @@ Here is the purchase schema with the relationship defined on the product ID fiel
 
 >[!NOTE]
 >
->Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=nl-NL).
+>Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
 
 In Journey Optimizer, you can then leverage all the fields from the linked tables:
 

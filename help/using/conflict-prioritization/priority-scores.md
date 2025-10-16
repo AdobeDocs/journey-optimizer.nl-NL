@@ -4,7 +4,7 @@ description: Leer hoe u prioriteitsscores kunt toewijzen aan reizen en campagnes
 role: User
 level: Beginner
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
-source-git-commit: be1538495ea7427fd8c4b8ea781db74bf557c22f
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 1%
@@ -56,7 +56,7 @@ Als u deze campagne zou ontwerpen en ervoor wilde zorgen dat deze inhoud van de 
 >title="Prioriteit"
 >abstract="Wijs een prioritaire score aan de reisactie toe. Prioriteit is essentieel om een binnenkomende actie voorrang te geven wanneer er veelvoudige reisacties of campagnes gebruikend de zelfde kanaalconfiguratie zijn.</br> ga een numerieke waarde (van 0-100) in. Let op: hoe hoger het getal, hoe hoger de prioriteit. Standaard wordt de prioriteitsscore voor de actie overgenomen van de algemene prioriteitsscore voor de reis."
 
-Journey Optimizer staat u ook toe om een prioritaire score aan binnenkomende kanaalacties binnen de [&#x200B; Actie &#x200B;](../building-journeys/journey-action.md) activiteit toe te wijzen.
+Journey Optimizer staat u ook toe om een prioritaire score aan binnenkomende kanaalacties binnen de [ Actie ](../building-journeys/journey-action.md) activiteit toe te wijzen.
 
 Dit staat u toe om aan een binnenkomende actie voorrang te geven wanneer er veelvoudige reisacties of campagnes gebruikend de zelfde kanaalconfiguratie zijn.
 
@@ -72,4 +72,4 @@ Als u een prioriteitsscore wilt toewijzen aan de binnenkomende acties die zijn g
 
 ## Hoe kan ik-video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445007?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: extern, bronnen, gegevens, configuratie, verbinding, derde
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 4d979ccc421221993a752dd41bc22ea3d83e7555
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '1604'
-ht-degree: 44%
+ht-degree: 42%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_custom"
 >title="Externe databronnen"
->abstract="Met externe gegevensbronnen kunt u een verbinding met systemen van derden definiëren, bijvoorbeeld als u een boekingssysteem voor hotels gebruikt om te controleren of de persoon een kamer heeft geregistreerd. In tegenstelling tot de ingebouwde databron van het Adobe Experience Platform kunt u zoveel externe databronnen maken als u wilt."
+>abstract="Met externe gegevensbronnen kunt u een verbinding met systemen van derden definiëren, bijvoorbeeld als u een boekingssysteem voor hotels gebruikt om te controleren of de persoon een kamer heeft geregistreerd. In tegenstelling tot de ingebouwde Adobe Experience Platform-gegevensbron kunt u zoveel externe gegevensbronnen maken als u nodig hebt."
 
 ## Werken met externe gegevensbronnen {#gs-ext-data-sources}
 
-Met externe gegevensbronnen kunt u een verbinding met systemen van derden definiëren, bijvoorbeeld als u een boekingssysteem voor hotels gebruikt om te controleren of de persoon een kamer heeft geregistreerd. In tegenstelling tot de ingebouwde databron van het Adobe Experience Platform kunt u zoveel externe databronnen maken als u wilt.
+Met externe gegevensbronnen kunt u een verbinding met systemen van derden definiëren, bijvoorbeeld als u een boekingssysteem voor hotels gebruikt om te controleren of de persoon een kamer heeft geregistreerd. In tegenstelling tot de ingebouwde Adobe Experience Platform-gegevensbron kunt u zoveel externe gegevensbronnen maken als u nodig hebt.
 
 >[!NOTE]
 >
->* De begeleiding wanneer het werken met externe systemen is vermeld op [&#x200B; deze pagina &#x200B;](../configuration/external-systems.md).
+>* De begeleiding wanneer het werken met externe systemen is vermeld op [ deze pagina ](../configuration/external-systems.md).
 >
->* Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Voor meer informatie over reacties, zie deze [&#x200B; sectie &#x200B;](../action/action-response.md)
+>* Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Voor meer informatie over reacties, zie deze [ sectie ](../action/action-response.md)
 
 REST-API’s die gebruikmaken van POST of GET en JSON retourneren, worden ondersteund. API-sleutel, standaard en aangepaste verificatiemodi worden ondersteund.
 
@@ -46,7 +46,7 @@ De aanroep bestaat uit een hoofd-URL (_https://api.adobeweather.org/weather_), t
 
 >[!TIP]
 >
->We raden u aan om minstens een buffer van één minuut te laten staan tussen de periode van de symbolische vervaldatum van de externe API en de Journey Optimizer-instelling [`cacheDuration` &#x200B;](#custom-authentication-access-token) , met name bij zware werklasten, om te voorkomen dat de vervaldatumproblemen en 401 fouten niet worden opgelost.
+>We raden u aan om minstens een buffer van één minuut te laten staan tussen de periode van de symbolische vervaldatum van de externe API en de Journey Optimizer-instelling [`cacheDuration` ](#custom-authentication-access-token) , met name bij zware werklasten, om te voorkomen dat de vervaldatumproblemen en 401 fouten niet worden opgelost.
 
 ## Een externe gegevensbron maken en configureren {#create-ext-data-sources}
 
@@ -84,7 +84,7 @@ Alleen alfanumerieke tekens en onderstrepingstekens zijn toegestaan. De maximuml
    >* Adobe Journey Optimizer versleutelt automatisch geheimen die zijn gedefinieerd in aangepaste handelingen. De encryptiesleutels van elke organisatie worden veilig beheerd in een specifieke vault die aan hun organisatie wordt gebonden. Wanneer de geloofsbrieven in de interface worden getoond, worden zij gemaskeerd door gebrek om toevallige blootstelling te verhinderen.
 
 
-   Voor meer informatie over de wijze van de douaneauthentificatie, zie [&#x200B; deze sectie &#x200B;](../datasource/external-data-sources.md#custom-authentication-mode). In ons voorbeeld kiezen we de API-sleutelverificatiemodus, zoals hieronder:
+   Voor meer informatie over de wijze van de douaneauthentificatie, zie [ deze sectie ](../datasource/external-data-sources.md#custom-authentication-mode). In ons voorbeeld kiezen we de API-sleutelverificatiemodus, zoals hieronder:
 
    * **[!UICONTROL Type]**: ‘API-sleutel’
    * **[!UICONTROL Name]**: ‘appid’ (dit is de parameternaam van de API-sleutel)

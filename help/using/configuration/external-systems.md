@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: extern, API, optimaliseren, aftopping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: e7908a328a14b307f0ea6914d2d06c5325ceb211
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '1615'
-ht-degree: 20%
+ht-degree: 18%
 
 ---
 
@@ -33,7 +33,7 @@ Wanneer Journey Optimizer een aanroep naar een externe API uitvoert, worden de t
 
 >[!TIP]
 >
->We raden u aan om minstens een buffer van één minuut te laten staan tussen de periode van de symbolische vervaldatum van de externe API en de Journey Optimizer-instelling [`cacheDuration` &#x200B;](../datasource/external-data-sources.md#custom-authentication-access-token) , met name bij zware werklasten, om te voorkomen dat de vervaldatumproblemen en 401 fouten niet worden opgelost.
+>We raden u aan om minstens een buffer van één minuut te laten staan tussen de periode van de symbolische vervaldatum van de externe API en de Journey Optimizer-instelling [`cacheDuration` ](../datasource/external-data-sources.md#custom-authentication-access-token) , met name bij zware werklasten, om te voorkomen dat de vervaldatumproblemen en 401 fouten niet worden opgelost.
 
 ## API&#39;s uitlijnen en vertragen {#capping}
 
@@ -60,7 +60,7 @@ Raadpleeg de volgende secties voor meer informatie over het werken met de API&#3
 * [Afkappings-API](capping.md)
 * [API voor beperken](throttling.md)
 
-Een gedetailleerde beschrijving van APIs is beschikbaar in [&#x200B; documentatie van Adobe Journey Optimizer APIs &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)
+Een gedetailleerde beschrijving van APIs is beschikbaar in [ documentatie van Adobe Journey Optimizer APIs ](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)
 
 ### Capaciteit gegevensbronnen en aangepaste acties {#capacity}
 
@@ -70,11 +70,11 @@ Voor **externe gegevensbronnen** is het maximum aantal oproepen per seconde bepe
 >
 >Als een databron een aangepaste authenticatie gebruikt met een ander eindpunt dan het eindpunt dat voor de databron wordt gebruikt, moet u contact opnemen met Adobe om ook dat eindpunt in de lijst van gewenste personen op te nemen.
 
-Voor **aangepaste acties** moet u de capaciteit van uw externe API evalueren. Als Journey Optimizer bijvoorbeeld 1000 oproepen per seconde verstuurt en uw systeem slechts 200 oproepen per seconde kan ondersteunen, moet u een afkappings- of beperkingsconfiguratie definiëren zodat uw systeem niet verzadigd raakt. [Ontdek hoe u acties kunt configureren](../action/action.md)
+Voor **aangepaste acties** moet u de capaciteit van uw externe API evalueren. Bijvoorbeeld, als Journey Optimizer 1000 vraag per seconde verzendt en uw systeem slechts 200 vraag per seconde kan steunen, moet u een het maximum bepalen of het vertragen configuratie zodat uw systeem niet verzadigt. [Ontdek hoe u acties kunt configureren](../action/action.md)
 
 >[!NOTE]
 >
->Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Voor meer informatie over reacties, zie deze [&#x200B; sectie &#x200B;](../action/action-response.md)
+>Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Voor meer informatie over reacties, zie deze [ sectie ](../action/action-response.md)
 
 ## Eindpunten met een langzame responstijd {#response-time}
 
@@ -110,7 +110,7 @@ Laten we een voorbeeld nemen voor een time-out van 5 seconden.
 
 **Hoe kan ik een het in kaart brengen of throttling regel vormen? Is er een standaardregel?**
 
-Om het in kaart brengen of het vertragen regels tot stand te brengen, gelieve te verwijzen naar [&#x200B; deze sectie &#x200B;](../configuration/external-systems.md#capping). Door gebrek, is er geen throttling regel maar een maximum van 300.000 vraag over één minuut die voor alle douaneacties, per gastheer en per zandbak wordt bepaald. Deze grens is geplaatst gebaseerd op klantengebruik, om externe eindpunten te beschermen die door douaneacties worden gericht. Indien nodig, kunt u deze het plaatsen met voeten treden door een grotere het maximum van het maximum of het vertragen grens door onze Capping/het Draaien APIs te bepalen.
+Om het in kaart brengen of het vertragen regels tot stand te brengen, gelieve te verwijzen naar [ deze sectie ](../configuration/external-systems.md#capping). Door gebrek, is er geen throttling regel maar een maximum van 300.000 vraag over één minuut die voor alle douaneacties, per gastheer en per zandbak wordt bepaald. Deze grens is geplaatst gebaseerd op klantengebruik, om externe eindpunten te beschermen die door douaneacties worden gericht. Indien nodig, kunt u deze het plaatsen met voeten treden door een grotere het maximum van het maximum of het vertragen grens door onze Capping/het Draaien APIs te bepalen.
 
 **hoeveel pogingen worden uitgevoerd? Kan ik het aantal pogingen veranderen of een minimumwachttijdperiode tussen pogingen bepalen?**
 
@@ -118,7 +118,7 @@ Voor een bepaalde vraag, kan een maximum van drie pogingen na de eerste vraag wo
 
 **waar kan ik onderbreking vormen? Is er een maximumwaarde?**
 
-In elke reis, kunt u een onderbrekingsduur bepalen. De duur van de onderbreking wordt gevormd in de eigenschappen van een reis. De duur van de onderbreking moet tussen 1 seconde en 30 seconden zijn. Verwijs naar [&#x200B; deze sectie &#x200B;](../configuration/external-systems.md#timeout) en [&#x200B; deze pagina &#x200B;](../building-journeys/journey-properties.md#timeout_and_error).
+In elke reis, kunt u een onderbrekingsduur bepalen. De duur van de onderbreking wordt gevormd in de eigenschappen van een reis. De duur van de onderbreking moet tussen 1 seconde en 30 seconden zijn. Verwijs naar [ deze sectie ](../configuration/external-systems.md#timeout) en [ deze pagina ](../building-journeys/journey-properties.md#timeout_and_error).
 
 **wat is het maximum aantal verbindingen die door Journey Optimizer worden geopend wanneer de douaneacties worden gebruikt?**
 

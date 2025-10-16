@@ -4,7 +4,7 @@ description: Leer hoe u mogelijke conflicten tijdens reizen en campagnes kunt id
 role: User
 level: Beginner
 exl-id: efbb5ac4-4c07-4c62-9460-39eb4fed129a
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Mogelijke conflicten tijdens reizen en campagnes detecteren {#conflict}
 
-Naarmate de markt het aantal campagnes en reizen in Journey Optimizer verhoogt, wordt het steeds moeilijker voor een marketeer om te weten of zij hun klanten met te veel marketinginteracties bombarderen. daarom is het van essentieel belang dat bij overlappende campagnes en reizen gemakkelijk kan worden vastgesteld dat zij het juiste evenwicht van de marketingcommunicatie bereiken en tegelijkertijd het risico van vermoeidheid van de klant verminderen .
+Naarmate de markt het aantal campagnes en reizen in Journey Optimizer verhoogt, wordt het steeds moeilijker voor een marketeer om te weten of zij hun klanten met te veel marketinginteracties bombarderen. Daarom is het van essentieel belang dat er gemakkelijk kan worden vastgesteld wanneer er overlappende campagnes en reizen zijn, om ervoor te zorgen dat deze de juiste balans vinden tussen marketingcommunicatie en het risico van vermoeidheid van de klant.
 
 De belangrijkste gebieden om voor potentiële overlapping te controleren zijn:
 
@@ -67,7 +67,7 @@ Wanneer u een reis of campagne maakt, kunt u met Journey Optimizer controleren o
    >
    >Nieuwe gepubliceerde reizen en campagnes kunnen tot 3-7 minuten duren om in de conflictviewer te verschijnen, als gevolg van het in cache plaatsen.
 
-Als u uw zoekopdracht naar mogelijke overlappingen verder wilt verfijnen, kunt u uw lijst met campagnes en reizen filteren op basis van de velden die u relevant vindt. Selecteer hiertoe het filterpictogram in de overzichtsweergave. [&#x200B; leer hoe te met filters &#x200B;](../start/search-filter-categorize.md#filter-lists) werken
+Als u uw zoekopdracht naar mogelijke overlappingen verder wilt verfijnen, kunt u uw lijst met campagnes en reizen filteren op basis van de velden die u relevant vindt. Selecteer hiertoe het filterpictogram in de overzichtsweergave. [ leer hoe te met filters ](../start/search-filter-categorize.md#filter-lists) werken
 
 ## Conflicten oplossen {#resolve}
 

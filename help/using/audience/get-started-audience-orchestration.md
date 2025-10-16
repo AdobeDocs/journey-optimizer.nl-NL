@@ -1,14 +1,14 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Aan de slag met doelgroepsamenstelling
+title: Aan de slag met publiekscompositie
 description: Meer informatie over publiekscompositie
 feature: Audiences, Profiles
 topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 060d65e8d3fb1442b04626170a35d463d1faa514
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 0%
@@ -40,12 +40,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude_type"
 >title="Type uitsluiten"
->abstract="Gebruik het type Doelgroep uitsluiten om profielen uit te sluiten die tot een bestaande doelgroep behoren. Met het kenmerktype Uitsluiten met kunt u profielen uitsluiten op basis van een specifiek kenmerk."
+>abstract="Met het publiekstype Niet opnemen kunt u profielen uitsluiten die tot een bestaand publiek behoren. Met de optie Uitsluiten met behulp van het kenmerktype kunt u profielen uitsluiten op basis van een specifiek kenmerk."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude"
->title="Activiteit uitsluiten"
->abstract="Met de activiteit Uitsluiten kunt u profielen uitsluiten van uw compositie door een bestaande doelgroep te selecteren of een regel te gebruiken."
+>title="Exclusief activiteit"
+>abstract="Met de activiteit Uitsluiten kunt u profielen uitsluiten van uw compositie door een bestaand publiek te selecteren of een regel te gebruiken."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
@@ -59,12 +59,12 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_criteria"
->title="Criteria voor verrijking"
->abstract="Selecteer de velden die u wilt gebruiken als afstemmingssleutel tussen de brongegevensset, d.w.z. de doelgroep, en de verrijkingsgegevensset."
+>title="Verrijkingscriteria"
+>abstract="Selecteer de velden die u wilt gebruiken als combinatietoets tussen de brondataset, d.w.z. het publiek, en de verrijkingsdataset."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
->title="Verrijking attributen"
+>title="Verrijkingskenmerken"
 >abstract="Selecteer een of meerdere kenmerken in de verrijkingsgegevensset die u aan het publiek wilt koppelen. Zodra de samenstelling wordt gepubliceerd, worden deze attributen geassocieerd aan het publiek en kunnen in campagnes van Journey Optimizer worden gebruikt om leveringen te personaliseren."
 
 >[!CONTEXTUALHELP]
@@ -89,36 +89,36 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_type"
->title="Gesplitst type"
+>title="Tekst splitsen"
 >abstract="Met het gesplitste percentage kunt u profielen op willekeurige wijze splitsen in meerdere paden. Met het splitsingstype Kenmerk kunt u profielen splitsen op basis van een specifiek kenmerk."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_otherprofiles_text"
 >title="Andere profielen"
->abstract="Schakel deze optie in om een extra pad te maken met de resterende profielen die niet overeenkomen met een van de voorwaarden die in de andere paden zijn opgegeven."
+>abstract="Schakel deze optie in of uit om een extra pad te maken met de resterende profielen die niet overeenkomen met een van de voorwaarden die in de andere paden zijn opgegeven."
 
 >[!BEGINSHADEBOX]
 
-Deze documentatie bevat gedetailleerde informatie over het werken met de compositie van het publiek in Adobe Journey Optimizer. Als u een slechts klant in real time van het Profiel van de Klant bent en Adobe Journey Optimizer niet gebruikt, [&#x200B; klik hier &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=nl-NL){target="_blank"}.
+Deze documentatie verstrekt gedetailleerde informatie over hoe te met publiekssamenstelling binnen Adobe Journey Optimizer te werken. Als u een slechts klant in real time van het Profiel van de Klant bent en Adobe Journey Optimizer niet gebruikt, [ klik hier ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
 De samenstelling van het publiek staat u toe om **samenstellingswerkschema&#39;s** tot stand te brengen, waar u het bestaande publiek van Adobe Experience Platform in een visueel canvas kunt combineren en hefboomwerking diverse activiteiten (verdeeld, uitsluiten...) om nieuw publiek tot stand te brengen.
 
-Zodra gedaan, wordt het **resulterende publiek** bewaard in Adobe Experience Platform samen met bestaand publiek en kan hefboomwerking in de campagnes en de reizen van Journey Optimizer aan doelklanten worden. Leer hoe u doelgroepen kunt maken in Journey Optimizer
+Zodra gedaan, wordt het **resulterende publiek** bewaard terug in Adobe Experience Platform samen met bestaand publiek en kan hefboomwerking in de campagnes en de reizen van Journey Optimizer aan doelklanten zijn. Leer hoe u doelgroepen kunt maken in Journey Optimizer
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->* Het gebruik van doelgroepen en kenmerken van doelgroepsamenstelling is momenteel niet beschikbaar voor gebruik met Healthcare Shield of Privacy and Security Shield.
+>* Het gebruik van soorten publiek en kenmerken van de samenstelling van het publiek is momenteel niet beschikbaar voor gebruik met het gezondheidsschild of het privacyschild.
 >
->* Verrijkingskenmerken zijn nog niet geïntegreerd met de service voor het afdwingen van beleid. Daarom worden alle labels voor gegevensgebruik die u toepast op uw verrijkingskenmerken, niet afgedwongen in Journey Optimizer-campagnes of -reizen.
+>* De attributen van de verrijking zijn nog niet geïntegreerd met de dienst van de beleidshandhaving. Daarom worden labels voor gegevensgebruik die u toepast op uw verrijkingskenmerken, niet afgedwongen in Journey Optimizer-campagnes of -reizen.
 
-De samenstelling van de doelgroep is toegankelijk via het menu van Adobe Journey Optimizer **[!UICONTROL Audiences]** :
+De compositie van het publiek is toegankelijk via het menu Adobe Journey Optimizer **[!UICONTROL Audiences]** :
 
 ![](assets/audiences-browse.png)
 
-* Het tabblad **[!UICONTROL Overview]** bevat een speciaal dashboard met belangrijke meetgegevens die betrekking hebben op de publieksgegevens van uw organisatie. Meer leren, verwijs naar [&#x200B; de gids van de Dashboards van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=nl-NL).
+* Het tabblad **[!UICONTROL Overview]** bevat een speciaal dashboard met belangrijke meetgegevens die betrekking hebben op de publieksgegevens van uw organisatie. Meer leren, verwijs naar [ de gids van de Dashboards van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html).
 
 * Op het tabblad **[!UICONTROL Browse]** worden alle bestaande soorten publiek weergegeven die in Adobe Experience Platform zijn opgeslagen.
 
@@ -134,11 +134,11 @@ Ga als volgt te werk om een compositieworkflow te maken:
 
    ![](assets/audiences-create.png)
 
-1. Het compositiecanvas wordt weergegeven met twee standaardactiviteiten:
+1. Het compositicanvas wordt weergegeven met twee standaardactiviteiten:
 
-   * **[!UICONTROL Audience]**: het startpunt van je compositie. Met deze activiteit kunt u een of meerdere doelgroepen selecteren als basis voor uw workflow,
+   * **[!UICONTROL Audience]**: het beginpunt van de compositie. Met deze activiteit kunt u een of meer soorten publiek selecteren als basis voor uw workflow.
 
-   * **[!UICONTROL Save]**: de laatste stap van je compositie. Met deze activiteit kunt u het resultaat van uw workflow opslaan in een nieuw publiek.
+   * **[!UICONTROL Save]**: de laatste stap van uw compositie. Met deze activiteit kunt u het resultaat van uw workflow opslaan in een nieuw publiek.
 
 1. Open de compositieeigenschappen om een titel en een beschrijving op te geven.
 
@@ -146,11 +146,11 @@ Ga als volgt te werk om een compositieworkflow te maken:
 
    ![](assets/audiences-properties.png)
 
-1. Configureer uw compositie door zoveel activiteiten toe te voegen als nodig zijn tussen de **[!UICONTROL Audience]** - en **[!UICONTROL Save]** -activiteiten. Voor meer informatie over hoe te om een samenstelling tot stand te brengen, verwijs naar de [&#x200B; de compositiedocumentatie van het publiek &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/audience-composition).
+1. Configureer uw compositie door zoveel activiteiten toe te voegen als nodig zijn tussen de **[!UICONTROL Audience]** - en **[!UICONTROL Save]** -activiteiten. Voor meer informatie over hoe te om een samenstelling tot stand te brengen, verwijs naar de [ de compositiedocumentatie van het publiek ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition).
 
    ![](assets/audiences-publish.png)
 
-1. Zodra uw compositie klaar is, klikt u op de **[!UICONTROL Publish]** knop om de compositie te publiceren en de resulterende doelgroepen op te slaan in Adobe Experience Platform.
+1. Als uw compositie gereed is, klikt u op de knop **[!UICONTROL Publish]** om de compositie te publiceren en het resulterende publiek op te slaan in Adobe Experience Platform.
 
    >[!IMPORTANT]
    >
@@ -160,7 +160,7 @@ Ga als volgt te werk om een compositieworkflow te maken:
 
    ![](assets/audiences-alerts.png)
 
-1. De compositie wordt gepubliceerd. Het resulterende publiek wordt opgeslagen in Adobe Experience Platform en is klaar om op Journey Optimizer te worden gericht. [&#x200B; leer hoe te om publiek in Journey Optimizer te richten &#x200B;](../audience/about-audiences.md#segments-in-journey-optimizer)
+1. De compositie wordt gepubliceerd. Het resulterende publiek wordt opgeslagen in Adobe Experience Platform en is klaar om op Journey Optimizer te worden gericht. [ leer hoe te om publiek in Journey Optimizer te richten ](../audience/about-audiences.md#segments-in-journey-optimizer)
 
 >[!NOTE]
 >
@@ -173,10 +173,10 @@ Alle gemaakte composities zijn toegankelijk via het tabblad **[!UICONTROL Compos
 Composities kunnen meerdere statussen hebben:
 
 * **[!UICONTROL Draft]** : de compositie is in uitvoering en is niet gepubliceerd.
-* **[!UICONTROL Published]**: de compositie is gepubliceerd, het resulterende publiek is opgeslagen en beschikbaar voor gebruik.
+* **[!UICONTROL Published]** : de compositie is gepubliceerd, het resulterende publiek is opgeslagen en is beschikbaar voor gebruik.
 
 ![](assets/audiences-compositions.png)
 
 >[!NOTE]
 >
->De compositie van het publiek is momenteel niet geïntegreerd met de functie voor het opnieuw instellen van de sandbox. Voordat u een sandbox-reset start, moet u de composities handmatig verwijderen om ervoor te zorgen dat de bijbehorende publieksgegevens op de juiste wijze worden opgeschoond. Gedetailleerde informatie is beschikbaar in de Adobe Experience Platform [Sandbox-documentatie](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=nl-NL#delete-audience-compositions)
+>De compositie van het publiek is momenteel niet geïntegreerd met de functie voor het opnieuw instellen van de sandbox. Voordat u een sandbox-reset start, moet u de composities handmatig verwijderen om ervoor te zorgen dat de bijbehorende publieksgegevens op de juiste wijze worden opgeschoond. De gedetailleerde informatie is beschikbaar in de documentatie van de zandbak van Adobe Experience Platform [ ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions)

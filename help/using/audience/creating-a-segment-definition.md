@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: d87f33c80cc85b1d1a87150687f6d7c9a268a016
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '993'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,13 @@ ht-degree: 0%
 
 In dit voorbeeld, bouwt u een publiek om alle klanten te richten die in Atlanta, San Francisco, of Seattle wonen en na 1980 worden geboren. Al deze klanten moeten een aankoop hebben gedaan binnen de laatste 7 dagen.
 
-➡️ [&#x200B; Leer hoe te om publiek in deze video tot stand te brengen &#x200B;](#video-segment)
+➡️ [ Leer hoe te om publiek in deze video tot stand te brengen ](#video-segment)
 
 1. Klik in het menu **[!UICONTROL Audiences]** op de knop **[!UICONTROL Create audience]** en selecteer **[!UICONTROL Build rule]** .
 
    ![](assets/create-segment.png)
 
-   In het scherm voor segmentdefinitie kunt u alle vereiste velden configureren om uw publiek te definiëren. Leer hoe te om publiek in de [&#x200B; documentatie van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/methods/overview){target="_blank"} te vormen.
+   In het scherm voor segmentdefinitie kunt u alle vereiste velden configureren om uw publiek te definiëren. Leer hoe te om publiek in de [ documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/overview){target="_blank"} te vormen.
 
    ![](assets/segment-builder.png)
 
@@ -42,11 +42,11 @@ In dit voorbeeld, bouwt u een publiek om alle klanten te richten die in Atlanta,
 
 1. Sleep de gewenste velden vanuit het linkerdeelvenster naar de werkruimte in het midden en configureer ze op basis van uw behoeften.
 
-   De basisbouwstenen van segmentdefinities zijn **attributen** en **gebeurtenissen**. Daarnaast kunnen de kenmerken en gebeurtenissen in bestaande doelgroepen worden gebruikt als componenten voor nieuwe definities. [&#x200B; leer meer in de de dienstdocumentatie van de Segmentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder#building-blocks){target="_blank"}
+   De basisbouwstenen van segmentdefinities zijn **attributen** en **gebeurtenissen**. Daarnaast kunnen de kenmerken en gebeurtenissen in bestaande doelgroepen worden gebruikt als componenten voor nieuwe definities. [ leer meer in de de dienstdocumentatie van de Segmentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#building-blocks){target="_blank"}
 
    >[!NOTE]
    >
-   >Merk op dat de gebieden beschikbaar in de linkerruit afhankelijk van variëren hoe **XDM Individuele Profiel** en **XDM ExperienceEvent** schema&#39;s voor uw organisatie zijn gevormd.  Leer meer in de [&#x200B; documentatie van de Gegevens van de Ervaring Model (XDM) &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
+   >Merk op dat de gebieden beschikbaar in de linkerruit afhankelijk van variëren hoe **XDM Individuele Profiel** en **XDM ExperienceEvent** schema&#39;s voor uw organisatie zijn gevormd.  Leer meer in de [ documentatie van de Gegevens van de Ervaring Model (XDM) ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
 
    ![](assets/drag-fields.png)
 
@@ -76,7 +76,7 @@ In Adobe Journey Optimizer wordt het publiek gegenereerd op basis van segmentdef
 
 De profiellijst voor het publiek wordt bijgewerkt in real time aangezien de nieuwe gegevens in het systeem stromen.
 
-Streaming segmentatie is een doorlopend proces voor gegevensselectie dat uw publiek bijwerkt als reactie op gebruikersactiviteit. Zodra een segmentdefinitie is gebouwd en het resulterende publiek is bewaard, wordt de segmentdefinitie toegepast op inkomende gegevens aan Journey Optimizer. Dit betekent dat individuen worden toegevoegd of uit het publiek verwijderd aangezien hun profielgegevens veranderen, ervoor zorgen dat uw doelpubliek altijd relevant is. [&#x200B; Leer meer in Adobe Expe &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=nl-NL){target="_blank"}.
+Streaming segmentatie is een doorlopend proces voor gegevensselectie dat uw publiek bijwerkt als reactie op gebruikersactiviteit. Zodra een segmentdefinitie is gebouwd en het resulterende publiek is bewaard, wordt de segmentdefinitie toegepast op inkomende gegevens aan Journey Optimizer. Dit betekent dat individuen worden toegevoegd of uit het publiek verwijderd aangezien hun profielgegevens veranderen, ervoor zorgen dat uw doelpubliek altijd relevant is. [ leer meer in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}.
 
 >[!IMPORTANT]
 >
@@ -96,17 +96,17 @@ De profiellijst voor het publiek wordt om de 24 uur geëvalueerd.
 
 De segmentatie van de partij verwerkt alle profielgegevens in één keer door segmentdefinities, die tot een momentopname van het publiek leiden dat voor gebruik kan worden bewaard en worden uitgevoerd. In tegenstelling tot het stromen segmenteren, werkt de partijsegmentatie niet ononderbroken de publiekslijst in real time bij. De nieuwe gegevens die binnen na het partijproces komen worden niet weerspiegeld in het publiek tot het volgende partijproces. Pogingen om een onmiddellijke update te forceren hebben geen voorrang op de dagelijkse cyclus. Voor directe incrementele updates kunt u streaming- of segmentatieopties op aanvraag gebruiken.
 
-Voor meer details, verwijs naar de [&#x200B; documentatie van de Dienst van de Segmentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL#batch){target="_blank"}
+Voor meer details, verwijs naar de [ documentatie van de Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}
 
 +++
 
 +++ Edge-segmentatie
 
-De segmentatie van Edge is de capaciteit om segmenten in Adobe Experience Platform onmiddellijk [&#x200B; op de rand &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL){target="_blank"} te evalueren, toelatend zelfde-pagina en volgende-pagina het gebruikscase van de verpersoonlijking. Momenteel kunnen alleen bepaalde querytypen worden geëvalueerd met randsegmentatie. Voor meer details, verwijs naar de [&#x200B; documentatie van de Dienst van de Segmentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=nl-NL#query-types){target="_blank"}
+De segmentatie van Edge is de capaciteit om segmenten in Adobe Experience Platform onmiddellijk [ op de rand ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} te evalueren, toelatend zelfde-pagina en volgende-pagina het gebruikscase van de verpersoonlijking. Momenteel kunnen alleen bepaalde querytypen worden geëvalueerd met randsegmentatie. Voor meer details, verwijs naar de [ documentatie van de Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
 
 +++
 
-Als u de evaluatiemethode kent u wilt gebruiken, selecteer het gebruikend de drop-down lijst. U kunt ook op het pictogram van de bladerpictogrammap met een vergrootglas klikken om een lijst met de beschikbare evaluatiemethoden voor segmentdefinitie weer te geven. Voor meer details, verwijs naar de [&#x200B; documentatie van de Dienst van de Segmentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=nl-NL#segment-properties){target="_blank"}.
+Als u de evaluatiemethode kent u wilt gebruiken, selecteer het gebruikend de drop-down lijst. U kunt ook op het pictogram van de bladerpictogrammap met een vergrootglas klikken om een lijst met de beschikbare evaluatiemethoden voor segmentdefinitie weer te geven. Voor meer details, verwijs naar de [ documentatie van de Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#segment-properties){target="_blank"}.
 
 ![](assets/evaluation-methods.png)
 
@@ -130,10 +130,10 @@ Met flexibele publieksevaluatie kunt u:
 1. Evalueer het publiek in real time om nauwkeurigheid te verzekeren. Om dit te doen, kies de soorten publiek u &quot;evalueert publiek&quot;evalueert en wilt selecteren, op voorwaarde dat zij aan specifieke criteria (b.v., op mensen-gebaseerd, de oorsprong van de Dienst van de Segmentatie) voldoen.
 1. Gebruik het geëvalueerde publiek in Adobe Journey Optimizer campagnes of reizen voor nauwkeurige gericht richten.
 
-U kunt maximaal 20 soorten publiek tegelijk evalueren en niet-subsidiabele doelgroepen worden automatisch uitgesloten. Voor meer details, zie de [&#x200B; documentatie van de Dienst van de Segmentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
+U kunt maximaal 20 soorten publiek tegelijk evalueren en niet-subsidiabele doelgroepen worden automatisch uitgesloten. Voor meer details, zie de [ documentatie van de Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
 
 ## Hoe kan ik-video{#video-segment}
 
 Begrijp hoe Journey Optimizer regels gebruikt om publiek te produceren, en hoe te om attributen, gebeurtenissen, en bestaand publiek te gebruiken om een publiek tot stand te brengen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430325?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)

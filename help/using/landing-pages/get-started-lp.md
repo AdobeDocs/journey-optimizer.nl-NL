@@ -9,20 +9,20 @@ role: User
 level: Beginner
 keywords: landen, landingspagina, starten, starten
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '208'
 ht-degree: 2%
 
 ---
 
-# Aan de slag met bestemmingspagina&#39;s {#get-sarted-lp}
+# Aan de slag met bestemmingspagina&#39;s {#get-started-lp}
 
 Een openingspagina is een zelfstandige webpagina waarnaar een gebruiker wordt verwezen nadat hij via een e-mail, website, advertentie of een andere digitale locatie heeft geklikt.
 
 Met [!DNL Journey Optimizer] kunt u bestemmingspagina&#39;s maken en ontwerpen, zodat uw gebruikers naar onlineformulieren kunnen gaan waar zij uw communicatie kunnen in- of uitschakelen of zich kunnen abonneren op een specifieke service, zoals een nieuwsbrief.
 
-➡️ [&#x200B; Leer meer over het vormen van abonnementen en het creëren van landende pagina&#39;s in deze video &#x200B;](#video)
+➡️ [ Leer meer over het vormen van abonnementen en het creëren van landende pagina&#39;s in deze video ](#video)
 
 * De mogelijkheden van het inhoudsontwerp van de hefboomwerking [!DNL Journey Optimizer] om **ontvankelijke het landen pagina&#39;s** gemakkelijk te bouwen.
 * De opstelling **opt-in en opt-out stromen** snel en foutloos.

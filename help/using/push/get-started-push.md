@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
-source-git-commit: fa57bee17e5d9df99cc564bfac06bcd3f5090aab
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 1%
@@ -27,15 +27,15 @@ Met pushberichten bereikt u op elk gewenst moment gebruikers van uw mobiele app,
 
 U kunt pushmeldingen maken:
 
-* In een **Reis**: Als u een pushactiviteit hebt toegevoegd aan uw reis en basisinstellingen hebt gedefinieerd, kunt u de opdracht **[!UICONTROL Actions: Push]** in het rechterdeelvenster om de inhoud voor pushmeldingen te maken. [Leer hoe u een reis maakt](../building-journeys/journey-gs.md)
+* In a **Weg**: Zodra u een activiteit van de Duw in uw reis toevoegde, en bepaalde basismontages, gebruik de **[!UICONTROL Actions: Push]** juiste ruit om de inhoud voor de Duw berichten tot stand te brengen. [ leer hoe te om een reis ](../building-journeys/journey-gs.md) tot stand te brengen
 
-* In een **Campagne**: Nadat u een campagne hebt gemaakt, selecteert u pushmelding als uw handeling en definieert u de basisinstellingen. [Leer hoe u een campagne maakt](../campaigns/create-campaign.md#configure)
+* In a **Campagne**: Zodra u een campagne creeerde, uitgezocht duw bericht als uw actie en bepaalt basismontages. [ Leer hoe te om een campagne ](../campaigns/create-campaign.md#configure) tot stand te brengen
 
-Gebruik de specifieke tabbladen om de instellingen voor pushmeldingen te defini√´ren voor **iOS** en **Android** besturingssystemen.
+Gebruik de specifieke lusjes om de montages van het duw- bericht voor **iOS** en **Android** werkende systemen te bepalen.
 
 >[!NOTE]
 >
->while **[!DNL Journey Optimizer]** biedt manieren om de optie om te weigeren in e-mails en SMS-berichten te beheren. Voor pushberichten is geen actie aan uw kant vereist, omdat ontvangers hun abonnement zelf kunnen opzeggen via hun apparaten. Ze kunnen er bijvoorbeeld voor kiezen om meldingen te stoppen wanneer ze worden gedownload of wanneer ze uw app gebruiken. Op dezelfde manier kunnen ze de meldingsinstellingen wijzigen via het mobiele besturingssysteem.
+>Hoewel **[!DNL Journey Optimizer]** manieren biedt om de optie om te weigeren te beheren in e-mails en SMS-berichten, is voor pushberichten geen actie aan uw kant vereist, aangezien ontvangers hun abonnement zelf via hun apparaten kunnen opzeggen. Ze kunnen er bijvoorbeeld voor kiezen om meldingen te stoppen wanneer ze worden gedownload of wanneer ze uw app gebruiken. Op dezelfde manier kunnen ze de meldingsinstellingen wijzigen via het mobiele besturingssysteem.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -51,7 +51,7 @@ Gebruik de specifieke tabbladen om de instellingen voor pushmeldingen te defini√
 <img alt="Onfrequent" src="../assets/do-not-localize/push-design.jpg">
 </a>
 <div>
-<a href="design-push.md"><strong>Uw pushmelding ontwerpen</strong></a>
+<a href="design-push.md"><strong> Ontwerp uw dupmelding </strong></a>
 </div>
 <p></td>
 <td>
@@ -59,7 +59,7 @@ Gebruik de specifieke tabbladen om de instellingen voor pushmeldingen te defini√
 <img alt="Validatie" src="../assets/do-not-localize/push-sending.jpg">
 </a>
 <div>
-<a href="send-push.md"><strong>Uw pushmelding verzenden</strong></a>
+<a href="send-push.md"><strong> verzend uw pushbericht </strong></a>
 </div>
 <p>
 </td>
@@ -68,7 +68,7 @@ Gebruik de specifieke tabbladen om de instellingen voor pushmeldingen te defini√
 <img alt="Validatie" src="../assets/do-not-localize/push-config.jpg">
 </a>
 <div>
-<a href="push-gs.md"><strong>Pushmeldingen configureren</strong></a>
+<a href="push-gs.md"><strong> vorm dupberichten </strong></a>
 </div>
 <p>
 </td>

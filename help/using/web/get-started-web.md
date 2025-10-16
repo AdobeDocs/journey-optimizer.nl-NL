@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
 
 ---
 
-# Aan de slag met webkanaal {#get-sarted-web}
+# Aan de slag met webkanaal {#get-started-web}
 
 Met [!DNL Journey Optimizer] kunt u visueel ontwerpen en persoonlijke webervaringen aan uw klanten aanbieden.
 
@@ -23,13 +23,13 @@ Met behulp van het webkanaal kunt u via een intuïtieve visuele interface eenvou
 
 Als u reeds uitgaande kanalen voor berichtlevering, zoals e-mail, SMS of dupberichten gebruikt, kunt u het binnenkomende Webkanaal gebruiken om een werkelijk gepersonaliseerde ervaring aan te bieden die zich over alle kanalen uitstrekt.
 
-Zodra u een reis of een campagne creeerde, selecteer **Web** als uw actie en bepaal basismontages. Voor meer informatie over hoe te om uw reis/campagne te vormen, verwijs naar deze [&#x200B; pagina &#x200B;](create-web.md#create-web-experience).
+Zodra u een reis of een campagne creeerde, selecteer **Web** als uw actie en bepaal basismontages. Voor meer informatie over hoe te om uw reis/campagne te vormen, verwijs naar deze [ pagina ](create-web.md#create-web-experience).
 
 >[!NOTE]
 >
->Als dit uw eerste keer is creërend een Webervaring, zorg ervoor u de eerste vereisten volgt die in [&#x200B; worden beschreven deze sectie &#x200B;](web-prerequisites.md).
+>Als dit uw eerste keer is creërend een Webervaring, zorg ervoor u de eerste vereisten volgt die in [ worden beschreven deze sectie ](web-prerequisites.md).
 
-Ontdek de gedetailleerde stappen om een Webcampagne in [&#x200B; tot stand te brengen deze video &#x200B;](create-web.md#video).
+Ontdek de gedetailleerde stappen om een Webcampagne in [ tot stand te brengen deze video ](create-web.md#video).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

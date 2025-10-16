@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: markt, markt om integratie te bevorderen
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: dec575162b6db7e7d4f32f5f170de9673b979e5c
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
@@ -118,6 +118,6 @@ Voer de volgende stappen uit om het te gebruiken:
 
 1. Voer het label en de beschrijving van deze handeling in.
 
-1. In de **sectie van het Verzoek** parameters, klik **uitgeven** pictogram voor elk van de parameters en controleer de dynamische waarden die u in de nuttige lading hebt gevormd.
+1. In de **sectie van het Verzoek** parameters, klik **geef** pictogram voor elk van de parameters uit en selecteer de dynamische waarden die u in de nuttige lading hebt gevormd.
 
 ![](assets/engage-use-canvas.png){width="70%" align="left"}

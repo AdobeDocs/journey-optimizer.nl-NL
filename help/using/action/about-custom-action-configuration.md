@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '1775'
 ht-degree: 1%
@@ -23,9 +23,9 @@ ht-degree: 1%
 >title="Aangepaste acties"
 >abstract="Als u een derdesysteem gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, gebruik douaneacties om zijn verbinding aan uw reis te vormen."
 
-Als u een derdesysteem gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, gebruik douaneacties om zijn verbinding aan uw reis te vormen. Bijvoorbeeld kunt u met de volgende systemen met douaneacties verbinden: Epsilon, Slack, [&#x200B; Adobe Developer &#x200B;](https://developer.adobe.com){target="_blank"}, Vuurbasis, enz.
+Als u een derdesysteem gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, gebruik douaneacties om zijn verbinding aan uw reis te vormen. Bijvoorbeeld kunt u met de volgende systemen met douaneacties verbinden: Epsilon, Slack, [ Adobe Developer ](https://developer.adobe.com){target="_blank"}, Vuurbasis, enz.
 
-Aangepaste acties zijn aanvullende acties die door technische gebruikers worden gedefinieerd en beschikbaar worden gesteld aan verkopers. Als deze zijn geconfigureerd, worden ze weergegeven in het linkerpalet van uw reis, in de categorie **[!UICONTROL Action]** . Leer meer op [&#x200B; deze pagina &#x200B;](../building-journeys/about-journey-activities.md#action-activities).
+Aangepaste acties zijn aanvullende acties die door technische gebruikers worden gedefinieerd en beschikbaar worden gesteld aan verkopers. Als deze zijn geconfigureerd, worden ze weergegeven in het linkerpalet van uw reis, in de categorie **[!UICONTROL Action]** . Leer meer op [ deze pagina ](../building-journeys/about-journey-activities.md#action-activities).
 
 
 ## Configuratiestappen {#configuration-steps}
@@ -57,29 +57,29 @@ Hier zijn de belangrijkste stappen die worden vereist om een douaneactie te vorm
 
 ## Beperkingen{#custom-actions-limitations}
 
-De acties van de douane komen met een paar beperkingen die op [&#x200B; worden vermeld deze pagina &#x200B;](../start/guardrails.md).
+De acties van de douane komen met een paar beperkingen die op [ worden vermeld deze pagina ](../start/guardrails.md).
 
-In parameters voor aangepaste handelingen kunt u een eenvoudige verzameling en een verzameling objecten doorgeven. Leer meer over inzamelingsbeperkingen op [&#x200B; deze pagina &#x200B;](../building-journeys/collections.md#limitations).
+In parameters voor aangepaste handelingen kunt u een eenvoudige verzameling en een verzameling objecten doorgeven. Leer meer over inzamelingsbeperkingen op [ deze pagina ](../building-journeys/collections.md#limitations).
 
-De parameters voor aangepaste handelingen hebben een verwachte indeling (bijvoorbeeld tekenreeks, decimaal, enz.). U moet deze verwachte formaten zorgvuldig respecteren. Leer meer in dit [&#x200B; gebruiksgeval &#x200B;](../building-journeys/collections.md).
+De parameters voor aangepaste handelingen hebben een verwachte indeling (bijvoorbeeld tekenreeks, decimaal, enz.). U moet deze verwachte formaten zorgvuldig respecteren. Leer meer in dit [ gebruiksgeval ](../building-journeys/collections.md).
 
-De acties van de douane steunen JSON formaat slechts wanneer het gebruiken van [&#x200B; verzoek &#x200B;](../action/about-custom-action-configuration.md#define-the-message-parameters) of [&#x200B; antwoordladloads &#x200B;](../action/action-response.md).
+De acties van de douane steunen JSON formaat slechts wanneer het gebruiken van [ verzoek ](../action/about-custom-action-configuration.md#define-the-message-parameters) of [ antwoordladloads ](../action/action-response.md).
 
 >[!NOTE]
 >
->Wanneer een eindpunt een reactietijd meer dan 0.75 seconden heeft, worden zijn vraag van de douaneactie verpletterd door de specifieke langzaam [&#x200B; dienst van de douaneactie &#x200B;](../configuration/external-systems.md#response-time) in plaats van de standaarddienst.
+>Wanneer een eindpunt een reactietijd meer dan 0.75 seconden heeft, worden zijn vraag van de douaneactie verpletterd door de specifieke langzaam [ dienst van de douaneactie ](../configuration/external-systems.md#response-time) in plaats van de standaarddienst.
 
 
 ## Best practices{#custom-action-enhancements-best-practices}
 
 Wanneer het kiezen van een eindpunt om het gebruiken van een douaneactie te richten, ben zeker dat:
 
-* Dit eindpunt kan de productie van de reis steunen, gebruikend configuraties van [&#x200B; het Throttling API &#x200B;](../configuration/throttling.md) of [&#x200B; Capping API &#x200B;](../configuration/capping.md) om het te beperken. Wees voorzichtig dat een snelheidsbegrenzingsconfiguratie niet lager kan zijn dan 200 TPS. Om het even welk gericht eindpunt zal minstens 200 TPS moeten steunen.
+* Dit eindpunt kan de productie van de reis steunen, gebruikend configuraties van [ het Throttling API ](../configuration/throttling.md) of [ Capping API ](../configuration/capping.md) om het te beperken. Wees voorzichtig dat een snelheidsbegrenzingsconfiguratie niet lager kan zijn dan 200 TPS. Om het even welk gericht eindpunt zal minstens 200 TPS moeten steunen.
 * Dit eindpunt moet een reactietijd hebben zo laag mogelijk. Afhankelijk van uw verwachte productie, zou het hebben van een hoge reactietijd de daadwerkelijke productie kunnen beïnvloeden.
 
-Een maximum van 300.000 vraag over één minuut wordt bepaald voor alle douaneacties. Daarnaast wordt de standaarduitlijning uitgevoerd per host en per sandbox. Als u bijvoorbeeld op een sandbox twee eindpunten met dezelfde host hebt (bijvoorbeeld: `https://www.adobe.com/endpoint1` en `https://www.adobe.com/endpoint2` ), wordt de aftopping toegepast op alle eindpunten onder de host adobe.com. De &quot;eindpunt1&quot;en &quot;eindpunt2&quot;zullen de zelfde het begrenzen configuratie delen en het hebben van één eindpunt bereikt de grens zal een effect op het andere eindpunt hebben.
+Een maximum van 300.000 vraag over één minuut wordt bepaald voor alle douaneacties. Daarnaast wordt de standaarduitlijning uitgevoerd per host en per sandbox. Als u bijvoorbeeld op een sandbox twee eindpunten met dezelfde host hebt (bijvoorbeeld `https://www.adobe.com/endpoint1` en `https://www.adobe.com/endpoint2` ), wordt de aftopping toegepast op alle eindpunten onder de host adobe.com. De &quot;eindpunt1&quot;en &quot;eindpunt2&quot;zullen de zelfde het begrenzen configuratie delen en het hebben van één eindpunt bereikt de grens zal een effect op het andere eindpunt hebben.
 
-Deze grens is geplaatst gebaseerd op klantengebruik, om externe eindpunten te beschermen die door douaneacties worden gericht. U moet hiermee rekening houden bij reizen voor uw publiek door een juiste leessnelheid te definiëren (5000 profielen/s wanneer aangepaste handelingen worden gebruikt). Indien nodig, kunt u deze het plaatsen met voeten treden door een grotere het maximum van het maximum of het vertragen grens door onze Capping/het Draaien APIs te bepalen. Zie [deze pagina](../configuration/external-systems.md).
+Deze grens is geplaatst gebaseerd op klantengebruik om externe eindpunten te beschermen die door douaneacties worden gericht. U moet hiermee rekening houden bij reizen voor uw publiek door een juiste leessnelheid te definiëren (5000 profielen/s wanneer aangepaste handelingen worden gebruikt). Indien nodig, kunt u deze het plaatsen met voeten treden door een grotere het maximum van het maximum of het vertragen grens door onze Capping/het Draaien APIs te bepalen. Zie [deze pagina](../configuration/external-systems.md).
 
 U zou openbare eindpunten met douaneacties niet om verschillende redenen moeten richten:
 
@@ -91,8 +91,8 @@ U zou openbare eindpunten met douaneacties niet om verschillende redenen moeten 
 
 In Journey Optimizer kunt u beleid voor gegevensbeheer en toestemming toepassen op uw aangepaste acties om te voorkomen dat bepaalde velden worden geëxporteerd naar systemen van derden of om klanten uit te sluiten die niet hebben ingestemd met het ontvangen van e-mail, push- of SMS-berichten. Raadpleeg de volgende pagina&#39;s voor meer informatie:
 
-* [&#x200B; het bestuur van Gegevens &#x200B;](../action/action-privacy.md).
-* [&#x200B; Toestemming &#x200B;](../action/action-privacy.md).
+* [ het bestuur van Gegevens ](../action/action-privacy.md).
+* [ Toestemming ](../action/action-privacy.md).
 
 
 ## Eindpuntconfiguratie {#url-configuration}
@@ -145,7 +145,7 @@ Wanneer u een aangepaste handeling configureert, moet u de volgende **[!UICONTRO
    >
    >Nadat u de douaneactie aan een reis hebt toegevoegd, kunt u kopbal of vraagparametergebieden aan het nog toevoegen als de reis in ontwerpstatus is. Als u niet wilt dat de reis door configuratieveranderingen wordt beïnvloed, dupliceer de douaneactie en voeg de gebieden aan de nieuwe douaneactie toe.
    >
-   >Kopteksten worden gevalideerd volgens veldparseringsregels. Leer meer in [&#x200B; deze documentatie &#x200B;](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
+   >Kopteksten worden gevalideerd volgens veldparseringsregels. Leer meer in [ deze documentatie ](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
 ## Laag voor transportbeveiliging {#tls}
 
@@ -157,7 +157,7 @@ Adobe Journey Optimizer biedt standaard ondersteuning voor TLS 1.3 voor aangepas
 
 U kunt Wederzijdse Veiligheid van de Laag van het Vervoer (mTLS) gebruiken om verbeterde veiligheid in uitgaande verbindingen aan de douaneacties van Adobe Journey Optimizer te verzekeren. mTLS is een end-to-end veiligheidsmethode voor wederzijdse authentificatie die ervoor zorgt dat beide partijen die informatie delen wie zij beweren te zijn alvorens de gegevens worden gedeeld. mTLS bevat een extra stap in vergelijking met TLS, waarin de server ook om het certificaat van de client vraagt en dit aan het einde verifieert.
 
-Wederzijdse TLS-verificatie (mTLS) wordt ondersteund in aangepaste handelingen. Er is geen extra configuratie vereist in de douaneactie of de reis om mTLS te activeren; het komt automatisch voor wanneer een mTLS-Toegelaten eindpunt wordt ontdekt. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+Wederzijdse TLS-verificatie (mTLS) wordt ondersteund in aangepaste handelingen. Er is geen extra configuratie vereist in de douaneactie of de reis om mTLS te activeren; het komt automatisch voor wanneer een mTLS-Toegelaten eindpunt wordt ontdekt. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## De parameters voor de nuttige lading definiëren {#define-the-message-parameters}
 
@@ -169,7 +169,7 @@ U kunt de parameter payload als volgt definiëren:
 
    ![](assets/null-values.png){width="70%" align="left"}
 
-1. Plak in de sectie **[!UICONTROL Response]** een voorbeeld van de lading die door de aanroep wordt geretourneerd. Dit veld is optioneel en beschikbaar voor alle aanroepmethoden. Voor gedetailleerde informatie over hoe te hefboomwerking API vraagreacties in douaneacties, verwijs naar [&#x200B; deze pagina &#x200B;](../action/action-response.md).
+1. Plak in de sectie **[!UICONTROL Response]** een voorbeeld van de lading die door de aanroep wordt geretourneerd. Dit veld is optioneel en beschikbaar voor alle aanroepmethoden. Voor gedetailleerde informatie over hoe te hefboomwerking API vraagreacties in douaneacties, verwijs naar [ deze pagina ](../action/action-response.md).
 
 >[!NOTE]
 >
@@ -196,15 +196,15 @@ In de gebiedsconfiguratie, moet u:
 >
 
 
-* [&#x200B; het oplossen van problemen van de Actie van de Douane &#x200B;](../action/troubleshoot-custom-action.md) - Leer hoe te om een douaneactie problemen op te lossen
+* [ het oplossen van problemen van de Actie van de Douane ](../action/troubleshoot-custom-action.md) - Leer hoe te om een douaneactie problemen op te lossen
 
 
 ## Aanvullende bronnen
 
 Blader in de onderstaande secties voor meer informatie over het configureren, gebruiken en oplossen van problemen met aangepaste handelingen:
 
-* [&#x200B; worden begonnen met douaneacties &#x200B;](../action/action.md) - leer wat een douaneactie is en hoe zij u met uw derdesystemen helpen verbinden
-* [&#x200B; de douaneacties van het Gebruik &#x200B;](../building-journeys/using-custom-actions.md) - leer hoe te om douaneacties in uw reizen te gebruiken
-* [&#x200B; het oplossen van problemen van de Actie van de Douane &#x200B;](../action/troubleshoot-custom-action.md) - Leer hoe te om een douaneactie problemen op te lossen
-* [&#x200B; de inzamelingen van de pas in de parameters van de douaneactie &#x200B;](../building-journeys/collections.md) - leer hoe te om een inzameling in de parameters van de douaneactie over te gaan die dynamisch bevolkt bij runtime is
+* [ worden begonnen met douaneacties ](../action/action.md) - leer wat een douaneactie is en hoe zij u met uw derdesystemen helpen verbinden
+* [ de douaneacties van het Gebruik ](../building-journeys/using-custom-actions.md) - leer hoe te om douaneacties in uw reizen te gebruiken
+* [ het oplossen van problemen van de Actie van de Douane ](../action/troubleshoot-custom-action.md) - Leer hoe te om een douaneactie problemen op te lossen
+* [ de inzamelingen van de pas in de parameters van de douaneactie ](../building-journeys/collections.md) - leer hoe te om een inzameling in de parameters van de douaneactie over te gaan die dynamisch bevolkt bij runtime is
 

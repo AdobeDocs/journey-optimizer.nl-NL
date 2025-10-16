@@ -6,18 +6,18 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: dccaaa0588b504c1c00ce25fd6bbb4f34652ec91
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
 
 # Inhoud van inhoudskaarten ontwerpen {#design-content-card}
 
-Het ontwerpconcept voor kaarten biedt een op formulieren gebaseerde ontwerpervaring die marketers basisinvoer biedt die kan worden gebruikt om door de ontwikkelaar te worden gerenderd.
+Het ontwerpconcept voor kaarten biedt een op formulieren gebaseerde ontwerpervaring die marketers basisinvoer biedt die door ontwikkelaars kan worden gegenereerd.
 
-Nadat de inhoud is gedefinieerd en gepersonaliseerd, kunt u deze controleren en activeren. Uw campagne wordt verzonden volgens het ingestelde schema. [&#x200B; leer meer op deze pagina &#x200B;](../campaigns/review-activate-campaign.md).
+Nadat de inhoud is gedefinieerd en gepersonaliseerd, kunt u deze controleren en activeren. Uw campagne wordt verzonden volgens het ingestelde schema. [ leer meer op deze pagina ](../campaigns/review-activate-campaign.md).
 
 ## Inhoudskaartlay-out
 
@@ -27,15 +27,15 @@ Kies in de sectie **[!UICONTROL Content card layout]** een van de drie opties vo
 
 * **[!UICONTROL Small image]**: geeft naast tekst een compacte afbeelding weer, ideaal voor berichten waarin inhoud voorrang heeft op visuele aspecten.
 
-  Zie de Documentatie van Adobe Developer [&#x200B; voor iOS &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template/) en [&#x200B; voor Android &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate/) om meer te leren.
+  Zie de Documentatie van Adobe Developer [ voor iOS ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template/) en [ voor Android ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate/) om meer te leren.
 
 * **[!UICONTROL Large image]**: kenmerkt een opvallende afbeelding boven of naast de tekst, waardoor de visuele focus van uw bericht komt te liggen.
 
-  Zie de Documentatie van Adobe Developer [&#x200B; voor iOS &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template/) en [&#x200B; voor Android &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate/) om meer te leren.
+  Zie de Documentatie van Adobe Developer [ voor iOS ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template/) en [ voor Android ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate/) om meer te leren.
 
 * **[!UICONTROL Image only]**: geeft de afbeelding weer zonder bijbehorende tekst, perfect voor visuele berichten of zelfstandige afbeeldingen.
 
-  Zie de Documentatie van Adobe Developer [&#x200B; voor iOS &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template/) en [&#x200B; voor Android &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate/) om meer te leren.
+  Zie de Documentatie van Adobe Developer [ voor iOS ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template/) en [ voor Android ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate/) om meer te leren.
 
 ## Inhoud, tabblad {#content-tab}
 
@@ -47,7 +47,7 @@ Via het tabblad **[!UICONTROL Content]** kunt u uw inhoudskaarten aanpassen door
 
 Als u uw bericht wilt samenstellen, voert u de tekst in de velden **[!UICONTROL Title]** en **[!UICONTROL Body]** in.
 
-Als u uw bericht verder wilt aanpassen, gebruikt u het pictogram **[!UICONTROL Personalization]** om gepersonaliseerde elementen toe te voegen. Voor gedetailleerde instructies op hoe te om de verpersoonlijkingseigenschappen te gebruiken, verwijs naar [&#x200B; deze sectie &#x200B;](../personalization/personalize.md).
+Als u uw bericht verder wilt aanpassen, gebruikt u het pictogram **[!UICONTROL Personalization]** om gepersonaliseerde elementen toe te voegen. Voor gedetailleerde instructies op hoe te om de verpersoonlijkingseigenschappen te gebruiken, verwijs naar [ deze sectie ](../personalization/personalize.md).
 
 ### Media {#add-media}
 
@@ -55,7 +55,7 @@ Als u uw bericht verder wilt aanpassen, gebruikt u het pictogram **[!UICONTROL P
 
 Met het veld **[!UICONTROL Media]** kunt u uw inhoudskaarten verbeteren door media toe te voegen, waardoor uw presentatie aantrekkelijker kan worden voor eindgebruikers.
 
-Als u media wilt opnemen, typt u de gewenste media in de URL of klikt u op het pictogram **[!UICONTROL Select Assets]** om te kiezen uit de elementen die zijn opgeslagen in de Assets-bibliotheek. [&#x200B; Leer meer over activabeheer &#x200B;](../integrations/assets.md).
+Als u media wilt opnemen, typt u de gewenste media in de URL of klikt u op het pictogram **[!UICONTROL Select Assets]** om te kiezen uit de elementen die zijn opgeslagen in de Assets-bibliotheek. [ Leer meer over activabeheer ](../integrations/assets.md).
 
 +++Meer opties met geavanceerde opmaak
 
