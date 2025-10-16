@@ -48,7 +48,7 @@ Raadpleeg ook Aangepaste acties in [!DNL Journey Optimizer] Binnenkomende kanale
 
 Voer de volgende stappen uit om een handeling te definiëren en de hulplijn voor personalisatie te gebruiken:
 
-1. Creeer een Actie om het eindpunt voor de raadpleging te vormen. Dit hoeft slechts eenmaal te gebeuren voor elk eindpunt en moet door een technische gebruiker worden gedaan. [ Leer hoe te om een douaneactie ](../action/about-custom-action-configuration.md) te vormen
+1. Creeer een Actie om het eindpunt voor de raadpleging te vormen. Dit hoeft slechts eenmaal te gebeuren voor elk eindpunt en moet door een technische gebruiker worden gedaan. [&#x200B; Leer hoe te om een douaneactie &#x200B;](../action/about-custom-action-configuration.md) te vormen
 
    Noteer de actie-id en kopieer deze.
 
