@@ -24,7 +24,7 @@ De gebeurtenissen van de stap van de reis worden automatisch geproduceerd gebeur
 
 ## Wat zijn trapsgewijze gebeurtenissen? {#what-are-step-events}
 
-De gebeurtenissen van de wegstap zijn systeem-geproduceerde [&#x200B; XDM (het Model van Gegevens van de Ervaring) &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"} gebeurtenissen die Adobe Journey Optimizer automatisch leidt en naar [&#x200B; Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} verzendt wanneer een profiel zich van één knoop aan een andere in een reis beweegt. Elke gebeurtenis beantwoordt aan een specifieke [&#x200B; reisactiviteit &#x200B;](../building-journeys/about-journey-activities.md) of overgang in de de reiservaring van de klant.
+De gebeurtenissen van de wegstap zijn systeem-geproduceerde [&#x200B; XDM (het Model van Gegevens van de Ervaring) &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"} gebeurtenissen die Adobe Journey Optimizer automatisch leidt en naar [&#x200B; Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=nl-NL){target="_blank"} verzendt wanneer een profiel zich van één knoop aan een andere in een reis beweegt. Elke gebeurtenis beantwoordt aan een specifieke [&#x200B; reisactiviteit &#x200B;](../building-journeys/about-journey-activities.md) of overgang in de de reiservaring van de klant.
 
 Er zijn twee belangrijke soorten gebeurtenissen van de reisstap:
 
@@ -190,7 +190,7 @@ Gebeurtenispatronen voor stap gebruiken voor:
 ### Documentatiekoppelingen {#documentation-links}
 
 - **[stap het delen van de Reis overzicht](sharing-overview.md)**: Begrijpend hoe de gegevens van de reis aan Adobe Experience Platform stromen
-- **[Ingebouwd schemawoordenboek &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}**: Volledige XDM schemaverwijzing
+- **[Ingebouwd schemawoordenboek &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL){target="_blank"}**: Volledige XDM schemaverwijzing
 - **[Journey Optimizer die](report-gs-cja.md)** meldt: Overzicht van rapporteringsmogelijkheden in Journey Optimizer
 
 ### Integratiehulplijnen {#integration-guides}
