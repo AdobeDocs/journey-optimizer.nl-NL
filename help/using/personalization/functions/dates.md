@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: ed4d50cbc488fb396c4fffec21d3f0062d3fc20a
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1034'
 ht-degree: 3%
 
 ---
@@ -53,7 +53,7 @@ De functie `addHours` past een bepaalde datum met een bepaald aantal uren aan, g
 
 ## Minuten toevoegen {#add-minutes}
 
-De functie `addMinutes` past een bepaalde datum met een opgegeven aantal minuten aan, waarbij positieve waarden worden gebruikt voor verhogen en negatieve waarden voor verlagen
+De functie `addMinutes` past een bepaalde datum met een opgegeven aantal minuten aan, waarbij positieve waarden worden gebruikt voor verhogen en negatieve waarden voor verlagen.
 
 **Syntaxis**
 
@@ -87,7 +87,7 @@ De functie `addMonths` past een bepaalde datum met een bepaald aantal maanden aa
 
 ## Seconden toevoegen {#add-seconds}
 
-In `addSeconds` wordt een bepaalde datum met een opgegeven aantal seconden aangepast, waarbij positieve waarden worden gebruikt voor verhogen en negatieve waarden voor verlagen.
+De functie `addSeconds` past een bepaalde datum met een bepaald aantal seconden aan, waarbij positieve waarden worden gebruikt om te verhogen en negatieve waarden om te verlagen.
 
 **Syntaxis**
 
@@ -104,7 +104,7 @@ In `addSeconds` wordt een bepaalde datum met een opgegeven aantal seconden aange
 
 ## Jaren toevoegen {#add-years}
 
-In `addYears` wordt een bepaalde datum met een opgegeven aantal jaren aangepast met positieve waarden voor verhogen en negatieve waarden voor verlagen.
+De functie `addYears` past een bepaalde datum met een bepaald aantal jaren aan, gebruikend positieve waarden aan toename en negatieve waarden aan decrement.
 
 **Syntaxis**
 
@@ -253,7 +253,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Dag van de maand {#day-month}
 
-De `dayOfWeek` retourneert het getal dat de dag van de maand vertegenwoordigt.
+De `dayOfMonth` retourneert het getal dat de dag van de maand vertegenwoordigt.
 
 **Syntaxis**
 
@@ -355,7 +355,7 @@ De functie `extractMinutes` extraheert de component minute uit een bepaald tijds
 
 +++Voorbeeld
 
-* Invoer: `{%= extractMinute(stringToDate("2024-11-01T17:19:51Z"))%}`
+* Invoer: `{%= extractMinutes(stringToDate("2024-11-01T17:19:51Z"))%}`
 * Uitvoer: `19`
 
 +++
@@ -410,7 +410,7 @@ Waar de eerste tekenreeks het datumkenmerk is en de tweede waarde hoe u de datum
 >
 > Als een datumpatroon ongeldig is, wordt de datum teruggezet naar de ISO-standaardindeling.
 >
-> U kunt de datum die functies gebruiken Java zoals samengevat in [&#x200B; documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> U kunt de datum die functies gebruiken Java zoals samengevat in [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **Voorbeeld**
 
@@ -436,9 +436,9 @@ Waar de eerste tekenreeks het datumkenmerk is, is de tweede waarde hoe u de datu
 >
 > Als een datumpatroon ongeldig is, wordt de datum teruggezet naar de ISO-standaardindeling.
 >
-> U kunt de datum het formatteren functies van Java zoals samengevat in [&#x200B; documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html) gebruiken.
+> U kunt de datum het formatteren functies van Java zoals samengevat in [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html) gebruiken.
 >
-> U kunt het formatteren en geldige scènes gebruiken zoals samengevat in [&#x200B; documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) en [&#x200B; Gesteunde scènes &#x200B;](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+> U kunt het formatteren en geldige scènes gebruiken zoals samengevat in [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) en [ Gesteunde scènes ](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
 
 **Voorbeeld**
 
@@ -639,7 +639,7 @@ De functie `truncateToStartOfWeek` wijzigt een bepaalde datum-tijd door het aan 
 
 +++Voorbeeld
 
-* Invoer: `truncateToStartOfWeek(stringToDate("2024-11-19T17:19:51Z"))%} // tuesday`
+* Invoer: `{%= truncateToStartOfWeek(stringToDate("2024-11-19T17:19:51Z"))%} // tuesday`
 * Uitvoer: `2024-11-18T00:00Z // monday`
 
 +++

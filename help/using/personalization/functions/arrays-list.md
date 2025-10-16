@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 5%
+source-wordcount: '564'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ Gebruik deze functies om interactie met arrays, lijsten en tekenreeksen eenvoudi
 
 ## Alleen aantal null {#count-only-null}
 
-De `countOnlyNull` Deze functie wordt gebruikt om het aantal null-waarden in een lijst te tellen.
+De functie `countOnlyNull` wordt gebruikt om het aantal null-waarden in een lijst te tellen.
 
 **Syntaxis**
 
@@ -37,7 +37,7 @@ Retourneert 3.
 
 ## Tellen met null {#count-with-null}
 
-De `countWithNull` Deze functie wordt gebruikt om alle elementen van een lijst te tellen, inclusief null-waarden.
+De functie `countWithNull` wordt gebruikt om alle elementen van een lijst te tellen met inbegrip van ongeldige waarden.
 
 **Syntaxis**
 
@@ -55,7 +55,7 @@ Retourneert 6.
 
 ## Afzonderlijk{#distinct}
 
-De `distinct` functie wordt gebruikt om waarden op te halen uit een array of lijst waarvan dubbele waarden zijn verwijderd.
+De functie `distinct` wordt gebruikt om waarden op te halen uit een array of lijst waarvan dubbele waarden zijn verwijderd.
 
 **Syntaxis**
 
@@ -73,7 +73,7 @@ Met de volgende bewerking worden personen opgegeven die orders in meer dan één
 
 ## Aantal zonder onderscheid met null {#distinct-count-with-null}
 
-De `distinctCountWithNull` Deze functie wordt gebruikt om het aantal verschillende waarden in een lijst te tellen, inclusief de null-waarden.
+De functie `distinctCountWithNull` wordt gebruikt om het aantal verschillende waarden in een lijst te tellen met inbegrip van de ongeldige waarden.
 
 **Syntaxis**
 
@@ -91,7 +91,7 @@ Retourneert 3.
 
 ## Eerste object{#head}
 
-De `head` functie wordt gebruikt om het eerste item in een array of lijst te retourneren.
+De functie `head` wordt gebruikt om het eerste item in een array of lijst te retourneren.
 
 **Syntaxis**
 
@@ -101,7 +101,7 @@ De `head` functie wordt gebruikt om het eerste item in een array of lijst te ret
 
 **Voorbeeld**
 
-De volgende bewerking retourneert de eerste van de bovenste vijf bestellingen met de hoogste prijs. Meer informatie over de `topN` kan worden gevonden in de [first `n` in array](#first-n) sectie.
+De volgende bewerking retourneert de eerste van de bovenste vijf bestellingen met de hoogste prijs. Meer informatie over de `topN` functie kan in [ eerst `n` in serie ](#first-n) sectie worden gevonden.
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
@@ -109,7 +109,7 @@ De volgende bewerking retourneert de eerste van de bovenste vijf bestellingen me
 
 ## Eerste `n` in array {#first-n}
 
-De `topN` function wordt gebruikt om de eerste te retourneren `N` items in een array, indien gesorteerd in oplopende volgorde op basis van de opgegeven numerieke expressie.
+De functie `topN` wordt gebruikt om de eerste `N` -items in een array te retourneren, wanneer deze in oplopende volgorde worden gesorteerd op basis van de opgegeven numerieke expressie.
 
 **Syntaxis**
 
@@ -133,7 +133,7 @@ De volgende bewerking retourneert de eerste vijf bestellingen met de laagste pri
 
 ## In{#in}
 
-De `in` wordt gebruikt om te bepalen of een punt een lid van een serie of een lijst is.
+De functie `in` wordt gebruikt om te bepalen of een item lid is van een array of lijst.
 
 **Syntaxis**
 
@@ -151,7 +151,7 @@ De volgende bewerking definieert personen met verjaardagen in maart, juni of sep
 
 ## Inclusief{#includes}
 
-De `includes` wordt gebruikt om te bepalen of een array of lijst een bepaald item bevat.
+De functie `includes` wordt gebruikt om te bepalen of een array of lijst een bepaald item bevat.
 
 **Syntaxis**
 
@@ -169,7 +169,7 @@ De volgende bewerking definieert personen van wie de favoriete kleur rood bevat.
 
 ## Doorsnede{#intersects}
 
-De `intersects` functie wordt gebruikt om te bepalen of twee series of lijsten minstens één gemeenschappelijk lid hebben.
+De functie `intersects` wordt gebruikt om te bepalen of twee arrays of lijsten ten minste één gemeenschappelijk lid hebben.
 
 **Syntaxis**
 
@@ -207,7 +207,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 ## Laatste `n` in array{#last-n}
 
-De `bottomN` function wordt gebruikt om de laatste te retourneren `N` items in een array, indien gesorteerd in oplopende volgorde op basis van de opgegeven numerieke expressie.
+De functie `bottomN` wordt gebruikt om de laatste `N` -items in een array te retourneren, wanneer deze in oplopende volgorde worden gesorteerd op basis van de opgegeven numerieke expressie.
 
 **Syntaxis**
 
@@ -231,11 +231,11 @@ De volgende bewerking retourneert de laatste vijf bestellingen met de hoogste pr
 
 ## Niet in{#notin}
 
-De `notIn` wordt gebruikt om te bepalen of een item geen lid is van een array of lijst.
+De functie `notIn` wordt gebruikt om te bepalen of een item geen lid is van een array of lijst.
 
 >[!NOTE]
 >
->De `notIn` function *ook* zorgt ervoor dat geen van beide waarden gelijk is aan null. Daarom zijn de resultaten geen exacte ontkenning van de `in` functie.
+>De `notIn` functie ** zorgt ook ervoor dat geen van beide waarde aan ongeldig is. Daarom zijn de resultaten geen exacte negatie van de functie `in` .
 
 **Syntaxis**
 
@@ -254,7 +254,7 @@ De volgende bewerking definieert personen met verjaardagen die zich niet in maar
 
 ## Subset van{#subset}
 
-De `subsetOf` wordt gebruikt om te bepalen of een specifieke array (array A) een subset is van een andere array (array B). Met andere woorden, alle elementen in array A zijn elementen van array B.
+De functie `subsetOf` wordt gebruikt om te bepalen of een specifieke array (array A) een subset is van een andere array (array B). Met andere woorden, alle elementen in array A zijn elementen van array B.
 
 **Syntaxis**
 
@@ -272,7 +272,7 @@ De volgende bewerking definieert mensen die al hun favoriete steden hebben bezoc
 
 ## Superset van{#superset}
 
-De `supersetOf` wordt gebruikt om te bepalen of een specifieke array (array A) een superset is van een andere array (array B). Met andere woorden, die array A bevat alle elementen in array B.
+De functie `supersetOf` wordt gebruikt om te bepalen of een specifieke array (array A) een superset is van een andere array (array B). Met andere woorden, die array A bevat alle elementen in array B.
 
 **Syntaxis**
 
@@ -285,5 +285,5 @@ De `supersetOf` wordt gebruikt om te bepalen of een specifieke array (array A) e
 De volgende bewerking definieert mensen die sushi en pizza hebben gegeten ten minste één keer.
 
 ```sql
-{%= supersetOf(person.eatenFoods,["sushi", "pizza"] %}
+{%= supersetOf(person.eatenFoods,["sushi", "pizza"]) %}
 ```

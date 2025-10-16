@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 0%
+source-wordcount: '244'
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ Leer hoe te om functies Math in de verpersoonlijkingsredacteur te gebruiken.
 
 ## Absoluut {#absolute}
 
-De `absolute` functie wordt gebruikt om een getal om te zetten is absolute waarde.
+De functie `absolute` wordt gebruikt om een getal om te zetten in de absolute waarde ervan.
 
 **Syntaxis**
 
@@ -29,7 +29,7 @@ De `absolute` functie wordt gebruikt om een getal om te zetten is absolute waard
 
 ## formatNumber {#format-number}
 
-De `formatNumber` wordt gebruikt om een aantal in zijn taal-gevoelige vertegenwoordiging te formatteren.
+De functie `formatNumber` wordt gebruikt om een willekeurig getal op te maken in de taalgevoelige representatie.
 
 Het accepteert een getal en een tekenreeks die de landinstelling vertegenwoordigen en retourneert een opgemaakte tekenreeks van het getal in de gewenste landinstelling.
 
@@ -39,7 +39,7 @@ Het accepteert een getal en een tekenreeks die de landinstelling vertegenwoordig
 {%= formatNumber(number/double,string) %}: string
 ```
 
-U kunt opmaak en geldige landinstellingen gebruiken, zoals in [Documentatie oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) en [Ondersteunde landinstellingen](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+U kunt het formatteren en geldige scènes gebruiken zoals samengevat in [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) en [ Gesteunde scènes ](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
 
 **Voorbeeld**
 
@@ -51,7 +51,7 @@ Deze query retourneert een opgemaakte tekenreeks in het Arabisch die overeenkomt
 
 ## Willekeurig {#random}
 
-De `random` wordt gebruikt om een willekeurige waarde tussen 0 en 1 te retourneren.
+De functie `random` wordt gebruikt om een willekeurige waarde tussen 0 en 1 te retourneren.
 
 **Syntaxis**
 
@@ -61,7 +61,7 @@ De `random` wordt gebruikt om een willekeurige waarde tussen 0 en 1 te retourner
 
 ## Omlaag afronden {#round-down}
 
-De `roundDown` Deze functie wordt gebruikt om een getal omlaag te afronden.
+De functie `roundDown` wordt gebruikt om een getal omlaag te afronden.
 
 **Syntaxis**
 
@@ -71,7 +71,7 @@ De `roundDown` Deze functie wordt gebruikt om een getal omlaag te afronden.
 
 ## Omhoog afronden {#round-up}
 
-De `Count only null` functie wordt gebruikt rond naar boven een aantal.
+De functie `roundUp` wordt gebruikt om een getal naar boven te afronden.
 
 **Syntaxis**
 
@@ -81,7 +81,7 @@ De `Count only null` functie wordt gebruikt rond naar boven een aantal.
 
 ## Naar hexadecimale tekenreeks {#to-hex-string}
 
-De `toHexString` functie converteert een getal naar de hexadecimale tekenreeks.
+De functie `toHexString` zet om het even welk aantal in zijn hexadecimale koord om.
 
 **Syntaxis**
 
@@ -91,7 +91,7 @@ De `toHexString` functie converteert een getal naar de hexadecimale tekenreeks.
 
 **Voorbeeld**
 
-Deze query retourneert de hexadecimale waarde 158 i.e 9e.
+Deze query retourneert de hexadecimale waarde 158, d.w.z., 9e.
 
 ```sql
 {%= toHexString(158) %}
@@ -99,7 +99,7 @@ Deze query retourneert de hexadecimale waarde 158 i.e 9e.
 
 ## Naar int {#to-int}
 
-De `toInt` wordt gebruikt om een van deze typen (getal, dubbel, int, long, float, short, byte, boolean, string) om te zetten in een geheel getal.
+De functie `toInt` wordt gebruikt om elk van deze typen (getal, double, int, long, float, short, byte, boolean, string) om te zetten in een geheel getal.
 
 **Syntaxis**
 
@@ -109,7 +109,7 @@ De `toInt` wordt gebruikt om een van deze typen (getal, dubbel, int, long, float
 
 **Voorbeeld**
 
-Deze query retourneert de gehele waarde 42,6, d.w.z. 42.
+Deze query retourneert de gehele waarde 42.6, d.w.z. 42.
 
 ```sql
 {%= toInt(42.6) %}: integer
@@ -117,7 +117,7 @@ Deze query retourneert de gehele waarde 42,6, d.w.z. 42.
 
 ## Naar percentage {#to-percentage}
 
-De `toPercentage` wordt gebruikt om een getal om te zetten in een percentage.
+De functie `toPercentage` wordt gebruikt om een getal om te zetten in een percentage.
 
 **Syntaxis**
 
@@ -127,7 +127,7 @@ De `toPercentage` wordt gebruikt om een getal om te zetten in een percentage.
 
 ## Naar precisie {#to-precision}
 
-De `toPrecision` wordt gebruikt om een getal om te zetten in de vereiste precisie.
+De functie `toPrecision` wordt gebruikt om een getal om te zetten in de vereiste precisie.
 
 **Syntaxis**
 
@@ -137,7 +137,7 @@ De `toPrecision` wordt gebruikt om een getal om te zetten in de vereiste precisi
 
 ## Naar tekenreeks {#to-string}
 
-De **toString** functie converteert een willekeurig getal naar de tekenreeksrepresentatie.
+De **toString** functie zet om het even welk aantal in zijn koordvertegenwoordiging.
 
 **Syntaxis**
 

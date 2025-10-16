@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 1%
@@ -99,14 +99,14 @@ De instructie `elseif` geeft een nieuwe voorwaarde op die moet worden getest als
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
    Hi! Esteemed gold member. <a href="https://www.somedomain.com/gold">Checkout your exclusive perks </a>
-   {%else%} if 'profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8c").status = "existing"'%}
+   {%else if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8c").status = "existing"%}
    Hi! Esteemed silver member. <a href="https://www.somedomain.com/silver">Checkout your exclusive perks </a>
    {%/if%}
    ```
 
 >[!NOTE]
 >
->Meer over publiek en de segmentatieservice leren, verwijs naar [&#x200B; deze sectie &#x200B;](../../audience/about-audiences.md).
+>Meer over publiek en de segmentatieservice leren, verwijs naar [ deze sectie ](../../audience/about-audiences.md).
 
 
 ## Tenzij{#unless}
@@ -127,7 +127,7 @@ Enige inhoud renderen op basis van extensie e-mailadres:
 {%#unless endsWith(profile.personalEmail.address, ".edu")%}
 Some Normal Content
 {%else%}
-Some edu specific content Content
+Some edu specific content
 {%/unless%}
 ```
 
@@ -234,7 +234,7 @@ Met deze functie kunt u contextafhankelijke informatie toevoegen aan elke native
 
 >[!NOTE]
 >
->De functie van Meta-gegevens van de Uitvoering wordt niet gesteund door [&#x200B; douaneacties &#x200B;](../../action/action.md).
+>De functie van Meta-gegevens van de Uitvoering wordt niet gesteund door [ douaneacties ](../../action/action.md).
 
 U kunt bijvoorbeeld de functie Metagegevens uitvoeren gebruiken om een specifieke id toe te voegen aan elke levering die naar elk profiel wordt verzonden. Deze informatie wordt tijdens runtime gegenereerd en de verrijkte metagegevens voor uitvoering kunnen vervolgens worden geëxporteerd voor afstemming op een extern rapportageplatform.
 
@@ -263,7 +263,7 @@ Tijdens runtime wordt de metagegevenswaarde toegevoegd aan de bestaande **[!UICO
 
 >[!NOTE]
 >
->Leer meer op datasets in [&#x200B; deze sectie &#x200B;](../../data/get-started-datasets.md).
+>Leer meer op datasets in [ deze sectie ](../../data/get-started-datasets.md).
 
 **Beperking**
 

@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
 source-wordcount: '2422'
 ht-degree: 0%
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 # Aan de slag met Helper-functies{#functions}
 
-U kunt de sjabloontaal [!DNL Journey Optimizer] gebruiken om bewerkingen op gegevens uit te voeren, zoals berekeningen, gegevensopmaak of conversies, voorwaarden en deze te bewerken in de context van personalisatie. Leer de richtlijnen van de verpersoonlijkingssyntaxis op [&#x200B; deze pagina &#x200B;](../personalization-syntax.md).
+U kunt de sjabloontaal [!DNL Journey Optimizer] gebruiken om bewerkingen op gegevens uit te voeren, zoals berekeningen, gegevensopmaak of conversies, voorwaarden en deze te bewerken in de context van personalisatie. Leer de richtlijnen van de verpersoonlijkingssyntaxis op [ deze pagina ](../personalization-syntax.md).
 
-➡️ [&#x200B; Leer hoe te om hulpfuncties in deze video te gebruiken &#x200B;](#video)
+➡️ [ Leer hoe te om hulpfuncties in deze video te gebruiken ](#video)
 
 De taal van het malplaatje wordt leveraged in helperfuncties beschikbaar in verpersoonlijkingsdrop-down lijst van de verpersoonlijkingsredacteur, zoals hieronder:
 
@@ -25,9 +25,9 @@ De taal van het malplaatje wordt leveraged in helperfuncties beschikbaar in verp
 
 >[!NOTE]
 >
->De functies en de mogelijkheden beschikbaar in de verpersoonlijkingsredacteur verschillen van degenen beschikbaar in de [&#x200B; Reis geavanceerde uitdrukkingsredacteur &#x200B;](../../building-journeys/expression/expressionadvanced.md).
+>De functies en de mogelijkheden beschikbaar in de verpersoonlijkingsredacteur verschillen van degenen beschikbaar in de [ Reis geavanceerde uitdrukkingsredacteur ](../../building-journeys/expression/expressionadvanced.md).
 
-In de [!DNL Journey Optimizer] verpersoonlijkingsredacteur, helperfuncties worden gegroepeerd in drie categorieën: [&#x200B; Functies &#x200B;](#functions-helper), [&#x200B; Helpers &#x200B;](#helper-helper) en [&#x200B; Operatoren &#x200B;](#operators-helper).
+In de [!DNL Journey Optimizer] verpersoonlijkingsredacteur, helperfuncties worden gegroepeerd in drie categorieën: [ Functies ](#functions-helper), [ Helpers ](#helper-helper) en [ Operatoren ](#operators-helper).
 
 Selecteer een categorie voor toegang tot subcategorieën en functies.
 
@@ -133,7 +133,7 @@ Klik op het pictogram `...` om de beschrijving van de functie weer te geven en d
         <td><a href="dates.md#convert-zoned-date-time">ZonedDateTime converteren</a></td><td>Deze functie converteert een datum-tijd naar een bepaalde tijdzone.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#current">Huidige tijd in milliseconden</a></td><td>Deze functie haalt de huidige tijd in epoch millisecond op.</td>
+        <td><a href="dates.md#current">Huidige tijd in milliseconden</a></td><td>Deze functie haalt de huidige tijd in epoch milliseconds op.</td>
     </tr>
     <tr>
         <td><a href="dates.md#date-diff">Datumverschil</a></td><td>Deze functie haalt het verschil tussen twee data in aantal dagen op.</td>
@@ -212,7 +212,6 @@ Klik op het pictogram `...` om de beschrijving van de functie weer te geven en d
         <td><a href="dates.md#diff-years">Verschil in jaren</a></td><td>Deze functie retourneert het verschil tussen twee datums in termen van jaren.</td>
     </tr>
 </table>
-</table>
 
 ### Kaartfuncties {#map-functions}
 
@@ -247,7 +246,7 @@ Klik op het pictogram `...` om de beschrijving van de functie weer te geven en d
         <td><a href="math.md#round-up">Omhoog afronden</a></td><td>Deze functie rondt een getal af</td>
     </tr>
     <tr>
-    <td><a href="math.md#to-hex-string">Naar hexadecimale tekenreeks</a></td><td>converteert een willekeurig getal naar de hexadecimale tekenreeks.</td>
+    <td><a href="math.md#to-hex-string">Naar hexadecimale tekenreeks</a></td><td>Zet om het even welk aantal in zijn hexadecimale koord om.</td>
     </tr>
     <tr>
     <td><a href="math.md#to-int">ToInt</a></td><td>Zet om het even welk van deze types (aantal, dubbel, int, lang, vlotter, kort, byte, boolean, koord) in een geheel om.</td>
@@ -427,7 +426,7 @@ Klik op het pictogram `...` om de beschrijving van de functie weer te geven en d
 
 ## Helpers{#helper-helper}
 
-De helpers zijn gedetailleerd op [&#x200B; deze pagina &#x200B;](helpers.md).
+De helpers zijn gedetailleerd op [ deze pagina ](helpers.md).
 
 
 <table>
