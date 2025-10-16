@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: b5ea41cec72fb80dd2fcc3aa467e80cd293fd239
+source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ Gebruik [!DNL Journey Optimizer] om tekstberichten (SMS/MMS/RCS) naar uw klanten
 
 Tekstberichten kunnen worden gemaakt en verzonden tijdens een rit of in een campagne. Gebruik voor SMS, MMS en RCS de SMS-handeling.
 
-* In a **Reis**. Creeer een reis, voeg een activiteit van SMS toe, en bepaal basismontages. Blader vervolgens naar het deelvenster Handelingen: SMS rechts om de inhoud voor het SMS-, MMS- of RCS-bericht te maken. [&#x200B; leer hoe te om een reis &#x200B;](../building-journeys/journey-gs.md) tot stand te brengen
+* In a **Reis**. Creeer een reis, voeg een activiteit van SMS toe, en bepaal basismontages. Blader vervolgens naar het deelvenster SMS-handelingen aan de rechterkant om de inhoud voor het SMS-, MMS- of RCS-bericht te maken. [ leer hoe te om een reis ](../building-journeys/journey-gs.md) tot stand te brengen
 
-* In a **Campagne**. Maak een campagne, selecteer SMS als uw actie en definieer basisinstellingen. Vervolgens bewerkt u de inhoud van het bericht om het SMS-, MMS- of RCS-bericht te definiëren dat u wilt verzenden. [&#x200B; Leer hoe te om een campagne &#x200B;](../campaigns/create-campaign.md#configure) tot stand te brengen
+* In a **Campagne**. Maak een campagne, selecteer SMS als uw actie en definieer basisinstellingen. Vervolgens bewerkt u de inhoud van het bericht om het SMS-, MMS- of RCS-bericht te definiëren dat u wilt verzenden. [ Leer hoe te om een campagne ](../campaigns/create-campaign.md#configure) tot stand te brengen
 
 Adobe Journey Optimizer verzendt tekstberichten via SMS-serviceproviders (of SMS-gatewayproviders). Voordat u uw SMS/MMS/RCS-bericht maakt, configureert u uw serviceprovider voor tekst en RCS-berichten met Journey Optimizer. [Meer informatie](sms-configuration.md)
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer verzendt tekstberichten via SMS-serviceproviders (of SMS
 
   +++Zie video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3428917?learn=on&captions=dut)
+  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
   +++
 
@@ -79,7 +79,7 @@ Adobe Journey Optimizer verzendt tekstberichten via SMS-serviceproviders (of SMS
 
   +++Zie video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3430379?quality=12&learn=on&captions=dut)
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
   +++
 
@@ -88,6 +88,6 @@ Adobe Journey Optimizer verzendt tekstberichten via SMS-serviceproviders (of SMS
 
   +++Zie video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3464761?captions=dut)
+  >[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
   +++

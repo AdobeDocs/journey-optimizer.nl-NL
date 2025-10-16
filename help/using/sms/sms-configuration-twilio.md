@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '439'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ## API-referentie configureren voor SMS/MMS
 
-Als u Twilio met Journey Optimizer wilt configureren, moet u een nieuwe API-referenties maken die voor Twilio worden gebruikt:
+Als u Twilio wilt configureren met Journey Optimizer, moet u nieuwe API-referenties maken voor Twilio:
 
 1. Blader in de linkertrack naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** `>` **[!UICONTROL SMS Settings]** en selecteer het menu **[!UICONTROL API Credentials]** . Klik op de knop **[!UICONTROL Create new API credentials]**.
 
@@ -30,7 +30,7 @@ Als u Twilio met Journey Optimizer wilt configureren, moet u een nieuwe API-refe
 
    * **[!UICONTROL Account SID]** en **[!UICONTROL Auth Token]**: heb toegang tot **Info van de Rekening** ruit van uw pagina van het dashboard van de Console van Twilio om uw geloofsbrieven te vinden.
 
-   * **[!UICONTROL Message SID]**: voer de unieke id in die is toegewezen aan elk bericht dat door de API van Twilio is gemaakt. Leer meer in [&#x200B; Documentatie van Twilio &#x200B;](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
+   * **[!UICONTROL Message SID]**: voer de unieke id in die is toegewezen aan elk bericht dat door de API van Twilio is gemaakt. Leer meer in [ Documentatie van Twilio ](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
 
    * **[!UICONTROL Inbound Number]**: voeg uw unieke binnenkomende aantal toe. Hierdoor kunt u dezelfde API-referenties gebruiken in verschillende sandboxen, elk met een eigen binnenkomend nummer.
 
@@ -54,9 +54,9 @@ Nadat u de API-referentie hebt gemaakt en geconfigureerd, moet u nu een kanaalco
 
 ## API-referentie configureren voor RCS
 
-Het overseinen RCS wordt gesteund in Adobe Journey Optimizer door Twilio gebruikend de [&#x200B; eigenschap van de Leverancier van SMS van de Douane &#x200B;](sms-configuration-custom.md). Dit maakt het mogelijk rijke, interactieve berichten via geverifieerde bedrijfsprofielen te verzenden, met elementen zoals carrousels, knoppen en multimedia-inhoud.
+Het overseinen RCS wordt gesteund in Adobe Journey Optimizer door Twilio gebruikend de [ eigenschap van de Leverancier van SMS van de Douane ](sms-configuration-custom.md). Dit maakt het mogelijk rijke, interactieve berichten via geverifieerde bedrijfsprofielen te verzenden, met elementen zoals carrousels, knoppen en multimedia-inhoud.
 
-➡️ [&#x200B; Onderzoek hoe Twilio RCS in de documentatie van Twilio steunt &#x200B;](https://www.twilio.com/docs/rcs)
+➡️ [ Onderzoek hoe Twilio RCS in de documentatie van Twilio steunt ](https://www.twilio.com/docs/rcs)
 
 Om RCS overseinen met Twilio toe te laten, moeten de nieuwe geloofsbrieven van API via een Leverancier van douaneSMS worden gevormd. De bestaande geloofsbrieven van TwilioSMS zijn niet compatibel, aangezien RCS een verschillend ladingsformaat vereist.
 
@@ -68,11 +68,11 @@ RCS met Twilio configureren:
 
 1. **creeer een Webhaak van SMS**
 
-   [&#x200B; vorm een Webhaak van SMS &#x200B;](sms-configuration-custom.md#webhook) die inkomende RCS berichtreacties of leveringsupdates kan ontvangen. Deze webhaak moet correct aan uw opstelling van Twilio voor bidirectionele mededeling worden verbonden.
+   [ vorm een Webhaak van SMS ](sms-configuration-custom.md#webhook) die inkomende RCS berichtreacties of leveringsupdates kan ontvangen. Deze webhaak moet correct aan uw opstelling van Twilio voor bidirectionele mededeling worden verbonden.
 
 1. **creeer API Verantwoordelijkheid gebruikend Douane als verkoper van SMS**
 
-   In Journey Optimizer, [&#x200B; bepaal nieuwe API geloofsbrieven &#x200B;](sms-configuration-custom.md#api-credential) specifiek voor RCS gebruikend &quot;Douane&quot;als verkoper van SMS. Gebruik de aangewezen methode van de RCS eindpuntauthentificatie, basis URL, en kopballen.
+   In Journey Optimizer, [ bepaal nieuwe API geloofsbrieven ](sms-configuration-custom.md#api-credential) specifiek voor RCS gebruikend &quot;Douane&quot;als verkoper van SMS. Gebruik de aangewezen methode van de RCS eindpuntauthentificatie, basis URL, en kopballen.
 
 Nadat u de API-referentie hebt gemaakt en geconfigureerd, moet u nu een kanaalconfiguratie voor uw RCS-berichten maken. [Meer informatie](sms-configuration-surface.md)
 

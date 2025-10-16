@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 7973f56c26c01d4845138f70cd00bce8ab7fc09c
+source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 # Uitschakelen van beheer voor tekstberichten {#sms-opt-out}
 
-In overeenstemming met de industriestandaarden en -voorschriften moeten alle SMS-marketingberichten een manier bevatten waarop de ontvangers hun abonnement gemakkelijk kunnen opzeggen. [&#x200B; Leer meer over privacy &amp; opt-out beheer &#x200B;](../privacy/opt-out.md)
+In overeenstemming met de industriestandaarden en -voorschriften moeten alle SMS-marketingberichten een manier bevatten waarop de ontvangers hun abonnement gemakkelijk kunnen opzeggen. [ Leer meer over privacy &amp; opt-out beheer ](../privacy/opt-out.md)
 
 >[!IMPORTANT]
 >
->Communicatie van tekstberichten kan afhankelijk van zijn aard, de plaats van waar u uw tekstberichten verzendt, en de plaats van uw ontvangers onderworpen zijn aan diverse wettelijke nalevingsvereisten. Terwijl Adobe Journey Optimizer de berichten over Korte codes, Lange codes en Gratis nummers afhandelt zoals hieronder beschreven, raadpleegt u uw juridische adviseur om ervoor te zorgen dat uw communicatie met tekstberichten voldoet aan alle toepasselijke wettelijke nalevingsvereisten.
+>Communicatie van tekstberichten kan afhankelijk van hun aard, de plaats van waar u tekstberichten verzendt, en de plaats van uw ontvangers onderworpen zijn aan diverse wettelijke nalevingsvereisten. Hoewel Adobe Journey Optimizer berichten over korte codes, lange codes en gratis nummers afhandelt zoals hieronder wordt beschreven, raadpleegt u de juridische adviseur om ervoor te zorgen dat uw communicatie over tekstberichten voldoet aan alle toepasselijke wettelijke nalevingsvereisten.
 >
 
 ## Oorspronkelijke binnenkomende trefwoorden {#sms-native-keywords}
@@ -52,7 +52,7 @@ Merk op dat als een klant STOP aan een tekstbericht antwoordt, de leverancier al
 
 ## Lijsten van gewezen personen {#sms-blocklists}
 
-Naast het tegenhouden van Adobe Journey Optimizer verzendt op basis van de opt-out status (voor directe integratie met Twilio, Infobip, of Sinch), handhaven de meeste gatewayproviders van SMS ook een lijst van gewezen personen die u ervoor zorgt dat geen SMS-bericht wordt geleverd aan een individu dat ervoor heeft gekozen om te weigeren. Als u een leverancier buiten Sinch of Twilio gebruikt, en een SMS via [&#x200B; douanekanaal &#x200B;](../building-journeys/using-custom-actions.md) verzendt, moet u dit met uw leverancier bevestigen.
+Naast het tegenhouden van Adobe Journey Optimizer verzendt op basis van de opt-out status (voor directe integratie met Twilio, Infobip, of Sinch), handhaven de meeste gatewayproviders van SMS ook een lijst van gewezen personen die u ervoor zorgt dat geen SMS-bericht wordt geleverd aan een individu dat ervoor heeft gekozen om te weigeren. Als u een leverancier buiten Sinch of Twilio gebruikt, en een SMS via [ douanekanaal ](../building-journeys/using-custom-actions.md) verzendt, moet u dit met uw leverancier bevestigen.
 
 
 ## Korte codes {#short-codes}
@@ -69,8 +69,8 @@ Alfanumerieke identiteitskaart van de Afzender is slechts voor unidirectioneel o
 
 * In de onderstaande video leert u hoe u dubbele aanmelding voor SMS kunt configureren.
 
-+++ Zie video
+  +++ Zie video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440284/?learn=on&captions=dut)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
-+++
+  +++
