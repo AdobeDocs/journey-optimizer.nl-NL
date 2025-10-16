@@ -27,9 +27,9 @@ Met pushberichten bereikt u op elk gewenst moment gebruikers van uw mobiele app,
 
 U kunt pushmeldingen maken:
 
-* In a **Weg**: Zodra u een activiteit van de Duw in uw reis toevoegde, en bepaalde basismontages, gebruik de **[!UICONTROL Actions: Push]** juiste ruit om de inhoud voor de Duw berichten tot stand te brengen. [ leer hoe te om een reis ](../building-journeys/journey-gs.md) tot stand te brengen
+* In a **Weg**: Zodra u een activiteit van de Duw in uw reis toevoegde, en bepaalde basismontages, gebruik de **[!UICONTROL Actions: Push]** juiste ruit om de inhoud voor de Duw berichten tot stand te brengen. [&#x200B; leer hoe te om een reis &#x200B;](../building-journeys/journey-gs.md) tot stand te brengen
 
-* In a **Campagne**: Zodra u een campagne creeerde, uitgezocht duw bericht als uw actie en bepaalt basismontages. [ Leer hoe te om een campagne ](../campaigns/create-campaign.md#configure) tot stand te brengen
+* In a **Campagne**: Zodra u een campagne creeerde, uitgezocht duw bericht als uw actie en bepaalt basismontages. [&#x200B; Leer hoe te om een campagne &#x200B;](../campaigns/create-campaign.md#configure) tot stand te brengen
 
 Gebruik de specifieke lusjes om de montages van het duw- bericht voor **iOS** en **Android** werkende systemen te bepalen.
 

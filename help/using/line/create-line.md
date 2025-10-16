@@ -23,7 +23,7 @@ Blader op de onderstaande tabbladen om te leren hoe u een LINE-bericht kunt toev
 
 >[!BEGINTABS]
 
->[!TAB  voeg een bericht van de LIJN aan een Reis ] toe
+>[!TAB voeg een bericht van de LIJN aan een Reis  toe]
 
 1. Open uw reis dan belemmering en laat vallen a **LIJN** activiteit van de **sectie van Acties** van het palet.
 
@@ -31,7 +31,7 @@ Blader op de onderstaande tabbladen om te leren hoe u een LINE-bericht kunt toev
 
 1. Verstrek basisinformatie over uw bericht (etiket, beschrijving, categorie), dan kies de berichtconfiguratie aan gebruik.
 
-   Voor meer informatie over hoe te om een reis te vormen, verwijs naar [ deze pagina ](../building-journeys/journey-gs.md)
+   Voor meer informatie over hoe te om een reis te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../building-journeys/journey-gs.md)
 
    Het veld **[!UICONTROL configuration]** wordt standaard voorgevuld met de laatste configuratie die de gebruiker voor dat kanaal heeft gebruikt.
 
@@ -55,7 +55,7 @@ U kunt nu de inhoud van uw LIJNbericht ontwerpen vanaf de knop **[!UICONTROL Edi
 
 1. Kies in de sectie **[!UICONTROL Actions]** de **[!UICONTROL LINE]** en selecteer of maak een nieuwe configuratie.
 
-   Leer meer over de configuratie van de LIJN in [ deze pagina ](line-configuration.md).
+   Leer meer over de configuratie van de LIJN in [&#x200B; deze pagina &#x200B;](line-configuration.md).
 
    ![](assets/campaign-line-1.png)
 
@@ -63,7 +63,7 @@ U kunt nu de inhoud van uw LIJNbericht ontwerpen vanaf de knop **[!UICONTROL Edi
 
 1. Geef in de sectie **[!UICONTROL Actions tracking]** op of u wilt bijhouden of er op koppelingen in uw SMS-bericht wordt geklikt.
 
-1. Campagnes worden ontworpen om op een specifieke datum of op een terugkomende frequentie worden uitgevoerd. Leer hoe te om **[!UICONTROL Schedule]** van uw campagne in [ te vormen deze sectie ](../campaigns/create-campaign.md#schedule).
+1. Campagnes worden ontworpen om op een specifieke datum of op een terugkomende frequentie worden uitgevoerd. Leer hoe te om **[!UICONTROL Schedule]** van uw campagne in [&#x200B; te vormen deze sectie &#x200B;](../campaigns/create-campaign.md#schedule).
 
 1. Kies in het menu **[!UICONTROL Action triggers]** de **[!UICONTROL Frequency]** van uw SMS-bericht:
 
@@ -96,12 +96,12 @@ Volg onderstaande stappen om uw LIJNinhoud te configureren.
 
 1. Klik op **[!UICONTROL Edit code]** om JSON-inhoud te bewerken.
 
-1. Gebruik de verpersoonlijkingsredacteur om inhoud te bepalen, verpersoonlijking en dynamische inhoud toe te voegen. U kunt elk kenmerk gebruiken, bijvoorbeeld de profielnaam of plaats. U kunt ook voorwaardelijke regels definiëren. Blader naar de volgende pagina&#39;s om meer over [ verpersoonlijking ](../personalization/personalize.md) en [ dynamische inhoud ](../personalization/get-started-dynamic-content.md) in de verpersoonlijkingsredacteur te leren.
+1. Gebruik de verpersoonlijkingsredacteur om inhoud te bepalen, verpersoonlijking en dynamische inhoud toe te voegen. U kunt elk kenmerk gebruiken, bijvoorbeeld de profielnaam of plaats. U kunt ook voorwaardelijke regels definiëren. Blader naar de volgende pagina&#39;s om meer over [&#x200B; verpersoonlijking &#x200B;](../personalization/personalize.md) en [&#x200B; dynamische inhoud &#x200B;](../personalization/get-started-dynamic-content.md) in de verpersoonlijkingsredacteur te leren.
 
 1. Klik op **[!UICONTROL Save]** en controleer uw bericht in de voorvertoning.
 
 1. Gebruik de knop **[!UICONTROL Simulate content]** om een voorvertoning weer te geven van de inhoud van uw lijnbericht en de inhoud van uw persoonlijke gegevens.
 
-Nadat u de tests hebt uitgevoerd en de inhoud hebt gevalideerd, kunt u het LINE-bericht naar het publiek sturen. Deze stappen zijn gedetailleerd in [ deze pagina ](send-line.md)
+Nadat u de tests hebt uitgevoerd en de inhoud hebt gevalideerd, kunt u het LINE-bericht naar het publiek sturen. Deze stappen zijn gedetailleerd in [&#x200B; deze pagina &#x200B;](send-line.md)
 
 Zodra verzonden, kunt u het effect van uw LIJN binnen de Campagne of rapporten van de Reis meten. Raadpleeg [deze sectie](../reports/campaign-global-report-cja.md) voor meer informatie over rapporten.

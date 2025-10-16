@@ -25,14 +25,14 @@ ht-degree: 1%
 
 ## Aan de slag met beleid voor gegevensbeheer {#gs}
 
-Met zijn [ kader van de Etikettering en van het Gebruik van Gegevens van 0} (DULE), staat Adobe Experience Platform u toe om het beleid van het gegevensbeheer over uw kanalen te beheren en af te dwingen door ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html){target="_blank"} het etiketteren van uw gebieden **en het creëren van** marketing acties **voor elk kanaal.**
+Met zijn [&#x200B; kader van de Etikettering en van het Gebruik van Gegevens van 0&rbrace; (DULE), staat Adobe Experience Platform u toe om het beleid van het gegevensbeheer over uw kanalen te beheren en af te dwingen door &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html){target="_blank"} het etiketteren van uw gebieden **en het creëren van** marketing acties **voor elk kanaal.**
 
-Zodra de etiketten en de marketing acties worden bepaald, kunt u **beleid van het gegevensbeheer** tot stand brengen dat deze twee elementen verbindt. U kunt bijvoorbeeld een beleid instellen dat een ePHI-label koppelt aan een marketingactie &quot;e-mailadressering&quot;, zodat velden met de naam &quot;ePHI&quot; niet worden gebruikt voor het personaliseren van e-mailberichten. [ Leer hoe te om het beleid van het gegevensbeheer te creëren ](#policy)
+Zodra de etiketten en de marketing acties worden bepaald, kunt u **beleid van het gegevensbeheer** tot stand brengen dat deze twee elementen verbindt. U kunt bijvoorbeeld een beleid instellen dat een ePHI-label koppelt aan een marketingactie &quot;e-mailadressering&quot;, zodat velden met de naam &quot;ePHI&quot; niet worden gebruikt voor het personaliseren van e-mailberichten. [&#x200B; Leer hoe te om het beleid van het gegevensbeheer te creëren &#x200B;](#policy)
 
 Nadat u het governancebeleid hebt gemaakt, kunt u de marketingacties toepassen op uw reizen/campagnes en reizen aangepaste acties.
-[ Leer hoe te om marketing acties in Journey Optimizer toe te passen ](#apply-marketing-actions)
+[&#x200B; Leer hoe te om marketing acties in Journey Optimizer toe te passen &#x200B;](#apply-marketing-actions)
 
-Wanneer het bouwen van een reis of een campagne, na het selecteren van een kanaalconfiguratie of het toevoegen van een douaneactie, verifieert het systeem of de marketing actie in de configuratie van het berichtkanaal of de douaneactie deel van een beleid van het gegevensbeheer uitmaakt. Als zo, controleren de systemen of om het even welke gebieden van het gerichte publiek of berichtverpersoonlijking door het beleid worden geëtiketteerd en beperkt. Als een dergelijk etiket wordt ontdekt, wordt het publiceren van de reis of de campagne geblokkeerd. [ Leer hoe te om het beleidsschending van het gegevensbeheer te ontdekken ](#violation)
+Wanneer het bouwen van een reis of een campagne, na het selecteren van een kanaalconfiguratie of het toevoegen van een douaneactie, verifieert het systeem of de marketing actie in de configuratie van het berichtkanaal of de douaneactie deel van een beleid van het gegevensbeheer uitmaakt. Als zo, controleren de systemen of om het even welke gebieden van het gerichte publiek of berichtverpersoonlijking door het beleid worden geëtiketteerd en beperkt. Als een dergelijk etiket wordt ontdekt, wordt het publiceren van de reis of de campagne geblokkeerd. [&#x200B; Leer hoe te om het beleidsschending van het gegevensbeheer te ontdekken &#x200B;](#violation)
 
 ## Labels en marketingacties maken {#labels-marketing-actions}
 
@@ -76,13 +76,13 @@ Nadat u beleid hebt gecreeerd, moet u de relevante marketing acties op uw Journe
 
    ![](../privacy/assets/governance-channel-configuration.png)
 
-1. Voltooi de instelling van de kanaalconfiguratie en sla deze op. [ leer hoe te de configuratie van het opstellingskanaal ](../configuration/channel-surfaces.md).
+1. Voltooi de instelling van de kanaalconfiguratie en sla deze op. [&#x200B; leer hoe te de configuratie van het opstellingskanaal &#x200B;](../configuration/channel-surfaces.md).
 
 1. Wanneer het creëren van een bericht in uw reis of campagne, selecteer de relevante kanaalconfiguratie. Voltooi de configuratie van uw reis of campagne en sla deze op.
 
 Voordat het systeem de reis of de campagne activeert, controleert het of de marketingactie in de geselecteerde kanaalconfiguratie deel uitmaakt van een beleid voor gegevensbeheer. Als zo, controleren de systemen of om het even welke gebieden van het gerichte publiek of berichtverpersoonlijking door het beleid worden geëtiketteerd en beperkt.
 
-Als het systeem een beperkt veld identificeert, wordt een fout weergegeven waardoor u de reis of de campagne niet kunt publiceren. [ Leer hoe te om de schending van het governance beleid te ontdekken ](#violation)
+Als het systeem een beperkt veld identificeert, wordt een fout weergegeven waardoor u de reis of de campagne niet kunt publiceren. [&#x200B; Leer hoe te om de schending van het governance beleid te ontdekken &#x200B;](#violation)
 
 ![](assets/governance-policy-schema.png){zoomable="yes"}
 
@@ -106,7 +106,7 @@ Neem het voorbeeld van het bloedtypeveld dat u wilt beperken van het exporteren 
 
    * De **Vereiste marketing actie** staat u toe om de marketing actie met betrekking tot uw douaneactie te bepalen. Bijvoorbeeld, als u die douaneactie gebruikt om e-mails te verzenden gebruikend een derde, kunt u **e-mail selecteren richtend**. In ons voorbeeld, selecteren wij de _Slack marketing actie_. Het bestuursbeleid dat met die marketingactie verband houdt, wordt opgehaald en benut.
 
-   De andere stappen voor het vormen van een douaneactie zijn gedetailleerd in [ deze sectie ](../action/about-custom-action-configuration.md#consent-management).
+   De andere stappen voor het vormen van een douaneactie zijn gedetailleerd in [&#x200B; deze sectie &#x200B;](../action/about-custom-action-configuration.md#consent-management).
 
 1. In het linkermenu, onder **beheer van de Reis**, klik **Reizen**.
 
@@ -118,7 +118,7 @@ Neem het voorbeeld van het bloedtypeveld dat u wilt beperken van het exporteren 
 
    * U kunt een **Extra marketing actie** bepalen om het type van douaneactie te plaatsen. Hierdoor kunt u het doel van de aangepaste handeling in deze reis definiëren. Naast de vereiste marketingactie, die doorgaans specifiek is voor een kanaal, kunt u een aanvullende marketingactie definiëren die specifiek is voor de aangepaste actie op deze specifieke reis. Bijvoorbeeld: een workout-communicatie, een nieuwsbrief, een fitness-communicatie, enz. Zowel de vereiste marketingactie als de aanvullende marketingactie zijn van toepassing. In ons voorbeeld maken we geen gebruik van een extra marketingactie.
 
-Als één van de gebieden geëtiketteerd _ePHI1_ (het bloedtypegebied in ons voorbeeld) in de actieparameters wordt ontdekt, wordt een fout getoond, verhinderend u de reis te publiceren. [ Leer hoe te om de schending van het governance beleid te ontdekken ](#violation)
+Als één van de gebieden geëtiketteerd _ePHI1_ (het bloedtypegebied in ons voorbeeld) in de actieparameters wordt ontdekt, wordt een fout getoond, verhinderend u de reis te publiceren. [&#x200B; Leer hoe te om de schending van het governance beleid te ontdekken &#x200B;](#violation)
 
 ![](assets/governance-policy-custom-action-schema.png){zoomable="yes"}
 
@@ -134,4 +134,4 @@ Fouten zijn zichtbaar via de knop **[!UICONTROL Alerts]** . Selecteer de fout om
 
 Deze dialoog wijst erop dat de huidige reis/campagneconfiguratie een bestaand beleid van het gegevensbeheer schendt. Gebruik het diagram van de gegevenslijn om te begrijpen welke andere configuratieveranderingen moeten worden aangebracht alvorens u uw reis of campagne kunt activeren.
 
-De gedetailleerde informatie is beschikbaar in de [ documentatie van de de schending van het gegevensgebruiksbeleid ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.
+De gedetailleerde informatie is beschikbaar in de [&#x200B; documentatie van de de schending van het gegevensgebruiksbeleid &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.

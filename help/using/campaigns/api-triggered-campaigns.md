@@ -28,7 +28,7 @@ ht-degree: 1%
 
 API getriggerde campagnes staan toe of voor marketing mededelingen om aan een publiek op het juiste ogenblik te bereiken, of voor transactie/operationele berichten aan een individu zoals een wachtwoordteruggestelde, waar de behoefte personalisatie niet alleen het gebruiken van profielattributen maar ook contextgegevens in real time in de trekker kan impliceren, die een nuttige lading van de WEERSTAPI is.
 
-Om dit te doen, moet u eerst een API teweeggebrachte campagne in Journey Optimizer creëren, en dan zijn uitvoering door een API vraag lanceren gebruikend de [ Interactive Uitvoering REST API van het Bericht ](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+Om dit te doen, moet u eerst een API teweeggebrachte campagne in Journey Optimizer creëren, en dan zijn uitvoering door een API vraag lanceren gebruikend de [&#x200B; Interactive Uitvoering REST API van het Bericht &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
 
 Beschikbare kanalen voor API-getriggerde campagnes zijn E-mail, SMS en Push berichten.
 
@@ -37,13 +37,13 @@ Beschikbare kanalen voor API-getriggerde campagnes zijn E-mail, SMS en Push beri
 
 >[!NOTE]
 >
->De gesteunde kanalen zijn: [ E-mail ](../email/get-started-email.md), [ SMS/MMS/RCS ](../sms/get-started-sms.md), [ Push berichten ](../push/get-started-push.md).
+>De gesteunde kanalen zijn: [&#x200B; E-mail &#x200B;](../email/get-started-email.md), [&#x200B; SMS/MMS/RCS &#x200B;](../sms/get-started-sms.md), [&#x200B; Push berichten &#x200B;](../push/get-started-push.md).
 >
 >Welke kanalen beschikbaar zijn, is afhankelijk van uw licentiemodel en invoegtoepassingen.
 
 ## Belangrijke stappen voor het maken van API-campagnes {#steps}
 
-Alvorens met campagnes te beginnen, controleer de volgende eerste vereisten die [ in deze sectie ](get-started-with-campaigns.md#permissions) worden vermeld. Als aan deze voorwaarden is voldaan, kunt u uw campagne starten:
+Alvorens met campagnes te beginnen, controleer de volgende eerste vereisten die [&#x200B; in deze sectie &#x200B;](get-started-with-campaigns.md#permissions) worden vermeld. Als aan deze voorwaarden is voldaan, kunt u uw campagne starten:
 
 1. [De eigenschappen van de campagne definiëren](api-triggered-campaign-properties.md)
 1. [Campagne configureren](api-triggered-campaign-action.md)

@@ -23,7 +23,7 @@ ht-degree: 9%
 >title="Adobe Experience Platform-databron"
 >abstract="Adobe Experience Platform-gegevensbron definieert de verbinding met Adobe Real-time klantprofiel. Deze gegevensbron is ingebouwd en vooraf geconfigureerd en kan niet worden verwijderd. Het is ontworpen om gegevens van de Real-time Dienst van het Profiel van de Klant terug te winnen en te gebruiken (bijvoorbeeld, controleer of de persoon die een reis inging een vrouwelijk is)."
 
-Adobe Experience Platform-gegevensbron definieert de verbinding met Adobe Real-time klantprofiel. Deze gegevensbron is ingebouwd en vooraf geconfigureerd en kan niet worden verwijderd. Deze gegevensbron is ontworpen om gegevens van de Real-time Dienst van het Profiel van de Klant terug te winnen en te gebruiken (bijvoorbeeld, controleer of de persoon die een reis inging een vrouwelijk is). Voor meer informatie over het Profiel van de Klant in real time van Adobe, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}.
+Adobe Experience Platform-gegevensbron definieert de verbinding met Adobe Real-time klantprofiel. Deze gegevensbron is ingebouwd en vooraf geconfigureerd en kan niet worden verwijderd. Deze gegevensbron is ontworpen om gegevens van de Real-time Dienst van het Profiel van de Klant terug te winnen en te gebruiken (bijvoorbeeld, controleer of de persoon die een reis inging een vrouwelijk is). Voor meer informatie over het Profiel van de Klant in real time van Adobe, verwijs naar [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}.
 
 Om de verbinding aan de Dienst van het Profiel van de Klant in real time toe te staan, moeten wij een sleutel gebruiken om een persoon, en een namespace te identificeren die contextualizes de sleutel. Hierdoor kunt u deze gegevensbron alleen gebruiken als uw reizen beginnen met een gebeurtenis die een sleutel en een naamruimte bevat. [Meer informatie](../building-journeys/journey.md).
 
@@ -43,7 +43,7 @@ De belangrijkste stappen om gebiedsgroepen aan de ingebouwde gegevensbron toe te
 
    ![](assets/journey23.png)
 
-1. Selecteer **[!UICONTROL Add a New Field Group]** om a [ nieuwe reeks gebieden te bepalen om terug te winnen ](../datasource/configure-data-sources.md#define-field-groups).
+1. Selecteer **[!UICONTROL Add a New Field Group]** om a [&#x200B; nieuwe reeks gebieden te bepalen om terug te winnen &#x200B;](../datasource/configure-data-sources.md#define-field-groups).
 
    ![](assets/journey24.png)
 
