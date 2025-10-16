@@ -8,7 +8,7 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 990ecd8a9fd89f0cc15dc41e7e38490aba539784
+source-git-commit: faf6e63e3951b67997836107ae518b294526206b
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 3%
@@ -70,11 +70,11 @@ Deze mix bevat alle velden die overeenkomen met een profielexporttaak.
 | eventType | String | Het gebeurtenistype dat aangeeft of het een foutgebeurtenis of een info-gebeurtenis is: Info, Error |
 | eventCode | String | De foutcode die de reden voor het overeenkomende eventType aangeeft |
 
-Leer meer over eventTypes [&#x200B; in deze sectie &#x200B;](#discarded-events).
+Leer meer over eventTypes [ in deze sectie ](#discarded-events).
 
 ## stepEvents {#stepevents-field}
 
-Deze categorie bevat de oorspronkelijke velden voor stapgebeurtenissen. Verwijs naar deze [&#x200B; sectie &#x200B;](../reports/sharing-legacy-fields.md).
+Deze categorie bevat de oorspronkelijke velden voor stapgebeurtenissen. Verwijs naar deze [ sectie ](../reports/sharing-legacy-fields.md).
 
 
 ## Los verworpen gebeurtenistypen in de gebeurtenissen van de stap van de Reis problemen op  {#discarded-events}
@@ -83,25 +83,25 @@ Bij het opvragen van gebeurtenissen met betrekking tot de stap van de reis naar 
 
 Hieronder vindt u definities, algemene oorzaken en stappen voor het oplossen van problemen voor het meest voorkomende verwijderen `eventTypes` :
 
-* EXTERNAL_KEY_COMPUTATION_ERROR: Het systeem kan geen unieke id (externe sleutel) voor de klant berekenen uit de gebeurtenisgegevens.
+* **EXTERNAL_KEY_COMPUTATION_ERROR**: Het systeem kon een uniek herkenningsteken (externe sleutel) voor de klant van de gebeurtenisgegevens niet gegevens verwerken.
 
   **Gemeenschappelijke oorzaken**: Ontbrekende of misvormde klantenherkenningstekens (b.v., e-mail, klantenidentiteitskaart) in de gebeurtenislading.
 
   **het Oplossen van problemen**: De gebeurtenisconfiguratie van de controle voor vereiste herkenningstekens, zorgt ervoor dat de gebeurtenisgegevens volledig en correct geformatteerd zijn.
 
-* NO_INTERESTED_JOURNEYS_FOR_SEGMENTMEMBERSHIP_EVENT: Er is een segmentkwalificatiegebeurtenis ontvangen, maar er zijn geen reizen geconfigureerd om op dit segment te reageren.
+* **NO_INTERESTED_JOURNEYS_FOR_SEGMENTMEMBERSHIP_EVENT**: Een gebeurtenis van de segmentkwalificatie werd ontvangen, maar geen reizen worden gevormd om op dit segment te antwoorden.
 
   **Gemeenschappelijke oorzaken**: Geen reizen gebruiken het segment als trekker, de reizen zijn in ontwerp/gestopt staat, of segment IDs past niet aan.
 
   **het Oplossen van problemen**: Zorg minstens één reis levend is en voor het segment wordt gevormd, verifieer segment IDs.
 
-* JOURNEY_INSTANCE_ID_NOT_CREATE: Het systeem kon geen reisinstantie voor de klant maken.
+* **JOURNEY_INSTANCE_ID_NOT_CREATE**: Het systeem slaagde er niet in om een reisinstantie voor de klant tot stand te brengen.
 
   **Gemeenschappelijke oorzaken**: Dubbele gebeurtenissen, hoog gebeurtenisvolume, de beperkingen van het systeemmiddel.
 
   **het Oplossen van problemen**: Voer deduplicatie uit, vermijd verkeerspikes, optimaliseer reisontwerp, contactsteun als blijvend.
 
-* EVENT_WITH_NO_JOURNEY: Er is een gebeurtenis ontvangen, maar er is geen actieve reis geconfigureerd om hierop te reageren
+* **EVENT_WITH_NO_JOURNEY**: Een gebeurtenis werd ontvangen maar geen actieve reis wordt gevormd om aan het te antwoorden
 
   **Gemeenschappelijke oorzaken**: De naam/identiteitskaart van de gebeurtenis wanverhouding, reis niet gepubliceerd, verkeerde zandbak/organisatie, testwijze/profiel wanverhouding.
 
@@ -112,11 +112,11 @@ Hieronder vindt u definities, algemene oorzaken en stappen voor het oplossen van
    * **PAUSED_JOURNEY_VERSION**: Keert die op het punt van reisingang voorkwamen
    * **JOURNEY_IN_PAUSED_STATE**: Keert terug die gebeurde wanneer de profielen in een reis zijn
 
-  Leer meer over deze gebeurtenissen en hoe te om hen in [&#x200B; problemen op te lossen pauzeer een sectie van de Reis &#x200B;](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys).
+  Leer meer over deze gebeurtenissen en hoe te om hen in [ problemen op te lossen pauzeer een sectie van de Reis ](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys).
 
 ## Aanvullende bronnen
 
-* [&#x200B; de vraagsteekproeven van de Dataset - de Gebeurtenis van de Stap van de Reis &#x200B;](../data/datasets-query-examples.md#journey-step-event).
-* [&#x200B; Voorbeelden van vragen - op gebeurtenis-gebaseerde Vragen &#x200B;](query-examples.md#event-based-queries).
-* [&#x200B; Ingebouwd schemawoordenboek &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+* [ de vraagsteekproeven van de Dataset - de Gebeurtenis van de Stap van de Reis ](../data/datasets-query-examples.md#journey-step-event).
+* [ Voorbeelden van vragen - op gebeurtenis-gebaseerde Vragen ](query-examples.md#event-based-queries).
+* [ Ingebouwd schemawoordenboek ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 
