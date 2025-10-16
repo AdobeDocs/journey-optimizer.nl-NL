@@ -52,7 +52,7 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
 1. Maak een gebeurtenis waarvan het schema de array `productListItems` bevat.
 1. Definieer alle velden in deze array als payload-velden voor deze gebeurtenis.
 
-   Leer meer over het gegevenstype van het productlijstpunt in [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
+   Leer meer over het gegevenstype van het productlijstpunt in [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=nl-NL){target="_blank"}.
 
 1. Maak een reis die met deze gebeurtenis begint.
 1. Voeg een **E-mail** activiteit aan de reis toe.
@@ -105,7 +105,7 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      Leer meer over het gegevenstype van de persoonnaam in [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}.
+      Leer meer over het gegevenstype van de persoonnaam in [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=nl-NL){target="_blank"}.
 
 1. Klik op **[!UICONTROL Validate]** en vervolgens op **[!UICONTROL Save]** .
 

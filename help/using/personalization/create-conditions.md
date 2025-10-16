@@ -56,17 +56,17 @@ U kunt als volgt een voorwaardelijke regel maken:
 
 1. Bouw de voorwaardelijke regel volgens uw behoeften. U doet dit door de gewenste kenmerken vanuit het linkermenu naar het canvas te slepen en neer te zetten.
 
-   De stappen om kenmerken in het canvas te combineren zijn gelijkaardig aan de ervaring van het segmentbouwen. Voor meer informatie over hoe te met het canvas van de regelbouwer te werken, verwijs naar [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas).
+   De stappen om kenmerken in het canvas te combineren zijn gelijkaardig aan de ervaring van het segmentbouwen. Voor meer informatie over hoe te met het canvas van de regelbouwer te werken, verwijs naar [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=nl-NL#rule-builder-canvas).
 
    ![](assets/conditions-create.png)
 
    De kenmerken zijn ingedeeld in drie tabbladen:
 
    * **[!UICONTROL Profile]**:
-      * **[!UICONTROL Audiences]** maakt een lijst van alle publieksattributen (d.w.z. status, versie etc.) voor [&#x200B; de dienst van de Segmentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"},
+      * **[!UICONTROL Audiences]** maakt een lijst van alle publieksattributen (d.w.z. status, versie etc.) voor [&#x200B; de dienst van de Segmentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL){target="_blank"},
       * **[!UICONTROL XDM Individual profiles]** maakt een lijst van alle profielattributen verbonden aan het [&#x200B; Model van de Gegevens van de Ervaring (XDM) schema &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"} dat in Adobe Experience Platform wordt bepaald.
    * **[!UICONTROL Contextual]**: wanneer uw bericht tijdens een reis wordt gebruikt, zijn de contextuele reisgebieden beschikbaar door dit lusje.
-   * **[!UICONTROL Audiences]**: maakt een lijst van alle publiek dat van segmentdefinities wordt geproduceerd die in [&#x200B; de dienst van de Segmentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} worden gecreeerd.
+   * **[!UICONTROL Audiences]**: maakt een lijst van alle publiek dat van segmentdefinities wordt geproduceerd die in [&#x200B; de dienst van de Segmentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL){target="_blank"} worden gecreeerd.
 
 1. Zodra uw voorwaardelijke regel klaar is, kunt u deze aan uw bericht toevoegen om dynamische inhoud te maken. [&#x200B; Leer hoe te om dynamische inhoud toe te voegen &#x200B;](dynamic-content.md)
 
