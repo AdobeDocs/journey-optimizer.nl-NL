@@ -29,9 +29,9 @@ Met externe gegevensbronnen kunt u een verbinding met systemen van derden defini
 
 >[!NOTE]
 >
->* De begeleiding wanneer het werken met externe systemen is vermeld op [&#x200B; deze pagina &#x200B;](../configuration/external-systems.md).
+>* De begeleiding wanneer het werken met externe systemen is vermeld op [ deze pagina ](../configuration/external-systems.md).
 >
->* Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Voor meer informatie over reacties, zie deze [&#x200B; sectie &#x200B;](../action/action-response.md)
+>* Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Voor meer informatie over reacties, zie deze [ sectie ](../action/action-response.md)
 
 REST-API’s die gebruikmaken van POST of GET en JSON retourneren, worden ondersteund. API-sleutel, standaard en aangepaste verificatiemodi worden ondersteund.
 
@@ -46,7 +46,7 @@ De aanroep bestaat uit een hoofd-URL (_https://api.adobeweather.org/weather_), t
 
 >[!TIP]
 >
->We raden u aan om minstens een buffer van één minuut te laten staan tussen de periode van de symbolische vervaldatum van de externe API en de Journey Optimizer-instelling [`cacheDuration` &#x200B;](#custom-authentication-access-token) , met name bij zware werklasten, om te voorkomen dat de vervaldatumproblemen en 401 fouten niet worden opgelost.
+>We raden u aan om minstens een buffer van één minuut te laten staan tussen de periode van de symbolische vervaldatum van de externe API en de Journey Optimizer-instelling [`cacheDuration` ](#custom-authentication-access-token) , met name bij zware werklasten, om te voorkomen dat de vervaldatumproblemen en 401 fouten niet worden opgelost.
 
 ## Een externe gegevensbron maken en configureren {#create-ext-data-sources}
 
@@ -84,7 +84,7 @@ Alleen alfanumerieke tekens en onderstrepingstekens zijn toegestaan. De maximuml
    >* Adobe Journey Optimizer versleutelt automatisch geheimen die zijn gedefinieerd in aangepaste handelingen. De encryptiesleutels van elke organisatie worden veilig beheerd in een specifieke vault die aan hun organisatie wordt gebonden. Wanneer de geloofsbrieven in de interface worden getoond, worden zij gemaskeerd door gebrek om toevallige blootstelling te verhinderen.
 
 
-   Voor meer informatie over de wijze van de douaneauthentificatie, zie [&#x200B; deze sectie &#x200B;](../datasource/external-data-sources.md#custom-authentication-mode). In ons voorbeeld kiezen we de API-sleutelverificatiemodus, zoals hieronder:
+   Voor meer informatie over de wijze van de douaneauthentificatie, zie [ deze sectie ](../datasource/external-data-sources.md#custom-authentication-mode). In ons voorbeeld kiezen we de API-sleutelverificatiemodus, zoals hieronder:
 
    * **[!UICONTROL Type]**: ‘API-sleutel’
    * **[!UICONTROL Name]**: ‘appid’ (dit is de parameternaam van de API-sleutel)
