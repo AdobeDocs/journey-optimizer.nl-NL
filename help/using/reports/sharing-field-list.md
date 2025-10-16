@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: f9102c10aa58be0e1a7280aa53fd97b3f792b9e9
+source-git-commit: 990ecd8a9fd89f0cc15dc41e7e38490aba539784
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -70,11 +70,11 @@ Deze mix bevat alle velden die overeenkomen met een profielexporttaak.
 | eventType | String | Het gebeurtenistype dat aangeeft of het een foutgebeurtenis of een info-gebeurtenis is: Info, Error |
 | eventCode | String | De foutcode die de reden voor het overeenkomende eventType aangeeft |
 
-Leer meer over eventTypes [&#x200B; in deze sectie &#x200B;](#discarded-events).
+Leer meer over eventTypes [ in deze sectie ](#discarded-events).
 
 ## stepEvents {#stepevents-field}
 
-Deze categorie bevat de oorspronkelijke velden voor stapgebeurtenissen. Verwijs naar deze [&#x200B; sectie &#x200B;](../reports/sharing-legacy-fields.md).
+Deze categorie bevat de oorspronkelijke velden voor stapgebeurtenissen. Verwijs naar deze [ sectie ](../reports/sharing-legacy-fields.md).
 
 
 ## Los verworpen gebeurtenistypen in de gebeurtenissen van de stap van de Reis problemen op  {#discarded-events}
@@ -85,39 +85,38 @@ Hieronder vindt u definities, algemene oorzaken en stappen voor het oplossen van
 
 * EXTERNAL_KEY_COMPUTATION_ERROR: Het systeem kan geen unieke id (externe sleutel) voor de klant berekenen uit de gebeurtenisgegevens.
 
-|---|---|
-| **Gemeenschappelijke oorzaken** | Ontbrekende of misvormde klant-id&#39;s (bijvoorbeeld e-mail, klant-id) in de gebeurtenislading. |
-| **Problemen oplossen** | Controleer de gebeurtenisconfiguratie op de vereiste id&#39;s, controleer of de gebeurtenisgegevens volledig en correct zijn opgemaakt. |
+  **Gemeenschappelijke oorzaken**: Ontbrekende of misvormde klantenherkenningstekens (b.v., e-mail, klantenidentiteitskaart) in de gebeurtenislading.
+
+  **het Oplossen van problemen**: De gebeurtenisconfiguratie van de controle voor vereiste herkenningstekens, zorgt ervoor dat de gebeurtenisgegevens volledig en correct geformatteerd zijn.
 
 * NO_INTERESTED_JOURNEYS_FOR_SEGMENTMEMBERSHIP_EVENT: Er is een segmentkwalificatiegebeurtenis ontvangen, maar er zijn geen reizen geconfigureerd om op dit segment te reageren.
 
+  **Gemeenschappelijke oorzaken**: Geen reizen gebruiken het segment als trekker, de reizen zijn in ontwerp/gestopt staat, of segment IDs past niet aan.
 
-|---|---|
-| **Gemeenschappelijke oorzaken** | Geen reizen gebruiken het segment als trekker, reizen zijn in ontwerp/gestopt staat, of segment IDs past niet aan. |
-| **Problemen oplossen** | Verzeker minstens één reis levend is en voor het segment wordt gevormd, verifieer segment IDs. |
+  **het Oplossen van problemen**: Zorg minstens één reis levend is en voor het segment wordt gevormd, verifieer segment IDs.
 
-### JOURNEY_INSTANCE_ID_NOT_CREATE: Het systeem kon geen reisinstantie voor de klant maken.
+* JOURNEY_INSTANCE_ID_NOT_CREATE: Het systeem kon geen reisinstantie voor de klant maken.
 
-|---|---|
-| **Gemeenschappelijke oorzaken** | Dubbele gebeurtenissen, hoog gebeurtenisvolume, beperkingen van de systeembronnen. |
-| **Problemen oplossen** | Implementeer deduplicatie, vermijd verkeerspikes, optimaliseer het reisontwerp, neem contact op met support als dit blijvend is. |
+  **Gemeenschappelijke oorzaken**: Dubbele gebeurtenissen, hoog gebeurtenisvolume, de beperkingen van het systeemmiddel.
 
-### EVENT_WITH_NO_JOURNEY: Er is een gebeurtenis ontvangen, maar er is geen actieve reis geconfigureerd om hierop te reageren
+  **het Oplossen van problemen**: Voer deduplicatie uit, vermijd verkeerspikes, optimaliseer reisontwerp, contactsteun als blijvend.
 
-|---|---|
-| **Gemeenschappelijke oorzaken** | Naam/id van gebeurtenis komt niet overeen, reis niet gepubliceerd, onjuiste sandbox/organisatie, testmodus/profiel komt niet overeen. |
-| **Problemen oplossen** | Verifieer gebeurtenis en reisconfiguratie, controleer reisstatus, gebruik het zuiveren hulpmiddelen. |
+* EVENT_WITH_NO_JOURNEY: Er is een gebeurtenis ontvangen, maar er is geen actieve reis geconfigureerd om hierop te reageren
 
-Voor teruggooi tijdens gepauzeerde reizen:
+  **Gemeenschappelijke oorzaken**: De naam/identiteitskaart van de gebeurtenis wanverhouding, reis niet gepubliceerd, verkeerde zandbak/organisatie, testwijze/profiel wanverhouding.
 
-* **PAUSED_JOURNEY_VERSION**: Keert die op het punt van reisingang voorkwamen
-* **JOURNEY_IN_PAUSED_STATE**: Keert terug die gebeurde wanneer de profielen in een reis zijn
+  **het Oplossen van problemen**: Verifieer gebeurtenis en reisconfiguratie, de status van de controlereis, gebruik het zuiveren hulpmiddelen.
 
-Leer meer over deze gebeurtenissen en hoe te om hen in [&#x200B; problemen op te lossen pauzeer een sectie van de Reis &#x200B;](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys).
+* Voor teruggooi tijdens gepauzeerde reizen:
+
+   * **PAUSED_JOURNEY_VERSION**: Keert die op het punt van reisingang voorkwamen
+   * **JOURNEY_IN_PAUSED_STATE**: Keert terug die gebeurde wanneer de profielen in een reis zijn
+
+  Leer meer over deze gebeurtenissen en hoe te om hen in [ problemen op te lossen pauzeer een sectie van de Reis ](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys).
 
 ## Aanvullende bronnen
 
-* [&#x200B; de vraagsteekproeven van de Dataset - de Gebeurtenis van de Stap van de Reis &#x200B;](../data/datasets-query-examples.md#journey-step-event).
-* [&#x200B; Voorbeelden van vragen - op gebeurtenis-gebaseerde Vragen &#x200B;](query-examples.md#event-based-queries).
-* [&#x200B; Ingebouwd schemawoordenboek &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+* [ de vraagsteekproeven van de Dataset - de Gebeurtenis van de Stap van de Reis ](../data/datasets-query-examples.md#journey-step-event).
+* [ Voorbeelden van vragen - op gebeurtenis-gebaseerde Vragen ](query-examples.md#event-based-queries).
+* [ Ingebouwd schemawoordenboek ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 
