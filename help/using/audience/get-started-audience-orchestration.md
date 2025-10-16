@@ -99,7 +99,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-Deze documentatie verstrekt gedetailleerde informatie over hoe te met publiekssamenstelling binnen Adobe Journey Optimizer te werken. Als u een slechts klant in real time van het Profiel van de Klant bent en Adobe Journey Optimizer niet gebruikt, [&#x200B; klik hier &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html){target="_blank"}.
+Deze documentatie verstrekt gedetailleerde informatie over hoe te met publiekssamenstelling binnen Adobe Journey Optimizer te werken. Als u een slechts klant in real time van het Profiel van de Klant bent en Adobe Journey Optimizer niet gebruikt, [&#x200B; klik hier &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=nl-NL){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -118,7 +118,7 @@ De compositie van het publiek is toegankelijk via het menu Adobe Journey Optimiz
 
 ![](assets/audiences-browse.png)
 
-* Het tabblad **[!UICONTROL Overview]** bevat een speciaal dashboard met belangrijke meetgegevens die betrekking hebben op de publieksgegevens van uw organisatie. Meer leren, verwijs naar [&#x200B; de gids van de Dashboards van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html).
+* Het tabblad **[!UICONTROL Overview]** bevat een speciaal dashboard met belangrijke meetgegevens die betrekking hebben op de publieksgegevens van uw organisatie. Meer leren, verwijs naar [&#x200B; de gids van de Dashboards van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=nl-NL).
 
 * Op het tabblad **[!UICONTROL Browse]** worden alle bestaande soorten publiek weergegeven die in Adobe Experience Platform zijn opgeslagen.
 
@@ -146,7 +146,7 @@ Ga als volgt te werk om een compositieworkflow te maken:
 
    ![](assets/audiences-properties.png)
 
-1. Configureer uw compositie door zoveel activiteiten toe te voegen als nodig zijn tussen de **[!UICONTROL Audience]** - en **[!UICONTROL Save]** -activiteiten. Voor meer informatie over hoe te om een samenstelling tot stand te brengen, verwijs naar de [&#x200B; de compositiedocumentatie van het publiek &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition).
+1. Configureer uw compositie door zoveel activiteiten toe te voegen als nodig zijn tussen de **[!UICONTROL Audience]** - en **[!UICONTROL Save]** -activiteiten. Voor meer informatie over hoe te om een samenstelling tot stand te brengen, verwijs naar de [&#x200B; de compositiedocumentatie van het publiek &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/audience-composition).
 
    ![](assets/audiences-publish.png)
 
@@ -179,4 +179,4 @@ Composities kunnen meerdere statussen hebben:
 
 >[!NOTE]
 >
->De compositie van het publiek is momenteel niet geïntegreerd met de functie voor het opnieuw instellen van de sandbox. Voordat u een sandbox-reset start, moet u de composities handmatig verwijderen om ervoor te zorgen dat de bijbehorende publieksgegevens op de juiste wijze worden opgeschoond. De gedetailleerde informatie is beschikbaar in de documentatie van de zandbak van Adobe Experience Platform [&#x200B; &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions)
+>De compositie van het publiek is momenteel niet geïntegreerd met de functie voor het opnieuw instellen van de sandbox. Voordat u een sandbox-reset start, moet u de composities handmatig verwijderen om ervoor te zorgen dat de bijbehorende publieksgegevens op de juiste wijze worden opgeschoond. De gedetailleerde informatie is beschikbaar in de documentatie van de zandbak van Adobe Experience Platform [&#x200B; &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=nl-NL#delete-audience-compositions)

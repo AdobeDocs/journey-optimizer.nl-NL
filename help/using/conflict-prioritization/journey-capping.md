@@ -115,7 +115,7 @@ Zodra een reis levend is, kunt u het reisrapport controleren als de vastgestelde
 
 ![](assets/journey-report.png)
 
-Bovendien kunt u de [&#x200B; Dienst van de Vraag van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} gebruiken om vragen te bouwen om te identificeren welke regel een profiel veroorzaakte om niet in een bepaalde reis binnen te gaan. Een vraagvoorbeeld is beschikbaar in [&#x200B; deze sectie &#x200B;](../reports/query-examples.md#common-queries).
+Bovendien kunt u de [&#x200B; Dienst van de Vraag van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=nl-NL){target="_blank"} gebruiken om vragen te bouwen om te identificeren welke regel een profiel veroorzaakte om niet in een bepaalde reis binnen te gaan. Een vraagvoorbeeld is beschikbaar in [&#x200B; deze sectie &#x200B;](../reports/query-examples.md#common-queries).
 
 ## Hoe kan ik-video {#video}
 

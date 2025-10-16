@@ -35,7 +35,7 @@ ht-degree: 2%
 
 >[!INFO]
 >
->Ga in een hands-on ervaring met [&#x200B; binnen onze levende eigenschapvoorproef &#x200B;](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}, die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
+>Ga in een hands-on ervaring met [&#x200B; binnen onze levende eigenschapvoorproef &#x200B;](https://experienceleague.adobe.com/nl/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}, die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
 
 
 De AI Assistant in Adobe Journey Optimizer, die wordt aangedreven door Microsoft Azure OpenAI en Adobe Firefly, biedt proactieve suggesties voor wijzigingen in inhoud voor tekst en afbeeldingen. Dit nieuwe vermogen verstrekt a **herinnering gebaseerde tekst en beeldgeneratie**. Het genereren van afbeeldingen wordt beheerd met Adobe Firefly.
@@ -98,7 +98,7 @@ Om tot AI Medewerker in de eigenschap van Adobe Journey Optimizer toegang te heb
 
 1. Ga de naam van de gebruiker, e-mailadres in, of kies van de lijst, dan klik **sparen**.
 
-1. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users).
+1. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/users).
 
 De gebruiker ontvangt een e-mail met instructies om toegang te krijgen tot uw exemplaar.
 
@@ -114,7 +114,7 @@ De algemene richtlijnen voor het gebruik van AI Assistant in Adobe Journey Optim
 * Gebruik een merkspecifieke of aangepaste sjabloon om uw e-mailinhoud te maken met AI Assistant in Adobe Journey Optimizer. E-mailsjablonen met maximaal 8-10 afbeeldingen worden aanbevolen.
 * Zorg ervoor dat u eventuele problematische uitvoerbestanden meldt met het blokje omhoog, omlaag of de vlagpictogrammen bij het selecteren van varianten.
 * Op uw gebruik van AI Assistant zijn de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen van toepassing. [Meer informatie](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* Als onderdeel van de toezegging van Adobe om de transparantie bij het gebruik van generatieve AI-tools bij het maken van media te bevorderen, zal Adobe Content Credentials toepassen wanneer inhoud of een project dat een door Firefly gegenereerd element bevat, wordt gedownload of geëxporteerd. [Meer informatie](https://helpx.adobe.com/firefly/using/content-credentials.html)
+* Als onderdeel van de toezegging van Adobe om de transparantie bij het gebruik van generatieve AI-tools bij het maken van media te bevorderen, zal Adobe Content Credentials toepassen wanneer inhoud of een project dat een door Firefly gegenereerd element bevat, wordt gedownload of geëxporteerd. [Meer informatie](https://helpx.adobe.com/nl/firefly/using/content-credentials.html)
 
 De volgende beperkingen gelden voor AI Assistant in Adobe Journey Optimizer:
 
