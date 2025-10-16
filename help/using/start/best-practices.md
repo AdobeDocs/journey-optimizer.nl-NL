@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '982'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,11 @@ Adobe Journey Optimizer gebruikt de Identity Service om profielen samen te voege
    * Dit kan 30 min - 4 uur duren.
    * Gewoonlijk genereert deze aanmeldingsgebeurtenis een identiteitsgrafiek die een koppeling vormt tussen CRMID en ECID.
 
-1. Na de eerste stitching, zullen om het even welke gegevens die met één van beide identiteiten worden verzonden worden geassocieerd aan het samengevoegde profiel en beschikbaar voor verpersoonlijking in Journey Optimizer in real time. Het bijwerken van het profiel met de meest recente gedragsgegevens kan 1 minuut duren. Verwijs naar deze [&#x200B; pagina &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl).
+1. Na de eerste stitching, zullen om het even welke gegevens die met één van beide identiteiten worden verzonden worden geassocieerd aan het samengevoegde profiel en beschikbaar voor verpersoonlijking in Journey Optimizer in real time. Het bijwerken van het profiel met de meest recente gedragsgegevens kan 1 minuut duren. Verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl).
 
 Houd rekening met het volgende wanneer u gebruikszaken maakt:
 
-1. Het merk wil 30 minuten na het opgeven opnieuw een bezoeker van de site inschakelen (bijvoorbeeld e-mail verlaten winkelwagentje):
+1. Het merk wil 30 minuten na het verlaten van de site opnieuw een bezoeker van de site inschakelen (bijvoorbeeld verlaten e-mail met winkelwagentje):
 
    Gebruik de identiteit met de gegevens - ECID. Als u 100% wilt vastleggen van bezoekers die hun e-mailadres/app-installatie in de laatste 30 minuten hebben gegeven, moet u de op cookies gebaseerde identiteit gebruiken om deze reis (ECID) te starten. Hierbij wordt ervan uitgegaan dat uw e-mailadres of pushtoken of ander adres voor de ervaring aan de ECID is gekoppeld.
 
@@ -57,11 +57,11 @@ In deze sectie wordt uitgelegd hoe u kunt schalen met de volgende twee beperking
 
 Er zijn een aantal beste praktijken die u kunt aannemen, die u helpen binnen de grenzen blijven en het systeem efficiënt gebruiken.
 
-* Als u uw grens van levende reizen nadert, is de eerste stap die u kunt nemen naar het **Overzicht** lusje onder **Reizen** gaan om te zien hoeveel reizen binnen de laatste 24 uren reizen actief waren die actieve profielen hadden. U kunt het aantal profielen controleren dat de reis in deze sectie binnengaat en weggaat om dat te bepalen.
+* Als u uw grens van levende reizen nadert, de eerste stap u kunt nemen is naar het **Overzicht** lusje onder **Reizen** te gaan om te zien hoeveel reizen binnen de laatste 24 uren actief waren die actieve profielen hadden. U kunt het aantal profielen controleren dat de reis in deze sectie binnengaat en weggaat om dat te bepalen.
 
   ![](assets/journey-guardrails2.png)
 
-* Vervolgens kunt u in het gedeelte Reisinventarisatie alle reizen filteren op Status = &quot;Live&quot; en Type = &quot;Leespubliek&quot;. Sorteer vervolgens op publicatiedatum (oudste naar nieuwste). Klik op de reis en ga naar het schema. Stop alle levende reizen die een programma hadden om **te lopen** of **&lbrace;zo spoedig mogelijk** die ouder zijn dan een dag en slechts één actie hebben.
+* Vervolgens kunt u in het gedeelte Reisinventarisatie alle reizen filteren op Status = &quot;Live&quot; en Type = &quot;Leespubliek&quot;. Sorteer vervolgens op publicatiedatum (oudste naar nieuwste). Klik op de reis en ga naar het schema. Stop alle levende reizen die een programma hadden om **te lopen** of **{zo spoedig mogelijk** die ouder zijn dan een dag en slechts één actie hebben.
 
   ![](assets/journey-guardrails1.png)
 
@@ -71,4 +71,4 @@ Er zijn een aantal beste praktijken die u kunt aannemen, die u helpen binnen de 
 * Als uw reis verscheidene voorwaarden heeft die het publiek verdelen om de aantallen bij elke stap te zien, overweeg het gebruiken van Customer Journey Analytics of een andere rapporteringsoplossing die voor analyse geschikter zijn.
 * Als u de limiet van knooppunten op het canvas bijna bereikt, kunt u overwegen om acties te consolideren met dynamische parameters of inhoud om de juiste inhoud te leveren in plaats van expliciete knooppunten.
 
-* Als u de reis van het publiek van het a **Gelezen** met partijsegment (A) bent en als u binnen de reis in het stroomsgewijze segment van het Audience (B) gebruikt om uit te sluiten (d.w.z. A-B) uitvoeren, denk na bewegend die logica aan segmenteringslogica en gebruik de uitsluiting als deel van de segmenteringslogica zelf.
+* Als u de reis van het publiek van het a **Gelezen** met partijsegment (A) hebt en u een inAudience die segment (B) binnen de reis gebruikt om uit te sluiten (d.w.z., A-B) uitvoeren, denk na bewegend die logica aan de segmenteringslogica en gebruik de uitsluiting als deel van de segmenteringslogica zelf.
