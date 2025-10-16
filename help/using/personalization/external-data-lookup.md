@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
+source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
 workflow-type: tm+mt
 source-wordcount: '1197'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Raadpleeg ook Aangepaste acties in [!DNL Journey Optimizer] Binnenkomende kanale
 
 Voer de volgende stappen uit om een handeling te definiëren en de hulplijn voor personalisatie te gebruiken:
 
-1. Creeer een Actie om het eindpunt voor de raadpleging te vormen. Dit hoeft slechts eenmaal te gebeuren voor elk eindpunt en moet door een technische gebruiker worden gedaan. [&#x200B; Leer hoe te om een douaneactie &#x200B;](../action/about-custom-action-configuration.md) te vormen
+1. Creeer een Actie om het eindpunt voor de raadpleging te vormen. Dit hoeft slechts eenmaal te gebeuren voor elk eindpunt en moet door een technische gebruiker worden gedaan. [ Leer hoe te om een douaneactie ](../action/about-custom-action-configuration.md) te vormen
 
    Noteer de actie-id en kopieer deze.
 
@@ -210,7 +210,7 @@ Onder de sectie Edge Delivery van het betrouwbaarheidsspoor als deel van uitvoer
 
 * Hoe te om een contextafhankelijk attribuut van het verzoek als parameter tot een externe gegevensraadpleging over te gaan?
 
-  Gebruik het menu Contexual Attributes > DataStream > Event om door het schema Experience Event te bladeren dat u gebruikt en voeg het relevante kenmerk als parameterwaarde als volgt in:
+  Met het menu Contextafhankelijke kenmerken > DataStream > Gebeurtenis bladert u door het schema Experience Event dat u gebruikt en voegt u het relevante kenmerk in als parameterwaarde zoals deze:
 
   ```
   {{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}

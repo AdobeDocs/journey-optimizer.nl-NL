@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: e9ed993dd5957adb305b582b30e6675d2bb4526f
+source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ ht-degree: 0%
 >
 >Voor nu, kan de hulpfunctie &quot;datasetLookup&quot;binnen uitdrukkingsfragmenten voor een beperkte reeks klanten worden gebruikt. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
-Journey Optimizer staat u toe aan hefboomwerkingsgegevens van het het verslagdatasets van Adobe Experience Platform in de verpersoonlijkingsredacteur om [&#x200B; uw inhoud &#x200B;](../personalization/personalize.md) te personaliseren. Alvorens te beginnen, moeten de datasets nodig voor raadplegingsverpersoonlijking eerst voor raadpleging worden toegelaten. De gedetailleerde informatie is beschikbaar in deze sectie: [&#x200B; de gegevens van Adobe Experience Platform van het Gebruik &#x200B;](../data/lookup-aep-data.md).
+Journey Optimizer staat u toe aan hefboomwerkingsgegevens van het het verslagdatasets van Adobe Experience Platform in de verpersoonlijkingsredacteur om [ uw inhoud ](../personalization/personalize.md) te personaliseren. Alvorens te beginnen, moeten de datasets nodig voor raadplegingsverpersoonlijking eerst voor raadpleging worden toegelaten. De gedetailleerde informatie is beschikbaar in deze sectie: [ gegevens van Adobe Experience Platform van het Gebruik ](../data/lookup-aep-data.md).
 
 Zodra een dataset voor raadplegingsverpersoonlijking is toegelaten, kunt u zijn gegevens gebruiken om uw inhoud in [!DNL Journey Optimizer] te personaliseren.
 
-1. Open de verpersoonlijkingsredacteur, die in elke context beschikbaar is waar u verpersoonlijking zoals berichten kunt bepalen. [&#x200B; Leer hoe te met de verpersoonlijkingsredacteur &#x200B;](../personalization/personalization-build-expressions.md) te werken
+1. Open de verpersoonlijkingsredacteur, die in elke context beschikbaar is waar u verpersoonlijking zoals berichten kunt bepalen. [ Leer hoe te met de verpersoonlijkingsredacteur ](../personalization/personalization-build-expressions.md) te werken
 
 1. Navigeer aan de lijst van helperfuncties en voeg **datasetLookup** hulpfunctie aan de coderuit toe.
 
@@ -46,7 +46,7 @@ Zodra een dataset voor raadplegingsverpersoonlijking is toegelaten, kunt u zijn 
 
      >[!NOTE]
      >
-     >De waarde ingegaan voor dit gebied kan of a gebied identiteitskaart (*profile.packages.packageSKU*) zijn, een gebied dat in een reisgebeurtenis (*context.trip.events.event_ID.productSKU*) wordt overgegaan, of een statische waarde (*sku007653*). In elk geval, zal het systeem de waarde en raadpleging in de dataset gebruiken om te controleren of het een sleutel aanpast.
+     >De waarde ingegaan voor dit gebied kan of een gebied identiteitskaart (`profile.packages.packageSKU`), een gebied zijn dat in een reisgebeurtenis (`context.journey.events.event_ID.productSKU`) wordt overgegaan, of een statische waarde (`sku007653`). In elk geval, zal het systeem de waarde en raadpleging in de dataset gebruiken om te controleren of het een sleutel aanpast.
      >
      >Als u een letterlijke tekenreekswaarde voor de toets gebruikt, moet u de tekst tussen aanhalingstekens plaatsen. Bijvoorbeeld: `{{datasetLookup datasetId="datasetId" id="SKU1234" result="store" required=false}}` . Als u een kenmerkwaarde gebruikt als een dynamische sleutel, verwijdert u de aanhalingstekens. Voorbeeld: `{{datasetLookup datasetId="datasetId" id=category.product.SKU result="SKU" required=false}}`
 
@@ -56,7 +56,7 @@ Zodra een dataset voor raadplegingsverpersoonlijking is toegelaten, kunt u zijn 
 
    +++Waar kan ik een gegevensset-id ophalen?
 
-   Dataset-id&#39;s kunnen worden opgehaald in de gebruikersinterface van Adobe Experience Platform. Leer hoe te met datasets in de [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"} te werken.
+   Dataset-id&#39;s kunnen worden opgehaald in de gebruikersinterface van Adobe Experience Platform. Leer hoe te met datasets in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"} te werken.
 
    ![](assets/aep-data-dataset.png)
 
@@ -84,12 +84,12 @@ Zodra een dataset voor raadplegingsverpersoonlijking is toegelaten, kunt u zijn 
    >
    >Er zijn geen harde grenzen op het aantal gebieden die kunnen worden getrokken gebruikend de helperfunctie. Voor de beste prestaties is het echter raadzaam het aantal velden onder de 50 te houden om te voorkomen dat de doorvoer wordt beïnvloed.
 
-   * **resultaat** is de waarde die u aan de **resultaat** parameter in de **MultiEntiteit** hulpfunctie hebt toegewezen. In dit voorbeeld &quot;vlucht&quot;.
+   * **resultaat** is de waarde die u aan de **resultaat** parameter in de **datasetLookup** hulpfunctie hebt toegewezen. In dit voorbeeld, &quot;vlucht&quot;.
    * **fieldID** is identiteitskaart van het gebied u wilt terugwinnen. Deze id is zichtbaar in de gebruikersinterface van [!DNL Adobe Experience Platform] wanneer het doorbladeren van het recordschema met betrekking tot uw dataset:
 
      +++Waar moet u een veld-id ophalen?
 
-     Velden-id&#39;s kunnen worden opgehaald wanneer een voorbeeld van een gegevensset in de gebruikersinterface van Adobe Experience Platform wordt weergegeven. Leer hoe te voorproef datasets in de [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
+     Velden-id&#39;s kunnen worden opgehaald wanneer een voorbeeld van een gegevensset in de gebruikersinterface van Adobe Experience Platform wordt weergegeven. Leer hoe te voorproef datasets in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
 
      ![](assets/aep-data-field.png)
 
@@ -100,7 +100,7 @@ Zodra een dataset voor raadplegingsverpersoonlijking is toegelaten, kunt u zijn 
    * `{{flight._myorg.booking.boardingTime}}`
    * `{{flight._myorg.booking.gate}}`
 
-1. Nu uw code klaar is, kunt u uw inhoud voltooien zoals gewoonlijk, en het testen gebruikend de **Simuleer inhoud** knoop om de verpersoonlijking te controleren. [&#x200B; Leer hoe te om inhoud &#x200B;](../content-management/preview-test.md) voor te vertonen en te testen
+1. Nu uw code klaar is, kunt u uw inhoud voltooien zoals gewoonlijk, en het testen gebruikend de **Simuleer inhoud** knoop om de verpersoonlijking te controleren. [ Leer hoe te om inhoud ](../content-management/preview-test.md) voor te vertonen en te testen
 
 
    ![](assets/aep-data-sample.png)

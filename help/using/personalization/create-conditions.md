@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressie, editor, voorwaardelijk, regels
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 0ce842816e8a63fabd21483323c664238c32848a
+source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
@@ -20,21 +20,21 @@ ht-degree: 0%
 
 Voorwaardelijke regels zijn sets regels die bepalen welke inhoud in uw berichten moet worden weergegeven, afhankelijk van verschillende criteria zoals de kenmerken van profielen, het lidmaatschap van het publiek of contextuele gebeurtenissen.
 
-Voorwaardelijke regels worden gecreeerd gebruikend de verpersoonlijkingsredacteur en kunnen worden opgeslagen als u hen over uw inhoud wilt opnieuw gebruiken. [&#x200B; Leer hoe te om een voorwaardelijke regel aan de bibliotheek te bewaren &#x200B;](#save)
+Voorwaardelijke regels worden gecreeerd gebruikend de verpersoonlijkingsredacteur en kunnen worden opgeslagen als u hen over uw inhoud wilt opnieuw gebruiken. [ Leer hoe te om een voorwaardelijke regel aan de bibliotheek te bewaren ](#save)
 
 >[!NOTE]
 >
->De individuen zullen [&#x200B; nodig hebben leiden de Punten van de Bibliotheek &#x200B;](../administration/ootb-product-profiles.md) toestemming om voorwaardelijke regels te bewaren of te schrappen. Opgeslagen voorwaarden zijn beschikbaar voor gebruik door alle gebruikers binnen een organisatie.
+>De individuen zullen [ nodig hebben leiden de Punten van de Bibliotheek ](../administration/ootb-product-profiles.md) toestemming om voorwaardelijke regels te bewaren of te schrappen. Opgeslagen voorwaarden zijn beschikbaar voor gebruik door alle gebruikers binnen een organisatie.
 
 ## Toegang krijgen tot de constructor voor voorwaardelijke regels {#access}
 
 Voorwaardelijke regels worden gemaakt in het menu **[!UICONTROL Conditions]** in de verpersoonlijkingseditor, die toegankelijk is:
 
-* Vanuit de Designer-e-mail, wanneer dynamische inhoud wordt ingeschakeld voor een component in de hoofdtekst van de e-mail. [&#x200B; Leer hoe te om dynamische inhoud in e-mails toe te voegen &#x200B;](dynamic-content.md#emails)
+* Vanuit de Designer-e-mail, wanneer dynamische inhoud wordt ingeschakeld voor een component in de hoofdtekst van de e-mail. [ Leer hoe te om dynamische inhoud in e-mails toe te voegen ](dynamic-content.md#emails)
 
   ![](assets/conditions-access-email.png)
 
-* Op om het even welk gebied waar u verpersoonlijking kunt toevoegen gebruikend de [&#x200B; verpersoonlijkingsredacteur &#x200B;](personalization-build-expressions.md).
+* Op om het even welk gebied waar u verpersoonlijking kunt toevoegen gebruikend de [ verpersoonlijkingsredacteur ](personalization-build-expressions.md).
 
   ![](assets/conditions-access-editor.png)
 
@@ -56,21 +56,21 @@ U kunt als volgt een voorwaardelijke regel maken:
 
 1. Bouw de voorwaardelijke regel volgens uw behoeften. U doet dit door de gewenste kenmerken vanuit het linkermenu naar het canvas te slepen en neer te zetten.
 
-   De stappen om kenmerken in het canvas te combineren zijn gelijkaardig aan de ervaring van het segmentbouwen. Voor meer informatie over hoe te met het canvas van de regelbouwer te werken, verwijs naar [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=nl-NL#rule-builder-canvas).
+   De stappen om kenmerken in het canvas te combineren zijn gelijkaardig aan de ervaring van het segmentbouwen. Voor meer informatie over hoe te met het canvas van de regelbouwer te werken, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas).
 
    ![](assets/conditions-create.png)
 
    De kenmerken zijn ingedeeld in drie tabbladen:
 
-   * **[!UICONTROL Profile]** :
-      * **[!UICONTROL Audiences]** maakt een lijst van alle publieksattributen (d.w.z. status, versie etc.) voor [&#x200B; de dienst van de Segmentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL){target="_blank"},
-      * **[!UICONTROL XDM Individual profiles]** maakt een lijst van alle profielattributen verbonden aan het [&#x200B; Model van de Gegevens van de Ervaring (XDM) schema &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"} dat in Adobe Experience Platform wordt bepaald.
+   * **[!UICONTROL Profile]**:
+      * **[!UICONTROL Audiences]** maakt een lijst van alle publieksattributen (d.w.z. status, versie etc.) voor [ de dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"},
+      * **[!UICONTROL XDM Individual profiles]** maakt een lijst van alle profielattributen verbonden aan het [ Model van de Gegevens van de Ervaring (XDM) schema ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"} dat in Adobe Experience Platform wordt bepaald.
    * **[!UICONTROL Contextual]**: wanneer uw bericht tijdens een reis wordt gebruikt, zijn de contextuele reisgebieden beschikbaar door dit lusje.
-   * **[!UICONTROL Audiences]**: maakt een lijst van alle publiek dat van segmentdefinities wordt geproduceerd die in [&#x200B; de dienst van de Segmentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL){target="_blank"} worden gecreeerd.
+   * **[!UICONTROL Audiences]**: maakt een lijst van alle publiek dat van segmentdefinities wordt geproduceerd die in [ de dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} worden gecreeerd.
 
-1. Zodra uw voorwaardelijke regel klaar is, kunt u deze aan uw bericht toevoegen om dynamische inhoud te maken. [&#x200B; Leer hoe te om dynamische inhoud toe te voegen &#x200B;](dynamic-content.md)
+1. Zodra uw voorwaardelijke regel klaar is, kunt u deze aan uw bericht toevoegen om dynamische inhoud te maken. [ Leer hoe te om dynamische inhoud toe te voegen ](dynamic-content.md)
 
-   U kunt de regel ook opslaan om verder hergebruik toe te staan. [&#x200B; Leer hoe te om een voorwaarde &#x200B;](#save) te bewaren
+   U kunt de regel ook opslaan om verder hergebruik toe te staan. [ Leer hoe te om een voorwaarde ](#save) te bewaren
 
 ## Een voorwaardelijke regel opslaan {#save}
 
@@ -86,7 +86,7 @@ Als er voorwaardenregels zijn die u vaak opnieuw gebruikt, kunt u deze opslaan i
 
    ![](assets/conditions-name-description.png)
 
-1. De voorwaardelijke regel wordt opgeslagen in de bibliotheek. U kunt het nu gebruiken om dynamische inhoud in uw berichten tot stand te brengen. [&#x200B; Leer hoe te om dynamische inhoud toe te voegen &#x200B;](dynamic-content.md)
+1. De voorwaardelijke regel wordt opgeslagen in de bibliotheek. U kunt het nu gebruiken om dynamische inhoud in uw berichten tot stand te brengen. [ Leer hoe te om dynamische inhoud toe te voegen ](dynamic-content.md)
 
 
 >[!CAUTION]
@@ -99,4 +99,4 @@ U kunt op elk gewenst moment een voorwaardelijke regel verwijderen met de knop v
 
 ![](assets/conditions-open.png)
 
-Voorwaardelijke regels die zijn opgeslagen in de bibliotheek kunnen niet worden gewijzigd. U kunt ze echter nog steeds gebruiken om nieuwe regels te maken. Hiervoor opent u de voorwaardelijke regel, brengt u de gewenste wijzigingen aan en slaat u deze op in de bibliotheek. [&#x200B; Leer hoe te om een voorwaarde aan de bibliotheek &#x200B;](#save) te bewaren
+Voorwaardelijke regels die zijn opgeslagen in de bibliotheek kunnen niet worden gewijzigd. U kunt ze echter nog steeds gebruiken om nieuwe regels te maken. Hiervoor opent u de voorwaardelijke regel, brengt u de gewenste wijzigingen aan en slaat u deze op in de bibliotheek. [ Leer hoe te om een voorwaarde aan de bibliotheek ](#save) te bewaren
