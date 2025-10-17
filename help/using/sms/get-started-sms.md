@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 13552b3731a20fc9ca2d93a18c0a2c9fdf9378fa
+source-git-commit: 243d4e74c15057bc4bd334876a1bc87969d396e0
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 3%
@@ -21,9 +21,9 @@ Gebruik [!DNL Journey Optimizer] om tekstberichten (SMS/MMS/RCS) naar uw klanten
 
 Tekstberichten kunnen worden gemaakt en verzonden tijdens een rit of in een campagne. Gebruik voor SMS, MMS en RCS de SMS-handeling.
 
-* In a **Reis**. Creeer een reis, voeg een activiteit van SMS toe, en bepaal basismontages. Blader vervolgens naar het deelvenster SMS-handelingen aan de rechterkant om de inhoud voor het SMS-, MMS- of RCS-bericht te maken. [&#x200B; leer hoe te om een reis &#x200B;](../building-journeys/journey-gs.md) tot stand te brengen
+* In a **Reis**. Creeer een reis, voeg een activiteit van SMS toe, en bepaal basismontages. Blader vervolgens naar het deelvenster SMS-handelingen aan de rechterkant om de inhoud voor het SMS-, MMS- of RCS-bericht te maken. [ leer hoe te om een reis ](../building-journeys/journey-gs.md) tot stand te brengen
 
-* In a **Campagne**. Maak een campagne, selecteer SMS als uw actie en definieer basisinstellingen. Vervolgens bewerkt u de inhoud van het bericht om het SMS-, MMS- of RCS-bericht te definiëren dat u wilt verzenden. [&#x200B; Leer hoe te om een campagne &#x200B;](../campaigns/create-campaign.md#configure) tot stand te brengen
+* In a **Campagne**. Maak een campagne, selecteer SMS als uw actie en definieer basisinstellingen. Vervolgens bewerkt u de inhoud van het bericht om het SMS-, MMS- of RCS-bericht te definiëren dat u wilt verzenden. [ Leer hoe te om een campagne ](../campaigns/create-campaign.md#configure) tot stand te brengen
 
 >[!IMPORTANT]
 >
@@ -39,7 +39,7 @@ Verzend alleen-tekstberichten van maximaal 160 tekens. SMS is de meest ondersteu
 
 **MMS (Multimedia Dienst van het Bericht)**
 
-Verbeter uw communicatie met multimedia-inhoud, zoals video&#39;s, afbeeldingen, audioclips en GIF&#39;s. In MMS-berichten zijn naast mediabestanden maximaal 1600 tekens toegestaan. [&#x200B; leer meer over MMS beperkingen &#x200B;](../start/guardrails.md#sms-guardrails)
+Verbeter uw communicatie met multimedia-inhoud, zoals video&#39;s, afbeeldingen, audioclips en GIF&#39;s. In MMS-berichten zijn naast mediabestanden maximaal 1600 tekens toegestaan. [ leer meer over MMS beperkingen ](../start/guardrails.md#sms-guardrails)
 
 **RCS (Rich Communication Services)**
 
@@ -49,28 +49,28 @@ Verzend branded, interactieve berichten met geavanceerde eigenschappen zoals car
 
 **Personalization &amp; Dynamische Inhoud**
 
-Creeer gepersonaliseerde tekstberichten gebruikend de verpersoonlijkingsredacteur. Voeg profielkenmerken, voorwaardelijke inhoud en dynamische gegevens toe om berichten op maat te maken voor individuele ontvangers. [&#x200B; Leer over verpersoonlijking &#x200B;](../personalization/personalize.md)
+Creeer gepersonaliseerde tekstberichten gebruikend de verpersoonlijkingsredacteur. Voeg profielkenmerken, voorwaardelijke inhoud en dynamische gegevens toe om berichten op maat te maken voor individuele ontvangers. [ Leer over verpersoonlijking ](../personalization/personalize.md)
 
 **de Veelvoudige Steun van de Leverancier**
 
 Adobe Journey Optimizer integreert met toonaangevende SMS-serviceproviders:
 
-* **Sinch** - [&#x200B; gids van de Configuratie &#x200B;](sms-configuration-sinch.md)
-* **Twilio** - [&#x200B; gids van de Configuratie &#x200B;](sms-configuration-twilio.md)
-* **Infobip** - [&#x200B; gids van de Configuratie &#x200B;](sms-configuration-infobip.md)
+* **Sinch** - [ gids van de Configuratie ](sms-configuration-sinch.md)
+* **Twilio** - [ gids van de Configuratie ](sms-configuration-twilio.md)
+* **Infobip** - [ gids van de Configuratie ](sms-configuration-infobip.md)
 * **Leveranciers van de Douane** - Vorm een andere leverancier van SMS gebruikend de integratie van douaneAPI. [Meer informatie](sms-configuration-custom.md)
 
 **het Kortere maken URL &amp; het Volgen**
 
-Voeg verkorte, trackable URLs aan uw berichten toe om betrokkenheid te controleren. Subdomeinconfiguratie is vereist voor URL-verkorting. [&#x200B; Leer hoe te om subdomeinen van SMS te vormen &#x200B;](sms-subdomains.md)
+Voeg verkorte, trackable URLs aan uw berichten toe om betrokkenheid te controleren. Subdomeinconfiguratie is vereist voor URL-verkorting. [ Leer hoe te om subdomeinen van SMS te vormen ](sms-subdomains.md)
 
 **Opt-out Beheer**
 
-De naleving van industriestandaarden en -voorschriften garanderen door middel van een geïntegreerd opt-outbeheer. Journey Optimizer verwerkt automatisch standaardtrefwoorden (STOP, QUIT, CANCEL, enz.) voor Sinch- en Infobip-providers. [&#x200B; Leer over opt-out beheer &#x200B;](sms-opt-out.md)
+De naleving van industriestandaarden en -voorschriften garanderen door middel van een geïntegreerd opt-outbeheer. Journey Optimizer verwerkt automatisch standaardtrefwoorden (STOP, QUIT, CANCEL, enz.) voor Sinch- en Infobip-providers. [ Leer over opt-out beheer ](sms-opt-out.md)
 
 **Voorproef &amp; het Testen**
 
-Test uw tekstberichten voordat u ze verzendt met testprofielen en voorbeeldgegevens. Geef een voorvertoning weer van de personalisatie, de inhoud en de opmaak om te controleren of de berichten correct worden weergegeven. [&#x200B; Leer hoe te om berichten &#x200B;](send-sms.md) te verzenden
+Test uw tekstberichten voordat u ze verzendt met testprofielen en voorbeeldgegevens. Geef een voorvertoning weer van de personalisatie, de inhoud en de opmaak om te controleren of de berichten correct worden weergegeven. [ Leer hoe te om berichten ](send-sms.md) te verzenden
 
 **Rapportering &amp; Analytics**
 
@@ -88,7 +88,7 @@ Voordat u tekstberichten verzendt, moet u:
 3. **creeer kanaalconfiguraties** - de configuraties van opstellingsSMS voor marketing en transactionele berichten
 4. **vormt subdomeinen (facultatief)** - vereist slechts als u van plan bent om het verkorten van URL in uw berichten te gebruiken
 
-Deze configuratiestappen worden typisch uitgevoerd door een Beheerder van het Systeem. [&#x200B; worden begonnen met de configuratie van SMS &#x200B;](sms-configuration.md)
+Deze configuratiestappen worden typisch uitgevoerd door een Beheerder van het Systeem. [ worden begonnen met de configuratie van SMS ](sms-configuration.md)
 
 ## Handleiding voor snel starten {#quick-start}
 
@@ -106,7 +106,7 @@ Deze configuratiestappen worden typisch uitgevoerd door een Beheerder van het Sy
 <a href="create-sms.md">
 <img alt="Lood" src="../assets/do-not-localize/sms-create.jpeg">
 </a>
-<div><a href="create-sms.md"><strong> creeer een tekstbericht </strong>
+<div><a href="create-sms.md"><strong> creeer een tekstbericht </strong></a>
 </div>
 <p>Ontwerp en pas uw inhoud van SMS, MMS, of RCS aan</p>
 </td>
@@ -201,7 +201,7 @@ Leer hoe u sms-berichten configureert, opstelt en opneemt in uw klantjourneys.
 
 +++Zie video
 
->[!VIDEO](https://video.tv.adobe.com/v/3428917?captions=dut&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -211,7 +211,7 @@ Ontdek de uitgebreide mogelijkheden voor mobiel berichtenverkeer die Adobe Journ
 
 +++Zie video
 
->[!VIDEO](https://video.tv.adobe.com/v/3430379?captions=dut&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -221,7 +221,7 @@ Leer hoe u merkgebonden, interactieve RCS-berichten in Adobe Journey Optimizer c
 
 +++Zie video
 
->[!VIDEO](https://video.tv.adobe.com/v/3464761?captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 
