@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: dataset, optimizer, gebruiksgevallen
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 90b8f69f3849418eaec1b65b14e0362980c43e9a
+source-git-commit: f1a00e734f22cb660e442ebe8c0dde3468e29768
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ Op deze pagina vindt u de lijst met Adobe Journey Optimizer-gegevenssets en verw
 * [Gegevensset BCC-feedbackgebeurtenis](#bcc-feedback-event-dataset)
 * [Entiteitsgegevens](#entity-dataset)
 
-Om de volledige lijst van gebieden en attributen voor elk schema te bekijken, raadpleeg het [&#x200B; het schemawoordenboek van Journey Optimizer &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL){target="_blank"}.
+Om de volledige lijst van gebieden en attributen voor elk schema te bekijken, raadpleeg het [ het schemawoordenboek van Journey Optimizer ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
-Zie ook verscheidene algemeen gebruikte [&#x200B; voorbeelden aan de Gebeurtenissen van de Stap van de Vraag &#x200B;](../reports/query-examples.md).
+Zie ook verscheidene algemeen gebruikte [ voorbeelden aan de Gebeurtenissen van de Stap van de Vraag ](../reports/query-examples.md).
 
 
 ## Dataset over e-mailvolgervaringen{#email-tracking-experience-event-dataset}
@@ -176,6 +176,10 @@ waarbij de datumnotatie: `YYYY-MM-DD HH:MM:SS` is.
 
 Zodra geïdentificeerd, verwijder die adressen uit de onderdrukkingslijst van Journey Optimizer. [Meer informatie](../configuration/manage-suppression-list.md#remove-from-suppression-list).
 
+>[!NOTE]
+>
+>Wanneer het van verwijzingen voorzien van identityMap in de Dataset van de Gebeurtenis van de Terugkoppeling van het Bericht, gelieve te merken op dat het slechts op de identiteit wijst die bij runtime wordt gebruikt. Voor pushberichten zou een &#39;sent&#39;-gebeurtenis alleen afhankelijk zijn van de ECID die is gekoppeld aan het pushtoken dat wordt gebruikt om deze melding te verzenden, terwijl een &#39;exclusion&#39;-gebeurtenis zou kunnen vertrouwen op een aangepaste identiteit. Als een profiel bijvoorbeeld is uitgesloten omdat er geen pushtoken is gevonden, wordt de identiteit die op reis- of actiecampagnereniveau wordt gebruikt, geselecteerd om deze gebeurtenis te registreren. Als u extra naamruimten nodig hebt (bijvoorbeeld aangepaste id&#39;s), voegt u deze feedbackrecords samen met een profielgerelateerde gegevensset (bijvoorbeeld profiel_snapshot) om de volledige identiteitslijst op te halen.
+
 
 
 
@@ -266,9 +270,9 @@ group by
 ```
 
 
-Zie ook verscheidene algemeen gebruikte [&#x200B; voorbeelden aan de Gebeurtenissen van de Stap van de Vraag &#x200B;](../reports/query-examples.md).
+Zie ook verscheidene algemeen gebruikte [ voorbeelden aan de Gebeurtenissen van de Stap van de Vraag ](../reports/query-examples.md).
 
-Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 ## Dataset voor beslissingsgebeurtenis{#ode-decisionevents}
 
