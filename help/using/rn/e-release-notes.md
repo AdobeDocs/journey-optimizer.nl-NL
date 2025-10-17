@@ -16,14 +16,14 @@ ht-degree: 0%
 
 # Opmerkingen voorafgaand aan de release {#e-release-notes}
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [ versienota&#39;s ](release-notes.md).
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [&#x200B; versienota&#39;s &#x200B;](release-notes.md).
 
 
 ## Opmerkingen bij de pre-release oktober 25 {#25-10-rn}
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 22 oktober, 2025
 
@@ -285,7 +285,7 @@ Naast E-mail en SMS is het nu mogelijk om het standaarduitvoeringsveld WhatsApp 
 
 **Nieuwe Alarm van de Reis**
 
-Het nieuwe pre-gevormde alarm is beschikbaar voor reizen: [ het Tarief van de Weigering van het Profiel overtrok ](../reports/alerts.md#alert-discard-rate) (Verhouding van profielteruggooi aan ingegaan profielen over de laatste 5 minuten overschrijdt drempel), [ het Tarief van de Fout van de Actie van de Douane werd overschreden ](../reports/alerts.md#alert-custom-action-error-rate) (Verhouding van de fouten van de douaneactie aan succesvolle vraag van HTTP over de laatste 5 minuten overschreden drempel), en [ het Tarief van het Aantal van de Fout van de Profiel fout bij ingevoerde profielen gedurende de laatste vijf minuten (overschrijding van de drempel). ](../reports/alerts.md#alert-profile-error-rate) U kunt drempelwaarden wijzigen en u kunt zich abonneren op individuele waarschuwingen op het niveau van de reis ten opzichte van de rest van de wereld.
+Het nieuwe pre-gevormde alarm is beschikbaar voor reizen: [&#x200B; het Tarief van de Weigering van het Profiel overtrok &#x200B;](../reports/alerts.md#alert-discard-rate) (Verhouding van profielteruggooi aan ingegaan profielen over de laatste 5 minuten overschrijdt drempel), [&#x200B; het Tarief van de Fout van de Actie van de Douane werd overschreden &#x200B;](../reports/alerts.md#alert-custom-action-error-rate) (Verhouding van de fouten van de douaneactie aan succesvolle vraag van HTTP over de laatste 5 minuten overschreden drempel), en [&#x200B; het Tarief van het Aantal van de Fout van de Profiel fout bij ingevoerde profielen gedurende de laatste vijf minuten (overschrijding van de drempel). &#x200B;](../reports/alerts.md#alert-profile-error-rate) U kunt drempelwaarden wijzigen en u kunt zich abonneren op individuele waarschuwingen op het niveau van de reis ten opzichte van de rest van de wereld.
 
 Beschikbaarheidsdatum: 14 oktober 2025
 
