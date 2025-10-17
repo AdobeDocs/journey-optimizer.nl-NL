@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # Trainingsrapporten maken {#design-jo-reports}
 
-Naast [ rapporten in real time ](live-report.md) en ingebouwde [ rapporteringsmogelijkheden ](report-gs-cja.md), [!DNL Journey Optimizer] kunnen de gegevens van de vervoersprestaties automatisch verzenden naar Adobe Experience Platform zodat kan het met andere gegevens voor analysedoeleinden worden gecombineerd.
+Naast [&#x200B; rapporten in real time &#x200B;](live-report.md) en ingebouwde [&#x200B; rapporteringsmogelijkheden &#x200B;](report-gs-cja.md), [!DNL Journey Optimizer] kunnen de gegevens van de vervoersprestaties automatisch verzenden naar Adobe Experience Platform zodat kan het met andere gegevens voor analysedoeleinden worden gecombineerd.
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ U hebt bijvoorbeeld een reis ingesteld die meerdere e-mails verzendt. Met deze f
 
 >[!NOTE]
 >
->Naast profiel-vlakke stapgebeurtenissen, produceert het systeem ook interne gebeurtenissen voor **Gelezen de activiteiten van het publiek**. Deze gebeurtenissen, `segmentExportJob` gebeurtenissen genoemd, registreren de levenscyclus van de Read knoop van de Publiek (zoals de schepping van de uitvoerbaan, het een rij vormen, voltooiing, en fouten) en worden geproduceerd per Gelezen activiteit van de Publiek, niet per individueel profiel. Hierdoor hebben deze gebeurtenissen mogelijk geen bijbehorende profiel-id (UPMID). Deze interne gebeurtenissen zijn nuttig voor controle en het oplossen van problemen Gelezen de prestaties van het Publiek en kunnen worden gevraagd gebruikend de gebieden die in de [ worden gedocumenteerd serviceEvents sectie ](../reports/sharing-field-list.md#servicevents-field). Voor vraagvoorbeelden op hoe te met segmentExportJob gebeurtenissen te werken, zie [ Vragen met betrekking tot het Gelezen publiek ](../reports/query-examples.md#read-segment-queries).
+>Naast profiel-vlakke stapgebeurtenissen, produceert het systeem ook interne gebeurtenissen voor **Gelezen de activiteiten van het publiek**. Deze gebeurtenissen, `segmentExportJob` gebeurtenissen genoemd, registreren de levenscyclus van de Read knoop van de Publiek (zoals de schepping van de uitvoerbaan, het een rij vormen, voltooiing, en fouten) en worden geproduceerd per Gelezen activiteit van de Publiek, niet per individueel profiel. Hierdoor hebben deze gebeurtenissen mogelijk geen bijbehorende profiel-id (UPMID). Deze interne gebeurtenissen zijn nuttig voor controle en het oplossen van problemen Gelezen de prestaties van het Publiek en kunnen worden gevraagd gebruikend de gebieden die in de [&#x200B; worden gedocumenteerd serviceEvents sectie &#x200B;](../reports/sharing-field-list.md#servicevents-field). Voor vraagvoorbeelden op hoe te met segmentExportJob gebeurtenissen te werken, zie [&#x200B; Vragen met betrekking tot het Gelezen publiek &#x200B;](../reports/query-examples.md#read-segment-queries).
 
 Er zijn gevallen waarin meerdere gebeurtenissen voor hetzelfde knooppunt kunnen worden gemaakt. Bijvoorbeeld, in het geval van de Wacht activiteit:
 
@@ -67,12 +67,12 @@ De lijsten van XDM gebieden die tot Adobe Experience Platform worden overgegaan 
 
 ## Integratie met Customer Journey Analytics {#integration-cja}
 
-[!DNL Journey Optimizer] stapgebeurtenissen kunnen aan andere datasets in [ Adobe Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html){target="_blank"} worden verbonden.
+[!DNL Journey Optimizer] stapgebeurtenissen kunnen aan andere datasets in [&#x200B; Adobe Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html){target="_blank"} worden verbonden.
 
 De algemene workflow is:
 
 * [!DNL Customer Journey Analytics] voert de gegevensset &quot;Journey Step Event&quot; in.
 * Het **profileID** gebied in het bijbehorende &quot;schema van de Gebeurtenis van de Stap van de Reis voor Journey Orchestration&quot;wordt bepaald als gebied van de Identiteit. In [!DNL Customer Journey Analytics], kunt u deze dataset aan een andere dataset dan verbinden die de zelfde waarde zoals de op persoon gebaseerde herkenningsteken heeft.
-* Om deze dataset in [!DNL Customer Journey Analytics], voor dwars-kanaalreisanalyse te gebruiken, verwijs naar [ documentatie van Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
+* Om deze dataset in [!DNL Customer Journey Analytics], voor dwars-kanaalreisanalyse te gebruiken, verwijs naar [&#x200B; documentatie van Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
 
-➡️ [ Werk met Customer Journey Analytics ](cja-ajo.md){target="_blank"}
+➡️ [&#x200B; Werk met Customer Journey Analytics &#x200B;](cja-ajo.md){target="_blank"}
