@@ -7,23 +7,23 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 93179c7612eda244e512f8144ca396660a8a7537
+source-git-commit: 2c077e81aedf0a36ae15065a6cb15c88d22dd888
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
 
 # Opmerkingen voorafgaand aan de release {#e-release-notes}
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [&#x200B; versienota&#39;s &#x200B;](release-notes.md).
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [ versienota&#39;s ](release-notes.md).
 
 
-## Opmerkingen bij de pre-release oktober 25 {#25-10-rn}
+## Opmerkingen bij de pre-release oktober 25 {#oct-25-10-rn}
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 22 oktober, 2025
 
@@ -196,6 +196,24 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Herbruikbare richtingsregels</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer staat u nu toe om regels van een specifiek menu van UI tot stand te brengen en hen te gebruiken wanneer het bouwen van gericht, of als deel van inhoud Optimization in een campagne of een reis, of in Optimize reisactiviteit.</p>
+<p>De gerichte regels zijn momenteel beschikbaar aan organisaties die het Besluit toe:voegen-op aanbieden hebben gekocht, en zij zijn beschikbaar op bestelling voor de andere organisaties (Beperkte Beschikbaarheid).</p>
+<p>Deze mogelijkheid wordt geleidelijk aan aan alle klanten ten uitvoer gelegd. Neem in de tussentijd contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -246,7 +264,7 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <td>
 <p>Aangedreven door <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank"> Adobe Experience Platform Agent Orchestrator </a>, is de Agent van de Experimentatie beschikbaar in Journey Optimizer. </p>
 <p>De Experimentation Agent is een door AI aangedreven hulpmiddel dat moderniseert hoe u digitale experimenten over websites, e-mails, pushberichten, en toepassingen kunt in werking stellen en beheren. Het helpt u experimenten efficiënter in werking stellen, bedrijfsdoelstellingen organiseren, en actionable inzichten produceren, benadrukkend wat werkte, wat niet, en waar te om daarna te experimenteren.</p>
-<p>Voor meer informatie, verwijs naar de <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=nl-NL" target="_blank"> gedetailleerde documentatie </a></p>
+<p>Voor meer informatie, verwijs naar de <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank"> gedetailleerde documentatie </a></p>
 <p>Beschikbaarheidsdatum: 10 oktober 2025</p>
 </td>
 </tr>
@@ -297,13 +315,9 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 
 ### Verbeteringen
 
-**Uitgezochte herbruikbare regels in het richten**
-
-U kunt nu hefboomwerking de regelbouwer wanneer het gebruiken van het richten van regels met de eigenschap van de Optimalisering van het Bericht in reizen en campagnes. <!-- [Read more](../FILE.md) -->
-
 **gebied van de Uitvoering voor het Kanaal WhatsApp**
 
-Naast E-mail en SMS is het nu mogelijk om het standaarduitvoeringsveld WhatsApp bij te werken. Het is ook mogelijk om het uitvoeringsgebied met voeten te treden dat globaal in de WhatsApp reisactiviteit geavanceerde parameters of in de WhatsApp kanaalconfiguratie wordt geplaatst. <!-- [Read more](../FILE.md) -->
+Naast e-mail en SMS, kunt u het standaard uitvoeringsgebied voor uw leveringen WhatsApp op het zandbakniveau weten bij te werken. Het is ook mogelijk om het uitvoeringsgebied met voeten te treden dat globaal door het in de WhatsApp reisactiviteit geavanceerde parameters of in de WhatsApp kanaalconfiguratie wordt geplaatst te veranderen. <!-- [Read more](../FILE.md) -->
 
 **de kenmerkensteun van de Douane voor (unsubscribe) adres Mailto**
 
