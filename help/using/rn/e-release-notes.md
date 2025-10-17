@@ -7,23 +7,23 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2c077e81aedf0a36ae15065a6cb15c88d22dd888
+source-git-commit: 0328ffb49ca72d293c0e1a729441cde6c3a16b45
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 0%
+source-wordcount: '1097'
+ht-degree: 1%
 
 ---
 
 # Opmerkingen voorafgaand aan de release {#e-release-notes}
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [&#x200B; versienota&#39;s &#x200B;](release-notes.md).
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [ versienota&#39;s ](release-notes.md).
 
 
 ## Opmerkingen bij de pre-release oktober 25 {#oct-25-10-rn}
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 22 oktober, 2025
 
@@ -170,7 +170,7 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <tr>
 <td>
 <p>U kunt nu beleidsregels voor beslissingen toevoegen aan e-mailreizen en -campagnes. Beslissingsbeleid is containers voor uw aanbiedingen die de beslissingsengine gebruiken om dynamisch de beste inhoud te retourneren die voor elk publiekslid kan worden geleverd.</p>
-<p> Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
+<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 </td>
@@ -218,6 +218,25 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <table>
 <thead>
 <tr>
+<th><strong>Thema's in de Designer-e-mail</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu snel vooraf goedgekeurde thema's toepassen om de consistentie van uw merk in alle e-mails te garanderen, het aanmaakproces van uw campagne te versnellen en onafhankelijk e-mails van hoge kwaliteit te produceren en de afhankelijkheid van ontwerpteams te verminderen.</p>
+<p>Eerder in bètaversie is deze mogelijkheid nu beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
+<img src="assets/do-not-localize/themes.gif">
+<p>Raadpleeg de <a href="../email/apply-email-themes.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<!--p>Availability date: October 22, 2025</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Nieuwe reiswaarschuwingen</strong><br/></th>
 </tr>
 </thead>
@@ -227,7 +246,7 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <p>Nieuwe vooraf geconfigureerde waarschuwingen zijn beschikbaar om de uitvoering van de reis te controleren:</p>
 <ul><li><a href="../reports/alerts.md#alert-discard-rate"> Profiel verwerpt Tarief dat </a> wordt overschreden: Verhouding van profielteruggooi naar ingegaan profielen over de laatste 5 minuten overschrijdt drempel</li>
 <li><a href="../reports/alerts.md#alert-custom-action-error-rate"> het Tarief van de Fout van de Actie van de Douane overtrok </a>: Verhouding van de fouten van de douaneactie aan succesvolle vraag van HTTP over de laatste 5 minuten overschrijdt drempel</li>
-<li><a href="../reports/alerts.md#alert-profile-error-rate"> het Tarief van de Fout van het Profiel overtrok </a>: Verhouding van profiel-in-fout aan ingegaan profielen over de laatste 5 minuten overschrijdt drempel</li>.</ul> <p>U kunt drempelwaarden wijzigen en u kunt zich abonneren op individuele waarschuwingen op het niveau van de reis ten opzichte van de rest van de wereld.</p>
+<li><a href="../reports/alerts.md#alert-profile-error-rate"> het Tarief van de Fout van het Profiel overtrok </a>: Verhouding van profiel-in-fout aan ingegaan profielen over de laatste 5 minuten overschrijdt drempel.</li></ul> <p>U kunt drempelwaarden wijzigen en u kunt zich abonneren op individuele waarschuwingen op het niveau van de reis ten opzichte van de rest van de wereld.</p>
 <p>Voor meer informatie, verwijs naar de <a href="../reports/alerts.md"> gedetailleerde documentatie </a></p>
 <p>Beschikbaarheidsdatum: 14 oktober 2025</p>
 </td>
@@ -264,7 +283,7 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <td>
 <p>Aangedreven door <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank"> Adobe Experience Platform Agent Orchestrator </a>, is de Agent van de Experimentatie beschikbaar in Journey Optimizer. </p>
 <p>De Experimentation Agent is een door AI aangedreven hulpmiddel dat moderniseert hoe u digitale experimenten over websites, e-mails, pushberichten, en toepassingen kunt in werking stellen en beheren. Het helpt u experimenten efficiënter in werking stellen, bedrijfsdoelstellingen organiseren, en actionable inzichten produceren, benadrukkend wat werkte, wat niet, en waar te om daarna te experimenteren.</p>
-<p>Voor meer informatie, verwijs naar de <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=nl-NL" target="_blank"> gedetailleerde documentatie </a></p>
+<p>Voor meer informatie, verwijs naar de <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank"> gedetailleerde documentatie </a></p>
 <p>Beschikbaarheidsdatum: 10 oktober 2025</p>
 </td>
 </tr>
