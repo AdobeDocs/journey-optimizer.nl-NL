@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Hieronder vindt u Veelgestelde vragen over Adobe Journey Optimizer-reizen.
 
-Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [ gemeenschap van Adobe Journey Optimizer ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
+Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [&#x200B; gemeenschap van Adobe Journey Optimizer &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
 
 ## Algemene beginselen
 
@@ -31,7 +31,7 @@ Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina o
 
 Een reis is een multi-step organisatie die u toestaat om klantenervaringen in real time over veelvoudige kanalen te ontwerpen en uit te voeren. De reizen combineren gebeurtenissen, orkestactiviteiten, acties, en berichten om gepersonaliseerde, contextuele ervaringen tot stand te brengen die op klantengedrag en bedrijfsgebeurtenissen worden gebaseerd.
 
-Leer meer over [ reizen ](journey.md).
+Leer meer over [&#x200B; reizen &#x200B;](journey.md).
 
 +++
 
@@ -44,7 +44,7 @@ Adobe Journey Optimizer ondersteunt vier soorten reizen:
 * **reizen van de Kwalificatie van het publiek**: teweeggebracht wanneer de profielen voor (of uitgang uit) een specifiek publiekssegment kwalificeren. Profielen gaan de reis in aangezien zij aan de publiekscriteria voldoen.
 * **de dienstreizen van de Bedrijfs gebeurtenis**: teweeggebracht door bedrijfsgebeurtenissen (b.v., voorraadupdates, weeralarm) die veelvoudige profielen gelijktijdig beïnvloeden.
 
-Leer meer over [ reistypes ](entry-management.md#types-of-journeys).
+Leer meer over [&#x200B; reistypes &#x200B;](entry-management.md#types-of-journeys).
 
 +++
 
@@ -72,7 +72,7 @@ Een reis bestaat uit:
 * **Ingebouwde kanaalacties**: De inheemse overseinenmogelijkheden voor e-mail, SMS, duw, en andere kanalen
 * **de acties van de Douane**: Integratie met derdesystemen
 
-Leer meer over [ reisactiviteiten ](about-journey-activities.md).
+Leer meer over [&#x200B; reisactiviteiten &#x200B;](about-journey-activities.md).
 
 +++
 
@@ -105,7 +105,7 @@ Voer de volgende belangrijke stappen uit:
 5. **Test de reis**: De testwijze van het gebruik om uw reislogica te bevestigen
 6. **publiceer de reis**: Activeer de reis om het levend te maken
 
-Volg de [ geleidelijke gids ](journey-gs.md).
+Volg de [&#x200B; geleidelijke gids &#x200B;](journey-gs.md).
 
 +++
 
@@ -118,7 +118,7 @@ Vereisten zijn afhankelijk van het type reis:
 * **de verrijking van Gegevens**: De bronnen van opstellingsgegevens om extra informatie terug te winnen
 * **de Integraties van de Derde**: Vorm douaneacties als het gebruiken van externe systemen
 
-Leer meer over [ reisconfiguratie ](../configuration/about-data-sources-events-actions.md).
+Leer meer over [&#x200B; reisconfiguratie &#x200B;](../configuration/about-data-sources-events-actions.md).
 
 +++
 
@@ -126,7 +126,7 @@ Leer meer over [ reisconfiguratie ](../configuration/about-data-sources-events-a
 
 Ja. U kunt **externe gegevensbronnen** vormen om informatie van derde API diensten terug te winnen en het in uw reisvoorwaarden, verpersoonlijking, of acties te gebruiken. Dit staat u toe om de klantenervaring met gegevens in real time van uw CRM, loyaliteitssystemen, weerdiensten, of andere externe platforms te verrijken.
 
-Leer meer over [ externe gegevensbronnen ](../datasource/external-data-sources.md).
+Leer meer over [&#x200B; externe gegevensbronnen &#x200B;](../datasource/external-data-sources.md).
 
 +++
 
@@ -138,7 +138,7 @@ U kunt voorwaarden toevoegen gebruikend de **activiteit van de Voorwaarde** van 
 * Splits de reis in veelvoudige wegen die op profielattributen, publiekslidmaatschap, gebeurtenissen, of contextafhankelijke gegevens worden gebaseerd
 * Tijdlijnpaden definiëren voor profielen die niet binnen een opgegeven tijd aan de voorwaarde voldoen
 
-Leer meer over [ voorwaarden ](condition-activity.md).
+Leer meer over [&#x200B; voorwaarden &#x200B;](condition-activity.md).
 
 +++
 
@@ -146,7 +146,7 @@ Leer meer over [ voorwaarden ](condition-activity.md).
 
 Ja. Journey Optimizer omvat **ingebouwde kanaalacties** die u toestaan om berichten door e-mail, dupberichten, SMS/MMS/RCS, in-app berichten, Webervaringen, code-gebaseerde ervaringen, direct mail, inhoudskaarten, WhatsApp, en LIJN te verzenden. U kunt berichtinhoud rechtstreeks in Journey Optimizer ontwerpen en deze toevoegen als actieactiviteiten tijdens uw reis.
 
-Leer meer over [ berichten in reizen ](journeys-message.md).
+Leer meer over [&#x200B; berichten in reizen &#x200B;](journeys-message.md).
 
 +++
 
@@ -159,7 +159,7 @@ Gebruik **wacht activiteit** om de reis voor een gespecificeerde duur of tot een
 * Druppingscampagnes maken met getimede intervallen
 * Combineren met voorwaarden om time-outscenario&#39;s te maken
 
-Leer meer over [ wachten activiteiten ](wait-activity.md).
+Leer meer over [&#x200B; wachten activiteiten &#x200B;](wait-activity.md).
 
 +++
 
@@ -167,7 +167,7 @@ Leer meer over [ wachten activiteiten ](wait-activity.md).
 
 Ja. Gebruik de **activiteit van het Profiel van de Update** om profielattributen in Adobe Experience Platform te wijzigen die op reisgebeurtenissen of voorwaarden wordt gebaseerd. Dit is nuttig voor het bijwerken van loyaliteitspunten, het registreren van reis mijlpalen, het veranderen van voorkeursinstellingen, of het volgen van de scores van de klantenovereenkomst.
 
-Leer meer over [ profielupdates ](update-profiles.md).
+Leer meer over [&#x200B; profielupdates &#x200B;](update-profiles.md).
 
 +++
 
@@ -183,7 +183,7 @@ Creeer a **unitaire gebeurtenis-teweeggebrachte reis**:
 
 De reis wordt automatisch geactiveerd wanneer een aankoopgebeurtenis wordt ontvangen en de bevestigingsmail in real-time wordt verzonden.
 
-Leer meer over [ gebeurtenisconfiguratie ](../event/about-events.md) en [ e-mailacties ](journeys-message.md).
+Leer meer over [&#x200B; gebeurtenisconfiguratie &#x200B;](../event/about-events.md) en [&#x200B; e-mailacties &#x200B;](journeys-message.md).
 
 +++
 
@@ -199,7 +199,7 @@ Ja. Gebruik de activiteit van de a **voorwaarde** die met **wordt gecombineerd a
 
 **Beste praktijken**: Beperk het aantal opnieuw beëindigt om verschijnende spammy (typisch 1-2 herinneringen maximum) te vermijden.
 
-Leer meer over [ reactiegebeurtenissen ](reaction-events.md).
+Leer meer over [&#x200B; reactiegebeurtenissen &#x200B;](reaction-events.md).
 
 +++
 
@@ -213,7 +213,7 @@ Maak een door een gebeurtenis geïnitieerde reis met logica voor wachten en voor
 4. **als niet gekocht**: verzend een e-mail van de terugkeringsherinnering met de inhoud van het karretje
 5. **Facultatief**: Voeg een andere wachttijd (24 uren) toe en verzend een tweede herinnering met een stimulans (b.v., 10% korting)
 
-Leer meer over [ gevallen van het reisgebruik ](jo-use-cases.md).
+Leer meer over [&#x200B; gevallen van het reisgebruik &#x200B;](jo-use-cases.md).
 
 +++
 
@@ -228,7 +228,7 @@ Gebruik de activiteit van de a **Voorwaarde** met het publiekslidmaatschap of pr
    * **Weg 3**: Nieuwe klanten (totale aankopen &lt; $100)
 3. Verschillende berichten of aanbiedingen toevoegen voor elk pad
 
-Leer meer over [ voorwaarden ](condition-activity.md) en [ publiekskwalificatie ](audience-qualification-events.md).
+Leer meer over [&#x200B; voorwaarden &#x200B;](condition-activity.md) en [&#x200B; publiekskwalificatie &#x200B;](audience-qualification-events.md).
 
 +++
 
@@ -242,7 +242,7 @@ Journey Optimizer biedt verschillende opties voor tijdzonebeheer:
 
 **Voorbeeld**: Om een e-mail van de &quot;Goede ochtend&quot;te verzenden bij 9 AM in de tijdzone van elke klant, gebruik een Wacht activiteit met &quot;wacht tot een vaste datum/tijd&quot;en laat de timezone optie toe.
 
-Leer meer over [ timezone management ](timezone-management.md).
+Leer meer over [&#x200B; timezone management &#x200B;](timezone-management.md).
 
 +++
 
@@ -265,7 +265,7 @@ Leer meer over [ timezone management ](timezone-management.md).
 
 **Uiteinde**: De regels van het afschilderen van het gebruik om het totale aantal berichten te beperken een klant over alle reizen ontvangt.
 
-Leer meer over [ wachten activiteiten ](wait-activity.md) en [ reis het in kaart brengen ](../conflict-prioritization/journey-capping.md).
+Leer meer over [&#x200B; wachten activiteiten &#x200B;](wait-activity.md) en [&#x200B; reis het in kaart brengen &#x200B;](../conflict-prioritization/journey-capping.md).
 
 +++
 
@@ -280,7 +280,7 @@ Journey Optimizer biedt twee testmethoden:
 
 **Beste praktijken**: Test altijd reizen alvorens te publiceren om ervoor te zorgen zij werken zoals verwacht en om om het even welke kwesties vroegtijdig te identificeren.
 
-Leer meer over [ testwijze ](testing-the-journey.md) en [ droge looppas ](journey-dry-run.md).
+Leer meer over [&#x200B; testwijze &#x200B;](testing-the-journey.md) en [&#x200B; droge looppas &#x200B;](journey-dry-run.md).
 
 +++
 
@@ -293,7 +293,7 @@ Wanneer u een reis publiceert:
 * Berichten en acties worden uitgevoerd voor profielen die door de reis bewegen
 * U kunt een gepubliceerde reis niet rechtstreeks bewerken (u moet een nieuwe versie maken)
 
-Leer meer over [ het publiceren reizen ](publishing-the-journey.md).
+Leer meer over [&#x200B; het publiceren reizen &#x200B;](publishing-the-journey.md).
 
 +++
 
@@ -308,7 +308,7 @@ U kunt een live reis niet rechtstreeks bewerken. Wijzigingen aanbrengen:
 
 Profielen die al onderweg zijn, voltooien de oorspronkelijke versie, terwijl nieuwe profielen de nieuwe versie invoeren.
 
-Leer meer over [ reisversies ](journey-ui.md#journey-versions).
+Leer meer over [&#x200B; reisversies &#x200B;](journey-ui.md#journey-versions).
 
 +++
 
@@ -320,7 +320,7 @@ U kunt de uitvoering van de reis op verschillende manieren beheren:
 * **Einde onmiddellijk**: Eind de reis en ga alle profielen weg momenteel in het
 * **Pauze**: Tijdelijk de reis tegenhouden en het later hervatten (beschikbaar voor specifieke vervoerstypes)
 
-Leer meer over [ beëindigende reizen ](end-journey.md).
+Leer meer over [&#x200B; beëindigende reizen &#x200B;](end-journey.md).
 
 +++
 
@@ -340,7 +340,7 @@ Leer meer over [ beëindigende reizen ](end-journey.md).
 * Gebruik dit voor dringende situaties of kritieke fouten
 * Voorbeeld: productterugroeping die onmiddellijke stopzetting van promotieberichten vereist
 
-Leer meer over [ opties van de de reispauze ](journey-pause.md).
+Leer meer over [&#x200B; opties van de de reispauze &#x200B;](journey-pause.md).
 
 +++
 
@@ -355,7 +355,7 @@ U kunt de uitvoering van de reis controleren met:
 * **Gebeurtenissen van de Stap van de Reis**: Toegang gedetailleerde uitvoeringsgegevens voor douane het melden
 * **Dashboard van de Looppas van de Droog van de Reis**: De resultaten van de testuitvoering van het overzicht alvorens live te gaan
 
-Leer meer over [ reis rapporterend ](report-journey.md).
+Leer meer over [&#x200B; reis rapporterend &#x200B;](report-journey.md).
 
 +++
 
@@ -370,7 +370,7 @@ De profielen met algemene redenen mogen geen reis maken:
 * **Ongeldige namespace**: De reis namespace past niet de profielidentiteit aan
 * **Reis gesloten**: De reis keurt nieuwe ingangen niet meer goed
 
-Leer meer over [ ingangsbeheer ](entry-management.md).
+Leer meer over [&#x200B; ingangsbeheer &#x200B;](entry-management.md).
 
 +++
 
@@ -385,7 +385,7 @@ De gebeurtenissen van de wegstap zijn automatisch geproduceerde datasets die ged
 * Gedetailleerd profielgedrag bijhouden
 * Geavanceerde analysemodellen en attributiemodellen maken
 
-Leer meer over [ gebeurtenissen van de reisstap ](../reports/sharing-overview.md).
+Leer meer over [&#x200B; gebeurtenissen van de reisstap &#x200B;](../reports/sharing-overview.md).
 
 +++
 
@@ -405,7 +405,7 @@ Journey Optimizer biedt verschillende bronnen voor probleemoplossing:
 * Ongeldige expressies in voorwaarden of personalisatie
 * Te korte time-outinstellingen
 
-Leer meer over [ het oplossen van problemenreizen ](troubleshooting.md).
+Leer meer over [&#x200B; het oplossen van problemenreizen &#x200B;](troubleshooting.md).
 
 +++
 
@@ -415,7 +415,7 @@ Wanneer een actie ontbreekt (b.v., de onderbrekingen van de API vraag, fout van 
 
 **Beste praktijken**: Plaats aangewezen onderbrekingswaarden voor externe acties en bepaal alternatieve wegen voor kritieke mislukkingsscenario&#39;s.
 
-Leer meer over [ actierespons ](../action/action-response.md).
+Leer meer over [&#x200B; actierespons &#x200B;](../action/action-response.md).
 
 +++
 
@@ -430,7 +430,7 @@ Ja. Gebruik het **Levende Rapport van de Reis** aan mening:
 
 Om individuele profielen te zien, gebruik {de gebeurtenissen van de 0} reis stap **in Customer Journey Analytics of vraag direct de datasets van de step gebeurtenis.**
 
-Leer meer over [ reis levende rapportering ](report-journey.md).
+Leer meer over [&#x200B; reis levende rapportering &#x200B;](report-journey.md).
 
 +++
 
@@ -456,7 +456,7 @@ Oplossing: ter goedkeuring indienen of de goedkeuringsstatus controleren
 * **de configuratiekwestie van het Kanaal**: De configuratie E-mail/SMS is onjuist
 Oplossing: controleer kanaalconfiguraties en verificatie
 
-Leer meer over [ het oplossen van problemen ](troubleshooting.md) en [ toestemmingsbeheer ](../action/consent.md).
+Leer meer over [&#x200B; het oplossen van problemen &#x200B;](troubleshooting.md) en [&#x200B; toestemmingsbeheer &#x200B;](../action/consent.md).
 
 +++
 
@@ -478,7 +478,7 @@ U kunt berichten personaliseren gebruikend de **verpersoonlijkingsredacteur**:
 * &quot;Gebaseerd op uw loyaliteitsrij ({{profile.loyaltyTier}}), hier is een speciale aanbieding&quot;
 * Dynamische inhoudsblokken die worden gewijzigd op basis van de voorkeuren van de klant
 
-Leer meer over [ verpersoonlijking ](../personalization/personalize.md).
+Leer meer over [&#x200B; verpersoonlijking &#x200B;](../personalization/personalize.md).
 
 +++
 
@@ -495,7 +495,7 @@ Ja. Gebruik de activiteit van de a **Voorwaarde** om het aangewezen kanaal te co
 
 **Alternatieve benadering**: Gebruik **multi-kanaalacties** waar Journey Optimizer automatisch het beste kanaal selecteert dat op profielvoorkeur en beschikbaarheid wordt gebaseerd.
 
-Leer meer over [ kanaalacties ](journeys-message.md).
+Leer meer over [&#x200B; kanaalacties &#x200B;](journeys-message.md).
 
 +++
 
@@ -522,7 +522,7 @@ Ja, er zijn verschillende manieren om klanten uit te sluiten:
 * Exclusief werknemers en testaccounts
 * Klanten in specifieke regio&#39;s uitsluiten
 
-Leer meer over [ ingangsbeheer ](entry-management.md) en [ voorwaarden ](condition-activity.md).
+Leer meer over [&#x200B; ingangsbeheer &#x200B;](entry-management.md) en [&#x200B; voorwaarden &#x200B;](condition-activity.md).
 
 +++
 
@@ -534,7 +534,7 @@ A **namespace** is een identiteitstype (b.v., e-mail, ECID, telefoonaantal) dat 
 
 **Beste praktijken**: Kies een namespace die betrouwbaar uw klanten over alle aanrakingspunten identificeert.
 
-Leer meer over [ identiteitsnaamruimten ](../audience/get-started-identity.md).
+Leer meer over [&#x200B; identiteitsnaamruimten &#x200B;](../audience/get-started-identity.md).
 
 +++
 
@@ -548,7 +548,7 @@ Ja, afhankelijk van de **re-entry montages**:
 
 **Beste praktijken**: Gebruik re-entry regels om berichtvermoeidheid te verhinderen en aangewezen het passen te verzekeren.
 
-Leer meer over [ ingangsbeheer ](entry-management.md).
+Leer meer over [&#x200B; ingangsbeheer &#x200B;](entry-management.md).
 
 +++
 
@@ -562,7 +562,7 @@ Leer meer over [ ingangsbeheer ](entry-management.md).
 * Betere klantervaring door optimaal getimed berichten
 * Verlaagde afmeldingsrechten
 
-Leer meer over [ verzenden-tijd optimalisering ](send-time-optimization.md).
+Leer meer over [&#x200B; verzenden-tijd optimalisering &#x200B;](send-time-optimization.md).
 
 +++
 
@@ -570,7 +570,7 @@ Leer meer over [ verzenden-tijd optimalisering ](send-time-optimization.md).
 
 **Kaart van de Reis** staat u toe om het aantal tijden te beperken een profiel reizen binnen een gespecificeerde tijdspanne kan ingaan, die berichtmoeheid verhinderen en optimale klantenervaring verzekeren. U kunt maximale gegevens per profiel instellen voor reizen of specifieke reizen, tijdvensters definiëren (dagelijks, wekelijks, maandelijks) en reizen prioriteren wanneer meerdere reizen met hetzelfde profiel concurreren.
 
-Leer meer over [ aftappen van de reis ](../conflict-prioritization/journey-capping.md).
+Leer meer over [&#x200B; aftappen van de reis &#x200B;](../conflict-prioritization/journey-capping.md).
 
 +++
 
@@ -580,7 +580,7 @@ Ja. Het gebruik **douaneacties** om derde APIs (CRM, marketing automatisering, l
 
 Aangepaste acties ondersteunen verificatie (API-sleutel, OAuth 2.0), aanpassing van de payload voor aanvragen/antwoorden, foutafhandeling en time-outs en dynamische parameters vanuit de reiscontext.
 
-Leer meer over [ douaneacties ](using-custom-actions.md).
+Leer meer over [&#x200B; douaneacties &#x200B;](using-custom-actions.md).
 
 +++
 
@@ -593,7 +593,7 @@ Journey Optimizer integreert native met Adobe Campaign om zijn geavanceerde moge
 
 **Beste praktijken**: Gebruik deze integratie als u bestaande malplaatjes van de Campagne, gegevensmodellen hebt, of campagne-specifieke eigenschappen vereist.
 
-Leer meer over [ integratie van de Campagne ](ajo-ac.md).
+Leer meer over [&#x200B; integratie van de Campagne &#x200B;](ajo-ac.md).
 
 +++
 
@@ -603,7 +603,7 @@ De **activiteit van de Jump** staat u toe om profielen van één reis aan een an
 
 Wanneer een profiel een sprongactiviteit bereikt, sluiten zij de huidige reis en gaan de doelreis bij zijn uitgangspunt in.
 
-Leer meer over [ de activiteit van de Sprong ](jump.md).
+Leer meer over [&#x200B; de activiteit van de Sprong &#x200B;](jump.md).
 
 +++
 
@@ -632,7 +632,7 @@ Een typische welkomstserie omvat meerdere aanraakpunten over een aantal dagen:
 * Open snelheden bewaken en timing/inhoud dienovereenkomstig aanpassen
 * Klanten vroegtijdig afsluiten als ze hun producten converteren of sterk engageren
 
-Leer meer over [ gevallen van het reisgebruik ](jo-use-cases.md).
+Leer meer over [&#x200B; gevallen van het reisgebruik &#x200B;](jo-use-cases.md).
 
 +++
 
@@ -660,7 +660,7 @@ Ja. Gebruik **optimaliseer activiteit** (beschikbaar in specifieke pakketten van
 * Verschillende aanbiedingen of stimulansen
 * Volledig verschillende reispaden
 
-Leer meer over [ activiteit ](optimize.md) optimaliseren en [ inhoudexperimenten ](../content-management/content-experiment.md).
+Leer meer over [&#x200B; activiteit &#x200B;](optimize.md) optimaliseren en [&#x200B; inhoudexperimenten &#x200B;](../content-management/content-experiment.md).
 
 +++
 
@@ -681,7 +681,7 @@ Creeer de reis van de a **bedrijfsgebeurtenis**:
 * Aankondiging van Flash-verkoop
 * Op weersomstandigheden gebaseerde promoties
 
-Leer meer over [ bedrijfsgebeurtenissen ](general-events.md).
+Leer meer over [&#x200B; bedrijfsgebeurtenissen &#x200B;](general-events.md).
 
 +++
 
@@ -721,7 +721,7 @@ Hoewel u een reis voor individuele profielen niet direct kunt pauzeren, kunt u g
 * Wacht op een periode, dan gebruik een Voorwaarde om te controleren of iets tijdens het wachten gebeurde
 * Voorbeeld: wacht 7 dagen en controleer vervolgens of de klant een aankoop heeft gedaan
 
-Leer meer over [ voorwaarden ](condition-activity.md) en [ wachten activiteiten ](wait-activity.md).
+Leer meer over [&#x200B; voorwaarden &#x200B;](condition-activity.md) en [&#x200B; wachten activiteiten &#x200B;](wait-activity.md).
 
 +++
 
@@ -737,7 +737,7 @@ Belangrijke instructies zijn:
 * **grootte van de Publiek**: Beperkingen op gelezen grootte van de publiekspartij
 * **Complexiteit van de Uitdrukking**: De grenzen van het karakter in voorwaarden en verpersoonlijking
 
-Volledige van de mening [ begeleiding en beperkingen ](../start/guardrails.md).
+Volledige van de mening [&#x200B; begeleiding en beperkingen &#x200B;](../start/guardrails.md).
 
 +++
 
@@ -771,7 +771,7 @@ Volledige van de mening [ begeleiding en beperkingen ](../start/guardrails.md).
 * Logica en bedrijfsregels voor documentreizen
 * Plan voor het versieren van reizen
 
-Leer meer over [ beste praktijken van het reisontwerp ](using-the-journey-designer.md).
+Leer meer over [&#x200B; beste praktijken van het reisontwerp &#x200B;](using-the-journey-designer.md).
 
 +++
 
@@ -781,7 +781,7 @@ Hoewel er geen strikte beperking is op het aantal activiteiten, kunnen zeer comp
 
 **Beste praktijken**: Als uw reis te complex wordt, overweeg het breken in veelvoudige reizen gebruikend de activiteit van de Reliëf, creërend herbruikbare sub-reizen, of vereenvoudigend logica met efficiëntere voorwaarden.
 
-Leer meer over [ reisontwerp ](using-the-journey-designer.md).
+Leer meer over [&#x200B; reisontwerp &#x200B;](using-the-journey-designer.md).
 
 +++
 
@@ -808,7 +808,7 @@ Leer meer over [ reisontwerp ](using-the-journey-designer.md).
 * Veelgebruikte gegevens indien mogelijk in cache plaatsen
 * Prestaties van berichtlevering bekijken en optimaliseren
 
-Leer meer over [ reis optimalisering ](../start/guardrails.md).
+Leer meer over [&#x200B; reis optimalisering &#x200B;](../start/guardrails.md).
 
 +++
 
@@ -820,4 +820,4 @@ Raadpleeg de volgende bronnen voor meer informatie en updates:
 * [Uw eerste journey maken](journey-gs.md)
 * [Problemen met hulplijnen oplossen](troubleshooting.md)
 * [Gebruiksgevallen voor reizen](jo-use-cases.md)
-* [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [&#x200B; de Beschrijving van het Product van Journey Optimizer &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
