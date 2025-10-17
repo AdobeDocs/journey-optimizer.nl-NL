@@ -7,29 +7,48 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9c80306d1dad057272b43339c940fec77e2441b1
+source-git-commit: 70ffd26772ae9907278af92a46af30b9d1bb1309
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
 
 # Opmerkingen voorafgaand aan de release {#e-release-notes}
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [&#x200B; versienota&#39;s &#x200B;](release-notes.md).
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [ versienota&#39;s ](release-notes.md).
 
 
 ## Opmerkingen bij de pre-release oktober 25 {#25-10-rn}
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 22 oktober, 2025
 
 ### Nieuwe functies {#oct-25-10-features}
 
 
+
+<table>
+<thead>
+<tr>
+<th><strong>Quiet-uren/uitsluitingen op basis van tijd</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met stille uren kunt u op tijd gebaseerde uitsluitingen definiëren voor e-mail-, SMS-, push- en WhatsApp-kanalen. Zij zorgen ervoor dat geen berichten tijdens specifieke periodes worden verzonden, die u helpen klantenvoorkeur en nalevingsvereisten respecteren.</p>
+<p>U kunt stille uren toepassen via regelsets, die u kunt toewijzen aan afzonderlijke acties in campagnes of reizen voor een nauwkeurige controle. Deze processen stroomlijnen.</p>
+<p>Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -177,24 +196,27 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 </tbody>
 </table>
 
+
 <table>
 <thead>
 <tr>
-<th><strong>Quiet-uren/uitsluitingen op basis van tijd</strong><br/></th>
+<th><strong>Nieuwe reiswaarschuwingen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Met stille uren kunt u op tijd gebaseerde uitsluitingen definiëren voor e-mail-, SMS-, push- en WhatsApp-kanalen. Zij zorgen ervoor dat geen berichten tijdens specifieke periodes worden verzonden, die u helpen klantenvoorkeur en nalevingsvereisten respecteren.</p>
-<p>U kunt stille uren toepassen via regelsets, die u kunt toewijzen aan afzonderlijke acties in campagnes of reizen voor een nauwkeurige controle. Deze processen stroomlijnen.</p>
-<p>Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>Nieuwe vooraf geconfigureerde waarschuwingen zijn beschikbaar om de uitvoering van de reis te controleren:</p>
+<ul><li><a href="./reports/alerts.md#alert-discard-rate"> Profiel verwerpt Tarief dat </a> wordt overschreden: Verhouding van profielteruggooi naar ingegaan profielen over de laatste 5 minuten overschrijdt drempel</li>
+<li><a href="../reports/alerts.md#alert-custom-action-error-rate"> het Tarief van de Fout van de Actie van de Douane overtrok </a>: Verhouding van de fouten van de douaneactie aan succesvolle vraag van HTTP over de laatste 5 minuten overschrijdt drempel</li>
+<li><a href="../reports/alerts.md#alert-profile-error-rate"> het Tarief van de Fout van het Profiel overtrok </a>: Verhouding van profiel-in-fout aan ingegaan profielen over de laatste 5 minuten overschrijdt drempel</li>.</ul> <p>U kunt drempelwaarden wijzigen en u kunt zich abonneren op individuele waarschuwingen op het niveau van de reis ten opzichte van de rest van de wereld.</p>
+<p>Voor meer informatie, verwijs naar de <a href="../reports/alerts.md"> gedetailleerde documentatie </a></p>
+<p>Beschikbaarheidsdatum: 14 oktober 2025</p>
 </td>
 </tr>
 </tbody>
 </table>
+
 <table>
 <thead>
 <tr>
@@ -224,7 +246,7 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <td>
 <p>Aangedreven door <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank"> Adobe Experience Platform Agent Orchestrator </a>, is de Agent van de Experimentatie beschikbaar in Journey Optimizer. </p>
 <p>De Experimentation Agent is een door AI aangedreven hulpmiddel dat moderniseert hoe u digitale experimenten over websites, e-mails, pushberichten, en toepassingen kunt in werking stellen en beheren. Het helpt u experimenten efficiënter in werking stellen, bedrijfsdoelstellingen organiseren, en actionable inzichten produceren, benadrukkend wat werkte, wat niet, en waar te om daarna te experimenteren.</p>
-<p>Voor meer informatie, verwijs naar de <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=nl-NL" target="_blank"> gedetailleerde documentatie </a></p>
+<p>Voor meer informatie, verwijs naar de <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank"> gedetailleerde documentatie </a></p>
 <p>Beschikbaarheidsdatum: 10 oktober 2025</p>
 </td>
 </tr>
@@ -282,12 +304,6 @@ U kunt nu hefboomwerking de regelbouwer wanneer het gebruiken van het richten va
 **gebied van de Uitvoering voor het Kanaal WhatsApp**
 
 Naast E-mail en SMS is het nu mogelijk om het standaarduitvoeringsveld WhatsApp bij te werken. Het is ook mogelijk om het uitvoeringsgebied met voeten te treden dat globaal in de WhatsApp reisactiviteit geavanceerde parameters of in de WhatsApp kanaalconfiguratie wordt geplaatst. <!-- [Read more](../FILE.md) -->
-
-**Nieuwe Alarm van de Reis**
-
-Het nieuwe pre-gevormde alarm is beschikbaar voor reizen: [&#x200B; het Tarief van de Weigering van het Profiel overtrok &#x200B;](../reports/alerts.md#alert-discard-rate) (Verhouding van profielteruggooi aan ingegaan profielen over de laatste 5 minuten overschrijdt drempel), [&#x200B; het Tarief van de Fout van de Actie van de Douane werd overschreden &#x200B;](../reports/alerts.md#alert-custom-action-error-rate) (Verhouding van de fouten van de douaneactie aan succesvolle vraag van HTTP over de laatste 5 minuten overschreden drempel), en [&#x200B; het Tarief van het Aantal van de Fout van de Profiel fout bij ingevoerde profielen gedurende de laatste vijf minuten (overschrijding van de drempel). &#x200B;](../reports/alerts.md#alert-profile-error-rate) U kunt drempelwaarden wijzigen en u kunt zich abonneren op individuele waarschuwingen op het niveau van de reis ten opzichte van de rest van de wereld.
-
-Beschikbaarheidsdatum: 14 oktober 2025
 
 **de kenmerkensteun van de Douane voor (unsubscribe) adres Mailto**
 
