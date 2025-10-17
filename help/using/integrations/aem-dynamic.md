@@ -258,5 +258,5 @@ Leer hoe u Adobe Experience Manager Dynamic Media met Adobe Journey Optimizer ku
 
 In deze zelfstudie wordt uitgelegd hoe u afbeeldingen rechtstreeks in AJO kunt wijzigen, tekstbedekkingen kunt toevoegen met de HTML-modus, dynamische mediasjablonen kunt maken in AEM voor hyperpersonalisatie en campagnes kunt aanpassen door de inhoud voor verschillende publiekssegmenten op maat te maken. Dankzij deze integratie kunnen marketers op efficiënte wijze aantrekkelijke en gepersonaliseerde campagnes maken zonder dat ze van toepassing op andere toepassingen hoeven te wisselen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on&enablevpops=&autoplay=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3463788/?captions=dut&learn=on&enablevpops=&autoplay=true)
 
