@@ -35,7 +35,7 @@ Ontwerp uw e-mailhoofd met de e-mail Designer, maak responsieve lay-outs, pas be
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=nl-NL)
 
 Pushmeldingen ontwerpen
 
