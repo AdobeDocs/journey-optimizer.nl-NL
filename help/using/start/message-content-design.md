@@ -3,14 +3,14 @@ solution: Journey Optimizer
 product: Journey Optimizer
 title: Inhoud ontwerpbericht
 description: Inhoud ontwerpbericht
-feature: Email Design, SMS, Push, In App, Content Management
+feature: Email Design, SMS, Push, In App
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 keywords: content, design, email, push, sms, personalisatie, templates
-source-git-commit: b1a16fa6c194d2bd352c4c287bc96d56ced122ba
+source-git-commit: ef12790e3199457d94c2c7d56c60bb9571921f77
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Door de inhoud van berichten te ontwerpen in Adobe Journey Optimizer kunt u aant
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/email.svg)
+![icon]( https://cdn.experienceleague.adobe.com/icons/email.svg)
 
 E-mailinhoud ontwerpen
 
@@ -35,7 +35,7 @@ Ontwerp uw e-mailhoofd met de e-mail Designer, maak responsieve lay-outs, pas be
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Pushmeldingen ontwerpen
 
@@ -45,7 +45,7 @@ Maak dwingende pushmeldingen voor iOS en Android, configureer titel- en body-inh
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chat.svg)
+![icon]( https://cdn.experienceleague.adobe.com/icons/chat.svg)
 
 SMS- en MMS-berichten ontwerpen
 
@@ -55,7 +55,7 @@ Stel gepersonaliseerde tekstberichten met SMS samen, verbeter communicatie met d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/device-mobile.svg)
+![icon]( https://cdn.experienceleague.adobe.com/icons/device-mobile.svg)
 
 In-app berichten ontwerpen
 
@@ -65,7 +65,7 @@ Bouw boeiende in-app ervaringen met meerdere lay-outopties, waaronder de indelin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/personalization.svg)
+![icon]( https://cdn.experienceleague.adobe.com/icons/personalization.svg)
 
 Uw inhoud aanpassen
 
@@ -75,7 +75,7 @@ Voeg verpersoonlijking aan berichten toe gebruikend profielattributen, hefboomwe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/duplicate.svg)
+![icon]( https://cdn.experienceleague.adobe.com/icons/duplicate.svg)
 
 Sjablonen en fragmenten gebruiken
 
