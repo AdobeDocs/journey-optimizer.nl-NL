@@ -105,4 +105,4 @@ Leer hoe u op profiel gebaseerde personalisatie aan een bericht toevoegt en hoe 
 
 Leer hoe u de speelplaats van de personalisatie-editor kunt gebruiken om personalisatiecode te schrijven en te testen met behulp van voorbeeldgegevens.
 
->[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475958?captions=dut&quality=12)
