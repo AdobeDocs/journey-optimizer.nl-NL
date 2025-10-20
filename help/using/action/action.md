@@ -49,7 +49,7 @@ Leer hoe te om een douaneactie [&#x200B; op deze specifieke pagina &#x200B;](../
 
 Leer hoe u aangepaste handelingen configureert.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430272?captions=dut&quality=12)
 
 ## Aanvullende bronnen
 

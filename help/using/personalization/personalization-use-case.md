@@ -110,4 +110,4 @@ Voor dit gebruik zijn de volgende voorwaarden nodig:
 
 In de onderstaande video ziet u een vergelijkbaar gebruiksscenario waarin gebruik wordt gemaakt van contextafhankelijke gegevens van een reis om een e-mail aan te passen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3428532?captions=dut&quality=12)
