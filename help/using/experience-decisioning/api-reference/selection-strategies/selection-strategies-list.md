@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Selectiestrategieën weergeven {#list-selection-strategies}
 
-Een selectiestrategie bestaat uit een inzameling verbonden aan een geschiktheidsbeperking en een rangschikkende methode om de aanbiedingen te bepalen die moeten worden getoond wanneer geselecteerd in a [&#x200B; besluitvormingsbeleid &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision).
+Een selectiestrategie bestaat uit een inzameling verbonden aan een geschiktheidsbeperking en een rangschikkende methode om de aanbiedingen te bepalen die moeten worden getoond wanneer geselecteerd in a [&#x200B; besluitvormingsbeleid &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision).
 
 U kunt een lijst met alle selectiestrategieën weergeven door één GET-aanvraag uit te voeren naar de bibliotheek-API van het aanbod.
 

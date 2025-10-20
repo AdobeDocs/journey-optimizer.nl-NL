@@ -62,6 +62,6 @@ Leer hoe u een standaardschema maakt, veldgroepen toevoegt, aangepaste veldgroep
 >
 >* [&#x200B; creeer een schema, een dataset en neemt gegevens op om de profielen van de Test in Journey Optimizer toe te voegen &#x200B;](../audience/creating-test-profiles.md)
 >* [&#x200B; XDM overzicht van het Systeem &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}
->* [&#x200B; Beste praktijken voor gegevens modelleren &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html){target="_blank"}
->* [&#x200B; creeer een schema gebruikend de Registratie API van het Schema &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html){target="_blank"}
->* [&#x200B; bepaal een verband tussen twee schema&#39;s gebruikend de Redacteur van het Schema &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html){target="_blank"}
+>* [&#x200B; Beste praktijken voor gegevens modelleren &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=nl-NL){target="_blank"}
+>* [&#x200B; creeer een schema gebruikend de Registratie API van het Schema &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=nl-NL){target="_blank"}
+>* [&#x200B; bepaal een verband tussen twee schema&#39;s gebruikend de Redacteur van het Schema &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html?lang=nl-NL){target="_blank"}

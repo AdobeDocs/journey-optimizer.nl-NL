@@ -49,7 +49,7 @@ Voor elke databron definieert u de informatie die u wilt ophalen met behulp van 
 >
 >Schemarelaties worden niet ondersteund voor gegevensbronnen.
 
-Voor meer informatie over het configureren van een Adobe Experience Platform-databron en een externe databron en hoe u gegevens in een journey kunt vinden en gebruiken, bekijkt u deze [zelfstudievideo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
+Voor meer informatie over het configureren van een Adobe Experience Platform-databron en een externe databron en hoe u gegevens in een journey kunt vinden en gebruiken, bekijkt u deze [zelfstudievideo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=nl-NL){target="_blank"}.
 
 ## Hoe kan ik-video {#video}
 

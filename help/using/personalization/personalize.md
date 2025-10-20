@@ -51,7 +51,7 @@ Deze playground verstrekt een gesimuleerd milieu om verpersoonlijkingscode te sc
 
 ![&#x200B; verpersoonlijkings playground &#x200B;](assets/playground.png)
 
-➡️ [&#x200B; toegang tot de verpersoonlijkings playground &#x200B;](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [&#x200B; toegang tot de verpersoonlijkings playground &#x200B;](https://experienceleague.adobe.com/nl/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## Laten we dieper duiken
 

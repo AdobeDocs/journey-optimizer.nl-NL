@@ -22,7 +22,7 @@ Met [!DNL Journey Optimizer] kunt u de machtigingen definiëren en beheren die a
 
 De controle van de toegang voor [!DNL Journey Optimizer] wordt verstrekt door **Toestemmingen** in Adobe Experience Cloud. Deze functionaliteit gebruikt rollen en beleid, die gebruikers met toestemmingen en zandbakken verbinden.
 
-Als u toegangsbeheer voor Journey Optimizer wilt configureren, moet u over beheerdersrechten voor het systeem of het product beschikken voor uw organisatie. De minimumrol die toestemmingen kan verlenen of intrekken is een productbeheerder. Andere beheerderrollen die toestemmingen kunnen beheren zijn systeembeheerders (geen beperkingen). Zie het [&#x200B; artikel van het Centrum van de Hulp van Adobe &#x200B;](https://helpx.adobe.com/enterprise/using/admin-roles.html){target="_blank"} op administratieve rollen voor meer informatie.
+Als u toegangsbeheer voor Journey Optimizer wilt configureren, moet u over beheerdersrechten voor het systeem of het product beschikken voor uw organisatie. De minimumrol die toestemmingen kan verlenen of intrekken is een productbeheerder. Andere beheerderrollen die toestemmingen kunnen beheren zijn systeembeheerders (geen beperkingen). Zie het [&#x200B; artikel van het Centrum van de Hulp van Adobe &#x200B;](https://helpx.adobe.com/nl/enterprise/using/admin-roles.html){target="_blank"} op administratieve rollen voor meer informatie.
 
 <!-- A high-level workflow for gaining and assigning access permissions can be summarized as follows:
 

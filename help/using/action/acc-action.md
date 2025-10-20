@@ -61,7 +61,7 @@ Op verzoek wordt de verbinding tussen de Journey Optimizer- en Adobe Campaign-om
 
 ## Vereisten {#prerequisites}
 
-In Adobe Campaign moet u een transactiemelding en de bijbehorende gebeurtenis maken en publiceren. Verwijs naar de [&#x200B; documentatie van Adobe Campaign &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
+In Adobe Campaign moet u een transactiemelding en de bijbehorende gebeurtenis maken en publiceren. Verwijs naar de [&#x200B; documentatie van Adobe Campaign &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
 
 U kunt uw JSON-lading voor elk bericht samenstellen volgens het onderstaande patroon. U gaat deze lading dan kleven wanneer het vormen van de actie in Journey Optimizer (zie hieronder).
 
