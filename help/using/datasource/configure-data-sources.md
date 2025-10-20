@@ -5,11 +5,11 @@ title: Een gegevensbron configureren
 description: Een databron configureren
 feature: Journeys, Data Sources
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Intermediate, Experienced
 keywords: gegevens, bron, configuratie, veld
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 521b643dfea095c2e9499db60038dc7202fc8648
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 6%
@@ -24,11 +24,11 @@ ht-degree: 6%
 
 Volg onderstaande stappen om een gegevensbron te configureren:
 
-1. Selecteer **[!UICONTROL Configurations]** in de sectie van het menu BEHEER. Klik in de sectie **[!UICONTROL Data Sources]** op **[!UICONTROL Manage]** . De lijst met databronnen wordt weergegeven. Zie [&#x200B; deze pagina &#x200B;](../start/user-interface.md) voor meer informatie over de interface.
+1. Selecteer **[!UICONTROL Configurations]** in de sectie van het menu BEHEER. Klik in de sectie **[!UICONTROL Data Sources]** op **[!UICONTROL Manage]** . De lijst met databronnen wordt weergegeven. Zie [ deze pagina ](../start/user-interface.md) voor meer informatie over de interface.
 
    ![](assets/journey18.png)
 
-1. Dan kunt u of gebiedsgroepen aan de ingebouwde gegevensbron (zie [&#x200B; deze pagina &#x200B;](../datasource/adobe-experience-platform-data-source.md)) toevoegen of een nieuwe externe gegevensbron (zie [&#x200B; deze pagina &#x200B;](../datasource/external-data-sources.md)) en bijbehorende gebiedsgroepen (zie [&#x200B; deze pagina &#x200B;](../datasource/configure-data-sources.md#define-field-groups)) tot stand brengen.
+1. Dan kunt u of gebiedsgroepen aan de ingebouwde gegevensbron (zie [ deze pagina ](../datasource/adobe-experience-platform-data-source.md)) toevoegen of een nieuwe externe gegevensbron (zie [ deze pagina ](../datasource/external-data-sources.md)) en bijbehorende gebiedsgroepen (zie [ deze pagina ](../datasource/configure-data-sources.md#define-field-groups)) tot stand brengen.
 
    ![](assets/journey23.png)
 

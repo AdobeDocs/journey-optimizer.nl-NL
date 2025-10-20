@@ -5,11 +5,11 @@ title: Sandboxen gebruiken en toewijzen
 description: Leer hoe u sandboxen beheert
 feature: Sandboxes
 topic: Administration
-role: Admin, Architect, Developer
+role: Admin, Developer
 level: Experienced
 keywords: sandboxen, virtueel, omgevingen, organisatie, platform
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 19%
@@ -20,15 +20,15 @@ ht-degree: 19%
 
 ## Sandboxen gebruiken {#using-sandbox}
 
-Met [!DNL Journey Optimizer] kunt u uw instantie opdelen in afzonderlijke virtuele omgevingen, sandboxen genoemd. Sandboxen worden toegewezen via rollen in Machtigingen. [&#x200B; Leer hoe te om zandbakken &#x200B;](permissions.md#create-product-profile) toe te wijzen.
+Met [!DNL Journey Optimizer] kunt u uw instantie opdelen in afzonderlijke virtuele omgevingen, sandboxen genoemd. Sandboxen worden toegewezen via rollen in Machtigingen. [ Leer hoe te om zandbakken ](permissions.md#create-product-profile) toe te wijzen.
 
-[!DNL Journey Optimizer] geeft Adobe Experience Platform-sandboxen weer die voor een bepaalde organisatie zijn gemaakt. U kunt Adobe Experience Platform-sandboxen maken of herstellen vanuit uw Adobe Experience Platform-instantie. [&#x200B; leer meer in de zandbakgebruikersgids &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=nl-NL){target="_blank"}.
+[!DNL Journey Optimizer] geeft Adobe Experience Platform-sandboxen weer die voor een bepaalde organisatie zijn gemaakt. U kunt Adobe Experience Platform-sandboxen maken of herstellen vanuit uw Adobe Experience Platform-instantie. [ leer meer in de zandbakgebruikersgids ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html){target="_blank"}.
 
 U kunt het besturingselement voor de sandbox-switch rechtsboven in het scherm vinden, naast de naam van uw organisatie. Als u van sandbox wilt wisselen, klikt u op de momenteel actieve sandbox in de schakelfunctie en selecteert u een andere sandbox in de vervolgkeuzelijst.
 
 ![](assets/sandbox_5.png)
 
-➡️ [&#x200B; Leer meer over zandbakken in deze video &#x200B;](#video)
+➡️ [ Leer meer over zandbakken in deze video ](#video)
 
 ## Sandboxen toewijzen {#assign-sandboxes}
 
@@ -64,7 +64,7 @@ Als u de toegankelijkheid van inhoud wilt configureren, wijst u een gedeelde inh
 
 Houd er rekening mee dat als de inhoud met de juiste sandbox moet worden gesynchroniseerd, deze dezelfde syntaxis moet hebben als de sandbox. Als uw sandbox bijvoorbeeld &#39;development&#39; wordt genoemd, moet uw gedeelde map dezelfde naam hebben.
 
-[&#x200B; Leer hoe te om gedeelde omslagen &#x200B;](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"} te beheren.
+[ Leer hoe te om gedeelde omslagen ](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"} te beheren.
 
 ## Hoe kan ik-video{#video}
 

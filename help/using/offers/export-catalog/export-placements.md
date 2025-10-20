@@ -4,10 +4,10 @@ description: Deze sectie maakt een lijst van alle gebieden die in de uitgevoerde
 badge: label="Verouderd" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
-role: User, Data Engineer
+role: User, Developer
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 1%
@@ -24,7 +24,7 @@ De meest recente succesvolle partij in de dataset wordt getoond op het recht. De
 
 >[!NOTE]
 >
->Leer hoe te om tot de uitgevoerde datasets voor elk voorwerp van uw Bibliotheek van de Aanbieding in [&#x200B; toegang te hebben deze sectie &#x200B;](../export-catalog/access-dataset.md).
+>Leer hoe te om tot de uitgevoerde datasets voor elk voorwerp van uw Bibliotheek van de Aanbieding in [ toegang te hebben deze sectie ](../export-catalog/access-dataset.md).
 
 Hier volgt een lijst met alle velden die kunnen worden gebruikt in de **[!UICONTROL Decision Object Repository - Placements]** -gegevensset.
 

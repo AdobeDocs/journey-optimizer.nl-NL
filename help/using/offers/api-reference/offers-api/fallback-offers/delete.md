@@ -3,22 +3,22 @@ title: Een alternatieve aanbieding verwijderen
 description: Aan klanten wordt een fallback-aanbieding gestuurd als zij niet in aanmerking komen voor andere aanbiedingen
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 5c94842a-021c-4a3a-ad9c-ccc2af2c1526
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 8%
+source-wordcount: '119'
+ht-degree: 7%
 
 ---
 
 
 # Een alternatieve aanbieding verwijderen {#delete-fallback-offer}
 
-Het kan soms nodig zijn om (DELETE) een fallback-aanbieding te verwijderen. Dit wordt gedaan door een verzoek van de DELETE aan uit te voeren [!DNL Offer Library] API die de id van de fallback-aanbieding gebruikt die u wilt verwijderen.
+Het kan soms nodig zijn om (DELETE) een fallback-aanbieding te verwijderen. Dit gebeurt door een DELETE-aanvraag naar de [!DNL Offer Library] API uit te voeren met de id van de fallback-aanbieding die u wilt verwijderen.
 
-**API-indeling**
+**API formaat**
 
 ```http
 DELETE /{ENDPOINT_PATH}/offers/{ID}?offer-type=fallback
@@ -40,7 +40,7 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Antwoord**
+**Reactie**
 
 Een geslaagde reactie retourneert HTTP-status 200 en een lege hoofdtekst.
 

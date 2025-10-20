@@ -3,13 +3,13 @@ title: Rekenkundige functiebibliotheek
 description: Rekenkundige functiebibliotheek
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 21ef8f50-8389-4675-a8e5-0438a3eee592
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 5%
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ Rekenkundige functies worden gebruikt voor het uitvoeren van basisberekeningen o
 
 ## Toevoegen{#add}
 
-De `+` (optellen) functie wordt gebruikt om de som twee argumentuitdrukkingen te vinden.
+De functie `+` (optellen) wordt gebruikt om de som twee argumentuitdrukkingen te vinden.
 
 **Syntaxis**
 
@@ -37,7 +37,7 @@ De volgende transactie geeft de prijs van twee verschillende producten weer.
 
 ## Vermenigvuldigen{#multiply}
 
-De `*` (vermenigvuldigen) functie wordt gebruikt om het product van twee argument uitdrukkingen te vinden.
+De functie `*` (vermenigvuldigen) wordt gebruikt om het product van twee argumentexpressies te vinden.
 
 **Syntaxis**
 
@@ -55,7 +55,7 @@ Bij de volgende bewerking worden het product van de inventaris en de prijs van e
 
 ## Aftrekken{#substract}
 
-De `-` (aftrekken) functie wordt gebruikt om het verschil tussen twee argument expressies te vinden.
+De functie `-` (aftrekken) wordt gebruikt om het verschil tussen twee argumentexpressies te zoeken.
 
 **Syntaxis**
 
@@ -71,9 +71,9 @@ De volgende transactie vindt het prijsverschil tussen twee verschillende product
 {%= product1.price - product2.price %}
 ```
 
-## Verdelen{#divide}
+## Splitsen{#divide}
 
-De `/` (delen) wordt gebruikt om het quotiënt van twee argumentuitdrukkingen te vinden.
+De functie `/` (delen) wordt gebruikt om het quotiënt van twee argumentuitdrukkingen te vinden.
 
 **Syntaxis**
 
@@ -91,7 +91,7 @@ Met de volgende bewerking wordt het quotiënt gevonden tussen de totale verkocht
 
 ## Herinnering{#remainder}
 
-De `%` (restbepaling bij deling/rest) wordt gebruikt om de rest te zoeken na het delen van de twee argumentexpressies.
+De functie `%` (restbepaling bij deling/restbepaling) wordt gebruikt om de rest te zoeken na het delen van de twee argumentexpressies.
 
 **Syntaxis**
 

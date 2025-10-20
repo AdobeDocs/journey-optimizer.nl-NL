@@ -3,19 +3,19 @@ title: Een selectiestrategie zoeken
 description: De strategieën van de selectie bestaan uit inzamelingen verbonden aan beperkingen en rangschikkende methodes om aanbiedingen te bepalen.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+exl-id: db590963-b45b-4844-ac12-775cc955b03e
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 1%
 
 ---
 
-
 # Een selectiestrategie zoeken {#list-selection-strategy}
 
-U kunt een specifieke selectiestrategie opzoeken door een GET-aanvraag in te dienen bij de API voor de bibliotheek van het aanbod die de id bevat in het aanvraagpad.
+U kunt een specifieke selectiestrategie opzoeken door een GET-aanvraag in te dienen bij de API voor de aanbiedingsbibliotheek die de id bevat in het aanvraagpad.
 
 **API formaat**
 

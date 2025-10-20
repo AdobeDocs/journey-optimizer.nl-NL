@@ -3,13 +3,13 @@ title: Verzamelingen bijwerken
 description: Verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketmaker zijn gedefinieerd, zoals de categorie van de aanbieding.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 7d766f0a-4fcb-434a-bbfd-e18ade71ae56
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 4%
+source-wordcount: '151'
+ht-degree: 3%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 4%
 
 U kunt een verzameling wijzigen of bijwerken door een PATCH-aanvraag in te dienen bij de [!DNL Offer Library] API
 
-Raadpleeg voor meer informatie over JSON Patch, inclusief beschikbare bewerkingen, de officiële [JSON-patchdocumentatie](https://jsonpatch.com/).
+Voor meer informatie over Reparatie JSON, met inbegrip van beschikbare verrichtingen, zie de officiële [ documentatie van het Reparatie JSON ](https://jsonpatch.com/).
 
 ## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
 
-In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* veld in de aanvraagkoptekst:
+De volgende lijst toont de geldige waarden die uit het *inhoud-Type* gebied in de verzoekkopbal bestaan:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
 | Inhoudstype | `application/json` |
 
-**API-indeling**
+**API formaat**
 
 ```http
 PATCH /{ENDPOINT_PATH}/offer-collections/{ID}
@@ -63,13 +63,13 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-collections/offerCo
 
 | Parameter | Beschrijving |
 | --------- | ----------- |
-| `op` | De verrichtingsvraag die wordt gebruikt om de actie te bepalen nodig om de verbinding bij te werken. Bewerkingen omvatten: `add`, `replace`, `remove`, `copy` en `test`. |
+| `op` | De verrichtingsvraag die wordt gebruikt om de actie te bepalen nodig om de verbinding bij te werken. Bewerkingen zijn: `add` , `replace` , `remove` , `copy` en `test` . |
 | `path` | Het pad van de parameter die moet worden bijgewerkt. |
 | `value` | De nieuwe waarde waarmee u de parameter wilt bijwerken. |
 
-**Antwoord**
+**Reactie**
 
-Een succesvolle reactie retourneert de bijgewerkte details van de verzameling, inclusief de unieke verzameling ervan `id`.
+Een geslaagde reactie retourneert de bijgewerkte details van de verzameling, inclusief de unieke verzameling `id` .
 
 ```json
 {

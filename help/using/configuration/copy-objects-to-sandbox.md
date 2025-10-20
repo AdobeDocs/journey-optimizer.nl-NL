@@ -5,11 +5,11 @@ title: Journey Optimizer-objecten kopiëren tussen sandboxen
 description: Leer hoe u reizen, inhoudssjablonen en fragmenten tussen sandboxen kopieert.
 feature: Journeys, Sandboxes
 topic: Content Management
-role: User, Developer, Data Engineer
+role: User, Developer
 level: Experienced
 keywords: zandbak, reis, exemplaar, milieu
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: f8134fd1e030fb969747a37acd657f62fd398c75
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1691'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 U kunt objecten zoals reizen, aangepaste handelingen, inhoudssjablonen of fragmenten over meerdere sandboxen kopiëren met behulp van de opties voor exporteren en importeren van pakketten. Een pakket kan uit één object of uit meerdere objecten bestaan. Alle objecten die in een pakket zijn opgenomen, moeten afkomstig zijn uit dezelfde sandbox.
 
-Op deze pagina wordt het gebruik-hoofdlettergebruik voor Sandbox-gereedschappen in de context van Journey Optimizer beschreven. Voor meer informatie over de eigenschap zelf, verwijs naar de het toolceregids van de zandbak van Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=nl-NL#abobe-journey-optimizer-objects){target="_blank"}.
+Op deze pagina wordt het gebruik-hoofdlettergebruik voor Sandbox-gereedschappen in de context van Journey Optimizer beschreven. Voor meer informatie over de eigenschap zelf, verwijs naar de het toolceregids van de zandbak van Adobe Experience Platform [ ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}.
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Op deze pagina wordt het gebruik-hoofdlettergebruik voor Sandbox-gereedschappen 
 
 Het kopieerproces wordt uitgevoerd via een pakketexport en importeren tussen de bron- en doelsandboxen. Hier volgen de algemene stappen voor het kopiëren van een reis van de ene naar de andere sandbox:
 
-1. [&#x200B; voeg het voorwerp toe om als pakket in de bronzandbak &#x200B;](#export) uit te voeren
+1. [ voeg het voorwerp toe om als pakket in de bronzandbak ](#export) uit te voeren
 1. [Het pakket publiceren](#publish)
 1. [Het pakket importeren in de doelsandbox](#import)
 
@@ -42,11 +42,11 @@ Journey Optimizer staat het exporteren van reizen, aangepaste handelingen, inhou
 
 * Als een geëxporteerd object profielpersonalisatie bevat, controleert u of het juiste schema in de doelsandbox aanwezig is om problemen met de personalisatie te voorkomen.
 
-* Landingspagina&#39;s worden momenteel niet ondersteund voor migratie tussen sandboxen. Wanneer u een reis naar een andere zandbak kopieert, zullen om het even welke verwijzingen naar landende pagina&#39;s in uw reis of e-mailinhoud nog naar originele (bron) zandbak landende pagina IDs richten. Na de migratie moet u alle verwijzingen naar bestemmingspagina&#39;s in uw reis en e-mailinhoud handmatig bijwerken om de juiste bestemmingspagina-id&#39;s van de doel-sandbox (doel) te gebruiken. Zie [&#x200B; het landen pagina&#39;s &#x200B;](../landing-pages/create-lp.md) creëren en publiceren.
+* Landingspagina&#39;s worden momenteel niet ondersteund voor migratie tussen sandboxen. Wanneer u een reis naar een andere zandbak kopieert, zullen om het even welke verwijzingen naar landende pagina&#39;s in uw reis of e-mailinhoud nog naar originele (bron) zandbak landende pagina IDs richten. Na de migratie moet u alle verwijzingen naar bestemmingspagina&#39;s in uw reis en e-mailinhoud handmatig bijwerken om de juiste bestemmingspagina-id&#39;s van de doel-sandbox (doel) te gebruiken. Zie [ het landen pagina&#39;s ](../landing-pages/create-lp.md) creëren en publiceren.
 
 +++ Journeys
 
-* **gekopieerde gebiedsdelen** - wanneer het uitvoeren van een reis, naast de reis zelf, kopieert Journey Optimizer ook de meeste voorwerpen de reis van afhangt: publiek, douaneacties, schema&#39;s, gebeurtenissen en acties. Voor meer details op gekopieerde voorwerpen, verwijs naar de het hulpmiddelengids van Adobe Experience Platform [&#x200B; zandbak &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=nl-NL#abobe-journey-optimizer-objects){target="_blank"}.
+* **gekopieerde gebiedsdelen** - wanneer het uitvoeren van een reis, naast de reis zelf, kopieert Journey Optimizer ook de meeste voorwerpen de reis van afhangt: publiek, douaneacties, schema&#39;s, gebeurtenissen en acties. Voor meer details op gekopieerde voorwerpen, verwijs naar de het hulpmiddelengids van Adobe Experience Platform [ zandbak ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}.
 
 * **Geadviseerde de Handmatige bevestiging** - wij waarborgen niet dat alle verbonden elementen aan de bestemmingszandbak worden gekopieerd. Wij adviseren ten zeerste dat u een grondige controle uitvoert, bijvoorbeeld alvorens een reis te publiceren. Zo kunt u elk mogelijk ontbrekend object identificeren.
 
@@ -113,7 +113,7 @@ Zorg er bij het kopiëren van campagnes voor dat het hieronder vermelde object i
 
 * Bij het exporteren van een inhoudssjabloon worden ook alle geneste fragmenten gekopieerd.
 
-* Het exporteren van inhoudssjablonen kan soms leiden tot fragmentduplicatie. Als twee sjablonen bijvoorbeeld hetzelfde fragment delen en in afzonderlijke pakketten worden gekopieerd, moeten beide sjablonen hetzelfde fragment opnieuw gebruiken in de doelsandbox. Als u dubbel werk wilt voorkomen, selecteert u de optie &quot;Bestaande gebruiken&quot; tijdens het importproces. [&#x200B; leer hoe te om een pakket &#x200B;](#import) in te voeren
+* Het exporteren van inhoudssjablonen kan soms leiden tot fragmentduplicatie. Als twee sjablonen bijvoorbeeld hetzelfde fragment delen en in afzonderlijke pakketten worden gekopieerd, moeten beide sjablonen hetzelfde fragment opnieuw gebruiken in de doelsandbox. Als u dubbel werk wilt voorkomen, selecteert u de optie &quot;Bestaande gebruiken&quot; tijdens het importproces. [ leer hoe te om een pakket ](#import) in te voeren
 
 * Om dubbel werk verder te vermijden, wordt aanbevolen inhoudssjablonen in één pakket te exporteren. Dit zorgt ervoor dat het systeem deduplicatie efficiënt beheert.
 

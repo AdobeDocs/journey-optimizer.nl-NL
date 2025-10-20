@@ -3,21 +3,21 @@ title: Een plaatsing opzoeken
 description: Plaatsingen zijn containers die worden gebruikt om uw voorstellen te tonen.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: db337b5c-426a-4695-81e8-3a1b041791f2
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # Een plaatsing opzoeken {#look-up-placement}
 
-U kunt specifieke plaatsingen opzoeken door een verzoek van de GET tot de [!DNL Offer Library] API die de plaatsing omvat `id`.
+U kunt specifieke plaatsingen opzoeken door een GET-aanvraag in te dienen bij de [!DNL Offer Library] API die de plaatsing `id` bevat.
 
-**API-indeling**
+**API formaat**
 
 ```http
 GET /{ENDPOINT_PATH}/placements/{ID}
@@ -37,9 +37,9 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/placements/offerPlacement12
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Antwoord**
+**Reactie**
 
-Een succesvol antwoord retourneert de details van de plaatsing, inclusief informatie over unieke plaatsing `id`.
+Een succesvol antwoord retourneert de details van de plaatsing, inclusief informatie over unieke plaatsing `id` .
 
 ```json
 {

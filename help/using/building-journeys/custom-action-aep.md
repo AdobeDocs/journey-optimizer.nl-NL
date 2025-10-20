@@ -5,11 +5,11 @@ title: Aangepaste handelingen gebruiken om gebeurtenissen voor reizen in AEP te 
 description: Aangepaste handelingen gebruiken om gebeurtenissen voor reizen in AEP te schrijven
 feature: Journeys, Use Cases, Custom Actions
 topic: Content Management
-role: Developer, Data Engineer
+role: Developer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -40,7 +40,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Nadat u uw project op de Adobe Developer Console hebt gemaakt, moet u ontwikkelaars en API-toegangsbeheer de juiste machtigingen geven. Leer meer in de [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
+>Nadat u uw project op de Adobe Developer Console hebt gemaakt, moet u ontwikkelaars en API-toegangsbeheer de juiste machtigingen geven. Leer meer in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
 
 ## De bron configureren met HTTP API Inlet
 
@@ -97,7 +97,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 ## Aangepaste actie configureren {#custom-action-config}
 
-De actieconfiguratie van de douane is gedetailleerd op [&#x200B; deze pagina &#x200B;](../action/about-custom-action-configuration.md).
+De actieconfiguratie van de douane is gedetailleerd op [ deze pagina ](../action/about-custom-action-configuration.md).
 
 Voer voor dit voorbeeld de volgende stappen uit:
 

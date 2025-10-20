@@ -3,30 +3,30 @@ title: Beslissingsregels bijwerken
 description: Beslissingsregels zijn beperkingen die aan een gepersonaliseerd aanbod worden toegevoegd en die op een profiel worden toegepast om te bepalen of het in aanmerking komt voor een aanbieding.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 33da2c42-0c6c-49d3-bad8-1a85a5172cd8
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
 # Een beslissingsregel bijwerken {#update-decision-rule}
 
-U kunt een fallback-aanbieding maken door een POST aan de [!DNL Offer Library] API, terwijl het verstrekken van uw container identiteitskaart
+U kunt een fallback-aanbieding maken door een POST-aanvraag in te dienen bij de [!DNL Offer Library] -API en uw container-id op te geven.
 
 ## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
 
-In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* en *Accepteren* velden in de aanvraagkoptekst:
+De volgende lijst toont de geldige waarden die uit *inhoud-Type* bestaan en ** gebieden in de verzoekkopbal goedkeuren:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
 | Accepteren | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Inhoudstype | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
 
-**API-indeling**
+**API formaat**
 
 ```http
 PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
@@ -58,9 +58,9 @@ curl -X PATCH \
     ]'
 ```
 
-**Antwoord**
+**Reactie**
 
-Een geslaagde reactie retourneert de bijgewerkte details van de beslissingsregel, inclusief de unieke instantie-id en beslissingsregel `@id`.
+Een geslaagde reactie retourneert de bijgewerkte details van de beslissingsregel, inclusief de unieke instantie-id en beslissingsregel `@id` .
 
 
 ```json

@@ -3,10 +3,10 @@ title: Een beslissingsitem bijwerken
 description: Beslissingsitems zijn marketingaanbiedingen die u kunt maken en indelen in verzamelingen en catalogi.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: b924b7d0-bbed-409e-8173-0685fc41d7de
-source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 1%
@@ -15,9 +15,9 @@ ht-degree: 1%
 
 # Een beslissingsitem bijwerken {#update-decision-items}
 
-U kunt een besluitvormingspunt wijzigen of bijwerken door een verzoek van de PATCH aan de Bibliotheek API van de Aanbieding te doen.
+U kunt een beslissingsitem wijzigen of bijwerken door een PATCH-aanvraag in te dienen bij de bibliotheek-API van het aanbod.
 
-Voor meer informatie over Reparatie JSON, met inbegrip van beschikbare verrichtingen, zie de officiële [&#x200B; documentatie van het Reparatie JSON &#x200B;](https://jsonpatch.com/).
+Voor meer informatie over Reparatie JSON, met inbegrip van beschikbare verrichtingen, zie de officiële [ documentatie van het Reparatie JSON ](https://jsonpatch.com/).
 
 **API formaat**
 

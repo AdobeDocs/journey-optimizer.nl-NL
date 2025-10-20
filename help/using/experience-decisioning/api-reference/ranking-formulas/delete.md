@@ -3,9 +3,10 @@ title: Een waarderingsformule verwijderen
 description: Met behulp van de rangschikkingsformules kunt u de functies voor scoring definiëren, die wordt gebruikt om items te rangschikken.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
+exl-id: 4ea50481-b1b9-4e0c-ad4e-c4139891bfdf
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 0%
@@ -43,4 +44,3 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/ranking-formulas/ranking
 Een geslaagde reactie retourneert HTTP-status 200 en een lege hoofdtekst.
 
 U kunt de verwijdering bevestigen door een opzoekverzoek (GET) in te dienen bij de rangschikkingsformule. U moet de HTTP-status 404 (Niet gevonden) ontvangen omdat de rangschikkingsformule is verwijderd.
-

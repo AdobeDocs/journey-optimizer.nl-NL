@@ -4,12 +4,12 @@ product: journey optimizer
 title: Syntaxis van geavanceerde expressie-editor
 description: Meer informatie over de syntaxis die wordt gebruikt in de geavanceerde expressie-editor
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: syntaxis, redacteur, reis
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Syntaxis van geavanceerde expressie-editor {#syntax}
 
-De grondbeginselen van de syntaxis wanneer het gebruiken van de [&#x200B; Geavanceerde uitdrukkingsredacteur &#x200B;](expressionadvanced.md) zijn hieronder vermeld. <!-- Samples of use of the advanced expression editor are available on [this page](advanced-editor-use-cases.md).-->
+De grondbeginselen van de syntaxis wanneer het gebruiken van de [ Geavanceerde uitdrukkingsredacteur ](expressionadvanced.md) zijn hieronder vermeld. <!-- Samples of use of the advanced expression editor are available on [this page](advanced-editor-use-cases.md).-->
 
 ## Haakjes en prioriteit van expressie {#parentheses-and-expression-priority}
 
@@ -30,7 +30,7 @@ De expressies worden van links naar rechts geëvalueerd. De associatie bij reken
 
 | Uitdrukking | Evaluatie |
 |--- |--- |
-| `4 + 2 * 10` | <ul><li>&#39;*&#39; heeft prioriteit boven &#39;+&#39;: 2 * 10 wordt geëvalueerd → 20</li><li>4 + 20 → 24</li></ul> |
+| `4 + 2 * 10` | <ul><li>&#39;*&#39; heeft prioriteit boven &#39;+&#39;: 2 \* 10 is geëvalueerd → 20</li><li>4 + 20 → 24</li></ul> |
 | `(4 + 2) * 10` | <ul><li>De haakjes wijzigen de prioriteit: (4 + 2) wordt geëvalueerd → 6</li><li> 6 * 10 → 60</li></ul> |
 
 ## Hoofdlettergevoeligheid {#case-sensitivity}

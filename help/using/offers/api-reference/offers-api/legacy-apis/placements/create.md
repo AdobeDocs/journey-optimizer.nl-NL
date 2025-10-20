@@ -3,10 +3,10 @@ title: Een plaatsing maken
 description: Plaatsingen zijn containers die worden gebruikt om uw voorstellen te tonen.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 5c7301f6-95d3-4720-81fe-5f2602cd30ec
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 6%
@@ -15,18 +15,18 @@ ht-degree: 6%
 
 # Een plaatsing maken {#create-placement}
 
-U kunt een plaatsing tot stand brengen door een verzoek van de POST aan [!DNL Offer Library] API, terwijl het verstrekken van uw container identiteitskaart
+U kunt een plaatsing maken door een POST-aanvraag in te dienen bij de [!DNL Offer Library] -API en uw container-id op te geven.
 
 ## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
 
-In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* en *Accepteren* velden in de aanvraagkoptekst:
+De volgende lijst toont de geldige waarden die uit *inhoud-Type* bestaan en ** gebieden in de verzoekkopbal goedkeuren:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
 | Accepteren | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Inhoudstype | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"` |
 
-**API-indeling**
+**API formaat**
 
 ```http
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
@@ -56,9 +56,9 @@ curl -X POST \
 }'
 ```
 
-**Antwoord**
+**Reactie**
 
-Een succesvol antwoord retourneert de details van de nieuwe plaatsing, inclusief de unieke instantie-id en plaatsing `@id`. U kunt de instantie-id in latere stappen gebruiken om uw plaatsing bij te werken of te verwijderen. U kunt uw unieke plaatsing gebruiken `@id` in recentere zelfstudies om besluiten, besluitvormingsregels, en reserveaanbiedingen tot stand te brengen.
+Een succesvol antwoord retourneert de details van de nieuwe plaatsing, inclusief de unieke instantie-id en plaatsing `@id` . U kunt de instantie-id in latere stappen gebruiken om uw plaatsing bij te werken of te verwijderen. U kunt uw unieke plaatsing `@id` in recentere zelfstudies gebruiken om besluiten, besluitvormingsregels, en reserveaanbiedingen tot stand te brengen.
 
 ```json
 {

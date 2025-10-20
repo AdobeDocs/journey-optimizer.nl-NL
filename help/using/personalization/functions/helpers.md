@@ -3,10 +3,10 @@ title: Helpers
 description: Helpers
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 1%
@@ -106,7 +106,7 @@ De instructie `elseif` geeft een nieuwe voorwaarde op die moet worden getest als
 
 >[!NOTE]
 >
->Meer over publiek en de segmentatieservice leren, verwijs naar [&#x200B; deze sectie &#x200B;](../../audience/about-audiences.md).
+>Meer over publiek en de segmentatieservice leren, verwijs naar [ deze sectie ](../../audience/about-audiences.md).
 
 
 ## Tenzij{#unless}
@@ -134,8 +134,8 @@ Some edu specific content
 ## Elk{#each}
 
 De hulpfunctie `each` wordt gebruikt om een array te doorlopen.
-De syntaxis van de hulplijn is ```{{#each ArrayName}}``` YourContent {{/each}}
-Wij kunnen naar de individuele seriepunten verwijzen door het sleutelwoord **dit** binnen het blok te gebruiken. De index van het element van de array kan worden gerenderd met {{@index}} .
+De syntaxis van de hulplijn is ```{{#each ArrayName}}``` YourContent `{{/each}}`
+Wij kunnen naar de individuele seriepunten verwijzen door het sleutelwoord **dit** binnen het blok te gebruiken. De index van het element van de array kan worden gerenderd met `{{@index}}` .
 
 **Syntaxis**
 
@@ -234,7 +234,7 @@ Met deze functie kunt u contextafhankelijke informatie toevoegen aan elke native
 
 >[!NOTE]
 >
->De functie van Meta-gegevens van de Uitvoering wordt niet gesteund door [&#x200B; douaneacties &#x200B;](../../action/action.md).
+>De functie van Meta-gegevens van de Uitvoering wordt niet gesteund door [ douaneacties ](../../action/action.md).
 
 U kunt bijvoorbeeld de functie Metagegevens uitvoeren gebruiken om een specifieke id toe te voegen aan elke levering die naar elk profiel wordt verzonden. Deze informatie wordt tijdens runtime gegenereerd en de verrijkte metagegevens voor uitvoering kunnen vervolgens worden geëxporteerd voor afstemming op een extern rapportageplatform.
 
@@ -263,7 +263,7 @@ Tijdens runtime wordt de metagegevenswaarde toegevoegd aan de bestaande **[!UICO
 
 >[!NOTE]
 >
->Leer meer op datasets in [&#x200B; deze sectie &#x200B;](../../data/get-started-datasets.md).
+>Leer meer op datasets in [ deze sectie ](../../data/get-started-datasets.md).
 
 **Beperking**
 

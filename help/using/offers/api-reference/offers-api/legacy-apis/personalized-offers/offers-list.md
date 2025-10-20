@@ -3,12 +3,12 @@ title: Persoonlijke aanbiedingen weergeven
 description: Een gepersonaliseerd aanbod is een aanpasbaar marketingbericht op basis van geschiktheidsregels en -beperkingen.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 50f4119f-c730-4883-867e-eac83793dced
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '261'
 ht-degree: 3%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 3%
 
 Een gepersonaliseerd aanbod is een aanpasbaar marketingbericht op basis van geschiktheidsregels en -beperkingen.
 
-U kunt een lijst van alle gepersonaliseerde voorstellen binnen een container bekijken door één enkel verzoek van de GET aan uit te voeren [!DNL Offer Library] API.
+U kunt een lijst weergeven met alle gepersonaliseerde aanbiedingen in een container door één GET-aanvraag uit te voeren voor de [!DNL Offer Library] API.
 
-**API-indeling**
+**API formaat**
 
 ```http
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALIZED_OFFER}&{QUERY_PARAMS}
@@ -54,13 +54,13 @@ De gemeenschappelijkste vraagparameters voor het pagineren omvatten:
 
 | Parameter | Beschrijving | Voorbeeld |
 | --------- | ----------- | ------- |
-| `q` | Een optionele queryreeks die u wilt zoeken in geselecteerde velden. De querytekenreeks moet in kleine letters worden geschreven en kan worden omgeven door dubbele aanhalingstekens om te voorkomen dat deze wordt verdeeld en om speciale tekens te vermijden. De tekens `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` hebben een speciale betekenis en moeten met een backslash worden beschermd wanneer deze in de queryreeks wordt weergegeven. | `discounted offers` |
+| `q` | Een optionele queryreeks die u wilt zoeken in geselecteerde velden. De querytekenreeks moet in kleine letters worden geschreven en kan worden omgeven door dubbele aanhalingstekens om te voorkomen dat deze wordt verdeeld en om speciale tekens te vermijden. De tekens `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` hebben een speciale betekenis en moeten met een backslash worden beschermd wanneer deze in de queryreeks worden weergegeven. | `discounted offers` |
 | `qop` | Past EN of OF exploitant op waarden in q vraagkoordparam toe. | `AND` / `OR` |
-| `field` | Optionele lijst met velden waarop u wilt zoeken. Deze param kan als zo worden herhaald: field=field1[,field=field2,...] en (padexpressies hebben de vorm van door punten gescheiden paden, zoals _instance.xdm:name) | `_instance.xdm:name` |
-| `orderBy` | Resultaten sorteren op een bepaalde eigenschap. Een `-` vóór titel (`orderby=-title`) sorteert objecten op titel in aflopende volgorde (Z-A). | `-repo:createdDate` |
+| `field` | Optionele lijst met velden waarop u wilt zoeken. Deze param kan als zo worden herhaald: field=field1 [, field=field2,... ] en (de weguitdrukkingen zijn in de vorm van punt gescheiden wegen zoals _instance.xdm :name) | `_instance.xdm:name` |
+| `orderBy` | Resultaten sorteren op een bepaalde eigenschap. Als u een `-` vóór titel (`orderby=-title` ) toevoegt, worden items op titel gesorteerd in aflopende volgorde (Z-A). | `-repo:createdDate` |
 | `limit` | Beperk het aantal geretourneerde persoonlijke aanbiedingen. | `limit=5` |
 
-**Antwoord**
+**Reactie**
 
 Een succesvolle reactie keert een lijst van gepersonaliseerde aanbiedingen terug die binnen de container aanwezig zijn u toegang tot hebt.
 

@@ -5,11 +5,11 @@ title: Een eenheidsgebeurtenis configureren
 description: Leer hoe u een eenheidsgebeurtenis configureert
 feature: Journeys, Events
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Intermediate, Experienced
 keywords: evenement, eenheidsprijs, creëren, reis
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 7%
@@ -28,7 +28,7 @@ ht-degree: 7%
 >title="Parameters"
 >abstract="Definieer de parameters van de gebeurtenis, zoals het schema en de payload-velden. Voor op regel-gebaseerde gebeurtenissen, gebruik het **[!UICONTROL Event ID condition]** gebied om de voorwaarde te bepalen die door het systeem zal worden gebruikt om de gebeurtenissen te identificeren die uw reis zullen teweegbrengen. Voeg een identiteitstype en een profiel-id toe die u voor de gebeurtenis wilt gebruiken."
 
-Eenheidsgebeurtenissen zijn gekoppeld aan een specifiek profiel. Zij kunnen op regel-gebaseerd of systeem-geproduceerd zijn.  Lees meer over unitaire gebeurtenis [&#x200B; deze sectie &#x200B;](../event/about-events.md).
+Eenheidsgebeurtenissen zijn gekoppeld aan een specifiek profiel. Zij kunnen op regel-gebaseerd of systeem-geproduceerd zijn.  Lees meer over unitaire gebeurtenis [ deze sectie ](../event/about-events.md).
 
 Hieronder vindt u de eerste stappen voor het configureren van een nieuwe gebeurtenis:
 
@@ -52,7 +52,7 @@ Hieronder vindt u de eerste stappen voor het configureren van een nieuwe gebeurt
 
    ![](assets/jo-event3bis.png)
 
-1. Op het **[!UICONTROL Event ID type]** gebied, selecteer het type van gebeurtenisidentiteitskaart u wilt gebruiken: **Gebaseerde Regel** of **Gegenereerd Systeem**. Lees meer op de types van gebeurtenisidentiteitskaart in [&#x200B; deze sectie &#x200B;](../event/about-events.md#event-id-type).
+1. Op het **[!UICONTROL Event ID type]** gebied, selecteer het type van gebeurtenisidentiteitskaart u wilt gebruiken: **Gebaseerde Regel** of **Gegenereerd Systeem**. Lees meer op de types van gebeurtenisidentiteitskaart in [ deze sectie ](../event/about-events.md#event-id-type).
 
    ![](assets/jo-event4.png)
 
@@ -90,7 +90,7 @@ Hieronder vindt u de eerste stappen voor het configureren van een nieuwe gebeurt
 
 ## De laadvelden definiëren {#define-the-payload-fields}
 
-De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de gebeurtenis in uw reis verwacht te ontvangen en de sleutel om te identificeren welke persoon aan de gebeurtenis wordt geassocieerd. De nuttige lading is gebaseerd op de Experience Cloud XDM gebiedsdefinitie. Voor meer informatie over XDM, verwijs naar [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
+De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de gebeurtenis in uw reis verwacht te ontvangen en de sleutel om te identificeren welke persoon aan de gebeurtenis wordt geassocieerd. De nuttige lading is gebaseerd op de Experience Cloud XDM gebiedsdefinitie. Voor meer informatie over XDM, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
 
 1. Selecteer een XDM-schema in de lijst en klik op het veld **[!UICONTROL Fields]** of op het pictogram **[!UICONTROL Edit]** .
 
@@ -104,7 +104,7 @@ De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de ge
 
    ![](assets/journey9.png)
 
-1. Selecteer de velden die u van de gebeurtenis wilt ontvangen. Dit zijn de gebieden die de bedrijfsgebruiker in de reis zal hefboomwerking hebben. Zij moeten ook de sleutel omvatten die zal worden gebruikt om de persoon te identificeren verbonden aan de gebeurtenis (zie [&#x200B; deze sectie &#x200B;](../event/about-creating.md#define-the-event-key)).
+1. Selecteer de velden die u van de gebeurtenis wilt ontvangen. Dit zijn de gebieden die de bedrijfsgebruiker in de reis zal hefboomwerking hebben. Zij moeten ook de sleutel omvatten die zal worden gebruikt om de persoon te identificeren verbonden aan de gebeurtenis (zie [ deze sectie ](../event/about-creating.md#define-the-event-key)).
 
    >[!NOTE]
    >
@@ -123,9 +123,9 @@ De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de ge
 >title="Identiteitstype"
 >abstract="Selecteer de sleutel om het klantenprofiel te identificeren verbonden aan de gebeurtenis."
 
-Met het identiteitstype (voorheen &#39;naamruimte&#39; genoemd) kunt u het type sleutel definiëren waarmee de persoon wordt geïdentificeerd die aan de gebeurtenis is gekoppeld. De configuratie is optioneel. Het wordt vereist als u, in uw reizen, extra informatie wilt terugwinnen die uit het [&#x200B; Real-time Profiel van de Klant &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"} komt. De definitie van het identiteitstype is niet nodig als u slechts gegevens gebruikt die uit een derdesysteem door een douanegegevensbron komen.
+Met het identiteitstype (voorheen &#39;naamruimte&#39; genoemd) kunt u het type sleutel definiëren waarmee de persoon wordt geïdentificeerd die aan de gebeurtenis is gekoppeld. De configuratie is optioneel. Het wordt vereist als u, in uw reizen, extra informatie wilt terugwinnen die uit het [ Real-time Profiel van de Klant ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"} komt. De definitie van het identiteitstype is niet nodig als u slechts gegevens gebruikt die uit een derdesysteem door een douanegegevensbron komen.
 
-U kunt een bestaand identiteitstype gebruiken of een nieuw type maken met de Adobe Experience Platform Identity Service. Leer meer in de [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl){target="_blank"}.
+U kunt een bestaand identiteitstype gebruiken of een nieuw type maken met de Adobe Experience Platform Identity Service. Leer meer in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl){target="_blank"}.
 
 Als u een schema met een primaire identiteit selecteert, worden de velden **[!UICONTROL Profiler identifier]** en **[!UICONTROL Identity type]** vooraf ingevuld. Als er geen bepaalde identiteit is, selecteren wij _identityMap > identiteitskaart_ als primaire sleutel. Dan moet u een identiteitstype selecteren en de sleutel zal (onder het **[!UICONTROL Identity type]** gebied) worden ingevuld gebruikend _identityMap > identiteitskaart_.
 
@@ -147,7 +147,7 @@ Per reis is slechts één identiteitstype toegestaan. Als u meerdere gebeurtenis
 
 De sleutel is het veld, of de combinatie van velden, dat deel uitmaakt van de gegevens voor gebeurtenislading en waarmee het systeem de persoon kan identificeren die aan de gebeurtenis is gekoppeld. De sleutel kan bijvoorbeeld de Experience Cloud-id, een CRM-id of een e-mailadres zijn.
 
-Om gegevens te gebruiken die in het gegevensbestand van het Profiel van de Klant in real time van Adobe worden opgeslagen, moet de gebeurtenissleutel de informatie zijn u als identiteit van een profiel in de [&#x200B; Real-time Dienst van het Profiel van de Klant &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"} bepaalde.
+Om gegevens te gebruiken die in het gegevensbestand van het Profiel van de Klant in real time van Adobe worden opgeslagen, moet de gebeurtenissleutel de informatie zijn u als identiteit van een profiel in de [ Real-time Dienst van het Profiel van de Klant ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"} bepaalde.
 
 Met de profiel-id kan het systeem de afstemming tussen de gebeurtenis en het profiel van de persoon uitvoeren. Als u een schema met een primaire identiteit selecteert, worden de velden **[!UICONTROL Profile identifier]** en **[!UICONTROL Identity type]** vooraf ingevuld. Als er geen bepaalde identiteit is, is _identityMap > identiteitskaart_ de primaire sleutel. Dan moet u een identiteitstype selecteren, en de sleutel is automatisch voorgevuld gebruikend _identityMap > identiteitskaart_.
 
@@ -163,7 +163,7 @@ Als u een andere sleutel moet gebruiken, zoals een CRM-id of een e-mailadres, mo
 
 1. Selecteer het veld dat u als de sleutel hebt gekozen in de lijst met ladingsvelden.
 
-Wanneer de gebeurtenis wordt ontvangen, laat de waarde van de sleutel het systeem toe om de persoon te identificeren verbonden aan de gebeurtenis. Verbonden aan een [&#x200B; identiteitstype &#x200B;](../event/about-creating.md#select-the-namespace), kan de sleutel worden gebruikt om vragen op Adobe Experience Platform uit te voeren. Zie [&#x200B; deze pagina &#x200B;](../building-journeys/about-journey-activities.md#orchestration-activities).
+Wanneer de gebeurtenis wordt ontvangen, laat de waarde van de sleutel het systeem toe om de persoon te identificeren verbonden aan de gebeurtenis. Verbonden aan een [ identiteitstype ](../event/about-creating.md#select-the-namespace), kan de sleutel worden gebruikt om vragen op Adobe Experience Platform uit te voeren. Zie [ deze pagina ](../building-journeys/about-journey-activities.md#orchestration-activities).
 De sleutel wordt ook gebruikt om te controleren of een persoon op reis is. Een persoon kan namelijk niet op twee verschillende plaatsen op dezelfde reis zijn. Als gevolg hiervan staat het systeem niet toe dat dezelfde sleutel, bijvoorbeeld de sleutel CRMID=3224, zich op verschillende plaatsen op dezelfde reis bevindt.
 
 ## Geavanceerde expressie-editor {#adv-exp-editor}

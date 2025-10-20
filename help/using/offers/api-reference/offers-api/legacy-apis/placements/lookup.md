@@ -3,21 +3,21 @@ title: Een plaatsing opzoeken
 description: Plaatsingen zijn containers die worden gebruikt om uw voorstellen te tonen.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 42fb17a2-842e-4e20-9013-7227adba0105
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 1%
+source-wordcount: '146'
+ht-degree: 0%
 
 ---
 
 # Een plaatsing opzoeken {#look-up-placement}
 
-U kunt specifieke plaatsingen opzoeken door een verzoek van de GET tot de [!DNL Offer Library] API die de plaatsing bevat `@id` of de naam van de plaatsing in het aanvraagpad.
+U kunt specifieke plaatsingen opzoeken door een GET-aanvraag in te dienen bij de [!DNL Offer Library] API die de plaatsing `@id` of de naam van de plaatsing in het aanvraagpad bevat.
 
-**API-indeling**
+**API formaat**
 
 ```http
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT}&{QUERY_PARAMS}
@@ -28,8 +28,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 | `{ENDPOINT_PATH}` | Het eindpuntpad voor gegevensopslagruimte-API&#39;s. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | De container waarin de plaatsingen zich bevinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `SCHEMA_PLACEMENT}` | Bepaalt het schema verbonden aan plaatsingen. | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
-| `id` | Een tekenreeks die overeenkomt met de `@id` eigendom van de entiteiten. De tekenreeks komt exact overeen. De parameters `id` en `name` kan niet samen worden gebruikt. | `xcore:offer-placement:124541309805b7e8` |
-| `name` | Een tekenreeks die overeenkomt met de eigenschap xdm:name van de entiteiten. De tekenreeks komt exact overeen met hoofdletters, maar er kunnen jokertekens worden gebruikt. De parameters `id` en `name` kan niet samen worden gebruikt | `Sales and Promotions Placement` |
+| `id` | Een tekenreeks die wordt gebruikt om overeen te komen met de eigenschap `@id` van de entiteiten. De tekenreeks komt exact overeen. De parameters `id` en `name` kunnen niet samen worden gebruikt. | `xcore:offer-placement:124541309805b7e8` |
+| `name` | Een koord dat wordt gebruikt om het xdm :name bezit van de entiteiten aan te passen. De tekenreeks komt exact overeen met hoofdletters, maar er kunnen jokertekens worden gebruikt. De parameters `id` en `name` kunnen niet samen worden gebruikt | `Sales and Promotions Placement` |
 
 ```shell
 curl -X GET \
@@ -41,9 +41,9 @@ curl -X GET \
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Antwoord**
+**Reactie**
 
-Een succesvol antwoord retourneert de details van de plaatsing, inclusief informatie over uw container-id, instantie-id en unieke plaatsing `@id`.
+Een geslaagde reactie retourneert de details van de plaatsing, inclusief informatie over de container-id, de instantie-id en de unieke plaatsing `@id` .
 
 ```json
 {

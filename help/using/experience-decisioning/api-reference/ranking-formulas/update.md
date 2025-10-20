@@ -3,9 +3,10 @@ title: Rangschikkingsformules bijwerken
 description: Met behulp van de rangschikkingsformules kunt u de functies voor scoring definiëren, die wordt gebruikt om items te rangschikken.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
+exl-id: 4ef1bfc2-e74f-4b44-b3b5-8a4f2fbd6438
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 1%
@@ -16,7 +17,7 @@ ht-degree: 1%
 
 U kunt een rangschikkingsformule wijzigen of bijwerken door een PUT-aanvraag in te dienen bij de bibliotheek-API van het aanbod.
 
-Voor meer informatie over JSON PUT, met inbegrip van beschikbare verrichtingen, zie de officiële [&#x200B; documentatie van JSON PUT &#x200B;](http://jsonpatch.com/).
+Voor meer informatie over JSON PUT, met inbegrip van beschikbare verrichtingen, zie de officiële [ documentatie van JSON PUT ](http://jsonpatch.com/).
 
 **Accepteer en inhoud-Type kopballen**
 

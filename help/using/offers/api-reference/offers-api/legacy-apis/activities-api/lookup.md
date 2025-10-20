@@ -3,21 +3,21 @@ title: Een beslissing opzoeken
 description: Een beslissing bevat de logica die de selectie van een aanbieding informeert.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 99159704-fa39-47ff-b445-0cd6b325007d
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 1%
+source-wordcount: '151'
+ht-degree: 0%
 
 ---
 
 # Een beslissing opzoeken {#look-up-decision}
 
-U kunt specifieke besluiten opzoeken door een verzoek van de GET aan [!DNL Offer Library] API die een van de beslissingen bevat `@id` of de naam van de beslissing in het aanvraagpad.
+U kunt specifieke beslissingen opzoeken door een GET-aanvraag in te dienen bij de [!DNL Offer Library] API die ofwel de beslissingen `@id` ofwel de naam van de beslissing in het aanvraagpad bevat.
 
-**API-indeling**
+**API formaat**
 
 ```http
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIES}&{QUERY_PARAMS}
@@ -28,8 +28,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIE
 | `{ENDPOINT_PATH}` | Het eindpuntpad voor gegevensopslagruimte-API&#39;s. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | De container waarin de beslissingen zich bevinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ACTIVITIES}` | Bepaalt het schema verbonden aan besluiten. | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
-| `id` | Een tekenreeks die overeenkomt met de `@id` eigendom van de entiteiten. De tekenreeks komt exact overeen. De parameters `id` en `name` kan niet samen worden gebruikt. | `xcore:offer-activity:124527ab00b2ebbc` |
-| `name` | Een tekenreeks die overeenkomt met de eigenschap xdm:name van de entiteiten. De tekenreeks komt exact overeen met hoofdletters, maar er kunnen jokertekens worden gebruikt. De parameters &quot;id&quot; en &quot;name&quot; kunnen niet samen worden gebruikt | `LBAR` |
+| `id` | Een tekenreeks die wordt gebruikt om overeen te komen met de eigenschap `@id` van de entiteiten. De tekenreeks komt exact overeen. De parameters `id` en `name` kunnen niet samen worden gebruikt. | `xcore:offer-activity:124527ab00b2ebbc` |
+| `name` | Een koord dat wordt gebruikt om het xdm :name bezit van de entiteiten aan te passen. De tekenreeks komt exact overeen met hoofdletters, maar er kunnen jokertekens worden gebruikt. De parameters &quot;id&quot; en &quot;name&quot; kunnen niet samen worden gebruikt | `LBAR` |
 
 **Verzoek**
 
@@ -43,9 +43,9 @@ curl -X GET \
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Antwoord**
+**Reactie**
 
-Een succesvol antwoord retourneert de details van de plaatsing, inclusief informatie over uw container-id, instantie-id en, unieke beslissing `@id`.
+Een geslaagde reactie retourneert de details van de plaatsing, inclusief informatie over uw container-id, instantie-id en, unieke beslissing `@id` .
 
 ```json
 {

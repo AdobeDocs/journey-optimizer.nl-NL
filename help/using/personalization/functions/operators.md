@@ -3,13 +3,13 @@ title: Operatorfuncties, bibliotheek
 description: Operatorfuncties, bibliotheek
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 10%
+source-wordcount: '308'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ Booleaanse functies worden gebruikt voor het uitvoeren van Booleaanse logica op 
 
 ### en{#and}
 
-De `and` Deze functie wordt gebruikt om een logische combinatie te maken.
+De functie `and` wordt gebruikt om een logische combinatie te maken.
 
 **Syntaxis**
 
@@ -39,7 +39,7 @@ De volgende operatie zal alle mensen met een thuisland als Frankrijk en geboorte
 
 ### of{#or}
 
-De `or` Deze functie wordt gebruikt om een logische scheiding te maken.
+De functie `or` wordt gebruikt om een logische scheiding te maken.
 
 **Syntaxis**
 
@@ -80,9 +80,9 @@ not (homeAddress.countryISO = "CA")
 
 Vergelijkingsfuncties worden gebruikt om verschillende expressies en waarden met elkaar te vergelijken en om waar of onwaar overeenkomstig te retourneren.
 
-### Equals (Is gelijk aan){#equals}
+### Gelijk{#equals}
 
-De `=` (equals) functie controleert of één waarde of expressie gelijk is aan een andere waarde of expressie.
+De functie `=` (equals) controleert of een waarde of expressie gelijk is aan een andere waarde of expressie.
 
 **Syntaxis**
 
@@ -100,7 +100,7 @@ De volgende operatie controleert of het thuisadresland Frankrijk is.
 
 ### Niet gelijk{#notequal}
 
-De `!=` (niet gelijk aan) functie controleert of één waarde of expressie **niet** gelijk aan een andere waarde of expressie.
+De `!=` (niet gelijk aan) functie controleert of één waarde of uitdrukking **** niet gelijk aan een andere waarde of een uitdrukking is.
 
 **Syntaxis**
 
@@ -116,9 +116,9 @@ De volgende operatie controleert of het thuisadresland niet Frankrijk is.
 {%= profile.homeAddress.country != "France" %}
 ```
 
-### Greater than{#greaterthan}
+### Groter dan{#greaterthan}
 
-De `>` (groter dan) wordt gebruikt om te controleren of de eerste waarde groter is dan de tweede waarde.
+De functie `>` (groter dan) wordt gebruikt om te controleren of de eerste waarde groter is dan de tweede waarde.
 
 **Syntaxis**
 
@@ -134,9 +134,9 @@ De volgende bewerking definieert personen die strikt na 1970 geboren zijn.
 {%= profile.person.birthYear > 1970 %}
 ```
 
-### Greater than or equal to{#greaterthanorequal}
+### Groter dan of gelijk aan{#greaterthanorequal}
 
-De `>=` (groter dan of gelijk aan) functie wordt gebruikt om te controleren of de eerste waarde groter dan of gelijk aan de tweede waarde is.
+De functie `>=` (groter dan of gelijk aan) wordt gebruikt om te controleren of de eerste waarde groter dan of gelijk is aan de tweede waarde.
 
 **Syntaxis**
 
@@ -152,9 +152,9 @@ In de volgende bewerking worden personen gedefinieerd die in of na 1970 zijn geb
 {%= profile.person.birthYear >= 1970 %}
 ```
 
-### Less than{#lessthan}
+### Minder dan{#lessthan}
 
-De `<` (kleiner dan) vergelijkingsfunctie wordt gebruikt om te controleren of de eerste waarde kleiner is dan de tweede waarde.
+De vergelijkingsfunctie `<` (kleiner dan) wordt gebruikt om te controleren of de eerste waarde kleiner is dan de tweede waarde.
 
 **Syntaxis**
 
@@ -170,9 +170,9 @@ In de volgende bewerking worden personen gedefinieerd die vóór 2000 zijn gebor
 {%= profile.person.birthYear < 2000 %}
 ```
 
-### Less than or equal to{#lessthanorequal}
+### Kleiner dan of gelijk aan{#lessthanorequal}
 
-De `<=` (kleiner dan of gelijk aan) vergelijkingsfunctie wordt gebruikt om te controleren of de eerste waarde kleiner dan of gelijk is aan de tweede waarde.
+De vergelijkingsfunctie `<=` (kleiner dan of gelijk aan) wordt gebruikt om te controleren of de eerste waarde kleiner dan of gelijk is aan de tweede waarde.
 
 **Syntaxis**
 
@@ -188,4 +188,4 @@ De volgende bewerking definieert personen die in 2000 of eerder zijn geboren.
 {%= profile.person.birthYear <= 2000 %}
 ```
 
-**Bewerkingen met getallen**
+**Verrichtingen met aantallen**

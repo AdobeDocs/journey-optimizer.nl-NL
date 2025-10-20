@@ -3,21 +3,21 @@ title: Een verzameling verwijderen
 description: Verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketmaker zijn gedefinieerd, zoals de categorie van de aanbieding.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 351d1f44-f3dc-49f9-bc3d-c775dad3cad4
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 5%
+source-wordcount: '154'
+ht-degree: 4%
 
 ---
 
 # Een verzameling verwijderen {#delete-collection}
 
-Het kan soms nodig zijn een verzameling te verwijderen (DELETE). Alleen verzamelingen die u maakt in de huurderscontainer, kunnen worden verwijderd. Dit wordt gedaan door een verzoek van de DELETE aan uit te voeren [!DNL Offer Library] API die $id gebruikt van de verzameling die u wilt verwijderen.
+Het kan soms nodig zijn om (DELETE) een collectie te verwijderen. Alleen verzamelingen die u maakt in de huurderscontainer, kunnen worden verwijderd. Dit wordt gedaan door een DELETE-aanvraag naar de [!DNL Offer Library] API uit te voeren met behulp van $id van de verzameling die u wilt verwijderen.
 
-**API-indeling**
+**API formaat**
 
 ```http
 DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
@@ -41,8 +41,8 @@ curl -X DELETE \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Antwoord**
+**Reactie**
 
 Een geslaagde reactie retourneert HTTP-status 202 (Geen inhoud) en een lege hoofdtekst.
 
-U kunt de schrapping bevestigen door een raadpleging (GET) verzoek aan de inzameling te proberen. U zult een Accept- kopbal in het verzoek moeten omvatten, maar zou een status 404 van HTTP (niet Gevonden) moeten ontvangen omdat de inzameling uit de container is verwijderd.
+U kunt de verwijdering bevestigen door een opzoekverzoek (GET) in te dienen bij de verzameling. U zult een Accept- kopbal in het verzoek moeten omvatten, maar zou een status 404 van HTTP (niet Gevonden) moeten ontvangen omdat de inzameling uit de container is verwijderd.

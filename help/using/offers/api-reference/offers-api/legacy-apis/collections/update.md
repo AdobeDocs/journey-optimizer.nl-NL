@@ -3,13 +3,13 @@ title: Verzamelingen bijwerken
 description: Verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketmaker zijn gedefinieerd, zoals de categorie van de aanbieding.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: bf12d22f-e6c0-45fd-a2b2-149d3f4cf882
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -17,18 +17,18 @@ ht-degree: 4%
 
 U kunt een verzameling wijzigen of bijwerken door een PATCH-aanvraag in te dienen bij de [!DNL Offer Library] API
 
-Raadpleeg voor meer informatie over JSON Patch, inclusief beschikbare bewerkingen, de officiële [JSON-patchdocumentatie](https://jsonpatch.com/).
+Voor meer informatie over Reparatie JSON, met inbegrip van beschikbare verrichtingen, zie de officiële [ documentatie van het Reparatie JSON ](https://jsonpatch.com/).
 
 ## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
 
-In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* en *Accepteren* velden in de aanvraagkoptekst:
+De volgende lijst toont de geldige waarden die uit *inhoud-Type* bestaan en ** gebieden in de verzoekkopbal goedkeuren:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
 | Accepteren | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Inhoudstype | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
 
-**API-indeling**
+**API formaat**
 
 ```http
 PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
@@ -67,13 +67,13 @@ curl -X PATCH \
 
 | Parameter | Beschrijving |
 | --------- | ----------- |
-| `op` | De verrichtingsvraag die wordt gebruikt om de actie te bepalen nodig om de verbinding bij te werken. Bewerkingen omvatten: `add`, `replace`, en `remove`. |
+| `op` | De verrichtingsvraag die wordt gebruikt om de actie te bepalen nodig om de verbinding bij te werken. Bewerkingen zijn: `add` , `replace` en `remove` . |
 | `path` | Het pad van de parameter die moet worden bijgewerkt. |
 | `value` | De nieuwe waarde waarmee u de parameter wilt bijwerken. |
 
-**Antwoord**
+**Reactie**
 
-Een geslaagde reactie retourneert de bijgewerkte details van de verzameling, inclusief de unieke instantie-id en verzameling `@id`.
+Een geslaagde reactie retourneert de bijgewerkte details van de verzameling, inclusief de unieke instantie-id en verzameling `@id` .
 
 ```json
 {

@@ -3,10 +3,10 @@ title: Selectiestrategieën bijwerken
 description: De strategieën van de selectie bestaan uit inzamelingen verbonden aan beperkingen en rangschikkende methodes om aanbiedingen te bepalen.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 060f8c5f-4750-44dc-83aa-630afbc180eb
-source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 1%
@@ -15,9 +15,9 @@ ht-degree: 1%
 
 # Een selectiestrategie bijwerken {#update-selection-strategy}
 
-U kunt een selectiestrategie wijzigen of bijwerken door een PATCH-aanvraag in te dienen bij de bibliotheek-API van de aanbieding.
+U kunt een selectiestrategie wijzigen of bijwerken door een PATCH-aanvraag in te dienen bij de bibliotheek-API van het aanbod.
 
-Voor meer informatie over Reparatie JSON, met inbegrip van beschikbare verrichtingen, zie de officiële [&#x200B; documentatie van het Reparatie JSON &#x200B;](https://jsonpatch.com/).
+Voor meer informatie over Reparatie JSON, met inbegrip van beschikbare verrichtingen, zie de officiële [ documentatie van het Reparatie JSON ](https://jsonpatch.com/).
 
 **API formaat**
 

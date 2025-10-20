@@ -5,11 +5,11 @@ title: Personalization-syntaxis
 description: Leer hoe u de syntaxis van de personalisatie gebruikt.
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 keywords: expressie, editor, syntaxis, personalisatie
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 # Personalization-syntaxis {#personalization-syntax}
 
-Personalization in [!DNL Journey Optimizer] is gebaseerd op de sjabloonsyntaxis Handlebars genoemd. Voor een volledige beschrijving van de syntaxis van Handlebars, verwijs naar [&#x200B; documentatie HandlebarsJS &#x200B;](https://handlebarsjs.com/).
+Personalization in [!DNL Journey Optimizer] is gebaseerd op de sjabloonsyntaxis Handlebars genoemd. Voor een volledige beschrijving van de syntaxis van Handlebars, verwijs naar [ documentatie HandlebarsJS ](https://handlebarsjs.com/).
 
 Er worden een sjabloon en een invoerobject gebruikt om HTML of andere tekstopmaak te genereren. Handlebars de malplaatjes kijken als regelmatige teksten met ingebedde uitdrukkingen Handlebars.
 
@@ -53,19 +53,19 @@ waarbij:
 
 * **Profiel**
 
-  Dit namespace staat u toe om alle die attributen van verwijzingen te voorzien in het profielschema in [&#x200B; wordt beschreven het Model van Gegevens van Adobe Experience Platform (XDM) documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
+  Dit namespace staat u toe om alle die attributen van verwijzingen te voorzien in het profielschema in [ wordt beschreven het Model van Gegevens van Adobe Experience Platform (XDM) documentatie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
 
   De attributen moeten in het schema worden bepaald alvorens in een [!DNL Journey Optimizer] verpersoonlijkingsblok wordt van verwijzingen voorzien.
 
-  Voor meer informatie hoe te om profielattributen in voorwaarden te hefboomwerking, verwijs naar [&#x200B; deze sectie &#x200B;](functions/helpers.md#if-function).
+  Voor meer informatie hoe te om profielattributen in voorwaarden te hefboomwerking, verwijs naar [ deze sectie ](functions/helpers.md#if-function).
 
-  +++Sampleverwijzingen
+  +++Voorbeeldverwijzingen
 
    * `{{profile.person.name.fullName}}`
    * `{{profile.person.name.firstName}}`
    * `{{profile.person.gender}}`
    * `{{profile.personalEmail.address}}`
-   * ` {{profile.mobilePhone.number}}`
+   * `{{profile.mobilePhone.number}}`
    * `{{profile.homeAddress.city}}`
    * `{{profile.faxPhone.number}}`
 
@@ -73,7 +73,7 @@ waarbij:
 
 * **Doelgroep**
 
-  Meer over de segmentatiedienst leren, verwijs naar [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL){target="_blank"}.
+  Meer over de segmentatiedienst leren, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
 
 * **Aanbiedingen**
 
@@ -90,11 +90,11 @@ waarbij:
    * `Placement Id` en `Activity Id` zijn plaatsings- en activiteitsidentificatoren
    * `Attributes` zijn specifieke kenmerken die afhankelijk zijn van het aanbiedingstype. Voorbeeld: `deliveryUrl` voor afbeeldingen
 
-  Voor meer informatie over Besluiten API en op de vertegenwoordiging van de Aanbieding, verwijs naar [&#x200B; deze pagina &#x200B;](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+  Voor meer informatie over Besluiten API en op de vertegenwoordiging van de Aanbieding, verwijs naar [ deze pagina ](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
-  Alle verwijzingen worden bevestigd tegen het Schema van Aanbiedingen met een bevestigingsmechanisme dat op [&#x200B; wordt beschreven deze pagina &#x200B;](../personalization/personalization-build-expressions.md)
+  Alle verwijzingen worden bevestigd tegen het Schema van Aanbiedingen met een bevestigingsmechanisme dat op [ wordt beschreven deze pagina ](../personalization/personalization-build-expressions.md)
 
-  +++Sampleverwijzingen
+  +++Voorbeeldverwijzingen
 
    * Locatie waar de afbeelding wordt gehost:
 
@@ -122,7 +122,7 @@ Deze blokhelpers worden geïdentificeerd door een `#` voorafgaand aan de helpern
 
 Blokken zijn expressies met een blokopening (`{{# }}`) en een sluitend (`{{/}}`).
 
-Voor meer informatie over helperfuncties, verwijs [&#x200B; deze sectie &#x200B;](functions/helpers.md).
+Voor meer informatie over helperfuncties, verwijs [ deze sectie ](functions/helpers.md).
 
 ## Letterlijke typen {#literal-types}
 

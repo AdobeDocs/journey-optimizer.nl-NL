@@ -3,21 +3,21 @@ title: Beslissingsregels weergeven
 description: Beslissingsregels zijn beperkingen die aan een gepersonaliseerd aanbod worden toegevoegd en die op een profiel worden toegepast om te bepalen of het in aanmerking komt voor een aanbieding.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: c4c3e415-bc57-45db-b27f-4a5e9fc1f02c
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '198'
 ht-degree: 4%
 
 ---
 
 # Beslissingsregels weergeven {#list-decision-rules}
 
-Beslissingsregels zijn beperkingen die aan een gepersonaliseerd aanbod worden toegevoegd en die op een profiel worden toegepast om te bepalen of het in aanmerking komt voor een aanbieding. U kunt een lijst met bestaande beslissingsregels in een container weergeven door één GET-verzoek uit te voeren aan de [!DNL Offer Library] API.
+Beslissingsregels zijn beperkingen die aan een gepersonaliseerd aanbod worden toegevoegd en die op een profiel worden toegepast om te bepalen of het in aanmerking komt voor een aanbieding. U kunt een lijst met bestaande beslissingsregels in een container weergeven door één GET-aanvraag uit te voeren naar de [!DNL Offer Library] API.
 
-**API-indeling**
+**API formaat**
 
 ```http
 GET /{ENDPOINT_PATH}/offer-rules?{QUERY_PARAMS}
@@ -38,8 +38,8 @@ De gemeenschappelijkste vraagparameters voor het pagineren omvatten:
 
 | Parameter | Beschrijving | Voorbeeld |
 | --------- | ----------- | ------- |
-| `property` | Een optioneel eigenschapsfilter: <ul><li>De eigenschappen worden gegroepeerd door EN-bewerking.</li><li>Parameters kunnen als volgt worden herhaald: property={PROPERTY_EXPR}[&amp;eigenschap={PROPERTY_EXPR2}...] or property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...]</li><li>Eigenschapexpressies hebben een indeling `[ !]field[op]value`, met `op` in `[==,!=,<=,>=,<,>,~]`, die reguliere expressies ondersteunen.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
-| `orderBy` | Resultaten sorteren op een bepaalde eigenschap. Als u de naam a - before toevoegt (orderby=-name), worden de items op naam gesorteerd in aflopende volgorde (Z-A). Padexpressies hebben de vorm van door punten gescheiden paden. Deze parameter kan als volgt worden herhaald: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
+| `property` | Een optioneel eigenschapsfilter: <ul><li>De eigenschappen worden gegroepeerd door EN-bewerking.</li><li>De parameters kunnen als zo worden herhaald: property= {PROPERTY_EXPR}[&amp;property= {PROPERTY_EXPR2}... ] of property= {PROPERTY_EXPR1}[, {PROPERTY_EXPR2}.. ]</li><li>Eigenschapexpressies hebben de notatie `[!]field[op]value` en ondersteunen `op` in `[==,!=,<=,>=,<,>,~]` reguliere expressies.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `orderBy` | Resultaten sorteren op een bepaalde eigenschap. Als u de naam a - before toevoegt (orderby=-name), worden de items op naam gesorteerd in aflopende volgorde (Z-A). Padexpressies hebben de vorm van door punten gescheiden paden. Deze parameter kan als volgt worden herhaald: `orderby=field1[,-fields2,field3,...]` | `orderby=id`, `-name` |
 | `limit` | Beperk het aantal geretourneerde entiteiten. | `limit=5` |
 
 **Verzoek**
@@ -53,7 +53,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-rules?limit=2' \
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Antwoord**
+**Reactie**
 
 Een succesvolle reactie keert een lijst van besluitvormingsregels terug die u tot hebt toegang.
 

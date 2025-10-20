@@ -3,13 +3,13 @@ title: Help voor externe gegevens opzoeken
 description: Uitgebreide gids voor het gebruiken van de Externe Hulp van Gegevens voor dynamische verpersoonlijking in Adobe Journey Optimizer.
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1197'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Raadpleeg ook Aangepaste acties in [!DNL Journey Optimizer] Binnenkomende kanale
 
 Voer de volgende stappen uit om een handeling te definiëren en de hulplijn voor personalisatie te gebruiken:
 
-1. Creeer een Actie om het eindpunt voor de raadpleging te vormen. Dit hoeft slechts eenmaal te gebeuren voor elk eindpunt en moet door een technische gebruiker worden gedaan. [&#x200B; Leer hoe te om een douaneactie &#x200B;](../action/about-custom-action-configuration.md) te vormen
+1. Creeer een Actie om het eindpunt voor de raadpleging te vormen. Dit hoeft slechts eenmaal te gebeuren voor elk eindpunt en moet door een technische gebruiker worden gedaan. [ Leer hoe te om een douaneactie ](../action/about-custom-action-configuration.md) te vormen
 
    Noteer de actie-id en kopieer deze.
 

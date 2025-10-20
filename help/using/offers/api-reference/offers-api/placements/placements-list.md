@@ -3,13 +3,13 @@ title: Plaatsingen weergeven
 description: Plaatsingen zijn containers die worden gebruikt om uw voorstellen te tonen.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 36030ffe-eb7a-4487-914d-84ccb0a6bf6e
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 3%
+source-wordcount: '209'
+ht-degree: 2%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 3%
 
 Plaatsingen zijn containers die worden gebruikt om uw voorstellen te tonen. Een plaatsing helpt ervoor te zorgen dat de juiste aanbiedingsinhoud op de juiste plaats binnen uw bericht verschijnt. Wanneer u inhoud aan een aanbieding toevoegt, wordt u gevraagd een plaatsing te selecteren waarin die inhoud kan worden weergegeven.
 
-U kunt een lijst van alle plaatsen bekijken door één enkel verzoek van de GET aan uit te voeren [!DNL Offer Library] API.
+U kunt een lijst van alle plaatsen bekijken door één enkel GET verzoek aan [!DNL Offer Library] API uit te voeren.
 
-**API-indeling**
+**API formaat**
 
 ```http
 GET /{ENDPOINT_PATH}/placements?{QUERY_PARAMS}
@@ -39,8 +39,8 @@ De gemeenschappelijkste vraagparameters voor het pagineren omvatten:
 
 | Parameter | Beschrijving | Voorbeeld |
 | --------- | ----------- | ------- |
-| `property` | Een optioneel eigenschapsfilter: <ul><li>De eigenschappen worden gegroepeerd door EN-bewerking.</li><li>Parameters kunnen als volgt worden herhaald: property={PROPERTY_EXPR}[&amp;eigenschap={PROPERTY_EXPR2}...] or property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...]</li><li>Eigenschapexpressies hebben een indeling `[ !]field[op]value`, met `op` in `[==,!=,<=,>=,<,>,~]`, die reguliere expressies ondersteunen.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
-| `orderBy` | Resultaten sorteren op een bepaalde eigenschap. Als u de naam a - before toevoegt (orderby=-name), worden de items op naam gesorteerd in aflopende volgorde (Z-A). Padexpressies hebben de vorm van door punten gescheiden paden. Deze parameter kan als volgt worden herhaald: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
+| `property` | Een optioneel eigenschapsfilter: <ul><li>De eigenschappen worden gegroepeerd door EN-bewerking.</li><li>De parameters kunnen als zo worden herhaald: property= {PROPERTY_EXPR}[&amp;property= {PROPERTY_EXPR2}... ] of property= {PROPERTY_EXPR1}[, {PROPERTY_EXPR2}.. ]</li><li>Eigenschapexpressies hebben de notatie `[!]field[op]value` en ondersteunen `op` in `[==,!=,<=,>=,<,>,~]` reguliere expressies.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `orderBy` | Resultaten sorteren op een bepaalde eigenschap. Als u de naam a - before toevoegt (orderby=-name), worden de items op naam gesorteerd in aflopende volgorde (Z-A). Padexpressies hebben de vorm van door punten gescheiden paden. Deze parameter kan als volgt worden herhaald: `orderby=field1[,-fields2,field3,...]` | `orderby=id`, `-name` |
 
 **Verzoek**
 
@@ -53,7 +53,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/placements?limit=2' \
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Antwoord**
+**Reactie**
 
 Een succesvolle reactie keert een lijst van plaatsen terug die aanwezig zijn en die u toegang tot hebt.
 

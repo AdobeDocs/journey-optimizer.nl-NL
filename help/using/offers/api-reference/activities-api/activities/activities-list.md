@@ -3,13 +3,13 @@ title: Beslissingen weergeven
 description: Een beslissing bevat de logica die de selectie van een aanbieding informeert.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 4%
+source-wordcount: '180'
+ht-degree: 3%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 4%
 
 Een beslissing bevat de logica die de selectie van een aanbieding informeert.
 
-U kunt een lijst van alle besluiten bekijken door één enkel verzoek van de GET aan uit te voeren [!DNL Offer Library] API.
+U kunt een lijst met alle beslissingen weergeven door één GET-aanvraag uit te voeren naar de [!DNL Offer Library] API.
 
-**API-indeling**
+**API formaat**
 
 ```http
 GET /{ENDPOINT_PATH}/offer-decisions?{QUERY_PARAMS}
@@ -51,12 +51,12 @@ De gemeenschappelijkste vraagparameters voor het pagineren omvatten:
 
 | Parameter | Beschrijving | Voorbeeld |
 | --------- | ----------- | ------- |
-| `property` | Een optioneel eigenschapsfilter: <ul><li>De eigenschappen worden gegroepeerd door EN-bewerking.</li><li>Parameters kunnen als volgt worden herhaald: property={PROPERTY_EXPR}[&amp;eigenschap={PROPERTY_EXPR2}...] or property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...]</li><li>Eigenschapexpressies hebben een indeling `[ !]field[op]value`, met `op` in `[==,!=,<=,>=,<,>,~]`, die reguliere expressies ondersteunen.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
-| `orderBy` | Resultaten sorteren op een bepaalde eigenschap. Als u de naam a - before toevoegt (orderby=-name), worden de items op naam gesorteerd in aflopende volgorde (Z-A). Padexpressies hebben de vorm van door punten gescheiden paden. Deze parameter kan als volgt worden herhaald: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
+| `property` | Een optioneel eigenschapsfilter: <ul><li>De eigenschappen worden gegroepeerd door EN-bewerking.</li><li>De parameters kunnen als zo worden herhaald: property= {PROPERTY_EXPR}[&amp;property= {PROPERTY_EXPR2}... ] of property= {PROPERTY_EXPR1}[, {PROPERTY_EXPR2}.. ]</li><li>Eigenschapexpressies hebben de notatie `[!]field[op]value` en ondersteunen `op` in `[==,!=,<=,>=,<,>,~]` reguliere expressies.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `orderBy` | Resultaten sorteren op een bepaalde eigenschap. Als u de naam a - before toevoegt (orderby=-name), worden de items op naam gesorteerd in aflopende volgorde (Z-A). Padexpressies hebben de vorm van door punten gescheiden paden. Deze parameter kan als volgt worden herhaald: `orderby=field1[,-fields2,field3,...]` | `orderby=id`, `-name` |
 | `limit` | Beperk het aantal geretourneerde entiteiten. | `limit=5` |
 
 
-**Antwoord**
+**Reactie**
 
 Een succesvolle reactie keert een lijst van besluiten terug u toegang tot hebt.
 

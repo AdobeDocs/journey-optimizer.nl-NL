@@ -3,21 +3,21 @@ title: Aangepaste aanbiedingen verwijderen
 description: Een gepersonaliseerd aanbod is een aanpasbaar marketingbericht op basis van geschiktheidsregels en -beperkingen.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 52a5053d-3b94-47fd-a064-a20f9a595150
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 5%
+source-wordcount: '116'
+ht-degree: 4%
 
 ---
 
 # Een persoonlijke aanbieding verwijderen {#delete-personalized-offer}
 
-Het kan soms nodig zijn om (DELETE) een gepersonaliseerd aanbod te verwijderen. Dit wordt gedaan door een verzoek van de DELETE aan uit te voeren [!DNL Offer Library] API die de id gebruikt van de persoonlijke aanbieding die u wilt verwijderen.
+Het kan soms nodig zijn om (DELETE) een gepersonaliseerd aanbod te verwijderen. Dit gebeurt door een DELETE-aanvraag naar de [!DNL Offer Library] API uit te voeren met de id van de persoonlijke aanbieding die u wilt verwijderen.
 
-**API-indeling**
+**API formaat**
 
 ```http
 DELETE /{ENDPOINT_PATH}/offers/{ID}?offer-type=personalized
@@ -39,7 +39,7 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offers/personalizedOffer
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Antwoord**
+**Reactie**
 
 Een geslaagde reactie retourneert HTTP-status 200 en een lege hoofdtekst.
 

@@ -3,21 +3,21 @@ title: Verzamelingsaanduidingen verwijderen
 description: Met de verzamelingskwalificatietags kunt u uw voorstellen beter organiseren en sorteren.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: cc67519e-7a80-49c7-8c8b-c777be633026
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 1%
+source-wordcount: '159'
+ht-degree: 0%
 
 ---
 
 # Een verzamelingskwalificatie verwijderen {#delete-tag}
 
-Het kan soms nodig zijn om (DELETE) een verzamelingskwalificatie (voorheen bekend als &quot;tag&quot;) te verwijderen. Alleen verzamelingsaanduidingen die u in de huurderscontainer maakt, kunnen worden verwijderd. Dit wordt gedaan door een verzoek van de DELETE aan uit te voeren [!DNL Offer Library] API die $id gebruikt van de inzamelingskwalificatie u wenst om te schrappen.
+Het kan soms nodig zijn om (DELETE) een verzamelingskwalificatie (voorheen &quot;tag&quot; genoemd) te verwijderen. Alleen verzamelingsaanduidingen die u in de huurderscontainer maakt, kunnen worden verwijderd. Dit wordt gedaan door een DELETE-aanvraag naar de [!DNL Offer Library] API uit te voeren met behulp van $id van de verzamelingskwalificatie die u wilt verwijderen.
 
-**API-indeling**
+**API formaat**
 
 ```http
 DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
@@ -41,7 +41,7 @@ curl -X DELETE \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Antwoord**
+**Reactie**
 
 Een geslaagde reactie retourneert HTTP-status 202 (Geen inhoud) en een lege hoofdtekst.
 

@@ -3,13 +3,13 @@ title: Objectfunctiebibliotheek
 description: Objectfunctiebibliotheek
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 6ce70e32-aac3-4a2c-bfeb-c370521853ca
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 7%
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 7%
 
 ## Is null{#isNull}
 
-De `isNull` Deze functie bepaalt of een objectverwijzing niet bestaat.
+De functie `isNull` bepaalt of een objectverwijzing niet bestaat.
 
 **Syntaxis**
 
@@ -35,7 +35,7 @@ De volgende verrichting controleert als het huisadres van de persoon niet bestaa
 
 ## Is niet null{#isNotNull}
 
-De `isNotNull` Deze functie bepaalt of er een objectverwijzing bestaat.
+De functie `isNotNull` bepaalt of een objectverwijzing bestaat.
 
 **Syntaxis**
 

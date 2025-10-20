@@ -5,11 +5,11 @@ title: Dynamische inhoud maken
 description: Leer hoe u dynamische inhoud aan uw berichten kunt toevoegen.
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 keywords: expression, editor, dynamic, content
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Met Adobe Journey Optimizer kunt u voorwaardelijke regels die in de bibliotheek zijn gemaakt, gebruiken om dynamische inhoud aan uw berichten toe te voegen.
 
-Dynamische inhoud kan in elk veld worden gemaakt waarin u personalisatie kunt toevoegen met de verpersoonlijkingseditor. Dit zijn onder andere onderwerpregel, koppelingen, inhoud van pushberichten of representaties van teksttypeaanbiedingen. [&#x200B; leer meer over verpersoonlijking &#x200B;](personalize.md)
+Dynamische inhoud kan in elk veld worden gemaakt waarin u personalisatie kunt toevoegen met de verpersoonlijkingseditor. Dit zijn onder andere onderwerpregel, koppelingen, inhoud van pushberichten of representaties van teksttypeaanbiedingen. [ leer meer over verpersoonlijking ](personalize.md)
 
 Bovendien kunt u voorwaardelijke regels gebruiken in de e-mailtoepassing van Designer om meerdere varianten van een inhoudscomponent te maken.
 
@@ -32,7 +32,7 @@ U kunt als volgt dynamische inhoud in expressies toevoegen:
 
 1. Selecteer het menu **[!UICONTROL Conditions]** om de lijst met beschikbare voorwaardelijke regels weer te geven. Klik op + naast een regel om deze toe te voegen aan de huidige expressie.
 
-   U kunt ook een nieuwe regel maken door **[!UICONTROL Create new]** te selecteren. [&#x200B; Leer hoe te om voorwaarden &#x200B;](create-conditions.md) tot stand te brengen
+   U kunt ook een nieuwe regel maken door **[!UICONTROL Create new]** te selecteren. [ Leer hoe te om voorwaarden ](create-conditions.md) tot stand te brengen
 
    ![](assets/conditions-expression.png)
 
@@ -42,7 +42,7 @@ U kunt als volgt dynamische inhoud in expressies toevoegen:
 
    ![](assets/conditions-language-sample.png)
 
-1. Wanneer de inhoud gereed is, kunt u een voorvertoning van de verschillende varianten weergeven met de knop **[!UICONTROL Simulate content]** . [&#x200B; Leer hoe te om berichten &#x200B;](../content-management/preview-test.md) te testen en voor te vertonen
+1. Wanneer de inhoud gereed is, kunt u een voorvertoning van de verschillende varianten weergeven met de knop **[!UICONTROL Simulate content]** . [ Leer hoe te om berichten ](../content-management/preview-test.md) te testen en voor te vertonen
 
    ![](assets/conditions-preview.png)
 
@@ -65,7 +65,7 @@ U kunt als volgt dynamische inhoud in expressies toevoegen:
 
 U kunt als volgt varianten van een inhoudscomponent maken in de e-mailtoepassing van Designer:
 
-1. In [&#x200B; E-mail Designer &#x200B;](../email/content-from-scratch.md), selecteer een inhoudscomponent, dan klik **[!UICONTROL Enable conditional content]**.
+1. In [ E-mail Designer ](../email/content-from-scratch.md), selecteer een inhoudscomponent, dan klik **[!UICONTROL Enable conditional content]**.
 
    ![](assets/conditions-enable-conditional.png)
 
@@ -79,7 +79,7 @@ U kunt als volgt varianten van een inhoudscomponent maken in de e-mailtoepassing
 
    ![](assets/conditions-select.png)
 
-   U kunt ook een nieuwe regel maken door op **[!UICONTROL Create new]** te klikken. [&#x200B; Leer hoe te om voorwaarden &#x200B;](create-conditions.md) tot stand te brengen
+   U kunt ook een nieuwe regel maken door op **[!UICONTROL Create new]** te klikken. [ Leer hoe te om voorwaarden ](create-conditions.md) tot stand te brengen
 
 1. De voorwaardelijke regel is gekoppeld aan de variant. Voor een betere leesbaarheid kunt u de naam van de variant wijzigen door de handeling **[!UICONTROL Rename]** te selecteren in het pictogram Meer handelingen.
 
@@ -97,7 +97,7 @@ U kunt als volgt varianten van een inhoudscomponent maken in de e-mailtoepassing
    >
    >* Voorwaardelijke inhoud wordt geëvalueerd op basis van de bijbehorende regels in de volgorde waarin de varianten worden weergegeven. De standaardvariant wordt altijd weergegeven als aan geen andere voorwaarden wordt voldaan.
    >
-   >* Bij het simuleren of renderen van proefdrukken voor e-mails die meerdere voorwaardelijke varianten bevatten, kan Journey Optimizer meer verwerkingstijd nodig hebben. Als u time-outs of foutberichten ervaart, kunt u overwegen het totale aantal varianten te verminderen of voorwaardelijke regels te vereenvoudigen. Leer meer over het testen van uw inhoud op [&#x200B; deze pagina &#x200B;](../content-management/preview-test.md).
+   >* Bij het simuleren of renderen van proefdrukken voor e-mails die meerdere voorwaardelijke varianten bevatten, kan Journey Optimizer meer verwerkingstijd nodig hebben. Als u time-outs of foutberichten ervaart, kunt u overwegen het totale aantal varianten te verminderen of voorwaardelijke regels te vereenvoudigen. Leer meer over het testen van uw inhoud op [ deze pagina ](../content-management/preview-test.md).
 
 
 1. Als u een variant wilt verwijderen, klikt u op het pictogram Meer handelingen naast de gewenste variant en selecteert u **[!UICONTROL Delete]** .

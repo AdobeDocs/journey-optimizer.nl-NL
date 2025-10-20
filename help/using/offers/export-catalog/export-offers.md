@@ -4,10 +4,10 @@ description: Deze sectie maakt een lijst van alle gebieden die in de uitgevoerde
 badge: label="Verouderd" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
-role: User, Data Engineer
+role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 2a5591617838e76e9cae99c0f97e8aff59311a69
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1945'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in de **[!UICONT
 
 +++
 
-+++ _experience > decisions > endarConstraints
++++ _experience > decisions > endarConstraints 
 
 **Gebied:** agendaConstraints
 **Titel:** Details van de Beperking van de Kalender
@@ -118,15 +118,14 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in de **[!UICONT
 
      **Gebied:** formaat
      **Titel:** Formaat
-     **Beschrijving:** De fysieke of digitale manifestatie van het middel. Normaal gesproken moet de indeling het mediatype van de bron bevatten. De indeling kan worden gebruikt om te bepalen welke software, hardware of andere apparatuur nodig is om de bron weer te geven of te gebruiken. De geadviseerde beste praktijken moeten een waarde van een gecontroleerde woordenlijst (bijvoorbeeld, de lijst van [&#x200B; de Types van Media van Internet &#x200B;](https://www.iana.org/assignments/media-types/) het bepalen van de formaten van computermedia) selecteren.
+     **Beschrijving:** De fysieke of digitale manifestatie van het middel. Normaal gesproken moet de indeling het mediatype van de bron bevatten. De indeling kan worden gebruikt om te bepalen welke software, hardware of andere apparatuur nodig is om de bron weer te geven of te gebruiken. De geadviseerde beste praktijken moeten een waarde van een gecontroleerde woordenlijst (bijvoorbeeld, de lijst van [ de Types van Media van Internet ](https://www.iana.org/assignments/media-types/) het bepalen van de formaten van computermedia) selecteren.
      **Type:** koord
      **Voorbeeld:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Taal**
-
      **Gebied:** taal
      **Titel:** Taal
-     **Beschrijving:** de taal of de talen van het middel. \nLanguages worden gespecificeerd in taalcode zoals die in [&#x200B; wordt bepaald IETF RFC 3066 &#x200B;](https://www.ietf.org/rfc/rfc3066.txt), die deel van BCP 47 uitmaakt, die elders in XDM wordt gebruikt.
+     **Beschrijving:** de taal of de talen van het middel. \nLanguages worden gespecificeerd in taalcode zoals die in [ wordt bepaald IETF RFC 3066 ](https://www.ietf.org/rfc/rfc3066.txt), die deel van BCP 47 uitmaakt, die elders in XDM wordt gebruikt.
      **Type:** serie
      **Voorbeelden:** &quot;\ n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
 
@@ -180,7 +179,7 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in de **[!UICONT
   **Gebied:** linkURL
   **Beschrijving:** een facultatieve unieke middelteller voor gebruikersinteractie. Deze URL wordt gebruikt om de eindgebruiker naar in een gebruikersagent te verwijzen en kan worden gevolgd.
   **Type:** koord
-  **Voorbeeld:** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Voorbeeld:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > decisions > contents > Placement
 
@@ -237,13 +236,14 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in de **[!UICONT
 
 +++
 
-++_experience > decisions > profileConstraints > Type profielrestrictie
++++_experience > decisions > profileConstraints > Profielrestrictietype
 
 **Gebied:** profileConstraintType
 **Titel:** het Type van Beperking van het Profiel
 **Beschrijving:** bepaalt als om het even welke beperkingen momenteel worden geplaatst en hoe de beperkingen worden uitgedrukt. Het zou door een regel of door één of meerdere publieksleden kunnen zijn.
 **Type:** koord
 **Mogelijke waarden:**
+
 * &quot;none&quot; (standaardwaarde)
 * &quot;accessibilityRule&quot;: &quot;De profielbeperking wordt uitgedrukt als één enkele regel die aan waar moet evalueren alvorens de beperkte actie wordt toegestaan.&quot;
 * &quot;anySegments&quot;: &quot;De profielbeperking wordt uitgedrukt als een of meer soorten publiek en het profiel moet lid zijn van ten minste één ervan voordat de beperkte handeling is toegestaan.&quot;
@@ -299,7 +299,7 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in de **[!UICONT
 
 +++
 
-++_experience > decisions > Rangschikking > Order Evaluation
++++_experience > decisions > Ranging > Order Evaluation
 
 **Gebied:** orde
 **Titel:** de Evaluatie van de orde
@@ -330,7 +330,7 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in de **[!UICONT
 
 +++
 
-+++_experience > decisions > Rangschikking > Prioriteit
++++_Experience > decisions > Rangschikking > Priority
 
 **Gebied:** prioriteit
 **Titel:** Prioriteit
@@ -357,7 +357,7 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in de **[!UICONT
 **Gebied:** _repo
 **Type:** voorwerp
 
-+++
++++ 
 
 +++ _repo > Beslissingsoptie ETag
 

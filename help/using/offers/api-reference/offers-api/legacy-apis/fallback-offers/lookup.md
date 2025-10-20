@@ -3,21 +3,21 @@ title: aanbiedingen voor opzoeken
 description: Aan klanten wordt een fallback-aanbieding gestuurd als zij niet in aanmerking komen voor andere aanbiedingen
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: e470d491-b30b-4d26-83a6-e5b34e49fe61
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 1%
+source-wordcount: '157'
+ht-degree: 0%
 
 ---
 
 # Opzoeken van fallback-aanbiedingen {#look-up-fallback-offers}
 
-U kunt specifieke fallback-aanbiedingen opzoeken door een GET-aanvraag in te dienen bij de [!DNL Offer Library] API die of de fallback aanbieding omvat `@id` of de naam van de fallback-aanbieding in het aanvraagpad.
+U kunt specifieke fallback-aanbiedingen opzoeken door een GET-aanvraag in te dienen bij de [!DNL Offer Library] API die de fallback-aanbieding `@id` of de naam van de fallback-aanbieding in het aanvraagpad bevat.
 
-**API-indeling**
+**API formaat**
 
 ```http
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_OFFER}&{QUERY_PARAMS}
@@ -28,8 +28,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_
 | `{ENDPOINT_PATH}` | Het eindpuntpad voor gegevensopslagruimte-API&#39;s. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | De container waar de reserveaanbiedingen worden gevestigd. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FALLBACK_OFFER}` | Bepaalt het schema verbonden aan fallback aanbiedingen. | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
-| `id` | Een tekenreeks die overeenkomt met de `@id` eigendom van de entiteiten. De tekenreeks komt exact overeen. De parameters `id` en `name` kan niet samen worden gebruikt. | `xcore:fallback-offer:122206064e0d98df` |
-| `name` | Een tekenreeks die overeenkomt met de eigenschap xdm:name van de entiteiten. De tekenreeks komt exact overeen met hoofdletters, maar er kunnen jokertekens worden gebruikt. De parameters `id` en `name` kan niet samen worden gebruikt | `F1: Web fallback` |
+| `id` | Een tekenreeks die wordt gebruikt om overeen te komen met de eigenschap `@id` van de entiteiten. De tekenreeks komt exact overeen. De parameters `id` en `name` kunnen niet samen worden gebruikt. | `xcore:fallback-offer:122206064e0d98df` |
+| `name` | Een koord dat wordt gebruikt om het xdm :name bezit van de entiteiten aan te passen. De tekenreeks komt exact overeen met hoofdletters, maar er kunnen jokertekens worden gebruikt. De parameters `id` en `name` kunnen niet samen worden gebruikt | `F1: Web fallback` |
 
 **Verzoek**
 
@@ -43,9 +43,9 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Antwoord**
+**Reactie**
 
-Een succesvol antwoord retourneert de details van de plaatsing, inclusief informatie over uw container-id, instantie-id en, unieke fallback-aanbieding `@id`.
+Een succesvol antwoord retourneert de details van de plaatsing, inclusief informatie over uw container-id, instantie-id en, unieke fallback-aanbieding `@id` .
 
 ```json
 {

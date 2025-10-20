@@ -3,30 +3,30 @@ title: Een verzamelingskwalificatie maken
 description: Met de verzamelingskwalificatietags kunt u uw voorstellen beter organiseren en sorteren.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
-source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 
 # Een verzamelingskwalificatie maken {#create-tag}
 
-U kunt een verzamelingskwalificatie maken (voorheen bekend als &quot;tag&quot;) door een aanvraag voor een POST in te dienen bij de API voor de bibliotheek van het aanbod.
+U kunt een verzamelingskwalificatie (voorheen bekend als &quot;tag&quot;) maken door een POST-aanvraag in te dienen bij de API voor de bibliotheek van het aanbod.
 
 ## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
 
-In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* velden in de aanvraagkoptekst:
+De volgende lijst toont de geldige waarden die uit de *inhoud-Type* gebieden in de verzoekkopbal bestaan:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
 | Inhoudstype | `application/json` |
 
-**API-indeling**
+**API formaat**
 
 ```http
 POST /{ENDPOINT_PATH}/tags
@@ -51,9 +51,9 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/tags' \
 }'
 ```
 
-**Antwoord**
+**Reactie**
 
-Een geslaagde reactie retourneert informatie over de nieuwe verzamelingskwalificatie, inclusief de unieke id `id`. U kunt de `id` in latere stappen om de verzamelingskwalificatie bij te werken of te verwijderen. U kunt uw unieke verzamelingskwalificatie gebruiken `id` in latere zelfstudies om verzamelingen en persoonlijke aanbiedingen te maken.
+Een geslaagde reactie retourneert informatie over de nieuwe verzamelingskwalificatie, inclusief de unieke `id` . U kunt `id` in recentere stappen gebruiken om uw inzamelingsbepaler bij te werken of te schrappen. U kunt uw unieke kwalificatie voor verzamelingen `id` in latere zelfstudies gebruiken om verzamelingen en persoonlijke aanbiedingen te maken.
 
 ```json
 {

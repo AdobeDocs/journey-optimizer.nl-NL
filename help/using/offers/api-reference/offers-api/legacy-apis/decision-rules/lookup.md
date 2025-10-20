@@ -3,21 +3,21 @@ title: Beslissingsregel opzoeken
 description: Beslissingsregels zijn beperkingen die aan een gepersonaliseerd aanbod worden toegevoegd en die op een profiel worden toegepast om te bepalen of het in aanmerking komt voor een aanbieding.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 3099736d-7109-4c94-aea6-053a9b885278
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 1%
+source-wordcount: '164'
+ht-degree: 0%
 
 ---
 
 # Beslissingsregel opzoeken {#lookup-decision-rule}
 
-U kunt een specifieke besluitvormingsregel opzoeken door een verzoek van de GET tot de [!DNL Offer Library] API die een van de beslissingsregels bevat `@id` of de naam van de beslissingsregel in het aanvraagpad.
+U kunt een specifieke beslissingsregel opzoeken door een GET-aanvraag in te dienen bij de [!DNL Offer Library] API die ofwel de beslissingsregel `@id` ofwel de naam van de beslissingsregel bevat in het aanvraagpad.
 
-**API-indeling**
+**API formaat**
 
 ```http
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILITY_RULE}&{QUERY_PARAMS}
@@ -28,8 +28,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 | `{ENDPOINT_PATH}` | Het eindpuntpad voor gegevensopslagruimte-API&#39;s. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | De container waarin de beslissingsregels zich bevinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ELIGIBILITY_RULE}` | Bepaalt het schema verbonden aan besluitvormingsregels. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
-| `id` | Een tekenreeks die overeenkomt met de `@id` eigendom van de entiteiten. De tekenreeks komt exact overeen. De parameter s `id` en `name` kan niet samen worden gebruikt. | `xcore:eligibility-rule:124e0faf5b8ee89b` |
-| `name` | Een tekenreeks die overeenkomt met de eigenschap xdm:name van de entiteiten. De tekenreeks komt exact overeen met hoofdletters, maar er kunnen jokertekens worden gebruikt. De parameters `id` en `name` kan niet samen worden gebruikt | `Sales rule` |
+| `id` | Een tekenreeks die wordt gebruikt om overeen te komen met de eigenschap `@id` van de entiteiten. De tekenreeks komt exact overeen. De parameters s `id` en `name` kunnen niet samen worden gebruikt. | `xcore:eligibility-rule:124e0faf5b8ee89b` |
+| `name` | Een koord dat wordt gebruikt om het xdm :name bezit van de entiteiten aan te passen. De tekenreeks komt exact overeen met hoofdletters, maar er kunnen jokertekens worden gebruikt. De parameters `id` en `name` kunnen niet samen worden gebruikt | `Sales rule` |
 
 **Verzoek**
 
@@ -43,9 +43,9 @@ curl -X GET \
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Antwoord**
+**Reactie**
 
-Een succesvolle reactie keert de details van de specifieke besluitvormingsregel terug u omhoog keek, met inbegrip van informatie over zijn unieke beslissingsregel `id`.
+Een succesvolle reactie retourneert de details van de specifieke beslissingsregel die u hebt opgezocht, inclusief informatie over de unieke beslissingsregel `id` .
 
 ```json
   {

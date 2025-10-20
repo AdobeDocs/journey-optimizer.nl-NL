@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: subdomein, delegatie, domein, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1868'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 >id="ajo_admin_subdomainname"
 >title="Subdomeindelegatie"
 >abstract="Met Journey Optimizer kunt u uw subdomeinen delegeren aan Adobe. U kunt een subdomein volledig delegeren aan Adobe, wat de geadviseerde methode is. </br> u kunt subdomain ook creëren gebruikend CNAMEs om aan Adobe-specifieke verslagen te richten, maar deze benadering vereist u om DNS verslagen op uw te handhaven en te beheren."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="Methoden voor subdomeinconfiguratie"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="Methoden voor subdomeinconfiguratie"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname_header"
@@ -33,14 +33,14 @@ De domeinnaamdelegatie is een methode die de eigenaar van een domeinnaam (techni
 
 >[!NOTE]
 >
->Leer meer over subdomain delegatie en de verschillende methodes beschikbaar met [!DNL Journey Optimizer] in [&#x200B; deze sectie &#x200B;](about-subdomain-delegation.md).
+>Leer meer over subdomain delegatie en de verschillende methodes beschikbaar met [!DNL Journey Optimizer] in [ deze sectie ](about-subdomain-delegation.md).
 
 U kunt:
 
-* Volledige afgevaardigde subdomain - [&#x200B; Leer hoe &#x200B;](#set-up-subdomain)
-* Creeer subdomain gebruikend CNAMEs om aan Adobe-specifieke verslagen te richten - [&#x200B; leer hoe &#x200B;](#set-up-subdomain)
+* Volledige afgevaardigde subdomain - [ Leer hoe ](#set-up-subdomain)
+* Creeer subdomain gebruikend CNAMEs om aan Adobe-specifieke verslagen te richten - [ leer hoe ](#set-up-subdomain)
 
-De **volledige subdomain delegatie** is de geadviseerde methode. Leer meer over de verschillen tussen de verschillende methodes van de subdomeinconfiguratie in [&#x200B; deze sectie &#x200B;](about-subdomain-delegation.md#subdomain-delegation-methods).
+De **volledige subdomain delegatie** is de geadviseerde methode. Leer meer over de verschillen tussen de verschillende methodes van de subdomeinconfiguratie in [ deze sectie ](about-subdomain-delegation.md#subdomain-delegation-methods).
 
 ## Guardrails {#guardrails}
 
@@ -77,7 +77,7 @@ U kunt:
 
 * Haal de subdomeinnaam (read-only) op die tijdens het delegatieproces wordt gevormd, evenals geproduceerde URLs (middelen, spiegelpagina&#39;s, het volgen URLs),
 
-* Voeg een van de plaatsverificatie TXT- verslag van Google aan uw subdomain toe om ervoor te zorgen dat het wordt geverifieerd (zie [&#x200B; een van Google TXT- verslag aan subdomain &#x200B;](google-txt.md) toevoegen).
+* Voeg een van de plaatsverificatie TXT- verslag van Google aan uw subdomain toe om ervoor te zorgen dat het wordt geverifieerd (zie [ een van Google TXT- verslag aan subdomain ](google-txt.md) toevoegen).
 
 >[!CAUTION]
 >
@@ -102,30 +102,31 @@ Volg onderstaande stappen om een nieuw subdomein in te stellen in [!DNL Journey 
 
 1. Selecteer in de sectie **[!UICONTROL Set up method]** een van de volgende opties:
 
-   * Volledig gedelegeerd - [&#x200B; Leer meer &#x200B;](about-subdomain-delegation.md#full-subdomain-delegation)
-   * De opstelling van de NAAM - [&#x200B; leert meer &#x200B;](about-subdomain-delegation.md#cname-subdomain-setup)
+   * Volledig gedelegeerd - [ Leer meer ](about-subdomain-delegation.md#full-subdomain-delegation)
+   * De opstelling van de NAAM - [ leert meer ](about-subdomain-delegation.md#cname-subdomain-setup)
 
-     Leer hoe te opstelling subdomeinen met CNAMEs in deze [&#x200B; specifieke sectie &#x200B;](#cname-subdomain-setup)
+     Leer hoe te opstelling subdomeinen met CNAMEs in deze [ specifieke sectie ](#cname-subdomain-setup)
 
-   * De delegatie van de douane - [&#x200B; leert meer &#x200B;](about-subdomain-delegation.md#custom-subdomain-delegation)
+   * De delegatie van de douane - [ leert meer ](about-subdomain-delegation.md#custom-subdomain-delegation)
 
-     Leer hoe te opstelling douanesubdomeinen in deze [&#x200B; specifieke sectie &#x200B;](delegate-custom-subdomain.md)
+     Leer hoe te opstelling douanesubdomeinen in deze [ specifieke sectie ](delegate-custom-subdomain.md)
 
    <!--![](assets/subdomain-method-full.png)-->
 
 1. Geef de naam op van het subdomein dat u wilt delegeren.
 
    ![](assets/subdomain-name.png)
-<!--
-    >[!CAUTION]
+
+<!-- >[!CAUTION]
     >
     >Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
     >
     >You cannot use the same sending domain to send out messages from [!DNL Adobe Journey Optimizer] and from another product, such as [!DNL Adobe Campaign] or [!DNL Adobe Marketo Engage].
 
-    Capital letters are not allowed in subdomains. TBC by PM-->
+    Capital letters are not allowed in subdomains. TBC by PM
+-->
 
-1. Stel **[!UICONTROL DMARC record]** in de betreffende sectie in. Als subdomain een bestaand [&#x200B; verslag van DMARC &#x200B;](dmarc-record.md) heeft, en als het door [!DNL Journey Optimizer] wordt gehaald, kunt u de zelfde waarden gebruiken of hen veranderen zoals nodig. Als u geen waarden toevoegt, worden de standaardwaarden gebruikt. [&#x200B; Leer hoe te om het verslag van DMARC te beheren &#x200B;](dmarc-record.md#set-up-dmarc)
+1. Stel **[!UICONTROL DMARC record]** in de betreffende sectie in. Als subdomain een bestaand [ verslag van DMARC ](dmarc-record.md) heeft, en als het door [!DNL Journey Optimizer] wordt gehaald, kunt u de zelfde waarden gebruiken of hen veranderen zoals nodig. Als u geen waarden toevoegt, worden de standaardwaarden gebruikt. [ Leer hoe te om het verslag van DMARC te beheren ](dmarc-record.md#set-up-dmarc)
 
    ![](assets/dmarc-record-found.png)
 
@@ -135,7 +136,7 @@ Volg onderstaande stappen om een nieuw subdomein in te stellen in [!DNL Journey 
 
    ![](assets/subdomain-submit.png)
 
-1. Als u vestiging een subdomain met **CNAMEs** bent, ga [&#x200B; deze sectie &#x200B;](#cname-subdomain-setup).
+1. Als u vestiging een subdomain met **CNAMEs** bent, ga [ deze sectie ](#cname-subdomain-setup).
 
 1. Klik op **[!UICONTROL Submit]** om de vereiste controles door Adobe uit te voeren. [Meer informatie](#submit-subdomain)
 
@@ -161,7 +162,7 @@ Wanneer u een subdomein instelt, kunt u CNAME&#39;s gebruiken om te verwijzen na
 
 Volg de onderstaande stappen om een subdomein in te stellen met gebruik van CNAME&#39;s.
 
-1. Voer alle stappen uit die in [&#x200B; worden beschreven deze sectie &#x200B;](#set-up-subdomain).
+1. Voer alle stappen uit die in [ worden beschreven deze sectie ](#set-up-subdomain).
 
 1. Voordat u de instelling van het subdomein verzendt, moet u nog één stap voltooien. Klik op **[!UICONTROL Continue]** . Wacht tot Adobe controleert of de records zonder fouten op de hostingoplossing zijn gegenereerd. Dit proces kan tot 2 minuten duren.
 
@@ -173,7 +174,7 @@ Volg de onderstaande stappen om een subdomein in te stellen met gebruik van CNAM
 
 1. Klik op **[!UICONTROL Submit]** om de vereiste controles door Adobe uit te voeren. [Meer informatie](#submit-subdomain)
 
-➡️ [&#x200B; Leer hoe te om subdomain tot stand te brengen die CNAME gebruiken om aan Adobe-Specifieke verslagen in deze video te richten &#x200B;](#video)
+➡️ [ Leer hoe te om subdomain tot stand te brengen die CNAME gebruiken om aan Adobe-Specifieke verslagen in deze video te richten ](#video)
 
 ## Subdomeininstelling verzenden {#submit-subdomain}
 
@@ -191,7 +192,7 @@ Voer de onderstaande stappen uit om de subdomeindelegatie te voltooien.
    >
    >Vervolgens kunt u de subdomeindelegatie hervatten door deze te openen vanuit de lijst met subdomeinen.
 
-1. Het subdomein wordt in de lijst weergegeven met de status **[!UICONTROL Processing]** . Voor meer op de statussen van subdomeinen, verwijs naar [&#x200B; deze sectie &#x200B;](#access-delegated-subdomains).
+1. Het subdomein wordt in de lijst weergegeven met de status **[!UICONTROL Processing]** . Voor meer op de statussen van subdomeinen, verwijs naar [ deze sectie ](#access-delegated-subdomains).
 
    <!--![](assets/subdomain-processing.png)-->
 
@@ -227,7 +228,7 @@ Deze stappen worden uitgevoerd door Adobe en kunnen **tot 3 uren** nemen.
 
 1. **creeer voorwaartse DNS**: als dit eerste subdomain is dat u delegeert, zal Adobe voorwaartse DNS creëren die wordt vereist om PTR verslagen - voor elk van uw IPs tot stand te brengen.
 
-1. **creeer PTR verslag**: Het verslag van PTR, dat ook als omgekeerd DNS verslag wordt bekend, wordt vereist door ISPs zodat zij niet de e-mails als spam merken. Gmail adviseert ook hebbend PTR verslagen voor elk IP. Adobe leidt PTR verslagen slechts tot wanneer u subdomain voor het eerst, voor elk IP, één voor alle IP&#39;s delegeert die dat subdomain richten. Bijvoorbeeld, als IP *192.1.2.1* is en subdomain *email.example.com* is, zal het PTR verslag zijn: *192.1.2.1PTR r1.email.example.com*. U kunt de PTR-record achteraf bijwerken en naar het nieuwe gedelegeerde domein verwijzen. [&#x200B; leer meer over PTR verslagen &#x200B;](ptr-records.md)
+1. **creeer PTR verslag**: Het verslag van PTR, dat ook als omgekeerd DNS verslag wordt bekend, wordt vereist door ISPs zodat zij niet de e-mails als spam merken. Gmail adviseert ook hebbend PTR verslagen voor elk IP. Adobe leidt PTR verslagen slechts tot wanneer u subdomain voor het eerst, voor elk IP, één voor alle IP&#39;s delegeert die dat subdomain richten. Bijvoorbeeld, als IP *192.1.2.1* is en subdomain *email.example.com* is, zal het PTR verslag zijn: *192.1.2.1PTR r1.email.example.com*. U kunt de PTR-record achteraf bijwerken en naar het nieuwe gedelegeerde domein verwijzen. [ leer meer over PTR verslagen ](ptr-records.md)
 
 Zodra de controles succesvol zijn, krijgt subdomain de **[!UICONTROL Success]** status. Het is klaar om te worden gebruikt om berichten te leveren.
 
@@ -247,17 +248,17 @@ U moet echter verschillende stappen uitvoeren in de gebruikersinterface voordat 
 
 Voer eerst de volgende stappen uit in [!DNL Journey Optimizer] :
 
-1. Deactiveer alle kanaalconfiguraties verbonden aan subdomain. [&#x200B; leer hoe &#x200B;](../configuration/channel-surfaces.md#deactivate-a-surface)
+1. Deactiveer alle kanaalconfiguraties verbonden aan subdomain. [ leer hoe ](../configuration/channel-surfaces.md#deactivate-a-surface)
 
 1. U kunt elke landingspagina-subdomeinen, SMS-subdomeinen en websubdomeinen die aan dit subdomein zijn gekoppeld, verwijderen.
 
-   U moet een specifiek verzoek voor elke [&#x200B; het landen pagina &#x200B;](../landing-pages/lp-subdomains.md#undelegate-subdomain), [&#x200B; SMS &#x200B;](../sms/sms-subdomains.md#undelegate-subdomain), of [&#x200B; Web subdomain &#x200B;](../web/web-delegated-subdomains.md#undelegate-subdomain) opheffen.
+   U moet een specifiek verzoek voor elke [ het landen pagina ](../landing-pages/lp-subdomains.md#undelegate-subdomain), [ SMS ](../sms/sms-subdomains.md#undelegate-subdomain), of [ Web subdomain ](../web/web-delegated-subdomains.md#undelegate-subdomain) opheffen.
 
-1. Stop de actieve campagnes verbonden aan subdomeinen. [&#x200B; leer hoe &#x200B;](../campaigns/manage-campaigns.md#stop)
+1. Stop de actieve campagnes verbonden aan subdomeinen. [ leer hoe ](../campaigns/manage-campaigns.md#stop)
 
-1. Stop de actieve reizen verbonden aan subdomeinen. [&#x200B; leer hoe &#x200B;](../building-journeys/end-journey.md#stop-journey)
+1. Stop de actieve reizen verbonden aan subdomeinen. [ leer hoe ](../building-journeys/end-journey.md#stop-journey)
 
-1. Punt de [&#x200B; PTR verslagen &#x200B;](ptr-records.md#edit-ptr-record) verbonden aan subdomain aan een ander subdomain.
+1. Punt de [ PTR verslagen ](ptr-records.md#edit-ptr-record) verbonden aan subdomain aan een ander subdomain.
 
    Als dit het enige gedelegeerde subdomein is, kunt u deze stap overslaan.
 

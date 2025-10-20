@@ -3,29 +3,29 @@ title: Een plaatsing maken
 description: Plaatsingen zijn containers die worden gebruikt om uw voorstellen te tonen.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 7b735873-86f5-466f-b079-5e84d9f03a08
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
 # Een plaatsing maken {#create-placement}
 
-U kunt een plaatsing tot stand brengen door een verzoek van de POST aan [!DNL Offer Library] API.
+U kunt een plaatsing maken door een POST-aanvraag in te dienen bij de [!DNL Offer Library] API.
 
 ## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
 
-In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* veld in de aanvraagkoptekst:
+De volgende lijst toont de geldige waarden die uit het *inhoud-Type* gebied in de verzoekkopbal bestaan:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
 | Inhoudstype | `application/json` |
 
-**API-indeling**
+**API formaat**
 
 ```http
 POST /{ENDPOINT_PATH}/placements
@@ -64,9 +64,9 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/placements' \
 }'
 ```
 
-**Antwoord**
+**Reactie**
 
-Een geslaagde reactie retourneert de details van de nieuwe plaatsing en plaatsing `id`. U kunt de volgende stappen gebruiken om uw plaatsing bij te werken of te verwijderen. U kunt uw unieke plaatsing gebruiken `id` in recentere zelfstudies om besluiten, besluitvormingsregels, en reserveaanbiedingen tot stand te brengen.
+Een geslaagde reactie retourneert de details van de nieuwe plaatsing en plaatsing `id` . U kunt de volgende stappen gebruiken om uw plaatsing bij te werken of te verwijderen. U kunt uw unieke plaatsing `id` in recentere zelfstudies gebruiken om besluiten, besluitvormingsregels, en reserveaanbiedingen tot stand te brengen.
 
 ```json
 {

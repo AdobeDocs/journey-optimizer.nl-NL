@@ -4,11 +4,11 @@ product: journey optimizer
 title: AJO Rollen en verantwoordelijkheden
 description: Meer informatie over de verschillende rollen voor Adobe Journey Optimizer en over hun verantwoordelijkheden
 feature: Get Started
-role: Admin, Data Engineer, Developer, User
+role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: 0a80d8df834c48b6a5e6f4fafae89006b64bca11
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 2%
@@ -86,19 +86,19 @@ Elke rol begint met specifieke taken die aan zijn nadruk worden aangepast. Als u
 
 Klik op de onderstaande rol voor specifieke richtlijnen die zijn afgestemd op uw verantwoordelijkheden:
 
-* [&#x200B; krijgt Begonnen als Marketer &#x200B;](path/marketer.md)
-* [&#x200B; krijgen Begonnen als Ingenieur van Gegevens &#x200B;](path/data-engineer.md)
-* [&#x200B; krijgen Begonnen als Beheerder &#x200B;](path/administrator.md)
+* [ krijgt Begonnen als Marketer ](path/marketer.md)
+* [ krijgen Begonnen als Ingenieur van Gegevens ](path/data-engineer.md)
+* [ krijgen Begonnen als Beheerder ](path/administrator.md)
 
 ## Hoe kan ik-video {#video}
 
 Bekijk de inleidende video voor meer informatie over sleutelmogelijkheden en persona&#39;s van Journey Optimizer. De video doorloopt de gebruikersinterface en markeert belangrijke eigenschappen die op rol-specifieke workflows worden gebaseerd.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430315?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Aanvullende bronnen
 
 Verken de volgende bronnen voor diepgaander leren en updates:
 
 * [Release-opmerkingen](../rn/release-notes.md)
-* [&#x200B; Video&#39;s van het Leerprogramma &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=nl-NL)
+* [ Video&#39;s van het Leerprogramma ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html)

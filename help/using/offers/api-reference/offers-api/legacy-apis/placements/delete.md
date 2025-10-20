@@ -3,21 +3,21 @@ title: plaatsingen verwijderen
 description: Plaatsingen zijn containers die worden gebruikt om uw voorstellen te tonen.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 944efb12-6745-4bb2-be52-293e23925350
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 3%
+source-wordcount: '145'
+ht-degree: 2%
 
 ---
 
 # Een plaatsing verwijderen {#delete-placement}
 
-Het kan soms nodig zijn om een plaatsing te verwijderen (DELETE). Alleen de plaatsen die u maakt in de container van de huurder kunnen worden verwijderd. Dit wordt gedaan door een verzoek van de DELETE aan uit te voeren [!DNL Offer Library] API met de instantie-id van de plaatsing die u wilt verwijderen.
+Soms is het nodig om een plaatsing te verwijderen (DELETE). Alleen de plaatsen die u maakt in de container van de huurder kunnen worden verwijderd. Dit gebeurt door een DELETE-aanvraag uit te voeren naar de [!DNL Offer Library] API met de instantie-id van de plaatsing die u wilt verwijderen.
 
-**API-indeling**
+**API formaat**
 
 ```http
 DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
@@ -41,8 +41,8 @@ curl -X DELETE \
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Antwoord**
+**Reactie**
 
 Een geslaagde reactie retourneert HTTP-status 202 (Geen inhoud) en een lege hoofdtekst.
 
-U kunt de verwijdering bevestigen door een opzoekverzoek (GET) in te dienen bij de plaatsing. U zult een Accept- kopbal in het verzoek moeten omvatten, maar zou een status 404 van HTTP (niet Gevonden) moeten ontvangen omdat de plaatsing uit de container is verwijderd.
+U kunt de verwijdering bevestigen door een opzoekaanvraag (GET) in te dienen bij de plaatsing. U zult een Accept- kopbal in het verzoek moeten omvatten, maar zou een status 404 van HTTP (niet Gevonden) moeten ontvangen omdat de plaatsing uit de container is verwijderd.

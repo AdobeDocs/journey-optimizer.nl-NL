@@ -3,12 +3,12 @@ product: journey optimizer
 title: toDateTime
 description: Meer informatie over de functie toDateTime
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: toDateTime, function, expression, trip
 exl-id: 2b487e60-593e-4bf7-9639-f469ba0f5cdc
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 4%
@@ -38,7 +38,7 @@ Conversie
 
 >[!NOTE]
 >
->Tijdzone-id moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn. Voor meer informatie over gegevenstypes, verwijs naar [&#x200B; deze pagina &#x200B;](../expression/data-types.md).
+>Tijdzone-id moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn. Voor meer informatie over gegevenstypes, verwijs naar [ deze pagina ](../expression/data-types.md).
 
 ## Handtekeningen en geretourneerde typen
 

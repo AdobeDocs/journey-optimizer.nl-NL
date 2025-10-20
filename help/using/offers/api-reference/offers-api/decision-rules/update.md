@@ -3,31 +3,31 @@ title: Beslissingsregels bijwerken
 description: Beslissingsregels zijn beperkingen die aan een gepersonaliseerd aanbod worden toegevoegd en die op een profiel worden toegepast om te bepalen of het in aanmerking komt voor een aanbieding.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 42c531fd-0dc9-492d-8827-2e1460454064
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 5%
+source-wordcount: '153'
+ht-degree: 4%
 
 ---
 
 # Een beslissingsregel bijwerken {#update-decision-rule}
 
-U kunt besluitvormingsregels wijzigen of bijwerken door een PATCH-verzoek in te dienen bij de [!DNL Offer Library] API.
+U kunt besluitvormingsregels wijzigen of bijwerken door een PATCH-aanvraag in te dienen bij de [!DNL Offer Library] API.
 
-Raadpleeg voor meer informatie over JSON Patch, inclusief beschikbare bewerkingen, de officiële [JSON-patchdocumentatie](https://jsonpatch.com/).
+Voor meer informatie over Reparatie JSON, met inbegrip van beschikbare verrichtingen, zie de officiële [ documentatie van het Reparatie JSON ](https://jsonpatch.com/).
 
 ## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
 
-In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* veld in de aanvraagkoptekst:
+De volgende lijst toont de geldige waarden die uit het *inhoud-Type* gebied in de verzoekkopbal bestaan:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
 | Inhoudstype | `application/json` |
 
-**API-indeling**
+**API formaat**
 
 ```http
 PATCH /{ENDPOINT_PATH}/offer-rules/{ID}
@@ -63,13 +63,13 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-rules/offerRule1234
 
 | Parameter | Beschrijving |
 | --------- | ----------- |
-| `op` | De verrichtingsvraag die wordt gebruikt om de actie te bepalen nodig om de verbinding bij te werken. Bewerkingen omvatten: `add`, `replace`, `remove`, `copy` en `test`. |
+| `op` | De verrichtingsvraag die wordt gebruikt om de actie te bepalen nodig om de verbinding bij te werken. Bewerkingen zijn: `add` , `replace` , `remove` , `copy` en `test` . |
 | `path` | Het pad van de parameter die moet worden bijgewerkt. |
 | `value` | De nieuwe waarde waarmee u de parameter wilt bijwerken. |
 
-**Antwoord**
+**Reactie**
 
-Een succesvol antwoord keert de bijgewerkte details van de besluitvormingsregel, met inbegrip van zijn unieke besluitvormingsregel terug `id`.
+Een geslaagde reactie retourneert de bijgewerkte details van de beslissingsregel, inclusief de unieke beslissingsregel `id` .
 
 ```json
 {

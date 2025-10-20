@@ -3,13 +3,13 @@ title: Een verzameling maken
 description: Verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketmaker zijn gedefinieerd, zoals de categorie van de aanbieding.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
-source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 7%
 
 Verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketmaker zijn gedefinieerd, zoals de categorie van de aanbieding.
 
-U kunt een inzameling tot stand brengen door een verzoek van de POST aan [!DNL Offer Library] API.
+U kunt een verzameling maken door een POST-aanvraag in te dienen bij de [!DNL Offer Library] API.
 
 ## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
 
-In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* veld in de aanvraagkoptekst:
+De volgende lijst toont de geldige waarden die uit het *inhoud-Type* gebied in de verzoekkopbal bestaan:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
 | Inhoudstype | `application/json` |
 
-**API-indeling**
+**API formaat**
 
 ```http
 POST /{ENDPOINT_PATH}/offer-collections
@@ -59,9 +59,9 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-collections' \
 }'
 ```
 
-**Antwoord**
+**Reactie**
 
-Een geslaagde reactie retourneert informatie over de nieuwe verzameling, inclusief de bijbehorende `id`. U kunt de `id` in latere stappen om uw verzameling bij te werken of te verwijderen of in een latere zelfstudie om een beslissing te maken.
+Een geslaagde reactie retourneert informatie over de zojuist gemaakte verzameling, inclusief de `id` . U kunt `id` in recentere stappen gebruiken om uw inzameling bij te werken of te schrappen of in een recentere zelfstudie om een besluit tot stand te brengen.
 
 ```json
 {

@@ -3,19 +3,19 @@ title: Een beslissingsitem verwijderen
 description: Beslissingsitems zijn marketingaanbiedingen die u kunt maken en indelen in verzamelingen en catalogi.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
-source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
+exl-id: 0fd608e0-df71-4e2d-8304-d7d5561c7c7a
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%
 
 ---
 
-
 # Een beslissingsitem verwijderen {#delete-decision-item}
 
-Om een besluitpunt te verwijderen, voer een verzoek van DELETE aan de Bibliotheek API van de Aanbieding met identiteitskaart van het besluitpunt uit u wenst om te schrappen.
+Als u een beslissingsitem wilt verwijderen, voert u een DELETE-aanvraag uit naar de bibliotheek-API van het aanbod met de id van het beslissingsitem dat u wilt verwijderen.
 
 **API formaat**
 
@@ -44,4 +44,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-items/offerItem123
 
 Een geslaagde reactie retourneert HTTP-status 200 en een lege hoofdtekst.
 
-U kunt de schrapping bevestigen door een raadpleging (GET) verzoek aan het besluitpunt te proberen. U zou HTTP status 404 (niet Gevonden) moeten ontvangen omdat het besluitpunt is verwijderd.
+U kunt de verwijdering bevestigen door een opzoekverzoek (GET) in te dienen bij het beslissingsonderdeel. U zou HTTP status 404 (niet Gevonden) moeten ontvangen omdat het besluitpunt is verwijderd.

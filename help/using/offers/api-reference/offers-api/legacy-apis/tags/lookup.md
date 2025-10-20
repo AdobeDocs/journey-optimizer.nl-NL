@@ -3,21 +3,21 @@ title: Een verzamelingskwalificatie opzoeken
 description: Met de verzamelingskwalificatietags kunt u uw voorstellen beter organiseren en sorteren.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: f31e6a17-c99a-4db9-a301-426a1f0bcc92
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # Een verzamelingskwalificatie opzoeken {#look-up-tag}
 
-U kunt specifieke inzamelingsbepalers (die vroeger &quot;markeringen&quot;worden genoemd opzoeken door een GET verzoek aan te richten [!DNL Offer Library] API die de verzamelingskwalificatie bevat `id` in het aanvraagpad.
+U kunt specifieke inzamelingsbepalers (die vroeger &quot;markeringen&quot;worden genoemd) opzoeken door een GET- verzoek aan [!DNL Offer Library] API te doen die de inzamelingsbepaler `id` in de verzoekweg omvat.
 
-**API-indeling**
+**API formaat**
 
 ```http
 GET /{ENDPOINT_PATH}/tags/{ID}
@@ -39,9 +39,9 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Antwoord**
+**Reactie**
 
-Een succesvolle reactie keert de details van de inzamelingsbepaler met inbegrip van informatie over uw unieke inzamelingsbepaler terug `id`.
+Een geslaagde reactie retourneert de details van de verzamelingskwalificatie, inclusief informatie over uw unieke verzamelingskwalificatie `id` .
 
 ```json
 {

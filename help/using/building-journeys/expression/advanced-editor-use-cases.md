@@ -4,14 +4,14 @@ product: journey optimizer
 title: De geavanceerde expressie-editor gebruiken
 description: Geavanceerde expressies maken
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 hide: true
 hidefromtoc: true
 keywords: expressie, voorwaarde, use-case, gebeurtenissen
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
-source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 1%
@@ -165,4 +165,4 @@ substr(
 Uitleg: in dit voorbeeld worden `substr` - en `lastIndexOf` -functies gebruikt om accolades te verwijderen die de CRM-id omsluiten die is doorgegeven met een mobiele startgebeurtenis van de app.
 
 
-Voor meer op hoe te om de geavanceerde uitdrukkingsredacteur te gebruiken, let op [&#x200B; deze video &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html).
+Voor meer op hoe te om de geavanceerde uitdrukkingsredacteur te gebruiken, let op [ deze video ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html).

@@ -3,10 +3,10 @@ title: Een verzameling maken
 description: Verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketmaker zijn gedefinieerd, zoals de categorie van de aanbieding.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: ea79add2-1ea7-4c5c-ba67-f99d10975c4f
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 5%
@@ -17,18 +17,18 @@ ht-degree: 5%
 
 Verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketmaker zijn gedefinieerd, zoals de categorie van de aanbieding.
 
-U kunt een inzameling tot stand brengen door een verzoek van de POST aan [!DNL Offer Library] API, terwijl het verstrekken van uw container identiteitskaart
+U kunt een verzameling maken door een POST-aanvraag in te dienen bij de [!DNL Offer Library] API en uw container-id op te geven.
 
 ## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
 
-In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* en *Accepteren* velden in de aanvraagkoptekst:
+De volgende lijst toont de geldige waarden die uit *inhoud-Type* bestaan en ** gebieden in de verzoekkopbal goedkeuren:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
 | Accepteren | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Inhoudstype | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
 
-**API-indeling**
+**API formaat**
 
 ```http
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
@@ -59,9 +59,9 @@ curl -X POST \
     }'
 ```
 
-**Antwoord**
+**Reactie**
 
-Een geslaagde reactie retourneert informatie over de nieuwe verzameling, inclusief de unieke instantie-id en plaatsing `@id`. U kunt de instantie-id in latere stappen gebruiken om de verzameling bij te werken of te verwijderen. U kunt uw unieke verzameling gebruiken `@id` in een latere zelfstudie om een beslissing te maken.
+Een geslaagde reactie retourneert informatie over de nieuwe verzameling, inclusief de unieke instantie-id en plaatsing `@id` . U kunt de instantie-id in latere stappen gebruiken om de verzameling bij te werken of te verwijderen. U kunt uw unieke verzameling `@id` in een latere zelfstudie gebruiken om een beslissing te maken.
 
 ```json
 {

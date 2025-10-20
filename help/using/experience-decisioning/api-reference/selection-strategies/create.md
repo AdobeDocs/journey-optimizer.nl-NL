@@ -3,19 +3,19 @@ title: Een selectiestrategie maken
 description: De strategieën van de selectie bestaan uit inzamelingen verbonden aan beperkingen en rangschikkende methodes om aanbiedingen te bepalen.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
-source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
+exl-id: 0e35c77b-6741-4c32-b012-36fc3a8b6d7a
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 1%
 
 ---
 
-
 # Een selectiestrategie maken {#create-selection-strategy}
 
-U kunt een selectiestrategie maken door een POST aan te vragen bij de API voor de bibliotheek van het aanbod.
+U kunt een selectiestrategie maken door een POST-aanvraag in te dienen bij de API voor de bibliotheek van het aanbod.
 
 **API formaat**
 

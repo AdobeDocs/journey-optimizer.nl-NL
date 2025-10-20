@@ -4,12 +4,12 @@ product: journey optimizer
 title: Functionele gebieden
 description: Functionele gebieden in AJO
 feature: Get Started
-role: Admin, Data Engineer, Developer, User
+role: Admin, Developer, User
 level: Beginner
 redpen-status: PASS_||_2025-04-28_15-13-07
 exl-id: c9b02ae2-e07b-41f4-90cc-b2c0966f1ed1
 hide: true
-source-git-commit: 72ff06a7d87d6d9e5bfc0c6462ea4d60a98fc940
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 0%
@@ -41,6 +41,7 @@ Adobe Journey Optimizer (AJO) bevat verschillende belangrijke functionele gebied
 Behandel gegevensbeheer als de basis voor alle betrokkenheid van klanten. Een goed gestructureerde gegevensstichting zorgt ervoor dat elk besluit, bericht, en reis nauwkeurige en georganiseerde informatie gebruikt.
 
 **Zeer belangrijke Componenten**:
+
 - **de verwezenlijking en het beheer van het Schema**: Bepaal de structuur van klantengegevens.
    - Voorbeeld: maak een schema met daarin velden als Voornaam, E-mailadres en Historie van aankoop.
 - **configuratie van de Dataset**: Organiseer gegevens in logische containers.
@@ -60,6 +61,7 @@ Behandel gegevensbeheer als de basis voor alle betrokkenheid van klanten. Een go
 De hulpmiddelen van het Beheer van de klant verbinden verschillende gegevenspunten om een samenhangend beeld van elke klant te verstrekken. Dit inzicht zorgt ervoor dat u relevante en gepersonaliseerde ervaringen kunt leveren.
 
 **Zeer belangrijke Componenten**:
+
 - **In real time het Profiel van de Klant**: Verenigde mening van elke klant.
    - Voorbeeld: combineer webbrowsergeschiedenis, interacties tussen apps en offlineaankopen tot één profiel.
 - **de resolutie van de Identiteit**: De gegevens van de verbindingsklant over apparaten en kanalen.
@@ -80,6 +82,7 @@ De hulpmiddelen van het Beheer van de klant verbinden verschillende gegevenspunt
 De hulpmiddelen van het Beheer van de inhoud zorgen ervoor dat de teams efficiënt creëren en leveren op maat gemaakte berichten, die consistentie en relevantie op elk aanraakpunt handhaven.
 
 **Zeer belangrijke Componenten**:
+
 - **redacteurs van de Inhoud**: Creeer en formatteer berichten visueel of met code.
    - Voorbeeld: gebruik de visuele editor om een e-mailcampagne te ontwerpen ter bevordering van de verkoop van vakanties.
 - **Digitaal activabeheer**: Organiseer en gebruik beelden en andere media.
@@ -101,6 +104,7 @@ De hulpmiddelen van het Beheer van de inhoud zorgen ervoor dat de teams efficië
 Beslissingsbeheer zorgt ervoor dat personalisatie op schaal werkt door maximale waarde te bieden via intelligente automatisering.
 
 **Zeer belangrijke Componenten**:
+
 - **bibliotheek van de Aanbieding**: Centrale bewaarplaats van marketing aanbiedingen.
    - Voorbeeld: Winkelaanbiedingen zoals &quot;20% korting&quot; of &quot;Gratis verzending&quot; in een gedeelde bibliotheek.
 - **Regels van het Besluit**: logica voor het selecteren van optimale inhoud.
@@ -122,6 +126,7 @@ Beslissingsbeheer zorgt ervoor dat personalisatie op schaal werkt door maximale 
 Reisbeheer zorgt ervoor dat ervaringen zich adaptief en naadloos voelen en individuen begeleiden op basis van hun voorkeuren en acties.
 
 **Zeer belangrijke Componenten**:
+
 - **de ontwerper van de Reis**: Visueel canvas voor het creëren van klantenwegen.
    - Voorbeeld: Ontwerp een reis die een welkome e-mail verzendt wanneer een klant zich aanmeldt.
 - **trekkers van de Reis**: Gebeurtenissen die of reizen vooruit in werking stellen.
@@ -143,6 +148,7 @@ Reisbeheer zorgt ervoor dat ervaringen zich adaptief en naadloos voelen en indiv
 Verbindingen zorgen ervoor dat gegevens AJO effectief binnenkomen en klanten betrouwbaar bereiken via de juiste aanraakpunten.
 
 **Zeer belangrijke Componenten**:
+
 - **de schakelaars van Source**: De gegevens van de invoer in het platform.
    - Voorbeeld: gebruik een connector om aankoopgegevens van een e-commerceplatform te verkrijgen.
 - **configuratie van het Kanaal**: Opstelling en beheer leveringsmechanismen.
@@ -162,6 +168,7 @@ Verbindingen zorgen ervoor dat gegevens AJO effectief binnenkomen en klanten bet
 De hulpmiddelen van het beleid en van de Privacy zorgen ervoor dat de gegevensintegriteit wordt beschermd en al wettelijk en organisatorisch beleid wordt gevolgd.
 
 **Zeer belangrijke Componenten**:
+
 - **Gebruiker en toegangsbeheer**: De toegang en de toestemmingen van de controle.
    - Voorbeeld: specifieke machtigingen toewijzen aan marketing- en IT-teams.
 - **Sandbox configuratie**: Afzonderlijke milieu&#39;s voor ontwikkeling en het testen.

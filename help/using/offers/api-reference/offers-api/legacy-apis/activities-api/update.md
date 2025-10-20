@@ -3,33 +3,33 @@ title: Besluiten bijwerken
 description: Een beslissing bevat de logica die de selectie van een aanbieding informeert.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 63a6b50b-9e42-43c0-87ee-19fcb6ecdd98
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
 
 # Een beslissing bijwerken {#update-decision}
 
-U kunt een beslissing in uw container wijzigen of bijwerken door een PATCH-verzoek in te dienen bij de [!DNL Offer Library] API.
+U kunt een beslissing in uw container wijzigen of bijwerken door een PATCH-aanvraag in te dienen bij de [!DNL Offer Library] API.
 
-Raadpleeg voor meer informatie over JSON Patch, inclusief beschikbare bewerkingen, de officiële [JSON-patchdocumentatie](https://jsonpatch.com/).
+Voor meer informatie over Reparatie JSON, met inbegrip van beschikbare verrichtingen, zie de officiële [ documentatie van het Reparatie JSON ](https://jsonpatch.com/).
 
 ## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
 
-In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* en *Accepteren* velden in de aanvraagkoptekst:
+De volgende lijst toont de geldige waarden die uit *inhoud-Type* bestaan en ** gebieden in de verzoekkopbal goedkeuren:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
 | Accepteren | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Inhoudstype | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
 
-**API-indeling**
+**API formaat**
 
 ```http
 PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
@@ -63,13 +63,13 @@ curl -X PATCH \
 
 | Parameter | Beschrijving |
 | --------- | ----------- |
-| `op` | De verrichtingsvraag die wordt gebruikt om de actie te bepalen nodig om de verbinding bij te werken. Bewerkingen omvatten: `add`, `replace`, en `remove`. |
+| `op` | De verrichtingsvraag die wordt gebruikt om de actie te bepalen nodig om de verbinding bij te werken. Bewerkingen zijn: `add` , `replace` en `remove` . |
 | `path` | Het pad van de parameter die moet worden bijgewerkt. |
 | `value` | De nieuwe waarde waarmee u de parameter wilt bijwerken. |
 
-**Antwoord**
+**Reactie**
 
-Een succesvol antwoord retourneert de bijgewerkte details van het besluit, inclusief de unieke instantie-id en het bijbehorende besluit `@id`.
+Een geslaagde reactie retourneert de bijgewerkte details van de beslissing, inclusief de unieke instantie-id en beslissing `@id` .
 
 ```json
 {

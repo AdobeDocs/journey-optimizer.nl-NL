@@ -3,13 +3,13 @@ title: Samenvoegingsfuncties, bibliotheek
 description: Samenvoegingsfuncties, bibliotheek
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 7%
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ Samenvoegfuncties worden gebruikt om meerdere waarden te groeperen en één same
 
 ## Gemiddelde{#average}
 
-De `average` Deze functie retourneert het rekenkundig gemiddelde van alle geselecteerde waarden binnen de array.
+De functie `average` retourneert het rekenkundig gemiddelde van alle geselecteerde waarden binnen de array.
 
 **Syntaxis**
 
@@ -37,7 +37,7 @@ De volgende bewerking retourneert de gemiddelde prijs van alle orders.
 
 ## Aantal{#count}
 
-De `count` function retourneert het aantal elementen binnen de opgegeven array.
+De functie `count` retourneert het aantal elementen binnen de opgegeven array.
 
 **Syntaxis**
 
@@ -55,7 +55,7 @@ De volgende bewerking retourneert het aantal orders in de array.
 
 ## Maximum{#max}
 
-De `max` functie retourneert de grootste van alle geselecteerde waarden binnen de array.
+De functie `max` retourneert de grootste van alle geselecteerde waarden binnen de array.
 
 **Syntaxis**
 
@@ -73,7 +73,7 @@ De volgende bewerking retourneert de hoogste prijs van alle orders.
 
 ## Minimaal{#min}
 
-De `min` Deze functie retourneert het kleinste van alle geselecteerde waarden binnen de array.
+De functie `min` retourneert het laagste van alle geselecteerde waarden binnen de array.
 
 **Syntaxis**
 
@@ -91,7 +91,7 @@ De volgende bewerking retourneert de laagste prijs van alle orders.
 
 ## Som{#sum}
 
-De `sum` Deze functie retourneert de som van alle geselecteerde waarden binnen de array.
+De functie `sum` retourneert de som van alle geselecteerde waarden binnen de array.
 
 **Syntaxis**
 

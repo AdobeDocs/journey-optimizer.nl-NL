@@ -3,13 +3,13 @@ title: Een verzameling opzoeken
 description: Verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketmaker zijn gedefinieerd, zoals de categorie van de aanbieding.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 723daab2-5590-4c44-acb6-93a77f2e7877
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '106'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 Verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketmaker zijn gedefinieerd, zoals de categorie van de aanbieding.
 
-U kunt specifieke verzamelingen opzoeken door een GET-aanvraag in te dienen bij de [!DNL Offer Library] API die de verzameling bevat `id` in het aanvraagpad.
+U kunt specifieke verzamelingen opzoeken door een GET-aanvraag in te dienen bij de [!DNL Offer Library] API die de verzameling `id` bevat in het aanvraagpad.
 
-**API-indeling**
+**API formaat**
 
 ```http
 GET /{ENDPOINT_PATH}/offer-collections/{ID}
@@ -41,9 +41,9 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-collections/offerColl
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Antwoord**
+**Reactie**
 
-Een succesvolle reactie keert de details van de inzameling met inbegrip van informatie over uw unieke inzameling terug `id`.
+Een geslaagde reactie retourneert de details van de verzameling, inclusief informatie over uw unieke verzameling `id` .
 
 ```json
 {

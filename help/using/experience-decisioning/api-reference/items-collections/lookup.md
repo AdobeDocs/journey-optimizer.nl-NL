@@ -3,19 +3,19 @@ title: Een itemverzameling opzoeken
 description: Verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketmaker zijn gedefinieerd, zoals de categorie van de aanbieding.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
-source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
+exl-id: 60b2990e-e3a6-4d4b-8851-889cf91b0eef
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 1%
 
 ---
 
-
 # Een itemverzameling opzoeken {#lookup-item-collection}
 
-U kunt specifieke puntinzameling omhoog zoeken door een verzoek van de GET aan de Bibliotheek API van de Aanbieding te richten die identiteitskaart in de verzoekweg omvat.
+U kunt specifieke itemverzameling opzoeken door een GET-aanvraag in te dienen bij de API voor de aanbiedingsbibliotheek die de id bevat in het aanvraagpad.
 
 **API formaat**
 

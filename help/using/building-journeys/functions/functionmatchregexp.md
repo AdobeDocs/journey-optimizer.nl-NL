@@ -3,12 +3,12 @@ product: journey optimizer
 title: matchRegExp
 description: Meer informatie over de functie matchRegExp
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: matchRegExp, function, expression, trip
 exl-id: 24cf362c-f390-4bb1-be82-a079bc27fa1f
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 7%
@@ -17,7 +17,7 @@ ht-degree: 7%
 
 # matchRegExp {#matchRegExp}
 
-Retourneert true als de tekenreeks in de eerste parameter overeenkomt met de reguliere expressie in de tweede parameter. Voor meer informatie, zie [&#x200B; deze pagina &#x200B;](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
+Retourneert true als de tekenreeks in de eerste parameter overeenkomt met de reguliere expressie in de tweede parameter. Voor meer informatie, zie [ deze pagina ](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
 
 ## Categorie
 

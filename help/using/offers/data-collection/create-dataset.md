@@ -5,10 +5,10 @@ title: Een gegevensset maken om gebeurtenissen te verzamelen
 description: Leer hoe u een gegevensset maakt om gebeurtenissen te verzamelen
 badge: label="Verouderd" type="Informative"
 feature: Ranking, Decision Management, Datasets
-role: Data Engineer, Developer
+role: Developer
 level: Experienced
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Om ervaringsgebeurtenissen te verzamelen, moet u eerst een dataset tot stand bre
 
 Begin door het schema te creëren dat in uw dataset zal worden gebruikt:
 
-1. Selecteer **[!UICONTROL Schema]** in het menu **[!UICONTROL Data Management]** .
+1. Selecteer **[!UICONTROL Data Management]** in het menu **[!UICONTROL Schema]** .
 
 1. Klik **[!UICONTROL Create schema]**, in het hoogste recht, selecteer **[!UICONTROL Experience Event]** en klik **daarna**.
 
@@ -29,7 +29,7 @@ Begin door het schema te creëren dat in uw dataset zal worden gebruikt:
 
    >[!NOTE]
    >
-   >Leer meer over schema&#39;s XDM en gebiedsgroepen in de [&#x200B; XDM het overzichtsdocumentatie van het Systeem &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
+   >Leer meer over schema&#39;s XDM en gebiedsgroepen in de [ XDM het overzichtsdocumentatie van het Systeem ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
 
 1. Ga een naam en een beschrijving voor uw schema in en klik **Afwerking**.
    ![](../assets/ai-ranking-xdm-event-2.png)
@@ -52,11 +52,11 @@ Begin door het schema te creëren dat in uw dataset zal worden gebruikt:
 
 >[!NOTE]
 >
->Leer meer over het bouwen van schema&#39;s in [&#x200B; Grondbeginselen van schemacompositie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=nl-NL#understanding-schemas){target="_blank"}.
+>Leer meer over het bouwen van schema&#39;s in [ Grondbeginselen van schemacompositie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}.
 
 u bent nu klaar om een dataset tot stand te brengen gebruikend dit schema. Hiervoor voert u de volgende stappen uit:
 
-1. Selecteer **[!UICONTROL Datasets]** in het menu **[!UICONTROL Data Management]** en ga naar de tab **[!UICONTROL Browse]** .
+1. Selecteer **[!UICONTROL Data Management]** in het menu **[!UICONTROL Datasets]** en ga naar de tab **[!UICONTROL Browse]** .
 
 1. Klik op **[!UICONTROL Create dataset]** en selecteer **[!UICONTROL Create dataset from schema]** .
 
@@ -70,4 +70,4 @@ u bent nu klaar om een dataset tot stand te brengen gebruikend dit schema. Hierv
 
 >[!NOTE]
 >
->Deze dataset kan nu worden geselecteerd om gebeurtenisgegevens te verzamelen wanneer [&#x200B; het creëren van een AI model &#x200B;](../ranking/create-ranking-strategies.md).
+>Deze dataset kan nu worden geselecteerd om gebeurtenisgegevens te verzamelen wanneer [ het creëren van een AI model ](../ranking/create-ranking-strategies.md).

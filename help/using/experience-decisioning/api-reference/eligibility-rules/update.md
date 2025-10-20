@@ -3,9 +3,10 @@ title: Subsidiabiliteitsregels bijwerken
 description: Aan de hand van de kwalificatieregels kunt u bepalen welke kandidaten in aanmerking komen op basis van wat u als doel wilt instellen, zoals profielkenmerken en doelgroepen.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
+exl-id: 8d82b4db-2ba8-4692-a63e-9cb3c6c434c3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 1%
@@ -16,7 +17,7 @@ ht-degree: 1%
 
 U kunt een regel wijzigen of bijwerken door een PUT-aanvraag in te dienen bij de bibliotheek-API van het aanbod.
 
-Voor meer informatie over JSON PUT, met inbegrip van beschikbare verrichtingen, zie de officiële [&#x200B; documentatie van JSON PUT &#x200B;](https://jsonpatch.com/).
+Voor meer informatie over JSON PUT, met inbegrip van beschikbare verrichtingen, zie de officiële [ documentatie van JSON PUT ](https://jsonpatch.com/).
 
 **Accepteer en inhoud-Type kopballen**
 

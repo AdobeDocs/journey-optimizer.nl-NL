@@ -3,21 +3,21 @@ title: Een verzamelingskwalificatie opzoeken
 description: Met de verzamelingskwalificatietags kunt u uw voorstellen beter organiseren en sorteren.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: e2d1f093-c1b8-4c4c-a20f-4bd7c2ea5269
-source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '98'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # Een verzamelingskwalificatie opzoeken {#look-up-tag}
 
-U kunt specifieke inzamelingsbepalers (die vroeger als &quot;markeringen&quot;worden bekend) opzoeken door een verzoek van de GET aan de Bibliotheek API van de Aanbieding te richten die inzamelingsbepalings identiteitskaart in de verzoekweg omvat.
+U kunt specifieke inzamelingsbepalers (die vroeger als &quot;markeringen&quot;worden bekend) opzoeken door een GET- verzoek aan de Bibliotheek API van de Aanbieding te doen die inzamelingsbepalings identiteitskaart in de verzoekweg omvat.
 
-**API-indeling**
+**API formaat**
 
 ```http
 GET /{ENDPOINT_PATH}/tags/{ID}
@@ -39,9 +39,9 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Antwoord**
+**Reactie**
 
-Een succesvolle reactie keert de details van de inzamelingsbepaler met inbegrip van informatie over uw containeridentiteitskaart, instantieidentiteitskaart en, unieke inzamelingsbepaler terug `@id`.
+Een geslaagde reactie retourneert de details van de verzamelingskwalificatie, inclusief informatie over de container-id, de instantie-id en de unieke verzamelingskwalificatie `@id` .
 
 ```json
 {

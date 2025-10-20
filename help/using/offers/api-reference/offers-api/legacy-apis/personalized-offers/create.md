@@ -3,10 +3,10 @@ title: Een persoonlijke aanbieding maken
 description: Een gepersonaliseerd aanbod is een aanpasbaar marketingbericht op basis van geschiktheidsregels en -beperkingen.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 234bee17-c830-4bc0-b258-182804df4cb3
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 6%
@@ -17,18 +17,18 @@ ht-degree: 6%
 
 Een gepersonaliseerd aanbod is een aanpasbaar marketingbericht op basis van geschiktheidsregels en -beperkingen.
 
-U kunt een gepersonaliseerde aanbieding tot stand brengen door een verzoek van de POST aan [!DNL Offer Library] API, terwijl het verstrekken van uw container identiteitskaart
+U kunt een gepersonaliseerde aanbieding tot stand brengen door een POST- verzoek aan [!DNL Offer Library] API te doen, terwijl het verstrekken van uw container identiteitskaart
 
 ## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
 
-In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* en *Accepteren* velden in de aanvraagkoptekst:
+De volgende lijst toont de geldige waarden die uit *inhoud-Type* bestaan en ** gebieden in de verzoekkopbal goedkeuren:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
 | Accepteren | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Inhoudstype | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
 
-**API-indeling**
+**API formaat**
 
 ```http
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
@@ -84,9 +84,9 @@ curl -X POST \
 }'
 ```
 
-**Antwoord**
+**Reactie**
 
-Een succesvol antwoord retourneert informatie over de nieuw gemaakte persoonlijke aanbieding, inclusief de unieke instantie-id en plaatsing `@id`. U kunt de instantie-id in latere stappen gebruiken om uw persoonlijke aanbieding bij te werken of te verwijderen.
+Een geslaagde reactie retourneert informatie over de zojuist gemaakte persoonlijke aanbieding, inclusief de unieke instantie-id en plaatsing `@id` . U kunt de instantie-id in latere stappen gebruiken om uw persoonlijke aanbieding bij te werken of te verwijderen.
 
 ```json
 {
@@ -104,4 +104,4 @@ Een succesvol antwoord retourneert informatie over de nieuw gemaakte persoonlijk
 
 ## Beperkingen {#limitations}
 
-Aanbiedingsweergaven en sommige aanbiedingsbeperkingen worden momenteel niet ondersteund voor het mobiele apparaat [!DNL Experience Edge] workflows, bijvoorbeeld `Capping`. De `Capping` veldwaarde geeft het aantal keren aan dat een aanbieding voor alle gebruikers kan worden weergegeven. Zie voor meer informatie [Aanbiedingsregels en documentatie over beperkingen](../../../../offer-library/creating-personalized-offers.md).
+Aanbiedingsweergaven en sommige aanbodbeperkingen worden momenteel niet ondersteund door de mobiele [!DNL Experience Edge] workflows, bijvoorbeeld `Capping` . De veldwaarde `Capping` geeft aan hoe vaak een aanbieding voor alle gebruikers kan worden weergegeven. Voor meer details, zie [ de geschiktheidsregels en beperkingsdocumentatie van de Aanbieding ](../../../../offer-library/creating-personalized-offers.md).

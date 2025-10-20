@@ -3,21 +3,21 @@ title: Een alternatieve aanbieding verwijderen
 description: Aan klanten wordt een fallback-aanbieding gestuurd als zij niet in aanmerking komen voor andere aanbiedingen
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 5e97a1fd-7542-4c9a-8234-21c1fa419671
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 6%
+source-wordcount: '155'
+ht-degree: 5%
 
 ---
 
 # Een alternatieve aanbieding verwijderen {#delete-fallback-offer}
 
-Het kan soms nodig zijn om (DELETE) een fallback-aanbieding te verwijderen. Alleen fallback-aanbiedingen die u in de huurderscontainer maakt, kunnen worden verwijderd. Dit wordt gedaan door een verzoek van de DELETE aan uit te voeren [!DNL Offer Library] API gebruikt $id van de fallback-aanbieding die u wilt verwijderen.
+Het kan soms nodig zijn om (DELETE) een fallback-aanbieding te verwijderen. Alleen fallback-aanbiedingen die u in de huurderscontainer maakt, kunnen worden verwijderd. Dit gebeurt door een DELETE-aanvraag naar de [!DNL Offer Library] API uit te voeren met behulp van $id van de fallback-aanbieding die u wilt verwijderen.
 
-**API-indeling**
+**API formaat**
 
 ```http
 DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
@@ -41,8 +41,8 @@ curl -X DELETE \
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Antwoord**
+**Reactie**
 
 Een geslaagde reactie retourneert HTTP-status 202 (Geen inhoud) en een lege hoofdtekst.
 
-U kunt de schrapping bevestigen door een raadpleging (GET) verzoek aan de reserveaanbieding te proberen. U zult een Accept- kopbal in het verzoek moeten omvatten, maar zou een status 404 van HTTP (niet Gevonden) moeten ontvangen omdat de reserveaanbieding uit de container is verwijderd.
+U kunt de verwijdering bevestigen door een opzoekaanvraag (GET) in te dienen bij het fallback-voorstel. U zult een Accept- kopbal in het verzoek moeten omvatten, maar zou een status 404 van HTTP (niet Gevonden) moeten ontvangen omdat de reserveaanbieding uit de container is verwijderd.

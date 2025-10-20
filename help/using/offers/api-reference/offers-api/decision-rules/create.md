@@ -3,13 +3,13 @@ title: Een beslissingsregel maken
 description: Beslissingsregels zijn beperkingen die aan een gepersonaliseerd aanbod worden toegevoegd en die op een profiel worden toegepast om te bepalen of het in aanmerking komt voor een aanbieding.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
@@ -19,13 +19,13 @@ Beslissingsregels zijn beperkingen die aan een gepersonaliseerd aanbod worden to
 
 ## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
 
-In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* veld in de aanvraagkoptekst:
+De volgende lijst toont de geldige waarden die uit het *inhoud-Type* gebied in de verzoekkopbal bestaan:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
 | Inhoudstype | `application/json` |
 
-**API-indeling**
+**API formaat**
 
 ```http
 POST /{ENDPOINT_PATH}/offer-rules
@@ -66,9 +66,9 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-rules' \
 }'
 ```
 
-**Antwoord**
+**Reactie**
 
-Een succesvolle reactie keert informatie over de pas gecreëerde besluitvormingsregel terug `id`. U kunt de `id` in recentere stappen om uw besluitvormingsregel bij te werken of te schrappen of het in een recentere zelfstudie te gebruiken om besluiten, besluitvormingsregels, en reserveaanbiedingen tot stand te brengen.
+Een geslaagde reactie retourneert informatie over de nieuwe beslissingsregel `id` . U kunt `id` in recentere stappen gebruiken om uw besluitvormingsregel bij te werken of te schrappen of het in een recentere zelfstudie te gebruiken om besluiten, besluitvormingsregels, en reserveaanbiedingen tot stand te brengen.
 
 ```json
 {

@@ -3,10 +3,10 @@ title: Een alternatieve aanbieding maken
 description: Aan klanten wordt een fallback-aanbieding gestuurd als zij niet in aanmerking komen voor andere aanbiedingen
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 1a9c074a-187a-45b1-9ad0-378aeef0d03d
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 7%
@@ -15,18 +15,18 @@ ht-degree: 7%
 
 # Een alternatieve aanbieding maken {#create-fallback-offer}
 
-U kunt een fallback-aanbieding maken door een POST aan de [!DNL Offer Library] API, terwijl het verstrekken van uw container identiteitskaart
+U kunt een fallback-aanbieding maken door een POST-aanvraag in te dienen bij de [!DNL Offer Library] -API en uw container-id op te geven.
 
 ## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
 
-In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* en *Accepteren* velden in de aanvraagkoptekst:
+De volgende lijst toont de geldige waarden die uit *inhoud-Type* bestaan en ** gebieden in de verzoekkopbal goedkeuren:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
 | Accepteren | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Inhoudstype | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |
 
-**API-indeling**
+**API formaat**
 
 ```http
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
@@ -69,9 +69,9 @@ curl -X POST \
 }'
 ```
 
-**Antwoord**
+**Reactie**
 
-Een succesvolle reactie retourneert informatie over de nieuwe fallback-aanbieding, inclusief de unieke instantie-id en -plaatsing `@id`. U kunt de instantie-id in latere stappen gebruiken om uw fallback-aanbieding bij te werken of te verwijderen. Je kunt je unieke fallback-aanbieding gebruiken `@id` in een latere zelfstudie om een beslissing te maken.
+Een geslaagde reactie retourneert informatie over de nieuwe fallback-aanbieding, inclusief de unieke instantie-id en plaatsing `@id` . U kunt de instantie-id in latere stappen gebruiken om uw fallback-aanbieding bij te werken of te verwijderen. U kunt uw unieke fallback-aanbieding `@id` in een latere zelfstudie gebruiken om een beslissing te maken.
 
 
 ```json

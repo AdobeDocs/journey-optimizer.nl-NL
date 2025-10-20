@@ -3,21 +3,21 @@ title: plaatsingen verwijderen
 description: Plaatsingen zijn containers die worden gebruikt om uw voorstellen te tonen.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: ca7af3b0-62cd-44ac-8856-b3d1ec15f284
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 4%
+source-wordcount: '109'
+ht-degree: 3%
 
 ---
 
 # Een plaatsing verwijderen {#delete-placement}
 
-Het kan soms nodig zijn om een plaatsing te verwijderen (DELETE). Dit wordt gedaan door een verzoek van de DELETE aan uit te voeren [!DNL Offer Library] API die identiteitskaart van de plaatsing gebruikt u wenst om te schrappen.
+Soms is het nodig om een plaatsing te verwijderen (DELETE). Dit gebeurt door een DELETE-aanvraag naar de [!DNL Offer Library] API uit te voeren met de id van de plaatsing die u wilt verwijderen.
 
-**API-indeling**
+**API formaat**
 
 ```http
 DELETE /{ENDPOINT_PATH}/placements/{ID}
@@ -39,8 +39,8 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/placements/offerPlacemen
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Antwoord**
+**Reactie**
 
 Een geslaagde reactie retourneert HTTP-status 200 en een lege hoofdtekst.
 
-U kunt de schrapping bevestigen door een raadpleging (GET) verzoek aan de plaatsing te proberen en zou een status 404 van HTTP (niet Gevonden) moeten ontvangen omdat de plaatsing is verwijderd.
+U kunt de verwijdering bevestigen door een opzoekaanvraag (GET) naar de plaatsing te proberen en u moet de HTTP-status 404 (Not Found) ontvangen omdat de plaatsing is verwijderd.

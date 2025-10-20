@@ -3,10 +3,10 @@ title: Een beslissingsregel maken
 description: Beslissingsregels zijn beperkingen die aan een gepersonaliseerd aanbod worden toegevoegd en die op een profiel worden toegepast om te bepalen of het in aanmerking komt voor een aanbieding.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 12c49f4c-a1b5-4841-ab98-663b4c771fb6
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 7%
@@ -19,14 +19,14 @@ Beslissingsregels zijn beperkingen die aan een gepersonaliseerd aanbod worden to
 
 ## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
 
-In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* en *Accepteren* velden in de aanvraagkoptekst:
+De volgende lijst toont de geldige waarden die uit *inhoud-Type* bestaan en ** gebieden in de verzoekkopbal goedkeuren:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
 | Accepteren | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Inhoudstype | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
 
-**API-indeling**
+**API formaat**
 
 ```http
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
@@ -70,9 +70,9 @@ curl -X POST \
 }'
 ```
 
-**Antwoord**
+**Reactie**
 
-Een geslaagde reactie retourneert informatie over de nieuw gemaakte beslissingsregel, inclusief de unieke instantie-id en plaatsing `@id`. U kunt de instantie-id in latere stappen gebruiken om uw beslissingsregel bij te werken of te verwijderen. U kunt uw unieke beslissingsregel gebruiken `@id` in een latere zelfstudie om persoonlijke aanbiedingen te maken.
+Een geslaagde reactie retourneert informatie over de nieuwe beslissingsregel, inclusief de unieke instantie-id en -plaatsing `@id` . U kunt de instantie-id in latere stappen gebruiken om uw beslissingsregel bij te werken of te verwijderen. U kunt uw unieke beslissingsregel `@id` in een latere zelfstudie gebruiken om persoonlijke aanbiedingen te maken.
 
 ```json
 {

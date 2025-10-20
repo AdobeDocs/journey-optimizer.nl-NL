@@ -3,13 +3,13 @@ title: Een persoonlijk aanbod opzoeken
 description: Een gepersonaliseerd aanbod is een aanpasbaar marketingbericht op basis van geschiktheidsregels en -beperkingen.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 2e30b155-688b-432b-a703-d09de12ebdfd
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 Een gepersonaliseerd aanbod is een aanpasbaar marketingbericht op basis van geschiktheidsregels en -beperkingen.
 
-U kunt specifieke gepersonaliseerde aanbiedingen opzoeken door een verzoek van de GET tot de [!DNL Offer Library] API die de gepersonaliseerde aanbiedings-id in het aanvraagpad bevat.
+U kunt specifieke persoonlijke aanbiedingen opzoeken door een GET-aanvraag in te dienen bij de [!DNL Offer Library] API die de persoonlijke aanbiedings-id bevat in het aanvraagpad.
 
-**API-indeling**
+**API formaat**
 
 ```http
 GET /{ENDPOINT_PATH}/offers/{ID}?offer-type=personalized
@@ -41,9 +41,9 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offers/personalizedOffer123
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Antwoord**
+**Reactie**
 
-Een succesvol antwoord retourneert de details van de persoonlijke aanbieding, inclusief informatie over uw unieke persoonlijke aanbieding `id`.
+Een succesvol antwoord geeft de details van de persoonlijke aanbieding terug, inclusief informatie over uw unieke persoonlijke aanbieding `id` .
 
 ```json
 {

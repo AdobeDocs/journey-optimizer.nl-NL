@@ -5,11 +5,11 @@ title: Verbeteringen voor aangepaste acties
 description: Meer informatie over de nieuwste verbeteringen voor aangepaste acties
 feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 3%
@@ -94,7 +94,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. Maak de aangepaste handeling. Zie [deze pagina](../action/about-custom-action-configuration.md).
 
-1. Klik in het dialoogvenster **Antwoord** veld.
+1. Klik binnen het **gebied van de Reactie**.
 
    ![](assets/action-response2.png){width="80%" align="left"}
 
@@ -115,7 +115,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
    ![](assets/action-response9.png){width="80%" align="left"}
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 ## De respons in een reis benutten {#response-in-journey}
 
@@ -127,15 +127,15 @@ U kunt bijvoorbeeld een voorwaarde toevoegen om het aantal loyaliteitspunten te 
 
 1. Voeg uw gebeurtenis en de aangepaste handeling Loyalty toe die u eerder hebt gemaakt.
 
-1. Wijs in de aangepaste actie Loyalty de queryparameter voor de klant-id toe aan de profiel-id. Schakel de optie in **Een alternatief pad toevoegen bij een time-out of fout**.
+1. Wijs in de aangepaste actie Loyalty de queryparameter voor de klant-id toe aan de profiel-id. Controle de optie **voegt een alternatieve weg in het geval van een onderbreking of een fout** toe.
 
    ![](assets/action-response10.png)
 
-1. Voeg in de eerste vertakking een voorwaarde toe en gebruik de geavanceerde editor om de velden voor actierespons te benutten, onder **Context** knooppunt.
+1. In de eerste tak, voeg een voorwaarde toe en gebruik de geavanceerde redacteur aan hefboomwerking de gebieden van de actierespons, onder de **knoop van de Context**.
 
    ![](assets/action-response6.png)
 
-1. Voeg vervolgens uw pushbericht toe en pas uw bericht aan met de responsvelden. In ons voorbeeld, personaliseren wij de inhoud gebruikend het aantal loyaliteitspunten en de klantenstatus. De velden voor actierespons zijn beschikbaar onder **Contextafhankelijke kenmerken** > **Journey Orchestration** > **Handelingen**.
+1. Voeg vervolgens uw pushbericht toe en pas uw bericht aan met de responsvelden. In ons voorbeeld, personaliseren wij de inhoud gebruikend het aantal loyaliteitspunten en de klantenstatus. De gebieden van de actierespons zijn beschikbaar onder **Contextuele attributen** > **Journey Orchestration** > **Acties**.
 
    ![](assets/action-response8.png)
 
@@ -143,8 +143,8 @@ U kunt bijvoorbeeld een voorwaarde toevoegen om het aantal loyaliteitspunten te 
    >
    >Elk profiel dat de douaneactie ingaat zal een vraag teweegbrengen. Zelfs als de reactie altijd het zelfde is, zal de Reizen nog één vraag per profiel uitvoeren.
 
-1. Voeg in de vertakking Time-out en Fout een voorwaarde toe en gebruik de ingebouwde **jo_status_code** veld. In ons voorbeeld gebruiken we de
-   **http_400** fouttype. Zie [deze sectie](#error-status).
+1. In de onderbreking en foutentak, voeg een voorwaarde en hefboomwerking het ingebouwde {**gebied 0} jo_status_code toe.** In ons voorbeeld gebruiken we de
+   **http_400** foutentype. Zie [deze sectie](#error-status).
 
    ```
    @action{ActionLoyalty.jo_status_code} == "http_400"
@@ -158,26 +158,26 @@ U kunt bijvoorbeeld een voorwaarde toevoegen om het aantal loyaliteitspunten te 
 
 ## Logboeken van testmodi {#test-mode-logs}
 
-Via de testmodus hebt u toegang tot statuslogboeken die gerelateerd zijn aan aangepaste actieantwoorden. Als u aangepaste acties hebt gedefinieerd met reacties op uw reis, ziet u een **actionsHistory** sectie op die logboeken die de nuttige lading tonen door het externe eindpunt (als reactie van die douaneactie) is teruggekeerd. Dit kan zeer nuttig in termen van het zuiveren zijn.
+Via de testmodus hebt u toegang tot statuslogboeken die gerelateerd zijn aan aangepaste actieantwoorden. Als u douaneacties met reacties in uw reis hebt bepaald, zult u een **actionsHistory** sectie op die logboeken zien die de nuttige lading tonen door het externe eindpunt (als reactie van die douaneactie) is teruggekeerd. Dit kan zeer nuttig in termen van het zuiveren zijn.
 
 ![](assets/action-response12.png)
 
 ## Foutstatus {#error-status}
 
-De **jo_status_code** veld is altijd beschikbaar, zelfs als er geen antwoordlading is gedefinieerd.
+Het {**gebied 0} jo_status_code is altijd beschikbaar zelfs wanneer geen antwoordlading wordt bepaald.**
 
 Hier volgen de mogelijke waarden voor dit veld:
 
-* http status code: http_`<HTTP API call returned code>`, bijvoorbeeld http_200 of http_400
-* time-outfout: **timedout**
-* Fout bij toewijzen: **afgetopt**
+* http statuscode: http_`<HTTP API call returned code>`, bijvoorbeeld http_200 of http_400
+* timeout fout: **timedout**
+* capping fout: **gemapt**
 * interne fout: **internalError**
 
 Een actieaanroep wordt als fout beschouwd wanneer de geretourneerde http-code groter is dan 2xx of wanneer een fout optreedt. De reis stroomt naar de specifieke onderbreking of foutentak in dergelijke gevallen.
 
 >[!WARNING]
 >
->Alleen nieuw gemaakte aangepaste acties bevatten de **jo_status_code** veld uit de doos. Als u deze wilt gebruiken met een bestaande aangepaste handeling, moet u de handeling bijwerken. U kunt bijvoorbeeld de beschrijving bijwerken en opslaan.
+>Slechts omvatten de pas gecreëerde douaneacties het {**gebied 0} jo_status_code uit-van-de-doos.** Als u deze wilt gebruiken met een bestaande aangepaste handeling, moet u de handeling bijwerken. U kunt bijvoorbeeld de beschrijving bijwerken en opslaan.
 
 ## Expressiesyntaxis {#exp-syntax}
 
@@ -202,7 +202,7 @@ Hier volgen enkele voorbeelden:
  @action{ActionLoyalty.points, defaultValue: @event{myEvent.newPoints}}
 ```
 
-Tijdens het manipuleren van verzamelingen in een aangepaste actierespons kunt u erop vertrouwen `currentActionField` om het huidige item te openen:
+Tijdens het manipuleren van verzamelingen in een aangepaste actie-reactie kunt u erop vertrouwen dat `currentActionField` toegang heeft tot het huidige item:
 
 ```json
 count(
@@ -216,5 +216,5 @@ currentActionField.description == "abc"
 
 Raadpleeg deze pagina’s voor meer informatie:
 
-* [Veldverwijzingen](../building-journeys/expression/field-references.md).
+* [ verwijzingen van het Gebied ](../building-journeys/expression/field-references.md).
 * [Functies voor het beheer van verzamelingen](../building-journeys/expression/collection-management-functions.md)

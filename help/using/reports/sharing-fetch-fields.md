@@ -5,13 +5,13 @@ title: Velden voor het ophalen van gegevens van journeyStep-gebeurtenissen
 description: Velden voor het ophalen van gegevens van journeyStep-gebeurtenissen
 feature: Journeys, Reporting
 topic: Content Management
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 4%
+source-wordcount: '377'
+ht-degree: 3%
 
 ---
 
@@ -34,6 +34,7 @@ Definieert of de fout Ophalen in zich op Adobe Experience Platform of op een aan
 Type: tekenreeks
 
 Waarden:
+
 * aep
 * aangepast
 
@@ -44,10 +45,11 @@ Type fout dat gebeurt wanneer de gegevens worden opgehaald verwerkt.
 Type: tekenreeks
 
 Waarden:
+
 * http
 * begrenzen
 * timedout
-* error
+* fout
 
 ## fetchErrorCode {#fetcherrorcode-field}
 

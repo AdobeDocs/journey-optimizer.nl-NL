@@ -5,11 +5,11 @@ title: Adobe Analytics-integratie
 description: Meer informatie over hoe Adobe Analytics-gegevens in Journey Optimizer kunnen worden gebruikt
 feature: Journeys, Events, Reporting, Integrations
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Intermediate, Experienced
-keywords: analytics, integration, web sdk, platform
+keywords: analyse, integratie, web sdk, platform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: 0be35e14dba32523a7f28aaaa28d41ee693d44ba
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 5%
@@ -30,28 +30,28 @@ Dit werkt alleen met Adobe Analytics als u:
 >
 >Deze sectie is slechts op regel-gebaseerde gebeurtenissen en klanten van toepassing die de gegevens van Adobe Analytics of van het Web SDK moeten gebruiken.
 > 
->Als u Adobe Customer Journey Analytics gebruikt, verwijs naar [&#x200B; deze pagina &#x200B;](../reports/cja-ajo.md).
+>Als u Adobe Customer Journey Analytics gebruikt, verwijs naar [ deze pagina ](../reports/cja-ajo.md).
 >
 
 ## Adobe Analytics- of Web SDK-gegevens configureren {#leverage-analytics-data}
 
-Data coming from Adobe Analytics or Adobe Experience Platform Web SDK need to be enabled to be used in your journeys.
+Gegevens die afkomstig zijn van Adobe Analytics of Adobe Experience Platform Web SDK moeten ingeschakeld kunnen worden voor uw reizen.
 
 Hiervoor voert u de volgende stappen uit:
 
-1. Browse to the **[!UICONTROL Sources]** menu.
+1. Blader naar het menu **[!UICONTROL Sources]** .
 
-1. In the Adobe Analytics section, select **[!UICONTROL Add data]**
+1. Selecteer **[!UICONTROL Add data]** in de sectie Adobe Analytics
 
    ![](assets/ajo-aa_1.png)
 
-1. From the list of available Adobe Analytics report suites, select the **[!UICONTROL Report suite]** to enable. Klik vervolgens op **[!UICONTROL Next]** .
+1. Selecteer in de lijst met beschikbare Adobe Analytics-rapportsuites de **[!UICONTROL Report suite]** die u wilt inschakelen. Klik vervolgens op **[!UICONTROL Next]** .
 
    ![](assets/ajo-aa_2.png)
 
 1. Kies of u een standaardschema of een aangepast schema wilt gebruiken.
 
-1. Kies een **[!UICONTROL Dataflow name]** in het scherm **[!UICONTROL Dataflow detail]** .
+1. Kies een **[!UICONTROL Dataflow detail]** in het scherm **[!UICONTROL Dataflow name]** .
 
 1. Klik op **[!UICONTROL Finish]** als de configuratie is voltooid.
 
@@ -61,7 +61,7 @@ Dit laat de bron van Analytics schakelaar voor die rapportreeks toe. Telkens wan
 
 ![](assets/ajo-aa_4.png)
 
-Learn more about Adobe Analytics source connector in  [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=nl-NL){target="_blank"} and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=nl-NL){target="_blank"}.
+Leer meer over de bronschakelaar van Adobe Analytics in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target="_blank"} en [ leerprogramma ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target="_blank"}.
 
 ## Deze configuratie activeren {#activate-analytics-data}
 
@@ -80,16 +80,16 @@ Zodra deze configuratie is voltooid, neemt u contact op met Adobe om uw Journey 
 
 1. Als u eenmaal hebt bevestigd dat uw omgeving gereed is, kunt u Adobe Analytics-gegevens tijdens uw reis gebruiken.
 
-## Create a journey with an event using Adobe Analytics or Web SDK data {#event-analytics}
+## Een reis maken met Adobe Analytics of Web SDK data {#event-analytics}
 
-You can now create an event based on Adobe Analytics or Adobe Experience Platform Web SDK data to be used in a journey.
+U kunt nu een gebeurtenis maken op basis van Adobe Analytics- of Adobe Experience Platform Web SDK-gegevens die u tijdens een reis wilt gebruiken.
 
-In the example below, learn how to target users who added a product to their carts:
+In het onderstaande voorbeeld leert u hoe u gebruikers die een product aan hun winkelwagentjes hebben toegevoegd, kunt aanspreken:
 
-* If the order is completed, users receive a follow-up email two days later to ask for feedbacks.
-* If the order is not completed, users receive an email to remind them to complete the order.
+* Als de bestelling is voltooid, ontvangen gebruikers twee dagen later een vervolgbericht om feedback te vragen.
+* Als de bestelling niet is voltooid, ontvangen gebruikers een e-mail om hen eraan te herinneren de bestelling te voltooien.
 
-1. From Adobe Journey Optimizer, access the **[!UICONTROL Configuration]** menu.
+1. Open vanuit Adobe Journey Optimizer het menu **[!UICONTROL Configuration]** .
 
 1. Selecteer vervolgens **[!UICONTROL Manage]** op de **[!UICONTROL Events]** -kaart.
 
@@ -97,25 +97,25 @@ In the example below, learn how to target users who added a product to their car
 
 1. Klik op **[!UICONTROL Create event]**. Het deelvenster voor gebeurtenisconfiguratie wordt aan de rechterkant van het scherm geopend.
 
-1. Fill in the **[!UICONTROL Event]** parameters:
+1. Vul de parameters **[!UICONTROL Event]** in:
 
-   * **[!UICONTROL Name]**: Personalize the name of your **[!UICONTROL Event]**.
-   * **[!UICONTROL Type]**: Choose the **[!UICONTROL Unitary]** Type. [Meer informatie](../event/about-events.md)
+   * **[!UICONTROL Name]**: pas de naam van uw **[!UICONTROL Event]** aan.
+   * **[!UICONTROL Type]** : kies het **[!UICONTROL Unitary]** type. [Meer informatie](../event/about-events.md)
    * **[!UICONTROL Event ID type]**: Kies het type **[!UICONTROL Rule based]** gebeurtenis-id. [Meer informatie](../event/about-events.md#event-id-type)
-   * **[!UICONTROL Schema]**: Selecteer Analytics of WebSDK die schema [&#x200B; vóór &#x200B;](#leverage-analytics-data) wordt gecreeerd.
+   * **[!UICONTROL Schema]**: Selecteer Analytics of WebSDK die schema [ vóór ](#leverage-analytics-data) wordt gecreeerd.
    * **[!UICONTROL Fields]**: selecteer de velden Payload. [Meer informatie](../event/about-creating.md#define-the-payload-fields)
    * **[!UICONTROL Event ID condition]**: Bepaal de voorwaarde om de gebeurtenissen te identificeren die uw reis zullen teweegbrengen.
 
-     Here, the Event is triggered when customers add an item to their carts.
-   * **[!UICONTROL Profile Identifier]**: Choose a field from your payload fields, or define a formula, to identify the person associated to the event.
+     Hier wordt de gebeurtenis geactiveerd wanneer klanten een item aan hun winkelwagentjes toevoegen.
+   * **[!UICONTROL Profile Identifier]**: Kies een veld in uw payload-velden of definieer een formule om de persoon te identificeren die aan de gebeurtenis is gekoppeld.
 
    ![](assets/ajo-aa_6.png)
 
-1. When configured, select **[!UICONTROL Save]**.
+1. Selecteer **[!UICONTROL Save]** wanneer dit is geconfigureerd.
 
-Now that the event is ready, create a journey to use it.
+Nu de gebeurtenis klaar is, maak een reis om het te gebruiken.
 
-1. From the **[!UICONTROL Journeys]** menu, open or create a journey. Raadpleeg [deze sectie](../building-journeys/journey-gs.md) voor meer informatie.
+1. Open of maak een rit vanuit het menu **[!UICONTROL Journeys]** . Raadpleeg [deze sectie](../building-journeys/journey-gs.md) voor meer informatie.
 
 1. Voeg uw eerder gevormde gebeurtenis van Analytics aan uw reis toe.
 
@@ -127,9 +127,9 @@ Now that the event is ready, create a journey to use it.
 
    ![](assets/ajo-aa_9.png)
 
-1. Voeg een handeling **[!UICONTROL Email]** toe vanaf het time-outpad. This path will be used to send an email to customers who didn&#39;t complete an order to remind them that their carts are still available.
+1. Voeg een handeling **[!UICONTROL Email]** toe vanaf het time-outpad. Dit pad wordt gebruikt om een e-mail te sturen naar klanten die geen bestelling hebben voltooid om hen eraan te herinneren dat hun winkelwagentjes nog steeds beschikbaar zijn.
 
-1. Add a **[!UICONTROL Wait]** activity after your main path and set it to the needed duration.
+1. Voeg een **[!UICONTROL Wait]** activiteit na uw belangrijkste weg toe en plaats het aan de gewenste duur.
 
    ![](assets/ajo-aa_10.png)
 

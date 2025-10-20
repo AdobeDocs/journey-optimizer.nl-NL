@@ -3,12 +3,12 @@ title: Verzamelingen weergeven
 description: Verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketmaker zijn gedefinieerd, zoals de categorie van de aanbieding.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: ce39d77d-6d81-48d7-9e73-e1d537874018
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '271'
 ht-degree: 2%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 2%
 
 Verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketmaker zijn gedefinieerd, zoals de categorie van de aanbieding.
 
-U kunt een lijst van alle inzamelingen binnen een container bekijken door één enkel verzoek van de GET aan uit te voeren [!DNL Offer Library] API.
+U kunt een lijst met alle verzamelingen in een container weergeven door één GET-aanvraag uit te voeren voor de [!DNL Offer Library] API.
 
-**API-indeling**
+**API formaat**
 
 ```http
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{QUERY_PARAMS}
@@ -30,7 +30,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 | `{ENDPOINT_PATH}` | Het eindpuntpad voor gegevensopslagruimte-API&#39;s. | `https://platform.adobe.io/data/core/xcore/` |
 | `{QUERY_PARAMS}` | Optionele queryparameters om resultaten te filteren op. | `limit=2` |
 | `{CONTAINER_ID}` | De container waarin de verzamelingen zich bevinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_FILTER}` | Bepaalt het schema verbonden aan inzamelingen. <https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1> |
+| `{SCHEMA_FILTER}` | Bepaalt het schema verbonden aan inzamelingen. <https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1> |  |
 | `{QUERY_PARAMS}` | Optionele queryparameters om resultaten te filteren op. | `limit=1` |
 
 **Verzoek**
@@ -55,13 +55,13 @@ De gemeenschappelijkste vraagparameters voor het pagineren omvatten:
 
 | Parameter | Beschrijving | Voorbeeld |
 | --------- | ----------- | ------- |
-| `q` | Een optionele queryreeks die u wilt zoeken in geselecteerde velden. De querytekenreeks moet in kleine letters worden geschreven en kan worden omgeven door dubbele aanhalingstekens om te voorkomen dat deze wordt verdeeld en om speciale tekens te vermijden. De tekens `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` hebben een speciale betekenis en moeten met een backslash worden beschermd wanneer deze in de queryreeks wordt weergegeven. | `demo collection` |
+| `q` | Een optionele queryreeks die u wilt zoeken in geselecteerde velden. De querytekenreeks moet in kleine letters worden geschreven en kan worden omgeven door dubbele aanhalingstekens om te voorkomen dat deze wordt verdeeld en om speciale tekens te vermijden. De tekens `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` hebben een speciale betekenis en moeten met een backslash worden beschermd wanneer deze in de queryreeks worden weergegeven. | `demo collection` |
 | `qop` | Past EN of OF exploitant op waarden in q vraagkoordparam toe. | `AND` / `OR` |
-| `field` | Optionele lijst met velden waarop u wilt zoeken. Deze param kan als zo worden herhaald: field=field1[,field=field2,...] en (padexpressies hebben de vorm van door punten gescheiden paden, zoals _instance.xdm:name) | `_instance.xdm:name` |
-| `orderBy` | Resultaten sorteren op een bepaalde eigenschap. Een `-` vóór titel (`orderby=-title`) sorteert objecten op titel in aflopende volgorde (Z-A). | `-repo:createdDate` |
+| `field` | Optionele lijst met velden waarop u wilt zoeken. Deze param kan als zo worden herhaald: field=field1 [, field=field2,... ] en (de weguitdrukkingen zijn in de vorm van punt gescheiden wegen zoals _instance.xdm :name) | `_instance.xdm:name` |
+| `orderBy` | Resultaten sorteren op een bepaalde eigenschap. Als u een `-` vóór titel (`orderby=-title` ) toevoegt, worden items op titel gesorteerd in aflopende volgorde (Z-A). | `-repo:createdDate` |
 | `limit` | Beperk het aantal geretourneerde verzamelingen. | `limit=5` |
 
-**Antwoord**
+**Reactie**
 
 Een succesvolle reactie keert een lijst van inzamelingen terug die binnen de container aanwezig zijn u toegang tot hebt.
 

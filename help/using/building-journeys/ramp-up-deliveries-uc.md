@@ -5,14 +5,14 @@ title: Een overzicht van uw leveringen maken
 description: Leer hoe u uw leveringen kunt opvoeren
 feature: Journeys, Use Cases, IP Warmup Plans
 topic: Content Management
-role: User, Data Engineer
+role: User, Developer
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 keywords: leverbaarheid, transport, gebruiksscenario, e-mail, reputatie
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 2%
@@ -21,9 +21,9 @@ ht-degree: 2%
 
 # Gebruik hoofdletters/kleine letters: maak uw leveringen groter{#use-case-ramp-up-your-deliveries}
 
-Als u onlangs naar een andere e-maildienstverlener, IP adres, of e-maildomein of subdomain bent verplaatst, moet u uw reputatie als afzender vestigen. Anders, zouden uw leveringen kunnen worden geblokkeerd of aan de spamomslag van de brievenbus van ontvangers worden verplaatst. Leer hoe te om uw e-mailreputatie met IP opwarmen in de [&#x200B; Gids van de Beste praktijken van de Levering te verhogen &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=nl-NL){target="_blank"}.
+Als u onlangs naar een andere e-maildienstverlener, IP adres, of e-maildomein of subdomain bent verplaatst, moet u uw reputatie als afzender vestigen. Anders, zouden uw leveringen kunnen worden geblokkeerd of aan de spamomslag van de brievenbus van ontvangers worden verplaatst. Leer hoe te om uw e-mailreputatie met IP opwarmen in de [ Gids van de Beste praktijken van de Levering te verhogen ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html){target="_blank"}.
 
-Om uw IP op te warmen, kunt u geleidelijk het aantal van uw leveringen opvoeren. Lees meer over [&#x200B; optimaliserend leverbaarheid in Journey Optimizer &#x200B;](../reports/deliverability.md).
+Om uw IP op te warmen, kunt u geleidelijk het aantal van uw leveringen opvoeren. Lees meer over [ optimaliserend leverbaarheid in Journey Optimizer ](../reports/deliverability.md).
 
 Het doel van deze gebruikszaak is een reis te maken om uw e-mailleveringen op te voeren. Om deze reis te vormen, volg deze stappen:
 

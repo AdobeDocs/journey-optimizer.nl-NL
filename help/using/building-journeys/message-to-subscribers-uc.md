@@ -5,12 +5,12 @@ title: Een bericht verzenden naar abonnees
 description: Leer hoe u een reis bouwt om een bericht naar de abonnees van een lijst te verzenden
 feature: Journeys, Use Cases, Subscriptions
 topic: Content Management
-role: User, Data Engineer
+role: User, Developer
 level: Intermediate, Experienced
 keywords: reis, gebruiksgeval, bericht, abonnees, lijst, gelezen
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 2%
@@ -23,7 +23,7 @@ Het doel van dit gebruiksgeval is een reis tot stand te brengen om een bericht n
 
 In dit voorbeeld wordt de veldgroep **[!UICONTROL Consent and Preference Details]** van [!DNL Adobe Experience Platform] gebruikt. Kies **[!UICONTROL Data Management]** in het menu **[!UICONTROL Schemas]** om deze veldgroep te zoeken. Typ op het tabblad **[!UICONTROL Field groups]** de naam van de veldgroep in het zoekveld.
 
-![&#x200B; Deze gebiedsgroep omvat het abonnementselement &#x200B;](assets/consent-and-preference-details-field-group.png)
+![ Deze gebiedsgroep omvat het abonnementselement ](assets/consent-and-preference-details-field-group.png)
 
 Om deze reis te vormen, volg deze stappen:
 
@@ -52,7 +52,7 @@ Om deze reis te vormen, volg deze stappen:
 
       In dit voorbeeld heeft de abonnementenlijst de naam `daily-email` . E-mailadressen worden gedefinieerd als sleutels in de `subscribers` -kaart, die is gekoppeld aan de abonnementenlijstkaart.
 
-      Lees meer over [&#x200B; verwijzingen naar gebieden &#x200B;](expression/field-references.md) in uitdrukkingen.
+      Lees meer over [ verwijzingen naar gebieden ](expression/field-references.md) in uitdrukkingen.
 
       ![](assets/message-to-subscribers-uc-2.png)
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 0%
@@ -31,9 +31,9 @@ Volg onderstaande stappen om een webkanaalconfiguratie te maken.
    >
    > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook onderstrepingsteken `_` -, punt `.` - en afbreekstreepjes `-` gebruiken.
 
-1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [&#x200B; leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) &#x200B;](../administration/object-based-access.md)
+1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md)
 
-1. Selecteer het **kanaal 0&rbrace; van het Web &lbrace;.**
+1. Selecteer het **kanaal 0} van het Web {.**
 
    ![](assets/web_config_2.png)
 
@@ -61,17 +61,17 @@ U kunt deze configuratie nu selecteren wanneer het gebruiken van het Kanaal van 
 >title="Een URL definiëren voor het ontwerpen en voorvertonen van inhoud"
 >abstract="Met dit veld zorgt u ervoor dat de pagina&#39;s die door de regel worden gegenereerd of waaraan de regel is gekoppeld, een opgegeven URL hebben die essentieel is voor een effectieve weergave van inhoud en voor een voorvertoning."
 
-Wanneer het creëren van een Web of [&#x200B; code-gebaseerde ervaring &#x200B;](../code-based/get-started-code-based.md) configuratie, kunt u a **[!UICONTROL Pages matching rule]** bouwen om veelvoudige URLs te richten die de zelfde regel aanpassen. U kunt daarom dezelfde inhoudswijzigingen op meerdere pagina&#39;s tegelijk toepassen.
+Wanneer het creëren van een Web of [ code-gebaseerde ervaring ](../code-based/get-started-code-based.md) configuratie, kunt u a **[!UICONTROL Pages matching rule]** bouwen om veelvoudige URLs te richten die de zelfde regel aanpassen. U kunt daarom dezelfde inhoudswijzigingen op meerdere pagina&#39;s tegelijk toepassen.
 
 U kunt bijvoorbeeld de wijzigingen toepassen op een hoofdbanner op een hele website of een bovenste afbeelding toevoegen die op alle productpagina&#39;s van een website wordt weergegeven.
 
-1. Wanneer het vormen van uw [&#x200B; Web &#x200B;](#web-configuration) of [&#x200B; code-gebaseerde ervaring &#x200B;](../code-based/code-based-configuration.md), selecteer **[!UICONTROL Pages matching rule]**.
+1. Wanneer het vormen van uw [ Web ](#web-configuration) of [ code-gebaseerde ervaring ](../code-based/code-based-configuration.md), selecteer **[!UICONTROL Pages matching rule]**.
 
 1. Definieer de criteria voor de velden **[!UICONTROL Domain]** en **[!UICONTROL Page]** .
 
    >[!NOTE]
    >
-   >Controleer de beschikbare exploitanten in [&#x200B; deze sectie &#x200B;](#available-operators).
+   >Controleer de beschikbare exploitanten in [ deze sectie ](#available-operators).
 
    Als u bijvoorbeeld elementen wilt bewerken die op alle pagina&#39;s met vrouwenproducten van uw Luma-website worden weergegeven, selecteert u **[!UICONTROL Domain]** > **[!UICONTROL Starts with]** > `luma` en **[!UICONTROL Page]** > **[!UICONTROL Contains]** > `women` .
 
@@ -93,17 +93,17 @@ U kunt bijvoorbeeld de wijzigingen toepassen op een hoofdbanner op een hele webs
 
 ### Beschikbare operatoren voor het samenstellen van regels voor paginaovereenkomsten {#available-operators}
 
-Wanneer het creëren van a [&#x200B; regel die veelvoudige pagina&#39;s &#x200B;](#web-page-matching-rule) aanpast, kunt u verschillende exploitanten op **[!UICONTROL Domain]** en op de **[!UICONTROL Path]** secties gebruiken om uw gewenste regel te bouwen. De beschikbare operatoren worden hieronder weergegeven.
+Wanneer het creëren van a [ regel die veelvoudige pagina&#39;s ](#web-page-matching-rule) aanpast, kunt u verschillende exploitanten op **[!UICONTROL Domain]** en op de **[!UICONTROL Path]** secties gebruiken om uw gewenste regel te bouwen. De beschikbare operatoren worden hieronder weergegeven.
 
 * **Domein**
 
   | Operator  | Beschrijving  | Voorbeelden  |
   |---|---|---|
-  | Gelijk  | Exacte overeenkomst van het domein.  |
+  | Gelijk  | Exacte overeenkomst van het domein.  | |
   | Begint met  | Komt overeen met alle domeinen (inclusief subdomeinen) die beginnen met de ingevoerde tekenreeks.  | Voorbeeld: &quot;Begint met: dev&quot; -> komt overeen met alle domeinen en subdomeinen die beginnen met &quot;dev&quot;, zoals: dev.example.com, dev.products.example.com, developer.example.com  |
   | Eindigt met  | Komt overeen met alle domeinen (inclusief subdomeinen) die eindigen met de ingevoerde tekenreeks.  | Voorbeeld: &quot;Eindigt met: example.com&quot; -> komt overeen met alle domeinen en subdomeinen die eindigen met &quot;example.com&quot;, zoals: stage.example.com, prod.example.com, myexample.com  |
   | Overeenkomende jokertekens  | Met de operator voor jokertekenovereenkomsten kan de gebruiker een jokertekenovereenkomst definiëren in het midden van de tekenreeks, zoals &quot;dev.*.example.com&quot;. De validatieregels bepalen dat de waarde één en slechts één jokerteken (sterretje) moet bevatten wanneer de operator &quot;jokertekenovereenkomst&quot; is.  | Voorbeeld: &quot;Jokertekentekoppeling: dev.*.example.com&quot; -> komt overeen met domeinen als: dev.products.example.com, dev.mytest.products.example.com, dev.blog.example.com  |
-  | Alle  | Komt overeen met alle domeinen - nuttig bij het testen van een bepaald pad over domeinen  |
+  | Alle  | Komt overeen met alle domeinen - nuttig bij het testen van een bepaald pad over domeinen  |  |
 
 
 * **Weg**

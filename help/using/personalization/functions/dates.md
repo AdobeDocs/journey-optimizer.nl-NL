@@ -3,10 +3,10 @@ title: Date Time-functiebibliotheek
 description: Date Time-functiebibliotheek
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1034'
 ht-degree: 3%
@@ -410,7 +410,7 @@ Waar de eerste tekenreeks het datumkenmerk is en de tweede waarde hoe u de datum
 >
 > Als een datumpatroon ongeldig is, wordt de datum teruggezet naar de ISO-standaardindeling.
 >
-> U kunt de datum die functies gebruiken Java zoals samengevat in [&#x200B; documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> U kunt de datum die functies gebruiken Java zoals samengevat in [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **Voorbeeld**
 
@@ -436,9 +436,9 @@ Waar de eerste tekenreeks het datumkenmerk is, is de tweede waarde hoe u de datu
 >
 > Als een datumpatroon ongeldig is, wordt de datum teruggezet naar de ISO-standaardindeling.
 >
-> U kunt de datum het formatteren functies van Java zoals samengevat in [&#x200B; documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html) gebruiken.
+> U kunt de datum het formatteren functies van Java zoals samengevat in [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html) gebruiken.
 >
-> U kunt het formatteren en geldige scènes gebruiken zoals samengevat in [&#x200B; documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) en [&#x200B; Gesteunde scènes &#x200B;](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+> U kunt het formatteren en geldige scènes gebruiken zoals samengevat in [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) en [ Gesteunde scènes ](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
 
 **Voorbeeld**
 

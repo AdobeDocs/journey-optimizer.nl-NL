@@ -5,12 +5,12 @@ title: Een bericht verzenden met Campagne v7/v8
 description: Leer hoe u een bericht verzendt met Campagne v7/v8
 feature: Journeys, Integrations, Custom Actions, Use Cases
 topic: Administration
-role: Admin, Data Engineer, User
+role: Admin, Developer, User
 level: Intermediate, Experienced
 keywords: reis, boodschap, campagne, integratie
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Maak eerst een transactionele e-mailsjabloon in Campagne. Maak vervolgens in Jou
 Raadpleeg de volgende pagina&#39;s voor meer informatie over de integratie van campagnes:
 
 * [Campagne maken](../action/acc-action.md)
-* [&#x200B; Gebruikend de actie in een reis &#x200B;](../building-journeys/using-adobe-campaign-v7-v8.md).
+* [ Gebruikend de actie in een reis ](../building-journeys/using-adobe-campaign-v7-v8.md).
 
 **Adobe Campaign**
 

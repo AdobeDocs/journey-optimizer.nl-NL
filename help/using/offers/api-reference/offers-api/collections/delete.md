@@ -3,21 +3,21 @@ title: Een verzameling verwijderen
 description: Verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketmaker zijn gedefinieerd, zoals de categorie van de aanbieding.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 2eaa0092-2436-4679-83f1-7530ab4a858f
-source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
 # Een verzameling verwijderen {#delete-collection}
 
-Het kan soms nodig zijn een verzameling te verwijderen (DELETE). Dit wordt gedaan door een verzoek van de DELETE aan uit te voeren [!DNL Offer Library] API die de `id` van de verzameling die u wilt verwijderen.
+Het kan soms nodig zijn om (DELETE) een collectie te verwijderen. Dit gebeurt door een DELETE-aanvraag naar de [!DNL Offer Library] API uit te voeren met behulp van `id` van de verzameling die u wilt verwijderen.
 
-**API-indeling**
+**API formaat**
 
 ```http
 DELETE /{ENDPOINT_PATH}/offer-collections/{ID}
@@ -39,8 +39,8 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-collections/offerC
 -H 'x-sandbox-name: {SANDBOX_NAME}' 
 ```
 
-**Antwoord**
+**Reactie**
 
 Een geslaagde reactie retourneert HTTP-status 200 en een lege hoofdtekst.
 
-U kunt de schrapping bevestigen door een raadpleging (GET) verzoek aan de inzameling te proberen. U zou een status 404 van HTTP (niet Gevonden) moeten ontvangen omdat de inzameling is verwijderd.
+U kunt de verwijdering bevestigen door een opzoekverzoek (GET) in te dienen bij de verzameling. U zou een status 404 van HTTP (niet Gevonden) moeten ontvangen omdat de inzameling is verwijderd.

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: subdomein, PTR, records, DNS, domein, post
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Met PTR verslagen, kunnen het ontvangen van postservers de authenticiteit van he
 
 ## De PTR-records van uw subdomeinen openen {#access-ptr-records}
 
-Zodra u [&#x200B; afgevaardigde &#x200B;](delegate-subdomain.md) uw eerste subdomain aan Adobe in [!DNL Journey Optimizer], PTR- verslagen automatisch voor uw IPs wordt gecreeerd. U kunt ze openen via het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email settings]** > **[!UICONTROL PTR records]** .
+Zodra u [ afgevaardigde ](delegate-subdomain.md) uw eerste subdomain aan Adobe in [!DNL Journey Optimizer], PTR- verslagen automatisch voor uw IPs wordt gecreeerd. U kunt ze openen via het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email settings]** > **[!UICONTROL PTR records]** .
 
 ![](assets/ptr-records.png)
 
@@ -50,7 +50,7 @@ U kunt een PTR-record in de lijst openen om de bijbehorende subdomeinnaam en het
 
 ## Een PTR-record bewerken {#edit-ptr-record}
 
-In [!DNL Journey Optimizer] kunt u niet handmatig PTR-records maken. In plaats daarvan, zodra u [&#x200B; afgevaardigde &#x200B;](delegate-subdomain.md) uw eerste subdomain aan Adobe, PTR- verslagen automatisch voor uw IPs wordt gecreeerd.
+In [!DNL Journey Optimizer] kunt u niet handmatig PTR-records maken. In plaats daarvan, zodra u [ afgevaardigde ](delegate-subdomain.md) uw eerste subdomain aan Adobe, PTR- verslagen automatisch voor uw IPs wordt gecreeerd.
 
 Elk van uw IPs ontvangt één enkel PTR verslag. Alle PTR-records hebben de volgende indeling: &#39;rxx.subdomain&#39;, waarbij &#39;subdomain&#39; het eerste subdomein is dat u hebt gedelegeerd in [!DNL Journey Optimizer] .
 
@@ -64,13 +64,13 @@ Wanneer u extra subdomeinen creeert, moet u één of meerdere PTR verslagen wijz
 
 ### Volledig gedelegeerde subdomeinen {#fully-delegated-subdomains}
 
-Om een PTR- verslag met subdomain uit te geven die [&#x200B; volledig &#x200B;](delegate-subdomain.md#full-subdomain-delegation) aan Adobe wordt gedelegeerd, volg de hieronder stappen.
+Om een PTR- verslag met subdomain uit te geven die [ volledig ](delegate-subdomain.md#full-subdomain-delegation) aan Adobe wordt gedelegeerd, volg de hieronder stappen.
 
 1. Klik in de lijst op de naam van een PTR-record om deze te openen.
 
    ![](assets/ptr-record-select.png)
 
-1. Selecteer volledig subdomain [&#128279;](delegate-subdomain.md#full-subdomain-delegation) aan Adobe van de lijst wordt gedelegeerd.
+1. Selecteer volledig subdomain [ ](delegate-subdomain.md#full-subdomain-delegation) aan Adobe van de lijst wordt gedelegeerd.
 
    ![](assets/ptr-record-subdomain.png)
 
@@ -82,13 +82,13 @@ Om een PTR- verslag met subdomain uit te geven die [&#x200B; volledig &#x200B;](
 
 ### Gedelegeerde subdomeinen die de methode CNAME gebruiken {#edit-ptr-subdomains-cname}
 
-Om een PTR- verslag met subdomain uit te geven dat aan Adobe gebruikend de [&#x200B; methode van de NAAM &#x200B;](delegate-subdomain.md#cname-subdomain-setup) wordt afgevaardigd, volg hieronder de stappen.
+Om een PTR- verslag met subdomain uit te geven dat aan Adobe gebruikend de [ methode van de NAAM ](delegate-subdomain.md#cname-subdomain-setup) wordt afgevaardigd, volg hieronder de stappen.
 
 1. Klik in de lijst op de naam van een PTR-record om deze te openen.
 
    ![](assets/ptr-record-select.png)
 
-1. Selecteer subdomain die aan Adobe wordt gedelegeerd gebruikend de [&#x200B; methode van de NAAM &#x200B;](delegate-subdomain.md#cname-subdomain-setup) van de lijst.
+1. Selecteer subdomain die aan Adobe wordt gedelegeerd gebruikend de [ methode van de NAAM ](delegate-subdomain.md#cname-subdomain-setup) van de lijst.
 
    ![](assets/ptr-record-subdomain-cname.png)
 
@@ -116,9 +116,9 @@ Nadat u de PTR-recordbewerking hebt bevestigd, wordt het pictogram **[!UICONTROL
 
 >[!NOTE]
 >
->De [&#x200B; updateverwerking &#x200B;](#processing) kan tot 3 uren vergen.
+>De [ updateverwerking ](#processing) kan tot 3 uren vergen.
 
-Als u de details van de PTR-recordupdate wilt controleren, klikt u op het pictogram ernaast. Leer meer over de statussen verbonden aan de verschillende pictogrammen in [&#x200B; deze sectie &#x200B;](#ptr-record-update-statuses).
+Als u de details van de PTR-recordupdate wilt controleren, klikt u op het pictogram ernaast. Leer meer over de statussen verbonden aan de verschillende pictogrammen in [ deze sectie ](#ptr-record-update-statuses).
 
 ![](assets/ptr-record-recent-update.png)
 
@@ -153,6 +153,7 @@ Wanneer het validatieproces is voltooid, wordt het nieuwe subdomein automatisch 
 Als het validatieproces mislukt, wordt de oudere PTR-record weergegeven. Het geldige subdomein dat eerder aan het IP adres werd geassocieerd blijft onveranderd.
 
 De mogelijke updatefouten zijn als volgt:
+
 * Fout bij het maken van een nieuwe, voorwaartse DNS voor de PTR-record
 * Kan de record niet bijwerken
 * Niet opnieuw aan boord gaan van de affinities

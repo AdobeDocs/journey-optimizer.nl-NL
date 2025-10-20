@@ -3,10 +3,10 @@ title: Aan de slag met API's voor levering van aanbiedingen
 description: Meer informatie over de beschikbare API's voor het aanbieden van persoonlijke aanbiedingen.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -20,6 +20,7 @@ U kunt aanbiedingen leveren gebruikend of **Beslissing** of **Edge Beslissing** 
 In deze pagina, zult u informatie over specifieke functionaliteit vinden die met **Beslissing** en **Edge Decisioning** APIs beschikbaar is. Terwijl beide u toestaan om aanbiedingen aan uw klanten te leveren, adviseren wij het gebruiken van **Edge Decisioning** API wanneer mogelijk voor binnenkomende gebruiksgevallen en om betere latentie en productie op uw platform te verzekeren.
 
 Raadpleeg de volgende secties voor meer informatie over het werken met de API&#39;s:
+
 * [API voor besluitvorming](decisioning-api.md)
 * [Edge-API voor besluitvorming](edge-decisioning-api.md)
 * [Batchbeslissing-API](batch-decisioning-api.md)
@@ -44,7 +45,7 @@ Wanneer contextgegevens worden doorgegeven met een Edge-API-aanvraag voor beslui
 
 **de Teller update van de het afschilderen van de Frequentie**
 
-Als voor sommige van uw aanbiedingen de functie voor het toewijzen van frequenties is ingeschakeld om te bepalen hoe vaak het aantal bijschriften wordt teruggezet, wordt de teller binnen 3 seconden bijgewerkt en beschikbaar in een Edge-beslissing voor de API voor besluitvorming. [&#x200B; Leer hoe te om beperkingen aan een aanbieding toe te voegen &#x200B;](../../offer-library/add-constraints.md)
+Als voor sommige van uw aanbiedingen de functie voor het toewijzen van frequenties is ingeschakeld om te bepalen hoe vaak het aantal bijschriften wordt teruggezet, wordt de teller binnen 3 seconden bijgewerkt en beschikbaar in een Edge-beslissing voor de API voor besluitvorming. [ Leer hoe te om beperkingen aan een aanbieding toe te voegen ](../../offer-library/add-constraints.md)
 
 ## API-mogelijkheden voor besluitvorming {#decisioning}
 

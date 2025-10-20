@@ -5,10 +5,10 @@ title: journaalgebeurtenissen - gemeenschappelijke velden
 description: journaalgebeurtenissen - gemeenschappelijke velden
 feature: Journeys, Reporting
 topic: Content Management
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: 0bf1636f527aeefe8ce54ee97389fe8658e716f0
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%
@@ -21,12 +21,12 @@ Deze gebiedsgroep zal door de volgende gebeurtenissen worden gedeeld: **tripStep
 
 Dit zijn de algemene XDM-velden die [!DNL Journey Optimizer] naar Adobe Experience Platform verzendt. Voor elke stap die op reis wordt verwerkt, worden gemeenschappelijke velden verzonden. Voor aangepaste handelingen en verbeteringen worden specifiekere velden gebruikt.
 
-Sommige van deze velden zijn alleen beschikbaar in specifieke verwerkingspatronen (uitvoering van handelingen, ophalen van gegevens, enz.) om de omvang van gebeurtenissen te beperken.
+Sommige van deze velden zijn alleen beschikbaar in specifieke verwerkingspatronen (het uitvoeren van handelingen, het ophalen van gegevens, enz.) om de grootte van gebeurtenissen te beperken.
 
 
 >[!NOTE]
 >
->Leer meer over de attributen van de reiseigenschappen [&#x200B; in deze sectie &#x200B;](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+>Leer meer over de attributen van de reiseigenschappen [ in deze sectie ](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
 
 
 ## ingang {#entrance-field}

@@ -3,23 +3,23 @@ title: Functiebibliotheek met kaarten
 description: Functiebibliotheek met kaarten
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: de6a8da2-55cf-4105-ba93-40c556732626
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 5%
+ht-degree: 2%
 
 ---
 
 # Functies toewijzen{#maps}
 
-Gebruik de functies Kaart in verpersoonlijking om interactie met kaarten gemakkelijker te maken.
+Gebruik de functies Kaart in personalisatie om interactie met kaarten gemakkelijker te maken.
 
 ## Get{#get}
 
-De `get` wordt gebruikt om de waarde van een kaart voor een bepaalde sleutel terug te winnen.
+De functie `get` wordt gebruikt om de waarde van een kaart voor een bepaalde sleutel terug te winnen.
 
 **Syntaxis**
 
@@ -29,7 +29,7 @@ De `get` wordt gebruikt om de waarde van een kaart voor een bepaalde sleutel ter
 
 **Voorbeeld**
 
-Met de volgende bewerking wordt de waarde van het identiteitsoverzicht voor de sleutel opgehaald `example@example.com`.
+Met de volgende bewerking wordt de waarde van de identiteitskaart voor de sleutel `example@example.com` opgehaald.
 
 ```sql
 {%= get(identityMap,"example@example.com") %}
@@ -37,7 +37,7 @@ Met de volgende bewerking wordt de waarde van het identiteitsoverzicht voor de s
 
 ## Toetsen{#keys}
 
-De `keys` wordt gebruikt om alle sleutels voor een bepaalde kaart terug te winnen.
+De functie `keys` wordt gebruikt om alle sleutels voor een bepaalde kaart terug te winnen.
 
 **Syntaxis**
 
@@ -47,7 +47,7 @@ De `keys` wordt gebruikt om alle sleutels voor een bepaalde kaart terug te winne
 
 **Voorbeeld**
 
-Met de volgende bewerking worden alle toetsen voor de kaart opgehaald `identityMap`.
+Met de volgende bewerking worden alle toetsen voor de kaart `identityMap` opgehaald.
 
 ```sql
 {%= keys(identityMap) %}
@@ -55,7 +55,7 @@ Met de volgende bewerking worden alle toetsen voor de kaart opgehaald `identityM
 
 ## Waarden{#values}
 
-De `values` wordt gebruikt om alle waarden van een bepaalde kaart op te halen.
+De functie `values` wordt gebruikt om alle waarden van een bepaalde kaart op te halen.
 
 **Syntaxis**
 
@@ -65,7 +65,7 @@ De `values` wordt gebruikt om alle waarden van een bepaalde kaart op te halen.
 
 **Voorbeeld**
 
-Met de volgende bewerking worden alle waarden voor de kaart opgehaald `identityMap`.
+Met de volgende bewerking worden alle waarden voor de kaart `identityMap` opgehaald.
 
 ```sql
 {%= values(identityMap) %}

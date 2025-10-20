@@ -3,10 +3,10 @@ title: String-functies, bibliotheek
 description: String-functies, bibliotheek
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 1f16b095b3b063f3fb881aee0b2a928644e19143
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1859'
 ht-degree: 3%
@@ -498,7 +498,7 @@ Deze functie converteert de voornaam van het profiel naar kleine letters.
 
 ## Overeenkomsten{#matches}
 
-De functie `matches` wordt gebruikt om te bepalen of een tekenreeks overeenkomt met een specifieke reguliere expressie. Gelieve te verwijzen naar [&#x200B; dit document &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) voor meer informatie over passende patronen in regelmatige uitdrukkingen.
+De functie `matches` wordt gebruikt om te bepalen of een tekenreeks overeenkomt met een specifieke reguliere expressie. Gelieve te verwijzen naar [ dit document ](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) voor meer informatie over passende patronen in regelmatige uitdrukkingen.
 
 **Syntaxis**
 
@@ -660,7 +660,7 @@ De functie `replaceAll` wordt gebruikt om alle subtekenreeksen van een tekst te 
 >
 > Wanneer de uitdrukking die als tweede argument wordt genomen een speciaal regex karakter is, gebruik dubbele backslash (`//`).  Speciale regex-tekens zijn: [., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
 > 
-> Leer meer in [&#x200B; documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
+> Leer meer in [ documentatie van Oracle ](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
 >
 
 ## Rechts bijsnijden {#rightTrim}

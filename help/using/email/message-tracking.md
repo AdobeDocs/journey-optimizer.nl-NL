@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: koppelingen, bijhouden, controleren, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b1a16fa6c194d2bd352c4c287bc96d56ced122ba
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1285'
 ht-degree: 1%
@@ -30,7 +30,7 @@ U kunt het bijhouden van e-mailberichten inschakelen door de opties **[!UICONTRO
 
 >[!BEGINTABS]
 
->[!TAB laat het volgen in een reis  toe]
+>[!TAB  laat het volgen in een reis ] toe
 
 ![](assets/message-tracking-journey.png)
 
@@ -51,11 +51,11 @@ Wanneer toegelaten, volgen deze opties het gedrag van de ontvangers van uw beric
 
 ## Koppelingen invoegen {#insert-links}
 
-Wanneer [&#x200B; het volgen &#x200B;](#enable-tracking) wordt toegelaten, worden alle verbindingen inbegrepen in de berichtinhoud gevolgd.
+Wanneer [ het volgen ](#enable-tracking) wordt toegelaten, worden alle verbindingen inbegrepen in de berichtinhoud gevolgd.
 
 >[!NOTE]
 >
->Koppelingen van fragmenten die in een e-mail worden gebruikt, worden ook bijgehouden. [&#x200B; Leer meer op fragmenten &#x200B;](../content-management/fragments.md)
+>Koppelingen van fragmenten die in een e-mail worden gebruikt, worden ook bijgehouden. [ Leer meer op fragmenten ](../content-management/fragments.md)
 
 Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
@@ -73,7 +73,7 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
    * Selecteer **[!UICONTROL External Opt-in/Subscription]** om een koppeling in te voegen voor het ontvangen van communicatie van uw merk.
 
-   * Selecteer **[!UICONTROL External Opt-out/Unsubscription]** om een koppeling in te voegen waarmee u zich niet meer kunt abonneren op het ontvangen van communicatie van uw merk. Leer meer over opt-out beheer in [&#x200B; deze sectie &#x200B;](email-opt-out.md#opt-out-management).
+   * Selecteer **[!UICONTROL External Opt-out/Unsubscription]** om een koppeling in te voegen waarmee u zich niet meer kunt abonneren op het ontvangen van communicatie van uw merk. Leer meer over opt-out beheer in [ deze sectie ](email-opt-out.md#opt-out-management).
 
    * Selecteer **[!UICONTROL Mirror page]** om een koppeling naar de spiegel voor e-mail toe te voegen. [Meer informatie](#mirror-page)
 
@@ -81,7 +81,7 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
    >[!NOTE]
    >
-   >Voor het interpreteren van URLs, [!DNL Journey Optimizer] voldoet aan de syntaxis van URI ([&#x200B; norm RFC 3986 &#x200B;](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), die sommige speciale internationale karakters in URLs onbruikbaar maakt. Wanneer u de proefdruk of e-mail probeert te verzenden, kunt u de tekenreeks via URL coderen als tijdelijke oplossing als u een fout hebt geretourneerd met een URL die aan uw inhoud is toegevoegd.
+   >Voor het interpreteren van URLs, [!DNL Journey Optimizer] voldoet aan de syntaxis van URI ([ norm RFC 3986 ](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), die sommige speciale internationale karakters in URLs onbruikbaar maakt. Wanneer u de proefdruk of e-mail probeert te verzenden, kunt u de tekenreeks via URL coderen als tijdelijke oplossing als u een fout hebt geretourneerd met een URL die aan uw inhoud is toegevoegd.
 
 1. U kunt uw koppelingen aanpassen. [Meer informatie](../personalization/personalization-build-expressions.md)
 
@@ -93,7 +93,7 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
 >[!NOTE]
 >
->Het op de markt brengen-type e-mailberichten moeten een [&#x200B; opt-out verbinding &#x200B;](../privacy/opt-out.md#opt-out-management) omvatten, die niet voor transactionele berichten wordt vereist. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt bepaald in de [&#x200B; kanaalconfiguratie &#x200B;](../configuration/channel-surfaces.md#email-type) wanneer het creëren van het bericht.
+>Het op de markt brengen-type e-mailberichten moeten een [ opt-out verbinding ](../privacy/opt-out.md#opt-out-management) omvatten, die niet voor transactionele berichten wordt vereist. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt bepaald in de [ kanaalconfiguratie ](../configuration/channel-surfaces.md#email-type) wanneer het creëren van het bericht.
 
 Zodra het bericht wordt verzonden, is de behoudperiode voor een verbinding **25 maanden**. Na die vertraging is de koppeling niet meer beschikbaar.
 
@@ -103,7 +103,7 @@ De spiegelpagina is een online versie van uw e-mail. Het toevoegen van een koppe
 
 De spiegelpagina die door Adobe Journey Optimizer wordt gegenereerd, bevat alle aanpassingsgegevens.
 
-Om een verbinding aan een spiegelpagina in uw e-mail toe te voegen, [&#x200B; neem een verbinding &#x200B;](#insert-links) op en selecteer **[!UICONTROL Mirror page]** als type van verbinding.
+Om een verbinding aan een spiegelpagina in uw e-mail toe te voegen, [ neem een verbinding ](#insert-links) op en selecteer **[!UICONTROL Mirror page]** als type van verbinding.
 
 ![](assets/message-tracking-mirror-page.png)
 
@@ -117,7 +117,7 @@ De behoudperiode voor een spiegelpagina is **90 dagen**. Na die vertraging is de
 >
 >* Wanneer u e-mailberichten maakt die sterk afhankelijk zijn van runtimeverpersoonlijking (bijvoorbeeld `#each` loops, geneste objecten, grote ladingsgegevens), kunnen URL&#39;s van spiegelpagina&#39;s te groot worden, met name in API-gestuurde campagnes die uitgebreide contextuele gegevens van ladingen gebruiken. Dit kan HTTP-fouten (404, 422, 502) veroorzaken in browsers of e-mailclients. Adobe raadt aan de breedte en diepte van dynamische velden te beperken, de afhankelijkheid van complexe fragmenten te verminderen en verpersoonlijkingsstructuren af te vlakken om mislukte koppelingen te voorkomen.
 >
->* In het [&#x200B; bewijs &#x200B;](../content-management/proofs.md) dat naar de testprofielen wordt verzonden, is de verbinding aan de spiegelpagina niet actief. Deze is alleen actief in de laatste berichten.
+>* In het [ bewijs ](../content-management/proofs.md) dat naar de testprofielen wordt verzonden, is de verbinding aan de spiegelpagina niet actief. Deze is alleen actief in de laatste berichten.
 
 ## Weergave en doel van koppelingen aanpassen {#adjust-links}
 
@@ -159,7 +159,7 @@ Als u de kleur van de koppeling wilt wijzigen, klikt u op **[!UICONTROL Link col
 
 ## Beheer van bijhouden {#manage-tracking}
 
-[&#x200B; E-mail Designer &#x200B;](content-from-scratch.md) staat u toe om bijgehouden URLs, zoals het uitgeven van het volgende type voor elke verbinding te beheren.
+[ E-mail Designer ](content-from-scratch.md) staat u toe om bijgehouden URLs, zoals het uitgeven van het volgende type voor elke verbinding te beheren.
 
 1. Klik op het pictogram **[!UICONTROL Links]** in het linkerdeelvenster om de lijst weer te geven met alle URL&#39;s van de inhoud die wordt bijgehouden.
 
@@ -178,11 +178,11 @@ Als u de kleur van de koppeling wilt wijzigen, klikt u op **[!UICONTROL Link col
    * **[!UICONTROL Mirror page]**: beschouwt deze URL als een URL van een spiegelpagina.
    * **[!UICONTROL Never]**: activeert het bijhouden van deze URL nooit.
 
-Het melden van openingen en klikken is beschikbaar in het [&#x200B; Levende rapport &#x200B;](../reports/live-report.md) en in het [&#x200B; rapport van Customer Journey Analytics &#x200B;](../reports/report-gs-cja.md).
+Het melden van openingen en klikken is beschikbaar in het [ Levende rapport ](../reports/live-report.md) en in het [ rapport van Customer Journey Analytics ](../reports/report-gs-cja.md).
 
 ## URL-tracking aanpassen {#url-tracking}
 
-[&#x200B; URL het volgen &#x200B;](email-settings.md#url-tracking) wordt beheerd op het configuratieniveau en is op alle URLs inbegrepen in uw berichtinhoud van toepassing.
+[ URL het volgen ](email-settings.md#url-tracking) wordt beheerd op het configuratieniveau en is op alle URLs inbegrepen in uw berichtinhoud van toepassing.
 
 U kunt afzonderlijke URL&#39;s ook aanpassen in de Designer-mailtoepassing. Volg onderstaande stappen om aangepaste URL-volgparameters toe te voegen aan één koppeling in uw inhoud.
 
@@ -192,7 +192,7 @@ U kunt afzonderlijke URL&#39;s ook aanpassen in de Designer-mailtoepassing. Volg
 
    ![](assets/message-tracking-insert-link-perso.png)
 
-1. Voeg de URL volgende parameter toe en selecteer de profielattributen van uw keus van de [&#x200B; verpersoonlijkingsredacteur &#x200B;](../personalization/personalization-build-expressions.md).
+1. Voeg de URL volgende parameter toe en selecteer de profielattributen van uw keus van de [ verpersoonlijkingsredacteur ](../personalization/personalization-build-expressions.md).
 
    ![](assets/message-tracking-perso-parameter.png)
 
@@ -204,4 +204,4 @@ Wanneer de e-mail wordt verzonden, wordt deze parameter automatisch toegevoegd a
 
 >[!NOTE]
 >
->Om definitieve URL te verifiëren, kunt u [&#x200B; een proef &#x200B;](../content-management/preview-test.md#send-proofs) verzenden en de verbinding in de inhoud van e-mail klikken zodra u de proef ontvangt. De URL moet de parameter tracking weergeven. In het bovenstaande voorbeeld is de laatste URL: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+>Om definitieve URL te verifiëren, kunt u [ een proef ](../content-management/preview-test.md#send-proofs) verzenden en de verbinding in de inhoud van e-mail klikken zodra u de proef ontvangt. De URL moet de parameter tracking weergeven. In het bovenstaande voorbeeld is de laatste URL: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>

@@ -3,21 +3,21 @@ title: aanbiedingen voor opzoeken
 description: Aan klanten wordt een fallback-aanbieding gestuurd als zij niet in aanmerking komen voor andere aanbiedingen
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 8f1fa116-30d2-4732-8973-bbce0dc66dec
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # Opzoeken van fallback-aanbiedingen {#look-up-fallback-offers}
 
-U kunt specifieke fallback-aanbiedingen opzoeken door een GET-aanvraag in te dienen bij de [!DNL Offer Library] API die de fallback-aanbieding-id bevat in het aanvraagpad.
+U kunt specifieke fallback-aanbiedingen opzoeken door een GET-aanvraag in te dienen bij de [!DNL Offer Library] API die de id van de fallback-aanbieding bevat in het aanvraagpad.
 
-**API-indeling**
+**API formaat**
 
 ```http
 GET /{ENDPOINT_PATH}/offers/{ID}?offer-type=fallback
@@ -39,7 +39,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?of
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Antwoord**
+**Reactie**
 
 Een succesvol antwoord retourneert de details van de fallback-aanbieding, inclusief informatie over uw fallback-aanbieding en unieke fallback-aanbieding-id.
 

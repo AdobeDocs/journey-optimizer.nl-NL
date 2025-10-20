@@ -3,22 +3,22 @@ title: Verzamelingsaanduidingen verwijderen
 description: Met de verzamelingskwalificatietags kunt u uw voorstellen beter organiseren en sorteren.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
-source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 
 # Een verzamelingskwalificatie verwijderen {#delete-tag}
 
-Het kan soms nodig zijn om (DELETE) een verzamelingskwalificatie (voorheen bekend als &quot;tag&quot;) te verwijderen. Dit wordt gedaan door een verzoek van DELETE aan de Bibliotheek API van de Aanbieding uit te voeren gebruikend identiteitskaart van de inzamelingskwalificatie u wenst om te schrappen.
+Het kan soms nodig zijn om (DELETE) een verzamelingskwalificatie (voorheen &quot;tag&quot; genoemd) te verwijderen. Dit wordt gedaan door een DELETE- verzoek aan de Bibliotheek API van de Aanbieding uit te voeren gebruikend identiteitskaart van de inzamelingskwalificatie u wenst om te schrappen.
 
-**API-indeling**
+**API formaat**
 
 ```http
 DELETE /{ENDPOINT_PATH}/tags/{ID}
@@ -40,7 +40,7 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Antwoord**
+**Reactie**
 
 Een geslaagde reactie retourneert HTTP-status 200 en een lege hoofdtekst.
 

@@ -3,32 +3,32 @@ title: Verzamelingsaanduidingen bijwerken
 description: Met de verzamelingskwalificatietags kunt u uw voorstellen beter organiseren en sorteren.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
-source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 
 # Een verzamelingskwalificatie bijwerken {#update-collection-qualifier}
 
-U kunt een verzamelingskwalificatie (voorheen bekend als &#39;tag&#39;) wijzigen of bijwerken door een PATCH-aanvraag in te dienen bij de bibliotheek-API van de aanbieding.
+U kunt een verzamelingskwalificatie (voorheen &#39;&#39;tag&#39;&#39; genoemd) wijzigen of bijwerken door een PATCH-aanvraag in te dienen bij de bibliotheek-API van het aanbod.
 
-Raadpleeg voor meer informatie over JSON Patch, inclusief beschikbare bewerkingen, de officiële [JSON-patchdocumentatie](https://jsonpatch.com/).
+Voor meer informatie over Reparatie JSON, met inbegrip van beschikbare verrichtingen, zie de officiële [ documentatie van het Reparatie JSON ](https://jsonpatch.com/).
 
 ## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
 
-In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* veld in de aanvraagkoptekst:
+De volgende lijst toont de geldige waarden die uit het *inhoud-Type* gebied in de verzoekkopbal bestaan:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
 | Inhoudstype | `application/json` |
 
-**API-indeling**
+**API formaat**
 
 ```http
 PATCH /{ENDPOINT_PATH}/tags/{ID}
@@ -62,9 +62,9 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 ]'
 ```
 
-**Antwoord**
+**Reactie**
 
-Een succesvolle reactie keert de bijgewerkte details van de inzamelingsbepaler, met inbegrip van zijn uniek terug `id`.
+Een geslaagde reactie retourneert de bijgewerkte details van de verzamelingskwalificatie, inclusief de unieke `id` .
 
 ```json
 {

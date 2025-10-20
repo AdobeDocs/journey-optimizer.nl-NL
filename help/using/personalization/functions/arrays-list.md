@@ -3,10 +3,10 @@ title: Arrays-functies, bibliotheek
 description: Arrays-functies, bibliotheek
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 2%
@@ -101,7 +101,7 @@ De functie `head` wordt gebruikt om het eerste item in een array of lijst te ret
 
 **Voorbeeld**
 
-De volgende bewerking retourneert de eerste van de bovenste vijf bestellingen met de hoogste prijs. Meer informatie over de `topN` functie kan in [&#x200B; eerst `n` in serie &#x200B;](#first-n) sectie worden gevonden.
+De volgende bewerking retourneert de eerste van de bovenste vijf bestellingen met de hoogste prijs. Meer informatie over de `topN` functie kan in [ eerst `n` in serie ](#first-n) sectie worden gevonden.
 
 ```sql
 {%= head(topN(orders,price, 5)) %}

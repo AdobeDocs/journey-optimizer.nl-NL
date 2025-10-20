@@ -3,21 +3,21 @@ title: Aangepaste aanbiedingen verwijderen
 description: Een gepersonaliseerd aanbod is een aanpasbaar marketingbericht op basis van geschiktheidsregels en -beperkingen.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 6ae37843-2679-48a3-96ef-bb93a5d4a333
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 4%
+source-wordcount: '146'
+ht-degree: 3%
 
 ---
 
 # Een persoonlijke aanbieding verwijderen {#delete-personalized-offer}
 
-Het kan soms nodig zijn om (DELETE) een gepersonaliseerd aanbod te verwijderen. Alleen persoonlijke aanbiedingen die u maakt in de huurderscontainer, kunnen worden verwijderd. Dit wordt gedaan door een verzoek van de DELETE aan uit te voeren [!DNL Offer Library] API die $id gebruikt van de persoonlijke aanbieding die u wilt verwijderen.
+Het kan soms nodig zijn om (DELETE) een gepersonaliseerd aanbod te verwijderen. Alleen persoonlijke aanbiedingen die u maakt in de huurderscontainer, kunnen worden verwijderd. Dit gebeurt door een DELETE-aanvraag naar de [!DNL Offer Library] API uit te voeren met behulp van $id van de persoonlijke aanbieding die u wilt verwijderen.
 
-**API-indeling**
+**API formaat**
 
 ```http
 DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
@@ -40,8 +40,8 @@ curl -X DELETE \
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Antwoord**
+**Reactie**
 
 Een geslaagde reactie retourneert HTTP-status 202 (Geen inhoud) en een lege hoofdtekst.
 
-U kunt de schrapping bevestigen door een raadpleging (GET) verzoek aan de gepersonaliseerde aanbieding te proberen. U zult een Accept- kopbal in het verzoek moeten omvatten, maar zou een status 404 van HTTP (niet Gevonden) moeten ontvangen omdat de gepersonaliseerde aanbieding uit de container is verwijderd.
+U kunt de verwijdering bevestigen door een opzoekaanvraag (GET) in te dienen bij het persoonlijke voorstel. U zult een Accept- kopbal in het verzoek moeten omvatten, maar zou een status 404 van HTTP (niet Gevonden) moeten ontvangen omdat de gepersonaliseerde aanbieding uit de container is verwijderd.

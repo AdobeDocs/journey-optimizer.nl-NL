@@ -3,10 +3,10 @@ title: Aanbiedingen leveren met behulp van het op code-gebaseerde Ervingenkanaal
 description: Bied aanbiedingen via het op code gebaseerde Erviteitskanaal.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 6e603bc1-0813-435a-9349-d8585a7a0997
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 0%
@@ -25,5 +25,5 @@ De op code-gebaseerde ervaringen steunen om het even welk type van klantenimplem
 
 Gedetailleerde informatie over de verschillende implementatiemethoden is beschikbaar in de op code gebaseerde kanaalhandleiding. In deze gids, zult u details over elke implementatiemethodes, evenals steekproefimplementaties voor verschillende verpersoonlijking en het experimenteren gebruiksgevallen vinden.
 
-➡️ [&#x200B; Leer meer over code-gebaseerde implementatiemethodes &#x200B;](../../code-based/code-based-implementation-samples.md)
+➡️ [ Leer meer over code-gebaseerde implementatiemethodes ](../../code-based/code-based-implementation-samples.md)
 

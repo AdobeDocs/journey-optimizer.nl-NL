@@ -4,11 +4,12 @@ solution: Experience Platform
 title: Vastleggen van gebeurtenissen configureren
 description: Leer hoe u uw aanbiedingsschema configureert om gebeurtenissen vast te leggen
 feature: Ranking, Datasets, Decision Management
-role: Developer, Data Engineer
+role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: e5c457494d5d79d1a7951b9172c39c91007e2651
+exl-id: ce3a2c33-c15b-436f-90b1-7373d7b2b1ca
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -103,9 +104,9 @@ Voor aangepaste gebeurtenissen moet aan het schema dat in de gegevensset wordt g
 
 >[!NOTE]
 >
->Om uw douanegebeurtenissen te hebben die in [&#x200B; in kaart brengen &#x200B;](../items.md#capping) worden gebracht, moet u de ervaringsgebeurtenis met Adobe Experience Platform eindpunten verbinden door het naar één van beiden van deze twee eindpunten van de gegevensinzameling van Edge te verzenden:
+>Om uw douanegebeurtenissen te hebben die in [ in kaart brengen ](../items.md#capping) worden gebracht, moet u de ervaringsgebeurtenis met Adobe Experience Platform eindpunten verbinden door het naar één van beiden van deze twee eindpunten van de gegevensinzameling van Edge te verzenden:
 >
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->Als u het [&#x200B; Web SDK van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL){target="_blank"} of [&#x200B; Adobe Experience Platform Mobiele SDK &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=nl-NL){target="_blank"} gebruikt, wordt de verbinding automatisch gemaakt.
+>Als u het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} of [ Adobe Experience Platform Mobiele SDK ](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} gebruikt, wordt de verbinding automatisch gemaakt.

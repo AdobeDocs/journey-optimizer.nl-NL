@@ -3,9 +3,10 @@ title: Een toelatingsregel opzoeken
 description: Aan de hand van de kwalificatieregels kunt u bepalen welke kandidaten in aanmerking komen op basis van wat u als doel wilt instellen, zoals profielkenmerken en doelgroepen.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
+exl-id: a74f4c87-0b89-4583-97f5-df8e2a30a19b
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 1%

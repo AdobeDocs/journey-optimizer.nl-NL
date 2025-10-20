@@ -3,12 +3,12 @@ product: journey optimizer
 title: toDuration
 description: Meer informatie over de functie toDuration
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: toDuration, function, expression, trip
 exl-id: c78e30c5-99ee-4dc7-a03a-17f7ee65f83a
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # toDuration {#toDuration}
 
-Zet een argumentwaarde in een duur om. Voor meer informatie over gegevenstypes, verwijs naar [&#x200B; deze pagina &#x200B;](../expression/data-types.md).
+Zet een argumentwaarde in een duur om. Voor meer informatie over gegevenstypes, verwijs naar [ deze pagina ](../expression/data-types.md).
 
 ## Categorie
 

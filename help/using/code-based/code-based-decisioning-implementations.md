@@ -6,9 +6,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 57686b9684f9233c81bd46b67d12ec5f1e3544c5
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -21,21 +21,21 @@ Wanneer het gebruiken van Beslissing in code-gebaseerde ervaringen, denk na toev
 
 <!--Currently you cannot simulate content from the user interface in a [code-based experience](create-code-based.md) campaign or journey using decisions.-->
 
-Wanneer het testen van [&#x200B; code-gebaseerde ervaring &#x200B;](create-code-based.md) met besluit, kan de `dryRun` vlag worden gebruikt om te onderdrukken terugkoppelt gebeurtenissen voor zowel het melden als het begrenzen tellers.
+Wanneer het testen van [ code-gebaseerde ervaring ](create-code-based.md) met besluit, kan de `dryRun` vlag worden gebruikt om te onderdrukken terugkoppelt gebeurtenissen voor zowel het melden als het begrenzen tellers.
 
 Nadat u de campagne hebt gepubliceerd, voegt u de markering `dryRun` toe aan het XDM-gebeurtenisblok `data` in de clientimplementatie:
 
-    &quot;
-     &lbrace;
-     &quot;gegevens&quot;: 
-     &quot;__adobe&quot;: 
-     &quot;ajo&quot;: 
-     &quot;dryRun&quot;: waar 
-     
-     
-     
-     
-    &quot;
+```
+{
+    "data": {
+        "__adobe": {
+            "ajo": {
+                "dryRun": true
+            }
+        }
+    }
+}
+```
 
 <!--
 >[!CAUTION]
@@ -44,7 +44,7 @@ Nadat u de campagne hebt gepubliceerd, voegt u de markering `dryRun` toe aan het
 
 ## Deduplicatie van besluitvormingselementen in op code-gebaseerde implementaties {#code-based-decisioning-deduplication}
 
-Wanneer het gebruiken van [&#x200B; besluitvormingsbeleid &#x200B;](../experience-decisioning/create-decision.md) in uw op code-gebaseerde ervaringen, kunt u deduplicatie op uw besluitvormingsverzoeken in uw cliëntimplementatie toepassen.
+Wanneer het gebruiken van [ besluitvormingsbeleid ](../experience-decisioning/create-decision.md) in uw op code-gebaseerde ervaringen, kunt u deduplicatie op uw besluitvormingsverzoeken in uw cliëntimplementatie toepassen.
 
 Beslissingsverzoeken (via Konductor) accepteren de deduplicatiemarkering, die de unieke keuze van beslissingselementen in één verzoek behandelt, dat uit meerdere beleidslijnen of plaatsingen bestaat.
 
@@ -78,7 +78,7 @@ In een Konductor-verzoek kunt u de deduplicatiemarkering doorgeven als u unieke 
 }
 ```
 
-+++Verzoek om een monster te nemen
++++Bezig met aanvraag voor een beslissingsvoorbeeld
 
 ```
 curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b69f-4a4f-98e8-000282fc9552' \
@@ -137,7 +137,7 @@ Stel dat u hetzelfde beslissingsbeleid hebt met plaatsing van kop- en voettekst 
 
       * Het reservebeslissingspunt (ook uniek) of een leeg besluitvormingspunt wordt overgegaan voor het tweede voorstel.
 
-+++Respons van het beslissingsmonster (`allowDuplicateDecisionItems` = `true`)
++++Respons van beslissingsmonster (`allowDuplicateDecisionItems` = `true`)
 
 ```
 {
@@ -213,7 +213,7 @@ Stel dat u hetzelfde beslissingsbeleid hebt met plaatsing van kop- en voettekst 
 
 +++
 
-+++Respons van het beslissingsmonster (`allowDuplicateDecisionItems` = `false`)
++++Respons van beslissingsmonster (`allowDuplicateDecisionItems` = `false`)
 
 ```
 {

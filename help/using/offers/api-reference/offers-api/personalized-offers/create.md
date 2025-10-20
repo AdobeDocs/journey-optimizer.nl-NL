@@ -3,10 +3,10 @@ title: Een persoonlijke aanbieding maken
 description: Een gepersonaliseerd aanbod is een aanpasbaar marketingbericht op basis van geschiktheidsregels en -beperkingen.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 72ae1e269c9f0e8f3c978553b0119ffa027f73a1
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 7%
@@ -112,4 +112,4 @@ Een succesvolle reactie keert de details van nieuw gecreeerd gepersonaliseerd-aa
 
 ## Beperkingen {#limitations}
 
-Aanbiedingsweergaven en sommige aanbodbeperkingen worden momenteel niet ondersteund door de mobiele [!DNL Experience Edge] workflows, bijvoorbeeld `Capping` . De veldwaarde `Capping` geeft aan hoe vaak een aanbieding voor alle gebruikers kan worden weergegeven. Voor meer details, zie [&#x200B; de geschiktheidsregels en beperkingsdocumentatie van de Aanbieding &#x200B;](../../../../offers/offer-library/creating-personalized-offers.md).
+Aanbiedingsweergaven en sommige aanbodbeperkingen worden momenteel niet ondersteund door de mobiele [!DNL Experience Edge] workflows, bijvoorbeeld `Capping` . De veldwaarde `Capping` geeft aan hoe vaak een aanbieding voor alle gebruikers kan worden weergegeven. Voor meer details, zie [ de geschiktheidsregels en beperkingsdocumentatie van de Aanbieding ](../../../../offers/offer-library/creating-personalized-offers.md).

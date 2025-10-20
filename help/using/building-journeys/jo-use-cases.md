@@ -4,12 +4,12 @@ product: journey optimizer
 title: Gebruikskwesties leren
 description: Overzicht van gevallen waarin gebruik wordt gemaakt van reizen
 feature: Journeys, Use Cases
-role: User, Data Engineer
+role: User, Developer
 level: Intermediate, Experienced
 keywords: gebruiksgeval, meerkanaals, reis, gebeurtenissen
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
 version: Journey Orchestration
-source-git-commit: 32794465dfa8a82fd7becfd5b48abd1ca4d393de
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Gebruik deze bibliotheek als referentiepunt bij het ontwerpen van reizen, het mo
 </tr>
 </table>
 
-Zie ook verscheidene algemeen gebruikte [&#x200B; voorbeelden aan de Gebeurtenissen van de Stap van de Vraag &#x200B;](../reports/query-examples.md).
+Zie ook verscheidene algemeen gebruikte [ voorbeelden aan de Gebeurtenissen van de Stap van de Vraag ](../reports/query-examples.md).
 
 
 ## Kwesties voor zakelijk gebruik
@@ -131,39 +131,39 @@ Blader naar videozelfstudies om belangrijke stappen te leren om veelgebruikte ge
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px">
     <br/>
-      <strong> Klant onboarding </strong><br/><p>Leer hoe u een instapreis van klanten in Journey Optimizer implementeert.</p> - <a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank"> bekijk de case video van het Gebruik </a>
+      <strong> Klant onboarding </strong><br/><p>Leer hoe u een instapreis van klanten in Journey Optimizer implementeert.</p> - <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank"> bekijk de case video van het Gebruik </a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px">
     <br/>
-      <strong> Verlaten kar </strong><br/><p>Leer hoe u de verlaten draagtas voor winkelwagentjes kunt implementeren met de functie Playbook in Adobe Journey Optimizer.</p><a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank"> bekijk de gevalvideo van het Gebruik </a>
+      <strong> Verlaten kar </strong><br/><p>Leer hoe u de verlaten draagtas voor winkelwagentjes kunt implementeren met de functie Playbook in Adobe Journey Optimizer.</p><a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank"> bekijk de gevalvideo van het Gebruik </a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-content.svg" width="35px">
     <br/>
-      <strong> re-engagement </strong><br/><p>Leer hoe Adobe de Intelligent Re-engagement gebruikscase heeft aangepast om met de Luma demo-site te werken, voortbouwend op de stichtingsimplementatie die is gedocumenteerd in de zelfstudie van de Architect van Gegevens en van de Ingenieur van Gegevens en de zelfstudie van Experience Platform Web SDK.</p><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma" target="_blank"> bekijk de gevalvideo's van het Gebruik </a> 
+      <strong> re-engagement </strong><br/><p>Leer hoe Adobe de Intelligent Re-engagement gebruikscase heeft aangepast om met de Luma demo-site te werken, voortbouwend op de stichtingsimplementatie die is gedocumenteerd in de zelfstudie van de Architect van Gegevens en van de Ingenieur van Gegevens en de zelfstudie van Experience Platform Web SDK.</p><a href="https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma" target="_blank"> bekijk de gevalvideo's van het Gebruik </a> 
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong> Aanbieding in real time verpersoonlijking </strong><br/><p>Het gebruiken van aan het weer gerelateerde gegevens in Adobe Journey Optimizer om aanbiedingen te dienen staat ondernemingen toe om klantenervaringen te personaliseren die op real-time milieuomstandigheden in real time worden gebaseerd.</p><a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction" target="_blank"> volg het geleidelijke leerprogramma </a>
+      <strong> Aanbieding in real time verpersoonlijking </strong><br/><p>Het gebruiken van aan het weer gerelateerde gegevens in Adobe Journey Optimizer om aanbiedingen te dienen staat ondernemingen toe om klantenervaringen te personaliseren die op real-time milieuomstandigheden in real time worden gebaseerd.</p><a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction" target="_blank"> volg het geleidelijke leerprogramma </a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-configure.svg" width="35px">
     <br/>
-      <strong> Aanbiedingen van het Spoor en van het rapport die via besluit worden geleverd </strong><br/><p>Laat rapportering en prestatiesanalyse voor aanbiedingen toe die door Adobe Journey Optimizer worden geleverd: wanneer de aanbiedingen gepersonaliseerd en gebaseerd op contextuele signalen worden geleverd, is het essentieel om zowel impressies als gebruikersinteractie te volgen om hun doeltreffendheid te evalueren.</p><a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/reporting-on-ajo-od/introduction" target="_blank"> volg het geleidelijke leerprogramma </a> 
+      <strong> Aanbiedingen van het Spoor en van het rapport die via besluit worden geleverd </strong><br/><p>Laat rapportering en prestatiesanalyse voor aanbiedingen toe die door Adobe Journey Optimizer worden geleverd: wanneer de aanbiedingen gepersonaliseerd en gebaseerd op contextuele signalen worden geleverd, is het essentieel om zowel impressies als gebruikersinteractie te volgen om hun doeltreffendheid te evalueren.</p><a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/reporting-on-ajo-od/introduction" target="_blank"> volg het geleidelijke leerprogramma </a> 
     </td>
     <td>
       <img src="../assets/do-not-localize/icon_profile-audience.svg" width="35px">
     <br/>
-      <strong> Personaliseer aanbiedingen met rangschikkende formules </strong><br/><p>Leer hoe je persoonlijke financiële aanbiedingen kunt aanbieden door gebruikerskenmerken zoals postcode en jaarinkomen in Adobe Journey Optimizer te gebruiken. Door rangschikkingsformules te gebruiken, worden aanbiedingen intelligent gescoord en geprioriteerd gebaseerd op locatiespecifieke promoties en op inkomen-gebaseerde subsidiabiliteit.</p><a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction" target="_blank"> volg het geleidelijke leerprogramma </a> 
+      <strong> Personaliseer aanbiedingen met rangschikkende formules </strong><br/><p>Leer hoe je persoonlijke financiële aanbiedingen kunt aanbieden door gebruikerskenmerken zoals postcode en jaarinkomen in Adobe Journey Optimizer te gebruiken. Door rangschikkingsformules te gebruiken, worden aanbiedingen intelligent gescoord en geprioriteerd gebaseerd op locatiespecifieke promoties en op inkomen-gebaseerde subsidiabiliteit.</p><a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction" target="_blank"> volg het geleidelijke leerprogramma </a> 
     </td>
   </tr>
 </table>
 
-Zie ook het videoleerprogramma voor [&#x200B; Schaalende organisatie aan omnichannel betrokkenheid in Adobe Journey Optimizer &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"}: Over de cursus van zes lessen, leert u hoe te om bedrijfsmededelingen van eenvoudig uitgaand overseinen aan verfijnde omnichannel ervaringen op te heffen. Aan de hand van praktische voorbeelden krijgt u inzicht in het maken van klantritten die een naadloze combinatie vormen van proactieve outreach en responsieve betrokkenheid.
+Zie ook het videoleerprogramma voor [ Schaalende organisatie aan omnichannel betrokkenheid in Adobe Journey Optimizer ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"}: Over de cursus van zes lessen, leert u hoe te om bedrijfsmededelingen van eenvoudig uitgaand overseinen aan verfijnde omnichannel ervaringen op te heffen. Aan de hand van praktische voorbeelden krijgt u inzicht in het maken van klantritten die een naadloze combinatie vormen van proactieve outreach en responsieve betrokkenheid.
 
 
 

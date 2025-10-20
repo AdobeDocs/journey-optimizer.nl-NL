@@ -5,10 +5,10 @@ title: Contextgegevens en beslissingsverzoeken
 description: Leer hoe u contextgegevens doorgeeft in beslissingsverzoeken.
 badge: label="Verouderd" type="Informative"
 feature: Decision Management
-role: Developer, Data Engineer
+role: Developer
 level: Experienced
 exl-id: 45d060ce-0a12-4a6e-a594-ec10cdff8f38
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Deze sectie begeleidt u door contextgegevens in Beslissingsverzoeken over te gaa
 
 >[!BEGINSHADEBOX]
 
-Om verder te gaan, kunt u hefboomcontext in **het rangschikken formules** ook gebruiken om uw aanbiedingen op te voeren. De gedetailleerde voorbeelden van het rangschikken formules leveraging contextgegevens zijn beschikbaar in [&#x200B; deze sectie &#x200B;](../offers/ranking/create-ranking-formulas.md#context-data).
+Om verder te gaan, kunt u hefboomcontext in **het rangschikken formules** ook gebruiken om uw aanbiedingen op te voeren. De gedetailleerde voorbeelden van het rangschikken formules leveraging contextgegevens zijn beschikbaar in [ deze sectie ](../offers/ranking/create-ranking-formulas.md#context-data).
 
 >[!ENDSHADEBOX]
 

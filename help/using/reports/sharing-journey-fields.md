@@ -5,10 +5,10 @@ title: journeyvelden
 description: journeyvelden
 feature: Journeys, Reporting
 topic: Content Management
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
-source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 6%
@@ -17,12 +17,12 @@ ht-degree: 6%
 
 # Reisvelden {#sharing-journey-fields}
 
-Deze veldgroep wordt gebruikt in het dialoogvenster **reis** schema (in verhouding tot **tripStepEvent**). Het bevat de onderstaande velden.
+Deze gebiedsgroep wordt gebruikt in het **reis** schema (met betrekking tot **tripStepEvent**). Het bevat de onderstaande velden.
 
 
 >[!NOTE]
 >
->Meer informatie over kenmerken van reiseigenschappen [in deze sectie](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+>Leer meer over de attributen van de reiseigenschappen [ in deze sectie ](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
 
 
 ## tripID {#journeyid-field}

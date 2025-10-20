@@ -3,21 +3,21 @@ title: Beslissingsregel opzoeken
 description: Beslissingsregels zijn beperkingen die aan een gepersonaliseerd aanbod worden toegevoegd en die op een profiel worden toegepast om te bepalen of het in aanmerking komt voor een aanbieding.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # Beslissingsregel opzoeken {#lookup-decision-rule}
 
-U kunt een specifieke besluitvormingsregel opzoeken door een verzoek van de GET aan [!DNL Offer Library] API die de beslissingsregel bevat `id` in het aanvraagpad.
+U kunt een specifieke beslissingsregel opzoeken door een GET-aanvraag in te dienen bij de [!DNL Offer Library] API die de beslissingsregel `id` bevat in het aanvraagpad.
 
-**API-indeling**
+**API formaat**
 
 ```http
 GET /{ENDPOINT_PATH}/offer-rules/{ID}
@@ -39,9 +39,9 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-rules/offerRule1234' 
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Antwoord**
+**Reactie**
 
-Een succesvolle reactie keert de details van de specifieke besluitvormingsregel terug u omhoog keek, met inbegrip van informatie over zijn unieke beslissingsregel `id`.
+Een succesvolle reactie retourneert de details van de specifieke beslissingsregel die u hebt opgezocht, inclusief informatie over de unieke beslissingsregel `id` .
 
 ```json
   {

@@ -3,31 +3,31 @@ title: Aangepaste aanbiedingen bijwerken
 description: Een gepersonaliseerd aanbod is een aanpasbaar marketingbericht op basis van geschiktheidsregels en -beperkingen.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 9d8f2df6-aa04-4e66-8555-d51c2e409063
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 5%
+source-wordcount: '148'
+ht-degree: 4%
 
 ---
 
 # Een persoonlijke aanbieding bijwerken {#update-personalized-offer}
 
-U kunt een gepersonaliseerde aanbieding wijzigen of bijwerken door een PATCH verzoek aan de [!DNL Offer Library] API
+U kunt een gepersonaliseerde aanbieding wijzigen of bijwerken door een PATCH-aanvraag in te dienen bij de [!DNL Offer Library] API
 
-Raadpleeg voor meer informatie over JSON Patch, inclusief beschikbare bewerkingen, de officiële [JSON-patchdocumentatie](https://jsonpatch.com/).
+Voor meer informatie over Reparatie JSON, met inbegrip van beschikbare verrichtingen, zie de officiële [ documentatie van het Reparatie JSON ](https://jsonpatch.com/).
 
 ## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
 
-In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* veld in de aanvraagkoptekst:
+De volgende lijst toont de geldige waarden die uit het *inhoud-Type* gebied in de verzoekkopbal bestaan:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
 | Inhoudstype | `application/json` |
 
-**API-indeling**
+**API formaat**
 
 ```http
 PATCH /{ENDPOINT_PATH}/offers/{ID}?offer-type=personalized
@@ -63,11 +63,11 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/personalizedOffer1
 
 | Parameter | Beschrijving |
 | --------- | ----------- |
-| `op` | De verrichtingsvraag die wordt gebruikt om de actie te bepalen nodig om de verbinding bij te werken. Bewerkingen omvatten: `add`, `replace`, `remove`, `copy` en `test`. |
+| `op` | De verrichtingsvraag die wordt gebruikt om de actie te bepalen nodig om de verbinding bij te werken. Bewerkingen zijn: `add` , `replace` , `remove` , `copy` en `test` . |
 | `path` | Het pad van de parameter die moet worden bijgewerkt. |
 | `value` | De nieuwe waarde waarmee u de parameter wilt bijwerken. |
 
-**Antwoord**
+**Reactie**
 
 Een geslaagde reactie retourneert de bijgewerkte details van de plaatsing, inclusief de plaatsings-id.
 

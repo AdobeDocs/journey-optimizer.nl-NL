@@ -4,12 +4,12 @@ description: Deze sectie maakt een lijst van alle gebieden die in de uitgevoerde
 badge: label="Verouderd" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
-role: User, Data Engineer
+role: User, Developer
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ De meest recente succesvolle partij in de dataset wordt getoond op het recht. De
 
 >[!NOTE]
 >
->Leer hoe te om tot de uitgevoerde datasets voor elk voorwerp van uw Bibliotheek van de Aanbieding in [&#x200B; toegang te hebben deze sectie &#x200B;](../export-catalog/access-dataset.md).
+>Leer hoe te om tot de uitgevoerde datasets voor elk voorwerp van uw Bibliotheek van de Aanbieding in [ toegang te hebben deze sectie ](../export-catalog/access-dataset.md).
 
 Hier volgt een lijst met alle velden die kunnen worden gebruikt in de **[!UICONTROL Decision Object Repository - Decisions]** -gegevensset (voorheen bekend als Beslissingsobjectrepository - Activiteiten).
 
@@ -71,7 +71,7 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in de **[!UICONT
 
 +++
 
-+++_Experience > decisions > Criteria > optionSelection
++++_experience > decisions > Criteria > optionSelection
 
 **Gebied:** optionSelection
 **Titel:** Selectie van de Optie
@@ -111,11 +111,11 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in de **[!UICONT
 
 +++
 
-+++_Experience > decisions > Criteria > Plaatsingen
++++_experience > decisions > Criteria > placements
 
 **Gebied:** plaatsen
 **Titel:** de Beperkingen van de Plaatsing
-**Beschrijving:** de plaatsingsbeperking verklaart dat dit criterium slechts op de vermelde plaatsen van toepassing is. Alleen wanneer de doelplaatsing in de lijst `xdm:placements` staat, wordt de gekozen optie in aanmerking genomen. Anders worden de volledige beslissingscriteria overgeslagen. Wanneer de lijst &#39;xdm:placements&#39; wordt weggelaten of leeg is, wordt het criterium in aanmerking genomen voor elke beoogde plaatsing. De hier vermelde plaatsingen leggen impliciete criteria voor de optieselectie op. Een optie die u wilt overwegen, moet een representatie hebben voor de beoogde plaatsing.
+**Beschrijving:** de plaatsingsbeperking verklaart dat dit criterium slechts op de vermelde plaatsen van toepassing is. Alleen wanneer de doelplaatsing in de lijst `xdm:placements` staat, wordt de gekozen optie in aanmerking genomen. Anders worden de volledige beslissingscriteria overgeslagen. Wanneer de &quot;xdm :placements&quot;lijst wordt weggelaten of leeg, wordt het criterium overwogen voor om het even welke gerichte plaatsing. De hier vermelde plaatsingen leggen impliciete criteria voor de optieselectie op. Een optie die u wilt overwegen, moet een representatie hebben voor de beoogde plaatsing.
 **Type:** serie
 
 * Plaatsings-id
@@ -135,7 +135,7 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in de **[!UICONT
 
 +++
 
-++_experience > decisions > Criteria > profileRestrictions > Description
++++_experience > decisions > Criteria > profileConstraints > Description
 
 **Gebied:** beschrijving
 **Titel:** Beschrijving
@@ -160,6 +160,7 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in de **[!UICONT
 **Beschrijving:** bepaalt als om het even welke beperkingen momenteel worden geplaatst en hoe de beperkingen worden uitgedrukt. Het zou door een regel of door één of meerdere publieksleden kunnen zijn.
 **Type:** koord
 **Mogelijke waarden:**
+
 * &quot;none&quot; (standaardwaarde)
 * &quot;accessibilityRule&quot;: &quot;De profielbeperking wordt uitgedrukt als één enkele regel die aan waar moet evalueren alvorens de beperkte actie wordt toegestaan.&quot;
 * &quot;anySegments&quot;: &quot;De profielbeperking wordt uitgedrukt als een of meer soorten publiek en het profiel moet lid zijn van ten minste één ervan voordat de beperkte handeling is toegestaan.&quot;
@@ -206,16 +207,16 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in de **[!UICONT
 
 +++
 
-+++_experience > decisions > criteria > classificatie
++++_experience > decisions > Criteria > Rangschikking
 
 **Gebied:** het rangschikken
 **Titel:** het Rangschikken Details
 **Beschrijving:** Rang (prioriteit). Bepaalt hoe de &quot;beste optie\&quot; gezien de context van het beslissingscriterium wordt bepaald. Onder alle geselecteerde opties die aan de profielbeperkingen voldoen, bepaalt de rangschikking welke optie(s) bovenaan (of bovenste N) moet(en) worden voorgesteld.
 **Type:** voorwerp
 
-+++
++++ 
 
-+++_experience > decisions > Criteria > Rangschikking > Volgorde
++++_experience > decisions > Criteria > Rangschikking > order
 
 **Gebied:** orde
 **Titel:** de Evaluatie van de orde
@@ -284,7 +285,7 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in de **[!UICONT
 
 +++
 
-+++_Experience > Beslissing > Begindatum en -tijd van activiteit
++++_experience > decisions > Activity Start Date and Time
 
 **Gebied:** startTime
 **Titel:** Datum en Tijd van het Begin van de activiteit

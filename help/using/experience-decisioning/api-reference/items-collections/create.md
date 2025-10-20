@@ -3,19 +3,19 @@ title: Een itemverzameling maken
 description: Met verzamelingen kunt u beslissingsitems categoriseren en groeperen op basis van uw voorkeuren.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
-source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
+exl-id: e4f2ab34-2af2-49b5-9164-b129e922fe59
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 1%
 
 ---
 
-
 # Een itemverzameling maken {#create-decision-items}
 
-U kunt een puntinzameling tot stand brengen door een verzoek van de POST aan de Bibliotheek API van de Aanbieding te doen.
+U kunt een puntinzameling tot stand brengen door een POST- verzoek aan de Bibliotheek API van de Aanbieding te doen.
 
 **API formaat**
 

@@ -3,29 +3,29 @@ title: Een beslissing nemen
 description: Een beslissing bevat de logica die de selectie van een aanbieding informeert.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
 # Een beslissing nemen {#create-decision}
 
-U kunt een beslissing maken door een verzoek tot POST in te dienen bij de [!DNL Offer Library] API.
+U kunt een beslissing maken door een POST-aanvraag in te dienen bij de [!DNL Offer Library] API.
 
 ## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
 
-In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* en *Accepteren* velden in de aanvraagkoptekst:
+De volgende lijst toont de geldige waarden die uit *inhoud-Type* bestaan en ** gebieden in de verzoekkopbal goedkeuren:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
 | Inhoudstype | `application/json` |
 
-**API-indeling**
+**API formaat**
 
 ```http
 POST /{ENDPOINT_PATH}/offer-decisions
@@ -75,9 +75,9 @@ curl -X POST 'https://platform.adobe.io/data/core/offer-decisions' \
 }'
 ```
 
-**Antwoord**
+**Reactie**
 
-Een succesvol antwoord retourneert informatie over het nieuwe besluit, inclusief de unieke `id`. U kunt de `id` in latere stappen om uw beslissing bij te werken of te verwijderen.
+Een geslaagde reactie retourneert informatie over de nieuwe beslissing, inclusief de unieke `id` ervan. U kunt `id` in recentere stappen gebruiken om uw besluit bij te werken of te schrappen.
 
 ```json
 {
