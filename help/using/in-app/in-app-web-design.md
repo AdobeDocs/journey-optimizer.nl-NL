@@ -33,7 +33,7 @@ Als u de inhoud van het bericht in de app wilt bewerken, klikt u op de knop **[!
 
 Met de schakeloptie **[!UICONTROL Advanced formatting]** activeert u aanvullende opties om de ervaring aan te passen.
 
-Nadat u het bericht in de app hebt gemaakt en de inhoud ervan hebt gedefinieerd en gepersonaliseerd, kunt u het bericht controleren en activeren. Vervolgens worden de meldingen verzonden volgens het campagneprogramma. Leer meer op [ deze pagina ](send-in-app.md).
+Nadat u het bericht in de app hebt gemaakt en de inhoud ervan hebt gedefinieerd en gepersonaliseerd, kunt u het bericht controleren en activeren. Vervolgens worden de meldingen verzonden volgens het campagneprogramma. Leer meer op [&#x200B; deze pagina &#x200B;](send-in-app.md).
 
 ## Berichtlay-out {#message-layout}
 
@@ -105,7 +105,7 @@ Voer de inhoud in de velden **[!UICONTROL Header]** en **[!UICONTROL Body]** in 
 
 ![](assets/in_app_web_design_4.png)
 
-Gebruik het pictogram **[!UICONTROL Personalization]** om personalisatie toe te voegen. Leer meer over verpersoonlijking in de redacteur van de verpersoonlijking van Adobe Journey Optimizer [ in deze sectie ](../personalization/personalize.md).
+Gebruik het pictogram **[!UICONTROL Personalization]** om personalisatie toe te voegen. Leer meer over verpersoonlijking in de redacteur van de verpersoonlijking van Adobe Journey Optimizer [&#x200B; in deze sectie &#x200B;](../personalization/personalize.md).
 
 +++Meer opties met geavanceerde opmaak
 
