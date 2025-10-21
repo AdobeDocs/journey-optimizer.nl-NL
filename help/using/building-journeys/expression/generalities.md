@@ -4,12 +4,12 @@ product: journey optimizer
 title: Syntaxis van geavanceerde expressie-editor
 description: Meer informatie over de syntaxis die wordt gebruikt in de geavanceerde expressie-editor
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: syntaxis, redacteur, reis
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Syntaxis van geavanceerde expressie-editor {#syntax}
 
-De grondbeginselen van de syntaxis wanneer het gebruiken van de [&#x200B; Geavanceerde uitdrukkingsredacteur &#x200B;](expressionadvanced.md) zijn hieronder vermeld. <!-- Samples of use of the advanced expression editor are available on [this page](advanced-editor-use-cases.md).-->
+De grondbeginselen van de syntaxis wanneer het gebruiken van de [ Geavanceerde uitdrukkingsredacteur ](expressionadvanced.md) zijn hieronder vermeld. <!-- Samples of use of the advanced expression editor are available on [this page](advanced-editor-use-cases.md).-->
 
 ## Haakjes en prioriteit van expressie {#parentheses-and-expression-priority}
 

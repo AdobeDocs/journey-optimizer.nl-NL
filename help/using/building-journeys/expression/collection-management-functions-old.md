@@ -6,11 +6,11 @@ description: Meer informatie over gegevenstypen in functies voor verzamelingsbeh
 feature: Journeys
 hide: true
 hidefromtoc: true
-role: Engineer
+role: Developer
 level: Experienced
 keywords: query, collecties, functies, lading, reis
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 0%
@@ -73,14 +73,14 @@ De functie **[!UICONTROL all]** laat de definitie van een filter op een bepaalde
 
 Zo kunt u onder alle gebruikers van de app de toepassingen ophalen met IOS 13 (Booleaanse expressie &quot;app used == IOS 13&quot;). Het resultaat van deze functie is de gefilterde lijst met items die overeenkomen met de booleaanse expressie (bijvoorbeeld: app-gebruiker 1, app-gebruiker 34, app-gebruiker 432).
 
-Bij een Source Condition-activiteit van Data kunt u controleren of het resultaat van de functie **[!UICONTROL all]** null is of niet. U kunt deze **[!UICONTROL all]** functie ook combineren met andere functies, zoals **[!UICONTROL count]** . Voor meer informatie, zie [&#x200B; de activiteit van de Voorwaarde van Source van Gegevens &#x200B;](../condition-activity.md#data_source_condition).
+Bij een Source Condition-activiteit van Data kunt u controleren of het resultaat van de functie **[!UICONTROL all]** null is of niet. U kunt deze **[!UICONTROL all]** functie ook combineren met andere functies, zoals **[!UICONTROL count]** . Voor meer informatie, zie [ de activiteit van de Voorwaarde van Source van Gegevens ](../condition-activity.md#data_source_condition).
 
 
 ## Voorbeelden
 
 >[!CAUTION]
 >
->Het gebruik van ervaringsevenementen in reisexpressies/omstandigheden wordt ondersteund, maar niet aanbevolen. Als uw gebruiksgeval het gebruik van ervaringsgebeurtenissen vereist, overweeg alternatieve methodes zoals [&#x200B; gegevens verwerkte attributen &#x200B;](../../audience/computed-attributes.md), of het creëren van een segment gebruikend de gebeurtenissen en het opnemen van dat segment in [`inAudience` uitdrukkingen &#x200B;](../../building-journeys/functions/functioninaudience.md).
+>Het gebruik van ervaringsevenementen in reisexpressies/omstandigheden wordt ondersteund, maar niet aanbevolen. Als uw gebruiksgeval het gebruik van ervaringsgebeurtenissen vereist, overweeg alternatieve methodes zoals [ gegevens verwerkte attributen ](../../audience/computed-attributes.md), of het creëren van een segment gebruikend de gebeurtenissen en het opnemen van dat segment in [`inAudience` uitdrukkingen ](../../building-journeys/functions/functioninaudience.md).
 
 **Voorbeeld 1:**
 

@@ -5,11 +5,11 @@ title: Werken met reisgebeurtenissen
 description: Leer hoe u met gebeurtenissen tijdens uw reizen kunt werken
 feature: Journeys, Events
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Intermediate, Experienced
 keywords: gebeurtenissen, gebeurtenis, reis, definitie, begin
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '1533'
 ht-degree: 16%
@@ -35,13 +35,13 @@ U kunt twee soorten gebeurtenissen vormen: **Eenheids gebeurtenissen** en **Bedr
 
 ## Unitaire gebeurtenissen {#unitary-events}
 
-**de Eenheid** gebeurtenissen zijn verbonden met een persoon. Ze hebben betrekking op het gedrag van een persoon (bijvoorbeeld een persoon kocht een product, bezocht een winkel, verlaat een website, enz.) of iets dat met een persoon verband houdt (bijvoorbeeld een persoon bereikte 10.000 loyaliteitspunten). Dit is waar [!DNL Journey Optimizer] tijdens reizen naar luistert om de beste volgende acties te ordenen. Uniforme gebeurtenissen kunnen op regels zijn gebaseerd of door het systeem worden gegenereerd. Leren hoe te om een eenheidsgebeurtenis tot stand te brengen, verwijs naar deze [&#x200B; pagina &#x200B;](../event/about-creating.md).
+**de Eenheid** gebeurtenissen zijn verbonden met een persoon. Ze hebben betrekking op het gedrag van een persoon (bijvoorbeeld een persoon kocht een product, bezocht een winkel, verlaat een website, enz.) of iets dat met een persoon verband houdt (bijvoorbeeld een persoon bereikte 10.000 loyaliteitspunten). Dit is waar [!DNL Journey Optimizer] tijdens reizen naar luistert om de beste volgende acties te ordenen. Uniforme gebeurtenissen kunnen op regels zijn gebaseerd of door het systeem worden gegenereerd. Leren hoe te om een eenheidsgebeurtenis tot stand te brengen, verwijs naar deze [ pagina ](../event/about-creating.md).
 
 Eenheidstrajecten (te beginnen met een evenement of een kwalificatie van het publiek) bevatten een begeleidend element dat voorkomt dat ritten bij dezelfde gebeurtenis meerdere keren ten onrechte worden gestart. De ingang van het profiel wordt tijdelijk geblokkeerd door gebrek gedurende 5 minuten. Bijvoorbeeld, als een gebeurtenis een reis bij 12 :01 voor een specifiek profiel teweegbrengt en een andere bij 12 :03 aankomt (of het de zelfde gebeurtenis of verschillende is die de zelfde reis teweegbrengen) die reis niet opnieuw voor dit profiel zal beginnen.
 
 ## Zakelijke gebeurtenissen {#business-events}
 
-**Bedrijfs** gebeurtenissen zijn niet verbonden met een specifiek profiel. Het kan bijvoorbeeld een nieuwsbericht, een sportupdate, een wijziging of annulering van een vlucht, een inventarisatie, weersomstandigheden, enz. zijn. Hoewel deze evenementen niet specifiek zijn voor een profiel, kunnen ze van belang zijn voor elk aantal profielen: personen die zich op bepaalde nieuwsonderwerpen hebben geabonneerd, passagiers op een vlucht, klanten die geïnteresseerd zijn in een product uit de voorraad, enz. Zakelijke gebeurtenissen zijn altijd op regels gebaseerd. Wanneer u een bedrijfsgebeurtenis in een reis laat vallen, voegt het automatisch a **Gelezen publiek** activiteit rechts na.Leer hoe te om een bedrijfsgebeurtenis [&#x200B; op deze pagina &#x200B;](../event/about-creating-business.md) tot stand te brengen.
+**Bedrijfs** gebeurtenissen zijn niet verbonden met een specifiek profiel. Het kan bijvoorbeeld een nieuwsbericht, een sportupdate, een wijziging of annulering van een vlucht, een inventarisatie, weersomstandigheden, enz. zijn. Hoewel deze evenementen niet specifiek zijn voor een profiel, kunnen ze van belang zijn voor elk aantal profielen: personen die zich op bepaalde nieuwsonderwerpen hebben geabonneerd, passagiers op een vlucht, klanten die geïnteresseerd zijn in een product uit de voorraad, enz. Zakelijke gebeurtenissen zijn altijd op regels gebaseerd. Wanneer u een bedrijfsgebeurtenis in een reis laat vallen, voegt het automatisch a **Gelezen publiek** activiteit rechts na.Leer hoe te om een bedrijfsgebeurtenis [ op deze pagina ](../event/about-creating-business.md) tot stand te brengen.
 
 
 ## Type gebeurtenis-id {#event-id-type}
@@ -54,7 +54,7 @@ Voor **unitaire** gebeurtenissen, zijn er twee soorten gebeurtenisidentiteitskaa
 
   >[!CAUTION]
   >
-  >Een beperkingsregel wordt bepaald voor op regels gebaseerde gebeurtenissen. Het beperkt het aantal gekwalificeerde gebeurtenissen dat een reis tot 5.000 per seconden kan verwerken voor een bepaalde Organisatie. Het komt overeen met Journey Optimizer SLA&#39;s. Verwijs naar uw Journey Optimizer vergunning gevend en [&#x200B; Beschrijving van het Product van Journey Optimizer &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+  >Een beperkingsregel wordt bepaald voor op regels gebaseerde gebeurtenissen. Het beperkt het aantal gekwalificeerde gebeurtenissen dat een reis tot 5.000 per seconden kan verwerken voor een bepaalde Organisatie. Het komt overeen met Journey Optimizer SLA&#39;s. Verwijs naar uw Journey Optimizer vergunning gevend en [ Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 * **Door het systeem gegenereerde** gebeurtenissen: deze gebeurtenissen vereisen een eventID. Dit eventID-veld wordt automatisch gegenereerd wanneer de gebeurtenis wordt gemaakt. Het systeem dat de gebeurtenis pusht, moet geen ID genereren, het moet overgaan naar degene die in de voorvertoning van de payload beschikbaar is.
 
@@ -66,7 +66,7 @@ Voor **unitaire** gebeurtenissen, zijn er twee soorten gebeurtenisidentiteitskaa
 
 Gebeurtenissen zijn POST-API-aanroepen. Gebeurtenissen worden naar Adobe Experience Platform verzonden via de API&#39;s voor streaming-insluiting. De URL-bestemming van gebeurtenissen die via transactie-API&#39;s worden verzonden, wordt een &quot;inlet&quot; genoemd. De payload van gebeurtenissen volgt de XDM-indeling.
 
-De payload bevat informatie die vereist is voor de Streaming Ingestie-API&#39;s om te werken (in de koptekst) en de informatie die [!DNL Journey Optimizer] nodig heeft om te werken en informatie die moet worden gebruikt tijdens reizen (in het lichaam, bijvoorbeeld de hoeveelheid achtergelaten winkelwagentje). Er zijn twee modi voor streamingopname, geverifieerd en niet-geverifieerd. Raadpleeg [deze koppeling](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=nl-NL){target="_blank"}voor meer informatie over streamingopname-API’s.
+De payload bevat informatie die vereist is voor de Streaming Ingestie-API&#39;s om te werken (in de koptekst) en de informatie die [!DNL Journey Optimizer] nodig heeft om te werken en informatie die moet worden gebruikt tijdens reizen (in het lichaam, bijvoorbeeld de hoeveelheid achtergelaten winkelwagentje). Er zijn twee modi voor streamingopname, geverifieerd en niet-geverifieerd. Raadpleeg [deze koppeling](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html){target="_blank"}voor meer informatie over streamingopname-API’s.
 
 Na aankomst door Streaming Ingestie APIs, stromen de gebeurtenissen in de interne dienst genoemd Pijpleiding en dan in Adobe Experience Platform. Als in het het gebeurtenisschema de markering voor real-timeklantprofielservice is ingeschakeld en een dataset-id eveneens de markering voor real-timeklantprofiel heeft, stroomt deze naar de real-timeklantprofielservice.
 
@@ -87,9 +87,9 @@ De volgende typen gebeurtenissen worden geteld voor de 5.000 TPS-quota:
 
 * **Bedrijfs Gebeurtenissen**: Gebeurtenissen niet verbonden aan een specifiek profiel, maar aan een zaken-verwante gebeurtenis.
 
-* **Gebeurtenissen van Analytics**: Als de [&#x200B; integratie met Adobe Analytics om reizen &#x200B;](about-analytics.md) te teweegbrengen is toegelaten, zijn deze gebeurtenissen ook inbegrepen.
+* **Gebeurtenissen van Analytics**: Als de [ integratie met Adobe Analytics om reizen ](about-analytics.md) te teweegbrengen is toegelaten, zijn deze gebeurtenissen ook inbegrepen.
 
-* **Hervatten Gebeurtenissen**: De technische gebeurtenis teweeggebracht wanneer een profiel van een gepauzeerde reis hervat. Leer meer over [&#x200B; herstellend gepauzeerde reizen &#x200B;](../building-journeys/journey-pause.md#how-to-resume-a-paused-journey).
+* **Hervatten Gebeurtenissen**: De technische gebeurtenis teweeggebracht wanneer een profiel van een gepauzeerde reis hervat. Leer meer over [ herstellend gepauzeerde reizen ](../building-journeys/journey-pause.md#how-to-resume-a-paused-journey).
 
 * **wacht de Gebeurtenissen van de Voltooiing van de Knoop**: Wanneer een profiel een wachttijdknoop weggaat, wordt een technische gebeurtenis geproduceerd om de reis te hervatten.
 
@@ -120,7 +120,7 @@ Om het even welke die gebeurtenis in **wordt gebruikt Levende**, **Ontwerp** of 
 
 Leer hoe te om een gebeurtenis te vormen, specificeer het het stromen eindpunt en de lading voor een gebeurtenis.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431512?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Begrijp de toepasselijke gebruiksscenario&#39;s voor bedrijfsgebeurtenissen. Leer hoe u een journey bouwt met behulp van een bedrijfsgebeurtenis en welke aanbevolen procedures u toepast.
 

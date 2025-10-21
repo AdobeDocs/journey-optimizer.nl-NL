@@ -3,12 +3,12 @@ product: journey optimizer
 title: inSegment
 description: Meer informatie over de functie in Segment
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: inSegment, functie, expressie, reis
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 4%
@@ -25,14 +25,14 @@ Controleert of een individu tot een bepaald publiek behoort.
 
 De publieksnaam moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn.
 
-Het publiek wordt bepaald in [&#x200B; Adobe Experience Platform &#x200B;](https://platform.adobe.com/audience/overview). De uitdrukkingsredacteur verstrekt een autocompleted lijst van publiek.
+Het publiek wordt bepaald in [ Adobe Experience Platform ](https://platform.adobe.com/audience/overview). De uitdrukkingsredacteur verstrekt een autocompleted lijst van publiek.
 
 Soorten publiek kan twee statussen hebben:
 
 * gerealiseerd: Entiteit komt in aanmerking voor de segmentdefinitie.
 * verlaten: De entiteit verlaat de segmentdefinitie.
 
-Slechts zullen de individuen met de **Realized** status van de publieksparticipatie als leden van het publiek worden beschouwd. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [&#x200B; documentatie van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=nl-NL#interpret-segment-results).
+Slechts zullen de individuen met de **Realized** status van de publieksparticipatie als leden van het publiek worden beschouwd. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [ documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results).
 
 `inSegment('segmentName') == true` betekent dat u een segmentLidmaatschap met de ingegaan/bestaande status hebt.
 

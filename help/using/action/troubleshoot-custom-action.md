@@ -5,11 +5,11 @@ title: Aangepaste acties oplossen
 description: Leer hoe u een aangepaste handeling kunt oplossen
 feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 0%
@@ -36,7 +36,7 @@ De beheerders kunnen deze mogelijkheid alleen gebruiken als ze beschikken over d
 * Deze toestemming is inbegrepen in de *rol van de Beheerders van de Reis*.
 * De machtiging **[!DNL View journeys events]** alleen is niet voldoende.
 
-Leer meer over reistoestemmingen in [&#x200B; deze sectie &#x200B;](../administration/high-low-permissions.md#journey-capability).
+Leer meer over reistoestemmingen in [ deze sectie ](../administration/high-low-permissions.md#journey-capability).
 
 ## Hoe te om de Send eigenschap van het testverzoek te gebruiken {#troubleshoot-custom-action-use}
 
@@ -44,7 +44,7 @@ Voer de volgende stappen uit om een aangepaste handeling te testen:
 
 1. Navigeer aan het **scherm van de Acties** configuratie, en selecteer een douaneactie.
 1. Klik op de knop **[!UICONTROL Send test request]** onder aan het actieconfiguratiescherm.
-   ![&#x200B; verzendt de knoop van het testverzoek in het paneel van de Configuratie van de Actie &#x200B;](assets/test-request.png){width="70%" align="left"}
+   ![ verzendt de knoop van het testverzoek in het paneel van de Configuratie van de Actie ](assets/test-request.png){width="70%" align="left"}
 1. In het pop-upvenster kunt u aanvraagparameters opgeven:
 
    * Als de **methode van de douaneactie GET** is, wordt geen nuttige lading vereist.
@@ -93,8 +93,8 @@ Als de aanvraag mislukt, kunt u controleren:
 
 Blader in de onderstaande secties voor meer informatie over het configureren en gebruiken van aangepaste handelingen:
 
-* [&#x200B; worden begonnen met douaneacties &#x200B;](../action/action.md) - leer wat een douaneactie is en hoe zij u met uw derdesystemen helpen verbinden
-* [&#x200B; vorm uw douaneacties &#x200B;](../action/about-custom-action-configuration.md) - leer hoe te om een douaneactie tot stand te brengen en te vormen
-* [&#x200B; de douaneacties van het Gebruik &#x200B;](../building-journeys/using-custom-actions.md) - leer hoe te om douaneacties in uw reizen te gebruiken
-* [&#x200B; de inzamelingen van de pas in de parameters van de douaneactie &#x200B;](../building-journeys/collections.md) - leer hoe te om een inzameling in de parameters van de douaneactie over te gaan die dynamisch bevolkt bij runtime is
+* [ worden begonnen met douaneacties ](../action/action.md) - leer wat een douaneactie is en hoe zij u met uw derdesystemen helpen verbinden
+* [ vorm uw douaneacties ](../action/about-custom-action-configuration.md) - leer hoe te om een douaneactie tot stand te brengen en te vormen
+* [ de douaneacties van het Gebruik ](../building-journeys/using-custom-actions.md) - leer hoe te om douaneacties in uw reizen te gebruiken
+* [ de inzamelingen van de pas in de parameters van de douaneactie ](../building-journeys/collections.md) - leer hoe te om een inzameling in de parameters van de douaneactie over te gaan die dynamisch bevolkt bij runtime is
 

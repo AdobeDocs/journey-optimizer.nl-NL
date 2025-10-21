@@ -3,12 +3,12 @@ product: journey optimizer
 title: toDateOnly
 description: Meer informatie over de functie toDateOnly
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: toDateOnly, functie, expressie, reis
 exl-id: 1929644f-8b51-4f95-aea5-627fc1dd115d
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 5%
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 # toDateOnly{#toDateOnly}
 
-Zet een argument in een dateOnly typewaarde om. Meer over gegevenstypes leren, verwijs naar deze [&#x200B; sectie &#x200B;](../expression/data-types.md).
+Zet een argument in een dateOnly typewaarde om. Meer over gegevenstypes leren, verwijs naar deze [ sectie ](../expression/data-types.md).
 
 ## Categorie
 
@@ -31,7 +31,7 @@ Conversie
 
 | Parameter | Type |
 |-----------|------------------|
-| Tekenreeksrepresentatie van een datum als &quot;YYYY-MM-DD&quot; (XDM-indeling). Ook steunt formaat ISO-8601: slechts **volledig-datum** deel wordt overwogen (verwijs naar [&#x200B; RFC 3339, sectie 5.6 &#x200B;](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | string |
+| Tekenreeksrepresentatie van een datum als &quot;YYYY-MM-DD&quot; (XDM-indeling). Ook steunt formaat ISO-8601: slechts **volledig-datum** deel wordt overwogen (verwijs naar [ RFC 3339, sectie 5.6 ](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | string |
 | datumtijd | dateTime |
 | datumtijd zonder tijdzone | dateTimeOnly |
 | geheel-getalwaarde van een tijdperk in milliseconden | integer |

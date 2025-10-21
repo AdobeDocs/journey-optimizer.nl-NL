@@ -5,11 +5,11 @@ title: Voorbeelden van query's voor gegevensset
 description: Voorbeelden van query's voor gegevensset
 feature: Journeys, Reporting, Use Cases, Datasets, Data Management
 topic: Content Management
-role: Engineer, Admin
+role: Developer, Admin
 level: Experienced
 keywords: dataset, optimizer, gebruiksgevallen
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '1066'
 ht-degree: 0%
@@ -28,9 +28,9 @@ Op deze pagina vindt u de lijst met Adobe Journey Optimizer-gegevenssets en verw
 * [Gegevensset BCC-feedbackgebeurtenis](#bcc-feedback-event-dataset)
 * [Entiteitsgegevens](#entity-dataset)
 
-Om de volledige lijst van gebieden en attributen voor elk schema te bekijken, raadpleeg het [&#x200B; het schemawoordenboek van Journey Optimizer &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL){target="_blank"}.
+Om de volledige lijst van gebieden en attributen voor elk schema te bekijken, raadpleeg het [ het schemawoordenboek van Journey Optimizer ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
-Zie ook verscheidene algemeen gebruikte [&#x200B; voorbeelden aan de Gebeurtenissen van de Stap van de Vraag &#x200B;](../reports/query-examples.md).
+Zie ook verscheidene algemeen gebruikte [ voorbeelden aan de Gebeurtenissen van de Stap van de Vraag ](../reports/query-examples.md).
 
 
 ## Dataset over e-mailvolgervaringen{#email-tracking-experience-event-dataset}
@@ -270,9 +270,9 @@ group by
 ```
 
 
-Zie ook verscheidene algemeen gebruikte [&#x200B; voorbeelden aan de Gebeurtenissen van de Stap van de Vraag &#x200B;](../reports/query-examples.md).
+Zie ook verscheidene algemeen gebruikte [ voorbeelden aan de Gebeurtenissen van de Stap van de Vraag ](../reports/query-examples.md).
 
-Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 ## Dataset voor beslissingsgebeurtenis{#ode-decisionevents}
 

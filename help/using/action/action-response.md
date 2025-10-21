@@ -5,11 +5,11 @@ title: Verbeteringen voor aangepaste acties
 description: Meer informatie over de nieuwste verbeteringen voor aangepaste acties
 feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 3%
@@ -216,5 +216,5 @@ currentActionField.description == "abc"
 
 Raadpleeg deze pagina’s voor meer informatie:
 
-* [&#x200B; verwijzingen van het Gebied &#x200B;](../building-journeys/expression/field-references.md).
+* [ verwijzingen van het Gebied ](../building-journeys/expression/field-references.md).
 * [Functies voor het beheer van verzamelingen](../building-journeys/expression/collection-management-functions.md)

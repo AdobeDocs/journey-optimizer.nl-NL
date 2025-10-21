@@ -3,12 +3,12 @@ product: journey optimizer
 title: replaceAll
 description: Meer informatie over de functie replaceAll
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: replaceAll, function, expression, trip
 exl-id: 5543e123-a5f4-4153-8709-97eeb9be83ba
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 3%
@@ -49,4 +49,4 @@ Retourneert een tekenreeks.
 
 Retourneert &quot;hexo Worxd&quot;.
 
-Omdat de doelparameter een RegExp is, moet u, afhankelijk van de tekenreeks die u wilt vervangen, mogelijk enkele tekens verwijderen. Verwijs naar het voorbeeld op [&#x200B; deze pagina &#x200B;](../functions/functionreplace.md#example_2).
+Omdat de doelparameter een RegExp is, moet u, afhankelijk van de tekenreeks die u wilt vervangen, mogelijk enkele tekens verwijderen. Verwijs naar het voorbeeld op [ deze pagina ](../functions/functionreplace.md#example_2).

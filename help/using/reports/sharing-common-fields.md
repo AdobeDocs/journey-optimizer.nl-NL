@@ -5,10 +5,10 @@ title: journaalgebeurtenissen - gemeenschappelijke velden
 description: journaalgebeurtenissen - gemeenschappelijke velden
 feature: Journeys, Reporting
 topic: Content Management
-role: Engineer, Admin
+role: Developer, Admin
 level: Experienced
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Sommige van deze velden zijn alleen beschikbaar in specifieke verwerkingspatrone
 
 >[!NOTE]
 >
->Leer meer over de attributen van de reiseigenschappen [&#x200B; in deze sectie &#x200B;](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+>Leer meer over de attributen van de reiseigenschappen [ in deze sectie ](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
 
 
 ## ingang {#entrance-field}

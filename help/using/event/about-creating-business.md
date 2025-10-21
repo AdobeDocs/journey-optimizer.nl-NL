@@ -5,11 +5,11 @@ title: Een bedrijfsgebeurtenis configureren
 description: Leer hoe u een zakelijke gebeurtenis maakt
 feature: Journeys, Events
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Intermediate, Experienced
 keywords: gebeurtenis, reis, zaken, configuratie
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 6%
@@ -23,7 +23,7 @@ ht-degree: 6%
 >title="Zakelijke gebeurtenissen"
 >abstract="Met de gebeurtenisconfiguratie kunt u de informatie definiëren die Journey Optimizer ontvangt als gebeurtenissen. U kunt meerdere gebeurtenissen gebruiken (in verschillende stappen van een reis) en verschillende reizen kunnen dezelfde gebeurtenis gebruiken. In tegenstelling tot eenheidsgebeurtenissen zijn bedrijfsgebeurtenissen niet gekoppeld aan een specifiek profiel. Het type gebeurtenis-identiteitskaart is altijd op regel-gebaseerd."
 
-In tegenstelling tot eenheidsgebeurtenissen zijn bedrijfsgebeurtenissen niet gekoppeld aan een specifiek profiel. Het type gebeurtenis-identiteitskaart is altijd op regel-gebaseerd. Lees meer op bedrijfsgebeurtenissen in [&#x200B; deze sectie &#x200B;](../event/about-events.md).
+In tegenstelling tot eenheidsgebeurtenissen zijn bedrijfsgebeurtenissen niet gekoppeld aan een specifiek profiel. Het type gebeurtenis-identiteitskaart is altijd op regel-gebaseerd. Lees meer op bedrijfsgebeurtenissen in [ deze sectie ](../event/about-events.md).
 
 Op het publiek gebaseerde reizen kunnen in één opname, door een planner op een regelmatige basis of door een bedrijfsgebeurtenis worden geactiveerd, wanneer de gebeurtenis voorkomt.
 
@@ -31,7 +31,7 @@ Bedrijfsevenementen kunnen &quot;een product is weer in voorraad&quot;, &quot;de
 
 >[!NOTE]
 >
->U kunt ook op het geval van het bedrijfsgebeurtenisgebruik [&#x200B; leerprogramma &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html) letten. Merk op dat het schema niet voor profiel te hoeven worden toegelaten.
+>U kunt ook op het geval van het bedrijfsgebeurtenisgebruik [ leerprogramma ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html) letten. Merk op dat het schema niet voor profiel te hoeven worden toegelaten.
 
 ## Belangrijke opmerkingen {#important-notes}
 
@@ -42,7 +42,7 @@ Bedrijfsevenementen kunnen &quot;een product is weer in voorraad&quot;, &quot;de
 * Na een zakelijke gebeurtenis kan alleen een activiteit voor een gelezen publiek worden neergezet. Deze wordt automatisch toegevoegd als de volgende stap.
 * Als u meerdere bedrijfsgebeurtenissen wilt uitvoeren, activeert u de bijbehorende optie in het gedeelte **[!UICONTROL Execution]** van de eigenschappen van de gebeurtenis.
 * Nadat een bedrijfsgebeurtenis in werking wordt gesteld, zal er een vertraging zijn om het publiek te hebben uitgevoerd van 15 minuten aan tot één uur.
-* Wanneer het testen van een bedrijfsgebeurtenis, moet u de gebeurtenisparameters en het herkenningsteken van het testprofiel overgaan dat de reis in test zal ingaan. Bij het testen van een op zakelijke gebeurtenissen gebaseerde reis kunt u bovendien slechts één profielingang activeren. Zie [&#x200B; deze sectie &#x200B;](../building-journeys/testing-the-journey.md#test-business). In de testmodus is de modus &quot;Codeweergave&quot; niet beschikbaar.
+* Wanneer het testen van een bedrijfsgebeurtenis, moet u de gebeurtenisparameters en het herkenningsteken van het testprofiel overgaan dat de reis in test zal ingaan. Bij het testen van een op zakelijke gebeurtenissen gebaseerde reis kunt u bovendien slechts één profielingang activeren. Zie [ deze sectie ](../building-journeys/testing-the-journey.md#test-business). In de testmodus is de modus &quot;Codeweergave&quot; niet beschikbaar.
 * Wat gebeurt er met individuen die momenteel op reis zijn als een nieuw bedrijfsevenement aankomt? Het gedraagt zich op dezelfde manier als wanneer individuen zich nog steeds in een terugkerende reis bevinden wanneer zich een nieuwe terugkerende situatie voordoet. Hun pad is beëindigd. Als gevolg hiervan moeten marketeers aandacht besteden aan het vermijden van het bouwen van te lange reizen als ze veelvuldige bedrijfsgebeurtenissen verwachten.
 * Zakelijke evenementen kunnen niet worden gebruikt in combinatie met monitaire evenementen of kwalificatieactiviteiten voor het publiek.
 
@@ -56,7 +56,7 @@ Zakelijke gebeurtenissen volgen op dezelfde manier als voor eenheidsgebeurteniss
 
 **wat zijn de gidsen om overladende materialized publiek te vermijden?**
 
-In het geval van on-shot bedrijfsgebeurtenissen, voor een bepaalde reis, worden de gegevens die door de eerste gebeurtenisbaan worden geduwd opnieuw gebruikt tijdens een tijdvenster van 1 uur. Voor geregelde reizen is er geen spoor. Leer meer over publiek in de [&#x200B; documentatie van de Dienst van de Segmentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL).
+In het geval van on-shot bedrijfsgebeurtenissen, voor een bepaalde reis, worden de gegevens die door de eerste gebeurtenisbaan worden geduwd opnieuw gebruikt tijdens een tijdvenster van 1 uur. Voor geregelde reizen is er geen spoor. Leer meer over publiek in de [ documentatie van de Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 ## Aan de slag met bedrijfsgebeurtenissen {#gs-business-events}
 
@@ -106,11 +106,11 @@ Hier zijn de eerste stappen om een bedrijfsgebeurtenis te vormen:
 
    ![](assets/journey7-business.png)
 
-   De gebeurtenis is nu geconfigureerd en klaar om in een journey worden gezet. Er zijn aanvullende configuratiestappen nodig om gebeurtenissen te ontvangen. Leer meer op [&#x200B; deze pagina &#x200B;](../event/additional-steps-to-send-events-to-journey.md).
+   De gebeurtenis is nu geconfigureerd en klaar om in een journey worden gezet. Er zijn aanvullende configuratiestappen nodig om gebeurtenissen te ontvangen. Leer meer op [ deze pagina ](../event/additional-steps-to-send-events-to-journey.md).
 
 ## De laadvelden definiëren {#define-the-payload-fields}
 
-De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de gebeurtenis in uw reis verwacht te ontvangen en de sleutel om te identificeren welke persoon aan de gebeurtenis wordt geassocieerd. De nuttige lading is gebaseerd op de Experience Cloud XDM gebiedsdefinitie. Voor meer informatie over XDM, verwijs naar [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
+De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de gebeurtenis in uw reis verwacht te ontvangen en de sleutel om te identificeren welke persoon aan de gebeurtenis wordt geassocieerd. De nuttige lading is gebaseerd op de Experience Cloud XDM gebiedsdefinitie. Voor meer informatie over XDM, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
 
 1. Selecteer een XDM-schema in de lijst en klik op het veld **[!UICONTROL Fields]** of op het pictogram **[!UICONTROL Edit]** .
 
