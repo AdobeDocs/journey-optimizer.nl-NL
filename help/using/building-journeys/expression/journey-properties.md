@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Eigenschappen voor reizen {#journey-properties}
 
-In de [ eenvoudige uitdrukkingsredacteur ](../condition-activity.md#about_condition), en in de [ geavanceerde uitdrukkingsredacteur ](../expression/expressionadvanced.md), onder de **Gebeurtenis** en **Gegevensbron** categorieën, kunt u tot de **categorie van de Eigenschappen van de Reis** toegang hebben. Deze categorie bevat technische velden die verband houden met de reis voor een bepaald profiel. Dit is de informatie die door het systeem wordt opgehaald van levende reizen, zoals de reis-ID, of de specifieke fouten die worden aangetroffen.
+In de [&#x200B; eenvoudige uitdrukkingsredacteur &#x200B;](../condition-activity.md#about_condition), en in de [&#x200B; geavanceerde uitdrukkingsredacteur &#x200B;](../expression/expressionadvanced.md), onder de **Gebeurtenis** en **Gegevensbron** categorieën, kunt u tot de **categorie van de Eigenschappen van de Reis** toegang hebben. Deze categorie bevat technische velden die verband houden met de reis voor een bepaald profiel. Dit is de informatie die door het systeem wordt opgehaald van levende reizen, zoals de reis-ID, of de specifieke fouten die worden aangetroffen.
 
 ![](../assets/journey-properties.png)
 
@@ -29,7 +29,7 @@ Het bevat bijvoorbeeld informatie over:
 * huidige stap, laatste huidige stap, enz.
 * geneste profielen
 
-  De lijst van gebieden is beschikbaar [ in deze sectie ](#journey-properties-fields).
+  De lijst van gebieden is beschikbaar [&#x200B; in deze sectie &#x200B;](#journey-properties-fields).
 
 U kunt deze velden gebruiken om expressies te maken. Tijdens de uitvoering van de reis worden de waarden direct van de reis opgehaald.
 
