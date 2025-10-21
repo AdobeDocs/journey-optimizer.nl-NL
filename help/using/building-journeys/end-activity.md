@@ -10,7 +10,7 @@ level: Intermediate
 keywords: reis, activiteit, einde
 exl-id: 76c74ca3-edaa-48c5-8d6a-0906120e31a1
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 7%
@@ -26,4 +26,6 @@ ht-degree: 7%
 
 Met de **[!UICONTROL End]** -activiteit kunt u het einde van elk pad van de rit markeren. Het is niet verplicht, maar aanbevolen voor visuele duidelijkheid. Als de reis verschillende eindactiviteiten heeft, raden wij u aan om aan elk doel een label toe te voegen om de rapporten leesbaarder te maken. Zie [deze pagina](../reports/live-report.md).
 
+<!--
 ![](assets/journey54.png)
+-->

@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
 badge: label="Beta" type="Informative"
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '435'
 ht-degree: 2%
 
 ---
@@ -22,15 +22,17 @@ ht-degree: 2%
 
 Via de knop **[!UICONTROL View report]** hebt u rechtstreeks vanuit uw campagne toegang tot het algemene rapport van de campagne.
 
-De campagne **[!UICONTROL Global report]** is verdeeld in verschillende widgets waarin het succes van uw campagne en de fouten worden beschreven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Voor meer informatie over dit, verwijs naar deze [&#x200B; sectie &#x200B;](../reports/global-report.md#modify-dashboard).
+De campagne **[!UICONTROL Global report]** is verdeeld in verschillende widgets waarin het succes van uw campagne en de fouten worden beschreven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Raadpleeg deze <!--[section](../reports/global-report.md#modify-dashboard)--> voor meer informatie hierover.
 
-Voor een gedetailleerde lijst van elke metrisch beschikbaar in Adobe Journey Optimizer, verwijs naar [&#x200B; deze pagina &#x200B;](global-report.md#list-of-components-global.md)
+Raadpleeg <!--[this page](global-report.md#list-of-components-global.md)--> voor een gedetailleerde lijst met alle beschikbare metrische informatie in Adobe Journey Optimizer.
 
 ## Tabblad Campagne {#campaign-global-objectives}
 
 ### Levering {#delivery-global-objectives}
 
+<!--
 ![](assets/campaign_report_global_1.png)
+-->
 
 De **[!UICONTROL Campaign's Statistics]** -widget geeft de belangrijkste informatie met betrekking tot uw campagne:
 
@@ -50,7 +52,7 @@ De **[!UICONTROL Campaign's Statistics]** -widget geeft de belangrijkste informa
 
 Op het tabblad **[!UICONTROL Objectives]** kunt u de rapporten van uw leveringen perfectioneren door een specifieke meting uit te voeren.
 
-De lijst **[!UICONTROL Objectives]** is gekoppeld aan **[!UICONTROL Datasets]** die een verbinding met een systeem definiëren om aanvullende informatie op te halen. Er is een lijst met ingebouwde **[!UICONTROL Objectives]** beschikbaar, maar u kunt uw eigen lijst toevoegen door nieuwe **[!UICONTROL Dataset]** toe te voegen. Voor de gedetailleerde procedure, verwijs naar deze [&#x200B; sectie &#x200B;](../reports/reporting-configuration.md).
+De lijst **[!UICONTROL Objectives]** is gekoppeld aan **[!UICONTROL Datasets]** die een verbinding met een systeem definiëren om aanvullende informatie op te halen. Er is een lijst met ingebouwde **[!UICONTROL Objectives]** beschikbaar, maar u kunt uw eigen lijst toevoegen door nieuwe **[!UICONTROL Dataset]** toe te voegen. Voor de gedetailleerde procedure, verwijs naar deze [ sectie ](../reports/reporting-configuration.md).
 
 Nadat u de doelstellingen hebt geselecteerd waarop u zich wilt richten, geven de twee **[!UICONTROL Performance overview]** - en **[!UICONTROL Campaign objective]** -widgets een gedetailleerd overzicht van de prestaties van de levering.
 
@@ -58,13 +60,15 @@ Met de **[!UICONTROL Campaign objective]** -widget kunt u er ook voor kiezen om 
 
 ### Experimentatierapport {#experimentation-global-objectives}
 
+<!--
 ![](assets/experimentation_report_3.png)
+-->
 
 Het tabblad **[!UICONTROL Experimentation]** biedt belangrijke inzichten in de prestaties van elke variant en identificeert de meest succesvolle variant.
 
 Het kan enige tijd duren om de beste uitvoerder te definiëren. Dit wordt aangeduid met dit pictogram ![](assets/experimentation_report_1.png) .
 
-+++Meer informatie over de verschillende meetgegevens en widgets die beschikbaar zijn voor het rapport Experimentation.
++++Meer informatie over de verschillende maatstaven en widgets die beschikbaar zijn voor het rapport Experimentation.
 
 De **[!UICONTROL Experiment result]** -widget geeft de prestaties van elke variant weer. U kunt de basislijn wijzigen door een van de behandelingen te selecteren in de vervolgkeuzelijst **[!UICONTROL Baseline]** . De beste behandeling wordt weergegeven met een sterpictogram.
 
@@ -83,4 +87,4 @@ De tabel bevat de volgende cijfers:
 De grafiek van **[!UICONTROL Confidence interval]** meet onzekerheid rond verbetering. Het geeft het procentuele verschil in prestaties weer tussen de basislijn en de best presterende behandeling. [Meer informatie](../content-management/experiment-calculations.md#confidence-intervals).
 +++
 
-Voor diepte-duik in deze resultaten en hoe te om hen te interpreteren, verwijs naar [&#x200B; deze pagina &#x200B;](../content-management/get-started-experiment.md#interpret-results).
+Voor diepte-duik in deze resultaten en hoe te om hen te interpreteren, verwijs naar [ deze pagina ](../content-management/get-started-experiment.md#interpret-results).

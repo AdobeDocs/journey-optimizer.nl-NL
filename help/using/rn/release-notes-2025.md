@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 4bb16689d9af805a077b4c87540bd23162f84bbb
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '6597'
 ht-degree: 5%
@@ -288,9 +288,9 @@ Journey Optimizer omvat nu **Organiseren van de Campagne**, een nieuw vermogen d
 >
 >Om tot Campagneorganisatie toegang te hebben, moet uw vergunning of de **Journey Optimizer - Campagnes &amp; Reizen** of **Journey Optimizer - het pakket van Campagnes** omvatten. Neem contact op met uw Adobe-vertegenwoordiger om uw licentie te bevestigen en indien nodig bij te werken.
 
-![&#x200B; de Orchestratie GIF van de Campagne &#x200B;](assets/do-not-localize/release.gif)
+![ de Orchestratie GIF van de Campagne ](assets/do-not-localize/release.gif)
 
-Het omvat [&#x200B; Relationele Schema&#39;s &amp; Datasets &#x200B;](#oc-relational) en [&#x200B; het Canvas van de Campagne &#x200B;](#oc-canvas). Samen ontsluiten deze twee innovaties een nieuwe norm voor het organiseren van batchcampagnes in Journey Optimizer. De belangrijkste mogelijkheden worden hieronder vermeld.
+Het omvat [ Relationele Schema&#39;s &amp; Datasets ](#oc-relational) en [ het Canvas van de Campagne ](#oc-canvas). Samen ontsluiten deze twee innovaties een nieuwe norm voor het organiseren van batchcampagnes in Journey Optimizer. De belangrijkste mogelijkheden worden hieronder vermeld.
 
 ### Belangrijkste mogelijkheden {#oc-capabilities}
 
@@ -338,7 +338,7 @@ Deze release geeft marketeers volledige controle over merkgebaseerde batchmarket
 
 ### Meer informatie
 
-Leer meer in de [&#x200B; documentatie van het Organiseren van de Campagne &#x200B;](../orchestrated/gs-orchestrated-campaigns.md).
+Leer meer in de [ documentatie van het Organiseren van de Campagne ](../orchestrated/gs-orchestrated-campaigns.md).
 
 
 ## Opmerkingen bij de release van juli 1925 {#25-7-rn}
@@ -454,11 +454,11 @@ Abonneren:
 
 ### Verandering van de reisomstandigheden {#ee-change@}
 
-Vanaf 8 juli wordt in nieuwe klantenorganisaties het maken van expressies met behulp van ervaringsgebeurtenissen niet langer ondersteund in de expressie-editor die wordt gebruikt in reisomstandigheden. Dientengevolge, kan de ervaringsgebeurtenissen in de [&#x200B; gegevensbron van Experience Platform &#x200B;](../datasource/adobe-experience-platform-data-source.md) niet voor het creëren van uitdrukkingen worden gebruikt. De alternatieve benaderingen en beste praktijken voor het creëren van uitdrukkingen/logica met ervaringsgebeurtenissen worden van verwijzingen voorzien [&#x200B; hier &#x200B;](../building-journeys/exp-event-lookup.md).
+Vanaf 8 juli wordt in nieuwe klantenorganisaties het maken van expressies met behulp van ervaringsgebeurtenissen niet langer ondersteund in de expressie-editor die wordt gebruikt in reisomstandigheden. Dientengevolge, kan de ervaringsgebeurtenissen in de [ gegevensbron van Experience Platform ](../datasource/adobe-experience-platform-data-source.md) niet voor het creëren van uitdrukkingen worden gebruikt. De alternatieve benaderingen en beste praktijken voor het creëren van uitdrukkingen/logica met ervaringsgebeurtenissen worden van verwijzingen voorzien [ hier ](../building-journeys/exp-event-lookup.md).
 
 Er is geen wijziging in de manier waarop gegevens over de reiscontext worden benaderd tijdens eenheidstreizen. In de redacteurs van de uitdrukking en van de verpersoonlijking, kunnen de gebruikers tot gegevens blijven toegang hebben die met de aanvankelijke reisgebeurtenis worden overgegaan.
 
-Leer meer [&#x200B; in dit FAQ &#x200B;](../building-journeys/exp-event-lookup.md#faq-ee).
+Leer meer [ in dit FAQ ](../building-journeys/exp-event-lookup.md#faq-ee).
 
 ### Verbeteringen {#25-7-improv}
 
@@ -937,11 +937,11 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 * **Omslagen voor malplaatjes en fragmenten** - de datum van de Beschikbaarheid: 20 mei, 2025
 
-  Met mappen kunt u uw objecten gemakkelijker en effectiever ordenen in een gestructureerde hiërarchie. Eerder beschikbaar voor een reeks organisaties (LA), zijn de omslagen nu beschikbaar aan alle gebruikers (GA) om hun inhoudsmalplaatjes en fragmenten te beheren. Lees meer in de [&#x200B; malplaatjes van de Inhoud &#x200B;](../content-management/access-content-templates.md#folders) en [&#x200B; Fragmenten &#x200B;](../content-management/manage-fragments.md#folders) secties.
+  Met mappen kunt u uw objecten gemakkelijker en effectiever ordenen in een gestructureerde hiërarchie. Eerder beschikbaar voor een reeks organisaties (LA), zijn de omslagen nu beschikbaar aan alle gebruikers (GA) om hun inhoudsmalplaatjes en fragmenten te beheren. Lees meer in de [ malplaatjes van de Inhoud ](../content-management/access-content-templates.md#folders) en [ Fragmenten ](../content-management/manage-fragments.md#folders) secties.
 
 * **klik het volgen in e-mailmalplaatjes** - de datum van de Beschikbaarheid: 20 mei, 2025
 
-  Klik op bijhouden op `<area>` -elementen in afbeeldingen met hyperlinks in e-mailinhoud worden nu standaard ondersteund in [!DNL Journey Optimizer] . Op deze manier zorgt u ervoor dat gebieden met afbeeldingskaarten dezelfde tekstomloop, tekstspatiëringsgegevens en toegevoegde parameters krijgen als standaardhyperlinks. [&#x200B; Leer meer bij bericht het volgen &#x200B;](../email/message-tracking.md#manage-tracking)
+  Klik op bijhouden op `<area>` -elementen in afbeeldingen met hyperlinks in e-mailinhoud worden nu standaard ondersteund in [!DNL Journey Optimizer] . Op deze manier zorgt u ervoor dat gebieden met afbeeldingskaarten dezelfde tekstomloop, tekstspatiëringsgegevens en toegevoegde parameters krijgen als standaardhyperlinks. [ Leer meer bij bericht het volgen ](../email/message-tracking.md#manage-tracking)
 
 <!--
 * **Decisioning - Leverage Adobe Experience Platform datasets** 
@@ -1226,7 +1226,7 @@ Er zijn nieuwe API&#39;s beschikbaar voor het weergeven van voorvertoningen van 
 
 * **Inhoudsbeheer** - Beschikbaarheidsdatum: 2 april 2025
 
-  Om uw inhoudsmalplaatjes en fragmenten gemakkelijk te beheren, kunt u omslagen nu gebruiken om hen effectiever te organiseren in een gestructureerde hiërarchie. Leer meer in de [&#x200B; malplaatjes van de Inhoud &#x200B;](../content-management/access-content-templates.md#folders) en [&#x200B; Fragmenten &#x200B;](../content-management/manage-fragments.md#folders) secties.
+  Om uw inhoudsmalplaatjes en fragmenten gemakkelijk te beheren, kunt u omslagen nu gebruiken om hen effectiever te organiseren in een gestructureerde hiërarchie. Leer meer in de [ malplaatjes van de Inhoud ](../content-management/access-content-templates.md#folders) en [ Fragmenten ](../content-management/manage-fragments.md#folders) secties.
 
   >[!AVAILABILITY]
   >
@@ -1393,6 +1393,7 @@ De nieuwe mogelijkheden die met deze release worden geleverd, worden hieronder b
 **de redacteur van Personalization** (beschikbaarheidsdatum: Maart 12)
 
 De Journey Optimizer personalization editor is bijgewerkt met nieuwe mogelijkheden:
+
 * **Bijgewerkt Ontwerp van de Redacteur van de Code** - een helderdere, moderne interface voor betere bruikbaarheid en nadruk.
 * **Onderzoek en vervang** - Toegevoegde functionaliteit om inhoud binnen de redacteur snel te vinden en te vervangen.
 * **maak en herhaal Steun** ongedaan - staat u toe om veranderingen gemakkelijk terug te keren of opnieuw toe te passen.
@@ -1401,7 +1402,7 @@ De Journey Optimizer personalization editor is bijgewerkt met nieuwe mogelijkhed
 * **auto-Volledig voor Profiel en de Attributen van de Context** - Biedt slimme suggesties aan om inhoudsverwezenlijking te stroomlijnen.
 * **Verbeterde Syntaxis die** benadrukt - verbetert leesbaarheid door codestructuur visueel duidelijker te maken.
 
-![&#x200B; Video die nieuwe eigenschap in de Redacteur van Personalization toont &#x200B;](assets/do-not-localize/personalization-editor.gif)
+![ Video die nieuwe eigenschap in de Redacteur van Personalization toont ](assets/do-not-localize/personalization-editor.gif)
 
 Raadpleeg de [gedetailleerde documentatie](../personalization/personalization-build-expressions.md) voor meer informatie.
 
@@ -1419,15 +1420,15 @@ Raadpleeg de [gedetailleerde documentatie](../test-approve/approval-policies.md)
 
 **Bedrijfs regels**
 
-U kunt nu dagelijkse aftopping gebruiken in reizen en campagnes met batchsegmentatie. Om ervoor te zorgen dat de regels voor dagelijkse frequentiecapping correct zijn, moet u de naamruimte met de hoogste prioriteit kiezen tijdens het ontwerpen van een campagne of een reis. Leer meer over namespace prioriteit in de [&#x200B; gids van de Dienst van de Identiteit van het Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+U kunt nu dagelijkse aftopping gebruiken in reizen en campagnes met batchsegmentatie. Om ervoor te zorgen dat de regels voor dagelijkse frequentiecapping correct zijn, moet u de naamruimte met de hoogste prioriteit kiezen tijdens het ontwerpen van een campagne of een reis. Leer meer over namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
 Ter herinnering: dagelijkse frequentiecapping in regelsets is alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
-Voor meer informatie over bedrijfsregels, verwijs naar de [&#x200B; gedetailleerde documentatie &#x200B;](../conflict-prioritization/rule-sets.md).
+Voor meer informatie over bedrijfsregels, verwijs naar de [ gedetailleerde documentatie ](../conflict-prioritization/rule-sets.md).
 
 **Contentsjablonen**
 
-Sjablonen voor HTML-tekstinhoud zijn nu vervangen. U kunt nog steeds bestaande HTML-inhoudssjablonen gebruiken die eerder in [!DNL Journey Optimizer] zijn gemaakt. [&#x200B; Leer meer op inhoudsmalplaatjes &#x200B;](../content-management/content-templates.md)
+Sjablonen voor HTML-tekstinhoud zijn nu vervangen. U kunt nog steeds bestaande HTML-inhoudssjablonen gebruiken die eerder in [!DNL Journey Optimizer] zijn gemaakt. [ Leer meer op inhoudsmalplaatjes ](../content-management/content-templates.md)
 
 
 <!--**Deliverability**
@@ -1548,7 +1549,7 @@ De verbeteringen hieronder komen met de update van februari.
 
   Deze wijziging wordt in een volgende fase doorgevoerd in bestaande sandboxen voor klanten.
 
-  Leer meer over deze update in [&#x200B; specifieke FAQ &#x200B;](../data/datasets-ttl.md#frequently-asked-questions).
+  Leer meer over deze update in [ specifieke FAQ ](../data/datasets-ttl.md#frequently-asked-questions).
 
 <!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
@@ -1563,7 +1564,7 @@ De verbeteringen hieronder komen met de update van februari.
 * The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
 
 
-* **E-mailconfiguratie** - als u toestemming buiten Adobe beheert, kunt u een douane plaatsen unsubscribe e-mailadres en een douane één-klik unsubscribe URL als deel van uw montages van de de kanaalconfiguratie van e-mail. [&#x200B; las meer &#x200B;](../email/list-unsubscribe.md#custom-managed)
+* **E-mailconfiguratie** - als u toestemming buiten Adobe beheert, kunt u een douane plaatsen unsubscribe e-mailadres en een douane één-klik unsubscribe URL als deel van uw montages van de de kanaalconfiguratie van e-mail. [ las meer ](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 

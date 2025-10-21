@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: kanaal, oppervlak, technisch, parameters, optimalisator
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '1739'
 ht-degree: 0%
@@ -32,9 +32,9 @@ Met [!DNL Journey Optimizer] kunt u kanaalconfiguraties instellen (d.w.z. voorin
 
 >[!CAUTION]
 >
-> * Om kanaalconfiguraties tot stand te brengen, uit te geven en te schrappen, moet u [&#x200B; hebben berichten vooraf instelt &#x200B;](../administration/high-low-permissions.md#administration-permissions) toestemming beheren.
+> * Om kanaalconfiguraties tot stand te brengen, uit te geven en te schrappen, moet u [ hebben berichten vooraf instelt ](../administration/high-low-permissions.md#administration-permissions) toestemming beheren.
 >
-> * U moet de [&#x200B; E-mailconfiguratie &#x200B;](../email/get-started-email-config.md), [&#x200B; Push configuratie &#x200B;](../push/push-configuration.md), [&#x200B; configuratie van SMS &#x200B;](../sms/sms-configuration.md), [&#x200B; in-app configuratie &#x200B;](../in-app/inapp-configuration.md), [&#x200B; op code-Gebaseerde configuratie &#x200B;](../code-based/code-based-configuration.md), [&#x200B; configuratie van het Web &#x200B;](../web/web-configuration.md) en [&#x200B; Directe postconfiguratie &#x200B;](../direct-mail/direct-mail-configuration.md) stappen alvorens kanaalconfiguraties tot stand te brengen.
+> * U moet de [ E-mailconfiguratie ](../email/get-started-email-config.md), [ Push configuratie ](../push/push-configuration.md), [ configuratie van SMS ](../sms/sms-configuration.md), [ in-app configuratie ](../in-app/inapp-configuration.md), [ op code-Gebaseerde configuratie ](../code-based/code-based-configuration.md), [ configuratie van het Web ](../web/web-configuration.md) en [ Directe postconfiguratie ](../direct-mail/direct-mail-configuration.md) stappen alvorens kanaalconfiguraties tot stand te brengen.
 
 Zodra de kanaalconfiguraties zijn gevormd, zult u hen kunnen selecteren wanneer het creëren van berichten van een reis of een campagne.
 
@@ -75,7 +75,7 @@ Ga als volgt te werk om een kanaalconfiguratie te maken:
    >
    > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook onderstrepingsteken `_` -, punt `.` - en afbreekstreepjes `-` gebruiken.
 
-1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [&#x200B; leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) &#x200B;](../administration/object-based-access.md).
+1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md).
 
 1. Selecteer het kanaal.
 
@@ -83,7 +83,7 @@ Ga als volgt te werk om een kanaalconfiguratie te maken:
 
    >[!NOTE]
    >
-   >Het beleid van de toestemming is momenteel slechts beschikbaar voor organisaties die het **Bevel van de Gezondheidszorg** en **Privacy en het 3&rbrace; toe:voegen-op dienstenaanbod van het Schild van de Veiligheid hebben gekocht.**
+   >Het beleid van de toestemming is momenteel slechts beschikbaar voor organisaties die het **Bevel van de Gezondheidszorg** en **Privacy en het 3} toe:voegen-op dienstenaanbod van het Schild van de Veiligheid hebben gekocht.**
 
    ![](assets/surface-marketing-action.png)
 
@@ -93,7 +93,7 @@ Ga als volgt te werk om een kanaalconfiguratie te maken:
 
    >[!NOTE]
    >
-   >U kunt niet met de verwezenlijking van de e-mailconfiguratie te werk gaan terwijl de geselecteerde IP pool onder [&#x200B; uitgave &#x200B;](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status) is, en nooit met geselecteerde subdomain is geassocieerd. [Meer informatie](#subdomains-and-ip-pools)
+   >U kunt niet met de verwezenlijking van de e-mailconfiguratie te werk gaan terwijl de geselecteerde IP pool onder [ uitgave ](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status) is, en nooit met geselecteerde subdomain is geassocieerd. [Meer informatie](#subdomains-and-ip-pools)
    >
    >Sparen de configuratie als ontwerp en wacht tot de IP pool de **[!UICONTROL Success]** status heeft om configuratieverwezenlijking te hervatten.
 
@@ -121,7 +121,7 @@ Ga als volgt te werk om een kanaalconfiguratie te maken:
 
    >[!NOTE]
    >
-   >Als de controles niet succesvol zijn, leer meer over de mogelijke mislukkingsredenen in [&#x200B; deze sectie &#x200B;](#monitor-channel-surfaces).
+   >Als de controles niet succesvol zijn, leer meer over de mogelijke mislukkingsredenen in [ deze sectie ](#monitor-channel-surfaces).
 
 1. Wanneer de controles succesvol zijn, krijgt de kanaalconfiguratie de **[!UICONTROL Active]** status. Het is klaar om te worden gebruikt om berichten te leveren.
 
@@ -145,7 +145,7 @@ Na het maken kunnen kanaalconfiguraties de volgende statussen hebben:
 
 Wanneer een kanaalconfiguratie mislukt, worden de details van elke mogelijke oorzaak van een fout hieronder beschreven.
 
-Als één van deze fouten voorkomt, contacteer [&#x200B; de Zorg van de Klant van Adobe &#x200B;](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} om hulp te krijgen.
+Als één van deze fouten voorkomt, contacteer [ de Zorg van de Klant van Adobe ](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} om hulp te krijgen.
 
 * **ontbroken bevestiging SPF**: SPF (het Kader van het Beleid van de Afzender) is een e-mailauthentificatieprotocol dat toestaat om erkende IPs te specificeren die e-mail van een bepaald subdomein kan verzenden. De de bevestigingsmislukking van SPF betekent dat de IP adressen in het SPF- verslag niet de IP adressen aanpassen die voor het verzenden van e-mails naar de brievenbusleveranciers worden gebruikt.
 
@@ -183,7 +183,7 @@ Volg onderstaande stappen om een kanaalconfiguratie te bewerken.
    >
    >U kunt de kanaalconfiguratie ook opslaan als concept en de update later hervatten.
 
-Zodra de veranderingen worden voorgelegd, zal de kanaalconfiguratie door een bevestigingscyclus gelijkend op op op zijn plaats gaan wanneer [&#x200B; creërend een kanaalconfiguratie &#x200B;](#create-channel-surface). De tijd van de diaverwerking kan tot **3 uren** vergen.
+Zodra de veranderingen worden voorgelegd, zal de kanaalconfiguratie door een bevestigingscyclus gelijkend op op op zijn plaats gaan wanneer [ creërend een kanaalconfiguratie ](#create-channel-surface). De tijd van de diaverwerking kan tot **3 uren** vergen.
 
 >[!NOTE]
 >
@@ -221,7 +221,7 @@ Verscheidene leveringscontroles zullen worden uitgevoerd om te verifiëren dat d
 >
 >Als u alleen de velden **[!UICONTROL Description]** , **[!UICONTROL Email type]** en/of **[!UICONTROL Email retry parameters]** bewerkt, wordt de update onmiddellijk uitgevoerd.
 
-De verwerkingstijd kan tot **3 uren** vergen. Leer meer over de controles die tijdens de bevestigingscyclus in [&#x200B; worden uitgevoerd deze sectie &#x200B;](#create-channel-surface).
+De verwerkingstijd kan tot **3 uren** vergen. Leer meer over de controles die tijdens de bevestigingscyclus in [ worden uitgevoerd deze sectie ](#create-channel-surface).
 
 Als u een configuratie bewerkt die al actief was:
 
@@ -238,6 +238,7 @@ Als u een configuratie bewerkt die al actief was:
 #### Succes {#success}
 
 Zodra het bevestigingsproces succesvol is, wordt de nieuwe versie van de configuratie automatisch gebruikt in alle berichten die deze configuratie gebruiken. Het kan echter zijn dat u moet wachten:
+
 * een paar minuten voordat het wordt verbruikt door de eenheidspublicaties,
 * tot de volgende partij voor de configuratie om in partijberichten efficiënt te zijn.
 
@@ -245,7 +246,7 @@ Zodra het bevestigingsproces succesvol is, wordt de nieuwe versie van de configu
 
 Als het validatieproces mislukt, wordt de oudere versie van de configuratie nog steeds gebruikt.
 
-Leer meer over de mogelijke mislukkingsredenen in [&#x200B; deze sectie &#x200B;](#monitor-channel-surfaces).
+Leer meer over de mogelijke mislukkingsredenen in [ deze sectie ](#monitor-channel-surfaces).
 
 Als de update mislukt, kan de configuratie opnieuw worden bewerkt. U kunt op de naam van de component klikken en de instellingen bijwerken die moeten worden hersteld.
 
@@ -255,7 +256,7 @@ Als u een kanaalconfiguratie van **[!UICONTROL Active]** niet beschikbaar wilt m
 
 >[!NOTE]
 >
->U kunt een kanaalconfiguratie niet deactiveren terwijl een update wordt verwerkt. U moet wachten tot de update is gelukt of mislukt. Leer meer over [&#x200B; het uitgeven kanaalconfiguraties &#x200B;](#edit-channel-surface) en op de [&#x200B; updatestatus &#x200B;](#update-statuses).
+>U kunt een kanaalconfiguratie niet deactiveren terwijl een update wordt verwerkt. U moet wachten tot de update is gelukt of mislukt. Leer meer over [ het uitgeven kanaalconfiguraties ](#edit-channel-surface) en op de [ updatestatus ](#update-statuses).
 
 1. Open de lijst met kanaalconfiguraties.
 
@@ -281,11 +282,11 @@ U kunt een gedeactiveerde kanaalconfiguratie niet rechtstreeks bewerken. U kunt 
 
 1. Klik op **[!UICONTROL Edit Tags]**.
 
-1. Selecteer Adobe Experience Platform-tags in de lijst om uw kanaalconfiguratie te categoriseren voor een verbeterde zoekopdracht. [&#x200B; Leer hoe te met Verenigde Markeringen &#x200B;](../start/search-filter-categorize.md#tags) te werken
+1. Selecteer Adobe Experience Platform-tags in de lijst om uw kanaalconfiguratie te categoriseren voor een verbeterde zoekopdracht. [ Leer hoe te met Verenigde Markeringen ](../start/search-filter-categorize.md#tags) te werken
 
    ![](assets/config-edit-tags.png)
 
-1. Zodra u markeringen aan uw kanaalconfiguraties toewees, kunt u [&#x200B; filter &#x200B;](../start/search-filter-categorize.md#filter-on-tags) hen op markeringen.
+1. Zodra u markeringen aan uw kanaalconfiguraties toewees, kunt u [ filter ](../start/search-filter-categorize.md#filter-on-tags) hen op markeringen.
 
 ## Hoe kan ik-video{#video-presets}
 
