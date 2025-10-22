@@ -7,9 +7,9 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 1247742550ab5fbd22ab8efc4300fd5c0d1a5c12
+source-git-commit: 9ef761d216867c302a9c367dc509a52dc08fb06c
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '462'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ Gebruik Real-time klantprofiel in [!DNL Adobe Journey Optimizer] om een holistis
 
 >[!NOTE]
 >
->Bij het invoeren van gegevens zijn e-mails hoofdlettergevoelig. Dit houdt in dat dubbele profielen kunnen worden gemaakt (bijvoorbeeld één profiel voor John.Greene@luma.com, een ander profiel voor john.green@luma.com) en worden gebruikt wanneer u zich richt op deze profielen tijdens uw [!DNL Journey Optimizer] -reizen en -campagnes.
+>Bij het invoeren van gegevens zijn e-mails hoofdlettergevoelig. Dit betekent dat er dubbele profielen kunnen worden gemaakt (bijvoorbeeld één profiel voor John.Greene@luma.com, een ander profiel voor john.greene@luma.com) en gebruikt wanneer u zich richt op de overeenkomstige ontvanger tijdens uw [!DNL Journey Optimizer] -reizen en -campagnes.
 
 **Grafiek van de Identiteit** - combineer gegevens van verschillende bronnen gebruikend klantenidentiteiten, zoals loyaliteit IDs of het systeem IDs van CRM. &#x200B;Creeer een uitvoerige mening van de klant door verhoudingen tussen verschillende identiteiten binnen de datasets van een merk in kaart te brengen. &#x200B;
 
@@ -39,8 +39,8 @@ Gebruik Real-time klantprofiel in [!DNL Adobe Journey Optimizer] om een holistis
 >[!MORELIKETHIS]
 >
 >* [Documentatie bij real-timeklantprofiel](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl){target="_blank"}
->* [&#x200B; StandaardGaranties voor gegevens en segmentatie van het Profiel van de Klant in real time &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/guardrails){target="_blank"}
->* &#x200B; [&#x200B; de documentatie van de Ingestie van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ingestion/home){target="_blank"}
+>* [ StandaardGaranties voor gegevens en segmentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"}
+>* &#x200B; [ de documentatie van de Ingestie van Gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## Profieldashboard
 
@@ -48,9 +48,9 @@ Navigeer naar het menu **[!UICONTROL Customer]** / **[!UICONTROL Profiles]** in 
 
 >[!NOTE]
 >
->Als uw organisatie aan [!DNL Adobe Journey Optimizer] nieuw is en nog geen actieve datasets van het Profiel of gecreeerd samenvoegbeleid heeft, is het **Profielen** dashboard niet zichtbaar. In plaats daarvan, toont het **Overzicht** lusje verbindingen aan de documentatie van Adobe Experience Platform om u te helpen met het Profiel van de Klant in real time beginnen. Leren hoe te met het **dashboard van het Profiel** en gedetailleerde informatie betreffende de metriek te werken die in het dashboard wordt getoond, verwijs naar [&#x200B; deze sectie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=nl-NL){target="_blank"}.
+>Als uw organisatie aan [!DNL Adobe Journey Optimizer] nieuw is en nog geen actieve datasets van het Profiel of gecreeerd samenvoegbeleid heeft, is het **Profielen** dashboard niet zichtbaar. In plaats daarvan, toont het **Overzicht** lusje verbindingen aan de documentatie van Adobe Experience Platform om u te helpen met het Profiel van de Klant in real time beginnen. Leren hoe te met het **dashboard van het Profiel** en gedetailleerde informatie betreffende de metriek te werken die in het dashboard wordt getoond, verwijs naar [ deze sectie ](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html){target="_blank"}.
 
-U kunt gegevensfragmenten van veelvoudige bronnen samenbrengen en hen combineren om een volledige mening van elk van uw individuele klanten te zien. Wanneer het brengen van deze gegevens samen, zijn het fusiebeleid de regels die worden gebruikt om te bepalen hoe de gegevens voorrang krijgen en welke gegevens worden gecombineerd om de verenigde mening tot stand te brengen. Leer meer over **beleid van de Fusie** in deze [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=nl-NL){target="_blank"}.
+U kunt gegevensfragmenten van veelvoudige bronnen samenbrengen en hen combineren om een volledige mening van elk van uw individuele klanten te zien. Wanneer het brengen van deze gegevens samen, zijn het fusiebeleid de regels die worden gebruikt om te bepalen hoe de gegevens voorrang krijgen en welke gegevens worden gecombineerd om de verenigde mening tot stand te brengen. Leer meer over **beleid van de Fusie** in deze [ documentatie ](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target="_blank"}.
 
 ![](assets/profiles-home.png)
 
