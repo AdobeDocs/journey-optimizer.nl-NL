@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: bericht, frequentie, regels, druk
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 9cd21ef6552ce8f6ddb2097de883ec1a1bbf06e2
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="Regelsets"
->abstract="Regelsets gebruiken om frequentietoewijzing toe te passen op verschillende typen marketingcommunicatie. U kunt ook regelsets maken om ritten naar een deel van uw publiek uit te sluiten op basis van regels voor frequentiecontrole."
+>abstract="De regelreeksen van het gebruik om frequentie het begrenzen of rustige urenregels op verschillende soorten marketing mededelingen toe te passen. U kunt ook regelsets maken om ritten naar een deel van uw publiek uit te sluiten op basis van regels voor frequentiecontrole."
 
 ## Aan de slag met regelsets {#gs}
 
@@ -31,8 +31,12 @@ De reeksen van de regel staan u toe om **samen veelvoudige regels in regelreekse
 
 U kunt twee typen regelsets maken:
 
-* **de regelreeksen van het Kanaal** passen het afschilderen regels op communicatiekanalen toe. Verzend bijvoorbeeld niet meer dan 1 e-mail- of sms-communicatie per dag.
-* **de regelreeksen van 0&rbrace; Reis &lbrace;passen ingang en gelijktijdige afschilderingsregels op een reis toe.** Voer bijvoorbeeld niet profielen in voor meer dan één reis tegelijk.
+* **de regelreeksen van het Kanaal** passen regels op communicatiekanalen toe. Met deze opties kunt u instellen:
+
+   * **het begrenzen van de frequentie regels** - *verzendt niet meer dan 1 e-mail of sms- mededeling per dag.*
+   * **de urenregels van de stilte** (Beperkte Beschikbaarheid) - *verzendt geen e-mailberichten buiten 8AM - 9PM timeslot.*
+
+* **de regelreeksen van 0} Reis {passen ingang en gelijktijdige afschilderingsregels op een reis toe.** Voer bijvoorbeeld niet profielen in voor meer dan één reis tegelijk.
 
 ➡️ [Ontdek deze functie in video](#video)
 
@@ -43,7 +47,7 @@ Om met bedrijfsregels te werken, hebt u de volgende toestemmingen nodig:
 * **[!UICONTROL View Frequency Rules]**: Toegang tot en weergave van bedrijfsregels.
 * **[!UICONTROL Manage Frequency Rules]**: Maak, bewerk of verwijder bedrijfsregels.
 
-Leer meer over toestemmingen in [&#x200B; deze sectie &#x200B;](../administration/high-low-permissions.md).
+Leer meer over toestemmingen in [ deze sectie ](../administration/high-low-permissions.md).
 
 ### Algemene en aangepaste regelsets {#global-custom}
 
@@ -51,7 +55,7 @@ Wanneer de toegang tot van regelreeksen voor het eerst van **[!UICONTROL Adminis
 
 Deze regelreeks bevat globale regels die u kunt toepassen om te bepalen hoe vaak de gebruikers berichten over één of veelvoudige kanalen ontvangen. Alle regels die in deze regel worden bepaald zijn op alle geselecteerde kanalen van toepassing, of de mededelingen van een reis of een campagne worden verzonden.
 
-Naast deze &quot;Globale Vastgestelde de regel van de Regel van het Standaard&quot;wordt geplaatst, kunt u **regelreeksen** tot stand brengen die u op om het even welke reis of campagne kunt toepassen om specifieke afschilderingsregels toe te passen. [&#x200B; Leer hoe te om de reeksen van de douaneregel tot stand te brengen &#x200B;](#create)
+Naast deze &quot;Globale Vastgestelde de regel van de Regel van het Standaard&quot;wordt geplaatst, kunt u **regelreeksen** tot stand brengen die u op om het even welke reis of campagne kunt toepassen om specifieke afschilderingsregels toe te passen. [ Leer hoe te om de reeksen van de douaneregel tot stand te brengen ](#create)
 
 ![](assets/rule-sets-default.png)
 
@@ -76,7 +80,7 @@ Naast deze &quot;Globale Vastgestelde de regel van de Regel van het Standaard&qu
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="Type regel"
->abstract="Selecteer het gewenste regeltype voor uw geplaatste kanaalregel: Gebruik het **type dat van de het in kaart brengen van de Frequentie** wordt geplaatst om het begrenzen van regels op communicatiekanalen toe te passen. Verzend bijvoorbeeld niet meer dan 1 e-mail- of sms-communicatie per dag. Selecteer **stille uren** (beschikbaar in Beperkte Beschikbaarheid) om op tijd-gebaseerde uitsluitingen te bepalen om ervoor te zorgen dat geen berichten tijdens specifieke periodes&quot;worden verzonden."
+>abstract="Selecteer het gewenste regeltype voor uw geplaatste kanaalregel: Gebruik het **type dat van de het in kaart brengen van de Frequentie** wordt geplaatst om het begrenzen van regels op communicatiekanalen toe te passen. Verzend bijvoorbeeld niet meer dan 1 e-mail- of sms-communicatie per dag. Selecteer **stille uren** (beschikbaar in Beperkte Beschikbaarheid) om op tijd-gebaseerde uitsluitingen te bepalen om ervoor te zorgen dat geen berichten tijdens specifieke periodes&quot;worden verzonden.
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -107,7 +111,7 @@ Volg onderstaande stappen om een regelset te maken.
 
 1. Selecteer het domein van de regelset en klik op **[!UICONTROL Save]** .
 
-   * **het domein van het Kanaal**: pas het begrenzen regels voor communicatiekanalen toe.
+   * **het domein van het Kanaal**: pas het begrenzen van regels of rustige urenregels op communicatiekanalen toe.
    * **Reis** domein: pas ingang en gelijktijdige het afschilderen regels op een reis toe.
 
    ![](assets/rule-sets-create.png)
@@ -116,10 +120,11 @@ Volg onderstaande stappen om een regelset te maken.
 
 1. Vorm de regelparameters om uw behoeften aan te passen. De parameters beschikbaar voor de regel hangen van het regelvastgestelde domein af dat bij zijn verwezenlijking wordt geselecteerd.
 
-   De gedetailleerde informatie over hoe te om reis en kanaalbegrenzingsregels te vormen is beschikbaar in deze secties:
+   De gedetailleerde informatie over hoe te om reis en kanaalregels te vormen is beschikbaar in deze secties:
 
-   * [&#x200B; het in kaart brengen van de Reis &#x200B;](../conflict-prioritization/journey-capping.md)
+   * [ het in kaart brengen van de Reis ](../conflict-prioritization/journey-capping.md)
    * [Frequentiecapaciteit per kanaal en communicatietype](../conflict-prioritization/channel-capping.md)
+   * [ stille uren ](../conflict-prioritization/quiet-hours.md) (beschikbaar in Beperkte beschikbaarheid)
 
 1. Klik op **[!UICONTROL Save]** om het maken van de regel te bevestigen. Uw bericht wordt toegevoegd aan de regelset, met de status **[!UICONTROL Draft]** .
 
@@ -146,7 +151,8 @@ Volg onderstaande stappen om een regelset te maken.
    De gedetailleerde informatie over hoe te om regelreeks toe te passen is beschikbaar in deze secties:
 
    * [Een regel toepassen die is ingesteld op een reis](../conflict-prioritization/journey-capping.md#apply-capping)
-   * [Afdekkingsregels toepassen op een bericht](../conflict-prioritization/channel-capping.md#apply)
+   * [Afdekkingsregels toepassen op reis- en campagneacties](../conflict-prioritization/channel-capping.md#apply)
+   * [Regels voor stille uren toepassen op reizen en campagne](../conflict-prioritization/quiet-hours.md#apply)
 
 ## Regelsets openen en beheren {#access-rule-sets}
 
@@ -174,4 +180,4 @@ De status verandert in **[!UICONTROL Inactive]** en de regel geldt niet voor toe
 
 ## Hoe kan ik-video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444732?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

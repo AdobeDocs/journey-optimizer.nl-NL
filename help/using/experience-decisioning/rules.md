@@ -1,26 +1,33 @@
 ---
-title: Besluitvormingsregels
-description: Leer hoe u met beslissingsregels werkt
-feature: Decisioning
-topic: Integrations
+title: Regels maken
+description: Leer hoe u met regels werkt
+feature: Decisioning, Campaigns, Journeys, Activities
+topic: Integrations, Content Management
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 1%
+source-wordcount: '883'
+ht-degree: 0%
 
 ---
 
-# Besluitvormingsregels {#rules}
+# Regels maken {#rules}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
->title="Beslissingsregels maken"
->abstract="Met beslissingsregels kunt u het publiek voor beslissingsitems definiëren door beperkingen toe te passen, rechtstreeks op het niveau van de beslissingsitems of binnen een specifieke selectiestrategie. Hierdoor kunt u precies bepalen welke items aan wie moeten worden gepresenteerd.<br/><br/> selecteer **[!UICONTROL Create rule with dataset]** om de gegevens van Adobe Experience Platform in besluitvormingsregels te gebruiken. Op deze manier kunt u beleenbaarheidscriteria definiëren op basis van dynamische, externe kenmerken, zodat de beslissingsitems alleen worden weergegeven wanneer dat relevant is."
+>title="Regels maken"
+>abstract="U kunt twee soorten regels tot stand brengen: **besluitvormingsregels** die in besluitvormingspunten of selectiestrategieën kunnen worden gebruikt, om te controleren welke punten aan welk publiek zouden moeten worden voorgesteld, of **richtend regels** om specifieke publiekssegmenten te bepalen geschikt om gepersonaliseerde inhoud te ontvangen, of een specifieke weg van de reis in te gaan.<br/><br/> wanneer het creëren van een besluitvormingsregel, kunt u **[!UICONTROL Enable dataset lookup]** selecteren om de gegevens van Adobe Experience Platform te gebruiken. Op deze manier kunt u beleenbaarheidscriteria definiëren op basis van dynamische, externe kenmerken, zodat de beslissingsitems alleen worden weergegeven wanneer dat relevant is."
 
-## Over beslissingsregels {#about}
+## Over regels {#about}
+
+In [!DNL Journey Optimizer] kunt u twee soorten herbruikbare regels maken:
+
+* [Besluitvormingsregels](#decision-rules)
+* [Doelstellingen](#targeting-rules)
+
+### Besluitvormingsregels {#decision-rules}
 
 Met beslissingsregels kunt u het publiek voor beslissingsitems definiëren door beperkingen toe te passen, rechtstreeks op het niveau van de beslissingsitems of binnen een specifieke selectiestrategie. Hierdoor kunt u precies bepalen welke items aan wie moeten worden gepresenteerd.
 
@@ -30,41 +37,95 @@ Laten we bijvoorbeeld een scenario overwegen waarin u beslissingsitems hebt die 
 >
 >Naast de besluitvormingsregels op het niveau van de item- en selectiestrategie kunt u ook het doelpubliek op campagnereniveau definiëren. [Meer informatie](../campaigns/create-campaign.md#audience)
 
-De lijst met beslissingsregels is toegankelijk in het menu **[!UICONTROL Strategy setup]** .
+### Doelstellingen {#targeting-rules}
 
-![](assets/decision-rules-list.png)
+>[!AVAILABILITY]
+>
+>De gerichte regels zijn momenteel in Beperkte Beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+>
+>Gelieve te merken op dit vermogen slechts beschikbaar aan organisaties is die het **Besluit** toe:voegen-op aanbieden hebben gekocht. Het zal geleidelijk aan aan alle klanten worden uitgevoerd.
 
-## Een beslissingsregel maken {#create}
+De gerichte regels staan toe om specifieke kwalificaties te bepalen die een klant moet worden ontmoet om in aanmerking te komen om gepersonaliseerde inhoud te ontvangen of een specifiek reisweg in te gaan, die op specifieke publiekssegmenten wordt gebaseerd, die u toelaat om subpubliek in uw reizen en campagnes te richten.
 
-Voer de volgende stappen uit om een beslissingsregel te maken:
+Vaak, zijn zij een combinatie veelvoudige attributen, naast de gebeurtenissen van het klantengedrag en contextgegevens. Om u tijd en moeite te besparen, kunt u het richten regels eens tot stand brengen en hen over uw reizen en campagnes opnieuw gebruiken, met de capaciteit om hen op het tijdstip van creatie snel inline te wijzigen.
 
-1. Navigeer naar de knop **[!UICONTROL Strategy setup]** / **[!UICONTROL Decision rules]** en klik vervolgens op de knop **[!UICONTROL Create rule]** .
+U kunt de volgende regels ook gebruiken:
+
+* Wanneer het creëren van [ inhoudsoptimalisering richtend ](../campaigns/campaigns-message-optimization.md#targeting) in reizen of campagnes;
+* Wanneer het bouwen van [ optimalisering van de wegweg ](../building-journeys/optimize.md#targeting).
+
+## Toegangsregels {#access}
+
+De lijst met regels is toegankelijk via **[!UICONTROL Decisioning]** > **[!UICONTROL Strategy setup]** .
+
+De volgende acties zijn beschikbaar:
+
+* U kunt op de regelentiteit (**[!UICONTROL Decision item]** of **[!UICONTROL Targeting]** filtreren - [ Leer meer ](#about)).
+
+* Selecteer een regel door op de naam ervan te klikken en deze te bewerken met de regelbouwer. [ leer hoe ](#create)
+
+* Via de knop **[!UICONTROL More actions]** naast elk item kunt u het volgende doen:
+
+   * Als u de entiteit **[!UICONTROL Decision item]** hebt geselecteerd, voegt u de regel toe aan een pakket om deze naar een andere sandbox te exporteren. Leer hoe te [ voorwerpen naar een andere zandbak ](../configuration/copy-objects-to-sandbox.md) uitvoeren.
+   * Dupliceer een regel.
+   * Verwijder een regel.
+
+![](assets/rules-list.png){width=100%}
+
+* Klik op het pictogram **[!UICONTROL More info]** om de formule weer te geven waaruit de regel bestaat.
+
+![](assets/rule-formula.png){width=60%}
+
+## Een regel maken {#create}
+
+Ga als volgt te werk om een regel te maken:
+
+1. Navigeer naar **[!UICONTROL Decisioning]** > **[!UICONTROL Strategy setup]** > **[!UICONTROL Rules]** en klik vervolgens op de knop **[!UICONTROL Create rule]** .
+
+1. Selecteer de regelentiteit om op te geven voor welk type object de regel wordt gemaakt.
+
+   ![](assets/rules-select-entity.png){width=90%}
+
+   * **[!UICONTROL Decision item]** - de regel kan op a [ besluitpunt ](#decision-rules) in de context van Beslissing worden toegepast;
+   * **[!UICONTROL Targeting]** - de regel kan worden gebruikt wanneer het bouwen van [ richtend ](#targeting-rules) regels, of als deel van [ inhoudoptimalisering ](../campaigns/campaigns-message-optimization.md#targeting) in een campagne of een reis, of in [ optimaliseert reisactiviteit ](../building-journeys/optimize.md#targeting).
+
+1. Als u een **[!UICONTROL Decision item]** -regel maakt, kunt u **[!UICONTROL Enable dataset lookup]** selecteren om gegevens uit Adobe Experience Platform te gebruiken om uw besluitvormingslogica te verrijken met externe gegevens. Dit is vooral nuttig voor attributen die vaak veranderen, zoals productbeschikbaarheid, of prijs in real time.
+
+   >[!AVAILABILITY]
+   >
+   >Deze mogelijkheid is momenteel beschikbaar voor alle klanten als een openbare bètaversie. Neem contact op met uw accountvertegenwoordiger als u toegang wilt. [ Leer hoe te om de gegevens van Adobe Experience Platform voor besluit te gebruiken ](../experience-decisioning/aep-data-exd.md)
+
+1. Het scherm voor het maken van regels wordt geopend. Geef de regel een naam en geef een beschrijving op.
+
+1. Bouw de regel aan uw behoeften gebruikend de Bouwer van het Segment van Adobe Experience Platform. Hiervoor kunt u verschillende gegevensbronnen gebruiken, zoals:
+   * Profielkenmerken;
+   * Eigenschappen van beslissingstips - alleen beschikbaar bij het maken van een **[!UICONTROL Decision item]** -regel;
+   * publiek;
+   * Contextgegevens afkomstig van Adobe Experience Platform. [ Leer hoe te hefboomwerking contextgegevens ](context-data.md)
+
+   ![](assets/decision-rules-build.png){width=85%}
 
    >[!NOTE]
    >
-   >U kunt gegevens van Adobe Experience Platform ook gebruiken om uw besluitvormingslogica met externe gegevens te verrijken. Dit is vooral nuttig voor attributen die vaak veranderen, zoals productbeschikbaarheid, of prijs in real time. Deze mogelijkheid is momenteel beschikbaar voor alle klanten als een openbare bètaversie. Neem contact op met uw accountvertegenwoordiger als u toegang wilt. [&#x200B; Leer hoe te om de gegevens van Adobe Experience Platform voor besluit te gebruiken &#x200B;](../experience-decisioning/aep-data-exd.md)
-
-1. Het scherm van de besluitvormingsregels opent. Geef de regel een naam en geef een beschrijving op.
-
-1. Bouw de beslissingsregel aan uw behoeften gebruikend de Bouwer van het Segment van Adobe Experience Platform. Hiervoor kunt u verschillende gegevensbronnen gebruiken, zoals:
-   * Eigenschappen van profiel- en beslissingsitems,
-   * Soorten publiek
-   * Contextgegevens afkomstig van Adobe Experience Platform. [&#x200B; Leer hoe te hefboomwerking contextgegevens &#x200B;](context-data.md)
-
-   ![](assets/decision-rules-build.png)
-
-   >[!NOTE]
-   >
-   >De opsteller van het Segment die wordt verstrekt om besluitvormingsregels tot stand te brengen stelt wat specifieke kenmerken in vergelijking met die gebruikt met de dienst van de Segmentatie van Adobe Experience Platform. Nochtans, is het globale proces dat in de documentatie wordt beschreven nog geldig om besluitvormingsregels te bouwen. [&#x200B; leer hoe te om segmentdefinities te bouwen &#x200B;](../audience/creating-a-segment-definition.md)
+   >De opsteller van het Segment verstrekte om regels tot stand te brengen heeft sommige specifieke eigenschappen in vergelijking met die gebruikt met de dienst van de Segmentatie van Adobe Experience Platform. Het algemene proces dat in de documentatie wordt beschreven, is echter geldig voor het samenstellen van regels in [!DNL Journey Optimizer] . [ leer hoe te om segmentdefinities te bouwen ](../audience/creating-a-segment-definition.md)
 
 1. Terwijl u nieuwe velden toevoegt en configureert in de werkruimte, wordt in het deelvenster **[!UICONTROL Audience properties]** informatie weergegeven over de geschatte profielen die bij het publiek horen. Klik op **[!UICONTROL Refresh estimate]** om gegevens bij te werken.
 
-   >[!NOTE]
-   >
-   >Profielramingen zijn niet beschikbaar wanneer regelparameters gegevens bevatten die niet in het profiel staan, zoals contextgegevens.
-
-1. Klik op **[!UICONTROL Save]** als de beslissingsregel gereed is. De gemaakte regel wordt in de lijst weergegeven en kan worden gebruikt in besluitvormingselementen en selectiestrategieën om de presentatie van beslissingsitems in profielen te regelen.
+   ![](assets/decision-rule-audience-properties.png){width=85%}
 
    >[!NOTE]
    >
-   >De nestdiepte in een toelatingsregel is beperkt tot 30 niveaus. Dit wordt gemeten door de `)` haakjes sluiten in de PQL-tekenreeks te tellen. Een regeltekenreeks kan maximaal 15 kB groot zijn voor UTF-8-gecodeerde tekens. Dit komt overeen met 15.000 ASCII-tekens (1 byte elk) of 3.750-7.500 niet-ASCII-tekens (2-4 bytes elk). [&#x200B; leer meer over het Beslissen van gidsen &amp; beperkingen &#x200B;](gs-experience-decisioning.md#guardrails)
+   >Profielramingen zijn niet beschikbaar wanneer de regelparameters gegevens bevatten die niet in het profiel zijn opgeslagen, zoals contextgegevens.
+
+1. Klik op **[!UICONTROL Create]** als uw regel gereed is. De gemaakte regel wordt in de lijst weergegeven en is, afhankelijk van de entiteit die u hebt gemaakt, beschikbaar voor gebruik:
+
+   * In **besluitvormingspunten** en **selectiestrategieën** om de presentatie van besluitpunten aan profielen te regeren;
+   * Of wanneer het bouwen van **richtend** in inhoudoptimalisering of wegoptimalisering.
+
+>[!NOTE]
+>
+>De nestdiepte in een regel is beperkt tot 30 niveaus. Dit wordt gemeten door de haakjes sluiten `)` in de PQL-tekenreeks te tellen.
+>
+>Een regeltekenreeks kan maximaal 15 kB groot zijn voor UTF-8-gecodeerde tekens. Dit komt overeen met 15.000 ASCII-tekens (1 byte elk) of 3.750-7.500 niet-ASCII-tekens (2-4 bytes elk).
+>
+>[ Leer meer over de Gidsen van de Regels van de Geschiktheid &amp; beperkingen ](decisioning-guardrails.md#eligibility-rules)

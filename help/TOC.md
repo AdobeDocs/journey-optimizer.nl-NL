@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0aa29a163e337359ea4455edee57bc49fd06a020
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '2999'
+source-wordcount: '3003'
 ht-degree: 18%
 
 ---
@@ -284,8 +284,9 @@ ht-degree: 18%
    + Regels voor het toewijzen van berichten en reizen instellen {#capping-rules}
       + [Regels voor het toewijzen van berichten en reizen instellen](/help/rp_landing_pages/capping-rules-landing-page.md)
       + [Werken met regelsets](using/conflict-prioritization/rule-sets.md)
-      + [Afbakening van reizen en arbitrage](using/conflict-prioritization/journey-capping.md)
-      + [Frequentiecapaciteit per kanaal en communicatietype](using/conflict-prioritization/channel-capping.md)
+      + [Het aftappen van reizen en arbitrage beheren](using/conflict-prioritization/journey-capping.md)
+      + [De frequentietoewijzing per kanaal en type instellen](using/conflict-prioritization/channel-capping.md)
+      + [Stille uren instellen](using/conflict-prioritization/quiet-hours.md)
 + Testen en goedkeuren {#test}
    + [Testen en goedkeuren](/help/rp_landing_pages/test-landing-page.md)
    + Inhoud voorvertonen en testen {#preview-test}
@@ -885,7 +886,7 @@ ht-degree: 18%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
