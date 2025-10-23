@@ -28,7 +28,7 @@ Het volgende voorbeeld bepaalt manueel het **schema van het Membership van de Lo
 
 1. [&#x200B; Samenvatting gegevens &#x200B;](ingest-data.md) in uw dataset van gesteunde bronnen.
 
-➡️ [&#x200B; Leer meer over handmodel-gebaseerde schema&#39;s in de documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [&#x200B; Leer meer over handmodel-gebaseerde schema&#39;s in de documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Uw schema maken {#schema}
 
@@ -110,7 +110,7 @@ Schema&#39;s die worden gebruikt voor activering, moeten ten minste één identi
 
 Nadat u kenmerken hebt gemaakt en opgeslagen, kunt u het schema koppelen aan andere relationele schema&#39;s door relaties te definiëren.
 
-➡️ [&#x200B; Leer meer over relationele schema&#39;s in de documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [&#x200B; Leer meer over relationele schema&#39;s in de documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## Koppelingsschema&#39;s {#link-schema}
 
