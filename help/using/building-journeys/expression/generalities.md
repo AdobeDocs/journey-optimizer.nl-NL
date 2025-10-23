@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Syntaxis van geavanceerde expressie-editor {#syntax}
 
-De grondbeginselen van de syntaxis wanneer het gebruiken van de [ Geavanceerde uitdrukkingsredacteur ](expressionadvanced.md) zijn hieronder vermeld. <!-- Samples of use of the advanced expression editor are available on [this page](advanced-editor-use-cases.md).-->
+De grondbeginselen van de syntaxis wanneer het gebruiken van de [&#x200B; Geavanceerde uitdrukkingsredacteur &#x200B;](expressionadvanced.md) zijn hieronder vermeld. <!-- Samples of use of the advanced expression editor are available on [this page](advanced-editor-use-cases.md).-->
 
 ## Haakjes en prioriteit van expressie {#parentheses-and-expression-priority}
 

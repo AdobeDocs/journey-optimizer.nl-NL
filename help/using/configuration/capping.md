@@ -19,11 +19,11 @@ ht-degree: 6%
 
 Met de API voor uitsnijden kunt u uw configuraties voor uitlijnen maken, configureren en controleren.
 
-Deze sectie bevat algemene informatie over het werken met de API. Een gedetailleerde API beschrijving is beschikbaar in [ documentatie van Adobe Journey Optimizer APIs ](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.
+Deze sectie bevat algemene informatie over het werken met de API. Een gedetailleerde API beschrijving is beschikbaar in [&#x200B; documentatie van Adobe Journey Optimizer APIs &#x200B;](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.
 
 ## API-beschrijving van uitlijnen en Postman-verzameling {#description}
 
-In de onderstaande tabel staan de beschikbare opdrachten voor de API voor aftiteling. De gedetailleerde informatie met inbegrip van verzoeksteekproeven, parameters, en antwoordformaten is beschikbaar in de [ documentatie van Adobe Journey Optimizer APIs ](https://developer.adobe.com/journey-optimizer-apis/references/journeys/){target="_blank"}.
+In de onderstaande tabel staan de beschikbare opdrachten voor de API voor aftiteling. De gedetailleerde informatie met inbegrip van verzoeksteekproeven, parameters, en antwoordformaten is beschikbaar in de [&#x200B; documentatie van Adobe Journey Optimizer APIs &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/journeys/){target="_blank"}.
 
 | Methode | Pad | Beschrijving |
 |---|---|---|
@@ -39,9 +39,9 @@ In de onderstaande tabel staan de beschikbare opdrachten voor de API voor aftite
 Wanneer een configuratie wordt gecreeerd of bijgewerkt, automatisch wordt een controle uitgevoerd om de syntaxis en de integriteit van de lading te waarborgen.
 Als sommige problemen voorkomen, keert de verrichting waarschuwing of fouten terug om u te helpen de configuratie verbeteren.
 
-Bovendien is een inzameling van Postman beschikbaar [ hier ](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Capping-API_postman-collection.json) om u in uw het testen configuratie te helpen.
+Bovendien is een inzameling van Postman beschikbaar [&#x200B; hier &#x200B;](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Capping-API_postman-collection.json) om u in uw het testen configuratie te helpen.
 
-Deze inzameling is opstelling geweest om de Variabele die inzameling van Postman te delen via __[de Integraties van de Console van Adobe I/O wordt geproduceerd ](https://console.adobe.io/integrations) > probeert het uit > Download voor Postman__, die een dossier van het Milieu van Postman met de geselecteerde integratiewaarden produceert.
+Deze inzameling is opstelling geweest om de Variabele die inzameling van Postman te delen via __[de Integraties van de Console van Adobe I/O wordt geproduceerd &#x200B;](https://console.adobe.io/integrations) > probeert het uit > Download voor Postman__, die een dossier van het Milieu van Postman met de geselecteerde integratiewaarden produceert.
 
 Eenmaal gedownload en geüpload naar Postman moet u drie variabelen toevoegen: `{JO_HOST}`,`{BASE_PATH}` en `{SANDBOX_NAME}`.
 
@@ -99,7 +99,7 @@ Voorbeeld:
 
 >[!IMPORTANT]
 >
->De configuratie zal slechts actief na het roepen van **** eindpunt opstellen.
+>De configuratie zal slechts actief na het roepen van **&#x200B;**&#x200B;eindpunt opstellen.
 
 ## Waarschuwing en fouten
 
@@ -130,7 +130,7 @@ De mogelijke waarschuwing is:
 
 Deze sectie bevat een overzicht van de belangrijkste gebruiksgevallen voor het beheer van configuraties met begrenzingen in [!DNL Journey Optimizer] en de bijbehorende API-opdrachten die nodig zijn om het gebruiksscenario te implementeren.
 
-De details op elk API bevel zijn beschikbaar in de [ API beschrijving &amp; inzameling van Postman ](#description).
+De details op elk API bevel zijn beschikbaar in de [&#x200B; API beschrijving &amp; inzameling van Postman &#x200B;](#description).
 
 +++Een nieuwe configuratie voor uitlijnen maken en implementeren
 

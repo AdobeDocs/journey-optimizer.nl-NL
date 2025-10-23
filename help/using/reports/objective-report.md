@@ -52,7 +52,7 @@ De **[!UICONTROL Campaign's Statistics]** -widget geeft de belangrijkste informa
 
 Op het tabblad **[!UICONTROL Objectives]** kunt u de rapporten van uw leveringen perfectioneren door een specifieke meting uit te voeren.
 
-De lijst **[!UICONTROL Objectives]** is gekoppeld aan **[!UICONTROL Datasets]** die een verbinding met een systeem definiëren om aanvullende informatie op te halen. Er is een lijst met ingebouwde **[!UICONTROL Objectives]** beschikbaar, maar u kunt uw eigen lijst toevoegen door nieuwe **[!UICONTROL Dataset]** toe te voegen. Voor de gedetailleerde procedure, verwijs naar deze [ sectie ](../reports/reporting-configuration.md).
+De lijst **[!UICONTROL Objectives]** is gekoppeld aan **[!UICONTROL Datasets]** die een verbinding met een systeem definiëren om aanvullende informatie op te halen. Er is een lijst met ingebouwde **[!UICONTROL Objectives]** beschikbaar, maar u kunt uw eigen lijst toevoegen door nieuwe **[!UICONTROL Dataset]** toe te voegen. Voor de gedetailleerde procedure, verwijs naar deze [&#x200B; sectie &#x200B;](../reports/reporting-configuration.md).
 
 Nadat u de doelstellingen hebt geselecteerd waarop u zich wilt richten, geven de twee **[!UICONTROL Performance overview]** - en **[!UICONTROL Campaign objective]** -widgets een gedetailleerd overzicht van de prestaties van de levering.
 
@@ -87,4 +87,4 @@ De tabel bevat de volgende cijfers:
 De grafiek van **[!UICONTROL Confidence interval]** meet onzekerheid rond verbetering. Het geeft het procentuele verschil in prestaties weer tussen de basislijn en de best presterende behandeling. [Meer informatie](../content-management/experiment-calculations.md#confidence-intervals).
 +++
 
-Voor diepte-duik in deze resultaten en hoe te om hen te interpreteren, verwijs naar [ deze pagina ](../content-management/get-started-experiment.md#interpret-results).
+Voor diepte-duik in deze resultaten en hoe te om hen te interpreteren, verwijs naar [&#x200B; deze pagina &#x200B;](../content-management/get-started-experiment.md#interpret-results).

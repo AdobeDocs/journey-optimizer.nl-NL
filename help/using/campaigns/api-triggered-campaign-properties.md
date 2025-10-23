@@ -30,7 +30,7 @@ Ga als volgt te werk om een nieuwe API-actiecampagne te maken:
 
      +++Modus Hoge doorvoer
 
-     Voor transactie-API-getriggerde campagnes kunt u de modus **[!UICONTROL High Throughput]** inschakelen. Deze wijze wordt ontworpen voor grootschalig, in real time overseinen (tot 5000 transacties per seconde) en verstrekt hogere beschikbaarheid met lagere latentie. [ leer hoe te met de wijze van de Output van de Hoogtepunt werken ](../campaigns/api-triggered-high-throughput.md)
+     Voor transactie-API-getriggerde campagnes kunt u de modus **[!UICONTROL High Throughput]** inschakelen. Deze wijze wordt ontworpen voor grootschalig, in real time overseinen (tot 5000 transacties per seconde) en verstrekt hogere beschikbaarheid met lagere latentie. [&#x200B; leer hoe te met de wijze van de Output van de Hoogtepunt werken &#x200B;](../campaigns/api-triggered-high-throughput.md)
 
      >[!AVAILABILITY]
      >
@@ -46,9 +46,9 @@ Ga als volgt te werk om een nieuwe API-actiecampagne te maken:
 
    ![](assets/create-campaign-properties.png)
 
-1. Gebruik het **gebied van Markeringen** om Adobe Experience Platform Verenigde Markeringen aan uw campagne toe te wijzen. Op deze manier kunt u ze gemakkelijk classificeren en de zoekopdracht in de lijst met campagnes verbeteren. [ Leer hoe te met markeringen ](../start/search-filter-categorize.md#tags) te werken.
+1. Gebruik het **gebied van Markeringen** om Adobe Experience Platform Verenigde Markeringen aan uw campagne toe te wijzen. Op deze manier kunt u ze gemakkelijk classificeren en de zoekopdracht in de lijst met campagnes verbeteren. [&#x200B; Leer hoe te met markeringen &#x200B;](../start/search-filter-categorize.md#tags) te werken.
 
-1. U kunt de toegang tot deze campagne beperken op toegangslabels wordt gebaseerd die. Blader naar de knop **[!UICONTROL Manage access]** boven aan deze pagina om een toegangsbeperking toe te voegen. Zorg ervoor dat u alleen labels selecteert waarvoor u gemachtigd bent. [ Leer meer over het Toegangsbeheer van het Niveau van Objecten ](../administration/object-based-access.md).
+1. U kunt de toegang tot deze campagne beperken op toegangslabels wordt gebaseerd die. Blader naar de knop **[!UICONTROL Manage access]** boven aan deze pagina om een toegangsbeperking toe te voegen. Zorg ervoor dat u alleen labels selecteert waarvoor u gemachtigd bent. [&#x200B; Leer meer over het Toegangsbeheer van het Niveau van Objecten &#x200B;](../administration/object-based-access.md).
 
 ## Volgende stappen {#next}
 
