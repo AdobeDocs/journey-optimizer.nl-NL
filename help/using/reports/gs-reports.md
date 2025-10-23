@@ -140,6 +140,6 @@ Leer hoe u het All-Time Report in Adobe Journey Optimizer effectief kunt gebruik
 
 +++Zie video
 
->[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428917?captions=dut&learn=on)
 
 +++
