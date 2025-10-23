@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
 exl-id: b7f12c65-c1af-4c49-b126-c13a51940a43
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,15 @@ Het proces voor het maken van inhoud is afhankelijk van het kanaal dat u hebt ge
 <div align="center"><a href="../push/create-push.md"><strong> Push bericht </strong></a></div></td>
 </tr></table>
 
+>[!IMPORTANT]
+>
+>[ Hoge campagnes van de Output ](../campaigns/api-triggered-high-throughput.md) baseren zich niet op de profielen van Adobe: al verpersoonlijking moet in de API nuttige lading als contextgegevens worden omvat, zoals hieronder gedetailleerd. Deze modus is alleen beschikbaar voor het e-mailkanaal en in de regio VS.
+
 ## Inhoud aanpassen met contextafhankelijke gegevens {#contextual}
 
 U kunt aanvullende gegevens doorgeven in de API-lading die u kunt gebruiken om uw bericht aan te passen.
 
-Neem dit voorbeeld, waar de klanten hun wachtwoord willen terugstellen, en u hen een wachtwoord wilt verzenden terugstellen URL die in een derdehulpmiddel wordt geproduceerd. Met API-getriggerde campagnes kunt u deze gegenereerde URL doorgeven in de API-lading en deze gebruiken in de campagne om deze toe te voegen aan het bericht.
+Neem dit voorbeeld, waar de klanten hun wachtwoord willen terugstellen, en u hen een wachtwoord wilt verzenden terugstellen URL die in een derdehulpmiddel wordt geproduceerd. Met API getriggerde campagnes kunt u deze gegenereerde URL doorgeven in de API-payload en deze gebruiken in de campagne om deze toe te voegen aan het bericht.
 
 Hiervoor moet u ze doorgeven in de API-payload en ze toevoegen in uw bericht met de personalisatie-editor. Gebruik de syntaxis `{{context.<contextualAttribute>}}` , waarbij `<contextualAttribute>` moet overeenkomen met de naam van de variabele in de API-lading die de gegevens bevat die u wilt doorgeven.
 
@@ -56,7 +60,7 @@ Let op: voorlopig is er geen contextueel kenmerk beschikbaar voor gebruik in het
 
 ## Inhoud testen en controleren
 
-Zodra de inhoud is gedefinieerd, gebruikt u de knop **[!UICONTROL Simulate content]** om een voorvertoning van uw inhoud weer te geven en deze te testen met testprofielen of voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [&#x200B; Leer hoe te om inhoud &#x200B;](../content-management/preview-test.md) voor te vertonen en te testen. Klik op de linkerpijl om terug te bladeren naar het scherm Campagne maken.
+Zodra de inhoud is gedefinieerd, gebruikt u de knop **[!UICONTROL Simulate content]** om een voorvertoning van uw inhoud weer te geven en deze te testen met testprofielen of voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [ Leer hoe te om inhoud ](../content-management/preview-test.md) voor te vertonen en te testen. Klik op de linkerpijl om terug te bladeren naar het scherm Campagne maken.
 
 ![](assets/create-campaign-design.png)
 

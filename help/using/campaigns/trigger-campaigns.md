@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: campagne, revisie, validatie, activering, activering, optimaliseren
 exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
-source-git-commit: 1d3638499a9e8261a5f1b09744b82642198a5d5d
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,10 @@ Nadat de campagne is geactiveerd, moet u het gegenereerde voorbeeld-cURL-verzoek
 
    ![](assets/api-triggered-curl.png)
 
-1. Gebruik dit cURL-verzoek in de API&#39;s om de payload te bouwen en de campagne te starten. Voor meer informatie, verwijs naar de [&#x200B; Interactieve documentatie van API van de Uitvoering van het Bericht &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+   >[!IMPORTANT]
+   >
+   >De eindpunten in de cURL- sectie verschillen tussen standaard en [ Hoge productie campigns ](../campaigns/api-triggered-high-throughput.md).
 
-   API vraagvoorbeelden zijn ook beschikbaar op [&#x200B; deze pagina &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).
+1. Gebruik dit cURL-verzoek in de API&#39;s om de payload te bouwen en de campagne te starten. Voor meer informatie, verwijs naar de [ Interactieve documentatie van API van de Uitvoering van het Bericht ](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution), waar alle eindpunten voor standaard en Hoge productie campagnes worden vermeld.
+
+   API vraagvoorbeelden zijn ook beschikbaar op [ deze pagina ](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).
