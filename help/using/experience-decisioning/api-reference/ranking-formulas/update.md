@@ -17,7 +17,7 @@ ht-degree: 1%
 
 U kunt een rangschikkingsformule wijzigen of bijwerken door een PUT-aanvraag in te dienen bij de bibliotheek-API van het aanbod.
 
-Voor meer informatie over JSON PUT, met inbegrip van beschikbare verrichtingen, zie de officiële [&#x200B; documentatie van JSON PUT &#x200B;](http://jsonpatch.com/).
+Voor meer informatie over JSON PUT, met inbegrip van beschikbare verrichtingen, zie de officiële [ documentatie van JSON PUT ](http://jsonpatch.com/).
 
 **Accepteer en inhoud-Type kopballen**
 

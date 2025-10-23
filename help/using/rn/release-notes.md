@@ -22,9 +22,9 @@ ht-degree: 6%
 
 [!DNL Adobe Journey Optimizer] volgt een doorlopend leveringsmodel, dat Adobe in staat stelt voortdurend nieuwe functies, verbeteringen en correcties te leveren. Deze benadering maakt een schaalbare, gefaseerde implementatie van mogelijkheden mogelijk om prestaties en stabiliteit in alle omgevingen te garanderen.
 
-Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases.  Een specifieke [&#x200B; Recentste updates &#x200B;](#updates-rn) sectie benadrukt nieuwe mogelijkheden en verbeteringen aangezien zij aan productie-zodat wordt opgesteld u altijd op de hoogte gebracht van alle veranderingen in echt - tijd. <!--For full details about the release cycle and availability phases, see [Journey Optimizer release cycle](#releases.md).-->
+Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases.  Een specifieke [ Recentste updates ](#updates-rn) sectie benadrukt nieuwe mogelijkheden en verbeteringen aangezien zij aan productie-zodat wordt opgesteld u altijd op de hoogte gebracht van alle veranderingen in echt - tijd. <!--For full details about the release cycle and availability phases, see [Journey Optimizer release cycle](#releases.md).-->
 
-[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## Opmerkingen bij de release van oktober 1925 {#oct-25-10-rn}
 
@@ -268,7 +268,7 @@ Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse relea
 <tr>
 <td>
 <p>Journey Optimizer Experimentation Accelerator beschikt nu over de Experimentation Agent, een door AI aangedreven, conversationele tool waarmee u kunt communiceren met uw experimenten, inzichten en mogelijkheden. Het verbetert de ervaring van Journey Optimizer Experimentation Accelerator, helpt u efficiënter experimenten in werking te stellen, te ontdekken wat werkt, en te ontdekken waar te om daarna te optimaliseren.</p>
-<p>Raadpleeg de <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=nl-NL" target="_blank">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Raadpleeg de <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">gedetailleerde documentatie</a> voor meer informatie.</p>
 <p>Beschikbaarheidsdatum: 10 oktober 2025</p>
 </td>
 </tr>

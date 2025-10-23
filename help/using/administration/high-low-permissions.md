@@ -23,7 +23,7 @@ Elke rol bestaat uit machtigingen waarmee gebruikers toegang hebben tot de versc
 
 Zij kunnen in twee types worden verdeeld:
 
-* **toestemming op hoog niveau**: vertegenwoordigt de verschillende toestemmingen die aan **[!UICONTROL Role]**, zoals **[!DNL Publish journeys]** en **[!DNL Manage subdomains delegation]** kunnen worden toegewezen. Rechten op hoog niveau omvatten bevoegdheden op laag niveau. De toestemmingen op hoog niveau zijn gedetailleerd op [&#x200B; deze pagina &#x200B;](ootb-permissions.md).
+* **toestemming op hoog niveau**: vertegenwoordigt de verschillende toestemmingen die aan **[!UICONTROL Role]**, zoals **[!DNL Publish journeys]** en **[!DNL Manage subdomains delegation]** kunnen worden toegewezen. Rechten op hoog niveau omvatten bevoegdheden op laag niveau. De toestemmingen op hoog niveau zijn gedetailleerd op [ deze pagina ](ootb-permissions.md).
 
 * **laagvlakke toestemming**: vertegenwoordigt de verschillende toestemmingen die uit de toestemming op hoog niveau komen.
 

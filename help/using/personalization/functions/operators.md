@@ -100,7 +100,7 @@ De volgende operatie controleert of het thuisadresland Frankrijk is.
 
 ### Niet gelijk{#notequal}
 
-De `!=` (niet gelijk aan) functie controleert of één waarde of uitdrukking **&#x200B;**&#x200B;niet gelijk aan een andere waarde of een uitdrukking is.
+De `!=` (niet gelijk aan) functie controleert of één waarde of uitdrukking **** niet gelijk aan een andere waarde of een uitdrukking is.
 
 **Syntaxis**
 

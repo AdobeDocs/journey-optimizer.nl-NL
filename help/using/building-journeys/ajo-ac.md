@@ -30,7 +30,7 @@ Maak eerst een transactionele e-mailsjabloon in Campagne. Maak vervolgens in Jou
 Raadpleeg de volgende pagina&#39;s voor meer informatie over de integratie van campagnes:
 
 * [Campagne maken](../action/acc-action.md)
-* [&#x200B; Gebruikend de actie in een reis &#x200B;](../building-journeys/using-adobe-campaign-v7-v8.md).
+* [ Gebruikend de actie in een reis ](../building-journeys/using-adobe-campaign-v7-v8.md).
 
 **Adobe Campaign**
 

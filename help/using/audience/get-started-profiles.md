@@ -39,8 +39,8 @@ Gebruik Real-time klantprofiel in [!DNL Adobe Journey Optimizer] om een holistis
 >[!MORELIKETHIS]
 >
 >* [Documentatie bij real-timeklantprofiel](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl){target="_blank"}
->* [&#x200B; StandaardGaranties voor gegevens en segmentatie van het Profiel van de Klant in real time &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/guardrails){target="_blank"}
->* &#x200B; [&#x200B; de documentatie van de Ingestie van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ingestion/home){target="_blank"}
+>* [ StandaardGaranties voor gegevens en segmentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"}
+>* &#x200B; [ de documentatie van de Ingestie van Gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## Profieldashboard
 
@@ -48,9 +48,9 @@ Navigeer naar het menu **[!UICONTROL Customer]** / **[!UICONTROL Profiles]** in 
 
 >[!NOTE]
 >
->Als uw organisatie aan [!DNL Adobe Journey Optimizer] nieuw is en nog geen actieve datasets van het Profiel of gecreeerd samenvoegbeleid heeft, is het **Profielen** dashboard niet zichtbaar. In plaats daarvan, toont het **Overzicht** lusje verbindingen aan de documentatie van Adobe Experience Platform om u te helpen met het Profiel van de Klant in real time beginnen. Leren hoe te met het **dashboard van het Profiel** en gedetailleerde informatie betreffende de metriek te werken die in het dashboard wordt getoond, verwijs naar [&#x200B; deze sectie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=nl-NL){target="_blank"}.
+>Als uw organisatie aan [!DNL Adobe Journey Optimizer] nieuw is en nog geen actieve datasets van het Profiel of gecreeerd samenvoegbeleid heeft, is het **Profielen** dashboard niet zichtbaar. In plaats daarvan, toont het **Overzicht** lusje verbindingen aan de documentatie van Adobe Experience Platform om u te helpen met het Profiel van de Klant in real time beginnen. Leren hoe te met het **dashboard van het Profiel** en gedetailleerde informatie betreffende de metriek te werken die in het dashboard wordt getoond, verwijs naar [ deze sectie ](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html){target="_blank"}.
 
-U kunt gegevensfragmenten van veelvoudige bronnen samenbrengen en hen combineren om een volledige mening van elk van uw individuele klanten te zien. Wanneer het brengen van deze gegevens samen, zijn het fusiebeleid de regels die worden gebruikt om te bepalen hoe de gegevens voorrang krijgen en welke gegevens worden gecombineerd om de verenigde mening tot stand te brengen. Leer meer over **beleid van de Fusie** in deze [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=nl-NL){target="_blank"}.
+U kunt gegevensfragmenten van veelvoudige bronnen samenbrengen en hen combineren om een volledige mening van elk van uw individuele klanten te zien. Wanneer het brengen van deze gegevens samen, zijn het fusiebeleid de regels die worden gebruikt om te bepalen hoe de gegevens voorrang krijgen en welke gegevens worden gecombineerd om de verenigde mening tot stand te brengen. Leer meer over **beleid van de Fusie** in deze [ documentatie ](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target="_blank"}.
 
 ![](assets/profiles-home.png)
 

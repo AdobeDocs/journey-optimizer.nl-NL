@@ -34,7 +34,7 @@ Controleer voordat u begint de volgende beperkingen en richtlijnen:
 
 * **Geen PII in datasets** - Datasets die voor raadpleging worden toegelaten zou geen Persoonlijk Identificeerbare Informatie (PII) moeten bevatten.
 
-* &#x200B;
+* 
    * **het risico van de Schrapping** - Datasets die in verpersoonlijking worden gebruikt worden niet beschermd tegen schrapping. U moet bijhouden welke gegevenssets worden gebruikt om ervoor te zorgen dat deze niet worden verwijderd.
 
 * **het type van Schema** - Datasets moeten met een schema worden geassocieerd dat **NIET** van het type van Profiel of van de Gebeurtenis is is.
@@ -105,7 +105,7 @@ In het gegevenssetbeheer gebruikersinterface, gebruik de knevel om de dataset vo
 
 ### API-methode
 
-Volg de richtingen die in [&#x200B; worden gedetailleerd deze documentatie &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication/) om uw milieu te vormen om API bevelen te verzenden.
+Volg de richtingen die in [ worden gedetailleerd deze documentatie ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/) om uw milieu te vormen om API bevelen te verzenden.
 
 #### Vereisten
 

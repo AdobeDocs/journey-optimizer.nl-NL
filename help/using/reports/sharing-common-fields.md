@@ -26,7 +26,7 @@ Sommige van deze velden zijn alleen beschikbaar in specifieke verwerkingspatrone
 
 >[!NOTE]
 >
->Leer meer over de attributen van de reiseigenschappen [&#x200B; in deze sectie &#x200B;](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+>Leer meer over de attributen van de reiseigenschappen [ in deze sectie ](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
 
 
 ## ingang {#entrance-field}

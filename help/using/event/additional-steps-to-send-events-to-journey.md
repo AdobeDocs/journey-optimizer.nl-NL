@@ -20,8 +20,8 @@ ht-degree: 2%
 
 Voer de volgende stappen uit om gebeurtenissen te configureren die naar **[!UICONTROL Streaming Ingestion APIs]** moeten worden verzonden en die in [!DNL Journey Optimizer] moeten worden gebruikt:
 
-1. Haal de inlaat-URL op van Adobe Experience Platform API&#39;s. Leer meer in [&#x200B; Streaming Ingestie APIs overzicht &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl){target="_blank"}.
-1. Kopieer de lading van de ladingsvoorproef in het **[!UICONTROL Event]** menu. Leer meer op [&#x200B; deze pagina &#x200B;](../event/about-creating.md#define-the-payload-fields).
+1. Haal de inlaat-URL op van Adobe Experience Platform API&#39;s. Leer meer in [ Streaming Ingestie APIs overzicht ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl){target="_blank"}.
+1. Kopieer de lading van de ladingsvoorproef in het **[!UICONTROL Event]** menu. Leer meer op [ deze pagina ](../event/about-creating.md#define-the-payload-fields).
 
 Vervolgens moet u het gegevenssysteem configureren dat gebeurtenissen naar Streaming Ingestie-API&#39;s stuurt met de door u gekopieerde payload:
 
@@ -88,6 +88,6 @@ Hier volgt een voorbeeld van een gebeurtenis Streaming ingestie-API&#39;s:
 }
 ```
 
-Om de identificatie van de plaats te vergemakkelijken waar te om het &quot;gegevens&quot;deel te kleven, kunt u een JSON visualisatiehulpmiddel zoals [&#x200B; JSON formatter &#x200B;](https://jsonformatter.curiousconcept.com){target="_blank"} gebruiken.
+Om de identificatie van de plaats te vergemakkelijken waar te om het &quot;gegevens&quot;deel te kleven, kunt u een JSON visualisatiehulpmiddel zoals [ JSON formatter ](https://jsonformatter.curiousconcept.com){target="_blank"} gebruiken.
 
-Om het stromen Ingestie APIs problemen op te lossen, verwijs naar [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=nl-NL){target="_blank"}.
+Om het stromen Ingestie APIs problemen op te lossen, verwijs naar [ documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}.

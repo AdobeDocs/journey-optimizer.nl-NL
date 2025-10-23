@@ -16,7 +16,7 @@ ht-degree: 2%
 
 # Pushmeldingskanaal configureren {#push-notification-configuration}
 
-Met [!DNL Journey Optimizer] kunt u uw reizen maken en berichten verzenden naar een doelgroep. Voordat u pushmeldingen met [!DNL Journey Optimizer] gaat verzenden, moet u ervoor zorgen dat er configuraties en integratie zijn in de mobiele app en voor tags in Adobe Experience Platform. Om de de gegevensstroom van de Berichten van de Duw in [!DNL Adobe Journey Optimizer] te begrijpen gelieve te verwijzen naar [&#x200B; deze pagina &#x200B;](push-gs.md).
+Met [!DNL Journey Optimizer] kunt u uw reizen maken en berichten verzenden naar een doelgroep. Voordat u pushmeldingen met [!DNL Journey Optimizer] gaat verzenden, moet u ervoor zorgen dat er configuraties en integratie zijn in de mobiele app en voor tags in Adobe Experience Platform. Om de de gegevensstroom van de Berichten van de Duw in [!DNL Adobe Journey Optimizer] te begrijpen gelieve te verwijzen naar [ deze pagina ](push-gs.md).
 
 >[!AVAILABILITY]
 >
@@ -27,11 +27,11 @@ Met [!DNL Journey Optimizer] kunt u uw reizen maken en berichten verzenden naar 
 
 ### Machtigingen instellen {#setup-permissions}
 
-Voordat u een mobiele toepassing maakt, moet u er eerst voor zorgen dat u over de juiste gebruikersmachtigingen voor tags in Adobe Experience Platform beschikt of deze toewijst. Leer meer in [&#x200B; documentatie van Markeringen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=nl-NL){target="_blank"}.
+Voordat u een mobiele toepassing maakt, moet u er eerst voor zorgen dat u over de juiste gebruikersmachtigingen voor tags in Adobe Experience Platform beschikt of deze toewijst. Leer meer in [ documentatie van Markeringen ](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
 
 >[!CAUTION]
 >
->De duimconfiguratie moet door een deskundige gebruiker worden uitgevoerd. Afhankelijk van uw implementatiemodel en persona&#39;s betrokken bij deze implementatie, zou u de volledige reeks toestemmingen aan één enkel productprofiel kunnen moeten toewijzen of toestemmingen tussen de app ontwikkelaar en **Adobe Journey Optimizer** beheerder delen. Leer meer over **toestemmingen van Markeringen** in [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=nl-NL){target="_blank"}.
+>De duimconfiguratie moet door een deskundige gebruiker worden uitgevoerd. Afhankelijk van uw implementatiemodel en persona&#39;s betrokken bij deze implementatie, zou u de volledige reeks toestemmingen aan één enkel productprofiel kunnen moeten toewijzen of toestemmingen tussen de app ontwikkelaar en **Adobe Journey Optimizer** beheerder delen. Leer meer over **toestemmingen van Markeringen** in [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
 
 <!--ou need to your have access to perform following roles :
 
@@ -48,7 +48,7 @@ Om **Bezit** en **bedrijf** rechten toe te wijzen, volg hieronder de stappen:
 
    ![](assets/push_product_1.png)
 
-1. Selecteer een bestaande **[!UICONTROL Product Profile]** of maak een nieuwe **[!UICONTROL New profile]** met de knop. Leer hoe te om een nieuw **[!UICONTROL New profile]** in de [&#x200B; Admin consoledocumentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=nl-NL#ui){target="_blank"} tot stand te brengen.
+1. Selecteer een bestaande **[!UICONTROL Product Profile]** of maak een nieuwe **[!UICONTROL New profile]** met de knop. Leer hoe te om een nieuw **[!UICONTROL New profile]** in de [ Admin consoledocumentatie ](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"} tot stand te brengen.
 
 1. Selecteer op het tabblad **[!UICONTROL Permissions]** de optie **[!UICONTROL Property rights]**.
 
@@ -94,7 +94,7 @@ Volg onderstaande stappen om deze **[!UICONTROL Product profile]** aan gebruiker
 
    >[!NOTE]
    >
-   >Als de gebruiker niet eerder in de console Admin werd gecreeerd, verwijs naar [&#x200B; gebruikersdocumentatie &#x200B;](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users) toevoegen.
+   >Als de gebruiker niet eerder in de console Admin werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users) toevoegen.
 
    ![](assets/push_product_7.png)
 
@@ -113,7 +113,7 @@ De volgende schema&#39;s en datasets zijn beschikbaar met het kanaal van de dupm
 >
 >Wanneer gebeurtenissen voor het bijhouden van push-gegevens worden opgenomen in de CJM-gegevensset voor het bijhouden van push-ervaringen, kunnen er fouten optreden, ook al worden gegevens gedeeltelijk met succes opgenomen. Dit kan voorkomen als sommige gebieden in uw afbeelding niet in inkomende gebeurtenissen bestaan: het systeem registreert waarschuwingen maar verhindert niet inname van geldige gedeelten van de gegevens. Deze waarschuwingen worden in batch-status weergegeven als &#39;mislukt&#39;, maar geven gedeeltelijk succes bij inname aan.
 >
->Om de volledige lijst van gebieden en attributen voor elk schema te bekijken, raadpleeg het [&#x200B; het schemawoordenboek van Journey Optimizer &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL){target="_blank"}.
+>Om de volledige lijst van gebieden en attributen voor elk schema te bekijken, raadpleeg het [ het schemawoordenboek van Journey Optimizer ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
 
 
@@ -123,16 +123,16 @@ De technische opstelling impliceert nauwe samenwerking tussen de toepassingsontw
 
 Voer de implementatiestappen uit die in de onderstaande koppelingen worden beschreven:
 
-* Voor **Apple iOS**: Leer hoe te om uw app met APNs in [&#x200B; Documentatie van Apple &#x200B;](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"} te registreren
-* Voor **Google Android**: Leer hoe te opstelling een de cliëntapp van het Overseinen van de Wolk van de Wolk van de Vuurbasis op Android in [&#x200B; Documentatie van Google &#x200B;](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}
+* Voor **Apple iOS**: Leer hoe te om uw app met APNs in [ Documentatie van Apple ](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"} te registreren
+* Voor **Google Android**: Leer hoe te opstelling een de cliëntapp van het Overseinen van de Wolk van de Wolk van de Vuurbasis op Android in [ Documentatie van Google ](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}
 
 ### Uw mobiele app integreren met Adobe Experience Platform SDK {#integrate-mobile-app}
 
-Adobe Experience Platform Mobile SDK biedt client-side integratie-API&#39;s voor uw mobiele apparaten via met Android en iOS compatibele SDK&#39;s. Volg [&#x200B; de Mobiele documentatie van SDK van Adobe Experience Platform Mobile &#x200B;](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} om opstelling met Adobe Experience Platform Mobile SDKs in uw app te krijgen.
+Adobe Experience Platform Mobile SDK biedt client-side integratie-API&#39;s voor uw mobiele apparaten via met Android en iOS compatibele SDK&#39;s. Volg [ de Mobiele documentatie van SDK van Adobe Experience Platform Mobile ](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} om opstelling met Adobe Experience Platform Mobile SDKs in uw app te krijgen.
 
-Tegen het einde van deze procedure moet u ook een eigenschap mobile in [!DNL Adobe Experience Platform Data Collection] hebben gemaakt en geconfigureerd. Doorgaans maakt u een eigenschap voor mobiele apparaten voor elke mobiele toepassing die u wilt beheren. Leer hoe te om een mobiel bezit in [&#x200B; Adobe Experience Platform Mobiele documentatie van SDK &#x200B;](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"} tot stand te brengen en te vormen.
+Tegen het einde van deze procedure moet u ook een eigenschap mobile in [!DNL Adobe Experience Platform Data Collection] hebben gemaakt en geconfigureerd. Doorgaans maakt u een eigenschap voor mobiele apparaten voor elke mobiele toepassing die u wilt beheren. Leer hoe te om een mobiel bezit in [ Adobe Experience Platform Mobiele documentatie van SDK ](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"} tot stand te brengen en te vormen.
 
-<!--To enable **Web push notifications**, ensure that the [pushNotifications property](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/configure/pushnotifications) is properly configured within the Web SDK. Then, use [the sendPushSubscription command](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/sendpushsubscription) to register push subscriptions with Adobe Experience Platform.
+<!--To enable **Web push notifications**, ensure that the [pushNotifications property](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/pushnotifications) is properly configured within the Web SDK. Then, use [the sendPushSubscription command](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendpushsubscription) to register push subscriptions with Adobe Experience Platform.
 -->
 
 ## Stap 1: Voeg uw pushreferenties voor de app toe in Journey Optimizer {#push-credentials-launch}
@@ -162,7 +162,7 @@ De registratie van de pushreferenties voor de mobiele app is vereist om Adobe te
          >[!NOTE]
          >
          > Alleen .p8 Apple Push Notification-toetsen worden ondersteund. Gebruik een ander Apple Developer-account als u de .p8-sleutellimiet hebt bereikt.
-         >Voor meer informatie over de belangrijkste grenzen van Apple, verwijs naar [&#x200B; Documentatie van de Ontwikkelaar van Apple &#x200B;](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns).
+         >Voor meer informatie over de belangrijkste grenzen van Apple, verwijs naar [ Documentatie van de Ontwikkelaar van Apple ](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns).
 
 
       1. Verstrek **Zeer belangrijke identiteitskaart**. Dit is een tekenreeks van 10 tekens die wordt toegewezen tijdens het maken van de p8-auttoets. Het kan onder **Sleutels** lusje in **Certificaten**, **Herkenningstekens** en **pagina van Profielen** worden gevonden.
@@ -179,7 +179,7 @@ De registratie van de pushreferenties voor de mobiele app is vereist om Adobe te
 
       1. Schakel de knop **[!UICONTROL Manually enter push credentials]** in om uw referenties toe te voegen.
 
-      1. Sleep de FCM-pushgegevens en zet deze neer. Voor meer details op hoe te om de dupgeloofsbrieven te krijgen verwijs naar [&#x200B; Documentatie van Google &#x200B;](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+      1. Sleep de FCM-pushgegevens en zet deze neer. Voor meer details op hoe te om de dupgeloofsbrieven te krijgen verwijs naar [ Documentatie van Google ](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
 <!--
     * **For Web**
@@ -208,7 +208,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Edge]**
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 
-Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html?lang=nl-NL).
+Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html).
 -->
 
 ## Stap 2: Creeer een kanaalconfiguratie voor duw{#message-preset}
@@ -226,7 +226,7 @@ Wanneer u uw pushreferenties hebt gemaakt, moet u een configuratie maken om push
    > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook onderstrepingsteken `_` -, punt `.` - en afbreekstreepjes `-` gebruiken.
 
 
-1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [&#x200B; leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) &#x200B;](../administration/object-based-access.md).
+1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md).
 
 1. Selecteer **kanaal van de Duw**.
 
@@ -236,7 +236,7 @@ Wanneer u uw pushreferenties hebt gemaakt, moet u een configuratie maken om push
 
 1. Kies uw **[!UICONTROL Platform]**: Android en/of iOS <!--and/or Web--> .
 
-1. Selecteer het zelfde **[!UICONTROL App id]** zoals voor uw [&#x200B; hierboven gevormde dupreferentie &#x200B;](#push-credentials-launch).
+1. Selecteer het zelfde **[!UICONTROL App id]** zoals voor uw [ hierboven gevormde dupreferentie ](#push-credentials-launch).
 
 1. Sla uw wijzigingen op.
 
@@ -246,7 +246,7 @@ U kunt nu uw configuratie selecteren wanneer u pushmeldingen maakt.
 
 De **uitbreiding van Adobe Journey Optimizer** voor de bevoegdheden van Adobe Experience Platform Mobile SDKs duwt berichten voor uw mobiele apps en helpt u gebruikersdrukknoppennen verzamelen en interactiemeting met de diensten van Adobe Experience Platform beheert.
 
-Leer hoe te opstellingsJourney Optimizer uitbreiding in [&#x200B; de Mobiele documentatie van SDK van Adobe Experience Platform &#x200B;](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/){target="_blank"}.
+Leer hoe te opstellingsJourney Optimizer uitbreiding in [ de Mobiele documentatie van SDK van Adobe Experience Platform ](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/){target="_blank"}.
 
 
 <!-- 
@@ -321,7 +321,7 @@ Nadat u de mobiele app hebt geconfigureerd in zowel Adobe Experience Platform al
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
 -->
 
-Voor deze reis aan het werk, moet u een schema tot stand brengen XDM. Voor meer informatie, verwijs naar [&#x200B; XDM documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=nl-NL#schemas-and-data-ingestion){target="_blank"}.
+Voor deze reis aan het werk, moet u een schema tot stand brengen XDM. Voor meer informatie, verwijs naar [ XDM documentatie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target="_blank"}.
 
 1. Klik in de menusectie GEGEVENSBEHEER op **[!UICONTROL Schemas]** .
    ![](assets/test_push_1.png)
@@ -329,9 +329,9 @@ Voor deze reis aan het werk, moet u een schema tot stand brengen XDM. Voor meer 
    ![](assets/test_push_2.png)
 1. Ga een naam en een beschrijving voor uw schema in en klik **Afwerking**.
    ![](assets/test_push_3.png)
-1. In de **sectie van de Groepen van het Gebied**, op de linkerzijde, voegt de klik **&#x200B;**&#x200B;toe en selecteert **[!UICONTROL Create a new field group]**.
+1. In de **sectie van de Groepen van het Gebied**, op de linkerzijde, voegt de klik **** toe en selecteert **[!UICONTROL Create a new field group]**.
 
-1. Voer een **[!UICONTROL Display Name]** en een **[!UICONTROL Description]** in. Klik op **[!UICONTROL Add field groups]** wanneer u gereed bent. Voor meer informatie over hoe te om gebiedsgroepen tot stand te brengen, verwijs naar [&#x200B; documentatie van het Systeem XDM &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=nl-NL){target="_blank"}.
+1. Voer een **[!UICONTROL Display Name]** en een **[!UICONTROL Description]** in. Klik op **[!UICONTROL Add field groups]** wanneer u gereed bent. Voor meer informatie over hoe te om gebiedsgroepen tot stand te brengen, verwijs naar [ documentatie van het Systeem XDM ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html){target="_blank"}.
 
 
    ![](assets/test_push_4.png)
@@ -387,7 +387,7 @@ Uw gebeurtenis wordt nu gemaakt en kan nu op een reis worden gebruikt.
 
 1. Klik op **[!UICONTROL Create Journey]** om een nieuwe rit te maken.
 
-1. Bewerk de eigenschappen van de journey in het configuratievenster dat aan de rechterkant wordt weergegeven. Leer meer in deze [&#x200B; sectie &#x200B;](../building-journeys/journey-properties.md).
+1. Bewerk de eigenschappen van de journey in het configuratievenster dat aan de rechterkant wordt weergegeven. Leer meer in deze [ sectie ](../building-journeys/journey-properties.md).
 
 1. Begin door de gebeurtenis te slepen die in de vorige stappen van de vervolgkeuzelijst **[!UICONTROL Events]** is gemaakt.
 
@@ -395,7 +395,7 @@ Uw gebeurtenis wordt nu gemaakt en kan nu op een reis worden gebruikt.
 
 1. Sleep vanuit de vervolgkeuzelijst **[!UICONTROL Actions]** een **[!UICONTROL Push]** -activiteit naar de gewenste locatie.
 
-1. Configureer de pushmelding. Voor meer informatie over hoe te om dupberichten tot stand te brengen, verwijs naar deze [&#x200B; pagina &#x200B;](create-push.md).
+1. Configureer de pushmelding. Voor meer informatie over hoe te om dupberichten tot stand te brengen, verwijs naar deze [ pagina ](create-push.md).
 
 1. Klik op de schakeloptie **[!UICONTROL Test]** om uw pushberichten te testen en klik op **[!UICONTROL Trigger an event]** .
 

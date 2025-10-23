@@ -32,7 +32,7 @@ In de interface van de verpersoonlijkingsredacteur, kunt u selecteren, schikken,
 
 ## Waar kan ik personalisatie toevoegen? {#where}
 
-U kunt verpersoonlijking in **[!DNL Journey Optimizer]** op elke gebieden met ![&#x200B; toevoegen verpersoonlijkingspictogram &#x200B;](assets/do-not-localize/add-perso-icon.svg) pictogram. Vouw de onderstaande secties uit voor meer informatie.
+U kunt verpersoonlijking in **[!DNL Journey Optimizer]** op elke gebieden met ![ toevoegen verpersoonlijkingspictogram ](assets/do-not-localize/add-perso-icon.svg) pictogram. Vouw de onderstaande secties uit voor meer informatie.
 
 +++Berichten
 
@@ -40,13 +40,13 @@ In berichten kan personalisatie op verschillende plaatsen in uw berichten, zoals
 
 ![](assets/perso_subject.png)
 
-Het kan ook in andere secties van uw inhoud worden toegevoegd. Bijvoorbeeld, voor [&#x200B; duw berichten &#x200B;](../push/push-gs.md), kan de verpersoonlijking in **Titel** worden toegevoegd, **Lichaam**, **het correcte van de Douane**, **Badges** en **Gegevens van de Douane** gebieden.
+Het kan ook in andere secties van uw inhoud worden toegevoegd. Bijvoorbeeld, voor [ duw berichten ](../push/push-gs.md), kan de verpersoonlijking in **Titel** worden toegevoegd, **Lichaam**, **het correcte van de Douane**, **Badges** en **Gegevens van de Douane** gebieden.
 
 +++
 
 +++Email Designer
 
-Wanneer het uitgeven van e-mailinhoud in [&#x200B; E-mail Designer &#x200B;](../email/get-started-email-design.md), kunt u verpersoonlijking in tekstblokken en in URLs toevoegen gebruikend het pictogram in de contextafhankelijke hulpmiddelbar.
+Wanneer het uitgeven van e-mailinhoud in [ E-mail Designer ](../email/get-started-email-design.md), kunt u verpersoonlijking in tekstblokken en in URLs toevoegen gebruikend het pictogram in de contextafhankelijke hulpmiddelbar.
 
 ![](assets/perso_insert.png)
 
@@ -54,7 +54,7 @@ Wanneer het uitgeven van e-mailinhoud in [&#x200B; E-mail Designer &#x200B;](../
 
 +++Aanbiedingen
 
-U kunt verpersoonlijking toevoegen wanneer het gebruiken van tekst-type inhoud in uw **aanbiedingen&#39; vertegenwoordiging**. [&#x200B; Leer hoe te om gepersonaliseerde aanbiedingen tot stand te brengen &#x200B;](../offers/offer-library/creating-personalized-offers.md)
+U kunt verpersoonlijking toevoegen wanneer het gebruiken van tekst-type inhoud in uw **aanbiedingen&#39; vertegenwoordiging**. [ Leer hoe te om gepersonaliseerde aanbiedingen tot stand te brengen ](../offers/offer-library/creating-personalized-offers.md)
 
 +++
 
@@ -101,15 +101,15 @@ Wanneer u een e-mailkanaalconfiguratie maakt, kunt u gepersonaliseerde waarden d
 
 In het navigatievenster kunt u de bron voor personalisatie selecteren. Beschikbare bronnen zijn:
 
-* **[!UICONTROL Profile attributes]** : maakt een lijst van alle verwijzingen verbonden aan het profielschema dat in [&#x200B; wordt beschreven het Model van Gegevens van Adobe Experience Platform (XDM) documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
-* **[!UICONTROL Target attributes]** : Deze map is specifiek voor geordende campagnes. Deze bevat kenmerken die rechtstreeks binnen het canvas van de campagne worden berekend. [&#x200B; Leer hoe te om verpersoonlijking in Geordende campagnes toe te voegen &#x200B;](../orchestrated/activities/channels.md#add-personalization)
-* **[!UICONTROL Audiences]** : geeft een overzicht van alle soorten publiek dat is gemaakt in de Adobe Experience Platform Segmentation-service. Meer informatie over beschikbare segmentatie [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL){target="_blank"}.
-* **[!UICONTROL Offer decisions]** : geeft een overzicht van alle aanbiedingen die aan een specifieke plaatsing zijn gekoppeld. Selecteer de plaatsing en voeg de aanbiedingen in uw inhoud in. Voor een volledige documentatie over hoe te om aanbiedingen te beheren, verwijs naar [&#x200B; deze sectie &#x200B;](../offers/get-started/starting-offer-decisioning.md).
-* **[!UICONTROL Contextual attributes]** : wanneer een activiteit van de kanaalactie (E-mail, push, SMS) in een reis of campagne wordt gebruikt, zijn contextafhankelijke kenmerken met betrekking tot gebeurtenissen en eigenschappen beschikbaar voor personalisatie. Een voorbeeld van verpersoonlijking leveraging contextafhankelijke attributen wordt voorgesteld in [&#x200B; deze sectie &#x200B;](personalization-use-case.md).
+* **[!UICONTROL Profile attributes]** : maakt een lijst van alle verwijzingen verbonden aan het profielschema dat in [ wordt beschreven het Model van Gegevens van Adobe Experience Platform (XDM) documentatie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
+* **[!UICONTROL Target attributes]** : Deze map is specifiek voor geordende campagnes. Deze bevat kenmerken die rechtstreeks binnen het canvas van de campagne worden berekend. [ Leer hoe te om verpersoonlijking in Geordende campagnes toe te voegen ](../orchestrated/activities/channels.md#add-personalization)
+* **[!UICONTROL Audiences]** : geeft een overzicht van alle soorten publiek dat is gemaakt in de Adobe Experience Platform Segmentation-service. Meer informatie over beschikbare segmentatie [ hier ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
+* **[!UICONTROL Offer decisions]** : geeft een overzicht van alle aanbiedingen die aan een specifieke plaatsing zijn gekoppeld. Selecteer de plaatsing en voeg de aanbiedingen in uw inhoud in. Voor een volledige documentatie over hoe te om aanbiedingen te beheren, verwijs naar [ deze sectie ](../offers/get-started/starting-offer-decisioning.md).
+* **[!UICONTROL Contextual attributes]** : wanneer een activiteit van de kanaalactie (E-mail, push, SMS) in een reis of campagne wordt gebruikt, zijn contextafhankelijke kenmerken met betrekking tot gebeurtenissen en eigenschappen beschikbaar voor personalisatie. Een voorbeeld van verpersoonlijking leveraging contextafhankelijke attributen wordt voorgesteld in [ deze sectie ](personalization-use-case.md).
 
 >[!NOTE]
 >
->Als u zich richt op een publiek met verrijkingsattributen die gebruikend een samenstellingswerkschema worden geproduceerd, kunt u deze verrijkingsattributen gebruiken om uw bericht te personaliseren. [&#x200B; Leer hoe te om de attributen van de kijkverrijking &#x200B;](../audience/about-audiences.md#enrichment) te gebruiken
+>Als u zich richt op een publiek met verrijkingsattributen die gebruikend een samenstellingswerkschema worden geproduceerd, kunt u deze verrijkingsattributen gebruiken om uw bericht te personaliseren. [ Leer hoe te om de attributen van de kijkverrijking ](../audience/about-audiences.md#enrichment) te gebruiken
 
 ## Aanpassing toevoegen {#add}
 
@@ -152,7 +152,7 @@ Beschikbare opties zijn:
 
 1. **[!UICONTROL HTML]** / **[!UICONTROL JSON]** / **[!UICONTROL Text]** : geef de indeling van de code aan. Hierdoor kan het systeem de functie voor validatie en automatisch aanvullen aanpassen op basis van de geselecteerde taal.
 1. **[!UICONTROL Validate]**: controleer de syntaxis van uw expressie. Lees meer in [deze sectie](../personalization/personalization-build-expressions.md).
-1. **[!UICONTROL Save as fragment]**: sla uw expressie op als een expressiefragment. Leer meer in [&#x200B; deze sectie &#x200B;](../content-management/save-fragments.md#save-as-expression-fragment)
+1. **[!UICONTROL Save as fragment]**: sla uw expressie op als een expressiefragment. Leer meer in [ deze sectie ](../content-management/save-fragments.md#save-as-expression-fragment)
 1. **[!UICONTROL Font size]** - Hiermee past u de tekengrootte voor de inhoud in de editor aan voor betere leesbaarheid.
 1. **[!UICONTROL Word wrap]**: Schakelt tekstomloop in of uit, waardoor lange expressies op één regel kunnen worden weergegeven of in de editor kunnen worden opgenomen. U kunt onder andere de volgende opties kiezen:
    * **weg** (Gebrek) - Geen woord het verpakken. Lange regels reiken verder dan de editorweergave en vereisen horizontaal schuiven.
@@ -171,13 +171,13 @@ In het navigatievenster, zijn de extra eigenschappen beschikbaar om u te helpen 
 
 ![](assets/perso-features.png)
 
-* **[!UICONTROL Helper functions]** - Met behulp van hulpfuncties kunt u bewerkingen uitvoeren op gegevens, zoals berekeningen, gegevensopmaak of conversies, voorwaarden en deze manipuleren in de context van personalisatie. [&#x200B; leer meer over beschikbare hulpfuncties &#x200B;](functions/functions.md)
+* **[!UICONTROL Helper functions]** - Met behulp van hulpfuncties kunt u bewerkingen uitvoeren op gegevens, zoals berekeningen, gegevensopmaak of conversies, voorwaarden en deze manipuleren in de context van personalisatie. [ leer meer over beschikbare hulpfuncties ](functions/functions.md)
 
 * **[!UICONTROL Favorites]** - Kenmerken die u aan de favorieten hebt toegevoegd, worden in deze lijst weergegeven. Hierdoor hebt u snel toegang tot de meest gebruikte items. Als u een kenmerk aan uw favorieten wilt toevoegen, klikt u op het menu voor ovaal en kiest u **[!UICONTROL Add to favorites]** .
 
-* **[!UICONTROL Conditions]** - Gebruik voorwaardelijke regels die zijn gemaakt in de bibliotheek om dynamische inhoud toe te voegen aan uw berichten. Dit staat u toe om veelvoudige varianten van uw bericht tot stand te brengen die op voorwaarden worden gebaseerd. [&#x200B; Leer hoe te om dynamische inhoud tot stand te brengen &#x200B;](../personalization/get-started-dynamic-content.md)
+* **[!UICONTROL Conditions]** - Gebruik voorwaardelijke regels die zijn gemaakt in de bibliotheek om dynamische inhoud toe te voegen aan uw berichten. Dit staat u toe om veelvoudige varianten van uw bericht tot stand te brengen die op voorwaarden worden gebaseerd. [ Leer hoe te om dynamische inhoud tot stand te brengen ](../personalization/get-started-dynamic-content.md)
 
-* **[!UICONTROL Fragments]** - Expressiefragmenten gebruiken die zijn gemaakt of opgeslagen in de huidige sandbox. Een fragment is een herbruikbare component waarnaar in [!DNL Journey Optimizer] -campagnes en -reizen kan worden verwezen. Met deze functionaliteit kunt u meerdere blokken met aangepaste inhoud vooraf samenstellen. Deze blokken kunnen door marketinggebruikers worden gebruikt om inhoud snel samen te stellen in een verbeterd ontwerpproces. [&#x200B; Leer hoe te om uitdrukkingsfragmenten voor verpersoonlijking te gebruiken &#x200B;](../personalization/use-expression-fragments.md)
+* **[!UICONTROL Fragments]** - Expressiefragmenten gebruiken die zijn gemaakt of opgeslagen in de huidige sandbox. Een fragment is een herbruikbare component waarnaar in [!DNL Journey Optimizer] -campagnes en -reizen kan worden verwezen. Met deze functionaliteit kunt u meerdere blokken met aangepaste inhoud vooraf samenstellen. Deze blokken kunnen door marketinggebruikers worden gebruikt om inhoud snel samen te stellen in een verbeterd ontwerpproces. [ Leer hoe te om uitdrukkingsfragmenten voor verpersoonlijking te gebruiken ](../personalization/use-expression-fragments.md)
 
 Zodra uw verpersoonlijkingsuitdrukking klaar is, moet u het hebben door de verpersoonlijkingsredacteur worden bevestigd. Lees meer in [deze sectie](../personalization/personalization-build-expressions.md).
 
