@@ -31,7 +31,7 @@ Meer informatie over de verschillende maatstaven en widgets die beschikbaar zijn
 
 Controleer voordat u begint of u toegang hebt tot het menu **[!UICONTROL Reports]** .
 
-Als u het menu **[!UICONTROL Reports]** niet kunt zien, moeten uw toegangsrechten worden uitgebreid om de machtiging **[!UICONTROL View Channel Reports]** op te nemen. U kunt uw eigen toestemmingen uitbreiden, als u toegang tot Adobe Experience Platform [&#x200B; Toestemmingen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html){target="_blank"} voor uw organisatie hebt. Als dat niet het geval is, neemt u contact op met uw Adobe Journey Optimizer-beheerder.
+Als u het menu **[!UICONTROL Reports]** niet kunt zien, moeten uw toegangsrechten worden uitgebreid om de machtiging **[!UICONTROL View Channel Reports]** op te nemen. U kunt uw eigen toestemmingen uitbreiden, als u toegang tot Adobe Experience Platform [&#x200B; Toestemmingen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=nl-NL){target="_blank"} voor uw organisatie hebt. Als dat niet het geval is, neemt u contact op met uw Adobe Journey Optimizer-beheerder.
 
 +++Leer hoe te om rapporttoestemming toe te wijzen
 

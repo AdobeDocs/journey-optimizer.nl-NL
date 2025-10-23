@@ -32,7 +32,7 @@ Soorten publiek kan twee statussen hebben:
 * gerealiseerd: Entiteit komt in aanmerking voor de segmentdefinitie.
 * verlaten: De entiteit verlaat de segmentdefinitie.
 
-Slechts zullen de individuen met de **Realized** status van de publieksparticipatie als leden van het publiek worden beschouwd. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [&#x200B; documentatie van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results).
+Slechts zullen de individuen met de **Realized** status van de publieksparticipatie als leden van het publiek worden beschouwd. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [&#x200B; documentatie van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=nl-NL#interpret-segment-results).
 
 `inAudience('audienceName') == true` betekent dat u een segmentLidmaatschap met de ingegaan status hebt.
 
