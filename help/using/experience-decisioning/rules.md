@@ -6,9 +6,9 @@ topic: Integrations, Content Management
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: 9bd0b149acdce17b8157e6c0e747353e0dd00cc8
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -51,8 +51,10 @@ Vaak, zijn zij een combinatie veelvoudige attributen, naast de gebeurtenissen va
 
 U kunt de volgende regels ook gebruiken:
 
-* Wanneer het creëren van [&#x200B; inhoudsoptimalisering richtend &#x200B;](../campaigns/campaigns-message-optimization.md#targeting) in reizen of campagnes;
-* Wanneer het bouwen van [&#x200B; optimalisering van de wegweg &#x200B;](../building-journeys/optimize.md#targeting).
+* Wanneer het creëren van [ inhoudsoptimalisering richtend ](../campaigns/campaigns-message-optimization.md#targeting) in reizen of campagnes;
+* Wanneer het bouwen van [ optimalisering van de wegweg ](../building-journeys/optimize.md#targeting).
+
+➡️ [Ontdek deze functie in video](#video)
 
 ## Toegangsregels {#access}
 
@@ -60,13 +62,13 @@ De lijst met regels is toegankelijk via **[!UICONTROL Decisioning]** > **[!UICON
 
 De volgende acties zijn beschikbaar:
 
-* U kunt op de regelentiteit (**[!UICONTROL Decision item]** of **[!UICONTROL Targeting]** filtreren - [&#x200B; Leer meer &#x200B;](#about)).
+* U kunt op de regelentiteit (**[!UICONTROL Decision item]** of **[!UICONTROL Targeting]** filtreren - [ Leer meer ](#about)).
 
-* Selecteer een regel door op de naam ervan te klikken en deze te bewerken met de regelbouwer. [&#x200B; leer hoe &#x200B;](#create)
+* Selecteer een regel door op de naam ervan te klikken en deze te bewerken met de regelbouwer. [ leer hoe ](#create)
 
 * Via de knop **[!UICONTROL More actions]** naast elk item kunt u het volgende doen:
 
-   * Als u de entiteit **[!UICONTROL Decision item]** hebt geselecteerd, voegt u de regel toe aan een pakket om deze naar een andere sandbox te exporteren. Leer hoe te [&#x200B; voorwerpen naar een andere zandbak &#x200B;](../configuration/copy-objects-to-sandbox.md) uitvoeren.
+   * Als u de entiteit **[!UICONTROL Decision item]** hebt geselecteerd, voegt u de regel toe aan een pakket om deze naar een andere sandbox te exporteren. Leer hoe te [ voorwerpen naar een andere zandbak ](../configuration/copy-objects-to-sandbox.md) uitvoeren.
    * Dupliceer een regel.
    * Verwijder een regel.
 
@@ -86,14 +88,14 @@ Ga als volgt te werk om een regel te maken:
 
    ![](assets/rules-select-entity.png){width=90%}
 
-   * **[!UICONTROL Decision item]** - de regel kan op a [&#x200B; besluitpunt &#x200B;](#decision-rules) in de context van Beslissing worden toegepast;
-   * **[!UICONTROL Targeting]** - de regel kan worden gebruikt wanneer het bouwen van [&#x200B; richtend &#x200B;](#targeting-rules) regels, of als deel van [&#x200B; inhoudoptimalisering &#x200B;](../campaigns/campaigns-message-optimization.md#targeting) in een campagne of een reis, of in [&#x200B; optimaliseert reisactiviteit &#x200B;](../building-journeys/optimize.md#targeting).
+   * **[!UICONTROL Decision item]** - de regel kan op a [ besluitpunt ](#decision-rules) in de context van Beslissing worden toegepast;
+   * **[!UICONTROL Targeting]** - de regel kan worden gebruikt wanneer het bouwen van [ richtend ](#targeting-rules) regels, of als deel van [ inhoudoptimalisering ](../campaigns/campaigns-message-optimization.md#targeting) in een campagne of een reis, of in [ optimaliseert reisactiviteit ](../building-journeys/optimize.md#targeting).
 
 1. Als u een **[!UICONTROL Decision item]** -regel maakt, kunt u **[!UICONTROL Enable dataset lookup]** selecteren om gegevens uit Adobe Experience Platform te gebruiken om uw besluitvormingslogica te verrijken met externe gegevens. Dit is vooral nuttig voor attributen die vaak veranderen, zoals productbeschikbaarheid, of prijs in real time.
 
    >[!AVAILABILITY]
    >
-   >Deze mogelijkheid is momenteel beschikbaar voor alle klanten als een openbare bètaversie. Neem contact op met uw accountvertegenwoordiger als u toegang wilt. [&#x200B; Leer hoe te om de gegevens van Adobe Experience Platform voor besluit te gebruiken &#x200B;](../experience-decisioning/aep-data-exd.md)
+   >Deze mogelijkheid is momenteel beschikbaar voor alle klanten als een openbare bètaversie. Neem contact op met uw accountvertegenwoordiger als u toegang wilt. [ Leer hoe te om de gegevens van Adobe Experience Platform voor besluit te gebruiken ](../experience-decisioning/aep-data-exd.md)
 
 1. Het scherm voor het maken van regels wordt geopend. Geef de regel een naam en geef een beschrijving op.
 
@@ -101,13 +103,13 @@ Ga als volgt te werk om een regel te maken:
    * Profielkenmerken;
    * Eigenschappen van beslissingstips - alleen beschikbaar bij het maken van een **[!UICONTROL Decision item]** -regel;
    * publiek;
-   * Contextgegevens afkomstig van Adobe Experience Platform. [&#x200B; Leer hoe te hefboomwerking contextgegevens &#x200B;](context-data.md)
+   * Contextgegevens afkomstig van Adobe Experience Platform. [ Leer hoe te hefboomwerking contextgegevens ](context-data.md)
 
    ![](assets/decision-rules-build.png){width=85%}
 
    >[!NOTE]
    >
-   >De opsteller van het Segment verstrekte om regels tot stand te brengen heeft sommige specifieke eigenschappen in vergelijking met die gebruikt met de dienst van de Segmentatie van Adobe Experience Platform. Het algemene proces dat in de documentatie wordt beschreven, is echter geldig voor het samenstellen van regels in [!DNL Journey Optimizer] . [&#x200B; leer hoe te om segmentdefinities te bouwen &#x200B;](../audience/creating-a-segment-definition.md)
+   >De opsteller van het Segment verstrekte om regels tot stand te brengen heeft sommige specifieke eigenschappen in vergelijking met die gebruikt met de dienst van de Segmentatie van Adobe Experience Platform. Het algemene proces dat in de documentatie wordt beschreven, is echter geldig voor het samenstellen van regels in [!DNL Journey Optimizer] . [ leer hoe te om segmentdefinities te bouwen ](../audience/creating-a-segment-definition.md)
 
 1. Terwijl u nieuwe velden toevoegt en configureert in de werkruimte, wordt in het deelvenster **[!UICONTROL Audience properties]** informatie weergegeven over de geschatte profielen die bij het publiek horen. Klik op **[!UICONTROL Refresh estimate]** om gegevens bij te werken.
 
@@ -128,4 +130,10 @@ Ga als volgt te werk om een regel te maken:
 >
 >Een regeltekenreeks kan maximaal 15 kB groot zijn voor UTF-8-gecodeerde tekens. Dit komt overeen met 15.000 ASCII-tekens (1 byte elk) of 3.750-7.500 niet-ASCII-tekens (2-4 bytes elk).
 >
->[&#x200B; Leer meer over de Gidsen van de Regels van de Geschiktheid &amp; beperkingen &#x200B;](decisioning-guardrails.md#eligibility-rules)
+>[ Leer meer over de Gidsen van de Regels van de Geschiktheid &amp; beperkingen ](decisioning-guardrails.md#eligibility-rules)
+
+## Hoe kan ik-video {#video}
+
+Leer om, herbruikbare **het richten van regels** in Adobe Journey Optimizer tot stand te brengen te dupliceren en toe te passen om campagnes efficiënt te personaliseren die op klantenattributen zoals gebied, taal, en gedrag-besparing tijd terwijl het verbeteren van publieksprecisie worden gebaseerd.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)
