@@ -10,9 +10,9 @@ level: Intermediate
 keywords: activiteit, toestand, canvas, reis
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: dee9dc2c2229314940def5f0279699d877d50df6
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1522'
 ht-degree: 5%
 
 ---
@@ -32,13 +32,17 @@ De **voorwaarde** activiteit laat u bepalen hoe de individuen door uw reis door 
 
 De volgende soorten voorwaarden zijn beschikbaar:
 
-* [&#x200B; Source van Gegevens voorwaarde &#x200B;](#data_source_condition)
-* [&#x200B; voorwaarde van de Tijd &#x200B;](#time_condition)
-* [&#x200B; Splitsing van het Percentage &#x200B;](#percentage_split)
+* [ Source van Gegevens voorwaarde ](#data_source_condition)
+* [ voorwaarde van de Tijd ](#time_condition)
+* [ Splitsing van het Percentage ](#percentage_split)
 * [Datumvoorwaarde](#date_condition)
 * [Profiel uiteinde](#profile_cap)
 
 U kunt ook een publiek gebruiken in een reisconditie. [Meer informatie](#using-a-segment)
+
+>[!NOTE]
+>
+>De evaluatie van de voorwaarde zal voor profielen ontbreken die meer dan twee dwars-apparatenidentiteiten in de [ Opslag van het Profiel ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"} omvatten.
 
 ## Voorwaardelijke paden toevoegen en beheren {#about_condition}
 
@@ -59,7 +63,7 @@ Laten we het voorbeeld nemen van de voorwaarde &#39;De persoon is een VIP&#39; v
 
 ![](assets/journey48.png)
 
-Met de optie **[!UICONTROL Show path for other cases than the one(s) above]** kunt u een ander pad maken voor soorten publiek die niet in aanmerking komen voor de gedefinieerde voorwaarden. Deze optie is niet beschikbaar in gesplitste omstandigheden. Zie [&#x200B; Splitsing van het Percentage &#x200B;](#percentage_split).
+Met de optie **[!UICONTROL Show path for other cases than the one(s) above]** kunt u een ander pad maken voor soorten publiek die niet in aanmerking komen voor de gedefinieerde voorwaarden. Deze optie is niet beschikbaar in gesplitste omstandigheden. Zie [ Splitsing van het Percentage ](#percentage_split).
 
 In de eenvoudige modus kunt u eenvoudige query&#39;s uitvoeren op basis van een combinatie van velden. Alle beschikbare velden worden links op het scherm weergegeven. Sleep velden naar de hoofdzone. Als u de verschillende elementen wilt combineren, koppelt u ze aan elkaar om verschillende groepen en/of groepsniveaus te maken. Vervolgens kiest u een logische operator om elementen op hetzelfde niveau te combineren:
 
@@ -68,7 +72,7 @@ In de eenvoudige modus kunt u eenvoudige query&#39;s uitvoeren op basis van een 
 
 ![](assets/journey64.png)
 
-Als u de [&#x200B; Dienst van de Segmentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL){target="_blank"} gebruikt om uw publiek tot stand te brengen, kunt u hefboomwerking hen in uw reisvoorwaarden. Verwijs naar [&#x200B; Gebruikend publiek in voorwaarden &#x200B;](../building-journeys/condition-activity.md#using-a-segment).
+Als u de [ Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} gebruikt om uw publiek tot stand te brengen, kunt u hefboomwerking hen in uw reisvoorwaarden. Verwijs naar [ Gebruikend publiek in voorwaarden ](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
@@ -83,7 +87,7 @@ In de eenvoudige redacteur, zult u ook de categorie van de Eigenschappen van de 
 
 ## Source-voorwaarde voor gegevens {#data_source_condition}
 
-Gebruik een **[!UICONTROL Data Source condition]** om een voorwaarde te definiëren die is gebaseerd op velden uit de gegevensbronnen of de gebeurtenissen die eerder in de rit zijn geplaatst. Dit type voorwaarde wordt bepaald met de uitdrukkingsredacteur. Leer hoe te om de uitdrukkingsredacteur in [&#x200B; te gebruiken deze sectie &#x200B;](expression/expressionadvanced.md).
+Gebruik een **[!UICONTROL Data Source condition]** om een voorwaarde te definiëren die is gebaseerd op velden uit de gegevensbronnen of de gebeurtenissen die eerder in de rit zijn geplaatst. Dit type voorwaarde wordt bepaald met de uitdrukkingsredacteur. Leer hoe te om de uitdrukkingsredacteur in [ te gebruiken deze sectie ](expression/expressionadvanced.md).
 
 Als u zich bijvoorbeeld richt op een publiek met verrijkingskenmerken die zijn gegenereerd met een compositieworkflow of een aangepaste upload (CSV-bestand), kunt u deze verrijkingskenmerken gebruiken om uw voorwaarde te maken.
 
@@ -97,7 +101,7 @@ Gebruik een **[!UICONTROL Time condition]** om verschillende handelingen uit te 
 
 >[!NOTE]
 >
->* De tijdzone is niet specifiek voor een conditie en wordt op het niveau van de reis gedefinieerd in de reiseigenschappen. Leer meer op [&#x200B; deze pagina &#x200B;](../building-journeys/timezone-management.md).
+>* De tijdzone is niet specifiek voor een conditie en wordt op het niveau van de reis gedefinieerd in de reiseigenschappen. Leer meer op [ deze pagina ](../building-journeys/timezone-management.md).
 >
 >* Door gebrek, wordt **[!UICONTROL Time condition]** geplaatst door uur, van 00 :00 aan 12 :00.
 
@@ -111,7 +115,7 @@ Er zijn drie filteropties beschikbaar:
 
 ## Percentage splitsing {#percentage_split}
 
-Met deze optie kunt u het publiek willekeurig opsplitsen om een andere actie voor elke groep te definiëren. Geef het aantal splitsingen en de verdeling voor elk pad op. De gesplitste berekening is statistisch, aangezien het systeem niet kan voorspellen hoeveel mensen in deze activiteit van de reis zullen stromen. Als gevolg hiervan heeft de splitsing een zeer lage foutmarge. Deze functie is gebaseerd op een willekeurig mechanisme van Java (zie deze [&#x200B; pagina &#x200B;](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html){target="_blank"}).
+Met deze optie kunt u het publiek willekeurig opsplitsen om een andere actie voor elke groep te definiëren. Geef het aantal splitsingen en de verdeling voor elk pad op. De gesplitste berekening is statistisch, aangezien het systeem niet kan voorspellen hoeveel mensen in deze activiteit van de reis zullen stromen. Als gevolg hiervan heeft de splitsing een zeer lage foutmarge. Deze functie is gebaseerd op een willekeurig mechanisme van Java (zie deze [ pagina ](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html){target="_blank"}).
 
 In de testmodus wordt bij het bereiken van een splitsing altijd de bovenste vertakking gekozen. U kunt de positie van de gesplitste vertakkingen opnieuw ordenen als u wilt dat de test een ander pad kiest. Zie [deze pagina](../building-journeys/testing-the-journey.md)
 
@@ -160,7 +164,7 @@ In de testmodus wordt geen rekening gehouden met de profielbegrenzing.
 
 ## Gebruik van soorten publiek in omstandigheden {#using-a-segment}
 
-In deze sectie wordt uitgelegd hoe u een publiek kunt gebruiken in een reisconditie. Voor meer op publiek en hoe te om hen te bouwen, verwijs naar [&#x200B; deze sectie &#x200B;](../audience/about-audiences.md).
+In deze sectie wordt uitgelegd hoe u een publiek kunt gebruiken in een reisconditie. Voor meer op publiek en hoe te om hen te bouwen, verwijs naar [ deze sectie ](../audience/about-audiences.md).
 
 Voer de volgende stappen uit om een publiek in een reisvoorwaarde te gebruiken:
 
@@ -176,4 +180,4 @@ Voer de volgende stappen uit om een publiek in een reisvoorwaarde te gebruiken:
 
    >[!NOTE]
    >
-   >Merk op dat slechts de individuen met de **Realized** status van de publieksparticipatie als leden van het publiek zullen worden beschouwd. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [&#x200B; documentatie van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=nl-NL#interpret-segment-results){target="_blank"}.
+   >Merk op dat slechts de individuen met de **Realized** status van de publieksparticipatie als leden van het publiek zullen worden beschouwd. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [ documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
