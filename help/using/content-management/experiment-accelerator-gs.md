@@ -39,4 +39,4 @@ Belangrijkste voordelen zijn:
 
 * **Naadloze Collaboration**: De resultaten van het aandeel gemakkelijk en leiden teamrollen met alarm in real time.
 
-➡️ [ de documentatie van Journey Optimizer Experimentation Accelerator van de Toegang ](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview)
+➡️ [&#x200B; de documentatie van Journey Optimizer Experimentation Accelerator van de Toegang &#x200B;](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview)
