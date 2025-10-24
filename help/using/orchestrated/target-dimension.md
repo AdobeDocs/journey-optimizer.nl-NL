@@ -5,9 +5,9 @@ title: Uw doeldimensie maken
 description: Leer hoe te om een relationeel schema aan het klantenprofiel in kaart te brengen
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
-source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
+source-git-commit: 9003668674302c576ed9738c803446c476877e47
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Wanneer het vormen richt, bepaalt u twee zeer belangrijke aspecten:
 
   Het systeem moet begrijpen hoe het doelschema aan het `Profile` schema in kaart brengt. Dit wordt bereikt door een gedeeld identiteitsgebied - dat zowel in het doelschema als het `Profile` schema bestaat en als identiteitsnaamruimte gevormd.
 
-➡️ [&#x200B; Leer meer over relationele schema&#39;s in de documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [ Leer meer over relationele schema&#39;s in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## Uw doeldimensie maken {#targeting-dimension}
 
@@ -45,15 +45,15 @@ Begin door campagneorchestratie op te zetten door een relationeel schema aan het
 
 1. Klik op **[!UICONTROL Create]** om uw **[!UICONTROL Targeting dimension]** -bestand te maken.
 
-1. Kies uw [&#x200B; eerder gevormd Schema &#x200B;](gs-schemas.md) &#x200B; van drop-down.
+1. Kies uw [ eerder gevormd Schema ](gs-schemas.md) &#x200B; van drop-down.
 
-   Terwijl alle relationele schema&#39;s zichtbaar zijn, slechts zijn de schema&#39;s met een directe identiteitsverhouding aan het **Profiel** verkiesbaar voor selectie.
+   Terwijl alle relationele schema&#39;s worden getoond, slechts zijn die met een direct identiteitsverband met **Profiel** verkiesbaar voor selectie. U kunt geen andere schema&#39;s kiezen, bijvoorbeeld aankopen, en een schema selecteren dat rechtstreeks aan een profiel is gekoppeld.
 
 1. Selecteer **[!UICONTROL Identity value]** die de entiteit vertegenwoordigt u wilt richten.
 
    In dit voorbeeld is het klantprofiel gekoppeld aan meerdere abonnementen, die elk worden vertegenwoordigd door een uniek `crmID` in het `Recipient` -schema. Als u **[!UICONTROL Target Dimension]** instelt om het `Recipient` schema en de `crmID` identiteit te gebruiken, kunt u berichten verzenden op abonnementsniveau in plaats van naar het hoofdklantprofiel, zodat elk contract of elke regel een eigen gepersonaliseerd bericht ontvangt.
 
-   [&#x200B; leer meer in de documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/composition#identity)
+   [ leer meer in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 
