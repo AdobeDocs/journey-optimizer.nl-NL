@@ -22,7 +22,7 @@ ht-degree: 2%
 >id="ac_lp_components"
 >title="Inhoudscomponenten gebruiken"
 >abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een bestemmingspagina te maken. Gebruik de formuliercomponent om specifieke inhoud te definiëren waarmee gebruikers hun keuzes kunnen selecteren en verzenden."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="Inhoudscomponenten toevoegen"
+>additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="Inhoudscomponenten toevoegen"
 
 Als u de inhoud van de bestemmingspagina wilt ontwerpen, kunt u dezelfde onderdelen gebruiken als voor een e-mail. [Meer informatie](../email/content-components.md#add-content-components)
 
@@ -44,7 +44,7 @@ Met de landende pagina-inhoudontwerper kunt u ook contextuele gegevens gebruiken
 >id="ac_lp_formfield"
 >title="De velden voor formuliercomponenten instellen"
 >abstract="Bepaal hoe de ontvangers hun keuzes vanaf de bestemmingspagina zien en verzenden."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="Landingspagina-formulierstijlen definiëren"
+>additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="Landingspagina-formulierstijlen definiëren"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
