@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 5a6abcd48495a66496495e62c6027c2fd0fdd4c4
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -30,12 +30,14 @@ Op deze pagina wordt uitgelegd hoe campagnes met hoge doorvoer verschillen van s
 
 * **Personalization**:
 
-   * Al verpersoonlijking moet in de API nuttige lading als **contextafhankelijke gegevens** worden omvat. [&#x200B; Leer hoe te om inhoud te personaliseren gebruikend contextuele gegevens &#x200B;](../campaigns/api-triggered-campaign-action.md#contextual)
+   * Al verpersoonlijking moet in de API nuttige lading als **contextafhankelijke gegevens** worden omvat. [ Leer hoe te om inhoud te personaliseren gebruikend contextuele gegevens ](../campaigns/api-triggered-campaign-action.md#contextual)
    * Aanpassing op basis van profielen wordt niet ondersteund. Als profielvariabelen worden gebruikt, treden validatiefouten op.
 
-* **API eindpunt** - de Hoge campagnes van de Output gebruiken een verschillend eindpunt dan standaardAPI getriggerde campagnes. Voor details, zie [&#x200B; een API teweeggebrachte campagne &#x200B;](../campaigns/trigger-campaigns.md#trigger) uitvoeren.
+* **Gepersonaliseerde kanaalconfiguraties** - de configuraties van het Kanaal die [ op profiel-gebaseerde verpersoonlijking ](../email/surface-personalization.md) gebruiken kunnen niet met hoge productiecampagnes worden gebruikt. U kunt alleen oppervlakken gebruiken zonder profielpersonalisatie.
 
-* **exclusiviteit van de Campagne**: De hoge productiecampagnes gebruiken geen Profielen van Adobe. Berichten worden geleverd ongeacht of er een profiel bestaat.
+* **API eindpunt** - de Hoge campagnes van de Output gebruiken een verschillend eindpunt dan standaardAPI getriggerde campagnes. Voor details, zie [ een API teweeggebrachte campagne ](../campaigns/trigger-campaigns.md#trigger) uitvoeren.
+
+* **de exclusiviteit van de Campagne** - de Hoge productie campagnes gebruiken geen Profielen van Adobe. Berichten worden geleverd ongeacht of er een profiel bestaat.
 
   Bovendien kan een campagne niet voor zowel profiel-toegelaten als niet-profiel gebruiksgevallen worden gebruikt. Als u beide nodig hebt, maakt u twee aparte campagnes en zorgt u ervoor dat het aanroepende systeem besluit welke campagne op basis van de context moet worden gestart.
 
@@ -74,8 +76,8 @@ Met andere woorden:
 
 Volg de volgende richtlijnen om campagnes met hoge doorvoer correct te configureren:
 
-1. Creeer een nieuwe IP pool. [&#x200B; Leer hoe te om IP tot stand te brengen pools &#x200B;](../configuration/ip-pools.md)
-1. Maak een nieuwe kanaalconfiguratie. [&#x200B; leer hoe te de configuraties van het opstellingskanaal &#x200B;](../configuration/channel-surfaces.md)
+1. Creeer een nieuwe IP pool. [ Leer hoe te om IP tot stand te brengen pools ](../configuration/ip-pools.md)
+1. Maak een nieuwe kanaalconfiguratie. [ leer hoe te de configuraties van het opstellingskanaal ](../configuration/channel-surfaces.md)
 1. Neem contact op met de klantenservice van Adobe om te vragen dat het geactiveerde oppervlak wordt toegewezen aan de functie voor hoge doorvoer. Geef de kanaalconfiguratie en IP-groepsgegevens op, samen met uw organisatie-id.
 
 >[!IMPORTANT]
