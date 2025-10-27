@@ -5,10 +5,10 @@ title: Problemen oplossen
 description: Problemen oplossen
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
+source-git-commit: 6ab58b82f5c18f54d8857452d1f91ea96a55933b
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 1%
+source-wordcount: '270'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,27 @@ Wanneer een klantenreis zich niet zoals verwacht gedraagt, kan het identificeren
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bell.svg)
+
+Toegang tot en abonnement op systeemwaarschuwingen
+
+Leer hoe u systeemwaarschuwingen kunt openen, meldingen kunt abonneren en kritieke gebeurtenissen tijdens uw reizen en campagnes kunt controleren.
+
+[Toegangssysteemwaarschuwingen](../using/reports/alerts.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
+
+Referentie voor foutcodes
+
+Begrijp gemeenschappelijke foutencodes in Adobe Journey Optimizer en vind snelle resoluties voor kwesties over reizen, campagnes, en berichten.
+
+[Referentie van foutcodes weergeven](../using/building-journeys/error-codes-reference.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Fouten oplossen voordat u uw reis gaat testen of publiceren
 
@@ -31,7 +51,7 @@ Fouten, activiteitenproblemen en back-upacties voor de hele reis opsporen en opl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Problemen met Live Journey-uitvoering oplossen in Adobe Journey Optimizer
 
@@ -41,7 +61,7 @@ Diagnose van problemen met gebeurtenisvalidatie, profielinvoer, reisnavigatie en
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Binnenkomende handelingen in Adobe Journey Optimizer-reizen oplossen
 
@@ -51,7 +71,7 @@ Fouten opsporen in binnenkomende actiekwesties, zoals ontbrekende inhoud of door
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Aangepaste acties in Adobe Journey Optimizer oplossen
 
@@ -60,14 +80,10 @@ Valideer en foutopsporing aangepaste handelingen met de functie &#39;Testaanvraa
 [Aangepaste handelingen valideren](../using/action/troubleshoot-custom-action.md)
 :::
 
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
-
-Referentie voor foutcodes
-
-Begrijp gemeenschappelijke foutencodes in Adobe Journey Optimizer en vind snelle resoluties voor kwesties over reizen, campagnes, en berichten.
-
-[Referentie van foutcodes weergeven](../using/building-journeys/error-codes-reference.md)
-:::
-
 ::::
+
+## Aanvullende bronnen
+
+* [ Veelgestelde vragen van de Reis ](../using/building-journeys/journey-faq.md) - Uitgebreide antwoorden op gemeenschappelijke vragen over reizen, die vervoerstypes, uitvoering, configuratie, en het oplossen van problemenbeste praktijken behandelen.
+
+* [ Grafieken en Beperkingen ](../using/start/guardrails.md) - Leer over de gidsen van Journey Optimizer, productbeperkingen, prestatiesoverwegingen, en gesteunde browsers om optimaal gebruik te verzekeren.

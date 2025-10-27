@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
+source-git-commit: 6ab58b82f5c18f54d8857452d1f91ea96a55933b
 workflow-type: tm+mt
-source-wordcount: '2995'
+source-wordcount: '2998'
 ht-degree: 18%
 
 ---
@@ -202,13 +202,6 @@ ht-degree: 18%
       + [Leveringen opwaarderen](using/building-journeys/ramp-up-deliveries-uc.md)
       + [Productie beperken met externe gegevensbronnen en aangepaste acties](using/building-journeys/limit-throughput.md)
       + [Aangepaste acties gebruiken om gebeurtenissen voor reizen in Experience Platform te schrijven](using/building-journeys/custom-action-aep.md)
-   + Problemen oplossen {#troubleshoot-journey}
-      + [Problemen oplossen](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-      + [Referentie foutcodes](using/building-journeys/error-codes-reference.md)
-      + [Los reisfouten op](using/building-journeys/troubleshooting.md)
-      + [Los reisuitvoering problemen op](using/building-journeys/troubleshooting-execution.md)
-      + [Binnenkomende acties oplossen](using/building-journeys/troubleshooting-inbound.md)
-      + [Aangepaste acties oplossen](using/action/troubleshoot-custom-action.md)
 + Campagnes {#campaigns}
    + [Campagnes](/help/rp_landing_pages/campaigns-landing-page.md)
    + [Aan de slag met campagnes](using/campaigns/get-started-with-campaigns.md)
@@ -278,7 +271,7 @@ ht-degree: 18%
          + [Splitsen](using/orchestrated/activities/split.md)
          + [Testen](using/orchestrated/activities/test.md)
          + [Wachten](using/orchestrated/activities/wait.md)
-+ Conflictbeheer en prioritering {#conflict-prioritization}
++ Conflict en prioriteit {#conflict-prioritization}
    + [Conflictbeheer en prioritering](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
    + [Aan de slag met conflictbeheer en -prioriteiten](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Mogelijke conflicten identificeren](using/conflict-prioritization/conflicts.md)
@@ -307,7 +300,15 @@ ht-degree: 18%
       + [Goedkeuringsbeleid maken en beheren](using/test-approve/approval-policies.md)
       + [Goedkeuring aanvragen](using/test-approve/request-approval.md)
       + [Een verzoek goedkeuren](using/test-approve/review-approve-request.md)
++ Monitor en problemen oplossen {#monitor}
+   + [Bewaking en problemen oplossen](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [Systeemwaarschuwingen](using/reports/alerts.md)
+   + [Referentie foutcodes](using/building-journeys/error-codes-reference.md)
+   + Reisproblemen oplossen {#troubleshoot-journey}
+      + [Los reisfouten op](using/building-journeys/troubleshooting.md)
+      + [Los reisuitvoering problemen op](using/building-journeys/troubleshooting-execution.md)
+      + [Binnenkomende acties oplossen](using/building-journeys/troubleshooting-inbound.md)
+      + [Aangepaste acties oplossen](using/action/troubleshoot-custom-action.md)
 + Communicatiekanalen {#channels}
    + [Aan de slag met communicatiekanalen](using/channels/gs-channels.md)
    + Email channel {#email}
@@ -883,7 +884,7 @@ ht-degree: 18%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}

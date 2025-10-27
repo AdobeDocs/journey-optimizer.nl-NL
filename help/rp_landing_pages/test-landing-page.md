@@ -4,23 +4,23 @@ product: Journey Optimizer
 title: Testen en goedkeuren
 description: Testen en goedkeuren
 redpen-status: CREATED_||_2025-08-11_20-30-59
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: a770412f-2f80-459d-8cce-32212154d154
+source-git-commit: 6ab58b82f5c18f54d8857452d1f91ea96a55933b
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
 
-
 # Testen en goedkeuren{#section-overview}
 
-Met de functies Testen en goedkeuren in Adobe Journey Optimizer kunt u uw campagnes en reizen op een betrouwbare manier perfectioneren voordat u ze start. Of u nu een voorvertoning weergeeft van gepersonaliseerde inhoud met testprofielen, ervoor zorgt dat e-mails mooi worden weergegeven op verschillende apparaten of controleert of uw reizen voldoen aan organisatorische standaarden via gestructureerde goedkeuringswerkstromen, deze sectie begeleidt u stap voor stap. Onderzoek hoe te om real-world scenario&#39;s te simuleren, potentiële fouten vroegtijdig te vangen, en goedkeuringen efficiënt te beheren - allen om ervoor te zorgen uw campagnes nauwkeurig zijn, gepolijst, en klaar om uitzonderlijke klantenervaringen te leveren. Met duidelijke instructies en praktische hulpmiddelen, zult u zich bereid voelen om te testen, te verfijnen, en vol vertrouwen te gaan leven.
+Controleer voordat u uw campagnes en reizen start of ze naar behoren werken. Voorproef uw inhoud met [ testprofielen ](../using/content-management/test-profiles.md), controleer e-mail teruggevend over apparaten, en bevestig reislogica met [ testwijze ](../using/building-journeys/testing-the-journey.md) of [ droge looppas ](../using/building-journeys/journey-dry-run.md). Opstelling [ goedkeuringswerkschema&#39;s ](../using/test-approve/gs-approval.md) om kwaliteitscontrole te verzekeren, en gebruik [ systeemalarm ](../using/reports/alerts.md) om kwesties te controleren. Door vroegtijdig te testen kunt u fouten opsporen en nauwkeurige, effectieve campagnes voeren.
 
 ## Inhoud testen en goedkeuren
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Inhoud voorvertonen, testen en valideren
 
@@ -30,7 +30,7 @@ Leer hoe u persoonlijke inhoud kunt voorvertonen, testen en valideren met testpr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Goedkeuringswerkstromen voor reizen en campagnes
 
@@ -40,13 +40,45 @@ Begrijp hoe u goedkeuringsprocedures instelt, beheert en uitvoert om kwaliteitsc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Toegang tot en abonnement op systeemwaarschuwingen
+Uw reis testen
 
-Ontdek hoe u systeemwaarschuwingen kunt beheren, op meldingen kunt abonneren en problemen tijdens reizen en campagnes kunt oplossen.
+Valideer uw reis voordat u deze publiceert door deze te testen met specifieke profielen om ervoor te zorgen dat gebeurtenissen, voorwaarden en acties naar behoren werken.
 
-[Systeemwaarschuwingen weergeven](../using/reports/alerts.md)
+[Uw reis testen](../using/building-journeys/testing-the-journey.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+
+Reizen op reis
+
+Voer een droge looppas uit om de uitvoeringspad van uw reis te simuleren en te bevestigen, die potentiële kwesties identificeren alvorens live te gaan.
+
+[Meer informatie over Journey Dry run](../using/building-journeys/journey-dry-run.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+
+Bewaking en probleemoplossing
+
+Toegang tot uitgebreide bronnen voor probleemoplossing, systeemwaarschuwingen en foutcodes om problemen met de uitvoering en prestaties van de reis op te lossen.
+
+[Bewaking en probleemoplossing weergeven](troubleshoot-journey-landing-page.md)
 :::
 
 ::::
+
+## Aanvullende bronnen
+
+* [ Levend Rapport in Uw Reis ](../using/building-journeys/report-journey.md) - de metriek van de reis van de monitor in real time om prestaties te volgen en kwesties tijdens uitvoering te identificeren.
+
+* [ Creërend de Profielen van de Test ](../using/audience/creating-test-profiles.md) - creeer en beheer testprofielen om echte klantenscenario&#39;s te simuleren en verpersoonlijking te bevestigen.
+
+* [ het Beheer van de Inhoud ](content-management-landing-page.md) - Leer hoe te, voorproef, en beheer inhoud gebruikend malplaatjes, fragmenten, en e-mail Designer.
+
+* [ Veelgestelde vragen van de Reis ](../using/building-journeys/journey-faq.md) - vind antwoorden aan gemeenschappelijke vragen over reisverwezenlijking, het testen, de uitvoering, en het oplossen van problemen.
+
+* [ E-mailSpam Rapport ](../using/content-management/spam-report.md) - controleer uw e-mailspamscore alvorens te verzenden om bevreesbaarheid en inbox plaatsing te verbeteren.
