@@ -153,7 +153,7 @@ Als u blijvende fouten tegenkomt die niet kunnen worden opgelost met behulp van 
 
 1. **verzamel informatie**: Verzamel de foutencode, verzoek identiteitskaart, timestamps, en stappen om te reproduceren
 2. **het systeemstatus van de Controle**: Bezoek [&#x200B; Status van Adobe &#x200B;](https://status.adobe.com/){target="_blank"} voor bekende de dienstkwesties
-3. **documentatie van het Onderzoek**: Het overzicht [&#x200B; Liga van de Ervaring van Adobe &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer.html){target="_blank"} voor oplossingen
+3. **documentatie van het Onderzoek**: Het overzicht [&#x200B; Liga van de Ervaring van Adobe &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=nl-NL){target="_blank"} voor oplossingen
 4. **gemeenschap van de Mogenschap**: De vragen van het post in de [&#x200B; Gemeenschap van Adobe Journey Optimizer &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 5. **Steun van Adobe van het Contact**: leg een steunkaartje met alle relevante details voor
 
