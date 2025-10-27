@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 584d860d0908f354389037be860757dabe1c1e3f
+source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
 workflow-type: tm+mt
-source-wordcount: '2998'
+source-wordcount: '2999'
 ht-degree: 18%
 
 ---
@@ -48,7 +48,6 @@ ht-degree: 18%
    + [Werken met AI-assistent](using/start/ai-assistant.md)
    + [Playbooks voor gebruiksscenario&#39;s](using/start/playbooks.md)
    + [Afbeeldingen en beperkingen](using/start/guardrails.md)
-   + [Problemen oplossen](using/start/troubleshooting.md)
 + Journeys {#orchestrate-journeys}
    + [Journeys](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Aan de slag met reizen](using/building-journeys/journey.md)
@@ -304,6 +303,7 @@ ht-degree: 18%
    + [Bewaking en problemen oplossen](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [Systeemwaarschuwingen](using/reports/alerts.md)
    + [Referentie foutcodes](using/building-journeys/error-codes-reference.md)
+   + [Problemen met artikelen oplossen](using/start/troubleshooting.md)
    + Problemen met reizen oplossen {#troubleshoot-journey}
       + [Los reisfouten op](using/building-journeys/troubleshooting.md)
       + [Los reisuitvoering problemen op](using/building-journeys/troubleshooting-execution.md)
@@ -884,7 +884,7 @@ ht-degree: 18%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
