@@ -21,7 +21,7 @@ Wanneer een klantenreis zich niet zoals verwacht gedraagt, kan het identificeren
 :::: landing-cards-container
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Fouten oplossen voordat u uw reis gaat testen of publiceren
 
@@ -31,7 +31,7 @@ Fouten, activiteitenproblemen en back-upacties voor de hele reis opsporen en opl
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Problemen met Live Journey-uitvoering oplossen in Adobe Journey Optimizer
 
@@ -41,7 +41,7 @@ Diagnose van problemen met gebeurtenisvalidatie, profielinvoer, reisnavigatie en
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Binnenkomende handelingen in Adobe Journey Optimizer-reizen oplossen
 
@@ -51,7 +51,7 @@ Fouten opsporen in binnenkomende actiekwesties, zoals ontbrekende inhoud of door
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Aangepaste acties in Adobe Journey Optimizer oplossen
 
@@ -61,7 +61,7 @@ Valideer en foutopsporing aangepaste handelingen met de functie &#39;Testaanvraa
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Referentie voor foutcodes
 
