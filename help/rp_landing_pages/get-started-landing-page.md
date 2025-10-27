@@ -20,7 +20,7 @@ Adobe Journey Optimizer stelt bedrijven in staat om gepersonaliseerde, real-time
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Belangrijkste mogelijkheden van Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Ontdek de basisfuncties van Adobe Journey Optimizer, gebruiksscenario&#39;s en a
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Overzicht van Adobe Journey Optimizer-architectuur
 
@@ -40,7 +40,7 @@ Begrijp hoe Adobe Journey Optimizer met Adobe Experience Platform integreert om 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Rollen en verantwoordelijkheden in Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Bekijk een overzicht van de rollen en workflows die nodig zijn om Adobe Journey 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Overzicht Adobe Journey Optimizer-gebruikersinterface
 
@@ -60,7 +60,7 @@ Navigeer de interface van Adobe Journey Optimizer en verken zijn eigenschappen, 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Inhoud zoeken, filteren en ordenen in Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Gebruik functies voor zoeken, filteren en labelen om uw reizen, campagnes en and
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Guardrails en beperkingen in Adobe Journey Optimizer
 
