@@ -925,4 +925,4 @@ Raadpleeg de volgende bronnen voor meer informatie en updates:
 * [Uw eerste journey maken](journey-gs.md)
 * [Problemen met hulplijnen oplossen](troubleshooting.md)
 * [Gebruiksgevallen voor reizen](jo-use-cases.md)
-* [&#x200B; de Beschrijving van het Product van Journey Optimizer &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [&#x200B; de Beschrijving van het Product van Journey Optimizer &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
