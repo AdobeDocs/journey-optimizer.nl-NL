@@ -21,7 +21,7 @@ Wanneer een klantenreis zich niet zoals verwacht gedraagt, kan het identificeren
 :::: landing-cards-container
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Toegang tot en abonnement op systeemwaarschuwingen
 
@@ -31,7 +31,7 @@ Leer hoe u systeemwaarschuwingen kunt openen, meldingen kunt abonneren en kritie
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Referentie voor foutcodes
 
@@ -41,7 +41,7 @@ Begrijp gemeenschappelijke foutencodes in Adobe Journey Optimizer en vind snelle
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Fouten oplossen voordat u uw reis gaat testen of publiceren
 
@@ -51,7 +51,7 @@ Fouten, activiteitenproblemen en back-upacties voor de hele reis opsporen en opl
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Problemen met Live Journey-uitvoering oplossen in Adobe Journey Optimizer
 
@@ -61,7 +61,7 @@ Diagnose van problemen met gebeurtenisvalidatie, profielinvoer, reisnavigatie en
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Binnenkomende handelingen in Adobe Journey Optimizer-reizen oplossen
 
@@ -71,7 +71,7 @@ Fouten opsporen in binnenkomende actiekwesties, zoals ontbrekende inhoud of door
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Aangepaste acties in Adobe Journey Optimizer oplossen
 
@@ -84,6 +84,6 @@ Valideer en foutopsporing aangepaste handelingen met de functie &#39;Testaanvraa
 
 ## Aanvullende bronnen
 
-* [ Veelgestelde vragen van de Reis ](../using/building-journeys/journey-faq.md) - Uitgebreide antwoorden op gemeenschappelijke vragen over reizen, die vervoerstypes, uitvoering, configuratie, en het oplossen van problemenbeste praktijken behandelen.
+* [&#x200B; Veelgestelde vragen van de Reis &#x200B;](../using/building-journeys/journey-faq.md) - Uitgebreide antwoorden op gemeenschappelijke vragen over reizen, die vervoerstypes, uitvoering, configuratie, en het oplossen van problemenbeste praktijken behandelen.
 
-* [ Grafieken en Beperkingen ](../using/start/guardrails.md) - Leer over de gidsen van Journey Optimizer, productbeperkingen, prestatiesoverwegingen, en gesteunde browsers om optimaal gebruik te verzekeren.
+* [&#x200B; Grafieken en Beperkingen &#x200B;](../using/start/guardrails.md) - Leer over de gidsen van Journey Optimizer, productbeperkingen, prestatiesoverwegingen, en gesteunde browsers om optimaal gebruik te verzekeren.
