@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Inhoudsbeheer
 description: Inhoudsbeheer
 redpen-status: CREATED_||_2025-08-12_00-44-43
-source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
+exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
+source-git-commit: b8c2b05df22e4aa78ea95e47e1554c9d538dfc0f
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
-
 
 # Inhoudsbeheer{#section-overview}
 
@@ -20,9 +20,9 @@ Met de Adobe Journey Optimizer-functies voor inhoudsbeheer kunt u inhoud naadloo
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Personalization in Adobe Journey Optimizer
+Personalization toevoegen
 
 Leer hoe u personalisatiefuncties implementeert en optimaliseert om op maat gesneden klantervaringen te maken.
 
@@ -30,9 +30,9 @@ Leer hoe u personalisatiefuncties implementeert en optimaliseert om op maat gesn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Openingspagina&#39;s in Adobe Journey Optimizer
+Openingspagina&#39;s maken
 
 Ontdek gereedschappen en zelfstudies voor het maken, beheren en optimaliseren van bestemmingspagina&#39;s voor marketingcampagnes.
 
@@ -40,9 +40,9 @@ Ontdek gereedschappen en zelfstudies voor het maken, beheren en optimaliseren va
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Inhoudssjablonen in Adobe Journey Optimizer
+Inhoudssjablonen
 
 De creatie van inhoud stroomlijnen met herbruikbare sjablonen voor efficiënt campagne- en reisbeheer.
 
@@ -50,7 +50,7 @@ De creatie van inhoud stroomlijnen met herbruikbare sjablonen voor efficiënt ca
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Herbruikbare inhoudsfragmenten
 
@@ -60,9 +60,9 @@ Leer hoe u herbruikbare inhoudsfragmenten maakt en beheert voor verpersoonlijkin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Dynamische inhoud in Adobe Journey Optimizer
+Dynamische inhoud maken
 
 Gebruik voorwaardelijke regels om dynamische, gepersonaliseerde inhoud voor e-mails, SMS en pushberichten te maken.
 
@@ -70,7 +70,7 @@ Gebruik voorwaardelijke regels om dynamische, gepersonaliseerde inhoud voor e-ma
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Gebruiksscenario&#39;s voor meerdere oplossingen
 
