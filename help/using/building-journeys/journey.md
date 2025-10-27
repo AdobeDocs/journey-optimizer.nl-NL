@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: reis, ontdek, begin
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 05b8e6c4500d5ec3b6c2c3b0230499a369c8d8ac
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -31,24 +31,31 @@ Gebruik [!DNL Journey Optimizer] om in real time orchestratiefase samen te stell
 
 De de reisontwerper van Journey Optimizer verstrekt alles Marketers en reisartsen moeten multi-step 1 :1 reizen over kanalen organiseren. Dit omvat een intuïtief belemmering-en-dalingscanvas om elke stap van de reis te ordenen, het doelpubliek te bepalen, en de berichten, de aanbiedingen, en de inhoud te omvatten over kanalen die doelpublieksleden gebaseerd op gedrag, contextuele gegevens, en bedrijfsgebeurtenissen zullen zien.
 
-Leer hoe te om uw eerste reis op [&#x200B; te creëren en te ontwerpen deze pagina &#x200B;](journey-gs.md).
+Leer hoe te om uw eerste reis op [ te creëren en te ontwerpen deze pagina ](journey-gs.md).
 
-➡️ [&#x200B; ontdekt Journey Optimizer in video &#x200B;](#video)
+➡️ [ ontdekt Journey Optimizer in video ](#video)
 
 ## Gebruiksscenario’s{#uc-journey}
 
-Van binnen de reisontwerper, kunnen de marketers in real time teweeggebrachte 1 :1 berichten door om het even welk kanaal verzenden wanneer een gebeurtenis voorkomt. Bijvoorbeeld, wanneer een klant aan de dienst intekent, kan het [&#x200B; welkome e-mail &#x200B;](message-to-subscribers-uc.md) teweegbrengen, die hen aanmoedigen om in app voor het eerst te registreren en hun voorkeur te plaatsen. Handelingen als het voltooien van de aankoop, het openen van de e-mail en het aanmelden bij de app kunnen worden gebruikt om nieuwe klanten door hun reizen te leiden.
+Van binnen de reisontwerper, kunnen de marketers in real time teweeggebrachte 1 :1 berichten door om het even welk kanaal verzenden wanneer een gebeurtenis voorkomt. Bijvoorbeeld, wanneer een klant aan de dienst intekent, kan het [ welkome e-mail ](message-to-subscribers-uc.md) teweegbrengen, die hen aanmoedigen om in app voor het eerst te registreren en hun voorkeur te plaatsen. Handelingen als het voltooien van de aankoop, het openen van de e-mail en het aanmelden bij de app kunnen worden gebruikt om nieuwe klanten door hun reizen te leiden.
 
-De [&#x200B; reisontwerper &#x200B;](using-the-journey-designer.md) verstrekt [&#x200B; ingebouwde kanaalacties &#x200B;](journeys-message.md) die uitgaande berichten, zoals e-mail, dupberichten, en SMS/MMS, evenals binnenkomende kanalen, met inbegrip van mobiele apps, websites, en code-gebaseerde ervaringen steunen die direct binnen Journey Optimizer worden gebouwd. U kunt derdesystemen ook gebruiken om berichten te verzenden — of via e-mail, tekst, of andere kanalen — Journey Optimizer omvat [&#x200B; douaneacties &#x200B;](using-custom-actions.md) om deze systemen toe te staan om in reizen direct van de reisontwerper worden geïntegreerd.
+De [ reisontwerper ](using-the-journey-designer.md) verstrekt [ ingebouwde kanaalacties ](journeys-message.md) die uitgaande berichten, zoals e-mail, dupberichten, en SMS/MMS, evenals binnenkomende kanalen, met inbegrip van mobiele apps, websites, en code-gebaseerde ervaringen steunen die direct binnen Journey Optimizer worden gebouwd. U kunt derdesystemen ook gebruiken om berichten te verzenden — of via e-mail, tekst, of andere kanalen — Journey Optimizer omvat [ douaneacties ](using-custom-actions.md) om deze systemen toe te staan om in reizen direct van de reisontwerper worden geïntegreerd.
 
-Leer hoe te reizen [&#x200B; in deze gebruiksgevallen van begin tot eind te bouwen &#x200B;](jo-use-cases.md).
+Leer hoe te reizen [ in deze gebruiksgevallen van begin tot eind te bouwen ](jo-use-cases.md).
 
 >[!NOTE]
 >
->De de gidsen en beperkingen van de reis zijn gedetailleerd op [&#x200B; deze pagina &#x200B;](../start/guardrails.md)
+>De de gidsen en beperkingen van de reis zijn gedetailleerd op [ deze pagina ](../start/guardrails.md)
 
 ## Hoe kan ik-video {#video}
 
 Ontdek de onderdelen van een reis en begrijp de grondbeginselen van het maken van een reis op het canvas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430347?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+
+## Aanvullende bronnen {#additional-resources}
+
+* [ Veelgestelde vragen van de Reis ](journey-faq.md) - Veelgestelde vragen over reizen
+* [ Verwijzing van de codes van de Fout ](error-codes-reference.md) - de codes van de de foutenfout van de Reis en het oplossen van problemenstappen
+* [ Alarm ](../reports/alerts.md) - de alarm van de opstelling voor reis controle
+* [ het Oplossen van problemen ](troubleshooting.md) - Gemeenschappelijke reiskwesties en oplossingen
