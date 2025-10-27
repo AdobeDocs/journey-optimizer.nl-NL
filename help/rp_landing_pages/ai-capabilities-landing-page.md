@@ -20,7 +20,7 @@ Adobe Journey Optimizer maakt gebruik van de kracht van kunstmatige intelligenti
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/sparkles.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/sparkles.svg)
 
 AI Assistant voor het genereren van inhoud
 
@@ -30,7 +30,7 @@ Gebruik generatieve AI om inhoud te maken en aan te passen op e-mails, SMS, push
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 Send-Time optimalisatie
 
@@ -40,7 +40,7 @@ Gebruik AI om de optimale tijd te voorspellen om berichten te verzenden en klant
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/data.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/data.svg)
 
 AI-modellen voor besluitvorming
 
@@ -50,7 +50,7 @@ Creeer auto-optimalisering en gepersonaliseerde optimalisatiemodellen om de best
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/help.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/help.svg)
 
 Productkennis voor AI Assistant
 
@@ -60,7 +60,7 @@ Ontvang onmiddellijke antwoorden en operationele inzichten over Adobe Journey Op
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/experiment.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/experiment.svg)
 
 Experimenteer met inhoud met AI
 
@@ -70,7 +70,7 @@ Genereer meerdere inhoudvariaties en voer experimenten uit om de best presterend
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/user-group.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-group.svg)
 
 AI-integratie van klant
 
@@ -170,7 +170,7 @@ AI Medewerker voor inhoudsgeneratie is beschikbaar voor **E-mail**, **duw**, **S
 
 +++**moet ik met om het even welke termijnen akkoord gaan om eigenschappen van AI te gebruiken?**
 
-Ja, moet u met de [ Generatieve AI Richtlijnen van de Gebruiker van Adobe Experience Cloud ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens AI Medewerker in Journey Optimizer te gebruiken. Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie. Daarnaast past Adobe Content Credentials toe op door Firefly gegenereerde activa als onderdeel van haar verplichting tot transparantie bij generatief gebruik van AI.
+Ja, moet u met de [&#x200B; Generatieve AI Richtlijnen van de Gebruiker van Adobe Experience Cloud &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens AI Medewerker in Journey Optimizer te gebruiken. Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie. Daarnaast past Adobe Content Credentials toe op door Firefly gegenereerde activa als onderdeel van haar verplichting tot transparantie bij generatief gebruik van AI.
 
 +++
 
