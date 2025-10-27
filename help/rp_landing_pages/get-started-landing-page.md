@@ -5,10 +5,10 @@ title: Aan de slag
 description: Aan de slag
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
+source-git-commit: 08599d8a9249115a4ce7f339b3565b7805db83e4
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 1%
+source-wordcount: '374'
+ht-degree: 2%
 
 ---
 
@@ -20,9 +20,9 @@ Adobe Journey Optimizer stelt bedrijven in staat om gepersonaliseerde, real-time
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Belangrijkste mogelijkheden van Adobe Journey Optimizer
+Belangrijkste mogelijkheden
 
 Ontdek de basisfuncties van Adobe Journey Optimizer, gebruiksscenario&#39;s en architectuur voor persoonlijke klantervaringen.
 
@@ -30,9 +30,9 @@ Ontdek de basisfuncties van Adobe Journey Optimizer, gebruiksscenario&#39;s en a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Overzicht van Adobe Journey Optimizer-architectuur
+Overzicht van architectuur
 
 Begrijp hoe Adobe Journey Optimizer met Adobe Experience Platform integreert om gegevensgestuurde personalisatie op schaal mogelijk te maken.
 
@@ -40,9 +40,9 @@ Begrijp hoe Adobe Journey Optimizer met Adobe Experience Platform integreert om 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Rollen en verantwoordelijkheden in Adobe Journey Optimizer
+Rollen en verantwoordelijkheden
 
 Bekijk een overzicht van de rollen en workflows die nodig zijn om Adobe Journey Optimizer effectief te implementeren en te beheren.
 
@@ -50,9 +50,9 @@ Bekijk een overzicht van de rollen en workflows die nodig zijn om Adobe Journey 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Overzicht Adobe Journey Optimizer-gebruikersinterface
+Overzicht van gebruikersinterface
 
 Navigeer de interface van Adobe Journey Optimizer en verken zijn eigenschappen, met inbegrip van reisbeheer en beslissingshulpmiddelen.
 
@@ -60,9 +60,9 @@ Navigeer de interface van Adobe Journey Optimizer en verken zijn eigenschappen, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Inhoud zoeken, filteren en ordenen in Adobe Journey Optimizer
+Inhoud zoeken, filteren en ordenen
 
 Gebruik functies voor zoeken, filteren en labelen om uw reizen, campagnes en andere middelen efficiënt te beheren en te organiseren.
 
@@ -70,9 +70,9 @@ Gebruik functies voor zoeken, filteren en labelen om uw reizen, campagnes en and
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Guardrails en beperkingen in Adobe Journey Optimizer
+Afvoerkanalen en beperkingen
 
 Meer informatie over de beperkingen en aanbevolen procedures voor het effectief gebruiken van Adobe Journey Optimizer-functies.
 
@@ -86,8 +86,8 @@ Meer informatie over de beperkingen en aanbevolen procedures voor het effectief 
 
 - **[duik in de Concepten van de Kern](../using/start/functional-areas-redpen.md)** - leer over de belangrijkste functionele gebieden van Adobe Journey Optimizer en hoe zij samenwerken om klantenreizen te optimaliseren.
 - **[Adobe Journey Optimizer: De zeer belangrijke Terminologie](../using/start/terminology-md-redpen.md)** - begrijpt essentiële termijnen en concepten om Adobe Journey Optimizer op een betrouwbare manier te gebruiken en marketing strategieën effectief uit te voeren.
-- **[Eigenschappen van de Toegankelijkheid in Adobe Journey Optimizer](../using/start/accessibility.md)** - leer over toegankelijkheidseigenschappen en naleving van normen WCAG om inclusiviteit voor alle gebruikers te verzekeren.
-- **[Begonnen het Worden met Medewerker AI in Adobe Journey Optimizer](../using/start/ai-assistant.md)** - Hefboomwerking de Medewerker AI om concepten te navigeren en operationele inzichten binnen Adobe Journey Optimizer te bereiken.
+- **[Eigenschappen van de Toegankelijkheid](../using/start/accessibility.md)** - leer over toegankelijkheidseigenschappen en naleving van normen WCAG om inclusiviteit voor alle gebruikers te verzekeren.
+- **[Begonnen het Worden met Medewerker AI](../using/start/ai-assistant.md)** - Hefboomwerking AI Medewerker om concepten te navigeren en operationele inzichten binnen Adobe Journey Optimizer te bereiken.
 - **[de artikelen van het Oplossen van problemen](../using/start/troubleshooting.md)** - Elke het oplossen van problemensectie verstrekt antwoorden aan vaak gestelde vragen en oplossingen aan problemen.
 - **[Controle &amp; het oplossen van problemen](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)** - ontdekt uitvoerige hulpmiddelen om reisprestaties te volgen, potentiële kwesties te identificeren, en problemen snel op te lossen wanneer zij zich voordoen.
 
