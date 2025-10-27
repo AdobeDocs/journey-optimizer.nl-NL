@@ -30,7 +30,7 @@ Gebruik generatieve AI om inhoud te maken en aan te passen op e-mails, SMS, push
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=nl-NL)
 
 Send-Time optimalisatie
 
@@ -70,7 +70,7 @@ Genereer meerdere inhoudvariaties en voer experimenten uit om de best presterend
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-group.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-group.svg?lang=nl-NL)
 
 AI-integratie van klant
 
