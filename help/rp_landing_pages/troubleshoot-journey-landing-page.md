@@ -25,7 +25,7 @@ Deze pagina brengt essentiële middelen samen om u te helpen reisgezondheid cont
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=nl-NL)
 
 Toegang tot en abonnement op systeemwaarschuwingen
 
@@ -35,7 +35,7 @@ Leer hoe u systeemwaarschuwingen kunt openen, meldingen kunt abonneren en kritie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
 
 Referentie voor foutcodes
 
@@ -45,7 +45,7 @@ Begrijp gemeenschappelijke foutencodes in Adobe Journey Optimizer en vind snelle
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Fouten oplossen voordat u uw reis gaat testen of publiceren
 
@@ -55,7 +55,7 @@ Fouten, activiteitenproblemen en back-upacties voor de hele reis opsporen en opl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 Problemen met Live Journey-uitvoering oplossen in Adobe Journey Optimizer
 
@@ -65,7 +65,7 @@ Diagnose van problemen met gebeurtenisvalidatie, profielinvoer, reisnavigatie en
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 Binnenkomende handelingen in Adobe Journey Optimizer-reizen oplossen
 
@@ -75,7 +75,7 @@ Fouten opsporen in binnenkomende actiekwesties, zoals ontbrekende inhoud of door
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Aangepaste acties in Adobe Journey Optimizer oplossen
 
