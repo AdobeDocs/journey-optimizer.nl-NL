@@ -4,9 +4,7 @@ product: journey optimizer
 title: Adobe Journey Optimizer-releasecyclus
 feature: Release Notes
 description: Adobe Journey Optimizer Release Cycle
-hide: true
-hidefromtoc: true
-source-git-commit: 920c9080768e1972b487b3a258281914a4b7d8de
+source-git-commit: f116775dfa5bb46857c5e9401a291b46105ebcca
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 0%
@@ -80,7 +78,7 @@ Om up-to-date te blijven:
 
 * Herzie de [**recentste versienota&#39;s**](release-notes.md) voor nieuwe en bijgewerkte mogelijkheden.
 * Controleer de **_Meest recente updates_** sectie tussen maandelijkse versies voor plaatsingen in real time.
-* De Nota&#39;s van de pre-Versie van de monitor **&#x200B;**&#x200B;(indien beschikbaar) voor een voorproef van aanstaande eigenschappen.
+* De Nota&#39;s van de pre-Versie van de monitor **** (indien beschikbaar) voor een voorproef van aanstaande eigenschappen.
 * Neem contact op met uw Adobe-vertegenwoordiger voor Beta of beperkte toegang tot of machtiging tot toegang.
 
 U kunt aan **e-mail en in-product alarm** voor de productreleases van Journey Optimizer intekenen. Abonneren:

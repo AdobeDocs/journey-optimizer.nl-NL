@@ -5,22 +5,24 @@ title: Aan de slag
 description: Aan de slag
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 08599d8a9249115a4ce7f339b3565b7805db83e4
+source-git-commit: f116775dfa5bb46857c5e9401a291b46105ebcca
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '352'
 ht-degree: 2%
 
 ---
 
 # Aan de slag{#section-overview}
 
-Adobe Journey Optimizer stelt bedrijven in staat om gepersonaliseerde, real-time klantenervaringen op meerdere kanalen te creëren, zodat u klanten op het juiste moment kunt ontmoeten waar ze zich bevinden. Of u nu complexe klantritten organiseert, AI-gedreven besluitvorming gebruikt of inhoud en gegevens naadloos beheert, dit platform biedt de tools om elke interactie te optimaliseren. In deze sectie gaat u onderzoeken hoe de belangrijkste mogelijkheden ervan - zoals omnichannel orchestratie, real-time inzichten en intelligente besluitvorming - samen passen om effectieve resultaten te leveren. Elk onderwerp bouwt uw begrip stap voor stap, die het gemakkelijk maken om te begrijpen hoe Adobe Journey Optimizer klantenbetrokkenheid in een dynamisch en gegeven-gedreven proces transformeert.
+Adobe Journey Optimizer stelt u in staat om persoonlijke, real-time klantenervaringen te bieden voor elk kanaal. Ontmoet uw klanten waar zij met het juiste bericht op het juiste ogenblik zijn.
+
+In deze sectie worden de kernmogelijkheden van het platform geïntroduceerd, van omnichannel orchestratie en door AI gestuurde besluitvorming tot naadloos inhoud- en gegevensbeheer. U zult ontdekken hoe deze krachtige hulpmiddelen samenwerken om elke klanteninteractie te optimaliseren. Elk onderwerp bouwt op het laatste voort, leidend u stap voor stap naar het beheersen van klantenbetrokkenheid op een dynamische, gegeven-gedreven manier.
 
 ## Aan de slag met Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Belangrijkste mogelijkheden
 
@@ -30,7 +32,7 @@ Ontdek de basisfuncties van Adobe Journey Optimizer, gebruiksscenario&#39;s en a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Overzicht van architectuur
 
@@ -40,7 +42,7 @@ Begrijp hoe Adobe Journey Optimizer met Adobe Experience Platform integreert om 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Rollen en verantwoordelijkheden
 
@@ -50,7 +52,7 @@ Bekijk een overzicht van de rollen en workflows die nodig zijn om Adobe Journey 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Overzicht van gebruikersinterface
 
@@ -60,7 +62,7 @@ Navigeer de interface van Adobe Journey Optimizer en verken zijn eigenschappen, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Inhoud zoeken, filteren en ordenen
 
@@ -70,7 +72,7 @@ Gebruik functies voor zoeken, filteren en labelen om uw reizen, campagnes en and
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Afvoerkanalen en beperkingen
 
