@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: bericht, frequentie, regels, druk
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 98ff30896eacdd1d8c6efd4db49cb2cbeb859a83
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1182'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ De reeksen van de kanaalregel van hefboomwerking staan u toe om frequentie het b
 
 >[!IMPORTANT]
 >
->Om ervoor te zorgen dat kanaalniveau het maximum correct werkt, zorg ervoor u de hoogste prioriteit namespace terwijl het ontwerpen van een campagne of een reis kiest. Leer meer over namespace prioriteit in de [&#x200B; gids van de Dienst van de Identiteit van het Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+>Om ervoor te zorgen dat kanaalniveau het maximum correct werkt, zorg ervoor u de hoogste prioriteit namespace terwijl het ontwerpen van een campagne of een reis kiest. Leer meer over namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
 ## Een regel voor kanaaluitlijning maken
 
@@ -67,12 +67,12 @@ Ga als volgt te werk om een kanaalregelset te maken:
 
    * **[!UICONTROL Hourly]** - De frequentiekapitaal is geldig voor het geselecteerde aantal uren. De teller wordt automatisch opnieuw ingesteld aan het begin van elk tijdvenster. Voor een frequentiegrens van 1 uur, herstelt het elk uur, die met het eind van een UTC uur samenvalt.
    * **[!UICONTROL Daily]** - het dagelijkse frequentiekapitaal is geldig voor de dag tot 23 :59: 59 UTC en stelt aan 0 bij het begin van de volgende dag terug.
-   * **[!UICONTROL Weekly]** - het frequentiekapitaal is geldig tot Zaterdag 23 :59: 59 UTC van die week aangezien de kalenderweek op zondag begint. De vervaldatum is van toepassing ongeacht wanneer de regel is gemaakt. Bijvoorbeeld, als de regel op Donderdag wordt gecreeerd, is deze regel geldig tot Zaterdag bij 23 :59: 59.
+   * **[!UICONTROL Weekly]** - het frequentiekapitaal is geldig tot Zaterdag 23 :59: 59 UTC van die week. De vervaldatum is van toepassing ongeacht wanneer de regel is gemaakt. Bijvoorbeeld, als de regel op Donderdag wordt gecreeerd, is deze regel geldig tot Zaterdag bij 23 :59: 59.
    * **[!UICONTROL Monthly]** - het frequentiekapitaal is geldig tot de laatste dag van de maand bij 23 :59: 59 UTC. Bijvoorbeeld, is de maandelijkse vervaldatum voor Januari 01-31 23 :59: 59 UTC.
 
    >[!IMPORTANT]
    >
-   >* Om nauwkeurigheid te verzekeren, zorg ervoor u de hoogste prioriteit namespace terwijl het ontwerpen van een campagne of een reis kiest. Leer meer over namespace prioriteit in de [&#x200B; gids van de Dienst van de Identiteit van het Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"} <br/>
+   >* Om nauwkeurigheid te verzekeren, zorg ervoor u de hoogste prioriteit namespace terwijl het ontwerpen van een campagne of een reis kiest. Leer meer over namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"} <br/>
    >
    >* De waarde van de profielteller wordt bijgewerkt wanneer de mededeling wordt geleverd. Begrijpt u dit wanneer u grote hoeveelheden communicatie verzendt aangezien de productie in de ontvanger zou kunnen resulteren die de e-mailnotulen of zelfs uren na de inleiding van de mededeling (in het geval dat u miljoenen mededelingen gelijktijdig verzendt) krijgen. Dit is van belang wanneer een ontvanger twee mededelingen dicht bij elkaar ontvangt. We stellen voor om communicatie met elkaar te scheiden met minstens twee uur, waar mogelijk, zodat de ontvanger voldoende tijd heeft om de communicatie te ontvangen en de tegenwaarde dienovereenkomstig bij te werken.
 
@@ -94,7 +94,7 @@ Ga als volgt te werk om een kanaalregelset te maken:
 
 1. Herhaal bovenstaande stappen om zoveel regels toe te voegen als nodig zijn voor de regelset.
 
-1. Wanneer de begrenzingsregel klaar is om op berichten te worden toegepast, activeer de regelreeks en de regel waar het is toegevoegd. [&#x200B; Leer hoe te om regelreeksen te activeren &#x200B;](../conflict-prioritization/rule-sets.md#create)
+1. Wanneer de begrenzingsregel klaar is om op berichten te worden toegepast, activeer de regelreeks en de regel waar het is toegevoegd. [ Leer hoe te om regelreeksen te activeren ](../conflict-prioritization/rule-sets.md#create)
 
 ## Regelsets toepassen op een bericht {#apply-frequency-rule}
 
@@ -110,7 +110,7 @@ Voer de volgende stappen uit om een regel toe te passen die op een bericht is in
 
    >[!NOTE]
    >
-   >Slechts [&#x200B; geactiveerde &#x200B;](#activate-rule) regelreeksen tonen in de lijst.
+   >Slechts [ geactiveerde ](#activate-rule) regelreeksen tonen in de lijst.
 
    <!--Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against business rules.-->
 
@@ -120,13 +120,13 @@ Voer de volgende stappen uit om een regel toe te passen die op een bericht is in
 
    ![](assets/rule-set-schedule-campaign.png)
 
-1. U kunt het aantal profielen bekijken die van levering in het [&#x200B; rapport van Customer Journey Analytics &#x200B;](../reports/report-gs-cja.md) worden uitgesloten, en in het [&#x200B; Levende rapport &#x200B;](../reports/live-report.md), waar de frequentieregels als mogelijke reden voor gebruikers zullen worden vermeld die van levering worden uitgesloten.
+1. U kunt het aantal profielen bekijken die van levering in het [ rapport van Customer Journey Analytics ](../reports/report-gs-cja.md) worden uitgesloten, en in het [ Levende rapport ](../reports/live-report.md), waar de frequentieregels als mogelijke reden voor gebruikers zullen worden vermeld die van levering worden uitgesloten.
 
 >[!NOTE]
 >
 >Verschillende regels kunnen op hetzelfde kanaal van toepassing zijn, maar wanneer het onderste hoofdlettergebruik is bereikt, wordt het profiel uitgesloten van de volgende leveringen.
 
-Wanneer het testen van frequentieregels, wordt het geadviseerd om een pas gecreeerd [&#x200B; testprofiel &#x200B;](../audience/creating-test-profiles.md) te gebruiken, omdat zodra de de frequentiedrempel van een profiel wordt bereikt, er geen manier is om de teller tot de volgende periode terug te stellen. Als u een regel deactiveert, kunnen beperkte profielen berichten ontvangen, maar worden er geen tellerverhogingen verwijderd of verwijderd.
+Wanneer het testen van frequentieregels, wordt het geadviseerd om een pas gecreeerd [ testprofiel ](../audience/creating-test-profiles.md) te gebruiken, omdat zodra de de frequentiedrempel van een profiel wordt bereikt, er geen manier is om de teller tot de volgende periode terug te stellen. Als u een regel deactiveert, kunnen beperkte profielen berichten ontvangen, maar worden er geen tellerverhogingen verwijderd of verwijderd.
 
 <!--add a new section for default priority namespace.-->
 
@@ -161,4 +161,4 @@ In this scenario, an individual profile:
 
 ## Hoe kan ik-video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444732?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
