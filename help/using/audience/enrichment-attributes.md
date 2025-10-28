@@ -27,11 +27,11 @@ Wanneer het richten van een publiek dat gebruikend samenstellingswerkschema&#39;
 
 Hier volgen de acties die u kunt uitvoeren met de verrijkingskenmerken van het publiek:
 
-* **creeer veelvoudige wegen in een reis** die op regels wordt gebaseerd die hefboomwerking de de verrijkingsattributen van het gerichte publiek. Om dit te doen, richt het publiek dat a [ gebruikt gelezen publiek ](../building-journeys/read-audience.md) activiteit dan tot regels in de activiteit van de Voorwaarde van a [ ](../building-journeys/condition-activity.md) leidt die op de verrijkingsattributen van het publiek wordt gebaseerd.
+* **creeer veelvoudige wegen in een reis** die op regels wordt gebaseerd die hefboomwerking de de verrijkingsattributen van het gerichte publiek. Om dit te doen, richt het publiek dat a [&#x200B; gebruikt gelezen publiek &#x200B;](../building-journeys/read-audience.md) activiteit dan tot regels in de activiteit van de Voorwaarde van a [&#x200B; &#x200B;](../building-journeys/condition-activity.md) leidt die op de verrijkingsattributen van het publiek wordt gebaseerd.
 
   ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
 
-* **personaliseer uw berichten** in reizen of campagnes door verrijkingsattributen van het gerichte publiek in de verpersoonlijkingsredacteur toe te voegen. [ Leer hoe te met de verpersoonlijkingsredacteur ](../personalization/personalization-build-expressions.md) te werken
+* **personaliseer uw berichten** in reizen of campagnes door verrijkingsattributen van het gerichte publiek in de verpersoonlijkingsredacteur toe te voegen. [&#x200B; Leer hoe te met de verpersoonlijkingsredacteur &#x200B;](../personalization/personalization-build-expressions.md) te werken
 
   ![](assets/audience-enrichment-attribute-perso.png){width="70%" zoomable="yes"}
 
@@ -50,8 +50,8 @@ Hier volgen de acties die u kunt uitvoeren met de verrijkingskenmerken van het p
 >
 >Gedetailleerde informatie over gegevensbronnen is beschikbaar in deze secties:
 >
->* [ Werk met de gegevensbron van Adobe Experience Platform ](../datasource/adobe-experience-platform-data-source.md)
->* [ vorm een gegevensbron ](../datasource/configure-data-sources.md)
+>* [&#x200B; Werk met de gegevensbron van Adobe Experience Platform &#x200B;](../datasource/adobe-experience-platform-data-source.md)
+>* [&#x200B; vorm een gegevensbron &#x200B;](../datasource/configure-data-sources.md)
 >
 >+++
 
@@ -60,7 +60,7 @@ Hier volgen de acties die u kunt uitvoeren met de verrijkingskenmerken van het p
 
 Hieronder vindt u Veelgestelde vragen over verrijkingskenmerken.
 
-Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [ gemeenschap van Adobe Journey Optimizer ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
+Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [&#x200B; gemeenschap van Adobe Journey Optimizer &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
 
 +++ Wat zijn verrijkingskenmerken?
 
@@ -72,7 +72,7 @@ De attributen van de verrijking zijn verbonden aan een publiek door een Verrijkt
 
 +++ Waar kan ik verrijkingskenmerken gebruiken in Journey Optimizer?
 
-De attributen van de verrijking van publiekssamenstelling kunnen in de volgende gebieden worden gebruikt. [ Leer hoe te om de attributen van de kijkverrijking ](#enrichment) te gebruiken
+De attributen van de verrijking van publiekssamenstelling kunnen in de volgende gebieden worden gebruikt. [&#x200B; Leer hoe te om de attributen van de kijkverrijking &#x200B;](#enrichment) te gebruiken
 
 * Condition activity (Reizen)
 * Aangepaste actiekenmerken (reizen)
@@ -82,7 +82,7 @@ De attributen van de verrijking van publiekssamenstelling kunnen in de volgende 
 
 +++ Hoe laat ik verrijkingskenmerken toe in Reizen?
 
-Om verrijkingsattributen van publiek te gebruiken creeerde het gebruiken van samenstellingswerkschema&#39;s, zorg ervoor zij aan een Groep van het Gebied binnen &quot;ExperiencePlatform&quot;Gegevens Source worden toegevoegd. De informatie over hoe te om verrijkingsattributen aan een Groep van het Gebied toe te voegen is beschikbaar in [ deze sectie ](#enrichment)
+Om verrijkingsattributen van publiek te gebruiken creeerde het gebruiken van samenstellingswerkschema&#39;s, zorg ervoor zij aan een Groep van het Gebied binnen &quot;ExperiencePlatform&quot;Gegevens Source worden toegevoegd. De informatie over hoe te om verrijkingsattributen aan een Groep van het Gebied toe te voegen is beschikbaar in [&#x200B; deze sectie &#x200B;](#enrichment)
 
 +++
 
