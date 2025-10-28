@@ -10,9 +10,9 @@ level: Intermediate
 keywords: test, reis, controle, fout, oplossen
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 84f4bdf3f79d8f19b615c68a03e25b24f435f952
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1783'
 ht-degree: 1%
 
 ---
@@ -26,11 +26,42 @@ ht-degree: 1%
 
 Nadat u uw reis hebt gemaakt, kunt u deze testen voordat u de site publiceert. Journey Optimizer biedt &quot;testmodus&quot; als een manier om testprofielen te bekijken terwijl ze op reis gaan en mogelijke fouten vóór activering op te sporen. Door snelle tests uit te voeren kunt u controleren of de reizen correct werken, zodat u ze met vertrouwen kunt publiceren.
 
-Alleen testprofielen kunnen een reis maken in de testmodus. U kunt nieuwe testprofielen maken of bestaande profielen omzetten in testprofielen. Leer meer over testprofielen in [&#x200B; deze sectie &#x200B;](../audience/creating-test-profiles.md).
+Alleen testprofielen kunnen een reis maken in de testmodus. U kunt nieuwe testprofielen maken of bestaande profielen omzetten in testprofielen. Leer meer over testprofielen in [ deze sectie ](../audience/creating-test-profiles.md).
 
 >[!NOTE]
 >
->Voordat u de reis kunt testen, moet u alle eventuele fouten oplossen. Leer hoe te om fouten te controleren alvorens in [&#x200B; te testen deze sectie &#x200B;](../building-journeys/troubleshooting.md).
+>Voordat u de reis kunt testen, moet u alle eventuele fouten oplossen. Leer hoe te om fouten te controleren alvorens in [ te testen deze sectie ](../building-journeys/troubleshooting.md).
+
+## Belangrijke opmerkingen {#important_notes}
+
+### Algemene beperkingen
+
+* **de profielen van de Test slechts** - slechts individuen die als &quot;testprofielen&quot;in de Dienst van het Profiel van de Klant in real time worden gemarkeerd kunnen een reis op testwijze ingaan. [ leer hoe te om testprofielen ](../audience/creating-test-profiles.md) tot stand te brengen.
+* **Vereiste Namespace** - de wijze van de Test is beschikbaar slechts voor ontwerp reizen die een namespace gebruiken. In de testmodus moet worden nagegaan of een persoon die de reis betreedt een testprofiel is en moet hij dus Adobe Experience Platform kunnen bereiken.
+* **de grens van het Profiel** - een maximum van 100 testprofielen kan een reis tijdens één enkele testzitting ingaan.
+* **Gebeurtenis die** teweegbrengt - de Gebeurtenissen kunnen slechts van de interface worden in brand gestoken. Gebeurtenissen kunnen niet worden geactiveerd vanaf externe systemen die een API gebruiken.
+* **uploadt de Douane publiek** - de testwijze van de Reis steunt niet [ douane uploadt publieksverrijking van het publiek ](../audience/custom-upload.md) attribuut.
+
+### Gedrag tijdens en na de test
+
+* **onbruikbaar makend testwijze** - wanneer u testwijze onbruikbaar maakt, worden alle profielen momenteel in of eerder ingegaan in de reis verwijderd, en het melden ontruimd.
+* **flexibiliteit van de reactivering** - u kunt testwijze toelaten en onbruikbaar maken zo vaak als nodig.
+* **Automatische deactivatie** - de Reizen die inactief op testwijze voor **over een week** blijven keren automatisch aan de status van het Ontwerp terug om prestaties te optimaliseren en verouderd middelgebruik te verhinderen.
+* **het uitgeven en het publiceren** - terwijl de testwijze actief is, kunt u niet de reis wijzigen. U kunt de reis echter rechtstreeks publiceren, zodat u de testmodus niet hoeft te deactiveren.
+
+### Execution
+
+* **Gesplitst gedrag** - wanneer de reis een spleet bereikt, wordt de hoogste tak altijd geselecteerd. Vertakkingen opnieuw ordenen als u een ander pad wilt testen.
+* **de timing van de Gebeurtenis** - als de reis*veelvoudige gebeurtenissen omvat, teweegbrengt elke gebeurtenis in opeenvolgingen.Verzendend een gebeurtenis te vroeg (alvorens de eerste wachttijdknoop) eindigt of te laat (na de gevormde onderbreking) zal de gebeurtenis verwerpen en het profiel naar een onderbrekingspad verzenden. Bevestig altijd alle verwijzingen naar velden voor gebeurtenislading geldig door de lading binnen het gedefinieerde venster te verzenden
+* **Actief datumvenster** - zorg ervoor de reis gevormde verkies [ begin en eind data/tijd ](journey-properties.md#dates) venster de huidige tijd wanneer het in werking stellen van testwijze. Anders worden getriggerde testgebeurtenissen stilletjes genegeerd.
+* **gebeurtenissen van de Reactie** - voor reactiegebeurtenissen met een onderbreking, is het minimum en gebrek wachttijd 40 seconden.
+* **datasets van de Test** - Gebeurtenissen die op testwijze worden teweeggebracht worden opgeslagen in specifieke datasets als volgt geëtiketteerd: `JOtestmode - <schema of your event>`
+
+<!--
+* Fields from related entities are hidden from the test mode.
+-->
+
+## De testmodus activeren
 
 Voer de volgende stappen uit om de testmodus te gebruiken:
 
@@ -50,7 +81,7 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 
    ![](assets/journeyuctest1.png)
 
-1. Configureer de verschillende verwachte velden. Op het **gebied van Identifier van het 0&rbrace; Profiel &lbrace;, ga de waarde van het gebied in dat wordt gebruikt om het testprofiel te identificeren.** Het kan bijvoorbeeld het e-mailadres zijn. Zorg ervoor dat u gebeurtenissen verzendt die betrekking hebben op testprofielen. Zie [deze sectie](#firing_events).
+1. Configureer de verschillende verwachte velden. Op het **gebied van Identifier van het 0} Profiel {, ga de waarde van het gebied in dat wordt gebruikt om het testprofiel te identificeren.** Het kan bijvoorbeeld het e-mailadres zijn. Zorg ervoor dat u gebeurtenissen verzendt die betrekking hebben op testprofielen. Zie [deze sectie](#firing_events).
 
    ![](assets/journeyuctest1-bis.png)
 
@@ -59,25 +90,6 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
    ![](assets/journeyuctest2.png)
 
 1. Als er een fout optreedt, deactiveert u de testmodus, wijzigt u de journey en test u deze opnieuw. Wanneer de tests klaar zijn, kunt u uw reis publiceren. Zie [deze pagina](../building-journeys/publishing-the-journey.md).
-
-## Belangrijke opmerkingen {#important_notes}
-
-* In de testmodus kunt u alleen gebeurtenissen starten met de interface. Gebeurtenissen kunnen niet worden geactiveerd vanaf externe systemen die een API gebruiken.
-* Alleen personen die zijn gemarkeerd als &quot;testprofielen&quot; in de realtime klantenprofielservice mogen de geteste reis betreden. Verwijs naar deze [&#x200B; sectie &#x200B;](../audience/creating-test-profiles.md).
-* De testmodus is alleen beschikbaar voor conceptochten waarbij een naamruimte wordt gebruikt. In de testmodus moet worden nagegaan of een persoon die de reis betreedt een testprofiel is en moet hij dus Adobe Experience Platform kunnen bereiken.
-* Het maximumaantal testprofielen dat een reis tijdens een testsessie kan betreden, is 100.
-* Wanneer u de testmodus uitschakelt, worden de reizen verwijderd van alle mensen die het in het verleden hebben betreden of die er momenteel in zitten. Ook wordt de rapportage gewist.
-* U kunt de testmodus zo vaak als nodig in- en uitschakelen.
-* U kunt uw reis niet wijzigen wanneer de testwijze wordt geactiveerd. In de testmodus kunt u de rit rechtstreeks publiceren. U hoeft de testmodus daarvoor niet te deactiveren.
-* Bij het bereiken van een splitsing wordt altijd de bovenste vertakking gekozen. U kunt de positie van de gesplitste vertakkingen opnieuw ordenen als u wilt dat de test een ander pad kiest.
-* Om prestaties te optimaliseren en verouderd middelgebruik te verhinderen, zullen alle reizen op testwijze die niet voor een week zijn teweeggebracht terug naar de **status van het Ontwerp** schakelen.
-* Gebeurtenissen die door de testwijze worden teweeggebracht worden opgeslagen in specifieke datasets. Deze gegevenssets worden als volgt gelabeld: `JOtestmode - <schema of your event>`
-* Wanneer u reizen test die meerdere gebeurtenissen bevatten, moet u elke gebeurtenis op volgorde activeren. Als een gebeurtenis te vroeg wordt verzonden (voordat het eerste wachtknooppunt is voltooid) of te laat (na de geconfigureerde time-out), wordt de gebeurtenis genegeerd en wordt het profiel naar een time-outpad verzonden. Bevestig altijd alle verwijzingen naar velden voor gebeurtenislading geldig door de lading binnen het gedefinieerde venster te verzenden
-* Zorg ervoor de reis gevormd verkies [&#x200B; begin en einddata/tijd &#x200B;](journey-properties.md#dates) venster de huidige tijd wanneer het in werking stellen van testwijze omvat. Anders worden getriggerde testgebeurtenissen stilletjes genegeerd.
-
-<!--
-* Fields from related entities are hidden from the test mode.
--->
 
 ## Trigger uw gebeurtenissen {#firing_events}
 
@@ -93,9 +105,9 @@ Gebruik de knop **[!UICONTROL Trigger an event]** om een gebeurtenis te configur
 
 Als voorwaarde moet u weten welke profielen in Adobe Experience Platform zijn gemarkeerd als testprofielen. In de testmodus zijn deze profielen alleen toegestaan tijdens de reis.
 
-De gebeurtenis moet een id bevatten. De verwachte id is afhankelijk van de gebeurtenisconfiguratie. Het kan bijvoorbeeld een ECID of een e-mailadres zijn. De waarde van deze sleutel moet op het **gebied van het Profiel worden toegevoegd 0&rbrace; Identifier.**
+De gebeurtenis moet een id bevatten. De verwachte id is afhankelijk van de gebeurtenisconfiguratie. Het kan bijvoorbeeld een ECID of een e-mailadres zijn. De waarde van deze sleutel moet op het **gebied van het Profiel worden toegevoegd 0} Identifier.**
 
-Als uw reis er niet in slaagt testwijze met fout `ERR_MODEL_RULES_16` toe te laten, zorg ervoor de gebruikte gebeurtenis een [&#x200B; identiteit namespace &#x200B;](../audience/get-started-identity.md) omvat wanneer het gebruiken van een kanaalactie.
+Als uw reis er niet in slaagt testwijze met fout `ERR_MODEL_RULES_16` toe te laten, zorg ervoor de gebruikte gebeurtenis een [ identiteit namespace ](../audience/get-started-identity.md) omvat wanneer het gebruiken van een kanaalactie.
 
 De naamruimte identity wordt gebruikt om de testprofielen op unieke wijze te identificeren. Bijvoorbeeld, als e-mail wordt gebruikt om de testprofielen te identificeren, zou de identiteit namespace **E-mail** moeten worden geselecteerd. Als het unieke herkenningsteken het telefoonaantal is, dan zou de identiteit namespace **Telefoon** moeten worden geselecteerd.
 
@@ -128,15 +140,15 @@ Wanneer u een rit tijdens de test opent, komt het weergegeven pad overeen met de
 
 ## Testmodus voor op regels gebaseerde reizen {#test-rule-based}
 
-De testmodus is ook beschikbaar voor reizen die een op regels gebaseerde gebeurtenis gebruiken. Voor meer informatie over op regel-gebaseerde gebeurtenissen, verwijs naar [&#x200B; deze pagina &#x200B;](../event/about-events.md).
+De testmodus is ook beschikbaar voor reizen die een op regels gebaseerde gebeurtenis gebruiken. Voor meer informatie over op regel-gebaseerde gebeurtenissen, verwijs naar [ deze pagina ](../event/about-events.md).
 
-Wanneer het teweegbrengen van een gebeurtenis, staat het **scherm van de configuratie van de Gebeurtenis 0&rbrace; u toe om de gebeurtenisparameters te bepalen om in de test over te gaan.** U kunt de voorwaarde van de gebeurtenis-identiteitskaart bekijken door het tooltip pictogram in de hoogste juiste hoek te klikken. Er is ook knopinfo beschikbaar naast elk veld dat deel uitmaakt van de regelevaluatie.
+Wanneer het teweegbrengen van een gebeurtenis, staat het **scherm van de configuratie van de Gebeurtenis 0} u toe om de gebeurtenisparameters te bepalen om in de test over te gaan.** U kunt de voorwaarde van de gebeurtenis-identiteitskaart bekijken door het tooltip pictogram in de hoogste juiste hoek te klikken. Er is ook knopinfo beschikbaar naast elk veld dat deel uitmaakt van de regelevaluatie.
 
 ![](assets/jo-event8.png)
 
 ## Testmodus voor bedrijfsgebeurtenissen {#test-business}
 
-Wanneer het gebruiken van a [&#x200B; bedrijfsgebeurtenis &#x200B;](../event/about-events.md), gebruik de testwijze om één enkele ingang van het testprofiel in de reis teweeg te brengen, de gebeurtenis te simuleren en juiste profiel ID over te gaan. U moet de gebeurtenisparameters en de identificatiecode van het testprofiel doorgeven die de reis tijdens de test zal betreden. In de testmodus is er geen modus &quot;Codeweergave&quot; beschikbaar voor reizen op basis van bedrijfsgebeurtenissen.
+Wanneer het gebruiken van a [ bedrijfsgebeurtenis ](../event/about-events.md), gebruik de testwijze om één enkele ingang van het testprofiel in de reis teweeg te brengen, de gebeurtenis te simuleren en juiste profiel ID over te gaan. U moet de gebeurtenisparameters en de identificatiecode van het testprofiel doorgeven die de reis tijdens de test zal betreden. In de testmodus is er geen modus &quot;Codeweergave&quot; beschikbaar voor reizen op basis van bedrijfsgebeurtenissen.
 
 Wanneer u een bedrijfsgebeurtenis voor het eerst activeert, kunt u de definitie van een bedrijfsgebeurtenis niet in dezelfde testsessie wijzigen. U kunt alleen dezelfde persoon of een andere persoon dezelfde of een andere persoon de reis laten doorlopen met dezelfde of een andere id. Als u parameters voor bedrijfsgebeurtenissen wilt wijzigen, moet u de testmodus stoppen en opnieuw starten.
 
