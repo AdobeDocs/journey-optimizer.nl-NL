@@ -10,9 +10,9 @@ level: Intermediate
 keywords: send-time, send, message, optimization, trip, AI, Intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1520'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,10 @@ De exploratie verzendt tijden wordt geselecteerd in willekeurige volgorde van ve
 
 
 ## Veelgestelde vragen {#faq-send-time}
+
+U vindt hieronder Veelgestelde vragen over Send-Time Optimization.
+
+Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [ gemeenschap van Adobe Journey Optimizer ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
 
 +++Hoe lang moet ik wachten alvorens Send-Time Optimalisering te gebruiken?
 

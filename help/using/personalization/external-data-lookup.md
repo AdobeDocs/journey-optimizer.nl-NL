@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1236'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Raadpleeg ook Aangepaste acties in [!DNL Journey Optimizer] Binnenkomende kanale
 
 Voer de volgende stappen uit om een handeling te definiëren en de hulplijn voor personalisatie te gebruiken:
 
-1. Creeer een Actie om het eindpunt voor de raadpleging te vormen. Dit hoeft slechts eenmaal te gebeuren voor elk eindpunt en moet door een technische gebruiker worden gedaan. [&#x200B; Leer hoe te om een douaneactie &#x200B;](../action/about-custom-action-configuration.md) te vormen
+1. Creeer een Actie om het eindpunt voor de raadpleging te vormen. Dit hoeft slechts eenmaal te gebeuren voor elk eindpunt en moet door een technische gebruiker worden gedaan. [ Leer hoe te om een douaneactie ](../action/about-custom-action-configuration.md) te vormen
 
    Noteer de actie-id en kopieer deze.
 
@@ -206,16 +206,24 @@ Onder de sectie Edge Delivery van het betrouwbaarheidsspoor als deel van uitvoer
 
 ![](assets/external-data-troubleshoot.png " width=50% ")
 
-## Veelgestelde vragen
+## Veelgestelde vragen {#faq-external-data}
 
-* Hoe te om een contextafhankelijk attribuut van het verzoek als parameter tot een externe gegevensraadpleging over te gaan?
+Hieronder vindt u Veelgestelde vragen over de hulp bij externe gegevens opzoeken.
 
-  Met het menu Contextafhankelijke kenmerken > DataStream > Gebeurtenis bladert u door het schema Experience Event dat u gebruikt en voegt u het relevante kenmerk in als parameterwaarde zoals deze:
+Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [ gemeenschap van Adobe Journey Optimizer ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
 
-  ```
-  {{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}
-  ```
++++ Hoe te om een contextafhankelijk attribuut van het verzoek als parameter tot een externe gegevensraadpleging over te gaan?
 
-* Doet [!DNL Journey Optimizer] om het even welk caching van externe eindpuntreacties?
+Met het menu Contextafhankelijke kenmerken > DataStream > Gebeurtenis bladert u door het schema Experience Event dat u gebruikt en voegt u het relevante kenmerk in als parameterwaarde zoals deze:
 
-  Momenteel niet. Deze functie wordt in de toekomst ondersteund.
+```
+{{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}
+```
+
++++
+
++++ Doet [!DNL Journey Optimizer] om het even welk caching van externe eindpuntreacties?
+
+Momenteel niet. Deze functie wordt in de toekomst ondersteund.
+
++++
