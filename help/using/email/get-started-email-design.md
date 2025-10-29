@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, ontwerp, voorraad, middelen
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: ddbab603e4ac612a49a3853fcac428950def1d98
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '650'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ U kunt bestaande inhoud importeren in [!DNL Journey Optimizer] of de mogelijkhed
 
 * Vind **foto&#39;s van Adobe Stock** om uw inhoud te bouwen en uw e-mailontwerp te verbeteren. [Meer informatie](../integrations/stock.md)
 
-* Verbeter de ervaring van klanten door gepersonaliseerde en dynamische berichten te creëren die op hun profielattributen worden gebaseerd. Leer meer over [&#x200B; verpersoonlijking &#x200B;](../personalization/personalize.md) en [&#x200B; dynamische inhoud &#x200B;](../personalization/get-started-dynamic-content.md).
+* Verbeter de ervaring van klanten door gepersonaliseerde en dynamische berichten te creëren die op hun profielattributen worden gebaseerd. Leer meer over [ verpersoonlijking ](../personalization/personalize.md) en [ dynamische inhoud ](../personalization/get-started-dynamic-content.md).
 
 ➡️ [Ontdek deze functie in video](#video)
 
@@ -44,11 +44,11 @@ Raadpleeg de onderstaande tabel voor tips en trucs voor het ontwerpen van e-mail
 
 >[!NOTE]
 >
->De [&#x200B; Europese toegankelijkheidshandeling &#x200B;](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} verklaart dat alle digitale mededelingen toegankelijk zouden moeten zijn. Naast de e-mailontwerpbeste praktijken die in deze sectie worden vermeld, zorg ervoor u ook de richtlijnen volgt die op [&#x200B; worden vermeld deze pagina &#x200B;](accessible-content.md) specifiek voor de bouw van toegankelijke inhoud met E-mail Designer.
+>De [ Europese toegankelijkheidshandeling ](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} verklaart dat alle digitale mededelingen toegankelijk zouden moeten zijn. Naast de e-mailontwerpbeste praktijken die in deze sectie worden vermeld, zorg ervoor u ook de richtlijnen volgt die op [ worden vermeld deze pagina ](accessible-content.md) specifiek voor de bouw van toegankelijke inhoud met E-mail Designer.
 
 ## Belangrijke stappen om e-mailinhoud te maken {#key-steps}
 
-Zodra u [&#x200B; een e-mail &#x200B;](create-email.md) aan een reis of een campagne hebt toegevoegd, kunt u beginnen uw e-mailinhoud te creëren.
+Zodra u [ een e-mail ](create-email.md) aan een reis of een campagne hebt toegevoegd, kunt u beginnen uw e-mailinhoud te creëren.
 
 1. Ga in het scherm **[!UICONTROL Edit content]** van het scherm met reis- of campagneconfiguratie naar de E-mail-Designer. [Meer informatie](create-email.md#define-email-content)
 
@@ -56,19 +56,21 @@ Zodra u [&#x200B; een e-mail &#x200B;](create-email.md) aan een reis of een camp
 
 1. Kies op de homepage van Designer via e-mail hoe u uw e-mail wilt ontwerpen uit de volgende opties:
 
-   * **Ontwerp uw e-mail van kras** door de E-mailDesigner interface en hefboomwerkings beelden van [&#x200B; Adobe Experience Manager Assets &#x200B;](../integrations/assets.md). Leer hoe te om uw e-mailinhoud in [&#x200B; te ontwerpen deze sectie &#x200B;](content-from-scratch.md).
+   * **Ontwerp uw e-mail van kras** door de E-mailDesigner interface en hefboomwerkings beelden van [ Adobe Experience Manager Assets ](../integrations/assets.md). Leer hoe te om uw e-mailinhoud in [ te ontwerpen deze sectie ](content-from-scratch.md).
 
-   * **Code of deeg ruwe HTML** direct in E-mailDesigner. Leer hoe te om uw eigen inhoud in [&#x200B; te coderen deze sectie &#x200B;](code-content.md).
+   * **Code of deeg ruwe HTML** direct in E-mailDesigner. Leer hoe te om uw eigen inhoud in [ te coderen deze sectie ](code-content.md).
 
      >[!NOTE]
      >
      >In een campagne kunt u ook de knop **[!UICONTROL Code Editor]** in het **[!UICONTROL Edit content]** -scherm selecteren. [Meer informatie](create-email.md#define-email-content)
 
-   * **voer bestaande inhoud van HTML** van een dossier of een .zip omslag in. Leer hoe te om een e-mailinhoud in [&#x200B; in deze sectie &#x200B;](existing-content.md) in te voeren.
+   * **voer bestaande inhoud van HTML** van een dossier of een .zip omslag in. Leer hoe te om een e-mailinhoud in [ in deze sectie ](existing-content.md) in te voeren.
+<!-- DOCAC-13676
+    * **Convert image designs to HTML templates** using the AI-powered Template Accelerator feature. Learn how to transform static images into editable email templates in [this section](image-to-html.md).-->
 
-   * **selecteer een bestaande inhoud** van een lijst van ingebouwde of douanesjablonen. Leer hoe te met e-mailmalplaatjes in [&#x200B; deze sectie &#x200B;](../email/use-email-templates.md) te werken.
-
-   ![](assets/email_designer_create_options.png)
+    * ** Selecteer een bestaande inhoud** uit een lijst met ingebouwde of aangepaste sjablonen. Leer hoe u met e-mailsjablonen werkt in [dit gedeelte](../email/use-email-templates.md).
+    
+    ![](assets/email_designer_create_options.png)
 
 1. Zodra uw e-mailinhoud is gedefinieerd en gepersonaliseerd, kunt u uw inhoud exporteren voor validatie of later gebruik. Klik op **[!UICONTROL Export HTML]** om op uw computer een ZIP-bestand op te slaan dat uw HTML en elementen bevat.
 
@@ -82,4 +84,4 @@ Leer hoe u e-mailinhoud maakt met de berichteneditor.
 
 Leer hoe u contentexperimenten configureert voor een A/B-test en e-mailinhoud verkent, wat de beste manier is om uw zakelijke doelstellingen te bepalen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447337?captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

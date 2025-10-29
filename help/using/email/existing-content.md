@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: email, import, content, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
+source-git-commit: ddbab603e4ac612a49a3853fcac428950def1d98
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 10%
@@ -26,6 +26,11 @@ Met [!DNL Journey Optimizer] kunt u bestaande HTML-inhoud importeren om uw e-mai
   >[!NOTE]
   >
   >Er gelden geen beperkingen voor de .zip-bestandsstructuur. Verwijzingen moeten echter relatief zijn en passen bij de boomstructuur van de ZIP-map.
+
+<!--DOCAC-13676
+>[!TIP]
+>
+>If you have image designs (JPEG or PNG) instead of HTML files, you can use the [Template Accelerator](image-to-html.md) to automatically convert them into editable HTML email templates using AI.-->
 
 Voer de onderstaande stappen uit om een bestand met HTML-inhoud te importeren:
 
