@@ -10,9 +10,9 @@ level: Beginner
 keywords: email, template, image, HTML, AI, design, accelerator
 hide: true
 hidefromtoc: true
-source-git-commit: ddbab603e4ac612a49a3853fcac428950def1d98
+source-git-commit: 86bf80c56a1bd50872d014a7aa92407227c823f8
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1506'
 ht-degree: 0%
 
 ---
@@ -44,11 +44,11 @@ Door gebruik te maken van generatieve AI-technologie analyseert Sjabloonversnell
 
 ## Vereisten {#prerequisites}
 
-Voordat u Sjabloonversneller gebruikt, moet u controleren of u:
+Voordat u Sjabloon gebruikt - afbeelding naar HTML-converter, moet u controleren of u beschikt over:
 
 * Toegang tot Adobe Journey Optimizer met de e-mail Designer
 * Een afbeeldingsbestand in JPEG- of PNG-indeling dat uw e-mailontwerp bevat
-* Beperkte toegang tot de functie Sjabloonversneller (neem contact op met uw Adobe-vertegenwoordiger)
+* Beperkte toegang tot de image tot de HTML-converterfunctie (neem contact op met uw Adobe-vertegenwoordiger)
 
 >[!NOTE]
 >
@@ -62,31 +62,28 @@ Voer de volgende stappen uit om een afbeeldingsontwerp om te zetten in een volle
 
 1. Klik op **[!UICONTROL Create template]**.
 
-1. Vul de sjabloondetails in en selecteer **[!UICONTROL Email]** als het kanaal.
+1. Vul de sjabloondetails in en selecteer **[!UICONTROL Email]** als het kanaal en klik op **[!UICONTROL Create]** .
 
-1. Klik op **[!UICONTROL Create]** om het e-mailadres van de Designer te openen.
+1. Klik in de rechtersectie in de sectie **[!UICONTROL Convert image to template]** op de knop **[!UICONTROL Upload image]** om het afbeeldingsbestand te selecteren.
 
-1. Selecteer **[!UICONTROL Import HTML]** op de homepage van E-mail Designer.
+   ![](assets/email_designer_convert_img.png)
 
-   ![](assets/import-html_2.png)
-
-1. In het dialoogvenster Importeren wordt de sectie **[!UICONTROL Convert image to HTML]** weergegeven.
 
    >[!CAUTION]
    >
    >Wanneer u een beeld voor omzetting uploadt, **zal alle inhoud die momenteel in e-mail wordt toegevoegd** met het geproduceerde malplaatje worden geschrapt en worden vervangen. Als u bestaande inhoud in uw e-mail hebt, moet u deze opslaan voordat u verdergaat met het omzetten van de afbeelding.
 
-1. Klik op de knop **[!UICONTROL Load image]** om het afbeeldingsbestand te selecteren.
 
-1. Sleep het afbeeldingsbestand (JPEG of PNG) en zet het neer of klik om te bladeren en het afbeeldingsbestand te selecteren.
-
-1. Klik op **[!UICONTROL Generate]** om het omzettingsproces op basis van AI te starten.
+1. Kies de afbeelding en klik op **[!UICONTROL Open]** om het omzettingsproces op basis van AI te starten.
 
    >[!NOTE]
    >
    >Het generatieproces kan maximaal 5 minuten in beslag nemen, afhankelijk van de complexiteit en de grootte van het afbeeldingsontwerp. De AI analyseert en zet uw afbeelding om. Wees geduldig.
 
 1. Zodra de conversie is voltooid, wordt de inhoudssjabloon automatisch opgeslagen als concept. U kunt de gegenereerde HTML-sjabloon vervolgens bekijken en bewerken in het canvas E-mail Designer.
+
+   ![](assets/email_designer_converted_img.png)
+
 
 1. De geconverteerde sjabloon wordt geopend in de E-mail-Designer met volledige bewerkingsmogelijkheden. U kunt nu het volgende:
 
@@ -96,29 +93,21 @@ Voer de volgende stappen uit om een afbeeldingsontwerp om te zetten in een volle
    * Inhoud toevoegen, verwijderen of opnieuw rangschikken
    * Gebruik alle Designer-functies voor e-mail net als alle andere sjablonen
 
-   ![](assets/email_designer_structure_components.png)
+   ![](assets/email_designer_html_components.png)
 
 1. Breng de gewenste wijzigingen aan om de sjabloon te verfijnen en aan te passen aan de richtlijnen van uw merk.
 
 1. Als u tevreden bent met de sjabloon, klikt u op **[!UICONTROL Save]** om de inhoudssjabloon op te slaan.
 
-1. Uw sjabloon is nu beschikbaar in de bibliotheek met inhoudssjablonen en kan worden gebruikt voor het maken van e-mails tijdens reizen of campagnes. [&#x200B; leer hoe te om inhoudsmalplaatjes &#x200B;](use-email-templates.md) te gebruiken
+1. Uw sjabloon is nu beschikbaar in de bibliotheek met inhoudssjablonen en kan worden gebruikt voor het maken van e-mails tijdens reizen of campagnes. [ leer hoe te om inhoudsmalplaatjes ](use-email-templates.md) te gebruiken
 
 ## Je geconverteerde template gebruiken in e-mails {#use-template}
 
-Nadat u de inhoudssjabloon hebt gemaakt en opgeslagen met Sjabloonversnelling, kunt u deze gebruiken bij het ontwerpen van e-mails tijdens reizen of campagnes:
+Nadat u de inhoudssjabloon hebt gemaakt en opgeslagen, kunt u deze gebruiken bij het ontwerpen van e-mails tijdens reizen of campagnes:
 
-1. Als u een e-mail maakt tijdens een rit of campagne, opent u de e-mailtoepassing via het scherm **[!UICONTROL Edit content]** .
+Als u een e-mail maakt tijdens een rit of campagne, opent u de e-mailtoepassing via het scherm **[!UICONTROL Edit content]** .
 
-1. Ga op de homepage van Designer via e-mail naar de tab **[!UICONTROL Saved templates]** .
-
-1. Selecteer de sjabloon die door Sjabloon versnellen is gegenereerd in de lijst.
-
-1. Klik op **[!UICONTROL Use this template]** om deze toepassing toe te passen op uw e-mail.
-
-1. Ga door met het bewerken en aanpassen van uw e-mailinhoud.
-
-Leer meer over [&#x200B; het werken met e-mailmalplaatjes &#x200B;](use-email-templates.md) en [&#x200B; het creëren van inhoudsmalplaatjes &#x200B;](../content-management/content-templates.md).
+Leer meer over [ het werken met e-mailmalplaatjes ](use-email-templates.md) en [ het creëren van inhoudsmalplaatjes ](../content-management/content-templates.md).
 
 ## Best practices {#best-practices}
 
@@ -127,7 +116,7 @@ Volg de onderstaande aanbevelingen om optimale resultaten te bereiken bij het ge
 **alvorens u** begint
 
 * **sparen bestaande inhoud**: Het omzetten van een beeld in HTML zal al bestaande inhoud in uw e-mail vervangen. Sla uw huidige werk altijd op voordat u deze functie gebruikt.
-* **Plan uw werkschema**: De Versneller van het Malplaatje van het gebruik aan het begin van uw proces van de e-mailverwezenlijking, of zorg u klaar bent om al huidige inhoud te vervangen.
+* **Plan uw werkschema**: Gebruik het beeld aan de omzetter van HTML aan het begin van uw e-mailverwezenlijking proces, of zorg ervoor u klaar bent om al huidige inhoud te vervangen.
 
 **de voorbereiding van het Beeld**
 
@@ -156,7 +145,7 @@ Volg de onderstaande aanbevelingen om optimale resultaten te bereiken bij het ge
 
 ## Beperkingen en overwegingen {#limitations}
 
-Houd rekening met de volgende beperkingen wanneer u Sjabloonversneller gebruikt:
+Houd rekening met de volgende beperkingen bij het gebruik van de converter Afbeelding naar HTML:
 
 * **AI interpretatie**: AI produceert HTML die op visuele interpretatie van uw beeld wordt gebaseerd. Complexe of ongebruikelijke ontwerpen kunnen na conversie handmatig worden aangepast.
 
@@ -168,7 +157,7 @@ Houd rekening met de volgende beperkingen wanneer u Sjabloonversneller gebruikt:
 
 * **Verwerkingstijd**: Het omzettingsproces kan tot 5 minuten afhankelijk van de ingewikkeldheid en de grootte van uw beeld vergen. De sjabloon wordt automatisch als een concept opgeslagen zodra de conversie is voltooid.
 
-* **Beperkte Beschikbaarheid**: Als Beperkte eigenschap van de Beschikbaarheid, wordt de Versneller van het Malplaatje onophoudelijk verbeterd. De functionaliteit en nauwkeurigheid kunnen variëren en uw feedback kan de functie verbeteren.
+* **Beperkte Beschikbaarheid**: Als Beperkte eigenschap van de Beschikbaarheid, wordt het beeld aan de convertor van HTML onophoudelijk verbeterd. De functionaliteit en nauwkeurigheid kunnen variëren en uw feedback kan de functie verbeteren.
 
 >[!NOTE]
 >
@@ -176,15 +165,15 @@ Houd rekening met de volgende beperkingen wanneer u Sjabloonversneller gebruikt:
 
 ## Veelgestelde vragen {#faq}
 
-+++Wat gebeurt er met mijn bestaande e-mailinhoud als ik Sjabloonversnelling gebruik?
++++Wat gebeurt er met mijn bestaande e-mailinhoud als ik de afbeelding gebruik voor HTML-converter?
 
-Alle bestaande inhoud in uw e-mail wordt verwijderd en vervangen door de nieuw gegenereerde sjabloon wanneer u een afbeelding uploadt voor conversie. Sla belangrijke inhoud op voordat u deze functie gebruikt. U kunt het beste Sjabloonversnelling gebruiken aan het begin van het e-mailontwerpproces.
+Alle bestaande inhoud in uw e-mail wordt verwijderd en vervangen door de nieuw gegenereerde sjabloon wanneer u een afbeelding uploadt voor conversie. Sla belangrijke inhoud op voordat u deze functie gebruikt. U kunt de afbeelding het beste naar HTML converter gebruiken aan het begin van het e-mailontwerpproces.
 
 +++
 
 +++Welke bestandsindelingen worden ondersteund?
 
-Sjabloonversnelling ondersteunt de afbeeldingsindelingen JPEG (.jpg, .jpeg) en PNG (.png).
+De afbeelding naar HTML-converter ondersteunt de afbeeldingsindelingen JPEG (.jpg, .jpeg) en PNG (.png).
 
 +++
 
@@ -208,19 +197,19 @@ De AI doet zijn best om uw ontwerp nauwkeurig te interpreteren, maar wat handmat
 
 +++Kan ik deze functie gebruiken voor het landen van pagina&#39;s of andere inhoudstypen?
 
-Sjabloonversneller is momenteel speciaal ontworpen voor e-mailsjablonen. Voor andere inhoudstypen gebruikt u de standaardopties voor ontwerp en importeren die beschikbaar zijn in de E-mail Designer.
+De afbeelding naar HTML-converter is momenteel specifiek ontworpen voor e-mailsjablonen. Voor andere inhoudstypen gebruikt u de standaardopties voor ontwerp en importeren die beschikbaar zijn in de E-mail Designer.
 
 +++
 
 +++Heb ik speciale toestemmingen nodig om deze eigenschap te gebruiken?
 
-Sjabloonversneller is beschikbaar in Beperkte beschikbaarheid. U hebt beperkte toegang tot de Beschikbaarheid nodig (neem contact op met uw Adobe-vertegenwoordiger voor toegang) en standaard e-mailrechten voor Designer om deze functie te kunnen gebruiken.
+De afbeelding naar HTML-converter is beschikbaar in Beperkte beschikbaarheid. U hebt beperkte toegang tot de Beschikbaarheid nodig (neem contact op met uw Adobe-vertegenwoordiger voor toegang) en standaard e-mailrechten voor Designer om deze functie te kunnen gebruiken.
 
 +++
 
 +++Kan ik geconverteerde sjablonen opnieuw gebruiken voor meerdere campagnes?
 
-Ja! Sjablonen die zijn gemaakt met Sjabloonversneller worden automatisch opgeslagen in de inhoudssjabloonbibliotheek. U kunt ze openen en opnieuw gebruiken in elke e-mail tijdens uw reizen en campagnes. [Meer informatie](../content-management/content-templates.md)
+Ja! Sjablonen die met de afbeelding zijn gemaakt, worden automatisch opgeslagen naar de inhoudssjabloonbibliotheek. U kunt ze openen en opnieuw gebruiken in elke e-mail tijdens uw reizen en campagnes. [Meer informatie](../content-management/content-templates.md)
 
 +++
 
