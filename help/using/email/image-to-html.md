@@ -11,32 +11,45 @@ badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: e-mail, sjabloon, afbeelding, HTML, AI, ontwerp, converter
 hide: true
 hidefromtoc: true
-source-git-commit: 95701732933fabd37c7de0420438e180ee6fe5d2
+source-git-commit: 8a504f02de0d438213025f9741a31e66e318a5da
 workflow-type: tm+mt
-source-wordcount: '1546'
+source-wordcount: '1751'
 ht-degree: 0%
 
 ---
 
 # Afbeeldingen met de afbeelding omzetten in HTML-sjablonen in HTML-converter {#image-to-html}
 
+
+
+## Overzicht {#overview}
+
+Het beeld aan de omzetter van HTML is een innovatieve AI-Vervaardigde eigenschap beschikbaar in het **menu van de Malplaatjes van de Inhoud** die dramatisch e-mailverwezenlijking door statische beeldontwerpen in volledig klantgerichte, modulaire e-mailinhoudsmalplaatjes van HTML om te zetten versnelt. Met dit codeprogramma kunnen marketers visuele ontwerpen van grafische ontwerpers of ontwerpgereedschappen omzetten in responsieve, bewerkbare e-mailsjablonen die kunnen worden opgeslagen in de bibliotheek met inhoudssjablonen en vervolgens opnieuw kunnen worden gebruikt voor meerdere reizen en campagnes—zonder dat hiervoor technische expertise vereist is.
+
 >[!AVAILABILITY]
 >
 >Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
-## Overzicht {#overview}
-
-Het beeld aan de omzetter van HTML is een innovatieve AI-Vervaardigde eigenschap beschikbaar in het **menu van de Malplaatjes van de Inhoud** die dramatisch e-mailverwezenlijking door statische beeldontwerpen in volledig klantgerichte de inhoudsmalplaatjes van HTML om te zetten e-mail. Met dit gereedschap kunnen marketers visuele ontwerpen transformeren van grafische ontwerpers of ontwerpgereedschappen naar responsieve, bewerkbare e-mailsjablonen die kunnen worden opgeslagen in de bibliotheek met inhoudssjablonen en vervolgens opnieuw kunnen worden gebruikt tijdens meerdere reizen en campagnes.
-
-Door gebruik te maken van generatieve AI-technologie, analyseert de imageconverter de lay-out, typografie, kleuren en visuele elementen in uw afbeelding en genereert hij schone, gestructureerde HTML-code die de betrouwbaarheid van het ontwerp behoudt en tegelijk de volledige bewerkbaarheid en compatibiliteit met de e-mail-Designer garandeert.
+Door gebruik te maken van generatieve AI-technologie, analyseert de image naar HTML converter de lay-out, typografie, kleuren en visuele elementen in uw afbeelding en genereert deze schone, modulaire HTML-code die de betrouwbaarheid van het ontwerp behoudt en tegelijk volledige bewerkbaarheid en compatibiliteit met de e-mail Designer garandeert. Dit elimineert het handmatige, tijdrovende proces van conversie van modellen naar HTML en vermindert de afhankelijkheid van ontwikkelingsbronnen.
 
 **Zeer belangrijke voordelen:**
 
-* **versnelde creatie**: Verminder e-mailverwezenlijking tijd door ontwerpmodellen in herbruikbare inhoudsmalplaatjes onmiddellijk om te zetten
-* **Designer-developer bridge**: Elimineer de behoefte aan handmatige HTML-codering wanneer u werkt met visuele ontwerpen
-* **Getrouwheid van het Ontwerp**: handhaaf de integriteit van uw origineel ontwerp terwijl het creëren van editable inhoud
-* **Herbruikbaarheid**: Sparen malplaatjes aan de bibliotheek van de Malplaatjes van de Inhoud voor gebruik over veelvoudige reizen en campagnes
+* **Ontwerp aan HTML in notulen**: AI-aangedreven, geen-code omzetting zet statische beelden in editable, modulaire malplaatjes in notulen om, dramatisch verminderend malplaatjeaanmaaktijd
+* **machtigt niet-technische gebruikers**: Vermindert afhankelijkheid van ontwerp of ontwikkelingsteams — de marketers kunnen malplaatjes met minimale technische kennis produceren en aanpassen
+* **Vereenvoudigde platformmigratie**: Zet externe malplaatjes of ontwerpen van andere platforms in AJO-klaar HTML moeiteloos om
+* **bouwt een herbruikbare malplaatjebibliotheek**: Creeer een scalable, brand-verenigbare malplaatjebibliotheek die over veelvoudige reizen en campagnes kan worden gebruikt
+* **Getrouwheid van het Ontwerp**: handhaaf visuele consistentie met uw origineel ontwerp terwijl het creëren van volledig editable inhoud
 * **E-mailverenigbaarheid**: produceer HTML die foutloos met de E-mailDesigner en over e-mailcliënten werkt
+
+## Vaak voorkomende gebruiksscenario&#39;s {#use-cases}
+
+De afbeelding naar HTML-converter is ideaal voor:
+
+* **de migratie van het Platform**: Het migreren van een ander e-mailmarketing platform? Zet uw bestaande e-mailontwerpen om in HTML-sjablonen die klaar zijn voor AJO zonder dat u ze helemaal opnieuw hoeft op te bouwen
+* **Mockup van het Ontwerp omzetting**: Transformeer ontwerpmodellen van hulpmiddelen zoals Photoshop, Figma, of andere ontwerpsoftware in functionele e-mailmalplaatjes
+* **Snelle malplaatjeverwezenlijking**: Produceer snel e-mailmalplaatjes voor tijd-gevoelige campagnes zonder op ontwikkelaarsmiddelen te wachten
+* **de bibliotheken van het malplaatje van de Bouw**: Creeer een uitvoerige bibliotheek van brand-verenigbare malplaatjes die de niet technische teamleden kunnen aanpassen en opstellen
+* **Verminderend technische gebiedsdelen**: Laat marketers toe om op e-mailmalplaatjes onafhankelijk tot stand te brengen en te herhalen, snellere campagneuitvoering
 
 ## Vereisten {#prerequisites}
 
@@ -95,7 +108,7 @@ Voer de volgende stappen uit om een afbeeldingsontwerp om te zetten in een volle
 
 1. Als u tevreden bent met de sjabloon, klikt u op **[!UICONTROL Save]** om de inhoudssjabloon op te slaan.
 
-1. Uw sjabloon is nu beschikbaar in de bibliotheek met inhoudssjablonen en kan worden gebruikt voor het maken van e-mails tijdens reizen of campagnes. [&#x200B; leer hoe te om inhoudsmalplaatjes &#x200B;](use-email-templates.md) te gebruiken
+1. Uw sjabloon is nu beschikbaar in de bibliotheek met inhoudssjablonen en kan worden gebruikt voor het maken van e-mails tijdens reizen of campagnes. [ leer hoe te om inhoudsmalplaatjes ](use-email-templates.md) te gebruiken
 
 ## Je geconverteerde template gebruiken in e-mails {#use-template}
 
@@ -103,7 +116,7 @@ Nadat u de inhoudssjabloon hebt gemaakt en opgeslagen, kunt u deze gebruiken bij
 
 Als u een e-mail maakt tijdens een rit of campagne, opent u de e-mailtoepassing via het scherm **[!UICONTROL Edit content]** .
 
-Leer meer over [&#x200B; het werken met e-mailmalplaatjes &#x200B;](use-email-templates.md) en [&#x200B; het creëren van inhoudsmalplaatjes &#x200B;](../content-management/content-templates.md).
+Leer meer over [ het werken met e-mailmalplaatjes ](use-email-templates.md) en [ het creëren van inhoudsmalplaatjes ](../content-management/content-templates.md).
 
 ## Best practices {#best-practices}
 
@@ -206,6 +219,12 @@ De afbeelding naar HTML-converter is beschikbaar in Beperkte beschikbaarheid. U 
 +++Kan ik geconverteerde sjablonen opnieuw gebruiken voor meerdere campagnes?
 
 Ja! Sjablonen die met de afbeelding zijn gemaakt, worden automatisch opgeslagen naar de inhoudssjabloonbibliotheek. U kunt ze openen en opnieuw gebruiken in elke e-mail tijdens uw reizen en campagnes. [Meer informatie](../content-management/content-templates.md)
+
++++
+
++++Kan ik dit gebruiken voor platformmigratie?
+
+Ja! De afbeelding wordt omgezet naar HTML en is ideaal voor het migreren van andere marketingplatforms voor e-mail. Exporteer of screenshot gewoon uw bestaande e-mailontwerpen vanaf uw vorige platform en zet ze om in HTML-sjablonen die klaar zijn voor AJO zonder ze helemaal opnieuw op te bouwen.
 
 +++
 
