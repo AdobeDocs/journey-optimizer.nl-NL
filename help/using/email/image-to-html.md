@@ -10,19 +10,14 @@ level: Beginner
 keywords: email, template, image, HTML, AI, design, accelerator
 hide: true
 hidefromtoc: true
-source-git-commit: 86bf80c56a1bd50872d014a7aa92407227c823f8
+source-git-commit: f23bb73a9aa1c3ca8a6fc7a9a7f4d18cebc1faf3
 workflow-type: tm+mt
-source-wordcount: '1506'
+source-wordcount: '1466'
 ht-degree: 0%
 
 ---
 
 # Afbeeldingen converteren naar HTML-sjablonen met Sjabloonversnelling {#image-to-html}
-
->[!CONTEXTUALHELP]
->id="ajo_template_accelerator"
->title="Sjabloonversnelling"
->abstract="Met Sjabloonversnelling kunt u statische afbeeldingsontwerpen (JPEG of PNG) omzetten in volledig aanpasbare HTML-e-mailsjablonen. Met deze door AI aangedreven functie kunt u visuele ontwerpen snel omzetten in responsieve, bewerkbare e-mailinhoud. Opmerking: alle bestaande inhoud in uw e-mail wordt verwijderd wanneer u een afbeelding uploadt voor conversie."
 
 >[!AVAILABILITY]
 >
@@ -32,7 +27,7 @@ ht-degree: 0%
 
 De Versneller van het malplaatje is een innovatieve AI-Gerichte eigenschap beschikbaar in het **menu van de Malplaatjes van de Inhoud** die dramatisch e-mailverwezenlijking versnelt door statische beeldontwerpen in volledig klantgerichte HTML e-mailinhoudsmalplaatjes om te zetten. Met dit gereedschap kunnen marketers visuele ontwerpen transformeren van grafische ontwerpers of ontwerpgereedschappen naar responsieve, bewerkbare e-mailsjablonen die kunnen worden opgeslagen in de bibliotheek met inhoudssjablonen en vervolgens opnieuw kunnen worden gebruikt tijdens meerdere reizen en campagnes.
 
-Door gebruik te maken van generatieve AI-technologie analyseert Sjabloonversneller de lay-out, typografie, kleuren en visuele elementen in uw afbeelding en genereert u schone, gestructureerde HTML-code die de betrouwbaarheid van het ontwerp handhaaft en tegelijk volledige bewerkbaarheid en compatibiliteit met de e-mailtoepassing garandeert.
+Door gebruik te maken van generatieve AI-technologie, analyseert Sjabloon Accelerator image naar HTML converter de lay-out, typografie, kleuren en visuele elementen in uw afbeelding en genereert u schone, gestructureerde HTML-code die de betrouwbaarheid van het ontwerp behoudt en tegelijk volledige bewerkbaarheid en compatibiliteit met de e-mail Designer garandeert.
 
 **Zeer belangrijke voordelen:**
 
@@ -99,7 +94,7 @@ Voer de volgende stappen uit om een afbeeldingsontwerp om te zetten in een volle
 
 1. Als u tevreden bent met de sjabloon, klikt u op **[!UICONTROL Save]** om de inhoudssjabloon op te slaan.
 
-1. Uw sjabloon is nu beschikbaar in de bibliotheek met inhoudssjablonen en kan worden gebruikt voor het maken van e-mails tijdens reizen of campagnes. [&#x200B; leer hoe te om inhoudsmalplaatjes &#x200B;](use-email-templates.md) te gebruiken
+1. Uw sjabloon is nu beschikbaar in de bibliotheek met inhoudssjablonen en kan worden gebruikt voor het maken van e-mails tijdens reizen of campagnes. [ leer hoe te om inhoudsmalplaatjes ](use-email-templates.md) te gebruiken
 
 ## Je geconverteerde template gebruiken in e-mails {#use-template}
 
@@ -107,11 +102,11 @@ Nadat u de inhoudssjabloon hebt gemaakt en opgeslagen, kunt u deze gebruiken bij
 
 Als u een e-mail maakt tijdens een rit of campagne, opent u de e-mailtoepassing via het scherm **[!UICONTROL Edit content]** .
 
-Leer meer over [&#x200B; het werken met e-mailmalplaatjes &#x200B;](use-email-templates.md) en [&#x200B; het creëren van inhoudsmalplaatjes &#x200B;](../content-management/content-templates.md).
+Leer meer over [ het werken met e-mailmalplaatjes ](use-email-templates.md) en [ het creëren van inhoudsmalplaatjes ](../content-management/content-templates.md).
 
 ## Best practices {#best-practices}
 
-Volg de onderstaande aanbevelingen om optimale resultaten te bereiken bij het gebruik van Sjabloonversneller:
+Houd u aan de volgende aanbevelingen om optimale resultaten te bereiken wanneer u de afbeelding naar HTML-converter gebruikt:
 
 **alvorens u** begint
 
@@ -161,7 +156,7 @@ Houd rekening met de volgende beperkingen bij het gebruik van de converter Afbee
 
 >[!NOTE]
 >
->Sjabloonversneller is ontworpen om een sterk startpunt te bieden voor het maken van e-mail. De gegenereerde HTML moet worden gereviseerd en verfijnd met de e-mail Designer om te controleren of deze aan uw exacte vereisten voldoet.
+>De afbeelding naar HTML-converter is ontworpen om een sterk startpunt te bieden voor het maken van e-mail. De gegenereerde HTML moet worden gereviseerd en verfijnd met de e-mail Designer om te controleren of deze aan uw exacte vereisten voldoet.
 
 ## Veelgestelde vragen {#faq}
 
