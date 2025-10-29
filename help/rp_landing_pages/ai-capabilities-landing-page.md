@@ -86,7 +86,7 @@ Journey Analyze Agent
 
 Reizen analyseren en optimaliseren in natuurlijke taal. Identificeer reservepunten, ontdek publiek en planningsconflicten, en krijg actionable aanbevelingen.
 
-[&#x200B; verken Journey Agent &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}
+[&#x200B; verken Journey Agent &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}
 :::
 
 :::
@@ -96,7 +96,7 @@ Experimentatieagent
 
 Digitale experimenten uitvoeren en beheren met behulp van AI-inzichten. Krijg prestatiessamenvattingen, inhoudanalyse, en aanbevelingen voor uw volgende tests.
 
-[&#x200B; ontdekt de Agent van de Experimentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
+[&#x200B; ontdekt de Agent van de Experimentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
 :::
 
 :::
@@ -132,8 +132,8 @@ Coördineer veelvoudige AI agenten om naadloos samen te werken. Oplossing voor c
 
 Adobe Experience Cloud AI-agents breiden de AI-mogelijkheden tot buiten Journey Optimizer uit, waardoor interactie in de natuurlijke taal mogelijk is voor complexe marketingtaken:
 
-- **[Reis analyseert Agent &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}** - voer de analyse van de reisreserve uit, ontdek publiek en planningsoverlappingen, en ontvang actioneerbare aanbevelingen om vervoersprestaties te optimaliseren.
-- **[de Agent van de Experimentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - analyseert experimentele resultaten, identificeert het winnen patronen, en ontdekt nieuwe kansen voor het testen over kanalen.
+- **[Reis analyseert Agent &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}** - voer de analyse van de reisreserve uit, ontdek publiek en planningsoverlappingen, en ontvang actioneerbare aanbevelingen om vervoersprestaties te optimaliseren.
+- **[de Agent van de Experimentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - analyseert experimentele resultaten, identificeert het winnen patronen, en ontdekt nieuwe kansen voor het testen over kanalen.
 - **[Audience Agent &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}** - creeer en beheer publiekssegmenten door conversatie AI, analyseer publiekssamenstelling, en optimaliseer segmentatiestrategieën.
 - **[Agent Orchestrator &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}** - coördineer veelvoudige gespecialiseerde agenten om complexe, multi-step marketing uitdagingen efficiënt op te lossen.
 
