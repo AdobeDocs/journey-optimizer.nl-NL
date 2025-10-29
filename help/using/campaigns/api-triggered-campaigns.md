@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 1%
@@ -28,19 +28,19 @@ ht-degree: 1%
 
 API getriggerde campagnes staan toe of voor marketing mededelingen om aan een publiek op het juiste ogenblik te bereiken, of voor transactie/operationele berichten aan een individu zoals een wachtwoordteruggestelde, waar de behoefte personalisatie niet alleen het gebruiken van profielattributen maar ook contextgegevens in real time in de trekker kan impliceren, die een nuttige lading van de WEERSTAPI is.
 
-Om dit te doen, moet u eerst een API teweeggebrachte campagne in Journey Optimizer creëren, en dan zijn uitvoering door een API vraag lanceren gebruikend de [&#x200B; Interactive Uitvoering REST API van het Bericht &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+Om dit te doen, moet u eerst een API teweeggebrachte campagne in Journey Optimizer creëren, en dan zijn uitvoering door een API vraag lanceren gebruikend de [ Interactive Uitvoering REST API van het Bericht ](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
 
 ➡️ [Ontdek deze functie in video](#video)
 
 >[!NOTE]
 >
->De gesteunde kanalen zijn: [&#x200B; E-mail &#x200B;](../email/get-started-email.md), [&#x200B; SMS &#x200B;](../sms/get-started-sms.md), [&#x200B; Push berichten &#x200B;](../push/get-started-push.md). Door de API geactiveerde campagnes voor hoge doorvoer ondersteunen momenteel alleen het e-mailkanaal.
+>Voor meer informatie over de gesteunde kanalen, verwijs naar de lijst in deze sectie: [ Kanalen in reizen &amp; campagnes ](../channels/gs-channels.md#channels).
 >
 >Welke kanalen beschikbaar zijn, is afhankelijk van uw licentiemodel en invoegtoepassingen.
 
 ## Belangrijke stappen voor het maken van API-campagnes {#steps}
 
-Alvorens met campagnes te beginnen, controleer de volgende eerste vereisten die [&#x200B; in deze sectie &#x200B;](get-started-with-campaigns.md#permissions) worden vermeld. Als aan deze voorwaarden is voldaan, kunt u uw campagne starten:
+Alvorens met campagnes te beginnen, controleer de volgende eerste vereisten die [ in deze sectie ](get-started-with-campaigns.md#permissions) worden vermeld. Als aan deze voorwaarden is voldaan, kunt u uw campagne starten:
 
 1. [De eigenschappen van de campagne definiëren](api-triggered-campaign-properties.md)
 1. [Campagne configureren](api-triggered-campaign-action.md)
@@ -54,4 +54,4 @@ Alvorens met campagnes te beginnen, controleer de volgende eerste vereisten die 
 
 Leer hoe te om een campagne tot stand te brengen en het van een extern systeem teweeg te brengen dat op gebruikersinteractie wordt gebaseerd, gebruikend de Interactieve REST API van de Uitvoering van het Bericht.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452731?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

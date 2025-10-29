@@ -6,9 +6,9 @@ description: Meer informatie over hoe u aan de slag kunt gaan met georkestreerde
 short-description: Ontdek de belangrijkste kenmerken en gebruiksscenario's van georkestreerde campagnes.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 97f9c32435667fecb950892ed6f6531085055e59
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '661'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ Hoewel de marketing over de kanalen essentieel is, maken de geordende campagnes 
 
 ![](assets/canvas-example-diagram.png){zoomable="yes"}
 
-➡️ [&#x200B; ontdekt Geordende campagnes in video &#x200B;](#video-oc)
+➡️ [ ontdekt Geordende campagnes in video ](#video-oc)
 
 ## Kernmogelijkheden
 
@@ -49,10 +49,9 @@ Ondersteuning voor verzending op meerdere niveaus, waarbij één bericht wordt v
 <td><img alt="Workflows voor meerdere stappen" src="assets/do-not-localize/icon-multistep.svg" width="150px"></a></td><td><b> multi-step campagnewerkschema's </b><br/> Ontwerp multi-stappen campagnes, van dagelijkse berichten aan complexe campagnes zoals seizoensgebonden promoties of belangrijke productlanceringen.</td></tr>
 </table>
 
-
 >[!NOTE]
 >
->De gesteunde kanalen zijn: [&#x200B; E-mail &#x200B;](../email/get-started-email.md), [&#x200B; SMS/MMS/RCS &#x200B;](../sms/get-started-sms.md), [&#x200B; Push berichten &#x200B;](../push/get-started-push.md).
+>Voor meer informatie over de gesteunde kanalen, verwijs naar de lijst in deze sectie: [ Kanalen in reizen &amp; campagnes ](../channels/gs-channels.md#channels).
 >
 >Welke kanalen beschikbaar zijn, is afhankelijk van uw licentiemodel en invoegtoepassingen.
 
@@ -70,11 +69,11 @@ Beide canvas&#39;s zijn geoptimaliseerd voor hun respectieve gebruiksgevallen: J
 
 Het geordende campagnecanvas is een voorstelling van wat er moet gebeuren. Hierin worden de verschillende taken beschreven die moeten worden uitgevoerd en hoe deze aan elkaar zijn gekoppeld.
 
-![&#x200B; beeld dat een Geordend campagnecanvas &#x200B;](assets/canvas-example.png) toont
+![ beeld dat een Geordend campagnecanvas ](assets/canvas-example.png) toont
 
 Elke geordende campagne bevat:
 
-* **Activiteiten**: Een activiteit is een uit te voeren taak. De [&#x200B; diverse activiteiten &#x200B;](activities/about-activities.md) worden vertegenwoordigd op het canvas door pictogrammen. Elke activiteit heeft specifieke eigenschappen en andere eigenschappen die voor alle activiteiten gemeenschappelijk zijn.
+* **Activiteiten**: Een activiteit is een uit te voeren taak. De [ diverse activiteiten ](activities/about-activities.md) worden vertegenwoordigd op het canvas door pictogrammen. Elke activiteit heeft specifieke eigenschappen en andere eigenschappen die voor alle activiteiten gemeenschappelijk zijn.
 
   In een geordend campagnecanvas kan een bepaalde activiteit veelvoudige taken veroorzaken, in het bijzonder wanneer er een lijn of terugkomende acties is.
 

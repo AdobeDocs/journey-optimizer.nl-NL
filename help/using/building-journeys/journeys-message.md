@@ -10,9 +10,9 @@ level: Intermediate
 keywords: reis, bericht, push, sms, e-mail, in-app, web, inhoudskaart, op code gebaseerde ervaring
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '550'
 ht-degree: 2%
 
 ---
@@ -34,11 +34,11 @@ Als u een ingebouwde kanaalactie aan uw reis wilt toevoegen, sleept u een kanaal
 
 ## Een bericht toevoegen tijdens een rit  {#add-msg-in-journey}
 
-Met ingebouwde kanaalacties, kunt u uitgaande of binnenkomende berichten vormen. Ondersteunde binnenkomende kanalen zijn e-mail, tekstbericht (SMS/MMS) en pushberichten. Ondersteunde uitgaande kanalen zijn In-app, Web, op code gebaseerde ervaring en inhoudskaart.
+Met ingebouwde kanaalacties, kunt u uitgaande of binnenkomende berichten vormen. Voor meer informatie over de kanalen beschikbaar in reizen, verwijs naar de lijst in deze sectie: [ Kanalen in reizen &amp; campagnes ](../channels/gs-channels.md#channels).
 
 Volg onderstaande stappen om een ingebouwde kanaalactie aan een reis toe te voegen.
 
-1. Begin uw reis met een [&#x200B; Gebeurtenis &#x200B;](general-events.md) of a [&#x200B; gelezen activiteit van het publiek &#x200B;](read-audience.md).
+1. Begin uw reis met een [ Gebeurtenis ](general-events.md) of a [ gelezen activiteit van het publiek ](read-audience.md).
 
 1. Van de **sectie van Acties** van het palet, sleep en laat vallen een kanaalactiviteit in het canvas.
 
