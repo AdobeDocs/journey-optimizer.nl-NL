@@ -84,4 +84,4 @@ Leer hoe u e-mailinhoud maakt met de berichteneditor.
 
 Leer hoe u contentexperimenten configureert voor een A/B-test en e-mailinhoud verkent, wat de beste manier is om uw zakelijke doelstellingen te bepalen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419893)
+>[!VIDEO](https://video.tv.adobe.com/v/3447337?captions=dut)
