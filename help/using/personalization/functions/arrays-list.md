@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '592'
 ht-degree: 2%
 
 ---
@@ -101,16 +101,17 @@ De functie `head` wordt gebruikt om het eerste item in een array of lijst te ret
 
 **Voorbeeld**
 
-De volgende bewerking retourneert de eerste van de bovenste vijf bestellingen met de hoogste prijs. Meer informatie over de `topN` functie kan in [&#x200B; eerst `n` in serie &#x200B;](#first-n) sectie worden gevonden.
+De volgende bewerking retourneert de eerste van de bovenste vijf bestellingen met de hoogste prijs. Meer informatie over de `topN` functie kan in [ eerst `n` in serie ](#first-n) sectie worden gevonden.
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## Eerste `n` in array {#first-n}
+## Sorteren en eerste N in array ophalen {#first-n}
 
-De functie `topN` wordt gebruikt om de eerste `N` -items in een array te retourneren, wanneer deze in oplopende volgorde worden gesorteerd op basis van de opgegeven numerieke expressie.
+De functie `topN` sorteert een array in aflopende volgorde op basis van de opgegeven numerieke expressie en retourneert de eerste `N` -items. Wanneer de arraygrootte kleiner is dan `N` , wordt de volledige gesorteerde array geretourneerd.
 
+Deze functie
 **Syntaxis**
 
 ```sql
@@ -205,9 +206,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 -->
 
-## Laatste `n` in array{#last-n}
+## Laatste N in array sorteren en ophalen {#last-n}
 
-De functie `bottomN` wordt gebruikt om de laatste `N` -items in een array te retourneren, wanneer deze in oplopende volgorde worden gesorteerd op basis van de opgegeven numerieke expressie.
+De functie `bottomN` sorteert een array in oplopende volgorde op basis van de opgegeven numerieke expressie en retourneert de eerste `N` -items. Wanneer de arraygrootte kleiner is dan `N` , wordt de volledige gesorteerde array geretourneerd.
 
 **Syntaxis**
 

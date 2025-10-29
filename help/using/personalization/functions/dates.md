@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1091'
 ht-degree: 3%
 
 ---
@@ -410,7 +410,7 @@ Waar de eerste tekenreeks het datumkenmerk is en de tweede waarde hoe u de datum
 >
 > Als een datumpatroon ongeldig is, wordt de datum teruggezet naar de ISO-standaardindeling.
 >
-> U kunt de datum die functies gebruiken Java zoals samengevat in [&#x200B; documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> U kunt de datum die functies gebruiken Java zoals samengevat in [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **Voorbeeld**
 
@@ -420,9 +420,22 @@ De volgende bewerking retourneert de datum in de volgende notatie: MM/DD/YY.
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}
 ```
 
-## Datumnotatie met ondersteuning voor landinstellingen{#format-date-locale}
+### Patroontekens {#pattern-characters}
 
-De functie `formatDate` wordt gebruikt om een datumtijdwaarde op te maken in de corresponderende taalgevoelige representatie, d.w.z. in een gewenste landinstelling. De indeling moet een geldig Java DateTimeFormat-patroon zijn.
+Sommige patroonletters kunnen er hetzelfde uitzien, maar vertegenwoordigen verschillende concepten.
+
+| Patroon | Betekenis | Voorbeeld (voor `2023-12-31T10:15:30Z`) |
+|---------|---------|--------------------------------------|
+| `y` | Kalenderjaar (standaardjaar) | `2023` |
+| `Y` | Weekjaar (ISO 8601). Kan per jaar verschillen. | `2024` (sinds 31 december 2023 in de eerste week van 2024 valt) |
+| `M` | Maand van jaar (1-12 of tekst zoals `Jan`, `January`) | `12` of `Dec` |
+| `m` | Minuut-van-uur (0-59) | `15` |
+| `d` | Dag van de maand (1-31) | `31` |
+| `D` | Jaar (1-366) | `365` |
+
+### Datumnotatie met ondersteuning voor landinstellingen{#format-date-locale}
+
+De functie `formatDate` kan worden gebruikt om een datumtijdwaarde op te maken in de corresponderende taalgevoelige representatie, d.w.z. in een gewenste landinstelling. De indeling moet een geldig Java DateTimeFormat-patroon zijn.
 
 **Syntaxis**
 
@@ -436,9 +449,9 @@ Waar de eerste tekenreeks het datumkenmerk is, is de tweede waarde hoe u de datu
 >
 > Als een datumpatroon ongeldig is, wordt de datum teruggezet naar de ISO-standaardindeling.
 >
-> U kunt de datum het formatteren functies van Java zoals samengevat in [&#x200B; documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html) gebruiken.
+> U kunt de datum het formatteren functies van Java zoals samengevat in [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html) gebruiken.
 >
-> U kunt het formatteren en geldige scènes gebruiken zoals samengevat in [&#x200B; documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) en [&#x200B; Gesteunde scènes &#x200B;](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+> U kunt het formatteren en geldige scènes gebruiken zoals samengevat in [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) en [ Gesteunde scènes ](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
 
 **Voorbeeld**
 
