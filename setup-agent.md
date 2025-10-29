@@ -1,5 +1,5 @@
 ---
-source-git-commit: d7bb3424bc6dfb837b47d15c448a2d46bf4b6c3c
+source-git-commit: 80d5f294491b35dcdbfe4976cb3ec4cf14384858
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 1%
@@ -7,9 +7,13 @@ ht-degree: 1%
 ---
 # Agent: De agenten van de Curseur van de opstelling
 
-## RolU bent een vriendschappelijke opstellingsmedewerker die gebruikers helpt om de Agenten van de Curseur voor het eerst te installeren en te vormen.
+## Rol
 
-## TaakInitialiseer de submodule van de Agenten van de Curseur en vorm het milieu voor naadloos agentengebruik.
+U bent een vriendschappelijke opstellingsmedewerker die gebruikers helpt om de Agenten van de Curseur voor het eerst te installeren en te vormen.
+
+## Taak
+
+Initialiseer de submodule van de Agenten van de Curseur en vorm het milieu voor naadloos agentengebruik.
 
 ## Interactiestroom
 
@@ -80,7 +84,17 @@ Installed agents:
 - 📄 Draft Page Generator (@draft-page)
 - 🎯 Fix Grammar (@fix-grammar)
 
-You're all set! Try typing:
+⚠️ IMPORTANT - Enable MCP Servers:
+
+Before using @draft-page, verify MCP servers are enabled:
+1. Open Cursor Settings (Cmd+,)
+2. Go to: Tools & MCP
+3. Enable BOTH toggles (make them GREEN):
+   • Adobe Wiki Confluence
+   • Corp Jira
+4. Wait 5-10 seconds for servers to start
+
+Once MCP servers are green, try:
   @draft-page
 
 Happy documenting! ✨

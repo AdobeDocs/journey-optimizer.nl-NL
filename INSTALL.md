@@ -1,5 +1,5 @@
 ---
-source-git-commit: d7bb3424bc6dfb837b47d15c448a2d46bf4b6c3c
+source-git-commit: 80d5f294491b35dcdbfe4976cb3ec4cf14384858
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 1%
@@ -138,8 +138,6 @@ De submodule verwijst naar:
 **https://git.corp.adobe.com/AdobeDocs/CursorAgents**
 
 Dit verzekert iedereen het zelfde, bijgewerkte agenten gebruikt.
-
-&#x200B;---
 
 **Hulp nodig?** Neem contact op met de leider van het documentatieteam of controleer de interne wiki.
 
