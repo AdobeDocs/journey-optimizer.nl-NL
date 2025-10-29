@@ -21,6 +21,7 @@ U moet slechts dit **eens** per bewaarplaats doen.
    ```
    @setup-agents
    ```
+
 3. Volg de aanwijzingen
 4. Gereed! ✨
 
@@ -32,11 +33,13 @@ U moet slechts dit **eens** per bewaarplaats doen.
    ```bash
    ./setup-agents.sh
    ```
+
    Of handmatig:
 
    ```bash
    git submodule update --init --recursive
    ```
+
 3. Gereed! ✨
 
 ## Verificatie
@@ -136,7 +139,7 @@ De submodule verwijst naar:
 
 Dit verzekert iedereen het zelfde, bijgewerkte agenten gebruikt.
 
----
+&#x200B;---
 
 **Hulp nodig?** Neem contact op met de leider van het documentatieteam of controleer de interne wiki.
 
