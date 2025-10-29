@@ -117,8 +117,8 @@ Via API&#39;s hebt u via programmacode toegang tot de mogelijkheden van Journey 
 
 Adobe Experience Cloud AI-agents breiden de AI-mogelijkheden tot buiten Journey Optimizer uit, waardoor interactie in de natuurlijke taal mogelijk is voor complexe marketingtaken:
 
-- **[Reis analyseert Agent &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}** - voer de analyse van de reisreserve uit, ontdek publiek en planningsoverlappingen, en ontvang actioneerbare aanbevelingen om vervoersprestaties te optimaliseren.
-- **[de Agent van de Experimentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - analyseert experimentele resultaten, identificeert het winnen patronen, en ontdekt nieuwe kansen voor het testen over kanalen.
+- **[Reis analyseert Agent &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}** - voer de analyse van de reisreserve uit, ontdek publiek en planningsoverlappingen, en ontvang actioneerbare aanbevelingen om vervoersprestaties te optimaliseren.
+- **[de Agent van de Experimentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - analyseert experimentele resultaten, identificeert het winnen patronen, en ontdekt nieuwe kansen voor het testen over kanalen.
 - **[Audience Agent &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}** - creeer en beheer publiekssegmenten door conversatie AI, analyseer publiekssamenstelling, en optimaliseer segmentatiestrategieën.
 - **[Agent Orchestrator &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}** - coördineer veelvoudige gespecialiseerde agenten om complexe, multi-step marketing uitdagingen efficiënt op te lossen.
 
@@ -230,7 +230,7 @@ De agent Reis Analyze helpt u:
 - **identificeer het plannen conflicten** - ontdek timingsconflicten tussen geplande reizen die het zelfde publiek richten.
 - **operationele inzichten van het Oppervlak** - krijg op snel-gebaseerde inzichten zoals &quot;toon me alle levende reizen&quot;of &quot;die het publiek in meer dan X reizen wordt gebruikt.&quot;
 
-[&#x200B; Onderzoek de Agent van de Analyse van de Reis &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}
+[&#x200B; Onderzoek de Agent van de Analyse van de Reis &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}
 
 +++
 
