@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
+source-git-commit: 30a7ebde95f2cb1ddecf3dc48420076914db4b12
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,15 @@ ht-degree: 0%
 
 Met de rapportpagina van **[!UICONTROL Custom action]** kunt u de betrouwbaarheid en prestaties controleren van API-aanroepen die tijdens uw reizen naar systemen van derden zijn gemaakt. Deze rapporten helpen u snel integratiekwesties, latentieknelpunten, of het vertragen/het begrenzen identificeren die levering kunnen beïnvloeden.
 
-De pagina met de rapportage van de aangepaste actie werkt net als andere All-time rapporten in Journey Optimizer. Voor details op dashboardfunctionaliteit, verwijs naar [&#x200B; deze documentatie &#x200B;](../reports/report-cja-manage.md).
+De pagina met de rapportage van de aangepaste actie werkt net als andere All-time rapporten in Journey Optimizer. Voor details op dashboardfunctionaliteit, verwijs naar [ deze documentatie ](../reports/report-cja-manage.md).
 
 Als u de **[!UICONTROL Custom action]** -rapportpagina wilt openen, klikt u op ![](assets/do-not-localize/Smock_Monitoring_18_N.svg) vanaf de **[!UICONTROL Actions]** -startpagina.
 
 ![](assets/monitor-1.png)
 
-➡️ [&#x200B; Leer meer op hoe te om u de acties van de Douane te vormen &#x200B;](../action/about-custom-action-configuration.md)
+➡️ [ Leer meer op hoe te om u de acties van de Douane te vormen ](../action/about-custom-action-configuration.md)
+
+Naast de **[!UICONTROL Custom action]** rapportpagina kunt u **[!DNL Adobe Experience Platform Query Service]** gebruiken om query&#39;s te maken voor het rapporteren van maatstaven voor aangepaste handelingsprestaties. De voorbeelden van de vraag zijn beschikbaar in [ deze sectie ](../reports/query-examples.md).
 
 ## KPI&#39;s {#kpis}
 
@@ -66,7 +68,7 @@ De **[!UICONTROL Calls overtime]** grafiek toont de HTTP vraagKPI trend over de 
 * Als u een tijdbereik van 1 dag selecteert, worden de KPI&#39;s per uur weergegeven in de grafiek.
 * Als u een tijdbereik van 1 uur selecteert, worden in de grafiek de PKI&#39;s per minuut weergegeven.
 
-➡️[&#x200B; zie de sectie KPIs voor een beschrijving van de metriek van de vraag van HTTP &#x200B;](#kpis)
+➡️[ zie de sectie KPIs voor een beschrijving van de metriek van de vraag van HTTP ](#kpis)
 
 ## Uitsplitsing naar oproep {#breakdown}
 
@@ -74,6 +76,6 @@ De **[!UICONTROL Calls overtime]** grafiek toont de HTTP vraagKPI trend over de 
 
 De **[!UICONTROL Calls breakdown]** lijst verstrekt een hiërarchische verdeling van de metriek van de vraag van HTTP, van de algemene metriek per eindpunt op het hoogste niveau aan de metriek per Actie van de Douane die elk eindpunt tot de reizen gebruikt die op hen op het bodemniveau baseren.
 
-➡️[&#x200B; zie de sectie KPIs voor een beschrijving van de metriek van de vraag van HTTP &#x200B;](#kpis)
+➡️[ zie de sectie KPIs voor een beschrijving van de metriek van de vraag van HTTP ](#kpis)
 
 
