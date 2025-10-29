@@ -1,23 +1,24 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Afbeeldingen converteren naar HTML-sjablonen met Sjabloonversnelling
-description: Leer hoe u met AI-Sjabloonversneller afbeeldingsontwerpen omzet in bewerkbare HTML-e-mailsjablonen
+title: Afbeeldingen met de afbeelding omzetten in HTML-sjablonen in HTML-converter
+description: Leer hoe u met de AI-afbeelding naar HTML-converter afbeeldingsontwerpen omzet in bewerkbare HTML-e-mailsjablonen
 feature: Email Design
 topic: Content Management
 role: User
 level: Beginner
-keywords: email, template, image, HTML, AI, design, accelerator
+badge: label="Beperkte beschikbaarheid" type="Informative"
+keywords: e-mail, sjabloon, afbeelding, HTML, AI, ontwerp, converter
 hide: true
 hidefromtoc: true
-source-git-commit: f23bb73a9aa1c3ca8a6fc7a9a7f4d18cebc1faf3
+source-git-commit: 95701732933fabd37c7de0420438e180ee6fe5d2
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1546'
 ht-degree: 0%
 
 ---
 
-# Afbeeldingen converteren naar HTML-sjablonen met Sjabloonversnelling {#image-to-html}
+# Afbeeldingen met de afbeelding omzetten in HTML-sjablonen in HTML-converter {#image-to-html}
 
 >[!AVAILABILITY]
 >
@@ -25,9 +26,9 @@ ht-degree: 0%
 
 ## Overzicht {#overview}
 
-De Versneller van het malplaatje is een innovatieve AI-Gerichte eigenschap beschikbaar in het **menu van de Malplaatjes van de Inhoud** die dramatisch e-mailverwezenlijking versnelt door statische beeldontwerpen in volledig klantgerichte HTML e-mailinhoudsmalplaatjes om te zetten. Met dit gereedschap kunnen marketers visuele ontwerpen transformeren van grafische ontwerpers of ontwerpgereedschappen naar responsieve, bewerkbare e-mailsjablonen die kunnen worden opgeslagen in de bibliotheek met inhoudssjablonen en vervolgens opnieuw kunnen worden gebruikt tijdens meerdere reizen en campagnes.
+Het beeld aan de omzetter van HTML is een innovatieve AI-Vervaardigde eigenschap beschikbaar in het **menu van de Malplaatjes van de Inhoud** die dramatisch e-mailverwezenlijking door statische beeldontwerpen in volledig klantgerichte de inhoudsmalplaatjes van HTML om te zetten e-mail. Met dit gereedschap kunnen marketers visuele ontwerpen transformeren van grafische ontwerpers of ontwerpgereedschappen naar responsieve, bewerkbare e-mailsjablonen die kunnen worden opgeslagen in de bibliotheek met inhoudssjablonen en vervolgens opnieuw kunnen worden gebruikt tijdens meerdere reizen en campagnes.
 
-Door gebruik te maken van generatieve AI-technologie, analyseert Sjabloon Accelerator image naar HTML converter de lay-out, typografie, kleuren en visuele elementen in uw afbeelding en genereert u schone, gestructureerde HTML-code die de betrouwbaarheid van het ontwerp behoudt en tegelijk volledige bewerkbaarheid en compatibiliteit met de e-mail Designer garandeert.
+Door gebruik te maken van generatieve AI-technologie, analyseert de imageconverter de lay-out, typografie, kleuren en visuele elementen in uw afbeelding en genereert hij schone, gestructureerde HTML-code die de betrouwbaarheid van het ontwerp behoudt en tegelijk de volledige bewerkbaarheid en compatibiliteit met de e-mail-Designer garandeert.
 
 **Zeer belangrijke voordelen:**
 
@@ -39,7 +40,7 @@ Door gebruik te maken van generatieve AI-technologie, analyseert Sjabloon Accele
 
 ## Vereisten {#prerequisites}
 
-Voordat u Sjabloon gebruikt - afbeelding naar HTML-converter, moet u controleren of u beschikt over:
+Voordat u de afbeelding gaat omzetten in HTML, moet u controleren of u beschikt over:
 
 * Toegang tot Adobe Journey Optimizer met de e-mail Designer
 * Een afbeeldingsbestand in JPEG- of PNG-indeling dat uw e-mailontwerp bevat
@@ -73,7 +74,7 @@ Voer de volgende stappen uit om een afbeeldingsontwerp om te zetten in een volle
 
    >[!NOTE]
    >
-   >Het generatieproces kan maximaal 5 minuten in beslag nemen, afhankelijk van de complexiteit en de grootte van het afbeeldingsontwerp. De AI analyseert en zet uw afbeelding om. Wees geduldig.
+   >Het generatieproces kan maximaal 5 minuten in beslag nemen, afhankelijk van de complexiteit en de grootte van het afbeeldingsontwerp. De AI-verwerking vindt plaats op de achtergrond, zodat u van dit scherm af kunt navigeren en andere taken kunt uitvoeren terwijl de conversie bezig is. U hoeft het scherm niet open te houden.
 
 1. Zodra de conversie is voltooid, wordt de inhoudssjabloon automatisch opgeslagen als concept. U kunt de gegenereerde HTML-sjabloon vervolgens bekijken en bewerken in het canvas E-mail Designer.
 
@@ -94,7 +95,7 @@ Voer de volgende stappen uit om een afbeeldingsontwerp om te zetten in een volle
 
 1. Als u tevreden bent met de sjabloon, klikt u op **[!UICONTROL Save]** om de inhoudssjabloon op te slaan.
 
-1. Uw sjabloon is nu beschikbaar in de bibliotheek met inhoudssjablonen en kan worden gebruikt voor het maken van e-mails tijdens reizen of campagnes. [&#x200B; leer hoe te om inhoudsmalplaatjes &#x200B;](use-email-templates.md) te gebruiken
+1. Uw sjabloon is nu beschikbaar in de bibliotheek met inhoudssjablonen en kan worden gebruikt voor het maken van e-mails tijdens reizen of campagnes. [ leer hoe te om inhoudsmalplaatjes ](use-email-templates.md) te gebruiken
 
 ## Je geconverteerde template gebruiken in e-mails {#use-template}
 
@@ -102,7 +103,7 @@ Nadat u de inhoudssjabloon hebt gemaakt en opgeslagen, kunt u deze gebruiken bij
 
 Als u een e-mail maakt tijdens een rit of campagne, opent u de e-mailtoepassing via het scherm **[!UICONTROL Edit content]** .
 
-Leer meer over [&#x200B; het werken met e-mailmalplaatjes &#x200B;](use-email-templates.md) en [&#x200B; het creëren van inhoudsmalplaatjes &#x200B;](../content-management/content-templates.md).
+Leer meer over [ het werken met e-mailmalplaatjes ](use-email-templates.md) en [ het creëren van inhoudsmalplaatjes ](../content-management/content-templates.md).
 
 ## Best practices {#best-practices}
 
@@ -150,7 +151,7 @@ Houd rekening met de volgende beperkingen bij het gebruik van de converter Afbee
 
 * **Complexe lay-outs**: De hoogst complexe ontwerpen met ingewikkelde het in lagen plaatsen, ongebruikelijke vormen, of niet-standaardelementen kunnen niet perfect omzetten. Eenvoudiger ontwerpen leveren over het algemeen betere resultaten op.
 
-* **Verwerkingstijd**: Het omzettingsproces kan tot 5 minuten afhankelijk van de ingewikkeldheid en de grootte van uw beeld vergen. De sjabloon wordt automatisch als een concept opgeslagen zodra de conversie is voltooid.
+* **Verwerkingstijd**: Het omzettingsproces kan tot 5 minuten afhankelijk van de ingewikkeldheid en de grootte van uw beeld vergen. De AI-verwerking vindt plaats op de achtergrond, zodat u aan andere taken kunt werken zonder het scherm open te houden. De sjabloon wordt automatisch als een concept opgeslagen zodra de conversie is voltooid.
 
 * **Beperkte Beschikbaarheid**: Als Beperkte eigenschap van de Beschikbaarheid, wordt het beeld aan de convertor van HTML onophoudelijk verbeterd. De functionaliteit en nauwkeurigheid kunnen variëren en uw feedback kan de functie verbeteren.
 
@@ -174,7 +175,7 @@ De afbeelding naar HTML-converter ondersteunt de afbeeldingsindelingen JPEG (.jp
 
 +++Hoe lang duurt het conversieproces?
 
-De conversie kan maximaal 5 minuten in beslag nemen, afhankelijk van de complexiteit en grootte van het afbeeldingsontwerp. Zodra de conversie is voltooid, wordt uw bestand automatisch opgeslagen als een concept dat u kunt controleren en bewerken.
+De conversie kan maximaal 5 minuten in beslag nemen, afhankelijk van de complexiteit en grootte van het afbeeldingsontwerp. De AI-verwerking vindt plaats op de achtergrond, zodat u kunt wegnavigeren en aan andere taken kunt werken. U hoeft het scherm niet open te houden. Zodra de conversie is voltooid, wordt uw bestand automatisch opgeslagen als een concept dat u kunt controleren en bewerken.
 
 +++
 
