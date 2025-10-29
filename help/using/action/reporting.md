@@ -28,13 +28,13 @@ ht-degree: 0%
 
 Met de rapportpagina van **[!UICONTROL Custom action]** kunt u de betrouwbaarheid en prestaties controleren van API-aanroepen die tijdens uw reizen naar systemen van derden zijn gemaakt. Deze rapporten helpen u snel integratiekwesties, latentieknelpunten, of het vertragen/het begrenzen identificeren die levering kunnen beïnvloeden.
 
-De pagina met de rapportage van de aangepaste actie werkt net als andere All-time rapporten in Journey Optimizer. Voor details op dashboardfunctionaliteit, verwijs naar [ deze documentatie ](../reports/report-cja-manage.md).
+De pagina met de rapportage van de aangepaste actie werkt net als andere All-time rapporten in Journey Optimizer. Voor details op dashboardfunctionaliteit, verwijs naar [&#x200B; deze documentatie &#x200B;](../reports/report-cja-manage.md).
 
 Als u de **[!UICONTROL Custom action]** -rapportpagina wilt openen, klikt u op ![](assets/do-not-localize/Smock_Monitoring_18_N.svg) vanaf de **[!UICONTROL Actions]** -startpagina.
 
 ![](assets/monitor-1.png)
 
-➡️ [ Leer meer op hoe te om u de acties van de Douane te vormen ](../action/about-custom-action-configuration.md)
+➡️ [&#x200B; Leer meer op hoe te om u de acties van de Douane te vormen &#x200B;](../action/about-custom-action-configuration.md)
 
 ## KPI&#39;s {#kpis}
 
@@ -66,7 +66,7 @@ De **[!UICONTROL Calls overtime]** grafiek toont de HTTP vraagKPI trend over de 
 * Als u een tijdbereik van 1 dag selecteert, worden de KPI&#39;s per uur weergegeven in de grafiek.
 * Als u een tijdbereik van 1 uur selecteert, worden in de grafiek de PKI&#39;s per minuut weergegeven.
 
-➡️[ zie de sectie KPIs voor een beschrijving van de metriek van de vraag van HTTP ](#kpis)
+➡️[&#x200B; zie de sectie KPIs voor een beschrijving van de metriek van de vraag van HTTP &#x200B;](#kpis)
 
 ## Uitsplitsing naar oproep {#breakdown}
 
@@ -74,6 +74,6 @@ De **[!UICONTROL Calls overtime]** grafiek toont de HTTP vraagKPI trend over de 
 
 De **[!UICONTROL Calls breakdown]** lijst verstrekt een hiërarchische verdeling van de metriek van de vraag van HTTP, van de algemene metriek per eindpunt op het hoogste niveau aan de metriek per Actie van de Douane die elk eindpunt tot de reizen gebruikt die op hen op het bodemniveau baseren.
 
-➡️[ zie de sectie KPIs voor een beschrijving van de metriek van de vraag van HTTP ](#kpis)
+➡️[&#x200B; zie de sectie KPIs voor een beschrijving van de metriek van de vraag van HTTP &#x200B;](#kpis)
 
 
