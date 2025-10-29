@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ddbab603e4ac612a49a3853fcac428950def1d98
+source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
 workflow-type: tm+mt
-source-wordcount: '3006'
+source-wordcount: '3010'
 ht-degree: 18%
 
 ---
@@ -886,7 +886,7 @@ ht-degree: 18%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
@@ -945,6 +945,7 @@ ht-degree: 18%
       + [Aan de slag met aangepaste handelingen](using/action/action.md)
       + [Een aangepaste handeling configureren](using/action/about-custom-action-configuration.md)
       + [API-aanroepreacties gebruiken in aangepaste handelingen](using/action/action-response.md)
+      + [Aangepaste acties controleren](using/action/reporting.md)
 + Sluit uw systemen en omgevingen aan {#connect-systems}
    + [Sluit uw systemen en omgevingen aan](/help/rp_landing_pages/connect-systems-landing-page.md)
    + [Integreren met andere oplossingen](using/integrations/ajo-integrations.md)

@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 3%
+source-wordcount: '663'
+ht-degree: 2%
 
 ---
 
@@ -56,8 +56,6 @@ Het `actionExecutionTime` gebied vertegenwoordigt de totale tijd (in millisecond
 Het veld `Timestamp` geeft de eindtijd van de uitvoering van de handeling aan. Wanneer u wilt bepalen wanneer het profiel het aangepaste actieknooppunt heeft ingevoerd, trekt u `actionExecutionTime` van `Timestamp` af.
 
 Bijvoorbeeld als `Timestamp` &quot;2025-02-04 09 :39: 03 UTC&quot;is en `actionExecutionTime` 1.813.227 ms (~31 minuten) is, ging het profiel de knoop bij ongeveer &quot;2025-02-04 09 :08: 32 UTC&quot;binnen.
-
-
 
 
 ## actionExecutionError {#actionexecutionerror-field}
@@ -106,6 +104,56 @@ Type: tekenreeks
 Foutcode van de actionExecOrigError.
 
 Type: tekenreeks
+
+## actionOriginEndpoint {#actionoriginendpoint}
+
+URI van het eindpunt van de douaneactie dat in de actie wordt gebruikt.
+
+Type: tekenreeks
+
+## actionOriginMethod {#actionoriginmethod}
+
+Hier wordt de methode beschreven die in de HTTP-aanvraag (GET of POST) wordt gebruikt.
+
+Type: tekenreeks
+
+## actionOriginIsMTLS {#actionoriginismtls}
+
+Dit beschrijft of MTLS voor het eindpunt wordt toegelaten.
+
+Type: boolean
+
+## actionIsProxy {#actionisproxy}
+
+Dit beschrijft of een volmacht van HTTP met bepaalde IP adreswaaier voor de vraag wordt gebruikt.
+
+Type: boolean
+
+## actionExecutionOriginStartTime {#actionexecutionoriginstarttime}
+
+Dit beschrijft de timestamp waarop de HTTP- aanvraag in werking wordt gesteld. In het geval van een nieuwe poging is dit de tijdstempel waarop de uiteindelijke poging opnieuw wordt uitgevoerd. De tijdstempel gebruikt de ISO8601-indeling in UTC-tijdzone.
+
+Merk op dat dit timestamp typisch lichtjes zal zijn nadat het profiel de knoop van de douaneactie ingaat, of beduidend nadat het de knoop in het geval van throttling ingaat.
+
+Type: tijdstempel
+
+## actionExecutionOriginTime {#actionexecutionorigintime}
+
+Dit beschrijft de reactietijd van de vraag van HTTP. In het geval van een nieuwe poging is dit de tijd die de uiteindelijke poging om opnieuw te proberen neemt. Het meet de tijd van wanneer het HTTP- verzoek in werking wordt gesteld aan wanneer de volledige reactie van de server is teruggekeerd. Merk op dat dit om het even welke tijd die in de rij in het geval van vertraging wordt doorgebracht uitsluit.
+
+Type: lang
+
+## actionIsThrottled {#actionisthrottled}
+
+Dit beschrijft of de throttling voor het eindpunt wordt toegelaten.
+
+Type: boolean
+
+## actionWaitTime {#actionwaittime}
+
+Dit beschrijft wanneer de gevormde tariefgrens voor een vertraagd eindpunt wordt geraakt, worden de vraag een rij gevormd en verwerkt bij het gevormde tarief. Dit gebied rapporteert de hoeveelheid tijd de vraag besteed wachtend in de rij alvorens wordt uitgevoerd. Alleen opgegeven als actionIsThrottled == true.
+
+Type: lang
 
 ## actionBusinessType {#actionbusinesstype-field}
 

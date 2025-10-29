@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1698'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Zorg ervoor dat de gebieden die in uw vragen worden gebruikt waarden in het over
 
 >[!NOTE]
 >
->Voor het oplossen van problemendoeleinden, adviseren wij gebruikend tripVersionID in plaats van tripVersionName wanneer het vragen van reizen. Leer meer over de attributen van de reiseigenschappen [&#x200B; in deze sectie &#x200B;](../building-journeys/expression/journey-properties.md#journey-properties-fields).
+>Voor het oplossen van problemendoeleinden, adviseren wij gebruikend tripVersionID in plaats van tripVersionName wanneer het vragen van reizen. Leer meer over de attributen van de reiseigenschappen [ in deze sectie ](../building-journeys/expression/journey-properties.md#journey-properties-fields).
 
 ## Basis gebruiksgevallen/gemeenschappelijke vragen {#common-queries}
 
@@ -47,7 +47,7 @@ AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 +++
 
@@ -476,7 +476,7 @@ ORDER BY DATE(timestamp) desc
 
 De vraag keert, voor de bepaalde periode, het aantal profielen terug dat de reis elke dag inging. Als een profiel wordt ingevoerd via meerdere identiteiten, wordt het twee keer geteld. Als de terugkeer wordt toegelaten, zou het profielaantal over verschillende dagen kunnen worden gedupliceerd als het de reis op verschillende dag opnieuw inging.
 
-Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 
 +++
@@ -974,7 +974,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
-Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 +++
 
@@ -1004,7 +1004,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 +++
 
@@ -1026,7 +1026,7 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
 
-Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 +++
 
@@ -1054,7 +1054,7 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
 ```
 
-Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 +++
 
@@ -1320,3 +1320,392 @@ ORDER BY
 ```
 
 +++
+
+## Zoekopdrachten die betrekking hebben op prestatiewaarden van aangepaste handelingen {#query-custom-action}
+
++++ Het totale aantal succesvolle vraag, fouten en verzoeken per seconde van elk eindpunt over een specifieke tijdspanne
+
+_Vraag van het meer van Gegevens_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.stepEvents.actionOriginEndpoint AS ENDPOINT,
+    COUNT(1) AS TOTAL_CALLS,
+    COUNT(CASE WHEN _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL THEN 1 END) AS SUCCESSFUL_CALLS,
+    COUNT(CASE WHEN _experience.journeyOrchestration.stepEvents.actionExecutionError = 'http' AND
+                    _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode LIKE '4%' THEN 1 END) AS "4xx_ERRORS",
+    COUNT(CASE WHEN _experience.journeyOrchestration.stepEvents.actionExecutionError = 'http' AND
+                    _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode LIKE '5%' THEN 1 END) AS "5xx_ERRORS",
+    COUNT(CASE WHEN _experience.journeyOrchestration.stepEvents.actionExecutionError = 'timedout' THEN 1 END) AS TIMEOUTS,
+    COUNT(CASE WHEN _experience.journeyOrchestration.stepEvents.actionExecutionError = 'capped' THEN 1 END) AS CAPPED_CALLS,
+    ROUND(COUNT(_experience.journeyOrchestration.stepEvents.actionExecutionOriginStartTime) / 
+        COUNT(DISTINCT DATE_TRUNC('second', _experience.journeyOrchestration.stepEvents.actionExecutionOriginStartTime)), 0) AS THROUGHPUT_RPS
+FROM 
+    journey_step_events
+WHERE 
+    _experience.journeyOrchestration.stepEvents.actionType = 'customHttpAction' AND
+    _experience.journeyOrchestration.stepEvents.actionOriginEndpoint IS NOT NULL AND
+    (<actionExecutionOriginStartTime filter> OR
+        (_experience.journeyOrchestration.stepEvents.actionExecutionError = 'capped' AND <timestamp filter>))
+GROUP BY 
+    ENDPOINT
+ORDER BY
+    ENDPOINT;
+```
+
+_Voorbeeld_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.stepEvents.actionOriginEndpoint AS ENDPOINT,
+    COUNT(1) AS TOTAL_CALLS,
+    COUNT(CASE WHEN _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL THEN 1 END) AS SUCCESSFUL_CALLS,
+    COUNT(CASE WHEN _experience.journeyOrchestration.stepEvents.actionExecutionError = 'http' AND
+                    _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode LIKE '4%' THEN 1 END) AS "4xx_ERRORS",
+    COUNT(CASE WHEN _experience.journeyOrchestration.stepEvents.actionExecutionError = 'http' AND
+                    _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode LIKE '5%' THEN 1 END) AS "5xx_ERRORS",
+    COUNT(CASE WHEN _experience.journeyOrchestration.stepEvents.actionExecutionError = 'timedout' THEN 1 END) AS TIMEOUTS,
+    COUNT(CASE WHEN _experience.journeyOrchestration.stepEvents.actionExecutionError = 'capped' THEN 1 END) AS CAPPED_CALLS,
+    ROUND(COUNT(_experience.journeyOrchestration.stepEvents.actionExecutionOriginStartTime) / 
+        COUNT(DISTINCT DATE_TRUNC('second', _experience.journeyOrchestration.stepEvents.actionExecutionOriginStartTime)), 0) AS THROUGHPUT_RPS
+FROM 
+    journey_step_events
+WHERE 
+    _experience.journeyOrchestration.stepEvents.actionType = 'customHttpAction' AND
+    _experience.journeyOrchestration.stepEvents.actionOriginEndpoint IS NOT NULL AND
+    (_experience.journeyOrchestration.stepEvents.actionExecutionOriginStartTime > (now() - interval '1' day) OR
+        (_experience.journeyOrchestration.stepEvents.actionExecutionError = 'capped' AND timestamp > (now() - interval '1' day)))
+GROUP BY 
+    ENDPOINT
+ORDER BY
+    ENDPOINT;
+```
+
++++
+
++++ De reeks van de tijd succesvolle vraag, fouten en productie van elk eindpunt over een specifieke tijdspanne
+
+_Vraag van het meer van Gegevens_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.stepEvents.actionOriginEndpoint AS ENDPOINT,
+    DATE_FORMAT(COALESCE(_experience.journeyOrchestration.stepEvents.actionExecutionOriginStartTime, timestamp), 'yyyy/MM/dd HH:mm') AS SPAN,
+    COUNT(1) AS TOTAL_CALLS,
+    COUNT(CASE WHEN _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL THEN 1 END) AS SUCCESSFUL_CALLS,
+    COUNT(CASE WHEN _experience.journeyOrchestration.stepEvents.actionExecutionError = 'http' AND
+                    _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode LIKE '4%' THEN 1 END) AS "4xx_ERRORS",
+    COUNT(CASE WHEN _experience.journeyOrchestration.stepEvents.actionExecutionError = 'http' AND
+                    _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode LIKE '5%' THEN 1 END) AS "5xx_ERRORS",
+    COUNT(CASE WHEN _experience.journeyOrchestration.stepEvents.actionExecutionError = 'timedout' THEN 1 END) AS TIMEOUTS,
+    COUNT(CASE WHEN _experience.journeyOrchestration.stepEvents.actionExecutionError = 'capped' THEN 1 END) AS CAPPED_CALLS,
+    ROUND(COUNT(_experience.journeyOrchestration.stepEvents.actionExecutionOriginStartTime) / 
+        COUNT(DISTINCT DATE_TRUNC('second', _experience.journeyOrchestration.stepEvents.actionExecutionOriginStartTime)), 0) AS THROUGHPUT_RPS
+FROM 
+    journey_step_events
+WHERE 
+    _experience.journeyOrchestration.stepEvents.actionType = 'customHttpAction' AND
+    _experience.journeyOrchestration.stepEvents.actionOriginEndpoint IS NOT NULL AND
+    (<actionExecutionOriginStartTime filter> OR
+        (_experience.journeyOrchestration.stepEvents.actionExecutionError = 'capped' AND
+           <timestamp filter>))
+GROUP BY 
+    ENDPOINT, SPAN
+ORDER BY
+    ENDPOINT,
+    SPAN;
+```
+
+_Voorbeeld_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.stepEvents.actionOriginEndpoint AS ENDPOINT,
+    DATE_FORMAT(COALESCE(_experience.journeyOrchestration.stepEvents.actionExecutionOriginStartTime, timestamp), 'yyyy/MM/dd HH:mm') AS SPAN,
+    COUNT(1) AS TOTAL_CALLS,
+    COUNT(CASE WHEN _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL THEN 1 END) AS SUCCESSFUL_CALLS,
+    COUNT(CASE WHEN _experience.journeyOrchestration.stepEvents.actionExecutionError = 'http' AND
+                    _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode LIKE '4%' THEN 1 END) AS "4xx_ERRORS",
+    COUNT(CASE WHEN _experience.journeyOrchestration.stepEvents.actionExecutionError = 'http' AND
+                    _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode LIKE '5%' THEN 1 END) AS "5xx_ERRORS",
+    COUNT(CASE WHEN _experience.journeyOrchestration.stepEvents.actionExecutionError = 'timedout' THEN 1 END) AS TIMEOUTS,
+    COUNT(CASE WHEN _experience.journeyOrchestration.stepEvents.actionExecutionError = 'capped' THEN 1 END) AS CAPPED_CALLS,
+    ROUND(COUNT(_experience.journeyOrchestration.stepEvents.actionExecutionOriginStartTime) / 
+        COUNT(DISTINCT DATE_TRUNC('second', _experience.journeyOrchestration.stepEvents.actionExecutionOriginStartTime)), 0) AS THROUGHPUT_RPS
+FROM 
+    journey_step_events
+WHERE 
+    _experience.journeyOrchestration.stepEvents.actionType = 'customHttpAction' AND
+    _experience.journeyOrchestration.stepEvents.actionOriginEndpoint IS NOT NULL AND
+    (_experience.journeyOrchestration.stepEvents.actionExecutionOriginStartTime > (now() - interval '1' day) OR
+        (_experience.journeyOrchestration.stepEvents.actionExecutionError = 'capped' AND
+           timestamp > (now() - interval '1' day)))
+GROUP BY 
+    ENDPOINT, SPAN
+ORDER BY
+    ENDPOINT,
+    SPAN;
+```
+
++++
+
++++Responslatentie van elk eindpunt op 50e, 95e, 99e en 99,9e percentiel over een specifieke periode
+
+_Vraag van het meer van Gegevens_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.stepEvents.actionOriginEndpoint AS ENDPOINT,
+    COUNT(1) AS SUCCESSFUL_CALLS,
+    ROUND(PERCENTILE_CONT(0.50) WITHIN GROUP (ORDER BY _experience.journeyOrchestration.stepEvents.actionExecutionOriginTime),0) AS P50_LATENCY_MS,
+    ROUND(PERCENTILE_CONT(0.95) WITHIN GROUP (ORDER BY _experience.journeyOrchestration.stepEvents.actionExecutionOriginTime),0) AS P95_LATENCY_MS,
+    ROUND(PERCENTILE_CONT(0.99) WITHIN GROUP (ORDER BY _experience.journeyOrchestration.stepEvents.actionExecutionOriginTime),0) AS P99_LATENCY_MS,
+    ROUND(PERCENTILE_CONT(0.999) WITHIN GROUP (ORDER BY _experience.journeyOrchestration.stepEvents.actionExecutionOriginTime),0) AS P999_LATENCY_MS
+FROM 
+    journey_step_events
+WHERE 
+    _experience.journeyOrchestration.stepEvents.actionType = 'customHttpAction' AND
+    _experience.journeyOrchestration.stepEvents.actionOriginEndpoint IS NOT NULL AND
+    _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
+    _experience.journeyOrchestration.stepEvents.actionExecutionOriginTime IS NOT NULL
+    <actionExecutionOriginStartTime filter>
+GROUP BY 
+    ENDPOINT
+ORDER BY
+    ENDPOINT;
+```
+
+_Voorbeeld_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.stepEvents.actionOriginEndpoint AS ENDPOINT,
+    COUNT(1) AS SUCCESSFUL_CALLS,
+    ROUND(PERCENTILE_CONT(0.50) WITHIN GROUP (ORDER BY _experience.journeyOrchestration.stepEvents.actionExecutionOriginTime),0) AS P50_LATENCY_MS,
+    ROUND(PERCENTILE_CONT(0.95) WITHIN GROUP (ORDER BY _experience.journeyOrchestration.stepEvents.actionExecutionOriginTime),0) AS P95_LATENCY_MS,
+    ROUND(PERCENTILE_CONT(0.99) WITHIN GROUP (ORDER BY _experience.journeyOrchestration.stepEvents.actionExecutionOriginTime),0) AS P99_LATENCY_MS,
+    ROUND(PERCENTILE_CONT(0.999) WITHIN GROUP (ORDER BY _experience.journeyOrchestration.stepEvents.actionExecutionOriginTime),0) AS P999_LATENCY_MS
+FROM 
+    journey_step_events
+WHERE 
+    _experience.journeyOrchestration.stepEvents.actionType = 'customHttpAction' AND
+    _experience.journeyOrchestration.stepEvents.actionOriginEndpoint IS NOT NULL AND
+    _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
+    _experience.journeyOrchestration.stepEvents.actionExecutionOriginTime IS NOT NULL AND
+    _experience.journeyOrchestration.stepEvents.actionExecutionOriginStartTime > (now() - interval '1' day)
+GROUP BY 
+    ENDPOINT
+ORDER BY
+    ENDPOINT;
+```
+
++++
+
++++De tijdreeks van de percentielen van de reactievertraging van elk eindpunt over een specifieke tijdspanne
+
+_Vraag van het meer van Gegevens_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.stepEvents.actionOriginEndpoint AS ENDPOINT,    
+    COUNT(1) AS SUCCESSFUL_CALLS,
+    DATE_FORMAT(_experience.journeyOrchestration.stepEvents.actionExecutionOriginStartTime, 'yyyy/MM/dd HH:mm') AS SPAN,
+    ROUND(PERCENTILE_CONT(0.50) WITHIN GROUP (ORDER BY _experience.journeyOrchestration.stepEvents.actionExecutionOriginTime),0) AS P50_LATENCY_MS,
+    ROUND(PERCENTILE_CONT(0.95) WITHIN GROUP (ORDER BY _experience.journeyOrchestration.stepEvents.actionExecutionOriginTime),0) AS P95_LATENCY_MS,
+    ROUND(PERCENTILE_CONT(0.99) WITHIN GROUP (ORDER BY _experience.journeyOrchestration.stepEvents.actionExecutionOriginTime),0) AS P99_LATENCY_MS,
+    ROUND(PERCENTILE_CONT(0.999) WITHIN GROUP (ORDER BY _experience.journeyOrchestration.stepEvents.actionExecutionOriginTime),0) AS P999_LATENCY_MS
+FROM 
+    journey_step_events
+WHERE 
+    _experience.journeyOrchestration.stepEvents.actionType = 'customHttpAction' AND
+    _experience.journeyOrchestration.stepEvents.actionOriginEndpoint IS NOT NULL AND
+    _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
+    _experience.journeyOrchestration.stepEvents.actionExecutionOriginTime IS NOT NULL
+    <actionExecutionOriginStartTime filter>
+GROUP BY 
+    ENDPOINT,
+    SPAN
+ORDER BY
+    ENDPOINT,
+    SPAN;
+```
+
+_Voorbeeld_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.stepEvents.actionOriginEndpoint AS ENDPOINT,    
+    COUNT(1) AS SUCCESSFUL_CALLS,
+    DATE_FORMAT(_experience.journeyOrchestration.stepEvents.actionExecutionOriginStartTime, 'yyyy/MM/dd HH:mm') AS SPAN,
+    ROUND(PERCENTILE_CONT(0.50) WITHIN GROUP (ORDER BY _experience.journeyOrchestration.stepEvents.actionExecutionOriginTime),0) AS P50_LATENCY_MS,
+    ROUND(PERCENTILE_CONT(0.95) WITHIN GROUP (ORDER BY _experience.journeyOrchestration.stepEvents.actionExecutionOriginTime),0) AS P95_LATENCY_MS,
+    ROUND(PERCENTILE_CONT(0.99) WITHIN GROUP (ORDER BY _experience.journeyOrchestration.stepEvents.actionExecutionOriginTime),0) AS P99_LATENCY_MS,
+    ROUND(PERCENTILE_CONT(0.999) WITHIN GROUP (ORDER BY _experience.journeyOrchestration.stepEvents.actionExecutionOriginTime),0) AS P999_LATENCY_MS
+FROM 
+    journey_step_events
+WHERE 
+    _experience.journeyOrchestration.stepEvents.actionType = 'customHttpAction' AND
+    _experience.journeyOrchestration.stepEvents.actionOriginEndpoint IS NOT NULL AND
+    _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
+    _experience.journeyOrchestration.stepEvents.actionExecutionOriginTime IS NOT NULL AND
+    _experience.journeyOrchestration.stepEvents.actionExecutionOriginStartTime > (now() - interval '1' day)
+GROUP BY 
+    ENDPOINT,
+    SPAN
+ORDER BY
+    ENDPOINT,
+    SPAN;
+```
+
++++
+
++++ Wachttijd in wachtrij op vertraagde eindpunten op 50e en 95e percentiel over een specifieke tijdsperiode
+
+_Vraag van het meer van Gegevens_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.stepEvents.actionOriginEndpoint AS ENDPOINT,
+    COUNT(1) AS THROTTLED_CALLS,
+    ROUND(PERCENTILE_CONT(0.50) WITHIN GROUP (ORDER BY _experience.journeyOrchestration.stepEvents.actionWaitTime),0) AS P50_QUEUE_TIME_MS,
+    ROUND(PERCENTILE_CONT(0.95) WITHIN GROUP (ORDER BY _experience.journeyOrchestration.stepEvents.actionWaitTime),0) AS P95_QUEUE_TIME_MS
+FROM 
+    journey_step_events
+WHERE 
+    _experience.journeyOrchestration.stepEvents.actionType = 'customHttpAction' AND
+    _experience.journeyOrchestration.stepEvents.actionOriginEndpoint IS NOT NULL AND
+    _experience.journeyOrchestration.stepEvents.actionIsThrottled = 'true' AND
+    _experience.journeyOrchestration.stepEvents.actionWaitTime IS NOT NULL AND
+    <actionExecutionOriginStartTime filter>
+GROUP BY 
+    ENDPOINT
+ORDER BY
+    ENDPOINT;
+```
+
+_Voorbeeld_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.stepEvents.actionOriginEndpoint AS ENDPOINT,
+    COUNT(1) AS THROTTLED_CALLS,
+    ROUND(PERCENTILE_CONT(0.50) WITHIN GROUP (ORDER BY _experience.journeyOrchestration.stepEvents.actionWaitTime),0) AS P50_QUEUE_TIME_MS,
+    ROUND(PERCENTILE_CONT(0.95) WITHIN GROUP (ORDER BY _experience.journeyOrchestration.stepEvents.actionWaitTime),0) AS P95_QUEUE_TIME_MS
+FROM 
+    journey_step_events
+WHERE 
+    _experience.journeyOrchestration.stepEvents.actionType = 'customHttpAction' AND
+    _experience.journeyOrchestration.stepEvents.actionOriginEndpoint IS NOT NULL AND
+    _experience.journeyOrchestration.stepEvents.actionIsThrottled = 'true' AND
+    _experience.journeyOrchestration.stepEvents.actionWaitTime IS NOT NULL AND
+    _experience.journeyOrchestration.stepEvents.actionExecutionOriginStartTime > (now() - interval '1' day)
+GROUP BY 
+    ENDPOINT
+ORDER BY
+    ENDPOINT;
+```
+
++++
+
++++ De reeks van de rij wachttijdpercentielen voor elk vertraagd eindpunt
+
+_Vraag van het meer van Gegevens_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.stepEvents.actionOriginEndpoint AS ENDPOINT,
+    DATE_FORMAT(_experience.journeyOrchestration.stepEvents.actionExecutionOriginStartTime, 'yyyy/MM/dd HH:mm') AS SPAN,
+    COUNT(1) AS THROTTLED_CALLS,
+    ROUND(PERCENTILE_CONT(0.50) WITHIN GROUP (ORDER BY _experience.journeyOrchestration.stepEvents.actionWaitTime),0) AS P50_QUEUE_TIME_MS,
+    ROUND(PERCENTILE_CONT(0.95) WITHIN GROUP (ORDER BY _experience.journeyOrchestration.stepEvents.actionWaitTime),0) AS P95_QUEUE_TIME_MS
+FROM 
+    journey_step_events
+WHERE 
+    _experience.journeyOrchestration.stepEvents.actionType = 'customHttpAction' AND
+    _experience.journeyOrchestration.stepEvents.actionOriginEndpoint IS NOT NULL AND
+    _experience.journeyOrchestration.stepEvents.actionIsThrottled = 'true' AND
+    _experience.journeyOrchestration.stepEvents.actionWaitTime IS NOT NULL AND
+    <actionExecutionOriginStartTime filter>
+GROUP BY 
+    ENDPOINT,
+    SPAN
+ORDER BY
+    ENDPOINT,
+    SPAN;
+```
+
+_Voorbeeld_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.stepEvents.actionOriginEndpoint AS ENDPOINT,
+    DATE_FORMAT(_experience.journeyOrchestration.stepEvents.actionExecutionOriginStartTime, 'yyyy/MM/dd HH:mm') AS SPAN,
+    COUNT(1) AS THROTTLED_CALLS,
+    ROUND(PERCENTILE_CONT(0.50) WITHIN GROUP (ORDER BY _experience.journeyOrchestration.stepEvents.actionWaitTime),0) AS P50_QUEUE_TIME_MS,
+    ROUND(PERCENTILE_CONT(0.95) WITHIN GROUP (ORDER BY _experience.journeyOrchestration.stepEvents.actionWaitTime),0) AS P95_QUEUE_TIME_MS
+FROM 
+    journey_step_events
+WHERE 
+    _experience.journeyOrchestration.stepEvents.actionType = 'customHttpAction' AND
+    _experience.journeyOrchestration.stepEvents.actionOriginEndpoint IS NOT NULL AND
+    _experience.journeyOrchestration.stepEvents.actionIsThrottled = 'true' AND
+    _experience.journeyOrchestration.stepEvents.actionWaitTime IS NOT NULL AND
+    _experience.journeyOrchestration.stepEvents.actionExecutionOriginStartTime > (now() - interval '1' day)
+GROUP BY 
+    ENDPOINT,
+    SPAN
+ORDER BY
+    ENDPOINT,
+    SPAN;
+```
+
++++
+
++++ Aantal fouten door type en code voor een specifiek eindpunt over een specifieke tijdspanne
+
+_Vraag van het meer van Gegevens_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.stepEvents.actionExecutionError AS ERROR_TYPE,
+    _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode AS ERROR_CODE,
+    COUNT(1) AS CALLS,
+    COUNT(CASE WHEN _experience.journeyOrchestration.stepEvents.actionExecutionOriginError IS NOT NULL THEN 1 END) AS CALLS_WITH_RETRY
+FROM 
+    journey_step_events
+WHERE 
+    _experience.journeyOrchestration.stepEvents.actionType = 'customHttpAction' AND
+    _experience.journeyOrchestration.stepEvents.actionOriginEndpoint = '<endpoint URI>' AND
+    _experience.journeyOrchestration.stepEvents.actionExecutionError IS NOT NULL AND
+    (<actionExecutionOriginStartTime filter>) OR
+        (_experience.journeyOrchestration.stepEvents.actionExecutionError = 'capped' AND <timestamp filter>))
+GROUP BY 
+    ERROR_TYPE, ERROR_CODE
+ORDER BY
+    ERROR_TYPE, ERROR_CODE;
+```
+
+_Voorbeeld_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.stepEvents.actionExecutionError AS ERROR_TYPE,
+    _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode AS ERROR_CODE,
+    COUNT(1) AS CALLS,
+    COUNT(CASE WHEN _experience.journeyOrchestration.stepEvents.actionExecutionOriginError IS NOT NULL THEN 1 END) AS CALLS_WITH_RETRY
+FROM 
+    journey_step_events
+WHERE 
+    _experience.journeyOrchestration.stepEvents.actionType = 'customHttpAction' AND
+    _experience.journeyOrchestration.stepEvents.actionOriginEndpoint = 'https://example.com/my/endpoint' AND
+    _experience.journeyOrchestration.stepEvents.actionExecutionError IS NOT NULL AND
+    (_experience.journeyOrchestration.stepEvents.actionExecutionOriginStartTime > (now() - interval '1' day) OR
+        (_experience.journeyOrchestration.stepEvents.actionExecutionError = 'capped' AND timestamp > (now() - interval '1' day)))
+GROUP BY 
+    ERROR_TYPE, ERROR_CODE
+ORDER BY
+    ERROR_TYPE, ERROR_CODE;
+```
+
++++
+
