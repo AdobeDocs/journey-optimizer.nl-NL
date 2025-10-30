@@ -21,6 +21,7 @@ U moet slechts dit **eens** per bewaarplaats doen.
    ```
    @setup-agents
    ```
+
 3. De agent zal automatisch:
    - Toegang tot SSH en HTTPS testen
    - De werkmethode gebruiken
@@ -73,7 +74,7 @@ Na installatie kunt u agenten in Cursor gebruiken:
 @fix-grammar     # Fix grammar in current file
 ```
 
-Zie [ AGENTS.md ](AGENTS.md) voor volledige lijst van beschikbare agenten.
+Zie [&#x200B; AGENTS.md &#x200B;](AGENTS.md) voor volledige lijst van beschikbare agenten.
 
 ## Bijwerken van agents
 
@@ -176,6 +177,6 @@ Wijzigingen in agenten moeten worden aangebracht in:
 
 Alle repositories ontvangen updates via `git submodule update --remote` .
 
----
+&#x200B;---
 
 **Hulp nodig?** Neem contact op met de leider van het documentatieteam of controleer de interne wiki.
