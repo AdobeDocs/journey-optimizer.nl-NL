@@ -1,8 +1,8 @@
 ---
-source-git-commit: 80d5f294491b35dcdbfe4976cb3ec4cf14384858
+source-git-commit: 505810d58d7db1682cc434b0df6d1ec5f5edd23e
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 1%
+source-wordcount: '293'
+ht-degree: 0%
 
 ---
 # 🚀 Cursoragents installeren
@@ -21,9 +21,13 @@ U moet slechts dit **eens** per bewaarplaats doen.
    ```
    @setup-agents
    ```
-
-3. Volg de aanwijzingen
+3. De agent zal automatisch:
+   - Toegang tot SSH en HTTPS testen
+   - De werkmethode gebruiken
+   - Volg zo nodig de instructies
 4. Gereed! ✨
+
+**Nota:** de agent ontdekt automatisch als u SSH of HTTPS toegang tot `git.corp.adobe.com` hebt en gebruikt de aangewezen methode. Als geen van beide werkt, is er een instructies-instelling beschikbaar.
 
 ### Optie 2: Terminal gebruiken
 
@@ -34,7 +38,12 @@ U moet slechts dit **eens** per bewaarplaats doen.
    ./setup-agents.sh
    ```
 
-   Of handmatig:
+   Het script wordt automatisch uitgevoerd:
+   - Toegang tot SSH en HTTPS testen
+   - De werkmethode gebruiken
+   - Indien nodig installatie-instructies tonen
+
+   Of handmatig (als u weet dat uw it is geconfigureerd):
 
    ```bash
    git submodule update --init --recursive
@@ -64,7 +73,7 @@ Na installatie kunt u agenten in Cursor gebruiken:
 @fix-grammar     # Fix grammar in current file
 ```
 
-Zie `.cursor-agents/AGENTS.md` voor een volledige lijst met beschikbare agents.
+Zie [ AGENTS.md ](AGENTS.md) voor volledige lijst van beschikbare agenten.
 
 ## Bijwerken van agents
 
@@ -123,15 +132,14 @@ chmod +x setup-agents.sh
 De Agenten van de curseur worden verdeeld als submodule van de a **it**:
 
 ```
-journey-optimizer.en/
+your-repo/
   ├── .cursor-agents/          ← Git submodule
   │   ├── agents/
   │   │   ├── draft-page-generator.md
   │   │   └── fix-grammar.md
   │   └── AGENTS.md
   ├── setup-agents.sh          ← Setup script
-  ├── setup-agent.md           ← Bootstrap agent
-  └── help/                    ← Your documentation
+  └── your-content/
 ```
 
 De submodule verwijst naar:
@@ -139,5 +147,35 @@ De submodule verwijst naar:
 
 Dit verzekert iedereen het zelfde, bijgewerkte agenten gebruikt.
 
-**Hulp nodig?** Neem contact op met de leider van het documentatieteam of controleer de interne wiki.
+## Voor onderhoudspersoneel
 
+### Toevoegen aan een nieuwe opslagplaats
+
+1. Voeg de submodule toe:
+
+   ```bash
+   git submodule add https://git.corp.adobe.com/AdobeDocs/CursorAgents.git .cursor-agents
+   ```
+
+2. Installatiebestanden kopiëren:
+   - `setup-agents.sh`
+   - `setup-agent.md` (plaatsen in hoofdmap, niet in submodule)
+   - `INSTALL.md`
+
+3. Vastleggen:
+
+   ```bash
+   git add .gitmodules .cursor-agents setup-agents.sh
+   git commit -m "Add Cursor Agents submodule"
+   ```
+
+### De centrale gegevensbank bijwerken
+
+Wijzigingen in agenten moeten worden aangebracht in:
+**https://git.corp.adobe.com/AdobeDocs/CursorAgents**
+
+Alle repositories ontvangen updates via `git submodule update --remote` .
+
+---
+
+**Hulp nodig?** Neem contact op met de leider van het documentatieteam of controleer de interne wiki.
