@@ -5,9 +5,9 @@ title: AI-mogelijkheden in Adobe Journey Optimizer
 description: AI-mogelijkheden in Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 7db2932d6f4c6455cc323103c89e6d673d50efd0
+source-git-commit: f3c1cfcbc2a76b698399de70493d3fd5136f11d5
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Adobe Journey Optimizer maakt gebruik van de kracht van kunstmatige intelligenti
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI Assistant voor het genereren van inhoud
 
@@ -30,7 +30,7 @@ Gebruik generatieve AI om inhoud te maken en aan te passen op e-mails, SMS, push
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Send-Time optimalisatie
 
@@ -40,7 +40,7 @@ Gebruik AI om de optimale tijd te voorspellen om berichten te verzenden en klant
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 AI-modellen voor besluitvorming
 
@@ -50,7 +50,7 @@ Creeer auto-optimalisering en gepersonaliseerde optimalisatiemodellen om de best
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Productkennis voor AI Assistant
 
@@ -60,7 +60,7 @@ Ontvang onmiddellijke antwoorden en operationele inzichten over Adobe Journey Op
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Experimenteer met inhoud met AI
 
@@ -70,7 +70,7 @@ Genereer meerdere inhoudvariaties en voer experimenten uit om de best presterend
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 AI-integratie van klant
 
@@ -80,7 +80,7 @@ Integreer met de Intelligente Diensten van Adobe om klantengedrag te voorspellen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Scorebord voor uitlijning van merk
 
@@ -90,7 +90,7 @@ Evalueer hoe goed uw door AI gegenereerde inhoud is uitgelijnd op uw merkenricht
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Experimentaccelerator
 
@@ -100,13 +100,13 @@ Versnel het experimenteren met inhoud met door AI gestuurde inzichten en aanbeve
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-API&#39;s met AI-voeding
+Operationele informatie over reizen (Beta)
 
-Via API&#39;s hebt u via programmacode toegang tot de mogelijkheden van Journey Optimizer AI en computers.
+Krijg direct operationele inzichten over uw reizen direct in AI Medewerker gebruikend natuurlijke taalvragen.
 
-[API&#39;s met AI-voeding detecteren](../using/configuration/ajo-apis.md)
+[Meer informatie over Journey Insights](../using/start/ai-assistant.md)
 :::
 
 ::::
@@ -117,10 +117,10 @@ Via API&#39;s hebt u via programmacode toegang tot de mogelijkheden van Journey 
 
 Adobe Experience Cloud AI-agents breiden de AI-mogelijkheden tot buiten Journey Optimizer uit, waardoor interactie in de natuurlijke taal mogelijk is voor complexe marketingtaken:
 
-- **[Reis analyseert Agent &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}** - voer de analyse van de reisreserve uit, ontdek publiek en planningsoverlappingen, en ontvang actioneerbare aanbevelingen om vervoersprestaties te optimaliseren.
-- **[de Agent van de Experimentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - analyseert experimentele resultaten, identificeert het winnen patronen, en ontdekt nieuwe kansen voor het testen over kanalen.
-- **[Audience Agent &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}** - creeer en beheer publiekssegmenten door conversatie AI, analyseer publiekssamenstelling, en optimaliseer segmentatiestrategieën.
-- **[Agent Orchestrator &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}** - coördineer veelvoudige gespecialiseerde agenten om complexe, multi-step marketing uitdagingen efficiënt op te lossen.
+- **[Reis analyseert Agent ](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}** - voer de analyse van de reisreserve uit, ontdek publiek en planningsoverlappingen, en ontvang actioneerbare aanbevelingen om vervoersprestaties te optimaliseren.
+- **[de Agent van de Experimentatie ](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - analyseert experimentele resultaten, identificeert het winnen patronen, en ontdekt nieuwe kansen voor het testen over kanalen.
+- **[Audience Agent ](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}** - creeer en beheer publiekssegmenten door conversatie AI, analyseer publiekssamenstelling, en optimaliseer segmentatiestrategieën.
+- **[Agent Orchestrator ](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}** - coördineer veelvoudige gespecialiseerde agenten om complexe, multi-step marketing uitdagingen efficiënt op te lossen.
 
 ## Veelgestelde vragen
 
@@ -206,7 +206,7 @@ AI Medewerker voor inhoudsgeneratie is beschikbaar voor **E-mail**, **duw**, **S
 
 AI-agents zijn gespecialiseerde, op Adobe Experience Platform gebaseerde AI-assistenten die natuurlijke taal gebruiken om complexe marketingtaken te analyseren, te optimaliseren en te beheren. In tegenstelling tot AI Assistant voor het genereren van inhoud, richten AI-agents zich op operationele inzichten, reisanalyse, publieksbeheer en experimenten. Beschikbare agents zijn onder andere Journey Analyze Agent, Experimentation Agent, Audience Agent en Agent Orchestrator.
 
-[&#x200B; leer meer over AI Agenten &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
+[ leer meer over AI Agenten ](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
 
 +++
 
@@ -230,7 +230,7 @@ De agent Reis Analyze helpt u:
 - **identificeer het plannen conflicten** - ontdek timingsconflicten tussen geplande reizen die het zelfde publiek richten.
 - **operationele inzichten van het Oppervlak** - krijg op snel-gebaseerde inzichten zoals &quot;toon me alle levende reizen&quot;of &quot;die het publiek in meer dan X reizen wordt gebruikt.&quot;
 
-[&#x200B; Onderzoek de Agent van de Analyse van de Reis &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}
+[ Onderzoek de Agent van de Analyse van de Reis ](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}
 
 +++
 
@@ -242,7 +242,7 @@ De agent Reis Analyze helpt u:
 
 +++**moet ik met om het even welke termijnen akkoord gaan om eigenschappen van AI te gebruiken?**
 
-Ja, moet u met de [&#x200B; Generatieve AI Richtlijnen van de Gebruiker van Adobe Experience Cloud &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} akkoord gaan alvorens AI Medewerker in Journey Optimizer of AI Agenten in Adobe Experience Cloud te gebruiken. Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie. Daarnaast past Adobe Content Credentials toe op door Firefly gegenereerde activa als onderdeel van haar verplichting tot transparantie bij generatief gebruik van AI.
+Ja, moet u met de [ Generatieve AI Richtlijnen van de Gebruiker van Adobe Experience Cloud ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} akkoord gaan alvorens AI Medewerker in Journey Optimizer of AI Agenten in Adobe Experience Cloud te gebruiken. Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie. Daarnaast past Adobe Content Credentials toe op door Firefly gegenereerde activa als onderdeel van haar verplichting tot transparantie bij generatief gebruik van AI.
 
 +++
 
