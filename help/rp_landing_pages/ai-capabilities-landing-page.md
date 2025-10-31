@@ -20,7 +20,7 @@ Adobe Journey Optimizer maakt gebruik van de kracht van kunstmatige intelligenti
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 AI Assistant voor het genereren van inhoud
 
@@ -30,7 +30,7 @@ Gebruik generatieve AI om inhoud te maken en aan te passen op e-mails, SMS, push
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
 
 Send-Time optimalisatie
 
@@ -40,7 +40,7 @@ Gebruik AI om de optimale tijd te voorspellen om berichten te verzenden en klant
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 AI-modellen voor besluitvorming
 
@@ -50,7 +50,7 @@ Creeer auto-optimalisering en gepersonaliseerde optimalisatiemodellen om de best
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
 
 Productkennis voor AI Assistant
 
@@ -60,7 +60,7 @@ Ontvang onmiddellijke antwoorden en operationele inzichten over Adobe Journey Op
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
 
 Experimenteer met inhoud met AI
 
@@ -70,7 +70,7 @@ Genereer meerdere inhoudvariaties en voer experimenten uit om de best presterend
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
 
 Scorebord voor uitlijning van merk
 
@@ -80,7 +80,7 @@ Evalueer hoe goed uw door AI gegenereerde inhoud is uitgelijnd op uw merkenricht
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 Experimentaccelerator
 
@@ -90,7 +90,7 @@ Versnel het experimenteren met inhoud met door AI gestuurde inzichten en aanbeve
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Afbeelding naar HTML Converter
 
@@ -100,7 +100,7 @@ Transformeer statische afbeeldingsontwerpen in bewerkbare HTML e-mailsjablonen m
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Operationele informatie over reizen (Beta)
 
@@ -117,8 +117,8 @@ Krijg direct operationele inzichten over uw reizen direct in AI Medewerker gebru
 
 Adobe Experience Cloud AI-agents breiden de AI-mogelijkheden tot buiten Journey Optimizer uit, waardoor interactie in de natuurlijke taal mogelijk is voor complexe marketingtaken:
 
-- **[Reis analyseert Agent &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}** - voer de analyse van de reisreserve uit, ontdek publiek en planningsoverlappingen, en ontvang actioneerbare aanbevelingen om vervoersprestaties te optimaliseren.
-- **[de Agent van de Experimentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - analyseert experimentele resultaten, identificeert het winnen patronen, en ontdekt nieuwe kansen voor het testen over kanalen.
+- **[Reis analyseert Agent &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}** - voer de analyse van de reisreserve uit, ontdek publiek en planningsoverlappingen, en ontvang actioneerbare aanbevelingen om vervoersprestaties te optimaliseren.
+- **[de Agent van de Experimentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - analyseert experimentele resultaten, identificeert het winnen patronen, en ontdekt nieuwe kansen voor het testen over kanalen.
 - **[Audience Agent &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}** - creeer en beheer publiekssegmenten door conversatie AI, analyseer publiekssamenstelling, en optimaliseer segmentatiestrategieën.
 - **[Agent Orchestrator &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}** - coördineer veelvoudige gespecialiseerde agenten om complexe, multi-step marketing uitdagingen efficiënt op te lossen.
 
@@ -230,7 +230,7 @@ De agent Reis Analyze helpt u:
 - **identificeer het plannen conflicten** - ontdek timingsconflicten tussen geplande reizen die het zelfde publiek richten.
 - **operationele inzichten van het Oppervlak** - krijg op snel-gebaseerde inzichten zoals &quot;toon me alle levende reizen&quot;of &quot;die het publiek in meer dan X reizen wordt gebruikt.&quot;
 
-[&#x200B; Onderzoek de Agent van de Analyse van de Reis &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}
+[&#x200B; Onderzoek de Agent van de Analyse van de Reis &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}
 
 +++
 
