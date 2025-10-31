@@ -1,5 +1,5 @@
 ---
-source-git-commit: 08eaa7ae974c134ea2e920a1fa854dcf6a971e18
+source-git-commit: 7e2ed972b85255ccd64cd04d306f7de602b41165
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Na installatie kunt u agenten in Cursor gebruiken:
 @fix-grammar     # Fix grammar in current file
 ```
 
-Zie [&#x200B; AGENTS.md &#x200B;](AGENTS.md) voor volledige lijst van beschikbare agenten.
+Zie [ AGENTS.md ](AGENTS.md) voor volledige lijst van beschikbare agenten.
 
 ## Bijwerken van agents
 
@@ -177,6 +177,6 @@ Wijzigingen in agenten moeten worden aangebracht in:
 
 Alle repositories ontvangen updates via `git submodule update --remote` .
 
-&#x200B;---
+---
 
 **Hulp nodig?** Neem contact op met de leider van het documentatieteam of controleer de interne wiki.
