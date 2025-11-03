@@ -10,9 +10,9 @@ level: Intermediate
 keywords: aangepast, algemeen, evenementen, reizen
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '601'
 ht-degree: 1%
 
 ---
@@ -33,9 +33,11 @@ Gebeurtenissen stellen u in staat om uw reizen tijdelijk te activeren en bericht
 
 Voor dit type gebeurtenis kunt u alleen een label en een beschrijving toevoegen. De rest van de configuratie kan niet worden bewerkt. Het werd uitgevoerd door de technische gebruiker. Zie [deze pagina](../event/about-events.md).
 
+Leer meer over gebeurtenisproductie en tarieven van de reisverwerking in [ deze sectie ](entry-management.md#journey-processing-rate).
+
 ![](assets/general-events.png)
 
-Wanneer u een bedrijfsgebeurtenis laat vallen, voegt het automatisch a **Gelezen activiteit van het publiek** toe. Voor meer informatie over bedrijfsgebeurtenissen, verwijs naar [&#x200B; deze sectie &#x200B;](../event/about-events.md)
+Wanneer u een bedrijfsgebeurtenis laat vallen, voegt het automatisch a **Gelezen activiteit van het publiek** toe. Voor meer informatie over bedrijfsgebeurtenissen, verwijs naar [ deze sectie ](../event/about-events.md)
 
 ## Luisteren naar gebeurtenissen tijdens een bepaald tijdstip {#events-specific-time}
 

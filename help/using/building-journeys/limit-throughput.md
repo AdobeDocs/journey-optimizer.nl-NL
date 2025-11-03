@@ -9,9 +9,9 @@ level: Experienced
 keywords: reis, gegevensbronnen, grens, productie, douane, acties
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -30,15 +30,15 @@ Dit kan gebeuren met:
 
 >[!NOTE]
 >
->Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Voor meer informatie over reacties, zie deze [&#x200B; sectie &#x200B;](../action/action-response.md)
+>Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Voor meer informatie over reacties, zie deze [ sectie ](../action/action-response.md)
 
-Als u met externe gegevensbronnen of douaneacties werkt, kunt u uw externe systemen willen beschermen door reisproductie te beperken: tot 5.000 instanties/seconde voor unitaire reizen en tot 20.000 instanties/seconde voor publiek-teweeggebrachte degenen.
+Als u met externe gegevensbronnen of douaneacties werkt, kunt u uw externe systemen willen beschermen door reisproductie te beperken: tot 5.000 instanties/seconde voor unitaire reizen en tot 20.000 instanties/seconde voor publiek-teweeggebrachte degenen. Leer meer over de tarieven van de reisverwerking en productie in [ deze sectie ](entry-management.md#journey-processing-rate).
 
-Voor aangepaste acties zijn vertragingsmogelijkheden beschikbaar op productniveau. Verwijs naar deze [&#x200B; pagina &#x200B;](../configuration/external-systems.md#capping).
+Voor aangepaste acties zijn vertragingsmogelijkheden beschikbaar op productniveau. Verwijs naar deze [ pagina ](../configuration/external-systems.md#capping).
 
 Voor externe gegevensbronnen, kunt u een het begrenzen op eindpuntniveau bepalen om die externe systemen te vermijden overweldigend door Journey Optimizer Capping APIs. Alle resterende aanvragen nadat de limiet is bereikt, worden echter genegeerd. In deze sectie vindt u tijdelijke oplossingen waarmee u de doorvoer kunt optimaliseren.
 
-Voor meer informatie over hoe te met externe systemen te integreren, verwijs naar deze [&#x200B; pagina &#x200B;](../configuration/external-systems.md).
+Voor meer informatie over hoe te met externe systemen te integreren, verwijs naar deze [ pagina ](../configuration/external-systems.md).
 
 ## Implementatie
 
