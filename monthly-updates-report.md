@@ -111,7 +111,7 @@ help/using/start/guardrails.md
 help/using/start/troubleshooting.md
 help/using/whatsapp/whatsapp-configuration.md
 
----
+&#x200B;---
 
 *Rapport dat op 3 November, 2025 wordt geproduceerd*
 *sluit uit: het formatteren van veranderingen, meta-gegevensupdates, lintermoeilijke situaties, de navigatie van TOC updates, en migratieschoonmaakbeurt*
