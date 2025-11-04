@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: bcb7a5e4-440d-4548-b305-c320bafe6ee7
-source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
+source-git-commit: 20faceb1de8523426b288864d400f023c7dfdc6d
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '161'
 ht-degree: 2%
 
 ---
@@ -49,9 +49,18 @@ Het proces voor het maken van inhoud is afhankelijk van het kanaal dat u hebt ge
 <div align="center"><a href="../content-card/create-content-card.md"><strong> kaarten van de Inhoud </strong></a></div></td>
 </tr></table>
 
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td></td>
+<td><a href="../line/get-started-line.md"><img alt="line" src="assets/do-not-localize/line.png"></a>
+<div align="center"><a href="../line/get-started-line.md"><strong> LIJN </strong></a></div></td>
+<td><a href="../whatsapp/get-started-whatsapp.md"><img alt="web" src="assets/do-not-localize/whatsapp.png"></a>
+<div align="center"><a href="../whatsapp/get-started-whatsapp.md"><strong> WhatsApp </strong></a></div></td>
+<td></td>
+</tr></table>
+
 ## Inhoud testen en controleren
 
-Zodra de inhoud is gedefinieerd, gebruikt u de knop **[!UICONTROL Simulate content]** om een voorvertoning van uw inhoud weer te geven en deze te testen met testprofielen of voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [&#x200B; Leer hoe te om inhoud &#x200B;](../content-management/preview-test.md) voor te vertonen en te testen
+Zodra de inhoud is gedefinieerd, gebruikt u de knop **[!UICONTROL Simulate content]** om een voorvertoning van uw inhoud weer te geven en deze te testen met testprofielen of voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [ Leer hoe te om inhoud ](../content-management/preview-test.md) voor te vertonen en te testen
 
 Klik op de linkerpijl om terug te bladeren naar het scherm Campagne maken.
 
