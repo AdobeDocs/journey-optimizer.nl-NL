@@ -22,7 +22,7 @@ Met samenvoegingsfuncties in Adobe Journey Optimizer kunt u zinvolle inzichten s
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 avg-functie in Adobe Journey Optimizer
 
@@ -32,7 +32,7 @@ Leer hoe u de functie &#39;avg&#39; gebruikt om de gemiddelde waarde in expressi
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Documentatie telfunctie
 
@@ -42,7 +42,7 @@ Begrijp de functie &#39;count&#39; voor het samenvoegen van gegevens in lijsten,
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 countOnlyNull Functie - Null-waarden tellen in lijsten
 
@@ -52,7 +52,7 @@ Ontdek hoe de functie &#39;countOnlyNull&#39; null-waarden telt in een lijst met
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 countWithNull Functie - overzicht
 
@@ -62,7 +62,7 @@ Leer hoe de functie &#39;countWithNull&#39; alle elementen in een lijst telt, in
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 differentCount Function in Adobe Journey Optimizer
 
@@ -72,7 +72,7 @@ Verken de functie &#39;differentCount&#39; voor het tellen van unieke waarden in
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 differentCountWithNull Functie: Aantal Unieke Waarden (met inbegrip van Nulls)
 
