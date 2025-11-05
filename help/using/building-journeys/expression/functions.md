@@ -9,7 +9,7 @@ level: Experienced
 keywords: functie, expressies, editor, reis
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: af1babe501a5b2c6a67730396a8f5e2c5d85e60a
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 31%
@@ -30,25 +30,25 @@ Hier volgt een lijst met ondersteunde functies.
 
 | Categorie | Functie |
 |-------------|-----------------------|
-| Adobe Experience Platform | [&#x200B; inAudience &#x200B;](../functions/functioninaudience.md) |
-| Samenvoeging | [avg](../functions/functionavg.md) |
-| Samenvoeging | [count](../functions/functioncount.md) |
-| Samenvoeging | [countOnlyNull](../functions/functioncountonlynull.md) |
-| Samenvoeging | [countWithNull](../functions/functioncountwithnull.md) |
-| Samenvoeging | [distinctCount](../functions/functiondistinctcount.md) |
-| Samenvoeging | [distinctCountWithNull](../functions/functiondistinctcountwithnull.md) |
-| Samenvoeging | [max](../functions/functionmax.md) |
-| Samenvoeging | [min](../functions/functionmin.md) |
-| Samenvoeging | [sum](../functions/functionsum.md) |
+| Adobe Experience Platform | [ inAudience ](../functions/functioninaudience.md) |
+| Samenvoeging | [avg](../functions/aggregation-functions.md#avg) |
+| Samenvoeging | [count](../functions/aggregation-functions.md#count) |
+| Samenvoeging | [countOnlyNull](../functions/aggregation-functions.md#countOnlyNull) |
+| Samenvoeging | [countWithNull](../functions/aggregation-functions.md#countWithNull) |
+| Samenvoeging | [distinctCount](../functions/aggregation-functions.md#distinctCount) |
+| Samenvoeging | [distinctCountWithNull](../functions/aggregation-functions.md#distinctCountWithNull) |
+| Samenvoeging | [max](../functions/aggregation-functions.md#max) |
+| Samenvoeging | [min](../functions/aggregation-functions.md#min) |
+| Samenvoeging | [sum](../functions/aggregation-functions.md#sum) |
 | Conversie | [toBool](../functions/functiontobool.md) |
-| Conversie | [&#x200B; toDateOnly &#x200B;](../functions/functiontodateonly.md) |
+| Conversie | [ toDateOnly ](../functions/functiontodateonly.md) |
 | Conversie | [toDateTime](../functions/functiontodatetime.md) |
 | Conversie | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
 | Conversie | [toDecimal](../functions/functiontodecimal.md) |
 | Conversie | [toDuration](../functions/functiontoduration.md) |
 | Conversie | [toInteger](../functions/functiontointeger.md) |
 | Conversie | [toString](../functions/functiontostring.md) |
-| Datum | [&#x200B; currentTimeInMillis &#x200B;](../functions/functioncurrenttimeinmillis.md) |
+| Datum | [ currentTimeInMillis ](../functions/functioncurrenttimeinmillis.md) |
 | Datum | [inLastDays](../functions/functioninlastdays.md) |
 | Datum | [inLastHours](../functions/functioninlasthours.md) |
 | Datum | [inLastMonths](../functions/functioninlastmonths.md) |
@@ -61,14 +61,14 @@ Hier volgt een lijst met ondersteunde functies.
 | Datum | [nowWithDelta](../functions/functionnowwithdelta.md) |
 | Datum | [setHours](../functions/functionsethours.md) |
 | Datum | [setDays](../functions/functionsetdays.md) |
-| Datum | [&#x200B; updateTimeZone &#x200B;](../functions/functionupdatetimezone.md) |
+| Datum | [ updateTimeZone ](../functions/functionupdatetimezone.md) |
 | Lijst | [distinct](../functions/functiondistinct.md) |
 | Lijst | [distinctWithNull](../functions/functiondistinctwithnull.md) |
-| Lijst | [&#x200B; filter &#x200B;](../functions/functionfilter.md) |
+| Lijst | [ filter ](../functions/functionfilter.md) |
 | Lijst | [getListItem](../functions/functiongetlistitem.md) |
 | Lijst | [in](../functions/functionin.md) |
-| Lijst | [&#x200B; snijdt &#x200B;](../functions/functionintersect.md) |
-| Lijst | [&#x200B; grens &#x200B;](../functions/functionlimit.md) |
+| Lijst | [ snijdt ](../functions/functionintersect.md) |
+| Lijst | [ grens ](../functions/functionlimit.md) |
 | Lijst | [listSize](../functions/functionlistsize.md) |
 | Lijst | [serializeList](../functions/functionserializelist.md) |
 | Lijst | [sort](../functions/functionsort.md) |
@@ -76,10 +76,10 @@ Hier volgt een lijst met ondersteunde functies.
 | Math | [round](../functions/functionround.md) |
 | String | [concat](../functions/functionconcat.md) |
 | String | [contain](../functions/functioncontain.md) |
-| String | [&#x200B; containIgnoreCase &#x200B;](../functions/functioncontainwithignorecase.md) |
+| String | [ containIgnoreCase ](../functions/functioncontainwithignorecase.md) |
 | String | [endWith](../functions/functionendwith.md) |
-| String | [&#x200B; endWithIgnoreCase &#x200B;](../functions/functionendwithignorecase.md) |
-| String | [&#x200B; equalIgnoreCase &#x200B;](../functions/functionequalignorecase.md) |
+| String | [ endWithIgnoreCase ](../functions/functionendwithignorecase.md) |
+| String | [ equalIgnoreCase ](../functions/functionequalignorecase.md) |
 | String | [indexOf](../functions/functionindexof.md) |
 | String | [isEmpty](../functions/functionisempty.md) |
 | String | [isNotEmpty](../functions/functionisnotempty.md) |
@@ -87,7 +87,7 @@ Hier volgt een lijst met ondersteunde functies.
 | String | [length](../functions/functionlength.md) |
 | String | [lower](../functions/functionlower.md) |
 | String | [matchRegExp](../functions/functionmatchregexp.md) |
-| String | [&#x200B; notEqualIgnoreCase &#x200B;](../functions/functionnotequalignorecase.md) |
+| String | [ notEqualIgnoreCase ](../functions/functionnotequalignorecase.md) |
 | String | [replace](../functions/functionreplace.md) |
 | String | [replaceAll](../functions/functionreplaceall.md) |
 | String | [split](../functions/functionsplit.md) |
