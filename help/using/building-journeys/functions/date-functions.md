@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: datum, functies, expressie, reis, tijd
 version: Journey Orchestration
-source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '791'
 ht-degree: 6%
 
 ---
@@ -20,9 +20,9 @@ Met Date-functies kunt u datum- en tijdwaarden bewerken en gebruiken in uw reise
 
 Gebruik datumfuncties wanneer u dit moet doen:
 
-* Hiermee wordt de huidige tijd of datum opgehaald met specifieke tijdzone-verwerking
-* Controleren of een datum binnen een specifiek tijdbereik (verleden of toekomst) valt
-* Datum- en tijdcomponenten wijzigen (uren, dagen, tijdzones)
+* Krijg de huidige tijd of de datum met specifieke timezone behandeling ([ nu ](#now), [ nowWithDelta ](#nowWithDelta), [ currentTimeInMillis ](#currentTimeInMillis))
+* Controle als een datum binnen een specifieke tijdwaaier valt ([ inLastDays ](#inLastDays), [ inLastHours ](#inLastHours), [ inLastMonths ](#inLastMonths), [ inLastYaren ](#inLastYears), [ inNextDays ](#inNextDays), [ inNextHours ](#inNextHours), [ NextMonths ](#inNextMonths), [ inNextYear ](#inNextYears))
+* Wijzig datum en tijdcomponenten ([ setHours ](#setHours), [ setDays ](#setDays), [ updateTimeZone ](#updateTimeZone))
 * Op tijd gebaseerde berekeningen en vergelijkingen uitvoeren
 * Omzetten tussen verschillende tijdnotaties en weergaven
 
@@ -346,7 +346,7 @@ Retourneert true.
 
 ## now {#now}
 
-Retourneert de huidige datum in de datumtijdnotatie. Voor meer informatie over gegevenstypes, verwijs naar [&#x200B; deze pagina &#x200B;](../expression/data-types.md).
+Retourneert de huidige datum in de datumtijdnotatie. Voor meer informatie over gegevenstypes, verwijs naar [ deze pagina ](../expression/data-types.md).
 
 +++Syntaxis
 
@@ -390,7 +390,7 @@ Keert 2023-06-03T08 :30+02 :00 terug.
 
 ## nowWithDelta {#nowWithDelta}
 
-Retourneert de huidige datumtijd inclusief een verschuiving. Als een tijdzone-id wordt opgegeven, wordt de verschuiving van de tijdzone toegepast. Voor meer informatie over gegevenstypes, verwijs naar [&#x200B; deze pagina &#x200B;](../expression/data-types.md).
+Retourneert de huidige datumtijd inclusief een verschuiving. Als een tijdzone-id wordt opgegeven, wordt de verschuiving van de tijdzone toegepast. Voor meer informatie over gegevenstypes, verwijs naar [ deze pagina ](../expression/data-types.md).
 
 +++Syntaxis
 
@@ -404,7 +404,7 @@ Retourneert de huidige datumtijd inclusief een verschuiving. Als een tijdzone-id
 |--- |--- |
 | delta | positieve of negatieve gehele waarde |
 | datumonderdeel | jaar, maanden, dagen, uren, minuten of seconden als een tekenreeks |
-| tijdzone-id | tekenreeksrepresentatie van de tijdzonewaarde. Voor meer, zie [&#x200B; types van Gegevens &#x200B;](../expression/data-types.md). Tijdzone-id moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn. |
+| tijdzone-id | tekenreeksrepresentatie van de tijdzonewaarde. Voor meer, zie [ types van Gegevens ](../expression/data-types.md). Tijdzone-id moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn. |
 
 +++
 

@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: lijst, functies, expressie, transport, array, collectie
 version: Journey Orchestration
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1158'
 ht-degree: 5%
 
 ---
@@ -20,13 +20,13 @@ Met lijstfuncties kunt u verzamelingen van waarden bewerken en ermee werken in u
 
 Gebruik lijstfuncties wanneer u wilt:
 
-* Specifieke items filteren en extraheren uit verzamelingen op basis van criteria
-* Lijstelementen in oplopende of aflopende volgorde sorteren en ordenen
-* Duplicaten verwijderen en unieke waarden uit lijsten ophalen
-* Controleren of er waarden bestaan in verzamelingen
-* Het aantal geretourneerde items uit een lijst beperken
-* Lijsten omzetten in verschillende indelingen of gegevenstypen
-* Voer ingestelde bewerkingen uit zoals gemeenschappelijke elementen tussen lijsten zoeken
+* Filter en haal specifieke punten uit inzamelingen uit die op criteria worden gebaseerd ([ filter ](#filter), [ getListItem ](#getListItem))
+* Soort en organiseert lijstelementen in het stijgen of dalende orde ([ soort ](#sort))
+* Verwijder duplicaten en krijg unieke waarden uit lijsten ([ verschillend ](#distinct), [ separatelyWithNull ](#distinctWithNull))
+* Controle als de waarden binnen inzamelingen bestaan ([ binnen ](#in))
+* Beperk het aantal punten van een lijst zijn teruggekeerd ([ grens ](#limit))
+* Krijg de grootte van een lijst ([ listSize ](#listSize)) of transformatielijsten in verschillende formaten ([ serializeList ](#serializeList))
+* Voer vastgestelde verrichtingen als het vinden van gemeenschappelijke elementen tussen lijsten uit ([ snijdt ](#intersect))
 
 Lijstfuncties bieden krachtige gereedschappen voor het werken met complexe gegevensstructuren, waardoor geavanceerde gegevensmanipulatie en voorwaardelijke logica op basis van de inhoud van de verzameling mogelijk zijn.
 

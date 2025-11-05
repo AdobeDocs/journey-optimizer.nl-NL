@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: conversie, functies, expressie, reis, type, gegoten
 version: Journey Orchestration
-source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '957'
 ht-degree: 3%
 
 ---
@@ -20,9 +20,10 @@ Met conversiefuncties kunt u gegevens van het ene naar het andere type transform
 
 Gebruik conversiefuncties wanneer dat nodig is:
 
-* Tekenreekswaarden omzetten in numerieke waarden, booleaanse waarden of datumtypen
-* Datums en tijden transformeren tussen verschillende indelingen en weergaven
-* Numerieke waarden tussen gehele getallen en decimale notaties
+* Zet koordwaarden in numeriek, booleaanse, of datumtypes ([ toInteger ](#toInteger), [ toDecimal ](#toDecimal), [ toBool ](#toBool)) om
+* Transformeer data en tijden tussen verschillende formaten en vertegenwoordiging ([ toDateTime ](#toDateTime), [ toDateTimeOnly ](#toDateTimeOnly), [ toDateOnly ](#toDateOnly))
+* Gegoten numerieke waarden tussen geheel en decimale types ([ toInteger ](#toInteger), [ toDecimal ](#toDecimal))
+* Zet waarden in koordformaat ([ toString ](#toString)) of duur ([ toDuration ](#toDuration)) om
 * Zorg voor typecompatibiliteit voor vergelijkingen en bewerkingen
 * Gegevens verwerken uit externe bronnen met verschillende typen opmaak
 
@@ -80,7 +81,7 @@ Retourneert false.
 
 ## toDateOnly {#toDateOnly}
 
-Zet een argument in een dateOnly typewaarde om. Meer over gegevenstypes leren, verwijs naar deze [&#x200B; sectie &#x200B;](../expression/data-types.md).
+Zet een argument in een dateOnly typewaarde om. Meer over gegevenstypes leren, verwijs naar deze [ sectie ](../expression/data-types.md).
 
 +++Syntaxis
 
@@ -92,7 +93,7 @@ Zet een argument in een dateOnly typewaarde om. Meer over gegevenstypes leren, v
 
 | Parameter | Type |
 |-----------|------------------|
-| Tekenreeksrepresentatie van een datum als &quot;YYYY-MM-DD&quot; (XDM-indeling). Ook steunt formaat ISO-8601: slechts **volledig-datum** deel wordt overwogen (verwijs naar [&#x200B; RFC 3339, sectie 5.6 &#x200B;](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | string |
+| Tekenreeksrepresentatie van een datum als &quot;YYYY-MM-DD&quot; (XDM-indeling). Ook steunt formaat ISO-8601: slechts **volledig-datum** deel wordt overwogen (verwijs naar [ RFC 3339, sectie 5.6 ](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | string |
 | datumtijd | dateTime |
 | datumtijd zonder tijdzone | dateTimeOnly |
 | geheel-getalwaarde van een tijdperk in milliseconden | integer |
@@ -180,7 +181,7 @@ Keert 2023-06-17T09 :03: 10.189Z terug
 
 >[!NOTE]
 >
->Tijdzone-id moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn. Voor meer informatie over gegevenstypes, verwijs naar [&#x200B; deze pagina &#x200B;](../expression/data-types.md).
+>Tijdzone-id moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn. Voor meer informatie over gegevenstypes, verwijs naar [ deze pagina ](../expression/data-types.md).
 
 ## toDateTimeOnly {#toDateTimeOnly}
 
@@ -266,7 +267,7 @@ Retourneert 4.0.
 
 ## toDuration {#toDuration}
 
-Zet een argumentwaarde in een duur om. Voor meer informatie over gegevenstypes, verwijs naar [&#x200B; deze pagina &#x200B;](../expression/data-types.md).
+Zet een argumentwaarde in een duur om. Voor meer informatie over gegevenstypes, verwijs naar [ deze pagina ](../expression/data-types.md).
 
 +++Syntaxis
 
@@ -360,7 +361,7 @@ Retourneert 4.
 
 ## toString {#toString}
 
-Zet een argumentwaarde in een koordwaarde om, afhankelijk van zijn type. Voor meer informatie over gegevenstypes, verwijs naar [&#x200B; deze pagina &#x200B;](../expression/data-types.md).
+Zet een argumentwaarde in een koordwaarde om, afhankelijk van zijn type. Voor meer informatie over gegevenstypes, verwijs naar [ deze pagina ](../expression/data-types.md).
 
 +++Syntaxis
 

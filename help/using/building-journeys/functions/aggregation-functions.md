@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: aggregatie, functies, expressie, transport, avg, count, max, min, sum
 version: Journey Orchestration
-source-git-commit: 6102fba3ba30b462654e218f08835be53b75e2cc
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '717'
 ht-degree: 4%
 
 ---
@@ -20,9 +20,9 @@ Met aggregatiefuncties kunt u berekeningen uitvoeren op een set waarden en één
 
 Gebruik aggregatiefuncties wanneer u dat nodig hebt:
 
-* Statische waarden berekenen op basis van lijsten of arrays (gemiddelde, som, min, max)
-* Elementen tellen in verzamelingen met opties voor het opnemen of uitsluiten van null-waarden
-* Unieke waarden in gegevenssets bepalen
+* Bereken statistische waarden van lijsten of series ([ avg ](#avg), [ som ](#sum), [ min ](#min), [ maximum ](#max))
+* Telling elementen in inzamelingen ([ telling ](#count), [ countOnlyNull ](#countOnlyNull), [ countWithNull ](#countWithNull)), met opties om ongeldige waarden te omvatten of uit te sluiten
+* Bepaal unieke waarden binnen gegevensreeksen ([ differentCount ](#distinctCount), [ differentCountWithNull ](#distinctCountWithNull))
 * Gegevensgestuurde beslissingen nemen op basis van berekende meetwaarden
 
 Samenvoegingsfuncties verwerken automatisch null-waarden op basis van hun specifieke gedrag, waardoor het eenvoudiger wordt om te werken met gegevens in de praktijk die ontbrekende of niet-gedefinieerde waarden kunnen bevatten.

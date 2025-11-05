@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: tekenreeks, functies, expressie, reis, tekst, manipulatie
 version: Journey Orchestration
-source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1127'
 ht-degree: 6%
 
 ---
@@ -20,15 +20,16 @@ Met tekenreeksfuncties kunt u tekstwaarden bewerken en ermee werken binnen uw re
 
 Gebruik tekenreeksfuncties wanneer u wilt:
 
-* Meerdere tekstwaarden samenvoegen en combineren
-* Specifieke tekstpatronen of subtekenreeksen zoeken
-* Tekenreeksen vergelijken met hoofdlettergevoelig of hoofdlettergevoelig zoeken
-* Delen van tekst extraheren met subtekenreeksbewerkingen
-* Tekst omzetten in hoofdletters of kleine letters
-* Controleren of tekenreeksen leeg zijn of specifieke waarden bevatten
-* Tekstpatronen vervangen door nieuwe waarden
-* Tekenreeksen splitsen in arrays voor verdere verwerking
-* Tekst valideren met reguliere expressies
+* Samenvoegen en combineren veelvoudige tekstwaarden ([ concat ](#concat))
+* Onderzoek naar specifieke tekstpatronen of substrings ([ bevatten ](#contain), [ containIgnoreCase ](#containIgnoreCase), [ indexOf ](#indexOf), [ lastIndexOf ](#lastIndexOf), [ matchRegExp ](#matchRegExp))
+* Vergelijk koorden met case-sensitive of case-insensitive aanpassing ([ equalIgnoreCase ](#equalIgnoreCase), [ notEqualIgnoreCase ](#notEqualIgnoreCase))
+* Het koord van de controle begint en beëindigt ([ startWith ](#startWith), [ startWithIgnoreCase ](#startWithIgnoreCase), [ endWith ](#endWith), [ endWithIgnoreCase ](#endWithIgnoreCase))
+* Extraheer gedeelten van tekst gebruikend substring verrichtingen ([ substr ](#substr))
+* Transformeer tekst in hoofdletters of in kleine letters ([ hoger ](#upper), [ lager ](#lower), [ versiering ](#trim))
+* Controle als de koorden leeg zijn of specifieke waarden bevatten ([ isEmpty ](#isEmpty), [ isNotEmpty ](#isNotEmpty))
+* Vervang tekstpatronen met nieuwe waarden ([ vervangt ](#replace), [ replaceAll ](#replaceAll))
+* Splits koorden in series voor verdere verwerking ([ gespleten ](#split))
+* Krijg koordlengte ([ lengte ](#length)) of produceer unieke herkenningstekens ([ uuid ](#uuid))
 
 Tekenreeksfuncties bieden uitgebreide mogelijkheden voor tekstmanipulatie, waardoor geavanceerde gegevensverwerking en voorwaardelijke logica mogelijk zijn op basis van tekstinhoud in uw reisexpressies.
 
@@ -462,7 +463,7 @@ Retourneert &quot;a&quot;.
 
 ## matchRegExp {#matchRegExp}
 
-Retourneert true als de tekenreeks in de eerste parameter overeenkomt met de reguliere expressie in de tweede parameter. Voor meer informatie, zie [&#x200B; deze pagina &#x200B;](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
+Retourneert true als de tekenreeks in de eerste parameter overeenkomt met de reguliere expressie in de tweede parameter. Voor meer informatie, zie [ deze pagina ](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
 
 +++Syntaxis
 
@@ -619,7 +620,7 @@ Retourneert een tekenreeks.
 
 Retourneert &quot;hexo Worxd&quot;.
 
-Omdat de doelparameter een RegExp is, moet u, afhankelijk van de tekenreeks die u wilt vervangen, mogelijk enkele tekens verwijderen. Verwijs naar het voorbeeld in [&#x200B; vervangen &#x200B;](#replace) functie.
+Omdat de doelparameter een RegExp is, moet u, afhankelijk van de tekenreeks die u wilt vervangen, mogelijk enkele tekens verwijderen. Verwijs naar het voorbeeld in [ vervangen ](#replace) functie.
 
 +++
 
