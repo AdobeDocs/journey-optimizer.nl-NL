@@ -30,7 +30,7 @@ Hier volgt een lijst met ondersteunde functies.
 
 | Categorie | Functie |
 |-------------|-----------------------|
-| Adobe Experience Platform | [ inAudience ](../functions/functioninaudience.md) |
+| Adobe Experience Platform | [&#x200B; inAudience &#x200B;](../functions/functioninaudience.md) |
 | Samenvoeging | [avg](../functions/aggregation-functions.md#avg) |
 | Samenvoeging | [count](../functions/aggregation-functions.md#count) |
 | Samenvoeging | [countOnlyNull](../functions/aggregation-functions.md#countOnlyNull) |
@@ -41,14 +41,14 @@ Hier volgt een lijst met ondersteunde functies.
 | Samenvoeging | [min](../functions/aggregation-functions.md#min) |
 | Samenvoeging | [sum](../functions/aggregation-functions.md#sum) |
 | Conversie | [toBool](../functions/conversion-functions.md#toBool) |
-| Conversie | [ toDateOnly ](../functions/conversion-functions.md#toDateOnly) |
+| Conversie | [&#x200B; toDateOnly &#x200B;](../functions/conversion-functions.md#toDateOnly) |
 | Conversie | [toDateTime](../functions/conversion-functions.md#toDateTime) |
 | Conversie | [toDateTimeOnly](../functions/conversion-functions.md#toDateTimeOnly) |
 | Conversie | [toDecimal](../functions/conversion-functions.md#toDecimal) |
 | Conversie | [toDuration](../functions/conversion-functions.md#toDuration) |
 | Conversie | [toInteger](../functions/conversion-functions.md#toInteger) |
 | Conversie | [toString](../functions/conversion-functions.md#toString) |
-| Datum | [ currentTimeInMillis ](../functions/date-functions.md#currentTimeInMillis) |
+| Datum | [&#x200B; currentTimeInMillis &#x200B;](../functions/date-functions.md#currentTimeInMillis) |
 | Datum | [inLastDays](../functions/date-functions.md#inLastDays) |
 | Datum | [inLastHours](../functions/date-functions.md#inLastHours) |
 | Datum | [inLastMonths](../functions/date-functions.md#inLastMonths) |
@@ -61,14 +61,14 @@ Hier volgt een lijst met ondersteunde functies.
 | Datum | [nowWithDelta](../functions/date-functions.md#nowWithDelta) |
 | Datum | [setHours](../functions/date-functions.md#setHours) |
 | Datum | [setDays](../functions/date-functions.md#setDays) |
-| Datum | [ updateTimeZone ](../functions/date-functions.md#updateTimeZone) |
+| Datum | [&#x200B; updateTimeZone &#x200B;](../functions/date-functions.md#updateTimeZone) |
 | Lijst | [distinct](../functions/list-functions.md#distinct) |
 | Lijst | [distinctWithNull](../functions/list-functions.md#distinctWithNull) |
-| Lijst | [ filter ](../functions/list-functions.md#filter) |
+| Lijst | [&#x200B; filter &#x200B;](../functions/list-functions.md#filter) |
 | Lijst | [getListItem](../functions/list-functions.md#getListItem) |
 | Lijst | [in](../functions/list-functions.md#in) |
-| Lijst | [ snijdt ](../functions/list-functions.md#intersect) |
-| Lijst | [ grens ](../functions/list-functions.md#limit) |
+| Lijst | [&#x200B; snijdt &#x200B;](../functions/list-functions.md#intersect) |
+| Lijst | [&#x200B; grens &#x200B;](../functions/list-functions.md#limit) |
 | Lijst | [listSize](../functions/list-functions.md#listSize) |
 | Lijst | [serializeList](../functions/list-functions.md#serializeList) |
 | Lijst | [sort](../functions/list-functions.md#sort) |
@@ -76,10 +76,10 @@ Hier volgt een lijst met ondersteunde functies.
 | Math | [round](../functions/functionround.md) |
 | String | [concat](../functions/string-functions.md#concat) |
 | String | [contain](../functions/string-functions.md#contain) |
-| String | [ containIgnoreCase ](../functions/string-functions.md#containIgnoreCase) |
+| String | [&#x200B; containIgnoreCase &#x200B;](../functions/string-functions.md#containIgnoreCase) |
 | String | [endWith](../functions/string-functions.md#endWith) |
-| String | [ endWithIgnoreCase ](../functions/string-functions.md#endWithIgnoreCase) |
-| String | [ equalIgnoreCase ](../functions/string-functions.md#equalIgnoreCase) |
+| String | [&#x200B; endWithIgnoreCase &#x200B;](../functions/string-functions.md#endWithIgnoreCase) |
+| String | [&#x200B; equalIgnoreCase &#x200B;](../functions/string-functions.md#equalIgnoreCase) |
 | String | [indexOf](../functions/string-functions.md#indexOf) |
 | String | [isEmpty](../functions/string-functions.md#isEmpty) |
 | String | [isNotEmpty](../functions/string-functions.md#isNotEmpty) |
@@ -87,7 +87,7 @@ Hier volgt een lijst met ondersteunde functies.
 | String | [length](../functions/string-functions.md#length) |
 | String | [lower](../functions/string-functions.md#lower) |
 | String | [matchRegExp](../functions/string-functions.md#matchRegExp) |
-| String | [ notEqualIgnoreCase ](../functions/string-functions.md#notEqualIgnoreCase) |
+| String | [&#x200B; notEqualIgnoreCase &#x200B;](../functions/string-functions.md#notEqualIgnoreCase) |
 | String | [replace](../functions/string-functions.md#replace) |
 | String | [replaceAll](../functions/string-functions.md#replaceAll) |
 | String | [split](../functions/string-functions.md#split) |

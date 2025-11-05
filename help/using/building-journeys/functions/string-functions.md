@@ -462,7 +462,7 @@ Retourneert &quot;a&quot;.
 
 ## matchRegExp {#matchRegExp}
 
-Retourneert true als de tekenreeks in de eerste parameter overeenkomt met de reguliere expressie in de tweede parameter. Voor meer informatie, zie [ deze pagina ](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
+Retourneert true als de tekenreeks in de eerste parameter overeenkomt met de reguliere expressie in de tweede parameter. Voor meer informatie, zie [&#x200B; deze pagina &#x200B;](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
 
 +++Syntaxis
 
@@ -619,7 +619,7 @@ Retourneert een tekenreeks.
 
 Retourneert &quot;hexo Worxd&quot;.
 
-Omdat de doelparameter een RegExp is, moet u, afhankelijk van de tekenreeks die u wilt vervangen, mogelijk enkele tekens verwijderen. Verwijs naar het voorbeeld in [ vervangen ](#replace) functie.
+Omdat de doelparameter een RegExp is, moet u, afhankelijk van de tekenreeks die u wilt vervangen, mogelijk enkele tekens verwijderen. Verwijs naar het voorbeeld in [&#x200B; vervangen &#x200B;](#replace) functie.
 
 +++
 
