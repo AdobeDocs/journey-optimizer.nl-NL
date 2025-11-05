@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
+source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
 workflow-type: tm+mt
-source-wordcount: '3000'
+source-wordcount: '2987'
 ht-degree: 17%
 
 ---
@@ -119,21 +119,7 @@ ht-degree: 17%
          + Conversie {#conversion}
             + [Conversiefuncties](using/building-journeys/functions/conversion-functions.md)
          + Datum {#date}
-            + [Datum](/help/rp_landing_pages/date-landing-page.md)
-            + [currentTimeInMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
-            + [inLastDays](using/building-journeys/functions/functioninlastdays.md)
-            + [inLastHours](using/building-journeys/functions/functioninlasthours.md)
-            + [inLastMonths](using/building-journeys/functions/functioninlastmonths.md)
-            + [inLastYears](using/building-journeys/functions/functioninlastyears.md)
-            + [inNextDays](using/building-journeys/functions/functioninnextdays.md)
-            + [inNextHours](using/building-journeys/functions/functioninnexthours.md)
-            + [inNextMonths](using/building-journeys/functions/functioninnextmonths.md)
-            + [inNextYears](using/building-journeys/functions/functioninnextyears.md)
-            + [now](using/building-journeys/functions/functionnow.md)
-            + [nowWithDelta](using/building-journeys/functions/functionnowwithdelta.md)
-            + [setHours](using/building-journeys/functions/functionsethours.md)
-            + [setDays](using/building-journeys/functions/functionsetdays.md)
-            + [updateTimeZone](using/building-journeys/functions/functionupdatetimezone.md)
+            + [Datumfuncties](using/building-journeys/functions/date-functions.md)
          + Lijst {#list}
             + [Lijst](/help/rp_landing_pages/list-landing-page.md)
             + [distinct](using/building-journeys/functions/functiondistinct.md)
@@ -871,7 +857,7 @@ ht-degree: 17%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}

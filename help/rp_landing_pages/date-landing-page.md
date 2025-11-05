@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Datum
 description: Datum
 redpen-status: CREATED_||_2025-08-11_20-14-40
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: 38bf1898-9de0-470d-abd6-a9240e83e87f
+source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
 
 ---
-
 
 # Datum{#section-overview}
 
@@ -20,63 +20,63 @@ Met de Date-functies in Adobe Journey Optimizer kunt u naadloos werken met aan t
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 currentTimeInMillis-functieverwijzing
 
 Leer hoe u de functie &#39;currentTimeInMillis&#39; gebruikt om de huidige tijd in epochmilliseconden op te halen.
 
-[Meer informatie over currentTimeInMillis](../using/building-journeys/functions/functioncurrenttimeinmillis.md)
+[Meer informatie over currentTimeInMillis](../using/building-journeys/functions/date-functions.md#currentTimeInMillis)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inLastDays, functie
 
 Begrijp de functie &#39;inLastDays&#39;, die controleert of een bepaalde datum binnen een gespecificeerd aantal dagen vóór vandaag valt.
 
-[Meer informatie over inLastDays](../using/building-journeys/functions/functioninlastdays.md)
+[Meer informatie over inLastDays](../using/building-journeys/functions/date-functions.md#inLastDays)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 De functie inLastHours gebruiken
 
 Onderzoek de functie &#39;inLastHours&#39; om te bepalen of een datum-tijd binnen het laatste gespecificeerde aantal uren valt.
 
-[Meer informatie over inLastHours](../using/building-journeys/functions/functioninlasthours.md)
+[Meer informatie over inLastHours](../using/building-journeys/functions/date-functions.md#inLastHours)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 De functie inLastMonths gebruiken
 
 Controleer of een datum binnen een opgegeven bereik van maanden valt met &#39;inLastMonths&#39; in Adobe Journey Optimizer.
 
-[Meer informatie over inLastMonths](../using/building-journeys/functions/functioninlastmonths.md)
+[Meer informatie over inLastMonths](../using/building-journeys/functions/date-functions.md#inLastMonths)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 De functie inLastYaren gebruiken
 
 Leer hoe u de functie &#39;inLastYear&#39; gebruikt om te beoordelen of een datum binnen een bepaald aantal jaren eerder valt.
 
-[Verkennen in afgelopen jaren](../using/building-journeys/functions/functioninlastyears.md)
+[Verkennen in afgelopen jaren](../using/building-journeys/functions/date-functions.md#inLastYears)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inNextDays, functie
 
 Leer hoe u met de functie &#39;inNextDays&#39; kunt controleren of een datum binnen een bepaald bereik van dagen vanaf vandaag valt.
 
-[Detecteren in volgende dagen](../using/building-journeys/functions/functioninnextdays.md)
+[Detecteren in volgende dagen](../using/building-journeys/functions/date-functions.md#inNextDays)
 :::
 
 ::::
@@ -84,11 +84,11 @@ Leer hoe u met de functie &#39;inNextDays&#39; kunt controleren of een datum bin
 
 ## Aanvullende bronnen
 
-- **[inNextHours Functie](../using/building-journeys/functions/functioninnexthours.md)** - begrijp hoe te om de functie &quot;inNextHours&quot;te gebruiken om te evalueren als een datum-tijd binnen de volgende gespecificeerde uren is.
-- **[inNextMonths Verwijzing van de Functie](../using/building-journeys/functions/functioninnextmonths.md)** - onderzoek de functie &quot;inNextMonths&quot;om te controleren of is een datum binnen de volgende gespecificeerde waaier van maanden.
-- **[inNextYaren Functie](../using/building-journeys/functions/functioninnextyears.md)** - bepaal als een datum binnen een gespecificeerde waaier van jaren in de toekomst gebruikend de functie &quot;inNextYear&quot;valt.
-- **[Gebruikend de &quot;nu&quot;Functie](../using/building-journeys/functions/functionnow.md)** - leer over de &quot;nu&quot;functie om de huidige datum en de tijd, met facultatieve steun van de tijdzone terug te winnen.
-- **[Gebruikend nowWithDelta Functie](../using/building-journeys/functions/functionnowwithdelta.md)** - onderzoek de &quot;nowWithDelta&quot;functie om de huidige datum-tijd met een compensatie te berekenen.
-- **[setHours Functie](../using/building-journeys/functions/functionsethours.md)** - wijzig de uurcomponent van een datum-tijd waarde gebruikend de &quot;setHours&quot;functie.
-- **[setDays Functie](../using/building-journeys/functions/functionsetdays.md)** - leer hoe te om de dagcomponent van een datum-tijd voorwerp te veranderen gebruikend de functie &quot;setDays&quot;.
-- **[updateTimeZone Functie](../using/building-journeys/functions/functionupdatetimezone.md)** - pas een datum-tijd waarde aan een nieuwe tijdzone met de functie &#39;updateTimeZone&#39; aan.
+- **[inNextHours Functie](../using/building-journeys/functions/date-functions.md#inNextHours)** - begrijp hoe te om de functie &quot;inNextHours&quot;te gebruiken om te evalueren als een datum-tijd binnen de volgende gespecificeerde uren is.
+- **[inNextMonths Verwijzing van de Functie](../using/building-journeys/functions/date-functions.md#inNextMonths)** - onderzoek de functie &quot;inNextMonths&quot;om te controleren of is een datum binnen de volgende gespecificeerde waaier van maanden.
+- **[inNextYaren Functie](../using/building-journeys/functions/date-functions.md#inNextYears)** - bepaal als een datum binnen een gespecificeerde waaier van jaren in de toekomst gebruikend de functie &quot;inNextYear&quot;valt.
+- **[Gebruikend de &quot;nu&quot;Functie](../using/building-journeys/functions/date-functions.md#now)** - leer over de &quot;nu&quot;functie om de huidige datum en de tijd, met facultatieve steun van de tijdzone terug te winnen.
+- **[Gebruikend nowWithDelta Functie](../using/building-journeys/functions/date-functions.md#nowWithDelta)** - onderzoek de &quot;nowWithDelta&quot;functie om de huidige datum-tijd met een compensatie te berekenen.
+- **[setHours Functie](../using/building-journeys/functions/date-functions.md#setHours)** - wijzig de uurcomponent van een datum-tijd waarde gebruikend de &quot;setHours&quot;functie.
+- **[setDays Functie](../using/building-journeys/functions/date-functions.md#setDays)** - leer hoe te om de dagcomponent van een datum-tijd voorwerp te veranderen gebruikend de functie &quot;setDays&quot;.
+- **[updateTimeZone Functie](../using/building-journeys/functions/date-functions.md#updateTimeZone)** - pas een datum-tijd waarde aan een nieuwe tijdzone met de functie &#39;updateTimeZone&#39; aan.
