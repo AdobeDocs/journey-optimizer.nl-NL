@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: af1babe501a5b2c6a67730396a8f5e2c5d85e60a
+source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
 workflow-type: tm+mt
-source-wordcount: '3007'
+source-wordcount: '3000'
 ht-degree: 17%
 
 ---
@@ -117,15 +117,7 @@ ht-degree: 17%
          + Samenvoeging {#aggregation}
             + [Samenvoegingsfuncties](using/building-journeys/functions/aggregation-functions.md)
          + Conversie {#conversion}
-            + [Conversie](/help/rp_landing_pages/conversion-landing-page.md)
-            + [toBool](using/building-journeys/functions/functiontobool.md)
-            + [toDateOnly](using/building-journeys/functions/functiontodateonly.md)
-            + [toDateTime](using/building-journeys/functions/functiontodatetime.md)
-            + [toDateTimeOnly](using/building-journeys/functions/functiontodatetimeonly.md)
-            + [toDecimal](using/building-journeys/functions/functiontodecimal.md)
-            + [toDuration](using/building-journeys/functions/functiontoduration.md)
-            + [toInteger](using/building-journeys/functions/functiontointeger.md)
-            + [toString](using/building-journeys/functions/functiontostring.md)
+            + [Conversiefuncties](using/building-journeys/functions/conversion-functions.md)
          + Datum {#date}
             + [Datum](/help/rp_landing_pages/date-landing-page.md)
             + [currentTimeInMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)

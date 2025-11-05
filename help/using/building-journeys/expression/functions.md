@@ -9,7 +9,7 @@ level: Experienced
 keywords: functie, expressies, editor, reis
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: af1babe501a5b2c6a67730396a8f5e2c5d85e60a
+source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 31%
@@ -40,14 +40,14 @@ Hier volgt een lijst met ondersteunde functies.
 | Samenvoeging | [max](../functions/aggregation-functions.md#max) |
 | Samenvoeging | [min](../functions/aggregation-functions.md#min) |
 | Samenvoeging | [sum](../functions/aggregation-functions.md#sum) |
-| Conversie | [toBool](../functions/functiontobool.md) |
-| Conversie | [ toDateOnly ](../functions/functiontodateonly.md) |
-| Conversie | [toDateTime](../functions/functiontodatetime.md) |
-| Conversie | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
-| Conversie | [toDecimal](../functions/functiontodecimal.md) |
-| Conversie | [toDuration](../functions/functiontoduration.md) |
-| Conversie | [toInteger](../functions/functiontointeger.md) |
-| Conversie | [toString](../functions/functiontostring.md) |
+| Conversie | [toBool](../functions/conversion-functions.md#toBool) |
+| Conversie | [ toDateOnly ](../functions/conversion-functions.md#toDateOnly) |
+| Conversie | [toDateTime](../functions/conversion-functions.md#toDateTime) |
+| Conversie | [toDateTimeOnly](../functions/conversion-functions.md#toDateTimeOnly) |
+| Conversie | [toDecimal](../functions/conversion-functions.md#toDecimal) |
+| Conversie | [toDuration](../functions/conversion-functions.md#toDuration) |
+| Conversie | [toInteger](../functions/conversion-functions.md#toInteger) |
+| Conversie | [toString](../functions/conversion-functions.md#toString) |
 | Datum | [ currentTimeInMillis ](../functions/functioncurrenttimeinmillis.md) |
 | Datum | [inLastDays](../functions/functioninlastdays.md) |
 | Datum | [inLastHours](../functions/functioninlasthours.md) |
