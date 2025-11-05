@@ -7,16 +7,26 @@ role: Developer
 level: Experienced
 keywords: aggregatie, functies, expressie, transport, avg, count, max, min, sum
 version: Journey Orchestration
-source-git-commit: af1babe501a5b2c6a67730396a8f5e2c5d85e60a
+source-git-commit: 6102fba3ba30b462654e218f08835be53b75e2cc
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 5%
+source-wordcount: '712'
+ht-degree: 4%
 
 ---
 
 # Samenvoegingsfuncties {#aggregation-functions}
 
-Samenvoegfuncties worden gebruikt om berekeningen uit te voeren op een set waarden en één waarde te retourneren. Deze functies zijn vooral handig wanneer u werkt met lijsten en arrays in uw reisexpressies.
+Met aggregatiefuncties kunt u berekeningen uitvoeren op een set waarden en één samengevat resultaat retourneren. Met deze functies kunt u gegevens in uw reisexpressies analyseren door gemiddelden te berekenen, minimum- en maximumwaarden te zoeken, elementen te tellen en numerieke waarden op te tellen.
+
+Gebruik aggregatiefuncties wanneer u dat nodig hebt:
+
+* Statische waarden berekenen op basis van lijsten of arrays (gemiddelde, som, min, max)
+* Elementen tellen in verzamelingen met opties voor het opnemen of uitsluiten van null-waarden
+* Unieke waarden in gegevenssets bepalen
+* Gegevensgestuurde beslissingen nemen op basis van berekende meetwaarden
+
+Samenvoegingsfuncties verwerken automatisch null-waarden op basis van hun specifieke gedrag, waardoor het eenvoudiger wordt om te werken met gegevens in de praktijk die ontbrekende of niet-gedefinieerde waarden kunnen bevatten.
+
 
 ## avg {#avg}
 
@@ -115,8 +125,6 @@ Retourneert het aantal objecten in de opgegeven array met objecten (type listObj
 
 Telt het aantal null-waarden in de lijst.
 
-**Nota:** de parameter `<listObject>` wordt niet gesteund in deze functie.
-
 +++Syntaxis
 
 `countOnlyNull(<listAny>)`
@@ -147,11 +155,11 @@ Retourneert 1.
 
 +++
 
+**Nota:** de parameter `<listObject>` wordt niet gesteund in deze functie.
+
 ## countWithNull {#countWithNull}
 
 Telt alle elementen van de lijst met inbegrip van ongeldige waarden.
-
-**Nota:** de parameter `<listObject>` wordt niet gesteund in deze functie.
 
 +++Syntaxis
 
@@ -182,6 +190,8 @@ Retourneert een geheel getal.
 Retourneert 4.
 
 +++
+
+**Nota:** de parameter `<listObject>` wordt niet gesteund in deze functie.
 
 ## distinctCount {#distinctCount}
 
@@ -236,8 +246,6 @@ Keert het aantal voorwerpen terug die een duidelijke &quot;SKU&quot;attributenwa
 
 Telt het aantal verschillende waarden inclusief de null-waarden.
 
-**Nota:** de parameter `<listObject>` wordt niet gesteund in deze functie.
-
 +++Syntaxis
 
 `distinctCountWithNull(<listAny>)`
@@ -267,6 +275,8 @@ Retourneert een geheel getal.
 Retourneert 3.
 
 +++
+
+**Nota:** de parameter `<listObject>` wordt niet gesteund in deze functie.
 
 ## max {#max}
 
