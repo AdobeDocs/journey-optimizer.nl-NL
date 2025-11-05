@@ -5,7 +5,7 @@ title: Functies
 description: Functies
 redpen-status: CREATED_||_2025-08-11_20-18-53
 exl-id: d82e30d6-abe5-4522-a8c4-a11ff5c9bd91
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Met functies in Adobe Journey Optimizer kunt u dynamische en nauwkeurige express
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Hoofdfuncties in Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Een overzicht bekijken van de belangrijkste beschikbare functies, gecategoriseer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 De functie inAudience gebruiken
 
@@ -40,7 +40,7 @@ Begrijp hoe te om publiekslidmaatschap te evalueren gebruikend de functie inAudi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Overzicht van aggregatiefuncties
 
@@ -50,7 +50,7 @@ Hoofdaggregatiefuncties voor het uitvoeren van bewerkingen zoals gemiddelden, te
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
 
 Conversiefuncties
 
@@ -60,7 +60,7 @@ Transformeer gegevenstypen met conversiefuncties om de invoer effectief te manip
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Datumfuncties in Adobe Journey Optimizer
 
@@ -70,13 +70,13 @@ Leer om datum en tijdwaarden te manipuleren en te evalueren gebruikend krachtige
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Lijstfuncties in Adobe Journey Optimizer
 
 Gebruik lijstfuncties voor bewerkingen zoals deduplicatie, filteren, sorteren en lidmaatschapscontroles in expressies.
 
-[Meer informatie over lijstfuncties](list-landing-page.md)
+[Meer informatie over lijstfuncties](../using/building-journeys/functions/list-functions.md)
 :::
 
 ::::

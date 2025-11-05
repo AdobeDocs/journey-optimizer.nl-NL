@@ -9,7 +9,7 @@ level: Experienced
 keywords: functie, expressies, editor, reis
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 31%
@@ -30,7 +30,7 @@ Hier volgt een lijst met ondersteunde functies.
 
 | Categorie | Functie |
 |-------------|-----------------------|
-| Adobe Experience Platform | [&#x200B; inAudience &#x200B;](../functions/functioninaudience.md) |
+| Adobe Experience Platform | [ inAudience ](../functions/functioninaudience.md) |
 | Samenvoeging | [avg](../functions/aggregation-functions.md#avg) |
 | Samenvoeging | [count](../functions/aggregation-functions.md#count) |
 | Samenvoeging | [countOnlyNull](../functions/aggregation-functions.md#countOnlyNull) |
@@ -41,14 +41,14 @@ Hier volgt een lijst met ondersteunde functies.
 | Samenvoeging | [min](../functions/aggregation-functions.md#min) |
 | Samenvoeging | [sum](../functions/aggregation-functions.md#sum) |
 | Conversie | [toBool](../functions/conversion-functions.md#toBool) |
-| Conversie | [&#x200B; toDateOnly &#x200B;](../functions/conversion-functions.md#toDateOnly) |
+| Conversie | [ toDateOnly ](../functions/conversion-functions.md#toDateOnly) |
 | Conversie | [toDateTime](../functions/conversion-functions.md#toDateTime) |
 | Conversie | [toDateTimeOnly](../functions/conversion-functions.md#toDateTimeOnly) |
 | Conversie | [toDecimal](../functions/conversion-functions.md#toDecimal) |
 | Conversie | [toDuration](../functions/conversion-functions.md#toDuration) |
 | Conversie | [toInteger](../functions/conversion-functions.md#toInteger) |
 | Conversie | [toString](../functions/conversion-functions.md#toString) |
-| Datum | [&#x200B; currentTimeInMillis &#x200B;](../functions/date-functions.md#currentTimeInMillis) |
+| Datum | [ currentTimeInMillis ](../functions/date-functions.md#currentTimeInMillis) |
 | Datum | [inLastDays](../functions/date-functions.md#inLastDays) |
 | Datum | [inLastHours](../functions/date-functions.md#inLastHours) |
 | Datum | [inLastMonths](../functions/date-functions.md#inLastMonths) |
@@ -61,39 +61,39 @@ Hier volgt een lijst met ondersteunde functies.
 | Datum | [nowWithDelta](../functions/date-functions.md#nowWithDelta) |
 | Datum | [setHours](../functions/date-functions.md#setHours) |
 | Datum | [setDays](../functions/date-functions.md#setDays) |
-| Datum | [&#x200B; updateTimeZone &#x200B;](../functions/date-functions.md#updateTimeZone) |
+| Datum | [ updateTimeZone ](../functions/date-functions.md#updateTimeZone) |
 | Lijst | [distinct](../functions/list-functions.md#distinct) |
 | Lijst | [distinctWithNull](../functions/list-functions.md#distinctWithNull) |
-| Lijst | [&#x200B; filter &#x200B;](../functions/list-functions.md#filter) |
+| Lijst | [ filter ](../functions/list-functions.md#filter) |
 | Lijst | [getListItem](../functions/list-functions.md#getListItem) |
 | Lijst | [in](../functions/list-functions.md#in) |
-| Lijst | [&#x200B; snijdt &#x200B;](../functions/list-functions.md#intersect) |
-| Lijst | [&#x200B; grens &#x200B;](../functions/list-functions.md#limit) |
+| Lijst | [ snijdt ](../functions/list-functions.md#intersect) |
+| Lijst | [ grens ](../functions/list-functions.md#limit) |
 | Lijst | [listSize](../functions/list-functions.md#listSize) |
 | Lijst | [serializeList](../functions/list-functions.md#serializeList) |
 | Lijst | [sort](../functions/list-functions.md#sort) |
 | Math | [random](../functions/functionrandom.md) |
 | Math | [round](../functions/functionround.md) |
-| String | [concat](../functions/functionconcat.md) |
-| String | [contain](../functions/functioncontain.md) |
-| String | [&#x200B; containIgnoreCase &#x200B;](../functions/functioncontainwithignorecase.md) |
-| String | [endWith](../functions/functionendwith.md) |
-| String | [&#x200B; endWithIgnoreCase &#x200B;](../functions/functionendwithignorecase.md) |
-| String | [&#x200B; equalIgnoreCase &#x200B;](../functions/functionequalignorecase.md) |
-| String | [indexOf](../functions/functionindexof.md) |
-| String | [isEmpty](../functions/functionisempty.md) |
-| String | [isNotEmpty](../functions/functionisnotempty.md) |
-| String | [lastIndexOf](../functions/functionlastindexof.md) |
-| String | [length](../functions/functionlength.md) |
-| String | [lower](../functions/functionlower.md) |
-| String | [matchRegExp](../functions/functionmatchregexp.md) |
-| String | [&#x200B; notEqualIgnoreCase &#x200B;](../functions/functionnotequalignorecase.md) |
-| String | [replace](../functions/functionreplace.md) |
-| String | [replaceAll](../functions/functionreplaceall.md) |
-| String | [split](../functions/functionsplit.md) |
-| String | [startWith](../functions/functionstartwith.md) |
-| String | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
-| String | [substr](../functions/functionsubstr.md) |
-| String | [trim](../functions/functiontrim.md) |
-| String | [upper](../functions/functionupper.md) |
-| String | [uuid](../functions/functionuuid.md) |
+| String | [concat](../functions/string-functions.md#concat) |
+| String | [contain](../functions/string-functions.md#contain) |
+| String | [ containIgnoreCase ](../functions/string-functions.md#containIgnoreCase) |
+| String | [endWith](../functions/string-functions.md#endWith) |
+| String | [ endWithIgnoreCase ](../functions/string-functions.md#endWithIgnoreCase) |
+| String | [ equalIgnoreCase ](../functions/string-functions.md#equalIgnoreCase) |
+| String | [indexOf](../functions/string-functions.md#indexOf) |
+| String | [isEmpty](../functions/string-functions.md#isEmpty) |
+| String | [isNotEmpty](../functions/string-functions.md#isNotEmpty) |
+| String | [lastIndexOf](../functions/string-functions.md#lastIndexOf) |
+| String | [length](../functions/string-functions.md#length) |
+| String | [lower](../functions/string-functions.md#lower) |
+| String | [matchRegExp](../functions/string-functions.md#matchRegExp) |
+| String | [ notEqualIgnoreCase ](../functions/string-functions.md#notEqualIgnoreCase) |
+| String | [replace](../functions/string-functions.md#replace) |
+| String | [replaceAll](../functions/string-functions.md#replaceAll) |
+| String | [split](../functions/string-functions.md#split) |
+| String | [startWith](../functions/string-functions.md#startWith) |
+| String | [startWithIgnoreCase](../functions/string-functions.md#startWithIgnoreCase) |
+| String | [substr](../functions/string-functions.md#substr) |
+| String | [trim](../functions/string-functions.md#trim) |
+| String | [upper](../functions/string-functions.md#upper) |
+| String | [uuid](../functions/string-functions.md#uuid) |
