@@ -36,7 +36,7 @@ Het publiek kan twee deelnemingsstatussen hebben:
 * **Realized**: Het individu kwalificeert voor de publieksdefinitie en is een actief lid
 * **Uitgegeven**: Het individu heeft het publiek verlaten en kwalificeert niet meer
 
-Slechts zullen de individuen met de **Geleide** status als actieve publieksleden worden beschouwd. Wanneer de functie `true` retourneert, wordt bevestigd dat de persoon de status heeft gerealiseerd; wanneer `false` wordt geretourneerd, geeft dit de status verlaten. Voor meer informatie over publieksevaluatie, verwijs naar de [&#x200B; documentatie van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+Slechts zullen de individuen met de **Geleide** status als actieve publieksleden worden beschouwd. Wanneer de functie `true` retourneert, wordt bevestigd dat de persoon de status heeft gerealiseerd; wanneer `false` wordt geretourneerd, geeft dit de status verlaten. Voor meer informatie over publieksevaluatie, verwijs naar de [&#x200B; documentatie van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=nl-NL#interpret-segment-results){target="_blank"}.
 
 +++Syntaxis
 
