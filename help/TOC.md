@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
-source-wordcount: '2987'
+source-wordcount: '2978'
 ht-degree: 17%
 
 ---
@@ -121,17 +121,7 @@ ht-degree: 17%
          + Datum {#date}
             + [Datumfuncties](using/building-journeys/functions/date-functions.md)
          + Lijst {#list}
-            + [Lijst](/help/rp_landing_pages/list-landing-page.md)
-            + [distinct](using/building-journeys/functions/functiondistinct.md)
-            + [distinctWithNull](using/building-journeys/functions/functiondistinctwithnull.md)
-            + [filter](using/building-journeys/functions/functionfilter.md)
-            + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
-            + [in](using/building-journeys/functions/functionin.md)
-            + [intersect](using/building-journeys/functions/functionintersect.md)
-            + [limiet](using/building-journeys/functions/functionlimit.md)
-            + [listSize](using/building-journeys/functions/functionlistsize.md)
-            + [serializeList](using/building-journeys/functions/functionserializelist.md)
-            + [sort](using/building-journeys/functions/functionsort.md)
+            + [Lijstfuncties](using/building-journeys/functions/list-functions.md)
          + Math {#math}
             + [Math](/help/rp_landing_pages/math-landing-page.md)
             + [random](using/building-journeys/functions/functionrandom.md)
@@ -857,7 +847,7 @@ ht-degree: 17%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}

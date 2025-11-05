@@ -4,23 +4,23 @@ product: Journey Optimizer
 title: Functies
 description: Functies
 redpen-status: CREATED_||_2025-08-11_20-18-53
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+exl-id: d82e30d6-abe5-4522-a8c4-a11ff5c9bd91
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
 
 ---
 
-
 # Functies{#section-overview}
 
-Met functies in Adobe Journey Optimizer kunt u dynamische en nauwkeurige expressies maken om uw klantritten af te stemmen. Of u nu het lidmaatschap van de doelgroep evalueert, gegevens samenvoegt, indelingen omzet, datums manipuleert of verwerkingslijsten, elke functiecategorie heeft een uniek doel bij het optimaliseren van workflows. Met gereedschappen voor wiskundige berekeningen, tekenreeksaanpassingen en nog veel meer bieden deze functies eindeloze mogelijkheden voor het maken van geavanceerde omstandigheden. Wanneer u de secties die u gaat bekijken, zoekt u praktische voorbeelden en gedetailleerde instructies die complexe bewerkingen vereenvoudigen, zodat u eenvoudig het volledige potentieel van persoonlijke trajectorchestratie kunt ontsluiten.
+Met functies in Adobe Journey Optimizer kunt u dynamische en nauwkeurige expressies maken om uw klantritten af te stemmen. Of u het publiekslidmaatschap, het samenvoegen van gegevens, het omzetten van formaten, het manipuleren van data, of verwerkingslijsten evalueert, elke categorie van functies dient een uniek doel in het optimaliseren van werkschema&#39;s. Met gereedschappen voor wiskundige berekeningen, tekenreeksaanpassingen en nog veel meer bieden deze functies eindeloze mogelijkheden voor het maken van geavanceerde omstandigheden. Als u de secties die u gaat bekijken, zult u praktische voorbeelden en gedetailleerde begeleiding vinden die complexe verrichtingen vereenvoudigen, die het gemakkelijk maken om het volledige potentieel van gepersonaliseerde reis orchestratie te ontsluiten.
 
 ## Functies in Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Hoofdfuncties in Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Een overzicht bekijken van de belangrijkste beschikbare functies, gecategoriseer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 De functie inAudience gebruiken
 
@@ -40,37 +40,37 @@ Begrijp hoe te om publiekslidmaatschap te evalueren gebruikend de functie inAudi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Overzicht van aggregatiefuncties
 
 Hoofdaggregatiefuncties voor het uitvoeren van bewerkingen zoals gemiddelden, tellingen, verschillende waarden en sommen in reisexpressies.
 
-[Dive into aggregatiefuncties](aggregation-landing-page.md)
+[Dive into aggregatiefuncties](../using/building-journeys/functions/aggregation-functions.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
 
 Conversiefuncties
 
 Transformeer gegevenstypen met conversiefuncties om de invoer effectief te manipuleren voor reisorchestratie.
 
-[Conversiefuncties verkennen](conversion-landing-page.md)
+[Conversiefuncties verkennen](../using/building-journeys/functions/conversion-functions.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Datumfuncties in Adobe Journey Optimizer
 
 Leer om datum en tijdwaarden te manipuleren en te evalueren gebruikend krachtige date-related functies in reisuitdrukkingen.
 
-[Documentatie over datumfuncties weergeven](date-landing-page.md)
+[Documentatie over datumfuncties weergeven](../using/building-journeys/functions/date-functions.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Lijstfuncties in Adobe Journey Optimizer
 

@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Er worden twee typen verzamelingen ondersteund:
 
 >[!NOTE]
 >
->Geneste arrays in verzamelingen worden slechts gedeeltelijk ondersteund in aangepaste handelingen voor opvragingsladingen. Voor details, zie [&#x200B; Beperkingen &#x200B;](#limitations).
+>Geneste arrays in verzamelingen worden slechts gedeeltelijk ondersteund in aangepaste handelingen voor opvragingsladingen. Voor details, zie [ Beperkingen ](#limitations).
 
 ## Algemene procedure {#general-procedure}
 
@@ -100,7 +100,7 @@ In deze sectie gebruiken we het volgende JSON-payload-voorbeeld. Dit is een arra
 
 U ziet dat `products` een array van twee objecten is. U moet ten minste één object hebben.
 
-1. Maak een aangepaste handeling. Leer meer op [&#x200B; deze pagina &#x200B;](../action/about-custom-action-configuration.md).
+1. Maak een aangepaste handeling. Leer meer op [ deze pagina ](../action/about-custom-action-configuration.md).
 
 1. Plak in de sectie **[!UICONTROL Action parameters]** het JSON-voorbeeld. De weergegeven structuur is statisch: bij het plakken van de lading worden alle velden gedefinieerd als constanten.
 
@@ -122,7 +122,7 @@ U ziet dat `products` een array van twee objecten is. U moet ten minste één ob
 
    ![](assets/uc-collection-2.png){width="70%" align="left"}
 
-1. Maak uw reis en voeg de aangepaste actie toe die u hebt gemaakt. Leer meer op [&#x200B; deze pagina &#x200B;](../building-journeys/using-custom-actions.md).
+1. Maak uw reis en voeg de aangepaste actie toe die u hebt gemaakt. Leer meer op [ deze pagina ](../building-journeys/using-custom-actions.md).
 
 1. Definieer in de sectie **[!UICONTROL Action parameters]** de arrayparameter (`products` in ons voorbeeld) met de geavanceerde expressie-editor.
 
@@ -132,7 +132,7 @@ U ziet dat `products` een array van twee objecten is. U moet ten minste één ob
 
    ![](assets/uc-collection-4.png){width="50%" align="left"}
 
-Voor het matrixveld kunt u ook de geavanceerde expressie-editor gebruiken om gegevensbewerkingen uit te voeren. In het volgende voorbeeld, gebruiken wij de [&#x200B; filter &#x200B;](functions/functionfilter.md) en [&#x200B; &#x200B;](functions/functionintersect.md) functies doorsnijden:
+Voor het matrixveld kunt u ook de geavanceerde expressie-editor gebruiken om gegevensbewerkingen uit te voeren. In het volgende voorbeeld, gebruiken wij de [ filter ](functions/list-functions.md#filter) en [ ](functions/list-functions.md#intersect) functies doorsnijden:
 
 ![](assets/uc-collection-5.png)
 
@@ -227,8 +227,8 @@ Voorbeeld van array van arrays:
 
 Blader in de onderstaande secties voor meer informatie over het configureren, gebruiken en oplossen van problemen met aangepaste handelingen:
 
-* [&#x200B; worden begonnen met douaneacties &#x200B;](../action/action.md) - leer wat een douaneactie is en hoe zij u met uw derdesystemen helpen verbinden
-* [&#x200B; vorm uw douaneacties &#x200B;](../action/about-custom-action-configuration.md) - leer hoe te om een douaneactie tot stand te brengen en te vormen
-* [&#x200B; de douaneacties van het Gebruik &#x200B;](../building-journeys/using-custom-actions.md) - leer hoe te om douaneacties in uw reizen te gebruiken
-* [&#x200B; het oplossen van problemen van de Actie van de Douane &#x200B;](../action/troubleshoot-custom-action.md) - Leer hoe te om een douaneactie problemen op te lossen
+* [ worden begonnen met douaneacties ](../action/action.md) - leer wat een douaneactie is en hoe zij u met uw derdesystemen helpen verbinden
+* [ vorm uw douaneacties ](../action/about-custom-action-configuration.md) - leer hoe te om een douaneactie tot stand te brengen en te vormen
+* [ de douaneacties van het Gebruik ](../building-journeys/using-custom-actions.md) - leer hoe te om douaneacties in uw reizen te gebruiken
+* [ het oplossen van problemen van de Actie van de Douane ](../action/troubleshoot-custom-action.md) - Leer hoe te om een douaneactie problemen op te lossen
 
