@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
+source-git-commit: a866442aa073c648d4455754e9945f0dddfb079d
 workflow-type: tm+mt
-source-wordcount: '2956'
+source-wordcount: '2947'
 ht-degree: 16%
 
 ---
@@ -112,22 +112,13 @@ ht-degree: 16%
       + Functies {#main-functions-journey}
          + [Functies](/help/rp_landing_pages/main-functions-journey-landing-page.md)
          + [Hoofdfuncties](using/building-journeys/expression/functions.md)
-         + Adobe Experience Platform {#adobe-experience-platform}
-            + [inPubliek](using/building-journeys/functions/functioninaudience.md)
-         + Samenvoeging {#aggregation}
-            + [Samenvoegingsfuncties](using/building-journeys/functions/aggregation-functions.md)
-         + Conversie {#conversion}
-            + [Conversiefuncties](using/building-journeys/functions/conversion-functions.md)
-         + Datum {#date}
-            + [Datumfuncties](using/building-journeys/functions/date-functions.md)
-         + Lijst {#list}
-            + [Lijstfuncties](using/building-journeys/functions/list-functions.md)
-         + Math {#math}
-            + [Math](/help/rp_landing_pages/math-landing-page.md)
-            + [random](using/building-journeys/functions/functionrandom.md)
-            + [round](using/building-journeys/functions/functionround.md)
-         + String {#string}
-            + [Reeksfuncties](using/building-journeys/functions/string-functions.md)
+         + [inAudience, functie](using/building-journeys/functions/functioninaudience.md)
+         + [Samenvoegingsfuncties](using/building-journeys/functions/aggregation-functions.md)
+         + [Conversiefuncties](using/building-journeys/functions/conversion-functions.md)
+         + [Datumfuncties](using/building-journeys/functions/date-functions.md)
+         + [Lijstfuncties](using/building-journeys/functions/list-functions.md)
+         + [Math-functies](using/building-journeys/functions/math-functions.md)
+         + [Reeksfuncties](using/building-journeys/functions/string-functions.md)
    + Gebruiksscenario’s {#journey-use-cases}
       + [Gebruiksscenario’s](/help/rp_landing_pages/journey-use-cases-landing-page.md)
       + [Gebruikskwesties leren](using/building-journeys/jo-use-cases.md)
@@ -824,7 +815,7 @@ ht-degree: 16%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
