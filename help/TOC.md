@@ -5,10 +5,10 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 013c5758a106cfd3c2eaeecc25cc6ca4a4b41375
+source-git-commit: af1babe501a5b2c6a67730396a8f5e2c5d85e60a
 workflow-type: tm+mt
-source-wordcount: '3015'
-ht-degree: 18%
+source-wordcount: '3007'
+ht-degree: 17%
 
 ---
 
@@ -115,16 +115,7 @@ ht-degree: 18%
          + Adobe Experience Platform {#adobe-experience-platform}
             + [inPubliek](using/building-journeys/functions/functioninaudience.md)
          + Samenvoeging {#aggregation}
-            + [Samenvoeging](/help/rp_landing_pages/aggregation-landing-page.md)
-            + [avg](using/building-journeys/functions/functionavg.md)
-            + [count](using/building-journeys/functions/functioncount.md)
-            + [countOnlyNull](using/building-journeys/functions/functioncountonlynull.md)
-            + [countWithNull](using/building-journeys/functions/functioncountwithnull.md)
-            + [distinctCount](using/building-journeys/functions/functiondistinctcount.md)
-            + [distinctCountWithNull](using/building-journeys/functions/functiondistinctcountwithnull.md)
-            + [max](using/building-journeys/functions/functionmax.md)
-            + [min](using/building-journeys/functions/functionmin.md)
-            + [sum](using/building-journeys/functions/functionsum.md)
+            + [Samenvoegingsfuncties](using/building-journeys/functions/aggregation-functions.md)
          + Conversie {#conversion}
             + [Conversie](/help/rp_landing_pages/conversion-landing-page.md)
             + [toBool](using/building-journeys/functions/functiontobool.md)
@@ -888,7 +879,7 @@ ht-degree: 18%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
