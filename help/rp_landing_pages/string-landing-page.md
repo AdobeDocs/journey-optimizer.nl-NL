@@ -4,8 +4,10 @@ product: Journey Optimizer
 title: String
 description: String
 redpen-status: CREATED_||_2025-08-11_20-18-34
+hide: true
+hidefromtoc: true
 exl-id: 1085e570-10b8-4d96-912a-994979358b65
-source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
+source-git-commit: 18697bd59466a41ffa3fa55f758222ce61415f42
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
@@ -20,7 +22,7 @@ Tekenreeksen zijn de bouwstenen van op tekst gebaseerde gegevens, en Adobe Journ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 concat Function Reference
 
@@ -30,7 +32,7 @@ Leer hoe u tekenreeksen of een lijst met tekenreeksen combineert met de functie 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 De functie &#39;contain&#39; gebruiken
 
@@ -40,7 +42,7 @@ Ontdek hoe u de aanwezigheid van een tekenreeks in een andere tekenreeks kunt co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 containIgnoreCase Function
 
@@ -50,7 +52,7 @@ Begrijp hoe te om case-insensitive koordinperkingscontroles uit te voeren.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 endWith Function Reference
 
@@ -60,7 +62,7 @@ Leer om te controleren of een tekenreeks eindigt met een specifiek achtervoegsel
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 endWithIgnoreCase Function
 
@@ -70,7 +72,7 @@ Controleer of een tekenreeks eindigt met een achtervoegsel, waarbij hoofdletterg
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Functieverwijzing equalIgnoreCase
 

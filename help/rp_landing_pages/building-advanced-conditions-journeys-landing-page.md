@@ -5,7 +5,7 @@ title: Expressies maken
 description: Expressies maken
 redpen-status: CREATED_||_2025-08-11_20-19-10
 exl-id: 6ccd0bc7-fb40-48de-abcb-0cb1eb2c6303
-source-git-commit: a5f0b47b9af31c1ae1fd6ae3dffd4c260444297a
+source-git-commit: 18697bd59466a41ffa3fa55f758222ce61415f42
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Adobe Journey Optimizer omvat een **geavanceerde uitdrukkingsredacteur** die u c
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 De geavanceerde expressie-editor gebruiken
 
@@ -30,7 +30,7 @@ Leer hoe u de geavanceerde expressie-editor kunt gebruiken om aangepaste express
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Geavanceerde syntaxis voor expressies
 
@@ -40,18 +40,18 @@ U kunt de syntaxisregels, voorwaardelijke instructies en gegevenstypen die nodig
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Functies in Adobe Journey Optimizer
 
 Toegang tot een uitgebreide handleiding voor functies voor gegevensmanipulatie, evaluatie van voorwaarden en het samenstellen van complexe workflows tijdens reizen.
 
-[Beschikbare functies ontdekken](main-functions-journey-landing-page.md)
+[Beschikbare functies ontdekken](../using/building-journeys/expression/functions.md)
 :::
 
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Voorbeelden van vragen over Journey Optimizer-gegevenssets en verwante gebruiksgevallen
 
@@ -61,7 +61,7 @@ Heb toegang tot praktische SQL vraagvoorbeelden om gegevens over datasets van Jo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Voorbeeld van SQL-query&#39;s voor gegevensanalyse
 
