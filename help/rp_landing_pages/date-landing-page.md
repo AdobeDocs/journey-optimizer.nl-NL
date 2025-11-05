@@ -20,7 +20,7 @@ Met de Date-functies in Adobe Journey Optimizer kunt u naadloos werken met aan t
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 currentTimeInMillis-functieverwijzing
 
@@ -30,7 +30,7 @@ Leer hoe u de functie &#39;currentTimeInMillis&#39; gebruikt om de huidige tijd 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inLastDays, functie
 
@@ -40,7 +40,7 @@ Begrijp de functie &#39;inLastDays&#39;, die controleert of een bepaalde datum b
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 De functie inLastHours gebruiken
 
@@ -50,7 +50,7 @@ Onderzoek de functie &#39;inLastHours&#39; om te bepalen of een datum-tijd binne
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 De functie inLastMonths gebruiken
 
@@ -60,7 +60,7 @@ Controleer of een datum binnen een opgegeven bereik van maanden valt met &#39;in
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 De functie inLastYaren gebruiken
 
@@ -70,7 +70,7 @@ Leer hoe u de functie &#39;inLastYear&#39; gebruikt om te beoordelen of een datu
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inNextDays, functie
 
