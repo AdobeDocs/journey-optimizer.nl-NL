@@ -20,7 +20,7 @@ Tekenreeksen zijn de bouwstenen van op tekst gebaseerde gegevens, en Adobe Journ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 concat Function Reference
 
@@ -30,7 +30,7 @@ Leer hoe u tekenreeksen of een lijst met tekenreeksen combineert met de functie 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 De functie &#39;contain&#39; gebruiken
 
@@ -40,7 +40,7 @@ Ontdek hoe u de aanwezigheid van een tekenreeks in een andere tekenreeks kunt co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 containIgnoreCase Function
 
@@ -50,7 +50,7 @@ Begrijp hoe te om case-insensitive koordinperkingscontroles uit te voeren.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 endWith Function Reference
 
@@ -60,7 +60,7 @@ Leer om te controleren of een tekenreeks eindigt met een specifiek achtervoegsel
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 endWithIgnoreCase Function
 
@@ -70,7 +70,7 @@ Controleer of een tekenreeks eindigt met een achtervoegsel, waarbij hoofdletterg
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 Functieverwijzing equalIgnoreCase
 
