@@ -20,7 +20,7 @@ Met functies in Adobe Journey Optimizer kunt u dynamische en nauwkeurige express
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 Hoofdfuncties in Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Een overzicht bekijken van de belangrijkste beschikbare functies, gecategoriseer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
 
 De functie inAudience gebruiken
 
@@ -40,7 +40,7 @@ Begrijp hoe te om publiekslidmaatschap te evalueren gebruikend de functie inAudi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
 
 Overzicht van aggregatiefuncties
 
@@ -50,7 +50,7 @@ Hoofdaggregatiefuncties voor het uitvoeren van bewerkingen zoals gemiddelden, te
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=nl-NL)
 
 Conversiefuncties
 
@@ -60,7 +60,7 @@ Transformeer gegevenstypen met conversiefuncties om de invoer effectief te manip
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=nl-NL)
 
 Datumfuncties in Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Leer om datum en tijdwaarden te manipuleren en te evalueren gebruikend krachtige
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Lijstfuncties in Adobe Journey Optimizer
 
