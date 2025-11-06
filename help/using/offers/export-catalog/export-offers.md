@@ -119,14 +119,14 @@ Kenmerken worden gebruikt als waarden in de inhoud die deze beslissingsoptie ver
 
      **Gebied:** formaat
      **Titel:** Formaat
-     **Beschrijving:** De fysieke of digitale manifestatie van het middel. Normaal gesproken moet de indeling het mediatype van de bron bevatten. De indeling kan worden gebruikt om te bepalen welke software, hardware of andere apparatuur nodig is om de bron weer te geven of te gebruiken. De geadviseerde beste praktijken moeten een waarde van een gecontroleerde woordenlijst (bijvoorbeeld, de lijst van [ de Types van Media van Internet ](https://www.iana.org/assignments/media-types/) het bepalen van de formaten van computermedia) selecteren.
+     **Beschrijving:** De fysieke of digitale manifestatie van het middel. Normaal gesproken moet de indeling het mediatype van de bron bevatten. De indeling kan worden gebruikt om te bepalen welke software, hardware of andere apparatuur nodig is om de bron weer te geven of te gebruiken. De geadviseerde beste praktijken moeten een waarde van een gecontroleerde woordenlijst (bijvoorbeeld, de lijst van [&#x200B; de Types van Media van Internet &#x200B;](https://www.iana.org/assignments/media-types/) het bepalen van de formaten van computermedia) selecteren.
      **Type:** koord
      **Voorbeeld:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Taal**
      **Gebied:** taal
      **Titel:** Taal
-     **Beschrijving:** de taal of de talen van het middel. \nLanguages worden gespecificeerd in taalcode zoals die in [ wordt bepaald IETF RFC 3066 ](https://www.ietf.org/rfc/rfc3066.txt), die deel van BCP 47 uitmaakt, die elders in XDM wordt gebruikt.
+     **Beschrijving:** de taal of de talen van het middel. \nLanguages worden gespecificeerd in taalcode zoals die in [&#x200B; wordt bepaald IETF RFC 3066 &#x200B;](https://www.ietf.org/rfc/rfc3066.txt), die deel van BCP 47 uitmaakt, die elders in XDM wordt gebruikt.
      **Type:** serie
      **Voorbeelden:** &quot;\ n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
 
@@ -180,7 +180,7 @@ Kenmerken worden gebruikt als waarden in de inhoud die deze beslissingsoptie ver
   **Gebied:** linkURL
   **Beschrijving:** een facultatieve unieke middelteller voor gebruikersinteractie. Deze URL wordt gebruikt om de eindgebruiker naar in een gebruikersagent te verwijzen en kan worden gevolgd.
   **Type:** koord
-  **Voorbeeld:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Voorbeeld:** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > decisions > contents > Placement
 
