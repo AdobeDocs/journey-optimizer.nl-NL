@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: zaadlijst, zaadlijst, zaad, configuratie
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 1cca05a4f7590f42c1ed5104cb530930e139b2b9
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 2%
@@ -32,23 +32,23 @@ Zaadadressen zijn geen echte profielen en testprofielen, omdat deze geen profiel
 
   Bijvoorbeeld:
 
-+++ Als u een marketingmanager bent:
+  +++ Als u een marketingmanager bent:
 
   U wilt dat al uw teamleden tegelijkertijd met uw klanten kopieën van verzonden berichten ontvangen. Op deze manier kan uw team ervoor zorgen dat berichten worden verzonden met de verwachte lay-out, actieve URL&#39;s, correcte tekst en beelden - allen zoals gepland vóór uitvoering.
 
-+++
+  +++
 
-+++ Als u eigenaar van het product bent:
+  +++ Als u eigenaar van het product bent:
 
   U moet het spoor van daadwerkelijke berichten houden die naar klanten worden verzonden. Uw team en de leiding zijn wellicht geïnteresseerd in bepaalde campagnes en moeten op ad-hocbasis worden toegevoegd om kopieën van de boodschap op het moment van levering te ontvangen.
 
-+++
+  +++
 
 * Een andere reden voor het gebruik van zaadlijsten is de bescherming van uw mailinglijst. Door zaadadressen in te voegen in uw mailinglijst kunt u zien of het door een derde wordt gebruikt, aangezien de zaadadressen het bevat de leveringen ontvangen die naar uw mailinglijst worden verzonden.
 
 >[!NOTE]
 >
->Varianten worden ondersteund, inclusief meertalige en experimenteringsvarianten. Elk zaadadres ontvangt één enkel exemplaar van elke variant van het zelfde bericht, b.v. verschillende versies van a [&#x200B; inhoudsexperiment &#x200B;](../content-management/get-started-experiment.md). Voor voorwaardelijke inhoud worden geen afzonderlijke e-mails met zaad verzonden.
+>Varianten worden ondersteund, inclusief meertalige en experimenteringsvarianten. Elk zaadadres ontvangt één enkel exemplaar van elke variant van het zelfde bericht, b.v. verschillende versies van a [ inhoudsexperiment ](../content-management/get-started-experiment.md). Voor voorwaardelijke inhoud worden geen afzonderlijke e-mails met zaad verzonden.
 
 ## De zaadlijsten openen {#access-seed-lists}
 
@@ -73,7 +73,7 @@ Gebruik de knop **[!UICONTROL Delete]** om een item permanent te verwijderen.
 
 >[!CAUTION]
 >
->Het is niet mogelijk om een zaadlijst te schrappen die in een actieve [&#x200B; campagne &#x200B;](../campaigns/review-activate-campaign.md) of [&#x200B; reis &#x200B;](../building-journeys/publishing-the-journey.md) wordt gebruikt. U moet de campagne/reis deactiveren, of het uitgeven om een andere configuratie te gebruiken die niet de geselecteerde zaadlijst heeft. [&#x200B; leer meer over het gebruiken van een zaadlijst &#x200B;](#use-seed-list)
+>Het is niet mogelijk om een zaadlijst te schrappen die in een actieve [ campagne ](../campaigns/review-activate-campaign.md) of [ reis ](../building-journeys/publish-journey.md) wordt gebruikt. U moet de campagne/reis deactiveren, of het uitgeven om een andere configuratie te gebruiken die niet de geselecteerde zaadlijst heeft. [ leer meer over het gebruiken van een zaadlijst ](#use-seed-list)
 
 U kunt op de naam van een zaadlijst klikken om deze te bewerken. <!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 
@@ -83,7 +83,7 @@ U kunt op de naam van een zaadlijst klikken om deze te bewerken. <!--Use the **[
 >id="ajo_seed_list_details"
 >title="Een zaadlijst definiëren"
 >abstract="Gebruik een zaadlijst om specifieke interne adressen aan uw leveringspubliek voor verzekeringsdoeleinden automatisch toe te voegen. Met zaadlijsten kunt u de berichtkopieën controleren die worden verzonden om ervoor te zorgen dat alle weergave-elementen correct zijn en uw mailinglijst beveiligen. Deze functie is momenteel alleen van toepassing op het e-mailkanaal."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=nl-NL#use-seed-list" text="Wat zijn zaadlijsten?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="Wat zijn zaadlijsten?"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
@@ -122,7 +122,7 @@ Voer de onderstaande stappen uit om een zaadlijst te maken.
    >
    >U kunt beide opties combineren, maar het totale aantal adressen in een zaadlijst mag niet groter zijn dan 300.
 
-1. Klik op **[!UICONTROL Create]** om te bevestigen. De nieuw gecreëerde zaadlijst toont in het [&#x200B; scherm van de zaadlijst &#x200B;](#access-seed-lists).
+1. Klik op **[!UICONTROL Create]** om te bevestigen. De nieuw gecreëerde zaadlijst toont in het [ scherm van de zaadlijst ](#access-seed-lists).
 
 ## Een zaadlijst gebruiken in een campagne of reis {#use-seed-list}
 
@@ -134,7 +134,7 @@ Nu uw zaadlijst wordt gecreeerd, kunt u het in om het even welke campagne of rei
 
 1. Maak een configuratie en selecteer het kanaal **[!UICONTROL Email]** . [Meer informatie](../email/email-settings.md)
 
-1. Selecteer de zaadlijst van uw keus in de [&#x200B; overeenkomstige sectie &#x200B;](../email/email-settings.md#seed-list).
+1. Selecteer de zaadlijst van uw keus in de [ overeenkomstige sectie ](../email/email-settings.md#seed-list).
 
    >[!NOTE]
    >
@@ -144,18 +144,18 @@ Nu uw zaadlijst wordt gecreeerd, kunt u het in om het even welke campagne of rei
 
 1. Verzend de configuratie.
 
-1. Creeer a [&#x200B; campagne &#x200B;](../campaigns/create-campaign.md) of a [&#x200B; reis &#x200B;](../building-journeys/journey-gs.md).
+1. Creeer a [ campagne ](../campaigns/create-campaign.md) of a [ reis ](../building-journeys/journey-gs.md).
 
-1. Selecteer de **[!UICONTROL Email]** actie en selecteer de [&#x200B; configuratie &#x200B;](channel-surfaces.md) met inbegrip van de zaadlijst die voor u relevant is.
+1. Selecteer de **[!UICONTROL Email]** actie en selecteer de [ configuratie ](channel-surfaces.md) met inbegrip van de zaadlijst die voor u relevant is.
 
    ![](assets/seed-list-campaign-email.png)
 
-1. Activeer uw [&#x200B; campagne &#x200B;](../campaigns/review-activate-campaign.md) of publiceer uw [&#x200B; reis &#x200B;](../building-journeys/publishing-the-journey.md).
+1. Activeer uw [ campagne ](../campaigns/review-activate-campaign.md) of publiceer uw [ reis ](../building-journeys/publish-journey.md).
 
 Telkens wanneer een e-mailbericht naar uw klanten wordt verstuurd via die campagne of die reis, zullen de e-mailadressen op de geselecteerde zaadlijst het ook in de zelfde voorwaarden, tezelfdertijd en met de zelfde inhoud ontvangen zoals de beoogde ontvangers.
 
 >[!NOTE]
 >
->[&#x200B; de wijze van de Test &#x200B;](../building-journeys/testing-the-journey.md) reizen verzenden geen e-mail naar de zaadlijst. Om uw e-mailinhoud te controleren, gebruik de [&#x200B; voorproef en test &#x200B;](../content-management/preview-test.md) functionaliteit alvorens uw bericht te verzenden.
+>[ de wijze van de Test ](../building-journeys/testing-the-journey.md) reizen verzenden geen e-mail naar de zaadlijst. Om uw e-mailinhoud te controleren, gebruik de [ voorproef en test ](../content-management/preview-test.md) functionaliteit alvorens uw bericht te verzenden.
 >
 >Voor terugkerende ritten, wordt de e-maillevering verzonden naar de zaadadressen bij elke reis uitvoering, op voorwaarde dat minstens één profiel de e-mailknoop bereikt.

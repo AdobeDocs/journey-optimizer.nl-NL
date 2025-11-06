@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
-source-git-commit: 623d9b15d1f7f4e7f73f26cf3e19516bed4c0f56
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken o
 
 Klik hiertoe op **[!UICONTROL Simulate content]** en controleer het bericht met behulp van de gegevens van het testprofiel.
 
-De gedetailleerde informatie over hoe te voorproef &amp; test inhoud is beschikbaar in de [&#x200B; sectie van het Beheer van de Inhoud &#x200B;](../content-management/preview-test.md).
+De gedetailleerde informatie over hoe te voorproef &amp; test inhoud is beschikbaar in de [ sectie van het Beheer van de Inhoud ](../content-management/preview-test.md).
 
 ## Uw inhoud valideren {#whatsapp-validate}
 
@@ -39,4 +39,4 @@ U moet alarm in de hogere sectie van de redacteur controleren. Sommige zijn eenv
 >
 > Als uw campagne onderworpen is aan een goedkeuringsbeleid, zult u goedkeuring moeten vragen om uw tekstberichten te kunnen verzenden. [Meer informatie](../test-approve/gs-approval.md)
 
-Wanneer uw bericht WhatsApp klaar is, voltooi de configuratie van uw [&#x200B; reis &#x200B;](../building-journeys/publishing-the-journey.md) of [&#x200B; campagne &#x200B;](../campaigns/review-activate-campaign.md) om het te verzenden.
+Wanneer uw bericht WhatsApp klaar is, voltooi de configuratie van uw [ reis ](../building-journeys/publish-journey.md) of [ campagne ](../campaigns/review-activate-campaign.md) om het te verzenden.

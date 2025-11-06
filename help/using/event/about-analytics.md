@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: analyse, integratie, web sdk, platform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 5%
@@ -30,7 +30,7 @@ Dit werkt alleen met Adobe Analytics als u:
 >
 >Deze sectie is slechts op regel-gebaseerde gebeurtenissen en klanten van toepassing die de gegevens van Adobe Analytics of van het Web SDK moeten gebruiken.
 > 
->Als u Adobe Customer Journey Analytics gebruikt, verwijs naar [&#x200B; deze pagina &#x200B;](../reports/cja-ajo.md).
+>Als u Adobe Customer Journey Analytics gebruikt, verwijs naar [ deze pagina ](../reports/cja-ajo.md).
 >
 
 ## Adobe Analytics- of Web SDK-gegevens configureren {#leverage-analytics-data}
@@ -61,7 +61,7 @@ Dit laat de bron van Analytics schakelaar voor die rapportreeks toe. Telkens wan
 
 ![](assets/ajo-aa_4.png)
 
-Leer meer over de bronschakelaar van Adobe Analytics in [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=nl-NL){target="_blank"} en [&#x200B; leerprogramma &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=nl-NL){target="_blank"}.
+Leer meer over de bronschakelaar van Adobe Analytics in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target="_blank"} en [ leerprogramma ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target="_blank"}.
 
 ## Deze configuratie activeren {#activate-analytics-data}
 
@@ -102,7 +102,7 @@ In het onderstaande voorbeeld leert u hoe u gebruikers die een product aan hun w
    * **[!UICONTROL Name]**: pas de naam van uw **[!UICONTROL Event]** aan.
    * **[!UICONTROL Type]** : kies het **[!UICONTROL Unitary]** type. [Meer informatie](../event/about-events.md)
    * **[!UICONTROL Event ID type]**: Kies het type **[!UICONTROL Rule based]** gebeurtenis-id. [Meer informatie](../event/about-events.md#event-id-type)
-   * **[!UICONTROL Schema]**: Selecteer Analytics of WebSDK die schema [&#x200B; vóór &#x200B;](#leverage-analytics-data) wordt gecreeerd.
+   * **[!UICONTROL Schema]**: Selecteer Analytics of WebSDK die schema [ vóór ](#leverage-analytics-data) wordt gecreeerd.
    * **[!UICONTROL Fields]**: selecteer de velden Payload. [Meer informatie](../event/about-creating.md#define-the-payload-fields)
    * **[!UICONTROL Event ID condition]**: Bepaal de voorwaarde om de gebeurtenissen te identificeren die uw reis zullen teweegbrengen.
 
@@ -135,6 +135,6 @@ Nu de gebeurtenis klaar is, maak een reis om het te gebruiken.
 
 1. Voeg vervolgens een **[!UICONTROL Email action]** toe. In deze e-mail worden de klanten gevraagd feedback te geven over de geplaatste bestelling.
 
-U kunt nu uw reis testen en publiceren. [Meer informatie](../building-journeys/publishing-the-journey.md)
+U kunt nu uw reis testen en publiceren. [Meer informatie](../building-journeys/publish-journey.md)
 
 ![](assets/ajo-aa_7.png)

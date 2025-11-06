@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 >
 > Als uw campagne onderworpen is aan een goedkeuringsbeleid, zult u goedkeuring moeten vragen om uw code-gebaseerde ervaringen te kunnen activeren. [Meer informatie](../test-approve/gs-approval.md)
 
-Zodra u uw op code-gebaseerde ervaring bepaalde en uw inhoud zoals gewenst gebruikend de [&#x200B; code-gebaseerde redacteur &#x200B;](create-code-based.md#edit-code) gebruikte, kunt u uw reis of campagne activeren om uw veranderingen zichtbaar aan uw publiek te maken.
+Zodra u uw op code-gebaseerde ervaring bepaalde en uw inhoud zoals gewenst gebruikend de [ code-gebaseerde redacteur ](create-code-based.md#edit-code) gebruikte, kunt u uw reis of campagne activeren om uw veranderingen zichtbaar aan uw publiek te maken.
 
 U kunt ook een voorvertoning van uw code-gebaseerde ervaringsinhoud weergeven voordat u deze live maakt. [Meer informatie](test-code-based.md)
 
@@ -29,9 +29,9 @@ U kunt ook een voorvertoning van uw code-gebaseerde ervaringsinhoud weergeven vo
 >
 >Als u een op code gebaseerde reis/campagne activeert die dezelfde pagina&#39;s beïnvloedt als een andere reis of campagne die al actief is, worden alle wijzigingen toegepast op uw inhoud.
 >
->Als meerdere op code gebaseerde reizen of campagnes hetzelfde element of dezelfde elementen van uw inhoud bijwerken, heeft de hoogste prioriteit prioriteit voor de reis/campagne. [&#x200B; leer meer op prioritaire scores &#x200B;](../conflict-prioritization/priority-scores.md)
+>Als meerdere op code gebaseerde reizen of campagnes hetzelfde element of dezelfde elementen van uw inhoud bijwerken, heeft de hoogste prioriteit prioriteit voor de reis/campagne. [ leer meer op prioritaire scores ](../conflict-prioritization/priority-scores.md)
 
-Zodra uw op code-gebaseerde reis of campagne levend is, is uw team van de app implementatie verantwoordelijk voor het maken van expliciete API of SDK vraag om inhoud voor de oppervlakken te halen die in de geselecteerde [&#x200B; op code-gebaseerde ervaringsconfiguratie &#x200B;](code-based-configuration.md) worden bepaald. Leer meer over de verschillende klantenimplementaties in [&#x200B; deze sectie &#x200B;](code-based-implementation-samples.md).
+Zodra uw op code-gebaseerde reis of campagne levend is, is uw team van de app implementatie verantwoordelijk voor het maken van expliciete API of SDK vraag om inhoud voor de oppervlakken te halen die in de geselecteerde [ op code-gebaseerde ervaringsconfiguratie ](code-based-configuration.md) worden bepaald. Leer meer over de verschillende klantenimplementaties in [ deze sectie ](code-based-implementation-samples.md).
 
 ### Een op code gebaseerde reis publiceren {#publish-code-based-journey}
 
@@ -45,7 +45,7 @@ Volg de onderstaande stappen om uw op code gebaseerde ervaring live te maken van
 
    >[!NOTE]
    >
-   >Leer meer over het publiceren reizen in [&#x200B; deze sectie &#x200B;](../building-journeys/publishing-the-journey.md).
+   >Leer meer over het publiceren reizen in [ deze sectie ](../building-journeys/publish-journey.md).
 
 Uw op code-gebaseerde reis neemt de **[!UICONTROL Live]** status en is nu zichtbaar aan het geselecteerde publiek. Elke ontvanger van uw reis kan uw wijzigingen zien.
 
@@ -67,7 +67,7 @@ Uw op code-gebaseerde reis neemt de **[!UICONTROL Live]** status en is nu zichtb
 
    >[!NOTE]
    >
-   >Leer meer over het activeren van campagnes in [&#x200B; deze sectie &#x200B;](../campaigns/review-activate-campaign.md).
+   >Leer meer over het activeren van campagnes in [ deze sectie ](../campaigns/review-activate-campaign.md).
 
 Uw op code gebaseerde campagne neemt de **[!UICONTROL Live]** status en is nu zichtbaar voor het geselecteerde publiek. Elke ontvanger van de campagne kan de wijzigingen zien die u aan uw inhoud hebt toegevoegd.
 

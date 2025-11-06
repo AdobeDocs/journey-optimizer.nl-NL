@@ -6,7 +6,7 @@ description: Een journey maken
 redpen-status: CREATED_||_2025-08-11_20-07-02
 version: Journey Orchestration
 exl-id: d08e8c3a-7ade-4c38-93f6-c552a44d6209
-source-git-commit: 3eadf569fd98ac1b51a62e95f399c04f47fc5071
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 4%
@@ -21,7 +21,7 @@ Als u een reis maakt in Adobe Journey Optimizer, kunt u persoonlijke, geautomati
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Hoe te om Uw Eerste reis van de Klant te creëren
 
@@ -31,7 +31,7 @@ Leer hoe u uw eerste reis van de klant maakt, ontwerpt, test en publiceert met s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Eigenschappen voor reizen definiëren en beheren
 
@@ -41,7 +41,7 @@ Vorm ingangsregels, tijd-verwante montages, toegangsbeheer, en meer voor uw reiz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Uw reis ontwerpen
 
@@ -51,7 +51,7 @@ Met de interface slepen en neerzetten kunt u gepersonaliseerde, uit meerdere sta
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Uw reis testen
 
@@ -61,7 +61,7 @@ Test uw reizen met gesimuleerde profielen en detecteer fouten voordat u live gaa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Reizen testen met de modus Droog uitvoeren
 
@@ -71,13 +71,13 @@ Valideer uw reizen met echte productiegegevens zonder contact op te nemen met kl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Een reis publiceren
 
 Leer hoe u uw reis publiceert, versies beheert en de geldigheid ervan verzekert.
 
-[Uw reis publiceren](../using/building-journeys/publishing-the-journey.md)
+[Uw reis publiceren](../using/building-journeys/publish-journey.md)
 :::
 
 ::::

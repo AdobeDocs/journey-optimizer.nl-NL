@@ -10,7 +10,7 @@ level: Intermediate
 keywords: publiceren, reizen, live, geldigheid, controle
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 # Live melding op de reiscanvas {#report-journey}
 
-Nadat uw reis wordt gepubliceerd, zodra de [&#x200B; Dry looppas wijze &#x200B;](journey-dry-run.md) wordt geactiveerd, **Levende Rapportering** metriek van de laatste 24 uren, direct binnen het wegcanvas verstrekt.
+Nadat uw reis wordt gepubliceerd, zodra de [ Dry looppas wijze ](journey-dry-run.md) wordt geactiveerd, **Levende Rapportering** metriek van de laatste 24 uren, direct binnen het wegcanvas verstrekt.
 
 
 >[!AVAILABILITY]
@@ -31,7 +31,7 @@ De weergegeven gebeurtenissen hebben zich in de afgelopen 24 uur voorgedaan, met
 
 ![](assets/journey_live_report.png)
 
-Voor uw reizen op Levende of [&#x200B; Droog looppaswijze &#x200B;](journey-dry-run.md), kunt u controleren:
+Voor uw reizen op Levende of [ Droog looppaswijze ](journey-dry-run.md), kunt u controleren:
 
 * **[!UICONTROL Entered profiles]**: Het totale aantal personen dat de reis heeft betreden.
 * **[!UICONTROL Exited profiles]**: Het totale aantal personen dat de reis heeft verlaten (inclusief fouten).
@@ -43,7 +43,7 @@ Voor uw reizen op Levende of [&#x200B; Droog looppaswijze &#x200B;](journey-dry-
    * Op **terugkomende** reizen, wordt een teruggooi geteld op elke herhaling als het individu reeds in de reis is en het terugkeerbeleid niet aan &quot;forceer terugkeer&quot;wordt geplaatst.
    * Op **Gelezen de activiteiten van het Publiek**, komt een verwerpen voor als geen identiteit voor het uitgevoerde individu wordt geplaatst, of als ontvangen identiteitsnaamruimte niet verwachte voor de reis aanpast.
 
-Voor elke activiteit binnen elke reis in Levende of [&#x200B; Droge looppas wijze &#x200B;](journey-dry-run.md), hebt u toegang tot:
+Voor elke activiteit binnen elke reis in Levende of [ Droge looppas wijze ](journey-dry-run.md), hebt u toegang tot:
 
 * **[!UICONTROL Entered]**: Het totale aantal personen dat deze activiteit heeft ingevoerd. Voor **de activiteiten van de Actie**, aangezien zij niet op Droog looppas wijze worden uitgevoerd, wijst metrisch op profielen die door overgaan.
 * **[!UICONTROL Exited (met exit criteria)]**: Het totale aantal personen dat de reis heeft verlaten van die activiteit, als gevolg van een exit-criterium (inclusief fouten).
@@ -54,7 +54,7 @@ Voor elke activiteit binnen elke reis in Levende of [&#x200B; Droge looppas wijz
 >[!MORELIKETHIS]
 >
 >* [Aan de slag met rapportage](../reports/gs-reports.md)
->* [&#x200B; publiceer uw reis &#x200B;](publishing-the-journey.md)
->* [&#x200B; Droog van de Reis &#x200B;](journey-dry-run.md)
->* [&#x200B; vormt en volgt uw reismetriek &#x200B;](success-metrics.md)
->* [&#x200B; de reisrapporten van de Douane &#x200B;](../reports/sharing-overview.md)
+>* [ publiceer uw reis ](publish-journey.md)
+>* [ Droog van de Reis ](journey-dry-run.md)
+>* [ vormt en volgt uw reismetriek ](success-metrics.md)
+>* [ de reisrapporten van de Douane ](../reports/sharing-overview.md)
