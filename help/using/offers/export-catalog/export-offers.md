@@ -7,9 +7,9 @@ topic: Integrations
 role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 5dab96aef4471b24527d1287a9d36d48521c4596
 workflow-type: tm+mt
-source-wordcount: '1945'
+source-wordcount: '1978'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,8 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in de **[!UICONT
 
 **Gebied:** kenmerken
 **Titel:** Kenmerken van de Optie van het Besluit
-**Beschrijving:** Extra eigenschappen of attributen die tot deze bepaalde beslissingsoptie behoren. Verschillende instanties kunnen verschillende kenmerken hebben (toetsen in de kaart). De kenmerken zijn naamwaardeparen die worden gebruikt om een beslissingsoptie te onderscheiden van andere. Kenmerken worden gebruikt als waarden in de inhoud die deze beslissingsoptie vertegenwoordigt en als kenmerken voor het analyseren en optimaliseren van de prestaties van een optie. Wanneer elke instantie de zelfde attributen of het bezit heeft, zou dat aspect als uitbreidingsschema moeten worden gemodelleerd dat uit de details van de besluitvormingsoptie voortkomt.
+**Beschrijving:** de Kenmerken zijn de extra attributen of eigenschappen van aanbiedingen die tot een bepaalde beslissingsoptie behoren. Deze kenmerken zijn sleutelwaardeparen, wat betekent dat ze een kenmerknaam bevatten (soms ook wel een sleutel genoemd) waaraan een waarde is gekoppeld en dat ze worden gebruikt om een beslissingsoptie te onderscheiden van de andere aanbiedingen. Voor bijvoorbeeld de kenmerknaam &quot;color&quot; kan de waarde &quot;green&quot; zijn voor een specifieke aanbieding.
+Kenmerken worden gebruikt als waarden in de inhoud die deze beslissingsoptie vertegenwoordigt en als kenmerken voor het analyseren en optimaliseren van de prestaties van een aanbieding. Wanneer elke instantie de zelfde attributen of het bezit heeft, zou dat aspect als uitbreidingsschema moeten worden gemodelleerd dat uit het detail van de beslissingsoptie voortkomt.
 **Type:** voorwerp
 
 +++
@@ -118,14 +119,14 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in de **[!UICONT
 
      **Gebied:** formaat
      **Titel:** Formaat
-     **Beschrijving:** De fysieke of digitale manifestatie van het middel. Normaal gesproken moet de indeling het mediatype van de bron bevatten. De indeling kan worden gebruikt om te bepalen welke software, hardware of andere apparatuur nodig is om de bron weer te geven of te gebruiken. De geadviseerde beste praktijken moeten een waarde van een gecontroleerde woordenlijst (bijvoorbeeld, de lijst van [&#x200B; de Types van Media van Internet &#x200B;](https://www.iana.org/assignments/media-types/) het bepalen van de formaten van computermedia) selecteren.
+     **Beschrijving:** De fysieke of digitale manifestatie van het middel. Normaal gesproken moet de indeling het mediatype van de bron bevatten. De indeling kan worden gebruikt om te bepalen welke software, hardware of andere apparatuur nodig is om de bron weer te geven of te gebruiken. De geadviseerde beste praktijken moeten een waarde van een gecontroleerde woordenlijst (bijvoorbeeld, de lijst van [ de Types van Media van Internet ](https://www.iana.org/assignments/media-types/) het bepalen van de formaten van computermedia) selecteren.
      **Type:** koord
      **Voorbeeld:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Taal**
      **Gebied:** taal
      **Titel:** Taal
-     **Beschrijving:** de taal of de talen van het middel. \nLanguages worden gespecificeerd in taalcode zoals die in [&#x200B; wordt bepaald IETF RFC 3066 &#x200B;](https://www.ietf.org/rfc/rfc3066.txt), die deel van BCP 47 uitmaakt, die elders in XDM wordt gebruikt.
+     **Beschrijving:** de taal of de talen van het middel. \nLanguages worden gespecificeerd in taalcode zoals die in [ wordt bepaald IETF RFC 3066 ](https://www.ietf.org/rfc/rfc3066.txt), die deel van BCP 47 uitmaakt, die elders in XDM wordt gebruikt.
      **Type:** serie
      **Voorbeelden:** &quot;\ n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
 
@@ -179,7 +180,7 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in de **[!UICONT
   **Gebied:** linkURL
   **Beschrijving:** een facultatieve unieke middelteller voor gebruikersinteractie. Deze URL wordt gebruikt om de eindgebruiker naar in een gebruikersagent te verwijzen en kan worden gevolgd.
   **Type:** koord
-  **Voorbeeld:** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Voorbeeld:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > decisions > contents > Placement
 
