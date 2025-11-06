@@ -26,20 +26,20 @@ Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en
 
 Journey Optimizer Oktober is live! Ontdek de nieuwe functies en verbeteringen die deze maand in de Opmerkingen bij de release zijn gepubliceerd.
 
-[![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+[![&#x200B; leer meer &#x200B;](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
 
 >[!TAB  Campagne Orchestration ]
 
 Journey Optimizer omvat nu **Organiseren van de Campagne**, een nieuw vermogen doelgericht-gebouwd voor merk-in werking gestelde, partijcampagnes.
 
-[![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
+[![&#x200B; leer meer &#x200B;](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
 
 >[!TAB  Quiet Uren ]
 
 Met stille uren kunt u op tijd gebaseerde uitsluitingen definiëren voor e-mail-, SMS-, push- en WhatsApp-kanalen.
 
-[![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/quiet-hours.md)
+[![&#x200B; leer meer &#x200B;](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/quiet-hours.md)
 
 
 >[!ENDTABS]
@@ -49,7 +49,7 @@ Met stille uren kunt u op tijd gebaseerde uitsluitingen definiëren voor e-mail-
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Nieuwste aanvullende informatie
 
@@ -59,7 +59,7 @@ Blijf up-to-date met de nieuwste opmerkingen over releases, nieuwe functies en v
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag
 
@@ -69,7 +69,7 @@ Leer de basisbeginselen van Journey Optimizer, inclusief zijn mogelijkheden, arc
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Uitgebreide gids voor reizen
 
@@ -79,7 +79,7 @@ Met deze uitgebreide handleiding kunt u persoonlijke reizen van klanten ontwerpe
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Campagnes begrijpen en beheren
 
@@ -89,7 +89,7 @@ Gedetailleerde richtlijnen voor het maken, beheren en optimaliseren van verschil
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Communicatiekanalen
 
@@ -99,7 +99,7 @@ Configureer en beheer e-mail, SMS, pushberichten en andere kanalen voor persoonl
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Conflictbeheer en -prioritering
 
