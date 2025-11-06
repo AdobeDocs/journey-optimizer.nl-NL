@@ -32,7 +32,7 @@ Klik in de menusectie JOURNEY MANAGEMENT op **[!UICONTROL Journeys]** . Er zijn 
 
 Op het tabblad **[!UICONTROL Overview]** wordt een dashboard weergegeven met de belangrijkste maatstaven voor uw reizen.
 
-![ dashboard van de Reis die het Overzicht tabel ](assets/journeys-dashboard.png) benadrukt
+![&#x200B; dashboard van de Reis die het Overzicht tabel &#x200B;](assets/journeys-dashboard.png) benadrukt
 
 * **verwerkte Profielen**: totaal aantal profielen die in de laatste 24 uren worden verwerkt
 * **Levende reizen**: totaal aantal levende reizen met verkeer over de laatste 24 uren. De actieve reizen omvatten **Eenheids reizen** (gebeurtenis-gebaseerd) en **ritten van de Partij** (gelezen publiek).
@@ -47,9 +47,9 @@ Op het tabblad **[!UICONTROL Overview]** wordt een dashboard weergegeven met de 
 
 Op het tabblad **[!UICONTROL Browse]** wordt de lijst met bestaande reizen weergegeven. U kunt reizen zoeken, filters gebruiken en basishandelingen op elk element uitvoeren. U kunt bijvoorbeeld een item dupliceren of verwijderen.
 
-![ reis dashboard die het Browse lusje benadrukt ](assets/journeys-browse.png)
+![&#x200B; reis dashboard die het Browse lusje benadrukt &#x200B;](assets/journeys-browse.png)
 
-In de reislijst, worden alle reisversies getoond met het versieaantal. Wanneer u een reis zoekt, verschijnen de nieuwste versies bij de eerste keer dat de toepassing wordt geopend boven aan de lijst. Vervolgens kunt u de gewenste sortering definiëren en wordt deze door de toepassing als gebruikervoorkeur behouden. De versie van de reis wordt ook weergegeven boven aan de interface van de reiseditie, boven het canvas. Leer meer over [ beheer van de reisversie ](publish-journey.md#journey-versions-journey-versions).
+In de reislijst, worden alle reisversies getoond met het versieaantal. Wanneer u een reis zoekt, verschijnen de nieuwste versies bij de eerste keer dat de toepassing wordt geopend boven aan de lijst. Vervolgens kunt u de gewenste sortering definiëren en wordt deze door de toepassing als gebruikervoorkeur behouden. De versie van de reis wordt ook weergegeven boven aan de interface van de reiseditie, boven het canvas. Leer meer over [&#x200B; beheer van de reisversie &#x200B;](publish-journey.md#journey-versions-journey-versions).
 
 ### Reizigerskalender {#calendar}
 
@@ -65,21 +65,21 @@ Hoe reizen worden vertegenwoordigd:
 
 Navigeren in uw kalender voor reizen:
 
-1. Om tot de kalendermening toegang te hebben, open de reislijst en klik het ![ pictogram van de Kalender ](assets/do-not-localize/timeline-icon.svg) pictogram.
+1. Om tot de kalendermening toegang te hebben, open de reislijst en klik het ![&#x200B; pictogram van de Kalender &#x200B;](assets/do-not-localize/timeline-icon.svg) pictogram.
 
 1. Gebruik de pijlknoppen of de datumkiezer boven de kalender om tussen weken te gaan.
 
    In de kalender worden alle reizen weergegeven die voor de huidige week zijn gepland.
 
-   ![ kalendermening die levende reizen tonen ](assets/timeline-journeys.png)
+   ![&#x200B; kalendermening die levende reizen tonen &#x200B;](assets/timeline-journeys.png)
 
-1. Klik het ![ tandwiel ](assets/do-not-localize/Smock_Gears_18_N.png) pictogram om de vertoning van punten van een knevel te voorzien die veelvoudige dagen of weken overspannen.
+1. Klik het ![&#x200B; tandwiel &#x200B;](assets/do-not-localize/Smock_Gears_18_N.png) pictogram om de vertoning van punten van een knevel te voorzien die veelvoudige dagen of weken overspannen.
 
-   ![ kalendermening die levende campagnes tonen ](assets/journey-calendar-1.png)
+   ![&#x200B; kalendermening die levende campagnes tonen &#x200B;](assets/journey-calendar-1.png)
 
-1. Klik ![ toevoegen kalender ](assets/do-not-localize/Smock_CalendarAdd_18_N.svg) pictogram om tot drie externe kalenders te beheren en toe te voegen.
+1. Klik ![&#x200B; toevoegen kalender &#x200B;](assets/do-not-localize/Smock_CalendarAdd_18_N.svg) pictogram om tot drie externe kalenders te beheren en toe te voegen.
 
-   ![ kalendermening die externe kalenders tonen ](assets/journey-calendar-2.png)
+   ![&#x200B; kalendermening die externe kalenders tonen &#x200B;](assets/journey-calendar-2.png)
 
 1. Sleep de CSV-bestanden met namen van gebeurtenissen, begindatums en einddatums.
 
@@ -95,20 +95,20 @@ Navigeren in uw kalender voor reizen:
 
 1. Indien nodig, kunt u toegevoegde externe kalenders verbergen, verbergen of verwijderen.
 
-   ![ kalendermening die externe kalenders tonen ](assets/journey-calendar-3.png)
+   ![&#x200B; kalendermening die externe kalenders tonen &#x200B;](assets/journey-calendar-3.png)
 
 1. Voor meer details op een reis, klik zijn visueel blok om zijn details te openen en te onderzoeken.
 
-   ![ campagnemijst met de informatieruit geopend ](assets/journey-calendar-4.png)
+   ![&#x200B; campagnemijst met de informatieruit geopend &#x200B;](assets/journey-calendar-4.png)
 
 
 ## Uw reizen filteren {#journey-filter}
 
 Gebruik in de lijst met reizen verschillende filters om de lijst met reizen te verfijnen.
 
-![ het Scherm dat een steekproef van reis toont filtrerend met twee geselecteerde types van reizen ](assets/filter-journeys.png)
+![&#x200B; het Scherm dat een steekproef van reis toont filtrerend met twee geselecteerde types van reizen &#x200B;](assets/filter-journeys.png)
 
-U kunt reizen volgens hun [ status ](#journey-statuses) filtreren, [ type ](#journey-types), [ versie ](publish-journey.md#journey-versions-journey-versions), en toegewezen [ markeringen ](../start/search-filter-categorize.md#tags) van **[!UICONTROL Status and version filters]**.
+U kunt reizen volgens hun [&#x200B; status &#x200B;](#journey-statuses) filtreren, [&#x200B; type &#x200B;](#journey-types), [&#x200B; versie &#x200B;](publish-journey.md#journey-versions-journey-versions), en toegewezen [&#x200B; markeringen &#x200B;](../start/search-filter-categorize.md#tags) van **[!UICONTROL Status and version filters]**.
 
 Gebruik **[!UICONTROL Creation filters]** om ritten te filteren op basis van de aanmaakdatum of de gebruiker die ze heeft gemaakt.
 
@@ -132,7 +132,7 @@ Het soort reis hangt af van de activiteiten die in die reis worden gebruikt. Het
 * **[!UICONTROL Read audience]** - Bij Lezen kijkreizen nemen alle personen in het publiek de reis in en ontvangen ze de berichten die in uw reis zijn opgenomen.  [Meer informatie](read-audience.md).
 
 
-Leer meer over reistypes en bijbehorend ingangsbeheer op [ deze pagina ](entry-management.md).
+Leer meer over reistypes en bijbehorend ingangsbeheer op [&#x200B; deze pagina &#x200B;](entry-management.md).
 
 ## Reisstatussen {#journey-statuses}
 
@@ -140,17 +140,17 @@ De reisstatus hangt af van de levenscyclus. Het kan zijn:
 
 * **Ontwerp**: de reis is in zijn eerste stadium. Het is nog niet gepubliceerd.
 * **Ontwerp (Test)**: de testwijze is geactiveerd gebruikend de **wijze van de Test** knoop. [Meer informatie](../building-journeys/testing-the-journey.md)
-* **Voltooid**: De reis schakelt automatisch aan deze status na de globale onderbreking 91 dag [ ](journey-properties.md#global_timeout). Profielen die al op reis zijn, worden normaal afgehandeld. Nieuwe profielen kunnen niet langer de reis betreden.
+* **Voltooid**: De reis schakelt automatisch aan deze status na de globale onderbreking 91 dag [&#x200B; &#x200B;](journey-properties.md#global_timeout). Profielen die al op reis zijn, worden normaal afgehandeld. Nieuwe profielen kunnen niet langer de reis betreden.
 * **Levend**: de reis is gepubliceerd gebruikend **publiceer** knoop. [Meer informatie](../building-journeys/publish-journey.md)
-* **Gepauzeerd**: de levende reis is gepauzeerd, gebruikend de **3} knoop van de Pauze.** [Meer informatie](../building-journeys/journey-pause.md)
-* **Gestopt**: de reis is uitgezet gebruikend de **3} knoop van het Einde {.** Alle individuen sluiten onmiddellijk de reis. [Meer informatie](../building-journeys/end-journey.md#stop-a-journey)
+* **Gepauzeerd**: de levende reis is gepauzeerd, gebruikend de **3&rbrace; knoop van de Pauze.** [Meer informatie](../building-journeys/journey-pause.md)
+* **Gestopt**: de reis is uitgezet gebruikend de **3&rbrace; knoop van het Einde &lbrace;.** Alle individuen sluiten onmiddellijk de reis. [Meer informatie](../building-journeys/end-journey.md#stop-a-journey)
 * **Gesloten**: de reis is gesloten gebruikend **dicht aan nieuwe ingangen** knoop. De reis houdt in dat nieuwe individuen de reis kunnen betreden. Personen die al onderweg zijn, kunnen de reis normaal afmaken. [Meer informatie](../building-journeys/end-journey.md)
 
 >[!NOTE]
 >
 >* De Journaal die levenscyclus creeert omvat ook een reeks intermediaire statussen die niet beschikbaar voor het filtreren zijn: **het Publiceren** (tussen &quot;Ontwerp&quot;en &quot;Levend&quot;), **activerende testwijze** of **het Deactiveren testwijze** (tussen **Ontwerp** en **Ontwerp (test)**), **het Stoppen** (tussen) **Levend** en **gestopt**), **Hervatten** (tussen **Gepauzeerd** en **Levend**), **Werkend Pauzeren** (tussen **Levend** en **Gepauzeerd**) wanneer een reis in een tussenstadium is, is het read-only.
 >
->* Als u aan a **Levende** reis moet wijzigen, [ creeer een nieuwe versie ](#journey-versions) van uw reis. U kunt ook uw live ritten pauzeren, alle benodigde wijzigingen uitvoeren en deze op elk gewenst moment hervatten. [ leer meer over het pauzeren van reizen ](../building-journeys/journey-pause.md)
+>* Als u aan a **Levende** reis moet wijzigen, [&#x200B; creeer een nieuwe versie &#x200B;](#journey-versions) van uw reis. U kunt ook uw live ritten pauzeren, alle benodigde wijzigingen uitvoeren en deze op elk gewenst moment hervatten. [&#x200B; leer meer over het pauzeren van reizen &#x200B;](../building-journeys/journey-pause.md)
 
 
 ## Een reis dupliceren {#duplicate-a-journey}
@@ -162,7 +162,7 @@ Volg onderstaande stappen om dit te doen:
 1. Navigeer aan de reis u wilt kopiëren, **klikken Meer acties** pictogram (de drie punten naast de reisnaam).
 1. Selecteer **Dupliceren**.
 
-   ![ Dupliceer een reis ](assets/duplicate-jo.png)
+   ![&#x200B; Dupliceer een reis &#x200B;](assets/duplicate-jo.png)
 
 1. Voer de naam van de reis in en bevestig deze. U kunt de naam ook wijzigen in het scherm met de reiseigenschappen. Standaard wordt de naam als volgt ingesteld: `[JOURNEY-NAME]_copy`
 
@@ -175,11 +175,11 @@ Volg onderstaande stappen om dit te doen:
 
 Van de lijst van uw reizen, kunt u veelvoudige **Levende** reizen pauzeren. Om een groep reizen (_bulkpauze_) te pauzeren, hen in de lijst te selecteren en de **knoop van de Pauze** in de blauwe bar bij de bodem van het scherm te klikken. De **knoop van de Pauze** is slechts beschikbaar wanneer **Levende** reizen worden geselecteerd.
 
-![ Bulk pauzeert twee levende reizen van de bodembar ](assets/bulk-pause-journeys.png)
+![&#x200B; Bulk pauzeert twee levende reizen van de bodembar &#x200B;](assets/bulk-pause-journeys.png)
 
 U kunt één of verscheidene **Gepauzeerde** reizen ook hervatten. Om een groep ritten (_bulksgewijs hervat_) te hervatten, hen te selecteren en de **hervat** knoop te klikken die in de blauwe bar bij de bodem van het scherm wordt gevestigd. Gelieve te merken op dat de **Hervatten** knoop slechts beschikbaar zal zijn wanneer **Gepauzeerde** reizen worden geselecteerd.
 
-[ Leer meer over de reizen van de Pauze/van de Hervat ](journey-pause.md).
+[&#x200B; Leer meer over de reizen van de Pauze/van de Hervat &#x200B;](journey-pause.md).
 
 >[!NOTE]
 >
