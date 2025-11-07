@@ -26,13 +26,13 @@ Met Journey Optimizer kunt u acties identificeren die door gebruikers in het sys
 
 Dit staat u toe om de zichtbaarheid van activiteiten te verhogen die in het systeem worden uitgevoerd, kwesties problemen op te lossen, en uw zaken te helpen aan verordeningen en collectief beleid van het gegevensbeheer voldoen.
 
-Elke actie wordt opgenomen met metagegevens in &quot;auditlogs&quot; die toegankelijk zijn in Adobe Experience Platform. Voor meer op controlelogboeken, met inbegrip van hoe te om hen in UI of API te bekijken en te beheren, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html).
+Elke actie wordt opgenomen met metagegevens in &quot;auditlogs&quot; die toegankelijk zijn in Adobe Experience Platform. Voor meer op controlelogboeken, met inbegrip van hoe te om hen in UI of API te bekijken en te beheren, verwijs naar [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html).
 
 ![](assets/audit-logs.png)
 
 ## Gebeurtenistypen die zijn vastgelegd in auditlogboeken {#events}
 
-In de volgende tabel wordt aangegeven op welke acties Journey Optimizer-bronnen worden opgenomen in auditlogboeken. De volledige lijst van acties die in de logboeken van de Controle worden gevangen is beschikbaar in [ documentatie van het Platform van de Ervaring van Adobe ](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html#category).
+In de volgende tabel wordt aangegeven op welke acties Journey Optimizer-bronnen worden opgenomen in auditlogboeken. De volledige lijst van acties die in de logboeken van de Controle worden gevangen is beschikbaar in [&#x200B; documentatie van het Platform van de Ervaring van Adobe &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html#category).
 
 >[!NOTE]
 >

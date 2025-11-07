@@ -29,7 +29,7 @@ Deze taken kunnen worden verwezenlijkt gebruikend het **[!UICONTROL Data Lifecyc
 
 ## Aanbevelingen {#data-hygiene-recommendations}
 
-Houd er bij het uitvoeren van bewerkingen voor gegevenshygiëne (zoals het verwijderen van identiteiten of gegevenssets) rekening mee dat historische leveringsgebeurtenissen die aan verwijderde identiteiten zijn gekoppeld, niet langer worden weergegeven in standaardrapportering of query&#39;s voor gegevensverwerking. Dit kan in discrepanties tussen het aantal e-mails resulteren die als **worden gemeld Geleverd** en het aantal e-mails **** in ontvankelijke inboxes, vooral voor oudere reizen worden ontvangen.
+Houd er bij het uitvoeren van bewerkingen voor gegevenshygiëne (zoals het verwijderen van identiteiten of gegevenssets) rekening mee dat historische leveringsgebeurtenissen die aan verwijderde identiteiten zijn gekoppeld, niet langer worden weergegeven in standaardrapportering of query&#39;s voor gegevensverwerking. Dit kan in discrepanties tussen het aantal e-mails resulteren die als **worden gemeld Geleverd** en het aantal e-mails **&#x200B;**&#x200B;in ontvankelijke inboxes, vooral voor oudere reizen worden ontvangen.
 
 Voordat u grootschalige verwijderingen uitvoert, moet u alle vereiste leverings- of rapportgegevens valideren en exporteren. Als de afstemming na gegevenshygiëne nodig is, coördineert u met de Adobe-ondersteuning voor toegang tot gearchiveerde logbestanden of gebruik de gegevenssetquery&#39;s voor feedbackgebeurtenissen voor recente gegevens.
 
@@ -37,5 +37,5 @@ Voordat u grootschalige verwijderingen uitvoert, moet u alle vereiste leverings-
 
 Raadpleeg de documentatie bij Adobe Experience Platform voor meer informatie over de Privacy Service en hoe u bewerkingen tijdens de gegevenslevenscyclus kunt uitvoeren:
 
-* [ overzicht van Privacy Service ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl)
-* [ Levenscyclus van Gegevens in Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html)
+* [&#x200B; overzicht van Privacy Service &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl)
+* [&#x200B; Levenscyclus van Gegevens in Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html)

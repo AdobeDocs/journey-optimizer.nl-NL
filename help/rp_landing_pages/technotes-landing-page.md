@@ -20,7 +20,7 @@ De technische nota&#39;s in Adobe Journey Optimizer verstrekken een achter-de-sc
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 In Adobe Journey Optimizer-experimenten gebruikte statistische berekeningen
 
@@ -30,7 +30,7 @@ Leer over geavanceerde statistische methodologieën zoals de Reeksen van het Ver
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Statistische berekeningen in experimentele rapporten begrijpen
 

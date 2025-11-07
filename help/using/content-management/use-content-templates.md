@@ -45,4 +45,4 @@ Voer de onderstaande stappen uit om uw inhoud met een van deze sjablonen te gaan
 
 >[!NOTE]
 >
->Begin het ontwerpen van een e-mail van een inhoudsmalplaatje gebruikend [ E-mail Designer ](../email/get-started-email-design.md), volg de stappen die in [ worden beschreven deze sectie ](../email/use-email-templates.md).
+>Begin het ontwerpen van een e-mail van een inhoudsmalplaatje gebruikend [&#x200B; E-mail Designer &#x200B;](../email/get-started-email-design.md), volg de stappen die in [&#x200B; worden beschreven deze sectie &#x200B;](../email/use-email-templates.md).

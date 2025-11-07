@@ -78,7 +78,7 @@ Om up-to-date te blijven:
 
 * Herzie de [**recentste versienota&#39;s**](release-notes.md) voor nieuwe en bijgewerkte mogelijkheden.
 * Controleer de **_Meest recente updates_** sectie tussen maandelijkse versies voor plaatsingen in real time.
-* De Nota&#39;s van de pre-Versie van de monitor **** (indien beschikbaar) voor een voorproef van aanstaande eigenschappen.
+* De Nota&#39;s van de pre-Versie van de monitor **&#x200B;**&#x200B;(indien beschikbaar) voor een voorproef van aanstaande eigenschappen.
 * Neem contact op met uw Adobe-vertegenwoordiger voor Beta of beperkte toegang tot of machtiging tot toegang.
 
 U kunt aan **e-mail en in-product alarm** voor de productreleases van Journey Optimizer intekenen. Abonneren:
@@ -93,7 +93,7 @@ U kunt aan **e-mail en in-product alarm** voor de productreleases van Journey Op
 
 Hieronder vindt u Veelgestelde vragen over de releasecyclus van Adobe Journey Optimizer.
 
-Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [ gemeenschap van Adobe Journey Optimizer ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
+Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [&#x200B; gemeenschap van Adobe Journey Optimizer &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
 
 +++ Wanneer zijn Adobe Journey Optimizer-releases gepland?
 

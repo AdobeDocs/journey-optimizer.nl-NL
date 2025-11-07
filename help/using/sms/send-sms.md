@@ -25,7 +25,7 @@ Klik hiertoe op **[!UICONTROL Simulate content]** en controleer het bericht met 
 
 ![](assets/sms_preview_2.png)
 
-De gedetailleerde informatie over hoe te voorproef &amp; test inhoud is beschikbaar in de [ sectie van het Beheer van de Inhoud ](../content-management/preview-test.md).
+De gedetailleerde informatie over hoe te voorproef &amp; test inhoud is beschikbaar in de [&#x200B; sectie van het Beheer van de Inhoud &#x200B;](../content-management/preview-test.md).
 
 ## Uw inhoud valideren {#sms-validate}
 
@@ -48,7 +48,7 @@ U moet alarm in de hogere sectie van de redacteur controleren. Sommige zijn eenv
 >
 > Als uw campagne onderworpen is aan een goedkeuringsbeleid, zult u goedkeuring moeten vragen om uw tekstberichten te kunnen verzenden. [Meer informatie](../test-approve/gs-approval.md)
 
-Wanneer uw tekstbericht klaar is, voltooi de configuratie van uw [ reis ](../building-journeys/journey-gs.md) of [ campagne ](../campaigns/create-campaign.md) om het te verzenden.
+Wanneer uw tekstbericht klaar is, voltooi de configuratie van uw [&#x200B; reis &#x200B;](../building-journeys/journey-gs.md) of [&#x200B; campagne &#x200B;](../campaigns/create-campaign.md) om het te verzenden.
 
 **Verwante onderwerpen**
 

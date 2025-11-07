@@ -23,7 +23,7 @@ Als Journey Optimizer-expert kunt u uw reizen organiseren met tags. Met tags kun
 
 ## Tags toevoegen aan een rit
 
-Het **gebied van Markeringen**, in de reiseigenschappen, staat u toe om markeringen voor uw reis te bepalen. U kunt een bestaande tag selecteren of een nieuwe tag maken. Typ de naam van de gewenste tag en selecteer deze in de lijst. Als het niet beschikbaar is, creeert de klik **** om nieuwe tot stand te brengen en het toe te voegen aan uw reis. U kunt zo veel tags definiëren als nodig is.
+Het **gebied van Markeringen**, in de reiseigenschappen, staat u toe om markeringen voor uw reis te bepalen. U kunt een bestaande tag selecteren of een nieuwe tag maken. Typ de naam van de gewenste tag en selecteer deze in de lijst. Als het niet beschikbaar is, creeert de klik **&#x200B;**&#x200B;om nieuwe tot stand te brengen en het toe te voegen aan uw reis. U kunt zo veel tags definiëren als nodig is.
 
 ![](assets/tags1.png)
 
@@ -49,7 +49,7 @@ U kunt tags toevoegen aan of verwijderen uit elk type transport (live, concept, 
 
 ## Tags beheren
 
-De beheerders kunnen markeringen schrappen en hen door categorieën organiseren gebruikend het **menu van Codes**, onder **BEHEER**. Verwijs naar deze [ documentatie ](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html).
+De beheerders kunnen markeringen schrappen en hen door categorieën organiseren gebruikend het **menu van Codes**, onder **BEHEER**. Verwijs naar deze [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html).
 
 >[!NOTE]
 >

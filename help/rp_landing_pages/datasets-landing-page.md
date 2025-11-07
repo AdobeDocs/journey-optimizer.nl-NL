@@ -20,7 +20,7 @@ De datasets van Adobe Journey Optimizer zijn de ruggengraat van hoe u gegevens b
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Datasets gebruiken en beheren in Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Leer hoe u gegevenssets in Adobe Journey Optimizer kunt openen, maken, beheren e
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Tijdstip-tot-live (TTL) instructies voor gegevenssets
 
@@ -40,7 +40,7 @@ Begrijp de begeleiding van TTL die op systeem-geproduceerde datasets, hun duur, 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer-gegevenssets exporteren
 
@@ -50,7 +50,7 @@ Leer hoe u gegevenssets exporteert naar cloudopslagbestemmingen voor rapportage,
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer: Voorbeelden van query&#39;s voor gegevensset
 

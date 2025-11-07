@@ -20,7 +20,7 @@ Met toegangsbeheer in Adobe Journey Optimizer kunnen beheerders gebruikerstoegan
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met Toegangsbeheer
 
@@ -30,7 +30,7 @@ Leer de concepten en processen voor het beheren van gebruikerstoestemmingen, rol
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Gebruikers en rollen beheren
 
@@ -40,7 +40,7 @@ Stapsgewijze begeleiding bij het toewijzen, bewerken en maken van rollen om gebr
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Ingebouwde rollen
 
@@ -50,7 +50,7 @@ Ontdek de vooraf bepaalde rollen en hun bijbehorende toestemmingen om toegangsbe
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Ingebouwde machtigingen
 
@@ -60,7 +60,7 @@ Begrijp de beschikbare toestemmingen en hun functionaliteit om op rol-gebaseerde
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Machtigingsniveaus
 
@@ -70,7 +70,7 @@ Leer over high-level en laag-vlakke toestemmingen en hoe zij korrelige controle 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Toegangsbeheer op basis van kenmerken
 

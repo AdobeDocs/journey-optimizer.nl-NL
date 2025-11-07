@@ -22,7 +22,7 @@ Met de lijstfuncties in Adobe Journey Optimizer kunt u gegevens binnen uw workfl
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 De functie &#39;clear&#39; gebruiken in Adobe Journey Optimizer
 
@@ -32,7 +32,7 @@ Leer hoe u de functie &#39;verschillend&#39; kunt gebruiken om lijsten te duplic
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 differentWithNull Functie - Adobe Journey Optimizer
 
@@ -42,7 +42,7 @@ Begrijp hoe te om &quot;differentWithNull&quot;te gebruiken om verschillende waa
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 De functie &#39;filter&#39; in Adobe Journey Optimizer gebruiken
 
@@ -52,7 +52,7 @@ Ontdek hoe u filters kunt toepassen op lijsten met objecten op basis van specifi
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 De functie getListItem gebruiken in Adobe Journey Optimizer
 
@@ -62,7 +62,7 @@ Leer hoe u een item uit een lijst bij een specifieke index ophaalt met de functi
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 De functie &#39;in&#39; gebruiken in Adobe Journey Optimizer
 
@@ -72,7 +72,7 @@ Ontdek hoe u met de functie &#39;in&#39; kunt controleren of een waarde voorkomt
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Doorsnede van functie in Adobe Journey Optimizer
 

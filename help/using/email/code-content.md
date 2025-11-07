@@ -24,7 +24,7 @@ Gebruik de modus **[!UICONTROL Code your own]** om onbewerkte HTML te importeren
 
 >[!CAUTION]
 >
-> De beelden van [ Adobe Experience Manager Assets ](../integrations/assets.md) kunnen niet worden van verwijzingen voorzien wanneer het gebruiken van deze methode. De afbeeldingen waarnaar in uw HTML-code wordt verwezen, moeten worden opgeslagen op een openbare locatie.
+> De beelden van [&#x200B; Adobe Experience Manager Assets &#x200B;](../integrations/assets.md) kunnen niet worden van verwijzingen voorzien wanneer het gebruiken van deze methode. De afbeeldingen waarnaar in uw HTML-code wordt verwezen, moeten worden opgeslagen op een openbare locatie.
 
 1. Selecteer **[!UICONTROL Code your own]** op de homepage van E-mail Designer.
 

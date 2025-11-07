@@ -23,7 +23,7 @@ Als u rapporten wilt openen, klikt u op het pictogram **[!UICONTROL Report]** va
 
 ![](assets/cja-sub-access.png)
 
-Meer over de werkruimte van Customer Journey Analytics leren en hoe te om gegevens te filtreren en te analyseren, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Meer over de werkruimte van Customer Journey Analytics leren en hoe te om gegevens te filtreren en te analyseren, verwijs naar [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Toegevoegde lijst met abonnementen
 

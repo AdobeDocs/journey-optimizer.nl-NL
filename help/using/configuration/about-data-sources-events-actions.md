@@ -28,7 +28,7 @@ Voor het verzenden van berichten met ritten moet u **[!UICONTROL Data Sources]**
 
 ![](assets/admin-menu.png)
 
-U kunt ook verbindingen met externe systemen configureren via aangepaste gegevensbronnen en aangepaste handelingen. Zo kunt u bijvoorbeeld uw reizen verrijken met gegevens die afkomstig zijn van een extern reserveringssysteem, of berichten verzenden via een systeem van derden, zoals Epsilon of Facebook. Leer hoe te [ Journey Optimizer met externe systemen ](external-systems.md) integreren.
+U kunt ook verbindingen met externe systemen configureren via aangepaste gegevensbronnen en aangepaste handelingen. Zo kunt u bijvoorbeeld uw reizen verrijken met gegevens die afkomstig zijn van een extern reserveringssysteem, of berichten verzenden via een systeem van derden, zoals Epsilon of Facebook. Leer hoe te [&#x200B; Journey Optimizer met externe systemen &#x200B;](external-systems.md) integreren.
 
 ## Gegevensbronnen {#data-sources}
 

@@ -23,7 +23,7 @@ Het **rapport van de Reis** functies als een volledig-omringend dashboard, lever
 
 ![](assets/gs-cja-report-3.png)
 
-Meer over Customer Journey Analytics Workspace leren en hoe te om gegevens te filtreren en te analyseren, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Meer over Customer Journey Analytics Workspace leren en hoe te om gegevens te filtreren en te analyseren, verwijs naar [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Reisoverzicht {#journey-global}
 
@@ -85,7 +85,7 @@ De **[!UICONTROL Action errors]** -widget geeft een overzicht van de verschillen
 
 ![](assets/cja-journey-canvas.png)
 
-Met de widget **[!UICONTROL Journey Canvas]** kunt u visueel het traject volgen van uw doelprofielen terwijl u door de reis navigeert. [ leer meer in de documentatie van Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
+Met de widget **[!UICONTROL Journey Canvas]** kunt u visueel het traject volgen van uw doelprofielen terwijl u door de reis navigeert. [&#x200B; leer meer in de documentatie van Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 Verbeter uw canvasaanpassing met de volgende opties:
 
@@ -154,7 +154,7 @@ In de tabel **[!UICONTROL Event overview]** ziet u hoeveel profielen in de loop 
 
 Als u **[!UICONTROL Targeting rules]** instelt voor uw inhoud, biedt de tabel van **[!UICONTROL Targeting overview]** een gedetailleerde weergave van de belangrijkste betrokkenheidsmetriek, waarmee u kunt zien hoe de doelprofielen voor elke regel reageren op uw inhoud.
 
-➡️ [ Leer meer bij het richten van regels ](../campaigns/campaigns-message-optimization.md)
+➡️ [&#x200B; Leer meer bij het richten van regels &#x200B;](../campaigns/campaigns-message-optimization.md)
 
 +++ Meer informatie over gerichte overzichtsmetriek
 

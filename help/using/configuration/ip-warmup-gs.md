@@ -22,7 +22,7 @@ Met [!DNL Journey Optimizer] kunt u gemakkelijk IP warmteopwerkschema&#39;s dire
 
 Als u wilt voorkomen dat spam wordt gemarkeerd, kunt u het verzonden volume progressief verhogen met de functie voor het IP-opwarmingsplan. Met deze nieuwe optie in het menu **[!UICONTROL Administration]** kunt u het eenvoudiger op geconsolideerde wijze doen in plaats van complexe dagelijkse reizen te maken.
 
-➡️ [ Leer om een IP warmup plan in deze video tot stand te brengen en uit te voeren ](#video)
+➡️ [&#x200B; Leer om een IP warmup plan in deze video tot stand te brengen en uit te voeren &#x200B;](#video)
 
 >[!AVAILABILITY]
 >
@@ -56,4 +56,4 @@ Leer hoe te om een IP warmlopingsplan tot stand te brengen en uit te voeren.
 
 >[!NOTE]
 >
->Leer meer over het verhogen van uw e-mailreputatie met IP opwarmen in de [ Gids van de Beste praktijken van de Levering ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html).
+>Leer meer over het verhogen van uw e-mailreputatie met IP opwarmen in de [&#x200B; Gids van de Beste praktijken van de Levering &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html).

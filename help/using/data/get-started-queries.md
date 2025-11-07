@@ -19,13 +19,13 @@ ht-degree: 0%
 
 De Redacteur van de vraag is een interactief hulpmiddel dat door de Dienst van de Vraag van Adobe Experience Platform wordt verstrekt, die u toestaat om, vragen voor klantenervaringsgegevens te schrijven te bevestigen en in werking te stellen binnen [!DNL Adobe Journey Optimizer] gebruikersinterface.
 
-De Redacteur van de vraag steunt het ontwikkelen van vragen voor analyse en gegevensexploratie, en staat u toe om interactieve vragen voor ontwikkelingsdoeleinden evenals niet-interactieve vragen in werking te stellen om [ datasets ](get-started-datasets.md) te bevolken.
+De Redacteur van de vraag steunt het ontwikkelen van vragen voor analyse en gegevensexploratie, en staat u toe om interactieve vragen voor ontwikkelingsdoeleinden evenals niet-interactieve vragen in werking te stellen om [&#x200B; datasets &#x200B;](get-started-datasets.md) te bevolken.
 
 ![](assets/queries-home.png)
 
-Leer hoe te om de Redacteur van de Vraag in [ te gebruiken deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html){target="_blank"}.
+Leer hoe te om de Redacteur van de Vraag in [&#x200B; te gebruiken deze documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html){target="_blank"}.
 
 >[!MORELIKETHIS]
 >
->* [ documentatie van de Dienst van de Vraag ](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl){target="_blank"}
->* [ het overzichtsvideo van de Dienst van de Vraag ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html){target="_blank"}
+>* [&#x200B; documentatie van de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl){target="_blank"}
+>* [&#x200B; het overzichtsvideo van de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html){target="_blank"}

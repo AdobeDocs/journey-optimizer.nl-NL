@@ -20,7 +20,7 @@ Met de aangepaste reisrapporten in Adobe Journey Optimizer kunt u de prestaties 
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Reisrapporten maken en analyseren
 
@@ -30,7 +30,7 @@ Leer hoe u reisrapporten kunt maken, schema&#39;s en datasets kunt begrijpen en 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Lijst van gebeurtenisvelden stapsgewijze
 
@@ -40,7 +40,7 @@ Ontdek de uitgebreide lijst met stapgebeurtenisvelden, gecategoriseerd en beschr
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Oudere stapgebeurtenisvelden
 
@@ -50,7 +50,7 @@ Begrijp de de gebeurtenisgebieden van de erfenisstap die in Adobe Journey Optimi
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Voorbeeld van SQL-query&#39;s voor gegevensanalyse
 

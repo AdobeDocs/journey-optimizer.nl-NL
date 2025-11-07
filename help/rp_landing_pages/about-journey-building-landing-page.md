@@ -20,7 +20,7 @@ De activiteiten in Adobe Journey Optimizer zijn de bouwstenen die uw klantenreiz
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Inleiding van de reisactiviteiten
 
@@ -30,7 +30,7 @@ Leer over gebeurtenis, orchestratie, en actieactiviteiten in Adobe Journey Optim
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Algemene gebeurtenissen gebruiken
 
@@ -40,7 +40,7 @@ Ontdek hoe u algemene gebeurtenissen kunt gebruiken om ritten te activeren en ti
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Reactiegebeurtenissen configureren
 
@@ -50,7 +50,7 @@ Onderzoek hoe te op het volgen gegevens zoals bericht te reageren klikt of opent
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Kwalificatiegebeurtenissen voor het publiek
 
@@ -60,7 +60,7 @@ Leer hoe u acties en voorwaarden activeert op basis van de status van publiekspa
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 De Condition-activiteit gebruiken
 
@@ -70,7 +70,7 @@ Definieer meerdere paden in een rit op basis van criteria zoals tijd, gegevensbr
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 Het vormen van de Activiteit van de Wacht
 

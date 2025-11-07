@@ -38,11 +38,11 @@ U kunt inhoudssjablonen maken voor de kanalen E-mail, Push, In-App, SMS en Direc
 
 Als u inhoudssjablonen wilt maken, bewerken en verwijderen, zorgt u ervoor dat de machtiging **[!DNL Manage library items]** is opgenomen in het productprofiel van **[!DNL Content Library Manager]** . [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager)
 
-➡️ [ Leer om malplaatjes in deze video tot stand te brengen en te gebruiken ](#video-templates)
+➡️ [&#x200B; Leer om malplaatjes in deze video tot stand te brengen en te gebruiken &#x200B;](#video-templates)
 
 >[!NOTE]
 >
->U kunt inhoudssjablonen ook maken en beheren met API&#39;s. Voor meer informatie, verwijs naar de [ documentatie van Journey Optimizer APIs ](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
+>U kunt inhoudssjablonen ook maken en beheren met API&#39;s. Voor meer informatie, verwijs naar de [&#x200B; documentatie van Journey Optimizer APIs &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 
 ## Hoe kan ik-video {#video-templates}
 

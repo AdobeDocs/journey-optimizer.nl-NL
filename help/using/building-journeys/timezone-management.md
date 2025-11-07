@@ -25,7 +25,7 @@ ht-degree: 1%
 >abstract="Selecteer de tijdzone van de reis. Wanneer een vaste tijdzone wordt gebruikt, is dit hetzelfde voor alle personen die de reis betreden."
 
 
-U kunt een tijdzone in de [ eigenschappen ](../building-journeys/journey-properties.md#timezone) van uw reis bepalen.
+U kunt een tijdzone in de [&#x200B; eigenschappen &#x200B;](../building-journeys/journey-properties.md#timezone) van uw reis bepalen.
 
 Als u de eigenschappen van een rit wilt openen, selecteert u het potloodpictogram rechtsboven in het scherm.
 
@@ -39,7 +39,7 @@ Deze tijdzone wordt gebruikt voor elke activiteit van de reis die een tijdseleme
 * [Fixed date wait](../building-journeys/wait-activity.md#fixed_date)
 -->
 
-U kunt a [ vaste tijdzone ](#fixed-timezone) selecteren of verkiezen om de tijdzone [ te gebruiken die in het gebruikersprofiel ](#timezone-from-profiles) wordt bepaald.
+U kunt a [&#x200B; vaste tijdzone &#x200B;](#fixed-timezone) selecteren of verkiezen om de tijdzone [&#x200B; te gebruiken die in het gebruikersprofiel &#x200B;](#timezone-from-profiles) wordt bepaald.
 
 ## Een vaste tijdzone definiëren {#fixed-timezone}
 
@@ -64,7 +64,7 @@ Als een tijdzone voor een profiel is gedefinieerd, zal het door de reis worden t
 
 >[!NOTE]
 >
->De streek van de profieltijd werkt met het **timeZone** gebied bestaand in de **3} gebiedsgroep van de Details van de Voorkeur {.**
+>De streek van de profieltijd werkt met het **timeZone** gebied bestaand in de **3&rbrace; gebiedsgroep van de Details van de Voorkeur &lbrace;.**
 
 ## Tijdzones gebruiken in expressies {#timezone-in-expressions}
 

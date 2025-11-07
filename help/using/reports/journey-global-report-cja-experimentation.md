@@ -23,7 +23,7 @@ In Journey Optimizer is het experimenteren met reizen opgesplitst in twee soorte
 
 * [Inhoud experimenteren](../content-management/content-experiment.md)
 
-  Merk op dat de lijsten en KPIs die voor uw Inhoudsexperiment worden gedetailleerd het zelfde zijn als die voor een experiment van de Weg. Verwijs naar de [ documentatie hieronder ](#experimentation) als u opstelling een experiment van de Inhoud hebt.
+  Merk op dat de lijsten en KPIs die voor uw Inhoudsexperiment worden gedetailleerd het zelfde zijn als die voor een experiment van de Weg. Verwijs naar de [&#x200B; documentatie hieronder &#x200B;](#experimentation) als u opstelling een experiment van de Inhoud hebt.
 
 * [Padexperimenten](../building-journeys/optimize.md)
 
@@ -52,7 +52,7 @@ De **Belangrijke Indicatoren van Prestaties van de Experimentatie Zeer belangrij
 ![](assets/cja-experimentation-variants.png)
 
 De **Variant door succesmetriek** lijst toont hoe elke variant gebaseerd op succes metrisch wanneer vestiging het experiment uitvoert.
-Voor diepte-duik in deze resultaten en hoe te om hen te interpreteren, verwijs naar [ deze pagina ](../content-management/get-started-experiment.md#interpret-results).
+Voor diepte-duik in deze resultaten en hoe te om hen te interpreteren, verwijs naar [&#x200B; deze pagina &#x200B;](../content-management/get-started-experiment.md#interpret-results).
 
 +++ Meer informatie over Variant op metrische waarde
 

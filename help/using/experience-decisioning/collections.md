@@ -42,7 +42,7 @@ Ga als volgt te werk om een verzameling te maken:
 1. Geef een naam en een beschrijving voor de verzameling op.
 1. Voeg één of veelvoudige regels toe om de punten te bepalen die in de inzameling moeten worden omvat. Dit doet u als volgt:
 
-   1. Kies een itemkenmerk dat u als criterium wilt gebruiken. De lijst met kenmerken bevat alle standaard- en aangepaste kenmerken die zijn gedefinieerd in het catalogusschema. [ Leer meer over de catalogus van punten ](catalogs.md)
+   1. Kies een itemkenmerk dat u als criterium wilt gebruiken. De lijst met kenmerken bevat alle standaard- en aangepaste kenmerken die zijn gedefinieerd in het catalogusschema. [&#x200B; Leer meer over de catalogus van punten &#x200B;](catalogs.md)
    1. Selecteer de gewenste operator en voer de waarde in waarop u wilt filteren.Geef elke aanbiedingsnaam expliciet op of maak een &quot;luma-zomer&quot;-tag aan elke aanbieding en wijs deze toe.
 
       >[!NOTE]
@@ -62,4 +62,4 @@ Ga als volgt te werk om een verzameling te maken:
 
 >[!NOTE]
 >
->Elke objectverzameling kan maximaal 500 aangeboden objecten bevatten. [ leer meer over het Beslissen van gidsen &amp; beperkingen ](gs-experience-decisioning.md#guardrails)
+>Elke objectverzameling kan maximaal 500 aangeboden objecten bevatten. [&#x200B; leer meer over het Beslissen van gidsen &amp; beperkingen &#x200B;](gs-experience-decisioning.md#guardrails)

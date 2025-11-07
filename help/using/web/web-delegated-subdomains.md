@@ -34,9 +34,9 @@ ht-degree: 0%
 
 ## Aan de slag met websubdomeinen {#gs-web-subdomains}
 
-Wanneer het ontwerpen van Webervaringen, als u inhoud toevoegt die uit de [ Adobe Experience Manager Assets ](../integrations/assets.md) bibliotheek komt, moet u opstelling subdomain die zal worden gebruikt om deze inhoud te publiceren.
+Wanneer het ontwerpen van Webervaringen, als u inhoud toevoegt die uit de [&#x200B; Adobe Experience Manager Assets &#x200B;](../integrations/assets.md) bibliotheek komt, moet u opstelling subdomain die zal worden gebruikt om deze inhoud te publiceren.
 
-U kunt een subdomein gebruiken dat al aan Adobe is gedelegeerd, of u kunt een ander subdomein vormen. Leer meer over het delegeren van subdomeinen aan Adobe in [ deze sectie ](../configuration/delegate-subdomain.md).
+U kunt een subdomein gebruiken dat al aan Adobe is gedelegeerd, of u kunt een ander subdomein vormen. Leer meer over het delegeren van subdomeinen aan Adobe in [&#x200B; deze sectie &#x200B;](../configuration/delegate-subdomain.md).
 
 De subdomeinconfiguratie van het Web is **gemeenschappelijk aan alle milieu&#39;s**. Daarom geldt het volgende:
 
@@ -137,7 +137,7 @@ Volg onderstaande stappen om een nieuw subdomein te configureren:
 
    Wanneer u een nieuw Web subdomain vormt, richt het altijd aan een verslag CNAME.
 
-1. Nadat de subdomeindelegatie is verzonden, wordt het subdomein in de lijst weergegeven met de status **[!UICONTROL Processing]** . Voor meer op de statussen van subdomeinen, verwijs naar [ deze sectie ](../configuration/delegate-subdomain.md#access-delegated-subdomains).<!--Same statuses?-->
+1. Nadat de subdomeindelegatie is verzonden, wordt het subdomein in de lijst weergegeven met de status **[!UICONTROL Processing]** . Voor meer op de statussen van subdomeinen, verwijs naar [&#x200B; deze sectie &#x200B;](../configuration/delegate-subdomain.md#access-delegated-subdomains).<!--Same statuses?-->
 
    Alvorens dat subdomain te kunnen gebruiken om Webberichten te verzenden, moet u wachten tot Adobe de vereiste controles uitvoert, die **tot 4 uren** kan nemen.
 
@@ -161,6 +161,6 @@ Als u een websubdomein wilt dedelegeren, neemt u contact op met uw Adobe-vertege
 
 1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)-->
 
-Als Websubdomain a [ nieuw gedelegeerd subdomain ](#web-configure-new-subdomain) was, kunt u het DNS CNAME- verslag schrappen dat u voor Websubdomain van uw het ontvangen oplossing creeerde (maar schrapt niet het originele e-mailsubdomain als om het even welk).
+Als Websubdomain a [&#x200B; nieuw gedelegeerd subdomain &#x200B;](#web-configure-new-subdomain) was, kunt u het DNS CNAME- verslag schrappen dat u voor Websubdomain van uw het ontvangen oplossing creeerde (maar schrapt niet het originele e-mailsubdomain als om het even welk).
 
 Nadat uw verzoek door Adobe wordt behandeld, wordt het niet-gedelegeerde domein niet meer getoond op de pagina van de subdomeininventaris.

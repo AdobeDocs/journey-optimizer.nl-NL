@@ -42,7 +42,7 @@ De lift tussen een variant *ν*, en de controlevariant *ν <sub> 0</sub>* is de 
 
 In het deelvenster Journey Experimentation worden &#39;op elk moment geldige&#39; betrouwbaarheidsintervallen (betrouwbaarheidsreeksen) weergegeven voor afzonderlijke behandelingen in een experiment.
 
-De betrouwbaarheidsvolgorde voor een individuele variant `ν` staat centraal in de statistische methodologie die door Adobe wordt gebruikt. U kunt zijn definitie op [ vinden deze pagina ](https://doi.org/10.48550/arXiv.2103.06476) (die van [ Waudby-Smith en al.] wordt gereproduceerd).
+De betrouwbaarheidsvolgorde voor een individuele variant `ν` staat centraal in de statistische methodologie die door Adobe wordt gebruikt. U kunt zijn definitie op [&#x200B; vinden deze pagina &#x200B;](https://doi.org/10.48550/arXiv.2103.06476) (die van [ Waudby-Smith en al.] wordt gereproduceerd).
 
 Als u geïnteresseerd bent in het schatten van een doelparameter `ψ` zoals de conversiesnelheid van een variant in een Experiment, kan de tweedeling tussen een sequentie van &#39;fixed-time&#39; Trust Intervals (CI&#39;s) en een time-uniform Vertrouwensreeks (CS) als volgt worden samengevat:
 
@@ -101,7 +101,7 @@ Tot slot is het **op elk ogenblik geldige vertrouwen**:
 
 ## Een experiment declareren als &quot;Sluiten&quot;
 
-Voor een Experimenteer met twee armen, toont het paneel van de Experimentatie van Journey Optimizer een bericht verklarend dat een Experiment **** overtuigend is wanneer het op om het even welke tijd geldige vertrouwen 95% overschrijdt (d.w.z., is de op om het even welk ogenblik geldige `p` - waarde minder dan 5%).
+Voor een Experimenteer met twee armen, toont het paneel van de Experimentatie van Journey Optimizer een bericht verklarend dat een Experiment **&#x200B;**&#x200B;overtuigend is wanneer het op om het even welke tijd geldige vertrouwen 95% overschrijdt (d.w.z., is de op om het even welk ogenblik geldige `p` - waarde minder dan 5%).
 
 Als er meer dan twee varianten aanwezig zijn, wordt de Bonferoni-correctie toegepast om het gezinssgewijze foutenpercentage te regelen. Voor een experiment met `K` -behandelingen en een enkele basisbehandeling (controle) zijn er `K-1` onafhankelijke hypothesetests. De Bonferoni-correctie betekent dat we de nulhypothese verwerpen dat het besturingselement en een bepaalde variant gelijke middelen hebben, als de op elk moment geldige `p` -waarde (hierboven gedefinieerd) onder een drempelwaarde van `α/(K-1)` ligt.
 

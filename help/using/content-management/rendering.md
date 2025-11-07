@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # E-mailrendering testen {#email-rendering}
 
-U kunt hefboomwerking uw **rekening 0} Litmus {in** aan voorproef onmiddellijk uw [!DNL Journey Optimizer] e-mail teruggevend **in populaire e-mailcliënten.** U kunt er dan voor zorgen dat uw e-mailinhoud er goed uitziet en goed werkt in elk Postvak IN.
+U kunt hefboomwerking uw **rekening 0&rbrace; Litmus &lbrace;in** aan voorproef onmiddellijk uw [!DNL Journey Optimizer] e-mail teruggevend **in populaire e-mailcliënten.** U kunt er dan voor zorgen dat uw e-mailinhoud er goed uitziet en goed werkt in elk Postvak IN.
 
 Voer de volgende stappen uit om het renderen van e-mail te controleren:
 

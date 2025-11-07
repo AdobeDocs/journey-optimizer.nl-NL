@@ -20,7 +20,7 @@ Met dynamische inhoud in Adobe Journey Optimizer kunt u persoonlijke berichten m
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met dynamische inhoud
 
@@ -30,7 +30,7 @@ Leer hoe te om voorwaardelijke regels en de verpersoonlijkingsredacteur te gebru
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Voorwaardelijke regels maken en beheren
 
@@ -40,7 +40,7 @@ U kunt het maken, opslaan en beheren van voorwaardelijke regels besturen om dyna
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Dynamische inhoud maken in Adobe Journey Optimizer
 

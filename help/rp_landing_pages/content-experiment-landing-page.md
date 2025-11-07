@@ -20,7 +20,7 @@ Met contentexperimenten in Adobe Journey Optimizer kunt u uw marketingcampagnes 
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met contentexperimenten
 
@@ -30,7 +30,7 @@ Leer de grondbeginselen van inhoudexperimenten, hun doel, en hoe te opstelling, 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Experimenten met inhoud maken en schalen
 
@@ -40,7 +40,7 @@ Een stapsgewijze gids voor het maken, configureren en schalen van experimenten o
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Geavanceerde statistische technieken voor experimenten
 

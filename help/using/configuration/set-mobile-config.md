@@ -109,7 +109,7 @@ Merk op dat voor elk platform dat u zou willen opstelling, het wordt vereist om 
 
   +++
 
-* Als u de bestaande configuratieoptie gebruikt, moet u ervoor zorgen dat u de volgende Adobe Experience Platform Mobile SDK extensieversies gebruikt. Voor meer details op de opstelling van SDK met inbegrip van de vereiste gebiedsdelen en initialisatiecode, gelieve te verwijzen naar [ volgende documentatie ](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks).
+* Als u de bestaande configuratieoptie gebruikt, moet u ervoor zorgen dat u de volgende Adobe Experience Platform Mobile SDK extensieversies gebruikt. Voor meer details op de opstelling van SDK met inbegrip van de vereiste gebiedsdelen en initialisatiecode, gelieve te verwijzen naar [&#x200B; volgende documentatie &#x200B;](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks).
 
   Voor Android
 

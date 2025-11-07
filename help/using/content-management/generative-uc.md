@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](gs-generative.md#generative-guardrails).
+>Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [&#x200B; Grafieken en Beperkingen &#x200B;](gs-generative.md#generative-guardrails).
 
 ## Bestaande inhoud gebruiken
 

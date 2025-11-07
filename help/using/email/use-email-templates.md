@@ -39,7 +39,7 @@ U kunt kiezen uit:
 
 Voer de onderstaande stappen uit om uw inhoud te gaan samenstellen met een van de voorbeeldsjablonen of opgeslagen sjablonen.
 
-1. [ heb toegang tot de E-mail Designer ](get-started-email-design.md) van het e-mailscherm **[!UICONTROL Edit content]**.
+1. [&#x200B; heb toegang tot de E-mail Designer &#x200B;](get-started-email-design.md) van het e-mailscherm **[!UICONTROL Edit content]**.
 
 1. In het scherm **[!UICONTROL Create your email]** is de tab **[!UICONTROL Sample templates]** standaard geselecteerd.
 
@@ -47,7 +47,7 @@ Voer de onderstaande stappen uit om uw inhoud te gaan samenstellen met een van d
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. De lijst van alle [ inhoudsmalplaatjes ](../content-management/content-templates.md#create-content-templates) die op de huidige zandbakvertoningen worden gecreeerd. U kunt ze **[!UICONTROL By name]** , **[!UICONTROL Last modified]** en **[!UICONTROL Last created]** sorteren.
+1. De lijst van alle [&#x200B; inhoudsmalplaatjes &#x200B;](../content-management/content-templates.md#create-content-templates) die op de huidige zandbakvertoningen worden gecreeerd. U kunt ze **[!UICONTROL By name]** , **[!UICONTROL Last modified]** en **[!UICONTROL Last created]** sorteren.
 
    ![](assets/email_designer-saved-templates-filter.png)
 

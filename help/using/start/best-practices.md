@@ -29,7 +29,7 @@ Adobe Journey Optimizer gebruikt de Identity Service om profielen samen te voege
    * Dit kan 30 min - 4 uur duren.
    * Gewoonlijk genereert deze aanmeldingsgebeurtenis een identiteitsgrafiek die een koppeling vormt tussen CRMID en ECID.
 
-1. Na de eerste stitching, zullen om het even welke gegevens die met één van beide identiteiten worden verzonden worden geassocieerd aan het samengevoegde profiel en beschikbaar voor verpersoonlijking in Journey Optimizer in real time. Het bijwerken van het profiel met de meest recente gedragsgegevens kan 1 minuut duren. Verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl).
+1. Na de eerste stitching, zullen om het even welke gegevens die met één van beide identiteiten worden verzonden worden geassocieerd aan het samengevoegde profiel en beschikbaar voor verpersoonlijking in Journey Optimizer in real time. Het bijwerken van het profiel met de meest recente gedragsgegevens kan 1 minuut duren. Verwijs naar deze [&#x200B; pagina &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl).
 
 Houd rekening met het volgende wanneer u gebruikszaken maakt:
 
@@ -61,7 +61,7 @@ Er zijn een aantal beste praktijken die u kunt aannemen, die u helpen binnen de 
 
   ![](assets/journey-guardrails2.png)
 
-* Vervolgens kunt u in het gedeelte Reisinventarisatie alle reizen filteren op Status = &quot;Live&quot; en Type = &quot;Leespubliek&quot;. Sorteer vervolgens op publicatiedatum (oudste naar nieuwste). Klik op de reis en ga naar het schema. Stop alle levende reizen die een programma hadden om **te lopen** of **{zo spoedig mogelijk** die ouder zijn dan een dag en slechts één actie hebben.
+* Vervolgens kunt u in het gedeelte Reisinventarisatie alle reizen filteren op Status = &quot;Live&quot; en Type = &quot;Leespubliek&quot;. Sorteer vervolgens op publicatiedatum (oudste naar nieuwste). Klik op de reis en ga naar het schema. Stop alle levende reizen die een programma hadden om **te lopen** of **&lbrace;zo spoedig mogelijk** die ouder zijn dan een dag en slechts één actie hebben.
 
   ![](assets/journey-guardrails1.png)
 

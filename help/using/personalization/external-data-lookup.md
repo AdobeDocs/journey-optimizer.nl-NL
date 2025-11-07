@@ -48,7 +48,7 @@ Raadpleeg ook Aangepaste acties in [!DNL Journey Optimizer] Binnenkomende kanale
 
 Voer de volgende stappen uit om een handeling te definiëren en de hulplijn voor personalisatie te gebruiken:
 
-1. Creeer een Actie om het eindpunt voor de raadpleging te vormen. Dit hoeft slechts eenmaal te gebeuren voor elk eindpunt en moet door een technische gebruiker worden gedaan. [ Leer hoe te om een douaneactie ](../action/about-custom-action-configuration.md) te vormen
+1. Creeer een Actie om het eindpunt voor de raadpleging te vormen. Dit hoeft slechts eenmaal te gebeuren voor elk eindpunt en moet door een technische gebruiker worden gedaan. [&#x200B; Leer hoe te om een douaneactie &#x200B;](../action/about-custom-action-configuration.md) te vormen
 
    Noteer de actie-id en kopieer deze.
 
@@ -210,7 +210,7 @@ Onder de sectie Edge Delivery van het betrouwbaarheidsspoor als deel van uitvoer
 
 Hieronder vindt u Veelgestelde vragen over de hulp bij externe gegevens opzoeken.
 
-Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [ gemeenschap van Adobe Journey Optimizer ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
+Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [&#x200B; gemeenschap van Adobe Journey Optimizer &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
 
 +++ Hoe te om een contextafhankelijk attribuut van het verzoek als parameter tot een externe gegevensraadpleging over te gaan?
 

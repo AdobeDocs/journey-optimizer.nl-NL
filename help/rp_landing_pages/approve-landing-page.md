@@ -20,7 +20,7 @@ De goedkeuring van reizen en campagnes in Adobe Journey Optimizer zorgt ervoor d
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Goedkeuring van reizen en campagnes instellen en beheren
 
@@ -30,7 +30,7 @@ Leer hoe u het goedkeuringsproces voor reizen en campagnes kunt instellen en beh
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Erkenningsbeleid maken en beheren
 
@@ -40,7 +40,7 @@ Stapsgewijze handleiding voor het maken, configureren en beheren van goedkeuring
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Hoe te om Goedkeuring voor Reizen en Campagnes te verzoeken
 
@@ -50,7 +50,7 @@ Begrijp hoe om goedkeuring voor reizen en campagnes, met inbegrip van werkschema
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Verzoeken voor reizen en campagnes evalueren en goedkeuren
 

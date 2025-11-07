@@ -21,21 +21,21 @@ De schema&#39;s kunnen manueel door de interface worden gecreeerd of in bulk wor
 
 Deze sectie verstrekt geleidelijke begeleiding op hoe te om een model-gebaseerd schema binnen Adobe Experience Platform tot stand te brengen door een DL (de Taal van de Definitie van Gegevens) dossier te uploaden. Met behulp van een DDL-bestand kunt u vooraf de structuur van uw gegevensmodel definiëren, inclusief tabellen, kenmerken, sleutels en relaties.
 
-1. [ upload een Ddl- dossier ](#ddl-upload) om model-gebaseerde schema&#39;s tot stand te brengen en hun structuur te bepalen.
+1. [&#x200B; upload een Ddl- dossier &#x200B;](#ddl-upload) om model-gebaseerde schema&#39;s tot stand te brengen en hun structuur te bepalen.
 
-1. [ bepaalt verhoudingen ](#relationships) tussen lijsten in uw gegevensmodel.
+1. [&#x200B; bepaalt verhoudingen &#x200B;](#relationships) tussen lijsten in uw gegevensmodel.
 
-1. [ schema&#39;s van de Verbinding ](#link-schema) om uw op model-gebaseerde gegevens met bestaande profielentiteiten zoals Ontvangers of Banden te verbinden.
+1. [&#x200B; schema&#39;s van de Verbinding &#x200B;](#link-schema) om uw op model-gebaseerde gegevens met bestaande profielentiteiten zoals Ontvangers of Banden te verbinden.
 
-1. [ Samenvatting gegevens ](ingest-data.md) in uw dataset van gesteunde bronnen.
+1. [&#x200B; Samenvatting gegevens &#x200B;](ingest-data.md) in uw dataset van gesteunde bronnen.
 
-➡️ [ Leer meer over op model-gebaseerde schema&#39;s in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
+➡️ [&#x200B; Leer meer over op model-gebaseerde schema&#39;s in de documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
 
 ## Een DDL-bestand uploaden{#ddl-upload}
 
 Door een DDL-bestand te uploaden, kunt u vooraf de structuur van uw gegevensmodel definiëren, inclusief tabellen, kenmerken, sleutels en relaties.
 
-Op Excel gebaseerde schemabestanden worden geüpload. Download het [ verstrekte malplaatje ](assets/template.zip) om uw schemadefinities gemakkelijk voor te bereiden.
+Op Excel gebaseerde schemabestanden worden geüpload. Download het [&#x200B; verstrekte malplaatje &#x200B;](assets/template.zip) om uw schemadefinities gemakkelijk voor te bereiden.
 
 +++De volgende functies worden ondersteund bij het maken van modelgebaseerde schema&#39;s in Adobe Experience Platform
 
@@ -56,7 +56,7 @@ Hier volgt een voorbeeld:
   ```
 
 * **Etiket van het Schema voor het Beleid van Gegevens**\
-  De etikettering wordt gesteund op het niveau van het schemagebied om gegevens te handhaven governance beleid zoals toegangsbeheer en gebruiksbeperkingen. Voor meer details, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl).
+  De etikettering wordt gesteund op het niveau van het schemagebied om gegevens te handhaven governance beleid zoals toegangsbeheer en gebruiksbeperkingen. Voor meer details, verwijs naar [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl).
 
 +++
 
@@ -102,7 +102,7 @@ Hier volgt een voorbeeld:
 
 1. Klik **[!UICONTROL Done]** eenmaal gereed.
 
-U kunt nu de tabel- en velddefinities op het canvas controleren. [ leer meer in de sectie hieronder ](#entities)
+U kunt nu de tabel- en velddefinities op het canvas controleren. [&#x200B; leer meer in de sectie hieronder &#x200B;](#entities)
 
 ## Relaties definiëren {#relationships}
 
@@ -168,7 +168,7 @@ U kunt verhoudingen direct binnen het Ddl- dossier specificeren wanneer het cre�
 >
 > Alleen relaties die expliciet in het DDL-bestand zijn gedefinieerd, worden door het systeem herkend. Om het even welke entiteitverhoudingen die buiten het Ddl- dossier bestaan zullen worden genegeerd en niet verwerkt.
 
-Vestig een verband tussen het **schema van de 0} loyaliteitstransacties {en het** Ontvangers **schema om elke transactie met het correcte klantenverslag te associëren.**
+Vestig een verband tussen het **schema van de 0&rbrace; loyaliteitstransacties &lbrace;en het** Ontvangers **schema om elke transactie met het correcte klantenverslag te associëren.**
 
 1. Navigeer aan **[!UICONTROL Schemas]** en open eerder **loyaliteitstransacties** creëren.
 

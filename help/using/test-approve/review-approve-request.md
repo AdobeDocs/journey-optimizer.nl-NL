@@ -21,7 +21,7 @@ Als u als fiatteur bent geselecteerd, ontvangt u een melding via e-mail en een J
 ![](assets/request-notification.png)
 
 Als u de reis/campagne wilt bekijken, opent u deze vanuit de e-mail of waarschuwing en controleert u de instellingen zoals het publiek, de inhoud of de instellingen.
-Zodra gedaan, kunt u of [ goedkeuren en de reis/de campagne ](#approve) publiceren, of [ verzoekveranderingen alvorens het ](#changes) te activeren.
+Zodra gedaan, kunt u of [&#x200B; goedkeuren en de reis/de campagne &#x200B;](#approve) publiceren, of [&#x200B; verzoekveranderingen alvorens het &#x200B;](#changes) te activeren.
 
 >[!NOTE]
 >

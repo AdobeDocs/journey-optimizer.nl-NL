@@ -20,7 +20,7 @@ Dive in de krachtige syntaxismogelijkheden van de Redacteur van de Uitdrukking v
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Geavanceerde syntaxis van expressiebewerker
 
@@ -30,7 +30,7 @@ Leer de gedetailleerde syntaxisregels voor het gebruiken van de Geavanceerde Red
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Voorwaardelijke instructie (als, dan, else)
 
@@ -40,7 +40,7 @@ U kunt voorwaardelijke instructies gebruiken om complexe expressies te maken en 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Gegevenstypen
 
@@ -50,7 +50,7 @@ Hiermee krijgt u een uitgebreid overzicht van gegevenstypen die in expressies wo
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Veldverwijzingen gebruiken
 
@@ -60,7 +60,7 @@ Begrijp hoe u naar velden in expressies kunt verwijzen, inclusief geavanceerde g
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Verzamelingsbeheerfuncties
 
@@ -70,7 +70,7 @@ Onderzoek functies als &#39;all&#39;, &#39;first&#39;, &#39;last&#39; en &#39;at
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Operatoren in geavanceerde expressies
 

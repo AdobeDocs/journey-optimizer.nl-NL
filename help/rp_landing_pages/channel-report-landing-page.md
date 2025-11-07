@@ -20,7 +20,7 @@ Het &#39;All Time Report&#39; in Adobe Journey Optimizer is uw toegangspoort tot
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Begonnen het worden met Al Tijd die rapporteert
 
@@ -30,7 +30,7 @@ Leer hoe u de functie All Time Report in Adobe Journey Optimizer kunt gebruiken 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Uitgebreide lijst met statistieken
 
@@ -40,7 +40,7 @@ Ontdek gedetailleerde definities van metriek die over leveringskanalen zoals e-m
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Customer Journey Analytics handmatig configureren
 
@@ -50,7 +50,7 @@ Stapsgewijze handleiding voor het handmatig configureren van integratie met Cust
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Uw rapporten beheren
 
@@ -60,7 +60,7 @@ Leer om rapporten te analyseren, aan te passen, uit te voeren, en te plannen, ev
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Rapportgegevensbronnen configureren
 
@@ -70,7 +70,7 @@ De gegevensbronnen en datasets van de opstelling om experimenteren toe te laten 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Uitsluitingsredenen
 

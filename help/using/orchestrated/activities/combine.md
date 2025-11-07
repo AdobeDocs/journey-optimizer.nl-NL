@@ -53,7 +53,7 @@ Voer de volgende algemene stappen uit om de **[!UICONTROL Combine]** -activiteit
 
 1. Voeg meerdere activiteiten, zoals **[!UICONTROL Build audience]** -activiteiten, toe om ten minste twee verschillende uitvoeringstakken te vormen.
 1. Voeg een **[!UICONTROL Combine]** activiteit aan om het even welke vorige takken toe.
-1. Selecteer het segmentatietype: [ unie ](#union), [ intersection ](#intersection) of [ uitsluiting ](#exclusion).
+1. Selecteer het segmentatietype: [&#x200B; unie &#x200B;](#union), [&#x200B; intersection &#x200B;](#intersection) of [&#x200B; uitsluiting &#x200B;](#exclusion).
 1. Klik op **[!UICONTROL Continue]**.
 1. Controleer in de sectie **[!UICONTROL Sets to join]** alle vorige activiteiten waaraan u wilt deelnemen.
 

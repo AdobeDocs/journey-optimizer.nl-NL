@@ -23,9 +23,9 @@ Pushberichten in Adobe Journey Optimizer zijn een krachtige manier om gebruikers
 
 U kunt pushmeldingen maken:
 
-* In a **Weg**: Zodra u een activiteit van de Duw in uw reis toevoegde, en bepaalde basismontages, gebruik de **[!UICONTROL Actions: Push]** juiste ruit om de inhoud voor de Duw berichten tot stand te brengen. [ Leer hoe te om een reis ](../using/building-journeys/journey-gs.md) te creëren
+* In a **Weg**: Zodra u een activiteit van de Duw in uw reis toevoegde, en bepaalde basismontages, gebruik de **[!UICONTROL Actions: Push]** juiste ruit om de inhoud voor de Duw berichten tot stand te brengen. [&#x200B; Leer hoe te om een reis &#x200B;](../using/building-journeys/journey-gs.md) te creëren
 
-* In a **Campagne**: Zodra u een campagne creeerde, uitgezocht duw bericht als uw actie en bepaalt basismontages. [ Leer hoe te om een campagne ](../using/campaigns/create-campaign.md#configure) tot stand te brengen
+* In a **Campagne**: Zodra u een campagne creeerde, uitgezocht duw bericht als uw actie en bepaalt basismontages. [&#x200B; Leer hoe te om een campagne &#x200B;](../using/campaigns/create-campaign.md#configure) tot stand te brengen
 
 
 >[!NOTE]
@@ -38,7 +38,7 @@ U kunt pushmeldingen maken:
 :::: landing-cards-container
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Pushmeldingen maken en configureren
 
@@ -48,7 +48,7 @@ Stapsgewijze handleiding voor het maken en configureren van pushberichten, inclu
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Uw pushmelding ontwerpen
 
@@ -58,7 +58,7 @@ Ontdek hoe u pushmeldingen kunt ontwerpen en personaliseren met media, knoppen, 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Pushmeldingen voorvertonen, valideren en verzenden
 
@@ -68,7 +68,7 @@ Leer hoe u pushmeldingen kunt voorvertonen, valideren en verzenden, en hoe u erv
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configuratie pushmelding
 

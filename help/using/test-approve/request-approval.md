@@ -48,7 +48,7 @@ Terwijl de campagne of de reis **[!UICONTROL In review]** staat is, hebt u de op
 
 ## Goedkeuringsaanvragen beheren
 
-Zodra de goedkeuringsaanvraag aan de fiatteurs is verzonden, kunnen zij deze beoordelen en de reis/campagne activeren om deze live te zetten, of zo nodig wijzigingen aanvragen. [ Leer hoe te om een verzoek te herzien en goed te keuren ](review-approve-request.md)
+Zodra de goedkeuringsaanvraag aan de fiatteurs is verzonden, kunnen zij deze beoordelen en de reis/campagne activeren om deze live te zetten, of zo nodig wijzigingen aanvragen. [&#x200B; Leer hoe te om een verzoek te herzien en goed te keuren &#x200B;](review-approve-request.md)
 
 Als de aanvraag van fiatteurs verandert, ontvangt u een melding via e-mail en een Journey Optimizer-waarschuwing. Deze waarschuwing is toegankelijk wanneer u in het tabblad **[!UICONTROL Requests]** op het belpictogram rechtsboven in het scherm klikt.
 

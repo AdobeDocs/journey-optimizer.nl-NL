@@ -33,7 +33,7 @@ In [!DNL Journey Optimizer], wordt het visuele Web authoring aangedreven door de
 
 >[!CAUTION]
 >
->Om tot Web-pagina&#39;s in het [!DNL Journey Optimizer] gebruikersinterface toegang te hebben en te schrijven, zorg ervoor u de eerste vereisten volgt die in [ worden vermeld deze sectie ](web-prerequisites.md).
+>Om tot Web-pagina&#39;s in het [!DNL Journey Optimizer] gebruikersinterface toegang te hebben en te schrijven, zorg ervoor u de eerste vereisten volgt die in [&#x200B; worden vermeld deze sectie &#x200B;](web-prerequisites.md).
 
 ## Creëer uw webervaring
 
@@ -41,7 +41,7 @@ Voer de onderstaande stappen uit om uw webervaring te gaan ontwerpen met de visu
 
 >[!CAUTION]
 >
->[ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"} moet in uw Web-pagina worden omvat. [Meer informatie](web-prerequisites.md#implementation-prerequisites)
+>[&#x200B; SDK van het Web van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"} moet in uw Web-pagina worden omvat. [Meer informatie](web-prerequisites.md#implementation-prerequisites)
 
 1. Klik in het **[!UICONTROL Edit content]** -scherm op **[!UICONTROL Edit web page]** om de webontwerper te openen.
 
@@ -51,7 +51,7 @@ Voer de onderstaande stappen uit om uw webervaring te gaan ontwerpen met de visu
 
    >[!NOTE]
    >
-   >Als u probeert om een website te laden die er niet in slaagt te laden, een berichtvertoningen die erop wijzen dat u de [ Visuele het Uitgeven Browser van de Helper browser uitbreiding ](#install-visual-editing-helper) installeert. Zie sommige uiteinden voor het oplossen van problemen in [ deze sectie ](web-prerequisites.md#troubleshooting).
+   >Als u probeert om een website te laden die er niet in slaagt te laden, een berichtvertoningen die erop wijzen dat u de [&#x200B; Visuele het Uitgeven Browser van de Helper browser uitbreiding &#x200B;](#install-visual-editing-helper) installeert. Zie sommige uiteinden voor het oplossen van problemen in [&#x200B; deze sectie &#x200B;](web-prerequisites.md#troubleshooting).
    >
    >U kunt uw webinhoud ook bewerken zonder de visuele editor te laden. Als u dit wilt doen, schakelt u de optie **[!UICONTROL Visual editor]** uit om in plaats daarvan de modus Niet-visuele editie te gebruiken. [Meer informatie](web-non-visual-editor.md)
 
@@ -73,7 +73,7 @@ Voer de onderstaande stappen uit om uw webervaring te gaan ontwerpen met de visu
 
 >[!NOTE]
 >
->De ontwerper van webinhoud is meestal vergelijkbaar met de e-mail-Designer. Leer meer over [ het ontwerpen van inhoud met  [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>De ontwerper van webinhoud is meestal vergelijkbaar met de e-mail-Designer. Leer meer over [&#x200B; het ontwerpen van inhoud met  [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 
 Nadat u de webinhoud hebt bewerkt, kunt u uw wijzigingen beheren. [Meer informatie](manage-web-modifications.md)
 
@@ -119,7 +119,7 @@ Als u verpersoonlijking wilt toevoegen, selecteert u een container en selecteert
 
 ## Navigeren door de webontwerper {#navigate-web-designer}
 
-In deze sectie worden de verschillende manieren beschreven waarop u door de webontwerper kunt navigeren. Om de wijzigingen te bekijken en te beheren die aan uw Webervaring worden toegevoegd, zie [ deze sectie ](manage-web-modifications.md).
+In deze sectie worden de verschillende manieren beschreven waarop u door de webontwerper kunt navigeren. Om de wijzigingen te bekijken en te beheren die aan uw Webervaring worden toegevoegd, zie [&#x200B; deze sectie &#x200B;](manage-web-modifications.md).
 
 ### Breedkruimels gebruiken {#breadcrumbs}
 

@@ -30,7 +30,7 @@ Als u Adobe Campaign Standard hebt, zijn de volgende ingebouwde handelingen besc
 >
 >Hiervoor moet u de ingebouwde actie configureren. Zie [deze pagina](../action/acs-action.md).
 
-Voor elk van deze kanalen, selecteert u een het Transactionele Overseinen van Adobe Campaign Standard **malplaatje**. Voor de ingebouwde e-mail, sms en duw kanalen, vertrouwen wij op Transactieoverseinen om bericht uit te voeren die verzenden. Het betekent dat als u een bepaald berichtmalplaatje in uw reizen wilt gebruiken, u het in Adobe Campaign Standard moet publiceren. Verwijs naar [ deze pagina ](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl) om te leren hoe te om deze eigenschap te gebruiken.
+Voor elk van deze kanalen, selecteert u een het Transactionele Overseinen van Adobe Campaign Standard **malplaatje**. Voor de ingebouwde e-mail, sms en duw kanalen, vertrouwen wij op Transactieoverseinen om bericht uit te voeren die verzenden. Het betekent dat als u een bepaald berichtmalplaatje in uw reizen wilt gebruiken, u het in Adobe Campaign Standard moet publiceren. Verwijs naar [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl) om te leren hoe te om deze eigenschap te gebruiken.
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Voor **[!UICONTROL Email]** en **[!UICONTROL SMS]** zijn de parameters identiek.
 
 >[!NOTE]
 >
->Als Adobe Campaign Standard de transactiesjabloon van een profiel gebruikt voor e-mail, wordt het systeem voor het opzeggen van abonnementen automatisch afgehandeld. Om dit uit te voeren, kunt u een **[!UICONTROL Unsubscription link]** inhoudsblok binnen [ het transactionele e-mailmalplaatje ](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl) gemakkelijk omvatten. Als u echter een op een gebeurtenis gebaseerde sjabloon (rtEvent) gebruikt, moet u een koppeling opnemen in het bericht die de e-mail van de ontvanger doorgeeft als een URL-parameter en deze doorstuurt naar een bestemmingspagina zonder abonnement. Deze landingspagina moet worden gemaakt en ervoor zorgen dat het besluit van de ontvanger om af te zien daadwerkelijk aan Adobe wordt toegezonden.
+>Als Adobe Campaign Standard de transactiesjabloon van een profiel gebruikt voor e-mail, wordt het systeem voor het opzeggen van abonnementen automatisch afgehandeld. Om dit uit te voeren, kunt u een **[!UICONTROL Unsubscription link]** inhoudsblok binnen [&#x200B; het transactionele e-mailmalplaatje &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl) gemakkelijk omvatten. Als u echter een op een gebeurtenis gebaseerde sjabloon (rtEvent) gebruikt, moet u een koppeling opnemen in het bericht die de e-mail van de ontvanger doorgeeft als een URL-parameter en deze doorstuurt naar een bestemmingspagina zonder abonnement. Deze landingspagina moet worden gemaakt en ervoor zorgen dat het besluit van de ontvanger om af te zien daadwerkelijk aan Adobe wordt toegezonden.
 
 Eerst, moet u een transactioneel overseinensjabloon kiezen.
 
@@ -84,7 +84,7 @@ Dit zijn de velden die worden verwacht door het Adobe Campaign Standard-bericht.
 
 ## Push {#section_im3_hvf_nhb}
 
-Voordat u de pushactiviteit kunt gebruiken, moet uw mobiele app samen met Campaign Standard worden geconfigureerd om pushberichten te verzenden. Gebruik dit [ artikel ](https://helpx.adobe.com/nl/campaign/kb/integrate-mobile-sdk.html) om de noodzakelijke implementatiestappen voor mobiel te nemen.
+Voordat u de pushactiviteit kunt gebruiken, moet uw mobiele app samen met Campaign Standard worden geconfigureerd om pushberichten te verzenden. Gebruik dit [&#x200B; artikel &#x200B;](https://helpx.adobe.com/nl/campaign/kb/integrate-mobile-sdk.html) om de noodzakelijke implementatiestappen voor mobiel te nemen.
 
 Eerst moet u een mobiele app kiezen in de vervolgkeuzelijst en een transactiebericht.
 

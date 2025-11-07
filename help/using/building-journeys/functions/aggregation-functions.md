@@ -20,9 +20,9 @@ Met aggregatiefuncties kunt u berekeningen uitvoeren op een set waarden en één
 
 Gebruik aggregatiefuncties wanneer u dat nodig hebt:
 
-* Bereken statistische waarden van lijsten of series ([ avg ](#avg), [ som ](#sum), [ min ](#min), [ maximum ](#max))
-* Telling elementen in inzamelingen ([ telling ](#count), [ countOnlyNull ](#countOnlyNull), [ countWithNull ](#countWithNull)), met opties om ongeldige waarden te omvatten of uit te sluiten
-* Bepaal unieke waarden binnen gegevensreeksen ([ differentCount ](#distinctCount), [ differentCountWithNull ](#distinctCountWithNull))
+* Bereken statistische waarden van lijsten of series ([&#x200B; avg &#x200B;](#avg), [&#x200B; som &#x200B;](#sum), [&#x200B; min &#x200B;](#min), [&#x200B; maximum &#x200B;](#max))
+* Telling elementen in inzamelingen ([&#x200B; telling &#x200B;](#count), [&#x200B; countOnlyNull &#x200B;](#countOnlyNull), [&#x200B; countWithNull &#x200B;](#countWithNull)), met opties om ongeldige waarden te omvatten of uit te sluiten
+* Bepaal unieke waarden binnen gegevensreeksen ([&#x200B; differentCount &#x200B;](#distinctCount), [&#x200B; differentCountWithNull &#x200B;](#distinctCountWithNull))
 * Gegevensgestuurde beslissingen nemen op basis van berekende meetwaarden
 
 Samenvoegingsfuncties verwerken automatisch null-waarden op basis van hun specifieke gedrag, waardoor het eenvoudiger wordt om te werken met gegevens in de praktijk die ontbrekende of niet-gedefinieerde waarden kunnen bevatten.

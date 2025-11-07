@@ -18,9 +18,9 @@ ht-degree: 1%
 
 ## Vereisten {#prerequisites}
 
-* Verzeker u de recentste versie voor uw **uitbreiding van SDK van het Web van 0} Adobe Experience Platform gebruikt.**
+* Verzeker u de recentste versie voor uw **uitbreiding van SDK van het Web van 0&rbrace; Adobe Experience Platform gebruikt.**
 
-* Installeer de **uitbreiding van het Web SDK van 0} Adobe Experience Platform {in uw** eigenschappen van de Markering **en laat de** Opslag van Personalization **optie toe.**
+* Installeer de **uitbreiding van het Web SDK van 0&rbrace; Adobe Experience Platform &lbrace;in uw** eigenschappen van de Markering **en laat de** Opslag van Personalization **optie toe.**
 
   Deze configuratie is essentieel voor het opslaan van gebeurtenisgeschiedenissen op de cliënt, een voorwaarde voor het uitvoeren van de Regels van de Frequentie in de Bouwer van Regels. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html){target="_blank"}
 
@@ -28,13 +28,13 @@ ht-degree: 1%
 
 ## Verzonden gegevens naar platformregel configureren {#configure-sent-data-trigger}
 
-1. Heb toegang tot uw **instantie van de Gegevensverzameling van 0} Adobe Experience Platform {en navigeer aan** Eigenschappen van de Markering **die met de** wordt gevormd SDK van het Web van Adobe Experience Platform **uitbreiding.**
+1. Heb toegang tot uw **instantie van de Gegevensverzameling van 0&rbrace; Adobe Experience Platform &lbrace;en navigeer aan** Eigenschappen van de Markering **die met de** wordt gevormd SDK van het Web van Adobe Experience Platform **uitbreiding.**
 
 1. Van het **Authoring** menu, uitgezochte **Regels** dan **creeer nieuwe regel** of **voegt regel** toe.
 
    ![](assets/configure_web_inapp_2.png)
 
-1. In de **sectie van Gebeurtenissen**, voegt de klik **** toe en vormt het als volgt:
+1. In de **sectie van Gebeurtenissen**, voegt de klik **&#x200B;**&#x200B;toe en vormt het als volgt:
 
    * **Uitbreiding**: Kern
 
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 1. Klik **houden veranderingen** om de configuratie van de Gebeurtenis te bewaren.
 
-1. In de **sectie van Acties**, klik **** toevoegen en vormen het als volgt:
+1. In de **sectie van Acties**, klik **&#x200B;**&#x200B;toevoegen en vormen het als volgt:
 
    * **Uitbreiding**: Adobe Experience Platform Web SDK
 
@@ -70,13 +70,13 @@ ht-degree: 1%
 
 ## Handmatige regel configureren {#configure-manual-trigger}
 
-1. Heb toegang tot uw **instantie van de Gegevensverzameling van 0} Adobe Experience Platform {en navigeer aan** Eigenschappen van de Markering **die met de** wordt gevormd SDK van het Web van Adobe Experience Platform **uitbreiding.**
+1. Heb toegang tot uw **instantie van de Gegevensverzameling van 0&rbrace; Adobe Experience Platform &lbrace;en navigeer aan** Eigenschappen van de Markering **die met de** wordt gevormd SDK van het Web van Adobe Experience Platform **uitbreiding.**
 
 1. Van het **Authoring** menu, uitgezochte **Regels** dan **creeer nieuwe regel** of **voegt regel** toe.
 
    ![](assets/configure_web_inapp_8.png)
 
-1. In de **sectie van Gebeurtenissen**, voegt de klik **** toe en vormt het als volgt:
+1. In de **sectie van Gebeurtenissen**, voegt de klik **&#x200B;**&#x200B;toe en vormt het als volgt:
 
    * **Uitbreiding**: Kern
 
@@ -90,7 +90,7 @@ ht-degree: 1%
 
 1. Klik **houden veranderingen** om de **configuratie van de Gebeurtenis** te bewaren.
 
-1. In de **sectie van Acties**, klik **** toevoegen en vormen het als volgt:
+1. In de **sectie van Acties**, klik **&#x200B;**&#x200B;toevoegen en vormen het als volgt:
 
    * **Uitbreiding**: Adobe Experience Platform Web SDK
 
@@ -122,7 +122,7 @@ ht-degree: 1%
    >
    > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook onderstrepingsteken `_` -, punt `.` - en afbreekstreepjes `-` gebruiken.
 
-1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md).
+1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [&#x200B; leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) &#x200B;](../administration/object-based-access.md).
 
 1. Selecteer **[!UICONTROL Marketing action]**(s) om het toestemmingsbeleid aan de berichten te associëren gebruikend deze configuratie. Alle toestemmingsbeleid verbonden aan de marketing actie wordt gebruikt om de voorkeur van uw klanten te respecteren. [Meer informatie](../action/consent.md#surface-marketing-actions)
 
@@ -155,4 +155,4 @@ ht-degree: 1%
 
 1. Verzend uw webconfiguratie in de app.
 
-U kunt [ nu tot een Web in-app ](../in-app/create-in-app-web.md) binnen een campagne leiden.
+U kunt [&#x200B; nu tot een Web in-app &#x200B;](../in-app/create-in-app-web.md) binnen een campagne leiden.

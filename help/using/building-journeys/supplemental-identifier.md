@@ -85,7 +85,7 @@ Voer de volgende stappen uit om een aanvullende id te gebruiken in een gebeurten
 
 1. **teken de attributen als herkenningsteken in het gebeurtenisschema**
 
-   1. Open het gebeurtenisschema en zoek het kenmerk dat u als aanvullende id wilt gebruiken (bijvoorbeeld de reserverings-id, de abonnement-id) en markeer het als een id. [ Leer hoe te met schema&#39;s ](../data/get-started-schemas.md) te werken
+   1. Open het gebeurtenisschema en zoek het kenmerk dat u als aanvullende id wilt gebruiken (bijvoorbeeld de reserverings-id, de abonnement-id) en markeer het als een id. [&#x200B; Leer hoe te met schema&#39;s &#x200B;](../data/get-started-schemas.md) te werken
 
    1. Markeer de id als een **[!UICONTROL Identity]** .
 
@@ -101,7 +101,7 @@ Voer de volgende stappen uit om een aanvullende id te gebruiken in een gebeurten
 
 1. **voeg extra identiteitskaart aan de gebeurtenis toe**
 
-   1. Maak of bewerk de gewenste gebeurtenis. [ Leer hoe te om een eenheidsgebeurtenis te vormen ](../event/about-creating.md)
+   1. Maak of bewerk de gewenste gebeurtenis. [&#x200B; Leer hoe te om een eenheidsgebeurtenis te vormen &#x200B;](../event/about-creating.md)
 
    1. Controleer de optie **[!UICONTROL Use supplemental identifier]** in het scherm met gebeurtenisconfiguratie.
 
@@ -127,7 +127,7 @@ Voer de volgende stappen uit om een extra id te gebruiken voor een leestoepreis:
 
 1. **Teken de attributen als herkenningsteken in het unie/profielschema**
 
-   1. Open het samenvoegings-/profielschema en zoek het kenmerk dat u als aanvullende id wilt gebruiken (bijv. reserverings-id, abonnement-id) en markeer het als een id. [ Leer hoe te met schema&#39;s ](../data/get-started-schemas.md) te werken
+   1. Open het samenvoegings-/profielschema en zoek het kenmerk dat u als aanvullende id wilt gebruiken (bijv. reserverings-id, abonnement-id) en markeer het als een id. [&#x200B; Leer hoe te met schema&#39;s &#x200B;](../data/get-started-schemas.md) te werken
 
    1. Markeer de id als een **[!UICONTROL Identity]** .
 

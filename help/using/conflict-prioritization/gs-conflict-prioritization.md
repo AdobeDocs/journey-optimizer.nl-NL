@@ -25,17 +25,17 @@ Door gebruik te maken van deze gereedschappen kunt u zorgen voor soepelere en me
 
 Met het **hulpmiddel van de conflictopsporing**, kunt u potentiële overlappingen in reizen en campagnes identificeren. Dit is essentieel aangezien teveel gelijktijdige mededelingen tot klantenvermoeidheid kunnen leiden. Met Journey Optimizer kunt u elementen controleren, zoals tijdlijnen, overlappende doelgroepen en kanaalconfiguraties. Door conflicten vroegtijdig te identificeren, kunt u uw campagnes verfijnen om het bombarderen van klanten met veelvoudige berichten tezelfdertijd te vermijden.
 
-➡️ [ Leer hoe te om potentiële conflicten in reizen &amp; campagnes te ontdekken ](conflicts.md)
+➡️ [&#x200B; Leer hoe te om potentiële conflicten in reizen &amp; campagnes te ontdekken &#x200B;](conflicts.md)
 
 ### Prioriteitsscores
 
 **Prioriteitsscores** helpen u controleren welke campagnes of reizen belangrijkheid nemen wanneer een klant voor veelvoudige mededelingen kwalificeert. Dit is met name handig voor binnenkomende kanalen, zoals het web en mobiele apparaten, waar op elk moment slechts één campagne kan worden weergegeven. Door een prioritaire score toe te wijzen aan elke reis of campagne, kunt u ervoor zorgen dat de belangrijkste boodschap eerst wordt geleverd.
 
-➡️ [ Leer hoe te om prioritaire scores aan reizen &amp; campagnes toe te wijzen ](priority-scores.md)
+➡️ [&#x200B; Leer hoe te om prioritaire scores aan reizen &amp; campagnes toe te wijzen &#x200B;](priority-scores.md)
 
 ### Regelsets
 
-De reeksen van de regel staan u toe om **samen veelvoudige regels in regelreeksen** te groeperen en hen op de reizen en de campagnes van uw keus toe te passen. Dit verstrekt betere granulariteit om te beperken hoe vaak en hoeveel reizen een klant binnen een bepaald tijdkader kan ingaan of te controleren hoe vaak de gebruikers een bericht afhankelijk van het type van mededeling zullen ontvangen. [ leer hoe te met regelreeksen ](../conflict-prioritization/rule-sets.md) werken
+De reeksen van de regel staan u toe om **samen veelvoudige regels in regelreeksen** te groeperen en hen op de reizen en de campagnes van uw keus toe te passen. Dit verstrekt betere granulariteit om te beperken hoe vaak en hoeveel reizen een klant binnen een bepaald tijdkader kan ingaan of te controleren hoe vaak de gebruikers een bericht afhankelijk van het type van mededeling zullen ontvangen. [&#x200B; leer hoe te met regelreeksen &#x200B;](../conflict-prioritization/rule-sets.md) werken
 
 * **Reis het in kaart brengen &amp; arbitrage**
 
@@ -43,13 +43,13 @@ De reeksen van de regel staan u toe om **samen veelvoudige regels in regelreekse
 
   Bovendien kunt u arbitrageinstellingen gebruiken om te beslissen welke reis een klant moet invoeren als hij of zij in aanmerking komt voor meerdere reizen, waarbij u prioriteitsscores gebruikt om de beste pasvorm te bepalen.
 
-  ➡️ [ Leer hoe te met reis het afschilderen &amp; arbitrage te werken ](journey-capping.md)
+  ➡️ [&#x200B; Leer hoe te met reis het afschilderen &amp; arbitrage te werken &#x200B;](journey-capping.md)
 
 * **het in kaart brengen van de Frequentie door kanaal en communicatietype**
 
   U kunt regelreeksen ook gebruiken om frequentie het begrenzen door communicatietype (b.v., Verkoop, Bevordering) te plaatsen om het overbelasten van klanten met gelijkaardige berichten te verhinderen. U kunt de frequentie in meerdere kanalen bepalen, waarbij al te gevraagde profielen automatisch worden uitgesloten voor een betere ervaring met klanten.
 
-  ➡️ [ Leer hoe te om frequentie het in kaart brengen door kanaal en communicatietype te plaatsen ](../conflict-prioritization/channel-capping.md)
+  ➡️ [&#x200B; Leer hoe te om frequentie het in kaart brengen door kanaal en communicatietype te plaatsen &#x200B;](../conflict-prioritization/channel-capping.md)
 
 ## Afbeeldingen en beperkingen
 
@@ -76,4 +76,4 @@ De reeksen van de regel staan u toe om **samen veelvoudige regels in regelreekse
 * **[vorm frequentie het in kaart brengen](channel-capping.md)** - ontdekt hoe te om kanaal-vlakke frequentiecappen te plaatsen om over-overseinen te verhinderen.
 * **[creeer regelreeksen](rule-sets.md)** - leer hoe te om bedrijfsregels voor geavanceerd conflictbeheer en berichtbeheer te bouwen.
 * **[reis-specifiek het begrenzen](journey-capping.md)** - de de afschilderingsregels van het opstellings reis-niveau om berichtfrequentie binnen reizen te controleren.
-* **[het beheersleerprogramma&#39;s van het Conflict ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op conflictbeheer en prioritering.
+* **[het beheersleerprogramma&#39;s van het Conflict &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op conflictbeheer en prioritering.

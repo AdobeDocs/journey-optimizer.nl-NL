@@ -29,8 +29,8 @@ De stappen om een reis te publiceren zijn hieronder gedetailleerd:
 
 1. Voordat u uw reis publiceert, controleert u of deze geldig is en of er geen fouten zijn. U kunt geen reis met fouten publiceren.
 
-   * Leer hoe te om uw reis op [ deze pagina ](testing-the-journey.md) te testen.
-   * Leer hoe te om uw reisfouten in [ problemen op te lossen deze sectie ](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
+   * Leer hoe te om uw reis op [&#x200B; deze pagina &#x200B;](testing-the-journey.md) te testen.
+   * Leer hoe te om uw reisfouten in [&#x200B; problemen op te lossen deze sectie &#x200B;](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
 1. Als u de rit wilt publiceren, klikt u op de optie **[!UICONTROL Publish]** in het keuzemenu rechtsboven.
 
@@ -40,7 +40,7 @@ De stappen om een reis te publiceren zijn hieronder gedetailleerd:
 
    ![](assets/journeyuc1_18.png)
 
-Wanneer de reis wordt gepubliceerd, is het op **read-only** wijze. In de modus Alleen-lezen kunt u alleen de activiteitslabels en -beschrijvingen, de naam van de reis en de beschrijving van de reis wijzigen. Als u extra aanpassingen aan een gepubliceerde reis moet maken, creeer [ een nieuwe versie ](journey-ui.md#journey-versions) van uw reis.
+Wanneer de reis wordt gepubliceerd, is het op **read-only** wijze. In de modus Alleen-lezen kunt u alleen de activiteitslabels en -beschrijvingen, de naam van de reis en de beschrijving van de reis wijzigen. Als u extra aanpassingen aan een gepubliceerde reis moet maken, creeer [&#x200B; een nieuwe versie &#x200B;](journey-ui.md#journey-versions) van uw reis.
 
 Als je een reis stopt, wordt deze permanent gestopt. Alle personen die door de reis lopen, worden permanent tegengehouden en de reis maakt geen nieuwe inzendingen meer mogelijk. Als u de reis opnieuw moet leiden, dupliceer het en publiceer de nieuwe reis.
 
@@ -81,7 +81,7 @@ Wanneer u een nieuwe versie van een reis publiceert, beëindigt de vorige versie
 
 >[!NOTE]
 >
->Specifieke garanties en beperkingen zijn van toepassing op de versiering van de reizen. Leer meer op [ deze pagina ](../start/guardrails.md#journey-versions-journey-versions-g).
+>Specifieke garanties en beperkingen zijn van toepassing op de versiering van de reizen. Leer meer op [&#x200B; deze pagina &#x200B;](../start/guardrails.md#journey-versions-journey-versions-g).
 
 
 ## Hoe kan ik-video {#video}

@@ -20,7 +20,7 @@ Met de configuratie van handelingen in Adobe Journey Optimizer kunt u uw klantri
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met aangepaste handelingen
 
@@ -30,7 +30,7 @@ Leer hoe u aangepaste acties in Adobe Journey Optimizer configureert en gebruikt
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Hoe te om de Acties van de Douane te vormen
 
@@ -40,7 +40,7 @@ Stapsgewijze zelfstudie voor het instellen van aangepaste handelingen, waaronder
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Het gebruiken van de Reacties van de Vraag van API in Acties van de Douane
 

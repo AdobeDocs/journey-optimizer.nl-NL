@@ -24,17 +24,17 @@ U kunt de inhoud van de bestemmingspagina definiëren met behulp van aangepaste 
 
 Als u aangepaste JavaScript wilt invoegen in bestemmingspagina-inhoud, kunt u het volgende doen:
 
-* Importeer bestaande HTML-inhoud wanneer u begint met het maken van uw inhoud en selecteer het bestand dat uw aangepaste JavaScript-code bevat. Leer hoe te om inhoud [ in deze sectie ](../email/existing-content.md) in te voeren.
+* Importeer bestaande HTML-inhoud wanneer u begint met het maken van uw inhoud en selecteer het bestand dat uw aangepaste JavaScript-code bevat. Leer hoe te om inhoud [&#x200B; in deze sectie &#x200B;](../email/existing-content.md) in te voeren.
 
-* Ontwerp de openingspagina helemaal zelf of op basis van een opgeslagen sjabloon. Sleep de inhoudscomponent **[!UICONTROL HTML]** naar het canvas en toon de broncode om de JavaScript aan de component toe te voegen. Leer hoe te om de component van HTML in [ te gebruiken deze sectie ](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
+* Ontwerp de openingspagina helemaal zelf of op basis van een opgeslagen sjabloon. Sleep de inhoudscomponent **[!UICONTROL HTML]** naar het canvas en toon de broncode om de JavaScript aan de component toe te voegen. Leer hoe te om de component van HTML in [&#x200B; te gebruiken deze sectie &#x200B;](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
   ![](assets/lp_designer-html-component.png)
 
-* Typ of plak de JavaScript-code rechtstreeks in de inhoudsontwerper. Leer hoe te om uw eigen inhoud [ in deze sectie ](../email/code-content.md) te coderen.
+* Typ of plak de JavaScript-code rechtstreeks in de inhoudsontwerper. Leer hoe te om uw eigen inhoud [&#x200B; in deze sectie &#x200B;](../email/code-content.md) te coderen.
 
 >[!NOTE]
 >
->Momenteel kunt u geen JavaScript in actie tonen wanneer [ previewing de het landen pagina ](create-lp.md#test-landing-page).
+>Momenteel kunt u geen JavaScript in actie tonen wanneer [&#x200B; previewing de het landen pagina &#x200B;](create-lp.md#test-landing-page).
 
 Gebruik de volgende syntaxis zoals beschreven in de onderstaande secties om de openingspagina correct weer te geven.
 

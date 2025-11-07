@@ -20,7 +20,7 @@ De Configure code-Gebaseerde sectie van het Kanaal in Adobe Journey Optimizer he
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Voorwaarden voor op code gebaseerde ervaring
 
@@ -30,7 +30,7 @@ Leer over de eerste vereisten voor het gebruiken van code-gebaseerde ervaringen,
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Codegebaseerde ervaringsoppervlakken
 
@@ -40,7 +40,7 @@ Begrijp oppervlakten en hun herkenningstekens, samenstelling, en gebruik in code
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Voorbeelden van implementatiemethoden
 
@@ -50,7 +50,7 @@ Krijg geleidelijke begeleiding voor het uitvoeren van cliënt-kant, server-kant,
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Beslissing in op code-gebaseerde Ervaring Implementaties
 
@@ -60,7 +60,7 @@ Leer hoe te om deduplicatie te vormen en besluitvormingsverzoeken in op code-geb
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configuratie voor op code gebaseerde ervaring maken
 

@@ -41,7 +41,7 @@ Voer de volgende stappen uit om de **[!UICONTROL Save audience]** -activiteit te
 
    Alleen toewijzingen die compatibel zijn met de huidige doeldimensie, d.w.z. de toewijzing uit de inkomende overgang, zijn beschikbaar in de vervolgkeuzelijst om te zorgen voor een goede afstemming tussen het publiek en de context van de campagne.
 
-   ➡️ [ volg de stappen in deze pagina worden gedetailleerd om uw Campagne te creëren richtend afmeting ](../target-dimension.md)
+   ➡️ [&#x200B; volg de stappen in deze pagina worden gedetailleerd om uw Campagne te creëren richtend afmeting &#x200B;](../target-dimension.md)
 
    ![](../assets/save-audience-1.png)
 

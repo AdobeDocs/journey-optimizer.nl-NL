@@ -48,4 +48,4 @@ Ga als volgt te werk om variaties voor uw inhoud te genereren en deze voor te ve
 
 >[!NOTE]
 >
->Deze functie werkt op dezelfde manier als de standaardfunctie voor het simuleren van inhoudsvariaties. Voor meer informatie over de simulaties van inhoudsvariaties en de bijbehorende guardrails en beperkingen, verwijs naar deze sectie: [ simuleer inhoudsvariaties ](../test-approve/simulate-sample-input.md)
+>Deze functie werkt op dezelfde manier als de standaardfunctie voor het simuleren van inhoudsvariaties. Voor meer informatie over de simulaties van inhoudsvariaties en de bijbehorende guardrails en beperkingen, verwijs naar deze sectie: [&#x200B; simuleer inhoudsvariaties &#x200B;](../test-approve/simulate-sample-input.md)

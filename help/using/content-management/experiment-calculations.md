@@ -20,11 +20,11 @@ ht-degree: 0%
 
 In dit artikel worden de statistische berekeningen beschreven die worden gebruikt bij het uitvoeren van experimenten in Adobe Journey Optimizer.
 
-De experimentatie gebruikt [ geavanceerde statistische methodes ](../content-management/assets/confidence_sequence_technical_details.pdf) om **opeenvolgingen van het Vertrouwen** en **Vertrouwen** te berekenen, die u toestaan om uw experimenten zolang als nodig in werking te stellen, en uw resultaten onophoudelijk te controleren.
+De experimentatie gebruikt [&#x200B; geavanceerde statistische methodes &#x200B;](../content-management/assets/confidence_sequence_technical_details.pdf) om **opeenvolgingen van het Vertrouwen** en **Vertrouwen** te berekenen, die u toestaan om uw experimenten zolang als nodig in werking te stellen, en uw resultaten onophoudelijk te controleren.
 
 Dit artikel beschrijft hoe de Experimentatie werkt, en verstrekt een intuïtieve inleiding aan Adobe **Om het even welke Geldige Reeksen van het Vertrouwen van de Tijd**.
 
-Voor deskundige gebruikers, zijn de technische details en de verwijzingen gedetailleerd op [ deze pagina ](../content-management/assets/confidence_sequence_technical_details.pdf).
+Voor deskundige gebruikers, zijn de technische details en de verwijzingen gedetailleerd op [&#x200B; deze pagina &#x200B;](../content-management/assets/confidence_sequence_technical_details.pdf).
 
 ## Statistische test- en controlefouten {#statistical-testing}
 
@@ -52,7 +52,7 @@ Voor de meeste statistische bepalingstechnieken moet u de grootte van de steekpr
 
 ## Statistische methodologie voor Adobe: alle tijdgeldige betrouwbaarheidsreeksen
 
-A **Opeenvolging van het Vertrouwen** is een opeenvolgend analogon van het Interval van het Vertrouwen van a ****, bijvoorbeeld als u uw experimenten honderd keer herhaalt, en een schatting van metrisch gemiddelde en zijn bijbehorende 95%-Vertrouwensvolgorde voor elke nieuwe gebruiker berekent die het experiment ingaat. Een 95% Vertrouwensreeks zal de ware waarde van metrisch in 95 van de 100 experimenten omvatten die u in werking stelde. Een betrouwbaarheidsinterval van 95% kon slechts eenmaal per experiment worden berekend om dezelfde 95% dekkingsgarantie te bieden, niet bij elke nieuwe gebruiker. De Reeksen van het vertrouwen staan daarom u toe om experimenten onophoudelijk te controleren, zonder het verhogen van vals Positieve foutenpercentages.
+A **Opeenvolging van het Vertrouwen** is een opeenvolgend analogon van het Interval van het Vertrouwen van a **&#x200B;**, bijvoorbeeld als u uw experimenten honderd keer herhaalt, en een schatting van metrisch gemiddelde en zijn bijbehorende 95%-Vertrouwensvolgorde voor elke nieuwe gebruiker berekent die het experiment ingaat. Een 95% Vertrouwensreeks zal de ware waarde van metrisch in 95 van de 100 experimenten omvatten die u in werking stelde. Een betrouwbaarheidsinterval van 95% kon slechts eenmaal per experiment worden berekend om dezelfde 95% dekkingsgarantie te bieden, niet bij elke nieuwe gebruiker. De Reeksen van het vertrouwen staan daarom u toe om experimenten onophoudelijk te controleren, zonder het verhogen van vals Positieve foutenpercentages.
 
 Het verschil tussen betrouwbaarheidsreeksen en betrouwbaarheidsintervallen voor één experiment wordt in de onderstaande animatie getoond:
 

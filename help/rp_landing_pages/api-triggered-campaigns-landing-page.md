@@ -20,7 +20,7 @@ Met API-getriggerde campagnes in Adobe Journey Optimizer kunt u realtime, gepers
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Door API&#39;s gestuurde campagnes maken en beheren
 
@@ -30,7 +30,7 @@ Leer hoe u API-getriggerde campagnes in Adobe Journey Optimizer kunt maken, conf
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Eigenschappen van API-activering voor campagne definiëren
 
@@ -40,7 +40,7 @@ Volg stapsgewijze instructies om campagne-eigenschappen te definiëren, zoals na
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 API-activering van campagne configureren
 
@@ -50,7 +50,7 @@ Leer hoe te om acties te vormen, communicatiekanalen te selecteren, berichtlever
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 API-activering van Campagne-inhoud bewerken en aanpassen
 
@@ -60,7 +60,7 @@ Campagne-inhoud aanpassen en aanpassen met contextuele gegevens. Leer om effici�
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Het publiek van de API-gestuurde campagne definiëren
 
@@ -70,7 +70,7 @@ Stel het campagnepubliek in door profielen te selecteren, identiteitstypen te co
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 Een API-gestuurde campagne plannen
 

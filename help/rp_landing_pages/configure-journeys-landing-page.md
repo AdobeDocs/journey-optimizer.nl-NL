@@ -20,7 +20,7 @@ De configuratie van de reis in Adobe Journey Optimizer machtigt u om naadloze, g
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met de configuratie van reizen
 
@@ -30,7 +30,7 @@ Leer hoe te om Gegevensbronnen, Gebeurtenissen, en Acties te vormen om berichtle
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Gebeurtenisconfiguratie in Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Onderzoek hoe te om gebeurtenissen te vormen en te beheren die reizen, met inbeg
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Source-configuratie gegevens in Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Begrijp en beheer gegevensbronnen, met inbegrip van pre-gevormde en externe type
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Configuratie en gebruik van aangepaste handelingen
 

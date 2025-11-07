@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Met de insteekmodule [!DNL Adobe Stock] en [!DNL Adobe Journey Optimizer] Email Designer kunt u op eenvoudige wijze door afbeeldingen navigeren en afbeeldingen licentiëren en opslaan voor gebruik in het schrijven van berichten.
 
-[ Adobe Stock ](https://helpx.adobe.com/stock/get-started.html){target="_blank"} verleent toegang tot miljoenen van kwaliteit, gekrulde, royalty-vrije foto&#39;s, video&#39;s, illustraties, en vectorgrafiek. U kunt ervoor kiezen om een creditpakket aan te schaffen om een licentie voor activa te verkrijgen of slechts één standaard- of uitgebreide licentie voor het benodigde element te kopen. Adobe Stock biedt ook een gratis collectie van activa.
+[&#x200B; Adobe Stock &#x200B;](https://helpx.adobe.com/stock/get-started.html){target="_blank"} verleent toegang tot miljoenen van kwaliteit, gekrulde, royalty-vrije foto&#39;s, video&#39;s, illustraties, en vectorgrafiek. U kunt ervoor kiezen om een creditpakket aan te schaffen om een licentie voor activa te verkrijgen of slechts één standaard- of uitgebreide licentie voor het benodigde element te kopen. Adobe Stock biedt ook een gratis collectie van activa.
 
 Met [!DNL Adobe Journey Optimizer] kunt u afbeeldingen rechtstreeks vanuit [!DNL Adobe Stock] uploaden naar uw e-mail en deze toevoegen aan de map **[!UICONTROL Assets]** met de optie **[!UICONTROL Find Adobe Stock photos]** . Daarnaast kunt u met de optie **[!UICONTROL Find Similar Stock photos]** afbeeldingen vinden die overeenkomen met de inhoud, kleur en compositie van het element dat wordt gebruikt bij de levering.
 
@@ -30,7 +30,7 @@ Met [!DNL Adobe Journey Optimizer] kunt u afbeeldingen rechtstreeks vanuit [!DNL
 
 De opties **[!UICONTROL Find Adobe Stock photos]** en **[!UICONTROL Find Similar Image]** zijn beschikbaar voor gebruikers met toegang tot een AEM Assets Essentials-productprofiel.
 
-Voor meer op dit, verwijs naar [ documentatie van Experience Manager Assets ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
+Voor meer op dit, verwijs naar [&#x200B; documentatie van Experience Manager Assets &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
 
 ## Een afbeelding invoegen vanuit [!DNL Adobe Stock] {#add-stock-image}
 
@@ -48,7 +48,7 @@ Voer de onderstaande stappen uit om afbeeldingen van [!DNL Adobe Stock] toe te v
 
 1. Selecteer de gekozen afbeelding en klik op **[!UICONTROL Save]** .
 
-   Als het beeld u selecteerde niet vergunning geeft, moet u [ de vergunning ](#license-stock-image) krijgen.
+   Als het beeld u selecteerde niet vergunning geeft, moet u [&#x200B; de vergunning &#x200B;](#license-stock-image) krijgen.
 
 ## Vergelijkbare foto&#39;s zoeken {#similar-stock-image}
 
@@ -65,9 +65,9 @@ Voer de onderstaande stappen uit om door vergelijkbare foto&#39;s te bladeren:
 
    ![](assets/stock-similar-results.png)
 
-   Als het beeld u selecteerde niet vergunning geeft, moet u [ de vergunning ](#license-stock-image) krijgen.
+   Als het beeld u selecteerde niet vergunning geeft, moet u [&#x200B; de vergunning &#x200B;](#license-stock-image) krijgen.
 
-1. Pas indien nodig de afbeelding aan met de tabbladen **[!UICONTROL Settings]** en **[!UICONTROL Styles]** . [ leer meer over componentenmontages ](../email/content-components.md).
+1. Pas indien nodig de afbeelding aan met de tabbladen **[!UICONTROL Settings]** en **[!UICONTROL Styles]** . [&#x200B; leer meer over componentenmontages &#x200B;](../email/content-components.md).
 
 ## Licentie ophalen van [!DNL Adobe Stock] {#license-stock-image}
 
@@ -87,7 +87,7 @@ Voer de onderstaande stappen uit om een licentie te verkrijgen en uw afbeelding 
 
    Deze aankoop is afhankelijk van uw abonnement op Adobe Stock. Als je meerdere Adobe Stock-accounts hebt, wordt je doorgestuurd naar de laatst gebruikte voorraad-id. Controleer in dit geval of u bent aangemeld bij de juiste account voordat u een licentie voor uw asset aanschaft.
 
-   Voor meer over de plannen en de prijzen van Adobe Stock in [ documentatie van Adobe Stock ](https://stock.adobe.com/plans){target="_blank"}.
+   Voor meer over de plannen en de prijzen van Adobe Stock in [&#x200B; documentatie van Adobe Stock &#x200B;](https://stock.adobe.com/plans){target="_blank"}.
 
    >[!WARNING]
    > Als een e-mail met een afbeelding zonder licentie wordt verzonden, behoudt de afbeelding het formulier zonder licentie met het watermerk.
@@ -96,11 +96,11 @@ Voer de onderstaande stappen uit om een licentie te verkrijgen en uw afbeelding 
 
    ![](assets/stock_6.png)
 
-1. Selecteer in welke map u het element wilt opslaan. Voor meer informatie over [!DNL Experience Manager Assets], verwijs naar deze [ pagina ](assets.md#get-started-assets).
+1. Selecteer in welke map u het element wilt opslaan. Voor meer informatie over [!DNL Experience Manager Assets], verwijs naar deze [&#x200B; pagina &#x200B;](assets.md#get-started-assets).
 
 ## Verwante onderwerpen{#stock-related-topics}
 
 * [E-mailontwerp in Journey Optimizer](../email/get-started-email-design.md)
 * [Componentinstellingen voor e-mailontwerp](../email/content-components.md)
-* [ Adobe Stock wordt begonnen ](https://helpx.adobe.com/stock/get-started.html){target="_blank"}.
+* [&#x200B; Adobe Stock wordt begonnen &#x200B;](https://helpx.adobe.com/stock/get-started.html){target="_blank"}.
 

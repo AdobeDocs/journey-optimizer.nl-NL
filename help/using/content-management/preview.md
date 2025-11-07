@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Inhoud voorvertonen met testprofielen {#preview}
 
-Zodra [ testprofielen ](test-profiles.md) zijn geselecteerd, kunt u voorproef uw inhoud gebruikend hun gegevens. Voer de volgende stappen uit:
+Zodra [&#x200B; testprofielen &#x200B;](test-profiles.md) zijn geselecteerd, kunt u voorproef uw inhoud gebruikend hun gegevens. Voer de volgende stappen uit:
 
 1. Klik in het scherm Inhoud bewerken van uw bericht of in de Designer-e-mail op de knop **[!UICONTROL Simulate content]** en selecteer **[!UICONTROL Simulate content]** .
 
@@ -46,4 +46,4 @@ Wanneer u code-gebaseerde ervaringen maakt, kunt u een voorvertoning van uw gepe
 
 >[!NOTE]
 >
->Met [!DNL Journey optimizer] kunt u ook verschillende varianten van uw inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [ leer hoe te om inhoudvariaties ](../test-approve/simulate-sample-input.md) te simuleren
+>Met [!DNL Journey optimizer] kunt u ook verschillende varianten van uw inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [&#x200B; leer hoe te om inhoudvariaties &#x200B;](../test-approve/simulate-sample-input.md) te simuleren

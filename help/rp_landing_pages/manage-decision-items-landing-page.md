@@ -20,7 +20,7 @@ Het beheren van beslissingsitems in Adobe Journey Optimizer gaat er allemaal om 
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 De itemcatalogus configureren
 
@@ -30,7 +30,7 @@ Leer hoe u de itemcatalogus in de Adobe Journey Optimizer-functie voor besluitvo
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Beslissingsitems maken en beheren
 
@@ -40,7 +40,7 @@ Ontdek hoe u beslissingsitems kunt maken, configureren en beheren, waaronder ken
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Itemverzamelingen beheren
 

@@ -19,9 +19,9 @@ Gebruik [!DNL Journey Optimizer] om LIJNberichten naar uw klanten op hun LIJN ap
 
 De berichten van de LIJN kunnen in een reis of in een campagne worden gecreeerd en worden verzonden:
 
-* In a **Reis**. Maak een reis, voeg een lijnactiviteit toe en definieer basisinstellingen en blader vervolgens naar het deelvenster **[!UICONTROL Actions: LINE]** rechts om de inhoud voor het lijnbericht te maken. Leer hoe te om een reis in [ tot stand te brengen deze pagina ](../using/building-journeys/journey-gs.md).
+* In a **Reis**. Maak een reis, voeg een lijnactiviteit toe en definieer basisinstellingen en blader vervolgens naar het deelvenster **[!UICONTROL Actions: LINE]** rechts om de inhoud voor het lijnbericht te maken. Leer hoe te om een reis in [&#x200B; tot stand te brengen deze pagina &#x200B;](../using/building-journeys/journey-gs.md).
 
-* In a **Campagne**. Maak een campagne, selecteer LIJN als uw actie en definieer basisinstellingen en bewerk vervolgens de berichtinhoud om het lijnbericht te definiëren dat u wilt verzenden. Leer hoe te om een campagne in [ tot stand te brengen deze pagina ](../using/campaigns/create-campaign.md#configure).
+* In a **Campagne**. Maak een campagne, selecteer LIJN als uw actie en definieer basisinstellingen en bewerk vervolgens de berichtinhoud om het lijnbericht te definiëren dat u wilt verzenden. Leer hoe te om een campagne in [&#x200B; tot stand te brengen deze pagina &#x200B;](../using/campaigns/create-campaign.md#configure).
 
 Voordat u uw LIJNbericht maakt, configureert u uw LIJNkanaal met Journey Optimizer. [Meer informatie](../using/line/line-configuration.md).
 
@@ -30,7 +30,7 @@ Voordat u uw LIJNbericht maakt, configureert u uw LIJNkanaal met Journey Optimiz
 :::: landing-cards-container
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Het lijnkanaal configureren
 
@@ -40,7 +40,7 @@ Volg de stapsgewijze instructies om het LINE-kanaal of de instellingen voor het 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Lijneberichten maken en configureren
 
@@ -50,7 +50,7 @@ Ontdek hoe u REGELS kunt toevoegen aan reizen en campagnes, inhoud kunt aanpasse
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Regelberichten controleren en verzenden
 

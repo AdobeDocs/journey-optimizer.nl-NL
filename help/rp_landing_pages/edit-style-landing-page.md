@@ -20,7 +20,7 @@ Adobe Journey Optimizer&#39;s Email Designer bevat krachtige opmaakgereedschappe
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 E-mailstijlen aanpassen
 
@@ -30,7 +30,7 @@ Leer hoe u opmaakparameters zoals de hoofdtekst, structuur en inhoudscomponenten
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 E-mailachtergrond aanpassen
 
@@ -40,7 +40,7 @@ Ontdek hoe u achtergrondkleuren en afbeeldingen instelt op verschillende niveaus
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Verticale uitlijning en opvulling aanpassen
 
@@ -50,7 +50,7 @@ Stapsgewijze instructies voor het wijzigen van verticale uitlijning en opvulling
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Kenmerken voor inline stijlen toevoegen
 

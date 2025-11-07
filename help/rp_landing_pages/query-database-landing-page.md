@@ -20,7 +20,7 @@ Ontdek hoe u het volledige potentieel van uw publieksgegevens kunt ontsluiten me
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Het gebruiken van de Bouwer van de Regel voor Geordende Campagnes
 
@@ -30,7 +30,7 @@ Leer hoe te om publiek tot stand te brengen en te beheren richtend en segmenteri
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Uw eerste regel maken in Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Stapsgewijze zelfstudie over het maken en valideren van regels voor het filteren
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Expressies bewerken in Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Stel de Expressieeditor in om queryregels handmatig te definiëren en geavanceer
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Ophalen van query&#39;s opnieuw samenstellen in Adobe Journey Optimizer
 

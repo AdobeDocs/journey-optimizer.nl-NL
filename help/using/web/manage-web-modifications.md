@@ -38,7 +38,7 @@ U kunt eenvoudig alle componenten, aanpassingen en stijlen beheren die u aan uw 
    >
    >Ga voorzichtig te werk wanneer u een actie verwijdert, aangezien dit van invloed kan zijn op volgende acties.
 
-1. Als u a [ enig-paginatoepassing ](web-spa.md) creeert, kunt u om het even welke wijziging op andere meningen toepassen. [Meer informatie](web-spa.md#apply-modifications-views)
+1. Als u a [&#x200B; enig-paginatoepassing &#x200B;](web-spa.md) creeert, kunt u om het even welke wijziging op andere meningen toepassen. [Meer informatie](web-spa.md#apply-modifications-views)
 
 1. Als u meerdere wijzigingen tegelijk wilt verwijderen, klikt u op de knop **[!UICONTROL Select]** boven aan het deelvenster **[!UICONTROL Modifications]** , controleert u de gewenste wijzigingen en klikt u op het pictogram **[!UICONTROL Delete]** .
 
@@ -68,8 +68,8 @@ Wanneer u een pagina bewerkt met de webontwerper, kunt u nieuwe wijzigingen rech
 
 1. Selecteer het wijzigingstype:
 
-   * **[!UICONTROL CSS Selector]** - [ Leer meer ](#css-selector)
-   * **[!UICONTROL Page `<Head>`]** - [ Leer meer ](#page-head)
+   * **[!UICONTROL CSS Selector]** - [&#x200B; Leer meer &#x200B;](#css-selector)
+   * **[!UICONTROL Page `<Head>`]** - [&#x200B; Leer meer &#x200B;](#page-head)
 
 1. Voer de inhoud in en **[!UICONTROL Save]** voer de wijzigingen in.
 
@@ -181,7 +181,7 @@ Bij elke wijziging wordt een nieuw element gemaakt in het deelvenster **[!UICONT
 
 +++
 
-+++ **ben voorzichtig wanneer het gebruiken van het **[!UICONTROL Page `<head>`]**aanpassingstype voor twee campagnes die zelfde URL beïnvloeden.**
++++ **ben voorzichtig wanneer het gebruiken van het &#x200B;** [!UICONTROL Page `<head>`]&#x200B;**aanpassingstype voor twee campagnes die zelfde URL beïnvloeden.**
 
 Als u het wijzigingstype **[!UICONTROL Page `<head>`]** gebruikt voor twee campagnes die invloed hebben op dezelfde URL, wordt de JavaScript vanuit beide campagnes in de pagina geïnjecteerd. [!DNL Journey Optimizer] bepaalt automatisch de volgorde van de geleverde inhoud. Zorg ervoor dat de code niet afhankelijk is van plaatsing. Het is aan u om ervoor te zorgen dat er geen conflicten in de code zijn.
 

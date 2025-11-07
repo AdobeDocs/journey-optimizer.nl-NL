@@ -23,7 +23,7 @@ ht-degree: 3%
 >title="Landinstelling toevoegen"
 >abstract="Als u uw taalvoorkeuren configureert, kunt u extra landinstellingen maken als de gewenste taal niet beschikbaar is voor meertalige inhoud."
 
-Wanneer het vormen van uw taalmontages, zoals die in [ worden beschreven creeer uw taalmontages ](multilingual-manual.md#language-settings) sectie, als een specifieke scène niet beschikbaar voor uw meertalige inhoud is, hebt u de flexibiliteit om zo vele nieuwe scènes tot stand te brengen zoals vereist gebruikend het **[!UICONTROL Translation]** menu.
+Wanneer het vormen van uw taalmontages, zoals die in [&#x200B; worden beschreven creeer uw taalmontages &#x200B;](multilingual-manual.md#language-settings) sectie, als een specifieke scène niet beschikbaar voor uw meertalige inhoud is, hebt u de flexibiliteit om zo vele nieuwe scènes tot stand te brengen zoals vereist gebruikend het **[!UICONTROL Translation]** menu.
 
 1. Open **[!UICONTROL Content management]** via het menu **[!UICONTROL Translation]** .
 

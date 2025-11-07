@@ -16,7 +16,7 @@ ht-degree: 7%
 
 # Nieuwe functies{#section-overview}
 
-Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en -documentatie! Bekijk voor een uitgebreide lijst met functies, verbeteringen en oplossingen de gedetailleerde [Aanvullende informatie](../using/rn/release-notes.md). Bezoek de [ pagina van documentatieupdates ](../using/rn/documentation-updates.md) om met de recentste veranderingen in de productdocumentatie bijgewerkt te blijven.
+Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en -documentatie! Bekijk voor een uitgebreide lijst met functies, verbeteringen en oplossingen de gedetailleerde [Aanvullende informatie](../using/rn/release-notes.md). Bezoek de [&#x200B; pagina van documentatieupdates &#x200B;](../using/rn/documentation-updates.md) om met de recentste veranderingen in de productdocumentatie bijgewerkt te blijven.
 
 >[!BEGINTABS]
 
@@ -24,13 +24,13 @@ Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en
 
 Journey Optimizer omvat nu **Organiseren van de Campagne**, een nieuw vermogen doelgericht-gebouwd voor merk-in werking gestelde, partijcampagnes. Deze release introduceert een campagneorchestration canvas en verbeterde gegevensmodellering, die samenwerken om marketers gepersonaliseerde cross-channel campagnes te laten plannen, richten en leveren.
 
-[![ leer meer ](../using/assets/do-not-localize/learn-more-button.svg)](../using/orchestrated/gs-orchestrated-campaigns.md)
+[![&#x200B; leer meer &#x200B;](../using/assets/do-not-localize/learn-more-button.svg)](../using/orchestrated/gs-orchestrated-campaigns.md)
 
 >[!TAB  Adobe Express ]
 
 Dankzij de Adobe Express-integratie in Adobe Journey Optimizer hebt u eenvoudig toegang tot Adobe Express-functies voor het bewerken van inhoud. Dankzij deze integratie kunt u afbeeldingen vergroten/verkleinen, achtergronden verwijderen, visuele effecten uitsnijden en elementen omzetten in JPEG of PNG zonder dat u tussen oplossingen hoeft te schakelen.
 
-[![ leer meer ](../using/assets/do-not-localize/learn-more-button.svg)](../using/integrations/express.md)
+[![&#x200B; leer meer &#x200B;](../using/assets/do-not-localize/learn-more-button.svg)](../using/integrations/express.md)
 
 <!--
 >[!TAB AI Assistant]
@@ -43,7 +43,7 @@ Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/
 
 Door Adobe Experience Manager as a Cloud Service te integreren met Adobe Journey Optimizer, kunt u nu uw AEM-inhoudsfragmenten naadloos opnemen in uw Journey Optimizer-inhoud. Deze gestroomlijnde verbinding vereenvoudigt het proces van toegang tot en gebruik van AEM-inhoud, waardoor persoonlijke en dynamische campagnes en reizen kunnen worden gemaakt.
 
-[![ leer meer ](../using/assets/do-not-localize/learn-more-button.svg)](../using/integrations/aem-fragments.md)
+[![&#x200B; leer meer &#x200B;](../using/assets/do-not-localize/learn-more-button.svg)](../using/integrations/aem-fragments.md)
 
 
 >[!ENDTABS]
@@ -52,7 +52,7 @@ Door Adobe Experience Manager as a Cloud Service te integreren met Adobe Journey
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Opmerkingen bij de nieuwste release voor Adobe Journey Optimizer
 
@@ -62,7 +62,7 @@ Ontdek de nieuwste functies, verbeteringen en updates in Adobe Journey Optimizer
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Opmerkingen bij de vorige release van Adobe Journey Optimizer
 
@@ -72,7 +72,7 @@ Ontdek de uitgebreide opmerkingen bij de release van vorige jaren, met gedetaill
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Laatste updates voor Adobe Journey Optimizer-documentatie
 

@@ -19,10 +19,10 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](gs-generative.md#generative-guardrails).
+>Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [&#x200B; Grafieken en Beperkingen &#x200B;](gs-generative.md#generative-guardrails).
 ></br>
 >
->U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u AI Medewerker in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>U moet met a [&#x200B; gebruikersovereenkomst &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u AI Medewerker in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 Als je berichten hebt gemaakt en gepersonaliseerd, ga je pushberichten naar het volgende niveau met AI Assistant in Journey Optimizer.
 
@@ -38,7 +38,7 @@ Voer de volgende stappen uit:
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de pushmeldingscampagne hebt gemaakt en geconfigureerd.
 
-   Voor meer informatie over hoe te om uw campagne van het pushbericht te vormen, verwijs naar [ deze pagina ](../push/create-push.md).
+   Voor meer informatie over hoe te om uw campagne van het pushbericht te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../push/create-push.md).
 
 1. Vul **[!UICONTROL Basic details]** in voor uw campagne. Klik op **[!UICONTROL Edit content]** als u klaar bent.
 
@@ -50,7 +50,7 @@ Voer de volgende stappen uit:
 
 1. Schakel de optie **[!UICONTROL Use original content]** voor AI Assistant in om de nieuwe inhoudsoptie aan te passen op basis van de geselecteerde inhoud.
 
-1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
+1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [&#x200B; leer meer &#x200B;](brands.md) op Banden.
 
    Merk op dat de eigenschap van Merken als privé bèta wordt vrijgegeven en aan alle klanten in toekomstige versies geleidelijk beschikbaar zal zijn.
 
@@ -92,7 +92,7 @@ Voer de volgende stappen uit:
 
 1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
 
-   Leer meer op [ de groeperingsscore van het Merk ](brands-score.md).
+   Leer meer op [&#x200B; de groeperingsscore van het Merk &#x200B;](brands-score.md).
 
    ![](assets/push-genai-full-4.png){zoomable="yes"}
 
@@ -108,7 +108,7 @@ Voer de volgende stappen uit:
 
    ![](assets/push-genai-full-6.png){zoomable="yes"}
 
-1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](brands.md) richt.
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [&#x200B; merkrichtlijnen &#x200B;](brands.md) richt.
 
 1. Klik op **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 
@@ -124,7 +124,7 @@ In dit voorbeeld leert u hoe u AI Assistant in Journey Optimizer kunt gebruiken 
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de pushmeldingscampagne hebt gemaakt en geconfigureerd.
 
-   Voor meer informatie over hoe te om uw pushcampagne te vormen, verwijs naar [ deze pagina ](../push/create-push.md).
+   Voor meer informatie over hoe te om uw pushcampagne te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../push/create-push.md).
 
 1. Vul **[!UICONTROL Basic details]** in voor uw campagne. Klik op **[!UICONTROL Edit content]** als u klaar bent.
 
@@ -136,7 +136,7 @@ In dit voorbeeld leert u hoe u AI Assistant in Journey Optimizer kunt gebruiken 
 
 1. Schakel de optie **[!UICONTROL Use reference content]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
-1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
+1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [&#x200B; leer meer &#x200B;](brands.md) op Banden.
 
    Merk op dat de eigenschap van Merken als privé bèta wordt vrijgegeven en aan alle klanten in toekomstige versies geleidelijk beschikbaar zal zijn.
 
@@ -165,7 +165,7 @@ In dit voorbeeld leert u hoe u AI Assistant in Journey Optimizer kunt gebruiken 
 
 1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
 
-   Leer meer op [ de groeperingsscore van het Merk ](brands-score.md).
+   Leer meer op [&#x200B; de groeperingsscore van het Merk &#x200B;](brands-score.md).
 
    ![](assets/push-genai-5.png){zoomable="yes"}
 
@@ -185,7 +185,7 @@ In dit voorbeeld leert u hoe u AI Assistant in Journey Optimizer kunt gebruiken 
 
    ![](assets/push-genai-6.png){zoomable="yes"}
 
-1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](brands.md) richt.
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [&#x200B; merkrichtlijnen &#x200B;](brands.md) richt.
 
 1. Klik op **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 
@@ -199,7 +199,7 @@ Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, kunt u uw p
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de pushmeldingscampagne hebt gemaakt en geconfigureerd.
 
-   Voor meer informatie over hoe te om uw campagne van het pushbericht te vormen, verwijs naar [ deze pagina ](../push/create-push.md).
+   Voor meer informatie over hoe te om uw campagne van het pushbericht te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../push/create-push.md).
 
 1. Vul **[!UICONTROL Basic details]** in voor uw campagne. Klik op **[!UICONTROL Edit content]** als u klaar bent.
 
@@ -211,7 +211,7 @@ Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, kunt u uw p
 
 1. Schakel de optie **[!UICONTROL Reference style]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de referentie-inhoud. U kunt ook een afbeelding uploaden om context aan uw variatie toe te voegen.
 
-1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
+1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [&#x200B; leer meer &#x200B;](brands.md) op Banden.
 
    Merk op dat de eigenschap van Merken als privé bèta wordt vrijgegeven en aan alle klanten in toekomstige versies geleidelijk beschikbaar zal zijn.
 
@@ -239,7 +239,7 @@ Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, kunt u uw p
 
 1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
 
-   Leer meer op [ de groeperingsscore van het Merk ](brands-score.md).
+   Leer meer op [&#x200B; de groeperingsscore van het Merk &#x200B;](brands-score.md).
 
 1. Navigeer naar de optie **[!UICONTROL Refine]** in het **[!UICONTROL Preview]** -venster voor toegang tot extra aanpassingsfuncties:
 
@@ -252,7 +252,7 @@ Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, kunt u uw p
 
    ![](assets/push-gen-img-2.png){zoomable="yes"}
 
-1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](brands.md) richt.
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [&#x200B; merkrichtlijnen &#x200B;](brands.md) richt.
 
 1. Klik op **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 

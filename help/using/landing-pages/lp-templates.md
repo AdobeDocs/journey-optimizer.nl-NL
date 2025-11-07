@@ -20,7 +20,7 @@ ht-degree: 4%
 
 ## Een pagina opslaan als sjabloon {#save-as-template}
 
-Zodra u uw [ het landen paginainhoud ](lp-content.md) ontwierp, kunt u het voor toekomstig hergebruik bewaren. Volg de onderstaande stappen om dit te doen.
+Zodra u uw [&#x200B; het landen paginainhoud &#x200B;](lp-content.md) ontwierp, kunt u het voor toekomstig hergebruik bewaren. Volg de onderstaande stappen om dit te doen.
 
 1. Klik op de ellips rechtsboven in het scherm.
 
@@ -34,13 +34,13 @@ Zodra u uw [ het landen paginainhoud ](lp-content.md) ontwierp, kunt u het voor 
 
 1. Klik op **[!UICONTROL Save]**.
 
-De volgende keer dat u een openingspagina maakt, kunt u deze sjabloon gebruiken om uw inhoud samen te stellen. Leer hoe in de [ sectie ](#use-saved-template) hieronder.
+De volgende keer dat u een openingspagina maakt, kunt u deze sjabloon gebruiken om uw inhoud samen te stellen. Leer hoe in de [&#x200B; sectie &#x200B;](#use-saved-template) hieronder.
 
 ![](assets/lp_designer-saved-template.png)
 
 ## Een opgeslagen sjabloon gebruiken {#use-saved-template}
 
-1. Open de [ het landen pagina inhoudontwerper ](design-lp.md). De lijst met alle eerder opgeslagen sjablonen wordt weergegeven.
+1. Open de [&#x200B; het landen pagina inhoudontwerper &#x200B;](design-lp.md). De lijst met alle eerder opgeslagen sjablonen wordt weergegeven.
 
 1. U kunt ze **[!UICONTROL By name]** , **[!UICONTROL Last modified]** en **[!UICONTROL Last created]** sorteren.
 

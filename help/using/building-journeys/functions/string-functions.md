@@ -20,16 +20,16 @@ Met tekenreeksfuncties kunt u tekstwaarden bewerken en ermee werken binnen uw re
 
 Gebruik tekenreeksfuncties wanneer u wilt:
 
-* Samenvoegen en combineren veelvoudige tekstwaarden ([ concat ](#concat))
-* Onderzoek naar specifieke tekstpatronen of substrings ([ bevatten ](#contain), [ containIgnoreCase ](#containIgnoreCase), [ indexOf ](#indexOf), [ lastIndexOf ](#lastIndexOf), [ matchRegExp ](#matchRegExp))
-* Vergelijk koorden met case-sensitive of case-insensitive aanpassing ([ equalIgnoreCase ](#equalIgnoreCase), [ notEqualIgnoreCase ](#notEqualIgnoreCase))
-* Het koord van de controle begint en beëindigt ([ startWith ](#startWith), [ startWithIgnoreCase ](#startWithIgnoreCase), [ endWith ](#endWith), [ endWithIgnoreCase ](#endWithIgnoreCase))
-* Extraheer gedeelten van tekst gebruikend substring verrichtingen ([ substr ](#substr))
-* Transformeer tekst in hoofdletters of in kleine letters ([ hoger ](#upper), [ lager ](#lower), [ versiering ](#trim))
-* Controle als de koorden leeg zijn of specifieke waarden bevatten ([ isEmpty ](#isEmpty), [ isNotEmpty ](#isNotEmpty))
-* Vervang tekstpatronen met nieuwe waarden ([ vervangt ](#replace), [ replaceAll ](#replaceAll))
-* Splits koorden in series voor verdere verwerking ([ gespleten ](#split))
-* Krijg koordlengte ([ lengte ](#length)) of produceer unieke herkenningstekens ([ uuid ](#uuid))
+* Samenvoegen en combineren veelvoudige tekstwaarden ([&#x200B; concat &#x200B;](#concat))
+* Onderzoek naar specifieke tekstpatronen of substrings ([&#x200B; bevatten &#x200B;](#contain), [&#x200B; containIgnoreCase &#x200B;](#containIgnoreCase), [&#x200B; indexOf &#x200B;](#indexOf), [&#x200B; lastIndexOf &#x200B;](#lastIndexOf), [&#x200B; matchRegExp &#x200B;](#matchRegExp))
+* Vergelijk koorden met case-sensitive of case-insensitive aanpassing ([&#x200B; equalIgnoreCase &#x200B;](#equalIgnoreCase), [&#x200B; notEqualIgnoreCase &#x200B;](#notEqualIgnoreCase))
+* Het koord van de controle begint en beëindigt ([&#x200B; startWith &#x200B;](#startWith), [&#x200B; startWithIgnoreCase &#x200B;](#startWithIgnoreCase), [&#x200B; endWith &#x200B;](#endWith), [&#x200B; endWithIgnoreCase &#x200B;](#endWithIgnoreCase))
+* Extraheer gedeelten van tekst gebruikend substring verrichtingen ([&#x200B; substr &#x200B;](#substr))
+* Transformeer tekst in hoofdletters of in kleine letters ([&#x200B; hoger &#x200B;](#upper), [&#x200B; lager &#x200B;](#lower), [&#x200B; versiering &#x200B;](#trim))
+* Controle als de koorden leeg zijn of specifieke waarden bevatten ([&#x200B; isEmpty &#x200B;](#isEmpty), [&#x200B; isNotEmpty &#x200B;](#isNotEmpty))
+* Vervang tekstpatronen met nieuwe waarden ([&#x200B; vervangt &#x200B;](#replace), [&#x200B; replaceAll &#x200B;](#replaceAll))
+* Splits koorden in series voor verdere verwerking ([&#x200B; gespleten &#x200B;](#split))
+* Krijg koordlengte ([&#x200B; lengte &#x200B;](#length)) of produceer unieke herkenningstekens ([&#x200B; uuid &#x200B;](#uuid))
 
 Tekenreeksfuncties bieden uitgebreide mogelijkheden voor tekstmanipulatie, waardoor geavanceerde gegevensverwerking en voorwaardelijke logica mogelijk zijn op basis van tekstinhoud in uw reisexpressies.
 
@@ -463,7 +463,7 @@ Retourneert &quot;a&quot;.
 
 ## matchRegExp {#matchRegExp}
 
-Retourneert true als de tekenreeks in de eerste parameter overeenkomt met de reguliere expressie in de tweede parameter. Voor meer informatie, zie [ deze pagina ](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
+Retourneert true als de tekenreeks in de eerste parameter overeenkomt met de reguliere expressie in de tweede parameter. Voor meer informatie, zie [&#x200B; deze pagina &#x200B;](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
 
 +++Syntaxis
 
@@ -620,7 +620,7 @@ Retourneert een tekenreeks.
 
 Retourneert &quot;hexo Worxd&quot;.
 
-Omdat de doelparameter een RegExp is, moet u, afhankelijk van de tekenreeks die u wilt vervangen, mogelijk enkele tekens verwijderen. Verwijs naar het voorbeeld in [ vervangen ](#replace) functie.
+Omdat de doelparameter een RegExp is, moet u, afhankelijk van de tekenreeks die u wilt vervangen, mogelijk enkele tekens verwijderen. Verwijs naar het voorbeeld in [&#x200B; vervangen &#x200B;](#replace) functie.
 
 +++
 

@@ -20,7 +20,7 @@ Met de communicatiekanalen van Adobe Journey Optimizer kunt u verbinding maken m
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Inleiding tot communicatiekanalen
 
@@ -30,7 +30,7 @@ Leer over de uitgaande en binnenkomende communicatiekanalen beschikbaar in Adobe
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 E-mailkanaal
 
@@ -40,7 +40,7 @@ Ontdek hoe u e-mailcampagnes kunt maken, configureren en optimaliseren, inclusie
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 In-app-berichten
 
@@ -50,7 +50,7 @@ Ontdek hoe u In-app-meldingen voor mobiele en webplatforms kunt configureren, on
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Kanaal voor pushmelding
 
@@ -60,7 +60,7 @@ Leer hoe u pushmeldingen voor iOS en Android kunt maken, configureren en verzend
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 SMS/MMS/RCS-berichten
 
@@ -70,7 +70,7 @@ Begrijp hoe te om SMS, MMS, en RCS berichten voor marketing en transactionele do
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 Campagnes Direct Mail
 

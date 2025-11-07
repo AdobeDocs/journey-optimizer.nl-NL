@@ -498,7 +498,7 @@ Deze functie converteert de voornaam van het profiel naar kleine letters.
 
 ## Overeenkomsten{#matches}
 
-De functie `matches` wordt gebruikt om te bepalen of een tekenreeks overeenkomt met een specifieke reguliere expressie. Gelieve te verwijzen naar [ dit document ](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) voor meer informatie over passende patronen in regelmatige uitdrukkingen.
+De functie `matches` wordt gebruikt om te bepalen of een tekenreeks overeenkomt met een specifieke reguliere expressie. Gelieve te verwijzen naar [&#x200B; dit document &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) voor meer informatie over passende patronen in regelmatige uitdrukkingen.
 
 **Syntaxis**
 
@@ -660,7 +660,7 @@ De functie `replaceAll` wordt gebruikt om alle subtekenreeksen van een tekst te 
 >
 > Wanneer de uitdrukking die als tweede argument wordt genomen een speciaal regex karakter is, gebruik dubbele backslash (`//`).  Speciale regex-tekens zijn: [., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
 > 
-> Leer meer in [ documentatie van Oracle ](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
+> Leer meer in [&#x200B; documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
 >
 
 ## Rechts bijsnijden {#rightTrim}

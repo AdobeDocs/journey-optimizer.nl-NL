@@ -44,7 +44,7 @@ Het maakt het mogelijk:
 
 Volg onderstaande stappen om een ingebouwde kanaalactie aan een reis toe te voegen.
 
-1. Begin uw reis met een [ Gebeurtenis ](general-events.md) of a [ gelezen activiteit van het publiek ](read-audience.md).
+1. Begin uw reis met een [&#x200B; Gebeurtenis &#x200B;](general-events.md) of a [&#x200B; gelezen activiteit van het publiek &#x200B;](read-audience.md).
 
 1. Sleep vanuit de sectie **[!UICONTROL Actions]** van het palet een **[!UICONTROL Action]** -activiteit naar het canvas.
 
@@ -64,15 +64,15 @@ Volg onderstaande stappen om een ingebouwde kanaalactie aan een reis toe te voeg
 
 1. Als u een binnenkomend kanaal hebt geselecteerd, kunt u meerdere acties toevoegen. [Meer informatie](#multi-action)
 
-1. Configureer uw activiteit volgens het geselecteerde kanaal. Leer hoe te om ingebouwde kanaalacties in [ te vormen deze sectie ](journeys-message.md).
+1. Configureer uw activiteit volgens het geselecteerde kanaal. Leer hoe te om ingebouwde kanaalacties in [&#x200B; te vormen deze sectie &#x200B;](journeys-message.md).
 
 1. Gebruik de sectie **[!UICONTROL Optimization]** om inhoudexperimenten uit te voeren, of hefboomwerking het richten van regels, of geavanceerde combinaties van zowel experimenteren als richten te gebruiken.
 
-   Deze verschillende opties en de te volgen stappen zijn gedetailleerd in [ deze sectie ](../campaigns/campaigns-message-optimization.md).
+   Deze verschillende opties en de te volgen stappen zijn gedetailleerd in [&#x200B; deze sectie &#x200B;](../campaigns/campaigns-message-optimization.md).
 
 1. Gebruik de sectie **[!UICONTROL Languages]** om inhoud in meerdere talen te maken binnen de actie. Klik hiertoe op de knop **[!UICONTROL Add languages]** en selecteer de gewenste **[!UICONTROL Language settings]** .
 
-   De gedetailleerde informatie over hoe te opstelling en gebruik meertalige mogelijkheden zijn beschikbaar in [ deze sectie ](../content-management/multilingual-gs.md).
+   De gedetailleerde informatie over hoe te opstelling en gebruik meertalige mogelijkheden zijn beschikbaar in [&#x200B; deze sectie &#x200B;](../content-management/multilingual-gs.md).
 
 Afhankelijk van het geselecteerde communicatiekanaal zijn aanvullende instellingen beschikbaar. Vouw de onderstaande secties uit voor meer informatie.
 
@@ -102,9 +102,9 @@ De snelle leveringswijze is een [!DNL Journey Optimizer] toe:voegen-op die zeer 
 
 Snelle levering wordt gebruikt wanneer de vertraging in berichtlevering zaken-kritiek is, wanneer u een dringende duwalarm op mobiele telefoons wilt verzenden, bijvoorbeeld een breekbericht aan gebruikers die uw nieuwskanaal app hebben geïnstalleerd.
 
-Leer hoe te om Snelle leveringswijze voor de Duw berichten [ op deze pagina ](../push/create-push.md#rapid-delivery) toe te laten.
+Leer hoe te om Snelle leveringswijze voor de Duw berichten [&#x200B; op deze pagina &#x200B;](../push/create-push.md#rapid-delivery) toe te laten.
 
-Voor meer informatie over prestaties wanneer het gebruiken van Snelle leveringswijze, verwijs naar [ het productbeschrijving van Adobe Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Voor meer informatie over prestaties wanneer het gebruiken van Snelle leveringswijze, verwijs naar [&#x200B; het productbeschrijving van Adobe Journey Optimizer &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 +++
 
@@ -153,7 +153,7 @@ U kunt bijvoorbeeld een op code gebaseerde ervaring naar meerdere eindpunten met
 
 Volg de onderstaande stappen om meerdere binnenkomende acties in één knooppunt voor handelingen tijdens de rit te definiëren.
 
-1. Begin uw reis met een [ Gebeurtenis ](general-events.md) of a [ gelezen activiteit van het publiek ](read-audience.md).
+1. Begin uw reis met een [&#x200B; Gebeurtenis &#x200B;](general-events.md) of a [&#x200B; gelezen activiteit van het publiek &#x200B;](read-audience.md).
 
 1. Sleep vanuit de sectie **[!UICONTROL Actions]** van het palet een **[!UICONTROL Action]** -activiteit naar het canvas.
 
@@ -179,7 +179,7 @@ Volg de onderstaande stappen om meerdere binnenkomende acties in één knooppunt
 
 1. Ga op dezelfde manier verder om meer acties toe te voegen. U kunt tot 10 binnenkomende acties in een groep van de reisactie toevoegen.
 
-Zodra de reis [ ](publish-journey.md) levend is, worden alle acties gelijktijdig geactiveerd.
+Zodra de reis [&#x200B; &#x200B;](publish-journey.md) levend is, worden alle acties gelijktijdig geactiveerd.
 <!--
 ## Next steps {#next}
 

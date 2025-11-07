@@ -20,7 +20,7 @@ Met de functie voor meertalige inhoud in Adobe Journey Optimizer kunt u persoonl
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met meertalige inhoud
 
@@ -30,7 +30,7 @@ Leer hoe u de functie voor meertalige inhoud in Adobe Journey Optimizer instelt 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Een landinstelling voor meertalige inhoud maken
 
@@ -40,7 +40,7 @@ Volg stapsgewijze instructies om nieuwe landinstellingen voor meertalige inhoud 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Taalproviders toevoegen en configureren
 
@@ -50,7 +50,7 @@ Stel externe vertalers in voor naadloze integratie en efficiënt beheer van meer
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Meertalige inhoud maken met handmatige omzetting
 
@@ -60,7 +60,7 @@ Leer hoe u handmatig meertalige campagnes en reizen maakt die zijn afgestemd op 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Meertalige inhoud maken met automatische vertaling
 

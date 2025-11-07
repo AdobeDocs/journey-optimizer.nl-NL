@@ -20,7 +20,7 @@ Met de sectie &#39;Contentkaartkanaal configureren&#39; in Adobe Journey Optimiz
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Voorwaarden voor configuratie van Content Cards Channel
 
@@ -30,7 +30,7 @@ Leer de benodigde configuraties en instellingen voor het inschakelen van het Con
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Kanaal voor inhoudskaarten in Journey Optimizer configureren
 
@@ -40,7 +40,7 @@ Volg stapsgewijze instructies om URI-oppervlakken te definiëren en inhoudskaart
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Ondersteuning voor inhoudskaarten configureren in Mobile SDK
 
@@ -50,7 +50,7 @@ Schakel inhoudskaarten in mobiele toepassingen in en pas deze aan met gebruik va
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Ondersteuning voor inhoudskaarten configureren in Web SDK
 

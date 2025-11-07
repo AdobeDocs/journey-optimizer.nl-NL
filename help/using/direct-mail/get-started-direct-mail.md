@@ -40,6 +40,6 @@ De belangrijkste stappen voor het verzenden van direct-mailberichten zijn als vo
 * **[vorm direct-mailkanaal](direct-mail-configuration.md)** - de gebieden van de opstelling direct-mail en dossier die configuraties verpletteren.
 * **[Directe post in reizen](direct-mail-journeys.md)** - ontdek hoe te om direct-mailacties binnen klantenreizen te gebruiken.
 * **[Test en verzend direct-mail](test-send-direct-mail.md)** - leer hoe te, uw direct-mailleveringen te testen bevestigen en te publiceren.
-* **[Directe postzelfstudies ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - onderzoek geleidelijke videoleerprogramma&#39;s op direct-maileigenschappen en beste praktijken.
+* **[Directe postzelfstudies &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - onderzoek geleidelijke videoleerprogramma&#39;s op direct-maileigenschappen en beste praktijken.
 
 

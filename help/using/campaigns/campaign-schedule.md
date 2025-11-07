@@ -41,7 +41,7 @@ Voor **E-mail**, **SMS**, en **Push bericht** acties, kunt u een frequentie bepa
 
 >[!NOTE]
 >
->Voor **e-mail** acties, kunt u specifieke IP campagnes van de opwarmingsPlan tot stand brengen. Het campagneschema zal door het IP warmup plan worden gedreven het zal worden geassocieerd met, betekenend dat het programma niet meer in de campagne zelf wordt bepaald. [ Leer hoe te om IP warmup campagnes ](../configuration/ip-warmup-campaign.md) tot stand te brengen.
+>Voor **e-mail** acties, kunt u specifieke IP campagnes van de opwarmingsPlan tot stand brengen. Het campagneschema zal door het IP warmup plan worden gedreven het zal worden geassocieerd met, betekenend dat het programma niet meer in de campagne zelf wordt bepaald. [&#x200B; Leer hoe te om IP warmup campagnes &#x200B;](../configuration/ip-warmup-campaign.md) tot stand te brengen.
 
 ## Einddatum instellen
 

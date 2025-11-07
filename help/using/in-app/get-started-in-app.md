@@ -63,4 +63,4 @@ Gebruik Journey Optimizer om meldingen in de app te maken en ervaringsopties te 
 * **[vorm in-app kanaal](inapp-configuration.md)** - opstelling uw in-app overseinenkanaal met juiste mobiele toepassingsconfiguraties.
 * **[Ontwerp in-app inhoud](design-in-app.md)** - pas in-app berichtlay-outs, stijlen, knopen, en interactieve elementen aan.
 * **[In-app voor Web](create-in-app-web.md)** - ontdek hoe te om binnen-app berichten voor Webtoepassingen tot stand te brengen en te leveren.
-* **[In-app kanaalzelfstudies ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/in-app-channel/in-app-messages-overview){target="_blank"}** - Onderzoek geleidelijke videozelfstudies op in-app overseineneigenschappen en beste praktijken.
+* **[In-app kanaalzelfstudies &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/in-app-channel/in-app-messages-overview){target="_blank"}** - Onderzoek geleidelijke videozelfstudies op in-app overseineneigenschappen en beste praktijken.
