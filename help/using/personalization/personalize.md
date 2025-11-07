@@ -97,7 +97,7 @@ Nu u in **[!DNL Journey Optimizer]** inzicht hebt in personalisatie, is het tijd
 
 Leer hoe u contextuele gebeurtenisinformatie van een journey kunt gebruiken om een bericht te personaliseren.
 
->[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3448140?captions=dut&quality=12)
 
 Leer hoe u op profiel gebaseerde personalisatie aan een bericht toevoegt en hoe u het lidmaatschap van een publiek als voorwaarde aan een verpersoonlijkingsblok kunt gebruiken.
 
@@ -105,6 +105,6 @@ Leer hoe u op profiel gebaseerde personalisatie aan een bericht toevoegt en hoe 
 
 Leer hoe u de speelplaats van de personalisatie-editor kunt gebruiken om personalisatiecode te schrijven en te testen met behulp van voorbeeldgegevens.
 
->[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475958?captions=dut&quality=12)
 
 Onderzoek meer videoleerprogramma&#39;s op verpersoonlijkingseigenschappen en beste praktijken in [&#x200B; zelfstudies van Personalization &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}

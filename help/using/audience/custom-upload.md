@@ -31,4 +31,4 @@ De gedetailleerde informatie over hoe te om publiek in te voeren is beschikbaar 
 
 Leer hoe u een publiek in CSV-indeling in video kunt uploaden:
 
->[!VIDEO](https://video.tv.adobe.com/v/3421714?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3432429?captions=dut&quality=12)

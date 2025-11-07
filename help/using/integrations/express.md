@@ -148,7 +148,7 @@ Uw afbeelding kan nu worden gebruikt in uw inhoud.
 
 Leer hoe u uw middelen in Adobe Journey Optimizer kunt bewerken met de Adobe Express-gereedschappen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3455529/?captions=dut&quality=12)
 
 
 

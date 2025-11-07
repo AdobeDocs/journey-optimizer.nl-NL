@@ -196,4 +196,4 @@ Hier volgen enkele voorbeelden van e-mailedities en de bijbehorende configuratie
 
 Leer hoe u inhoud in e-mailsjablonen kunt vergrendelen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451613?captions=dut&quality=12)

@@ -95,4 +95,4 @@ Als u gebeurtenistypen wilt kunnen verzenden (weergegeven aanbod of aangeklikte 
 
 Leer hoe u een gepersonaliseerd optimalisatiemodel maakt en hoe u dit op een beslissing toepast.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445957?captions=dut&quality=12)

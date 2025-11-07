@@ -136,4 +136,4 @@ U kunt maximaal 20 soorten publiek tegelijk evalueren en niet-subsidiabele doelg
 
 Begrijp hoe Journey Optimizer regels gebruikt om publiek te produceren, en hoe te om attributen, gebeurtenissen, en bestaand publiek te gebruiken om een publiek tot stand te brengen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430325?captions=dut&quality=12)

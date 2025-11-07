@@ -71,6 +71,6 @@ Alfanumerieke identiteitskaart van de Afzender is slechts voor unidirectioneel o
 
   +++ Zie video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3440284/?captions=dut&learn=on)
 
   +++

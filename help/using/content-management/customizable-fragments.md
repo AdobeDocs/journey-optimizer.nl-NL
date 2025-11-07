@@ -194,4 +194,4 @@ Wanneer gebruikers het fragment aan hun e-mailinhoud toevoegen, kunnen ze nu de 
 
 In deze video ziet u hoe u HTML-componenten in een fragment bewerkbaar kunt maken, zodat u zowel inhoud als opmaak dynamisch kunt bijwerken.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464374/?captions=dut&learn=on&#x26;enablevpops)

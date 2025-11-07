@@ -195,6 +195,6 @@ In de onderstaande video ziet u hoe u een multi-step WhatsApp-reis maakt met Ado
 
 +++ Zie video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
+>[!VIDEO](https://video.tv.adobe.com/v/3470288/?captions=dut&learn=on")
 
 +++

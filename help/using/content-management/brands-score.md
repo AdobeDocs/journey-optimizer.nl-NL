@@ -76,6 +76,6 @@ De video hieronder toont hoe te om uw eigen merken tot stand te brengen en aan t
 
 +++ Zie video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470552/?captions=dut&learn=on)
 
 +++

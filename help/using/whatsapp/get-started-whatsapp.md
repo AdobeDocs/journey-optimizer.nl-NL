@@ -58,7 +58,7 @@ In de onderstaande video ziet u hoe u WhatsApp kunt integreren als een native ka
 
 +++ Zie video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470250?captions=dut&learn=on)
 
 +++
 

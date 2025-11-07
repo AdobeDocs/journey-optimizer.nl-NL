@@ -32,4 +32,4 @@ Voor meer informatie, te lezen gelieve de gids op [&#x200B; Federated de Samenst
 
 Meer informatie over Federated Audience Composition vindt u in video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3432261?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3450888?captions=dut&quality=12)

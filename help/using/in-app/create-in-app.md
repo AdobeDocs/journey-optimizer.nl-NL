@@ -244,7 +244,7 @@ Voer de volgende stappen uit om een bericht in de app toe te voegen aan een camp
 
   +++Zie video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3445294/?captions=dut&learn=on&autoplay=true)
 
   +++
 

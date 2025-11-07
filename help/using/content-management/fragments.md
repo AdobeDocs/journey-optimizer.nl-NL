@@ -60,8 +60,8 @@ Alle gemaakte fragmenten zijn toegankelijk via het menu **[!UICONTROL Content Ma
 
 Leer hoe te om, auteur, en gebruik **visuele fragmenten** in [!DNL Journey Optimizer] te beheren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451188/?captions=dut&quality=12)
 
 Leer hoe te om, auteur, en gebruiks **uitdrukkingsfragmenten** in [!DNL Journey Optimizer] te beheren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3438923/?captions=dut&quality=12)

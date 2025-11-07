@@ -170,4 +170,4 @@ De mogelijkheid om de apparaatgrootte te wijzigen is ontworpen voor responsieve 
 
 In de onderstaande video ziet u hoe u een webervaring kunt ontwerpen met de webontwerper in [!DNL Journey Optimizer] -campagnes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452641/?captions=dut&quality=12&learn=on)

@@ -90,4 +90,4 @@ In deze video wordt uitgelegd hoe u:
 * websitewijzigingen toepassen op meerdere weergaven of op alle weergaven die zijn ontdekt
 * Handelingen bulksgewijs uitvoeren op wijzigingen
 
->[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3446891/?captions=dut&quality=12&learn=on)

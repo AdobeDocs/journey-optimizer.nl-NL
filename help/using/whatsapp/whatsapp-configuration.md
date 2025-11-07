@@ -186,6 +186,6 @@ In de onderstaande video ziet u hoe u het WhatsApp-kanaal instelt in Adobe Journ
 
 +++ Zie video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470274/?captions=dut&learn=on)
 
 +++

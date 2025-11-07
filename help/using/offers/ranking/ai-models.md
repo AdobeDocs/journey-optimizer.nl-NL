@@ -63,4 +63,4 @@ U kunt als volgt AI-modellen maken en gebruiken:
 
 Leer hoe u een AI-model voor Offer Decisioning maakt en hoe u dit model toepast op een beslissing.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445650?captions=dut&quality=12)
