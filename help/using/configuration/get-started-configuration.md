@@ -81,4 +81,4 @@ Om berichten te kunnen verzenden, moet u door de hieronder vermelde configuratie
 * **[IP warmup](ip-warmup-gs.md)** - ontdek beste praktijken voor IP adreswarmte om e-mailleverbaarheid en afzenderreputatie te verbeteren.
 * **[beheert suppressielijst](manage-suppression-list.md)** - leer hoe te om suppressielijsten te beheren om grenzen te behandelen en lijsthygiëne te handhaven.
 * **[vorm mobiele apps](set-mobile-config.md)** - opstelling mobiele app configuraties voor dupberichten en in-app overseinen.
-* **[zelfstudies van de Configuratie &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}** - onderzoek geleidelijke videoleerprogramma&#39;s op kanaalconfiguratie en beste praktijken.
+* **[zelfstudies van de Configuratie &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}** - onderzoek geleidelijke videoleerprogramma&#39;s op kanaalconfiguratie en beste praktijken.

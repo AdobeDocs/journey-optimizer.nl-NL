@@ -65,14 +65,14 @@ Alle gegevens worden beschouwd als het bezit van Klanten en kunnen slechts op uw
 
 U kunt de gegevensflexibiliteit van [!DNL Journey Optimizer] gebruiken om te voldoen aan uw specifieke vereisten met betrekking tot het bewaren, archiveren of verwijderen van gegevens:
 
-* **Extractie van Gegevens/de Uitvoer van Gegevens**: U kunt de extractie van brongegevens op elk ogenblik in werking stellen via de API van de gegevenstoegang zonder boetes of tijdvertragingen. De [&#x200B; Toegang API van Gegevens &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html){target="_blank"} voorziet gebruikers van een interface RESTful die op de ontdekkingsbaarheid en de toegankelijkheid van ingebedde datasets binnen [!DNL Adobe Experience Platform] wordt geconcentreerd. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
+* **Extractie van Gegevens/de Uitvoer van Gegevens**: U kunt de extractie van brongegevens op elk ogenblik in werking stellen via de API van de gegevenstoegang zonder boetes of tijdvertragingen. De [&#x200B; Toegang API van Gegevens &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=nl-NL){target="_blank"} voorziet gebruikers van een interface RESTful die op de ontdekkingsbaarheid en de toegankelijkheid van ingebedde datasets binnen [!DNL Adobe Experience Platform] wordt geconcentreerd. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
   Merk op dat de inhoud die in reizen of campagnes wordt gebruikt niet via hierboven vermelde API- of doelmethoden kan worden geëxtraheerd.
 
 <!--
 * **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer's default setting of retaining this data for up to 91 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization's data retention policy.
 
-  Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html){target="_blank"}.
+  Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html?lang=nl-NL){target="_blank"}.
 -->
 
 * **Aankopen en archiveringsmechanismen**: Het zuiveren van gegevens en archivering kan vrij worden bepaald en in [!DNL Adobe Journey Optimizer] worden geautomatiseerd om beleid van het gegevensbehoud te automatiseren. Het is mogelijk verschillende verouderingsstrategieën voor de verschillende gegevensentiteiten te definiëren. Exportmechanismen kunnen ook worden gedefinieerd om verouderde gegevens automatisch te exporteren voordat deze worden gewist of gearchiveerd.

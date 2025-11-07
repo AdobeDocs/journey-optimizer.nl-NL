@@ -20,7 +20,7 @@ Met het webkanaal in Adobe Journey Optimizer kunt u persoonlijke ervaringen rech
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Aan de slag met webkanaal
 
@@ -30,7 +30,7 @@ Leer hoe u persoonlijke webervaringen kunt maken en beheren in Adobe Journey Opt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Webkanaal configureren
 
@@ -40,7 +40,7 @@ Webkanalen instellen en beheren, waaronder subdomeinen, URL-regels voor overeenk
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Webervaringen maken en beheren
 
@@ -50,7 +50,7 @@ Stapsgewijze handleiding voor het maken, bewerken, testen en publiceren van gepe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=nl-NL)
 
 Webpagina&#39;s maken en beheren
 

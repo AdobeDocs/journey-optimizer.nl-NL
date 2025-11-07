@@ -20,7 +20,7 @@ Met het SMS/MMS/RCS-kanaal in Adobe Journey Optimizer kunnen bedrijven verbindin
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Aan de slag met SMS/MMS/RCS Channel-configuratie
 
@@ -30,7 +30,7 @@ Leer hoe u SMS-, MMS- en RCS-kanalen in Adobe Journey Optimizer configureert, in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 Sinch-provider configureren voor SMS/MMS/RCS-berichten
 
@@ -40,7 +40,7 @@ Stapsgewijze instructies voor het instellen van Sinch API-referenties om SMS, MM
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 Infobip SMS, MMS en RCS Provider configureren
 
@@ -50,7 +50,7 @@ Gedetailleerde richtlijnen voor het integreren van Infobip als leverancier voor 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 Twilio-provider configureren voor SMS/MMS/RCS-berichten
 
@@ -60,7 +60,7 @@ Instructies voor het instellen van Twilio API-referenties en het inschakelen van
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 Een aangepaste SMS-provider configureren
 
@@ -70,7 +70,7 @@ Stel aangepaste SMS-providers in door API-referenties te maken, websites te behe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Een SMS/MMS/RCS Channel-configuratie maken
 

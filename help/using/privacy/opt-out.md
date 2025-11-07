@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Het is een wettelijke vereiste om ontvangers de mogelijkheid te bieden zich niet langer te abonneren op het ontvangen van communicatie van een merk, en om ervoor te zorgen dat deze keuze wordt nagekomen. Als u deze voorschriften niet naleeft, brengt u juridische risico&#39;s met zich mee voor uw merk. Het helpt u vermijden verzendend ongevraagde mededelingen naar uw ontvangers, die hen zouden kunnen maken uw berichten als spam merken en uw reputatie schaden.
 
-Leer meer over de toepasselijke wetgeving in de [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target="_blank"}.
+Leer meer over de toepasselijke wetgeving in de [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=nl-NL#regulations){target="_blank"}.
 
 ## Abonnementen beheren tijdens reizen en campagnes {#opt-out-ajo}
 
@@ -55,7 +55,7 @@ In de volgende secties vindt u informatie over het beheren van opt-out in Journe
 
 >[!NOTE]
 >
->In [!DNL Journey Optimizer], wordt de toestemming behandeld door het schema van de Experience Platform [&#x200B; Toestemming &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"}. Standaard is de waarde voor het veld voor toestemming leeg en wordt deze behandeld als toestemming voor het ontvangen van uw communicatie. U kunt deze standaardwaarde wijzigen terwijl het aan een van de mogelijke hier vermelde waarden [&#x200B; &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target="_blank"}, of gebruik [&#x200B; toestemmingsbeleid &#x200B;](../action/consent.md) om de standaardlogica met voeten te treden.
+>In [!DNL Journey Optimizer], wordt de toestemming behandeld door het schema van de Experience Platform [&#x200B; Toestemming &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=nl-NL){target="_blank"}. Standaard is de waarde voor het veld voor toestemming leeg en wordt deze behandeld als toestemming voor het ontvangen van uw communicatie. U kunt deze standaardwaarde wijzigen terwijl het aan een van de mogelijke hier vermelde waarden [&#x200B; &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=nl-NL#choice-values){target="_blank"}, of gebruik [&#x200B; toestemmingsbeleid &#x200B;](../action/consent.md) om de standaardlogica met voeten te treden.
 
 ## Persoonlijkheidsgoedkeuring implementeren {#opt-out-personalization}
 
@@ -69,7 +69,7 @@ Wanneer het leveraging van aanbiedingen, worden de verpersoonlijkingsvoorkeur ni
 >
 >De beslissingsbereiken die worden gebruikt in [!DNL Journey Optimizer] authored kanalen voldoen aan deze eis van de reis of de campagne waartoe zij behoren.
 
-1. Creeer een [&#x200B; publiek van Adobe Experience Platform &#x200B;](../audience/about-audiences.md) gebruikend de [&#x200B; Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"} en gebruik een profielattribuut zoals **[!UICONTROL Personalize Content = Yes (opt-in)]** aan doelgebruikers die met verpersoonlijking hebben ingestemd.
+1. Creeer een [&#x200B; publiek van Adobe Experience Platform &#x200B;](../audience/about-audiences.md) gebruikend de [&#x200B; Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=nl-NL){target="_blank"} en gebruik een profielattribuut zoals **[!UICONTROL Personalize Content = Yes (opt-in)]** aan doelgebruikers die met verpersoonlijking hebben ingestemd.
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -121,7 +121,7 @@ Volg een van de onderstaande opties om de toestemming voor personalisatie handma
 
 U kunt de bouwer van de segmentregel gebruiken om een publiek tot stand te brengen dat opt-outprofielen bevat.
 
-1. Creeer een [&#x200B; publiek van Adobe Experience Platform &#x200B;](../audience/about-audiences.md) gebruikend de [&#x200B; Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"}.
+1. Creeer een [&#x200B; publiek van Adobe Experience Platform &#x200B;](../audience/about-audiences.md) gebruikend de [&#x200B; Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=nl-NL){target="_blank"}.
 
    ![](assets/perso-consent-audience-build-rule.png)
 
@@ -159,7 +159,7 @@ U kunt een controle van de verpersoonlijkingstoestemming aan een publiek ook toe
 
 1. **[!UICONTROL Path 1]** wordt het niet-persoonlijke publiek. Kies een relevant label.
 
-1. Kies de aangewezen waarde van deze [&#x200B; lijst &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target="_blank"}.
+1. Kies de aangewezen waarde van deze [&#x200B; lijst &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=nl-NL#choice-values){target="_blank"}.
 
    In dit geval gebruiken we `n` om aan te geven dat gebruikers niet instemmen met het gebruik van hun gegevens voor personalisatie.
 

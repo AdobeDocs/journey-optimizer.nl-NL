@@ -56,4 +56,4 @@ Leer hoe te om een IP warmlopingsplan tot stand te brengen en uit te voeren.
 
 >[!NOTE]
 >
->Leer meer over het verhogen van uw e-mailreputatie met IP opwarmen in de [&#x200B; Gids van de Beste praktijken van de Levering &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html).
+>Leer meer over het verhogen van uw e-mailreputatie met IP opwarmen in de [&#x200B; Gids van de Beste praktijken van de Levering &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=nl-NL).

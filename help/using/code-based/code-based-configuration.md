@@ -160,7 +160,7 @@ Volg onderstaande stappen om de op code gebaseerde instellingen voor ervaringsco
 
    >[!NOTE]
    >
-   >Als u kwesties terwijl het previewing van de ervaring ontmoet, gelieve te verwijzen naar [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
+   >Als u kwesties terwijl het previewing van de ervaring ontmoet, gelieve te verwijzen naar [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
 
 ### Andere platforms {#other}
 

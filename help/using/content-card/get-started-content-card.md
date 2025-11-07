@@ -51,4 +51,4 @@ Met deze functie kunnen marketers relevante, rijke media-inhoud presenteren aan 
 
 * **[kaarten van de Inhoud in het landen van pagina&#39;s](content-card-lp.md)** - ontdek hoe te om inhoudskaarten in het landen van pagina&#39;s voor verbeterde overeenkomst uit te voeren.
 * **[kaart die van de Inhoud](content-card-report.md)** rapporteert - de prestaties van de inhoudskaart van het spoor en van de analyse met gedetailleerde metriek en inzichten.
-* **[de kaartleerprogramma&#39;s van de Inhoud &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op de eigenschappen van de inhoudskaart en beste praktijken.
+* **[de kaartleerprogramma&#39;s van de Inhoud &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op de eigenschappen van de inhoudskaart en beste praktijken.

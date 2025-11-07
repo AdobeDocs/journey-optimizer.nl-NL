@@ -20,7 +20,7 @@ Met het SMS/MMS/RCS-kanaal in Adobe Journey Optimizer kunt u klanten via geperso
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Aan de slag met tekstberichten
 
@@ -30,7 +30,7 @@ Leer hoe u SMS-, MMS- en RCS-berichten in Adobe Journey Optimizer configureert, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 SMS-, MMS- en RCS-berichten maken
 
@@ -40,7 +40,7 @@ Stapsgewijze handleiding voor het ontwerpen, configureren en verzenden van geper
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Je tekstberichten controleren en verzenden
 
@@ -50,7 +50,7 @@ U kunt berichten voorvertonen, valideren en verzenden terwijl u ervoor zorgt dat
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
 
 Tekstbericht openen
 
@@ -60,7 +60,7 @@ Zorgen voor naleving van industriestandaarden door de &quot;opt-out&quot;-proces
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 SMS-subdomeinen instellen
 
@@ -70,7 +70,7 @@ Vorm subdomeinen van SMS voor berichtlevering, met inbegrip van opstelling, dele
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 SMS/MMS/RCS-kanalen configureren
 

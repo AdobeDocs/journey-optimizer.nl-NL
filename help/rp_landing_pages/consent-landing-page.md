@@ -20,7 +20,7 @@ Het beheren van toestemming is essentieel voor het opbouwen van vertrouwen met u
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
 
 Uitschakelen en Personalization-toestemming beheren
 
@@ -30,7 +30,7 @@ Leer hoe u de voorkeuren voor opt-out beheert en toestemming voor personalisatie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Werken met beleid voor goedkeuring
 

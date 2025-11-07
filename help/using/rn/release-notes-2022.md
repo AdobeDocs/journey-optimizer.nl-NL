@@ -818,7 +818,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 
 **Reizen**
 
-* De de stapgebeurtenissen van Journey Optimizer kunnen nu met andere datasets in [&#x200B; Adobe Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) worden verbonden. Het **profileID** gebied, in het ingebouwde schema van de Gebeurtenis van de Stap van de Reis, wordt nu bepaald als identiteitsgebied. [Meer informatie](../reports/sharing-overview.md#integration-cja)
+* De de stapgebeurtenissen van Journey Optimizer kunnen nu met andere datasets in [&#x200B; Adobe Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=nl-NL) worden verbonden. Het **profileID** gebied, in het ingebouwde schema van de Gebeurtenis van de Stap van de Reis, wordt nu bepaald als identiteitsgebied. [Meer informatie](../reports/sharing-overview.md#integration-cja)
 
 **het beheer van het Besluit**
 

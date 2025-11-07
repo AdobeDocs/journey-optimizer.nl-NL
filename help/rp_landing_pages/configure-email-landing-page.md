@@ -20,7 +20,7 @@ Het configureren van het e-mailkanaal in Adobe Journey Optimizer is uw toegangsp
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Aan de slag met e-mailconfiguratie
 
@@ -30,7 +30,7 @@ Leer de essentiële stappen om e-mailmogelijkheden, met inbegrip van subdomain d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Instellingen voor e-mailconfiguratie definiëren
 
@@ -40,7 +40,7 @@ Stel e-mailconfiguraties in voor de levering, compatibiliteit en aanpassing met 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 List Unsubscribe inschakelen en configureren
 
@@ -50,7 +50,7 @@ Leer hoe u de functie Abonnement opzeggen inschakelt om één klik opzeggen-URL&
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Parameters voor e-mailkopteksten configureren
 
@@ -60,7 +60,7 @@ Pas de afzender aan en beantwoord e-mailadressen, verwerk fouten en stuur e-mail
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
 
 URL-beheer voor e-mailkanaal configureren
 
@@ -70,7 +70,7 @@ Stel URL-volgparameters in om de doeltreffendheid van e-mailcampagnes te meten e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
 
 Aangepaste instellingen voor e-mailconfiguratie
 

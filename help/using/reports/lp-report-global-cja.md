@@ -23,7 +23,7 @@ Als u rapporten wilt openen, selecteert u **[!UICONTROL Report]** in het menu Ge
 
 ![](assets/cja-lp.png)
 
-Meer over de werkruimte van Customer Journey Analytics leren en hoe te om gegevens te filtreren en te analyseren, verwijs naar [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Meer over de werkruimte van Customer Journey Analytics leren en hoe te om gegevens te filtreren en te analyseren, verwijs naar [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/home).
 
 ## Conversiesnelheid landingspagina {#lp-conversion}
 

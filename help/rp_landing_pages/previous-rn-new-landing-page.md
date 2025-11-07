@@ -22,7 +22,7 @@ Opmerkingen bij de release van Adobe Journey Optimizer bieden maandelijks een mo
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Adobe Journey Optimizer Release Notes 2025
 
@@ -32,7 +32,7 @@ Ontdek alle functies, updates en verbeteringen die in 2025 voor Adobe Journey Op
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Opmerkingen bij de release van Adobe Journey Optimizer 2024
 

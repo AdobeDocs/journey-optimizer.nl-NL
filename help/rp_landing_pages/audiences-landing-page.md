@@ -20,7 +20,7 @@ Soorten publiek in Adobe Journey Optimizer helpen u op het juiste moment verbind
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Aan de slag met soorten publiek
 
@@ -30,7 +30,7 @@ Leer de grondbeginselen van publieksbeheer, segmentatie, en activering binnen Ad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Soorten publiek maken en beheren
 
@@ -40,7 +40,7 @@ Ontdek geavanceerde workflows voor het maken, samenstellen en verrijken van doel
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
 
 Soorten publiek activeren in campagnes en reizen
 
@@ -50,7 +50,7 @@ Begrijp hoe u het publiek activeert en deze effectief kunt gebruiken binnen camp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 Verrijkingskenmerken benutten
 

@@ -20,7 +20,7 @@ Met de functie Live-rapport in Adobe Journey Optimizer kunt u de prestaties in r
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Aan de slag met Live-rapport
 
@@ -30,7 +30,7 @@ Leer hoe u Live-rapporten kunt openen, aanpassen en exporteren om reizen en beri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Lijst met meetwaarden
 
@@ -40,7 +40,7 @@ Begrijp de definities en de categorieën metriek die in Levende rapporten voor r
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
 
 Journey Live Report
 
@@ -50,7 +50,7 @@ Analyseer de prestaties van reizen en de bijbehorende communicatiekanalen in rea
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
 
 Campagne Live Report
 
@@ -60,7 +60,7 @@ Visualiseer campagneprestaties over veelvoudige kanalen zoals E-mail, Duw, SMS, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
 
 Live-rapport van bestemmingspagina
 
@@ -70,7 +70,7 @@ Evalueer de prestaties van de landingspagina met metriek in real time zoals bezo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
 
 Abonnement op Live-rapport
 

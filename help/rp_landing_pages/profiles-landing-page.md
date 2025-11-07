@@ -20,7 +20,7 @@ Met profielen in Adobe Journey Optimizer kunt u uniforme weergaven van elke klan
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Inleiding tot profielen
 
@@ -30,7 +30,7 @@ Leer hoe u in Adobe Journey Optimizer profielen maakt, beheert en gebruikt om pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Testprofielen maken
 
@@ -40,7 +40,7 @@ Stapsgewijze instructies voor het maken van testprofielen voor het testen van re
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
 
 Werken met berekende kenmerken
 

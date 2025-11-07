@@ -22,7 +22,7 @@ ht-degree: 1%
 
 * Installeer de **uitbreiding van het Web SDK van 0&rbrace; Adobe Experience Platform &lbrace;in uw** eigenschappen van de Markering **en laat de** Opslag van Personalization **optie toe.**
 
-  Deze configuratie is essentieel voor het opslaan van gebeurtenisgeschiedenissen op de cliënt, een voorwaarde voor het uitvoeren van de Regels van de Frequentie in de Bouwer van Regels. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html){target="_blank"}
+  Deze configuratie is essentieel voor het opslaan van gebeurtenisgeschiedenissen op de cliënt, een voorwaarde voor het uitvoeren van de Regels van de Frequentie in de Bouwer van Regels. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=nl-NL){target="_blank"}
 
   ![](assets/configure_web_inapp_1.png)
 
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 1. Sparen uw **configuratie van de Actie** door **te klikken houdt veranderingen**.
 
-1. Navigeer aan het **Publiceren stroom** menu. Creeer een nieuwe **Bibliotheek** of selecteer een bestaande **Bibliotheek** en voeg uw onlangs gecreeerde **Regel** aan het toe. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html#create-a-library){target="_blank"}
+1. Navigeer aan het **Publiceren stroom** menu. Creeer een nieuwe **Bibliotheek** of selecteer een bestaande **Bibliotheek** en voeg uw onlangs gecreeerde **Regel** aan het toe. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=nl-NL#create-a-library){target="_blank"}
 
 1. Van uw **Bibliotheek**, uitgezocht **sparen &amp; bouwen aan ontwikkeling**.
 
@@ -104,7 +104,7 @@ ht-degree: 1%
 
 1. In de **sectie van de Context van het Besluit**, bepaal de **Zeer belangrijke** en **Paren van de Waarde** die welke ervaring bepalen om te leveren.
 
-1. Heb toegang tot het **Publiceren stroom** menu, creeer een nieuwe **Bibliotheek** of selecteer een bestaande **Bibliotheek** en voeg uw pas gecreëerde **Regel** toe. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html#create-a-library){target="_blank"}
+1. Heb toegang tot het **Publiceren stroom** menu, creeer een nieuwe **Bibliotheek** of selecteer een bestaande **Bibliotheek** en voeg uw pas gecreëerde **Regel** toe. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=nl-NL#create-a-library){target="_blank"}
 
 1. Van uw **Bibliotheek**, uitgezocht **sparen &amp; bouwen aan ontwikkeling**.
 

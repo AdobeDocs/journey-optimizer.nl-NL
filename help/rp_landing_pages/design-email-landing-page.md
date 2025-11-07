@@ -20,7 +20,7 @@ Door uw e-mailinhoud in Adobe Journey Optimizer te ontwerpen, kunt u visueel ver
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Aan de slag met e-mailontwerp
 
@@ -30,7 +30,7 @@ Leer de basisbeginselen van e-mailontwerp in Adobe Journey Optimizer, inclusief 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 E-mailinhoud maken en optimaliseren
 
@@ -40,7 +40,7 @@ Ontdek methoden voor het ontwerpen van e-mailinhoud, het importeren van HTML, he
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 Uw inhoud ontwerpen in Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Ontdek gereedschappen en tips en trucs voor het gebruik van componenten, visuele
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Stijl bewerken: E-mailontwerpen aanpassen
 

@@ -76,4 +76,4 @@ De reeksen van de regel staan u toe om **samen veelvoudige regels in regelreekse
 * **[vorm frequentie het in kaart brengen](channel-capping.md)** - ontdekt hoe te om kanaal-vlakke frequentiecappen te plaatsen om over-overseinen te verhinderen.
 * **[creeer regelreeksen](rule-sets.md)** - leer hoe te om bedrijfsregels voor geavanceerd conflictbeheer en berichtbeheer te bouwen.
 * **[reis-specifiek het begrenzen](journey-capping.md)** - de de afschilderingsregels van het opstellings reis-niveau om berichtfrequentie binnen reizen te controleren.
-* **[het beheersleerprogramma&#39;s van het Conflict &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op conflictbeheer en prioritering.
+* **[het beheersleerprogramma&#39;s van het Conflict &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op conflictbeheer en prioritering.

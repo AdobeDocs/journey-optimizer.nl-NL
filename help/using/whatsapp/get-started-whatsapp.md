@@ -66,5 +66,5 @@ In de onderstaande video ziet u hoe u WhatsApp kunt integreren als een native ka
 
 Bekijk meer videozelfstudies over WhatsApp-berichten en -configuratie.
 
-➡️ [&#x200B; WhatsApp kanaal leerprogramma&#39;s &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/whatsapp/whatsapp-introduction){target="_blank"}
+➡️ [&#x200B; WhatsApp kanaal leerprogramma&#39;s &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/channels/whatsapp/whatsapp-introduction){target="_blank"}
 

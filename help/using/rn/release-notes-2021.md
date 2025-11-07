@@ -78,7 +78,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 </table>
 
 
-Zie ook [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform Oktober &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html){target="_blank"} voor meer veranderingen.
+Zie ook [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform Oktober &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=nl-NL){target="_blank"} voor meer veranderingen.
 
 ### Verbeteringen
 

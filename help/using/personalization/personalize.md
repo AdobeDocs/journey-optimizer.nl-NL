@@ -51,7 +51,7 @@ Deze playground verstrekt een gesimuleerd milieu om verpersoonlijkingscode te sc
 
 ![&#x200B; verpersoonlijkings playground &#x200B;](assets/playground.png)
 
-➡️ [&#x200B; toegang tot de verpersoonlijkings playground &#x200B;](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [&#x200B; toegang tot de verpersoonlijkings playground &#x200B;](https://experienceleague.adobe.com/nl/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## Laten we dieper duiken
 
@@ -107,4 +107,4 @@ Leer hoe u de speelplaats van de personalisatie-editor kunt gebruiken om persona
 
 >[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
 
-Onderzoek meer videoleerprogramma&#39;s op verpersoonlijkingseigenschappen en beste praktijken in [&#x200B; zelfstudies van Personalization &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}
+Onderzoek meer videoleerprogramma&#39;s op verpersoonlijkingseigenschappen en beste praktijken in [&#x200B; zelfstudies van Personalization &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}

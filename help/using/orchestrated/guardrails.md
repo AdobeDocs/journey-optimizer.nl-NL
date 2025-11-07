@@ -33,7 +33,7 @@ Hieronder vindt u instructies en beperkingen wanneer u geordende campagnes gebru
 
 * Het gemiddelde aantal attributen per schema **zou 50 kolommen** niet moeten overschrijden om manageability en prestaties te handhaven.
 
-* Model-gebaseerde schema&#39;s kunnen niet voor Adobe Experience Platform **Profielen** worden toegelaten. Slechts worden de Standaard schema&#39;s XDM gesteund voor Adobe Experience Platform **Profielen**. Modelgebaseerde schema&#39;s kunnen worden ingeschakeld voor geordende campagnes of actiecampagnes. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* Model-gebaseerde schema&#39;s kunnen niet voor Adobe Experience Platform **Profielen** worden toegelaten. Slechts worden de Standaard schema&#39;s XDM gesteund voor Adobe Experience Platform **Profielen**. Modelgebaseerde schema&#39;s kunnen worden ingeschakeld voor geordende campagnes of actiecampagnes. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### Data-opname
 

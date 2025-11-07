@@ -111,7 +111,7 @@ Als u een fout bij het voorleggen van de e-mailconfiguratie krijgt, betekent het
 >id="ajo_surface_suppressed_addresses"
 >title="Prioriteit suppressielijst overschrijven"
 >abstract="U kunt ook transactiemeldingen verzenden naar profielen, zelfs als hun e-mailadres op de suppressielijst voor Adobe Journey Optimizer staat vanwege een spamklacht. Deze optie is standaard uitgeschakeld."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html" text="De vervolgkeuzelijst beheren"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=nl-NL" text="De vervolgkeuzelijst beheren"
 
 >[!IMPORTANT]
 >
@@ -141,7 +141,7 @@ Zodra deze optie wordt toegelaten, hoewel een klant uw marketing e-mail als spam
 >id="ajo_surface_seed_list"
 >title="Een zaadlijst toevoegen"
 >abstract="Selecteer de zaadlijst van uw keus om specifieke interne adressen aan uw publiek automatisch toe te voegen. Deze zaadadressen zullen op de tijd van de leveringsuitvoering worden omvat en zullen een nauwkeurige kopie van het bericht voor betrouwbaarheidsdoeleinden ontvangen."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="Wat zijn zaadlijsten?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=nl-NL#use-seed-list" text="Wat zijn zaadlijsten?"
 
 Met een zaadlijst in [!DNL Journey Optimizer] kunt u automatisch specifieke e-mailadressen opnemen in uw leveringen. [Meer informatie](../configuration/seed-lists.md)
 
@@ -167,7 +167,7 @@ Leer hoe te om zaadlijst in een campagne of een reis in [&#x200B; te gebruiken d
 >id="ajo_admin_presets_retryperiod"
 >title="De periode voor het opnieuw proberen aanpassen"
 >abstract="Retries worden 3,5 dagen (84 uur) uitgevoerd wanneer een e-maillevering mislukt als gevolg van een tijdelijke soft bounce-fout. U kunt deze standaardperiode voor opnieuw proberen aanpassen aan uw wensen."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="Opnieuw proberen"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=nl-NL" text="Opnieuw proberen"
 
 U kunt **e-mail vormen opnieuw probeert parameters**.
 

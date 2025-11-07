@@ -20,7 +20,7 @@ Met AI-modellen in Adobe Journey Optimizer kunt u op het juiste moment het juist
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
 
 Aan de slag met AI-modellen
 
@@ -30,7 +30,7 @@ Leer meer over de typen, doelen en stappen om AI-modellen te maken en te gebruik
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
 
 Modellen voor automatische optimalisatie
 
@@ -40,7 +40,7 @@ Begrijp hoe de auto-optimalisatiemodellen, met inbegrip van de bemonstering van 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
 
 Aangepaste optimalisatiemodellen
 
@@ -50,7 +50,7 @@ Ontdek hoe de Gepersonaliseerde Modellen van de Optimalisering klantengegevens h
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Stapsgewijze handleiding: AI-modellen maken
 

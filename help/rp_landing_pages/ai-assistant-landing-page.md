@@ -20,7 +20,7 @@ De AI Assistant van Adobe Journey Optimizer verandert het maken van inhoud door 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Aan de slag met AI Assistant
 
@@ -30,7 +30,7 @@ Leer hoe u toegang krijgt tot de AI Assistant-functie en deze configureert om de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=nl-NL)
 
 Genereren van e-mailinhoud met AI
 
@@ -40,7 +40,7 @@ Ontdek hoe u met AI Assistant e-mailinhoud kunt ontwerpen, aanpassen en optimali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=nl-NL)
 
 Inhoud voor pushmelding genereren
 
@@ -50,7 +50,7 @@ Maak en personaliseer inhoud voor pushmeldingen met AI, inclusief tekst en afbee
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=nl-NL)
 
 SMS-inhoud genereren met AI
 
@@ -60,7 +60,7 @@ Gebruik AI Assistant om SMS-inhoud te genereren en te verfijnen die bij uw publi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=nl-NL)
 
 Inhoud van webpagina en genereren van middelen
 
@@ -70,7 +70,7 @@ Verbeter de inhoud en de weergave van webpagina&#39;s met AI Assistant en zorg e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg?lang=nl-NL)
 
 Openingspagina genereren met AI
 

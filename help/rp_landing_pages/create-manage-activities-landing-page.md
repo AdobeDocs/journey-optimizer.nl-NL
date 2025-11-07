@@ -20,7 +20,7 @@ In Adobe Journey Optimizer kunt u door het maken en beheren van beslissingen de 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Besluiten maken in Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Leer hoe u beslissingen maakt, het bereik definieert, fallback-aanbiedingen inst
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Methoden voor selectie van aanbiedingen configureren
 
@@ -40,7 +40,7 @@ Onderzoek hoe te om rangschikkende methodes voor besluiten, met inbegrip van pri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 Aanbiedingsbesluiten simuleren
 

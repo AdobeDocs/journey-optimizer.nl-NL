@@ -20,7 +20,7 @@ Met pushberichten in Adobe Journey Optimizer kunt u in real-time verbinding make
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 Gegevensstroom en configuratie van pushberichten
 
@@ -30,7 +30,7 @@ Begrijp de componenten, de werkschema&#39;s, en de gegevensstroom die worden ver
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Configuratie van pushmeldingskanaal
 
@@ -40,7 +40,7 @@ Stapsgewijze instructies voor het instellen van machtigingen, het integreren van
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Workflow voor snel aan boord gaan van mobiele systemen
 

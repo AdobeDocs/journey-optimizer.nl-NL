@@ -123,7 +123,7 @@ Selecteer **[!UICONTROL Data management]** > **[!UICONTROL Datasets]** > **[!UIC
 
 <!--![](assets/preset-bcc-dataset.png)-->
 
-Om vragen tegen deze dataset in werking te stellen, kunt u de Redacteur van de Vraag gebruiken die door de [&#x200B; Dienst van de Vraag van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} wordt verstrekt. Selecteer **[!UICONTROL Data management]** > **[!UICONTROL Queries]** en klik op **[!UICONTROL Create query]** om het bestand te openen. [Meer informatie](../data/get-started-queries.md)
+Om vragen tegen deze dataset in werking te stellen, kunt u de Redacteur van de Vraag gebruiken die door de [&#x200B; Dienst van de Vraag van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=nl-NL){target="_blank"} wordt verstrekt. Selecteer **[!UICONTROL Data management]** > **[!UICONTROL Queries]** en klik op **[!UICONTROL Create query]** om het bestand te openen. [Meer informatie](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
@@ -234,7 +234,7 @@ De `x-message-profile-id` kopbal wordt ook opgeslagen in de volgende systeemdata
 
 * Selecteer **[!UICONTROL Data management]** > **[!UICONTROL Datasets]** > **[!UICONTROL Browse]** om deze gegevenssets te openen via de gebruikersinterface. Leer meer over hoe te om tot datasets in [&#x200B; toegang te hebben deze sectie &#x200B;](../data/get-started-datasets.md#access-datasets).
 
-* Gebruik de Redacteur van de Vraag die door de [&#x200B; Dienst van de Vraag van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} wordt verstrekt. Selecteer **[!UICONTROL Data management]** > **[!UICONTROL Queries]** en klik op **[!UICONTROL Create query]** om het bestand te openen. [Meer informatie](../data/get-started-queries.md)
+* Gebruik de Redacteur van de Vraag die door de [&#x200B; Dienst van de Vraag van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=nl-NL){target="_blank"} wordt verstrekt. Selecteer **[!UICONTROL Data management]** > **[!UICONTROL Queries]** en klik op **[!UICONTROL Create query]** om het bestand te openen. [Meer informatie](../data/get-started-queries.md)
 
 Hieronder volgen enkele voorbeeldquery&#39;s die u kunt uitvoeren om informatie op te halen die overeenkomt met uw BCC-kopieën.
 

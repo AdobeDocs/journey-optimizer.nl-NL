@@ -92,7 +92,7 @@ Als u bijvoorbeeld de inhoud van de berichttekst wijzigt, is het onwaarschijnlij
 +++Voer de test uit op de juiste publieksgrootte of voor lang genoeg
 
 Als je langer tests uitvoert, kun je kleinere verschillen in het doel meten tussen behandelingen. Nochtans, als de basislijnwaarde van uw doel metrisch is, dan zult u grotere steekproefgrootte nodig hebben.
-Het aantal gebruikers dat in uw experiment moet worden omvat hangt van de effect grootte af u wenst te ontdekken, de variantie of de spreiding van uw doel metrisch, evenals uw tolerantie voor vals positieve en vals negatieve fouten. In klassieke Experimenten, kunt u de calculator van de a [&#x200B; steekproefgrootte &#x200B;](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){_blank} gebruiken om te bepalen hoe lang u uw test moet in werking stellen.
+Het aantal gebruikers dat in uw experiment moet worden omvat hangt van de effect grootte af u wenst te ontdekken, de variantie of de spreiding van uw doel metrisch, evenals uw tolerantie voor vals positieve en vals negatieve fouten. In klassieke Experimenten, kunt u de calculator van de a [&#x200B; steekproefgrootte &#x200B;](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=nl-NL){_blank} gebruiken om te bepalen hoe lang u uw test moet in werking stellen.
 +++ 
 
 +++Statistische onzekerheid begrijpen
@@ -189,4 +189,4 @@ Nadat u uw experiment hebt uitgevoerd, zijn er verschillende mogelijke vervolgac
 * **[Multi-gewapende bandit vs het testen A/B](mab-vs-ab.md)** - vergelijk verschillende experimenteringsbenaderingen en wanneer om elke methode te gebruiken.
 * **[de Versneller van de Experimenteer](experiment-accelerator-gs.md)** - ontdekt hoe te om experimenteren met AI-aangedreven optimalisering te versnellen.
 * **[het rapportberekeningen van de Experiment](experiment-report-calculations.md)** - leer hoe te om experimentele resultaten en statistische betekenis te interpreteren.
-* **[de zelfstudies van de Experimentatie &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/content-management/experimentation-overview){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op inhoudexperimentatie en beste praktijken.
+* **[de zelfstudies van de Experimentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/content-management/experimentation-overview){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op inhoudexperimentatie en beste praktijken.

@@ -144,4 +144,4 @@ Leer hoe u het All-Time Report in Adobe Journey Optimizer effectief kunt gebruik
 
 +++
 
-Onderzoek meer videoleerprogramma&#39;s bij het melden en de analyses in [&#x200B; het Melden leerprogramma&#39;s &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}
+Onderzoek meer videoleerprogramma&#39;s bij het melden en de analyses in [&#x200B; het Melden leerprogramma&#39;s &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}

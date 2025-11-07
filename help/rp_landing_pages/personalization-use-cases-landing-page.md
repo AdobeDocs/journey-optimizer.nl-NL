@@ -20,7 +20,7 @@ Stel je voor dat je communicatie maakt die zo op maat van je publiek is gemaakt 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Zelfstudie voor Personalization-overzicht van status van bestelling
 
@@ -30,7 +30,7 @@ Leer hoe u persoonlijke pushmeldingen voor de status van uw bestelling maakt met
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
 
 Personalization-handleiding voor het afmelden van winkelen
 
@@ -40,7 +40,7 @@ Ontdek hoe u de e-mails over het verlaten van winkelwagentjes kunt aanpassen met
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
 
 Personalization-voorbeeld voor presentatie van gezondheidsplan
 

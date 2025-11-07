@@ -53,12 +53,12 @@ Nadat u de campagne hebt verzonden, kunt u de impact van de campagne voor direct
 
 ## Toestemming voor direct mail beheren {#dm-consent-management}
 
-In [!DNL Journey Optimizer], wordt de toestemming behandeld door het schema van de Experience Platform [&#x200B; Toestemming &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"}. Standaard is de waarde voor het veld voor toestemming leeg en wordt deze behandeld als toestemming voor het ontvangen van uw communicatie.
+In [!DNL Journey Optimizer], wordt de toestemming behandeld door het schema van de Experience Platform [&#x200B; Toestemming &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=nl-NL){target="_blank"}. Standaard is de waarde voor het veld voor toestemming leeg en wordt deze behandeld als toestemming voor het ontvangen van uw communicatie.
 
 Als een profiel ervoor heeft gekozen geen directe e-mail te ontvangen, wordt in de corresponderende Experience Platform-profielkenmerken de waarde voor `consents.marketing.postalMail.val` `n` gebruikt en wordt het corresponderende profiel uitgesloten van volgende leveringen.
 
 Als u het profiel opnieuw wilt inschakelen, moet u het profielkenmerk weer instellen op `consents.marketing.postalMail.val` : `y` .
 
-Als u de kenmerken van een profiel wilt beheren, gaat u naar Experience Platform en opent u het profiel door een naamruimte voor identiteiten en een bijbehorende identiteitswaarde te selecteren. Leer meer in de [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}.
+Als u de kenmerken van een profiel wilt beheren, gaat u naar Experience Platform en opent u het profiel door een naamruimte voor identiteiten en een bijbehorende identiteitswaarde te selecteren. Leer meer in de [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=nl-NL#getting-started){target="_blank"}.
 
 Leer meer over het beheren van opt-out in Journey Optimizer in [&#x200B; deze sectie &#x200B;](../privacy/opt-out.md).

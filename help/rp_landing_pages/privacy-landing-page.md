@@ -20,7 +20,7 @@ Met de privacyhulpprogramma&#39;s van Adobe Journey Optimizer kunt u gevoelige k
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
 
 Overzicht van privacybeheer
 
@@ -30,7 +30,7 @@ Leer hoe u de privacy in Adobe Journey Optimizer en Adobe Experience Platform be
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Privacyverzoeken beheren
 
@@ -40,7 +40,7 @@ Volg stapsgewijze instructies om privacyverzoeken te maken en af te handelen, zo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Controlelogbestanden voor gebruikersacties
 
@@ -50,7 +50,7 @@ Handelingen bijhouden en controleren die worden uitgevoerd op Adobe Journey Opti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=nl-NL)
 
 Levenscyclusbewerkingen van gegevens uitvoeren
 
@@ -60,7 +60,7 @@ Ontdek hoe u taken in de levenscyclus van gegevens kunt beheren, zoals het bijwe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
 
 Beheer van toestemming
 
@@ -70,7 +70,7 @@ Voorkeuren en beleid voor toestemming van ontvangers beheren om te voldoen aan p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
 
 Beleid inzake gegevensbeheer
 

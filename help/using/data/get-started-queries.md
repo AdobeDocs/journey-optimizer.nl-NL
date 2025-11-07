@@ -23,9 +23,9 @@ De Redacteur van de vraag steunt het ontwikkelen van vragen voor analyse en gege
 
 ![](assets/queries-home.png)
 
-Leer hoe te om de Redacteur van de Vraag in [&#x200B; te gebruiken deze documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html){target="_blank"}.
+Leer hoe te om de Redacteur van de Vraag in [&#x200B; te gebruiken deze documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=nl-NL){target="_blank"}.
 
 >[!MORELIKETHIS]
 >
 >* [&#x200B; documentatie van de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl){target="_blank"}
->* [&#x200B; het overzichtsvideo van de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html){target="_blank"}
+>* [&#x200B; het overzichtsvideo van de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=nl-NL){target="_blank"}

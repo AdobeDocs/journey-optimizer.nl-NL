@@ -53,7 +53,7 @@ Als u zaken voor webgebruik wilt uitvoeren, kunt u het webkanaal of de ervaring 
 **Web**
 
 * Bewerk uw inhoud gebruikend de [&#x200B; visuele redacteur van de 0&rbrace; Webontwerper &lbrace;of de Web &#x200B;](../web/web-visual-editor.md){target="_blank"} niet-visuele redacteur [.](../web/web-non-visual-editor.md)
-* U hebt [&#x200B; SDK van het Web van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"} nodig - een cliënt-zijimplementatie.
+* U hebt [&#x200B; SDK van het Web van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=nl-NL){target="_blank"} nodig - een cliënt-zijimplementatie.
   <!--* You need the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}-->
 * Met het webkanaal kunt u alles op de pagina wijzigen en hebt u een vooraf gedefinieerde lijst met handelingen die u kunt gebruiken om wijzigingen aan te brengen. [Meer informatie](../web/web-visual-editor.md){target="_blank"}
 * Het is eenvoudig om in te stellen en snel te gaan.
@@ -62,7 +62,7 @@ Als u zaken voor webgebruik wilt uitvoeren, kunt u het webkanaal of de ervaring 
 **op code-gebaseerde ervaring**
 
 * Bewerk uw inhoud gebruikend de [&#x200B; verpersoonlijkingsredacteur &#x200B;](create-code-based.md#edit-code).
-* U hebt of het [&#x200B; Web SDK van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"} - cliënt-zijimplementatie, of de [&#x200B; Server API van Edge Network van AEP &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"} - server-zijimplementatie nodig.
+* U hebt of het [&#x200B; Web SDK van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=nl-NL){target="_blank"} - cliënt-zijimplementatie, of de [&#x200B; Server API van Edge Network van AEP &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=nl-NL){target="_blank"} - server-zijimplementatie nodig.
 * De op code-gebaseerde ervaring vereist vorige ontwikkelingswerk aan uw implementatie om ervoor te zorgen dat uw toepassingen de inhoud kunnen interpreteren en leveren die op de rand door [!DNL Journey Optimizer] voor deze plaatsen wordt gepubliceerd. [Meer informatie](code-based-surface.md)
 * Het vereist meer planning en het kan slechts de dingen veranderen die de ontwikkelaars specificeren. Daarom is het essentieel om de componenten (huisbanner, heldenbeeld, menubalk, enz.) op de toepassingen te identificeren die voor verpersoonlijking of het testen moeten worden gewijzigd, en met uw ontwikkelingsteam te werken om de implementatie te bouwen nodig voor het behandelen van deze veranderingen.
 * U kunt hiermee JSON-code-inhoud gebruiken.
@@ -109,5 +109,5 @@ De belangrijkste stappen om een op code-gebaseerde ervaring tot stand te brengen
 * **[op code-gebaseerde eerste vereisten](code-based-prerequisites.md)** - begrijp de technische vereisten en ontwikkelaarsmiddelen nodig voor implementatie.
 * **[de code-gebaseerde ervaringen van de Test](test-code-based.md)** - Leer hoe te voorproef en uw code-gebaseerde ervaringen te testen alvorens te publiceren.
 * **[steekproeven van de Implementatie](code-based-implementation-samples.md)** - onderzoek codevoorbeelden en implementatiepatronen voor diverse gebruiksgevallen.
-* **[op code-gebaseerde ervaringsleerprogramma&#39;s &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op code-gebaseerde eigenschappen en beste praktijken.
+* **[op code-gebaseerde ervaringsleerprogramma&#39;s &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op code-gebaseerde eigenschappen en beste praktijken.
 

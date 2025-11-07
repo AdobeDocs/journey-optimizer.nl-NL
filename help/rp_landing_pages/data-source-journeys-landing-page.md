@@ -20,7 +20,7 @@ Met gegevensbronnen in Adobe Journey Optimizer kunt u verbinding maken met syste
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Aan de slag met gegevensbronnen
 
@@ -30,7 +30,7 @@ Leer over gegevensbronnen, hun types, gebruiksgevallen, en gebiedsgroepen. Bevat
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Hoe te om een Gegevens Source te vormen
 
@@ -40,7 +40,7 @@ Stapsgewijze handleiding voor het configureren van gegevensbronnen en het behere
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 Adobe Experience Platform Data Source
 
@@ -50,7 +50,7 @@ Leer hoe u de ingebouwde Adobe Experience Platform-gegevensbron configureert voo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 Externe gegevensbronnen configureren
 

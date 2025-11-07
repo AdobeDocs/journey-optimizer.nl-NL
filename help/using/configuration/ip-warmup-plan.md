@@ -267,14 +267,14 @@ Elk domein wordt nu in een andere kolom op dezelfde rij weergegeven.
 >id="ajo_admin_ip_warmup_upload"
 >title="Specificeer uw IP warmtekrachtplan"
 >abstract="Vul het malplaatje van Excel met alle gegevens in die uw plan, zoals IP warmup fasen en doelaantal profielen zullen voeren, en upload het hier."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="Bereid het IP dossier van het warmlopingsplan voor"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html?lang=nl-NL#prepare-file" text="Bereid het IP dossier van het warmlopingsplan voor"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
 >title="Een marketingconfiguratie selecteren"
 >abstract="U moet de zelfde configuratie selecteren zoals die in de campagne wordt geselecteerd u met uw IP warmup plan wilt associëren."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="Kanaalconfiguraties instellen"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="IP-warmtecampagnes maken"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=nl-NL" text="Kanaalconfiguraties instellen"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=nl-NL" text="IP-warmtecampagnes maken"
 
 Om een IP warmup plan tot stand te brengen, volg de hieronder stappen.
 

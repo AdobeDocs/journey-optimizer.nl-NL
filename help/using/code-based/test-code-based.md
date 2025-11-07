@@ -95,11 +95,11 @@ Wanneer u code-gebaseerde ervaringen voor Web-pagina&#39;s of mobiele apps bouwt
 
    * Selecteer de knop **[!UICONTROL Copy link]** en deel de koppeling met uw team en de betrokkenen, die een voorvertoning van de nieuwe ervaring in een mobiele browser kunnen bekijken voordat de wijzigingen live gaan.
 
-   * Scan de QR-code met uw mobiele apparaat om de voorbeeldkoppeling rechtstreeks in de mobiele toepassing te openen. U moet de SPELD op uw apparaat ingaan om de [&#x200B; Assurance &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"} zitting te vestigen.
+   * Scan de QR-code met uw mobiele apparaat om de voorbeeldkoppeling rechtstreeks in de mobiele toepassing te openen. U moet de SPELD op uw apparaat ingaan om de [&#x200B; Assurance &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"} zitting te vestigen.
 
      >[!NOTE]
      >
-     >**Adobe Experience Platform Assurance** is een product van Adobe Experience Cloud om u te helpen inspecteren, beproeven, simuleren, en bevestigen hoe u gegevens verzamelt of ervaringen in uw mobiele app dient. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home){target="_blank"}
+     >**Adobe Experience Platform Assurance** is een product van Adobe Experience Cloud om u te helpen inspecteren, beproeven, simuleren, en bevestigen hoe u gegevens verzamelt of ervaringen in uw mobiele app dient. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-platform/assurance/home){target="_blank"}
 
 1. Als u om het even welk [&#x200B; andere platform &#x200B;](code-based-configuration.md#other) in uw op code-gebaseerde configuratie gebruikt, kies het [&#x200B; oppervlakte URI &#x200B;](code-based-surface.md#surface-uri) dat u van de drop-down lijst wilt voorproef.
 

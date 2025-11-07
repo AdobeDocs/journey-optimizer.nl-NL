@@ -52,7 +52,7 @@ In de lijsten, kunt u basisacties op elk element uitvoeren. U kunt bijvoorbeeld 
 >title="Tags"
 >abstract="Met dit veld kunt u Adobe Experience Platform Unified Tags aan uw campagne toewijzen. Op deze manier kunt u ze gemakkelijk classificeren en de zoekopdracht in de lijst met campagnes verbeteren."
 
-Met Adobe Experience Platform [&#x200B; Verenigde Markeringen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html), kunt u uw voorwerpen van Journey Optimizer gemakkelijk classificeren om onderzoek van de lijsten te verbeteren.
+Met Adobe Experience Platform [&#x200B; Verenigde Markeringen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=nl-NL), kunt u uw voorwerpen van Journey Optimizer gemakkelijk classificeren om onderzoek van de lijsten te verbeteren.
 
 ![](../rn/assets/do-not-localize/campaigns-tag.gif)
 
@@ -105,7 +105,7 @@ U kunt tags toevoegen aan of verwijderen uit elk type reis of campagne (live, co
 
 ### Tags beheren {#manage-tags}
 
-Beheerders kunnen tags verwijderen en deze op categorieën indelen via het menu **[!UICONTROL Tags]** onder **[!UICONTROL ADMINISTRATION]** . Leer meer over markeringsbeheer in de [&#x200B; Verenigde documentatie van Markeringen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html).
+Beheerders kunnen tags verwijderen en deze op categorieën indelen via het menu **[!UICONTROL Tags]** onder **[!UICONTROL ADMINISTRATION]** . Leer meer over markeringsbeheer in de [&#x200B; Verenigde documentatie van Markeringen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=nl-NL).
 
 >[!NOTE]
 >

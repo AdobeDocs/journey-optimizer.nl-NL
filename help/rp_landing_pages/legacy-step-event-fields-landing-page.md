@@ -20,7 +20,7 @@ Velden met oudere stappen in Adobe Journey Optimizer zijn van essentieel belang 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
 
 Oudere velden begrijpen
 
@@ -30,7 +30,7 @@ Meer informatie over verouderde stapgebeurtenisvelden in Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
 
 Overzicht van reisvelden
 
@@ -40,7 +40,7 @@ Ontdek de velden in het reisschema, de typen en de manier waarop deze de rapport
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Algemene velden voor trapsgewijze gebeurtenissen op reis
 
@@ -50,7 +50,7 @@ U kunt essentiële velden zoeken die worden gedeeld door de methoden tripStepEve
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Velden voor uitvoering van handeling
 
@@ -60,7 +60,7 @@ Begrijp gebieden met betrekking tot actieuitvoering in reisStep gebeurtenissen, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 Gegevensvelden
 
@@ -70,7 +70,7 @@ Leer meer over de velden die tijdens de stapverwerking bij het ophalen van gegev
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
 
 JourneyStep-identiteitsvelden
 

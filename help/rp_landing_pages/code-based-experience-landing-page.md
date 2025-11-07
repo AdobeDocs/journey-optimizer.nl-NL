@@ -20,7 +20,7 @@ Met codegebaseerde ervaringen in Adobe Journey Optimizer kunt u zeer gepersonali
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
 
 Inleiding tot op code-gebaseerde Ervaringen
 
@@ -30,7 +30,7 @@ Leer over code-gebaseerde ervaringen, hun gebruiksgevallen, en geleidelijke bege
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Op code gebaseerde kanalen configureren
 
@@ -40,7 +40,7 @@ Stel de opstelling en het beheer van op code-gebaseerde kanalen, met inbegrip va
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Op code gebaseerde ervaringen maken
 

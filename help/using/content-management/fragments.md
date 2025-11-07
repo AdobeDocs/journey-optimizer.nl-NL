@@ -21,7 +21,7 @@ ht-degree: 0%
 >id="ajo_create_fragment"
 >title="Uw eigen fragmenten definiëren"
 >abstract="Maak en beheer standalone fragmenten om uw inhoud te hergebruiken voor meerdere reizen en campagnes."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="Fragmenten maken"
+>additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="Fragmenten maken"
 
 Een fragment is een herbruikbare component waarnaar in een of meer e-mails via [!DNL Journey Optimizer] -campagnes en -reizen kan worden verwezen. Met deze functionaliteit kunt u meerdere blokken aangepaste inhoud vooraf samenstellen die door marketinggebruikers kunnen worden gebruikt om snel e-mailinhoud samen te stellen in een verbeterd ontwerpproces.
 

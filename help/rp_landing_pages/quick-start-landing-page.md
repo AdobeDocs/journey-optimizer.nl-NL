@@ -20,7 +20,7 @@ Het succes van Adobe Journey Optimizer hangt af van de samenwerking van een team
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
 
 Overzicht van rollen en verantwoordelijkheden
 
@@ -30,7 +30,7 @@ Leer over de belangrijkste rollen, verantwoordelijkheden, en gebiedsdelen die vo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
 
 Aan de slag als een marketeer
 
@@ -40,7 +40,7 @@ Stapsgewijze begeleiding voor marketers bij het maken van een publiek, het toevo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 Aan de slag als Data Engineer
 
@@ -50,7 +50,7 @@ Gedetailleerde instructies voor gegevensingenieurs om schema&#39;s, datasets, vo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Aan de slag als systeembeheerder
 
