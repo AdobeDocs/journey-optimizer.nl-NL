@@ -247,5 +247,5 @@ Vervang `<yourcustomaction>` door de werkelijke naam van de aangepaste handeling
 
 Raadpleeg deze pagina’s voor meer informatie:
 
-* [ verwijzingen van het Gebied ](../building-journeys/expression/field-references.md).
+* [&#x200B; verwijzingen van het Gebied &#x200B;](../building-journeys/expression/field-references.md).
 * [Functies voor het beheer van verzamelingen](../building-journeys/expression/collection-management-functions.md)
