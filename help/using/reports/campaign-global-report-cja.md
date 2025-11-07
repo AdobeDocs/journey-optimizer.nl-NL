@@ -80,13 +80,13 @@ Merk op dat de metriek zal variëren gebaseerd op de kanalen die in uw campagne 
 
 +++
 
-### Resultaten van Campagnescheitrechter {#campaign-funnel}
+### Funnel-resultaten voor campagne {#campaign-funnel}
 
 ![](assets/cja-campaign-funnel.png)
 
 In de grafiek van **[!UICONTROL Campaign funnel results]** wordt een gedetailleerde analyse gegeven van de betrokkenheid van uw profielen bij uw berichten. Deze grafiek biedt waardevolle inzichten in de interactie tussen verschillende profielen en uw inhoud.
 
-+++ Meer informatie over de resultaten van Campagne-trechter
++++ Meer informatie over de resultaten van Campagne funnel
 
 * **[!UICONTROL Delivered]**: Aantal verzonden e-mailberichten in verhouding tot het totale aantal verzonden berichten.
 
@@ -113,7 +113,7 @@ De tabel **[!UICONTROL Tracked link label]** biedt essentiële inzichten in de b
 
 Als u **[!UICONTROL Targeting rules]** instelt voor uw inhoud, biedt de tabel van **[!UICONTROL Targeting overview]** een gedetailleerde weergave van de belangrijkste betrokkenheidsmetriek, waarmee u kunt zien hoe de doelprofielen voor elke regel reageren op uw inhoud.
 
-➡️ [&#x200B; Leer meer bij het richten van regels &#x200B;](../campaigns/campaigns-message-optimization.md)
+➡️ [ Leer meer bij het richten van regels ](../campaigns/campaigns-message-optimization.md)
 
 +++ Meer informatie over gerichte overzichtsmetriek
 

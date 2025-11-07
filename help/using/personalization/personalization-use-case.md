@@ -28,10 +28,10 @@ Het doel van dit voorbeeld is om een gebeurtenis naar [!DNL Journey Optimizer] t
 
 Voor dit gebruik zijn de volgende voorwaarden nodig:
 
-* een bestelgebeurtenis configureren, waaronder het ordernummer, de status en de naam van het item. Verwijs naar deze [&#x200B; sectie &#x200B;](../event/about-events.md).
-* creeer een besluit, verwijs naar deze [&#x200B; sectie &#x200B;](../offers/offer-activities/create-offer-activities.md).
+* een bestelgebeurtenis configureren, waaronder het ordernummer, de status en de naam van het item. Verwijs naar deze [ sectie ](../event/about-events.md).
+* creeer een besluit, verwijs naar deze [ sectie ](../offers/offer-activities/create-offer-activities.md).
 
-➡️ [&#x200B; ontdekt een gelijkaardig gebruiksgeval in video &#x200B;](#video)
+➡️ [ ontdekt een gelijkaardig gebruiksgeval in video ](#video)
 
 ## Stap 1 - Maak de reis {#create-journey}
 
@@ -43,7 +43,7 @@ Voor dit gebruik zijn de volgende voorwaarden nodig:
 
    ![](assets/perso-uc5.png)
 
-1. Configureer en ontwerp uw pushmelding. Verwijs naar deze [&#x200B; sectie &#x200B;](../push/create-push.md).
+1. Configureer en ontwerp uw pushmelding. Verwijs naar deze [ sectie ](../push/create-push.md).
 
 ## Stap 2 - personalisatie toevoegen aan profiel {#add-perso}
 
@@ -66,7 +66,7 @@ Voor dit gebruik zijn de volgende voorwaarden nodig:
 1. Selecteer het **Contextuele attributenmenu**. Contextafhankelijke kenmerken zijn alleen beschikbaar als een reis contextuele gegevens heeft doorgegeven aan het bericht. Klik **Journey Orchestration**. De volgende contextafhankelijke informatie wordt weergegeven:
 
    * **Gebeurtenissen**: deze categorie groepeert alle gebieden van de gebeurtenis(sen) die vóór de activiteit van de kanaalactie in de reis worden geplaatst.
-   * **Eigenschappen van de Reis**: de technische gebieden met betrekking tot de reis voor een bepaald profiel, bijvoorbeeld reisidentiteitskaart of de specifieke aangetroffen fouten. Leer meer in [&#x200B; documentatie van Journey Orchestration &#x200B;](../building-journeys/expression/journey-properties.md).
+   * **Eigenschappen van de Reis**: de technische gebieden met betrekking tot de reis voor een bepaald profiel, bijvoorbeeld reisidentiteitskaart of de specifieke aangetroffen fouten. Leer meer in [ documentatie van Journey Orchestration ](../building-journeys/expression/journey-properties.md).
 
    ![](assets/perso-uc10.png)
 
@@ -110,4 +110,4 @@ Voor dit gebruik zijn de volgende voorwaarden nodig:
 
 In de onderstaande video ziet u een vergelijkbaar gebruiksscenario waarin gebruik wordt gemaakt van contextafhankelijke gegevens van een reis om een e-mail aan te passen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428532?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)

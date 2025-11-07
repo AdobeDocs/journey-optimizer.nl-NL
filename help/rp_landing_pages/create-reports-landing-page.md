@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Beslissingsbeheerrapporten maken
 description: Beslissingsbeheerrapporten maken
 redpen-status: CREATED_||_2025-08-11_21-02-56
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: 96be492d-5003-4954-94cb-467ec5a725bd
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
 
 ---
-
 
 # Beslissingsbeheerrapporten maken{#section-overview}
 
@@ -20,7 +20,7 @@ Door Beslissingsbeheerrapporten te maken in Adobe Journey Optimizer kunt u waard
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Werken met gebeurtenissen voor Beheer van beslissingen
 
@@ -30,7 +30,7 @@ Leer hoe u gegevenssets voor Beslissingsbeheer kunt gebruiken voor rapportage en
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Toegang tot XDM-velden voor DecisioningEvents en ontdek deze
 

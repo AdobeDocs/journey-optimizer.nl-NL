@@ -38,14 +38,14 @@ Voer de volgende stappen uit om een geordende campagne te maken:
 
    1. Selecteer een **[!UICONTROL Merge policy]** voor uw campagne.
 
-      In [!DNL Adobe Experience Platform] is elk publiek gebonden aan een specifiek samenvoegbeleid, dat bepaalt hoe de profielinformatie wordt gecombineerd om een samengevoegd profiel te vormen. Wanneer u een samenvoegbeleid selecteert in de publieksactiviteit Lezen, zijn alleen publiek beschikbaar dat is gebaseerd op hetzelfde samenvoegbeleid. Standaard gebruikt het systeem het standaardsamenvoegbeleid, maar u kunt dit desgewenst wijzigen. Voor meer informatie over fusiebeleid, verwijs naar de [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+      In [!DNL Adobe Experience Platform] is elk publiek gebonden aan een specifiek samenvoegbeleid, dat bepaalt hoe de profielinformatie wordt gecombineerd om een samengevoegd profiel te vormen. Wanneer u een samenvoegbeleid selecteert in de publieksactiviteit Lezen, zijn alleen publiek beschikbaar dat is gebaseerd op hetzelfde samenvoegbeleid. Standaard gebruikt het systeem het standaardsamenvoegbeleid, maar u kunt dit desgewenst wijzigen. Voor meer informatie over fusiebeleid, verwijs naar de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
-   1. Gebruik het veld **[!UICONTROL Tags]** om Adobe Experience Platform Unified Tags toe te wijzen aan uw campagne. Op deze manier kunt u ze gemakkelijk classificeren en zoeken verbeteren vanuit de lijst Geordende campagnes. [&#x200B; Leer hoe te met markeringen &#x200B;](../start/search-filter-categorize.md#tags) te werken.
+   1. Gebruik het veld **[!UICONTROL Tags]** om Adobe Experience Platform Unified Tags toe te wijzen aan uw campagne. Op deze manier kunt u ze gemakkelijk classificeren en zoeken verbeteren vanuit de lijst Geordende campagnes. [ Leer hoe te met markeringen ](../start/search-filter-categorize.md#tags) te werken.
 
    1. Klik op **[!UICONTROL Save]**.
 
 
-   U kunt tot de campagneeigenschappen op elk ogenblik toegang hebben gebruikend het ![&#x200B; pictogram van de montages van de Campagne &#x200B;](assets/do-not-localize/campaign-settings.svg) knoop naast de naam van de campagne.
+   U kunt tot de campagneeigenschappen op elk ogenblik toegang hebben gebruikend het ![ pictogram van de montages van de Campagne ](assets/do-not-localize/campaign-settings.svg) knoop naast de naam van de campagne.
 
    ![](assets/inventory-create.png)
 
@@ -130,7 +130,7 @@ Voer de volgende stappen uit om het campagnereschema te configureren:
    Voer de campagne maandelijks uit, met opties voor specifieke dagen.
 
    * **[!UICONTROL Monthly recurrence]**: geef aan of de campagne elke maand wordt uitgevoerd of alleen gedurende bepaalde maanden.
-   * **[!UICONTROL Daily recurrence]** :
+   * **[!UICONTROL Daily recurrence]**:
       * **[!UICONTROL Every day]**: Voert de campagne uit op elke kalenderdag van de maand, inclusief weekends.
       * **[!UICONTROL Last day of the month]**: voert de campagne alleen uit op de laatste kalenderdag van elke maand (bijvoorbeeld 31 januari 28/29 februari).
       * **[!UICONTROL Specific day of the month (e.g., 15th)]**: voert de campagne uit op een opgegeven dag (bijvoorbeeld de 15e van elke maand).
@@ -151,8 +151,8 @@ Voer de volgende stappen uit om het campagnereschema te configureren:
 
 In het volgende voorbeeld, wordt de activiteit gevormd zodat de Geordende campagne tweemaal per dag om 9 en 12 AM, elke dag van de week van 1 Oktober, 2025 aan 1 Januari, 2026 loopt.
 
-![&#x200B; Planner die wordt gevormd om de campagne tweemaal per dag bij 9 en 12 AM &#x200B;](assets/scheduler-sample.png){width="50%" align="left"} in werking te stellen
+![ Planner die wordt gevormd om de campagne tweemaal per dag bij 9 en 12 AM ](assets/scheduler-sample.png){width="50%" align="left"} in werking te stellen
 
 ## Volgende stappen {#next}
 
-Zodra uw campagnemontages en programma worden gevormd, bent u bereid om de verschillende taken te beginnen te ordenen het zal uitvoeren. [&#x200B; Leer hoe te om campagneactiviteiten te ordenen &#x200B;](../orchestrated/orchestrate-activities.md)
+Zodra uw campagnemontages en programma worden gevormd, bent u bereid om de verschillende taken te beginnen te ordenen het zal uitvoeren. [ Leer hoe te om campagneactiviteiten te ordenen ](../orchestrated/orchestrate-activities.md)

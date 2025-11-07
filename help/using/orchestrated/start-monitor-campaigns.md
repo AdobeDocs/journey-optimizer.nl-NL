@@ -46,9 +46,9 @@ Met het pictogram **[!UICONTROL Alerts]** / **[!UICONTROL Warning]** op de werkb
 
 ![](assets/campaign-warning.png){zoomable="yes"}
 
-U kunt ontbroken activiteiten ook snel identificeren gebruikend de [&#x200B; visuele statusindicatoren &#x200B;](#activities) die direct op elke activiteit worden getoond. Voor gedetailleerde het oplossen van problemen, open de [&#x200B; logboeken van de campagne &#x200B;](#logs-tasks), die diepgaande informatie over de fout en zijn context verstrekken.
+U kunt ontbroken activiteiten ook snel identificeren gebruikend de [ visuele statusindicatoren ](#activities) die direct op elke activiteit worden getoond. Voor gedetailleerde het oplossen van problemen, open de [ logboeken van de campagne ](#logs-tasks), die diepgaande informatie over de fout en zijn context verstrekken.
 
-Als u kanaalactiviteiten hebt toegevoegd aan het canvas, kunt u de inhoud van uw berichten voorvertonen en testen met de knop **[!UICONTROL Simulate Content]** . [&#x200B; Leer hoe te met kanaalactiviteiten &#x200B;](activities/channels.md) te werken
+Als u kanaalactiviteiten hebt toegevoegd aan het canvas, kunt u de inhoud van uw berichten voorvertonen en testen met de knop **[!UICONTROL Simulate Content]** . [ Leer hoe te met kanaalactiviteiten ](activities/channels.md) te werken
 
 Nadat de campagne is gevalideerd, kan deze worden gepubliceerd.
 
@@ -97,7 +97,7 @@ De visuele statusindicatoren helpen u begrijpen hoe elke activiteit uitvoert:
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="Logboeken en taken"
->abstract="De **Logboeken en het 1&rbrace; scherm van taken &lbrace;verstrekken een geschiedenis van de Geordende campagneuitvoering, registrerend alle gebruikersacties en ondervonden fouten.**"
+>abstract="De **Logboeken en het 1} scherm van taken {verstrekken een geschiedenis van de Geordende campagneuitvoering, registrerend alle gebruikersacties en ondervonden fouten.**"
 
 Het controleren van logboeken en taken is een zeer belangrijke stap om uw Geordende campagnes te analyseren en ervoor te zorgen zij behoorlijk lopen. Logbestanden en taken zijn toegankelijk via de knop **[!UICONTROL Logs]** , die beschikbaar is in zowel de test- als de live modus op de canvaswerkbalk.
 
@@ -116,4 +116,4 @@ Op beide tabbladen kunt u de weergegeven kolommen en hun volgorde kiezen, filter
 
 ## Volgende stappen {#next}
 
-Nadat u het geordende campagneccanvas hebt gestart, kunt u Journey Optimizer-rapportagefuncties gebruiken om inzicht te krijgen in het gedrag van het publiek en om de prestaties van elke stap in uw klantentraject te meten. [&#x200B; Leer meer op Geordende campagnes die &#x200B;](../orchestrated/reporting-campaigns.md) melden
+Nadat u het geordende campagneccanvas hebt gestart, kunt u Journey Optimizer-rapportagefuncties gebruiken om inzicht te krijgen in het gedrag van het publiek en om de prestaties van elke stap in uw klantentraject te meten. [ Leer meer op Geordende campagnes die ](../orchestrated/reporting-campaigns.md) melden

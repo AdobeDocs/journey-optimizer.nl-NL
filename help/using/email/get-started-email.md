@@ -7,12 +7,12 @@ feature: Email
 topic: Content Management
 role: User
 level: Beginner
-keywords: E-mail, Start, Creatie, Preview
+keywords: e-mail, starten, maken, voorvertonen
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: f670eddab41c2317d2dbe76ad7aea5a77bb87f2a
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 10%
+source-wordcount: '284'
+ht-degree: 7%
 
 ---
 
@@ -21,25 +21,25 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card4"
 >title="E-mails ontwerpen"
->abstract="Gebruik **Adobe Journey Optimizer** om e-mailberichten naar uw klanten te verzenden. U kunt berichten maken, personaliseren en een voorbeeld bekijken in de E-mailontwerper."
+>abstract="Gebruik **Adobe Journey Optimizer** om e-mailberichten naar uw klanten te verzenden. U kunt berichten maken, personaliseren en voorvertonen in de e-mailtoepassing van Designer."
 
-Gebruik [!DNL Journey Optimizer] dit om e-mailberichten naar uw klanten te sturen. U kunt berichten maken, personaliseren en een voorbeeld bekijken in de E-mailontwerper.
+Gebruik [!DNL Journey Optimizer] om e-mailberichten naar uw klanten te verzenden. U kunt berichten maken, personaliseren en voorvertonen in de e-mailtoepassing van Designer.
 
-E-mailleveringen kunnen worden aangemaakt:
+E-mailleveringen kunnen worden gemaakt:
 
-* In een **reis**: nadat u een **[!UICONTROL Email]** activiteit aan uw reis hebt toegevoegd en basisinstellingen hebt gedefinieerd, gebruikt u het **[!UICONTROL Actions: Email]** rechterdeelvenster om de inhoud voor het bericht te maken. [Meer informatie over het maken van een reis](../building-journeys/journey-gs.md)
+* In a **Weg**: zodra u een **[!UICONTROL Email]** activiteit aan uw reis toevoegde, en bepaalde basismontages, gebruik de **[!UICONTROL Actions: Email]** juiste ruit om de inhoud voor het bericht tot stand te brengen. [ leer hoe te om een reis ](../building-journeys/journey-gs.md) tot stand te brengen
 
-* In een **campagne**: nadat u een campagne heeft gemaakt, selecteert **[!UICONTROL Email]** u deze als uw actie en definieert u de basisinstellingen. [Meer informatie over het maken van een campagne](../campaigns/create-campaign.md#configure)
+* In a **Campagne**: Zodra u een campagne creeerde, selecteer **[!UICONTROL Email]** als uw actie en bepaal basismontages. [ Leer hoe te om een campagne ](../campaigns/create-campaign.md#configure) tot stand te brengen
 
 
 >[!IMPORTANT]
 >
->Als dit de eerste keer is dat u een e-mail maakt, controleert u of het e-mailkanaal is geconfigureerd. [Meer informatie](email-settings.md)
+>Als u voor het eerst een e-mailbericht maakt, controleert u of het e-mailkanaal is geconfigureerd. [Meer informatie](email-settings.md)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-email.md">
-<img alt="Scheppen" src="../assets/do-not-localize/email-create.jpeg">
+<img alt="Maken" src="../assets/do-not-localize/email-create.jpeg">
 </a>
 <div><a href="create-email.md"><strong>Een e-mail maken</strong>
 </div>
@@ -55,10 +55,10 @@ E-mailleveringen kunnen worden aangemaakt:
 <p></td>
 <td>
 <a href="email-opt-out.md">
-<img alt="Afmelden" src="../assets/do-not-localize/email-opt-out.jpg">
+<img alt="Uitschakelen" src="../assets/do-not-localize/email-opt-out.jpg">
 </a>
 <div>
-<a href="email-opt-out.md"><strong>Beheer van opt-outs voor e-mail</strong></a>
+<a href="email-opt-out.md"><strong> e-mail opt-out beheer </strong></a>
 </div>
 <p>
 </td>
@@ -67,7 +67,7 @@ E-mailleveringen kunnen worden aangemaakt:
 <img alt="Configureren" src="../assets/do-not-localize/email-config.jpg">
 </a>
 <div>
-<a href="email-settings.md"><strong>E-mailkanaal configureren</strong></a>
+<a href="email-settings.md"><strong> vorm e-mailkanaal </strong></a>
 </div>
 <p>
 </td>
@@ -78,16 +78,16 @@ E-mailleveringen kunnen worden aangemaakt:
 <a href="../content-management/generative-email.md">
 <img alt="AI-assistent" src="../assets/do-not-localize/email-generate.jpg">
 </a>
-<div><a href="../content-management/generative-email.md"><strong>AI-assistent voor het genereren van inhoud</strong>
+<div><a href="../content-management/generative-email.md"><strong> AI Medewerker voor de Generatie van de Inhoud </strong>
 </div>
 <p>
 </td>
 <td>
 <a href="../content-management/fragments.md">
-<img alt="Fragmenten van de inhoud" src="../assets/do-not-localize/patterns.jpg">
+<img alt="Inhoudsfragmenten" src="../assets/do-not-localize/patterns.jpg">
 </a>
 <div>
-<a href="../content-management/fragments.md"><strong>Fragmenten van e-mailinhoud gebruiken</strong></a>
+<a href="../content-management/fragments.md"><strong> fragmenten van de de e-mailinhoud van het Gebruik </strong></a>
 </div>
 <p></td>
 <td>
@@ -95,7 +95,7 @@ E-mailleveringen kunnen worden aangemaakt:
 <img alt="Uw inhoud personaliseren" src="../assets/do-not-localize/personalize.jpg">
 </a>
 <div>
-<a href="../personalization/personalize.md"><strong>Personaliseer de inhoud van uw e-mail</strong></a>
+<a href="../personalization/personalize.md"><strong> Personaliseer uw e-mailinhoud </strong></a>
 </div>
 <p>
 </td>
@@ -104,8 +104,17 @@ E-mailleveringen kunnen worden aangemaakt:
 <img alt="Combineer uw oplossingen" src="../assets/do-not-localize/colors.jpeg">
 </a>
 <div>
-<a href="../integrations/assets.md"><strong>Adobe-apps en -oplossingen combineren</strong></a>
+<a href="../integrations/assets.md"><strong> combineer Adobe apps en oplossingen </strong></a>
 </div>
 <p>
 </td>
 </tr></table>
+
+## Aanvullende bronnen
+
+* **[creeer een e-mail](create-email.md)** - leer hoe te om e-mailberichten in campagnes en reizen met geleidelijke instructies tot stand te brengen.
+* **[e-mailinhoud van het Ontwerp](get-started-email-design.md)** - ontdekt de verschillende manieren om uw e-mailinhoud, van kras te ontwerpen of malplaatjes te gebruiken.
+* **[E-mailconfiguratie](get-started-email-config.md)** - begrijp hoe te om e-mailmontages met inbegrip van e-mailoppervlakken, subdomeinen, en IP pools te vormen.
+* **[Verpersoonlijking E-mail en het stileren](get-started-email-style.md)** - Hoofd het stileren technieken met inbegrip van douane CSS, groepering, het opvullen, en donkere wijzessteun.
+* **[Spoor en controleer e-mails](message-tracking.md)** - Leer hoe te om bericht te volgen opent, klikt, en URL het volgen voor prestatiesanalyse beheert.
+* **[e-mailkanaalzelfstudies ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op e-maileigenschappen en beste praktijken.

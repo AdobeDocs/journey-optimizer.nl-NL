@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Besluiten maken en beheren
 description: Besluiten maken en beheren
 redpen-status: CREATED_||_2025-08-11_21-01-28
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: fc968e54-e35b-4def-b8ad-1a181c81c738
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%
 
 ---
-
 
 # Besluiten maken en beheren{#section-overview}
 
@@ -20,7 +20,7 @@ In Adobe Journey Optimizer kunt u door het maken en beheren van beslissingen de 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Besluiten maken in Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Leer hoe u beslissingen maakt, het bereik definieert, fallback-aanbiedingen inst
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Methoden voor selectie van aanbiedingen configureren
 
@@ -40,7 +40,7 @@ Onderzoek hoe te om rangschikkende methodes voor besluiten, met inbegrip van pri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Aanbiedingsbesluiten simuleren
 

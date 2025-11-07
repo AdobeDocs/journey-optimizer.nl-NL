@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Uw reizen beheren
 description: Uw reizen beheren
 redpen-status: CREATED_||_2025-08-11_20-08-03
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: 9f74019a-9a29-40f3-8f94-253814b984c0
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
 
 ---
-
 
 # Uw reizen beheren{#section-overview}
 
@@ -20,7 +20,7 @@ Het beheren van uw reizen in Adobe Journey Optimizer gaat er allemaal om u de mi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Bladeren en uw reizen filteren
 
@@ -30,7 +30,7 @@ Leer hoe u reizen effectief kunt navigeren, filteren en beheren, inclusief gegev
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Profielinvoer in reizen
 
@@ -40,7 +40,7 @@ Begrijp hoe de profielen reizen, met inbegrip van terugkeerregels voor unitaire 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Aanvullende id&#39;s gebruiken in reizen
 
@@ -50,7 +50,7 @@ Ontdek hoe u aanvullende id&#39;s kunt gebruiken voor een verbeterde personalisa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Tijdzonebeheer
 
@@ -60,7 +60,7 @@ Leer hoe u vaste en profielgedefinieerde tijdzones configureert voor een juiste 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Send-Time optimalisatie
 
@@ -70,7 +70,7 @@ Maximaliseer uw betrokkenheid bij e-mail- en pushberichten door optimale verzend
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Uw reis beëindigen
 

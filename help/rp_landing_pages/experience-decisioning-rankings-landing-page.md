@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Classificaties maken
 description: Classificaties maken
 redpen-status: CREATED_||_2025-08-11_20-56-11
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: 11edd7b2-0319-4576-9fef-042c239b25be
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
 
 ---
-
 
 # Classificaties maken{#section-overview}
 
@@ -20,7 +20,7 @@ In Adobe Journey Optimizer kunt u met behulp van waarderingen bepalen hoe items 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Willekeurige methoden maken en gebruiken
 
@@ -30,7 +30,7 @@ Leer hoe te om rangschikkende methodes, met inbegrip van formules en modellen va
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 De AIR Formula Builder gebruiken
 
@@ -40,7 +40,7 @@ Onderzoek hoe te om de AI formule bouwer te gebruiken om dynamische het rangschi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Inzicht in en implementatie van AI-modellen
 

@@ -56,7 +56,7 @@ ht-degree: 0%
 
 Deze instelling vereenvoudigt de snelle configuratie van marketingkanalen, waardoor alle essentiële bronnen gemakkelijk beschikbaar zijn in de Experience Platform-, Journey Optimizer- en Data Collection-apps. Hierdoor kan uw marketingteam snel beginnen met het maken van campagnes en reizen.
 
-1. Klik op de **[!UICONTROL Set up mobile and web channels]** -kaart op de Journey Optimizer-startpagina **[!UICONTROL Begin]** .
+1. Klik op de **[!UICONTROL Begin]** -kaart op de Journey Optimizer-startpagina **[!UICONTROL Set up mobile and web channels]** .
 
    ![](assets/guided-setup-config-1.png)
 
@@ -88,7 +88,7 @@ Deze instelling vereenvoudigt de snelle configuratie van marketingkanalen, waard
 
 Nadat u de configuratie hebt gemaakt, kunt u deze op elk gewenst moment eenvoudig opnieuw bekijken om extra kanalen toe te voegen of verdere aanpassingen aan te brengen die aan uw behoeften voldoen
 
-1. Klik op de **[!UICONTROL Set up mobile and web channels]** -kaart op de Journey Optimizer-startpagina **[!UICONTROL Begin]** .
+1. Klik op de **[!UICONTROL Begin]** -kaart op de Journey Optimizer-startpagina **[!UICONTROL Set up mobile and web channels]** .
 
    ![](assets/guided-setup-config-1.png)
 

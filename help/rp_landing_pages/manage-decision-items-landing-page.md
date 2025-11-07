@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Beslissingsitems beheren
 description: Beslissingsitems beheren
 redpen-status: CREATED_||_2025-08-11_20-55-07
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: b6490231-e2c8-40c0-9127-128bab76493f
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%
 
 ---
-
 
 # Beslissingsitems beheren{#section-overview}
 
@@ -20,7 +20,7 @@ Het beheren van beslissingsitems in Adobe Journey Optimizer gaat er allemaal om 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 De itemcatalogus configureren
 
@@ -30,7 +30,7 @@ Leer hoe u de itemcatalogus in de Adobe Journey Optimizer-functie voor besluitvo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Beslissingsitems maken en beheren
 
@@ -40,7 +40,7 @@ Ontdek hoe u beslissingsitems kunt maken, configureren en beheren, waaronder ken
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Itemverzamelingen beheren
 

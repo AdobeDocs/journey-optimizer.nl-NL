@@ -19,20 +19,20 @@ ht-degree: 48%
 
 Met de Throttling-API kunt u uw throttling-configuraties maken, configureren en controleren om het aantal gebeurtenissen dat per seconde wordt verzonden te beperken.
 
-Deze sectie bevat algemene informatie over het werken met de API. Een gedetailleerde API beschrijving is beschikbaar in [&#x200B; documentatie van Adobe Journey Optimizer APIs &#x200B;](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.
+Deze sectie bevat algemene informatie over het werken met de API. Een gedetailleerde API beschrijving is beschikbaar in [ documentatie van Adobe Journey Optimizer APIs ](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.
 
 ## Lees hier meer
 
 * **Één configuratie per organisatie:** slechts wordt één configuratie momenteel toegestaan per organisatie. Er moet een configuratie worden gedefinieerd in een productiesandbox (opgegeven via `x-sandbox-name` in de koppen).
 * **organisatie-vlakke toepassing:** de configuratie van A wordt toegepast op organisatieniveau.
 * **API grens behandeling:** wanneer de grens die in API wordt geplaatst wordt bereikt, worden de verdere gebeurtenissen een rij gevormd tot 6 uren. Deze waarde kan niet worden gewijzigd.
-* **`maxHttpConnections`parameter:** De `maxHttpConnections` parameter is een optionele parameter die beschikbaar is in de API voor uitsnijden, zodat u alleen het aantal verbindingen kunt beperken dat Journey Optimizer opent voor het externe systeem. [&#x200B; Leer hoe te met het Kappen API &#x200B;](../configuration/capping.md) te werken
+* **`maxHttpConnections`parameter:** De `maxHttpConnections` parameter is een optionele parameter die beschikbaar is in de API voor uitsnijden, zodat u alleen het aantal verbindingen kunt beperken dat Journey Optimizer opent voor het externe systeem. [ Leer hoe te met het Kappen API ](../configuration/capping.md) te werken
 
   Als u het aantal verbindingen wilt beperken maar die externe vraag ook wilt vertragen, kunt u twee configuraties, één throttling en één het in kaart brengen, op het zelfde eindpunt vormen. Beide configuraties kunnen voor één eindpunt coëxisteren. Als u &#39;maxHttpConnections&#39; wilt instellen voor een vertraagd eindpunt, gebruikt u de Throttling-API om de vertragingsdrempel en de Capping-API in te stellen om &#39;maxHttpConnections&#39; in te stellen. Wanneer u de API voor uitsnijden aanroept, kunt u de drempelwaarde voor uitlijnen instellen op iets hoger dan de drempelwaarde voor vertragen, zodat de uitlijningsregel in feite nooit wordt toegepast.
 
 ## Throttling API description &amp; Postman collection {#description}
 
-In de onderstaande tabel staan de beschikbare opdrachten voor de vertragings-API. De gedetailleerde informatie met inbegrip van verzoeksteekproeven, parameters, en antwoordformaten is beschikbaar in de [&#x200B; documentatie van Adobe Journey Optimizer APIs &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/journeys/).
+In de onderstaande tabel staan de beschikbare opdrachten voor de vertragings-API. De gedetailleerde informatie met inbegrip van verzoeksteekproeven, parameters, en antwoordformaten is beschikbaar in de [ documentatie van Adobe Journey Optimizer APIs ](https://developer.adobe.com/journey-optimizer-apis/references/journeys/).
 
 | Methode | Pad | Beschrijving |
 |---|---|---|
@@ -45,9 +45,9 @@ In de onderstaande tabel staan de beschikbare opdrachten voor de vertragings-API
 | [!DNL GET] | /throttlingConfigs/`{uid}` | Een beperkingsconfiguratie ophalen |
 | [!DNL DELETE] | /throttlingConfigs/`{uid}` | Een beperkingsconfiguratie verwijderen |
 
-Bovendien is een inzameling van Postman beschikbaar [&#x200B; hier &#x200B;](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json){target="_blank"} om u in uw het testen configuratie te helpen.
+Bovendien is een inzameling van Postman beschikbaar [ hier ](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json){target="_blank"} om u in uw het testen configuratie te helpen.
 
-Deze inzameling is opstelling geweest om de Variabele die inzameling van Postman te delen via **[de Integraties van de Console van Adobe I/O wordt geproduceerd &#x200B;](https://console.adobe.io/integrations) > probeert het uit > Download voor Postman**, die een dossier van het Milieu van Postman met de geselecteerde integratiewaarden produceert.
+Deze inzameling is opstelling geweest om de Variabele die inzameling van Postman te delen via **[de Integraties van de Console van Adobe I/O wordt geproduceerd ](https://console.adobe.io/integrations) > probeert het uit > Download voor Postman**, die een dossier van het Milieu van Postman met de geselecteerde integratiewaarden produceert.
 
 Eenmaal gedownload en geüpload naar Postman moet u drie variabelen toevoegen: `{JO_HOST}`,`{BASE_PATH}` en `{SANDBOX_NAME}`.
 
@@ -83,7 +83,7 @@ Voorbeeld:
 
 >[!IMPORTANT]
 >
->De configuratie zal slechts actief na het roepen van **&#x200B;**&#x200B;eindpunt opstellen.
+>De configuratie zal slechts actief na het roepen van **** eindpunt opstellen.
 
 ## Fouten
 
@@ -309,7 +309,7 @@ Bij het bijwerken van een geïmplementeerde configuratie wordt onmiddellijk reke
 
 Deze sectie bevat een overzicht van de belangrijkste gebruiksgevallen voor het beheer van configuraties met vertraagde installatie in [!DNL Journey Optimizer] en de bijbehorende API-opdrachten die nodig zijn om de gebruiksaanwijzing te implementeren.
 
-De details op elk API bevel zijn beschikbaar in de [&#x200B; API beschrijving &amp; inzameling van Postman &#x200B;](#description).
+De details op elk API bevel zijn beschikbaar in de [ API beschrijving &amp; inzameling van Postman ](#description).
 
 +++Het creëren en de plaatsing van een nieuwe throttling configuratie
 

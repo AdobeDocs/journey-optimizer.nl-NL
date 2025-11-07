@@ -23,7 +23,7 @@ ht-degree: 0%
 >title="Achtergrondinstellingen"
 >abstract="U kunt de achtergrondkleur of achtergrondafbeelding voor uw inhoud aanpassen. Achtergrondafbeelding wordt niet door alle e-mailclients ondersteund."
 
-Als het gaat om het instellen van achtergronden met de e-mail Designer, raadt Adobe het volgende aan:
+Adobe raadt het volgende aan als het gaat om het instellen van achtergronden voor de e-mailtoepassing Designer:
 
 1. Pas een achtergrondkleur toe op de tekst van uw e-mail, indien dat door uw ontwerp wordt vereist.
 1. Stel de achtergrondkleuren meestal in op kolomniveau.

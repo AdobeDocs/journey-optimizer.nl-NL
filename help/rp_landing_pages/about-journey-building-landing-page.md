@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Activiteiten
 description: Activiteiten
 redpen-status: CREATED_||_2025-08-11_20-09-57
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: 9342ef70-43a7-4763-9ae0-bb95b8b7f7f1
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 1%
 
 ---
-
 
 # Activiteiten{#section-overview}
 
@@ -20,7 +20,7 @@ De activiteiten in Adobe Journey Optimizer zijn de bouwstenen die uw klantenreiz
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Inleiding van de reisactiviteiten
 
@@ -30,7 +30,7 @@ Leer over gebeurtenis, orchestratie, en actieactiviteiten in Adobe Journey Optim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Algemene gebeurtenissen gebruiken
 
@@ -40,7 +40,7 @@ Ontdek hoe u algemene gebeurtenissen kunt gebruiken om ritten te activeren en ti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Reactiegebeurtenissen configureren
 
@@ -50,7 +50,7 @@ Onderzoek hoe te op het volgen gegevens zoals bericht te reageren klikt of opent
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Kwalificatiegebeurtenissen voor het publiek
 
@@ -60,7 +60,7 @@ Leer hoe u acties en voorwaarden activeert op basis van de status van publiekspa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 De Condition-activiteit gebruiken
 
@@ -70,7 +70,7 @@ Definieer meerdere paden in een rit op basis van criteria zoals tijd, gegevensbr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 Het vormen van de Activiteit van de Wacht
 

@@ -5,7 +5,7 @@ title: Aan de slag
 description: Aan de slag
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: f116775dfa5bb46857c5e9401a291b46105ebcca
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 2%
@@ -22,7 +22,7 @@ In deze sectie worden de kernmogelijkheden van het platform geïntroduceerd, van
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Belangrijkste mogelijkheden
 
@@ -32,7 +32,7 @@ Ontdek de basisfuncties van Adobe Journey Optimizer, gebruiksscenario&#39;s en a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Overzicht van architectuur
 
@@ -42,7 +42,7 @@ Begrijp hoe Adobe Journey Optimizer met Adobe Experience Platform integreert om 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Rollen en verantwoordelijkheden
 
@@ -52,7 +52,7 @@ Bekijk een overzicht van de rollen en workflows die nodig zijn om Adobe Journey 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Overzicht van gebruikersinterface
 
@@ -62,7 +62,7 @@ Navigeer de interface van Adobe Journey Optimizer en verken zijn eigenschappen, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Inhoud zoeken, filteren en ordenen
 
@@ -72,13 +72,13 @@ Gebruik functies voor zoeken, filteren en labelen om uw reizen, campagnes en and
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Afvoerkanalen en beperkingen
 
 Meer informatie over de beperkingen en aanbevolen procedures voor het effectief gebruiken van Adobe Journey Optimizer-functies.
 
-[Duiken in kernconcepten](../using/start/guardrails.md)
+[Hulplijnen en beperkingen controleren](../using/start/guardrails.md)
 :::
 
 ::::

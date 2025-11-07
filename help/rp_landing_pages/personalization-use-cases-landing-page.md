@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Personalization-gebruikskwesties
 description: Personalization-gebruikskwesties
 redpen-status: CREATED_||_2025-08-12_00-35-09
-source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
+exl-id: 1b351130-3caa-4389-9caf-1a56e263f085
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 1%
 
 ---
-
 
 # Personalization-gebruikskwesties{#section-overview}
 
@@ -20,7 +20,7 @@ Stel je voor dat je communicatie maakt die zo op maat van je publiek is gemaakt 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Zelfstudie voor Personalization-overzicht van status van bestelling
 
@@ -30,7 +30,7 @@ Leer hoe u persoonlijke pushmeldingen voor de status van uw bestelling maakt met
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Personalization-handleiding voor het afmelden van winkelen
 
@@ -40,7 +40,7 @@ Ontdek hoe u de e-mails over het verlaten van winkelwagentjes kunt aanpassen met
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Personalization-voorbeeld voor presentatie van gezondheidsplan
 

@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Lijst met hulpfuncties
 description: Lijst met hulpfuncties
 redpen-status: CREATED_||_2025-08-12_00-34-42
-source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
+exl-id: 39d68cae-8d6b-4e34-bcd9-75d9531bc6aa
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 0%
 
 ---
-
 
 # Lijst met hulpfuncties{#section-overview}
 
@@ -20,7 +20,7 @@ Helderfuncties in Adobe Journey Optimizer stellen u in staat om ervaringen nauwk
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met Helper-functies
 
@@ -30,7 +30,7 @@ Leer hoe u hulpfuncties kunt gebruiken voor gegevensmanipulatie en personalisati
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Samenvoegingsfunctiebibliotheek
 
@@ -40,7 +40,7 @@ Ontdek functies om meerdere waarden samen te vatten in één waarde voor persona
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Rekenkundige functiebibliotheek
 
@@ -50,7 +50,7 @@ Ontdek hoe rekenkundige functies berekeningen uitvoeren, zoals optellen, aftrekk
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referentie voor Array- en lijstfuncties
 
@@ -60,7 +60,7 @@ Leer arrays en lijsten te manipuleren met functies zoals tellen, ophalen van ver
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Bibliotheek met datum- en tijdfuncties
 
@@ -70,7 +70,7 @@ Gebruik datum- en tijdfuncties om datums voor aanpassingsworkflows te manipulere
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Booleaanse functie en vergelijkingsfunctie
 

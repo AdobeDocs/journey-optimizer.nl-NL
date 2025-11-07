@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Inhoudskaarten
 description: Inhoudskaarten
 redpen-status: CREATED_||_2025-08-11_20-43-30
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+exl-id: 4916bc53-a6d7-4d11-9a7f-3acf920c7a93
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
 
 ---
-
 
 # Inhoudskaarten{#section-overview}
 
@@ -23,7 +23,7 @@ Met deze functie kunnen marketers relevante, rijke media-inhoud presenteren aan 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Kanaal voor inhoudskaarten configureren
 
@@ -33,7 +33,7 @@ Stel het Content Cards-kanaal in en integreer het voor web-, mobiele en kiosk-pl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Inhoudskaarten maken en configureren
 
@@ -43,7 +43,7 @@ Stapsgewijze zelfstudie voor het maken, aanpassen en implementeren van inhoudska
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Ontwerpinhoudskaarten
 

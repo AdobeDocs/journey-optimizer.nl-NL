@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: 64f6bd0e-f910-469b-b089-570668d4c4f2
-source-git-commit: c24dc217567cc65f8ce0dc79d648f016cd8ad740
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 0%
+source-wordcount: '152'
+ht-degree: 1%
 
 ---
 
@@ -46,3 +46,9 @@ Met deze functie kunnen marketers relevante, rijke media-inhoud presenteren aan 
 <p>
 </td>
 </tr></table>
+
+## Aanvullende bronnen
+
+* **[kaarten van de Inhoud in het landen van pagina&#39;s](content-card-lp.md)** - ontdek hoe te om inhoudskaarten in het landen van pagina&#39;s voor verbeterde overeenkomst uit te voeren.
+* **[kaart die van de Inhoud](content-card-report.md)** rapporteert - de prestaties van de inhoudskaart van het spoor en van de analyse met gedetailleerde metriek en inzichten.
+* **[de kaartleerprogramma&#39;s van de Inhoud ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op de eigenschappen van de inhoudskaart en beste praktijken.

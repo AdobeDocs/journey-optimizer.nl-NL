@@ -35,11 +35,11 @@ Het **leverbaarheidstarief** is het aantal berichten die de inboxes van ontvange
 
 Om de leverbaarheid van uw [!DNL Journey Optimizer] -ervaringen te optimaliseren, raden we u aan de best practices in deze sectie te gebruiken. De problemen van de levering zijn over het algemeen verbonden met bescherming tegen spam die door de dienstverleners van Internet (ISPs) en de beheerders van de postserver wordt uitgevoerd.
 
-Voor een diepere duik op wat de leverbaarheid is en meer op zeer belangrijke leveringsvoorwaarden, concepten, en benaderingen te leren, verwijs naar de [&#x200B; Gids van de Beste praktijken van de Levering van Adobe &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl){target="_blank"}.
+Voor een diepere duik op wat de leverbaarheid is en meer op zeer belangrijke leveringsvoorwaarden, concepten, en benaderingen te leren, verwijs naar de [ Gids van de Beste praktijken van de Levering van Adobe ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl){target="_blank"}.
 
 ## Het klachtenpercentage verlagen {#reduce-complaint-rate}
 
-ISPs heeft gewoonlijk een duidelijk middel om een ontvangen bericht als spam te melden. Hierdoor kunnen onbetrouwbare bronnen worden geïdentificeerd. Door opting-out verzoeken snel na te leven en daarom te tonen dat u een betrouwbare afzender bent, kunt u klachtentarieven verminderen. [&#x200B; leer meer over opt-out beheer &#x200B;](../privacy/opt-out.md#opt-out-management)
+ISPs heeft gewoonlijk een duidelijk middel om een ontvangen bericht als spam te melden. Hierdoor kunnen onbetrouwbare bronnen worden geïdentificeerd. Door opting-out verzoeken snel na te leven en daarom te tonen dat u een betrouwbare afzender bent, kunt u klachtentarieven verminderen. [ leer meer over opt-out beheer ](../privacy/opt-out.md#opt-out-management)
 
 Als algemene regel geldt dat u ontvangers die zich willen afmelden, niet in de weg wilt staan door van hen te verlangen dat ze bijvoorbeeld velden invullen zoals hun e-mailadres of naam. De landingspagina voor abonnementen mag slechts één validatieknop hebben.
 
@@ -62,7 +62,7 @@ Met de campagne- en reisrapporten kunt u controleren hoe uw leveringen presteren
 * Het aantal berichten dat met succes wordt uitgevoerd, verzonden en geleverd.
 * Het aantal berichten dat is geopend en het aantal berichten/verbindingen dat is geklikt.
 
-Leer meer over [&#x200B; levend rapport &#x200B;](../reports/live-report.md) en [&#x200B; al tijdrapport &#x200B;](../reports/report-gs-cja.md)
+Leer meer over [ levend rapport ](../reports/live-report.md) en [ al tijdrapport ](../reports/report-gs-cja.md)
 
 ## Berichtinhoud aanpassen {#adapt-message-content}
 
@@ -102,11 +102,11 @@ De op domein-gebaseerde Authentificatie van het Bericht, het Melden, en de Confo
 >id="ajo_surface_dynamic_subdomain_list"
 >title="Sommige subdomeinen zijn mogelijk niet beschikbaar"
 >abstract="Bepaalde subdomeinen zijn momenteel niet beschikbaar voor selectie vanwege de registratie van de feedbacklus die in behandeling is. Dit proces kan tot 10 werkdagen duren. Na voltooiing kunt u kiezen uit alle beschikbare subdomeinen."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Aan de slag met subdomeindelegatie"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Aan de slag met subdomeindelegatie"
 
 Een terugkoppel lijn (FBL) is de dienst die door sommige ISPs wordt aangeboden die de e-mailafzender toestaat om automatisch op de hoogte te worden gebracht wanneer de gebruiker die een e-mail ontvangt verkiest om het als spam (ook als &quot;klacht&quot;wordt bekend) te merken.
 
-Nadat een eindgebruiker een klacht produceert die terug naar Adobe door ISP wordt verzonden, wordt het e-mailadres automatisch toegevoegd aan de [&#x200B; suppressielijst &#x200B;](../reports/suppression-list.md) en uitgesloten van toekomstige leveringen. Het verzenden van e-mails naar gebruikers die deze als spam hebben gemarkeerd, heeft een negatieve invloed op de reputatie van de afzender en kan problemen met de leverbaarheid veroorzaken. [&#x200B; Leer meer over spamklachten &#x200B;](../reports/suppression-list.md#spam-complaints)
+Nadat een eindgebruiker een klacht produceert die terug naar Adobe door ISP wordt verzonden, wordt het e-mailadres automatisch toegevoegd aan de [ suppressielijst ](../reports/suppression-list.md) en uitgesloten van toekomstige leveringen. Het verzenden van e-mails naar gebruikers die deze als spam hebben gemarkeerd, heeft een negatieve invloed op de reputatie van de afzender en kan problemen met de leverbaarheid veroorzaken. [ Leer meer over spamklachten ](../reports/suppression-list.md#spam-complaints)
 
 >[!IMPORTANT]
 >

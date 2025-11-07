@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: E-mailadressen controleren
 description: E-mailadressen controleren
 redpen-status: CREATED_||_2025-08-11_21-08-58
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: cbc8b2af-9df7-4523-88eb-fe73f74f2b01
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
 
 ---
-
 
 # E-mailadressen controleren{#section-overview}
 
@@ -20,7 +20,7 @@ Het beheren van de gezondheid van uw e-mailcampagnes begint met het controleren 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 De lijst Onderdrukking beheren
 
@@ -30,7 +30,7 @@ Leer hoe u e-mailleverbaarheid kunt beheren door suppressielijsten te beheren, w
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Lijsten voor opnieuw proberen en onderdrukken beheren
 
@@ -40,7 +40,7 @@ Begrijp en vorm opnieuw uitzettingsmechanismen voor zachte stuitfouten om e-mail
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 De Lijst van gewenste personen configureren
 

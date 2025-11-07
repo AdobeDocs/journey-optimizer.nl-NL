@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Reisrapporten
 description: Reisrapporten
 redpen-status: CREATED_||_2025-08-11_20-51-07
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: 1feffdeb-2bdc-4197-8c04-e4ae48879401
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
 
 ---
-
 
 # Reisrapporten{#section-overview}
 
@@ -20,7 +20,7 @@ Reisrapporten in Adobe Journey Optimizer bieden krachtige tools om te analyseren
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Reisrapporten analyseren
 
@@ -30,7 +30,7 @@ Ontdek hoe u de reisprestaties kunt analyseren en optimaliseren met meetgegevens
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Reisrapporten op basis van code
 
@@ -40,7 +40,7 @@ Begrijp en analyseer metriek voor betrokkenheid in code-gebaseerde ervaringen bi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Betrokkenheid voor inhoudskaart
 
@@ -50,7 +50,7 @@ Leer hoe u de betrokkenheid van gebruikers met inhoudskaarten meet en evalueert 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Metrische gegevens voor directe e-mail
 
@@ -60,7 +60,7 @@ De belangrijkste metriek voor direct-mailcampagnes analyseren en interpreteren, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/envelope-open.svg)
 
 E-mailreisrapportage
 
@@ -70,7 +70,7 @@ Verbeter inzicht in e-mailprestaties, betrokkenheid, en leveringsmetriek voor uw
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 In-app Messaging-inzichten
 

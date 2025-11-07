@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Inhoud maken
 description: Inhoud maken
 redpen-status: CREATED_||_2025-08-11_20-31-35
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: fe9456c9-50ae-442d-80d3-81b708d3494b
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
 
 ---
-
 
 # Inhoud maken{#section-overview}
 
@@ -20,7 +20,7 @@ Het maken van inhoud in Adobe Journey Optimizer gaat allemaal over flexibiliteit
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 E-mailinhoud ontwerpen vanuit werkruimte
 
@@ -30,7 +30,7 @@ Leer hoe u e-mailinhoud maakt en aanpast met de e-mailkoppelingen van Adobe Jour
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Bestaande e-mailinhoud importeren
 
@@ -40,7 +40,7 @@ Importeer HTML-inhoud naar Adobe Journey Optimizer, pas ontwerpelementen aan en 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Uw eigen e-mailinhoud coderen
 
@@ -50,7 +50,7 @@ Codeer uw e-mailinhoud handmatig met onbewerkte HTML in de modus &#39;Uw eigen c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Werken met e-mailsjablonen
 
@@ -60,7 +60,7 @@ Bespaar tijd door voorbeeld- of aangepaste e-mailsjablonen te gebruiken om uw on
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gebruik e-mailthema&#39;s
 

@@ -6,9 +6,9 @@ description: Leer hoe te om met  [!DNL Adobe Journey Optimizer]  rapporten toega
 role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
-source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -17,17 +17,17 @@ ht-degree: 0%
 
 Adobe Journey Optimizer biedt u aansprekende inzichten door zijn robuuste rapporteringsmogelijkheden. Er zijn rapporten beschikbaar voor campagnes, reizen, landingspagina&#39;s, abonnementlijsten en meer. De beschikbare rapporten worden hieronder vermeld.
 
-Bovendien om de leverbaarheid van uw [!DNL Journey Optimizer] ervaringen te optimaliseren, adviseren wij gebruikend de beste praktijken die [&#x200B; in deze sectie &#x200B;](deliverability.md) worden vermeld.
+Bovendien om de leverbaarheid van uw [!DNL Journey Optimizer] ervaringen te optimaliseren, adviseren wij gebruikend de beste praktijken die [ in deze sectie ](deliverability.md) worden vermeld.
 
 
 ## Typen rapporten {#reporting-types}
 
-* **Laatste 24-uren levende rapporten** - gebruik **[!UICONTROL Live report]** om in real time het effect en de prestaties van uw reizen en uw berichten in een ingebouwd dashboard te meten en te visualiseren. Gegevens zijn beschikbaar in de **[!UICONTROL Live report]** zodra uw levering is verzonden of uw reis wordt uitgevoerd via het tabblad **[!UICONTROL Last 24hrs]** . Leer meer over levende rapporten [&#x200B; in deze sectie &#x200B;](live-report.md).
+* **Laatste 24-uren levende rapporten** - gebruik **[!UICONTROL Live report]** om in real time het effect en de prestaties van uw reizen en uw berichten in een ingebouwd dashboard te meten en te visualiseren. Gegevens zijn beschikbaar in de **[!UICONTROL Live report]** zodra uw levering is verzonden of uw reis wordt uitgevoerd via het tabblad **[!UICONTROL Last 24hrs]** . Leer meer over levende rapporten [ in deze sectie ](live-report.md).
 
   ![](assets/report_journey.png)
 
 
-* **All-time rapporten met Customer Journey Analytics** - Journey Optimizer die is volledig geïntegreerd met de mogelijkheden van Customer Journey Analytics, die rapportering over beide platforms standaardiseren en gegevensconsistentie en betrouwbaarheid verbeteren. Deze naadloze integratie tussen Journey Optimizer en Customer Journey Analytics zorgt voor een duidelijker beeld van de prestatiesmetriek, waardoor gebruikers beter geïnformeerde beslissingen kunnen nemen. Leer meer over de rapporten van de tijd [&#x200B; in deze sectie &#x200B;](report-gs-cja.md).
+* **All-time rapporten met Customer Journey Analytics** - Journey Optimizer die is volledig geïntegreerd met de mogelijkheden van Customer Journey Analytics, die rapportering over beide platforms standaardiseren en gegevensconsistentie en betrouwbaarheid verbeteren. Deze naadloze integratie tussen Journey Optimizer en Customer Journey Analytics zorgt voor een duidelijker beeld van de prestatiesmetriek, waardoor gebruikers beter geïnformeerde beslissingen kunnen nemen. Leer meer over de rapporten van de tijd [ in deze sectie ](report-gs-cja.md).
 
   ![](assets/gs-cja-report-1.png)
 
@@ -140,6 +140,8 @@ Leer hoe u het All-Time Report in Adobe Journey Optimizer effectief kunt gebruik
 
 +++Zie video
 
->[!VIDEO](https://video.tv.adobe.com/v/3428917?captions=dut&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
+
+Onderzoek meer videoleerprogramma&#39;s bij het melden en de analyses in [ het Melden leerprogramma&#39;s ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}

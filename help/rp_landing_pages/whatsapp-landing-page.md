@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: WhatsApp
 description: WhatsApp
 redpen-status: CREATED_||_2025-08-11_20-44-12
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: 43d23d66-7c15-42e2-94ff-3dc80927d07a
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
 
 ---
-
 
 # WhatsApp{#section-overview}
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer stelt u in staat om verbinding te maken met uw publiek o
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met WhatsApp-berichten
 
@@ -30,7 +30,7 @@ Leer hoe u WhatsApp met Adobe Journey Optimizer kunt integreren, inclusief voorw
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Het WhatsApp-kanaal configureren
 
@@ -40,7 +40,7 @@ Stapsgewijze instructies voor het instellen van WhatsApp API-referenties, webhak
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 WhatsApp-berichten maken
 
@@ -50,7 +50,7 @@ Leer om gepersonaliseerde WhatsApp- berichten, met inbegrip van malplaatjes, ges
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/check-circle.svg)
 
 WhatsApp-berichten voorvertonen, valideren en verzenden
 

@@ -22,20 +22,20 @@ Als u de lijst met inhoudssjablonen wilt openen, selecteert u **[!UICONTROL Cont
 
 ![](assets/content-template-list.png)
 
-Alle sjablonen die in de huidige sandbox zijn gemaakt (dus van een rit of een campagne met de optie **[!UICONTROL Save as template]** of vanuit het menu **[!UICONTROL Content Templates]** ), worden weergegeven. [&#x200B; Leer hoe te om malplaatjes &#x200B;](#create-content-templates) tot stand te brengen
+Alle sjablonen die in de huidige sandbox zijn gemaakt (dus van een rit of een campagne met de optie **[!UICONTROL Save as template]** of vanuit het menu **[!UICONTROL Content Templates]** ), worden weergegeven. [ Leer hoe te om malplaatjes ](#create-content-templates) tot stand te brengen
 
 In het linkerdeelvenster kunt u inhoudssjablonen indelen in mappen. Standaard worden alle sjablonen weergegeven. Wanneer u een map selecteert, worden alleen de sjablonen en mappen weergegeven die in de geselecteerde map staan. [Meer informatie](#folders)
 
 ![](assets/content-template-list-folders.png)
 
-Als u een specifiek item wilt zoeken, typt u een naam in het zoekveld. Wanneer de a [&#x200B; omslag &#x200B;](#folders) wordt geselecteerd, is het onderzoek op alle inhoudsmalplaatjes of omslagen in het eerste niveau van hiërarchie van die omslag <!--(not nested items)--> van toepassing.
+Als u een specifiek item wilt zoeken, typt u een naam in het zoekveld. Wanneer de a [ omslag ](#folders) wordt geselecteerd, is het onderzoek op alle inhoudsmalplaatjes of omslagen in het eerste niveau van hiërarchie van die omslag <!--(not nested items)--> van toepassing.
 
 U kunt inhoudssjablonen sorteren op:
 
 * Type
 * Kanaal
 * Aanmaakdatum of wijzigingsdatum
-* De markeringen - [&#x200B; leren meer over markeringen &#x200B;](../start/search-filter-categorize.md#tags)
+* De markeringen - [ leren meer over markeringen ](../start/search-filter-categorize.md#tags)
 
 U kunt er ook voor kiezen alleen de items weer te geven die door u zijn gemaakt of gewijzigd.
 
@@ -75,7 +75,7 @@ Om uw inhoudsmalplaatjes gemakkelijk te navigeren, gebruik omslagen om hen effec
 
    ![](assets/content-template-folder-moved.png)
 
-1. Navigeer naar de map die u net hebt gemaakt. Elk nieuw inhoudsmalplaatje u [&#x200B; creeert &#x200B;](create-content-templates.md) van hier wordt bewaard in de huidige omslag.
+1. Navigeer naar de map die u net hebt gemaakt. Elk nieuw inhoudsmalplaatje u [ creeert ](create-content-templates.md) van hier wordt bewaard in de huidige omslag.
 
    ![](assets/content-template-folder-create.png)
 
@@ -93,7 +93,7 @@ Om uw inhoudsmalplaatjes gemakkelijk te navigeren, gebruik omslagen om hen effec
 >
 >Wanneer een sjabloon wordt bewerkt of verwijderd, hebben campagnes of reizen met inbegrip van inhoud die met deze sjabloon is gemaakt, geen invloed op deze sjabloon.
 
-## [!BADGE &#x200B; Beperkte malplaatjes van de Vertoning van de Beschikbaarheid &#x200B;]{type=Informative} als duimnagels {#template-thumbnails}
+## [!BADGE  Beperkte malplaatjes van de Vertoning van de Beschikbaarheid ]{type=Informative} als duimnagels {#template-thumbnails}
 
 Selecteer de modus **[!UICONTROL Grid view]** om elke sjabloon als een miniatuur weer te geven.
 
@@ -113,5 +113,5 @@ Wanneer u inhoud bijwerkt, wacht u een paar seconden totdat de wijzigingen in de
 
 Met Journey Optimizer kunt u een inhoudssjabloon van de ene naar de andere sandbox kopiëren. U kunt bijvoorbeeld een sjabloon van de zandbakomgeving van het werkgebied kopiëren naar de productiefasen.
 
-Het exemplaarproces wordt uitgevoerd via de uitvoer en de invoer van het a **pakket** tussen de bron en doelzandbakken. De gedetailleerde informatie over hoe te om voorwerpen uit te voeren en hen in een doelzandbak in deze sectie in te voeren is beschikbaar: [&#x200B; de voorwerpen van het Exemplaar aan een andere zandbak &#x200B;](../configuration/copy-objects-to-sandbox.md)
+Het exemplaarproces wordt uitgevoerd via de uitvoer en de invoer van het a **pakket** tussen de bron en doelzandbakken. De gedetailleerde informatie over hoe te om voorwerpen uit te voeren en hen in een doelzandbak in deze sectie in te voeren is beschikbaar: [ de voorwerpen van het Exemplaar aan een andere zandbak ](../configuration/copy-objects-to-sandbox.md)
 

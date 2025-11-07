@@ -101,7 +101,7 @@ De functie `head` wordt gebruikt om het eerste item in een array of lijst te ret
 
 **Voorbeeld**
 
-De volgende bewerking retourneert de eerste van de bovenste vijf bestellingen met de hoogste prijs. Meer informatie over de `topN` functie kan in [&#x200B; eerst `n` in serie &#x200B;](#first-n) sectie worden gevonden.
+De volgende bewerking retourneert de eerste van de bovenste vijf bestellingen met de hoogste prijs. Meer informatie over de `topN` functie kan in [ eerst `n` in serie ](#first-n) sectie worden gevonden.
 
 ```sql
 {%= head(topN(orders,price, 5)) %}

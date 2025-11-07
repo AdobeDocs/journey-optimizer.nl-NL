@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Inhoud voorvertonen en testen
 description: Inhoud voorvertonen en testen
 redpen-status: CREATED_||_2025-08-11_20-30-05
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 0%
 
 ---
-
 
 # Inhoud voorvertonen en testen{#section-overview}
 
@@ -20,7 +20,7 @@ Door inhoud te bekijken en te testen in Adobe Journey Optimizer, weet u zeker da
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Uw inhoud voorvertonen en testen in Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Leer hoe u testprofielen en voorbeeldinvoergegevens gebruikt om inhoud voor te v
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Testprofielen selecteren in Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Ontdek hoe u testprofielen kunt selecteren en beheren om op maat gesneden inhoud
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Inhoud voorvertonen met testprofielen
 
@@ -50,7 +50,7 @@ Stapsgewijze handleiding voor het voorvertonen van gepersonaliseerde inhoud met 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Proefdrukken verzenden met testprofielgegevens
 
@@ -60,7 +60,7 @@ Test en valideer uw e-mailberichten door proefdrukken te verzenden met behulp va
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/eye.svg)
 
 E-mailrendering testen met Litmus in Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Integreer Litmus voor een voorvertoning van de e-mailrendering voor populaire e-
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Inhoudsvariaties simuleren en testen in Adobe Journey Optimizer
 

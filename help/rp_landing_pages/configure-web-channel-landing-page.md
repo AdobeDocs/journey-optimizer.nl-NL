@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Webkanaal configureren
 description: Webkanaal configureren
 redpen-status: CREATED_||_2025-08-11_20-39-49
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: 07c6d86f-7077-4ba1-8da4-fc6752a4484d
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
 
 ---
-
 
 # Webkanaal configureren{#section-overview}
 
@@ -20,7 +20,7 @@ Door het webkanaal in Adobe Journey Optimizer te configureren, kunt u persoonlij
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Webkanaalvereisten
 
@@ -30,7 +30,7 @@ Leer over de eerste vereisten nodig om de mogelijkheden van het Webkanaal te vor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Websubdomeinen configureren
 
@@ -40,7 +40,7 @@ Stapsgewijze instructies voor het instellen, beheren en ontkoppelen van websubdo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Een webkanaal maken en configureren
 

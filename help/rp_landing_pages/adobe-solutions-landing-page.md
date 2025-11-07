@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Verzenden met Adobe-oplossingen
 description: Verzenden met Adobe-oplossingen
 redpen-status: CREATED_||_2025-08-11_21-17-09
-source-git-commit: e8b71a7efe1ca05a33bc6f33253900a58fa6665c
+exl-id: a8d34150-32f1-4c58-8728-ba73b7e90ec4
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%
 
 ---
-
 
 # Verzenden met Adobe-oplossingen{#section-overview}
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer kan berichten door andere oplossingen-zulke van Adobe oo
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer integreren met Adobe Campaign Standard
 
@@ -30,7 +30,7 @@ Leer hoe u Adobe Journey Optimizer kunt integreren met Adobe Campaign Standard o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer integreren met Adobe Campaign v7/v8
 
@@ -40,7 +40,7 @@ Ontdek hoe u Adobe Journey Optimizer kunt verbinden met Adobe Campaign v7/v8 voo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer integreren met Marketo Engage
 

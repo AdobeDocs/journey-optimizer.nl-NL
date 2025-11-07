@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
 exl-id: 6dda5687-3742-4e88-be7c-c4969b183161
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 31fcdf7e0cb63df24b01be13b2a4a8822768e1b7
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
@@ -23,19 +23,19 @@ Gebruik het tabblad **[!UICONTROL Audience]** om het publiek van de campagne te 
 
 ## De doelgroep selecteren
 
-**voor de Marketing API teweeggebrachte campagnes**, klik de **[!UICONTROL Select audience]** knoop om de lijst van beschikbare publiek van Adobe Experience Platform te tonen. [&#x200B; leer meer over publiek &#x200B;](../audience/about-audiences.md).
+**voor de Marketing API teweeggebrachte campagnes**, klik de **[!UICONTROL Select audience]** knoop om de lijst van beschikbare publiek van Adobe Experience Platform te tonen. [ leer meer over publiek ](../audience/about-audiences.md).
 
 >[!IMPORTANT]
 >
->Het gebruik van publiek en attributen van [&#x200B; publiekssamenstelling &#x200B;](../audience/get-started-audience-orchestration.md) is momenteel niet beschikbaar voor gebruik met het Schild van de Gezondheidszorg of Privacy en het Schild van de Veiligheid.
+>Het gebruik van publiek en attributen van [ publiekssamenstelling ](../audience/get-started-audience-orchestration.md) is momenteel niet beschikbaar voor gebruik met het Schild van de Gezondheidszorg of Privacy en het Schild van de Veiligheid.
 
-**voor Transactionele API teweeggebrachte campagnes**, moeten de gerichte profielen in de API vraag worden bepaald. Eén API-aanroep ondersteunt maximaal 20 unieke ontvangers. Elke ontvanger moet een unieke gebruikersnaam hebben. Dubbele gebruikers-id&#39;s zijn niet toegestaan. Leer meer in de [&#x200B; Interactieve documentatie van API van de Uitvoering van het Bericht &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution/operation/postIMUnitaryMessageExecution){target="_blank"}
+**voor Transactionele API teweeggebrachte campagnes**, moeten de gerichte profielen in de API vraag worden bepaald. Eén API-aanroep ondersteunt maximaal 20 unieke ontvangers. Elke ontvanger moet een unieke gebruikersnaam hebben. Dubbele gebruikers-id&#39;s zijn niet toegestaan. Leer meer in de [ Interactieve documentatie van API van de Uitvoering van het Bericht ](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution/operation/postIMUnitaryMessageExecution){target="_blank"}
 
 ## Selecteer het identiteitstype
 
-Kies in het veld **[!UICONTROL Identity type]** het type sleutel dat u wilt gebruiken om de personen van het geselecteerde publiek te identificeren. U kunt een bestaand identiteitstype gebruiken of een nieuw type maken met de Adobe Experience Platform Identity Service. De standaard naamruimten van de Identiteit zijn vermeld op [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
+Kies in het veld **[!UICONTROL Identity type]** het type sleutel dat u wilt gebruiken om de personen van het geselecteerde publiek te identificeren. U kunt een bestaand identiteitstype gebruiken of een nieuw type maken met de Adobe Experience Platform Identity Service. De standaard naamruimten van de Identiteit zijn vermeld op [ deze pagina ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
 
-Per campagne is slechts één identiteitstype toegestaan. Individuen die tot een segment behoren dat niet het geselecteerde identiteitstype onder hun verschillende identiteiten heeft kunnen niet door de campagne worden gericht. Leer meer over identiteitstypes en namespaces in de [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl){target="_blank"}.
+Per campagne is slechts één identiteitstype toegestaan. Individuen die tot een segment behoren dat niet het geselecteerde identiteitstype onder hun verschillende identiteiten heeft kunnen niet door de campagne worden gericht. Leer meer over identiteitstypes en namespaces in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl){target="_blank"}.
 
 ## Het maken van profielen activeren tijdens de uitvoering van de campagne
 
@@ -51,7 +51,7 @@ Schakel de optie **[!UICONTROL Create new profiles]** in als u het maken van pro
 >
 >De onbekende profielen worden gecreeerd in de **Dataset van het Profiel van het Overseinen van AJO Interactive** dataset, in drie standaard namespace (e-mail, telefoon en ECID) respectievelijk voor elke uitgaande kanalen (E-mail, SMS en Duw). Als u echter een aangepaste naamruimte gebruikt, wordt de identiteit gemaakt met dezelfde aangepaste naamruimte.
 >
->De verwezenlijking van het profiel bij uitvoering is niet beschikbaar voor [&#x200B; Hoge campagnes van de Output &#x200B;](../campaigns/api-triggered-high-throughput.md), aangezien deze wijze zich niet op de profielen van Adobe baseert: Het systeem zal niet controleren of de profielen bestaan of niet.
+>De verwezenlijking van het profiel bij uitvoering is niet beschikbaar voor [ Hoge campagnes van de Output ](../campaigns/api-triggered-high-throughput.md), aangezien deze wijze niet op de profielen van Adobe baseert. Het systeem controleert niet of de profielen bestaan.
 
 ## Webhaken inschakelen {#webhook}
 
@@ -59,7 +59,7 @@ Voor Transactionele API getriggerde campagnes kunt u webhooks in staat stellen r
 
 ![](assets/api-triggered-webhook.png)
 
-Webhaakconfiguraties worden centraal beheerd in het menu **[!UICONTROL Administration]** / **[!UICONTROL Channels]** / **[!UICONTROL Feedback Webhook]** . Vanaf dat punt kunnen beheerders webhaakeindpunten maken en bewerken. [&#x200B; Leer hoe te om Terugkoppeling Webhooks &#x200B;](../configuration/feedback-webhooks.md) tot stand te brengen
+Webhaakconfiguraties worden centraal beheerd in het menu **[!UICONTROL Administration]** / **[!UICONTROL Channels]** / **[!UICONTROL Feedback Webhook]** . Vanaf dat punt kunnen beheerders webhaakeindpunten maken en bewerken. [ Leer hoe te om Terugkoppeling Webhooks ](../configuration/feedback-webhooks.md) tot stand te brengen
 
 ## Volgende stappen {#next}
 

@@ -11,7 +11,7 @@ keywords: IP, leverbaarheid
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
 source-git-commit: 5e0d683bf52df4992773c6147b9e418241777e5d
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '244'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Met [!DNL Journey Optimizer] kunt u gemakkelijk IP warmteopwerkschema&#39;s dire
 
 Als u wilt voorkomen dat spam wordt gemarkeerd, kunt u het verzonden volume progressief verhogen met de functie voor het IP-opwarmingsplan. Met deze nieuwe optie in het menu **[!UICONTROL Administration]** kunt u het eenvoudiger op geconsolideerde wijze doen in plaats van complexe dagelijkse reizen te maken.
 
-➡️ [&#x200B; leren om een IP warmup plan in deze video tot stand te brengen en uit te voeren &#x200B;](#video)
+➡️ [ Leer om een IP warmup plan in deze video tot stand te brengen en uit te voeren ](#video)
 
 >[!AVAILABILITY]
 >
@@ -52,8 +52,8 @@ De belangrijkste stappen om een IP opwarmingsplan uit te voeren zijn als volgt:
 
 Leer hoe te om een IP warmlopingsplan tot stand te brengen en uit te voeren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453846/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
 
 >[!NOTE]
 >
->Leer meer over het verhogen van uw e-mailreputatie met IP opwarmen in de [&#x200B; Gids van de Beste praktijken van de Levering &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=nl-NL).
+>Leer meer over het verhogen van uw e-mailreputatie met IP opwarmen in de [ Gids van de Beste praktijken van de Levering ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html).

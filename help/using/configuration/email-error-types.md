@@ -10,19 +10,19 @@ level: Experienced
 keywords: opnieuw proberen, stuiteren, zacht, genegeerd, hard, optimaliseren, fout
 hide: true
 hidefromtoc: true
-source-git-commit: 817f7c88bfc2b40a7ce39575b4ad02fb372d429d
+exl-id: a8908b11-2288-4d53-897c-3f99cb5ceab4
+source-git-commit: 0cb73489981659c3f231b9def40e0e483ed3aef8
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 4%
 
 ---
 
-
 # Typen e-mailfouten {#email-error-types}
 
 Mogelijke oorzaken voor een leveringsmislukking zijn veelvoudige. In de onderstaande tabel staan alle fouten die kunnen optreden bij het verzenden van e-mailleveringen met [!DNL Journey Optimizer] , alsmede de beschrijving en het type fout.
 
-Deze fouten kunnen in de [&#x200B; Dataset van de Gebeurtenis van de Terugkoppeling van het Bericht van AJO &#x200B;](../data/datasets-query-examples.md#message-feedback-event-dataset) worden gevonden die de logboeken van de berichtlevering, met inbegrip van informatie over alle berichtlevering van [!DNL Journey Optimizer] bevat, en terugkoppelt verslagen van e-mail ISPs op grenzen.
+Deze fouten kunnen in de [ Dataset van de Gebeurtenis van de Terugkoppeling van het Bericht van AJO ](../data/datasets-query-examples.md#message-feedback-event-dataset) worden gevonden die de logboeken van de berichtlevering, met inbegrip van informatie over alle berichtlevering van [!DNL Journey Optimizer] bevat, en terugkoppelt verslagen van e-mail ISPs op grenzen.
 
 | Foutlabel | Fouttype | Technische waarde | Beschrijving |
 | --- | --- | --- | --- |

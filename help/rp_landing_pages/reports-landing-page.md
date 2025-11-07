@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Aangepaste reisrapporten
 description: Aangepaste reisrapporten
 redpen-status: CREATED_||_2025-08-11_20-54-10
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: 1e685fcd-5bb1-4792-b851-e76b7273ddc7
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
 
 ---
-
 
 # Aangepaste reisrapporten{#section-overview}
 
@@ -20,7 +20,7 @@ Met de aangepaste reisrapporten in Adobe Journey Optimizer kunt u de prestaties 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Reisrapporten maken en analyseren
 
@@ -30,7 +30,7 @@ Leer hoe u reisrapporten kunt maken, schema&#39;s en datasets kunt begrijpen en 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Lijst van gebeurtenisvelden stapsgewijze
 
@@ -40,7 +40,7 @@ Ontdek de uitgebreide lijst met stapgebeurtenisvelden, gecategoriseerd en beschr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Oudere stapgebeurtenisvelden
 
@@ -50,7 +50,7 @@ Begrijp de de gebeurtenisgebieden van de erfenisstap die in Adobe Journey Optimi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Voorbeeld van SQL-query&#39;s voor gegevensanalyse
 

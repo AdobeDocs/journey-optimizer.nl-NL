@@ -29,7 +29,7 @@ U hebt toegang tot uw rapport voor Direct-mail-reizen door op de knop **[!UICONT
 
 ![](assets/cja-direct-sending-stat.png)
 
-De tabel **[!UICONTROL Sending Statistics]** geeft u inzicht in de prestaties van uw directe-mailreizen. Bekijk belangrijke metriek zoals het aantal beoogde ontvangers en met succes geleverde stukken, die u helpen het bereik en de doeltreffendheid van uw berichten meten.
+De tabel **[!UICONTROL Sending Statistics]** biedt een insight van de prestaties van uw directe-mailreizen. Bekijk belangrijke metriek zoals het aantal beoogde ontvangers en met succes geleverde stukken, die u helpen het bereik en de doeltreffendheid van uw berichten meten.
 
 +++ Meer informatie over het verzenden van statistieken
 
@@ -69,8 +69,8 @@ In de tabel **[!UICONTROL Error Reasons]** kunt u de specifieke fouten identific
 
 ## Uitgesloten redenen {#exclude-reasons-directmail}
 
-[&#128279;](assets/cja-direct-excluded.png)
+[](assets/cja-direct-excluded.png)
 
 In de tabel **[!UICONTROL Exclude Reasons]** worden visueel de verschillende factoren weergegeven die hebben geleid tot de uitsluiting van gebruikersprofielen van het doelpubliek, zodat deze geen direct-mailberichten kunnen ontvangen.
 
-Verwijs naar [&#x200B; deze pagina &#x200B;](exclusion-list.md) voor de uitvoerige lijst van uitsluitingsredenen.
+Verwijs naar [ deze pagina ](exclusion-list.md) voor de uitvoerige lijst van uitsluitingsredenen.

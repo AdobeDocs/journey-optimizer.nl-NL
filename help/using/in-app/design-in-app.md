@@ -33,7 +33,7 @@ U kunt de inhoud in de app bewerken om ervaringsopties te configureren:
 
 Met de schakeloptie **[!UICONTROL Advanced formatting]** activeert u aanvullende opties om de ervaring aan te passen.
 
-Nadat u het bericht in de app hebt gemaakt en de inhoud ervan hebt gedefinieerd en gepersonaliseerd, kunt u het bericht controleren en activeren. Vervolgens worden de meldingen verzonden volgens het campagneprogramma. Leer meer op [&#x200B; deze pagina &#x200B;](send-in-app.md).
+Nadat u het bericht in de app hebt gemaakt en de inhoud ervan hebt gedefinieerd en gepersonaliseerd, kunt u het bericht controleren en activeren. Vervolgens worden de meldingen verzonden volgens het campagneprogramma. Leer meer op [ deze pagina ](send-in-app.md).
 
 ## Berichtlay-out {#message-layout}
 
@@ -104,7 +104,7 @@ In het veld **[!UICONTROL Media]** kunt u media toevoegen aan uw In-app-bericht 
 
 ![](assets/in_app_web_design_3.png)
 
-Typ uw media-URL of klik op het pictogram **[!UICONTROL Select Assets]** om elementen die in uw Assets-bibliotheek zijn opgeslagen, rechtstreeks toe te voegen aan uw In-app-bericht. [&#x200B; Leer meer over activabeheer &#x200B;](../integrations/assets.md).
+Typ uw media-URL of klik op het pictogram **[!UICONTROL Select Assets]** om elementen die in uw Assets-bibliotheek zijn opgeslagen, rechtstreeks toe te voegen aan uw In-app-bericht. [ Leer meer over activabeheer ](../integrations/assets.md).
 U kunt ook een **[!UICONTROL Alternative text]** toevoegen voor schermlezingstoepassingen.
 
 +++Meer opties met geavanceerde opmaak
@@ -124,7 +124,7 @@ Voer de inhoud in de velden **[!UICONTROL Header]** en **[!UICONTROL Body]** in 
 
 ![](assets/in_app_web_design_4.png)
 
-Gebruik het pictogram **[!UICONTROL Personalization]** om personalisatie toe te voegen. Leer meer over verpersoonlijking in de redacteur van de verpersoonlijking van Adobe Journey Optimizer [&#x200B; in deze sectie &#x200B;](../personalization/personalize.md).
+Gebruik het pictogram **[!UICONTROL Personalization]** om personalisatie toe te voegen. Leer meer over verpersoonlijking in de redacteur van de verpersoonlijking van Adobe Journey Optimizer [ in deze sectie ](../personalization/personalize.md).
 
 +++Meer opties met geavanceerde opmaak
 
@@ -242,9 +242,9 @@ Als **[!UICONTROL Advanced formatting mode]** wordt aangezet, kunt u uw bericht 
 
 ## Tabblad Gegevens {#data-tab}
 
-Van het **lusje van Gegevens**, kunt u een **&#x200B; [!UICONTROL Key] &#x200B;** &#x200B; en **[!UICONTROL Value]** bepalen om douanevariabelen in de nuttige lading te omvatten. Deze sleutel/waardeparen staan u toe om extra gegevens, afhankelijk van uw specifieke configuratie over te gaan.
+Van het **lusje van Gegevens**, kunt u een ** [!UICONTROL Key] ** &#x200B; en **[!UICONTROL Value]** bepalen om douanevariabelen in de nuttige lading te omvatten. Deze sleutel/waardeparen staan u toe om extra gegevens, afhankelijk van uw specifieke configuratie over te gaan.
 
-Voor meer informatie, verwijs naar de [&#x200B; documentatie van de Ontwikkelaar &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata/).
+Voor meer informatie, verwijs naar de [ documentatie van de Ontwikkelaar ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata/).
 
 1. Selecteer op het tabblad **[!UICONTROL Data]** de optie **[!UICONTROL Add key/value pair]**.
 

@@ -24,4 +24,4 @@ In deze video ziet u hoe u bronconnectors kunt configureren in Journey Optimizer
 
 >[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
-Leer meer over hoe te om gegevens van externe bronnen met de schakelaars van Source in [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=nl){target="_blank"} in te voeren.
+Leer meer over hoe te om gegevens van externe bronnen met de schakelaars van Source in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=nl){target="_blank"} in te voeren.

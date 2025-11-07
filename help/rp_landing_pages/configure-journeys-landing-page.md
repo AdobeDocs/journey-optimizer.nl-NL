@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Reisconfiguratie
 description: Reisconfiguratie
 redpen-status: CREATED_||_2025-08-11_21-12-10
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: 9184a695-be6a-44af-b04a-124243c5aa64
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
 
 ---
-
 
 # Reisconfiguratie{#section-overview}
 
@@ -20,7 +20,7 @@ De configuratie van de reis in Adobe Journey Optimizer machtigt u om naadloze, g
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met de configuratie van reizen
 
@@ -30,7 +30,7 @@ Leer hoe te om Gegevensbronnen, Gebeurtenissen, en Acties te vormen om berichtle
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Gebeurtenisconfiguratie in Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Onderzoek hoe te om gebeurtenissen te vormen en te beheren die reizen, met inbeg
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Source-configuratie gegevens in Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Begrijp en beheer gegevensbronnen, met inbegrip van pre-gevormde en externe type
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Configuratie en gebruik van aangepaste handelingen
 

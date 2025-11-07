@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Inhoudsexperiment
 description: Inhoudsexperiment
 redpen-status: CREATED_||_2025-08-12_00-44-26
-source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
+exl-id: 7f01dd97-ef28-498a-8a8b-d72abaa7fdd4
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 0%
 
 ---
-
 
 # Inhoudsexperiment{#section-overview}
 
@@ -20,7 +20,7 @@ Met contentexperimenten in Adobe Journey Optimizer kunt u uw marketingcampagnes 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met contentexperimenten
 
@@ -30,7 +30,7 @@ Leer de grondbeginselen van inhoudexperimenten, hun doel, en hoe te opstelling, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Experimenten met inhoud maken en schalen
 
@@ -40,7 +40,7 @@ Een stapsgewijze gids voor het maken, configureren en schalen van experimenten o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Geavanceerde statistische technieken voor experimenten
 

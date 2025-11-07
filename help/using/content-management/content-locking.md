@@ -126,7 +126,7 @@ Nadat een structuur is vergrendeld, kunnen er geen verdere inhoudcomponenten of 
 
 1. Schakel de optie **[!UICONTROL Use specific locking]** in.
 
-1. Kies **[!UICONTROL Lock type]** in de vervolgkeuzelijst **[!UICONTROL Editable]** . Selecteer **[!UICONTROL Editable content only]** als u het bewerken van inhoud tijdens het vergrendelen van stijlen wilt toestaan. [&#x200B; leer hoe te om componenten &#x200B;](#lock-components) te sluiten
+1. Kies **[!UICONTROL Lock type]** in de vervolgkeuzelijst **[!UICONTROL Editable]** . Selecteer **[!UICONTROL Editable content only]** als u het bewerken van inhoud tijdens het vergrendelen van stijlen wilt toestaan. [ leer hoe te om componenten ](#lock-components) te sluiten
 
    ![](assets/template-lock-editable-component.png)
 
@@ -150,7 +150,7 @@ Een specifieke component in een structuur vergrendelen:
 
    >[!NOTE]
    >
-   >Met het vergrendelingstype **[!UICONTROL Editable]** kunnen gebruikers een component bewerken, zelfs binnen een vergrendelde structuur. [&#x200B; leer hoe te om structuren &#x200B;](#lock-structures) te sluiten
+   >Met het vergrendelingstype **[!UICONTROL Editable]** kunnen gebruikers een component bewerken, zelfs binnen een vergrendelde structuur. [ leer hoe te om structuren ](#lock-structures) te sluiten
 
 1. Standaard kunnen gebruikers vergrendelde componenten niet verwijderen. U kunt verwijdering inschakelen door de optie **[!UICONTROL Allow delete]** te activeren.
 
@@ -196,4 +196,4 @@ Hier volgen enkele voorbeelden van e-mailedities en de bijbehorende configuratie
 
 Leer hoe u inhoud in e-mailsjablonen kunt vergrendelen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451613?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

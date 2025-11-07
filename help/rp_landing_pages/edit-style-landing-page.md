@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Stijl bewerken
 description: Stijl bewerken
 redpen-status: CREATED_||_2025-08-11_20-32-57
-source-git-commit: e8b71a7efe1ca05a33bc6f33253900a58fa6665c
+exl-id: c4269d5d-95fa-4b00-add5-42a26ab0de9f
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
 
 ---
-
 
 # Stijl bewerken{#section-overview}
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer&#39;s Email Designer bevat krachtige opmaakgereedschappe
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 E-mailstijlen aanpassen
 
@@ -30,7 +30,7 @@ Leer hoe u opmaakparameters zoals de hoofdtekst, structuur en inhoudscomponenten
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 E-mailachtergrond aanpassen
 
@@ -40,7 +40,7 @@ Ontdek hoe u achtergrondkleuren en afbeeldingen instelt op verschillende niveaus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Verticale uitlijning en opvulling aanpassen
 
@@ -50,7 +50,7 @@ Stapsgewijze instructies voor het wijzigen van verticale uitlijning en opvulling
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Kenmerken voor inline stijlen toevoegen
 

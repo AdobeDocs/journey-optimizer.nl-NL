@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Testen en goedkeuren{#section-overview}
 
-Controleer voordat u uw campagnes en reizen start of ze naar behoren werken. Voorproef uw inhoud met [&#x200B; testprofielen &#x200B;](../using/content-management/test-profiles.md), controleer e-mail teruggevend over apparaten, en bevestig reislogica met [&#x200B; testwijze &#x200B;](../using/building-journeys/testing-the-journey.md) of [&#x200B; droge looppas &#x200B;](../using/building-journeys/journey-dry-run.md). Opstelling [&#x200B; goedkeuringswerkschema&#39;s &#x200B;](../using/test-approve/gs-approval.md) om kwaliteitscontrole te verzekeren, en gebruik [&#x200B; systeemalarm &#x200B;](../using/reports/alerts.md) om kwesties te controleren. Door vroegtijdig te testen kunt u fouten opsporen en nauwkeurige, effectieve campagnes voeren.
+Controleer voordat u uw campagnes en reizen start of ze naar behoren werken. Voorproef uw inhoud met [ testprofielen ](../using/content-management/test-profiles.md), controleer e-mail teruggevend over apparaten, en bevestig reislogica met [ testwijze ](../using/building-journeys/testing-the-journey.md) of [ droge looppas ](../using/building-journeys/journey-dry-run.md). Opstelling [ goedkeuringswerkschema&#39;s ](../using/test-approve/gs-approval.md) om kwaliteitscontrole te verzekeren, en gebruik [ systeemalarm ](../using/reports/alerts.md) om kwesties te controleren. Door vroegtijdig te testen kunt u fouten opsporen en nauwkeurige, effectieve campagnes voeren.
 
 ## Inhoud testen en goedkeuren
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Inhoud voorvertonen, testen en valideren
 
@@ -30,7 +30,7 @@ Leer hoe u persoonlijke inhoud kunt voorvertonen, testen en valideren met testpr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Goedkeuringswerkstromen voor reizen en campagnes
 
@@ -40,7 +40,7 @@ Begrijp hoe u goedkeuringsprocedures instelt, beheert en uitvoert om kwaliteitsc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Uw reis testen
 
@@ -50,7 +50,7 @@ Valideer uw reis voordat u deze publiceert door deze te testen met specifieke pr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Reizen op reis
 
@@ -60,7 +60,7 @@ Voer een droge looppas uit om de uitvoeringspad van uw reis te simuleren en te b
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Bewaking en probleemoplossing
 
@@ -73,12 +73,12 @@ Toegang tot uitgebreide bronnen voor probleemoplossing, systeemwaarschuwingen en
 
 ## Aanvullende bronnen
 
-* [&#x200B; Levend Rapport in Uw Reis &#x200B;](../using/building-journeys/report-journey.md) - de metriek van de reis van de monitor in real time om prestaties te volgen en kwesties tijdens uitvoering te identificeren.
+* [ Levend Rapport in Uw Reis ](../using/building-journeys/report-journey.md) - de metriek van de reis van de monitor in real time om prestaties te volgen en kwesties tijdens uitvoering te identificeren.
 
-* [&#x200B; Creërend de Profielen van de Test &#x200B;](../using/audience/creating-test-profiles.md) - creeer en beheer testprofielen om echte klantenscenario&#39;s te simuleren en verpersoonlijking te bevestigen.
+* [ Creërend de Profielen van de Test ](../using/audience/creating-test-profiles.md) - creeer en beheer testprofielen om echte klantenscenario&#39;s te simuleren en verpersoonlijking te bevestigen.
 
-* [&#x200B; het Beheer van de Inhoud &#x200B;](content-management-landing-page.md) - Leer hoe te, voorproef, en beheer inhoud gebruikend malplaatjes, fragmenten, en e-mail Designer.
+* [ het Beheer van de Inhoud ](content-management-landing-page.md) - Leer hoe te, voorproef, en beheer inhoud gebruikend malplaatjes, fragmenten, en e-mail Designer.
 
-* [&#x200B; Veelgestelde vragen van de Reis &#x200B;](../using/building-journeys/journey-faq.md) - vind antwoorden aan gemeenschappelijke vragen over reisverwezenlijking, het testen, de uitvoering, en het oplossen van problemen.
+* [ Veelgestelde vragen van de Reis ](../using/building-journeys/journey-faq.md) - vind antwoorden aan gemeenschappelijke vragen over reisverwezenlijking, het testen, de uitvoering, en het oplossen van problemen.
 
-* [&#x200B; E-mailSpam Rapport &#x200B;](../using/content-management/spam-report.md) - controleer uw e-mailspamscore alvorens te verzenden om bevreesbaarheid en inbox plaatsing te verbeteren.
+* [ E-mailSpam Rapport ](../using/content-management/spam-report.md) - controleer uw e-mailspamscore alvorens te verzenden om bevreesbaarheid en inbox plaatsing te verbeteren.

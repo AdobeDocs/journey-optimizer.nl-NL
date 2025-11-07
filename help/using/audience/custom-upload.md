@@ -27,8 +27,8 @@ Tijdens het aangepaste uploadproces geeft u het CSV-kenmerk op dat u wilt gebrui
 
 ![](assets/import-audience.png)
 
-De gedetailleerde informatie over hoe te om publiek in te voeren is beschikbaar in de documentatie van de Dienst van de Segmentatie van Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"} .
+De gedetailleerde informatie over hoe te om publiek in te voeren is beschikbaar in de documentatie van de Dienst van de Segmentatie van Adobe Experience Platform [ ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}.
 
 Leer hoe u een publiek in CSV-indeling in video kunt uploaden:
 
->[!VIDEO](https://video.tv.adobe.com/v/3432429?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3421714?quality=12)

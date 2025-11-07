@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: AI Assistant voor het genereren van inhoud
 description: AI Assistant voor het genereren van inhoud
 redpen-status: CREATED_||_2025-08-12_00-42-48
-source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
+exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
 
 ---
-
 
 # AI Assistant voor het genereren van inhoud{#section-overview}
 
@@ -20,7 +20,7 @@ De AI Assistant van Adobe Journey Optimizer verandert het maken van inhoud door 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met AI Assistant
 
@@ -30,7 +30,7 @@ Leer hoe u toegang krijgt tot de AI Assistant-functie en deze configureert om de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Genereren van e-mailinhoud met AI
 
@@ -40,7 +40,7 @@ Ontdek hoe u met AI Assistant e-mailinhoud kunt ontwerpen, aanpassen en optimali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Inhoud voor pushmelding genereren
 
@@ -50,7 +50,7 @@ Maak en personaliseer inhoud voor pushmeldingen met AI, inclusief tekst en afbee
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 SMS-inhoud genereren met AI
 
@@ -60,7 +60,7 @@ Gebruik AI Assistant om SMS-inhoud te genereren en te verfijnen die bij uw publi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Inhoud van webpagina en genereren van middelen
 
@@ -70,7 +70,7 @@ Verbeter de inhoud en de weergave van webpagina&#39;s met AI Assistant en zorg e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/window-maximize.svg)
 
 Openingspagina genereren met AI
 

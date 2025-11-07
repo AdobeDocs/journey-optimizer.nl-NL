@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Merken
 description: Merken
 redpen-status: CREATED_||_2025-08-12_00-41-41
-source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
+exl-id: f1e3cb9d-83a8-48af-9121-4ebc56dce251
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
 
 ---
-
 
 # Merken{#section-overview}
 
@@ -20,7 +20,7 @@ In Adobe Journey Optimizer kunt u met de functie &#39;Merken&#39; de unieke iden
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Uw merkenrichtlijnen maken en beheren
 
@@ -30,7 +30,7 @@ Leer hoe u merkrichtlijnen voor een consistente visuele en verbale identiteit ku
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Uw merkenuitlijningsscore evalueren
 

@@ -20,8 +20,8 @@ Met de Adobe Journey Optimizer API kunt u persoonlijke, verbonden en tijdige kla
 
 Adobe Journey Optimizer is native gebaseerd op Adobe Experience Platform en combineert een uniform, real-time klantprofiel, een API-eerste open framework, gecentraliseerde besluitvorming over aanbiedingen, en artificiële intelligentie (AI) en machine learning (ML) voor personalisatie en optimalisatie. Door te integreren met de Journey Optimizer API kunnen merken op intelligente wijze de volgende beste interactie bepalen met schaal, snelheid en flexibiliteit gedurende de hele reis van de klant.
 
-Volg [&#x200B; dit leerprogramma &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} om de vereiste authentificatiegeloofsbrieven voor alle Journey Optimizer APIs te verzamelen.
+Volg [ dit leerprogramma ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} om de vereiste authentificatiegeloofsbrieven voor alle Journey Optimizer APIs te verzamelen.
 
-Leer meer in [&#x200B; Adobe Journey Optimizer API documentatie &#x200B;](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}. Blader het **API verwijzingen** menu om tot alle Journey Optimizer APIs toegang te hebben en hen te proberen.
+Leer meer in [ Adobe Journey Optimizer API documentatie ](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}. Blader het **API verwijzingen** menu om tot alle Journey Optimizer APIs toegang te hebben en hen te proberen.
 
-API&#39;s zijn ook beschikbaar voor Beslissingsbeheer in Adobe Journey Optimizer. Leer meer in [&#x200B; de ontwikkelaarsgids van het Beheer API van het Besluit &#x200B;](../offers/api-reference/getting-started.md)
+API&#39;s zijn ook beschikbaar voor Beslissingsbeheer in Adobe Journey Optimizer. Leer meer in [ de ontwikkelaarsgids van het Beheer API van het Besluit ](../offers/api-reference/getting-started.md)

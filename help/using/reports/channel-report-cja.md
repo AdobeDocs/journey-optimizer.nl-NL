@@ -27,7 +27,7 @@ De rapportpagina wordt getoond met de volgende lusjes:
 * [Campagnes](#campaign)
 * [Kanalen](#channel)
 
-Meer over Customer Journey Analytics Workspace leren en hoe te om gegevens te filtreren en te analyseren, verwijs naar [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/home).
+Meer over Customer Journey Analytics Workspace leren en hoe te om gegevens te filtreren en te analyseren, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Hooglichten {#highlights}
 
@@ -79,7 +79,7 @@ Door op de naam van om het even welke reis te klikken die in deze lijst wordt ve
 
 ![](assets/cja-channel-campaigns.png)
 
-De tabel van **[!UICONTROL Campaign]** werkt als een allesomvattend dashboard, dat een gedetailleerd overzicht van kritieke metriek voor uw campagne presenteert. Het bevat essentiële gegevens zoals het aantal profielen en verzendt, waardoor u een uitgebreid inzicht krijgt in de prestaties en de betrokkenheidsniveaus van uw campagne.
+De tabel van **[!UICONTROL Campaign]** werkt als een allesomvattend dashboard, dat een gedetailleerd overzicht van kritieke metriek voor uw campagne presenteert. Het bevat essentiële gegevens zoals het aantal profielen en het aantal verzendingen, waardoor u een uitgebreide insight krijgt voor de prestaties en de service van uw campagne.
 
 Door op de naam van om het even welke campagne te klikken die in deze lijst wordt vermeld, kunt u elke campagne individueel onderzoeken, die directe toegang tot zijn uitvoerig rapport in een nieuw lusje krijgen.
 

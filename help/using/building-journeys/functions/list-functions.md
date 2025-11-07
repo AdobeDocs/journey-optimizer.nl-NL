@@ -20,13 +20,13 @@ Met lijstfuncties kunt u verzamelingen van waarden bewerken en ermee werken in u
 
 Gebruik lijstfuncties wanneer u wilt:
 
-* Filter en haal specifieke punten uit inzamelingen uit die op criteria worden gebaseerd ([&#x200B; filter &#x200B;](#filter), [&#x200B; getListItem &#x200B;](#getListItem))
-* Soort en organiseert lijstelementen in het stijgen of dalende orde ([&#x200B; soort &#x200B;](#sort))
-* Verwijder duplicaten en krijg unieke waarden uit lijsten ([&#x200B; verschillend &#x200B;](#distinct), [&#x200B; separatelyWithNull &#x200B;](#distinctWithNull))
-* Controle als de waarden binnen inzamelingen bestaan ([&#x200B; binnen &#x200B;](#in))
-* Beperk het aantal punten van een lijst zijn teruggekeerd ([&#x200B; grens &#x200B;](#limit))
-* Krijg de grootte van een lijst ([&#x200B; listSize &#x200B;](#listSize)) of transformatielijsten in verschillende formaten ([&#x200B; serializeList &#x200B;](#serializeList))
-* Voer vastgestelde verrichtingen als het vinden van gemeenschappelijke elementen tussen lijsten uit ([&#x200B; snijdt &#x200B;](#intersect))
+* Filter en haal specifieke punten uit inzamelingen uit die op criteria worden gebaseerd ([ filter ](#filter), [ getListItem ](#getListItem))
+* Soort en organiseert lijstelementen in het stijgen of dalende orde ([ soort ](#sort))
+* Verwijder duplicaten en krijg unieke waarden uit lijsten ([ verschillend ](#distinct), [ separatelyWithNull ](#distinctWithNull))
+* Controle als de waarden binnen inzamelingen bestaan ([ binnen ](#in))
+* Beperk het aantal punten van een lijst zijn teruggekeerd ([ grens ](#limit))
+* Krijg de grootte van een lijst ([ listSize ](#listSize)) of transformatielijsten in verschillende formaten ([ serializeList ](#serializeList))
+* Voer vastgestelde verrichtingen als het vinden van gemeenschappelijke elementen tussen lijsten uit ([ snijdt ](#intersect))
 
 Lijstfuncties bieden krachtige gereedschappen voor het werken met complexe gegevensstructuren, waardoor geavanceerde gegevensmanipulatie en voorwaardelijke logica op basis van de inhoud van de verzameling mogelijk zijn.
 

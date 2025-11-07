@@ -61,9 +61,9 @@ Als u variaties voor uw inhoud wilt maken en deze wilt voorvertonen, klikt u op 
 
 De belangrijkste stappen om uw inhoud te testen zijn als volgt:
 
-1. **voegt Varianten** toe - voeg tot 30 varianten met steekproefinputgegevens toe, of door een dossier te uploaden, of door gegevens manueel toe te voegen. [&#x200B; Leer hoe te om variabelen toe te voegen &#x200B;](#profiles)
-1. **de inhoudsvariaties van de Voorproef** - controleer de voorproef van uw inhoud gebruikend de verschillende varianten. [&#x200B; Leer hoe te om uw inhoud &#x200B;](#preview) voor te vertonen
-1. **verzend e-mailproefdrukken** - voor e-mailinhoud, verzend tot 10 proefdrukken naar e-mailadressen gebruikend de verschillende varianten. [&#x200B; Leer hoe te om proefdrukken &#x200B;](#proofs) te verzenden
+1. **voegt Varianten** toe - voeg tot 30 varianten met steekproefinputgegevens toe, of door een dossier te uploaden, of door gegevens manueel toe te voegen. [ Leer hoe te om variabelen toe te voegen ](#profiles)
+1. **de inhoudsvariaties van de Voorproef** - controleer de voorproef van uw inhoud gebruikend de verschillende varianten. [ Leer hoe te om uw inhoud ](#preview) voor te vertonen
+1. **verzend e-mailproefdrukken** - voor e-mailinhoud, verzend tot 10 proefdrukken naar e-mailadressen gebruikend de verschillende varianten. [ Leer hoe te om proefdrukken ](#proofs) te verzenden
 
 ### Varianten toevoegen {#profiles}
 

@@ -22,7 +22,7 @@ ht-degree: 3%
 >id="ajo_subscription_list"
 >title="Een abonnementenlijst instellen"
 >abstract="Een abonnementenlijst maken om profielen te verzamelen die zich hebben aangemeld voor het ontvangen van communicatie over een specifiek onderwerp of een specifieke gebeurtenis. "
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html?lang=nl-NL#define-subscription-list" text="Een lidmaatschapslijst maken"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html#define-subscription-list" text="Een lidmaatschapslijst maken"
 
 Een abonnementsdienst heeft betrekking op marketinggoederen en -diensten die worden geleverd aan klanten die ervoor hebben gekozen communicatie over een specifiek onderwerp/evenement/belang/enz. te ontvangen. doorlopend. In [!DNL Journey Optimizer] worden deze gekozen klanten verzameld in een abonnementenlijst.
 
@@ -34,7 +34,7 @@ U kunt een abonnementenservice gebruiken voor:
 * een belang bij een bepaald product/een bepaalde sport/dienst/enz., bijvoorbeeld: &quot;Interessant om in de komende twaalf maanden een huis te kopen&quot;
 * een voorkeur voor het melden van nieuwe nummers, bijvoorbeeld: &quot;Ontvang nieuwe berichten over nummers via e-mail&quot;
 
-De profielen kunnen aan een abonnementenlijst door a [&#x200B; worden toegevoegd landend pagina &#x200B;](create-lp.md). Een voorbeeld wordt voorgesteld in [&#x200B; deze sectie &#x200B;](lp-use-cases.md#subscription-to-a-service).
+De profielen kunnen aan een abonnementenlijst door a [ worden toegevoegd landend pagina ](create-lp.md). Een voorbeeld wordt voorgesteld in [ deze sectie ](lp-use-cases.md#subscription-to-a-service).
 
 ## Een lidmaatschapslijst maken {#define-subscription-list}
 
@@ -80,7 +80,7 @@ Zodra de abonnementenlijst wordt gecreeerd, kunt u:
 
   Wanneer een klant zich bijvoorbeeld abonneert op een streamingservice, kan deze de directe verzending van een welkomste-mailreeks activeren, zodat deze zich voor het eerst bij de app kan aanmelden en zijn weergavevoorkeuren kan instellen.
 
-Leer hoe te om uw abonnementenlijst in [&#x200B; te gebruiken dit gebruiksgeval &#x200B;](lp-use-cases.md#subscription-to-a-service).
+Leer hoe te om uw abonnementenlijst in [ te gebruiken dit gebruiksgeval ](lp-use-cases.md#subscription-to-a-service).
 
 
 ## Door uw abonnementenlijsten bladeren {#browse-subscription-lists}

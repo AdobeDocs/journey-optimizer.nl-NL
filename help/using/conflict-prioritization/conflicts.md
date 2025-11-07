@@ -67,7 +67,7 @@ Wanneer u een reis of campagne maakt, kunt u met Journey Optimizer controleren o
    >
    >Nieuwe gepubliceerde reizen en campagnes kunnen tot 3-7 minuten duren om in de conflictviewer te verschijnen, als gevolg van het in cache plaatsen.
 
-Als u uw zoekopdracht naar mogelijke overlappingen verder wilt verfijnen, kunt u uw lijst met campagnes en reizen filteren op basis van de velden die u relevant vindt. Selecteer hiertoe het filterpictogram in de overzichtsweergave. [&#x200B; leer hoe te met filters &#x200B;](../start/search-filter-categorize.md#filter-lists) werken
+Als u uw zoekopdracht naar mogelijke overlappingen verder wilt verfijnen, kunt u uw lijst met campagnes en reizen filteren op basis van de velden die u relevant vindt. Selecteer hiertoe het filterpictogram in de overzichtsweergave. [ leer hoe te met filters ](../start/search-filter-categorize.md#filter-lists) werken
 
 ## Conflicten oplossen {#resolve}
 

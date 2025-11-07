@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >Momenteel, steunen de duw van het Web berichten in Journey Optimizer niet het **Zilzame Bericht** en **Simuleer Inhoud** eigenschappen, maar zullen in een recentere tijd beschikbaar zijn.
 
-Nadat u uw webpushmeldingscampagne of -reis hebt gemaakt, kunt u doorgaan met het ontwerpen van de inhoud en structuur van de campagne en de site. Merk op dat alvorens om het even welk pushbericht van het Web te verzenden, het noodzakelijk is om dit kanaal binnen uw [&#x200B; configuratie van het Kanaal &#x200B;](push-configuration-web.md) eerst te vormen.
+Nadat u uw webpushmeldingscampagne of -reis hebt gemaakt, kunt u doorgaan met het ontwerpen van de inhoud en structuur van de campagne en de site. Merk op dat alvorens om het even welk pushbericht van het Web te verzenden, het noodzakelijk is om dit kanaal binnen uw [ configuratie van het Kanaal ](push-configuration-web.md) eerst te vormen.
 
 <!--
 ## Send a silent notification {#silent-notification}
@@ -38,7 +38,7 @@ Use the **Custom Data** section to include additional information in the form of
 
 ## Titel en body {#push-title-body}
 
-Klik op de velden **[!UICONTROL Title]** en **[!UICONTROL Body]** om uw bericht samen te stellen. Gebruik de verpersoonlijkingsredacteur om inhoud te bepalen, [&#x200B; verpersoonlijken gegevens &#x200B;](../personalization/personalize.md) en [&#x200B; dynamische inhoud &#x200B;](../personalization/get-started-dynamic-content.md) toevoegen.
+Klik op de velden **[!UICONTROL Title]** en **[!UICONTROL Body]** om uw bericht samen te stellen. Gebruik de verpersoonlijkingsredacteur om inhoud te bepalen, [ verpersoonlijken gegevens ](../personalization/personalize.md) en [ dynamische inhoud ](../personalization/get-started-dynamic-content.md) toevoegen.
 
 Klik op **[!UICONTROL Edit text with the AI assistant]** om uw inhoud eenvoudig te genereren met de Journey Optimizer AI-assistent.
 
@@ -54,7 +54,7 @@ Gebruik het veld **[!UICONTROL Body click behavior]** om een diepe koppeling te 
 
 Voer de media-URL in het veld **[!UICONTROL Add media]** in. U kunt ook personalisatietokens opnemen in de URL om de inhoud voor elke gebruiker aan te passen.
 
-Klik ![&#x200B; uitgeven tekst met de AI medewerker &#x200B;](assets/do-not-localize/Smock_ImageAdd_18_N.svg) om media snel te produceren gebruikend de Medewerker van Journey Optimizer AI.
+Klik ![ uitgeven tekst met de AI medewerker ](assets/do-not-localize/Smock_ImageAdd_18_N.svg) om media snel te produceren gebruikend de Medewerker van Journey Optimizer AI.
 
 ![](assets/web-media.png)
 
@@ -74,7 +74,7 @@ Gebruik de optie **[!UICONTROL Add Button]** om het label en de bijbehorende act
 
 ## Aangepaste gegevens {#custom-data}
 
-In de sectie **[!UICONTROL Custom Data]** kunt u aangepaste sleutel-waardeparen toevoegen aan de berichtlading. Deze waarden kunnen door uw webtoepassing worden gebruikt om specifieke handelingen te activeren of de gebruikerservaring aan te passen. Voor meer op hoe te opstelling duwen berichten in Adobe Experience Platform, verwijs naar [&#x200B; deze sectie &#x200B;](push-gs.md)
+In de sectie **[!UICONTROL Custom Data]** kunt u aangepaste sleutel-waardeparen toevoegen aan de berichtlading. Deze waarden kunnen door uw webtoepassing worden gebruikt om specifieke handelingen te activeren of de gebruikerservaring aan te passen. Voor meer op hoe te opstelling duwen berichten in Adobe Experience Platform, verwijs naar [ deze sectie ](push-gs.md)
 
 ![](assets/web-custom.png)
 

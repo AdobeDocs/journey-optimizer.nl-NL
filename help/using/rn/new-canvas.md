@@ -15,12 +15,12 @@ ht-degree: 0%
 
 ---
 
-# Welkom bij de verbeterde reisontwerper {#new-canvas}
+# Welkom bij de verbeterde Reisweg Designer {#new-canvas}
 
-Journey Optimizer biedt nu een **vereenvoudigd reismodel** die tot doel heeft de gebruikerservaring en de interne processen te verbeteren. Vanaf april kunt u profiteren van de volgende functies:
+Journey Optimizer biedt nu het model van de a **vereenvoudigde reis** aan die gebruikerservaring en interne processen probeert te verbeteren. Vanaf april kunt u profiteren van de volgende functies:
 
-* A **herontworpen reiscanvas** gemaakt voor een gemoderniseerde gebruikersinterface-ervaring
-* A **live rapportage** UI direct beschikbaar in het wegcanvas
+* A **opnieuw ontworpen wegcanvas** gemaakt voor een gemoderniseerde ervaring UI
+* A **levende rapporterend** UI direct beschikbaar in het wegcanvas
 
 >[!NOTE]
 >
@@ -28,30 +28,30 @@ Journey Optimizer biedt nu een **vereenvoudigd reismodel** die tot doel heeft de
 
 ## Updates van het reismodel
 
-Het nieuwe reismodel zal naast het bestaande model leven, wat betekent dat er reizen zullen worden gemaakt met **twee verschillende modellen**:
+Het nieuwe reismodel zal naast bestaande leven, betekenend dat er reizen gebruikend **twee verschillende modellen** zullen zijn:
 
 * Het oudere model
 * Het nieuwe model
 
-Alle reizen in het oude model blijven erin. U kunt deze nog steeds bewerken, testen of publiceren. Elke nieuwe versie die is gemaakt op basis van een reis op het oude model, blijft erin staan. Er zijn **geen functionele wijzigingen** rond die reizen.
+Alle reizen in het oude model blijven erin. U kunt deze nog steeds bewerken, testen of publiceren. Elke nieuwe versie die is gemaakt op basis van een reis op het oude model, blijft erin staan. Er zijn **geen functionele veranderingen** rond die reizen.
 
 Zoals u in het hieronder schermschot ziet, zijn de knopen rond-vormig, die oude UI voor reizen op het erfenismodel is.
 
 ![](assets/new-canvas.png)
 
-Wanneer u echter **een nieuwe reis maken** of **bestaande dupliceren**, zal het op het nieuwe model staan. De reizen op het erfenismodel zullen nog worden gesteund tot een meerderheid van klanten aan nieuwe worden overgezet.
+Nochtans, wanneer u **een nieuwe reis** creeert of **bestaande** dupliceert, zal het op het nieuwe model zijn. De reizen op het erfenismodel zullen nog worden gesteund tot een meerderheid van klanten aan nieuwe worden overgezet.
 
-Er is één beperking op het nieuwe reismodel: **kan geen activiteiten kopiëren en plakken van het oudere model naar het nieuwe model en vice versa**. Als u dit wilt doen, adviseren wij u om uw erfenisreis te dupliceren om het op het nieuwe model over te schakelen, en dan uw activiteiten te kopiëren.
+Er is één beperking aan het nieuwe reismodel; het zal **niet activiteiten van het erfenismodel aan nieuwe kunnen kopiëren en plakken en vice versa**. Als u dit wilt doen, adviseren wij u om uw erfenisreis te dupliceren om het op het nieuwe model over te schakelen, en dan uw activiteiten te kopiëren.
 
 In de onderstaande schermafbeelding ziet u de opnieuw ontworpen interface voor het reiscanvas (alleen beschikbaar bij het nieuwe model):
 
 ![](assets/new-canvas2.png)
 
-**Elke nieuwe functie die aan de reisontwerper wordt toegevoegd (inclusief live rapportering), is alleen beschikbaar voor reizen op het nieuwe model vanaf dit moment.**
+**om het even welke nieuwe eigenschap die aan de reisontwerper (met inbegrip van levende rapportering) wordt toegevoegd zal slechts voor reizen op het nieuwe model van dit punt vooruit beschikbaar zijn.**
 
 ## Verbeterd ontwerp van reiscanvas
 
-Met het nieuwe reismodel introduceren we een nieuwe en verbeterde **interface reiscanvas**, die naadloos past binnen het Adobe Experience Cloud-systeem voor oplossingen en toepassingen, waardoor een intuïtieve en efficiënte gebruikerservaring mogelijk wordt. Elke reis in het nieuwe model zal op dat nieuwe ontwerp zijn.
+Met het nieuwe reismodel, introduceren wij een nieuw-en-verbeterde **interface van het wegcanvas**, die naadloos binnen de oplossingen van Adobe Experience Cloud &amp; app ecosysteem past, makend voor een intuïtieve en efficiënte gebruikerservaring. Elke reis in het nieuwe model zal op dat nieuwe ontwerp zijn.
 
 ![](assets/new-canvas3.gif)
 
@@ -62,7 +62,7 @@ De activiteiten zullen nu worden vertegenwoordigd door vierkante dozen met de vo
 
 ![](assets/new-canvas4.png)
 
-Deze nieuwe interface verbetert de leesbaarheid van het reiscanvas door **duidelijkere activiteitenetiketten en types**.
+Deze nieuwe UI verbetert de leesbaarheid van het wegcanvas door **duidelijkere activiteitenetiketten en types** te verstrekken.
 
 Het staat het productteam ook toe om meer informatie op het canvas met minder kliks toe te voegen. Een voorbeeld van &quot;meer informatie&quot; zou de opname van live rapportering in het reiscanvas zijn, waar u profielen kunt zien die uw activiteiten betreden en verlaten vanwege fouten.
 
@@ -70,7 +70,7 @@ Het staat het productteam ook toe om meer informatie op het canvas met minder kl
 
 ## Live rapportering op het canvas van de reis
 
-Naast de verbeterde lay-out van het reiscanvas, wordt een nieuwe eigenschap geïntroduceerd om gebruikers toe te staan om rapportmetriek in real time van te bekijken **de laatste 24 uur**, ook wel live rapportering genoemd, direct binnen het reiscanvas.
+Naast de verbeterde lay-out van het wegcanvas, wordt een nieuwe eigenschap geïntroduceerd om gebruikers toe te staan om metriek in real time van **de laatste 24 uren** te bekijken, riep levende rapportering, direct binnen het wegcanvas.
 
 Voor elke activiteit binnen elke levende reis die het nieuwe model gebruikt, hebt u toegang tot:
 

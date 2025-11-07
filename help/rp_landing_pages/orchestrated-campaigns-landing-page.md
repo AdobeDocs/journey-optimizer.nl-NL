@@ -20,7 +20,7 @@ Met geordende campagnes in Adobe Journey Optimizer kunt u geavanceerde, uit meer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Inleiding tot geordende campagnes
 
@@ -30,7 +30,7 @@ Leer meer over de kernmogelijkheden, componenten en het onderscheid tussen geord
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Afvoerkanalen en beperkingen
 
@@ -40,7 +40,7 @@ Begrijp de beperkingen en beperkingen om te overwegen wanneer het gebruiken van 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gegevensconfiguratie voor geordende campagnes
 
@@ -50,7 +50,7 @@ Vorm model-gebaseerde schema&#39;s, datasets, en kanalen om gegevensbereidheid v
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Geordende campagnes starten en beheren
 
@@ -60,7 +60,7 @@ Een stapsgewijze gids voor het maken, orkesteren, controleren en analyseren van 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Vraag het Gegevensbestand voor Geordende Campagnes
 
@@ -70,7 +70,7 @@ Hoofddatabase die zich richt op doelgroepen, segmenten en doelgroepen in georden
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Uitgebreide gids voor campagneactiviteiten
 

@@ -22,13 +22,13 @@ ht-degree: 0%
 >title="Live-rapport voor abonnement"
 >abstract="Met het Live-rapport voor abonnementen kunt u de activiteiten van uw abonnees alleen in de afgelopen 24 uur in real-time meten en visualiseren. Uw rapport is verdeeld in verschillende widgets waarin uw abonnementen en afboekingen worden gedetailleerd. Elk rapportdashboard kan worden gewijzigd door widgets te vergroten of te verkleinen of te verwijderen."
 
-Live rapporten, die toegankelijk zijn vanaf het tabblad Laatste 24 uur, geven gebeurtenissen weer die in de afgelopen 24 uur hebben plaatsgevonden, met een minimale tijdsinterval van twee minuten vanaf de gebeurtenis. Ter vergelijking, de rapporten van de Customer Journey Analytics concentreren zich op gebeurtenissen die minstens twee uur geleden voorkwamen en gebeurtenissen over een geselecteerde tijdspanne behandelen.
+Live rapporten, die toegankelijk zijn vanaf het tabblad Laatste 24 uur, geven gebeurtenissen weer die in de afgelopen 24 uur hebben plaatsgevonden, met een minimale tijdsinterval van twee minuten vanaf de gebeurtenis. Ter vergelijking, Customer Journey Analytics rapporteert zich op gebeurtenissen die minstens twee uur geleden hebben plaatsgevonden en gebeurtenissen gedurende een bepaalde tijdsperiode.
 
 Klik op het pictogram **[!UICONTROL Report]** van de geselecteerde abonnementenlijst om uw rapporten te openen.
 
 ![](assets/subscription_report_7.png)
 
-Het abonnement **[!UICONTROL Live report]** is verdeeld in verschillende widgets waarin uw abonnementen en afmeldingsopties worden gedetailleerd. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Voor meer informatie over dit verwijs naar deze [&#x200B; sectie &#x200B;](live-report.md).
+Het abonnement **[!UICONTROL Live report]** is verdeeld in verschillende widgets waarin uw abonnementen en afmeldingsopties worden gedetailleerd. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Voor meer informatie over dit verwijs naar deze [ sectie ](live-report.md).
 
 ![](assets/subscription_report_3.png)
 

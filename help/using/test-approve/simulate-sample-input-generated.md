@@ -10,13 +10,13 @@ level: Intermediate
 badge: label="Private bèta" type="Informative"
 hidefromtoc: true
 hide: true
-source-git-commit: 53d8fbb28e8516e4ee79f556a335b2d084af42e7
+exl-id: 9b7fbd43-3d90-458b-8a2f-0bf0ac5437c3
+source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 1%
 
 ---
-
 
 # Automatisch genereren van inhoudsvarianten (Beta){#auto-generate-variants}
 
@@ -48,4 +48,4 @@ Ga als volgt te werk om variaties voor uw inhoud te genereren en deze voor te ve
 
 >[!NOTE]
 >
->Deze functie werkt op dezelfde manier als de standaardfunctie voor het simuleren van inhoudsvariaties. Voor meer informatie over de simulaties van inhoudsvariaties en de bijbehorende guardrails en beperkingen, verwijs naar deze sectie: [&#x200B; simuleer inhoudsvariaties &#x200B;](../test-approve/simulate-sample-input.md)
+>Deze functie werkt op dezelfde manier als de standaardfunctie voor het simuleren van inhoudsvariaties. Voor meer informatie over de simulaties van inhoudsvariaties en de bijbehorende guardrails en beperkingen, verwijs naar deze sectie: [ simuleer inhoudsvariaties ](../test-approve/simulate-sample-input.md)

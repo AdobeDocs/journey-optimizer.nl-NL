@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Direct mail
 description: Direct mail
 redpen-status: CREATED_||_2025-08-11_20-39-20
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: 024fd5b5-5707-47ad-b90f-26e0d62f2fd2
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 3%
 
 ---
-
 
 # Direct mail{#section-overview}
 
@@ -20,7 +20,7 @@ Met Direct Mail in Adobe Journey Optimizer kunt u klanten offline bereiken door 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Inleiding tot Direct Mail-campagnes
 
@@ -30,7 +30,7 @@ In deze video ziet u meer informatie over campagnes voor e-mail in Adobe Journey
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Een Direct Mail-campagne maken
 
@@ -40,7 +40,7 @@ Stapsgewijze handleiding voor het maken van direct-mailcampagnes en het configur
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Een Direct Mail-campagne controleren en verzenden
 
@@ -50,7 +50,7 @@ U kunt op effectieve wijze de toestemming voor direct-mailcampagnes voorvertonen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Direct Mail Channel configureren
 

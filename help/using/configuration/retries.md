@@ -22,11 +22,11 @@ Wanneer een e-mailbericht wegens een tijdelijke **Zachte stuitfout** voor een be
 
 >[!NOTE]
 >
->Leer meer over de types van fouten in de [&#x200B; types van mislukkingen van de Levering &#x200B;](../reports/suppression-list.md#delivery-failures) sectie.
+>Leer meer over de types van fouten in de [ types van mislukkingen van de Levering ](../reports/suppression-list.md#delivery-failures) sectie.
 
 In de standaardconfiguratie is de drempel ingesteld op 5 fouten.
 
-* Voor de zelfde levering, bij de vijfde ondervond fout binnen de [&#x200B; periode van de herprobeert tijd &#x200B;](#retry-duration), wordt het adres onderdrukt.
+* Voor de zelfde levering, bij de vijfde ondervond fout binnen de [ periode van de herprobeert tijd ](#retry-duration), wordt het adres onderdrukt.
 
 * Als er verschillende leveringen zijn en twee fouten minstens 24 uur uit elkaar voorkomen, wordt de foutenteller verhoogd op elke fout en het adres wordt ook onderdrukt bij de vijfde poging. Fouten zijn cumulatief voor elk adres.
 
@@ -47,7 +47,7 @@ Op voorwaarde dat tussen deze twee e-mails geen andere levering is geprobeerd en
 >title="De drempel voor opnieuw proberen bijwerken"
 >abstract="Als de standaardwaarde niet aan uw behoeften voldoet, kunt u het toegestane aantal opeenvolgende zachte grenzen wijzigen. Wanneer de teller voor opnieuw proberen de foutendrempel voor een specifiek e-mailadres bereikt, wordt dit adres toegevoegd aan de onderdrukkingslijst."
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=nl-NL" text="Understand the suppresion list"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="Understand the suppresion list"-->
 
 Als de standaardwaarde 5 niet aan uw wensen voldoet, kunt u de foutdrempel wijzigen volgens de onderstaande stappen.
 
@@ -65,7 +65,7 @@ Als de standaardwaarde 5 niet aan uw wensen voldoet, kunt u de foutdrempel wijzi
 
    >[!CAUTION]
    >
-   >Om het even welke waarde hoger dan 10 kan de kwesties van de leveringsreputatie, evenals IP het vertragen of het voegend op lijst van gewenste personen door ISPs veroorzaken. [&#x200B; Leer meer over leverbaarheid &#x200B;](../reports/deliverability.md)
+   >Om het even welke waarde hoger dan 10 kan de kwesties van de leveringsreputatie, evenals IP het vertragen of het voegend op lijst van gewenste personen door ISPs veroorzaken. [ Leer meer over leverbaarheid ](../reports/deliverability.md)
 
 ## Periode voor opnieuw proberen {#retry-duration}
 
@@ -73,7 +73,7 @@ De **periode van de herprobeer tijd** is timeframe waarin om het even welk e-mai
 
 Door gebrek, zal het opnieuw proberen voor **3.5 dagen** (of **84 uren**) van de tijd worden uitgevoerd het bericht aan de e-mailrij werd toegevoegd.
 
-Nochtans, om ervoor te zorgen dat de pogingen van het opnieuw proberen niet meer wanneer niet meer nodig worden uitgevoerd, kunt u dit het plaatsen volgens uw behoeften veranderen wanneer het creëren van of het uitgeven van a [&#x200B; kanaalconfiguratie &#x200B;](channel-surfaces.md) die op het e-mailkanaal van toepassing is.
+Nochtans, om ervoor te zorgen dat de pogingen van het opnieuw proberen niet meer wanneer niet meer nodig worden uitgevoerd, kunt u dit het plaatsen volgens uw behoeften veranderen wanneer het creëren van of het uitgeven van a [ kanaalconfiguratie ](channel-surfaces.md) die op het e-mailkanaal van toepassing is.
 
 U kunt bijvoorbeeld de periode voor het opnieuw proberen instellen op 24 uur voor een transactie-e-mail die betrekking heeft op het opnieuw instellen van wachtwoorden en die een koppeling bevat die slechts een dag geldig is. Op dezelfde manier kunt u voor een uitverkoop in middernacht een uitzetperiode van 6 uur definiëren.
 
@@ -81,5 +81,5 @@ U kunt bijvoorbeeld de periode voor het opnieuw proberen instellen op 24 uur voo
 >
 >De periode van opnieuw proberen mag niet langer zijn dan 84 uur. De minimumperiode voor het opnieuw proberen is 6 uur voor marketing e-mails en 10 minuten voor transactie e-mails.
 
-Leer hoe te om e-mail aan te passen herprobeert parameters wanneer het creëren van een kanaalconfiguratie in [&#x200B; deze sectie &#x200B;](../email/email-settings.md#email-retry).
+Leer hoe te om e-mail aan te passen herprobeert parameters wanneer het creëren van een kanaalconfiguratie in [ deze sectie ](../email/email-settings.md#email-retry).
 

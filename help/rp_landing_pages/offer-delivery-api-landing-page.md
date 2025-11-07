@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Aanbiedingen leveren met behulp van API's
 description: Aanbiedingen leveren met behulp van API's
 redpen-status: CREATED_||_2025-08-11_21-04-29
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: 4f959425-2b45-4257-a0a6-09738913bd68
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
 
 ---
-
 
 # Aanbiedingen leveren met behulp van API&#39;s{#section-overview}
 
@@ -20,7 +20,7 @@ Met de API&#39;s voor levering van Adobe Journey Optimizer-aanbiedingen kunt u o
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Aan de slag met de levering-API&#39;s van aanbiedingen
 
@@ -30,7 +30,7 @@ Leer meer over de API&#39;s die beschikbaar zijn voor het aanbieden van persoonl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Aanbiedingen leveren met behulp van de API voor besluitvorming
 
@@ -40,7 +40,7 @@ Maak en lever gepersonaliseerde marketingaanbiedingen met behulp van de API voor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Aanbiedingen leveren met de Edge-API voor besluitvorming
 
@@ -50,7 +50,7 @@ Implementeer de levering van persoonlijke aanbiedingen via de Adobe Experience P
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 De Batch-beslissings-API gebruiken om aanbiedingen te leveren
 

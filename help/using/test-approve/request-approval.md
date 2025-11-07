@@ -4,13 +4,13 @@ description: Leer hoe u goedkeuring kunt aanvragen voordat u uw reizen en campag
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: 509ebc377ac8c24db464728b7544eaa96e8e5da4
+exl-id: 75dafecd-805d-4aa2-86c6-99e6da4d378b
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
 
 ---
-
 
 # Goedkeuring aanvragen {#request-approval}
 
@@ -48,13 +48,10 @@ Terwijl de campagne of de reis **[!UICONTROL In review]** staat is, hebt u de op
 
 ## Goedkeuringsaanvragen beheren
 
-Zodra de goedkeuringsaanvraag aan de fiatteurs is verzonden, kunnen zij deze beoordelen en de reis/campagne activeren om deze live te zetten, of zo nodig wijzigingen aanvragen. [&#x200B; Leer hoe te om een verzoek te herzien en goed te keuren &#x200B;](review-approve-request.md)
+Zodra de goedkeuringsaanvraag aan de fiatteurs is verzonden, kunnen zij deze beoordelen en de reis/campagne activeren om deze live te zetten, of zo nodig wijzigingen aanvragen. [ Leer hoe te om een verzoek te herzien en goed te keuren ](review-approve-request.md)
 
 Als de aanvraag van fiatteurs verandert, ontvangt u een melding via e-mail en een Journey Optimizer-waarschuwing. Deze waarschuwing is toegankelijk wanneer u in het tabblad **[!UICONTROL Requests]** op het belpictogram rechtsboven in het scherm klikt.
 
 ![](assets/changes-requested.png)
 
 Als u het wijzigingsverzoek wilt doorlopen, opent u het vanuit de e-mail of de waarschuwing om toegang te krijgen tot de reis of campagne en brengt u de gewenste wijzigingen aan. Wanneer uw reis/campagne gereed is om opnieuw te worden beoordeeld, verzendt u een nieuw goedkeuringsverzoek met de knop **[!UICONTROL Request approval]** .
-
-
-

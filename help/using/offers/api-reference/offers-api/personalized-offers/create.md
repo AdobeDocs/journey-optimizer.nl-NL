@@ -112,4 +112,4 @@ Een succesvolle reactie keert de details van nieuw gecreeerd gepersonaliseerd-aa
 
 ## Beperkingen {#limitations}
 
-Aanbiedingsweergaven en sommige aanbodbeperkingen worden momenteel niet ondersteund door de mobiele [!DNL Experience Edge] workflows, bijvoorbeeld `Capping` . De veldwaarde `Capping` geeft aan hoe vaak een aanbieding voor alle gebruikers kan worden weergegeven. Voor meer details, zie [&#x200B; de geschiktheidsregels en beperkingsdocumentatie van de Aanbieding &#x200B;](../../../../offers/offer-library/creating-personalized-offers.md).
+Aanbiedingsweergaven en sommige aanbodbeperkingen worden momenteel niet ondersteund door de mobiele [!DNL Experience Edge] workflows, bijvoorbeeld `Capping` . De veldwaarde `Capping` geeft aan hoe vaak een aanbieding voor alle gebruikers kan worden weergegeven. Voor meer details, zie [ de geschiktheidsregels en beperkingsdocumentatie van de Aanbieding ](../../../../offers/offer-library/creating-personalized-offers.md).

@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Voor automatische doorloop hebben gebruikers machtigingen nodig die gerelateerd zijn aan de **[!UICONTROL Translation Service]** -mogelijkheid. [&#x200B; leer meer over toestemmingen &#x200B;](../administration/permissions.md)
+>Voor automatische doorloop hebben gebruikers machtigingen nodig die gerelateerd zijn aan de **[!UICONTROL Translation Service]** -mogelijkheid. [ leer meer over toestemmingen ](../administration/permissions.md)
 
 Met behulp van de geautomatiseerde stroom kunt u gewoon uw doeltaal en taalprovider selecteren. Uw inhoud wordt vervolgens rechtstreeks naar de vertaling verzonden en klaar voor een definitieve revisie wanneer deze is voltooid.
 
@@ -79,7 +79,7 @@ Start uw vertaalproject door de doellandinstelling op te geven en de specifieke 
 
 1. Klik op **[!UICONTROL Add locale]** om het menu te openen en de talen voor het vertaalproject te definiëren.
 
-   Als een **[!UICONTROL Locale]** ontbreekt, kunt u het manueel van tevoren van het **[!UICONTROL Translation]** menu of door API tot stand brengen. Verwijs naar [&#x200B; creeer een nieuwe Scène &#x200B;](#create-locale).
+   Als een **[!UICONTROL Locale]** ontbreekt, kunt u het manueel van tevoren van het **[!UICONTROL Translation]** menu of door API tot stand brengen. Verwijs naar [ creeer een nieuwe Scène ](#create-locale).
 
    ![](assets/translation_project_3.png)
 
@@ -156,7 +156,7 @@ In deze sectie kunt u verschillende landinstellingen instellen voor het beheer v
 
    ![](assets/multilingual-settings-6.png)
 
-   +++Vereisten om contextuele gebeurtenissen in uw voorwaarden te gebruiken
+   +++Vereisten om contextuele gebeurtenissen in uw omstandigheden te gebruiken
 
    Wanneer gebruikers uw inhoud weergeven, wordt samen met de ervaringsgebeurtenis een verzoek tot aanpassing verzonden. Als u contextafhankelijke gegevens in uw voorwaarden wilt gebruiken, moet u aanvullende gegevens aan de payload van het aanpassingsverzoek koppelen. Om dit te doen, moet u een regel in de Inzameling van Gegevens van Adobe Experience Platform tot stand brengen om te specificeren: ALS een verpersoonlijkingsverzoek wordt verzonden, dan bijlage extra gegevens aan het verzoek, die de attributen om met het taalgebied in uw schema bepalen aan te passen.
 
@@ -166,7 +166,7 @@ In deze sectie kunt u verschillende landinstellingen instellen voor het beheer v
 
    1. Open in Adobe Experience Platform Data Collection de tageigenschappen.
 
-   1. Open het menu **[!UICONTROL Rules]** en maak een nieuwe regel. De gedetailleerde informatie over hoe te om regels tot stand te brengen is beschikbaar in [!DNL Adobe Experience Platform] [&#x200B; documentatie van de Inzameling van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+   1. Open het menu **[!UICONTROL Rules]** en maak een nieuwe regel. De gedetailleerde informatie over hoe te om regels tot stand te brengen is beschikbaar in [!DNL Adobe Experience Platform] [ documentatie van de Inzameling van Gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
    1. Voeg in de sectie **[!UICONTROL IF]** van de regel een gebeurtenis toe die als volgt is geconfigureerd:
 
@@ -224,7 +224,7 @@ Nadat u de taalvoorkeuren hebt ingesteld, kunt u deze niet meer bewerken.
 
 Als u uw vertaalproject en taalinstellingen hebt ingesteld, kunt u uw campagne of reis maken en uw inhoud aanpassen voor de verschillende landinstellingen.
 
-1. Begin door uw E-mail, SMS of Push bericht [&#x200B; campagne &#x200B;](../campaigns/create-campaign.md) te creëren en te vormen of [&#x200B; reis &#x200B;](../building-journeys/journeys-message.md) volgens uw vereisten.
+1. Begin door uw E-mail, SMS of Push bericht [ campagne ](../campaigns/create-campaign.md) te creëren en te vormen of [ reis ](../building-journeys/journeys-message.md) volgens uw vereisten.
 
 1. Wanneer uw primaire inhoud is gemaakt, klikt u op **[!UICONTROL Save]** en gaat u terug naar het scherm met de campagneconfiguratie.
 
@@ -365,7 +365,7 @@ Als deze optie is uitgeschakeld, wordt de status van de vertaaltaak automatisch 
 
    ![](assets/translation_review_7.png)
 
-1. Controleer in uw campagne of uw vertaalstatus is gewijzigd in **[!UICONTROL Translation complete]** . U kunt uw meertalige inhoud nu verzenden, naar stap 10 in [&#x200B; verwijzen deze sectie &#x200B;](#create-multilingual-campaign).
+1. Controleer in uw campagne of uw vertaalstatus is gewijzigd in **[!UICONTROL Translation complete]** . U kunt uw meertalige inhoud nu verzenden, naar stap 10 in [ verwijzen deze sectie ](#create-multilingual-campaign).
 
    ![](assets/translation_review_9.png)
 

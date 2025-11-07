@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Landingspagina's
 description: Landingspagina's
 redpen-status: CREATED_||_2025-08-12_00-37-59
-source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
+exl-id: 94ad5ecb-b1f1-4fd7-8ef4-5fdbae25ae36
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 3%
 
 ---
-
 
 # Landingspagina&#39;s{#section-overview}
 
@@ -20,7 +20,7 @@ Met bestemmingspagina&#39;s in Adobe Journey Optimizer kunt u op maat gemaakte, 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Inleiding tot landingspagina&#39;s
 
@@ -30,7 +30,7 @@ Leer de grondbeginselen van het landen van pagina&#39;s, hun functionaliteit, en
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Openingspagina&#39;s maken en publiceren
 
@@ -40,7 +40,7 @@ Stapsgewijze instructies voor het effectief maken, configureren, testen en publi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Uw bestemmingspagina&#39;s beheren
 
@@ -50,7 +50,7 @@ U kunt landingspagina&#39;s openen, ordenen en uitvoeren, bijvoorbeeld publicere
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Inhoud ontwerpen voor bestemmingspagina&#39;s
 
@@ -60,7 +60,7 @@ U kunt landingspagina&#39;s maken en aanpassen met sjablonen, formulieren en gea
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Abonnementenlijsten maken en beheren
 
@@ -70,7 +70,7 @@ Stel abonnementenlijsten in om opted-in profielen te beheren en gerichte communi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Gebruiksscenario&#39;s voor bestemmingspagina
 

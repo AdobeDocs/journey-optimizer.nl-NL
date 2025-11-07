@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Webpagina's van auteurs
 description: Webpagina's van auteurs
 redpen-status: CREATED_||_2025-08-11_20-40-34
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: 6f1ce53e-ab5a-4c77-bbd6-fc049e3dc4f5
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
 
 ---
-
 
 # Webpagina&#39;s van auteurs{#section-overview}
 
@@ -20,7 +20,7 @@ Ontdek hoe u webervaringen kunt maken, personaliseren en optimaliseren met de kr
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Inhoud bewerken met de Web Designer
 
@@ -30,7 +30,7 @@ Leer hoe u de visuele webontwerper in Adobe Journey Optimizer kunt gebruiken voo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Webinhoud bewerken met de niet-visuele editor
 
@@ -40,7 +40,7 @@ Ontdek hoe u de niet-visuele editor kunt gebruiken voor webwijzigingen, zoals he
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Webwijzigingen beheren in Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Leer hoe u webwijzigingen kunt beheren met het deelvenster Wijzigingen, inclusie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Uw webervaringen volgen
 
@@ -60,7 +60,7 @@ Begrijp hoe u de betrokkenheid bij het web kunt controleren met behulp van rappo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Toepassingen met één pagina maken in Adobe Journey Optimizer
 

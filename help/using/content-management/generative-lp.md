@@ -19,10 +19,10 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->* Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [&#x200B; Grafieken en Beperkingen &#x200B;](gs-generative.md#generative-guardrails).
+>* Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](gs-generative.md#generative-guardrails).
 >
 >
->* U moet de [&#x200B; gebruikersovereenkomst &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) goedkeuren alvorens u AI Medewerker in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>* U moet de [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) goedkeuren alvorens u AI Medewerker in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 Transformeer uw bestemmingspagina&#39;s met AI Assistant in Journey Optimizer, aangedreven door generatieve AI.
 
@@ -38,7 +38,7 @@ In het volgende voorbeeld gebruiken we AI Assistant om een bestaande sjabloon vo
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de bestemmingspagina hebt gemaakt en geconfigureerd.
 
-   Voor meer informatie over hoe te om uw het landen pagina te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../landing-pages/create-lp.md).
+   Voor meer informatie over hoe te om uw het landen pagina te vormen, verwijs naar [ deze pagina ](../landing-pages/create-lp.md).
 
 1. Pas de layout naar wens aan en open het menu **[!UICONTROL AI Assistant]** .
 
@@ -82,7 +82,7 @@ In het volgende voorbeeld gebruiken we AI Assistant om een bestaande sjabloon vo
 
 1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
 
-   Leer meer op [&#x200B; de groeperingsscore van het Merk &#x200B;](brands-score.md).
+   Leer meer op [ de groeperingsscore van het Merk ](brands-score.md).
 
    ![](assets/lp-full-gen-5.png){zoomable="yes"}
 
@@ -96,7 +96,7 @@ In het volgende voorbeeld gebruiken we AI Assistant om een bestaande sjabloon vo
 
    ![](assets/lp-full-gen-6.png){zoomable="yes"}
 
-1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [&#x200B; merkrichtlijnen &#x200B;](brands.md) richt.
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](brands.md) richt.
 
 1. Klik op **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 
@@ -110,7 +110,7 @@ In het volgende voorbeeld gebruiken we AI Assistant om de inhoud van onze landin
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de bestemmingspagina hebt gemaakt en geconfigureerd.
 
-   Voor meer informatie over hoe te om uw het landen pagina te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../landing-pages/create-lp.md).
+   Voor meer informatie over hoe te om uw het landen pagina te vormen, verwijs naar [ deze pagina ](../landing-pages/create-lp.md).
 
 1. Selecteer een **[!UICONTROL Text component]** als u alleen een specifieke inhoud als doel wilt instellen. en opent u het menu **[!UICONTROL AI Assistant]** .
 
@@ -146,7 +146,7 @@ In het volgende voorbeeld gebruiken we AI Assistant om de inhoud van onze landin
 
 1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
 
-   Leer meer op [&#x200B; de groeperingsscore van het Merk &#x200B;](brands-score.md).
+   Leer meer op [ de groeperingsscore van het Merk ](brands-score.md).
 
    ![](assets/lp-text-gen-4.png){zoomable="yes"}
 
@@ -166,7 +166,7 @@ In het volgende voorbeeld gebruiken we AI Assistant om de inhoud van onze landin
 
    ![](assets/lp-text-gen-5.png){zoomable="yes"}
 
-1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [&#x200B; merkrichtlijnen &#x200B;](brands.md) richt.
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](brands.md) richt.
 
 1. Klik op **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 
@@ -180,7 +180,7 @@ In het onderstaande voorbeeld leert u hoe u AI Assistant kunt gebruiken om uw mi
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de bestemmingspagina hebt gemaakt en geconfigureerd.
 
-   Voor meer informatie over hoe te om uw het landen pagina te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../landing-pages/create-lp.md).
+   Voor meer informatie over hoe te om uw het landen pagina te vormen, verwijs naar [ deze pagina ](../landing-pages/create-lp.md).
 
 1. Selecteer het element dat u wilt wijzigen met AI Assistant.
 
@@ -219,7 +219,7 @@ In het onderstaande voorbeeld leert u hoe u AI Assistant kunt gebruiken om uw mi
 
 1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
 
-   Leer meer op [&#x200B; de groeperingsscore van het Merk &#x200B;](brands-score.md).
+   Leer meer op [ de groeperingsscore van het Merk ](brands-score.md).
 
    ![](assets/lp-image-gen-4.png){zoomable="yes"}
 
@@ -234,7 +234,7 @@ In het onderstaande voorbeeld leert u hoe u AI Assistant kunt gebruiken om uw mi
 
    ![](assets/lp-image-gen-5.png){zoomable="yes"}
 
-1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [&#x200B; merkrichtlijnen &#x200B;](brands.md) richt.
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](brands.md) richt.
 
 1. Klik op **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 

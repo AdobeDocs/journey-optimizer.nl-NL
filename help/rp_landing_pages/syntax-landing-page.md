@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Syntaxis
 description: Syntaxis
 redpen-status: CREATED_||_2025-08-11_20-10-54
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: 7f9a648a-5b4b-4ca0-a4db-47e1fa657864
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
 
 ---
-
 
 # Syntaxis{#section-overview}
 
@@ -20,7 +20,7 @@ Dive in de krachtige syntaxismogelijkheden van de Redacteur van de Uitdrukking v
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Geavanceerde syntaxis van expressiebewerker
 
@@ -30,7 +30,7 @@ Leer de gedetailleerde syntaxisregels voor het gebruiken van de Geavanceerde Red
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Voorwaardelijke instructie (als, dan, else)
 
@@ -40,7 +40,7 @@ U kunt voorwaardelijke instructies gebruiken om complexe expressies te maken en 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Gegevenstypen
 
@@ -50,7 +50,7 @@ Hiermee krijgt u een uitgebreid overzicht van gegevenstypen die in expressies wo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Veldverwijzingen gebruiken
 
@@ -60,7 +60,7 @@ Begrijp hoe u naar velden in expressies kunt verwijzen, inclusief geavanceerde g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Verzamelingsbeheerfuncties
 
@@ -70,7 +70,7 @@ Onderzoek functies als &#39;all&#39;, &#39;first&#39;, &#39;last&#39; en &#39;at
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Operatoren in geavanceerde expressies
 

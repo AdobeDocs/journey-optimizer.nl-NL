@@ -91,17 +91,17 @@ De tabel **[!UICONTROL Tracked link labels]** bevat een uitgebreid overzicht van
 
 * **[!UICONTROL Total items]**: het totale aantal afzonderlijke items dat deel uitmaakte van een gepersonaliseerd ervaring- of beslissingsproces binnen een opgegeven periode.
 
-* **[!UICONTROL Total displays]** :
+* **[!UICONTROL Total displays]**:
 
 * **[!UICONTROL Total clicks]**: het totale aantal keren dat gebruikers gedurende een bepaalde periode op items, koppelingen, producten of andere interactieve elementen hebben geklikt.
 
 * **[!UICONTROL Fallback rate]**: percentage van de gevallen waarin geen selectiestrategieën zijn gekwalificeerd, wat resulteert in de weergave van een algemene of minder specifieke optie.
 
-### Betrokkenheidstunnel {#engagement-funnel}
+### Betrokkenheid funnel {#engagement-funnel}
 
 ![](assets/cja-engagement-funnel.png)
 
-De tabel **[!UICONTROL Engagement Funnel]** controleert de prestaties van persoonlijke ervaringen door te beoordelen hoe effectief elke fase van de trechter gebruikersinteractie aanstuurt.
+In de tabel **[!UICONTROL Engagement Funnel]** worden de prestaties van persoonlijke ervaringen gecontroleerd door te beoordelen hoe effectief elke fase van de funnel gebruikersinteractie aanstuurt.
 
 * **[!UICONTROL Displays]**: het totale aantal keren dat persoonlijke ervaringen zijn weergegeven of weergegeven voor verschillende aanraakpunten.
 
@@ -115,7 +115,7 @@ In de tabel **[!UICONTROL Top decision items by CTR]** worden de prestaties van 
 
 * **[!UICONTROL Click-through Rate (CTR)]**: percentage gebruikers dat op een koppeling, advertentie of aanbeveling klikt in vergelijking met het aantal keer dat deze werd weergegeven.
 
-### Betrokkenheid trechter per selectiestrategie {#engagement-funnel-selection}
+### Betrokkenheid funnel via selectiestrategie {#engagement-funnel-selection}
 
 ![](assets/cja-engagement-funnel-selection.png)
 
@@ -139,7 +139,7 @@ De tabel **[!UICONTROL Decision Items Performance]** evalueert hoe goed elk item
 
 >[!NOTE]
 >
->De **[!UICONTROL Ranking Strategy]** lijst wordt beschikbaar slechts wanneer een [&#x200B; AI model &#x200B;](../experience-decisioning/ranking/ai-models.md) in de campagne wordt opgenomen. <!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
+>De **[!UICONTROL Ranking Strategy]** lijst wordt beschikbaar slechts wanneer een [ AI model ](../experience-decisioning/ranking/ai-models.md) in de campagne wordt opgenomen. <!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
 
 ![](assets/cja-decision-ranking-strategy.png)
 
@@ -159,13 +159,13 @@ De belangrijkste getoonde metriek omvatten:
 
 >[!NOTE]
 >
->Momenteel is het [&#x200B; rapport van de Meting van het 0&rbrace; optillen slechts beschikbaar voor het &#x200B;](../experience-decisioning/ranking/auto-optimization-model.md#lift) Gepersonaliseerde model van optimalisering [&#x200B; AI. &#x200B;](../experience-decisioning/ranking/personalized-optimization-model.md) Als u rapporten over liftmetingen nodig hebt, gebruikt u in plaats daarvan het gepersonaliseerde optimalisatiemodel.
+>Momenteel is het [ rapport van de Meting van het 0} optillen slechts beschikbaar voor het ](../experience-decisioning/ranking/auto-optimization-model.md#lift) Gepersonaliseerde model van optimalisering [ AI. ](../experience-decisioning/ranking/personalized-optimization-model.md) Als u rapporten over liftmetingen nodig hebt, gebruikt u in plaats daarvan het gepersonaliseerde optimalisatiemodel.
 
 ### Omrekeningskoers voor Holdout- en Model-georiënteerd verkeer {#conversion-rate}
 
 >[!NOTE]
 >
->De **[!UICONTROL Conversion rate for Holdout and Model Driven traffic]** grafiek wordt beschikbaar slechts wanneer een [&#x200B; AI model &#x200B;](../experience-decisioning/ranking/ai-models.md) in de campagne wordt opgenomen. <!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
+>De **[!UICONTROL Conversion rate for Holdout and Model Driven traffic]** grafiek wordt beschikbaar slechts wanneer een [ AI model ](../experience-decisioning/ranking/ai-models.md) in de campagne wordt opgenomen. <!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
 
 ![](assets/cja-decisioning-conversion.png)
 
@@ -177,4 +177,4 @@ In de grafiek **[!UICONTROL Conversion rate for Holdout and Model Driven traffic
 
 >[!CAUTION]
 >
->Wanneer het gebruiken van een AI model dat in a [&#x200B; wordt opgenomen rangschikt formule &#x200B;](../experience-decisioning/ranking/ranking-formulas.md), worden de gegevens niet weerspiegeld in het rapport van het tarief van de Omzetting.
+>Wanneer het gebruiken van een AI model dat in a [ wordt opgenomen rangschikt formule ](../experience-decisioning/ranking/ranking-formulas.md), worden de gegevens niet weerspiegeld in het rapport van het tarief van de Omzetting.

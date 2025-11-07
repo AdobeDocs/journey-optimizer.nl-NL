@@ -115,4 +115,4 @@ Elk inkomend verzoek omvat ook een unieke requestId die terug naar webhaak wordt
 
 ## Volgende stappen {#next}
 
-Zodra een terugkoppel is gecreeerd, kunt u het toelaten wanneer het vormen van a **transactie API teweeggebrachte campagnepubliek**. Leer meer in deze sectie: [&#x200B; laat webhooks &#x200B;](../campaigns/api-triggered-campaign-audience.md#webhook) toe
+Zodra een terugkoppel is gecreeerd, kunt u het toelaten wanneer het vormen van a **transactie API teweeggebrachte campagnepubliek**. Leer meer in deze sectie: [ laat webhooks ](../campaigns/api-triggered-campaign-audience.md#webhook) toe

@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Start uw eerste geordende campagne
 description: Start uw eerste geordende campagne
 redpen-status: CREATED_||_2025-08-11_20-24-42
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: 2b553e08-5a20-4efb-895e-c8984c52d6b5
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 0%
 
 ---
-
 
 # Start uw eerste geordende campagne{#section-overview}
 
@@ -20,7 +20,7 @@ Het lanceren van uw eerste Geordende campagne in Adobe Journey Optimizer machtig
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Stapsgewijze gids voor het maken van een geordende campagne
 
@@ -30,7 +30,7 @@ Leer de belangrijkste stappen om een geordende campagne te maken, te beheren en 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Een geordende campagne maken en plannen
 
@@ -40,7 +40,7 @@ Ontdek hoe u campagneeigenschappen, uitvoeringsschema&#39;s en optimale prestati
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Campagne organiseren
 
@@ -50,7 +50,7 @@ Plaats het visuele canvas om activiteiten voor uw geordende campagnes te ontwerp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Uw campagnes starten en bewaken
 
@@ -60,7 +60,7 @@ Leer hoe u uw geordende campagnes kunt testen, publiceren en controleren op een 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Rapportage voor geordende campagnes
 

@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Uw reizen integreren met externe systemen
 description: Uw reizen integreren met externe systemen
 redpen-status: CREATED_||_2025-08-11_21-16-41
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: f61a2c42-f082-4eef-b890-8224357f215f
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
 
 ---
-
 
 # Uw reizen integreren met externe systemen{#section-overview}
 
@@ -20,7 +20,7 @@ Door uw reizen te integreren met externe systemen in Adobe Journey Optimizer kun
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Beste praktijken voor de Externe Integratie van het Systeem
 
@@ -30,7 +30,7 @@ Leer beste praktijken en technische richtlijnen voor de integratie van Adobe Jou
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Overzicht en implementatiegids van API voor uitsnijden
 
@@ -40,7 +40,7 @@ Begrijp hoe te om, het maximum montages voor externe systeemintegratie tot stand
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Throttling API: Configuratie- en beheerdersgids
 

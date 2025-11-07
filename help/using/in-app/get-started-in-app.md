@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 0%
+source-wordcount: '196'
+ht-degree: 1%
 
 ---
 
@@ -56,3 +56,11 @@ Gebruik Journey Optimizer om meldingen in de app te maken en ervaringsopties te 
 <p>
 </td>
 </tr></table>
+
+## Aanvullende bronnen
+
+* **[creeer in-app berichten](create-in-app.md)** - Leer hoe te om in-app berichten voor mobiele toepassingen tot stand te brengen en te vormen.
+* **[vorm in-app kanaal](inapp-configuration.md)** - opstelling uw in-app overseinenkanaal met juiste mobiele toepassingsconfiguraties.
+* **[Ontwerp in-app inhoud](design-in-app.md)** - pas in-app berichtlay-outs, stijlen, knopen, en interactieve elementen aan.
+* **[In-app voor Web](create-in-app-web.md)** - ontdek hoe te om binnen-app berichten voor Webtoepassingen tot stand te brengen en te leveren.
+* **[In-app kanaalzelfstudies ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/in-app-channel/in-app-messages-overview){target="_blank"}** - Onderzoek geleidelijke videozelfstudies op in-app overseineneigenschappen en beste praktijken.

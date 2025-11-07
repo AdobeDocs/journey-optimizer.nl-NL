@@ -20,9 +20,9 @@ De optimalisering machtigt u met de hulpmiddelen om gepersonaliseerde en geoptim
 
 Met Optimalisatie kunt u:
 
-* Hefboomwerking [&#x200B; richtend &#x200B;](#targeting) regels
-* Looppas [&#x200B; inhoudexperimenten &#x200B;](#experimentation)
-* Gebruik [&#x200B; geavanceerde combinaties &#x200B;](#combination) van zowel experimenteren als het richten binnen één enkele campagne
+* Hefboomwerking [ richtend ](#targeting) regels
+* Looppas [ inhoudexperimenten ](#experimentation)
+* Gebruik [ geavanceerde combinaties ](#combination) van zowel experimenteren als het richten binnen één enkele campagne
 
 Zodra de reis of de campagne live is, worden profielen beoordeeld aan de hand van de vastgestelde criteria en op basis van passende criteria, worden zij geleverd met de juiste ervaring of inhoud van de reis/campagne.
 
@@ -33,7 +33,7 @@ Het verschil tussen experimenten en doelgerichtheid kan als volgt worden aangege
 
 ![](assets/msg-optimization-experiment-vs-targeting.png){width="110%" zoomable="yes"}
 
-➡️ [&#x200B; Leer meer over optimalisering in een campagne in deze video &#x200B;](#video)
+➡️ [ Leer meer over optimalisering in een campagne in deze video ](#video)
 
 ## Hefboomdoel {#targeting}
 
@@ -56,7 +56,7 @@ Met betrekking tot doelgerichtheid kunnen specifieke regels worden vastgesteld o
 
 Volg de onderstaande stappen om doelframes in te stellen.
 
-1. Creeer a [&#x200B; reis &#x200B;](../building-journeys/journey-gs.md#jo-build) of a [&#x200B; campagne &#x200B;](../campaigns/create-campaign.md).
+1. Creeer a [ reis ](../building-journeys/journey-gs.md#jo-build) of a [ campagne ](../campaigns/create-campaign.md).
 
    >[!NOTE]
    >
@@ -84,7 +84,7 @@ Volg de onderstaande stappen om doelframes in te stellen.
 
    >[!AVAILABILITY]
    >
-   >[&#x200B; Creërend het richten van regels &#x200B;](../experience-decisioning/rules.md#create) van het specifieke [!DNL Journey Optimizer] menu is momenteel beschikbaar aan organisaties die het Besluit toe:voegen-op aanbieden hebben gekocht, en zij zijn beschikbaar op bestelling voor de andere organisaties (Beperkte Beschikbaarheid).
+   >[ Creërend het richten van regels ](../experience-decisioning/rules.md#create) van het specifieke [!DNL Journey Optimizer] menu is momenteel beschikbaar aan organisaties die het Besluit toe:voegen-op aanbieden hebben gekocht, en zij zijn beschikbaar op bestelling voor de andere organisaties (Beperkte Beschikbaarheid).
    >
    >Deze capaciteit zal geleidelijk aan aan alle klanten worden uitgebreid. Neem in de tussentijd contact op met uw Adobe-vertegenwoordiger voor toegang.
 
@@ -112,7 +112,7 @@ Volg de onderstaande stappen om doelframes in te stellen.
 
    In dit voorbeeld, ontwerp een specifieke inhoud voor inwoners van de V.S., een verschillende inhoud voor Franse ingezetenen en een andere inhoud voor inwoners van India.
 
-1. [&#x200B; activeer &#x200B;](review-activate-campaign.md) uw reis of campagne.
+1. [ activeer ](review-activate-campaign.md) uw reis of campagne.
 
 Zodra de reis/campagne live is, wordt inhoud die voor elk doel is ontworpen, verzonden zodat inwoners van de VS een specifieke boodschap krijgen, inwoners van Frankrijk een andere boodschap, enzovoort.
 
@@ -136,19 +136,19 @@ Stel dat u de volgende promotieberichten in een campagne wilt testen:
 
 Volg de onderstaande stappen om experimenten in te stellen en te bepalen welk bericht de meeste aankopen aanstuurt.
 
-1. Creeer a [&#x200B; reis &#x200B;](../building-journeys/journey-gs.md#jo-build) of a [&#x200B; campagne &#x200B;](../campaigns/create-campaign.md).
+1. Creeer a [ reis ](../building-journeys/journey-gs.md#jo-build) of a [ campagne ](../campaigns/create-campaign.md).
 
    >[!NOTE]
    >
    >Als u onderweg bent, voegt u een **[!UICONTROL Action]** -activiteit toe, kiest u een kanaalactiviteit en selecteert u **[!UICONTROL Configure action]** . [Meer informatie](../building-journeys/journey-action.md#add-action)
 
-1. Van het **[!UICONTROL Actions]** lusje, selecteer twee binnenkomende acties, bijvoorbeeld [&#x200B; code-gebaseerde ervaring &#x200B;](../code-based/get-started-code-based.md) en [&#x200B; in-app &#x200B;](../../rp_landing_pages/in-app-landing-page.md).
+1. Van het **[!UICONTROL Actions]** lusje, selecteer twee binnenkomende acties, bijvoorbeeld [ code-gebaseerde ervaring ](../code-based/get-started-code-based.md) en [ in-app ](../../rp_landing_pages/in-app-landing-page.md).
 
 1. Selecteer **[!UICONTROL Optimization]** in de sectie **[!UICONTROL Create experiment]** .
 
    ![](assets/msg-optimization-select-experiment.png){width=85%}
 
-1. Ontwerp en configureer uw content-experiment naar wens. [&#x200B; leer hoe &#x200B;](../content-management/content-experiment.md)
+1. Ontwerp en configureer uw content-experiment naar wens. [ leer hoe ](../content-management/content-experiment.md)
 
    ![](assets/msg-optimization-create-experiment.png){width=85%}
 
@@ -158,11 +158,11 @@ Volg de onderstaande stappen om experimenten in te stellen en te bepalen welk be
    >
    >U kunt andere acties selecteren: de experimenten zijn van toepassing op alle acties die aan de campagne of aan de reisactie worden toegevoegd.
 
-1. [&#x200B; activeer &#x200B;](review-activate-campaign.md) uw reis of campagne.
+1. [ activeer ](review-activate-campaign.md) uw reis of campagne.
 
 Zodra de reis/de campagne levend is, worden de gebruikers willekeurig toegewezen de verschillende inhoudvariaties. [!DNL Journey Optimizer] houdt bij welke variatie meer aankopen drijft en actioneerbare inzichten verstrekt.
 
-Volg het succes van uw campagne met de [&#x200B; reis &#x200B;](../reports/journey-global-report-cja.md) en [&#x200B; campagne &#x200B;](../reports/campaign-global-report-cja-experimentation.md) rapporten. <!--Link to Experimentation journey reportis missing-->
+Volg het succes van uw campagne met de [ reis ](../reports/journey-global-report-cja.md) en [ campagne ](../reports/campaign-global-report-cja-experimentation.md) rapporten. <!--Link to Experimentation journey reportis missing-->
 
 ## Doelstellingen en experimenten combineren {#combination}
 
@@ -174,13 +174,13 @@ U kunt bijvoorbeeld een &#39;50% korting op promotie&#39; testen in plaats van e
 
 Volg de onderstaande stappen om zowel gerichte als experimenten op een reis of campagne te combineren.
 
-1. Creeer een reis of een campagne waar u verscheidene richtingsregels bepaalt. [&#x200B; leer hoe &#x200B;](#targeting)
+1. Creeer een reis of een campagne waar u verscheidene richtingsregels bepaalt. [ leer hoe ](#targeting)
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
 1. Maak een experiment voor de eerste doelregel.
 
-1. Ontwerp en configureer uw content-experiment naar wens. [&#x200B; leer hoe &#x200B;](../content-management/content-experiment.md)
+1. Ontwerp en configureer uw content-experiment naar wens. [ leer hoe ](../content-management/content-experiment.md)
 
    ![](assets/msg-optimization-targeting-with-experiment.png){width=85%}
 
@@ -196,7 +196,7 @@ Volg de onderstaande stappen om zowel gerichte als experimenten op een reis of c
 
 1. Ga zo gelijkaardig voor andere het richten regels te werk, en ontwerp de overeenkomstige inhoud voor elke variant.
 
-1. Sparen uw veranderingen en [&#x200B; activeer &#x200B;](review-activate-campaign.md) uw reis of campagne.
+1. Sparen uw veranderingen en [ activeer ](review-activate-campaign.md) uw reis of campagne.
 
 Zodra de reis/de campagne levend is, worden de gebruikers van elke doelgroep willekeurig toegewezen de verschillende inhoudvariaties die voor de groep worden bepaald zij tot behoren.
 
@@ -210,4 +210,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Leer hoe u berichtoptimalisatie kunt benutten in actie- of API-campagnes. U zult zien hoe te om sub-publiek te richten, berichtvariaties door plaats tot stand te brengen, fallback inhoud toe te laten, en veelvoudige experimenten in één enkele campagne in werking te stellen. In deze zelfstudie wordt ook uitgelegd hoe u campagnes met meerdere kanalen kunt beheren en tegelijkertijd de consistentie van berichten kunt behouden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470374?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

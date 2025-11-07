@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Aangepast JavaScript gebruiken in een openingspagina
+title: Aangepaste JavaScript gebruiken in een openingspagina
 description: Leer hoe u de inhoud van een bestemmingspagina in Journey Optimizer ontwerpt
 feature: Landing Pages
 topic: Content Management
@@ -11,38 +11,38 @@ keywords: landen, bestemmingspagina, javascript, code
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 2%
+source-wordcount: '567'
+ht-degree: 1%
 
 ---
 
-# Aangepast JavaScript gebruiken in een openingspagina {#lp-custom-js}
+# Aangepaste JavaScript gebruiken in een openingspagina {#lp-custom-js}
 
-U kunt de inhoud van de bestemmingspagina definiëren met behulp van aangepaste JavaScript. Als u bijvoorbeeld geavanceerde opmaak moet toepassen of aangepaste gedragingen wilt toevoegen aan uw bestemmingspagina&#39;s, kunt u uw eigen besturingselementen maken en deze uitvoeren in [!DNL Journey Optimizer].
+U kunt de inhoud van de bestemmingspagina definiëren met behulp van aangepaste JavaScript. Als u bijvoorbeeld geavanceerde opmaak moet toepassen of aangepaste gedragingen wilt toevoegen aan uw bestemmingspagina&#39;s, kunt u uw eigen besturingselementen maken en deze uitvoeren in [!DNL Journey Optimizer] .
 
 ## JavaScript-code invoegen in een bestemmingspagina
 
-Als u aangepaste JavaScript wilt invoegen in openende pagina-inhoud, kunt u het volgende doen:
+Als u aangepaste JavaScript wilt invoegen in bestemmingspagina-inhoud, kunt u het volgende doen:
 
-* Importeer bestaande HTML-inhoud wanneer u begint met het maken van uw inhoud en selecteer het bestand dat uw aangepaste JavaScript-code bevat. Leer hoe u inhoud importeert [in deze sectie](../email/existing-content.md).
+* Importeer bestaande HTML-inhoud wanneer u begint met het maken van uw inhoud en selecteer het bestand dat uw aangepaste JavaScript-code bevat. Leer hoe te om inhoud [ in deze sectie ](../email/existing-content.md) in te voeren.
 
-* Ontwerp de openingspagina helemaal zelf of op basis van een opgeslagen sjabloon. Sleep de **[!UICONTROL HTML]** inhoudcomponent op het canvas en toon de broncode om uw JavaSCript in de component toe te voegen. Leer hoe u de component HTML gebruikt in [deze sectie](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
+* Ontwerp de openingspagina helemaal zelf of op basis van een opgeslagen sjabloon. Sleep de inhoudscomponent **[!UICONTROL HTML]** naar het canvas en toon de broncode om de JavaScript aan de component toe te voegen. Leer hoe te om de component van HTML in [ te gebruiken deze sectie ](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
   ![](assets/lp_designer-html-component.png)
 
-* Typ of plak JavaScript-code rechtstreeks in de inhoudsontwerper. Leer hoe u uw eigen inhoud codeert [in deze sectie](../email/code-content.md).
+* Typ of plak de JavaScript-code rechtstreeks in de inhoudsontwerper. Leer hoe te om uw eigen inhoud [ in deze sectie ](../email/code-content.md) te coderen.
 
 >[!NOTE]
 >
->U kunt JavaScript momenteel niet in actie tonen wanneer [een voorvertoning weergeven van de bestemmingspagina](create-lp.md#test-landing-page).
+>Momenteel kunt u geen JavaScript in actie tonen wanneer [ previewing de het landen pagina ](create-lp.md#test-landing-page).
 
 Gebruik de volgende syntaxis zoals beschreven in de onderstaande secties om de openingspagina correct weer te geven.
 
 ## Codeinitialisatie
 
-Als u uw JavaScript-code wilt initialiseren, moet u de opdracht `lpRuntimeReady` gebeurtenis. Deze gebeurtenis wordt geactiveerd nadat de bibliotheek is geïnitialiseerd. De callback wordt uitgevoerd met de `lpRuntime` -object om de bibliotheekmethode en -haken zichtbaar te maken.
+Als u de JavaScript-code wilt initialiseren, moet u de gebeurtenis `lpRuntimeReady` gebruiken. Deze gebeurtenis wordt geactiveerd nadat de bibliotheek is geïnitialiseerd. De callback wordt uitgevoerd met het `lpRuntime` -object om de bibliotheekmethode en -haken zichtbaar te maken.
 
-`LpRuntime` staat voor &quot;Landing page Runtime&quot;. Dit object is de belangrijkste bibliotheekid. Hiermee worden koppelingen, methoden voor het verzenden van formulieren en andere hulpprogrammamethoden die in aangepaste JavaScript kunnen worden gebruikt, toegankelijk gemaakt.
+`LpRuntime` staat voor &quot;Landing page Runtime&quot;. Dit object is de belangrijkste bibliotheekid. Het zal haken, de methodes van de vormvoorlegging, en andere nutsmethodes blootstellen die in douane JavaScript kunnen worden gebruikt.
 
 **Voorbeeld:**
 
@@ -87,7 +87,7 @@ De hieronder vermelde methoden worden gebruikt voor het verzenden van aangepaste
 
 >[!NOTE]
 >
->Aangezien de formulierverzending wordt afgehandeld door aangepaste JavaScript, moet de standaardverzending expliciet worden uitgeschakeld door een algemene variabele in te stellen `disableDefaultFormSubmission` tot `true`.
+>Aangezien het verzenden van formulieren wordt afgehandeld door aangepaste JavaScript, moet de standaardverzending expliciet worden uitgeschakeld door een algemene variabele `disableDefaultFormSubmission` in te stellen op `true` .
 
 | Naam | Beschrijving |
 |--- |--- |
@@ -113,7 +113,7 @@ lpRuntime.submitFormPartial(formSubmissionData,{   // This will not trigger the 
 
 | Naam | Beschrijving |
 |--- |--- |
-| getFormData | Deze methode kan worden gebruikt om de `formData` als een JSON-object. Dit object kan worden doorgegeven aan `submitForm` voor het verzenden van formulieren. |
+| getFormData | Deze methode kan worden gebruikt om de `formData` op te halen in de vorm van een JSON-object. Dit object kan worden doorgegeven aan `submitForm` voor het verzenden van formulieren. |
 
 **Voorbeeld:**
 

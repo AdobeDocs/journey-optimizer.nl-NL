@@ -45,7 +45,7 @@ Wanneer contextgegevens worden doorgegeven met een Edge-API-aanvraag voor beslui
 
 **de Teller update van de het afschilderen van de Frequentie**
 
-Als voor sommige van uw aanbiedingen de functie voor het toewijzen van frequenties is ingeschakeld om te bepalen hoe vaak het aantal bijschriften wordt teruggezet, wordt de teller binnen 3 seconden bijgewerkt en beschikbaar in een Edge-beslissing voor de API voor besluitvorming. [&#x200B; Leer hoe te om beperkingen aan een aanbieding toe te voegen &#x200B;](../../offer-library/add-constraints.md)
+Als voor sommige van uw aanbiedingen de functie voor het toewijzen van frequenties is ingeschakeld om te bepalen hoe vaak het aantal bijschriften wordt teruggezet, wordt de teller binnen 3 seconden bijgewerkt en beschikbaar in een Edge-beslissing voor de API voor besluitvorming. [ Leer hoe te om beperkingen aan een aanbieding toe te voegen ](../../offer-library/add-constraints.md)
 
 ## API-mogelijkheden voor besluitvorming {#decisioning}
 

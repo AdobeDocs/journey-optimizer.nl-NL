@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Gebruik van contextgegevens
 description: Gebruik van contextgegevens
 redpen-status: CREATED_||_2025-08-11_21-02-37
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: 09ba2a43-f7f3-4414-b7b3-64c9932ff6c7
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
 
 ---
-
 
 # Gebruik van contextgegevens{#section-overview}
 
@@ -20,7 +20,7 @@ Met contextgegevens kan Adobe Journey Optimizer slimmere en meer persoonlijke er
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met contextgegevens
 
@@ -30,7 +30,7 @@ Leer hoe u contextgegevens kunt gebruiken in de Adobe Journey Optimizer-beslissi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Contextgegevens gebruiken in Edge-beslissingsverzoeken
 
@@ -40,7 +40,7 @@ Ontdek hoe u contextgegevens kunt doorgeven in Edge-beslissingsverzoeken om pers
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Contextgegevens gebruiken in beslissingsverzoeken en kwalificatieregels
 

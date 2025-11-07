@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Actieconfiguratie
 description: Actieconfiguratie
 redpen-status: CREATED_||_2025-08-11_21-11-53
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: 4ce42dab-7e8f-454d-8f34-e713312ad7c5
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
 
 ---
-
 
 # Actieconfiguratie{#section-overview}
 
@@ -20,7 +20,7 @@ Met de configuratie van handelingen in Adobe Journey Optimizer kunt u uw klantri
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met aangepaste handelingen
 
@@ -30,7 +30,7 @@ Leer hoe u aangepaste acties in Adobe Journey Optimizer configureert en gebruikt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Hoe te om de Acties van de Douane te vormen
 
@@ -40,7 +40,7 @@ Stapsgewijze zelfstudie voor het instellen van aangepaste handelingen, waaronder
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Het gebruiken van de Reacties van de Vraag van API in Acties van de Douane
 

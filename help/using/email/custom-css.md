@@ -23,17 +23,17 @@ ht-degree: 1%
 >title="Geef uw eigen CSS op"
 >abstract="Voor meer flexibiliteit en controle over de weergave van uw inhoud kunt u direct aangepaste CSS toevoegen in de e-mailtoepassing van Designer om geavanceerde en specifieke opmaak toe te passen."
 
-Wanneer het ontwerpen van uw e-mails, kunt u uw eigen douaneCSS direct binnen [!DNL Journey Optimizer] [&#x200B; E-mailDesigner &#x200B;](get-started-email-design.md) toevoegen. Met deze functie kunt u geavanceerde en specifieke stijlen toepassen, voor meer flexibiliteit en controle over de weergave van uw inhoud.
+Wanneer het ontwerpen van uw e-mails, kunt u uw eigen douaneCSS direct binnen [!DNL Journey Optimizer] [ E-mailDesigner ](get-started-email-design.md) toevoegen. Met deze functie kunt u geavanceerde en specifieke stijlen toepassen, voor meer flexibiliteit en controle over de weergave van uw inhoud.
 
 ## Aangepaste CSS definiëren {#define-custom-css}
 
 Volg onderstaande stappen om aangepaste CSS toe te voegen aan uw e-mailinhoud.
 
-1. Verzeker er wat inhoud die in E-mail Designer wordt bepaald door minstens één [&#x200B; component &#x200B;](content-components.md) toe te voegen.
+1. Verzeker er wat inhoud die in E-mail Designer wordt bepaald door minstens één [ component ](content-components.md) toe te voegen.
 
 1. Selecteer **[!UICONTROL Body]** in het vak **[!UICONTROL Navigation tree]** links of boven in het rechtervenster. De sectie **[!UICONTROL CSS styles]** wordt rechts weergegeven.
 
-   ![&#x200B; selecteer Add douane CSS knoop &#x200B;](assets/email-body-css-styles.png){width="85%"}
+   ![ selecteer Add douane CSS knoop ](assets/email-body-css-styles.png){width="85%"}
 
    >[!NOTE]
    >
@@ -47,15 +47,15 @@ Volg onderstaande stappen om aangepaste CSS toe te voegen aan uw e-mailinhoud.
 
 1. Voer uw CSS-code in in het speciale tekstgebied dat wordt weergegeven. Zorg ervoor dat de aangepaste CSS geldig is en de juiste syntaxis volgt. [Meer informatie](#use-valid-css)
 
-   ![&#x200B; ga douane CSS in het specifieke tekstgebied &#x200B;](assets/email-body-custom-css.png){width="65%"} in
+   ![ ga douane CSS in het specifieke tekstgebied ](assets/email-body-custom-css.png){width="65%"} in
 
    >[!NOTE]
    >
-   >Wanneer het gebruiken van a [&#x200B; malplaatje met gesloten inhoud &#x200B;](../content-management/content-locking.md#use), kunt u geen douane CSS aan uw inhoud toevoegen. Het knoplabel verandert in **[!UICONTROL View custom CSS]** en eventuele aangepaste CSS die al in de inhoud aanwezig is, is alleen-lezen.
+   >Wanneer het gebruiken van a [ malplaatje met gesloten inhoud ](../content-management/content-locking.md#use), kunt u geen douane CSS aan uw inhoud toevoegen. Het knoplabel verandert in **[!UICONTROL View custom CSS]** en eventuele aangepaste CSS die al in de inhoud aanwezig is, is alleen-lezen.
 
-1. Sla uw aangepaste CSS op en controleer of uw aangepaste CSS correct is toegepast op uw inhoud. Als dit niet het geval is, controleer de [&#x200B; sectie van het Oplossen van problemen &#x200B;](#troubleshooting).
+1. Sla uw aangepaste CSS op en controleer of uw aangepaste CSS correct is toegepast op uw inhoud. Als dit niet het geval is, controleer de [ sectie van het Oplossen van problemen ](#troubleshooting).
 
-   ![&#x200B; selecteer Add douane CSS knoop &#x200B;](assets/email-body-custom-css-applied.png){width="85%"}
+   ![ selecteer Add douane CSS knoop ](assets/email-body-custom-css-applied.png){width="85%"}
 
 1. Als u alle inhoud verwijdert, verdwijnt de sectie en wordt de eerder gedefinieerde aangepaste CSS niet meer toegepast.
 
@@ -174,7 +174,7 @@ body {
 
 Uw aangepaste CSS wordt aan het einde van de sectie `<head>` toegevoegd als onderdeel van een `<style>` -tag met het kenmerk `data-name="global-custom"` , zoals in het onderstaande voorbeeld. Op deze manier weet u zeker dat de aangepaste stijlen globaal op de inhoud worden toegepast.
 
-+++ Zie voorbeeld
++++ Zie voorbeeld 
 
 ```html
 <!DOCTYPE html>
@@ -218,7 +218,7 @@ De aangepaste CSS wordt niet geïnterpreteerd of gevalideerd door het deelvenste
 
 Houd rekening met het volgende als u aangepaste CSS wilt gebruiken met inhoud die is geïmporteerd in de e-mailtoepassing Designer:
 
-* Als u externe HTML-inhoud met inbegrip van CSS importeert, tenzij u die inhoud converteert, bevindt de inhoud zich in **[!UICONTROL Compatibility mode]** , waar de sectie **[!UICONTROL CSS styles]** niet beschikbaar is. [&#x200B; leer meer bij het invoeren van bestaande inhoud &#x200B;](existing-content.md)
+* Als u externe HTML-inhoud met inbegrip van CSS importeert, tenzij u die inhoud converteert, bevindt de inhoud zich in **[!UICONTROL Compatibility mode]** , waar de sectie **[!UICONTROL CSS styles]** niet beschikbaar is. [ leer meer bij het invoeren van bestaande inhoud ](existing-content.md)
 
 * Als u inhoud importeert die is gemaakt met de e-mailtoepassing, inclusief CSS die is toegepast via de optie **[!UICONTROL Add custom CSS]** , worden de eerder toegepaste CSS zichtbaar en bewerkbaar met dezelfde optie.
 
@@ -229,27 +229,27 @@ Houd rekening met het volgende als u aangepaste CSS wilt gebruiken met inhoud di
 
 Houd rekening met de onderstaande opties als uw aangepaste CSS niet wordt toegepast.
 
-* Zorg ervoor dat uw CSS geldig is en geen syntaxisfouten bevat (zoals ontbrekende accolades, onjuiste eigenschapsnamen). [&#x200B; leer hoe &#x200B;](#use-valid-css)
+* Zorg ervoor dat uw CSS geldig is en geen syntaxisfouten bevat (zoals ontbrekende accolades, onjuiste eigenschapsnamen). [ leer hoe ](#use-valid-css)
 
 * Zorg ervoor dat uw CSS wordt toegevoegd aan de tag `<style>` met het kenmerk `data-name="global-custom"` .
 
 * Controleer of het kenmerk `global-custom` set to `data-disabled` is ingesteld voor de stijltag `true` . In dat geval wordt de aangepaste CSS niet toegepast.
 
-+++ Bijvoorbeeld:
+  +++ Bijvoorbeeld:
 
   ```html
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-+++
+  +++
 
-* Zorg ervoor dat uw CSS niet door andere CSS regels, met inbegrip van om het even welk [&#x200B; thema &#x200B;](apply-email-themes.md) wordt met voeten getreden die op uw inhoud wordt toegepast.
+* Zorg ervoor dat uw CSS niet door andere CSS regels, met inbegrip van om het even welk [ thema ](apply-email-themes.md) wordt met voeten getreden die op uw inhoud wordt toegepast.
 
    * Gebruik de browsergereedschappen voor ontwikkelaars om de inhoud te controleren en te controleren of uw CSS zich richt op de juiste kiezers.
 
    * Voeg `!important` aan uw declaraties toe om ervoor te zorgen dat deze voorrang krijgen.
 
-+++ Bijvoorbeeld:
+     +++ Bijvoorbeeld:
 
      ```css
      .acr-Form {
@@ -257,4 +257,4 @@ Houd rekening met de onderstaande opties als uw aangepaste CSS niet wordt toegep
      }
      ```
 
-+++
+     +++

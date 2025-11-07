@@ -38,7 +38,7 @@ Vanuit dit scherm kunt u berekende kenmerken samenstellen door regels te maken d
 
 Zodra uw regel klaar is, publiceer het gegevens verwerkte attribuut om het in andere stroomafwaartse diensten, met inbegrip van Journey Optimizer ter beschikking te stellen.
 
-De gedetailleerde informatie bij het creëren van en het beheren van gegevens verwerkte attributen is beschikbaar in de [&#x200B; Berekende attributendocumentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html?lang=nl-NL)
+De gedetailleerde informatie bij het creëren van en het beheren van gegevens verwerkte attributen is beschikbaar in de [ Berekende attributendocumentatie ](https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html)
 
 ## Berekende kenmerken toevoegen aan de Adobe Experience Platform-gegevensbron {#source}
 
@@ -58,18 +58,18 @@ Ga als volgt te werk om berekende kenmerken aan de gegevensbron toe te voegen:
 
    ![](assets/computed-attributes-fieldgroup.png)
 
-De berekende kenmerken zijn nu beschikbaar voor gebruik in Journey Optimizer. [&#x200B; Leer hoe te om gegevens verwerkte attributen in Journey Optimizer te gebruiken &#x200B;](#use)
+De berekende kenmerken zijn nu beschikbaar voor gebruik in Journey Optimizer. [ Leer hoe te om gegevens verwerkte attributen in Journey Optimizer te gebruiken ](#use)
 
-De gedetailleerde informatie bij het toevoegen van gebiedsgroepen aan de gegevensbron van Adobe Experience Platform is beschikbaar in [&#x200B; deze sectie &#x200B;](../datasource/adobe-experience-platform-data-source.md).
+De gedetailleerde informatie bij het toevoegen van gebiedsgroepen aan de gegevensbron van Adobe Experience Platform is beschikbaar in [ deze sectie ](../datasource/adobe-experience-platform-data-source.md).
 
 ## Berekende kenmerken gebruiken in Journey Optimizer {#use}
 
 >[!NOTE]
 >
->Voordat u begint, moet u controleren of u uw berekende kenmerken aan de Adobe Experience Platform-gegevensbron hebt toegevoegd. [&#x200B; leer hoe in deze sectie &#x200B;](#source).
+>Voordat u begint, moet u controleren of u uw berekende kenmerken aan de Adobe Experience Platform-gegevensbron hebt toegevoegd. [ leer hoe in deze sectie ](#source).
 
 Computerkenmerken bieden veelzijdige mogelijkheden binnen Journey Optimizer. Gebruik deze voor verschillende doeleinden, zoals het personaliseren van de inhoud van berichten, het maken van nieuwe soorten publiek of het splitsen van reizen op basis van een specifiek berekend kenmerk. U kunt bijvoorbeeld het pad van een rit splitsen op basis van de totale aankopen van een profiel in de laatste drie weken door één berekend kenmerk toe te voegen aan een Condition-activiteit. U kunt een e-mailbericht ook personaliseren door het laatst bekeken item voor elk profiel weer te geven.
 
-Aangezien de gegevens verwerkte attributen profielkenmerkgebieden zijn die op uw schema van de profielunie worden gecreeerd, toegang tot hen van de verpersoonlijkingsredacteur binnen de **gebiedsgroep 0&rbrace; SystemComputedAttributes &lbrace;.** Daarna voegt u berekende kenmerken toe aan uw expressies. Deze worden op dezelfde manier behandeld als andere profielkenmerken om de gewenste bewerkingen uit te voeren.
+Aangezien de gegevens verwerkte attributen profielkenmerkgebieden zijn die op uw schema van de profielunie worden gecreeerd, toegang tot hen van de verpersoonlijkingsredacteur binnen de **gebiedsgroep 0} SystemComputedAttributes {.** Daarna voegt u berekende kenmerken toe aan uw expressies. Deze worden op dezelfde manier behandeld als andere profielkenmerken om de gewenste bewerkingen uit te voeren.
 
 ![](assets/computed-attributes-ajo.png)

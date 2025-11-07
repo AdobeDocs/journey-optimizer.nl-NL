@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Gegevensbronconfiguratie
 description: Gegevensbronconfiguratie
 redpen-status: CREATED_||_2025-08-11_21-11-22
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: e940bc83-77d2-4c5a-9895-20534d70e7ee
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
 
 ---
-
 
 # Gegevensbronconfiguratie{#section-overview}
 
@@ -20,7 +20,7 @@ Met gegevensbronnen in Adobe Journey Optimizer kunt u verbinding maken met syste
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met gegevensbronnen
 
@@ -30,7 +30,7 @@ Leer over gegevensbronnen, hun types, gebruiksgevallen, en gebiedsgroepen. Bevat
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Hoe te om een Gegevens Source te vormen
 
@@ -40,7 +40,7 @@ Stapsgewijze handleiding voor het configureren van gegevensbronnen en het behere
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Experience Platform Data Source
 
@@ -50,7 +50,7 @@ Leer hoe u de ingebouwde Adobe Experience Platform-gegevensbron configureert voo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Externe gegevensbronnen configureren
 

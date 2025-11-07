@@ -4,13 +4,13 @@ description: Leer hoe u een aanvraag voor het publiceren van reizen en campagnes
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+exl-id: 8f4260b5-98df-4350-bd9b-680c3986ffe6
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%
 
 ---
-
 
 # Een aanvraag bekijken en goedkeuren {#approve-requests}
 
@@ -21,7 +21,7 @@ Als u als fiatteur bent geselecteerd, ontvangt u een melding via e-mail en een J
 ![](assets/request-notification.png)
 
 Als u de reis/campagne wilt bekijken, opent u deze vanuit de e-mail of waarschuwing en controleert u de instellingen zoals het publiek, de inhoud of de instellingen.
-Zodra gedaan, kunt u of [&#x200B; goedkeuren en de reis/de campagne &#x200B;](#approve) publiceren, of [&#x200B; verzoekveranderingen alvorens het &#x200B;](#changes) te activeren.
+Zodra gedaan, kunt u of [ goedkeuren en de reis/de campagne ](#approve) publiceren, of [ verzoekveranderingen alvorens het ](#changes) te activeren.
 
 >[!NOTE]
 >
@@ -49,4 +49,4 @@ Nadat de aanvraag is verzonden, wordt de maker van de reis/campagne via e-mail o
 
 >[!NOTE]
 >
-> Als u geen goedkeuringsmelding ontvangt via een e-mail, moet u uw abonnementsvoorkeuren bijwerken in uw profielen voor Experiencen Cloud. [Meer informatie](https://experienceleague.adobe.com/nl/docs/core-services/interface/features/account-preferences)
+> Als u geen goedkeuringsmelding ontvangt via een e-mail, moet u uw abonnementsvoorkeuren bijwerken in uw Experience Cloud-profielen. [Meer informatie](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)

@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Rapportage
 description: Rapportage
 redpen-status: CREATED_||_2025-08-11_20-54-26
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: 37e906eb-8ae0-4988-93bf-00eb135199b2
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 3%
 
 ---
-
 
 # Rapportage{#section-overview}
 
@@ -20,7 +20,7 @@ Bij rapportage in Adobe Journey Optimizer gaat het er allemaal om om onbewerkte 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Inleiding tot rapportage
 
@@ -30,7 +30,7 @@ Leer meer over rapportagemogelijkheden in Adobe Journey Optimizer, waaronder liv
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Live rapporten
 
@@ -40,7 +40,7 @@ Ontdek rapportagetools in real-time om reizen, campagnes, abonnementen en commun
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Alle tijdrapportage
 
@@ -50,7 +50,7 @@ Begrijp metriek, integratie met Customer Journey Analytics, en hulpmiddelen voor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Aangepaste reisrapportage
 

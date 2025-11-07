@@ -17,15 +17,15 @@ ht-degree: 0%
 
 # Het gebruiksdashboard voor licenties {#license-usage}
 
-Het [!DNL Adobe Journey Optimizer] [&#x200B; gebruikersinterface &#x200B;](../start/user-interface.md) verstrekt een dashboard dat belangrijke informatie over het de vergunningsgebruik van uw organisatie toont, zoals die tijdens een dagelijkse momentopname wordt gevangen.
+Het [!DNL Adobe Journey Optimizer] [ gebruikersinterface ](../start/user-interface.md) verstrekt een dashboard dat belangrijke informatie over het de vergunningsgebruik van uw organisatie toont, zoals die tijdens een dagelijkse momentopname wordt gevangen.
 
 Ga naar **[!UICONTROL Administration]** > **[!UICONTROL License Usage]** om dit dashboard te openen. Hierdoor wordt het tabblad **[!UICONTROL Overview]** geopend, waarin het dashboard wordt weergegeven.
 
-![&#x200B; het dashboard van het gebruiksdashboard van de Vergunning &#x200B;](assets/license-usage-dashboard.png)
+![ het dashboard van het gebruiksdashboard van de Vergunning ](assets/license-usage-dashboard.png)
 
 >[!NOTE]
 >
->* Om het dashboard te bekijken, moet u de [&#x200B; toestemming hebben van het Gebruik Dashboard van het Gebruik van de Vergunning van 0&rbrace; Mening.](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=nl-NL#available-permissions){target="_blank"}
+>* Om het dashboard te bekijken, moet u de [ toestemming hebben van het Gebruik Dashboard van het Gebruik van de Vergunning van 0} Mening.](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"}
 >
 >* Bepaalde metriek (bijvoorbeeld computeruren, e-mails) worden niet weergegeven voor ontwikkelingssandboxen, zoals aangegeven door `N/A` in de quotakolom. Alleen waarden die niet &#39;null&#39; zijn, worden weergegeven in het dashboard: als de waarden nul of dicht bij nul zijn, worden ze niet gevuld.
 
@@ -34,6 +34,6 @@ Voor [!DNL Adobe Journey Optimizer], staat het dashboard u toe om het aantal **t
 
 Meer informatie vindt u in de documentatie van Adobe Experience Platform:
 
-* [&#x200B; het dashboard van het gebruiksdashboard van de Vergunning &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=nl-NL){target="_blank"}
-* [&#x200B; het onderzoeken van het dashboard van het vergunningsgebruik &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=nl-NL#exploring-the-license-usage-dashboard){target="_blank"}
-* [&#x200B; Beschikbare metriek &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=nl-NL#available-metrics){target="_blank"}
+* [ het dashboard van het gebruiksdashboard van de Vergunning ](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
+* [ het onderzoeken van het dashboard van het vergunningsgebruik ](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
+* [ Beschikbare metriek ](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#available-metrics){target="_blank"}

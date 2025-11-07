@@ -20,8 +20,8 @@ De functies van de wiskunde verstrekken essentiële wiskundige verrichtingen voo
 
 Gebruik wiskundige functies wanneer u wilt:
 
-* Produceer willekeurige waarden voor het testen, het bemonsteren, of randomisatie ([&#x200B; willekeurig &#x200B;](#random))
-* Rond decimale aantallen aan het dichtstbijzijnde geheel voor schonere gegevenspresentatie ([&#x200B; rond &#x200B;](#round))
+* Produceer willekeurige waarden voor het testen, het bemonsteren, of randomisatie ([ willekeurig ](#random))
+* Rond decimale aantallen aan het dichtstbijzijnde geheel voor schonere gegevenspresentatie ([ rond ](#round))
 * Wiskundige berekeningen uitvoeren op numerieke velden
 * Numerieke waarden transformeren voor bedrijfslogica en besluitvorming
 

@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Personalisatie
 description: Personalisatie
 redpen-status: CREATED_||_2025-08-12_00-36-08
-source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
+exl-id: dadda702-fc45-46c6-91c5-2887ff732a95
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 1%
 
 ---
-
 
 # Personalisatie{#section-overview}
 
@@ -20,7 +20,7 @@ Met Personalization in Adobe Journey Optimizer kunt u op maat gesneden, indrukwe
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met Personalization
 
@@ -30,7 +30,7 @@ Leer de grondbeginselen van verpersoonlijking in Adobe Journey Optimizer, met in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Personalization toevoegen en valideren
 
@@ -40,7 +40,7 @@ Stel de verpersoonlijkingseditor in als u aangepaste inhoud voor e-mails, pushbe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Personalization-syntaxis begrijpen
 
@@ -50,7 +50,7 @@ Dive in de regels en de voorbeelden van op Handlebars-Gebaseerde verpersoonlijki
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Expressiefragmenten opnieuw gebruiken
 
@@ -60,7 +60,7 @@ Gebruik herbruikbare expressiefragmenten voor efficiënte en consistente persona
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 Adobe Experience Platform-gegevens gebruiken voor Personalization (Beta)
 
@@ -70,7 +70,7 @@ Leer om de datasets van AEP met de hulpfunctie &quot;datasetLookup&quot;te gebru
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Referentiehandleiding voor hulplijnfuncties
 

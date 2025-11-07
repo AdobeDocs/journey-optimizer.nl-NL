@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: E-maillevering
 description: E-maillevering
 redpen-status: CREATED_||_2025-08-11_20-34-41
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: 1657152e-4a93-4664-a56f-3ea7f9e69098
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
 
 ---
-
 
 # E-maillevering{#section-overview}
 
@@ -20,7 +20,7 @@ De e-maillevering gaat er allemaal om ervoor te zorgen dat uw e-mails de inbox v
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Inleiding tot e-maillevering
 
@@ -30,7 +30,7 @@ Leer de concepten, aanbevolen procedures en gereedschappen voor het optimalisere
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Onderdrukkingslijsten
 
@@ -40,7 +40,7 @@ Ontdek hoe suppressielijsten de reputatie van de afzender beschermen en e-maille
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Voldoen aan nieuwe DMARC-vereisten
 

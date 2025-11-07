@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Classificaties maken
 description: Classificaties maken
 redpen-status: CREATED_||_2025-08-11_21-00-00
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: c768d4b4-470d-4c53-b71b-0d09f89100e9
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
 
 ---
-
 
 # Classificaties maken{#section-overview}
 
@@ -20,7 +20,7 @@ Met lezingen in Adobe Journey Optimizer kunt u bepalen welke aanbiedingen als ee
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Aan de slag met waarderingen
 
@@ -30,7 +30,7 @@ Leer de grondbeginselen van classificaties in Adobe Journey Optimizer, met inbeg
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Willekeurige formules maken en gebruiken
 
@@ -40,7 +40,7 @@ Volg stapsgewijze instructies om rangschikkingsformules te maken met PQL-syntaxi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 AI-modellen voor waardering van aanbiedingen
 

@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: De database opvragen
 description: De database opvragen
 redpen-status: CREATED_||_2025-08-11_20-25-18
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: 57ea921d-e881-44fb-b20a-a46028180e64
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
 
 ---
-
 
 # De database opvragen{#section-overview}
 
@@ -20,7 +20,7 @@ Ontdek hoe u het volledige potentieel van uw publieksgegevens kunt ontsluiten me
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Het gebruiken van de Bouwer van de Regel voor Geordende Campagnes
 
@@ -30,7 +30,7 @@ Leer hoe te om publiek tot stand te brengen en te beheren richtend en segmenteri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Uw eerste regel maken in Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Stapsgewijze zelfstudie over het maken en valideren van regels voor het filteren
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Expressies bewerken in Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Stel de Expressieeditor in om queryregels handmatig te definiëren en geavanceer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Ophalen van query&#39;s opnieuw samenstellen in Adobe Journey Optimizer
 

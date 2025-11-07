@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Soorten publiek maken
 description: Soorten publiek maken
 redpen-status: CREATED_||_2025-08-11_20-45-40
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: d6d73fe7-4442-474b-8d2d-49e280c01a9e
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 1%
 
 ---
-
 
 # Soorten publiek maken{#section-overview}
 
@@ -20,7 +20,7 @@ Het creëren van publiek in Adobe Journey Optimizer machtigt u om, de groepen me
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Segmentdefinities maken in Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Leer hoe te om publiekssegmenten, met inbegrip van geleidelijke instructies voor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Aan de slag met Audience Composition
 
@@ -40,7 +40,7 @@ Ontdek hoe u workflows kunt maken die bestaande soorten publiek combineren, verr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/file-upload.svg)
 
 Hoe te om soorten publiek in te voeren die Aangepaste CSV uploaden gebruiken
 
@@ -50,7 +50,7 @@ Ontdek hoe u publiek importeert via CSV-bestanden en kenmerken toewijst aan prof
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Samenstelling van Federated-doelgroep
 

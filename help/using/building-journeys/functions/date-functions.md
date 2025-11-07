@@ -20,9 +20,9 @@ Met Date-functies kunt u datum- en tijdwaarden bewerken en gebruiken in uw reise
 
 Gebruik datumfuncties wanneer u dit moet doen:
 
-* Krijg de huidige tijd of de datum met specifieke timezone behandeling ([&#x200B; nu &#x200B;](#now), [&#x200B; nowWithDelta &#x200B;](#nowWithDelta), [&#x200B; currentTimeInMillis &#x200B;](#currentTimeInMillis))
-* Controle als een datum binnen een specifieke tijdwaaier valt ([&#x200B; inLastDays &#x200B;](#inLastDays), [&#x200B; inLastHours &#x200B;](#inLastHours), [&#x200B; inLastMonths &#x200B;](#inLastMonths), [&#x200B; inLastYaren &#x200B;](#inLastYears), [&#x200B; inNextDays &#x200B;](#inNextDays), [&#x200B; inNextHours &#x200B;](#inNextHours), [&#x200B; NextMonths &#x200B;](#inNextMonths), [&#x200B; inNextYear &#x200B;](#inNextYears))
-* Wijzig datum en tijdcomponenten ([&#x200B; setHours &#x200B;](#setHours), [&#x200B; setDays &#x200B;](#setDays), [&#x200B; updateTimeZone &#x200B;](#updateTimeZone))
+* Krijg de huidige tijd of de datum met specifieke timezone behandeling ([ nu ](#now), [ nowWithDelta ](#nowWithDelta), [ currentTimeInMillis ](#currentTimeInMillis))
+* Controle als een datum binnen een specifieke tijdwaaier valt ([ inLastDays ](#inLastDays), [ inLastHours ](#inLastHours), [ inLastMonths ](#inLastMonths), [ inLastYaren ](#inLastYears), [ inNextDays ](#inNextDays), [ inNextHours ](#inNextHours), [ NextMonths ](#inNextMonths), [ inNextYear ](#inNextYears))
+* Wijzig datum en tijdcomponenten ([ setHours ](#setHours), [ setDays ](#setDays), [ updateTimeZone ](#updateTimeZone))
 * Op tijd gebaseerde berekeningen en vergelijkingen uitvoeren
 * Omzetten tussen verschillende tijdnotaties en weergaven
 
@@ -346,7 +346,7 @@ Retourneert true.
 
 ## now {#now}
 
-Retourneert de huidige datum in de datumtijdnotatie. Voor meer informatie over gegevenstypes, verwijs naar [&#x200B; deze pagina &#x200B;](../expression/data-types.md).
+Retourneert de huidige datum in de datumtijdnotatie. Voor meer informatie over gegevenstypes, verwijs naar [ deze pagina ](../expression/data-types.md).
 
 +++Syntaxis
 
@@ -390,7 +390,7 @@ Keert 2023-06-03T08 :30+02 :00 terug.
 
 ## nowWithDelta {#nowWithDelta}
 
-Retourneert de huidige datumtijd inclusief een verschuiving. Als een tijdzone-id wordt opgegeven, wordt de verschuiving van de tijdzone toegepast. Voor meer informatie over gegevenstypes, verwijs naar [&#x200B; deze pagina &#x200B;](../expression/data-types.md).
+Retourneert de huidige datumtijd inclusief een verschuiving. Als een tijdzone-id wordt opgegeven, wordt de verschuiving van de tijdzone toegepast. Voor meer informatie over gegevenstypes, verwijs naar [ deze pagina ](../expression/data-types.md).
 
 +++Syntaxis
 
@@ -404,7 +404,7 @@ Retourneert de huidige datumtijd inclusief een verschuiving. Als een tijdzone-id
 |--- |--- |
 | delta | positieve of negatieve gehele waarde |
 | datumonderdeel | jaar, maanden, dagen, uren, minuten of seconden als een tekenreeks |
-| tijdzone-id | tekenreeksrepresentatie van de tijdzonewaarde. Voor meer, zie [&#x200B; types van Gegevens &#x200B;](../expression/data-types.md). Tijdzone-id moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn. |
+| tijdzone-id | tekenreeksrepresentatie van de tijdzonewaarde. Voor meer, zie [ types van Gegevens ](../expression/data-types.md). Tijdzone-id moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn. |
 
 +++
 

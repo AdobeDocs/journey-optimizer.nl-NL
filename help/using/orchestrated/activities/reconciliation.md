@@ -57,7 +57,7 @@ Met de activiteit **[!UICONTROL Enrichment]** kunt u aanvullende gegevens toevoe
 >id="ajo_orchestration_reconciliation_targeting_selection"
 >title="Doeldimensie selecteren"
 >abstract="Selecteer het richten afmeting voor uw binnenkomende gegevens met elkaar in overeenstemming te brengen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=nl-NL#targeting-dimensions" text="Doelafmetingen"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html#targeting-dimensions" text="Doelafmetingen"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_keep_unreconciled_data"
@@ -91,7 +91,7 @@ Voer de volgende stappen uit om de **[!UICONTROL Reconciliation]** -activiteit t
 
 1. Klik op **[!UICONTROL Add rule]** als u meer overeenkomende regels wilt toevoegen. Er moet aan alle voorwaarden worden voldaan voordat een overeenkomst plaatsvindt.
 
-1. Kies **[!UICONTROL Advanced reconciliation conditions]** voor complexere voorwaarden. Gebruik de [&#x200B; regelbouwer &#x200B;](../orchestrated-rule-builder.md) om douanelogica te bepalen.
+1. Kies **[!UICONTROL Advanced reconciliation conditions]** voor complexere voorwaarden. Gebruik de [ regelbouwer ](../orchestrated-rule-builder.md) om douanelogica te bepalen.
 
 1. Als u wilt filteren welke gegevens moeten worden afgestemd, klikt u op **[!UICONTROL Create filter]** en definieert u de voorwaarde in de regelbouwer.
 

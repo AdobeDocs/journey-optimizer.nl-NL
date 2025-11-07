@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Campagne organiseren {#orchestrate}
 
-Zodra u [&#x200B; een Geordende campagne &#x200B;](gs-campaign-creation.md) hebt gecreeerd, kunt u beginnen de verschillende taken te ordenen het zal uitvoeren. Hiervoor is een visueel canvas beschikbaar, waarmee u een geordend campagnecanvas kunt maken. Binnen dit canvas kunt u verschillende activiteiten toevoegen en deze in een opeenvolgende volgorde verbinden.
+Zodra u [ een Geordende campagne ](gs-campaign-creation.md) hebt gecreeerd, kunt u beginnen de verschillende taken te ordenen het zal uitvoeren. Hiervoor is een visueel canvas beschikbaar, waarmee u een geordend campagnecanvas kunt maken. Binnen dit canvas kunt u verschillende activiteiten toevoegen en deze in een opeenvolgende volgorde verbinden.
 
 ## Activiteiten toevoegen {#add}
 
@@ -25,7 +25,7 @@ Er wordt een lijst weergegeven met activiteiten die kunnen worden toegevoegd aan
 
 ![](assets/orchestrated-start.png){zoomable="yes"}
 
-Nadat een activiteit aan het canvas is toegevoegd, wordt er een rechterdeelvenster weergegeven waarmee u het kunt configureren met specifieke instellingen. De gedetailleerde informatie over hoe te om elke activiteit te vormen is beschikbaar in [&#x200B; deze sectie &#x200B;](activities/about-activities.md).
+Nadat een activiteit aan het canvas is toegevoegd, wordt er een rechterdeelvenster weergegeven waarmee u het kunt configureren met specifieke instellingen. De gedetailleerde informatie over hoe te om elke activiteit te vormen is beschikbaar in [ deze sectie ](activities/about-activities.md).
 
 ![](assets/orchestrated-configure-activities.png){zoomable="yes"}
 
@@ -41,15 +41,15 @@ De canvaswerkbalk bevat opties waarmee u de activiteiten eenvoudig kunt manipule
 
 ![](assets/orchestrated-toolbar.png)
 
-![&#x200B; Veelvoudig pictogram van de selectiemodus &#x200B;](assets/do-not-localize/canvas-multiple.svg) Uitgezochte veelvoudige activiteiten om hen allen in één keer te schrappen of hen te kopiëren en te kleven. [&#x200B; Leer hoe te om activiteiten kopiëren-te kleven &#x200B;](#copy)
+![ Veelvoudig pictogram van de selectiemodus ](assets/do-not-localize/canvas-multiple.svg) Uitgezochte veelvoudige activiteiten om hen allen in één keer te schrappen of hen te kopiëren en te kleven. [ Leer hoe te om activiteiten kopiëren-te kleven ](#copy)
 
-![&#x200B; roteer pictogram &#x200B;](assets/do-not-localize/canvas-rotate.svg) verdraai het canvas verticaal.
+![ roteer pictogram ](assets/do-not-localize/canvas-rotate.svg) verdraai het canvas verticaal.
 
-![&#x200B; Passend aan het het schermpictogram &#x200B;](assets/do-not-localize/canvas-fit.svg) past het het gezoemniveau van het canvas aan uw scherm aan.
+![ Passend aan het het schermpictogram ](assets/do-not-localize/canvas-fit.svg) past het het gezoemniveau van het canvas aan uw scherm aan.
 
-![&#x200B; het pictogram van het Gezoem uit &#x200B;](assets/do-not-localize/canvas-zoomout.svg) ![&#x200B; Gezoem binnen pictogram &#x200B;](assets/do-not-localize/canvas-zoomin.svg) Gezoem uit of in het canvas.
+![ het pictogram van het Gezoem uit ](assets/do-not-localize/canvas-zoomout.svg) ![ Gezoem binnen pictogram ](assets/do-not-localize/canvas-zoomin.svg) Gezoem uit of in het canvas.
 
-![&#x200B; pictogram van de montages van de Campagne &#x200B;](assets/do-not-localize/canvas-map.svg) opent een momentopname van het canvas dat u toont wordt gevestigd.
+![ pictogram van de montages van de Campagne ](assets/do-not-localize/canvas-map.svg) opent een momentopname van het canvas dat u toont wordt gevestigd.
 
 ### Activiteiten beheren {#manage}
 
@@ -57,17 +57,17 @@ Wanneer u activiteiten toevoegt, zijn er actieknoppen beschikbaar in het deelven
 
 ![](assets/activity-action.png)
 
-![&#x200B; het pictogram van de Schrapping &#x200B;](assets/do-not-localize/activity-delete.svg) schrap de activiteit van het canvas.
+![ het pictogram van de Schrapping ](assets/do-not-localize/activity-delete.svg) schrap de activiteit van het canvas.
 
-![&#x200B; onbruikbaar maken pictogram &#x200B;](assets/do-not-localize/activity-disable.svg) ![&#x200B; laat pictogram &#x200B;](assets/do-not-localize/activity-enable.svg) onbruikbaar maken/laat de activiteit toe. Wanneer de geordende campagne wordt uitgevoerd, worden activiteiten met een handicap en de volgende activiteiten op hetzelfde pad niet uitgevoerd en wordt de geordende campagne gestopt.
+![ onbruikbaar maken pictogram ](assets/do-not-localize/activity-disable.svg) ![ laat pictogram ](assets/do-not-localize/activity-enable.svg) onbruikbaar maken/laat de activiteit toe. Wanneer de geordende campagne wordt uitgevoerd, worden activiteiten met een handicap en de volgende activiteiten op hetzelfde pad niet uitgevoerd en wordt de geordende campagne gestopt.
 
-&lbrace;het pictogram van de Pauze ![&#x200B; &#x200B;](assets/do-not-localize/activity-pause.svg) hervatten pictogram ![&#x200B; Pauze/hervat de activiteit. &#x200B;](assets/do-not-localize/activity-resume.svg) Wanneer de Geordende campagne wordt uitgevoerd, pauzeert het bij de gepauzeerde activiteit. De bijbehorende taak en alle taken die deze in hetzelfde pad volgen, worden niet uitgevoerd.
+{het pictogram van de Pauze ![ ](assets/do-not-localize/activity-pause.svg) hervatten pictogram ![ Pauze/hervat de activiteit. ](assets/do-not-localize/activity-resume.svg) Wanneer de Geordende campagne wordt uitgevoerd, pauzeert het bij de gepauzeerde activiteit. De bijbehorende taak en alle taken die deze in hetzelfde pad volgen, worden niet uitgevoerd.
 
-U kunt elke activiteit op het canvas gebruiken als onderbrekingspunt om de uitvoering van de campagne te pauzeren. Dit betekent dat de campagne alleen wordt uitgevoerd totdat deze activiteit plaatsvindt en dat de uitvoering vervolgens wordt gepauzeerd. Terwijl het pauzeren van de uitvoering, houdt de segmenteringsmotor tijdelijke gegevens beschikbaar voor u aan voorproef. U kunt de binnenkomende overgang net voor de gepauzeerde activiteit selecteren om de getransplanteerde gegevens te bekijken. Leer meer op deze sectie: [&#x200B; Visuele stroom controle &#x200B;](../orchestrated/start-monitor-campaigns.md#flow)
+U kunt elke activiteit op het canvas gebruiken als onderbrekingspunt om de uitvoering van de campagne te pauzeren. Dit betekent dat de campagne alleen wordt uitgevoerd totdat deze activiteit plaatsvindt en dat de uitvoering vervolgens wordt gepauzeerd. Terwijl het pauzeren van de uitvoering, houdt de segmenteringsmotor tijdelijke gegevens beschikbaar voor u aan voorproef. U kunt de binnenkomende overgang net voor de gepauzeerde activiteit selecteren om de getransplanteerde gegevens te bekijken. Leer meer op deze sectie: [ Visuele stroom controle ](../orchestrated/start-monitor-campaigns.md#flow)
 
-![&#x200B; het pictogram van het Exemplaar &#x200B;](assets/do-not-localize/activity-copy.svg) Kopieer de activiteit. [&#x200B; Leer hoe te om activiteiten kopiëren-te kleven &#x200B;](#copy)
+![ het pictogram van het Exemplaar ](assets/do-not-localize/activity-copy.svg) Kopieer de activiteit. [ Leer hoe te om activiteiten kopiëren-te kleven ](#copy)
 
-![&#x200B; Logboeken en takenpictogram &#x200B;](assets/do-not-localize/activity-logs.svg) heb toegang tot de logboeken en de taken van de activiteit.
+![ Logboeken en takenpictogram ](assets/do-not-localize/activity-logs.svg) heb toegang tot de logboeken en de taken van de activiteit.
 
 Verscheidene **richtend** activiteiten, zoals **combineren** of **Deduplicatie**, staat u toe om de resterende bevolking te verwerken en het in een extra uitgaande overgang te omvatten. Bijvoorbeeld, als u a **Gesplitste** activiteit gebruikt, bestaat de aanvulling uit de bevolking die om het even welke eerder bepaalde ondergroepen niet aanpast. Activeer de optie **[!UICONTROL Generate complement]** als u deze mogelijkheid wilt gebruiken.
 
@@ -75,8 +75,8 @@ Verscheidene **richtend** activiteiten, zoals **combineren** of **Deduplicatie**
 
 U kunt activiteiten kopiëren en ze in elk geordend campagnecanvas plakken. De doelcampagne kan zich op een ander browsertabblad bevinden.
 
-* Om één activiteit te kopiëren, klik het ![&#x200B; pictogram van het Exemplaar &#x200B;](assets/do-not-localize/activity-copy.svg) knoop in de activiteiteneigenschappen ruit.
-* Om veelvoudige activiteiten te kopiëren, klik het ![&#x200B; Meerdere pictogram van de selectiewijze &#x200B;](assets/do-not-localize/canvas-multiple.svg) op de canvastoolbar.
+* Om één activiteit te kopiëren, klik het ![ pictogram van het Exemplaar ](assets/do-not-localize/activity-copy.svg) knoop in de activiteiteneigenschappen ruit.
+* Om veelvoudige activiteiten te kopiëren, klik het ![ Meerdere pictogram van de selectiewijze ](assets/do-not-localize/canvas-multiple.svg) op de canvastoolbar.
 
 | Eén activiteit kopiëren | Meerdere activiteiten kopiëren |
 |  ---  |  ---  |
@@ -107,4 +107,4 @@ Hiervoor zijn de volgende activiteiten toegevoegd:
 
 ## Volgende stappen {#next}
 
-Nadat het ontwerpen van het geordende campagneccanvas is voltooid, kunt u de geordende campagne uitvoeren en de voortgang van de verschillende taken volgen. [&#x200B; Leer hoe te om een Geordende campagne te beginnen en zijn uitvoering te controleren &#x200B;](start-monitor-campaigns.md)
+Nadat het ontwerpen van het geordende campagneccanvas is voltooid, kunt u de geordende campagne uitvoeren en de voortgang van de verschillende taken volgen. [ Leer hoe te om een Geordende campagne te beginnen en zijn uitvoering te controleren ](start-monitor-campaigns.md)

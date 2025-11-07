@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Gegevensconfiguratie
 description: Gegevensconfiguratie
 redpen-status: CREATED_||_2025-08-11_20-24-01
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: e1c20d14-4d0e-4ef9-9745-ca8ffe706f0b
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
 
 ---
-
 
 # Gegevensconfiguratie{#section-overview}
 
@@ -20,7 +20,7 @@ Gegevensconfiguratie in Adobe Journey Optimizer gaat allemaal over het opzetten 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Relationele schema&#39;s en gegevens beheren
 
@@ -30,7 +30,7 @@ Leer hoe te om relationele schema&#39;s tot stand te brengen en te beheren, data
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Hoe te om een Doelende Dimensie te vormen
 

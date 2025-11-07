@@ -26,7 +26,7 @@ Volg de onderstaande stappen om een voorvertoning weer te geven van uw aangepast
 
 >[!CAUTION]
 >
->U moet testprofielen beschikbaar hebben om te simuleren welke aanbiedingen aan hen zullen worden geleverd. Leer hoe te om [&#x200B; testprofielen &#x200B;](../audience/creating-test-profiles.md) tot stand te brengen.
+>U moet testprofielen beschikbaar hebben om te simuleren welke aanbiedingen aan hen zullen worden geleverd. Leer hoe te om [ testprofielen ](../audience/creating-test-profiles.md) tot stand te brengen.
 
 1. Selecteer **[!UICONTROL Simulate content]** tijdens de rit of campagne in de verpersoonlijkingseditor of in het inhoudsscherm.
 
@@ -36,11 +36,11 @@ Volg de onderstaande stappen om een voorvertoning weer te geven van uw aangepast
 
 1. Er wordt een voorvertoning van uw aangepaste ervaring op basis van code weergegeven.
 
-De gedetailleerde informatie over hoe te om testprofielen te selecteren en uw inhoud voor te vertonen is beschikbaar in [&#x200B; deze sectie &#x200B;](../content-management/preview.md).
+De gedetailleerde informatie over hoe te om testprofielen te selecteren en uw inhoud voor te vertonen is beschikbaar in [ deze sectie ](../content-management/preview.md).
 
 >[!NOTE]
 >
->Momenteel kunt u geen inhoud van het gebruikersinterface in een code-gebaseerde ervaringscampagne of reis simuleren gebruikend [&#x200B; Beslissing &#x200B;](../experience-decisioning/gs-experience-decisioning.md). Een alternerende actie is beschikbaar in [&#x200B; deze sectie &#x200B;](../experience-decisioning/create-decision.md#test-and-publish).
+>Momenteel kunt u geen inhoud van het gebruikersinterface in een code-gebaseerde ervaringscampagne of reis simuleren gebruikend [ Beslissing ](../experience-decisioning/gs-experience-decisioning.md). Een alternerende actie is beschikbaar in [ deze sectie ](../experience-decisioning/create-decision.md#test-and-publish).
 
 
 ## Voorvertonen op apparaat {#preview-on-device}
@@ -69,11 +69,11 @@ Wanneer u code-gebaseerde ervaringen voor Web-pagina&#39;s of mobiele apps bouwt
 
 >[!WARNING]
 >
->De voorproef op apparaat is niet beschikbaar wanneer het gebruiken van [&#x200B; besluitvormingsbeleid &#x200B;](../experience-decisioning/create-decision.md) of [&#x200B; verpersoonlijking &#x200B;](../personalization/personalization-build-expressions.md) contextafhankelijke attributen.
+>De voorproef op apparaat is niet beschikbaar wanneer het gebruiken van [ besluitvormingsbeleid ](../experience-decisioning/create-decision.md) of [ verpersoonlijking ](../personalization/personalization-build-expressions.md) contextafhankelijke attributen.
 
-1. Klik in het **[!UICONTROL Simulate]** -scherm op de knop **[!UICONTROL Open preview options]** . De voorproefopties hangen van het platform af dat in uw [&#x200B; wordt geselecteerd code-gebaseerde configuratie &#x200B;](code-based-configuration.md#create-code-based-configuration).
+1. Klik in het **[!UICONTROL Simulate]** -scherm op de knop **[!UICONTROL Open preview options]** . De voorproefopties hangen van het platform af dat in uw [ wordt geselecteerd code-gebaseerde configuratie ](code-based-configuration.md#create-code-based-configuration).
 
-1. Als u het platform van het a [&#x200B; Web &#x200B;](code-based-configuration.md#web) in uw op code-gebaseerde configuratie gebruikt, is het **[!UICONTROL Device preview URL]** read-only gebied vooraf gevuld met URL ingegaan voor de huidige kanaalconfiguratie.
+1. Als u het platform van het a [ Web ](code-based-configuration.md#web) in uw op code-gebaseerde configuratie gebruikt, is het **[!UICONTROL Device preview URL]** read-only gebied vooraf gevuld met URL ingegaan voor de huidige kanaalconfiguratie.
 
    ![](assets/preview-on-device-web.png)
 
@@ -85,7 +85,7 @@ Wanneer u code-gebaseerde ervaringen voor Web-pagina&#39;s of mobiele apps bouwt
 
    * Scan de QR-code met uw mobiele apparaat om de voorbeeldkoppeling op een mobiele browser te openen.
 
-1. Als u [&#x200B; Mobiele platforms &#x200B;](code-based-configuration.md#mobile) (iOS/Android) in uw op code-gebaseerde configuratie gebruikt, wordt het **[!UICONTROL Deeplink]** read-only gebied vooraf gevuld met de **[!UICONTROL Preview URL]** waarde ingegaan in de kanaalconfiguratie voor het geselecteerde platform.
+1. Als u [ Mobiele platforms ](code-based-configuration.md#mobile) (iOS/Android) in uw op code-gebaseerde configuratie gebruikt, wordt het **[!UICONTROL Deeplink]** read-only gebied vooraf gevuld met de **[!UICONTROL Preview URL]** waarde ingegaan in de kanaalconfiguratie voor het geselecteerde platform.
 
    Schakel tussen de tabbladen **[!UICONTROL iOS]** en **[!DNL Android]** om een voorvertoning van uw ervaring weer te geven voor het platform van uw keuze.
 
@@ -95,13 +95,13 @@ Wanneer u code-gebaseerde ervaringen voor Web-pagina&#39;s of mobiele apps bouwt
 
    * Selecteer de knop **[!UICONTROL Copy link]** en deel de koppeling met uw team en de betrokkenen, die een voorvertoning van de nieuwe ervaring in een mobiele browser kunnen bekijken voordat de wijzigingen live gaan.
 
-   * Scan de QR-code met uw mobiele apparaat om de voorbeeldkoppeling rechtstreeks in de mobiele toepassing te openen. U moet de SPELD op uw apparaat ingaan om de [&#x200B; Assurance &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}  zitting te vestigen.
+   * Scan de QR-code met uw mobiele apparaat om de voorbeeldkoppeling rechtstreeks in de mobiele toepassing te openen. U moet de SPELD op uw apparaat ingaan om de [ Assurance ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"} zitting te vestigen.
 
      >[!NOTE]
      >
-     >**Adobe Experience Platform Assurance** is een product van Adobe Experience Cloud om u te helpen inspecteren, beproeven, simuleren, en bevestigen hoe u gegevens verzamelt of ervaringen in uw mobiele app dient. [&#x200B; leer meer &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/assurance/home){target="_blank"} 
+     >**Adobe Experience Platform Assurance** is een product van Adobe Experience Cloud om u te helpen inspecteren, beproeven, simuleren, en bevestigen hoe u gegevens verzamelt of ervaringen in uw mobiele app dient. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home){target="_blank"}
 
-1. Als u om het even welk [&#x200B; andere platform &#x200B;](code-based-configuration.md#other) in uw op code-gebaseerde configuratie gebruikt, kies het [&#x200B; oppervlakte URI &#x200B;](code-based-surface.md#surface-uri) dat u van de drop-down lijst wilt voorproef.
+1. Als u om het even welk [ andere platform ](code-based-configuration.md#other) in uw op code-gebaseerde configuratie gebruikt, kies het [ oppervlakte URI ](code-based-surface.md#surface-uri) dat u van de drop-down lijst wilt voorproef.
 
    ![](assets/preview-on-device-other.png)
 
@@ -109,7 +109,7 @@ Wanneer u code-gebaseerde ervaringen voor Web-pagina&#39;s of mobiele apps bouwt
 
    * Als u meerdere URI&#39;s hebt toegevoegd aan uw configuratie (maximaal 10), kunt u een van deze URI&#39;s selecteren voor een voorvertoning.
 
-1. De verbindingen van de voorproef worden geproduceerd voor het geselecteerde testprofiel en, als u [&#x200B; Experiment van de Inhoud &#x200B;](../content-management/content-experiment.md) in uw reis of campagne, voor de geselecteerde behandeling gebruikt.
+1. De verbindingen van de voorproef worden geproduceerd voor het geselecteerde testprofiel en, als u [ Experiment van de Inhoud ](../content-management/content-experiment.md) in uw reis of campagne, voor de geselecteerde behandeling gebruikt.
 
    <!--If you have modified the content or selected a different treatment or test profile, scroll down to the bottom of the **[!UICONTROL Preview on device]** pop-up and click **[!UICONTROL Refresh preview link]** to reflect the current state.
 

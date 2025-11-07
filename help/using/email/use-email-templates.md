@@ -23,31 +23,31 @@ ht-degree: 1%
 >title="Inhoud maken op basis van een sjabloon"
 >abstract="Als u uw e-mailinhoud wilt gaan maken, selecteert u een sjabloon die buiten de box valt of een aangepaste bestaande sjabloon die helemaal opnieuw is gemaakt of als sjabloon is opgeslagen in een vorige e-mail."
 
-Van de **[!UICONTROL Create your email]** scherm, gebruik **[!UICONTROL Select design template]** om uw inhoud op te bouwen van een sjabloon.
+Gebruik vanuit het **[!UICONTROL Create your email]** -scherm de sectie **[!UICONTROL Select design template]** om inhoud te maken op basis van een sjabloon.
 
 ![](assets/email_designer-templates.png)
 
 U kunt kiezen uit:
 
-* **Voorbeeldsjablonen**. De [!DNL Journey Optimizer] de interface biedt 20 uit-van-de-doos e-mailmalplaatjes aan die u van kunt kiezen.
+* **malplaatjes van de Steekproef**. De interface van [!DNL Journey Optimizer] biedt 20 out-of-the-box e-mailsjablonen waaruit u kunt kiezen.
 
-* **Opgeslagen sjablonen**. U kunt ook een aangepaste sjabloon gebruiken die u:
+* **Bewaarde malplaatjes**. U kunt ook een aangepaste sjabloon gebruiken die u:
 
-   * Geheel nieuw gemaakt met de **[!UICONTROL Content templates]** -menu. [Meer informatie](../content-management/content-templates.md#create-template-from-scratch)
+   * Geheel nieuw gemaakt met het menu **[!UICONTROL Content templates]** . [Meer informatie](../content-management/content-templates.md#create-template-from-scratch)
 
-   * Opgeslagen via een e-mail op reis of tijdens een campagne via de **[!UICONTROL Save as content template]** -optie. [Meer informatie](../content-management/content-templates.md#save-as-template)
+   * Opgeslagen via een e-mail tijdens een rit of een campagne met de optie **[!UICONTROL Save as content template]** . [Meer informatie](../content-management/content-templates.md#save-as-template)
 
 Voer de onderstaande stappen uit om uw inhoud te gaan samenstellen met een van de voorbeeldsjablonen of opgeslagen sjablonen.
 
-1. [Toegang krijgen tot de e-mail-Designer](get-started-email-design.md) uit de e-mail **[!UICONTROL Edit content]** scherm.
+1. [ heb toegang tot de E-mail Designer ](get-started-email-design.md) van het e-mailscherm **[!UICONTROL Edit content]**.
 
-1. Op de **[!UICONTROL Create your email]** scherm, de **[!UICONTROL Sample templates]** is standaard geselecteerd.
+1. In het scherm **[!UICONTROL Create your email]** is de tab **[!UICONTROL Sample templates]** standaard geselecteerd.
 
-1. Ga naar de **[!UICONTROL Saved templates]** tab.
+1. Ga naar de tab **[!UICONTROL Saved templates]** als u een aangepaste sjabloon wilt gebruiken.
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. De lijst van alle [inhoudssjablonen](../content-management/content-templates.md#create-content-templates) gemaakt op de huidige sandbox-weergaven. U kunt ze sorteren **[!UICONTROL By name]**, **[!UICONTROL Last modified]** en **[!UICONTROL Last created]**.
+1. De lijst van alle [ inhoudsmalplaatjes ](../content-management/content-templates.md#create-content-templates) die op de huidige zandbakvertoningen worden gecreeerd. U kunt ze **[!UICONTROL By name]** , **[!UICONTROL Last modified]** en **[!UICONTROL Last created]** sorteren.
 
    ![](assets/email_designer-saved-templates-filter.png)
 
@@ -57,6 +57,6 @@ Voer de onderstaande stappen uit om uw inhoud te gaan samenstellen met een van d
 
    ![](assets/email_designer-saved-templates-navigate.png)
 
-1. Klikken **[!UICONTROL Use this template]** rechtsboven op het scherm.
+1. Klik op **[!UICONTROL Use this template]** rechtsboven in het scherm.
 
 1. Bewerk de inhoud naar wens met de e-mail Designer.

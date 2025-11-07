@@ -32,7 +32,7 @@ U kunt dit mechanisme ook gebruiken om een actie uit te voeren wanneer er geen r
 
 Let op: u kunt een reactieactiviteit alleen gebruiken op het canvas als er al eerder een kanaalactieactiviteit is (E-mail en push).
 
-Zie [&#x200B; Ongeveer actieactiviteiten &#x200B;](../building-journeys/about-journey-activities.md#action-activities).
+Zie [ Ongeveer actieactiviteiten ](../building-journeys/about-journey-activities.md#action-activities).
 
 ![](assets/journey45.png)
 

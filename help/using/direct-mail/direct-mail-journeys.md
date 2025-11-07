@@ -38,7 +38,7 @@ U moet met uw gekozen derde directe postleverancier werken om het even welke ver
 
 >[!NOTE]
 >
->Op deze pagina vindt u informatie over het proces voor het maken en verzenden van e-mailberichten tijdens reizen. Voor meer informatie over het Directe postkanaal en hoe te om direct-mailcampagnes tot stand te brengen, verwijs naar deze sectie: [&#x200B; wordt begonnen met direct-mail &#x200B;](../direct-mail/get-started-direct-mail.md).
+>Op deze pagina vindt u informatie over het proces voor het maken en verzenden van e-mailberichten tijdens reizen. Voor meer informatie over het Directe postkanaal en hoe te om direct-mailcampagnes tot stand te brengen, verwijs naar deze sectie: [ wordt begonnen met direct-mail ](../direct-mail/get-started-direct-mail.md).
 
 ## Creeer een dossier dat configuratie verplettert
 
@@ -51,7 +51,7 @@ Alvorens tot een direct-mailbericht te leiden, zorg ervoor u een dossier gevormd
 
 1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Direct mail settings]** > **[!UICONTROL File routing]** en klik op **[!UICONTROL Create file routing config]** .
 
-1. Definieer het bestand dat configuratie-eigenschappen zoals de naam ervan verplettert en het type server dat moet worden gebruikt. De gedetailleerde informatie over hoe te opstelling is een dossier dat configuratie verplettert beschikbaar in de [&#x200B; Directe post configuratie &#x200B;](../direct-mail/direct-mail-configuration.md#file-routing-configuration) sectie.
+1. Definieer het bestand dat configuratie-eigenschappen zoals de naam ervan verplettert en het type server dat moet worden gebruikt. De gedetailleerde informatie over hoe te opstelling is een dossier dat configuratie verplettert beschikbaar in de [ Directe post configuratie ](../direct-mail/direct-mail-configuration.md#file-routing-configuration) sectie.
 
    Als uw dossier dat configuratie verplettert zal worden verzonden gebruikend reizen, kunt u de frequentie specificeren waarbij het dossier de server zal worden verzonden.
 
@@ -61,7 +61,7 @@ Alvorens tot een direct-mailbericht te leiden, zorg ervoor u een dossier gevormd
 
 ## Een configuratie voor direct mail maken {#direct-mail-surface}
 
-Een direct-mailconfiguratie bevat de instellingen voor de opmaak van het bestand dat de doelpublieksgegevens bevat en wordt gebruikt door de mailprovider. U moet ook bepalen waar het dossier door het dossier te selecteren verplettert configuratie zal worden uitgevoerd. De gedetailleerde informatie over hoe te om een direct-mailconfiguratie tot stand te brengen is beschikbaar in de [&#x200B; sectie van de de postconfiguratie 0&rbrace; Direct.](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
+Een direct-mailconfiguratie bevat de instellingen voor de opmaak van het bestand dat de doelpublieksgegevens bevat en wordt gebruikt door de mailprovider. U moet ook bepalen waar het dossier door het dossier te selecteren verplettert configuratie zal worden uitgevoerd. De gedetailleerde informatie over hoe te om een direct-mailconfiguratie tot stand te brengen is beschikbaar in de [ sectie van de de postconfiguratie 0} Direct.](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
 
 Zodra uw configuratie direct-mail klaar is, kunt u een directe postactie in uw reis toevoegen.
 
@@ -69,22 +69,22 @@ Zodra uw configuratie direct-mail klaar is, kunt u een directe postactie in uw r
 
 Voer de volgende stappen uit om een actie direct mail toe te voegen aan een rit:
 
-1. Open uw reis dan belemmering en laat vallen a **[!UICONTROL Direct mail]** activiteit van de **2&rbrace; sectie van Acties &lbrace;van het palet.**
+1. Open uw reis dan belemmering en laat vallen a **[!UICONTROL Direct mail]** activiteit van de **2} sectie van Acties {van het palet.**
 
-1. Verstrek basisinformatie over uw bericht (etiket, beschrijving, categorie), dan kies de berichtconfiguratie aan gebruik. Het veld **[!UICONTROL configuration]** wordt standaard voorgevuld met de laatste configuratie die de gebruiker voor dat kanaal heeft gebruikt. Voor meer informatie over hoe te om een reis te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../building-journeys/journey-gs.md).
+1. Verstrek basisinformatie over uw bericht (etiket, beschrijving, categorie), dan kies de berichtconfiguratie aan gebruik. Het veld **[!UICONTROL configuration]** wordt standaard voorgevuld met de laatste configuratie die de gebruiker voor dat kanaal heeft gebruikt. Voor meer informatie over hoe te om een reis te vormen, verwijs naar [ deze pagina ](../building-journeys/journey-gs.md).
 
 1. Configureer het extractiebestand dat u naar uw directe-mailprovider wilt verzenden. Klik hiertoe op de knop **[!UICONTROL Edit content]** .
 
    ![](assets/direct-mail-add-journey.png)
 
-1. Pas de eigenschappen van het extractiebestand aan, zoals de bestandsnaam, of de kolommen die u wilt weergeven. Voor meer informatie over hoe te om de eigenschappen van het extractiedossier te vormen, verwijs naar deze sectie: [&#x200B; creeer een direct-mailbericht &#x200B;](../direct-mail/create-direct-mail.md#extraction-file).
+1. Pas de eigenschappen van het extractiebestand aan, zoals de bestandsnaam, of de kolommen die u wilt weergeven. Voor meer informatie over hoe te om de eigenschappen van het extractiedossier te vormen, verwijs naar deze sectie: [ creeer een direct-mailbericht ](../direct-mail/create-direct-mail.md#extraction-file).
 
    ![](assets/direct-mail-journey-content.png)
 
 1. Nadat de inhoud van het extractiebestand is gedefinieerd, kunt u er testprofielen voor gebruiken. Als u gepersonaliseerde inhoud hebt ingevoegd, kunt u met behulp van testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven.
 
-   Klik hiertoe op **[!UICONTROL Simulate content]** en voeg vervolgens een testprofiel toe om te controleren hoe het extractiebestand met de testprofielgegevens wordt gerenderd. De gedetailleerde informatie over hoe te om testprofielen en voorproef uw inhoud te selecteren is beschikbaar in de [&#x200B; sectie van het Beheer van de Inhoud &#x200B;](../content-management/preview-test.md).
+   Klik hiertoe op **[!UICONTROL Simulate content]** en voeg vervolgens een testprofiel toe om te controleren hoe het extractiebestand met de testprofielgegevens wordt gerenderd. De gedetailleerde informatie over hoe te om testprofielen en voorproef uw inhoud te selecteren is beschikbaar in de [ sectie van het Beheer van de Inhoud ](../content-management/preview-test.md).
 
    ![](assets/direct-mail-simulate.png){width="800" align="center"}
 
-Wanneer uw extractiedossier klaar is, voltooi de configuratie van uw [&#x200B; reis &#x200B;](../building-journeys/journey-gs.md) om het te verzenden.
+Wanneer uw extractiedossier klaar is, voltooi de configuratie van uw [ reis ](../building-journeys/journey-gs.md) om het te verzenden.

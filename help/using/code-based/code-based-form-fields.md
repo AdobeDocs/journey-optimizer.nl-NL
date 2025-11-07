@@ -38,15 +38,15 @@ Wanneer gebruikers de inhoudssjabloon op hun inhoud toepassen, kunnen ze de kleu
 >title="De weergave van formuliervelden controleren"
 >abstract="In JSON- of HTML-inhoudssjablonen kunt u specifieke bewerkbare velden definiëren waarmee niet-technische gebruikers inhoud gemakkelijk kunnen bewerken in op code gebaseerde ervaringen zonder dat code hoeft te worden bewerkt. Maak die velden met de toegewezen syntaxis en bekijk een voorvertoning ervan met deze knop."
 
-Om sommige van uw code van JSON of van HTML editable te maken, begin door een code-gebaseerde ervaring [&#x200B; inhoudsmalplaatje &#x200B;](../content-management/content-templates.md) te creëren waar u specifieke vormgebieden kunt bepalen.
+Om sommige van uw code van JSON of van HTML editable te maken, begin door een code-gebaseerde ervaring [ inhoudsmalplaatje ](../content-management/content-templates.md) te creëren waar u specifieke vormgebieden kunt bepalen.
 
 >[!NOTE]
 >
 >Deze stap wordt gewoonlijk uitgevoerd door een ontwikkelaar persona.
 
-➡️ [&#x200B; Leer hoe te om editable gebieden aan code-gebaseerde ervaringsmalplaatjes in deze video toe te voegen &#x200B;](#video)
+➡️ [ Leer hoe te om editable gebieden aan code-gebaseerde ervaringsmalplaatjes in deze video toe te voegen ](#video)
 
-1. Maak een inhoudssjabloon en selecteer het kanaal **[!UICONTROL Code-based experience]** . [&#x200B; Leer hoe te om malplaatjes &#x200B;](../content-management/create-content-templates.md) tot stand te brengen
+1. Maak een inhoudssjabloon en selecteer het kanaal **[!UICONTROL Code-based experience]** . [ Leer hoe te om malplaatjes ](../content-management/create-content-templates.md) tot stand te brengen
 
 1. Selecteer de ontwerpmodus: HTML of JSON.
 
@@ -54,7 +54,7 @@ Om sommige van uw code van JSON of van HTML editable te maken, begin door een co
    >
    >Als u de ontwerpmodus wijzigt, gaan al uw huidige code verloren. De op code-gebaseerde ervaringen die op dit malplaatje worden gebaseerd moeten de zelfde auteurswijze gebruiken.
 
-1. Open de [&#x200B; verpersoonlijkingsredacteur &#x200B;](../personalization/personalization-build-expressions.md) om uw codeinhoud uit te geven.
+1. Open de [ verpersoonlijkingsredacteur ](../personalization/personalization-build-expressions.md) om uw codeinhoud uit te geven.
 
 1. Om een editable vormgebied <!--To declare the variable you want users to edit--> te bepalen, navigeer aan het **[!UICONTROL Helper functions]** menu in de linkernavigatieruit en voeg de **gealigneerde** attributen toe. De syntaxis voor het declareren en aanroepen van de variabele wordt automatisch toegevoegd aan de inhoud.
 
@@ -90,7 +90,7 @@ Om sommige van uw code van JSON of van HTML editable te maken, begin door een co
 
 1. Ga op dezelfde manier verder om andere bewerkbare velden toe te voegen, waarbij u elk veld met de tags `{{#inline}}` en `{{/inline}}` inpakt.
 
-1. Bewerk indien nodig de rest van de code, inclusief de id&#39;s die overeenkomen met de bewerkbare velden die u hebt gedefinieerd. [&#x200B; leer hoe &#x200B;](create-code-based.md#edit-code)
+1. Bewerk indien nodig de rest van de code, inclusief de id&#39;s die overeenkomen met de bewerkbare velden die u hebt gedefinieerd. [ leer hoe ](create-code-based.md#edit-code)
 
    ![](assets/cbe-template-form-field-inline.png)
 
@@ -100,17 +100,17 @@ Om sommige van uw code van JSON of van HTML editable te maken, begin door een co
 
 Wanneer u een op code gebaseerde sjabloon voor ervaringsinhoud maakt, kunt u een beslissingsbeleid gebruiken om aanbiedingen in bewerkbare formuliervelden te benutten.
 
-1. Creeer een op code-gebaseerd ervaringsmalplaatje zoals hierboven beschreven [&#128279;](#add-editable-fields).
+1. Creeer een op code-gebaseerd ervaringsmalplaatje zoals hierboven beschreven [ ](#add-editable-fields).
 
 1. Klik op **[!UICONTROL Add decision policy]** met het pictogram **[!UICONTROL Show Decisioning]** in de rechterraster van het scherm voor de editie of in de editor voor expressies in de sectie **[!UICONTROL Decision policy]** in het linkermenu.
 
-   Leer hoe te om een besluitvormingsbeleid in [&#x200B; tot stand te brengen deze sectie &#x200B;](../experience-decisioning/create-decision.md#add-decision).
+   Leer hoe te om een besluitvormingsbeleid in [ tot stand te brengen deze sectie ](../experience-decisioning/create-decision.md#add-decision).
 
 1. Klik op de knop **[!UICONTROL Insert policy]**. De code die overeenkomt met het beslissingsbeleid wordt toegevoegd.
 
    ![](assets/cbe-template-insert-policy.png)
 
-1. Na de `{{#each}}` markering, neem de code op die aan het editable vormgebied (s) beantwoordt dat u wilt toevoegen, gebruikend de **gealigneerde** syntaxis hierboven beschreven [&#128279;](#add-editable-fields). Vervang `"name"` door een unieke id om het bewerkbare veld te identificeren. In dit voorbeeld gebruikt u &quot;title&quot;.
+1. Na de `{{#each}}` markering, neem de code op die aan het editable vormgebied (s) beantwoordt dat u wilt toevoegen, gebruikend de **gealigneerde** syntaxis hierboven beschreven [ ](#add-editable-fields). Vervang `"name"` door een unieke id om het bewerkbare veld te identificeren. In dit voorbeeld gebruikt u &quot;title&quot;.
 
    ![](assets/cbe-template-policy-inline.png){width="90%"}
 
@@ -212,7 +212,7 @@ U kunt de formuliervelden eenvoudig bewerken vanuit een ervaringstraject of -cam
 >
 >Deze stap wordt gewoonlijk uitgevoerd door een markeringspersoneel.
 
-1. Selecteer vanuit het scherm van de reisactiviteit of de campagneeditie de inhoudssjabloon met bewerkbare formuliervelden. [&#x200B; leer hoe te om inhoudsmalplaatjes &#x200B;](../content-management/use-content-templates.md) te gebruiken
+1. Selecteer vanuit het scherm van de reisactiviteit of de campagneeditie de inhoudssjabloon met bewerkbare formuliervelden. [ leer hoe te om inhoudsmalplaatjes ](../content-management/use-content-templates.md) te gebruiken
 
    ![](assets/cbe-campaign-apply-template.png){width="60%"}
 
@@ -230,7 +230,7 @@ U kunt de formuliervelden eenvoudig bewerken vanuit een ervaringstraject of -cam
 
    ![](assets/cbe-campaign-form-fields-edit.png){width="60%"}
 
-   * Klik het verpersoonlijkingspictogram om elk gebied uit te geven gebruikend de [&#x200B; coderedacteur &#x200B;](../personalization/personalization-build-expressions.md).
+   * Klik het verpersoonlijkingspictogram om elk gebied uit te geven gebruikend de [ coderedacteur ](../personalization/personalization-build-expressions.md).
 
    ![](assets/cbe-campaign-form-fields-edit-perso.png){width="70%"}
 
@@ -238,7 +238,7 @@ U kunt de formuliervelden eenvoudig bewerken vanuit een ervaringstraject of -cam
    >
    >In beide gevallen kunt u slechts één veld tegelijk bewerken en kunt u de rest van de ervaringsinhoud op basis van code niet bewerken.
 
-1. Als het a [&#x200B; besluitvormingsbeleid &#x200B;](#decision-policy-in-form-fields) aan het inhoudsmalplaatje werd toegevoegd, komt het met alle attributen beschikbaar in het [&#x200B; catalogusschema van aanbiedingen &#x200B;](../experience-decisioning/catalogs.md). U kunt het besluitpunt inline of gebruikend de uitdrukkingsredacteur uitgeven.
+1. Als het a [ besluitvormingsbeleid ](#decision-policy-in-form-fields) aan het inhoudsmalplaatje werd toegevoegd, komt het met alle attributen beschikbaar in het [ catalogusschema van aanbiedingen ](../experience-decisioning/catalogs.md). U kunt het besluitpunt inline of gebruikend de uitdrukkingsredacteur uitgeven.
 
 1. Als u de rest van de code wilt bewerken, klikt u op de knop **[!UICONTROL Edit code]** en werkt u de volledige code-gebaseerde ervaringsinhoud bij, inclusief de bewerkbare formuliervelden. [Meer informatie](create-code-based.md#edit-code)
 
@@ -246,4 +246,4 @@ U kunt de formuliervelden eenvoudig bewerken vanuit een ervaringstraject of -cam
 
 Leer hoe u bewerkbare velden kunt toevoegen aan op code gebaseerde ervaringskanaal-inhoudssjablonen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463997/?learn=on&#x26;enablevpops&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

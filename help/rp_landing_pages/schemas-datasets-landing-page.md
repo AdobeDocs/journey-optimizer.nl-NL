@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Relationele schema's en gegevens beheren
 description: Relationele schema's en gegevens beheren
 redpen-status: CREATED_||_2025-08-11_20-23-42
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: 17c64a34-d571-46d0-a144-d4b746118c96
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 1%
 
 ---
-
 
 # Relationele schema&#39;s en gegevens beheren{#section-overview}
 
@@ -20,7 +20,7 @@ Het beheren van relationele schema&#39;s en datasets in Adobe Journey Optimizer 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met relationele schema&#39;s en gegevenssets
 
@@ -30,7 +30,7 @@ Leer hoe te om schema&#39;s tot stand te brengen, datasets te vormen, en gegeven
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Een handmatig relationeel schema instellen
 
@@ -40,7 +40,7 @@ Stap-voor-stapinstructies voor manueel het creëren van schema&#39;s, het toevoe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Relationele schema&#39;s maken met een DDL-bestand
 
@@ -50,7 +50,7 @@ Definieer schema&#39;s door DL-bestanden te uploaden, tabellen te koppelen en re
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Ingest-gegevens voor Adobe Journey Optimizer-campagnes
 

@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Reizen en campagnes goedkeuren
 description: Reizen en campagnes goedkeuren
 redpen-status: CREATED_||_2025-08-11_20-30-36
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: 88c48ccd-c3b7-4235-933b-7a08f5a8f346
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
 
 ---
-
 
 # Reizen en campagnes goedkeuren{#section-overview}
 
@@ -20,7 +20,7 @@ De goedkeuring van reizen en campagnes in Adobe Journey Optimizer zorgt ervoor d
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Goedkeuring van reizen en campagnes instellen en beheren
 
@@ -30,7 +30,7 @@ Leer hoe u het goedkeuringsproces voor reizen en campagnes kunt instellen en beh
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Erkenningsbeleid maken en beheren
 
@@ -40,7 +40,7 @@ Stapsgewijze handleiding voor het maken, configureren en beheren van goedkeuring
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Hoe te om Goedkeuring voor Reizen en Campagnes te verzoeken
 
@@ -50,7 +50,7 @@ Begrijp hoe om goedkeuring voor reizen en campagnes, met inbegrip van werkschema
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Verzoeken voor reizen en campagnes evalueren en goedkeuren
 

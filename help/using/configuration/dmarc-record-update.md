@@ -33,19 +33,19 @@ Google en Yahoo zijn een onderdeel van hun best practices in de branche. allebei
 
 Daarom raadt Adobe u ten zeerste aan ervoor te zorgen dat DMARC-record is ingesteld voor alle subdomeinen die u in [!DNL Journey Optimizer] hebt gedelegeerd aan Adobe. Voer de onderstaande stappen uit die op je kwestie van toepassing zijn:
 
-* Als u [&#x200B; volledig &#x200B;](delegate-subdomain.md#full-subdomain-delegation) uw verzendende subdomeinen aan Adobe hebt gedelegeerd, volg één van de hieronder opties:
+* Als u [ volledig ](delegate-subdomain.md#full-subdomain-delegation) uw verzendende subdomeinen aan Adobe hebt gedelegeerd, volg één van de hieronder opties:
 
    * Opstelling DMARC op het ouderdomein van uw gedelegeerde subdomeinen **in uw het ontvangen oplossing**.
 of
-   * Stel DMARC in op de gedelegeerde subdomeinen **in de gebruikersinterface van de[!DNL Journey Optimizer]** -configuratie, zonder extra werk voor de hostoplossing. [&#x200B; leer hoe &#x200B;](dmarc-record.md#implement-dmarc)
+   * Stel DMARC in op de gedelegeerde subdomeinen **in de gebruikersinterface van de[!DNL Journey Optimizer]** -configuratie, zonder extra werk voor de hostoplossing. [ leer hoe ](dmarc-record.md#implement-dmarc)
 
-* Als u opstelling uw verzendende subdomeinen met [&#x200B; CNAME &#x200B;](delegate-subdomain.md#cname-subdomain-setup) hebt, volg één van de hieronder opties:
+* Als u opstelling uw verzendende subdomeinen met [ CNAME ](delegate-subdomain.md#cname-subdomain-setup) hebt, volg één van de hieronder opties:
 
    * Opstelling DMARC op uw subdomeinen of op het ouderdomein van uw subdomeinen **in uw het ontvangen oplossing**.
 of
-   * Stel DMARC in op de gedelegeerde subdomeinen **in de gebruikersinterface van de[!DNL Journey Optimizer]** -configuratie. [&#x200B; leer hoe &#x200B;](dmarc-record.md#implement-dmarc)
+   * Stel DMARC in op de gedelegeerde subdomeinen **in de gebruikersinterface van de[!DNL Journey Optimizer]** -configuratie. [ leer hoe ](dmarc-record.md#implement-dmarc)
 
-  Nochtans, vereist de opstelling CNAME ook één of andere extra ingang in uw het ontvangen oplossing. Derhalve zorg ervoor u met uw afdeling van IT coördineert zodat zij de update kunnen uitvoeren die in [&#x200B; wordt gedetailleerd deze sectie &#x200B;](dmarc-record.md#implement-dmarc).
+  Nochtans, vereist de opstelling CNAME ook één of andere extra ingang in uw het ontvangen oplossing. Derhalve zorg ervoor u met uw afdeling van IT coördineert zodat zij de update kunnen uitvoeren die in [ wordt gedetailleerd deze sectie ](dmarc-record.md#implement-dmarc).
 
 <!--The most recent timelines shared by Google and Yahoo! are as follows:
 
@@ -66,8 +66,8 @@ of
 
 **Nuttige verbindingen**
 
-* Leer meer over DMARC in de [&#x200B; Gids van de Beste praktijken van de Levering &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=nl-NL#about){target="_blank"}
-* Lees uit de [&#x200B; aankondiging van Google Gmail &#x200B;](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
-* Lees uit [&#x200B; Yahoo! aankondiging &#x200B;](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
+* Leer meer over DMARC in de [ Gids van de Beste praktijken van de Levering ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"}
+* Lees uit de [ aankondiging van Google Gmail ](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
+* Lees uit [ Yahoo! aankondiging ](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
 
 <!--Find more guidance about these changes in the [Deliverability Best Practice Guide]-->

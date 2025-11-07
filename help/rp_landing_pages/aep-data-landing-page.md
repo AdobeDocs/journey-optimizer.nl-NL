@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Adobe Experience Platform-gegevens gebruiken
 description: Adobe Experience Platform-gegevens gebruiken
 redpen-status: CREATED_||_2025-08-11_20-56-30
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: 54df881d-f204-4979-89ce-45de2eb7b822
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Experience Platform-gegevens gebruiken{#section-overview}
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer geeft u de kracht om slimmere en snellere beslissingen t
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Gebruik contextgegevens in besluitvorming
 
@@ -30,7 +30,7 @@ Leer hoe u contextgegevens van Adobe Experience Platform kunt integreren in Adob
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Experience Platform-gegevens gebruiken voor besluitvorming
 

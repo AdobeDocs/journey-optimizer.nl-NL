@@ -55,7 +55,7 @@ Evalueer publiekslidmaatschap om persoonlijke reiswegen tot stand te brengen die
 
 | Functie | Beschrijving |
 |----------|-------------|
-| [&#x200B; inAudience &#x200B;](../functions/functioninaudience.md) | Controleren of een individu tot een bepaald publiek behoort |
+| [ inAudience ](../functions/functioninaudience.md) | Controleren of een individu tot een bepaald publiek behoort |
 
 [Adobe Experience Platform-functiedetails weergeven →](../functions/functioninaudience.md)
 
@@ -88,7 +88,7 @@ Zet gegevens tussen verschillende types (koord, geheel, decimaal, boolean, datum
 | Functie | Beschrijving |
 |----------|-------------|
 | [toBool](../functions/conversion-functions.md#toBool) | Omzetten in Boolean |
-| [&#x200B; toDateOnly &#x200B;](../functions/conversion-functions.md#toDateOnly) | Converteren naar alleen datum (geen tijd) |
+| [ toDateOnly ](../functions/conversion-functions.md#toDateOnly) | Converteren naar alleen datum (geen tijd) |
 | [toDateTime](../functions/conversion-functions.md#toDateTime) | Omzetten in datum met tijd |
 | [toDateTimeOnly](../functions/conversion-functions.md#toDateTimeOnly) | Converteren naar datum en tijd zonder tijdzone |
 | [toDecimal](../functions/conversion-functions.md#toDecimal) | Omzetten in decimaal getal |
@@ -106,7 +106,7 @@ Werk met datums, tijden en tijdzones om op tijd gebaseerde voorwaarden te maken,
 
 | Functie | Beschrijving |
 |----------|-------------|
-| [&#x200B; currentTimeInMillis &#x200B;](../functions/date-functions.md#currentTimeInMillis) | Huidige tijd in milliseconden ophalen |
+| [ currentTimeInMillis ](../functions/date-functions.md#currentTimeInMillis) | Huidige tijd in milliseconden ophalen |
 | [inLastDays](../functions/date-functions.md#inLastDays) | Controleren of de datum in de laatste N dagen valt |
 | [inLastHours](../functions/date-functions.md#inLastHours) | Controleren of de datum binnen de laatste N uur valt |
 | [inLastMonths](../functions/date-functions.md#inLastMonths) | Controleren of de datum binnen de laatste N maanden valt |
@@ -119,7 +119,7 @@ Werk met datums, tijden en tijdzones om op tijd gebaseerde voorwaarden te maken,
 | [nowWithDelta](../functions/date-functions.md#nowWithDelta) | Huidige tijd ophalen met verschuiving |
 | [setHours](../functions/date-functions.md#setHours) | Specifieke uren in datumtijd instellen |
 | [setDays](../functions/date-functions.md#setDays) | Specifieke dagen in datumtijd instellen |
-| [&#x200B; updateTimeZone &#x200B;](../functions/date-functions.md#updateTimeZone) | Tijdzone van datum-tijd bijwerken |
+| [ updateTimeZone ](../functions/date-functions.md#updateTimeZone) | Tijdzone van datum-tijd bijwerken |
 
 [Alle datumfuncties weergeven →](../functions/date-functions.md)
 
@@ -133,11 +133,11 @@ U kunt arrays en lijsten filteren, sorteren, transformeren en analyseren om met 
 |----------|-------------|
 | [distinct](../functions/list-functions.md#distinct) | Unieke waarden ophalen (exclusief null) |
 | [distinctWithNull](../functions/list-functions.md#distinctWithNull) | Unieke waarden ophalen (inclusief null) |
-| [&#x200B; filter &#x200B;](../functions/list-functions.md#filter) | Filterlijst op basis van criteria |
+| [ filter ](../functions/list-functions.md#filter) | Filterlijst op basis van criteria |
 | [getListItem](../functions/list-functions.md#getListItem) | Item ophalen bij specifieke index |
 | [in](../functions/list-functions.md#in) | Controleren of de waarde bestaat in de lijst |
-| [&#x200B; snijdt &#x200B;](../functions/list-functions.md#intersect) | Gemeenschappelijke elementen tussen lijsten zoeken |
-| [&#x200B; grens &#x200B;](../functions/list-functions.md#limit) | Aantal geretourneerde items beperken |
+| [ snijdt ](../functions/list-functions.md#intersect) | Gemeenschappelijke elementen tussen lijsten zoeken |
+| [ grens ](../functions/list-functions.md#limit) | Aantal geretourneerde items beperken |
 | [listSize](../functions/list-functions.md#listSize) | Grootte van lijst ophalen |
 | [serializeList](../functions/list-functions.md#serializeList) | Lijst omzetten in tekenreeks |
 | [sort](../functions/list-functions.md#sort) | Lijstelementen sorteren |
@@ -167,10 +167,10 @@ Tekstgegevens verwerken, transformeren, zoeken en valideren voor het maken van d
 |----------|-------------|
 | [concat](../functions/string-functions.md#concat) | Tekenreeksen samenvoegen |
 | [contain](../functions/string-functions.md#contain) | Controleren of een tekenreeks een subtekenreeks bevat |
-| [&#x200B; containIgnoreCase &#x200B;](../functions/string-functions.md#containIgnoreCase) | Controle bevat (hoofdlettergevoelig) |
+| [ containIgnoreCase ](../functions/string-functions.md#containIgnoreCase) | Controle bevat (hoofdlettergevoelig) |
 | [endWith](../functions/string-functions.md#endWith) | Controleren of tekenreeks eindigt met achtervoegsel |
-| [&#x200B; endWithIgnoreCase &#x200B;](../functions/string-functions.md#endWithIgnoreCase) | Einden controleren met (hoofdlettergevoelig) |
-| [&#x200B; equalIgnoreCase &#x200B;](../functions/string-functions.md#equalIgnoreCase) | Tekenreeksen vergelijken (hoofdlettergevoelig) |
+| [ endWithIgnoreCase ](../functions/string-functions.md#endWithIgnoreCase) | Einden controleren met (hoofdlettergevoelig) |
+| [ equalIgnoreCase ](../functions/string-functions.md#equalIgnoreCase) | Tekenreeksen vergelijken (hoofdlettergevoelig) |
 | [indexOf](../functions/string-functions.md#indexOf) | Eerste voorvalpositie zoeken |
 | [isEmpty](../functions/string-functions.md#isEmpty) | Controleren of tekenreeks leeg is |
 | [isNotEmpty](../functions/string-functions.md#isNotEmpty) | Controleren of tekenreeks niet leeg is |
@@ -178,7 +178,7 @@ Tekstgegevens verwerken, transformeren, zoeken en valideren voor het maken van d
 | [length](../functions/string-functions.md#length) | Tekenlengte ophalen |
 | [lower](../functions/string-functions.md#lower) | Omzetten in kleine letters |
 | [matchRegExp](../functions/string-functions.md#matchRegExp) | Reguliere expressie afstemmen |
-| [&#x200B; notEqualIgnoreCase &#x200B;](../functions/string-functions.md#notEqualIgnoreCase) | Inschakelen is niet gelijk (hoofdlettergevoelig) |
+| [ notEqualIgnoreCase ](../functions/string-functions.md#notEqualIgnoreCase) | Inschakelen is niet gelijk (hoofdlettergevoelig) |
 | [replace](../functions/string-functions.md#replace) | Eerste instantie vervangen |
 | [replaceAll](../functions/string-functions.md#replaceAll) | Alle vermeldingen vervangen |
 | [split](../functions/string-functions.md#split) | Tekenreeks splitsen in array |

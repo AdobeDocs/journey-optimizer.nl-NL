@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Voer een IP warmlopingsplan uit
 description: Voer een IP warmlopingsplan uit
 redpen-status: CREATED_||_2025-08-11_21-08-31
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: 6f34e9c9-05ae-4a9c-b099-9a7ddf68a412
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 2%
 
 ---
-
 
 # Voer een IP warmlopingsplan uit{#section-overview}
 
@@ -20,7 +20,7 @@ Het uitvoeren van een IP warmup plan in Adobe Journey Optimizer verzekert uw e-m
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Aan de slag met IP-plannen voor Warmup
 
@@ -30,7 +30,7 @@ Leer het doel, de voordelen, en de stappen van IP warmup plannen om e-mailleveri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 IP Warmup-campagnes maken
 
@@ -40,7 +40,7 @@ Volg geleidelijke instructies om campagnes voor uw IP warmlopingsplan te ontwerp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Hoe te om een IP Plan van de Warmup te creëren en te beheren
 
@@ -50,7 +50,7 @@ Ontdek hoe te om, uw IP warmup plan tot stand te brengen te vormen en te beheren
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Voer en beheer Uw IP Warmup Plan uit
 

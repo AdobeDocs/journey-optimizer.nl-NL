@@ -1,7 +1,7 @@
 ---
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '281'
 ht-degree: 100%
 
 ---
@@ -13,7 +13,8 @@ Hieronder volgt een aantal richtlijnen die moeten worden gevolgd wanneer u een b
 
 ## Gedragscode
 
-Dit project voldoet aan de Adobe-[gedragscode](code-of-conduct.md). Als u deelneemt, wordt van u verwacht dat u zich aan deze code houdt. Meld onaanvaardbaar gedrag aan
+Dit project voldoet aan de Adobe-[gedragscode](code-of-conduct.md). Als u deelneemt, 
+wordt van u verwacht dat u deze code volgt. Meld onaanvaardbaar gedrag aan
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Documentatie voor de bijdragershandleiding
@@ -29,13 +30,16 @@ consensus te bereiken over de projectrichting en probleemoplossingen binnen prob
 ## Licentieovereenkomst voor bijdragers
 
 Alle bijdragen van derden aan dit project moeten vergezeld gaan van een ondertekende 
-licentieovereenkomst voor bijdragers. Dit geeft Adobe de toestemming om uw bijdragen als deel van het project opnieuw te verdelen. [Onze CLA ondertekenen](http://opensource.adobe.com/cla.html). U
+licentieovereenkomst voor bijdragers. Dit geeft Adobe toestemming om uw bijdragen te herdistribueren
+als onderdeel van het project. [Onze CLA ondertekenen](http://opensource.adobe.com/cla.html). U
 hoeft maar één keer een Adobe-CLA in te dienen, dus als u er al eerder een hebt ingediend,
 kunt u aan de slag.
 
 ## Codebeoordelingen
 
-Alle inzendingen moeten in de vorm van pull-aanvragen gebeuren en moeten door projectcommitters worden gecontroleerd. Lees de documentatie [over pull-aanvragen van GitHub](https://help.github.com/articles/about-pull-requests/) voor meer informatie over het indienen van pull-aanvragen.
+Alle inzendingen moeten in de vorm van pull-aanvragen worden ingediend en zullen 
+door projectcommitters worden beoordeeld. Raadpleeg [de documentatie voor pull-aanvragen van GitHub](https://help.github.com/articles/about-pull-requests/)
+voor meer informatie over het verzenden van pull-aanvragen.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when

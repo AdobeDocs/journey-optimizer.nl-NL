@@ -5,7 +5,8 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: d51e28261908018824bcf65180534ced836b3765
+exl-id: 00d2fc73-3ac8-421c-982a-0f3ec7e3dacd
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 1%
@@ -14,15 +15,15 @@ ht-degree: 1%
 
 # De niet-visuele webeditor gebruiken {#web-non-visual-editor}
 
-Naast [!DNL Journey Optimizer] visuele [&#x200B; Webontwerper &#x200B;](web-visual-editor.md), kunt u ook wijzigingen aan uw Web-pagina&#39;s toevoegen gebruikend a **niet-visuele redacteur**.
+Naast [!DNL Journey Optimizer] visuele [ Webontwerper ](web-visual-editor.md), kunt u ook wijzigingen aan uw Web-pagina&#39;s toevoegen gebruikend a **niet-visuele redacteur**.
 
-Dit kan nuttig zijn als u niet kunt, of niet wordt toegestaan om browser uitbreidingen zoals [&#x200B; Adobe Experience Cloud Visual Helper &#x200B;](web-prerequisites.md#visual-authoring-prerequisites) te installeren, die wordt vereist om uw pagina&#39;s in de Webontwerper te laden.
+Dit kan nuttig zijn als u niet kunt, of niet wordt toegestaan om browser uitbreidingen zoals [ Adobe Experience Cloud Visual Helper ](web-prerequisites.md#visual-authoring-prerequisites) te installeren, die wordt vereist om uw pagina&#39;s in de Webontwerper te laden.
 
 In bepaalde gevallen kunt u het ook gemakkelijker vinden om een niet-visuele editor te gebruiken om wijzigingen toe te passen op een bepaalde CSS-kiezer, zonder het risico dat u andere elementen op een webpagina wijzigt of de paginastructuur wijzigt.
 
 Volg onderstaande stappen om uw webervaringen met de niet-visuele editor te maken.
 
-1. Schakel de optie **[!UICONTROL Visual editor]** uit in het **[!UICONTROL Edit content]** -scherm tijdens de rit of campagne.
+1. Schakel de optie **[!UICONTROL Edit content]** uit in het **[!UICONTROL Visual editor]** -scherm tijdens de rit of campagne.
 
 1. Klik op **[!UICONTROL Add a modification]** om uw webinhoud te bewerken.
 
@@ -36,8 +37,8 @@ Volg onderstaande stappen om uw webervaringen met de niet-visuele editor te make
 
    Er zijn twee typen beschikbaar. Ze hebben verschillende opties. Zie de koppelingen hieronder voor meer informatie:
 
-   * **[!UICONTROL CSS Selector]** - [&#x200B; Leer meer &#x200B;](manage-web-modifications.md#css-selector)
-   * **[!UICONTROL Page `<head>`]** - [&#x200B; Leer meer &#x200B;](manage-web-modifications.md#page-head)
+   * **[!UICONTROL CSS Selector]** - [ Leer meer ](manage-web-modifications.md#css-selector)
+   * **[!UICONTROL Page `<head>`]** - [ Leer meer ](manage-web-modifications.md#page-head)
 
 1. Klik op de knop **[!UICONTROL Add personalization]**. De verpersoonlijkingsredacteur opent.
 
@@ -55,7 +56,7 @@ Volg onderstaande stappen om uw webervaringen met de niet-visuele editor te make
 
    >[!NOTE]
    >
-   >De **[!UICONTROL Modifications]** ruit is het zelfde als wanneer het gebruiken van de [&#x200B; Webontwerper &#x200B;](web-visual-editor.md). Alle acties u met het kunt uitvoeren zijn gedetailleerd in [&#x200B; deze sectie &#x200B;](manage-web-modifications.md#use-modifications-pane).
+   >De **[!UICONTROL Modifications]** ruit is het zelfde als wanneer het gebruiken van de [ Webontwerper ](web-visual-editor.md). Alle acties u met het kunt uitvoeren zijn gedetailleerd in [ deze sectie ](manage-web-modifications.md#use-modifications-pane).
 
 1. Klik op de knop **[!UICONTROL Add]** boven op het deelvenster **[!UICONTROL Modifications]** om nog een wijziging toe te voegen en herhaal de bovenstaande stappen.
 
@@ -64,7 +65,7 @@ Volg onderstaande stappen om uw webervaringen met de niet-visuele editor te make
 
    ![](assets/web-campaign-click.png){width="50%" align="left"}
 
-   Gebruik **voeg Component** knoop toe om een nieuwe actie te selecteren om te volgen. Leer meer over klik het volgen gebruik in [&#x200B; deze sectie &#x200B;](monitor-web-experiences.md#use-click-tracking).
+   Gebruik **voeg Component** knoop toe om een nieuwe actie te selecteren om te volgen. Leer meer over klik het volgen gebruik in [ deze sectie ](monitor-web-experiences.md#use-click-tracking).
 
 
 1. Klik op de pijl linksboven in het scherm om terug te bladeren naar het scherm van de reis- of campagneeditie. U kunt het huidige aantal wijzigingen zien en meer wijzigingen toevoegen.

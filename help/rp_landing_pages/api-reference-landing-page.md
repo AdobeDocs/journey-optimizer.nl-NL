@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: API-naslag
 description: API-naslag
 redpen-status: CREATED_||_2025-08-11_21-04-46
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: 0b5e61d7-14a1-446e-8cb0-8861295d6e94
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
 
 ---
-
 
 # API-naslag{#section-overview}
 
@@ -20,7 +20,7 @@ De sectie API-naslaggids in Adobe Journey Optimizer ontgrendelt de gereedschappe
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met de bibliotheek-API van de aanbieding
 
@@ -30,7 +30,7 @@ Leer hoe te om de Bibliotheek API van de Aanbieding voor besluitvormingsbeheer, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Aanbiedingen leveren met Adobe Journey Optimizer API&#39;s
 

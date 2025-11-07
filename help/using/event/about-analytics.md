@@ -30,7 +30,7 @@ Dit werkt alleen met Adobe Analytics als u:
 >
 >Deze sectie is slechts op regel-gebaseerde gebeurtenissen en klanten van toepassing die de gegevens van Adobe Analytics of van het Web SDK moeten gebruiken.
 > 
->Als u Adobe Customer Journey Analytics gebruikt, verwijs naar [&#x200B; deze pagina &#x200B;](../reports/cja-ajo.md).
+>Als u Adobe Customer Journey Analytics gebruikt, verwijs naar [ deze pagina ](../reports/cja-ajo.md).
 >
 
 ## Adobe Analytics- of Web SDK-gegevens configureren {#leverage-analytics-data}
@@ -61,7 +61,7 @@ Dit laat de bron van Analytics schakelaar voor die rapportreeks toe. Telkens wan
 
 ![](assets/ajo-aa_4.png)
 
-Leer meer over de bronschakelaar van Adobe Analytics in [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=nl-NL){target="_blank"} en [&#x200B; leerprogramma &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=nl-NL){target="_blank"}.
+Leer meer over de bronschakelaar van Adobe Analytics in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target="_blank"} en [ leerprogramma ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target="_blank"}.
 
 ## Deze configuratie activeren {#activate-analytics-data}
 
@@ -102,7 +102,7 @@ In het onderstaande voorbeeld leert u hoe u gebruikers die een product aan hun w
    * **[!UICONTROL Name]**: pas de naam van uw **[!UICONTROL Event]** aan.
    * **[!UICONTROL Type]** : kies het **[!UICONTROL Unitary]** type. [Meer informatie](../event/about-events.md)
    * **[!UICONTROL Event ID type]**: Kies het type **[!UICONTROL Rule based]** gebeurtenis-id. [Meer informatie](../event/about-events.md#event-id-type)
-   * **[!UICONTROL Schema]**: Selecteer Analytics of WebSDK die schema [&#x200B; vóór &#x200B;](#leverage-analytics-data) wordt gecreeerd.
+   * **[!UICONTROL Schema]**: Selecteer Analytics of WebSDK die schema [ vóór ](#leverage-analytics-data) wordt gecreeerd.
    * **[!UICONTROL Fields]**: selecteer de velden Payload. [Meer informatie](../event/about-creating.md#define-the-payload-fields)
    * **[!UICONTROL Event ID condition]**: Bepaal de voorwaarde om de gebeurtenissen te identificeren die uw reis zullen teweegbrengen.
 

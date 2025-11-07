@@ -25,7 +25,7 @@ Door de inhoud van berichten te ontwerpen in Adobe Journey Optimizer kunt u aant
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 E-mailinhoud ontwerpen
 
@@ -35,7 +35,7 @@ Ontwerp uw e-mailhoofd met de e-mail Designer, maak responsieve lay-outs, pas be
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
 
 Pushmeldingen ontwerpen
 
@@ -45,7 +45,7 @@ Maak dwingende pushmeldingen voor iOS en Android, configureer titel- en body-inh
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 SMS- en MMS-berichten ontwerpen
 
@@ -55,7 +55,7 @@ Stel gepersonaliseerde tekstberichten met SMS samen, verbeter communicatie met d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 In-app berichten ontwerpen
 
@@ -65,7 +65,7 @@ Bouw boeiende in-app ervaringen met meerdere lay-outopties, waaronder de indelin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Uw inhoud aanpassen
 
@@ -75,7 +75,7 @@ Voeg verpersoonlijking aan berichten toe gebruikend profielattributen, hefboomwe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Sjablonen en fragmenten gebruiken
 

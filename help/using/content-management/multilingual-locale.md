@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+exl-id: 0b0e9344-f1ca-4aed-b143-facaa74c9b29
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 3%
@@ -22,9 +23,9 @@ ht-degree: 3%
 >title="Landinstelling toevoegen"
 >abstract="Als u uw taalvoorkeuren configureert, kunt u extra landinstellingen maken als de gewenste taal niet beschikbaar is voor meertalige inhoud."
 
-Wanneer het vormen van uw taalmontages, zoals die in [&#x200B; worden beschreven creeer uw taalmontages &#x200B;](multilingual-manual.md#language-settings) sectie, als een specifieke scène niet beschikbaar voor uw meertalige inhoud is, hebt u de flexibiliteit om zo vele nieuwe scènes tot stand te brengen zoals vereist gebruikend het **[!UICONTROL Translation]** menu.
+Wanneer het vormen van uw taalmontages, zoals die in [ worden beschreven creeer uw taalmontages ](multilingual-manual.md#language-settings) sectie, als een specifieke scène niet beschikbaar voor uw meertalige inhoud is, hebt u de flexibiliteit om zo vele nieuwe scènes tot stand te brengen zoals vereist gebruikend het **[!UICONTROL Translation]** menu.
 
-1. Open **[!UICONTROL Translation]** via het menu **[!UICONTROL Content management]** .
+1. Open **[!UICONTROL Content management]** via het menu **[!UICONTROL Translation]** .
 
 1. Klik op het tabblad **[!UICONTROL Locale dictionary]** op **[!UICONTROL Add locale]**.
 
@@ -35,4 +36,3 @@ Wanneer het vormen van uw taalmontages, zoals die in [&#x200B; worden beschreven
 1. Klik op **[!UICONTROL Save]** om uw landinstelling te maken.
 
    ![](assets/locale_2.png)
-

@@ -20,7 +20,7 @@ Met de communicatiekanalen van Adobe Journey Optimizer kunt u verbinding maken m
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Inleiding tot communicatiekanalen
 
@@ -30,7 +30,7 @@ Leer over de uitgaande en binnenkomende communicatiekanalen beschikbaar in Adobe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 E-mailkanaal
 
@@ -40,7 +40,7 @@ Ontdek hoe u e-mailcampagnes kunt maken, configureren en optimaliseren, inclusie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 In-app-berichten
 
@@ -50,7 +50,7 @@ Ontdek hoe u In-app-meldingen voor mobiele en webplatforms kunt configureren, on
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Kanaal voor pushmelding
 
@@ -60,7 +60,7 @@ Leer hoe u pushmeldingen voor iOS en Android kunt maken, configureren en verzend
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 SMS/MMS/RCS-berichten
 
@@ -70,7 +70,7 @@ Begrijp hoe te om SMS, MMS, en RCS berichten voor marketing en transactionele do
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 Campagnes Direct Mail
 
@@ -87,5 +87,5 @@ Ontdek hoe u direct-mailcampagnes kunt maken en beheren, waaronder het exportere
 - **[Kanaal van het Web](web-landing-page.md)** - leer hoe te, Webervaringen tot stand te brengen te vormen en te personaliseren, en Webkanalen met uitgaande marketing strategieën te integreren.
 - **[code-Gebaseerde Ervaring](code-based-experience-landing-page.md)** - duik in op code-gebaseerde ervaringen om gepersonaliseerde inhoud over digitale platforms te leveren gebruikend SDKs en APIs.
 - **[Kaarten van de Inhoud](content-card-landing-page.md)** - ontdek hoe te om, inhoudskaarten te vormen tot stand te brengen en te ontwerpen voor het in dienst nemen en gepersonaliseerd overseinen in mobiele apps en websites.
-- **[WhatsApp Overseinen](whatsapp-landing-page.md)** - Leer hoe te om het overseinen WhatsApp via de Wolk API van Meta te integreren en te gebruiken voor gepersonaliseerde en volgzame communicatie campagnes.
+- **[WhatsApp Overseinen](whatsapp-landing-page.md)** - Leer hoe te om het overseinen WhatsApp via de Wolk van Meta API voor gepersonaliseerde en volgzame communicatie campagnes te integreren en te gebruiken.
 - **[het Overseinen van de LIJN](line-landing-page.md)** - ontdekt hoe te, de berichten van de LIJN voor efficiënte mededeling in campagnes en reizen te vormen tot stand te brengen en te personaliseren.

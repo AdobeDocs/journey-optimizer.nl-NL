@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Toegangsbeheer
 description: Toegangsbeheer
 redpen-status: CREATED_||_2025-08-11_21-19-16
-source-git-commit: e8b71a7efe1ca05a33bc6f33253900a58fa6665c
+exl-id: 812d29b1-8ef3-4f41-8a32-bf2839f924a1
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 3%
 
 ---
-
 
 # Toegangsbeheer{#section-overview}
 
@@ -20,7 +20,7 @@ Met toegangsbeheer in Adobe Journey Optimizer kunnen beheerders gebruikerstoegan
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met Toegangsbeheer
 
@@ -30,7 +30,7 @@ Leer de concepten en processen voor het beheren van gebruikerstoestemmingen, rol
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Gebruikers en rollen beheren
 
@@ -40,7 +40,7 @@ Stapsgewijze begeleiding bij het toewijzen, bewerken en maken van rollen om gebr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Ingebouwde rollen
 
@@ -50,7 +50,7 @@ Ontdek de vooraf bepaalde rollen en hun bijbehorende toestemmingen om toegangsbe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Ingebouwde machtigingen
 
@@ -60,7 +60,7 @@ Begrijp de beschikbare toestemmingen en hun functionaliteit om op rol-gebaseerde
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Machtigingsniveaus
 
@@ -70,7 +70,7 @@ Leer over high-level en laag-vlakke toestemmingen en hoe zij korrelige controle 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Toegangsbeheer op basis van kenmerken
 

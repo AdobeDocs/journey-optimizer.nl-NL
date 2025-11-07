@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Contentsjablonen
 description: Contentsjablonen
 redpen-status: CREATED_||_2025-08-12_00-38-47
-source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
+exl-id: a745742a-61c4-420e-bbd8-b3d72d782fb3
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 2%
 
 ---
-
 
 # Contentsjablonen{#section-overview}
 
@@ -20,7 +20,7 @@ De malplaatjes van de inhoud in Adobe Journey Optimizer zijn krachtige hulpmidde
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met inhoudssjablonen
 
@@ -30,7 +30,7 @@ Leer de basisbeginselen van het maken en beheren van inhoudssjablonen om het her
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Sjablonen openen en beheren
 
@@ -40,7 +40,7 @@ Ontdek hoe u inhoudssjablonen kunt openen, ordenen en beheren, inclusief het mak
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Inhoudssjablonen maken
 
@@ -50,7 +50,7 @@ Stapsgewijze handleiding voor het maken van herbruikbare inhoudssjablonen op bas
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Inhoud in e-mailsjablonen vergrendelen
 
@@ -60,7 +60,7 @@ Leer hoe u secties of volledige sjablonen kunt vergrendelen om onbedoelde bewerk
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Inhoudssjablonen testen
 
@@ -70,7 +70,7 @@ E-mailsjablonen valideren door rendering, variaties en proefdrukken te testen vo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Inhoudssjablonen gebruiken
 

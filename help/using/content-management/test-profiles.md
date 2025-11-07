@@ -19,13 +19,13 @@ ht-degree: 2%
 >title="Gebruik testprofielen om uw inhoud te controleren"
 >abstract="Gebruik testprofielen om de inhoud voor te vertonen en te testen. Als u persoonlijke velden hebt toegevoegd, kunt u controleren hoe deze worden weergegeven met de gegevens van het testprofiel."
 
-Testprofielen zijn aanvullende ontvangers die niet voldoen aan de gedefinieerde doelcriteria. [&#x200B; Leer hoe te om testprofielen tot stand te brengen &#x200B;](../audience/creating-test-profiles.md)
+Testprofielen zijn aanvullende ontvangers die niet voldoen aan de gedefinieerde doelcriteria. [ Leer hoe te om testprofielen tot stand te brengen ](../audience/creating-test-profiles.md)
 
 Voordat u testprofielen gebruikt om uw inhoud te testen, moet u deze eerst selecteren. Ga als volgt te werk om dit te doen:
 
 1. Klik in het scherm Inhoud bewerken van uw bericht of in de Designer-e-mail op de knop **[!UICONTROL Simulate content]** en selecteer **[!UICONTROL Simulate content]** .
 
-1. Klik op de knop **[!UICONTROL Manage test profiles]** en selecteer de naamruimte die u wilt gebruiken om testprofielen te identificeren door op het selectiepictogram **[!UICONTROL Identity namespace]** te klikken. [&#x200B; Leer meer over de identiteitsnamespaces van Adobe Experience Platform &#x200B;](../audience/get-started-identity.md).
+1. Klik op de knop **[!UICONTROL Manage test profiles]** en selecteer de naamruimte die u wilt gebruiken om testprofielen te identificeren door op het selectiepictogram **[!UICONTROL Identity namespace]** te klikken. [ Leer meer over de identiteitsnamespaces van Adobe Experience Platform ](../audience/get-started-identity.md).
 
    In het voorbeeld hieronder, gebruiken wij **E-mail** namespace.
 
@@ -47,4 +47,4 @@ Voordat u testprofielen gebruikt om uw inhoud te testen, moet u deze eerst selec
 
 >[!NOTE]
 >
->Naast testprofielen kunt u met [!DNL Journey optimizer] ook verschillende varianten van de inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [&#x200B; leer hoe te om inhoudvariaties &#x200B;](../test-approve/simulate-sample-input.md) te simuleren
+>Naast testprofielen kunt u met [!DNL Journey optimizer] ook verschillende varianten van de inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [ leer hoe te om inhoudvariaties ](../test-approve/simulate-sample-input.md) te simuleren

@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Op code gebaseerd kanaal configureren
 description: Op code gebaseerd kanaal configureren
 redpen-status: CREATED_||_2025-08-11_20-41-39
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: e77acb57-66a5-49cc-b98b-84886d6736e3
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
 
 ---
-
 
 # Op code gebaseerd kanaal configureren{#section-overview}
 
@@ -20,7 +20,7 @@ De Configure code-Gebaseerde sectie van het Kanaal in Adobe Journey Optimizer he
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Voorwaarden voor op code gebaseerde ervaring
 
@@ -30,7 +30,7 @@ Leer over de eerste vereisten voor het gebruiken van code-gebaseerde ervaringen,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Codegebaseerde ervaringsoppervlakken
 
@@ -40,7 +40,7 @@ Begrijp oppervlakten en hun herkenningstekens, samenstelling, en gebruik in code
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Voorbeelden van implementatiemethoden
 
@@ -50,7 +50,7 @@ Krijg geleidelijke begeleiding voor het uitvoeren van cliënt-kant, server-kant,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Beslissing in op code-gebaseerde Ervaring Implementaties
 
@@ -60,7 +60,7 @@ Leer hoe te om deduplicatie te vormen en besluitvormingsverzoeken in op code-geb
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configuratie voor op code gebaseerde ervaring maken
 

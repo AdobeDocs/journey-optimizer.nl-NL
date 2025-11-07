@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Aan de slag met het beheer van beslissingen
 description: Aan de slag met het beheer van beslissingen
 redpen-status: CREATED_||_2025-08-11_20-58-31
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: e4cd7cbb-9f3f-4406-95cc-6b0c4179e641
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 0%
 
 ---
-
 
 # Aan de slag met het beheer van beslissingen{#section-overview}
 
@@ -20,7 +20,7 @@ Met het Beslissingsbeheer van Adobe Journey Optimizer kunnen marketers op het pe
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Inleiding tot het beheer van besluiten
 
@@ -30,7 +30,7 @@ Leer meer over Beslissingsbeheer in Adobe Journey Optimizer, inclusief de voorde
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Beheersbeheerinstructies en -beperkingen
 
@@ -40,7 +40,7 @@ Begrijp de operationele beperkingen en prestatiedrempels van Beslissingsbeheer o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Handleiding voor wisselaargebruikersinterface aanbieden
 
@@ -50,7 +50,7 @@ Onderzoek de interface en de functionaliteit van de Bibliotheek van de Aanbiedin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Belangrijke stappen voor het maken en beheren van aanbiedingen
 
@@ -60,7 +60,7 @@ Volg een stapsgewijze gids om aanbiedingen en beslissingen in Adobe Journey Opti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Aangepast uploadpubliek gebruiken voor besluitvorming
 
@@ -70,7 +70,7 @@ Ontdek hoe u geschiktheidscriteria kunt verfijnen en aanbiedingen kunt personali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Persoonlijke voorstellen in een e-mail gebruiken
 

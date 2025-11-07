@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Doelgroepen
 description: Doelgroepen
 redpen-status: CREATED_||_2025-08-11_20-46-11
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: c3b9f97d-7c2f-436c-abba-60b7c0726ee4
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 1%
 
 ---
-
 
 # Doelgroepen{#section-overview}
 
@@ -20,7 +20,7 @@ Soorten publiek in Adobe Journey Optimizer helpen u op het juiste moment verbind
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met soorten publiek
 
@@ -30,7 +30,7 @@ Leer de grondbeginselen van publieksbeheer, segmentatie, en activering binnen Ad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Soorten publiek maken en beheren
 
@@ -40,7 +40,7 @@ Ontdek geavanceerde workflows voor het maken, samenstellen en verrijken van doel
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Soorten publiek activeren in campagnes en reizen
 
@@ -50,7 +50,7 @@ Begrijp hoe u het publiek activeert en deze effectief kunt gebruiken binnen camp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Verrijkingskenmerken benutten
 

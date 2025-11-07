@@ -7,7 +7,7 @@ level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ De lift tussen een variant *ν*, en de controlevariant *ν <sub> 0</sub>* is de 
 
 In het deelvenster Journey Experimentation worden &#39;op elk moment geldige&#39; betrouwbaarheidsintervallen (betrouwbaarheidsreeksen) weergegeven voor afzonderlijke behandelingen in een experiment.
 
-De betrouwbaarheidsvolgorde voor een individuele variant `ν` staat centraal in de statistische methodologie die door Adobe wordt gebruikt. U kunt zijn definitie op [&#x200B; vinden deze pagina &#x200B;](https://doi.org/10.48550/arXiv.2103.06476) (die van [ Waudby-Smith en al.] wordt gereproduceerd).
+De betrouwbaarheidsvolgorde voor een individuele variant `ν` staat centraal in de statistische methodologie die door Adobe wordt gebruikt. U kunt zijn definitie op [ vinden deze pagina ](https://doi.org/10.48550/arXiv.2103.06476) (die van [ Waudby-Smith en al.] wordt gereproduceerd).
 
 Als u geïnteresseerd bent in het schatten van een doelparameter `ψ` zoals de conversiesnelheid van een variant in een Experiment, kan de tweedeling tussen een sequentie van &#39;fixed-time&#39; Trust Intervals (CI&#39;s) en een time-uniform Vertrouwensreeks (CS) als volgt worden samengevat:
 
@@ -71,7 +71,7 @@ Waarbij:
 
 Het door Adobe gebruikte vertrouwen is een &quot;op elk moment geldig&quot; vertrouwen, dat wordt verkregen door de betrouwbaarheidsvolgorde voor het gemiddelde behandelingseffect om te keren.
 
-Om precies te zijn, in een twee steekproef *t* test voor het verschil in middel tussen twee varianten, is er een 1:1 afbeelding tussen *p* -waarde voor deze test, en het betrouwbaarheidsinterval voor het verschil in middelen. Door analogie, kan een op elk ogenblik geldige *p* -waarde worden verkregen door de (om het even welk tijd geldige) vertrouwensopeenvolging voor de gemiddelde schatter van het behandelingseffect om te keren:
+Om precies te zijn, in een twee steekproef *t* test voor het verschil in middel tussen twee varianten, is er een 1 :1 afbeelding tussen *p* - waarde voor deze test, en het betrouwbaarheidsinterval voor het verschil in middelen. Door analogie, kan een op elk ogenblik geldige *p* -waarde worden verkregen door de (om het even welk tijd geldige) vertrouwensopeenvolging voor de gemiddelde schatter van het behandelingseffect om te keren:
 
 ![](assets/statistical_6.png){width="200" align="center"}
 
@@ -101,7 +101,7 @@ Tot slot is het **op elk ogenblik geldige vertrouwen**:
 
 ## Een experiment declareren als &quot;Sluiten&quot;
 
-Voor een Experimenteer met twee armen, toont het paneel van de Experimentatie van Journey Optimizer een bericht verklarend dat een Experiment **&#x200B;**&#x200B;overtuigend is wanneer het op om het even welke tijd geldige vertrouwen 95% overschrijdt (d.w.z., is de op om het even welk ogenblik geldige `p` - waarde minder dan 5%).
+Voor een Experimenteer met twee armen, toont het paneel van de Experimentatie van Journey Optimizer een bericht verklarend dat een Experiment **** overtuigend is wanneer het op om het even welke tijd geldige vertrouwen 95% overschrijdt (d.w.z., is de op om het even welk ogenblik geldige `p` - waarde minder dan 5%).
 
 Als er meer dan twee varianten aanwezig zijn, wordt de Bonferoni-correctie toegepast om het gezinssgewijze foutenpercentage te regelen. Voor een experiment met `K` -behandelingen en een enkele basisbehandeling (controle) zijn er `K-1` onafhankelijke hypothesetests. De Bonferoni-correctie betekent dat we de nulhypothese verwerpen dat het besturingselement en een bepaalde variant gelijke middelen hebben, als de op elk moment geldige `p` -waarde (hierboven gedefinieerd) onder een drempelwaarde van `α/(K-1)` ligt.
 

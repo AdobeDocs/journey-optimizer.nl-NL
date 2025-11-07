@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Uw e-mailinhoud ontwerpen
 description: Uw e-mailinhoud ontwerpen
 redpen-status: CREATED_||_2025-08-11_20-33-11
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: 21ba6677-f158-4d9d-8b01-304c4d3841ee
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
 
 ---
-
 
 # Uw e-mailinhoud ontwerpen{#section-overview}
 
@@ -20,7 +20,7 @@ Door uw e-mailinhoud in Adobe Journey Optimizer te ontwerpen, kunt u visueel ver
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met e-mailontwerp
 
@@ -30,7 +30,7 @@ Leer de basisbeginselen van e-mailontwerp in Adobe Journey Optimizer, inclusief 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 E-mailinhoud maken en optimaliseren
 
@@ -40,7 +40,7 @@ Ontdek methoden voor het ontwerpen van e-mailinhoud, het importeren van HTML, he
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Uw inhoud ontwerpen in Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Ontdek gereedschappen en tips en trucs voor het gebruik van componenten, visuele
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Stijl bewerken: E-mailontwerpen aanpassen
 

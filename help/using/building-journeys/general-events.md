@@ -33,11 +33,11 @@ Gebeurtenissen stellen u in staat om uw reizen tijdelijk te activeren en bericht
 
 Voor dit type gebeurtenis kunt u alleen een label en een beschrijving toevoegen. De rest van de configuratie kan niet worden bewerkt. Het werd uitgevoerd door de technische gebruiker. Zie [deze pagina](../event/about-events.md).
 
-Leer meer over gebeurtenisproductie en tarieven van de reisverwerking in [&#x200B; deze sectie &#x200B;](entry-management.md#journey-processing-rate).
+Leer meer over gebeurtenisproductie en tarieven van de reisverwerking in [ deze sectie ](entry-management.md#journey-processing-rate).
 
 ![](assets/general-events.png)
 
-Wanneer u een bedrijfsgebeurtenis laat vallen, voegt het automatisch a **Gelezen activiteit van het publiek** toe. Voor meer informatie over bedrijfsgebeurtenissen, verwijs naar [&#x200B; deze sectie &#x200B;](../event/about-events.md)
+Wanneer u een bedrijfsgebeurtenis laat vallen, voegt het automatisch a **Gelezen activiteit van het publiek** toe. Voor meer informatie over bedrijfsgebeurtenissen, verwijs naar [ deze sectie ](../event/about-events.md)
 
 ## Luisteren naar gebeurtenissen tijdens een bepaald tijdstip {#events-specific-time}
 

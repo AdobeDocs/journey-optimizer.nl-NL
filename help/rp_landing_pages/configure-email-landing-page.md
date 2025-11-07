@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: E-mailkanaal configureren
 description: E-mailkanaal configureren
 redpen-status: CREATED_||_2025-08-11_20-34-10
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: c9377c3c-d716-4fae-adc8-458cbe7213dd
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
 
 ---
-
 
 # E-mailkanaal configureren{#section-overview}
 
@@ -20,7 +20,7 @@ Het configureren van het e-mailkanaal in Adobe Journey Optimizer is uw toegangsp
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met e-mailconfiguratie
 
@@ -30,7 +30,7 @@ Leer de essentiële stappen om e-mailmogelijkheden, met inbegrip van subdomain d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Instellingen voor e-mailconfiguratie definiëren
 
@@ -40,7 +40,7 @@ Stel e-mailconfiguraties in voor de levering, compatibiliteit en aanpassing met 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 List Unsubscribe inschakelen en configureren
 
@@ -50,7 +50,7 @@ Leer hoe u de functie Abonnement opzeggen inschakelt om één klik opzeggen-URL&
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Parameters voor e-mailkopteksten configureren
 
@@ -60,7 +60,7 @@ Pas de afzender aan en beantwoord e-mailadressen, verwerk fouten en stuur e-mail
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 URL-beheer voor e-mailkanaal configureren
 
@@ -70,7 +70,7 @@ Stel URL-volgparameters in om de doeltreffendheid van e-mailcampagnes te meten e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Aangepaste instellingen voor e-mailconfiguratie
 

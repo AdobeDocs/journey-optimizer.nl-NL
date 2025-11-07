@@ -30,7 +30,7 @@ ht-degree: 0%
 >id="ajo_admin_sms_api"
 >title="Uw SMS/MMS-provider configureren met Journey Optimizer"
 >abstract="Voordat u tekstberichten (SMS/MMS) kunt verzenden, moet u de providerinstellingen integreren met Journey Optimizer. Zodra gedaan, moet u een configuratie tot stand brengen SMS/MMS. Deze stappen moeten worden uitgevoerd door een Adobe Journey Optimizer System Administrator."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Een SMS-kanaalconfiguratie maken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Een SMS-kanaalconfiguratie maken"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
@@ -52,11 +52,11 @@ De stappen zijn afhankelijk van uw SMS-provider. Klik op de onderstaande koppeli
    * [Aangepaste provider](sms-configuration-custom.md)
 1. [Een SMS-configuratie maken](sms-configuration-surface.md)
 
-Deze stappen moeten door een Beheerder van het Systeem van Adobe Journey Optimizer [&#x200B; worden uitgevoerd &#x200B;](../start/path/administrator.md).
+Deze stappen moeten door een Beheerder van het Systeem van Adobe Journey Optimizer [ worden uitgevoerd ](../start/path/administrator.md).
 
 ## Vereisten{#sms-prerequisites}
 
-Adobe Journey Optimizer is momenteel geïntegreerd met externe providers die services voor tekstberichten aanbieden die onafhankelijk zijn van Adobe Journey Optimizer. De gesteunde leveranciers voor tekstoverseinen en MMS zijn: **Sinch**, **Twilio** en **Infobip**. Merk op dat u extra overseinenleveranciers kunt vormen gebruikend de [&#x200B; configuratie van de douaneleverancier &#x200B;](sms-configuration-custom.md).
+Adobe Journey Optimizer is momenteel geïntegreerd met externe providers die services voor tekstberichten aanbieden die onafhankelijk zijn van Adobe Journey Optimizer. De gesteunde leveranciers voor tekstoverseinen en MMS zijn: **Sinch**, **Twilio** en **Infobip**. Merk op dat u extra overseinenleveranciers kunt vormen gebruikend de [ configuratie van de douaneleverancier ](sms-configuration-custom.md).
 
 Voorafgaand aan het kanaalconfiguratie van SMS, moet u een rekening met één van deze leveranciers tot stand brengen om uw **Symbolische API** en **identiteitskaart van de Dienst** te krijgen, die u de verbinding tussen Adobe Journey Optimizer en de toepasselijke leverancier moet vormen.
 
@@ -64,6 +64,6 @@ Voor uw gebruik van tekstberichten en MMS-services gelden aanvullende voorwaarde
 
 >[!CAUTION]
 >
->Als u SMS-subdomeinen wilt openen en bewerken, moet u over de machtiging **[!UICONTROL Manage SMS Subdomains]** in de productiesandbox beschikken. Leer meer over toestemmingen op [&#x200B; deze pagina &#x200B;](../administration/high-low-permissions.md#administration-permissions).
+>Als u SMS-subdomeinen wilt openen en bewerken, moet u over de machtiging **[!UICONTROL Manage SMS Subdomains]** in de productiesandbox beschikken. Leer meer over toestemmingen op [ deze pagina ](../administration/high-low-permissions.md#administration-permissions).
 >
 

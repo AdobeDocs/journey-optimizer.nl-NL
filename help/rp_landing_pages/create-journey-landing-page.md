@@ -21,7 +21,7 @@ Als u een reis maakt in Adobe Journey Optimizer, kunt u persoonlijke, geautomati
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Hoe te om Uw Eerste reis van de Klant te creëren
 
@@ -31,7 +31,7 @@ Leer hoe u uw eerste reis van de klant maakt, ontwerpt, test en publiceert met s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Eigenschappen voor reizen definiëren en beheren
 
@@ -41,7 +41,7 @@ Vorm ingangsregels, tijd-verwante montages, toegangsbeheer, en meer voor uw reiz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Uw reis ontwerpen
 
@@ -51,7 +51,7 @@ Met de interface slepen en neerzetten kunt u gepersonaliseerde, uit meerdere sta
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Uw reis testen
 
@@ -61,7 +61,7 @@ Test uw reizen met gesimuleerde profielen en detecteer fouten voordat u live gaa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Reizen testen met de modus Droog uitvoeren
 
@@ -71,7 +71,7 @@ Valideer uw reizen met echte productiegegevens zonder contact op te nemen met kl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Een reis publiceren
 

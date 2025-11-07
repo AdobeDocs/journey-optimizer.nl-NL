@@ -23,13 +23,13 @@ Met behulp van het webkanaal kunt u via een intuïtieve visuele interface eenvou
 
 Als u reeds uitgaande kanalen voor berichtlevering, zoals e-mail, SMS of dupberichten gebruikt, kunt u het binnenkomende Webkanaal gebruiken om een werkelijk gepersonaliseerde ervaring aan te bieden die zich over alle kanalen uitstrekt.
 
-Zodra u een reis of een campagne creeerde, selecteer **Web** als uw actie en bepaal basismontages. Voor meer informatie over hoe te om uw reis/campagne te vormen, verwijs naar deze [&#x200B; pagina &#x200B;](create-web.md#create-web-experience).
+Zodra u een reis of een campagne creeerde, selecteer **Web** als uw actie en bepaal basismontages. Voor meer informatie over hoe te om uw reis/campagne te vormen, verwijs naar deze [ pagina ](create-web.md#create-web-experience).
 
 >[!NOTE]
 >
->Als dit uw eerste keer is creërend een Webervaring, zorg ervoor u de eerste vereisten volgt die in [&#x200B; worden beschreven deze sectie &#x200B;](web-prerequisites.md).
+>Als dit uw eerste keer is creërend een Webervaring, zorg ervoor u de eerste vereisten volgt die in [ worden beschreven deze sectie ](web-prerequisites.md).
 
-Ontdek de gedetailleerde stappen om een Webcampagne in [&#x200B; tot stand te brengen deze video &#x200B;](create-web.md#video).
+Ontdek de gedetailleerde stappen om een Webcampagne in [ tot stand te brengen deze video ](create-web.md#video).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -71,10 +71,10 @@ Ontdek de gedetailleerde stappen om een Webcampagne in [&#x200B; tot stand te br
 ## Aanvullende bronnen
 
 * **[creeer Webervaringen](create-web.md)** - leer hoe te om Webcampagnes en reizen tot stand te brengen en te vormen om Webinhoud te wijzigen.
-* **[het kanaaleerste vereisten van 0&rbrace; het Web &lbrace;begrijpen de technische vereisten en de opstelling nodig voor de implementatie van het Webkanaal.](web-prerequisites.md)**
+* **[het kanaaleerste vereisten van 0} het Web {begrijpen de technische vereisten en de opstelling nodig voor de implementatie van het Webkanaal.](web-prerequisites.md)**
 * **[geef Webinhoud](create-web.md#edit-web-content)** uit - hoofd de Webontwerper om pagina&#39;s te wijzigen gebruikend visuele of niet-visuele het uitgeven wijzen.
 * **[beheert Webwijzigingen](manage-web-modifications.md)** - Leer hoe te, wijzigingen over uw Webervaringen te organiseren, toe te passen en te beheren.
 * **[het Webervaringen van de Monitor](monitor-web-experiences.md)** - Spoor en analyseer de prestaties van uw Webcampagnes met gedetailleerde rapportering.
-* **[de campagneleerprogramma&#39;s van het Web &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op de eigenschappen van het Webkanaal en beste praktijken.
+* **[de campagneleerprogramma&#39;s van het Web ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op de eigenschappen van het Webkanaal en beste praktijken.
 
 

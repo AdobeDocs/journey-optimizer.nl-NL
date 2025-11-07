@@ -18,15 +18,15 @@ ht-degree: 0%
 
 # Inline-opmaakkenmerken toevoegen {#inline-styling}
 
-Wanneer u in de interface E-mailontwerper een element selecteert en de instellingen van het element in het zijpaneel weergeeft, kunt u de inline-kenmerken en de bijbehorende waarde voor dat specifieke element aanpassen.
+Wanneer u in de interface E-mail-Designer een element selecteert en de bijbehorende instellingen in het zijpaneel weergeeft, kunt u de inline-kenmerken en de bijbehorende waarde voor dat specifieke element aanpassen.
 
 1. Selecteer een element in de inhoud.
 
-1. Van de **[!UICONTROL Styles]** tab, zoek naar de **[!UICONTROL Styles Inline]** instellingen onder de **[!UICONTROL Advanced]** vervolgkeuzelijst.
+1. Zoek op het tabblad **[!UICONTROL Styles]** naar de **[!UICONTROL Styles Inline]** -instellingen onder de vervolgkeuzelijst **[!UICONTROL Advanced]** .
 
    ![](assets/styles_1.png)
 
-1. Wijzig de waarden van de bestaande kenmerken of voeg nieuwe kenmerken toe met de **+** knop. U kunt alle kenmerken en waarden toevoegen die CSS-compatibel zijn.
+1. Wijzig de waarden van de bestaande kenmerken of voeg nieuwe toe met de knop **+** . U kunt alle kenmerken en waarden toevoegen die CSS-compatibel zijn.
 
    ![](assets/styles_2.png)
 

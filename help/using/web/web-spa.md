@@ -21,7 +21,7 @@ ht-degree: 2%
 >id="ajo_web_designer_modifications_views"
 >title="Wijzigingen toepassen op geselecteerde weergaven"
 >abstract="De wijzigingen worden alleen toegepast op geselecteerde weergaven. De meningen kunnen worden ontdekt gebruikend **doorbladeren** wijze en aan hen navigeren. Kan de weergave waarnaar u zoekt niet vinden?"
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=nl-NL" text="Meer informatie"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Meer informatie"
 
 **Enige-pagina toepassingen** (SPAs) kan nu in de visuele redacteur van de Webontwerper worden ontworpen. Dit staat u toe om te selecteren welke specifieke **meningen** u uw Webpagina wijzigingen op wilt toepassen.
 
@@ -33,15 +33,15 @@ Eenmalige ontwikkelaarsopstelling is nodig om de meningen in de implementatie va
 
 ## Weergaven definiëren in de Web SDK-implementatie {#define-views}
 
-XDM-weergaven kunnen worden gebruikt in Adobe [!DNL Journey Optimizer] om marketers de mogelijkheid te bieden webpersonalisatie- en experimentatiecampagnes op SPA&#39;s uit te voeren via de visuele webeditor. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=nl-NL){target="_blank"}
+XDM-weergaven kunnen worden gebruikt in Adobe [!DNL Journey Optimizer] om marketers de mogelijkheid te bieden webpersonalisatie- en experimentatiecampagnes op SPA&#39;s uit te voeren via de visuele webeditor. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 
-Om tot meningen in het [!DNL Journey Optimizer] gebruikersinterface toegang te hebben en te schrijven, zorg ervoor u de stappen volgt die in [&#x200B; worden vermeld deze sectie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=nl-NL#implement-xdm-views){target="_blank"}.
+Om tot meningen in het [!DNL Journey Optimizer] gebruikersinterface toegang te hebben en te schrijven, zorg ervoor u de stappen volgt die in [ worden vermeld deze sectie ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
 
 ## Weergaven detecteren in de webontwerper {#discover-views}
 
 Zodra de opstelling van SPAs in de implementatie van SDK van het Web van Adobe Experience Platform wordt gedaan, moet u door alle meningen van uw website navigeren die u wijzigingen wilt toepassen op. Voer de onderstaande stappen uit.
 
-1. [&#x200B; creeer een Webreis of een campagne &#x200B;](create-web.md) en heb toegang tot [&#x200B; Webontwerper &#x200B;](web-visual-editor.md).
+1. [ creeer een Webreis of een campagne ](create-web.md) en heb toegang tot [ Webontwerper ](web-visual-editor.md).
 
    De weergave waarin u zich momenteel bevindt, wordt linksboven weergegeven.
 
@@ -90,4 +90,4 @@ In deze video wordt uitgelegd hoe u:
 * websitewijzigingen toepassen op meerdere weergaven of op alle weergaven die zijn ontdekt
 * Handelingen bulksgewijs uitvoeren op wijzigingen
 
->[!VIDEO](https://video.tv.adobe.com/v/3446891/?quality=12&learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)

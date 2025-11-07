@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Beslissingsbeheer
 description: Beslissingsbeheer
 redpen-status: CREATED_||_2025-08-11_21-05-09
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: 5262df0e-201b-45bc-8234-e5acb7ff8af9
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 3%
 
 ---
-
 
 # Beslissingsbeheer{#section-overview}
 
@@ -20,7 +20,7 @@ Met Beslissingsbeheer in Adobe Journey Optimizer kunt u het juiste aanbod op het
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met beslissingsbeheer
 
@@ -30,7 +30,7 @@ Leer de grondbeginselen van Beslissingsbeheer, met inbegrip van componenten, wer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Beslissingscomponenten maken en beheren
 
@@ -40,7 +40,7 @@ Ontdek hoe u plaatsingen, besluitvormingsregels en verzamelingskwalificatietoets
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Classificaties maken en optimaliseren
 
@@ -50,7 +50,7 @@ Leer aanbiedingen te rangschikken met behulp van formules en AI-modellen om de b
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Aanbiedingen maken en beheren
 
@@ -60,7 +60,7 @@ Stapsgewijze begeleiding voor het maken van persoonlijke aanbiedingen, fallback-
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Besluiten maken en beheren
 
@@ -70,7 +70,7 @@ Leer om, besluiten voor gepersonaliseerde aanbiedingslevering te vormen te rangs
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Batchbeslissing gebruiken
 

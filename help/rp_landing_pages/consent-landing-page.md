@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Toestemming beheren
 description: Toestemming beheren
 redpen-status: CREATED_||_2025-08-11_21-19-40
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: ea8d895d-ec7e-40d9-814d-32135bcb8a2e
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 3%
 
 ---
-
 
 # Toestemming beheren{#section-overview}
 
@@ -20,7 +20,7 @@ Het beheren van toestemming is essentieel voor het opbouwen van vertrouwen met u
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Uitschakelen en Personalization-toestemming beheren
 
@@ -30,7 +30,7 @@ Leer hoe u de voorkeuren voor opt-out beheert en toestemming voor personalisatie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Werken met beleid voor goedkeuring
 

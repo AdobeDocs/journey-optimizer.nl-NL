@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: SMS/MMS/RCS-kanaal configureren
 description: SMS/MMS/RCS-kanaal configureren
 redpen-status: CREATED_||_2025-08-11_20-38-02
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: f92e23ee-2478-4f16-85d0-4c88c9be08b1
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
 
 ---
-
 
 # SMS/MMS/RCS-kanaal configureren{#section-overview}
 
@@ -20,7 +20,7 @@ Met het SMS/MMS/RCS-kanaal in Adobe Journey Optimizer kunnen bedrijven verbindin
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met SMS/MMS/RCS Channel-configuratie
 
@@ -30,7 +30,7 @@ Leer hoe u SMS-, MMS- en RCS-kanalen in Adobe Journey Optimizer configureert, in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Sinch-provider configureren voor SMS/MMS/RCS-berichten
 
@@ -40,7 +40,7 @@ Stapsgewijze instructies voor het instellen van Sinch API-referenties om SMS, MM
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Infobip SMS, MMS en RCS Provider configureren
 
@@ -50,7 +50,7 @@ Gedetailleerde richtlijnen voor het integreren van Infobip als leverancier voor 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Twilio-provider configureren voor SMS/MMS/RCS-berichten
 
@@ -60,7 +60,7 @@ Instructies voor het instellen van Twilio API-referenties en het inschakelen van
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Een aangepaste SMS-provider configureren
 
@@ -70,7 +70,7 @@ Stel aangepaste SMS-providers in door API-referenties te maken, websites te behe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Een SMS/MMS/RCS Channel-configuratie maken
 

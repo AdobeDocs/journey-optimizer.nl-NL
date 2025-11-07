@@ -11,7 +11,7 @@ exl-id: aad4e08a-3369-454d-9e32-974347a3b393
 source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
 workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,7 @@ Klik hiertoe op **[!UICONTROL Simulate content]** . Vervolgens kunt u het type a
 
 ![](assets/push_preview_3.png)
 
-De gedetailleerde informatie over hoe te voorproef &amp; test inhoud is beschikbaar in de [&#x200B; sectie van het Beheer van de Inhoud &#x200B;](../content-management/preview-test.md).
+De gedetailleerde informatie over hoe te voorproef &amp; test inhoud is beschikbaar in de [ sectie van het Beheer van de Inhoud ](../content-management/preview-test.md).
 
 ## Uw pushmelding valideren {#push-validate}
 
@@ -35,11 +35,11 @@ U moet alarm in de hogere sectie van de redacteur controleren. Sommige zijn eenv
 
 * **de Fouten** verhinderen u de reis te testen of te activeren zolang zij niet, zoals worden opgelost:
 
-   * **[!UICONTROL The push version of the message is empty]**: deze fout wordt weergegeven wanneer de hoofdtekst of titel van de pushmelding ontbreekt. Leer hoe te om de inhoud van het pushbericht in [&#x200B; te bepalen deze sectie &#x200B;](create-push.md).
+   * **[!UICONTROL The push version of the message is empty]**: deze fout wordt weergegeven wanneer de hoofdtekst of titel van de pushmelding ontbreekt. Leer hoe te om de inhoud van het pushbericht in [ te bepalen deze sectie ](create-push.md).
 
-   * **[!UICONTROL configuration doesn't exist]**: u kunt het bericht niet gebruiken als de configuratie die u hebt geselecteerd, wordt verwijderd na het maken van het bericht. Als deze fout voorkomt, selecteer een andere configuratie in het bericht **[!UICONTROL Properties]**. Leer meer over kanaalconfiguraties in [&#x200B; deze sectie &#x200B;](../configuration/channel-surfaces.md).
+   * **[!UICONTROL configuration doesn't exist]**: u kunt het bericht niet gebruiken als de configuratie die u hebt geselecteerd, wordt verwijderd na het maken van het bericht. Als deze fout voorkomt, selecteer een andere configuratie in het bericht **[!UICONTROL Properties]**. Leer meer over kanaalconfiguraties in [ deze sectie ](../configuration/channel-surfaces.md).
 
-   * **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**: de grootte van de pushmelding mag niet groter zijn dan 4 kB. U kunt deze limiet in acht nemen door het gebruik van afbeeldingen of emojis te beperken. Leer hoe te om uw inhoud van het pushbericht in [&#x200B; te beheren deze sectie &#x200B;](../push/create-push.md).
+   * **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**: de grootte van de pushmelding mag niet groter zijn dan 4 kB. U kunt deze limiet in acht nemen door het gebruik van afbeeldingen of emojis te beperken. Leer hoe te om uw inhoud van het pushbericht in [ te beheren deze sectie ](../push/create-push.md).
 
   ![](assets/push_alert.png)
 
@@ -54,7 +54,7 @@ U moet alarm in de hogere sectie van de redacteur controleren. Sommige zijn eenv
 >
 > Als voor uw campagne een goedkeuringsbeleid geldt, moet u goedkeuring aanvragen om uw pushmelding te kunnen verzenden. [Meer informatie](../test-approve/gs-approval.md)
 
-Wanneer uw duw bericht klaar is, voltooi de configuratie van uw [&#x200B; reis &#x200B;](../building-journeys/journey-gs.md) of [&#x200B; campagne &#x200B;](../campaigns/create-campaign.md) om het te verzenden.
+Wanneer uw duw bericht klaar is, voltooi de configuratie van uw [ reis ](../building-journeys/journey-gs.md) of [ campagne ](../campaigns/create-campaign.md) om het te verzenden.
 
 **Verwante onderwerpen**
 

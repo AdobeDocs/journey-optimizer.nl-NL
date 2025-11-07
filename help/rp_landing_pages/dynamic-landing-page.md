@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Dynamische inhoud
 description: Dynamische inhoud
 redpen-status: CREATED_||_2025-08-12_00-40-11
-source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
+exl-id: 87d500e0-4a2c-4e22-a90c-611229b55d7c
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 1%
 
 ---
-
 
 # Dynamische inhoud{#section-overview}
 
@@ -20,7 +20,7 @@ Met dynamische inhoud in Adobe Journey Optimizer kunt u persoonlijke berichten m
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met dynamische inhoud
 
@@ -30,7 +30,7 @@ Leer hoe te om voorwaardelijke regels en de verpersoonlijkingsredacteur te gebru
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Voorwaardelijke regels maken en beheren
 
@@ -40,7 +40,7 @@ U kunt het maken, opslaan en beheren van voorwaardelijke regels besturen om dyna
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Dynamische inhoud maken in Adobe Journey Optimizer
 

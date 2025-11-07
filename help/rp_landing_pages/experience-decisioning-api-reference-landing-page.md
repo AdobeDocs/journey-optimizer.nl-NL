@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: API-referentie
 description: API-referentie
 redpen-status: CREATED_||_2025-08-11_20-54-39
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: 0111453f-c704-40c1-9e74-2320b125ee92
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 0%
 
 ---
-
 
 # API-referentie{#section-overview}
 
@@ -20,7 +20,7 @@ Met het Adobe Journey Optimizer Code-Based Experience Channel kunt u op maat gep
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Aanbiedingen leveren met het op code-Gebaseerde Kanaal van de Ervaring
 

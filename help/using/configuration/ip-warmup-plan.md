@@ -18,11 +18,11 @@ ht-degree: 0%
 
 # Creeer een IP warmlopingsplan {#ip-warmup}
 
-Zodra u één of meerdere [&#x200B; IP warmup campagnes &#x200B;](ip-warmup-campaign.md) met een specifieke configuratie en de overeenkomstige toegelaten optie creeerde, kunt u beginnen uw IP warmup plan te creëren.
+Zodra u één of meerdere [ IP warmup campagnes ](ip-warmup-campaign.md) met een specifieke configuratie en de overeenkomstige toegelaten optie creeerde, kunt u beginnen uw IP warmup plan te creëren.
 
 Om tot de IP opwarmingsplannen toegang te hebben, te creëren, uit te geven en te schrappen, moet u de **[!UICONTROL Deliverability Consultant]** rol of IP opwarmingsplannen verwante toestemmingen hebben.
 
-+++Leer hoe te om de rol van de Adviseur van de Leverbaarheid of IP warmteopwarmingsplannen verwante toestemmingen toe te wijzen
++++Leer hoe te om de rol van de Adviseur van de Leverbaarheid of IP warmup plannen verwante toestemmingen toe te wijzen
 
 Met toegangsbeheer op objectniveau kunt u gegevens beschermen en specifieke toegang verlenen om uw plannen te bekijken en te beheren. Als geen etiket aan uw IP warmlopingsplan wordt toegewezen, zal het voor het bekijken en het uitgeven door alle gebruikers open zijn.
 
@@ -48,7 +48,7 @@ U kunt als volgt de corresponderende rol toewijzen aan een **[!UICONTROL User]**
 
 1. Navigeer in het product [!DNL Permissions] naar het menu **[!UICONTROL Roles]** en selecteer de ingebouwde rol **[!UICONTROL Deliverability Consultant]** .
 
-1. Open het tabblad **[!UICONTROL Users]** via het **[!UICONTROL Role]** -dashboard.
+1. Open het tabblad **[!UICONTROL Role]** via het **[!UICONTROL Users]** -dashboard.
 
    ![](assets/ip_permissions_3.png)
 
@@ -72,9 +72,9 @@ Deze activiteit wordt typisch uitgevoerd met de hulp van een leverbaarheidsdesku
 
 Alvorens een IP warmup plan in de [!DNL Journey Optimizer] interface te kunnen tot stand brengen, moet u een malplaatje van Excel met alle gegevens invullen die uw plan zullen voeren.
 
-* Van het gebruikersinterface kunt u het lege malplaatje van het de opwarmingsplan van Excel [&#x200B; IP &#x200B;](assets/IPWarmupPlan-Template.xlsx) downloaden om in te vullen.
+* Van het gebruikersinterface kunt u het lege malplaatje van het de opwarmingsplan van Excel [ IP ](assets/IPWarmupPlan-Template.xlsx) downloaden om in te vullen.
 
-* U kunt a [&#x200B; steekproefIP warmteopwarmingsplan &#x200B;](assets/IPWarmupPlan-Sample.xlsx) ook downloaden reeds die met sommige gegevens wordt gevuld die u als voorbeeld kunt gebruiken.
+* U kunt a [ steekproefIP warmteopwarmingsplan ](assets/IPWarmupPlan-Sample.xlsx) ook downloaden reeds die met sommige gegevens wordt gevuld die u als voorbeeld kunt gebruiken.
 
 <!--
 * From the user interface you can download the blank Excel IP warmup plan template to fill in.
@@ -102,8 +102,8 @@ Om uw IP warmup plan tot stand te brengen, vul het eerste lusje met de gegevens 
 
 * U kunt tot 6 kolommen (4 kolommen voor domeingroepen, voor **hebben anderen** kolom en voor **Dagen van de Betrokkenheid** kolom). In dit voorbeeld bestaat het plan uit zes kolommen:
 
-   * Drie waarvan aan **uit-van-de-doos domeingroepen** aan gebruik in uw plan (Gmail, Yahoo, en Microsoft) beantwoorden. De uit-van-de-doos domeingroepen zijn allen vermeld in de [&#x200B; groepen van het Domein OTB &#x200B;](#ootb-domain-groups-tab) tabel.
-   * Één kolom beantwoordt aan een groep van het douanedomein (die u het gebruiken van de [&#128279;](#custom-domain-group-tab) tabel van de Groep van het Domein 0&rbrace; moet toevoegen).
+   * Drie waarvan aan **uit-van-de-doos domeingroepen** aan gebruik in uw plan (Gmail, Yahoo, en Microsoft) beantwoorden. De uit-van-de-doos domeingroepen zijn allen vermeld in de [ groepen van het Domein OTB ](#ootb-domain-groups-tab) tabel.
+   * Één kolom beantwoordt aan een groep van het douanedomein (die u het gebruiken van de [ tabel van de Groep van het Domein 0} moet toevoegen).](#custom-domain-group-tab)
    * De vijfde kolom, **anderen**, bevat alle resterende adressen van andere domeinen die niet uitdrukkelijk in het plan worden behandeld. Deze kolom is optioneel: als deze wordt weggelaten, gaan e-mails alleen naar de opgegeven domeinen.
    * De laatste kolom, **Dagen van de Betrokkenheid**, staat u toe om het aantal dagen te specificeren waarover de overeenkomst zou moeten worden gevolgd of worden beoordeeld.
 
@@ -117,7 +117,7 @@ Gebruik het tabblad **[!UICONTROL Custom Domain Group]** om een nieuwe domeingro
 
 >[!IMPORTANT]
 >
->Zorg ervoor dat elk domein aan zijn domeingroep uniek is en niet met andere domeingroepen of [&#x200B; uit-van-de-doos domeingroepen &#x200B;](#ootb-domain-groups-tab) overlapt.
+>Zorg ervoor dat elk domein aan zijn domeingroep uniek is en niet met andere domeingroepen of [ uit-van-de-doos domeingroepen ](#ootb-domain-groups-tab) overlapt.
 
 Als u bijvoorbeeld het aangepaste domein Roadrunner toevoegt, wilt u de volgende subdomeinen opnemen, zoals in het onderstaande voorbeeld: roadrunner.com, nc.rr.com, tampabay.rr.com, rochester.rr.com, enzovoort.
 
@@ -159,7 +159,7 @@ mac.com;icloud.com;apple.com;me.com
 comcast.net
 +++
 
-+++oranje
++++Oranje
 voila.com;francetelecom.com;orange.com;orange.fr;wanadoo.fr;voila.fr
 +++
 
@@ -175,11 +175,11 @@ inwind.it;blu.it;virgilio.it;giallo.it;iol.it;libero.it
 wp.pl;o2.pl
 +++
 
-+++Verenigd Internet
++++United Internet
 gmx.de;1and1.com;gmx.fr;mail.com;1und1.de;gmx.com;gmx.net;gmx.at;web.de;gmx.ch
 +++
 
-+++Groeperen
++++Bigvijver
 bigpond.com;bigpond.com.au;bigpond.net;telstra.com;bigpond.net.au
 +++
 
@@ -208,13 +208,13 @@ Domeinen buiten Hotmail en van de domeingroep Microsoft worden verzameld in de k
 
 1. Voeg alle Hotmail-domeinen op dezelfde rij toe.
 
-   U kunt [&#128279;](#copy-paste) kopiëren en kleven alle Hotmail domeinen die in de [&#x200B; worden vermeld OTB het lusje van Groepen van het Domein &#x200B;](#ootb-domain-groups-tab) sectie.
+   U kunt [ kopiëren en kleven alle Hotmail domeinen die in de ](#copy-paste) worden vermeld OTB het lusje van Groepen van het Domein [ sectie.](#ootb-domain-groups-tab)
 
 1. Voeg nog een rij toe.
 
 1. Creeer **Microsoft_X** domeingroep.
 
-1. Voeg alle Microsoft-domeinen die geen Hotmail zijn toe aan dezelfde rij. Op dezelfde manier kunt u [&#x200B; kopiëren en &#x200B;](#copy-paste) hen van de bovenstaande lijst kleven.
+1. Voeg alle Microsoft-domeinen die geen Hotmail zijn toe aan dezelfde rij. Op dezelfde manier kunt u [ kopiëren en ](#copy-paste) hen van de bovenstaande lijst kleven.
 
 1. Ga terug naar de tab **[!UICONTROL IP Warmup Plan]** .
 
@@ -226,7 +226,7 @@ Domeinen buiten Hotmail en van de domeingroep Microsoft worden verzameld in de k
 
 ### Standaarddomeinen kopiëren en plakken {#copy-paste}
 
-Als u een groep van het douanedomein wilt tot stand brengen die alle Hotmail domeinen bevat bijvoorbeeld, kunt u de domeinen van de **OOTB Groepen van het Domein** lusje van het [&#x200B; IP warmteopruimingsplan malplaatje &#x200B;](assets/IPWarmupPlan-Template.xlsx), of van de lijst kopiëren en kleven die [&#x200B; hierboven &#x200B;](#ip-warmup-plan-tab) wordt verstrekt.
+Als u een groep van het douanedomein wilt tot stand brengen die alle Hotmail domeinen bevat bijvoorbeeld, kunt u de domeinen van de **OOTB Groepen van het Domein** lusje van het [ IP warmteopruimingsplan malplaatje ](assets/IPWarmupPlan-Template.xlsx), of van de lijst kopiëren en kleven die [ hierboven ](#ip-warmup-plan-tab) wordt verstrekt.
 
 Gebruik vervolgens het gereedschap voor Excel-omzetting om tekst om te zetten in kolommen:
 
@@ -267,14 +267,14 @@ Elk domein wordt nu in een andere kolom op dezelfde rij weergegeven.
 >id="ajo_admin_ip_warmup_upload"
 >title="Specificeer uw IP warmtekrachtplan"
 >abstract="Vul het malplaatje van Excel met alle gegevens in die uw plan, zoals IP warmup fasen en doelaantal profielen zullen voeren, en upload het hier."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html?lang=nl-NL#prepare-file" text="Bereid het IP dossier van het warmlopingsplan voor"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="Bereid het IP dossier van het warmlopingsplan voor"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
 >title="Een marketingconfiguratie selecteren"
 >abstract="U moet de zelfde configuratie selecteren zoals die in de campagne wordt geselecteerd u met uw IP warmup plan wilt associëren."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=nl-NL" text="Kanaalconfiguraties instellen"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=nl-NL" text="IP-warmtecampagnes maken"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="Kanaalconfiguraties instellen"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="IP-warmtecampagnes maken"
 
 Om een IP warmup plan tot stand te brengen, volg de hieronder stappen.
 
@@ -286,11 +286,11 @@ Om een IP warmup plan tot stand te brengen, volg de hieronder stappen.
 
    ![](assets/ip-warmup-plan-details.png)
 
-1. Selecteer de [&#x200B; configuratie &#x200B;](channel-surfaces.md) die u omhoog wilt opwarmen. Alleen marketingconfiguraties zijn beschikbaar voor selectie. [&#x200B; Leer meer over e-mailtype &#x200B;](../email/email-settings.md#email-type)
+1. Selecteer de [ configuratie ](channel-surfaces.md) die u omhoog wilt opwarmen. Alleen marketingconfiguraties zijn beschikbaar voor selectie. [ Leer meer over e-mailtype ](../email/email-settings.md#email-type)
 
    >[!NOTE]
    >
-   >De campagnes u met uw IP warmup plan wilt associëren moeten de zelfde configuratie gebruiken. [&#x200B; Leer hoe te om een IP warmup campagne tot stand te brengen &#x200B;](ip-warmup-campaign.md)
+   >De campagnes u met uw IP warmup plan wilt associëren moeten de zelfde configuratie gebruiken. [ Leer hoe te om een IP warmup campagne tot stand te brengen ](ip-warmup-campaign.md)
 
 1. Upload het dossier van Excel dat uw IP warmup plan bevat. [Meer informatie](#prepare-file)
 
@@ -301,7 +301,7 @@ Om een IP warmup plan tot stand te brengen, volg de hieronder stappen.
 
    >[!NOTE]
    >
-   >Als het uploaden mislukt, controleert u of u de juiste opmaak en bestandsindeling (.xls of .xlsx) gebruikt. Gebruik het [&#x200B; malplaatje &#x200B;](assets/IPWarmupPlan-Template.xlsx) dat aan u door Adobe wordt verstrekt.
+   >Als het uploaden mislukt, controleert u of u de juiste opmaak en bestandsindeling (.xls of .xlsx) gebruikt. Gebruik het [ malplaatje ](assets/IPWarmupPlan-Template.xlsx) dat aan u door Adobe wordt verstrekt.
 
 1. Klik op **[!UICONTROL Create]**. Alle fasen, looppas, kolommen en hun inhoud die in het dossier worden bepaald u uploadde worden automatisch getoond in de [!DNL Journey Optimizer] interface.
 

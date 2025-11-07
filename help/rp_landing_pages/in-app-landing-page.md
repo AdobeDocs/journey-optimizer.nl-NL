@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Kanaal in app
 description: Kanaal in app
 redpen-status: CREATED_||_2025-08-11_20-36-05
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: 79283c99-af70-4871-a72a-dec0b2e39c5a
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
 
 ---
-
 
 # Kanaal in app{#section-overview}
 
@@ -21,7 +21,7 @@ Met het kanaal in de app in Adobe Journey Optimizer kunt u in real-time verbindi
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Kanaalconfiguratie in de app
 
@@ -31,7 +31,7 @@ Stapsgewijze handleiding voor het instellen van machtigingen, leveringsinstellin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Mobiele in-app berichten maken
 
@@ -41,7 +41,7 @@ Leer hoe u mobiele In-app-berichten kunt maken, configureren en publiceren met b
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 In-app webberichten maken
 
@@ -51,7 +51,7 @@ Vorm en creeer het Overseinen van het Web in-app campagnes met trekkers, publiek
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/paint-brush.svg)
 
 In-app-inhoud ontwerpen en aanpassen
 
@@ -61,7 +61,7 @@ Ontdek lay-outopties, pas de inhoud aan en gebruik geavanceerde opmaak om uw In-
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
 
 Meldingen voor uw In-app controleren en verzenden
 

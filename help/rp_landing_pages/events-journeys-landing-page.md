@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Gebeurtenisconfiguratie
 description: Gebeurtenisconfiguratie
 redpen-status: CREATED_||_2025-08-11_21-10-50
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: 4f9f480d-8c71-4486-8074-d6fa9ed828bb
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 1%
 
 ---
-
 
 # Gebeurtenisconfiguratie{#section-overview}
 
@@ -20,7 +20,7 @@ Bij de gebeurtenisconfiguratie in Adobe Journey Optimizer gaat het allemaal om h
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Werken met gebeurtenissen op reis
 
@@ -30,7 +30,7 @@ Leer over reisgebeurtenissen, hun types, levenscyclus, en configuratie om gepers
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Een eenheidsgebeurtenis configureren
 
@@ -40,7 +40,7 @@ Volg een geleidelijke gids om eenheidsgebeurtenissen te vormen, met inbegrip van
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 ExperienceEvent-schema&#39;s
 
@@ -50,7 +50,7 @@ Begrijp schemavereisten en configuraties voor gebeurtenisopname en geavanceerde 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Adobe Analytics-integratie
 
@@ -60,7 +60,7 @@ Leer hoe u Adobe Analytics-gegevens kunt integreren om reizen te automatiseren e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Een bedrijfsgebeurtenis configureren
 
@@ -70,7 +70,7 @@ Stapsgewijze instructies voor het vormen van bedrijfsgebeurtenissen, met inbegri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gebeurtenissen verzenden met behulp van streaming API&#39;s
 

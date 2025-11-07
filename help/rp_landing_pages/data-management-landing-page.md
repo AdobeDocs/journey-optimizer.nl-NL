@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Data management
 description: Data management
 redpen-status: CREATED_||_2025-08-11_21-06-39
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: d60bd99c-aa17-4ef0-85a9-384ef21b96da
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 2%
 
 ---
-
 
 # Data management{#section-overview}
 
@@ -20,7 +20,7 @@ Met gegevensbeheer in Adobe Journey Optimizer kunt u de gegevens van uw klanten 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Aan de slag met gegevensbeheer
 
@@ -30,7 +30,7 @@ Leer hoe Adobe Journey Optimizer gebruikers geavanceerde mogelijkheden biedt voo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Werken met schema&#39;s in Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Begrijp en beheer Adobe Experience Platform-schema&#39;s voor effectieve gegeven
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 Journey Optimizer-gegevenssets
 
@@ -50,7 +50,7 @@ Ontdek uitvoerige begeleiding bij het beheren van datasets, met inbegrip van de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Adobe Experience Platform-gegevens gebruiken
 
@@ -60,7 +60,7 @@ Schakel Adobe Experience Platform-gegevenssets in Journey Optimizer in en gebrui
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Aan de slag met query&#39;s in Journey Optimizer
 

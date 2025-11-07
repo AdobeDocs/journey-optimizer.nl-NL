@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Componenten maken
 description: Componenten maken
 redpen-status: CREATED_||_2025-08-11_20-58-59
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: 490fa22c-40b3-4c70-b31c-a971c941a232
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
 
 ---
-
 
 # Componenten maken{#section-overview}
 
@@ -20,7 +20,7 @@ In Adobe Journey Optimizer kunt u uw marketinginspanningen personaliseren en str
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Hulplijn voor het maken van plaatsingen voor aanbiedingen
 
@@ -30,7 +30,7 @@ Leer hoe u plaatsingen kunt maken en beheren om ervoor te zorgen dat de juiste i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Beslissingsregels maken in Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Bepaal besluitvormingsregels om aanbiedingen te personaliseren door specifieke p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/tags.svg)
 
 Verzamelingskwalificaties maken en beheren in Adobe Journey Optimizer
 

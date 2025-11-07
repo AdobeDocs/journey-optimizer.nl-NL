@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Journey Optimizer-gegevenssets
 description: Journey Optimizer-gegevenssets
 redpen-status: CREATED_||_2025-08-11_21-06-02
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: 0e750496-fad5-44bc-a38d-014a0f7f82dc
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
 
 ---
-
 
 # Journey Optimizer-gegevenssets{#section-overview}
 
@@ -20,7 +20,7 @@ De datasets van Adobe Journey Optimizer zijn de ruggengraat van hoe u gegevens b
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Datasets gebruiken en beheren in Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Leer hoe u gegevenssets in Adobe Journey Optimizer kunt openen, maken, beheren e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Tijdstip-tot-live (TTL) instructies voor gegevenssets
 
@@ -40,7 +40,7 @@ Begrijp de begeleiding van TTL die op systeem-geproduceerde datasets, hun duur, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer-gegevenssets exporteren
 
@@ -50,7 +50,7 @@ Leer hoe u gegevenssets exporteert naar cloudopslagbestemmingen voor rapportage,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer: Voorbeelden van query&#39;s voor gegevensset
 

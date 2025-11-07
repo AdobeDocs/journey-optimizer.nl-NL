@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Gebeurtenisvelden voor oudere stappen
 description: Gebeurtenisvelden voor oudere stappen
 redpen-status: CREATED_||_2025-08-11_20-53-35
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: 046a5e06-a827-4194-be1c-e6546a8da747
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
 
 ---
-
 
 # Gebeurtenisvelden voor oudere stappen{#section-overview}
 
@@ -20,7 +20,7 @@ Velden met oudere stappen in Adobe Journey Optimizer zijn van essentieel belang 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Oudere velden begrijpen
 
@@ -30,7 +30,7 @@ Meer informatie over verouderde stapgebeurtenisvelden in Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Overzicht van reisvelden
 
@@ -40,7 +40,7 @@ Ontdek de velden in het reisschema, de typen en de manier waarop deze de rapport
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Algemene velden voor trapsgewijze gebeurtenissen op reis
 
@@ -50,7 +50,7 @@ U kunt essentiële velden zoeken die worden gedeeld door de methoden tripStepEve
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Velden voor uitvoering van handeling
 
@@ -60,7 +60,7 @@ Begrijp gebieden met betrekking tot actieuitvoering in reisStep gebeurtenissen, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Gegevensvelden
 
@@ -70,7 +70,7 @@ Leer meer over de velden die tijdens de stapverwerking bij het ophalen van gegev
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 JourneyStep-identiteitsvelden
 

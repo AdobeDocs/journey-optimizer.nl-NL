@@ -28,7 +28,7 @@ ht-degree: 0%
 >title="Overschakelen naar donkere modus"
 >abstract="Schakel over naar de donkere modus om te bekijken hoe deze kan worden weergegeven bij ondersteunde e-mailclients. <br> het definitieve teruggeven hangt van de e-mailcliënt van de ontvanger af. Merk op dat alle e-mailcliënten donkere wijze niet steunen."
 
-Wanneer het ontwerpen van uw e-mails, [!DNL Journey Optimizer] [&#x200B; E-mail Designer &#x200B;](get-started-email-design.md) staat u toe om aan de **[!UICONTROL Dark mode]** mening over te schakelen.
+Wanneer het ontwerpen van uw e-mails, [!DNL Journey Optimizer] [ E-mail Designer ](get-started-email-design.md) staat u toe om aan de **[!UICONTROL Dark mode]** mening over te schakelen.
 
 In deze <!--Email Designer --> donkere wijzemening, kunt u specifieke douanemontages ook bepalen die door de ondersteunende e-mailcliënten zullen worden getoond wanneer hun donkere wijze is.
 
@@ -104,11 +104,11 @@ In dit geval moeten de specifieke instellingen die u in de e-mailtoepassing van 
 
 >[!NOTE]
 >
->Leer hoe te om de montages van de douane donkere wijze met E-mail Designer in [&#x200B; te bepalen deze sectie &#x200B;](#define-custom-dark-mode).
+>Leer hoe te om de montages van de douane donkere wijze met E-mail Designer in [ te bepalen deze sectie ](#define-custom-dark-mode).
 
 Sommige beperkingen kunnen echter van toepassing zijn voor elke e-mailclient. Sommige clients, zoals Apple Mail 16 (macOs 13), genereren bijvoorbeeld geen donkere modus als er afbeeldingen aanwezig zijn in de e-mailinhoud.
 
-Voor optimale resultaten test u de inhoud met de e-mailclients waarop u zich richt. Om een simulatie te zien die zo dicht mogelijk bij het definitieve resultaat voor elke cliënt komt, gebruik de [&#x200B; E-mail teruggevende &#x200B;](../content-management/rendering.md) optie in E-mail Designer.
+Voor optimale resultaten test u de inhoud met de e-mailclients waarop u zich richt. Om een simulatie te zien die zo dicht mogelijk bij het definitieve resultaat voor elke cliënt komt, gebruik de [ E-mail teruggevende ](../content-management/rendering.md) optie in E-mail Designer.
 
 ## Donkere modus in de Designer-e-mail {#dark-mode-email-designer}
 
@@ -139,7 +139,7 @@ Volg onderstaande stappen om de donkere modus te openen in de E-mail-Designer en
     >
     >Currently you may not be able to switch to dark mode if you select an [email template](use-email-templates.md) or if you apply a [theme](apply-email-themes.md).-->
 
-1. Voeg [&#x200B; structuren &#x200B;](content-from-scratch.md) en [&#x200B; inhoudcomponenten &#x200B;](content-components.md) aan uw inhoud toe.
+1. Voeg [ structuren ](content-from-scratch.md) en [ inhoudcomponenten ](content-components.md) aan uw inhoud toe.
 
 1. Rechtsboven op het centrale canvas schakelt u de schakeloptie over naar **[!UICONTROL Dark mode]** .
 
@@ -155,7 +155,7 @@ Het betekent dat gebieden met lichte en donkere elementen worden gedetecteerd en
 
 >[!CAUTION]
 >
->De uiteindelijke rendering kan variëren afhankelijk van de e-mailclient van de ontvanger. Om een simulatie te zien die zo dicht mogelijk bij het definitieve resultaat voor elke e-mailcliënt komt, gebruik de [&#x200B; E-mail teruggevende &#x200B;](../content-management/rendering.md) optie.
+>De uiteindelijke rendering kan variëren afhankelijk van de e-mailclient van de ontvanger. Om een simulatie te zien die zo dicht mogelijk bij het definitieve resultaat voor elke e-mailcliënt komt, gebruik de [ E-mail teruggevende ](../content-management/rendering.md) optie.
 
 <!--This is custom dark mode:
 
@@ -185,7 +185,7 @@ Als u de aangepaste stijl voor de donkere modus van Designer via e-mail wilt geb
 
 Volg onderstaande stappen om aangepaste instellingen voor de donkere modus te definiëren.
 
-1. Zorg ervoor dat u overschakelt naar de voorvertoning van **[!UICONTROL Dark mode]** in de e-mailtoepassing Designer. [&#x200B; leer hoe &#x200B;](#preview-dark-mode)
+1. Zorg ervoor dat u overschakelt naar de voorvertoning van **[!UICONTROL Dark mode]** in de e-mailtoepassing Designer. [ leer hoe ](#preview-dark-mode)
 
 1. Bewerk alle opmaakkleurkenmerken, zoals tekst, achtergronden, knoppen, enz.
 
@@ -207,7 +207,7 @@ Volg onderstaande stappen om aangepaste instellingen voor de donkere modus te de
 
    ![](assets/dark-mode-simulate.png)
 
-1. Selecteer **[!UICONTROL Render email]** en verbind met uw rekening van de NLS. U ziet de uiteindelijke donkere modus voor verschillende e-mailclients. Leer meer op [&#x200B; E-mail teruggevend &#x200B;](../content-management/rendering.md).
+1. Selecteer **[!UICONTROL Render email]** en verbind met uw rekening van de NLS. U ziet de uiteindelijke donkere modus voor verschillende e-mailclients. Leer meer op [ E-mail teruggevend ](../content-management/rendering.md).
 
    >[!WARNING]
    >
@@ -215,7 +215,7 @@ Volg onderstaande stappen om aangepaste instellingen voor de donkere modus te de
 
 ## Best practices {#best-practices}
 
-Aangezien de donkere wijzetoepassing over belangrijke e-mailcliënten stijgt, is het essentieel om te overwegen hoe uw e-mail in zowel lichte als donkere milieu&#39;s teruggeeft - of u [&#x200B; douane donkere wijze &#x200B;](#define-custom-dark-mode) of niet gebruikt.
+Aangezien de donkere wijzetoepassing over belangrijke e-mailcliënten stijgt, is het essentieel om te overwegen hoe uw e-mail in zowel lichte als donkere milieu&#39;s teruggeeft - of u [ douane donkere wijze ](#define-custom-dark-mode) of niet gebruikt.
 
 In de donkere modus kunt u kleuren, achtergronden en afbeeldingen wijzigen. Soms worden ontwerpkeuzen genegeerd. Volg de onderstaande aanbevolen procedures om de visuele consistentie, toegankelijkheid en brandintegriteit te garanderen.
 
@@ -257,9 +257,9 @@ The best practices for designing accesible content in dark mode are listed in [t
 
 **Test uw e-mails op donkere wijzemilieu**
 
-* Gebruik de e-mail Designer [&#x200B; donkere wijzevoorproef &#x200B;](#preview-dark-mode) die omgekeerde kleurenschema&#39;s aan vlekkwesties vroeg gebruikt.
+* Gebruik de e-mail Designer [ donkere wijzevoorproef ](#preview-dark-mode) die omgekeerde kleurenschema&#39;s aan vlekkwesties vroeg gebruikt.
 
-* Gebruik de [&#x200B; E-mail die &#x200B;](../content-management/rendering.md) optie teruggeeft die hefboomwerkingen Litmus om uw ontwerpen over belangrijke e-mailcliënten (de Post van Apple, Gmail, Vooruitzichten) te simuleren en te zien hoe de kleuren en de beelden zich op donkere wijze gedragen.
+* Gebruik de [ E-mail die ](../content-management/rendering.md) optie teruggeeft die hefboomwerkingen Litmus om uw ontwerpen over belangrijke e-mailcliënten (de Post van Apple, Gmail, Vooruitzichten) te simuleren en te zien hoe de kleuren en de beelden zich op donkere wijze gedragen.
 
 <!--
 

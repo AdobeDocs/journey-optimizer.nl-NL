@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Deze gids begeleidt u door het proces om een model-gebaseerd schema tot stand te brengen, vormend een dataset voor Geordende campagnes en het opnemen van gegevens.
 
-![&#x200B; schema &#x200B;](assets/do-not-localize/schema_admin.png){zoomable="yes"}
+![ schema ](assets/do-not-localize/schema_admin.png){zoomable="yes"}
 
 ## Belangrijkste concepten
 
@@ -52,13 +52,13 @@ Hier wordt aangegeven:
 
 Het organiseren van schema&#39;s of lijsten in een model-gebaseerd gegevensmodel is over het structureren van uw gegevens in veelvoudige lijsten. Zorg ervoor dat elke tabel één type entiteit/schema&#39;s opslaat
 
-➡️ [&#x200B; Leer meer over schema&#39;s in de documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [ Leer meer over schema&#39;s in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## Implementatiestappen {#implementation}
 
 Voer de volgende stappen uit om gegevens in te voeren en op een model gebaseerd schema te maken:
 
-1. Creeer [&#x200B; model-gebaseerd schema manueel &#x200B;](manual-schema.md) of [&#x200B; gebruikend een Ddl- dossier &#x200B;](file-upload-schema.md)
+1. Creeer [ model-gebaseerd schema manueel ](manual-schema.md) of [ gebruikend een Ddl- dossier ](file-upload-schema.md)
 
    Definieer de structuur van uw gegevensmodel, inclusief tabellen, kenmerken en relaties. Kies ervoor het schema handmatig te bouwen in de gebruikersinterface of een DDL-bestand te uploaden voor een snellere installatie.
 

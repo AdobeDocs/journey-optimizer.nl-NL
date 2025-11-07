@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Beslissingsmogelijkheden
 description: Beslissingsmogelijkheden
 redpen-status: CREATED_||_2025-08-11_21-05-27
-source-git-commit: e8b71a7efe1ca05a33bc6f33253900a58fa6665c
+exl-id: 07bdd927-059d-4000-a4dd-a9e455b26976
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
 
 ---
-
 
 # Beslissingsmogelijkheden{#section-overview}
 
@@ -20,7 +20,7 @@ Dankzij de beslissingsmogelijkheden in Journey Optimizer kunt u op het juiste mo
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Inleiding tot beslissingsmogelijkheden
 
@@ -30,7 +30,7 @@ Leer over de hulpmiddelen en de eigenschappen in Adobe Journey Optimizer die gep
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Beslissing in Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Ontdek hoe u persoonlijke inhoud kunt maken, beheren en optimaliseren met behulp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Beslissingsbeheer in Adobe Journey Optimizer
 

@@ -53,7 +53,7 @@ Blader hieronder naar de tabbladen om te leren hoe u een WhatsApp-bericht kunt t
 
 >[!BEGINTABS]
 
->[!TAB voeg een bericht WhatsApp aan een Reis  toe]
+>[!TAB  voeg een bericht WhatsApp aan een Reis ] toe
 
 1. Open uw reis dan belemmering en laat vallen a **WhatsApp activiteit** van de **sectie van Acties** van het palet.
 
@@ -61,7 +61,7 @@ Blader hieronder naar de tabbladen om te leren hoe u een WhatsApp-bericht kunt t
 
 1. Verstrek basisinformatie over uw bericht (etiket, beschrijving, categorie), dan kies de berichtconfiguratie aan gebruik.
 
-   Voor meer informatie over hoe te om een reis te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../building-journeys/journey-gs.md)
+   Voor meer informatie over hoe te om een reis te vormen, verwijs naar [ deze pagina ](../building-journeys/journey-gs.md)
 
    Het veld **[!UICONTROL configuration]** wordt standaard voorgevuld met de laatste configuratie die de gebruiker voor dat kanaal heeft gebruikt.
 
@@ -81,7 +81,7 @@ U kunt nu de inhoud van uw WhatsApp-bericht ontwerpen vanaf de knop **[!UICONTRO
 
 1. Kies **[!UICONTROL Actions]** in de sectie **[!UICONTROL WhatsApp]** en selecteer of maak een nieuwe configuratie.
 
-   Leer meer over configuratie WhatsApp op [&#x200B; deze pagina &#x200B;](whatsapp-configuration.md).
+   Leer meer over configuratie WhatsApp op [ deze pagina ](whatsapp-configuration.md).
 
    ![](assets/whatsapp-campaign-1.png)
 
@@ -89,7 +89,7 @@ U kunt nu de inhoud van uw WhatsApp-bericht ontwerpen vanaf de knop **[!UICONTRO
 
 1. Geef in de sectie **[!UICONTROL Actions tracking]** op of u de klikken op koppelingen in uw WhatsApp-bericht wilt bijhouden.
 
-1. Campagnes worden ontworpen om op een specifieke datum of op een terugkomende frequentie worden uitgevoerd. Leer hoe te om **[!UICONTROL Schedule]** van uw campagne in [&#x200B; te vormen deze sectie &#x200B;](../campaigns/create-campaign.md#schedule).
+1. Campagnes worden ontworpen om op een specifieke datum of op een terugkomende frequentie worden uitgevoerd. Leer hoe te om **[!UICONTROL Schedule]** van uw campagne in [ te vormen deze sectie ](../campaigns/create-campaign.md#schedule).
 
 1. Kies in het menu **[!UICONTROL Action triggers]** de **[!UICONTROL Frequency]** van uw WhatsApp-bericht:
 
@@ -108,7 +108,7 @@ U kunt nu de inhoud van uw WhatsApp-bericht ontwerpen vanaf de knop **[!UICONTRO
 
 Voordat u uw WhatsApp-bericht in Journey Optimizer kunt ontwerpen, moet u eerst een sjabloon maken en ontwerpen in Meta. [Meer informatie](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
-Merk op dat uw WhatsApp malplaatje eerst door Meta moet worden goedgekeurd alvorens het in Journey Optimizer te gebruiken. Dit proces duurt meestal een paar uur, maar kan tot 24 uur in beslag nemen. [Meer informatie](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
+De WhatsApp-sjabloon moet eerst zijn goedgekeurd door Meta voordat het in Journey Optimizer kan worden gebruikt. Dit proces duurt meestal een paar uur, maar kan tot 24 uur in beslag nemen. [Meer informatie](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
 
 >[!ENDSHADEBOX]
 
@@ -124,29 +124,29 @@ Merk op dat uw WhatsApp malplaatje eerst door Meta moet worden goedgekeurd alvor
    * Hulpprogramma
    * Verificatie
 
-   [&#x200B; Leer meer over de categorieën van het Malplaatje &#x200B;](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
+   [ Leer meer over de categorieën van het Malplaatje ](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
 
    ![](assets/whatsapp-design-1.png)
 
 1. Van het **WhatsApp malplaatje** drop-down, selecteer uw eerder gecreeerd malplaatje dat in Meta wordt ontworpen.
 
-   [&#x200B; Leer meer over hoe te om uw Whatsapp malplaatjes &#x200B;](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343) te creëren
+   [ Leer meer over hoe te om uw Whatsapp malplaatjes ](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343) te creëren
 
    ![](assets/whatsapp-design-2.png)
 
-1. Voeg in het veld **[!UICONTROL Image URL]** media-URL&#39;s toe ter vervanging van plaatsaanduidingen in de sjabloon. De sjabloonmedia van Meta zijn alleen plaatsaanduidingen. Als u afbeeldingen, audio of video op de juiste wijze wilt weergeven, moet u externe URL&#39;s uit Adobe Experience Manager of andere bronnen gebruiken.
+1. Voeg in het veld **[!UICONTROL Image URL]** media-URL&#39;s toe ter vervanging van plaatsaanduidingen in de sjabloon. Meta-sjabloonmedia zijn alleen plaatsaanduidingen. Als u afbeeldingen, audio of video op de juiste wijze wilt weergeven, moet u externe URL&#39;s uit Adobe Experience Manager of andere bronnen gebruiken.
 
    ![](assets/whatsapp-design-3.png)
 
 1. Gebruik de verpersoonlijkingsredacteur om verpersoonlijking aan uw malplaatje toe te voegen. U kunt elk kenmerk gebruiken, bijvoorbeeld de profielnaam of plaats.
 
-   Blader door de volgende pagina om meer over [&#x200B; verpersoonlijking &#x200B;](../personalization/personalize.md) te leren.
+   Blader door de volgende pagina om meer over [ verpersoonlijking ](../personalization/personalize.md) te leren.
 
    ![](assets/whatsapp-design-4.png)
 
 1. Gebruik de knop **[!UICONTROL Simulate content]** om een voorvertoning weer te geven van uw WhatsApp-berichtinhoud, verkorte URL&#39;s en gepersonaliseerde inhoud. [Meer informatie](send-whatsapp.md)
 
-Zodra u uw tests hebt uitgevoerd en de inhoud bevestigd, kunt u [&#x200B; uw bericht verzenden WhatsApp &#x200B;](send-whatsapp.md) aan uw publiek en zijn prestaties door [&#x200B; het melden &#x200B;](../reports/campaign-global-report-cja.md) controleren.
+Zodra u uw tests hebt uitgevoerd en de inhoud bevestigd, kunt u [ uw bericht verzenden WhatsApp ](send-whatsapp.md) aan uw publiek en zijn prestaties door [ het melden ](../reports/campaign-global-report-cja.md) controleren.
 
 <!--
 * **[!UICONTROL Template message]**: Predefined message imported from Meta into Journey Optimizer. These are intended for sending notifications, alerts, or updates to your customers.
@@ -195,6 +195,6 @@ In de onderstaande video ziet u hoe u een multi-step WhatsApp-reis maakt met Ado
 
 +++ Zie video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470288/?learn=on&captions=dut")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++

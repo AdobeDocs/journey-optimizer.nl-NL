@@ -20,7 +20,7 @@ Met de Adobe Journey Optimizer-functies voor inhoudsbeheer kunt u inhoud naadloo
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Personalization toevoegen
 
@@ -30,7 +30,7 @@ Leer hoe u personalisatiefuncties implementeert en optimaliseert om op maat gesn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Openingspagina&#39;s maken
 
@@ -40,7 +40,7 @@ Ontdek gereedschappen en zelfstudies voor het maken, beheren en optimaliseren va
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Inhoudssjablonen
 
@@ -50,7 +50,7 @@ De creatie van inhoud stroomlijnen met herbruikbare sjablonen voor efficiënt ca
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Herbruikbare inhoudsfragmenten
 
@@ -60,7 +60,7 @@ Leer hoe u herbruikbare inhoudsfragmenten maakt en beheert voor verpersoonlijkin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Dynamische inhoud maken
 
@@ -70,7 +70,7 @@ Gebruik voorwaardelijke regels om dynamische, gepersonaliseerde inhoud voor e-ma
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Gebruiksscenario&#39;s voor meerdere oplossingen
 

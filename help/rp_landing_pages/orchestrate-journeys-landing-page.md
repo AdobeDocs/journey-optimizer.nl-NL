@@ -5,9 +5,9 @@ title: Journeys
 description: Journeys
 redpen-status: CREATED_||_2025-08-11_20-21-13
 exl-id: c148c9e8-8b1d-4c64-8bb6-dc86898cb672
-source-git-commit: 21364f17c8a09d564e97cfc5f29f742dd8f32f4a
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '312'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ De reizen in Adobe Journey Optimizer stellen u in staat om persoonlijke, uit mee
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met Adobe Journey Optimizer-reizen
 
@@ -30,7 +30,7 @@ Leer hoe u in meerdere stappen en realtime klantritten kunt maken met behulp van
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Uitgebreide gids voor het Creëren en het Leiden van Reizen
 
@@ -40,7 +40,7 @@ Stapsgewijze begeleiding bij het ontwerpen, testen, publiceren en volgen van kla
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Uitgebreide gids voor het beheren van reizen
 
@@ -50,7 +50,7 @@ Beheer klantritten efficiënt met hulpmiddelen voor het filtreren, profielbeheer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Activiteiten in Adobe Journey Optimizer
 
@@ -60,7 +60,7 @@ Ontdek hoe u activiteiten zoals triggers, beslissingsstappen, publieksbeheer en 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Expressies maken in Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Masterexpressies maken voor dynamische workflows, gegevensmanipulatie en geavanc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Praktische gebruiksscenario&#39;s voor Adobe Journey Optimizer
 
@@ -87,5 +87,7 @@ Verken real-world toepassingen van Adobe Journey Optimizer, met inbegrip van mul
 - **[de Reizen van de Klant van het Oplossen van problemen](troubleshoot-journey-landing-page.md)** - Diagnose en los kwesties van de reisuitvoering met hulpmiddelen, foutencodes, en beste praktijken voor het zuiveren en optimalisering op.
 
 - **[abonneert aan de Alarm van de Reis](../using/reports/alerts.md)** - ontdek hoe te om systeemalarm te beheren, aan berichten in te tekenen, en problemen in reizen en campagnes problemen op te lossen.
+
+- **[Zelfstudies van de Reis ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - leer reis die door hands-on videoleerprogramma&#39;s bouwt die eigenschappen, mogelijkheden, en beste praktijken behandelen.
 
 

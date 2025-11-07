@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Ervaring op basis van code
 description: Ervaring op basis van code
 redpen-status: CREATED_||_2025-08-11_20-42-30
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: 55b07a0b-b09a-47e6-8b9f-e05e2dd7b47e
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%
 
 ---
-
 
 # Ervaring op basis van code{#section-overview}
 
@@ -20,7 +20,7 @@ Met codegebaseerde ervaringen in Adobe Journey Optimizer kunt u zeer gepersonali
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Inleiding tot op code-gebaseerde Ervaringen
 
@@ -30,7 +30,7 @@ Leer over code-gebaseerde ervaringen, hun gebruiksgevallen, en geleidelijke bege
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Op code gebaseerde kanalen configureren
 
@@ -40,7 +40,7 @@ Stel de opstelling en het beheer van op code-gebaseerde kanalen, met inbegrip va
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Op code gebaseerde ervaringen maken
 

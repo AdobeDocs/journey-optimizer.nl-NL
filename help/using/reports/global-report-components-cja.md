@@ -675,11 +675,11 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
    <td>Het totale aantal tijden gepersonaliseerde ervaringen werden getoond of aan gebruikers over diverse touchpoints voorgesteld.<br/> </td> 
 </tr>
 <tr> 
-   <td>De Kanaal van de Overeenkomst <br/> </td> 
-   <td>Controleert de prestaties van gepersonaliseerde ervaringen door te beoordelen hoe effectief elk stadium van de trechter gebruikersinteractie drijft.<br/> </td> 
+   <td>Betrokkenheid Funnel <br/> </td> 
+   <td>Controleert de prestaties van gepersonaliseerde ervaringen door te beoordelen hoe effectief elke fase van funnel gebruikersinteractie drijft.<br/> </td> 
 </tr>
 <tr> 
-   <td>Het Kanaal van de Aanverbintenis door de Strategie van de Selectie <br/> </td> 
+   <td>Betrokkenheid Funnel door de Strategie van de Selectie <br/> </td> 
    <td>Controleert en analyseert hoe effectief de verschillende selectiestrategieën gebruikers met gepersonaliseerde ervaringen in dienst nemen.<br/> </td> 
 </tr>
 <tr> 

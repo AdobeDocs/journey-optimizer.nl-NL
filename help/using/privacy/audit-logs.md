@@ -20,40 +20,40 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Om controlelogboek te bekijken en uit te voeren, moet u hebben **[!DNL View User Activity Log]** toestemming verleend. [Meer informatie](../administration/ootb-product-profiles.md)
+>Als u het auditlogboek wilt weergeven en exporteren, moet u de machtiging **[!DNL View User Activity Log]** hebben verleend. [Meer informatie](../administration/ootb-product-profiles.md)
 
 Met Journey Optimizer kunt u acties identificeren die door gebruikers in het systeem worden uitgevoerd op verschillende services en mogelijkheden, zoals reizen, berichten, landingspagina&#39;s enzovoort.
 
 Dit staat u toe om de zichtbaarheid van activiteiten te verhogen die in het systeem worden uitgevoerd, kwesties problemen op te lossen, en uw zaken te helpen aan verordeningen en collectief beleid van het gegevensbeheer voldoen.
 
-Elke actie wordt opgenomen met metagegevens in &quot;auditlogs&quot; die toegankelijk zijn in Adobe Experience Platform. Raadpleeg voor meer informatie over auditlogboeken, zoals hoe u deze kunt weergeven en beheren in de gebruikersinterface of de API voor meer informatie [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=nl-NL).
+Elke actie wordt opgenomen met metagegevens in &quot;auditlogs&quot; die toegankelijk zijn in Adobe Experience Platform. Voor meer op controlelogboeken, met inbegrip van hoe te om hen in UI of API te bekijken en te beheren, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html).
 
 ![](assets/audit-logs.png)
 
 ## Gebeurtenistypen die zijn vastgelegd in auditlogboeken {#events}
 
-In de volgende tabel wordt aangegeven op welke acties Journey Optimizer-bronnen worden opgenomen in auditlogboeken. De volledige lijst met acties die in de auditlogboeken zijn vastgelegd, is beschikbaar in [Documentatie over de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=nl-NL#category).
+In de volgende tabel wordt aangegeven op welke acties Journey Optimizer-bronnen worden opgenomen in auditlogboeken. De volledige lijst van acties die in de logboeken van de Controle worden gevangen is beschikbaar in [ documentatie van het Platform van de Ervaring van Adobe ](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html#category).
 
 >[!NOTE]
 >
->Auditlogboeken met betrekking tot **beslissingsbeheer** zijn alleen zichtbaar vanuit het CSV-bestand dat kan worden gedownload met de **[!UICONTROL Download log]** knop.
+>De logboeken van de controle met betrekking tot **besluitvormingsbeheer** zijn slechts zichtbaar van het Csv- dossier dat kan worden gedownload gebruikend de **[!UICONTROL Download log]** knoop.
 
 | Bron | Actie |
 |-----------|------------------|
 | AJO-campagne | Maken/verwijderen/bijwerken/activeren/stoppen |
 | Algemene instelling AJO-kanaal | Maken/verwijderen/bijwerken |
 | AJO IP-pool | Maken/verwijderen/bijwerken |
-| AJO-openingspagina | Maken/Verwijderen/Bijwerken/Publiceren/Publiceren ongedaan maken |
-| HTML-sjabloon AJO-landingspagina | Maken/verwijderen/bijwerken |
-| Voorinstelling voor AJO-openingspagina | Maken/verwijderen/bijwerken |
-| Subdomein van AJO-landingspagina | Maken/verwijderen/bijwerken |
-| Voorinstelling voor AJO-bericht | Maken/verwijderen/bijwerken |
+| AJO-landingspagina | Maken/Verwijderen/Bijwerken/Publiceren/Publiceren ongedaan maken |
+| AJO-landingspagina HTML-sjabloon | Maken/verwijderen/bijwerken |
+| Voorinstelling AJO-bestemmingspagina | Maken/verwijderen/bijwerken |
+| Subdomein AJO-landingspagina | Maken/verwijderen/bijwerken |
+| AJO-berichtvoorinstelling | Maken/verwijderen/bijwerken |
 | AJO PTR-record | Maken/verwijderen/bijwerken |
-| AJO-sjabloon voor opgeslagen expressie | Maken/verwijderen/bijwerken |
-| Aanmeldingsgegevens AJO SMS API | Maken/verwijderen/bijwerken |
+| Door AJO opgeslagen expressiesjabloon | Maken/verwijderen/bijwerken |
+| AJO SMS API-gebruikersgegevens | Maken/verwijderen/bijwerken |
 | AJO-subdomein | Maken/verwijderen/bijwerken |
 | AJO-suppressielijst | CSV maken/verwijderen/downloaden |
-| Veldgroep | Maken/verwijderen/bijwerken |
+| Veldgroepen | Maken/verwijderen/bijwerken |
 | Reis | Maken/verwijderen/bijwerken/stoppen/publiceren |
 | Aangepaste actie voor reizen | Maken/verwijderen/bijwerken |
 | Gegevensbron voor reis | Maken/verwijderen/bijwerken |

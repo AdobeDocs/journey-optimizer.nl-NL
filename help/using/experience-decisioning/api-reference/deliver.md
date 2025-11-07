@@ -25,5 +25,5 @@ De op code-gebaseerde ervaringen steunen om het even welk type van klantenimplem
 
 Gedetailleerde informatie over de verschillende implementatiemethoden is beschikbaar in de op code gebaseerde kanaalhandleiding. In deze gids, zult u details over elke implementatiemethodes, evenals steekproefimplementaties voor verschillende verpersoonlijking en het experimenteren gebruiksgevallen vinden.
 
-➡️ [&#x200B; Leer meer over code-gebaseerde implementatiemethodes &#x200B;](../../code-based/code-based-implementation-samples.md)
+➡️ [ Leer meer over code-gebaseerde implementatiemethodes ](../../code-based/code-based-implementation-samples.md)
 

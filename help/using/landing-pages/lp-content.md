@@ -22,11 +22,11 @@ ht-degree: 2%
 >id="ac_lp_components"
 >title="Inhoudscomponenten gebruiken"
 >abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een bestemmingspagina te maken. Gebruik de formuliercomponent om specifieke inhoud te definiëren waarmee gebruikers hun keuzes kunnen selecteren en verzenden."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="Inhoudscomponenten toevoegen"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="Inhoudscomponenten toevoegen"
 
 Als u de inhoud van de bestemmingspagina wilt ontwerpen, kunt u dezelfde onderdelen gebruiken als voor een e-mail. [Meer informatie](../email/content-components.md#add-content-components)
 
-Om specifieke inhoud te ontwerpen die gebruikers zal toelaten om hun keuzen te selecteren en voor te leggen, [&#x200B; gebruik de vormcomponent &#x200B;](#use-form-component) en bepaal zijn [&#x200B; landend pagina-specifieke stijlen &#x200B;](#lp-form-styles).
+Om specifieke inhoud te ontwerpen die gebruikers zal toelaten om hun keuzen te selecteren en voor te leggen, [ gebruik de vormcomponent ](#use-form-component) en bepaal zijn [ landend pagina-specifieke stijlen ](#lp-form-styles).
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ Met de landende pagina-inhoudontwerper kunt u ook contextuele gegevens gebruiken
 
 >[!NOTE]
 >
->De [&#x200B; Europese toegankelijkheidshandeling &#x200B;](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} verklaart dat alle digitale mededelingen toegankelijk zouden moeten zijn. Zorg ervoor u de specifieke richtlijnen volgt die op [&#x200B; worden vermeld deze pagina &#x200B;](../email/accessible-content.md) wanneer het ontwerpen van inhoud in [!DNL Journey Optimizer].
+>De [ Europese toegankelijkheidshandeling ](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} verklaart dat alle digitale mededelingen toegankelijk zouden moeten zijn. Zorg ervoor u de specifieke richtlijnen volgt die op [ worden vermeld deze pagina ](../email/accessible-content.md) wanneer het ontwerpen van inhoud in [!DNL Journey Optimizer].
 
 ## De formuliercomponent gebruiken {#use-form-component}
 
@@ -44,7 +44,7 @@ Met de landende pagina-inhoudontwerper kunt u ook contextuele gegevens gebruiken
 >id="ac_lp_formfield"
 >title="De velden voor formuliercomponenten instellen"
 >abstract="Bepaal hoe de ontvangers hun keuzes vanaf de bestemmingspagina zien en verzenden."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="Landingspagina-formulierstijlen definiëren"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="Landingspagina-formulierstijlen definiëren"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
@@ -85,7 +85,7 @@ Gebruik de component **[!UICONTROL Form]** om specifieke inhoud te definiëren w
 
    ![](assets/lp_designer-form-update-options.png)
 
-   * **[!UICONTROL Subscription list]**: U moet de abonnementenlijst selecteren die wordt bijgewerkt als het profiel dit selectievakje selecteert. Leer meer over [&#x200B; abonnementenlijsten &#x200B;](subscription-list.md).
+   * **[!UICONTROL Subscription list]**: U moet de abonnementenlijst selecteren die wordt bijgewerkt als het profiel dit selectievakje selecteert. Leer meer over [ abonnementenlijsten ](subscription-list.md).
 
      <!--![](assets/lp_designer-form-subs-list.png)-->
 
@@ -117,16 +117,16 @@ Gebruik de component **[!UICONTROL Form]** om specifieke inhoud te definiëren w
 
    * **[!UICONTROL Redirect URL]**: voer de URL in van de pagina waarnaar de gebruikers worden omgeleid.
    * **[!UICONTROL Confirmation text]**: typ de bevestigingstekst die wordt weergegeven.
-   * **[!UICONTROL Link to a subpage]**: Vorm a [&#x200B; subpage &#x200B;](create-lp.md#configure-subpages) en selecteer het van de drop-down lijst die toont.
+   * **[!UICONTROL Link to a subpage]**: Vorm a [ subpage ](create-lp.md#configure-subpages) en selecteer het van de drop-down lijst die toont.
 
    ![](assets/lp_designer-form-confirmation-action.png)
 
 1. Definieer wat er gebeurt wanneer op de knop wordt geklikt in het geval een fout optreedt:
 
    * **[!UICONTROL Redirect URL]**: voer de URL in van de pagina waarnaar de gebruikers worden omgeleid.
-   * **[!UICONTROL Error text]**: typ de fouttekst die wordt weergegeven. U kunt voorproef de foutentekst wanneer het bepalen van de [&#x200B; vormstijlen &#x200B;](#define-lp-styles).
+   * **[!UICONTROL Error text]**: typ de fouttekst die wordt weergegeven. U kunt voorproef de foutentekst wanneer het bepalen van de [ vormstijlen ](#define-lp-styles).
 
-   * **[!UICONTROL Link to a subpage]**: Vorm a [&#x200B; subpage &#x200B;](create-lp.md#configure-subpages) en selecteer het van de drop-down lijst die toont.
+   * **[!UICONTROL Link to a subpage]**: Vorm a [ subpage ](create-lp.md#configure-subpages) en selecteer het van de drop-down lijst die toont.
 
    ![](assets/lp_designer-form-error.png)
 
@@ -134,7 +134,7 @@ Gebruik de component **[!UICONTROL Form]** om specifieke inhoud te definiëren w
 
    ![](assets/lp_designer-form-additionnal-update.png)
 
-1. Sparen uw inhoud en klik de pijl naast de paginanaam om terug naar de [&#x200B; het landen paginaeigenschappen &#x200B;](create-lp.md#configure-primary-page) te gaan.
+1. Sparen uw inhoud en klik de pijl naast de paginanaam om terug naar de [ het landen paginaeigenschappen ](create-lp.md#configure-primary-page) te gaan.
 
    ![](assets/lp_designer-form-save.png)
 
@@ -156,7 +156,7 @@ Gebruik de component **[!UICONTROL Form]** om specifieke inhoud te definiëren w
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   Met de knop **[!UICONTROL Simulate content]** kunt u een voorbeeld van uw instellingen bekijken, zoals de kleur van knoplabels op de muisaanwijzer. Leer meer over het testen van het landen van pagina&#39;s [&#x200B; hier &#x200B;](create-lp.md#test-landing-page).
+   Met de knop **[!UICONTROL Simulate content]** kunt u een voorbeeld van uw instellingen bekijken, zoals de kleur van knoplabels op de muisaanwijzer. Leer meer over het testen van het landen van pagina&#39;s [ hier ](create-lp.md#test-landing-page).
 
    <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 
@@ -172,7 +172,7 @@ Gebruik de component **[!UICONTROL Form]** om specifieke inhoud te definiëren w
 
 U kunt contextuele gegevens gebruiken die afkomstig zijn van een andere pagina binnen dezelfde landingspagina.
 
-Bijvoorbeeld, als u checkbox <!-- or the submission of the page--> met a [&#x200B; abonnementenlijst &#x200B;](subscription-list.md) op de primaire het landen pagina verbindt, kunt u die abonnementenlijst op &quot;dank u&quot;subpage gebruiken.
+Bijvoorbeeld, als u checkbox <!-- or the submission of the page--> met a [ abonnementenlijst ](subscription-list.md) op de primaire het landen pagina verbindt, kunt u die abonnementenlijst op &quot;dank u&quot;subpage gebruiken.
 
 Stel dat u twee selectievakjes op de primaire pagina koppelt aan twee verschillende abonnementlijsten. Als een gebruiker zich op een van deze machtigingen abonneert, wilt u bij het verzenden van het formulier een specifiek bericht weergeven, afhankelijk van het selectievakje dat de gebruiker heeft ingeschakeld.
 

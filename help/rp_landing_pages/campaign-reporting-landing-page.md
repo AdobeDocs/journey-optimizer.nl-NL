@@ -4,33 +4,33 @@ product: Journey Optimizer
 title: Campagneverslagen
 description: Campagneverslagen
 redpen-status: CREATED_||_2025-08-11_20-49-35
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: 01d60382-ea80-4ebd-9918-7e7821083cb9
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 0%
 
 ---
 
-
 # Campagneverslagen{#section-overview}
 
-Met campagnerapporten in Adobe Journey Optimizer kunt u via verschillende kanalen inzichten ontsluiten die in actie komen. Deze rapporten bieden een duidelijk beeld van hoe het publiek op uw campagnes reageert, van e-mailprestaties en de betrokkenheid van SMS tot webinteracties en pushmeldingen. Elk rapport concentreert zich op specifieke metriek zoals klikthrough tarieven, leveringsstatus, of gevolgde verbindingen die aan het campagnetype worden aangepast, die u helpen tendensen identificeren, strategieën optimaliseren, en gebruikerservaring verbeteren. Of u nu de resultaten van de trechter analyseert of de door AI gestuurde personalisatie fijnafstemt, deze gereedschappen helpen u stap voor stap bij het bereiken van een grotere campagne.
+Met campagnerapporten in Adobe Journey Optimizer kunt u via verschillende kanalen inzichten ontsluiten die in actie komen. Deze rapporten bieden een duidelijk beeld van hoe het publiek op uw campagnes reageert, van e-mailprestaties en de betrokkenheid van SMS tot webinteracties en pushmeldingen. Elk rapport concentreert zich op specifieke metriek zoals klikthrough tarieven, leveringsstatus, of gevolgde verbindingen die aan het campagnetype worden aangepast, die u helpen tendensen identificeren, strategieën optimaliseren, en gebruikerservaring verbeteren. Of u nu de funnel-resultaten analyseert of de door AI gestuurde personalisatie fijnafstemt, deze gereedschappen helpen u stap voor stap bij het bereiken van een grotere campagnesucces.
 
 ## Campagnerapporten in Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Overzicht campagnerapport
 
-Leer hoe u de campagneprestaties kunt analyseren met behulp van belangrijke meetgegevens, zoals doorkliksnelheden, trechter-resultaten en bijgehouden koppelingslabels.
+Leer hoe u de campagneprestaties kunt analyseren met behulp van belangrijke meetgegevens, zoals doorkliksnelheden, funnel-resultaten en bijgehouden koppelingslabels.
 
 [Campagnerapport verkennen](../using/reports/campaign-global-report-cja.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Op code gebaseerd campagnerapport
 
@@ -40,7 +40,7 @@ Begrijp hoe te om gepersonaliseerde ervaringen en op AI-gedreven besluitvormings
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Campagnerapport voor inhoudskaart
 
@@ -50,7 +50,7 @@ Analyseer campagnes voor inhoudskaarten met cijfers zoals weergave en klik op tr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Rapport voor Direct Mail Campaign
 
@@ -60,17 +60,17 @@ Evalueer de efficiency van direct-mailcampagnes door leveringsstatus, fouten, en
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg)
 
 E-mailcampagnerapport
 
-Verbeter inzicht in de metriek van e-mailprestaties, betrokkenheidspercentages, en kanaalanalyse om marketing strategieën te verbeteren.
+Verbeter inzicht in de metriek van e-mailprestaties, betrokkenheidspercentages, en de analyse van funnel om marketing strategieën te verbeteren.
 
 [E-mailrapport controleren](../using/reports/campaign-global-report-cja-email.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/vial.svg)
 
 Rapport Experimentatiecampagne
 

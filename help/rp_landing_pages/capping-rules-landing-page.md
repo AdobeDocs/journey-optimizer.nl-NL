@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Regels voor het toewijzen van berichten en reizen instellen
 description: Regels voor het toewijzen van berichten en reizen instellen
 redpen-status: CREATED_||_2025-08-11_20-28-34
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: 630e252a-aab2-4a27-ad46-d4dbfbc3f3a4
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
 
 ---
-
 
 # Regels voor het toewijzen van berichten en reizen instellen{#section-overview}
 
@@ -20,7 +20,7 @@ Door de regels voor het afluisteren van berichten en reizen in Adobe Journey Opt
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Werken met regelsets
 
@@ -30,7 +30,7 @@ Leer hoe u regelsets maakt, beheert en activeert om berichtfrequentie en toegang
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Afdekkingen en arbitrages voor reizen
 
@@ -40,7 +40,7 @@ Ontdek hoe u de toegangs- en corresponderingsplafonds voor reizen kunt instellen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Frequentiecorrectie per kanaal
 

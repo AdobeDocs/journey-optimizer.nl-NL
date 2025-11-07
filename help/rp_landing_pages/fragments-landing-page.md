@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Herbruikbare inhoudsfragmenten
 description: Herbruikbare inhoudsfragmenten
 redpen-status: CREATED_||_2025-08-12_00-39-41
-source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
+exl-id: 8ec67807-8bcb-4510-bcba-ccf6e710ceb9
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
 
 ---
-
 
 # Herbruikbare inhoudsfragmenten{#section-overview}
 
@@ -20,7 +20,7 @@ Herbruikbare inhoudsfragmenten in Adobe Journey Optimizer helpen u tijd te bespa
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Inleiding tot Fragmenten gebruiken
 
@@ -30,7 +30,7 @@ Leer de basisbeginselen van het maken, beheren en hergebruiken van visuele en ex
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Hoe te om Herbruikbare Fragmenten te creëren
 
@@ -40,7 +40,7 @@ Volg een stapsgewijze handleiding om herbruikbare visuele en expressiefragmenten
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Bestaande inhoud opslaan als fragmenten
 
@@ -50,7 +50,7 @@ Ontdek hoe u inhoud rechtstreeks vanuit de Designer-e-mail of de personalisatie-
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Aanpasbare fragmenten gebruiken
 
@@ -60,7 +60,7 @@ Leer hoe u specifieke velden bewerkbaar maakt in fragmenten voor dynamische aanp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Inhoudsfragmenten beheren
 

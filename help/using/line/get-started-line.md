@@ -21,9 +21,9 @@ Gebruik [!DNL Journey Optimizer] om LIJNberichten naar uw klanten op hun LIJN ap
 
 De berichten van de LIJN kunnen in een reis of in een campagne worden gecreeerd en worden verzonden:
 
-* In a **Reis**. Maak een reis, voeg een lijnactiviteit toe en definieer basisinstellingen en blader vervolgens naar het deelvenster **[!UICONTROL Actions: LINE]** rechts om de inhoud voor het lijnbericht te maken. Leer hoe te om een reis in [&#x200B; tot stand te brengen deze pagina &#x200B;](../building-journeys/journey-gs.md).
+* In a **Reis**. Maak een reis, voeg een lijnactiviteit toe en definieer basisinstellingen en blader vervolgens naar het deelvenster **[!UICONTROL Actions: LINE]** rechts om de inhoud voor het lijnbericht te maken. Leer hoe te om een reis in [ tot stand te brengen deze pagina ](../building-journeys/journey-gs.md).
 
-* In a **Campagne**. Maak een campagne, selecteer LIJN als uw actie en definieer basisinstellingen en bewerk vervolgens de berichtinhoud om het lijnbericht te definiëren dat u wilt verzenden. Leer hoe te om een campagne in [&#x200B; tot stand te brengen deze pagina &#x200B;](../campaigns/create-campaign.md#configure).
+* In a **Campagne**. Maak een campagne, selecteer LIJN als uw actie en definieer basisinstellingen en bewerk vervolgens de berichtinhoud om het lijnbericht te definiëren dat u wilt verzenden. Leer hoe te om een campagne in [ tot stand te brengen deze pagina ](../campaigns/create-campaign.md#configure).
 
 Voordat u uw LIJNbericht maakt, configureert u uw LIJNkanaal met Journey Optimizer. [Meer informatie](line-configuration.md).
 

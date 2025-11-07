@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Conflictbeheer en prioritering
 description: Conflictbeheer en prioritering
 redpen-status: CREATED_||_2025-08-11_20-29-02
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: 02176308-efeb-49dc-88a6-bc886dc8fc9b
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 0%
 
 ---
-
 
 # Conflictbeheer en prioritering{#section-overview}
 
@@ -20,7 +20,7 @@ Conflictbeheer en prioritering in Adobe Journey Optimizer helpen u doordachte, g
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met Conflictbeheer
 
@@ -30,7 +30,7 @@ Leer hoe u hulpmiddelen zoals conflictdetectie, prioriteitsscores en regelsets k
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Mogelijke conflicten identificeren
 
@@ -40,7 +40,7 @@ Ontdek methoden om campagne- en reisconflicten op te sporen en op te lossen, zod
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Prioriteitsscores toewijzen aan campagnes
 
@@ -50,7 +50,7 @@ Leer numerieke prioriteitsscores toe te wijzen aan reizen en campagnes om confli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Regels voor berichten en reizen uitlijnen instellen
 

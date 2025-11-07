@@ -23,7 +23,7 @@ Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken o
 
 Klik hiertoe op **[!UICONTROL Simulate content]** en controleer het bericht met behulp van de gegevens van het testprofiel.
 
-De gedetailleerde informatie over hoe te voorproef &amp; test inhoud is beschikbaar in de [&#x200B; sectie van het Beheer van de Inhoud &#x200B;](../content-management/preview-test.md).
+De gedetailleerde informatie over hoe te voorproef &amp; test inhoud is beschikbaar in de [ sectie van het Beheer van de Inhoud ](../content-management/preview-test.md).
 
 ## Uw inhoud valideren {#whatsapp-validate}
 
@@ -39,4 +39,4 @@ U moet alarm in de hogere sectie van de redacteur controleren. Sommige zijn eenv
 >
 > Als uw campagne onderworpen is aan een goedkeuringsbeleid, zult u goedkeuring moeten vragen om uw tekstberichten te kunnen verzenden. [Meer informatie](../test-approve/gs-approval.md)
 
-Wanneer uw bericht WhatsApp klaar is, voltooi de configuratie van uw [&#x200B; reis &#x200B;](../building-journeys/publish-journey.md) of [&#x200B; campagne &#x200B;](../campaigns/review-activate-campaign.md) om het te verzenden.
+Wanneer uw bericht WhatsApp klaar is, voltooi de configuratie van uw [ reis ](../building-journeys/publish-journey.md) of [ campagne ](../campaigns/review-activate-campaign.md) om het te verzenden.

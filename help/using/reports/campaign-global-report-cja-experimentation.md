@@ -50,7 +50,7 @@ De KPI&#39;s (Key Performance Indicators) van **[!UICONTROL Experimentation]** f
 ![](assets/cja-experimentation-variants.png)
 
 De **Variant door succesmetriek** lijst toont hoe elke variant gebaseerd op succes metrisch wanneer vestiging het experiment uitvoert.
-Voor diepte-duik in deze resultaten en hoe te om hen te interpreteren, verwijs naar [&#x200B; deze pagina &#x200B;](../content-management/get-started-experiment.md#interpret-results).
+Voor diepte-duik in deze resultaten en hoe te om hen te interpreteren, verwijs naar [ deze pagina ](../content-management/get-started-experiment.md#interpret-results).
 
 +++ Meer informatie over Variant op metrische waarde
 
