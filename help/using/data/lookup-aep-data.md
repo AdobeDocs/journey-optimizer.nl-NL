@@ -10,9 +10,9 @@ level: Intermediate
 keywords: expression, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: c910664b343f8143579e4a22ff101d38476c4585
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Controleer voordat u begint de volgende beperkingen en richtlijnen:
 
 * **Geen PII in datasets** - Datasets die voor raadpleging worden toegelaten zou geen Persoonlijk Identificeerbare Informatie (PII) moeten bevatten.
 
-* &#x200B;
+* 
    * **het risico van de Schrapping** - Datasets die in verpersoonlijking worden gebruikt worden niet beschermd tegen schrapping. U moet bijhouden welke gegevenssets worden gebruikt om ervoor te zorgen dat deze niet worden verwijderd.
 
 * **het type van Schema** - Datasets moeten met een schema worden geassocieerd dat **NIET** van het type van Profiel of van de Gebeurtenis is is.
@@ -48,6 +48,8 @@ Controleer voordat u begint de volgende beperkingen en richtlijnen:
   **Partij 3**: Sku7, Sku8, Sku9, Sku10
 
   Als u **Partij 1** schrapt, worden Sku1, Sku2, en Sku3 verwijderd uit de raadplegingsopslag. De resulterende opzoekgegevens bevatten vervolgens: Sku4, Sku5, Sku6, Sku7, Sku8, Sku9, Sku10.
+
+* **Geen geketende raadplegingen** - de raadplegingen van de Dataset kunnen niet samen worden geketend. Met andere woorden, kunt u niet het resultaat van één raadpleging als variabele gebruiken om dan de sleutel te worden om een tweede raadpleging uit te voeren.
 
 ### Entitlement for lookup service
 
@@ -105,7 +107,7 @@ In het gegevenssetbeheer gebruikersinterface, gebruik de knevel om de dataset vo
 
 ### API-methode
 
-Volg de richtingen die in [&#x200B; worden gedetailleerd deze documentatie &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication/) om uw milieu te vormen om API bevelen te verzenden.
+Volg de richtingen die in [ worden gedetailleerd deze documentatie ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/) om uw milieu te vormen om API bevelen te verzenden.
 
 #### Vereisten
 
