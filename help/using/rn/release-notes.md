@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b24c89f966fe6eeb58d019bc85cedc89ee13f113
+source-git-commit: 1349da209bc90dd8ebad0bd309f89039aa6ea3f2
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1451'
 ht-degree: 7%
 
 ---
@@ -22,15 +22,38 @@ ht-degree: 7%
 
 [!DNL Adobe Journey Optimizer] volgt een doorlopend leveringsmodel, dat Adobe in staat stelt voortdurend nieuwe functies, verbeteringen en correcties te leveren. Deze benadering maakt een schaalbare, gefaseerde implementatie van mogelijkheden mogelijk om prestaties en stabiliteit in alle omgevingen te garanderen.
 
-Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases.  Een specifieke [&#x200B; Recentste updates &#x200B;](#latest-updates) sectie benadrukt nieuwe mogelijkheden en verbeteringen aangezien zij aan productie-zodat wordt opgesteld u altijd op de hoogte gebracht van alle veranderingen in echt - tijd. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [&#x200B; de versiecyclus van Journey Optimizer &#x200B;](releases.md).
+Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases.  Een specifieke [ Recentste updates ](#latest-updates) sectie benadrukt nieuwe mogelijkheden en verbeteringen aangezien zij aan productie-zodat wordt opgesteld u altijd op de hoogte gebracht van alle veranderingen in echt - tijd. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [ de versiecyclus van Journey Optimizer ](releases.md).
 
-[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## Laatste updates {#latest-updates}
 
-De nieuwe mogelijkheden en verbeteringen die in de afgelopen weken zijn vrijgegeven worden hieronder vermeld, met hun beschikbaarheidsdatum. Deze worden aan het einde van de maand gegroepeerd met de volgende release met notities. Zie ook de recentste [&#x200B; versienota&#39;s hieronder &#x200B;](#latest-rn).
+De nieuwe mogelijkheden en verbeteringen die in de afgelopen weken zijn vrijgegeven worden hieronder vermeld, met hun beschikbaarheidsdatum. Deze worden aan het einde van de maand gegroepeerd met de volgende release met notities. Zie ook de recentste [ versienota&#39;s hieronder ](#latest-rn).
 
 ### Nieuwe functies {#features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Nieuwe reiswaarschuwingen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Er zijn nu drie nieuwe waarschuwingen voor de reis beschikbaar om u te helpen gebeurtenissen tijdens de levenscyclus van de reis en de prestaties van aangepaste handelingen te volgen en bij te houden:</p>
+<ul>
+<li><strong> Gepubliceerde Reizen </strong>: Ontvang berichten wanneer een reis door een arts op het wegcanvas wordt gepubliceerd.</li>
+<li><strong> Reis die </strong> wordt geëindigd: Krijg alarm wanneer een reis heeft gebeëindigd, met specifieke definities die op reistype (Gelezen Publiek of gebeurtenis-teweeggebracht) worden gebaseerd.</li>
+<li><strong> Gegrafeerde het Afbakenen van de Actie van de Douane </strong>: Word op de hoogte gebracht wanneer het afschilderen op een eindpunt van de douaneactie wordt geactiveerd.</li>
+</ul>
+<p>Deze waarschuwingen kunnen worden geabonneerd op organisatieniveau of voor specifieke reizen.</p>
+<p>Raadpleeg de <a href="../reports/alerts.md#journey-alerts">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Beschikbaarheidsdatum: 5 november 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -332,7 +355,7 @@ De nieuwe mogelijkheden en verbeteringen die in de afgelopen weken zijn vrijgege
 <tr>
 <td>
 <p>Journey Optimizer Experimentation Accelerator beschikt nu over de Experimentation Agent, een door AI aangedreven, conversationele tool waarmee u kunt communiceren met uw experimenten, inzichten en mogelijkheden. Het verbetert de ervaring van Journey Optimizer Experimentation Accelerator, helpt u efficiënter experimenten in werking te stellen, te ontdekken wat werkt, en te ontdekken waar te om daarna te optimaliseren.</p>
-<p>Raadpleeg de <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=nl-NL" target="_blank">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Raadpleeg de <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">gedetailleerde documentatie</a> voor meer informatie.</p>
 <p>Beschikbaarheidsdatum: 10 oktober 2025</p>
 </td>
 </tr>
