@@ -140,4 +140,4 @@ Na het in werking stellen van het experiment, spoor hoe uw campagnebehandelingen
 
 Ontdek het proces voor het exporteren van een e-mailsjabloon van Journey Optimizer naar GenStudio for Performance Marketing, het maken van merkwaardige e-mails met de sjabloon in GenStudio en het naadloos importeren van deze mailsjablonen naar Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3456055/?captions=dut&quality=12)
