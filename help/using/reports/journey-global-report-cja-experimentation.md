@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a2b4ef74-96a9-4907-ba70-7aee69e45f20
-source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 1%
@@ -23,7 +23,7 @@ In Journey Optimizer is het experimenteren met reizen opgesplitst in twee soorte
 
 * [Inhoud experimenteren](../content-management/content-experiment.md)
 
-  Merk op dat de lijsten en KPIs die voor uw Inhoudsexperiment worden gedetailleerd het zelfde zijn als die voor een experiment van de Weg. Verwijs naar de [&#x200B; documentatie hieronder &#x200B;](#experimentation) als u opstelling een experiment van de Inhoud hebt.
+  Merk op dat de lijsten en KPIs die voor uw Inhoudsexperiment worden gedetailleerd het zelfde zijn als die voor een experiment van de Weg. Verwijs naar de [ documentatie hieronder ](#experimentation) als u opstelling een experiment van de Inhoud hebt.
 
 * [Padexperimenten](../building-journeys/optimize.md)
 
@@ -41,7 +41,7 @@ De **Belangrijke Indicatoren van Prestaties van de Experimentatie Zeer belangrij
 
 * **[!UICONTROL Lift]**: maat voor de procentuele verbetering van de conversiesnelheid van een bepaalde behandeling ten opzichte van de basislijn.
 
-* **[!UICONTROL Confidence]**: Bewijs dat een bepaalde behandeling gelijk is aan de basisbehandeling. [Meer informatie](../content-management/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL Confidence]**: Bewijs dat een bepaalde behandeling gelijk is aan de basisbehandeling. [Meer informatie](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences)
 
 +++
 
@@ -52,7 +52,7 @@ De **Belangrijke Indicatoren van Prestaties van de Experimentatie Zeer belangrij
 ![](assets/cja-experimentation-variants.png)
 
 De **Variant door succesmetriek** lijst toont hoe elke variant gebaseerd op succes metrisch wanneer vestiging het experiment uitvoert.
-Voor diepte-duik in deze resultaten en hoe te om hen te interpreteren, verwijs naar [&#x200B; deze pagina &#x200B;](../content-management/get-started-experiment.md#interpret-results).
+Voor diepte-duik in deze resultaten en hoe te om hen te interpreteren, verwijs naar [ deze pagina ](../content-management/get-started-experiment.md#interpret-results).
 
 +++ Meer informatie over Variant op metrische waarde
 
@@ -66,7 +66,7 @@ Voor diepte-duik in deze resultaten en hoe te om hen te interpreteren, verwijs n
 
 * **[!UICONTROL Confidence Lower bound]**: laagste geschatte waarde van het verschil in conversiesnelheid tussen de behandeling en de basislijn, binnen het gekozen betrouwbaarheidsinterval.
 
-* **[!UICONTROL Confidence]**: Bewijs dat een bepaalde behandeling gelijk is aan de basisbehandeling. [Meer informatie](../content-management/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL Confidence]**: Bewijs dat een bepaalde behandeling gelijk is aan de basisbehandeling. [Meer informatie](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences)
 
 * **[!UICONTROL Confidence Upper bound]**: Hoogste geschatte waarde van het verschil in conversiesnelheid tussen de behandeling en de basislijn, binnen het gekozen betrouwbaarheidsinterval.
 
@@ -76,4 +76,4 @@ Voor diepte-duik in deze resultaten en hoe te om hen te interpreteren, verwijs n
 
 ![](assets/cja-experimentation-conversion.png)
 
-De grafiek van **[!UICONTROL Confidence interval]** toont de waaier van mogelijke verbetering, die de basislijn met de best-presterende behandeling voor gekozen succesmetrisch vergelijkt. [Meer informatie](../content-management/experiment-calculations.md#confidence-intervals).
+De grafiek van **[!UICONTROL Confidence interval]** toont de waaier van mogelijke verbetering, die de basislijn met de best-presterende behandeling voor gekozen succesmetrisch vergelijkt. [Meer informatie](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences).

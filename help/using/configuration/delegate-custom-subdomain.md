@@ -10,7 +10,7 @@ level: Experienced
 keywords: subdomein, delegatie, domein, DNS
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 2%
@@ -23,9 +23,9 @@ ht-degree: 2%
 >
 >Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
-Als alternatief aan [&#x200B; volledig gemachtigde &#x200B;](about-subdomain-delegation.md#full-subdomain-delegation) en [&#x200B; CNAME opstelling &#x200B;](about-subdomain-delegation.md#cname-subdomain-delegation) methodes, staat de **delegatie van de Douane** methode u toe om de eigendom van uw subdomeinen binnen Journey Optimizer te nemen om volledige controle over de geproduceerde certificaten te hebben.
+Als alternatief aan [ volledig gemachtigde ](about-subdomain-delegation.md#full-subdomain-delegation) en [ CNAME opstelling ](about-subdomain-delegation.md#subdomain-delegation-methods) methodes, staat de **delegatie van de Douane** methode u toe om de eigendom van uw subdomeinen binnen Journey Optimizer te nemen om volledige controle over de geproduceerde certificaten te hebben.
 
-Als onderdeel van dit proces moet Adobe ervoor zorgen dat uw DNS dienovereenkomstig is geconfigureerd voor het leveren, renderen en bijhouden van berichten. Dit is waarom u [&#x200B; het SSL certificaat &#x200B;](#upload-ssl-certificate) moet uploaden dat van de Autoriteit van het Certificaat wordt verkregen en de [&#x200B; stappen van de Lijn van de Terugkoppeling &#x200B;](#feedback-loop-steps) door domeineigendom te verifiëren en e-mailadres te melden voltooit.
+Als onderdeel van dit proces moet Adobe ervoor zorgen dat uw DNS dienovereenkomstig is geconfigureerd voor het leveren, renderen en bijhouden van berichten. Dit is waarom u [ het SSL certificaat ](#upload-ssl-certificate) moet uploaden dat van de Autoriteit van het Certificaat wordt verkregen en de [ stappen van de Lijn van de Terugkoppeling ](#feedback-loop-steps) door domeineigendom te verifiëren en e-mailadres te melden voltooit.
 
 Volg onderstaande stappen om een aangepast subdomein in te stellen.
 
@@ -126,7 +126,7 @@ Volg onderstaande stappen om een aangepast subdomein in te stellen.
 >title="De stappen voor het herhalen van feedback voltooien"
 >abstract="Ga naar Yahoo! De Hub van de afzender en vult het formulier in om domeineigendom te verifiëren. Voer het FBL-rapportadres hieronder in en gebruik de OTP die wordt ontvangen om het eigendom op de Yahoo te verifiëren! Afzender Hub."
 
-1. Ga naar de [&#x200B; Yahoo! De Hub van de afzender &#x200B;](https://senders.yahooinc.com/) website en vult de vereiste vorm in om uw domeinbezit te verifiëren.
+1. Ga naar de [ Yahoo! De Hub van de afzender ](https://senders.yahooinc.com/) website en vult de vereiste vorm in om uw domeinbezit te verifiëren.
 
 1. Yahoo verifieert de domeineigendom! De Hub van de afzender zal vereisen dat u een e-mailadres verstrekt. Voer het FBL-rapportadres in dat onder **[!UICONTROL Value]** wordt vermeld. Dit is een e-mailadres dat eigendom is van Adobe.
 

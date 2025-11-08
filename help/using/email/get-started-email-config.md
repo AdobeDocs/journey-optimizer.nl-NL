@@ -9,7 +9,7 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: e-mail, configuratie, oppervlak, subdomeinen
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 7%
@@ -35,7 +35,7 @@ Als u e-mailberichten wilt verzenden via reizen en campagnes in [!DNL Journey Op
 
 1. In elke configuratie van het e-mailkanaal, vorm alle **technische parameters** die worden vereist om e-mails te leveren. [Meer informatie](email-settings.md)
 
-   * Hier selecteert u het subdomein dat u wilt gebruiken om de e-mails en de IP-pools te verzenden die u aan de configuratie wilt koppelen. [Meer informatie](email-settings.md#subdomains-and-ip-pools)
+   * Hier selecteert u het subdomein dat u wilt gebruiken om de e-mails en de IP-pools te verzenden die u aan de configuratie wilt koppelen. [Meer informatie](email-settings.md#ip-pools)
 
    ![](assets/surface-subdomain-ip-pool.png)
 

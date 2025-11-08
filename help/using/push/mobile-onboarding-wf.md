@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 badge: label="Beta" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 3%
@@ -24,7 +24,7 @@ Deze mogelijkheid is via de startpagina van **[!DNL Adobe Experience Platform Da
 
 ## Aan de slag{#gs-mobile-wf}
 
-Deze nieuwe werkstroom automatiseert de opstelling van de Inzameling van Gegevens door het totale aantal kliks te verminderen en de mobiele configuratie voor Journey Optimizer te versnellen. Dit snelle beginwerkschema neemt u door vier gemakkelijke stappen aan [&#x200B; opstelling &#x200B;](##setup-mobile-wf), [&#x200B; uit &#x200B;](#implement-mobile-wf), [&#x200B; bevestigt &#x200B;](#valid-mobile-wf), en [&#x200B; herziet &#x200B;](#review-mobile-wf) uw mobiele configuratie.
+Deze nieuwe werkstroom automatiseert de opstelling van de Inzameling van Gegevens door het totale aantal kliks te verminderen en de mobiele configuratie voor Journey Optimizer te versnellen. Dit snelle beginwerkschema neemt u door vier gemakkelijke stappen aan [ opstelling ](#gs-mobile-wf), [ uit ](#implement-mobile-wf), [ bevestigt ](#valid-mobile-wf), en [ herziet ](#review-mobile-wf) uw mobiele configuratie.
 
 Als u toegang wilt tot de nieuwe workflow voor snel aan boord gaan van mobiele apparaten, bladert u naar **[!DNL Data Collection]** via de oplossingsschakeloptie. Selecteer vervolgens de **[!DNL Start Collecting Mobile Data]** -kaart op de startpagina.
 
@@ -33,8 +33,8 @@ Als u toegang wilt tot de nieuwe workflow voor snel aan boord gaan van mobiele a
 Hieronder vindt u een aantal aanvullende kenmerken:
 
 * Eenvoudige workflow in vier stappen en gebruikersinterface.
-* Levert een basisopstelling om mobiele gebeurtenisgegevens via [&#x200B; Adobe Experience Platform Mobile SDK &#x200B;](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} in notulen te beginnen te verzamelen.
-* De capaciteit om een basis mobiele duw gebeurtenis leveraging [&#x200B; Adobe Experience Platform Assurance &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=nl-NL){target="_blank"} te testen en te bevestigen.
+* Levert een basisopstelling om mobiele gebeurtenisgegevens via [ Adobe Experience Platform Mobile SDK ](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} in notulen te beginnen te verzamelen.
+* De capaciteit om een basis mobiele duw gebeurtenis leveraging [ Adobe Experience Platform Assurance ](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"} te testen en te bevestigen.
 * Auto leidt tot en vormt alle noodzakelijke Inzameling van Gegevens, en de activa van Journey Optimizer.
 * In productbegeleiding en tooltips.
 * Verstrekt een natuurlijke overgang voor geavanceerdere implementatie indien nodig.
@@ -75,5 +75,5 @@ De automatische opstelling wordt gedaan. U kunt nu naar de eigenschap mobile van
 * [Aan de slag met pushmeldingen](../../rp_landing_pages/push-landing-page.md)
 * [Gegevensstroom van pushmeldingen en componenten](push-gs.md)
 * [Het pushkanaal configureren](push-configuration.md)
-* [Pushmeldingenrapport](../reports/journey-global-report-cja-push.md#push-global)
+* [Pushmeldingenrapport](../reports/journey-global-report-cja-push.md#track-link-url-push)
 * [Een pushmelding maken](create-push.md)

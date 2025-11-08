@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: ae971aac1a44b11a19435577d1c17530a91a2ed5
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1633'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <!--Do not modify - Legal Review Done -->
 
-In [!DNL Adobe Journey Optimizer], wanneer het vormen van een nieuwe configuratie van het e-mailkanaal, bij [&#x200B; het selecteren van subdomain &#x200B;](email-settings.md#subdomains-and-ip-pools) van de lijst, toont de **[!UICONTROL Enable List-Unsubscribe]** optie. Deze optie is standaard ingeschakeld.
+In [!DNL Adobe Journey Optimizer], wanneer het vormen van een nieuwe configuratie van het e-mailkanaal, bij [ het selecteren van subdomain ](email-settings.md#ip-pools) van de lijst, toont de **[!UICONTROL Enable List-Unsubscribe]** optie. Deze optie is standaard ingeschakeld.
 
 ![](assets/preset-list-unsubscribe.png)
 
@@ -41,9 +41,9 @@ Afhankelijk van de e-mailclient en de instellingen voor het opheffen van abonnem
 
 >[!NOTE]
 >
->Leer hoe te om de unsubscription montages in [&#x200B; te beheren deze sectie &#x200B;](#enable-list-unsubscribe) hieronder.
+>Leer hoe te om de unsubscription montages in [ te beheren deze sectie ](#enable-list-unsubscribe) hieronder.
 
-In beide gevallen, wanneer een ontvanger de opt-out verbinding klikt, wordt hun afmeldingsverzoek dienovereenkomstig verwerkt. Het overeenkomstige profiel wordt onmiddellijk verkozen uit en deze keus wordt bijgewerkt in [&#x200B; Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=nl-NL#getting-started){target="_blank"}.
+In beide gevallen, wanneer een ontvanger de opt-out verbinding klikt, wordt hun afmeldingsverzoek dienovereenkomstig verwerkt. Het overeenkomstige profiel wordt onmiddellijk verkozen uit en deze keus wordt bijgewerkt in [ Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}.
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ In beide gevallen, wanneer een ontvanger de opt-out verbinding klikt, wordt hun 
 >id="ajo_admin_preset_unsubscribe"
 >title="Voeg een afmeldings-URL toe aan uw e-mails"
 >abstract="Schakel deze optie in om automatisch een afmelde URL aan de koptekst van de e-mail toe te voegen. U kunt een URL voor afmelden ook instellen in een bericht door een koppeling voor het uitschakelen van het abonnement in te voegen in de e-mailinhoud met één klik."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Een-klik-optie instellen om te weigeren in de e-mailinhoud"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Een-klik-optie instellen om te weigeren in de e-mailinhoud"
 
 Als de optie **[!UICONTROL Enable List-Unsubscribe]** is ingeschakeld en de e-mailclient van de ontvangers dit ondersteunt, bevat de e-mailheader standaard zowel een mailto als een URL waarmee ontvangers zich van uw mailinglijst kunnen afmelden.
 
@@ -67,23 +67,23 @@ De header List unsubscribe biedt twee opties, die standaard zijn ingeschakeld, t
 
 ![](assets/surface-list-unsubscribe.png){width="80%"}
 
-* A **[!UICONTROL Mailto (unsubscribe)]** adres, dat het bestemmingsadres is waar unsubscribe verzoeken aan voor auto-verwerking worden verpletterd. In [!DNL Journey Optimizer], is het unsubscribe e-mailadres het standaard **[!UICONTROL Mailto (unsubscribe)]** adres dat in de kanaalconfiguratie wordt getoond, die op [&#x200B; wordt gebaseerd geselecteerde subdomain &#x200B;](email-settings.md#subdomains). <!--With this method, clicking the Unsubscribe link sends a pre-filled email to the unsubscribe address specified in the email header.-->
+* A **[!UICONTROL Mailto (unsubscribe)]** adres, dat het bestemmingsadres is waar unsubscribe verzoeken aan voor auto-verwerking worden verpletterd. In [!DNL Journey Optimizer], is het unsubscribe e-mailadres het standaard **[!UICONTROL Mailto (unsubscribe)]** adres dat in de kanaalconfiguratie wordt getoond, die op [ wordt gebaseerd geselecteerde subdomain ](email-settings.md#subdomains). <!--With this method, clicking the Unsubscribe link sends a pre-filled email to the unsubscribe address specified in the email header.-->
 
-* **[!UICONTROL One-click unsubscribe URL]**, die door gebrek één-klik opt-out URL produceerde Lijst unsubscribe kopbal is, die op [&#x200B; wordt gebaseerd geselecteerde subdomain &#x200B;](email-settings.md#subdomains). <!--With this method, clicking the Unsubscribe link directly unsubscribes the user, requiring only a single action to unsubscribe.-->
+* **[!UICONTROL One-click unsubscribe URL]**, die door gebrek één-klik opt-out URL produceerde Lijst unsubscribe kopbal is, die op [ wordt gebaseerd geselecteerde subdomain ](email-settings.md#subdomains). <!--With this method, clicking the Unsubscribe link directly unsubscribes the user, requiring only a single action to unsubscribe.-->
 
 U kunt **[!UICONTROL Consent level]** van de overeenkomstige drop-down lijst selecteren. Dit kan specifiek zijn voor het kanaal of de profielidentiteit. Op basis van deze instelling wordt de toestemming bijgewerkt in [!DNL Adobe Journey Optimizer] wanneer een gebruiker zich afmeldt via de lijst en de URL voor afmelden in de koptekst van een e-mailbericht opzegt, op kanaalniveau of op ID-niveau.
 
 ## Guardrails en aanbevelingen {#list-unsubscribe-guardrails}
 
-Met de éénklikfunctie voor het afmelden van een URL-abonnement kunnen uw ontvangers eenvoudig weigeren te communiceren. Nochtans, aangezien niet alle e-mailcliënten deze verbinding in de e-mailkopbal steunen, adviseert Adobe u ook a [&#x200B; één-klik opt-out verbinding &#x200B;](email-opt-out.md#one-click-opt-out) of een [&#x200B; unsubscribe verbinding &#x200B;](email-opt-out.md#add-unsubscribe-link) in het lichaam van uw e-mail toe te voegen.
+Met de éénklikfunctie voor het afmelden van een URL-abonnement kunnen uw ontvangers eenvoudig weigeren te communiceren. Nochtans, aangezien niet alle e-mailcliënten deze verbinding in de e-mailkopbal steunen, adviseert Adobe u ook a [ één-klik opt-out verbinding ](email-opt-out.md#one-click-opt-out) of een [ unsubscribe verbinding ](email-opt-out.md#add-unsubscribe-link) in het lichaam van uw e-mail toe te voegen.
 
 De functies **[!UICONTROL Mailto (unsubscribe)]** en **[!UICONTROL One-click unsubscribe URL]** zijn optioneel.
 
-* Als u op de **[!UICONTROL Enable List-Unsubscribe]** optie in de [&#x200B; e-mailconfiguratiemontages &#x200B;](email-settings.md) van een knevel hebt voorzien, adviseren wij dat u beide methodes toelaat - **Brievenbus (unsubscribe)** en **Één-Klik Unsubscribe URL**. Niet alle e-mailclients ondersteunen de HTTP-methode. Met de lijst-unsubscribe eigenschap Mailto die voor u wordt verstrekt om een alternatief te selecteren, kan uw afzenderreputatie beter worden beschermd en al uw ontvangers kunnen toegang hebben om de unsubscribe functionaliteit te gebruiken.
+* Als u op de **[!UICONTROL Enable List-Unsubscribe]** optie in de [ e-mailconfiguratiemontages ](email-settings.md) van een knevel hebt voorzien, adviseren wij dat u beide methodes toelaat - **Brievenbus (unsubscribe)** en **Één-Klik Unsubscribe URL**. Niet alle e-mailclients ondersteunen de HTTP-methode. Met de lijst-unsubscribe eigenschap Mailto die voor u wordt verstrekt om een alternatief te selecteren, kan uw afzenderreputatie beter worden beschermd en al uw ontvangers kunnen toegang hebben om de unsubscribe functionaliteit te gebruiken.
 
 * Als u niet de standaard gegenereerde één-klik wilt gebruiken unsubscribe URL, kunt u de eigenschap uncheck.
 
-   * In het scenario waar de **[!UICONTROL Enable List-Unsubscribe]** optie wordt van een knevel voorzien en de **[!UICONTROL One-click Unsubscribe URL]** eigenschap is ongecontroleerd, als u a [&#x200B; toe:voegen één-klik opt-out verbinding &#x200B;](../email/email-opt-out.md#one-click-opt-out) aan een bericht dat gebruikend deze configuratie wordt gecreeerd, neemt de Lijst unsubscribe kopbal de één-klik opt-out verbinding op u in het lichaam van e-mail hebt opgenomen en gebruikt dat als één-klik unsubscribe URL waarde.
+   * In het scenario waar de **[!UICONTROL Enable List-Unsubscribe]** optie wordt van een knevel voorzien en de **[!UICONTROL One-click Unsubscribe URL]** eigenschap is ongecontroleerd, als u a [ toe:voegen één-klik opt-out verbinding ](../email/email-opt-out.md#one-click-opt-out) aan een bericht dat gebruikend deze configuratie wordt gecreeerd, neemt de Lijst unsubscribe kopbal de één-klik opt-out verbinding op u in het lichaam van e-mail hebt opgenomen en gebruikt dat als één-klik unsubscribe URL waarde.
 
      ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
@@ -91,9 +91,9 @@ De functies **[!UICONTROL Mailto (unsubscribe)]** en **[!UICONTROL One-click uns
 
   >[!NOTE]
   >
-  >Leer meer over het beheren van unsubscribe mogelijkheden binnen uw berichten in [&#x200B; deze sectie &#x200B;](../email/email-opt-out.md#unsubscribe-header).
+  >Leer meer over het beheren van unsubscribe mogelijkheden binnen uw berichten in [ deze sectie ](../email/email-opt-out.md#unsubscribe-header).
 
-In [!DNL Journey Optimizer], wordt de toestemming behandeld door het schema van de Experience Platform [&#x200B; Toestemming &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=nl-NL){target="_blank"}. Standaard is de waarde voor het veld voor toestemming leeg en wordt deze behandeld als toestemming voor het ontvangen van uw communicatie. U kunt deze standaardwaarde wijzigen terwijl het aan een van de mogelijke hier vermelde waarden [&#x200B; &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=nl-NL#choice-values){target="_blank"}, of gebruik [&#x200B; toestemmingsbeleid &#x200B;](../action/consent.md) om de standaardlogica met voeten te treden.
+In [!DNL Journey Optimizer], wordt de toestemming behandeld door het schema van de Experience Platform [ Toestemming ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"}. Standaard is de waarde voor het veld voor toestemming leeg en wordt deze behandeld als toestemming voor het ontvangen van uw communicatie. U kunt deze standaardwaarde wijzigen terwijl het aan een van de mogelijke hier vermelde waarden [ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target="_blank"}, of gebruik [ toestemmingsbeleid ](../action/consent.md) om de standaardlogica met voeten te treden.
 
 Momenteel voegt [!DNL Journey Optimizer] geen specifieke tag toe aan afmeldingsgebeurtenissen die worden geactiveerd door de functie voor afmelden van lijst. Als u List moet onderscheiden wanneer u klikt op een abonnement op een andere actie voor annuleren, moet u aangepaste tags extern implementeren of een externe bestemmingspagina gebruiken voor tracering.
 
@@ -127,13 +127,13 @@ Om uw eindpunten <!-- (**[!UICONTROL Mailto (unsubscribe)]** and **[!UICONTROL O
 
 >[!AVAILABILITY]
 >
->Voor de optie **[!UICONTROL Mailto (unsubscribe)]** is deze mogelijkheid beschikbaar in Beperkte beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang. In dit geval, moet u de nieuwe vraagparameters gebruiken die in **worden beschreven Brievenbus (unsubscribe) met douanekenmerken (Beperkte Beschikbaarheid)** hieronder sectie [&#x200B; &#x200B;](#configure-decrypt-api).
+>Voor de optie **[!UICONTROL Mailto (unsubscribe)]** is deze mogelijkheid beschikbaar in Beperkte beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang. In dit geval, moet u de nieuwe vraagparameters gebruiken die in **worden beschreven Brievenbus (unsubscribe) met douanekenmerken (Beperkte Beschikbaarheid)** hieronder sectie [ ](#configure-decrypt-api).
 
-Gebruik de sectie **[!UICONTROL URL tracking parameters]** als u aangepaste kenmerken voor de eindpunten wilt definiëren. Alle URL volgende parameters u in de overeenkomstige sectie bepaalt zullen aan het eind van uw douaneeindpunten, naast standaardparameters worden toegevoegd. [&#x200B; Leer hoe te om het volgen van douane URL te plaatsen &#x200B;](url-tracking.md)
+Gebruik de sectie **[!UICONTROL URL tracking parameters]** als u aangepaste kenmerken voor de eindpunten wilt definiëren. Alle URL volgende parameters u in de overeenkomstige sectie bepaalt zullen aan het eind van uw douaneeindpunten, naast standaardparameters worden toegevoegd. [ Leer hoe te om het volgen van douane URL te plaatsen ](url-tracking.md)
 
 ### De decoderings-API configureren {#configure-decrypt-api}
 
-Wanneer uw ontvangers op een aangepaste unsubscribe-koppeling klikken, worden de parameters die aan de toestemmingsupdate-gebeurtenis zijn toegevoegd, op gecodeerde wijze naar het eindpunt verzonden. Aldus, moet het externe toestemmingssysteem specifieke API door [&#x200B; Adobe Developer &#x200B;](https://developer.adobe.com){target="_blank"} uitvoeren om de parameters te decrypteren die door Adobe worden verzonden.
+Wanneer uw ontvangers op een aangepaste unsubscribe-koppeling klikken, worden de parameters die aan de toestemmingsupdate-gebeurtenis zijn toegevoegd, op gecodeerde wijze naar het eindpunt verzonden. Aldus, moet het externe toestemmingssysteem specifieke API door [ Adobe Developer ](https://developer.adobe.com){target="_blank"} uitvoeren om de parameters te decrypteren die door Adobe worden verzonden.
 
 De GET-aanroep om deze parameters op te halen is afhankelijk van de optie voor het opzeggen van het abonnement op de lijst die u gebruikt - **[!UICONTROL One-click unsubscribe URL]** of **[!UICONTROL Mailto (unsubscribe)]** .
 
@@ -164,7 +164,7 @@ Hieronder vindt u de monsterparameters en de reactie op de toestemming:
 
 | Query-parameter | Voorbeeld van lading |
 |---------|----------|
-| pid | <br> &quot;pid&quot; : &quot;5142733041546020095851529937068211571&quot;, <br> &quot;pns&quot; : &quot;CRMID&quot;,<br> 2&rbrace;&quot;e&quot;    : &quot;john@google.com&quot;, <br> &quot;ens&quot; : &quot;Email&quot;, <br> |
+| pid | <br> &quot;pid&quot; : &quot;5142733041546020095851529937068211571&quot;, <br> &quot;pns&quot; : &quot;CRMID&quot;,<br> 2}&quot;e&quot;    : &quot;john@google.com&quot;, <br> &quot;ens&quot; : &quot;Email&quot;, <br> |
 | param | <br> &quot;m&quot;: &quot;messageExecutionId&quot;, <br> &quot;ci&quot; : &quot;campagneId&quot;, <br> &quot;jv&quot;: &quot;tripVersionId&quot;, <br> &quot;ja&quot;: &quot;tripActionId&quot;, <br> &quot;s&quot;: &quot;sandboxId&quot;, <br> &quot;us&quot;: &quot;unsubscribeScope&quot;<br> |
 
 Toestemmingsreactie:
@@ -259,7 +259,7 @@ Parameters query:
 
    * Geparseerde waarde: *v1.xyz*
 
-Voorbeeld van API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+Voorbeeld van API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >

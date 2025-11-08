@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 1%
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 # Visuele fragmenten toevoegen aan uw e-mails {#use-visual-fragments}
 
-Een fragment is een herbruikbare component waarnaar in een of meer e-mails kan worden verwezen via Journey Optimizer-campagnes, -reizen of inhoudssjablonen. Met deze functionaliteit kunt u meerdere blokken met aangepaste inhoud vooraf samenstellen. Deze blokken kunnen door marketinggebruikers worden gebruikt om snel e-mailinhoud samen te stellen in een verbeterd ontwerpproces. [&#x200B; leer hoe te om fragmenten &#x200B;](../content-management/fragments.md) tot stand te brengen en te beheren.
+Een fragment is een herbruikbare component waarnaar in een of meer e-mails kan worden verwezen via Journey Optimizer-campagnes, -reizen of inhoudssjablonen. Met deze functionaliteit kunt u meerdere blokken met aangepaste inhoud vooraf samenstellen. Deze blokken kunnen door marketinggebruikers worden gebruikt om snel e-mailinhoud samen te stellen in een verbeterd ontwerpproces. [ leer hoe te om fragmenten ](../content-management/fragments.md) tot stand te brengen en te beheren.
 
-➡️ [&#x200B; Leer hoe te, auteur en gebruiks fragmenten in deze video &#x200B;](../content-management/fragments.md#video-fragments) beheren
+➡️ [ Leer hoe te, auteur en gebruiks fragmenten in deze video ](../content-management/fragments.md#video-fragments) beheren
 
 ## Een fragment gebruiken {#use-fragment}
 
@@ -30,7 +30,7 @@ Voer de onderstaande stappen uit om een fragment te gebruiken in een e-mailberic
 >U kunt maximaal 30 fragmenten in een bepaalde levering toevoegen. Fragmenten kunnen maximaal 1 niveau worden genest.
 
 
-1. Open om het even welke e-mail of malplaatjeinhoud gebruikend [&#x200B; E-mail Designer &#x200B;](get-started-email-design.md).
+1. Open om het even welke e-mail of malplaatjeinhoud gebruikend [ E-mail Designer ](get-started-email-design.md).
 
 1. Selecteer het pictogram **[!UICONTROL Fragments]** van de linkerspoorstaaf.
 
@@ -64,8 +64,8 @@ Voer de onderstaande stappen uit om een fragment te gebruiken in een e-mailberic
 1. Via het tabblad **[!UICONTROL Settings]** kunt u:
 
    * Kies de apparaten waarop het fragment moet worden weergegeven.
-   * Open het fragment op een nieuw tabblad om het zo nodig te bewerken. [Meer informatie](../content-management/fragments.md#edit-fragments)
-   * Verken verwijzingen. [Meer informatie](../content-management/fragments.md#explore-references)
+   * Open het fragment op een nieuw tabblad om het zo nodig te bewerken. [Meer informatie](../content-management/fragments.md#fragments)
+   * Verken verwijzingen. [Meer informatie](../content-management/fragments.md#visual-expression)
 
 1. U kunt het fragment verder aanpassen met het tabblad **[!UICONTROL Styles]** .
 
@@ -77,11 +77,11 @@ Voer de onderstaande stappen uit om een fragment te gebruiken in een e-mailberic
 
 De impliciete variabelen verbeteren de bestaande fragmentfunctionaliteit om de efficiëntie voor hergebruik van inhoud en het gebruik van scripts te verbeteren. Fragmenten kunnen invoervariabelen gebruiken en uitvoervariabelen maken die bruikbaar zijn in campagne- en reisinhoud.
 
-Leer hoe te om impliciete variabelen in [&#x200B; te gebruiken deze sectie &#x200B;](../personalization/use-expression-fragments.md#implicit-variables).
+Leer hoe te om impliciete variabelen in [ te gebruiken deze sectie ](../personalization/use-expression-fragments.md#implicit-variables).
 
 ## Bewerkbare velden aanpassen {#customize-fields}
 
-Als bepaalde delen van het geselecteerde fragment bewerkbaar zijn gemaakt, kunt u de standaardwaarde ervan overschrijven nadat u het fragment aan de inhoud hebt toegevoegd. [&#x200B; Leer hoe te om uw fragmenten klantgericht te maken &#x200B;](../content-management/customizable-fragments.md)
+Als bepaalde delen van het geselecteerde fragment bewerkbaar zijn gemaakt, kunt u de standaardwaarde ervan overschrijven nadat u het fragment aan de inhoud hebt toegevoegd. [ Leer hoe te om uw fragmenten klantgericht te maken ](../content-management/customizable-fragments.md)
 
 Voer de volgende stappen uit om bewerkbare velden in een fragment aan te passen:
 

@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
 badge: label="Beta" type="Informative"
-source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 2%
@@ -52,7 +52,7 @@ De **[!UICONTROL Campaign's Statistics]** -widget geeft de belangrijkste informa
 
 Op het tabblad **[!UICONTROL Objectives]** kunt u de rapporten van uw leveringen perfectioneren door een specifieke meting uit te voeren.
 
-De lijst **[!UICONTROL Objectives]** is gekoppeld aan **[!UICONTROL Datasets]** die een verbinding met een systeem definiëren om aanvullende informatie op te halen. Er is een lijst met ingebouwde **[!UICONTROL Objectives]** beschikbaar, maar u kunt uw eigen lijst toevoegen door nieuwe **[!UICONTROL Dataset]** toe te voegen. Voor de gedetailleerde procedure, verwijs naar deze [&#x200B; sectie &#x200B;](../reports/reporting-configuration.md).
+De lijst **[!UICONTROL Objectives]** is gekoppeld aan **[!UICONTROL Datasets]** die een verbinding met een systeem definiëren om aanvullende informatie op te halen. Er is een lijst met ingebouwde **[!UICONTROL Objectives]** beschikbaar, maar u kunt uw eigen lijst toevoegen door nieuwe **[!UICONTROL Dataset]** toe te voegen. Voor de gedetailleerde procedure, verwijs naar deze [ sectie ](../reports/reporting-configuration.md).
 
 Nadat u de doelstellingen hebt geselecteerd waarop u zich wilt richten, geven de twee **[!UICONTROL Performance overview]** - en **[!UICONTROL Campaign objective]** -widgets een gedetailleerd overzicht van de prestaties van de levering.
 
@@ -76,7 +76,7 @@ De tabel bevat de volgende cijfers:
 
 * **[!UICONTROL Lift over baseline]**: maat voor de procentuele verbetering van de conversiesnelheid van een bepaalde behandeling ten opzichte van de basislijn.
 
-* **[!UICONTROL Confidence]**: Bewijs dat een bepaalde behandeling gelijk is aan de basisbehandeling. [Meer informatie](../content-management/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL Confidence]**: Bewijs dat een bepaalde behandeling gelijk is aan de basisbehandeling. [Meer informatie](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences)
 
 * **[!UICONTROL Unique outbound clicks]**: Het totale aantal klikken over uitgaande kanalen.
 
@@ -84,7 +84,7 @@ De tabel bevat de volgende cijfers:
 
 * **[!UICONTROL Unique outbound clicks/profiles]**: de totale waarde van de metrische waarde voor succes die eerder is geselecteerd bij het maken van uw experimenten, gedeeld door het aantal profielen.
 
-De grafiek van **[!UICONTROL Confidence interval]** meet onzekerheid rond verbetering. Het geeft het procentuele verschil in prestaties weer tussen de basislijn en de best presterende behandeling. [Meer informatie](../content-management/experiment-calculations.md#confidence-intervals).
+De grafiek van **[!UICONTROL Confidence interval]** meet onzekerheid rond verbetering. Het geeft het procentuele verschil in prestaties weer tussen de basislijn en de best presterende behandeling. [Meer informatie](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences).
 +++
 
-Voor diepte-duik in deze resultaten en hoe te om hen te interpreteren, verwijs naar [&#x200B; deze pagina &#x200B;](../content-management/get-started-experiment.md#interpret-results).
+Voor diepte-duik in deze resultaten en hoe te om hen te interpreteren, verwijs naar [ deze pagina ](../content-management/get-started-experiment.md#interpret-results).

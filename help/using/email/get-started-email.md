@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: e-mail, starten, maken, voorvertonen
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 7%
@@ -27,9 +27,9 @@ Gebruik [!DNL Journey Optimizer] om e-mailberichten naar uw klanten te verzenden
 
 E-mailleveringen kunnen worden gemaakt:
 
-* In a **Weg**: zodra u een **[!UICONTROL Email]** activiteit aan uw reis toevoegde, en bepaalde basismontages, gebruik de **[!UICONTROL Actions: Email]** juiste ruit om de inhoud voor het bericht tot stand te brengen. [&#x200B; leer hoe te om een reis &#x200B;](../building-journeys/journey-gs.md) tot stand te brengen
+* In a **Weg**: zodra u een **[!UICONTROL Email]** activiteit aan uw reis toevoegde, en bepaalde basismontages, gebruik de **[!UICONTROL Actions: Email]** juiste ruit om de inhoud voor het bericht tot stand te brengen. [ leer hoe te om een reis ](../building-journeys/journey-gs.md) tot stand te brengen
 
-* In a **Campagne**: Zodra u een campagne creeerde, selecteer **[!UICONTROL Email]** als uw actie en bepaal basismontages. [&#x200B; Leer hoe te om een campagne &#x200B;](../campaigns/create-campaign.md#configure) tot stand te brengen
+* In a **Campagne**: Zodra u een campagne creeerde, selecteer **[!UICONTROL Email]** als uw actie en bepaal basismontages. [ Leer hoe te om een campagne ](../campaigns/campaign-action.md#action-campaign-action) tot stand te brengen
 
 
 >[!IMPORTANT]
@@ -117,4 +117,4 @@ E-mailleveringen kunnen worden gemaakt:
 * **[E-mailconfiguratie](get-started-email-config.md)** - begrijp hoe te om e-mailmontages met inbegrip van e-mailoppervlakken, subdomeinen, en IP pools te vormen.
 * **[Verpersoonlijking E-mail en het stileren](get-started-email-style.md)** - Hoofd het stileren technieken met inbegrip van douane CSS, groepering, het opvullen, en donkere wijzessteun.
 * **[Spoor en controleer e-mails](message-tracking.md)** - Leer hoe te om bericht te volgen opent, klikt, en URL het volgen voor prestatiesanalyse beheert.
-* **[e-mailkanaalzelfstudies &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op e-maileigenschappen en beste praktijken.
+* **[e-mailkanaalzelfstudies ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op e-maileigenschappen en beste praktijken.

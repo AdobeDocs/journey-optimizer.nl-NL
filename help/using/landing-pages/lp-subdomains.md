@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: landen, landingspagina, subdomeinen, configuratie
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 0%
@@ -26,19 +26,19 @@ ht-degree: 0%
 >id="ajo_admin_subdomain_lp"
 >title="Een subdomein van een bestemmingspagina delegeren"
 >abstract="U moet een subdomein configureren om te gebruiken voor uw bestemmingspagina&#39;s, aangezien u dit subdomein nodig hebt om een voorinstelling voor een bestemmingspagina te maken. U kunt een subdomein gebruiken dat al aan Adobe is gedelegeerd of een nieuw subdomein configureren."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=nl-NL#lp-create-preset" text="Voorinstellingen voor openingspagina&#39;s maken"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Voorinstellingen voor openingspagina&#39;s maken"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
 >title="Een voorinstelling voor een openingspagina maken"
 >abstract="Als u een voorinstelling voor een bestemmingspagina wilt maken, moet u ervoor zorgen dat u eerder ten minste één subdomein van de bestemmingspagina hebt geconfigureerd om te kiezen uit de lijst met subdomeinnamen."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=nl-NL#lp-create-preset" text="Voorinstellingen voor openingspagina&#39;s maken"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Voorinstellingen voor openingspagina&#39;s maken"
 
 ## Aan de slag met het landen van subdomeinen van pagina&#39;s {#gs-lp-subdomains}
 
-Om het landen van pagina te kunnen [&#x200B; tot stand brengen stelt &#x200B;](lp-presets.md) vooraf in, moet u opstelling subdomeinen u voor uw het landen pagina&#39;s zult gebruiken.
+Om het landen van pagina te kunnen [ tot stand brengen stelt ](lp-presets.md) vooraf in, moet u opstelling subdomeinen u voor uw het landen pagina&#39;s zult gebruiken.
 
-U kunt een subdomein gebruiken dat al aan Adobe is gedelegeerd, of u kunt een ander subdomein vormen. Leer meer over het delegeren van subdomeinen aan Adobe in [&#x200B; deze sectie &#x200B;](../configuration/delegate-subdomain.md).
+U kunt een subdomein gebruiken dat al aan Adobe is gedelegeerd, of u kunt een ander subdomein vormen. Leer meer over het delegeren van subdomeinen aan Adobe in [ deze sectie ](../configuration/delegate-subdomain.md).
 
 Het landen van pagina subdomain configuratie is **gemeenschappelijk aan alle milieu&#39;s**. Daarom geldt het volgende:
 
@@ -80,11 +80,11 @@ Als u een subdomein wilt gebruiken dat al is gedelegeerd aan Adobe, voert u de v
 
    >[!CAUTION]
    >
-   >Als u een domein selecteert dat aan Adobe gebruikend de [&#x200B; methode van de NAAM &#x200B;](../configuration/delegate-subdomain.md#cname-subdomain-setup) werd afgevaardigd, moet u het DNS verslag op uw het ontvangen platform tot stand brengen. Om het DNS verslag te produceren, is het proces het zelfde als wanneer u een nieuw landend paginasubdomain vormt. Leer hoe in [&#x200B; deze sectie &#x200B;](#lp-configure-new-subdomain).
+   >Als u een domein selecteert dat aan Adobe gebruikend de [ methode van de NAAM ](../configuration/delegate-subdomain.md#cname-subdomain-setup) werd afgevaardigd, moet u het DNS verslag op uw het ontvangen platform tot stand brengen. Om het DNS verslag te produceren, is het proces het zelfde als wanneer u een nieuw landend paginasubdomain vormt. Leer hoe in [ deze sectie ](#lp-configure-new-subdomain).
 
 1. Klik op **[!UICONTROL Submit]**.
 
-1. Na verzending wordt het subdomein in de lijst weergegeven met de status **[!UICONTROL Processing]** . Voor meer op de statussen van subdomeinen, verwijs naar [&#x200B; deze sectie &#x200B;](../configuration/delegate-subdomain.md#access-delegated-subdomains).<!--Same statuses?-->
+1. Na verzending wordt het subdomein in de lijst weergegeven met de status **[!UICONTROL Processing]** . Voor meer op de statussen van subdomeinen, verwijs naar [ deze sectie ](../configuration/delegate-subdomain.md#access-delegated-subdomains).<!--Same statuses?-->
 
    ![](assets/lp_subdomain-processing.png)
 
@@ -129,7 +129,7 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
 
    Wanneer u een nieuw het landen paginasubdomain vormt, richt het altijd aan een verslag CNAME.
 
-1. Nadat de subdomeindelegatie is verzonden, wordt het subdomein in de lijst weergegeven met de status **[!UICONTROL Processing]** . Voor meer op de statussen van subdomeinen, verwijs naar [&#x200B; deze sectie &#x200B;](../configuration/delegate-subdomain.md#access-delegated-subdomains).<!--Same statuses?-->
+1. Nadat de subdomeindelegatie is verzonden, wordt het subdomein in de lijst weergegeven met de status **[!UICONTROL Processing]** . Voor meer op de statussen van subdomeinen, verwijs naar [ deze sectie ](../configuration/delegate-subdomain.md#access-delegated-subdomains).<!--Same statuses?-->
 
    Alvorens dat subdomain voor uw het landen pagina&#39;s te kunnen gebruiken, moet u wachten tot Adobe de vereiste controles uitvoert, die **tot 4 uren** kan nemen.<!--Learn more in [this section](#subdomain-validation).-->
 
@@ -141,13 +141,13 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
 
 Als u een bestemmingspagina subdomain wenst te delegeren, volg de hieronder stappen.
 
-1. Verwijder in [!DNL Journey Optimizer] de publicatie van alle bestemmingspagina&#39;s die aan het subdomein zijn gekoppeld. [&#x200B; leer hoe &#x200B;](create-lp.md#access-landing-pages)
+1. Verwijder in [!DNL Journey Optimizer] de publicatie van alle bestemmingspagina&#39;s die aan het subdomein zijn gekoppeld. [ leer hoe ](create-lp.md#create-landing-page)
 
 1. Als subdomein van de landingspagina naar een CNAME-record wijst, kunt u de CNAME DNS-record verwijderen die u voor het subdomein van de bestemmingspagina hebt gemaakt van uw hostingoplossing (maar niet het oorspronkelijke e-mailsubdomein verwijderen als dat er is).
 
    >[!NOTE]
    >
-   >Een het landen pagina subdomain kan aan een CNAME- verslag richten omdat het of een [&#x200B; bestaand subdomain &#x200B;](#lp-use-existing-subdomain) aan Adobe werd gedelegeerd gebruikend de [&#x200B; methode CNAME &#x200B;](../configuration/delegate-subdomain.md#cname-subdomain-setup), of a [&#x200B; nieuw het landen pagina subdomain &#x200B;](#lp-configure-new-subdomain) dat u vormde.
+   >Een het landen pagina subdomain kan aan een CNAME- verslag richten omdat het of een [ bestaand subdomain ](#lp-use-existing-subdomain) aan Adobe werd gedelegeerd gebruikend de [ methode CNAME ](../configuration/delegate-subdomain.md#cname-subdomain-setup), of a [ nieuw het landen pagina subdomain ](#lp-configure-new-subdomain) dat u vormde.
 
 1. Neem contact op met een Adobe-medewerker met het subdomein dat u wilt verwijderen.
 

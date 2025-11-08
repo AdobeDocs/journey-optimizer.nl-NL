@@ -10,7 +10,7 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '4376'
 ht-degree: 8%
@@ -67,7 +67,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Doelgroepen**
 
-* U kunt nu doelgroepen kiezen die vanuit een CSV-bestand naar reizen en campagnes zijn geüpload. [Meer informatie](../audience/about-audiences.md#segments-in-journey-optimizer)
+* U kunt nu doelgroepen kiezen die vanuit een CSV-bestand naar reizen en campagnes zijn geüpload. [Meer informatie](../audience/about-audiences.md#about-segments)
 * U kunt nu doelgroepen kiezen die zijn gemaakt door de publiekscompositie en de verrijkingskenmerken van de doelgroep in de stappen. [Meer informatie](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
@@ -88,9 +88,9 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 * De maximale tijdsduur die u in een wachttijd kunt definiëren, is nu 29 dagen in plaats van 30. Deze verbetering is ingevoerd om te voorkomen dat wachttijden langer duren dan de 30 dagen durende reisduur. Dit geldt voor:
 
-   * het **Hoeveelheid van Tijd** gebied in [&#x200B; wacht activiteit &#x200B;](../building-journeys/wait-activity.md)
-   * de **Ingang wacht periode** in [&#x200B; reiseigenschappen &#x200B;](../building-journeys/journey-properties.md#entrance)
-   * **wacht op** gebied in de onderbrekingsdefinitie van [&#x200B; gebeurtenisactiviteiten &#x200B;](../building-journeys/general-events.md#events-specific-time).
+   * het **Hoeveelheid van Tijd** gebied in [ wacht activiteit ](../building-journeys/wait-activity.md)
+   * de **Ingang wacht periode** in [ reiseigenschappen ](../building-journeys/journey-properties.md#entrance)
+   * **wacht op** gebied in de onderbrekingsdefinitie van [ gebeurtenisactiviteiten ](../building-journeys/general-events.md#events-specific-time).
 
 <!--
 **Consent in channel configuration**
@@ -204,7 +204,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 * Wanneer u een reis dupliceert, kunt u nu de naam van de reiskopie definiëren. [Meer informatie](../building-journeys/journey-gs.md#duplicate-a-journey)
 
-* Ondersteuning voor aangepaste acties is nu GA. Met deze mogelijkheid kunt u API-oproepreacties gebruiken in aangepaste acties en uw reis ordenen op basis van deze reacties. Bovendien is a [&#x200B; nieuwe het begrenzen guardrail &#x200B;](../start/guardrails.md#custom-actions-g) toegevoegd om douaneactievraag automatisch te beperken. [Meer informatie](../action/action-response.md)
+* Ondersteuning voor aangepaste acties is nu GA. Met deze mogelijkheid kunt u API-oproepreacties gebruiken in aangepaste acties en uw reis ordenen op basis van deze reacties. Bovendien is a [ nieuwe het begrenzen guardrail ](../start/guardrails.md#custom-actions-g) toegevoegd om douaneactievraag automatisch te beperken. [Meer informatie](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
@@ -225,7 +225,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Meldend**
 
-* U kunt nu Journey Optimizer-rapporten exporteren als CSV-bestand. Leer meer in de [&#x200B; gedetailleerde documentatie &#x200B;](../reports/report-gs-cja.md).
+* U kunt nu Journey Optimizer-rapporten exporteren als CSV-bestand. Leer meer in de [ gedetailleerde documentatie ](../reports/report-gs-cja.md).
 
 **Assets**
 
@@ -339,7 +339,7 @@ A new option is available in the email surface settings to include email address
 <p>U kunt nu compositieworkflows maken om bestaande Adobe Experience Platform-soorten publiek te combineren tot een visueel canvas en verschillende activiteiten (splitsen, verrijken...) gebruiken om nieuwe soorten publiek te maken. Nieuw gecreëerd publiek wordt samen met het bestaande publiek weer in Adobe Experience Platform opgeslagen en kan in Journey Optimizer-campagnes worden gebruikt om klanten te bereiken.</p>
 <img src="assets/do-not-localize/gif-ao.gif"/>
 <p>Raadpleeg de <a href="../audience/get-started-audience-orchestration.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-<p>De samenstelling van het publiek is volledig geïntegreerd met het nieuwe Adobe Experience Platform-menu "Soorten publiek", dat als een gecentraliseerd portaal voor het publiek fungeert. U kunt nu een bladerpagina gebruiken die een nieuw dashboard met segmenttendensen en overlappingen omvat om nieuwe inzichten te vinden en organisatorische hulpmiddelen voor het folderen en het etiketteren te onderzoeken. Binnen deze ervaring zijn beheerbesturingselementen ingebouwd voor gestandaardiseerde publiekslabels en mogelijkheden voor levenscyclusbeheer van het publiek om activeringsworkflows te beheren. Met deze nieuwe beheerervaring kunt u het publiek nu gemakkelijk en veilig beheren vanaf één locatie. Voor meer informatie, verwijs naar <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=nl-NL" target="_blank"> documentatie van Adobe Experience Platform </a>.</p></p>
+<p>De samenstelling van het publiek is volledig geïntegreerd met het nieuwe Adobe Experience Platform-menu "Soorten publiek", dat als een gecentraliseerd portaal voor het publiek fungeert. U kunt nu een bladerpagina gebruiken die een nieuw dashboard met segmenttendensen en overlappingen omvat om nieuwe inzichten te vinden en organisatorische hulpmiddelen voor het folderen en het etiketteren te onderzoeken. Binnen deze ervaring zijn beheerbesturingselementen ingebouwd voor gestandaardiseerde publiekslabels en mogelijkheden voor levenscyclusbeheer van het publiek om activeringsworkflows te beheren. Met deze nieuwe beheerervaring kunt u het publiek nu gemakkelijk en veilig beheren vanaf één locatie. Voor meer informatie, verwijs naar <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html" target="_blank"> documentatie van Adobe Experience Platform </a>.</p></p>
 </td>
 </tr>
 </tbody>
@@ -718,7 +718,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * Het reiscanvas geeft nu de activiteit-id weer op berichtactiviteiten en eindtags. Dit verbetert rapportage en heroriëntering.
 * De indeling van het configuratievenster, dat wordt weergegeven in handelingen, gegevensbronnen, gebeurtenissen en reizen, is verbeterd.
 * Nieuwe insight voor het aantal knooppunten op het canvas met beveiligingen om mee te groeien: maak reizen eenvoudig leesbaar, maak een kwaliteitscontrole en los problemen met een maximumaantal knooppunten per reis op 50. [Meer informatie](../start/guardrails.md#journeys-guardrails-journeys)
-* Wanneer het toevoegen van een [&#x200B; E-mail &#x200B;](../email/create-email.md), [&#x200B; SMS &#x200B;](../sms/create-sms.md) of [&#x200B; duw &#x200B;](../push/create-push.md) actie in een reis, wordt de oppervlakte nu voorgevuld, door gebrek, met de laatste gebruikte oppervlakte voor dat kanaal, in de huidige reis.
+* Wanneer het toevoegen van een [ E-mail ](../email/create-email.md), [ SMS ](../sms/create-sms.md) of [ duw ](../push/create-push.md) actie in een reis, wordt de oppervlakte nu voorgevuld, door gebrek, met de laatste gebruikte oppervlakte voor dat kanaal, in de huidige reis.
 * U kunt nu statische of dynamische queryparameters definiëren in uw aangepaste handelingen. [Meer informatie](../action/about-custom-action-configuration.md#url-configuration)
 
 **Meldend**
@@ -825,7 +825,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 * De functionaliteit van de widget voor rapportage is verbeterd en het is nu mogelijk om aan te passen hoe gebruikers hun gegevens bekijken. Met deze verbetering kunnen gebruikers nu kiezen tussen meerdere visualisatieopties, zoals grafiek, tabel en donutgrafieken.
 
-  Als u toegang wilt hebben tot de meest recente widgets, moet u de verschillende rapportdashboards opnieuw instellen. Voor meer informatie over dashboardaanpassing, verwijs naar de [&#x200B; gedetailleerde documentatie &#x200B;](../reports/report-gs-cja.md).
+  Als u toegang wilt hebben tot de meest recente widgets, moet u de verschillende rapportdashboards opnieuw instellen. Voor meer informatie over dashboardaanpassing, verwijs naar de [ gedetailleerde documentatie ](../reports/report-gs-cja.md).
 
 ## Release van februari &#39;23 {#feb-2023}
 
@@ -945,7 +945,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **Lijst van gewenste personen** - u kunt de lijst van gewenste personen nu downloaden als .csv- dossier. [Meer informatie](../configuration/allow-list.md#download-allowed-list)
 
-* **E-mailoppervlakte** - een extra controle is toegevoegd aan de montages van de e-mailoppervlakte: als het MX- verslag voor subdomain in het **Reageren aan (e-mail) adres** of in het **BCC e-mailadres** wordt gebruikt niet behoorlijk gevormd, kan de e-mailoppervlakte niet meer worden gecreeerd. U moet het gevormd hebben of een andere gebruiken. [Meer informatie](../email/email-settings.md#reply-to-email)
+* **E-mailoppervlakte** - een extra controle is toegevoegd aan de montages van de e-mailoppervlakte: als het MX- verslag voor subdomain in het **Reageren aan (e-mail) adres** of in het **BCC e-mailadres** wordt gebruikt niet behoorlijk gevormd, kan de e-mailoppervlakte niet meer worden gecreeerd. U moet het gevormd hebben of een andere gebruiken. [Meer informatie](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 * **E-mail oppervlakte** - in de **URL volgende parameters** sectie van de montages van de e-mailoppervlakte, is de grens voor elk **gebied van de Waarde** bijgewerkt van 255 karakters aan 5 KB voor verenigbaarheid met het volgen van Adobe Analytics. [Meer informatie](../email/email-settings.md#url-tracking)
 
@@ -970,7 +970,7 @@ Note that each widget can be resized and deleted as needed.
 <td>
 <p>Adobe Experience Platform biedt een reeks mogelijkheden voor gegevenshygiëne waarmee u uw opgeslagen gegevens kunt beheren via programmatische verwijderingen van consumentengegevens en gegevenssets. Deze mogelijkheid is nu beschikbaar voor Adobe Journey Optimizer. </p>
 <p>U kunt uw gegevensopslag beheren om ervoor te zorgen dat de informatie wordt gebruikt zoals verwacht, wordt bijgewerkt wanneer onjuiste gegevens het bevestigen vereisen, en wordt geschrapt wanneer het organisatorische beleid het noodzakelijk acht.</p>
-<p><strong> Voorzichtigheid </strong> - de mogelijkheden van de Hygiëne van Gegevens zijn momenteel slechts beschikbaar voor organisaties die het <strong> Schild van de Gezondheidszorg </strong> en <strong> Privacy en het 5&rbrace; toe:voegen-op dienstenaanbod van het Schild van de Veiligheid hebben gekocht.</strong></p><p>Raadpleeg de <a href="../privacy/data-hygiene.md">gedetailleerde documentatie</a> voor meer informatie.
+<p><strong> Voorzichtigheid </strong> - de mogelijkheden van de Hygiëne van Gegevens zijn momenteel slechts beschikbaar voor organisaties die het <strong> Schild van de Gezondheidszorg </strong> en <strong> Privacy en het 5} toe:voegen-op dienstenaanbod van het Schild van de Veiligheid hebben gekocht.</strong></p><p>Raadpleeg de <a href="../privacy/data-hygiene.md">gedetailleerde documentatie</a> voor meer informatie.
 </td>
 </tr>
 </tbody>
@@ -988,7 +988,7 @@ Note that each widget can be resized and deleted as needed.
 <p>U kunt nu zelfstandige inhoudssjablonen maken die u kunt gebruiken voor reizen en campagnes voor snel hergebruik.</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p>Leer hoe te om, inhoudsmalplaatjes in <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=nl-NL"> tot stand te brengen uit te geven en te gebruiken deze video </a>. Raadpleeg de <a href="../content-management/content-templates.md">gedetailleerde documentatie</a> voor meer informatie.
+<p>Leer hoe te om, inhoudsmalplaatjes in <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html"> tot stand te brengen uit te geven en te gebruiken deze video </a>. Raadpleeg de <a href="../content-management/content-templates.md">gedetailleerde documentatie</a> voor meer informatie.
 </p>
 </td>
 </tr>
@@ -999,7 +999,7 @@ Note that each widget can be resized and deleted as needed.
 
 **Reizen**
 
-* Wanneer het toevoegen van een **kwalificatie van het Publiek** of **leest publiek** in een reis, wordt namespace nu pre-gevuld, door gebrek, met laatste gebruikte namespace. Verwijs naar de [&#x200B; kwalificatie van het Publiek &#x200B;](../building-journeys/audience-qualification-events.md#about-segment-qualification) en [&#x200B; gelezen publiek &#x200B;](../building-journeys/read-audience.md#configuring-segment-trigger-activity) secties.
+* Wanneer het toevoegen van een **kwalificatie van het Publiek** of **leest publiek** in een reis, wordt namespace nu pre-gevuld, door gebrek, met laatste gebruikte namespace. Verwijs naar de [ kwalificatie van het Publiek ](../building-journeys/audience-qualification-events.md#about-segment-qualification) en [ gelezen publiek ](../building-journeys/read-audience.md#configuring-segment-trigger-activity) secties.
 
 * Op het reiscanvas is er een nieuwe knop beschikbaar op de werkbalk waarmee u een schermafbeelding van uw reis kunt downloaden.
 
@@ -1009,13 +1009,13 @@ Note that each widget can be resized and deleted as needed.
 
 **Beheer**
 
-* Een nieuwe onderafdeling verstrekt aanbevelingen bij de bouw van het **Antwoord aan (e-mail)** adres en het verzekeren van behoorlijk antwoordbeheer. [Meer informatie](../email/email-settings.md#reply-to-email)
+* Een nieuwe onderafdeling verstrekt aanbevelingen bij de bouw van het **Antwoord aan (e-mail)** adres en het verzekeren van behoorlijk antwoordbeheer. [Meer informatie](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 * Wanneer het creëren van of het uitgeven van **IP pools**, worden de bijbehorende PTR verslagen nu getoond in de IP lijst en wanneer het bedekken van over de geselecteerde IP adressen. [Meer informatie](../configuration/ip-pools.md#create-ip-pool)
 
-* Nadat een IP pool in een kanaalconfiguratie is geselecteerd, is PTR- verslaginformatie nu zichtbaar wanneer het bedekken over de IP adressen. [Meer informatie](../email/email-settings.md#subdomains-and-ip-pools)
+* Nadat een IP pool in een kanaalconfiguratie is geselecteerd, is PTR- verslaginformatie nu zichtbaar wanneer het bedekken over de IP adressen. [Meer informatie](../email/email-settings.md#ip-pools)
 
-* Het gebruikersinterface voor het uitgeven van [&#x200B; PTR verslagen &#x200B;](../configuration/ptr-records.md#edit-ptr-record) en [&#x200B; uitvoeringsgebieden &#x200B;](../configuration/primary-email-addresses.md) is bijgewerkt.
+* Het gebruikersinterface voor het uitgeven van [ PTR verslagen ](../configuration/ptr-records.md#edit-ptr-record) en [ uitvoeringsgebieden ](../configuration/primary-email-addresses.md) is bijgewerkt.
 
 * De gebruikersinterface voor het maken en bewerken van subdomeinen is verbeterd. [Meer informatie](../configuration/delegate-subdomain.md)
 

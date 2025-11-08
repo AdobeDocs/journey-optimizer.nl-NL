@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 8%
@@ -224,7 +224,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 
 **controles van de Controle**
 
-* Met Journey Optimizer kunt u acties identificeren die door gebruikers in het systeem worden uitgevoerd op verschillende services en mogelijkheden, zoals campagnes, reizen, berichten, landingspagina&#39;s, enz. De middelen van het logboek van de controle omvatten nu veranderingen op diverse andere acties, en worden automatisch geregistreerd aangezien de activiteit voorkomt. Leer meer [&#x200B; op deze pagina &#x200B;](../privacy/audit-logs.md).
+* Met Journey Optimizer kunt u acties identificeren die door gebruikers in het systeem worden uitgevoerd op verschillende services en mogelijkheden, zoals campagnes, reizen, berichten, landingspagina&#39;s, enz. De middelen van het logboek van de controle omvatten nu veranderingen op diverse andere acties, en worden automatisch geregistreerd aangezien de activiteit voorkomt. Leer meer [ op deze pagina ](../privacy/audit-logs.md).
 
 **Archiving steun**
 
@@ -309,7 +309,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 
 * De tabel en de grafiek van het beleid voor instemming zijn nu beschikbaar in algemene rapporten van Journey. Met deze widgets kunt u de uitgesloten profielen bijhouden in het beleid in uw aangepaste handelingen. [Meer informatie](../reports/journey-global-report-cja.md#journey-global)
 
-  Als u toegang wilt hebben tot de meest recente widgets, moet u de verschillende rapportdashboards opnieuw instellen. Voor meer informatie over dashboardaanpassing, verwijs naar [&#x200B; de gedetailleerde documentatie &#x200B;](../reports/report-gs-cja.md).
+  Als u toegang wilt hebben tot de meest recente widgets, moet u de verschillende rapportdashboards opnieuw instellen. Voor meer informatie over dashboardaanpassing, verwijs naar [ de gedetailleerde documentatie ](../reports/report-gs-cja.md).
 
 **Beheer**
 
@@ -393,7 +393,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 
 **Reizen**
 
-* **die een reis** beëindigt - in het wegcanvas, is de **Eind** activiteit verwijderd uit het palet. Eindtags worden nu standaard aan het einde van elk pad toegevoegd en kunnen niet worden verwijderd. Dankzij deze verbetering kan beter worden aangegeven waar een klant de reis heeft verlaten, zonder dat de reisdeskundige enige actie hoeft te ondernemen. Verwijs naar de [&#x200B; documentatie &#x200B;](../building-journeys/end-journey.md) en [&#x200B; eigenschapvideo &#x200B;](https://video.tv.adobe.com/v/345376){target="_blank"}.
+* **die een reis** beëindigt - in het wegcanvas, is de **Eind** activiteit verwijderd uit het palet. Eindtags worden nu standaard aan het einde van elk pad toegevoegd en kunnen niet worden verwijderd. Dankzij deze verbetering kan beter worden aangegeven waar een klant de reis heeft verlaten, zonder dat de reisdeskundige enige actie hoeft te ondernemen. Verwijs naar de [ documentatie ](../building-journeys/end-journey.md) en [ eigenschapvideo ](https://video.tv.adobe.com/v/345376){target="_blank"}.
 
 
 * De **de tijdzone van het Profiel** optie is nu ongecontroleerd door gebrek in reiseigenschappen. [Meer informatie](../building-journeys/timezone-management.md#timezone-from-profiles)
@@ -518,7 +518,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 
 **E-mail**
 
-* **sparen als malplaatje** - u kunt een e-mailinhoud nu opslaan als malplaatje en het opnieuw gebruiken wanneer het creëren van andere berichten. [Meer informatie](../content-management/content-templates.md#save-as-template)
+* **sparen als malplaatje** - u kunt een e-mailinhoud nu opslaan als malplaatje en het opnieuw gebruiken wanneer het creëren van andere berichten. [Meer informatie](../content-management/content-templates.md#video-templates)
 
 
 **Beheer**
@@ -617,7 +617,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 **Reizen**
 
 * **gelezen publiek** - Één-schot Gelezen publiekstrajecten nu naar de Eind status 30 dagen na de reis uitvoering. Voor een gepland leespubliek duurt het 30 dagen na de uitvoering van het laatste exemplaar. [Meer informatie](../building-journeys/read-audience.md)
-* **de redacteur van de Uitdrukking** - de [&#x200B; grens &#x200B;](../building-journeys/functions/list-functions.md#limit) functie is toegevoegd om u toe te staan om het aantal punten van een lijst te beperken. De [&#x200B; soort &#x200B;](../building-journeys/functions/list-functions.md#sort) functie staat u nu toe om een lijstvoorwerp te sorteren. De steun van listObject is ook toegevoegd aan [&#x200B; disctinct &#x200B;](../building-journeys/functions/list-functions.md#distinct) en [&#x200B; separatelyWithNull &#x200B;](../building-journeys/functions/list-functions.md#distinctWithNull) functies.
+* **de redacteur van de Uitdrukking** - de [ grens ](../building-journeys/functions/list-functions.md#limit) functie is toegevoegd om u toe te staan om het aantal punten van een lijst te beperken. De [ soort ](../building-journeys/functions/list-functions.md#sort) functie staat u nu toe om een lijstvoorwerp te sorteren. De steun van listObject is ook toegevoegd aan [ disctinct ](../building-journeys/functions/list-functions.md#distinct) en [ separatelyWithNull ](../building-journeys/functions/list-functions.md#distinctWithNull) functies.
 
 **Beheer**
 
@@ -630,7 +630,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 
 **het Bestaan pagina&#39;s**
 
-* **Nieuwe optie voor opt-in/opt-out checkboxes** - u kunt één enkel checkbox voor opt-in/opt-out in abonnement het landen pagina&#39;s nu opnemen. Gebruikers moeten het selectievakje voor toestemming (opt-in) inschakelen en het selectievakje uitschakelen om hun toestemming (opt-out) te verwijderen. [Meer informatie](../landing-pages/design-lp.md#define-lp-specific-content)
+* **Nieuwe optie voor opt-in/opt-out checkboxes** - u kunt één enkel checkbox voor opt-in/opt-out in abonnement het landen pagina&#39;s nu opnemen. Gebruikers moeten het selectievakje voor toestemming (opt-in) inschakelen en het selectievakje uitschakelen om hun toestemming (opt-out) te verwijderen. [Meer informatie](../landing-pages/design-lp.md#design-lp)
 
 * **pre-Vul het landen van pagina&#39;s gebieden** - Het is nu mogelijk om gebruikers de capaciteit te geven om de het landen paginagebieden van tevoren met profielinformatie te vullen. [Meer informatie](../landing-pages/create-lp.md#configure-primary-page)
 
@@ -818,7 +818,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 
 **Reizen**
 
-* De de stapgebeurtenissen van Journey Optimizer kunnen nu met andere datasets in [&#x200B; Adobe Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=nl-NL) worden verbonden. Het **profileID** gebied, in het ingebouwde schema van de Gebeurtenis van de Stap van de Reis, wordt nu bepaald als identiteitsgebied. [Meer informatie](../reports/sharing-overview.md#integration-cja)
+* De de stapgebeurtenissen van Journey Optimizer kunnen nu met andere datasets in [ Adobe Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) worden verbonden. Het **profileID** gebied, in het ingebouwde schema van de Gebeurtenis van de Stap van de Reis, wordt nu bepaald als identiteitsgebied. [Meer informatie](../reports/sharing-overview.md#integration-cja)
 
 **het beheer van het Besluit**
 

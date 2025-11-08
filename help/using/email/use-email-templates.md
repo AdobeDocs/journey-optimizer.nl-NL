@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: e-mail, sjablonen, ontwerpen
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: 5be9ac1f77d7a09089dd8115fd7c9cfa0a3ab0d2
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 1%
@@ -33,13 +33,13 @@ U kunt kiezen uit:
 
 * **Bewaarde malplaatjes**. U kunt ook een aangepaste sjabloon gebruiken die u:
 
-   * Geheel nieuw gemaakt met het menu **[!UICONTROL Content templates]** . [Meer informatie](../content-management/content-templates.md#create-template-from-scratch)
+   * Geheel nieuw gemaakt met het menu **[!UICONTROL Content templates]** . [Meer informatie](../content-management/content-templates.md#content-templates)
 
-   * Opgeslagen via een e-mail tijdens een rit of een campagne met de optie **[!UICONTROL Save as content template]** . [Meer informatie](../content-management/content-templates.md#save-as-template)
+   * Opgeslagen via een e-mail tijdens een rit of een campagne met de optie **[!UICONTROL Save as content template]** . [Meer informatie](../content-management/content-templates.md#video-templates)
 
 Voer de onderstaande stappen uit om uw inhoud te gaan samenstellen met een van de voorbeeldsjablonen of opgeslagen sjablonen.
 
-1. [&#x200B; heb toegang tot de E-mail Designer &#x200B;](get-started-email-design.md) van het e-mailscherm **[!UICONTROL Edit content]**.
+1. [ heb toegang tot de E-mail Designer ](get-started-email-design.md) van het e-mailscherm **[!UICONTROL Edit content]**.
 
 1. In het scherm **[!UICONTROL Create your email]** is de tab **[!UICONTROL Sample templates]** standaard geselecteerd.
 
@@ -47,7 +47,7 @@ Voer de onderstaande stappen uit om uw inhoud te gaan samenstellen met een van d
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. De lijst van alle [&#x200B; inhoudsmalplaatjes &#x200B;](../content-management/content-templates.md#create-content-templates) die op de huidige zandbakvertoningen worden gecreeerd. U kunt ze **[!UICONTROL By name]** , **[!UICONTROL Last modified]** en **[!UICONTROL Last created]** sorteren.
+1. De lijst van alle [ inhoudsmalplaatjes ](../content-management/content-templates.md#content-templates) die op de huidige zandbakvertoningen worden gecreeerd. U kunt ze **[!UICONTROL By name]** , **[!UICONTROL Last modified]** en **[!UICONTROL Last created]** sorteren.
 
    ![](assets/email_designer-saved-templates-filter.png)
 

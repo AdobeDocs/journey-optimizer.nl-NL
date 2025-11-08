@@ -6,7 +6,7 @@ feature: In App
 level: Intermediate
 keywords: in-app, bericht, configuratie, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: aa5577ebbeabea59a2c9bf55f68edd05710d7a03
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 2%
@@ -19,20 +19,20 @@ ht-degree: 2%
 
 Als u in-app-berichten wilt verzenden tijdens reizen en campagnes met [!DNL Journey Optimizer] , moet u de volgende configuratiestappen doorlopen.
 
-1. Zorg ervoor dat u de juiste machtigingen hebt voor Journey Optimizer-campagnes voordat u begint, zelfs als u alleen in-app-berichten tijdens reizen wilt gebruiken. Campagnemachtigingen zijn nog steeds vereist. [Meer informatie](../campaigns/get-started-with-campaigns.md#campaign-prerequisites).
-1. Laat Adobe Journey Optimizer in uw de gegevensstroom van de Inzameling van Gegevens van Adobe Experience Platform toe, en controleer uw standaardsamenvoegbeleid in Adobe Experience Platform, zoals die in de [&#x200B; eerste vereisten van de Levering &#x200B;](#delivery-prerequisites) hieronder worden gedetailleerd.
-1. Creeer een configuratie van het in-app berichtkanaal in Beleid > Kanalen > de configuraties van het Kanaal, zoals die in [&#x200B; wordt gedetailleerd deze sectie &#x200B;](#channel-prerequisites).
-1. Als u inhoudsexperimenten gebruikt, zorg ervoor om de vereisten te volgen die in [&#x200B; worden vermeld deze sectie &#x200B;](#experiment-prerequisite).
+1. Zorg ervoor dat u de juiste machtigingen hebt voor Journey Optimizer-campagnes voordat u begint, zelfs als u alleen in-app-berichten tijdens reizen wilt gebruiken. Campagnemachtigingen zijn nog steeds vereist. [Meer informatie](../campaigns/get-started-with-campaigns.md#prerequisites).
+1. Laat Adobe Journey Optimizer in uw de gegevensstroom van de Inzameling van Gegevens van Adobe Experience Platform toe, en controleer uw standaardsamenvoegbeleid in Adobe Experience Platform, zoals die in de [ eerste vereisten van de Levering ](#delivery-prerequisites) hieronder worden gedetailleerd.
+1. Creeer een configuratie van het in-app berichtkanaal in Beleid > Kanalen > de configuraties van het Kanaal, zoals die in [ wordt gedetailleerd deze sectie ](#channel-prerequisites).
+1. Als u inhoudsexperimenten gebruikt, zorg ervoor om de vereisten te volgen die in [ worden vermeld deze sectie ](#experiment-prerequisite).
 
-Als u klaar bent, kunt u uw eerste In-app-bericht maken, configureren en verzenden. Leer hoe te om dit in [&#x200B; te bereiken deze sectie &#x200B;](create-in-app.md).
+Als u klaar bent, kunt u uw eerste In-app-bericht maken, configureren en verzenden. Leer hoe te om dit in [ te bereiken deze sectie ](create-in-app.md).
 
 ## Leveringsvoorwaarden {#delivery-prerequisites}
 
 Voor de correcte levering van de berichten in de app moeten de volgende instellingen worden gedefinieerd:
 
-* In de [&#x200B; Gegevensverzameling van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=nl-NL){target="_blank"}, zorg ervoor u een gegevensstroom hebt die zoals onder de **[!UICONTROL Adobe Experience Platform]** dienst wordt bepaald u toegelaten Adobe Experience Platform Edge en **[!UICONTROL Adobe Journey Optimizer]** optie hebt.
+* In de [ Gegevensverzameling van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html){target="_blank"}, zorg ervoor u een gegevensstroom hebt die zoals onder de **[!UICONTROL Adobe Experience Platform]** dienst wordt bepaald u toegelaten Adobe Experience Platform Edge en **[!UICONTROL Adobe Journey Optimizer]** optie hebt.
 
-  Dit zorgt ervoor dat de binnenkomende gebeurtenissen van Journey Optimizer correct worden afgehandeld door de Adobe Experience Platform Edge. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=nl-NL){target="_blank"}
+  Dit zorgt ervoor dat de binnenkomende gebeurtenissen van Journey Optimizer correct worden afgehandeld door de Adobe Experience Platform Edge. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
 
 
   >[!NOTE]
@@ -41,9 +41,9 @@ Voor de correcte levering van de berichten in de app moeten de volgende instelli
 
   ![](assets/inapp_config_6.png)
 
-* In [&#x200B; Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}, zorg ervoor u het standaard toegelaten samenvoegbeleid met de **[!UICONTROL Active-On-Edge Merge Policy]** optie hebt. Selecteer hiertoe een beleid in het menu **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=nl-NL#configure){target="_blank"}
+* In [ Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}, zorg ervoor u het standaard toegelaten samenvoegbeleid met de **[!UICONTROL Active-On-Edge Merge Policy]** optie hebt. Selecteer hiertoe een beleid in het menu **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
-  Dit samenvoegbeleid wordt door [!DNL Journey Optimizer] binnenkomende kanalen gebruikt om binnenkomende campagnes op de rand correct te activeren en te publiceren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=nl-NL){target="_blank"}
+  Dit samenvoegbeleid wordt door [!DNL Journey Optimizer] binnenkomende kanalen gebruikt om binnenkomende campagnes op de rand correct te activeren en te publiceren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target="_blank"}
 
   >[!NOTE]
   >
@@ -55,7 +55,7 @@ Voor de correcte levering van de berichten in de app moeten de volgende instelli
 
   Het gebruiken van de **insteekmodule van Edge Delivery** helpt u de inzichten verkrijgen nodig om uw binnenkomende implementaties effectief te begrijpen en problemen op te lossen.
 
-  [&#x200B; leer meer over de mening van Edge Delivery &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}
+  [ leer meer over de mening van Edge Delivery ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}
 
 ## Een configuratie in de app maken {#channel-prerequisites}
 
@@ -71,7 +71,7 @@ Ga als volgt te werk om een configuratie in de app in Journey Optimizer te maken
    >
    > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook onderstrepingsteken `_` -, punt `.` - en afbreekstreepjes `-` gebruiken.
 
-1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [&#x200B; leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) &#x200B;](../administration/object-based-access.md).
+1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md).
 
 1. Selecteer **[!UICONTROL Marketing action]**(s) om het toestemmingsbeleid aan de berichten te associëren gebruikend deze configuratie. Alle toestemmingsbeleid verbonden aan de marketing actie wordt gebruikt om de voorkeur van uw klanten te respecteren. [Meer informatie](../action/consent.md#surface-marketing-actions)
 
@@ -127,9 +127,9 @@ U kunt nu uw configuratie selecteren wanneer u uw In-app-bericht maakt.
 >
 >De dataset wordt gebruikt read-only door het [!DNL Journey Optimizer] rapporteringssysteem en beïnvloedt gegevensinzameling of gegevensopname niet.
 
-Om rapportering voor in-app kanaal toe te laten, moet u ervoor zorgen de [&#x200B; dataset &#x200B;](../data/get-started-datasets.md) die in uw in-app implementatie [&#x200B; wordt gebruikt datastream &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=nl-NL){target="_blank"} ook inbegrepen in uw rapporteringsconfiguratie is. Met andere woorden, als u bij het configureren van rapporten een gegevensset toevoegt die niet aanwezig is in uw toepassingsgegevensstroom, worden toepassingsgegevens niet weergegeven in uw rapporten. Leer hoe te om datasets voor het melden in [&#x200B; toe te voegen deze sectie &#x200B;](../reports/reporting-configuration.md#add-datasets).
+Om rapportering voor in-app kanaal toe te laten, moet u ervoor zorgen de [ dataset ](../data/get-started-datasets.md) die in uw in-app implementatie [ wordt gebruikt datastream ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} ook inbegrepen in uw rapporteringsconfiguratie is. Met andere woorden, als u bij het configureren van rapporten een gegevensset toevoegt die niet aanwezig is in uw toepassingsgegevensstroom, worden toepassingsgegevens niet weergegeven in uw rapporten. Leer hoe te om datasets voor het melden in [ toe te voegen deze sectie ](../reports/reporting-configuration.md#add-datasets).
 
-Als u **niet** gebruikend de volgende vooraf bepaalde [&#x200B; gebiedsgroepen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=nl-NL#field-group){target="_blank"} voor uw datasetschema bent: `AEP Web SDK ExperienceEvent` en `Consumer Experience Event` (zoals bepaald op [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=nl-NL#add-field-groups){target="_blank"}), zorg ervoor om de volgende gebiedsgroepen toe te voegen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, en `Web Details`. Deze zijn nodig door [!DNL Journey Optimizer] -rapporten, omdat ze bijhouden aan welke campagnes en reizen elk profiel deelneemt.
+Als u **niet** gebruikend de volgende vooraf bepaalde [ gebiedsgroepen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"} voor uw datasetschema bent: `AEP Web SDK ExperienceEvent` en `Consumer Experience Event` (zoals bepaald op [ deze pagina ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}), zorg ervoor om de volgende gebiedsgroepen toe te voegen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, en `Web Details`. Deze zijn nodig door [!DNL Journey Optimizer] -rapporten, omdat ze bijhouden aan welke campagnes en reizen elk profiel deelneemt.
 
 [Meer informatie over rapportconfiguratie](../reports/reporting-configuration.md)
 

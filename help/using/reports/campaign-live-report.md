@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '3309'
 ht-degree: 0%
@@ -39,9 +39,9 @@ De pagina Campagne **[!UICONTROL Live report]** wordt weergegeven met de volgend
 >[!AVAILABILITY]
 >Geordende campagnes ondersteunen alleen de SMS-, e-mail- en pushkanalen. Andere kanalen (In-app, Web, Direct mail, enz.) zijn niet beschikbaar in georkestreerde campagnes en verschijnen niet in rapportering.
 
-De campagne **[!UICONTROL Live report]** is verdeeld in verschillende widgets waarin het succes van uw campagne en de fouten worden beschreven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Voor meer informatie over dit, verwijs naar deze [&#x200B; sectie &#x200B;](../reports/live-report.md#modify-dashboard).
+De campagne **[!UICONTROL Live report]** is verdeeld in verschillende widgets waarin het succes van uw campagne en de fouten worden beschreven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Voor meer informatie over dit, verwijs naar deze [ sectie ](../reports/live-report.md#modify-dashboard).
 
-Voor een gedetailleerde lijst van elke metrisch beschikbaar in Adobe Journey Optimizer, verwijs naar [&#x200B; deze pagina &#x200B;](live-report.md#list-of-components-live).
+Voor een gedetailleerde lijst van elke metrisch beschikbaar in Adobe Journey Optimizer, verwijs naar [ deze pagina ](live-report.md#live-report).
 
 ## Tabblad Campagne {#campaign-live}
 
@@ -147,7 +147,7 @@ De tabel **[!UICONTROL Sending metrics by Email]** bevat een uitgebreide samenva
 
 De widgets **[!UICONTROL Bounce reasons]** en **[!UICONTROL Bounce categories]** compileren de beschikbare gegevens van de laatste 24 uur met betrekking tot verzonden berichten, die gedetailleerde inzichten verstrekken in de specifieke redenen en categorieën achter e-mailgrenzen.
 
-Voor meer informatie over grenzen, verwijs naar de [&#x200B; lijst van de Onderdrukking &#x200B;](../reports/suppression-list.md) pagina.
+Voor meer informatie over grenzen, verwijs naar de [ lijst van de Onderdrukking ](../reports/suppression-list.md) pagina.
 
 +++ Meer informatie over e-mail - Bounce-rubrieken en redencijfers
 
@@ -212,7 +212,7 @@ De **[!UICONTROL Error Reasons]** -grafieken en -tabellen verschaffen insight in
 
 De grafieken en tabel van **[!UICONTROL Excluded Reasons]** bieden een uitgebreid perspectief op de verschillende factoren die hebben geleid tot de uitsluiting van gebruikersprofielen van het doelpubliek in de afgelopen 24 uur.
 
-Verwijs naar [&#x200B; deze pagina &#x200B;](exclusion-list.md) voor de uitvoerige lijst van uitsluitingsredenen.
+Verwijs naar [ deze pagina ](exclusion-list.md) voor de uitvoerige lijst van uitsluitingsredenen.
 
 ### E-mail - Beste ontvangende domein {#email-best-recipient}
 
@@ -229,7 +229,7 @@ De grafiek en tabel van **[!UICONTROL Email - Best recipient domain]** bevatten 
 
 >[!NOTE]
 >
->De widgets en cijfers voor aanbiedingen zijn alleen beschikbaar als een beslissing in een e-mail is ingevoegd. Voor meer informatie over het Beheer van het Besluit, verwijs naar deze [&#x200B; pagina &#x200B;](../offers/get-started/starting-offer-decisioning.md).
+>De widgets en cijfers voor aanbiedingen zijn alleen beschikbaar als een beslissing in een e-mail is ingevoegd. Voor meer informatie over het Beheer van het Besluit, verwijs naar deze [ pagina ](../offers/get-started/starting-offer-decisioning.md).
 
 De **[!UICONTROL Offers statistic]** - en **[!UICONTROL Offers statistics over time]** -widgets meten het succes van uw aanbieding en de invloed op uw doelgroep. Het detailleert de belangrijkste informatie met betrekking tot uw bericht met KPIs.
 
@@ -378,7 +378,7 @@ De grafiek van **[!UICONTROL Push notification - Statistics]** biedt een dynamis
 
 In de grafieken en tabel van **[!UICONTROL Excluded Reasons]** ziet u de verschillende redenen waarom gebruikersprofielen, die zijn uitgesloten van de doelprofielen, uw pushberichten niet hebben ontvangen in de laatste 24 uur.
 
-Verwijs naar [&#x200B; deze pagina &#x200B;](exclusion-list.md) voor de uitvoerige lijst van uitsluitingsredenen.
+Verwijs naar [ deze pagina ](exclusion-list.md) voor de uitvoerige lijst van uitsluitingsredenen.
 
 ### Pushmelding - Foutredenen {#push-error}
 
@@ -490,7 +490,7 @@ Met de grafieken en de tabel van **[!UICONTROL Excluded Reasons]** kunt u de spe
 
 In de grafieken en tabel van **[!UICONTROL Excluded Reasons]** worden visueel de verschillende factoren weergegeven die ertoe hebben geleid dat gebruikersprofielen zijn uitgesloten van het doelpubliek, zodat ze in de afgelopen 24 uur geen SMS-berichten meer kunnen ontvangen.
 
-Verwijs naar [&#x200B; deze pagina &#x200B;](exclusion-list.md) voor de uitvoerige lijst van uitsluitingsredenen.
+Verwijs naar [ deze pagina ](exclusion-list.md) voor de uitvoerige lijst van uitsluitingsredenen.
 
 ### SMS - Bounges redenen {#sms-bounces-reasons}
 
@@ -601,7 +601,7 @@ Met de grafieken en tabel van **[!UICONTROL Direct Mail - Error reasons]** kunt 
 
 De grafieken en tabel van **[!UICONTROL Direct Mail - Excluded reasons]** illustreren visueel de verschillende factoren die ertoe hebben geleid dat gebruikersprofielen zijn uitgesloten van het beoogde publiek, zodat ze in de afgelopen 24 uur geen directe-mailberichten meer kunnen ontvangen.
 
-Verwijs naar [&#x200B; deze pagina &#x200B;](exclusion-list.md) voor de uitvoerige lijst van uitsluitingsredenen.
+Verwijs naar [ deze pagina ](exclusion-list.md) voor de uitvoerige lijst van uitsluitingsredenen.
 
 ## Aanvullende bronnen
 

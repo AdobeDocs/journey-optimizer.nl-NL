@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: reis, activiteiten, aan de slag, gebeurtenissen, actie
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 11%
@@ -25,17 +25,17 @@ Combineer de verschillende gebeurtenis-, organisatie- en actieactiviteiten om uw
 
 Persoonlijke reizen worden veroorzaakt door gebeurtenissen, zoals een online aankoop. Als een profiel eenmaal een reis binnengaat, worden deze als individu doorlopen en bewegen geen twee personen zich met dezelfde snelheid of langs hetzelfde pad. Wanneer u uw reis met een gebeurtenis begint, teweegbrengt de reis teweeg wanneer de gebeurtenis wordt ontvangen. Elke persoon op de reis volgt dan, individueel, de volgende stappen die in uw reis worden bepaald.
 
-De gebeurtenissen die door de technische gebruiker worden gevormd (zie [&#x200B; deze pagina &#x200B;](../event/about-events.md)) worden allen getoond in de eerste categorie van het palet, op de linkerkant van het scherm. De volgende gebeurtenisactiviteiten zijn beschikbaar:
+De gebeurtenissen die door de technische gebruiker worden gevormd (zie [ deze pagina ](../event/about-events.md)) worden allen getoond in de eerste categorie van het palet, op de linkerkant van het scherm. De volgende gebeurtenisactiviteiten zijn beschikbaar:
 
 * [Algemene gebeurtenissen](../building-journeys/general-events.md)
 * [Reactie](../building-journeys/reaction-events.md)
 * [Poortkwalificatie](../building-journeys/audience-qualification-events.md)
 
-![&#x200B; de activiteitenpalet van de Gebeurtenis in de reisontwerper &#x200B;](assets/journey43.png)
+![ de activiteitenpalet van de Gebeurtenis in de reisontwerper ](assets/journey43.png)
 
 U start de reis door een gebeurtenisactiviteit te slepen en neer te zetten. U kunt er ook op dubbelklikken.
 
-![&#x200B; belemmering en dalingsgebeurtenisactiviteit in de reisontwerper &#x200B;](assets/journey44.png)
+![ belemmering en dalingsgebeurtenisactiviteit in de reisontwerper ](assets/journey44.png)
 
 ## Orchestratie {#orchestration-activities}
 
@@ -49,7 +49,7 @@ In het palet zijn aan de linkerkant van het scherm de volgende orkestactiviteite
 * [Inhoudsbeslissing](content-decision.md)
 * [Opzoeken gegevensset](dataset-lookup.md)
 
-![&#x200B; de activiteitenpalet van Orchestratie in de reisontwerper &#x200B;](assets/journey-orchestration-activities.png)
+![ de activiteitenpalet van Orchestratie in de reisontwerper ](assets/journey-orchestration-activities.png)
 
 ## Actieactiviteiten {#action-activities}
 
@@ -61,7 +61,7 @@ In het palet, links op het scherm, onder **[!UICONTROL Events]** en **[!UICONTRO
 * [Aangepaste acties](../building-journeys/using-custom-actions.md)
 * [Springen](../building-journeys/jump.md)
 
-![&#x200B; Activiteiten van de Actie palet in de reisontwerper &#x200B;](assets/journey58.png)
+![ Activiteiten van de Actie palet in de reisontwerper ](assets/journey58.png)
 
 Deze activiteiten staan voor de verschillende beschikbare communicatiekanalen. U kunt ze combineren om een scenario voor meerdere kanalen te maken.
 
@@ -81,7 +81,7 @@ U kunt ook specifieke acties instellen om berichten te verzenden:
 
 Met de meeste activiteiten kunt u een **[!UICONTROL Label]** definiëren. Hiermee voegt u een achtervoegsel toe aan de naam die onder uw activiteit op het canvas wordt weergegeven. Dit is handig als u dezelfde activiteit meerdere keren gebruikt en u deze gemakkelijker wilt identificeren. Het maakt het zuiveren ook gemakkelijker in het geval van fouten en maakt rapporten gemakkelijker te lezen. U kunt ook een optionele **[!UICONTROL Description]** toevoegen.
 
-![&#x200B; Etiket en de gebieden van de Beschrijving in de eigenschappen van de reisactiviteit &#x200B;](assets/journey-action-label.png)
+![ Etiket en de gebieden van de Beschrijving in de eigenschappen van de reisactiviteit ](assets/journey-action-label.png)
 
 >[!NOTE]
 >
@@ -91,32 +91,32 @@ Met de meeste activiteiten kunt u een **[!UICONTROL Label]** definiëren. Hierme
 
 De meeste activiteiten geven een aantal geavanceerde en/of technische parameters weer die u niet kunt wijzigen.
 
-![&#x200B; Geavanceerde parametergebieden in de eigenschappen van de reisactiviteit &#x200B;](assets/journey-advanced-parameters.png)
+![ Geavanceerde parametergebieden in de eigenschappen van de reisactiviteit ](assets/journey-advanced-parameters.png)
 
 Verberg deze parameters voor een betere leesbaarheid met de knop **[!UICONTROL Hide read-only fields]** boven in het rechterdeelvenster.
 
-![&#x200B; verberg read-only gebiedspictogram in de eigenschappen van de reisactiviteit &#x200B;](assets/journey-hide-read-only-fields.png)
+![ verberg read-only gebiedspictogram in de eigenschappen van de reisactiviteit ](assets/journey-hide-read-only-fields.png)
 
-In bepaalde situaties kunt u de waarden van deze parameters voor specifiek gebruik overschrijven. Als u een waarde wilt afdwingen, klikt u op het pictogram **[!UICONTROL Enable parameter override]** rechts van het veld. [Meer informatie](../configuration/primary-email-addresses.md#journey-parameters)
+In bepaalde situaties kunt u de waarden van deze parameters voor specifiek gebruik overschrijven. Als u een waarde wilt afdwingen, klikt u op het pictogram **[!UICONTROL Enable parameter override]** rechts van het veld. [Meer informatie](../configuration/primary-email-addresses.md#override-execution-address-journey)
 
-![&#x200B; laat parameteropheffing optie in de eigenschappen van de E-mailactiviteit toe &#x200B;](assets/journey-enable-parameter-override.png)
+![ laat parameteropheffing optie in de eigenschappen van de E-mailactiviteit toe ](assets/journey-enable-parameter-override.png)
 
 >[!NOTE]
 >
 >Klik op de knop **[!UICONTROL Show read-only fields]** als de geavanceerde parameters verborgen zijn
 >
->![&#x200B; toon read-only gebiedenpictogram in de eigenschappen van de reisactiviteit &#x200B;](assets/journey-show-read-only-fields.png){width=60%}
+>![ toon read-only gebiedenpictogram in de eigenschappen van de reisactiviteit ](assets/journey-show-read-only-fields.png){width=60%}
 
 ### Een alternatief pad toevoegen
 
 Wanneer er een fout in een actie of een voorwaarde optreedt, eindigt de journey van een individu. De enige manier om door te gaan is het selectievakje **[!UICONTROL Add an alternative path in case of a timeout or an error]** in te schakelen. Zie [deze sectie](../building-journeys/using-the-journey-designer.md#paths).
 
-![&#x200B; voeg een alternatieve wegoptie in de eigenschappen van de voorwaardenactiviteit &#x200B;](assets/journey42.png) toe
+![ voeg een alternatieve wegoptie in de eigenschappen van de voorwaardenactiviteit ](assets/journey42.png) toe
 
 ## Problemen oplossen {#troubleshooting}
 
 Controleer voordat u uw journey gaat testen en publiceren of alle activiteiten correct zijn geconfigureerd. U kunt geen tests of publicaties uitvoeren als het systeem nog steeds fouten detecteert.
 
-Leer hoe te om fouten in activiteiten en in de reis [&#x200B; op deze pagina &#x200B;](troubleshooting.md) problemen op te lossen.
+Leer hoe te om fouten in activiteiten en in de reis [ op deze pagina ](troubleshooting.md) problemen op te lossen.
 
 Zie ook **[Controle &amp; het oplossen van problemen](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)**.
