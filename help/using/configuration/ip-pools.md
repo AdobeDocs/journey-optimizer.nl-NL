@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, pools, groep, subdomeinen, leverbaarheid
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: a44b68e99ec4c55b8ed27b244fcb9e76bdb97760
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
@@ -62,7 +62,7 @@ Ga als volgt te werk om een IP-pool te maken:
    >
    >Alle IP adressen provisioned met uw instantie zijn beschikbaar in de lijst.
 
-Wanneer het selecteren van IPs, kunt u van de lijst de PTR verslagen zien verbonden aan IPs. Dit staat u toe om de branding informatie voor elk IP te verifiëren wanneer het creëren van een IP pool, en IPs met de zelfde branding informatie bijvoorbeeld te selecteren. [&#x200B; leer meer over PTR verslagen &#x200B;](ptr-records.md)
+Wanneer het selecteren van IPs, kunt u van de lijst de PTR verslagen zien verbonden aan IPs. Dit staat u toe om de branding informatie voor elk IP te verifiëren wanneer het creëren van een IP pool, en IPs met de zelfde branding informatie bijvoorbeeld te selecteren. [ leer meer over PTR verslagen ](ptr-records.md)
 
 ![](assets/ip-pool-ptr-record.png)
 
@@ -74,7 +74,7 @@ Nadat een IP pool is gecreeerd, is de informatie PTR zichtbaar wanneer het hange
 
 ![](assets/ip-pool-ptr-record-tooltip.png)
 
-De IP pool wordt nu gecreeerd en toont in de lijst. U kunt het selecteren om tot zijn eigenschappen toegang te hebben en de bijbehorende kanaalconfiguratie (d.w.z. vooraf ingestelde bericht) te tonen. Voor meer op hoe te om een kanaalconfiguratie met een IP pool te associëren, verwijs naar [&#x200B; deze sectie &#x200B;](channel-surfaces.md).
+De IP pool wordt nu gecreeerd en toont in de lijst. U kunt het selecteren om tot zijn eigenschappen toegang te hebben en de bijbehorende kanaalconfiguratie (d.w.z. vooraf ingestelde bericht) te tonen. Voor meer op hoe te om een kanaalconfiguratie met een IP pool te associëren, verwijs naar [ deze sectie ](channel-surfaces.md).
 
 ## Een IP-pool bewerken {#edit-ip-pool}
 
@@ -96,14 +96,14 @@ Volg onderstaande stappen om een IP-pool te bewerken.
 
 1. Sla uw wijzigingen op.
 
-De update is onmiddellijk of asynchroon, afhankelijk van de IP pool die aan a [&#x200B; kanaalconfiguratie &#x200B;](channel-surfaces.md) of niet wordt geassocieerd:
+De update is onmiddellijk of asynchroon, afhankelijk van de IP pool die aan a [ kanaalconfiguratie ](channel-surfaces.md) of niet wordt geassocieerd:
 
-* Als de IP pool **&#x200B;**&#x200B;niet &lbrace;met om het even welke kanaalconfiguratie wordt geassocieerd, is de update onmiddellijk (**[!UICONTROL Success]** status).
-* Als de IP pool **&#x200B;**&#x200B;met een kanaalconfiguratie wordt geassocieerd, kan de update tot 3 uren (**[!UICONTROL Processing]** status) nemen.
+* Als de IP pool **** niet {met om het even welke kanaalconfiguratie wordt geassocieerd, is de update onmiddellijk (**[!UICONTROL Success]** status).
+* Als de IP pool **** met een kanaalconfiguratie wordt geassocieerd, kan de update tot 3 uren (**[!UICONTROL Processing]** status) nemen.
 
 >[!NOTE]
 >
->Wanneer [&#x200B; creërend een kanaalconfiguratie &#x200B;](channel-surfaces.md#create-channel-surface), als u een IP pool selecteert die onder uitgave (**[!UICONTROL Processing]** status) is en nooit met subdomain is geassocieerd die voor die configuratie wordt geselecteerd, kunt u niet met configuratieverwezenlijking te werk gaan. [Meer informatie](channel-surfaces.md#subdomains-and-ip-pools)
+>Wanneer [ creërend een kanaalconfiguratie ](channel-surfaces.md#create-channel-surface), als u een IP pool selecteert die onder uitgave (**[!UICONTROL Processing]** status) is en nooit met subdomain is geassocieerd die voor die configuratie wordt geselecteerd, kunt u niet met configuratieverwezenlijking te werk gaan. [Meer informatie](channel-surfaces.md#create-channel-surface)
 
 Als u de updatestatus van de IP-pool wilt controleren, klikt u op de knop **[!UICONTROL More actions]** en selecteert u **[!UICONTROL Recent updates]** .
 
