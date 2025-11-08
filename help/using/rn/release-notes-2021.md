@@ -78,15 +78,15 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 </table>
 
 
-Zie ook [ de Nota&#39;s van de Versie van Adobe Experience Platform Oktober ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html){target="_blank"} voor meer veranderingen.
+Zie ook [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform Oktober &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html){target="_blank"} voor meer veranderingen.
 
 ### Verbeteringen
 
 **Reizen**
 
-* **de redacteur van de Uitdrukking** - als machtsgebruiker, kunt u functies nu gebruiken om met kaarten te werken. Deze mogelijkheid kan worden benut met de abonnementenlijsten. Als voorbeeld kunt u vanuit een publiek nu een e-mailadres ophalen uit een abonnementenlijst. [ leer meer in deze steekproef ](../building-journeys/message-to-subscribers-uc.md)
+* **de redacteur van de Uitdrukking** - als machtsgebruiker, kunt u functies nu gebruiken om met kaarten te werken. Deze mogelijkheid kan worden benut met de abonnementenlijsten. Als voorbeeld kunt u vanuit een publiek nu een e-mailadres ophalen uit een abonnementenlijst. [&#x200B; leer meer in deze steekproef &#x200B;](../building-journeys/message-to-subscribers-uc.md)
 
-* **Controle** - De gebeurtenissen van de Stap voor levende reizen en testwijze zijn verbeterd. [ de Nieuwe gebieden ](../reports/sharing-field-list.md#servicevents-field) zijn toegevoegd met betrekking tot de banen van de profieluitvoer. Voor een betere gebruikerservaring zijn de velden voor stapgebeurtenissen nu ingedeeld in verschillende categorieën. Alle vorige gebieden van stapgebeurtenissen zijn nog beschikbaar in de [ stepEvents ](../reports/sharing-legacy-fields.md) categorie.
+* **Controle** - De gebeurtenissen van de Stap voor levende reizen en testwijze zijn verbeterd. [&#x200B; de Nieuwe gebieden &#x200B;](../reports/sharing-field-list.md#servicevents-field) zijn toegevoegd met betrekking tot de banen van de profieluitvoer. Voor een betere gebruikerservaring zijn de velden voor stapgebeurtenissen nu ingedeeld in verschillende categorieën. Alle vorige gebieden van stapgebeurtenissen zijn nog beschikbaar in de [&#x200B; stepEvents &#x200B;](../reports/sharing-legacy-fields.md) categorie.
 * **Toegankelijkheid** - de verhogingen van de Toegankelijkheid zijn uitgevoerd in reizen.
 * **Inzamelingen** - de series van voorwerpen die subvoorwerpen bevatten worden nu gesteund. [Meer informatie](../building-journeys/collections.md)
 * **Lijsten** - de schermen van lijsten zijn verbeterd voor reizen, gebeurtenissen, acties, gegevensbronnen.
@@ -114,7 +114,7 @@ Zie ook [ de Nota&#39;s van de Versie van Adobe Experience Platform Oktober ](ht
 
 * Probleem verholpen waardoor de lijst met reizen, de berichtenlijst en de e-maillijst van Designer niet konden worden weergegeven als de browsertaal niet Engels was.
 * Probleem verholpen met een syntaxisfout die optrad bij het toevoegen van personalisatie met een expressie in de e-mailtoepassing: tekens zijn ten onrechte beschermd.
-* Vaste een kwestie die tot een fout 404 leidde toen het navigeren in het **1} menu van het Beleid.**
+* Vaste een kwestie die tot een fout 404 leidde toen het navigeren in het **1&rbrace; menu van het Beleid.**
 * Probleem verholpen waarbij andere live reizen werden geïnitieerd tijdens het testen van een reis met behulp van een zakelijke gebeurtenis.
 
 
@@ -163,7 +163,7 @@ Zie ook [ de Nota&#39;s van de Versie van Adobe Experience Platform Oktober ](ht
 **Reizen**
 
 * Systeem produceerde schema&#39;s en datasets die tijdens levering voor stapgebeurtenissen zijn gecreeerd zijn nu op read-only wijze, beschermend tegen om het even welke onbedoelde wijzigingen in kritieke schema&#39;s. [Meer informatie](../reports/sharing-overview.md)
-* Cleanly etiketteer **** activiteit met een etiket wachten dat in het canvas zal worden getoond. Het etiket wordt ook gebruikt in rapportering en testwijzelogboeken om duidelijk te identificeren wat u doet. [Meer informatie](../building-journeys/about-journey-activities.md#best-practices)
+* Cleanly etiketteer **&#x200B;**&#x200B;activiteit met een etiket wachten dat in het canvas zal worden getoond. Het etiket wordt ook gebruikt in rapportering en testwijzelogboeken om duidelijk te identificeren wat u doet. [Meer informatie](../building-journeys/about-journey-activities.md#best-practices)
 * Vind uw gebeurtenissen en acties sneller door elementen in de **Gebeurtenissen** en **categorieën van de Actie** te filtreren gebruikend onderzoek. Orchestratie-activiteiten worden niet meer gefilterd. [Meer informatie](../building-journeys/using-the-journey-designer.md)
 * Wanneer u een gebeurtenis-id-voorwaarde definieert in een op regels gebaseerde of zakelijke gebeurtenis, is de operator &quot;contains&quot; nu beschikbaar voor tekenreekstypen velden. [Meer informatie](../event/about-creating.md)
 

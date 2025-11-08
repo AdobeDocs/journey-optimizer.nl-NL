@@ -88,9 +88,9 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 * De maximale tijdsduur die u in een wachttijd kunt definiëren, is nu 29 dagen in plaats van 30. Deze verbetering is ingevoerd om te voorkomen dat wachttijden langer duren dan de 30 dagen durende reisduur. Dit geldt voor:
 
-   * het **Hoeveelheid van Tijd** gebied in [ wacht activiteit ](../building-journeys/wait-activity.md)
-   * de **Ingang wacht periode** in [ reiseigenschappen ](../building-journeys/journey-properties.md#entrance)
-   * **wacht op** gebied in de onderbrekingsdefinitie van [ gebeurtenisactiviteiten ](../building-journeys/general-events.md#events-specific-time).
+   * het **Hoeveelheid van Tijd** gebied in [&#x200B; wacht activiteit &#x200B;](../building-journeys/wait-activity.md)
+   * de **Ingang wacht periode** in [&#x200B; reiseigenschappen &#x200B;](../building-journeys/journey-properties.md#entrance)
+   * **wacht op** gebied in de onderbrekingsdefinitie van [&#x200B; gebeurtenisactiviteiten &#x200B;](../building-journeys/general-events.md#events-specific-time).
 
 <!--
 **Consent in channel configuration**
@@ -204,7 +204,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 * Wanneer u een reis dupliceert, kunt u nu de naam van de reiskopie definiëren. [Meer informatie](../building-journeys/journey-gs.md#duplicate-a-journey)
 
-* Ondersteuning voor aangepaste acties is nu GA. Met deze mogelijkheid kunt u API-oproepreacties gebruiken in aangepaste acties en uw reis ordenen op basis van deze reacties. Bovendien is a [ nieuwe het begrenzen guardrail ](../start/guardrails.md#custom-actions-g) toegevoegd om douaneactievraag automatisch te beperken. [Meer informatie](../action/action-response.md)
+* Ondersteuning voor aangepaste acties is nu GA. Met deze mogelijkheid kunt u API-oproepreacties gebruiken in aangepaste acties en uw reis ordenen op basis van deze reacties. Bovendien is a [&#x200B; nieuwe het begrenzen guardrail &#x200B;](../start/guardrails.md#custom-actions-g) toegevoegd om douaneactievraag automatisch te beperken. [Meer informatie](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
@@ -225,7 +225,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Meldend**
 
-* U kunt nu Journey Optimizer-rapporten exporteren als CSV-bestand. Leer meer in de [ gedetailleerde documentatie ](../reports/report-gs-cja.md).
+* U kunt nu Journey Optimizer-rapporten exporteren als CSV-bestand. Leer meer in de [&#x200B; gedetailleerde documentatie &#x200B;](../reports/report-gs-cja.md).
 
 **Assets**
 
@@ -718,7 +718,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * Het reiscanvas geeft nu de activiteit-id weer op berichtactiviteiten en eindtags. Dit verbetert rapportage en heroriëntering.
 * De indeling van het configuratievenster, dat wordt weergegeven in handelingen, gegevensbronnen, gebeurtenissen en reizen, is verbeterd.
 * Nieuwe insight voor het aantal knooppunten op het canvas met beveiligingen om mee te groeien: maak reizen eenvoudig leesbaar, maak een kwaliteitscontrole en los problemen met een maximumaantal knooppunten per reis op 50. [Meer informatie](../start/guardrails.md#journeys-guardrails-journeys)
-* Wanneer het toevoegen van een [ E-mail ](../email/create-email.md), [ SMS ](../sms/create-sms.md) of [ duw ](../push/create-push.md) actie in een reis, wordt de oppervlakte nu voorgevuld, door gebrek, met de laatste gebruikte oppervlakte voor dat kanaal, in de huidige reis.
+* Wanneer het toevoegen van een [&#x200B; E-mail &#x200B;](../email/create-email.md), [&#x200B; SMS &#x200B;](../sms/create-sms.md) of [&#x200B; duw &#x200B;](../push/create-push.md) actie in een reis, wordt de oppervlakte nu voorgevuld, door gebrek, met de laatste gebruikte oppervlakte voor dat kanaal, in de huidige reis.
 * U kunt nu statische of dynamische queryparameters definiëren in uw aangepaste handelingen. [Meer informatie](../action/about-custom-action-configuration.md#url-configuration)
 
 **Meldend**
@@ -825,7 +825,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 * De functionaliteit van de widget voor rapportage is verbeterd en het is nu mogelijk om aan te passen hoe gebruikers hun gegevens bekijken. Met deze verbetering kunnen gebruikers nu kiezen tussen meerdere visualisatieopties, zoals grafiek, tabel en donutgrafieken.
 
-  Als u toegang wilt hebben tot de meest recente widgets, moet u de verschillende rapportdashboards opnieuw instellen. Voor meer informatie over dashboardaanpassing, verwijs naar de [ gedetailleerde documentatie ](../reports/report-gs-cja.md).
+  Als u toegang wilt hebben tot de meest recente widgets, moet u de verschillende rapportdashboards opnieuw instellen. Voor meer informatie over dashboardaanpassing, verwijs naar de [&#x200B; gedetailleerde documentatie &#x200B;](../reports/report-gs-cja.md).
 
 ## Release van februari &#39;23 {#feb-2023}
 
@@ -970,7 +970,7 @@ Note that each widget can be resized and deleted as needed.
 <td>
 <p>Adobe Experience Platform biedt een reeks mogelijkheden voor gegevenshygiëne waarmee u uw opgeslagen gegevens kunt beheren via programmatische verwijderingen van consumentengegevens en gegevenssets. Deze mogelijkheid is nu beschikbaar voor Adobe Journey Optimizer. </p>
 <p>U kunt uw gegevensopslag beheren om ervoor te zorgen dat de informatie wordt gebruikt zoals verwacht, wordt bijgewerkt wanneer onjuiste gegevens het bevestigen vereisen, en wordt geschrapt wanneer het organisatorische beleid het noodzakelijk acht.</p>
-<p><strong> Voorzichtigheid </strong> - de mogelijkheden van de Hygiëne van Gegevens zijn momenteel slechts beschikbaar voor organisaties die het <strong> Schild van de Gezondheidszorg </strong> en <strong> Privacy en het 5} toe:voegen-op dienstenaanbod van het Schild van de Veiligheid hebben gekocht.</strong></p><p>Raadpleeg de <a href="../privacy/data-hygiene.md">gedetailleerde documentatie</a> voor meer informatie.
+<p><strong> Voorzichtigheid </strong> - de mogelijkheden van de Hygiëne van Gegevens zijn momenteel slechts beschikbaar voor organisaties die het <strong> Schild van de Gezondheidszorg </strong> en <strong> Privacy en het 5&rbrace; toe:voegen-op dienstenaanbod van het Schild van de Veiligheid hebben gekocht.</strong></p><p>Raadpleeg de <a href="../privacy/data-hygiene.md">gedetailleerde documentatie</a> voor meer informatie.
 </td>
 </tr>
 </tbody>
@@ -999,7 +999,7 @@ Note that each widget can be resized and deleted as needed.
 
 **Reizen**
 
-* Wanneer het toevoegen van een **kwalificatie van het Publiek** of **leest publiek** in een reis, wordt namespace nu pre-gevuld, door gebrek, met laatste gebruikte namespace. Verwijs naar de [ kwalificatie van het Publiek ](../building-journeys/audience-qualification-events.md#about-segment-qualification) en [ gelezen publiek ](../building-journeys/read-audience.md#configuring-segment-trigger-activity) secties.
+* Wanneer het toevoegen van een **kwalificatie van het Publiek** of **leest publiek** in een reis, wordt namespace nu pre-gevuld, door gebrek, met laatste gebruikte namespace. Verwijs naar de [&#x200B; kwalificatie van het Publiek &#x200B;](../building-journeys/audience-qualification-events.md#about-segment-qualification) en [&#x200B; gelezen publiek &#x200B;](../building-journeys/read-audience.md#configuring-segment-trigger-activity) secties.
 
 * Op het reiscanvas is er een nieuwe knop beschikbaar op de werkbalk waarmee u een schermafbeelding van uw reis kunt downloaden.
 
@@ -1015,7 +1015,7 @@ Note that each widget can be resized and deleted as needed.
 
 * Nadat een IP pool in een kanaalconfiguratie is geselecteerd, is PTR- verslaginformatie nu zichtbaar wanneer het bedekken over de IP adressen. [Meer informatie](../email/email-settings.md#ip-pools)
 
-* Het gebruikersinterface voor het uitgeven van [ PTR verslagen ](../configuration/ptr-records.md#edit-ptr-record) en [ uitvoeringsgebieden ](../configuration/primary-email-addresses.md) is bijgewerkt.
+* Het gebruikersinterface voor het uitgeven van [&#x200B; PTR verslagen &#x200B;](../configuration/ptr-records.md#edit-ptr-record) en [&#x200B; uitvoeringsgebieden &#x200B;](../configuration/primary-email-addresses.md) is bijgewerkt.
 
 * De gebruikersinterface voor het maken en bewerken van subdomeinen is verbeterd. [Meer informatie](../configuration/delegate-subdomain.md)
 

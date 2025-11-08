@@ -17,14 +17,14 @@ ht-degree: 4%
 
 # Gebruikersinterface {#cjm-user-interface}
 
-Om tot [!DNL Adobe Journey Optimizer] toegang te hebben, verbind met [ Adobe Experience Cloud ](https://experience.adobe.com) met uw Adobe ID, en selecteer [!DNL Journey Optimizer].
+Om tot [!DNL Adobe Journey Optimizer] toegang te hebben, verbind met [&#x200B; Adobe Experience Cloud &#x200B;](https://experience.adobe.com) met uw Adobe ID, en selecteer [!DNL Journey Optimizer].
 
-Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target="_blank"} voor meer details.
+Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Verwijs naar [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target="_blank"} voor meer details.
 
 
 >[!NOTE]
 >
->* De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [ toestemmingen ](../administration/permissions.md) en van uw [ vergunning gevend pakket ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af. Neem voor alle vragen contact op met de Adobe Customer Success Manager of uw Adobe-vertegenwoordiger.
+>* De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [&#x200B; toestemmingen &#x200B;](../administration/permissions.md) en van uw [&#x200B; vergunning gevend pakket &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af. Neem voor alle vragen contact op met de Adobe Customer Success Manager of uw Adobe-vertegenwoordiger.
 >
 >* Deze documentatie wordt vaak bijgewerkt om de laatste wijzigingen in de gebruikersinterface van het product te weerspiegelen. Sommige schermafbeeldingen kunnen echter enigszins afwijken van uw gebruikersinterface.
 >
@@ -93,7 +93,7 @@ Uw gegevens in deze sectie beheren.
 
 * **[!UICONTROL Queries]** - Gebruik Adobe Experience Platform Query Service om query&#39;s te schrijven en uit te voeren, eerder uitgevoerde query&#39;s weer te geven en toegang te krijgen tot query&#39;s die zijn opgeslagen door gebruikers binnen uw organisatie. [Meer informatie](../data/get-started-queries.md)
 
-* **[!UICONTROL Monitoring]** - Gebruik dit menu om de gegevensinvoer in de gebruikersinterface van Adobe Experience Platform te controleren. Leer meer in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html){target="_blank"}
+* **[!UICONTROL Monitoring]** - Gebruik dit menu om de gegevensinvoer in de gebruikersinterface van Adobe Experience Platform te controleren. Leer meer in [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html){target="_blank"}
 
 ### [!UICONTROL CONNECTIONS] {#left-nav-connections}
 
@@ -129,7 +129,7 @@ Beheer uw privacybeheer en verzoeken vanuit deze sectie.
 
 ### [!UICONTROL ADMINISTRATION] {#left-nav-admin}
 
-* **[!UICONTROL Configurations]** - Gebruik dit menu om [ Gebeurtenissen ](../event/about-events.md) te vormen, [ Gegevensbronnen ](../datasource/about-data-sources.md), en [ Acties ](../action/action.md) om in uw reizen te gebruiken.
+* **[!UICONTROL Configurations]** - Gebruik dit menu om [&#x200B; Gebeurtenissen &#x200B;](../event/about-events.md) te vormen, [&#x200B; Gegevensbronnen &#x200B;](../datasource/about-data-sources.md), en [&#x200B; Acties &#x200B;](../action/action.md) om in uw reizen te gebruiken.
 
   U kunt tot de **Rapporterende** sectie ook toegang hebben om rapportering voor campagneexperimentatie en web/mobile te vormen. [Meer informatie](../reports/reporting-configuration.md)
 
@@ -153,7 +153,7 @@ Vanaf de startpagina van [!DNL Adobe Journey Optimizer] bieden productgebruiksge
 
 Beschikbare gebruiksgevallen zijn:
 
-* **creeer testprofielen**, om testprofielen tot stand te brengen die ons malplaatje CSV gebruiken om gepersonaliseerde berichten en reizen te testen. Leer hoe te om dit gebruiksgeval [ op deze pagina ](../audience/creating-test-profiles.md#use-case-1) uit te voeren.
+* **creeer testprofielen**, om testprofielen tot stand te brengen die ons malplaatje CSV gebruiken om gepersonaliseerde berichten en reizen te testen. Leer hoe te om dit gebruiksgeval [&#x200B; op deze pagina &#x200B;](../audience/creating-test-profiles.md#use-case-1) uit te voeren.
 * **verzend een verjaardagsbericht naar klanten**, om automatisch een e-mail te verzenden om uw klanten rond hun verjaardag te wensen. (binnenkort beschikbaar)
 * **verzend e-mails naar aan boord nieuwe klanten**, om tot twee e-mails gemakkelijk te verzenden om uw onlangs geregistreerde klanten welkom te heten. (binnenkort beschikbaar)
 * **verzendt dupberichten naar ingevoerde lijst van klanten**, om een duw bericht aan een lijst van klanten snel te verzenden die van een Csv- dossier wordt ingevoerd. (binnenkort beschikbaar)
@@ -201,7 +201,7 @@ AI Assistant is een gebruikersinterfacefunctie waarmee u door Adobe-concepten ku
 
 Als u de AI-assistent wilt openen, klikt u op het pictogram op de bovenste balk. De AI-assistent wordt rechts in het scherm weergegeven.
 
-Leer hoe te om tot de Medewerker van AI [ op deze pagina ](ai-assistant.md) toegang te hebben en te gebruiken.
+Leer hoe te om tot de Medewerker van AI [&#x200B; op deze pagina &#x200B;](ai-assistant.md) toegang te hebben en te gebruiken.
 
 ## Taalvoorkeuren {#language-pref}
 
@@ -234,7 +234,7 @@ Voer de volgende stappen uit om uw taal te wijzigen:
 
 ## Meer informatie {#more}
 
-Beginnen met [!DNL Journey Optimizer]? Hebt u ervaring met specifieke vragen? Beheerder van uw exemplaar van het bedrijf? [ neem uw eigen weg om aan uw doelstellingen sneller te krijgen ](quick-start.md)!
+Beginnen met [!DNL Journey Optimizer]? Hebt u ervaring met specifieke vragen? Beheerder van uw exemplaar van het bedrijf? [&#x200B; neem uw eigen weg om aan uw doelstellingen sneller te krijgen &#x200B;](quick-start.md)!
 
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
@@ -349,7 +349,7 @@ Beginnen met [!DNL Journey Optimizer]? Hebt u ervaring met specifieke vragen? Be
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings"
 >title="Webhaken inschakelen"
->abstract="Schakel webhaken in om real-time feedback te ontvangen over de uitvoeringsstatus van uw berichten. Alvorens deze optie te activeren, zorg ervoor u een webhaak in het **Beleid** /2} Kanalen **/nl** Feedback Webhaak **menu hebt gevormd.**"
+>abstract="Schakel webhaken in om real-time feedback te ontvangen over de uitvoeringsstatus van uw berichten. Alvorens deze optie te activeren, zorg ervoor u een webhaak in het **Beleid** /2&rbrace; Kanalen **/nl** Feedback Webhaak **menu hebt gevormd.**"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_create"

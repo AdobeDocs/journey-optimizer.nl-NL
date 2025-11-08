@@ -24,11 +24,11 @@ ht-degree: 3%
 
 Er zijn twee manieren om inhoudssjablonen te maken:
 
-* Maak een geheel nieuw inhoudssjabloon met behulp van het menu met de linkerrails **[!UICONTROL Content templates]** . [ leer hoe ](#create-template-from-scratch)
+* Maak een geheel nieuw inhoudssjabloon met behulp van het menu met de linkerrails **[!UICONTROL Content templates]** . [&#x200B; leer hoe &#x200B;](#create-template-from-scratch)
 
-* Wanneer u inhoud ontwerpt binnen een campagne of een reis, slaat u deze op als een sjabloon. [ leer hoe ](#save-as-template)
+* Wanneer u inhoud ontwerpt binnen een campagne of een reis, slaat u deze op als een sjabloon. [&#x200B; leer hoe &#x200B;](#save-as-template)
 
-Nadat u de inhoudssjabloon hebt opgeslagen, kunt u deze gebruiken voor een campagne of een reis. Ongeacht of deze sjabloon geheel of gedeeltelijk op basis van vorige inhoud is gemaakt, u kunt deze sjabloon gebruiken wanneer u inhoud maakt binnen [!DNL Journey Optimizer] . [ leer hoe ](#use-content-templates)
+Nadat u de inhoudssjabloon hebt opgeslagen, kunt u deze gebruiken voor een campagne of een reis. Ongeacht of deze sjabloon geheel of gedeeltelijk op basis van vorige inhoud is gemaakt, u kunt deze sjabloon gebruiken wanneer u inhoud maakt binnen [!DNL Journey Optimizer] . [&#x200B; leer hoe &#x200B;](#use-content-templates)
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ Voer de onderstaande stappen uit om een volledig nieuwe inhoudssjabloon te maken
 
 1. Selecteer of maak Adobe Experience Platform-tags in het veld **[!UICONTROL Tags]** om uw sjabloon te categoriseren voor een verbeterde zoekopdracht. [Meer informatie](../start/search-filter-categorize.md#tags)
 
-1. Selecteer **[!UICONTROL Manage access]** als u aangepaste of basislabels voor gegevensgebruik aan de sjabloon wilt toewijzen. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md).
+1. Selecteer **[!UICONTROL Manage access]** als u aangepaste of basislabels voor gegevensgebruik aan de sjabloon wilt toewijzen. [&#x200B; leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) &#x200B;](../administration/object-based-access.md).
 
 1. Klik op **[!UICONTROL Create]** en ontwerp de inhoud zo nodig op dezelfde manier als voor alle inhoud in een rit of campagne, afhankelijk van het geselecteerde kanaal.
 
@@ -70,14 +70,14 @@ Voer de onderstaande stappen uit om een volledig nieuwe inhoudssjabloon te maken
    * [SMS-inhoud definiëren](../sms/create-sms.md#sms-content)
    * [Inhoud direct mail definiëren](../direct-mail/create-direct-mail.md)
    * [In-app-inhoud definiëren](../in-app/design-in-app.md)
-   * [ bepaal webinhoud ](../web/create-web.md#edit-web-content)
+   * [&#x200B; bepaal webinhoud &#x200B;](../web/create-web.md#edit-web-content)
    * [Op code gebaseerde ervaringsinhoud definiëren](../code-based/create-code-based.md)
 
      >[!NOTE]
      >
      >U kunt besluitvormingsbeleid aan code-gebaseerde malplaatjes van de ervaringsinhoud toevoegen. [Meer informatie](../experience-decisioning/create-decision.md#create-decision)
 
-1. U kunt de inhoud testen. [ leer hoe ](#test-template)
+1. U kunt de inhoud testen. [&#x200B; leer hoe &#x200B;](#test-template)
 
 1. Klik op **[!UICONTROL Save]** als de sjabloon gereed is.
 
@@ -85,7 +85,7 @@ Voer de onderstaande stappen uit om een volledig nieuwe inhoudssjabloon te maken
 
    ![](assets/content-template-back.png)
 
-Deze sjabloon kan nu worden gebruikt wanneer u inhoud maakt binnen [!DNL Journey Optimizer] . [ leer hoe ](#use-content-templates)
+Deze sjabloon kan nu worden gebruikt wanneer u inhoud maakt binnen [!DNL Journey Optimizer] . [&#x200B; leer hoe &#x200B;](#use-content-templates)
 
 >[!NOTE]
 >
@@ -101,7 +101,7 @@ Wanneer u inhoud ontwerpt in een campagne of een reis, kunt u deze opslaan voor 
 
    ![](assets/content-template-button-save.png)
 
-   Als u in [ E-mail Designer ](../email/get-started-email-design.md) bent, kunt u deze optie van de **[!UICONTROL More]** drop-down lijst in de hoger-juiste hoek van het scherm ook selecteren.
+   Als u in [&#x200B; E-mail Designer &#x200B;](../email/get-started-email-design.md) bent, kunt u deze optie van de **[!UICONTROL More]** drop-down lijst in de hoger-juiste hoek van het scherm ook selecteren.
 
    ![](assets/content-template-more-button-save.png)
 
@@ -121,7 +121,7 @@ Wanneer u inhoud ontwerpt in een campagne of een reis, kunt u deze opslaan voor 
 
 1. De sjabloon wordt opgeslagen in de lijst **[!UICONTROL Content Templates]** , die toegankelijk is via het [!DNL Journey Optimizer] toegewezen menu. Het wordt een standalone inhoudsmalplaatje dat kan worden betreden, worden uitgegeven en worden geschrapt zoals om het even welk ander punt op die lijst. [Meer informatie](#access-manage-templates)
 
-U kunt deze sjabloon nu gebruiken wanneer u inhoud maakt binnen [!DNL Journey Optimizer] . [ leer hoe ](#use-content-templates)
+U kunt deze sjabloon nu gebruiken wanneer u inhoud maakt binnen [!DNL Journey Optimizer] . [&#x200B; leer hoe &#x200B;](#use-content-templates)
 
 >[!NOTE]
 >
