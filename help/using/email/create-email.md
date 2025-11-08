@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: maken, e-mail, starten, reizen, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '983'
 ht-degree: 2%
 
 ---
@@ -29,13 +29,13 @@ Als u een e-mail wilt maken in [!DNL Journey Optimizer] , voegt u een **[!UICONT
 
 >[!BEGINTABS]
 
->[!TAB voeg een e-mail aan een reis  toe]
+>[!TAB  voeg een e-mail aan een reis ] toe
 
 1. Open uw reis en sleep vervolgens een **[!UICONTROL Email]** -activiteit vanuit de **[!UICONTROL Actions]** -sectie van het palet.
 
 1. Geef basisinformatie op over je bericht (label, beschrijving, categorie).
 
-1. Kies of creeer de [&#x200B; e-mailconfiguratie &#x200B;](email-settings.md).
+1. Kies of creeer de [ e-mailconfiguratie ](email-settings.md).
 
    ![](assets/email_journey.png)
 
@@ -43,15 +43,15 @@ Als u een e-mail wilt maken in [!DNL Journey Optimizer] , voegt u een **[!UICONT
 
 >[!NOTE]
 >
->Met de optie Send-Time optimalisatie kunt u het beste tijdstip voorspellen waarop u het bericht wilt verzenden om de betrokkenheid te maximaliseren op basis van de historisch geopende bestanden en klikt u op percentages. [&#x200B; Leer hoe te met Optimalisering Send-Time &#x200B;](../building-journeys/send-time-optimization.md) te werken
+>Met de optie Send-Time optimalisatie kunt u het beste tijdstip voorspellen waarop u het bericht wilt verzenden om de betrokkenheid te maximaliseren op basis van de historisch geopende bestanden en klikt u op percentages. [ Leer hoe te met Optimalisering Send-Time ](../building-journeys/send-time-optimization.md) te werken
 
-Voor meer informatie over hoe te om een reis te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../building-journeys/journey-gs.md).
+Voor meer informatie over hoe te om een reis te vormen, verwijs naar [ deze pagina ](../building-journeys/journey-gs.md).
 
 >[!TAB  voeg een e-mail aan een campagne toe ]
 
 1. Maak een nieuwe geplande of door de API geactiveerde campagne en selecteer **[!UICONTROL Email]** als handeling.
 
-1. Voltooi de stappen om een e-mailcampagne, zoals de campagneeigenschappen, [&#x200B; publiek &#x200B;](../audience/about-audiences.md), en [&#x200B; programma &#x200B;](../campaigns/campaign-schedule.md#action-campaign-schedule) tot stand te brengen.
+1. Voltooi de stappen om een e-mailcampagne, zoals de campagneeigenschappen, [ publiek ](../audience/about-audiences.md), en [ programma ](../campaigns/campaign-schedule.md#action-campaign-schedule) tot stand te brengen.
 
    ![](assets/email_campaign_steps.png)
 
@@ -67,7 +67,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 ![](assets/email_campaign_tracking.png)
 -->
 
-Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../campaigns/get-started-with-campaigns.md).
+Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [ deze pagina ](../campaigns/get-started-with-campaigns.md).
 
 >[!ENDTABS]
 
@@ -80,13 +80,15 @@ Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [&#x200
 >title="E-mailinhoud configureren"
 >abstract="Maak de inhoud van uw e-mail. Definieer het onderwerp en gebruik vervolgens de e-mailtoepassing van de Designer om de tekst van de e-mail te maken en aan te passen."
 
+Nadat u de e-mailactie aan uw reis of campagne hebt toegevoegd, moet u de e-mailinhoud definiëren, inclusief de onderwerpregel, de informatie van de afzender en de e-mailinhoud met de e-mailtoepassing Designer. Voer de volgende stappen uit:
+
 1. Klik in het configuratiescherm van de rit of campagne op de knop **[!UICONTROL Edit content]** om de e-mailinhoud te configureren. [Meer informatie](get-started-email-design.md)
 
    ![](assets/email_campaign_edit_content.png)
 
 1. Schakel **[!UICONTROL Enable decisioning]** in als u beleidsregels voor beslissingen in uw e-mail wilt opnemen.
 
-   Beslissingsbeleid is containers voor uw aanbiedingen die de beslissingsengine gebruiken om dynamisch de beste inhoud te retourneren die voor elk publiekslid kan worden geleverd. [&#x200B; Leer hoe te om een besluitvormingsbeleid in e-mail toe te voegen &#x200B;](../experience-decisioning/create-decision.md#create-decision)
+   Beslissingsbeleid is containers voor uw aanbiedingen die de beslissingsengine gebruiken om dynamisch de beste inhoud te retourneren die voor elk publiekslid kan worden geleverd. [ Leer hoe te om een besluitvormingsbeleid in e-mail toe te voegen ](../experience-decisioning/create-decision.md#create-decision)
 
    ![](assets/../../experience-decisioning/assets/decision-policy-enable.png)
 
@@ -94,7 +96,7 @@ Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [&#x200
    >
    >Momenteel is het maken van beleidsbeslissingen in e-mails beschikbaar in Beperkte beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
-1. Controleer in de sectie **[!UICONTROL Header]** de velden **[!UICONTROL From name]** , **[!UICONTROL From email]** en **[!UICONTROL BCC]** . Zij worden gevormd in de e-mailconfiguratie die u selecteerde. [&#x200B; Leer meer &#x200B;](email-settings.md) <!--check if same for journey-->
+1. Controleer in de sectie **[!UICONTROL Header]** de velden **[!UICONTROL From name]** , **[!UICONTROL From email]** en **[!UICONTROL BCC]** . Zij worden gevormd in de e-mailconfiguratie die u selecteerde. [ Leer meer ](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
@@ -132,27 +134,27 @@ Er kunnen twee typen waarschuwingen optreden:
 
 * **de Waarschuwingen** verwijzen naar aanbevelingen en beste praktijken, zoals:
 
-   * **[!UICONTROL The opt-out link is not present in the email body]**: u kunt het beste een koppeling zonder abonnement toevoegen aan uw e-mailadres. Leer hoe te om het in [&#x200B; te vormen deze sectie &#x200B;](../privacy/opt-out.md#opt-out-decision-management).
+   * **[!UICONTROL The opt-out link is not present in the email body]**: u kunt het beste een koppeling zonder abonnement toevoegen aan uw e-mailadres. Leer hoe te om het in [ te vormen deze sectie ](../privacy/opt-out.md#opt-out-decision-management).
 
      >[!NOTE]
      >
-     >E-mailberichten van het type Marketing moeten een opt-out-koppeling bevatten, die niet vereist is voor transactiemeldingen. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt bepaald op het [&#x200B; niveau van de kanaalconfiguratie &#x200B;](email-settings.md#email-type) en wanneer [&#x200B; creërend het bericht &#x200B;](#create-email-journey-campaign) van een reis of een campagne.
+     >E-mailberichten van het type Marketing moeten een opt-out-koppeling bevatten, die niet vereist is voor transactiemeldingen. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt bepaald op het [ niveau van de kanaalconfiguratie ](email-settings.md#email-type) en wanneer [ creërend het bericht ](#create-email-journey-campaign) van een reis of een campagne.
 
-   * **[!UICONTROL Text version of HTML is empty]**: vergeet niet een tekstversie van uw e-mailhoofdtekst te definiëren, omdat deze wordt gebruikt wanneer HTML-inhoud niet kan worden weergegeven. Leer hoe te om de tekstversie in [&#x200B; tot stand te brengen deze sectie &#x200B;](text-version-email.md).
+   * **[!UICONTROL Text version of HTML is empty]**: vergeet niet een tekstversie van uw e-mailhoofdtekst te definiëren, omdat deze wordt gebruikt wanneer HTML-inhoud niet kan worden weergegeven. Leer hoe te om de tekstversie in [ tot stand te brengen deze sectie ](text-version-email.md).
 
-   * **[!UICONTROL Empty link is present in email body]**: controleer of alle koppelingen in uw e-mail correct zijn. Leer hoe te om inhoud en verbindingen in [&#x200B; te beheren deze sectie &#x200B;](content-from-scratch.md).
+   * **[!UICONTROL Empty link is present in email body]**: controleer of alle koppelingen in uw e-mail correct zijn. Leer hoe te om inhoud en verbindingen in [ te beheren deze sectie ](content-from-scratch.md).
 
-   * **[!UICONTROL Email size has exceeded the limit of 100KB]**: zorg ervoor dat uw e-mailadres voor optimale levering niet groter is dan 100 kB. Leer hoe te om e-mailinhoud in [&#x200B; uit te geven deze sectie &#x200B;](content-from-scratch.md).
+   * **[!UICONTROL Email size has exceeded the limit of 100KB]**: zorg ervoor dat uw e-mailadres voor optimale levering niet groter is dan 100 kB. Leer hoe te om e-mailinhoud in [ uit te geven deze sectie ](content-from-scratch.md).
 
 * **de Fouten** verhinderen u de reis/de campagne te testen of te activeren zolang zij niet, zoals worden opgelost:
 
-   * **[!UICONTROL The subject line is missing]**: e-mailonderwerpregel is verplicht. Leer hoe te om het in [&#x200B; te bepalen en te personaliseren deze sectie &#x200B;](create-email.md).
+   * **[!UICONTROL The subject line is missing]**: e-mailonderwerpregel is verplicht. Leer hoe te om het in [ te bepalen en te personaliseren deze sectie ](create-email.md).
 
   <!--HTML is empty when Amp HTML is present-->
 
-   * **[!UICONTROL The email version of the message is empty]**: deze fout wordt weergegeven wanneer de e-mailinhoud niet is geconfigureerd. Leer hoe te om e-mailinhoud in [&#x200B; te ontwerpen deze sectie &#x200B;](get-started-email-design.md).
+   * **[!UICONTROL The email version of the message is empty]**: deze fout wordt weergegeven wanneer de e-mailinhoud niet is geconfigureerd. Leer hoe te om e-mailinhoud in [ te ontwerpen deze sectie ](get-started-email-design.md).
 
-   * **[!UICONTROL configuration doesn't exist]**: u kunt het bericht niet gebruiken als de configuratie die u hebt geselecteerd, wordt verwijderd na het maken van het bericht. Als deze fout voorkomt, selecteer een andere configuratie in het bericht **[!UICONTROL Properties]**. Leer meer over kanaalconfiguraties in [&#x200B; deze sectie &#x200B;](../configuration/channel-surfaces.md).
+   * **[!UICONTROL configuration doesn't exist]**: u kunt het bericht niet gebruiken als de configuratie die u hebt geselecteerd, wordt verwijderd na het maken van het bericht. Als deze fout voorkomt, selecteer een andere configuratie in het bericht **[!UICONTROL Properties]**. Leer meer over kanaalconfiguraties in [ deze sectie ](../configuration/channel-surfaces.md).
 
 >[!CAUTION]
 >
@@ -164,19 +166,19 @@ Zodra de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken o
 
 >[!NOTE]
 >
->Naast testprofielen kunt u met [!DNL Journey optimizer] ook verschillende varianten van de inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [&#x200B; leer hoe te om inhoudvariaties &#x200B;](../test-approve/simulate-sample-input.md) te simuleren
+>Naast testprofielen kunt u met [!DNL Journey optimizer] ook verschillende varianten van de inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [ leer hoe te om inhoudvariaties ](../test-approve/simulate-sample-input.md) te simuleren
 
 Klik hiertoe op **[!UICONTROL Simulate content]** en voeg vervolgens een testprofiel toe om uw bericht te controleren aan de hand van de gegevens van het testprofiel.
 
 ![](assets/email_designer_edit_simulate.png)
 
-De gedetailleerde informatie over hoe te om testprofielen en voorproef uw inhoud te selecteren is beschikbaar in de [&#x200B; sectie van het Beheer van de Inhoud &#x200B;](../content-management/preview-test.md).
+De gedetailleerde informatie over hoe te om testprofielen en voorproef uw inhoud te selecteren is beschikbaar in de [ sectie van het Beheer van de Inhoud ](../content-management/preview-test.md).
 
-Wanneer uw e-mail klaar is, voltooi de configuratie van uw [&#x200B; reis &#x200B;](../building-journeys/journey-gs.md) of [&#x200B; campagne &#x200B;](../campaigns/create-campaign.md), en activeer het om het bericht te verzenden.
+Wanneer uw e-mail klaar is, voltooi de configuratie van uw [ reis ](../building-journeys/journey-gs.md) of [ campagne ](../campaigns/create-campaign.md), en activeer het om het bericht te verzenden.
 
 >[!NOTE]
 >
->Om het gedrag van uw ontvangers door e-mailopeningen en/of interactie te volgen, zorg ervoor dat de specifieke opties in de **[!UICONTROL Tracking]** sectie in de 1&rbrace; e-mailactiviteit van de reis [&#x200B; of in de e-mail &#x200B;](../building-journeys/journeys-message.md) campagne [&#x200B; worden toegelaten.](../campaigns/create-campaign.md)<!--to move?-->
+>Om het gedrag van uw ontvangers door e-mailopeningen en/of interactie te volgen, zorg ervoor dat de specifieke opties in de **[!UICONTROL Tracking]** sectie in de 1} e-mailactiviteit van de reis [ of in de e-mail ](../building-journeys/journeys-message.md) campagne [ worden toegelaten.](../campaigns/create-campaign.md)<!--to move?-->
 
 <!--
 
