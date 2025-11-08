@@ -21,9 +21,9 @@ Gebruik [!DNL Journey Optimizer] om LIJNberichten naar uw klanten op hun LIJN ap
 
 De berichten van de LIJN kunnen in een reis of in een campagne worden gecreeerd en worden verzonden:
 
-* In a **Reis**. Maak een reis, voeg een lijnactiviteit toe en definieer basisinstellingen en blader vervolgens naar het deelvenster **[!UICONTROL Actions: LINE]** rechts om de inhoud voor het lijnbericht te maken. Leer hoe te om een reis in [ tot stand te brengen deze pagina ](../building-journeys/journey-gs.md).
+* In a **Reis**. Maak een reis, voeg een lijnactiviteit toe en definieer basisinstellingen en blader vervolgens naar het deelvenster **[!UICONTROL Actions: LINE]** rechts om de inhoud voor het lijnbericht te maken. Leer hoe te om een reis in [&#x200B; tot stand te brengen deze pagina &#x200B;](../building-journeys/journey-gs.md).
 
-* In a **Campagne**. Maak een campagne, selecteer LIJN als uw actie en definieer basisinstellingen en bewerk vervolgens de berichtinhoud om het lijnbericht te definiëren dat u wilt verzenden. Leer hoe te om [ een actiecampagne ](../campaigns/campaign-action.md#action-campaign-action) te creëren | [ een API-teweeggebrachte campagne ](../campaigns/api-triggered-campaigns.md) | [ een georkestreerde campagne ](../orchestrated/create-orchestrated-campaign.md#create)
+* In a **Campagne**. Maak een campagne, selecteer LIJN als uw actie en definieer basisinstellingen en bewerk vervolgens de berichtinhoud om het lijnbericht te definiëren dat u wilt verzenden. Leer hoe te om [&#x200B; een actiecampagne &#x200B;](../campaigns/campaign-action.md#action-campaign-action) te creëren | [&#x200B; een API-teweeggebrachte campagne &#x200B;](../campaigns/api-triggered-campaigns.md) | [&#x200B; een georkestreerde campagne &#x200B;](../orchestrated/create-orchestrated-campaign.md#create)
 
 Voordat u uw LIJNbericht maakt, configureert u uw LIJNkanaal met Journey Optimizer. [Meer informatie](line-configuration.md).
 

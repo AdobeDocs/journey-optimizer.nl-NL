@@ -27,9 +27,9 @@ Gebruik [!DNL Journey Optimizer] om e-mailberichten naar uw klanten te verzenden
 
 E-mailleveringen kunnen worden gemaakt:
 
-* In a **Weg**: zodra u een **[!UICONTROL Email]** activiteit aan uw reis toevoegde, en bepaalde basismontages, gebruik de **[!UICONTROL Actions: Email]** juiste ruit om de inhoud voor het bericht tot stand te brengen. [ leer hoe te om een reis ](../building-journeys/journey-gs.md) tot stand te brengen
+* In a **Weg**: zodra u een **[!UICONTROL Email]** activiteit aan uw reis toevoegde, en bepaalde basismontages, gebruik de **[!UICONTROL Actions: Email]** juiste ruit om de inhoud voor het bericht tot stand te brengen. [&#x200B; leer hoe te om een reis &#x200B;](../building-journeys/journey-gs.md) tot stand te brengen
 
-* In a **Campagne**: Zodra u een campagne creeerde, selecteer **[!UICONTROL Email]** als uw actie en bepaal basismontages. Leer hoe te om [ een actiecampagne ](../campaigns/campaign-action.md#action-campaign-action) te creëren | [ een API-teweeggebrachte campagne ](../campaigns/api-triggered-campaigns.md) | [ een georkestreerde campagne ](../orchestrated/create-orchestrated-campaign.md#create)
+* In a **Campagne**: Zodra u een campagne creeerde, selecteer **[!UICONTROL Email]** als uw actie en bepaal basismontages. Leer hoe te om [&#x200B; een actiecampagne &#x200B;](../campaigns/campaign-action.md#action-campaign-action) te creëren | [&#x200B; een API-teweeggebrachte campagne &#x200B;](../campaigns/api-triggered-campaigns.md) | [&#x200B; een georkestreerde campagne &#x200B;](../orchestrated/create-orchestrated-campaign.md#create)
 
 
 >[!IMPORTANT]
@@ -117,4 +117,4 @@ E-mailleveringen kunnen worden gemaakt:
 * **[E-mailconfiguratie](get-started-email-config.md)** - begrijp hoe te om e-mailmontages met inbegrip van e-mailoppervlakken, subdomeinen, en IP pools te vormen.
 * **[Verpersoonlijking E-mail en het stileren](get-started-email-style.md)** - Hoofd het stileren technieken met inbegrip van douane CSS, groepering, het opvullen, en donkere wijzessteun.
 * **[Spoor en controleer e-mails](message-tracking.md)** - Leer hoe te om bericht te volgen opent, klikt, en URL het volgen voor prestatiesanalyse beheert.
-* **[e-mailkanaalzelfstudies ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op e-maileigenschappen en beste praktijken.
+* **[e-mailkanaalzelfstudies &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op e-maileigenschappen en beste praktijken.
