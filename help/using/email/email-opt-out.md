@@ -34,7 +34,7 @@ Als u een koppeling zonder abonnement wilt invoegen in uw e-mailinhoud, kunt u:
 
 Wanneer een ontvanger op de opt-out-koppeling klikt, wordt het afwijzingsverzoek van de ontvanger dienovereenkomstig verwerkt.
 
-Om te controleren dat de overeenkomstige keus van het profiel is bijgewerkt, ga naar Experience Platform en [&#x200B; doorblader aan dat profiel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes-tab). Op het tabblad **[!UICONTROL Attributes]** ziet u de waarde voor **[!UICONTROL choice]** is gewijzigd in **[!UICONTROL no]** . Leer meer in de [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
+Om te controleren dat de overeenkomstige keus van het profiel is bijgewerkt, ga naar Experience Platform en [&#x200B; doorblader aan dat profiel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/ui/user-guide#attributes-tab). Op het tabblad **[!UICONTROL Attributes]** ziet u de waarde voor **[!UICONTROL choice]** is gewijzigd in **[!UICONTROL no]** . Leer meer in de [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
 
 ![](assets/opt-out-profile-choice.png)
 

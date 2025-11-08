@@ -120,7 +120,7 @@ Leer meer over reisrapporten in deze [&#x200B; sectie &#x200B;](../reports/live-
 * **[het Publiceren reizen](publish-journey.md)** - begrijp het proces van de reispublicatie en hoe te om levende reizen te beheren.
 * **[Reis die](report-journey.md)** meldt - spoor en analyseert reisprestaties met gedetailleerde metriek en inzichten.
 * **[reizen van het Oplossen van problemen](troubleshooting.md)** - vind oplossingen aan gemeenschappelijke reiskwesties en beste praktijken voor het zuiveren.
-* **[leerprogramma&#39;s van de Reis &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op het wegbouw en beste praktijken.
+* **[leerprogramma&#39;s van de Reis &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op het wegbouw en beste praktijken.
 
 >[!NOTE]
 >
