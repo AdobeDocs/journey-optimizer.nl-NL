@@ -201,7 +201,7 @@ Wanneer u deze reis hervat:
 
 ## Problemen met het verwijderen van profielen tijdens gepauzeerde reizen oplossen {#discards-troubleshoot}
 
-U kunt de [&#x200B; Dienst van de Vraag van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} gebruiken om gebeurtenissen van de vraagstap te vragen, die meer informatie over profielverwerping, afhankelijk van kunnen verstrekken wanneer zij voorkwamen.
+U kunt de [&#x200B; Dienst van de Vraag van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=nl-NL){target="_blank"} gebruiken om gebeurtenissen van de vraagstap te vragen, die meer informatie over profielverwerping, afhankelijk van kunnen verstrekken wanneer zij voorkwamen.
 
 * Gebruik de volgende code voor teruggooi die plaatsvindt voordat het profiel de reis binnengaat:
 
