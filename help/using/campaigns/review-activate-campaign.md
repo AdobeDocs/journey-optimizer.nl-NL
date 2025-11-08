@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: campagne, revisie, validatie, activering, activering, optimaliseren
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 3%
@@ -39,9 +39,9 @@ Zodra uw campagne van de Actie is gevormd, moet u zijn parameter en inhoud herzi
 
 1. De campagne wordt geactiveerd. De status is **[!UICONTROL Live]** of **[!UICONTROL Scheduled]** als u een begindatum hebt ingevoerd. Het bericht dat in de campagne wordt gevormd wordt verzonden onmiddellijk of op de gespecificeerde datum.
 
-   De **[!UICONTROL Completed]** -status wordt automatisch toegewezen aan de campagne drie dagen nadat deze is geactiveerd of op de einddatum van de campagne als deze een terugkerende uitvoering heeft. [&#x200B; leer meer over campagnestatussen &#x200B;](get-started-with-campaigns.md#statuses).
+   De **[!UICONTROL Completed]** -status wordt automatisch toegewezen aan de campagne drie dagen nadat deze is geactiveerd of op de einddatum van de campagne als deze een terugkerende uitvoering heeft. [ leer meer over campagnestatussen ](manage-campaigns.md#statuses).
 
-   Als er geen einddatum is opgegeven, behoudt de campagne de status **[!UICONTROL Live]** . Als u deze wilt wijzigen, moet u de campagne handmatig stoppen. [&#x200B; Leer hoe te om een campagne &#x200B;](manage-campaigns.md) tegen te houden
+   Als er geen einddatum is opgegeven, behoudt de campagne de status **[!UICONTROL Live]** . Als u deze wilt wijzigen, moet u de campagne handmatig stoppen. [ Leer hoe te om een campagne ](manage-campaigns.md) tegen te houden
 
 1. Nadat een campagne is geactiveerd, kunt u op elk gewenst moment de informatie controleren door deze te openen. Met dit overzicht kunt u statistieken opvragen over het aantal doelprofielen en geleverde en mislukte acties.
 

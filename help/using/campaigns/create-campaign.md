@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 2%
@@ -34,13 +34,13 @@ De campagnes van de actie (of Geplande campagnes) staan voor eenvoudige ad hoc p
 
 >[!NOTE]
 >
->Voor meer informatie over de gesteunde kanalen, verwijs naar de lijst in deze sectie: [&#x200B; Kanalen in reizen &amp; campagnes &#x200B;](../channels/gs-channels.md#channels).
+>Voor meer informatie over de gesteunde kanalen, verwijs naar de lijst in deze sectie: [ Kanalen in reizen &amp; campagnes ](../channels/gs-channels.md#channels).
 >
 >Welke kanalen beschikbaar zijn, is afhankelijk van uw licentiemodel en invoegtoepassingen.
 
 ## Belangrijkste stappen voor het maken van handelscampagnes {#steps}
 
-Alvorens met campagnes te beginnen, controleer de volgende eerste vereisten die [&#x200B; in deze sectie &#x200B;](get-started-with-campaigns.md#permissions) worden vermeld. Als aan deze voorwaarden is voldaan, kunt u uw campagne starten:
+Alvorens met campagnes te beginnen, controleer de volgende eerste vereisten die [ in deze sectie ](get-started-with-campaigns.md#prerequisites) worden vermeld. Als aan deze voorwaarden is voldaan, kunt u uw campagne starten:
 
 1. [De campagneeigenschappen voor Actie definiëren](campaign-properties.md)
 1. [Campagne configureren](campaign-action.md)

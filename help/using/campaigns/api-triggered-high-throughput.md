@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
-source-git-commit: 4521990a02092365f996a81299ada55433639fb7
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 0%
@@ -30,12 +30,12 @@ Op deze pagina wordt uitgelegd hoe campagnes met hoge doorvoer verschillen van s
 
 * **Personalization**:
 
-   * Al verpersoonlijking moet in de API nuttige lading als **contextafhankelijke gegevens** worden omvat. [&#x200B; Leer hoe te om inhoud te personaliseren gebruikend contextuele gegevens &#x200B;](../campaigns/api-triggered-campaign-action.md#contextual)
+   * Al verpersoonlijking moet in de API nuttige lading als **contextafhankelijke gegevens** worden omvat. [ Leer hoe te om inhoud te personaliseren gebruikend contextuele gegevens ](../campaigns/api-triggered-campaign-content.md#contextual)
    * Aanpassing op basis van profielen wordt niet ondersteund. Als profielvariabelen worden gebruikt, treden validatiefouten op.
 
-* **Gepersonaliseerde kanaalconfiguraties** - de configuraties van het Kanaal die [&#x200B; op profiel-gebaseerde verpersoonlijking &#x200B;](../email/surface-personalization.md) gebruiken kunnen niet met hoge productiecampagnes worden gebruikt. U kunt alleen oppervlakken gebruiken zonder profielpersonalisatie.
+* **Gepersonaliseerde kanaalconfiguraties** - de configuraties van het Kanaal die [ op profiel-gebaseerde verpersoonlijking ](../email/surface-personalization.md) gebruiken kunnen niet met hoge productiecampagnes worden gebruikt. U kunt alleen oppervlakken gebruiken zonder profielpersonalisatie.
 
-* **API eindpunt** - de Hoge campagnes van de Output gebruiken een verschillend eindpunt dan standaardAPI getriggerde campagnes. Voor details, zie [&#x200B; een API teweeggebrachte campagne &#x200B;](../campaigns/trigger-campaigns.md#trigger) uitvoeren.
+* **API eindpunt** - de Hoge campagnes van de Output gebruiken een verschillend eindpunt dan standaardAPI getriggerde campagnes. Voor details, zie [ een API teweeggebrachte campagne ](../campaigns/trigger-campaigns.md#trigger) uitvoeren.
 
 * **de exclusiviteit van de Campagne** - de Hoge productie campagnes gebruiken geen Profielen van Adobe. Berichten worden geleverd ongeacht of er een profiel bestaat.
 
@@ -69,7 +69,7 @@ Gebruik deze tabel om te bepalen welk type API-activering van het campagneretype
 Met andere woorden:
 
 * Kies **Standaard API getriggerde** campagnes als:
-   * U hebt geen hoge doorvoerinstelling.
+   * Je hebt geen hoge doorvoerbekabeling.
    * Uw doorvoer is &lt;500 TPS.
    * U hebt personalisatie op basis van Adobe-profielen nodig.
    * U wilt campagnegegevens aan profielen voor toekomstige richten vastmaken.
@@ -85,8 +85,8 @@ Met andere woorden:
 
 Volg de volgende richtlijnen om campagnes met hoge doorvoer correct te configureren:
 
-1. Creeer een nieuwe IP pool. [&#x200B; Leer hoe te om IP tot stand te brengen pools &#x200B;](../configuration/ip-pools.md)
-1. Maak een nieuwe kanaalconfiguratie. [&#x200B; leer hoe te de configuraties van het opstellingskanaal &#x200B;](../configuration/channel-surfaces.md)
+1. Creeer een nieuwe IP pool. [ Leer hoe te om IP tot stand te brengen pools ](../configuration/ip-pools.md)
+1. Maak een nieuwe kanaalconfiguratie. [ leer hoe te de configuraties van het opstellingskanaal ](../configuration/channel-surfaces.md)
 1. Neem contact op met de klantenservice van Adobe om te vragen dat het geactiveerde oppervlak wordt toegewezen aan de functie voor hoge doorvoer. Geef de kanaalconfiguratie en IP-groepsgegevens op, samen met uw organisatie-id.
 
 >[!IMPORTANT]

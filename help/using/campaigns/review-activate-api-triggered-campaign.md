@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
 exl-id: 561f1215-d13d-4ffc-b6f1-396ae67774c8
-source-git-commit: d3570e2c3d6340deaba8ca0f342161ab43ad1c43
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 4%
@@ -38,9 +38,9 @@ Zodra uw API teweeggebrachte campagne is gevormd, moet u zijn parameter en inhou
 
 1. De campagne wordt geactiveerd. De status is **[!UICONTROL Live]** of **[!UICONTROL Scheduled]** als u een begindatum hebt ingevoerd.
 
-   De **[!UICONTROL Completed]** -status wordt automatisch toegewezen aan de campagne drie dagen nadat deze is geactiveerd of op de einddatum van de campagne als deze een terugkerende uitvoering heeft. [&#x200B; leer meer over campagnestatussen &#x200B;](get-started-with-campaigns.md#statuses).
+   De **[!UICONTROL Completed]** -status wordt automatisch toegewezen aan de campagne drie dagen nadat deze is geactiveerd of op de einddatum van de campagne als deze een terugkerende uitvoering heeft. [ leer meer over campagnestatussen ](manage-campaigns.md#statuses).
 
-   Als er geen einddatum is opgegeven, behoudt de campagne de status **[!UICONTROL Live]** . Als u deze wilt wijzigen, moet u de campagne handmatig stoppen. [&#x200B; Leer hoe te om een campagne &#x200B;](manage-campaigns.md) tegen te houden
+   Als er geen einddatum is opgegeven, behoudt de campagne de status **[!UICONTROL Live]** . Als u deze wilt wijzigen, moet u de campagne handmatig stoppen. [ Leer hoe te om een campagne ](manage-campaigns.md) tegen te houden
 
 1. Nadat een campagne is geactiveerd, kunt u op elk gewenst moment de informatie controleren door deze te openen. Met dit overzicht kunt u statistieken opvragen over het aantal doelprofielen en geleverde en mislukte acties.
 
