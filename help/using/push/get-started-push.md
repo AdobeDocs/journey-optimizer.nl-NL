@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '328'
 ht-degree: 1%
 
 ---
@@ -27,9 +27,9 @@ Met pushberichten bereikt u op elk gewenst moment gebruikers van uw mobiele app,
 
 U kunt pushmeldingen maken:
 
-* In a **Weg**: Zodra u een activiteit van de Duw in uw reis toevoegde, en bepaalde basismontages, gebruik de **[!UICONTROL Actions: Push]** juiste ruit om de inhoud voor de Duw berichten tot stand te brengen. [&#x200B; leer hoe te om een reis &#x200B;](../building-journeys/journey-gs.md) tot stand te brengen
+* In a **Weg**: Zodra u een activiteit van de Duw in uw reis toevoegde, en bepaalde basismontages, gebruik de **[!UICONTROL Actions: Push]** juiste ruit om de inhoud voor de Duw berichten tot stand te brengen. [ leer hoe te om een reis ](../building-journeys/journey-gs.md) tot stand te brengen
 
-* In a **Campagne**: Zodra u een campagne creeerde, uitgezocht duw bericht als uw actie en bepaalt basismontages. [&#x200B; Leer hoe te om een campagne &#x200B;](../campaigns/create-campaign.md#configure) tot stand te brengen
+* In a **Campagne**: Zodra u een campagne creeerde, uitgezocht duw bericht als uw actie en bepaalt basismontages. Leer hoe te om [ een actiecampagne ](../campaigns/campaign-action.md#action-campaign-action) te creëren | [ een API-teweeggebrachte campagne ](../campaigns/api-triggered-campaigns.md) | [ een georkestreerde campagne ](../orchestrated/create-orchestrated-campaign.md#create)
 
 Gebruik de specifieke lusjes om de montages van het duw- bericht voor **iOS** en **Android** werkende systemen te bepalen.
 
