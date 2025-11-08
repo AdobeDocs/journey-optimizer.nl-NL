@@ -266,4 +266,4 @@ Wanneer een webreis of campagne live is, kunt u deze stoppen om te voorkomen dat
 
 In de onderstaande video ziet u hoe u een webcampagne kunt maken, de eigenschappen ervan kunt configureren, beoordelen en publiceren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3449987/?captions=dut&quality=12&learn=on)
