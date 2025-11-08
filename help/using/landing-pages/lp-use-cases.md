@@ -98,7 +98,7 @@ Om uw ontvangers in staat te stellen zich af te melden voor uw communicatie, kun
 
 ### Uitschakelen, beheer {#opt-out-management}
 
-Het is een wettelijke vereiste dat ontvangers de mogelijkheid krijgen om zich niet meer te abonneren op het ontvangen van communicatie van een merk. Leer meer over de toepasselijke wetgeving in de [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target="_blank"}.
+Het is een wettelijke vereiste dat ontvangers de mogelijkheid krijgen om zich niet meer te abonneren op het ontvangen van communicatie van een merk. Leer meer over de toepasselijke wetgeving in de [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=nl-NL#regulations){target="_blank"}.
 
 Daarom moet u altijd een **unsubscribe verbinding** in elke e-mail omvatten die naar ontvangers wordt verzonden:
 
@@ -153,7 +153,7 @@ Volg onderstaande stappen om de ontvangers van een e-mail in staat te stellen zi
 
    * De profielgegevens worden bijgewerkt en zullen geen mededelingen van uw merk tenzij opnieuw geabonneerd ontvangen.
 
-Als u wilt controleren of de keuze van het corresponderende profiel is bijgewerkt, gaat u naar Experience Platform en opent u het profiel door een naamruimte voor identiteit en een bijbehorende identiteitswaarde te selecteren. Leer meer in de [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}.
+Als u wilt controleren of de keuze van het corresponderende profiel is bijgewerkt, gaat u naar Experience Platform en opent u het profiel door een naamruimte voor identiteit en een bijbehorende identiteitswaarde te selecteren. Leer meer in de [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=nl-NL#getting-started){target="_blank"}.
 
 ![](assets/lp_opt-out-profile-choice.png)
 
@@ -163,7 +163,7 @@ De opt-out informatie wordt opgeslagen in de **Dataset van de Dienst van de Goed
 
 >[!NOTE]
 >
->Als de fusiemethode voor uw standaard [&#x200B; Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"} **[!UICONTROL Profiles]** samenvoegbeleid **[!UICONTROL Dataset Precedence]** is, zorg ervoor om **[!UICONTROL AJO Consent Service Dataset]** toe te laten en aan het in het fusiebeleid voorrang te geven. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
+>Als de fusiemethode voor uw standaard [&#x200B; Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"} **[!UICONTROL Profiles]** samenvoegbeleid **[!UICONTROL Dataset Precedence]** is, zorg ervoor om **[!UICONTROL AJO Consent Service Dataset]** toe te laten en aan het in het fusiebeleid voorrang te geven. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=nl-NL#dataset-precedence-profile){target="_blank"}
 >
 >Zelfs als er geen batches aan deze gegevensset zijn toegevoegd, zal deze nog steeds de informatie over opt-in/opt-out bevatten.
 
