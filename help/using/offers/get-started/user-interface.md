@@ -25,7 +25,7 @@ Gebruik het menu **[!UICONTROL Offers]** om uw aanbiedingen te beheren en te lev
 ![](../assets/offers_menu.png)
 
 * **[!UICONTROL Overview]**: Nieuw bij [!DNL decision management] ? Volg de stappen op het scherm om aan de slag te gaan met het instellen van plaatsingen, aanbiedingen en verzamelingen. Als u [!DNL decision management] al kent, krijgt u een overzicht van de meest recente aanbiedingen, verzamelingen en beslissingen. [Meer informatie](#overview)
-* **[!UICONTROL Offers]**: Maak en open uw gepersonaliseerde en fallback-aanbiedingen. Leer hoe te om [ aanbiedingen ](../offer-library/creating-personalized-offers.md) te creëren en [ fallback aanbiedingen ](../offer-library/creating-fallback-offers.md)
+* **[!UICONTROL Offers]**: Maak en open uw gepersonaliseerde en fallback-aanbiedingen. Leer hoe te om [&#x200B; aanbiedingen &#x200B;](../offer-library/creating-personalized-offers.md) te creëren en [&#x200B; fallback aanbiedingen &#x200B;](../offer-library/creating-fallback-offers.md)
 * **[!UICONTROL Collections]**: organiseer uw aanbiedingen in statische en dynamische verzamelingen. [Meer informatie](../offer-library/creating-collections.md)
 * **[!UICONTROL Decisions]**: maak en beheer beslissingen om uw voorstellen te leveren. [Meer informatie](../offer-activities/create-offer-activities.md)
 * **[!UICONTROL Batch decisioning]**: bied beslissingen aan voor alle profielen in een bepaald Adobe Experience Platform-publiek. [Meer informatie](../batch-delivery.md)
@@ -42,7 +42,7 @@ Gebruik het menu **[!UICONTROL Components]** om componenten te maken en te beher
 
 >[!NOTE]
 >
->Als u problemen ondervindt bij het benaderen van het beslissingsbeheer of een aantal van de functies ervan, kunt u contact opnemen met een Admin-gebruiker om te controleren of u de vereiste rechten hebt. Zie [ toegang van de Verlening tot het Beheer van het Besluit ](starting-offer-decisioning.md#granting-acess-to-decision-management).
+>Als u problemen ondervindt bij het benaderen van het beslissingsbeheer of een aantal van de functies ervan, kunt u contact opnemen met een Admin-gebruiker om te controleren of u de vereiste rechten hebt. Zie [&#x200B; toegang van de Verlening tot het Beheer van het Besluit &#x200B;](starting-offer-decisioning.md#granting-acess-to-decision-management).
 
 ## Overzicht {#overview}
 
@@ -50,7 +50,7 @@ Als u [!DNL decision management] nog niet eerder hebt gebruikt, begeleidt het ta
 
 >[!NOTE]
 >
->De belangrijkste stappen om aanbiedingen tot stand te brengen en hen in een besluit te gebruiken worden voorgesteld in [ deze sectie ](../offer-library/key-steps.md).
+>De belangrijkste stappen om aanbiedingen tot stand te brengen en hen in een besluit te gebruiken worden voorgesteld in [&#x200B; deze sectie &#x200B;](../offer-library/key-steps.md).
 
 Wanneer u vertrouwd bent met [!DNL decision management] en u al minstens één aanbiedingsbesluit hebt gemaakt, geeft het tabblad **[!UICONTROL Overview]** uw meest recente aanbiedingen, verzamelingen en beslissingen weer.
 
@@ -90,4 +90,4 @@ U kunt ook een bestaande aanbieding of beslissing dupliceren om een kopie met de
 
 ## Aanbiedingen en besluiten veranderen logboeken {#changes-logs}
 
-Met [!DNL Journey Optimizer] kunt u alle wijzigingen visualiseren die in een aanbieding of beslissing zijn aangebracht. U doet dit door het menu **[!UICONTROL Audits]** te openen vanuit het linkermenu. [ Leer hoe te om acties op middelen ](../../privacy/audit-logs.md) te controleren
+Met [!DNL Journey Optimizer] kunt u alle wijzigingen visualiseren die in een aanbieding of beslissing zijn aangebracht. U doet dit door het menu **[!UICONTROL Audits]** te openen vanuit het linkermenu. [&#x200B; Leer hoe te om acties op middelen &#x200B;](../../privacy/audit-logs.md) te controleren

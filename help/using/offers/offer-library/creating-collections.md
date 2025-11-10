@@ -66,7 +66,7 @@ Ga als volgt te werk om een verzameling te maken:
 
 1. Als u een dynamische verzameling wilt maken, selecteert u in het linkerdeelvenster de verzamelingskwalificatie van de aanbiedingen die u aan de verzameling wilt toevoegen en klikt u op **[!UICONTROL Save]** . Alle aanbiedingen met de geselecteerde inzamelingskwalificatie zullen in de inzameling worden bewaard.
 
-   Voor meer op de verwezenlijking van inzamelingsbepalers, zie [ inzamelingsbepalende eigenschappen ](../offer-library/creating-tags.md) creëren.
+   Voor meer op de verwezenlijking van inzamelingsbepalers, zie [&#x200B; inzamelingsbepalende eigenschappen &#x200B;](../offer-library/creating-tags.md) creëren.
 
    ![](../assets/dynamic_collection.png)
 
@@ -78,7 +78,7 @@ Ga als volgt te werk om een verzameling te maken:
    >
    >Statische verzamelingen worden niet automatisch bijgewerkt. Om aanbiedingen aan een statische inzameling toe te voegen, moet u het uitgeven en hen manueel toevoegen.
 
-1. Selecteer **[!UICONTROL Manage access]** als u aangepaste of basislabels voor gegevensgebruik wilt toewijzen aan een statische verzameling. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../../administration/object-based-access.md)
+1. Selecteer **[!UICONTROL Manage access]** als u aangepaste of basislabels voor gegevensgebruik wilt toewijzen aan een statische verzameling. [&#x200B; leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) &#x200B;](../../administration/object-based-access.md)
 
    >[!NOTE]
    >

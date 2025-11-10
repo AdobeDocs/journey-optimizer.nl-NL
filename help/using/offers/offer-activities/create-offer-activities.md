@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Besluiten zijn containers voor uw aanbiedingen die gebruikmaken van de Offertenbeslissingsengine om de beste aanbieding te kiezen, afhankelijk van het doel van de levering.
 
-➡️ [ Leer hoe te om aanbiedingsactiviteiten in deze video tot stand te brengen ](#video)
+➡️ [&#x200B; Leer hoe te om aanbiedingsactiviteiten in deze video tot stand te brengen &#x200B;](#video)
 
 De lijst met beslissingen is toegankelijk via het tabblad **[!UICONTROL Offers]** > **[!UICONTROL Decisions]** . De filters zijn beschikbaar om u te helpen besluiten op hun status of begin en einddata terugwinnen.
 
@@ -47,7 +47,7 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
 
    ![](../assets/activities-name.png)
 
-1. Selecteer **[!UICONTROL Manage access]** als u aangepaste of basislabels voor gegevensgebruik aan de beslissing wilt toewijzen. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../../administration/object-based-access.md)
+1. Selecteer **[!UICONTROL Manage access]** als u aangepaste of basislabels voor gegevensgebruik aan de beslissing wilt toewijzen. [&#x200B; leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) &#x200B;](../../administration/object-based-access.md)
 
 ## Bepaal beslissingsbereik {#add-decision-scopes}
 
@@ -94,7 +94,7 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
 
 1. Gebruik het veld **[!UICONTROL Eligibility]** om de selectie van aanbiedingen voor deze plaatsing te beperken.
 
-   Deze beperking kan worden toegepast door a **besluitvormingsregel**, of één of verscheidene **publiek van Adobe Experience Platform** te gebruiken. Beide zijn gedetailleerd in [ deze sectie ](../offer-library/add-constraints.md#segments-vs-decision-rules).
+   Deze beperking kan worden toegepast door a **besluitvormingsregel**, of één of verscheidene **publiek van Adobe Experience Platform** te gebruiken. Beide zijn gedetailleerd in [&#x200B; deze sectie &#x200B;](../offer-library/add-constraints.md#segments-vs-decision-rules).
 
    * Als u de selectie van de aanbiedingen wilt beperken tot de leden van een Experience Platform-publiek, selecteert u **[!UICONTROL Audiences]** en klikt u op **[!UICONTROL Add audiences]** .
 
@@ -104,13 +104,13 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
 
      ![](../assets/activity_constraint_segment2.png)
 
-     Leer hoe te om met publiek in [ te werken deze sectie ](../../audience/about-audiences.md).
+     Leer hoe te om met publiek in [&#x200B; te werken deze sectie &#x200B;](../../audience/about-audiences.md).
 
    * Als u een selectieregel wilt toevoegen met een beslissingsregel, gebruikt u de optie **[!UICONTROL Decision rule]** en selecteert u de gewenste regel.
 
      ![](../assets/activity_constraint_rule.png)
 
-     Leer hoe te om een besluitvormingsregel in [ tot stand te brengen deze sectie ](../offer-library/creating-decision-rules.md).
+     Leer hoe te om een besluitvormingsregel in [&#x200B; tot stand te brengen deze sectie &#x200B;](../offer-library/creating-decision-rules.md).
 
 1. Wanneer u publiek of beslissingsregels selecteert, kunt u informatie over de geschatte gekwalificeerde profielen zien. Klik op **[!UICONTROL Refresh]** om gegevens bij te werken.
 
@@ -148,9 +148,9 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
 
    >[!CAUTION]
    >
-   >* Als [ AI model ](../ranking/ai-models.md) in een groep van evaluatiecriteria wordt gebruikt, moeten alle evaluatiecriteria in die groep de AI rangschikkende methode gebruiken en zij moeten het zelfde specifieke AI model gebruiken.
+   >* Als [&#x200B; AI model &#x200B;](../ranking/ai-models.md) in een groep van evaluatiecriteria wordt gebruikt, moeten alle evaluatiecriteria in die groep de AI rangschikkende methode gebruiken en zij moeten het zelfde specifieke AI model gebruiken.
    >
-   >* Slechts één groep met evaluatiecriteria kan het AI-model gebruiken. Andere groepen binnen een beslissingsbereik moeten andere rangordemethoden gebruiken (prioriteit of formule). [ leer meer over het rangschikken methodes ](../offer-activities/configure-offer-selection.md)
+   >* Slechts één groep met evaluatiecriteria kan het AI-model gebruiken. Andere groepen binnen een beslissingsbereik moeten andere rangordemethoden gebruiken (prioriteit of formule). [&#x200B; leer meer over het rangschikken methodes &#x200B;](../offer-activities/configure-offer-selection.md)
 
 1. Als u nog een plaatsing voor uw aanbiedingen wilt toevoegen als onderdeel van deze beslissing, gebruikt u de knop **[!UICONTROL New scope]** . Herhaal bovenstaande stappen voor elk beslissingsbereik.
 
@@ -226,7 +226,7 @@ Wanneer u meerdere besluitvormingsgebieden aan een besluit toevoegt en duplicati
 
 >[!NOTE]
 >
->De parameter **[!UICONTROL Allow Duplicates across placements]** wordt ingesteld op het plaatsingsniveau. Als duplicatie is ingesteld op false voor plaatsing in een beslissingsverzoek, nemen alle plaatsen in het verzoek de instelling false over. [ Leer meer over verdubbelingsparameter ](../offer-library/creating-placements.md)
+>De parameter **[!UICONTROL Allow Duplicates across placements]** wordt ingesteld op het plaatsingsniveau. Als duplicatie is ingesteld op false voor plaatsing in een beslissingsverzoek, nemen alle plaatsen in het verzoek de instelling false over. [&#x200B; Leer meer over verdubbelingsparameter &#x200B;](../offer-library/creating-placements.md)
 
 Neem een voorbeeld waarin u twee beslissingsbereiken hebt toegevoegd, zoals:
 
@@ -244,7 +244,7 @@ De selectie ziet er als volgt uit:
 
 +++ **Voorbeeld 2**
 
-In dit voorbeeld heeft Aanbod 1 de limiet voor de frequentiegrenzen bereikt. [ Leer meer over frequentie het in kaart brengen ](../offer-library/add-constraints.md#capping)
+In dit voorbeeld heeft Aanbod 1 de limiet voor de frequentiegrenzen bereikt. [&#x200B; Leer meer over frequentie het in kaart brengen &#x200B;](../offer-library/add-constraints.md#capping)
 
 De selectie ziet er als volgt uit:
 
@@ -255,18 +255,18 @@ De selectie ziet er als volgt uit:
 
 +++ **Voorbeeld 3**
 
-In dit voorbeeld bereikten Aanbod 1 en Aanbieding 3 hun limiet voor de frequentiegrenzen. [ Leer meer over frequentie het in kaart brengen ](../offer-library/add-constraints.md#capping)
+In dit voorbeeld bereikten Aanbod 1 en Aanbieding 3 hun limiet voor de frequentiegrenzen. [&#x200B; Leer meer over frequentie het in kaart brengen &#x200B;](../offer-library/add-constraints.md#capping)
 
 De selectie ziet er als volgt uit:
 
 1. De resterende twee in aanmerking komende aanbiedingen uit bereik 1 worden geretourneerd (voorstel 2, voorstel 4).
-1. Er zijn geen resterende in aanmerking komende aanbiedingen voor Reikwijdte 2, zodat is de [ fallback aanbieding ](#add-fallback) teruggekeerd.
+1. Er zijn geen resterende in aanmerking komende aanbiedingen voor Reikwijdte 2, zodat is de [&#x200B; fallback aanbieding &#x200B;](#add-fallback) teruggekeerd.
 
 +++
 
 **als het dupliceren** is
 
-Wanneer duplicatie op alle plaatsen is toegestaan, kan hetzelfde aanbod meerdere malen voor verschillende plaatsen worden voorgesteld. Als deze optie is ingeschakeld, overweegt het systeem dezelfde aanbieding voor meerdere plaatsingen. [ Leer meer over verdubbelingsparameter ](../offer-library/creating-placements.md)
+Wanneer duplicatie op alle plaatsen is toegestaan, kan hetzelfde aanbod meerdere malen voor verschillende plaatsen worden voorgesteld. Als deze optie is ingeschakeld, overweegt het systeem dezelfde aanbieding voor meerdere plaatsingen. [&#x200B; Leer meer over verdubbelingsparameter &#x200B;](../offer-library/creating-placements.md)
 
 Neem het zelfde voorbeeld zoals hierboven waar u twee besluitvormingswerkingsgebied zoals toevoegde:
 
@@ -284,7 +284,7 @@ De selectie ziet er als volgt uit:
 
 +++ **Voorbeeld 2**
 
-In dit voorbeeld heeft Aanbod 1 de limiet voor de frequentiegrenzen bereikt. [ Leer meer over frequentie het in kaart brengen ](../offer-library/add-constraints.md#capping)
+In dit voorbeeld heeft Aanbod 1 de limiet voor de frequentiegrenzen bereikt. [&#x200B; Leer meer over frequentie het in kaart brengen &#x200B;](../offer-library/add-constraints.md#capping)
 
 De selectie ziet er als volgt uit:
 
@@ -296,7 +296,7 @@ De selectie ziet er als volgt uit:
 
 +++ **Voorbeeld 3**
 
-In dit voorbeeld bereikten Aanbod 1 en Aanbieding 3 hun limiet voor de frequentiegrenzen. [ Leer meer over frequentie het in kaart brengen ](../offer-library/add-constraints.md#capping)
+In dit voorbeeld bereikten Aanbod 1 en Aanbieding 3 hun limiet voor de frequentiegrenzen. [&#x200B; Leer meer over frequentie het in kaart brengen &#x200B;](../offer-library/add-constraints.md#capping)
 
 De selectie ziet er als volgt uit:
 
@@ -313,7 +313,7 @@ De selectie ziet er als volgt uit:
 >title="Een fallback-aanbieding toevoegen"
 >abstract="Zodra u het besluitvormingswerkingsgebied bepaalde, bepaal de reserveaanbieding die als laatste redmiddel aan de klanten zal worden voorgesteld die niet de regels en de beperkingen van de aanbiedingen geschiktheid aanpassen."
 
-Nadat u het besluitvormingswerkingsgebied bepaalde, bepaal de [ fallback aanbieding ](../offer-library/creating-fallback-offers.md) die als laatste redmiddel aan de klanten zal worden voorgesteld die niet de regels en de beperkingen van de aanbiedingen geschiktheid aanpassen.
+Nadat u het besluitvormingswerkingsgebied bepaalde, bepaal de [&#x200B; fallback aanbieding &#x200B;](../offer-library/creating-fallback-offers.md) die als laatste redmiddel aan de klanten zal worden voorgesteld die niet de regels en de beperkingen van de aanbiedingen geschiktheid aanpassen.
 
 U doet dit door het te selecteren in de lijst met beschikbare fallback-aanbiedingen voor de plaatsingen die in de beslissing zijn gedefinieerd.
 
@@ -356,7 +356,7 @@ In de beslissingslijst kunt u de beslissing selecteren om de eigenschappen ervan
 
 ![](../assets/decision_created.png)
 
-Selecteer de **[!UICONTROL Edit]** knoop om naar de wijze van de beslissingsuitgave terug te gaan, waar u de 1} details van het besluit [ kunt wijzigen, ](#create-activity) besluitvormingswerkingsgebied [ en ](#add-decision-scopes) fallback aanbieding [.](#add-fallback)
+Selecteer de **[!UICONTROL Edit]** knoop om naar de wijze van de beslissingsuitgave terug te gaan, waar u de 1&rbrace; details van het besluit [&#x200B; kunt wijzigen, &#x200B;](#create-activity) besluitvormingswerkingsgebied [&#x200B; en &#x200B;](#add-decision-scopes) fallback aanbieding [.](#add-fallback)
 
 >[!IMPORTANT]
 >
@@ -398,7 +398,7 @@ Nadat u een beslissing hebt gemaakt, kunt u in de lijst op de naam ervan klikken
 
 ![](../assets/decision_click-name.png)
 
-Dit laat u toe om tot gedetailleerde informatie voor dat besluit toegang te hebben. Selecteer het **[!UICONTROL Change log]** lusje aan [ controle alle veranderingen ](../get-started/user-interface.md#changes-logs) die aan het besluit zijn aangebracht.
+Dit laat u toe om tot gedetailleerde informatie voor dat besluit toegang te hebben. Selecteer het **[!UICONTROL Change log]** lusje aan [&#x200B; controle alle veranderingen &#x200B;](../get-started/user-interface.md#changes-logs) die aan het besluit zijn aangebracht.
 
 ![](../assets/decision_information.png)
 

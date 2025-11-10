@@ -41,6 +41,6 @@ Ga als volgt te werk om een waarderingsmethode te maken:
 
 1. Configureer de formule of het AI-model naar wens en sla het op.
 
-Uw het rangschikken methode is nu klaar om in a [ selectiestrategie ](../selection-strategies.md) worden gebruikt om in aanmerking komende besluitvormingspunten te rangschikken.
+Uw het rangschikken methode is nu klaar om in a [&#x200B; selectiestrategie &#x200B;](../selection-strategies.md) worden gebruikt om in aanmerking komende besluitvormingspunten te rangschikken.
 
 

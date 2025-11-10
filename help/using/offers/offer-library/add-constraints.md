@@ -88,25 +88,25 @@ In de sectie **[!UICONTROL Offer eligibility]** kunt u het aanbod beperken tot s
 
 >[!NOTE]
 >
->Leer meer over het gebruiken van **publiek** tegenover **besluitvormingsregels** in [ deze sectie ](#segments-vs-decision-rules).
+>Leer meer over het gebruiken van **publiek** tegenover **besluitvormingsregels** in [&#x200B; deze sectie &#x200B;](#segments-vs-decision-rules).
 
 * Standaard is de optie **[!UICONTROL All visitors]** geselecteerd. Dit houdt in dat elk profiel in aanmerking komt voor presentatie van de aanbieding.
 
   ![](../assets/offer-eligibility-default.png)
 
-* U kunt de presentatie van de aanbieding aan de leden van één of verscheidene [ publiek van Adobe Experience Platform ](../../audience/about-audiences.md) ook beperken.
+* U kunt de presentatie van de aanbieding aan de leden van één of verscheidene [&#x200B; publiek van Adobe Experience Platform &#x200B;](../../audience/about-audiences.md) ook beperken.
 
   Hiervoor activeert u de optie **[!UICONTROL Visitors who fall into one or multiple audiences]** en voegt u een of meer soorten publiek toe vanuit het linkervenster en combineert u deze met de logische operatoren **[!UICONTROL And]** / **[!UICONTROL Or]** .
 
   ![](../assets/offer-eligibility-segment.png)
 
-* Als u een specifieke [ besluitvormingsregel ](../offer-library/creating-decision-rules.md) aan de aanbieding wilt associëren, selecteer **[!UICONTROL By defined decision rule]**, dan sleep de gewenste regel van de linkerruit in het **[!UICONTROL Decision rule]** gebied.
+* Als u een specifieke [&#x200B; besluitvormingsregel &#x200B;](../offer-library/creating-decision-rules.md) aan de aanbieding wilt associëren, selecteer **[!UICONTROL By defined decision rule]**, dan sleep de gewenste regel van de linkerruit in het **[!UICONTROL Decision rule]** gebied.
 
   ![](../assets/offer-rule.png)
 
   >[!CAUTION]
   >
-  >Aanbiedingen op basis van gebeurtenissen worden momenteel niet ondersteund in [!DNL Journey Optimizer] . Als u een besluitvormingsregel creeert die op een [ wordt gebaseerd gebeurtenis ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, zult u niet het in een aanbieding kunnen hefboomwerking geven.
+  >Aanbiedingen op basis van gebeurtenissen worden momenteel niet ondersteund in [!DNL Journey Optimizer] . Als u een besluitvormingsregel creeert die op een [&#x200B; wordt gebaseerd gebeurtenis &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, zult u niet het in een aanbieding kunnen hefboomwerking geven.
 
 Wanneer u publiek of beslissingsregels selecteert, kunt u informatie over de geschatte gekwalificeerde profielen zien. Klik op **[!UICONTROL Refresh]** om gegevens bij te werken.
 
@@ -126,13 +126,13 @@ In feite is de uitvoer van een publiek een lijst met profielen, terwijl een besl
 
   Enerzijds is het publiek een groep Adobe Experience Platform-profielen die overeenkomen met een bepaalde logica op basis van profielkenmerken en gebeurtenissen beleven. Aanbiedingsbeheer berekent het publiek echter niet opnieuw, wat mogelijk niet up-to-date is wanneer het voorstel wordt gepresenteerd.
 
-  Leer meer over publiek in [ deze sectie ](../../audience/about-audiences.md).
+  Leer meer over publiek in [&#x200B; deze sectie &#x200B;](../../audience/about-audiences.md).
 
 * **de regels van het Besluit**
 
   Anderzijds is een beslissingsregel gebaseerd op in Adobe Experience Platform beschikbare gegevens en bepaalt aan wie een aanbieding kan worden getoond. Zodra geselecteerd in een aanbieding of een besluit voor een bepaalde plaatsing, wordt de regel uitgevoerd telkens als een besluit wordt genomen, die ervoor zorgt dat elk profiel de recentste en beste aanbieding krijgt.
 
-  Leer meer over besluitvormingsregels in [ deze sectie ](creating-decision-rules.md).
+  Leer meer over besluitvormingsregels in [&#x200B; deze sectie &#x200B;](creating-decision-rules.md).
 
 ## Afbeelding {#capping}
 
@@ -159,7 +159,7 @@ Voor een aanbieding kunt u maximaal 10 regels voor aftopping toevoegen. Klik op 
 
 1. Stel de **[!UICONTROL Frequency]** in om te bepalen hoe vaak het aantal bijschriften wordt teruggezet. [Meer informatie](#frequency-capping)
 
-1. Als u verscheidene [ vertegenwoordiging ](add-representations.md) voor uw aanbieding hebt bepaald, specificeer of u het in kaart brengen **over alle plaatsen** of **op elke plaatsing** wilt toepassen. [Meer informatie](#placements)
+1. Als u verscheidene [&#x200B; vertegenwoordiging &#x200B;](add-representations.md) voor uw aanbieding hebt bepaald, specificeer of u het in kaart brengen **over alle plaatsen** of **op elke plaatsing** wilt toepassen. [Meer informatie](#placements)
 
 1. Als de aanbieding eenmaal is opgeslagen en goedgekeurd en deze het aantal keren heeft weergegeven dat u in dit veld hebt opgegeven op basis van de criteria en het tijdpad dat u hebt gedefinieerd, wordt de levering gestopt.
 
@@ -169,7 +169,7 @@ Het aantal keren dat een aanbieding wordt voorgesteld, wordt berekend tijdens de
 
 >[!NOTE]
 >
->Afdekkingstellers worden opnieuw ingesteld wanneer de aanbieding vervalt of twee jaar na de startdatum van de aanbieding, afhankelijk van welke datum het eerst valt. Leer hoe te om de datum van een aanbieding in [ te bepalen deze sectie ](creating-personalized-offers.md#create-offer).
+>Afdekkingstellers worden opnieuw ingesteld wanneer de aanbieding vervalt of twee jaar na de startdatum van de aanbieding, afhankelijk van welke datum het eerst valt. Leer hoe te om de datum van een aanbieding in [&#x200B; te bepalen deze sectie &#x200B;](creating-personalized-offers.md#create-offer).
 
 ### gebeurtenis Capping {#capping-event}
 
@@ -190,7 +190,7 @@ In het veld **[!UICONTROL Choose capping event]** kunt u definiëren met welke g
   >
   >Het gebruik van indrukkingen als het begrenzen van gebeurtenissen is beschikbaar voor **binnenkomende kanalen** slechts.
 
-* **[!UICONTROL Custom event]**: U kunt een aangepaste gebeurtenis definiëren die wordt gebruikt om het aantal verzonden aanbiedingen te beperken. U kunt bijvoorbeeld het aantal aflossingen beperken tot ze gelijk zijn aan 10.000 of tot een bepaald profiel één keer is afgelost. Om dit te doen, gebruik [ Adobe Experience Platform XDM ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"} schema&#39;s om een regel van de douanegebeurtenis te bouwen.
+* **[!UICONTROL Custom event]**: U kunt een aangepaste gebeurtenis definiëren die wordt gebruikt om het aantal verzonden aanbiedingen te beperken. U kunt bijvoorbeeld het aantal aflossingen beperken tot ze gelijk zijn aan 10.000 of tot een bepaald profiel één keer is afgelost. Om dit te doen, gebruik [&#x200B; Adobe Experience Platform XDM &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"} schema&#39;s om een regel van de douanegebeurtenis te bouwen.
 
   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10,000. You can only select XDM ExperienceEvents. -->
 
@@ -259,7 +259,7 @@ In het veld **[!UICONTROL Reset capping frequency]** kunt u bepalen hoe vaak het
 
 +++ **moet-lezen: Het in kaart brengen van de frequentie &amp; het beheer APIs van het Besluit**
 
-De frequentie die teller aftappen wordt bijgewerkt en beschikbaar in een [ Edge besluit API ](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#edge) in minder dan 3 seconden.
+De frequentie die teller aftappen wordt bijgewerkt en beschikbaar in een [&#x200B; Edge besluit API &#x200B;](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#edge) in minder dan 3 seconden.
 
 Elk hubgebied wordt geassocieerd met één of meerdere randgebieden. Regels voor frequentiecontrole worden gegenereerd en geëxporteerd van elk hubgebied naar de bijbehorende randgebieden. Telkens wanneer een beslissing wordt genomen met de Edge-API voor besluitvorming, dwingt het systeem de regels af die beschikbaar zijn in hetzelfde Edge-gebied:
 
@@ -276,15 +276,15 @@ Voor meer informatie over welke hub en randgebieden aan uw Organisatie worden ge
 
 Met de andere API&#39;s wordt de teller voor de frequentiecontrole als volgt bijgewerkt:
 
-* In a [ Beslissing API ](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#decisioning) besluit, kan de frequentie die teller in kaart brengt met een paar notulen van vertraging, afhankelijk van verkeer worden bijgewerkt.
+* In a [&#x200B; Beslissing API &#x200B;](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#decisioning) besluit, kan de frequentie die teller in kaart brengt met een paar notulen van vertraging, afhankelijk van verkeer worden bijgewerkt.
 
-* In de beslissing van de Beslissing API van de a [ Partij ](../api-reference/offer-delivery-api/batch-decisioning-api.md), worden de momentopnamen gebruikt waar de frequentie die teller in kaart brengt vast blijft. Zolang dezelfde momentopname wordt gebruikt, blijft de teller onveranderd.
+* In de beslissing van de Beslissing API van de a [&#x200B; Partij &#x200B;](../api-reference/offer-delivery-api/batch-decisioning-api.md), worden de momentopnamen gebruikt waar de frequentie die teller in kaart brengt vast blijft. Zolang dezelfde momentopname wordt gebruikt, blijft de teller onveranderd.
 
 +++
 
 ### Plakken en plaatsen {#placements}
 
-Als u verscheidene [ vertegenwoordigingen ](add-representations.md) voor uw aanbieding hebt bepaald, specificeer of u het begrenzen over alle plaatsen of op elke plaatsing wilt toepassen.
+Als u verscheidene [&#x200B; vertegenwoordigingen &#x200B;](add-representations.md) voor uw aanbieding hebt bepaald, specificeer of u het begrenzen over alle plaatsen of op elke plaatsing wilt toepassen.
 
 ![](../assets/offer-capping-placement.png)
 
@@ -305,13 +305,13 @@ Als u verscheidene [ vertegenwoordigingen ](add-representations.md) voor uw aanb
 
 U moet voorzichtig te werk gaan wanneer u de datum van een aanbieding wijzigt, omdat dit van invloed kan zijn op de aftopping als aan de volgende voorwaarden wordt voldaan:
 
-* De aanbieding wordt goedgekeurd [ ](#review).
-* [ Aftappen ](#capping) wordt reeds toegepast op de aanbieding.
+* De aanbieding wordt goedgekeurd [&#x200B; &#x200B;](#review).
+* [&#x200B; Aftappen &#x200B;](#capping) wordt reeds toegepast op de aanbieding.
 * Afdekkingen worden gedefinieerd per profiel.
 
 >[!NOTE]
 >
->Leer hoe te om de datum van een aanbieding in [ te bepalen deze sectie ](creating-personalized-offers.md#create-offer).
+>Leer hoe te om de datum van een aanbieding in [&#x200B; te bepalen deze sectie &#x200B;](creating-personalized-offers.md#create-offer).
 
 Als u per profiel vastlegt, worden de geknipte aantallen op elk profiel opgeslagen. Wanneer u de begin- en einddatum van een goedgekeurd aanbod wijzigt, kan het aantal aftopping voor sommige profielen worden aangepast aan de verschillende hieronder beschreven scenario&#39;s.
 
