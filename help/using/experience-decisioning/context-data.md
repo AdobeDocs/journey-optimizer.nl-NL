@@ -30,7 +30,7 @@ Om contextgegevens te gebruiken, moet u eerst de gegevens bepalen u in Beslissin
 
 De stappen om Beslissing met de gegevens van Adobe Experience Platform te voeren zijn als volgt:
 
-1. Creeer een **schema van de Gebeurtenis van de Ervaring** in Adobe Experience Platform en zijn bijbehorende **dataset**. [&#x200B; leer hoe te om schema&#39;s &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"} tot stand te brengen
+1. Creeer een **schema van de Gebeurtenis van de Ervaring** in Adobe Experience Platform en zijn bijbehorende **dataset**. [&#x200B; leer hoe te om schema&#39;s &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"} tot stand te brengen
 
 1. Een nieuwe Adobe Experience Platform-gegevensstroom maken:
 
@@ -48,6 +48,6 @@ Zodra de gegevensstroom wordt bewaard, wordt de geselecteerde informatie van de 
 
 Raadpleeg de volgende bronnen voor meer informatie over hoe u met Adobe Experience Platform kunt werken:
 
-* [&#x200B; schema&#39;s van de Gegevens van de Ervaring Model (XDM) &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}
-* [&#x200B; Datasets &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}
-* [&#x200B; Datastreams &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview){target="_blank"}
+* [&#x200B; schema&#39;s van de Gegevens van de Ervaring Model (XDM) &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/composition){target="_blank"}
+* [&#x200B; Datasets &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/overview){target="_blank"}
+* [&#x200B; Datastreams &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/datastreams/overview){target="_blank"}

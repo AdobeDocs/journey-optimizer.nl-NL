@@ -36,7 +36,7 @@ U kunt bijvoorbeeld een AI-model selecteren voor het e-mailkanaal en een ander m
 >id="ajo_decisioning_ai_model_type"
 >title="Het modeltype kiezen"
 >abstract="Selecteer het type van AI model u wilt tot stand brengen: **auto-optimalisering** optimaliseert aanbiedingen die op het verleden aanbiedingsprestaties worden gebaseerd, terwijl **Gepersonaliseerde optimalisering** optimaliseert en verpersoonlijkt aanbiedingen die op publiek worden gebaseerd en prestaties aanbieden."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/create-ranking-strategies#create-ranking-strategy" text="Een AI-model maken"
+>additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/create-ranking-strategies#create-ranking-strategy" text="Een AI-model maken"
 
 Er zijn twee typen AI-modellen beschikbaar in [!DNL Journey Optimizer] :
 
