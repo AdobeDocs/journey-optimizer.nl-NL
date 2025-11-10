@@ -137,4 +137,4 @@ Ga als volgt te werk om een regel te maken:
 
 Leer om, herbruikbare **het richten van regels** in Adobe Journey Optimizer tot stand te brengen te dupliceren en toe te passen om campagnes efficiënt te personaliseren die op klantenattributen zoals gebied, taal, en gedrag-besparing tijd terwijl het verbeteren van publieksprecisie worden gebaseerd.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476133/?captions=dut&quality=12)
