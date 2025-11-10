@@ -1,6 +1,6 @@
 ---
-product: experience platform
-solution: Experience Platform
+solution: Journey Optimizer
+product: Journey Optimizer
 title: AI-modellen maken
 description: Leer hoe u AI-modellen maakt om aanbiedingen te beoordelen
 badge: label="Verouderd" type="Informative"
@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 3%
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 Voer de volgende stappen uit om een AI-model te maken:
 
-1. Maak een gegevensset waarin conversiegebeurtenissen worden verzameld. [&#x200B; leer hoe &#x200B;](../data-collection/create-dataset.md)
+1. Maak een gegevensset waarin conversiegebeurtenissen worden verzameld. [ leer hoe ](../data-collection/create-dataset.md)
 
 1. Open in het menu **[!UICONTROL Components]** het tabblad **[!UICONTROL Ranking]** en selecteer vervolgens **[!UICONTROL AI models]** .
 
@@ -58,9 +58,9 @@ Voer de volgende stappen uit om een AI-model te maken:
    >* **de gebeurtenissen van de Indrukking** (aanbiedingen die worden getoond)
    >* **de gebeurtenissen van de Omzetting** (aanbiedingen die in kliks via e-mail of Web) resulteren.
    >
-   >Deze gebeurtenissen worden automatisch vastgelegd met de Web SDK of de Mobile SDK die is opgegeven. Leer meer over dit in [&#x200B; het overzicht van SDK van het Web van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL).
+   >Deze gebeurtenissen worden automatisch vastgelegd met de Web SDK of de Mobile SDK die is opgegeven. Leer meer over dit in [ het overzicht van SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html).
 
-1. Selecteer de gegevensset(s) waar de conversie- en impressiefeedagen worden verzameld. Leer hoe te om dergelijke dataset in [&#x200B; tot stand te brengen deze sectie &#x200B;](../data-collection/create-dataset.md). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
+1. Selecteer de gegevensset(s) waar de conversie- en impressiefeedagen worden verzameld. Leer hoe te om dergelijke dataset in [ tot stand te brengen deze sectie ](../data-collection/create-dataset.md). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
    ![](../assets/ai-ranking-dataset-id.png)
 
@@ -88,12 +88,12 @@ Voer de volgende stappen uit om een AI-model te maken:
 * defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
 * and in which dataset you want to collect the event data.-->
 
-Nu telkens als een aanbieding wordt getoond en/of geklikt, wilt u de overeenkomstige gebeurtenis automatisch worden gevangen door de **[!UICONTROL Experience Event - Proposition Interactions]** gebiedsgroep gebruikend het [&#x200B; Web SDK van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=nl-NL#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} of Mobiele SDK.
+Nu telkens als een aanbieding wordt getoond en/of geklikt, wilt u de overeenkomstige gebeurtenis automatisch worden gevangen door de **[!UICONTROL Experience Event - Proposition Interactions]** gebiedsgroep gebruikend het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} of Mobiele SDK.
 
-Als u gebeurtenistypen wilt kunnen verzenden (weergegeven aanbod of aangeklikte aanbieding), moet u de juiste waarde voor elk gebeurtenistype instellen in een ervaringsgebeurtenis die naar Adobe Experience Platform wordt verzonden. [&#x200B; leer hoe &#x200B;](../data-collection/schema-requirement.md)
+Als u gebeurtenistypen wilt kunnen verzenden (weergegeven aanbod of aangeklikte aanbieding), moet u de juiste waarde voor elk gebeurtenistype instellen in een ervaringsgebeurtenis die naar Adobe Experience Platform wordt verzonden. [ leer hoe ](../data-collection/schema-requirement.md)
 
 ## Hoe kan ik-video {#video}
 
 Leer hoe u een gepersonaliseerd optimalisatiemodel maakt en hoe u dit op een beslissing toepast.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445957?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)

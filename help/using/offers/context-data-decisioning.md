@@ -1,6 +1,6 @@
 ---
-product: experience platform
-solution: Experience Platform
+solution: Journey Optimizer
+product: Journey Optimizer
 title: Contextgegevens en beslissingsverzoeken
 description: Leer hoe u contextgegevens doorgeeft in beslissingsverzoeken.
 badge: label="Verouderd" type="Informative"
@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 exl-id: 45d060ce-0a12-4a6e-a594-ec10cdff8f38
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Deze sectie begeleidt u door contextgegevens in Beslissingsverzoeken over te gaa
 
 >[!BEGINSHADEBOX]
 
-Om verder te gaan, kunt u hefboomcontext in **het rangschikken formules** ook gebruiken om uw aanbiedingen op te voeren. De gedetailleerde voorbeelden van het rangschikken formules leveraging contextgegevens zijn beschikbaar in [&#x200B; deze sectie &#x200B;](../offers/ranking/create-ranking-formulas.md#context-data).
+Om verder te gaan, kunt u hefboomcontext in **het rangschikken formules** ook gebruiken om uw aanbiedingen op te voeren. De gedetailleerde voorbeelden van het rangschikken formules leveraging contextgegevens zijn beschikbaar in [ deze sectie ](../offers/ranking/create-ranking-formulas.md#context-data).
 
 >[!ENDSHADEBOX]
 

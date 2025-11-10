@@ -1,6 +1,6 @@
 ---
-product: experience platform
-solution: Experience Platform
+solution: Journey Optimizer
+product: Journey Optimizer
 title: Vastleggen van gebeurtenissen configureren
 description: Leer hoe u uw aanbiedingsschema configureert om gebeurtenissen vast te leggen
 feature: Ranking, Datasets, Decision Management
@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 exl-id: ce3a2c33-c15b-436f-90b1-7373d7b2b1ca
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -105,9 +105,9 @@ Voor aangepaste gebeurtenissen moet aan het schema dat in de gegevensset wordt g
 
 >[!NOTE]
 >
->Om uw douanegebeurtenissen te hebben die in [&#x200B; in kaart brengen &#x200B;](../items.md#capping) worden gebracht, moet u de ervaringsgebeurtenis met Adobe Experience Platform eindpunten verbinden door het naar één van beiden van deze twee eindpunten van de gegevensinzameling van Edge te verzenden:
+>Om uw douanegebeurtenissen te hebben die in [ in kaart brengen ](../items.md#capping) worden gebracht, moet u de ervaringsgebeurtenis met Adobe Experience Platform eindpunten verbinden door het naar één van beiden van deze twee eindpunten van de gegevensinzameling van Edge te verzenden:
 >
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->Als u het [&#x200B; Web SDK van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL){target="_blank"} of [&#x200B; Adobe Experience Platform Mobiele SDK &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=nl-NL){target="_blank"} gebruikt, wordt de verbinding automatisch gemaakt.
+>Als u het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} of [ Adobe Experience Platform Mobiele SDK ](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} gebruikt, wordt de verbinding automatisch gemaakt.
