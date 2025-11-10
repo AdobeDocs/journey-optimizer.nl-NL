@@ -7,7 +7,8 @@ topic: Integrations
 role: User, Developer
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 11%
@@ -26,4 +27,4 @@ Met de knop **[!UICONTROL Preview dataset]** kunt u de meest recente succesvolle
 
 ![](../assets/dataset-activity.png)
 
-Voor meer informatie over hoe te om datasets te doorbladeren en te gebruiken, verwijs naar [&#x200B; deze pagina &#x200B;](../../data/get-started-datasets.md).
+Voor meer informatie over hoe te om datasets te doorbladeren en te gebruiken, verwijs naar [ deze pagina ](../../data/get-started-datasets.md).

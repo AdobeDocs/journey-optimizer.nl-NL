@@ -6,7 +6,8 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -45,7 +46,7 @@ Wanneer contextgegevens worden doorgegeven met een Edge-API-aanvraag voor beslui
 
 **de Teller update van de het afschilderen van de Frequentie**
 
-Als voor sommige van uw aanbiedingen de functie voor het toewijzen van frequenties is ingeschakeld om te bepalen hoe vaak het aantal bijschriften wordt teruggezet, wordt de teller binnen 3 seconden bijgewerkt en beschikbaar in een Edge-beslissing voor de API voor besluitvorming. [&#x200B; Leer hoe te om beperkingen aan een aanbieding toe te voegen &#x200B;](../../offer-library/add-constraints.md)
+Als voor sommige van uw aanbiedingen de functie voor het toewijzen van frequenties is ingeschakeld om te bepalen hoe vaak het aantal bijschriften wordt teruggezet, wordt de teller binnen 3 seconden bijgewerkt en beschikbaar in een Edge-beslissing voor de API voor besluitvorming. [ Leer hoe te om beperkingen aan een aanbieding toe te voegen ](../../offer-library/add-constraints.md)
 
 ## API-mogelijkheden voor besluitvorming {#decisioning}
 

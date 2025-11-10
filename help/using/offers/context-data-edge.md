@@ -8,7 +8,8 @@ feature: Decision Management
 role: Developer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 0%
@@ -21,12 +22,12 @@ In deze sectie worden contextgegevens doorgegeven in Edge-beslissingsverzoeken e
 
 Bij dit gebruik zijn verschillende belangrijke stappen betrokken:
 
-1. [&#x200B; de eerste vereisten van de Opstelling &#x200B;](#prerequisites): Zorg alle noodzakelijke stappen worden voltooid om contextgegevens in uw verzoeken over te gaan.
-1. [&#x200B; de contextgegevens van het Gebruik in toelatingsregels &#x200B;](#rules): Creeer regels die welke aanbiedingen bepalen om te tonen gebaseerd op het het apparatentype van de gebruiker.
-1. [&#x200B; apparaat-specifieke aanbiedingen van het Ontwerp &#x200B;](#offers): Creeer op maat gemaakte aanbiedingen voor elk apparatentype en verbind hen met de overeenkomstige regels.
-1. [&#x200B; creeer een aanbiedingsinzameling &#x200B;](#collection): Groepeer alle aanbiedingen samen in een statische inzameling.
-1. [&#x200B; vorm een besluit &#x200B;](#decision): Creeer een nieuw besluit dat hefboomwerkingen de Motor van het Besluit van de Aanbieding om de beste aanbieding te kiezen om aan gebruikers voor te stellen die op hun apparatentype worden gebaseerd.
-1. [&#x200B; geef contextgegevens in het Edge Beslissende verzoek &#x200B;](#request) door: geef contextgegevens door uw API verzoek door om de aangewezen aanbiedingen aan gebruikers terug te winnen en voor te stellen.
+1. [ de eerste vereisten van de Opstelling ](#prerequisites): Zorg alle noodzakelijke stappen worden voltooid om contextgegevens in uw verzoeken over te gaan.
+1. [ de contextgegevens van het Gebruik in toelatingsregels ](#rules): Creeer regels die welke aanbiedingen bepalen om te tonen gebaseerd op het het apparatentype van de gebruiker.
+1. [ apparaat-specifieke aanbiedingen van het Ontwerp ](#offers): Creeer op maat gemaakte aanbiedingen voor elk apparatentype en verbind hen met de overeenkomstige regels.
+1. [ creeer een aanbiedingsinzameling ](#collection): Groepeer alle aanbiedingen samen in een statische inzameling.
+1. [ vorm een besluit ](#decision): Creeer een nieuw besluit dat hefboomwerkingen de Motor van het Besluit van de Aanbieding om de beste aanbieding te kiezen om aan gebruikers voor te stellen die op hun apparatentype worden gebaseerd.
+1. [ geef contextgegevens in het Edge Beslissende verzoek ](#request) door: geef contextgegevens door uw API verzoek door om de aangewezen aanbiedingen aan gebruikers terug te winnen en voor te stellen.
 
 >[!BEGINSHADEBOX]
 
@@ -51,11 +52,11 @@ In tegenstelling tot het doorgeven van context in een vrij vrije indeling met be
 
    ![](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   Leer hoe te met schema&#39;s in het Model van de Gegevens van de Ervaring van Adobe Experience Platform [&#x200B; (XDM) gids &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/home){target="_blank"} werken
+   Leer hoe te met schema&#39;s in het Model van de Gegevens van de Ervaring van Adobe Experience Platform [ (XDM) gids ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"} werken
 
 1. Maak een dataset (hier &quot;Context van aanbieding&quot;) en zorg ervoor dat deze is ingeschakeld voor profiel.
 
-1. Maak een nieuwe gegevensstroom via het menu **[!UICONTROL Data Collection]** > **[!UICONTROL Datastreams]** . Leer hoe te om gegevensstroom in de gids van Gegevens van Adobe Experience Platform [&#x200B; tot stand te brengen en te vormen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/datastreams/configure){target="_blank"}
+1. Maak een nieuwe gegevensstroom via het menu **[!UICONTROL Data Collection]** > **[!UICONTROL Datastreams]** . Leer hoe te om gegevensstroom in de gids van Gegevens van Adobe Experience Platform [ tot stand te brengen en te vormen ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}
 
    Hier, hebben wij een &quot;context van de Aanbieding&quot;gegevensstroom gecreeerd, met het de gebeurtenisschema van de &quot;Inhoud van de Aanbieding&quot;geselecteerd.
 
@@ -65,7 +66,7 @@ In tegenstelling tot het doorgeven van context in een vrij vrije indeling met be
 
    ![](assets/context-edge-datastream-new.png)
 
-1. Sla de gegevensstroom op en kopieer de bijbehorende id. Deze id wordt gebruikt in het API-aanvraageindpunt. [&#x200B; Leer hoe te om de API vraag &#x200B;](#request) te bouwen
+1. Sla de gegevensstroom op en kopieer de bijbehorende id. Deze id wordt gebruikt in het API-aanvraageindpunt. [ Leer hoe te om de API vraag ](#request) te bouwen
 
    ![](assets/context-edge-datastream-copy.png)
 
@@ -131,7 +132,7 @@ Maak een nieuw besluit dat gebruikmaakt van de Offertebeslissingsengine om de be
 
 ### Endpoint
 
-In het eindpunt, gebruik identiteitskaart van de [&#x200B; eerder gemaakte gegevensstroom &#x200B;](#prerequisites).
+In het eindpunt, gebruik identiteitskaart van de [ eerder gemaakte gegevensstroom ](#prerequisites).
 
 `https://edge.adobedc.net/ee/irl1/v1/interact?configId=f3c47f2a-c484-4908-87a5-a82b55039e22`
 
@@ -140,7 +141,7 @@ In het eindpunt, gebruik identiteitskaart van de [&#x200B; eerder gemaakte gegev
 Hier is een voorbeeld van een verzoek die contextgegevens overgaan.
 
 * Informatie over het type apparaat wordt doorgegeven in het knooppunt `xdm:ContextData` .
-* In de `decisionScopes` knoop, kopieer-kleef het besluitvormingswerkingsgebied van het [&#x200B; aanbiedingsbesluit &#x200B;](#decision) eerder gevormd.
+* In de `decisionScopes` knoop, kopieer-kleef het besluitvormingswerkingsgebied van het [ aanbiedingsbesluit ](#decision) eerder gevormd.
 
   +++Waar kan het beslissingsbereik worden opgehaald?
 

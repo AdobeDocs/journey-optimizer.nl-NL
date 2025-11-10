@@ -6,7 +6,8 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 1%
@@ -27,24 +28,24 @@ ht-degree: 1%
 
 Deze handleiding voor ontwikkelaars bevat stappen waarmee u de API van [!DNL Offer Library] kunt gaan gebruiken. De gids verstrekt dan steekproefAPI vraag voor het uitvoeren van zeer belangrijke verrichtingen gebruikend de bepalingsmotor.
 
-➡️ [&#x200B; Leer meer over de componenten van het Beheer van het Besluit in deze video &#x200B;](#video)
+➡️ [ Leer meer over de componenten van het Beheer van het Besluit in deze video ](#video)
 
 ## Vereisten {#prerequisites}
 
 Deze handleiding vereist een goed begrip van de volgende onderdelen van Adobe Experience Platform:
 
-* [[!DNL Experience Data Model (XDM) System] &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}: Het gestandaardiseerde kader waardoor [!DNL Experience Platform] gegevens van de klantenervaring organiseert.
-   * [&#x200B; Grondbeginselen van schemacompositie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=nl-NL){target="_blank"}: Leer over de basisbouwstenen van schema&#39;s XDM.
-* [&#x200B; Beheer van het Besluit &#x200B;](../../../using/offers/get-started/starting-offer-decisioning.md): Verklaart de concepten en de componenten die voor Beslissing in het algemeen en besluitvormingsbeheer in het bijzonder worden gebruikt. Toont de strategieën die voor het kiezen van de beste optie worden gebruikt om tijdens de ervaring van een klant voor te stellen.
-* [[!DNL Profile Query Language (PQL)] &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=nl-NL){target="_blank"}: PQL is een krachtige taal om uitdrukkingen over instanties te schrijven XDM. PQL wordt gebruikt om beslissingsregels te definiëren.
+* [[!DNL Experience Data Model (XDM) System] ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}: Het gestandaardiseerde kader waardoor [!DNL Experience Platform] gegevens van de klantenervaring organiseert.
+   * [ Grondbeginselen van schemacompositie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html){target="_blank"}: Leer over de basisbouwstenen van schema&#39;s XDM.
+* [ Beheer van het Besluit ](../../../using/offers/get-started/starting-offer-decisioning.md): Verklaart de concepten en de componenten die voor Beslissing in het algemeen en besluitvormingsbeheer in het bijzonder worden gebruikt. Toont de strategieën die voor het kiezen van de beste optie worden gebruikt om tijdens de ervaring van een klant voor te stellen.
+* [[!DNL Profile Query Language (PQL)] ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target="_blank"}: PQL is een krachtige taal om uitdrukkingen over instanties te schrijven XDM. PQL wordt gebruikt om beslissingsregels te definiëren.
 
 ## API-voorbeeldaanroepen lezen {#reading-sample-api-calls}
 
-Deze gids verstrekt voorbeeld API vraag om aan te tonen hoe te om uw verzoeken te formatteren. Dit zijn paden, vereiste kopteksten en correct opgemaakte ladingen voor aanvragen. Voorbeeld-JSON die wordt geretourneerd in API-reacties, wordt ook verschaft. Voor informatie over de overeenkomsten die in documentatie voor steekproef API vraag worden gebruikt, zie de sectie op [&#x200B; hoe te om voorbeeld API vraag &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html?lang=nl-NL#how-do-i-format-an-api-request){target="_blank"} in de [!DNL Experience Platform] het oplossen van problemengids te lezen.
+Deze gids verstrekt voorbeeld API vraag om aan te tonen hoe te om uw verzoeken te formatteren. Dit zijn paden, vereiste kopteksten en correct opgemaakte ladingen voor aanvragen. Voorbeeld-JSON die wordt geretourneerd in API-reacties, wordt ook verschaft. Voor informatie over de overeenkomsten die in documentatie voor steekproef API vraag worden gebruikt, zie de sectie op [ hoe te om voorbeeld API vraag ](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request){target="_blank"} in de [!DNL Experience Platform] het oplossen van problemengids te lezen.
 
 ## Waarden verzamelen voor vereiste koppen {#gather-values-for-required-headers}
 
-Om vraag aan [!DNL Adobe Experience Platform] APIs te maken, moet u het [&#x200B; authentificatieleerprogramma &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=nl-NL){target="_blank"} eerst voltooien. Als u de zelfstudie over verificatie voltooit, krijgt u de waarden voor elk van de vereiste headers in alle API-aanroepen van [!DNL Experience Platform] , zoals hieronder wordt getoond:
+Om vraag aan [!DNL Adobe Experience Platform] APIs te maken, moet u het [ authentificatieleerprogramma ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"} eerst voltooien. Als u de zelfstudie over verificatie voltooit, krijgt u de waarden voor elk van de vereiste headers in alle API-aanroepen van [!DNL Experience Platform] , zoals hieronder wordt getoond:
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`

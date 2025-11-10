@@ -5,7 +5,8 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
-source-git-commit: bb672c8eb917a29aaebc7134cc833c423c0ecc5c
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Houd rekening met de volgende instructies en beperkingen om een optimaal gebruik van de beslissingsbevoegdheid te waarborgen.
 
-De volledige lijst van [!DNL Journey Optimizer] guardrails &amp; beperkingen is beschikbaar in [&#x200B; deze sectie &#x200B;](../start/guardrails.md).
+De volledige lijst van [!DNL Journey Optimizer] guardrails &amp; beperkingen is beschikbaar in [ deze sectie ](../start/guardrails.md).
 
 ## Beslissingsverzoeken {#decision-requests}
 
@@ -73,4 +74,4 @@ De volledige lijst van [!DNL Journey Optimizer] guardrails &amp; beperkingen is 
 
 Het totale aantal configuraties dat Beslissende steun kan niet 20.000 overschrijden.
 
-De totale configuratiegraad is het totale aantal [&#x200B; het begrenzen regels &#x200B;](items.md#capping) die in uw zandbak bestaan.
+De totale configuratiegraad is het totale aantal [ het begrenzen regels ](items.md#capping) die in uw zandbak bestaan.

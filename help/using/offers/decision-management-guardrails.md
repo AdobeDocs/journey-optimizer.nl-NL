@@ -6,7 +6,8 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
-source-git-commit: b9a515156e9a79519be59fb52b67762a32c9d03e
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 6%
@@ -17,7 +18,7 @@ ht-degree: 6%
 
 Houd rekening met de volgende voorzorgsmaatregelen en beperkingen om een optimaal gebruik van het besluitvormingsbeheer te waarborgen.
 
-De volledige lijst van [!DNL Journey Optimizer] guardrails &amp; beperkingen is beschikbaar in [&#x200B; deze sectie &#x200B;](../start/guardrails.md).
+De volledige lijst van [!DNL Journey Optimizer] guardrails &amp; beperkingen is beschikbaar in [ deze sectie ](../start/guardrails.md).
 
 ## Beslissingsverzoeken
 
@@ -94,4 +95,4 @@ De leveringstijd komt overeen met het aantal beslissingsreacties dat binnen een 
 
 Het totale aantal configuraties dat door het beheer van Besluit wordt ondersteund, mag niet meer bedragen dan 20.000.
 
-De totale configuratiegraad is het totale aantal [&#x200B; het begrenzen regels &#x200B;](offer-library/add-constraints.md#capping) die in uw zandbak bestaan. Voor elke het in kaart brengen regel die over alle [&#x200B; plaatsen &#x200B;](offer-library/creating-placements.md) wordt toegepast, moet de regel over alle plaatsen worden vermenigvuldigd verbonden aan de gespecificeerde aanbieding.
+De totale configuratiegraad is het totale aantal [ het begrenzen regels ](offer-library/add-constraints.md#capping) die in uw zandbak bestaan. Voor elke het in kaart brengen regel die over alle [ plaatsen ](offer-library/creating-placements.md) wordt toegepast, moet de regel over alle plaatsen worden vermenigvuldigd verbonden aan de gespecificeerde aanbieding.

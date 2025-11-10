@@ -6,7 +6,8 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 8d82b4db-2ba8-4692-a63e-9cb3c6c434c3
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 1%
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 U kunt een regel wijzigen of bijwerken door een PUT-aanvraag in te dienen bij de bibliotheek-API van het aanbod.
 
-Voor meer informatie over JSON PUT, met inbegrip van beschikbare verrichtingen, zie de officiële [&#x200B; documentatie van JSON PUT &#x200B;](https://jsonpatch.com/).
+Voor meer informatie over JSON PUT, met inbegrip van beschikbare verrichtingen, zie de officiële [ documentatie van JSON PUT ](https://jsonpatch.com/).
 
 **Accepteer en inhoud-Type kopballen**
 

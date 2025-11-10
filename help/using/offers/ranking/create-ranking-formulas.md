@@ -8,7 +8,8 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
@@ -21,9 +22,9 @@ ht-degree: 0%
 
 **Rangschikkende formules** staan u toe om regels te bepalen die welke aanbieding eerst voor een bepaalde plaatsing, eerder dan rekening houdend met de prioritaire scores van aanbiedingen zullen bepalen.
 
-De rangschikkende formules worden uitgedrukt in **syntaxis van PQL** en kunnen attributen van het hefboomwerkingenprofiel, contextgegevens en aanbiedingsattributen. Voor meer op hoe te om de syntaxis van PQL te gebruiken, verwijs naar de [&#x200B; specifieke documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=nl-NL).
+De rangschikkende formules worden uitgedrukt in **syntaxis van PQL** en kunnen attributen van het hefboomwerkingenprofiel, contextgegevens en aanbiedingsattributen. Voor meer op hoe te om de syntaxis van PQL te gebruiken, verwijs naar de [ specifieke documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
 
-Nadat u een rangschikkingsformule hebt gemaakt, kunt u deze toewijzen aan een plaatsing in een beslissing. Voor meer op dit, zie [&#x200B; aanbiedingsselectie in besluiten &#x200B;](../offer-activities/configure-offer-selection.md) vormen.
+Nadat u een rangschikkingsformule hebt gemaakt, kunt u deze toewijzen aan een plaatsing in een beslissing. Voor meer op dit, zie [ aanbiedingsselectie in besluiten ](../offer-activities/configure-offer-selection.md) vormen.
 
 ## Een waarderingsformule maken {#create-ranking-formula}
 
@@ -39,7 +40,7 @@ Voer de volgende stappen uit om een rangschikkingsformule te maken:
 
 1. Geef de naam, beschrijving en formule van de formule op.
 
-   In dit voorbeeld willen we de prioriteit van alle aanbiedingen verhogen met het kenmerk &quot;hot&quot; als het werkelijke weer heet is. Om dit te doen, werd **contextData.weather=hot** overgegaan in de beslissingsvraag. [&#x200B; Leer hoe te met contextgegevens &#x200B;](../context-data.md) te werken
+   In dit voorbeeld willen we de prioriteit van alle aanbiedingen verhogen met het kenmerk &quot;hot&quot; als het werkelijke weer heet is. Om dit te doen, werd **contextData.weather=hot** overgegaan in de beslissingsvraag. [ Leer hoe te met contextgegevens ](../context-data.md) te werken
 
    ![](../assets/ranking-syntax.png)
 
@@ -49,7 +50,7 @@ Voer de volgende stappen uit om een rangschikkingsformule te maken:
 
 1. Klik op **[!UICONTROL Save]**. Uw rangschikkingsformule wordt gecreeerd, kunt u het van de lijst selecteren om details te krijgen en het uit te geven of te schrappen.
 
-   Het is nu klaar om in een besluit worden gebruikt om in aanmerking komende aanbiedingen voor een plaatsing (zie [&#x200B; te rangschikken aanbiedingen selectie in besluiten &#x200B;](../offer-activities/configure-offer-selection.md)).
+   Het is nu klaar om in een besluit worden gebruikt om in aanmerking komende aanbiedingen voor een plaatsing (zie [ te rangschikken aanbiedingen selectie in besluiten ](../offer-activities/configure-offer-selection.md)).
 
    ![](../assets/ranking-formula-created.png)
 
@@ -137,7 +138,7 @@ In dit geval geldt voor een profiel als:
 
 ### Verhoog de aanbiedingen op basis van contextgegevens {#context-data}
 
-Met [!DNL Journey Optimizer] kunt u bepaalde aanbiedingen verhogen op basis van de contextgegevens die in de aanroep worden doorgegeven. Als bijvoorbeeld `contextData.weather=hot` wordt doorgegeven, moet de prioriteit van alle aanbiedingen met `attribute=hot` worden verhoogd. Gedetailleerde informatie over hoe te om contextgegevens over te gaan gebruikend **Edge Beslissing** en **Beslissing** APIs, verwijs naar [&#x200B; deze sectie &#x200B;](../context-data.md)
+Met [!DNL Journey Optimizer] kunt u bepaalde aanbiedingen verhogen op basis van de contextgegevens die in de aanroep worden doorgegeven. Als bijvoorbeeld `contextData.weather=hot` wordt doorgegeven, moet de prioriteit van alle aanbiedingen met `attribute=hot` worden verhoogd. Gedetailleerde informatie over hoe te om contextgegevens over te gaan gebruikend **Edge Beslissing** en **Beslissing** APIs, verwijs naar [ deze sectie ](../context-data.md)
 
 Merk op dat wanneer het gebruiken van **Beslissing** API, de contextgegevens aan het profielelement in het verzoeklichaam, zoals in het hieronder voorbeeld worden toegevoegd.
 

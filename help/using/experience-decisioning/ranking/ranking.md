@@ -6,7 +6,8 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -40,6 +41,6 @@ Ga als volgt te werk om een waarderingsmethode te maken:
 
 1. Configureer de formule of het AI-model naar wens en sla het op.
 
-Uw het rangschikken methode is nu klaar om in a [&#x200B; selectiestrategie &#x200B;](../selection-strategies.md) worden gebruikt om in aanmerking komende besluitvormingspunten te rangschikken.
+Uw het rangschikken methode is nu klaar om in a [ selectiestrategie ](../selection-strategies.md) worden gebruikt om in aanmerking komende besluitvormingspunten te rangschikken.
 
 

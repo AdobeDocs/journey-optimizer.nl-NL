@@ -7,7 +7,8 @@ topic: Integrations
 role: User, Developer
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 10%
@@ -18,7 +19,7 @@ ht-degree: 10%
 
 Met Journey Optimizer kunt u uw aanbiedingencatalogus automatisch exporteren naar Adobe Experience Platform.
 
-De uitvoer leidt tot één dataset voor elk voorwerp van uw Bibliotheek van de Aanbieding (zie [&#x200B; Uitgevoerde datasets van de Toegang &#x200B;](../export-catalog/access-dataset.md)). Het omvat:
+De uitvoer leidt tot één dataset voor elk voorwerp van uw Bibliotheek van de Aanbieding (zie [ Uitgevoerde datasets van de Toegang ](../export-catalog/access-dataset.md)). Het omvat:
 
 * Aangepaste aanbiedingen
 * Herkansingsaanbiedingen
