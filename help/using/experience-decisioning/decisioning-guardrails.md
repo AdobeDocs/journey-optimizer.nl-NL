@@ -17,7 +17,7 @@ ht-degree: 7%
 
 Houd rekening met de volgende instructies en beperkingen om een optimaal gebruik van de beslissingsbevoegdheid te waarborgen.
 
-De volledige lijst van [!DNL Journey Optimizer] guardrails &amp; beperkingen is beschikbaar in [ deze sectie ](../start/guardrails.md).
+De volledige lijst van [!DNL Journey Optimizer] guardrails &amp; beperkingen is beschikbaar in [&#x200B; deze sectie &#x200B;](../start/guardrails.md).
 
 ## Beslissingsverzoeken {#decision-requests}
 
@@ -74,4 +74,4 @@ De volledige lijst van [!DNL Journey Optimizer] guardrails &amp; beperkingen is 
 
 Het totale aantal configuraties dat Beslissende steun kan niet 20.000 overschrijden.
 
-De totale configuratiegraad is het totale aantal [ het begrenzen regels ](items.md#capping) die in uw zandbak bestaan.
+De totale configuratiegraad is het totale aantal [&#x200B; het begrenzen regels &#x200B;](items.md#capping) die in uw zandbak bestaan.
