@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: Dataset met beslissingen
 description: Deze sectie maakt een lijst van alle gebieden die in de uitgevoerde dataset voor besluiten worden gebruikt
 badge: label="Verouderd" type="Informative"
@@ -8,7 +10,7 @@ role: User, Developer
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '1526'
 ht-degree: 0%
@@ -25,7 +27,7 @@ De meest recente succesvolle partij in de dataset wordt getoond op het recht. De
 
 >[!NOTE]
 >
->Leer hoe te om tot de uitgevoerde datasets voor elk voorwerp van uw Bibliotheek van de Aanbieding in [&#x200B; toegang te hebben deze sectie &#x200B;](../export-catalog/access-dataset.md).
+>Leer hoe te om tot de uitgevoerde datasets voor elk voorwerp van uw Bibliotheek van de Aanbieding in [ toegang te hebben deze sectie ](../export-catalog/access-dataset.md).
 
 Hier volgt een lijst met alle velden die kunnen worden gebruikt in de **[!UICONTROL Decision Object Repository - Decisions]** -gegevensset (voorheen bekend als Beslissingsobjectrepository - Activiteiten).
 

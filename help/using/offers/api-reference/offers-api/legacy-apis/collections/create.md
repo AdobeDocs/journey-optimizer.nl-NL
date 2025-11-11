@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: Een verzameling maken
 description: Verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketmaker zijn gedefinieerd, zoals de categorie van de aanbieding.
 feature: Decision Management, API, Collections
@@ -7,7 +9,7 @@ role: Developer
 level: Experienced
 exl-id: ea79add2-1ea7-4c5c-ba67-f99d10975c4f
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 5%

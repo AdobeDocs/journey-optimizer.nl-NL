@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: Een persoonlijke aanbieding maken
 description: Een gepersonaliseerd aanbod is een aanpasbaar marketingbericht op basis van geschiktheidsregels en -beperkingen.
 feature: Decision Management, API
@@ -7,7 +9,7 @@ role: Developer
 level: Experienced
 exl-id: 234bee17-c830-4bc0-b258-182804df4cb3
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 6%
@@ -105,4 +107,4 @@ Een geslaagde reactie retourneert informatie over de zojuist gemaakte persoonlij
 
 ## Beperkingen {#limitations}
 
-Aanbiedingsweergaven en sommige aanbodbeperkingen worden momenteel niet ondersteund door de mobiele [!DNL Experience Edge] workflows, bijvoorbeeld `Capping` . De veldwaarde `Capping` geeft aan hoe vaak een aanbieding voor alle gebruikers kan worden weergegeven. Voor meer details, zie [&#x200B; de geschiktheidsregels en beperkingsdocumentatie van de Aanbieding &#x200B;](../../../../offer-library/creating-personalized-offers.md).
+Aanbiedingsweergaven en sommige aanbodbeperkingen worden momenteel niet ondersteund door de mobiele [!DNL Experience Edge] workflows, bijvoorbeeld `Capping` . De veldwaarde `Capping` geeft aan hoe vaak een aanbieding voor alle gebruikers kan worden weergegeven. Voor meer details, zie [ de geschiktheidsregels en beperkingsdocumentatie van de Aanbieding ](../../../../offer-library/creating-personalized-offers.md).

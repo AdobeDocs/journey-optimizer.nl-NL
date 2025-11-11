@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: Verzamelingsaanduidingen maken
 description: Leer hoe u kwalificatietoetsen voor verzamelingen voor uw aanbiedingen kunt maken
 badge: label="Verouderd" type="Informative"
@@ -8,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 2%
@@ -24,7 +26,7 @@ ht-degree: 2%
 
 Door verzamelingsaanduidingen (die voorheen &#39;&#39;tags&#39;&#39; werden genoemd) aan uw aanbiedingen te koppelen, kunt u ze eenvoudiger organiseren. U kunt bijvoorbeeld een label geven aan de zwarte vrijdag-aanbiedingen met de verzamelingsaanduiding &#39;Zwarte vrijdag&#39;. U kunt dan de onderzoeksfunctionaliteit in de Bibliotheek van de Aanbieding gebruiken om van alle aanbiedingen met die inzamelingskwalificatie gemakkelijk de plaats te bepalen.
 
-Verzamelingsbepalers kunnen ook worden gebruikt om aanbiedingen samen te groeperen in aanbiedingsinzamelingen. Zie [&#x200B; inzamelingen &#x200B;](../offer-library/creating-collections.md) creëren.
+Verzamelingsbepalers kunnen ook worden gebruikt om aanbiedingen samen te groeperen in aanbiedingsinzamelingen. Zie [ inzamelingen ](../offer-library/creating-collections.md) creëren.
 
 ➡️ [Ontdek deze functie in video](#video)
 

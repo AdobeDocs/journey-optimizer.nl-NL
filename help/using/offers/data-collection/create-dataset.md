@@ -1,5 +1,5 @@
 ---
-solution: Journey Optimizer
+solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Een gegevensset maken om gebeurtenissen te verzamelen
 description: Leer hoe u een gegevensset maakt om gebeurtenissen te verzamelen
@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 version: Journey Orchestration
-source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Begin door het schema te creëren dat in uw dataset zal worden gebruikt:
 
    >[!NOTE]
    >
-   >Leer meer over schema&#39;s XDM en gebiedsgroepen in de [&#x200B; XDM het overzichtsdocumentatie van het Systeem &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
+   >Leer meer over schema&#39;s XDM en gebiedsgroepen in de [ XDM het overzichtsdocumentatie van het Systeem ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
 
 1. Ga een naam en een beschrijving voor uw schema in en klik **Afwerking**.
    ![](../assets/ai-ranking-xdm-event-2.png)
@@ -53,7 +53,7 @@ Begin door het schema te creëren dat in uw dataset zal worden gebruikt:
 
 >[!NOTE]
 >
->Leer meer over het bouwen van schema&#39;s in [&#x200B; Grondbeginselen van schemacompositie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=nl-NL#understanding-schemas){target="_blank"}.
+>Leer meer over het bouwen van schema&#39;s in [ Grondbeginselen van schemacompositie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}.
 
 u bent nu klaar om een dataset tot stand te brengen gebruikend dit schema. Hiervoor voert u de volgende stappen uit:
 
@@ -71,4 +71,4 @@ u bent nu klaar om een dataset tot stand te brengen gebruikend dit schema. Hierv
 
 >[!NOTE]
 >
->Deze dataset kan nu worden geselecteerd om gebeurtenisgegevens te verzamelen wanneer [&#x200B; het creëren van een AI model &#x200B;](../ranking/create-ranking-strategies.md).
+>Deze dataset kan nu worden geselecteerd om gebeurtenisgegevens te verzamelen wanneer [ het creëren van een AI model ](../ranking/create-ranking-strategies.md).

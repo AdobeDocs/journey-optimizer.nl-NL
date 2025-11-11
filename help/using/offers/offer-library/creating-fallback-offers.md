@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: Alternatieve aanbiedingen maken
 description: Leer hoe u fallback-aanbiedingen kunt maken voor klanten die niet in aanmerking komen voor een aanbieding
 badge: label="Verouderd" type="Informative"
@@ -8,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 3%
@@ -39,15 +41,15 @@ Voer de volgende stappen uit om een fallback-aanbieding te maken:
 
    ![](../assets/fallback_details.png)
 
-1. Selecteer **[!UICONTROL Manage access]** als u aangepaste of basislabels voor gegevensgebruik aan de aanbieding wilt toewijzen. [&#x200B; leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) &#x200B;](../../administration/object-based-access.md)
+1. Selecteer **[!UICONTROL Manage access]** als u aangepaste of basislabels voor gegevensgebruik aan de aanbieding wilt toewijzen. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../../administration/object-based-access.md)
 
-1. Maak een of meer representaties voor de fallback-aanbieding. Hiervoor sleept u plaatsingen vanuit het linkervenster, bijvoorbeeld wanneer u een gepersonaliseerde aanbieding maakt. Zie [&#x200B; gepersonaliseerde aanbiedingen &#x200B;](../offer-library/creating-personalized-offers.md) creëren.
+1. Maak een of meer representaties voor de fallback-aanbieding. Hiervoor sleept u plaatsingen vanuit het linkervenster, bijvoorbeeld wanneer u een gepersonaliseerde aanbieding maakt. Zie [ gepersonaliseerde aanbiedingen ](../offer-library/creating-personalized-offers.md) creëren.
 
    ![](../assets/fallback_content.png)
 
    >[!CAUTION]
    >
-   >De aanbiedingen van de reserve zouden alle vertegenwoordiging moeten bevatten die binnen a [&#x200B; wordt gebruikt besluit &#x200B;](../offer-activities/create-offer-activities.md). Als een beslissing bijvoorbeeld vijf voorstellen bevat en elk voorstel een andere representatie heeft, moeten er vijf voorstellen in het fallback-aanbod worden opgenomen.
+   >De aanbiedingen van de reserve zouden alle vertegenwoordiging moeten bevatten die binnen a [ wordt gebruikt besluit ](../offer-activities/create-offer-activities.md). Als een beslissing bijvoorbeeld vijf voorstellen bevat en elk voorstel een andere representatie heeft, moeten er vijf voorstellen in het fallback-aanbod worden opgenomen.
 
 1. Zodra de vertegenwoordiging van de reserveaanbieding is toegevoegd, een summiere vertoningen. Als alles correct is geconfigureerd en uw fallback-aanbieding klaar is om aan klanten te worden aangeboden, klikt u op **[!UICONTROL Finish]** en selecteert u vervolgens **[!UICONTROL Save and approve]** .
 
