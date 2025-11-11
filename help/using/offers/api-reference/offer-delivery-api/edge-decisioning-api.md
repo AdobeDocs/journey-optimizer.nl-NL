@@ -20,13 +20,13 @@ ht-degree: 1%
 
 ## Aan de slag en voorwaarden {#edge-overview-and-prerequisites}
 
-Het [&#x200B; Web SDK van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) is een cliënt-kant bibliotheek van JavaScript die de klanten van Adobe Experience Cloud toestaat om met de diverse diensten in Experience Cloud door Experience Platform Edge Network in wisselwerking te staan.
+Het [&#x200B; Web SDK van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL#video-overview) is een cliënt-kant bibliotheek van JavaScript die de klanten van Adobe Experience Cloud toestaat om met de diverse diensten in Experience Cloud door Experience Platform Edge Network in wisselwerking te staan.
 
 Experience Platform Web SDK steunt het vragen van de verpersoonlijkingsoplossingen in Adobe, met inbegrip van Beslissingsbeheer, die u toestaat om gepersonaliseerde aanbiedingen terug te winnen en terug te geven die u gebruikend APIs of de Bibliotheek van de Aanbieding hebt gecreeerd. Voor meer gedetailleerde instructies, verwijs naar de documentatie bij [&#x200B; het creëren van een aanbieding &#x200B;](../../get-started/starting-offer-decisioning.md).
 
-Er zijn twee manieren om besluitvormingsbeheer met het [&#x200B; Web SDK van het Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) uit te voeren. Eén manier is gericht op ontwikkelaars en vereist kennis van websites en programmering. De andere manier is door de Adobe Experience Platform-gebruikersinterface te gebruiken voor het instellen van aanbiedingen waarbij alleen naar een klein script moet worden verwezen in de koptekst van de HTML-pagina.
+Er zijn twee manieren om besluitvormingsbeheer met het [&#x200B; Web SDK van het Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL#video-overview) uit te voeren. Eén manier is gericht op ontwikkelaars en vereist kennis van websites en programmering. De andere manier is door de Adobe Experience Platform-gebruikersinterface te gebruiken voor het instellen van aanbiedingen waarbij alleen naar een klein script moet worden verwezen in de koptekst van de HTML-pagina.
 
-Verwijs naar de documentatie van Adobe Experience Platform over [&#x200B; besluitvormingsbeheer &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html#enabling-offer-decisioning) voor meer informatie over hoe te om gepersonaliseerde aanbiedingen te leveren gebruikend SDK van het Web van Adobe Experience Platform.
+Verwijs naar de documentatie van Adobe Experience Platform over [&#x200B; besluitvormingsbeheer &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=nl-NL#enabling-offer-decisioning) voor meer informatie over hoe te om gepersonaliseerde aanbiedingen te leveren gebruikend SDK van het Web van Adobe Experience Platform.
 
 ## Adobe Experience Platform Web SDK {#aep-web-sdk}
 
@@ -43,9 +43,9 @@ De SDK heeft deze bibliotheken niet met elkaar gecombineerd en is een nieuwe imp
 
    <!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
 
-1. [&#x200B; vorm uw gegevensstroom &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html) binnen het lusje van de Inzameling van Gegevens in uw rekening in Adobe Experience Cloud.
+1. [&#x200B; vorm uw gegevensstroom &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=nl-NL) binnen het lusje van de Inzameling van Gegevens in uw rekening in Adobe Experience Cloud.
 
-1. Installeer de SDK. Er zijn veelvoudige methodes om dit te doen, die op [&#x200B; behandeld zijn installeer de pagina van SDK &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html). Deze pagina gaat verder met elke andere implementatiemethode.
+1. Installeer de SDK. Er zijn veelvoudige methodes om dit te doen, die op [&#x200B; behandeld zijn installeer de pagina van SDK &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=nl-NL). Deze pagina gaat verder met elke andere implementatiemethode.
 
 Om SDK te gebruiken, moet u a [&#x200B; schema &#x200B;](../../../data/get-started-schemas.md) hebben en a [&#x200B; datastream &#x200B;](../../../data/get-started-datasets.md) bepaald.
 
@@ -61,23 +61,23 @@ Voer een van de volgende twee stappen uit om de SDK voor besluitvormingsbeheer t
 
 Deze optie is gebruiksvriendelijker voor mensen die minder ervaring hebben met coderen.
 
-1. [&#x200B; creeer een markeringsbezit &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html)
+1. [&#x200B; creeer een markeringsbezit &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=nl-NL)
 
-1. [&#x200B; voeg de ingebedde code &#x200B;](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html) toe
+1. [&#x200B; voeg de ingebedde code &#x200B;](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=nl-NL) toe
 
-1. Installeer en vorm de uitbreiding van Adobe Experience Platform Web SDK met de Datstream u door de configuratie van &quot;Datstream&quot;dropdown te selecteren creeerde. Zie de documentatie op [&#x200B; uitbreidingen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html).
+1. Installeer en vorm de uitbreiding van Adobe Experience Platform Web SDK met de Datstream u door de configuratie van &quot;Datstream&quot;dropdown te selecteren creeerde. Zie de documentatie op [&#x200B; uitbreidingen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=nl-NL).
 
    ![Adobe Experience Platform Web SDK](../../assets/installed-catalog-web-sdk.png)
 
    ![&#x200B; vorm Uitbreiding &#x200B;](../../assets/configure-sdk-extension.png)
 
-1. Creeer de noodzakelijke [&#x200B; Elementen van Gegevens &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html). Bij het absolute minimum, moet u een Identiteitskaart van het Web van het Platform van SDK en een het gegevenselement van de Objecten van SDK XDM van het Web van het Platform tot stand brengen XDM.
+1. Creeer de noodzakelijke [&#x200B; Elementen van Gegevens &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=nl-NL). Bij het absolute minimum, moet u een Identiteitskaart van het Web van het Platform van SDK en een het gegevenselement van de Objecten van SDK XDM van het Web van het Platform tot stand brengen XDM.
 
    ![&#x200B; Identiteitskaart &#x200B;](../../assets/sdk-identity-map.png)
 
    ![&#x200B; Voorwerp XDM &#x200B;](../../assets/xdm-object.png)
 
-1. Creeer uw [&#x200B; Regels &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html):
+1. Creeer uw [&#x200B; Regels &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=nl-NL):
 
    Voeg een Actie van de Gebeurtenis van het Web van het Platform toe SDK verzendt en voeg relevante decisionsScopes aan de configuratie van die actie toe
 
@@ -85,13 +85,13 @@ Deze optie is gebruiksvriendelijker voor mensen die minder ervaring hebben met c
 
    ![&#x200B; Aanbieding van het Verzoek &#x200B;](../../assets/rule-request-offer.png)
 
-1. [&#x200B; creeer en publiceer &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html) een bibliotheek die alle relevante Regels, de Elementen van Gegevens, en Uitbreidingen bevat u hebt gevormd.
+1. [&#x200B; creeer en publiceer &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=nl-NL) een bibliotheek die alle relevante Regels, de Elementen van Gegevens, en Uitbreidingen bevat u hebt gevormd.
 
 ## Optie 2 - Handmatig implementeren met behulp van de geïntegreerde zelfstandige versie
 
 Hier zijn de stappen nodig om besluitvormingsbeheer te gebruiken gebruikend de prebuilt standalone installatie van het Web SDK. In deze handleiding wordt ervan uitgegaan dat dit de eerste keer is dat u de SDK implementeert. Het is dus mogelijk dat niet alle stappen op u van toepassing zijn. Deze gids veronderstelt ook enige ontwikkelervaring.
 
-Omvat het volgende fragment van JavaScript van Optie 2: De Prebuilt Standalone Versie op [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) in de `<head>` sectie van uw pagina van HTML.
+Omvat het volgende fragment van JavaScript van Optie 2: De Prebuilt Standalone Versie op [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=nl-NL) in de `<head>` sectie van uw pagina van HTML.
 
 ```
 javascript

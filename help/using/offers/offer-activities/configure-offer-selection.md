@@ -65,7 +65,7 @@ Als meerdere aanbiedingen in aanmerking komen om in deze plaatsing te worden gep
 
 ## AI-rangschikking {#use-ranking-strategy}
 
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=nl-NL){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
 U kunt ook een getraind modelsysteem gebruiken dat aanbiedingen voor een bepaald profiel automatisch rangschikt door een AI-model te selecteren. Leer hoe te om een AI model in [&#x200B; tot stand te brengen deze sectie &#x200B;](../ranking/create-ranking-strategies.md).
 

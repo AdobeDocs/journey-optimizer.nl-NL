@@ -33,7 +33,7 @@ Om dit te doen, zou de organisatie:
 
 * Exporteer de dataset naar de API van de leverancier van de berichtlevering.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=nl-NL) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
