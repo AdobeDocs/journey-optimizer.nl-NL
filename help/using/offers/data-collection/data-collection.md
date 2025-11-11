@@ -23,9 +23,9 @@ ht-degree: 1%
 
 Je kunt feedback over beslissingen in Adobe Experience Platform verzamelen, waaronder welke aanbiedingen worden weergegeven en hoe gebruikers met hen communiceren. Deze gegevens kunnen worden gebruikt voor:
 
-* Samenstellend [ het beheersrapporten van het Besluit ](../reports/get-started-events.md);
-* Het gebruiken van [ frequentie die ](../offer-library/add-constraints.md#capping) regels begrenzen;
-* De bouw [ AI modellen ](../ranking/create-ranking-strategies.md) die als het rangschikken methode kunnen worden gebruikt.
+* Samenstellend [&#x200B; het beheersrapporten van het Besluit &#x200B;](../reports/get-started-events.md);
+* Het gebruiken van [&#x200B; frequentie die &#x200B;](../offer-library/add-constraints.md#capping) regels begrenzen;
+* De bouw [&#x200B; AI modellen &#x200B;](../ranking/create-ranking-strategies.md) die als het rangschikken methode kunnen worden gebruikt.
 
 ## Typen gebeurtenissen
 
@@ -45,13 +45,13 @@ Afbeeldingen en klikken in het kader van besluitvormingsbeheer worden als volgt 
 
 Feedback op afbeeldingen en klikken wordt vastgelegd afhankelijk van het gebruikte [!DNL Journey Optimizer] kanaal.
 
-**Emails** authored door [!DNL Journey Optimizer] **** sporen automatisch indrukken en klikken.
+**Emails** authored door [!DNL Journey Optimizer] **&#x200B;**&#x200B;sporen automatisch indrukken en klikken.
 
 Nochtans, **vereisen de meeste kanalen** impressies en kliks gegevens die in Adobe Experience Platform als **ervaringsgebeurtenis** moeten worden verzonden. Dit omvat het volgende:
 
-* Web-pagina&#39;s die [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} gebruiken om aanbiedingen terug te geven
+* Web-pagina&#39;s die [&#x200B; SDK van het Web van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} gebruiken om aanbiedingen terug te geven
 
-* Mobiele apps die [ Adobe Experience Platform Mobile SDK ](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} gebruiken om aanbiedingen terug te geven - [ leer meer ](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
+* Mobiele apps die [&#x200B; Adobe Experience Platform Mobile SDK &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} gebruiken om aanbiedingen terug te geven - [&#x200B; leer meer &#x200B;](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
 * Kiosks
 * Berichten die via toepassingen van derden worden verzonden
   <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->
@@ -68,6 +68,6 @@ Feedback op aangepaste gebeurtenissen die aan een voorstel zijn gekoppeld, kan n
 
 Als u feedbackgegevens wilt verzenden, moet u een gegevensset maken om gebeurtenissen te verzamelen en voor elk gebeurtenistype een ervaringsgebeurtenis definiëren die naar Adobe Experience Platform wordt verzonden.
 
-* Leer hoe te om een dataset tot stand te brengen waar de ervaringsgebeurtenissen in [ deze sectie ](create-dataset.md) zullen worden verzameld.
+* Leer hoe te om een dataset tot stand te brengen waar de ervaringsgebeurtenissen in [&#x200B; deze sectie &#x200B;](create-dataset.md) zullen worden verzameld.
 
-* Leer hoe te om ervaringsgebeurtenissen te bepalen in terugkoppelt gegevens in [ dit sectie ](schema-requirement.md) te verzenden.
+* Leer hoe te om ervaringsgebeurtenissen te bepalen in terugkoppelt gegevens in [&#x200B; dit sectie &#x200B;](schema-requirement.md) te verzenden.

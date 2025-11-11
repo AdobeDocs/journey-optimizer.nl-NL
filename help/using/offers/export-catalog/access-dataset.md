@@ -29,4 +29,4 @@ Met de knop **[!UICONTROL Preview dataset]** kunt u de meest recente succesvolle
 
 ![](../assets/dataset-activity.png)
 
-Voor meer informatie over hoe te om datasets te doorbladeren en te gebruiken, verwijs naar [ deze pagina ](../../data/get-started-datasets.md).
+Voor meer informatie over hoe te om datasets te doorbladeren en te gebruiken, verwijs naar [&#x200B; deze pagina &#x200B;](../../data/get-started-datasets.md).

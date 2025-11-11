@@ -48,7 +48,7 @@ Volg onderstaande stappen om een of meerdere vertegenwoordigingen aan uw aanbied
 
    ![](../assets/browse-placements.png)
 
-1. Voeg inhoud toe aan uw representatie. Leer hoe in [ deze sectie ](#content).
+1. Voeg inhoud toe aan uw representatie. Leer hoe in [&#x200B; deze sectie &#x200B;](#content).
 
 1. Wanneer u inhoud zoals een afbeelding of URL toevoegt, kunt u een **[!UICONTROL Destination link]** opgeven: de gebruikers die op de aanbieding klikken, worden naar de bijbehorende pagina geleid.
 
@@ -76,7 +76,7 @@ Als de geselecteerde plaatsing beeld-type is, kunt u inhoud toevoegen die uit de
 
 >[!NOTE]
 >
-> Om met [ de Hoofdzaak van de Activa van de Manager van de Ervaring van Adobe ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"} te werken, moet u [!DNL Assets Essentials] voor uw organisatie opstellen en ervoor zorgen dat de gebruikers een deel van de **Hoofdzaak van Activa Consumenten** of **Hoofdzaak van Activa** profielen van het Product zijn. Leer meer over [ deze pagina ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
+> Om met [&#x200B; de Hoofdzaak van de Activa van de Manager van de Ervaring van Adobe &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"} te werken, moet u [!DNL Assets Essentials] voor uw organisatie opstellen en ervoor zorgen dat de gebruikers een deel van de **Hoofdzaak van Activa Consumenten** of **Hoofdzaak van Activa** profielen van het Product zijn. Leer meer over [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
 
 1. Kies de optie **[!UICONTROL Asset library]**.
 
@@ -92,11 +92,11 @@ Als de geselecteerde plaatsing beeld-type is, kunt u inhoud toevoegen die uit de
 
 ### HTML- of JSON-bestanden toevoegen {#html-json}
 
-Als de geselecteerde plaatsing HTML-type is, kunt u HTML of inhoud ook toevoegen JSON die uit de [ bibliotheek van de Activa van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"} komt).
+Als de geselecteerde plaatsing HTML-type is, kunt u HTML of inhoud ook toevoegen JSON die uit de [&#x200B; bibliotheek van de Activa van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"} komt).
 
-Bijvoorbeeld, creeerde u een HTML e-mailmalplaatje in [ Adobe Experience Manager ](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"} en u wilt dat dossier voor uw aanbiedingsinhoud gebruiken. In plaats van het creëren van een nieuw dossier, kunt u het malplaatje in de **Bibliotheek van Activa** eenvoudig uploaden om het in de vertegenwoordiging van uw aanbieding te kunnen opnieuw gebruiken.
+Bijvoorbeeld, creeerde u een HTML e-mailmalplaatje in [&#x200B; Adobe Experience Manager &#x200B;](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"} en u wilt dat dossier voor uw aanbiedingsinhoud gebruiken. In plaats van het creëren van een nieuw dossier, kunt u het malplaatje in de **Bibliotheek van Activa** eenvoudig uploaden om het in de vertegenwoordiging van uw aanbieding te kunnen opnieuw gebruiken.
 
-Om uw inhoud in een vertegenwoordiging opnieuw te gebruiken, doorblader de **Bibliotheek van Activa** zoals die in [ wordt beschreven deze sectie ](#images) en selecteer het HTML of JSON dossier van uw keus.
+Om uw inhoud in een vertegenwoordiging opnieuw te gebruiken, doorblader de **Bibliotheek van Activa** zoals die in [&#x200B; wordt beschreven deze sectie &#x200B;](#images) en selecteer het HTML of JSON dossier van uw keus.
 
 ![](../assets/offer-browse-asset-library-json.png)
 
@@ -104,7 +104,7 @@ Om uw inhoud in een vertegenwoordiging opnieuw te gebruiken, doorblader de **Bib
 
 Als u inhoud wilt toevoegen vanaf een externe openbare locatie, selecteert u **[!UICONTROL URL]** en voert u het URL-adres in van de inhoud die u wilt toevoegen.
 
-U kunt URLs personaliseren gebruikend de verpersoonlijkingsredacteur. Leer meer over [ verpersoonlijking ](../../personalization/personalize.md#use-expression-editor).
+U kunt URLs personaliseren gebruikend de verpersoonlijkingsredacteur. Leer meer over [&#x200B; verpersoonlijking &#x200B;](../../personalization/personalize.md#use-expression-editor).
 
 ![](../assets/offer-content-url.png)
 
@@ -132,7 +132,7 @@ U kunt ook teksttype-inhoud invoegen wanneer u een compatibele plaatsing selecte
 
    ![](../assets/offer-text-content.png)
 
-   U kunt uw inhoud personaliseren gebruikend de verpersoonlijkingsredacteur. Leer meer over [ verpersoonlijking ](../../personalization/personalize.md#use-expression-editor).
+   U kunt uw inhoud personaliseren gebruikend de verpersoonlijkingsredacteur. Leer meer over [&#x200B; verpersoonlijking &#x200B;](../../personalization/personalize.md#use-expression-editor).
 
    ![](../assets/offer-personalization.png)
 
@@ -142,7 +142,7 @@ U kunt ook teksttype-inhoud invoegen wanneer u een compatibele plaatsing selecte
 
 ## Afbeeldingen personaliseren op basis van contextgegevens{#context-data}
 
-Wanneer de contextgegevens in de [ Edge beslissings ](../api-reference/offer-delivery-api/edge-decisioning-api.md) vraag worden overgegaan, kunt u hefboomwerking deze gegevens om vertegenwoordiging dynamisch te personaliseren. U kunt bijvoorbeeld de weergave van een aanbieding afstemmen op basis van real-time factoren, zoals de huidige weersomstandigheden op het moment dat de beslissing wordt genomen.
+Wanneer de contextgegevens in de [&#x200B; Edge beslissings &#x200B;](../api-reference/offer-delivery-api/edge-decisioning-api.md) vraag worden overgegaan, kunt u hefboomwerking deze gegevens om vertegenwoordiging dynamisch te personaliseren. U kunt bijvoorbeeld de weergave van een aanbieding afstemmen op basis van real-time factoren, zoals de huidige weersomstandigheden op het moment dat de beslissing wordt genomen.
 
 Als u contextgegevens wilt gebruiken in aanbiedingsweergaven, neemt u de variabele met contextgegevens rechtstreeks op in de representatie-inhoud met behulp van de naamruimte `profile.timeSeriesEvents.` .
 
