@@ -76,7 +76,7 @@ Apple beperkt Levende Activiteiten tot **8 uren van actieve updates**. Na dat, b
 +++Moet ik een afzonderlijke widgetextensie maken voor Live-activiteiten?
 
 Ja. Live-activiteiten worden weergegeven via WidgetKit, dus u moet een widgetextensie maken in uw Xcode-project en `ActivityConfiguration` implementeren.
-[ leer meer over configuratie Widget ](mobile-live-configuration-sdk.md)
+[&#x200B; leer meer over configuratie Widget &#x200B;](mobile-live-configuration-sdk.md)
 
 +++
 
@@ -132,7 +132,7 @@ De campagnes van de uitzending verzenden de zelfde inhoud naar alle gebruikers i
 
 +++Hoe weet ik of mijn Live Activiteit succesvol is uitgevoerd?
 
-[ controleert uw campagneanalytica ](../reports/campaign-global-report-cja-activity.md) in Adobe Journey Optimizer. U kunt de leveringssnelheden, mislukkingen, en betrokkenheidsmetriek volgen. Overweeg ook aangepaste analytische gebeurtenissen in uw app te implementeren.
+[&#x200B; controleert uw campagneanalytica &#x200B;](../reports/campaign-global-report-cja-activity.md) in Adobe Journey Optimizer. U kunt de leveringssnelheden, mislukkingen, en betrokkenheidsmetriek volgen. Overweeg ook aangepaste analytische gebeurtenissen in uw app te implementeren.
 +++
 
 +++Kan ik live-activiteiten vooraf plannen?
@@ -203,7 +203,7 @@ Nee. Elke API-aanvraag moet een uniek bestand `requestId` hebben om te zorgen vo
 
 +++Welke verificatie is vereist voor de Headless API?
 
-Verwijs naar [ API teweeggebrachte Documentatie van Campagnes ](https://developer.adobe.com/journey-optimizer-apis/references/messaging/) voor authentificatievereisten, met inbegrip van tokens OAuth en API sleutels.
+Verwijs naar [&#x200B; API teweeggebrachte Documentatie van Campagnes &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging/) voor authentificatievereisten, met inbegrip van tokens OAuth en API sleutels.
 
 +++
 
@@ -240,7 +240,7 @@ Vaak voorkomende oorzaken:
 
 +++Het veld `attributes-type` wordt niet herkend. Wat moet ik controleren?
 
-* Verzeker de klassennaam precies **** (case-sensitive) met uw Swift struct naam aanpast
+* Verzeker de klassennaam precies **&#x200B;**&#x200B;(case-sensitive) met uw Swift struct naam aanpast
 * Controleren of de structuur correct is gedefinieerd en geregistreerd
 * Controleren op typos in de JSON-payload
 * Bevestig dat de versie van de app is geïnstalleerd met de implementatie van Live activiteit
