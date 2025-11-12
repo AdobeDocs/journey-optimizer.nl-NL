@@ -5,9 +5,9 @@ title: Geordende campagnes
 description: Geordende campagnes
 redpen-status: CREATED_||_2025-08-11_20-27-08
 exl-id: d6635d58-b618-4d92-b60f-c6fc63e473a6
-source-git-commit: 4270fbfb191700704d161f472abf62f7af79c208
+source-git-commit: 341a4dac0ae1c124559ebf552af5b3e7a35519e7
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Met geordende campagneactiviteiten in Adobe Journey Optimizer kunt u naadloze, g
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Werken met geordende campagneactiviteiten
 
@@ -30,7 +30,7 @@ Leer over het richten, kanaal, en stroom controleactiviteiten om georkestreerde 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Het gebruiken van EN sluit zich aan bij Activiteit
 
@@ -40,7 +40,7 @@ Synchroniseer veelvoudige uitvoeringstakken door voorafgaande taken te verzekere
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Activiteit publiek maken
 
@@ -50,7 +50,7 @@ Bepaal en vorm publiekssegmenten voor uw campagnes gebruikend de het publieksact
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Dimensieactiviteit wijzigen
 
@@ -60,7 +60,7 @@ Verbeter het richten door tussen gegevensentiteiten binnen uw campagne te versch
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Kanaalactiviteiten
 
@@ -70,7 +70,7 @@ Stel e-mail, SMS, pushberichten en direct mail in voor interkanaals orchestratie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Activiteiten combineren
 
@@ -91,5 +91,5 @@ Segmenteer de binnenkomende populaties door gegevens te combineren, uit te sluit
 - **[de Activiteit van de Afstemming](../using/orchestrated/activities/reconciliation.md)** - pas externe of niet geïdentificeerde gegevens met bestaande middelen voor nauwkeurige het richten aan.
 - **[sparen de Activiteit van het Publiek](../using/orchestrated/activities/save-audience.md)** - creeer of werk opnieuw te gebruiken publiek voor het toekomstige richten bij.
 - **[Gesplitste Activiteit](../using/orchestrated/activities/split.md)** - de populaties van het segment in ondergroepen gebruikend filters of bevolkingsgrootte.
-- **[Activiteit van de Test](../using/orchestrated/activities/test.md)** - laat voorwaardelijke overgangen toe die op gespecificeerde criteria worden gebaseerd.
+  <!--- **[Test Activity](../using/orchestrated/activities/test.md)** - Enable conditional transitions based on specified criteria.-->
 - **[wacht Activiteit](../using/orchestrated/activities/wait.md)** - introduceer vertragingen tussen activiteiten voor betere timing en relevantie.
