@@ -20,7 +20,7 @@ Met geordende campagneactiviteiten in Adobe Journey Optimizer kunt u naadloze, g
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
 
 Werken met geordende campagneactiviteiten
 
@@ -30,7 +30,7 @@ Leer over het richten, kanaal, en stroom controleactiviteiten om georkestreerde 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 Het gebruiken van EN sluit zich aan bij Activiteit
 
@@ -40,7 +40,7 @@ Synchroniseer veelvoudige uitvoeringstakken door voorafgaande taken te verzekere
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
 
 Activiteit publiek maken
 
@@ -50,7 +50,7 @@ Bepaal en vorm publiekssegmenten voor uw campagnes gebruikend de het publieksact
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Dimensieactiviteit wijzigen
 
@@ -60,7 +60,7 @@ Verbeter het richten door tussen gegevensentiteiten binnen uw campagne te versch
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Kanaalactiviteiten
 
@@ -70,7 +70,7 @@ Stel e-mail, SMS, pushberichten en direct mail in voor interkanaals orchestratie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 Activiteiten combineren
 
