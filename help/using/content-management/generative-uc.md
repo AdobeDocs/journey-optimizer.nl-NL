@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 36bef8f07645b1e9a5a010e3f1b4044f2099b002
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [&#x200B; Grafieken en Beperkingen &#x200B;](gs-generative.md#generative-guardrails).
+>Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](gs-generative.md#generative-guardrails).
 
 ## Bestaande inhoud gebruiken
 
-![](assets/do-not-localize/gen-ai-reuse-text.gif)
+![ Geanimeerde demonstratie die AI Medewerker toont die bestaande campagneinhoud opnieuw gebruiken om nieuwe variaties te produceren ](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 1. Selecteer **[!UICONTROL Edit content]** nadat u de campagne hebt ingesteld.
 
@@ -41,7 +41,7 @@ Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-mailcamp
 
 ## Variatie verfijnen
 
-![](assets/do-not-localize/gen-ai-variation.gif)
+![ Geanimeerde demonstratie van het raffineren van AI-Gegenereerde inhoudsvariaties die gebruiken herhaal en vat opties ](assets/do-not-localize/gen-ai-variation.gif) samen
 
 1. Klik op **[!UICONTROL Edit content]** als uw campagne is ingesteld en geconfigureerd.
 
@@ -71,7 +71,7 @@ Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-mailcamp
 
 ## Vergelijkbare afbeelding genereren
 
-![](assets/do-not-localize/uc-image-similar.gif)
+![ Geanimeerde demonstratie van het produceren van gelijkaardige beeldvariaties die op een geselecteerd AI-Gegenereerd beeld ](assets/do-not-localize/uc-image-similar.gif) worden gebaseerd
 
 1. Selecteer **[!UICONTROL Edit content]** nadat u de campagne hebt ingesteld.
 
@@ -91,7 +91,7 @@ Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-mailcamp
 
 ## Een stijlverwijzing uploaden
 
-![](assets/do-not-localize/uc-image-reference.gif)
+![ Geanimeerde demonstratie van het uploaden van een verwijzingsbeeld om AI Hulpstijl van de beeldgeneratie te begeleiden ](assets/do-not-localize/uc-image-reference.gif)
 
 1. Klik op **[!UICONTROL Edit content]** nadat u uw e-mailcampagne hebt ingesteld en geconfigureerd.
 
@@ -115,7 +115,7 @@ Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-mailcamp
 
 ## Inhoud genereren in ondersteunde talen{#languages}
 
-![](assets/do-not-localize/gen-ai-language.gif)
+![ Geanimeerde demonstratie van AI Medewerker die inhoud in veelvoudige talen met inbegrip van Frans, Spaans, en Duits produceert ](assets/do-not-localize/gen-ai-language.gif)
 
 1. Klik op **[!UICONTROL Edit content]** als uw campagne is ingesteld en geconfigureerd.
 

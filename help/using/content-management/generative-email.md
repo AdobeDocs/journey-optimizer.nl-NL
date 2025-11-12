@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1815'
 ht-degree: 1%
 
 ---
@@ -19,10 +19,10 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [&#x200B; Grafieken en Beperkingen &#x200B;](gs-generative.md#generative-guardrails).
+>Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](gs-generative.md#generative-guardrails).
 ></br>
 >
->U moet met a [&#x200B; gebruikersovereenkomst &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u AI Medewerker in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u AI Medewerker in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 Nadat u uw e-mails hebt gemaakt en aangepast, kunt u de kracht van AI Assistant in Journey Optimizer benutten, gevoed door generatieve AI, om uw inhoud te verhogen.
 
@@ -38,21 +38,21 @@ In het volgende voorbeeld gebruiken we AI Assistant om een bestaande e-mailsjabl
 
 1. Klik op **[!UICONTROL Edit content]** nadat u uw e-mailcampagne hebt gemaakt en geconfigureerd.
 
-   Voor meer informatie over hoe te om uw e-mailcampagne te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../campaigns/create-campaign.md).
+   Voor meer informatie over hoe te om uw e-mailcampagne te vormen, verwijs naar [ deze pagina ](../campaigns/create-campaign.md).
 
 1. Pas de layout naar wens aan en open het menu **[!UICONTROL AI Assistant]** .
 
-   ![](assets/full-email-1.png){zoomable="yes"}
+   ![ AI Medewerker paneel in E-mail Designer die merkselectie en snel gebied tonen ](assets/full-email-1.png){zoomable="yes"}
 
 1. Schakel de optie **[!UICONTROL Use original content]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
-1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [&#x200B; leer meer &#x200B;](brands.md) op Banden.
+1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
    Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang **[!UICONTROL Prompt Library]** die een diverse waaier van snelle ideeën verstrekt om uw campagnes te verbeteren.
 
-   ![](assets/full-email-2.png){zoomable="yes"}
+   ![ Prompt gebied met de knoop van de Bibliotheek van de Vragen die pre-geschreven vraagsuggesties ](assets/full-email-2.png){zoomable="yes"} toont
 
 1. U kunt de opties **[!UICONTROL Subject line]** en **[!UICONTROL Preheader]** in- en uitschakelen om deze op te nemen in de generatie van varianten.
 
@@ -62,7 +62,7 @@ In het volgende voorbeeld gebruiken we AI Assistant om een bestaande e-mailsjabl
    * **[!UICONTROL Languages]**: kies de taal van de gegenereerde inhoud.
    * **[!UICONTROL Tone]**: De toon van uw e-mail zou met uw publiek moeten resoneren. Of u informatief wilt klinken, playful, of overtuigend, AI Medewerker kan het bericht dienovereenkomstig aanpassen.
 
-   ![](assets/full-email-4.png){zoomable="yes"}
+   ![ het instellingenpaneel van de Tekst die Communicatie strategie, Talen, en de opties van de Tint tonen ](assets/full-email-4.png){zoomable="yes"}
 
 1. Kies uw **[!UICONTROL Image settings]** :
 
@@ -72,13 +72,13 @@ In het volgende voorbeeld gebruiken we AI Assistant om een bestaande e-mailsjabl
    * **[!UICONTROL Lighting]**: hiermee wordt de bliksemschicht in een afbeelding bedoeld, die de atmosfeer van de afbeelding bepaalt en specifieke elementen markeert.
    * **[!UICONTROL Composition]**: dit heeft betrekking op de rangschikking van elementen binnen het kader van een afbeelding
 
-   ![](assets/full-email-6.png){zoomable="yes"}
+   ![ het montagespaneel van het Beeld tonend Inhoudstype, Visuele intensiteit, Kleur en toon, Belichting, en de opties van de Samenstelling ](assets/full-email-6.png){zoomable="yes"}
 
 1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om een merkelement toe te voegen dat inhoud bevat die extra context-AI-assistent kan bieden of selecteer een eerder geüpload element.
 
    Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel eenvoudig de elementen in die u wilt opnemen in uw generatie.
 
-   ![](assets/full-email-3.png){zoomable="yes"}
+   ![ de activasectie van het Merk met de knoop van het Merk van de Upload en lijst van eerder geüploade activa ](assets/full-email-3.png){zoomable="yes"}
 
 1. Klik op **[!UICONTROL Generate]** als de vraag gereed is.
 
@@ -86,9 +86,9 @@ In het volgende voorbeeld gebruiken we AI Assistant om een bestaande e-mailsjabl
 
 1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
 
-   Leer meer op [&#x200B; de groeperingsscore van het Merk &#x200B;](brands-score.md).
+   Leer meer op [ de groeperingsscore van het Merk ](brands-score.md).
 
-   ![](assets/full-email-7.png){zoomable="yes"}
+   ![ het paneel van de Score van de Groepering van het Merk die percentagescore met gedetailleerde groeperingsmetriek tonen ](assets/full-email-7.png){zoomable="yes"}
 
 1. Navigeer naar de optie **[!UICONTROL Refine]** in het **[!UICONTROL Preview]** -venster voor toegang tot extra aanpassingsfuncties:
 
@@ -98,9 +98,9 @@ In het volgende voorbeeld gebruiken we AI Assistant om een bestaande e-mailsjabl
 
    U kunt ook de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de tekst wijzigen.
 
-   ![](assets/full-email-5.png){zoomable="yes"}
+   ![ verfijnen menu het tonen van Rehrase en Gebruik eenvoudigere taalopties met Tone en Communicatie strategiedropdowns ](assets/full-email-5.png){zoomable="yes"}
 
-1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [&#x200B; merkrichtlijnen &#x200B;](brands.md) richt.
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](brands.md) richt.
 
 1. Klik op **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 
@@ -116,21 +116,21 @@ In het volgende voorbeeld gebruiken we AI Assistant om de inhoud van onze e-mail
 
 1. Klik op **[!UICONTROL Edit content]** nadat u uw e-mailcampagne hebt gemaakt en geconfigureerd.
 
-   Voor meer informatie over hoe te om uw e-mailcampagne te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../email/create-email.md).
+   Voor meer informatie over hoe te om uw e-mailcampagne te vormen, verwijs naar [ deze pagina ](../email/create-email.md).
 
 1. Selecteer een **[!UICONTROL Text component]** als u alleen een specifieke inhoud als doel wilt instellen. en opent u het menu **[!UICONTROL AI Assistant]** .
 
-   ![](assets/text-genai-1.png){zoomable="yes"}
+   ![ E-mail Designer met de geselecteerde component van de Tekst en AI Hulpmenu dat in juist paneel wordt geopend ](assets/text-genai-1.png){zoomable="yes"}
 
 1. Schakel de optie **[!UICONTROL Use original content]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
-1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [&#x200B; leer meer &#x200B;](brands.md) op Banden.
+1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
    Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang **[!UICONTROL Prompt Library]** die een diverse waaier van snelle ideeën verstrekt om uw campagnes te verbeteren.
 
-   ![](assets/text-genai-2.png){zoomable="yes"}
+   ![ AI Hulp het deelvenster van de tekstgeneratie met het Herinneren gebied, de selecteur van het Merk, en de Snelle toegang van de Bibliotheek ](assets/text-genai-2.png){zoomable="yes"}
 
 1. Volg uw vraag met de optie **[!UICONTROL Text settings]** :
 
@@ -139,13 +139,13 @@ In het volgende voorbeeld gebruiken we AI Assistant om de inhoud van onze e-mail
    * **[!UICONTROL Tone]**: De toon van uw e-mail zou met uw publiek moeten resoneren. Of u informatief wilt klinken, playful, of overtuigend, AI Medewerker kan het bericht dienovereenkomstig aanpassen.
    * **Lengte van de Tekst**: Gebruik de schuif om de gewenste lengte van uw tekst te selecteren.
 
-   ![](assets/text-genai-4.png){zoomable="yes"}
+   ![ de montages van de Tekst uitgevouwen het tonen van Communicatie strategie, Talen, Toon, en de schuifregelaars van de Lengte van de Tekst ](assets/text-genai-4.png){zoomable="yes"}
 
 1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om een merkelement toe te voegen dat inhoud bevat die extra context-AI-assistent kan bieden of selecteer een eerder geüpload element.
 
    Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel eenvoudig de elementen in die u wilt opnemen in uw generatie.
 
-   ![](assets/text-genai-3.png){zoomable="yes"}
+   ![ Merk activa dropdown menu tonend knevels voor eerder geupload merkactiva ](assets/text-genai-3.png){zoomable="yes"}
 
 1. Klik op **[!UICONTROL Generate]** als de vraag gereed is.
 
@@ -155,9 +155,9 @@ In het volgende voorbeeld gebruiken we AI Assistant om de inhoud van onze e-mail
 
 1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
 
-   Leer meer op [&#x200B; de groeperingsscore van het Merk &#x200B;](brands-score.md).
+   Leer meer op [ de groeperingsscore van het Merk ](brands-score.md).
 
-   ![](assets/text-genai-6.png){zoomable="yes"}
+   ![ Gegenereerde tekstvariaties met het percentageindicator van de Score van de Groepering en voorproefopties ](assets/text-genai-6.png){zoomable="yes"}
 
 1. Navigeer naar de optie **[!UICONTROL Refine]** in het **[!UICONTROL Preview]** -venster voor toegang tot extra aanpassingsfuncties:
 
@@ -173,9 +173,9 @@ In het volgende voorbeeld gebruiken we AI Assistant om de inhoud van onze e-mail
 
    U kunt ook de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de tekst wijzigen.
 
-   ![](assets/text-genai-5.png){zoomable="yes"}
+   ![ verfijnen optiemenu dat uitgeeft toont, vat samen, herhaal, en gebruik eenvoudigere taalknopen met de dropdown van de Toon ](assets/text-genai-5.png){zoomable="yes"}
 
-1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [&#x200B; merkrichtlijnen &#x200B;](brands.md) richt.
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](brands.md) richt.
 
 1. Klik op **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 
@@ -191,23 +191,23 @@ In het onderstaande voorbeeld leert u hoe u AI Assistant kunt gebruiken om uw mi
 
 1. Klik op **[!UICONTROL Edit content]** nadat u uw e-mailcampagne hebt gemaakt en geconfigureerd.
 
-   Voor meer informatie over hoe te om uw e-mailcampagne te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../email/create-email.md).
+   Voor meer informatie over hoe te om uw e-mailcampagne te vormen, verwijs naar [ deze pagina ](../email/create-email.md).
 
 1. Selecteer het element dat u wilt wijzigen met AI Assistant.
 
 1. Selecteer **[!UICONTROL AI Assistant]** in het rechtermenu.
 
-   ![](assets/image-genai-1.png){zoomable="yes"}
+   ![ E-mail Designer met geselecteerde beeldactiva en AI Medewerker die voor beeldgeneratie wordt geopend ](assets/image-genai-1.png){zoomable="yes"}
 
 1. Schakel de optie **[!UICONTROL Reference style]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de referentie-inhoud. U kunt ook een afbeelding uploaden om context aan uw variatie toe te voegen.
 
-1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [&#x200B; leer meer &#x200B;](brands.md) op Banden.
+1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
    Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang **[!UICONTROL Prompt Library]** die een diverse waaier van snelle ideeën verstrekt om uw campagnes te verbeteren.
 
-   ![](assets/image-genai-2.png){zoomable="yes"}
+   ![ AI Hulp het deelvenster van de beeldgeneratie met de stijlknevel van de Verwijzing, de selecteur van het Merk, en het gebied van de Vragen ](assets/image-genai-2.png){zoomable="yes"}
 
 1. Volg uw vraag met de optie **[!UICONTROL Image settings]** :
 
@@ -218,7 +218,7 @@ In het onderstaande voorbeeld leert u hoe u AI Assistant kunt gebruiken om uw mi
    * **[!UICONTROL Lighting]**: hiermee wordt de bliksemschicht in een afbeelding bedoeld, die de atmosfeer van de afbeelding bepaalt en specifieke elementen markeert.
    * **[!UICONTROL Composition]**: dit heeft betrekking op de rangschikking van elementen binnen het kader van een afbeelding
 
-   ![](assets/image-genai-4.png){zoomable="yes"}
+   ![ de montagespaneel van het Beeld met de verhouding, het type van Inhoud, Visuele intensiteit, Kleur en toon, Belichting, en de controles van de Samenstelling ](assets/image-genai-4.png){zoomable="yes"}
 
 1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om een merkelement toe te voegen dat inhoud bevat die extra context-AI-assistent kan bieden of selecteer een eerder geüpload element.
 
@@ -232,7 +232,7 @@ In het onderstaande voorbeeld leert u hoe u AI Assistant kunt gebruiken om uw mi
 
 1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
 
-   Leer meer op [&#x200B; de groeperingsscore van het Merk &#x200B;](brands-score.md).
+   Leer meer op [ de groeperingsscore van het Merk ](brands-score.md).
 
    <!--
     ![](assets/image-genai-7.png){zoomable="yes"}
@@ -247,7 +247,7 @@ In het onderstaande voorbeeld leert u hoe u AI Assistant kunt gebruiken om uw mi
 
    * **[!UICONTROL Save]** gebruiken om de elementen op te slaan, zodat u ze later kunt gebruiken.
 
-   ![](assets/image-genai-5.png){zoomable="yes"}
+   ![ verfijnen opties voor geproduceerde beelden die Gelijkaardig tonen produceren, in Adobe Express uitgeven, en sparen knopen ](assets/image-genai-5.png){zoomable="yes"} tonen
 
 1. Klik op **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 
