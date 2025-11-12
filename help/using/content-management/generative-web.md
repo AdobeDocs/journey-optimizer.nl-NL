@@ -19,10 +19,10 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](gs-generative.md#generative-guardrails).
+>Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [&#x200B; Grafieken en Beperkingen &#x200B;](gs-generative.md#generative-guardrails).
 ></br>
 >
->U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u AI Medewerker in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>U moet met a [&#x200B; gebruikersovereenkomst &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u AI Medewerker in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 Als u eenmaal uw webpagina&#39;s hebt gemaakt en gepersonaliseerd, gebruikt u AI Assistant in Journey Optimizer, aangedreven door generatieve AI, om uw inhoud naar het volgende niveau te brengen.
 
@@ -34,15 +34,15 @@ De AI Assistant in Journey Optimizer kan u helpen de impact van uw leveringen te
 
 1. Klik op **[!UICONTROL Edit web page]** nadat u de webpagina hebt gemaakt en geconfigureerd.
 
-   Voor meer informatie over hoe te om uw Web-pagina te vormen, verwijs naar [ deze pagina ](../web/create-web.md).
+   Voor meer informatie over hoe te om uw Web-pagina te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../web/create-web.md).
 
 1. Selecteer een **[!UICONTROL Text component]** als u alleen een specifieke inhoud als doel wilt instellen. en opent u het menu **[!UICONTROL Show AI Assistant]** .
 
-   ![ de ontwerper van het Web met de geselecteerde component van de Tekst en toon AI Hulp menuknoop ](assets/web-gen-full-1.png){zoomable="yes"}
+   ![&#x200B; de ontwerper van het Web met de geselecteerde component van de Tekst en toon AI Hulp menuknoop &#x200B;](assets/web-gen-full-1.png){zoomable="yes"}
 
 1. Schakel de optie **[!UICONTROL Use original content]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
-1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
+1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [&#x200B; leer meer &#x200B;](brands.md) op Banden.
 
    Merk op dat de eigenschap van Merken als privé bèta wordt vrijgegeven en aan alle klanten in toekomstige versies geleidelijk beschikbaar zal zijn.
 
@@ -50,7 +50,7 @@ De AI Assistant in Journey Optimizer kan u helpen de impact van uw leveringen te
 
    Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang **[!UICONTROL Prompt Library]** die een diverse waaier van snelle ideeën verstrekt om uw campagnes te verbeteren.
 
-   ![ AI Medewerker paneel voor Web-pagina tekst met de selecteur van het Merk, het gebied van de Vragen, en de knoop van de Bibliotheek van de Vragen ](assets/web-gen-full-2.png){zoomable="yes"}
+   ![&#x200B; AI Medewerker paneel voor Web-pagina tekst met de selecteur van het Merk, het gebied van de Vragen, en de knoop van de Bibliotheek van de Vragen &#x200B;](assets/web-gen-full-2.png){zoomable="yes"}
 
 1. Volg uw vraag met de optie **[!UICONTROL Text settings]** :
 
@@ -59,7 +59,7 @@ De AI Assistant in Journey Optimizer kan u helpen de impact van uw leveringen te
    * **[!UICONTROL Tone]**: De tint van uw webpagina moet reageren op uw publiek. Of u informatief wilt klinken, playful, of overtuigend, AI Medewerker kan het bericht dienovereenkomstig aanpassen.
    * **Lengte van de Tekst**: Gebruik de schuif om de gewenste lengte van uw tekst te selecteren.
 
-   ![ het instellingenpaneel van de Tekst die Communicatie strategie, Talen, Toon, en de schuif van de Lengte van de Tekst voor Webinhoud tonen ](assets/web-gen-full-3.png){zoomable="yes"}
+   ![&#x200B; het instellingenpaneel van de Tekst die Communicatie strategie, Talen, Toon, en de schuif van de Lengte van de Tekst voor Webinhoud tonen &#x200B;](assets/web-gen-full-3.png){zoomable="yes"}
 
 1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om een merkelement toe te voegen dat inhoud bevat die extra context-AI-assistent kan bieden of selecteer een eerder geüpload element.
 
@@ -73,9 +73,9 @@ De AI Assistant in Journey Optimizer kan u helpen de impact van uw leveringen te
 
 1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
 
-   Leer meer op [ de groeperingsscore van het Merk ](brands-score.md).
+   Leer meer op [&#x200B; de groeperingsscore van het Merk &#x200B;](brands-score.md).
 
-   ![ Gegenereerde de variaties van de Web-pagina tekst met het percentageindicator van de Score van de Groepering ](assets/web-gen-full-4.png){zoomable="yes"}
+   ![&#x200B; Gegenereerde de variaties van de Web-pagina tekst met het percentageindicator van de Score van de Groepering &#x200B;](assets/web-gen-full-4.png){zoomable="yes"}
 
 1. Navigeer naar de optie **[!UICONTROL Refine]** in het **[!UICONTROL Preview]** -venster voor toegang tot extra aanpassingsfuncties:
 
@@ -91,9 +91,9 @@ De AI Assistant in Journey Optimizer kan u helpen de impact van uw leveringen te
 
    U kunt ook de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de tekst wijzigen.
 
-   ![ verfijnen menu voor Webtekst die Elaborate, Samenvatten, Hervatten, de eenvoudigere taal van het Gebruik met dropdown van de Toon toont ](assets/web-gen-full-5.png){zoomable="yes"}
+   ![&#x200B; verfijnen menu voor Webtekst die Elaborate, Samenvatten, Hervatten, de eenvoudigere taal van het Gebruik met dropdown van de Toon toont &#x200B;](assets/web-gen-full-5.png){zoomable="yes"}
 
-1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](brands.md) richt.
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [&#x200B; merkrichtlijnen &#x200B;](brands.md) richt.
 
 1. Klik op **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 
@@ -107,17 +107,17 @@ In het onderstaande voorbeeld leert u hoe u AI Assistant in Journey Optimizer ku
 
 1. Klik op **[!UICONTROL Edit web page]** nadat u de webpagina hebt gemaakt en geconfigureerd.
 
-   Voor meer informatie over hoe te om uw Web-pagina te vormen, verwijs naar [ deze pagina ](../web/create-web.md).
+   Voor meer informatie over hoe te om uw Web-pagina te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../web/create-web.md).
 
 1. Selecteer het element dat u wilt wijzigen met AI Assistant.
 
 1. Selecteer **[!UICONTROL Show AI Assistant]** in het rechtermenu.
 
-   ![ de ontwerper van het Web met geselecteerde beeldactiva en toon AI Medewerkend paneel dat voor beeldgeneratie wordt geopend ](assets/web-gen-img-1.png){zoomable="yes"}
+   ![&#x200B; de ontwerper van het Web met geselecteerde beeldactiva en toon AI Medewerkend paneel dat voor beeldgeneratie wordt geopend &#x200B;](assets/web-gen-img-1.png){zoomable="yes"}
 
 1. Schakel de optie **[!UICONTROL Reference style]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de referentie-inhoud. U kunt ook een afbeelding uploaden om context aan uw variatie toe te voegen.
 
-1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
+1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [&#x200B; leer meer &#x200B;](brands.md) op Banden.
 
    Merk op dat de eigenschap van Merken als privé bèta wordt vrijgegeven en aan alle klanten in toekomstige versies geleidelijk beschikbaar zal zijn.
 
@@ -125,7 +125,7 @@ In het onderstaande voorbeeld leert u hoe u AI Assistant in Journey Optimizer ku
 
    Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang **[!UICONTROL Prompt Library]** die een diverse waaier van snelle ideeën verstrekt om uw campagnes te verbeteren.
 
-   ![ AI Hulp beeldgeneratie voor Web met de stijlknevel van de Verwijzing, de selecteur van het Merk, en het gebied van de Vragen ](assets/web-gen-img-2.png){zoomable="yes"}
+   ![&#x200B; AI Hulp beeldgeneratie voor Web met de stijlknevel van de Verwijzing, de selecteur van het Merk, en het gebied van de Vragen &#x200B;](assets/web-gen-img-2.png){zoomable="yes"}
 
 1. Volg uw vraag met de optie **[!UICONTROL Image settings]** :
 
@@ -136,7 +136,7 @@ In het onderstaande voorbeeld leert u hoe u AI Assistant in Journey Optimizer ku
    * **[!UICONTROL Lighting]**: hiermee wordt de bliksemschicht in een afbeelding bedoeld, die de atmosfeer van de afbeelding bepaalt en specifieke elementen markeert.
    * **[!UICONTROL Composition]**: dit heeft betrekking op de rangschikking van elementen binnen het kader van een afbeelding
 
-   ![ de montagespaneel van het Beeld voor Web met de Verhouding, het type van Inhoud, Visuele intensiteit, Kleur en toon, Belichting, en Samenstelling ](assets/web-gen-img-3.png){zoomable="yes"}
+   ![&#x200B; de montagespaneel van het Beeld voor Web met de Verhouding, het type van Inhoud, Visuele intensiteit, Kleur en toon, Belichting, en Samenstelling &#x200B;](assets/web-gen-img-3.png){zoomable="yes"}
 
 1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om een merkelement toe te voegen dat inhoud bevat die extra context-AI-assistent kan bieden of selecteer een eerder geüpload element.
 
@@ -150,9 +150,9 @@ In het onderstaande voorbeeld leert u hoe u AI Assistant in Journey Optimizer ku
 
 1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
 
-   Leer meer op [ de groeperingsscore van het Merk ](brands-score.md).
+   Leer meer op [&#x200B; de groeperingsscore van het Merk &#x200B;](brands-score.md).
 
-   ![ Gegenereerde de veranderingen van het Web-pagina beeld met de Score van de Uitlijning van het Merk en voorproefcontroles ](assets/web-gen-img-4.png){zoomable="yes"}
+   ![&#x200B; Gegenereerde de veranderingen van het Web-pagina beeld met de Score van de Uitlijning van het Merk en voorproefcontroles &#x200B;](assets/web-gen-img-4.png){zoomable="yes"}
 
 1. Navigeer naar de optie **[!UICONTROL Refine]** in het **[!UICONTROL Preview]** -venster voor toegang tot extra aanpassingsfuncties:
 
@@ -163,9 +163,9 @@ In het onderstaande voorbeeld leert u hoe u AI Assistant in Journey Optimizer ku
 
    * **[!UICONTROL Save]** gebruiken om de elementen op te slaan, zodat u ze later kunt gebruiken.
 
-   ![ verfijnen opties voor Webbeelden die Gelijkaardig tonen, in Adobe Express, uitgeven, en sparen knopen tonen ](assets/web-gen-img-5.png){zoomable="yes"}
+   ![&#x200B; verfijnen opties voor Webbeelden die Gelijkaardig tonen, in Adobe Express, uitgeven, en sparen knopen tonen &#x200B;](assets/web-gen-img-5.png){zoomable="yes"}
 
-1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](brands.md) richt.
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [&#x200B; merkrichtlijnen &#x200B;](brands.md) richt.
 
 1. Klik op **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 
