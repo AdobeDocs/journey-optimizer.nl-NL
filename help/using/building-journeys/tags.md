@@ -10,9 +10,9 @@ level: Intermediate
 keywords: reis, tags
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Als Journey Optimizer-expert kunt u uw reizen organiseren met tags. Met tags kun
 
 ## Tags toevoegen aan een rit
 
-Het **gebied van Markeringen**, in de reiseigenschappen, staat u toe om markeringen voor uw reis te bepalen. U kunt een bestaande tag selecteren of een nieuwe tag maken. Typ de naam van de gewenste tag en selecteer deze in de lijst. Als het niet beschikbaar is, creeert de klik **&#x200B;**&#x200B;om nieuwe tot stand te brengen en het toe te voegen aan uw reis. U kunt zo veel tags definiëren als nodig is.
+Het **gebied van Markeringen**, in de reiseigenschappen, staat u toe om markeringen voor uw reis te bepalen. U kunt een bestaande tag selecteren of een nieuwe tag maken. Typ de naam van de gewenste tag en selecteer deze in de lijst. Als het niet beschikbaar is, creeert de klik **** om nieuwe tot stand te brengen en het toe te voegen aan uw reis. U kunt zo veel tags definiëren als nodig is.
 
-![](assets/tags1.png)
+![ het paneel van Markeringen in reiseigenschappen voor categorisatie en organisatie ](assets/tags1.png)
 
 De lijst van bepaalde markeringen wordt getoond onder het **gebied van Markeringen**.
 
@@ -41,15 +41,15 @@ De lijst van de Reis toont een specifieke kolom zodat kunt u uw markeringen gema
 
 Een filter is ook beschikbaar om alleen reizen met bepaalde tags weer te geven.
 
-![](assets/tags2.png)
+![ drop-down van de selectie van de markering met beschikbare markeringen voor reisclassificatie ](assets/tags2.png)
 
 U kunt tags toevoegen aan of verwijderen uit elk type transport (live, concept, enz.). Klik het **Meer acties** pictogram naast de reis, en selecteer **uitgeven markeringen**.
 
-![](assets/tags3.png)
+![ Reis die lijst door markeringen wordt gefiltreerd die gecategoriseerde reizen tonen ](assets/tags3.png)
 
 ## Tags beheren
 
-De beheerders kunnen markeringen schrappen en hen door categorieën organiseren gebruikend het **menu van Codes**, onder **BEHEER**. Verwijs naar deze [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=nl-NL).
+De beheerders kunnen markeringen schrappen en hen door categorieën organiseren gebruikend het **menu van Codes**, onder **BEHEER**. Verwijs naar deze [ documentatie ](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html).
 
 >[!NOTE]
 >

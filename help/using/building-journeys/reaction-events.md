@@ -10,9 +10,9 @@ level: Intermediate
 keywords: reis, gebeurtenissen, reactie, volgen, platform
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '383'
 ht-degree: 2%
 
 ---
@@ -32,9 +32,9 @@ U kunt dit mechanisme ook gebruiken om een actie uit te voeren wanneer er geen r
 
 Let op: u kunt een reactieactiviteit alleen gebruiken op het canvas als er al eerder een kanaalactieactiviteit is (E-mail en push).
 
-Zie [&#x200B; Ongeveer actieactiviteiten &#x200B;](../building-journeys/about-journey-activities.md#action-activities).
+Zie [ Ongeveer actieactiviteiten ](../building-journeys/about-journey-activities.md#action-activities).
 
-![](assets/journey45.png)
+![ de gebeurtenisconfiguratie van de Reactie met kanaalselectie en gebeurtenistypeopties ](assets/journey45.png)
 
 Hier volgen de verschillende stappen voor het configureren van reactiegebeurtenissen:
 

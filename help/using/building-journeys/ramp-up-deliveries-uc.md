@@ -12,18 +12,18 @@ hidefromtoc: true
 keywords: leverbaarheid, transport, gebruiksscenario, e-mail, reputatie
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '270'
 ht-degree: 2%
 
 ---
 
 # Gebruik hoofdletters/kleine letters: maak uw leveringen groter{#use-case-ramp-up-your-deliveries}
 
-Als u onlangs naar een andere e-maildienstverlener, IP adres, of e-maildomein of subdomain bent verplaatst, moet u uw reputatie als afzender vestigen. Anders, zouden uw leveringen kunnen worden geblokkeerd of aan de spamomslag van de brievenbus van ontvangers worden verplaatst. Leer hoe te om uw e-mailreputatie met IP opwarmen in de [&#x200B; Gids van de Beste praktijken van de Levering te verhogen &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=nl-NL){target="_blank"}.
+Als u onlangs naar een andere e-maildienstverlener, IP adres, of e-maildomein of subdomain bent verplaatst, moet u uw reputatie als afzender vestigen. Anders, zouden uw leveringen kunnen worden geblokkeerd of aan de spamomslag van de brievenbus van ontvangers worden verplaatst. Leer hoe te om uw e-mailreputatie met IP opwarmen in de [ Gids van de Beste praktijken van de Levering te verhogen ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html){target="_blank"}.
 
-Om uw IP op te warmen, kunt u geleidelijk het aantal van uw leveringen opvoeren. Lees meer over [&#x200B; optimaliserend leverbaarheid in Journey Optimizer &#x200B;](../reports/deliverability.md).
+Om uw IP op te warmen, kunt u geleidelijk het aantal van uw leveringen opvoeren. Lees meer over [ optimaliserend leverbaarheid in Journey Optimizer ](../reports/deliverability.md).
 
 Het doel van deze gebruikszaak is een reis te maken om uw e-mailleveringen op te voeren. Om deze reis te vormen, volg deze stappen:
 
@@ -37,13 +37,13 @@ Het doel van deze gebruikszaak is een reis te maken om uw e-mailleveringen op te
 
    1. Stel het veld **[!UICONTROL Limit]** in op het maximum aantal ontvangers voor deze levering.
 
-   ![](assets/profile-cap-condition.png)
+   ![ de configuratie van de het GLB van het Profiel voor het controleren van leveringsvolume ](assets/profile-cap-condition.png)
 
    U kunt deze limiet geleidelijk verhogen tot het totale aantal abonnees.
 
 1. Voeg een handeling **[!UICONTROL Email]** toe aan het nominale pad na de handeling **[!UICONTROL Condition]** .
 
-   ![](assets/ramp-up-deliveries-message.png)
+   ![ de configuratie van het e-mailbericht in overleden leveringsreis ](assets/ramp-up-deliveries-message.png)
 
    Wanneer de reis loopt, wordt het bericht verzonden de het ingaan profielen, tot het maximumaantal profielen dat u hebt gespecificeerd. Wanneer deze limiet is bereikt, nemen de ingevoerde profielen het alternatieve pad aan.
 
