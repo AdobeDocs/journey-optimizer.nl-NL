@@ -5,7 +5,7 @@ title: Geordende campagnes Veelgestelde vragen
 description: Veelgestelde vragen over door Journey Optimizer georganiseerde campagnes
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 536d080e455e4872ed6e58b11adc3324b332f7b5
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '1799'
 ht-degree: 5%
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 Hieronder vindt u Veelgestelde vragen over door Adobe Journey Optimizer geordende campagnes.
 
-Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [&#x200B; gemeenschap van Adobe Journey Optimizer &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
+Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [ gemeenschap van Adobe Journey Optimizer ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
 
 +++ Wat is campagneorkest?
 
@@ -64,7 +64,7 @@ Om tot Campagneorganisatie toegang te hebben, moet uw vergunning of de **Journey
 **Meer informatie**
 
 * [Aan de slag met georkestreerde campagnes](gs-orchestrated-campaigns.md)
-* [&#x200B; Adobe Journey Optimizer productbeschrijving &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [ Adobe Journey Optimizer productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
 
 +++
 
@@ -247,7 +247,7 @@ In Campagne Orchestration, verwijzen wij naar ad hoc segmentatie als &quot;Leven
 
 +++ Heeft Campagne Orchestration alleen toegang tot gegevens die via batch zijn geladen, of kan het ook vragen in real time bijgewerkte tabellen (zoals Analytics-gegevens)?
 
-Journey Optimizer Campaign Orchestration kan ad-hocquery&#39;s bouwen boven op modelgebaseerde schema&#39;s. Modelgebaseerde schema&#39;s ondersteunen alleen op dit moment Batch-bronnen. Bovendien ondersteunt het publiek Lees hier activiteiten van elk type Adobe Experience Platform Audience.
+Journey Optimizer Campaign Orchestration kan ad-hocquery&#39;s bouwen boven op relationele schema&#39;s. Relationele schema&#39;s ondersteunen alleen Batch-bronnen voor nu. Bovendien ondersteunt het publiek Lees hier activiteiten van elk type Adobe Experience Platform Audience.
 
 **Meer informatie**
 
@@ -375,4 +375,4 @@ Raadpleeg de volgende bronnen voor meer informatie en updates:
 * [Gestroomlijnde campagnes zorgen en beperkingen](guardrails.md)
 * [Begin met schema&#39;s en datasets in Geordende campagnes](gs-schemas.md)
 * [Uw eerste geordende campagne maken](gs-campaign-creation.md)
-* [&#x200B; de Beschrijving van het Product van Journey Optimizer &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
