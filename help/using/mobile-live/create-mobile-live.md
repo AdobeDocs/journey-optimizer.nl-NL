@@ -48,15 +48,15 @@ Nadat u uw mobiele configuratie hebt geconfigureerd en uw mobiele Adobe Experien
 
 1. Kies **[!UICONTROL Actions]** in de sectie **[!UICONTROL Live activity]** en selecteer of maak een nieuwe configuratie.
 
-   Leer meer over Levende activiteitenconfiguratie op [ deze pagina ](mobile-live-configuration.md).
+   Leer meer over Levende activiteitenconfiguratie op [&#x200B; deze pagina &#x200B;](mobile-live-configuration.md).
 
    ![](assets/create-live-2.png)
 
 1. Klik op **[!UICONTROL Create experiment]** om uw inhoudexperiment te configureren en behandelingen te maken om de prestaties te meten en de beste optie voor uw doelgroep te identificeren. [Meer informatie](../content-management/content-experiment.md)
 
-1. Van het **[!UICONTROL Audience]** lusje, kies uw **[!UICONTROL Identity type]** [ Leer meer ](../audience/about-audiences.md).
+1. Van het **[!UICONTROL Audience]** lusje, kies uw **[!UICONTROL Identity type]** [&#x200B; Leer meer &#x200B;](../audience/about-audiences.md).
 
-1. Campagnes worden ontworpen om op een specifieke datum of op een terugkomende frequentie worden uitgevoerd. Leer hoe te om **[!UICONTROL Schedule]** van uw campagne in [ te vormen deze sectie ](../campaigns/create-campaign.md#schedule).
+1. Campagnes worden ontworpen om op een specifieke datum of op een terugkomende frequentie worden uitgevoerd. Leer hoe te om **[!UICONTROL Schedule]** van uw campagne in [&#x200B; te vormen deze sectie &#x200B;](../campaigns/create-campaign.md#schedule).
 
 1. Klik na configuratie op **[!UICONTROL Review to activate]** en klik vervolgens op **[!UICONTROL Activate]** .
 
@@ -64,7 +64,7 @@ Nadat u uw mobiele configuratie hebt geconfigureerd en uw mobiele Adobe Experien
 
    Zorg ervoor dat u ook de **[!UICONTROL Campaign ID]** -id&#39;s kopieert en in de lading opneemt.
 
-   ➡️ Verwijs naar de [ API Verplaatste Documentatie van Campagnes ](https://developer.adobe.com/journey-optimizer-apis/references/messaging/) voor authentificatievereisten, met inbegrip van tokens OAuth en API sleutels.
+   ➡️ Verwijs naar de [&#x200B; API Verplaatste Documentatie van Campagnes &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging/) voor authentificatievereisten, met inbegrip van tokens OAuth en API sleutels.
 
    ![](assets/create-live-3.png)
 
@@ -116,4 +116,4 @@ Nadat u uw mobiele configuratie hebt geconfigureerd en uw mobiele Adobe Experien
 
    +++
 
-Na het ontwerpen van uw Levende activiteit, kunt u het meten van het effect van uw Levende activiteit met [ ingebouwde rapporten ](../reports/campaign-global-report-cja-activity.md) volgen.
+Na het ontwerpen van uw Levende activiteit, kunt u het meten van het effect van uw Levende activiteit met [&#x200B; ingebouwde rapporten &#x200B;](../reports/campaign-global-report-cja-activity.md) volgen.
