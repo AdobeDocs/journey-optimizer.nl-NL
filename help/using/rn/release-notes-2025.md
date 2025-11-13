@@ -59,7 +59,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 <tr>
 <td>
 <p>Aangedreven door <a href="https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank"> Adobe Experience Platform Agent Orchestrator </a>, is Journey Agent beschikbaar in Journey Optimizer. Het laat u toe om reizen door een natuurlijke taalinterface te analyseren. De agent zal publiek of programmaconflicten en profieldrop-offs in een reis ontdekken om u te helpen stappen nemen om hen op te lossen. Binnenkort kunt u reizen maken met ongeduldige ondersteuning.</p>
-<p>Voor meer informatie, verwijs naar de <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank"> gedetailleerde documentatie </a></p>
+<p>Voor meer informatie, verwijs naar de <a href="https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank"> gedetailleerde documentatie </a></p>
 <p>Beschikbaarheidsdatum: 24 september 2025</p>
 </td>
 </tr>
@@ -1603,7 +1603,7 @@ Raadpleeg de [gedetailleerde documentatie](../test-approve/approval-policies.md)
 
 **Bedrijfs regels**
 
-U kunt nu dagelijkse aftopping gebruiken in reizen en campagnes met batchsegmentatie. Om ervoor te zorgen dat de regels voor dagelijkse frequentiecapping correct zijn, moet u de naamruimte met de hoogste prioriteit kiezen tijdens het ontwerpen van een campagne of een reis. Leer meer over namespace prioriteit in de [&#x200B; gids van de Dienst van de Identiteit van het Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+U kunt nu dagelijkse aftopping gebruiken in reizen en campagnes met batchsegmentatie. Om ervoor te zorgen dat de regels voor dagelijkse frequentiecapping correct zijn, moet u de naamruimte met de hoogste prioriteit kiezen tijdens het ontwerpen van een campagne of een reis. Leer meer over namespace prioriteit in de [&#x200B; gids van de Dienst van de Identiteit van het Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
 Ter herinnering: dagelijkse frequentiecapping in regelsets is alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 

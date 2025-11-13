@@ -64,7 +64,7 @@ Om tot Campagneorganisatie toegang te hebben, moet uw vergunning of de **Journey
 **Meer informatie**
 
 * [Aan de slag met georkestreerde campagnes](gs-orchestrated-campaigns.md)
-* [&#x200B; Adobe Journey Optimizer productbeschrijving &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [&#x200B; Adobe Journey Optimizer productbeschrijving &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
 
 +++
 
@@ -375,4 +375,4 @@ Raadpleeg de volgende bronnen voor meer informatie en updates:
 * [Gestroomlijnde campagnes zorgen en beperkingen](guardrails.md)
 * [Begin met schema&#39;s en datasets in Geordende campagnes](gs-schemas.md)
 * [Uw eerste geordende campagne maken](gs-campaign-creation.md)
-* [&#x200B; de Beschrijving van het Product van Journey Optimizer &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [&#x200B; de Beschrijving van het Product van Journey Optimizer &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
