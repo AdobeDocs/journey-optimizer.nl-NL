@@ -21,7 +21,7 @@ ht-degree: 0%
 
 In deze sectie wordt een gebruiksscenario beschreven waarin een leespubliek, een gebeurtenis, reactiegebeurtenissen en e-mail-/pushberichten worden gecombineerd.
 
-![ Eenvoudige reisstroom met Gelezen Publiek, wacht, en e-mailactiviteiten ](assets/jo-uc1.png)
+![&#x200B; Eenvoudige reisstroom met Gelezen Publiek, wacht, en e-mailactiviteiten &#x200B;](assets/jo-uc1.png)
 
 ## Beschrijving van het gebruiksgeval
 
@@ -44,7 +44,7 @@ Voor dit gebruiksgeval om te werken, vorm het volgende:
 
 In deze reis, wordt een specifiek publiek van klanten leveraged. Alle personen die tot het publiek behoren, reizen de reis en volgen de verschillende stappen. In dit voorbeeld richt het publiek zich op alle klanten die in Atlanta, San Francisco of Seattle wonen en na 1980 geboren zijn.
 
-Voor meer informatie over publiek, [ verwijs naar deze pagina ](../audience/about-audiences.md).
+Voor meer informatie over publiek, [&#x200B; verwijs naar deze pagina &#x200B;](../audience/about-audiences.md).
 
 1. Selecteer **[!UICONTROL Audiences]** in de menusectie KLANT.
 1. Klik op de knop **[!UICONTROL Create audience]** rechtsboven in de lijst met doelgroepen.
@@ -52,7 +52,7 @@ Voor meer informatie over publiek, [ verwijs naar deze pagina ](../audience/abou
 1. Sleep de gewenste velden vanuit het linkerdeelvenster naar de werkruimte in het midden en configureer ze naar wens. In dit voorbeeld, gebruik de **Woonplaats** en **het jaar** attributengebieden van de Geboorteplaats.
 1. Klik op **[!UICONTROL Save]**.
 
-   ![ Extra attributenpaneel voor het selecteren van verrijkingsgegevens ](assets/add-attributes.png)
+   ![&#x200B; Extra attributenpaneel voor het selecteren van verrijkingsgegevens &#x200B;](assets/add-attributes.png)
 
 Het publiek is nu gemaakt en klaar om te worden gebruikt in de reis. Gebruikend a **Gelezen de activiteit van het publiek**, kunnen alle individuen die tot het publiek behoren de reis ingaan.
 
@@ -60,7 +60,7 @@ Het publiek is nu gemaakt en klaar om te worden gebruikt in de reis. Gebruikend 
 
 Vorm een gebeurtenis die naar de reis wordt verzonden wanneer een klant een aankoop maakt. Wanneer de reis de gebeurtenis ontvangt, brengt het het &quot;dank u&quot;bericht teweeg.
 
-Voor dit, gebruik a [ regel-gebaseerde gebeurtenis ](../event/about-events.md).
+Voor dit, gebruik a [&#x200B; regel-gebaseerde gebeurtenis &#x200B;](../event/about-events.md).
 
 1. Selecteer **[!UICONTROL Configurations]** in de sectie van het menu BEHEER en klik vervolgens op **[!UICONTROL Events]** . Klik op **[!UICONTROL Create event]** om een nieuwe gebeurtenis te maken.
 
@@ -76,7 +76,7 @@ Voor dit, gebruik a [ regel-gebaseerde gebeurtenis ](../event/about-events.md).
 
 1. Klik op **[!UICONTROL Save]**.
 
-   ![ Reis met de activiteit van de Voorwaarde die in Gouden leden en andere wegen vertakt ](assets/jo-uc2.png)
+   ![&#x200B; Reis met de activiteit van de Voorwaarde die in Gouden leden en andere wegen vertakt &#x200B;](assets/jo-uc2.png)
 
 De gebeurtenis is nu geconfigureerd en klaar om in de reis te worden gebruikt. Met behulp van de bijbehorende gebeurtenisactiviteit kan een actie worden geactiveerd telkens wanneer een klant een aankoop doet.
 
@@ -84,26 +84,26 @@ De gebeurtenis is nu geconfigureerd en klaar om in de reis te worden gebruikt. M
 
 1. Begin de reis met a **Gelezen de activiteit van het Publiek**. Selecteer het publiek dat eerder is gemaakt. Alle personen die tot het publiek behoren, nemen de reis in.
 
-   ![ Weathervoorwaarde die als de temperatuur onder 50 graden ](assets/jo-uc4.png) is controleert
+   ![&#x200B; Weathervoorwaarde die als de temperatuur onder 50 graden &#x200B;](assets/jo-uc4.png) is controleert
 
-1. Daling een **e-mail** actieactiviteit en bepaal de inhoud van het &quot;eerste bericht.&quot; Dit bericht wordt naar alle personen op de reis gestuurd. Verwijs naar deze [ sectie ](../email/create-email.md) om te leren hoe te om een e-mail te vormen en te ontwerpen.
+1. Daling een **e-mail** actieactiviteit en bepaal de inhoud van het &quot;eerste bericht.&quot; Dit bericht wordt naar alle personen op de reis gestuurd. Verwijs naar deze [&#x200B; sectie &#x200B;](../email/create-email.md) om te leren hoe te om een e-mail te vormen en te ontwerpen.
 
-   ![ Volledige op weer-gebaseerde reis met temperatuurvoorwaarde en e-mailacties ](assets/jo-uc5.png)
+   ![&#x200B; Volledige op weer-gebaseerde reis met temperatuurvoorwaarde en e-mailacties &#x200B;](assets/jo-uc5.png)
 
-1. Voeg de gebeurtenis van de Reactie van de a **** toe en selecteer **Geopende E-mail**. De gebeurtenis wordt geactiveerd wanneer een persoon die tot het publiek behoort, het e-mailbericht opent.
+1. Voeg de gebeurtenis van de Reactie van de a **&#x200B;**&#x200B;toe en selecteer **Geopende E-mail**. De gebeurtenis wordt geactiveerd wanneer een persoon die tot het publiek behoort, het e-mailbericht opent.
 
 1. Controle **bepaalt de gebeurtenisonderbreking** doos, bepaalt een duur (1 dag in dit voorbeeld), en controle **plaatste een onderbrekingspad**. Hiermee maakt u een ander pad voor personen die het eerste pushbericht of e-mailbericht niet openen.
 
-1. In de onderbrekingspad, laat vallen een **E-mail** actieactiviteit en bepaalt de inhoud van het &quot;follow-up&quot;bericht. Dit bericht wordt verzonden naar de personen die het e-mailbericht of het eerste pushbericht niet binnen de volgende dag openen. [ Leer hoe te om een e-mail ](../email/create-email.md) te vormen en te ontwerpen.
+1. In de onderbrekingspad, laat vallen een **E-mail** actieactiviteit en bepaalt de inhoud van het &quot;follow-up&quot;bericht. Dit bericht wordt verzonden naar de personen die het e-mailbericht of het eerste pushbericht niet binnen de volgende dag openen. [&#x200B; Leer hoe te om een e-mail &#x200B;](../email/create-email.md) te vormen en te ontwerpen.
 
 1. Voeg in het eerste pad de eerder gemaakte aankoopgebeurtenis toe. De gebeurtenis wordt geactiveerd wanneer een individu een aankoop doet.
 
-1. Na de gebeurtenis, laat vallen a **duw** actieactiviteit en bepaal de inhoud van het &quot;dank u&quot;bericht. Verwijs naar deze [ sectie ](../push/create-push.md) om te leren hoe te om een duw te vormen en te ontwerpen.
+1. Na de gebeurtenis, laat vallen a **duw** actieactiviteit en bepaal de inhoud van het &quot;dank u&quot;bericht. Verwijs naar deze [&#x200B; sectie &#x200B;](../push/create-push.md) om te leren hoe te om een duw te vormen en te ontwerpen.
 
 ## De reis testen en publiceren
 
 1. Controleer vóór het testen van de rit of deze geldig is en of er geen fout optreedt.
 
-1. Gebruik de **knevel van de Test**, die in de hoogste juiste hoek wordt gevestigd, om de testwijze te activeren. Verwijs naar deze [ sectie ](testing-the-journey.md) om te leren hoe te om de testwijze te gebruiken.
+1. Gebruik de **knevel van de Test**, die in de hoogste juiste hoek wordt gevestigd, om de testwijze te activeren. Verwijs naar deze [&#x200B; sectie &#x200B;](testing-the-journey.md) om te leren hoe te om de testwijze te gebruiken.
 
 1. Wanneer de reis klaar is, publiceer het gebruikend **publiceer** knoop, die in de hoogste juiste hoek wordt gevestigd.

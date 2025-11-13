@@ -33,11 +33,11 @@ Gebeurtenissen stellen u in staat om uw reizen tijdelijk te activeren en bericht
 
 Voor dit type gebeurtenis kunt u alleen een label en een beschrijving toevoegen. De rest van de configuratie kan niet worden bewerkt. Het werd uitgevoerd door de technische gebruiker. Zie [deze pagina](../event/about-events.md).
 
-Leer meer over gebeurtenisproductie en tarieven van de reisverwerking in [ deze sectie ](entry-management.md#journey-processing-rate).
+Leer meer over gebeurtenisproductie en tarieven van de reisverwerking in [&#x200B; deze sectie &#x200B;](entry-management.md#journey-processing-rate).
 
-![ Algemene het deelvenster van de gebeurtenisconfiguratie met gebeurtenisselectie en montages ](assets/general-events.png)
+![&#x200B; Algemene het deelvenster van de gebeurtenisconfiguratie met gebeurtenisselectie en montages &#x200B;](assets/general-events.png)
 
-Wanneer u een bedrijfsgebeurtenis laat vallen, voegt het automatisch a **Gelezen activiteit van het publiek** toe. Voor meer informatie over bedrijfsgebeurtenissen, verwijs naar [ deze sectie ](../event/about-events.md)
+Wanneer u een bedrijfsgebeurtenis laat vallen, voegt het automatisch a **Gelezen activiteit van het publiek** toe. Voor meer informatie over bedrijfsgebeurtenissen, verwijs naar [&#x200B; deze sectie &#x200B;](../event/about-events.md)
 
 ## Luisteren naar gebeurtenissen tijdens een bepaald tijdstip {#events-specific-time}
 
@@ -55,7 +55,7 @@ Voer de volgende stappen uit om een time-out voor een gebeurtenis te configurere
 
 1. Als er geen gebeurtenis wordt ontvangen binnen de opgegeven time-out, kunt u het beste de personen naar een time-outpad sturen. Schakel hiervoor de optie **[!UICONTROL Set a timeout path]** in. In dat geval gaat de reis door voor het individu zodra de time-out is bereikt. We raden u aan de optie **[!UICONTROL Set a timeout path]** altijd in te schakelen.
 
-   ![ de onderbrekingsconfiguratie van de Gebeurtenis met duur en onderbrekingspadopties ](assets/event-timeout.png)
+   ![&#x200B; de onderbrekingsconfiguratie van de Gebeurtenis met duur en onderbrekingspadopties &#x200B;](assets/event-timeout.png)
 
 In dit voorbeeld stuurt de reis een eerste welkomstmail naar een klant nadat hij/zij de lobby is binnengekomen. Het verzendt dan een e-mail van de maaltijdkorting slechts als de klant het restaurant binnen de volgende dag ingaat. Daarom hebben we de restaurant-gebeurtenis geconfigureerd met een time-out van 1 dag:
 
@@ -69,4 +69,4 @@ De gedefinieerde time-out is van toepassing op alle gebeurtenissen na de **[!UIC
 * Als één gebeurtenis binnen de time-outduur wordt ontvangen, loopt de afzonderlijke gebeurtenis door naar het pad van de ontvangen gebeurtenis.
 * Als er geen gebeurtenis wordt ontvangen binnen de tijdsduur van de time-out, loopt de afzonderlijke gebeurtenis door naar de time-outvertakking van de gebeurtenis waar de time-out is gedefinieerd.
 
-![ Veelvoudige gebeurtenissen met onderbrekingsconfiguraties in reis ](assets/event-timeout-group.png)
+![&#x200B; Veelvoudige gebeurtenissen met onderbrekingsconfiguraties in reis &#x200B;](assets/event-timeout-group.png)

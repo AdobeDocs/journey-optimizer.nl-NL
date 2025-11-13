@@ -26,11 +26,11 @@ Dit gebruiksgeval verklaart hoe te om douanegebeurtenissen in Adobe Experience P
 
 1. In de **sectie van Referenties**, klik **Server-aan-Server**.
 
-   ![ het scherm van de actieconfiguratie van de Douane met actietype dropdown ](assets/custom-action-aep-1.png)
+   ![&#x200B; het scherm van de actieconfiguratie van de Douane met actietype dropdown &#x200B;](assets/custom-action-aep-1.png)
 
 1. Klik {het bevel van cURL van de Mening 0} **.**
 
-   ![ de actietype van Adobe Experience Platform selectie ](assets/custom-action-aep-2.png)
+   ![&#x200B; de actietype van Adobe Experience Platform selectie &#x200B;](assets/custom-action-aep-2.png)
 
 1. Kopieer het cURL bevel en sla client_id, client_geheime, Grant_type en werkingsgebied op.
 
@@ -40,7 +40,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Nadat u uw project op de Adobe Developer Console hebt gemaakt, moet u ontwikkelaars en API-toegangsbeheer de juiste machtigingen geven. Leer meer in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
+>Nadat u uw project op de Adobe Developer Console hebt gemaakt, moet u ontwikkelaars en API-toegangsbeheer de juiste machtigingen geven. Leer meer in de [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
 
 ## De bron configureren met HTTP API Inlet
 
@@ -48,15 +48,15 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 1. In Adobe Experience Platform, klik **Bronnen**, onder **Verbindingen** in het linkermenu. Onder **HTTP API**, klik **gegevens** toevoegen.
 
-   ![ zandbakselectie dropdown voor Adobe Experience Platform ](assets/custom-action-aep-3.png)
+   ![&#x200B; zandbakselectie dropdown voor Adobe Experience Platform &#x200B;](assets/custom-action-aep-3.png)
 
 1. Selecteer **Nieuwe rekening** en laat authentificatie toe. Selecteer **verbind met Source**.
 
-   ![ de selectieinterface van de Dataset voor het stromen gegevens ](assets/custom-action-aep-4.png)
+   ![&#x200B; de selectieinterface van de Dataset voor het stromen gegevens &#x200B;](assets/custom-action-aep-4.png)
 
 1. Selecteer **daarna** en de Dataset waar u de gegevens wilt schrijven. Klik **daarna** en **Afwerking**.
 
-   ![ XDM schemagebieden die aan actieparameters worden in kaart gebracht ](assets/custom-action-aep-5.png)
+   ![&#x200B; XDM schemagebieden die aan actieparameters worden in kaart gebracht &#x200B;](assets/custom-action-aep-5.png)
 
 1. Open de nieuwe gegevensstroom. Kopieer de payload van het schema en sla deze op in uw notitiepad.
 
@@ -97,7 +97,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 ## Aangepaste actie configureren {#custom-action-config}
 
-De actieconfiguratie van de douane is gedetailleerd op [ deze pagina ](../action/about-custom-action-configuration.md).
+De actieconfiguratie van de douane is gedetailleerd op [&#x200B; deze pagina &#x200B;](../action/about-custom-action-configuration.md).
 
 Voer voor dit voorbeeld de volgende stappen uit:
 
@@ -109,7 +109,7 @@ Voer voor dit voorbeeld de volgende stappen uit:
 
 1. Controleer of de headers (Content-Type, Charset, sandbox-name) zijn geconfigureerd.
 
-   ![ Actie van de Douane in wegcanvas met configuratieruit ](assets/custom-action-aep-7bis.png)
+   ![&#x200B; Actie van de Douane in wegcanvas met configuratieruit &#x200B;](assets/custom-action-aep-7bis.png)
 
 ### De verificatie instellen {#custom-action-aep-authentication}
 
@@ -143,7 +143,7 @@ Voer voor dit voorbeeld de volgende stappen uit:
 
 1. Gebruik **klik om de authentificatie** knoop te testen om de verbinding te testen.
 
-   ![ de kaartinterface van de Parameter met uitdrukkingsredacteur ](assets/custom-action-aep-8.png)
+   ![&#x200B; de kaartinterface van de Parameter met uitdrukkingsredacteur &#x200B;](assets/custom-action-aep-8.png)
 
 ### De lading instellen {#custom-action-aep-payload}
 
@@ -182,4 +182,4 @@ Voer voor dit voorbeeld de volgende stappen uit:
 
 1. Vul de Versie-id van de reis, Node-id, Node-naam en andere kenmerken volgens uw gebruikscase.
 
-   ![ Geavanceerde wijzeredacteur voor complexe gebiedstoewijzing ](assets/custom-action-aep-9.png)
+   ![&#x200B; Geavanceerde wijzeredacteur voor complexe gebiedstoewijzing &#x200B;](assets/custom-action-aep-9.png)

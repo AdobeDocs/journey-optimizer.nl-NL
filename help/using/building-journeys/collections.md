@@ -68,7 +68,7 @@ Er worden twee typen verzamelingen ondersteund:
 
 >[!NOTE]
 >
->Geneste arrays in verzamelingen worden slechts gedeeltelijk ondersteund in aangepaste handelingen voor opvragingsladingen. Voor details, zie [ Beperkingen ](#limitations).
+>Geneste arrays in verzamelingen worden slechts gedeeltelijk ondersteund in aangepaste handelingen voor opvragingsladingen. Voor details, zie [&#x200B; Beperkingen &#x200B;](#limitations).
 
 ## Algemene procedure {#general-procedure}
 
@@ -100,11 +100,11 @@ In deze sectie gebruiken we het volgende JSON-payload-voorbeeld. Dit is een arra
 
 U ziet dat `products` een array van twee objecten is. U moet ten minste één object hebben.
 
-1. Maak een aangepaste handeling. Leer meer op [ deze pagina ](../action/about-custom-action-configuration.md).
+1. Maak een aangepaste handeling. Leer meer op [&#x200B; deze pagina &#x200B;](../action/about-custom-action-configuration.md).
 
 1. Plak in de sectie **[!UICONTROL Action parameters]** het JSON-voorbeeld. De weergegeven structuur is statisch: bij het plakken van de lading worden alle velden gedefinieerd als constanten.
 
-   ![ de redacteur van de Uitdrukking die inzamelingsfuncties en verrichtingen toont ](assets/uc-collection-1.png)
+   ![&#x200B; de redacteur van de Uitdrukking die inzamelingsfuncties en verrichtingen toont &#x200B;](assets/uc-collection-1.png)
 
 1. Pas indien nodig de veldtypen aan. De volgende veldtypen worden ondersteund voor verzamelingen: listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObject
 
@@ -120,21 +120,21 @@ U ziet dat `products` een array van twee objecten is. U moet ten minste één ob
 
 1. Definieer voor elk veld het label dat op het canvas van de reis wordt weergegeven.
 
-   ![ de inzamelingsfunctie van de Filter met de interface van de voorwaardenbouwer ](assets/uc-collection-2.png){width="70%" align="left"}
+   ![&#x200B; de inzamelingsfunctie van de Filter met de interface van de voorwaardenbouwer &#x200B;](assets/uc-collection-2.png){width="70%" align="left"}
 
-1. Maak uw reis en voeg de aangepaste actie toe die u hebt gemaakt. Leer meer op [ deze pagina ](../building-journeys/using-custom-actions.md).
+1. Maak uw reis en voeg de aangepaste actie toe die u hebt gemaakt. Leer meer op [&#x200B; deze pagina &#x200B;](../building-journeys/using-custom-actions.md).
 
 1. Definieer in de sectie **[!UICONTROL Action parameters]** de arrayparameter (`products` in ons voorbeeld) met de geavanceerde expressie-editor.
 
-   ![ het filtreren van de Inzameling uitdrukking met gebiedsselectie ](assets/uc-collection-3.png)
+   ![&#x200B; het filtreren van de Inzameling uitdrukking met gebiedsselectie &#x200B;](assets/uc-collection-3.png)
 
 1. Typ voor elk van de volgende objectvelden de corresponderende veldnaam in het XDM-bronschema. Als de namen identiek zijn, is dit niet nodig. In ons voorbeeld hoeven we alleen `product id` en &quot;color&quot; te definiëren.
 
-   ![ de soortfunctie van de Inzameling met het opdracht geven tot configuratie ](assets/uc-collection-4.png){width="50%" align="left"}
+   ![&#x200B; de soortfunctie van de Inzameling met het opdracht geven tot configuratie &#x200B;](assets/uc-collection-4.png){width="50%" align="left"}
 
-Voor het matrixveld kunt u ook de geavanceerde expressie-editor gebruiken om gegevensbewerkingen uit te voeren. In het volgende voorbeeld, gebruiken wij de [ filter ](functions/list-functions.md#filter) en [ ](functions/list-functions.md#intersect) functies doorsnijden:
+Voor het matrixveld kunt u ook de geavanceerde expressie-editor gebruiken om gegevensbewerkingen uit te voeren. In het volgende voorbeeld, gebruiken wij de [&#x200B; filter &#x200B;](functions/list-functions.md#filter) en [&#x200B; &#x200B;](functions/list-functions.md#intersect) functies doorsnijden:
 
-![ Volledige inzamelingsuitdrukking met filter, soort, en beperkingsverrichtingen ](assets/uc-collection-5.png)
+![&#x200B; Volledige inzamelingsuitdrukking met filter, soort, en beperkingsverrichtingen &#x200B;](assets/uc-collection-5.png)
 
 ## Beperkingen {#limitations}
 
@@ -194,7 +194,7 @@ Hoewel verzamelingen in aangepaste acties flexibiliteit bieden voor het doorgeve
 
 Voor heterogene typen en arrays van arrays wordt de array gedefinieerd met het listAny-type. U kunt alleen afzonderlijke items toewijzen, maar u kunt de array niet wijzigen in een variabele.
 
-![ Heterogene inzameling met gemengde gegevenstypes en gebiedsselectie ](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
+![&#x200B; Heterogene inzameling met gemengde gegevenstypes en gebiedsselectie &#x200B;](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
 
 Voorbeeld van een heterogeen type:
 
@@ -227,8 +227,8 @@ Voorbeeld van array van arrays:
 
 Blader in de onderstaande secties voor meer informatie over het configureren, gebruiken en oplossen van problemen met aangepaste handelingen:
 
-* [ worden begonnen met douaneacties ](../action/action.md) - leer wat een douaneactie is en hoe zij u met uw derdesystemen helpen verbinden
-* [ vorm uw douaneacties ](../action/about-custom-action-configuration.md) - leer hoe te om een douaneactie tot stand te brengen en te vormen
-* [ de douaneacties van het Gebruik ](../building-journeys/using-custom-actions.md) - leer hoe te om douaneacties in uw reizen te gebruiken
-* [ het oplossen van problemen van de Actie van de Douane ](../action/troubleshoot-custom-action.md) - Leer hoe te om een douaneactie problemen op te lossen
+* [&#x200B; worden begonnen met douaneacties &#x200B;](../action/action.md) - leer wat een douaneactie is en hoe zij u met uw derdesystemen helpen verbinden
+* [&#x200B; vorm uw douaneacties &#x200B;](../action/about-custom-action-configuration.md) - leer hoe te om een douaneactie tot stand te brengen en te vormen
+* [&#x200B; de douaneacties van het Gebruik &#x200B;](../building-journeys/using-custom-actions.md) - leer hoe te om douaneacties in uw reizen te gebruiken
+* [&#x200B; het oplossen van problemen van de Actie van de Douane &#x200B;](../action/troubleshoot-custom-action.md) - Leer hoe te om een douaneactie problemen op te lossen
 
