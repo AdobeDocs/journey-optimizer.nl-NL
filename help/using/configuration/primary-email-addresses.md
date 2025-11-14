@@ -9,14 +9,14 @@ role: Admin
 level: Intermediate
 keywords: primair, uitvoeren, e-mail, doel, profiel, optimaliseer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 36a9a4afb24f3c7909c57e983992de2bf12acd24
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
 
-# De uitvoeringsadressen wijzigen {#change-primary-email}
+# De velden voor standaarduitvoering beheren {#change-primary-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
@@ -73,17 +73,16 @@ Het uitvoeringsveld wordt bijgewerkt en wordt nu gebruikt als primair adres.
 >[!CONTEXTUALHELP]
 >id="ajo_journey_execution_address"
 >title="Een aangepaste waarde definiëren"
->abstract="In sommige specifieke gevallen kunt u het standaardadres voor uitvoering overschrijven. Gebruik **toelaten parameteropheffing** pictogram rechts van het gebied om een douane primair adres te bepalen."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="Het uitvoeringsadres"
+>abstract="In sommige specifieke gevallen kunt u de standaardwaarde voor het uitvoeringsveld overschrijven. Gebruik **toelaten parameteropheffing** pictogram aan het recht van dit gebied om een douanee-mailadres of telefoonaantal te bepalen om voor het verzenden voorrang te geven."
 
 Voor specifieke gebruiksgevallen kunt u het uitvoeringsveld dat globaal is ingesteld negeren en een andere waarde definiëren op het niveau van de reis.
 
 Het overschrijven van deze waarde kan bijvoorbeeld nuttig zijn om:
 
 * Test uw levering. U kunt uw eigen e-mailadres of telefoonnummer toevoegen: nadat u de rit hebt gepubliceerd, wordt het e-mailbericht, het SMS-bericht of het WhatsApp-bericht naar u verzonden.
-* Verzend een bericht naar de abonnees van een lijst. Leer meer in [&#x200B; dit gebruiksgeval &#x200B;](../building-journeys/message-to-subscribers-uc.md).
+* Verzend een bericht naar de abonnees van een lijst. Leer meer in [ dit gebruiksgeval ](../building-journeys/message-to-subscribers-uc.md).
 
-Wanneer het toevoegen van een **[!UICONTROL Email]**, **[!UICONTROL SMS]** of **[!UICONTROL WhatsApp]** actie aan a [&#x200B; reis &#x200B;](../email/create-email.md#create-email), wordt het primaire e-mailadres of telefoonaantal getoond onder de reis geavanceerde parameters.
+Wanneer het toevoegen van een **[!UICONTROL Email]**, **[!UICONTROL SMS]** of **[!UICONTROL WhatsApp]** actie aan a [ reis ](../email/create-email.md#create-email), wordt het primaire e-mailadres of telefoonaantal getoond onder de reis geavanceerde parameters.
 
 Overschrijf deze waarde met het pictogram **[!UICONTROL Enable parameter override]** rechts van het veld.
 
@@ -91,7 +90,7 @@ Overschrijf deze waarde met het pictogram **[!UICONTROL Enable parameter overrid
 
 >[!CAUTION]
 >
->E-mailadres of overschrijving van telefoonnummer mag alleen worden gebruikt voor specifieke gebruiksgevallen. Meestal hoeft u dit niet te wijzigen, omdat de waarde die wordt gedefinieerd als het primaire adres in de **[!UICONTROL Execution fields]** op sandboxniveau de waarde is die moet worden gebruikt.
+>E-mailadres of overschrijving van telefoonnummer mag alleen worden gebruikt voor specifieke gebruiksgevallen. Meestal hoeft u dit niet te wijzigen, omdat de waarde die wordt gedefinieerd als het primaire veld in de **[!UICONTROL Execution fields]** op sandboxniveau, de waarde is die moet worden gebruikt. [Meer informatie](#change-primary-email)
 
 ## Het standaard uitvoeringsveld in de kanaalconfiguratie overschrijven {#override-execution-address-channel-config}
 
@@ -100,13 +99,13 @@ Overschrijf deze waarde met het pictogram **[!UICONTROL Enable parameter overrid
 >title="Het standaard te gebruiken uitvoeringsadres overschrijven"
 >abstract="Als er meerdere e-mailadressen of telefoonnummers beschikbaar zijn in de database (persoonlijk, professioneel, enz.), kunt u aangeven welke prioriteit u wilt geven aan het verzenden. Het primaire adres wordt bepaald op het zandbakniveau, maar hier kunt u het gebrek met voeten treden dat voor deze specifieke kanaalconfiguratie plaatst."
 
-U kunt het standaarduitvoeringsadres voor specifieke e-mail, SMS of WhatsApp [&#x200B; kanaalconfiguratie &#x200B;](channel-surfaces.md) veranderen.
+U kunt het standaarduitvoeringsadres voor specifieke e-mail, SMS of WhatsApp [ kanaalconfiguratie ](channel-surfaces.md) veranderen.
 
 Ga hiertoe naar de sectie **[!UICONTROL Execution dimension]** en bewerk het desbetreffende veld onder **[!UICONTROL Execution Address]** .
 
 >[!NOTE]
 >
->Voor het [&#x200B; WhatsApp kanaal &#x200B;](../whatsapp/whatsapp-configuration.md#whatsapp-configuration), is **[!UICONTROL WhatsApp Execution Field]** onder de **[!UICONTROL WhatsApp Settings]** sectie.
+>Voor het [ WhatsApp kanaal ](../whatsapp/whatsapp-configuration.md#whatsapp-configuration), is **[!UICONTROL WhatsApp Execution Field]** onder de **[!UICONTROL WhatsApp Settings]** sectie.
 
 ![](assets/sms-config-execution-address.png){width=85%}
 
@@ -114,6 +113,6 @@ Selecteer vervolgens een item in de lijst met beschikbare XDM-velden van het e-m
 
 ![](assets/sms-config-execution-field.png)
 
-Het uitvoeringsgebied wordt bijgewerkt en dan gebruikt als primair adres voor de campagnes of de reizen gebruikend deze kanaalconfiguratie. Het treedt het [&#x200B; algemene plaatsen &#x200B;](#admin-settings) met voeten die op het zandbakniveau wordt bepaald.
+Het uitvoeringsgebied wordt bijgewerkt en dan gebruikt als primair adres voor de campagnes of de reizen gebruikend deze kanaalconfiguratie. Het treedt het [ algemene plaatsen ](#admin-settings) met voeten die op het zandbakniveau wordt bepaald.
 
 <!--[Learn more on the execution address in the email configuration ](../email/email-settings.md#execution-address)-->

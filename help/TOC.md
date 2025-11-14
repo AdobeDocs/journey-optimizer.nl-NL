@@ -5,7 +5,7 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: 36a9a4afb24f3c7909c57e983992de2bf12acd24
 workflow-type: tm+mt
 source-wordcount: '2977'
 ht-degree: 16%
@@ -822,7 +822,7 @@ ht-degree: 16%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
@@ -857,7 +857,7 @@ ht-degree: 16%
       + [Lijst van gewenste personen](using/configuration/allow-list.md)
    + [zaadlijsten gebruiken](using/configuration/seed-lists.md)
    + [Ondersteuning voor archivering](using/configuration/archiving-support.md)
-   + [Uitvoeringadressen wijzigen](using/configuration/primary-email-addresses.md)
+   + [Uitvoervelden beheren](using/configuration/primary-email-addresses.md)
    + [Feedbackwebhaken maken](using/configuration/feedback-webhooks.md)
 + Reisconfiguratie {#configure-journeys}
    + [Reisconfiguratie](/help/rp_landing_pages/configure-journeys-landing-page.md)
