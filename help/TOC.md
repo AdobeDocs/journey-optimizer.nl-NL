@@ -5,7 +5,7 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7eaca4faf61431fa438afc7550ff4b89f95fa192
+source-git-commit: 57494753f24570a1f14c16e4e98d27ee0c710813
 workflow-type: tm+mt
 source-wordcount: '2983'
 ht-degree: 16%
@@ -316,7 +316,7 @@ ht-degree: 16%
       + [Tekstberichten controleren en verzenden](using/sms/send-sms.md)
       + [Weigeren tekstbericht beheren](using/sms/sms-opt-out.md)
       + [SMS-subdomeinen instellen](using/sms/sms-subdomains.md)
-      + [Aanbevolen procedures voor optimalisatie van de SMS-kosten](using/sms/sms-subdomains.md)
+      + [Aanbevolen procedures voor optimalisatie van de SMS-kosten](using/sms/sms-cost-optimization.md)
       + SMS/MMS/RCS-kanaal configureren {#configure-sms}
          + [SMS/MMS/RCS-kanaal configureren](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [Aan de slag met de configuratie SMS / MMS / RCS](using/sms/sms-configuration.md)
@@ -823,7 +823,7 @@ ht-degree: 16%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
