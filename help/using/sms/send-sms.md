@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
+source-git-commit: 7eaca4faf61431fa438afc7550ff4b89f95fa192
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 2%
+source-wordcount: '441'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,23 @@ Klik hiertoe op **[!UICONTROL Simulate content]** en controleer het bericht met 
 
 ![](assets/sms_preview_2.png)
 
-De gedetailleerde informatie over hoe te voorproef &amp; test inhoud is beschikbaar in de [&#x200B; sectie van het Beheer van de Inhoud &#x200B;](../content-management/preview-test.md).
+De gedetailleerde informatie over hoe te voorproef &amp; test inhoud is beschikbaar in de [ sectie van het Beheer van de Inhoud ](../content-management/preview-test.md).
+
+### Tekencodering en -beperkingen {#sms-character-limits}
+
+Er wordt een aantal tekens weergegeven wanneer u het menu **[!UICONTROL Simulate content]** opent voor hulp bij het plannen en beheren van uw SMS-berichten.
+
+![](assets/sms_preview_3.png)
+
+Journey Optimizer gebruikt UTF-8-codering in de SMS-editor, zodat u double-byte of Unicode-tekens kunt typen of plakken. Deze tekens worden vervolgens naar de serviceprovider verzonden voor levering. De meeste SMS-providers gebruiken 7-bits GSM-codering voor standaardberichten met een limiet van 160 tekens en schakelen over naar UTF-16 (UCS-2) wanneer niet-GSM-tekens met een limiet van 70 tekens worden gedetecteerd.
+
+Het aantal tekens weerspiegelt niet de variaties die zijn ontstaan door dynamische personalisatie of 7-bits speciale tekens die geen GSM zijn.
+
+>[!IMPORTANT]
+>
+>Bij de rapportage van Journey Optimizer SMS-berichten wordt geen rekening gehouden met samengevoegde berichten en dynamische personalisatie, waardoor het mogelijk is dat het werkelijke aantal berichten dat door de provider wordt verzonden niet wordt weerspiegeld. Neem voor gedetailleerde informatie over gebruik en facturering contact op met uw Adobe-vertegenwoordiger.
+>
+>Om beste praktijken te leren voor het minimaliseren van SMS het factureren overages, verwijs naar [ Beste praktijken van SMS voor de Optimalisering van het Karakter ](sms-cost-optimization.md).
 
 ## Uw inhoud valideren {#sms-validate}
 
@@ -48,7 +64,7 @@ U moet alarm in de hogere sectie van de redacteur controleren. Sommige zijn eenv
 >
 > Als uw campagne onderworpen is aan een goedkeuringsbeleid, zult u goedkeuring moeten vragen om uw tekstberichten te kunnen verzenden. [Meer informatie](../test-approve/gs-approval.md)
 
-Wanneer uw tekstbericht klaar is, voltooi de configuratie van uw [&#x200B; reis &#x200B;](../building-journeys/journey-gs.md) of [&#x200B; campagne &#x200B;](../campaigns/create-campaign.md) om het te verzenden.
+Wanneer uw tekstbericht klaar is, voltooi de configuratie van uw [ reis ](../building-journeys/journey-gs.md) of [ campagne ](../campaigns/create-campaign.md) om het te verzenden.
 
 **Verwante onderwerpen**
 
