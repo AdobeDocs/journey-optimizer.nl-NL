@@ -25,7 +25,7 @@ Klik hiertoe op **[!UICONTROL Simulate content]** en controleer het bericht met 
 
 ![](assets/sms_preview_2.png)
 
-De gedetailleerde informatie over hoe te voorproef &amp; test inhoud is beschikbaar in de [ sectie van het Beheer van de Inhoud ](../content-management/preview-test.md).
+De gedetailleerde informatie over hoe te voorproef &amp; test inhoud is beschikbaar in de [&#x200B; sectie van het Beheer van de Inhoud &#x200B;](../content-management/preview-test.md).
 
 ### Tekencodering en -beperkingen {#sms-character-limits}
 
@@ -41,7 +41,7 @@ Het aantal tekens weerspiegelt niet de variaties die zijn ontstaan door dynamisc
 >
 >Bij de rapportage van Journey Optimizer SMS-berichten wordt geen rekening gehouden met samengevoegde berichten en dynamische personalisatie, waardoor het mogelijk is dat het werkelijke aantal berichten dat door de provider wordt verzonden niet wordt weerspiegeld. Neem voor gedetailleerde informatie over gebruik en facturering contact op met uw Adobe-vertegenwoordiger.
 >
->Om beste praktijken te leren voor het minimaliseren van SMS het factureren overages, verwijs naar [ Beste praktijken van SMS voor de Optimalisering van het Karakter ](sms-cost-optimization.md).
+>Om beste praktijken te leren voor het minimaliseren van SMS het factureren overages, verwijs naar [&#x200B; Beste praktijken van SMS voor de Optimalisering van het Karakter &#x200B;](sms-cost-optimization.md).
 
 ## Uw inhoud valideren {#sms-validate}
 
@@ -64,7 +64,7 @@ U moet alarm in de hogere sectie van de redacteur controleren. Sommige zijn eenv
 >
 > Als uw campagne onderworpen is aan een goedkeuringsbeleid, zult u goedkeuring moeten vragen om uw tekstberichten te kunnen verzenden. [Meer informatie](../test-approve/gs-approval.md)
 
-Wanneer uw tekstbericht klaar is, voltooi de configuratie van uw [ reis ](../building-journeys/journey-gs.md) of [ campagne ](../campaigns/create-campaign.md) om het te verzenden.
+Wanneer uw tekstbericht klaar is, voltooi de configuratie van uw [&#x200B; reis &#x200B;](../building-journeys/journey-gs.md) of [&#x200B; campagne &#x200B;](../campaigns/create-campaign.md) om het te verzenden.
 
 **Verwante onderwerpen**
 

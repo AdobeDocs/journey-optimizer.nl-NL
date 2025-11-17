@@ -58,7 +58,7 @@ Gebruik normale tekst of Journey Optimizer **[!UICONTROL Simulate content]** om 
 
 Terwijl Journey Optimizer een aantal tekens weergeeft, inclusief spaties, tijdens het simuleren van inhoud, moet u het volgende opmerken:
 
-* Het **** omvat geen karakters die door dynamische verpersoonlijking of bepaalde speciale karakters worden geproduceerd.
+* Het **&#x200B;**&#x200B;omvat geen karakters die door dynamische verpersoonlijking of bepaalde speciale karakters worden geproduceerd.
 
 * De **x/1500 telling** dient als visuele indicator van de technische ladingsgrens, niet de per-berichtgrens, bijvoorbeeld, de 160 karakterGSM 7 beetjegrens.
 
@@ -76,5 +76,5 @@ De dynamische verpersoonlijking kan de lengte van een bericht verhogen. Als u bi
 
 ## Aanvullende bronnen {#additional-resources}
 
-Herzie gesteunde karakters en het coderen regels in {de Gids van de Steun van het Teken van 0} Sinch [](https://developers.sinch.com/docs/sms/resources/message-info/character-support/)
+Herzie gesteunde karakters en het coderen regels in {de Gids van de Steun van het Teken van 0} Sinch [&#128279;](https://developers.sinch.com/docs/sms/resources/message-info/character-support/)
 
