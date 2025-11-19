@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: gebeurtenis, reis, zaken, configuratie
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 712c077d146058c5f5c407e622972d2d10e278fa
+source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 6%
@@ -93,8 +93,6 @@ Hier zijn de eerste stappen om een bedrijfsgebeurtenis te vormen:
    ![](assets/test-profiles-4.png)
 
 1. Klik in het veld **[!UICONTROL Event ID condition]** . Gebruik de eenvoudige uitdrukkingsredacteur om de voorwaarde te bepalen die door het systeem wordt gebruikt om de gebeurtenissen te identificeren die uw reis teweegbrengen.
-
-   ![](assets/jo-event6-business.png)
 
    In ons voorbeeld schreven we een voorwaarde op basis van de id van het product. Dit betekent dat wanneer het systeem een gebeurtenis ontvangt die aan deze voorwaarde voldoet, het het aan reizen zal overgaan.
 
