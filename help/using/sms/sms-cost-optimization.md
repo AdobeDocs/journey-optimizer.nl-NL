@@ -7,9 +7,9 @@ feature: SMS
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 7eaca4faf61431fa438afc7550ff4b89f95fa192
+source-git-commit: 13b3c8aa7fce85029167ef31feb7272e4877b7b0
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Gebruik normale tekst of Journey Optimizer **[!UICONTROL Simulate content]** om 
 
 Terwijl Journey Optimizer een aantal tekens weergeeft, inclusief spaties, tijdens het simuleren van inhoud, moet u het volgende opmerken:
 
-* Het **&#x200B;**&#x200B;omvat geen karakters die door dynamische verpersoonlijking of bepaalde speciale karakters worden geproduceerd.
+* Het **** omvat geen karakters die door dynamische verpersoonlijking of bepaalde speciale karakters worden geproduceerd.
 
 * De **x/1500 telling** dient als visuele indicator van de technische ladingsgrens, niet de per-berichtgrens, bijvoorbeeld, de 160 karakterGSM 7 beetjegrens.
 
@@ -66,9 +66,9 @@ Terwijl Journey Optimizer een aantal tekens weergeeft, inclusief spaties, tijden
 
 ## Werken met rapportage {#understanding-reporting}
 
-**Journey Optimizer die** meldt telt het volledige bericht als één verzendt, ongeacht de delen van SMS. Hierdoor wordt het volume van het controleerbare profiel verminderd.
+**Journey Optimizer die** meldt telt het volledige bericht als één verzendt, ongeacht de delen van SMS.
 
-**Leverancier die** meldt toont de daadwerkelijke delen van SMS voor levering en zou moeten worden gebruikt om het factureren en de overgangen te bepalen.
+**Leverancier die** meldt wijst op het daadwerkelijke aantal SMS berichtdelen die voor levering worden gebruikt en zou moeten worden bedoeld om het factureren en om het even welke potentiële overages te bevestigen. Als Adobe je SMS-provider via Sinch is, ontvang je dit factureringsrapport maandelijks apart.
 
 ## Personalization-overwegingen {#personalization-considerations}
 
@@ -76,5 +76,5 @@ De dynamische verpersoonlijking kan de lengte van een bericht verhogen. Als u bi
 
 ## Aanvullende bronnen {#additional-resources}
 
-Herzie gesteunde karakters en het coderen regels in {de Gids van de Steun van het Teken van 0} Sinch [&#128279;](https://developers.sinch.com/docs/sms/resources/message-info/character-support/)
+Herzie gesteunde karakters en het coderen regels in {de Gids van de Steun van het Teken van 0} Sinch [](https://developers.sinch.com/docs/sms/resources/message-info/character-support/)
 
