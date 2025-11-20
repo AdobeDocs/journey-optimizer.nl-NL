@@ -10,7 +10,7 @@ role: User
 level: Beginner, Intermediate
 keywords: E-mailthema's, modules, herbruikbaarheid, consistentie van merk, e-mailontwerp, aangepaste CSS, mobiele optimalisatie
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 53ae620926fc8ba3e9c8b558584ed8eb6942e3d4
+source-git-commit: 365ed7f735760ee5763d0f12ea366c662a097948
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 0%
@@ -38,17 +38,17 @@ Deze functie stelt marketers in staat visueel aantrekkelijke, merkgebonden e-mai
 
   Als u de modus Handmatig opmaken kiest, kunt u alleen thema&#39;s toepassen als u uw e-mail opnieuw instelt.
 
-* [&#x200B; de Fragmenten &#x200B;](../content-management/fragments.md) zijn niet dwars-compatibel tussen de Thema&#39;s van het Gebruik en de Hand het Stileren wijzen.
+* [ de Fragmenten ](../content-management/fragments.md) zijn niet dwars-compatibel tussen de Thema&#39;s van het Gebruik en de Hand het Stileren wijzen.
 
    * Geachte fragmenten zijn niet beschikbaar in e-mailinhoud die zonder thema&#39;s is gemaakt.
 
-   * Aan hefboomwerking a [&#x200B; fragment &#x200B;](../content-management/fragments.md) in een thema inhoud, moet dit fragment zelf tot stand gebracht hebben gebruikend thema&#39;s. [Meer informatie](#leverage-themes-fragment)
+   * Aan hefboomwerking a [ fragment ](../content-management/fragments.md) in een thema inhoud, moet dit fragment zelf tot stand gebracht hebben gebruikend thema&#39;s. [Meer informatie](#leverage-themes-fragment)
 
    * Wanneer u een fragment in e-mailinhoud gebruikt, moet u een thema toepassen dat u voor dit fragment hebt gedefinieerd. Als u dit niet doet, kunnen er weergaveproblemen optreden, met name in Outlook 2021 en eerdere versies. [Meer informatie](#leverage-themes-fragment)
 
-* Als het gebruiken van inhoud die in HTML wordt gecreeerd, zult u op [&#x200B; verenigbaarheidswijze &#x200B;](existing-content.md) zijn en u kunt geen thema&#39;s op deze inhoud direct toepassen.
+* Als het gebruiken van inhoud die in HTML wordt gecreeerd, zult u op [ verenigbaarheidswijze ](existing-content.md) zijn en u kunt geen thema&#39;s op deze inhoud direct toepassen.
 
-   * Om thema&#39;s toe te passen, moet u eerst de ingevoerde inhoud [&#x200B; als nieuw malplaatje &#x200B;](../content-management/create-content-templates.md#save-as-template) bewaren, dan dit malplaatje in een thema-compatibele inhoud omzetten. Vervolgens kunt u deze sjabloon gebruiken om uw e-mailinhoud te maken. Leer hoe te om een malplaatje om te zetten dat met handhet stileren in [&#x200B; wordt gecreeerd deze sectie &#x200B;](#theme-convertor).
+   * Om thema&#39;s toe te passen, moet u eerst de ingevoerde inhoud [ als nieuw malplaatje ](../content-management/create-content-templates.md#save-as-template) bewaren, dan dit malplaatje in een thema-compatibele inhoud omzetten. Vervolgens kunt u deze sjabloon gebruiken om uw e-mailinhoud te maken. Leer hoe te om een malplaatje om te zetten dat met handhet stileren in [ wordt gecreeerd deze sectie ](#theme-convertor).
 
    * U kunt uw geïmporteerde HTML-inhoud ook converteren. [Meer informatie](existing-content.md)
 
@@ -60,7 +60,7 @@ Deze functie stelt marketers in staat visueel aantrekkelijke, merkgebonden e-mai
 
 Volg onderstaande stappen om een thema te definiëren dat u in uw toekomstige e-mailinhoud kunt gebruiken.
 
-1. Om begonnen te worden, creeer een nieuw [&#x200B; inhoudsmalplaatje &#x200B;](../content-management/create-content-templates.md).
+1. Om begonnen te worden, creeer een nieuw [ inhoudsmalplaatje ](../content-management/create-content-templates.md).
 
 1. Selecteer de optie **[!UICONTROL Create or edit themes]** .
 
@@ -74,7 +74,7 @@ Volg onderstaande stappen om een thema te definiëren dat u in uw toekomstige e-
 
    ![](assets/theme-edit.png)
 
-1. Definieer op het tabblad **[!UICONTROL General settings]** het thema door het een specifieke naam te geven die aansluit bij uw merk. U kunt de standaardviewportbreedte voor uw e-mail aanpassen en ook het huidige thema naar [&#x200B; uitvoeren deel het over zandbakken &#x200B;](../configuration/copy-objects-to-sandbox.md).
+1. Definieer op het tabblad **[!UICONTROL General settings]** het thema door het een specifieke naam te geven die aansluit bij uw merk. U kunt de standaardviewportbreedte voor uw e-mail aanpassen en ook het huidige thema naar [ uitvoeren deel het over zandbakken ](../configuration/copy-objects-to-sandbox.md).
 
    <!--![](assets/theme-general-settings.png)-->
 
@@ -116,13 +116,13 @@ Volg onderstaande stappen om een thema te definiëren dat u in uw toekomstige e-
 
 Voer de onderstaande stappen uit om standaard- of aangepaste opmaakthema&#39;s toe te passen op een inhoudssjabloon of een e-mail.
 
-1. In [!DNL Journey Optimizer], [&#x200B; voeg een e-mail &#x200B;](create-email.md) actie aan een reis of een campagne toe, of creeer een e-mail [&#x200B; inhoudsmalplaatje &#x200B;](../content-management/create-content-templates.md#create-template-from-scratch), en [&#x200B; geef het e-maillichaam &#x200B;](get-started-email-design.md#key-steps) uit.
+1. In [!DNL Journey Optimizer], [ voeg een e-mail ](create-email.md) actie aan een reis of een campagne toe, of creeer een e-mail [ inhoudsmalplaatje ](../content-management/create-content-templates.md#create-template-from-scratch), en [ geef het e-maillichaam ](get-started-email-design.md#key-steps) uit.
 
 1. U kunt een van de volgende handelingen selecteren:
 
-   * Selecteer een ingebouwde [&#x200B; e-mailmalplaatje &#x200B;](use-email-templates.md) om e-mail Designer te openen. Er wordt automatisch een standaardthema toegepast dat specifiek is voor elke sjabloon.
+   * Selecteer een ingebouwde [ e-mailmalplaatje ](use-email-templates.md) om e-mail Designer te openen. Er wordt automatisch een standaardthema toegepast dat specifiek is voor elke sjabloon.
 
-   * Ontwerp a [&#x200B; nieuwe inhoud van kras &#x200B;](content-from-scratch.md) en selecteer **[!UICONTROL Use Themes]** om met een vooraf bepaald het stileren thema te beginnen.
+   * Ontwerp a [ nieuwe inhoud van kras ](content-from-scratch.md) en selecteer **[!UICONTROL Use Themes]** om met een vooraf bepaald het stileren thema te beginnen.
 
      ![](assets/theme-from-scratch.png)
 
@@ -130,7 +130,7 @@ Voer de onderstaande stappen uit om standaard- of aangepaste opmaakthema&#39;s t
      >
      >Als u de modus Handmatig opmaken kiest, kunt u alleen thema&#39;s toepassen als u het ontwerp opnieuw instelt.
      >
-     >Aan hefboomwerking a [&#x200B; fragment &#x200B;](../content-management/fragments.md) in een thema inhoud, moet dit fragment zelf tot stand gebracht hebben gebruikend thema&#39;s. [Meer informatie](#leverage-themes-fragment)
+     >Aan hefboomwerking a [ fragment ](../content-management/fragments.md) in een thema inhoud, moet dit fragment zelf tot stand gebracht hebben gebruikend thema&#39;s. [Meer informatie](#leverage-themes-fragment)
 
 1. Klik eenmaal in de e-mail-Designer op de knop **[!UICONTROL Themes]** op de rechtertrack. Het standaardthema of het thema van de sjabloon wordt weergegeven. U kunt schakelen tussen de twee kleurvarianten voor dit thema.
 
@@ -186,11 +186,11 @@ Als u thema&#39;s verandert, <!--the font size is still 14 and --> is de doopvon
 
 ## Thema&#39;s in een fragment gebruiken {#leverage-themes-fragment}
 
-Om een fragment in een malplaatje of een e-mail met [&#x200B; toegepaste thema&#39;s &#x200B;](#apply-themes-email) te hefboomwerking, moet dit fragment tot stand zijn gebracht zelf gebruikend thema&#39;s. Anders kunt u dit fragment niet gebruiken in de inhoud van het thema.
+Om een fragment in een malplaatje of een e-mail met [ toegepaste thema&#39;s ](#apply-themes-email) te hefboomwerking, moet dit fragment tot stand zijn gebracht zelf gebruikend thema&#39;s. Anders kunt u dit fragment niet gebruiken in de inhoud van het thema.
 
 Voer de onderstaande stappen uit om een fragment te maken dat compatibel is met thema&#39;s.
 
-1. Maak in [!DNL Journey Optimizer] een visueel fragment en klik op **[!UICONTROL Create]** om de inhoud van het fragment te ontwerpen. [&#x200B; leer hoe &#x200B;](../content-management/create-fragments.md)
+1. Maak in [!DNL Journey Optimizer] een visueel fragment en klik op **[!UICONTROL Create]** om de inhoud van het fragment te ontwerpen. [ leer hoe ](../content-management/create-fragments.md)
 
 1. Selecteer **[!UICONTROL Use Themes]** om te beginnen met een vooraf gedefinieerd opmaakthema.
 
@@ -216,7 +216,7 @@ Voer de onderstaande stappen uit om een fragment te maken dat compatibel is met 
 
    >[!CAUTION]
    >
-   >Wanneer het gebruiken van het fragment in een e-mailinhoud, zorg ervoor u [&#x200B; een thema &#x200B;](#apply-themes-email) toepast dat u voor dit fragment hebt bepaald. Als u dit niet doet, kunnen er weergaveproblemen optreden, met name in Outlook 2021 en eerdere versies.
+   >Wanneer het gebruiken van het fragment in een e-mailinhoud, zorg ervoor u [ een thema ](#apply-themes-email) toepast dat u voor dit fragment hebt bepaald. Als u dit niet doet, kunnen er weergaveproblemen optreden, met name in Outlook 2021 en eerdere versies.
 
 1. Klik op **[!UICONTROL Close]**.
 
@@ -234,7 +234,7 @@ Met [!DNL Journey Optimizer] kunt u een sjabloon die met handmatige opmaak is ge
 >
 > Slechts **e-mailmalplaatjes** kunnen worden omgezet om compatibel met thema&#39;s te zijn. Afzonderlijke e-mails kunnen niet worden geconverteerd. U moet uw inhoud eerst als een sjabloon opslaan.
 
-1. Open een e-mail [&#x200B; inhoudsmalplaatje &#x200B;](../content-management/create-content-templates.md) en geef zijn inhoud uit gebruikend E-mail Designer.
+1. Open een e-mail [ inhoudsmalplaatje ](../content-management/create-content-templates.md) en geef zijn inhoud uit gebruikend E-mail Designer.
 
 1. Selecteer het pictogram **[!UICONTROL Themes]** op de rechterrails en klik op de knop **[!UICONTROL Generate theme from content]** .
 
@@ -246,8 +246,8 @@ Met [!DNL Journey Optimizer] kunt u een sjabloon die met handmatige opmaak is ge
 
 1. Geef een naam op voor uw thema.
 
-1. Breng desgewenst uw eigen aanpassingen aan, net als bij het maken van een geheel nieuw thema, zoals het toevoegen van een kleurvariant, het bewerken van lettertypen enzovoort. [&#x200B; leer hoe &#x200B;](#create-and-edit-themes)
+1. Breng desgewenst uw eigen aanpassingen aan, net als bij het maken van een geheel nieuw thema, zoals het toevoegen van een kleurvariant, het bewerken van lettertypen enzovoort. [ leer hoe ](#create-and-edit-themes)
 
    ![](assets/generate-theme-colors.png){width=90%}
 
-1. Klik op **[!UICONTROL Save]** om dit nieuwe thema op te slaan voor hergebruik. U kunt dit thema nu toepassen op inhoud, zoals elk ander thema. [&#x200B; leer hoe &#x200B;](#leverage-themes-fragment)
+1. Klik op **[!UICONTROL Save]** om dit nieuwe thema op te slaan voor hergebruik. U kunt dit thema nu toepassen op inhoud, zoals elk ander thema. [ leer hoe ](#apply-themes-email)
