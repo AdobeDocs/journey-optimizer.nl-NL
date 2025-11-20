@@ -10,9 +10,9 @@ level: Intermediate
 keywords: expression, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: d4736257166a1fb19350aca45ee55decd3afd0b2
+source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,9 @@ ht-degree: 0%
 >title="Opzoeken inschakelen"
 >abstract="Als u een dataset voor opzoeken inschakelt, kunt u de gegevens ervan benutten binnen de mogelijkheden van Journey Optimizer op het gebied van personalisatie, besluitvorming en reisorganisatie."
 
-Met Journey Optimizer kunt u gegevens uit Adobe Experience Platform-gegevens benutten met mogelijkheden voor personalisatie, besluitvorming en reisorkest. Om dit te doen, op verslag-gebaseerde datasets nodig voor raadplegingsverpersoonlijking moet eerst voor de raadplegingsdienst worden toegelaten zoals hieronder beschreven.
+Met [!DNL Journey Optimizer] kunt u gegevens uit [!DNL Adobe Experience Platform] -gegevens benutten met mogelijkheden voor personalisatie, besluitvorming en reisorchestratie. Om dit te doen, op verslag-gebaseerde datasets nodig voor raadplegingsverpersoonlijking moet eerst voor de raadplegingsdienst worden toegelaten zoals hieronder beschreven.
+
+Leer meer op hoe te om met datasets in deze sectie toegang te hebben en te werken: [ wordt begonnen met datasets ](../data/get-started-datasets.md)
 
 ## Lees hier meer
 
@@ -34,8 +36,7 @@ Controleer voordat u begint de volgende beperkingen en richtlijnen:
 
 * **Geen PII in datasets** - Datasets die voor raadpleging worden toegelaten zou geen Persoonlijk Identificeerbare Informatie (PII) moeten bevatten.
 
-* 
-   * **het risico van de Schrapping** - Datasets die in verpersoonlijking worden gebruikt worden niet beschermd tegen schrapping. U moet bijhouden welke gegevenssets worden gebruikt om ervoor te zorgen dat deze niet worden verwijderd.
+* **het risico van de Schrapping** - Datasets die in verpersoonlijking worden gebruikt worden niet beschermd tegen schrapping. U moet bijhouden welke gegevenssets worden gebruikt om ervoor te zorgen dat deze niet worden verwijderd.
 
 * **het type van Schema** - Datasets moeten met een schema worden geassocieerd dat **NIET** van het type van Profiel of van de Gebeurtenis is is.
 
