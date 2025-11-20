@@ -124,6 +124,6 @@ In de onderstaande video wordt een inleiding gegeven op de belangrijkste mogelij
 
 In de onderstaande video ziet u hoe u Beslissingsbeheer kunt gebruiken om uw aanbiedingen te definiëren en te beheren en real-time klantgegevens kunt gebruiken.
 
->[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470051?captions=dut&quality=12&learn=on)
 
 
