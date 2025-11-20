@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 19e237f8b83d26eb7fa2c6b7548fcb6c4c01c9ce
+source-git-commit: 507a3caa79856dd2c8b58b395507caf164eb0546
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '2598'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Zorg ervoor dat de gebieden die in uw vragen worden gebruikt waarden in het over
 
 >[!NOTE]
 >
->Voor het oplossen van problemendoeleinden, adviseren wij gebruikend tripVersionID in plaats van tripVersionName wanneer het vragen van reizen. Leer meer over de attributen van de reiseigenschappen [&#x200B; in deze sectie &#x200B;](../building-journeys/expression/journey-properties.md#journey-properties-fields).
+>Voor het oplossen van problemendoeleinden, adviseren wij gebruikend tripVersionID in plaats van tripVersionName wanneer het vragen van reizen. Leer meer over de attributen van de reiseigenschappen [ in deze sectie ](../building-journeys/expression/journey-properties.md#journey-properties-fields).
 
 ## Basis gebruiksgevallen/gemeenschappelijke vragen {#common-queries}
 
@@ -47,11 +47,13 @@ AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 +++
 
 +++Welke regel ertoe heeft geleid dat een profiel geen bepaalde reis heeft gemaakt
+
+Deze vraag keert de verworpen regels en regelinformatie terug wanneer een profiel om een reis wegens maximum of geschiktheidsregels wordt verhinderd in te gaan.
 
 _Voorbeeld_
 
@@ -75,6 +77,8 @@ AND
 +++
 
 +++Hoeveel fouten voorkwamen op elke knoop van een specifieke reis voor een bepaalde hoeveelheid tijd
+
+Deze vraag telt de duidelijke profielen die fouten bij elke knoop van een reis ervoeren, die door knoopnaam wordt gegroepeerd. Het omvat alle soorten fouten van de actieuitvoering en haal fouten.
 
 _de vraag van het meer van Gegevens_
 
@@ -100,6 +104,8 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 
 +++Hoeveel gebeurtenissen van een specifieke reis in een bepaald tijdkader werden verworpen
 
+Deze vraag telt het totale aantal gebeurtenissen die van een reis werden verworpen. Het filter filtert voor diverse verworpen gebeurteniscodes met inbegrip van de fouten van de segmentuitvoer, de teruggooi van de verzender, en staatsmachine verwerpen.
+
 _de vraag van het meer van Gegevens_
 
 ```sql
@@ -120,9 +126,9 @@ AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 
 +++Wat gebeurt er met een specifiek profiel in een specifieke reis in een specifieke tijdspanne
 
-_de vraag van het meer van Gegevens_
-
 Deze vraag keert alle step gebeurtenissen en de dienstgebeurtenissen voor het bepaalde profiel en reis voor de gespecificeerde tijd in chronologische orde terug.
+
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT
@@ -278,7 +284,7 @@ WHERE
 
 +++De details van een serviceEvent controleren 
 
-De dataset van de Gebeurtenissen van de Stap van de Reis bevat alle stepEvents en serviceEvents. stepEvents worden gebruikt bij de rapportage, aangezien ze betrekking hebben op activiteiten (gebeurtenis, acties, enz.) van profielen tijdens een reis. serviceEvents worden opgeslagen in de zelfde dataset, en zij wijzen op extra informatie voor het zuiveren doeleinden, bijvoorbeeld de reden voor een gebeurtenis van de ervaringsgebeurtenis verwerpen.
+De dataset van de Gebeurtenissen van de Stap van de Reis bevat alle stepEvents en serviceEvents. stepEvents worden gebruikt bij de rapportage, aangezien ze betrekking hebben op activiteiten (gebeurtenis, acties, enz.) van profielen tijdens een reis. serviceEvents worden opgeslagen in de zelfde dataset, en zij wijzen op extra informatie voor het zuiveren doeleinden, bijvoorbeeld de reden voor een ervaringsgebeurtenis verwerpen.
 
 Hier is een voorbeeld van vraag om de details van een serviceEvent te controleren:
 
@@ -329,6 +335,8 @@ Deze vraag keert alle verschillende fouten terug die terwijl het uitvoeren van e
 ## Op profielen gebaseerde query&#39;s {#profile-based-queries}
 
 +++Zoeken of een profiel een specifieke reis heeft ingevoerd
+
+Deze vraag controleert of een specifiek profiel een reis inging door de gebeurtenissen te tellen verbonden aan die profiel en reiscombinatie.
 
 _de vraag van het meer van Gegevens_
 
@@ -406,6 +414,8 @@ De vraag keert de lijst van alle berichten samen met hun telling terug die voor 
 
 +++Zoeken naar alle berichten die een profiel in de afgelopen 30 dagen heeft ontvangen
 
+Met deze query worden alle berichthandelingen voor een specifiek profiel in de afgelopen 30 dagen opgehaald, gegroepeerd op berichtnaam.
+
 _de vraag van het meer van Gegevens_
 
 ```sql
@@ -434,6 +444,8 @@ De vraag keert de lijst van alle berichten samen met hun telling terug die voor 
 
 +++Zoeken naar alle ritten die een profiel in de afgelopen 30 dagen heeft ingevoerd
 
+Deze vraag keert alle reizen terug die een specifiek profiel binnen de laatste 30 dagen, samen met de ingangstelling voor elke reis is ingegaan.
+
 _de vraag van het meer van Gegevens_
 
 ```sql
@@ -460,6 +472,8 @@ De vraag keert de lijst van alle reisnamen samen met het aantal tijden terug het
 
 +++Aantal profielen dat in aanmerking kwam voor een dagelijkse reis
 
+Deze vraag verstrekt een dagelijkse uitsplitsing van het aantal verschillende profielen die een reis over een gespecificeerde tijdspanne inging.
+
 _de vraag van het meer van Gegevens_
 
 ```sql
@@ -482,7 +496,7 @@ ORDER BY DATE(timestamp) desc
 
 De vraag keert, voor de bepaalde periode, het aantal profielen terug dat de reis elke dag inging. Als een profiel wordt ingevoerd via meerdere identiteiten, wordt het twee keer geteld. Als de terugkeer wordt toegelaten, zou het profielaantal over verschillende dagen kunnen worden gedupliceerd als het de reis op verschillende dag opnieuw inging.
 
-Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 
 +++
@@ -490,6 +504,8 @@ Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](.
 ## Vragen met betrekking tot het leespubliek {#read-segment-queries}
 
 +++Tijd die nodig is om een doelexporttaak te voltooien
+
+Deze vraag berekent de duur van een publiek de uitvoerbaan door het tijdverschil tussen te vinden wanneer de baan een rij werd gevormd en wanneer het eindigde.
 
 _de vraag van het meer van Gegevens_
 
@@ -525,6 +541,8 @@ De vraag keert het tijdverschil, in notulen, tussen terug wanneer de publiek uit
 
 +++Aantal profielen dat tijdens de rit is verwijderd omdat het dubbele profielen waren
 
+Deze vraag telt het aantal verschillende profielen die wegens instantie duplicatiefouten tijdens de Gelezen activiteit van het Publiek werden verworpen.
+
 _de vraag van het meer van Gegevens_
 
 ```sql
@@ -548,6 +566,8 @@ De vraag keert alle profielID terug die door de reis werden verworpen omdat zij 
 +++
 
 +++Aantal profielen dat door de reis wegens ongeldige namespace is verworpen
+
+Deze query retourneert het aantal profielen dat is verwijderd omdat deze een ongeldige naamruimte of een ontbrekende identiteit voor de vereiste naamruimte hadden.
 
 _de vraag van het meer van Gegevens_
 
@@ -573,6 +593,8 @@ De query retourneert alle profiel-id&#39;s die door de rit zijn verwijderd omdat
 
 +++Aantal profielen dat door de reis wegens geen identiteitskaart werd verworpen
 
+Deze vraag telt de profielen die werden verworpen omdat zij een identiteitskaart ontbraken die voor reisuitvoering wordt vereist.
+
 _de vraag van het meer van Gegevens_
 
 ```sql
@@ -596,6 +618,8 @@ De vraag keert alle profielID terug die door de reis werden verworpen omdat de i
 +++
 
 +++Aantal profielen dat tijdens de rit is weggegooid omdat de rit zich in het testknooppunt bevond en het profiel geen testprofiel was
+
+Deze vraag identificeert profielen die werden verworpen toen de reis op testwijze liep maar het profiel had niet de testProfile attributen die aan waar werd geplaatst.
 
 _de vraag van het meer van Gegevens_
 
@@ -621,6 +645,8 @@ De vraag keert alle profielID terug die door de reis werden verworpen omdat de u
 
 +++Aantal profielen dat door de reis wegens een interne fout werd verworpen
 
+Deze vraag keert de telling van profielen terug die wegens interne systeemfouten tijdens reisuitvoering werden verworpen.
+
 _de vraag van het meer van Gegevens_
 
 ```sql
@@ -644,6 +670,8 @@ De vraag keert alle profielID terug die door de reis wegens één of andere inte
 +++
 
 +++Overzicht van het leespubliek voor een bepaalde reisversie
+
+Deze vraag verstrekt een uitvoerig overzicht van de Gelezen activiteit van de Publiek, met inbegrip van de details van de segmentuitvoer baan, gebeurteniscodes, statussen, en profieltellingen voor alle stadia van het proces van de publieksuitvoer.
 
 _de vraag van het meer van Gegevens_
 
@@ -679,12 +707,14 @@ We kunnen ook problemen ontdekken zoals:
 BELANGRIJK: als er geen gebeurtenis is die door deze vraag wordt geretourneerd, kan dit aan een van de volgende redenen zijn te wijten:
 
 * de reisversie heeft het schema niet bereikt
-* als de reisversie de uitvoerbaan zou moeten teweegbrengen door de organisator te roepen, ging iets fout op de upstram stroom: kwestie op reisplaatsing, bedrijfsgebeurtenis of kwestie met planner.
+* als de reisversie de uitvoerbaan zou moeten teweegbrengen door de organisator te roepen, ging iets fout op de stroomopwaartse stroom: kwestie op reisplaatsing, bedrijfsgebeurtenis of kwestie met planner.
 
 +++
 
 
 +++Ontvang leesfouten voor een bepaalde reisversie
+
+Deze query filtert voor specifieke foutgebeurteniscodes met betrekking tot leesfouten in het publiek, zoals fouten bij het maken van onderwerpen, API-aanroepfouten, time-outs en mislukte exporttaken.
 
 _de vraag van het meer van Gegevens_
 
@@ -713,6 +743,8 @@ WHERE
 +++
 
 +++Status exporttaak ophalen
+
+Deze query haalt de verwerkingsstatus van doelexporttaken op en geeft aan of dit gelukt of mislukt is, samen met maatstaven voor het exporteren van profielen.
 
 _de vraag van het meer van Gegevens_
 
@@ -744,6 +776,8 @@ Als er geen record wordt geretourneerd, betekent dit dat:
 +++
 
 +++Metrische gegevens over geëxporteerde profielen ophalen, inclusief gegevens over verwijderde taken en exporttaken voor elke exporttaak
+
+Deze vraag combineert verworpen profieltellingen met de metriek van de uitvoerbaan om een volledige mening van publiek te verstrekken de uitvoerprestaties voor elke individuele uitvoerbaan.
 
 _de vraag van het meer van Gegevens_
 
@@ -806,6 +840,8 @@ WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 +++
 
 +++Hiermee krijgt u geaggregeerde metriek (doelgroepen, exporttaken en verwijderde bestanden) voor alle exporttaken
+
+Deze vraag aggregeert algemene metriek over alle uitvoerbanen voor een bepaalde reisversie, nuttig voor terugkomende reizen of zaken gebeurtenis-teweeggebrachte reizen met onderwerp hergebruik.
 
 _de vraag van het meer van Gegevens_
 
@@ -874,6 +910,8 @@ Het keert de algemene metriek voor een bepaalde reisversie terug, ongeacht de ba
 
 +++Profiel dat is verwijderd vanwege een ander publiek dan geconfigureerd
 
+Deze vraag identificeert profielen die werden verworpen omdat hun status van de publieksrealisatie niet de configuratie van de Kwalificatie van het Publiek van de reis (b.v., die voor &quot;wordt gevormd&quot;maar profiel &quot;verlaten&quot;) aanpast.
+
 _de vraag van het meer van Gegevens_
 
 ```sql
@@ -899,6 +937,8 @@ Deze vraag keert alle profielID terug die door de reisversie wegens verkeerde pu
 +++
 
 +++De gebeurtenissen van de Kwalificatie van het publiek die door een andere reden voor een specifiek profiel worden verworpen
+
+Deze vraag wint al publiekskwalificatie of externe gebeurtenissen terug die voor een specifiek profiel wegens interne de dienstfouten werden verworpen.
 
 _de vraag van het meer van Gegevens_
 
@@ -930,6 +970,8 @@ Deze query retourneert alle gebeurtenissen (externe gebeurtenissen/kwalificatieg
 
 +++Controleren of een zakelijke gebeurtenis is ontvangen voor een reis
 
+Deze vraag telt het aantal tijden een bedrijfsgebeurtenis door een reis, gegroepeerd door datum, binnen een gespecificeerd tijdkader werd ontvangen.
+
 _de vraag van het meer van Gegevens_
 
 ```sql
@@ -958,6 +1000,8 @@ WHERE DATE(timestamp) > (now() - interval '6' hour)
 
 +++Controleren of een externe gebeurtenis van een profiel is verwijderd omdat er geen gerelateerde reis is gevonden
 
+Deze vraag identificeert wanneer een externe gebeurtenis voor een specifiek profiel werd verworpen omdat er geen actieve of passende reis was die werd gevormd om die gebeurtenis te ontvangen.
+
 _de vraag van het meer van Gegevens_
 
 ```sql
@@ -980,11 +1024,13 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
-Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 +++
 
 +++Controleren of een externe gebeurtenis van een profiel om een andere reden is verwijderd
+
+Deze query haalt externe gebeurtenissen op die zijn genegeerd voor een specifiek profiel vanwege interne servicefouten, samen met de gebeurtenis-id en foutcode.
 
 _de vraag van het meer van Gegevens_
 
@@ -1010,12 +1056,14 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 +++
 
 +++Controleer de telling van alle gebeurtenissen die door stateMachine door errorCode worden verworpen
 
+Deze vraag aggregeert alle gebeurtenissen die door de machine van de reisstaat worden verworpen, die door foutencode wordt gegroepeerd helpen de gemeenschappelijkste redenen voor verwerping identificeren.
+
 _de vraag van het meer van Gegevens_
 
 ```sql
@@ -1032,12 +1080,14 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
 
-Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 +++
 
 +++Alle verwijderde gebeurtenissen controleren omdat toegang niet is toegestaan
 
+Deze vraag identificeert alle gebeurtenissen die werden verworpen omdat een profiel probeerde om een reis opnieuw in te gaan wanneer de ingang niet in de reisconfiguratie werd toegestaan.
+
 _de vraag van het meer van Gegevens_
 
 ```sql
@@ -1060,13 +1110,15 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
 ```
 
-Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 +++
 
 ## Algemene vragen op basis van reizen {#journey-based-queries}
 
 +++Aantal dagelijkse actieve reizen
+
+Deze vraag keert een dagelijks aantal unieke reisversies terug die activiteit hadden, die u helpen patronen van de reisuitvoering in tijd begrijpen.
 
 _de vraag van het meer van Gegevens_
 
@@ -1094,6 +1146,8 @@ De vraag keert, voor de bepaalde periode, de telling van unieke reizen terug die
 ## Vragen over reistijden {#journey-instances-queries}
 
 +++Aantal profielen in een specifieke status op een specifieke tijd
+
+Deze vraag gebruikt Gemeenschappelijke Uitdrukkingen van de Lijst (CTEs) om profielen te identificeren die momenteel bij een specifieke knoop in een reis wachten door profielen te vinden die door de knoop maar nog niet aan de volgende knopen zijn overgegaan.
 
 _de vraag van het meer van Gegevens_
 
@@ -1245,6 +1299,8 @@ ORDER BY
 
 +++Hoeveel profielen zijn de reis in de specifieke periode verlaten
 
+Deze vraag telt de reisinstanties die tijdens een gespecificeerde tijdspanne, met inbegrip van uitgang wegens voltooiing, fouten, onderbrekingen, of het begrenzen fouten verlieten.
+
 _de vraag van het meer van Gegevens_
 
 ```sql
@@ -1284,6 +1340,8 @@ ORDER BY
 +++
 
 +++Hoeveel profielen verlaat de reis in de specifieke periode met knoop/status
+
+Deze vraag verstrekt een gedetailleerde specificatie van weggangen, die de knoopnaam en uitgangsstatus voor elke verlaten instantie tonen helpen identificeren waar en waarom de profielen de reis verlaten.
 
 _de vraag van het meer van Gegevens_
 
@@ -1330,6 +1388,8 @@ ORDER BY
 ## Zoekopdrachten die betrekking hebben op prestatiewaarden van aangepaste handelingen {#query-custom-action}
 
 +++ Het totale aantal succesvolle vraag, fouten en verzoeken per seconde van elk eindpunt over een specifieke tijdspanne
+
+Deze vraag verstrekt prestatiesmetriek voor de acties van douaneHTTP, met inbegrip van totale vraag, succesvolle vraag, foutentellingen door type (4xx, 5xx, onderbrekingen, beperkt), en productie in verzoeken per seconde voor elk eindpunt.
 
 _Vraag van het meer van Gegevens_
 
@@ -1390,6 +1450,8 @@ ORDER BY
 +++
 
 +++ De reeks van de tijd succesvolle vraag, fouten en productie van elk eindpunt over een specifieke tijdspanne
+
+Deze vraag verstrekt de zelfde prestatiesmetriek zoals de vorige vraag maar georganiseerd als tijdreeks, die toont hoe eindpuntprestaties in tijd met minuut-door-minuut granulariteit variëren.
 
 _Vraag van het meer van Gegevens_
 
@@ -1457,6 +1519,8 @@ ORDER BY
 
 +++Responslatentie van elk eindpunt op 50e, 95e, 99e en 99,9e percentiel over een specifieke periode
 
+Deze vraag berekent de percentielen van de reactietijd voor de eindpunten van de douaneactie, die u latentiedistributie helpen begrijpen en prestatiesoutliers bij verschillende percentiele drempels identificeren.
+
 _Vraag van het meer van Gegevens_
 
 ```sql
@@ -1508,6 +1572,8 @@ ORDER BY
 +++
 
 +++De tijdreeks van de percentielen van de reactievertraging van elk eindpunt over een specifieke tijdspanne
+
+Deze vraag verstrekt latentiepercentielen die als tijdreeks worden georganiseerd, die u toestaan om te volgen hoe de tijden van de eindpuntreactie in tijd op verschillende percentielniveaus veranderen.
 
 _Vraag van het meer van Gegevens_
 
@@ -1567,6 +1633,8 @@ ORDER BY
 
 +++ Wachttijd in wachtrij op vertraagde eindpunten op 50e en 95e percentiel over een specifieke tijdsperiode
 
+Deze vraag analyseert rij wachttijden voor vertraagde eindpunten, die de 50e en 95e percentiele wachttijden tonen om u te helpen het effect van het vertragen op uw douaneacties begrijpen.
+
 _Vraag van het meer van Gegevens_
 
 ```sql
@@ -1614,6 +1682,8 @@ ORDER BY
 +++
 
 +++ De reeks van de rij wachttijdpercentielen voor elk vertraagd eindpunt
+
+Deze vraag verstrekt rij wachttijdpercentielen als tijdreeks, toestaand u om te controleren hoe het vertragen tijden over tijd op elk eindpunt wacht.
 
 _Vraag van het meer van Gegevens_
 
@@ -1668,6 +1738,8 @@ ORDER BY
 +++
 
 +++ Aantal fouten door type en code voor een specifiek eindpunt over een specifieke tijdspanne
+
+Deze vraag verstrekt een gedetailleerde uitsplitsing van fouten voor een specifiek eindpunt, gegroepeerd door foutentype en foutencode, met inbegrip van informatie over pogingen opnieuw proberen.
 
 _Vraag van het meer van Gegevens_
 
