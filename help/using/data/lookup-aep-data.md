@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Met [!DNL Journey Optimizer] kunt u gegevens uit [!DNL Adobe Experience Platform] -gegevens benutten met mogelijkheden voor personalisatie, besluitvorming en reisorchestratie. Om dit te doen, op verslag-gebaseerde datasets nodig voor raadplegingsverpersoonlijking moet eerst voor de raadplegingsdienst worden toegelaten zoals hieronder beschreven.
 
-Leer meer op hoe te om met datasets in deze sectie toegang te hebben en te werken: [ wordt begonnen met datasets ](../data/get-started-datasets.md)
+Leer meer op hoe te om met datasets in deze sectie toegang te hebben en te werken: [&#x200B; wordt begonnen met datasets &#x200B;](../data/get-started-datasets.md)
 
 ## Lees hier meer
 
@@ -104,7 +104,7 @@ In het gegevenssetbeheer gebruikersinterface, gebruik de knevel om de dataset vo
 
 ### API-methode
 
-Volg de richtingen die in [ worden gedetailleerd deze documentatie ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/) om uw milieu te vormen om API bevelen te verzenden.
+Volg de richtingen die in [&#x200B; worden gedetailleerd deze documentatie &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication/) om uw milieu te vormen om API bevelen te verzenden.
 
 #### Vereisten
 
