@@ -8,18 +8,18 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 6a5b4c94228db0ab9573124762e89181c2c41b45
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '994'
 ht-degree: 1%
 
 ---
 
 # Visuele fragmenten toevoegen aan uw e-mails {#use-visual-fragments}
 
-Een fragment is een herbruikbare component waarnaar in een of meer e-mails kan worden verwezen via Journey Optimizer-campagnes, -reizen of inhoudssjablonen. Met deze functionaliteit kunt u meerdere blokken met aangepaste inhoud vooraf samenstellen. Deze blokken kunnen door marketinggebruikers worden gebruikt om snel e-mailinhoud samen te stellen in een verbeterd ontwerpproces. [&#x200B; leer hoe te om fragmenten &#x200B;](../content-management/fragments.md) tot stand te brengen en te beheren.
+Een fragment is een herbruikbare component waarnaar in een of meer e-mails kan worden verwezen via Journey Optimizer-campagnes, -reizen of inhoudssjablonen. Met deze functionaliteit kunt u meerdere aangepaste inhoudsblokken samenstellen die door marketinggebruikers kunnen worden gebruikt om snel e-mailinhoud samen te stellen in een verbeterd ontwerpproces. [ leer hoe te om fragmenten ](../content-management/fragments.md) tot stand te brengen en te beheren.
 
-➡️ [&#x200B; Leer hoe te, auteur en gebruiks fragmenten in deze video &#x200B;](../content-management/fragments.md#video-fragments) beheren
+➡️ [ Leer hoe te, auteur en gebruiks fragmenten in deze video ](../content-management/fragments.md#video-fragments) beheren
 
 ## Een fragment gebruiken {#use-fragment}
 
@@ -29,8 +29,7 @@ Voer de onderstaande stappen uit om een fragment te gebruiken in een e-mailberic
 >
 >U kunt maximaal 30 fragmenten in een bepaalde levering toevoegen. Fragmenten kunnen maximaal 1 niveau worden genest.
 
-
-1. Open om het even welke e-mail of malplaatjeinhoud gebruikend [&#x200B; E-mail Designer &#x200B;](get-started-email-design.md).
+1. Open om het even welke e-mail of malplaatjeinhoud gebruikend [ E-mail Designer ](get-started-email-design.md).
 
 1. Selecteer het pictogram **[!UICONTROL Fragments]** van de linkerspoorstaaf.
 
@@ -73,15 +72,44 @@ Voer de onderstaande stappen uit om een fragment te gebruiken in een e-mailberic
 
 1. Voeg zoveel fragmenten toe als u wilt en **[!UICONTROL Save]** uw wijzigingen.
 
+### Beperkingen bij het gebruik van dynamische inhoud in fragmenten {#fragment-dynamic-content}
+
+>[!CAUTION]
+>
+>Houd rekening met de volgende beperking wanneer u werkt met fragmenten die dynamische inhoud (voorwaardelijke inhoud) bevatten:
+>
+>**het Nesten fragmenten met Dynamische Inhoud wordt niet gesteund.** U kunt geen fragment met dynamische inhoud plaatsen in een niet-vergrendeld fragment dat ook dynamische inhoud bevat. Deze niet-ondersteunde configuratie kan leiden tot:
+>
+>* Verlies van voorwaardelijke inhoudstoewijzingen
+>* Waarschuwingen in de compatibiliteitsmodus in de e-mailtoepassing Designer
+>* Inconsistente e-mailrendering
+>
+>**geadviseerde benadering:** wanneer het gebruiken van veelvoudige fragmenten met Dynamische Inhoud in uw e-mail, voeg direct elk fragment in zijn eigen structuurblok op het e-mailniveau toe. Dit zorgt voor een goede functionaliteit en voorkomt de hierboven vermelde problemen.
+
+## Aanbevolen procedures voor fragmenten met dynamische inhoud {#fragment-best-practices}
+
+Volg deze aanbevolen procedures bij het werken met visuele fragmenten en dynamische inhoud (voorwaardelijke inhoud):
+
+* **Structuur uw e-mail behoorlijk**: Wanneer het bouwen van e-mail met fragmenten die Dynamische Inhoud bevatten, voeg elk fragment in een specifiek structuurblok op e-mailniveau toe. Vermijd het nesten van fragmenten met dynamische inhoud in andere ontgrendelde fragmenten die ook dynamische inhoud bevatten.
+
+* **Plan vooruit**: Alvorens fragmenten aan uw e-mail toe te voegen, identificeer welke degenen Dynamische Inhoud bevatten en plan dienovereenkomstig uw lay-out. Dit helpt configuratieproblemen te voorkomen en verzekert een schone structuur van het begin.
+
+* **Ontwerpen herbruikbare fragmenten zorgvuldig**: Wanneer het creëren van fragmenten die Dynamische Inhoud zullen omvatten, overweeg hoe zij zullen worden gebruikt. Als een fragment in andere fragmenten moet worden genest, moet u geen dynamische inhoud aan de bovenliggende en onderliggende fragmenten toevoegen.
+
+* **het Oplossen van problemen**: Als u verloren voorwaardelijke inhoudsafbeeldingen of verenigbaarheidswijzewaarschuwingen ervaart:
+   * Controleer uw e-mailstructuur op geneste fragmenten met dynamische inhoud
+   * Herstructureren door elk fragment met dynamische inhoud naar een eigen structuurblok op e-mailniveau te verplaatsen
+   * Opslaan en controleren of voorwaardelijke inhoudstoewijzingen correct zijn hersteld
+
 ## Gebruik impliciete variabelen {#implicit-variables-in-fragments}
 
 De impliciete variabelen verbeteren de bestaande fragmentfunctionaliteit om de efficiëntie voor hergebruik van inhoud en het gebruik van scripts te verbeteren. Fragmenten kunnen invoervariabelen gebruiken en uitvoervariabelen maken die bruikbaar zijn in campagne- en reisinhoud.
 
-Leer hoe te om impliciete variabelen in [&#x200B; te gebruiken deze sectie &#x200B;](../personalization/use-expression-fragments.md#implicit-variables).
+Leer hoe te om impliciete variabelen in [ te gebruiken deze sectie ](../personalization/use-expression-fragments.md#implicit-variables).
 
 ## Bewerkbare velden aanpassen {#customize-fields}
 
-Als bepaalde delen van het geselecteerde fragment bewerkbaar zijn gemaakt, kunt u de standaardwaarde ervan overschrijven nadat u het fragment aan de inhoud hebt toegevoegd. [&#x200B; Leer hoe te om uw fragmenten klantgericht te maken &#x200B;](../content-management/customizable-fragments.md)
+Als bepaalde delen van het geselecteerde fragment bewerkbaar zijn gemaakt, kunt u de standaardwaarde ervan overschrijven nadat u het fragment aan de inhoud hebt toegevoegd. [ Leer hoe te om uw fragmenten klantgericht te maken ](../content-management/customizable-fragments.md)
 
 Voer de volgende stappen uit om bewerkbare velden in een fragment aan te passen:
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: elementen, ervaringsmanager, integratie
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
+source-git-commit: 5ac4220250b69289ec0f722ca54fef3b63174643
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 1%
+source-wordcount: '1081'
+ht-degree: 0%
 
 ---
 
@@ -26,13 +26,13 @@ Maak gebruik van **[!DNL Adobe Experience Manager Assets]** om marketing- en cre
 
 * **[!DNL Assets as a Cloud Service]**: Adobe Experience Manager Assets as a Cloud Service biedt een gebruiksvriendelijke cloudoplossing voor efficiënt beheer van digitale bedrijfsmiddelen en dynamische mediabewerkingen. Het omvat naadloos geavanceerde eigenschappen, met inbegrip van Kunstmatige Intelligentie en het Leren van de Machine.
 
-  Leer meer in [&#x200B; documentatie van Adobe Experience Manager as a Cloud Service &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/overview.html?lang=nl-NL){target="_blank"}.
+  Leer meer in [ documentatie van Adobe Experience Manager as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/overview.html){target="_blank"}.
 
 * **[!DNL Assets Essentials]**: Experience Manager Assets Essentials is Assets as a Cloud Service Lightweight-oplossing voor gezamenlijk beheer van bedrijfsmiddelen en samenwerking. Met een moderne, vereenvoudigde interface kunnen creatieve en marketingteams moeiteloos digitale middelen opslaan, ontdekken en distribueren.
 
-  Leer meer in [&#x200B; documentatie van de Hoofdzaak van de Activa van de Manager van de Ervaring van Adobe &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=nl-NL){target="_blank"}.
+  Leer meer in [ documentatie van de Hoofdzaak van de Activa van de Manager van de Ervaring van Adobe ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
-Afhankelijk van uw contract kunt u **[!DNL Adobe Experience Manager Assets Essentials]** of **[!DNL Adobe Experience Manager Assets as a Cloud Service]** rechtstreeks vanuit **[!DNL Adobe Journey Optimizer]** openen via de sectie voor het linkermenu **[!UICONTROL Assets]** . U kunt tot activa en omslagen ook toegang hebben wanneer [&#x200B; het ontwerpen van een e-mailinhoud &#x200B;](../email/get-started-email-design.md).
+Afhankelijk van uw contract kunt u **[!DNL Adobe Experience Manager Assets Essentials]** of **[!DNL Adobe Experience Manager Assets as a Cloud Service]** rechtstreeks vanuit **[!DNL Adobe Journey Optimizer]** openen via de sectie voor het linkermenu **[!UICONTROL Assets]** . U kunt tot activa en omslagen ook toegang hebben wanneer [ het ontwerpen van een e-mailinhoud ](../email/get-started-email-design.md).
 
 ## Vereisten{#assets-prerequisites}
 
@@ -40,14 +40,14 @@ Afhankelijk van uw contract kunt u **[!DNL Adobe Experience Manager Assets Essen
 
 >[!TAB  de Elementen van de Activa van de Manager van de Ervaring van Adobe ]
 
-Alvorens [!DNL Adobe Experience Manager Assets Essentials] te gebruiken, moet u gebruikers aan de **Hoofdzaak van Activa Consumenten** of **de Profielen van het Product van de Gebruikers van de Hoofdzaak van Activa** toevoegen. Lees meer in [&#x200B; documentatie van de Hoofdzaak van Activa &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=nl-NL#add-user-groups){target="_blank"}.
+Alvorens [!DNL Adobe Experience Manager Assets Essentials] te gebruiken, moet u gebruikers aan de **Hoofdzaak van Activa Consumenten** of **de Profielen van het Product van de Gebruikers van de Hoofdzaak van Activa** toevoegen. Lees meer in [ documentatie van de Hoofdzaak van Activa ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-user-groups){target="_blank"}.
 
 >[!NOTE]
->Voor Journey Optimizer-producten die zijn verkregen vóór 6 januari 2022, moet u **[!DNL Adobe Experience Manager Assets Essentials]** implementeren voor uw organisatie. Leer meer in [&#x200B; opstellen de Hoofdzaak van Activa &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=nl-NL){target="_blank"} sectie.
+>Voor Journey Optimizer-producten die zijn verkregen vóór 6 januari 2022, moet u **[!DNL Adobe Experience Manager Assets Essentials]** implementeren voor uw organisatie. Leer meer in [ opstellen de Hoofdzaak van Activa ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target="_blank"} sectie.
 
 >[!TAB  Adobe Experience Manager Assets as a Cloud Service ]
 
-Voordat u **[!DNL Adobe Experience Manager Assets as a Cloud Service]** kunt gebruiken, moet u gebruikers toevoegen aan Assets Cloud Services. Lees meer in [&#x200B; Adobe Experience Manager Assets as a Cloud Service &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html?lang=nl-NL).
+Voordat u **[!DNL Adobe Experience Manager Assets as a Cloud Service]** kunt gebruiken, moet u gebruikers toevoegen aan Assets Cloud Services. Lees meer in [ Adobe Experience Manager Assets as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html).
 
 >[!ENDTABS]
 
@@ -83,9 +83,9 @@ Als u bestanden wilt importeren naar **[!DNL Assets Essentials]** of **[!DNL Ass
 
 1. Klik in het vak **[!UICONTROL Upload files]** op **[!UICONTROL Browse]** en kies of u **[!UICONTROL Browse files]** of **[!UICONTROL Browse folders]** wilt gebruiken.
 
-1. Selecteer het bestand dat u wilt uploaden. Klik op **[!UICONTROL Upload]** als u klaar bent. Meer over leren hoe te om uw activa te beheren, verwijs naar deze [&#x200B; pagina &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=nl-NL).
+1. Selecteer het bestand dat u wilt uploaden. Klik op **[!UICONTROL Upload]** als u klaar bent. Meer over leren hoe te om uw activa te beheren, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
 
-1. Dubbelklik op de elementen om uw elementen verder te bewerken met Adobe Photoshop Express. Selecteer vervolgens in het rechtermenu het pictogram **[!UICONTROL Edit mode]** . [Meer informatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=nl-NL){target="_blank"}.
+1. Dubbelklik op de elementen om uw elementen verder te bewerken met Adobe Photoshop Express. Selecteer vervolgens in het rechtermenu het pictogram **[!UICONTROL Edit mode]** . [Meer informatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target="_blank"}.
 
    ![](assets/media_library_12.png)
 
@@ -99,7 +99,7 @@ Als u bestanden wilt importeren naar **[!DNL Assets Essentials]** of **[!DNL Ass
 
    ![](assets/media_library_6.png)
 
-1. U kunt uw elementen verder aanpassen, zoals het toevoegen van een externe koppeling of een tekst met de tabbladen **[!UICONTROL Settings]** en **[!UICONTROL Styles]** . [&#x200B; leer meer over componentenmontages &#x200B;](../email/content-components.md)
+1. U kunt uw elementen verder aanpassen, zoals het toevoegen van een externe koppeling of een tekst met de tabbladen **[!UICONTROL Settings]** en **[!UICONTROL Styles]** . [ leer meer over componentenmontages ](../email/content-components.md)
 
    ![](assets/media_library_13.png)
 
@@ -116,7 +116,7 @@ Als u bestanden wilt importeren naar **[!DNL Assets Essentials]** of **[!DNL Ass
 
 Hieronder vindt u Veelgestelde vragen over Adobe Experience Manager Assets.
 
-Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [&#x200B; gemeenschap van Adobe Journey Optimizer &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
+Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [ gemeenschap van Adobe Journey Optimizer ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
 
 +++ Kan ik doorgaan met het gebruik van de Asset Essentials gebundeld in Journey Optimizer?
 
@@ -139,5 +139,42 @@ Ja, u kunt dynamische media-URL&#39;s gebruiken in Journey Optimizer e-mailautho
 +++ Kan Journey Optimizer-gebruiker wijzigingen aanbrengen in de Adobe Experience Manager Assets as a Cloud Service-opslagplaats vanuit de Journey Optimizer-interface?
 
 Zolang de Journey Optimizer-gebruiker een gerechtigde **[!DNL Adobe Experience Manager Assets as a Cloud Service]** standaardgebruiker is en over de machtiging Bewerken in de opslagplaats beschikt, kan de gebruiker de **[!DNL Adobe Experience Manager Assets as a Cloud Service]** -opslagplaats bewerken.
+
++++
+
++++ Waarom kunnen afbeeldingen soms niet worden geladen in e-mails die vanuit Journey Optimizer worden verzonden?
+
+Als elementen (zoals afbeeldingen) via Adobe Experience Manager worden beheerd en in Journey Optimizer worden gebruikt, gelden voor deze elementen een beleid voor de levenscyclus van bedrijfsmiddelen met een Time-to-Live (TTL). Nadat de periode van TTL verloopt, kunnen de activa uit opslag (CDN) worden verwijderd, wat in gebroken beelden in e-mails kan resulteren die op die activa van verwijzingen voorzien.
+
+>[!NOTE]
+>
+>De activa TTL wordt beheerd door de backenddiensten van Adobe Journey Optimizer en is momenteel niet configureerbaar door klanten. De huidige TTL-periode is ingesteld op 730 dagen voor alle Journey Optimizer-organisaties.
+
++++
+
++++ Hoe kan ik verbroken afbeeldingen oplossen als de middelen verlopen?
+
+De beschikbaarheid van images herstellen wanneer de middelen zijn verlopen:
+
+1. **herpubliceer de beïnvloede activa**: Navigeer aan de activa in Adobe Experience Manager en publiceer het opnieuw. Hierdoor wordt het element opnieuw beschikbaar in de CDN.
+
+2. **de inhoudsverwijzingen van de Update**: Als u inhoudsfragmenten of malplaatjes gebruikt die verlopen activa van verwijzingen voorzien:
+   * Concepten of klonen van het inhoudsfragment maken
+   * Het element opnieuw toevoegen of opnieuw selecteren
+   * De bijgewerkte inhoud publiceren
+
+3. **Proactief beheer**: Om toekomstige verstoringen te vermijden, overweeg periodiek het herzien en het herpubliceren activa die in actieve e-mailcampagnes worden gebruikt, vooral die die die de vervalperiode van TTL naderen.
+
+>[!CAUTION]
+>
+>Herpublicatievereisten gelden voor alle omgevingen (productie, fase, ontwikkeling). Zorg ervoor dat middelen beschikbaar blijven door hun levenscyclus op de juiste wijze te beheren.
+
++++
+
++++ Zal de logica voor het aflopen van activa in de toekomst worden verbeterd?
+
+Ja, Adobe werkt actief aan verbeteringen om de logica voor het aflopen van bedrijfsmiddelen en levenscyclusbeheer te verfijnen. Deze verbeteringen zijn bedoeld om de status van de levenscyclus van bedrijfsmiddelen beter zichtbaar te maken en het risico van beschadigde afbeeldingen in live campagnes te verminderen.
+
+Voor de meest recente updates raadpleegt u het Adobe-accountteam of controleert u de opmerkingen bij de Adobe Journey Optimizer-release.
 
 +++

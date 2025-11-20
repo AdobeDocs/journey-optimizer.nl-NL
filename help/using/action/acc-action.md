@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate
 keywords: campagne, acc, integratie
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: ee1b6808d3247c7549e82990113d0d496c31b2a9
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 0%
+source-wordcount: '686'
+ht-degree: 1%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 0%
 >title="Handelingen voor Adobe Campaign v7/v8"
 >abstract="Deze integratie is beschikbaar voor Adobe Campaign v7 en v8. Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden van Adobe Campaign Transaction Messaging. De verbinding tussen de Journey Optimizer- en Campagneinstanties wordt door Adobe tijdens de levering ingesteld."
 
-Als u Adobe Campaign Classic v7 of Campaign v8 hebt, kunt u op uw reizen een specifieke aangepaste actie uitvoeren om Adobe Journey Optimizer en Adobe Campaign te integreren. Dankzij deze integratie kunt u e-mails, pushberichten en SMS verzenden via de mogelijkheden van Adobe Campaign Transaction Messaging. Leer meer in dit [&#x200B; gebruiksgeval van begin tot eind &#x200B;](../building-journeys/ajo-ac.md).
+Als u Adobe Campaign Classic v7 of Campaign v8 hebt, kunt u op uw reizen een specifieke aangepaste actie uitvoeren om Adobe Journey Optimizer en Adobe Campaign te integreren. Dankzij deze integratie kunt u e-mails, pushberichten en SMS verzenden via de mogelijkheden van Adobe Campaign Transaction Messaging. Leer meer in dit [ gebruiksgeval van begin tot eind ](../building-journeys/ajo-ac.md).
 
-Voor elke gevormde actie, is de actie van de a [&#x200B; Campagne activiteit &#x200B;](../building-journeys/using-adobe-campaign-v7-v8.md) beschikbaar in het palet van de reisontwerper.
+Voor elke gevormde actie, is de actie van de a [ Campagne activiteit ](../building-journeys/using-adobe-campaign-v7-v8.md) beschikbaar in het palet van de reisontwerper.
 
 ## Activering {#access}
 
@@ -61,7 +61,7 @@ Op verzoek wordt de verbinding tussen de Journey Optimizer- en Adobe Campaign-om
 
 ## Vereisten {#prerequisites}
 
-In Adobe Campaign moet u een transactiemelding en de bijbehorende gebeurtenis maken en publiceren. Verwijs naar de [&#x200B; documentatie van Adobe Campaign &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
+In Adobe Campaign moet u een transactiemelding en de bijbehorende gebeurtenis maken en publiceren. Verwijs naar de [ documentatie van Adobe Campaign ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
 
 U kunt uw JSON-lading voor elk bericht samenstellen volgens het onderstaande patroon. U gaat deze lading dan kleven wanneer het vormen van de actie in Journey Optimizer (zie hieronder).
 
@@ -90,11 +90,27 @@ In Journey Optimizer moet u één actie per transactiemelding configureren.
 
 Ga als volgt te werk om een Campagne te maken:
 
-1. Maak een nieuwe handeling. [&#x200B; Leer hoe te om douaneacties &#x200B;](../action/action.md) tot stand te brengen.
+1. Maak een nieuwe handeling. [ Leer hoe te om douaneacties ](../action/action.md) tot stand te brengen.
 1. Voer een naam en beschrijving in.
-1. Op het **type van Actie** gebied, uitgezochte **Adobe Campaign Classic**.
+1. Selecteer in het veld **[!UICONTROL Action type]** de optie **[!UICONTROL Adobe Campaign Classic]**.
    ![](assets/accintegration1.png)
-1. Klik op het **gebied van de Lading** en kleef een voorbeeld van JSON nuttige lading die aan het bericht van de Campagne beantwoordt. Neem contact op met Adobe voor deze lading.
+1. Klik in het veld **[!UICONTROL Payload]** en plak een voorbeeld van de JSON-payload die overeenkomt met het campagnebericht. Neem contact op met Adobe voor deze lading.
 1. Stel elk veld in op statisch of variabel op basis van de vraag of u het wilt toewijzen op het canvas Journey. Bijvoorbeeld, zouden de gebieden zoals de parameters van het e-mailkanaal en verpersoonlijkingsgebieden (`ctx`) typisch als variabelen moeten worden geplaatst zodat kunnen zij zich dynamisch binnen de reis aanpassen.
-1. Klik **sparen**.
+1. Klik op **[!UICONTROL Save]**.
+
+## Een bestaande handeling bijwerken {#update-action}
+
+Als u een bestaande aangepaste actie van Campagne v7/v8 moet bijwerken, bijvoorbeeld wanneer het eindpunt Real-Time (RT) na de eerste installatie verandert, voert u de volgende stappen uit:
+
+1. Selecteer **[!UICONTROL Administration]** in het menu **[!UICONTROL Configurations]** en ga vervolgens naar **[!UICONTROL Actions]** .
+1. Zoek en selecteer de actie Campagne die u wilt bijwerken in de lijst met acties.
+1. Klik op **[!UICONTROL Edit]** om de actieconfiguratie te openen.
+1. Werk het **[!UICONTROL URL]** gebied met het nieuwe eindpunt URL van RT bij. Verzeker het eindpuntformaat correct en bereikbaar is.
+1. Werk indien nodig de configuratie van **[!UICONTROL Payload]** bij zodat deze overeenkomt met eventuele wijzigingen in de structuur van het transactiebericht van de campagne.
+1. Klik **[!UICONTROL Test]** om de verbinding aan het nieuwe eindpunt te bevestigen. Verifieer dat de test een succesvolle reactie alvorens te werk te gaan terugkeert.
+1. Nadat de wijzigingen zijn gevalideerd, klikt u op **[!UICONTROL Save]** om de wijzigingen toe te passen.
+
+>[!NOTE]
+>
+>Voor elke reis die deze handeling gebruikt, wordt automatisch de bijgewerkte configuratie gebruikt. Als u levende reizen gebruikend deze actie hebt, controleer hen na het bijwerken van het eindpunt nauwkeurig om correcte berichtlevering te verzekeren.
 

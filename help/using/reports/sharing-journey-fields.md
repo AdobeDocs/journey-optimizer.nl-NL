@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 6961a07e2874f9beb76a9beaebb29997d114d8e7
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 6%
+source-wordcount: '130'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ Deze gebiedsgroep wordt gebruikt in het **reis** schema (met betrekking tot **tr
 
 >[!NOTE]
 >
->Leer meer over de attributen van de reiseigenschappen [&#x200B; in deze sectie &#x200B;](../building-journeys/expression/journey-properties.md#journey-properties-fields).
+>Leer meer over de attributen van de reiseigenschappen [ in deze sectie ](../building-journeys/expression/journey-properties.md#journey-properties-fields).
 
 
 ## tripID {#journeyid-field}
@@ -42,6 +42,10 @@ Type: tekenreeks
 Naam van de reis.
 
 Type: tekenreeks
+
+>[!NOTE]
+>
+>De naam van de reis wordt gebruikt om gegevens van de reisuitvoering met rapporteringsdatasets te verbinden. Als u een reis anders noemt, zorg ervoor dat de nieuwe naam de naam in uw rapporteringsdataset aanpast om nauwkeurige rapportering te handhaven. Een probleem kan ertoe leiden dat rapportgegevens niet naar behoren worden weergegeven. Leer meer over [ het oplossen van problemen ontbrekende het melden van gegevens ](../building-journeys/report-journey.md#troubleshooting-missing-data).
 
 ## beschrijving {#description-field}
 
