@@ -17,9 +17,9 @@ ht-degree: 1%
 
 # Visuele fragmenten toevoegen aan uw e-mails {#use-visual-fragments}
 
-Een fragment is een herbruikbare component waarnaar in een of meer e-mails kan worden verwezen via Journey Optimizer-campagnes, -reizen of inhoudssjablonen. Met deze functionaliteit kunt u meerdere aangepaste inhoudsblokken samenstellen die door marketinggebruikers kunnen worden gebruikt om snel e-mailinhoud samen te stellen in een verbeterd ontwerpproces. [ leer hoe te om fragmenten ](../content-management/fragments.md) tot stand te brengen en te beheren.
+Een fragment is een herbruikbare component waarnaar in een of meer e-mails kan worden verwezen via Journey Optimizer-campagnes, -reizen of inhoudssjablonen. Met deze functionaliteit kunt u meerdere aangepaste inhoudsblokken samenstellen die door marketinggebruikers kunnen worden gebruikt om snel e-mailinhoud samen te stellen in een verbeterd ontwerpproces. [&#x200B; leer hoe te om fragmenten &#x200B;](../content-management/fragments.md) tot stand te brengen en te beheren.
 
-➡️ [ Leer hoe te, auteur en gebruiks fragmenten in deze video ](../content-management/fragments.md#video-fragments) beheren
+➡️ [&#x200B; Leer hoe te, auteur en gebruiks fragmenten in deze video &#x200B;](../content-management/fragments.md#video-fragments) beheren
 
 ## Een fragment gebruiken {#use-fragment}
 
@@ -29,7 +29,7 @@ Voer de onderstaande stappen uit om een fragment te gebruiken in een e-mailberic
 >
 >U kunt maximaal 30 fragmenten in een bepaalde levering toevoegen. Fragmenten kunnen maximaal 1 niveau worden genest.
 
-1. Open om het even welke e-mail of malplaatjeinhoud gebruikend [ E-mail Designer ](get-started-email-design.md).
+1. Open om het even welke e-mail of malplaatjeinhoud gebruikend [&#x200B; E-mail Designer &#x200B;](get-started-email-design.md).
 
 1. Selecteer het pictogram **[!UICONTROL Fragments]** van de linkerspoorstaaf.
 
@@ -105,11 +105,11 @@ Volg deze aanbevolen procedures bij het werken met visuele fragmenten en dynamis
 
 De impliciete variabelen verbeteren de bestaande fragmentfunctionaliteit om de efficiëntie voor hergebruik van inhoud en het gebruik van scripts te verbeteren. Fragmenten kunnen invoervariabelen gebruiken en uitvoervariabelen maken die bruikbaar zijn in campagne- en reisinhoud.
 
-Leer hoe te om impliciete variabelen in [ te gebruiken deze sectie ](../personalization/use-expression-fragments.md#implicit-variables).
+Leer hoe te om impliciete variabelen in [&#x200B; te gebruiken deze sectie &#x200B;](../personalization/use-expression-fragments.md#implicit-variables).
 
 ## Bewerkbare velden aanpassen {#customize-fields}
 
-Als bepaalde delen van het geselecteerde fragment bewerkbaar zijn gemaakt, kunt u de standaardwaarde ervan overschrijven nadat u het fragment aan de inhoud hebt toegevoegd. [ Leer hoe te om uw fragmenten klantgericht te maken ](../content-management/customizable-fragments.md)
+Als bepaalde delen van het geselecteerde fragment bewerkbaar zijn gemaakt, kunt u de standaardwaarde ervan overschrijven nadat u het fragment aan de inhoud hebt toegevoegd. [&#x200B; Leer hoe te om uw fragmenten klantgericht te maken &#x200B;](../content-management/customizable-fragments.md)
 
 Voer de volgende stappen uit om bewerkbare velden in een fragment aan te passen:
 

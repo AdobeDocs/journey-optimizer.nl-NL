@@ -22,7 +22,7 @@ Deze gebiedsgroep wordt gebruikt in het **reis** schema (met betrekking tot **tr
 
 >[!NOTE]
 >
->Leer meer over de attributen van de reiseigenschappen [ in deze sectie ](../building-journeys/expression/journey-properties.md#journey-properties-fields).
+>Leer meer over de attributen van de reiseigenschappen [&#x200B; in deze sectie &#x200B;](../building-journeys/expression/journey-properties.md#journey-properties-fields).
 
 
 ## tripID {#journeyid-field}
@@ -45,7 +45,7 @@ Type: tekenreeks
 
 >[!NOTE]
 >
->De naam van de reis wordt gebruikt om gegevens van de reisuitvoering met rapporteringsdatasets te verbinden. Als u een reis anders noemt, zorg ervoor dat de nieuwe naam de naam in uw rapporteringsdataset aanpast om nauwkeurige rapportering te handhaven. Een probleem kan ertoe leiden dat rapportgegevens niet naar behoren worden weergegeven. Leer meer over [ het oplossen van problemen ontbrekende het melden van gegevens ](../building-journeys/report-journey.md#troubleshooting-missing-data).
+>De naam van de reis wordt gebruikt om gegevens van de reisuitvoering met rapporteringsdatasets te verbinden. Als u een reis anders noemt, zorg ervoor dat de nieuwe naam de naam in uw rapporteringsdataset aanpast om nauwkeurige rapportering te handhaven. Een probleem kan ertoe leiden dat rapportgegevens niet naar behoren worden weergegeven. Leer meer over [&#x200B; het oplossen van problemen ontbrekende het melden van gegevens &#x200B;](../building-journeys/report-journey.md#troubleshooting-missing-data).
 
 ## beschrijving {#description-field}
 
