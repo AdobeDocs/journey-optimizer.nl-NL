@@ -11,9 +11,9 @@ keywords: reis, gebruiksgeval, weekdagen, voorwaarde, e-mail, planning
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 46a46fb25c1ef985a0bdea8974aa009e3699c7a3
+source-git-commit: 72f3396bc662e75efd0f82754bfa964baf51ab8e
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1825'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ Deze benadering toont u hoe te om een voorwaardenactiviteit te gebruiken om te c
 
 Deze benadering is ideaal voor zaken-aan-zaken (B2B) e-mailcampagnes, professionele nieuwsbrieven en mededelingen, zaken-gerelateerde aankondigingen, werk-gerelateerde productupdates, en om het even welke marketing campagne waar de levering in het weekend niet wordt gewenst.
 
-➡️ bekijk het geleidelijke [&#x200B; videoleerprogramma &#x200B;](#how-to-video)
+➡️ bekijk het geleidelijke [ videoleerprogramma ](#how-to-video)
 
 >[!NOTE]
 >
->Om dit gebruiksgeval uit te voeren, hebt u een actieve instantie van Adobe Journey Optimizer met een gevormde [&#x200B; oppervlakte van het e-mailkanaal &#x200B;](../configuration/channel-surfaces.md), een [&#x200B; publiek &#x200B;](../audience/about-audiences.md) of [&#x200B; gebeurtenis &#x200B;](../event/about-events.md) nodig om de reis, en een basisbegrip van [&#x200B; reisvoorwaarden &#x200B;](condition-activity.md) en [&#x200B; uitdrukkingen &#x200B;](expression/expressionadvanced.md) in werking te stellen.
+>Om dit gebruiksgeval uit te voeren, hebt u een actieve instantie van Adobe Journey Optimizer met een gevormde [ oppervlakte van het e-mailkanaal ](../configuration/channel-surfaces.md), een [ publiek ](../audience/about-audiences.md) of [ gebeurtenis ](../event/about-events.md) nodig om de reis, en een basisbegrip van [ reisvoorwaarden ](condition-activity.md) en [ uitdrukkingen ](expression/expressionadvanced.md) in werking te stellen.
 
 
 
@@ -48,7 +48,7 @@ Deze benadering is ideaal voor zaken-aan-zaken (B2B) e-mailcampagnes, profession
 
 1. Navigeer naar **[!UICONTROL Journey Management]** > **[!UICONTROL Journeys]** in Adobe Journey Optimizer.
 
-1. Klik op **[!UICONTROL Create Journey]** om een nieuwe rit te maken. [&#x200B; leer meer over het creëren van reizen &#x200B;](journey-gs.md)
+1. Klik op **[!UICONTROL Create Journey]** om een nieuwe rit te maken. [ leer meer over het creëren van reizen ](journey-gs.md)
 
 1. Vorm de reis eigenschappen:
    * **Naam**: De Campagne van de E-mail van de weekdag
@@ -65,20 +65,20 @@ Deze benadering is ideaal voor zaken-aan-zaken (B2B) e-mailcampagnes, profession
 
 Vlak na het begin van de rit voegt u een **[!UICONTROL Condition]** -activiteit toe om te controleren of de huidige dag zaterdag of zondag is. Hierdoor wordt de workflow dienovereenkomstig vertakt.
 
-1. Sleep een **[!UICONTROL Condition]** -activiteit naar het canvas na het ingangspunt. [&#x200B; leer meer over de activiteiten van de Voorwaarde &#x200B;](condition-activity.md)
+1. Sleep een **[!UICONTROL Condition]** -activiteit naar het canvas na het ingangspunt. [ leer meer over de activiteiten van de Voorwaarde ](condition-activity.md)
 
 1. Klik op de Condition-activiteit om het configuratievenster te openen.
 
-1. Selecteer **[!UICONTROL Condition type]** in de sectie **[!UICONTROL Data Source Condition]** . [&#x200B; leer meer over voorwaardetypes &#x200B;](condition-activity.md#data_source_condition)
+1. Selecteer **[!UICONTROL Condition type]** in de sectie **[!UICONTROL Data Source Condition]** . [ leer meer over voorwaardetypes ](condition-activity.md#data_source_condition)
 
-   ![&#x200B; Vormend de voorwaarde van de Zaterdag in de uitdrukkingsredacteur &#x200B;](assets/weekday-email-uc-condition-expression.png)
+   ![ Vormend de voorwaarde van de Zaterdag in de uitdrukkingsredacteur ](assets/weekday-email-uc-condition-expression.png)
 
 
 ### Stap 3: Vorm de voorwaarde om Zaterdag te identificeren
 
 Maak het eerste voorwaardepad om zaterdag-items te identificeren.
 
-1. Klik op **[!UICONTROL Advanced mode]** om de expressie-editor te openen. [&#x200B; leer meer over de uitdrukkingsredacteur &#x200B;](expression/expressionadvanced.md)
+1. Klik op **[!UICONTROL Advanced mode]** om de expressie-editor te openen. [ leer meer over de uitdrukkingsredacteur ](expression/expressionadvanced.md)
 
 1. Voer de volgende expressie in om te controleren of de huidige dag zaterdag is:
 
@@ -86,7 +86,7 @@ Maak het eerste voorwaardepad om zaterdag-items te identificeren.
    dayOfWeek(now()) == 7
    ```
 
-   Dit gebruikt de `dayOfWeek()` functie met `now()` om de huidige dag te krijgen. [&#x200B; leer meer over datumfuncties &#x200B;](functions/date-functions.md)
+   Dit gebruikt de `dayOfWeek()` functie met `now()` om de huidige dag te krijgen. [ leer meer over datumfuncties ](functions/date-functions.md)
 
 
 1. Klik op **[!UICONTROL Ok]** om de voorwaarde op te slaan.
@@ -121,7 +121,7 @@ Voor profielen die op Zaterdag of Zondag ingaan, gebruik Wacht activiteiten met 
 
 **voor de weg van de Zaterdag:**
 
-1. Voeg een **[!UICONTROL Wait]** activiteit toe. [&#x200B; Leer meer over de activiteiten van de Wacht &#x200B;](wait-activity.md)
+1. Voeg een **[!UICONTROL Wait]** activiteit toe. [ Leer meer over de activiteiten van de Wacht ](wait-activity.md)
 
 1. Selecteer **[!UICONTROL Duration]** als type wait.
 
@@ -139,9 +139,9 @@ Voor profielen die op Zaterdag of Zondag ingaan, gebruik Wacht activiteiten met 
    setHours(nowWithDelta(2, "days"), 9)
    ```
 
-   ![&#x200B; Reis met drie voorwaardenwegen - Zaterdag, Zondag, en Weekdagen &#x200B;](assets/weekday-email-uc-paths.png)
+   ![ Reis met drie voorwaardenwegen - Zaterdag, Zondag, en Weekdagen ](assets/weekday-email-uc-paths.png)
 
-   **Verklaring**: Deze formule berekent de wachttijd van zaterdag aan Maandag bij 9 AM. De waarde X=2 vertegenwoordigt 2 dagen voorwaarts (zaterdag + 2 dagen = Maandag). [&#x200B; leer meer over datumfuncties &#x200B;](functions/date-functions.md#nowWithDelta)
+   **Verklaring**: Deze formule berekent de wachttijd van zaterdag aan Maandag bij 9 AM. De waarde X=2 vertegenwoordigt 2 dagen voorwaarts (zaterdag + 2 dagen = Maandag). [ leer meer over datumfuncties ](functions/date-functions.md#nowWithDelta)
 
 **voor de weg van de Zondag:**
 
@@ -167,12 +167,12 @@ Voor profielen die op Zaterdag of Zondag ingaan, gebruik Wacht activiteiten met 
 
 Voor de **Wekdagweg** (maandag-vrijdag):
 
-1. Ga direct door om een **[!UICONTROL Email]** actieactiviteit toe te voegen. Er is geen wachtbewerking nodig voor weekdagvermeldingen. [&#x200B; Leer meer over e-mailacties &#x200B;](journeys-message.md)
+1. Ga direct door om een **[!UICONTROL Email]** actieactiviteit toe te voegen. Er is geen wachtbewerking nodig voor weekdagvermeldingen. [ Leer meer over e-mailacties ](journeys-message.md)
 
 1. Uw e-mailbericht configureren:
-   * Selecteer of creeer uw [&#x200B; e-mailinhoud &#x200B;](../email/get-started-email-design.md)
-   * Vorm de [&#x200B; e-mailparameters &#x200B;](../email/email-settings.md)
-   * Opstelling [&#x200B; verpersoonlijking &#x200B;](../personalization/personalize.md) zoals nodig
+   * Selecteer of creeer uw [ e-mailinhoud ](../email/get-started-email-design.md)
+   * Vorm de [ e-mailparameters ](../email/email-settings.md)
+   * Opstelling [ verpersoonlijking ](../personalization/personalize.md) zoals nodig
 
 1. Voeg een **[!UICONTROL End]** activiteit na e-mail toe.
 
@@ -192,22 +192,22 @@ Voordat u publiceert, test u de reislogica grondig in de testmodus van Adobe Jou
 
 1. Klik op de knop **[!UICONTROL Test]** in de rechterbovenhoek.
 
-1. De testmodus inschakelen. [&#x200B; Leer hoe te om uw reis &#x200B;](testing-the-journey.md) te testen
+1. De testmodus inschakelen. [ Leer hoe te om uw reis ](testing-the-journey.md) te testen
 
-1. Creeer [&#x200B; testprofielen &#x200B;](../audience/creating-test-profiles.md) met gesimuleerde ingstijden op verschillende dagen van de week:
+1. Creeer [ testprofielen ](../audience/creating-test-profiles.md) met gesimuleerde ingstijden op verschillende dagen van de week:
    * **ingang van de Zaterdag**: Verifieer het profiel volgt de weg van de Zaterdag, wacht en ontvangt e-mail op Maandag in het gespecificeerde uur
    * **de ingang van de Zondag**: Verifieer het profiel volgt de weg van de Zondag, wacht en ontvangt e-mail op Maandag in het gespecificeerde uur
    * **Maandag-Vrijdag ingangen**: Verifieer e-mails onmiddellijk zonder enige wachttijd worden verzonden
 
 1. Controleer de reisvisualisatie om ervoor te zorgen dat de profielen de correcte voorwaardelijke wegen (Zaterdag, Zondag, of weekdag) volgen.
 
-1. Controleer op eventuele fouten of waarschuwingen tijdens de rit. [&#x200B; Leer over het oplossen van problemenreizen &#x200B;](troubleshooting.md)
+1. Controleer op eventuele fouten of waarschuwingen tijdens de rit. [ Leer over het oplossen van problemenreizen ](troubleshooting.md)
 
 1. Verifieer dat de wachtwoorden de correcte duur voor uw gewenste Maandag leveringstijd berekenen.
 
 >[!IMPORTANT]
 >
->Test altijd uw reislogica grondig voordat u publiceert naar productie. Gebruik de Wijze van de Test om verschillende ingangsscenario&#39;s te simuleren en te bevestigen dat de weekendingangen correct voor Maandlevering een rij worden gevormd. [&#x200B; Leer meer over reis het testen beste praktijken &#x200B;](testing-the-journey.md)
+>Test altijd uw reislogica grondig voordat u publiceert naar productie. Gebruik de Wijze van de Test om verschillende ingangsscenario&#39;s te simuleren en te bevestigen dat de weekendingangen correct voor Maandlevering een rij worden gevormd. [ Leer meer over reis het testen beste praktijken ](testing-the-journey.md)
 
 ### Stap 9: Uw reis publiceren
 
@@ -215,107 +215,126 @@ Zodra het testen is voltooid:
 
 1. Klik op **[!UICONTROL Publish]** in de rechterbovenhoek.
 
-1. Bevestig de publicatie. [&#x200B; Leer meer over het publiceren reizen &#x200B;](publish-journey.md)
+1. Bevestig de publicatie. [ Leer meer over het publiceren reizen ](publish-journey.md)
 
-1. Controleer de vervoersprestaties gebruikend [&#x200B; Reis die &#x200B;](report-journey.md) rapporteert en [&#x200B; levende rapporten &#x200B;](../reports/journey-live-report.md).
+1. Controleer de vervoersprestaties gebruikend [ Reis die ](report-journey.md) rapporteert en [ levende rapporten ](../reports/journey-live-report.md).
 
 ## Aanbevolen werkwijzen en overwegingen
 
-+++**optimaliseer werkschema met verbeterde formules**
+### Workflow optimaliseren met verbeterde formules
 
-Om uw werkschema te verbeteren en complexere bedrijfsvereisten te behandelen, kunt u de formules tot vakantie, tijdzones, of specifieke kantooruren na de basisweekdagcontrole uitbreiden. Pas de uurparameter (H) in de Wacht formule aan om uw optimaal te passen verzendt tijd-voor voorbeeld, als 10 AM betere betrokkenheidstarieven toont, verander de formule om uur 10 te gebruiken. Als u meerdere tijdzones wilt ondersteunen, kunt u overwegen aparte reizen voor verschillende geografische regio&#39;s te maken om ervoor te zorgen dat de levering op maandag plaatsvindt in de lokale tijdzone van elke ontvanger.
+Verbeter uw werkschema en behandel complexere bedrijfsvereisten:
 
-+++
+* **Complexe bedrijfsuren**: Breid de formules uit om voor vakantie, tijdstreken, of specifieke bedrijfsuren voorbij de basisweekdagcontrole van rekenschap te geven.
+* **de leveringstijden van de Douane**: Pas de uurparameter (H) in de Wacht formule aan om uw optimale verzendtijd aan te passen. Bijvoorbeeld, als 10 AM betere betrokkenheidspercentages toont, verander de formule om uur 10 te gebruiken.
+* **veelvoudige steun van de tijdzone**: Creeer afzonderlijke reizen voor verschillende geografische gebieden om de levering van maandag in de lokale tijdzone van elke ontvanger te verzekeren.
 
-+++**Tijdzonebeheer**
+### Tijdzonebeheer
 
-De functie `now()` en de uitvoering van de reis gebruiken de tijdzone die op het reisniveau wordt gevormd. Verzeker de streek van de reistijd uw behoeften door dit in de reiseigenschappen te vormen alvorens te publiceren ([&#x200B; leer meer over timezone beheer &#x200B;](timezone-management.md)). Als uw publiek veelvoudige tijdzones overspant, merk op dat de dag-van-week controle in de gevormde tijdzone van de reis, niet de lokale tijdzone van de ontvanger gebeurt. Voor tijdzone-specifieke levering, creeer afzonderlijke reizen voor verschillende gebieden of gebruik de tijdzonemontages in de Gelezen activiteit van de Publiek.
+De functie `now()` en de uitvoering van de reis gebruiken de tijdzone die op het reisniveau wordt gevormd. Houd rekening met de volgende belangrijke punten:
 
-+++
+* **tijdzone van de Reis**: Zorg de streek van de reistijd aan uw behoeften door dit in de reiseigenschappen te vormen alvorens te publiceren. [ leer meer over timezone beheer ](timezone-management.md)
+* **Globaal publiek**: Als uw publiek veelvoudige tijdzones overspant, gebeurt de dag-van-week controle in de gevormde tijdzone van de reis, niet de lokale tijdzone van de ontvanger.
+* **Gelokaliseerde het plannen**: Voor tijdzone-specifieke levering, creeer afzonderlijke reizen voor verschillende gebieden of gebruik de tijdzonemontages in de Gelezen activiteit van het Publiek.
 
-+++**ingang en timing van de Reis**
+### Reisingang en -tijdstip
 
-Voor partijreizen, [&#x200B; programma het Gelezen publiek &#x200B;](read-audience.md#schedule) om in een tijd teweeg te brengen die voor uw publiek-vroege ochtenduitvoeringen (b.v., 6 :00 AM) geschikt is gemeenschappelijk voor bedrijfsmededelingen. Voor op gebeurtenis-gebaseerde reizen, zal de voorwaarde onmiddellijk worden geëvalueerd wanneer de gebeurtenis wordt ontvangen, en de profielen die op weekends ingaan zullen automatisch tot Maandag wachten ([&#x200B; leren meer over gebeurtenissen &#x200B;](../event/about-events.md)). Verzeker uw [&#x200B; montages van de reisonderbreking &#x200B;](journey-properties.md#timeout) aanpassen het maximum wachttijdperiode (tot 2 dagen van Zaterdag aan Maandag).
+Vorm uw reistiming die op het ingangstype wordt gebaseerd:
 
-+++
+* **las de reizen van het Publiek**: [ Plan het Gelezen Publiek ](read-audience.md#schedule) om in een tijd te teweegbrengen die voor uw publiek steek houdt. De vroege ochtenduitvoeringen (b.v., 6 :00 AM) zijn gemeenschappelijk voor bedrijfsmededelingen.
+* **op gebeurtenis-gebaseerde reizen**: De voorwaarde zal onmiddellijk worden geëvalueerd wanneer de gebeurtenis wordt ontvangen. Profielen die in het weekend worden ingevoerd, wachten automatisch tot maandag. [ Leer meer over gebeurtenissen ](../event/about-events.md)
+* **wacht onderbrekingsoverwegingen**: Verzeker uw [ montages van de reisonderbreking ](journey-properties.md#timeout) aanpassen de maximum wachttijdperiode (tot 2 dagen van Zaterdag aan Maandag).
 
-+++**het Testen is essentieel**
+### Testen is essentieel
 
-Zoals benadrukt in de implementatiegids, test altijd uw reislogica om alles te bevestigen werkt zoals verwacht. De Wijze van de Test van het gebruik **om verschillende ingangsscenario&#39;s te simuleren zonder echte e-mails te verzenden.** Test alle drie wegen (de ingangen van de Zaterdag, de ingangen van de Zondag, en de ingangen van de weekdag), verifieer de berekeningen van de Wacht duur correct zijn, bevestig de levering van maandag op het gespecificeerde uur, en controleer reis visualisatie om juiste weg te verzekeren die verplettert.
+Test altijd uw logica van de reis alvorens aan productie te publiceren:
 
-+++
+* De Wijze van de Test van het gebruik **om verschillende ingangsscenario&#39;s te simuleren zonder echte e-mails te verzenden**
+* Alle drie paden testen: zaterdag-, zondag- en weekdagvermeldingen
+* Controleer of de berekeningen voor tijdsduur wachten correct zijn
+* De levering van maandag bevestigen vindt plaats op het opgegeven uur
+* Reisvisualisatie controleren om een juiste routeroutering te garanderen
 
-+++**Wedertoegang en frequentie**
+[Meer informatie over het testen van reizen](testing-the-journey.md)
 
-Voor terugkomende campagnes, vorm de **[!UICONTROL Re-entrance]** montages geschikt ([&#x200B; Leer meer over re-entry montages &#x200B;](entry-management.md)). Als de profielen de reis kunnen opnieuw ingaan, zullen zij aan de dag-van-week controle elke keer onderworpen zijn, die ervoor zorgen de weekendingangen altijd voor Maandag in de rij worden geplaatst. Overweeg het toevoegen van [&#x200B; frequentie die regels &#x200B;](../conflict-prioritization/journey-capping.md) begrenzen om over-overseinen te vermijden als de profielen vaak kunnen opnieuw binnengaan.
+### Herkomst en frequentie
 
-+++
+Voor terugkerende campagnes, beheer zorgvuldig opnieuw betreden profiel:
+
+* **vorm re-ingang**: Opstelling de **[!UICONTROL Re-entrance]** montages geschikt. [ leer meer over re-entry montages ](entry-management.md)
+* **Consistent gedrag**: Als de profielen de reis kunnen opnieuw ingaan, zullen zij aan de dag-van-week controle telkens onderworpen zijn, die weekendingangen verzekeren altijd voor Maandag een rij worden gevormd.
+* **het in kaart brengen van de Frequentie**: Overweeg toevoegend [ frequentie die regels ](../conflict-prioritization/journey-capping.md) begrenzen om over-overseinen te vermijden als de profielen vaak kunnen opnieuw binnengaan.
 
 ## Geavanceerde variaties
 
-+++**Specifieke dag het richten**
+### Specifieke doeldag
 
-Wijzig de voorwaarde als u e-mailberichten alleen op specifieke dagen wilt verzenden (bijvoorbeeld dinsdag en donderdag):
+Alleen e-mailberichten verzenden op specifieke dagen (bijvoorbeeld dinsdag en donderdag):
 
-```javascript
-dayOfWeek(now()) == 3 or dayOfWeek(now()) == 5
-```
+1. **wijzig de voorwaarde** om specifieke dagen te controleren:
 
-Voor alle andere dagen, voeg een activiteit van de Wacht toe die het aantal dagen tot volgende Dinsdag of Donderdag berekent.
+   ```javascript
+   dayOfWeek(now()) == 3 or dayOfWeek(now()) == 5
+   ```
 
-+++
+2. **voeg wachtactiviteiten** voor alle andere dagen toe die het aantal dagen tot volgende Dinsdag of Donderdag berekenen.
 
-+++**Verschil verzendt tijden voor verschillende dagen**
+### Verschillende verzendtijden voor verschillende dagen
 
-U kunt meerdere paden maken met verschillende wachtformules voor verschillende gedragingen in het weekend. Gebruik bijvoorbeeld `nowWithDelta(4, "days")` voor levering op zaterdag en woensdag of `nowWithDelta(2, "days")` voor levering op zondag en dinsdag. Dit staat meer flexibiliteit in uw verzendend programma toe.
+Maak meerdere paden met verschillende wachtformules voor flexibele planning:
 
-+++
+* **Zaterdag → Woensdag levering**: Gebruik `nowWithDelta(4, "days")`
+* **Zondag → Dinsdag levering**: Gebruik `nowWithDelta(2, "days")`
 
-+++**levering Bedrijfsuren**
+Op deze manier kunt u leveringsdagen aanpassen op basis van uw zakelijke vereisten.
 
-Om levering tijdens bedrijfsuren te verzekeren, pas de uurparameter in uw Wacht formule aan. Bijvoorbeeld, voor levering bij 2 PM in plaats van 9 AM:
+### Levering van kantooruren
 
-```javascript
-setHours(nowWithDelta(1, "days"), 14)
-```
+Zo zorgt u voor levering tijdens kantooruren:
 
-U kunt ook een tweede voorwaarde toevoegen na de Wacht om te controleren of de huidige tijd binnen kantooruren alvorens te verzenden is.
+1. **pas de uurparameter** in uw Wacht formule aan. Bijvoorbeeld, voor levering bij 2 PM in plaats van 9 AM:
 
-+++
+   ```javascript
+   setHours(nowWithDelta(1, "days"), 14)
+   ```
 
-+++**Uitsluiting van de Vakantie**
+2. **voeg een tijdcontrole** (facultatief) toe: voeg een tweede voorwaarde na de Wacht toe om de huidige tijd binnen bedrijfsuren alvorens te verifiëren is.
 
-Als u feestdagen wilt uitsluiten, voegt u een extra voorwaardepad toe dat controleert op specifieke datums:
+### Uitsluiting vakantie
 
-```javascript
-toDateTimeOnly(now()) == toDateTimeOnly("2024-12-25T00:00:00")
-```
+U kunt feestdagen uitsluiten van het verzenden van e-mail als volgt:
 
-Als de voorwaarde een vakantie aanpast, voeg een Wacht activiteit toe om tot de volgende werkdag uit te stellen. [&#x200B; leer meer over de functies van de datumvergelijking &#x200B;](functions/date-functions.md)
+1. **voeg een voorwaardenweg** toe om specifieke vakantiedata te controleren:
 
-+++
+   ```javascript
+   toDateTimeOnly(now()) == toDateTimeOnly("2024-12-25T00:00:00")
+   ```
+
+2. **voeg een Wacht activiteit** toe als de voorwaarde een vakantie aanpast, aan vertraging tot de volgende werkdag.
+
+[Meer informatie over functies voor datumvergelijking](functions/date-functions.md)
 
 ## Verwante onderwerpen
 
-* [&#x200B; Ongeveer de activiteiten van de Voorwaarde &#x200B;](condition-activity.md) - leer hoe te om verschillende wegen in uw reis tot stand te brengen
-* [&#x200B; de voorwaarden van het Gebruik in een reis &#x200B;](conditions.md) - Gedetailleerde gids op reisvoorwaarden
-* [&#x200B; wacht activiteit &#x200B;](wait-activity.md) - vorm wachttijdsduur en formules
-* [&#x200B; functies van de Datum &#x200B;](functions/date-functions.md) - Volledige verwijzing voor datum en tijdfuncties
-* [&#x200B; de redacteur van de Uitdrukking &#x200B;](expression/expressionadvanced.md) - bouw complexe uitdrukkingen
-* [&#x200B; Test uw reis &#x200B;](testing-the-journey.md) - bevestigt reislogica alvorens te publiceren
-* [&#x200B; het beheer van de tijdzone &#x200B;](timezone-management.md) - handvat verschillende tijdstreken in reizen
-* [&#x200B; de beste praktijken van de Reis &#x200B;](journey-gs.md#best-practices) - Aanbevolen benaderingen voor reisontwerp
+* [ Ongeveer de activiteiten van de Voorwaarde ](condition-activity.md) - leer hoe te om verschillende wegen in uw reis tot stand te brengen
+* [ de voorwaarden van het Gebruik in een reis ](conditions.md) - Gedetailleerde gids op reisvoorwaarden
+* [ wacht activiteit ](wait-activity.md) - vorm wachttijdsduur en formules
+* [ functies van de Datum ](functions/date-functions.md) - Volledige verwijzing voor datum en tijdfuncties
+* [ de redacteur van de Uitdrukking ](expression/expressionadvanced.md) - bouw complexe uitdrukkingen
+* [ Test uw reis ](testing-the-journey.md) - bevestigt reislogica alvorens te publiceren
+* [ het beheer van de tijdzone ](timezone-management.md) - handvat verschillende tijdstreken in reizen
+* [ de beste praktijken van de Reis ](journey-gs.md#best-practices) - Aanbevolen benaderingen voor reisontwerp
 
 ## Hoe kan ik-video
 
 Met Adobe Journey Optimizer kun je e-mails alleen op weekdagen verzenden. Deze video toont de geleidelijke implementatie van voorwaardenactiviteiten en Wacht formules aan rij weekendingangen voor Maandlevering.
 
->[!VIDEO](https://video.tv.adobe.com/v/3469386?captions=dut&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
 
 ## Aanvullende bronnen
 
-* [&#x200B; de redacteursdocumentatie van de Uitdrukking &#x200B;](expression/expressionadvanced.md) - bouw en bevestig reisuitdrukkingen
-* [&#x200B; gids van de ontwerper van de Reis &#x200B;](using-the-journey-designer.md) - Meester het wegcanvas
-* [&#x200B; overzicht van de de gebruiksgevallen van de Reis &#x200B;](jo-use-cases.md) - Onderzoek meer reispatronen en voorbeelden
-* [&#x200B; Communautaire blogpost: Hoe te om E-mail slechts op Weekdagen &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} te verzenden - Oorspronkelijke blogpost met gedetailleerde voorbeelden
+* [ de redacteursdocumentatie van de Uitdrukking ](expression/expressionadvanced.md) - bouw en bevestig reisuitdrukkingen
+* [ gids van de ontwerper van de Reis ](using-the-journey-designer.md) - Meester het wegcanvas
+* [ overzicht van de de gebruiksgevallen van de Reis ](jo-use-cases.md) - Onderzoek meer reispatronen en voorbeelden
+* [ Communautaire blogpost: Hoe te om E-mail slechts op Weekdagen ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} te verzenden - Oorspronkelijke blogpost met gedetailleerde voorbeelden
 
