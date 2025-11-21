@@ -341,7 +341,7 @@ Als de voorwaarde een vakantie aanpast, voeg een Wacht activiteit toe om tot de 
 
 Met Adobe Journey Optimizer kun je e-mails alleen op weekdagen verzenden. Deze video toont de geleidelijke implementatie van voorwaardenactiviteiten en Wacht formules aan rij weekendingangen voor Maandlevering.
 
->[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469386?captions=dut&quality=12&learn=on)
 
 ## Aanvullende bronnen
 
