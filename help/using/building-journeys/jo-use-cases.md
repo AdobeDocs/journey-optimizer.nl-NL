@@ -145,34 +145,34 @@ Blader naar videozelfstudies om belangrijke stappen te leren om veelgebruikte ge
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px">
     <br/>
-      <strong> Klant onboarding </strong><br/><p>Leer hoe u een instapreis van klanten in Journey Optimizer implementeert.</p> - <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank"> bekijk de case video van het Gebruik </a>
+      <strong> Klant onboarding </strong><br/><p>Leer hoe u een instapreis van klanten in Journey Optimizer implementeert.</p> - <a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank"> bekijk de case video van het Gebruik </a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px">
     <br/>
-      <strong> Verlaten kar </strong><br/><p>Leer hoe u de verlaten draagtas voor winkelwagentjes kunt implementeren met de functie Playbook in Adobe Journey Optimizer.</p><a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank"> bekijk de gevalvideo van het Gebruik </a>
+      <strong> Verlaten kar </strong><br/><p>Leer hoe u de verlaten draagtas voor winkelwagentjes kunt implementeren met de functie Playbook in Adobe Journey Optimizer.</p><a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank"> bekijk de gevalvideo van het Gebruik </a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-content.svg" width="35px">
     <br/>
-      <strong> re-engagement </strong><br/><p>Leer hoe Adobe de Intelligent Re-engagement gebruikscase heeft aangepast om met de Luma demo-site te werken, voortbouwend op de stichtingsimplementatie die is gedocumenteerd in de zelfstudie van de Architect van Gegevens en van de Ingenieur van Gegevens en de zelfstudie van Experience Platform Web SDK.</p><a href="https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma" target="_blank"> bekijk de gevalvideo's van het Gebruik </a> 
+      <strong> re-engagement </strong><br/><p>Leer hoe Adobe de Intelligent Re-engagement gebruikscase heeft aangepast om met de Luma demo-site te werken, voortbouwend op de stichtingsimplementatie die is gedocumenteerd in de zelfstudie van de Architect van Gegevens en van de Ingenieur van Gegevens en de zelfstudie van Experience Platform Web SDK.</p><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma" target="_blank"> bekijk de gevalvideo's van het Gebruik </a> 
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong> Aanbieding in real time verpersoonlijking </strong><br/><p>Het gebruiken van aan het weer gerelateerde gegevens in Adobe Journey Optimizer om aanbiedingen te dienen staat ondernemingen toe om klantenervaringen te personaliseren die op real-time milieuomstandigheden in real time worden gebaseerd.</p><a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction" target="_blank"> volg het geleidelijke leerprogramma </a>
+      <strong> Aanbieding in real time verpersoonlijking </strong><br/><p>Het gebruiken van aan het weer gerelateerde gegevens in Adobe Journey Optimizer om aanbiedingen te dienen staat ondernemingen toe om klantenervaringen te personaliseren die op real-time milieuomstandigheden in real time worden gebaseerd.</p><a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction" target="_blank"> volg het geleidelijke leerprogramma </a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-configure.svg" width="35px">
     <br/>
-      <strong> Aanbiedingen van het Spoor en van het rapport die via besluit worden geleverd </strong><br/><p>Laat rapportering en prestatiesanalyse voor aanbiedingen toe die door Adobe Journey Optimizer worden geleverd: wanneer de aanbiedingen gepersonaliseerd en gebaseerd op contextuele signalen worden geleverd, is het essentieel om zowel impressies als gebruikersinteractie te volgen om hun doeltreffendheid te evalueren.</p><a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/reporting-on-ajo-od/introduction" target="_blank"> volg het geleidelijke leerprogramma </a> 
+      <strong> Aanbiedingen van het Spoor en van het rapport die via besluit worden geleverd </strong><br/><p>Laat rapportering en prestatiesanalyse voor aanbiedingen toe die door Adobe Journey Optimizer worden geleverd: wanneer de aanbiedingen gepersonaliseerd en gebaseerd op contextuele signalen worden geleverd, is het essentieel om zowel impressies als gebruikersinteractie te volgen om hun doeltreffendheid te evalueren.</p><a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/reporting-on-ajo-od/introduction" target="_blank"> volg het geleidelijke leerprogramma </a> 
     </td>
     <td>
       <img src="../assets/do-not-localize/icon_profile-audience.svg" width="35px">
     <br/>
-      <strong> Personaliseer aanbiedingen met rangschikkende formules </strong><br/><p>Leer hoe je persoonlijke financiële aanbiedingen kunt aanbieden door gebruikerskenmerken zoals postcode en jaarinkomen in Adobe Journey Optimizer te gebruiken. Door rangschikkingsformules te gebruiken, worden aanbiedingen intelligent gescoord en geprioriteerd gebaseerd op locatiespecifieke promoties en op inkomen-gebaseerde subsidiabiliteit.</p><a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction" target="_blank"> volg het geleidelijke leerprogramma </a> 
+      <strong> Personaliseer aanbiedingen met rangschikkende formules </strong><br/><p>Leer hoe je persoonlijke financiële aanbiedingen kunt aanbieden door gebruikerskenmerken zoals postcode en jaarinkomen in Adobe Journey Optimizer te gebruiken. Door rangschikkingsformules te gebruiken, worden aanbiedingen intelligent gescoord en geprioriteerd gebaseerd op locatiespecifieke promoties en op inkomen-gebaseerde subsidiabiliteit.</p><a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction" target="_blank"> volg het geleidelijke leerprogramma </a> 
     </td>
   </tr>
 </table>
