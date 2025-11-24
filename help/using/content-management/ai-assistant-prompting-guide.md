@@ -116,19 +116,19 @@ Deze verzoeken worden niet ondersteund en moeten via andere tools worden afgehan
 
 Controleer voordat u inhoud genereert het volgende:
 
-&amp;controle; **Duidelijke doelstelling**: verklaart duidelijk de actie, het product/de dienst, de waarde, en de context.
+&controle; **Duidelijke doelstelling**: verklaart duidelijk de actie, het product/de dienst, de waarde, en de context.
 
-&amp;controle; **Gedefinieerd doelpubliek**: Specificeert de demografisch, de rol, of het segment.
+&controle; **Gedefinieerd doelpubliek**: Specificeert de demografisch, de rol, of het segment.
 
-&amp;controle; **het type van Inhoud groepering**: De doelstelling past het geselecteerde kanaal of het formaat aan.
+&controle; **het type van Inhoud groepering**: De doelstelling past het geselecteerde kanaal of het formaat aan.
 
-&amp;controle; **gevormde Dropdown selecties**: De toon, de strategie, en de scène worden gekozen, omvatten hen niet in de herinnering.
+&controle; **gevormde Dropdown selecties**: De toon, de strategie, en de scène worden gekozen, omvatten hen niet in de herinnering.
 
-&amp;controle; **gespecificeerde nadruk van het Document**: benadrukt welke inhoud of secties aan verwijzing.
+&controle; **gespecificeerde nadruk van het Document**: benadrukt welke inhoud of secties aan verwijzing.
 
-&amp;controle; **toegepaste Merk**: De aangewezen merkrichtlijnen worden geselecteerd.
+&controle; **toegepaste Merk**: De aangewezen merkrichtlijnen worden geselecteerd.
 
-&amp;controle; **Realistisch werkingsgebied**: Vermijd verzoeken om lay-outveranderingen, het stileren, of structurele geeft uit.
+&controle; **Realistisch werkingsgebied**: Vermijd verzoeken om lay-outveranderingen, het stileren, of structurele geeft uit.
 
 ## Effectieve marketingdoelstellingen schrijven {#marketing-objectives}
 
@@ -138,11 +138,11 @@ Zorg er bij het ontwerpen van marketingdoelstellingen voor dat deze duidelijk, h
 
 **Voorbeelden van goede doelstellingen:**
 
-&amp;check; &quot;Drive sign-ups voor onze gratis proefversie van 30 dagen van het nieuwe AI-dashboard voor analysemogelijkheden&quot;
+&check; &quot;Drive sign-ups voor onze gratis proefversie van 30 dagen van het nieuwe AI-dashboard voor analysemogelijkheden&quot;
 
-&amp;check; &quot;Genereer leads voor ons B2B-webinar over &#39;Reducing Cloud Costs by 40%&#39; dat op 15 maart plaatsvindt&quot;
+&check; &quot;Genereer leads voor ons B2B-webinar over &#39;Reducing Cloud Costs by 40%&#39; dat op 15 maart plaatsvindt&quot;
 
-&amp;check; &quot;Onze beperkte vakantiekorting voor 25% verhogen op premieabonnementen, die 25 december eindigt&quot;
+&check; &quot;Onze beperkte vakantiekorting voor 25% verhogen op premieabonnementen, die 25 december eindigt&quot;
 
 **Voorbeelden om te vermijden:**
 
@@ -159,11 +159,11 @@ Gebruik deze formule om u te helpen efficiënte doelstellingen schrijven: **Acti
 
 **Voorbeelden van goede doelstellingen:**
 
-&amp;check; &quot;Aanmoedig downloads van onze nieuwe mobiele app die gebruikers helpt bij het volgen van duurzame leefgewoonten met gepersonaliseerde eco-vriendelijke aanbevelingen&quot;
+&check; &quot;Aanmoedig downloads van onze nieuwe mobiele app die gebruikers helpt bij het volgen van duurzame leefgewoonten met gepersonaliseerde eco-vriendelijke aanbevelingen&quot;
 
-&amp;check; &quot;Registratie bevorderen voor onze exclusieve workshop over geavanceerde technieken voor gegevensvisualisatie voor marketingprofessionals&quot;
+&check; &quot;Registratie bevorderen voor onze exclusieve workshop over geavanceerde technieken voor gegevensvisualisatie voor marketingprofessionals&quot;
 
-&amp;check; &quot;Aanwezigheid op station voor de introductie van ons product toont de revolutionaire AI-schrijfassistent die meer dan 5 uur per week bespaart&quot;
+&check; &quot;Aanwezigheid op station voor de introductie van ons product toont de revolutionaire AI-schrijfassistent die meer dan 5 uur per week bespaart&quot;
 
 **Voorbeelden om te vermijden:**
 
