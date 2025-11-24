@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: bericht, frequentie, regels, druk
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: 2f4c6a4a82784ae2fae99b3d802b2d8f94d2ca75
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Door deze processen te stroomlijnen, kunt u klantenervaring verbeteren, tijd bes
 
 >[!AVAILABILITY]
 >
->De regels voor de korte uren zijn momenteel alleen beschikbaar voor een aantal organisaties (Beperkte Beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger om aan de wachtlijst toe te voegen.
+>De regels voor de korte uren zijn momenteel alleen beschikbaar voor een aantal organisaties (Beperkte Beschikbaarheid).  Deze zullen in toekomstige versies geleidelijk beschikbaar zijn voor alle klanten.
 
 
 ➡️ [Ontdek deze functie in video](#video)
@@ -88,7 +88,7 @@ Om stille uren te plaatsen, creeer een regel binnen een reeks van de douaneregel
    1. Kies de **[!UICONTROL Time zone]** die u wilt gebruiken:
 
       * **[!UICONTROL UTC/GMT]** - Pas een standaard GMT-tijdvenster toe op alle ontvangers in het publiek, ongeacht hun afzonderlijke tijdzones.
-      * **[!UICONTROL Use recipients local time zone]** - Gebruik het veld Tijdzone van elk profiel. [&#x200B; leer meer op het beheer van de tijdzone in reizen &#x200B;](../building-journeys/timezone-management.md#timezone-from-profiles)
+      * **[!UICONTROL Use recipients local time zone]** - Gebruik het veld Tijdzone van elk profiel. [ leer meer op het beheer van de tijdzone in reizen ](../building-journeys/timezone-management.md#timezone-from-profiles)
 
         >[!IMPORTANT]
         >
@@ -128,14 +128,14 @@ Nadat u de regel hebt opgeslagen en de regelset hebt geactiveerd, kunt u deze to
 
 >[!TAB  pas de acties van het het urenkanaal van de stilte in reizen toe ]
 
-1. Open uw reis, selecteer de actie van het a [&#x200B; kanaal &#x200B;](../building-journeys/journeys-message.md) en geef de inhoud van uw bericht uit.
+1. Open uw reis, selecteer de actie van het a [ kanaal ](../building-journeys/journeys-message.md) en geef de inhoud van uw bericht uit.
 1. Klik op de knop **[!UICONTROL Add Business Rule]** en selecteer de regelset die de regel voor stille uren bevat.
 
    ![](assets/quiet-hours-apply.png)
 
    >[!NOTE]
    >
-   >Slechts [&#x200B; geactiveerde &#x200B;](#activate-rule) regelreeksen tonen in de lijst.
+   >Slechts [ geactiveerde ](#activate-rule) regelreeksen tonen in de lijst.
 
 1. Activeer je reis.
 
@@ -148,7 +148,7 @@ Nadat u de regel hebt opgeslagen en de regelset hebt geactiveerd, kunt u deze to
 
    >[!NOTE]
    >
-   >Slechts [&#x200B; geactiveerde &#x200B;](#activate-rule) regelreeksen tonen in de lijst.
+   >Slechts [ geactiveerde ](#activate-rule) regelreeksen tonen in de lijst.
 
 1. Activeer uw campagne.
 
@@ -156,7 +156,7 @@ Nadat u de regel hebt opgeslagen en de regelset hebt geactiveerd, kunt u deze to
 
 ## Volgende stappen
 
-Zodra uw reis of campagnes zijn geactiveerd en uitgevoerd, kunt u het aantal profielen bekijken die van de mededeling in het [&#x200B; rapport van Customer Journey Analytics &#x200B;](../reports/report-gs-cja.md) worden uitgesloten, en in het [&#x200B; Levende rapport &#x200B;](../reports/live-report.md), waar de de urenregels van de Quiet als mogelijke reden voor gebruikers die van levering worden uitgesloten zullen worden vermeld.
+Zodra uw reis of campagnes zijn geactiveerd en uitgevoerd, kunt u het aantal profielen bekijken die van de mededeling in het [ rapport van Customer Journey Analytics ](../reports/report-gs-cja.md) worden uitgesloten, en in het [ Levende rapport ](../reports/live-report.md), waar de de urenregels van de Quiet als mogelijke reden voor gebruikers die van levering worden uitgesloten zullen worden vermeld.
 
 ![](assets/quiet-hours-report.png)
 
@@ -187,4 +187,4 @@ Zodra uw reis of campagnes zijn geactiveerd en uitgevoerd, kunt u het aantal pro
 
 Leer hoe u de functie voor stille uren in Adobe Journey Optimizer kunt gebruiken.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475858?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)
