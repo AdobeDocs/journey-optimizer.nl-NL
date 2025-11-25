@@ -10,9 +10,9 @@ level: Intermediate
 keywords: wachten, activiteit, reis, volgende, canvas
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: cec807afe35bc95be9fa8d455cd72c2600e51fa7
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '727'
 ht-degree: 3%
 
 ---
@@ -40,21 +40,21 @@ U kunt twee types van **plaatsen wacht** activiteit:
 
 ### Meerdere wachtactiviteiten {#multiple-wait-activities}
 
-Wanneer het gebruiken van veelvoudige **wacht** activiteiten in een reis, me ervan bewust ben dat de [&#x200B; globale onderbreking &#x200B;](journey-properties.md#global_timeout) voor reizen 91 dagen is, betekenend dat de profielen altijd uit het reismaximum 91 dagen zijn nadat zij het inging. Leer meer op [&#x200B; deze pagina &#x200B;](journey-properties.md#global_timeout).
+Wanneer het gebruiken van veelvoudige **wacht** activiteiten in een reis, me ervan bewust ben dat de [ globale onderbreking ](journey-properties.md#global_timeout) voor reizen 91 dagen is, betekenend dat de profielen altijd uit het reismaximum 91 dagen zijn nadat zij het inging. Leer meer op [ deze pagina ](journey-properties.md#global_timeout).
 
 Een individu kan a **ingaan wacht** activiteit slechts als zij genoeg tijd in de reis verlaten hebben om de wachttijdduur vóór de 91 dagen reisonderbreking te voltooien.
 
 ### Wacht en ingang {#wait-reentrance}
 
-Een beste praktijk om **niet te gebruiken wacht** activiteiten om ingang te blokkeren. In plaats daarvan, gebruik **terugkeer** optie op het niveau van de reiseigenschappen toestaan. Leer meer op [&#x200B; deze pagina &#x200B;](../building-journeys/journey-properties.md#entrance).
+Een beste praktijk om **niet te gebruiken wacht** activiteiten om ingang te blokkeren. In plaats daarvan, gebruik **terugkeer** optie op het niveau van de reiseigenschappen toestaan. Leer meer op [ deze pagina ](../building-journeys/journey-properties.md#entrance).
 
 ### Wachten en testmodus {#wait-test-mode}
 
-Op testwijze, staat de **[!UICONTROL Wait time in test]** parameter u toe om de tijd te bepalen dat elk **&#x200B;**&#x200B;activiteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Leer meer op [&#x200B; deze pagina &#x200B;](../building-journeys/testing-the-journey.md).
+Op testwijze, staat de **[!UICONTROL Wait time in test]** parameter u toe om de tijd te bepalen dat elk **** activiteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Leer meer op [ deze pagina ](../building-journeys/testing-the-journey.md).
 
 ### Wachten en mobiele kanalen {#wait-mobile-channels}
 
-Als u een [&#x200B; in-app bericht &#x200B;](../in-app/create-in-app.md) kort na het verzenden van a [&#x200B; duw bericht &#x200B;](../../rp_landing_pages/push-landing-page.md) wilt tonen, gebruik a **wacht** activiteit om de in-app tijd van de berichtlading toe te staan om zich te verspreiden. Meestal wordt een wachttijd van 5 tot 15 minuten aanbevolen, maar de exacte wachttijden kunnen variëren afhankelijk van de complexiteit van de lading en de behoeften aan personalisatie.
+Als u een [ in-app bericht ](../in-app/create-in-app.md) kort na het verzenden van a [ duw bericht ](../../rp_landing_pages/push-landing-page.md) wilt tonen, gebruik a **wacht** activiteit om de in-app tijd van de berichtlading toe te staan om zich te verspreiden. Meestal wordt een wachttijd van 5 tot 15 minuten aanbevolen, maar de exacte wachttijden kunnen variëren afhankelijk van de complexiteit van de lading en de behoeften aan personalisatie.
 
 ## Configuratie {#wait-configuration}
 
@@ -62,7 +62,7 @@ Als u een [&#x200B; in-app bericht &#x200B;](../in-app/create-in-app.md) kort na
 
 Selecteer het **type van de Duur** om de relatieve duur van te plaatsen wacht vóór de uitvoering van de volgende activiteit. De maximumduur is **90 dagen**.
 
-![&#x200B; bepaalt de wachttijdduur &#x200B;](assets/journey55.png)
+![ bepaalt de wachttijdduur ](assets/journey55.png)
 
 <!--
 ## Fixed date wait{#fixed_date}
@@ -77,11 +77,11 @@ Select the date for the execution of the next activity.
 
 Selecteer het **type van de Douane** om een douanedatum te bepalen, gebruikend een geavanceerde uitdrukking die op een gebied wordt gebaseerd dat uit een gebeurtenis of een reactie van de douaneactie komt. U kunt een relatieve duur niet rechtstreeks definiëren, bijvoorbeeld 7 dagen, maar u kunt functies gebruiken om de duur te berekenen als dat nodig is (bijvoorbeeld 2 dagen na aankoop).
 
-![&#x200B; bepalen een douane wacht met een uitdrukking &#x200B;](assets/journey57.png)
+![ bepalen een douane wacht met een uitdrukking ](assets/journey57.png)
 
-De expressie in de editor moet een `dateTimeOnly` -indeling hebben. Verwijs naar [&#x200B; deze pagina &#x200B;](expression/expressionadvanced.md). Voor meer informatie over dateTimeOnly formaat, verwijs naar [&#x200B; deze pagina &#x200B;](expression/data-types.md).
+De expressie in de editor moet een `dateTimeOnly` -indeling hebben. Verwijs naar [ deze pagina ](expression/expressionadvanced.md). Voor meer informatie over dateTimeOnly formaat, verwijs naar [ deze pagina ](expression/data-types.md).
 
-De beste manier is om aangepaste datums te gebruiken die specifiek zijn voor uw profielen en om te voorkomen dat voor iedereen dezelfde datum wordt gebruikt. Definieer bijvoorbeeld niet `toDateTimeOnly('2024-01-01T01:11:00Z')` , maar `toDateTimeOnly(@event{Event.productDeliveryDate})` die specifiek is voor elk profiel. Houd er rekening mee dat het gebruik van vaste datums problemen kan veroorzaken bij het uitvoeren van de reis. Leer meer over het effect van de activiteiten van de Wacht op tarief van de reisverwerking in [&#x200B; deze sectie &#x200B;](entry-management.md#wait-activities-impact).
+De beste manier is om aangepaste datums te gebruiken die specifiek zijn voor uw profielen en om te voorkomen dat voor iedereen dezelfde datum wordt gebruikt. Definieer bijvoorbeeld niet `toDateTimeOnly('2024-01-01T01:11:00Z')` , maar `toDateTimeOnly(@event{Event.productDeliveryDate})` die specifiek is voor elk profiel. Houd er rekening mee dat het gebruik van vaste datums problemen kan veroorzaken bij het uitvoeren van de reis. Leer meer over het effect van de activiteiten van de Wacht op tarief van de reisverwerking in [ deze sectie ](entry-management.md#wait-activities-impact).
 
 
 >[!NOTE]
@@ -90,6 +90,15 @@ De beste manier is om aangepaste datums te gebruiken die specifiek zijn voor uw 
 >
 >De **tijdzone** wordt verwacht in de eigenschappen van uw reis. Dientengevolge, van het gebruikersinterface, is het niet mogelijk om bij volledig te richten timestamp mengen tijd en tijdzone van ISO-8601 die als 2023-08-12T09 :46: 06.982-05 wordt verschoven. [Meer informatie](../building-journeys/timezone-management.md).
 
+>[!CAUTION]
+>
+>Wanneer u een aangepaste wachtuitdrukking maakt met `toDateTimeOnly()`, moet u geen &#39;Z&#39; of verschuiving in de tijdzone (bijvoorbeeld &#39;-05 :00&#39;) toevoegen aan het resultaat van de expressie. De expressie moet een geldige ISO-datum-/tijdnotatie gebruiken die verwijst naar de geconfigureerde tijdzone van de reis zonder expliciete tijdzoneaanduidingen.
+>
+>**Correct voorbeeld:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))`
+>
+>**Onjuist voorbeeld:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ (bevat &quot;Z&quot;)
+>
+>Als u niet-ondersteunde tijdzoneaanduidingen gebruikt, kunnen profielen blijven steken in de wachttijdactiviteit in plaats van vooruit te gaan zoals u had verwacht.
 
 Om te bevestigen dat de wachttijdactiviteit zoals verwacht werkt, kunt u step gebeurtenissen gebruiken. [Meer informatie](../reports/query-examples.md#common-queries).
 
