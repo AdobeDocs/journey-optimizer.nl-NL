@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2f4c6a4a82784ae2fae99b3d802b2d8f94d2ca75
+source-git-commit: a18ccb6f7928250e9b3bc453971689bb378dac11
 workflow-type: tm+mt
-source-wordcount: '1452'
-ht-degree: 7%
+source-wordcount: '1493'
+ht-degree: 8%
 
 ---
 
@@ -22,15 +22,32 @@ ht-degree: 7%
 
 [!DNL Adobe Journey Optimizer] volgt een doorlopend leveringsmodel, dat Adobe in staat stelt voortdurend nieuwe functies, verbeteringen en correcties te leveren. Deze benadering maakt een schaalbare, gefaseerde implementatie van mogelijkheden mogelijk om prestaties en stabiliteit in alle omgevingen te garanderen.
 
-Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases.  Een specifieke [&#x200B; Recentste updates &#x200B;](#latest-updates) sectie benadrukt nieuwe mogelijkheden en verbeteringen aangezien zij aan productie-zodat wordt opgesteld u altijd op de hoogte gebracht van alle veranderingen in echt - tijd. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [&#x200B; de versiecyclus van Journey Optimizer &#x200B;](releases.md).
+Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases.  Een specifieke [ Recentste updates ](#latest-updates) sectie benadrukt nieuwe mogelijkheden en verbeteringen aangezien zij aan productie-zodat wordt opgesteld u altijd op de hoogte gebracht van alle veranderingen in echt - tijd. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [ de versiecyclus van Journey Optimizer ](releases.md).
 
-[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## Laatste updates {#latest-updates}
 
-De nieuwe mogelijkheden en verbeteringen die in de afgelopen weken zijn vrijgegeven worden hieronder vermeld, met hun beschikbaarheidsdatum. Deze worden aan het einde van de maand gegroepeerd met de volgende release met notities. Zie ook de recentste [&#x200B; versienota&#39;s hieronder &#x200B;](#latest-rn).
+De nieuwe mogelijkheden en verbeteringen die in de afgelopen weken zijn vrijgegeven worden hieronder vermeld, met hun beschikbaarheidsdatum. Deze worden aan het einde van de maand gegroepeerd met de volgende release met notities. Zie ook de recentste [ versienota&#39;s hieronder ](#latest-rn).
 
 ### Nieuwe functies {#features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Nieuwe API om actiecampagnes op te halen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Er is nu een nieuwe Journey Optimizer API beschikbaar, waarmee u campagnegerelateerde gegevens zoals details, versies en configuraties via programmacode kunt ophalen en inspecteren.</p>
+<p>Raadpleeg de <a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve/">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Beschikbaarheidsdatum: 24 november 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -216,23 +233,6 @@ De nieuwe mogelijkheden en verbeteringen die in de afgelopen weken zijn vrijgege
 </tbody>
 </table-->
 
-<!--table>
-<thead>
-<tr>
-<th><strong>New API to retrieve Action Campaigns</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A new Journey Optimizer API is now available, enabling you to programmatically retrieve and inspect campaign-related data such as details, versions, and configurations.</p>
-<p>For more information, refer to the <a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve/">detailed documentation</a>.</p>
-<p>Availability date: October 22, 2025</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
 <!--<table>
 <thead>
 <tr>
@@ -355,7 +355,7 @@ De nieuwe mogelijkheden en verbeteringen die in de afgelopen weken zijn vrijgege
 <tr>
 <td>
 <p>Journey Optimizer Experimentation Accelerator beschikt nu over de Experimentation Agent, een door AI aangedreven, conversationele tool waarmee u kunt communiceren met uw experimenten, inzichten en mogelijkheden. Het verbetert de ervaring van Journey Optimizer Experimentation Accelerator, helpt u efficiënter experimenten in werking te stellen, te ontdekken wat werkt, en te ontdekken waar te om daarna te optimaliseren.</p>
-<p>Raadpleeg de <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=nl-NL" target="_blank">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Raadpleeg de <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">gedetailleerde documentatie</a> voor meer informatie.</p>
 <p>Beschikbaarheidsdatum: 10 oktober 2025</p>
 </td>
 </tr>
