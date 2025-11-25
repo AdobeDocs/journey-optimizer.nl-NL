@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Experienced
 keywords: platform, data Lake, create, Lake, datasets, profile
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
+source-git-commit: 4532db3f84cdf41d295050e85e721f65cb4f1f0e
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 1%
@@ -38,7 +38,7 @@ De onderstaande tabel bevat een lijst met alle beïnvloede gegevenssets en hun r
 | Gegevensset van gebeurtenis Inbound Activity van AJO | 13 maanden | 90 dagen |
 | AJO Classification-gegevensset | 13 maanden | nvt |
 | Gegevensset AJO-e-mailBCC-feedbackgebeurtenis | 13 maanden | nvt |
-| acpEntiteit-gebeurtenisgegevensset | 13 maanden | nvt |
+| Dataset voor entiteitsgebeurtenis | 13 maanden | nvt |
 | Journeys | 13 maanden | nvt |
 | Gebeurtenissen reisstap | 13 maanden | nvt |
 | Beslissingsobjectopslagplaats - Aangepaste aanbiedingen | 13 maanden | nvt |
@@ -52,7 +52,7 @@ De onderstaande tabel bevat een lijst met alle beïnvloede gegevenssets en hun r
 
 U zult onder Veelgestelde Vragen over datasets tijd-aan-levende (TTL) vinden.
 
-Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [&#x200B; gemeenschap van Adobe Journey Optimizer &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
+Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [ gemeenschap van Adobe Journey Optimizer ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
 
 +++Zal deze wijziging alleen van toepassing zijn op productiesandboxen of zal deze ook van toepassing zijn op dev-sandboxen?
 
@@ -78,13 +78,13 @@ De uitbreidingen van TTLs worden momenteel niet gesteund. Het is echter de bedoe
 
 >[!NOTE]
 >
->Voor gegevens die in het profiel zijn opgeslagen, geldt de machtiging Totaal gegevensvolume. Elke toename van de gegevensopslag op het profiel als gevolg van een uitbreiding van de TTL zou daarom in mindering worden gebracht op de machtiging Totaal gegevensvolume. [&#x200B; leer meer &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=nl-NL){target=_blank}
+>Voor gegevens die in het profiel zijn opgeslagen, geldt de machtiging Totaal gegevensvolume. Elke toename van de gegevensopslag op het profiel als gevolg van een uitbreiding van de TTL zou daarom in mindering worden gebracht op de machtiging Totaal gegevensvolume. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target=&quot;_blank}
 
 +++
 
 +++Kunnen klanten TTL voor [!DNL Journey Optimizer] de gegevens van de systeemdataset in gegevenshoop verhogen? 
 
-De uitbreidingen van TTLs worden momenteel niet gesteund. De klanten kunnen gegevens door Doelen uitvoeren om gegevens langer te behouden. [&#x200B; leer meer &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=nl-NL){target=_blank} . Bovendien kunnen klanten met een machtiging **[!DNL Data Distiller]** afgeleide gegevenssets maken om de gegevens in het gegevensmeer op te slaan zonder een TTL. [&#x200B; leer meer &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+De uitbreidingen van TTLs worden momenteel niet gesteund. De klanten kunnen gegevens door Doelen uitvoeren om gegevens langer te behouden. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html) {target= &quot;_blank}. Bovendien kunnen klanten met een machtiging **[!DNL Data Distiller]** afgeleide gegevenssets maken om de gegevens in het gegevensmeer op te slaan zonder een TTL. [ leer meer ](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
