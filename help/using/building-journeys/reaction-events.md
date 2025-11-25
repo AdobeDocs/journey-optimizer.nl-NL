@@ -10,9 +10,9 @@ level: Intermediate
 keywords: reis, gebeurtenissen, reactie, volgen, platform
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 version: Journey Orchestration
-source-git-commit: dff732d14dd143f085b1287274f7571a900a0c87
+source-git-commit: d8fa1c7055e4e31e393e36ba16863e0f8f95ca9b
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '491'
 ht-degree: 2%
 
 ---
@@ -28,19 +28,19 @@ ht-degree: 2%
 
 De ingebouwde **[!UICONTROL Reactions]** -gebeurtenis is een van de verschillende gebeurtenisactiviteiten die beschikbaar zijn in het palet. Met deze activiteit kunt u reageren op volggegevens die betrekking hebben op een bericht dat binnen dezelfde reis wordt verzonden. We leggen deze informatie in real time vast op het moment dat ze met Adobe Experience Platform wordt gedeeld.
 
-U kunt reageren op geklikte of geopende berichten.
+U kunt reageren op geklikte of geopende berichten. U kunt bijvoorbeeld een ander bericht verzenden als een individu het vorige e-mailbericht heeft geopend of erin heeft geklikt, of een ander vervolgbericht verzenden als deze persoon geen verbinding heeft gemaakt met uw communicatie.
 
-Zie [&#x200B; activiteiten van de Actie &#x200B;](../building-journeys/about-journey-activities.md#action-activities).
+Zie [ activiteiten van de Actie ](../building-journeys/about-journey-activities.md#action-activities).
 
 U kunt de **[!UICONTROL Reaction]** -activiteit gebruiken om een actie uit te voeren wanneer er geen reactie is op uw berichten. Hiertoe maakt u een tweede pad parallel aan de **[!UICONTROL Reaction]** -activiteit en voegt u een **[!UICONTROL Wait]** -activiteit toe. Als er geen reactie optreedt tijdens de periode die is gedefinieerd in de **[!UICONTROL Wait]** -activiteit, wordt het tweede pad gekozen. U kunt bijvoorbeeld een vervolgbericht verzenden.
 
 ## Hoe te om reactiegebeurtenissen te vormen {#configure}
 
-![&#x200B; de gebeurtenisconfiguratie van de Reactie met kanaalselectie en gebeurtenistypeopties &#x200B;](assets/journey45.png)
+![ de gebeurtenisconfiguratie van de Reactie met kanaalselectie en gebeurtenistypeopties ](assets/journey45.png)
 
 Voer de volgende stappen uit om de reactiegebeurtenissen te configureren:
 
-1. Plaats a **[!UICONTROL Reaction]** activiteit **onmiddellijk** na de activiteit van de a [&#x200B; kanaalactie &#x200B;](journeys-message.md) op het wegcanvas.
+1. Plaats a **[!UICONTROL Reaction]** activiteit **onmiddellijk** na de activiteit van de a [ kanaalactie ](journeys-message.md) op het wegcanvas.
 1. Voeg een **[!UICONTROL Label]** toe aan de reactie. Deze stap is optioneel.
 1. Selecteer in de vervolgkeuzelijst de activiteit waarop u wilt reageren. U kunt alle handelingen selecteren die zich in de vorige stappen van het pad bevinden.
 1. Afhankelijk van de actie die u hebt geselecteerd, kiest u waarop u wilt reageren.
@@ -48,7 +48,7 @@ Voer de volgende stappen uit om de reactiegebeurtenissen te configureren:
 
 ## Afvoerkanalen en beperkingen {#guardrails-limitations}
 
-* A **[!UICONTROL Reaction]** activiteit moet **onmiddellijk** na de activiteit van de a [&#x200B; kanaalactie &#x200B;](journeys-message.md) in het wegcanvas worden geplaatst.
+* A **[!UICONTROL Reaction]** activiteit moet **onmiddellijk** na de activiteit van de a [ kanaalactie ](journeys-message.md) in het wegcanvas worden geplaatst.
 * U kunt een **[!UICONTROL Reaction]** -activiteit niet gebruiken als er nog geen kanaalactieactiviteit is.
 * Het plaatsen van een **[!UICONTROL Wait]** -activiteit of enige andere activiteit tussen de kanaalactie en de **[!UICONTROL Reaction]** -activiteit wordt niet ondersteund en kan ertoe leiden dat de reactie niet naar behoren werkt.
 * Reactiegebeurtenissen kunnen alleen berichten bijhouden die binnen dezelfde reis worden verzonden. Ze kunnen geen berichten volgen die op een andere reis plaatsvinden.
