@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: be0a240f73e884fd91798952167e81689aa2ae2f
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
 workflow-type: tm+mt
-source-wordcount: '2134'
+source-wordcount: '2162'
 ht-degree: 0%
 
 ---
@@ -132,7 +132,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
   </tr> 
   <tr> 
    <td> Uitsluitingen verzenden <br/> </td> 
-   <td> Aantal profielen dat door Adobe Journey Optimizer is uitgesloten.<br/> </td> 
+   <td> Aantal profielen dat door Adobe Journey Optimizer is uitgesloten. <a href="exclusion-list.md"> leer meer over hoe de uitsluitingen </a> worden geteld.<br/> </td> 
   </tr>
   <tr> 
    <td> Plaatsingsnaam <br/> </td> 
@@ -193,7 +193,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
   </tr>
   <tr> 
    <td> Unieke Send Uitsluitingen <br/> </td> 
-   <td>Aantal unieke profielen dat van het ontvangen van berichten wegens geschiktheidsregels, publiekssegmentatie, of profielstatus wordt uitgesloten.<br/> </td> 
+   <td>Aantal unieke profielen dat is uitgesloten van het ontvangen van berichten vanwege geschiktheidsregels, publiekssegmentatie of profielstatus. <a href="exclusion-list.md"> leer meer over hoe de uitsluitingen </a> worden geteld.<br/> </td> 
   </tr>
   <tr> 
    <td>Uniek gericht <br/> </td> 
@@ -234,7 +234,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
     </tr>
     <tr> 
       <td>Uitgaande SMS-uitsluitingen</td> 
-      <td>Aantal profielen dat is uitgesloten van het ontvangen van SMS-berichten door Adobe Journey Optimizer.</td> 
+      <td>Aantal profielen dat is uitgesloten van het ontvangen van SMS-berichten door Adobe Journey Optimizer. <a href="exclusion-list.md"> Leer meer over hoe de uitsluitingen worden geteld </a>.</td> 
     </tr>
     <tr> 
       <td>Unieke klikken</td> 
@@ -548,7 +548,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
 </tr>
 <tr> 
    <td>Uitgaande uitsluitingen <br/> </td> 
-   <td>Aantal profielen dat van het ontvangen van direct mail wegens vooraf bepaalde criteria of het filtreren door Adobe Journey Optimizer wordt uitgesloten.<br/> </td> 
+   <td>Aantal profielen dat is uitgesloten van het ontvangen van direct mail vanwege vooraf gedefinieerde criteria of door Adobe Journey Optimizer gefilterd. <a href="exclusion-list.md"> leer meer over hoe de uitsluitingen </a> worden geteld.<br/> </td> 
 </tr>
 <tr> 
    <td>Profielen <br/> </td> 

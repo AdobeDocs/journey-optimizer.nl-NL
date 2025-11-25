@@ -8,14 +8,35 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 9%
+source-wordcount: '830'
+ht-degree: 7%
 
 ---
 
 # Uitsluitingsredenen {#exclusion-list}
+
+## Hoe uitsluitingen in campagnerapporten worden geteld
+
+Wanneer het bekijken van campagnerapporten, merk op dat *metrisch van Uitsluiting* als volgt wordt berekend:
+
+**Uitsluitingen = Unieke Uitsluitingen + Dubbele Gebeurtenissen van de Uitsluiting**
+
+Dit betekent dat als een profiel meerdere keren wordt uitgesloten (bijvoorbeeld als gevolg van meerdere uitsluitingsgebeurtenissen voor hetzelfde profiel), elke gebeurtenis wordt meegeteld in het totaal van uitsluitingen. Dientengevolge, kan de som van *Geleverde* en *Uitsluitingen* de originele gerichte publieksgrootte overschrijden. Dit gedrag wordt verwacht en weerspiegelt de manier waarop uitsluitingsgebeurtenissen in het systeem worden bijgehouden.
+
+**Voorbeeld:**
+
+- Doelgroep: 94.000 profielen
+- Geleverd: 69.000
+- Uitsluitingen: 37.000 (inclusief dubbele gebeurtenissen voor uitsluiten)
+- Totaal (geleverd + uitsluitingen): 106.000
+
+Het totaal overschrijdt het doelpubliek omdat dubbele uitsluitingsgebeurtenissen zijn opgenomen in het aantal uitsluitingen.
+
+Zie de tabel hieronder voor meer informatie over de specifieke redenen voor uitsluiting.
+
+## Lijst met redenen voor uitsluiting
 
 | Uitsluitingsreden | Foutcode | Kanaal | Toelichting |
 |-|-|-|-|
