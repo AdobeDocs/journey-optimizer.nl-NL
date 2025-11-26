@@ -33,19 +33,19 @@ Als u webpagina&#39;s wilt openen en schrijven in de gebruikersinterface van [!D
 
 Er worden twee typen implementaties ondersteund waarmee u webkanaalcampagnes kunt ontwerpen en leveren op uw westeigenschappen:
 
-* Cliënt-kant slechts - om wijzigingen aan uw website toe te voegen, moet u [&#x200B; Adobe Experience Platform Web SDK &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"} op uw website uitvoeren.
+* Cliënt-kant slechts - om wijzigingen aan uw website toe te voegen, moet u [&#x200B; Adobe Experience Platform Web SDK &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=nl-NL){target="_blank"} op uw website uitvoeren.
 
   >[!NOTE]
   >
-  >Zorg ervoor uw [&#x200B; versie van SDK van het Web van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/release-notes){target="_blank"} 2.16 of hierboven is.
+  >Zorg ervoor uw [&#x200B; versie van SDK van het Web van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/release-notes){target="_blank"} 2.16 of hierboven is.
 
-* Hybride wijze - u kunt de [&#x200B; Server API van AEP Edge Network gebruiken API &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"} om voor verpersoonlijkingsserver-kant te verzoeken; de reactie wordt verstrekt aan SDK van het Web van Adobe Experience Platform om de wijzigingen cliënt-kant terug te geven. Leer meer in de Adobe Experience Platform [&#x200B; API documentatie van de Server van Edge Network &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"}. U kunt meer over de hybride wijze te weten komen en sommige implementatiemonsters in [&#x200B; controleren dit blogpost &#x200B;](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
+* Hybride wijze - u kunt de [&#x200B; Server API van AEP Edge Network gebruiken API &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=nl-NL){target="_blank"} om voor verpersoonlijkingsserver-kant te verzoeken; de reactie wordt verstrekt aan SDK van het Web van Adobe Experience Platform om de wijzigingen cliënt-kant terug te geven. Leer meer in de Adobe Experience Platform [&#x200B; API documentatie van de Server van Edge Network &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=nl-NL){target="_blank"}. U kunt meer over de hybride wijze te weten komen en sommige implementatiemonsters in [&#x200B; controleren dit blogpost &#x200B;](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
 
 >[!NOTE]
 >
 >De server-kant slechts implementatie wordt momenteel niet gesteund met het kanaal van het Web. Als u een server-zij slechts implementatie voor uw Web-pagina&#39;s hebt, kunt u het [&#x200B; op code-gebaseerde ervaringskanaal &#x200B;](../code-based/get-started-code-based.md) in plaats daarvan gebruiken.
 
-<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.-->
+<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=nl-NL){target="_blank"}.-->
 
 ## Visuele ontwerpvereisten {#visual-authoring-prerequisites}
 
@@ -114,15 +114,15 @@ Voor pagina&#39;s onder verificatie, als de aanmeldingspagina niet kan worden ge
 
 De webervaring kan alleen correct worden geleverd als de volgende instellingen zijn gedefinieerd:
 
-* In de [&#x200B; Gegevensverzameling van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html){target="_blank"}, zorg ervoor u een gegevensstroom hebt die zoals onder de **[!UICONTROL Adobe Experience Platform]** dienst wordt bepaald u de **[!UICONTROL Adobe Journey Optimizer]** toegelaten optie hebt.
+* In de [&#x200B; Gegevensverzameling van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=nl-NL){target="_blank"}, zorg ervoor u een gegevensstroom hebt die zoals onder de **[!UICONTROL Adobe Experience Platform]** dienst wordt bepaald u de **[!UICONTROL Adobe Journey Optimizer]** toegelaten optie hebt.
 
-  Dit zorgt ervoor dat de binnenkomende gebeurtenissen van Journey Optimizer correct worden afgehandeld door de Adobe Experience Platform Edge. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
+  Dit zorgt ervoor dat de binnenkomende gebeurtenissen van Journey Optimizer correct worden afgehandeld door de Adobe Experience Platform Edge. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=nl-NL){target="_blank"}
 
   ![](assets/web-aep-datastream-ajo.png)
 
-* In [&#x200B; Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}, zorg ervoor u één toegelaten fusiebeleid met de **[!UICONTROL Active-On-Edge Merge Policy]** optie hebt. Selecteer hiertoe een beleid in het menu **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
+* In [&#x200B; Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}, zorg ervoor u één toegelaten fusiebeleid met de **[!UICONTROL Active-On-Edge Merge Policy]** optie hebt. Selecteer hiertoe een beleid in het menu **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=nl-NL#configure){target="_blank"}
 
-  Dit samenvoegbeleid wordt door [!DNL Journey Optimizer] binnenkomende kanalen gebruikt om binnenkomende campagnes op de rand correct te activeren en te publiceren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target="_blank"}
+  Dit samenvoegbeleid wordt door [!DNL Journey Optimizer] binnenkomende kanalen gebruikt om binnenkomende campagnes op de rand correct te activeren en te publiceren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=nl-NL){target="_blank"}
 
   ![](assets/web-aep-merge-policy.png)
 
@@ -130,11 +130,11 @@ De webervaring kan alleen correct worden geleverd als de volgende instellingen z
 
   Het gebruiken van de **insteekmodule van Edge Delivery** helpt u de inzichten verkrijgen nodig om uw binnenkomende implementaties effectief te begrijpen en problemen op te lossen.
 
-  [&#x200B; leer meer over de mening van Edge Delivery &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
+  [&#x200B; leer meer over de mening van Edge Delivery &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/assurance/view/edge-delivery)
 
 ## Voorwaarden voor rapportage {#experiment-prerequisites}
 
-Om rapportering voor het Webkanaal toe te laten, moet u ervoor zorgen de [&#x200B; dataset &#x200B;](../data/get-started-datasets.md) wordt gebruikt in uw Webimplementatie [&#x200B; datastream &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} is ook inbegrepen in uw rapporteringsconfiguratie.
+Om rapportering voor het Webkanaal toe te laten, moet u ervoor zorgen de [&#x200B; dataset &#x200B;](../data/get-started-datasets.md) wordt gebruikt in uw Webimplementatie [&#x200B; datastream &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=nl-NL){target="_blank"} is ook inbegrepen in uw rapporteringsconfiguratie.
 
 Met andere woorden, wanneer het vormen van rapportering, als u een dataset toevoegt die niet in uw Webgegevensstroom aanwezig is, zullen de Webgegevens niet in uw rapporten tonen.
 
@@ -144,7 +144,7 @@ Leer hoe te om datasets voor het melden in [&#x200B; toe te voegen deze sectie &
 >
 >De dataset wordt gebruikt read-only door het [!DNL Journey Optimizer] rapporteringssysteem en beïnvloedt gegevensinzameling of gegevensopname niet.
 
-Als u **niet** gebruikend de volgende vooraf bepaalde [&#x200B; gebiedsgroepen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"} voor uw datasetschema bent: `AEP Web SDK ExperienceEvent` en `Consumer Experience Event` (zoals bepaald op [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}), zorg ervoor om de volgende gebiedsgroepen toe te voegen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, en `Web Details`. Deze zijn nodig door [!DNL Journey Optimizer] -rapporten, omdat ze bijhouden aan welke campagnes en reizen elk profiel deelneemt.
+Als u **niet** gebruikend de volgende vooraf bepaalde [&#x200B; gebiedsgroepen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=nl-NL#field-group){target="_blank"} voor uw datasetschema bent: `AEP Web SDK ExperienceEvent` en `Consumer Experience Event` (zoals bepaald op [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=nl-NL#add-field-groups){target="_blank"}), zorg ervoor om de volgende gebiedsgroepen toe te voegen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, en `Web Details`. Deze zijn nodig door [!DNL Journey Optimizer] -rapporten, omdat ze bijhouden aan welke campagnes en reizen elk profiel deelneemt.
 
 [Meer informatie over rapportconfiguratie](../reports/reporting-configuration.md)
 
@@ -160,12 +160,12 @@ Wanneer het ontwerpen van Webervaringen, als u inhoud toevoegt die uit de [&#x20
 
 In [!DNL Journey Optimizer] kunnen webcampagnes gericht zijn op pseudoniem-profielen. Dit zijn profielen die nog niet zijn geverifieerd of bekend zijn omdat ze nog niet eerder op andere kanalen zijn gebruikt. Dit is bijvoorbeeld het geval wanneer u zich richt op alle bezoekers of doelgroepen op basis van tijdelijke id&#39;s zoals ECID.
 
-Hierdoor neemt het totale aantal aanspreekbare profielen toe. Dit kan kosten met zich meebrengen als het contractueel aantal aangeschafte profielen wordt overschreden. De metriek van de vergunning voor elk pakket is vermeld op de [&#x200B; pagina van de Beschrijving van het Product van Journey Optimizer &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. U kunt het aantal in dienst komende profielen in het [&#x200B; dashboard van het vergunningsgebruik &#x200B;](../audience/license-usage.md) controleren.
+Hierdoor neemt het totale aantal aanspreekbare profielen toe. Dit kan kosten met zich meebrengen als het contractueel aantal aangeschafte profielen wordt overschreden. De metriek van de vergunning voor elk pakket is vermeld op de [&#x200B; pagina van de Beschrijving van het Product van Journey Optimizer &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. U kunt het aantal in dienst komende profielen in het [&#x200B; dashboard van het vergunningsgebruik &#x200B;](../audience/license-usage.md) controleren.
 
 Adobe raadt u aan om een time-to-live (TTL) in te stellen om pseudoniem-profielen automatisch te verwijderen uit het realtime-klantprofiel als deze niet zijn gezien of gebruikt binnen een bepaald tijdvenster.
 
 >[!NOTE]
 >
->Leer hoe te om gegevensvervalsing voor pseudoniem profielen in de [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"} te vormen.
+>Leer hoe te om gegevensvervalsing voor pseudoniem profielen in de [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"} te vormen.
 
 Adobe raadt aan de TTL-waarde in te stellen op 14 dagen om deze aan te passen aan de huidige Edge-profielTTL.
