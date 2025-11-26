@@ -5,9 +5,9 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-source-git-commit: aa28d13b2ad874e4dc61510bfdc250415e8e8be1
+source-git-commit: 10eaebc1d24eae4a0a149822d31ff92509d1e6f8
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ Een proef is een specifiek bericht dat u toestaat om een bericht te testen alvor
 
 >[!NOTE]
 >
->Met [!DNL Journey optimizer] kunt u ook verschillende varianten van uw inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [&#x200B; leer hoe te om inhoudvariaties &#x200B;](../test-approve/simulate-sample-input.md) te simuleren
+>Met [!DNL Journey optimizer] kunt u ook verschillende varianten van uw inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [ leer hoe te om inhoudvariaties ](../test-approve/simulate-sample-input.md) te simuleren
 
-Om e-mailproeven te verzenden die de gegevens van testprofielen gebruiken, moet u [&#x200B; testprofielen &#x200B;](test-profiles.md) eerst selecteren. Voer vervolgens de volgende stappen uit:
+Om e-mailproeven te verzenden die de gegevens van testprofielen gebruiken, moet u [ testprofielen ](test-profiles.md) eerst selecteren. Voer vervolgens de volgende stappen uit:
 
 1. Klik in het **[!UICONTROL Simulate]** -scherm op de knop **[!UICONTROL Send proof]** .
 
@@ -51,3 +51,5 @@ Het wordt aanbevolen om na elke wijziging proefdrukken naar de inhoud van het be
 >[!NOTE]
 >
 >In de verzonden proefdruk is de verbinding aan de spiegelpagina niet actief. Deze wordt alleen geactiveerd in de laatste berichten.
+>
+>Assets/Images zijn maximaal 2 jaar (730 dagen) sinds de eerste publicatie ervan in een fragment/inline-bericht toegankelijk in geleverde inhoud of proefdrukinhoud. Na deze vervaldatum (op een willekeurig tijdstip na 730 dagen) moet de publicatie opnieuw worden gepubliceerd om deze twee jaar toegankelijk te houden. Bij elke herpublicatie die binnen 730 dagen na de eerste publicatie wordt uitgevoerd, wordt het vervallen van de middelen/afbeeldingen niet tot de volgende 730 dagen verlengd.
