@@ -90,4 +90,4 @@ Wanneer u een nieuwe versie van een reis publiceert, beëindigt de vorige versie
 
 Leer hoe u een reis publiceert in deze video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427938?captions=dut&quality=12)
