@@ -18,9 +18,9 @@ Een proef is een specifiek bericht dat u toestaat om een bericht te testen alvor
 
 >[!NOTE]
 >
->Met [!DNL Journey optimizer] kunt u ook verschillende varianten van uw inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [ leer hoe te om inhoudvariaties ](../test-approve/simulate-sample-input.md) te simuleren
+>Met [!DNL Journey optimizer] kunt u ook verschillende varianten van uw inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [&#x200B; leer hoe te om inhoudvariaties &#x200B;](../test-approve/simulate-sample-input.md) te simuleren
 
-Om e-mailproeven te verzenden die de gegevens van testprofielen gebruiken, moet u [ testprofielen ](test-profiles.md) eerst selecteren. Voer vervolgens de volgende stappen uit:
+Om e-mailproeven te verzenden die de gegevens van testprofielen gebruiken, moet u [&#x200B; testprofielen &#x200B;](test-profiles.md) eerst selecteren. Voer vervolgens de volgende stappen uit:
 
 1. Klik in het **[!UICONTROL Simulate]** -scherm op de knop **[!UICONTROL Send proof]** .
 
