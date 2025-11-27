@@ -7,9 +7,9 @@ role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 1b6158132e5df1912d9658805fa8b1344c6f938f
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '809'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,11 @@ ht-degree: 3%
 
 In dit geval worden alle stappen beschreven die nodig zijn om Decisioning te gebruiken met het op code gebaseerde kanaal van [!DNL Journey Optimizer] .
 
-In dit voorbeeld bent u niet zeker of een specifieke rangschikkingsformule beter zal presteren dan de vooraf toegewezen aanbiedingsprioriteiten. Om te meten welke het beste voor uw doelpubliek presteert, creeert u een campagne gebruikend [&#x200B; experiment van de Inhoud &#x200B;](../content-management/content-experiment.md) waar u twee leveringsbehandelingen bepaalt:
+>[!NOTE]
+>
+>De bestaande mogelijkheden voor het beheer van beslissingen worden niet ondersteund door het op code gebaseerde ervaringskanaal.
+
+In dit voorbeeld bent u niet zeker of een specifieke rangschikkingsformule beter zal presteren dan de vooraf toegewezen aanbiedingsprioriteiten. Om te meten welke het beste voor uw doelpubliek presteert, creeert u een campagne gebruikend [ experiment van de Inhoud ](../content-management/content-experiment.md) waar u twee leveringsbehandelingen bepaalt:
 
 * De eerste behandeling gebruikt **prioriteit** als het rangschikken methode.
 * De tweede behandeling gebruikt **een formule** als het rangschikken methode.
@@ -35,7 +39,7 @@ Ten eerste moet u twee selectiestrategieën ontwikkelen: een met prioriteit als 
 
 Volg de onderstaande stappen om de eerste selectiestrategie met prioriteit als rangordemethode te maken.
 
-1. Maak een beslissingsitem. [&#x200B; leer hoe &#x200B;](items.md)
+1. Maak een beslissingsitem. [ leer hoe ](items.md)
 
 1. Stel de **[!UICONTROL Priority]** van het beslissingsitem in vergelijking met andere. Als een profiel voor meerdere items in aanmerking komt, krijgt het item met een hogere prioriteit voorrang boven andere items.
 
@@ -55,9 +59,9 @@ Volg de onderstaande stappen om de eerste selectiestrategie met prioriteit als r
 
 1. Creeer a **inzameling** waar uw besluitvormingspunt(en) zal worden omvat. [Meer informatie](collections.md)
 
-1. Creeer a [&#x200B; selectiestrategie &#x200B;](selection-strategies.md#create-selection-strategy) en selecteer de [&#x200B; inzameling &#x200B;](collections.md) die de te overwegen aanbieding(en) bevat.
+1. Creeer a [ selectiestrategie ](selection-strategies.md#create-selection-strategy) en selecteer de [ inzameling ](collections.md) die de te overwegen aanbieding(en) bevat.
 
-1. [&#x200B; kies de het rangschikken methode &#x200B;](#select-ranking-method) om de beste aanbieding voor elk profiel te selecteren. Selecteer in dit geval **[!UICONTROL Offer priority]** : als meerdere aanbiedingen in aanmerking komen voor deze strategie, gebruikt de engine voor besluitvorming de waarde die is ingesteld als **[!UICONTROL Priority]** in de aanbieding(en). [Meer informatie](selection-strategies.md#offer-priority)
+1. [ kies de het rangschikken methode ](#select-ranking-method) om de beste aanbieding voor elk profiel te selecteren. Selecteer in dit geval **[!UICONTROL Offer priority]** : als meerdere aanbiedingen in aanmerking komen voor deze strategie, gebruikt de engine voor besluitvorming de waarde die is ingesteld als **[!UICONTROL Priority]** in de aanbieding(en). [Meer informatie](selection-strategies.md#offer-priority)
 
    ![](assets/exd-uc-strategy-priority.png){width="90%"}
 
@@ -65,7 +69,7 @@ Volg de onderstaande stappen om de eerste selectiestrategie met prioriteit als r
 
 Volg onderstaande stappen om de tweede selectiestrategie samen te stellen met een formule als waarderingsmethode te selecteren.
 
-1. Maak een beslissingsitem. [&#x200B; leer hoe &#x200B;](items.md)
+1. Maak een beslissingsitem. [ leer hoe ](items.md)
 
    <!--Do you need to set the same **[!UICONTROL Priority]** as for the first decision item, or it won't be considered at all?-->
 
@@ -79,9 +83,9 @@ Volg onderstaande stappen om de tweede selectiestrategie samen te stellen met ee
 
 1. Creeer a **inzameling** waar uw besluitvormingspunt(en) zal worden omvat. [Meer informatie](collections.md)
 
-1. Creeer a [&#x200B; selectiestrategie &#x200B;](selection-strategies.md#create-selection-strategy) en selecteer de [&#x200B; inzameling &#x200B;](collections.md) die de te overwegen aanbieding(en) bevat.
+1. Creeer a [ selectiestrategie ](selection-strategies.md#create-selection-strategy) en selecteer de [ inzameling ](collections.md) die de te overwegen aanbieding(en) bevat.
 
-1. [&#x200B; kies de het rangschikken methode &#x200B;](#select-ranking-method) u wilt gebruiken om de beste aanbieding voor elk profiel te selecteren. Selecteer in dit geval **[!UICONTROL Formula]** om een specifieke berekende score te gebruiken om te bepalen welke geschikte aanbieding moet worden gedaan. [Meer informatie](selection-strategies.md#ranking-formula)
+1. [ kies de het rangschikken methode ](#select-ranking-method) u wilt gebruiken om de beste aanbieding voor elk profiel te selecteren. Selecteer in dit geval **[!UICONTROL Formula]** om een specifieke berekende score te gebruiken om te bepalen welke geschikte aanbieding moet worden gedaan. [Meer informatie](selection-strategies.md#ranking-formula)
 
    ![](assets/exd-uc-strategy-formula.png){width="90%"}
 
@@ -95,7 +99,7 @@ Zodra u de twee selectiestrategieën vormde, creeer een code-gebaseerde ervaring
 
 1. Maak een campagne en selecteer de handeling **[!UICONTROL Code-base experience]** . [Meer informatie](../code-based/create-code-based.md)
 
-1. Klik op de pagina met het campagneresamenvatting op **[!UICONTROL Create experiment]** om uw inhoudexperiment te configureren. [&#x200B; leer hoe &#x200B;](../content-management/content-experiment.md)
+1. Klik op de pagina met het campagneresamenvatting op **[!UICONTROL Create experiment]** om uw inhoudexperiment te configureren. [ leer hoe ](../content-management/content-experiment.md)
 
    ![](assets/exd-uc-create-experiment.png){width="90%"}
 
@@ -107,7 +111,7 @@ Zodra u de twee selectiestrategieën vormde, creeer een code-gebaseerde ervaring
 
    ![](assets/exd-uc-experiment-treatment-a.png){width="90%"}
 
-1. Van de [&#x200B; coderedacteur &#x200B;](../code-based/create-code-based.md#edit-code), uitgezochte **[!UICONTROL Decision policy]**, klik **[!UICONTROL Add decision policy]** en vul de besluitvormingsdetails in. [Meer informatie](create-decision.md#add)
+1. Van de [ coderedacteur ](../code-based/create-code-based.md#edit-code), uitgezochte **[!UICONTROL Decision policy]**, klik **[!UICONTROL Add decision policy]** en vul de besluitvormingsdetails in. [Meer informatie](create-decision.md#add)
 
    ![](assets/decision-code-based-create.png){width="90%"}
 
@@ -141,9 +145,9 @@ Zodra u de twee selectiestrategieën vormde, creeer een code-gebaseerde ervaring
 
 1. Bewerk het gewenste beslissingsbeleid (zie de stappen 8 en 9 hierboven).
 
-1. Sparen uw veranderingen en [&#x200B; publiceer uw code-gebaseerde-ervaringscampagne &#x200B;](../code-based/publish-code-based.md).
+1. Sparen uw veranderingen en [ publiceer uw code-gebaseerde-ervaringscampagne ](../code-based/publish-code-based.md).
 
-Na het in werking stellen van het experiment, spoor hoe uw campagnebehandelingen met het [&#x200B; experimentatiecampagnerapport &#x200B;](../reports/campaign-global-report-cja-experimentation.md) presteren.<!-- and [report on decisioning](cja-reporting.md).--> Vervolgens kunt u de resultaten van uw experiment interpreteren. [&#x200B; leer hoe &#x200B;](../content-management/get-started-experiment.md#interpret-results)
+Na het in werking stellen van het experiment, spoor hoe uw campagnebehandelingen met het [ experimentatiecampagnerapport ](../reports/campaign-global-report-cja-experimentation.md) presteren.<!-- and [report on decisioning](cja-reporting.md).--> Vervolgens kunt u de resultaten van uw experiment interpreteren. [ leer hoe ](../content-management/get-started-experiment.md#interpret-results)
 
 Als het resultaat overtuigend is:
 
