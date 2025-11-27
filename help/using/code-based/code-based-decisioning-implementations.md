@@ -297,6 +297,6 @@ Stel dat u hetzelfde beslissingsbeleid hebt met plaatsing van kop- en voettekst 
 
 ## Tutorials{#tutorials}
 
-Leer hoe te om besluiten in Journey Optimizer te gebruiken om inhoudsaanbiedingen op uw website, met een nadruk op de configuratie van SDK van het Web in [&#x200B; te personaliseren dit leerprogramma &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}.
+Leer hoe te om besluiten in Journey Optimizer te gebruiken om inhoudsaanbiedingen op uw website, met een nadruk op de configuratie van SDK van het Web in [&#x200B; te personaliseren dit leerprogramma &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}.
 
-Leer hoe te om het Web SDK te vormen en besluiten met code-gebaseerde ervaringen te gebruiken om aanbiedingen te personaliseren gebruikend weergegevens in real time en contextafhankelijke informatie in [&#x200B; dit leerprogramma &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"}.
+Leer hoe te om het Web SDK te vormen en besluiten met code-gebaseerde ervaringen te gebruiken om aanbiedingen te personaliseren gebruikend weergegevens in real time en contextafhankelijke informatie in [&#x200B; dit leerprogramma &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"}.
