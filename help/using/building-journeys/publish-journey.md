@@ -10,7 +10,7 @@ level: Intermediate
 keywords: publiceren, reizen, live, geldigheid, controle
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: 10eaebc1d24eae4a0a149822d31ff92509d1e6f8
+source-git-commit: 01ab3f5236acb914c3efe71ffe3d5281d1126589
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 1%
@@ -29,8 +29,8 @@ De stappen om een reis te publiceren zijn hieronder gedetailleerd:
 
 1. Voordat u uw reis publiceert, controleert u of deze geldig is en of er geen fouten zijn. U kunt geen reis met fouten publiceren.
 
-   * Leer hoe te om uw reis op [&#x200B; deze pagina &#x200B;](testing-the-journey.md) te testen.
-   * Leer hoe te om uw reisfouten in [&#x200B; problemen op te lossen deze sectie &#x200B;](../building-journeys/troubleshooting.md#activity-errors).
+   * Leer hoe te om uw reis op [ deze pagina ](testing-the-journey.md) te testen.
+   * Leer hoe te om uw reisfouten in [ problemen op te lossen deze sectie ](../building-journeys/troubleshooting.md#activity-errors).
 
 1. Als u de rit wilt publiceren, klikt u op de optie **[!UICONTROL Publish]** in het keuzemenu rechtsboven.
 
@@ -38,23 +38,23 @@ De stappen om een reis te publiceren zijn hieronder gedetailleerd:
    >
    > Als uw reis aan een goedkeuringsbeleid onderworpen is, moet u om goedkeuring verzoeken om uw reis te publiceren. [Meer informatie](../test-approve/gs-approval.md)
 
-   ![&#x200B; publiceer knoop in reistoolbar om de reis &#x200B;](assets/journeyuc1_18.png) te activeren
+   ![ publiceer knoop in reistoolbar om de reis ](assets/journeyuc1_18.png) te activeren
 
-Wanneer de reis wordt gepubliceerd, is het op **read-only** wijze. In de modus Alleen-lezen kunt u alleen de activiteitslabels en -beschrijvingen, de naam van de reis en de beschrijving van de reis wijzigen. Als u extra aanpassingen aan een gepubliceerde reis moet maken, creeer [&#x200B; een nieuwe versie &#x200B;](journey-ui.md#journey-filter) van uw reis.
+Wanneer de reis wordt gepubliceerd, is het op **read-only** wijze. In de modus Alleen-lezen kunt u alleen de activiteitslabels en -beschrijvingen, de naam van de reis en de beschrijving van de reis wijzigen. Als u extra aanpassingen aan een gepubliceerde reis moet maken, creeer [ een nieuwe versie ](journey-ui.md#journey-filter) van uw reis.
 
 Als je een reis stopt, wordt deze permanent gestopt. Alle personen die door de reis lopen, worden permanent tegengehouden en de reis maakt geen nieuwe inzendingen meer mogelijk. Als u de reis opnieuw moet leiden, dupliceer het en publiceer de nieuwe reis.
 
 >[!IMPORTANT]
 >
->Als er wijzigingen worden aangebracht in een biedbesluit dat wordt gebruikt in een reisbericht, moet u de reis ongedaan maken en opnieuw publiceren. Dit zorgt ervoor dat de veranderingen in het bericht van de reis worden opgenomen en dat het bericht met de recentste updates verenigbaar is.
+>* Als er wijzigingen worden aangebracht in een biedbesluit dat wordt gebruikt in een reisbericht, moet u de reis ongedaan maken en opnieuw publiceren. Dit zorgt ervoor dat de veranderingen in het bericht van de reis worden opgenomen en dat het bericht met de recentste updates verenigbaar is.
 >
->Assets/Images zijn maximaal 2 jaar (730 dagen) sinds de eerste publicatie ervan in een fragment/inline-bericht toegankelijk in de geleverde inhoud. Na deze vervaldatum (op een willekeurig tijdstip na 730 dagen) moet de publicatie opnieuw worden gepubliceerd om deze twee jaar toegankelijk te houden. Bij elke herpublicatie die binnen 730 dagen na de eerste publicatie wordt uitgevoerd, wordt het vervallen van de middelen/afbeeldingen niet tot de volgende 730 dagen verlengd.
+>* Assets/Images zijn maximaal 2 jaar (730 dagen) sinds de eerste publicatie ervan in een fragment/inline-bericht toegankelijk in de geleverde inhoud. Na deze vervaldatum (op een willekeurig tijdstip na 730 dagen) moet de publicatie opnieuw worden gepubliceerd om deze twee jaar toegankelijk te houden. Bij elke herpublicatie die binnen 730 dagen na de eerste publicatie wordt uitgevoerd, wordt het vervallen van de middelen/afbeeldingen niet tot de volgende 730 dagen verlengd.
 
 ## Journeyversies {#journey-versions}
 
 In de reislijst, worden alle reisversies getoond met het versieaantal. Wanneer u een reis zoekt, verschijnen de nieuwste versies bij de eerste keer dat de toepassing wordt geopend boven aan de lijst. Vervolgens kunt u de gewenste sortering definiëren en wordt deze door de toepassing als gebruikervoorkeur behouden. De versie van de reis wordt ook weergegeven boven aan de interface van de reiseditie, boven het canvas.
 
-![&#x200B; lijst van de Versies van de Reis die gepubliceerde en ontwerp versies tonen &#x200B;](assets/journeyversions1.png)
+![ lijst van de Versies van de Reis die gepubliceerde en ontwerp versies tonen ](assets/journeyversions1.png)
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ Als u zich aan een levende reis moet aanpassen, creeer een nieuwe versie van uw 
 
 1. Open de meest recente versie van uw livereis, klik op **[!UICONTROL Create a new version]** en bevestig deze.
 
-   ![&#x200B; creeer nieuwe versiedialoog voor het dupliceren van reis &#x200B;](assets/journeyversions2.png)
+   ![ creeer nieuwe versiedialoog voor het dupliceren van reis ](assets/journeyversions2.png)
 
    >[!NOTE]
    >
@@ -83,11 +83,11 @@ Wanneer u een nieuwe versie van een reis publiceert, beëindigt de vorige versie
 
 >[!NOTE]
 >
->Specifieke garanties en beperkingen zijn van toepassing op de versiering van de reizen. Leer meer op [&#x200B; deze pagina &#x200B;](../start/guardrails.md#journey-versions-g).
+>Specifieke garanties en beperkingen zijn van toepassing op de versiering van de reizen. Leer meer op [ deze pagina ](../start/guardrails.md#journey-versions-g).
 
 
 ## Hoe kan ik-video {#video}
 
 Leer hoe u een reis publiceert in deze video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427938?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
