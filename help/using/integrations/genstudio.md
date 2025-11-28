@@ -9,9 +9,9 @@ badge: label="Beperkte beschikbaarheid" type="Informative"
 role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
-source-git-commit: 784f1fbfbf2cfa73666bdc943fc30028c9dc913c
+source-git-commit: c03fc0e53cdaaa735c4fa48113db7b4f848e33a8
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1236'
 ht-degree: 0%
 
 ---
@@ -25,21 +25,21 @@ ht-degree: 0%
 
 ## Aan de slag met GenStudio {#gs-genstudio}
 
-[&#x200B; Adobe GenStudio for Performance Marketing &#x200B;](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"} is een generatieve AI-eerste toepassing die marketingteams hun eigen advertenties en e-mails laat maken om impactful, gepersonaliseerde marketing campagnes te drijven die aan uw merknormen voldoen en aan uw ondernemingsbeleid voldoet. Door gebruik te maken van Adobe AI-technologie, biedt deze technologie een uitgebreide reeks hulpmiddelen die de complexiteit van het maken en beheren van content vereenvoudigen, zodat creatieve mensen zich kunnen richten op innovatie.
+[ Adobe GenStudio for Performance Marketing ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"} is een generatieve AI-eerste toepassing die marketingteams hun eigen advertenties en e-mails laat maken om impactful, gepersonaliseerde marketing campagnes te drijven die aan uw merknormen voldoen en aan uw ondernemingsbeleid voldoet. Door gebruik te maken van Adobe AI-technologie, biedt deze technologie een uitgebreide reeks hulpmiddelen die de complexiteit van het maken en beheren van content vereenvoudigen, zodat creatieve mensen zich kunnen richten op innovatie.
 
 >[!AVAILABILITY]
 >
->* De integratie van GenStudio in [!DNL Adobe Journey Optimizer] is momenteel niet beschikbaar voor gebruik met het **Schild van de Gezondheidszorg** of **Privacy en het 4&rbrace; toe:voegen-op dienstenaanbod van het Schild van de Veiligheid.**
+>* De integratie van GenStudio in [!DNL Adobe Journey Optimizer] is momenteel niet beschikbaar voor gebruik met het **Schild van de Gezondheidszorg** of **Privacy en het 4} toe:voegen-op dienstenaanbod van het Schild van de Veiligheid.**
 >
 >* Deze mogelijkheid is alleen beschikbaar voor het e-mailkanaal.
 
 Om marketing efficiency te verbeteren en merkconsistentie te handhaven, kunt u [!DNL **GenStudio for Performance Marketing**] ervaringen met [!DNL **Adobe Journey Optimizer**] naadloos integreren. Hierdoor kunt u de door AI aangedreven content creation van [!DNL GenStudio] optimaal benutten, net als de geavanceerde orchestratiemogelijkheden van [!DNL Journey Optimizer] .
 
-![&#x200B; voer een inhoud van GenStudio in Adobe Journey Optimizer in &#x200B;](../rn/assets/do-not-localize/genstudio.gif)
+![ voer een inhoud van GenStudio in Adobe Journey Optimizer in ](../rn/assets/do-not-localize/genstudio.gif)
 
 >[!INFO]
 >
->Om verder te gaan, controleer dit [&#x200B; overzicht &#x200B;](https://business.adobe.com/nl/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} en a [&#x200B; demo &#x200B;](https://business.adobe.com/nl/products/genstudio-for-performance-marketing.html#demo){target="_blank"} van [!DNL Adobe GenStudio for Performance Marketing].
+>Om verder te gaan, controleer dit [ overzicht ](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} en a [ demo ](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"} van [!DNL Adobe GenStudio for Performance Marketing].
 
 ➡️ [Ontdek deze functie in video](#video)
 
@@ -51,7 +51,7 @@ Als u de [!DNL GenStudio for Performance Marketing] integratie met [!DNL Journey
 
 * Zowel [!DNL GenStudio for Performance Marketing] als [!DNL Adobe Journey Optimizer] moeten tot dezelfde IMS-organisatie behoren.
 
-* De gebruikers moeten minstens de **rol van de Medewerker** of hoger in [!DNL GenStudio for Performance Marketing] hebben om de integratiefuncties te gebruiken. [&#x200B; leer meer over gebruikersrollen in GenStudio &#x200B;](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
+* De gebruikers moeten minstens de **rol van de Medewerker** of hoger in [!DNL GenStudio for Performance Marketing] hebben om de integratiefuncties te gebruiken. [ leer meer over gebruikersrollen in GenStudio ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
 
 <!--To access the GenStudio integration in [!DNL Adobe Journey Optimizer] feature, users need to be granted the **xxx** permission. [Learn more](../administration/permissions.md)
 
@@ -91,8 +91,7 @@ Deze integratie ontgrendelt krachtige mogelijkheden voor uw marketingorganisatie
 
 ### Vaak voorkomende gebruiksscenario&#39;s {#genstudio-use-cases}
 
-De integratie tussen [!DNL GenStudio for Performance Marketing] en 
-Journey Optimizer &rbrack; steunt diverse marketing scenario&#39;s:
+De integratie tussen [!DNL GenStudio for Performance Marketing] en [!DNL Journey Optimizer] ondersteunt verschillende marketingscenario&#39;s:
 
 * **de lanceringscampagnes van het Product**: Produceer snel veelvoudige e-mailvarianten voor productaankondigingen, test hen met verschillende publiekssegmenten, en schaal de winnende versie over uw klantenbasis.
 
@@ -110,7 +109,7 @@ De integratieworkflow bestaat uit twee hoofdstappen: het exporteren van een sjab
 
 Begin met het exporteren van een [!DNL Journey Optimizer] HTML-sjabloon, inclusief de richtlijnen van uw merk, naar [!DNL GenStudio for Performance Marketing] . Voer de onderstaande stappen uit.
 
-1. In [!DNL Journey Optimizer] opent u de inhoud van uw e-mail via een reis of campagne. [&#x200B; leer hoe &#x200B;](../email/get-started-email-design.md#key-steps)
+1. In [!DNL Journey Optimizer] opent u de inhoud van uw e-mail via een reis of campagne. [ leer hoe ](../email/get-started-email-design.md#key-steps)
 
 1. Selecteer in de Designer-mailtoepassing **[!UICONTROL Export HTML]** op de knop **[!UICONTROL More]** .
 
@@ -120,21 +119,21 @@ Begin met het exporteren van een [!DNL Journey Optimizer] HTML-sjabloon, inclusi
 
    >[!NOTE]
    >
-   >Leer hoe te om een malplaatje van HTML in [!DNL GenStudio] in de [&#x200B; 2&rbrace; specifieke sectie van de Gids van de Gebruiker van Adobe GenStudio for Performance Marketing te uploaden.](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}
+   >Leer hoe te om een malplaatje van HTML in [!DNL GenStudio] in de [ 2} specifieke sectie van de Gids van de Gebruiker van Adobe GenStudio for Performance Marketing te uploaden.](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}
 
 1. In GenStudio gebruikt u deze sjabloon om verschillende e-mailvariaties te maken met AI-herinneringen en deze op te slaan.
 
    >[!NOTE]
    >
-   >Leer hoe te om e-mailervaringen in GenStudio te creëren specifieke [&#x200B; sectie &#x200B;](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}.
+   >Leer hoe te om e-mailervaringen in GenStudio te creëren specifieke [ sectie ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}.
 
 ### GenStudio-ervaringen in Journey Optimizer benutten {#leverage-genstudio-experiences}
 
 Nadat u e-mailvariaties in GenStudio hebt gemaakt, importeert u deze weer in [!DNL Journey Optimizer] om ze in uw campagnes te gebruiken. Voer de onderstaande stappen uit.
 
-1. In [!DNL Journey Optimizer], [&#x200B; voeg een e-mail &#x200B;](../email/create-email.md) aan een campagne toe.
+1. In [!DNL Journey Optimizer], [ voeg een e-mail ](../email/create-email.md) aan een campagne toe.
 
-1. Van het scherm van de campagneconfiguratie, ga door [&#x200B; geef inhoudsscherm &#x200B;](../email/create-email.md#define-email-content) uit en klik **[!UICONTROL Edit email body]** om e-mail Designer te openen. [&#x200B; leer hoe &#x200B;](../email/get-started-email-design.md#key-steps)
+1. Van het scherm van de campagneconfiguratie, ga door [ geef inhoudsscherm ](../email/create-email.md#define-email-content) uit en klik **[!UICONTROL Edit email body]** om e-mail Designer te openen. [ leer hoe ](../email/get-started-email-design.md#key-steps)
 
 1. Selecteer **[!UICONTROL Import HTML]** op de startpagina van e-mail Designer en klik op de knop **[!UICONTROL Adobe GenStudio for Performance Marketing]** .
 
@@ -158,11 +157,11 @@ Nadat u e-mailvariaties in GenStudio hebt gemaakt, importeert u deze weer in [!D
 
    >[!NOTE]
    >
-   >De ervaringen van GenStudio [&#x200B; die van a  [!DNL Journey Optimizer]  worden gecreeerd malplaatje &#x200B;](#export-from-ajo-to-genstudio) worden direct ingevoerd in E-mail Designer met volledige het uitgeven mogelijkheden. De ervaringen van GenStudio die zonder a [!DNL Journey Optimizer] malplaatje worden gecreeerd worden ingevoerd in [&#x200B; verenigbaarheidswijze &#x200B;](../email/existing-content.md), die beperkte het uitgeven functionaliteit kan hebben.
+   >De ervaringen van GenStudio [ die van a  [!DNL Journey Optimizer]  worden gecreeerd malplaatje ](#export-from-ajo-to-genstudio) worden direct ingevoerd in E-mail Designer met volledige het uitgeven mogelijkheden. De ervaringen van GenStudio die zonder a [!DNL Journey Optimizer] malplaatje worden gecreeerd worden ingevoerd in [ verenigbaarheidswijze ](../email/existing-content.md), die beperkte het uitgeven functionaliteit kan hebben.
 
-1. Gebruik de [&#x200B; e-mailinhoud het uitgeven hulpmiddelen &#x200B;](../email/content-from-scratch.md) en [&#x200B; verpersoonlijkingsgebieden &#x200B;](../personalization/personalize.md) om uw e-mail zoals nodig uit te geven. Sla uw inhoud op.
+1. Gebruik de [ e-mailinhoud het uitgeven hulpmiddelen ](../email/content-from-scratch.md) en [ verpersoonlijkingsgebieden ](../personalization/personalize.md) om uw e-mail zoals nodig uit te geven. Sla uw inhoud op.
 
-1. Ga terug naar de pagina met het campagneresamenvatting en klik op **[!UICONTROL Create experiment]** om te experimenteren. [&#x200B; leer hoe te om een inhoudexperiment tot stand te brengen &#x200B;](../content-management/content-experiment.md)
+1. Ga terug naar de pagina met het campagneresamenvatting en klik op **[!UICONTROL Create experiment]** om te experimenteren. [ leer hoe te om een inhoudexperiment tot stand te brengen ](../content-management/content-experiment.md)
 
    <!--![](assets/genstudio-create-experiment.png){zoomable="yes"}-->
 
@@ -170,9 +169,9 @@ Nadat u e-mailvariaties in GenStudio hebt gemaakt, importeert u deze weer in [!D
 
    ![](assets/genstudio-define-treatments.png){zoomable="yes"}
 
-1. Sparen uw veranderingen en [&#x200B; activeer &#x200B;](../campaigns/review-activate-campaign.md) de campagne.
+1. Sparen uw veranderingen en [ activeer ](../campaigns/review-activate-campaign.md) de campagne.
 
-1. Na het in werking stellen van het experiment, spoor hoe uw campagnebehandelingen met het [&#x200B; experimentatiecampagnerapport &#x200B;](../reports/campaign-global-report-cja-experimentation.md) presteren. U kunt dan de resultaten van uw experiment interpreteren. [&#x200B; leer hoe &#x200B;](../content-management/get-started-experiment.md#interpret-results)
+1. Na het in werking stellen van het experiment, spoor hoe uw campagnebehandelingen met het [ experimentatiecampagnerapport ](../reports/campaign-global-report-cja-experimentation.md) presteren. U kunt dan de resultaten van uw experiment interpreteren. [ leer hoe ](../content-management/get-started-experiment.md#interpret-results)
 
 ## Veelgestelde vragen {#genstudio-faq}
 
@@ -190,17 +189,17 @@ De integratie is momenteel niet beschikbaar voor organisaties die het **gebruike
 
 +++Kan ik GenStudio-inhoud bewerken na het importeren naar Journey Optimizer?
 
-Ja, na het invoeren van de ervaringen van GenStudio in [!DNL Journey Optimizer], kunt u de E-mailDesigner [&#x200B; gebruiken inhoud het uitgeven hulpmiddelen &#x200B;](../email/content-from-scratch.md) en [&#x200B; verpersoonlijkingsgebieden &#x200B;](../personalization/personalize.md) toevoegen om uw e-mailinhoud verder aan te passen.
+Ja, na het invoeren van de ervaringen van GenStudio in [!DNL Journey Optimizer], kunt u de E-mailDesigner [ gebruiken inhoud het uitgeven hulpmiddelen ](../email/content-from-scratch.md) en [ verpersoonlijkingsgebieden ](../personalization/personalize.md) toevoegen om uw e-mailinhoud verder aan te passen.
 +++
 
 +++Wat gebeurt er met GenStudio-ervaringen die zijn gemaakt zonder een Journey Optimizer-sjabloon?
 
-GenStudio-ervaringen die met een [!DNL Journey Optimizer] -sjabloon zijn gemaakt, worden rechtstreeks geïmporteerd in de e-mail-Designer. De ervaringen van GenStudio die zonder a [!DNL Journey Optimizer] malplaatje worden gecreeerd worden ingevoerd in [&#x200B; verenigbaarheidswijze &#x200B;](../email/existing-content.md).
+GenStudio-ervaringen die met een [!DNL Journey Optimizer] -sjabloon zijn gemaakt, worden rechtstreeks geïmporteerd in de e-mail-Designer. De ervaringen van GenStudio die zonder a [!DNL Journey Optimizer] malplaatje worden gecreeerd worden ingevoerd in [ verenigbaarheidswijze ](../email/existing-content.md).
 +++
 
 +++Kan ik meerdere GenStudio e-mailvariaties testen in Journey Optimizer?
 
-Ja, kunt u verscheidene inhoudsbehandelingen tot stand brengen door verschillende e-mailvariaties van GenStudio in te voeren en de inhoud van Journey Optimizer te gebruiken [&#x200B; eigenschap experimenteren &#x200B;](../content-management/content-experiment.md) om te testen welke variatie het best met uw publiek presteert.
+Ja, kunt u verscheidene inhoudsbehandelingen tot stand brengen door verschillende e-mailvariaties van GenStudio in te voeren en de inhoud van Journey Optimizer te gebruiken [ eigenschap experimenteren ](../content-management/content-experiment.md) om te testen welke variatie het best met uw publiek presteert.
 +++
 
 +++Hoe zorgt GenStudio voor consistentie van merken?
@@ -217,4 +216,4 @@ Ja, GenStudio is ontworpen voor samenwerking. Meerdere teamleden met de juiste m
 
 Ontdek het proces voor het exporteren van een e-mailsjabloon van Journey Optimizer naar GenStudio for Performance Marketing, het maken van merkwaardige e-mails met de sjabloon in GenStudio en het naadloos importeren van deze mailsjablonen naar Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3456055/?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)
