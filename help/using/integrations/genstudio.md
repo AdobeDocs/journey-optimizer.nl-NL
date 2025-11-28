@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## Aan de slag met GenStudio {#gs-genstudio}
 
-[&#x200B; Adobe GenStudio for Performance Marketing &#x200B;](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"} is een generatieve AI-eerste toepassing die marketingteams hun eigen advertenties en e-mails laat maken om impactful, gepersonaliseerde marketing campagnes te drijven die aan uw merknormen voldoen en aan uw ondernemingsbeleid voldoet. Door gebruik te maken van Adobe AI-technologie, biedt deze technologie een uitgebreide reeks hulpmiddelen die de complexiteit van het maken en beheren van content vereenvoudigen, zodat creatieve mensen zich kunnen richten op innovatie.
+[&#x200B; Adobe GenStudio for Performance Marketing &#x200B;](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"} is een generatieve AI-eerste toepassing die marketingteams hun eigen advertenties en e-mails laat maken om impactful, gepersonaliseerde marketing campagnes te drijven die aan uw merknormen voldoen en aan uw ondernemingsbeleid voldoet. Door gebruik te maken van Adobe AI-technologie, biedt deze technologie een uitgebreide reeks hulpmiddelen die de complexiteit van het maken en beheren van content vereenvoudigen, zodat creatieve mensen zich kunnen richten op innovatie.
 
 >[!AVAILABILITY]
 >
@@ -39,7 +39,7 @@ Om marketing efficiency te verbeteren en merkconsistentie te handhaven, kunt u [
 
 >[!INFO]
 >
->Om verder te gaan, controleer dit [&#x200B; overzicht &#x200B;](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} en a [&#x200B; demo &#x200B;](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"} van [!DNL Adobe GenStudio for Performance Marketing].
+>Om verder te gaan, controleer dit [&#x200B; overzicht &#x200B;](https://business.adobe.com/nl/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} en a [&#x200B; demo &#x200B;](https://business.adobe.com/nl/products/genstudio-for-performance-marketing.html#demo){target="_blank"} van [!DNL Adobe GenStudio for Performance Marketing].
 
 ➡️ [Ontdek deze functie in video](#video)
 
@@ -51,7 +51,7 @@ Als u de [!DNL GenStudio for Performance Marketing] integratie met [!DNL Journey
 
 * Zowel [!DNL GenStudio for Performance Marketing] als [!DNL Adobe Journey Optimizer] moeten tot dezelfde IMS-organisatie behoren.
 
-* De gebruikers moeten minstens de **rol van de Medewerker** of hoger in [!DNL GenStudio for Performance Marketing] hebben om de integratiefuncties te gebruiken. [&#x200B; leer meer over gebruikersrollen in GenStudio &#x200B;](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
+* De gebruikers moeten minstens de **rol van de Medewerker** of hoger in [!DNL GenStudio for Performance Marketing] hebben om de integratiefuncties te gebruiken. [&#x200B; leer meer over gebruikersrollen in GenStudio &#x200B;](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
 
 <!--To access the GenStudio integration in [!DNL Adobe Journey Optimizer] feature, users need to be granted the **xxx** permission. [Learn more](../administration/permissions.md)
 
@@ -119,13 +119,13 @@ Begin met het exporteren van een [!DNL Journey Optimizer] HTML-sjabloon, inclusi
 
    >[!NOTE]
    >
-   >Leer hoe te om een malplaatje van HTML in [!DNL GenStudio] in de [&#x200B; 2&rbrace; specifieke sectie van de Gids van de Gebruiker van Adobe GenStudio for Performance Marketing te uploaden.](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}
+   >Leer hoe te om een malplaatje van HTML in [!DNL GenStudio] in de [&#x200B; 2&rbrace; specifieke sectie van de Gids van de Gebruiker van Adobe GenStudio for Performance Marketing te uploaden.](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}
 
 1. In GenStudio gebruikt u deze sjabloon om verschillende e-mailvariaties te maken met AI-herinneringen en deze op te slaan.
 
    >[!NOTE]
    >
-   >Leer hoe te om e-mailervaringen in GenStudio te creëren specifieke [&#x200B; sectie &#x200B;](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}.
+   >Leer hoe te om e-mailervaringen in GenStudio te creëren specifieke [&#x200B; sectie &#x200B;](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}.
 
 ### GenStudio-ervaringen in Journey Optimizer benutten {#leverage-genstudio-experiences}
 
