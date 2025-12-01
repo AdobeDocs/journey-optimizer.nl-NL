@@ -8,9 +8,9 @@ level: Intermediate
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 7205017785283e3db4d64ed595ac8f187f43307b
+source-git-commit: 7bf0b3fbfe56ef8ae3a35be9aa604287f43d6d74
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -32,32 +32,30 @@ Als u twee plafondregels voor een aanbieding definieert:
 
 Het aanbod wordt niet meer weergegeven aan een gebruiker als deze het vijf keer per week heeft gezien, zelfs als de totale limiet van 100 nog niet is bereikt. Op dezelfde manier, zodra 100 totale indrukken worden bereikt, houdt de aanbieding op worden getoond aan alle gebruikers.
 
-Leer meer over [&#x200B; het begrenzen regels &#x200B;](items.md#capping).
+Leer meer over [ het begrenzen regels ](items.md#capping).
 
 +++
 
 ## Beoordelingsformule {#ranking-formulas}
 
-+++**wat is de rol van publiek in AI modellen?**
++++**wat is de rol van publiek tegenover een volledige dataset in AI modellen?**
 
-Wanneer het vormen van [&#x200B; gepersonaliseerde optimaliseringsmodellen &#x200B;](ranking/personalized-optimization-model.md), zowel dienen de datasets als het publiek verschillende doeleinden:
+Wanneer het vormen van [ AI modellen ](ranking/ai-models.md), zowel dienen de datasets als het publiek afzonderlijke doeleinden.
 
 * **Datasets**: De omzettingsgebeurtenissen van de Vangst (kliks, orden, opbrengst) die als optimaliseringsdoelstellingen voor het model dienen.
 * **Soorten publiek**: Functie als voorspellende variabelen die het model toelaten om aanbevelingen te personaliseren die op het lidmaatschap van het klantensegment worden gebaseerd.
 
 Het publiek beperkt of vergroot het bereik van het model niet. In plaats daarvan, verstrekken zij contextafhankelijke attributen die de capaciteit van het model verbeteren om gepersonaliseerde voorspellingen over verschillende klantensegmenten te maken.
 
-Beide componenten zijn vereist voor effectieve gepersonaliseerde prestaties van het optimalisatiemodel. Leer meer over [&#x200B; AI modellen &#x200B;](ranking/ai-models.md).
+Beide componenten worden vereist voor efficiënte [ gepersonaliseerde optimalisatiemodellen ](ranking/personalized-optimization-model.md) modelprestaties.
 
 +++
 
-+++**hoe veranderingen om inzamelingen aan te bieden AI modellen als het gebruiken van auto-optimalisering of gepersonaliseerde optimalisatiemodellen beïnvloeden?**
++++**hoe de veranderingen om inzamelingen aan te bieden auto-optimalisering of gepersonaliseerde optimalisatiemodellen beïnvloeden?**
 
 Beide modellen zullen verkeer aan de volgende beste beschikbare aanbieding leveren die op verkeersgegevens van de laatste 30 dagen wordt gebaseerd.
 
-Wanneer verscheidene aanbiedingen gelijktijdig worden verwijderd en de resterende aanbiedingen minimale verkeersgegevens binnen het venster van 30 dagen hebben, kan het model suboptimaal gedrag, met inbegrip van vertonen:
-* Willekeurige distributiepatronen
-* Bias naar aanbiedingen met hogere omrekeningskoersen op basis van beperkte beeldgegevens
+Wanneer verscheidene aanbiedingen gelijktijdig worden verwijderd en de resterende aanbiedingen minimale verkeersgegevens binnen het venster van 30 dagen hebben, kan het model suboptimaal gedrag, met inbegrip van willekeurige distributiepatronen of bias naar aanbiedingen met hogere omzettingspercentages die op beperkte beeldgegevens worden gebaseerd tonen.
 
 **Beste praktijken**: Wanneer het wijzigen van aanbiedingsinzamelingen beduidend, verifieer dat de resterende aanbiedingen voldoende historische prestatiesgegevens hebben om modeldoeltreffendheid te handhaven.
 
@@ -67,18 +65,18 @@ Wanneer verscheidene aanbiedingen gelijktijdig worden verwijderd en de resterend
 
 In AI-modellen worden nieuwe aanbiedingen tijdens de volgende trainingscyclus geïdentificeerd en getest:
 
-* **auto-optimalisering**: De dagelijkse trainingslooppas
-* **Gepersonaliseerde optimalisering**: Wekelijkse opleidingslooppas
+* **auto-optimalisering**: Dagelijks
+* **Gepersonaliseerde optimalisering**: Wekelijks
 
 Zodra beide modellen zijn geïdentificeerd, zullen zij onmiddellijk de nieuwe aanbiedingen aan sommige bezoekers gaan bedienen om hun prestaties te testen en gegevens over hun doeltreffendheid te verzamelen.
 
-Leer meer over [&#x200B; auto-optimalisering &#x200B;](ranking/auto-optimization-model.md) en [&#x200B; gepersonaliseerde optimalisering &#x200B;](ranking/personalized-optimization-model.md) modellen.
+Leer meer over [ auto-optimalisering ](ranking/auto-optimization-model.md) en [ gepersonaliseerde optimalisering ](ranking/personalized-optimization-model.md) modellen.
 
 +++
 
 +++**hoe AI modellen zonder controlegroepen optimaliseren?**
 
-Zowel auto-optimalisering als gepersonaliseerde optimalisatiemodellen maken gebruik van een onderzoek-exploiterende strategie die de behoefte aan specifieke controlegroepen elimineert:
+Zowel auto-optimalisering als gepersonaliseerde optimalisatiemodellen maken gebruik van een &quot;onderzoek-exploiteer&quot;strategie die de behoefte aan specifieke controlegroepen elimineert.
 
 * **Aanvankelijke fase**: De modellen beginnen met 100% exploratie, testend verschillende aanbiedingen om basislijnprestatiesgegevens te vestigen.
 * **Aangepaste optimalisering**: Aangezien de gedragsgebeurtenissen zich ophopen en de voorspellingsnauwkeurigheid verbetert, brengen de modellen automatisch exploratie en exploitatie in evenwicht.
@@ -91,10 +89,8 @@ Dit verzekert ononderbroken het leren en optimalisering over al verkeer zonder a
 +++**wat zijn de minimumverkeersvereisten voor optimale AI modelprestaties?**
 
 Adobe beveelt de volgende minimumdrempels aan om effectieve modelprestaties te garanderen:
-
-**geadviseerde minimum (per week):**
-* 1.000 afbeeldingen per aanbieding/object
-* 100 conversiegebeurtenissen per aanbieding/object
+* 1.000 afbeeldingen per aanbieding/object per week
+* 100 conversiegebeurtenissen per aanbieding/object per week
 
 <!--**Absolute minimums (per 30 days):**
 * At least **250 impressions** per offer/item  
@@ -106,11 +102,11 @@ Standaard probeert het systeem geen gepersonaliseerde modellen te maken voor aan
 >
 >In productieomgevingen met grote aanbiedingen voor catalogi (~300 aanbiedingen) en restrictieve bedrijfsregels, kunnen sommige aanbiedingen lagere absolute drempels benaderen (250 beelden en 25 omzettingen per 30 dagen). Deze zijn de minimale gegevensvereisten voor modeltraining, maar bieden mogelijk geen garantie voor optimale prestaties.
 
-Leer meer over [&#x200B; vereisten van de gegevensinzameling &#x200B;](data-collection/data-collection.md).
+Leer meer over [ vereisten van de gegevensinzameling ](data-collection/data-collection.md).
 
 +++
 
-+++**hoe aanbiedt gelijkenis AI modelprestaties beïnvloedt?**
++++**hoe beïnvloeden de gelijkaardige aanbiedingen AI modelprestaties?**
 
 AI-modellen leveren grotere voordelen op voor de personalisatie wanneer ze een beroep doen op verschillende klantsegmenten. Wanneer aanbiedingen sterk op elkaar lijken, zijn twee resultaten typisch:
 
@@ -127,11 +123,8 @@ AI-modellen leveren grotere voordelen op voor de personalisatie wanneer ze een b
 
 +++**hoe beïnvloedt verkeersanomalieën AI modelprestaties?**
 
-Verkeersanomalieën worden proportioneel in het model opgenomen binnen het rolvenster van 30 dagen.
+De anomalieën van het verkeer worden proportioneel opgenomen in het model binnen het rolvenster van 30 dagen, dat modelstabiliteit tijdens tijdelijke verkeersschommelingen verstrekt. Snellerechikes of druppels verstoren modelvoorspellingen of prestaties niet significant.
 
-**Gevolgen beoordeling:**
-Een tijdelijke verkeerspiek (bijvoorbeeld, 2x dagelijks verkeer) heeft minimaal effect op algemene modelprestaties omdat het afwijkende verkeer een kleine fractie van de dataset van 30 dagen vertegenwoordigt.
-
-**Zeer belangrijke insight**: Het het rollen gegevensvenster van 30 dagen verstrekt modelstabiliteit tijdens tijdelijke verkeersschommelingen. Snellerechikes of druppels verstoren modelvoorspellingen of prestaties niet significant.
+Een tijdelijke verkeerspiek (bijvoorbeeld, tweemaal het dagelijkse verkeer) heeft minimaal effect op algemene modelprestaties omdat het afwijkende verkeer een kleine fractie van de dataset van 30 dagen vertegenwoordigt.
 
 +++
