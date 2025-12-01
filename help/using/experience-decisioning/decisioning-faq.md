@@ -8,9 +8,9 @@ level: Intermediate
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
+source-git-commit: e42640e791e6bec3bfd09a3095bad5e44e2ab128
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -21,77 +21,80 @@ Deze pagina biedt antwoorden op veelgestelde vragen over beslissingsmogelijkhede
 
 ## Afdekregels {#capping-rules}
 
-+++**wat gebeurt wanneer u meer dan één het afschilderen regel voor een aanbieding creeert? Zullen wij ophouden tonend het aanbod wanneer wij om het even welke het begrenzen regels, of allen van hen aanpassen?**
++++**wat gebeurt wanneer de veelvoudige het capken regels op één enkele aanbieding worden toegepast?**
 
-De aanbieding wordt beperkt zodra **één voorwaarde wordt voldaan aan**. Dit betekent dat een van de plafondregels het aanbod zal beletten om te worden getoond zodra de drempel is bereikt.
+Een aanbieding wordt beperkt zodra **om het even welke enige voorwaarde wordt voldaan**. Wanneer de veelvoudige het begrenzen regels bestaan, houdt de aanbieding op worden getoond zodra om het even welke regel zijn drempel bereikt.
 
-Bijvoorbeeld, als u twee het begrenzen regels hebt:
+**Voorbeeld:**
+Als u twee plafondregels voor een aanbieding definieert:
 * 5 keer per profiel per week
 * 100 keer totaal voor alle gebruikers
 
 Het aanbod wordt niet meer weergegeven aan een gebruiker als deze het vijf keer per week heeft gezien, zelfs als de totale limiet van 100 nog niet is bereikt. Op dezelfde manier, zodra 100 totale indrukken worden bereikt, houdt de aanbieding op worden getoond aan alle gebruikers.
 
-Leer meer over [&#x200B; het begrenzen regels &#x200B;](items.md#capping).
+Leer meer over [ het begrenzen regels ](items.md#capping).
 
 +++
 
 ## Beoordelingsformule {#ranking-formulas}
 
-+++**waarom zou ik een publiek aan een AI model toevoegen? Wat is het voordeel om publiek tegenover een volledige dataset toe te voegen? Zal het het model beperken of het model uitbreiden?**
++++**wat is de rol van publiek in AI modellen?**
 
-Wanneer het werken met AI modellen (specifiek [&#x200B; gepersonaliseerde optimaliseringsmodellen &#x200B;](ranking/personalized-optimization-model.md)):
+Wanneer het vormen van [ gepersonaliseerde optimaliseringsmodellen ](ranking/personalized-optimization-model.md), zowel dienen de datasets als het publiek verschillende doeleinden:
 
-* **Datasets** worden toegevoegd om uw omzettingsgebeurtenissen (kliks, orden, opbrengst) te verzamelen. Dit zijn de resultaten die het model probeert te optimaliseren.
-* **Soorten publiek** worden toegevoegd om als voorspellende variabelen in het model worden gebruikt. Zij helpen voorspelling personaliseren om te proberen om kliks, orden, of opbrengst voor verschillende klantensegmenten te voorspellen.
+* **Datasets**: De omzettingsgebeurtenissen van de Vangst (kliks, orden, opbrengst) die als optimaliseringsdoelstellingen voor het model dienen.
+* **Soorten publiek**: Functie als voorspellende variabelen die het model toelaten om aanbevelingen te personaliseren die op het lidmaatschap van het klantensegment worden gebaseerd.
 
-Zowel zijn datasets als publiek nodig voor het gepersonaliseerde optimaliseringsmodel om effectief te werken. Het publiek **beperkt noch breidt** model-in plaats daarvan uit, verstrekken zij extra context die het model helpt betere gepersonaliseerde besluiten maken.
+Het publiek beperkt of vergroot het bereik van het model niet. In plaats daarvan, verstrekken zij contextafhankelijke attributen die de capaciteit van het model verbeteren om gepersonaliseerde voorspellingen over verschillende klantensegmenten te maken.
 
-Leer meer over [&#x200B; AI modellen &#x200B;](ranking/ai-models.md).
+Beide componenten zijn vereist voor effectieve gepersonaliseerde prestaties van het optimalisatiemodel. Leer meer over [ AI modellen ](ranking/ai-models.md).
 
 +++
 
-+++**zal toevoegen of aanbiedingen verwijderen aan een inzameling om het even welk effect op het model hebben als ik auto-optimalisering of gepersonaliseerde optimaliseringsmodellen gebruik?**
++++**hoe veranderingen om inzamelingen aan te bieden AI modellen als het gebruiken van auto-optimalisering of gepersonaliseerde optimalisatiemodellen beïnvloeden?**
 
 Beide modellen zullen verkeer aan de volgende beste beschikbare aanbieding leveren die op verkeersgegevens van de laatste 30 dagen wordt gebaseerd.
 
-Als meerdere aanbiedingen tegelijk worden verwijderd en de resterende aanbiedingen in de afgelopen 30 dagen zeer weinig verkeer hebben ontvangen, kan de aanbiedingsdistributie onverwacht gedrag vertonen. Dit zou kunnen leiden tot willekeurige verdeling of vertekening ten aanzien van bepaalde aanbiedingen met een hogere omrekeningskoers op basis van slechts enkele indrukken.
+Wanneer verscheidene aanbiedingen gelijktijdig worden verwijderd en de resterende aanbiedingen minimale verkeersgegevens binnen het venster van 30 dagen hebben, kan het model suboptimaal gedrag, met inbegrip van vertonen:
+* Willekeurige distributiepatronen
+* Bias naar aanbiedingen met hogere omrekeningskoersen op basis van beperkte beeldgegevens
 
-**Beste praktijken**: Wanneer het aanbrengen van significante veranderingen om inzamelingen aan te bieden, zorg ervoor dat de resterende aanbiedingen voldoende historische prestatiesgegevens hebben om optimale modelprestaties te handhaven.
+**Beste praktijken**: Wanneer het wijzigen van aanbiedingsinzamelingen beduidend, verifieer dat de resterende aanbiedingen voldoende historische prestatiesgegevens hebben om modeldoeltreffendheid te handhaven.
 
 +++
 
-+++**hoe lang neemt het voor de AI modellen om te begrijpen dat er nieuwe toegevoegde inhoud is en beginnen hen aan de mengeling toe te voegen?**
++++**hoe snel AI modellen nieuwe aanbiedingen opnemen?**
 
-Beide AI-modellen identificeren nieuwe aanbiedingen op de volgende trainingsreeks:
+In AI-modellen worden nieuwe aanbiedingen tijdens de volgende trainingscyclus geïdentificeerd en getest:
 
 * **auto-optimalisering**: De dagelijkse trainingslooppas
 * **Gepersonaliseerde optimalisering**: Wekelijkse opleidingslooppas
 
 Zodra beide modellen zijn geïdentificeerd, zullen zij onmiddellijk de nieuwe aanbiedingen aan sommige bezoekers gaan bedienen om hun prestaties te testen en gegevens over hun doeltreffendheid te verzamelen.
 
-Leer meer over [&#x200B; auto-optimalisering &#x200B;](ranking/auto-optimization-model.md) en [&#x200B; gepersonaliseerde optimalisering &#x200B;](ranking/personalized-optimization-model.md) modellen.
+Leer meer over [ auto-optimalisering ](ranking/auto-optimization-model.md) en [ gepersonaliseerde optimalisering ](ranking/personalized-optimization-model.md) modellen.
 
 +++
 
-+++**als wij geen controlegroepen in de modellen AI hebben, leren wij en optimaliseren al verkeer, allen tezelfdertijd?**
++++**hoe AI modellen zonder controlegroepen optimaliseren?**
 
-Ja. Beide AI-modellen (automatische optimalisatie en gepersonaliseerde optimalisatie) maken gebruik van een &#39;verkennen en benutten&#39;-aanpak:
+Zowel auto-optimalisering als gepersonaliseerde optimalisatiemodellen maken gebruik van een onderzoek-exploiterende strategie die de behoefte aan specifieke controlegroepen elimineert:
 
-* Aanvankelijk, zijn beide modellen **100% exploratie**, betekenend zij verschillende aanbiedingen testen om prestatiesgegevens te verzamelen.
-* In tijd, leiden de modellen **automatisch de verkenning/exploiteer handel** aangezien de gedragsgebeurtenissen worden verzameld en de voorspellingen verbeteren.
-* De modellen verschuiven geleidelijk meer verkeer naar beter presterende aanbiedingen en blijven andere opties onderzoeken en testen.
+* **Aanvankelijke fase**: De modellen beginnen met 100% exploratie, testend verschillende aanbiedingen om basislijnprestatiesgegevens te vestigen.
+* **Aangepaste optimalisering**: Aangezien de gedragsgebeurtenissen zich ophopen en de voorspellingsnauwkeurigheid verbetert, brengen de modellen automatisch exploratie en exploitatie in evenwicht.
+* **het Leren**: Het systeem wijst progressief meer verkeer aan hoog-presterende aanbiedingen toe terwijl het blijven om alternatieven te testen.
 
 Dit verzekert ononderbroken het leren en optimalisering over al verkeer zonder afzonderlijke controlegroepen te vereisen.
 
 +++
 
-+++**hoeveel optimaliseringsgebeurtenissen moeten wij statistisch significant zijn? Is er een minimumverkeersdrempel voor een oppervlakte?**
++++**wat zijn de minimumverkeersvereisten voor optimale AI modelprestaties?**
 
-Adobe raadt de volgende minimale vereisten aan om optimale modelprestaties te garanderen:
+Adobe beveelt de volgende minimumdrempels aan om effectieve modelprestaties te garanderen:
 
 **geadviseerde minimum (per week):**
-* Minstens **1.000 beelden** per aanbieding/punt
-* Minstens **100 omzettingsgebeurtenissen** per aanbieding/punt
+* 1.000 afbeeldingen per aanbieding/object
+* 100 conversiegebeurtenissen per aanbieding/object
 
 <!--**Absolute minimums (per 30 days):**
 * At least **250 impressions** per offer/item  
@@ -99,36 +102,37 @@ Adobe raadt de volgende minimale vereisten aan om optimale modelprestaties te ga
 
 Standaard probeert het systeem geen gepersonaliseerde modellen te maken voor aanbiedingen/items met minder dan 1000 afbeeldingen of 50 conversiegebeurtenissen.
 
-**Belangrijk**: In praktijk, hebben sommige klanten vele aanbiedingen (~300) in één enkel model, en sommige aanbiedingen kunnen zeer beperkende bedrijfsregels hebben. De absolute minima (250 indrukkingen/25 omzettingen per 30 dagen) vertegenwoordigen de laagste drempel die het systeem voor bouwmodellen kan steunen.
+>[!NOTE]
+>
+>In productieomgevingen met grote aanbiedingen voor catalogi (~300 aanbiedingen) en restrictieve bedrijfsregels, kunnen sommige aanbiedingen lagere absolute drempels benaderen (250 beelden en 25 omzettingen per 30 dagen). Deze zijn de minimale gegevensvereisten voor modeltraining, maar bieden mogelijk geen garantie voor optimale prestaties.
 
-Leer meer over [&#x200B; vereisten van de gegevensinzameling &#x200B;](data-collection/data-collection.md).
+Leer meer over [ vereisten van de gegevensinzameling ](data-collection/data-collection.md).
 
 +++
 
-+++**moet de inhoud van de aanbiedingen duidelijk voor de modellen van AI worden onderscheiden om goed te werken? Wat gebeurt als ik veelvoudige aanbiedingen heb die aan elkaar te gelijkaardig zijn?**
++++**hoe aanbiedt gelijkenis AI modelprestaties beïnvloedt?**
 
-Over het algemeen, zal het AI model waarschijnlijker voordelen van verpersoonlijking produceren wanneer **aanbiedingen aan verschillende soorten klanten** worden aangepast.
+AI-modellen leveren grotere voordelen op voor de personalisatie wanneer ze een beroep doen op verschillende klantsegmenten. Wanneer aanbiedingen sterk op elkaar lijken, zijn twee resultaten typisch:
 
-Wanneer de aanbiedingen zeer gelijkaardig zijn, is één van twee resultaten waarschijnlijk:
-
-* **Vergelijkbare prestaties**: De aanbiedingen zullen identiek presteren en een relatief gelijk aandeel van verkeer ontvangen.
-* **Dominantie**: De kleine verschillen kunnen één aanbieding veroorzaken om anderen over alle klantentypes te domineren, en het zal het grootste deel van verkeer ontvangen.
+* **Equivalente prestaties**: De aanbiedingen presteren identiek en ontvangen ongeveer gelijke verkeersdistributie.
+* **Dominante aanbieding**: De kleine verschillen veroorzaken één aanbieding om anderen over alle segmenten te overtreffen, die de meerderheid van verkeer vangen.
 
 >[!NOTE]
 >
->Verschillen in aanbiedingen zijn geen garantie dat één aanbod de andere niet zal domineren. Een aanbieding van 100 euro zal bijvoorbeeld bijna altijd een aanbieding van 50 euro overtreffen voor alle soorten klanten, ongeacht personalisatie.
+>De differentiatie van het aanbod waarborgt geen evenwichtige verkeersverdeling. Aanbiedingen met objectief superieure waardevoorstellen (bijvoorbeeld een korting van € 100 tegenover een korting van € 50) zullen doorgaans overheersen in alle klantensegmenten, ongeacht de inspanningen voor personalisatie.
 
-**Beste praktijken**: Verzeker uw aanbiedingen betekenisvolle differentiatie verstrekken die aan verschillende klantensegmenten voor optimale AI modelprestaties kan aantrekken.
+**Beste praktijken**: De aanbiedingen van het ontwerp met betekenisvolle differentiatie die zich op verschillende voorkeur van het klantensegment richten om AI modeldoeltreffendheid te maximaliseren.
 
 +++
 
-+++**wat gebeurt met het model als er een verkeersanomalie, zoals een enorme verkeerspiek is? Zal het kwesties veroorzaken of onbehagen opheffen?**
++++**hoe beïnvloedt verkeersanomalieën AI modelprestaties?**
 
-In de modellering zou een verkeerspiek worden opgenomen die evenredig is met het andere verkeer in de laatste 30 dagen.
+Verkeersanomalieën worden proportioneel in het model opgenomen binnen het rolvenster van 30 dagen.
 
-Bijvoorbeeld, zal een 2x dagelijkse verkeerspiek een vrij bescheiden effect op het algemene model hebben, omdat er 29 dagen van normaal verkeer zijn die beduidend meer van de algemene gedragsgegevens vertegenwoordigen.
+**Gevolgen beoordeling:**
+Een tijdelijke verkeerspiek (bijvoorbeeld, 2x dagelijks verkeer) heeft minimaal effect op algemene modelprestaties omdat het afwijkende verkeer een kleine fractie van de dataset van 30 dagen vertegenwoordigt.
 
-**Zeer belangrijk punt**: Het het rollen venster van 30 dagen helpt het model stabiliteit tijdens tijdelijke verkeersanomalieën handhaven. Snijden of dips op korte termijn verstoren de prestaties van het model niet significant.
+**Zeer belangrijke insight**: Het het rollen gegevensvenster van 30 dagen verstrekt modelstabiliteit tijdens tijdelijke verkeersschommelingen. Snellerechikes of druppels verstoren modelvoorspellingen of prestaties niet significant.
 
 +++
 
