@@ -5,10 +5,10 @@ title: Beslissing
 description: Beslissing
 redpen-status: CREATED_||_2025-08-11_20-57-38
 exl-id: cbfaffdc-79a5-4e61-b307-b670ed1e4835
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 1%
+source-wordcount: '354'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ Met de functie Adobe Journey Optimizer-beslissing kunt u persoonlijke marketinga
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Inleiding tot het besluit
 
@@ -30,7 +30,7 @@ Leer de grondbeginselen van Beslissing in Adobe Journey Optimizer, met inbegrip 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Beslissingsinstructies en beperkingen
 
@@ -40,7 +40,17 @@ Begrijp de beperkingen en de beste praktijken om Beslissing effectief in Adobe J
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/question.svg)
+
+Veelgestelde vragen
+
+Krijg antwoorden op gemeenschappelijke vragen over Beslissing, met inbegrip van het begrenzen van regels, AI modellen, en optimaliseringsvereisten.
+
+[Veelgestelde vragen weergeven](../using/experience-decisioning/decisioning-faq.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 API-referentie: aanbiedingen leveren
 
@@ -50,7 +60,7 @@ Onderzoek hoe te om aanbiedingen te leveren gebruikend het op code-Gebaseerde ka
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Beslissingspunten en catalogi beheren
 
@@ -60,7 +70,7 @@ Vorm en beheer besluitvormingspunten, catalogi, en inzamelingen om marketing aan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Beslissingsregels maken
 
@@ -70,7 +80,7 @@ Bepaal besluitvormingsregels aan nauwkeurig doelpubliek gebruikend beperkingen e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Afwaarderingen maken met AI-modellen
 
