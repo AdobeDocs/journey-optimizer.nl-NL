@@ -32,7 +32,7 @@ Als u twee plafondregels voor een aanbieding definieert:
 
 Het aanbod wordt niet meer weergegeven aan een gebruiker als deze het vijf keer per week heeft gezien, zelfs als de totale limiet van 100 nog niet is bereikt. Op dezelfde manier, zodra 100 totale indrukken worden bereikt, houdt de aanbieding op worden getoond aan alle gebruikers.
 
-Leer meer over [ het begrenzen regels ](items.md#capping).
+Leer meer over [&#x200B; het begrenzen regels &#x200B;](items.md#capping).
 
 +++
 
@@ -40,14 +40,14 @@ Leer meer over [ het begrenzen regels ](items.md#capping).
 
 +++**wat is de rol van publiek in AI modellen?**
 
-Wanneer het vormen van [ gepersonaliseerde optimaliseringsmodellen ](ranking/personalized-optimization-model.md), zowel dienen de datasets als het publiek verschillende doeleinden:
+Wanneer het vormen van [&#x200B; gepersonaliseerde optimaliseringsmodellen &#x200B;](ranking/personalized-optimization-model.md), zowel dienen de datasets als het publiek verschillende doeleinden:
 
 * **Datasets**: De omzettingsgebeurtenissen van de Vangst (kliks, orden, opbrengst) die als optimaliseringsdoelstellingen voor het model dienen.
 * **Soorten publiek**: Functie als voorspellende variabelen die het model toelaten om aanbevelingen te personaliseren die op het lidmaatschap van het klantensegment worden gebaseerd.
 
 Het publiek beperkt of vergroot het bereik van het model niet. In plaats daarvan, verstrekken zij contextafhankelijke attributen die de capaciteit van het model verbeteren om gepersonaliseerde voorspellingen over verschillende klantensegmenten te maken.
 
-Beide componenten zijn vereist voor effectieve gepersonaliseerde prestaties van het optimalisatiemodel. Leer meer over [ AI modellen ](ranking/ai-models.md).
+Beide componenten zijn vereist voor effectieve gepersonaliseerde prestaties van het optimalisatiemodel. Leer meer over [&#x200B; AI modellen &#x200B;](ranking/ai-models.md).
 
 +++
 
@@ -72,7 +72,7 @@ In AI-modellen worden nieuwe aanbiedingen tijdens de volgende trainingscyclus ge
 
 Zodra beide modellen zijn geïdentificeerd, zullen zij onmiddellijk de nieuwe aanbiedingen aan sommige bezoekers gaan bedienen om hun prestaties te testen en gegevens over hun doeltreffendheid te verzamelen.
 
-Leer meer over [ auto-optimalisering ](ranking/auto-optimization-model.md) en [ gepersonaliseerde optimalisering ](ranking/personalized-optimization-model.md) modellen.
+Leer meer over [&#x200B; auto-optimalisering &#x200B;](ranking/auto-optimization-model.md) en [&#x200B; gepersonaliseerde optimalisering &#x200B;](ranking/personalized-optimization-model.md) modellen.
 
 +++
 
@@ -106,7 +106,7 @@ Standaard probeert het systeem geen gepersonaliseerde modellen te maken voor aan
 >
 >In productieomgevingen met grote aanbiedingen voor catalogi (~300 aanbiedingen) en restrictieve bedrijfsregels, kunnen sommige aanbiedingen lagere absolute drempels benaderen (250 beelden en 25 omzettingen per 30 dagen). Deze zijn de minimale gegevensvereisten voor modeltraining, maar bieden mogelijk geen garantie voor optimale prestaties.
 
-Leer meer over [ vereisten van de gegevensinzameling ](data-collection/data-collection.md).
+Leer meer over [&#x200B; vereisten van de gegevensinzameling &#x200B;](data-collection/data-collection.md).
 
 +++
 
