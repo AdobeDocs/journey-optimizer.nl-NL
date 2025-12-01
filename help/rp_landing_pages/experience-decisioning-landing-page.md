@@ -20,7 +20,7 @@ Met de functie Adobe Journey Optimizer-beslissing kunt u persoonlijke marketinga
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Inleiding tot het besluit
 
@@ -30,7 +30,7 @@ Leer de grondbeginselen van Beslissing in Adobe Journey Optimizer, met inbegrip 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Beslissingsinstructies en beperkingen
 
@@ -40,7 +40,7 @@ Begrijp de beperkingen en de beste praktijken om Beslissing effectief in Adobe J
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 Veelgestelde vragen
 
@@ -50,7 +50,7 @@ Krijg antwoorden op gemeenschappelijke vragen over Beslissing, met inbegrip van 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 API-referentie: aanbiedingen leveren
 
@@ -60,7 +60,7 @@ Onderzoek hoe te om aanbiedingen te leveren gebruikend het op code-Gebaseerde ka
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Beslissingspunten en catalogi beheren
 
@@ -70,7 +70,7 @@ Vorm en beheer besluitvormingspunten, catalogi, en inzamelingen om marketing aan
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Beslissingsregels maken
 
@@ -80,7 +80,7 @@ Bepaal besluitvormingsregels aan nauwkeurig doelpubliek gebruikend beperkingen e
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Afwaarderingen maken met AI-modellen
 

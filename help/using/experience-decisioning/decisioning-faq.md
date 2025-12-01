@@ -31,7 +31,7 @@ Bijvoorbeeld, als u twee het begrenzen regels hebt:
 
 Het aanbod wordt niet meer weergegeven aan een gebruiker als deze het vijf keer per week heeft gezien, zelfs als de totale limiet van 100 nog niet is bereikt. Op dezelfde manier, zodra 100 totale indrukken worden bereikt, houdt de aanbieding op worden getoond aan alle gebruikers.
 
-Leer meer over [ het begrenzen regels ](items.md#capping).
+Leer meer over [&#x200B; het begrenzen regels &#x200B;](items.md#capping).
 
 +++
 
@@ -39,14 +39,14 @@ Leer meer over [ het begrenzen regels ](items.md#capping).
 
 +++**waarom zou ik een publiek aan een AI model toevoegen? Wat is het voordeel om publiek tegenover een volledige dataset toe te voegen? Zal het het model beperken of het model uitbreiden?**
 
-Wanneer het werken met AI modellen (specifiek [ gepersonaliseerde optimaliseringsmodellen ](ranking/personalized-optimization-model.md)):
+Wanneer het werken met AI modellen (specifiek [&#x200B; gepersonaliseerde optimaliseringsmodellen &#x200B;](ranking/personalized-optimization-model.md)):
 
 * **Datasets** worden toegevoegd om uw omzettingsgebeurtenissen (kliks, orden, opbrengst) te verzamelen. Dit zijn de resultaten die het model probeert te optimaliseren.
 * **Soorten publiek** worden toegevoegd om als voorspellende variabelen in het model worden gebruikt. Zij helpen voorspelling personaliseren om te proberen om kliks, orden, of opbrengst voor verschillende klantensegmenten te voorspellen.
 
 Zowel zijn datasets als publiek nodig voor het gepersonaliseerde optimaliseringsmodel om effectief te werken. Het publiek **beperkt noch breidt** model-in plaats daarvan uit, verstrekken zij extra context die het model helpt betere gepersonaliseerde besluiten maken.
 
-Leer meer over [ AI modellen ](ranking/ai-models.md).
+Leer meer over [&#x200B; AI modellen &#x200B;](ranking/ai-models.md).
 
 +++
 
@@ -69,7 +69,7 @@ Beide AI-modellen identificeren nieuwe aanbiedingen op de volgende trainingsreek
 
 Zodra beide modellen zijn geïdentificeerd, zullen zij onmiddellijk de nieuwe aanbiedingen aan sommige bezoekers gaan bedienen om hun prestaties te testen en gegevens over hun doeltreffendheid te verzamelen.
 
-Leer meer over [ auto-optimalisering ](ranking/auto-optimization-model.md) en [ gepersonaliseerde optimalisering ](ranking/personalized-optimization-model.md) modellen.
+Leer meer over [&#x200B; auto-optimalisering &#x200B;](ranking/auto-optimization-model.md) en [&#x200B; gepersonaliseerde optimalisering &#x200B;](ranking/personalized-optimization-model.md) modellen.
 
 +++
 
@@ -101,7 +101,7 @@ Standaard probeert het systeem geen gepersonaliseerde modellen te maken voor aan
 
 **Belangrijk**: In praktijk, hebben sommige klanten vele aanbiedingen (~300) in één enkel model, en sommige aanbiedingen kunnen zeer beperkende bedrijfsregels hebben. De absolute minima (250 indrukkingen/25 omzettingen per 30 dagen) vertegenwoordigen de laagste drempel die het systeem voor bouwmodellen kan steunen.
 
-Leer meer over [ vereisten van de gegevensinzameling ](data-collection/data-collection.md).
+Leer meer over [&#x200B; vereisten van de gegevensinzameling &#x200B;](data-collection/data-collection.md).
 
 +++
 
