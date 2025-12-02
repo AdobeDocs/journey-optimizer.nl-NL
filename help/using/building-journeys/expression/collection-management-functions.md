@@ -9,9 +9,9 @@ level: Experienced
 keywords: query, collecties, functies, lading, reis
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: e7693ba84d8806cf4b0dc10e8fdd18f2511e37ea
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '536'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 De uitdrukkingstaal introduceert ook een reeks functies aan vraaginzamelingen. Deze functies worden hieronder uitgelegd.
 
-In het volgende voorbeeld gebruiken we de gebeurtenislading die een verzameling bevat:
+In de volgende voorbeelden gebruiken we een gebeurtenis genaamd &quot;LobbyBeacon&quot; die een verzameling token voor pushmeldingen bevat. De voorbeelden op deze pagina gebruiken de hieronder getoonde structuur voor gebeurtenislading:
 
 ```json
                 { 
@@ -65,6 +65,10 @@ In het volgende voorbeeld gebruiken we de gebeurtenislading die een verzameling 
 }
 ```
 
+>[!NOTE]
+>
+>In de onderstaande voorbeelden wordt naar deze lading verwezen met behulp van `@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens}` , waarbij &quot;LobbyBeacon&quot; de naam van de gebeurtenis is en de rest van het pad overeenkomt met de hierboven getoonde structuur.
+
 ## De all(`<condition>`) functie
 
 De functie **[!UICONTROL all]** laat de definitie van een filter op een bepaalde inzameling toe door een booleaanse uitdrukking te gebruiken.
@@ -73,9 +77,13 @@ De functie **[!UICONTROL all]** laat de definitie van een filter op een bepaalde
 <listExpression>.all(<condition>)
 ```
 
-Zo kunt u onder alle gebruikers van de app de toepassingen ophalen met IOS 13 (Booleaanse expressie &quot;app used == IOS 13&quot;). Het resultaat van deze functie is de gefilterde lijst met items die overeenkomen met de booleaanse expressie (bijvoorbeeld: app-gebruiker 1, app-gebruiker 34, app-gebruiker 432).
+**Conceptueel voorbeeld:** Onder alle app gebruikers, kunt u degenen krijgen gebruikend IOS 13 (booleaanse uitdrukking &quot;gebruikte app == IOS 13&quot;). Het resultaat van deze functie is de gefilterde lijst met items die overeenkomen met de booleaanse expressie (bijvoorbeeld: app-gebruiker 1, app-gebruiker 34, app-gebruiker 432).
 
-Bij een Source Condition-activiteit van Data kunt u controleren of het resultaat van de functie **[!UICONTROL all]** null is of niet. U kunt deze **[!UICONTROL all]** functie ook combineren met andere functies, zoals **[!UICONTROL count]** . Voor meer informatie, zie [&#x200B; de activiteit van de Voorwaarde van Source van Gegevens &#x200B;](../condition-activity.md#data_source_condition).
+Bij een Source Condition-activiteit van Data kunt u controleren of het resultaat van de functie **[!UICONTROL all]** null is of niet. U kunt deze **[!UICONTROL all]** functie ook combineren met andere functies, zoals **[!UICONTROL count]** . Voor meer informatie, zie [ de activiteit van de Voorwaarde van Source van Gegevens ](../condition-activity.md#data_source_condition).
+
+**de voorbeelden van de Code die de nuttige lading gebruiken LobbyBeacon:**
+
+In de onderstaande voorbeelden wordt de gebeurtenislading boven aan deze pagina weergegeven.
 
 
 >[!CAUTION]
