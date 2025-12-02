@@ -7,9 +7,9 @@ feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: b70911f1f1fa00154729b5b88517233b67a377cb
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1474'
 ht-degree: 2%
 
 ---
@@ -18,10 +18,10 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [&#x200B; Grafieken en Beperkingen &#x200B;](gs-generative.md#generative-guardrails).
+>Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](gs-generative.md#generative-guardrails).
 ></br>
 >
->U moet met a [&#x200B; gebruikersovereenkomst &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u AI Medewerker in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u AI Medewerker in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 Met AI Assistant in Journey Optimizer kunt u aansprekende tekstinhoud genereren die op uw publiek lijkt. Of u het e-mailexemplaar moet verbeteren, dwingende Web-inhoud tot stand moet brengen, overredende het landen paginatekst, druk berichten, of de berichten van sms samenstellen, AI Medewerker helpt u onechte tekst leveren.
 
@@ -37,11 +37,11 @@ Voordat u tekstinhoud kunt genereren met AI Assistant, moet u eerst uw campagne 
 
    * **E-mail**: Na het creëren van en het vormen van uw e-mailcampagne, klik **[!UICONTROL Edit content]**. [Meer informatie](../email/create-email.md)
    * **Web**: Na het creëren van en het vormen van uw Web-pagina, klik **[!UICONTROL Edit web page]**. [Meer informatie](../web/create-web.md)
-   * **het Bestaan Pagina**: Na het creëren van en het vormen van uw het landen pagina, klik **[!UICONTROL Edit content]**. [Meer informatie](../landing-pages/create-lp.md)
+   * **het Bestaan Pagina**: Na het creëren van en het vormen van uw het landen pagina, klik **[!UICONTROL Open designer]**. [Meer informatie](../landing-pages/create-lp.md)
 
 1. Selecteer een **[!UICONTROL Text component]** als u alleen een specifieke inhoud als doel wilt instellen en het menu **[!UICONTROL AI Assistant]** (of **[!UICONTROL Show AI Assistant]** voor het web) wilt openen.
 
-   ![&#x200B; component van de Tekst die met geopend AI Hulpmenu wordt geselecteerd &#x200B;](assets/text-genai-1.png){zoomable="yes"}
+   ![ component van de Tekst die met geopend AI Hulpmenu wordt geselecteerd ](assets/text-genai-1.png){zoomable="yes"}
 
 ### Inhoud genereren {#generate-content}
 
@@ -49,13 +49,13 @@ Leer hoe u duidelijke aanwijzingen maakt, instellingen nauwkeurig afstemt en op 
 
 1. Schakel de optie **[!UICONTROL Use original content]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
-1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [&#x200B; leer meer &#x200B;](brands.md) op Banden.
+1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
    Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang **[!UICONTROL Prompt Library]** die een diverse waaier van snelle ideeën verstrekt om uw campagnes te verbeteren.
 
-   ![&#x200B; AI Hulpdeelvenster van de tekstgeneratie met het gebied van de Vraag en de selecteur van het Merk &#x200B;](assets/text-genai-2.png){zoomable="yes"}
+   ![ AI Hulpdeelvenster van de tekstgeneratie met het gebied van de Vraag en de selecteur van het Merk ](assets/text-genai-2.png){zoomable="yes"}
 
 1. Volg uw vraag met de optie **[!UICONTROL Text settings]** :
 
@@ -64,13 +64,13 @@ Leer hoe u duidelijke aanwijzingen maakt, instellingen nauwkeurig afstemt en op 
    * **[!UICONTROL Tone]**: De toon zou met uw publiek moeten resoneren. Of u informatief wilt klinken, playful, of overtuigend, AI Medewerker kan het bericht dienovereenkomstig aanpassen.
    * **Lengte van de Tekst**: Gebruik de schuif om de gewenste lengte van uw tekst te selecteren.
 
-   ![&#x200B; de montages van de Tekst uitgevouwen het tonen van opties &#x200B;](assets/text-genai-4.png){zoomable="yes"}
+   ![ de montages van de Tekst uitgevouwen het tonen van opties ](assets/text-genai-4.png){zoomable="yes"}
 
 1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om een merkelement toe te voegen dat inhoud bevat die extra context-AI-assistent kan bieden of selecteer een eerder geüpload element.
 
    Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel eenvoudig de elementen in die u wilt opnemen in uw generatie.
 
-   ![&#x200B; Merk activa dropdown menu &#x200B;](assets/text-genai-3.png){zoomable="yes"}
+   ![ Merk activa dropdown menu ](assets/text-genai-3.png){zoomable="yes"}
 
 1. Klik op **[!UICONTROL Generate]** als de vraag gereed is.
 
@@ -84,9 +84,9 @@ Leer hoe u de gegenereerde tekst kunt reviseren, verfijningen kunt aanbrengen en
 
 1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
 
-   Leer meer op [&#x200B; de groeperingsscore van het Merk &#x200B;](brands-score.md).
+   Leer meer op [ de groeperingsscore van het Merk ](brands-score.md).
 
-   ![&#x200B; Gegenereerde tekstvariaties met de Score van de Uitlijning van het Merk &#x200B;](assets/text-genai-6.png){zoomable="yes"}
+   ![ Gegenereerde tekstvariaties met de Score van de Uitlijning van het Merk ](assets/text-genai-6.png){zoomable="yes"}
 
 1. Navigeer naar de optie **[!UICONTROL Refine]** in het **[!UICONTROL Preview]** -venster voor toegang tot extra aanpassingsfuncties:
 
@@ -100,9 +100,9 @@ Leer hoe u de gegenereerde tekst kunt reviseren, verfijningen kunt aanbrengen en
 
    * **[!UICONTROL Change Communication strategy]**: wijzig de berichtenbenadering op basis van uw doelstellingen, zoals het creëren van urgentie, of het benadrukken van opwindende aantrekkingskracht.
 
-   ![&#x200B; verfijnen optiemenu &#x200B;](assets/text-genai-5.png){zoomable="yes"}
+   ![ verfijnen optiemenu ](assets/text-genai-5.png){zoomable="yes"}
 
-1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [&#x200B; merkrichtlijnen &#x200B;](brands.md) richt.
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](brands.md) richt.
 
 1. Klik op **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 
@@ -130,15 +130,15 @@ Voordat u begint met het genereren van tekst met AI Assistant voor mobiele kanal
 1. Vul **[!UICONTROL Basic details]** in voor uw campagne. Klik op **[!UICONTROL Edit content]** als u klaar bent.
 
 1. Pas uw bericht naar wens aan:
-   * **duw berichten**: [&#x200B; Leer meer &#x200B;](../push/design-push.md)
-   * **SMS**: [&#x200B; Leer meer &#x200B;](../sms/create-sms.md)
+   * **duw berichten**: [ Leer meer ](../push/design-push.md)
+   * **SMS**: [ Leer meer ](../sms/create-sms.md)
 
 1. AI-assistent openen:
-   * **voor Push berichten**: Klik het **[!UICONTROL Edit text with AI Assistant]** menu naast uw **[!UICONTROL Title]** of **[!UICONTROL Message]** gebieden.
+   * **voor Push berichten**: Klik het **[!UICONTROL Edit text with AI Assistant]** menu naast uw **[!UICONTROL Title]** of **[!UICONTROL Message]** gebieden. U kunt tot het **AI hulp** menu ook direct toegang hebben.
 
-     ![&#x200B; het samenstellingsscherm van het pushbericht met Edit tekst met AI Hulp knoop &#x200B;](assets/push-genai-1.png){zoomable="yes"}
+     ![ het samenstellingsscherm van het pushbericht met Edit tekst met AI Hulp knoop ](assets/push-text-1.png){zoomable="yes"}
 
-   * **voor SMS**: Heb toegang tot het **[!UICONTROL Show AI Assistant]** menu.
+   * **voor SMS**: Klik het **[!UICONTROL Edit text with AI Assistant]** menu naast uw **[!UICONTROL Message]** of toegang tot het **[!UICONTROL Show AI Assistant]** menu.
 
      {het bericht van SMS van 0} redacteur met AI Hulp geopend paneel ![](assets/sms-genai-1.png){zoomable="yes"}
 
@@ -146,32 +146,29 @@ Voordat u begint met het genereren van tekst met AI Assistant voor mobiele kanal
 
 Zodra u de Medewerker van AI hebt betreden, kunt u de generatie montages vormen om mobiele inhoud tot stand te brengen die uw merk en campagnedoelstellingen aanpast. Pas tekstparameters aan, voeg merkelementen toe en geef instructies om AI te begeleiden bij het genereren van relevante variaties.
 
-1. Schakel de optie **[!UICONTROL Use reference content]** (for push) of **[!UICONTROL Use original content]** (for SMS) voor AI Assistant in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
-
-1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [&#x200B; leer meer &#x200B;](brands.md) op Banden.
+1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
 
    Merk op dat de eigenschap van Merken als privé bèta wordt vrijgegeven en aan alle klanten in toekomstige versies geleidelijk beschikbaar zal zijn.
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
-   Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang **[!UICONTROL Prompt Library]** die een diverse waaier van snelle ideeën verstrekt om uw campagnes te verbeteren. [&#x200B; Leer meer op snelle beste praktijken &#x200B;](ai-assistant-prompting-guide.md)
+   Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang **[!UICONTROL Prompt Library]** die een diverse waaier van snelle ideeën verstrekt om uw campagnes te verbeteren. [ Leer meer op snelle beste praktijken ](ai-assistant-prompting-guide.md)
 
-   ![&#x200B; AI Medewerker met het gebied en de opties van de Vragen &#x200B;](assets/push-genai-2.png){zoomable="yes"}
+   ![ AI Medewerker met het gebied en de opties van de Vragen ](assets/push-genai-2.png){zoomable="yes"}
+
+1. **voor het Push- bericht**, kies welk gebied u wilt produceren: Titel en/of Bericht.
 
 1. Volg uw vraag met de optie **[!UICONTROL Text settings]** :
 
    * **[!UICONTROL Communication strategy]**: Kies de meest geschikte communicatiestijl voor de gegenereerde tekst.
    * **[!UICONTROL Languages]**: kies de taal van de gegenereerde inhoud.
    * **[!UICONTROL Tone]**: De toon zou met uw publiek moeten resoneren. Of u informatief wilt klinken, playful, of overtuigend, AI Medewerker kan het bericht dienovereenkomstig aanpassen.
-   * **[!UICONTROL Length]**: selecteer de lengte van de inhoud met de schuifregelaar voor het bereik.
 
-   ![&#x200B; het instellingenpaneel van de Tekst &#x200B;](assets/push-genai-4.png){zoomable="yes"}
+     ![ het instellingenpaneel van de Tekst ](assets/push-genai-4.png){zoomable="yes"}
 
-1. Kies bij Push het veld dat u wilt genereren: Titel en/of Bericht.
+1. Klik in het menu **[!UICONTROL Reference content]** op **[!UICONTROL Upload file]** om een merkelement toe te voegen dat inhoud bevat die extra context-AI-assistent kan bieden of selecteer een eerder geüpload element.
 
-1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om een merkelement toe te voegen dat inhoud bevat die extra context-AI-assistent kan bieden of selecteer een eerder geüpload element.
-
-   Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel eenvoudig de elementen in die u wilt opnemen in uw generatie.
+   Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded reference content]** . Schakel eenvoudig de elementen in die u wilt opnemen in uw generatie.
 
 1. Klik op **[!UICONTROL Generate]** als de vraag gereed is.
 
@@ -181,13 +178,13 @@ Nadat u tekstvariaties voor uw mobiele berichten hebt gegenereerd, kunt u de res
 
 1. Blader na het genereren door de **[!UICONTROL Variations]** .
 
-   Klik op **[!UICONTROL Preview]** om een schermvullende versie van de geselecteerde variant weer te geven of klik op **[!UICONTROL Apply]** om de huidige inhoud te vervangen.
-
 1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
 
-   Leer meer op [&#x200B; de groeperingsscore van het Merk &#x200B;](brands-score.md).
+   Leer meer op [ de groeperingsscore van het Merk ](brands-score.md).
 
-   ![&#x200B; Gegenereerde tekstvariaties met de Score van de Uitlijning van het Merk &#x200B;](assets/push-genai-5.png){zoomable="yes"}
+   ![ Gegenereerde tekstvariaties met de Score van de Uitlijning van het Merk ](assets/push-genai-5.png){zoomable="yes"}
+
+1. Klik op **[!UICONTROL Preview]** om een schermvullende versie van de geselecteerde variant weer te geven of klik op **[!UICONTROL Apply]** om de huidige inhoud te vervangen.
 
 1. Navigeer naar de optie **[!UICONTROL Refine]** in het **[!UICONTROL Preview]** -venster voor toegang tot extra aanpassingsfuncties:
 
@@ -197,13 +194,15 @@ Nadat u tekstvariaties voor uw mobiele berichten hebt gegenereerd, kunt u de res
 
    * **[!UICONTROL Use simpler language]**: Gebruik AI Assistant om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
 
+   * **[!UICONTROL Translate]**: Vereenvoudig uw taal voor meer duidelijkheid en toegankelijkheid voor een groter publiek.
+
    * **[!UICONTROL Change tone]**: pas de toon van het bericht aan om uw communicatie stijl beter aan te passen, d.w.z. het vriendelijker, professioneel, dringend, of inspirerend te maken.
 
    * **[!UICONTROL Change Communication strategy]**: wijzig de berichtenbenadering op basis van uw doelstellingen, zoals het creëren van urgentie, of het benadrukken van opwindende aantrekkingskracht.
 
-   ![&#x200B; verfijnen menu &#x200B;](assets/push-genai-6.png){zoomable="yes"}
+     ![ verfijnen menu ](assets/push-genai-6.png){zoomable="yes"}
 
-1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [&#x200B; merkrichtlijnen &#x200B;](brands.md) richt.
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](brands.md) richt.
 
 1. Klik op **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 

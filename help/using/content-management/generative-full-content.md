@@ -7,9 +7,9 @@ feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: b70911f1f1fa00154729b5b88517233b67a377cb
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1699'
 ht-degree: 1%
 
 ---
@@ -18,10 +18,10 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [&#x200B; Grafieken en Beperkingen &#x200B;](gs-generative.md#generative-guardrails).
+>Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](gs-generative.md#generative-guardrails).
 ></br>
 >
->U moet met a [&#x200B; gebruikersovereenkomst &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u AI Medewerker in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u AI Medewerker in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 Met AI Assistant in Journey Optimizer kunt u volledige inhoud genereren via uw e-mail-, web-, landingspagina&#39;s en pushberichtkanalen. Met AI Assistant kunt u de impact van uw leveringen optimaliseren door uitgebreide inhoud te maken die aansluit bij uw publiek.
 
@@ -36,25 +36,23 @@ Voordat u inhoud gaat maken met AI Assistant, moet u eerst uw campagne of reis i
 1. Maak en configureer uw campagne of reis:
    * **E-mail**: Na het creëren van en het vormen van uw e-mailcampagne, klik **[!UICONTROL Edit content]**. [Meer informatie](../campaigns/create-campaign.md)
    * **Web**: Na het creëren van en het vormen van uw Web-pagina, klik **[!UICONTROL Edit web page]**. [Meer informatie](../web/create-web.md)
-   * **het Bestaan Pagina**: Na het creëren van en het vormen van uw het landen pagina, klik **[!UICONTROL Edit content]**. [Meer informatie](../landing-pages/create-lp.md)
+   * **het Bestaan Pagina**: Na het creëren van en het vormen van uw het landen pagina, klik **[!UICONTROL Open designer]**. [Meer informatie](../landing-pages/create-lp.md)
 
-1. Pas de layout naar wens aan en open het menu **[!UICONTROL AI Assistant]** .
+1. Selecteer **[!UICONTROL AI Assistant]** (of **[!UICONTROL Show Content Assistant]** voor web) in het rechtermenu.
 
-   ![&#x200B; AI Medewerker paneel die merkselectie en snel gebied tonen &#x200B;](assets/full-email-1.png){zoomable="yes"}
+   ![ AI Medewerker paneel die merkselectie en snel gebied tonen ](assets/full-email-1.png){zoomable="yes"}
 
 ### Inhoud genereren {#generate-content}
 
 Met de open Medewerker van AI, kunt u de generatie montages nu vormen om inhoud tot stand te brengen die uw merk en campagnedoelstellingen aanpast. Pas tekst- en afbeeldingsparameters aan, voeg merkelementen toe en geef de AI aanwijzingen om relevante variaties voor uw publiek te genereren.
 
-1. Schakel de optie **[!UICONTROL Use original content]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
-
-1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [&#x200B; leer meer &#x200B;](brands.md) op Banden.
+1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
-   Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang **[!UICONTROL Prompt Library]** die een diverse waaier van snelle ideeën verstrekt om uw campagnes te verbeteren. [&#x200B; Leer meer op snelle beste praktijken &#x200B;](ai-assistant-prompting-guide.md)
+   Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang **[!UICONTROL Prompt Library]** die een diverse waaier van snelle ideeën verstrekt om uw campagnes te verbeteren. [ Leer meer op snelle beste praktijken ](ai-assistant-prompting-guide.md)
 
-   ![&#x200B; Prompt gebied met de knoop van de Bibliotheek van de Vragen &#x200B;](assets/full-email-2.png){zoomable="yes"}
+   ![ Prompt gebied met de knoop van de Bibliotheek van de Vragen ](assets/full-email-2.png){zoomable="yes"}
 
 1. **voor E-mail**, kunt u **[!UICONTROL Subject line]** en **[!UICONTROL Preheader]** opties van een knevel voorzien om hen in de variantgeneratie te omvatten.
 
@@ -64,7 +62,7 @@ Met de open Medewerker van AI, kunt u de generatie montages nu vormen om inhoud 
    * **[!UICONTROL Languages]**: kies de taal van de gegenereerde inhoud.
    * **[!UICONTROL Tone]**: De toon zou met uw publiek moeten resoneren. Of u informatief wilt klinken, playful, of overtuigend, AI Medewerker kan het bericht dienovereenkomstig aanpassen.
 
-   ![&#x200B; het instellingenpaneel van de Tekst die Communicatie strategie, Talen, en de opties van de Tint tonen &#x200B;](assets/full-email-4.png){zoomable="yes"}
+     ![ het instellingenpaneel van de Tekst die Communicatie strategie, Talen, en de opties van de Tint tonen ](assets/full-email-4.png){zoomable="yes"}
 
 1. Kies uw **[!UICONTROL Image settings]** :
 
@@ -74,13 +72,13 @@ Met de open Medewerker van AI, kunt u de generatie montages nu vormen om inhoud 
    * **[!UICONTROL Lighting]**: hiermee wordt de bliksemschicht in een afbeelding bedoeld, die de atmosfeer van de afbeelding bepaalt en specifieke elementen markeert.
    * **[!UICONTROL Composition]**: dit heeft betrekking op de rangschikking van elementen binnen het kader van een afbeelding
 
-   ![&#x200B; het montagespaneel van het Beeld tonend Inhoudstype, Visuele intensiteit, Kleur en toon, Belichting, en de opties van de Samenstelling &#x200B;](assets/full-email-6.png){zoomable="yes"}
+     ![ het montagespaneel van het Beeld tonend Inhoudstype, Visuele intensiteit, Kleur en toon, Belichting, en de opties van de Samenstelling ](assets/full-email-6.png){zoomable="yes"}
 
-1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om een merkelement toe te voegen dat inhoud bevat die extra context-AI-assistent kan bieden of selecteer een eerder geüpload element.
+1. Klik in het menu **[!UICONTROL Reference content]** op **[!UICONTROL Upload file]** om een merkelement toe te voegen dat inhoud bevat die extra context-AI-assistent kan bieden of selecteer een eerder geüpload element.
 
-   Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel eenvoudig de elementen in die u wilt opnemen in uw generatie.
+   Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded reference content]** . Schakel eenvoudig de elementen in die u wilt opnemen in uw generatie.
 
-   ![&#x200B; de activasectie van het Merk met de knoop van de Activa van het brandmerk van de Upload &#x200B;](assets/full-email-3.png){zoomable="yes"}
+   ![ de activasectie van het Merk met de knoop van de Activa van het brandmerk van de Upload ](assets/full-email-3.png){zoomable="yes"}
 
 1. Klik op **[!UICONTROL Generate]** als de vraag gereed is.
 
@@ -88,13 +86,15 @@ Met de open Medewerker van AI, kunt u de generatie montages nu vormen om inhoud 
 
 Nadat u variaties in de inhoud hebt gegenereerd, kunt u de resultaten perfectioneren om ervoor te zorgen dat deze precies aan uw vereisten voldoen. Bekijk de uitlijning van het merk, pas de toon en de taal aan en bereid de inhoud voor activering in uw campagne of reis.
 
-1. Blader na het genereren door **[!UICONTROL Variations]** en klik op **[!UICONTROL Preview]** om een versie op volledig scherm van de geselecteerde variant weer te geven of op **[!UICONTROL Apply]** om de huidige inhoud te vervangen.
+1. Blader na het genereren door de **[!UICONTROL Variations]** .
 
 1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
 
-   Leer meer op [&#x200B; de groeperingsscore van het Merk &#x200B;](brands-score.md).
+   Leer meer op [ de groeperingsscore van het Merk ](brands-score.md).
 
-   ![&#x200B; het paneel van de Score van de Uitlijning van het Merk die percentagescore &#x200B;](assets/full-email-7.png){zoomable="yes"} tonen
+   ![ het paneel van de Score van de Uitlijning van het Merk die percentagescore ](assets/full-email-7.png){zoomable="yes"} tonen
+
+1. Klik op **[!UICONTROL Preview]** om een schermvullende versie van de geselecteerde variant weer te geven of op **[!UICONTROL Apply]** om de huidige inhoud te vervangen.
 
 1. Navigeer naar de optie **[!UICONTROL Refine]** in het **[!UICONTROL Preview]** -venster voor toegang tot extra aanpassingsfuncties:
 
@@ -102,13 +102,15 @@ Nadat u variaties in de inhoud hebt gegenereerd, kunt u de resultaten perfection
 
    * **[!UICONTROL Use simpler language]**: Gebruik AI Assistant om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
 
+   * **[!UICONTROL Translate]**: Vereenvoudig uw taal voor meer duidelijkheid en toegankelijkheid voor een groter publiek.
+
    * **[!UICONTROL Change tone]**: pas de toon van het bericht aan om uw communicatie stijl beter aan te passen, d.w.z. het vriendelijker, professioneel, dringend, of inspirerend te maken.
 
    * **[!UICONTROL Change Communication strategy]**: wijzig de berichtenbenadering op basis van uw doelstellingen, zoals het creëren van urgentie, of het benadrukken van opwindende aantrekkingskracht.
 
-   ![&#x200B; verfijnen menu tonend opties &#x200B;](assets/full-email-5.png){zoomable="yes"}
+     ![ verfijnen menu tonend opties ](assets/full-email-5.png){zoomable="yes"}
 
-1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [&#x200B; merkrichtlijnen &#x200B;](brands.md) richt.
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](brands.md) richt.
 
 1. Klik op **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 
@@ -132,7 +134,7 @@ Als u AI Assistant wilt gebruiken voor pushberichten, moet u eerst de pushcampag
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de pushmeldingscampagne hebt gemaakt en geconfigureerd.
 
-   Voor meer informatie over hoe te om uw campagne van het pushbericht te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../push/create-push.md).
+   Voor meer informatie over hoe te om uw campagne van het pushbericht te vormen, verwijs naar [ deze pagina ](../push/create-push.md).
 
 1. Vul **[!UICONTROL Basic details]** in voor uw campagne. Klik op **[!UICONTROL Edit content]** als u klaar bent.
 
@@ -140,7 +142,7 @@ Als u AI Assistant wilt gebruiken voor pushberichten, moet u eerst de pushcampag
 
 1. Open het menu **[!UICONTROL Show AI Assistant]** .
 
-   ![&#x200B; de redacteur van het pushbericht met AI Hulp geopend paneel &#x200B;](assets/push-genai-full-1.png){zoomable="yes"}
+   ![ de redacteur van het pushbericht met AI Hulp geopend paneel ](assets/push-genai-full-1.png){zoomable="yes"}
 
 ### Inhoud genereren {#mobile-generate-content}
 
@@ -148,7 +150,7 @@ Als u AI Assistant hebt geopend voor pushberichten, kunt u de instellingen voor 
 
 1. Schakel de optie **[!UICONTROL Use original content]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
-1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [&#x200B; leer meer &#x200B;](brands.md) op Banden.
+1. Selecteer **[!UICONTROL Brand]** om te zorgen dat door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk. [ leer meer ](brands.md) op Banden.
 
    Merk op dat de eigenschap van Merken als privé bèta wordt vrijgegeven en aan alle klanten in toekomstige versies geleidelijk beschikbaar zal zijn.
 
@@ -156,7 +158,7 @@ Als u AI Assistant hebt geopend voor pushberichten, kunt u de instellingen voor 
 
    Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang **[!UICONTROL Prompt Library]** die een diverse waaier van snelle ideeën verstrekt om uw campagnes te verbeteren.
 
-   ![&#x200B; AI Medewerker met het gebied en de opties van de Vragen &#x200B;](assets/push-genai-full-2.png){zoomable="yes"}
+   ![ AI Medewerker met het gebied en de opties van de Vragen ](assets/push-genai-full-2.png){zoomable="yes"}
 
 1. Kies welk veld u wilt genereren: **[!UICONTROL Title]** , **[!UICONTROL Message]** en/of **[!UICONTROL Image]** .
 
@@ -166,7 +168,7 @@ Als u AI Assistant hebt geopend voor pushberichten, kunt u de instellingen voor 
    * **[!UICONTROL Languages]**: kies de taal van de gegenereerde inhoud.
    * **[!UICONTROL Tone]**: De toon van uw pushberichten zou met uw publiek moeten resoneren. Of u informatief wilt klinken, playful, of overtuigend, AI Medewerker kan het bericht dienovereenkomstig aanpassen.
 
-   ![&#x200B; het instellingenpaneel van de Tekst voor dupberichten &#x200B;](assets/push-genai-full-3.png){zoomable="yes"}
+     ![ het instellingenpaneel van de Tekst voor dupberichten ](assets/push-genai-full-3.png){zoomable="yes"}
 
 1. Kies uw **[!UICONTROL Image settings]** :
 
@@ -176,11 +178,11 @@ Als u AI Assistant hebt geopend voor pushberichten, kunt u de instellingen voor 
    * **[!UICONTROL Lighting]**: hiermee wordt de bliksemschicht in een afbeelding bedoeld, die de atmosfeer van de afbeelding bepaalt en specifieke elementen markeert.
    * **[!UICONTROL Composition]**: dit heeft betrekking op de rangschikking van elementen binnen het kader van een afbeelding
 
-   ![&#x200B; montages van het Beeld voor duw berichten &#x200B;](assets/push-genai-full-5.png){zoomable="yes"}
+     ![ montages van het Beeld voor duw berichten ](assets/push-genai-full-5.png){zoomable="yes"}
 
-1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om een merkelement toe te voegen dat inhoud bevat die extra context-AI-assistent kan bieden of selecteer een eerder geüpload element.
+1. Klik in het menu **[!UICONTROL Reference content]** op **[!UICONTROL Upload file]** om een merkelement toe te voegen dat inhoud bevat die extra context-AI-assistent kan bieden of selecteer een eerder geüpload element.
 
-   Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel eenvoudig de elementen in die u wilt opnemen in uw generatie.
+   Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded reference content]** . Schakel eenvoudig de elementen in die u wilt opnemen in uw generatie.
 
 1. Klik op **[!UICONTROL Generate]** als de vraag gereed is.
 
@@ -192,9 +194,9 @@ Nadat u de gegenereerde variaties van pushmeldingen hebt bekeken, kunt u de inho
 
 1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
 
-   Leer meer op [&#x200B; de groeperingsscore van het Merk &#x200B;](brands-score.md).
+   Leer meer op [ de groeperingsscore van het Merk ](brands-score.md).
 
-   ![&#x200B; Gegenereerde variaties van het dupbericht met de Score van de Uitlijning van het Merk &#x200B;](assets/push-genai-full-4.png){zoomable="yes"}
+   ![ Gegenereerde variaties van het dupbericht met de Score van de Uitlijning van het Merk ](assets/push-genai-full-4.png){zoomable="yes"}
 
 1. Klik op **[!UICONTROL Preview]** om een schermvullende versie van de geselecteerde variant weer te geven of klik op **[!UICONTROL Apply]** om de huidige inhoud te vervangen.
 
@@ -210,9 +212,9 @@ Nadat u de gegenereerde variaties van pushmeldingen hebt bekeken, kunt u de inho
 
    * **[!UICONTROL Change Communication strategy]**: wijzig de berichtenbenadering op basis van uw doelstellingen, zoals het creëren van urgentie, of het benadrukken van opwindende aantrekkingskracht.
 
-   ![&#x200B; verfijnen opties voor dupberichten &#x200B;](assets/push-genai-full-6.png){zoomable="yes"}
+     ![ verfijnen opties voor dupberichten ](assets/push-genai-full-6.png){zoomable="yes"}
 
-1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [&#x200B; merkrichtlijnen &#x200B;](brands.md) richt.
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](brands.md) richt.
 
 1. Klik op **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 
