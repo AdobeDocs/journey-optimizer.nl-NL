@@ -76,6 +76,6 @@ Ontdek de gedetailleerde stappen om een Webcampagne in [&#x200B; tot stand te br
 * **[beheert Webwijzigingen](manage-web-modifications.md)** - Leer hoe te, wijzigingen over uw Webervaringen te organiseren, toe te passen en te beheren.
 * **[het Webervaringen van de Monitor](monitor-web-experiences.md)** - Spoor en analyseer de prestaties van uw Webcampagnes met gedetailleerde rapportering.
 * **[produceer Web-inhoud met Medewerker AI](../content-management/generative-full-content.md)** - hefboomwerking AI om Web-inhoud met tekst en beelden tot stand te brengen en te optimaliseren.
-* **[de campagneleerprogramma&#39;s van het Web &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op de eigenschappen van het Webkanaal en beste praktijken.
+* **[de campagneleerprogramma&#39;s van het Web &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op de eigenschappen van het Webkanaal en beste praktijken.
 
 
