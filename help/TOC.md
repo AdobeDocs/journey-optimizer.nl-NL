@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '2995'
+source-wordcount: '2988'
 ht-degree: 16%
 
 ---
@@ -475,12 +475,10 @@ ht-degree: 16%
       + [AI Assistant voor het genereren van inhoud](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [Aan de slag met AI Assistant](using/content-management/gs-generative.md)
       + [AI snelle beste praktijken](using/content-management/ai-assistant-prompting-guide.md)
-      + [E-mailgeneratie met AI](using/content-management/generative-email.md)
-      + [Push generation met AI](using/content-management/generative-push.md)
-      + [SMS genereren met AI](using/content-management/generative-sms.md)
-      + [Web genereren met AI](using/content-management/generative-web.md)
+      + [Volledige inhoud genereren met AI](using/content-management/generative-full-content.md)
+      + [Tekst met AI genereren](using/content-management/generative-text.md)
+      + [Afbeeldingen genereren met AI](using/content-management/generative-image.md)
       + [Experimenteer met inhoud met AI](using/content-management/generative-experimentation.md)
-      + [Openingspagina met AI](using/content-management/generative-lp.md)
       + [Gebruiksgevallen van AI Assistant](using/content-management/generative-uc.md)
       + Merken {#brands}
          + [Merken](/help/rp_landing_pages/brands-landing-page.md)
@@ -826,7 +824,7 @@ ht-degree: 16%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}

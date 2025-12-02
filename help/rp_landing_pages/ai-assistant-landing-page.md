@@ -5,9 +5,9 @@ title: AI Assistant voor het genereren van inhoud
 description: AI Assistant voor het genereren van inhoud
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ De AI Assistant van Adobe Journey Optimizer verandert het maken van inhoud door 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met AI Assistant
 
@@ -30,53 +30,33 @@ Leer hoe u toegang krijgt tot de AI Assistant-functie en deze configureert om de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
-Genereren van e-mailinhoud met AI
+Volledige inhoud genereren
 
-Ontdek hoe u met AI Assistant e-mailinhoud kunt ontwerpen, aanpassen en optimaliseren met uitlijning van het merk.
+Ontdek hoe u met AI Assistant volledige inhoud kunt maken, inclusief tekst en afbeeldingen voor e-mails, pushmeldingen, webpagina&#39;s en bestemmingspagina&#39;s.
 
-[Meer informatie over e-mailgeneratie](../using/content-management/generative-email.md)
+[Meer informatie over het genereren van volledige inhoud](../using/content-management/generative-full-content.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/message.svg)
 
-Inhoud voor pushmelding genereren
+Alleen tekst genereren
 
-Maak en personaliseer inhoud voor pushmeldingen met AI, inclusief tekst en afbeeldingen, uitgelijnd op uw merk.
+Met AI Assistant kunt u tekstinhoud voor alle kanalen genereren en verfijnen, inclusief e-mail, SMS, pushmeldingen, webpagina&#39;s en bestemmingspagina&#39;s.
 
-[Pushmeldingen genereren](../using/content-management/generative-push.md)
+[Tekst genereren verkennen](../using/content-management/generative-text.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/image.svg)
 
-SMS-inhoud genereren met AI
+Alleen afbeeldingen genereren
 
-Gebruik AI Assistant om SMS-inhoud te genereren en te verfijnen die bij uw publiek past en die voldoet aan de richtlijnen van het merk.
+Maak en pas afbeeldingen aan met AI Assistant voor gebruik op e-mail-, push-berichten-, webpagina&#39;s- en landingspagina&#39;s.
 
-[Ontdek de generatie van SMS](../using/content-management/generative-sms.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=nl-NL)
-
-Inhoud van webpagina en genereren van middelen
-
-Verbeter de inhoud en de weergave van webpagina&#39;s met AI Assistant en zorg ervoor dat de pagina wordt uitgelijnd op de richtlijnen voor merken.
-
-[Webpagina-inhoud genereren](../using/content-management/generative-web.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg?lang=nl-NL)
-
-Openingspagina genereren met AI
-
-Maak en verfijn de inhoud en elementen van de bestemmingspagina, waaronder tekst en visuele elementen, om de betrokkenheid te vergroten.
-
-[Landingspagina&#39;s genereren](../using/content-management/generative-lp.md)
+[Afbeeldingen genereren](../using/content-management/generative-image.md)
 :::
 
 ::::

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: e-mail, starten, maken, voorvertonen
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 7%
@@ -27,9 +27,9 @@ Gebruik [!DNL Journey Optimizer] om e-mailberichten naar uw klanten te verzenden
 
 E-mailleveringen kunnen worden gemaakt:
 
-* In a **Weg**: zodra u een **[!UICONTROL Email]** activiteit aan uw reis toevoegde, en bepaalde basismontages, gebruik de **[!UICONTROL Actions: Email]** juiste ruit om de inhoud voor het bericht tot stand te brengen. [&#x200B; leer hoe te om een reis &#x200B;](../building-journeys/journey-gs.md) tot stand te brengen
+* In a **Weg**: zodra u een **[!UICONTROL Email]** activiteit aan uw reis toevoegde, en bepaalde basismontages, gebruik de **[!UICONTROL Actions: Email]** juiste ruit om de inhoud voor het bericht tot stand te brengen. [ leer hoe te om een reis ](../building-journeys/journey-gs.md) tot stand te brengen
 
-* In a **Campagne**: Zodra u een campagne creeerde, selecteer **[!UICONTROL Email]** als uw actie en bepaal basismontages. Leer hoe te om [&#x200B; een actiecampagne &#x200B;](../campaigns/campaign-action.md#action-campaign-action) te creëren | [&#x200B; een API-teweeggebrachte campagne &#x200B;](../campaigns/api-triggered-campaigns.md) | [&#x200B; een georkestreerde campagne &#x200B;](../orchestrated/create-orchestrated-campaign.md#create)
+* In a **Campagne**: Zodra u een campagne creeerde, selecteer **[!UICONTROL Email]** als uw actie en bepaal basismontages. Leer hoe te om [ een actiecampagne ](../campaigns/campaign-action.md#action-campaign-action) te creëren | [ een API-teweeggebrachte campagne ](../campaigns/api-triggered-campaigns.md) | [ een georkestreerde campagne ](../orchestrated/create-orchestrated-campaign.md#create)
 
 
 >[!IMPORTANT]
@@ -75,10 +75,10 @@ E-mailleveringen kunnen worden gemaakt:
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="../content-management/generative-email.md">
+<a href="../content-management/generative-full-content.md">
 <img alt="AI-assistent" src="../assets/do-not-localize/email-generate.jpg">
 </a>
-<div><a href="../content-management/generative-email.md"><strong> AI Medewerker voor de Generatie van de Inhoud </strong>
+<div><a href="../content-management/generative-full-content.md"><strong> AI Medewerker voor de Generatie van de Inhoud </strong>
 </div>
 <p>
 </td>
@@ -117,4 +117,4 @@ E-mailleveringen kunnen worden gemaakt:
 * **[E-mailconfiguratie](get-started-email-config.md)** - begrijp hoe te om e-mailmontages met inbegrip van e-mailoppervlakken, subdomeinen, en IP pools te vormen.
 * **[Verpersoonlijking E-mail en het stileren](get-started-email-style.md)** - Hoofd het stileren technieken met inbegrip van douane CSS, groepering, het opvullen, en donkere wijzessteun.
 * **[Spoor en controleer e-mails](message-tracking.md)** - Leer hoe te om bericht te volgen opent, klikt, en URL het volgen voor prestatiesanalyse beheert.
-* **[e-mailkanaalzelfstudies &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op e-maileigenschappen en beste praktijken.
+* **[e-mailkanaalzelfstudies ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op e-maileigenschappen en beste praktijken.
