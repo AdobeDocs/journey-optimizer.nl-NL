@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
+source-git-commit: ca6f722c93fffe0cebcddb4f730f23d9a720ef9d
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '868'
 ht-degree: 7%
 
 ---
@@ -63,7 +63,7 @@ Zie de tabel hieronder voor meer informatie over de specifieke redenen voor uits
 | InAppNoVariantDefined | 050041 | InApp | Er wordt een uitsluitingsgebeurtenis gegenereerd wanneer geen variant wordt gedefinieerd voor InApp-bericht. |
 | InAppNoMessageFoundForTreatment | 050042 | InApp | Er wordt een uitsluitingsgebeurtenis gegenereerd wanneer het experiment is ingeschakeld voor het bericht en er geen bericht wordt gevonden voor de gekwalificeerde behandeling. |
 | PushNoTokenFoundInProfile | 050030 | Push | Er wordt een uitsluitingsgebeurtenis gegenereerd wanneer het profiel geen pushtokens heeft. |
-| PushNoValidTokenFoundForApps | 050031 | Push | Er wordt een uitsluitingsgebeurtenis gegenereerd wanneer er geen geldig token wordt gevonden voor de beoogde apps in de configuratie. |
+| PushNoValidTokenFoundForApps | 050031 | Push | Er wordt een uitsluitingsgebeurtenis gegenereerd wanneer er geen geldig token wordt gevonden voor de beoogde apps in de configuratie. **Belangrijk:** wanneer het gebruiken van een productiecertificaat, moet het `pushNotificationDetails.platform` attribuut in het gebruikersprofiel aan `apns` worden geplaatst. Als u een sandboxcertificaat gebruikt, stelt u dit in op `apnsSandbox` . Deze uitsluiting wordt geactiveerd als het platformkenmerk niet overeenkomt met het certificaattype. |
 | PushMalformedProfile | 050034 | Push | Er wordt een uitsluitingsgebeurtenis gegenereerd wanneer pushNotificationDetails in het profiel onjuist is geformuleerd. |
 | PushNoConsent | 050111 | Push | Er wordt een uitsluitingsgebeurtenis gegenereerd wanneer de gebruiker geen pushberichten meer op de markt heeft gebracht. |
 | PushNoApplicationDefinedInPreset | 050033 | Push | Er wordt een uitsluitingsgebeurtenis gegenereerd wanneer de configuratie geen toepassing bevat die als doel moet worden ingesteld. |

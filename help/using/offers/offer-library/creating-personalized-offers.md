@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: e99ba08b86c682cdcb20be758590b97c0d474040
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '772'
 ht-degree: 3%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 3%
 
 Voordat u een aanbieding maakt, moet u controleren of u het volgende hebt gemaakt:
 
-* A **plaatsing** waarin de aanbieding zal worden getoond. Zie [&#x200B; plaatsingen &#x200B;](../offer-library/creating-placements.md) creëren
-* Als u een toelatingsvoorwaarde wilt toevoegen: a **besluitvormingsregel** die de voorwaarde zal bepalen waaronder de aanbieding zal worden voorgesteld. Zie [&#x200B; besluitvormingsregels &#x200B;](../offer-library/creating-decision-rules.md) creëren.
-* Één of verscheidene **inzamelingsbepalers** (die eerder als &quot;markeringen&quot;worden bekend) die u aan de aanbieding kunt willen associëren. Zie [&#x200B; inzamelingsbepalende eigenschappen &#x200B;](../offer-library/creating-tags.md) creëren.
+* A **plaatsing** waarin de aanbieding zal worden getoond. Zie [ plaatsingen ](../offer-library/creating-placements.md) creëren
+* Als u een toelatingsvoorwaarde wilt toevoegen: a **besluitvormingsregel** die de voorwaarde zal bepalen waaronder de aanbieding zal worden voorgesteld. Zie [ besluitvormingsregels ](../offer-library/creating-decision-rules.md) creëren.
+* Één of verscheidene **inzamelingsbepalers** (die eerder als &quot;markeringen&quot;worden bekend) die u aan de aanbieding kunt willen associëren. Zie [ inzamelingsbepalende eigenschappen ](../offer-library/creating-tags.md) creëren.
 
 ➡️ [Ontdek deze functie in video](#video)
 
@@ -53,11 +53,6 @@ De lijst met gepersonaliseerde aanbiedingen is toegankelijk in het menu **[!UICO
 >title="Persoonlijk aanbod"
 >abstract="Een gepersonaliseerd aanbod is een aanpasbaar bericht op basis van geschiktheidsregels en -beperkingen."
 
->[!CONTEXTUALHELP]
->id="ajo_decisioning_new_fallback"
->title="Fallback-aanbieding"
->abstract="Een fallback-aanbieding is de standaardaanbieding die wordt weergegeven wanneer een eindgebruiker niet in aanmerking komt voor een van de persoonlijke aanbiedingen."
-
 Om een **aanbieding** tot stand te brengen, volg deze stappen:
 
 1. Klik op **[!UICONTROL Create offer]** en selecteer vervolgens **[!UICONTROL Personalized offer]** .
@@ -80,7 +75,7 @@ Om een **aanbieding** tot stand te brengen, volg deze stappen:
 
 1. In de sectie **[!UICONTROL Offer attributes]** kunt u sleutelwaardeparen aan de aanbieding koppelen voor rapportage- en analysedoeleinden.
 
-1. Selecteer **[!UICONTROL Manage access]** als u aangepaste of basislabels voor gegevensgebruik aan de aanbieding wilt toewijzen. [&#x200B; leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) &#x200B;](../../administration/object-based-access.md)
+1. Selecteer **[!UICONTROL Manage access]** als u aangepaste of basislabels voor gegevensgebruik aan de aanbieding wilt toewijzen. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../../administration/object-based-access.md)
 
    ![](../assets/offer_manage-access.png)
 
@@ -134,7 +129,7 @@ In de lijst met aanbiedingen kunt u de aanbieding selecteren en de eigenschappen
 
 ![](../assets/offer_created.png)
 
-Selecteer de **[!UICONTROL Edit]** knoop om naar de wijze van de aanbiedingsuitgave terug te gaan, waar u de 1&rbrace; details van de aanbieding [&#x200B; kunt wijzigen, &#x200B;](#create-offer) vertegenwoordiging [, evenals &#x200B;](add-representations.md#representations) geschiktheidsregels en beperkingen [&#x200B; uitgeven.](add-constraints.md#eligibility)
+Selecteer de **[!UICONTROL Edit]** knoop om naar de wijze van de aanbiedingsuitgave terug te gaan, waar u de 1} details van de aanbieding [ kunt wijzigen, ](#create-offer) vertegenwoordiging [, evenals ](add-representations.md#representations) geschiktheidsregels en beperkingen [ uitgeven.](add-constraints.md#eligibility)
 
 Selecteer een goedgekeurde aanbieding en klik op **[!UICONTROL Undo approve]** om de status van de aanbieding weer in te stellen op **[!UICONTROL Draft]** .
 
@@ -169,7 +164,7 @@ Nadat u een voorstel hebt gemaakt, kunt u in de lijst op de naam ervan klikken.
 
 ![](../assets/offer_click-name.png)
 
-Op deze manier hebt u toegang tot gedetailleerde informatie voor dat aanbod. Selecteer het **[!UICONTROL Change log]** lusje aan [&#x200B; controle alle veranderingen &#x200B;](../get-started/user-interface.md#changes-logs) die aan de aanbieding zijn aangebracht.
+Op deze manier hebt u toegang tot gedetailleerde informatie voor dat aanbod. Selecteer het **[!UICONTROL Change log]** lusje aan [ controle alle veranderingen ](../get-started/user-interface.md#changes-logs) die aan de aanbieding zijn aangebracht.
 
 ![](../assets/offer_information.png)
 

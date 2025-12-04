@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: inhoud, experiment, meerdere, publiek, behandeling
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 4f1ae3a812b75c180716c5af0d6f87ef58bc2a13
+source-git-commit: 462859568ffcacab644d587e328cf92ce053aa00
 workflow-type: tm+mt
-source-wordcount: '1755'
+source-wordcount: '1827'
 ht-degree: 0%
 
 ---
@@ -42,11 +42,11 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 
 ![](assets/content_experiment.png)
 
-➡️ Leer hoe te om inhoudexperimenten te gebruiken om besluiten met het op code-gebaseerde ervaringskanaal in [&#x200B; te vergelijken dit gebruiksgeval &#x200B;](../experience-decisioning/experience-decisioning-uc.md).
+➡️ Leer hoe te om inhoudexperimenten te gebruiken om besluiten met het op code-gebaseerde ervaringskanaal in [ te vergelijken dit gebruiksgeval ](../experience-decisioning/experience-decisioning-uc.md).
 
 ## Uw inhoud maken {#campaign-experiment}
 
-1. Begin door uw [&#x200B; campagne &#x200B;](../campaigns/create-campaign.md) of [&#x200B; reis &#x200B;](../building-journeys/journeys-message.md) volgens uw vereisten te creëren en te vormen.
+1. Begin door uw [ campagne ](../campaigns/create-campaign.md) of [ reis ](../building-journeys/journeys-message.md) volgens uw vereisten te creëren en te vormen.
 
 1. Start vanuit het venster **[!UICONTROL Edit content]** de aanpassing A.
 
@@ -80,7 +80,7 @@ Bij het experimenteren met de inhoud kunt u kiezen uit drie typen experimenten:
 
 * **[!UICONTROL Bring your own Multi-armed bandit]**: verkeer dat tussen behandelingen wordt opgesplitst, wordt automatisch afgehandeld. U hebt de flexibiliteit om te bepalen wanneer en hoe het zou moeten veranderen door de Experiment APIs te gebruiken om toewijzingen in real time aan te passen.
 
-➡️ [&#x200B; Leer meer op het verschil tussen A/B en Multi-gewapende bandit experimenten &#x200B;](mab-vs-ab.md)
+➡️ [ Leer meer op het verschil tussen A/B en Multi-gewapende bandit experimenten ](mab-vs-ab.md)
 
 >[!BEGINTABS]
 
@@ -106,6 +106,12 @@ Bij het experimenteren met de inhoud kunt u kiezen uit drie typen experimenten:
 
    ![](assets/content_experiment_8.png)
 
+   >[!CAUTION]
+   >
+   >Houd rekening met de volgende beperkingen wanneer u een op code gebaseerd experiment maakt:
+   >* **Aantal van de Behandeling**: Het creëren van meer dan 3-5 behandelingen kan prestaties en interfacekwesties veroorzaken. Als er fouten optreden bij het toevoegen van behandelingen, kunt u proberen het aantal behandelingen te verminderen of deze stapsgewijs toe te voegen totdat het probleem is opgelost.
+   >* **Gereserveerde sleutelwoorden**: Gebruik geen gereserveerde sleutelwoorden zoals &quot;holdout&quot;in uw behandelingsnamen, aangezien dit de fouten van de beslissingsknooppuntafbeelding kan veroorzaken en het experiment van het correct werken verhindert.
+
 1. Wijzig de **[!UICONTROL Title]** van uw behandeling om deze beter te kunnen onderscheiden.
 
 1. Kies of u een **[!UICONTROL Holdout]** -groep wilt toevoegen aan uw levering. Deze groep zal geen inhoud van deze campagne ontvangen.
@@ -122,7 +128,7 @@ Bij het experimenteren met de inhoud kunt u kiezen uit drie typen experimenten:
 
    ![](assets/content_experiment_13.png)
 
-1. Laat het auto-schaalexperiment toe om de winnende variatie van uw experiment automatisch uit te rollen. [&#x200B; Leer meer op hoe te om winnaar te schrapen &#x200B;](#scale-winner)
+1. Laat het auto-schaalexperiment toe om de winnende variatie van uw experiment automatisch uit te rollen. [ Leer meer op hoe te om winnaar te schrapen ](#scale-winner)
 
    ![](assets/content_experiment_14.png)
 

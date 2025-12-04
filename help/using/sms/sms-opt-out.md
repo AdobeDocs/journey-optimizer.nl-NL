@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
+source-git-commit: 38d537eb7a14f926cafd2769fd09821eebb1186a
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
 
 # Uitschakelen van beheer voor tekstberichten {#sms-opt-out}
 
-In overeenstemming met de industriestandaarden en -voorschriften moeten alle SMS-marketingberichten een manier bevatten waarop de ontvangers hun abonnement gemakkelijk kunnen opzeggen. [&#x200B; Leer meer over privacy &amp; opt-out beheer &#x200B;](../privacy/opt-out.md)
+In overeenstemming met de industriestandaarden en -voorschriften moeten alle SMS-marketingberichten een manier bevatten waarop de ontvangers hun abonnement gemakkelijk kunnen opzeggen. [ Leer meer over privacy &amp; opt-out beheer ](../privacy/opt-out.md)
 
 >[!IMPORTANT]
 >
@@ -42,6 +42,8 @@ Wanneer het gebruiken van Infobip, zorg ervoor dat de het Door:sturen actie aan 
 
 Er zijn geen stappen vereist om ervoor te zorgen dat de mogelijkheden voor SMS-opt-out in Adobe Journey Optimizer werken als de trefwoordreacties STOP, UNSTOP, START, QUIT, CANCEL, END en UNSUBSCRIBE automatisch worden herkend. De status van de optie om profielen te weigeren wordt in real time bijgewerkt in Adobe Journey Optimizer.
 
+Als u aangepaste opt-out-trefwoorden definieert in uw SMS API-referenties, worden de hierboven vermelde standaard binnenkomende trefwoorden genegeerd. Als u de standaardtrefwoorden, zoals STOP, QUIT, CANCEL, END en UNABSCRIBE, functioneel wilt houden, neemt u deze expliciet op met uw aangepaste trefwoorden in het veld Opt-Out-trefwoorden van uw SMS-configuratie. Anders worden alleen uw aangepaste trefwoorden herkend en worden de optieacties niet meer geactiveerd door de standaardtrefwoorden.
+
 Merk op dat als een klant STOP aan een tekstbericht antwoordt, de leverancier al verder SMS van die specifieke afzenderidentiteitskaart (korte code of lang aantal), met inbegrip van transactionele berichten blokkeert. Om ononderbroken levering van transactieSMS te verzekeren, gebruik een afzonderlijke afzender identiteitskaart die niet eerder uit is gekozen.
 
 
@@ -52,7 +54,7 @@ Merk op dat als een klant STOP aan een tekstbericht antwoordt, de leverancier al
 
 ## Lijsten van gewezen personen {#sms-blocklists}
 
-Naast het tegenhouden van Adobe Journey Optimizer verzendt op basis van de opt-out status (voor directe integratie met Twilio, Infobip, of Sinch), handhaven de meeste gatewayproviders van SMS ook een lijst van gewezen personen die u ervoor zorgt dat geen SMS-bericht wordt geleverd aan een individu dat ervoor heeft gekozen om te weigeren. Als u een leverancier buiten Sinch of Twilio gebruikt, en een SMS via [&#x200B; douanekanaal &#x200B;](../building-journeys/using-custom-actions.md) verzendt, moet u dit met uw leverancier bevestigen.
+Naast het tegenhouden van Adobe Journey Optimizer verzendt op basis van de opt-out status (voor directe integratie met Twilio, Infobip, of Sinch), handhaven de meeste gatewayproviders van SMS ook een lijst van gewezen personen die u ervoor zorgt dat geen SMS-bericht wordt geleverd aan een individu dat ervoor heeft gekozen om te weigeren. Als u een leverancier buiten Sinch of Twilio gebruikt, en een SMS via [ douanekanaal ](../building-journeys/using-custom-actions.md) verzendt, moet u dit met uw leverancier bevestigen.
 
 
 ## Korte codes {#short-codes}
@@ -71,6 +73,6 @@ Alfanumerieke identiteitskaart van de Afzender is slechts voor unidirectioneel o
 
   +++ Zie video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440284/?captions=dut&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
   +++
