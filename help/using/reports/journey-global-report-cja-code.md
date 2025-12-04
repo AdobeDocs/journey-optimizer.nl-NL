@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 33b6cc18-dd63-48d9-8d85-526500d83d37
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 670464cf2e6fdec6e1f74cc472fe15ad35760765
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ U kunt tot uw op code-Gebaseerd reisrapport toegang hebben door de **[!UICONTROL
 ![](assets/report-access-jo.png)
 
 >[!ENDSHADEBOX]
+
+>[!NOTE]
+>
+>Code-gebaseerde ervaringen functioneren als binnenkomende interacties waarin gebruikers zich aanmelden door toegang te krijgen tot uw site of app. Derhalve **gerichte** of **3} metriek van het publiek {, die profielen volgen voor uitgaande berichtlevering worden gekozen, niet voor code-gebaseerde campagnes verhoogd.**
 
 ## Weergeven en klikken {#impressions-code}
 
