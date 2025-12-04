@@ -31,7 +31,7 @@ U kunt tot uw op code-Gebaseerd reisrapport toegang hebben door de **[!UICONTROL
 
 >[!NOTE]
 >
->Code-gebaseerde ervaringen functioneren als binnenkomende interacties waarin gebruikers zich aanmelden door toegang te krijgen tot uw site of app. Derhalve **gerichte** of **3} metriek van het publiek {, die profielen volgen voor uitgaande berichtlevering worden gekozen, niet voor code-gebaseerde campagnes verhoogd.**
+>Code-gebaseerde ervaringen functioneren als binnenkomende interacties waarin gebruikers zich aanmelden door toegang te krijgen tot uw site of app. Derhalve **gerichte** of **3&rbrace; metriek van het publiek &lbrace;, die profielen volgen voor uitgaande berichtlevering worden gekozen, niet voor code-gebaseerde campagnes verhoogd.**
 
 ## Weergeven en klikken {#impressions-code}
 

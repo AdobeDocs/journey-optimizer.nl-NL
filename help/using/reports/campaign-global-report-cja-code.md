@@ -27,7 +27,7 @@ U kunt het campagnerapport op basis van code openen door in uw campagne op de kn
 
 >[!NOTE]
 >
->Code-gebaseerde ervaringen functioneren als binnenkomende interacties waarin gebruikers zich aanmelden door toegang te krijgen tot uw site of app. Derhalve **gerichte** of **3} metriek van het publiek {, die profielen volgen voor uitgaande berichtlevering worden gekozen, niet voor code-gebaseerde campagnes verhoogd.**
+>Code-gebaseerde ervaringen functioneren als binnenkomende interacties waarin gebruikers zich aanmelden door toegang te krijgen tot uw site of app. Derhalve **gerichte** of **3&rbrace; metriek van het publiek &lbrace;, die profielen volgen voor uitgaande berichtlevering worden gekozen, niet voor code-gebaseerde campagnes verhoogd.**
 
 ## Weergeven en klikken {#impressions-code}
 
@@ -143,7 +143,7 @@ De tabel **[!UICONTROL Decision Items Performance]** evalueert hoe goed elk item
 
 >[!NOTE]
 >
->De **[!UICONTROL Ranking Strategy]** lijst wordt beschikbaar slechts wanneer een [ AI model ](../experience-decisioning/ranking/ai-models.md) in de campagne wordt opgenomen. <!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
+>De **[!UICONTROL Ranking Strategy]** lijst wordt beschikbaar slechts wanneer een [&#x200B; AI model &#x200B;](../experience-decisioning/ranking/ai-models.md) in de campagne wordt opgenomen. <!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
 
 ![](assets/cja-decision-ranking-strategy.png)
 
@@ -163,13 +163,13 @@ De belangrijkste getoonde metriek omvatten:
 
 >[!NOTE]
 >
->Momenteel is het [ rapport van de Meting van het 0} optillen slechts beschikbaar voor het ](../experience-decisioning/ranking/auto-optimization-model.md#lift) Gepersonaliseerde model van optimalisering [ AI. ](../experience-decisioning/ranking/personalized-optimization-model.md) Als u rapporten over liftmetingen nodig hebt, gebruikt u in plaats daarvan het gepersonaliseerde optimalisatiemodel.
+>Momenteel is het [&#x200B; rapport van de Meting van het 0&rbrace; optillen slechts beschikbaar voor het &#x200B;](../experience-decisioning/ranking/auto-optimization-model.md#lift) Gepersonaliseerde model van optimalisering [&#x200B; AI. &#x200B;](../experience-decisioning/ranking/personalized-optimization-model.md) Als u rapporten over liftmetingen nodig hebt, gebruikt u in plaats daarvan het gepersonaliseerde optimalisatiemodel.
 
 ### Omrekeningskoers voor Holdout- en Model-georiënteerd verkeer {#conversion-rate}
 
 >[!NOTE]
 >
->De **[!UICONTROL Conversion rate for Holdout and Model Driven traffic]** grafiek wordt beschikbaar slechts wanneer een [ AI model ](../experience-decisioning/ranking/ai-models.md) in de campagne wordt opgenomen. <!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
+>De **[!UICONTROL Conversion rate for Holdout and Model Driven traffic]** grafiek wordt beschikbaar slechts wanneer een [&#x200B; AI model &#x200B;](../experience-decisioning/ranking/ai-models.md) in de campagne wordt opgenomen. <!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
 
 ![](assets/cja-decisioning-conversion.png)
 
@@ -181,4 +181,4 @@ In de grafiek **[!UICONTROL Conversion rate for Holdout and Model Driven traffic
 
 >[!CAUTION]
 >
->Wanneer het gebruiken van een AI model dat in a [ wordt opgenomen rangschikt formule ](../experience-decisioning/ranking/ranking-formulas.md), worden de gegevens niet weerspiegeld in het rapport van het tarief van de Omzetting.
+>Wanneer het gebruiken van een AI model dat in a [&#x200B; wordt opgenomen rangschikt formule &#x200B;](../experience-decisioning/ranking/ranking-formulas.md), worden de gegevens niet weerspiegeld in het rapport van het tarief van de Omzetting.
