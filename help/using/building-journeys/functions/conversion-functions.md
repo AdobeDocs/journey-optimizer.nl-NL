@@ -7,10 +7,10 @@ role: Developer
 level: Experienced
 keywords: conversie, functies, expressie, reis, type, gegoten
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
+source-git-commit: 451a9e1e5d5e6e1408849e8d1c5c9644a95359da
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 3%
+source-wordcount: '1054'
+ht-degree: 2%
 
 ---
 
@@ -20,10 +20,10 @@ Met conversiefuncties kunt u gegevens van het ene naar het andere type transform
 
 Gebruik conversiefuncties wanneer dat nodig is:
 
-* Zet koordwaarden in numeriek, booleaanse, of datumtypes ([&#x200B; toInteger &#x200B;](#toInteger), [&#x200B; toDecimal &#x200B;](#toDecimal), [&#x200B; toBool &#x200B;](#toBool)) om
-* Transformeer data en tijden tussen verschillende formaten en vertegenwoordiging ([&#x200B; toDateTime &#x200B;](#toDateTime), [&#x200B; toDateTimeOnly &#x200B;](#toDateTimeOnly), [&#x200B; toDateOnly &#x200B;](#toDateOnly))
-* Gegoten numerieke waarden tussen geheel en decimale types ([&#x200B; toInteger &#x200B;](#toInteger), [&#x200B; toDecimal &#x200B;](#toDecimal))
-* Zet waarden in koordformaat ([&#x200B; toString &#x200B;](#toString)) of duur ([&#x200B; toDuration &#x200B;](#toDuration)) om
+* Zet koordwaarden in numeriek, booleaanse, of datumtypes ([ toInteger ](#toInteger), [ toDecimal ](#toDecimal), [ toBool ](#toBool)) om
+* Transformeer data en tijden tussen verschillende formaten en vertegenwoordiging ([ toDateTime ](#toDateTime), [ toDateTimeOnly ](#toDateTimeOnly), [ toDateOnly ](#toDateOnly))
+* Gegoten numerieke waarden tussen geheel en decimale types ([ toInteger ](#toInteger), [ toDecimal ](#toDecimal))
+* Zet waarden in koordformaat ([ toString ](#toString)) of duur ([ toDuration ](#toDuration)) om
 * Zorg voor typecompatibiliteit voor vergelijkingen en bewerkingen
 * Gegevens verwerken uit externe bronnen met verschillende typen opmaak
 
@@ -81,7 +81,7 @@ Retourneert false.
 
 ## toDateOnly {#toDateOnly}
 
-Zet een argument in een dateOnly typewaarde om. Meer over gegevenstypes leren, verwijs naar deze [&#x200B; sectie &#x200B;](../expression/data-types.md).
+Zet een argument in een dateOnly typewaarde om. Meer over gegevenstypes leren, verwijs naar deze [ sectie ](../expression/data-types.md).
 
 +++Syntaxis
 
@@ -93,7 +93,7 @@ Zet een argument in een dateOnly typewaarde om. Meer over gegevenstypes leren, v
 
 | Parameter | Type |
 |-----------|------------------|
-| Tekenreeksrepresentatie van een datum als &quot;YYYY-MM-DD&quot; (XDM-indeling). Ook steunt formaat ISO-8601: slechts **volledig-datum** deel wordt overwogen (verwijs naar [&#x200B; RFC 3339, sectie 5.6 &#x200B;](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | string |
+| Tekenreeksrepresentatie van een datum als &quot;YYYY-MM-DD&quot; (XDM-indeling). Ook steunt formaat ISO-8601: slechts **volledig-datum** deel wordt overwogen (verwijs naar [ RFC 3339, sectie 5.6 ](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | string |
 | datumtijd | dateTime |
 | datumtijd zonder tijdzone | dateTimeOnly |
 | geheel-getalwaarde van een tijdperk in milliseconden | integer |
@@ -142,12 +142,13 @@ Zet parameters om in een datumtijdwaarde, afhankelijk van hun types.
 
 +++Parameters
 
-| Parameter | Type |
-|-----------|------------------|
-| datumtijd in ISO-8601-indeling | string |
-| tijdzone-id | string |
-| datumtijd zonder tijdzone | dateTimeOnly |
-| geheel-getalwaarde van een tijdperk in milliseconden | integer |
+| Parameter | Beschrijving |
+|--- |--- |
+| string | datumtijd in ISO-8601-indeling. Een tekenreeksrepresentatie van een datetime met tijdzonegegevens |
+| string | tijdzone-id. Een tijdzone-id (bijvoorbeeld &quot;UTC&quot;, &quot;Europa/Parijs&quot;) |
+| dateOnly | vertegenwoordigt een datum zonder een tijdzone, die als jaar wordt bekeken maand-dag |
+| dateTimeOnly | vertegenwoordigt een datetime zonder een tijdzone, die als jaar-maand-dag-minuut-seconde-milliseconde wordt bekeken |
+| integer | geheel-getalwaarde van een tijdperk in milliseconden |
 
 +++
 
@@ -155,7 +156,9 @@ Zet parameters om in een datumtijdwaarde, afhankelijk van hun types.
 
 `toDateTime(<string>)`
 
-`toDateTime(<stringified time zone id>, <dateTimeOnly>)`
+`toDateTime(<string>, <dateOnly>)`
+
+`toDateTime(<string>, <dateTimeOnly>)`
 
 `toDateTime(<integer>)`
 
@@ -165,23 +168,35 @@ Keer a **dateTime** terug.
 
 +++Voorbeelden
 
-`toDateTime ("2023-08-18T23:17:59.123Z")`
+`toDateTime("2023-08-18T23:17:59.123Z")`
 
 Keert 2023-08-18T23 :17: 59.123Z terug
 
-`toDateTime(toDateTimeOnly("UTC", "2023-08-18T23:17:59.123"))`
+De ISO-8601-tekenreeks bevat al tijdzonegegevens.
+
+`toDateTime("Europe/Paris", toDateOnly("2023-08-18"))`
+
+Keert 2023-08-18T00 :00: 00.000+02 :00 terug
+
+Dit leidt tot een dateTime door een timezone met een datum-enige waarde te combineren. De tijd wordt geplaatst aan middernacht (00 :00: 00) in gespecificeerde timezone.
+
+`toDateTime("UTC", toDateTimeOnly("2023-08-18T23:17:59.123"))`
 
 Keert 2023-08-18T23 :17: 59.123Z terug
+
+Dit leidt tot een dateTime door een timezone op een dateTimeOnly waarde toe te passen (die geen timezone informatie heeft).
 
 `toDateTime(1560762190189)`
 
-Keert 2023-06-17T09 :03: 10.189Z terug
+Keert 2019-06-17T09 :03: 10.189Z terug
+
+Converteert een Unix-tijdstempel in milliseconden naar een dateTime-waarde.
 
 +++
 
 >[!NOTE]
 >
->Tijdzone-id moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn. Voor meer informatie over gegevenstypes, verwijs naar [&#x200B; deze pagina &#x200B;](../expression/data-types.md).
+>Tijdzone-id moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn. Voor meer informatie over gegevenstypes, verwijs naar [ deze pagina ](../expression/data-types.md).
 
 ## toDateTimeOnly {#toDateTimeOnly}
 
@@ -267,7 +282,7 @@ Retourneert 4.0.
 
 ## toDuration {#toDuration}
 
-Zet een argumentwaarde in een duur om. Voor meer informatie over gegevenstypes, verwijs naar [&#x200B; deze pagina &#x200B;](../expression/data-types.md).
+Zet een argumentwaarde in een duur om. Voor meer informatie over gegevenstypes, verwijs naar [ deze pagina ](../expression/data-types.md).
 
 +++Syntaxis
 
@@ -361,7 +376,7 @@ Retourneert 4.
 
 ## toString {#toString}
 
-Zet een argumentwaarde in een koordwaarde om, afhankelijk van zijn type. Voor meer informatie over gegevenstypes, verwijs naar [&#x200B; deze pagina &#x200B;](../expression/data-types.md).
+Zet een argumentwaarde in een koordwaarde om, afhankelijk van zijn type. Voor meer informatie over gegevenstypes, verwijs naar [ deze pagina ](../expression/data-types.md).
 
 +++Syntaxis
 
