@@ -8,9 +8,9 @@ role: Developer, Admin
 level: Experienced
 keywords: platform, data Lake, create, Lake, datasets, profile
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: d4729294a007a348e0233aa8a75bbe3b2999742a
+source-git-commit: 6233fcb466e741fd7eb912e6c59c8daf030f71a0
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '1059'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ De onderstaande tabel bevat een lijst met alle beïnvloede gegevenssets en hun r
 
 U zult onder Veelgestelde Vragen over datasets tijd-aan-levende (TTL) vinden.
 
-Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [&#x200B; gemeenschap van Adobe Journey Optimizer &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
+Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [ gemeenschap van Adobe Journey Optimizer ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
 
 +++Zal deze wijziging alleen van toepassing zijn op productiesandboxen of zal deze ook van toepassing zijn op dev-sandboxen?
 
@@ -78,13 +78,13 @@ De uitbreidingen van TTLs worden momenteel niet gesteund. Het is echter de bedoe
 
 >[!NOTE]
 >
->Voor gegevens die in het profiel zijn opgeslagen, geldt de machtiging Totaal gegevensvolume. Elke toename van de gegevensopslag op het profiel als gevolg van een uitbreiding van de TTL zou daarom in mindering worden gebracht op de machtiging Totaal gegevensvolume. [&#x200B; leer meer &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=nl-NL){target=_blank}
+>Voor gegevens die in het profiel zijn opgeslagen, geldt de machtiging Totaal gegevensvolume. Elke toename van de gegevensopslag op het profiel als gevolg van een uitbreiding van de TTL zou daarom in mindering worden gebracht op de machtiging Totaal gegevensvolume. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target=&quot;_blank}
 
 +++
 
 +++Kunnen klanten TTL voor [!DNL Journey Optimizer] de gegevens van de systeemdataset in gegevenshoop verhogen? 
 
-De uitbreidingen van TTLs worden momenteel niet gesteund. De klanten kunnen gegevens door Doelen uitvoeren om gegevens langer te behouden. [&#x200B; leer meer &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=nl-NL){target=_blank} . Bovendien kunnen klanten met een machtiging **[!DNL Data Distiller]** afgeleide gegevenssets maken om de gegevens in het gegevensmeer op te slaan zonder een TTL. [&#x200B; leer meer &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+De uitbreidingen van TTLs worden momenteel niet gesteund. De klanten kunnen gegevens door Doelen uitvoeren om gegevens langer te behouden. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html) {target= &quot;_blank}. Bovendien kunnen klanten met een machtiging **[!DNL Data Distiller]** afgeleide gegevenssets maken om de gegevens in het gegevensmeer op te slaan zonder een TTL. [ leer meer ](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -114,6 +114,30 @@ De tijdstempel van de gebeurtenis wordt gebruikt (dus niet de innamedatum).
 
 +++
 
++++Hoe beïnvloedt de nieuwe TTL gebruiksgevallen die langere gegevensbewaring vereisen (bijvoorbeeld, exclusief profielen die een e-mail in de afgelopen 120 dagen hebben ontvangen, of het begrenzen van e-mails over een jaar)?
+
+Het nieuwe beleid van TTL zal de terugblik periode voor systeem-geproduceerde datasetgegevens in de profielopslag beperken tot 90 dagen en in het gegevens meer tot 13 maanden. De gevallen van het gebruik die toegang tot gegevens na deze periodes vereisen zullen beïnvloed worden. Bijvoorbeeld, zal de publiekssegmentatie of de frequentie die op gebeurtenissen worden gebaseerd ouder dan 90 dagen in de profielopslag niet meer mogelijk zijn gebruikend systeemdatasets.
+
++++
+
++++Welke alternatieven zijn beschikbaar om gegevens langer te bewaren dan de GVTO?
+
+Klanten die langer moeten worden bewaard, moeten overwegen relevante gegevens van AJO-gegevenssets naar externe opslag te exporteren voordat de GVTO-vervaldatum verloopt. Adobe Journey Optimizer ondersteunt het exporteren van gegevenssets naar verschillende cloudopslagbestemmingen (Amazon S3, Azure Blob, Google Cloud Storage, enz.). [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}
+
++++
+
++++Wat moeten klanten doen om zich voor te bereiden op de verandering van TTL?
+
+* Herzie uw gebruiksgevallen en identificeer om het even welke die gegevensbehoud voorbij nieuwe TTLs vereisen.
+* Opstelling geautomatiseerde vragen om kritieke gegevens naar afgeleide datasets te kopiëren alvorens het gegeven wordt geschrapt.
+* Werk samen met uw Adobe-vertegenwoordiger om eventuele extra behoeften of mogelijke TTL-uitbreidingen (gepland voor toekomstige versies) te bespreken.
+
++++
+
++++Zullen klanten worden geïnformeerd alvorens TTL op bestaande zandbakken wordt afgedwongen?
+
+Ja, betrokken klanten zullen vooraf op de hoogte worden gesteld, en het productteam zal met hen samenwerken om een vlotte overgang te verzekeren.
+
 +++Kan ik door het Journey Optimizer-systeem gegenereerde gegevenssets verwijderen?
 
 Door het Journey Optimizer-systeem gegenereerde gegevenssets zijn beveiligd en kunnen niet worden verwijderd via de standaard Adobe Experience Platform-gebruikersinterface. Deze datasets zijn essentieel voor de functionaliteit van Journey Optimizer en worden beheerd door het systeem.
@@ -123,5 +147,6 @@ Als u een gegevensset van een Journey Optimizer-systeem permanent moet verwijder
 >[!NOTE]
 >
 >Voor routinematige gegevensopruiming binnen deze systeemdatasets, gebruik **[!UICONTROL Data Lifecycle]** verrichtingen beschikbaar door Privacy Service om specifieke verslagen of identiteiten te schrappen. [Meer informatie](../privacy/data-hygiene.md)
+
 
 +++
