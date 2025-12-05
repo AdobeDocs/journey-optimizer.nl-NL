@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
+source-git-commit: bf5b054eaaca73abf484ccbabf160e902fad3f5b
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 2%
+source-wordcount: '659'
+ht-degree: 3%
 
 ---
 
@@ -214,38 +214,13 @@ currentActionField.description == "abc"
 
 ### Aangepaste actierespons gebruiken in native kanalen {#response-in-channels}
 
-U kunt geneste arrays doorlopen via een aangepaste actie in native kanalen (zoals e-mail, push of SMS) met de syntaxis Handlebars. Dit is nuttig wanneer u berichtinhoud met dynamische gegevens van externe systemen moet personaliseren.
+De gebieden van de lading van de antwoord van douaneacties kunnen in inheemse kanalen (e-mail, duw, SMS) voor berichtverpersoonlijking worden gebruikt. Dit omvat de mogelijkheid om arrays te doorlopen en geneste gegevensstructuren die door externe API&#39;s worden geretourneerd.
 
-Bijvoorbeeld, als uw douaneactie de volgende reactie van een extern systeem terugkeert:
-
-```json
-{    
-    "id": "84632848268632",    
-    "responses": [
-        { "productIDs": [1111,2222,3333] },
-        { "productIDs": [4444,5555,6666] },
-        { "productIDs": [7777,8888,9999] }
-    ]
-}
-```
-
-U kunt de array `responses` en de geneste array `productIDs` doorlopen in een native kanaal (bijvoorbeeld in een e-mail) zoals:
-
-```handlebars
-{{#each context.journey.actions.<yourcustomaction>.responses as |res|}}
-
-  {{#each res.productIDs as |productID|}}
-    <li>{{productID}}</li>
-  {{/each}}
-
-{{/each}}
-```
-
-Vervang `<yourcustomaction>` door de werkelijke naam van de aangepaste handeling zoals deze tijdens de rit is geconfigureerd.
+<!--For detailed examples and syntax for iterating over custom action response data in messages, refer to [Iterate over contextual data with Handlebars](../personalization/personalization-contexts.md#custom-action-responses).-->
 
 ## Aanvullende bronnen
 
 Raadpleeg deze pagina’s voor meer informatie:
 
-* [&#x200B; verwijzingen van het Gebied &#x200B;](../building-journeys/expression/field-references.md).
+* [ verwijzingen van het Gebied ](../building-journeys/expression/field-references.md).
 * [Functies voor het beheer van verzamelingen](../building-journeys/expression/collection-management-functions.md)
