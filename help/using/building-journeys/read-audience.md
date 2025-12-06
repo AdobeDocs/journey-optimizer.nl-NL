@@ -56,7 +56,7 @@ De stappen om de Gelezen activiteit van het Publiek te vormen zijn als volgt.
 
    >[!NOTE]
    >
-   >Bovendien kunt u [!DNL Adobe Experience Platform] publiek ook richten dat gebruikend [&#x200B; wordt gecreeerd publiekssamenstellingen &#x200B;](../audience/get-started-audience-orchestration.md) of [&#x200B; van een Csv- dossier &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} wordt geupload.
+   >Bovendien kunt u [!DNL Adobe Experience Platform] publiek ook richten dat gebruikend [&#x200B; wordt gecreeerd publiekssamenstellingen &#x200B;](../audience/get-started-audience-orchestration.md) of [&#x200B; van een Csv- dossier &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=nl-NL#import-audience){target="_blank"} wordt geupload.
 
    U kunt de kolommen in de lijst aanpassen en sorteren.
 
@@ -70,7 +70,7 @@ De stappen om de Gelezen activiteit van het Publiek te vormen zijn als volgt.
 
    >[!NOTE]
    >
-   >Slechts zullen de individuen met de **Realized** status van de publieksparticipatie de reis ingaan. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [&#x200B; documentatie van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Slechts zullen de individuen met de **Realized** status van de publieksparticipatie de reis ingaan. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [&#x200B; documentatie van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=nl-NL#interpret-segment-results){target="_blank"}.
 
 1. Kies in het veld **[!UICONTROL Namespace]** de naamruimte die u wilt gebruiken om de personen te identificeren. Het veld wordt standaard voorgevuld met de laatst gebruikte naamruimte. [&#x200B; Leer meer over namespaces &#x200B;](../event/about-creating.md#select-the-namespace).
 
@@ -90,7 +90,7 @@ De stappen om de Gelezen activiteit van het Publiek te vormen zijn als volgt.
 
 * Als beste praktijken, adviseren wij u slechts partijpubliek in a **Gelezen publiek** activiteit. Dit zal een betrouwbare en consistente telling van de tijdens de reis gebruikte doelgroepen opleveren. Lees het publiek wordt ontworpen voor partijgebruik gevallen. Als uw gebruiksgeval gegevens in real time gelieve vereist te gebruiken {de kwalificatieactiviteit van 0} Audience **[.](audience-qualification-events.md)**
 
-* Het publiek [&#x200B; werd ingevoerd uit een Csv- dossier &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) of resulterend uit [&#x200B; samenstellingswerkschema&#39;s &#x200B;](../audience/get-started-audience-orchestration.md) kan in de **Gelezen activiteit van het Publiek** worden geselecteerd. Deze doelgroepen zijn niet beschikbaar in de **activiteit van de Kwalificatie van het publiek 0&rbrace;.**
+* Het publiek [&#x200B; werd ingevoerd uit een Csv- dossier &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=nl-NL#import-audience) of resulterend uit [&#x200B; samenstellingswerkschema&#39;s &#x200B;](../audience/get-started-audience-orchestration.md) kan in de **Gelezen activiteit van het Publiek** worden geselecteerd. Deze doelgroepen zijn niet beschikbaar in de **activiteit van de Kwalificatie van het publiek 0&rbrace;.**
 
 * Gelijktijdige leeslimiet per organisatie: elke organisatie kan maximaal vijf instanties van het type Audience lezen tegelijk uitvoeren. Dit omvat zowel geplande looppas als die teweeggebracht door bedrijfsgebeurtenissen. De limiet geldt voor alle sandboxen en reizen. Deze limiet wordt gehandhaafd om te zorgen voor een eerlijke en evenwichtige toewijzing van middelen in alle organisaties.
 
@@ -104,7 +104,7 @@ De begeleiding met betrekking tot **Gelezen de activiteit van het publiek** word
 
 >[!CAUTION]
 >
->[&#x200B; Guardrails voor gegevens en segmentatie van het Profiel van de Klant in real time &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html){target="_blank"} zijn ook op [!DNL Adobe Journey Optimizer] van toepassing.
+>[&#x200B; Guardrails voor gegevens en segmentatie van het Profiel van de Klant in real time &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=nl-NL){target="_blank"} zijn ook op [!DNL Adobe Journey Optimizer] van toepassing.
 
 ### Profielinvoer op reis beheren
 
@@ -297,9 +297,9 @@ Houd rekening met het volgende als u discrepanties opmerkt tussen het geschatte 
 
 ### Tijdstip en gegevensdoorgave
 
-* **de baanvoltooiing van de segmentatie van de partij**: Voor partijpubliek, zorg ervoor dat de dagelijkse baan van de partijsegmentatie heeft voltooid en de momentopnamen worden bijgewerkt alvorens de reis loopt. Het publiek van de partij wordt klaar voor gebruik ongeveer **2 uren** na de voltooiing van de segmentatietaak. Leer meer over [&#x200B; methodes van de publieksevaluatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#evaluate-segments){target="_blank"}.
+* **de baanvoltooiing van de segmentatie van de partij**: Voor partijpubliek, zorg ervoor dat de dagelijkse baan van de partijsegmentatie heeft voltooid en de momentopnamen worden bijgewerkt alvorens de reis loopt. Het publiek van de partij wordt klaar voor gebruik ongeveer **2 uren** na de voltooiing van de segmentatietaak. Leer meer over [&#x200B; methodes van de publieksevaluatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL#evaluate-segments){target="_blank"}.
 
-* **de ingangstijdstip van Gegevens**: Verifieer dat de opname van profielgegevens volledig vóór de reisuitvoering heeft voltooid. Als profielen kort voor het begin van de rit werden opgenomen, worden ze mogelijk nog niet in het publiek weergegeven. Leer meer over [&#x200B; gegevensopname in Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html){target="_blank"}.
+* **de ingangstijdstip van Gegevens**: Verifieer dat de opname van profielgegevens volledig vóór de reisuitvoering heeft voltooid. Als profielen kort voor het begin van de rit werden opgenomen, worden ze mogelijk nog niet in het publiek weergegeven. Leer meer over [&#x200B; gegevensopname in Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=nl-NL){target="_blank"}.
 
 * **Gebruik &quot;Trekker na de optie van de partijpublieksevaluatie&quot;**: Voor dagelijkse geplande reizen die partijpubliek gebruiken, denk na toelatend de **[!UICONTROL Trigger after batch audience evaluation]** optie. Dit zorgt ervoor dat de reis op nieuwe publieksgegevens (tot 6 uur) alvorens uit te voeren wacht. [&#x200B; Leer meer over het plannen &#x200B;](#schedule)
 
@@ -307,9 +307,9 @@ Houd rekening met het volgende als u discrepanties opmerkt tussen het geschatte 
 
 ### Validatie en bewaking van gegevens
 
-* **de status van de segmentatietaak van de Controle**: De tijden van de taakvoltooiing van de batch van de batch in Adobe Experience Platform [&#x200B; controledashboard &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html){target="_blank"} om te verifiëren wanneer de publieksgegevens klaar zijn.
+* **de status van de segmentatietaak van de Controle**: De tijden van de taakvoltooiing van de batch van de batch in Adobe Experience Platform [&#x200B; controledashboard &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=nl-NL){target="_blank"} om te verifiëren wanneer de publieksgegevens klaar zijn.
 
-* **verifieer samenvoegbeleid**: Zorg ervoor dat het fusiebeleid voor uw publiek wordt gevormd het verwachte gedrag aanpast om profielgegevens van verschillende bronnen te combineren. Leer meer over [&#x200B; samenvoegbeleid in Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html){target="_blank"}.
+* **verifieer samenvoegbeleid**: Zorg ervoor dat het fusiebeleid voor uw publiek wordt gevormd het verwachte gedrag aanpast om profielgegevens van verschillende bronnen te combineren. Leer meer over [&#x200B; samenvoegbeleid in Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=nl-NL){target="_blank"}.
 
 * **de segmentdefinities van het Overzicht**: Bevestig dat de segmentdefinities correct worden gevormd en alle verwachte kwalificatiecriteria omvatten. Leer meer over [&#x200B; bouwend publiek &#x200B;](../audience/creating-a-segment-definition.md). Let vooral op:
    * Op tijd gebaseerde voorwaarden die profielen op tijdstempels van gebeurtenissen kunnen uitsluiten
