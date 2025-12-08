@@ -33,7 +33,7 @@ Wanneer Journey Optimizer een aanroep naar een externe API uitvoert, worden de t
 
 >[!TIP]
 >
->We raden u aan om minstens een buffer van één minuut te laten staan tussen de periode van de symbolische vervaldatum van de externe API en de Journey Optimizer-instelling [`cacheDuration` ](../datasource/external-data-sources.md#custom-authentication-access-token) , met name bij zware werklasten, om te voorkomen dat de vervaldatumproblemen en 401 fouten niet worden opgelost.
+>We raden u aan om minstens een buffer van één minuut te laten staan tussen de periode van de symbolische vervaldatum van de externe API en de Journey Optimizer-instelling [`cacheDuration` &#x200B;](../datasource/external-data-sources.md#custom-authentication-access-token) , met name bij zware werklasten, om te voorkomen dat de vervaldatumproblemen en 401 fouten niet worden opgelost.
 
 ## API&#39;s uitlijnen en vertragen {#capping}
 
@@ -60,7 +60,7 @@ Raadpleeg de volgende secties voor meer informatie over het werken met de API&#3
 * [Afkappings-API](capping.md)
 * [API voor beperken](throttling.md)
 
-Een gedetailleerde beschrijving van APIs is beschikbaar in [ documentatie van Adobe Journey Optimizer APIs ](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/)
+Een gedetailleerde beschrijving van APIs is beschikbaar in [&#x200B; documentatie van Adobe Journey Optimizer APIs &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/)
 
 ### Capaciteit gegevensbronnen en aangepaste acties {#capacity}
 
@@ -74,7 +74,7 @@ Voor **aangepaste acties** moet u de capaciteit van uw externe API evalueren. Bi
 
 >[!NOTE]
 >
->Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Voor meer informatie over reacties, zie deze [ sectie ](../action/action-response.md)
+>Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Voor meer informatie over reacties, zie deze [&#x200B; sectie &#x200B;](../action/action-response.md)
 
 ## Eindpunten met een langzame responstijd {#response-time}
 
@@ -110,11 +110,11 @@ Laten we een voorbeeld nemen voor een time-out van 5 seconden.
 
 Hieronder vindt u Veelgestelde vragen over de integratie van Journey Optimizer met externe systemen.
 
-Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [ gemeenschap van Adobe Journey Optimizer ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
+Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [&#x200B; gemeenschap van Adobe Journey Optimizer &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
 
 +++ Hoe kan ik een het in kaart brengen of throttling regel vormen? Is er een standaardregel?
 
-Om het in kaart brengen of het vertragen regels tot stand te brengen, gelieve te verwijzen naar [ deze sectie ](../configuration/external-systems.md#capping). Door gebrek, is er geen throttling regel maar een maximum van 300.000 vraag over één minuut die voor alle douaneacties, per gastheer en per zandbak wordt bepaald. De limiet &quot;per host&quot; geldt op domeinniveau (bijvoorbeeld example.com). Deze grens is geplaatst gebaseerd op klantengebruik, om externe eindpunten te beschermen die door douaneacties worden gericht. Indien nodig, kunt u deze het plaatsen met voeten treden door een grotere het maximum van het maximum of het vertragen grens door onze Capping/het Draaien APIs te bepalen. Verwijs naar [ deze pagina ](../action/about-custom-action-configuration.md) voor meer details op hoe te om het afschilderen verhogingen te verzoeken.
+Om het in kaart brengen of het vertragen regels tot stand te brengen, gelieve te verwijzen naar [&#x200B; deze sectie &#x200B;](../configuration/external-systems.md#capping). Door gebrek, is er geen throttling regel maar een maximum van 300.000 vraag over één minuut die voor alle douaneacties, per gastheer en per zandbak wordt bepaald. De limiet &quot;per host&quot; geldt op domeinniveau (bijvoorbeeld example.com). Deze grens is geplaatst gebaseerd op klantengebruik, om externe eindpunten te beschermen die door douaneacties worden gericht. Indien nodig, kunt u deze het plaatsen met voeten treden door een grotere het maximum van het maximum of het vertragen grens door onze Capping/het Draaien APIs te bepalen. Verwijs naar [&#x200B; deze pagina &#x200B;](../action/about-custom-action-configuration.md) voor meer details op hoe te om het afschilderen verhogingen te verzoeken.
 
 +++
 
@@ -126,7 +126,7 @@ Voor een bepaalde vraag, kan een maximum van drie pogingen na de eerste vraag wo
 
 +++ Waar kan ik de onderbreking vormen? Is er een maximumwaarde?
 
-In elke reis, kunt u een onderbrekingsduur bepalen. De duur van de onderbreking wordt gevormd in de eigenschappen van een reis. De duur van de onderbreking moet tussen 1 seconde en 30 seconden zijn. Verwijs naar [ deze sectie ](../configuration/external-systems.md#timeout) en [ deze pagina ](../building-journeys/journey-properties.md#timeout_and_error).
+In elke reis, kunt u een onderbrekingsduur bepalen. De duur van de onderbreking wordt gevormd in de eigenschappen van een reis. De duur van de onderbreking moet tussen 1 seconde en 30 seconden zijn. Verwijs naar [&#x200B; deze sectie &#x200B;](../configuration/external-systems.md#timeout) en [&#x200B; deze pagina &#x200B;](../building-journeys/journey-properties.md#timeout_and_error).
 
 +++
 
@@ -134,7 +134,7 @@ In elke reis, kunt u een onderbrekingsduur bepalen. De duur van de onderbreking 
 
 De uitgangsvolmacht verstrekt a **statisch IP adres** voor uitgaande vraag van Journey Optimizer aan uw externe systemen. Gebruik het wanneer uw derdeeindpunten IP voegend op lijst van gewenste personen  vereisen.
 
-**Belangrijk:** de uitgangsvolmacht controleert GEEN productie, tariefgrenzen, of het aantal gezamenlijke verbindingen. Om vraagvolume en verbindingsgrenzen te beheren, gebruik [ Capping API ](capping.md) of [ Throttling API ](throttling.md).
+**Belangrijk:** de uitgangsvolmacht controleert GEEN productie, tariefgrenzen, of het aantal gezamenlijke verbindingen. Om vraagvolume en verbindingsgrenzen te beheren, gebruik [&#x200B; Capping API &#x200B;](capping.md) of [&#x200B; Throttling API &#x200B;](throttling.md).
 
 **gebruik de uitgang volmacht voor:**
 * Voegend op lijst van gewenste personen statische IP op uw derdefirewall of eindpunt
