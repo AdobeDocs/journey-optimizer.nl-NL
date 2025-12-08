@@ -11,9 +11,9 @@ keywords: activiteit, toestand, canvas, reis, optimalisering
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: fd42ff8502f03debb0bb8c6c0c286744be62c561
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1588'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,11 @@ Een pad kan bijvoorbeeld een e-mail bevatten, een ander pad kan twee SMS-bericht
 
 Door **optimaliseer** activiteit, kunt u de volgende acties op de resulterende wegen uitvoeren:
 
-* Voer [&#x200B; wegexperimenten &#x200B;](#experimentation) in werking
-* Hefboomwerking [&#x200B; richtend &#x200B;](#targeting) regels in elke wegweg
-* Pas [&#x200B; voorwaarden &#x200B;](#conditions) op uw wegen toe
+* Voer [ wegexperimenten ](#experimentation) in werking
+* Hefboomwerking [ richtend ](#targeting) regels in elke wegweg
+* Pas [ voorwaarden ](#conditions) op uw wegen toe
 
-![&#x200B; optimaliseer knoop in het palet van de reisactiviteit &#x200B;](assets/journey-optimize.png)
+![ optimaliseer knoop in het palet van de reisactiviteit ](assets/journey-optimize.png)
 
 Zodra de reis levend is, worden profielen beoordeeld aan de hand van de vastgestelde criteria en op basis van passende criteria, worden zij de aangewezen weg van de reis afgelegd.
 
@@ -53,7 +53,7 @@ Zodra de reis levend is, worden profielen beoordeeld aan de hand van de vastgest
 >id="ajo_path_experiment_success_metric"
 >title="Metrisch met succes"
 >abstract="Succesvolle maatstaf wordt gebruikt om de best presterende behandeling in een experiment bij te houden en te evalueren."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Vorm en spoor uw reismetriek"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Vorm en spoor uw reismetriek"
 
 Met behulp van experimenten kunt u verschillende paden testen op basis van een willekeurige splitsing om te bepalen wat het beste werkt op basis van vooraf gedefinieerde succeswaarden.
 
@@ -71,13 +71,13 @@ Stel dat u drie paden wilt vergelijken:
 
 1. Selecteer **[!UICONTROL Experiment]** in de vervolgkeuzelijst **[!UICONTROL Method]** .
 
-   ![&#x200B; het experimenteren van de inhoud configuratievenster &#x200B;](assets/journey-optimize-experiment.png){width=65%}
+   ![ het experimenteren van de inhoud configuratievenster ](assets/journey-optimize-experiment.png){width=65%}
 
 1. Klik op **[!UICONTROL Create experiment]**.
 
-1. Selecteer de **[!UICONTROL Success metric]** die u voor het experiment wilt instellen. Leer meer op de beschikbare metriek en hoe te om de lijst in [&#x200B; te vormen deze sectie &#x200B;](success-metrics.md).
+1. Selecteer de **[!UICONTROL Success metric]** die u voor het experiment wilt instellen. Leer meer op de beschikbare metriek en hoe te om de lijst in [ te vormen deze sectie ](success-metrics.md).
 
-   ![&#x200B; Primaire en extra metriekselectie voor experiment &#x200B;](assets/journey-optimize-experiment-metrics.png){width=80%}
+   ![ Primaire en extra metriekselectie voor experiment ](assets/journey-optimize-experiment-metrics.png){width=80%}
 
 1. U kunt desgewenst een **[!UICONTROL Holdout]** -groep toevoegen aan uw levering. Deze groep zal geen weg van dit experiment ingaan.
 
@@ -91,35 +91,39 @@ Stel dat u drie paden wilt vergelijken:
 
 1. U kunt een exact percentage toewijzen aan elke **[!UICONTROL Treatment]** of gewoon de schakelbalk van **[!UICONTROL Distribute evenly]** inschakelen.
 
-   ![&#x200B; de schuifregelaar van de Toewijzing van de Behandeling met percentagedistributie &#x200B;](assets/journey-optimize-experiment-treatments.png){width=80%}
+   ![ de schuifregelaar van de Toewijzing van de Behandeling met percentagedistributie ](assets/journey-optimize-experiment-treatments.png){width=80%}
 
 1. Klik op **[!UICONTROL Create]**.
 
 1. Definieer de elementen die u wilt gebruiken voor elke vertakking die het resultaat is van het experiment, bijvoorbeeld:
 
-   * De belemmering en laat vallen een [&#x200B; E-mail &#x200B;](../email/create-email.md) activiteit op de eerste tak (**Behandeling A**).
+   * De belemmering en laat vallen een [ E-mail ](../email/create-email.md) activiteit op de eerste tak (**Behandeling A**).
 
-   * De belemmering en laat vallen a [&#x200B; wacht &#x200B;](wait-activity.md) activiteit van twee dagen op de eerste tak, die door een [&#x200B; wordt gevolgd e-mail &#x200B;](../email/create-email.md) activiteit (**Behandeling B**).
+   * De belemmering en laat vallen a [ wacht ](wait-activity.md) activiteit van twee dagen op de eerste tak, die door een [ wordt gevolgd e-mail ](../email/create-email.md) activiteit (**Behandeling B**).
 
-   * De belemmering en laat vallen een [&#x200B; E-mail &#x200B;](../email/create-email.md) activiteit op de derde tak, die door een [&#x200B; wordt gevolgd SMS &#x200B;](../sms/create-sms.md) activiteit (**Behandeling C**).
+   * De belemmering en laat vallen een [ E-mail ](../email/create-email.md) activiteit op de derde tak, die door een [ wordt gevolgd SMS ](../sms/create-sms.md) activiteit (**Behandeling C**).
 
-   ![&#x200B; het experimenteervoorbeeld van de Inhoud met drie behandelingspaden &#x200B;](assets/journey-optimize-experiment-ex.png){width=100%}
+   ![ het experimenteervoorbeeld van de Inhoud met drie behandelingspaden ](assets/journey-optimize-experiment-ex.png){width=100%}
 
 1. U kunt ook de **[!UICONTROL Add an alternative path in case of a timeout or an error]** gebruiken om een fallback-actie te definiëren. [Meer informatie](using-the-journey-designer.md#paths)
 
 1. Selecteer een kanaalactie en gebruik de knop **[!UICONTROL Edit content]** om de ontwerpgereedschappen te openen.
 
-   ![&#x200B; geeft inhoudsknoop in de activiteit van de kanaalactie uit &#x200B;](assets/journey-optimize-experiment-edit-content.png){width=70%}
+   ![ geeft inhoudsknoop in de activiteit van de kanaalactie uit ](assets/journey-optimize-experiment-edit-content.png){width=70%}
 
 1. Vanaf dat punt kunt u in het linkervenster navigeren tussen de verschillende inhoud voor elke actie in het experiment. Selecteer elke inhoud en ontwerp deze zo nodig.
 
-   ![&#x200B; het selectiepaneel dat van de Inhoud behandelingen voor experiment toont &#x200B;](assets/journey-optimize-experiment-content.png){width=100%}
+   ![ het selectiepaneel dat van de Inhoud behandelingen voor experiment toont ](assets/journey-optimize-experiment-content.png){width=100%}
 
-1. [&#x200B; publiceer &#x200B;](publish-journey.md) uw reis.
+1. [ publiceer ](publish-journey.md) uw reis.
 
 Zodra de reis levend is, worden de gebruikers willekeurig toegewezen om verschillende wegen te gaan. [!DNL Journey Optimizer] houdt bij welk pad het beste presteert en biedt activeerbare inzichten.
 
 Volg het succes van uw reis met het rapport van de Experiment van de Weg van de Reis. [Meer informatie](../reports/journey-global-report-cja-experimentation.md)
+
+>[!CAUTION]
+>
+>Bewerk de metagegevens van een padexperiment niet meer nadat u het hebt gepubliceerd. Als u de metagegevens bewerkt, worden de berekening en rapportage van de resultaten van het experiment verstoord.
 
 ### Gebruiksscenario&#39;s bij experimenten {#uc-experiment}
 
@@ -131,7 +135,7 @@ Test of het verzenden van het eerste bericht via e-mail versus SMS tot hogere om
 
 ➡️ Gebruik de conversiesnelheid als de succesmaatstaf (bijvoorbeeld aankopen, aanmelden).
 
-![&#x200B; experiment van de doeltreffendheid van het Kanaal het vergelijken van e-mail tegenover SMS &#x200B;](assets/journey-optimize-experiment-uc-channel.png)
+![ experiment van de doeltreffendheid van het Kanaal het vergelijken van e-mail tegenover SMS ](assets/journey-optimize-experiment-uc-channel.png)
 
 +++
 
@@ -141,7 +145,7 @@ Voer een experiment uit om te controleren of het verzenden van één e-mail vers
 
 ➡️ Gebruik aankopen of de afmeldingsfrequentie als de maatstaf voor succes.
 
-![&#x200B; de frequentietests van het Bericht testend één e-mail versus drie e-mails &#x200B;](assets/journey-optimize-experiment-uc-frequency.png)
+![ de frequentietests van het Bericht testend één e-mail versus drie e-mails ](assets/journey-optimize-experiment-uc-frequency.png)
 
 +++
 
@@ -151,7 +155,7 @@ Vergelijk een wachttijd van 24 uur in vergelijking met een wachttijd van 72 uur 
 
 ➡️ Gebruik de doorklikfrequentie of de opbrengst als succesmetrisch.
 
-![&#x200B; Wacht tijdexperiment die 24 uur tegenover 72-uurvertragingen vergelijkt &#x200B;](assets/journey-optimize-experiment-uc-wait.png)
+![ Wacht tijdexperiment die 24 uur tegenover 72-uurvertragingen vergelijkt ](assets/journey-optimize-experiment-uc-wait.png)
 
 +++
 
@@ -182,33 +186,33 @@ Volg de onderstaande stappen om doelgericht te kiezen op een reis.
 
 1. Selecteer **[!UICONTROL Targeting rule]** in de vervolgkeuzelijst **[!UICONTROL Method]** .
 
-   ![&#x200B; het richten regelselectie in Optimize activiteit &#x200B;](assets/journey-optimize-targeting.png){width=60%}
+   ![ het richten regelselectie in Optimize activiteit ](assets/journey-optimize-targeting.png){width=60%}
 
 1. Klik op **[!UICONTROL Create targeting rule]**.
 
 1. Klik op **[!UICONTROL Create rule]** > **[!UICONTROL Create new]** en gebruik de regelbouwer om uw criteria te definiëren.
 
-   ![&#x200B; de bouwerinterface van de Regel voor het creëren van het richten van criteria &#x200B;](assets/journey-targeting-create-rule.png){width=100%}
+   ![ de bouwerinterface van de Regel voor het creëren van het richten van criteria ](assets/journey-targeting-create-rule.png){width=100%}
 
    U kunt bijvoorbeeld een regel definiëren voor Gold-leden van het Loyalty-programma (`loyalty.status.equals("Gold", false)`) en een regel voor de andere leden (`loyalty.status.notEqualTo("Gold", false)`).
 
-   ![&#x200B; Loyalty status richtend regel voor Goud en niet-Goud leden &#x200B;](assets/journey-targeting-rule.png)
+   ![ Loyalty status richtend regel voor Goud en niet-Goud leden ](assets/journey-targeting-rule.png)
 
 1. U kunt ook op **[!UICONTROL Create rule]** > **[!UICONTROL Select rule]** klikken om een bestaande doelregel te selecteren die in het menu **[!UICONTROL Rules]** is gemaakt. [Meer informatie](../experience-decisioning/rules.md)
 
-   ![&#x200B; Uitgezocht bestaand richtend regel van het menu van Regels &#x200B;](assets/journey-targeting-select-rule.png){width=70%}
+   ![ Uitgezocht bestaand richtend regel van het menu van Regels ](assets/journey-targeting-select-rule.png){width=70%}
 
    In dit geval wordt de formule die de regel vormt, gewoon gekopieerd naar de reisactiviteit. Eventuele volgende wijzigingen in die regel in het menu **[!UICONTROL Rules]** hebben geen invloed op de kopie van de rit.
 
    >[!AVAILABILITY]
    >
-   >[&#x200B; Creërend het richten van regels &#x200B;](../experience-decisioning/rules.md#create) van het specifieke [!DNL Journey Optimizer] menu is momenteel beschikbaar aan organisaties die het Besluit toe:voegen-op aanbieden hebben gekocht, en zij zijn beschikbaar op bestelling voor de andere organisaties (Beperkte Beschikbaarheid).
+   >[ Creërend het richten van regels ](../experience-decisioning/rules.md#create) van het specifieke [!DNL Journey Optimizer] menu is momenteel beschikbaar aan organisaties die het Besluit toe:voegen-op aanbieden hebben gekocht, en zij zijn beschikbaar op bestelling voor de andere organisaties (Beperkte Beschikbaarheid).
    >
    >Deze capaciteit zal geleidelijk aan aan alle klanten worden uitgebreid. Neem in de tussentijd contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 1. Nadat u een regel hebt toegevoegd, kunt u deze nog steeds wijzigen. Kies **[!UICONTROL Edit inline]** om de regel onderweg bij te werken met de regelbuilder of **[!UICONTROL Select rule]** om een andere bestaande regel op te halen.
 
-   ![&#x200B; geef gealigneerde uit of selecteer regelopties voor het wijzigen van het richten van regels &#x200B;](assets/journey-targeting-modify-rule.png){width=100%}
+   ![ geef gealigneerde uit of selecteer regelopties voor het wijzigen van het richten van regels ](assets/journey-targeting-modify-rule.png){width=100%}
 
    >[!NOTE]
    >
@@ -224,21 +228,21 @@ Volg de onderstaande stappen om doelgericht te kiezen op een reis.
 
 1. Plaats op de achtergrond de specifieke handelingen om elk pad aan te passen. Maak bijvoorbeeld een e-mailbericht met persoonlijke aanbiedingen voor leden van Gold Loyalty en een SMS-herinnering voor alle andere leden.
 
-   ![&#x200B; wegen van de Reis met e-mail voor Gouden leden en SMS voor anderen &#x200B;](assets/journey-targeting-paths.png)
+   ![ wegen van de Reis met e-mail voor Gouden leden en SMS voor anderen ](assets/journey-targeting-paths.png)
 
 1. Als u bij het definiëren van de regelinstellingen de optie **[!UICONTROL Enable fallback content]** hebt geselecteerd, definieert u een of meer handelingen voor het terugvalpad dat automatisch is toegevoegd.
 
-   ![&#x200B; de padconfiguratie van de Fallback voor ongekwalificeerde profielen &#x200B;](assets/journey-targeting-fallback.png){width=70%}
+   ![ de padconfiguratie van de Fallback voor ongekwalificeerde profielen ](assets/journey-targeting-fallback.png){width=70%}
 
 1. U kunt desgewenst ook de **[!UICONTROL Add an alternative path in case of a timeout or an error]** gebruiken om een alternatieve actie te definiëren als er problemen optreden. [Meer informatie](using-the-journey-designer.md#paths)
 
 1. Ontwerp aangewezen inhoud voor elke actie die aan elke groep beantwoordt die door uw het richten regelmontages wordt bepaald. U kunt naadloos navigeren tussen de verschillende inhoud voor elke actie.
 
-   ![&#x200B; het ontwerppaneel van de Inhoud voor het richten van regelacties &#x200B;](assets/journey-targeting-design.png)
+   ![ het ontwerppaneel van de Inhoud voor het richten van regelacties ](assets/journey-targeting-design.png)
 
    In dit voorbeeld ontwerpt u een e-mail met speciale aanbiedingen voor Gold-leden en een SMS-herinnering voor de andere leden.
 
-1. [&#x200B; publiceer &#x200B;](publish-journey.md) uw reis.
+1. [ publiceer ](publish-journey.md) uw reis.
 
 Zodra de reis levend is, wordt de weg die voor elk segment wordt gespecificeerd verwerkt zodat de Gouden leden de weg met de e-mailaanbiedingen ingaan, terwijl de andere leden de weg met de herinnering van SMS ingaan.
 
@@ -254,7 +258,7 @@ Goudstatusloyaliteitsleden kunnen persoonlijke aanbiedingen via e-mail ontvangen
 
 <!--➡️ Use the revenue per profile or conversion rate as the optimization metric.-->
 
-![&#x200B; segment-specifieke kanalen die gouden leden met e-mail en anderen met SMS richten &#x200B;](assets/journey-optimize-targeting-uc-segment.png)
+![ segment-specifieke kanalen die gouden leden met e-mail en anderen met SMS richten ](assets/journey-optimize-targeting-uc-segment.png)
 
 +++
 
@@ -264,7 +268,7 @@ Klanten die een e-mail hebben geopend maar niet hebben geklikt, kunnen een pushm
 
 <!--➡️ Use the click-through rate or downstream conversions as the optimization metric.-->
 
-![&#x200B; op gedrag-gebaseerd richten voor e-mailovereenkomst met duw of fallback van SMS &#x200B;](assets/journey-optimize-targeting-uc-behavior.png)
+![ op gedrag-gebaseerd richten voor e-mailovereenkomst met duw of fallback van SMS ](assets/journey-optimize-targeting-uc-behavior.png)
 
 +++
 
@@ -274,22 +278,22 @@ Klanten die onlangs een aankoop hebben gedaan, kunnen een kort pad naar &quot;Be
 
 <!--➡️ Use the repeat purchase rate or engagement rate as the optimization metric.-->
 
-![&#x200B; de geschiedenis van de Aankoop die met dwars-verkoopweg voor kopers en de weg van de verpleegkunde voor niet-kopers richt &#x200B;](assets/journey-optimize-targeting-uc-purchase.png)
+![ de geschiedenis van de Aankoop die met dwars-verkoopweg voor kopers en de weg van de verpleegkunde voor niet-kopers richt ](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 
 ### Een voorwaarde toevoegen {#conditions}
 
-De voorwaarden zijn een type van [&#x200B; richtend &#x200B;](#targeting) regels die u toelaten om te bepalen hoe de individuen door uw reis door veelvoudige wegen te creëren die op specifieke criteria worden gebaseerd.
+De voorwaarden zijn een type van [ richtend ](#targeting) regels die u toelaten om te bepalen hoe de individuen door uw reis door veelvoudige wegen te creëren die op specifieke criteria worden gebaseerd.
 
-![&#x200B; de activiteit van de Voorwaarde in reis die tot veelvoudige wegen leiden die op criteria worden gebaseerd &#x200B;](assets/journey-condition.png)
+![ de activiteit van de Voorwaarde in reis die tot veelvoudige wegen leiden die op criteria worden gebaseerd ](assets/journey-condition.png)
 
-Leer hoe te om een voorwaarde in [&#x200B; te bepalen deze sectie &#x200B;](conditions.md).
+Leer hoe te om een voorwaarde in [ te bepalen deze sectie ](conditions.md).
 
 De volgende soorten voorwaarden zijn beschikbaar:
 
 * [Source-voorwaarde voor gegevens](condition-activity.md#data_source_condition)
-* [&#x200B; voorwaarde van de Tijd &#x200B;](condition-activity.md#time_condition)
-* [&#x200B; Splitsing van het Percentage &#x200B;](condition-activity.md#percentage_split)
+* [ voorwaarde van de Tijd ](condition-activity.md#time_condition)
+* [ Splitsing van het Percentage ](condition-activity.md#percentage_split)
 * [Datumvoorwaarde](condition-activity.md#date_condition)
 * [Profiel uiteinde](condition-activity.md#profile_cap)
