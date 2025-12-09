@@ -7,14 +7,19 @@ role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 20408838a030ceeb8e61f5e1b80d910a8a21b87d
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
 
-# Itemcatalogus {#catalog}
+# De itemcatalogus configureren {#catalog}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_custom_attributes"
+>title="De aangepaste kenmerken definiëren"
+>abstract="Aangepaste kenmerken zijn specifieke kenmerken die zijn toegesneden op uw behoeften en die u kunt toewijzen aan een beslissingsitem. Zij worden gecreeerd in het de catalogusschema van besluitvormingspunten."
 
 In Beslissing, dienen de catalogi als centrale containers voor het organiseren van besluitvormingspunten. Elke catalogus is gekoppeld aan een Adobe Experience Platform-schema, dat alle kenmerken omvat die aan een beslissingsitem kunnen worden toegewezen.
 
@@ -48,11 +53,11 @@ Ga als volgt te werk om het schema van de catalogus te openen waarin de kenmerke
 1. Het schema van de catalogus wordt op een nieuw tabblad geopend, volgens de onderstaande structuur:
 
    * Het knooppunt **`_experience`** bevat standaardkenmerken voor besluitvormingsitems, zoals naam, begin- en einddatum en beschrijving.
-   * Het knooppunt **`_<imsOrg>`** bevat kenmerken voor aangepaste beslissingsitems. Standaard zijn er geen aangepaste kenmerken geconfigureerd, maar u kunt er zo veel toevoegen als nodig is om aan uw vereisten te voldoen. Zodra gedaan, verschijnen de douanekenmerken in het scherm van de verwezenlijking van het besluitpunt naast de standaardattributen.
+   * Het knooppunt **`_<imsOrg>`** bevat kenmerken van aangepaste-beslissingsitems, waarbij `<imsOrg>` wordt vervangen door de naam van uw organisatie (bijvoorbeeld `_luma` voor het bedrijf Luma). Standaard zijn er geen aangepaste kenmerken geconfigureerd, maar u kunt er zo veel toevoegen als nodig is om aan uw vereisten te voldoen. Zodra gedaan, verschijnen de douanekenmerken in het scherm van de verwezenlijking van het besluitpunt naast de standaardattributen.
 
    ![](assets/catalogs-schema.png)
 
-1. Als u een aangepast kenmerk aan het schema wilt toevoegen, vouwt u het knooppunt **`_<imsOrg>`** uit en klikt u op de knop &quot;+&quot; op de gewenste locatie in de structuur.
+1. Als u een aangepast kenmerk aan het schema wilt toevoegen, vouwt u het knooppunt van uw organisatie (bijvoorbeeld **`_luma`** ) uit en klikt u op de knop &quot;+&quot; op de gewenste locatie in de structuur.
 
    ![](assets/catalogs-add.png)
 
@@ -60,7 +65,7 @@ Ga als volgt te werk om het schema van de catalogus te openen waarin de kenmerke
 
    De waarde die op een attribuut met het besluit activaattribuut wordt ingevoerd is een openbare url. Meestal wijst dit naar een afbeelding.
 
-   De gedetailleerde informatie over hoe te met de schema&#39;s van Adobe Experience Platform te werken is beschikbaar in de [&#x200B; documentatie van het Systeem XDM &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=nl-NL).
+   De gedetailleerde informatie over hoe te met de schema&#39;s van Adobe Experience Platform te werken is beschikbaar in de [ documentatie van het Systeem XDM ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html).
 
 1. Sla het schema op wanneer u de gewenste aangepaste kenmerken hebt toegevoegd. Het nieuwe veld is nu beschikbaar in het scherm voor het maken van een besluit-item, in de sectie **[!UICONTROL Custom attributes]** .
 
