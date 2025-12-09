@@ -62,7 +62,7 @@ Ga als volgt te werk om het schema van de catalogus te openen waarin de kenmerke
 
 1. Vul de vereiste velden voor het toegevoegde kenmerk in en klik op **[!UICONTROL Apply]** .
 
-   De waarde die wordt ingevoerd op een kenmerk met een attribuut van een beslissingselement is een openbare URL. Meestal wijst dit naar een afbeelding. De gedetailleerde informatie over hoe te met [!DNL Adobe Experience Platform] schema&#39;s te werken is beschikbaar in de [&#x200B; documentatie van het Systeem XDM &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html).
+   De waarde die wordt ingevoerd op een kenmerk met een attribuut van een beslissingselement is een openbare URL. Meestal wijst dit naar een afbeelding. De gedetailleerde informatie over hoe te met [!DNL Adobe Experience Platform] schema&#39;s te werken is beschikbaar in de [&#x200B; documentatie van het Systeem XDM &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=nl-NL).
 
 1. Sla het schema op wanneer u de gewenste aangepaste kenmerken hebt toegevoegd. Het nieuwe veld is nu beschikbaar in het scherm voor het maken van een besluit-item, in de sectie **[!UICONTROL Custom attributes]** .
 
