@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 version: Journey Orchestration
-source-git-commit: 9894abfbc07268fea7c5081beaa93179cd63f689
+source-git-commit: 86145ff79de58391cc31c9b1a4bd34135868920e
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_custom_attributes"
->title="De aangepaste kenmerken definiëren"
+>title="Het schema van de catalogus openen en bewerken"
 >abstract="Aangepaste kenmerken zijn specifieke kenmerken die zijn toegesneden op uw behoeften en die u kunt toewijzen aan een beslissingsitem. Zij worden gecreeerd in het de catalogusschema van besluitvormingspunten."
 
 In Beslissing, dienen de catalogi als centrale containers voor het organiseren van besluitvormingspunten. Elke catalogus is gekoppeld aan een [!DNL Adobe Experience Platform] -schema, dat alle kenmerken omvat die aan een beslissingsitem kunnen worden toegewezen.
 
 Vooralsnog worden alle gemaakte beslissingsitems geconsolideerd in één catalogus met &quot;aanbiedingen&quot;, die toegankelijk is via het menu **[!UICONTROL Catalogs]** .
 
-![&#x200B; de cataloguslijst die van het Punt de catalogus toont van Aanbiedingen &#x200B;](assets/catalogs-list.png)
+![ de cataloguslijst die van het Punt de catalogus toont van Aanbiedingen ](assets/catalogs-list.png)
 
 ## Afbeeldingen en beperkingen
 
@@ -54,18 +54,18 @@ Ga als volgt te werk om het schema van de catalogus te openen waarin de kenmerke
    * Het knooppunt **`_experience`** bevat standaardkenmerken voor besluitvormingsitems, zoals naam, begin- en einddatum en beschrijving.
    * Het knooppunt **`_<imsOrg>`** bevat kenmerken van aangepaste-beslissingsitems, waarbij `<imsOrg>` wordt vervangen door de naam van uw organisatie (bijvoorbeeld `_luma` voor het bedrijf Luma). Standaard zijn er geen aangepaste kenmerken geconfigureerd, maar u kunt er zo veel toevoegen als nodig is om aan uw vereisten te voldoen. Zodra gedaan, verschijnen de douanekenmerken in het scherm van de verwezenlijking van het besluitpunt naast de standaardattributen.
 
-   ![&#x200B; het schemastructuur van de Catalogus met ervaring en organisatieknooppunten &#x200B;](assets/catalogs-schema.png)
+   ![ het schemastructuur van de Catalogus met ervaring en organisatieknooppunten ](assets/catalogs-schema.png)
 
 1. Als u een aangepast kenmerk aan het schema wilt toevoegen, vouwt u het knooppunt van uw organisatie (bijvoorbeeld **`_luma`** ) uit en klikt u op de knop &quot;+&quot; op de gewenste locatie in de structuur.
 
-   ![&#x200B; voeg de knoop van douaneattributen in schemageditor &#x200B;](assets/catalogs-add.png) toe
+   ![ voeg de knoop van douaneattributen in schemageditor ](assets/catalogs-add.png) toe
 
 1. Vul de vereiste velden voor het toegevoegde kenmerk in en klik op **[!UICONTROL Apply]** .
 
-   De waarde die wordt ingevoerd op een kenmerk met een attribuut van een beslissingselement is een openbare URL. Meestal wijst dit naar een afbeelding. De gedetailleerde informatie over hoe te met [!DNL Adobe Experience Platform] schema&#39;s te werken is beschikbaar in de [&#x200B; documentatie van het Systeem XDM &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=nl-NL).
+   De waarde die wordt ingevoerd op een kenmerk met een attribuut van een beslissingselement is een openbare URL. Meestal wijst dit naar een afbeelding. De gedetailleerde informatie over hoe te met [!DNL Adobe Experience Platform] schema&#39;s te werken is beschikbaar in de [ documentatie van het Systeem XDM ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html).
 
 1. Sla het schema op wanneer u de gewenste aangepaste kenmerken hebt toegevoegd. Het nieuwe veld is nu beschikbaar in het scherm voor het maken van een besluit-item, in de sectie **[!UICONTROL Custom attributes]** .
 
    In het onderstaande voorbeeld ziet u een scherm voor het maken van items met aangepaste kenmerken, zoals objecten die in het schema zijn gedefinieerd.
 
-   ![&#x200B; het aanmaakscherm van het Punt van het Besluit met de sectie van douaneattributen &#x200B;](assets/custom-attributes.png)
+   ![ het aanmaakscherm van het Punt van het Besluit met de sectie van douaneattributen ](assets/custom-attributes.png)
