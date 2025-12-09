@@ -126,11 +126,11 @@ Hier zijn algemene scenario&#39;s die aantonen hoe entry- en exit-criteria in de
 
 Raadpleeg de volgende gedocumenteerde gebruiksgevallen voor stapsgewijze implementatierichtlijnen met volledige technische details:
 
-* **[Klant op het instappen reis &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)** - Bouw gepersonaliseerde welkomstervaringen met publiekskwalificatie, gebeurtenisonderbreking, en op doel-gebaseerde uitgang
+* **[Klant op het instappen reis &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)** - Bouw gepersonaliseerde welkomstervaringen met publiekskwalificatie, gebeurtenisonderbreking, en op doel-gebaseerde uitgang
 
-* **[Verlaten kartterugwinning &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)** - herhaal verloren verkoop met gebeurtenis-teweeggebrachte reizen, playbooks, en kanaal verpletterend
+* **[Verlaten kartterugwinning &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)** - herhaal verloren verkoop met gebeurtenis-teweeggebrachte reizen, playbooks, en kanaal verpletterend
 
-* **[campagnes van de re-overeenkomst &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)** - terugwinning inactieve klanten met gedrag gericht en betaalde media activering
+* **[campagnes van de re-overeenkomst &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)** - terugwinning inactieve klanten met gedrag gericht en betaalde media activering
 
 * **[verzendt berichten naar abonnees](message-to-subscribers-uc.md)** - de abonnementenlijsten van het doel met Gelezen Publiek en gepersonaliseerde inhoud
 
@@ -199,8 +199,8 @@ Begin door uw klantentrekkers en uitgangspunten duidelijk in kaart te brengen, g
 **Zelfstudies en voorbeelden**
 
 * [&#x200B; de gebruiksgevallen van de Reis &#x200B;](jo-use-cases.md) - Volledige reisvoorbeelden en patronen
-* [&#x200B; Klant op het instappen video &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)
-* [&#x200B; Verlaten kart video &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)
+* [&#x200B; Klant op het instappen video &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)
+* [&#x200B; Verlaten kart video &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)
 * [&#x200B; Communautaire blog: De Criteria van de Ingang en van de Uitgang &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **Verwante mogelijkheden**
