@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Met Journey Optimizer kunt u marketingaanbiedingen maken, ook wel &#39;beslissingsitems&#39; genoemd, die u kunt maken en indelen in een gecentraliseerde catalogus en verzamelingen. Ze bestaan uit standaard- en aangepaste kenmerken die precies op uw behoeften zijn afgestemd. Bovendien, nemen zij profielbeperkingen op die u toestaan om te bepalen aan wie een besluitpunt kan worden getoond.
 
-Alvorens een besluitvormingspunt tot stand te brengen, zorg ervoor u a **besluitvormingsregel** hebt gecreeerd als u voorwaarden wilt plaatsen om te bepalen aan wie het besluitpunt kan worden getoond. [ Leer hoe te om besluitvormingsregels ](rules.md) tot stand te brengen.
+Alvorens een besluitvormingspunt tot stand te brengen, zorg ervoor u a **besluitvormingsregel** hebt gecreeerd als u voorwaarden wilt plaatsen om te bepalen aan wie het besluitpunt kan worden getoond. [&#x200B; Leer hoe te om besluitvormingsregels &#x200B;](rules.md) tot stand te brengen.
 
 Als u een beslissingsitem wilt maken, navigeert u naar **[!UICONTROL Decisioning]** > **[!UICONTROL Catalogs]** en klikt u op **[!UICONTROL Create item]** . Vervolgens volgt u de stappen die in de onderstaande secties worden beschreven.
 
@@ -46,15 +46,15 @@ Begin door de standaard en douanekenmerken van het besluitpunt te bepalen:
    >
    >De prioriteit is een gegevenstype van gehele getallen. Alle attributen die geheelgegevenstypes zijn zouden geheelwaarden (geen decimalen) moeten bevatten.
 
-1. Het **gebied van Markeringen** staat u toe om Adobe Experience Platform Verenigde Markeringen aan uw besluitvormingspunten toe te wijzen. Op deze manier kunt u ze gemakkelijk classificeren en zoeken verbeteren. [ leer hoe te met markeringen ](../start/search-filter-categorize.md#tags) werken
+1. Het **gebied van Markeringen** staat u toe om Adobe Experience Platform Verenigde Markeringen aan uw besluitvormingspunten toe te wijzen. Op deze manier kunt u ze gemakkelijk classificeren en zoeken verbeteren. [&#x200B; leer hoe te met markeringen &#x200B;](../start/search-filter-categorize.md#tags) werken
 
-1. Gebruik fragmenten om meerdere inhoud aan het beslissingsitem toe te voegen, bijvoorbeeld als u verschillende inhoud wilt weergeven voor verschillende modellen mobiele apparaten. [ Leer meer op fragmenten ](../content-management/fragments.md)
+1. Gebruik fragmenten om meerdere inhoud aan het beslissingsitem toe te voegen, bijvoorbeeld als u verschillende inhoud wilt weergeven voor verschillende modellen mobiele apparaten. [&#x200B; Leer meer op fragmenten &#x200B;](../content-management/fragments.md)
 
    >[!AVAILABILITY]
    >
    >Fragmenten in beslissingsitems zijn momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-   Selecteer in de sectie **[!UICONTROL Fragments]** de gepubliceerde fragmenten die u wilt gebruiken en wijs er een referentietoets aan toe. U kunt deze fragmenten vervolgens gebruiken in uw beslissingsbeleid. [ leer hoe ](create-decision.md#fragments)
+   Selecteer in de sectie **[!UICONTROL Fragments]** de gepubliceerde fragmenten die u wilt gebruiken en wijs er een referentietoets aan toe. U kunt deze fragmenten vervolgens gebruiken in uw beslissingsbeleid. [&#x200B; leer hoe &#x200B;](create-decision.md#fragments)
 
    ![](assets/item-fragments.png){width=70%}
 
@@ -62,11 +62,11 @@ Begin door de standaard en douanekenmerken van het besluitpunt te bepalen:
 
    >[!WARNING]
    >
-   >Momenteel slechts [ uitdrukkingsfragmenten ](../personalization/use-expression-fragments.md) worden gesteund.
+   >Momenteel slechts [&#x200B; uitdrukkingsfragmenten &#x200B;](../personalization/use-expression-fragments.md) worden gesteund.
    >
-   >Geneste fragmenten (fragmenten die verwijzen naar andere fragmenten) kunnen niet worden gebruikt. De goedkeuring van het besluitvormingspunt [ ](#approve) zal ontbreken als u zulk een fragment toevoegt.
+   >Geneste fragmenten (fragmenten die verwijzen naar andere fragmenten) kunnen niet worden gebruikt. De goedkeuring van het besluitvormingspunt [&#x200B; &#x200B;](#approve) zal ontbreken als u zulk een fragment toevoegt.
 
-1. Aangepaste kenmerken opgeven (optioneel). Aangepaste kenmerken zijn specifieke kenmerken die zijn toegesneden op uw behoeften en die u kunt toewijzen aan een beslissingsitem. Zij worden bepaald in het de catalogusschema van besluitvormingspunten. [ leer hoe te met catalogi ](catalogs.md) werken
+1. Aangepaste kenmerken opgeven (optioneel). Aangepaste kenmerken zijn specifieke kenmerken die zijn toegesneden op uw behoeften en die u kunt toewijzen aan een beslissingsitem. Zij worden bepaald in het de catalogusschema van besluitvormingspunten. [&#x200B; leer hoe te met catalogi &#x200B;](catalogs.md) werken
 
 1. Wanneer de kenmerken van het beslissingsitem zijn gedefinieerd, klikt u op **[!UICONTROL Next]** .
 
@@ -95,9 +95,9 @@ In feite is de uitvoer van een publiek een lijst met profielen, terwijl een besl
 
 +++
 
-* Als u de presentatie van het beslissingsitem wilt beperken tot de leden van een of meer Adobe Experience Platform-doelgroepen, selecteert u de optie **[!UICONTROL Visitors who fall into one or multiple audiences]** en voegt u vervolgens een of meer soorten doelgroepen in het linkerdeelvenster toe en combineert u deze met de logische operatoren **[!UICONTROL And]** / **[!UICONTROL Or]** . [ leer meer over publiek ](../audience/about-audiences.md)
+* Als u de presentatie van het beslissingsitem wilt beperken tot de leden van een of meer Adobe Experience Platform-doelgroepen, selecteert u de optie **[!UICONTROL Visitors who fall into one or multiple audiences]** en voegt u vervolgens een of meer soorten doelgroepen in het linkerdeelvenster toe en combineert u deze met de logische operatoren **[!UICONTROL And]** / **[!UICONTROL Or]** . [&#x200B; leer meer over publiek &#x200B;](../audience/about-audiences.md)
 
-* Als u een specifieke beslissingsregel wilt koppelen aan het beslissingsitem, selecteert u **[!UICONTROL By rule]** en sleept u de gewenste regel van het linkerdeelvenster naar het centrale gebied. [ leer meer over besluitvormingsregels ](rules.md)
+* Als u een specifieke beslissingsregel wilt koppelen aan het beslissingsitem, selecteert u **[!UICONTROL By rule]** en sleept u de gewenste regel van het linkerdeelvenster naar het centrale gebied. [&#x200B; leer meer over besluitvormingsregels &#x200B;](rules.md)
 
 ![](assets/item-constraints.png)
 
@@ -112,7 +112,7 @@ Wanneer u publiek of beslissingsregels selecteert, kunt u informatie over de ges
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_expression"
 >title="Uitdrukking"
->abstract="In plaats daarvan kunt u uw eigen expressie definiëren door een statische waarde te gebruiken voor de afkapdrempel. Hierdoor kunt u de drempel dynamisch berekenen met behulp van beslissingskenmerken en/of externe kenmerken van een Adobe Experience Platform-gegevensset.<br/><br/> uitdrukkingen **van de regel van de Capping van 0} zijn momenteel beschikbaar als Beperkte Beschikbaarheid aan alle gebruikers.** Deze worden alleen ondersteund voor het type **[!UICONTROL In total]** capapping."
+>abstract="In plaats daarvan kunt u uw eigen expressie definiëren door een statische waarde te gebruiken voor de afkapdrempel. Hierdoor kunt u de drempel dynamisch berekenen met behulp van beslissingskenmerken en/of externe kenmerken van een Adobe Experience Platform-gegevensset.<br/><br/> uitdrukkingen **van de regel van de Capping van 0&rbrace; zijn momenteel beschikbaar als Beperkte Beschikbaarheid aan alle gebruikers.** Deze worden alleen ondersteund voor het type **[!UICONTROL In total]** capapping."
 
 Afdekkingen worden gebruikt als beperking om het maximumaantal keren te bepalen dat een aanbiedingsobject kan worden aangeboden. Door het aantal keren dat gebruikers specifieke aanbiedingen krijgen te beperken, kunt u voorkomen dat uw klanten te veel vragen en zo elk aanraakpunt optimaliseren met de beste aanbieding. U kunt tot 10 titels voor een bepaald besluitpunt tot stand brengen.
 
@@ -129,7 +129,7 @@ Wanneer het vormen van het begrenzen van regels, kunt u attributen van verwijzin
 
 >[!NOTE]
 >
->Deze mogelijkheid is momenteel beschikbaar als een beperkte beschikbaarheid voor alle gebruikers. De gedetailleerde informatie over hoe te om het te gebruiken is beschikbaar in deze sectie: [ gegevens van Adobe Experience Platform van het Gebruik voor Beslissing ](../experience-decisioning/aep-data-exd.md)
+>Deze mogelijkheid is momenteel beschikbaar als een beperkte beschikbaarheid voor alle gebruikers. De gedetailleerde informatie over hoe te om het te gebruiken is beschikbaar in deze sectie: [&#x200B; gegevens van Adobe Experience Platform van het Gebruik voor Beslissing &#x200B;](../experience-decisioning/aep-data-exd.md)
 
 Klik op de knop **[!UICONTROL Create capping]** en voer de onderstaande stappen uit om de uitlijningsregels voor het beslissingsitem in te stellen.
 
@@ -140,13 +140,13 @@ Klik op de knop **[!UICONTROL Create capping]** en voer de onderstaande stappen 
    * **[!UICONTROL Decision event]** (standaardwaarde): het maximale aantal keer dat een aanbieding kan worden gepresenteerd.
    * **[!UICONTROL Impression]** (alleen binnenkomende kanalen): het maximale aantal keren dat de aanbieding aan een gebruiker kan worden weergegeven.
    * **[!UICONTROL Clicks]**: een gebruiker kan maximaal aantal keer op het beslissingsitem klikken.
-   * **[!UICONTROL Custom event]**: U kunt een aangepaste gebeurtenis definiëren die wordt gebruikt om het aantal keren dat het item wordt verzonden, tot een maximum te beperken. U kunt bijvoorbeeld het aantal aflossingen beperken tot ze gelijk zijn aan 10.000 of tot een bepaald profiel één keer is afgelost. Om dit te doen, gebruik [ Adobe Experience Platform XDM ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"} schema&#39;s om een regel van de douanegebeurtenis te bouwen.
+   * **[!UICONTROL Custom event]**: U kunt een aangepaste gebeurtenis definiëren die wordt gebruikt om het aantal keren dat het item wordt verzonden, tot een maximum te beperken. U kunt bijvoorbeeld het aantal aflossingen beperken tot ze gelijk zijn aan 10.000 of tot een bepaald profiel één keer is afgelost. Om dit te doen, gebruik [&#x200B; Adobe Experience Platform XDM &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"} schema&#39;s om een regel van de douanegebeurtenis te bouwen.
 
    >[!NOTE]
    >
    >Voor alle begrenzingsgebeurtenissen behalve beslissingsgebeurtenis, kan de terugkoppeling van het beslissingsbeheer niet automatisch worden verzameld, wat ertoe kan leiden dat de afspeelteller niet correct wordt verhoogd. Om ervoor te zorgen dat elke begrenzingsgebeurtenis wordt bijgehouden en in de afluisterteller wordt rekenschap gegeven, zorg ervoor dat het schema dat wordt gebruikt om ervaringsgebeurtenissen te verzamelen de correcte gebiedsgroep voor die gebeurtenis omvat. Gedetailleerde informatie over gegevensverzameling is beschikbaar in de Journey Optimizer-documentatie voor besluitvormingsbeheer:
-   >* [ de gegevensinzameling van het Beheer van het Besluit ](data-collection/data-collection.md)
-   >* [ vorm gegevensinzameling ](data-collection/schema-requirement.md)
+   >* [&#x200B; de gegevensinzameling van het Beheer van het Besluit &#x200B;](data-collection/data-collection.md)
+   >* [&#x200B; vorm gegevensinzameling &#x200B;](data-collection/schema-requirement.md)
 
 1. Kies het type bijschrift:
 
