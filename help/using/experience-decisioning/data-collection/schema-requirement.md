@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 exl-id: ce3a2c33-c15b-436f-90b1-7373d7b2b1ca
 version: Journey Orchestration
-source-git-commit: f43b1ea0dd2197331329e24cb3d76eef0b5a9e86
+source-git-commit: 093e5ba2a74b498bb31d0398e1df460fd93b285f
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -104,6 +104,10 @@ Controleer of de volgende velden correct zijn geconfigureerd:
 
 Elk aanbod in een voorstel bevat een trackingtoken. Dit is een unieke id die door Adobe wordt gegenereerd. Dit token moet exact worden doorgegeven zoals het is ontvangen — zonder wijziging — in de corresponderende klik- of impressiegebeurtenis. Overeenkomende trackingtokens zorgen ervoor dat Adobe de actie van de gebruiker precies kan koppelen aan het juiste aanbiedingsbesluit, waardoor downstreamrapportage en op AI gebaseerde optimalisatie mogelijk zijn.
 
+>[!CAUTION]
+>
+>Als u het token voor bijhouden niet doorgeeft in het veld `propositionAction.tokens` wanneer wordt geklikt bij bijhouden, worden de klikgebeurtenissen niet correct toegewezen aan de corresponderende aanbieding. Dit zal resulteren in onvolledige volggegevens en zal negatief effect hebben op rapportering en op AI-Gebaseerde rangschikking optimalisering. Zorg altijd ervoor dat u het het volgen teken van het voorstel in uw klikvolgende implementatie omvat.
+
 +++**lading van de Steekproef:**
 
 ```json
@@ -179,4 +183,4 @@ Voor aangepaste gebeurtenissen moet aan het schema dat in de gegevensset wordt g
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=nl-NL){target="_blank"}, the connection is made automatically.-->
+>If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, the connection is made automatically.-->
