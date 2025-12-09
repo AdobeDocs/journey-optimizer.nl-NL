@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: e292d584e3c3d1997c2c3e6bb3675758ff530bf9
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
@@ -18,21 +18,45 @@ ht-degree: 0%
 
 Door Adobe Experience Manager as a Cloud Service te integreren met Adobe Journey Optimizer, kunt u nu uw AEM-inhoudsfragmenten naadloos opnemen in uw Journey Optimizer-inhoud. Deze gestroomlijnde verbinding vereenvoudigt het proces van toegang tot en gebruik van AEM-inhoud, waardoor persoonlijke en dynamische campagnes en reizen kunnen worden gemaakt.
 
-Meer over de Fragmenten van de Inhoud van AEM leren, verwijs naar [&#x200B; Werkend met de Fragmenten van de Inhoud &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} in de documentatie van Experience Manager.
+Meer over de Fragmenten van de Inhoud van AEM leren, verwijs naar [ Werkend met de Fragmenten van de Inhoud ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} in de documentatie van Experience Manager.
+
+## Voordat u begint {#start}
 
 >[!AVAILABILITY]
 >
 >Voor klanten in de gezondheidszorg is de integratie alleen mogelijk na het in licentie geven van het Journey Optimizer Healthcare Shield- en Adobe Experience Manager Enhanced Security-add-on-aanbod.
 
-## Beperkingen {#limitations}
+### Beperkingen {#limitations}
 
-* Het wordt aanbevolen het aantal gebruikers dat toegang heeft tot het publiceren van inhoudsfragmenten te beperken om het risico op onbedoelde fouten te beperken.
+Houd rekening met de volgende beperkingen wanneer u werkt met Adobe Experience Manager Content Fragments in Journey Optimizer:
 
-* Voor meertalige inhoud wordt alleen de handmatige stroom ondersteund.
+* **de Types van Fragment van Inhoud**: Slechts worden de eenvoudige Fragmenten van de Inhoud gesteund. Variaties en geneste fragmenten worden momenteel niet ondersteund.
 
-* Variaties worden momenteel niet ondersteund.
+* **Meertalige inhoud**: Slechts wordt de handstroom gesteund.
 
-* Het bewijs voor gepubliceerde campagne en reis weerspiegelt de gegevens van de recentste publicatie van het de fragmenten van de Inhoud van Experience Manager.
+* **Personalization**: Slechts profielattributen, contextuele attributen, statische koorden, en pre-gedeclareerde variabelen worden gesteund. Afgeleide of berekende kenmerken worden niet ondersteund.
+
+* **Updates en versioning**: De updates van het Fragment van de inhoud vereisen handherpublicatie van Adobe Experience Manager. Er is geen automatische afstemming van versies tussen Adobe Experience Manager en Journey Optimizer.
+
+* **Caching**: Journey Optimizer haalt de Fragmenten van de Inhoud in real time van Adobe Experience Manager publiceren. Er is geen pre-rendercaching.
+
+* **het Bewijzen**: Het bewijs voor gepubliceerde campagnes en reizen wijst op gegevens van de recentste publicatie van het Fragment van de Inhoud van Experience Manager. Er is geen historische versieslot.
+
+* **toegang van de Gebruiker**: Het wordt geadviseerd om het aantal gebruikers met toegang te beperken om de Fragmenten van de Inhoud te publiceren om het risico van toevallige fouten te verminderen.
+
+### Stroom van inhoudssynchronisatie {#content-sync-flow}
+
+De integratie tussen Adobe Experience Manager en Journey Optimizer volgt deze gegevensstroom:
+
+1. **[creeer en auteur ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**: De inhoud wordt gecreeerd en in Adobe Experience Manager gevormd als Fragments van de Inhoud.
+
+1. **[het Etiketteren ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**: De Fragmenten van de inhoud moeten met de Journey Optimizer-Specifieke markering (`ajo-enabled:{OrgId}/{SandboxName}`) worden geëtiketteerd.
+
+1. **[publiceer ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**: De Fragmenten van de inhoud worden gepubliceerd in Adobe Experience Manager, die hen ter beschikking stellen van Journey Optimizer.
+
+1. **[Toegang](#aem-add)**: Journey Optimizer haalt en toont beschikbare de Fragmenten van de Inhoud van Adobe Experience Manager publiceren instantie in real time.
+
+1. **[Integratie](#aem-add)**: De Fragmenten van de inhoud worden geselecteerd en in campagnes of reizen geïntegreerd.
 
 ## Een tag maken en toewijzen in Experience Manager
 
@@ -50,17 +74,19 @@ Voordat u het inhoudsfragment in Journey Optimizer kunt gebruiken, moet u een sp
 
 1. Klik **creëren**.
 
-1. Bepaal uw Model van het Fragment van de Inhoud zoals die in [&#x200B; wordt gedetailleerd de documentatie van Experience Manager &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"} en wijs uw pas gecreëerde markering van Journey Optimizer toe.
+1. Bepaal uw Model van het Fragment van de Inhoud zoals die in [ wordt gedetailleerd de documentatie van Experience Manager ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"} en wijs uw pas gecreëerde markering van Journey Optimizer toe.
 
-U kunt nu beginnen met het maken en configureren van het inhoudsfragment voor later gebruik in Journey Optimizer. Leer meer in [&#x200B; documentatie van Experience Manager &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}.
+Deze real-time verbinding zorgt ervoor dat uw inhoud altijd up-to-date is, maar betekent ook dat wijzigingen in gepubliceerde fragmenten onmiddellijk van invloed zullen zijn op actieve campagnes en reizen.
+
+U kunt nu beginnen met het maken en configureren van het inhoudsfragment voor later gebruik in Journey Optimizer. Leer meer in [ documentatie van Experience Manager ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}.
 
 ## Experience Manager-inhoudsfragmenten toevoegen {#aem-add}
 
 Nadat u de AEM Content Fragments hebt gemaakt en gepersonaliseerd, kunt u deze nu importeren naar uw campagne of reis voor het optimaliseren van de reis.
 
-1. Creeer uw [&#x200B; Campagne &#x200B;](../campaigns/create-campaign.md) of [&#x200B; Reis &#x200B;](../building-journeys/journey-gs.md).
+1. Creeer uw [ Campagne ](../campaigns/create-campaign.md) of [ Reis ](../building-journeys/journey-gs.md).
 
-1. Om tot uw de inhoudsfragment van AEM toegang te hebben, klik ![&#x200B; het pictogram van Personalization &#x200B;](assets/do-not-localize/Smock_PersonalizationField_18_N.svg) binnen om het even welk tekstgebied, of open de broncode door een de inhoudscomponent van HTML.
+1. Om tot uw de inhoudsfragment van AEM toegang te hebben, klik ![ het pictogram van Personalization ](assets/do-not-localize/Smock_PersonalizationField_18_N.svg) binnen om het even welk tekstgebied, of open de broncode door een de inhoudscomponent van HTML.
 
    ![](assets/aem_campaign_2.png)
 
@@ -86,7 +112,7 @@ Nadat u de AEM Content Fragments hebt gemaakt en gepersonaliseerd, kunt u deze n
 
    ![](assets/aem_campaign_7.png)
 
-1. Klik ![&#x200B; Meer actiepictogram &#x200B;](assets/do-not-localize/Smock_MoreSmallList_18_N.svg) om tot het geavanceerde menu van uw Fragment toegang te hebben:
+1. Klik ![ Meer actiepictogram ](assets/do-not-localize/Smock_MoreSmallList_18_N.svg) om tot het geavanceerde menu van uw Fragment toegang te hebben:
 
    * **[!UICONTROL Swap fragment]**
    * **[!UICONTROL Explore references]**
@@ -117,9 +143,22 @@ In dit geval, zorg ervoor **_variableName_** alvorens fragmentidentiteitskaart t
 
    ![](assets/aem_campaign_9.png){zoomable="yes"}
 
+1. Klik op **[!UICONTROL Save]**. U kunt nu uw berichtinhoud zoals die in [ wordt gedetailleerd deze sectie ](../content-management/preview.md) testen en controleren.
+Zodra u uw tests hebt uitgevoerd en de inhoud bevestigd, kunt u [ uw campagne ](../campaigns/review-activate-campaign.md) verzenden of [ uw reis ](../building-journeys/publish-journey.md) aan uw publiek publiceren.
 
-1. Klik op **[!UICONTROL Save]**. U kunt nu uw berichtinhoud zoals die in [&#x200B; wordt gedetailleerd deze sectie &#x200B;](../content-management/preview.md) testen en controleren.
+Met Adobe Experience Manager kunt u de Journey Optimizer-campagnes of -reizen identificeren waar een inhoudsfragment wordt gebruikt. Leer meer in [ documentatie van Adobe Experience Manager ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references).
 
-Zodra u uw tests hebt uitgevoerd en de inhoud bevestigd, kunt u [&#x200B; uw campagne &#x200B;](../campaigns/review-activate-campaign.md) verzenden of [&#x200B; uw reis &#x200B;](../building-journeys/publish-journey.md) aan uw publiek publiceren.
+## Problemen oplossen {#troubleshooting}
 
-Met Adobe Experience Manager kunt u de Journey Optimizer-campagnes of -reizen identificeren waar een inhoudsfragment wordt gebruikt. Leer meer in [&#x200B; documentatie van Adobe Experience Manager &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references).
+Als u problemen tegenkomt bij het werken met Adobe Experience Manager Content Fragments in Journey Optimizer, raadpleegt u de volgende algemene problemen en resoluties:
+
+| Probleem | Oorzaak | Resolutie |
+|-|-|-|
+| **Markering niet gevonden** of **het Fragment van de Inhoud niet zichtbaar in selecteur** | De syntaxis van de Adobe Experience Manager-tag komt niet overeen met de vereiste indeling `ajo-enabled:{OrgId}/{SandboxName}` | Valideer dat identiteitskaart van de markering correcte **identiteitskaart van de Organisatie** en **Naam Sandbox** gebruikt. Zorg ervoor dat er geen spaties of onjuiste scheidingstekens zijn. Publiceer het inhoudsfragment opnieuw nadat u de tag hebt gecorrigeerd. |
+| **het Fragment van de Inhoud verschijnt niet in lijst** | Inhoudsfragment bevindt zich in concept of is niet goedgekeurd | Alleen goedgekeurde en gepubliceerde inhoudsfragmenten worden weergegeven in de Journey Optimizer-kiezer. Publiceer het inhoudsfragment in Adobe Experience Manager en controleer of het de goedgekeurde status heeft. |
+| **Veranderlijke niet gedefiniëerde fout** | Tijdelijke aanduiding voor Personalization is niet gedeclareerd in fragment helper-tag | Voeg alle vereiste parameters toe aan de fragmenthulplijntag. Elke tijdelijke aanduiding die in het inhoudsfragment wordt gebruikt, moet expliciet worden gedeclareerd met de toewijzing ervan. |
+| **de vertoningen van de proef onverwachte inhoud** | Proef gebruikt de meest recente gepubliceerde versie van Adobe Experience Manager | Proefversies weerspiegelen altijd de meest recente publicatie van het inhoudsfragment in Adobe Experience Manager. Als u recente wijzigingen hebt aangebracht in Adobe Experience Manager, publiceert u het fragment opnieuw en vernieuwt u de proefdruk. |
+| **Ontkende Toegang (CPES) fout** | Gebruikersrol is niet geautoriseerd voor toegang tot bepaalde kenmerken | Neem contact op met de systeembeheerder om te controleren of uw rol de juiste machtigingen heeft voor het profiel of de contextafhankelijke kenmerken die worden gebruikt in personalisatie. |
+| **de vertoningen van het fragment leeg of ontbrekende inhoud** | Ontbrekende vereiste verpersoonlijkingsparameters of terugvalwaarden | Zorg ervoor dat alle vereiste parameters zijn opgegeven en denk na of u terugvalwaarden voor optionele kenmerken wilt toevoegen. |
+
+Als het probleem zich blijft voordoen, neemt u contact op met uw Adobe-vertegenwoordiger voor meer informatie over uw Content Fragment ID, campagne- of reis-id en eventuele weergegeven foutberichten.
