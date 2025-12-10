@@ -21,11 +21,11 @@ ht-degree: 0%
 
 Dankzij de integratie met **[!DNL Adobe Intelligent Services]** kunt u gebruikmaken van kunstmatige intelligentie en het leren van machines voor gebruik door klanten. Hierdoor kunnen marketinganalisten voorspellingen instellen die zijn toegesneden op de behoeften van een bedrijf en die configuraties op bedrijfsniveau gebruiken zonder dat zij expertise op het gebied van gegevenswetenschap nodig hebben.
 
-[!DNL Intelligent Services] is gebaseerd op Adobe Experience Platform en biedt marketers die verantwoordelijk zijn voor de ervaring van klanten toegang tot AI-as-a-service. Dit maakt het gemakkelijk om klantengedrag te voorspellen, het effect van een campagne te meten, of betere rendementen op elke investering te verzekeren. Voor extra details op [!DNL Adobe Intelligent Services], verwijs naar de [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html){target="_blank"}.
+[!DNL Intelligent Services] is gebaseerd op Adobe Experience Platform en biedt marketers die verantwoordelijk zijn voor de ervaring van klanten toegang tot AI-as-a-service. Dit maakt het gemakkelijk om klantengedrag te voorspellen, het effect van een campagne te meten, of betere rendementen op elke investering te verzekeren. Voor extra details op [!DNL Adobe Intelligent Services], verwijs naar de [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html?lang=nl-NL){target="_blank"}.
 
 Dankzij de integratie tussen [!DNL Journey Optimizer] en [!DNL Intelligent Services] kunt u voorspellingen van klanten gebruiken.
 
-KlantAI, een onderdeel van [!DNL Adobe Intelligent Services], voorspelt mogelijke acties van klanten. Zie de [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html){target="_blank"}.
+KlantAI, een onderdeel van [!DNL Adobe Intelligent Services], voorspelt mogelijke acties van klanten. Zie de [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=nl-NL){target="_blank"}.
 
 Klant-AI staat merken toe om leerscores voor churn- of conversiemachines te maken. Deze scores zijn beschikbaar als profielkenmerken in Adobe Experience Platform-profielen (Real-time klantprofiel).
 
