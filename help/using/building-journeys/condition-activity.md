@@ -42,7 +42,7 @@ U kunt ook een publiek gebruiken in een reisconditie. [Meer informatie](#using-a
 
 >[!NOTE]
 >
->De evaluatie van de voorwaarde zal voor profielen ontbreken die meer dan twee dwars-apparatenidentiteiten in de [&#x200B; Opslag van het Profiel &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"} omvatten.
+>De evaluatie van de voorwaarde zal voor profielen ontbreken die meer dan twee dwars-apparatenidentiteiten in de [&#x200B; Opslag van het Profiel &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl-NL#profile-data-store){target="_blank"} omvatten.
 
 ## Voorwaardelijke paden toevoegen en beheren {#about_condition}
 
@@ -72,7 +72,7 @@ In de eenvoudige modus kunt u eenvoudige query&#39;s uitvoeren op basis van een 
 
 ![&#x200B; de redacteur van de Uitdrukking die gebiedsselectie en logische exploitanten toont EN OF &#x200B;](assets/journey64.png)
 
-Als u de [&#x200B; Dienst van de Segmentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} gebruikt om uw publiek tot stand te brengen, kunt u hefboomwerking hen in uw reisvoorwaarden. Verwijs naar [&#x200B; Gebruikend publiek in voorwaarden &#x200B;](../building-journeys/condition-activity.md#using-a-segment). Voor meer informatie over hoe te om publiek in Journey Optimizer te produceren en te richten, verwijs naar [&#x200B; deze sectie &#x200B;](../audience/about-audiences.md).
+Als u de [&#x200B; Dienst van de Segmentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL){target="_blank"} gebruikt om uw publiek tot stand te brengen, kunt u hefboomwerking hen in uw reisvoorwaarden. Verwijs naar [&#x200B; Gebruikend publiek in voorwaarden &#x200B;](../building-journeys/condition-activity.md#using-a-segment). Voor meer informatie over hoe te om publiek in Journey Optimizer te produceren en te richten, verwijs naar [&#x200B; deze sectie &#x200B;](../audience/about-audiences.md).
 
 
 >[!NOTE]
@@ -188,4 +188,4 @@ Voer de volgende stappen uit om een publiek in een reisvoorwaarde te gebruiken:
 
    >[!NOTE]
    >
-   >Merk op dat slechts de individuen met de **Realized** status van de publieksparticipatie als leden van het publiek zullen worden beschouwd. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [&#x200B; documentatie van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Merk op dat slechts de individuen met de **Realized** status van de publieksparticipatie als leden van het publiek zullen worden beschouwd. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [&#x200B; documentatie van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=nl-NL#interpret-segment-results){target="_blank"}.

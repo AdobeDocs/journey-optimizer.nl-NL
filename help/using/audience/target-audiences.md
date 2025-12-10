@@ -63,6 +63,6 @@ U kunt het publiek op verschillende manieren gebruiken in **[!DNL Journey Optimi
 
 Alleen publiek dat is gemaakt in het portal Publiek kan rechtstreeks worden ingezet op reizen en campagnes in [!DNL Journey Optimizer] . [&#x200B; leer meer op beschikbare publiekstypes &#x200B;](../audience/about-audiences.md#types).
 
-Als u profielen van een niet gesteund publiek, zoals een publiek van Customer Journey Analytics moet richten, moet u het in een nieuwe segmentdefinitie in het Portaal van de Publiek verpakken. De gedetailleerde informatie over hoe te om publiek in een segmentdefinitie toe te voegen is beschikbaar in de [&#x200B; documentatie van de Bouwer van het Segment &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
+Als u profielen van een niet gesteund publiek, zoals een publiek van Customer Journey Analytics moet richten, moet u het in een nieuwe segmentdefinitie in het Portaal van de Publiek verpakken. De gedetailleerde informatie over hoe te om publiek in een segmentdefinitie toe te voegen is beschikbaar in de [&#x200B; documentatie van de Bouwer van het Segment &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
 
 Wacht tot de segmentatieevaluatie is voltooid en gebruik deze vervolgens tijdens uw reizen en campagnes.
