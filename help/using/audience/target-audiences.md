@@ -21,7 +21,7 @@ U kunt in campagnes selecteren en reizen om het even welk publiek dat gebruikend
 
 ## Afbeeldingen en beperkingen {#guardrails}
 
-* **het Schild van de Gezondheidszorg of Privacy en het Schild van de Veiligheid** - het gebruik van publiek en attributen van publiekssamenstelling is momenteel niet beschikbaar met het Schild van de Gezondheidszorg of Privacy en het Schild van de Veiligheid. [ Leer hoe te om de attributen van de kijkverrijking in  [!DNL Journey Optimizer]](../audience/about-audiences.md#enrichment) te gebruiken
+* **het Schild van de Gezondheidszorg of Privacy en het Schild van de Veiligheid** - het gebruik van publiek en attributen van publiekssamenstelling is momenteel niet beschikbaar met het Schild van de Gezondheidszorg of Privacy en het Schild van de Veiligheid. [&#x200B; Leer hoe te om de attributen van de kijkverrijking in  [!DNL Journey Optimizer]](../audience/about-audiences.md#enrichment) te gebruiken
 
 * **uploadt de Douane &amp; Federated de Samenstelling van het Publiek** - voor de upload van de Douane en het Federatieve publiek van de Samenstelling van de Publiek, gelieve nota te nemen van de volgende gidsen:
 
@@ -39,21 +39,21 @@ Soorten publiek zijn direct na inname klaar voor gebruik in [!DNL Journey Optimi
 
 Voor het publiek dat het resultaat is van batchsegmentatietaken, kan de activering vertraagd zijn vanwege variabiliteit in de inname van batch. Voor ritten voor lezers die dagelijks worden gepland, kunt u een tijdvenster in de reiseigenschappen bepalen om ervoor te zorgen dat nieuwe publieksgegevens beschikbaar zijn vóór de uitvoering van de reis.
 
-Als de segmentatietaak niet binnen het bepaalde tijdvenster wordt voltooid, wordt de reis overgeslagen tot het volgende exemplaar. [ Leer hoe te om een Lezen-publiek reis ](../building-journeys/read-audience.md) te plannen
+Als de segmentatietaak niet binnen het bepaalde tijdvenster wordt voltooid, wordt de reis overgeslagen tot het volgende exemplaar. [&#x200B; Leer hoe te om een Lezen-publiek reis &#x200B;](../building-journeys/read-audience.md) te plannen
 
 ## Doelpubliek in [!DNL Journey Optimizer]
 
 U kunt het publiek op verschillende manieren gebruiken in **[!DNL Journey Optimizer]** :
 
-* Kies een publiek voor a **campagne**, waar het bericht wordt verzonden naar alle individuen die tot het geselecteerde publiek behoren. [ Leer hoe te om het publiek van een campagne ](../campaigns/create-campaign.md#define-the-audience-audience) te bepalen.
+* Kies een publiek voor a **campagne**, waar het bericht wordt verzonden naar alle individuen die tot het geselecteerde publiek behoren. [&#x200B; Leer hoe te om het publiek van een campagne &#x200B;](../campaigns/create-campaign.md#define-the-audience-audience) te bepalen.
 
-* Gebruik a **Gelezen publiek** orkestactiviteit in een reis om alle individuen in het publiek te maken de reis ingaan en de berichten ontvangen inbegrepen in uw reis. Laten we zeggen dat je een &quot;zilveren klant&quot; publiek hebt. Met deze activiteit, kunt u alle zilveren klanten tot een reis maken. U kunt hen dan een reeks gepersonaliseerde berichten verzenden. [ Leer hoe te om Gelezen publieksactiviteit ](../building-journeys/read-audience.md#configuring-segment-trigger-activity) te vormen.
+* Gebruik a **Gelezen publiek** orkestactiviteit in een reis om alle individuen in het publiek te maken de reis ingaan en de berichten ontvangen inbegrepen in uw reis. Laten we zeggen dat je een &quot;zilveren klant&quot; publiek hebt. Met deze activiteit, kunt u alle zilveren klanten tot een reis maken. U kunt hen dan een reeks gepersonaliseerde berichten verzenden. [&#x200B; Leer hoe te om Gelezen publieksactiviteit &#x200B;](../building-journeys/read-audience.md#configuring-segment-trigger-activity) te vormen.
 
-  Voor ritten die publiek gebruiken van publiekssamenstelling of douane uploadt, zijn de profielattributen zo vers zoals de laatste partijevaluatie bij reisingang. Nochtans, na a **wacht** activiteit, verfrist de reis profielattributen van de Verenigde Dienst van het Profiel (UPS), die de recentste beschikbare gegevens ophaalt, wat profielattributen tijdens reisuitvoering kunnen veranderen. [ Leer meer over profiel zich na een Wacht activiteit ](../building-journeys/wait-activity.md#profile-refresh) vernieuwt
+  Voor ritten die publiek gebruiken van publiekssamenstelling of douane uploadt, zijn de profielattributen zo vers zoals de laatste partijevaluatie bij reisingang. Nochtans, na a **wacht** activiteit, verfrist de reis profielattributen van de Verenigde Dienst van het Profiel (UPS), die de recentste beschikbare gegevens ophaalt, wat profielattributen tijdens reisuitvoering kunnen veranderen. [&#x200B; Leer meer over profiel zich na een Wacht activiteit &#x200B;](../building-journeys/wait-activity.md#profile-refresh) vernieuwt
 
-* Gebruik de **activiteit van de Voorwaarde** in een reis om voorwaarden te bouwen die op publiekslidmaatschap worden gebaseerd. [ leer hoe te om publiek in voorwaarden ](../building-journeys/condition-activity.md#using-a-segment) te gebruiken.
+* Gebruik de **activiteit van de Voorwaarde** in een reis om voorwaarden te bouwen die op publiekslidmaatschap worden gebaseerd. [&#x200B; leer hoe te om publiek in voorwaarden &#x200B;](../building-journeys/condition-activity.md#using-a-segment) te gebruiken.
 
-* Gebruik de **gebeurtenisactiviteit van de Kwalificatie van het publiek 0} {in een reis om individuen te maken ingaan of zich voorwaarts in de reis gebaseerd op de kijkposten van Adobe Experience Platform en uitgang.** U kunt bijvoorbeeld alle nieuwe zilverklanten een reis laten maken en hun berichten sturen. [ Leer hoe te om een de kwalificatieactiviteit van het Publiek te vormen ](../building-journeys/audience-qualification-events.md).
+* Gebruik de **gebeurtenisactiviteit van de Kwalificatie van het publiek 0&rbrace; &lbrace;in een reis om individuen te maken ingaan of zich voorwaarts in de reis gebaseerd op de kijkposten van Adobe Experience Platform en uitgang.** U kunt bijvoorbeeld alle nieuwe zilverklanten een reis laten maken en hun berichten sturen. [&#x200B; Leer hoe te om een de kwalificatieactiviteit van het Publiek te vormen &#x200B;](../building-journeys/audience-qualification-events.md).
 
   >[!NOTE]
   >
@@ -61,8 +61,8 @@ U kunt het publiek op verschillende manieren gebruiken in **[!DNL Journey Optimi
 
 ## Activering van niet-ondersteunde publiekstypen in [!DNL Journey Optimizer]
 
-Alleen publiek dat is gemaakt in het portal Publiek kan rechtstreeks worden ingezet op reizen en campagnes in [!DNL Journey Optimizer] . [ leer meer op beschikbare publiekstypes ](../audience/about-audiences.md#types).
+Alleen publiek dat is gemaakt in het portal Publiek kan rechtstreeks worden ingezet op reizen en campagnes in [!DNL Journey Optimizer] . [&#x200B; leer meer op beschikbare publiekstypes &#x200B;](../audience/about-audiences.md#types).
 
-Als u profielen van een niet gesteund publiek, zoals een publiek van Customer Journey Analytics moet richten, moet u het in een nieuwe segmentdefinitie in het Portaal van de Publiek verpakken. De gedetailleerde informatie over hoe te om publiek in een segmentdefinitie toe te voegen is beschikbaar in de [ documentatie van de Bouwer van het Segment ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
+Als u profielen van een niet gesteund publiek, zoals een publiek van Customer Journey Analytics moet richten, moet u het in een nieuwe segmentdefinitie in het Portaal van de Publiek verpakken. De gedetailleerde informatie over hoe te om publiek in een segmentdefinitie toe te voegen is beschikbaar in de [&#x200B; documentatie van de Bouwer van het Segment &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
 
 Wacht tot de segmentatieevaluatie is voltooid en gebruik deze vervolgens tijdens uw reizen en campagnes.
