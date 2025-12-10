@@ -5,7 +5,7 @@ title: De publieksactiviteit Lezen gebruiken
 description: Leer hoe u de Lees-publieksactiviteit gebruikt in een geordende campagne
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
 version: Campaign Orchestration
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: eaaa11352bcb0b77c5517836b26eb2e72b82ac20
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 0%
@@ -52,13 +52,13 @@ Voer de volgende stappen uit om de **[!UICONTROL Read audience]** -activiteit te
 
 1. Voer een **[!UICONTROL Label]** in voor uw activiteit. Dit label wordt gebruikt als de naam van uw publiek.
 
-1. Klik ![&#x200B; pictogram van het omslagonderzoek &#x200B;](../assets/do-not-localize/folder-search.svg) om het publiek te selecteren u wenst om voor uw Geordende campagne te richten. [&#x200B; Leer meer over hoe te om publiek in Journey Optimizer te produceren en te richten &#x200B;](../audience/about-audiences.md).
+1. Klik ![ pictogram van het omslagonderzoek ](../assets/do-not-localize/folder-search.svg) om het publiek te selecteren u wenst om voor uw Geordende campagne te richten. [ Leer meer over hoe te om publiek in Journey Optimizer te produceren en te richten ](../../audience/about-audiences.md).
 
    ![](../assets/read-audience-2.png)
 
 1. Kies een **[!UICONTROL Entity&#x200B;]** optie in de doeldimensie van uw campagne. Deze instelling definieert de doelentiteit en het kenmerk dat wordt gebruikt om het publiek te combineren met de doeldimensie.
 
-   ➡️ [&#x200B; volg de stappen in deze pagina worden gedetailleerd om uw Campagne te creëren richtend afmeting &#x200B;](../target-dimension.md)
+   ➡️ [ volg de stappen in deze pagina worden gedetailleerd om uw Campagne te creëren richtend afmeting ](../target-dimension.md)
 
    ![](../assets/read-audience-3.png)
 
@@ -82,6 +82,6 @@ Wanneer een publiek is gemaakt, is het alleen-lezen en kan het niet meer worden 
 
 ## Voorbeeld
 
-In het onderstaande voorbeeld wordt de **[!UICONTROL Read audience]** -activiteit gebruikt om een eerder gemaakt en opgeslagen publiek op te halen van profielen die zijn geabonneerd op de nieuwsbrief. Het publiek wordt dan verrijkt met het **1&rbrace; attribuut van het Loyalty lidmaatschap &lbrace;om het richten van gebruikers toe te laten die lid van het loyaliteitsprogramma zijn.**
+In het onderstaande voorbeeld wordt de **[!UICONTROL Read audience]** -activiteit gebruikt om een eerder gemaakt en opgeslagen publiek op te halen van profielen die zijn geabonneerd op de nieuwsbrief. Het publiek wordt dan verrijkt met het **1} attribuut van het Loyalty lidmaatschap {om het richten van gebruikers toe te laten die lid van het loyaliteitsprogramma zijn.**
 
 ![](../assets/read-audience-5.png)
