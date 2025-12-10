@@ -24,7 +24,7 @@ Leer de grondbeginselen van Adobe Journey Optimizer en hoe het gegevensgedreven 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
 
 Wat is Journey Optimizer?
 
@@ -34,7 +34,7 @@ Ontdek de kernmogelijkheden, gebruiksscenario&#39;s en hoe Journey Optimizer per
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 Begrijpen hoe het werkt
 
@@ -44,7 +44,7 @@ Leer hoe Journey Optimizer integreert met Adobe Experience Platform en hoe zijn 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=nl-NL)
 
 Belangrijke terminologie
 
@@ -61,7 +61,7 @@ Begin met rolspecifieke begeleiding die aan uw verantwoordelijkheden en doelstel
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=nl-NL)
 
 Voor Marktdeelnemers
 
@@ -71,7 +71,7 @@ Ontwerp klantritten, maak campagnes en personaliseer inhoud om uw publiek erbij 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=nl-NL)
 
 Voor gegevensengineers
 
@@ -81,7 +81,7 @@ Vorm gegevensstructuren, beheer schema&#39;s en datasets, en zorg gegevenskwalit
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Voor beheerders
 
@@ -91,7 +91,7 @@ Stel omgevingen in, beheer machtigingen en configureer kanalen voor uw organisat
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=nl-NL)
 
 Voor ontwikkelaars
 
@@ -120,7 +120,7 @@ Leer hoe u de Journey Optimizer-interface kunt gebruiken, toegang krijgt tot bel
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/search.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/search.svg?lang=nl-NL)
 
 Zoeken en organiseren
 
@@ -151,7 +151,7 @@ Ontdek hoe u met AI inhoud kunt maken, verzendtijden kunt optimaliseren en slimm
 
 ### Leren met Doen
 
-* **[Video&#39;s van het Leerprogramma &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html){target="_blank"}** - geleidelijke videoleerprogramma&#39;s die kernmogelijkheden behandelen
+* **[Video&#39;s van het Leerprogramma &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=nl-NL){target="_blank"}** - geleidelijke videoleerprogramma&#39;s die kernmogelijkheden behandelen
 * **[Van het Geval van het gebruik Playbooks](../using/start/ai-features.md#playbooks)** - Vooraf gebouwde werkschema&#39;s voor gemeenschappelijke scenario&#39;s zoals verlaten kartterugwinning en welkome campagnes
 * **[Updates van de Documentatie](../using/rn/documentation-updates.md)** - blijf op de hoogte van recente veranderingen en toevoegingen aan de documentatie
 
@@ -187,4 +187,4 @@ Kies het pad dat bij u past:
 
 >[!NOTE]
 >
->De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [&#x200B; toestemmingen &#x200B;](../using/administration/permissions.md) en [&#x200B; vergunning gevend pakket &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af. Neem contact op met de Adobe Customer Success Manager voor vragen over uw specifieke installatie.
+>De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [&#x200B; toestemmingen &#x200B;](../using/administration/permissions.md) en [&#x200B; vergunning gevend pakket &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af. Neem contact op met de Adobe Customer Success Manager voor vragen over uw specifieke installatie.

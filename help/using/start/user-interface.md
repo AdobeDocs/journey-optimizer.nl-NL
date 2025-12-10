@@ -21,7 +21,7 @@ Om tot Adobe Journey Optimizer toegang te hebben, onderteken binnen aan [&#x200B
 
 >[!NOTE]
 >
->* De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [&#x200B; toestemmingen &#x200B;](../administration/permissions.md) en [&#x200B; vergunning gevend pakket &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af.
+>* De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [&#x200B; toestemmingen &#x200B;](../administration/permissions.md) en [&#x200B; vergunning gevend pakket &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af.
 >* Deze documentatie wordt regelmatig bijgewerkt. Sommige schermafbeeldingen kunnen enigszins afwijken van uw interface.
 
 ## Snelle rondleiding {#quick-tour}
