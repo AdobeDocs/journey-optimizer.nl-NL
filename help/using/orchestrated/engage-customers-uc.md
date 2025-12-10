@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-Merk op dat dit gebruiksgeval met een publiek begint dat reeds in Experience Platform bestaat, specifiek, een publiek in real time van het Webgedrag dat het doorbladeren activiteit verzamelt aangezien het voorkomt. [&#x200B; leer meer in Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+Merk op dat dit gebruiksgeval met een publiek begint dat reeds in Experience Platform bestaat, specifiek, een publiek in real time van het Webgedrag dat het doorbladeren activiteit verzamelt aangezien het voorkomt. [&#x200B; leer meer in Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **Schema&#39;s nodig voor dit gebruiksgeval:**
 
