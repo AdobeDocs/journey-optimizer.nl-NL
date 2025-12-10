@@ -74,7 +74,7 @@ Deze naslaggids definieert de essentiële termen die u tegenkomt bij het gebruik
 
 >[!NOTE]
 >
->Voor een uitvoerige verklarende woordenlijst van de termijnen van Adobe Experience Platform, verwijs naar de [ verklarende woordenlijst van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}.
+>Voor een uitvoerige verklarende woordenlijst van de termijnen van Adobe Experience Platform, verwijs naar de [&#x200B; verklarende woordenlijst van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}.
 
 ## Verwante onderwerpen {#related-topics}
 

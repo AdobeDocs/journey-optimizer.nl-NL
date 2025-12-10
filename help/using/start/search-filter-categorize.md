@@ -37,7 +37,7 @@ In de meeste lijsten, gebruik de onderzoeksbar om specifieke punten te vinden, e
 
 Filters zijn toegankelijk door op het filterpictogram linksboven in een lijst te klikken. Met het filtermenu kunt u de weergegeven elementen filteren op basis van verschillende criteria: u kunt ervoor kiezen alleen elementen van een bepaald type of een bepaalde status weer te geven, de elementen die u hebt gemaakt of de elementen die in de afgelopen 30 dagen zijn gewijzigd. Welke opties beschikbaar zijn, is afhankelijk van de context.
 
-Bovendien kunt u Verenigde markeringen gebruiken om een lijst afhankelijk van de markeringen te filtreren die aan een voorwerp worden toegewezen. Op dit moment zijn er tags beschikbaar voor reizen en campagnes. [ leer hoe te met markeringen ](#tags) werken
+Bovendien kunt u Verenigde markeringen gebruiken om een lijst afhankelijk van de markeringen te filtreren die aan een voorwerp worden toegewezen. Op dit moment zijn er tags beschikbaar voor reizen en campagnes. [&#x200B; leer hoe te met markeringen &#x200B;](#tags) werken
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ In de lijsten, kunt u basisacties op elk element uitvoeren. U kunt bijvoorbeeld 
 >title="Tags"
 >abstract="Met dit veld kunt u Adobe Experience Platform Unified Tags aan uw campagne toewijzen. Op deze manier kunt u ze gemakkelijk classificeren en de zoekopdracht in de lijst met campagnes verbeteren."
 
-Met Adobe Experience Platform [ Verenigde Markeringen ](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html), kunt u uw voorwerpen van Journey Optimizer gemakkelijk classificeren om onderzoek van de lijsten te verbeteren.
+Met Adobe Experience Platform [&#x200B; Verenigde Markeringen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html), kunt u uw voorwerpen van Journey Optimizer gemakkelijk classificeren om onderzoek van de lijsten te verbeteren.
 
 ![](../rn/assets/do-not-localize/campaigns-tag.gif)
 
@@ -107,7 +107,7 @@ U kunt tags toevoegen aan of verwijderen uit elk type reis of campagne (live, co
 
 ### Tags beheren {#manage-tags}
 
-Beheerders kunnen tags verwijderen en deze op categorieën indelen via het menu **[!UICONTROL Tags]** onder **[!UICONTROL ADMINISTRATION]** . Leer meer over markeringsbeheer in de [ Verenigde documentatie van Markeringen ](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html).
+Beheerders kunnen tags verwijderen en deze op categorieën indelen via het menu **[!UICONTROL Tags]** onder **[!UICONTROL ADMINISTRATION]** . Leer meer over markeringsbeheer in de [&#x200B; Verenigde documentatie van Markeringen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html).
 
 >[!NOTE]
 >
