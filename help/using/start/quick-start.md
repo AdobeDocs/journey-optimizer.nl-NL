@@ -1,30 +1,30 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: AJO Rollen en verantwoordelijkheden
+title: Rollen en verantwoordelijkheden
 description: Meer informatie over de verschillende rollen voor Adobe Journey Optimizer en over hun verantwoordelijkheden
 feature: Get Started
 role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '638'
 ht-degree: 2%
 
 ---
 
 
-# AJO Rollen en verantwoordelijkheden
+# Rollen en verantwoordelijkheden
 
-Adobe Journey Optimizer (AJO) stelt merken in staat om verbonden en gecontextualiseerde klantreizen te leveren gedurende de gehele levenscyclus van de klant. Het staat teams toe om interactie bij schaal te personaliseren en klantenverwachtingen met bedrijfsdoelstellingen te richten. In deze documentatie wordt uitgelegd wat de belangrijkste functies zijn bij het effectief gebruiken van Journey Optimizer, hun verantwoordelijkheden en hoe u aan de slag kunt gaan.
+Adobe Journey Optimizer stelt merken in staat om verbonden en gecontextualiseerde klantreizen te leveren gedurende de gehele levenscyclus van de klant. Het staat teams toe om interactie bij schaal te personaliseren en klantenverwachtingen met bedrijfsdoelstellingen te richten. In deze documentatie wordt uitgelegd wat de belangrijkste functies zijn bij het effectief gebruiken van Journey Optimizer, hun verantwoordelijkheden en hoe u aan de slag kunt gaan.
 
 **Belangrijke Nota:** Adobe Journey Optimizer bepaalt verschillende rollen met specifieke verantwoordelijkheden. Eén individu kan meerdere rollen of alle rollen uitvoeren, afhankelijk van de structuur van uw organisatie.
 
 ## Op rollen gebaseerde snelle-starthulplijnen
 
-Om de implementatie te vereenvoudigen, organiseert AJO taken in specifieke rollen die op deskundigheid worden gebaseerd. Elke rol concentreert zich op essentiële taken die worden vereist om een naadloze klantenervaring te leveren.
+Om de implementatie te vereenvoudigen, organiseert Adobe Journey Optimizer taken in specifieke rollen die op deskundigheid worden gebaseerd. Elke rol concentreert zich op essentiële taken die worden vereist om een naadloze klantenervaring te leveren.
 
 | Rol | Primaire verantwoordelijkheden | Sleutelvaardigheden | Typische taken |
 |-------------------|----------------------------------|--------------------------------|-----------------------------------------------|
@@ -33,7 +33,7 @@ Om de implementatie te vereenvoudigen, organiseert AJO taken in specifieke rolle
 | **Ontwikkelaar** | Technische integratie en aanpassingen | Mobiele ontwikkeling, API-implementatie, codering | Mobiele apps integreren, API&#39;s implementeren, aangepaste handelingen maken |
 | **Marketer** | Klantreizen ontwerpen en uitvoeren | Marketingstrategie, creatie van content, reisontwerp | Campagnes maken, reizen ontwerpen en rapporten analyseren |
 
-Elke rol richt een specifieke fase van de implementatie van AJO en verzekert een gestructureerd en efficiënt plaatsingsproces.
+Elke rol richt een specifieke fase van de implementatie van Adobe Journey Optimizer en verzekert een gestructureerd en efficiënt plaatsingsproces.
 
 ## Implementatievolgorde en Rol-afhankelijkheden
 
@@ -53,7 +53,7 @@ Een geslaagde Journey Optimizer-implementatie volgt doorgaans deze volgorde, die
    * Testprofielen maken
 
 3. **Ontwikkelaar**: Handvatten technische integratie\
-   Ontwikkelaars stellen AJO in staat om te communiceren met mobiele apps, websites en externe systemen door technische integratie te implementeren. Push-berichten zijn bijvoorbeeld afhankelijk van configuraties die door de ontwikkelaar worden gestuurd.
+   Ontwikkelaars stellen Adobe Journey Optimizer in staat om te communiceren met mobiele apps, websites en externe systemen door technische integratie te implementeren. Push-berichten zijn bijvoorbeeld afhankelijk van configuraties die door de ontwikkelaar worden gestuurd.
    * Mobiele toepassingen integreren voor pushberichten
    * Web SDK&#39;s implementeren
    * Aangepaste integratie ontwikkelen met behulp van API&#39;s
@@ -82,23 +82,23 @@ Elke rol begint met specifieke taken die aan zijn nadruk worden aangepast. Als u
    Voorbeeld: configureer sandboxomgevingen voor het testen van verschillende berichtstrategieën.
 
 4. **voor Ontwikkelaars**: Integreer mobiele apps, voer APIs uit, en bouwt douaneintegratie.\
-   Voorbeeld: gebruik de AJO API om pushmeldingen te activeren op basis van acties van klanten in uw mobiele app.
+   Voorbeeld: gebruik de Adobe Journey Optimizer API om pushmeldingen te activeren op basis van acties van klanten in uw mobiele app.
 
 Klik op de onderstaande rol voor specifieke richtlijnen die zijn afgestemd op uw verantwoordelijkheden:
 
-* [&#x200B; krijgt Begonnen als Marketer &#x200B;](path/marketer.md)
-* [&#x200B; krijgen Begonnen als Ingenieur van Gegevens &#x200B;](path/data-engineer.md)
-* [&#x200B; krijgen Begonnen als Beheerder &#x200B;](path/administrator.md)
+* [ krijgt Begonnen als Marketer ](path/marketer.md)
+* [ krijgen Begonnen als Ingenieur van Gegevens ](path/data-engineer.md)
+* [ krijgen Begonnen als Beheerder ](path/administrator.md)
 
 ## Hoe kan ik-video {#video}
 
 Bekijk de inleidende video voor meer informatie over sleutelmogelijkheden en persona&#39;s van Journey Optimizer. De video doorloopt de gebruikersinterface en markeert belangrijke eigenschappen die op rol-specifieke workflows worden gebaseerd.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430315?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Aanvullende bronnen
 
 Verken de volgende bronnen voor diepgaander leren en updates:
 
 * [Release-opmerkingen](../rn/release-notes.md)
-* [&#x200B; Video&#39;s van het Leerprogramma &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=nl-NL)
+* [ Video&#39;s van het Leerprogramma ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html)

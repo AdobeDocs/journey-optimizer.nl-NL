@@ -6,10 +6,10 @@ description: Essentiële termen en concepten in Adobe Journey Optimizer
 feature: Get Started
 role: Admin, Developer, User
 level: Beginner
-source-git-commit: 965bb76529f500d6fa4d89fa1d56979afe9d5bb0
+source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 6%
+source-wordcount: '751'
+ht-degree: 7%
 
 ---
 
@@ -25,8 +25,8 @@ Deze naslaggids definieert de essentiële termen die u tegenkomt bij het gebruik
 
 | Term | Definitie |
 |------|------------|
-| **Adobe Journey Optimizer (AJO)** | Een toepassing voor het maken en leveren van gepersonaliseerde berichten aan klanten via verschillende kanalen (e-mail, SMS, pushberichten, internet). Het laat u toe om klantenreizen te ontwerpen die aan klantenacties in real time antwoorden. |
-| **Adobe Experience Platform (AEP)** | De basis van Adobe Journey Optimizer die alle klantgegevens op één locatie verzamelt en ordent. Het leidt tot verenigde klantenprofielen die Journey Optimizer voor personalisatie gebruikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=nl-NL){target="_blank"} |
+| **Adobe Journey Optimizer** | Een toepassing voor het maken en leveren van gepersonaliseerde berichten aan klanten via verschillende kanalen (e-mail, SMS, pushberichten, internet). Het laat u toe om klantenreizen te ontwerpen die aan klantenacties in real time antwoorden. |
+| **Adobe Experience Platform** | De basis van Adobe Journey Optimizer die alle klantgegevens op één locatie verzamelt en ordent. Het leidt tot verenigde klantenprofielen die Journey Optimizer voor personalisatie gebruikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} |
 | **Real-time het Profiel van de Klant** | Een verenigde, mening in real time van elke klant die gegevens van veelvoudige kanalen met inbegrip van online, off-line, CRM, en derdegegevens combineert. Elk profiel wordt dynamisch bijgewerkt terwijl klanten met uw merk communiceren. [Meer informatie](../audience/get-started-profiles.md) |
 | **Sandbox** | Een afzonderlijke werkruimte voor het testen en experimenteren zonder dat dit invloed heeft op de communicatie van de live klant. Adobe Journey Optimizer biedt meerdere sandboxen voor ontwikkeling, testen en productieomgevingen. [Meer informatie](../administration/sandboxes.md) |
 
@@ -74,7 +74,7 @@ Deze naslaggids definieert de essentiële termen die u tegenkomt bij het gebruik
 
 >[!NOTE]
 >
->Voor een uitvoerige verklarende woordenlijst van de termijnen van Adobe Experience Platform, verwijs naar de [&#x200B; verklarende woordenlijst van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=nl-NL){target="_blank"}.
+>Voor een uitvoerige verklarende woordenlijst van de termijnen van Adobe Experience Platform, verwijs naar de [ verklarende woordenlijst van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}.
 
 ## Verwante onderwerpen {#related-topics}
 
