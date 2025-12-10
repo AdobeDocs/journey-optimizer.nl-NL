@@ -2,239 +2,184 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Gebruikersinterface
-description: Meer informatie over de gebruikersinterface van Journey Optimizer
+description: Leer hoe u door de Adobe Journey Optimizer-interface kunt navigeren
 feature: Overview, Get Started
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: c936f42c8b5d96bd5a7e0ccb36ecdb0d9b2e9957
 workflow-type: tm+mt
-source-wordcount: '1834'
-ht-degree: 4%
+source-wordcount: '1089'
+ht-degree: 0%
 
 ---
 
-# Gebruikersinterface {#cjm-user-interface}
+# Navigeren door de interface {#user-interface}
 
-Om tot [!DNL Adobe Journey Optimizer] toegang te hebben, verbind met [&#x200B; Adobe Experience Cloud &#x200B;](https://experience.adobe.com) met uw Adobe ID, en selecteer [!DNL Journey Optimizer].
-
-Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Verwijs naar [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=nl-NL#adobe-experience-platform-ui-guide){target="_blank"} voor meer details.
-
+Om tot Adobe Journey Optimizer toegang te hebben, onderteken binnen aan [ Adobe Experience Cloud ](https://experience.adobe.com) met uw Adobe ID, dan uitgezocht [!DNL Journey Optimizer].
 
 >[!NOTE]
 >
->* De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [&#x200B; toestemmingen &#x200B;](../administration/permissions.md) en van uw [&#x200B; vergunning gevend pakket &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af. Neem voor alle vragen contact op met de Adobe Customer Success Manager of uw Adobe-vertegenwoordiger.
->
->* Deze documentatie wordt vaak bijgewerkt om de laatste wijzigingen in de gebruikersinterface van het product te weerspiegelen. Sommige schermafbeeldingen kunnen echter enigszins afwijken van uw gebruikersinterface.
->
+>* De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [ toestemmingen ](../administration/permissions.md) en [ vergunning gevend pakket ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af.
+>* Deze documentatie wordt regelmatig bijgewerkt. Sommige schermafbeeldingen kunnen enigszins afwijken van uw interface.
 
-## Linkernavigatie {#left-nav}
+## Snelle rondleiding {#quick-tour}
 
-Blader links naar de koppelingen om toegang te krijgen tot [!DNL Journey Optimizer] -mogelijkheden.
+De interface van Journey Optimizer bestaat uit vier hoofdgebieden:
 
 ![](assets/ajo-home.png)
 
->[!NOTE]
->
->Welke mogelijkheden beschikbaar zijn, is afhankelijk van uw machtigingen en licentieovereenkomst.
+1. **Linkernavigatie** - heb toegang tot alle mogelijkheden en eigenschappen die door functie worden georganiseerd
+2. **Bovenste bar** - Universeel onderzoek, hulp, berichten, en montages
+3. **pagina van het Huis** - Snelle toegang tot recente punten en nuttige middelen
+4. **Belangrijkste werkruimte** - waar u creeert en uw inhoud beheert
 
-U vindt onder de volledige lijst met services en mogelijkheden in de linkernavigatie en koppelingen naar de bijbehorende Help-pagina&#39;s.
+## Linkernavigatie {#left-nav}
 
-### Startpagina {#left-nav-home}
+Met de linkernavigatie worden Journey Optimizer-mogelijkheden in functionele categorieën ingedeeld. Welke menu-items beschikbaar zijn, is afhankelijk van uw machtigingen en licentie.
 
-De startpagina van [!DNL Journey Optimizer] bevat belangrijke koppelingen en bronnen die moeten worden gestart.
+### Hoofdsecties {#main-sections}
 
-De lijst **[!UICONTROL Recents]** bevat sneltoetsen voor de onlangs gemaakte gebeurtenissen en reizen. In deze lijst staan de datum en status van het maken en wijzigen van de bestanden.
+**Huis** - Uw uitgangspunt met snelle toegang tot onlangs gecreeerde punten en nuttige middelen
 
-Blader in de gevallen waarin u producten gebruikt om bronnen en berichten te maken. [Meer informatie](#in-product-use-cases).
+**Beheer van de Reis** - creeer en beheer klantenervaringen
+* **Campagnes** - creeer eenmalige of geplande berichten aan specifiek publiek
+* **Reizen** - Bouw multi-step, dwars-kanaalklantenervaringen
+* **Rapporten** - analyseer prestaties met geïntegreerde rapportage van Customer Journey Analytics
 
-Gebruik de koppelingen onder aan de startpagina voor informatie over het starten met [!DNL Journey Optimizer] . [Meer informatie](#find-help-and-support).
+**Beheer van het Besluit** - beheer gepersonaliseerde aanbiedingen
+* **Aanbiedingen** - creeer en beheer gepersonaliseerde aanbiedingen
+* **Componenten** - de plaatsingen van de opstelling, regels, en markeringen voor aanbiedingen
 
-### [!UICONTROL JOURNEY MANAGEMENT] {#left-nav-journey}
+**Beheer van de Inhoud** - creeer en organiseer inhoud
+* **Assets** - Gecentraliseerde bewaarplaats voor beelden en media
+* **malplaatjes van de Inhoud** - Herbruikbare berichtmalplaatjes voor campagnes en reizen
+* **Fragmenten** - de blokken van de Inhoud die over veelvoudige berichten kunnen worden gebruikt
+* **het Bestaan pagina&#39;s** - de vormen van het Web voor abonnementen en voorkeur
 
-Bouw campagnes en reizen van deze sectie.
+**Beheer van Gegevens** - beheer uw gegevensstichting
+* **Schema&#39;s** - bepaal gegevensstructuur
+* **Datasets** - opslag en beheer gegevensinzamelingen
+* **Vragen** - schrijf en voer vragen uit
+* **Controle** - de gegevensopname van het spoor
 
-* **[!UICONTROL Campaigns]** - Maak, configureer en orkestreer campagnes om eenmalige inhoud aan een bepaald publiek te leveren via verschillende kanalen. [Meer informatie](../campaigns/get-started-with-campaigns.md)
+**Verbindingen** - integreer met andere systemen
+* **Bronnen** - Ingest gegevens van externe systemen
+* **Doelen** - de gegevens van de Uitvoer naar wolkenopslag
 
-* **[!UICONTROL Journeys]** - Maak, configureer en orkestreer uw klantritten: combineer de gebeurtenissen, organisatie en actieactiviteiten om uw meerstapsscenario&#39;s voor meerdere kanalen samen te stellen. [Meer informatie](../building-journeys/journey-gs.md#jo-build)
+**Klant** - beheer publiek en profielen
+* **Soorten publiek** - creeer en beheer klantensegmenten
+* **de lijsten van het Abonnement** - leiden opt-in lijsten
+* **Profielen** - mening verenigde klantenprofielen
+* **Identiteiten** - beheer identiteitsresolutie
 
-* **[!UICONTROL Reports]** - Journey Optimizer-rapportage is volledig geïntegreerd met Customer Journey Analytics-mogelijkheden, waarbij rapportage op beide platforms wordt gestandaardiseerd en de consistentie en betrouwbaarheid van gegevens worden verbeterd. Deze naadloze integratie tussen Journey Optimizer en Customer Journey Analytics zorgt voor een duidelijker beeld van de prestatiesmetriek, waardoor gebruikers beter geïnformeerde beslissingen kunnen nemen. [Meer informatie](../reports/report-gs-cja.md)
+**Privacy** - de privacy en de naleving van de Controle
+* **Beleid** - bepaal het beleid van het gegevensbeheer
+* **Verzoeken** - de privacyverzoeken van de Behandeling (GDPR, CCPA)
+* **Controle** - de activiteitenlogboeken van het overzicht
+* **Levenscyclus van Gegevens** - vorm gegevensbehoud
 
+**Beleid** - vorm systeemmontages
+* **Configuraties** - de gebeurtenissen van de opstelling, gegevensbronnen, en acties
+* **Bedrijfs regels** - de berichtfrequentie en de reisingang van de controle
+* **Alarm** - bekijk en beheer systeemalarm
+* **Sandboxes** - beheer milieu&#39;s en kopieer voorwerpen tussen zandbakken
+* **Kanalen** - vorm kanaalmontages en leverbaarheid
+* **Markeringen** - organiseer en categoriseer inhoud
 
-### [!UICONTROL DECISION MANAGEMENT] {#left-nav-decision}
+[Meer informatie over de mogelijkheden vindt u in de gedetailleerde documentatie over de functies](#feature-links)
 
-Maak voorstellen en componenten van deze sectie.
+## Functies voor bovenste balk {#top-bar}
 
-* **[!UICONTROL Offers]** - Heb toegang tot uw recente bronnen en datasets van dit menu. In deze sectie kunt u voorstellen maken. [Meer informatie](../offers/offer-library/creating-personalized-offers.md)
+### Universeel zoeken {#search}
 
-* **[!UICONTROL Components]** - Maak plaatsingen, regels en tags. [Meer informatie](../offers/offer-library/key-steps.md)
+Met het zoekpictogram kunt u snel reizen, campagnes, middelen en andere objecten zoeken in Journey Optimizer. Typ trefwoorden om relevante resultaten van alle platformen te zien.
 
-### [!UICONTROL CONTENT MANAGEMENT] {#left-nav-content}
+### Help en ondersteuning {#help}
 
-Inhoud van deze sectie maken en beheren.
+Klik het **pictogram van de Hulp** aan:
+* Zoeken in Help-artikelen en video&#39;s
+* Contextafhankelijke Help openen voor de huidige pagina
+* Contact opnemen met Adobe
+* Feedback delen
 
-* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets] is een gecentraliseerde opslagplaats van elementen die u kunt gebruiken om uw berichten te vullen. [Meer informatie](../integrations/assets.md)
+![ Contextual hulpvoorbeeld ](assets/do-not-localize/Context-help.gif)
 
-* **[!UICONTROL Content templates]** - Voor een versneld en verbeterd ontwerpproces maakt u zelfstandige sjablonen om aangepaste inhoud eenvoudig te hergebruiken in Journey Optimizer-campagnes en -reizen. [Meer informatie](../content-management/content-templates.md)
+### Meldingen {#notifications}
 
-* **[!UICONTROL Fragments]** - Fragmenten maken en beheren om het ontwerpen van e-mail soepel te laten verlopen: maak vooraf aangepaste inhoudsblokken die kunnen worden gebruikt om e-mailinhoud snel samen te stellen. [Meer informatie](../content-management/fragments.md)
+Schakel in-product- en e-mailmeldingen in om op de hoogte te blijven van:
+* **Alarm** - de mislukkingen van het systeem en prestatieskwesties
+* **goedkeurt** - Verzoeken die uw overzicht vereisen
+* **Nieuwe versies** - de updates van het Product en nieuwe eigenschappen
 
-* **[!UICONTROL Landing pages]** - bestemmingspagina&#39;s maken, ontwerpen, testen en publiceren: verzend uw gebruikers koppelingen naar onlineformulieren waar zij zich kunnen aanmelden of zich kunnen afmelden bij het ontvangen van uw communicatie, of abonneer op specifieke services. [Meer informatie](../landing-pages/get-started-lp.md)
+Meldingen configureren:
 
+1. Klik op het profielpictogram en selecteer **[!UICONTROL Preferences]**
+2. Onder **[!UICONTROL Notifications]** zoeken **[!UICONTROL Journey Optimizer]**
+3. Schakel de berichttypen in die u wilt ontvangen
 
-### [!UICONTROL DATA MANAGEMENT] {#left-nav-data}
+![ voorkeur van het Bericht ](../rn/assets/do-not-localize/pulse-notif.png){width="60%" align="center"}
 
-Uw gegevens in deze sectie beheren.
+### Taalvoorkeuren {#language}
 
-* **[!UICONTROL Schemas]** - Gebruik Adobe Experience Platform om schema&#39;s van het Gegevensmodel van de Ervaring (XDM) in een interactief visueel canvas te creëren en te beheren genoemd de Redacteur van het Schema. [Meer informatie](../data/get-started-schemas.md)
+De interface is beschikbaar in het Engels, Frans, Duits, Italiaans, Spaans, Portugees (Braziliaans), Japans, Koreaans, Traditioneel Chinees en Vereenvoudigd Chinees.
 
-* **[!UICONTROL Datasets]** - Alle gegevens die in Adobe Experience Platform worden opgenomen, blijven in het Data Lake bestaan als gegevenssets. Een dataset is een opslag en beheersconstructie voor een inzameling van gegevens, typisch een lijst, die een schema (kolommen) en gebieden (rijen) bevat. [Meer informatie](../data/get-started-datasets.md)
+De taal wijzigen:
 
-* **[!UICONTROL Queries]** - Gebruik Adobe Experience Platform Query Service om query&#39;s te schrijven en uit te voeren, eerder uitgevoerde query&#39;s weer te geven en toegang te krijgen tot query&#39;s die zijn opgeslagen door gebruikers binnen uw organisatie. [Meer informatie](../data/get-started-queries.md)
+1. Klik **Voorkeur** in uw profielmenu
+2. Selecteer uw voorkeurstaal
+3. Selecteer desgewenst een tweede taal als fallback
+4. Klik **sparen**
 
-* **[!UICONTROL Monitoring]** - Gebruik dit menu om de gegevensinvoer in de gebruikersinterface van Adobe Experience Platform te controleren. Leer meer in [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=nl-NL){target="_blank"}
+## Startpagina {#home-page}
 
-### [!UICONTROL CONNECTIONS] {#left-nav-connections}
+De homepage bevat:
 
-Beheer uw gegevensverbindingen met andere apps en wolken vanuit deze sectie.
+* **Recenten** - Kortere weg aan onlangs gecreeerde gebeurtenissen, reizen, campagnes, en andere voorwerpen
+* **de gevallen van het Gebruik** - Vooraf gebouwde scenario&#39;s om u te helpen snel begonnen worden (creeer testprofielen, verzend verjaardagsberichten, enz.)
+* **Middelen** - Verbindingen aan documentatie, leerprogramma&#39;s, en steun
 
-* **[!UICONTROL Sources]** - Gebruik dit menu om gegevens uit diverse bronnen in te voeren, zoals Adobe-toepassingen, opslag in de cloud, databases en meer. U kunt inkomende gegevens structureren, labelen en verbeteren. [Meer informatie](get-started-sources.md)
+### Gevallen voor gebruik in producten {#use-cases}
 
-* **[!UICONTROL Destinations]** - Gebruik dit menu om een live verbinding met opslaglocaties in de cloud te maken om de inhoud van uw gegevenssets te exporteren. [Meer informatie](../data/export-datasets.md)
+Met de snelstartworkflows kunt u veelvoorkomende taken uitvoeren:
 
-### [!UICONTROL CUSTOMER] {#left-nav-customers}
+* **creeer testprofielen** - produceer testprofielen gebruikend malplaatjes CSV
+* **verzend verjaardagsberichten** - verzend automatisch verjaardagse-mails (binnenkort komend)
+* **Onboard nieuwe klanten** - Welkome reeksen voor nieuwe klanten (komende spoedig)
+* **verzendt duw naar ingevoerde lijsten** - Snelle dupberichten van Csv- gegevens (binnenkort komend)
 
-Beheer uw publiek- en profielgegevens vanuit deze sectie.
-
-* **[!UICONTROL Audiences]** - Maak en beheer Experience Platform-soorten publiek en gebruik deze tijdens uw reizen. [Meer informatie](../audience/about-audiences.md)
-
-* **[!UICONTROL Subscription lists]** - In [!DNL Journey Optimizer] worden klanten die zich hebben aangemeld bij een abonnementenservice, opgenomen in een abonnementenlijst. [Meer informatie](../landing-pages/subscription-list.md)
-
-* **[!UICONTROL Profiles]** - Klantprofiel in realtime maakt een holistische weergave van elk van uw individuele klanten, waarbij gegevens van meerdere kanalen worden gecombineerd, waaronder online-, offline-, CRM- en gegevens van derden. [Meer informatie](../audience/get-started-profiles.md)
-
-* **[!UICONTROL Identities]** - Adobe Experience Platform Identity Service beheert de identificatie van uw klanten op verschillende apparaten, in verschillende kanalen en bijna realtime in een identiteitsgrafiek in Adobe Experience Platform. [Meer informatie](../audience/get-started-identity.md)
-
-### [!UICONTROL PRIVACY] {#left-nav-privacy}
-
-Beheer uw privacybeheer en verzoeken vanuit deze sectie.
-
-* **[!UICONTROL Policies]** - Met Adobe Experience Platform kunt u labels toewijzen aan uw velden en marketingacties maken voor elk kanaal. Vervolgens definieert u een governancebeleid dat gekoppeld is aan een label en een marketingactie. [Meer informatie](../action/action-privacy.md)
-
-* **[!UICONTROL Requests]** - Privacyverzoeken worden beheerd in de Adobe Experience Platform Privacy Service. Het verstrekt RESTful API en gebruikersinterface om u te helpen de verzoeken van klantgegevens beheren. [Meer informatie](../privacy/requests.md)
-
-* **[!UICONTROL Audit]** - Blader naar deze sectie om activiteitenlogboeken te controleren. [Meer informatie](../privacy/audit-logs.md)
-
-* **[!UICONTROL Data Lifecycle]** - In deze sectie kunt u de levenscyclusbewerkingen van gegevens configureren en plannen, zodat uw records op de juiste wijze worden onderhouden. [Meer informatie](../privacy/data-hygiene.md)
-
-### [!UICONTROL ADMINISTRATION] {#left-nav-admin}
-
-* **[!UICONTROL Configurations]** - Gebruik dit menu om [&#x200B; Gebeurtenissen &#x200B;](../event/about-events.md) te vormen, [&#x200B; Gegevensbronnen &#x200B;](../datasource/about-data-sources.md), en [&#x200B; Acties &#x200B;](../action/action.md) om in uw reizen te gebruiken.
-
-  U kunt tot de **Rapporterende** sectie ook toegang hebben om rapportering voor campagneexperimentatie en web/mobile te vormen. [Meer informatie](../reports/reporting-configuration.md)
-
-* **[!UICONTROL Business rules]** - Gebruik deze sectie om dwars-kanaal bedrijfsregels tot stand te brengen om te controleren hoe vaak de gebruikers een bericht ontvangen, of een reis ingaan. [Meer informatie](../conflict-prioritization/rule-sets.md)
-
-* **[!UICONTROL Alerts]** - De gebruikersinterface staat u toe om een geschiedenis van ontvangen alarm te bekijken die op metriek wordt gebaseerd die door de Inzichten van de Waarneming van Adobe Experience Platform wordt onthuld. UI staat u ook toe om, beschikbare waakzame regels te bekijken toe te laten en onbruikbaar te maken. [Meer informatie](../reports/alerts.md)
-
-* **[!UICONTROL Sandboxes]** - Adobe Experience Platform biedt sandboxen die één instantie in afzonderlijke virtuele omgevingen verdelen om toepassingen voor digitale ervaringen te ontwikkelen en te ontwikkelen. Bovendien kunt u met [!DNL Journey Optimizer] de mogelijkheid gebruiken om pakketten te exporteren en te importeren om objecten, zoals reizen, inhoudssjablonen of fragmenten, over meerdere sandboxen te kopiëren. [Meer informatie](../administration/sandboxes.md)
-
-* **[!UICONTROL Channels]** - Gebruik deze sectie om uw kanalen, met inbegrip van subdomeinen, configuraties, en leveringsmontages te vormen. [Meer informatie](../configuration/get-started-configuration.md)
-
-* **[!UICONTROL Tags]** - Met Verenigde Markeringen, kunt u uw reizen en campagnes gemakkelijk classificeren om onderzoek van de lijsten te verbeteren. [Meer informatie](../start/search-filter-categorize.md#manage-tags)
-
-## Gebruiksgevallen in producten {#in-product-uc}
-
-Vanaf de startpagina van [!DNL Adobe Journey Optimizer] bieden productgebruiksgevallen een snelle invoer voor het maken van testprofielen of voor het eerst afleggen van een reis naar een klant.
-
-![](assets/use-cases-home.png)
-
-+++ **Beschikbare gebruiksgevallen**
-
-Beschikbare gebruiksgevallen zijn:
-
-* **creeer testprofielen**, om testprofielen tot stand te brengen die ons malplaatje CSV gebruiken om gepersonaliseerde berichten en reizen te testen. Leer hoe te om dit gebruiksgeval [&#x200B; op deze pagina &#x200B;](../audience/creating-test-profiles.md#use-case-1) uit te voeren.
-* **verzend een verjaardagsbericht naar klanten**, om automatisch een e-mail te verzenden om uw klanten rond hun verjaardag te wensen. (binnenkort beschikbaar)
-* **verzend e-mails naar aan boord nieuwe klanten**, om tot twee e-mails gemakkelijk te verzenden om uw onlangs geregistreerde klanten welkom te heten. (binnenkort beschikbaar)
-* **verzendt dupberichten naar ingevoerde lijst van klanten**, om een duw bericht aan een lijst van klanten snel te verzenden die van een Csv- dossier wordt ingevoerd. (binnenkort beschikbaar)
-
-+++
-
-Klik op de koppeling **[!UICONTROL View details]** als u meer wilt weten over elk gebruik van hoofdletters en kleine letters.
-
-Klik op de knop **[!UICONTROL Begin]** als u een gebruikscase wilt uitvoeren.
-
-Via de knop **[!UICONTROL View library]** hebt u toegang tot uitvoerbare gebruiksgevallen.
-
-## Hulp en ondersteuning zoeken {#find-help}
-
-Toegang tot Adobe Journey Optimizer-sleutelHelp-pagina&#39;s in de onderste sectie van de startpagina.
-
-Gebruik het **pictogram van de Hulp** om tot hulppagina&#39;s, contactsteun toegang te hebben, en deel terugkoppelt. U kunt Help-artikelen en video&#39;s zoeken in het zoekveld.
-
-![](assets/ajo-help.png)
-
-Gebruik op elke pagina contextafhankelijke Help-knoppen voor meer informatie over een functie en blader naar de documentatie van **[!DNL Adobe Experience League]** .
-
-![](assets/do-not-localize/Context-help.gif)
-
-
-## Meldingen in producten {#in-product-notifications}
-
-U kunt **in-product en e-mailalarm** toelaten om over verscheidene gebeurtenissen worden geïnformeerd die van belang voor u kunnen zijn: mislukkingen die door het systeem worden ontdekt, goedkeuringsverzoeken, en/of [!DNL Journey Optimizer] productversies.
-
-Volg onderstaande stappen om deze meldingen in te schakelen.
-
-1. Navigeer naar [!DNL Adobe Experience Cloud] **[!UICONTROL Preferences]** .
-1. Zoek onder **[!UICONTROL Notifications]** naar **[!UICONTROL Journey Optimizer]** .
-1. Schakel naar wens in-app- en/of e-mailmeldingen in:
-
-   * **[!UICONTROL Alerts]**: Wanneer een fout optreedt, kunt u systeemmeldingen ophalen voor de waarschuwingen waarop u zich hebt geabonneerd. [Meer informatie](../reports/alerts.md)
-   * **[!UICONTROL Approvals]**: Er wordt een melding weergegeven wanneer iemand u vraagt een object goed te keuren of toegang te krijgen tot een object.
-   * **[!UICONTROL New releases]**: u wordt op de hoogte gesteld van nieuwe productreleases van [!DNL Journey Optimizer] .
-
-![](../rn/assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
+Klik op **[!UICONTROL View details]** voor meer informatie over elk gebruik of op **[!UICONTROL Begin]** om te starten.
 
 ## AI-assistent {#ai-assistant}
 
-AI Assistant is een gebruikersinterfacefunctie waarmee u door Adobe-concepten kunt navigeren en deze kunt begrijpen en waarmee u inzichten in de werking van uw specifieke omgeving krijgt. Het is verkrijgbaar in verschillende producten in Adobe Experience Cloud, waaronder Adobe Journey Optimizer.
+AI Assistant biedt onmiddellijke hulp en operationele inzichten. Klik op het pictogram AI-assistent in de bovenste balk om:
+* Antwoorden ophalen over productfuncties
+* Ontvang operationele inzichten van uw reizen
+* Navigeren door concepten en aanbevolen procedures
 
-Als u de AI-assistent wilt openen, klikt u op het pictogram op de bovenste balk. De AI-assistent wordt rechts in het scherm weergegeven.
+[Meer informatie over AI Assistant](ai-features.md#ai-assistant)
 
-Leer hoe te om tot de Medewerker van AI [&#x200B; op deze pagina &#x200B;](ai-assistant.md) toegang te hebben en te gebruiken.
+## Gedetailleerde functiekoppelingen {#feature-links}
 
-## Taalvoorkeuren {#language-pref}
+Voor uitgebreide documentatie over elke mogelijkheid:
 
-De gebruikersinterface is beschikbaar in de volgende talen:
+* **Reizen** - [ creeer uw eerste reis ](../building-journeys/journey-gs.md)
+* **Campagnes** - [ begonnen met campagnes ](../campaigns/get-started-with-campaigns.md)
+* **Aanbiedingen &amp; Beslissing** - [ het beheer van het Besluit ](../offers/get-started/starting-offer-decisioning.md)
+* **de Creatie van de Inhoud** - [ E-mailontwerp ](../email/get-started-email-design.md)
+* **Soorten publiek** - [ beheer van het Publiek ](../audience/about-audiences.md)
+* **Configuratie van het Kanaal** - [ de kanalen van de Opstelling ](../configuration/get-started-configuration.md)
+* **het Beheer van Gegevens** - [ Werk met schema&#39;s ](../data/get-started-schemas.md)
+* **Privacy &amp; Bestuur** - [ Overzicht van de Privacy ](../privacy/get-started-privacy.md)
+* **Beleid** - [ de controle van de Toegang ](../administration/permissions-overview.md)
 
-* Engels
-* Frans
-* Duits
-* Italiaans
-* Spaans
-* Portugees (Brazilië)
-* Japans
-* Koreaans
-* Traditioneel Chinees
-* Vereenvoudigd Chinees
+## Verwante onderwerpen {#related-topics}
 
-Uw standaardinterfacetaal wordt bepaald door de aangewezen taal die in uw gebruikersprofiel wordt gespecificeerd.
-
-+++ **hoe te om uw taal** te veranderen
-
-Voer de volgende stappen uit om uw taal te wijzigen:
-
-1. Klik **Voorkeur** van uw avatar, op het hoogste recht.
-   ![](assets/preferences.png)
-1. Klik vervolgens op de taal die onder uw e-mailadres wordt weergegeven
-1. Selecteer uw aangewezen taal en klik **sparen**. U kunt een tweede taal selecteren als de component die u gebruikt niet in uw eerste taal is gelokaliseerd.
-   ![](assets/select-language.png)
-
-+++
-
-## Meer informatie {#more}
-
-Beginnen met [!DNL Journey Optimizer]? Hebt u ervaring met specifieke vragen? Beheerder van uw exemplaar van het bedrijf? [&#x200B; neem uw eigen weg om aan uw doelstellingen sneller te krijgen &#x200B;](quick-start.md)!
+* [Kies uw leerpad op rol](quick-start.md)
+* [Inhoud zoeken, filteren en categoriseren](search-filter-categorize.md)
+* [Begrijpen hoe Journey Optimizer werkt](understanding-ajo.md)
+* [Toegankelijkheidsfuncties](accessibility.md)
 
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
@@ -349,7 +294,7 @@ Beginnen met [!DNL Journey Optimizer]? Hebt u ervaring met specifieke vragen? Be
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings"
 >title="Webhaken inschakelen"
->abstract="Schakel webhaken in om real-time feedback te ontvangen over de uitvoeringsstatus van uw berichten. Alvorens deze optie te activeren, zorg ervoor u een webhaak in het **Beleid** /2&rbrace; Kanalen **/nl** Feedback Webhaak **menu hebt gevormd.**"
+>abstract="Schakel webhaken in om real-time feedback te ontvangen over de uitvoeringsstatus van uw berichten. Alvorens deze optie te activeren, zorg ervoor u een webhaak in het **Beleid** /2} Kanalen **/nl** Feedback Webhaak **menu hebt gevormd.**"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_create"

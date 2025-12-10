@@ -5,10 +5,10 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e09cdd834abd0a0ca3f6f5210c0ecbe3afa29b45
+source-git-commit: f08488433432c26cab4fa880f70d6ddb65f5a0ef
 workflow-type: tm+mt
-source-wordcount: '2997'
-ht-degree: 16%
+source-wordcount: '2995'
+ht-degree: 15%
 
 ---
 
@@ -32,24 +32,22 @@ ht-degree: 16%
    + [Verbeterd reiscanvas](using/rn/new-canvas.md)
 + Aan de slag {#get-started}
    + [Aan de slag](/help/rp_landing_pages/get-started-landing-page.md)
-   + [Belangrijkste mogelijkheden](using/start/get-started.md)
-   + [Architectuur](using/start/architecture-concepts-redpen.md)
-   + [Basisconcepten](using/start/functional-areas-redpen.md)
-   + [Belangrijke terminologie](using/start/terminology-md-redpen.md)
-   + Taken en verantwoordelijkheden {#quick-start}
-      + [Overzicht](using/start/quick-start.md)
+   + Essentiële elementen {#essentials}
+      + [Wat is Journey Optimizer?](using/start/get-started.md)
+      + [Begrijpen hoe het werkt](using/start/understanding-ajo.md)
+      + [Belangrijke terminologie](using/start/terminology.md)
+      + [Afbeeldingen en beperkingen](using/start/guardrails.md)
+   + Aan de slag met rol {#by-role}
+      + [Kies uw leerpad](using/start/quick-start.md)
       + [Aan de slag als een marketeter](using/start/path/marketer.md)
-      + [Aan de slag als Data engineer](using/start/path/data-engineer.md)
+      + [Aan de slag als Data Engineer](using/start/path/data-engineer.md)
       + [Aan de slag als beheerder](using/start/path/administrator.md)
       + [Aan de slag als ontwikkelaar](using/start/path/developer.md)
-   + Gebruikersinterface {#ui}
-      + [Aan de slag met de interface](using/start/user-interface.md)
-      + [Zoeken, filteren en categoriseren](using/start/search-filter-categorize.md)
+   + Efficiënt werken {#work-efficiently}
+      + [Navigeren door de interface](using/start/user-interface.md)
+      + [Zoeken, filteren en ordenen](using/start/search-filter-categorize.md)
+      + [AI en intelligente functies](using/start/ai-features.md)
       + [Toegankelijkheid](using/start/accessibility.md)
-   + [Werken met AI-assistent](using/start/ai-assistant.md)
-   + [AI-mogelijkheden in AJO](/help/rp_landing_pages/ai-capabilities-landing-page.md)
-   + [Playbooks voor gebruiksscenario&#39;s](using/start/playbooks.md)
-   + [Afbeeldingen en beperkingen](using/start/guardrails.md)
 + Journeys {#orchestrate-journeys}
    + [Journeys](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Aan de slag met reizen](using/building-journeys/journey.md)
@@ -826,7 +824,7 @@ ht-degree: 16%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}

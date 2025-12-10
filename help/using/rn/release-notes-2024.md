@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
 workflow-type: tm+mt
 source-wordcount: '6779'
 ht-degree: 7%
@@ -285,7 +285,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
    * U kunt een standaard SMS-bericht maken en leveren wanneer een trefwoord niet wordt herkend.
 
-  Leer meer over deze verbeteringen in de de configuratiedocumentatie van SMS voor [&#x200B; Infobip &#x200B;](../sms/sms-configuration-infobip.md) en [&#x200B; Sinch &#x200B;](../sms/sms-configuration-sinch.md).
+  Leer meer over deze verbeteringen in de de configuratiedocumentatie van SMS voor [ Infobip ](../sms/sms-configuration-infobip.md) en [ Sinch ](../sms/sms-configuration-sinch.md).
 
 
 <!--**Journeys**-->
@@ -318,13 +318,13 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **het bestuur van Gegevens &amp; het beleid van de Toestemming** - de datum van Beschikbaarheid: 7 okt, 2024
 
-* **de handhaving van het beleid van het beheer van 0&rbrace; Gegevens &lbrace;vindt nu over alle kanalen in Journey Optimizer plaats.** Voor klanten die beleid in Adobe Experience Platform hebben gecreeerd, worden deze toegepast op marketing acties als deel van de opstelling van kanaalconfiguraties. Als u inhoud maakt met een configuratie, controleert het systeem alle personalisatievelden op overtredingen van het gegevensbeheer. Als er een overtreding wordt gevonden, is het niet mogelijk een reis of campagne te publiceren. [Meer informatie](../action/action-privacy.md)
+* **de handhaving van het beleid van het beheer van 0} Gegevens {vindt nu over alle kanalen in Journey Optimizer plaats.** Voor klanten die beleid in Adobe Experience Platform hebben gecreeerd, worden deze toegepast op marketing acties als deel van de opstelling van kanaalconfiguraties. Als u inhoud maakt met een configuratie, controleert het systeem alle personalisatievelden op overtredingen van het gegevensbeheer. Als er een overtreding wordt gevonden, is het niet mogelijk een reis of campagne te publiceren. [Meer informatie](../action/action-privacy.md)
 
 * **het toestemmingsbeleid van de Douane** is nu op alle kanalen van Journey Optimizer van toepassing. Bij handhaving voordat een bericht wordt verzonden of een binnenkomende ervaring wordt opgeleverd, controleert het systeem of de gebruiker toestemming heeft gegeven om verpersoonlijkingsvelden te gebruiken in de inhoud die hij of zij zal ontvangen. Als er geen toestemming wordt gegeven, wordt de ervaring niet weergegeven. [Meer informatie](../action/consent.md)
 
   >[!NOTE]
   >
-  >Het toestemmingsbeleid is momenteel slechts beschikbaar voor organisaties die het 3&rbrace; toe:voegen-op dienstenaanbod van het Schild van de Gezondheidszorg van Adobe **of** of **Privacy en van het Schild van de Veiligheid &lbrace;hebben gekocht.**
+  >Het toestemmingsbeleid is momenteel slechts beschikbaar voor organisaties die het 3} toe:voegen-op dienstenaanbod van het Schild van de Gezondheidszorg van Adobe **of** of **Privacy en van het Schild van de Veiligheid {hebben gekocht.**
 
 **Soorten publiek** - Beschikbaarheidsdatum: 8 okt, 2024
 
@@ -342,7 +342,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Beslissing**
 
-* [&#x200B; Adobe Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=nl-NL) de gebruikers kunnen douanemodellen nu kiezen om te optimaliseren wanneer vestiging een AI model in Beslissing (vroeger genoemd geworden Ervaring die Beslissing) wordt bekend. Zo kunt u bijvoorbeeld een aangepaste tabel &quot;aankopen&quot; optimaliseren in plaats van gedefinieerde beperkingen, zoals een doorklikfrequentie. [Meer informatie](../experience-decisioning/ranking/ranking.md)
+* [ Adobe Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) de gebruikers kunnen douanemodellen nu kiezen om te optimaliseren wanneer vestiging een AI model in Beslissing (vroeger genoemd geworden Ervaring die Beslissing) wordt bekend. Zo kunt u bijvoorbeeld een aangepaste tabel &quot;aankopen&quot; optimaliseren in plaats van gedefinieerde beperkingen, zoals een doorklikfrequentie. [Meer informatie](../experience-decisioning/ranking/ranking.md)
 
 * Wanneer het toevoegen van een besluitvormingsbeleid aan een code-gebaseerde campagne met Beslissing, kunt u één enkele besluitvormingspunten, naast selectiestrategieën nu manueel selecteren. Bovendien kunt u nu meerdere fallback-voorstellen selecteren. Dit garandeert dat er een aantal teruggestuurde besluiten zijn. [Meer informatie](../experience-decisioning/create-decision.md)
 
@@ -442,7 +442,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <tr>
 <td>
 <p>Als je je bericht hebt gemaakt en gepersonaliseerd, ga je naar het volgende niveau met AI Assistant in Journey Optimizer. U kunt nu AI Assistant gebruiken om de impact van uw bericht te optimaliseren door te experimenteren met verschillende hoofdtitels en afbeeldingen. Elke variant wordt beheerd als een unieke behandeling, om te meten en te vergelijken welke titel effectief meer kliks produceert.</p>
-<p>Ga zelf in een hands-on ervaring met <a href="https://experienceleague.adobe.com/nl/apps/journey-optimizer/ai-assistant-content-accelerator"> binnen onze levende eigenschapvoorproef </a>, die wordt ontworpen om u zijn eigenschappen eerst te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.</a></p>
+<p>Ga zelf in een hands-on ervaring met <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator"> binnen onze levende eigenschapvoorproef </a>, die wordt ontworpen om u zijn eigenschappen eerst te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.</a></p>
 <p>Raadpleeg de <a href="../content-management/gs-generative.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
 <p>Beschikbaarheidsdatum: 12 september 2024</p>
@@ -504,7 +504,7 @@ U kunt nu inhoudssjablonen en fragmenten exporteren tussen sandboxen. [Meer info
 
 * **de Simulatie API van de Campagne** - gebruik dit API om proefbaan van een Campagne teweeg te brengen. Het verzenden van de campagneproef is een asynchroon proces, zal API een proofJobId terugkeren die kan worden gebruikt om de status van de proef te controleren. [Meer informatie](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
-* (De datum van de Beschikbaarheid: Sept 10) de [&#x200B; documentatie van Adobe Journey Optimizer API &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} is nu interactief. Verken de API eindpunten rechtstreeks van de documentatiepagina&#39;s om directe feedback te krijgen en uw technische implementatie te versnellen.
+* (De datum van de Beschikbaarheid: Sept 10) de [ documentatie van Adobe Journey Optimizer API ](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} is nu interactief. Verken de API eindpunten rechtstreeks van de documentatiepagina&#39;s om directe feedback te krijgen en uw technische implementatie te versnellen.
 
 
   Alle API verwijzingspagina&#39;s hebben nu a **probeert het** functionaliteit die u kunt gebruiken om API vraag direct op de pagina van de documentwebsite te testen. [Haal de vereiste verificatiegegevens op](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} en start met het gebruik van de functionaliteit om de API-eindpunten te verkennen.
@@ -517,7 +517,7 @@ U kunt nu inhoudssjablonen en fragmenten exporteren tussen sandboxen. [Meer info
 
 **Configuratie**
 
-* **IP warmup plannen** - Dit vermogen is nu beschikbaar aan alle klanten, met inbegrip van organisaties die het Adobe **Bevel van de Gezondheidszorg** of **Privacy en het 5&rbrace; toe:voegen-op dienstenaanbod van het Schild van de Veiligheid &lbrace;hebben gekocht.** [Meer informatie](../configuration/ip-warmup-gs.md)
+* **IP warmup plannen** - Dit vermogen is nu beschikbaar aan alle klanten, met inbegrip van organisaties die het Adobe **Bevel van de Gezondheidszorg** of **Privacy en het 5} toe:voegen-op dienstenaanbod van het Schild van de Veiligheid {hebben gekocht.** [Meer informatie](../configuration/ip-warmup-gs.md)
 
 <!--
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.-->
@@ -756,7 +756,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <tr>
 <td>
 <p>De AI-assistent is een gebruikersinterfacefunctie waarmee u door Adobe-concepten kunt navigeren en deze kunt begrijpen en waarmee u inzichten in de werking van uw specifieke omgeving krijgt. Het is verkrijgbaar in verschillende producten in Adobe Experience Cloud, waaronder Adobe Journey Optimizer.</p>
-<p>Raadpleeg de <a href="../start/ai-assistant.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Raadpleeg de <a href="../start/ai-features.md#ai-assistant">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -831,15 +831,15 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 * De nieuwe statussen voor inhoudsfragmenten zijn geïntroduceerd: **Ontwerp**, **Levend**, **het Publiceren**, en **Gearchiveerd**.
 * Om een fragment in een reis of een campagne te gebruiken, moet het nu in **Levende** status zijn. Er is een nieuwe stap toegevoegd aan het proces voor het maken van fragmenten, zodat het fragment kan worden gepubliceerd en beschikbaar kan worden gesteld voor gebruik tijdens reizen en campagnes. Voor het publiceren van fragmenten is een nieuwe machtiging vereist.
 
-  **VOORZIENING** - aangezien **het Ontwerp** en **Levende** statussen met de versie van Journey Optimizer Juni zijn geïntroduceerd, hebben alle fragmenten die vóór deze versie worden gecreeerd de **7&rbrace; status van het Ontwerp &lbrace;, zelfs als zij in een reis of een campagne worden gebruikt.** Als u om het even welke verandering in deze fragmenten aanbrengt, moet u hen [&#x200B; publiceren om hen &quot;Levend&quot;te maken en de veranderingen in de bijbehorende campagnes en de reizen te verspreiden. &#x200B;](../content-management/create-fragments.md#publish) U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren.
+  **VOORZIENING** - aangezien **het Ontwerp** en **Levende** statussen met de versie van Journey Optimizer Juni zijn geïntroduceerd, hebben alle fragmenten die vóór deze versie worden gecreeerd de **7} status van het Ontwerp {, zelfs als zij in een reis of een campagne worden gebruikt.** Als u om het even welke verandering in deze fragmenten aanbrengt, moet u hen [ publiceren om hen &quot;Levend&quot;te maken en de veranderingen in de bijbehorende campagnes en de reizen te verspreiden. ](../content-management/create-fragments.md#publish) U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren.
 
-Lees meer in de [&#x200B; documentatie van het inhoudsfragment &#x200B;](../content-management/fragments.md).
+Lees meer in de [ documentatie van het inhoudsfragment ](../content-management/fragments.md).
 
 #### Journeys
 
 * De wereldwijde time-out van reizen is verlengd tot 91 dagen. [Meer informatie](../building-journeys/journey-properties.md#global_timeout)
 
-  Bij nieuwe reizen wordt deze nieuwe time-out weerspiegeld. Gelieve te verwijzen naar deze [&#x200B; sectie van Veelgestelde vragen &#x200B;](../building-journeys/journey-properties.md#timeout-faq) om meer te leren. Deze wijzigingen zullen in de loop van de maand juni geleidelijk worden doorgevoerd.
+  Bij nieuwe reizen wordt deze nieuwe time-out weerspiegeld. Gelieve te verwijzen naar deze [ sectie van Veelgestelde vragen ](../building-journeys/journey-properties.md#timeout-faq) om meer te leren. Deze wijzigingen zullen in de loop van de maand juni geleidelijk worden doorgevoerd.
 
 
 * Adobe Journey Optimizer ondersteunt nu verzoeken om privacyverwijdering/toegang en verzoeken om gegevenslevenscyclusbeheer. [Meer informatie](../privacy/requests.md)
@@ -854,7 +854,7 @@ Lees meer in de [&#x200B; documentatie van het inhoudsfragment &#x200B;](../cont
 
 #### Email channel
 
-* **lijst-unsubscribe** - na de recente Gmail en aankondigingen Yahoo voor bulkafzenders, steunt Journey Optimizer de &quot;post/1-klik&quot;lijst-Unsubscribe optie. Verwijs naar de volgende pagina&#39;s: [&#x200B; e-mail opt-out beheer &#x200B;](../email/email-opt-out.md#unsubscribe-header) en [&#x200B; vorm e-mailmontages &#x200B;](../email/email-settings.md#list-unsubscribe).
+* **lijst-unsubscribe** - na de recente Gmail en aankondigingen Yahoo voor bulkafzenders, steunt Journey Optimizer de &quot;post/1-klik&quot;lijst-Unsubscribe optie. Verwijs naar de volgende pagina&#39;s: [ e-mail opt-out beheer ](../email/email-opt-out.md#unsubscribe-header) en [ vorm e-mailmontages ](../email/email-settings.md#list-unsubscribe).
 
   **NOTA** - voor om het even welke nieuwe kanaaloppervlakte, door gebrek wordt de lijst unsubscribe kopbaloptie geactiveerd. Voor bestaande oppervlakken is de optie Een-klik-abonnement voor URL opheffen in de instellingen van het kanaaloppervlak standaard uitgeschakeld. Als u een URL voor uitschakelen met één klik eerder in de e-mail gebruikte, blijft deze instelling geldig. Als de één-klik unsubscribe URL in de montages van de kanaaloppervlakte wordt gecontroleerd, zal Adobe Journey Optimizer eerder het gebrek geproduceerde Één-klik gebruiken unsubscribe URL in de montages van de kanaaloppervlakte.
 
@@ -870,7 +870,7 @@ Lees meer in de [&#x200B; documentatie van het inhoudsfragment &#x200B;](../cont
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
-* U kunt nu de Edge Delivery-insteekmodule gebruiken om informatie op te halen die nodig is voor het begrijpen van en het oplossen van problemen met uw binnenkomende implementaties. [&#x200B; leer meer over de mening van Edge Delivery &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
+* U kunt nu de Edge Delivery-insteekmodule gebruiken om informatie op te halen die nodig is voor het begrijpen van en het oplossen van problemen met uw binnenkomende implementaties. [ leer meer over de mening van Edge Delivery ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
 
 
 #### Direct mailkanaal
@@ -1171,7 +1171,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Contentsjablonen**
 
-* **Duimnagels** - de 3&rbrace; wijze van de mening van A **Net is nu beschikbaar voor inhoudsmalplaatjes, tonend duimnagels voor betere visuele toegang.** Momenteel worden alleen e-mailsjablonen van HTML ondersteund. [Meer informatie](../content-management/content-templates.md#template-thumbnails)
+* **Duimnagels** - de 3} wijze van de mening van A **Net is nu beschikbaar voor inhoudsmalplaatjes, tonend duimnagels voor betere visuele toegang.** Momenteel worden alleen e-mailsjablonen van HTML ondersteund. [Meer informatie](../content-management/content-templates.md#template-thumbnails)
 
   >[!AVAILABILITY]
   >
@@ -1181,7 +1181,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 Er zijn nieuwe tussenliggende statussen toegevoegd aan de levenscyclus van de reisontwerpfase:
 
-* **het Publiceren** status tussen de **3&rbrace; status van het Ontwerp &lbrace;en** Levende **status**
+* **het Publiceren** status tussen de **3} status van het Ontwerp {en** Levende **status**
 * **het Stoppen** status tussen **Levende** status en **beëindigde** status
 * **het activeren van testwijze** of **het Deactiveren van testwijze** statussen tussen de **Ontwerp** status en de **(test)** status
 
@@ -1308,7 +1308,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <tr>
 <td>
 <p>Gebruik een catalogus met branchespecifieke gebruiksscenario's voor afspeelboeken in Real-Time CDP en Journey Optimizer om veelvoorkomende gebruikssituaties aan te pakken die u kunt uitvoeren met Adobe Experience Platform en Adobe Journey Optimizer.</p><p>Zodra u playbook hebt gekozen die het best aan uw behoeften past, kunt u het toelaten om de activa te produceren nodig om uw gebruikscase zoals reizen, berichten, schema's of segmenten te steunen, en hen aan uw schema voor snellere tijd aan waarde aan te passen.</p>
-<p>Raadpleeg de <a href="../start/playbooks.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Raadpleeg de <a href="../start/ai-features.md#playbooks">gedetailleerde documentatie</a> voor meer informatie.</p>
 <br/><img src="assets/do-not-localize/playbooks.gif"/>
 </tr>
 </tbody>

@@ -2,95 +2,189 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Aan de slag
-description: Aan de slag
+description: Aan de slag met Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: a83be759a20b8b1592164119762a6dbaa5ac469a
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '588'
 ht-degree: 2%
 
 ---
 
-# Aan de slag{#section-overview}
+# Aan de slag met Adobe Journey Optimizer{#get-started}
 
 Adobe Journey Optimizer stelt u in staat om persoonlijke, real-time klantenervaringen te bieden voor elk kanaal. Ontmoet uw klanten waar zij met het juiste bericht op het juiste ogenblik zijn.
 
-In deze sectie worden de kernmogelijkheden van het platform geïntroduceerd, van omnichannel orchestratie en door AI gestuurde besluitvorming tot naadloos inhoud- en gegevensbeheer. U zult ontdekken hoe deze krachtige hulpmiddelen samenwerken om elke klanteninteractie te optimaliseren. Elk onderwerp bouwt op het laatste voort, leidend u stap voor stap naar het beheersen van klantenbetrokkenheid op een dynamische, gegeven-gedreven manier.
+Of je nu nieuw bent in Journey Optimizer of een ervaren gebruiker die je vaardigheden wil uitbreiden, deze sectie biedt alles wat je nodig hebt om snel en effectief aan de slag te gaan.
 
-## Aan de slag met Adobe Journey Optimizer
+## Begin met de Hoofdzaak {#essentials}
+
+Leer de grondbeginselen van Adobe Journey Optimizer en hoe het gegevensgedreven personalisatie op schaal mogelijk maakt.
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Belangrijkste mogelijkheden
+Wat is Journey Optimizer?
 
-Ontdek de basisfuncties van Adobe Journey Optimizer, gebruiksscenario&#39;s en architectuur voor persoonlijke klantervaringen.
+Ontdek de kernmogelijkheden, gebruiksscenario&#39;s en hoe Journey Optimizer persoonlijke ervaringen voor klanten biedt.
 
-[Meer informatie over sleutelmogelijkheden](../using/start/get-started.md)
+[Leer de basisbeginselen](../using/start/get-started.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Overzicht van architectuur
+Begrijpen hoe het werkt
 
-Begrijp hoe Adobe Journey Optimizer met Adobe Experience Platform integreert om gegevensgestuurde personalisatie op schaal mogelijk te maken.
+Leer hoe Journey Optimizer integreert met Adobe Experience Platform en hoe zijn belangrijkste functionele gebieden samenwerken.
 
-[Ontdek de architectuur](../using/start/architecture-concepts-redpen.md)
+[De architectuur verkennen](../using/start/understanding-ajo.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list.svg)
 
-Rollen en verantwoordelijkheden
+Belangrijke terminologie
 
-Bekijk een overzicht van de rollen en workflows die nodig zijn om Adobe Journey Optimizer effectief te implementeren en te beheren.
+Essentiële termen en concepten om u te helpen met vertrouwen door Journey Optimizer te navigeren.
 
-[Rollen en verantwoordelijkheden begrijpen](../using/start/quick-start.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
-
-Overzicht van gebruikersinterface
-
-Navigeer de interface van Adobe Journey Optimizer en verken zijn eigenschappen, met inbegrip van reisbeheer en beslissingshulpmiddelen.
-
-[Meer informatie over de gebruikersinterface](../using/start/user-interface.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
-
-Inhoud zoeken, filteren en ordenen
-
-Gebruik functies voor zoeken, filteren en labelen om uw reizen, campagnes en andere middelen efficiënt te beheren en te organiseren.
-
-[Leren zoeken en indelen](../using/start/search-filter-categorize.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
-
-Afvoerkanalen en beperkingen
-
-Meer informatie over de beperkingen en aanbevolen procedures voor het effectief gebruiken van Adobe Journey Optimizer-functies.
-
-[Hulplijnen en beperkingen controleren](../using/start/guardrails.md)
+[Herziening van terminologie](../using/start/terminology.md)
 :::
 
 ::::
 
+## Kies uw leerpad {#by-role}
 
-## Aanvullende bronnen
+Begin met rolspecifieke begeleiding die aan uw verantwoordelijkheden en doelstellingen wordt aangepast.
 
-- **[duik in de Concepten van de Kern](../using/start/functional-areas-redpen.md)** - leer over de belangrijkste functionele gebieden van Adobe Journey Optimizer en hoe zij samenwerken om klantenreizen te optimaliseren.
-- **[Adobe Journey Optimizer: De zeer belangrijke Terminologie](../using/start/terminology-md-redpen.md)** - begrijpt essentiële termijnen en concepten om Adobe Journey Optimizer op een betrouwbare manier te gebruiken en marketing strategieën effectief uit te voeren.
-- **[Eigenschappen van de Toegankelijkheid](../using/start/accessibility.md)** - leer over toegankelijkheidseigenschappen en naleving van normen WCAG om inclusiviteit voor alle gebruikers te verzekeren.
-- **[Begonnen het Worden met Medewerker AI](../using/start/ai-assistant.md)** - Hefboomwerking AI Medewerker om concepten te navigeren en operationele inzichten binnen Adobe Journey Optimizer te bereiken.
-- **[de artikelen van het Oplossen van problemen](../using/start/troubleshooting.md)** - Elke het oplossen van problemensectie verstrekt antwoorden aan vaak gestelde vragen en oplossingen aan problemen.
-- **[Controle &amp; het oplossen van problemen](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)** - ontdekt uitvoerige hulpmiddelen om reisprestaties te volgen, potentiële kwesties te identificeren, en problemen snel op te lossen wanneer zij zich voordoen.
+:::: landing-cards-container
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/user.svg)
 
+Voor Marktdeelnemers
 
+Ontwerp klantritten, maak campagnes en personaliseer inhoud om uw publiek erbij te betrekken.
+
+[Starten als een marketeter](../using/start/path/marketer.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/database.svg)
+
+Voor gegevensengineers
+
+Vorm gegevensstructuren, beheer schema&#39;s en datasets, en zorg gegevenskwaliteit.
+
+[Starten als Data Engineer](../using/start/path/data-engineer.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+Voor beheerders
+
+Stel omgevingen in, beheer machtigingen en configureer kanalen voor uw organisatie.
+
+[Starten als beheerder](../using/start/path/administrator.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/code.svg)
+
+Voor ontwikkelaars
+
+Mobiele apps integreren, API&#39;s implementeren en aangepaste acties en integratie maken.
+
+[Beginnen als ontwikkelaar](../using/start/path/developer.md)
+:::
+
+::::
+
+[Weet u niet zeker welke rol u past? Volg onze snelle evaluatie →](../using/start/quick-start.md)
+
+## Efficiënt werken {#work-efficiently}
+
+Verwerk de interface en gebruik intelligente functies om uw werk te versnellen.
+
+:::: landing-cards-container
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/layout.svg)
+
+Navigeren door de interface
+
+Leer hoe u de Journey Optimizer-interface kunt gebruiken, toegang krijgt tot belangrijke functies en snel kunt terugvinden wat u nodig hebt.
+
+[De gebruikersinterface verkennen](../using/start/user-interface.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/search.svg)
+
+Zoeken en organiseren
+
+U kunt zoeken, filters en tags gebruiken om reizen, campagnes en inhoud efficiënt te beheren.
+
+[Hoofdzoekopdracht](../using/start/search-filter-categorize.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/ai.svg)
+
+AI en intelligente functies
+
+Ontdek hoe u met AI inhoud kunt maken, verzendtijden kunt optimaliseren en slimmere beslissingen kunt nemen.
+
+[AI-mogelijkheden verkennen](../using/start/ai-features.md)
+:::
+
+::::
+
+## Aanvullende bronnen {#additional-resources}
+
+### Referentie en aanbevolen procedures
+
+* **[Grafieken &amp; Beperkingen](../using/start/guardrails.md)** - begrijp beperkingen en geadviseerde praktijken voor het effectief gebruiken van de eigenschappen van Journey Optimizer
+* **[Eigenschappen van de Toegankelijkheid](../using/start/accessibility.md)** - leer over toegankelijkheidseigenschappen en naleving WCAG om inclusiviteit voor alle gebruikers te verzekeren
+* **[Gids van het Oplossen van problemen](../using/start/troubleshooting.md)** - vind antwoorden aan vaak gestelde vragen en oplossingen aan gemeenschappelijke problemen
+
+### Leren met Doen
+
+* **[Video&#39;s van het Leerprogramma ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html){target="_blank"}** - geleidelijke videoleerprogramma&#39;s die kernmogelijkheden behandelen
+* **[Van het Geval van het gebruik Playbooks](../using/start/ai-features.md#playbooks)** - Vooraf gebouwde werkschema&#39;s voor gemeenschappelijke scenario&#39;s zoals verlaten kartterugwinning en welkome campagnes
+* **[Updates van de Documentatie](../using/rn/documentation-updates.md)** - blijf op de hoogte van recente veranderingen en toevoegingen aan de documentatie
+
+### Ondersteuning
+
+* **[Controle &amp; het Oplossen van problemen](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)** - Hulpmiddelen om prestaties te volgen, kwesties te identificeren, en problemen snel op te lossen
+* **[wat](../using/rn/release-notes.md)** nieuw is - blijf bijgewerkt met de recentste eigenschappen, de verbeteringen, en moeilijke situaties
+* **[Communautair Forum ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}** - verbind met andere gebruikers, stel vragen, en deel beste praktijken
+
+## Snelle koppelingen {#quick-links}
+
+Begin meteen met het maken van deze essentiële hulplijnen:
+
+| Taak | Hulplijn |
+|------|-------|
+| Uw eerste journey maken | [ gids van de de creatie van de Reis ](../using/building-journeys/journey-gs.md) |
+| Uw eerste campagne verzenden | [ de creatiegids van de Campagne ](../using/campaigns/get-started-with-campaigns.md) |
+| Een e-mail ontwerpen | [ het ontwerpgids van de E-mail ](../using/email/get-started-email-design.md) |
+| Een publiek maken | [ de creatiegids van het publiek ](../using/audience/creating-a-segment-definition.md) |
+| Kanalen instellen | [ de configuratiegids van het Kanaal ](../using/configuration/get-started-configuration.md) |
+| Gepersonaliseerde aanbiedingen maken | [ het beheersgids van het Besluit ](../using/offers/get-started/starting-offer-decisioning.md) |
+
+---
+
+## Klaar om aan de slag te gaan?
+
+Kies het pad dat bij u past:
+
+* **Nieuw aan Journey Optimizer?** Begin met [ wat is Journey Optimizer?](../using/start/get-started.md) om inzicht te krijgen in de basisbeginselen
+* **ken uw rol?** sprong aan de [ rol-specifieke gids ](../using/start/quick-start.md) die uw verantwoordelijkheden aanpast
+* **wil onderzoeken?** doorblader de [ eigenschappen AI ](../using/start/ai-features.md) of probeer [ Playbooks van het Geval van het Gebruik ](../using/start/ai-features.md#playbooks)
+* **Hulp nodig?** Controle de [ Gids van het Oplossen van problemen ](../using/start/troubleshooting.md) of bezoek het [ Communautaire Forum ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
+
+>[!NOTE]
+>
+>De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [ toestemmingen ](../using/administration/permissions.md) en [ vergunning gevend pakket ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af. Neem contact op met de Adobe Customer Success Manager voor vragen over uw specifieke installatie.
