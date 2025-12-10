@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 'Personalization: &hoofdletter;dubbele punt; e-mail met winkelwagentje'
 description: Leer hoe u de hoofdtekst van een e-mailbericht kunt aanpassen met een kwestie van het type use.
-feature: Personalization
+feature: Personalization, Use Cases
 topic: Personalization
 role: Developer
 level: Intermediate
 keywords: expression, redacteur, helpers, gebruiksgeval, verpersoonlijking
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: bf5b054eaaca73abf484ccbabf160e902fad3f5b
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 1%
@@ -27,7 +27,7 @@ U gebruikt de volgende typen hulpfuncties:
 * De `if` helper, om een productspecifieke nota op te nemen als het verwante product in de kar is. [Meer informatie](functions/helpers.md#if-function).
 <!-- **Context**: personalization based on contextual data from the journey -->
 
-➡️ [&#x200B; Leer hoe te om hulpfuncties in deze video te gebruiken &#x200B;](#video)
+➡️ [ Leer hoe te om hulpfuncties in deze video te gebruiken ](#video)
 
 Alvorens u begint, zorg ervoor u weet hoe te om deze elementen te vormen:
 
@@ -38,12 +38,12 @@ Alvorens u begint, zorg ervoor u weet hoe te om deze elementen te vormen:
 
 Voer de volgende stappen uit:
 
-1. [&#x200B; creeer de aanvankelijke gebeurtenis en de reis &#x200B;](#create-context).
-1. [&#x200B; creeer een e-mailbericht &#x200B;](#configure-email).
-1. [&#x200B; Tussenvoegsel de voornaam van de klant in hoofdletters &#x200B;](#uppercase-function).
-1. [&#x200B; voeg de kartinhoud aan e-mail &#x200B;](#each-helper) toe.
-1. [&#x200B; Tussenvoegsel een product-specifieke nota &#x200B;](#if-helper).
-1. [&#x200B; Test en publiceer de reis &#x200B;](#test-and-publish).
+1. [ creeer de aanvankelijke gebeurtenis en de reis ](#create-context).
+1. [ creeer een e-mailbericht ](#configure-email).
+1. [ Tussenvoegsel de voornaam van de klant in hoofdletters ](#uppercase-function).
+1. [ voeg de kartinhoud aan e-mail ](#each-helper) toe.
+1. [ Tussenvoegsel een product-specifieke nota ](#if-helper).
+1. [ Test en publiceer de reis ](#test-and-publish).
 
 ## Stap 1: Maak de eerste gebeurtenis en de bijbehorende reis {#create-context}
 
@@ -52,7 +52,7 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
 1. Maak een gebeurtenis waarvan het schema de array `productListItems` bevat.
 1. Definieer alle velden in deze array als payload-velden voor deze gebeurtenis.
 
-   Leer meer over het gegevenstype van het productlijstpunt in [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=nl-NL){target="_blank"}.
+   Leer meer over het gegevenstype van het productlijstpunt in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
 
 1. Maak een reis die met deze gebeurtenis begint.
 1. Voeg een **E-mail** activiteit aan de reis toe.
@@ -105,7 +105,7 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      Leer meer over het gegevenstype van de persoonnaam in [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=nl-NL){target="_blank"}.
+      Leer meer over het gegevenstype van de persoonnaam in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}.
 
 1. Klik op **[!UICONTROL Validate]** en vervolgens op **[!UICONTROL Save]** .
 
@@ -144,7 +144,7 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
 
       **[!UICONTROL Contextual attributes]** zijn alleen beschikbaar nadat de reiscontext aan het bericht is doorgegeven.
 
-   1. Selecteer **[!UICONTROL Journey Optimizer]** > **[!UICONTROL Events]** > *** [!UICONTROL event_name] &#x200B;*** en vouw vervolgens het knooppunt **[!UICONTROL productListItems]** uit.
+   1. Selecteer **[!UICONTROL Journey Optimizer]** > **[!UICONTROL Events]** > *** [!UICONTROL event_name] *** en vouw vervolgens het knooppunt **[!UICONTROL productListItems]** uit.
 
       In dit voorbeeld, *event_name* vertegenwoordigt de naam van uw gebeurtenis.
 
@@ -254,7 +254,7 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
 1. Voeg de token voor de productnaam toe aan de voorwaarde:
    1. Verwijder de tijdelijke aanduiding &quot;condition1&quot; uit de expressie.
    1. Selecteer **[!UICONTROL Contextual attributes]** in het linkermenu.
-   1. Selecteer **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > *** [!UICONTROL event_name] &#x200B;*** en vouw vervolgens het knooppunt **[!UICONTROL productListItems]** uit.
+   1. Selecteer **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > *** [!UICONTROL event_name] *** en vouw vervolgens het knooppunt **[!UICONTROL productListItems]** uit.
 
       In dit voorbeeld, *event_name* vertegenwoordigt de naam van uw gebeurtenis.
 

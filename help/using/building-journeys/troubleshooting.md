@@ -3,14 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Los fouten op alvorens uw reis te testen of te publiceren
 description: Leer hoe u fouten kunt oplossen voordat u uw reis test of publiceert
-feature: Journeys
+feature: Journeys, Monitoring
 topic: Content Management
 role: User
 level: Intermediate
 keywords: problemen oplossen, problemen oplossen, reis, controle, fouten
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 40%
@@ -19,11 +19,11 @@ ht-degree: 40%
 
 # Los fouten op alvorens uw reis te testen {#troubleshooting}
 
-Leer in deze sectie hoe u problemen met reizen kunt oplossen voordat u gaat testen of publiceren. Alle hieronder vermelde controles kunnen worden uitgevoerd in de testmodus van de journey of wanneer de journey live is. De aanbeveling is om alle onderstaande controles in de testmodus uit te voeren en vervolgens tot publicatie over te gaan. Leer meer over de testwijze op [&#x200B; deze pagina &#x200B;](../building-journeys/testing-the-journey.md).
+Leer in deze sectie hoe u problemen met reizen kunt oplossen voordat u gaat testen of publiceren. Alle hieronder vermelde controles kunnen worden uitgevoerd in de testmodus van de journey of wanneer de journey live is. De aanbeveling is om alle onderstaande controles in de testmodus uit te voeren en vervolgens tot publicatie over te gaan. Leer meer over de testwijze op [ deze pagina ](../building-journeys/testing-the-journey.md).
 
-Leer hoe te om reisgebeurtenissen problemen op te lossen, controleer als de profielen uw reis ingegaan, hoe zij door het navigeren, en als de berichten [&#x200B; op deze pagina &#x200B;](troubleshooting-execution.md) worden verzonden.
+Leer hoe te om reisgebeurtenissen problemen op te lossen, controleer als de profielen uw reis ingegaan, hoe zij door het navigeren, en als de berichten [ op deze pagina ](troubleshooting-execution.md) worden verzonden.
 
-Als u binnenkomende acties gebruikt, leer hoe te om hen [&#x200B; op deze pagina &#x200B;](troubleshooting-inbound.md) problemen op te lossen.
+Als u binnenkomende acties gebruikt, leer hoe te om hen [ op deze pagina ](troubleshooting-inbound.md) problemen op te lossen.
 
 ## Fouten in activiteiten {#activity-errors}
 
@@ -33,11 +33,11 @@ Fouten worden weergegeven met een waarschuwingssymbool dat wordt weergegeven op 
 
 * als een verplicht veld leeg is, wordt een fout weergegeven
 
-  ![&#x200B; de bevestigingsfouten van de Reis die in canvas met foutenindicatoren worden getoond &#x200B;](assets/journey63.png)
+  ![ de bevestigingsfouten van de Reis die in canvas met foutenindicatoren worden getoond ](assets/journey63.png)
 
 * op het canvas, wanneer twee activiteiten worden losgekoppeld, wordt een waarschuwing weergegeven
 
-  ![&#x200B; het pictogram van de Waarschuwing die losgemaakte activiteiten op het wegcanvas tonen &#x200B;](assets/canvas-disconnected.png)
+  ![ het pictogram van de Waarschuwing die losgemaakte activiteiten op het wegcanvas tonen ](assets/canvas-disconnected.png)
 
 ## Fouten in de reis {#canvas-errors}
 
@@ -45,7 +45,7 @@ Fouten zijn ook zichtbaar vanaf de knop **[!UICONTROL Alerts]** boven het canvas
 
 Het systeem ontdekt twee soorten kwesties: **fouten** en **waarschuwingen**. Fouten blokkeren publicatie en testactivering. Waarschuwingen geven mogelijke problemen aan die testactivering of publicatie niet blokkeren. U ziet een beschrijving van het probleem en een probleemlog-id van het type ERR_XXX_XXX. Dit kan helpen de kwestie identificeren.
 
-![&#x200B; Fout en waarschuwingsindicatoren in reis met beschrijvingshulpstukken &#x200B;](assets/journey-error-and-warning.png)
+![ Fout en waarschuwingsindicatoren in reis met beschrijvingshulpstukken ](assets/journey-error-and-warning.png)
 
 <!--Most of the time, errors detected by the system are linked to errors visible on the activities but they can also relate to other issues. In all cases, check alerts and resolve the issue using to the error description. If you cannot identify the issue, use the **[!UICONTROL Copy details]** button to store the alerts, and send them to your administrator.-->
 

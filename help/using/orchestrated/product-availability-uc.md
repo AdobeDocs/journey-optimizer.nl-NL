@@ -3,8 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Gebruikers op de hoogte stellen van de beschikbaarheid van producten
 description: Gebruikers op de hoogte stellen van de beschikbaarheid van producten
+feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 51c8c9282cb6eb9cdbd310d8f263d7973f28bbf0
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -47,7 +48,7 @@ Ontwerp een back-in-stock melding om klanten te informeren wanneer items van hun
 
    ![](assets/notify-4.png){zoomable="yes"}
 
-1. Om een afzonderlijke e-mail voor elk punt te kunnen verzenden, zorg ervoor dat [&#x200B; uw e-mailconfiguratie &#x200B;](../orchestrated/target-dimension.md) met `Recipients - email` als **[!UICONTROL Profile Target Dimension]** en `Wishlistitems` als **[!UICONTROL Secondary dimension]** wordt geplaatst.
+1. Om een afzonderlijke e-mail voor elk punt te kunnen verzenden, zorg ervoor dat [ uw e-mailconfiguratie ](../orchestrated/target-dimension.md) met `Recipients - email` als **[!UICONTROL Profile Target Dimension]** en `Wishlistitems` als **[!UICONTROL Secondary dimension]** wordt geplaatst.
 
    Selecteer vervolgens in het menu **[!UICONTROL Execution Address]** de optie `wishlist.email` as **[!UICONTROL Secondary dimension]** . Elk item in de lijst met websites activeert een aparte e-mail, waarbij het e-mailadres wordt gebruikt dat in de gegevens in de lijst met websites is opgeslagen als secundaire dimensie.
 
@@ -55,7 +56,7 @@ Ontwerp een back-in-stock melding om klanten te informeren wanneer items van hun
 
 1. Voeg een **[!UICONTROL Email]** activiteit toe om een bericht van de productbeschikbaarheid tot stand te brengen. Klik op **[!UICONTROL Edit content]** om uw inhoud te ontwerpen.
 
-   ➡️ [&#x200B; Leer meer op e-mailverpersoonlijking &#x200B;](../email/content-from-scratch.md)
+   ➡️ [ Leer meer op e-mailverpersoonlijking ](../email/content-from-scratch.md)
 
    ![](assets/notify-7.png){zoomable="yes"}
 

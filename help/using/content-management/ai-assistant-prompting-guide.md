@@ -3,9 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Inhoudsaanwijzing voor AI Assistant
 description: Leer hoe u effectieve herinneringen voor het genereren van inhoud door AI maakt met behulp van het CO-STAR-framework voor het maken van marketinginhoud met een hoge conversie en een merkgebonden bestemming.
+topic: Artificial Intelligence
 role: User
 level: Intermediate
-source-git-commit: 5063115c6ac93ef332044bfff43a4df817a1a4e3
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '2107'
 ht-degree: 0%
@@ -120,19 +121,19 @@ Deze verzoeken worden niet ondersteund en moeten via andere tools worden afgehan
 
 Controleer voordat u inhoud genereert het volgende:
 
-&controle; **Duidelijke doelstelling**: verklaart duidelijk de actie, het product/de dienst, de waarde, en de context.
+&amp;controle; **Duidelijke doelstelling**: verklaart duidelijk de actie, het product/de dienst, de waarde, en de context.
 
-&controle; **Gedefinieerd doelpubliek**: Specificeert de demografisch, de rol, of het segment.
+&amp;controle; **Gedefinieerd doelpubliek**: Specificeert de demografisch, de rol, of het segment.
 
-&controle; **het type van Inhoud groepering**: De doelstelling past het geselecteerde kanaal of het formaat aan.
+&amp;controle; **het type van Inhoud groepering**: De doelstelling past het geselecteerde kanaal of het formaat aan.
 
-&controle; **gevormde Dropdown selecties**: De toon, de strategie, en de scène worden gekozen, omvatten hen niet in de herinnering.
+&amp;controle; **gevormde Dropdown selecties**: De toon, de strategie, en de scène worden gekozen, omvatten hen niet in de herinnering.
 
-&controle; **gespecificeerde nadruk van het Document**: benadrukt welke inhoud of secties aan verwijzing.
+&amp;controle; **gespecificeerde nadruk van het Document**: benadrukt welke inhoud of secties aan verwijzing.
 
-&controle; **toegepaste Merk**: De aangewezen merkrichtlijnen worden geselecteerd.
+&amp;controle; **toegepaste Merk**: De aangewezen merkrichtlijnen worden geselecteerd.
 
-&controle; **Realistisch werkingsgebied**: Vermijd verzoeken om lay-outveranderingen, het stileren, of structurele geeft uit.
+&amp;controle; **Realistisch werkingsgebied**: Vermijd verzoeken om lay-outveranderingen, het stileren, of structurele geeft uit.
 
 ## Effectieve marketingdoelstellingen schrijven {#marketing-objectives}
 
@@ -142,11 +143,11 @@ Zorg er bij het ontwerpen van marketingdoelstellingen voor dat deze duidelijk, h
 
 **Voorbeelden van goede doelstellingen:**
 
-&check; &quot;Drive sign-ups voor onze gratis proefversie van 30 dagen van het nieuwe AI-dashboard voor analysemogelijkheden&quot;
+&amp;check; &quot;Drive sign-ups voor onze gratis proefversie van 30 dagen van het nieuwe AI-dashboard voor analysemogelijkheden&quot;
 
-&check; &quot;Genereer leads voor ons B2B-webinar over &#39;Reducing Cloud Costs by 40%&#39; dat op 15 maart plaatsvindt&quot;
+&amp;check; &quot;Genereer leads voor ons B2B-webinar over &#39;Reducing Cloud Costs by 40%&#39; dat op 15 maart plaatsvindt&quot;
 
-&check; &quot;Onze beperkte vakantiekorting voor 25% verhogen op premieabonnementen, die 25 december eindigt&quot;
+&amp;check; &quot;Onze beperkte vakantiekorting voor 25% verhogen op premieabonnementen, die 25 december eindigt&quot;
 
 **Voorbeelden om te vermijden:**
 
@@ -163,11 +164,11 @@ Gebruik deze formule om u te helpen efficiënte doelstellingen schrijven: **Acti
 
 **Voorbeelden van goede doelstellingen:**
 
-&check; &quot;Aanmoedig downloads van onze nieuwe mobiele app die gebruikers helpt bij het volgen van duurzame leefgewoonten met gepersonaliseerde eco-vriendelijke aanbevelingen&quot;
+&amp;check; &quot;Aanmoedig downloads van onze nieuwe mobiele app die gebruikers helpt bij het volgen van duurzame leefgewoonten met gepersonaliseerde eco-vriendelijke aanbevelingen&quot;
 
-&check; &quot;Registratie bevorderen voor onze exclusieve workshop over geavanceerde technieken voor gegevensvisualisatie voor marketingprofessionals&quot;
+&amp;check; &quot;Registratie bevorderen voor onze exclusieve workshop over geavanceerde technieken voor gegevensvisualisatie voor marketingprofessionals&quot;
 
-&check; &quot;Aanwezigheid op station voor de introductie van ons product toont de revolutionaire AI-schrijfassistent die meer dan 5 uur per week bespaart&quot;
+&amp;check; &quot;Aanwezigheid op station voor de introductie van ons product toont de revolutionaire AI-schrijfassistent die meer dan 5 uur per week bespaart&quot;
 
 **Voorbeelden om te vermijden:**
 

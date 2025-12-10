@@ -3,8 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Updates van wenslijstitems verzenden
 description: Updates van wenslijstitems verzenden
+feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 51c8c9282cb6eb9cdbd310d8f263d7973f28bbf0
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 0%
@@ -24,7 +25,7 @@ Terwijl dit voorbeeld het schema van a **Wishlist** gebruikt, is de zelfde metho
 * **Product**: met gebieden: `description`, `priceref`, `imageurl`
 * **AbandonedCarts** (facultatief): met gebied: `lastmodified`
 
-➡️ [&#x200B; Leer hoe te om model-gebaseerde schema&#39;s &#x200B;](gs-schemas.md) te vormen
+➡️ [ Leer hoe te om model-gebaseerde schema&#39;s ](gs-schemas.md) te vormen
 
 >[!ENDSHADEBOX]
 
@@ -86,7 +87,7 @@ OF
 
 1. Voeg een e-mailactiviteit toe om een individueel gepersonaliseerd re-betrokkenheidsbericht voor elke klant te creëren. Klik op **[!UICONTROL Edit content]** om uw inhoud te ontwerpen.
 
-   ➡️ [&#x200B; Leer meer op e-mailverpersoonlijking &#x200B;](../email/content-from-scratch.md)
+   ➡️ [ Leer meer op e-mailverpersoonlijking ](../email/content-from-scratch.md)
 
    ![](assets/uc-reengagement-8.png){zoomable="yes"}
 
@@ -100,4 +101,4 @@ OF
 
 Nadat de campagne is gestart, kunnen we onze rapporten verkennen, die ons een robuuste reeks gegevens en KPI&#39;s geven over hoe onze campagne presteert.
 
-➡️ [&#x200B; Leer meer bij het melden &#x200B;](../reports/campaign-global-report-cja.md)
+➡️ [ Leer meer bij het melden ](../reports/campaign-global-report-cja.md)
