@@ -10,9 +10,9 @@ level: Intermediate
 keywords: activiteit, toestand, canvas, reis
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 486d742ea2b1e8e6eca9e434ff862da3d40fd7ec
+source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
 workflow-type: tm+mt
-source-wordcount: '1735'
+source-wordcount: '1766'
 ht-degree: 4%
 
 ---
@@ -28,21 +28,21 @@ ht-degree: 4%
 
 De **voorwaarde** activiteit laat u bepalen hoe de individuen door uw reis door veelvoudige wegen te creëren die op specifieke criteria worden gebaseerd. U kunt ook een ander pad configureren voor het afhandelen van time-outs of fouten, zodat u over een naadloze ervaring beschikt.
 
-![&#x200B; de activiteit van de Voorwaarde in wegcanvas met veelvoudige wegopties &#x200B;](assets/journey49.png)
+![ de activiteit van de Voorwaarde in wegcanvas met veelvoudige wegopties ](assets/journey49.png)
 
 De volgende soorten voorwaarden zijn beschikbaar:
 
-* [&#x200B; Source van Gegevens voorwaarde &#x200B;](#data_source_condition)
-* [&#x200B; voorwaarde van de Tijd &#x200B;](#time_condition)
-* [&#x200B; Splitsing van het Percentage &#x200B;](#percentage_split)
+* [ Source van Gegevens voorwaarde ](#data_source_condition)
+* [ voorwaarde van de Tijd ](#time_condition)
+* [ Splitsing van het Percentage ](#percentage_split)
 * [Datumvoorwaarde](#date_condition)
 * [Profiel uiteinde](#profile_cap)
 
-U kunt ook een publiek gebruiken in een reisconditie. [Meer informatie](#using-a-segment)
+U kunt ook een publiek gebruiken in een reisconditie. [Meer informatie](#using-a-segment). Voor meer informatie over om publiek te produceren en te richten, verwijs naar [ deze sectie ](../audience/about-audiences.md)
 
 >[!NOTE]
 >
->De evaluatie van de voorwaarde zal voor profielen ontbreken die meer dan twee dwars-apparatenidentiteiten in de [&#x200B; Opslag van het Profiel &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl-NL#profile-data-store){target="_blank"} omvatten.
+>De evaluatie van de voorwaarde zal voor profielen ontbreken die meer dan twee dwars-apparatenidentiteiten in de [ Opslag van het Profiel ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"} omvatten.
 
 ## Voorwaardelijke paden toevoegen en beheren {#about_condition}
 
@@ -55,24 +55,24 @@ Wanneer u verschillende voorwaarden in een reis gebruikt, kunt u labels voor elk
 
 Klik op **[!UICONTROL Add a path]** als u meerdere voorwaarden wilt definiëren. Voor elke voorwaarde wordt een nieuw pad toegevoegd in het canvas na de activiteit.
 
-![&#x200B; voeg een wegknoop in voorwaardenactiviteit toe om extra wegen tot stand te brengen &#x200B;](assets/journey47.png)
+![ voeg een wegknoop in voorwaardenactiviteit toe om extra wegen tot stand te brengen ](assets/journey47.png)
 
 Merk op dat het ontwerp van de ritten functionele gevolgen heeft. Wanneer meerdere paden na een voorwaarde worden gedefinieerd, wordt alleen het eerste in aanmerking komende pad uitgevoerd. Dit betekent dat u de prioritering van paden kunt wijzigen door deze boven of onder elkaar te plaatsen.
 
 Laten we het voorbeeld nemen van de voorwaarde &#39;De persoon is een VIP&#39; van een eerste pad en de voorwaarde &#39;De persoon is een man&#39; van een tweede pad. Als een persoon die aan beide voorwaarden voldoet (een mannetje dat een VIP is) deze stap doorgeeft, wordt het eerste pad gekozen, zelfs als deze persoon ook in aanmerking komt voor het tweede pad, omdat het eerste pad &quot;boven&quot; is. Verplaats uw activiteiten in een andere verticale volgorde om deze prioriteit te wijzigen.
 
-![&#x200B; Prioriteit van de Weg die VIP en mannelijke voorwaarden tonen &#x200B;](assets/journey48.png)
+![ Prioriteit van de Weg die VIP en mannelijke voorwaarden tonen ](assets/journey48.png)
 
-Met de optie **[!UICONTROL Show path for other cases than the one(s) above]** kunt u een ander pad maken voor soorten publiek die niet in aanmerking komen voor de gedefinieerde voorwaarden. Deze optie is niet beschikbaar in gesplitste omstandigheden. Zie [&#x200B; Splitsing van het Percentage &#x200B;](#percentage_split).
+Met de optie **[!UICONTROL Show path for other cases than the one(s) above]** kunt u een ander pad maken voor soorten publiek die niet in aanmerking komen voor de gedefinieerde voorwaarden. Deze optie is niet beschikbaar in gesplitste omstandigheden. Zie [ Splitsing van het Percentage ](#percentage_split).
 
 In de eenvoudige modus kunt u eenvoudige query&#39;s uitvoeren op basis van een combinatie van velden. Alle beschikbare velden worden links op het scherm weergegeven. Sleep velden naar de hoofdzone. Als u de verschillende elementen wilt combineren, koppelt u ze aan elkaar om verschillende groepen en/of groepsniveaus te maken. Vervolgens kiest u een logische operator om elementen op hetzelfde niveau te combineren:
 
 * EN: een doorsnede van twee criteria. Alleen de elementen die aan alle criteria voldoen, worden in aanmerking genomen.
 * OF: een combinatie van twee criteria. Elementen die ten minste aan een van de twee criteria voldoen, worden in aanmerking genomen.
 
-![&#x200B; de redacteur van de Uitdrukking die gebiedsselectie en logische exploitanten toont EN OF &#x200B;](assets/journey64.png)
+![ de redacteur van de Uitdrukking die gebiedsselectie en logische exploitanten toont EN OF ](assets/journey64.png)
 
-Als u de [&#x200B; Dienst van de Segmentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL){target="_blank"} gebruikt om uw publiek tot stand te brengen, kunt u hefboomwerking hen in uw reisvoorwaarden. Verwijs naar [&#x200B; Gebruikend publiek in voorwaarden &#x200B;](../building-journeys/condition-activity.md#using-a-segment).
+Als u de [ Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} gebruikt om uw publiek tot stand te brengen, kunt u hefboomwerking hen in uw reisvoorwaarden. Verwijs naar [ Gebruikend publiek in voorwaarden ](../building-journeys/condition-activity.md#using-a-segment). Voor meer informatie over hoe te om publiek in Journey Optimizer te produceren en te richten, verwijs naar [ deze sectie ](../audience/about-audiences.md).
 
 
 >[!NOTE]
@@ -87,7 +87,7 @@ In de eenvoudige redacteur, zult u ook de categorie van de Eigenschappen van de 
 
 ## Source-voorwaarde voor gegevens {#data_source_condition}
 
-Gebruik een **[!UICONTROL Data Source condition]** om een voorwaarde te definiëren die is gebaseerd op velden uit de gegevensbronnen of de gebeurtenissen die eerder in de rit zijn geplaatst. Dit type voorwaarde wordt bepaald met de uitdrukkingsredacteur. Leer hoe te om de uitdrukkingsredacteur in [&#x200B; te gebruiken deze sectie &#x200B;](expression/expressionadvanced.md).
+Gebruik een **[!UICONTROL Data Source condition]** om een voorwaarde te definiëren die is gebaseerd op velden uit de gegevensbronnen of de gebeurtenissen die eerder in de rit zijn geplaatst. Dit type voorwaarde wordt bepaald met de uitdrukkingsredacteur. Leer hoe te om de uitdrukkingsredacteur in [ te gebruiken deze sectie ](expression/expressionadvanced.md).
 
 Als u zich bijvoorbeeld richt op een publiek met verrijkingskenmerken die zijn gegenereerd met een compositieworkflow of een aangepaste upload (CSV-bestand), kunt u deze verrijkingskenmerken gebruiken om uw voorwaarde te maken.
 
@@ -97,11 +97,11 @@ Als u zich bijvoorbeeld richt op een publiek met verrijkingskenmerken die zijn g
 >
 >Als een schemagebied in uw schema van het Profiel wordt bepaald maar geen gegevens voor dat gebied zijn opgenomen, interpreteren Journey Optimizer en het onderliggende Real-Time Profiel van de Klant het gebied als `null`. Als gevolg hiervan worden voorwaarden die op `isEmpty()` , `isNull()` of vergelijkbare functies controleren, met `true` geëvalueerd, zelfs als het kenmerk nog nooit is genest. Dit kan tot onverwacht reisgedrag leiden als u zich niet bewust bent dat het gebied geen gegevens heeft.
 >
->Om verwarring te voorkomen, moet u ervoor zorgen dat de kenmerken die u in voorwaardelijke expressies gebruikt, zijn opgenomen met werkelijke gegevens voordat het profiel de reis ingaat. U kunt attributenwaarden in het [&#x200B; Real-Time Profiel van de Klant &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"} verifiëren om te bevestigen of de gegevens voor de gebieden bestaan die in uw voorwaarden worden gebruikt.
+>Om verwarring te voorkomen, moet u ervoor zorgen dat de kenmerken die u in voorwaardelijke expressies gebruikt, zijn opgenomen met werkelijke gegevens voordat het profiel de reis ingaat. U kunt attributenwaarden in het [ Real-Time Profiel van de Klant ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"} verifiëren om te bevestigen of de gegevens voor de gebieden bestaan die in uw voorwaarden worden gebruikt.
 
 Met de geavanceerde expressieeditor kunt u geavanceerdere voorwaarden instellen voor het manipuleren van verzamelingen of het gebruik van gegevensbronnen waarvoor parameters moeten worden doorgegeven. [Meer informatie](../datasource/external-data-sources.md).
 
-![&#x200B; de voorwaardenconfiguratie van Source van Gegevens met uitdrukkingsredacteur &#x200B;](assets/journey50.png)
+![ de voorwaardenconfiguratie van Source van Gegevens met uitdrukkingsredacteur ](assets/journey50.png)
 
 ## Tijdconditie {#time_condition}
 
@@ -109,11 +109,11 @@ Gebruik een **[!UICONTROL Time condition]** om verschillende handelingen uit te 
 
 >[!NOTE]
 >
->* De tijdzone is niet specifiek voor een conditie en wordt op het niveau van de reis gedefinieerd in de reiseigenschappen. Leer meer op [&#x200B; deze pagina &#x200B;](../building-journeys/timezone-management.md).
+>* De tijdzone is niet specifiek voor een conditie en wordt op het niveau van de reis gedefinieerd in de reiseigenschappen. Leer meer op [ deze pagina ](../building-journeys/timezone-management.md).
 >
 >* Door gebrek, wordt **[!UICONTROL Time condition]** geplaatst door uur, van 00 :00 aan 12 :00.
 
-![&#x200B; de voorwaardenmontages van de Tijd met uur en dag van de weekfilters &#x200B;](assets/journey51.png)
+![ de voorwaardenmontages van de Tijd met uur en dag van de weekfilters ](assets/journey51.png)
 
 Er zijn drie filteropties beschikbaar:
 
@@ -123,7 +123,7 @@ Er zijn drie filteropties beschikbaar:
 
 ## Percentage splitsing {#percentage_split}
 
-Met deze optie kunt u het publiek willekeurig opsplitsen om een andere actie voor elke groep te definiëren. Geef het aantal splitsingen en de verdeling voor elk pad op. De gesplitste berekening is statistisch, aangezien het systeem niet kan voorspellen hoeveel mensen in deze activiteit van de reis zullen stromen. Als gevolg hiervan heeft de splitsing een zeer lage foutmarge. Deze functie is gebaseerd op een willekeurig mechanisme van Java (zie deze [&#x200B; pagina &#x200B;](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html){target="_blank"}).
+Met deze optie kunt u het publiek willekeurig opsplitsen om een andere actie voor elke groep te definiëren. Geef het aantal splitsingen en de verdeling voor elk pad op. De gesplitste berekening is statistisch, aangezien het systeem niet kan voorspellen hoeveel mensen in deze activiteit van de reis zullen stromen. Als gevolg hiervan heeft de splitsing een zeer lage foutmarge. Deze functie is gebaseerd op een willekeurig mechanisme van Java (zie deze [ pagina ](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html){target="_blank"}).
 
 In de testmodus wordt bij het bereiken van een splitsing altijd de bovenste vertakking gekozen. U kunt de positie van de gesplitste vertakkingen opnieuw ordenen als u wilt dat de test een ander pad kiest. Zie [deze pagina](../building-journeys/testing-the-journey.md)
 
@@ -131,7 +131,7 @@ In de testmodus wordt bij het bereiken van een splitsing altijd de bovenste vert
 >
 >Er is geen knop om een pad toe te voegen in de splitsingsvoorwaarde voor percentages. Het aantal paden is afhankelijk van het aantal splitsingen. In gesplitste omstandigheden kunt u geen pad toevoegen voor andere gevallen omdat dit niet kan gebeuren. Mensen gaan altijd in een van de gesplitste paden.
 
-![&#x200B; de gespleten configuratie van het Percentage met veelvoudige wegen en distributie &#x200B;](assets/journey52.png)
+![ de gespleten configuratie van het Percentage met veelvoudige wegen en distributie ](assets/journey52.png)
 
 ## Datumvoorwaarde {#date_condition}
 
@@ -141,7 +141,7 @@ Hierdoor kunt u een andere stroom definiëren op basis van de datum. Bijvoorbeel
 >
 >De tijdzone is niet langer specifiek voor een bepaalde aandoening en wordt nu op het niveau van de reis gedefinieerd in de reiseigenschappen. Zie [deze pagina](../building-journeys/timezone-management.md).
 
-![&#x200B; de voorwaardenconfiguratie van de Datum met de selecteur van de datumwaaier &#x200B;](assets/journey53.png)
+![ de voorwaardenconfiguratie van de Datum met de selecteur van de datumwaaier ](assets/journey53.png)
 
 ## Profiel uiteinde {#profile_cap}
 
@@ -168,24 +168,24 @@ Voor het vervoer van levende dieren zijn er de drempelwaarden die in aanmerking 
 
 In de testmodus wordt geen rekening gehouden met de profielbegrenzing.
 
-![&#x200B; het GLB van het Profiel voorwaarde met maximum het plaatsen van de profielgrens &#x200B;](assets/profile-cap-condition.png)
+![ het GLB van het Profiel voorwaarde met maximum het plaatsen van de profielgrens ](assets/profile-cap-condition.png)
 
 ## Gebruik van soorten publiek in omstandigheden {#using-a-segment}
 
-In deze sectie wordt uitgelegd hoe u een publiek kunt gebruiken in een reisconditie. Voor meer op publiek en hoe te om hen te bouwen, verwijs naar [&#x200B; deze sectie &#x200B;](../audience/about-audiences.md).
+In deze sectie wordt uitgelegd hoe u een publiek kunt gebruiken in een reisconditie. Voor meer op publiek en hoe te om hen te bouwen, verwijs naar [ deze sectie ](../audience/about-audiences.md).
 
 Voer de volgende stappen uit om een publiek in een reisvoorwaarde te gebruiken:
 
 1. Open een reis, laat vallen a **[!UICONTROL Condition]** activiteit en kies de **Voorwaarde van Gegevens Source**.
 
-   ![&#x200B; de selectie van de Voorwaarde van Source van Gegevens in voorwaardenactiviteit &#x200B;](assets/segment3.png)
+   ![ de selectie van de Voorwaarde van Source van Gegevens in voorwaardenactiviteit ](assets/segment3.png)
 
 1. Klik op **[!UICONTROL Add a path]** voor elk extra pad dat nodig is. Klik voor elk pad op het veld **[!UICONTROL Expression]** .
 
 1. Ontgrendel **[!UICONTROL Audiences]** node aan de linkerkant. Sleep het publiek dat u voor de voorwaarde wilt gebruiken en zet het neer. Standaard is de voorwaarde voor het publiek waar.
 
-   ![&#x200B; de selectie van het publiek van de knoop van het Soorten publiek in uitdrukkingsredacteur &#x200B;](assets/segment4.png)
+   ![ de selectie van het publiek van de knoop van het Soorten publiek in uitdrukkingsredacteur ](assets/segment4.png)
 
    >[!NOTE]
    >
-   >Merk op dat slechts de individuen met de **Realized** status van de publieksparticipatie als leden van het publiek zullen worden beschouwd. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [&#x200B; documentatie van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=nl-NL#interpret-segment-results){target="_blank"}.
+   >Merk op dat slechts de individuen met de **Realized** status van de publieksparticipatie als leden van het publiek zullen worden beschouwd. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [ documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
