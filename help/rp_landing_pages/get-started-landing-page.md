@@ -24,7 +24,7 @@ Leer de grondbeginselen van Adobe Journey Optimizer en hoe het gegevensgedreven 
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Wat is Journey Optimizer?
 
@@ -34,7 +34,7 @@ Ontdek de kernmogelijkheden, gebruiksscenario&#39;s en hoe Journey Optimizer per
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Begrijpen hoe het werkt
 
@@ -44,7 +44,7 @@ Leer hoe Journey Optimizer integreert met Adobe Experience Platform en hoe zijn 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
 
 Belangrijke terminologie
 
@@ -61,7 +61,7 @@ Begin met rolspecifieke begeleiding die aan uw verantwoordelijkheden en doelstel
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/user.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
 
 Voor Marktdeelnemers
 
@@ -71,7 +71,7 @@ Ontwerp klantritten, maak campagnes en personaliseer inhoud om uw publiek erbij 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 Voor gegevensengineers
 
@@ -81,7 +81,7 @@ Vorm gegevensstructuren, beheer schema&#39;s en datasets, en zorg gegevenskwalit
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Voor beheerders
 
@@ -100,7 +100,7 @@ Verwerk de interface en gebruik intelligente functies om uw werk te versnellen.
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/layout.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/layout.svg)
 
 Navigeren door de interface
 
@@ -110,7 +110,7 @@ Leer hoe u de Journey Optimizer-interface kunt gebruiken, toegang krijgt tot bel
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Zoeken en organiseren
 
@@ -120,7 +120,7 @@ U kunt zoeken, filters en tags gebruiken om reizen, campagnes en inhoud efficië
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 AI en intelligente functies
 
@@ -141,21 +141,21 @@ Ontdek hoe u met AI inhoud kunt maken, verzendtijden kunt optimaliseren en slimm
 
 ### Meer informatie en ondersteuning
 
-* **[Video&#39;s van het Leerprogramma ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html){target="_blank"}** - geleidelijke videoleerprogramma&#39;s die kernmogelijkheden behandelen
+* **[Video&#39;s van het Leerprogramma &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html){target="_blank"}** - geleidelijke videoleerprogramma&#39;s die kernmogelijkheden behandelen
 * **[Van het Geval van het gebruik Playbooks](../using/start/ai-features.md#playbooks)** - Vooraf gebouwde werkschema&#39;s voor gemeenschappelijke scenario&#39;s zoals verlaten kartterugwinning en welkome campagnes
 * **[Controle &amp; het Oplossen van problemen](troubleshoot-journey-landing-page.md)** - Hulpmiddelen om prestaties te volgen, kwesties te identificeren, en problemen snel op te lossen
 * **[wat](../using/rn/release-notes.md)** nieuw is - blijf bijgewerkt met de recentste eigenschappen, de verbeteringen, en moeilijke situaties
-* **[Communautair Forum ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}** - verbind met andere gebruikers, stel vragen, en deel beste praktijken
+* **[Communautair Forum &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}** - verbind met andere gebruikers, stel vragen, en deel beste praktijken
 * **[Updates van de Documentatie](../using/rn/documentation-updates.md)** - blijf op de hoogte van recente veranderingen en toevoegingen aan de documentatie
 
 ## Klaar om aan de slag te gaan?
 
 Kies het pad dat bij u past:
 
-* **Nieuw aan Journey Optimizer?** Begin met [ wat is Journey Optimizer?](../using/start/get-started.md) om inzicht te krijgen in de basisbeginselen
-* **ken uw rol?** sprong aan de [ rol-specifieke gids ](../using/start/quick-start.md) die uw verantwoordelijkheden aanpast
-* **wil onderzoeken?** doorblader de [ eigenschappen AI ](../using/start/ai-features.md) of probeer [ Playbooks van het Geval van het Gebruik ](../using/start/ai-features.md#playbooks)
-* **Hulp nodig?** Controle de [ Gids van het Oplossen van problemen ](../using/start/troubleshooting.md) of bezoek het [ Communautaire Forum ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
+* **Nieuw aan Journey Optimizer?** Begin met [&#x200B; wat is Journey Optimizer?](../using/start/get-started.md) om inzicht te krijgen in de basisbeginselen
+* **ken uw rol?** sprong aan de [&#x200B; rol-specifieke gids &#x200B;](../using/start/quick-start.md) die uw verantwoordelijkheden aanpast
+* **wil onderzoeken?** doorblader de [&#x200B; eigenschappen AI &#x200B;](../using/start/ai-features.md) of probeer [&#x200B; Playbooks van het Geval van het Gebruik &#x200B;](../using/start/ai-features.md#playbooks)
+* **Hulp nodig?** Controle de [&#x200B; Gids van het Oplossen van problemen &#x200B;](../using/start/troubleshooting.md) of bezoek het [&#x200B; Communautaire Forum &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 
 ## Snelle koppelingen {#quick-links}
 
@@ -163,13 +163,13 @@ Begin meteen met het maken van deze essentiële hulplijnen:
 
 | Taak | Hulplijn |
 |------|-------|
-| Uw eerste journey maken | [ gids van de de creatie van de Reis ](../using/building-journeys/journey-gs.md) |
-| Uw eerste campagne verzenden | [ de creatiegids van de Campagne ](../using/campaigns/get-started-with-campaigns.md) |
-| Een e-mail ontwerpen | [ het ontwerpgids van de E-mail ](../using/email/get-started-email-design.md) |
-| Een publiek maken | [ de creatiegids van het publiek ](../using/audience/creating-a-segment-definition.md) |
-| Kanalen instellen | [ de configuratiegids van het Kanaal ](../using/configuration/get-started-configuration.md) |
-| Gepersonaliseerde aanbiedingen maken | [ het beheersgids van het Besluit ](../using/offers/get-started/starting-offer-decisioning.md) |
+| Uw eerste journey maken | [&#x200B; gids van de de creatie van de Reis &#x200B;](../using/building-journeys/journey-gs.md) |
+| Uw eerste campagne verzenden | [&#x200B; de creatiegids van de Campagne &#x200B;](../using/campaigns/get-started-with-campaigns.md) |
+| Een e-mail ontwerpen | [&#x200B; het ontwerpgids van de E-mail &#x200B;](../using/email/get-started-email-design.md) |
+| Een publiek maken | [&#x200B; de creatiegids van het publiek &#x200B;](../using/audience/creating-a-segment-definition.md) |
+| Kanalen instellen | [&#x200B; de configuratiegids van het Kanaal &#x200B;](../using/configuration/get-started-configuration.md) |
+| Gepersonaliseerde aanbiedingen maken | [&#x200B; het beheersgids van het Besluit &#x200B;](../using/offers/get-started/starting-offer-decisioning.md) |
 
 >[!NOTE]
 >
->De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [ toestemmingen ](../using/administration/permissions.md) en [ vergunning gevend pakket ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af. Neem contact op met de Adobe Customer Success Manager voor vragen over uw specifieke installatie.
+>De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [&#x200B; toestemmingen &#x200B;](../using/administration/permissions.md) en [&#x200B; vergunning gevend pakket &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af. Neem contact op met de Adobe Customer Success Manager voor vragen over uw specifieke installatie.

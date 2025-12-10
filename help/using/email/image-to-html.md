@@ -104,7 +104,7 @@ Voer de volgende stappen uit om een afbeeldingsontwerp om te zetten in een volle
 
 1. Als u tevreden bent met de sjabloon, klikt u op **[!UICONTROL Save]** om de inhoudssjabloon op te slaan.
 
-1. Uw sjabloon is nu beschikbaar in de bibliotheek met inhoudssjablonen en kan worden gebruikt voor het maken van e-mails tijdens reizen of campagnes. [ leer hoe te om inhoudsmalplaatjes ](use-email-templates.md) te gebruiken
+1. Uw sjabloon is nu beschikbaar in de bibliotheek met inhoudssjablonen en kan worden gebruikt voor het maken van e-mails tijdens reizen of campagnes. [&#x200B; leer hoe te om inhoudsmalplaatjes &#x200B;](use-email-templates.md) te gebruiken
 
 ## Je geconverteerde template gebruiken in e-mails {#use-template}
 
@@ -112,7 +112,7 @@ Nadat u de inhoudssjabloon hebt gemaakt en opgeslagen, kunt u deze gebruiken bij
 
 Als u een e-mail maakt tijdens een rit of campagne, opent u de e-mailtoepassing via het scherm **[!UICONTROL Edit content]** .
 
-Leer meer over [ het werken met e-mailmalplaatjes ](use-email-templates.md) en [ het creëren van inhoudsmalplaatjes ](../content-management/content-templates.md).
+Leer meer over [&#x200B; het werken met e-mailmalplaatjes &#x200B;](use-email-templates.md) en [&#x200B; het creëren van inhoudsmalplaatjes &#x200B;](../content-management/content-templates.md).
 
 ## Best practices {#best-practices}
 

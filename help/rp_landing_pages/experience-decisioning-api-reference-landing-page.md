@@ -22,7 +22,7 @@ Met het Adobe Journey Optimizer Code-Based Experience Channel kunt u op maat gep
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Aanbiedingen leveren met het op code-Gebaseerde Kanaal van de Ervaring
 

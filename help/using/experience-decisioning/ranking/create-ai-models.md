@@ -33,7 +33,7 @@ ht-degree: 1%
 
 Voer de volgende stappen uit om een AI-model te maken:
 
-1. Maak een gegevensset waarin conversiegebeurtenissen worden verzameld. [ leer hoe ](../data-collection/create-dataset.md)
+1. Maak een gegevensset waarin conversiegebeurtenissen worden verzameld. [&#x200B; leer hoe &#x200B;](../data-collection/create-dataset.md)
 
 1. Ga naar het menu **[!UICONTROL Decisioning]** > **[!UICONTROL Strategy setup]** en selecteer **[!UICONTROL AI models]** .
 
@@ -58,7 +58,7 @@ Voer de volgende stappen uit om een AI-model te maken:
    * **de gebeurtenissen van de Indrukking** (aanbiedingen die worden getoond)
    * **de gebeurtenissen van de Omzetting** (aanbiedingen die in kliks via e-mail of Web) resulteren.
 
-   Deze gebeurtenissen worden automatisch vastgelegd met de Web SDK of de Mobile SDK die is opgegeven. Leer meer in het [ overzicht van SDK van het Web 0} Adobe Experience Platform.](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
+   Deze gebeurtenissen worden automatisch vastgelegd met de Web SDK of de Mobile SDK die is opgegeven. Leer meer in het [&#x200B; overzicht van SDK van het Web 0&rbrace; Adobe Experience Platform.](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 
    +++ Modellen optimaliseren op aangepaste [!DNL Customer Journey Analytics] metriek
 
@@ -66,13 +66,13 @@ Voer de volgende stappen uit om een AI-model te maken:
    >
    >Deze mogelijkheid is alleen beschikbaar voor [!DNL Customer Journey Analytics] -klanten met beheerdersrechten.
    >
-   >Voordat u begint, moet u ervoor zorgen dat u Journey Optimizer met Customer Journey Analytics hebt geïntegreerd om Journey Optimizer-gegevenssets te exporteren naar uw standaardgegevensweergaven. [ Leer hoe te hefboomwerking  [!DNL Journey Optmizer]  gegevens in  [!DNL Customer Journey Analytics]](../../reports/cja-ajo.md)
+   >Voordat u begint, moet u ervoor zorgen dat u Journey Optimizer met Customer Journey Analytics hebt geïntegreerd om Journey Optimizer-gegevenssets te exporteren naar uw standaardgegevensweergaven. [&#x200B; Leer hoe te hefboomwerking  [!DNL Journey Optmizer]  gegevens in  [!DNL Customer Journey Analytics]](../../reports/cja-ajo.md)
 
    **[!UICONTROL Personalized optimization]** modellen zijn een type van AI model dat u toestaat om bedrijfsdoelstellingen te bepalen en klantengegevens te gebruiken om zaken-georiënteerde modellen op te leiden om gepersonaliseerde aanbiedingen te dienen en KPIs te maximaliseren.
 
    Door gebrek, gepersonaliseerde optimalisatiemodellen gebruiken **aanbieding klikt** als optimalisering metrisch. Als u met [!DNL Customer Journey Analytics] werkt, kunt u in [!DNL Decisioning] uw eigen maateenheden gebruiken om uw model te optimaliseren.
 
-   Selecteer hiertoe het modeltype **[!UICONTROL Personalized optimization]** en vouw de vervolgkeuzelijst **[!UICONTROL Conversion event]** uit. Alle metriek van uw standaard [!DNL Customer Journey Analytics] [ gegevens bekijken ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} vertoning in de lijst. Selecteer metrisch dat u uw model wilt optimaliseren.
+   Selecteer hiertoe het modeltype **[!UICONTROL Personalized optimization]** en vouw de vervolgkeuzelijst **[!UICONTROL Conversion event]** uit. Alle metriek van uw standaard [!DNL Customer Journey Analytics] [&#x200B; gegevens bekijken &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} vertoning in de lijst. Selecteer metrisch dat u uw model wilt optimaliseren.
 
    ![](../assets/ai-model-custom-metrics.png){width=85%}
 
@@ -82,11 +82,11 @@ Voer de volgende stappen uit om een AI-model te maken:
    >
    >Hoewel het attributiemodel kan worden gewijzigd, zijn niet alle attributiemodellen ideaal voor optimalisatie van het AI-model. We raden u aan zorgvuldig een toewijzingsmodel te selecteren dat is afgestemd op uw optimalisatiedoelstellingen om de nauwkeurigheid en prestaties van het model te garanderen.
    >
-   >Voor meer details op beschikbare attributiemodellen en begeleiding op hun gebruik, verwijs naar de [[!DNL Customer Journey Analytics]  documentatie ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
+   >Voor meer details op beschikbare attributiemodellen en begeleiding op hun gebruik, verwijs naar de [[!DNL Customer Journey Analytics]  documentatie &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
 
    +++
 
-1. Selecteer de gegevensset(s) waar de conversie- en impressiefeedagen worden verzameld. Leer hoe te om dergelijke datasets in [ tot stand te brengen deze sectie ](../data-collection/create-dataset.md).
+1. Selecteer de gegevensset(s) waar de conversie- en impressiefeedagen worden verzameld. Leer hoe te om dergelijke datasets in [&#x200B; tot stand te brengen deze sectie &#x200B;](../data-collection/create-dataset.md).
 
    ![](../assets/ai-model-datasets.png){width=85%}
 
@@ -110,9 +110,9 @@ Voer de volgende stappen uit om een AI-model te maken:
 * defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
 * and in which dataset you want to collect the event data.-->
 
-Nu telkens als een aanbieding wordt getoond en/of geklikt, wilt u de overeenkomstige gebeurtenis automatisch worden gevangen door de **[!UICONTROL Experience Event - Proposition Interactions]** gebiedsgroep gebruikend het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} of Mobiele SDK.
+Nu telkens als een aanbieding wordt getoond en/of geklikt, wilt u de overeenkomstige gebeurtenis automatisch worden gevangen door de **[!UICONTROL Experience Event - Proposition Interactions]** gebiedsgroep gebruikend het [&#x200B; Web SDK van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} of Mobiele SDK.
 
-Als u gebeurtenistypen wilt kunnen verzenden (weergegeven aanbod of aangeklikte aanbieding), moet u de juiste waarde voor elk gebeurtenistype instellen in een ervaringsgebeurtenis die naar Adobe Experience Platform wordt verzonden. [ leer hoe ](../data-collection/schema-requirement.md)
+Als u gebeurtenistypen wilt kunnen verzenden (weergegeven aanbod of aangeklikte aanbieding), moet u de juiste waarde voor elk gebeurtenistype instellen in een ervaringsgebeurtenis die naar Adobe Experience Platform wordt verzonden. [&#x200B; leer hoe &#x200B;](../data-collection/schema-requirement.md)
 
 <!--
 ## How-to video {#video}

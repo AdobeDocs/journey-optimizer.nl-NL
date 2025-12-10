@@ -16,14 +16,14 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-Merk op dat dit gebruiksgeval met een publiek begint dat reeds in Experience Platform bestaat, specifiek, een publiek in real time van het Webgedrag dat het doorbladeren activiteit verzamelt aangezien het voorkomt. [ leer meer in Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+Merk op dat dit gebruiksgeval met een publiek begint dat reeds in Experience Platform bestaat, specifiek, een publiek in real time van het Webgedrag dat het doorbladeren activiteit verzamelt aangezien het voorkomt. [&#x200B; leer meer in Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **Schema&#39;s nodig voor dit gebruiksgeval:**
 
 * **Ontvangers**: gebruikt als het richten afmeting, met gebieden: `email`, `churnprop`
 * **Wishlist**: met gebieden: `description`, `priceref`, `imageurl`
 
-➡️ [ Leer hoe te om model-gebaseerde schema&#39;s ](gs-schemas.md) te vormen
+➡️ [&#x200B; Leer hoe te om model-gebaseerde schema&#39;s &#x200B;](gs-schemas.md) te vormen
 
 >[!ENDSHADEBOX]
 
@@ -80,7 +80,7 @@ Klanten met een hoog risico worden verzameld in een afzonderlijk nieuw publiek d
 
 Nadat de campagne is gestart, verkent u het rapporteringsdashboard om prestatiegegevens en belangrijke inzichten te bekijken.
 
-➡️ [ Leer meer bij het melden ](../reports/campaign-global-report-cja.md)
+➡️ [&#x200B; Leer meer bij het melden &#x200B;](../reports/campaign-global-report-cja.md)
 
 ## Hoogrisicosegmenten {#high-risk}
 

@@ -54,6 +54,6 @@ De belangrijkste stappen om AI-modellen te kunnen maken en gebruiken zijn:
 
    >[!IMPORTANT]
    >
-   >Het rangschikken modellen vereisen terugkoppelt gebeurtenissen die binnen als ervaringsgebeurtenissen worden verzonden om worden verzameld. [ Leer meer over de inzameling van beslissingsgegevens ](../data-collection/data-collection.md)
+   >Het rangschikken modellen vereisen terugkoppelt gebeurtenissen die binnen als ervaringsgebeurtenissen worden verzonden om worden verzameld. [&#x200B; Leer meer over de inzameling van beslissingsgegevens &#x200B;](../data-collection/data-collection.md)
 
 1. Wijs het AI-model toe aan een selectiestrategie om in aanmerking komende aanbiedingen te classificeren. [Meer informatie](../selection-strategies.md#select-ranking-method)
