@@ -48,7 +48,7 @@ In dit voorbeeld passen we opvulling en verticale uitlijning aan binnen een stru
 
 ## Fragmentopvulling beheren met breedbandnavigatie {#fragment-padding-breadcrumb}
 
-Wanneer het werken met [ fragmenten ](../content-management/fragments.md) in E-mail Designer, kunt u verborgen of residuele opvulling tegenkomen die mobiel het teruggeven verschillend dan Desktop beïnvloedt. Dit is met name gemeenschappelijk wanneer de fragmenten zijn ontgrendeld of wanneer [ overerving ](use-visual-fragments.md#break-inheritance) gebroken is, aangezien de leftover het stileren in de onderliggende kolom of tekstcomponenten kan blijven.
+Wanneer het werken met [&#x200B; fragmenten &#x200B;](../content-management/fragments.md) in E-mail Designer, kunt u verborgen of residuele opvulling tegenkomen die mobiel het teruggeven verschillend dan Desktop beïnvloedt. Dit is met name gemeenschappelijk wanneer de fragmenten zijn ontgrendeld of wanneer [&#x200B; overerving &#x200B;](use-visual-fragments.md#break-inheritance) gebroken is, aangezien de leftover het stileren in de onderliggende kolom of tekstcomponenten kan blijven.
 
 Zo kunt u overvulopvulling in fragmenten identificeren en bewerken:
 
