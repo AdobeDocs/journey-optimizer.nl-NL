@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: Journey Optimizer
 title: Aan de slag met AI-modellen
 description: Meer informatie over AI-modellen waarmee aanbiedingen kunnen worden beoordeeld
-feature: Ranking, Decision Management
+feature: Ranking, Decisioning
 topic: Artificial Intelligence
 role: User
 level: Intermediate
 exl-id: 07679823-2288-4528-b09a-12fd76a69482
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 3%
@@ -34,7 +34,7 @@ Deze eigenschap laat u toe om verschillende **modellen van AI** tot stand te bre
 >id="ajo_exd_ai_model_type"
 >title="Het modeltype kiezen"
 >abstract="Selecteer het type van AI model u wilt tot stand brengen: **auto-optimalisering** optimaliseert aanbiedingen die op het verleden aanbiedingsprestaties worden gebaseerd, terwijl **Gepersonaliseerde optimalisering** optimaliseert en verpersoonlijkt aanbiedingen die op publiek worden gebaseerd en prestaties aanbieden."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/create-ranking-strategies#create-ranking-strategy" text="Een AI-model maken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/create-ranking-strategies#create-ranking-strategy" text="Een AI-model maken"
 
 Er zijn twee typen AI-modellen beschikbaar in [!DNL Journey Optimizer] :
 
@@ -54,6 +54,6 @@ De belangrijkste stappen om AI-modellen te kunnen maken en gebruiken zijn:
 
    >[!IMPORTANT]
    >
-   >Het rangschikken modellen vereisen terugkoppelt gebeurtenissen die binnen als ervaringsgebeurtenissen worden verzonden om worden verzameld. [&#x200B; Leer meer over de inzameling van beslissingsgegevens &#x200B;](../data-collection/data-collection.md)
+   >Het rangschikken modellen vereisen terugkoppelt gebeurtenissen die binnen als ervaringsgebeurtenissen worden verzonden om worden verzameld. [ Leer meer over de inzameling van beslissingsgegevens ](../data-collection/data-collection.md)
 
 1. Wijs het AI-model toe aan een selectiestrategie om in aanmerking komende aanbiedingen te classificeren. [Meer informatie](../selection-strategies.md#select-ranking-method)

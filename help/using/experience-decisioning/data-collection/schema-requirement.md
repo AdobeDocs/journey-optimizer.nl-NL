@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: Journey Optimizer
 title: Vastleggen van gebeurtenissen configureren
 description: Leer hoe u uw aanbiedingsschema configureert om gebeurtenissen vast te leggen
-feature: Ranking, Datasets, Decision Management
+feature: Ranking, Datasets, Decisioning
 role: Developer
 level: Experienced
 exl-id: ce3a2c33-c15b-436f-90b1-7373d7b2b1ca
 version: Journey Orchestration
-source-git-commit: 093e5ba2a74b498bb31d0398e1df460fd93b285f
+source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -183,4 +183,4 @@ Voor aangepaste gebeurtenissen moet aan het schema dat in de gegevensset wordt g
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=nl-NL){target="_blank"}, the connection is made automatically.-->
+>If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, the connection is made automatically.-->

@@ -4,14 +4,14 @@ product: journey optimizer
 title: Adobe Experience Platform-gegevens gebruiken voor beslissingen
 description: Leer hoe u Adobe Experience Platform-gegevens kunt gebruiken voor beslissingen.
 badge: label="Beperkte beschikbaarheid" type="Informative"
-feature: Personalization, Rules
+feature: Personalization, Rules, Decisioning
 topic: Personalization
 role: Developer
 level: Intermediate
 keywords: expression, editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 version: Journey Orchestration
-source-git-commit: abdce896a63f7d1eee7b45fea025405bf88cad2a
+source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Met [!DNL Journey Optimizer] kunt u gegevens van [!DNL Adobe Experience Platform
 
 ### Gegevenssets inschakelen voor opzoeken
 
-Alvorens te beginnen, moeten de datasets nodig voor besluit eerst voor raadpleging worden toegelaten. Volg de stappen in deze sectie worden gedetailleerd: [&#x200B; de gegevens van Adobe Experience Platform van het Gebruik &#x200B;](../data/lookup-aep-data.md).
+Alvorens te beginnen, moeten de datasets nodig voor besluit eerst voor raadpleging worden toegelaten. Volg de stappen in deze sectie worden gedetailleerd: [ de gegevens van Adobe Experience Platform van het Gebruik ](../data/lookup-aep-data.md).
 
 ### Toewijzingen maken
 
@@ -109,7 +109,7 @@ Voer de volgende stappen uit om Adobe Experience Platform-gegevens te gebruiken 
 
    ![](assets/exd-lookup-select-dataset.png)
 
-1. Klik op **[!UICONTROL Continue]**. U kunt nu de gegevenssetkenmerken openen in het menu **[!UICONTROL Dataset Lookup]** en deze gebruiken in uw regelvoorwaarden. [&#x200B; Leer hoe te om een besluitvormingsregel &#x200B;](../experience-decisioning/rules.md#create) tot stand te brengen
+1. Klik op **[!UICONTROL Continue]**. U kunt nu de gegevenssetkenmerken openen in het menu **[!UICONTROL Dataset Lookup]** en deze gebruiken in uw regelvoorwaarden. [ Leer hoe te om een besluitvormingsregel ](../experience-decisioning/rules.md#create) tot stand te brengen
 
    ![](assets/exd-lookup-menu.png)
 
@@ -131,9 +131,9 @@ Voer de volgende stappen uit om Adobe Experience Platform-gegevens te gebruiken 
 
    >[!NOTE]
    >
-   >Als de dataset u zoekt niet in de lijst toont, zorg ervoor u het voor raadpleging hebt toegelaten en u hebt een afbeelding van de datasetraadpleging gecreeerd. Voor meer details, verwijs naar de [&#x200B; sectie van Eerste vereisten &#x200B;](#prerequisites).
+   >Als de dataset u zoekt niet in de lijst toont, zorg ervoor u het voor raadpleging hebt toegelaten en u hebt een afbeelding van de datasetraadpleging gecreeerd. Voor meer details, verwijs naar de [ sectie van Eerste vereisten ](#prerequisites).
 
-1. Gebruik de datasetgebieden om uw het rangschikken formule zoals gebruikelijk te bouwen. [&#x200B; Leer hoe te om een het rangschikken formule &#x200B;](ranking/ranking-formulas.md#create-ranking-formula) tot stand te brengen
+1. Gebruik de datasetgebieden om uw het rangschikken formule zoals gebruikelijk te bouwen. [ Leer hoe te om een het rangschikken formule ](ranking/ranking-formulas.md#create-ranking-formula) tot stand te brengen
 
    ![](assets/exd-lookup-formula-criteria.png)
 
@@ -157,7 +157,7 @@ Ga als volgt te werk als u Adobe Experience Platform-gegevens wilt gebruiken in 
 
    >[!NOTE]
    >
-   >Als de dataset u zoekt niet in de lijst toont, zorg ervoor u het voor raadpleging hebt toegelaten en u hebt een afbeelding van de datasetraadpleging gecreeerd. Voor meer details, verwijs naar de [&#x200B; sectie van Eerste vereisten &#x200B;](#prerequisites).
+   >Als de dataset u zoekt niet in de lijst toont, zorg ervoor u het voor raadpleging hebt toegelaten en u hebt een afbeelding van de datasetraadpleging gecreeerd. Voor meer details, verwijs naar de [ sectie van Eerste vereisten ](#prerequisites).
 
 1. Selecteer het type **[!UICONTROL In total]** capapping en schakel vervolgens de optie **[!UICONTROL Expression]** in.
 
@@ -165,10 +165,10 @@ Ga als volgt te werk als u Adobe Experience Platform-gegevens wilt gebruiken in 
 
    >[!NOTE]
    >
-   >Als de dataset u zoekt niet in de lijst toont, zorg ervoor u het voor raadpleging hebt toegelaten en u hebt een afbeelding van de datasetraadpleging gecreeerd. Voor meer details, verwijs naar de [&#x200B; sectie van Eerste vereisten &#x200B;](#prerequisites).
+   >Als de dataset u zoekt niet in de lijst toont, zorg ervoor u het voor raadpleging hebt toegelaten en u hebt een afbeelding van de datasetraadpleging gecreeerd. Voor meer details, verwijs naar de [ sectie van Eerste vereisten ](#prerequisites).
 
 1. Bewerk de expressie en gebruik de gegevenssetvelden om uw expressie te maken.
 
    ![](assets/exd-lookup-capping-attribute.png)
 
-1. Voltooi zoals gebruikelijk de configuratie van uw het maximum- en regelbeslissingspunt. [&#x200B; Leer hoe te om het begrenzen van regels te plaatsen &#x200B;](../experience-decisioning/items.md#capping)
+1. Voltooi zoals gebruikelijk de configuratie van uw het maximum- en regelbeslissingspunt. [ Leer hoe te om het begrenzen van regels te plaatsen ](../experience-decisioning/items.md#capping)
