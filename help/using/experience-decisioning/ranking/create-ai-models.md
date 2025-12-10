@@ -119,4 +119,4 @@ Als u gebeurtenistypen wilt kunnen verzenden (weergegeven aanbod of aangeklikte 
 
 Learn how to create a personalized optimization model and how to apply it to a decision.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3445957?captions=dut&quality=12)-->
