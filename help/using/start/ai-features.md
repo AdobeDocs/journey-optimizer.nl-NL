@@ -30,7 +30,7 @@ Klik op het pictogram AI-assistent in de bovenste balk om het hulpdeelvenster aa
 
 >[!IMPORTANT]
 >
->U moet met de [ Generatieve AI Richtlijnen van de Gebruiker van Adobe Experience Cloud ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"} akkoord gaan alvorens AI Medewerker te gebruiken.
+>U moet met de [&#x200B; Generatieve AI Richtlijnen van de Gebruiker van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"} akkoord gaan alvorens AI Medewerker te gebruiken.
 
 ### Wat kan AI Assistant doen
 
@@ -60,7 +60,7 @@ Klik op het pictogram AI-assistent in de bovenste balk om het hulpdeelvenster aa
 
 ![](assets/do-not-localize/ai-assistant-answer.png){width="50%" align="center"}
 
-[ Leer meer over AI Medewerker in Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}
+[&#x200B; Leer meer over AI Medewerker in Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}
 
 ## Geavanceerde AI-agents voor optimalisatie van reizen {#ai-agents}
 
@@ -68,7 +68,7 @@ Adobe Journey Optimizer bouwt voort op de conversatiemogelijkheden van AI Assist
 
 ### Journey Analyze Agent {#journey-agent}
 
-De [ Reis analyseert Agent ](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"} helpt u vervoersprestaties door natuurlijke taalanalyse optimaliseren:
+De [&#x200B; Reis analyseert Agent &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"} helpt u vervoersprestaties door natuurlijke taalanalyse optimaliseren:
 
 **Zeer belangrijke Mogelijkheden:**
 
@@ -93,7 +93,7 @@ De [ Reis analyseert Agent ](https://experienceleague.adobe.com/en/docs/experien
 
 ### Experimentatieagent {#experimentation-agent}
 
-De [ Agent van de Experimentatie ](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"} moderniseert hoe u digitale experimenten over websites, e-mail, duwberichten, en toepassingen in werking stelt en beheert:
+De [&#x200B; Agent van de Experimentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"} moderniseert hoe u digitale experimenten over websites, e-mail, duwberichten, en toepassingen in werking stelt en beheert:
 
 **Zeer belangrijke Mogelijkheden:**
 
@@ -120,9 +120,9 @@ De [ Agent van de Experimentatie ](https://experienceleague.adobe.com/en/docs/ex
 
 ### Aanvullende AI-agents
 
-**Audience Agent** - voor gesprekspublieksonderzoek en beheer over Adobe Experience Platform, met inbegrip van dubbele opsporing en grootte het volgen. [ leer meer over Audience Agent ](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
+**Audience Agent** - voor gesprekspublieksonderzoek en beheer over Adobe Experience Platform, met inbegrip van dubbele opsporing en grootte het volgen. [&#x200B; leer meer over Audience Agent &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
 
-**Agent Orchestrator** - coördineert veelvoudige gespecialiseerde agenten om complexe, multi-step marketing uitdagingen op te lossen. Het orchestrator bepaalt automatisch welke agenten om hun werk efficiënt te impliceren en te rangschikken. [ leer meer over Agent Orchestrator ](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
+**Agent Orchestrator** - coördineert veelvoudige gespecialiseerde agenten om complexe, multi-step marketing uitdagingen op te lossen. Het orchestrator bepaalt automatisch welke agenten om hun werk efficiënt te impliceren en te rangschikken. [&#x200B; leer meer over Agent Orchestrator &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
 
 **het Krijgen Toegang:**
 
@@ -251,9 +251,9 @@ Blader in Journey Optimizer naar veelgebruikte scenario&#39;s, zoals:
 * Kanaalconfiguraties voor e-mail, push en/of SMS
 * Gebruikersmachtigingen voor het maken van reizen en berichten
 
-![ interface van de Playbooks van het Geval van het Gebruik ](assets/playbooks-filter.png)
+![&#x200B; interface van de Playbooks van het Geval van het Gebruik &#x200B;](assets/playbooks-filter.png)
 
-[ Mening alle beschikbare playbooks ](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html){target="_blank"} | [ Leer meer in de documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
+[&#x200B; Mening alle beschikbare playbooks &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html){target="_blank"} | [&#x200B; Leer meer in de documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Aanvullende AI-mogelijkheden {#additional-capabilities}
 
@@ -306,11 +306,11 @@ De meeste AI-functies worden opgenomen in Adobe Journey Optimizer. Voor sommige 
 
 >[!MORELIKETHIS]
 >
->* [ krijgen begonnen met AI Medewerker voor inhoudsgeneratie ](../content-management/gs-generative.md)
->* [ AI Medewerker in Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}
->* [ Reis analyseert de documentatie van de Agent ](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}
->* {de documentatie van de Agent van 0} Experimentatie [](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
->* [ Send-Time de gids van de Optimalisatie ](../building-journeys/send-time-optimization.md)
->* [ creeer AI het rangschikken modellen ](../experience-decisioning/ranking/create-ai-models.md)
->* [ documentatie van de Playbooks van het Gebruik Geval ](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
+>* [&#x200B; krijgen begonnen met AI Medewerker voor inhoudsgeneratie &#x200B;](../content-management/gs-generative.md)
+>* [&#x200B; AI Medewerker in Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}
+>* [&#x200B; Reis analyseert de documentatie van de Agent &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}
+>* {de documentatie van de Agent van 0} Experimentatie [&#128279;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
+>* [&#x200B; Send-Time de gids van de Optimalisatie &#x200B;](../building-journeys/send-time-optimization.md)
+>* [&#x200B; creeer AI het rangschikken modellen &#x200B;](../experience-decisioning/ranking/create-ai-models.md)
+>* [&#x200B; documentatie van de Playbooks van het Gebruik Geval &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 

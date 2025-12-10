@@ -78,7 +78,7 @@ Deze functionele gebieden werken in een doorlopende cyclus:
 
 Voor technische teams, hier is het gedetailleerde architectuurdiagram dat toont hoe Journey Optimizer met Adobe Experience Platform integreert:
 
-![ Architectuur van Adobe Journey Optimizer ](assets/ajo-architecture.png)
+![&#x200B; Architectuur van Adobe Journey Optimizer &#x200B;](assets/ajo-architecture.png)
 
 Vier toepassingen zijn native gebaseerd op Experience Platform: Adobe Real-Time Customer Data Platform, Journey Optimizer, Customer Journey Analytics en Adobe Mix Modeler. Journey Optimizer werkt naadloos met deze toepassingen, maar kan ook onafhankelijk werken.
 
@@ -90,7 +90,7 @@ Journey Optimizer kan op meerdere niveaus worden geïntegreerd met Adobe Experie
 * **Laag van de Dienst** - Hefboomwerkingen het bestuur van AEP, privacy, en de vraagdiensten
 * **Laag van de Toepassing** - verstrekt reisorchestratie, besluitvormingsbeheer, en inhoudsbeheer bovenop AEP
 
-Leer meer over [ blauwdrukken van Adobe Journey Optimizer ](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}.
+Leer meer over [&#x200B; blauwdrukken van Adobe Journey Optimizer &#x200B;](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}.
 
 ## Privacy en beveiliging {#privacy-security}
 
@@ -100,8 +100,8 @@ De privacy- en beveiligingspraktijken van Adobe Experience Cloud gelden voor Ado
 
 >[!MORELIKETHIS]
 >
->* [ worden begonnen met Journey Optimizer ](get-started.md)
->* [ Zeer belangrijke terminologie ](terminology.md)
->* [ gebruikersinterfacegids ](user-interface.md)
->* [ Grafieken en beperkingen ](guardrails.md)
+>* [&#x200B; worden begonnen met Journey Optimizer &#x200B;](get-started.md)
+>* [&#x200B; Zeer belangrijke terminologie &#x200B;](terminology.md)
+>* [&#x200B; gebruikersinterfacegids &#x200B;](user-interface.md)
+>* [&#x200B; Grafieken en beperkingen &#x200B;](guardrails.md)
 

@@ -17,11 +17,11 @@ ht-degree: 0%
 
 # Navigeren door de interface {#user-interface}
 
-Om tot Adobe Journey Optimizer toegang te hebben, onderteken binnen aan [ Adobe Experience Cloud ](https://experience.adobe.com) met uw Adobe ID, dan uitgezocht [!DNL Journey Optimizer].
+Om tot Adobe Journey Optimizer toegang te hebben, onderteken binnen aan [&#x200B; Adobe Experience Cloud &#x200B;](https://experience.adobe.com) met uw Adobe ID, dan uitgezocht [!DNL Journey Optimizer].
 
 >[!NOTE]
 >
->* De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [ toestemmingen ](../administration/permissions.md) en [ vergunning gevend pakket ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af.
+>* De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [&#x200B; toestemmingen &#x200B;](../administration/permissions.md) en [&#x200B; vergunning gevend pakket &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af.
 >* Deze documentatie wordt regelmatig bijgewerkt. Sommige schermafbeeldingen kunnen enigszins afwijken van uw interface.
 
 ## Snelle rondleiding {#quick-tour}
@@ -104,7 +104,7 @@ Klik het **pictogram van de Hulp** aan:
 * Contact opnemen met Adobe
 * Feedback delen
 
-![ Contextual hulpvoorbeeld ](assets/do-not-localize/Context-help.gif)
+![&#x200B; Contextual hulpvoorbeeld &#x200B;](assets/do-not-localize/Context-help.gif)
 
 ### Meldingen {#notifications}
 
@@ -119,7 +119,7 @@ Meldingen configureren:
 2. Onder **[!UICONTROL Notifications]** zoeken **[!UICONTROL Journey Optimizer]**
 3. Schakel de berichttypen in die u wilt ontvangen
 
-![ voorkeur van het Bericht ](../rn/assets/do-not-localize/pulse-notif.png){width="60%" align="center"}
+![&#x200B; voorkeur van het Bericht &#x200B;](../rn/assets/do-not-localize/pulse-notif.png){width="60%" align="center"}
 
 ### Taalvoorkeuren {#language}
 
@@ -164,15 +164,15 @@ AI Assistant biedt onmiddellijke hulp en operationele inzichten. Klik op het pic
 
 Voor uitgebreide documentatie over elke mogelijkheid:
 
-* **Reizen** - [ creeer uw eerste reis ](../building-journeys/journey-gs.md)
-* **Campagnes** - [ begonnen met campagnes ](../campaigns/get-started-with-campaigns.md)
-* **Aanbiedingen &amp; Beslissing** - [ het beheer van het Besluit ](../offers/get-started/starting-offer-decisioning.md)
-* **de Creatie van de Inhoud** - [ E-mailontwerp ](../email/get-started-email-design.md)
-* **Soorten publiek** - [ beheer van het Publiek ](../audience/about-audiences.md)
-* **Configuratie van het Kanaal** - [ de kanalen van de Opstelling ](../configuration/get-started-configuration.md)
-* **het Beheer van Gegevens** - [ Werk met schema&#39;s ](../data/get-started-schemas.md)
-* **Privacy &amp; Bestuur** - [ Overzicht van de Privacy ](../privacy/get-started-privacy.md)
-* **Beleid** - [ de controle van de Toegang ](../administration/permissions-overview.md)
+* **Reizen** - [&#x200B; creeer uw eerste reis &#x200B;](../building-journeys/journey-gs.md)
+* **Campagnes** - [&#x200B; begonnen met campagnes &#x200B;](../campaigns/get-started-with-campaigns.md)
+* **Aanbiedingen &amp; Beslissing** - [&#x200B; het beheer van het Besluit &#x200B;](../offers/get-started/starting-offer-decisioning.md)
+* **de Creatie van de Inhoud** - [&#x200B; E-mailontwerp &#x200B;](../email/get-started-email-design.md)
+* **Soorten publiek** - [&#x200B; beheer van het Publiek &#x200B;](../audience/about-audiences.md)
+* **Configuratie van het Kanaal** - [&#x200B; de kanalen van de Opstelling &#x200B;](../configuration/get-started-configuration.md)
+* **het Beheer van Gegevens** - [&#x200B; Werk met schema&#39;s &#x200B;](../data/get-started-schemas.md)
+* **Privacy &amp; Bestuur** - [&#x200B; Overzicht van de Privacy &#x200B;](../privacy/get-started-privacy.md)
+* **Beleid** - [&#x200B; de controle van de Toegang &#x200B;](../administration/permissions-overview.md)
 
 ## Verwante onderwerpen {#related-topics}
 
@@ -294,7 +294,7 @@ Voor uitgebreide documentatie over elke mogelijkheid:
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings"
 >title="Webhaken inschakelen"
->abstract="Schakel webhaken in om real-time feedback te ontvangen over de uitvoeringsstatus van uw berichten. Alvorens deze optie te activeren, zorg ervoor u een webhaak in het **Beleid** /2} Kanalen **/nl** Feedback Webhaak **menu hebt gevormd.**"
+>abstract="Schakel webhaken in om real-time feedback te ontvangen over de uitvoeringsstatus van uw berichten. Alvorens deze optie te activeren, zorg ervoor u een webhaak in het **Beleid** /2&rbrace; Kanalen **/nl** Feedback Webhaak **menu hebt gevormd.**"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_create"
