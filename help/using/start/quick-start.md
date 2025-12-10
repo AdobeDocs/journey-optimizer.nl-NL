@@ -94,7 +94,7 @@ Klik op de onderstaande rol voor specifieke richtlijnen die zijn afgestemd op uw
 
 Bekijk de inleidende video voor meer informatie over sleutelmogelijkheden en persona&#39;s van Journey Optimizer. De video doorloopt de gebruikersinterface en markeert belangrijke eigenschappen die op rol-specifieke workflows worden gebaseerd.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430315?captions=dut&quality=12)
 
 ## Aanvullende bronnen
 
