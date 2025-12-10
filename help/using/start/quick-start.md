@@ -101,4 +101,4 @@ Bekijk de inleidende video voor meer informatie over sleutelmogelijkheden en per
 Verken de volgende bronnen voor diepgaander leren en updates:
 
 * [Release-opmerkingen](../rn/release-notes.md)
-* [&#x200B; Video&#39;s van het Leerprogramma &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html)
+* [&#x200B; Video&#39;s van het Leerprogramma &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=nl-NL)

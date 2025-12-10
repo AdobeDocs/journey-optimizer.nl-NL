@@ -90,7 +90,7 @@ Journey Optimizer kan op meerdere niveaus worden geïntegreerd met Adobe Experie
 * **Laag van de Dienst** - Hefboomwerkingen het bestuur van Adobe Experience Platform, privacy, en de vraagdiensten
 * **Laag van de Toepassing** - verstrekt reisorchestratie, besluitvormingsbeheer, en inhoudsbeheer bovenop Adobe Experience Platform
 
-Leer meer over [&#x200B; blauwdrukken van Adobe Journey Optimizer &#x200B;](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}.
+Leer meer over [&#x200B; blauwdrukken van Adobe Journey Optimizer &#x200B;](https://experienceleague.adobe.com/nl/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}.
 
 ## Privacy en beveiliging {#privacy-security}
 
