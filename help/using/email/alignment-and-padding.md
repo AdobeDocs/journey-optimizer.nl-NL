@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: verticale uitlijning, e-maileditor, opvulling
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
-source-git-commit: 12d0869e323a1b3b892bac91ba423029f9c123a5
+source-git-commit: 4817b7426abf202c886b7fd63d59aa0f245e5496
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 1%
+source-wordcount: '359'
+ht-degree: 0%
 
 ---
 
@@ -45,3 +45,21 @@ In dit voorbeeld passen we opvulling en verticale uitlijning aan binnen een stru
 >[!TIP]
 >
 >Zorg ervoor dat bij het ontwerpen van e-mailinhoud voor Gmail op Android-apparaten de opvulling van kolommen wordt gebruikt in plaats van grote, vaste marges. Bij Gmail op Android worden te grote afbeeldingen en marges vaak onjuist weergegeven, waardoor de lay-out overloopt of de scheidingslijnen afnemen. Gebruik een kleinere afbeeldingsbreedte of gebruik op kolom gebaseerde opvulling voor een consistente weergave.
+
+## Fragmentopvulling beheren met breedbandnavigatie {#fragment-padding-breadcrumb}
+
+Wanneer het werken met [ fragmenten ](../content-management/fragments.md) in E-mail Designer, kunt u verborgen of residuele opvulling tegenkomen die mobiel het teruggeven verschillend dan Desktop beïnvloedt. Dit is met name gemeenschappelijk wanneer de fragmenten zijn ontgrendeld of wanneer [ overerving ](use-visual-fragments.md#break-inheritance) gebroken is, aangezien de leftover het stileren in de onderliggende kolom of tekstcomponenten kan blijven.
+
+Zo kunt u overvulopvulling in fragmenten identificeren en bewerken:
+
+1. Gebruik **[!UICONTROL Navigation tree]** of klik direct op elementen in de redacteur om elke ouderstructuur of kolom binnen uw fragment te selecteren. Zo kunt u verborgen opvulling of marge zoeken die specifiek is voor mobiele apparaten.
+
+1. Na het selecteren van het element in de broodkruimel, navigeer aan het **[!UICONTROL Styles]** lusje op het recht.
+
+1. Controleer de **[!UICONTROL Padding]** -instellingen en verwijder of pas de opvulling zo nodig aan om de mobiele uitlijning te corrigeren.
+
+1. Als er zich problemen met de uitlijning blijven voordoen wanneer u fragmenten opnieuw gebruikt, herhaalt u dit proces voor andere kolommen of tekstcomponenten in het fragment.
+
+>[!NOTE]
+>
+>Dit gedrag wordt verwacht wanneer fragmenten herhaaldelijk worden ingevoegd en verwijderd, omdat opmaakregels zich kunnen ophopen. Controleer altijd de opvullingswaarden met behulp van de breedbandnavigatie, vooral wanneer u zich richt op mobiele apparaten.
