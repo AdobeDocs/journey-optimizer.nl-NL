@@ -17,11 +17,11 @@ ht-degree: 1%
 
 # Navigeren door de interface {#user-interface}
 
-Om tot Adobe Journey Optimizer toegang te hebben, onderteken binnen aan [&#x200B; Adobe Experience Cloud &#x200B;](https://experience.adobe.com) met uw Adobe ID, dan uitgezocht [!DNL Journey Optimizer].
+Om tot Adobe Journey Optimizer toegang te hebben, onderteken binnen aan [ Adobe Experience Cloud ](https://experience.adobe.com) met uw Adobe ID, dan uitgezocht [!DNL Journey Optimizer].
 
 >[!NOTE]
 >
->* De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [&#x200B; toestemmingen &#x200B;](../administration/permissions.md) en [&#x200B; vergunning gevend pakket &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af.
+>* De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [ toestemmingen ](../administration/permissions.md) en [ vergunning gevend pakket ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af.
 >* Deze documentatie wordt regelmatig bijgewerkt. Sommige schermafbeeldingen kunnen enigszins afwijken van uw interface.
 
 ## Snelle rondleiding {#quick-tour}
@@ -44,50 +44,50 @@ Met de linkernavigatie worden Journey Optimizer-mogelijkheden in functionele cat
 **Huis** - Uw uitgangspunt met snelle toegang tot onlangs gecreeerde punten en nuttige middelen
 
 **Beheer van de Reis** - creeer en beheer klantenervaringen
-* **Campagnes** - creeer eenmalige of geplande berichten aan specifiek publiek. [&#x200B; worden begonnen met campagnes &#x200B;](../campaigns/get-started-with-campaigns.md)
+* **Campagnes** - creeer eenmalige of geplande berichten aan specifiek publiek. [ worden begonnen met campagnes ](../campaigns/get-started-with-campaigns.md)
 * **reizen** - Bouw multi-step, dwars-kanaalklantenervaringen. [Uw eerste journey maken](../building-journeys/journey-gs.md)
-* **Rapporten** - analyseer prestaties met geïntegreerde rapportage van Customer Journey Analytics. [&#x200B; Mening meldend documentatie &#x200B;](../reports/campaign-global-report-cja.md)
+* **Rapporten** - analyseer prestaties met geïntegreerde rapportage van Customer Journey Analytics. [ Mening meldend documentatie ](../reports/campaign-global-report-cja.md)
 
-**Beheer van het Besluit** - beheer gepersonaliseerde aanbiedingen. [&#x200B; Leer over besluitvormingsbeheer &#x200B;](../offers/get-started/starting-offer-decisioning.md)
+**Beheer van het Besluit** - beheer gepersonaliseerde aanbiedingen. [ Leer over besluitvormingsbeheer ](../offers/get-started/starting-offer-decisioning.md)
 * **Aanbiedingen** - creeer en beheer gepersonaliseerde aanbiedingen
 * **Componenten** - de plaatsingen van de opstelling, regels, en markeringen voor aanbiedingen
 
 **Beheer van de Inhoud** - creeer en organiseer inhoud
-* **Assets** - Gecentraliseerde bewaarplaats voor beelden en media. [&#x200B; beheert activa &#x200B;](../integrations/assets.md)
-* **malplaatjes van de Inhoud** - Herbruikbare berichtmalplaatjes voor campagnes en reizen. [&#x200B; creeer malplaatjes &#x200B;](../content-management/content-templates.md)
-* **Fragments** - de blokken van de Inhoud die over veelvoudige berichten kunnen worden gebruikt. [&#x200B; Werk met fragmenten &#x200B;](../content-management/fragments.md)
-* **het Bestaan pagina&#39;s** - de vormen van het Web voor abonnementen en voorkeur. [&#x200B; Ontwerpen die pagina&#39;s &#x200B;](../landing-pages/get-started-lp.md) landen
-* **Van het Geval van het gebruik Playbooks van 0&rbrace; - pre-gebouwde werkschema&#39;s voor gemeenschappelijke marketing scenario&#39;s.** [&#x200B; ontdekken playbooks &#x200B;](ai-features.md#playbooks)
+* **Assets** - Gecentraliseerde bewaarplaats voor beelden en media. [ beheert activa ](../integrations/assets.md)
+* **malplaatjes van de Inhoud** - Herbruikbare berichtmalplaatjes voor campagnes en reizen. [ creeer malplaatjes ](../content-management/content-templates.md)
+* **Fragments** - de blokken van de Inhoud die over veelvoudige berichten kunnen worden gebruikt. [ Werk met fragmenten ](../content-management/fragments.md)
+* **het Bestaan pagina&#39;s** - de vormen van het Web voor abonnementen en voorkeur. [ Ontwerpen die pagina&#39;s ](../landing-pages/get-started-lp.md) landen
+* **Van het Geval van het gebruik Playbooks van 0} - pre-gebouwde werkschema&#39;s voor gemeenschappelijke marketing scenario&#39;s.** [ ontdekken playbooks ](ai-features.md#playbooks)
 
-**Gegevensbeheer** - beheer uw gegevensstichting. [&#x200B; leer over schema&#39;s en datasets &#x200B;](../data/get-started-schemas.md)
+**Gegevensbeheer** - beheer uw gegevensstichting. [ leer over schema&#39;s en datasets ](../data/get-started-schemas.md)
 * **Schema&#39;s** - bepaal gegevensstructuur
 * **Datasets** - opslag en beheer gegevensinzamelingen
 * **Vragen** - schrijf en voer vragen uit
 * **Controle** - de gegevensopname van het spoor
 
 **Verbindingen** - integreer met andere systemen
-* **Bronnen** - Samenvat gegevens van externe systemen. [&#x200B; vorm bronnen &#x200B;](get-started-sources.md)
-* **Doelen** - de gegevens van de Uitvoer naar wolkenopslag. [&#x200B; de bestemmingen van de opstelling &#x200B;](../data/export-datasets.md)
+* **Bronnen** - Samenvat gegevens van externe systemen. [ vorm bronnen ](get-started-sources.md)
+* **Doelen** - de gegevens van de Uitvoer naar wolkenopslag. [ de bestemmingen van de opstelling ](../data/export-datasets.md)
 
 **Klant** - beheer publiek en profielen
-* **Soorten publiek** - creeer en beheer klantensegmenten. [&#x200B; Werk met publiek &#x200B;](../audience/about-audiences.md)
+* **Soorten publiek** - creeer en beheer klantensegmenten. [ Werk met publiek ](../audience/about-audiences.md)
 * **de lijsten van het Abonnement** - beheert opt-in lijsten. [Lidmaatschappen beheren](../landing-pages/subscription-list.md)
-* **Profielen** - Mening verenigde klantenprofielen. [&#x200B; verken profielen &#x200B;](../audience/get-started-profiles.md)
-* **Identiteiten** - beheer identiteitsresolutie. [&#x200B; Leer over identiteiten &#x200B;](../audience/get-started-identity.md)
+* **Profielen** - Mening verenigde klantenprofielen. [ verken profielen ](../audience/get-started-profiles.md)
+* **Identiteiten** - beheer identiteitsresolutie. [ Leer over identiteiten ](../audience/get-started-identity.md)
 
-**Privacy** - de privacy en de naleving van de Controle. [&#x200B; Overzicht van de Privacy &#x200B;](../privacy/get-started-privacy.md)
+**Privacy** - de privacy en de naleving van de Controle. [ Overzicht van de Privacy ](../privacy/get-started-privacy.md)
 * **Beleid** - bepaal het beleid van het gegevensbeheer
 * **Verzoeken** - de privacyverzoeken van de Behandeling (GDPR, CCPA)
-* **Controle** - de activiteitenlogboeken van het overzicht. [&#x200B; de controlelogboeken van de Mening &#x200B;](../privacy/audit-logs.md)
+* **Controle** - de activiteitenlogboeken van het overzicht. [ de controlelogboeken van de Mening ](../privacy/audit-logs.md)
 * **Levenscyclus van Gegevens** - vorm gegevensbehoud
 
-**Beleid** - vorm systeemmontages. [&#x200B; overzicht van het Toegangsbeheer &#x200B;](../administration/permissions-overview.md)
-* **Configuraties** - de gebeurtenissen van de opstelling, gegevensbronnen, en acties. [&#x200B; vorm kanalen &#x200B;](../configuration/get-started-configuration.md)
-* **Bedrijfs regels** - de berichtfrequentie en de reisingang van de controle. [&#x200B; de bedrijfsregels van de opstelling &#x200B;](../conflict-prioritization/rule-sets.md)
-* **Alarm** - bekijk en beheer systeemalarm. [&#x200B; alarm van de Monitor &#x200B;](../reports/alerts.md)
-* **Sandboxen** - beheer milieu&#39;s en kopieer voorwerpen tussen zandbakken. [&#x200B; Werk met zandbakken &#x200B;](../administration/sandboxes.md)
-* **Kanalen** - vorm kanaalmontages en leverbaarheid. [&#x200B; de configuraties van het het kanaal van de opstelling &#x200B;](../configuration/channel-surfaces.md) | [&#x200B; krijgen begonnen met configuratie &#x200B;](../configuration/get-started-configuration.md)
-* **Markeringen** - organiseer en categoriseer inhoud. [&#x200B; Werk met verenigde markeringen &#x200B;](search-filter-categorize.md#tags)
+**Beleid** - vorm systeemmontages. [ overzicht van het Toegangsbeheer ](../administration/permissions-overview.md)
+* **Configuraties** - de gebeurtenissen van de opstelling, gegevensbronnen, en acties. [ vorm kanalen ](../configuration/get-started-configuration.md)
+* **Bedrijfs regels** - de berichtfrequentie en de reisingang van de controle. [ de bedrijfsregels van de opstelling ](../conflict-prioritization/rule-sets.md)
+* **Alarm** - bekijk en beheer systeemalarm. [ alarm van de Monitor ](../reports/alerts.md)
+* **Sandboxen** - beheer milieu&#39;s en kopieer voorwerpen tussen zandbakken. [ Werk met zandbakken ](../administration/sandboxes.md)
+* **Kanalen** - vorm kanaalmontages en leverbaarheid. [ de configuraties van het het kanaal van de opstelling ](../configuration/channel-surfaces.md) | [ krijgen begonnen met configuratie ](../configuration/get-started-configuration.md)
+* **Markeringen** - organiseer en categoriseer inhoud. [ Werk met verenigde markeringen ](search-filter-categorize.md#tags)
 
 ## Functies voor bovenste balk {#top-bar}
 
@@ -103,7 +103,7 @@ Klik het **pictogram van de Hulp** aan:
 * Contact opnemen met Adobe
 * Feedback delen
 
-![&#x200B; Contextual hulpvoorbeeld &#x200B;](assets/do-not-localize/Context-help.gif)
+![ Contextual hulpvoorbeeld ](assets/do-not-localize/Context-help.gif)
 
 ### Meldingen {#notifications}
 
@@ -118,7 +118,7 @@ Meldingen configureren:
 2. Onder **[!UICONTROL Notifications]** zoeken **[!UICONTROL Journey Optimizer]**
 3. Schakel de berichttypen in die u wilt ontvangen
 
-![&#x200B; voorkeur van het Bericht &#x200B;](../rn/assets/do-not-localize/pulse-notif.png){width="60%" align="center"}
+![ voorkeur van het Bericht ](../rn/assets/do-not-localize/pulse-notif.png){width="60%" align="center"}
 
 ### Taalvoorkeuren {#language}
 
@@ -279,7 +279,7 @@ AI Assistant biedt onmiddellijke hulp en operationele inzichten. Klik op het pic
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings"
 >title="Webhaken inschakelen"
->abstract="Schakel webhaken in om real-time feedback te ontvangen over de uitvoeringsstatus van uw berichten. Alvorens deze optie te activeren, zorg ervoor u een webhaak in het **Beleid** /2&rbrace; Kanalen **/nl** Feedback Webhaak **menu hebt gevormd.**"
+>abstract="Schakel webhaken in om real-time feedback te ontvangen over de uitvoeringsstatus van uw berichten. Alvorens deze optie te activeren, zorg ervoor u een webhaak in het **Beleid** /2} Kanalen **/nl** Feedback Webhaak **menu hebt gevormd.**"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_create"
