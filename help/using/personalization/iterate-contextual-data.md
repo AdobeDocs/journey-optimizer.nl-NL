@@ -7,12 +7,10 @@ feature: Personalization
 topic: Personalization
 role: Developer
 level: Intermediate
-hide: true
-hidefromtoc: true
 keywords: expressie, editor, handlebars, iteratie, arrays, context, personalisatie
-source-git-commit: d3a06e15440dc58267528444f90431c3b32b49f2
+source-git-commit: a0e8ca1b45818014993c37ac41f25e30ee1d1bb5
 workflow-type: tm+mt
-source-wordcount: '2704'
+source-wordcount: '3008'
 ht-degree: 0%
 
 ---
@@ -23,7 +21,7 @@ Leer hoe u de iteratiesyntaxis van Handlebars gebruikt om dynamische lijsten van
 
 ## Overzicht {#overview}
 
-Journey Optimizer verleent toegang tot contextafhankelijke gegevens van veelvoudige bronnen tijdens [&#x200B; berichtverpersoonlijking &#x200B;](personalize.md). U kunt over series van deze bronnen herhalen gebruikend de syntaxis van Handlebars in inheemse kanalen ([&#x200B; e-mail &#x200B;](../email/get-started-email-design.md), [&#x200B; duw &#x200B;](../push/create-push.md), [&#x200B; SMS &#x200B;](../sms/create-sms.md)) om dynamische inhoud zoals productlijsten, aanbevelingen, of andere herhalende elementen te tonen.
+Journey Optimizer verleent toegang tot contextafhankelijke gegevens van veelvoudige bronnen tijdens [ berichtverpersoonlijking ](personalize.md). U kunt over series van deze bronnen herhalen gebruikend de syntaxis van Handlebars in inheemse kanalen ([ e-mail ](../email/get-started-email-design.md), [ duw ](../push/create-push.md), [ SMS ](../sms/create-sms.md)) om dynamische inhoud zoals productlijsten, aanbevelingen, of andere herhalende elementen te tonen.
 
 **Beschikbare contextbronnen:**
 
@@ -33,11 +31,11 @@ Journey Optimizer verleent toegang tot contextafhankelijke gegevens van veelvoud
 * **[Technische eigenschappen](#technical-properties)**: De meta-gegevens van de reis zoals reis identiteitskaart en supplementaire herkenningstekens
 * **[context van de Reis](#other-contexts)**: Andere op reis betrekking hebbende gegevens toegankelijk tijdens uitvoering
 
-Deze gids toont u hoe te over series van elk van deze bronnen in uw berichten herhalen, en hoe te met series te werken wanneer het vormen van reisactiviteiten. Begin met [&#x200B; de iteratiesyntaxis van Handels &#x200B;](#syntax) om de grondbeginselen van de berichtverpersoonlijking te begrijpen, of aan [&#x200B; het Werk met series in de uitdrukkingen van de Reis &#x200B;](#arrays-in-journeys) te leren hoe te om seriegegevens tot douaneacties en datasetraadplegingen over te gaan.
+Deze gids toont u hoe te over series van elk van deze bronnen in uw berichten herhalen, en hoe te met series te werken wanneer het vormen van reisactiviteiten. Begin met [ de iteratiesyntaxis van Handels ](#syntax) om de grondbeginselen van de berichtverpersoonlijking te begrijpen, of aan [ het Werk met series in de uitdrukkingen van de Reis ](#arrays-in-journeys) te leren hoe te om seriegegevens tot douaneacties en datasetraadplegingen over te gaan.
 
 ## Titeratiesyntaxis van werkbalken {#syntax}
 
-Handlebars verstrekt `{{#each}}` [&#x200B; helper &#x200B;](functions/helpers.md) om over series te herhalen. De basissyntaxis is:
+Handlebars verstrekt `{{#each}}` [ helper ](functions/helpers.md) om over series te herhalen. De basissyntaxis is:
 
 ```handlebars
 {{#each arrayPath as |item|}}
@@ -55,11 +53,11 @@ Handlebars verstrekt `{{#each}}` [&#x200B; helper &#x200B;](functions/helpers.md
 
 ## Gegevens herhalen over gebeurtenissen {#event-data}
 
-De gegevens van de gebeurtenis zijn beschikbaar wanneer uw reis door een [&#x200B; gebeurtenis &#x200B;](../event/about-events.md) wordt teweeggebracht. Dit is handig voor het weergeven van gegevens die zijn vastgelegd op het moment dat de reis werd gestart, zoals inhoud van het winkelwagentje, orderitems of formulierverzendingen.
+De gegevens van de gebeurtenis zijn beschikbaar wanneer uw reis door een [ gebeurtenis ](../event/about-events.md) wordt teweeggebracht. Dit is handig voor het weergeven van gegevens die zijn vastgelegd op het moment dat de reis werd gestart, zoals inhoud van het winkelwagentje, orderitems of formulierverzendingen.
 
 >[!TIP]
 >
->U kunt gebeurtenisgegevens combineren met andere bronnen. Zie [&#x200B; veelvoudige contextbronnen &#x200B;](#combine-sources) voor voorbeelden combineren.
+>U kunt gebeurtenisgegevens combineren met andere bronnen. Zie [ veelvoudige contextbronnen ](#combine-sources) voor voorbeelden combineren.
 
 ### Contextpad voor gebeurtenissen
 
@@ -72,7 +70,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### Voorbeeld: Items starten van een gebeurtenis
 
-Als uw [&#x200B; gebeurtenisschema &#x200B;](../event/experience-event-schema.md) a `productListItems` serie (standaard [&#x200B; formaat XDM &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=nl-NL){target="_blank"}) omvat, kunt u wortelinhoud zoals die in de steekproef hieronder wordt gedetailleerd tonen.
+Als uw [ gebeurtenisschema ](../event/experience-event-schema.md) a `productListItems` serie (standaard [ formaat XDM ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}) omvat, kunt u wortelinhoud zoals die in de steekproef hieronder wordt gedetailleerd tonen.
 
 +++ Voorbeeldcode weergeven
 
@@ -107,15 +105,15 @@ Gebruik geneste `{{#each}}` -blokken voor geneste structuren.
 
 +++
 
-Leer meer over het nesten in [&#x200B; Beste praktijken &#x200B;](#best-practices).
+Leer meer over het nesten in [ Beste praktijken ](#best-practices).
 
 ## Doorlopen van aangepaste handelingsreacties {#custom-action-responses}
 
-[&#x200B; de actie van de Douane &#x200B;](../action/about-custom-action-configuration.md) reacties bevatten gegevens die van externe API vraag zijn teruggekeerd. Dit is nuttig om informatie in real time van uw systemen, zoals loyaliteitspunten, productaanbevelingen, inventarisstatus, of gepersonaliseerde aanbiedingen te tonen.
+[ de actie van de Douane ](../action/about-custom-action-configuration.md) reacties bevatten gegevens die van externe API vraag zijn teruggekeerd. Dit is nuttig om informatie in real time van uw systemen, zoals loyaliteitspunten, productaanbevelingen, inventarisstatus, of gepersonaliseerde aanbiedingen te tonen.
 
 >[!NOTE]
 >
->De acties van de douane moeten met een reactielading worden gevormd om deze eigenschap te gebruiken. Leer meer in [&#x200B; deze sectie &#x200B;](../action/action-response.md#config-response). U kunt de reacties van de douaneactie met gebeurtenisgegevens of datasetraadplegingen ook combineren - zie [&#x200B; veelvoudige contextbronnen &#x200B;](#combine-sources) voor voorbeelden combineren.
+>De acties van de douane moeten met een reactielading worden gevormd om deze eigenschap te gebruiken. Leer meer in [ deze sectie ](../action/action-response.md#config-response). U kunt de reacties van de douaneactie met gebeurtenisgegevens of datasetraadplegingen ook combineren - zie [ veelvoudige contextbronnen ](#combine-sources) voor voorbeelden combineren.
 
 ### Contextpad voor aangepaste handelingen
 
@@ -123,7 +121,7 @@ Leer meer over het nesten in [&#x200B; Beste praktijken &#x200B;](#best-practice
 context.journey.actions.<actionName>.<fieldPath>
 ```
 
-* `<actionName>`: De naam van uw [&#x200B; douaneactie &#x200B;](../action/about-custom-action-configuration.md) zoals gevormd in de reis
+* `<actionName>`: De naam van uw [ douaneactie ](../action/about-custom-action-configuration.md) zoals gevormd in de reis
 * `<fieldPath>`: Het pad naar het veld of de array binnen de antwoordlading
 
 ### Voorbeeld: productaanbevelingen van een API
@@ -206,7 +204,7 @@ Zie het onderstaande voorbeeld voor herhaling over een aangepaste actierespons m
 
 +++
 
-Voor complexere het nestelen patronen, zie [&#x200B; Beste praktijken &#x200B;](#best-practices).
+Voor complexere het nestelen patronen, zie [ Beste praktijken ](#best-practices).
 
 ### Voorbeeld: Uitkeringen in het kader van het keuzerecht
 
@@ -245,13 +243,13 @@ Zie het onderstaande voorbeeld voor dynamische voordelen die zijn gebaseerd op d
 
 ## Doorlopen van zoekresultaten van gegevensset {#dataset-lookup}
 
-De [&#x200B; activiteit van de Opzoeken van de Dataset &#x200B;](../building-journeys/dataset-lookup.md) staat u toe om gegevens van [&#x200B; datasets van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=nl-NL){target="_blank"} tijdens reis runtime terug te winnen. De verrijkte gegevens worden opgeslagen als een array en kunnen in uw berichten worden herhaald.
+De [ activiteit van de Opzoeken van de Dataset ](../building-journeys/dataset-lookup.md) staat u toe om gegevens van [ datasets van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target="_blank"} tijdens reis runtime terug te winnen. De verrijkte gegevens worden opgeslagen als een array en kunnen in uw berichten worden herhaald.
 
 >[!AVAILABILITY]
 >
 >De opzoekactiviteit van de Dataset is slechts beschikbaar voor een beperkte reeks organisaties. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
-Leer meer over het vormen van de activiteit van de Lookup van de Dataset in [&#x200B; deze sectie &#x200B;](../building-journeys/dataset-lookup.md). De raadpleging van de Dataset is bijzonder krachtig wanneer gecombineerd met gebeurtenisgegevens - zie [&#x200B; Voorbeeld: de gegevens van de gebeurtenis die met datasetraadpleging &#x200B;](#combine-sources) voor een praktisch gebruiksgeval worden verrijkt.
+Leer meer over het vormen van de activiteit van de Lookup van de Dataset in [ deze sectie ](../building-journeys/dataset-lookup.md). De raadpleging van de Dataset is bijzonder krachtig wanneer gecombineerd met gebeurtenisgegevens - zie [ Voorbeeld: de gegevens van de gebeurtenis die met datasetraadpleging ](#combine-sources) voor een praktisch gebruiksgeval worden verrijkt.
 
 ### Contextpad voor raadpleging van gegevenssets
 
@@ -319,7 +317,7 @@ Gebruik voorwaardelijke `{{#if}}` instructies in uw `{{#each}}` -lus om zoekresu
 
 +++
 
-Leer meer over voorwaardelijk filtreren in [&#x200B; Beste praktijken &#x200B;](#best-practices).
+Leer meer over voorwaardelijk filtreren in [ Beste praktijken ](#best-practices).
 
 ### Voorbeeld: totalen berekenen uit de zoekopdracht van de gegevensset
 
@@ -353,7 +351,7 @@ context.journey.technicalProperties.supplementalId
 
 ### Voorbeeld: arrayitems filteren met aanvullende id
 
-Wanneer u aanvullende id&#39;s gebruikt bij een door een gebeurtenis geïnitieerde reis met een array, kunt u filteren om alleen het relevante item voor de huidige reisinstantie weer te geven. Leer meer over supplementaire herkenningstekens in [&#x200B; deze gids &#x200B;](../building-journeys/supplemental-identifier.md).
+Wanneer u aanvullende id&#39;s gebruikt bij een door een gebeurtenis geïnitieerde reis met een array, kunt u filteren om alleen het relevante item voor de huidige reisinstantie weer te geven. Leer meer over supplementaire herkenningstekens in [ deze gids ](../building-journeys/supplemental-identifier.md).
 
 **Scenario**: Een reis wordt teweeggebracht met veelvoudige boekingen, maar u wilt informatie slechts voor het specifieke boeken (die door supplementaire identiteitskaart wordt geïdentificeerd) tonen die deze reisinstantie teweegbracht.
 
@@ -393,9 +391,9 @@ U kunt gegevens uit verschillende bronnen in het zelfde bericht combineren om ri
 
 **de bronnen van de context u kunt combineren:**
 
-* [&#x200B; gegevens van de Gebeurtenis &#x200B;](#event-data) + [&#x200B; de actierespons van de Douane &#x200B;](#custom-action-responses)
-* [&#x200B; gegevens van de Gebeurtenis &#x200B;](#event-data) + [&#x200B; de raadpleging van de Dataset &#x200B;](#dataset-lookup)
-* [&#x200B; Veelvoudige bronnen &#x200B;](#combine-sources) + [&#x200B; Technische eigenschappen &#x200B;](#technical-properties)
+* [ gegevens van de Gebeurtenis ](#event-data) + [ de actierespons van de Douane ](#custom-action-responses)
+* [ gegevens van de Gebeurtenis ](#event-data) + [ de raadpleging van de Dataset ](#dataset-lookup)
+* [ Veelvoudige bronnen ](#combine-sources) + [ Technische eigenschappen ](#technical-properties)
 
 ### Voorbeeld: Winkelobjecten met real-time voorraad
 
@@ -431,7 +429,7 @@ Bekijk het onderstaande voorbeeld om gebeurtenisgegevens (inhoud van winkelwagen
 
 ### Voorbeeld: Gebeurtenisgegevens die zijn verrijkt met zoekopdracht voor gegevenssets
 
-Om [&#x200B; gebeurtenis SKUs &#x200B;](#event-data) met gedetailleerde productinformatie van de raadpleging van de a [&#x200B; dataset &#x200B;](#dataset-lookup) te combineren, bekijk hieronder de steekproef.
+Om [ gebeurtenis SKUs ](#event-data) met gedetailleerde productinformatie van de raadpleging van de a [ dataset ](#dataset-lookup) te combineren, bekijk hieronder de steekproef.
 
 +++ Voorbeeldcode weergeven
 
@@ -497,7 +495,7 @@ Bekijk het onderstaande voorbeeld om meerdere contextbronnen (profielgegevens, g
 
 Terwijl deze gids zich op herhaling over series concentreert, zijn andere contexttypes beschikbaar voor verpersoonlijking die typisch geen herhaling vereisen. Deze worden direct benaderd in plaats van via een lus te herhalen:
 
-* **[de attributen van het Profiel &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}** (`profile.*`): Individuele profielgebieden van Adobe Experience Platform
+* **[de attributen van het Profiel ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}** (`profile.*`): Individuele profielgebieden van Adobe Experience Platform
 * **[Soorten publiek](../audience/about-audiences.md)** (`inAudience()`): De controles van het lidmaatschapsaandeel van het publiek
 * **[de besluiten van het Aanbod](../offers/get-started/starting-offer-decisioning.md)**: De aanbiedingen van het besluitvormingsbeheer
 * **[attributen van het Doel](../orchestrated/activities/channels.md#add-personalization)** (Beweerde campagnes slechts): Attributen die in het campagnecanvas worden berekend
@@ -514,13 +512,13 @@ Terwijl de vorige secties zich bij herhaling over series in berichtverpersoonlij
 
 >[!IMPORTANT]
 >
->Reisexpressies gebruiken een andere syntaxis dan Handlebars personalisatie. In reisconfiguratie (zoals parameters of voorwaarden van de douaneactie), gebruikt u de [&#x200B; redacteur van de de uitdrukkingsuitdrukking van de Reis &#x200B;](../building-journeys/expression/expressionadvanced.md) met functies zoals `first`, `all`, en `serializeList`. In berichtinhoud gebruikt u de syntaxis Handlebars met `{{#each}}` lussen.
+>Reisexpressies gebruiken een andere syntaxis dan Handlebars personalisatie. In reisconfiguratie (zoals parameters of voorwaarden van de douaneactie), gebruikt u de [ redacteur van de de uitdrukkingsuitdrukking van de Reis ](../building-journeys/expression/expressionadvanced.md) met functies zoals `first`, `all`, en `serializeList`. In berichtinhoud gebruikt u de syntaxis Handlebars met `{{#each}}` lussen.
 
 ### Arraywaarden aan aangepaste actieparameters doorgeven {#arrays-to-custom-actions}
 
-Wanneer het vormen van [&#x200B; douaneacties &#x200B;](../action/about-custom-action-configuration.md), moet u vaak waarden uit gebeurtenisseries halen en hen als parameters overgaan. Deze sectie behandelt gemeenschappelijke patronen.
+Wanneer het vormen van [ douaneacties ](../action/about-custom-action-configuration.md), moet u vaak waarden uit gebeurtenisseries halen en hen als parameters overgaan. Deze sectie behandelt gemeenschappelijke patronen.
 
-Leer meer over het overgaan van inzamelingen in [&#x200B; inzamelingen van de Pas in de parameters van de douaneactie &#x200B;](../building-journeys/collections.md#passing-collection).
+Leer meer over het overgaan van inzamelingen in [ inzamelingen van de Pas in de parameters van de douaneactie ](../building-journeys/collections.md#passing-collection).
 
 #### Eén waarde uit een array extraheren
 
@@ -563,7 +561,7 @@ Leer meer over het overgaan van inzamelingen in [&#x200B; inzamelingen van de Pa
 * `.SKU`: extraheert het SKU-veld van het overeenkomende item
 * Resultaat: `"SKU-1"` (een tekenreeks die geschikt is voor de parameter action)
 
-Leer meer over de `first` functie in [&#x200B; het beheersfuncties van de Inzameling &#x200B;](../building-journeys/expression/collection-management-functions.md).
+Leer meer over de `first` functie in [ het beheersfuncties van de Inzameling ](../building-journeys/expression/collection-management-functions.md).
 
 +++
 
@@ -603,7 +601,7 @@ Meer informatie over:
 * [&quot;all&quot;](../building-journeys/expression/collection-management-functions.md)
 * [` serializeList`](../building-journeys/functions/list-functions.md#serializeList)
 
-De behandeling van de inzameling voor douaneacties wordt behandeld in [&#x200B; inzamelingen van de Pas in de parameters van de douaneactie &#x200B;](../building-journeys/collections.md#passing-collection).
+De behandeling van de inzameling voor douaneacties wordt behandeld in [ inzamelingen van de Pas in de parameters van de douaneactie ](../building-journeys/collections.md#passing-collection).
 
 +++
 
@@ -656,19 +654,19 @@ Journey Optimizer maakt de array met objecten die overeenkomen met de payload-st
 >
 >Wanneer u werkt met gebeurtenisarrays, gebruikt u `currentEventField` om naar elk item te verwijzen. Gebruik `currentDataPackField` voor gegevensbronverzamelingen (Adobe Experience Platform). Gebruik `currentActionField` voor aangepaste actieverzamelingen.
 
-Leer meer in [&#x200B; inzamelingen van de pas in de parameters van de douaneactie &#x200B;](../building-journeys/collections.md#passing-collection).
+Leer meer in [ inzamelingen van de pas in de parameters van de douaneactie ](../building-journeys/collections.md#passing-collection).
 
 +++
 
 ### Arrays met datasetraadplegingen gebruiken {#arrays-with-dataset-lookup}
 
-Wanneer het gebruiken van de [&#x200B; activiteit van de Lookup van de Dataset &#x200B;](../building-journeys/dataset-lookup.md), kunt u een serie van waarden als raadplegingssleutels overgaan om verrijkte gegevens terug te winnen.
+Wanneer het gebruiken van de [ activiteit van de Lookup van de Dataset ](../building-journeys/dataset-lookup.md), kunt u een serie van waarden als raadplegingssleutels overgaan om verrijkte gegevens terug te winnen.
 
 **Voorbeeld**: Bekijk productdetails voor alle SKUs in een gebeurtenisserie.
 
 +++ Voorbeeldcode weergeven
 
-**de configuratie van de Opzoekup van de 0&rbrace; Dataset:**
+**de configuratie van de Opzoekup van de 0} Dataset:**
 
 In het veld Opzoeksleutels gebruikt u `list()` om een arraypad om te zetten in een lijst:
 
@@ -676,7 +674,7 @@ In het veld Opzoeksleutels gebruikt u `list()` om een arraypad om te zetten in e
 list(@event{purchaseEvent.productListItems.SKU})
 ```
 
-Dit leidt tot een lijst van alle waarden van SKU omhoog in de dataset te kijken. De resultaten zijn beschikbaar als serie bij `context.journey.datasetLookup.<activityID>.entities` die u over in uw bericht kunt herhalen (zie [&#x200B; over de resultaten van de datasetraadpleging herhalen &#x200B;](#dataset-lookup)).
+Dit leidt tot een lijst van alle waarden van SKU omhoog in de dataset te kijken. De resultaten zijn beschikbaar als serie bij `context.journey.datasetLookup.<activityID>.entities` die u over in uw bericht kunt herhalen (zie [ over de resultaten van de datasetraadpleging herhalen ](#dataset-lookup)).
 
 +++
 
@@ -695,15 +693,15 @@ De reizen kunnen geen dynamische lijnen tot stand brengen waar één actieknoopp
 
 **Aanbevolen patronen in plaats daarvan**:
 
-1. **verzend alle punten meteen**: Ga de volledige serie of een geserialiseerde lijst tot één enkele douaneactie over die alle punten verwerkt. Zie [&#x200B; een lijst van waarden van een serie &#x200B;](#arrays-to-custom-actions) bouwen.
+1. **verzend alle punten meteen**: Ga de volledige serie of een geserialiseerde lijst tot één enkele douaneactie over die alle punten verwerkt. Zie [ een lijst van waarden van een serie ](#arrays-to-custom-actions) bouwen.
 
 2. **de externe samenvoeging van het Gebruik**: Heb uw externe API veelvoudige IDs goedkeuren en gecombineerde resultaten in één enkele vraag terugkeren.
 
-3. **pre-compute in AEP**: Gebruik [&#x200B; gegevens verwerkte attributen &#x200B;](../audience/computed-attributes.md) om waarden van series op het profielniveau vooraf te berekenen.
+3. **pre-compute in AEP**: Gebruik [ gegevens verwerkte attributen ](../audience/computed-attributes.md) om waarden van series op het profielniveau vooraf te berekenen.
 
-4. **Enige waardeextractie**: Als u slechts één waarde nodig hebt, haal het gebruikend `first` of `head`. Zie [&#x200B; één enkele waarde van een serie &#x200B;](#arrays-to-custom-actions) extraheren.
+4. **Enige waardeextractie**: Als u slechts één waarde nodig hebt, haal het gebruikend `first` of `head`. Zie [ één enkele waarde van een serie ](#arrays-to-custom-actions) extraheren.
 
-Leer meer in [&#x200B; Grafieken en beperkingen &#x200B;](../start/guardrails.md).
+Leer meer in [ Grafieken en beperkingen ](../start/guardrails.md).
 
 #### Overwegingen voor arraygrootte
 
@@ -744,7 +742,7 @@ Maak een aangepaste handeling &quot;GetCartRecommendations&quot;:
 * `cartItems` markeren als type `listObject` en `Variable`
 * Definieer velden: `sku` (string), `price` (number), `quantity` (integer)
 
-Leer meer in [&#x200B; een douaneactie &#x200B;](../action/about-custom-action-configuration.md) vormen.
+Leer meer in [ een douaneactie ](../action/about-custom-action-configuration.md) vormen.
 
 **Stap 2: Vorm antwoordlading**
 
@@ -763,7 +761,7 @@ In de douaneactie, vorm de reactie:
 }
 ```
 
-Leer meer in [&#x200B; de vraagreacties van API van het Gebruik &#x200B;](../action/action-response.md).
+Leer meer in [ de vraagreacties van API van het Gebruik ](../action/action-response.md).
 
 **Stap 3: Bouw de actie in de reis**
 
@@ -805,13 +803,13 @@ Doorloop de aanbevelingen in uw e-mailinhoud:
 
 Alvorens een levende reis in werking te stellen, test de douaneactie gebruikend de &quot;Send testverzoek&quot;eigenschap in de actieconfiguratie om het gebouwde verzoek en de waarden te verifiëren.
 
-1. De wijze van de de reistest van het gebruik [&#128279;](../building-journeys/testing-the-journey.md)
+1. De wijze van de de reistest van het gebruik [](../building-journeys/testing-the-journey.md)
 2. Trigger met voorbeeldgebeurtenisgegevens, inclusief een `productListItems` -array
 3. Controleren of de aangepaste handeling de juiste arraystructuur ontvangt
-4. Controle de [&#x200B; logboeken van de actietest &#x200B;](../action/action-response.md#test-mode-logs)
+4. Controle de [ logboeken van de actietest ](../action/action-response.md#test-mode-logs)
 5. Een voorbeeld van de e-mail bekijken om te controleren of beide arrays correct worden weergegeven
 
-Leer meer in [&#x200B; problemen oplossen uw douaneacties &#x200B;](../action/troubleshoot-custom-action.md).
+Leer meer in [ problemen oplossen uw douaneacties ](../action/troubleshoot-custom-action.md).
 
 +++
 
@@ -821,7 +819,7 @@ Volg deze tips en trucs bij het doorlopen van contextuele gegevens om een onderh
 
 ### Beschrijvende variabelenamen gebruiken
 
-Kies variabelenamen die duidelijk aangeven waar u doorheen gaat. Hierdoor wordt uw code beter leesbaar en eenvoudiger te onderhouden. Leer meer over [&#x200B; verpersoonlijkingssyntaxis &#x200B;](personalization-syntax.md):
+Kies variabelenamen die duidelijk aangeven waar u doorheen gaat. Hierdoor wordt uw code beter leesbaar en eenvoudiger te onderhouden. Leer meer over [ verpersoonlijkingssyntaxis ](personalization-syntax.md):
 
 +++ Voorbeeldcode weergeven
 
@@ -838,9 +836,47 @@ Kies variabelenamen die duidelijk aangeven waar u doorheen gaat. Hierdoor wordt 
 
 +++
 
+### Fragmenten in lussen uitdrukken
+
+Wanneer het gebruiken van [ uitdrukkingsfragmenten ](use-expression-fragments.md) binnen `{{#each}}` lijnen, ben zich ervan bewust dat u geen lijn-scoped variabelen als fragmentparameters kunt overgaan. Fragmenten kunnen echter toegang krijgen tot algemene variabelen die buiten het fragment in de berichtinhoud zijn gedefinieerd.
+
++++ Voorbeeldcode weergeven
+
+**Gesteund patroon - Gebruik globale variabelen:**
+
+```handlebars
+{% let globalDiscount = 15 %}
+
+{{#each context.journey.actions.GetProducts.items as |product|}}
+  <div class="product">
+    <h3>{{product.name}}</h3>
+    {{fragment id='ajo:fragment123/variant456' mode='inline'}}
+  </div>
+{{/each}}
+```
+
+Het fragment kan naar `globalDiscount` verwijzen omdat het globaal in het bericht is gedefinieerd.
+
+**niet gesteund - het overgaan van lusvariabelen:**
+
+```handlebars
+{{#each products as |product|}}
+  <!-- This will NOT work as expected -->
+  {{fragment id='ajo:fragment123/variant456' currentProduct=product}}
+{{/each}}
+```
+
+**Oplossing**: Omvat direct de verpersoonlijkingslogica in uw lijn in plaats van het gebruiken van een fragment, of roep het fragment buiten de lijn.
+
++++
+
+Leer meer over [ het gebruiken van uitdrukkingsfragmenten binnen lijnen ](use-expression-fragments.md#fragments-in-loops), met inbegrip van gedetailleerde voorbeelden en extra aanraakpunten.
+
+
+
 ### Lege arrays verwerken
 
-Gebruik de component `{{else}}` om fallback-inhoud op te geven wanneer een array leeg is. Leer meer over [&#x200B; helperfuncties &#x200B;](functions/helpers.md):
+Gebruik de component `{{else}}` om fallback-inhoud op te geven wanneer een array leeg is. Leer meer over [ helperfuncties ](functions/helpers.md):
 
 +++ Voorbeeldcode weergeven
 
@@ -856,7 +892,7 @@ Gebruik de component `{{else}}` om fallback-inhoud op te geven wanneer een array
 
 ### Combineren met voorwaardelijke hulplijnen
 
-Gebruik `{{#if}}` binnen lussen voor voorwaardelijke inhoud. Leer meer over [&#x200B; voorwaardelijke regels &#x200B;](create-conditions.md) en zie voorbeelden in [&#x200B; de actieresultaten van de Douane &#x200B;](#custom-action-responses) en [&#x200B; de raadplegings &#x200B;](#dataset-lookup) secties van de Dataset.
+Gebruik `{{#if}}` binnen lussen voor voorwaardelijke inhoud. Leer meer over [ voorwaardelijke regels ](create-conditions.md) en zie voorbeelden in [ de actieresultaten van de Douane ](#custom-action-responses) en [ de raadplegings ](#dataset-lookup) secties van de Dataset.
 
 +++ Voorbeeldcode weergeven
 
@@ -915,7 +951,7 @@ Handlebars verstrekt speciale variabelen binnen lijnen die met geavanceerde iter
 
 >[!NOTE]
 >
->Deze Handlebars variabelen (`@index`, `@first`, `@last`) zijn slechts beschikbaar binnen `{{#each}}` lijnen in berichtverpersoonlijking. Wanneer u met arrays werkt in Journey-expressies (zoals wanneer u het eerste item van een array ophaalt voordat u doorgeeft aan een aangepaste handeling), gebruikt u arrayfuncties zoals [`head`](../personalization/functions/arrays-list.md#head) , [`first`](../building-journeys/expression/collection-management-functions.md) of [`all`](../building-journeys/expression/collection-management-functions.md) . Zie [&#x200B; Werk met series in de uitdrukkingen van de Reis &#x200B;](#arrays-in-journeys) voor meer details.
+>Deze Handlebars variabelen (`@index`, `@first`, `@last`) zijn slechts beschikbaar binnen `{{#each}}` lijnen in berichtverpersoonlijking. Wanneer u met arrays werkt in Journey-expressies (zoals wanneer u het eerste item van een array ophaalt voordat u doorgeeft aan een aangepaste handeling), gebruikt u arrayfuncties zoals [`head`](../personalization/functions/arrays-list.md#head) , [`first`](../building-journeys/expression/collection-management-functions.md) of [`all`](../building-journeys/expression/collection-management-functions.md) . Zie [ Werk met series in de uitdrukkingen van de Reis ](#arrays-in-journeys) voor meer details.
 
 ## Problemen oplossen {#troubleshooting}
 
@@ -930,11 +966,11 @@ Heb je problemen met iteratie? In deze sectie worden gemeenschappelijke probleme
 **Mogelijke oorzaken en oplossingen**:
 
 1. **Onjuiste weg**: Verifieer de nauwkeurige weg aan uw serie die op de contextbron wordt gebaseerd:
-   * Voor [&#x200B; gebeurtenissen &#x200B;](#event-data): `context.journey.events.<event_ID>.<fieldPath>`
-   * Voor [&#x200B; douaneacties &#x200B;](#custom-action-responses): `context.journey.actions.<actionName>.<fieldPath>`
-   * Voor [&#x200B; datasetraadplegingen &#x200B;](#dataset-lookup): `context.journey.datasetLookup.<activityID>.entities`
+   * Voor [ gebeurtenissen ](#event-data): `context.journey.events.<event_ID>.<fieldPath>`
+   * Voor [ douaneacties ](#custom-action-responses): `context.journey.actions.<actionName>.<fieldPath>`
+   * Voor [ datasetraadplegingen ](#dataset-lookup): `context.journey.datasetLookup.<activityID>.entities`
 
-2. **Serie is leeg**: Voeg een `{{else}}` clausule toe om te controleren als de serie geen gegevens heeft. Zie [&#x200B; Beste praktijken &#x200B;](#best-practices) voor voorbeelden.
+2. **Serie is leeg**: Voeg een `{{else}}` clausule toe om te controleren als de serie geen gegevens heeft. Zie [ Beste praktijken ](#best-practices) voor voorbeelden.
 
 3. **Gegevens nog niet beschikbaar**: Verzeker de douaneactie, de gebeurtenis, of activiteit van de datasetraadpleging is uitgevoerd vóór de berichtactiviteit in uw reisstroom.
 
@@ -948,34 +984,62 @@ Heb je problemen met iteratie? In deze sectie worden gemeenschappelijke probleme
 
 **Gemeenschappelijke fouten**:
 
-* Ontbrekende afsluitende tags: Elke `{{#each}}` moet een `{{/each}}` hebben. De iteratiesyntaxis van het overzicht [&#x200B; Handlebars &#x200B;](#syntax) voor juiste structuur.
-* Onjuiste variabelenaam: zorg ervoor dat de variabelenaam overal in het blok consistent wordt gebruikt. Zie [&#x200B; Beste praktijken &#x200B;](#best-practices) voor het noemen van overeenkomsten.
+* Ontbrekende afsluitende tags: Elke `{{#each}}` moet een `{{/each}}` hebben. De iteratiesyntaxis van het overzicht [ Handlebars ](#syntax) voor juiste structuur.
+* Onjuiste variabelenaam: zorg ervoor dat de variabelenaam overal in het blok consistent wordt gebruikt. Zie [ Beste praktijken ](#best-practices) voor het noemen van overeenkomsten.
 * Onjuiste padscheidingstekens: gebruik punten (`.`) geen schuine strepen of andere tekens
+
++++
+
+### Expressiefragmenten werken niet in lussen
+
+**Uitgave**: Een uitdrukkingsfragment toont geen verwachte inhoud wanneer gebruikt binnen een `{{#each}}` lijn, of toont lege/onverwachte output.
+
++++ Mogelijke oorzaken en oplossingen weergeven
+
+**Mogelijke oorzaken en oplossingen**:
+
+1. **het Poging om lusvariabelen als parameters over te gaan**: De fragmenten van de uitdrukking kunnen geen lijn-scoped variabelen (als het huidige herhalingspunt) als parameters ontvangen. Dit is een bekende beperking.
+
+   **Oplossing**: Gebruik één van deze aangrijpingen:
+
+   * Definieer algemene variabelen in uw bericht dat het fragment toegang kan krijgen
+   * De logica voor personalisatie rechtstreeks in de lus opnemen in plaats van een fragment te gebruiken
+   * Roep het fragment buiten de lus aan als het geen lusspecifieke gegevens nodig heeft
+
+2. **het Fragment verwacht een parameter die niet beschikbaar** is: Als uw fragment werd ontworpen om specifieke inputparameters te ontvangen, zal het niet correct werken wanneer die parameters niet van binnen een lijn kunnen worden overgegaan.
+
+   **Oplossing**: Herstructureer uw benadering om globale variabelen te gebruiken die het fragment kan toegang hebben. Zie [ Beste praktijken - de fragmenten van de Uitdrukking in lijnen ](#best-practices) voor voorbeelden.
+
+3. **Onjuist veranderlijk werkingsgebied**: Het fragment zou kunnen proberen om een variabele van verwijzingen te voorzien die slechts binnen het lijnwerkingsgebied bestaat.
+
+   **Oplossing**: Bepaal om het even welke variabelen de fragmentbehoeften op het berichtniveau (buiten de lijn) zodat zijn zij globaal toegankelijk.
+
+Leer meer over [ gebruikend uitdrukkingsfragmenten binnen lijnen ](use-expression-fragments.md#fragments-in-loops), met inbegrip van gedetailleerde verklaringen, voorbeelden, en geadviseerde patronen.
 
 +++
 
 ### Uw herhalingen testen
 
-Gebruik [&#x200B; de wijze van de 0&rbrace; reistest om uw herhalingen te verifiëren. &#x200B;](../building-journeys/testing-the-journey.md) Dit is vooral belangrijk wanneer het gebruiken van [&#x200B; douaneacties &#x200B;](#custom-action-responses) of [&#x200B; datasetraadplegingen &#x200B;](#dataset-lookup):
+Gebruik [ de wijze van de 0} reistest om uw herhalingen te verifiëren. ](../building-journeys/testing-the-journey.md) Dit is vooral belangrijk wanneer het gebruiken van [ douaneacties ](#custom-action-responses) of [ datasetraadplegingen ](#dataset-lookup):
 
 +++ Teststappen weergeven
 
-1. Begin uw reis op [&#x200B; testwijze &#x200B;](../building-journeys/testing-the-journey.md)
+1. Begin uw reis op [ testwijze ](../building-journeys/testing-the-journey.md)
 2. De gebeurtenis of aangepaste handeling activeren met voorbeeldgegevens
-3. Controle de [&#x200B; berichtvoorproef &#x200B;](../content-management/preview.md) om de herhalingsvertoningen correct te verifiëren
-4. De logboeken van de de testwijze van het overzicht voor om het even welke fouten (zie [&#x200B; Logboeken van de actietest van de Douane van de actie &#x200B;](../action/action-response.md#test-mode-logs))
+3. Controle de [ berichtvoorproef ](../content-management/preview.md) om de herhalingsvertoningen correct te verifiëren
+4. De logboeken van de de testwijze van het overzicht voor om het even welke fouten (zie [ Logboeken van de actietest van de Douane van de actie ](../action/action-response.md#test-mode-logs))
 
 +++
 
 ## Verwante onderwerpen {#related-topics}
 
-**fundamentals van Personalization:** [&#x200B; begonnen met verpersoonlijking &#x200B;](personalize.md) | [&#x200B; voeg verpersoonlijking &#x200B;](personalization-build-expressions.md) toe | [&#x200B; syntaxis van Personalization &#x200B;](personalization-syntax.md) | [&#x200B; de functies van de Helper &#x200B;](functions/helpers.md) | [&#x200B; creeer voorwaardelijke regels &#x200B;](create-conditions.md)
+**fundamentals van Personalization:** [ begonnen met verpersoonlijking ](personalize.md) | [ voeg verpersoonlijking ](personalization-build-expressions.md) toe | [ syntaxis van Personalization ](personalization-syntax.md) | [ de functies van de Helper ](functions/helpers.md) | [ creeer voorwaardelijke regels ](create-conditions.md)
 
-**configuratie van de Reis:** [&#x200B; Ongeveer gebeurtenissen &#x200B;](../event/about-events.md) | [&#x200B; vorm douaneacties &#x200B;](../action/about-custom-action-configuration.md) | [&#x200B; de inzamelingen van de pas in de parameters van de douaneactie &#x200B;](../building-journeys/collections.md#passing-collection) | [&#x200B; API van het Gebruik vraagreacties in douaneacties &#x200B;](../action/action-response.md) | [&#x200B; los uw douaneacties &#x200B;](../action/troubleshoot-custom-action.md) problemen op | [&#x200B; de gegevens van Adobe Experience Platform van het Gebruik in reizen &#x200B;](../building-journeys/dataset-lookup.md) | [&#x200B; Aanvullende herkenningstekens van het Gebruik in reizen &#x200B;](../building-journeys/supplemental-identifier.md) | [&#x200B; Grafieken en beperkingen &#x200B;](../start/guardrails.md) | [&#x200B; Test uw reis &#x200B;](../building-journeys/testing-the-journey.md)
+**configuratie van de Reis:** [ Ongeveer gebeurtenissen ](../event/about-events.md) | [ vorm douaneacties ](../action/about-custom-action-configuration.md) | [ de inzamelingen van de pas in de parameters van de douaneactie ](../building-journeys/collections.md#passing-collection) | [ API van het Gebruik vraagreacties in douaneacties ](../action/action-response.md) | [ los uw douaneacties ](../action/troubleshoot-custom-action.md) problemen op | [ de gegevens van Adobe Experience Platform van het Gebruik in reizen ](../building-journeys/dataset-lookup.md) | [ Aanvullende herkenningstekens van het Gebruik in reizen ](../building-journeys/supplemental-identifier.md) | [ Grafieken en beperkingen ](../start/guardrails.md) | [ Test uw reis ](../building-journeys/testing-the-journey.md)
 
-**de uitdrukkingsfuncties van de Reis:** [&#x200B; Geavanceerde uitdrukkingsredacteur &#x200B;](../building-journeys/expression/expressionadvanced.md) | [&#x200B; het beheersfuncties van de Inzameling &#x200B;](../building-journeys/expression/collection-management-functions.md) (eerst, allen, laatste) | [&#x200B; functies van de Lijst &#x200B;](../building-journeys/functions/list-functions.md) (serializeList, filter, soort) | [&#x200B; de functies van de Serie &#x200B;](../personalization/functions/arrays-list.md) (hoofd, staart)
+**de uitdrukkingsfuncties van de Reis:** [ Geavanceerde uitdrukkingsredacteur ](../building-journeys/expression/expressionadvanced.md) | [ het beheersfuncties van de Inzameling ](../building-journeys/expression/collection-management-functions.md) (eerst, allen, laatste) | [ functies van de Lijst ](../building-journeys/functions/list-functions.md) (serializeList, filter, soort) | [ de functies van de Serie ](../personalization/functions/arrays-list.md) (hoofd, staart)
 
-**Personalization gebruiksgevallen:** [&#x200B; de verlaten e-mail van de Kunst &#x200B;](personalization-use-case-helper-functions.md) | [&#x200B; de statusbericht van de Orde &#x200B;](personalization-use-case.md)
+**Personalization gebruiksgevallen:** [ de verlaten e-mail van de Kunst ](personalization-use-case-helper-functions.md) | [ de statusbericht van de Orde ](personalization-use-case.md)
 
-**ontwerp van het Bericht:** [&#x200B; begonnen met e-mailontwerp &#x200B;](../email/get-started-email-design.md) | [&#x200B; creeer dupberichten &#x200B;](../push/create-push.md) | [&#x200B; creeer SMS berichten &#x200B;](../sms/create-sms.md) | [&#x200B; Voorproef en test uw inhoud &#x200B;](../content-management/preview-test.md)
+**ontwerp van het Bericht:** [ begonnen met e-mailontwerp ](../email/get-started-email-design.md) | [ creeer dupberichten ](../push/create-push.md) | [ creeer SMS berichten ](../sms/create-sms.md) | [ Voorproef en test uw inhoud ](../content-management/preview-test.md)
 
