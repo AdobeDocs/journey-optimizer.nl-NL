@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 85cfc6d19c60f7aa04f052c84efa03480868d179
+source-git-commit: 81d8d068f1337516adc76c852225fd7850a292e8
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2749'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Zorg ervoor dat de gebieden die in uw vragen worden gebruikt waarden in het over
 
 >[!NOTE]
 >
->Voor het oplossen van problemendoeleinden, adviseren wij gebruikend tripVersionID in plaats van tripVersionName wanneer het vragen van reizen. Leer meer over de attributen van de reiseigenschappen [&#x200B; in deze sectie &#x200B;](../building-journeys/expression/journey-properties.md#journey-properties-fields).
+>Voor het oplossen van problemendoeleinden, adviseren wij gebruikend tripVersionID in plaats van tripVersionName wanneer het vragen van reizen. Leer meer over de attributen van de reiseigenschappen [ in deze sectie ](../building-journeys/expression/journey-properties.md#journey-properties-fields).
 
 +++
 
@@ -49,7 +49,7 @@ AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 +++
 
@@ -123,6 +123,64 @@ WHERE (
 AND _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
+
++++
+
++++Stapsgewijze gebeurtenissen voor verwijderde profielen weergeven
+
+Deze vraag keert de details van de step gebeurtenis voor profielen terug die van een reis werden verworpen. Het helpt identificeren waarom de profielen, zoals wegens bedrijfsregels of rustige urenbeperkingen werden verworpen. De vraagfilters voor specifieke verwerpen gebeurtenistypen en tonen zeer belangrijke informatie met inbegrip van profiel ID, instantie ID, reisdetails, en de fout die verwerpen veroorzaakte.
+
+_de vraag van het meer van Gegevens_
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.stepEvents.profileID,
+    _experience.journeyOrchestration.stepEvents.instanceID,
+    _experience.journeyOrchestration.stepEvents.journeyID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.actionExecutionError,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    DATE(timestamp),
+    timestamp
+FROM journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = '<eventType>' AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVersionID>' AND
+    _experience.journeyOrchestration.stepEvents.instanceID = '<instanceID>';
+```
+
+_Voorbeeld_
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.stepEvents.profileID,
+    _experience.journeyOrchestration.stepEvents.instanceID,
+    _experience.journeyOrchestration.stepEvents.journeyID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.actionExecutionError,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    DATE(timestamp),
+    timestamp
+FROM journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'quietHours' AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID = '6f21a072-6235-4c39-9f6a-9d9f3f3b2c3a' AND
+    _experience.journeyOrchestration.stepEvents.instanceID = 'unitary_089dc93a-1970-4875-9660-22433b18e500';
+```
+
+![ de vraagresultaten van het Voorbeeld die verworpen profieldetails tonen ](assets/query-discarded-profiles.png)
+
+De vraagresultaten tonen zeer belangrijke gebieden die helpen de reden voor profielverwerping identificeren:
+
+* **actionExecutionError** - Wanneer reeks aan `businessRuleProfileDiscarded`, wijst dit op het profiel werd verworpen toe aan een bedrijfsregel. Het veld `eventType` bevat aanvullende details over de specifieke bedrijfsregel die de verwijdering heeft veroorzaakt.
+
+* **eventType** - specificeert het type van bedrijfsregel die verwerpen veroorzaakte:
+   * `quietHours`: Profiel is verwijderd vanwege configuratie van stille uren
+   * `forcedDiscardDueToQuietHours`: Profiel is geforceerd verwijderd omdat de maximale hoeveelheid vervorming is bereikt voor profielen die in stille uren zijn bewaard
 
 +++
 
@@ -498,7 +556,7 @@ ORDER BY DATE(timestamp) desc
 
 De vraag keert, voor de bepaalde periode, het aantal profielen terug dat de reis elke dag inging. Als een profiel wordt ingevoerd via meerdere identiteiten, wordt het twee keer geteld. Als de terugkeer wordt toegelaten, zou het profielaantal over verschillende dagen kunnen worden gedupliceerd als het de reis op verschillende dag opnieuw inging.
 
-Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 
 +++
@@ -1026,7 +1084,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
-Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 +++
 
@@ -1058,7 +1116,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 +++
 
@@ -1082,7 +1140,7 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
 
-Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 +++
 
@@ -1112,7 +1170,7 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
 ```
 
-Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 +++
 
