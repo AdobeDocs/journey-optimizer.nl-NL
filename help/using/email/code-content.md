@@ -24,7 +24,7 @@ Gebruik de modus **[!UICONTROL Code your own]** om onbewerkte HTML te importeren
 
 >[!CAUTION]
 >
-> De beelden van [ Adobe Experience Manager Assets ](../integrations/assets.md) kunnen niet worden van verwijzingen voorzien wanneer het gebruiken van deze methode. De afbeeldingen waarnaar in uw HTML-code wordt verwezen, moeten worden opgeslagen op een openbare locatie.
+> De beelden van [&#x200B; Adobe Experience Manager Assets &#x200B;](../integrations/assets.md) kunnen niet worden van verwijzingen voorzien wanneer het gebruiken van deze methode. De afbeeldingen waarnaar in uw HTML-code wordt verwezen, moeten worden opgeslagen op een openbare locatie.
 
 1. Selecteer **[!UICONTROL Code your own]** op de homepage van E-mail Designer.
 
@@ -38,7 +38,7 @@ Gebruik de modus **[!UICONTROL Code your own]** om onbewerkte HTML te importeren
 
    >[!NOTE]
    >
-   >De personalisatie-editor in de e-mail Designer heeft enkele functiebeperkingen in vergelijking met reisexpressies. [ leer meer over datum/tijdfunctiebeperkingen ](#date-time-limitations)
+   >De personalisatie-editor in de e-mail Designer heeft enkele functiebeperkingen in vergelijking met reisexpressies. [&#x200B; leer meer over datum/tijdfunctiebeperkingen &#x200B;](#date-time-limitations)
 
 1. Als u uw e-mailinhoud wilt wissen en uw e-mail wilt starten vanuit een nieuw ontwerp, selecteert u **[!UICONTROL Change your design]** in het optiemenu.
 
@@ -84,10 +84,10 @@ Als u datumberekeningen moet uitvoeren in uw e-mailinhoud:
 
   Voorbeeld: `{%= profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate %}`
 
-* **de functies van de de datummanipulatie van het Gebruik** - 2} datum/tijdfuncties [ als ](../personalization/functions/dates.md) of `dayOfYear()` met datumwaarden van profielattributen gebruiken.`diffInDays()`
+* **de functies van de de datummanipulatie van het Gebruik** - 2&rbrace; datum/tijdfuncties [&#x200B; als &#x200B;](../personalization/functions/dates.md) of `dayOfYear()` met datumwaarden van profielattributen gebruiken.`diffInDays()`
 
   Voorbeeld: `{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}`
 
-* **Gebruik gegevens verwerkte attributen** - creeer [ gegevens verwerkte attributen ](../audience/computed-attributes.md) die complexe datumberekeningen uitvoeren, die de resultaten beschikbaar maken als profielattributen.
+* **Gebruik gegevens verwerkte attributen** - creeer [&#x200B; gegevens verwerkte attributen &#x200B;](../audience/computed-attributes.md) die complexe datumberekeningen uitvoeren, die de resultaten beschikbaar maken als profielattributen.
 
-Leer meer over [ Functies van de Tijd van de Datum in verpersoonlijking ](../personalization/functions/dates.md).
+Leer meer over [&#x200B; Functies van de Tijd van de Datum in verpersoonlijking &#x200B;](../personalization/functions/dates.md).
