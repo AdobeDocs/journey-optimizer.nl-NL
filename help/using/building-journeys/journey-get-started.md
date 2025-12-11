@@ -197,7 +197,7 @@ De [&#x200B; reisontwerper &#x200B;](using-the-journey-designer.md) verstrekt [&
 
 Ontdek de onderdelen van een reis en begrijp de grondbeginselen van het maken van een reis op het canvas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430347?captions=dut&quality=12)
 
 ### Verkennen per onderwerp
 
