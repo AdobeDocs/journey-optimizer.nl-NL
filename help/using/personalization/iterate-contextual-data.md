@@ -72,7 +72,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### Voorbeeld: Items starten van een gebeurtenis
 
-Als uw [&#x200B; gebeurtenisschema &#x200B;](../event/experience-event-schema.md) a `productListItems` serie (standaard [&#x200B; formaat XDM &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}) omvat, kunt u wortelinhoud zoals die in de steekproef hieronder wordt gedetailleerd tonen.
+Als uw [&#x200B; gebeurtenisschema &#x200B;](../event/experience-event-schema.md) a `productListItems` serie (standaard [&#x200B; formaat XDM &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=nl-NL){target="_blank"}) omvat, kunt u wortelinhoud zoals die in de steekproef hieronder wordt gedetailleerd tonen.
 
 +++ Voorbeeldcode weergeven
 
@@ -245,7 +245,7 @@ Zie het onderstaande voorbeeld voor dynamische voordelen die zijn gebaseerd op d
 
 ## Doorlopen van zoekresultaten van gegevensset {#dataset-lookup}
 
-De [&#x200B; activiteit van de Opzoeken van de Dataset &#x200B;](../building-journeys/dataset-lookup.md) staat u toe om gegevens van [&#x200B; datasets van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target="_blank"} tijdens reis runtime terug te winnen. De verrijkte gegevens worden opgeslagen als een array en kunnen in uw berichten worden herhaald.
+De [&#x200B; activiteit van de Opzoeken van de Dataset &#x200B;](../building-journeys/dataset-lookup.md) staat u toe om gegevens van [&#x200B; datasets van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=nl-NL){target="_blank"} tijdens reis runtime terug te winnen. De verrijkte gegevens worden opgeslagen als een array en kunnen in uw berichten worden herhaald.
 
 >[!AVAILABILITY]
 >
