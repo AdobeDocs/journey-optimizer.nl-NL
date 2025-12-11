@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
+source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1110'
 ht-degree: 3%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 3%
 # Datumtijdfuncties{#date-time}
 
 Datum- en tijdfuncties worden gebruikt om datum- en tijdbewerkingen uit te voeren op waarden in Journey Optimizer.
+
+>[!NOTE]
+>
+>De functie `now()` is niet beschikbaar in de verpersoonlijkingseditor. Gebruik `getCurrentZonedDateTime()` of `currentTimeInMillis()` in plaats daarvan voor huidige datum-/tijdwaarden. [Meer informatie](../../email/code-content.md#date-time-limitations)
 
 ## Dagen toevoegen {#add-days}
 
@@ -410,7 +414,7 @@ Waar de eerste tekenreeks het datumkenmerk is en de tweede waarde hoe u de datum
 >
 > Als een datumpatroon ongeldig is, wordt de datum teruggezet naar de ISO-standaardindeling.
 >
-> U kunt de datum die functies gebruiken Java zoals samengevat in [&#x200B; documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> U kunt de datum die functies gebruiken Java zoals samengevat in [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **Voorbeeld**
 
@@ -449,9 +453,9 @@ Waar de eerste tekenreeks het datumkenmerk is, is de tweede waarde hoe u de datu
 >
 > Als een datumpatroon ongeldig is, wordt de datum teruggezet naar de ISO-standaardindeling.
 >
-> U kunt de datum het formatteren functies van Java zoals samengevat in [&#x200B; documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html) gebruiken.
+> U kunt de datum het formatteren functies van Java zoals samengevat in [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html) gebruiken.
 >
-> U kunt het formatteren en geldige scènes gebruiken zoals samengevat in [&#x200B; documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) en [&#x200B; Gesteunde scènes &#x200B;](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+> U kunt het formatteren en geldige scènes gebruiken zoals samengevat in [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) en [ Gesteunde scènes ](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
 
 **Voorbeeld**
 

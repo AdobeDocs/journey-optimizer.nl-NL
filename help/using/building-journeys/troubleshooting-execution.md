@@ -10,10 +10,10 @@ level: Intermediate
 keywords: problemen oplossen, problemen oplossen, reis, controle, fouten
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 20%
+source-wordcount: '1591'
+ht-degree: 16%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 20%
 
 In deze sectie, leer hoe te om reisgebeurtenissen problemen op te lossen, controleer als de profielen uw reis inging, hoe zij door het navigeren, en als de berichten worden verzonden.
 
-U kunt fouten ook oplossen voordat u een reis test of publiceert. Leer hoe [&#x200B; op deze pagina &#x200B;](troubleshooting.md).
+U kunt fouten ook oplossen voordat u een reis test of publiceert. Leer hoe [ op deze pagina ](troubleshooting.md).
 
-Als u binnenkomende acties gebruikt, leer hoe te om hen [&#x200B; op deze pagina &#x200B;](troubleshooting-inbound.md) problemen op te lossen.
+Als u binnenkomende acties gebruikt, leer hoe te om hen [ op deze pagina ](troubleshooting-inbound.md) problemen op te lossen.
 
 ## Controleren of gebeurtenissen correct zijn verzonden {#checking-that-events-are-properly-sent}
 
@@ -31,9 +31,9 @@ Het startpunt van een journey is altijd een gebeurtenis. U kunt tests uitvoeren 
 
 U kunt controleren of de API-aanroep die u via deze tools verzendt, correct is verzonden of niet. Als een fout wordt geretourneerd, betekent dit dat er een probleem is met uw aanroep. Controleer opnieuw de payload, de koptekst (vooral de organisatie-id) en de bestemmings-URL. U kunt de beheerder vragen wat de juiste URL is.
 
-Gebeurtenissen worden niet rechtstreeks van de bron naar de ritten verplaatst. Reizen vertrouwen inderdaad op Adobe Experience Platform-API&#39;s voor streaming-opname. Dientengevolge, in het geval van gebeurtenis verwante kwesties, kunt u naar [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=nl-NL){target="_blank"} voor het Streamen van opname APIs het oplossen van problemen verwijzen.
+Gebeurtenissen worden niet rechtstreeks van de bron naar de ritten verplaatst. Reizen vertrouwen inderdaad op Adobe Experience Platform-API&#39;s voor streaming-opname. Dientengevolge, in het geval van gebeurtenis verwante kwesties, kunt u naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} voor het Streamen van opname APIs het oplossen van problemen verwijzen.
 
-Als uw reis er niet in slaagt testwijze met fout `ERR_MODEL_RULES_16` toe te laten, zorg ervoor de gebruikte gebeurtenis een [&#x200B; identiteit namespace &#x200B;](../audience/get-started-identity.md) omvat wanneer het gebruiken van een kanaalactie.
+Als uw reis er niet in slaagt testwijze met fout `ERR_MODEL_RULES_16` toe te laten, zorg ervoor de gebruikte gebeurtenis een [ identiteit namespace ](../audience/get-started-identity.md) omvat wanneer het gebruiken van een kanaalactie.
 
 De naamruimte identity wordt gebruikt om de testprofielen op unieke wijze te identificeren. Bijvoorbeeld, als e-mail wordt gebruikt om de testprofielen te identificeren, zou de identiteit namespace **E-mail** moeten worden geselecteerd. Als het unieke herkenningsteken het telefoonaantal is, dan zou de identiteit namespace **Telefoon** moeten worden geselecteerd.
 
@@ -57,9 +57,43 @@ U kunt het oplossen van problemen met de hieronder vragen beginnen:
   Content-type - application/json
   ```
 
+>>
+**voor de reizen van de Kwalificatie van het Publiek met het stromen publiek**: Als u een activiteit van de Kwalificatie van het Publiek als het punt van de reisingang gebruikt, ben zich ervan bewust dat niet alle profielen die voor het publiek worden gekwalificeerd noodzakelijkerwijs de reis wegens tijdsfactoren, snelle uitgang van het publiek zullen ingaan, of als de profielen reeds in het publiek alvorens te publiceren waren. Leer meer over [ het stromen overwegingen van de publiekskwalificatie timing ](audience-qualification-events.md#streaming-entry-caveats).
+
+## Problemen met overgangen in testmodi oplossen {#troubleshooting-test-transitions}
+
+Als testprofielen uw reis in testmodus niet doorlopen of als de visuele stroom geen groene pijlen geeft die de stap vooruit aangeven, kan het probleem gerelateerd zijn aan de validatie van de overgang. Deze sectie bevat richtlijnen voor het diagnosticeren en oplossen van algemene problemen met de testmodus.
+
+### Testprofielen worden niet verder verwerkt
+
+Als testprofielen de reis ingaan maar niet voorbij de aanvankelijke stap vooruit, controleer het volgende:
+
+* **de begindatum van de Reis** - de gemeenschappelijkste oorzaak is wanneer de de begindatum van de reis in de toekomst wordt geplaatst. De profielen van de test worden onmiddellijk verworpen als de huidige tijd buiten de gevormde reis [ begin en einddata/tijd ](journey-properties.md#dates) venster valt. Oplossen:
+   * Controleren of de begindatum van de reis in de toekomst niet is ingesteld
+   * Zorg ervoor dat de huidige tijd binnen het actieve datumvenster van de reis valt
+   * Werk indien nodig de eigenschappen van de reis bij om de begindatum aan te passen
+
+* **het profielconfiguratie van de Test** - bevestig dat het profiel correct als testprofiel in Adobe Experience Platform wordt gemarkeerd. Zie [ hoe te om testprofielen ](../audience/creating-test-profiles.md) voor meer informatie tot stand te brengen.
+
+* **Identiteit namespace** - verzeker de identiteit namespace die in de gebeurtenisconfiguratie wordt gebruikt aanpast namespace van uw testprofiel.
+
+### Null-overgangsindicatoren
+
+Tijdens het technische oplossen van problemen, kunt u een `isValidTransition` bezit tegenkomen die aan ongeldig in de technische details van de reis wordt geplaatst. Deze eigenschap alleen voor de gebruikersinterface is niet van invloed op de verwerking van back-end of de reisprestaties. Een null-waarde kan echter aangeven:
+
+* **verkeerde configuratie van de Reis** - de datum van het reisbegin wordt geplaatst in de toekomst, veroorzakend testgebeurtenissen om stil worden verworpen
+* **Beschadigde overgang** - in zeldzame gevallen, kunnen de wegknopen moeten worden opnieuw aangesloten
+
+Als u blijvende overgangsproblemen tegenkomt:
+
+1. Controleren of de begindatum van de rit actueel is
+1. Testmodus deactiveren en opnieuw activeren
+1. Als het probleem zich blijft voordoen, kunt u overwegen om de betrokken transportknooppunten te dupliceren en opnieuw aan te sluiten
+1. Voor onopgeloste gevallen, contacteer steun met reislogboeken, beïnvloede profiel IDs, en details over de ongeldige overgang
+
 >[!NOTE]
 >
->**voor de reizen van de Kwalificatie van het Publiek met het stromen publiek**: Als u een activiteit van de Kwalificatie van het Publiek als het punt van de reisingang gebruikt, ben zich ervan bewust dat niet alle profielen die voor het publiek worden gekwalificeerd noodzakelijkerwijs de reis wegens tijdsfactoren, snelle uitgang van het publiek zullen ingaan, of als de profielen reeds in het publiek alvorens te publiceren waren. Leer meer over [&#x200B; het stromen overwegingen van de publiekskwalificatie timing &#x200B;](audience-qualification-events.md#streaming-entry-caveats).
+>Herinner dat de gebeurtenissen die buiten het actieve datumvenster van de reis worden verzonden stil zonder foutenmelding worden verworpen. Verifieer altijd eerst uw configuratie van de reistijdtiming wanneer het oplossen van problemen van de profielprogressie van de testtest.
 
 ## Controleren hoe mensen door de reis navigeren {#checking-how-people-navigate-through-the-journey}
 
@@ -153,7 +187,7 @@ Als u rapporten of analyses bouwt die op de Gebeurtenissen van de Stap van de Re
 * Kruisverwijzing met bericht terugkoppelt datasets wanneer het analyseren van berichtlevering
 * Houd er rekening mee dat timinganalyse items kan weergeven die binnen een paar seconden van elkaar zijn geclusterd
 
-Voor meer informatie over het vragen van de Gebeurtenissen van de Stap van de Reis, zie [&#x200B; Voorbeelden van vragen &#x200B;](../reports/query-examples.md).
+Voor meer informatie over het vragen van de Gebeurtenissen van de Stap van de Reis, zie [ Voorbeelden van vragen ](../reports/query-examples.md).
 
 ## Metrische verschillen in dashboard oplossen {#dashboard-metrics}
 

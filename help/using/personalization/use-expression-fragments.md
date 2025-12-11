@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: expressie, editor, bibliotheek, personalisatie
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 20421485e354b0609dd445f2db2b7078ee81d891
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '1295'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 Wanneer het gebruiken van de **verpersoonlijkingsredacteur**, kunt u hefboomwerking alle uitdrukkingsfragmenten die zijn gecreeerd of aan de huidige zandbak bewaard.
 
-Een fragment is een herbruikbare component waarnaar in [!DNL Journey Optimizer] -campagnes en -reizen kan worden verwezen. Met deze functionaliteit kunt u meerdere blokken met aangepaste inhoud vooraf samenstellen. Deze blokken kunnen door marketinggebruikers worden gebruikt om inhoud snel samen te stellen in een verbeterd ontwerpproces. [&#x200B; Leer meer op fragmenten &#x200B;](../content-management/fragments.md)
+Een fragment is een herbruikbare component waarnaar in [!DNL Journey Optimizer] -campagnes en -reizen kan worden verwezen. Met deze functionaliteit kunt u meerdere blokken met aangepaste inhoud vooraf samenstellen. Deze blokken kunnen door marketinggebruikers worden gebruikt om inhoud snel samen te stellen in een verbeterd ontwerpproces. [ Leer meer op fragmenten ](../content-management/fragments.md)
 
-➡️ [&#x200B; Leer hoe te, auteur en gebruiks fragmenten in deze video &#x200B;](../content-management/fragments.md#video-fragments) beheren
+➡️ [ Leer hoe te, auteur en gebruiks fragmenten in deze video ](../content-management/fragments.md#video-fragments) beheren
 
 ## Expressiefragment gebruiken {#use-expression-fragment}
 
@@ -32,9 +32,9 @@ Volg onderstaande stappen om expressiefragmenten aan uw inhoud toe te voegen.
 >
 >U kunt maximaal 30 fragmenten in een bepaalde levering toevoegen. Fragmenten kunnen maximaal 1 niveau worden genest.
 
-1. Open de [&#x200B; verpersoonlijkingsredacteur &#x200B;](personalization-build-expressions.md) en selecteer de **[!UICONTROL Fragments]** knoop op de linkerruit.
+1. Open de [ verpersoonlijkingsredacteur ](personalization-build-expressions.md) en selecteer de **[!UICONTROL Fragments]** knoop op de linkerruit.
 
-   In de lijst worden alle uitdrukkingsfragmenten weergegeven die als fragmenten in de huidige sandbox zijn gemaakt of opgeslagen. [&#x200B; Leer hoe te om fragmenten &#x200B;](../content-management/create-fragments.md) tot stand te brengen
+   In de lijst worden alle uitdrukkingsfragmenten weergegeven die als fragmenten in de huidige sandbox zijn gemaakt of opgeslagen. [ Leer hoe te om fragmenten ](../content-management/create-fragments.md) tot stand te brengen
 Ze worden gesorteerd op aanmaakdatum: recent toegevoegde expressiefragmenten worden als eerste weergegeven in de lijst.
 
    ![](assets/expression-fragments-pane.png)
@@ -53,17 +53,17 @@ Ze worden gesorteerd op aanmaakdatum: recent toegevoegde expressiefragmenten wor
    >
    >U kunt om het even welk **Ontwerp** toevoegen of **Levend** fragment aan uw inhoud. Nochtans, zult u uw reis of campagne niet kunnen activeren als een fragment met de **status van het Ontwerp** in het wordt gebruikt. Tijdens de reis- of campagnepublicatie wordt een fout weergegeven in ontwerpfragmenten die u moet goedkeuren om te kunnen publiceren.
 
-1. Zodra fragment ID is toegevoegd, als u het overeenkomstige uitdrukkingsfragment opent en [&#x200B; het &#x200B;](../content-management/manage-fragments.md#edit-fragments) van de interface uitgeeft, worden de veranderingen gesynchroniseerd. Ze worden automatisch doorgegeven aan alle concepten of live reizen/campagnes die die fragment-id bevatten.
+1. Zodra fragment ID is toegevoegd, als u het overeenkomstige uitdrukkingsfragment opent en [ het ](../content-management/manage-fragments.md#edit-fragments) van de interface uitgeeft, worden de veranderingen gesynchroniseerd. Ze worden automatisch doorgegeven aan alle concepten of live reizen/campagnes die die fragment-id bevatten.
 
 1. Klik op de knop **[!UICONTROL More actions]** naast een fragment. Selecteer **[!UICONTROL View fragment]** in het contextmenu dat wordt geopend voor meer informatie over dat fragment. **[!UICONTROL Fragment ID]** wordt ook weergegeven en kan hier worden gekopieerd.
 
    ![](assets/expression-fragment-view.png)
 
-1. U kunt het expressiefragment openen in een ander venster om de inhoud en eigenschappen ervan te bewerken. U kunt de optie **[!UICONTROL Open fragment]** in het contextmenu of vanuit het deelvenster **[!UICONTROL Fragment info]** gebruiken. [&#x200B; Leer hoe te om een fragment uit te geven &#x200B;](../content-management/manage-fragments.md#edit-fragments)
+1. U kunt het expressiefragment openen in een ander venster om de inhoud en eigenschappen ervan te bewerken. U kunt de optie **[!UICONTROL Open fragment]** in het contextmenu of vanuit het deelvenster **[!UICONTROL Fragment info]** gebruiken. [ Leer hoe te om een fragment uit te geven ](../content-management/manage-fragments.md#edit-fragments)
 
    ![](assets/expression-fragment-open.png)
 
-1. U kunt uw inhoud dan aanpassen en bevestigen zoals gewoonlijk gebruikend alle verpersoonlijking en auteursmogelijkheden van de [&#x200B; verpersoonlijkingsredacteur &#x200B;](personalization-build-expressions.md).
+1. U kunt uw inhoud dan aanpassen en bevestigen zoals gewoonlijk gebruikend alle verpersoonlijking en auteursmogelijkheden van de [ verpersoonlijkingsredacteur ](personalization-build-expressions.md).
 
 1. In sommige gevallen hoeft u alleen variabelen te berekenen, dus u kunt de inhoud van het expressiefragment verbergen. Hiervoor gebruikt u het kenmerk `render` en stelt u dit in op `false` . Bijvoorbeeld:
 
@@ -73,7 +73,7 @@ Ze worden gesorteerd op aanmaakdatum: recent toegevoegde expressiefragmenten wor
 
 >[!NOTE]
 >
->Als u een uitdrukkingsfragment creeert dat veelvoudige lijnonderbrekingen bevat en het in [&#x200B; SMS &#x200B;](../sms/create-sms.md#sms-content) of [&#x200B; duw &#x200B;](../push/design-push.md) inhoud gebruikt, worden de lijnonderbrekingen bewaard. Aldus zorg ervoor om uw [&#x200B; SMS &#x200B;](../sms/send-sms.md) of [&#x200B; duw &#x200B;](../push/send-push.md) bericht te testen alvorens het te verzenden.
+>Als u een uitdrukkingsfragment creeert dat veelvoudige lijnonderbrekingen bevat en het in [ SMS ](../sms/create-sms.md#sms-content) of [ duw ](../push/design-push.md) inhoud gebruikt, worden de lijnonderbrekingen bewaard. Aldus zorg ervoor om uw [ SMS ](../sms/send-sms.md) of [ duw ](../push/send-push.md) bericht te testen alvorens het te verzenden.
 
 ## Gebruik impliciete variabelen {#implicit-variables}
 
@@ -107,10 +107,93 @@ De volgende gebruiksgevallen zijn mogelijk:
 >
 >Tijdens runtime breidt het systeem uit wat zich in fragmenten bevindt en interpreteert het de verpersoonlijkingscode van boven naar beneden. Met dit in gedachten kunnen complexere gebruiksgevallen worden bereikt. U kunt bijvoorbeeld een fragment F1 hebben dat variabelen doorgeeft aan een ander fragment F2 hieronder. U kunt ook een visueel fragment F1 hebben dat variabelen tot een genest uitdrukkingsfragment F2 overgaat.
 
+## Expressiefragmenten gebruiken in lussen {#fragments-in-loops}
+
+Wanneer u expressiefragmenten gebruikt in `{{#each}}` loops, is het belangrijk om te begrijpen hoe variabele bereikregels werken. Expressiefragmenten hebben toegang tot algemene variabelen die in de berichtinhoud zijn gedefinieerd, maar ze kunnen geen lusspecifieke variabelen als parameters ontvangen.
+
+### Ondersteund patroon: globale variabelen gebruiken {#global-variables-in-loops}
+
+Expressiefragmenten kunnen verwijzen naar algemene variabelen die buiten het fragment zijn gedefinieerd, zelfs wanneer het fragment vanuit een lus wordt aangeroepen. Dit is de aanbevolen aanpak wanneer u fragmenten in een iteratieve context moet gebruiken.
+
+**Voorbeeld: Het gebruiken van een fragment met globale variabelen binnen een lijn**
+
+Definieer in de inhoud van uw bericht een algemene variabele en gebruik een fragment dat ernaar verwijst:
+
+```handlebars
+{% let globalDiscount = 15 %}
+
+{{#each context.journey.actions.GetProducts.items as |product|}}
+  <div class="product">
+    <h3>{{product.name}}</h3>
+    <p>Price: ${{product.price}}</p>
+    {{fragment id='ajo:fragment123/variant456' mode='inline'}}
+  </div>
+{{/each}}
+```
+
+In het expressiefragment (fragment123) kunt u naar de variabele `globalDiscount` verwijzen:
+
+```handlebars
+<p class="discount-info">Save {{globalDiscount}}% on all items!</p>
+```
+
+Dit patroon werkt omdat de algemene variabele toegankelijk is in het hele bericht, ook in fragmenten, ongeacht de luscontext.
+
+### Niet ondersteund: lusvariabelen doorgeven als fragmentparameters {#loop-variables-limitations}
+
+U kunt het huidige iteratie-item (bijvoorbeeld `product` in het bovenstaande voorbeeld) niet als parameter doorgeven aan een expressiefragment. Het fragment heeft niet rechtstreeks toegang tot variabelen met lus-bereik uit het omringende `{{#each}}` -blok.
+
+**Voorbeeld: wat niet werkt**
+
+```handlebars
+{{#each context.journey.actions.GetProducts.items as |product|}}
+  <!-- This will NOT work as expected -->
+  {{fragment id='ajo:fragment123/variant456' mode='inline' currentProduct=product}}
+{{/each}}
+```
+
+Het fragment kan `product` niet als parameter ontvangen en intern gebruiken, omdat parameter die doorgeeft voor lusspecifieke variabelen niet wordt ondersteund in de huidige implementatie.
+
+### Aanbevolen tijdelijke paden {#fragments-in-loops-workarounds}
+
+Wanneer u expressiefragmenten moet gebruiken met gegevens uit een lus, kunt u het volgende doen:
+
+1. **omvat direct logica in het bericht**: In plaats van het gebruiken van een fragment voor lijn-specifieke logica, voeg direct de verpersoonlijkingscode binnen uw `{{#each}}` blok toe.
+
+   ```handlebars
+   {{#each context.journey.actions.GetProducts.items as |product|}}
+     <div class="product">
+       <h3>{{product.name}}</h3>
+       <p>Price: ${{product.price}}</p>
+       {{#if product.price > 100}}
+         <span class="premium-badge">Premium Product</span>
+       {{/if}}
+     </div>
+   {{/each}}
+   ```
+
+2. **de fragmenten van het Gebruik buiten lijnen**: Als de fragmentinhoud niet lijn-afhankelijk is, roep het fragment vóór of na het iteratieblok.
+
+   ```handlebars
+   {{fragment id='ajo:fragment123/variant456' mode='inline'}}
+   
+   {{#each context.journey.actions.GetProducts.items as |product|}}
+     <div class="product">
+       <h3>{{product.name}}</h3>
+       <p>Price: ${{product.price}}</p>
+     </div>
+   {{/each}}
+   ```
+
+3. **plaats veelvoudige globale variabelen**: Als u verschillende waarden aan een fragment over herhalingen moet overgaan, plaats globale variabelen vóór elke fragmentvraag (hoewel dit flexibiliteit beperkt).
+
+>[!NOTE]
+>
+>Voor het herhalen over contextuele gegevens en het werken met lijnen, zie de uitvoerige gids over [ het herhalen over contextuele gegevens ](iterate-contextual-data.md), die beste praktijken, het oplossen van problemenuiteinden, en geavanceerde patronen omvat.
 
 ## Bewerkbare velden aanpassen {#customize-fields}
 
-Als bepaalde delen van een expressiefragment bewerkbaar zijn gemaakt met variabelen, kunt u de standaardwaarden ervan overschrijven met een specifieke syntaxis. [&#x200B; Leer hoe te om uw fragmenten klantgericht te maken &#x200B;](../content-management/customizable-fragments.md)
+Als bepaalde delen van een expressiefragment bewerkbaar zijn gemaakt met variabelen, kunt u de standaardwaarden ervan overschrijven met een specifieke syntaxis. [ Leer hoe te om uw fragmenten klantgericht te maken ](../content-management/customizable-fragments.md)
 
 Voer de volgende stappen uit om de velden aan te passen:
 
@@ -122,7 +205,7 @@ Voer de volgende stappen uit om de velden aan te passen:
 
    ![](../content-management/assets/fragment-expression-use.png)
 
-Een voorbeeld dat toont hoe te om editable gebieden in een uitdrukkingsfragmenten toe te voegen en hun waarden met voeten te treden wanneer het creëren van een e-mail is beschikbaar in [&#x200B; deze sectie &#x200B;](../content-management/customizable-fragments.md#example).
+Een voorbeeld dat toont hoe te om editable gebieden in een uitdrukkingsfragmenten toe te voegen en hun waarden met voeten te treden wanneer het creëren van een e-mail is beschikbaar in [ deze sectie ](../content-management/customizable-fragments.md#example).
 
 ## Overerving onderbreken {#break-inheritance}
 
