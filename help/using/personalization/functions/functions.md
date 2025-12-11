@@ -6,34 +6,43 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 8ca1c995bc38b110fa07573f922906c775fd5e6f
+source-git-commit: cdf9eadc36d7e7b3538690a7a165bc39eccc40b5
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2458'
 ht-degree: 1%
 
 ---
 
 # Aan de slag met Helper-functies{#functions}
 
-U kunt de sjabloontaal [!DNL Journey Optimizer] gebruiken om bewerkingen op gegevens uit te voeren, zoals berekeningen, gegevensopmaak of conversies, voorwaarden en deze te bewerken in de context van personalisatie. Leer de richtlijnen van de verpersoonlijkingssyntaxis op [&#x200B; deze pagina &#x200B;](../personalization-syntax.md).
+Met behulp van de hulpfuncties kunt u gegevens transformeren en manipuleren binnen uw persoonlijke inhoud. U kunt ze gebruiken om berekeningen uit te voeren, gegevens op te maken, voorwaarden toe te passen en verschillende bewerkingen uit te voeren om dynamische, op maat gemaakte ervaringen voor uw klanten te creëren.
 
-➡️ [&#x200B; Leer hoe te om hulpfuncties in deze video te gebruiken &#x200B;](#video)
+Deze functies maken gebruik van de sjabloontaal [!DNL Journey Optimizer] . Leer over de richtlijnen van de verpersoonlijkingssyntaxis in [ deze pagina ](../personalization-syntax.md).
 
-De taal van het malplaatje wordt leveraged in helperfuncties beschikbaar in verpersoonlijkingsdrop-down lijst van de verpersoonlijkingsredacteur, zoals hieronder:
+➡️ [ Leer hoe te om hulpfuncties in deze video te gebruiken ](#video)
+
+## Toegang tot hulpfuncties
+
+De hulpfuncties zijn beschikbaar bij het de functiemenu van de verpersoonlijkingsredacteur:
 
 ![](../assets/access-helper-functions.png)
 
-In de [!DNL Journey Optimizer] verpersoonlijkingsredacteur, helperfuncties worden gegroepeerd in drie categorieën: [&#x200B; Functies &#x200B;](#functions-helper), [&#x200B; Helpers &#x200B;](#helper-helper) en [&#x200B; Operatoren &#x200B;](#operators-helper).
+Functies zijn ingedeeld in drie categorieën voor eenvoudige navigatie:
 
-Selecteer een categorie voor toegang tot subcategorieën en functies.
+* **[Functies](#functions-helper)** - de manipulatie van gegevens en transformatieverrichtingen
+* **[Helpers](#helper-helper)** - Voorwaardelijke logica en hulpprogrammafuncties
+* **[Operatoren](#operators-helper)** - Vergelijking en logische operatoren
 
-U kunt subcategorieën openen door op het pictogram `>` te klikken. Selecteer een functie door op het pictogram `+` te klikken: de functie wordt automatisch toegevoegd aan het verpersoonlijkingsscherm.
+**om een helperfunctie te gebruiken:**
 
-Klik op het pictogram `...` om de beschrijving van de functie weer te geven en deze aan uw favorieten toe te voegen. [Meer informatie](../personalize.md#fav)
+1. Selecteer een categorie om de subcategorieën en beschikbare functies ervan weer te geven
+1. Klik op het pictogram `>` om subcategorieën uit te vouwen
+1. Klik op het pictogram `+` naast een functie om deze toe te voegen aan uw personalisatiecode
+1. Klik op het pictogram `...` om de functiebeschrijving weer te geven of deze aan uw favorieten toe te voegen. [Meer informatie](../personalize.md#fav)
 
 >[!NOTE]
 >
->De functies en de mogelijkheden beschikbaar in de verpersoonlijkingsredacteur verschillen van degenen beschikbaar in de [&#x200B; Reis geavanceerde uitdrukkingsredacteur &#x200B;](../../building-journeys/expression/expressionadvanced.md). De functie `now()` is bijvoorbeeld alleen beschikbaar in reisexpressies. [Meer informatie](../../email/code-content.md#date-time-limitations)
+>De functies en de mogelijkheden beschikbaar in de verpersoonlijkingsredacteur verschillen van degenen beschikbaar in de [ Reis geavanceerde uitdrukkingsredacteur ](../../building-journeys/expression/expressionadvanced.md). De functie `now()` is bijvoorbeeld alleen beschikbaar in reisexpressies. [Meer informatie](../../email/code-content.md#date-time-limitations)
 
 ## Functies{#functions-helper}
 
@@ -426,7 +435,7 @@ Klik op het pictogram `...` om de beschrijving van de functie weer te geven en d
 
 ## Helpers{#helper-helper}
 
-De helpers zijn gedetailleerd op [&#x200B; deze pagina &#x200B;](helpers.md).
+De helpers zijn gedetailleerd op [ deze pagina ](helpers.md).
 
 
 <table>
