@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: datum, functies, expressie, reis, tijd
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
+source-git-commit: 8ca1c995bc38b110fa07573f922906c775fd5e6f
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '834'
 ht-degree: 6%
 
 ---
@@ -20,13 +20,17 @@ Met Date-functies kunt u datum- en tijdwaarden bewerken en gebruiken in uw reise
 
 Gebruik datumfuncties wanneer u dit moet doen:
 
-* Krijg de huidige tijd of de datum met specifieke timezone behandeling ([&#x200B; nu &#x200B;](#now), [&#x200B; nowWithDelta &#x200B;](#nowWithDelta), [&#x200B; currentTimeInMillis &#x200B;](#currentTimeInMillis))
-* Controle als een datum binnen een specifieke tijdwaaier valt ([&#x200B; inLastDays &#x200B;](#inLastDays), [&#x200B; inLastHours &#x200B;](#inLastHours), [&#x200B; inLastMonths &#x200B;](#inLastMonths), [&#x200B; inLastYaren &#x200B;](#inLastYears), [&#x200B; inNextDays &#x200B;](#inNextDays), [&#x200B; inNextHours &#x200B;](#inNextHours), [&#x200B; NextMonths &#x200B;](#inNextMonths), [&#x200B; inNextYear &#x200B;](#inNextYears))
-* Wijzig datum en tijdcomponenten ([&#x200B; setHours &#x200B;](#setHours), [&#x200B; setDays &#x200B;](#setDays), [&#x200B; updateTimeZone &#x200B;](#updateTimeZone))
+* Krijg de huidige tijd of de datum met specifieke timezone behandeling ([ nu ](#now), [ nowWithDelta ](#nowWithDelta), [ currentTimeInMillis ](#currentTimeInMillis))
+* Controle als een datum binnen een specifieke tijdwaaier valt ([ inLastDays ](#inLastDays), [ inLastHours ](#inLastHours), [ inLastMonths ](#inLastMonths), [ inLastYaren ](#inLastYears), [ inNextDays ](#inNextDays), [ inNextHours ](#inNextHours), [ NextMonths ](#inNextMonths), [ inNextYear ](#inNextYears))
+* Wijzig datum en tijdcomponenten ([ setHours ](#setHours), [ setDays ](#setDays), [ updateTimeZone ](#updateTimeZone))
 * Op tijd gebaseerde berekeningen en vergelijkingen uitvoeren
 * Omzetten tussen verschillende tijdnotaties en weergaven
 
 De functies van de datum verstrekken nauwkeurige controle over tijdslogica, toestaand u om tijd-gevoelige reiswegen en voorwaarden tot stand te brengen die aan specifieke tijdkaders en programma&#39;s antwoorden.
+
+>[!NOTE]
+>
+>De functies op deze pagina zijn beschikbaar in reisuitdrukkingen. Sommige functies zoals `now()` zijn niet beschikbaar in de personalisatie-editor voor e-mailinhoud. [Meer informatie](../../personalization/functions/dates.md)
 
 ## currentTimeInMillis {#currentTimeInMillis}
 
@@ -346,7 +350,11 @@ Retourneert true.
 
 ## now {#now}
 
-Retourneert de huidige datum in de datumtijdnotatie. Voor meer informatie over gegevenstypes, verwijs naar [&#x200B; deze pagina &#x200B;](../expression/data-types.md).
+Retourneert de huidige datum in de datumtijdnotatie. Voor meer informatie over gegevenstypes, verwijs naar [ deze pagina ](../expression/data-types.md).
+
+>[!NOTE]
+>
+>Deze functie is alleen beschikbaar in reisexpressies. Gebruik in plaats hiervan `getCurrentZonedDateTime()` voor e-mailpersonalisatie en andere inhoud. [Meer informatie](../../personalization/functions/dates.md#get-current-zoned-date-time)
 
 +++Syntaxis
 
@@ -390,7 +398,7 @@ Keert 2023-06-03T08 :30+02 :00 terug.
 
 ## nowWithDelta {#nowWithDelta}
 
-Retourneert de huidige datumtijd inclusief een verschuiving. Als een tijdzone-id wordt opgegeven, wordt de verschuiving van de tijdzone toegepast. Voor meer informatie over gegevenstypes, verwijs naar [&#x200B; deze pagina &#x200B;](../expression/data-types.md).
+Retourneert de huidige datumtijd inclusief een verschuiving. Als een tijdzone-id wordt opgegeven, wordt de verschuiving van de tijdzone toegepast. Voor meer informatie over gegevenstypes, verwijs naar [ deze pagina ](../expression/data-types.md).
 
 +++Syntaxis
 
@@ -404,7 +412,7 @@ Retourneert de huidige datumtijd inclusief een verschuiving. Als een tijdzone-id
 |--- |--- |
 | delta | positieve of negatieve gehele waarde |
 | datumonderdeel | jaar, maanden, dagen, uren, minuten of seconden als een tekenreeks |
-| tijdzone-id | tekenreeksrepresentatie van de tijdzonewaarde. Voor meer, zie [&#x200B; types van Gegevens &#x200B;](../expression/data-types.md). Tijdzone-id moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn. |
+| tijdzone-id | tekenreeksrepresentatie van de tijdzonewaarde. Voor meer, zie [ types van Gegevens ](../expression/data-types.md). Tijdzone-id moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn. |
 
 +++
 
