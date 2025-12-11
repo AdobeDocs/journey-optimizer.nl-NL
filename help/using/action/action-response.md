@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: bf5b054eaaca73abf484ccbabf160e902fad3f5b
+source-git-commit: a67707e50960e4848197fa1bd39ce95af3ef14ab
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 3%
@@ -216,11 +216,11 @@ currentActionField.description == "abc"
 
 De gebieden van de lading van de antwoord van douaneacties kunnen in inheemse kanalen (e-mail, duw, SMS) voor berichtverpersoonlijking worden gebruikt. Dit omvat de mogelijkheid om arrays te doorlopen en geneste gegevensstructuren die door externe API&#39;s worden geretourneerd.
 
-<!--For detailed examples and syntax for iterating over custom action response data in messages, refer to [Iterate over contextual data with Handlebars](../personalization/personalization-contexts.md#custom-action-responses).-->
+<!--For detailed examples and syntax for iterating over custom action response data in messages, refer to [Iterate over contextual data with Handlebars](../personalization/iterate-contextual-data.md#custom-action-responses).-->
 
 ## Aanvullende bronnen
 
 Raadpleeg deze pagina’s voor meer informatie:
 
-* [&#x200B; verwijzingen van het Gebied &#x200B;](../building-journeys/expression/field-references.md).
+* [ verwijzingen van het Gebied ](../building-journeys/expression/field-references.md).
 * [Functies voor het beheer van verzamelingen](../building-journeys/expression/collection-management-functions.md)
