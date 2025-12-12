@@ -19,11 +19,11 @@ ht-degree: 2%
 
 Wanneer het lanceren van e-mailcampagnes met nieuwe IP adressen of domeinen in Adobe Journey Optimizer, is het begrip van leverbaarheidsgrondbeginselen essentieel voor de bouw van een sterke afzenderreputatie. Deze gids behandelt de belangrijkste concepten, voorbereidingsstappen, en beste praktijken om u te helpen overgang van nul reputatie aan succesvolle inbox plaatsing.
 
-➡️ Leer over leverbaarheidsgrondbeginselen, reputatie het opbouwen, en beste praktijken voor IP warmup in de video van dit [ Adobe blogpost ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950){target="_blank"}.
+➡️ Leer over leverbaarheidsgrondbeginselen, reputatie het opbouwen, en beste praktijken voor IP warmup in de video van dit [&#x200B; Adobe blogpost &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950){target="_blank"}.
 
 >[!NOTE]
 >
->Voor geleidelijke instructies bij het uitvoeren van IP warmteoptieplannen in Adobe Journey Optimizer, verwijs naar [ begonnen wordt met IP warmtekrachtplannen ](ip-warmup-gs.md).
+>Voor geleidelijke instructies bij het uitvoeren van IP warmteoptieplannen in Adobe Journey Optimizer, verwijs naar [&#x200B; begonnen wordt met IP warmtekrachtplannen &#x200B;](ip-warmup-gs.md).
 
 ## Waarom IP en de kwestie van de domeinreputatie {#reputation-matters}
 
@@ -43,7 +43,7 @@ Voordat u begint met het opwarmen van uw IP-adressen, moet u ervoor zorgen dat a
 | Taak | Waarom het belangrijk is | Procedure |
 |------|----------------|-------------------|
 | Vaste IP&#39;s en gedelegeerde subdomeinen in AJO reserveren | Alle toekomstige reputatie hecht aan deze infrastructuurelementen. | Navigeer naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email settings]** > **[!UICONTROL Subdomains]** . [Meer informatie](delegate-subdomain.md) |
-| SPF en DKIM configureren | Bevestigt uw verzendende server wettig en gemachtigd is. | Automatisch behandeld door Adobe na [ subdomain delegatie ](delegate-subdomain.md) en [ de verwezenlijking van de kanaalconfiguratie ](channel-surfaces.md). |
+| SPF en DKIM configureren | Bevestigt uw verzendende server wettig en gemachtigd is. | Automatisch behandeld door Adobe na [&#x200B; subdomain delegatie &#x200B;](delegate-subdomain.md) en [&#x200B; de verwezenlijking van de kanaalconfiguratie &#x200B;](channel-surfaces.md). |
 | Controleer of DMARC-record is geconfigureerd (p=none) | Hiermee schakelt u rapportage van e-mailverificatie en het toekomstige handhavingsbeleid in. | Controleer of DMARC-record is ingesteld voor alle gedelegeerde subdomeinen. Wanneer u een nieuw subdomein delegeert, kunt u DMARC rechtstreeks in de interface instellen. [Meer informatie](dmarc-record.md) |
 | Bewaking van zaadlijst configureren | Detecteert problemen met plaatsing van postvakken in een vroeg stadium van het opwarmingsproces. | Voeg zaadadressen toe wanneer het creëren van uw kanaalconfiguratie. [Meer informatie](seed-lists.md) |
 | Fase 1 publiek met hoge betrokkenheid samenstellen | Verhoogt vroege betrokkenheidsmetriek met uw meest actieve ontvangers. | Creeer een publiek van minder dan 5.000 contacten die in de laatste 30 dagen opende of klikte. [Meer informatie](../audience/creating-a-segment-definition.md) |
@@ -66,7 +66,7 @@ Deze voorbeeldkalender biedt een progressieve volumegrafiek op basis van het per
 
 ## Het gebruiken van de IP eigenschap van de warmup plannen {#ajo-warmup-feature}
 
-Adobe Journey Optimizer omvat een gestroomlijnde [ IP warmup plannen ](ip-warmup-gs.md) eigenschap die de behoefte aan het handvolume dat door complexe reismontages wordt begrensd elimineert. Deze functionaliteit verzekert een gestandaardiseerde benadering van de reputatie van de bouwer afzenders.
+Adobe Journey Optimizer omvat een gestroomlijnde [&#x200B; IP warmup plannen &#x200B;](ip-warmup-gs.md) eigenschap die de behoefte aan het handvolume dat door complexe reismontages wordt begrensd elimineert. Deze functionaliteit verzekert een gestandaardiseerde benadering van de reputatie van de bouwer afzenders.
 
 ### Werking
 
@@ -103,8 +103,8 @@ Gebruik deze beslissingsmatrix om algemene problemen tijdens uw opwarming aan te
 | Symptoom | Waarschijnlijk oorzaak | Aanbevolen actie |
 |---------|--------------|-------------------|
 | Yahoo tijdelijke fouten (421 fouten) | Volume wordt te snel verhoogd | Het verzenden van de pauze gedurende 24 uren, dan begin bij de vorige rij opnieuw. |
-| Open rate minder dan 2% op zaadrekeningen | IP VOEGEND OP LIJST VAN GEWENSTE PERSONEN | Controle [ de Hulpmiddelen van Postmaster van Google ](https://postmaster.google.com/) en [ SNDS van Microsoft ](https://sendersupport.olc.protection.outlook.com/snds/); open een leverbaarheidskaartje indien nodig. |
-| De klachtensnelheid is hoger dan 0,3% | Mis-doelgroep of stijldoelgroep | De segmentdefinities van de controle en sluit chronische klagers van uw [ suppressielijst ](manage-suppression-list.md) uit. |
+| Open rate minder dan 2% op zaadrekeningen | IP VOEGEND OP LIJST VAN GEWENSTE PERSONEN | Controle [&#x200B; de Hulpmiddelen van Postmaster van Google &#x200B;](https://postmaster.google.com/) en [&#x200B; SNDS van Microsoft &#x200B;](https://sendersupport.olc.protection.outlook.com/snds/); open een leverbaarheidskaartje indien nodig. |
+| De klachtensnelheid is hoger dan 0,3% | Mis-doelgroep of stijldoelgroep | De segmentdefinities van de controle en sluit chronische klagers van uw [&#x200B; suppressielijst &#x200B;](manage-suppression-list.md) uit. |
 
 >[!IMPORTANT]
 >
@@ -146,5 +146,5 @@ Zodra u uw warmtingsplan hebt voltooid en de metriek hebben gestabiliseerd:
 * [Kanaalconfiguraties instellen](channel-surfaces.md)
 * [Subdomeinen delegeren](delegate-subdomain.md)
 * [Onderdrukkingslijst beheren](manage-suppression-list.md)
-* {de Gids van de Beste praktijken van 0} Levering [](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl)
+* {de Gids van de Beste praktijken van 0} Levering [&#128279;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl)
 

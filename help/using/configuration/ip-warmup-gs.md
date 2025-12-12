@@ -24,9 +24,9 @@ Als u wilt voorkomen dat spam wordt gemarkeerd, kunt u het verzonden volume prog
 
 >[!NOTE]
 >
->Alvorens uw IP warmup plan uit te voeren, leer over leverbaarheidsgrondbeginselen, reputatie het bouwen, en beste praktijken in deze [ IP gids van de warmup leverbaarheid ](ip-warmup-deliverability-guide.md).
+>Alvorens uw IP warmup plan uit te voeren, leer over leverbaarheidsgrondbeginselen, reputatie het bouwen, en beste praktijken in deze [&#x200B; IP gids van de warmup leverbaarheid &#x200B;](ip-warmup-deliverability-guide.md).
 
-➡️ [ Leer om een IP warmup plan in deze video tot stand te brengen en uit te voeren ](#video)
+➡️ [&#x200B; Leer om een IP warmup plan in deze video tot stand te brengen en uit te voeren &#x200B;](#video)
 
 >[!AVAILABILITY]
 >
@@ -60,16 +60,16 @@ Leer hoe te om een IP warmlopingsplan tot stand te brengen en uit te voeren.
 
 >[!NOTE]
 >
->Leer meer over het verhogen van uw e-mailreputatie met IP opwarmen in de [ Gids van de Beste praktijken van de Levering ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html).
+>Leer meer over het verhogen van uw e-mailreputatie met IP opwarmen in de [&#x200B; Gids van de Beste praktijken van de Levering &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html).
 
 ## Aanvullende bronnen {#additional-resources}
 
 Ontdek deze nuttige blogberichten voor meer diepgaande begeleiding op IP warmup:
 
-* [ Gids van de Leverbaarheid van Adobe Journey Optimizer: Van Nul Reputation aan Hero Inbox ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950) - Uitgebreide gids die reputatie fundamentals, warmup kalenders, controle, en het oplossen van problemenbeste praktijken behandelt.
+* [&#x200B; Gids van de Leverbaarheid van Adobe Journey Optimizer: Van Nul Reputation aan Hero Inbox &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950) - Uitgebreide gids die reputatie fundamentals, warmup kalenders, controle, en het oplossen van problemenbeste praktijken behandelt.
 
-* [ Begrijpend hoe te opstelling de IP warmte ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949) - leer de grondbeginselen van opstellingsIP opwarmingsplannen en beste praktijken voor een succesvolle implementatie.
+* [&#x200B; Begrijpend hoe te opstelling de IP warmte &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949) - leer de grondbeginselen van opstellingsIP opwarmingsplannen en beste praktijken voor een succesvolle implementatie.
 
-* [ Geavanceerde eigenschappen in IP warm-up plannen ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958) - ontdek geavanceerde mogelijkheden en granulaire controles voor het optimaliseren van uw IP-opwarmingsstrategie.
+* [&#x200B; Geavanceerde eigenschappen in IP warm-up plannen &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958) - ontdek geavanceerde mogelijkheden en granulaire controles voor het optimaliseren van uw IP-opwarmingsstrategie.
 
-* [ IP warm-up het oplossen van problemen ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952) - vind oplossingen aan gemeenschappelijke kwesties zoals publieksvertragingen en leer over slimme heruitzettingsmechanismen.
+* [&#x200B; IP warm-up het oplossen van problemen &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952) - vind oplossingen aan gemeenschappelijke kwesties zoals publieksvertragingen en leer over slimme heruitzettingsmechanismen.
