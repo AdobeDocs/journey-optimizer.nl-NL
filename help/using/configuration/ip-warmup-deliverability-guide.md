@@ -8,8 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, leverbaarheid, reputatie, ISP, overeenkomst
-exl-id: TBD
-source-git-commit: b1b9b34aec305d6690d93e68238aed852ef689b7
+source-git-commit: 07896931a7c06e1b712f3b65e1dcf939b521ba83
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 2%
@@ -20,11 +19,11 @@ ht-degree: 2%
 
 Wanneer het lanceren van e-mailcampagnes met nieuwe IP adressen of domeinen in Adobe Journey Optimizer, is het begrip van leverbaarheidsgrondbeginselen essentieel voor de bouw van een sterke afzenderreputatie. Deze gids behandelt de belangrijkste concepten, voorbereidingsstappen, en beste praktijken om u te helpen overgang van nul reputatie aan succesvolle inbox plaatsing.
 
-➡️ [&#x200B; bekijk deze video om over IP de grondbeginselen van de warmtegeleidbaarheid te leren &#x200B;](#video)
+➡️ [ bekijk deze video om over IP de grondbeginselen van de warmtegeleidbaarheid te leren ](#video)
 
 >[!NOTE]
 >
->Voor geleidelijke instructies bij het uitvoeren van IP warmteoptieplannen in Adobe Journey Optimizer, verwijs naar [&#x200B; begonnen wordt met IP warmtekrachtplannen &#x200B;](ip-warmup-gs.md).
+>Voor geleidelijke instructies bij het uitvoeren van IP warmteoptieplannen in Adobe Journey Optimizer, verwijs naar [ begonnen wordt met IP warmtekrachtplannen ](ip-warmup-gs.md).
 
 ## Waarom IP en de kwestie van de domeinreputatie {#reputation-matters}
 
@@ -67,7 +66,7 @@ Deze voorbeeldkalender biedt een progressieve volumegrafiek op basis van het per
 
 >[!NOTE]
 >
->Adobe Journey Optimizer verstrekt een specifieke [&#x200B; IP eigenschap van warmup plannen &#x200B;](ip-warmup-gs.md) die volumebeheer automatiseert en het warmup proces vereenvoudigt zonder complexe reisconfiguraties te vereisen.
+>Adobe Journey Optimizer verstrekt een specifieke [ IP eigenschap van warmup plannen ](ip-warmup-gs.md) die volumebeheer automatiseert en het warmup proces vereenvoudigt zonder complexe reisconfiguraties te vereisen.
 
 ## De functie AJO IP-opwarmingsplannen gebruiken {#ajo-warmup-feature}
 
@@ -103,7 +102,7 @@ Volg deze belangrijke prestatie-indicatoren tijdens uw opwarmingsproject:
 
 >[!TIP]
 >
->Voor uitvoerige campagneanalytica, gebruik het [&#x200B; campagne levende rapport &#x200B;](../reports/campaign-live-report.md#email-live) en [&#x200B; Customer Journey Analytics rapport &#x200B;](../reports/campaign-global-report-cja-email.md) eigenschappen.
+>Voor uitvoerige campagneanalytica, gebruik het [ campagne levende rapport ](../reports/campaign-live-report.md#email-live) en [ Customer Journey Analytics rapport ](../reports/campaign-global-report-cja-email.md) eigenschappen.
 
 ## Problemen met afspeelboek oplossen {#troubleshooting}
 
@@ -112,8 +111,8 @@ Gebruik deze beslissingsmatrix om algemene problemen tijdens uw opwarming aan te
 | Symptoom | Waarschijnlijk oorzaak | Aanbevolen actie |
 |---------|--------------|-------------------|
 | Yahoo tijdelijke fouten (421 fouten) | Volume wordt te snel verhoogd | Verzending gedurende 24 uur pauzeren en vervolgens opnieuw starten op de vorige laag |
-| Open rate minder dan 2% op zaadrekeningen | IP VOEGEND OP LIJST VAN GEWENSTE PERSONEN | Controle [&#x200B; PostmasterHulpmiddelen van Google &#x200B;](https://postmaster.google.com/) en [&#x200B; SNDS van Microsoft &#x200B;](https://sendersupport.olc.protection.outlook.com/snds/); open een leverbaarheidskaartje indien nodig |
-| De klachtensnelheid is hoger dan 0,3% | Mis-doelgroep of stijldoelgroep | De segmentdefinities van de controle en sluit chronische klagers van uw [&#x200B; suppressielijst &#x200B;](manage-suppression-list.md) uit |
+| Open rate minder dan 2% op zaadrekeningen | IP VOEGEND OP LIJST VAN GEWENSTE PERSONEN | Controle [ PostmasterHulpmiddelen van Google ](https://postmaster.google.com/) en [ SNDS van Microsoft ](https://sendersupport.olc.protection.outlook.com/snds/); open een leverbaarheidskaartje indien nodig |
+| De klachtensnelheid is hoger dan 0,3% | Mis-doelgroep of stijldoelgroep | De segmentdefinities van de controle en sluit chronische klagers van uw [ suppressielijst ](manage-suppression-list.md) uit |
 
 >[!IMPORTANT]
 >
@@ -145,7 +144,7 @@ Zodra u uw warmtingsplan hebt voltooid en de metriek hebben gestabiliseerd:
 
 Leer over leverbaarheidsgrondbeginselen, reputatie het opbouwen, en beste praktijken voor IP warmup in Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463788/?captions=dut&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on)
 
 <!--
 >[!NOTE]
@@ -161,5 +160,5 @@ Leer over leverbaarheidsgrondbeginselen, reputatie het opbouwen, en beste prakti
 * [Kanaalconfiguraties instellen](channel-surfaces.md)
 * [Subdomeinen delegeren](delegate-subdomain.md)
 * [Onderdrukkingslijst beheren](manage-suppression-list.md)
-* {de Gids van de Beste praktijken van 0} Levering [&#128279;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl)
+* {de Gids van de Beste praktijken van 0} Levering [](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl)
 
