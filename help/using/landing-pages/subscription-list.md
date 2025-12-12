@@ -22,7 +22,7 @@ ht-degree: 3%
 >id="ajo_subscription_list"
 >title="Een abonnementenlijst instellen"
 >abstract="Een abonnementenlijst maken om profielen te verzamelen die zich hebben aangemeld voor het ontvangen van communicatie over een specifiek onderwerp of een specifieke gebeurtenis. "
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html#define-subscription-list" text="Een lidmaatschapslijst maken"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html?lang=nl-NL#define-subscription-list" text="Een lidmaatschapslijst maken"
 
 Een abonnementsdienst heeft betrekking op marketinggoederen en -diensten die worden geleverd aan klanten die ervoor hebben gekozen communicatie over een specifiek onderwerp/evenement/belang/enz. te ontvangen. doorlopend. In [!DNL Journey Optimizer] worden deze gekozen klanten verzameld in een abonnementenlijst.
 
@@ -40,7 +40,7 @@ De profielen kunnen aan een abonnementenlijst door a [&#x200B; worden toegevoegd
 
 >[!NOTE]
 >
->Wanneer u een abonnementlijst maakt, wordt automatisch een bijbehorend streamingsegment gegenereerd in Adobe Experience Platform. Voor het stromen segment dat met succes moet worden gecreeerd, moet het fusiebeleid **actief-op-Edge** toegelaten optie hebben. Leer meer over het stromen segmentgeschiktheidscriteria in de [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation).
+>Wanneer u een abonnementlijst maakt, wordt automatisch een bijbehorend streamingsegment gegenereerd in Adobe Experience Platform. Voor het stromen segment dat met succes moet worden gecreeerd, moet het fusiebeleid **actief-op-Edge** toegelaten optie hebben. Leer meer over het stromen segmentgeschiktheidscriteria in de [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/methods/streaming-segmentation).
 
 Voer de onderstaande stappen uit om een abonnementenlijst te maken.
 
