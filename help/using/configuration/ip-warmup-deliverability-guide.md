@@ -144,7 +144,7 @@ Zodra u uw warmtingsplan hebt voltooid en de metriek hebben gestabiliseerd:
 
 Leer over leverbaarheidsgrondbeginselen, reputatie het opbouwen, en beste praktijken voor IP warmup in Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3463788/?captions=dut&learn=on)
 
 <!--
 >[!NOTE]
