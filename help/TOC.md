@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: b1b9b34aec305d6690d93e68238aed852ef689b7
 workflow-type: tm+mt
-source-wordcount: '3018'
+source-wordcount: '3022'
 ht-degree: 15%
 
 ---
@@ -829,7 +829,7 @@ ht-degree: 15%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
@@ -851,6 +851,7 @@ ht-degree: 15%
       + [IP-pools maken](using/configuration/ip-pools.md)
    + Voer een IP warmlopingsplan uit {#implement-ip-warmup-plan}
       + [Voer een IP warmlopingsplan uit](/help/rp_landing_pages/implement-ip-warmup-plan-landing-page.md)
+      + [IP de gids van de warmtegeleidbaarheid](using/configuration/ip-warmup-deliverability-guide.md)
       + [Ga aan de slag met IP-opwarmingsplannen](using/configuration/ip-warmup-gs.md)
       + [IP-warmtecampagnes maken](using/configuration/ip-warmup-campaign.md)
       + [Creeer een IP warmlopingsplan](using/configuration/ip-warmup-plan.md)
