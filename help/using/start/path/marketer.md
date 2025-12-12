@@ -124,9 +124,9 @@ Leer praktische voorbeelden die de mogelijkheden van Journey Optimizer demonstre
 
 **Populaire gebruiksgevallen:**
 
-* **Welkome reeksen**: Aan boord nieuwe klanten met gepersonaliseerde, multi-step reizen. [&#x200B; het gebruiksgeval van de Mening &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)
-* **Verlaten kartterugwinning**: Draai klanten opnieuw in dienst die punten in hun kar verlieten. [&#x200B; het gebruiksgeval van de Mening &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)
-* **campagnes van de re-overeenkomst**: De rug van de terugwinning inactieve klanten met gerichte aanbiedingen. [&#x200B; het gebruiksgeval van de Mening &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)
+* **Welkome reeksen**: Aan boord nieuwe klanten met gepersonaliseerde, multi-step reizen. [&#x200B; het gebruiksgeval van de Mening &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)
+* **Verlaten kartterugwinning**: Draai klanten opnieuw in dienst die punten in hun kar verlieten. [&#x200B; het gebruiksgeval van de Mening &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)
+* **campagnes van de re-overeenkomst**: De rug van de terugwinning inactieve klanten met gerichte aanbiedingen. [&#x200B; het gebruiksgeval van de Mening &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)
 * **campagnes van de Verjaardag**: Verzend gepersonaliseerde verjaardagsberichten met speciale aanbiedingen
 * **Aanbevelingen van het Product**: Suggestie relevante producten die op het doorbladeren en aankoopgeschiedenis worden gebaseerd
 * **Event-gedreven overseinen**: Reageer aan klantenacties in real time
@@ -166,4 +166,4 @@ Houd up-to-date met de nieuwste Journey Optimizer-mogelijkheden en marketingfunc
 1. **Begin klein**: Creeer een eenvoudige welkome reis of enig-bericht campagne om het platform te leren
 2. **AI van de Leverage van 0&rbrace;: De Medewerker van AI van het gebruik om vragen te stellen en inhoudsverwezenlijking te versnellen**
 3. **sluit zich aan bij de gemeenschap**: Verbind met andere gebruikers van Journey Optimizer in de [&#x200B; Gemeenschap van Experience League &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
-4. **Onderzoek leerprogramma&#39;s**: Bekijk geleidelijke video&#39;s op [&#x200B; Experience League &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html){target="_blank"}
+4. **Onderzoek leerprogramma&#39;s**: Bekijk geleidelijke video&#39;s op [&#x200B; Experience League &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=nl-NL){target="_blank"}
