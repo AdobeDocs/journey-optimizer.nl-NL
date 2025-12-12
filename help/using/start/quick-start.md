@@ -8,9 +8,9 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1570'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ Implementeer technische integratie die Journey Optimizer verbindt met uw toepass
 
 **Begin met:** integreer Mobiele of SDK van het Web, dan voer uw eerste gebeurtenis uit om een reis teweeg te brengen.
 
-[&#x200B; krijgen Begonnen als Ontwikkelaar → &#x200B;](path/developer.md)
+[ krijgen Begonnen als Ontwikkelaar → ](path/developer.md)
 
 ## Cross-Role Collaboration
 
@@ -176,7 +176,7 @@ Succesvolle Journey Optimizer-implementaties vereisen samenwerking voor alle rol
 
 Bekijk de inleidende video voor meer informatie over sleutelmogelijkheden en persona&#39;s van Journey Optimizer. De video doorloopt de gebruikersinterface en markeert belangrijke eigenschappen die op rol-specifieke workflows worden gebaseerd.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430315?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Aanvullende bronnen
 
@@ -184,18 +184,18 @@ Verken de volgende bronnen voor diepgaander leren en updates:
 
 **het Leren &amp; Documentatie:**
 
-* [&#x200B; Video&#39;s van het Leerprogramma &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=nl-NL){target="_blank"} - geleidelijke videoleerprogramma&#39;s voor alle rollen
-* [&#x200B; de Gevallen van het Gebruik van de Reis Bibliotheek &#x200B;](../building-journeys/jo-use-cases.md) - Praktische voorbeelden en implementatiepatronen
-* [&#x200B; AI &amp; Intelligente Eigenschappen &#x200B;](ai-features.md) - leer over Medewerker AI, send-time optimalisering, en inhoudsgeneratie
-* [&#x200B; Gids van het Gebruikersinterface &#x200B;](user-interface.md) - navigeer effectief Journey Optimizer
+* [ Video&#39;s van het Leerprogramma ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html){target="_blank"} - geleidelijke videoleerprogramma&#39;s voor alle rollen
+* [ de Gevallen van het Gebruik van de Reis Bibliotheek ](../building-journeys/jo-use-cases.md) - Praktische voorbeelden en implementatiepatronen
+* [ AI &amp; Intelligente Eigenschappen ](ai-features.md) - leer over Medewerker AI, send-time optimalisering, en inhoudsgeneratie
+* [ Gids van het Gebruikersinterface ](user-interface.md) - navigeer effectief Journey Optimizer
 
 **blijven bijgewerkt:**
 
-* [&#x200B; Nota&#39;s van de Versie &#x200B;](../rn/release-notes.md) - de Meest recente eigenschappen, de verbeteringen, en moeilijke situaties
-* [&#x200B; Updates van de Documentatie &#x200B;](../rn/documentation-updates.md) - de recente documentatieveranderingen van het spoor
-* **Berichten van het Product** - laat alarm in uw [&#x200B; profiel van Adobe Experience Cloud &#x200B;](https://experience.adobe.com/preferences){target="_blank"} toe om berichten over nieuwe versies, onderhoudsvensters, en belangrijke aankondigingen te ontvangen. Klik op het profielpictogram > Voorkeuren > Meldingen om te configureren.
+* [ Nota&#39;s van de Versie ](../rn/release-notes.md) - de Meest recente eigenschappen, de verbeteringen, en moeilijke situaties
+* [ Updates van de Documentatie ](../rn/documentation-updates.md) - de recente documentatieveranderingen van het spoor
+* [ Berichten van het Product ](../rn/releases.md#staying-informed) - Leer hoe te aan e-mail en in-productalarm voor de updates van Journey Optimizer in te schrijven
 
 **Gemeenschap &amp; Steun:**
 
-* [&#x200B; Gemeenschap van Experience League &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - verbind met andere gebruikers en deskundigen
-* [&#x200B; Forum van het Product &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - stel vragen en deel kennis
+* [ Gemeenschap van Experience League ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - verbind met andere gebruikers en deskundigen
+* [ Forum van het Product ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - stel vragen en deel kennis
