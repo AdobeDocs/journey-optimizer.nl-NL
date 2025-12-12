@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, leverbaarheid, reputatie, ISP, overeenkomst
-source-git-commit: 07896931a7c06e1b712f3b65e1dcf939b521ba83
+source-git-commit: 5dd6ebadd7b8c7490cb10496282697ce32ff3693
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1046'
 ht-degree: 2%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 2%
 
 Wanneer het lanceren van e-mailcampagnes met nieuwe IP adressen of domeinen in Adobe Journey Optimizer, is het begrip van leverbaarheidsgrondbeginselen essentieel voor de bouw van een sterke afzenderreputatie. Deze gids behandelt de belangrijkste concepten, voorbereidingsstappen, en beste praktijken om u te helpen overgang van nul reputatie aan succesvolle inbox plaatsing.
 
-➡️ [&#x200B; bekijk deze video om over IP de grondbeginselen van de warmtegeleidbaarheid te leren &#x200B;](#video)
+➡️ Leer over leverbaarheidsgrondbeginselen, reputatie het opbouwen, en beste praktijken voor IP warmup in de video van dit [ Adobe blogpost ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950){target="_blank"}.
 
 >[!NOTE]
 >
->Voor geleidelijke instructies bij het uitvoeren van IP warmteoptieplannen in Adobe Journey Optimizer, verwijs naar [&#x200B; begonnen wordt met IP warmtekrachtplannen &#x200B;](ip-warmup-gs.md).
+>Voor geleidelijke instructies bij het uitvoeren van IP warmteoptieplannen in Adobe Journey Optimizer, verwijs naar [ begonnen wordt met IP warmtekrachtplannen ](ip-warmup-gs.md).
 
 ## Waarom IP en de kwestie van de domeinreputatie {#reputation-matters}
 
@@ -42,11 +42,11 @@ Voordat u begint met het opwarmen van uw IP-adressen, moet u ervoor zorgen dat a
 
 | Taak | Waarom het belangrijk is | Procedure |
 |------|----------------|-------------------|
-| Vaste IP&#39;s en gedelegeerde subdomeinen in AJO reserveren | Alle toekomstige reputatie hecht aan deze infrastructuurelementen | Navigeer naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email settings]** > **[!UICONTROL Subdomains]** . [Meer informatie](delegate-subdomain.md) |
-| SPF en DKIM configureren | Bevestigt uw verzendende server wettig en gemachtigd is | Wordt automatisch afgehandeld door Adobe na het delegeren van subdomeinen en het maken van kanaalconfiguratie. [Meer informatie](delegate-subdomain.md) |
-| DMARC-record instellen | Hiermee wordt rapportage van e-mailverificatie en het toekomstige handhavingsbeleid ingeschakeld | Wordt automatisch afgehandeld door Adobe na het delegeren van subdomeinen en het maken van kanaalconfiguratie. [Meer informatie](dmarc-record.md) |
-| Bewaking van zaadlijst configureren | Detecteert problemen met plaatsing van postvakken vroeg in het opwarmingsproces | Voeg zaadadressen toe wanneer het creëren van uw kanaalconfiguratie. [Meer informatie](seed-lists.md) |
-| Fase 1 publiek met hoge betrokkenheid samenstellen | Verhoog de vroege betrokkenheidsmetriek met uw meest actieve ontvangers | Creeer een publiek van minder dan 5.000 contacten die in de laatste 30 dagen opende of klikte |
+| Vaste IP&#39;s en gedelegeerde subdomeinen in AJO reserveren | Alle toekomstige reputatie hecht aan deze infrastructuurelementen. | Navigeer naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email settings]** > **[!UICONTROL Subdomains]** . [Meer informatie](delegate-subdomain.md) |
+| SPF en DKIM configureren | Bevestigt uw verzendende server wettig en gemachtigd is. | Automatisch behandeld door Adobe na [ subdomain delegatie ](delegate-subdomain.md) en [ de verwezenlijking van de kanaalconfiguratie ](channel-surfaces.md). |
+| Controleer of DMARC-record is geconfigureerd (p=none) | Hiermee schakelt u rapportage van e-mailverificatie en het toekomstige handhavingsbeleid in. | Controleer of DMARC-record is ingesteld voor alle gedelegeerde subdomeinen. Wanneer u een nieuw subdomein delegeert, kunt u DMARC rechtstreeks in de interface instellen. [Meer informatie](dmarc-record.md) |
+| Bewaking van zaadlijst configureren | Detecteert problemen met plaatsing van postvakken in een vroeg stadium van het opwarmingsproces. | Voeg zaadadressen toe wanneer het creëren van uw kanaalconfiguratie. [Meer informatie](seed-lists.md) |
+| Fase 1 publiek met hoge betrokkenheid samenstellen | Verhoogt vroege betrokkenheidsmetriek met uw meest actieve ontvangers. | Creeer een publiek van minder dan 5.000 contacten die in de laatste 30 dagen opende of klikte. [Meer informatie](../audience/creating-a-segment-definition.md) |
 
 >[!CAUTION]
 >
@@ -58,19 +58,15 @@ Deze voorbeeldkalender biedt een progressieve volumegrafiek op basis van het per
 
 | Dagen | % van UDV | Doelgroep | Aanbevelingen voor inhoud |
 |------|----------|-----------------|------------------------|
-| 1-3 | 0,5% | Uw meest betrokken ontvangers | Korte, onbewerkte tekst gebruiken met een duidelijke call-to-action boven de voud |
-| 4-7 | 1% | Betrokken gebruikers plus recente kopers | Voeg een lichtgewicht hoofdafbeelding toe, beperkt de koppelingen tot 3 of minder |
-| 8-14 | 5% | Broader actieve abonneelijst | Introduceer uw standaard e-mailsjabloon, maar vermijd veel promotiemateriaal |
-| 15-21 | 25% | Actief plus lichtelijk inactieve abonnees | Gebruik normale marketinginhoud terwijl u de klachtentarieven nauwgezet volgt |
-| 22-28 | 50-100% | Volledige lijst (suppressielijsten respecteren) | Overgang naar uw constant-staat verzendende kadentie |
+| 1-3 | 0,5% | Uw meest betrokken ontvangers | Gebruik een korte, onbewerkte indeling met een duidelijke call-to-action boven de vouw. |
+| 4-7 | 1% | Betrokken gebruikers plus recente kopers | Voeg een lichtgewicht hoofdafbeelding toe en gebruik maximaal 3 koppelingen. |
+| 8-14 | 5% | Broader actieve abonneelijst | Introduceer uw standaard e-mailsjabloon, maar vermijd veel promotionele inhoud. |
+| 15-21 | 25% | Actief plus lichtelijk inactieve abonnees | Gebruik normale marketinginhoud terwijl u de klachtenpercentages nauwlettend in de gaten houdt. |
+| 22-28 | 50-100% | Volledige lijst (suppressielijsten respecteren) | Overgang naar uw stationaire verzendende kadentie. |
 
->[!NOTE]
->
->Adobe Journey Optimizer verstrekt een specifieke [&#x200B; IP eigenschap van warmup plannen &#x200B;](ip-warmup-gs.md) die volumebeheer automatiseert en het warmup proces vereenvoudigt zonder complexe reisconfiguraties te vereisen.
+## Het gebruiken van de IP eigenschap van de warmup plannen {#ajo-warmup-feature}
 
-## De functie AJO IP-opwarmingsplannen gebruiken {#ajo-warmup-feature}
-
-Adobe Journey Optimizer beschikt over een gestroomlijnde functie voor IP-opwarmingsplannen, waardoor het niet nodig is om handmatig volumelicenties in te stellen via complexe reisinstellingen. Deze functionaliteit verzekert een gestandaardiseerde benadering van de reputatie van de bouwer afzenders.
+Adobe Journey Optimizer omvat een gestroomlijnde [ IP warmup plannen ](ip-warmup-gs.md) eigenschap die de behoefte aan het handvolume dat door complexe reismontages wordt begrensd elimineert. Deze functionaliteit verzekert een gestandaardiseerde benadering van de reputatie van de bouwer afzenders.
 
 ### Werking
 
@@ -86,23 +82,19 @@ Adobe Journey Optimizer beschikt over een gestroomlijnde functie voor IP-opwarmi
 
 Adobe Journey Optimizer biedt ingebouwde rapporteringsmogelijkheden om uw opwarmingsprestaties van IP te volgen:
 
-* **Levende rapporten**: De meting en visualisatie van de toegang in real time van uw campagnes van het **[!UICONTROL Last 24hrs]** lusje. [Meer informatie](../reports/live-report.md)
+* **Levende rapporten**: De meting en visualisatie van de toegang in real time van uw campagnes van het **[!UICONTROL Last 24hrs]** lusje. [Meer informatie](../reports/campaign-live-report.md#email-live)
 
-* **de integratie van Customer Journey Analytics**: Voor diepere inzichten, hefboomwerking Customer Journey Analytics om gegevens van Adobe Experience Platform te analyseren en douanevisualisaties tot stand te brengen. [Meer informatie](../reports/report-gs-cja.md)
+* **Al tijdrapporten**: Voor diepgaande inzichten, hefboomwerking Customer Journey Analytics om gegevens van Adobe Experience Platform te analyseren en douanevisualisaties tot stand te brengen. [Meer informatie](../reports/report-gs-cja.md)
 
 ### Doelwaarden
 
 Volg deze belangrijke prestatie-indicatoren tijdens uw opwarmingsproject:
 
-| Metrisch | Doeldrempel | Actie indien overschreden |
+| Metrisch | Doeldrempel | Correctie |
 |--------|-----------------|-------------------|
-| Klachtsnelheid | ≤ 0,1% | Auditsegment en onderdrukken chronische klagers |
-| Harde stuitsnelheid | ≤ 2% | Kwaliteit en hygiënische praktijken van de lijst evalueren |
-| Open rate | ≥ 10% | Controleren of je doelgroep bent |
-
->[!TIP]
->
->Voor uitvoerige campagneanalytica, gebruik het [&#x200B; campagne levende rapport &#x200B;](../reports/campaign-live-report.md#email-live) en [&#x200B; Customer Journey Analytics rapport &#x200B;](../reports/campaign-global-report-cja-email.md) eigenschappen.
+| Klachtsnelheid | ≤ 0,1% | Indien overschreden, controleer segment en onderdruk chronische klagers. |
+| Harde stuitsnelheid | ≤ 2% | Indien overschreden, herzie de kwaliteits- en hygiënepraktijken. |
+| Open rate | ≥ 10% | Als te laag, verifieer u doelgericht betrokken publiek bent. |
 
 ## Problemen met afspeelboek oplossen {#troubleshooting}
 
@@ -110,9 +102,9 @@ Gebruik deze beslissingsmatrix om algemene problemen tijdens uw opwarming aan te
 
 | Symptoom | Waarschijnlijk oorzaak | Aanbevolen actie |
 |---------|--------------|-------------------|
-| Yahoo tijdelijke fouten (421 fouten) | Volume wordt te snel verhoogd | Verzending gedurende 24 uur pauzeren en vervolgens opnieuw starten op de vorige laag |
-| Open rate minder dan 2% op zaadrekeningen | IP VOEGEND OP LIJST VAN GEWENSTE PERSONEN | Controle [&#x200B; PostmasterHulpmiddelen van Google &#x200B;](https://postmaster.google.com/) en [&#x200B; SNDS van Microsoft &#x200B;](https://sendersupport.olc.protection.outlook.com/snds/); open een leverbaarheidskaartje indien nodig |
-| De klachtensnelheid is hoger dan 0,3% | Mis-doelgroep of stijldoelgroep | De segmentdefinities van de controle en sluit chronische klagers van uw [&#x200B; suppressielijst &#x200B;](manage-suppression-list.md) uit |
+| Yahoo tijdelijke fouten (421 fouten) | Volume wordt te snel verhoogd | Het verzenden van de pauze gedurende 24 uren, dan begin bij de vorige rij opnieuw. |
+| Open rate minder dan 2% op zaadrekeningen | IP VOEGEND OP LIJST VAN GEWENSTE PERSONEN | Controle [ de Hulpmiddelen van Postmaster van Google ](https://postmaster.google.com/) en [ SNDS van Microsoft ](https://sendersupport.olc.protection.outlook.com/snds/); open een leverbaarheidskaartje indien nodig. |
+| De klachtensnelheid is hoger dan 0,3% | Mis-doelgroep of stijldoelgroep | De segmentdefinities van de controle en sluit chronische klagers van uw [ suppressielijst ](manage-suppression-list.md) uit. |
 
 >[!IMPORTANT]
 >
@@ -122,29 +114,23 @@ Gebruik deze beslissingsmatrix om algemene problemen tijdens uw opwarming aan te
 
 Zodra u uw warmtingsplan hebt voltooid en de metriek hebben gestabiliseerd:
 
-* **handhaaf consistentie**: houd dagelijkse volumetoename onder 30% week-over-week om uw gevestigde reputatie te bewaren
+* **handhaaf consistentie**: houd dagelijkse volumetoename onder 30% week-over-week om uw gevestigde reputatie te bewaren.
 
-* **Ononderbroken Monitor**: Plan driemaandelijkse controles van de reputatie om kwesties proactief te identificeren en te richten
+* **Ononderbroken Monitor**: Plan driemaandelijkse controles van de reputatie om kwesties proactively te identificeren en te richten.
 
-* **de betrokkenheidssignalen van het Naleving**: Blijf aan betrokken ontvangers voorrang geven en voert re-betrokkenheidscampagnes voor inactieve abonnees uit
+* **respecteer betrokkenheidssignalen**: Ga verder om betrokken ontvangers voorrang te geven en re-engagement campagnes voor inactieve abonnees uit te voeren.
 
-* **houd authentificatie huidig**: Verifieer regelmatig dat uw SPF, DKIM, en verslagen van DMARC behoorlijk gevormd blijven
+* **houd authentificatie huidig**: verifieer regelmatig dat uw SPF, DKIM, en verslagen van DMARC behoorlijk gevormd blijven.
 
 ## Toetsen {#key-takeaways}
 
-* **IP warmte-up is essentieel**: Het overslaan van het warmup proces kost meer tijd en reputatie dan de inspanning wordt vereist om het behoorlijk te doen
+* **IP warmte-up is essentieel**: Het overslaan van het warmup proces kost meer tijd en reputatie dan de inspanning wordt vereist om het behoorlijk te doen.
 
-* **Gegevens-gedreven besluiten**: De klacht van het spoor, stuiteren, en betrokkenheidstarieven dagelijks en passen uw strategie aan alvorens ISPs u bestraft
+* **gegevens-gedreven besluiten**: De klacht van het spoor, stuiteren, en betrokkenheidstarieven dagelijks en passen uw strategie aan alvorens ISPs u bestraft.
 
-* **Authentificatie eerst, volume tweede**: Los alle SPF, DKIM, en de kwesties van DMARC vóór het beginnen om volume op te nemen
+* **Authentificatie eerst, volume tweede**: Los alle SPF, DKIM, en de kwesties van DMARC vóór het beginnen aan platformafzetvolume op.
 
-* **Consistentie doet zich voor**: De leveranciers van de brievenbus begunstigen voorspelbare verzendende patronen; vermijd plotselinge volumepieken of onregelmatige verzendende programma&#39;s
-
-## Hoe kan ik-video {#video}
-
-Leer over leverbaarheidsgrondbeginselen, reputatie het opbouwen, en beste praktijken voor IP warmup in Adobe Journey Optimizer.
-
->[!VIDEO](https://video.tv.adobe.com/v/3463788/?captions=dut&learn=on)
+* **Consistentie doet zich voor**: De leveranciers van de brievenbus gunnen voorspelbare verzendende patronen; vermijd plotselinge volumepieken of onregelmatige verzendende programma&#39;s.
 
 <!--
 >[!NOTE]
@@ -160,5 +146,5 @@ Leer over leverbaarheidsgrondbeginselen, reputatie het opbouwen, en beste prakti
 * [Kanaalconfiguraties instellen](channel-surfaces.md)
 * [Subdomeinen delegeren](delegate-subdomain.md)
 * [Onderdrukkingslijst beheren](manage-suppression-list.md)
-* {de Gids van de Beste praktijken van 0} Levering [&#128279;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl)
+* {de Gids van de Beste praktijken van 0} Levering [](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl)
 

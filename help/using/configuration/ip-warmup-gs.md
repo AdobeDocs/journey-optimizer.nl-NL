@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP, leverbaarheid
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: b1b9b34aec305d6690d93e68238aed852ef689b7
+source-git-commit: 5dd6ebadd7b8c7490cb10496282697ce32ff3693
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '365'
 ht-degree: 2%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 2%
 
 Met [!DNL Journey Optimizer] kunt u gemakkelijk IP warmteopwerkschema&#39;s direct van het gebruikersinterface op een gestandaardiseerde en efficiënte manier uitvoeren die de beste praktijken voor optimale leverbaarheid volgt. Wanneer e-mails met een nieuw platform worden verzonden, zijn internetproviders (ISP&#39;s) verdacht van IP-adressen die niet worden herkend. Als er plotseling grote hoeveelheden e-mails worden verzonden, markeren de ISP&#39;s deze vaak als spam.
 
-Als u wilt voorkomen dat spam wordt gemarkeerd, kunt u het verzonden volume progressief verhogen met de functie voor het IP-opwarmingsplan. Met deze nieuwe optie in het menu **[!UICONTROL Administration]** kunt u het eenvoudiger op geconsolideerde wijze doen in plaats van complexe dagelijkse reizen te maken.
+Als u wilt voorkomen dat spam wordt gemarkeerd, kunt u het verzonden volume progressief verhogen met de functie voor het IP-opwarmingsplan. Met deze nieuwe optie in het menu **[!UICONTROL Administration]** kunt u het volumebeheer automatiseren en het opwarmingsproces vereenvoudigen zonder complexe reisconfiguraties te vereisen.
 
 >[!NOTE]
 >
->Alvorens uw IP warmup plan uit te voeren, leer over leverbaarheidsgrondbeginselen, reputatie het bouwen, en beste praktijken in deze [&#x200B; IP gids van de warmup leverbaarheid &#x200B;](ip-warmup-deliverability-guide.md).
+>Alvorens uw IP warmup plan uit te voeren, leer over leverbaarheidsgrondbeginselen, reputatie het bouwen, en beste praktijken in deze [ IP gids van de warmup leverbaarheid ](ip-warmup-deliverability-guide.md).
 
-➡️ [&#x200B; Leer om een IP warmup plan in deze video tot stand te brengen en uit te voeren &#x200B;](#video)
+➡️ [ Leer om een IP warmup plan in deze video tot stand te brengen en uit te voeren ](#video)
 
 >[!AVAILABILITY]
 >
@@ -56,20 +56,20 @@ De belangrijkste stappen om een IP opwarmingsplan uit te voeren zijn als volgt:
 
 Leer hoe te om een IP warmlopingsplan tot stand te brengen en uit te voeren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453846/?captions=dut&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
 
 >[!NOTE]
 >
->Leer meer over het verhogen van uw e-mailreputatie met IP opwarmen in de [&#x200B; Gids van de Beste praktijken van de Levering &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=nl-NL).
+>Leer meer over het verhogen van uw e-mailreputatie met IP opwarmen in de [ Gids van de Beste praktijken van de Levering ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html).
 
 ## Aanvullende bronnen {#additional-resources}
 
 Ontdek deze nuttige blogberichten voor meer diepgaande begeleiding op IP warmup:
 
-* [&#x200B; Gids van de Leverbaarheid van Adobe Journey Optimizer: Van Nul Reputation aan Hero Inbox &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950) - Uitgebreide gids die reputatie fundamentals, warmup kalenders, controle, en het oplossen van problemenbeste praktijken behandelt.
+* [ Gids van de Leverbaarheid van Adobe Journey Optimizer: Van Nul Reputation aan Hero Inbox ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950) - Uitgebreide gids die reputatie fundamentals, warmup kalenders, controle, en het oplossen van problemenbeste praktijken behandelt.
 
-* [&#x200B; Begrijpend hoe te opstelling de IP warmte &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949) - leer de grondbeginselen van opstellingsIP opwarmingsplannen en beste praktijken voor een succesvolle implementatie.
+* [ Begrijpend hoe te opstelling de IP warmte ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949) - leer de grondbeginselen van opstellingsIP opwarmingsplannen en beste praktijken voor een succesvolle implementatie.
 
-* [&#x200B; Geavanceerde eigenschappen in IP warm-up plannen &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958) - ontdek geavanceerde mogelijkheden en granulaire controles voor het optimaliseren van uw IP-opwarmingsstrategie.
+* [ Geavanceerde eigenschappen in IP warm-up plannen ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958) - ontdek geavanceerde mogelijkheden en granulaire controles voor het optimaliseren van uw IP-opwarmingsstrategie.
 
-* [&#x200B; IP warm-up het oplossen van problemen &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952) - vind oplossingen aan gemeenschappelijke kwesties zoals publieksvertragingen en leer over slimme heruitzettingsmechanismen.
+* [ IP warm-up het oplossen van problemen ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952) - vind oplossingen aan gemeenschappelijke kwesties zoals publieksvertragingen en leer over slimme heruitzettingsmechanismen.
