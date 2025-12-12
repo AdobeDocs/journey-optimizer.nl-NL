@@ -159,7 +159,7 @@ Implementeer technische integratie die Journey Optimizer verbindt met uw toepass
 
 **Begin met:** integreer Mobiele of SDK van het Web, dan voer uw eerste gebeurtenis uit om een reis teweeg te brengen.
 
-[ krijgen Begonnen als Ontwikkelaar → ](path/developer.md)
+[&#x200B; krijgen Begonnen als Ontwikkelaar → &#x200B;](path/developer.md)
 
 ## Cross-Role Collaboration
 
@@ -184,18 +184,18 @@ Verken de volgende bronnen voor diepgaander leren en updates:
 
 **het Leren &amp; Documentatie:**
 
-* [ Video&#39;s van het Leerprogramma ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html){target="_blank"} - geleidelijke videoleerprogramma&#39;s voor alle rollen
-* [ de Gevallen van het Gebruik van de Reis Bibliotheek ](../building-journeys/jo-use-cases.md) - Praktische voorbeelden en implementatiepatronen
-* [ AI &amp; Intelligente Eigenschappen ](ai-features.md) - leer over Medewerker AI, send-time optimalisering, en inhoudsgeneratie
-* [ Gids van het Gebruikersinterface ](user-interface.md) - navigeer effectief Journey Optimizer
+* [&#x200B; Video&#39;s van het Leerprogramma &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html){target="_blank"} - geleidelijke videoleerprogramma&#39;s voor alle rollen
+* [&#x200B; de Gevallen van het Gebruik van de Reis Bibliotheek &#x200B;](../building-journeys/jo-use-cases.md) - Praktische voorbeelden en implementatiepatronen
+* [&#x200B; AI &amp; Intelligente Eigenschappen &#x200B;](ai-features.md) - leer over Medewerker AI, send-time optimalisering, en inhoudsgeneratie
+* [&#x200B; Gids van het Gebruikersinterface &#x200B;](user-interface.md) - navigeer effectief Journey Optimizer
 
 **blijven bijgewerkt:**
 
-* [ Nota&#39;s van de Versie ](../rn/release-notes.md) - de Meest recente eigenschappen, de verbeteringen, en moeilijke situaties
-* [ Updates van de Documentatie ](../rn/documentation-updates.md) - de recente documentatieveranderingen van het spoor
-* [ Berichten van het Product ](../rn/releases.md#staying-informed) - Leer hoe te aan e-mail en in-productalarm voor de updates van Journey Optimizer in te schrijven
+* [&#x200B; Nota&#39;s van de Versie &#x200B;](../rn/release-notes.md) - de Meest recente eigenschappen, de verbeteringen, en moeilijke situaties
+* [&#x200B; Updates van de Documentatie &#x200B;](../rn/documentation-updates.md) - de recente documentatieveranderingen van het spoor
+* [&#x200B; Berichten van het Product &#x200B;](../rn/releases.md#staying-informed) - Leer hoe te aan e-mail en in-productalarm voor de updates van Journey Optimizer in te schrijven
 
 **Gemeenschap &amp; Steun:**
 
-* [ Gemeenschap van Experience League ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - verbind met andere gebruikers en deskundigen
-* [ Forum van het Product ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - stel vragen en deel kennis
+* [&#x200B; Gemeenschap van Experience League &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - verbind met andere gebruikers en deskundigen
+* [&#x200B; Forum van het Product &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - stel vragen en deel kennis
