@@ -140,8 +140,8 @@ Leer praktische voorbeelden die de mogelijkheden van Journey Optimizer demonstre
 
 **de gebruiksgevallen van de Reis** (real time, één-aan-één):
 
-* **Welkome reeksen**: Aan boord nieuwe klanten met gepersonaliseerde, multi-step reizen. [&#x200B; het gebruiksgeval van de Mening &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)
-* **Verlaten kartterugwinning**: Draai klanten opnieuw in dienst die punten in hun kar verlieten. [&#x200B; het gebruiksgeval van de Mening &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)
+* **Welkome reeksen**: Aan boord nieuwe klanten met gepersonaliseerde, multi-step reizen. [&#x200B; het gebruiksgeval van de Mening &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)
+* **Verlaten kartterugwinning**: Draai klanten opnieuw in dienst die punten in hun kar verlieten. [&#x200B; het gebruiksgeval van de Mening &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)
 * **Event-gedreven overseinen**: Reageer aan klantenacties in real time
 * **campagnes van de Verjaardag**: Verzend gepersonaliseerde verjaardagsberichten die door profieldata worden teweeggebracht
 * **Aanbevelingen van het Product**: Suggestie relevante producten die op het doorbladeren en aankoopgeschiedenis worden gebaseerd
@@ -153,7 +153,7 @@ Leer praktische voorbeelden die de mogelijkheden van Journey Optimizer demonstre
 * **het programma van de Loyalty biedt** aan: Beloon klanten van hoge waarde met gelaagde aanbiedingen die op aankoopgeschiedenis worden gebaseerd
 * **op rekening-gebaseerde marketing**: De rekeningen van het doel met specifieke kenmerken en verwante contacten
 * **de vernieuwingen van het Abonnement**: Bereik klanten met abonnementen die binnenkort gebruikend multi-entiteitvragen verlopen
-* **campagnes van de re-overeenkomst**: De achterzijde van Win inactieve klanten met gerichte aanbiedingen op partijwijze. [&#x200B; het gebruiksgeval van de Mening &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)
+* **campagnes van de re-overeenkomst**: De achterzijde van Win inactieve klanten met gerichte aanbiedingen op partijwijze. [&#x200B; het gebruiksgeval van de Mening &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)
 
 **patronen van de Reis:**
 
@@ -184,4 +184,4 @@ Houd up-to-date met de nieuwste Journey Optimizer-mogelijkheden en marketingfunc
 1. **Begin klein**: Creeer een eenvoudige welkome reis of enig-bericht campagne om het platform te leren
 2. **AI van de Leverage van 0&rbrace;: De Medewerker van AI van het gebruik om vragen te stellen en inhoudsverwezenlijking te versnellen**
 3. **sluit zich aan bij de gemeenschap**: Verbind met andere gebruikers van Journey Optimizer in de [&#x200B; Gemeenschap van Experience League &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
-4. **Onderzoek leerprogramma&#39;s**: Bekijk geleidelijke video&#39;s op [&#x200B; Experience League &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html){target="_blank"}
+4. **Onderzoek leerprogramma&#39;s**: Bekijk geleidelijke video&#39;s op [&#x200B; Experience League &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=nl-NL){target="_blank"}

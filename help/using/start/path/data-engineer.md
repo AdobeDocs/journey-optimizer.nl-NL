@@ -20,7 +20,7 @@ Als a **Architect van Gegevens** of **Ingenieur van Gegevens**, plaatst u en han
 
 >[!NOTE]
 >
->Leer meer over **gegevensopname** in [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html){target="_blank"}.
+>Leer meer over **gegevensopname** in [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=nl-NL){target="_blank"}.
 
 ## Essentiële stappen voor gegevensconfiguratie
 
