@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: landen, landingspagina, lijst, abonnement, service
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 1aa2ac109cdbf0ba6af58204926f1cd5add334b0
+source-git-commit: c18f6f450bdc37f7ffbe87befb8601a920e46171
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '708'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 >id="ajo_subscription_list"
 >title="Een abonnementenlijst instellen"
 >abstract="Een abonnementenlijst maken om profielen te verzamelen die zich hebben aangemeld voor het ontvangen van communicatie over een specifiek onderwerp of een specifieke gebeurtenis. "
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html?lang=nl-NL#define-subscription-list" text="Een lidmaatschapslijst maken"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html#define-subscription-list" text="Een lidmaatschapslijst maken"
 
 Een abonnementsdienst heeft betrekking op marketinggoederen en -diensten die worden geleverd aan klanten die ervoor hebben gekozen communicatie over een specifiek onderwerp/evenement/belang/enz. te ontvangen. doorlopend. In [!DNL Journey Optimizer] worden deze gekozen klanten verzameld in een abonnementenlijst.
 
@@ -34,9 +34,13 @@ U kunt een abonnementenservice gebruiken voor:
 * een belang bij een bepaald product/een bepaalde sport/dienst/enz., bijvoorbeeld: &quot;Interessant om in de komende twaalf maanden een huis te kopen&quot;
 * een voorkeur voor het melden van nieuwe nummers, bijvoorbeeld: &quot;Ontvang nieuwe berichten over nummers via e-mail&quot;
 
-De profielen kunnen aan een abonnementenlijst door a [&#x200B; worden toegevoegd landend pagina &#x200B;](create-lp.md). Een voorbeeld wordt voorgesteld in [&#x200B; deze sectie &#x200B;](lp-use-cases.md#subscription-to-a-service).
+De profielen kunnen aan een abonnementenlijst door a [ worden toegevoegd landend pagina ](create-lp.md). Een voorbeeld wordt voorgesteld in [ deze sectie ](lp-use-cases.md#subscription-to-a-service).
 
 ## Een lidmaatschapslijst maken {#define-subscription-list}
+
+>[!NOTE]
+>
+>Wanneer u een abonnementlijst maakt, wordt automatisch een bijbehorend streamingsegment gegenereerd in Adobe Experience Platform. Voor het stromen segment dat met succes moet worden gecreeerd, moet het fusiebeleid **actief-op-Edge** toegelaten optie hebben. Leer meer over het stromen segmentgeschiktheidscriteria in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation).
 
 Voer de onderstaande stappen uit om een abonnementenlijst te maken.
 
@@ -80,7 +84,7 @@ Zodra de abonnementenlijst wordt gecreeerd, kunt u:
 
   Wanneer een klant zich bijvoorbeeld abonneert op een streamingservice, kan deze de directe verzending van een welkomste-mailreeks activeren, zodat deze zich voor het eerst bij de app kan aanmelden en zijn weergavevoorkeuren kan instellen.
 
-Leer hoe te om uw abonnementenlijst in [&#x200B; te gebruiken dit gebruiksgeval &#x200B;](lp-use-cases.md#subscription-to-a-service).
+Leer hoe te om uw abonnementenlijst in [ te gebruiken dit gebruiksgeval ](lp-use-cases.md#subscription-to-a-service).
 
 
 ## Door uw abonnementenlijsten bladeren {#browse-subscription-lists}
