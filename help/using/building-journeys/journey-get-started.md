@@ -29,9 +29,9 @@ Gebruik [!DNL Journey Optimizer] om in real time orchestratiefase samen te stell
 
 De de reisontwerper van Journey Optimizer verstrekt alles Marketers en reisartsen moeten multi-step 1 :1 reizen over kanalen organiseren. Dit omvat een intuïtief belemmering-en-dalingscanvas om elke stap van de reis te ordenen, het doelpubliek te bepalen, en de berichten, de aanbiedingen, en de inhoud te omvatten over kanalen die doelpublieksleden gebaseerd op gedrag, contextuele gegevens, en bedrijfsgebeurtenissen zullen zien.
 
-![ de ontwerperinterface van de Reis met palet, canvas, en eigenschappenruit ](assets/journey38.png)
+![&#x200B; de ontwerperinterface van de Reis met palet, canvas, en eigenschappenruit &#x200B;](assets/journey38.png)
 
-**klaar om te beginnen met bouwen?** Leer hoe te om uw eerste reis op [ te creëren en te ontwerpen deze pagina ](journey-gs.md).
+**klaar om te beginnen met bouwen?** Leer hoe te om uw eerste reis op [&#x200B; te creëren en te ontwerpen deze pagina &#x200B;](journey-gs.md).
 
 ## Aan de slag met reizen {#section-getting-started}
 
@@ -43,25 +43,25 @@ Onderzoek de belangrijkste gebieden om de reisorkest in Adobe Journey Optimizer 
 
 Leer hoe u uw eerste reis helemaal vanaf het begin kunt maken en ontwerpen, zoals gebeurtenissen instellen, activiteiten toevoegen en testen voordat u gaat publiceren.
 
-[![ leer meer ](../assets/do-not-localize/learn-more-button.svg)](journey-gs.md)
+[![&#x200B; leer meer &#x200B;](../assets/do-not-localize/learn-more-button.svg)](journey-gs.md)
 
 >[!TAB Belangrijkste mogelijkheden]
 
 Ontdek wat u kunt doen met reizen: levering in real time, contextuele gegevens, ingebouwde en aangepaste acties, visuele ontwerper en testmogelijkheden.
 
-[![ leer meer ](../assets/do-not-localize/learn-more-button.svg)](#capabilities)
+[![&#x200B; leer meer &#x200B;](../assets/do-not-localize/learn-more-button.svg)](#capabilities)
 
 >[!TAB Gebruiksscenario’s]
 
 Ontdek voorbeelden van echte reizen, zoals welkome e e-mails, optimalisatie van verzendtijd, oplaadbeurten en het aansturen van weekdagen.
 
-[![ leer meer ](../assets/do-not-localize/learn-more-button.svg)](#use-cases)
+[![&#x200B; leer meer &#x200B;](../assets/do-not-localize/learn-more-button.svg)](#use-cases)
 
 >[!TAB  Lerende middelen ]
 
 Toegang tot videozelfstudies, stapsgewijze handleidingen en documentatie voor het maken en oplossen van problemen tijdens de masterreis.
 
-[![ leer meer ](../assets/do-not-localize/learn-more-button.svg)](#learning-resources)
+[![&#x200B; leer meer &#x200B;](../assets/do-not-localize/learn-more-button.svg)](#learning-resources)
 
 >[!ENDTABS]
 
@@ -70,7 +70,7 @@ Toegang tot videozelfstudies, stapsgewijze handleidingen en documentatie voor he
 :::: landing-cards-container
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Real-time &amp; partijlevering**
 
@@ -80,7 +80,7 @@ Verzend in real time **unitaire levering** teweeggebracht wanneer een gebeurteni
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Contextafhankelijke gegevens**
 
@@ -90,7 +90,7 @@ Gebruik **contextafhankelijke gegevens** van gebeurtenissen, informatie van Adob
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Ingebouwde acties**
 
@@ -100,7 +100,7 @@ Gebruik **ingebouwde kanaalacties** om berichten te verzenden die in [!DNL Journ
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **de acties van de Douane**
 
@@ -110,7 +110,7 @@ Creeer **douaneacties** als u een derdesysteem gebruikt om uw berichten te verze
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/layout.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/layout.svg)
 
 **Visuele reisontwerper**
 
@@ -120,7 +120,7 @@ Met de **reisontwerper**, bouwt uw multi-step gebruiksgevallen: sleep en laat ge
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Test &amp; optimaliseer**
 
@@ -133,14 +133,14 @@ Test uw reizen voordat u gaat publiceren, controleer de prestaties ervan en opti
 
 ## Gebruik voorbeelden en gevallen {#use-cases}
 
-Van binnen de reisontwerper, kunnen de marketers in real time teweeggebrachte 1 :1 berichten door om het even welk kanaal verzenden wanneer een gebeurtenis voorkomt. Bijvoorbeeld, wanneer een klant aan de dienst intekent, kan het [ welkome e-mail ](message-to-subscribers-uc.md) teweegbrengen, die hen aanmoedigen om in app voor het eerst te registreren en hun voorkeur te plaatsen. Handelingen als het voltooien van de aankoop, het openen van de e-mail en het aanmelden bij de app kunnen worden gebruikt om nieuwe klanten door hun reizen te leiden.
+Van binnen de reisontwerper, kunnen de marketers in real time teweeggebrachte 1 :1 berichten door om het even welk kanaal verzenden wanneer een gebeurtenis voorkomt. Bijvoorbeeld, wanneer een klant aan de dienst intekent, kan het [&#x200B; welkome e-mail &#x200B;](message-to-subscribers-uc.md) teweegbrengen, die hen aanmoedigen om in app voor het eerst te registreren en hun voorkeur te plaatsen. Handelingen als het voltooien van de aankoop, het openen van de e-mail en het aanmelden bij de app kunnen worden gebruikt om nieuwe klanten door hun reizen te leiden.
 
-De [ reisontwerper ](using-the-journey-designer.md) verstrekt [ ingebouwde kanaalacties ](journeys-message.md) die uitgaande berichten, zoals e-mail, dupberichten, en SMS/MMS, evenals binnenkomende kanalen, met inbegrip van mobiele apps, websites, en code-gebaseerde ervaringen steunen die direct binnen Journey Optimizer worden gebouwd. U kunt derdesystemen ook gebruiken om berichten te verzenden — Journey Optimizer omvat [ douaneacties ](using-custom-actions.md) om deze systemen toe te staan om in reizen direct van de reisontwerper worden geïntegreerd.
+De [&#x200B; reisontwerper &#x200B;](using-the-journey-designer.md) verstrekt [&#x200B; ingebouwde kanaalacties &#x200B;](journeys-message.md) die uitgaande berichten, zoals e-mail, dupberichten, en SMS/MMS, evenals binnenkomende kanalen, met inbegrip van mobiele apps, websites, en code-gebaseerde ervaringen steunen die direct binnen Journey Optimizer worden gebouwd. U kunt derdesystemen ook gebruiken om berichten te verzenden — Journey Optimizer omvat [&#x200B; douaneacties &#x200B;](using-custom-actions.md) om deze systemen toe te staan om in reizen direct van de reisontwerper worden geïntegreerd.
 
 :::: landing-cards-container
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Onthaal nieuwe abonnees**
 
@@ -150,7 +150,7 @@ Verzend een persoonlijke welkomstreis wanneer klanten zich abonneren op uw servi
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **optimaliseer e-mail verzendt tijden**
 
@@ -160,7 +160,7 @@ Gebruik door AI aangedreven send-time optimalisering om e-mail te leveren wannee
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Ramp omhoog leveranties**
 
@@ -170,7 +170,7 @@ Verhoog geleidelijk het berichtvolume om uw verzendende reputatie op te warmen e
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Doel tegen weekdag**
 
@@ -180,7 +180,7 @@ Verstuur andere inhoud op de dag van de week die klanten uw reis ingaan.
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Leer door gebruiksgevallen**
 
@@ -190,7 +190,7 @@ Verken uitgebreide, end-to-end gevallen van het reisgebruik die real-world imple
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 **Veelgestelde vragen van de Reis**
 
@@ -203,24 +203,24 @@ Vind antwoorden op vaak gestelde vragen over het bouwen van de reis, het oplosse
 
 >[!NOTE]
 >
->De de gidsen en beperkingen van de reis zijn gedetailleerd op [ deze pagina ](../start/guardrails.md)
+>De de gidsen en beperkingen van de reis zijn gedetailleerd op [&#x200B; deze pagina &#x200B;](../start/guardrails.md)
 
 ## Leermiddelen {#learning-resources}
 
 :::: landing-cards-container
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 **creeer en beheer reizen**
 
 Stapsgewijze begeleiding bij het ontwerpen, testen, publiceren en volgen van klantentreizen om gepersonaliseerde omnichannel campagnes te bouwen.
 
-[ verken reisverwezenlijking ](/help/rp_landing_pages/create-journey-landing-page.md) | [ leer reisbeheer ](/help/rp_landing_pages/manage-journey-landing-page.md)
+[&#x200B; verken reisverwezenlijking &#x200B;](/help/rp_landing_pages/create-journey-landing-page.md) | [&#x200B; leer reisbeheer &#x200B;](/help/rp_landing_pages/manage-journey-landing-page.md)
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **de activiteiten van de Reis**
 
@@ -230,7 +230,7 @@ Ontdek hoe u activiteiten zoals triggers, beslissingsstappen, publieksbeheer en 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Uitdrukkingen &amp; voorwaarden**
 
@@ -240,7 +240,7 @@ Masterexpressies maken voor dynamische workflows, gegevensmanipulatie en geavanc
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 **problemen oplossen en controleren**
 
@@ -250,7 +250,7 @@ Problemen met de uitvoering van de reis diagnostiseren en oplossen met gereedsch
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Overzicht van de ontwerper van de Reis**
 
@@ -260,7 +260,7 @@ Begrijp het reiscanvas, palet, en hoe te om uw klantenreizen te ontwerpen gebrui
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Test &amp; publiceer**
 
@@ -282,5 +282,5 @@ Ontdek de onderdelen van een reis en begrijp de grondbeginselen van het maken va
 * **[Verwijzing van de codes van de Fout](error-codes-reference.md)** - de codes van de de foutenfout van de Reis en het oplossen van problemenstappen
 * **[Alarm](../reports/alerts.md)** - de alarm van de opstelling voor reis controle
 * **[het Oplossen van problemen](troubleshooting.md)** - Gemeenschappelijke reiskwesties en oplossingen
-* **[Zelfstudies van de Reis ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - leer reis die door hands-on videoleerprogramma&#39;s bouwt
+* **[Zelfstudies van de Reis &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - leer reis die door hands-on videoleerprogramma&#39;s bouwt
 
