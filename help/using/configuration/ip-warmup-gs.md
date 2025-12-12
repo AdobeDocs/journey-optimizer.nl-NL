@@ -56,7 +56,7 @@ De belangrijkste stappen om een IP opwarmingsplan uit te voeren zijn als volgt:
 
 Leer hoe te om een IP warmlopingsplan tot stand te brengen en uit te voeren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3453846/?captions=dut&learn=on)
 
 >[!NOTE]
 >
