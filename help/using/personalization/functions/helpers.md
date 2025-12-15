@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 1%
@@ -64,7 +64,7 @@ De instructie `elseif` geeft een nieuwe voorwaarde op die moet worden getest als
    {%#if profile.homeAddress.countryCode = "FR"%}
    <a href="https://www.somedomain.com/fr">Consultez notre catalogue</a>
    {%else%}
-   <a href="https://www.somedomain.com/en">Checkout our catalogue</a>
+   <a href="https://www.somedomain.com/en">Checkout our catalog</a>
    {%/if%}
    ```
 
@@ -106,7 +106,7 @@ De instructie `elseif` geeft een nieuwe voorwaarde op die moet worden getest als
 
 >[!NOTE]
 >
->Meer over publiek en de segmentatieservice leren, verwijs naar [&#x200B; deze sectie &#x200B;](../../audience/about-audiences.md).
+>Meer over publiek en de segmentatieservice leren, verwijs naar [ deze sectie ](../../audience/about-audiences.md).
 
 
 ## Tenzij{#unless}
@@ -165,7 +165,7 @@ Een lijst met producten weergeven die deze gebruiker in zijn winkelwagentje heef
 
 >[!NOTE]
 >
->U kunt de `each` helper ook gebruiken om arrays die uit aangepaste handelingsreacties zijn geretourneerd, te doorlopen. Voor een voorbeeld om over genestelde series van een reactie van de douaneactie te herhalen, zie [&#x200B; Gebruikend de reacties van de douaneactie in inheemse kanalen &#x200B;](../../action/action-response.md#response-in-channels).
+>U kunt de `each` helper ook gebruiken om arrays die uit aangepaste handelingsreacties zijn geretourneerd, te doorlopen. Voor een voorbeeld om over genestelde series van een reactie van de douaneactie te herhalen, zie [ Gebruikend de reacties van de douaneactie in inheemse kanalen ](../../action/action-response.md#response-in-channels).
 
 ## Met{#with}
 
@@ -238,7 +238,7 @@ Met deze functie kunt u contextafhankelijke informatie toevoegen aan elke native
 
 >[!NOTE]
 >
->De functie van Meta-gegevens van de Uitvoering wordt niet gesteund door [&#x200B; douaneacties &#x200B;](../../action/action.md).
+>De functie van Meta-gegevens van de Uitvoering wordt niet gesteund door [ douaneacties ](../../action/action.md).
 
 U kunt bijvoorbeeld de functie Metagegevens uitvoeren gebruiken om een specifieke id toe te voegen aan elke levering die naar elk profiel wordt verzonden. Deze informatie wordt tijdens runtime gegenereerd en de verrijkte metagegevens voor uitvoering kunnen vervolgens worden geëxporteerd voor afstemming op een extern rapportageplatform.
 
@@ -267,7 +267,7 @@ Tijdens runtime wordt de metagegevenswaarde toegevoegd aan de bestaande **[!UICO
 
 >[!NOTE]
 >
->Leer meer op datasets in [&#x200B; deze sectie &#x200B;](../../data/get-started-datasets.md).
+>Leer meer op datasets in [ deze sectie ](../../data/get-started-datasets.md).
 
 **Beperking**
 
