@@ -57,13 +57,13 @@ Laten wij zeggen u uw klanten door reizen en campagnes wilt richten die op hun c
    >
    >De toestemming van de klant en de contactvoorkeur zijn complexe onderwerpen. Als u wilt weten hoe toestemmings- en contextvoorkeuren kunnen worden verzameld, verwerkt en gefilterd in [!DNL Experience Platform] , kunt u het beste de volgende documenten lezen:
    >
-   >* Om over de groepen van het schemagebied te leren die worden vereist om toestemmingsgegevens te verzamelen, verwijs naar [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Het details hoe te om toestemmingsgegevens te verwerken u van uw klanten hebt verzameld en het in uw opgeslagen klantenprofielen te integreren.
-   >* Om meer op de het gebiedsgroep van de Toestemming en van de Voorkeur te leren, verwijs naar [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
-   >* Om de gebieden van de douanevoorkeur aan het schema toe te voegen, volg de stappen in [&#x200B; deze sectie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}.
+   >* Om over de groepen van het schemagebied te leren die worden vereist om toestemmingsgegevens te verzamelen, verwijs naar [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Het details hoe te om toestemmingsgegevens te verwerken u van uw klanten hebt verzameld en het in uw opgeslagen klantenprofielen te integreren.
+   >* Om meer op de het gebiedsgroep van de Toestemming en van de Voorkeur te leren, verwijs naar [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
+   >* Om de gebieden van de douanevoorkeur aan het schema toe te voegen, volg de stappen in [&#x200B; deze sectie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}.
 
 1. Maak een pagina om de voorkeuren van uw klanten vast te leggen. Gebruik een van de volgende methoden:
 
-   * Creeer een Web-pagina om de voorkeur van uw klanten te registreren gebruikend het [&#x200B; Web SDK van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home){target="_blank"}.
+   * Creeer een Web-pagina om de voorkeur van uw klanten te registreren gebruikend het [&#x200B; Web SDK van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/home){target="_blank"}.
 
    * Gebruik a [!DNL Journey Optimizer] [&#x200B; landende pagina &#x200B;](../landing-pages/create-lp.md) die vormen omvat om de voorkeur van uw klanten door profielgegevens te vangen.  [&#x200B; Leer meer op vormen &#x200B;](../landing-pages/lp-forms.md) <!--Forms not released/announced yet - TBC-->
 
@@ -91,7 +91,7 @@ Laten wij zeggen u uw klanten door reizen en campagnes wilt richten die op hun c
     > 
     >De inkomende toestemmingsgebeurtenissen voeren in het klantenprofiel in, die updates in real time verzekeren. Elk profiel weerspiegelt hun meest recente keuzes in de abonnementsvoorkeuren.
 
-1. Maak in Adobe Experience Platform een aangepast beleid (via het menu **[!UICONTROL Privacy]** > **[!UICONTROL Policies]** ). [&#x200B; leer hoe &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#create-policy){target="_blank"}
+1. Maak in Adobe Experience Platform een aangepast beleid (via het menu **[!UICONTROL Privacy]** > **[!UICONTROL Policies]** ). [&#x200B; leer hoe &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=nl-NL#create-policy){target="_blank"}
 
    >[!AVAILABILITY]
    >
@@ -99,7 +99,7 @@ Laten wij zeggen u uw klanten door reizen en campagnes wilt richten die op hun c
 
    Om gebruik te kunnen maken van toestemmingsbeleid, moeten voorkeurattributen in de profielgegevens aanwezig zijn. Daarom moet u deze kenmerken definiëren op profielniveau (zoals beschreven in stap 1).
 
-1. Kies het type **[!UICONTROL Consent policy]** en configureer een voorwaarde als volgt. [&#x200B; leer hoe te om toestemmingsbeleid te vormen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy){target="_blank"}
+1. Kies het type **[!UICONTROL Consent policy]** en configureer een voorwaarde als volgt. [&#x200B; leer hoe te om toestemmingsbeleid te vormen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=nl-NL#consent-policy){target="_blank"}
 
 <!--Consent policies are comprised of two logical components:
 
