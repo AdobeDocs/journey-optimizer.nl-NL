@@ -10,10 +10,10 @@ level: Intermediate, Experienced
 keywords: reis, gebruiksgeval, bericht, abonnees, lijst, gelezen
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 52126b42ff400a355db9c75afde0c86059daf164
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 2%
+source-wordcount: '330'
+ht-degree: 1%
 
 ---
 
@@ -23,17 +23,17 @@ Het doel van dit gebruiksgeval is een reis tot stand te brengen om een bericht n
 
 In dit voorbeeld wordt de veldgroep **[!UICONTROL Consent and Preference Details]** van [!DNL Adobe Experience Platform] gebruikt. Kies **[!UICONTROL Data Management]** in het menu **[!UICONTROL Schemas]** om deze veldgroep te zoeken. Typ op het tabblad **[!UICONTROL Field groups]** de naam van de veldgroep in het zoekveld.
 
-![&#x200B; Deze gebiedsgroep omvat het abonnementselement &#x200B;](assets/consent-and-preference-details-field-group.png)
+![ Deze gebiedsgroep omvat het abonnementselement ](assets/consent-and-preference-details-field-group.png)
 
 Om deze reis te vormen, volg deze stappen:
 
-1. Maak een reis die begint met een **[!UICONTROL Read]** -activiteit. [Meer informatie](journey-gs.md).
-1. Voeg een **[!UICONTROL Email]** actieactiviteit aan de reis toe. [Meer informatie](journeys-message.md).
+1. Maak een reis die begint met een **[!UICONTROL Read]** -activiteit. Leer meer in [ creeer uw eerste reis ](journey-gs.md).
+1. Voeg een **[!UICONTROL Email]** actieactiviteit aan de reis toe. Leer hoe te [ met kanaalacties ](journeys-message.md) werken.
 1. Vervang in de sectie **[!UICONTROL Email parameters]** van de **[!UICONTROL Email]** activity-instellingen het standaard-e-mailadres ( `PersonalEmail.adress` ) door het e-mailadres van de abonnees van de lijst:
 
    1. Klik op het pictogram **[!UICONTROL Enable parameter override]** rechts van het veld **[!UICONTROL Address]** en klik vervolgens op het pictogram **[!UICONTROL Edit]** .
 
-      ![&#x200B; de stroom van de Reis met Gelezen Publiek voor abonneelijst richtend &#x200B;](assets/message-to-subscribers-uc-1.png)
+      ![ de stroom van de Reis met Gelezen Publiek voor abonneelijst richtend ](assets/message-to-subscribers-uc-1.png)
 
    1. Voer in de expressieeditor de expressie in om de e-mailadressen van de abonnees op te halen. [Meer informatie](expression/expressionadvanced.md).
 
@@ -52,9 +52,9 @@ Om deze reis te vormen, volg deze stappen:
 
       In dit voorbeeld heeft de abonnementenlijst de naam `daily-email` . E-mailadressen worden gedefinieerd als sleutels in de `subscribers` -kaart, die is gekoppeld aan de abonnementenlijstkaart.
 
-      Lees meer over [&#x200B; verwijzingen naar gebieden &#x200B;](expression/field-references.md) in uitdrukkingen.
+      Lees meer over [ verwijzingen naar gebieden ](expression/field-references.md) in uitdrukkingen.
 
-      ![&#x200B; E-mailconfiguratie met gepersonaliseerde inhoud voor abonnees &#x200B;](assets/message-to-subscribers-uc-2.png)
+      ![ E-mailconfiguratie met gepersonaliseerde inhoud voor abonnees ](assets/message-to-subscribers-uc-2.png)
 
    1. Klik in het dialoogvenster **[!UICONTROL Add an expression]** op **[!UICONTROL Ok]** .
 
