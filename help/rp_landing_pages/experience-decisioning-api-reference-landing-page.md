@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_20-54-39
 hide: true
 hidefromtoc: true
 exl-id: 0111453f-c704-40c1-9e74-2320b125ee92
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: e90be67288245fbf8e3794c6e554016e3f5997f4
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 0%
@@ -22,13 +22,13 @@ Met het Adobe Journey Optimizer Code-Based Experience Channel kunt u op maat gep
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Aanbiedingen leveren met het op code-Gebaseerde Kanaal van de Ervaring
 
 Leer hoe u persoonlijke aanbiedingen kunt aanbieden met client-side, server-side of hybride implementaties met het op code-gebaseerde Experience-kanaal in Adobe Journey Optimizer.
 
-[Implementatiemethoden verkennen](../using/experience-decisioning/api-reference/deliver.md)
+[Implementatiemethoden verkennen](../using/experience-decisioning/use-decision-policy.md)
 :::
 
 ::::
