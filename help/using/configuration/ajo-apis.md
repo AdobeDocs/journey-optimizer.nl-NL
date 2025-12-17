@@ -22,8 +22,8 @@ ht-degree: 0%
 >
 >**worden begonnen met Journey Optimizer APIs:**
 >
->* **[doorblader de volledige API verwijzing ](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}** - heb toegang tot alle Journey Optimizer APIs en test hen direct
->* **[de authentificatie van de opstelling ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}** - verzamel vereiste geloofsbrieven om te beginnen APIs te gebruiken
+>* **[doorblader de volledige API verwijzing &#x200B;](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}** - heb toegang tot alle Journey Optimizer APIs en test hen direct
+>* **[de authentificatie van de opstelling &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}** - verzamel vereiste geloofsbrieven om te beginnen APIs te gebruiken
 >* **[Beheer APIs van het Besluit](../offers/api-reference/getting-started.md)** - beheer aanbiedingen en besluiten programmatically
 >* **[het Beslissen van de Ervaring APIs](../experience-decisioning/api-reference/deliver.md)** - Lever gepersonaliseerde besluitvormingspunten gebruikend op code-gebaseerde ervaringen
 
@@ -37,19 +37,19 @@ Adobe Journey Optimizer is native gebaseerd op Adobe Experience Platform en comb
 
 Voordat u Journey Optimizer API&#39;s gebruikt, moet u verificatie instellen voor toegang tot de API-eindpunten.
 
-Volg de [ authentificatiegids ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} om de vereiste authentificatiegeloofsbrieven voor alle Journey Optimizer APIs te verzamelen.
+Volg de [&#x200B; authentificatiegids &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} om de vereiste authentificatiegeloofsbrieven voor alle Journey Optimizer APIs te verzamelen.
 
 ## API-documentatie {#api-documentation}
 
 De volledige Adobe Journey Optimizer API-documentatie bevat gedetailleerde informatie over alle beschikbare eindpunten, de aanvraag-/antwoordindeling en interactieve testmogelijkheden.
 
-Heb toegang tot de [ documentatie van Adobe Journey Optimizer API ](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"} en doorblader het **API verwijzingen** menu om alle beschikbare APIs te onderzoeken.
+Heb toegang tot de [&#x200B; documentatie van Adobe Journey Optimizer API &#x200B;](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"} en doorblader het **API verwijzingen** menu om alle beschikbare APIs te onderzoeken.
 
 ## API&#39;s voor besluitvormingsbeheer {#decision-management-apis}
 
 Journey Optimizer biedt specifieke API&#39;s voor Beslissingsbeheer, waarmee u aanbiedingen, beslissingen en plaatsingen programmatisch kunt beheren.
 
-Verwijs naar de [ gids van de de ontwikkelaar van het Beheer API van het Besluit ](../offers/api-reference/getting-started.md) om met aanbieding beslissing APIs te beginnen.
+Verwijs naar de [&#x200B; gids van de de ontwikkelaar van het Beheer API van het Besluit &#x200B;](../offers/api-reference/getting-started.md) om met aanbieding beslissing APIs te beginnen.
 
 ## Ervaar beslissings-API&#39;s {#experience-decisioning-apis}
 
@@ -64,4 +64,4 @@ Journey Optimizer biedt ook Experience Decisioning API&#39;s voor het leveren va
 * **Rangschikkende formules** - vorm douane het rangschikken logica
 * **Plaatsingen** - bepaal waar de besluitvormingspunten kunnen verschijnen
 
-Leer meer in de [ Verwijzing van de Beslissing van de Ervaring API ](../experience-decisioning/api-reference/deliver.md) en onderzoek hoe te [ aanbiedingen leveren gebruikend code-gebaseerde ervaringen ](../experience-decisioning/api-reference/deliver.md).
+Leer meer in de [&#x200B; Verwijzing van de Beslissing van de Ervaring API &#x200B;](../experience-decisioning/api-reference/deliver.md) en onderzoek hoe te [&#x200B; aanbiedingen leveren gebruikend code-gebaseerde ervaringen &#x200B;](../experience-decisioning/api-reference/deliver.md).
