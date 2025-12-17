@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 964568f060626d3eeefa91f2836aac4d69aefa38
+source-git-commit: e46ab0637a0fa4a2b4b8b6ff3b8ab3eb5d38e0f7
 workflow-type: tm+mt
-source-wordcount: '3022'
+source-wordcount: '3015'
 ht-degree: 15%
 
 ---
@@ -597,38 +597,37 @@ ht-degree: 15%
       + [Veelgestelde vragen over beslissingen](using/experience-decisioning/decisioning-faq.md)
       + API-referentie {#experience-decisioning-api-reference}
          + [API-referentie](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
-         + Aanbiedingsobjecten maken en beheren {#create-manage}
-            + Beslissingsitems {#decision-items}
-               + [Beslissingsitems maken](using/experience-decisioning/api-reference/decisions-items/create.md)
-               + [Lijst met beslissingsitems](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
-               + [Beslissingsitems verwijderen](using/experience-decisioning/api-reference/decisions-items/delete.md)
-               + [Opzoeken, beslissingsitems](using/experience-decisioning/api-reference/decisions-items/lookup.md)
-               + [Beslissingsitems bijwerken](using/experience-decisioning/api-reference/decisions-items/update.md)
-            + Items verzamelen {#items-collections}
-               + [Items verzamelen](using/experience-decisioning/api-reference/items-collections/create.md)
-               + [Itemverzamelingen verwijderen](using/experience-decisioning/api-reference/items-collections/delete.md)
-               + [Lijst met verzamelingen items](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
-               + [Opzoekitemverzamelingen](using/experience-decisioning/api-reference/items-collections/lookup.md)
-               + [Items verzamelen bijwerken](using/experience-decisioning/api-reference/items-collections/update.md)
-            + Selectiestrategieën {#selection-strategies}
-               + [Selectiestrategieën maken](using/experience-decisioning/api-reference/selection-strategies/create.md)
-               + [Selectiestrategieën verwijderen](using/experience-decisioning/api-reference/selection-strategies/delete.md)
-               + [Selectiestrategieën opzoeken](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
-               + [Lijst met selectiestrategieën](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
-               + [Selectiestrategieën bijwerken](using/experience-decisioning/api-reference/selection-strategies/update.md)
-            + Beoordelingsformule {#ranking-formulas}
-               + [Rangschikkingsformules maken](using/experience-decisioning/api-reference/ranking-formulas/create.md)
-               + [Classificatieformules verwijderen](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
-               + [Opzoeken van rangschikkingsformules](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
-               + [Selectierangstformules](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
-               + [Rangschikkingsformules bijwerken](using/experience-decisioning/api-reference/ranking-formulas/update.md)
-            + Subsidiabiliteitsregels {#eligibility-rules}
-               + [Subsidiabiliteitsregels maken](using/experience-decisioning/api-reference/eligibility-rules/create.md)
-               + [Subsidiabiliteitsregels verwijderen](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
-               + [Subsidiabiliteitsregels voor opzoeken](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
-               + [Lijst van subsidiabiliteitsregels](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
-               + [Subsidiabiliteitsregels bijwerken](using/experience-decisioning/api-reference/eligibility-rules/update.md)
-      + [Aanbiedingen leveren met behulp van het op code-gebaseerde Ervingenkanaal](using/experience-decisioning/api-reference/deliver.md)
+         + [Aan de slag met beslissing-API&#39;s](using/experience-decisioning/api-reference/getting-started.md)
+         + Beslissingsitems {#decision-items}
+            + [Beslissingsitems maken](using/experience-decisioning/api-reference/decisions-items/create.md)
+            + [Lijst met beslissingsitems](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
+            + [Beslissingsitems verwijderen](using/experience-decisioning/api-reference/decisions-items/delete.md)
+            + [Opzoeken, beslissingsitems](using/experience-decisioning/api-reference/decisions-items/lookup.md)
+            + [Beslissingsitems bijwerken](using/experience-decisioning/api-reference/decisions-items/update.md)
+         + Items verzamelen {#items-collections}
+            + [Items verzamelen](using/experience-decisioning/api-reference/items-collections/create.md)
+            + [Itemverzamelingen verwijderen](using/experience-decisioning/api-reference/items-collections/delete.md)
+            + [Lijst met verzamelingen items](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
+            + [Opzoekitemverzamelingen](using/experience-decisioning/api-reference/items-collections/lookup.md)
+            + [Items verzamelen bijwerken](using/experience-decisioning/api-reference/items-collections/update.md)
+         + Selectiestrategieën {#selection-strategies}
+            + [Selectiestrategieën maken](using/experience-decisioning/api-reference/selection-strategies/create.md)
+            + [Selectiestrategieën verwijderen](using/experience-decisioning/api-reference/selection-strategies/delete.md)
+            + [Selectiestrategieën opzoeken](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
+            + [Lijst met selectiestrategieën](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
+            + [Selectiestrategieën bijwerken](using/experience-decisioning/api-reference/selection-strategies/update.md)
+         + Beoordelingsformule {#ranking-formulas}
+            + [Rangschikkingsformules maken](using/experience-decisioning/api-reference/ranking-formulas/create.md)
+            + [Classificatieformules verwijderen](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
+            + [Opzoeken van rangschikkingsformules](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
+            + [Selectierangstformules](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
+            + [Rangschikkingsformules bijwerken](using/experience-decisioning/api-reference/ranking-formulas/update.md)
+         + Subsidiabiliteitsregels {#eligibility-rules}
+            + [Subsidiabiliteitsregels maken](using/experience-decisioning/api-reference/eligibility-rules/create.md)
+            + [Subsidiabiliteitsregels verwijderen](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
+            + [Subsidiabiliteitsregels voor opzoeken](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
+            + [Lijst van subsidiabiliteitsregels](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
+            + [Subsidiabiliteitsregels bijwerken](using/experience-decisioning/api-reference/eligibility-rules/update.md)
       + Beslissingsitems beheren {#manage-decision-items}
          + [Beslissingsitems beheren](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [De itemcatalogus configureren](using/experience-decisioning/catalogs.md)
@@ -829,7 +828,7 @@ ht-degree: 15%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
