@@ -20,7 +20,7 @@ Het besluiten APIs staat u toe om programmatically de componenten tot stand te b
 
 ## Verificatie {#authentication}
 
-Voordat u besluit-API&#39;s kunt gebruiken, moet u verificatie instellen voor toegang tot de API-eindpunten. U kunt naar de [ de authentificatiegids van Journey Optimizer ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} voor geleidelijke instructies verwijzen.
+Voordat u besluit-API&#39;s kunt gebruiken, moet u verificatie instellen voor toegang tot de API-eindpunten. U kunt naar de [&#x200B; de authentificatiegids van Journey Optimizer &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} voor geleidelijke instructies verwijzen.
 
 ## Beschikbare API-bewerkingen {#available-operations}
 
@@ -28,27 +28,27 @@ De API&#39;s voor besluitvorming bieden uitgebreide beheermogelijkheden voor bes
 
 * **de punten van het Besluit** - creeer, lees, werk bij, schrap, en de punten van het lijstbesluit die de aanbiedingen of de inhoud vertegenwoordigen u aan klanten wilt leveren.
 
-  ➡️ [ Leer hoe te om besluitpunten ](decisions-items/create.md) te beheren
+  ➡️ [&#x200B; Leer hoe te om besluitpunten &#x200B;](decisions-items/create.md) te beheren
 
 * **de inzamelingen van het Punt** - organiseer besluitvormingspunten in inzamelingen voor gemakkelijker beheer en het richten gebruikend toelatingsregels.
 
-  ➡️ [ Leer hoe te om puntinzamelingen ](items-collections/create.md) te beheren
+  ➡️ [&#x200B; Leer hoe te om puntinzamelingen &#x200B;](items-collections/create.md) te beheren
 
 * **de strategieën van de Selectie** - bepalen hoe de besluitvormingspunten worden geselecteerd en gerangschikt wanneer de veelvoudige punten voor levering kwalificeren.
 
-  ➡️ [ Leer hoe te om selectiestrategieën te beheren ](selection-strategies/create.md)
+  ➡️ [&#x200B; Leer hoe te om selectiestrategieën te beheren &#x200B;](selection-strategies/create.md)
 
 * **Regels van de Belichting** - plaats voorwaarden die bepalen welke profielen verkiesbaar zijn om specifieke besluitvormingspunten te ontvangen.
 
-  ➡️ [ Leer hoe te om toelatingsregels te beheren ](eligibility-rules/create.md)
+  ➡️ [&#x200B; Leer hoe te om toelatingsregels te beheren &#x200B;](eligibility-rules/create.md)
 
 * **Rangschikkende formules** - creeer douanerangschikkende logica om de orde te bepalen waarin de besluitvormingspunten worden voorgesteld.
 
-  ➡️ [ Leer hoe te om het rangschikken formules ](ranking-formulas/create.md) te beheren
+  ➡️ [&#x200B; Leer hoe te om het rangschikken formules &#x200B;](ranking-formulas/create.md) te beheren
 
 * **Plaatsen** - bepaal de plaatsen of de contexten waar de besluitvormingspunten in uw ervaringen kunnen worden getoond.
 
-  ➡️ [ Leer hoe te om plaatsingen ](exd-placements/create.md) te beheren
+  ➡️ [&#x200B; Leer hoe te om plaatsingen &#x200B;](exd-placements/create.md) te beheren
 
 ## Volgende stappen {#next-steps}
 
@@ -59,4 +59,4 @@ Nu u de grondbeginselen van de Beslissings APIs begrijpt, kunt u aan de specifie
 * [Selectiestrategieën maken](selection-strategies/create.md)
 * [Subsidiabiliteitsregels maken](eligibility-rules/create.md)
 
-Voor meer informatie over het gebruiken van besluit in uw campagnes en reizen, verwijs naar de [ documentatie van het Beslissen ](../gs-experience-decisioning.md).
+Voor meer informatie over het gebruiken van besluit in uw campagnes en reizen, verwijs naar de [&#x200B; documentatie van het Beslissen &#x200B;](../gs-experience-decisioning.md).
