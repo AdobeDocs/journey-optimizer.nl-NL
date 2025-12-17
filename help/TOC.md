@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e46ab0637a0fa4a2b4b8b6ff3b8ab3eb5d38e0f7
+source-git-commit: 8328e32f91c5541ec8561aef0e34757c4c7ecf9c
 workflow-type: tm+mt
-source-wordcount: '3015'
+source-wordcount: '3024'
 ht-degree: 15%
 
 ---
@@ -628,6 +628,11 @@ ht-degree: 15%
             + [Subsidiabiliteitsregels voor opzoeken](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
             + [Lijst van subsidiabiliteitsregels](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
             + [Subsidiabiliteitsregels bijwerken](using/experience-decisioning/api-reference/eligibility-rules/update.md)
+         + Plaatsen {#placements}
+            + [Plaatsingen maken](using/experience-decisioning/api-reference/exd-placements/create.md)
+            + [Plaatsingslijst](using/experience-decisioning/api-reference/exd-placements/exd-placements-list.md)
+            + [Plaatsen opzoeken](using/experience-decisioning/api-reference/exd-placements/lookup.md)
+            + [Plaatsen bijwerken](using/experience-decisioning/api-reference/exd-placements/update.md)
       + Beslissingsitems beheren {#manage-decision-items}
          + [Beslissingsitems beheren](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [De itemcatalogus configureren](using/experience-decisioning/catalogs.md)
@@ -828,7 +833,7 @@ ht-degree: 15%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
