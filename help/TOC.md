@@ -5,7 +5,7 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b1b9b34aec305d6690d93e68238aed852ef689b7
+source-git-commit: 964568f060626d3eeefa91f2836aac4d69aefa38
 workflow-type: tm+mt
 source-wordcount: '3022'
 ht-degree: 15%
@@ -628,7 +628,7 @@ ht-degree: 15%
                + [Subsidiabiliteitsregels voor opzoeken](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
                + [Lijst van subsidiabiliteitsregels](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
                + [Subsidiabiliteitsregels bijwerken](using/experience-decisioning/api-reference/eligibility-rules/update.md)
-         + [Aanbiedingen leveren met behulp van het op code-gebaseerde Ervingenkanaal](using/experience-decisioning/api-reference/deliver.md)
+      + [Aanbiedingen leveren met behulp van het op code-gebaseerde Ervingenkanaal](using/experience-decisioning/api-reference/deliver.md)
       + Beslissingsitems beheren {#manage-decision-items}
          + [Beslissingsitems beheren](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [De itemcatalogus configureren](using/experience-decisioning/catalogs.md)
@@ -829,7 +829,7 @@ ht-degree: 15%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
