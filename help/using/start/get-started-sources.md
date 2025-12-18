@@ -7,7 +7,7 @@ feature: Integrations, Data Ingestion
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: 52b58d18cdbbff79f4dcb7af2817b178a4a0b429
+source-git-commit: 7864012ad148c2e52bc38598016e7bd7fac9644e
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 3%
@@ -71,7 +71,7 @@ Journey Optimizer biedt ondersteuning voor verschillende typen bronnen die verbi
 * Salesforce
 * Salesforce Marketing Cloud
 
-➡️ zie de volledige lijst in de [&#x200B; Experience Platform broncatalogus &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=nl-NL#sources-catalog){target="_blank"}
+➡️ zie de volledige lijst in de [ Experience Platform broncatalogus ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"}
 
 ## Voordat u begint {#prerequisites}
 
@@ -81,7 +81,7 @@ Voordat u bronnen configureert, moet u ervoor zorgen dat:
 * **het systeemgeloofsbrieven van Source** - de details van de Authentificatie voor het externe systeem u wilt verbinden
 * **Begrip van uw gegevens** - weet welke gegevensgebieden u nodig hebt en hoe zij aan de profielen van Journey Optimizer in kaart brengen
 
-➡️ Leer over [&#x200B; toegangsbeheer en toestemmingen &#x200B;](../../administration/permissions.md)
+➡️ Leer over [ toegangsbeheer en toestemmingen ](../administration/permissions.md)
 
 ## Hoe bronnen werken {#how-sources-work}
 
@@ -103,13 +103,13 @@ Bekijk deze video om bronschakelaars te begrijpen en hoe te om hen in Journey Op
 
 >[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
-Voor gedetailleerde informatie over het vormen en het leiden van bronnen, verwijs naar de [&#x200B; de brondocumentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=nl){target="_blank"}.
+Voor gedetailleerde informatie over het vormen en het leiden van bronnen, verwijs naar de [ de brondocumentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=nl){target="_blank"}.
 
 ## Volgende stappen {#next-steps}
 
 Nu je begrijpt welke bronnen er zijn en waarom ze belangrijk zijn:
 
-* Onderzoek de [&#x200B; broncatalogus &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=nl-NL#sources-catalog){target="_blank"} om schakelaars voor uw systemen te vinden
-* Leer hoe te [&#x200B; een bronverbinding &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html){target="_blank"} tot stand brengen
-* Begrijp [&#x200B; gegevenstoewijzing en transformatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html){target="_blank"}
-* Zie hoe te [&#x200B; gebruik ingevoerde gegevens in reizen &#x200B;](../building-journeys/journey-gs.md)
+* Onderzoek de [ broncatalogus ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"} om schakelaars voor uw systemen te vinden
+* Leer hoe te [ een bronverbinding ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html){target="_blank"} tot stand brengen
+* Begrijp [ gegevenstoewijzing en transformatie ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html){target="_blank"}
+* Zie hoe te [ gebruik ingevoerde gegevens in reizen ](../building-journeys/journey-gs.md)
