@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Verzamelingsaanduidingen verwijderen
 description: Met de verzamelingskwalificatietags kunt u uw voorstellen beter organiseren en sorteren.
 feature: Decision Management, API
+badge: label="Verouderd" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: cc67519e-7a80-49c7-8c8b-c777be633026
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 0%
+source-wordcount: '177'
+ht-degree: 1%
 
 ---
 
 # Een verzamelingskwalificatie verwijderen {#delete-tag}
+
+>[!TIP]
+>
+>Het besluit, de nieuwe beslissingsmogelijkheden van [!DNL Adobe Journey Optimizer], is nu beschikbaar via de op code gebaseerde ervaring en e-mailkanalen! [Meer informatie](../../../../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Het kan soms nodig zijn om (DELETE) een verzamelingskwalificatie (voorheen &quot;tag&quot; genoemd) te verwijderen. Alleen verzamelingsaanduidingen die u in de huurderscontainer maakt, kunnen worden verwijderd. Dit wordt gedaan door een DELETE-aanvraag naar de [!DNL Offer Library] API uit te voeren met behulp van $id van de verzamelingskwalificatie die u wilt verwijderen.
 

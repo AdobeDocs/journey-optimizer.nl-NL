@@ -4,20 +4,26 @@ product: Journey Optimizer
 title: Een alternatieve aanbieding verwijderen
 description: Aan klanten wordt een fallback-aanbieding gestuurd als zij niet in aanmerking komen voor andere aanbiedingen
 feature: Decision Management, API
+badge: label="Verouderd" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 5c94842a-021c-4a3a-ad9c-ccc2af2c1526
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 7%
+source-wordcount: '137'
+ht-degree: 8%
 
 ---
 
 
 # Een alternatieve aanbieding verwijderen {#delete-fallback-offer}
+
+>[!TIP]
+>
+>Het besluit, de nieuwe beslissingsmogelijkheden van [!DNL Adobe Journey Optimizer], is nu beschikbaar via de op code gebaseerde ervaring en e-mailkanalen! [Meer informatie](../../../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Het kan soms nodig zijn om (DELETE) een fallback-aanbieding te verwijderen. Dit gebeurt door een DELETE-aanvraag naar de [!DNL Offer Library] API uit te voeren met de id van de fallback-aanbieding die u wilt verwijderen.
 

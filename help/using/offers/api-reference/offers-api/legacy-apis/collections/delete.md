@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Een verzameling verwijderen
 description: Verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketmaker zijn gedefinieerd, zoals de categorie van de aanbieding.
 feature: Decision Management, API, Collections
+badge: label="Verouderd" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 351d1f44-f3dc-49f9-bc3d-c775dad3cad4
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 4%
+source-wordcount: '172'
+ht-degree: 5%
 
 ---
 
 # Een verzameling verwijderen {#delete-collection}
+
+>[!TIP]
+>
+>Het besluit, de nieuwe beslissingsmogelijkheden van [!DNL Adobe Journey Optimizer], is nu beschikbaar via de op code gebaseerde ervaring en e-mailkanalen! [Meer informatie](../../../../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Het kan soms nodig zijn om (DELETE) een collectie te verwijderen. Alleen verzamelingen die u maakt in de huurderscontainer, kunnen worden verwijderd. Dit wordt gedaan door een DELETE-aanvraag naar de [!DNL Offer Library] API uit te voeren met behulp van $id van de verzameling die u wilt verwijderen.
 

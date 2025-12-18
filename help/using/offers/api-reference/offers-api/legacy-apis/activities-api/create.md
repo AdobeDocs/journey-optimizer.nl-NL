@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Een beslissing nemen
 description: Een beslissing bevat de logica die de selectie van een aanbieding informeert.
 feature: Decision Management, API
+badge: label="Verouderd" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 7cb906b9-8925-4482-9915-448a41e11d9d
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 7%
+source-wordcount: '125'
+ht-degree: 8%
 
 ---
 
 # Een beslissing nemen {#create-decision}
+
+>[!TIP]
+>
+>Het besluit, de nieuwe beslissingsmogelijkheden van [!DNL Adobe Journey Optimizer], is nu beschikbaar via de op code gebaseerde ervaring en e-mailkanalen! [Meer informatie](../../../../../experience-decisioning/gs-experience-decisioning.md)
+
 
 U kunt een beslissing maken door een POST-aanvraag in te dienen bij de [!DNL Offer Library] API en uw container-id op te geven.
 

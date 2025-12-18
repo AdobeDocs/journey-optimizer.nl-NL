@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Beslissingen weergeven
 description: Een beslissing bevat de logica die de selectie van een aanbieding informeert.
 feature: Decision Management, API
+badge: label="Verouderd" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: e9bd7602-8945-4768-8a56-dc13ade32a0b
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 2%
+source-wordcount: '243'
+ht-degree: 3%
 
 ---
 
 # Beslissingen weergeven {#list-decisions}
+
+>[!TIP]
+>
+>Het besluit, de nieuwe beslissingsmogelijkheden van [!DNL Adobe Journey Optimizer], is nu beschikbaar via de op code gebaseerde ervaring en e-mailkanalen! [Meer informatie](../../../../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Een beslissing bevat de logica die de selectie van een aanbieding informeert.
 

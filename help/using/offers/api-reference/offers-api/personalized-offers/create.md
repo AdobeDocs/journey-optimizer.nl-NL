@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Een persoonlijke aanbieding maken
 description: Een gepersonaliseerd aanbod is een aanpasbaar marketingbericht op basis van geschiktheidsregels en -beperkingen.
 feature: Decision Management, API
+badge: label="Verouderd" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '175'
 ht-degree: 7%
 
 ---
 
 # Een persoonlijke aanbieding maken {#create-personalized-offer}
+
+>[!TIP]
+>
+>Het besluit, de nieuwe beslissingsmogelijkheden van [!DNL Adobe Journey Optimizer], is nu beschikbaar via de op code gebaseerde ervaring en e-mailkanalen! [Meer informatie](../../../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Een gepersonaliseerd aanbod is een aanpasbaar marketingbericht op basis van geschiktheidsregels en -beperkingen.
 
@@ -115,4 +121,4 @@ Een succesvolle reactie keert de details van nieuw gecreeerd gepersonaliseerd-aa
 
 ## Beperkingen {#limitations}
 
-Aanbiedingsweergaven en sommige aanbodbeperkingen worden momenteel niet ondersteund door de mobiele [!DNL Experience Edge] workflows, bijvoorbeeld `Capping` . De veldwaarde `Capping` geeft aan hoe vaak een aanbieding voor alle gebruikers kan worden weergegeven. Voor meer details, zie [&#x200B; de geschiktheidsregels en beperkingsdocumentatie van de Aanbieding &#x200B;](../../../../offers/offer-library/creating-personalized-offers.md).
+Aanbiedingsweergaven en sommige aanbodbeperkingen worden momenteel niet ondersteund door de mobiele [!DNL Experience Edge] workflows, bijvoorbeeld `Capping` . De veldwaarde `Capping` geeft aan hoe vaak een aanbieding voor alle gebruikers kan worden weergegeven. Voor meer details, zie [ de geschiktheidsregels en beperkingsdocumentatie van de Aanbieding ](../../../../offers/offer-library/creating-personalized-offers.md).

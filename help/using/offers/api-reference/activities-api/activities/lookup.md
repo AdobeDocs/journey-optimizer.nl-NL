@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Een beslissing opzoeken
 description: Een beslissing bevat de logica die de selectie van een aanbieding informeert.
 feature: Decision Management, API
+badge: label="Verouderd" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: ee242f0f-f331-4f41-9418-938b4ca1dda3
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 1%
+source-wordcount: '98'
+ht-degree: 3%
 
 ---
 
 # Een beslissing opzoeken {#look-up-decision}
+
+>[!TIP]
+>
+>Het besluit, de nieuwe beslissingsmogelijkheden van [!DNL Adobe Journey Optimizer], is nu beschikbaar via de op code gebaseerde ervaring en e-mailkanalen! [Meer informatie](../../../../experience-decisioning/gs-experience-decisioning.md)
+
 
 U kunt specifieke beslissingen opzoeken door een GET-aanvraag in te dienen bij de [!DNL Offer Library] API die de beslissingen `id` bevat in het aanvraagpad.
 

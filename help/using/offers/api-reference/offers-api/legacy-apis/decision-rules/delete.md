@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Beslissingsregels verwijderen
 description: Beslissingsregels zijn beperkingen die aan een gepersonaliseerd aanbod worden toegevoegd en die op een profiel worden toegepast om te bepalen of het in aanmerking komt voor een aanbieding.
 feature: Decision Management, API
+badge: label="Verouderd" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 7c02041c-b022-4027-b932-294b207add80
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '179'
 ht-degree: 3%
 
 ---
 
 # Een beslissingsregel verwijderen {#delete-decision-rule}
+
+>[!TIP]
+>
+>Het besluit, de nieuwe beslissingsmogelijkheden van [!DNL Adobe Journey Optimizer], is nu beschikbaar via de op code gebaseerde ervaring en e-mailkanalen! [Meer informatie](../../../../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Het kan soms nodig zijn om (DELETE) een besluitvormingsregel te schrappen. Alleen beslissingsregels die u maakt in de huurderscontainer, kunnen worden verwijderd. Dit wordt gedaan door een DELETE-aanvraag naar de [!DNL Offer Library] API uit te voeren met behulp van de instantie-id van de beslissingsregel die u wilt verwijderen.
 

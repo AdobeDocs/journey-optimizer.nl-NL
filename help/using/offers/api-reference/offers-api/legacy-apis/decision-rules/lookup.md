@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Beslissingsregel opzoeken
 description: Beslissingsregels zijn beperkingen die aan een gepersonaliseerd aanbod worden toegevoegd en die op een profiel worden toegepast om te bepalen of het in aanmerking komt voor een aanbieding.
 feature: Decision Management, API
+badge: label="Verouderd" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3099736d-7109-4c94-aea6-053a9b885278
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 0%
+source-wordcount: '182'
+ht-degree: 1%
 
 ---
 
 # Beslissingsregel opzoeken {#lookup-decision-rule}
+
+>[!TIP]
+>
+>Het besluit, de nieuwe beslissingsmogelijkheden van [!DNL Adobe Journey Optimizer], is nu beschikbaar via de op code gebaseerde ervaring en e-mailkanalen! [Meer informatie](../../../../../experience-decisioning/gs-experience-decisioning.md)
+
 
 U kunt een specifieke beslissingsregel opzoeken door een GET-aanvraag in te dienen bij de [!DNL Offer Library] API die ofwel de beslissingsregel `@id` ofwel de naam van de beslissingsregel bevat in het aanvraagpad.
 

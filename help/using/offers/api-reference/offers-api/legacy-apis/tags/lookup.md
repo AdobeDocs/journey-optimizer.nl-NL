@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Een verzamelingskwalificatie opzoeken
 description: Met de verzamelingskwalificatietags kunt u uw voorstellen beter organiseren en sorteren.
 feature: Decision Management, API
+badge: label="Verouderd" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: f31e6a17-c99a-4db9-a301-426a1f0bcc92
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 1%
+source-wordcount: '108'
+ht-degree: 2%
 
 ---
 
 # Een verzamelingskwalificatie opzoeken {#look-up-tag}
+
+>[!TIP]
+>
+>Het besluit, de nieuwe beslissingsmogelijkheden van [!DNL Adobe Journey Optimizer], is nu beschikbaar via de op code gebaseerde ervaring en e-mailkanalen! [Meer informatie](../../../../../experience-decisioning/gs-experience-decisioning.md)
+
 
 U kunt specifieke inzamelingsbepalers (die vroeger &quot;markeringen&quot;worden genoemd) opzoeken door een GET- verzoek aan [!DNL Offer Library] API te doen die de inzamelingsbepaler `id` in de verzoekweg omvat.
 

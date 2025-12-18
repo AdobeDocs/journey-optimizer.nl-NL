@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Een plaatsing opzoeken
 description: Plaatsingen zijn containers die worden gebruikt om uw voorstellen te tonen.
 feature: Decision Management, API
+badge: label="Verouderd" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: db337b5c-426a-4695-81e8-3a1b041791f2
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 1%
+source-wordcount: '90'
+ht-degree: 3%
 
 ---
 
 # Een plaatsing opzoeken {#look-up-placement}
+
+>[!TIP]
+>
+>Het besluit, de nieuwe beslissingsmogelijkheden van [!DNL Adobe Journey Optimizer], is nu beschikbaar via de op code gebaseerde ervaring en e-mailkanalen! [Meer informatie](../../../../experience-decisioning/gs-experience-decisioning.md)
+
 
 U kunt specifieke plaatsingen opzoeken door een GET-aanvraag in te dienen bij de [!DNL Offer Library] API die de plaatsing `id` bevat.
 

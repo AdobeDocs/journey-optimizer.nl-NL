@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: aanbiedingen voor opzoeken
 description: Aan klanten wordt een fallback-aanbieding gestuurd als zij niet in aanmerking komen voor andere aanbiedingen
 feature: Decision Management, API
+badge: label="Verouderd" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 8f1fa116-30d2-4732-8973-bbce0dc66dec
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 1%
+source-wordcount: '106'
+ht-degree: 2%
 
 ---
 
 # Opzoeken van fallback-aanbiedingen {#look-up-fallback-offers}
+
+>[!TIP]
+>
+>Het besluit, de nieuwe beslissingsmogelijkheden van [!DNL Adobe Journey Optimizer], is nu beschikbaar via de op code gebaseerde ervaring en e-mailkanalen! [Meer informatie](../../../../experience-decisioning/gs-experience-decisioning.md)
+
 
 U kunt specifieke fallback-aanbiedingen opzoeken door een GET-aanvraag in te dienen bij de [!DNL Offer Library] API die de id van de fallback-aanbieding bevat in het aanvraagpad.
 

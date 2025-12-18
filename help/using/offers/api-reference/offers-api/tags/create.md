@@ -4,20 +4,26 @@ product: Journey Optimizer
 title: Een verzamelingskwalificatie maken
 description: Met de verzamelingskwalificatietags kunt u uw voorstellen beter organiseren en sorteren.
 feature: Decision Management, API
+badge: label="Verouderd" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 1%
+source-wordcount: '139'
+ht-degree: 2%
 
 ---
 
 
 # Een verzamelingskwalificatie maken {#create-tag}
+
+>[!TIP]
+>
+>Het besluit, de nieuwe beslissingsmogelijkheden van [!DNL Adobe Journey Optimizer], is nu beschikbaar via de op code gebaseerde ervaring en e-mailkanalen! [Meer informatie](../../../../experience-decisioning/gs-experience-decisioning.md)
+
 
 U kunt een verzamelingskwalificatie (voorheen bekend als &quot;tag&quot;) maken door een POST-aanvraag in te dienen bij de API voor de bibliotheek van het aanbod.
 
