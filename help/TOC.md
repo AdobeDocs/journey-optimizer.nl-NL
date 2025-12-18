@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b06229e7a2fc64fbe28154c798b152cca8203a86
+source-git-commit: 9d6f9cf41b967e3185233d839cba229d9d4db908
 workflow-type: tm+mt
-source-wordcount: '3035'
+source-wordcount: '3024'
 ht-degree: 15%
 
 ---
@@ -472,9 +472,7 @@ ht-degree: 15%
       + [Werken met Adobe Stock](using/integrations/stock.md)
       + [Werken met Adobe Express](using/integrations/express.md)
       + [Werken met Experience Manager-sjablonen](using/integrations/aem-templates.md)
-      + Experience Manager Content-fragmenten {#fragments}
-         + [Aan de slag met Experience Manager-inhoudsfragmenten](using/integrations/aem-fragments-gs.md)
-         + [Werken met Experience Manager-inhoudsfragmenten](using/integrations/aem-fragments.md)
+      + [Werken met Experience Manager-inhoudsfragmenten](using/integrations/aem-fragments.md)
       + [Werken met dynamische media](using/integrations/aem-dynamic.md)
       + [Werken met GenStudio for Performance Marketing](using/integrations/genstudio.md)
       + [Werken met integratie](using/integrations/external-sources.md)
@@ -835,7 +833,7 @@ ht-degree: 15%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
