@@ -71,7 +71,7 @@ Journey Optimizer biedt ondersteuning voor verschillende typen bronnen die verbi
 * Salesforce
 * Salesforce Marketing Cloud
 
-➡️ zie de volledige lijst in de [&#x200B; Experience Platform broncatalogus &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"}
+➡️ zie de volledige lijst in de [&#x200B; Experience Platform broncatalogus &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=nl-NL#sources-catalog){target="_blank"}
 
 ## Voordat u begint {#prerequisites}
 
@@ -109,7 +109,7 @@ Voor gedetailleerde informatie over het vormen en het leiden van bronnen, verwij
 
 Nu je begrijpt welke bronnen er zijn en waarom ze belangrijk zijn:
 
-* Onderzoek de [&#x200B; broncatalogus &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"} om schakelaars voor uw systemen te vinden
+* Onderzoek de [&#x200B; broncatalogus &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=nl-NL#sources-catalog){target="_blank"} om schakelaars voor uw systemen te vinden
 * Leer hoe te [&#x200B; een bronverbinding &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html){target="_blank"} tot stand brengen
 * Begrijp [&#x200B; gegevenstoewijzing en transformatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html){target="_blank"}
 * Zie hoe te [&#x200B; gebruik ingevoerde gegevens in reizen &#x200B;](../building-journeys/journey-gs.md)
