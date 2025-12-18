@@ -244,7 +244,7 @@ Test uw reizen grondig voordat u ze publiceert, zodat u zeker weet dat ze naar b
 
 Ontdek de onderdelen van een reis en begrijp de grondbeginselen van het maken van een reis op het canvas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430347?captions=dut&quality=12)
 
 ### Aanvullende bronnen
 
