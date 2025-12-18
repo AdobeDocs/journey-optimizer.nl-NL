@@ -39,7 +39,7 @@ De de reisontwerper van Journey Optimizer verstrekt alles Marketers en reisartse
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 **Real-time &amp; partijlevering**
 
@@ -49,7 +49,7 @@ Verzend in real time **unitaire levering** teweeggebracht wanneer een gebeurteni
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=nl-NL)
 
 **Contextafhankelijke gegevens**
 
@@ -59,7 +59,7 @@ Gebruik **contextafhankelijke gegevens** van gebeurtenissen, informatie van Adob
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=nl-NL)
 
 **Ingebouwde acties**
 
@@ -69,7 +69,7 @@ Gebruik **ingebouwde kanaalacties** om berichten te verzenden die in [!DNL Journ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 **de acties van de Douane**
 
@@ -79,7 +79,7 @@ Creeer **douaneacties** als u een derdesysteem gebruikt om uw berichten te verze
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 **Visuele reisontwerper**
 
@@ -89,7 +89,7 @@ Met de **reisontwerper**, bouwt uw multi-step gebruiksgevallen: sleep en laat ge
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
 
 **Test &amp; optimaliseer**
 
@@ -110,7 +110,7 @@ De [&#x200B; reisontwerper &#x200B;](using-the-journey-designer.md) verstrekt [&
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
 
 **Leer door gebruiksgevallen**
 
@@ -120,7 +120,7 @@ Verken uitgebreide, end-to-end gevallen van het reisgebruik die real-world imple
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=nl-NL)
 
 **Onthaal nieuwe abonnees**
 
@@ -130,7 +130,7 @@ Verzend een persoonlijke welkomstreis wanneer klanten zich abonneren op uw servi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=nl-NL)
 
 **optimaliseer e-mail verzendt tijden**
 
@@ -140,7 +140,7 @@ Gebruik door AI aangedreven send-time optimalisering om e-mail te leveren wannee
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
 
 **Ramp omhoog leveranties**
 
@@ -150,7 +150,7 @@ Verhoog geleidelijk het berichtvolume om uw verzendende reputatie op te warmen e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
 
 **Doel tegen weekdag**
 
@@ -160,7 +160,7 @@ Verstuur andere inhoud op de dag van de week die klanten uw reis ingaan.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=nl-NL)
 
 **Veelgestelde vragen van de Reis**
 
@@ -178,7 +178,7 @@ Vind antwoorden op vaak gestelde vragen over het bouwen van de reis, het oplosse
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 **creeer en beheer reizen**
 
@@ -188,7 +188,7 @@ Stapsgewijze begeleiding bij het ontwerpen, testen, publiceren en volgen van kla
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 **de activiteiten van de Reis**
 
@@ -198,7 +198,7 @@ Ontdek hoe u activiteiten zoals triggers, beslissingsstappen, publieksbeheer en 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 **Uitdrukkingen &amp; voorwaarden**
 
@@ -208,7 +208,7 @@ Masterexpressies maken voor dynamische workflows, gegevensmanipulatie en geavanc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=nl-NL)
 
 **problemen oplossen en controleren**
 
@@ -218,7 +218,7 @@ Problemen met de uitvoering van de reis diagnostiseren en oplossen met gereedsch
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
 
 **Overzicht van de ontwerper van de Reis**
 
@@ -228,7 +228,7 @@ Begrijp het reiscanvas, palet, en hoe te om uw klantenreizen te ontwerpen gebrui
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
 
 **Test &amp; publiceer**
 
@@ -250,6 +250,6 @@ Ontdek de onderdelen van een reis en begrijp de grondbeginselen van het maken va
 * **[Verwijzing van de codes van de Fout](error-codes-reference.md)** - de codes van de de foutenfout van de Reis en het oplossen van problemenstappen
 * **[Alarm](../reports/alerts.md)** - de alarm van de opstelling voor reis controle
 * **[het Oplossen van problemen](troubleshooting.md)** - Gemeenschappelijke reiskwesties en oplossingen
-* **[Zelfstudies van de Reis &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - leer reis die door hands-on videoleerprogramma&#39;s bouwt
+* **[Zelfstudies van de Reis &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - leer reis die door hands-on videoleerprogramma&#39;s bouwt
 * **[Reis guardrails &amp; beperkingen](../start/guardrails.md)** - controleer guardrails en beperkingen wanneer het gebruiken [!DNL Adobe Journey Optimizer]
 
