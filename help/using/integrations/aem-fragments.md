@@ -18,11 +18,11 @@ ht-degree: 0%
 
 De integratie tussen Adobe Experience Manager en Journey Optimizer volgt deze gegevensstroom:
 
-1. **[creeer en auteur ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**: De inhoud wordt gecreeerd en in Adobe Experience Manager gevormd als Fragments van de Inhoud.
+1. **[creeer en auteur &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**: De inhoud wordt gecreeerd en in Adobe Experience Manager gevormd als Fragments van de Inhoud.
 
-1. **[het Etiketteren ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**: De Fragmenten van de inhoud moeten met de Journey Optimizer-Specifieke markering (`ajo-enabled:{OrgId}/{SandboxName}`) worden geëtiketteerd.
+1. **[het Etiketteren &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**: De Fragmenten van de inhoud moeten met de Journey Optimizer-Specifieke markering (`ajo-enabled:{OrgId}/{SandboxName}`) worden geëtiketteerd.
 
-1. **[publiceer ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**: De Fragmenten van de inhoud worden gepubliceerd in Adobe Experience Manager, die hen ter beschikking stellen van Journey Optimizer.
+1. **[publiceer &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**: De Fragmenten van de inhoud worden gepubliceerd in Adobe Experience Manager, die hen ter beschikking stellen van Journey Optimizer.
 
 1. **[Toegang](#aem-add)**: Journey Optimizer haalt en toont beschikbare de Fragmenten van de Inhoud van Adobe Experience Manager publiceren instantie in real time.
 
@@ -46,19 +46,19 @@ Voordat u het inhoudsfragment in Journey Optimizer kunt gebruiken, moet u een sp
 
 1. Klik **creëren**.
 
-1. Bepaal uw Model van het Fragment van de Inhoud zoals die in [ wordt gedetailleerd de documentatie van Experience Manager ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"} en wijs uw pas gecreëerde markering van Journey Optimizer toe.
+1. Bepaal uw Model van het Fragment van de Inhoud zoals die in [&#x200B; wordt gedetailleerd de documentatie van Experience Manager &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"} en wijs uw pas gecreëerde markering van Journey Optimizer toe.
 
 Deze real-time verbinding zorgt ervoor dat uw inhoud altijd up-to-date is, maar betekent ook dat wijzigingen in gepubliceerde fragmenten onmiddellijk van invloed zullen zijn op actieve campagnes en reizen.
 
-U kunt nu beginnen met het maken en configureren van het inhoudsfragment voor later gebruik in Journey Optimizer. Leer meer in [ documentatie van Experience Manager ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}.
+U kunt nu beginnen met het maken en configureren van het inhoudsfragment voor later gebruik in Journey Optimizer. Leer meer in [&#x200B; documentatie van Experience Manager &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}.
 
 ## Experience Manager-inhoudsfragmenten toevoegen {#aem-add}
 
 Nadat u de AEM Content Fragments hebt gemaakt en gepersonaliseerd, kunt u deze nu importeren naar uw campagne of reis voor het optimaliseren van de reis.
 
-1. Creeer uw [ Campagne ](../campaigns/create-campaign.md) of [ Reis ](../building-journeys/journey-gs.md).
+1. Creeer uw [&#x200B; Campagne &#x200B;](../campaigns/create-campaign.md) of [&#x200B; Reis &#x200B;](../building-journeys/journey-gs.md).
 
-1. Om tot uw de inhoudsfragment van AEM toegang te hebben, klik ![ het pictogram van Personalization ](assets/do-not-localize/Smock_PersonalizationField_18_N.svg) binnen om het even welk tekstgebied, of open de broncode door een de inhoudscomponent van HTML.
+1. Om tot uw de inhoudsfragment van AEM toegang te hebben, klik ![&#x200B; het pictogram van Personalization &#x200B;](assets/do-not-localize/Smock_PersonalizationField_18_N.svg) binnen om het even welk tekstgebied, of open de broncode door een de inhoudscomponent van HTML.
 
    ![](assets/aem_campaign_2.png)
 
@@ -84,7 +84,7 @@ Nadat u de AEM Content Fragments hebt gemaakt en gepersonaliseerd, kunt u deze n
 
    ![](assets/aem_campaign_7.png)
 
-1. Klik ![ Meer actiepictogram ](assets/do-not-localize/Smock_MoreSmallList_18_N.svg) om tot het geavanceerde menu van uw Fragment toegang te hebben:
+1. Klik ![&#x200B; Meer actiepictogram &#x200B;](assets/do-not-localize/Smock_MoreSmallList_18_N.svg) om tot het geavanceerde menu van uw Fragment toegang te hebben:
 
    * **[!UICONTROL Swap fragment]**
    * **[!UICONTROL Explore references]**
@@ -115,8 +115,8 @@ In dit geval, zorg ervoor **_variableName_** alvorens fragmentidentiteitskaart t
 
    ![](assets/aem_campaign_9.png){zoomable="yes"}
 
-1. Klik op **[!UICONTROL Save]**. U kunt nu uw berichtinhoud zoals die in [ wordt gedetailleerd deze sectie ](../content-management/preview.md) testen en controleren.
-Zodra u uw tests hebt uitgevoerd en de inhoud bevestigd, kunt u [ uw campagne ](../campaigns/review-activate-campaign.md) verzenden of [ uw reis ](../building-journeys/publish-journey.md) aan uw publiek publiceren.
+1. Klik op **[!UICONTROL Save]**. U kunt nu uw berichtinhoud zoals die in [&#x200B; wordt gedetailleerd deze sectie &#x200B;](../content-management/preview.md) testen en controleren.
+Zodra u uw tests hebt uitgevoerd en de inhoud bevestigd, kunt u [&#x200B; uw campagne &#x200B;](../campaigns/review-activate-campaign.md) verzenden of [&#x200B; uw reis &#x200B;](../building-journeys/publish-journey.md) aan uw publiek publiceren.
 
-Met Adobe Experience Manager kunt u de Journey Optimizer-campagnes of -reizen identificeren waar een inhoudsfragment wordt gebruikt. Leer meer in [ documentatie van Adobe Experience Manager ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references).
+Met Adobe Experience Manager kunt u de Journey Optimizer-campagnes of -reizen identificeren waar een inhoudsfragment wordt gebruikt. Leer meer in [&#x200B; documentatie van Adobe Experience Manager &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references).
 
