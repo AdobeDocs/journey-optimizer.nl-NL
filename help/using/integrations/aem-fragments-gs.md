@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Door Adobe Experience Manager as a Cloud Service te integreren met Adobe Journey Optimizer, kunt u nu uw AEM-inhoudsfragmenten naadloos opnemen in uw Journey Optimizer-inhoud. Deze gestroomlijnde verbinding vereenvoudigt het proces van toegang tot en gebruik van AEM-inhoud, waardoor persoonlijke en dynamische campagnes en reizen kunnen worden gemaakt.
 
-Meer over de Fragmenten van de Inhoud van AEM leren, verwijs naar [ Werkend met de Fragmenten van de Inhoud ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} in de documentatie van Experience Manager.
+Meer over de Fragmenten van de Inhoud van AEM leren, verwijs naar [&#x200B; Werkend met de Fragmenten van de Inhoud &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} in de documentatie van Experience Manager.
 
 ## Voordat u begint {#start}
 
@@ -50,7 +50,7 @@ Houd rekening met de volgende beperkingen wanneer u werkt met Adobe Experience M
 
 ![](assets/do-not-localize/AEM_CF.png)
 
-Inhoudsfragmenten volgen verschillende fasen in de levenscyclus, afhankelijk van de Adobe Experience Manager-laag waarin ze voorkomen. [ leer meer in de documentatie van Adobe Experience Manager ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)
+Inhoudsfragmenten volgen verschillende fasen in de levenscyclus, afhankelijk van de Adobe Experience Manager-laag waarin ze voorkomen. [&#x200B; leer meer in de documentatie van Adobe Experience Manager &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)
 
 De inhoud wordt gecreeerd en op de **rij van de Auteur** geleid, waar de fragmenten statussen zoals Nieuw, Ontwerp, Gepubliceerd, Gewijzigd, of Unpublished kunnen hebben. Deze statussen zijn slechts op de **rij van de Auteur** van toepassing en steunen inhoudsverwezenlijking en overzicht.
 
