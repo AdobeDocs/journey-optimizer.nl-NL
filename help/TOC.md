@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9d6f9cf41b967e3185233d839cba229d9d4db908
+source-git-commit: c9fd0aeda42f8833a542ecafae8c60aaebde4ef0
 workflow-type: tm+mt
-source-wordcount: '3024'
+source-wordcount: '3033'
 ht-degree: 15%
 
 ---
@@ -235,14 +235,22 @@ ht-degree: 15%
       + [Een verzoek goedkeuren](using/test-approve/review-approve-request.md)
 + Monitor en problemen oplossen {#monitor}
    + [Bewaking en problemen oplossen](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-   + [Systeemwaarschuwingen](using/reports/alerts.md)
-   + [Referentie foutcodes](using/building-journeys/error-codes-reference.md)
-   + [Problemen met artikelen oplossen](using/start/troubleshooting.md)
-   + Problemen met reizen oplossen {#troubleshoot-journey}
-      + [Los reisfouten op](using/building-journeys/troubleshooting.md)
-      + [Los reisuitvoering problemen op](using/building-journeys/troubleshooting-execution.md)
-      + [Binnenkomende acties oplossen](using/building-journeys/troubleshooting-inbound.md)
-      + [Aangepaste acties oplossen](using/action/troubleshoot-custom-action.md)
+   + [Aan de slag met bijhouden](using/start/get-started-tracking.md)
+   + E-maillevering {#deliverability}
+      + [E-maillevering](/help/rp_landing_pages/deliverability-landing-page.md)
+      + [Aan de slag met de prestaties](using/reports/deliverability.md)
+      + [De onderdrukkingslijst begrijpen](using/reports/suppression-list.md)
+      + [Nieuwe DMARC-vereiste](using/configuration/dmarc-record-update.md)
+   + Waarschuwingen en foutcodes controleren {#monitor-alerts-errors}
+      + [Systeemwaarschuwingen](using/reports/alerts.md)
+      + [Referentie foutcodes](using/building-journeys/error-codes-reference.md)
+   + Problemen oplossen {#troubleshooting}
+      + [Veelgestelde vragen over probleemoplossing](using/start/troubleshooting.md)
+      + Problemen met reizen oplossen {#troubleshoot-journey}
+         + [Los reisfouten op](using/building-journeys/troubleshooting.md)
+         + [Los reisuitvoering problemen op](using/building-journeys/troubleshooting-execution.md)
+         + [Binnenkomende acties oplossen](using/building-journeys/troubleshooting-inbound.md)
+         + [Aangepaste acties oplossen](using/action/troubleshoot-custom-action.md)
 + Communicatiekanalen {#channels}
    + [Aan de slag met communicatiekanalen](using/channels/gs-channels.md)
    + Email channel {#email}
@@ -288,11 +296,6 @@ ht-degree: 15%
          + [Parameters koptekst](using/email/header-parameters.md)
          + [URL-tracking](using/email/url-tracking.md)
          + [E-mailconfiguratie aanpassen](using/email/surface-personalization.md)
-      + E-maillevering {#deliverability}
-         + [E-maillevering](/help/rp_landing_pages/deliverability-landing-page.md)
-         + [Aan de slag met de prestaties](using/reports/deliverability.md)
-         + [De onderdrukkingslijst begrijpen](using/reports/suppression-list.md)
-         + [Nieuwe DMARC-vereiste](using/configuration/dmarc-record-update.md)
    + Kanaal in app {#in-app}
       + [Kanaal in app](/help/rp_landing_pages/in-app-landing-page.md)
       + [Aan de slag met In-app](using/in-app/get-started-in-app.md)
@@ -833,7 +836,7 @@ ht-degree: 15%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
