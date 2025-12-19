@@ -27,7 +27,7 @@ Met [!DNL Journey Optimizer] kunt u een getraind modelsysteem gebruiken dat voor
 
 Deze eigenschap laat u toe om verschillende **modellen van AI** tot stand te brengen die op uw bedrijfsdoelstellingen worden gebaseerd. Gebruikend deze verschillende op doel-gebaseerde strategieën in een besluit, zal het opgeleide modelsysteem u helpen begrijpen hoe de verschillende AI modellen uw doelstellingen beïnvloeden.
 
-U kunt bijvoorbeeld een AI-model selecteren voor het e-mailkanaal en een ander model voor het pushkanaal. Voor elk kanaal, zal het opgeleide modelsysteem veelvoudige gegevenspunten hefboomwerking bepalen welke aanbieding eerst voor een bepaalde plaatsing zou moeten worden voorgesteld, eerder dan rekening houdend met de de prioritaire scores van aanbiedingen of a [ rangschikkende formule ](create-ranking-formulas.md).
+U kunt bijvoorbeeld een AI-model selecteren voor het e-mailkanaal en een ander model voor het pushkanaal. Voor elk kanaal, zal het opgeleide modelsysteem veelvoudige gegevenspunten hefboomwerking bepalen welke aanbieding eerst voor een bepaalde plaatsing zou moeten worden voorgesteld, eerder dan rekening houdend met de de prioritaire scores van aanbiedingen of a [&#x200B; rangschikkende formule &#x200B;](create-ranking-formulas.md).
 
 >[!IMPORTANT]
 >
@@ -61,7 +61,7 @@ U kunt als volgt AI-modellen maken en gebruiken:
 
    >[!IMPORTANT]
    >
-   >AI-modellen vereisen dat feedbackgebeurtenissen worden verzonden als ervaringsgebeurtenissen om te worden verzameld. [ Leer meer over de inzameling van de gegevens van het Beheer van Besluit ](../data-collection/data-collection.md)
+   >AI-modellen vereisen dat feedbackgebeurtenissen worden verzonden als ervaringsgebeurtenissen om te worden verzameld. [&#x200B; Leer meer over de inzameling van de gegevens van het Beheer van Besluit &#x200B;](../data-collection/data-collection.md)
 
 1. Wijs het AI-model toe aan een plaatsing in een besluit om in aanmerking komende aanbiedingen te classificeren. [Meer informatie](../offer-activities/configure-offer-selection.md)
 

@@ -37,7 +37,7 @@ Door gebrek, wanneer verscheidene aanbiedingen voor een bepaalde plaatsing in ee
 
 ![](../assets/offer-priority.png)
 
-De prioritaire scores van aanbiedingen worden toegewezen wanneer het creëren van een aanbieding. Leer hoe te om een gepersonaliseerde aanbieding in [ tot stand te brengen deze sectie ](../offer-library/creating-personalized-offers.md).
+De prioritaire scores van aanbiedingen worden toegewezen wanneer het creëren van een aanbieding. Leer hoe te om een gepersonaliseerde aanbieding in [&#x200B; tot stand te brengen deze sectie &#x200B;](../offer-library/creating-personalized-offers.md).
 
 ## Willekeurige formule {#assign-ranking-formula}
 
@@ -45,15 +45,15 @@ Naast het aanbieden van prioriteit, staat Journey Optimizer u toe om **het rangs
 
 U kunt bijvoorbeeld de prioriteit verhogen van alle aanbiedingen met een einddatum van minder dan 24 uur, of aanbiedingen verhogen van de categorie &quot;actief&quot; als het interessepunt van het profiel &quot;actief&quot; is.
 
-Leer hoe te om een het rangschikken formule in [ tot stand te brengen deze sectie ](../ranking/create-ranking-formulas.md).
+Leer hoe te om een het rangschikken formule in [&#x200B; tot stand te brengen deze sectie &#x200B;](../ranking/create-ranking-formulas.md).
 
 Nadat een formule is gemaakt, kunt u deze toewijzen aan een plaatsing in een beslissing. Hiervoor voert u de volgende stappen uit:
 
-1. Maak een beslissing of bewerk een bestaande beslissing. Zie [ besluiten ](../offer-activities/create-offer-activities.md) creëren.
+1. Maak een beslissing of bewerk een bestaande beslissing. Zie [&#x200B; besluiten &#x200B;](../offer-activities/create-offer-activities.md) creëren.
 
-1. Voeg de plaatsingen toe die uw voorstellen zullen bevatten. Zie [ plaatsingen ](../offer-library/creating-placements.md) creëren.
+1. Voeg de plaatsingen toe die uw voorstellen zullen bevatten. Zie [&#x200B; plaatsingen &#x200B;](../offer-library/creating-placements.md) creëren.
 
-1. Voeg voor elke plaatsing een verzameling toe. Zie [ inzamelingen ](../offer-library/creating-collections.md) creëren.
+1. Voeg voor elke plaatsing een verzameling toe. Zie [&#x200B; inzamelingen &#x200B;](../offer-library/creating-collections.md) creëren.
 
 1. Selecteer **[!UICONTROL Formula]** als waarderingsmethode en klik op **[!UICONTROL Add ranking]** .
 
@@ -71,15 +71,15 @@ Als meerdere aanbiedingen in aanmerking komen om in deze plaatsing te worden gep
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-U kunt ook een getraind modelsysteem gebruiken dat aanbiedingen voor een bepaald profiel automatisch rangschikt door een AI-model te selecteren. Leer hoe te om een AI model in [ tot stand te brengen deze sectie ](../ranking/create-ranking-strategies.md).
+U kunt ook een getraind modelsysteem gebruiken dat aanbiedingen voor een bepaald profiel automatisch rangschikt door een AI-model te selecteren. Leer hoe te om een AI model in [&#x200B; tot stand te brengen deze sectie &#x200B;](../ranking/create-ranking-strategies.md).
 
 Nadat u een AI-model hebt gemaakt, kunt u het toewijzen aan een plaatsing in een beslissing. Hiervoor voert u de volgende stappen uit:
 
-1. Maak een beslissing of bewerk een bestaande beslissing. Zie [ besluiten ](../offer-activities/create-offer-activities.md) creëren.
+1. Maak een beslissing of bewerk een bestaande beslissing. Zie [&#x200B; besluiten &#x200B;](../offer-activities/create-offer-activities.md) creëren.
 
-1. Voeg de plaatsingen toe die uw voorstellen zullen bevatten. Zie [ plaatsingen ](../offer-library/creating-placements.md) creëren.
+1. Voeg de plaatsingen toe die uw voorstellen zullen bevatten. Zie [&#x200B; plaatsingen &#x200B;](../offer-library/creating-placements.md) creëren.
 
-1. Voeg voor elke plaatsing een verzameling toe. Zie [ inzamelingen ](../offer-library/creating-collections.md) creëren.
+1. Voeg voor elke plaatsing een verzameling toe. Zie [&#x200B; inzamelingen &#x200B;](../offer-library/creating-collections.md) creëren.
 
 1. Kies om aanbiedingen op **[!UICONTROL AI ranking]** te plaatsen in de vervolgkeuzelijst en klik op **[!UICONTROL Add ranking]** .
 

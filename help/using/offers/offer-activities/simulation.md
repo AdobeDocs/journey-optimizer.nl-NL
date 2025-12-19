@@ -38,7 +38,7 @@ Hierdoor kunt u verschillende versies van uw aanbiedingen testen en verfijnen, z
 
 >[!NOTE]
 >
->Deze mogelijkheid simuleert één aanvraag voor de [!DNL Decisioning] API. Leer meer over [ aanbiedingen leveren gebruikend besluit API ](../api-reference/offer-delivery-api/decisioning-api.md).
+>Deze mogelijkheid simuleert één aanvraag voor de [!DNL Decisioning] API. Leer meer over [&#x200B; aanbiedingen leveren gebruikend besluit API &#x200B;](../api-reference/offer-delivery-api/decisioning-api.md).
 
 U opent deze functie door de tab **[!UICONTROL Simulation]** in het menu **[!UICONTROL Decision management]** > **[!UICONTROL Offers]** te selecteren.
 
@@ -46,7 +46,7 @@ U opent deze functie door de tab **[!UICONTROL Simulation]** in het menu **[!UIC
 
 >[!NOTE]
 >
->Aangezien de simulatie geen besluitvormingsgebeurtenis produceert, wordt het [ maximum ](../offer-library/add-constraints.md#capping) aantal niet beïnvloed.
+>Aangezien de simulatie geen besluitvormingsgebeurtenis produceert, wordt het [&#x200B; maximum &#x200B;](../offer-library/add-constraints.md#capping) aantal niet beïnvloed.
 
 <!--
 ➡️ [Discover this feature in video](#video)
@@ -63,7 +63,7 @@ Eerst moet u de testprofielen selecteren die u voor simulatie gaat gebruiken.
 
 >[!CAUTION]
 >
->U moet testprofielen beschikbaar hebben om te simuleren welke aanbiedingen aan hen zullen worden geleverd. Leer hoe te om [ testprofielen ](../../audience/creating-test-profiles.md) tot stand te brengen.
+>U moet testprofielen beschikbaar hebben om te simuleren welke aanbiedingen aan hen zullen worden geleverd. Leer hoe te om [&#x200B; testprofielen &#x200B;](../../audience/creating-test-profiles.md) tot stand te brengen.
 
 1. Klik op **[!UICONTROL Manage profile]**.
 
@@ -73,7 +73,7 @@ Eerst moet u de testprofielen selecteren die u voor simulatie gaat gebruiken.
 
    >[!NOTE]
    >
-   >Een naamruimte voor identiteiten definieert de context van een id, zoals een e-mailadres of CRM-id. Leer meer over de identiteitsnaamruimten van Adobe Experience Platform [ in deze sectie ](../../audience/get-started-identity.md){target="_blank"}.
+   >Een naamruimte voor identiteiten definieert de context van een id, zoals een e-mailadres of CRM-id. Leer meer over de identiteitsnaamruimten van Adobe Experience Platform [&#x200B; in deze sectie &#x200B;](../../audience/get-started-identity.md){target="_blank"}.
 
 1. Voer de identiteitswaarde in en klik op **[!UICONTROL View]** om de beschikbare profielen weer te geven.
 
@@ -108,7 +108,7 @@ Selecteer nu de aanbiedingsbesluiten die u op uw testprofielen wilt simuleren.
 1. De beschikbare beslissingen worden weergegeven.
 
    * Met het zoekveld kunt u de selectie verfijnen.
-   * U kunt op de koppeling **[!UICONTROL Open offer decisions]** klikken om de lijst met alle beslissingen te openen die u hebt gemaakt. Leer meer over [ besluiten ](create-offer-activities.md).
+   * U kunt op de koppeling **[!UICONTROL Open offer decisions]** klikken om de lijst met alle beslissingen te openen die u hebt gemaakt. Leer meer over [&#x200B; besluiten &#x200B;](create-offer-activities.md).
 
    Selecteer de gewenste beslissing en klik op **[!UICONTROL Add]** .
 
@@ -146,9 +146,9 @@ Volg onderstaande stappen om de standaardinstellingen voor uw simulaties te bewe
 
    >[!NOTE]
    >
-   >Door gebrek, worden alle vlaggen van de Deduplicatie toegelaten voor simulatie, wat betekent dat de besluitvormingsmotor duplicaten toestaat en zo de zelfde voorstelling over veelvoudige besluiten/plaatsen kan maken. Leer meer over [!DNL Decisioning] API verzoekeigenschappen in [ deze sectie ](../api-reference/offer-delivery-api/decisioning-api.md).
+   >Door gebrek, worden alle vlaggen van de Deduplicatie toegelaten voor simulatie, wat betekent dat de besluitvormingsmotor duplicaten toestaat en zo de zelfde voorstelling over veelvoudige besluiten/plaatsen kan maken. Leer meer over [!DNL Decisioning] API verzoekeigenschappen in [&#x200B; deze sectie &#x200B;](../api-reference/offer-delivery-api/decisioning-api.md).
 
-1. In de sectie **[!UICONTROL Response format]** kunt u metagegevens opnemen in de codeweergave. Controleer de corresponderende optie en selecteer de metagegevens van uw keuze. Deze worden weergegeven in de aanvraag- en antwoordladingen wanneer u **[!UICONTROL View code]** selecteert. Leer meer in de [ simulatieresultaten van de Mening ](#simulation-results) sectie.
+1. In de sectie **[!UICONTROL Response format]** kunt u metagegevens opnemen in de codeweergave. Controleer de corresponderende optie en selecteer de metagegevens van uw keuze. Deze worden weergegeven in de aanvraag- en antwoordladingen wanneer u **[!UICONTROL View code]** selecteert. Leer meer in de [&#x200B; simulatieresultaten van de Mening &#x200B;](#simulation-results) sectie.
 
    ![](../assets/offers_simulation-settings-response-format.png)
 
@@ -222,5 +222,5 @@ Nadat u een beslissingsbereik hebt toegevoegd en een testprofiel hebt geselectee
 
    >[!NOTE]
    >
-   >Wanneer u de aanvraag- of antwoordladingen naar uw eigen code kopieert, moet u {USER_TOKEN} en {API_KEY} vervangen door geldige waarden. Leer hoe te om deze waarden in de [ Adobe Experience Platform APIs ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"} documentatie terug te winnen.
+   >Wanneer u de aanvraag- of antwoordladingen naar uw eigen code kopieert, moet u {USER_TOKEN} en {API_KEY} vervangen door geldige waarden. Leer hoe te om deze waarden in de [&#x200B; Adobe Experience Platform APIs &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"} documentatie terug te winnen.
 
