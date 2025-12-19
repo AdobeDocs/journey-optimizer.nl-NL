@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 1%
+source-wordcount: '475'
+ht-degree: 2%
 
 ---
 
 # Verzamelingen maken {#create-collections}
+
+>[!TIP]
+>
+>Het besluit, de nieuwe beslissingsmogelijkheden van [!DNL Adobe Journey Optimizer], is nu beschikbaar via de op code gebaseerde ervaring en e-mailkanalen! [Meer informatie](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_collection"
@@ -68,7 +72,7 @@ Ga als volgt te werk om een verzameling te maken:
 
 1. Als u een dynamische verzameling wilt maken, selecteert u in het linkerdeelvenster de verzamelingskwalificatie van de aanbiedingen die u aan de verzameling wilt toevoegen en klikt u op **[!UICONTROL Save]** . Alle aanbiedingen met de geselecteerde inzamelingskwalificatie zullen in de inzameling worden bewaard.
 
-   Voor meer op de verwezenlijking van inzamelingsbepalers, zie [&#x200B; inzamelingsbepalende eigenschappen &#x200B;](../offer-library/creating-tags.md) creëren.
+   Voor meer op de verwezenlijking van inzamelingsbepalers, zie [ inzamelingsbepalende eigenschappen ](../offer-library/creating-tags.md) creëren.
 
    ![](../assets/dynamic_collection.png)
 
@@ -80,7 +84,7 @@ Ga als volgt te werk om een verzameling te maken:
    >
    >Statische verzamelingen worden niet automatisch bijgewerkt. Om aanbiedingen aan een statische inzameling toe te voegen, moet u het uitgeven en hen manueel toevoegen.
 
-1. Selecteer **[!UICONTROL Manage access]** als u aangepaste of basislabels voor gegevensgebruik wilt toewijzen aan een statische verzameling. [&#x200B; leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) &#x200B;](../../administration/object-based-access.md)
+1. Selecteer **[!UICONTROL Manage access]** als u aangepaste of basislabels voor gegevensgebruik wilt toewijzen aan een statische verzameling. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../../administration/object-based-access.md)
 
    >[!NOTE]
    >
@@ -92,6 +96,6 @@ Ga als volgt te werk om een verzameling te maken:
 
 ## Hoe kan ik-video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3474878?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
 
 

@@ -9,14 +9,18 @@ role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '838'
 ht-degree: 1%
 
 ---
 
 # Batchbeslissing {#deliver}
+
+>[!TIP]
+>
+>Het besluit, de nieuwe beslissingsmogelijkheden van [!DNL Adobe Journey Optimizer], is nu beschikbaar via de op code gebaseerde ervaring en e-mailkanalen! [Meer informatie](../experience-decisioning/gs-experience-decisioning.md)
 
 ## Aan de slag met batch-beslissingen {#start}
 
@@ -24,21 +28,21 @@ Met Journey Optimizer kunt u besluiten aanbieden aan alle profielen in een bepaa
 
 Hiervoor moet u in Journey Optimizer een aanvraag voor een taak maken die informatie bevat over het doelpubliek en het besluit om een aanbieding te gebruiken. De aanbiedingsinhoud voor elk profiel in het publiek wordt dan geplaatst in een dataset van Adobe Experience Platform waar het voor de werkschema&#39;s van de douanepartij beschikbaar is.
 
-Batchlevering kan ook worden uitgevoerd met behulp van API&#39;s. Voor meer op dit, verwijs naar de [&#x200B; Bevestiging API documentatie van de Partij &#x200B;](api-reference/offer-delivery-api/batch-decisioning-api.md).
+Batchlevering kan ook worden uitgevoerd met behulp van API&#39;s. Voor meer op dit, verwijs naar de [ Bevestiging API documentatie van de Partij ](api-reference/offer-delivery-api/batch-decisioning-api.md).
 
 ## Vereisten {#prerequisites}
 
 Voordat u een taakaanvraag configureert, moet u controleren of u het volgende hebt gemaakt:
 
-* **dataset van A** in Adobe Experience Platform. Deze dataset zal worden gebruikt om het beslissingsresultaat op te slaan gebruikend het schema &quot;ODE DecisionEvents&quot;. Leer meer in de [&#x200B; documentatie van Datasets &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=nl-NL).
+* **dataset van A** in Adobe Experience Platform. Deze dataset zal worden gebruikt om het beslissingsresultaat op te slaan gebruikend het schema &quot;ODE DecisionEvents&quot;. Leer meer in de [ documentatie van Datasets ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html).
 
-* **een publiek** in Adobe Experience Platform. Het publiek moet worden geëvalueerd en vervolgens worden bijgewerkt. Leer hoe te om de evaluatie van het publiekslidmaatschap in de [&#x200B; documentatie van de Dienst van de Segmentatie &#x200B;](https://www.adobe.com/go/segmentation-overview-en) bij te werken
+* **een publiek** in Adobe Experience Platform. Het publiek moet worden geëvalueerd en vervolgens worden bijgewerkt. Leer hoe te om de evaluatie van het publiekslidmaatschap in de [ documentatie van de Dienst van de Segmentatie ](https://www.adobe.com/go/segmentation-overview-en) bij te werken
 
   >[!NOTE]
   >
   >Een batchtaak loopt van de profielmomentopname die één keer per dag plaatsvindt. Met de optie Batch-beslissingen wordt de frequentie vastgelegd en worden profielen altijd geladen vanaf de meest recente momentopname. Wacht 24 uur nadat u een publiek hebt gemaakt voordat u de batch-beslissings-API uitprobeert.
 
-* **een besluit van A** in Adobe Journey Optimizer. [&#x200B; Leer hoe te om een besluit &#x200B;](offer-activities/create-offer-activities.md) tot stand te brengen
+* **een besluit van A** in Adobe Journey Optimizer. [ Leer hoe te om een besluit ](offer-activities/create-offer-activities.md) tot stand te brengen
 
 <!-- in API doc, remove these info and add ref here-->
 
@@ -94,7 +98,7 @@ Nadat een taakaanvraag is gemaakt, worden meerdere statussen gebruikt voor de ba
    >
    >U kunt tot de dataset toegang hebben waar de resultaten van een baan door zijn naam in baanlijst te klikken worden opgeslagen.
 
-Als een fout optreedt terwijl de taakaanvraag wordt uitgevoerd, krijgt deze de status **[!UICONTROL Error]** . Probeer de batchtaak te dupliceren om een nieuwe aanvraag te maken. [&#x200B; leren hoe te om een partijbaan &#x200B;](#duplicate) te dupliceren
+Als een fout optreedt terwijl de taakaanvraag wordt uitgevoerd, krijgt deze de status **[!UICONTROL Error]** . Probeer de batchtaak te dupliceren om een nieuwe aanvraag te maken. [ leren hoe te om een partijbaan ](#duplicate) te dupliceren
 
 ### Procestijd batchtaak
 

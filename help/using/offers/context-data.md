@@ -9,14 +9,18 @@ role: Developer
 level: Experienced
 exl-id: 4e736f9d-0f05-4a79-8ebf-ea22517d78a9
 version: Journey Orchestration
-source-git-commit: d0b3a4e90b8eca6f5929f92f203c4bc296da7615
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met contextgegevens {#context-data}
+
+>[!TIP]
+>
+>Het besluit, de nieuwe beslissingsmogelijkheden van [!DNL Adobe Journey Optimizer], is nu beschikbaar via de op code gebaseerde ervaring en e-mailkanalen! [Meer informatie](../experience-decisioning/gs-experience-decisioning.md)
 
 Gegevens die als onderdeel van het beslissingsverzoek worden verzonden, worden beschouwd als contextgegevens. U kunt contextgegevens in de beslissingsengine gebruiken, bijvoorbeeld om een beslissingsregel te ontwerpen waarvoor het huidige weer op het moment dat het beslissingsverzoek wordt ingediend, op het tijdstip waarop het wordt gedaan, op 80 graden moet zijn ingesteld.
 

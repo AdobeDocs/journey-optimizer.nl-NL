@@ -9,20 +9,24 @@ role: Developer
 level: Experienced
 exl-id: 45d060ce-0a12-4a6e-a594-ec10cdff8f38
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 0%
+source-wordcount: '172'
+ht-degree: 1%
 
 ---
 
 # Contextgegevens en beslissingsverzoeken {#context-data-decisioning}
 
+>[!TIP]
+>
+>Het besluit, de nieuwe beslissingsmogelijkheden van [!DNL Adobe Journey Optimizer], is nu beschikbaar via de op code gebaseerde ervaring en e-mailkanalen! [Meer informatie](../experience-decisioning/gs-experience-decisioning.md)
+
 Deze sectie begeleidt u door contextgegevens in Beslissingsverzoeken over te gaan en hen in kwalificatieregels te gebruiken.
 
 >[!BEGINSHADEBOX]
 
-Om verder te gaan, kunt u hefboomcontext in **het rangschikken formules** ook gebruiken om uw aanbiedingen op te voeren. De gedetailleerde voorbeelden van het rangschikken formules leveraging contextgegevens zijn beschikbaar in [&#x200B; deze sectie &#x200B;](../offers/ranking/create-ranking-formulas.md#context-data).
+Om verder te gaan, kunt u hefboomcontext in **het rangschikken formules** ook gebruiken om uw aanbiedingen op te voeren. De gedetailleerde voorbeelden van het rangschikken formules leveraging contextgegevens zijn beschikbaar in [ deze sectie ](../offers/ranking/create-ranking-formulas.md#context-data).
 
 >[!ENDSHADEBOX]
 

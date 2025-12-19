@@ -10,32 +10,36 @@ role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 1%
+source-wordcount: '343'
+ht-degree: 2%
 
 ---
 
 # Belangrijke stappen voor het maken en beheren van aanbiedingen {#key-steps-to-manage-offers}
 
+>[!TIP]
+>
+>Het besluit, de nieuwe beslissingsmogelijkheden van [!DNL Adobe Journey Optimizer], is nu beschikbaar via de op code gebaseerde ervaring en e-mailkanalen! [Meer informatie](../../experience-decisioning/gs-experience-decisioning.md)
+
 De belangrijkste stappen om aanbiedingen te creëren, te vormen en te beheren, evenals hen in een besluit te gebruiken, worden hieronder voorgesteld.
 
 ![](../assets/offer-create-manage-process.png)
 
-Voor een volledig voorbeeld dat van begin tot eind toont hoe te om aanbiedingen te vormen, gebruik hen in een besluit en hefboomwerking dit besluit in e-mail, controleer [&#x200B; deze pagina &#x200B;](../offers-e2e.md).
+Voor een volledig voorbeeld dat van begin tot eind toont hoe te om aanbiedingen te vormen, gebruik hen in een besluit en hefboomwerking dit besluit in e-mail, controleer [ deze pagina ](../offers-e2e.md).
 
 ## Componenten maken {#create-components}
 
 Voordat u aanbiedingen gaat maken, moet u verschillende componenten definiëren die u in uw aanbiedingen wilt gebruiken.
 
-1. [&#x200B; creeer plaatsingen &#x200B;](creating-placements.md), die containers zijn die zullen worden gebruikt om uw aanbiedingen te tonen. U kunt bijvoorbeeld een plaatsing maken die alleen in afbeeldingsindeling aan aanbiedingen wordt toegewezen en boven aan uw berichten wordt geplaatst.
+1. [ creeer plaatsingen ](creating-placements.md), die containers zijn die zullen worden gebruikt om uw aanbiedingen te tonen. U kunt bijvoorbeeld een plaatsing maken die alleen in afbeeldingsindeling aan aanbiedingen wordt toegewezen en boven aan uw berichten wordt geplaatst.
 
-1. [&#x200B; creeer besluitvormingsregels &#x200B;](creating-decision-rules.md) die de voorwaarden zullen specificeren waaronder de aanbiedingen zullen worden voorgesteld.
+1. [ creeer besluitvormingsregels ](creating-decision-rules.md) die de voorwaarden zullen specificeren waaronder de aanbiedingen zullen worden voorgesteld.
 
-1. [&#x200B; creeer inzamelingsbepalers &#x200B;](creating-tags.md) (eerder genoemd als &quot;markeringen&quot;) die u aan de aanbiedingen zult associëren, toestaand u om hen gemakkelijk te organiseren en te zoeken in de bibliotheek.
+1. [ creeer inzamelingsbepalers ](creating-tags.md) (eerder genoemd als &quot;markeringen&quot;) die u aan de aanbiedingen zult associëren, toestaand u om hen gemakkelijk te organiseren en te zoeken in de bibliotheek.
 
-1. Als u regels wilt bepalen die zullen bepalen welke aanbieding eerst voor een bepaalde plaatsing (eerder dan het rekening houden met de prioritaire scores van aanbiedingen) zou moeten worden voorgesteld, kunt u [&#x200B; tot een rangschikkende formule &#x200B;](../ranking/create-ranking-formulas.md) leiden.
+1. Als u regels wilt bepalen die zullen bepalen welke aanbieding eerst voor een bepaalde plaatsing (eerder dan het rekening houden met de prioritaire scores van aanbiedingen) zou moeten worden voorgesteld, kunt u [ tot een rangschikkende formule ](../ranking/create-ranking-formulas.md) leiden.
 
 <!--
 <table style="table-layout:fixed">
@@ -73,11 +77,11 @@ Voordat u aanbiedingen gaat maken, moet u verschillende componenten definiëren 
 
 ## Aanbiedingen maken en beheren {#create-and-manage-offers}
 
-1. [&#x200B; creeer aanbiedingen &#x200B;](creating-personalized-offers.md), en vorm hun inhoud en eigenschappen.
+1. [ creeer aanbiedingen ](creating-personalized-offers.md), en vorm hun inhoud en eigenschappen.
 
-1. [&#x200B; creeer fallback aanbiedingen &#x200B;](creating-fallback-offers.md), die de laatste resort aanbiedingen aan vertoning zijn als de klanten niet verkiesbaar voor om het even welke geselecteerde aanbiedingen zijn.
+1. [ creeer fallback aanbiedingen ](creating-fallback-offers.md), die de laatste resort aanbiedingen aan vertoning zijn als de klanten niet verkiesbaar voor om het even welke geselecteerde aanbiedingen zijn.
 
-1. [&#x200B; creeer een inzameling &#x200B;](creating-collections.md) om de gepersonaliseerde aanbiedingen te omvatten u creeerde en hen in een besluit gebruikt.
+1. [ creeer een inzameling ](creating-collections.md) om de gepersonaliseerde aanbiedingen te omvatten u creeerde en hen in een besluit gebruikt.
 
 <!--
 <table style="table-layout:fixed">
@@ -109,11 +113,11 @@ Voordat u aanbiedingen gaat maken, moet u verschillende componenten definiëren 
 
 ## Besluiten maken en configureren {#create-and-configure-decisions}
 
-1. [&#x200B; creeer een besluit &#x200B;](../offer-activities/create-offer-activities.md) dat plaatsingen met de gepersonaliseerde aanbiedingen en de reserveaanbiedingen zal combineren. Deze combinatie wordt door de beslissingsengine gebruikt om de beste aanbieding voor een specifiek profiel te vinden.
+1. [ creeer een besluit ](../offer-activities/create-offer-activities.md) dat plaatsingen met de gepersonaliseerde aanbiedingen en de reserveaanbiedingen zal combineren. Deze combinatie wordt door de beslissingsengine gebruikt om de beste aanbieding voor een specifiek profiel te vinden.
 
-1. [&#x200B; vorm het besluit &#x200B;](../offer-activities/create-offer-activities.md#add-decision-scopes). U doet dit door de plaatsen te selecteren en voor elke plaatsing een verzameling en een fallback te selecteren.
+1. [ vorm het besluit ](../offer-activities/create-offer-activities.md#add-decision-scopes). U doet dit door de plaatsen te selecteren en voor elke plaatsing een verzameling en een fallback te selecteren.
 
-1. Indien nodig, kunt u [&#x200B; een het rangschikken formule &#x200B;](../offer-activities/configure-offer-selection.md#assign-ranking-formula) of [&#x200B; AI rangschikken &#x200B;](../offer-activities/configure-offer-selection.md#use-ranking-strategy) aan een plaatsing toewijzen wanneer het vormen van het besluit.
+1. Indien nodig, kunt u [ een het rangschikken formule ](../offer-activities/configure-offer-selection.md#assign-ranking-formula) of [ AI rangschikken ](../offer-activities/configure-offer-selection.md#use-ranking-strategy) aan een plaatsing toewijzen wanneer het vormen van het besluit.
 
 <!--
 <table style="table-layout:fixed">

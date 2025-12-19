@@ -10,18 +10,22 @@ role: User, Developer
 level: Intermediate
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 39%
+source-wordcount: '303'
+ht-degree: 37%
 
 ---
 
 # Aan de slag met besluitvormingsgebeurtenissen {#monitor-offer-events}
 
+>[!TIP]
+>
+>Het besluit, de nieuwe beslissingsmogelijkheden van [!DNL Adobe Journey Optimizer], is nu beschikbaar via de op code gebaseerde ervaring en e-mailkanalen! [Meer informatie](../../experience-decisioning/gs-experience-decisioning.md)
+
 Telkens wanneer het Beslissingsbeheer een besluit neemt voor een bepaald profiel, wordt informatie over deze gebeurtenissen automatisch naar Adobe Experience Platform verzonden.
 
-Hierdoor kunt u meer inzicht krijgen in uw beslissingen, bijvoorbeeld om te weten welk aanbod aan een bepaald profiel is gepresenteerd. U kunt deze gegevens uitvoeren om hen in uw eigen rapporterend systeem, of hefboomwerking de Dienst van de Vraag van Adobe Experience Platform [&#x200B; &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl) in combinatie met andere hulpmiddelen voor verbeterde analyse en rapporteringsdoeleinden te analyseren.
+Hierdoor kunt u meer inzicht krijgen in uw beslissingen, bijvoorbeeld om te weten welk aanbod aan een bepaald profiel is gepresenteerd. U kunt deze gegevens uitvoeren om hen in uw eigen rapporterend systeem, of hefboomwerking de Dienst van de Vraag van Adobe Experience Platform [ ](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl) in combinatie met andere hulpmiddelen voor verbeterde analyse en rapporteringsdoeleinden te analyseren.
 
 ## Belangrijkste informatie beschikbaar in gegevensreeksen {#key-information}
 

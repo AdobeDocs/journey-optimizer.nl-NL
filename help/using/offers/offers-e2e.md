@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1093'
 ht-degree: 2%
 
 ---
 
 # Hoofdlettergebruik: gepersonaliseerde aanbiedingen configureren om deze in een e-mail te gebruiken {#configure-add-personalized-offers-email}
+
+>[!TIP]
+>
+>Het besluit, de nieuwe beslissingsmogelijkheden van [!DNL Adobe Journey Optimizer], is nu beschikbaar via de op code gebaseerde ervaring en e-mailkanalen! [Meer informatie](../experience-decisioning/gs-experience-decisioning.md)
 
 Deze sectie stelt een voorbeeld van begin tot eind voor om te tonen hoe te om aanbiedingen te vormen en hen te gebruiken in een e-mail, die op een besluit wordt gebaseerd u eerder creeerde.
 
@@ -25,7 +29,7 @@ Deze sectie stelt een voorbeeld van begin tot eind voor om te tonen hoe te om aa
 
 De belangrijkste stappen om aanbiedingen te vormen, hen te omvatten in een besluit en hefboomwerking dit besluit in een e-mail zijn hieronder vermeld:
 
-1. Alvorens aanbiedingen te creëren, [&#x200B; bepaal uw componenten &#x200B;](#define-components)
+1. Alvorens aanbiedingen te creëren, [ bepaal uw componenten ](#define-components)
 
    * Plaatsingen maken
    * Beslissingsregels maken
@@ -43,7 +47,7 @@ De belangrijkste stappen om aanbiedingen te vormen, hen te omvatten in een beslu
 
 1. [Een alternatieve aanbieding maken](#create-fallback)
 
-1. [&#x200B; creeer een inzameling &#x200B;](#create-collection) om de gepersonaliseerde aanbiedingen te omvatten u creeerde
+1. [ creeer een inzameling ](#create-collection) om de gepersonaliseerde aanbiedingen te omvatten u creeerde
 
 1. [De beslissing configureren](#configure-decision)
 
@@ -81,7 +85,7 @@ U vindt ze onder **[!UICONTROL Decision Management]** > **[!UICONTROL Components
 
    ![](assets/offers-e2e-placements.png)
 
-   De gedetailleerde stappen om plaatsingen tot stand te brengen worden beschreven in [&#x200B; deze sectie &#x200B;](../../using/offers/offer-library/creating-placements.md).
+   De gedetailleerde stappen om plaatsingen tot stand te brengen worden beschreven in [ deze sectie ](../../using/offers/offer-library/creating-placements.md).
 
 1. Creeer **besluitvormingsregels**.
 
@@ -94,7 +98,7 @@ U vindt ze onder **[!UICONTROL Decision Management]** > **[!UICONTROL Components
 
    ![](assets/offers-e2e-rules.png)
 
-   De gedetailleerde stappen om regels tot stand te brengen worden beschreven in [&#x200B; deze sectie &#x200B;](../../using/offers/offer-library/creating-decision-rules.md).
+   De gedetailleerde stappen om regels tot stand te brengen worden beschreven in [ deze sectie ](../../using/offers/offer-library/creating-decision-rules.md).
 
 1. U kunt a **inzamelingsbepaler** ook tot stand brengen.
 
@@ -104,15 +108,15 @@ U vindt ze onder **[!UICONTROL Decision Management]** > **[!UICONTROL Components
 
    ![](assets/offers-e2e-tag.png)
 
-   De gedetailleerde stappen om inzamelingsbepalende eigenschappen tot stand te brengen worden beschreven in [&#x200B; deze sectie &#x200B;](../../using/offers/offer-library/creating-tags.md).
+   De gedetailleerde stappen om inzamelingsbepalende eigenschappen tot stand te brengen worden beschreven in [ deze sectie ](../../using/offers/offer-library/creating-tags.md).
 
 1. Als u regels wilt bepalen die welke aanbieding eerst voor een bepaalde plaatsing (eerder dan het rekening houden met de prioritaire scores van aanbiedingen) zullen bepalen, kunt u a **rangschikkende formule** tot stand brengen.
 
-   De gedetailleerde stappen om rangschikkende formules tot stand te brengen worden beschreven in [&#x200B; deze sectie &#x200B;](../../using/offers/ranking/create-ranking-formulas.md#create-ranking-formula).
+   De gedetailleerde stappen om rangschikkende formules tot stand te brengen worden beschreven in [ deze sectie ](../../using/offers/ranking/create-ranking-formulas.md#create-ranking-formula).
 
    >[!NOTE]
    >
-   >In dit voorbeeld zullen we alleen de prioriteitsscores gebruiken. Leer meer over [&#x200B; toelatingsregels en beperkingen &#x200B;](../../using/offers/offer-library/add-constraints.md#eligibility).
+   >In dit voorbeeld zullen we alleen de prioriteitsscores gebruiken. Leer meer over [ toelatingsregels en beperkingen ](../../using/offers/offer-library/add-constraints.md#eligibility).
 
 ## Aanbiedingen configureren {#configure-offers}
 
@@ -130,7 +134,7 @@ U kunt nu uw aanbiedingen maken en configureren. In dit voorbeeld maakt u vier a
    >
    >Een aanbieding kan op verschillende plaatsen in een bericht worden getoond om meer kansen tot gebruik van de aanbieding in verschillende plaatsingscontexten tot stand te brengen.
 
-   Leer meer over vertegenwoordiging in [&#x200B; deze sectie &#x200B;](../../using/offers/offer-library/add-representations.md#representations).
+   Leer meer over vertegenwoordiging in [ deze sectie ](../../using/offers/offer-library/add-representations.md#representations).
 
 1. Selecteer een geschikte afbeelding voor de eerste twee plaatsen. Ga douanetekst voor *niet-digitaal in - de plaatsing van de Tekst*.
 
@@ -155,7 +159,7 @@ U kunt nu uw aanbiedingen maken en configureren. In dit voorbeeld maakt u vier a
 
    ![](assets/offers-e2e-offers-created.png)
 
-De gedetailleerde stappen om aanbiedingen tot stand te brengen en te vormen worden beschreven in [&#x200B; deze sectie &#x200B;](../../using/offers/offer-library/creating-personalized-offers.md).
+De gedetailleerde stappen om aanbiedingen tot stand te brengen en te vormen worden beschreven in [ deze sectie ](../../using/offers/offer-library/creating-personalized-offers.md).
 
 ## Een alternatieve aanbieding maken {#create-fallback}
 
@@ -177,7 +181,7 @@ De gedetailleerde stappen om aanbiedingen tot stand te brengen en te vormen word
 
 Je fallbackvoorstel is nu klaar om te worden gebruikt in een beslissing.
 
-De gedetailleerde stappen om een reserveaanbieding tot stand te brengen en te vormen worden beschreven in [&#x200B; deze sectie &#x200B;](../../using/offers/offer-library/creating-fallback-offers.md).
+De gedetailleerde stappen om een reserveaanbieding tot stand te brengen en te vormen worden beschreven in [ deze sectie ](../../using/offers/offer-library/creating-fallback-offers.md).
 
 ## Een verzameling maken {#create-collection}
 
@@ -189,7 +193,7 @@ Wanneer het vormen van het besluit, zult u uw gepersonaliseerde aanbiedingen als
 
    ![](assets/offers-e2e-collection-using-tag.png)
 
-De gedetailleerde stappen om een inzameling tot stand te brengen worden beschreven in [&#x200B; deze sectie &#x200B;](../../using/offers/offer-library/creating-collections.md).
+De gedetailleerde stappen om een inzameling tot stand te brengen worden beschreven in [ deze sectie ](../../using/offers/offer-library/creating-collections.md).
 
 ## De beslissing configureren {#configure-decision}
 
@@ -209,9 +213,9 @@ Om een aanbiedingsbesluit tot stand te brengen en te vormen, volg de belangrijks
 
    ![](assets/offers-e2e-decision-collection.png)
 
-1. Als u een rangschikking bepaalde wanneer [&#x200B; bouwend uw componenten &#x200B;](#define-components), kunt u het aan een plaatsing in het besluit toewijzen. Indien meerdere aanbiedingen in aanmerking komen om in deze plaatsing te worden gepresenteerd, wordt in de beslissing gebruik gemaakt van deze formule om te berekenen welke aanbieding het eerst wordt geleverd.
+1. Als u een rangschikking bepaalde wanneer [ bouwend uw componenten ](#define-components), kunt u het aan een plaatsing in het besluit toewijzen. Indien meerdere aanbiedingen in aanmerking komen om in deze plaatsing te worden gepresenteerd, wordt in de beslissing gebruik gemaakt van deze formule om te berekenen welke aanbieding het eerst wordt geleverd.
 
-   De gedetailleerde stappen om een rangschikkende formule aan een plaatsing toe te wijzen worden beschreven in [&#x200B; deze sectie &#x200B;](../../using/offers/offer-activities/configure-offer-selection.md#assign-ranking-formula).
+   De gedetailleerde stappen om een rangschikkende formule aan een plaatsing toe te wijzen worden beschreven in [ deze sectie ](../../using/offers/offer-activities/configure-offer-selection.md#assign-ranking-formula).
 
 1. Selecteer de fallback-aanbieding die u hebt gemaakt. Het wordt weergegeven als een beschikbare fallback-aanbieding voor de drie geselecteerde plaatsingen.
 
@@ -223,10 +227,10 @@ Om een aanbiedingsbesluit tot stand te brengen en te vormen, volg de belangrijks
 
 Uw beslissing is nu klaar om te worden gebruikt voor het aanbieden van geoptimaliseerde en persoonlijke aanbiedingen.
 
-De gedetailleerde stappen om een besluit tot stand te brengen en te vormen worden beschreven in [&#x200B; deze sectie &#x200B;](../../using/offers/offer-activities/create-offer-activities.md).
+De gedetailleerde stappen om een besluit tot stand te brengen en te vormen worden beschreven in [ deze sectie ](../../using/offers/offer-activities/create-offer-activities.md).
 
 ## De beslissing invoegen in een e-mail {#insert-decision-in-email}
 
-Nu uw beslissing live is, kunt u deze invoegen in een e-mailbericht. Om dit te doen, volg de stappen die op [&#x200B; worden gedetailleerd deze pagina &#x200B;](../../using/email/add-offers-email.md).
+Nu uw beslissing live is, kunt u deze invoegen in een e-mailbericht. Om dit te doen, volg de stappen die op [ worden gedetailleerd deze pagina ](../../using/email/add-offers-email.md).
 
 ![](assets/offers-e2e-offers-displayed.png)

@@ -3,20 +3,25 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Aan de slag met API's voor levering van aanbiedingen
 description: Meer informatie over de beschikbare API's voor het aanbieden van persoonlijke aanbiedingen.
+badge: label="Verouderd" type="Informative"
 feature: Decision Management, API
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met API&#39;s voor levering van aanbiedingen {#about-decisioning-apis}
+
+>[!TIP]
+>
+>Het besluit, de nieuwe beslissingsmogelijkheden van [!DNL Adobe Journey Optimizer], is nu beschikbaar via de op code gebaseerde ervaring en e-mailkanalen! [Meer informatie](../../../experience-decisioning/gs-experience-decisioning.md)
 
 U kunt aanbiedingen leveren gebruikend of **Beslissing** of **Edge Beslissing** API. Bovendien, staat de **Beslissing van de Partij** API u toe om aanbiedingen aan alle profielen in een bepaald publiek in één vraag te leveren. De aanbiedingsinhoud voor elke profielen in het publiek wordt geplaatst in een dataset van Adobe Experience Platform waar het voor de werkschema&#39;s van de douanepartij beschikbaar is.
 
@@ -48,7 +53,7 @@ Wanneer contextgegevens worden doorgegeven met een Edge-API-aanvraag voor beslui
 
 **de Teller update van de het afschilderen van de Frequentie**
 
-Als voor sommige van uw aanbiedingen de functie voor het toewijzen van frequenties is ingeschakeld om te bepalen hoe vaak het aantal bijschriften wordt teruggezet, wordt de teller binnen 3 seconden bijgewerkt en beschikbaar in een Edge-beslissing voor de API voor besluitvorming. [&#x200B; Leer hoe te om beperkingen aan een aanbieding toe te voegen &#x200B;](../../offer-library/add-constraints.md)
+Als voor sommige van uw aanbiedingen de functie voor het toewijzen van frequenties is ingeschakeld om te bepalen hoe vaak het aantal bijschriften wordt teruggezet, wordt de teller binnen 3 seconden bijgewerkt en beschikbaar in een Edge-beslissing voor de API voor besluitvorming. [ Leer hoe te om beperkingen aan een aanbieding toe te voegen ](../../offer-library/add-constraints.md)
 
 ## API-mogelijkheden voor besluitvorming {#decisioning}
 

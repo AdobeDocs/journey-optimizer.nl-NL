@@ -9,14 +9,18 @@ role: User, Developer
 level: Intermediate
 exl-id: f85563e2-fc83-49fb-8771-0f0656a90f9a
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 63%
+source-wordcount: '113'
+ht-degree: 55%
 
 ---
 
 # Toegang tot gebeurtenissen van XDM-velden {#decisioningevents-xdm-schema}
+
+>[!TIP]
+>
+>Het besluit, de nieuwe beslissingsmogelijkheden van [!DNL Adobe Journey Optimizer], is nu beschikbaar via de op code gebaseerde ervaring en e-mailkanalen! [Meer informatie](../../experience-decisioning/gs-experience-decisioning.md)
 
 U kunt tot het schema DecisioningEvents XDM van DecisioningEvents direct van een dataset toegang hebben die de gebeurtenissen van het Beheer van het Besluit bevat.
 
