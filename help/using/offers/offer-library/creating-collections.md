@@ -96,6 +96,6 @@ Ga als volgt te werk om een verzameling te maken:
 
 ## Hoe kan ik-video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3474878?captions=dut&quality=12)
 
 
