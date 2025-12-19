@@ -28,7 +28,7 @@ ht-degree: 0%
 
 **Rangschikkende formules** staan u toe om regels te bepalen die welke aanbieding eerst voor een bepaalde plaatsing, eerder dan rekening houdend met de prioritaire scores van aanbiedingen zullen bepalen.
 
-De rangschikkende formules worden uitgedrukt in **syntaxis van PQL** en kunnen attributen van het hefboomwerkingenprofiel, contextgegevens en aanbiedingsattributen. Voor meer op hoe te om de syntaxis van PQL te gebruiken, verwijs naar de [&#x200B; specifieke documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
+De rangschikkende formules worden uitgedrukt in **syntaxis van PQL** en kunnen attributen van het hefboomwerkingenprofiel, contextgegevens en aanbiedingsattributen. Voor meer op hoe te om de syntaxis van PQL te gebruiken, verwijs naar de [&#x200B; specifieke documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=nl-NL).
 
 Nadat u een rangschikkingsformule hebt gemaakt, kunt u deze toewijzen aan een plaatsing in een beslissing. Voor meer op dit, zie [&#x200B; aanbiedingsselectie in besluiten &#x200B;](../offer-activities/configure-offer-selection.md) vormen.
 

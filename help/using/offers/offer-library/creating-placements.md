@@ -75,11 +75,11 @@ Voer de volgende stappen uit om een plaatsing te maken:
 
    * **[!UICONTROL Include content]** / **[!UICONTROL Include metadata]** : geef op of de inhoud en metagegevens van de aanbieding moeten worden geretourneerd in de API-reactie. U kunt alleen alle metagegevens of specifieke velden opnemen. De waarde voor Inclusief metagegevens is standaard ingesteld op true.
 
-   Deze parameters kunnen ook direct in uw API verzoek worden geplaatst als u met [&#x200B; Beslissing API &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html) werkt. Als u deze echter configureert in de gebruikersinterface, kunt u tijd besparen omdat u deze niet in elke API-aanvraag hoeft door te geven. Merk op dat als u de parameters zowel in gebruikersinterface als het API verzoek vormt, de waarden van het API verzoek over degenen van de interface zullen prevaleren.
+   Deze parameters kunnen ook direct in uw API verzoek worden geplaatst als u met [&#x200B; Beslissing API &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html?lang=nl-NL) werkt. Als u deze echter configureert in de gebruikersinterface, kunt u tijd besparen omdat u deze niet in elke API-aanvraag hoeft door te geven. Merk op dat als u de parameters zowel in gebruikersinterface als het API verzoek vormt, de waarden van het API verzoek over degenen van de interface zullen prevaleren.
 
    >[!NOTE]
    >
-   >Als u met [&#x200B; Edge beslist API &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?) werkt, kunt u niet deze parameters in uw verzoek plaatsen. U moet ze in dit scherm definiëren.
+   >Als u met [&#x200B; Edge beslist API &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?lang=nl-NL&) werkt, kunt u niet deze parameters in uw verzoek plaatsen. U moet ze in dit scherm definiëren.
    >
    >Als u met de [&#x200B; Bevestiging API van de Partij &#x200B;](../api-reference/offer-delivery-api/batch-decisioning-api.md) werkt, kunt u deze parameters of in dit scherm of in uw API verzoek plaatsen. Als parameterwaarden niet overeenkomen tussen het scherm en het APi-verzoek, worden de aanvraagwaarden gebruikt.
 
