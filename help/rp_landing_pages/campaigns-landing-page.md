@@ -22,7 +22,7 @@ Campagnes in Adobe Journey Optimizer stellen u in staat om persoonlijke, actuele
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met campagnes
 
@@ -32,7 +32,7 @@ Leer de grondbeginselen van campagnes in Adobe Journey Optimizer, met inbegrip v
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Campagnes openen en beheren
 
@@ -42,7 +42,7 @@ Ontdek hoe u campagnes kunt openen, beheren, wijzigen of archiveren en de kalend
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Handelingscampagnes
 
@@ -52,7 +52,7 @@ Stapsgewijze instructies voor het maken, aanpassen en activeren van campagnes vo
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 API-actiecampagnes
 
@@ -62,7 +62,7 @@ Uitgebreide begeleiding voor ontwikkelaars bij het creëren en beheren van API-g
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Geordende campagnes
 

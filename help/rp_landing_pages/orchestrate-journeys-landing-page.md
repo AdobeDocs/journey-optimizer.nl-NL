@@ -22,7 +22,7 @@ De reizen in Adobe Journey Optimizer stellen u in staat om persoonlijke, uit mee
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met Adobe Journey Optimizer-reizen
 
@@ -32,7 +32,7 @@ Leer hoe u in meerdere stappen en realtime klantritten kunt maken met behulp van
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Uitgebreide gids voor het Creëren en het Leiden van Reizen
 
@@ -42,7 +42,7 @@ Stapsgewijze begeleiding bij het ontwerpen, testen, publiceren en volgen van kla
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Uitgebreide gids voor het beheren van reizen
 
@@ -52,7 +52,7 @@ Beheer klantritten efficiënt met hulpmiddelen voor het filtreren, profielbeheer
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Activiteiten in Adobe Journey Optimizer
 
@@ -62,7 +62,7 @@ Ontdek hoe u activiteiten zoals triggers, beslissingsstappen, publieksbeheer en 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Expressies maken in Adobe Journey Optimizer
 
@@ -72,7 +72,7 @@ Masterexpressies maken voor dynamische workflows, gegevensmanipulatie en geavanc
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Praktische gebruiksscenario&#39;s voor Adobe Journey Optimizer
 
@@ -90,6 +90,6 @@ Verken real-world toepassingen van Adobe Journey Optimizer, met inbegrip van mul
 
 - **[abonneert aan de Alarm van de Reis](../using/reports/alerts.md)** - ontdek hoe te om systeemalarm te beheren, aan berichten in te tekenen, en problemen in reizen en campagnes problemen op te lossen.
 
-- **[Zelfstudies van de Reis ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - leer reis die door hands-on videoleerprogramma&#39;s bouwt die eigenschappen, mogelijkheden, en beste praktijken behandelen.
+- **[Zelfstudies van de Reis &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - leer reis die door hands-on videoleerprogramma&#39;s bouwt die eigenschappen, mogelijkheden, en beste praktijken behandelen.
 
 
