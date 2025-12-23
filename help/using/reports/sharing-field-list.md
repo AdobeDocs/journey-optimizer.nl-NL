@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 4f13f863a5e08cc0e92c26d782d888f0d6d2fea4
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 3%
@@ -70,11 +70,11 @@ Deze mix bevat alle velden die overeenkomen met een profielexporttaak. Deze gebe
 | eventType | String | Het gebeurtenistype dat aangeeft of het een foutgebeurtenis of een info-gebeurtenis is: Info, Error |
 | eventCode | String | De foutcode die de reden voor het overeenkomende eventType aangeeft |
 
-Leer meer over eventTypes [&#x200B; in deze sectie &#x200B;](#discarded-events).
+Leer meer over eventTypes [ in deze sectie ](#discarded-events).
 
 ## stepEvents {#stepevents-field}
 
-Deze categorie bevat de oorspronkelijke velden voor stapgebeurtenissen. Verwijs naar deze [&#x200B; sectie &#x200B;](../reports/sharing-legacy-fields.md).
+Deze categorie bevat de oorspronkelijke velden voor stapgebeurtenissen. Verwijs naar deze [ sectie ](../reports/sharing-legacy-fields.md).
 
 
 ## Los verworpen gebeurtenistypen in de gebeurtenissen van de stap van de Reis problemen op  {#discarded-events}
@@ -95,7 +95,7 @@ Hieronder vindt u definities, algemene oorzaken en stappen voor het oplossen van
 
   **het Oplossen van problemen**: Zorg minstens één reis levend is en voor het segment wordt gevormd, verifieer segment IDs.
 
-* **JOURNEY_INSTANCE_ID_NOT_CREATE**: Het systeem slaagde er niet in om een reisinstantie voor de klant tot stand te brengen.
+* **JOURNEY_INSTANCE_ID_NOT_CREATED**: Het systeem slaagde er niet in om een reisinstantie voor de klant tot stand te brengen.
 
   **Gemeenschappelijke oorzaken**: Dubbele gebeurtenissen, hoog gebeurtenisvolume, de beperkingen van het systeemmiddel.
 
@@ -112,11 +112,11 @@ Hieronder vindt u definities, algemene oorzaken en stappen voor het oplossen van
    * **PAUSED_JOURNEY_VERSION**: Keert die op het punt van reisingang voorkwamen
    * **JOURNEY_IN_PAUSED_STATE**: Keert terug die gebeurde wanneer de profielen in een reis zijn
 
-  Leer meer over deze gebeurtenissen en hoe te om hen in [&#x200B; problemen op te lossen pauzeer een sectie van de Reis &#x200B;](../building-journeys/journey-pause.md#discards-troubleshoot).
+  Leer meer over deze gebeurtenissen en hoe te om hen in [ problemen op te lossen pauzeer een sectie van de Reis ](../building-journeys/journey-pause.md#discards-troubleshoot).
 
 ## Aanvullende bronnen
 
-* [&#x200B; de vraagsteekproeven van de Dataset - de Gebeurtenis van de Stap van de Reis &#x200B;](../data/datasets-query-examples.md#journey-step-event).
-* [&#x200B; Voorbeelden van vragen - op gebeurtenis-gebaseerde Vragen &#x200B;](query-examples.md#event-based-queries).
-* [&#x200B; Ingebouwd schemawoordenboek &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+* [ de vraagsteekproeven van de Dataset - de Gebeurtenis van de Stap van de Reis ](../data/datasets-query-examples.md#journey-step-event).
+* [ Voorbeelden van vragen - op gebeurtenis-gebaseerde Vragen ](query-examples.md#event-based-queries).
+* [ Ingebouwd schemawoordenboek ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 
