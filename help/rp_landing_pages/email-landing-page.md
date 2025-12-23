@@ -5,7 +5,7 @@ title: Email channel
 description: Email channel
 redpen-status: CREATED_||_2025-08-11_20-35-15
 exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
-source-git-commit: 9cb3a60fb9a2266b4723dfc1b952f1bab11b97e3
+source-git-commit: e2ecfcd3163965bbd0ada68edd61ac07373eaad2
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
@@ -18,9 +18,9 @@ Met het e-mailkanaal in Adobe Journey Optimizer kunt u zeer nauwkeurig en creati
 
 E-mailleveringen kunnen worden gemaakt:
 
-* In a **Weg**: zodra u een **[!UICONTROL Email]** activiteit aan uw reis toevoegde, en bepaalde basismontages, gebruik de **[!UICONTROL Actions: Email]** juiste ruit om de inhoud voor het bericht tot stand te brengen. [&#x200B; leer hoe te om een reis &#x200B;](../using/building-journeys/journey-gs.md) tot stand te brengen
+* In a **Weg**: zodra u een **[!UICONTROL Email]** activiteit aan uw reis toevoegde, en bepaalde basismontages, gebruik de **[!UICONTROL Actions: Email]** juiste ruit om de inhoud voor het bericht tot stand te brengen. [ leer hoe te om een reis ](../using/building-journeys/journey-gs.md) tot stand te brengen
 
-* In a **Campagne**: Zodra u een campagne creeerde, selecteer **[!UICONTROL Email]** als uw actie en bepaal basismontages. [&#x200B; Leer hoe te om een campagne &#x200B;](../using/campaigns/create-campaign.md#configure) tot stand te brengen
+* In a **Campagne**: Zodra u een campagne creeerde, selecteer **[!UICONTROL Email]** als uw actie en bepaal basismontages. [ Leer hoe te om een campagne ](../using/campaigns/create-campaign.md#configure) tot stand te brengen
 
 
 >[!IMPORTANT]
@@ -32,7 +32,7 @@ E-mailleveringen kunnen worden gemaakt:
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Een e-mail maken
 
@@ -42,7 +42,7 @@ Stapsgewijze handleiding voor het toevoegen, configureren en testen van e-mailha
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 E-mailinhoud ontwerpen en optimaliseren
 
@@ -52,7 +52,7 @@ Ontdek gereedschappen en aanbevolen procedures voor het ontwerpen van responsiev
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 E-mail niet-ontvangen beheren
 
@@ -62,7 +62,7 @@ Configureer een- of tweestapsmechanisme voor weigeren om gebruikersvoorkeuren te
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 E-mailkanaal configureren
 
@@ -72,13 +72,13 @@ Stel e-mailconfiguraties in en beheer deze, zoals subdomeindelegatie, suppressie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 E-maillevering beheren
 
 Begrijp en optimaliseer de e-mailleverbaarheid met hulpmiddelen, beste praktijken, en actionable inzichten om de reputatie van de afzender te verbeteren.
 
-[E-maillevering verbeteren](deliverability-landing-page.md)
+[E-maillevering verbeteren](../using/reports/deliverability.md)
 :::
 
 ::::
