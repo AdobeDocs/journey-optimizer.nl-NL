@@ -32,7 +32,7 @@ E-mailleveringen kunnen worden gemaakt:
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Een e-mail maken
 
@@ -42,7 +42,7 @@ Stapsgewijze handleiding voor het toevoegen, configureren en testen van e-mailha
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 E-mailinhoud ontwerpen en optimaliseren
 
@@ -52,7 +52,7 @@ Ontdek gereedschappen en aanbevolen procedures voor het ontwerpen van responsiev
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
 
 E-mail niet-ontvangen beheren
 
@@ -62,7 +62,7 @@ Configureer een- of tweestapsmechanisme voor weigeren om gebruikersvoorkeuren te
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 E-mailkanaal configureren
 
@@ -72,7 +72,7 @@ Stel e-mailconfiguraties in en beheer deze, zoals subdomeindelegatie, suppressie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
 
 E-maillevering beheren
 
