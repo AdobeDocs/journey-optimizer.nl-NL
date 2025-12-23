@@ -18,11 +18,11 @@ Een proef is een specifiek bericht dat u toestaat om een bericht te testen alvor
 
 >[!NOTE]
 >
->Met [!DNL Journey Optimizer] kunt u ook verschillende varianten van uw inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [ leer hoe te om inhoudvariaties ](../test-approve/simulate-sample-input.md) te simuleren
+>Met [!DNL Journey Optimizer] kunt u ook verschillende varianten van uw inhoud testen door deze voor te vertonen en proefdrukken te verzenden met behulp van voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [&#x200B; leer hoe te om inhoudvariaties &#x200B;](../test-approve/simulate-sample-input.md) te simuleren
 
 ## Meer lezen {#must-read}
 
-**het Afbakenen van de Frequentie regels** - Alle bestaande frequentie die regels afschilderen is op proeven van toepassing. Als u [ frequentie het begrenzen regels ](../conflict-prioritization/channel-capping.md) hebt geplaatst (b.v., verzendt het maximum per profiel), zijn deze grenzen ook van toepassing wanneer het verzenden van proeven. Als een testprofiel de limiet voor de maximale frequentie al heeft bereikt, worden proefdrukken weergegeven als voltooid, maar wordt er geen e-mail verzonden. Voor herhaalde tests kunt u eventueel gebruikmaken van unieke testprofielen of frequentiecappen aanpassen om scenario&#39;s te testen.
+**het Afbakenen van de Frequentie regels** - Alle bestaande frequentie die regels afschilderen is op proeven van toepassing. Als u [&#x200B; frequentie het begrenzen regels &#x200B;](../conflict-prioritization/channel-capping.md) hebt geplaatst (b.v., verzendt het maximum per profiel), zijn deze grenzen ook van toepassing wanneer het verzenden van proeven. Als een testprofiel de limiet voor de maximale frequentie al heeft bereikt, worden proefdrukken weergegeven als voltooid, maar wordt er geen e-mail verzonden. Voor herhaalde tests kunt u eventueel gebruikmaken van unieke testprofielen of frequentiecappen aanpassen om scenario&#39;s te testen.
 
 **pagina van het Spiegel** - in de verzonden proef, is de verbinding aan de spiegelpagina niet actief. Deze wordt alleen geactiveerd in de laatste berichten.
 
@@ -34,17 +34,17 @@ Een proef is een specifiek bericht dat u toestaat om een bericht te testen alvor
 
 ## Proefdrukken verzenden {#send-proofs-steps}
 
-Om e-mailproeven te verzenden die de gegevens van testprofielen gebruiken, moet u [ testprofielen ](test-profiles.md) eerst selecteren. Voer vervolgens de volgende stappen uit:
+Om e-mailproeven te verzenden die de gegevens van testprofielen gebruiken, moet u [&#x200B; testprofielen &#x200B;](test-profiles.md) eerst selecteren. Voer vervolgens de volgende stappen uit:
 
 1. Klik in het **[!UICONTROL Simulate]** -scherm op de knop **[!UICONTROL Send proof]** .
 
-   ![ verzendt proefdrukknoop in het simuleren scherm ](../email/assets/send-proof-button.png)
+   ![&#x200B; verzendt proefdrukknoop in het simuleren scherm &#x200B;](../email/assets/send-proof-button.png)
 
 1. Typ in het venster **[!UICONTROL Send proof]** de e-mail van de ontvanger en klik op **[!UICONTROL Add]** om de proef naar uzelf of naar leden van uw organisatie te verzenden.
 
    U kunt maximaal tien ontvangers toevoegen voor de proefaflevering.
 
-   ![ voegt ontvangers aan de proeflevering ](../email/assets/send-proof-add.png) toe
+   ![&#x200B; voegt ontvangers aan de proeflevering &#x200B;](../email/assets/send-proof-add.png) toe
 
 1. Selecteer de **profielen van de Test** om de berichtinhoud te gebruiken te personaliseren.
 
@@ -54,10 +54,10 @@ Om e-mailproeven te verzenden die de gegevens van testprofielen gebruiken, moet 
 
 1. Klik op **[!UICONTROL Send proof]**.
 
-   ![ selecteer testprofielen en verzend de proef ](../email/assets/send-proof-select.png)
+   ![&#x200B; selecteer testprofielen en verzend de proef &#x200B;](../email/assets/send-proof-select.png)
 
 1. Klik weer in het **[!UICONTROL Simulate]** -scherm op de knop **[!UICONTROL View proofs]** om de status te controleren.
 
-   ![ knoop van de Beelden van de Mening om leveringsstatus te controleren ](../email/assets/send-proof-view.png)
+   ![&#x200B; knoop van de Beelden van de Mening om leveringsstatus te controleren &#x200B;](../email/assets/send-proof-view.png)
 
 Het wordt aanbevolen om na elke wijziging proefdrukken naar de inhoud van het bericht te verzenden.
