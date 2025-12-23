@@ -5,27 +5,51 @@ title: Problemen oplossen
 description: Problemen oplossen
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: eca6378093abcb2a75ebfee56be82bb2257d514d
+source-git-commit: 4dfda2a13bfd01c7c556ae3e8eb31916592c569b
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 1%
+source-wordcount: '504'
+ht-degree: 0%
 
 ---
 
-# Bewaking en problemen oplossen{#section-overview}
+# Bijhouden, controleren en problemen oplossen {#section-overview}
 
-Voor een effectief beheer van uw klantritten is proactieve bewaking, inzichtelijke rapportage en efficiënte mogelijkheden voor probleemoplossing vereist. Adobe Journey Optimizer biedt uitgebreide tools om de reisprestaties te volgen, potentiële problemen te identificeren en problemen snel op te lossen wanneer ze zich voordoen.
+Het effectief beheren van uw klantenreizen begint met uitvoerige het volgen, toelatend pro-actieve controle, inzichtelijke rapportering, en efficiënte het oplossen van problemen. Adobe Journey Optimizer biedt een volledig raamwerk voor het vastleggen van interactie van klanten en systeemgebeurtenissen, het analyseren van prestatiegegevens en het snel oplossen van problemen wanneer deze zich voordoen.
 
-Het systeemalarm van het gebruik [&#x200B; &lbrace;om berichten over kritieke gebeurtenissen, hefboomwerkings &#x200B;](../using/reports/alerts.md) reisrapporten [&#x200B; te ontvangen om prestatiesmetriek te analyseren, en de gebeurtenissen van de de reactiestap van het overzicht &#x200B;](../using/reports/journey-global-report-cja.md) [&#x200B; om gedetailleerde uitvoeringsstromen te begrijpen. &#x200B;](../using/reports/journey-step-events-overview.md) Wanneer de kwesties voorkomen, raadpleeg [&#x200B; foutencodes &#x200B;](../using/building-journeys/error-codes-reference.md) voor snelle resoluties en volg gerichte het oplossen van problemenbegeleiding voor specifiek probleem gebied-of u reismislukkingen, uitvoeringsinconsistenties, of actie-vlakke problemen ontmoet.
+**klanteninteractie van het Spoor** over al kanaal-e-mail, Web, duw, in-app, SMS, en meer-vangen opent, klikt, omzettingen, en douanegebeurtenissen die openbaren hoe de klanten met uw inhoud in dienst nemen.
 
-Deze pagina brengt essentiële middelen samen om u te helpen reisgezondheid controleren, toegang tot zeer belangrijke rapporteringsinzichten, en kwesties efficiënt over alle stadia van uw klantenreis oplossen.
+**de reis en campagneprestaties van de monitor** gebruikend rapporten in real time, systeemalarm, en leverbaarheidsmetriek die u tendensen identificeren, succes meten, en potentiële kwesties vroegtijdig vangen.
+
+**los** problemen efficiënt met gedetailleerde foutencodes, geleidelijke uitvoeringslogboeken, en gerichte begeleiding voor het oplossen van reismislukkingen, uitvoeringsinconsistenties, of actie-vlakke problemen op.
+
+Deze pagina brengt essentiële middelen samen om u te helpen het volgen uitvoeren, reisgezondheid controleren, toegang tot zeer belangrijke rapporteringsinzichten, en kwesties efficiënt over alle stadia van uw klantenreis oplossen.
+
+## Aan de slag met bijhouden
+
+Alvorens in controle en het oplossen van problemen te duiken, zorg ervoor u een stevige stichting in het volgen hebt. Journey Optimizer biedt uitgebreide mogelijkheden voor het bijhouden van gegevens die de interactie van de klant, de leveringsprestaties en de systeemstatus in alle kanalen vastleggen.
+
+Leer hoe u tracering voor e-mails, webervaringen, pushberichten, in-app berichten en meer implementeert, inclusief hoe u aangepaste metriek instelt, URL-parameters configureert en toegang krijgt tot volggegevens via ingebouwde rapporten. [ worden begonnen met het volgen ](../using/start/get-started-tracking.md)
+
+## Rapportage en toezicht
+
+De belangrijkste rapporten van de toegang om reisprestaties te controleren, metriek te analyseren, en kwesties te identificeren:
+
+* [ de globale rapporten van de Reis ](../using/reports/journey-global-report-cja.md) - de uitvoerige metriek en de analyses van de vervoersprestaties over alle kanalen bekijken.
+
+* [ de levende rapporten van de Reis ](../using/reports/journey-live-report.md) - de gegevens van de reisuitvoering in real time van de monitor en spoor actieve klanteninteractie.
+
+* [ de stapgebeurtenissen van de Reis ](../using/reports/journey-step-events-overview.md) - Analyseer gedetailleerde geleidelijke gebeurtenissen van de reisuitvoering voor het oplossen van problemen en optimalisering.
+
+* [ krijg begonnen met rapporten ](../using/reports/report-gs-cja.md) - Leer over het melden van mogelijkheden, metriek, en hoe te om tot reisinzichten toegang te hebben.
+
+* [ de controle van de Leverbaarheid ](../using/reports/deliverability.md) - de tarieven van de berichtlevering van het spoor en identificeer potentiële leveringskwesties over kanalen.
 
 ## Problemen oplossen
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Toegang tot en abonnement op systeemwaarschuwingen
 
@@ -35,7 +59,7 @@ Leer hoe u systeemwaarschuwingen kunt openen, meldingen kunt abonneren en kritie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Referentie voor foutcodes
 
@@ -45,7 +69,7 @@ Begrijp gemeenschappelijke foutencodes in Adobe Journey Optimizer en vind snelle
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Fouten oplossen voordat u uw reis gaat testen of publiceren
 
@@ -55,7 +79,7 @@ Fouten, activiteitenproblemen en back-upacties voor de hele reis opsporen en opl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Problemen met Live Journey-uitvoering oplossen
 
@@ -65,7 +89,7 @@ Diagnose van problemen met gebeurtenisvalidatie, profielinvoer, reisnavigatie en
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Problemen met binnenkomende handelingen in reizen oplossen
 
@@ -75,33 +99,19 @@ Fouten opsporen in binnenkomende actiekwesties, zoals ontbrekende inhoud of door
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Aangepaste acties oplossen
 
-Valideer en foutopsporing aangepaste handelingen met de functie &#39;Testaanvraag verzenden&#39; om ervoor te zorgen dat API-aanroepen en verificatie-instellingen correct zijn.
+Valideer en zuivert douaneacties gebruikend **verzenden de eigenschap van het testverzoek** om API vraag en authentificatiemontages te verzekeren correct zijn.
 
 [Aangepaste handelingen valideren](../using/action/troubleshoot-custom-action.md)
 :::
 
 ::::
 
-## Rapportage en toezicht
-
-De belangrijkste rapporten van de toegang om reisprestaties te controleren, metriek te analyseren, en kwesties te identificeren:
-
-* [&#x200B; Globale Rapporten van de Reis &#x200B;](../using/reports/journey-global-report-cja.md) - de uitvoerige metriek en de analyses van de vervoersprestaties over alle kanalen bekijken.
-
-* [&#x200B; Reis Levende Rapporten &#x200B;](../using/reports/journey-live-report.md) - de gegevens van de reisuitvoering in real time van de monitor en spoor actieve klanteninteractie.
-
-* [&#x200B; Gebeurtenissen van de Stap van de Reis &#x200B;](../using/reports/journey-step-events-overview.md) - Analyseer gedetailleerde geleidelijke gebeurtenissen van de reisuitvoering voor het oplossen van problemen en optimalisering.
-
-* [&#x200B; krijgt Begonnen met Rapporten &#x200B;](../using/reports/report-gs-cja.md) - Leer over het melden van mogelijkheden, metriek, en hoe te tot reisinzichten toegang te hebben.
-
-* [&#x200B; de Controle van de Leverbaarheid &#x200B;](../using/reports/deliverability.md) - de tarieven van de berichtlevering van het spoor en identificeer potentiële leveringskwesties over kanalen.
-
 ## Aanvullende bronnen
 
-* [&#x200B; Veelgestelde vragen van de Reis &#x200B;](../using/building-journeys/journey-faq.md) - Uitgebreide antwoorden op gemeenschappelijke vragen over reizen, die vervoerstypes, uitvoering, configuratie, en het oplossen van problemenbeste praktijken behandelen.
+* [ Veelgestelde vragen van de Reis ](../using/building-journeys/journey-faq.md) - Uitgebreide antwoorden op gemeenschappelijke vragen over reizen, die vervoerstypes, uitvoering, configuratie, en het oplossen van problemenbeste praktijken behandelen.
 
-* [&#x200B; Grafieken en Beperkingen &#x200B;](../using/start/guardrails.md) - Leer over de gidsen van Journey Optimizer, productbeperkingen, prestatiesoverwegingen, en gesteunde browsers om optimaal gebruik te verzekeren.
+* [ Grafieken en beperkingen ](../using/start/guardrails.md) - Leer over de gidsen van Journey Optimizer, productbeperkingen, prestatiesoverwegingen, en gesteunde browsers om optimaal gebruik te verzekeren.
