@@ -9,54 +9,120 @@ level: Beginner, Intermediate
 keywords: reis, ontdek, begin
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
+source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 0%
+source-wordcount: '687'
+ht-degree: 1%
 
 ---
 
 
 # Aan de slag met reizen{#jo-general-principle}
 
+De reizen in Adobe Journey Optimizer stellen u in staat om persoonlijke, uit meerdere stappen bestaande klantritten te maken die zich in real time aanpassen aan het gedrag en de behoeften van uw publiek. Met een intuïtief canvas voor slepen en neerzetten kunt u berichten en acties op meerdere kanalen ordenen, waarbij gebruik wordt gemaakt van contextafhankelijke gegevens en doelgroepen voor maximale impact. Of u in real time trekkers onderzoekt, het beheren van reiseigenschappen, of het gebruiken van geavanceerde hulpmiddelen zoals douaneacties en uitdrukkingen, deze sectie verstrekt een duidelijke roadmap om u te helpen reizen ontwerpen en verfijnen die betekenisvolle, geschikte klantenervaringen leveren.
+
 Gebruik [!DNL Journey Optimizer] om in real time orchestratiefase samen te stellen met gebruik van contextuele gegevens die zijn opgeslagen in gebeurtenissen of gegevensbronnen. U kunt meerdere stappen geavanceerde scenario&#39;s met de volgende mogelijkheden ontwerpen:
 
-* Verzend in real time **unitaire levering** teweeggebracht wanneer een gebeurtenis wordt ontvangen, of **in partij** gebruikend het publiek van Adobe Experience Platform.
+* Verzend in real time **unitaire levering** teweeggebracht wanneer een [ gebeurtenis ](general-events.md) wordt ontvangen, of **in partij** gebruikend Adobe Experience Platform [ publiek ](read-audience.md).
 
-* Gebruik **contextafhankelijke gegevens** van gebeurtenissen, informatie van Adobe Experience Platform, of gegevens van de diensten van derdeAPI.
+* Hefboomwerking **contextafhankelijke gegevens** van [ gebeurtenissen ](../event/about-events.md), informatie van Adobe Experience Platform, of gegevens van de diensten van derdeAPI door [ gegevensbronnen ](../datasource/about-data-sources.md).
 
-* Gebruik **ingebouwde acties** om berichten te verzenden die in [!DNL Journey Optimizer] worden ontworpen of **douaneacties** tot stand te brengen als u een derdesysteem gebruikt om uw berichten te verzenden.
+* Gebruik **[ingebouwde acties](journeys-message.md)** om berichten te verzenden die in [!DNL Journey Optimizer] worden ontworpen of **[douaneacties](using-custom-actions.md)** tot stand te brengen als u een derdesysteem gebruikt om uw berichten te verzenden.
 
-* Met de **reisontwerper**, bouwt uw multi-step gebruiksgevallen: sleep en laat gemakkelijk een ingangsgebeurtenis of een gelezen publieksactiviteit vallen, voeg voorwaarden toe en verzend gepersonaliseerde berichten.
+* Met de **[reisontwerper](using-the-journey-designer.md)**, bouwt uw multi-step gebruiksgevallen: belemmering en laat vallen gemakkelijk een ingangsgebeurtenis of a [ gelezen publieksactiviteit ](read-audience.md), voeg [ voorwaarden ](condition-activity.md) toe en verzend gepersonaliseerde berichten.
 
-De de reisontwerper van Journey Optimizer verstrekt alles Marketers en reisartsen moeten multi-step 1 :1 reizen over kanalen organiseren. Dit omvat een intuïtief belemmering-en-dalingscanvas om elke stap van de reis te ordenen, het doelpubliek te bepalen, en de berichten, de aanbiedingen, en de inhoud te omvatten over kanalen die doelpublieksleden gebaseerd op gedrag, contextuele gegevens, en bedrijfsgebeurtenissen zullen zien.
+De Journey Optimizer [ reisontwerper ](using-the-journey-designer.md) verstrekt alles Marketers en reisartsen moeten multi-step 1 :1 reizen over kanalen organiseren. Dit omvat een intuïtief belemmering-en-dalingscanvas om elke stap van de reis te ordenen, het doelpubliek te bepalen, en de berichten, de aanbiedingen, en de inhoud te omvatten over kanalen die doelpublieksleden gebaseerd op gedrag, contextuele gegevens, en bedrijfsgebeurtenissen zullen zien. Onderzoek [ real-world gebruiksgevallen ](jo-use-cases.md) om te zien hoe u deze mogelijkheden kunt toepassen.
 
-Leer hoe te om uw eerste reis op [&#x200B; te creëren en te ontwerpen deze pagina &#x200B;](journey-gs.md).
+➡️ [ ontdekt Journey Optimizer in video ](#video)
 
-➡️ [&#x200B; ontdekt Journey Optimizer in video &#x200B;](#video)
+## Overzicht van reizen
+
+:::: landing-cards-container
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+Aan de slag met het maken van reizen
+
+Stapsgewijze begeleiding bij het ontwerpen, testen, publiceren en volgen van klantentreizen om gepersonaliseerde omnichannel campagnes te bouwen.
+
+[Uw eerste journey maken](journey-gs.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+Journey Orchestration - Volledige handleiding
+
+Uitgebreide documentatie die alle aspecten van het creëren, beheren en optimaliseren van reizen in Adobe Journey Optimizer bestrijkt.
+
+[De volledige handleiding verkennen](journey-get-started.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+Uw reizen beheren
+
+Beheer klantritten efficiënt met hulpmiddelen voor het filtreren, profielbeheer, tijdzones, en optimalisatietechnieken.
+
+[Meer informatie over reisbeheer](/help/rp_landing_pages/manage-journey-landing-page.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+
+Reisactiviteiten
+
+Ontdek hoe u activiteiten zoals triggers, beslissingsstappen, publieksbeheer en gepersonaliseerde berichten tijdens reizen kunt configureren en gebruiken.
+
+[Activiteiten verkennen](/help/rp_landing_pages/about-journey-building-landing-page.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+
+Expressies maken
+
+Masterexpressies maken voor dynamische workflows, gegevensmanipulatie en geavanceerde reisorganisatie met krachtige gereedschappen en syntaxis.
+
+[Meer informatie over expressies](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+Gevallen voor gebruik tijdens reizen
+
+Verken real-world toepassingen van Adobe Journey Optimizer, met inbegrip van multi-channel overseinen en integratie met externe systemen.
+
+[Gebruiksgevallen ontdekken](/help/rp_landing_pages/journey-use-cases-landing-page.md)
+:::
+
+::::
 
 ## Gebruiksscenario’s{#uc-journey}
 
-Van binnen de reisontwerper, kunnen de marketers in real time teweeggebrachte 1 :1 berichten door om het even welk kanaal verzenden wanneer een gebeurtenis voorkomt. Bijvoorbeeld, wanneer een klant aan de dienst intekent, kan het [&#x200B; welkome e-mail &#x200B;](message-to-subscribers-uc.md) teweegbrengen, die hen aanmoedigen om in app voor het eerst te registreren en hun voorkeur te plaatsen. Handelingen als het voltooien van de aankoop, het openen van de e-mail en het aanmelden bij de app kunnen worden gebruikt om nieuwe klanten door hun reizen te leiden.
+Van binnen de reisontwerper, kunnen de marketers in real time teweeggebrachte 1 :1 berichten door om het even welk kanaal verzenden wanneer een gebeurtenis voorkomt. Bijvoorbeeld, wanneer een klant aan de dienst intekent, kan het [ welkome e-mail ](message-to-subscribers-uc.md) teweegbrengen, die hen aanmoedigen om in app voor het eerst te registreren en hun voorkeur te plaatsen. Handelingen als het voltooien van de aankoop, het openen van de e-mail en het aanmelden bij de app kunnen worden gebruikt om nieuwe klanten door hun reizen te leiden.
 
-De [&#x200B; reisontwerper &#x200B;](using-the-journey-designer.md) verstrekt [&#x200B; ingebouwde kanaalacties &#x200B;](journeys-message.md) die uitgaande berichten, zoals e-mail, dupberichten, en SMS/MMS, evenals binnenkomende kanalen, met inbegrip van mobiele apps, websites, en code-gebaseerde ervaringen steunen die direct binnen Journey Optimizer worden gebouwd. U kunt derdesystemen ook gebruiken om berichten te verzenden — of via e-mail, tekst, of andere kanalen — Journey Optimizer omvat [&#x200B; douaneacties &#x200B;](using-custom-actions.md) om deze systemen toe te staan om in reizen direct van de reisontwerper worden geïntegreerd.
+De [ reisontwerper ](using-the-journey-designer.md) verstrekt [ ingebouwde kanaalacties ](journeys-message.md) die uitgaande berichten, zoals e-mail, dupberichten, en SMS/MMS, evenals binnenkomende kanalen, met inbegrip van mobiele apps, websites, en code-gebaseerde ervaringen steunen die direct binnen Journey Optimizer worden gebouwd. U kunt derdesystemen ook gebruiken om berichten te verzenden — of via e-mail, tekst, of andere kanalen — Journey Optimizer omvat [ douaneacties ](using-custom-actions.md) om deze systemen toe te staan om in reizen direct van de reisontwerper worden geïntegreerd.
 
-Leer hoe te reizen [&#x200B; in deze gebruiksgevallen van begin tot eind te bouwen &#x200B;](jo-use-cases.md).
+Leer hoe te reizen [ in deze gebruiksgevallen van begin tot eind te bouwen ](jo-use-cases.md).
 
 >[!NOTE]
 >
->De de gidsen en beperkingen van de reis zijn gedetailleerd op [&#x200B; deze pagina &#x200B;](../start/guardrails.md)
+>De de gidsen en beperkingen van de reis zijn gedetailleerd op [ deze pagina ](../start/guardrails.md)
 
 ## Hoe kan ik-video {#video}
 
 Ontdek de onderdelen van een reis en begrijp de grondbeginselen van het maken van een reis op het canvas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430347?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## Aanvullende bronnen {#additional-resources}
 
-* [&#x200B; Veelgestelde vragen van de Reis &#x200B;](journey-faq.md) - Veelgestelde vragen over reizen
-* [&#x200B; Verwijzing van de codes van de Fout &#x200B;](error-codes-reference.md) - de codes van de de foutenfout van de Reis en het oplossen van problemenstappen
-* [&#x200B; Alarm &#x200B;](../reports/alerts.md) - de alarm van de opstelling voor reis controle
-* [&#x200B; het Oplossen van problemen &#x200B;](troubleshooting.md) - Gemeenschappelijke reiskwesties en oplossingen
-* [&#x200B; Controle &amp; het oplossen van problemen &#x200B;](/help/rp_landing_pages/troubleshoot-journey-landing-page.md) - Hulpmiddelen en mogelijkheden om uw reizen te controleren en problemen op te lossen
+* **[de Reizen van de Klant van het oplossen van problemen](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)** - Diagnose en los kwesties van de reisuitvoering met hulpmiddelen, foutencodes, en beste praktijken voor het zuiveren en optimaliseren op
+* **[Veelgestelde vragen van de Reis](journey-faq.md)** - Veelgestelde vragen over reizen
+* **[Waarschuwingen van de Reis](../reports/alerts.md)** - De alarm van de opstelling voor reis controle en tekent aan berichten voor updates in real time in
+* **[Verwijzing van de codes van de Fout](error-codes-reference.md)** - de codes van de de foutenfout van de Reis en het oplossen van problemenstappen
+* **[het Oplossen van problemen](troubleshooting.md)** - Gemeenschappelijke reiskwesties en oplossingen
+* **[Zelfstudies van de Reis (video&#39;s) ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - leer reis die door hands-on videoleerprogramma&#39;s bouwt die eigenschappen, mogelijkheden, en beste praktijken behandelen
