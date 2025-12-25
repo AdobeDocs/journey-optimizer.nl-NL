@@ -37,7 +37,7 @@ Gebruik [!DNL Journey Optimizer] om in real time orchestratiefase samen te stell
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Aan de slag met het maken van reizen
 
@@ -47,7 +47,7 @@ Stapsgewijze begeleiding bij het ontwerpen, testen, publiceren en volgen van kla
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Journey Orchestration - Volledige handleiding
 
@@ -57,7 +57,7 @@ Uitgebreide documentatie die alle aspecten van het creëren, beheren en optimali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Uw reizen beheren
 
@@ -67,7 +67,7 @@ Beheer klantritten efficiënt met hulpmiddelen voor het filtreren, profielbeheer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 Reisactiviteiten
 
@@ -77,7 +77,7 @@ Ontdek hoe u activiteiten zoals triggers, beslissingsstappen, publieksbeheer en 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 Expressies maken
 
@@ -87,7 +87,7 @@ Masterexpressies maken voor dynamische workflows, gegevensmanipulatie en geavanc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
 
 Gevallen voor gebruik tijdens reizen
 
@@ -222,4 +222,4 @@ Ontdek de onderdelen van een reis en begrijp de grondbeginselen van het maken va
 * **[Waarschuwingen van de Reis](../reports/alerts.md)** - De alarm van de opstelling voor reis controle en tekent aan berichten voor updates in real time in
 * **[Verwijzing van de codes van de Fout](error-codes-reference.md)** - de codes van de de foutenfout van de Reis en het oplossen van problemenstappen
 * **[het Oplossen van problemen](troubleshooting.md)** - Gemeenschappelijke reiskwesties en oplossingen
-* **[Zelfstudies van de Reis (video&#39;s) &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - leer reis die door hands-on videoleerprogramma&#39;s bouwt die eigenschappen, mogelijkheden, en beste praktijken behandelen
+* **[Zelfstudies van de Reis (video&#39;s) &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - leer reis die door hands-on videoleerprogramma&#39;s bouwt die eigenschappen, mogelijkheden, en beste praktijken behandelen
