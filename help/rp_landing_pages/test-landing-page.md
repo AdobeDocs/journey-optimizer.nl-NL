@@ -38,19 +38,19 @@ Volg de onderstaande aanbevolen procedures om de doeltreffendheid van uw testact
 
 1. **Test vroeg en vaak** - wacht niet tot een campagne volledig wordt gebouwd. Test inhoud, personalisatie en logica in toenemende mate tijdens uw ontwikkeling.
 
-1. **Gebruik realistische testprofielen** - [ creeer testprofielen ](../using/audience/creating-test-profiles.md) die nauwkeurig uw doelpubliekssegmenten, met inbegrip van randgevallen en verschillende verpersoonlijkingsscenario&#39;s vertegenwoordigen.
+1. **Gebruik realistische testprofielen** - [&#x200B; creeer testprofielen &#x200B;](../using/audience/creating-test-profiles.md) die nauwkeurig uw doelpubliekssegmenten, met inbegrip van randgevallen en verschillende verpersoonlijkingsscenario&#39;s vertegenwoordigen.
 
-1. **Test over apparaten en cliënten** - verifieer [ e-mailteruggevende ](../using/content-management/rendering.md) op populaire e-mailcliënten (Gmail, Vooruitzichten, de Post van Apple) en apparaten (Desktop, mobiel, tablet) om verenigbare vertoning te verzekeren.
+1. **Test over apparaten en cliënten** - verifieer [&#x200B; e-mailteruggevende &#x200B;](../using/content-management/rendering.md) op populaire e-mailcliënten (Gmail, Vooruitzichten, de Post van Apple) en apparaten (Desktop, mobiel, tablet) om verenigbare vertoning te verzekeren.
 
-1. **bevestigt volledig verpersoonlijking** - test met veelvoudige [ testprofielen ](../using/content-management/test-profiles.md) die verschillende attributenwaarden hebben om verpersoonlijkingstokens te bevestigen teruggeven correct en het werk van terugvalwaarden.
+1. **bevestigt volledig verpersoonlijking** - test met veelvoudige [&#x200B; testprofielen &#x200B;](../using/content-management/test-profiles.md) die verschillende attributenwaarden hebben om verpersoonlijkingstokens te bevestigen teruggeven correct en het werk van terugvalwaarden.
 
-1. **Simuleer reiswegen** - voor complexe reizen met veelvoudige takken, gebruik [ testwijze ](../using/building-journeys/testing-the-journey.md) om verschillende ingangsvoorwaarden en profielattributen te testen om alle mogelijke wegen te bevestigen.
+1. **Simuleer reiswegen** - voor complexe reizen met veelvoudige takken, gebruik [&#x200B; testwijze &#x200B;](../using/building-journeys/testing-the-journey.md) om verschillende ingangsvoorwaarden en profielattributen te testen om alle mogelijke wegen te bevestigen.
 
-1. **de leverbaarheidsindicatoren van de Controle** - het spamscores van het Overzicht [ ](../using/content-management/spam-report.md), authentificatiestatus, en e-mailgezondheidsmetriek alvorens groot verzendt.
+1. **de leverbaarheidsindicatoren van de Controle** - het spamscores van het Overzicht [&#x200B; &#x200B;](../using/content-management/spam-report.md), authentificatiestatus, en e-mailgezondheidsmetriek alvorens groot verzendt.
 
 1. **de testresultaten van het Document** - houd verslagen van testresultaten, gevonden kwesties, en resoluties om toekomstige testprocessen te verbeteren en lessen met uw team te delen.
 
-1. **verbind vroege belanghebbenden** - Deel voorproeven en testresultaten met belanghebbenden vóór [ formele goedkeuring ](../using/test-approve/gs-approval.md) om te verzamelen terugkoppel en richt verwachtingen.
+1. **verbind vroege belanghebbenden** - Deel voorproeven en testresultaten met belanghebbenden vóór [&#x200B; formele goedkeuring &#x200B;](../using/test-approve/gs-approval.md) om te verzamelen terugkoppel en richt verwachtingen.
 
 ## Aanbevolen testworkflow
 
@@ -60,56 +60,56 @@ Volg deze systematische aanpak om te zorgen voor grondige tests en probleemloze 
 
 Begin door uw inhoud te creëren en voorproefmogelijkheden te gebruiken om eerste ontwerp en verpersoonlijking te verifiëren:
 
-* Ontwerp uw [ e-mail ](../using/email/create-email.md), [ SMS ](../using/sms/create-sms.md), [ duw bericht ](../using/push/create-push.md), of andere kanaalinhoud
+* Ontwerp uw [&#x200B; e-mail &#x200B;](../using/email/create-email.md), [&#x200B; SMS &#x200B;](../using/sms/create-sms.md), [&#x200B; duw bericht &#x200B;](../using/push/create-push.md), of andere kanaalinhoud
 * Gebruik de **[Simuleer inhoud](../using/content-management/preview-test.md)** eigenschap aan voorproef met testprofielen
-* De tokens van de controle [ van de 1} verpersoonlijking {, dynamische inhoud, en terugvalwaarden](../using/personalization/personalization-syntax.md)
-* Verifieer [ teruggevend ](../using/content-management/rendering.md) over verschillende het schermgrootte en e-mailcliënten
+* De tokens van de controle [&#x200B; van de 1&rbrace; verpersoonlijking &lbrace;, dynamische inhoud, en terugvalwaarden](../using/personalization/personalization-syntax.md)
+* Verifieer [&#x200B; teruggevend &#x200B;](../using/content-management/rendering.md) over verschillende het schermgrootte en e-mailcliënten
 
 ### &#x200B;2. Technische validatie
 
 Valideer technische aspecten die gevolgen hebben voor de leverbaarheid en functionaliteit:
 
-* Voer [ controles van de spamscore ](../using/content-management/spam-report.md) in werking om potentiële leveringskwesties te identificeren
+* Voer [&#x200B; controles van de spamscore &#x200B;](../using/content-management/spam-report.md) in werking om potentiële leveringskwesties te identificeren
 * Koppelingen testen om te controleren of ze niet worden verbroken en correct worden bijgehouden
-* Bevestig [ e-mailauthentificatie ](../using/configuration/dmarc-record.md) (SPF, DKIM, DMARC) configuratie
+* Bevestig [&#x200B; e-mailauthentificatie &#x200B;](../using/configuration/dmarc-record.md) (SPF, DKIM, DMARC) configuratie
 * HTML-rendering controleren en controleren op problemen met CSS-compatibiliteit
-* Test [ ontvankelijk ontwerp ](../using/email/content-from-scratch.md) op mobiele en Desktopapparaten
+* Test [&#x200B; ontvankelijk ontwerp &#x200B;](../using/email/content-from-scratch.md) op mobiele en Desktopapparaten
 
 ### &#x200B;3. Reistesten
 
 Voor reizen valideert u de orkestlogica:
 
 * Activeer **[wijze van de Test](../using/building-journeys/testing-the-journey.md)** om profielvooruitgang door de reis te simuleren
-* Test verschillende [ ingangsvoorwaarden ](../using/building-journeys/entry-management.md) en publiekskwalificaties
-* Verifieer [ activiteiten ](../using/building-journeys/wait-activity.md) wachten, [ voorwaarden ](../using/building-journeys/condition-activity.md), en vertakkend logisch werk correct
+* Test verschillende [&#x200B; ingangsvoorwaarden &#x200B;](../using/building-journeys/entry-management.md) en publiekskwalificaties
+* Verifieer [&#x200B; activiteiten &#x200B;](../using/building-journeys/wait-activity.md) wachten, [&#x200B; voorwaarden &#x200B;](../using/building-journeys/condition-activity.md), en vertakkend logisch werk correct
 * Gebruik **[Droog looppas](../using/building-journeys/journey-dry-run.md)** voor complexe reizen om uitvoeringspaden te analyseren zonder berichten te verzenden
-* Controle dat [ gebeurtenissen ](../using/event/about-events.md) correct teweegbrengen en [ douaneacties ](../using/action/about-custom-action-configuration.md) uitvoeren zoals verwacht
+* Controle dat [&#x200B; gebeurtenissen &#x200B;](../using/event/about-events.md) correct teweegbrengen en [&#x200B; douaneacties &#x200B;](../using/action/about-custom-action-configuration.md) uitvoeren zoals verwacht
 
 ### &#x200B;4. Goedkeuringsaanvraag
 
 Nadat het testen is voltooid en de problemen zijn opgelost:
 
-* Verzend de campagne of de reis voor goedkeuring volgens het 0} goedkeuringsbeleid van uw organisatie [](../using/test-approve/approval-policies.md)
-* Omvat testresultaten en documentatie met het [ goedkeuringsverzoek ](../using/test-approve/request-approval.md)
-* Adres om het even welke terugkoppel of veranderingsverzoeken van [ fiatteurs ](../using/test-approve/review-approve-request.md)
+* Verzend de campagne of de reis voor goedkeuring volgens het 0&rbrace; goedkeuringsbeleid van uw organisatie [&#128279;](../using/test-approve/approval-policies.md)
+* Omvat testresultaten en documentatie met het [&#x200B; goedkeuringsverzoek &#x200B;](../using/test-approve/request-approval.md)
+* Adres om het even welke terugkoppel of veranderingsverzoeken van [&#x200B; fiatteurs &#x200B;](../using/test-approve/review-approve-request.md)
 * Breng de noodzakelijke herzieningen aan en test of de wijzigingen significant zijn
 
 ### &#x200B;5. Verificatie voorafgaand aan de lancering
 
 Voordat u uw campagne of reis activeert:
 
-* Voer een definitieve overzicht van alle montages, publiek, en [ programma&#39;s ](../using/building-journeys/journey-properties.md) uit
+* Voer een definitieve overzicht van alle montages, publiek, en [&#x200B; programma&#39;s &#x200B;](../using/building-journeys/journey-properties.md) uit
 * Controleren of alle goedkeuringen zijn geïnstalleerd en gedocumenteerd
-* Bevestig verzendt tijden en [ tijdstreken ](../using/building-journeys/timezone-management.md) correct zijn
-* Laat [ controle en alarm ](../using/reports/alerts.md) toe om prestaties na lancering te volgen
+* Bevestig verzendt tijden en [&#x200B; tijdstreken &#x200B;](../using/building-journeys/timezone-management.md) correct zijn
+* Laat [&#x200B; controle en alarm &#x200B;](../using/reports/alerts.md) toe om prestaties na lancering te volgen
 
 ### &#x200B;6. Monitor en herhaling
 
 Ga na het opstarten door met de bewaking om eventuele problemen vroeg op te vangen:
 
-* De opstelling [ systeemalarm ](../using/reports/alerts.md) voor reisfouten, hoge stuittarieven, of lage overeenkomst
-* Herzie [ levende rapporten ](../using/building-journeys/report-journey.md) om prestaties tegen verwachtingen te volgen
-* Ben bereid om [ reizen te pauzeren of te wijzigen ](../using/building-journeys/journey-pause.md) als de kritieke kwesties zich voordoen
+* De opstelling [&#x200B; systeemalarm &#x200B;](../using/reports/alerts.md) voor reisfouten, hoge stuittarieven, of lage overeenkomst
+* Herzie [&#x200B; levende rapporten &#x200B;](../using/building-journeys/report-journey.md) om prestaties tegen verwachtingen te volgen
+* Ben bereid om [&#x200B; reizen te pauzeren of te wijzigen &#x200B;](../using/building-journeys/journey-pause.md) als de kritieke kwesties zich voordoen
 * Geleerde documentlessen voor het verbeteren van toekomstige testprocessen
 
 ## Testen in actie: gebruik hoofdletters/kleine letters
@@ -128,7 +128,7 @@ Zie hoe testconcepten op real-world scenario&#39;s van toepassing zijn:
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Inhoud voorvertonen, testen en valideren
 
@@ -138,7 +138,7 @@ Leer hoe u persoonlijke inhoud kunt voorvertonen, testen en valideren met testpr
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Goedkeuringswerkstromen voor reizen en campagnes
 
@@ -148,7 +148,7 @@ Begrijp hoe u goedkeuringsprocedures instelt, beheert en uitvoert om kwaliteitsc
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Uw reis testen
 
@@ -158,7 +158,7 @@ Valideer uw reis voordat u deze publiceert door deze te testen met specifieke pr
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Reizen op reis
 
@@ -168,7 +168,7 @@ Voer een droge looppas uit om de uitvoeringspad van uw reis te simuleren en te b
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Bewaking en probleemoplossing
 
@@ -183,20 +183,20 @@ Toegang tot uitgebreide bronnen voor probleemoplossing, systeemwaarschuwingen en
 
 ### Essentiële instructies voor het testen en valideren
 
-* [ Levend Rapport in Uw Reis ](../using/building-journeys/report-journey.md) - de metriek van de reis van de monitor in real time om prestaties te volgen en kwesties tijdens uitvoering te identificeren. Toegang tot gedetailleerde uitsplitsingen van profielprogressie, gebeurtenistriggers en voltooiingssnelheden voor handelingen.
+* [&#x200B; Levend Rapport in Uw Reis &#x200B;](../using/building-journeys/report-journey.md) - de metriek van de reis van de monitor in real time om prestaties te volgen en kwesties tijdens uitvoering te identificeren. Toegang tot gedetailleerde uitsplitsingen van profielprogressie, gebeurtenistriggers en voltooiingssnelheden voor handelingen.
 
-* [ Creërend de Profielen van de Test ](../using/audience/creating-test-profiles.md) - creeer en beheer testprofielen om echte klantenscenario&#39;s te simuleren en verpersoonlijking te bevestigen. Leer hoe u profielen markeert voor testen, kenmerkwaarden instelt en testprofielsegmenten ordent.
+* [&#x200B; Creërend de Profielen van de Test &#x200B;](../using/audience/creating-test-profiles.md) - creeer en beheer testprofielen om echte klantenscenario&#39;s te simuleren en verpersoonlijking te bevestigen. Leer hoe u profielen markeert voor testen, kenmerkwaarden instelt en testprofielsegmenten ordent.
 
-* [ E-mailSpam Rapport ](../using/content-management/spam-report.md) - controleer uw e-mailspamscore alvorens te verzenden om bevreesbaarheid en inbox plaatsing te verbeteren. Begrijp hoe de spamfilters uw inhoud evalueren en aanbevelingen voor verbetering krijgen.
+* [&#x200B; E-mailSpam Rapport &#x200B;](../using/content-management/spam-report.md) - controleer uw e-mailspamscore alvorens te verzenden om bevreesbaarheid en inbox plaatsing te verbeteren. Begrijp hoe de spamfilters uw inhoud evalueren en aanbevelingen voor verbetering krijgen.
 
-* [ Veelgestelde vragen van de Reis ](../using/building-journeys/journey-faq.md) - vind antwoorden aan gemeenschappelijke vragen over reisverwezenlijking, het testen, de uitvoering, en het oplossen van problemen. Snelle referentie voor het oplossen van frequente problemen en het begrijpen van het reisgedrag.
+* [&#x200B; Veelgestelde vragen van de Reis &#x200B;](../using/building-journeys/journey-faq.md) - vind antwoorden aan gemeenschappelijke vragen over reisverwezenlijking, het testen, de uitvoering, en het oplossen van problemen. Snelle referentie voor het oplossen van frequente problemen en het begrijpen van het reisgedrag.
 
 ### Verwante onderwerpen
 
-* [ het Beheer van de Inhoud ](content-management-landing-page.md) - Leer hoe te, voorproef, en beheer inhoud gebruikend malplaatjes, fragmenten, en e-mail Designer. Aanbevolen werkwijzen voor het maken van basisinhoud voor consistente branding.
+* [&#x200B; het Beheer van de Inhoud &#x200B;](content-management-landing-page.md) - Leer hoe te, voorproef, en beheer inhoud gebruikend malplaatjes, fragmenten, en e-mail Designer. Aanbevolen werkwijzen voor het maken van basisinhoud voor consistente branding.
 
-* [ Rapportering &amp; Analytics ](reporting-landing-page.md) - analyseer campagne en reisprestaties met uitvoerige rapporten, dashboards, en metriek. Maak gegevensgestuurde besluiten om klantenervaringen te optimaliseren.
+* [&#x200B; Rapportering &amp; Analytics &#x200B;](reporting-landing-page.md) - analyseer campagne en reisprestaties met uitvoerige rapporten, dashboards, en metriek. Maak gegevensgestuurde besluiten om klantenervaringen te optimaliseren.
 
-* [ Configuratie van de Reis ](configure-journeys-landing-page.md) - vorm gegevensbronnen, gebeurtenissen, en douaneacties om verfijnde reisorchestratie toe te laten. De technische grondslagen leggen voor het creëren van reizen.
+* [&#x200B; Configuratie van de Reis &#x200B;](configure-journeys-landing-page.md) - vorm gegevensbronnen, gebeurtenissen, en douaneacties om verfijnde reisorchestratie toe te laten. De technische grondslagen leggen voor het creëren van reizen.
 
-* [ Beheer van de Campagne ](../using/campaigns/get-started-with-campaigns.md) - onderzoek verschillende campagneretypes en leer hoe te, partij en in real time campagnes voor maximumeffect tot stand brengen te plannen en te optimaliseren.
+* [&#x200B; Beheer van de Campagne &#x200B;](../using/campaigns/get-started-with-campaigns.md) - onderzoek verschillende campagneretypes en leer hoe te, partij en in real time campagnes voor maximumeffect tot stand brengen te plannen en te optimaliseren.
