@@ -338,7 +338,7 @@ Leer hoe te om de reisontwerper [&#x200B; in deze gebruiksgevallen van begin tot
 
 Ontdek de onderdelen van een reis en begrijp de grondbeginselen van het maken van een reis op het canvas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430347?captions=dut&quality=12)
 
 
 ## Aanvullende bronnen {#additional-resources}
