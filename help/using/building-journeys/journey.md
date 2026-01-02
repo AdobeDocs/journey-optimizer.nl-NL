@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: reis, ontdek, get-start, unitary, read publiek, publiekskwalificatie, bedrijfsgebeurtenis, real time, gepland, partij, gebeurtenis-teweeggebracht, werkschema, orchestratie, personalisatie, multi-channel
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: f3636ffa945e0ad5a5e75e90a83af2c3ca930544
+source-git-commit: 522dba0516268a17e72f56c0f28205ba60709d78
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1448'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ Gebruik [!DNL Journey Optimizer] om:
 * Ontwerp **multistep geavanceerde scenario&#39;s** die dynamisch aan klantengedrag en bedrijfsgebeurtenissen antwoorden
 * Lever **1 :1 gepersonaliseerde ervaringen** bij schaal over e-mail, duw, SMS, in-app, Web, en meer
 
-![&#x200B; de ontwerperinterface van de Reis met palet, canvas, en eigenschappenruit &#x200B;](assets/journey38.png)
+![ de ontwerperinterface van de Reis met palet, canvas, en eigenschappenruit ](assets/journey38.png)
 
-➡️ **Klaar om te beginnen met bouwen?** [&#x200B; creeer uw eerste reis &#x200B;](journey-gs.md) in 5 minuten.
+➡️ **Klaar om te beginnen met bouwen?** [ creeer uw eerste reis ](journey-gs.md) in 5 minuten.
 
 ### Reizen vs. campagnes: Wanneer gebruiken {#journeys-vs-campaigns-intro}
 
@@ -59,20 +59,21 @@ Adobe Journey Optimizer ondersteunt vier soorten reizen, elk ontworpen voor vers
 * **reizen van de Kwalificatie van het publiek**: Reacties in real time op de veranderingen van het publiekslidmaatschap (verbeteringen van VIP, re-engagement)
 * **Van Bedrijfs gebeurtenis reizen**: Bedrijfs voorwaarden die veelvoudige klanten beïnvloeden (inventarisalarm, flitsverkoop)
 
-➡️ {de types van 1} Reis en selectiegids **[- Gedetailleerde vergelijking, beslissingsboom, en de matrijs van de eigenschapverenigbaarheid](journey-types-selection.md)**
+<!-- waiting for DOCAC-13912 
+➡️ **[Journey types and selection guide](journey-types-selection.md)** - Detailed comparison, decision tree, and feature compatibility matrix -->
 
 ## Bouw met de reisontwerper {#journey-designer}
 
 De **[reisontwerper](using-the-journey-designer.md)** is uw visueel canvas voor het creëren van klantenervaringen. Met een intuïtieve drag-and-drop interface, kunt u elke stap van uw reis organiseren zonder code te schrijven.
 
-![&#x200B; de ontwerperinterface van de Reis met palet, canvas, en eigenschappenruit &#x200B;](assets/journey38.png)
+![ de ontwerperinterface van de Reis met palet, canvas, en eigenschappenruit ](assets/journey38.png)
 
 ### Wat u in de ontwerper kunt doen:
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **bepaalt ingangspunten**
 
@@ -82,7 +83,7 @@ Kies hoe klanten ingaan: door een gebeurtenis, een publiekssegment, of een publi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Berichten verzenden**
 
@@ -92,7 +93,7 @@ Gebruik ingebouwde kanaalacties voor e-mail, push, SMS/MMS, in-app, web en meer,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **voeg logica &amp; voorwaarden** toe
 
@@ -102,7 +103,7 @@ Vertakken uw reis die op profielattributen, publiekslidmaatschap, of gebeurtenis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **gegevens van de Leverage**
 
@@ -112,7 +113,7 @@ Gebruik contextuele gegevens van gebeurtenissen, Adobe Experience Platform of ex
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **verbindt externe systemen**
 
@@ -122,7 +123,7 @@ Aangepaste acties maken om systemen van derden te integreren voor het verzenden 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **voeg orchestration activiteiten** toe
 
@@ -133,7 +134,7 @@ Gebruik wachttijden, sprongen, profielupdates en publieksbeheer om geavanceerde 
 
 ::::
 
-➡️ **Hands-on het leren:** [&#x200B; bekijk de video van de reisontwerper &#x200B;](#video) of [&#x200B; onderzoek van begin tot eind gebruiksgevallen &#x200B;](jo-use-cases.md)
+➡️ **Hands-on het leren:** [ bekijk de video van de reisontwerper ](#video) of [ onderzoek van begin tot eind gebruiksgevallen ](jo-use-cases.md)
 
 ## Uw workflow voor het maken van reizen {#workflow}
 
@@ -147,18 +148,18 @@ Voordat u de ontwerper opent, moet u uw doelstellingen verduidelijken:
 
 * **wat is het doel?** (bijvoorbeeld aan boord van nieuwe klanten, opnieuw inactieve gebruikers inschakelen)
 * **Wie is het publiek?** (specifiek segment, gebeurtenisgestuurde personen)
-* **Welk vervoerstype past?** (Zie [&#x200B; reistypes &#x200B;](#journey-types) hierboven)
+* **Welk vervoerstype past?** (Zie [ reistypes ](#journey-types) hierboven)
 * **Welke kanalen zult u gebruiken?** (e-mail, push, SMS, enz.)
 
 ### &#x200B;2. Ontwerp op het canvas {#design}
 
 Gebruik de reisontwerper om uw stroom te bouwen:
 
-1. **vastgestelde ingangsvoorwaarden** - bepalen hoe de profielen ingaan (gebeurtenis, publiek, kwalificatie)
-2. **voeg orchestratielogica** toe - omvat wachttijden, voorwaarden, en besluitvormingspunten
-3. **vorm berichten** - Ontwerp uw mededelingen of hefboomwerking bestaande malplaatjes
-4. **de acties van de opstelling** - vorm ingebouwde of douaneacties om uit te voeren
-5. **bepaalt uitgangscriteria** - specificeer wanneer en hoe de profielen de reis voltooien
+* **vastgestelde ingangsvoorwaarden** - bepalen hoe de profielen ingaan (gebeurtenis, publiek, kwalificatie)
+* **voeg orchestratielogica** toe - omvat wachttijden, voorwaarden, en besluitvormingspunten
+* **vorm berichten** - Ontwerp uw mededelingen of hefboomwerking bestaande malplaatjes
+* **de acties van de opstelling** - vorm ingebouwde of douaneacties om uit te voeren
+* **bepaalt uitgangscriteria** - specificeer wanneer en hoe de profielen de reis voltooien
 
 [Leer hoe u de reisontwerper → gebruikt](using-the-journey-designer.md)
 
@@ -171,7 +172,7 @@ Test altijd uw reis om kwesties te vangen alvorens de klanten hen ervaren:
 * Controleren of alle voorwaarden, berichten en handelingen naar behoren werken
 * De timing, gegevensstromen, en verpersoonlijking van de controle
 
-[&#x200B; test uw reis → &#x200B;](testing-the-journey.md) | [&#x200B; Leer over droge looppas → &#x200B;](journey-dry-run.md)
+[ test uw reis → ](testing-the-journey.md) | [ Leer over droge looppas → ](journey-dry-run.md)
 
 ### &#x200B;4. Publiceer uw reis {#publish}
 
@@ -191,7 +192,7 @@ Volg hoe je reis in de echte wereld presteert:
 * Het ingang, de voltooiing van de monitor, en foutenpercentages
 * Waarschuwingen instellen voor kritieke problemen
 
-[&#x200B; Monitor en rapport → &#x200B;](report-journey.md) | [&#x200B; opstelling alarm → &#x200B;](../reports/alerts.md)
+[ Monitor en rapport → ](report-journey.md) | [ opstelling alarm → ](../reports/alerts.md)
 
 ### &#x200B;6. Optimaliseren en herhalen {#optimize}
 
@@ -202,9 +203,9 @@ Gebruik inzichten om te verbeteren:
 * Nieuwe reisversies maken met verbeteringen
 * Aanbevelingen van AI gebruiken
 
-[&#x200B; optimaliseer uw reizen →](optimize.md) | [&#x200B; Send-time optimalisering → &#x200B;](send-time-optimization.md)
+[ optimaliseer uw reizen →](optimize.md) | [ Send-time optimalisering → ](send-time-optimization.md)
 
-➡️ **Klaar om te beginnen?** [&#x200B; creeer nu uw eerste reis → &#x200B;](journey-gs.md)
+➡️ **Klaar om te beginnen?** [ creeer nu uw eerste reis → ](journey-gs.md)
 
 ## Kwesties voor gebruik in de praktijk {#use-cases}
 
@@ -213,7 +214,7 @@ Leer uit praktische voorbeelden die aantonen hoe u reisconcepten toepast om geme
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Onthaal nieuwe abonnees**
 
@@ -223,7 +224,7 @@ Wanneer een klant zich op uw dienst abonneert, teweeg een welkome reis die hen a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Send-time optimalisering**
 
@@ -233,7 +234,7 @@ Gebruik AI om e-mails te verzenden wanneer elke klant waarschijnlijk verbinding 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Ramp omhoog leveranties**
 
@@ -243,7 +244,7 @@ Verhoog geleidelijk het berichtvolume om uw verzendende reputatie op te warmen e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Doel tegen weekdag**
 
@@ -253,7 +254,7 @@ Verstuur verschillende inhoud op de dag van de week die klanten uw reis voor bet
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Multikanaalcampagnes**
 
@@ -263,13 +264,13 @@ Orchestreer naadloze ervaringen via e-mail, push, SMS en webkanalen in één rei
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Alle gebruiksgevallen**
 
 Ontdek de volledige bibliotheek met trajectgebruiksgevallen met stapsgewijze implementaties.
 
-[&#x200B; doorblader allen → &#x200B;](jo-use-cases.md) | [&#x200B; de gevallenbibliotheek van het Gebruik → &#x200B;](/help/rp_landing_pages/journey-use-cases-landing-page.md)
+[ doorblader allen → ](jo-use-cases.md) | [ de gevallenbibliotheek van het Gebruik → ](/help/rp_landing_pages/journey-use-cases-landing-page.md)
 :::
 
 ::::
@@ -281,7 +282,7 @@ Terwijl u comfortabeler bent met het maken van reizen, verkent u deze krachtige 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Geavanceerde Uitdrukkingen**
 
@@ -291,7 +292,7 @@ Bouw dynamische voorwaarden en verpersoonlijking gebruikend de uitdrukkingsredac
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Tijdzonebeheer**
 
@@ -301,7 +302,7 @@ Verwerk het algemene publiek met automatische aanpassingen van de tijdzone en op
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **wijze van de Test &amp; droge looppas**
 
@@ -311,7 +312,7 @@ U kunt reizen valideren met testprofielen voordat u live gaat en een voorvertoni
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Exemplaar aan zandbak**
 
@@ -321,7 +322,7 @@ Dubbele reizen tussen sandboxen om test- en implementatieworkflows te stroomlijn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Markeringen &amp; organisatie**
 
@@ -331,7 +332,7 @@ Gebruik labels om ritten te categoriseren en filteren voor beter beheer op schaa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **controle van de Output**
 
@@ -348,15 +349,15 @@ Beperk berichtproductie om het verzenden van reputatie te beheren en overweldige
 
 Bekijk een visuele introductie van reisonderdelen en leer de basisbeginselen van het maken van reizen op het canvas:
 
->[!VIDEO](https://video.tv.adobe.com/v/3430347?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
-➡️ **Wilt u meer video&#39;s?** [&#x200B; Onderzoek reis videoleerprogramma&#39;s &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+➡️ **Wilt u meer video&#39;s?** [ Onderzoek reis videoleerprogramma&#39;s ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
 ## Algemene vragen {#common-questions}
 
-**Q: Wat is het verschil tussen een reis en een campagne?**
++++ Wat is het verschil tussen een reis en een campagne?
 
-A: Adobe Journey Optimizer biedt drie mogelijkheden:
+Adobe Journey Optimizer biedt drie mogelijkheden:
 
 * **reizen**: 1 :1 organisatie in real time waar elk profiel door stappen bij hun eigen tempo reist. Het beste voor gedragsgedreven, multi-step ervaringen met voorwaardelijke logica (bv. onboarding, kartstopzetting).
 
@@ -369,17 +370,23 @@ A: Adobe Journey Optimizer biedt drie mogelijkheden:
 <!-- waiting for DOCAC-13912 - [See detailed comparison](#journeys-vs-campaigns) -->
 [Meer informatie over geordende campagnes](../orchestrated/gs-orchestrated-campaigns.md)
 
-<!-- Waiting for DOCAC-13912
-**Q: Which journey type should I use?**
++++
 
-A: Use the [decision guide](#decision-guide) or [comparison table](#journey-types-comparison) to choose between Unitary, Read Audience, Audience Qualification, and Business Event journeys based on your trigger mechanism and use case.
+<!-- Waiting for DOCAC-13912
++++ Which journey type should I use?
+
+Use the [decision guide](#decision-guide) or [comparison table](#journey-types-comparison) to choose between Unitary, Read Audience, Audience Qualification, and Business Event journeys based on your trigger mechanism and use case.
+
++++
 -->
 
-**Q: Kan ik een levende reis uitgeven?**
++++ Kan ik een live reis bewerken?
 
-A: U kunt beperkte elementen (naam, berichtinhoud) bewerken, maar voor structurele wijzigingen moet u een nieuwe versie maken. [&#x200B; Leer over reisversies &#x200B;](publish-journey.md#journey-versions)
+U kunt beperkte elementen (naam, berichtinhoud) bewerken, maar voor structurele wijzigingen moet u een nieuwe versie maken. [ Leer over reisversies ](publish-journey.md#journey-versions)
 
-➡️ **Meer vragen?** [&#x200B; de Volledige Veelgestelde vragen van de Reis van de Mening &#x200B;](journey-faq.md) met 40+ gedetailleerde antwoorden
++++
+
+➡️ **Meer vragen?** [ de Volledige Veelgestelde vragen van de Reis van de Mening ](journey-faq.md) met 40+ gedetailleerde antwoorden
 
 ## Hebt u hulp nodig? {#help}
 
@@ -402,4 +409,4 @@ Opstelling **[reisalarm](../reports/alerts.md)** om bericht in real time te ontv
 * **[de uitvoeringskwesties van het Oplossen van problemen](troubleshooting-execution.md)** - zuivert de problemen van de reisuitvoering
 * **[het Oplossen van problemen binnenkomende activiteiten](troubleshooting-inbound.md)** - de ingang en kwalificatiekwesties van de moeilijke situatie
 
-**Klaar om uw eerste reis te bouwen?** [&#x200B; wordt begonnen nu → &#x200B;](journey-gs.md)
+**Klaar om uw eerste reis te bouwen?** [ wordt begonnen nu → ](journey-gs.md)
