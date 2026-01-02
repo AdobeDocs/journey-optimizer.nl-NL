@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '282'
 ht-degree: 1%
 
 ---
@@ -28,19 +28,19 @@ ht-degree: 1%
 
 API getriggerde campagnes staan toe of voor marketing mededelingen om aan een publiek op het juiste ogenblik te bereiken, of voor transactie/operationele berichten aan een individu zoals een wachtwoordteruggestelde, waar de behoefte personalisatie niet alleen het gebruiken van profielattributen maar ook contextgegevens in real time in de trekker kan impliceren, die een nuttige lading van de WEERSTAPI is.
 
-Om dit te doen, moet u eerst een API teweeggebrachte campagne in Journey Optimizer creëren, en dan zijn uitvoering door een API vraag lanceren gebruikend de [&#x200B; Interactive Uitvoering REST API van het Bericht &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+Om dit te doen, moet u eerst een API teweeggebrachte campagne in Journey Optimizer creëren, en dan zijn uitvoering door een API vraag lanceren gebruikend de [ Interactive Uitvoering REST API van het Bericht ](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
 
 ➡️ [Ontdek deze functie in video](#video)
 
 >[!NOTE]
 >
->Voor meer informatie over de gesteunde kanalen, verwijs naar de lijst in deze sectie: [&#x200B; Kanalen in reizen &amp; campagnes &#x200B;](../channels/gs-channels.md#channels).
+>Voor meer informatie over de gesteunde kanalen, verwijs naar de lijst in deze sectie: [ Kanalen in reizen &amp; campagnes ](../channels/gs-channels.md#channels).
 >
 >Welke kanalen beschikbaar zijn, is afhankelijk van uw licentiemodel en invoegtoepassingen.
 
 ## Belangrijke stappen voor het maken van API-campagnes {#steps}
 
-Alvorens met campagnes te beginnen, controleer de volgende eerste vereisten die [&#x200B; in deze sectie &#x200B;](get-started-with-campaigns.md#prerequisites) worden vermeld. Als aan deze voorwaarden is voldaan, kunt u uw campagne starten:
+Alvorens met campagnes te beginnen, controleer de volgende eerste vereisten die [ in deze sectie ](get-started-with-campaigns.md#prerequisites) worden vermeld. Als aan deze voorwaarden is voldaan, kunt u uw campagne starten:
 
 1. [De eigenschappen van de campagne definiëren](api-triggered-campaign-properties.md)
 1. [Campagne configureren](api-triggered-campaign-action.md)
@@ -50,8 +50,10 @@ Alvorens met campagnes te beginnen, controleer de volgende eerste vereisten die 
 1. [De campagne bekijken en activeren](review-activate-api-triggered-campaign.md)
 1. [De uitvoering van de campagne activeren](trigger-campaigns.md)
 
+Leer meer over het [ volledige werkschema van de campagneverwezenlijking met type-specifieke gidsen → ](get-started-with-campaigns.md#workflow)
+
 ## Hoe kan ik-video&#39;s {#video}
 
 Leer hoe te om een campagne tot stand te brengen en het van een extern systeem teweeg te brengen dat op gebruikersinteractie wordt gebaseerd, gebruikend de Interactieve REST API van de Uitvoering van het Bericht.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452731?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
