@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campagne, hoe, begin, optimaliseer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 8b57aa06f40cfc5c1b4d1971e54eecb224338cc7
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 1%
+source-wordcount: '1560'
+ht-degree: 0%
 
 ---
 
@@ -84,81 +84,299 @@ ht-degree: 1%
 >title="Campagnes"
 >abstract="Transactiecommunicatie leveren aan afzonderlijke profielen of groepen profielen. Ondersteunde kanalen: e-mail, sms, pushberichten."
 
-Gebruik [!DNL Journey Optimizer] -campagnes om eenmalige inhoud aan een specifiek publiek via meerdere kanalen te leveren. In tegenstelling tot reizen, die acties stap voor stap uitvoeren, voeren de campagnes acties gelijktijdig uit — of onmiddellijk of op een bepaald programma.
+Met Adobe Journey Optimizer kunt u doelgerichte, eenmalige inhoud leveren aan specifieke doelgroepen op meerdere kanalen. Met behulp van campagnes kunt u gecoördineerde marketingacties gelijktijdig uitvoeren, zodat u uw publiek op het juiste moment bereikt met de juiste boodschap.
+
+Deze gids verstrekt een duidelijke roadmap om u te helpen campagnegrondbeginselen begrijpen, het juiste campagnetype voor uw gebruiksgeval kiezen, en vertrouwend ontwerpcampagnes die onwrikbare klantenervaringen leveren.
+
+## Wat zijn campagnes?
+
+**campagnes** zijn gecoördineerde marketing acties die inhoud aan een specifiek publiek over één of meerdere kanalen leveren. In tegenstelling tot reizen waar de acties opeenvolgend uitvoeren, voeren de campagnes gelijktijdig-of onmiddellijk of op een bepaald programma uit.
+
+Gebruik [!DNL Journey Optimizer] om:
+
+* Lever **eenmalig of terugkomende inhoud** aan gerichte publiekssegmenten
+* Voer **gecoördineerde multi-kanaalmededelingen** over e-mail uit, duw, SMS, in-app, Web, en meer
+* Trigger **geautomatiseerde reacties** via API vraag naar real time, gebeurtenis-gedreven overseinen
+* Het ontwerp **complexe marketing werkschema&#39;s** met visuele orchestratiehulpmiddelen
 
 ![](assets/gs-campaigns.png)
 
-## Typen campagne
+➡️ **Klaar om te beginnen met bouwen?** [ creeer uw eerste campagne ](create-campaign.md) in notulen.
 
-[!DNL Journey Optimizer] ondersteunt drie soorten campagnes. Elk type past op verschillende gebruiksgevallen en ondersteunt verschillende kanalen. Voor meer informatie over de kanalen beschikbaar met elk campagnetype, verwijs naar de lijst in deze sectie: [&#x200B; Kanalen in reizen &amp; campagnes &#x200B;](../channels/gs-channels.md#channels)
+## Kies het type campagne {#campaign-types}
+
+**alvorens u begint te bouwen**, is het belangrijk om te begrijpen welk type van campagne uw gebruiksgeval past. Adobe Journey Optimizer ondersteunt drie soorten campagnes, elk ontworpen voor verschillende scenario&#39;s en activeringsmechanismen:
 
 ![](assets/campaign-modal.png)
 
 >[!BEGINTABS]
 
->[!TAB  Geordende campagnes ]
+>[!TAB  campagnes van de Actie (Gepland) ]
 
-**Geordende campagnes** macht gesofisticeerde, merk-in werking gestelde marketing campagnes over kanalen, die u bevordering betrokkenheid, opbrengst, en klantenloyaliteit bij schaal bevorderen.
+![ pictogram ](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg) **wanneer te gebruiken:** Eenvoudige, geplande partijmededelingen
 
-Hoewel de marketing over de kanalen essentieel is, maken de geordende campagnes het naadloos. Met een visuele, belemmering-en-dalingsinterface, kunt u complexe marketing werkschema&#39;s ontwerpen en automatiseren, van segmentatie aan berichtlevering, over veelvoudige kanalen. Alles gebeurt in één intuïtieve omgeving, gebouwd voor snelheid, controle en efficiëntie.
+**campagnes van de Actie** (die ook als Geplande campagnes worden bekend) zijn ideaal voor ongecompliceerde, eenmalige of terugkomende partijmededelingen die in een specifieke tijd lopen.
 
-➡️ [&#x200B; Leer hoe te met Geordende campagnes &#x200B;](../orchestrated/gs-orchestrated-campaigns.md) te werken.
+**Twee categorieën:**
 
->[!TAB  campagnes van de Actie (of Geplande campagnes) ]
+* **Marketing** - de aanbiedingen van de bevordering, betrokkenheidscampagnes, aankondigingen, wettelijke berichten, of beleidsupdates. Ontvangers moeten worden ingeschakeld.
+* **Transactionele** - Verstoringen, noodgevallen, annuleringen. Geen opt-in vereist.
 
-**campagnes van de Actie**, die ook als Geplande campagnes worden bekend, staan voor eenvoudige ad hoc partijmededelingen toe.
+**Perfect voor:**
 
-* **Gepland - marketing** - voor marketing gebruiksgevallen zoals promotieaanbiedingen, betrokkenheidscampagnes, aankondigingen, wettelijke berichten, of beleidsupdates. Ontvangers moeten worden ingeschakeld.
-* **Gepland - Transactioneel** - in tegenstelling tot de campagnes van de Marketing, vereisen de Transactionele campagnes geen ontvangers om worden geopend. Gebruik deze categorie voor communicatie in verband met storingen, noodsituaties en annuleringen. Ondersteunde kanalen: e-mail, SMS, pushmelding.
+* Maandelijkse nieuwsbrieven naar klantsegmenten
+* Tijdgevoelige promotieaankondigingen
+* Seizoensgebonden marketingcampagnes
+* Productlanceringen
+* Meldingen over verstoring van de service
 
-➡️ [&#x200B; Leer hoe te met actiecampagnes &#x200B;](create-campaign.md) te werken
+➡️ [ Leer over de campagnes van de Actie ](create-campaign.md)
 
 >[!TAB  API teweeggebrachte campagnes ]
 
-**API-teweeggebrachte campagnes** staan u toe om de uitvoering van de campagne teweeg te brengen gebruikend een API vraag. Deze mededelingen kunnen worden verzonden waar de behoefte personalisatie kan impliceren niet alleen gebruikend profielattributen zoals wachtwoordterugstellen, maar ook contextgegevens in real time in de trekker, die een nuttige lading van de WEERSTAPI is.
+![ pictogram ](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) **wanneer te gebruiken:** Real-time, gebeurtenis-gedreven overseinen met externe systemen
 
-* **API teweeggebracht - marketing** - verzend gepersonaliseerde marketing mededelingen aan gericht publiek.
-* **API teweeggebracht - Transactioneel** - verzend berichten na een actie die door een individu zoals het verzoek van het wachtwoordterugstellen wordt uitgevoerd, kartaankoop, enz.
+**API-teweeggebrachte campagnes** activeren door API vraag, toelatend geautomatiseerd overseinen direct van externe systemen. Deze campagnes steunen verpersoonlijking gebruikend zowel profielattributen als contextgegevens in real time van de API lading.
 
-➡️ [&#x200B; Leer hoe te met API-teweeggebrachte campagnes &#x200B;](api-triggered-campaigns.md) te werken
+**Twee categorieën:**
 
+* **Marketing** - Gepersonaliseerde marketing mededelingen aan gericht publiek
+* **Transactie** - Berichten die individuele acties volgen (wachtwoordterugstelt, kartaankopen, enz.)
+
+**Perfect voor:**
+
+* Bevestigingen voor opnieuw instellen van wachtwoord
+* Terugwinning van winkelwagentjes
+* Bevestigingen van bestellingen en verzendupdates
+* Meldingen over accountactiviteiten
+* Persoonlijke aanbevelingen in realtime
+
+➡️ [ Leer over API-teweeggebrachte campagnes ](api-triggered-campaigns.md)
+
+>[!TAB  Geordende campagnes ]
+
+![ pictogram ](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) **wanneer te gebruiken:** Complex, multi-step marketing werkschema&#39;s
+
+**Geordende campagnes** verstrekken een visueel, belemmering-en-dalingscanvas om verfijnde marketing werkschema&#39;s te ontwerpen en te automatiseren. Van publiekssegmentatie tot gepersonaliseerde berichtlevering over kanalen, gebeurt alles in één intuïtieve die milieu voor snelheid en controle wordt gebouwd.
+
+**Perfect voor:**
+
+* Meerdere uitstapprogramma&#39;s voor klantenservice
+* Complexe segmentering en gerichte strategieën
+* Kanaaloverschrijdende campagneorchestratie
+* Door het merk geïnitieerde marketing op schaal
+* Geavanceerde workflowautomatisering met meerdere beslissingspunten
+
+➡️ [ Leer over Geordende campagnes ](../orchestrated/gs-orchestrated-campaigns.md)
 
 >[!ENDTABS]
 
+>[!NOTE]
+>
+>Weet u niet zeker welk type u wilt kiezen? Begin met **campagnes van de Actie** voor geplande partijmededelingen of **API-teweeggebrachte campagnes** voor overseinen-deze behandelen gemeenschappelijkste gebruiksgevallen in real time.
+
+>[!NOTE]
+>
+>Weet u niet zeker welk type u wilt kiezen? Begin met **campagnes van de Actie** voor geplande partijmededelingen of **API-teweeggebrachte campagnes** voor overseinen-deze behandelen gemeenschappelijkste gebruiksgevallen in real time.
+
+## Uw workflow voor het maken van campagnes {#workflow}
+
+De bouw van succesvolle campagnes volgt een duidelijk, herhaalbaar proces. Dit is uw stapsgewijze workflow:
+
+**1. Plan** → **2. Vorm** → **3. Ontwerp** → **4. Overzicht** → **5. Activeer** → **6. Monitor**
+
+### &#x200B;1. **Plan uw campagne** {#plan}
+
+Geef voordat u begint aan welke doelen u wilt bereiken:
+
+* **wat is het doel?** (bijvoorbeeld schijfconversies, betrokkenheid vergroten, klanten op de hoogte stellen)
+* **Wie is het publiek?** (specifiek segment uit Adobe Experience Platform)
+* **Welk campagnetype past?** (Zie [ campagneretypes ](#campaign-types) hierboven)
+* **Welke kanalen zult u gebruiken?** (e-mail, push, SMS, in-app, web, enz.)
+* **wanneer zou het moeten uitvoeren?** (direct, gepland of API-geactiveerd)
+
+### &#x200B;2. **vorm campagneeigenschappen** {#configure}
+
+Stel de basis voor uw campagne in:
+
+1. **Naam en beschrijf** uw campagne voor gemakkelijke identificatie
+2. **Uitgezochte campagnetype** (Handeling, API-teweeggebracht, of Geordend)
+3. **kies uw publiek** van Adobe Experience Platform
+4. **Vastgestelde prioriteit** als het gebruiken van conflictbeheer
+5. **vorm programma** (voor campagnes van de Actie) of API details (voor API-teweeggebracht)
+
+**Type-Specifieke gidsen:**
+* [Eigenschappen van handelscampagne →](campaign-properties.md)
+* [API-gestuurde campagneeigenschappen →](api-triggered-campaign-properties.md)
+* [Instellingen geordende campagne →](../orchestrated/create-orchestrated-campaigns.md)
+
+### &#x200B;3. **Ontwerp uw inhoud** {#design}
+
+Maak aansprekende berichten voor uw publiek:
+
+* Gebruik **E-mail Designer** voor rijke e-mailervaringen
+* Vorm **duw berichten** met beelden en diepe verbindingen
+* Ontwerp **SMS/MMS berichten** met verpersoonlijking
+* Creeer **in-app** en **Web** ervaringen
+* Voeg **verpersoonlijking** toe gebruikend profielattributen en contextuele gegevens
+
+**Type-Specifieke gidsen:**
+* [Inhoud van de campagne →](campaign-content.md)
+* [API-activering van campagne-inhoud →](api-triggered-campaign-content.md)
+* [Geordende campagneinhoud →](../orchestrated/create-orchestrated-campaigns.md)
+
+### &#x200B;4. **Overzicht en test** {#review}
+
+Controleer altijd uw campagne voordat u de activering uitvoert:
+
+* **inhoud van de Voorproef** met testprofielen
+* **Controle richtend** om het juiste publiek te verzekeren
+* **verifieer programma** en activeringsmontages
+* **Goedkeuring van het Verzoek** als het gebruiken van het goedkeuringswerkschema
+* **leverbaarheid van de Test** met zaadlijsten
+
+**Type-Specifieke gidsen:**
+* [Actiecampagnes redigeren →](review-activate-campaign.md)
+* [API-gestuurde campagnes controleren →](review-activate-api-triggered-campaign.md)
+* [Geordende campagnes controleren →](../orchestrated/create-orchestrated-campaigns.md)
+
+### &#x200B;5. **activeer uw campagne** {#activate}
+
+Activeer uw campagne als de revisie is voltooid:
+
+* **Handmatige activering** - activeer onmiddellijk of op geplande tijd
+* **API activering** - voor API-teweeggebrachte campagnes, gebruik het activeringseindpunt
+* **proces van de Goedkeuring** - indien vereist, wacht op goedkeuring van de belanghebbende
+* Opmerking: actieve campagnes kunnen niet worden bewerkt (u moet dupliceren om wijzigingen aan te brengen)
+
+**Type-Specifieke gidsen:**
+* [Actiecampagnes activeren →](review-activate-campaign.md)
+* [API-gestuurde campagnes activeren →](review-activate-api-triggered-campaign.md)
+* [Geordende campagnes activeren →](../orchestrated/create-orchestrated-campaigns.md)
+
+### &#x200B;6. **Monitor en analyseer** {#monitor}
+
+Houd bij hoe uw campagne presteert:
+
+* Campagnerapporten en analyses weergeven
+* Bewaking van de leverings- en betrokkenheidscijfers
+* Fouten en grenzen bijhouden
+* Conversie en ROI analyseren
+* Inzichten gebruiken voor optimalisatie
+
+**Type-Specifieke gidsen:**
+* [Campagnerapporten van acties →](../reports/campaign-global-report-cja.md)
+* [API-activering van campagnerebewaking →](api-triggered-campaigns.md#monitor)
+* [Geordende campagneanalytica →](../orchestrated/create-orchestrated-campaigns.md)
+
+➡️ **Klaar om te beginnen?** Kies het type campagne:
+* [Handelingscampagne →](create-campaign.md)
+* [API-gestuurde campagne maken →](api-triggered-campaigns.md)
+* [Geordende campagne maken →](../orchestrated/gs-orchestrated-campaigns.md)
+
 ## Vereisten {#prerequisites}
 
-Controleer voordat u met campagnes gaat werken of u de onderstaande voorwaarden hebt gecontroleerd.
+Voordat u met campagnes gaat werken, moet u het volgende controleren:
 
-* **Soorten publiek** Soorten publiek moeten beschikbaar zijn alvorens de campagne te creëren. [&#x200B; krijgt begonnen met publiek &#x200B;](../audience/about-audiences.md).
+### Vereiste installatie
 
-* **configuraties van het Kanaal** - om een kanaal te kunnen selecteren, moet u de overeenkomstige die kanaalconfiguratie (d.w.z. vooraf ingesteld) hebben wordt gecreeerd en beschikbaar. [&#x200B; leer hoe te de configuraties van het opstellingskanaal &#x200B;](../configuration/channel-surfaces.md).
+* **Soorten publiek** - de Soorten van het publiek moeten in Adobe Experience Platform beschikbaar zijn alvorens campagnes te creëren. [ worden begonnen met publiek → ](../audience/about-audiences.md)
 
-* **Toestemmingen** - de campagnes zijn slechts beschikbaar aan gebruikers met aangewezen hieronder vermelde toestemmingen. Als u geen toegang hebt tot campagnefuncties, neemt u contact op met uw beheerder om de benodigde machtigingen aan te vragen. [&#x200B; leer meer over ingebouwde rollen van Journey Optimizer &#x200B;](../administration/ootb-product-profiles.md)
+* **configuraties van het Kanaal** - de configuraties van het Kanaal (vooraf instelt) moeten worden gecreeerd en beschikbaar voor de kanalen u wilt gebruiken. [ de configuraties van het het kanaal van de opstelling →](../configuration/channel-surfaces.md)
 
-  | Type campagne | Machtigingen |
-  |----------------------------|----------------------------------------------------------------------------|
-  | **campagnes van de Actie** | De beheerder van de campagne <br> Campagne goedkeurde &lbrace;<br> Manager van de Campagne <br> de kijker van de Campagne |
-  | **API teweeggebrachte campagnes** | De beheerder van de campagne <br> Campagne goedkeurde &lbrace;<br> Manager van de Campagne <br> de kijker van de Campagne |
-  | **Geordende campagnes** | De geordende Beheerder van de Campagne <br> Geordende Begeleidende fiatteur van de Campagne &lbrace;<br> Geordende Manager van de Campagne <br> Geordende Kijker van de Campagne |
+* **Toestemmingen** - u hebt aangewezen toestemmingen nodig die op het campagnetype worden gebaseerd. Neem contact op met de beheerder als u geen toegang hebt tot campagnefuncties. [ leer over ingebouwde rollen → ](../administration/ootb-product-profiles.md)
 
-  +++Leer hoe u een rol met betrekking tot een campagne toewijst
+| Type campagne | Machtigingen |
+|----------------------------|----------------------------------------------------------------------------|
+| **campagnes van de Actie** | De beheerder van de campagne <br> Campagne goedkeurde {<br> Manager van de Campagne <br> de kijker van de Campagne |
+| **API teweeggebrachte campagnes** | De beheerder van de campagne <br> Campagne goedkeurde {<br> Manager van de Campagne <br> de kijker van de Campagne |
+| **Geordende campagnes** | De geordende Beheerder van de Campagne <br> Geordende Begeleidende fiatteur van de Campagne {<br> Geordende Manager van de Campagne <br> Geordende Kijker van de Campagne |
 
-   1. Als u een rol wilt toewijzen aan een gebruiker in het [!DNL Permissions] -product, navigeert u naar het tabblad **[!UICONTROL Roles]** en selecteert u een van de hierboven beschreven geïntegreerde campagnes voor **[!UICONTROL Roles]** .
++++Campagnemachtigingen toewijzen
 
-   1. Klik op het tabblad **[!UICONTROL Users]** op **[!UICONTROL Add user]**.
+1. Navigeer naar het tabblad **[!UICONTROL Roles]** in het [!DNL Permissions] -product en selecteer een van de ingebouwde campagnebestanden **[!UICONTROL Roles]** .
 
-   1. Typ de naam of het e-mailadres van de gebruiker of selecteer de gebruiker in de lijst en klik op **[!UICONTROL Save]** .
+1. Klik op het tabblad **[!UICONTROL Users]** op **[!UICONTROL Add user]**.
 
-      Als de gebruiker niet eerder werd gecreeerd, verwijs naar [&#x200B; gebruikersdocumentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/users){target="_blank"} toevoegen
+1. Typ de naam of het e-mailadres van de gebruiker of selecteer de gebruiker in de lijst en klik op **[!UICONTROL Save]** .
 
+   Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users){target="_blank"} toevoegen.
 
-  Uw gebruiker moet dan een e-mail ontvangen die aan uw instantie opnieuw richt.
+Uw gebruiker moet dan een e-mail ontvangen die aan uw instantie opnieuw richt.
 
-  +++
++++
 
-## Laten we dieper duiken
+## Campagne-mogelijkheden {#capabilities}
 
-Nu u de campagnes in [!DNL Journey Optimizer] begrijpt, is het tijd om dieper in deze documentatiesecties te duiken om uw eerste campagnes te beginnen creëren.
+Terwijl u comfortabeler bent met campagnes, verkent u de volgende krachtige mogelijkheden:
+
+:::: landing-cards-container
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+
+**Plannend &amp; timing**
+
+Plan campagnes voor specifieke datums/tijden, stel terugkerende leveringen in en optimaliseer verzendtijden voor maximale impact.
+
+[Meer informatie over plannen](campaign-schedule.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+**de controle van het Tarief**
+
+Beperk berichtendoorvoer om overbelasting op downstreamsystemen zoals het landen van pagina&#39;s of platforms voor de klantenservice te voorkomen.
+
+[Grenswaarden voor regeltarieven](create-campaign.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+**Publiek richtend**
+
+Doelspecifiek Adobe Experience Platform-publiek nauwkeurig instellen en de publiekskwalificaties dynamisch beheren.
+
+[Campagnepubliek selecteren](campaign-audience.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+
+**de werkschema&#39;s van de Goedkeuring**
+
+Evaluatie- en goedkeuringsprocessen uitvoeren voordat campagnes live gaan, zodat kwaliteit en naleving gewaarborgd zijn.
+
+[Controleren en activeren](review-activate-campaign.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/clock.svg)
+
+**stille uren**
+
+Eerbiedig klantenvoorkeur door berichtlevering tijdens gespecificeerde tijdvensters te vermijden.
+
+[Stille uren configureren](quiet-hours.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+
+**Send-time optimalisering**
+
+Gebruik AI om de beste tijd te bepalen om berichten voor maximumovereenkomst met elke individu te verzenden.
+
+[Verzendtijd optimaliseren](campaigns-message-optimization.md)
+:::
+
+::::
+
+## Aan de slag met campagneretypen {#get-started-types}
+
+Nu u campagnes begrijpt in [!DNL Journey Optimizer] , kiest u het type campagne dat u wilt starten:
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
 <td><a href="create-campaign.md"><img width="70%" alt="actieplannen" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">Actiecampagnes</a></td>
