@@ -101,7 +101,7 @@ Gebruik [!DNL Journey Optimizer] om:
 
 ![](assets/gs-campaigns.png)
 
-➡️ **Klaar om te beginnen met bouwen?** [ creeer uw eerste campagne ](create-campaign.md) in notulen.
+➡️ **Klaar om te beginnen met bouwen?** [&#x200B; creeer uw eerste campagne &#x200B;](create-campaign.md) in notulen.
 
 ## Kies het type campagne {#campaign-types}
 
@@ -130,7 +130,7 @@ Gebruik [!DNL Journey Optimizer] om:
 * Productlanceringen
 * Meldingen over verstoring van de service
 
-➡️ [ Leer over de campagnes van de Actie ](create-campaign.md)
+➡️ [&#x200B; Leer over de campagnes van de Actie &#x200B;](create-campaign.md)
 
 >[!TAB  API teweeggebrachte campagnes ]
 
@@ -151,7 +151,7 @@ Gebruik [!DNL Journey Optimizer] om:
 * Meldingen over accountactiviteiten
 * Persoonlijke aanbevelingen in realtime
 
-➡️ [ Leer over API-teweeggebrachte campagnes ](api-triggered-campaigns.md)
+➡️ [&#x200B; Leer over API-teweeggebrachte campagnes &#x200B;](api-triggered-campaigns.md)
 
 >[!TAB  Geordende campagnes ]
 
@@ -167,7 +167,7 @@ Gebruik [!DNL Journey Optimizer] om:
 * Door het merk geïnitieerde marketing op schaal
 * Geavanceerde workflowautomatisering met meerdere beslissingspunten
 
-➡️ [ Leer over Geordende campagnes ](../orchestrated/gs-orchestrated-campaigns.md)
+➡️ [&#x200B; Leer over Geordende campagnes &#x200B;](../orchestrated/gs-orchestrated-campaigns.md)
 
 >[!ENDTABS]
 
@@ -187,7 +187,7 @@ Geef voordat u begint aan welke doelen u wilt bereiken:
 
 * **wat is het doel?** (bijvoorbeeld schijfconversies, betrokkenheid vergroten, klanten op de hoogte stellen)
 * **Wie is het publiek?** (specifiek segment uit Adobe Experience Platform)
-* **Welk campagnetype past?** (Zie [ campagneretypes ](#campaign-types) hierboven)
+* **Welk campagnetype past?** (Zie [&#x200B; campagneretypes &#x200B;](#campaign-types) hierboven)
 * **Welke kanalen zult u gebruiken?** (e-mail, push, SMS, in-app, web, enz.)
 * **wanneer zou het moeten uitvoeren?** (direct, gepland of API-geactiveerd)
 
@@ -276,17 +276,17 @@ Voordat u met campagnes gaat werken, moet u het volgende controleren:
 
 ### Vereiste installatie
 
-* **Soorten publiek** - de Soorten van het publiek moeten in Adobe Experience Platform beschikbaar zijn alvorens campagnes te creëren. [ worden begonnen met publiek → ](../audience/about-audiences.md)
+* **Soorten publiek** - de Soorten van het publiek moeten in Adobe Experience Platform beschikbaar zijn alvorens campagnes te creëren. [&#x200B; worden begonnen met publiek → &#x200B;](../audience/about-audiences.md)
 
-* **configuraties van het Kanaal** - de configuraties van het Kanaal (vooraf instelt) moeten worden gecreeerd en beschikbaar voor de kanalen u wilt gebruiken. [ de configuraties van het het kanaal van de opstelling →](../configuration/channel-surfaces.md)
+* **configuraties van het Kanaal** - de configuraties van het Kanaal (vooraf instelt) moeten worden gecreeerd en beschikbaar voor de kanalen u wilt gebruiken. [&#x200B; de configuraties van het het kanaal van de opstelling →](../configuration/channel-surfaces.md)
 
-* **Toestemmingen** - u hebt aangewezen toestemmingen nodig die op het campagnetype worden gebaseerd. Neem contact op met de beheerder als u geen toegang hebt tot campagnefuncties. [ leer over ingebouwde rollen → ](../administration/ootb-product-profiles.md)
+* **Toestemmingen** - u hebt aangewezen toestemmingen nodig die op het campagnetype worden gebaseerd. Neem contact op met de beheerder als u geen toegang hebt tot campagnefuncties. [&#x200B; leer over ingebouwde rollen → &#x200B;](../administration/ootb-product-profiles.md)
 
 | Type campagne | Machtigingen |
 |----------------------------|----------------------------------------------------------------------------|
-| **campagnes van de Actie** | De beheerder van de campagne <br> Campagne goedkeurde {<br> Manager van de Campagne <br> de kijker van de Campagne |
-| **API teweeggebrachte campagnes** | De beheerder van de campagne <br> Campagne goedkeurde {<br> Manager van de Campagne <br> de kijker van de Campagne |
-| **Geordende campagnes** | De geordende Beheerder van de Campagne <br> Geordende Begeleidende fiatteur van de Campagne {<br> Geordende Manager van de Campagne <br> Geordende Kijker van de Campagne |
+| **campagnes van de Actie** | De beheerder van de campagne <br> Campagne goedkeurde &lbrace;<br> Manager van de Campagne <br> de kijker van de Campagne |
+| **API teweeggebrachte campagnes** | De beheerder van de campagne <br> Campagne goedkeurde &lbrace;<br> Manager van de Campagne <br> de kijker van de Campagne |
+| **Geordende campagnes** | De geordende Beheerder van de Campagne <br> Geordende Begeleidende fiatteur van de Campagne &lbrace;<br> Geordende Manager van de Campagne <br> Geordende Kijker van de Campagne |
 
 +++Campagnemachtigingen toewijzen
 
@@ -296,7 +296,7 @@ Voordat u met campagnes gaat werken, moet u het volgende controleren:
 
 1. Typ de naam of het e-mailadres van de gebruiker of selecteer de gebruiker in de lijst en klik op **[!UICONTROL Save]** .
 
-   Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users){target="_blank"} toevoegen.
+   Als de gebruiker niet eerder werd gecreeerd, verwijs naar [&#x200B; gebruikersdocumentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users){target="_blank"} toevoegen.
 
 Uw gebruiker moet dan een e-mail ontvangen die aan uw instantie opnieuw richt.
 
@@ -309,7 +309,7 @@ Terwijl u comfortabeler bent met campagnes, verkent u de volgende krachtige moge
 :::: landing-cards-container
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Plannend &amp; timing**
 
@@ -319,7 +319,7 @@ Plan campagnes voor specifieke datums/tijden, stel terugkerende leveringen in en
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **de controle van het Tarief**
 
@@ -329,7 +329,7 @@ Beperk berichtendoorvoer om overbelasting op downstreamsystemen zoals het landen
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Publiek richtend**
 
@@ -339,7 +339,7 @@ Doelspecifiek Adobe Experience Platform-publiek nauwkeurig instellen en de publi
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **de werkschema&#39;s van de Goedkeuring**
 
@@ -349,7 +349,7 @@ Evaluatie- en goedkeuringsprocessen uitvoeren voordat campagnes live gaan, zodat
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **stille uren**
 
@@ -359,7 +359,7 @@ Eerbiedig klantenvoorkeur door berichtlevering tijdens gespecificeerde tijdvenst
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Send-time optimalisering**
 
