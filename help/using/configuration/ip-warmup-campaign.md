@@ -57,7 +57,7 @@ Om een IP warmup campagne tot stand te brengen, volg de hieronder stappen.
 
    >[!IMPORTANT]
    >
-   >Het publiek dat in een IP warmup campagne wordt toegestaan moet [&#x200B; op segment-gebaseerd &#x200B;](../audience/creating-a-segment-definition.md) zijn en tot stand gebracht gebruikend het [&#x200B; standaardsamenvoegingsbeleid &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
+   >Het publiek dat in een IP warmup campagne wordt toegestaan moet [&#x200B; op segment-gebaseerd &#x200B;](../audience/creating-a-segment-definition.md) zijn en tot stand gebracht gebruikend het [&#x200B; standaardsamenvoegingsbeleid &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
    >
    >CSV uploadt publiek wordt niet gesteund voor IP warmup campagnes en zal in een fout bij campagneactivering resulteren.
 
