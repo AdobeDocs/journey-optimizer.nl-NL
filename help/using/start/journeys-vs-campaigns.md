@@ -9,9 +9,9 @@ level: Beginner
 keywords: reis, campagne, georkestreerd, vergelijking, keuze, beslissing, workflow, realtime, batch, orchestratie, meerdere stappen, gepland, API-geactiveerd, gebeurtenisgestuurd
 hide: true
 hidefromtoc: true
-source-git-commit: 5c842eb5d744380b462c6830af0838aa3329e9f7
+source-git-commit: 3fd971c719bfd667fe5b237c8f03a5915422c1e7
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1334'
 ht-degree: 1%
 
 ---
@@ -221,32 +221,42 @@ Combineert werkstroomcomplexiteit met het uitvoeren van batchcampagnes.
 
 ## Algemene vragen {#common-questions}
 
-**Q: Kan ik reizen en campagnes in mijn marketing strategie combineren?**
++++ Kan ik reizen en campagnes combineren in mijn marketingstrategie?
 
-A: Absoluut! De meeste organisaties gebruiken alle drie benaderingen voor verschillende scenario&#39;s:
+Absoluut! De meeste organisaties gebruiken alle drie benaderingen voor verschillende scenario&#39;s:
 - Reizen voor gedragsbetrokkenheid, realtime betrokkenheid
 - Actie-campagnes voor geplande uitzendingen
 - API-getriggerde campagnes voor transactieberichten
 - Geordende campagnes voor complexe, gegevensintensieve batchcampagnes
 
-**Q: Kan ik een campagne in een reis of vice versa omzetten?**
++++
 
-A: Nee, u moet de ervaring opnieuw opbouwen in de juiste indeling. U kunt inhoud, soorten publiek en logische concepten echter opnieuw gebruiken.
++++ Kan ik een campagne omzetten in een reis of andersom?
 
-**Q: Welke benadering is gemakkelijker te bouwen?**
+Nee, u moet de ervaring opnieuw opbouwen in de juiste indeling. U kunt inhoud, soorten publiek en logische concepten echter opnieuw gebruiken.
 
-A: De campagnes van de actie zijn typisch het eenvoudigste (enig bericht aan publiek), gevolgd door API-teweeggebrachte Campagnes, Reizen (complexer met multi-step logica), en Geordende Campagnes (het meest complex toe te schrijven aan canvaswerkschema en multi-entiteitsmogelijkheden).
++++
 
-**Q: Welke schalen beter voor grote publiek?**
++++ Welke benadering is gemakkelijker te bouwen?
 
-A: Alle drie kunnen goed schalen, maar:
+De Campagnes van de actie zijn typisch het eenvoudigste (enig bericht aan publiek), gevolgd door API-teweeggebrachte Campagnes, Reizen (complexer met multi-step logica), en Geordende Campagnes (het complexst toe te schrijven aan canvaswerkschema en multi-entiteitsmogelijkheden).
+
++++
+
++++ Welke schaal is beter voor grote doelgroepen?
+
+Alle drie kunnen goed schalen, maar:
 - **gelezen de Reizen van het publiek** en **Campagnes van de Actie** worden geoptimaliseerd voor grote partijpubliek
 - **Orchestrated Campaigns** excel bij complexe segmentatie met grote datasets
 - **de procesprofielen van de Eenheid van de Reizen** individueel, zodat hangt de schaal van gebeurtenisvolume af
 
-**Q: Kan ik het zelfde publiek over reizen en campagnes gebruiken?**
++++
 
-A: Ja, in Adobe Experience Platform gecreëerd publiek kan in alle drie benaderingen worden gebruikt.
++++ Kan ik hetzelfde publiek gebruiken voor reizen en campagnes?
+
+Ja, in Adobe Experience Platform gecreëerd publiek kan in alle drie benaderingen worden gebruikt.
+
++++
 
 ## Volgende stappen {#next-steps}
 
