@@ -404,7 +404,7 @@ Beperk berichtproductie om het verzenden van reputatie te beheren en overweldige
 
 Bekijk een visuele introductie van reisonderdelen en leer de basisbeginselen van het maken van reizen op het canvas:
 
->[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430347?captions=dut&quality=12)
 
 ➡️ **Wilt u meer video&#39;s?** [&#x200B; Onderzoek reis videoleerprogramma&#39;s &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
