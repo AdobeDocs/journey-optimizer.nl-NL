@@ -35,18 +35,18 @@ Leer hoe u uw campagnes in Adobe Journey Optimizer kunt openen, organiseren en b
 
 Ga direct naar wat u nodig hebt:
 
-* **creeer een nieuwe campagne** → [ kies uw campagnetype ](get-started-with-campaigns.md#campaign-types)
+* **creeer een nieuwe campagne** → [&#x200B; kies uw campagnetype &#x200B;](get-started-with-campaigns.md#campaign-types)
    * [Handelscampagne maken](create-campaign.md)
    * [API-gestuurde campagne maken](api-triggered-campaigns.md)
    * [Geordende campagne maken](../orchestrated/gs-orchestrated-campaigns.md)
-* **vinden bestaande campagnes** → [ Onderzoek en filter ](#access)
-* **campagneprestaties van de Mening** → [ de rapporten van de Campagne ](../reports/campaign-global-report-cja.md)
-* **campagnes van het Programma** → [ Gebruik de kalender ](#calendar)
-* **beheert conflicten** → [ het beheershandleiding van het Conflict ](../conflict-prioritization/gs-conflict-prioritization.md)
+* **vinden bestaande campagnes** → [&#x200B; Onderzoek en filter &#x200B;](#access)
+* **campagneprestaties van de Mening** → [&#x200B; de rapporten van de Campagne &#x200B;](../reports/campaign-global-report-cja.md)
+* **campagnes van het Programma** → [&#x200B; Gebruik de kalender &#x200B;](#calendar)
+* **beheert conflicten** → [&#x200B; het beheershandleiding van het Conflict &#x200B;](../conflict-prioritization/gs-conflict-prioritization.md)
 
 ## Campagnes openen en doorbladeren {#access}
 
-Campagnes zijn toegankelijk via het menu **[!UICONTROL Campaigns]** . Gebruik de lusjes om campagnes door type te doorbladeren: **actie** campagnes, **API-teweeggebrachte** campagnes, en **Geordende** campagnes. Leer meer over de [ types van campagnes ](get-started-with-campaigns.md#campaign-types). Welke typen beschikbaar zijn, is afhankelijk van uw licentieovereenkomst en uw machtigingen.
+Campagnes zijn toegankelijk via het menu **[!UICONTROL Campaigns]** . Gebruik de lusjes om campagnes door type te doorbladeren: **actie** campagnes, **API-teweeggebrachte** campagnes, en **Geordende** campagnes. Leer meer over de [&#x200B; types van campagnes &#x200B;](get-started-with-campaigns.md#campaign-types). Welke typen beschikbaar zijn, is afhankelijk van uw licentieovereenkomst en uw machtigingen.
 
 >[!BEGINTABS]
 
@@ -70,9 +70,9 @@ Standaard worden in de lijst alle campagnes met de statussen **[!UICONTROL Draft
 
 Selecteer het tabblad **[!UICONTROL Orchestration]** voor toegang tot de lijst met geordende campagnes.
 
-![ beeld dat de Geordende campagneinventaris ](assets/inventory.png){zoomable="yes"} toont
+![&#x200B; beeld dat de Geordende campagneinventaris &#x200B;](assets/inventory.png){zoomable="yes"} toont
 
-Elk Geordende campagne in de lijst toont informatie zoals de huidige [ status van de campagne ](#statuses), het bijbehorende kanaal en de markeringen, of de laatste tijd het werd gewijzigd. U kunt de getoonde kolommen aanpassen door ![ te klikken vormt lay-outknoop ](assets/do-not-localize/inventory-configure-layout.svg).
+Elk Geordende campagne in de lijst toont informatie zoals de huidige [&#x200B; status van de campagne &#x200B;](#statuses), het bijbehorende kanaal en de markeringen, of de laatste tijd het werd gewijzigd. U kunt de getoonde kolommen aanpassen door ![&#x200B; te klikken vormt lay-outknoop &#x200B;](assets/do-not-localize/inventory-configure-layout.svg).
 
 >[!ENDTABS]
 
@@ -82,23 +82,23 @@ Bovendien zijn er een zoekbalk en filters beschikbaar waarmee u gemakkelijk in d
 
 ## Campagne {#operations}
 
-Het ![ beeld dat de Meer knopen van acties ](assets/do-not-localize/rule-builder-icon-more.svg) in de campagneinventaris toont staat u toe om diverse verrichtingen uit te voeren.
+Het ![&#x200B; beeld dat de Meer knopen van acties &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg) in de campagneinventaris toont staat u toe om diverse verrichtingen uit te voeren.
 
-![ beeld dat de campagneinventaris ](assets/inventory-actions.png) toont
+![&#x200B; beeld dat de campagneinventaris &#x200B;](assets/inventory-actions.png) toont
 
 ### Beschikbare acties
 
 **voor alle campagneretypen:**
 
-* **[!UICONTROL View all time report]** / **[!UICONTROL View last 24 hours report]** - Gebruik rapporten om de impact en prestaties van uw campagnes te meten en te visualiseren. [ leer meer over campagnerapporten → ](../reports/campaign-global-report-cja.md)
-* **[!UICONTROL Edit tags]** - Bewerk de tags die aan de campagne zijn gekoppeld. [ leren hoe te om markeringen te gebruiken → ](../start/search-filter-categorize.md#add-tags)
-* **[!UICONTROL Duplicate]** - Gebruik deze optie om een campagne te dupliceren, bijvoorbeeld om een geordende campagne uit te voeren die is gestopt. [ leer meer over het dupliceren → ](#duplicate-a-campaign)
-* **[!UICONTROL Delete]** - Gebruik deze optie om een campagne te verwijderen. [ Leer meer over het schrappen → ](#delete-a-campaign)
-* **[!UICONTROL Archive]** - Archiveer de campagne. Alle gearchiveerde campagnes worden 30 dagen na de laatste gewijzigde datum gewist. Deze actie is beschikbaar voor alle campagnes behalve **[!UICONTROL Draft]** campagnes. [ Leer meer over het archiveren → ](#archive-a-campaign)
+* **[!UICONTROL View all time report]** / **[!UICONTROL View last 24 hours report]** - Gebruik rapporten om de impact en prestaties van uw campagnes te meten en te visualiseren. [&#x200B; leer meer over campagnerapporten → &#x200B;](../reports/campaign-global-report-cja.md)
+* **[!UICONTROL Edit tags]** - Bewerk de tags die aan de campagne zijn gekoppeld. [&#x200B; leren hoe te om markeringen te gebruiken → &#x200B;](../start/search-filter-categorize.md#add-tags)
+* **[!UICONTROL Duplicate]** - Gebruik deze optie om een campagne te dupliceren, bijvoorbeeld om een geordende campagne uit te voeren die is gestopt. [&#x200B; leer meer over het dupliceren → &#x200B;](#duplicate-a-campaign)
+* **[!UICONTROL Delete]** - Gebruik deze optie om een campagne te verwijderen. [&#x200B; Leer meer over het schrappen → &#x200B;](#delete-a-campaign)
+* **[!UICONTROL Archive]** - Archiveer de campagne. Alle gearchiveerde campagnes worden 30 dagen na de laatste gewijzigde datum gewist. Deze actie is beschikbaar voor alle campagnes behalve **[!UICONTROL Draft]** campagnes. [&#x200B; Leer meer over het archiveren → &#x200B;](#archive-a-campaign)
 
 **voor Actie en API teweeggebrachte slechts campagnes:**
 
-* **[!UICONTROL Add to package]** - Voeg de campagne toe aan een pakket om deze naar een andere sandbox te exporteren. [ leer hoe te om voorwerpen uit te voeren → ](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL Add to package]** - Voeg de campagne toe aan een pakket om deze naar een andere sandbox te exporteren. [&#x200B; leer hoe te om voorwerpen uit te voeren → &#x200B;](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL Open draft version]** - Als een nieuwe versie van de campagne is gemaakt en nog niet is geactiveerd, kunt u de conceptversie van de campagne openen met deze actie.
 
 ## Inzicht in campagestatus {#statuses}
@@ -107,14 +107,14 @@ Elke campagne beweegt zich door een levenscyclus die door zijn status in de inte
 
 | Status | Actiecampagnes | API-gestuurde campagnes | Geordende campagnes | Wat het betekent | Volgende handelingen |
 |--------|:----------------:|:-----------------------:|:----------------------:|---------------|--------------|
-| **[!UICONTROL Draft]** | ✅ | ✅ | ✅ | Wordt bewerkt, niet geactiveerd | Ga het uitgeven of [ activeer campagne ](review-activate-campaign.md) verder |
-| **[!UICONTROL Scheduled]** | ✅ | ✅ | ✅ | Gevormd voor specifieke begindatum | Wacht op lancering, [ wijzigt indien nodig ](#modify), of [ mening in kalender ](#calendar) |
-| **[!UICONTROL Live]** | ✅ | ✅ | ✅ | Geactiveerd en actief | [ prestaties van de Monitor ](../reports/campaign-global-report-cja.md), [ creeer nieuwe versie ](#modify) indien nodig |
-| **[!UICONTROL In review]** | ✅ | ✅ | — | Ter goedkeuring ingediend | Wacht op [ goedkeuring ](../test-approve/gs-approval.md) of wijzig |
-| **[!UICONTROL Stopped]** | ✅ | ✅ | ✅ | Handmatig gestopt. Kan niet opnieuw activeren | [ Dupliceren aan hergebruik ](#duplicate-a-campaign) |
-| **[!UICONTROL Completed]** | ✅ | ✅ | ✅ | Uitvoering voltooid (automatisch toegewezen 3 dagen na activering of op einddatum voor terugkerend) | [ rapporten van de Mening ](../reports/campaign-global-report-cja.md), [ archief ](#archive-a-campaign), of [ dupliceert ](#duplicate-a-campaign) |
-| **[!UICONTROL Failed]** | ✅ | ✅ | — | Uitvoering mislukt | De logboeken van de controle, bevestigen kwesties, [ dupliceren om ](#duplicate-a-campaign) opnieuw te proberen |
-| **[!UICONTROL Archived]** | ✅ | ✅ | ✅ | Gearchiveerd (automatisch verwijderd na 30 dagen) | [ wint het gebruiken van filter ](#access) terug indien nodig |
+| **[!UICONTROL Draft]** | ✅ | ✅ | ✅ | Wordt bewerkt, niet geactiveerd | Ga het uitgeven of [&#x200B; activeer campagne &#x200B;](review-activate-campaign.md) verder |
+| **[!UICONTROL Scheduled]** | ✅ | ✅ | ✅ | Gevormd voor specifieke begindatum | Wacht op lancering, [&#x200B; wijzigt indien nodig &#x200B;](#modify), of [&#x200B; mening in kalender &#x200B;](#calendar) |
+| **[!UICONTROL Live]** | ✅ | ✅ | ✅ | Geactiveerd en actief | [&#x200B; prestaties van de Monitor &#x200B;](../reports/campaign-global-report-cja.md), [&#x200B; creeer nieuwe versie &#x200B;](#modify) indien nodig |
+| **[!UICONTROL In review]** | ✅ | ✅ | — | Ter goedkeuring ingediend | Wacht op [&#x200B; goedkeuring &#x200B;](../test-approve/gs-approval.md) of wijzig |
+| **[!UICONTROL Stopped]** | ✅ | ✅ | ✅ | Handmatig gestopt. Kan niet opnieuw activeren | [&#x200B; Dupliceren aan hergebruik &#x200B;](#duplicate-a-campaign) |
+| **[!UICONTROL Completed]** | ✅ | ✅ | ✅ | Uitvoering voltooid (automatisch toegewezen 3 dagen na activering of op einddatum voor terugkerend) | [&#x200B; rapporten van de Mening &#x200B;](../reports/campaign-global-report-cja.md), [&#x200B; archief &#x200B;](#archive-a-campaign), of [&#x200B; dupliceert &#x200B;](#duplicate-a-campaign) |
+| **[!UICONTROL Failed]** | ✅ | ✅ | — | Uitvoering mislukt | De logboeken van de controle, bevestigen kwesties, [&#x200B; dupliceren om &#x200B;](#duplicate-a-campaign) opnieuw te proberen |
+| **[!UICONTROL Archived]** | ✅ | ✅ | ✅ | Gearchiveerd (automatisch verwijderd na 30 dagen) | [&#x200B; wint het gebruiken van filter &#x200B;](#access) terug indien nodig |
 | **[!UICONTROL Closed]** | — | — | ✅ | Recurrecampagne gesloten, geen nieuwe ingangen toegestaan (blijft tot alle activiteiten voltooien) | Wacht op voltooiing |
 | **[!UICONTROL Publishing]** | — | — | ✅ | Wordt gepubliceerd | Wacht tot publicatie is voltooid |
 
@@ -153,21 +153,21 @@ Hoe campagnes worden vertegenwoordigd:
 
 ### Navigeren door de kalender
 
-1. Klik het ![ kalender ](assets/do-not-localize/Smock_Calendar_18_N.svg) pictogram om tot uw kalender van Campagnes toegang te hebben.
+1. Klik het ![&#x200B; kalender &#x200B;](assets/do-not-localize/Smock_Calendar_18_N.svg) pictogram om tot uw kalender van Campagnes toegang te hebben.
 
 1. Gebruik de pijlknoppen of de datumkiezer boven de kalender om tussen weken te gaan.
 
    In de kalender worden alle campagnes weergegeven die voor de huidige week zijn gepland.
 
-   ![ kalendermening die levende campagnes tonen ](assets/campaigns-timeline.png)
+   ![&#x200B; kalendermening die levende campagnes tonen &#x200B;](assets/campaigns-timeline.png)
 
-1. Klik het ![ tandwiel ](assets/do-not-localize/Smock_Gears_18_N.png) pictogram om de vertoning van punten van een knevel te voorzien die veelvoudige dagen of weken overspannen.
+1. Klik het ![&#x200B; tandwiel &#x200B;](assets/do-not-localize/Smock_Gears_18_N.png) pictogram om de vertoning van punten van een knevel te voorzien die veelvoudige dagen of weken overspannen.
 
-   ![ kalendermening die levende campagnes tonen ](assets/campaign-long-term.png)
+   ![&#x200B; kalendermening die levende campagnes tonen &#x200B;](assets/campaign-long-term.png)
 
-1. Klik ![ toevoegen kalender ](assets/do-not-localize/Smock_CalendarAdd_18_N.svg) pictogram om tot drie externe kalenders te beheren en toe te voegen.
+1. Klik ![&#x200B; toevoegen kalender &#x200B;](assets/do-not-localize/Smock_CalendarAdd_18_N.svg) pictogram om tot drie externe kalenders te beheren en toe te voegen.
 
-   ![ kalendermening die externe kalenders tonen ](assets/campaign-external-calendar.png)
+   ![&#x200B; kalendermening die externe kalenders tonen &#x200B;](assets/campaign-external-calendar.png)
 
 1. Sleep de CSV-bestanden met namen van gebeurtenissen, begindatums en einddatums.
 
@@ -183,11 +183,11 @@ Hoe campagnes worden vertegenwoordigd:
 
 1. Indien nodig, kunt u toegevoegde externe kalenders verbergen, verbergen of verwijderen.
 
-   ![ kalendermening die externe kalenders tonen ](assets/campaign-manage-calendar.png)
+   ![&#x200B; kalendermening die externe kalenders tonen &#x200B;](assets/campaign-manage-calendar.png)
 
 1. Voor meer informatie over een campagne klikt u op het visuele blok om de details ervan te openen. Er wordt een informatievenster geopend met verschillende informatie over de campagne, zoals het type, de toegang tot de rapporten of de tags die zijn toegewezen.
 
-   ![ campagnemijst met de informatieruit geopend ](assets/campaign-rail.png)
+   ![&#x200B; campagnemijst met de informatieruit geopend &#x200B;](assets/campaign-rail.png)
 
 ## Herhaalde handelingscampagnes wijzigen en stoppen {#modify}
 
@@ -205,7 +205,7 @@ Voer de volgende stappen uit om een nieuwe versie van een terugkerende campagne 
 
    ![](assets/create-campaign-edit-list.png)
 
-1. Zodra uw veranderingen klaar zijn, kunt u de nieuwe versie van de campagne (zie [ Overzicht activeren en een campagne ](review-activate-campaign.md) activeren).
+1. Zodra uw veranderingen klaar zijn, kunt u de nieuwe versie van de campagne (zie [&#x200B; Overzicht activeren en een campagne &#x200B;](review-activate-campaign.md) activeren).
 
    >[!IMPORTANT]
    >
@@ -240,7 +240,7 @@ Gearchiveerde campagnes kunnen vervolgens worden opgehaald met het speciale filt
 
 ## Een campagne verwijderen {#delete-a-campaign}
 
-Om een campagne te schrappen, gebruik het ellips ![ beeld dat de Meer actieknoop ](assets/do-not-localize/rule-builder-icon-more.svg) toont en **[!UICONTROL Delete]** selecteert.
+Om een campagne te schrappen, gebruik het ellips ![&#x200B; beeld dat de Meer actieknoop &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg) toont en **[!UICONTROL Delete]** selecteert.
 
 ![](assets/delete-a-campaign.png){width="70%" align="left"}
 
@@ -250,7 +250,7 @@ Om een campagne te schrappen, gebruik het ellips ![ beeld dat de Meer actieknoop
 
 ## Een campagne dupliceren {#duplicate-a-campaign}
 
-Om een campagne te dupliceren, bijvoorbeeld als het is tegengehouden, gebruik het ellips ![ beeld dat de Meer actieknoop ](assets/do-not-localize/rule-builder-icon-more.svg) toont en **[!UICONTROL Duplicate]** selecteert.
+Om een campagne te dupliceren, bijvoorbeeld als het is tegengehouden, gebruik het ellips ![&#x200B; beeld dat de Meer actieknoop &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg) toont en **[!UICONTROL Duplicate]** selecteert.
 
 Voer de naam van de campagne in en bevestig deze.
 
@@ -258,12 +258,12 @@ De campagne wordt gemaakt en toegevoegd aan de lijst met campagnes.
 
 ## Aanvullende bronnen
 
-* **Begonnen het worden** - [ begonnen met campagnes ](get-started-with-campaigns.md) | [ creeer uw eerste campagne van de Actie ](create-campaign.md) | [ API-teweeggebrachte campagnegids ](api-triggered-campaigns.md) | [ Geordende campagnegids ](../orchestrated/gs-orchestrated-campaigns.md)
+* **Begonnen het worden** - [&#x200B; begonnen met campagnes &#x200B;](get-started-with-campaigns.md) | [&#x200B; creeer uw eerste campagne van de Actie &#x200B;](create-campaign.md) | [&#x200B; API-teweeggebrachte campagnegids &#x200B;](api-triggered-campaigns.md) | [&#x200B; Geordende campagnegids &#x200B;](../orchestrated/gs-orchestrated-campaigns.md)
 
-* **configuratie van de Campagne** - [ eigenschappen van de Campagne ](campaign-properties.md) | [ acties en kanalen van de Campagne ](campaign-action.md) | [ het inhoudsontwerp van de Campagne ](campaign-content.md) | [ de publieksselectie van de campagne ](campaign-audience.md) | [ Campagne die ](campaign-schedule.md) plant
+* **configuratie van de Campagne** - [&#x200B; eigenschappen van de Campagne &#x200B;](campaign-properties.md) | [&#x200B; acties en kanalen van de Campagne &#x200B;](campaign-action.md) | [&#x200B; het inhoudsontwerp van de Campagne &#x200B;](campaign-content.md) | [&#x200B; de publieksselectie van de campagne &#x200B;](campaign-audience.md) | [&#x200B; Campagne die &#x200B;](campaign-schedule.md) plant
 
-* **Geavanceerde eigenschappen** - [ de werkschema&#39;s van de Goedkeuring ](../test-approve/gs-approval.md) | [ Conflict beheer &amp; prioritering ](../conflict-prioritization/gs-conflict-prioritization.md) | [ Het in kaart brengen van de Frequentie door kanaal ](../conflict-prioritization/channel-capping.md) | [ Prioriteitsscores ](../conflict-prioritization/priority-scores.md) | [ campagnes van de Uitvoer aan andere zandbakken ](../configuration/copy-objects-to-sandbox.md)
+* **Geavanceerde eigenschappen** - [&#x200B; de werkschema&#39;s van de Goedkeuring &#x200B;](../test-approve/gs-approval.md) | [&#x200B; Conflict beheer &amp; prioritering &#x200B;](../conflict-prioritization/gs-conflict-prioritization.md) | [&#x200B; Het in kaart brengen van de Frequentie door kanaal &#x200B;](../conflict-prioritization/channel-capping.md) | [&#x200B; Prioriteitsscores &#x200B;](../conflict-prioritization/priority-scores.md) | [&#x200B; campagnes van de Uitvoer aan andere zandbakken &#x200B;](../configuration/copy-objects-to-sandbox.md)
 
-* **Controle &amp; optimalisering** - [ de rapporten van de Campagne (CJA) ](../reports/campaign-global-report-cja.md) | [ Het alarm van de opstelling ](../reports/alerts.md)
+* **Controle &amp; optimalisering** - [&#x200B; de rapporten van de Campagne (CJA) &#x200B;](../reports/campaign-global-report-cja.md) | [&#x200B; Het alarm van de opstelling &#x200B;](../reports/alerts.md)
 
-* **Organisatie** - [ Werk met markeringen ](../start/search-filter-categorize.md) | [ leiden toestemmingen ](../administration/ootb-product-profiles.md)
+* **Organisatie** - [&#x200B; Werk met markeringen &#x200B;](../start/search-filter-categorize.md) | [&#x200B; leiden toestemmingen &#x200B;](../administration/ootb-product-profiles.md)
