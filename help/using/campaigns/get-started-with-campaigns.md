@@ -278,7 +278,7 @@ Voordat u met campagnes gaat werken, moet u het volgende controleren:
 
 1. Typ de naam of het e-mailadres van de gebruiker of selecteer de gebruiker in de lijst en klik op **[!UICONTROL Save]** .
 
-   Als de gebruiker niet eerder werd gecreeerd, verwijs naar [&#x200B; gebruikersdocumentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users){target="_blank"} toevoegen.
+   Als de gebruiker niet eerder werd gecreeerd, verwijs naar [&#x200B; gebruikersdocumentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/users){target="_blank"} toevoegen.
 
 Uw gebruiker moet dan een e-mail ontvangen die aan uw instantie opnieuw richt.
 
@@ -291,7 +291,7 @@ Terwijl u comfortabeler bent met campagnes, verkent u de volgende krachtige moge
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=nl-NL)
 
 **Plannend &amp; timing**
 
@@ -301,7 +301,7 @@ Plan campagnes voor specifieke datums/tijden, stel terugkerende leveringen in en
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 **de controle van het Tarief**
 
@@ -311,7 +311,7 @@ Beperk berichtendoorvoer om overbelasting op downstreamsystemen zoals het landen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
 
 **Publiek richtend**
 
@@ -321,7 +321,7 @@ Doelspecifiek Adobe Experience Platform-publiek nauwkeurig instellen en de publi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
 
 **de werkschema&#39;s van de Goedkeuring**
 
@@ -331,7 +331,7 @@ Evaluatie- en goedkeuringsprocessen uitvoeren voordat campagnes live gaan, zodat
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=nl-NL)
 
 **stille uren**
 
@@ -341,7 +341,7 @@ Eerbiedig klantenvoorkeur door berichtlevering tijdens gespecificeerde tijdvenst
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
 
 **Send-time optimalisering**
 
