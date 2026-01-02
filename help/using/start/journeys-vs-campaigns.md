@@ -9,7 +9,7 @@ level: Beginner
 keywords: reis, campagne, georkestreerd, vergelijking, keuze, beslissing, workflow, realtime, batch, orchestratie, meerdere stappen, gepland, API-geactiveerd, gebeurtenisgestuurd
 hide: true
 hidefromtoc: true
-source-git-commit: f749eae4e0a826428880e913219cf6f5a135b17c
+source-git-commit: 5c842eb5d744380b462c6830af0838aa3329e9f7
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 1%
@@ -159,33 +159,33 @@ Combineert werkstroomcomplexiteit met het uitvoeren van batchcampagnes.
 
 ### Gebruiksgevallen voor reizen
 
-&#x200B;* **terugwinning van het verlaten van de kunst**: teweeggebracht door wagentje voegt gebeurtenis toe, wacht op controle, verzendt herinneringen als geen aankoop
-&#x200B;* **Klant aan boord nemen**: De multi-stap welkome reeks met gepersonaliseerde inhoud die op profielgegevens wordt gebaseerd
-&#x200B;* **Loyalty rijverbetering**: teweeggebracht wanneer de klant nieuwe rij bereikt, verzend felicitaties en voordelen
-&#x200B;* **campagnes van de Verjaardag**: Ingang die op geboortedatum wordt gebaseerd, gepersonaliseerde aanbiedingen
-&#x200B;* **re-engagement**: teweeggebracht door publiekskwalificatie (inactiviteit), progressieve outreach
+- **terugwinning van het verlaten van de kunst**: teweeggebracht door wagentje voegt gebeurtenis toe, wacht op controle, verzendt herinneringen als geen aankoop
+- **Klant aan boord nemen**: De multi-stap welkome reeks met gepersonaliseerde inhoud die op profielgegevens wordt gebaseerd
+- **Loyalty rijverbetering**: teweeggebracht wanneer de klant nieuwe rij bereikt, verzend felicitaties en voordelen
+- **campagnes van de Verjaardag**: Ingang die op geboortedatum wordt gebaseerd, gepersonaliseerde aanbiedingen
+- **re-engagement**: teweeggebracht door publiekskwalificatie (inactiviteit), progressieve outreach
 
 ### Gebruiksgevallen voor campagne (activering en activering van API)
 
 **Campagnes van de Actie:**
-&#x200B;* **Maandelijkse nieuwsbrieven**: Geplande partijlevering aan abonneesegment
-&#x200B;* **Bevorderingsaankondigingen**: Tijd-gevoelige aanbiedingen aan doelpubliek
-&#x200B;* **de lanceringen van het Product**: Gecoördineerde aankondiging aan alle klanten
-&#x200B;* **seizoensgebonden groeten**: De berichten van de vakantie op specifieke data
+- **Maandelijkse nieuwsbrieven**: Geplande partijlevering aan abonneesegment
+- **Bevorderingsaankondigingen**: Tijd-gevoelige aanbiedingen aan doelpubliek
+- **de lanceringen van het Product**: Gecoördineerde aankondiging aan alle klanten
+- **seizoensgebonden groeten**: De berichten van de vakantie op specifieke data
 
 **API-teweeggebrachte Campagnes:**
-&#x200B;* **Bevestigingen van de Orde**: teweeggebracht door e-commercesysteem na aankoop
-&#x200B;* **Verzendingsberichten**: Teweeggebracht door logistiek systeem
-&#x200B;* **de alarm van de Rekening**: teweeggebracht door het systeem van de fraudeopsporing
-&#x200B;* **Terugstellen van het Wachtwoord**: teweeggebracht door gebruikersactie in toepassing
+- **Bevestigingen van de Orde**: teweeggebracht door e-commercesysteem na aankoop
+- **Verzendingsberichten**: Teweeggebracht door logistiek systeem
+- **de alarm van de Rekening**: teweeggebracht door het systeem van de fraudeopsporing
+- **Terugstellen van het Wachtwoord**: teweeggebracht door gebruikersactie in toepassing
 
 ### Gebruiksgevallen van geordende campagne
 
-&#x200B;* **seizoensgebonden bevordering met catalogusintegratie**: De het productcatalogus van de vraag, identificeert in aanmerking komende klanten, segment door voorkeur, verzend gepersonaliseerde productaanbevelingen
-&#x200B;* **opslag-specifieke campagnes**: De klanten van het doel dichtbij specifieke opslagplaatsen met de gegevens van de opslagvoorraad
-&#x200B;* **Multi-booking mededelingen**: Verzend één bericht per het boeken (hotelreserveringen, vluchtboekingen)
-&#x200B;* **Complexe segmentorkest**: Bouw publiek stap voor stap met verrijking van veelvoudige gegevensbronnen
-&#x200B;* **pre-verzendt bevestiging**: Krijg nauwkeurige tellingen van ontvangers alvorens belangrijke campagnes te lanceren
+- **seizoensgebonden bevordering met catalogusintegratie**: De het productcatalogus van de vraag, identificeert in aanmerking komende klanten, segment door voorkeur, verzend gepersonaliseerde productaanbevelingen
+- **opslag-specifieke campagnes**: De klanten van het doel dichtbij specifieke opslagplaatsen met de gegevens van de opslagvoorraad
+- **Multi-booking mededelingen**: Verzend één bericht per het boeken (hotelreserveringen, vluchtboekingen)
+- **Complexe segmentorkest**: Bouw publiek stap voor stap met verrijking van veelvoudige gegevensbronnen
+- **pre-verzendt bevestiging**: Krijg nauwkeurige tellingen van ontvangers alvorens belangrijke campagnes te lanceren
 
 ## Beschikbaarheid van functies {#feature-availability}
 
@@ -252,9 +252,9 @@ A: Ja, in Adobe Experience Platform gecreëerd publiek kan in alle drie benaderi
 
 Klaar om te beginnen met bouwen? Bekijk de gedetailleerde documentatie voor uw gekozen aanpak:
 
-&#x200B;* **[wordt begonnen met Reizen](../building-journeys/journey.md)** - leer over reistypes, ontwerper, en werkschema
-&#x200B;* **[worden begonnen met Campagnes](../campaigns/get-started-with-campaigns.md)** - onderzoek Actie en API-teweeggebrachte campagnes
-&#x200B;* **[worden begonnen met Geordende Campagnes](../orchestrated/gs-orchestrated-campaigns.md)** - ontdekt de werkschema&#39;s van het partijcanvas
+- **[wordt begonnen met Reizen](../building-journeys/journey.md)** - leer over reistypes, ontwerper, en werkschema
+- **[worden begonnen met Campagnes](../campaigns/get-started-with-campaigns.md)** - onderzoek Actie en API-teweeggebrachte campagnes
+- **[worden begonnen met Geordende Campagnes](../orchestrated/gs-orchestrated-campaigns.md)** - ontdekt de werkschema&#39;s van het partijcanvas
 
 **heb meer hulp nodig bepalend?**
 - [Vergelijking van reistypes](../building-journeys/journey.md#journey-types-comparison)
