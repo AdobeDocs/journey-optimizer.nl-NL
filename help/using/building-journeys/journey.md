@@ -45,7 +45,7 @@ Gebruik [!DNL Journey Optimizer] om:
 
 >[!TAB  Eenheids reizen ]
 
-![&#x200B; pictogram &#x200B;](https://cdn.experienceleague.adobe.com/icons/circle-play.svg) **wanneer te gebruiken:** Real-time, gebeurtenis-teweeggebrachte ervaringen
+![&#x200B; pictogram &#x200B;](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL) **wanneer te gebruiken:** Real-time, gebeurtenis-teweeggebrachte ervaringen
 
 **de eenheidstrajecten** worden teweeggebracht individueel wanneer een specifieke actie (aankoop, app login, vormvoorlegging) voorkomt. Profielen worden een voor een ingevoerd in real-time ingevoerd, waardoor dit ideaal is voor directe, op gedrag gebaseerde reacties.
 
@@ -60,7 +60,7 @@ Gebruik [!DNL Journey Optimizer] om:
 
 >[!TAB  lees de reizen van het Publiek ]
 
-![&#x200B; pictogram &#x200B;](https://cdn.experienceleague.adobe.com/icons/database.svg) **wanneer te gebruiken:** Geplande campagnes aan publiekssegmenten
+![&#x200B; pictogram &#x200B;](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=nl-NL) **wanneer te gebruiken:** Geplande campagnes aan publiekssegmenten
 
 **las de reizen van het Publiek** beginnen met een publiek van Adobe Experience Platform en verzendt berichten in partij naar alle profielen gelijktijdig. Dit type van reis is ideaal voor geplande, grootschalige mededelingen.
 
@@ -75,7 +75,7 @@ Gebruik [!DNL Journey Optimizer] om:
 
 >[!TAB  reizen van de Kwalificatie van het publiek ]
 
-![&#x200B; pictogram &#x200B;](https://cdn.experienceleague.adobe.com/icons/bullseye.svg) **toen te gebruiken:** Reële-tijd reacties op de veranderingen van het publiekslidmaatschap
+![&#x200B; pictogram &#x200B;](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL) **toen te gebruiken:** Reële-tijd reacties op de veranderingen van het publiekslidmaatschap
 
 **de reizen van de Kwalificatie van het publiek** teweegbrengen wanneer de profielen voor (of uitgang uit) een specifiek publiek kwalificeren. Profielen worden afzonderlijk ingevoerd als ze in real-time aan de criteria voldoen, zodat ze direct in contact kunnen komen wanneer het gedrag van de klant verandert.
 
@@ -90,7 +90,7 @@ Gebruik [!DNL Journey Optimizer] om:
 
 >[!TAB  Van bedrijfs gebeurtenisreizen ]
 
-![&#x200B; pictogram &#x200B;](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg) **wanneer te gebruiken:** Bedrijfs voorwaarden die veelvoudige klanten beïnvloeden
+![&#x200B; pictogram &#x200B;](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=nl-NL) **wanneer te gebruiken:** Bedrijfs voorwaarden die veelvoudige klanten beïnvloeden
 
 &lbrace;de ritten van de Bedrijfs gebeurtenis **worden teweeggebracht door zaken-vlakke gebeurtenissen (voorraadupdates, weeralarm, prijsveranderingen) die veelvoudige profielen gelijktijdig beïnvloeden.** Deze maatregelen zijn eerder gericht op bredere bedrijfsomstandigheden dan op individuele acties.
 
@@ -121,7 +121,7 @@ De **[reisontwerper](using-the-journey-designer.md)** is uw visueel canvas voor 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 **bepaalt ingangspunten**
 
@@ -131,7 +131,7 @@ Kies hoe klanten ingaan: door een gebeurtenis, een publiekssegment, of een publi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=nl-NL)
 
 **Berichten verzenden**
 
@@ -141,7 +141,7 @@ Gebruik ingebouwde kanaalacties voor e-mail, push, SMS/MMS, in-app, web en meer,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 **voeg logica &amp; voorwaarden** toe
 
@@ -151,7 +151,7 @@ Vertakken uw reis die op profielattributen, publiekslidmaatschap, of gebeurtenis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=nl-NL)
 
 **gegevens van de Leverage**
 
@@ -161,7 +161,7 @@ Gebruik contextuele gegevens van gebeurtenissen, Adobe Experience Platform of ex
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 **verbindt externe systemen**
 
@@ -171,7 +171,7 @@ Aangepaste acties maken om systemen van derden te integreren voor het verzenden 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 **voeg orchestration activiteiten** toe
 
@@ -262,7 +262,7 @@ Leer uit praktische voorbeelden die aantonen hoe u reisconcepten toepast om geme
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=nl-NL)
 
 **Onthaal nieuwe abonnees**
 
@@ -272,7 +272,7 @@ Wanneer een klant zich op uw dienst abonneert, teweeg een welkome reis die hen a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=nl-NL)
 
 **Send-time optimalisering**
 
@@ -282,7 +282,7 @@ Gebruik AI om e-mails te verzenden wanneer elke klant waarschijnlijk verbinding 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
 
 **Ramp omhoog leveranties**
 
@@ -292,7 +292,7 @@ Verhoog geleidelijk het berichtvolume om uw verzendende reputatie op te warmen e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
 
 **Doel tegen weekdag**
 
@@ -302,7 +302,7 @@ Verstuur verschillende inhoud op de dag van de week die klanten uw reis voor bet
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 **Multikanaalcampagnes**
 
@@ -312,7 +312,7 @@ Orchestreer naadloze ervaringen via e-mail, push, SMS en webkanalen in één rei
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
 
 **Alle gebruiksgevallen**
 
@@ -330,7 +330,7 @@ Terwijl u comfortabeler bent met het maken van reizen, verkent u deze krachtige 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
 
 **Geavanceerde Uitdrukkingen**
 
@@ -340,7 +340,7 @@ Bouw dynamische voorwaarden en verpersoonlijking gebruikend de uitdrukkingsredac
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=nl-NL)
 
 **Tijdzonebeheer**
 
@@ -350,7 +350,7 @@ Verwerk het algemene publiek met automatische aanpassingen van de tijdzone en op
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
 
 **wijze van de Test &amp; droge looppas**
 
@@ -360,7 +360,7 @@ U kunt reizen valideren met testprofielen voordat u live gaat en een voorvertoni
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=nl-NL)
 
 **Exemplaar aan zandbak**
 
@@ -370,7 +370,7 @@ Dubbele reizen tussen sandboxen om test- en implementatieworkflows te stroomlijn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
 
 **Markeringen &amp; organisatie**
 
@@ -380,7 +380,7 @@ Gebruik labels om ritten te categoriseren en filteren voor beter beheer op schaa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 **controle van de Output**
 
@@ -399,7 +399,7 @@ Bekijk een visuele introductie van reisonderdelen en leer de basisbeginselen van
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
-➡️ **Wilt u meer video&#39;s?** [&#x200B; Onderzoek reis videoleerprogramma&#39;s &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+➡️ **Wilt u meer video&#39;s?** [&#x200B; Onderzoek reis videoleerprogramma&#39;s &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
 ## Hebt u hulp nodig? {#help}
 
