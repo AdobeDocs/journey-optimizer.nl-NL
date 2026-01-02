@@ -33,9 +33,9 @@ Gebruik [!DNL Journey Optimizer] om:
 * Ontwerp **multistep geavanceerde scenario&#39;s** die dynamisch aan klantengedrag en bedrijfsgebeurtenissen antwoorden
 * Lever **1 :1 gepersonaliseerde ervaringen** bij schaal over e-mail, duw, SMS, in-app, Web, en meer
 
-![ de ontwerperinterface van de Reis met palet, canvas, en eigenschappenruit ](assets/journey38.png)
+![&#x200B; de ontwerperinterface van de Reis met palet, canvas, en eigenschappenruit &#x200B;](assets/journey38.png)
 
-➡️ **Klaar om te beginnen met bouwen?** [ creeer uw eerste reis ](journey-gs.md) in 5 minuten.
+➡️ **Klaar om te beginnen met bouwen?** [&#x200B; creeer uw eerste reis &#x200B;](journey-gs.md) in 5 minuten.
 
 ## Kies uw type reis {#journey-types}
 
@@ -51,7 +51,7 @@ Gebruik [!DNL Journey Optimizer] om:
 
 **Perfect voor:** Bevestigingen van de Orde na aankoop, welkome e-mails wanneer iemand zich abonneert, wortelbeëindiging teweeggebracht door het doorbladeren, en wachtwoord terugstellende berichten.
 
-➡️ [ Leer over gebeurtenissen ](../event/about-events.md) | [ Bericht aan abonnees gebruikt geval ](message-to-subscribers-uc.md)
+➡️ [&#x200B; Leer over gebeurtenissen &#x200B;](../event/about-events.md) | [&#x200B; Bericht aan abonnees gebruikt geval &#x200B;](message-to-subscribers-uc.md)
 
 >[!TAB  lees de reizen van het Publiek ]
 
@@ -61,7 +61,7 @@ Gebruik [!DNL Journey Optimizer] om:
 
 **Perfect voor:** Maandelijkse nieuwsbrieven, promotiecampagnes aan doelsegmenten, productaankondigingen, en seizoensgebonden marketing campagnes.
 
-➡️ [ Leer over Gelezen Publiek ](read-audience.md) | [ krijgen begonnen met publiek ](../audience/about-audiences.md)
+➡️ [&#x200B; Leer over Gelezen Publiek &#x200B;](read-audience.md) | [&#x200B; krijgen begonnen met publiek &#x200B;](../audience/about-audiences.md)
 
 >[!TAB  reizen van de Kwalificatie van het publiek ]
 
@@ -71,17 +71,17 @@ Gebruik [!DNL Journey Optimizer] om:
 
 **Perfect voor:** de de rijverbeteringsberichten van VIP, re-engagement wanneer de klanten inactief worden, eerste de berichten van de aankoopviering, en geografisch gericht richten wanneer de klanten zich bewegen.
 
-➡️ [ Leer over de Kwalificatie van het Publiek ](audience-qualification-events.md) | [ Creërend publiek ](../audience/creating-a-segment-definition.md)
+➡️ [&#x200B; Leer over de Kwalificatie van het Publiek &#x200B;](audience-qualification-events.md) | [&#x200B; Creërend publiek &#x200B;](../audience/creating-a-segment-definition.md)
 
 >[!TAB  Van bedrijfs gebeurtenisreizen ]
 
 **Wanneer te gebruiken:** Bedrijfs voorwaarden die veelvoudige klanten beïnvloeden
 
-{de ritten van de Bedrijfs gebeurtenis **worden teweeggebracht door zaken-vlakke gebeurtenissen (voorraadupdates, weeralarm, prijsveranderingen) die veelvoudige profielen gelijktijdig beïnvloeden.** Deze maatregelen zijn eerder gericht op bredere bedrijfsomstandigheden dan op individuele acties.
+&lbrace;de ritten van de Bedrijfs gebeurtenis **worden teweeggebracht door zaken-vlakke gebeurtenissen (voorraadupdates, weeralarm, prijsveranderingen) die veelvoudige profielen gelijktijdig beïnvloeden.** Deze maatregelen zijn eerder gericht op bredere bedrijfsomstandigheden dan op individuele acties.
 
 **Perfect voor:** Lage inventarisalarm aan geïnteresseerde klanten, de aankondigingen van de flitsverkoop, op weer-gebaseerde bevorderingen, de berichten van de prijsdaling, en product achterstandsalarm.
 
-➡️ [ Leer over bedrijfsgebeurtenissen ](../event/about-creating-business.md) | [ Invoerbeheer ](entry-management.md)
+➡️ [&#x200B; Leer over bedrijfsgebeurtenissen &#x200B;](../event/about-creating-business.md) | [&#x200B; Invoerbeheer &#x200B;](entry-management.md)
 
 >[!ENDTABS]
 
@@ -93,14 +93,14 @@ Gebruik [!DNL Journey Optimizer] om:
 
 De **[reisontwerper](using-the-journey-designer.md)** is uw visueel canvas voor het creëren van klantenervaringen. Met een intuïtieve drag-and-drop interface, kunt u elke stap van uw reis organiseren zonder code te schrijven.
 
-![ de ontwerperinterface van de Reis met palet, canvas, en eigenschappenruit ](assets/journey38.png)
+![&#x200B; de ontwerperinterface van de Reis met palet, canvas, en eigenschappenruit &#x200B;](assets/journey38.png)
 
 ### Wat u in de ontwerper kunt doen:
 
 :::: landing-cards-container
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **bepaalt ingangspunten**
 
@@ -110,7 +110,7 @@ Kies hoe klanten ingaan: door een gebeurtenis, een publiekssegment, of een publi
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Berichten verzenden**
 
@@ -120,7 +120,7 @@ Gebruik ingebouwde kanaalacties voor e-mail, push, SMS/MMS, in-app, web en meer,
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **voeg logica &amp; voorwaarden** toe
 
@@ -130,7 +130,7 @@ Vertakken uw reis die op profielattributen, publiekslidmaatschap, of gebeurtenis
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **gegevens van de Leverage**
 
@@ -140,7 +140,7 @@ Gebruik contextuele gegevens van gebeurtenissen, Adobe Experience Platform of ex
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **verbindt externe systemen**
 
@@ -150,7 +150,7 @@ Aangepaste acties maken om systemen van derden te integreren voor het verzenden 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **voeg orchestration activiteiten** toe
 
@@ -161,7 +161,7 @@ Gebruik wachttijden, sprongen, profielupdates en publieksbeheer om geavanceerde 
 
 ::::
 
-➡️ **Hands-on het leren:** [ bekijk de video van de reisontwerper ](#video) of [ onderzoek van begin tot eind gebruiksgevallen ](jo-use-cases.md)
+➡️ **Hands-on het leren:** [&#x200B; bekijk de video van de reisontwerper &#x200B;](#video) of [&#x200B; onderzoek van begin tot eind gebruiksgevallen &#x200B;](jo-use-cases.md)
 
 ## Uw workflow voor het maken van reizen {#workflow}
 
@@ -175,7 +175,7 @@ Voordat u de ontwerper opent, moet u uw doelstellingen verduidelijken:
 
 * **wat is het doel?** (bijvoorbeeld aan boord van nieuwe klanten, opnieuw inactieve gebruikers inschakelen)
 * **Wie is het publiek?** (specifiek segment, gebeurtenisgestuurde personen)
-* **Welk vervoerstype past?** (Zie [ reistypes ](#journey-types) hierboven)
+* **Welk vervoerstype past?** (Zie [&#x200B; reistypes &#x200B;](#journey-types) hierboven)
 * **Welke kanalen zult u gebruiken?** (e-mail, push, SMS, enz.)
 
 ### &#x200B;2. Ontwerp op het canvas {#design}
@@ -199,7 +199,7 @@ Test altijd uw reis om kwesties te vangen alvorens de klanten hen ervaren:
 * Controleren of alle voorwaarden, berichten en handelingen naar behoren werken
 * De timing, gegevensstromen, en verpersoonlijking van de controle
 
-[ test uw reis → ](testing-the-journey.md) | [ Leer over droge looppas → ](journey-dry-run.md)
+[&#x200B; test uw reis → &#x200B;](testing-the-journey.md) | [&#x200B; Leer over droge looppas → &#x200B;](journey-dry-run.md)
 
 ### &#x200B;4. Publiceer uw reis {#publish}
 
@@ -219,7 +219,7 @@ Volg hoe je reis in de echte wereld presteert:
 * Het ingang, de voltooiing van de monitor, en foutenpercentages
 * Waarschuwingen instellen voor kritieke problemen
 
-[ Monitor en rapport → ](report-journey.md) | [ opstelling alarm → ](../reports/alerts.md)
+[&#x200B; Monitor en rapport → &#x200B;](report-journey.md) | [&#x200B; opstelling alarm → &#x200B;](../reports/alerts.md)
 
 ### &#x200B;6. Optimaliseren en herhalen {#optimize}
 
@@ -230,9 +230,9 @@ Gebruik inzichten om te verbeteren:
 * Nieuwe reisversies maken met verbeteringen
 * Aanbevelingen van AI gebruiken
 
-[ optimaliseer uw reizen →](optimize.md) | [ Send-time optimalisering → ](send-time-optimization.md)
+[&#x200B; optimaliseer uw reizen →](optimize.md) | [&#x200B; Send-time optimalisering → &#x200B;](send-time-optimization.md)
 
-➡️ **Klaar om te beginnen?** [ creeer nu uw eerste reis → ](journey-gs.md)
+➡️ **Klaar om te beginnen?** [&#x200B; creeer nu uw eerste reis → &#x200B;](journey-gs.md)
 
 ## Kwesties voor gebruik in de praktijk {#use-cases}
 
@@ -241,7 +241,7 @@ Leer uit praktische voorbeelden die aantonen hoe u reisconcepten toepast om geme
 :::: landing-cards-container
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Onthaal nieuwe abonnees**
 
@@ -251,7 +251,7 @@ Wanneer een klant zich op uw dienst abonneert, teweeg een welkome reis die hen a
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Send-time optimalisering**
 
@@ -261,7 +261,7 @@ Gebruik AI om e-mails te verzenden wanneer elke klant waarschijnlijk verbinding 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Ramp omhoog leveranties**
 
@@ -271,7 +271,7 @@ Verhoog geleidelijk het berichtvolume om uw verzendende reputatie op te warmen e
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Doel tegen weekdag**
 
@@ -281,7 +281,7 @@ Verstuur verschillende inhoud op de dag van de week die klanten uw reis voor bet
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Multikanaalcampagnes**
 
@@ -291,13 +291,13 @@ Orchestreer naadloze ervaringen via e-mail, push, SMS en webkanalen in één rei
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Alle gebruiksgevallen**
 
 Ontdek de volledige bibliotheek met trajectgebruiksgevallen met stapsgewijze implementaties.
 
-[ doorblader allen → ](jo-use-cases.md) | [ de gevallenbibliotheek van het Gebruik → ](/help/rp_landing_pages/journey-use-cases-landing-page.md)
+[&#x200B; doorblader allen → &#x200B;](jo-use-cases.md) | [&#x200B; de gevallenbibliotheek van het Gebruik → &#x200B;](/help/rp_landing_pages/journey-use-cases-landing-page.md)
 :::
 
 ::::
@@ -309,7 +309,7 @@ Terwijl u comfortabeler bent met het maken van reizen, verkent u deze krachtige 
 :::: landing-cards-container
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Geavanceerde Uitdrukkingen**
 
@@ -319,7 +319,7 @@ Bouw dynamische voorwaarden en verpersoonlijking gebruikend de uitdrukkingsredac
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Tijdzonebeheer**
 
@@ -329,7 +329,7 @@ Verwerk het algemene publiek met automatische aanpassingen van de tijdzone en op
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **wijze van de Test &amp; droge looppas**
 
@@ -339,7 +339,7 @@ U kunt reizen valideren met testprofielen voordat u live gaat en een voorvertoni
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Exemplaar aan zandbak**
 
@@ -349,7 +349,7 @@ Dubbele reizen tussen sandboxen om test- en implementatieworkflows te stroomlijn
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Markeringen &amp; organisatie**
 
@@ -359,7 +359,7 @@ Gebruik labels om ritten te categoriseren en filteren voor beter beheer op schaa
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **controle van de Output**
 
@@ -378,7 +378,7 @@ Bekijk een visuele introductie van reisonderdelen en leer de basisbeginselen van
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
-➡️ **Wilt u meer video&#39;s?** [ Onderzoek reis videoleerprogramma&#39;s ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+➡️ **Wilt u meer video&#39;s?** [&#x200B; Onderzoek reis videoleerprogramma&#39;s &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
 ## Hebt u hulp nodig? {#help}
 
@@ -401,4 +401,4 @@ Opstelling **[reisalarm](../reports/alerts.md)** om bericht in real time te ontv
 * **[de uitvoeringskwesties van het Oplossen van problemen](troubleshooting-execution.md)** - zuivert de problemen van de reisuitvoering
 * **[het Oplossen van problemen binnenkomende activiteiten](troubleshooting-inbound.md)** - de ingang en kwalificatiekwesties van de moeilijke situatie
 
-**Klaar om uw eerste reis te bouwen?** [ wordt begonnen nu → ](journey-gs.md)
+**Klaar om uw eerste reis te bouwen?** [&#x200B; wordt begonnen nu → &#x200B;](journey-gs.md)
