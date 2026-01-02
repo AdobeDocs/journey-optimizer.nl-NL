@@ -29,17 +29,17 @@ Met [!DNL Journey Optimizer] kunt u speciale TXT-records voor de verificatie van
 
 >[!CAUTION]
 >
-> Deze bewerking kan alleen worden uitgevoerd als een subdomein de status **[!UICONTROL Success]** heeft. Voor meer op de statussen van subdomeinen, verwijs naar [ deze sectie ](delegate-subdomain.md#access-delegated-subdomains).
+> Deze bewerking kan alleen worden uitgevoerd als een subdomein de status **[!UICONTROL Success]** heeft. Voor meer op de statussen van subdomeinen, verwijs naar [&#x200B; deze sectie &#x200B;](delegate-subdomain.md#access-delegated-subdomains).
 
 Ga als volgt te werk om een Google TXT-record aan uw subdomein toe te voegen:
 
 1. Open het subdomein via het menu **[!UICONTROL Channels]** > **[!UICONTROL Email settings]** > **[!UICONTROL Subdomains]** .
 
-1. In de **[!UICONTROL Google txt record]** sectie, ga de verificatiecode in die van [ Google Workspace ](https://support.google.com/a/answer/183895){target="_blank"} <!--G Suite Admin tools--> wordt geproduceerd, dan klik **[!UICONTROL Save]**.
+1. In de **[!UICONTROL Google txt record]** sectie, ga de verificatiecode in die van [&#x200B; Google Workspace &#x200B;](https://support.google.com/a/answer/183895){target="_blank"} <!--G Suite Admin tools--> wordt geproduceerd, dan klik **[!UICONTROL Save]**.
 
    ![](assets/subdomain-google-txt.png)
 
-1. Nadat de TXT-record is toegevoegd, moet u deze door Google laten verifiëren. Om dit te doen, navigeer aan [ Google Workspace ](https://support.google.com/a/answer/183895){target="_blank"} <!--G Suite Admin tools-->, dan lanceer de verificatiestap.
+1. Nadat de TXT-record is toegevoegd, moet u deze door Google laten verifiëren. Om dit te doen, navigeer aan [&#x200B; Google Workspace &#x200B;](https://support.google.com/a/answer/183895){target="_blank"} <!--G Suite Admin tools-->, dan lanceer de verificatiestap.
 
 ## Een Google TXT-record bijwerken {#update-google-txt-record}
 
@@ -53,4 +53,4 @@ Voer de volgende stappen uit om een bestaande Google TXT-record bij te werken:
 
 1. Klik nogmaals op **[!UICONTROL Save]** .
 
-1. Verifieer het bijgewerkte verslag door [ Google Workspace ](https://support.google.com/a/answer/183895){target="_blank"}.
+1. Verifieer het bijgewerkte verslag door [&#x200B; Google Workspace &#x200B;](https://support.google.com/a/answer/183895){target="_blank"}.
