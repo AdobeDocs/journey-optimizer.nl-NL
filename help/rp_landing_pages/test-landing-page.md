@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: testen, valideren, goedkeuren, goedkeuring, kwaliteitsborging, qa, testprofielen, personalisatie, rendering, spam-check, content-experiment, a/b-test, conflictdetectie, zaadlijst, proefdrukken, sample-data, goedkeuringswerkstroom, e-mail-test, validatie-workflow
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: abb2ed3cfa617bb9afc23c8f69634d5afe89b33e
+source-git-commit: d004bdaccab07110408860e67b52bf4c00c1fb15
 workflow-type: tm+mt
-source-wordcount: '2997'
+source-wordcount: '2735'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 In deze sectie worden alle test- en goedkeuringsmogelijkheden in Journey Optimizer besproken. U zult hulpmiddelen vinden om inhoud met testprofielen voor te vertonen, reislogica te bevestigen, e-mailteruggeven en spamscores te controleren, A/B experimenten in werking te stellen, conflicten te ontdekken, en de werkschema&#39;s van de opstellingsgoedkeuring te plaatsen.
 
-Deze landingspagina helpt u de juiste testende benadering te kiezen die wordt gebaseerd op wat u bouwt (campagnes versus reizen), begeleidt u door geadviseerde testende werkschema&#39;s, en verleent snelle toegang tot alle test en goedkeuringsmiddelen. Het begin met [&#x200B; kiest uw het testen benadering &#x200B;](#choose-your-testing-approach) hieronder om te identificeren welke hulpmiddelen op uw gebruiksgeval van toepassing zijn.
+Deze landingspagina helpt u de juiste testende benadering te kiezen die wordt gebaseerd op wat u bouwt (campagnes versus reizen), begeleidt u door geadviseerde testende werkschema&#39;s, en verleent snelle toegang tot alle test en goedkeuringsmiddelen. Het begin met [ kiest uw het testen benadering ](#choose-your-testing-approach) hieronder om te identificeren welke hulpmiddelen op uw gebruiksgeval van toepassing zijn.
 
 ## Waarom het testen en goedkeuren belangrijk is
 
@@ -38,64 +38,109 @@ Testen en goedkeuringen dienen als essentiële kwaliteitspoorten die uw merkrepu
 
 * **sparen tijd en middelen** - ontdek kwesties vroeg in de ontwikkelingscyclus wanneer de moeilijke situaties goedkoper en sneller zijn, verhinderend dure post-lanceringscorrecties of de escalaties van de klantendienst.
 
-## Overzicht van de testmogelijkheden
+<!--## Testing capabilities overview
 
-**het Testen beschikbare types:**
+**Testing types available:**
 
-* Inhoud het testen: Voorproef en bevestigt berichtinhoud alvorens → [&#x200B; het Testen campagnes &#x200B;](#testing-campaigns), [&#x200B; het Testen van verpersoonlijking &#x200B;](#testing-personalization) te verzenden
-* Logische het testen van de reis: Simuleer klantenvooruitgang door wegwegen → [&#x200B; het Testen reizen &#x200B;](#testing-journeys)
-* Technische het testen: Bevestig het teruggeven, leverbaarheid, en authentificatie → [&#x200B; Technische bevestiging &#x200B;](#2-technical-validation)
-* Het testen van prestaties: Vergelijk inhoudsvariaties gebruikend experimenten A/B → [&#x200B; experimenten van de Inhoud &#x200B;](#content-experiments--ab-testing)
-* Conflict het testen: Detecteer campagne en reis overlapt → [&#x200B; de opsporing van het Conflict &#x200B;](#conflict-detection)
-* Goedkeuring het testen: Gestructureerde overzichtswerkschema&#39;s alvorens activering → [&#x200B; de werkschema&#39;s van de Goedkeuring &#x200B;](#approval-workflows-for-journeys-and-campaigns)
+* Content testing: Preview and validate message content before sending → [Choose your testing approach](#choose-your-testing-approach)
+* Journey logic testing: Simulate customer progression through journey paths → [Choose your testing approach](#choose-your-testing-approach)
+* Technical testing: Validate rendering, deliverability, and authentication → [Technical validation](#2-technical-validation)
+* Performance testing: Compare content variations using A/B experiments → [Content Experiments & A/B Testing](#test--approve-content)
+* Conflict testing: Detect campaign and journey overlaps → [Conflict Detection](#test--approve-content)
+* Approval testing: Structured review workflows before activation → [Approval Workflows](#test--approve-content)
 
-**Zeer belangrijke mogelijkheden door context:**
+**Key capabilities by context:**
 
-| Capaciteit | Van toepassing op | Kanaalbeperkingen | Vereisten | Primair doel |
+| Capability | Applies to | Channel restrictions | Prerequisites | Primary purpose |
 |------------|-----------|---------------------|--------------|-----------------|
-| [Testprofielen](../using/content-management/test-profiles.md) | Campagnes, reizen | Alle kanalen | Testprofielen gemaakt | Voorvertoning van gepersonaliseerde inhoud weergeven |
-| [&#x200B; de inputgegevens van de Steekproef &#x200B;](../using/test-approve/simulate-sample-input.md) | Campagnes, reizen | E-mail, SMS, Push, Web, Code-based, In-app, Content cards | CSV/JSON-bestand | Meerdere varianten voor personalisatie testen |
-| [&#x200B; wijze van de Test &#x200B;](../using/building-journeys/testing-the-journey.md) | Alleen reizen | N.v.t. | Conceptreis, naamruimte geconfigureerd | Profielvoortgang simuleren |
-| [&#x200B; Droog looppas &#x200B;](../using/building-journeys/journey-dry-run.md) | Alleen reizen | N.v.t. | Reis gemaakt | Uitvoeringspaden analyseren |
-| [E-mailweergave](../using/content-management/rendering.md) | Campagnes, reizen | Alleen e-mail | Litmus-integratie | Weergave op clients controleren |
-| [&#x200B; Spam score &#x200B;](../using/content-management/spam-report.md) | Campagnes, reizen | Alleen e-mail | Geen | Geldigheidsvalidering |
-| [&#x200B; Zaadlijsten &#x200B;](../using/configuration/seed-lists.md) | Campagnes, reizen | Alleen e-mail | Zaadlijst geconfigureerd | Toezicht op belanghebbenden |
-| [&#x200B; experimenten van de Inhoud &#x200B;](../using/content-management/get-started-experiment.md) | Alleen campagnes | Alle kanalen | Geen | A/B- en meervoudig bewapende bandtests |
-| [&#x200B; de opsporing van het Conflict &#x200B;](../using/conflict-prioritization/conflicts.md) | Campagnes, reizen (beperkt) | Alle kanalen | Geen | Overseinen door klant voorkomen |
-| [&#x200B; de werkschema&#39;s van de Goedkeuring &#x200B;](../using/test-approve/gs-approval.md) | Campagnes, reizen | Alle kanalen | Goedkeuringsbeleid gemaakt | Gestructureerd revisieproces |
-| [&#x200B; de playground van Personalization &#x200B;](../using/personalization/personalize.md#playground) | Alles | Alle kanalen | Geen | Cursussyntaxis voor aanpassen en testen |
+| [Test profiles](../using/content-management/test-profiles.md) | Campaigns, Journeys | All channels | Test profiles created | Preview personalized content |
+| [Sample input data](../using/test-approve/simulate-sample-input.md) | Campaigns, Journeys | Email, SMS, Push, Web, Code-based, In-app, Content cards | CSV/JSON file | Test multiple personalization variants |
+| [Test mode](../using/building-journeys/testing-the-journey.md) | Journeys only | N/A | Draft journey, namespace configured | Simulate profile progression |
+| [Dry run](../using/building-journeys/journey-dry-run.md) | Journeys only | N/A | Journey created | Analyze execution paths |
+| [Email rendering](../using/content-management/rendering.md) | Campaigns, Journeys | Email only | Litmus integration | Verify display across clients |
+| [Spam score](../using/content-management/spam-report.md) | Campaigns, Journeys | Email only | None | Deliverability validation |
+| [Seed lists](../using/configuration/seed-lists.md) | Campaigns, Journeys | Email only | Seed list configured | Stakeholder monitoring |
+| [Content experiments](../using/content-management/get-started-experiment.md) | Campaigns only | All channels | None | A/B and multi-armed bandit testing |
+| [Conflict detection](../using/conflict-prioritization/conflicts.md) | Campaigns, Journeys (limited) | All channels | None | Prevent customer over-messaging |
+| [Approval workflows](../using/test-approve/gs-approval.md) | Campaigns, Journeys | All channels | Approval policy created | Structured review process |
+| [Personalization playground](../using/personalization/personalize.md#playground) | All | All channels | None | Learn and test personalization syntax |
 
-**Gemeenschappelijke het testen werkschema&#39;s:**
+**Common testing workflows:**
 
-1. Pre-ontwikkeling: Gebruik [&#x200B; verpersoonlijkings playground &#x200B;](#testing-personalization) om syntaxis te leren
-2. Tijdens ontwikkeling: De voorproef met [&#x200B; testprofielen &#x200B;](#testing-campaigns), bevestigt met [&#x200B; gegevens van de steekproefinput &#x200B;](#simulate-content-variations)
-3. Pre-lancering: Looppas [&#x200B; technische tests &#x200B;](#2-technical-validation) (teruggeven, spam), controleer [&#x200B; conflicten &#x200B;](#conflict-detection), voorlegt voor [&#x200B; goedkeuring &#x200B;](#approval-workflows-for-journeys-and-campaigns)
-4. Post-lancering: De monitor met levende rapporten (zie [&#x200B; Controle &amp; het Oplossen van problemen &#x200B;](#monitoring--troubleshooting)), herhaling gebaseerd op resultaten
+1. Pre-development: Use [personalization playground](#test--approve-content) to learn syntax
+2. During development: Preview with [test profiles](#choose-your-testing-approach), validate with [sample input data](#choose-your-testing-approach)
+3. Pre-launch: Run [technical tests](#2-technical-validation) (rendering, spam), check [conflicts](#test--approve-content), submit for [approval](#test--approve-content)
+4. Post-launch: Monitor with live reports (see [Monitoring & Troubleshooting](#test--approve-content)), iterate based on results
 
+-->
 
 ## Belangrijke terminologie
 
-**[de profielen van de Test](../using/content-management/test-profiles.md)** = Synthetische klantenprofielen (niet echte klanten) die aan voorproef gepersonaliseerde inhoud worden gebruikt. Gemarkeerd in Real-Time Customer Profile Service. Vereist voor testmodus en voorvertoning van inhoud. [&#x200B; Leer hoe te om testprofielen tot stand te brengen &#x200B;](../using/audience/creating-test-profiles.md)
++++**Testprofielen**
 
-**[de wijze van de Test](../using/building-journeys/testing-the-journey.md)** = de simulatie van de Reis eigenschap die testprofielen door reiswegen verzendt. Beperkingen: alleen conceptreizen; vereist naamruimte, alleen testprofielen. [&#x200B; Zie de documentatie van de testwijze &#x200B;](../using/building-journeys/testing-the-journey.md)
+Synthetische klantprofielen (geen echte klanten) die worden gebruikt om gepersonaliseerde inhoud voor te vertonen. Gemarkeerd in Real-Time Customer Profile Service. Vereist voor testmodus en voorvertoning van inhoud. [ Leer meer ](../using/content-management/test-profiles.md) | [ Leer hoe te om testprofielen tot stand te brengen ](../using/audience/creating-test-profiles.md)
 
-**[Droog looppas](../using/building-journeys/journey-dry-run.md)** = het analysehulpmiddel van de de uitvoeringsanalyse van de Weg dat wegen zonder berichten te verzenden of API vraag te maken traceert. Hoofdlettergebruik: logica valideren zonder bronnen te verbruiken. [&#x200B; Leer over droge looppas &#x200B;](../using/building-journeys/journey-dry-run.md)
++++
 
-**[de inputgegevens van de Steekproef](../using/test-approve/simulate-sample-input.md)** = CSV of JSON dossiers die profielkenmerkwaarden voor het testen van verpersoonlijking bevatten. Ondersteunt maximaal 30 varianten. U kunt ook testprofielen maken. [&#x200B; hoe te om inhoudvariaties &#x200B;](../using/test-approve/simulate-sample-input.md) te simuleren
++++**wijze van de Test**
 
-**[zaadlijsten](../using/configuration/seed-lists.md)** = E-mailadressen van interne belanghebbenden automatisch inbegrepen in daadwerkelijke leveringen (niet test verzendt). Alleen e-mailkanaal. Gebruik hoofdletters/kleine letters: kwaliteitsbewaking en naleving. [&#x200B; vorm zaadlijsten &#x200B;](../using/configuration/seed-lists.md)
+De simulatieeigenschap van de reis die testprofielen door reiswegen verzendt. Beperkingen: alleen conceptreizen; vereist naamruimte, alleen testprofielen. [Meer informatie](../using/building-journeys/testing-the-journey.md)
 
-**[experimenten van de inhoud](../using/content-management/get-started-experiment.md)** = het testen A/B of multi-gewapende bandit experimenten die inhoudsvariaties vergelijken. Alleen campagnes, niet beschikbaar op reizen. [&#x200B; worden begonnen met experimenten &#x200B;](../using/content-management/get-started-experiment.md) | [&#x200B; creeer experimenten &#x200B;](../using/content-management/content-experiment.md)
++++
 
-**[Proofs](../using/content-management/proofs.md)** = de e-mailleveringen van de Test die naar specifieke e-mailadressen worden verzonden gebruikend de gegevens van het testprofiel. Verschil van zaadlijsten (proefdrukken zijn handtest verzendt, zaadlijsten zijn automatische exemplaren van de belanghebbende). [&#x200B; verzendt proeven &#x200B;](../using/content-management/proofs.md)
++++**Droog looppas**
 
-**[de opsporing van het Conflict](../using/conflict-prioritization/conflicts.md)** = Hulpmiddel dat overlappende campagnes en reizen identificeert gericht op het zelfde publiek. Beperkte reisondersteuning: alleen eenheids-, Audience Qualification- en Read Audience-typen. [&#x200B; Leer over conflictbeheer &#x200B;](../using/conflict-prioritization/gs-conflict-prioritization.md)
+Analyseprogramma voor de uitvoering van de reis dat paden traceert zonder berichten te verzenden of API-aanroepen te maken. Hoofdlettergebruik: logica valideren zonder bronnen te verbruiken. [Meer informatie](../using/building-journeys/journey-dry-run.md)
 
-**[de werkschema&#39;s van de Goedkeuring](../using/test-approve/gs-approval.md)** = het multi-step controleproces dat de goedkeuring van de belanghebbende vereist alvorens activering. Vereist configuratie goedkeuringsbeleid. [&#x200B; goedkeuringen van de opstelling &#x200B;](../using/test-approve/gs-approval.md) | [&#x200B; creeer beleid &#x200B;](../using/test-approve/approval-policies.md)
++++
 
-**[teruggevend tests](../using/content-management/rendering.md)** = De vertoningsbevestiging van de e-mail over e-mailcliënten (Gmail, Vooruitzichten, de Post van Apple) en apparaten. Vereist Litmus-integratie. [&#x200B; e-mailteruggeven van de Test &#x200B;](../using/content-management/rendering.md)
++++**de inputgegevens van de Steekproef**
 
-**[de playground van Personalization](../using/personalization/personalize.md#playground)** = Interactief het leren milieu om met verpersoonlijkingssyntaxis en testuitdrukkingen met steekproefgegevens te experimenteren. Geen live datasets vereist. [&#x200B; heb toegang tot playground &#x200B;](../using/personalization/personalize.md#playground)
+CSV- of JSON-bestanden met profielkenmerkwaarden voor het testen van personalisatie. Ondersteunt maximaal 30 varianten. U kunt ook testprofielen maken. [Meer informatie](../using/test-approve/simulate-sample-input.md)
+
++++
+
++++**Zaadlijsten**
+
+E-mailadressen van interne belanghebbenden worden automatisch opgenomen in de feitelijke leveringen (niet het verzenden van tests). Alleen e-mailkanaal. Gebruik hoofdletters/kleine letters: kwaliteitsbewaking en naleving. [Meer informatie](../using/configuration/seed-lists.md)
+
++++
+
++++**experimenten van de Inhoud**
+
+A/B-tests of multigewapende bandiproeven waarbij variaties in de inhoud worden vergeleken. Alleen campagnes, niet beschikbaar op reizen. [ Leer meer ](../using/content-management/get-started-experiment.md) | [ creeer experimenten ](../using/content-management/content-experiment.md)
+
++++
+
++++**Proofs**
+
+Test e-mailleveringen die naar specifieke e-mailadressen zijn verzonden met behulp van testprofielgegevens. Verschil van zaadlijsten (proefdrukken zijn handtest verzendt, zaadlijsten zijn automatische exemplaren van de belanghebbende). [Meer informatie](../using/content-management/proofs.md)
+
++++
+
++++**de opsporing van het Conflict**
+
+Gereedschap dat overlappende campagnes en reizen identificeert die op hetzelfde publiek gericht zijn. Beperkte reisondersteuning: alleen eenheids-, Audience Qualification- en Read Audience-typen. [ Leer meer ](../using/conflict-prioritization/conflicts.md) | [ Leer over conflictbeheer ](../using/conflict-prioritization/gs-conflict-prioritization.md)
+
++++
+
++++**de werkschema&#39;s van de Goedkeuring**
+
+Meerfasebeoordelingsproces dat goedkeuring van de belanghebbende vereist alvorens activering. Vereist configuratie goedkeuringsbeleid. [ Leer meer ](../using/test-approve/gs-approval.md) | [ creeer beleid ](../using/test-approve/approval-policies.md)
+
++++
+
++++**het Teruggeven tests**
+
+Validatie van de e-mailweergave voor alle e-mailclients (Gmail, Outlook, Apple Mail) en apparaten. Vereist Litmus-integratie. [Meer informatie](../using/content-management/rendering.md)
+
++++
+
++++**de playground van Personalization**
+
+Interactieve leeromgeving om met verpersoonlijkingssyntaxis en testuitdrukkingen met steekproefgegevens te experimenteren. Geen live datasets vereist. [Meer informatie](../using/personalization/personalize.md#playground)
+
++++
 
 ## Beslissingsstructuur voor selectie van testmethoden
 
@@ -103,36 +148,36 @@ Gebruik deze beslissingsboom om snel de juiste testhulpmiddelen voor uw specifie
 
 +++ **Vraag 1: Wat test u?**
 
-* Campagne → [&#x200B; het Testen campagnes &#x200B;](#testing-campaigns)
-* Reis → [&#x200B; het Testen reizen &#x200B;](#testing-journeys)
-* De uitdrukkingen van Personalization → [&#x200B; playground van Personalization &#x200B;](#testing-personalization)
+* Campagne → [ kies uw het testen benadering ](#choose-your-testing-approach)
+* De reis → [ kiest uw het testen benadering ](#choose-your-testing-approach)
+* De uitdrukkingen van Personalization → [ playground van Personalization ](#test--approve-content)
 +++
 
 +++**Vraag 2: Welk aspect vereist bevestiging?**
 
-* Inhoud en verpersoonlijking → [&#x200B; de profielen van de Test &#x200B;](#testing-campaigns) of [&#x200B; gegevens van de steekproefinput &#x200B;](#simulate-content-variations)
-* E-mailvertoning → [&#x200B; e-mail teruggevende tests &#x200B;](#2-technical-validation)
-* Leverbaarheid → [&#x200B; Spam scorecontroles &#x200B;](#2-technical-validation)
-* De logica van de reis en stroom → [&#x200B; wijze van de Test &#x200B;](#testing-journeys) of [&#x200B; droge looppas &#x200B;](#journey-dry-run)
-* De vergelijking van prestaties → [&#x200B; experiment van de Inhoud &#x200B;](#content-experiments--ab-testing) (campagnes slechts)
-* De conflicten van de timing → [&#x200B; opsporing van het Conflict &#x200B;](#conflict-detection)
-* De revisie van de belanghebbende → [&#x200B; werkschema van de Goedkeuring &#x200B;](#approval-workflows-for-journeys-and-campaigns)
+* Inhoud en verpersoonlijking → [ de profielen van de Test ](#choose-your-testing-approach) of [ gegevens van de steekproefinput ](#choose-your-testing-approach)
+* E-mailvertoning → [ e-mail teruggevende tests ](#2-technical-validation)
+* Leverbaarheid → [ Spam scorecontroles ](#2-technical-validation)
+* De logica van de reis en stroom → [ wijze van de Test ](#choose-your-testing-approach) of [ droge looppas ](#test--approve-content)
+* De vergelijking van prestaties → [ experiment van de Inhoud ](#test--approve-content) (campagnes slechts)
+* De conflicten van de timing → [ opsporing van het Conflict ](#test--approve-content)
+* De revisie van de belanghebbende → [ werkschema van de Goedkeuring ](#test--approve-content)
 +++
 
 +++**Vraag 3: Welk kanaal?**
 
-* E-mail → Alle beschikbare testende methodes (zie [&#x200B; het Testen campagnes &#x200B;](#testing-campaigns))
-* SMS, Duw → [&#x200B; Inhoud het testen &#x200B;](#testing-campaigns), [&#x200B; gegevens van de steekproefinput &#x200B;](#simulate-content-variations), [&#x200B; goedkeuringswerkschema&#39;s &#x200B;](#approval-workflows-for-journeys-and-campaigns)
-* Web, in-app, op code-Gebaseerde → [&#x200B; Inhoud het testen &#x200B;](#testing-campaigns), [&#x200B; gegevens van de steekproefinput &#x200B;](#simulate-content-variations), [&#x200B; goedkeuringswerkschema&#39;s &#x200B;](#approval-workflows-for-journeys-and-campaigns)
+* E-mail → Alle beschikbare testende methodes (zie [ kies uw het testen benadering ](#choose-your-testing-approach))
+* SMS, Duw → [ Inhoud het testen ](#choose-your-testing-approach), [ gegevens van de steekproefinput ](#choose-your-testing-approach), [ goedkeuringswerkschema&#39;s ](#test--approve-content)
+* Web, in-app, op code-Gebaseerde → [ Inhoud het testen ](#choose-your-testing-approach), [ gegevens van de steekproefinput ](#choose-your-testing-approach), [ goedkeuringswerkschema&#39;s ](#test--approve-content)
 * Meerdere kanalen → test elk kanaal afzonderlijk
 +++
 
 +++**Vraag 4: Wanneer in het werkschema?**
 
-* Alvorens te bouwen → [&#x200B; de playground van Personalization &#x200B;](#personalization-playground) voor het leren
-* Tijdens het bouwen → [&#x200B; de profielen van de Test &#x200B;](#testing-campaigns) en [&#x200B; gegevens van de steekproefinput &#x200B;](#simulate-content-variations) voor bevestiging
-* Vóór lancering → [&#x200B; het Teruggeven tests &#x200B;](#2-technical-validation), [&#x200B; spamcontroles &#x200B;](#email-spam-report), [&#x200B; conflictopsporing &#x200B;](#conflict-detection), [&#x200B; goedkeuringen &#x200B;](#approval-workflows-for-journeys-and-campaigns)
-* Na lancering → [&#x200B; Levende rapporten &#x200B;](../using/building-journeys/report-journey.md) en [&#x200B; controle &#x200B;](#monitoring--troubleshooting)
+* Alvorens te bouwen → [ de playground van Personalization ](#test--approve-content) voor het leren
+* Tijdens het bouwen → [ de profielen van de Test ](#choose-your-testing-approach) en [ gegevens van de steekproefinput ](#choose-your-testing-approach) voor bevestiging
+* Vóór lancering → [ het Teruggeven tests ](#2-technical-validation), [ spamcontroles ](#2-technical-validation), [ conflictopsporing ](#test--approve-content), [ goedkeuringen ](#test--approve-content)
+* Na lancering → [ Levende rapporten ](../using/building-journeys/report-journey.md) en [ controle ](#test--approve-content)
 +++
 
 
@@ -146,29 +191,29 @@ De juiste testbenadering hangt af van wat u bouwt en wat u moet bevestigen. Gebr
 
 **voor alle campagnes:**
 
-* De voorproef en test inhoud gebruikend [&#x200B; testprofielen &#x200B;](../using/content-management/test-profiles.md) of [&#x200B; gegevens van de steekproefinput &#x200B;](../using/test-approve/simulate-sample-input.md)
-* Controle [&#x200B; e-mailteruggeven &#x200B;](../using/content-management/rendering.md) over apparaten en cliënten (e-mailkanaal slechts)
-* De controles van de de spamscore van de looppas [&#x200B; (e-mailkanaal slechts)](../using/content-management/spam-report.md)
-* Herzie [&#x200B; conflicten &#x200B;](../using/conflict-prioritization/conflicts.md) met andere campagnes en reizen
-* Opstelling [&#x200B; zaadlijsten &#x200B;](../using/configuration/seed-lists.md) voor belanghebbende controle (e-mailkanaal slechts)
-* Verzenden voor [&#x200B; goedkeuring &#x200B;](../using/test-approve/gs-approval.md) alvorens activering
+* De voorproef en test inhoud gebruikend [ testprofielen ](../using/content-management/test-profiles.md) of [ gegevens van de steekproefinput ](../using/test-approve/simulate-sample-input.md)
+* Controle [ e-mailteruggeven ](../using/content-management/rendering.md) over apparaten en cliënten (e-mailkanaal slechts)
+* De controles van de de spamscore van de looppas [ (e-mailkanaal slechts)](../using/content-management/spam-report.md)
+* Herzie [ conflicten ](../using/conflict-prioritization/conflicts.md) met andere campagnes en reizen
+* Opstelling [ zaadlijsten ](../using/configuration/seed-lists.md) voor belanghebbende controle (e-mailkanaal slechts)
+* Verzenden voor [ goedkeuring ](../using/test-approve/gs-approval.md) alvorens activering
 
 **voor het testen A/B en optimalisering:**
 
-* Creeer [&#x200B; inhoudexperimenten &#x200B;](../using/content-management/get-started-experiment.md) om veelvoudige behandelingen te testen en prestaties te meten
+* Creeer [ inhoudexperimenten ](../using/content-management/get-started-experiment.md) om veelvoudige behandelingen te testen en prestaties te meten
 
 **voor API-teweeggebrachte campagnes:**
 
-* Gebruik [&#x200B; de Simulatie API van de Campagne &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} om proefdrukbanen programmatically teweeg te brengen
+* Gebruik [ de Simulatie API van de Campagne ](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} om proefdrukbanen programmatically teweeg te brengen
 
 >[!TAB  het Testen reizen ]
 
 **voor alle reizen:**
 
-* Het gebruik [&#x200B; testwijze &#x200B;](../using/building-journeys/testing-the-journey.md) om profielvooruitgang (ontwerp reizen slechts, vereist namespace) of [&#x200B; droge looppas &#x200B;](../using/building-journeys/journey-dry-run.md) te simuleren om uitvoeringswegen te analyseren zonder berichten te verzenden
-* Test individuele berichten gebruikend [&#x200B; voorproef en proeven &#x200B;](../using/content-management/preview-test.md)
-* Controle [&#x200B; conflicten &#x200B;](../using/conflict-prioritization/conflicts.md) met andere reizen en campagnes
-* Verzenden voor [&#x200B; goedkeuring &#x200B;](../using/test-approve/gs-approval.md) alvorens te publiceren
+* Het gebruik [ testwijze ](../using/building-journeys/testing-the-journey.md) om profielvooruitgang (ontwerp reizen slechts, vereist namespace) of [ droge looppas ](../using/building-journeys/journey-dry-run.md) te simuleren om uitvoeringswegen te analyseren zonder berichten te verzenden
+* Test individuele berichten gebruikend [ voorproef en proeven ](../using/content-management/preview-test.md)
+* Controle [ conflicten ](../using/conflict-prioritization/conflicts.md) met andere reizen en campagnes
+* Verzenden voor [ goedkeuring ](../using/test-approve/gs-approval.md) alvorens te publiceren
 
 **voor complexe reizen:**
 
@@ -181,12 +226,12 @@ De juiste testbenadering hangt af van wat u bouwt en wat u moet bevestigen. Gebr
 
 **alvorens inhoud te bouwen:**
 
-* Experimenteer in [&#x200B; verpersoonlijkings playground &#x200B;](../using/personalization/personalize.md#playground) om syntaxis en testuitdrukkingen met steekproefgegevens te leren
+* Experimenteer in [ verpersoonlijkings playground ](../using/personalization/personalize.md#playground) om syntaxis en testuitdrukkingen met steekproefgegevens te leren
 
 **tijdens inhoudsverwezenlijking:**
 
-* De voorproef met [&#x200B; testprofielen &#x200B;](../using/content-management/test-profiles.md) om verpersoonlijkingsteruggeven correct te bevestigen
-* Testen veelvoudige scenario&#39;s gebruikend [&#x200B; gegevens van de steekproefinput &#x200B;](../using/test-approve/simulate-sample-input.md) van Csv/JSON- dossiers (steunen tot 30 varianten)
+* De voorproef met [ testprofielen ](../using/content-management/test-profiles.md) om verpersoonlijkingsteruggeven correct te bevestigen
+* Testen veelvoudige scenario&#39;s gebruikend [ gegevens van de steekproefinput ](../using/test-approve/simulate-sample-input.md) van Csv/JSON- dossiers (steunen tot 30 varianten)
 
 >[!ENDTABS]
 
@@ -196,23 +241,23 @@ Volg de onderstaande aanbevolen procedures om de doeltreffendheid van uw testact
 
 1. **Test vroeg en vaak** - wacht niet tot een campagne volledig wordt gebouwd. Test inhoud, personalisatie en logica in toenemende mate tijdens uw ontwikkeling.
 
-1. **Gebruik realistische testprofielen** - [&#x200B; creeer testprofielen &#x200B;](../using/audience/creating-test-profiles.md) die nauwkeurig uw doelpubliekssegmenten, met inbegrip van randgevallen en verschillende verpersoonlijkingsscenario&#39;s vertegenwoordigen.
+1. **Gebruik realistische testprofielen** - [ creeer testprofielen ](../using/audience/creating-test-profiles.md) die nauwkeurig uw doelpubliekssegmenten, met inbegrip van randgevallen en verschillende verpersoonlijkingsscenario&#39;s vertegenwoordigen.
 
-1. **Test over apparaten en cliënten** - verifieer [&#x200B; e-mailteruggevende &#x200B;](../using/content-management/rendering.md) op populaire e-mailcliënten (Gmail, Vooruitzichten, de Post van Apple) en apparaten (Desktop, mobiel, tablet) om verenigbare vertoning (e-mailkanaal slechts) te verzekeren.
+1. **Test over apparaten en cliënten** - verifieer [ e-mailteruggevende ](../using/content-management/rendering.md) op populaire e-mailcliënten (Gmail, Vooruitzichten, de Post van Apple) en apparaten (Desktop, mobiel, tablet) om verenigbare vertoning (e-mailkanaal slechts) te verzekeren.
 
-1. **bevestigt volledig verpersoonlijking** - test met veelvoudige [&#x200B; testprofielen &#x200B;](../using/content-management/test-profiles.md) die verschillende attributenwaarden hebben om verpersoonlijkingstokens te bevestigen teruggeven correct en het werk van terugvalwaarden. Gebruik [&#x200B; verpersoonlijkingspeler &#x200B;](../using/personalization/personalize.md#playground) om met verpersoonlijkingsuitdrukkingen en testcode met steekproefgegevens te experimenteren alvorens hen op uw campagnes toe te passen.
+1. **bevestigt volledig verpersoonlijking** - test met veelvoudige [ testprofielen ](../using/content-management/test-profiles.md) die verschillende attributenwaarden hebben om verpersoonlijkingstokens te bevestigen teruggeven correct en het werk van terugvalwaarden. Gebruik [ verpersoonlijkingspeler ](../using/personalization/personalize.md#playground) om met verpersoonlijkingsuitdrukkingen en testcode met steekproefgegevens te experimenteren alvorens hen op uw campagnes toe te passen.
 
-1. **de inhoudsvariaties van de Test met steekproefgegevens** - Gebruik [&#x200B; gegevens van de steekproefinput &#x200B;](../using/test-approve/simulate-sample-input.md) van CSV of JSON dossiers om tot 30 verpersoonlijkingsscenario&#39;s te testen zonder talrijke testprofielen te creëren, die tijd terwijl het verzekeren van uitvoerige dekking besparen. Ondersteunt kanalen voor e-mail, SMS, push, web, op code gebaseerde ervaring, in-app en inhoudskaarten.
+1. **de inhoudsvariaties van de Test met steekproefgegevens** - Gebruik [ gegevens van de steekproefinput ](../using/test-approve/simulate-sample-input.md) van CSV of JSON dossiers om tot 30 verpersoonlijkingsscenario&#39;s te testen zonder talrijke testprofielen te creëren, die tijd terwijl het verzekeren van uitvoerige dekking besparen. Ondersteunt kanalen voor e-mail, SMS, push, web, op code gebaseerde ervaring, in-app en inhoudskaarten.
 
-1. **zaadlijsten van het Gebruik voor belanghebbende controle** - vorm [&#x200B; zaadlijsten &#x200B;](../using/configuration/seed-lists.md) om automatisch interne belanghebbenden te omvatten die exemplaren van alle leveringen in uitvoeringstijd voor kwaliteit controle en nalevingscontrole (e-mailkanaal slechts) zullen ontvangen.
+1. **zaadlijsten van het Gebruik voor belanghebbende controle** - vorm [ zaadlijsten ](../using/configuration/seed-lists.md) om automatisch interne belanghebbenden te omvatten die exemplaren van alle leveringen in uitvoeringstijd voor kwaliteit controle en nalevingscontrole (e-mailkanaal slechts) zullen ontvangen.
 
-1. **Simuleer reiswegen** - voor complexe reizen met veelvoudige takken, gebruik [&#x200B; testwijze &#x200B;](../using/building-journeys/testing-the-journey.md) om verschillende ingangsvoorwaarden en profielattributen te testen om alle mogelijke wegen te bevestigen. Beschikbaar voor conceptreizen die een naamruimte gebruiken.
+1. **Simuleer reiswegen** - voor complexe reizen met veelvoudige takken, gebruik [ testwijze ](../using/building-journeys/testing-the-journey.md) om verschillende ingangsvoorwaarden en profielattributen te testen om alle mogelijke wegen te bevestigen. Beschikbaar voor conceptreizen die een naamruimte gebruiken.
 
-1. **de leverbaarheidsindicatoren van de Controle** - het spamscores van het Overzicht [&#x200B; &#x200B;](../using/content-management/spam-report.md), authentificatiestatus, en de metriek van de e-mailgezondheid alvorens groot verzendt (e-mailkanaal slechts).
+1. **de leverbaarheidsindicatoren van de Controle** - het spamscores van het Overzicht [ ](../using/content-management/spam-report.md), authentificatiestatus, en de metriek van de e-mailgezondheid alvorens groot verzendt (e-mailkanaal slechts).
 
 1. **de testresultaten van het Document** - houd verslagen van testresultaten, gevonden kwesties, en resoluties om toekomstige testprocessen te verbeteren en lessen met uw team te delen.
 
-1. **verbind vroege belanghebbenden** - Deel voorproeven en testresultaten met belanghebbenden vóór [&#x200B; formele goedkeuring &#x200B;](../using/test-approve/gs-approval.md) om te verzamelen terugkoppel en richt verwachtingen.
+1. **verbind vroege belanghebbenden** - Deel voorproeven en testresultaten met belanghebbenden vóór [ formele goedkeuring ](../using/test-approve/gs-approval.md) om te verzamelen terugkoppel en richt verwachtingen.
 
 ## Aanbevolen testworkflow
 
@@ -222,33 +267,33 @@ Volg deze systematische aanpak om te zorgen voor grondige tests en probleemloze 
 
 Begin door uw inhoud te creëren en voorproefmogelijkheden te gebruiken om eerste ontwerp en verpersoonlijking te verifiëren:
 
-* Ontwerp uw [&#x200B; e-mail &#x200B;](../using/email/create-email.md), [&#x200B; SMS &#x200B;](../using/sms/create-sms.md), [&#x200B; duw bericht &#x200B;](../using/push/create-push.md), of andere kanaalinhoud
+* Ontwerp uw [ e-mail ](../using/email/create-email.md), [ SMS ](../using/sms/create-sms.md), [ duw bericht ](../using/push/create-push.md), of andere kanaalinhoud
 
 * Gebruik de **[Simuleer inhoud](../using/content-management/preview-test.md)** eigenschap aan voorproef met testprofielen
 
-* De tokens van de controle [&#x200B; van de 1&rbrace; verpersoonlijking &lbrace;, dynamische inhoud, en terugvalwaarden](../using/personalization/personalization-syntax.md)
+* De tokens van de controle [ van de 1} verpersoonlijking {, dynamische inhoud, en terugvalwaarden](../using/personalization/personalization-syntax.md)
 
 * Experimenteer met verpersoonlijkingsuitdrukkingen in **[verpersoonlijkings playground](../using/personalization/personalize.md#playground)** om uw code met steekproefgegevens te testen en te raffineren alvorens op levende inhoud van toepassing te zijn
 
 * Test veelvoudige variaties gebruikend **[gegevens van de steekproefinput](../using/test-approve/simulate-sample-input.md)** van Csv/JSON- dossiers om verpersoonlijking over diverse profielscenario&#39;s te bevestigen
 
-* Verifieer [&#x200B; teruggevend &#x200B;](../using/content-management/rendering.md) over verschillende het schermgrootte en e-mailcliënten
+* Verifieer [ teruggevend ](../using/content-management/rendering.md) over verschillende het schermgrootte en e-mailcliënten
 
 ### &#x200B;2. Technische validatie
 
 Valideer technische aspecten die gevolgen hebben voor de leverbaarheid en functionaliteit:
 
-* Voer [&#x200B; controles van de spamscore &#x200B;](../using/content-management/spam-report.md) in werking om potentiële leveringskwesties te identificeren
+* Voer [ controles van de spamscore ](../using/content-management/spam-report.md) in werking om potentiële leveringskwesties te identificeren
 
 * Koppelingen testen om te controleren of ze niet worden verbroken en correct worden bijgehouden
 
-* Bevestig [&#x200B; e-mailauthentificatie &#x200B;](../using/configuration/dmarc-record.md) (SPF, DKIM, DMARC) configuratie
+* Bevestig [ e-mailauthentificatie ](../using/configuration/dmarc-record.md) (SPF, DKIM, DMARC) configuratie
 
 * HTML-rendering controleren en controleren op problemen met CSS-compatibiliteit
 
-* Test [&#x200B; ontvankelijk ontwerp &#x200B;](../using/email/content-from-scratch.md) op mobiele en Desktopapparaten
+* Test [ ontvankelijk ontwerp ](../using/email/content-from-scratch.md) op mobiele en Desktopapparaten
 
-* Controle voor [&#x200B; potentiële conflicten &#x200B;](../using/conflict-prioritization/conflicts.md) met andere campagnes en reizen om de vermoeidheid en de timingskwesties van het klantenbericht te verhinderen
+* Controle voor [ potentiële conflicten ](../using/conflict-prioritization/conflicts.md) met andere campagnes en reizen om de vermoeidheid en de timingskwesties van het klantenbericht te verhinderen
 
 ### &#x200B;3. Reistesten (alleen ritten)
 
@@ -256,23 +301,23 @@ Als u een reis test, bevestig de orkestlogica:
 
 * Activeer **[wijze van de Test](../using/building-journeys/testing-the-journey.md)** om profielvooruitgang door de reis te simuleren
 
-* Test verschillende [&#x200B; ingangsvoorwaarden &#x200B;](../using/building-journeys/entry-management.md) en publiekskwalificaties
+* Test verschillende [ ingangsvoorwaarden ](../using/building-journeys/entry-management.md) en publiekskwalificaties
 
-* Verifieer [&#x200B; activiteiten &#x200B;](../using/building-journeys/wait-activity.md) wachten, [&#x200B; voorwaarden &#x200B;](../using/building-journeys/condition-activity.md), en vertakkend logisch werk correct
+* Verifieer [ activiteiten ](../using/building-journeys/wait-activity.md) wachten, [ voorwaarden ](../using/building-journeys/condition-activity.md), en vertakkend logisch werk correct
 
 * Gebruik **[Droog looppas](../using/building-journeys/journey-dry-run.md)** voor complexe reizen om uitvoeringspaden te analyseren zonder berichten te verzenden
 
-* Controle dat [&#x200B; gebeurtenissen &#x200B;](../using/event/about-events.md) correct teweegbrengen en [&#x200B; douaneacties &#x200B;](../using/action/about-custom-action-configuration.md) uitvoeren zoals verwacht
+* Controle dat [ gebeurtenissen ](../using/event/about-events.md) correct teweegbrengen en [ douaneacties ](../using/action/about-custom-action-configuration.md) uitvoeren zoals verwacht
 
 ### &#x200B;4. Goedkeuringsaanvraag
 
 Nadat het testen is voltooid en de problemen zijn opgelost:
 
-* Verzend de campagne of de reis voor goedkeuring volgens het 0&rbrace; goedkeuringsbeleid van uw organisatie [&#128279;](../using/test-approve/approval-policies.md)
+* Verzend de campagne of de reis voor goedkeuring volgens het 0} goedkeuringsbeleid van uw organisatie [](../using/test-approve/approval-policies.md)
 
-* Omvat testresultaten en documentatie met het [&#x200B; goedkeuringsverzoek &#x200B;](../using/test-approve/request-approval.md)
+* Omvat testresultaten en documentatie met het [ goedkeuringsverzoek ](../using/test-approve/request-approval.md)
 
-* Adres om het even welke terugkoppel of veranderingsverzoeken van [&#x200B; fiatteurs &#x200B;](../using/test-approve/review-approve-request.md)
+* Adres om het even welke terugkoppel of veranderingsverzoeken van [ fiatteurs ](../using/test-approve/review-approve-request.md)
 
 * Breng de noodzakelijke herzieningen aan en test of de wijzigingen significant zijn
 
@@ -280,23 +325,23 @@ Nadat het testen is voltooid en de problemen zijn opgelost:
 
 Voordat u uw campagne of reis activeert:
 
-* Voer een definitieve overzicht van alle montages, publiek, en [&#x200B; programma&#39;s &#x200B;](../using/building-journeys/journey-properties.md) uit
+* Voer een definitieve overzicht van alle montages, publiek, en [ programma&#39;s ](../using/building-journeys/journey-properties.md) uit
 
 * Controleren of alle goedkeuringen zijn geïnstalleerd en gedocumenteerd
 
-* Bevestig verzendt tijden en [&#x200B; tijdstreken &#x200B;](../using/building-journeys/timezone-management.md) correct zijn
+* Bevestig verzendt tijden en [ tijdstreken ](../using/building-journeys/timezone-management.md) correct zijn
 
-* Laat [&#x200B; controle en alarm &#x200B;](../using/reports/alerts.md) toe om prestaties na lancering te volgen
+* Laat [ controle en alarm ](../using/reports/alerts.md) toe om prestaties na lancering te volgen
 
 ### &#x200B;6. Monitor en herhaling
 
 Ga na het opstarten door met de bewaking om eventuele problemen vroeg op te vangen:
 
-* De opstelling [&#x200B; systeemalarm &#x200B;](../using/reports/alerts.md) voor reisfouten, hoge stuittarieven, of lage overeenkomst
+* De opstelling [ systeemalarm ](../using/reports/alerts.md) voor reisfouten, hoge stuittarieven, of lage overeenkomst
 
-* Herzie [&#x200B; levende rapporten &#x200B;](../using/building-journeys/report-journey.md) om prestaties tegen verwachtingen te volgen
+* Herzie [ levende rapporten ](../using/building-journeys/report-journey.md) om prestaties tegen verwachtingen te volgen
 
-* Ben bereid om [&#x200B; reizen te pauzeren of te wijzigen &#x200B;](../using/building-journeys/journey-pause.md) als de kritieke kwesties zich voordoen
+* Ben bereid om [ reizen te pauzeren of te wijzigen ](../using/building-journeys/journey-pause.md) als de kritieke kwesties zich voordoen
 
 * Geleerde documentlessen voor het verbeteren van toekomstige testprocessen
 
@@ -315,7 +360,7 @@ Zie hoe testconcepten op real-world scenario&#39;s van toepassing zijn:
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Inhoud voorvertonen, testen en valideren
 
@@ -325,7 +370,7 @@ Leer hoe u persoonlijke inhoud kunt voorvertonen, testen en valideren met testpr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Goedkeuringswerkstromen voor reizen en campagnes
 
@@ -335,7 +380,7 @@ Begrijp hoe u goedkeuringsprocedures instelt, beheert en uitvoert om kwaliteitsc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Uw reis testen
 
@@ -345,7 +390,7 @@ Valideer uw reis voordat u deze publiceert door deze te testen met specifieke pr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Reizen op reis
 
@@ -355,7 +400,7 @@ Voer een droge looppas uit om de uitvoeringspad van uw reis te simuleren en te b
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Bewaking en probleemoplossing
 
@@ -365,7 +410,7 @@ Toegang tot uitgebreide bronnen voor probleemoplossing, systeemwaarschuwingen en
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization Playground
 
@@ -375,7 +420,7 @@ Experimenteer met personalisatie-expressies in een veilige omgeving. Test de cod
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/data.svg)
+![icon]( https://cdn.experienceleague.adobe.com/icons/data.svg)
 
 Inhoud-experimenten en A/B-tests
 
@@ -385,7 +430,7 @@ Optimaliseer uw campagnes door veelvoudige inhoudvariaties te testen en prestati
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Zaadlijsten voor toezicht door belanghebbenden
 
@@ -395,7 +440,7 @@ Neem automatisch interne adressen van belanghebbenden op in leveringen om de fei
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Conflictdetectie
 
@@ -412,13 +457,13 @@ Identificeer potentiële overlappingen tussen campagnes en reizen om overweldige
 
 >[!TAB  Essentiële gidsen ]
 
-* [&#x200B; Simuleer de Variaties van de Inhoud &#x200B;](../using/test-approve/simulate-sample-input.md) - Test tot 30 verpersoonlijkingsscenario&#39;s gebruikend CSV of JSON dossiers. Ideaal voor het testen van meertalige inhoud zonder meerdere testprofielen te maken. Ondersteunt e-mail-, sms-, push-, web-, op code gebaseerde, in-app- en inhoudskaarten.
+* [ Simuleer de Variaties van de Inhoud ](../using/test-approve/simulate-sample-input.md) - Test tot 30 verpersoonlijkingsscenario&#39;s gebruikend CSV of JSON dossiers. Ideaal voor het testen van meertalige inhoud zonder meerdere testprofielen te maken. Ondersteunt e-mail-, sms-, push-, web-, op code gebaseerde, in-app- en inhoudskaarten.
 
-* [&#x200B; Creërend de Profielen van de Test &#x200B;](../using/audience/creating-test-profiles.md) - creeer en beheer testprofielen om klantenscenario&#39;s te simuleren. Leer hoe u profielen markeert voor testen, kenmerken instelt en testsegmenten ordent.
+* [ Creërend de Profielen van de Test ](../using/audience/creating-test-profiles.md) - creeer en beheer testprofielen om klantenscenario&#39;s te simuleren. Leer hoe u profielen markeert voor testen, kenmerken instelt en testsegmenten ordent.
 
-* [&#x200B; E-mailSpam Rapport &#x200B;](../using/content-management/spam-report.md) - de spamscores van de Controle alvorens te verzenden om leverability en inbox plaatsing te verbeteren. Aanbevelingen voor optimalisatie van inhoud.
+* [ E-mailSpam Rapport ](../using/content-management/spam-report.md) - de spamscores van de Controle alvorens te verzenden om leverability en inbox plaatsing te verbeteren. Aanbevelingen voor optimalisatie van inhoud.
 
-* [&#x200B; Veelgestelde vragen van de Reis &#x200B;](../using/building-journeys/journey-faq.md) - Snelle verwijzing voor gemeenschappelijke vragen over reis het testen, uitvoering, en het oplossen van problemen.
+* [ Veelgestelde vragen van de Reis ](../using/building-journeys/journey-faq.md) - Snelle verwijzing voor gemeenschappelijke vragen over reis het testen, uitvoering, en het oplossen van problemen.
 
 >[!TAB  Afhankelijkheden &amp; verhoudingen ]
 
@@ -485,9 +530,9 @@ Begrijp hoe testmogelijkheden met elkaar en met uw bredere Journey Optimizer-wor
 
 +++**Q: Hoe test ik verpersoonlijking zonder vele testprofielen te creëren?**
 
-**Primaire oplossing:** 2&rbrace; gegevens van de steekproefinput van het Gebruik &lbrack; met CSV/JSON- dossiers (steunen tot 30 varianten)
-[&#128279;](../using/test-approve/simulate-sample-input.md) Alternatief:**creeer 3-5 representatieve** testprofielen  die zeer belangrijke segmenten behandelen
-&rbrack;(../using/audience/creating-test-profiles.md) Lerend hulpmiddel:**Experimenteer eerst in** verpersoonlijkings playground [&#128279;](../using/personalization/personalize.md#playground)
+**Primaire oplossing:** 2} gegevens van de steekproefinput van het Gebruik [ met CSV/JSON- dossiers (steunen tot 30 varianten)
+](../using/test-approve/simulate-sample-input.md) Alternatief:**creeer 3-5 representatieve** testprofielen [ die zeer belangrijke segmenten behandelen
+](../using/audience/creating-test-profiles.md) Lerend hulpmiddel:**Experimenteer eerst in** verpersoonlijkings playground [](../using/personalization/personalize.md#playground)
 
 +++
 
@@ -518,7 +563,7 @@ Begrijp hoe testmogelijkheden met elkaar en met uw bredere Journey Optimizer-wor
 
 +++**Q: Hoe test ik API-teweeggebrachte campagnes?**
 
-**Optie 1:** Gebruik [&#x200B; Simulatie API van de Campagne &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} voor programmatic het testen
+**Optie 1:** Gebruik [ Simulatie API van de Campagne ](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} voor programmatic het testen
 **Optie 2:** inhoud van de voorproef met testprofielen in UI
 **Optie 3:** verzend proef om e-mailadressen te testen
 **Beste praktijken:** combineer alle drie voor uitvoerige bevestiging
