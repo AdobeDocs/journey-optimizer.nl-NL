@@ -25,7 +25,7 @@ Met contextgegevens kan Adobe Journey Optimizer slimmere en meer persoonlijke er
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met contextgegevens
 
@@ -35,7 +35,7 @@ Leer hoe u contextgegevens kunt gebruiken in de Adobe Journey Optimizer-beslissi
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Contextgegevens gebruiken in Edge-beslissingsverzoeken
 
@@ -45,7 +45,7 @@ Ontdek hoe u contextgegevens kunt doorgeven in Edge-beslissingsverzoeken om pers
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Contextgegevens gebruiken in beslissingsverzoeken en kwalificatieregels
 

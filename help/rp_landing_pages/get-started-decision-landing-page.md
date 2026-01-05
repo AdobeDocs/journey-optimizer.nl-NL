@@ -25,7 +25,7 @@ Met het Beslissingsbeheer van Adobe Journey Optimizer kunnen marketers op het pe
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Inleiding tot het beheer van besluiten
 
@@ -35,7 +35,7 @@ Leer meer over Beslissingsbeheer in Adobe Journey Optimizer, inclusief de voorde
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Beheersbeheerinstructies en -beperkingen
 
@@ -45,7 +45,7 @@ Begrijp de operationele beperkingen en prestatiedrempels van Beslissingsbeheer o
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Handleiding voor wisselaargebruikersinterface aanbieden
 
@@ -55,7 +55,7 @@ Onderzoek de interface en de functionaliteit van de Bibliotheek van de Aanbiedin
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Belangrijke stappen voor het maken en beheren van aanbiedingen
 
@@ -65,7 +65,7 @@ Volg een stapsgewijze gids om aanbiedingen en beslissingen in Adobe Journey Opti
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Aangepast uploadpubliek gebruiken voor besluitvorming
 
@@ -75,7 +75,7 @@ Ontdek hoe u geschiktheidscriteria kunt verfijnen en aanbiedingen kunt personali
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Persoonlijke voorstellen in een e-mail gebruiken
 
