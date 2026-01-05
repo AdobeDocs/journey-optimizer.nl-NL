@@ -6,7 +6,7 @@ description: Beslissingsbeheer
 redpen-status: CREATED_||_2025-08-11_21-05-09
 badge: label="Verouderd" type="Informative"
 exl-id: 5262df0e-201b-45bc-8234-e5acb7ff8af9
-source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
+source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 >[!TIP]
 >
->Het besluit, de nieuwe beslissingsmogelijkheden van [!DNL Adobe Journey Optimizer], is nu beschikbaar via de op code gebaseerde ervaring en e-mailkanalen! [Meer informatie](../experience-decisioning/gs-experience-decisioning.md)
+>Het besluit, de nieuwe beslissingsmogelijkheden van [!DNL Adobe Journey Optimizer], is nu beschikbaar via de op code gebaseerde ervaring en e-mailkanalen! [Meer informatie](../using/experience-decisioning/gs-experience-decisioning.md)
 
 Met Beslissingsbeheer in Adobe Journey Optimizer kunt u het juiste aanbod op het perfecte moment aan het juiste publiek aanbieden. Door hulpmiddelen te combineren voor het creëren van gepersonaliseerde aanbiedingen, die hen intelligent gebruikend AI of douaneregels rangschikken, en real-time te analyseren terugkoppelt, kunt u naadloze, gegeven-gedreven klantenervaringen over kanalen bevorderen. Deze sectie begeleidt u door het bouwen van fundamentele componenten zoals plaatsingen en besluitvormingsregels, het integreren van context en gebeurtenisgegevens voor nauwkeurige gericht richten, en het gebruiken van APIs voor geavanceerde werkschema&#39;s. Of u nu e-mailcampagnes ontwerpt of webinteracties optimaliseert, u krijgt inzichten en strategieën die u kunt gebruiken om uw beslissingsmogelijkheden te verhogen.
 
@@ -25,7 +25,7 @@ Met Beslissingsbeheer in Adobe Journey Optimizer kunt u het juiste aanbod op het
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met beslissingsbeheer
 
@@ -35,7 +35,7 @@ Leer de grondbeginselen van Beslissingsbeheer, met inbegrip van componenten, wer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Beslissingscomponenten maken en beheren
 
@@ -45,7 +45,7 @@ Ontdek hoe u plaatsingen, besluitvormingsregels en verzamelingskwalificatietoets
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Classificaties maken en optimaliseren
 
@@ -55,7 +55,7 @@ Leer aanbiedingen te rangschikken met behulp van formules en AI-modellen om de b
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Aanbiedingen maken en beheren
 
@@ -65,7 +65,7 @@ Stapsgewijze begeleiding voor het maken van persoonlijke aanbiedingen, fallback-
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Besluiten maken en beheren
 
@@ -75,7 +75,7 @@ Leer om, besluiten voor gepersonaliseerde aanbiedingslevering te vormen te rangs
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Batchbeslissing gebruiken
 

@@ -6,7 +6,7 @@ description: Uw aanbiedingencatalogus exporteren
 redpen-status: CREATED_||_2025-08-11_21-03-50
 badge: label="Verouderd" type="Informative"
 exl-id: b73438e0-8ebe-4188-bb63-1095dcfc4679
-source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
+source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 4%
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 >[!TIP]
 >
->Het besluit, de nieuwe beslissingsmogelijkheden van [!DNL Adobe Journey Optimizer], is nu beschikbaar via de op code gebaseerde ervaring en e-mailkanalen! [Meer informatie](../experience-decisioning/gs-experience-decisioning.md)
+>Het besluit, de nieuwe beslissingsmogelijkheden van [!DNL Adobe Journey Optimizer], is nu beschikbaar via de op code gebaseerde ervaring en e-mailkanalen! [Meer informatie](../using/experience-decisioning/gs-experience-decisioning.md)
 
 Het exporteren van uw aanbiedingencatalogus in Adobe Journey Optimizer is vergelijkbaar met het openen van de deur naar naadloze gegevensintegratie met Adobe Experience Platform. Deze eigenschap verzekert uw gepersonaliseerde aanbiedingen, reserveopties, plaatsingen, en besluiten automatisch worden bijgewerkt en in datasets, klaar voor geavanceerde analyse en besluit georganiseerd. Of u uitgevoerde datasets voorvertoont, hun structuur begrijpt, of het duiken in specifieke details zoals classificaties of beperkingen, wordt het proces ontworpen om intuïtief en efficiënt te zijn. Door de onderwerpen vooruit te verkennen, zult u de hulpmiddelen verkrijgen om deze eigenschap voor het drijven van nauwkeurigere, gegeven-gedreven klantenervaringen te gebruiken.
 
@@ -25,7 +25,7 @@ Het exporteren van uw aanbiedingencatalogus in Adobe Journey Optimizer is vergel
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Handleiding voor het exporteren van catalogi van aanbiedingen
 
@@ -35,7 +35,7 @@ Leer hoe u uw aanbiedingencatalogus als dataset naar Adobe Experience Platform k
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 De geëxporteerde aanbiedingscatalogus openen
 
@@ -45,7 +45,7 @@ Ontdek via het menu Datasets hoe u de geëxporteerde aanbiedingencatalogus in Ad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referentie gegevensset met gepersonaliseerde aanbiedingen
 
@@ -55,7 +55,7 @@ Onderzoek de gebieden en het hiërarchische schema van de dataset voor gepersona
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Gegevensoverzicht van beslissingen
 
@@ -65,7 +65,7 @@ Begrijp de hiërarchische structuur, gebiedsdefinities, en meta-gegevens van de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Gegevens over plaatsingsgegevensset
 
@@ -75,7 +75,7 @@ Leer over de gebieden, het schema, en de meta-gegevens van de dataset van Plaats
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 De documentatie van de Dataset van de aanbiedingen van de reserve
 
