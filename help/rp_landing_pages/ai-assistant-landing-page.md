@@ -20,7 +20,7 @@ De AI Assistant van Adobe Journey Optimizer verandert het maken van inhoud door 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Aan de slag met AI Assistant
 
@@ -30,7 +30,7 @@ Leer hoe u toegang krijgt tot de AI Assistant-functie en deze configureert om de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=nl-NL)
 
 Volledige inhoud genereren
 
@@ -40,7 +40,7 @@ Ontdek hoe u met AI Assistant volledige inhoud kunt maken, inclusief tekst en af
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=nl-NL)
 
 Alleen tekst genereren
 
@@ -50,7 +50,7 @@ Met AI Assistant kunt u tekstinhoud voor alle kanalen genereren en verfijnen, in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=nl-NL)
 
 Alleen afbeeldingen genereren
 
