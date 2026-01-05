@@ -25,7 +25,7 @@ Het exporteren van uw aanbiedingencatalogus in Adobe Journey Optimizer is vergel
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Handleiding voor het exporteren van catalogi van aanbiedingen
 
@@ -35,7 +35,7 @@ Leer hoe u uw aanbiedingencatalogus als dataset naar Adobe Experience Platform k
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 De geëxporteerde aanbiedingscatalogus openen
 
@@ -45,7 +45,7 @@ Ontdek via het menu Datasets hoe u de geëxporteerde aanbiedingencatalogus in Ad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 Referentie gegevensset met gepersonaliseerde aanbiedingen
 
@@ -55,7 +55,7 @@ Onderzoek de gebieden en het hiërarchische schema van de dataset voor gepersona
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 Gegevensoverzicht van beslissingen
 
@@ -65,7 +65,7 @@ Begrijp de hiërarchische structuur, gebiedsdefinities, en meta-gegevens van de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 Gegevens over plaatsingsgegevensset
 
@@ -75,7 +75,7 @@ Leer over de gebieden, het schema, en de meta-gegevens van de dataset van Plaats
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 De documentatie van de Dataset van de aanbiedingen van de reserve
 

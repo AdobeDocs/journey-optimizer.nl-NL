@@ -25,7 +25,7 @@ Met de API&#39;s voor levering van Adobe Journey Optimizer-aanbiedingen kunt u o
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
 
 Aan de slag met de levering-API&#39;s van aanbiedingen
 
@@ -35,7 +35,7 @@ Leer meer over de API&#39;s die beschikbaar zijn voor het aanbieden van persoonl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 Aanbiedingen leveren met behulp van de API voor besluitvorming
 
@@ -45,7 +45,7 @@ Maak en lever gepersonaliseerde marketingaanbiedingen met behulp van de API voor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Aanbiedingen leveren met de Edge-API voor besluitvorming
 
@@ -55,7 +55,7 @@ Implementeer de levering van persoonlijke aanbiedingen via de Adobe Experience P
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 De Batch-beslissings-API gebruiken om aanbiedingen te leveren
 

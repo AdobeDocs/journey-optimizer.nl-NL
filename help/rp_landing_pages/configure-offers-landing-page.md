@@ -25,7 +25,7 @@ Met de sectie &#39;Aanbiedingen configureren&#39; in Adobe Journey Optimizer kun
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Aangepaste aanbiedingen maken
 
@@ -35,7 +35,7 @@ Leer hoe u persoonlijke aanbiedingen kunt maken en beheren met stapsgewijze inst
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 Weergaven toevoegen aan voorstellen
 
@@ -45,7 +45,7 @@ Bepaal en vorm waar de aanbiedingen worden getoond gebruikend vertegenwoordiging
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
 
 Restricties toevoegen aan aanbiedingen
 
