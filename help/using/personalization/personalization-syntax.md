@@ -9,16 +9,16 @@ role: Developer
 level: Intermediate
 keywords: expressie, editor, syntaxis, personalisatie
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 9c013883e1bcdbf7dffffa599a910178def80e39
+source-git-commit: 5e9ce28bf19d2f4406ab4fd395b44b72894928e6
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '678'
 ht-degree: 1%
 
 ---
 
 # Personalization-syntaxis {#personalization-syntax}
 
-Personalization in [!DNL Journey Optimizer] is gebaseerd op de sjabloonsyntaxis Handlebars genoemd. Voor een volledige beschrijving van de syntaxis van Handlebars, verwijs naar [&#x200B; documentatie HandlebarsJS &#x200B;](https://handlebarsjs.com/).
+Personalization in [!DNL Journey Optimizer] is gebaseerd op de sjabloonsyntaxis Handlebars genoemd. Voor een volledige beschrijving van de syntaxis van Handlebars, verwijs naar [ documentatie HandlebarsJS ](https://handlebarsjs.com/).
 
 Er worden een sjabloon en een invoerobject gebruikt om HTML of andere tekstopmaak te genereren. Handlebars de malplaatjes kijken als regelmatige teksten met ingebedde uitdrukkingen Handlebars.
 
@@ -33,7 +33,7 @@ waarbij:
 
 ## Algemene syntaxisregels {#general-rules}
 
-* Id&#39;s kunnen eender welk unicode-teken zijn, behalve de volgende:
+* Id&#39;s kunnen eender welk unicode-teken zijn, behalve de volgende speciale tekens, die zijn gereserveerd voor de syntaxis Handlebars:
 
   ```
   Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
@@ -47,7 +47,7 @@ waarbij:
 
   Stel dat de waarde van het veld `profile.person.name` &quot;Mark &amp; Mary&quot; is. De syntaxis `{{profile.person.name}}` wordt weergegeven `Mark &amp; Mary` en `{{{profile.person.name}}}` `Mark & Mary` .
 
-* Wat argumenten voor letterlijke functies betreft, ondersteunt de sjabloontaalparser geen enkel unescaped backslash (`\`)-symbool. Dit teken moet met een extra backslash (`\`) worden beschermd. Voorbeeld:
+* Wat argumenten voor letterlijke functies betreft, ondersteunt de sjabloontaalparser geen enkel unescaped backslash (`\`)-symbool. Aan dit teken moet een extra backslash (`\`) worden toegevoegd. Voorbeeld:
 
   `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
@@ -75,11 +75,11 @@ Zonder de backticks, zal de verpersoonlijkingsredacteur bevestiging met een fout
 
 * **Profiel**
 
-  Dit namespace staat u toe om alle die attributen van verwijzingen te voorzien in het profielschema in [&#x200B; wordt beschreven het Model van Gegevens van Adobe Experience Platform (XDM) documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
+  Dit namespace staat u toe om alle die attributen van verwijzingen te voorzien in het profielschema in [ wordt beschreven het Model van Gegevens van Adobe Experience Platform (XDM) documentatie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
 
   De attributen moeten in het schema worden bepaald alvorens in een [!DNL Journey Optimizer] verpersoonlijkingsblok wordt van verwijzingen voorzien.
 
-  Voor meer informatie hoe te om profielattributen in voorwaarden te hefboomwerking, verwijs naar [&#x200B; deze sectie &#x200B;](functions/helpers.md#if-function).
+  Voor meer informatie hoe te om profielattributen in voorwaarden te hefboomwerking, verwijs naar [ deze sectie ](functions/helpers.md#if-function).
 
   +++Voorbeeldverwijzingen
 
@@ -95,7 +95,7 @@ Zonder de backticks, zal de verpersoonlijkingsredacteur bevestiging met een fout
 
 * **Doelgroep**
 
-  Meer over de segmentatiedienst leren, verwijs naar [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL){target="_blank"}.
+  Meer over de segmentatiedienst leren, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
 
 * **Aanbiedingen**
 
@@ -112,9 +112,9 @@ Zonder de backticks, zal de verpersoonlijkingsredacteur bevestiging met een fout
    * `Placement Id` en `Activity Id` zijn plaatsings- en activiteitsidentificatoren
    * `Attributes` zijn specifieke kenmerken die afhankelijk zijn van het aanbiedingstype. Voorbeeld: `deliveryUrl` voor afbeeldingen
 
-  Voor meer informatie over Besluiten API en op de vertegenwoordiging van de Aanbieding, verwijs naar [&#x200B; deze pagina &#x200B;](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+  Voor meer informatie over Besluiten API en op de vertegenwoordiging van de Aanbieding, verwijs naar [ deze pagina ](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
-  Alle verwijzingen worden bevestigd tegen het Schema van Aanbiedingen met een bevestigingsmechanisme dat op [&#x200B; wordt beschreven deze pagina &#x200B;](../personalization/personalization-build-expressions.md)
+  Alle verwijzingen worden bevestigd tegen het Schema van Aanbiedingen met een bevestigingsmechanisme dat op [ wordt beschreven deze pagina ](../personalization/personalization-build-expressions.md)
 
   +++Voorbeeldverwijzingen
 
@@ -136,7 +136,7 @@ Zonder de backticks, zal de verpersoonlijkingsredacteur bevestiging met een fout
 
   +++
 
-## Helpers{#helpers-all}
+## Helpers {#helpers-all}
 
 Een helper van Handlebars is een eenvoudig herkenningsteken dat door parameters kan worden gevolgd. Elke parameter is een expressie Handlebars. Deze helpers kunnen van om het even welke context in een malplaatje worden betreden.
 
@@ -144,7 +144,7 @@ Deze blokhelpers worden geïdentificeerd door een `#` voorafgaand aan de helpern
 
 Blokken zijn expressies met een blokopening (`{{# }}`) en een sluitend (`{{/}}`).
 
-Voor meer informatie over helperfuncties, verwijs [&#x200B; deze sectie &#x200B;](functions/helpers.md).
+     voor meer informatie over helperfuncties, verwijs naar [deze sectie] (functions/helpers.md).
 
 ## Letterlijke typen {#literal-types}
 
