@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
+source-git-commit: 955dbbf944e40cd18530c9777c7f06ad39e45563
 workflow-type: tm+mt
-source-wordcount: '3038'
+source-wordcount: '3041'
 ht-degree: 15%
 
 ---
@@ -235,8 +235,8 @@ ht-degree: 15%
       + [Goedkeuring aanvragen](using/test-approve/request-approval.md)
       + [Een verzoek goedkeuren](using/test-approve/review-approve-request.md)
 + Monitor en problemen oplossen {#monitor}
-   + [Bewaking en problemen oplossen](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-   + [Aan de slag met bijhouden](using/start/get-started-tracking.md)
+   + [Aan de slag met bewaking en probleemoplossing](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
+   + [Tekstspatiëring in Journey Optimizer](using/start/get-started-tracking.md)
    + E-maillevering {#deliverability}
       + [Aan de slag met de prestaties](using/reports/deliverability.md)
       + [De onderdrukkingslijst begrijpen](using/reports/suppression-list.md)
@@ -836,7 +836,7 @@ ht-degree: 15%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
