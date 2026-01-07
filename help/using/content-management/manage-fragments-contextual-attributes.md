@@ -9,10 +9,10 @@ role: User
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 4162403bedc1632ed28db122e2ec16e3c00a2630
+source-git-commit: 5a1a356d6bf0dbd5290b2cf8257d87aa7db43b5b
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 1%
+source-wordcount: '350'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 1%
 >
 >Deze mogelijkheid is alleen beschikbaar voor bepaalde klanten en houdt aanzienlijke risico&#39;s in. Bevestig met uw Adobe-vertegenwoordiger dat deze functie is ingeschakeld voor uw organisatie.
 
-Door gebrek, wordt het toevoegen van nieuwe [&#x200B; verpersoonlijkingsattributen &#x200B;](../personalization/personalization-build-expressions.md) aan een gepubliceerd fragment niet gesteund. Nadat een fragment is gepubliceerd, is de set met profiel of contextafhankelijke kenmerken vergrendeld voor alle campagnes en reizen.
+Door gebrek, wordt het toevoegen van nieuwe [ verpersoonlijkingsattributen ](../personalization/personalization-build-expressions.md) aan een gepubliceerd fragment niet gesteund. Nadat een fragment is gepubliceerd, is de set met profiel of contextafhankelijke kenmerken vergrendeld voor alle campagnes en reizen.
 
 Nochtans, voor uitgezochte klanten, is het mogelijk om **contextafhankelijke attributen** slechts aan gepubliceerde fragmenten toe te voegen.
 
@@ -82,8 +82,7 @@ Voer de onderstaande stappen uit om contextafhankelijke kenmerken aan een gepubl
 ## Verwante onderwerpen {#related-topics}
 
 * [Fragmenten beheren](manage-fragments.md)
-* [Visuele fragmenten in e-mails gebruiken](../email/use-visual-fragments.md)
-* [Expressiefragmenten gebruiken](../personalization/use-expression-fragments.md)
+* [Een fragment bewerken](manage-fragments.md#edit-fragments)
 * [API-gestuurde campagnes](../campaigns/api-triggered-campaigns.md)
 * [Personalization-syntaxis](../personalization/personalization-syntax.md)
 
