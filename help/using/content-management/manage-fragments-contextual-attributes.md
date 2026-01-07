@@ -22,7 +22,7 @@ ht-degree: 2%
 >
 >Deze mogelijkheid is alleen beschikbaar voor bepaalde klanten en houdt aanzienlijke risico&#39;s in. Bevestig met uw Adobe-vertegenwoordiger dat deze functie is ingeschakeld voor uw organisatie.
 
-Door gebrek, wordt het toevoegen van nieuwe [ verpersoonlijkingsattributen ](../personalization/personalization-build-expressions.md) aan een gepubliceerd fragment niet gesteund. Nadat een fragment is gepubliceerd, is de set met profiel of contextafhankelijke kenmerken vergrendeld voor alle campagnes en reizen.
+Door gebrek, wordt het toevoegen van nieuwe [&#x200B; verpersoonlijkingsattributen &#x200B;](../personalization/personalization-build-expressions.md) aan een gepubliceerd fragment niet gesteund. Nadat een fragment is gepubliceerd, is de set met profiel of contextafhankelijke kenmerken vergrendeld voor alle campagnes en reizen.
 
 Nochtans, voor uitgezochte klanten, is het mogelijk om **contextafhankelijke attributen** slechts aan gepubliceerde fragmenten toe te voegen.
 
