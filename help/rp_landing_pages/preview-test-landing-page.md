@@ -28,7 +28,7 @@ Zorg voor foutloze berichtlevering door fouten af te vangen voordat ze klanten b
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Uw inhoud voorvertonen en testen
 
@@ -38,7 +38,7 @@ Leer hoe u testprofielen en voorbeeldinvoergegevens gebruikt om inhoud voor te v
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Testprofielen selecteren
 
@@ -48,7 +48,7 @@ Ontdek hoe u testprofielen kunt selecteren en beheren om op maat gesneden inhoud
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Inhoud voorvertonen met testprofielen
 
@@ -58,7 +58,7 @@ Stapsgewijze handleiding voor het voorvertonen van gepersonaliseerde inhoud met 
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Proefdrukken verzenden met testprofielgegevens
 
@@ -68,7 +68,7 @@ Test en valideer uw e-mailberichten door proefdrukken te verzenden met behulp va
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/eye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
 
 E-mailrendering testen met Litmus
 
@@ -78,7 +78,7 @@ Integreer Litmus voor een voorvertoning van de e-mailrendering voor populaire e-
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Inhoudsvariaties simuleren en testen
 
@@ -98,11 +98,11 @@ Kies uw testbenadering op basis van uw doel:
 | **als u moet...** | **Gebruik dit hulpmiddel** |
 |----------------------|-------------------|
 | Verifieer correct verpersoonlijkingsvertoningen | [Testprofielen](../using/content-management/test-profiles.md) |
-| Test snel 10+ variaties in inhoud | [ de inputgegevens van de Steekproef ](../using/test-approve/simulate-sample-input.md) |
-| Vraag goedkeuring van belanghebbenden aan voordat u deze verzendt | [ verzendt proeven ](../using/content-management/proofs.md) |
-| E-mailweergave controleren in Gmail, Outlook, Apple Mail | [ Nul teruggevend ](../using/content-management/rendering.md) |
-| Inbox-plaatsing verbeteren | [ Spam- rapport ](../using/content-management/spam-report.md) |
-| Alle variaties tegelijk voorvertonen | [ wijze van de Voorproef ](../using/content-management/preview.md) |
+| Test snel 10+ variaties in inhoud | [&#x200B; de inputgegevens van de Steekproef &#x200B;](../using/test-approve/simulate-sample-input.md) |
+| Vraag goedkeuring van belanghebbenden aan voordat u deze verzendt | [&#x200B; verzendt proeven &#x200B;](../using/content-management/proofs.md) |
+| E-mailweergave controleren in Gmail, Outlook, Apple Mail | [&#x200B; Nul teruggevend &#x200B;](../using/content-management/rendering.md) |
+| Inbox-plaatsing verbeteren | [&#x200B; Spam- rapport &#x200B;](../using/content-management/spam-report.md) |
+| Alle variaties tegelijk voorvertonen | [&#x200B; wijze van de Voorproef &#x200B;](../using/content-management/preview.md) |
 
 ## Checklist testwerkstroom
 
@@ -123,13 +123,13 @@ Voer de volgende procedure uit voor uitgebreide validatie:
 **Context:** echte voorbeelden die tonen hoe te om het testen hulpmiddelen in typische gebruiksgevallen toe te passen.
 
 **Scenario 1: Het testen van gepersonaliseerde e-mails voor een multi-segmentcampagne**
-→ Gebruik [ gegevens van de steekproefinput ](../using/test-approve/simulate-sample-input.md) om 20-30 variaties te testen zonder individuele testprofielen tot stand te brengen. Upload een CSV met verschillende klantkenmerken en bekijk deze allemaal tegelijk.
+→ Gebruik [&#x200B; gegevens van de steekproefinput &#x200B;](../using/test-approve/simulate-sample-input.md) om 20-30 variaties te testen zonder individuele testprofielen tot stand te brengen. Upload een CSV met verschillende klantkenmerken en bekijk deze allemaal tegelijk.
 
 **Scenario 2: Het bevestigen e-mail die vóór belangrijk teruggeeft verzendt**
-→ Looppas [ de tests van de Leiding ](../using/content-management/rendering.md) om vertoning over hoogste e-mailcliënten te controleren, dan het [ spamrapport ](../using/content-management/spam-report.md) te controleren om inbox plaatsing te verzekeren.
+→ Looppas [&#x200B; de tests van de Leiding &#x200B;](../using/content-management/rendering.md) om vertoning over hoogste e-mailcliënten te controleren, dan het [&#x200B; spamrapport &#x200B;](../using/content-management/spam-report.md) te controleren om inbox plaatsing te verzekeren.
 
 **Scenario 3: Het krijgen van belanghebbende sign-off**
-→ [ verzend proef ](../using/content-management/proofs.md) aan interne recensenten met de gegevens van het testprofiel zodat zien zij precies welke klanten zullen ontvangen.
+→ [&#x200B; verzend proef &#x200B;](../using/content-management/proofs.md) aan interne recensenten met de gegevens van het testprofiel zodat zien zij precies welke klanten zullen ontvangen.
 
 ## Toetsen
 
@@ -142,4 +142,4 @@ Voer de volgende procedure uit voor uitgebreide validatie:
 
 - **[hoe te om het Rapport van Spam E-mail te gebruiken](../using/content-management/spam-report.md)** - evalueer de spamscore van e-mailinhoud gebruikend de eigenschap van het Rapport Spam om leveringsbaarheid te verbeteren.
 
-**Verwante onderwerpen:** [ test en keurt het landen pagina ](test-landing-page.md) goed | [ de werkschema&#39;s van de Goedkeuring ](approve-landing-page.md) | [ Creërend testprofielen ](../using/audience/creating-test-profiles.md)
+**Verwante onderwerpen:** [&#x200B; test en keurt het landen pagina &#x200B;](test-landing-page.md) goed | [&#x200B; de werkschema&#39;s van de Goedkeuring &#x200B;](approve-landing-page.md) | [&#x200B; Creërend testprofielen &#x200B;](../using/audience/creating-test-profiles.md)
